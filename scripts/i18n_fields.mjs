@@ -580,6 +580,17 @@ export const PATH_OVERRIDES = new Map([
   // but publishes no Grade 12 entry point. `jkk` and `g15` it shares with the
   // cards above; `g611` is its own key.
   ['comparison.rows[].cells.g611', true],
+  // Hickory Grove Christian ships FIVE bands — the first card in the area to do
+  // so — and four of its keys are its own. It names them after the school's own
+  // divisions rather than grade numbers (`es` = Elementary 1-5, `hs` = High
+  // 9-12), and `intl` is a genuinely separate F-1 process rather than an overlay
+  // on a grade band, so its cells carry the most prose of any column. `tkk5`
+  // pairs Transitional Kindergarten with K5, which no prior card splits that
+  // way; `ms` and `all` it shares with the cards above.
+  ['comparison.rows[].cells.tkk5', true],
+  ['comparison.rows[].cells.es', true],
+  ['comparison.rows[].cells.hs', true],
+  ['comparison.rows[].cells.intl', true],
   ['comparison.rows[].cells.all', true],
   // "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000" — the street
   // address round-trips char-for-char, but `main` is an English word labelling

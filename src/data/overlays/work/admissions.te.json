@@ -35,7 +35,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[2].label",
+        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ],
@@ -114,7 +114,8 @@
       "of": "75235da1",
       "at": [
         "providence-day:guide.bands[0].title",
-        "charlotte-latin:guide.bands[0].title"
+        "charlotte-latin:guide.bands[0].title",
+        "hickory-grove-christian:guide.bands[0].title"
       ],
       "t": "ట్రాన్సిషనల్ కిండర్‌గార్టెన్ మరియు కిండర్‌గార్టెన్"
     },
@@ -218,7 +219,15 @@
         "covenant-day:guide.bands[1].steps[0].tag",
         "covenant-day:guide.bands[1].checklistRows[0].due",
         "covenant-day:guide.bands[2].steps[0].tag",
-        "covenant-day:guide.bands[2].checklistRows[0].due"
+        "covenant-day:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[0].steps[0].tag",
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[1].steps[0].tag",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[2].steps[0].tag",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[3].steps[0].tag",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].due"
       ],
       "t": "శరత్కాలం 2026"
     },
@@ -1160,7 +1169,8 @@
         "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title",
-        "covenant-day:guide.aid.title"
+        "covenant-day:guide.aid.title",
+        "hickory-grove-christian:guide.aid.title"
       ],
       "t": "సమాంతరంగా: ఆర్థిక సహాయ కాలపట్టిక"
     },
@@ -1180,7 +1190,8 @@
         "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button",
-        "covenant-day:guide.aid.button"
+        "covenant-day:guide.aid.button",
+        "hickory-grove-christian:guide.aid.button"
       ],
       "t": "ఆర్థిక సహాయం మరియు ట్యూషన్"
     },
@@ -1192,7 +1203,8 @@
         "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker",
-        "covenant-day:guide.comparison.kicker"
+        "covenant-day:guide.comparison.kicker",
+        "hickory-grove-christian:guide.comparison.kicker"
       ],
       "t": "స్థాయుల మధ్య"
     },
@@ -1204,7 +1216,8 @@
         "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title",
-        "covenant-day:guide.comparison.title"
+        "covenant-day:guide.comparison.title",
+        "hickory-grove-christian:guide.comparison.title"
       ],
       "t": "స్థాయుల మధ్య సరిగ్గా ఏమి మారుతుంది"
     },
@@ -1233,7 +1246,8 @@
       "of": "7f464e4f",
       "at": [
         "providence-day:guide.comparison.rows[2].label",
-        "charlotte-christian:guide.comparison.rows[1].label"
+        "charlotte-christian:guide.comparison.rows[1].label",
+        "hickory-grove-christian:guide.comparison.rows[3].label"
       ],
       "t": "మూల్యాంకనం"
     },
@@ -1334,7 +1348,8 @@
         "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker",
-        "covenant-day:guide.contacts.kicker"
+        "covenant-day:guide.contacts.kicker",
+        "hickory-grove-christian:guide.contacts.kicker"
       ],
       "t": "సంప్రదింపులు"
     },
@@ -1347,7 +1362,8 @@
         "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title",
-        "covenant-day:guide.contacts.title"
+        "covenant-day:guide.contacts.title",
+        "hickory-grove-christian:guide.contacts.title"
       ],
       "t": "ప్రవేశాల కార్యాలయం"
     },
@@ -1439,7 +1455,8 @@
         "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker",
-        "covenant-day:guide.checklist.aidPanel.kicker"
+        "covenant-day:guide.checklist.aidPanel.kicker",
+        "hickory-grove-christian:guide.checklist.aidPanel.kicker"
       ],
       "t": "సమాంతరంగా — ఆర్థిక సహాయ కాలపట్టిక"
     },
@@ -1467,7 +1484,8 @@
         "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker",
-        "covenant-day:guide.checklist.contactPanel.kicker"
+        "covenant-day:guide.checklist.contactPanel.kicker",
+        "hickory-grove-christian:guide.checklist.contactPanel.kicker"
       ],
       "t": "ప్రశ్నలు — ప్రవేశాల కార్యాలయం"
     },
@@ -1512,18 +1530,10 @@
       "t": "మీ పిల్లల ప్రవేశ స్థాయిని ఎంచుకోండి, మార్గదర్శి దానికి తగినట్లు మారుతుంది: దశలు వరుసక్రమంలో, 2026–27 గడువులు, ఆ స్థాయికి వర్తించే పరీక్షలు — వీటితో పాటు వెంట తీసుకెళ్లదగిన ముద్రించదగిన చెక్‌లిస్ట్. ఒకే వరుసపై నాలుగు మార్గాలు, వాటి మధ్య మారేవి — పరీక్ష, Visit Day ఎవరు నిర్ణయిస్తారు, ఇంటర్వ్యూ ఉందా లేదా, గడువు."
     },
     {
-      "text": "entry bands — TK/K, Grades 1–5, 6–8 and 9–12",
-      "of": "70c840a2",
-      "at": [
-        "charlotte-latin:guide.stats[0].label"
-      ],
-      "t": "ప్రవేశ స్థాయిలు — TK/K, తరగతులు 1–5, 6–8, 9–12"
-    },
-    {
       "text": "TK/Kindergarten application deadline — 13 days ahead of every other grade",
       "of": "af3286a6",
       "at": [
-        "charlotte-latin:guide.stats[1].label"
+        "charlotte-latin:guide.stats[0].label"
       ],
       "t": "TK/Kindergarten దరఖాస్తు గడువు — మిగతా అన్ని తరగతుల కంటే 13 రోజులు ముందు"
     },
@@ -1531,7 +1541,7 @@
       "text": "non-refundable enrollment deposit",
       "of": "5b3b8389",
       "at": [
-        "charlotte-latin:guide.stats[3].label"
+        "charlotte-latin:guide.stats[2].label"
       ],
       "t": "తిరిగి ఇవ్వబడని ప్రవేశ డిపాజిట్"
     },
@@ -2083,7 +2093,8 @@
       "text": "Middle School — Grades 6–8",
       "of": "6850595d",
       "at": [
-        "charlotte-latin:guide.bands[2].title"
+        "charlotte-latin:guide.bands[2].title",
+        "hickory-grove-christian:guide.bands[2].title"
       ],
       "t": "Middle School — తరగతులు 6–8"
     },
@@ -2510,7 +2521,8 @@
         "charlotte-latin:guide.comparison.rows[7].label",
         "charlotte-christian:guide.comparison.rows[10].label",
         "charlotte-country-day:guide.comparison.rows[8].label",
-        "covenant-day:guide.comparison.rows[9].label"
+        "covenant-day:guide.comparison.rows[9].label",
+        "hickory-grove-christian:guide.comparison.rows[8].label"
       ],
       "t": "ప్రతి స్థాయిలోనూ మారనివి"
     },
@@ -2704,7 +2716,7 @@
       "of": "64501c19",
       "at": [
         "charlotte-christian:guide.stats[2].label",
-        "covenant-day:guide.stats[3].label"
+        "covenant-day:guide.stats[2].label"
       ],
       "t": "దరఖాస్తు రుసుము — తిరిగి ఇవ్వబడదు, అన్ని తరగతులకూ"
     },
@@ -3149,7 +3161,31 @@
         "covenant-day:guide.bands[1].checklistRows[7].due",
         "covenant-day:guide.bands[2].checklistRows[6].due",
         "covenant-day:guide.bands[2].checklistRows[7].due",
-        "covenant-day:guide.bands[2].checklistRows[8].due"
+        "covenant-day:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].due"
       ],
       "t": "దరఖాస్తు తర్వాత"
     },
@@ -3549,7 +3585,15 @@
       "of": "95231371",
       "at": [
         "charlotte-christian:guide.bands[2].checklistRows[6].action",
-        "charlotte-christian:guide.bands[3].checklistRows[9].action"
+        "charlotte-christian:guide.bands[3].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[0].steps[5].title",
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[1].steps[4].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[2].steps[4].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].action",
+        "hickory-grove-christian:guide.bands[3].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].action"
       ],
       "t": "కుటుంబ ఇంటర్వ్యూకు హాజరుకండి"
     },
@@ -4197,7 +4241,8 @@
       "of": "639aa0b9",
       "at": [
         "charlotte-country-day:guide.cycle",
-        "covenant-day:guide.cycle"
+        "covenant-day:guide.cycle",
+        "hickory-grove-christian:guide.cycle"
       ],
       "t": "2027–28 ప్రవేశ చక్రం"
     },
@@ -5177,18 +5222,10 @@
       "t": "మీ పిల్లల ప్రవేశ స్థాయిని ఎంచుకోండి, మార్గదర్శిని దానికి తగ్గట్టు మారుతుంది: ప్రచురించిన ఆరు దశలు వరుసలో, 2027–28 గడువులు, ఆ స్థాయికి సంబంధించిన పరీక్ష — వెంట తీసుకెళ్లేందుకు ముద్రించదగిన జాబితా కూడా. దరఖాస్తుదారులందరికీ ఒకే మార్గం, కానీ గడువు Kindergarten నుంచి 1వ తరగతికి మధ్య విడిపోతుంది, పరీక్ష మాత్రం 1–5 తరగతుల లోపలే రెండుసార్లు మారుతుంది."
     },
     {
-      "text": "entry bands — JK/K, Grades 1–5, Grades 6–11",
-      "of": "6fb06a60",
-      "at": [
-        "covenant-day:guide.stats[0].label"
-      ],
-      "t": "ప్రవేశ స్థాయిలు — JK/K, 1–5 తరగతులు, 6–11 తరగతులు"
-    },
-    {
       "text": "JK/K priority deadline — two weeks ahead of everyone else",
       "of": "6746bc3d",
       "at": [
-        "covenant-day:guide.stats[1].label"
+        "covenant-day:guide.stats[0].label"
       ],
       "t": "JK/K ప్రాధాన్య గడువు — మిగతా అందరి కంటే రెండు వారాల ముందు"
     },
@@ -5196,7 +5233,7 @@
       "text": "Grades 1–11 priority deadline",
       "of": "90be6afd",
       "at": [
-        "covenant-day:guide.stats[2].label"
+        "covenant-day:guide.stats[1].label"
       ],
       "t": "1–11 తరగతుల ప్రాధాన్య గడువు"
     },
@@ -5340,7 +5377,11 @@
       "at": [
         "covenant-day:guide.bands[0].steps[4].tag",
         "covenant-day:guide.bands[1].steps[4].tag",
-        "covenant-day:guide.bands[2].steps[4].tag"
+        "covenant-day:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[0].steps[3].tag",
+        "hickory-grove-christian:guide.bands[1].steps[2].tag",
+        "hickory-grove-christian:guide.bands[2].steps[2].tag",
+        "hickory-grove-christian:guide.bands[3].steps[2].tag"
       ],
       "t": "దరఖాస్తు తర్వాత"
     },
@@ -5970,7 +6011,9 @@
       "of": "61e6be1a",
       "at": [
         "covenant-day:guide.comparison.rows[3].cells.jkk",
-        "covenant-day:guide.comparison.rows[3].cells.g15"
+        "covenant-day:guide.comparison.rows[3].cells.g15",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.es"
       ],
       "t": "లేదు"
     },
@@ -5986,7 +6029,8 @@
       "text": "Recommendation forms",
       "of": "f250a57d",
       "at": [
-        "covenant-day:guide.comparison.rows[4].label"
+        "covenant-day:guide.comparison.rows[4].label",
+        "hickory-grove-christian:guide.comparison.rows[1].label"
       ],
       "t": "సిఫారసు ఫారాలు"
     },
@@ -6010,7 +6054,9 @@
       "text": "Math + English + principal/counselor + pastor",
       "of": "b819b98e",
       "at": [
-        "covenant-day:guide.comparison.rows[4].cells.g611"
+        "covenant-day:guide.comparison.rows[4].cells.g611",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.hs"
       ],
       "t": "గణితం + ఆంగ్లం + ప్రధానోపాధ్యాయుడు/సలహాదారు + పాస్టర్"
     },
@@ -6230,6 +6276,1920 @@
         "covenant-day:guide.checklist.disclaimer"
       ],
       "t": "తేదీలు 2027–28 ప్రవేశ చక్రానివి, covenantday.org లో ప్రచురించిన విధంగా, సెప్టెంబర్ 2026 లో సేకరించినవి — ముఖ్య తేదీల క్యాలెండర్, ఆరు ప్రవేశ దశలు, దరఖాస్తు పేజీ, ఇవన్నీ పరస్పరం సరిపోతాయి. చక్ర తేదీలు సంవత్సరానికి మారతాయి — చర్య తీసుకునే ముందు ప్రత్యక్ష క్యాలెండర్‌లో నిర్ధారించుకోండి. Charlotte School Compare సంకలనం చేసింది; Covenant Day School తో సంబంధం లేదు."
+    },
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the full application sequence in order, the 2027–28 application windows, and the forms and testing for that band — plus a printable checklist to take with you. One spine for every domestic applicant, but the priority window opens two weeks early for church members, Early Education Center families and current-student siblings, and the F-1 international process is a separate one end to end.",
+      "of": "3d1ccf3e",
+      "at": [
+        "hickory-grove-christian:guide.headline"
+      ],
+      "t": "మీ పిల్లల ప్రవేశ స్థాయిని ఎంచుకోండి, మార్గదర్శి దానికి తగినట్లు మారుతుంది: పూర్తి దరఖాస్తు వరుసక్రమం, 2027–28 దరఖాస్తు గడువు కాలాలు, ఆ స్థాయికి వర్తించే ఫారాలు, పరీక్షలు — వీటితో పాటు వెంట తీసుకెళ్లదగిన ముద్రించదగిన చెక్‌లిస్ట్. దేశీయ దరఖాస్తుదారులందరికీ ఒకే వరుస, కానీ చర్చి సభ్యులు, Early Education Center కుటుంబాలు, ప్రస్తుత విద్యార్థుల తోబుట్టువుల కోసం ప్రాధాన్య గడువు కాలం రెండు వారాలు ముందుగానే తెరుచుకుంటుంది, F-1 అంతర్జాతీయ ప్రక్రియ మొదటి నుంచి చివరి వరకు వేరుగా ఉంటుంది."
+    },
+    {
+      "text": "priority window opens — church members, EEC students, siblings",
+      "of": "b6ba26cc",
+      "at": [
+        "hickory-grove-christian:guide.stats[0].label"
+      ],
+      "t": "ప్రాధాన్య గడువు కాలం తెరుచుకుంటుంది — చర్చి సభ్యులు, EEC విద్యార్థులు, తోబుట్టువులు"
+    },
+    {
+      "text": "applications open to the public",
+      "of": "0ae2d1d5",
+      "at": [
+        "hickory-grove-christian:guide.stats[1].label",
+        "hickory-grove-christian:guide.bands[0].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[1].label"
+      ],
+      "t": "అందరికీ దరఖాస్తులు తెరుచుకుంటాయి"
+    },
+    {
+      "text": "enrollment deposit on acceptance — applied toward tuition",
+      "of": "09f05c01",
+      "at": [
+        "hickory-grove-christian:guide.stats[2].label"
+      ],
+      "t": "ప్రవేశం లభించినప్పుడు ప్రవేశ డిపాజిట్ — ట్యూషన్‌లో సర్దుబాటు చేయబడుతుంది"
+    },
+    {
+      "text": "One portal, two campuses.",
+      "of": "242d24c6",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].title"
+      ],
+      "t": "ఒకే పోర్టల్, రెండు క్యాంపస్‌లు."
+    },
+    {
+      "text": "Everything runs through FACTS: inquire, apply, and track which supplemental forms have arrived. Harris and Mallard Creek use separate portals, so apply through the one for your campus.",
+      "of": "beedf199",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].text"
+      ],
+      "t": "అంతా FACTS ద్వారానే జరుగుతుంది: విచారణ, దరఖాస్తు, ఏఏ అనుబంధ ఫారాలు అందాయో అనుసరించడం. Harris, Mallard Creek వేర్వేరు పోర్టల్‌లను ఉపయోగిస్తాయి, కాబట్టి మీ క్యాంపస్‌కు సంబంధించిన పోర్టల్ ద్వారానే దరఖాస్తు చేయండి."
+    },
+    {
+      "text": "Two windows, then rolling admission.",
+      "of": "cefb5cab",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].title"
+      ],
+      "t": "రెండు గడువు కాలాలు, ఆ తర్వాత నిరంతర ప్రవేశాలు."
+    },
+    {
+      "text": "Church members, Early Education Center students and current-student siblings apply from Nov 2, 2026; everyone else from Nov 16. That is an earlier place in the queue, not a discount — after those dates, admission is rolling.",
+      "of": "6c028ff5",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].text"
+      ],
+      "t": "చర్చి సభ్యులు, Early Education Center విద్యార్థులు, ప్రస్తుత విద్యార్థుల తోబుట్టువులు Nov 2, 2026 నుంచి దరఖాస్తు చేయవచ్చు; మిగతా అందరూ Nov 16 నుంచి. ఇది క్యూలో ముందు స్థానం మాత్రమే, రుసుము తగ్గింపు కాదు — ఆ తేదీల తర్వాత ప్రవేశాలు నిరంతరంగా సాగుతాయి."
+    },
+    {
+      "text": "One shared spine in every domestic band — submit the inquiry form → arrange your visit → apply in FACTS and pay the application fee → send the forms your band requires → sit the entrance testing, which is scheduled only once every form has arrived → attend the family interview → receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this and is set out in its own band.",
+      "of": "a2238ddf",
+      "at": [
+        "hickory-grove-christian:guide.spineNote"
+      ],
+      "t": "ప్రతి దేశీయ స్థాయిలోనూ ఒకే వరుస — విచారణ ఫారం సమర్పించండి → సందర్శన ఏర్పాటు చేసుకోండి → FACTS లో దరఖాస్తు చేసి దరఖాస్తు రుసుము చెల్లించండి → మీ స్థాయికి అవసరమైన ఫారాలు పంపండి → ప్రవేశ పరీక్ష రాయండి, ప్రతి ఫారం అందిన తర్వాతే దీనికి సమయం కేటాయిస్తారు → కుటుంబ ఇంటర్వ్యూకు హాజరవ్వండి → నిర్ణయాన్ని లిఖితపూర్వకంగా అందుకోండి → $500 ప్రవేశ డిపాజిట్ చెల్లించండి. స్థాయిల మధ్య మారేది — ఏ ఫారాలు పంపాలి, షాడో డే ఉందా లేదా, ప్లేస్‌మెంట్ పరీక్ష వర్తిస్తుందా అనేవి. అంతర్జాతీయ F-1 ప్రక్రియ దీనిలో చాలా భాగాన్ని భర్తీ చేస్తుంది, అది దాని సొంత స్థాయిలో వివరించబడింది."
+    },
+    {
+      "text": "TK / K5",
+      "of": "c4921f8b",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].label"
+      ],
+      "t": "TK / K5"
+    },
+    {
+      "text": "Readiness screening · age cutoffs",
+      "of": "4bc7a523",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].sublabel"
+      ],
+      "t": "సన్నద్ధత పరీక్ష · వయస్సు గడువులు"
+    },
+    {
+      "text": "priority window opens — members, EEC, siblings",
+      "of": "f2289bb7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[0].label"
+      ],
+      "t": "ప్రాధాన్య గడువు కాలం తెరుచుకుంటుంది — సభ్యులు, EEC, తోబుట్టువులు"
+    },
+    {
+      "text": "enrollment deposit on acceptance",
+      "of": "31d3187f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+      ],
+      "t": "ప్రవేశం లభించినప్పుడు ప్రవేశ డిపాజిట్"
+    },
+    {
+      "text": "Send the inquiry form, then arrange a visit",
+      "of": "ec7cfe82",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].title",
+        "hickory-grove-christian:guide.bands[1].steps[0].title",
+        "hickory-grove-christian:guide.bands[2].steps[0].title",
+        "hickory-grove-christian:guide.bands[3].steps[0].title"
+      ],
+      "t": "విచారణ ఫారం పంపి, ఆపై సందర్శన ఏర్పాటు చేసుకోండి"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** is launching a **classical Christian TK and Kindergarten** that grows one grade a year, with students moving to Harris at middle school.",
+      "of": "8b2d59d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].detail"
+      ],
+      "t": "మొదటి రెండు దశలు ప్రవేశాల పేజీ నుంచి లింక్ చేసిన చిన్న ఫారాలు — ఒకటి విచారణ, ఆపై క్యాంపస్ సందర్శన కోసం అభ్యర్థన. మీరు ఏ క్యాంపస్‌కు దరఖాస్తు చేస్తున్నారో నిర్ణయించుకోవాల్సిన దశ కూడా ఇదే: **Harris** క్యాంపస్ మిగిలిన TK–12 తరగతులతో పాటు Transitional Kindergarten, Kindergarten నడుపుతుంది, అయితే **Mallard Creek** **శాస్త్రీయ క్రైస్తవ TK, Kindergarten** ప్రారంభిస్తోంది, ఇది ఏటా ఒక తరగతి చొప్పున పెరుగుతుంది, విద్యార్థులు మిడిల్ స్కూల్‌కు వచ్చేసరికి Harris కు మారుతారు."
+    },
+    {
+      "text": "Check which grade your child is eligible for",
+      "of": "3ba53718",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].title"
+      ],
+      "t": "మీ పిల్లలు ఏ తరగతికి అర్హులో సరిచూసుకోండి"
+    },
+    {
+      "text": "before applying",
+      "of": "1130444e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].tag"
+      ],
+      "t": "దరఖాస్తు చేసే ముందు"
+    },
+    {
+      "text": "The two youngest grades are split by birthday. A child turning five **by October 16** of the school year applied for is eligible for **Kindergarten (K5)**; a child turning five **on or before April 16** is eligible for **Transitional Kindergarten (TK)**, which the school describes as a bridge between preschool and kindergarten, giving a child time to develop the fundamental skills kindergarten expects. The birthday is not the whole decision — see the readiness screening below. TK is the earliest K–12 entry point; younger children are enrolled through the **Early Education Center** office rather than this process.",
+      "of": "6131bdff",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].detail"
+      ],
+      "t": "అతి చిన్న రెండు తరగతులు పుట్టిన తేదీ ఆధారంగా విభజించబడతాయి. దరఖాస్తు చేసిన విద్యా సంవత్సరంలో **October 16 నాటికి** ఐదేళ్లు నిండే పిల్లలు **Kindergarten (K5)** కు అర్హులు; **April 16 నాటికి లేదా అంతకు ముందు** ఐదేళ్లు నిండే పిల్లలు **Transitional Kindergarten (TK)** కు అర్హులు. దీనిని పాఠశాల ప్రీస్కూల్‌కు, కిండర్‌గార్టెన్‌కు మధ్య వారధిగా వర్ణిస్తుంది — కిండర్‌గార్టెన్ ఆశించే ప్రాథమిక నైపుణ్యాలను పెంపొందించుకునేందుకు పిల్లలకు సమయం ఇస్తుంది. పుట్టిన తేదీ ఒక్కటే నిర్ణయం కాదు — కింది సన్నద్ధత పరీక్షను చూడండి. TK అనేది K–12 లో అతి చిన్న ప్రవేశ స్థాయి; అంతకంటే చిన్న పిల్లలను ఈ ప్రక్రియ ద్వారా కాకుండా **Early Education Center** కార్యాలయం ద్వారా చేర్చుకుంటారు."
+    },
+    {
+      "text": "Apply in FACTS and pay the application fee",
+      "of": "5835dc0f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].title",
+        "hickory-grove-christian:guide.bands[1].steps[1].title",
+        "hickory-grove-christian:guide.bands[2].steps[1].title",
+        "hickory-grove-christian:guide.bands[3].steps[1].title"
+      ],
+      "t": "FACTS లో దరఖాస్తు చేసి దరఖాస్తు రుసుము చెల్లించండి"
+    },
+    {
+      "text": "from Nov 2 or Nov 16",
+      "of": "26c07375",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].tag",
+        "hickory-grove-christian:guide.bands[1].steps[1].tag",
+        "hickory-grove-christian:guide.bands[2].steps[1].tag",
+        "hickory-grove-christian:guide.bands[3].steps[1].tag"
+      ],
+      "t": "Nov 2 లేదా Nov 16 నుంచి"
+    },
+    {
+      "text": "Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. Whether Mallard Creek's classical TK and Kindergarten follow different steps or dates from Harris is **not published**, so confirm with the admissions office if you are applying there. Send your child's **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.",
+      "of": "b0b3a64e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].detail"
+      ],
+      "t": "మీ క్యాంపస్‌కు సంబంధించిన FACTS పోర్టల్ ద్వారా దరఖాస్తు చేయండి — **Harris, Mallard Creek వేర్వేరు పోర్టల్‌లను ఉపయోగిస్తాయి**. Mallard Creek శాస్త్రీయ TK, Kindergarten కు Harris కంటే వేరే దశలు లేదా తేదీలు వర్తిస్తాయా అనేది **ప్రచురించలేదు**, కాబట్టి అక్కడ దరఖాస్తు చేస్తుంటే ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి. మీ పిల్లల **జనన ధ్రువీకరణ పత్రం**, **Immunization Registry Record** దరఖాస్తుతో పాటు పంపండి. రుసుము గురించి: పాఠశాల **May 31, 2026 వరకు సాగిన కాలానికి $250**, **June 1, 2026 నుంచి $500** అని ప్రచురిస్తుంది, కానీ ఆ ప్రచురిత కాలం November 2026 దరఖాస్తు తేదీల కంటే ముందుది — **చెల్లించే ముందు ప్రస్తుత రుసుమును ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి**."
+    },
+    {
+      "text": "Send the three forms this band requires",
+      "of": "a6c25c1c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].title"
+      ],
+      "t": "ఈ స్థాయికి అవసరమైన మూడు ఫారాలు పంపండి"
+    },
+    {
+      "text": "Three forms complete a TK or K5 file: an **Information form**; a **Readiness Checklist**, completed by your child's preschool or daycare teacher; and a **Personal Recommendation form from your family's pastor**, which is required at every grade from TK through 12. Send all three promptly — nothing is scheduled until the admissions office has every one of them.",
+      "of": "77555d76",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].detail"
+      ],
+      "t": "TK లేదా K5 ఫైల్ పూర్తి కావాలంటే మూడు ఫారాలు కావాలి: ఒక **Information form**; మీ పిల్లల ప్రీస్కూల్ లేదా డేకేర్ ఉపాధ్యాయుడు పూరించే **Readiness Checklist**; అలాగే **మీ కుటుంబ పాస్టర్ ఇచ్చే Personal Recommendation form**, ఇది TK నుంచి 12 వరకు ప్రతి తరగతికీ తప్పనిసరి. మూడింటినీ వెంటనే పంపండి — ప్రవేశాల కార్యాలయానికి ప్రతి ఒక్కటీ అందేవరకు దేనికీ సమయం కేటాయించరు."
+    },
+    {
+      "text": "Sit the readiness screening",
+      "of": "b8760e48",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].title"
+      ],
+      "t": "సన్నద్ధత పరీక్ష రాయండి"
+    },
+    {
+      "text": "after all forms arrive",
+      "of": "ceda396c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].tag",
+        "hickory-grove-christian:guide.bands[1].steps[3].tag",
+        "hickory-grove-christian:guide.bands[2].steps[3].tag",
+        "hickory-grove-christian:guide.bands[3].steps[4].tag"
+      ],
+      "t": "అన్ని ఫారాలు అందిన తర్వాత"
+    },
+    {
+      "text": "Your child takes a **developmentally appropriate skills assessment** during the admissions process, and qualifying for the program depends on passing it — this is what settles TK-versus-K5 placement alongside the birthday cutoffs. Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**, so a single outstanding form holds up the whole timeline. The school does not publish which instrument it uses.",
+      "of": "7cf05845",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].detail"
+      ],
+      "t": "ప్రవేశ ప్రక్రియలో భాగంగా మీ పిల్లలు **వయస్సుకు తగిన నైపుణ్య మూల్యాంకనం** రాస్తారు, కార్యక్రమానికి అర్హత సాధించడం దానిలో ఉత్తీర్ణత మీద ఆధారపడి ఉంటుంది — వయస్సు గడువులతో పాటు TK వర్సెస్ K5 స్థాన నిర్ణయాన్ని తేల్చేది ఇదే. పరీక్షను **Student Services** కార్యాలయం ద్వారా ఏర్పాటు చేస్తారు, **అవసరమైన అన్ని ఫారాలూ ప్రవేశాల కార్యాలయానికి అందిన తర్వాతే** దీనికి సమయం కేటాయిస్తారు, కాబట్టి ఒక్క ఫారం పెండింగ్‌లో ఉన్నా మొత్తం కాలపట్టిక ఆగిపోతుంది. ఏ పరీక్షా సాధనాన్ని ఉపయోగిస్తారో పాఠశాల ప్రచురించలేదు."
+    },
+    {
+      "text": "after testing",
+      "of": "e08f0319",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].tag",
+        "hickory-grove-christian:guide.bands[1].steps[4].tag",
+        "hickory-grove-christian:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[3].steps[5].tag"
+      ],
+      "t": "పరీక్ష తర్వాత"
+    },
+    {
+      "text": "The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as an opportunity to share its **mission, vision and statement of faith**, and to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian** — what is required is the pastor's recommendation form and this conversation.",
+      "of": "a7b32e23",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].detail",
+        "hickory-grove-christian:guide.bands[1].steps[4].detail",
+        "hickory-grove-christian:guide.bands[2].steps[4].detail",
+        "hickory-grove-christian:guide.bands[3].steps[5].detail"
+      ],
+      "t": "మునుపటి దశలు పూర్తయి బాగా సాగిన తర్వాత కుటుంబ ఇంటర్వ్యూకు సమయం కేటాయిస్తారు. దీనిని పాఠశాల తన **లక్ష్యం, దృక్పథం, విశ్వాస ప్రకటన**ను పంచుకునే అవకాశంగా, అలాగే Hickory Grove మీ కుటుంబానికి సరైనదా అని అంచనా వేసే అవకాశంగా వర్ణిస్తుంది. **తల్లిదండ్రులు క్రైస్తవ విశ్వాసులై ఉండాలనే నిబంధన ఏదీ ప్రచురించలేదు** — అవసరమైనవి పాస్టర్ సిఫార్సు ఫారం, ఈ సంభాషణ మాత్రమే."
+    },
+    {
+      "text": "Decision, then the $500 deposit",
+      "of": "4a1a7c50",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].title",
+        "hickory-grove-christian:guide.bands[1].steps[5].title",
+        "hickory-grove-christian:guide.bands[2].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].steps[6].title"
+      ],
+      "t": "నిర్ణయం, ఆపై $500 డిపాజిట్"
+    },
+    {
+      "text": "rolling",
+      "of": "086a38f2",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].tag",
+        "hickory-grove-christian:guide.bands[1].steps[5].tag",
+        "hickory-grove-christian:guide.bands[2].steps[5].tag",
+        "hickory-grove-christian:guide.bands[3].steps[6].tag"
+      ],
+      "t": "నిరంతరం"
+    },
+    {
+      "text": "The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.",
+      "of": "f1e7909d",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].detail",
+        "hickory-grove-christian:guide.bands[1].steps[5].detail",
+        "hickory-grove-christian:guide.bands[2].steps[5].detail"
+      ],
+      "t": "తుది నిర్ణయాన్ని **లిఖితపూర్వకంగా తెలియజేస్తారు**, అందులో సంతృప్తికరమైన మార్కులు, సిఫార్సు లేఖలు, ఇంటర్వ్యూ, ప్రవర్తన నివేదికలు, ప్రవేశ పరీక్ష, ఫైల్‌లో ఉన్న IEP, 504 లేదా మానసిక-విద్యా మూల్యాంకనం పరిగణనలోకి వస్తాయి. **నిర్దిష్ట సమాచార తేదీ ఏదీ ప్రచురించలేదు** — ప్రవేశాలు నిరంతరంగా సాగుతాయి, ఆ తరగతిలో సీట్ల లభ్యతపై ఆధారపడి ఉంటాయి. ప్రవేశం లభించినప్పుడు **వాపసు ఇవ్వని $500 డిపాజిట్** చెల్లించాలి, అది ట్యూషన్‌లో సర్దుబాటు అవుతుంది."
+    },
+    {
+      "text": "Testing is not scheduled until every form is in.",
+      "of": "64f124e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "ప్రతి ఫారం అందేవరకు పరీక్షకు సమయం కేటాయించరు."
+    },
+    {
+      "text": "The readiness screening that settles TK-versus-K5 placement is arranged through Student Services only after the admissions office has received the Information form, the Readiness Checklist from your child's preschool or daycare teacher, and the pastor's Personal Recommendation form. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.",
+      "of": "66185ba4",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "TK వర్సెస్ K5 స్థాన నిర్ణయాన్ని తేల్చే సన్నద్ధత పరీక్షను Student Services ద్వారా ఏర్పాటు చేస్తారు, అది కూడా Information form, మీ పిల్లల ప్రీస్కూల్ లేదా డేకేర్ ఉపాధ్యాయుడు ఇచ్చే Readiness Checklist, పాస్టర్ Personal Recommendation form — ఇవన్నీ ప్రవేశాల కార్యాలయానికి అందిన తర్వాతే. చర్చి సభ్యులు, Early Education Center విద్యార్థులు, ప్రస్తుత విద్యార్థుల తోబుట్టువుల కోసం దరఖాస్తులు నవంబర్ 2న తెరుచుకుంటాయి, మిగతా అందరికీ నవంబర్ 16న; ఆ తర్వాత ప్రవేశాలు నిరంతరంగా, సీట్ల లభ్యతపై ఆధారపడి సాగుతాయి, నిర్దిష్ట సమాచార తేదీ ఉండదు. రికార్డులో ఏవైనా సస్పెన్షన్లు, బహిష్కరణలు లేదా ఫెయిల్ అయిన కోర్సులు ఉంటే ప్రవేశం స్వయంచాలకంగా తిరస్కరించబడుతుందని గమనించండి."
+    },
+    {
+      "text": "Submit the inquiry form and request a campus visit",
+      "of": "405411b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].action"
+      ],
+      "t": "విచారణ ఫారం సమర్పించి క్యాంపస్ సందర్శనను కోరండి"
+    },
+    {
+      "text": "Both are short forms linked from the admissions page. Decide Harris or Mallard Creek here.",
+      "of": "007e9989",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].detail"
+      ],
+      "t": "రెండూ ప్రవేశాల పేజీ నుంచి లింక్ చేసిన చిన్న ఫారాలే. Harris నా Mallard Creek నా అనేది ఇక్కడే నిర్ణయించుకోండి."
+    },
+    {
+      "text": "Confirm whether your child is eligible for TK or K5",
+      "of": "e4be2401",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].action"
+      ],
+      "t": "మీ పిల్లలు TK కా లేక K5 కా అర్హులో నిర్ధారించుకోండి"
+    },
+    {
+      "text": "Five by Oct 16 for K5; five on or before Apr 16 for TK. The screening also weighs readiness.",
+      "of": "80653d29",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].detail"
+      ],
+      "t": "K5 కు Oct 16 నాటికి ఐదేళ్లు; TK కు Apr 16 నాటికి లేదా అంతకు ముందు ఐదేళ్లు. సన్నద్ధత పరీక్ష కూడా పరిగణనలోకి వస్తుంది."
+    },
+    {
+      "text": "Before applying",
+      "of": "4537836e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].due"
+      ],
+      "t": "దరఖాస్తు చేసే ముందు"
+    },
+    {
+      "text": "Apply in the FACTS portal for your campus and pay the application fee",
+      "of": "b5ed2dfd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "మీ క్యాంపస్ FACTS పోర్టల్‌లో దరఖాస్తు చేసి దరఖాస్తు రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Harris and Mallard Creek use different portals. Confirm the current fee — $250/$500 are published for a window that has passed.",
+      "of": "f43abcab",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].detail"
+      ],
+      "t": "Harris, Mallard Creek వేర్వేరు పోర్టల్‌లను ఉపయోగిస్తాయి. ప్రస్తుత రుసుమును నిర్ధారించుకోండి — $250/$500 అనేవి ఇప్పటికే ముగిసిన కాలానికి ప్రచురించినవి."
+    },
+    {
+      "text": "Nov 2 or Nov 16, 2026",
+      "of": "8cf443e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].due"
+      ],
+      "t": "Nov 2 లేదా Nov 16, 2026"
+    },
+    {
+      "text": "Send the birth certificate and Immunization Registry Record",
+      "of": "77ee5233",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "జనన ధ్రువీకరణ పత్రం, Immunization Registry Record పంపండి"
+    },
+    {
+      "text": "Both go with the application itself.",
+      "of": "3f7f01b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].detail"
+      ],
+      "t": "రెండూ దరఖాస్తుతో పాటే వెళ్తాయి."
+    },
+    {
+      "text": "With the application",
+      "of": "72b1bf58",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].due"
+      ],
+      "t": "దరఖాస్తుతో పాటు"
+    },
+    {
+      "text": "Complete the Information form",
+      "of": "cecb18bb",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "Information form పూరించండి"
+    },
+    {
+      "text": "One of the three forms required for a TK or K5 file.",
+      "of": "dbdb37bd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "TK లేదా K5 ఫైల్‌కు అవసరమైన మూడు ఫారాలలో ఒకటి."
+    },
+    {
+      "text": "Ask your preschool or daycare teacher for the Readiness Checklist",
+      "of": "ff772f7c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "మీ ప్రీస్కూల్ లేదా డేకేర్ ఉపాధ్యాయుడిని Readiness Checklist కోసం అడగండి"
+    },
+    {
+      "text": "Completed by the teacher, not by you.",
+      "of": "a9fc55b7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "దీన్ని మీరు కాకుండా ఉపాధ్యాయుడు పూరిస్తారు."
+    },
+    {
+      "text": "Ask your family's pastor for the Personal Recommendation form",
+      "of": "0bb991ad",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].action"
+      ],
+      "t": "మీ కుటుంబ పాస్టర్‌ను Personal Recommendation form కోసం అడగండి"
+    },
+    {
+      "text": "Required at every grade from TK through 12.",
+      "of": "b0e9da36",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].detail"
+      ],
+      "t": "TK నుంచి 12 వరకు ప్రతి తరగతికీ తప్పనిసరి."
+    },
+    {
+      "text": "Sit the developmentally appropriate readiness screening",
+      "of": "cba43a68",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].action"
+      ],
+      "t": "వయస్సుకు తగిన సన్నద్ధత పరీక్ష రాయండి"
+    },
+    {
+      "text": "Arranged by Student Services only after every form has arrived. Qualifying depends on passing it.",
+      "of": "345206cc",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].detail"
+      ],
+      "t": "ప్రతి ఫారం అందిన తర్వాతే Student Services దీన్ని ఏర్పాటు చేస్తుంది. అర్హత సాధించడం దీనిలో ఉత్తీర్ణతపై ఆధారపడి ఉంటుంది."
+    },
+    {
+      "text": "After all forms arrive",
+      "of": "09225c0c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].due"
+      ],
+      "t": "అన్ని ఫారాలు అందిన తర్వాత"
+    },
+    {
+      "text": "Covers the mission, vision and statement of faith, and whether the school fits your family.",
+      "of": "48965695",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].detail"
+      ],
+      "t": "పాఠశాల లక్ష్యం, దృక్పథం, విశ్వాస ప్రకటన గురించి, అలాగే ఈ పాఠశాల మీ కుటుంబానికి సరిపోతుందా అనే విషయాన్ని ఇది కవర్ చేస్తుంది."
+    },
+    {
+      "text": "After testing",
+      "of": "f91a27b9",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].due"
+      ],
+      "t": "పరీక్ష తర్వాత"
+    },
+    {
+      "text": "Watch for the written decision, then pay the $500 deposit",
+      "of": "44026a96",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].action"
+      ],
+      "t": "లిఖితపూర్వక నిర్ణయం కోసం ఎదురుచూసి, ఆపై $500 డిపాజిట్ చెల్లించండి"
+    },
+    {
+      "text": "Nonrefundable, applied toward tuition. No fixed notification date — admission is rolling.",
+      "of": "724667d0",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].detail"
+      ],
+      "t": "వాపసు ఇవ్వరు, ట్యూషన్‌లో సర్దుబాటు అవుతుంది. నిర్దిష్ట సమాచార తేదీ లేదు — ప్రవేశాలు నిరంతరంగా సాగుతాయి."
+    },
+    {
+      "text": "Rolling",
+      "of": "3914a792",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].due"
+      ],
+      "t": "నిరంతరం"
+    },
+    {
+      "text": "Elementary · Grades 1–5",
+      "of": "72ba36a9",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].label"
+      ],
+      "t": "ఎలిమెంటరీ · 1–5 తరగతులు"
+    },
+    {
+      "text": "Academic Referral · report cards",
+      "of": "607998a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].sublabel"
+      ],
+      "t": "Academic Referral · రిపోర్ట్ కార్డులు"
+    },
+    {
+      "text": "Elementary — Grades 1–5",
+      "of": "46af5fb2",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].title"
+      ],
+      "t": "ఎలిమెంటరీ — 1–5 తరగతులు"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. Grades 1 through 5 are taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
+      "of": "9e48cbc4",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[0].detail"
+      ],
+      "t": "మొదటి రెండు దశలు ప్రవేశాల పేజీ నుంచి లింక్ చేసిన చిన్న ఫారాలు — ఒకటి విచారణ, ఆపై క్యాంపస్ సందర్శన కోసం అభ్యర్థన. 1 నుంచి 5 తరగతుల బోధన **Harris క్యాంపస్**లో, 7200 E. WT Harris Blvd. వద్ద జరుగుతుంది."
+    },
+    {
+      "text": "Apply through the **FACTS portal**, and send your child's **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.",
+      "of": "4880974f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[1].detail"
+      ],
+      "t": "**FACTS పోర్టల్** ద్వారా దరఖాస్తు చేసి, మీ పిల్లల **జనన ధ్రువీకరణ పత్రం**, **Immunization Registry Record** దరఖాస్తుతో పాటు పంపండి. రుసుము గురించి: పాఠశాల **May 31, 2026 వరకు సాగిన కాలానికి $250**, **June 1, 2026 నుంచి $500** అని ప్రచురిస్తుంది, కానీ ఆ ప్రచురిత కాలం November 2026 దరఖాస్తు తేదీల కంటే ముందుది — **చెల్లించే ముందు ప్రస్తుత రుసుమును ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి**."
+    },
+    {
+      "text": "Send the forms and records this band requires",
+      "of": "a07a2d41",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].title"
+      ],
+      "t": "ఈ స్థాయికి అవసరమైన ఫారాలు, రికార్డులు పంపండి"
+    },
+    {
+      "text": "An elementary file needs more than the youngest band: an **Academic Referral form from your child's current teacher**; **report cards covering at least two years**; a **Personal Recommendation form from your family's pastor**, required at every grade TK–12; and, **for fourth and fifth graders only, a Student Questionnaire**. If your child has had **educational or diagnostic testing**, or has a current **IEP or 504 plan**, send those results too. Nothing is scheduled until all of it has arrived.",
+      "of": "0a0a777e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].detail"
+      ],
+      "t": "ఎలిమెంటరీ ఫైల్‌కు అతి చిన్న స్థాయి కంటే ఎక్కువే కావాలి: మీ పిల్లల **ప్రస్తుత ఉపాధ్యాయుడు ఇచ్చే Academic Referral form**; **కనీసం రెండేళ్ల రిపోర్ట్ కార్డులు**; TK–12 ప్రతి తరగతికీ తప్పనిసరైన **మీ కుటుంబ పాస్టర్ Personal Recommendation form**; అలాగే **నాలుగు, ఐదు తరగతుల వారికి మాత్రమే Student Questionnaire**. మీ పిల్లలకు **విద్యాపరమైన లేదా నిర్ధారణ పరీక్షలు** జరిగి ఉంటే, లేదా ప్రస్తుతం **IEP లేదా 504 ప్లాన్** ఉంటే ఆ ఫలితాలను కూడా పంపండి. ఇవన్నీ అందేవరకు దేనికీ సమయం కేటాయించరు."
+    },
+    {
+      "text": "Sit the entrance testing",
+      "of": "20ea4512",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[2].steps[3].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].action"
+      ],
+      "t": "ప్రవేశ పరీక్ష రాయండి"
+    },
+    {
+      "text": "Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms** — a single outstanding report card or recommendation holds up the whole timeline. The school does not publish which instrument it uses. **There is no shadow day at this band**; shadowing is required for high school applicants only.",
+      "of": "bfb0f385",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].detail"
+      ],
+      "t": "పరీక్షను **Student Services** కార్యాలయం ద్వారా ఏర్పాటు చేస్తారు, **అవసరమైన అన్ని ఫారాలూ ప్రవేశాల కార్యాలయానికి అందిన తర్వాతే** దీనికి సమయం కేటాయిస్తారు — ఒక్క రిపోర్ట్ కార్డు లేదా సిఫార్సు ఆలస్యమైనా మొత్తం కాలపట్టిక ఆగిపోతుంది. ఏ పరీక్షా సాధనాన్ని ఉపయోగిస్తారో పాఠశాల ప్రచురించలేదు. **ఈ స్థాయిలో షాడో డే ఉండదు**; షాడో చేయడం హైస్కూల్ దరఖాస్తుదారులకు మాత్రమే తప్పనిసరి."
+    },
+    {
+      "text": "Two years of report cards, and a referral from the teacher your child has now.",
+      "of": "8f0cc462",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "రెండేళ్ల రిపోర్ట్ కార్డులు, ఇప్పుడు మీ పిల్లలకు బోధిస్తున్న ఉపాధ్యాయుడి రెఫరల్."
+    },
+    {
+      "text": "An elementary file needs the Academic Referral form from your child's current teacher, report cards covering at least two years, the pastor's Personal Recommendation form, and — for fourth and fifth graders only — a Student Questionnaire. Testing is arranged through Student Services only after all of it has arrived, so start with the forms other people have to complete. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.",
+      "of": "a4b5f901",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "ఎలిమెంటరీ ఫైల్‌కు మీ పిల్లల ప్రస్తుత ఉపాధ్యాయుడు ఇచ్చే Academic Referral form, కనీసం రెండేళ్ల రిపోర్ట్ కార్డులు, పాస్టర్ Personal Recommendation form, అలాగే — నాలుగు, ఐదు తరగతుల వారికి మాత్రమే — Student Questionnaire కావాలి. ఇవన్నీ అందిన తర్వాతే Student Services పరీక్షను ఏర్పాటు చేస్తుంది, కాబట్టి ఇతరులు పూరించాల్సిన ఫారాలతోనే మొదలుపెట్టండి. చర్చి సభ్యులు, Early Education Center విద్యార్థులు, ప్రస్తుత విద్యార్థుల తోబుట్టువుల కోసం దరఖాస్తులు నవంబర్ 2న తెరుచుకుంటాయి, మిగతా అందరికీ నవంబర్ 16న; ఆ తర్వాత ప్రవేశాలు నిరంతరంగా సాగుతాయి, నిర్దిష్ట సమాచార తేదీ ఉండదు. రికార్డులో ఏవైనా సస్పెన్షన్లు, బహిష్కరణలు లేదా ఫెయిల్ అయిన కోర్సులు ఉంటే ప్రవేశం స్వయంచాలకంగా తిరస్కరించబడుతుందని గమనించండి."
+    },
+    {
+      "text": "Both are short forms linked from the admissions page.",
+      "of": "b39af57a",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].detail"
+      ],
+      "t": "రెండూ ప్రవేశాల పేజీ నుంచి లింక్ చేసిన చిన్న ఫారాలే."
+    },
+    {
+      "text": "Apply in the FACTS portal and pay the application fee",
+      "of": "2f9b02da",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].action"
+      ],
+      "t": "FACTS పోర్టల్‌లో దరఖాస్తు చేసి దరఖాస్తు రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Confirm the current fee — $250/$500 are published for a window that has passed.",
+      "of": "3d61d2a5",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].detail"
+      ],
+      "t": "ప్రస్తుత రుసుమును నిర్ధారించుకోండి — $250/$500 అనేవి ఇప్పటికే ముగిసిన కాలానికి ప్రచురించినవి."
+    },
+    {
+      "text": "Ask your child's current teacher for the Academic Referral form",
+      "of": "c4333638",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].action"
+      ],
+      "t": "మీ పిల్లల ప్రస్తుత ఉపాధ్యాయుడిని Academic Referral form కోసం అడగండి"
+    },
+    {
+      "text": "Completed by the teacher your child has now.",
+      "of": "57b066e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].detail"
+      ],
+      "t": "ఇప్పుడు మీ పిల్లలకు బోధిస్తున్న ఉపాధ్యాయుడు దీన్ని పూరిస్తారు."
+    },
+    {
+      "text": "Send report cards covering at least two years",
+      "of": "9bf51e5f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "కనీసం రెండేళ్ల రిపోర్ట్ కార్డులు పంపండి"
+    },
+    {
+      "text": "Two full years is the published minimum.",
+      "of": "efc76a71",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "పూర్తి రెండేళ్లు అనేది ప్రచురించిన కనీస అవసరం."
+    },
+    {
+      "text": "Fourth and fifth graders only — complete the Student Questionnaire",
+      "of": "75084c81",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].action"
+      ],
+      "t": "నాలుగు, ఐదు తరగతుల వారు మాత్రమే — Student Questionnaire పూరించండి"
+    },
+    {
+      "text": "Not required below fourth grade.",
+      "of": "4a716a85",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].detail"
+      ],
+      "t": "నాలుగో తరగతి కంటే కిందివారికి అవసరం లేదు."
+    },
+    {
+      "text": "Send any educational or diagnostic testing, and a current IEP or 504",
+      "of": "897a3eb3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].action"
+      ],
+      "t": "ఏవైనా విద్యాపరమైన లేదా నిర్ధారణ పరీక్షలు, ప్రస్తుత IEP లేదా 504 పంపండి"
+    },
+    {
+      "text": "Only if applicable — they are reviewed as part of the final decision.",
+      "of": "43b583e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].detail"
+      ],
+      "t": "వర్తిస్తే మాత్రమే — తుది నిర్ణయంలో భాగంగా వీటిని సమీక్షిస్తారు."
+    },
+    {
+      "text": "Arranged by Student Services only after every form has arrived. No shadow day at this band.",
+      "of": "22130b9e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].detail"
+      ],
+      "t": "ప్రతి ఫారం అందిన తర్వాతే Student Services దీన్ని ఏర్పాటు చేస్తుంది. ఈ స్థాయిలో షాడో డే ఉండదు."
+    },
+    {
+      "text": "Middle · Grades 6–8",
+      "of": "7dc2f276",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].label"
+      ],
+      "t": "మిడిల్ · 6–8 తరగతులు"
+    },
+    {
+      "text": "Three teacher recommendations",
+      "of": "4becfc9d",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].sublabel"
+      ],
+      "t": "మూడు ఉపాధ్యాయుల సిఫార్సులు"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
+      "of": "781ab056",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[0].detail"
+      ],
+      "t": "మొదటి రెండు దశలు ప్రవేశాల పేజీ నుంచి లింక్ చేసిన చిన్న ఫారాలు — ఒకటి విచారణ, ఆపై క్యాంపస్ సందర్శన కోసం అభ్యర్థన. మిడిల్ స్కూల్ బోధన **Harris క్యాంపస్**లో, 7200 E. WT Harris Blvd. వద్ద జరుగుతుంది."
+    },
+    {
+      "text": "Apply through the **FACTS portal**, and send your child's **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.",
+      "of": "f05c506f",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[1].detail",
+        "hickory-grove-christian:guide.bands[3].steps[1].detail"
+      ],
+      "t": "**FACTS పోర్టల్** ద్వారా దరఖాస్తు చేసి, మీ పిల్లల **జనన ధ్రువీకరణ పత్రం**, **Immunization Registry record** దరఖాస్తుతో పాటు పంపండి. రుసుము గురించి: పాఠశాల **May 31, 2026 వరకు సాగిన కాలానికి $250**, **June 1, 2026 నుంచి $500** అని ప్రచురిస్తుంది, కానీ ఆ ప్రచురిత కాలం November 2026 దరఖాస్తు తేదీల కంటే ముందుది — **చెల్లించే ముందు ప్రస్తుత రుసుమును ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి**."
+    },
+    {
+      "text": "Send four recommendations and the full record",
+      "of": "5a853f29",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].title",
+        "hickory-grove-christian:guide.bands[3].steps[2].title"
+      ],
+      "t": "నాలుగు సిఫార్సులు, పూర్తి రికార్డు పంపండి"
+    },
+    {
+      "text": "This is the band where the paperwork jumps. **Four recommendation forms** are required — a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family's pastor** that every grade needs. Alongside them: **report cards from the most recent two years**, the **transcript**, **standardized testing results**, a **Student Questionnaire** completed by your child, and any **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Three of the four recommendations depend on other people's time, so request them first.",
+      "of": "7b1e0181",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].detail"
+      ],
+      "t": "పత్రాల భారం ఒక్కసారిగా పెరిగేది ఈ స్థాయిలోనే. **నాలుగు సిఫార్సు ఫారాలు** తప్పనిసరి — ఒక **Math Teacher Recommendation**, ఒక **English Teacher Recommendation**, ఒక **Principal or Guidance Counselor Recommendation**, అలాగే ప్రతి తరగతికీ అవసరమైన **మీ కుటుంబ పాస్టర్ Personal Recommendation form**. వీటితో పాటు: **ఇటీవలి రెండేళ్ల రిపోర్ట్ కార్డులు**, **ట్రాన్‌స్క్రిప్ట్**, **ప్రామాణిక పరీక్షల ఫలితాలు**, మీ పిల్లలు పూరించే **Student Questionnaire**, అలాగే ఏవైనా **విద్యాపరమైన లేదా నిర్ధారణ పరీక్షల ఫలితాలు లేదా ప్రస్తుత IEP, 504 లేదా వసతుల ప్రణాళిక**. నాలుగింటిలో మూడు సిఫార్సులు ఇతరుల సమయంపై ఆధారపడి ఉంటాయి, కాబట్టి వాటిని ముందుగా అడగండి."
+    },
+    {
+      "text": "Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. With four recommendations in the file, that condition is the one most likely to hold up a middle school application. **A shadow day is not required at this band** — that requirement applies to high school applicants only, even though grades 6 through 12 otherwise share the same form list.",
+      "of": "ba2d6a03",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[3].detail"
+      ],
+      "t": "పరీక్షను **Student Services** కార్యాలయం ద్వారా ఏర్పాటు చేస్తారు, **అవసరమైన అన్ని ఫారాలూ ప్రవేశాల కార్యాలయానికి అందిన తర్వాతే** దీనికి సమయం కేటాయిస్తారు. ఫైల్‌లో నాలుగు సిఫార్సులు ఉన్నందున, మిడిల్ స్కూల్ దరఖాస్తును ఆలస్యం చేసే అవకాశం ఎక్కువగా ఉన్నది ఈ షరతుకే. **ఈ స్థాయిలో షాడో డే తప్పనిసరి కాదు** — ఆ నిబంధన హైస్కూల్ దరఖాస్తుదారులకు మాత్రమే వర్తిస్తుంది, మిగతా విషయాల్లో 6 నుంచి 12 తరగతులు ఒకే ఫారాల జాబితాను పంచుకున్నా సరే."
+    },
+    {
+      "text": "Four recommendations — and no shadow day, unlike high school.",
+      "of": "59f54ed7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "నాలుగు సిఫార్సులు — హైస్కూల్ లాగా కాకుండా, షాడో డే ఉండదు."
+    },
+    {
+      "text": "Grades 6 through 12 share one form list: math teacher, English teacher, principal or guidance counselor, and your family's pastor, plus the transcript, two years of report cards, standardized scores and a Student Questionnaire. What middle school does not have is the shadow day, which is required of high school applicants only. Testing is arranged through Student Services only after every one of those forms has arrived, so request the three school recommendations first. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.",
+      "of": "22d6f213",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "6 నుంచి 12 తరగతులు ఒకే ఫారాల జాబితాను పంచుకుంటాయి: గణిత ఉపాధ్యాయుడు, ఆంగ్ల ఉపాధ్యాయుడు, ప్రిన్సిపాల్ లేదా గైడెన్స్ కౌన్సెలర్, మీ కుటుంబ పాస్టర్ — వీటితో పాటు ట్రాన్‌స్క్రిప్ట్, రెండేళ్ల రిపోర్ట్ కార్డులు, ప్రామాణిక పరీక్షల స్కోర్లు, Student Questionnaire. మిడిల్ స్కూల్‌కు లేనిది షాడో డే మాత్రమే, అది హైస్కూల్ దరఖాస్తుదారులకే తప్పనిసరి. ఆ ఫారాలన్నీ అందిన తర్వాతే Student Services పరీక్షను ఏర్పాటు చేస్తుంది, కాబట్టి పాఠశాల నుంచి రావాల్సిన మూడు సిఫార్సులను ముందుగా అడగండి. చర్చి సభ్యులు, Early Education Center విద్యార్థులు, ప్రస్తుత విద్యార్థుల తోబుట్టువుల కోసం దరఖాస్తులు నవంబర్ 2న తెరుచుకుంటాయి, మిగతా అందరికీ నవంబర్ 16న; ఆ తర్వాత ప్రవేశాలు నిరంతరంగా, సీట్ల లభ్యతపై ఆధారపడి సాగుతాయి, నిర్దిష్ట సమాచార తేదీ ఉండదు. రికార్డులో ఏవైనా సస్పెన్షన్లు, బహిష్కరణలు లేదా ఫెయిల్ అయిన కోర్సులు ఉంటే ప్రవేశం స్వయంచాలకంగా తిరస్కరించబడుతుందని గమనించండి."
+    },
+    {
+      "text": "Send the birth certificate and Immunization Registry record",
+      "of": "059a3413",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].action"
+      ],
+      "t": "జనన ధ్రువీకరణ పత్రం, Immunization Registry record పంపండి"
+    },
+    {
+      "text": "Request the Math Teacher Recommendation form",
+      "of": "5aab4e8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].action"
+      ],
+      "t": "Math Teacher Recommendation ఫారం కోసం అభ్యర్థించండి"
+    },
+    {
+      "text": "One of three school recommendations — request early.",
+      "of": "edbe12bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].detail"
+      ],
+      "t": "పాఠశాల నుంచి రావాల్సిన మూడు సిఫార్సులలో ఒకటి — ముందుగానే అడగండి."
+    },
+    {
+      "text": "Request the English Teacher Recommendation form",
+      "of": "dd1d22c0",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].action"
+      ],
+      "t": "English Teacher Recommendation ఫారం కోసం అభ్యర్థించండి"
+    },
+    {
+      "text": "Request the Principal or Guidance Counselor Recommendation form",
+      "of": "eb8ef6a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].action"
+      ],
+      "t": "Principal or Guidance Counselor Recommendation ఫారం కోసం అభ్యర్థించండి"
+    },
+    {
+      "text": "Send the transcript and the most recent two years of report cards",
+      "of": "f533f124",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].action"
+      ],
+      "t": "ట్రాన్‌స్క్రిప్ట్, ఇటీవలి రెండేళ్ల రిపోర్ట్ కార్డులు పంపండి"
+    },
+    {
+      "text": "Both are required from grade 6 upward.",
+      "of": "177a8bf1",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].detail"
+      ],
+      "t": "6వ తరగతి నుంచి పైకి రెండూ తప్పనిసరి."
+    },
+    {
+      "text": "Send standardized testing results",
+      "of": "c27b10e4",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].action"
+      ],
+      "t": "ప్రామాణిక పరీక్షల ఫలితాలు పంపండి"
+    },
+    {
+      "text": "Required from grade 6 upward.",
+      "of": "dd07176a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].detail"
+      ],
+      "t": "6వ తరగతి నుంచి పైకి తప్పనిసరి."
+    },
+    {
+      "text": "Have your child complete the Student Questionnaire",
+      "of": "81b7997a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].action"
+      ],
+      "t": "మీ పిల్లలతో Student Questionnaire పూరింపజేయండి"
+    },
+    {
+      "text": "Required at every grade from 6 through 12.",
+      "of": "084db8cf",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].detail"
+      ],
+      "t": "6 నుంచి 12 వరకు ప్రతి తరగతికీ తప్పనిసరి."
+    },
+    {
+      "text": "Send any diagnostic testing, IEP, 504 or accommodations plan",
+      "of": "6a09af62",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].action"
+      ],
+      "t": "ఏవైనా నిర్ధారణ పరీక్షలు, IEP, 504 లేదా వసతుల ప్రణాళిక పంపండి"
+    },
+    {
+      "text": "Only if applicable — reviewed as part of the final decision.",
+      "of": "4f218f25",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].detail"
+      ],
+      "t": "వర్తిస్తే మాత్రమే — తుది నిర్ణయంలో భాగంగా సమీక్షిస్తారు."
+    },
+    {
+      "text": "High · Grades 9–12",
+      "of": "8a27ca4f",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].label"
+      ],
+      "t": "హై · 9–12 తరగతులు"
+    },
+    {
+      "text": "Shadow day + placement test",
+      "of": "8d4aa467",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].sublabel"
+      ],
+      "t": "షాడో డే + ప్లేస్‌మెంట్ పరీక్ష"
+    },
+    {
+      "text": "High School — Grades 9–12",
+      "of": "aaf17dfc",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].title"
+      ],
+      "t": "హైస్కూల్ — 9–12 తరగతులు"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. High school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
+      "of": "ebd8fbdd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[0].detail"
+      ],
+      "t": "మొదటి రెండు దశలు ప్రవేశాల పేజీ నుంచి లింక్ చేసిన చిన్న ఫారాలు — ఒకటి విచారణ, ఆపై క్యాంపస్ సందర్శన కోసం అభ్యర్థన. హైస్కూల్ బోధన **Harris క్యాంపస్**లో, 7200 E. WT Harris Blvd. వద్ద జరుగుతుంది."
+    },
+    {
+      "text": "High school shares its form list with middle school. **Four recommendation forms** are required — a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family's pastor** that every grade needs. Alongside them: the **high school transcript**, **report cards from the most recent two years**, **standardized testing results**, a **Student Questionnaire** completed by your child, and any **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Request the three school recommendations first — they depend on other people's time.",
+      "of": "f3889155",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[2].detail"
+      ],
+      "t": "హైస్కూల్ తన ఫారాల జాబితాను మిడిల్ స్కూల్‌తో పంచుకుంటుంది. **నాలుగు సిఫార్సు ఫారాలు** తప్పనిసరి — ఒక **Math Teacher Recommendation**, ఒక **English Teacher Recommendation**, ఒక **Principal or Guidance Counselor Recommendation**, అలాగే ప్రతి తరగతికీ అవసరమైన **మీ కుటుంబ పాస్టర్ Personal Recommendation form**. వీటితో పాటు: **హైస్కూల్ ట్రాన్‌స్క్రిప్ట్**, **ఇటీవలి రెండేళ్ల రిపోర్ట్ కార్డులు**, **ప్రామాణిక పరీక్షల ఫలితాలు**, మీ పిల్లలు పూరించే **Student Questionnaire**, అలాగే ఏవైనా **విద్యాపరమైన లేదా నిర్ధారణ పరీక్షల ఫలితాలు లేదా ప్రస్తుత IEP, 504 లేదా వసతుల ప్రణాళిక**. పాఠశాల నుంచి రావాల్సిన మూడు సిఫార్సులను ముందుగా అడగండి — అవి ఇతరుల సమయంపై ఆధారపడి ఉంటాయి."
+    },
+    {
+      "text": "Shadow a Hickory Grove student",
+      "of": "1bdf7b4d",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].title"
+      ],
+      "t": "Hickory Grove విద్యార్థితో ఒక రోజు షాడో చేయండి"
+    },
+    {
+      "text": "high school only",
+      "of": "54ed4603",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].tag"
+      ],
+      "t": "హైస్కూల్‌కు మాత్రమే"
+    },
+    {
+      "text": "**This step exists only at this band.** High school applicants are **required** to shadow a current Hickory Grove student for a day, arranged by completing a shadow request form. Grades 6 through 8 have no equivalent requirement even though their paperwork is identical, so it is the clearest difference between applying to middle school and applying to high school here.",
+      "of": "07105718",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].detail"
+      ],
+      "t": "**ఈ దశ ఈ స్థాయిలో మాత్రమే ఉంటుంది.** హైస్కూల్ దరఖాస్తుదారులు ప్రస్తుత Hickory Grove విద్యార్థితో ఒక రోజు షాడో చేయడం **తప్పనిసరి**, దీన్ని shadow request form పూరించడం ద్వారా ఏర్పాటు చేసుకుంటారు. 6 నుంచి 8 తరగతులకు పత్రాల జాబితా ఒకటే అయినా ఇలాంటి నిబంధన ఏదీ లేదు, కాబట్టి ఇక్కడ మిడిల్ స్కూల్‌కు, హైస్కూల్‌కు దరఖాస్తు చేయడంలో అత్యంత స్పష్టమైన తేడా ఇదే."
+    },
+    {
+      "text": "Sit the entrance testing, including the placement test",
+      "of": "ba8246a3",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].title"
+      ],
+      "t": "ప్లేస్‌మెంట్ పరీక్షతో సహా ప్రవేశ పరీక్ష రాయండి"
+    },
+    {
+      "text": "Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. High school applicants also sit a **mandatory entrance test used to determine grade placement** — a step the school publishes for grades 9 through 12 only. The specific instruments are not published.",
+      "of": "b6003290",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].detail"
+      ],
+      "t": "పరీక్షను **Student Services** కార్యాలయం ద్వారా ఏర్పాటు చేస్తారు, **అవసరమైన అన్ని ఫారాలూ ప్రవేశాల కార్యాలయానికి అందిన తర్వాతే** దీనికి సమయం కేటాయిస్తారు. హైస్కూల్ దరఖాస్తుదారులు అదనంగా **తరగతి స్థాన నిర్ణయానికి ఉపయోగించే తప్పనిసరి ప్రవేశ పరీక్ష** కూడా రాస్తారు — దీన్ని పాఠశాల 9 నుంచి 12 తరగతులకు మాత్రమే ప్రచురిస్తుంది. ఏ నిర్దిష్ట సాధనాలు ఉపయోగిస్తారో ప్రచురించలేదు."
+    },
+    {
+      "text": "The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **Any suspensions, expulsions or failed courses on record are an automatic denial of admission** — a rule that matters most at this band, because a high school transcript carries the longest record. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.",
+      "of": "383188d7",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[6].detail"
+      ],
+      "t": "తుది నిర్ణయాన్ని **లిఖితపూర్వకంగా తెలియజేస్తారు**, అందులో సంతృప్తికరమైన మార్కులు, సిఫార్సు లేఖలు, ఇంటర్వ్యూ, ప్రవర్తన నివేదికలు, ప్రవేశ పరీక్ష, ఫైల్‌లో ఉన్న IEP, 504 లేదా మానసిక-విద్యా మూల్యాంకనం పరిగణనలోకి వస్తాయి. **రికార్డులో ఏవైనా సస్పెన్షన్లు, బహిష్కరణలు లేదా ఫెయిల్ అయిన కోర్సులు ఉంటే ప్రవేశం స్వయంచాలకంగా తిరస్కరించబడుతుంది** — ఈ నిబంధన ఈ స్థాయిలోనే ఎక్కువ ప్రభావం చూపుతుంది, ఎందుకంటే హైస్కూల్ ట్రాన్‌స్క్రిప్ట్ అత్యంత సుదీర్ఘ రికార్డును కలిగి ఉంటుంది. **నిర్దిష్ట సమాచార తేదీ ఏదీ ప్రచురించలేదు** — ప్రవేశాలు నిరంతరంగా సాగుతాయి, ఆ తరగతిలో సీట్ల లభ్యతపై ఆధారపడి ఉంటాయి. ప్రవేశం లభించినప్పుడు **వాపసు ఇవ్వని $500 డిపాజిట్** చెల్లించాలి, అది ట్యూషన్‌లో సర్దుబాటు అవుతుంది."
+    },
+    {
+      "text": "Two steps that exist only here — the shadow day and a placement test.",
+      "of": "a28b1f98",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.lead"
+      ],
+      "t": "ఇక్కడ మాత్రమే ఉండే రెండు దశలు — షాడో డే, ప్లేస్‌మెంట్ పరీక్ష."
+    },
+    {
+      "text": "High school applicants are required to shadow a current Hickory Grove student for a day, and to sit a mandatory entrance test that determines grade placement. Neither applies to grades 6 through 8, even though the four recommendation forms and the records list are identical. Testing is arranged through Student Services only after every form has arrived. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission — the rule bites hardest here, because a high school transcript carries the longest record.",
+      "of": "dddeb142",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.text"
+      ],
+      "t": "హైస్కూల్ దరఖాస్తుదారులు ప్రస్తుత Hickory Grove విద్యార్థితో ఒక రోజు షాడో చేయడం, తరగతి స్థానాన్ని నిర్ణయించే తప్పనిసరి ప్రవేశ పరీక్ష రాయడం అవసరం. నాలుగు సిఫార్సు ఫారాలు, రికార్డుల జాబితా ఒకటే అయినా, ఈ రెండూ 6 నుంచి 8 తరగతులకు వర్తించవు. ప్రతి ఫారం అందిన తర్వాతే Student Services పరీక్షను ఏర్పాటు చేస్తుంది. చర్చి సభ్యులు, Early Education Center విద్యార్థులు, ప్రస్తుత విద్యార్థుల తోబుట్టువుల కోసం దరఖాస్తులు నవంబర్ 2న తెరుచుకుంటాయి, మిగతా అందరికీ నవంబర్ 16న; ఆ తర్వాత ప్రవేశాలు నిరంతరంగా, సీట్ల లభ్యతపై ఆధారపడి సాగుతాయి, నిర్దిష్ట సమాచార తేదీ ఉండదు. రికార్డులో ఏవైనా సస్పెన్షన్లు, బహిష్కరణలు లేదా ఫెయిల్ అయిన కోర్సులు ఉంటే ప్రవేశం స్వయంచాలకంగా తిరస్కరించబడుతుందని గమనించండి — ఈ నిబంధన ఇక్కడే అత్యంత తీవ్రంగా వర్తిస్తుంది, ఎందుకంటే హైస్కూల్ ట్రాన్‌స్క్రిప్ట్ అత్యంత సుదీర్ఘ రికార్డును కలిగి ఉంటుంది."
+    },
+    {
+      "text": "Send the high school transcript and two years of report cards",
+      "of": "2d5c2c89",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].action"
+      ],
+      "t": "హైస్కూల్ ట్రాన్‌స్క్రిప్ట్, రెండేళ్ల రిపోర్ట్ కార్డులు పంపండి"
+    },
+    {
+      "text": "Complete the shadow request form and shadow a student",
+      "of": "e13b876b",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].action"
+      ],
+      "t": "shadow request form పూరించి ఒక విద్యార్థితో షాడో చేయండి"
+    },
+    {
+      "text": "Required of high school applicants only. Not asked of grades 6 through 8.",
+      "of": "230527cd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].detail"
+      ],
+      "t": "హైస్కూల్ దరఖాస్తుదారులకు మాత్రమే తప్పనిసరి. 6 నుంచి 8 తరగతుల వారిని అడగరు."
+    },
+    {
+      "text": "High school only",
+      "of": "324c1f23",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].due"
+      ],
+      "t": "హైస్కూల్‌కు మాత్రమే"
+    },
+    {
+      "text": "Sit the entrance testing and the grade placement test",
+      "of": "d2dacae0",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].action"
+      ],
+      "t": "ప్రవేశ పరీక్ష, తరగతి ప్లేస్‌మెంట్ పరీక్ష రాయండి"
+    },
+    {
+      "text": "Arranged by Student Services after every form has arrived. The placement test is published for 9–12 only.",
+      "of": "fc7920cb",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].detail"
+      ],
+      "t": "ప్రతి ఫారం అందిన తర్వాత Student Services దీన్ని ఏర్పాటు చేస్తుంది. ప్లేస్‌మెంట్ పరీక్షను 9–12 తరగతులకు మాత్రమే ప్రచురించారు."
+    },
+    {
+      "text": "International (F-1)",
+      "of": "7bda6384",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].label"
+      ],
+      "t": "అంతర్జాతీయ (F-1)"
+    },
+    {
+      "text": "Separate process · I-20 issued by HGCS",
+      "of": "4ebc84d5",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].sublabel"
+      ],
+      "t": "వేరే ప్రక్రియ · I-20 ను HGCS జారీ చేస్తుంది"
+    },
+    {
+      "text": "International Students — F-1 Visa",
+      "of": "e09bf602",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].title"
+      ],
+      "t": "అంతర్జాతీయ విద్యార్థులు — F-1 వీసా"
+    },
+    {
+      "text": "English proficiency — or SLEP 50+",
+      "of": "a5447051",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[0].label"
+      ],
+      "t": "ఆంగ్ల ప్రావీణ్యం — లేదా SLEP 50+"
+    },
+    {
+      "text": "full payment required to enroll",
+      "of": "4440c6e0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[1].label"
+      ],
+      "t": "ప్రవేశానికి పూర్తి చెల్లింపు తప్పనిసరి"
+    },
+    {
+      "text": "Interview with a school official — by video, not in person",
+      "of": "acb6008d",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].title"
+      ],
+      "t": "పాఠశాల అధికారితో ఇంటర్వ్యూ — ప్రత్యక్షంగా కాకుండా వీడియో ద్వారా"
+    },
+    {
+      "text": "first step",
+      "of": "e849e211",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].tag"
+      ],
+      "t": "మొదటి దశ"
+    },
+    {
+      "text": "The international process **begins** with an interview rather than ending with one, and it is held over **Skype, WeChat or WhatsApp** with a school official. This **replaces the campus visit** that opens every domestic band — a family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013** and is **SEVIS-certified**, so it issues its own I-20 rather than routing families through a third party.",
+      "of": "aeb9cb2e",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].detail"
+      ],
+      "t": "అంతర్జాతీయ ప్రక్రియ ఇంటర్వ్యూతో ముగియకుండా ఇంటర్వ్యూతోనే **మొదలవుతుంది**, దీన్ని పాఠశాల అధికారితో **Skype, WeChat లేదా WhatsApp** ద్వారా నిర్వహిస్తారు. ఇది ప్రతి దేశీయ స్థాయిని ప్రారంభించే **క్యాంపస్ సందర్శన స్థానంలో వస్తుంది** — విదేశాల నుంచి దరఖాస్తు చేసే కుటుంబం ముందుగా ప్రయాణించాల్సిన అవసరం లేదు. Hickory Grove **2013** నుంచి తన అంతర్జాతీయ కార్యక్రమాన్ని నడుపుతోంది, **SEVIS-ధృవీకృతం**, కాబట్టి మూడో పక్షం ద్వారా కాకుండా తానే I-20 జారీ చేస్తుంది."
+    },
+    {
+      "text": "Complete the online admission application",
+      "of": "1844e5ab",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].action"
+      ],
+      "t": "ఆన్‌లైన్ ప్రవేశ దరఖాస్తు పూరించండి"
+    },
+    {
+      "text": "after the interview",
+      "of": "8a871a21",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].tag"
+      ],
+      "t": "ఇంటర్వ్యూ తర్వాత"
+    },
+    {
+      "text": "The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The **international application fee amount is not published** — confirm it with the international office. Note that it is paid **after** an acceptance decision rather than with the application (see the acceptance step).",
+      "of": "2a722558",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].detail"
+      ],
+      "t": "దేశీయ దరఖాస్తుదారులు పూరించే అదే ఆన్‌లైన్ ప్రవేశ దరఖాస్తు, దీన్ని **International Admissions Office** కు సమర్పిస్తారు. **అంతర్జాతీయ దరఖాస్తు రుసుము మొత్తాన్ని ప్రచురించలేదు** — అంతర్జాతీయ కార్యాలయంతో నిర్ధారించుకోండి. దీన్ని దరఖాస్తుతో పాటు కాకుండా ప్రవేశ నిర్ణయం వచ్చిన **తర్వాత** చెల్లిస్తారని గమనించండి (ప్రవేశ దశను చూడండి)."
+    },
+    {
+      "text": "Meet the English-proficiency thresholds",
+      "of": "97501803",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].title"
+      ],
+      "t": "ఆంగ్ల ప్రావీణ్య ప్రమాణాలను చేరుకోవాలి"
+    },
+    {
+      "text": "with the application",
+      "of": "76771438",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].tag",
+        "hickory-grove-christian:guide.bands[4].steps[3].tag"
+      ],
+      "t": "దరఖాస్తుతో పాటు"
+    },
+    {
+      "text": "The published thresholds are **TOEFL Jr. 750 or above** and **SLEP 50 or above**, and the score sheet is submitted with the application. The school states it is **willing to discuss other testing options**, so a student holding a different recognized English assessment should ask rather than assume it will not be accepted.",
+      "of": "2b713050",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].detail"
+      ],
+      "t": "ప్రచురించిన ప్రమాణాలు **TOEFL Jr. 750 లేదా అంతకంటే ఎక్కువ**, **SLEP 50 లేదా అంతకంటే ఎక్కువ**, స్కోర్ షీట్‌ను దరఖాస్తుతో పాటు సమర్పించాలి. **ఇతర పరీక్షా ఎంపికల గురించి చర్చించేందుకు సిద్ధంగా ఉన్నామని** పాఠశాల పేర్కొంటుంది, కాబట్టి వేరే గుర్తింపు పొందిన ఆంగ్ల మూల్యాంకనం ఉన్న విద్యార్థి అది అంగీకరించరని ఊహించకుండా అడగాలి."
+    },
+    {
+      "text": "Send transcripts translated into English",
+      "of": "e5f9426c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].title"
+      ],
+      "t": "ఆంగ్లంలోకి అనువదించిన ట్రాన్‌స్క్రిప్ట్‌లు పంపండి"
+    },
+    {
+      "text": "**Middle and high school transcripts must be translated into English**, and the school directs families to **International Education Evaluations (IEE)** — myiee.org, info@foreigntranscripts.com — for the evaluation. Prior **academic and behavioral performance** and standardized test scores are then reviewed together, so the translated record is what the decision is made on.",
+      "of": "8562191a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].detail"
+      ],
+      "t": "**మిడిల్, హైస్కూల్ ట్రాన్‌స్క్రిప్ట్‌లను ఆంగ్లంలోకి అనువదించాలి**, మూల్యాంకనం కోసం పాఠశాల కుటుంబాలను **International Education Evaluations (IEE)** వైపు — myiee.org, info@foreigntranscripts.com — మళ్లిస్తుంది. ఆ తర్వాత గత **విద్యా, ప్రవర్తనా పనితీరు**, ప్రామాణిక పరీక్షల స్కోర్లను కలిపి సమీక్షిస్తారు, కాబట్టి అనువదించిన రికార్డు ఆధారంగానే నిర్ణయం జరుగుతుంది."
+    },
+    {
+      "text": "Acceptance, the application fee, then the I-20",
+      "of": "76070f89",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].title"
+      ],
+      "t": "ప్రవేశం, దరఖాస్తు రుసుము, ఆపై I-20"
+    },
+    {
+      "text": "on acceptance",
+      "of": "7ca12683",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].tag"
+      ],
+      "t": "ప్రవేశం లభించినప్పుడు"
+    },
+    {
+      "text": "An accepted student is **notified by email**. The **non-refundable application fee** is paid at that point, and a school official then **mails the I-20**. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family's to book, and embassy waiting times are outside the school's control, so start it as soon as the I-20 arrives.",
+      "of": "d21aa6d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].detail"
+      ],
+      "t": "ప్రవేశం పొందిన విద్యార్థికి **ఇమెయిల్ ద్వారా తెలియజేస్తారు**. ఆ దశలోనే **వాపసు ఇవ్వని దరఖాస్తు రుసుము** చెల్లిస్తారు, ఆపై పాఠశాల అధికారి **I-20 ను పోస్టులో పంపుతారు**. I-20 చేతికి అందిన తర్వాత విద్యార్థి **F-1 వీసా పొందేందుకు తమ దేశంలోని U.S. Embassy తో ఇంటర్వ్యూ ఏర్పాటు చేసుకుంటారు** — ఆ అపాయింట్‌మెంట్‌ను కుటుంబమే బుక్ చేసుకోవాలి, ఎంబసీ నిరీక్షణ సమయాలు పాఠశాల నియంత్రణలో ఉండవు, కాబట్టి I-20 అందిన వెంటనే మొదలుపెట్టండి."
+    },
+    {
+      "text": "Arrange homestay, health insurance and immunizations",
+      "of": "5b7a3163",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].title"
+      ],
+      "t": "హోమ్‌స్టే, ఆరోగ్య బీమా, టీకాల ఏర్పాట్లు చేసుకోండి"
+    },
+    {
+      "text": "before arrival",
+      "of": "74a844c7",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].tag"
+      ],
+      "t": "రాకముందు"
+    },
+    {
+      "text": "Where homestay is required, the **HGCS Student Coordinator** contacts the student or agent with the arrangements; the school has placed students with host families since **2013** and handles the arrangement internally. **Host-family vetting and background-check specifics are not published** — ask the coordinator directly. Health insurance runs through **American Benefit Services (Short Term Medical)**, on **843-214-2447** or wesley.abs@gmail.com, and the school also requires an **international-student immunizations form** and a **current physical**.",
+      "of": "5baf07d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].detail"
+      ],
+      "t": "హోమ్‌స్టే అవసరమైన చోట **HGCS Student Coordinator** విద్యార్థిని లేదా ఏజెంట్‌ను సంప్రదించి ఏర్పాట్లు తెలియజేస్తారు; పాఠశాల **2013** నుంచి విద్యార్థులను హోస్ట్ కుటుంబాల వద్ద ఉంచుతోంది, ఈ ఏర్పాటును తానే నిర్వహిస్తుంది. **హోస్ట్ కుటుంబాల పరిశీలన, నేపథ్య తనిఖీల వివరాలు ప్రచురించలేదు** — సమన్వయకర్తను నేరుగా అడగండి. ఆరోగ్య బీమా **American Benefit Services (Short Term Medical)** ద్వారా, **843-214-2447** లేదా wesley.abs@gmail.com వద్ద. అలాగే పాఠశాల **అంతర్జాతీయ విద్యార్థి టీకాల ఫారం**, **ప్రస్తుత ఆరోగ్య పరీక్ష** కూడా కోరుతుంది."
+    },
+    {
+      "text": "Pay in full before the first day",
+      "of": "5b35505b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].title"
+      ],
+      "t": "మొదటి రోజు కంటే ముందే పూర్తిగా చెల్లించండి"
+    },
+    {
+      "text": "before day one",
+      "of": "81a46c8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].tag"
+      ],
+      "t": "మొదటి రోజుకు ముందు"
+    },
+    {
+      "text": "**Full payment must be received before the first day of school**, and a student cannot be enrolled until it is — an unpaid balance puts the application on **financial hold**. This is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**; nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**",
+      "of": "6a9348ce",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].detail"
+      ],
+      "t": "**పాఠశాల మొదటి రోజు కంటే ముందే పూర్తి చెల్లింపు అందాలి**, అది అందేవరకు విద్యార్థిని చేర్చుకోరు — చెల్లించని బకాయి ఉంటే దరఖాస్తు **ఆర్థిక నిలుపుదల**కు వెళ్తుంది. దేశీయ స్థాయిలతో పోలిస్తే ఇదే అత్యంత పెద్ద తేడా; అక్కడ ప్రవేశం లభించినప్పుడు $500 డిపాజిట్ తీసుకుని మిగతా మొత్తాన్ని ఏడాది పొడవునా బిల్లు చేస్తారు. **అంతర్జాతీయ ట్యూషన్ మొత్తాన్ని ప్రచురించలేదు**; అంతర్జాతీయ విద్యార్థులకు ఆర్థిక సహాయం అందుతుందా అనేది కూడా ప్రచురించలేదు. **ముందుగానే వైదొలిగితే $500 తో పాటు అంతర్జాతీయ ట్యూషన్‌లో 50% ఖర్చవుతుంది.**"
+    },
+    {
+      "text": "What the program includes once you arrive",
+      "of": "c9c17920",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].title"
+      ],
+      "t": "మీరు వచ్చిన తర్వాత కార్యక్రమంలో ఏమి ఉంటుంది"
+    },
+    {
+      "text": "through the year",
+      "of": "1a4fb75a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].tag"
+      ],
+      "t": "ఏడాది పొడవునా"
+    },
+    {
+      "text": "The program covers an **orientation before school starts**, **weekly meetings with the International Student Director**, regular reports back to families and agencies, **airport transportation**, **I-20 maintenance**, lunch, athletic and technology fees, and field trips. One thing to plan for: **re-enrollment is not automatic** — it is applied for each year rather than carried forward.",
+      "of": "504cbdc2",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].detail"
+      ],
+      "t": "ఈ కార్యక్రమంలో **పాఠశాల ప్రారంభానికి ముందు ఓరియెంటేషన్**, **International Student Director తో వారానికొక సమావేశం**, కుటుంబాలకు, ఏజెన్సీలకు క్రమం తప్పకుండా నివేదికలు, **విమానాశ్రయ రవాణా**, **I-20 నిర్వహణ**, భోజనం, క్రీడా, సాంకేతిక రుసుములు, ఫీల్డ్ ట్రిప్‌లు ఉంటాయి. ఒక విషయాన్ని ముందే ఆలోచించుకోండి: **తిరిగి ప్రవేశం స్వయంచాలకం కాదు** — దాన్ని ప్రతి ఏటా కొత్తగా దరఖాస్తు చేసుకోవాలి, ముందటిది కొనసాగదు."
+    },
+    {
+      "text": "A different process, not the domestic one with extra paperwork.",
+      "of": "d1c87cc3",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.lead"
+      ],
+      "t": "ఇది వేరే ప్రక్రియ, దేశీయ ప్రక్రియకు అదనపు పత్రాలు జోడించినది కాదు."
+    },
+    {
+      "text": "It opens with a video interview instead of a campus visit, runs on English-proficiency thresholds and transcripts translated through a named evaluator, and ends with an I-20 that Hickory Grove issues itself and an embassy appointment you book. The financial shape differs too: full payment is required before the first day of school, not a deposit and a billing plan. No separate international deadline is published, and neither is the international application fee or tuition — Sheila M. Chaney directs both admissions and the international program and is the person to ask.",
+      "of": "c3dc7ad0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.text"
+      ],
+      "t": "ఇది క్యాంపస్ సందర్శనకు బదులు వీడియో ఇంటర్వ్యూతో మొదలవుతుంది, ఆంగ్ల ప్రావీణ్య ప్రమాణాలు, నిర్దిష్ట మూల్యాంకన సంస్థ ద్వారా అనువదించిన ట్రాన్‌స్క్రిప్ట్‌ల ఆధారంగా సాగుతుంది, Hickory Grove స్వయంగా జారీ చేసే I-20 తో, మీరు బుక్ చేసుకునే ఎంబసీ అపాయింట్‌మెంట్‌తో ముగుస్తుంది. ఆర్థిక రూపం కూడా వేరు: డిపాజిట్, బిల్లింగ్ ప్రణాళిక కాకుండా, పాఠశాల మొదటి రోజు కంటే ముందే పూర్తి చెల్లింపు అవసరం. అంతర్జాతీయ వారికి వేరే గడువు తేదీ ఏదీ ప్రచురించలేదు, అంతర్జాతీయ దరఖాస్తు రుసుము లేదా ట్యూషన్ కూడా ప్రచురించలేదు — ప్రవేశాలు, అంతర్జాతీయ కార్యక్రమం రెండింటికీ Sheila M. Chaney డైరెక్టర్, ఆమెనే అడగాలి."
+    },
+    {
+      "text": "Arrange the Skype, WeChat or WhatsApp interview with a school official",
+      "of": "3ce91614",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].action"
+      ],
+      "t": "పాఠశాల అధికారితో Skype, WeChat లేదా WhatsApp ఇంటర్వ్యూ ఏర్పాటు చేసుకోండి"
+    },
+    {
+      "text": "The first step, and it replaces the campus visit the domestic bands begin with.",
+      "of": "1f5858bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
+      ],
+      "t": "ఇదే మొదటి దశ, దేశీయ స్థాయిలు మొదలయ్యే క్యాంపస్ సందర్శన స్థానంలో ఇది వస్తుంది."
+    },
+    {
+      "text": "First step",
+      "of": "d2c74831",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].due"
+      ],
+      "t": "మొదటి దశ"
+    },
+    {
+      "text": "Submitted to the International Admissions Office. The fee amount is not published.",
+      "of": "7c746076",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].detail"
+      ],
+      "t": "International Admissions Office కు సమర్పిస్తారు. రుసుము మొత్తాన్ని ప్రచురించలేదు."
+    },
+    {
+      "text": "After the interview",
+      "of": "acc682c1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].due"
+      ],
+      "t": "ఇంటర్వ్యూ తర్వాత"
+    },
+    {
+      "text": "Sit TOEFL Jr. or SLEP and send the score sheet",
+      "of": "5aedcfc9",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].action"
+      ],
+      "t": "TOEFL Jr. లేదా SLEP రాసి స్కోర్ షీట్ పంపండి"
+    },
+    {
+      "text": "TOEFL Jr. 750+ or SLEP 50+. The school will discuss other testing options.",
+      "of": "909a3ce8",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].detail"
+      ],
+      "t": "TOEFL Jr. 750+ లేదా SLEP 50+. ఇతర పరీక్షా ఎంపికల గురించి పాఠశాల చర్చిస్తుంది."
+    },
+    {
+      "text": "Have middle and high school transcripts translated into English",
+      "of": "cc38d35a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].action"
+      ],
+      "t": "మిడిల్, హైస్కూల్ ట్రాన్‌స్క్రిప్ట్‌లను ఆంగ్లంలోకి అనువదింపజేయండి"
+    },
+    {
+      "text": "Through International Education Evaluations (IEE) — myiee.org.",
+      "of": "81728386",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].detail"
+      ],
+      "t": "International Education Evaluations (IEE) ద్వారా — myiee.org."
+    },
+    {
+      "text": "Watch for the acceptance email, then pay the non-refundable application fee",
+      "of": "3dc7c8d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].action"
+      ],
+      "t": "ప్రవేశ ఇమెయిల్ కోసం ఎదురుచూసి, ఆపై వాపసు ఇవ్వని దరఖాస్తు రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Paid after the decision, not with the application.",
+      "of": "77a93204",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].detail"
+      ],
+      "t": "దీన్ని దరఖాస్తుతో పాటు కాకుండా నిర్ణయం వచ్చిన తర్వాత చెల్లిస్తారు."
+    },
+    {
+      "text": "On acceptance",
+      "of": "1079b123",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].due"
+      ],
+      "t": "ప్రవేశం లభించినప్పుడు"
+    },
+    {
+      "text": "Receive the I-20 and book the U.S. Embassy interview",
+      "of": "da5470a1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].action"
+      ],
+      "t": "I-20 అందుకుని U.S. Embassy ఇంటర్వ్యూ బుక్ చేసుకోండి"
+    },
+    {
+      "text": "HGCS mails the I-20; the embassy appointment for the F-1 visa is yours to arrange.",
+      "of": "1ba60e68",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].detail"
+      ],
+      "t": "HGCS I-20 ను పోస్టులో పంపుతుంది; F-1 వీసా కోసం ఎంబసీ అపాయింట్‌మెంట్‌ను మీరే ఏర్పాటు చేసుకోవాలి."
+    },
+    {
+      "text": "Arrange homestay with the HGCS Student Coordinator",
+      "of": "f2829f18",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].action"
+      ],
+      "t": "HGCS Student Coordinator తో హోమ్‌స్టే ఏర్పాటు చేసుకోండి"
+    },
+    {
+      "text": "The coordinator makes contact where homestay is required. Vetting specifics are not published.",
+      "of": "f078d2bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].detail"
+      ],
+      "t": "హోమ్‌స్టే అవసరమైన చోట సమన్వయకర్తే సంప్రదిస్తారు. పరిశీలన వివరాలు ప్రచురించలేదు."
+    },
+    {
+      "text": "Before arrival",
+      "of": "258f0e67",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].due"
+      ],
+      "t": "రాకముందు"
+    },
+    {
+      "text": "Arrange health insurance and send the immunizations form and physical",
+      "of": "3026adac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].action"
+      ],
+      "t": "ఆరోగ్య బీమా ఏర్పాటు చేసుకుని టీకాల ఫారం, ఆరోగ్య పరీక్ష నివేదిక పంపండి"
+    },
+    {
+      "text": "American Benefit Services (Short Term Medical) — 843-214-2447.",
+      "of": "ee64305b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
+      ],
+      "t": "American Benefit Services (Short Term Medical) — 843-214-2447."
+    },
+    {
+      "text": "Pay the $500 enrollment deposit, then the balance in full",
+      "of": "eb37b221",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
+      ],
+      "t": "$500 ప్రవేశ డిపాజిట్ చెల్లించి, ఆపై మిగతా మొత్తాన్ని పూర్తిగా చెల్లించండి"
+    },
+    {
+      "text": "Full payment before the first day of school, or the application goes on financial hold.",
+      "of": "89d1db30",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].detail"
+      ],
+      "t": "పాఠశాల మొదటి రోజు కంటే ముందే పూర్తి చెల్లింపు, లేకపోతే దరఖాస్తు ఆర్థిక నిలుపుదలకు వెళ్తుంది."
+    },
+    {
+      "text": "Before day one",
+      "of": "7263a6ac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].due"
+      ],
+      "t": "మొదటి రోజుకు ముందు"
+    },
+    {
+      "text": "Plan to re-apply each year",
+      "of": "db80ae97",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].action"
+      ],
+      "t": "ప్రతి ఏటా మళ్లీ దరఖాస్తు చేసుకోవడానికి సిద్ధంగా ఉండండి"
+    },
+    {
+      "text": "Re-enrollment is not automatic. Early withdrawal costs $500 plus 50% of international tuition.",
+      "of": "3c6afd19",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].detail"
+      ],
+      "t": "తిరిగి ప్రవేశం స్వయంచాలకం కాదు. ముందుగానే వైదొలిగితే $500 తో పాటు అంతర్జాతీయ ట్యూషన్‌లో 50% ఖర్చవుతుంది."
+    },
+    {
+      "text": "Each year",
+      "of": "2191d0b1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].due"
+      ],
+      "t": "ప్రతి ఏటా"
+    },
+    {
+      "text": "Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application. Two things about the order of operations: **new families must be accepted for enrollment before they can apply for aid**, so the aid application follows the decision here rather than running alongside it; and families should **first apply for, accept or renew the NC Opportunity Scholarship** through the state education assistance authority, then apply to Hickory Grove for aid if that does not meet the need — awarded \"until all available funds have been allocated\". **ESA+** is available for children with disabilities attending an eligible non-public school. The **2026–27** state window ran **February 2 to March 2, 2026** with renewals due **April 15, 2026**.",
+      "of": "250e2905",
+      "at": [
+        "hickory-grove-christian:guide.aid.text"
+      ],
+      "t": "ఆర్థిక సహాయం **FACTS Grant & Aid Assessment** ద్వారా సాగుతుంది, దరఖాస్తును ప్రాసెస్ చేసేందుకు **FACTS $40 వసూలు చేస్తుంది**. వరుసక్రమం గురించి రెండు విషయాలు: **కొత్త కుటుంబాలు ఆర్థిక సహాయానికి దరఖాస్తు చేయాలంటే ముందుగా ప్రవేశం పొందాలి**, కాబట్టి ఇక్కడ ఆర్థిక సహాయ దరఖాస్తు ప్రవేశ నిర్ణయంతో పాటు కాకుండా దాని తర్వాత వస్తుంది; అలాగే కుటుంబాలు **ముందుగా రాష్ట్ర విద్యా సహాయ సంస్థ ద్వారా NC Opportunity Scholarship కోసం దరఖాస్తు చేసుకోవాలి, అంగీకరించాలి లేదా పునరుద్ధరించుకోవాలి**, అది అవసరాన్ని తీర్చకపోతే అప్పుడు Hickory Grove కు ఆర్థిక సహాయం కోసం దరఖాస్తు చేయాలి — దీన్ని \"అందుబాటులో ఉన్న నిధులన్నీ కేటాయించే వరకు\" ఇస్తారు. అర్హత గల ప్రైవేట్ పాఠశాలలో చదివే వైకల్యం ఉన్న పిల్లలకు **ESA+** అందుబాటులో ఉంది. **2026–27** రాష్ట్ర గడువు కాలం **February 2 to March 2, 2026** వరకు సాగింది, పునరుద్ధరణల గడువు **April 15, 2026**."
+    },
+    {
+      "text": "Application window",
+      "of": "4a9dc6ff",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].label"
+      ],
+      "t": "దరఖాస్తు గడువు కాలం"
+    },
+    {
+      "text": "Nov 2, 2026 priority · Nov 16, 2026 public",
+      "of": "a7321ccc",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.hs"
+      ],
+      "t": "Nov 2, 2026 ప్రాధాన్యం · Nov 16, 2026 అందరికీ"
+    },
+    {
+      "text": "No separate international deadline is published",
+      "of": "d6242f35",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.intl"
+      ],
+      "t": "అంతర్జాతీయ వారికి వేరే గడువు తేదీ ఏదీ ప్రచురించలేదు"
+    },
+    {
+      "text": "Readiness Checklist from a preschool or daycare teacher + pastor",
+      "of": "f7aa3171",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.tkk5"
+      ],
+      "t": "ప్రీస్కూల్ లేదా డేకేర్ ఉపాధ్యాయుడి Readiness Checklist + పాస్టర్"
+    },
+    {
+      "text": "Academic Referral from the current teacher + pastor",
+      "of": "a39ceabd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.es"
+      ],
+      "t": "ప్రస్తుత ఉపాధ్యాయుడి Academic Referral + పాస్టర్"
+    },
+    {
+      "text": "None published — the review is transcripts and test scores",
+      "of": "83c5ccf7",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.intl"
+      ],
+      "t": "ఏదీ ప్రచురించలేదు — సమీక్ష ట్రాన్‌స్క్రిప్ట్‌లు, పరీక్షల స్కోర్ల ఆధారంగా"
+    },
+    {
+      "text": "Records required",
+      "of": "299a4b32",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].label"
+      ],
+      "t": "అవసరమైన రికార్డులు"
+    },
+    {
+      "text": "Birth certificate · immunization record · Information form",
+      "of": "e703d316",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.tkk5"
+      ],
+      "t": "జనన ధ్రువీకరణ పత్రం · టీకాల రికార్డు · Information form"
+    },
+    {
+      "text": "Report cards, at least two years · any IEP or 504",
+      "of": "5e2ede11",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.es"
+      ],
+      "t": "కనీసం రెండేళ్ల రిపోర్ట్ కార్డులు · ఏదైనా IEP లేదా 504"
+    },
+    {
+      "text": "Transcript · two years of report cards · standardized scores · Student Questionnaire",
+      "of": "1c61f370",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[2].cells.hs"
+      ],
+      "t": "ట్రాన్‌స్క్రిప్ట్ · రెండేళ్ల రిపోర్ట్ కార్డులు · ప్రామాణిక పరీక్షల స్కోర్లు · Student Questionnaire"
+    },
+    {
+      "text": "Middle and high school transcripts translated into English through IEE",
+      "of": "35db9686",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.intl"
+      ],
+      "t": "IEE ద్వారా ఆంగ్లంలోకి అనువదించిన మిడిల్, హైస్కూల్ ట్రాన్‌స్క్రిప్ట్‌లు"
+    },
+    {
+      "text": "Developmentally appropriate readiness screening — qualifying depends on it",
+      "of": "264dcccd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.tkk5"
+      ],
+      "t": "వయస్సుకు తగిన సన్నద్ధత పరీక్ష — అర్హత దీనిపైనే ఆధారపడి ఉంటుంది"
+    },
+    {
+      "text": "Entrance testing through Student Services",
+      "of": "8bf6bdbb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[3].cells.ms"
+      ],
+      "t": "Student Services ద్వారా ప్రవేశ పరీక్ష"
+    },
+    {
+      "text": "Entrance testing plus a mandatory placement test",
+      "of": "715cc7e2",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.hs"
+      ],
+      "t": "ప్రవేశ పరీక్షతో పాటు తప్పనిసరి ప్లేస్‌మెంట్ పరీక్ష"
+    },
+    {
+      "text": "TOEFL Jr. 750+ or SLEP 50+",
+      "of": "597696fb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.intl"
+      ],
+      "t": "TOEFL Jr. 750+ లేదా SLEP 50+"
+    },
+    {
+      "text": "Shadow day",
+      "of": "9c7c439f",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].label"
+      ],
+      "t": "షాడో డే"
+    },
+    {
+      "text": "No — the requirement starts at grade 9",
+      "of": "53fc7068",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.ms"
+      ],
+      "t": "లేదు — ఈ నిబంధన 9వ తరగతి నుంచి మొదలవుతుంది"
+    },
+    {
+      "text": "Yes — required, by shadow request form",
+      "of": "5ae0b88d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.hs"
+      ],
+      "t": "అవును — తప్పనిసరి, shadow request form ద్వారా"
+    },
+    {
+      "text": "Not applicable",
+      "of": "9f7f439b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.intl"
+      ],
+      "t": "వర్తించదు"
+    },
+    {
+      "text": "First contact with the school",
+      "of": "d57bb388",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].label"
+      ],
+      "t": "పాఠశాలతో మొదటి సంబంధం"
+    },
+    {
+      "text": "Campus visit, by request form",
+      "of": "e3ee5bc3",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.hs"
+      ],
+      "t": "క్యాంపస్ సందర్శన, అభ్యర్థన ఫారం ద్వారా"
+    },
+    {
+      "text": "Skype, WeChat or WhatsApp interview instead of a visit",
+      "of": "50d9b6b4",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.intl"
+      ],
+      "t": "సందర్శనకు బదులు Skype, WeChat లేదా WhatsApp ఇంటర్వ్యూ"
+    },
+    {
+      "text": "Family interview",
+      "of": "94e34996",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].label"
+      ],
+      "t": "కుటుంబ ఇంటర్వ్యూ"
+    },
+    {
+      "text": "Yes — mission, vision and statement of faith, and fit",
+      "of": "d89d340b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.hs"
+      ],
+      "t": "అవును — లక్ష్యం, దృక్పథం, విశ్వాస ప్రకటన, అలాగే సరిపోతుందా అనే అంశం"
+    },
+    {
+      "text": "The opening video interview serves this purpose",
+      "of": "6ebcb5c6",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.intl"
+      ],
+      "t": "ప్రారంభంలో జరిగే వీడియో ఇంటర్వ్యూ ఈ పనినే చేస్తుంది"
+    },
+    {
+      "text": "Paying for the year",
+      "of": "adfcb210",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].label"
+      ],
+      "t": "ఏడాదికి చెల్లింపు"
+    },
+    {
+      "text": "$500 deposit on acceptance, applied toward tuition",
+      "of": "2a5439a8",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.hs"
+      ],
+      "t": "ప్రవేశం లభించినప్పుడు $500 డిపాజిట్, ట్యూషన్‌లో సర్దుబాటు అవుతుంది"
+    },
+    {
+      "text": "Full payment before the first day, or the place goes on financial hold",
+      "of": "97398458",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.intl"
+      ],
+      "t": "మొదటి రోజు కంటే ముందే పూర్తి చెల్లింపు, లేకపోతే సీటు ఆర్థిక నిలుపుదలకు వెళ్తుంది"
+    },
+    {
+      "text": "A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with the published $250/$500 fee window predating the current application dates · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission",
+      "of": "2330fb6d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[8].cells.all"
+      ],
+      "t": "TK నుంచి 12 వరకు ప్రతి తరగతికీ అవసరమైన కుటుంబ పాస్టర్ Personal Recommendation form · FACTS ఆన్‌లైన్ దరఖాస్తు, ప్రచురించిన $250/$500 రుసుము కాలం ప్రస్తుత దరఖాస్తు తేదీల కంటే ముందుది · అవసరమైన ప్రతి ఫారం అందిన తర్వాతే పరీక్షకు సమయం కేటాయింపు · నిర్దిష్ట సమాచార తేదీ లేని లిఖితపూర్వక నిర్ణయం, ఎందుకంటే ప్రవేశాలు నిరంతరంగా, సీట్ల లభ్యతపై ఆధారపడి సాగుతాయి · ట్యూషన్‌లో సర్దుబాటు అయ్యే $500 వాపసు ఇవ్వని ప్రవేశ డిపాజిట్ · ఏవైనా సస్పెన్షన్లు, బహిష్కరణలు లేదా ఫెయిల్ అయిన కోర్సులు ఉంటే ప్రవేశం స్వయంచాలకంగా తిరస్కరించబడుతుందనే ప్రచురిత నిబంధన"
+    },
+    {
+      "text": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · admissions 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:00 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. Only one admissions staff member is named on the school’s site; the office lines below are published for the areas she does not cover.",
+      "of": "87d21ad5",
+      "at": [
+        "hickory-grove-christian:guide.contacts.address"
+      ],
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · ప్రవేశాలు 704-531-4008 · admissions@hgchristian.org · సోమ–శుక్ర 7:30 a.m.–3:00 p.m. తపాలాను వేరుగా, 6050 Hickory Grove Road, Charlotte, NC 28215 కు పంపాలి — ఇది చర్చి, పాఠశాల సముదాయం. పాఠశాల సైట్‌లో ప్రవేశాల సిబ్బందిలో ఒక్కరి పేరు మాత్రమే ఉంది; ఆమె పరిధిలో లేని విభాగాల కోసం కింది కార్యాలయ నంబర్లు ప్రచురించారు."
+    },
+    {
+      "text": "Director of Admissions & International Student Program · 704-531-4008 · admissions@hgchristian.org",
+      "of": "197e28e7",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[0].detail"
+      ],
+      "t": "ప్రవేశాలు & అంతర్జాతీయ విద్యార్థి కార్యక్రమం సంచాలకురాలు · 704-531-4008 · admissions@hgchristian.org"
+    },
+    {
+      "text": "704-531-4008 · Mon–Fri 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org",
+      "of": "c4bb6418",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[1].detail"
+      ],
+      "t": "704-531-4008 · సోమ–శుక్ర 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org"
+    },
+    {
+      "text": "Full-day preschool, below TK · 704-531-4059 · harriseec@hgchristian.org",
+      "of": "8b7ab174",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[2].detail"
+      ],
+      "t": "పూర్తి-రోజు ప్రీస్కూల్, TK కంటే కింది స్థాయి · 704-531-4059 · harriseec@hgchristian.org"
+    },
+    {
+      "text": "Half-day preschool and the classical TK/K campus · 704-531-5345",
+      "of": "bb554855",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[3].detail"
+      ],
+      "t": "అర్ధ-రోజు ప్రీస్కూల్, శాస్త్రీయ TK/K క్యాంపస్ · 704-531-5345"
+    },
+    {
+      "text": "Elementary Principal · 704-531-4195 · loricheuvront@hgchristian.org",
+      "of": "a5b73266",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[4].detail"
+      ],
+      "t": "ఎలిమెంటరీ ప్రిన్సిపాల్ · 704-531-4195 · loricheuvront@hgchristian.org"
+    },
+    {
+      "text": "Portal: FACTS · hg-nc.client.factsmgt.com — memberId 496 for Harris, 15083 for Mallard Creek",
+      "of": "99b89586",
+      "at": [
+        "hickory-grove-christian:guide.checklist.portalNote"
+      ],
+      "t": "పోర్టల్: FACTS · hg-nc.client.factsmgt.com — Harris కు memberId 496, Mallard Creek కు 15083"
+    },
+    {
+      "text": "Aid runs through FACTS Grant & Aid Assessment, and FACTS charges $40 to process the application.",
+      "of": "95b6ccfd",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "ఆర్థిక సహాయం FACTS Grant & Aid Assessment ద్వారా సాగుతుంది, దరఖాస్తును ప్రాసెస్ చేసేందుకు FACTS $40 వసూలు చేస్తుంది."
+    },
+    {
+      "text": "New families must be accepted for enrollment before they can apply for aid, so this follows the admissions decision rather than running alongside it.",
+      "of": "7eb67c47",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "కొత్త కుటుంబాలు ఆర్థిక సహాయానికి దరఖాస్తు చేయాలంటే ముందుగా ప్రవేశం పొందాలి, కాబట్టి ఇది ప్రవేశ నిర్ణయంతో పాటు కాకుండా దాని తర్వాత వస్తుంది."
+    },
+    {
+      "text": "Apply for, accept or renew the NC Opportunity Scholarship first, then apply to Hickory Grove for aid if that does not meet your need — awarded until all available funds have been allocated.",
+      "of": "7bb9b07d",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[2]"
+      ],
+      "t": "ముందుగా NC Opportunity Scholarship కోసం దరఖాస్తు చేసుకోండి, అంగీకరించండి లేదా పునరుద్ధరించుకోండి, అది మీ అవసరాన్ని తీర్చకపోతే అప్పుడు Hickory Grove కు ఆర్థిక సహాయం కోసం దరఖాస్తు చేయండి — అందుబాటులో ఉన్న నిధులన్నీ కేటాయించే వరకు దీన్ని ఇస్తారు."
+    },
+    {
+      "text": "ESA+ is available for children with disabilities attending an eligible non-public school.",
+      "of": "ac450725",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[3]"
+      ],
+      "t": "అర్హత గల ప్రైవేట్ పాఠశాలలో చదివే వైకల్యం ఉన్న పిల్లలకు ESA+ అందుబాటులో ఉంది."
+    },
+    {
+      "text": "The 2026–27 state window ran February 2 to March 2, 2026, with renewals due April 15, 2026.",
+      "of": "2dc6a621",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[4]"
+      ],
+      "t": "2026–27 రాష్ట్ర గడువు కాలం February 2 to March 2, 2026 వరకు సాగింది, పునరుద్ధరణల గడువు April 15, 2026."
+    },
+    {
+      "text": "Admissions — 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:00 p.m.",
+      "of": "84d557ec",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "ప్రవేశాలు — 704-531-4008 · admissions@hgchristian.org · సోమ–శుక్ర 7:30 a.m.–3:00 p.m."
+    },
+    {
+      "text": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · mail to 6050 Hickory Grove Road, Charlotte, NC 28215",
+      "of": "b93fa2a3",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · తపాలా 6050 Hickory Grove Road, Charlotte, NC 28215 కు"
+    },
+    {
+      "text": "International applicants — Sheila M. Chaney, Director of Admissions & International Student Program · 704-531-4008",
+      "of": "b77af464",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "అంతర్జాతీయ దరఖాస్తుదారులు — Sheila M. Chaney, Director of Admissions & International Student Program · 704-531-4008"
+    },
+    {
+      "text": "Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345",
+      "of": "271c6df5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[3]"
+      ],
+      "t": "Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345"
+    },
+    {
+      "text": "Dates are the 2027–28 entry cycle as published on hgchristian.org and retrieved in September 2026, together with both new-family admission checklists revised 11/17/25. The published application-fee window ($250 to May 31, 2026; $500 from June 1, 2026) predates the November 2026 application dates on the same page — confirm the current fee with the admissions office. Cycle dates shift year to year — verify against the live site before acting. Compiled by Charlotte School Compare; not affiliated with Hickory Grove Christian School.",
+      "of": "263c78d5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.disclaimer"
+      ],
+      "t": "తేదీలు hgchristian.org లో ప్రచురించిన 2027–28 ప్రవేశ చక్రానివి, సెప్టెంబర్ 2026లో సేకరించినవి, వీటితో పాటు 11/17/25న సవరించిన రెండు కొత్త-కుటుంబ ప్రవేశ చెక్‌లిస్ట్‌లు. ప్రచురించిన దరఖాస్తు-రుసుము కాలం ($250 May 31, 2026 వరకు; $500 June 1, 2026 నుంచి) అదే పేజీలోని November 2026 దరఖాస్తు తేదీల కంటే ముందుది — ప్రస్తుత రుసుమును ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి. చక్రపు తేదీలు ఏటా మారుతాయి — చర్య తీసుకునే ముందు ప్రత్యక్ష సైట్‌తో సరిచూసుకోండి. Charlotte School Compare సంకలనం చేసింది; Hickory Grove Christian School తో సంబంధం లేదు."
     }
   ]
 }

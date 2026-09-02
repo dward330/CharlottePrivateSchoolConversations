@@ -30,7 +30,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[2].label",
+        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -100,7 +100,8 @@
       "of": "75235da1",
       "at": [
         "providence-day:guide.bands[0].title",
-        "charlotte-latin:guide.bands[0].title"
+        "charlotte-latin:guide.bands[0].title",
+        "hickory-grove-christian:guide.bands[0].title"
       ]
     },
     {
@@ -198,7 +199,15 @@
         "covenant-day:guide.bands[1].steps[0].tag",
         "covenant-day:guide.bands[1].checklistRows[0].due",
         "covenant-day:guide.bands[2].steps[0].tag",
-        "covenant-day:guide.bands[2].checklistRows[0].due"
+        "covenant-day:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[0].steps[0].tag",
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[1].steps[0].tag",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[2].steps[0].tag",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[3].steps[0].tag",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].due"
       ]
     },
     {
@@ -1049,7 +1058,8 @@
         "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title",
-        "covenant-day:guide.aid.title"
+        "covenant-day:guide.aid.title",
+        "hickory-grove-christian:guide.aid.title"
       ]
     },
     {
@@ -1067,7 +1077,8 @@
         "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button",
-        "covenant-day:guide.aid.button"
+        "covenant-day:guide.aid.button",
+        "hickory-grove-christian:guide.aid.button"
       ]
     },
     {
@@ -1078,7 +1089,8 @@
         "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker",
-        "covenant-day:guide.comparison.kicker"
+        "covenant-day:guide.comparison.kicker",
+        "hickory-grove-christian:guide.comparison.kicker"
       ]
     },
     {
@@ -1089,7 +1101,8 @@
         "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title",
-        "covenant-day:guide.comparison.title"
+        "covenant-day:guide.comparison.title",
+        "hickory-grove-christian:guide.comparison.title"
       ]
     },
     {
@@ -1115,7 +1128,8 @@
       "of": "7f464e4f",
       "at": [
         "providence-day:guide.comparison.rows[2].label",
-        "charlotte-christian:guide.comparison.rows[1].label"
+        "charlotte-christian:guide.comparison.rows[1].label",
+        "hickory-grove-christian:guide.comparison.rows[3].label"
       ]
     },
     {
@@ -1204,7 +1218,8 @@
         "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker",
-        "covenant-day:guide.contacts.kicker"
+        "covenant-day:guide.contacts.kicker",
+        "hickory-grove-christian:guide.contacts.kicker"
       ]
     },
     {
@@ -1216,7 +1231,8 @@
         "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title",
-        "covenant-day:guide.contacts.title"
+        "covenant-day:guide.contacts.title",
+        "hickory-grove-christian:guide.contacts.title"
       ]
     },
     {
@@ -1297,7 +1313,8 @@
         "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker",
-        "covenant-day:guide.checklist.aidPanel.kicker"
+        "covenant-day:guide.checklist.aidPanel.kicker",
+        "hickory-grove-christian:guide.checklist.aidPanel.kicker"
       ]
     },
     {
@@ -1322,7 +1339,8 @@
         "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker",
-        "covenant-day:guide.checklist.contactPanel.kicker"
+        "covenant-day:guide.checklist.contactPanel.kicker",
+        "hickory-grove-christian:guide.checklist.contactPanel.kicker"
       ]
     },
     {
@@ -1361,24 +1379,17 @@
       ]
     },
     {
-      "t": "پایه‌های ورود — TK/K، پایه‌های 1–5، 6–8 و 9–12",
-      "of": "70c840a2",
-      "at": [
-        "charlotte-latin:guide.stats[0].label"
-      ]
-    },
-    {
       "t": "مهلت درخواست TK/Kindergarten — 13 روز زودتر از همهٔ پایه‌های دیگر",
       "of": "af3286a6",
       "at": [
-        "charlotte-latin:guide.stats[1].label"
+        "charlotte-latin:guide.stats[0].label"
       ]
     },
     {
       "t": "ودیعهٔ ثبت‌نام بازگشت‌ناپذیر",
       "of": "5b3b8389",
       "at": [
-        "charlotte-latin:guide.stats[3].label"
+        "charlotte-latin:guide.stats[2].label"
       ]
     },
     {
@@ -1868,7 +1879,8 @@
       "t": "Middle School — پایه‌های 6–8",
       "of": "6850595d",
       "at": [
-        "charlotte-latin:guide.bands[2].title"
+        "charlotte-latin:guide.bands[2].title",
+        "hickory-grove-christian:guide.bands[2].title"
       ]
     },
     {
@@ -2244,7 +2256,8 @@
         "charlotte-latin:guide.comparison.rows[7].label",
         "charlotte-christian:guide.comparison.rows[10].label",
         "charlotte-country-day:guide.comparison.rows[8].label",
-        "covenant-day:guide.comparison.rows[9].label"
+        "covenant-day:guide.comparison.rows[9].label",
+        "hickory-grove-christian:guide.comparison.rows[8].label"
       ]
     },
     {
@@ -2414,7 +2427,7 @@
       "of": "64501c19",
       "at": [
         "charlotte-christian:guide.stats[2].label",
-        "covenant-day:guide.stats[3].label"
+        "covenant-day:guide.stats[2].label"
       ]
     },
     {
@@ -2814,7 +2827,31 @@
         "covenant-day:guide.bands[1].checklistRows[7].due",
         "covenant-day:guide.bands[2].checklistRows[6].due",
         "covenant-day:guide.bands[2].checklistRows[7].due",
-        "covenant-day:guide.bands[2].checklistRows[8].due"
+        "covenant-day:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].due"
       ]
     },
     {
@@ -3169,7 +3206,15 @@
       "of": "95231371",
       "at": [
         "charlotte-christian:guide.bands[2].checklistRows[6].action",
-        "charlotte-christian:guide.bands[3].checklistRows[9].action"
+        "charlotte-christian:guide.bands[3].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[0].steps[5].title",
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[1].steps[4].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[2].steps[4].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].action",
+        "hickory-grove-christian:guide.bands[3].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].action"
       ]
     },
     {
@@ -3739,7 +3784,8 @@
       "of": "639aa0b9",
       "at": [
         "charlotte-country-day:guide.cycle",
-        "covenant-day:guide.cycle"
+        "covenant-day:guide.cycle",
+        "hickory-grove-christian:guide.cycle"
       ]
     },
     {
@@ -4602,24 +4648,17 @@
       ]
     },
     {
-      "t": "مقاطع ورود — JK/K، پایه‌های 1–5، پایه‌های 6–11",
-      "of": "6fb06a60",
-      "at": [
-        "covenant-day:guide.stats[0].label"
-      ]
-    },
-    {
       "t": "مهلت اولویت JK/K — دو هفته زودتر از بقیه",
       "of": "6746bc3d",
       "at": [
-        "covenant-day:guide.stats[1].label"
+        "covenant-day:guide.stats[0].label"
       ]
     },
     {
       "t": "مهلت اولویت پایه‌های 1–11",
       "of": "90be6afd",
       "at": [
-        "covenant-day:guide.stats[2].label"
+        "covenant-day:guide.stats[1].label"
       ]
     },
     {
@@ -4746,7 +4785,11 @@
       "at": [
         "covenant-day:guide.bands[0].steps[4].tag",
         "covenant-day:guide.bands[1].steps[4].tag",
-        "covenant-day:guide.bands[2].steps[4].tag"
+        "covenant-day:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[0].steps[3].tag",
+        "hickory-grove-christian:guide.bands[1].steps[2].tag",
+        "hickory-grove-christian:guide.bands[2].steps[2].tag",
+        "hickory-grove-christian:guide.bands[3].steps[2].tag"
       ]
     },
     {
@@ -5300,7 +5343,9 @@
       "of": "61e6be1a",
       "at": [
         "covenant-day:guide.comparison.rows[3].cells.jkk",
-        "covenant-day:guide.comparison.rows[3].cells.g15"
+        "covenant-day:guide.comparison.rows[3].cells.g15",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.es"
       ]
     },
     {
@@ -5314,7 +5359,8 @@
       "t": "فرم‌های توصیه",
       "of": "f250a57d",
       "at": [
-        "covenant-day:guide.comparison.rows[4].label"
+        "covenant-day:guide.comparison.rows[4].label",
+        "hickory-grove-christian:guide.comparison.rows[1].label"
       ]
     },
     {
@@ -5335,7 +5381,9 @@
       "t": "ریاضی + انگلیسی + مدیر/مشاور + کشیش",
       "of": "b819b98e",
       "at": [
-        "covenant-day:guide.comparison.rows[4].cells.g611"
+        "covenant-day:guide.comparison.rows[4].cells.g611",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.hs"
       ]
     },
     {
@@ -5526,6 +5574,1696 @@
       "of": "a1ba4967",
       "at": [
         "covenant-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "پایهٔ ورود فرزندتان را انتخاب کنید تا راهنما متناسب با آن تنظیم شود: کل توالی درخواست به‌ترتیب، بازه‌های درخواست 2027–28 و فرم‌ها و آزمون‌های همان پایه — به‌همراه سیاهه‌ای قابل‌چاپ که می‌توانید با خود ببرید. ساختار برای همهٔ متقاضیان داخلی یکسان است، اما بازهٔ اولویت‌دار دو هفته زودتر برای اعضای کلیسا، خانواده‌های Early Education Center و خواهر و برادر دانش‌آموزان کنونی باز می‌شود، و روند بین‌المللی F-1 از آغاز تا پایان روندی جداگانه است.",
+      "of": "3d1ccf3e",
+      "at": [
+        "hickory-grove-christian:guide.headline"
+      ]
+    },
+    {
+      "t": "بازهٔ اولویت‌دار باز می‌شود — اعضای کلیسا، دانش‌آموزان EEC، خواهر و برادرها",
+      "of": "b6ba26cc",
+      "at": [
+        "hickory-grove-christian:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "درخواست‌ها برای عموم باز می‌شود",
+      "of": "0ae2d1d5",
+      "at": [
+        "hickory-grove-christian:guide.stats[1].label",
+        "hickory-grove-christian:guide.bands[0].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "ودیعهٔ ثبت‌نام هنگام پذیرش — از شهریه کسر می‌شود",
+      "of": "09f05c01",
+      "at": [
+        "hickory-grove-christian:guide.stats[2].label"
+      ]
+    },
+    {
+      "t": "یک سامانه، دو پردیس.",
+      "of": "242d24c6",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].title"
+      ]
+    },
+    {
+      "t": "همه‌چیز از طریق FACTS انجام می‌شود: درخواست اطلاعات، ثبت درخواست و پی‌گیری اینکه کدام فرم‌های تکمیلی رسیده است. Harris و Mallard Creek سامانه‌های جداگانه دارند، پس از طریق سامانهٔ پردیس خودتان اقدام کنید.",
+      "of": "beedf199",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "دو بازه، سپس پذیرش پیوسته.",
+      "of": "cefb5cab",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].title"
+      ]
+    },
+    {
+      "t": "اعضای کلیسا، دانش‌آموزان Early Education Center و خواهر و برادر دانش‌آموزان کنونی از Nov 2, 2026 اقدام می‌کنند؛ بقیه از Nov 16. این یعنی جایگاهی زودتر در صف، نه تخفیف — پس از این تاریخ‌ها، پذیرش پیوسته است.",
+      "of": "6c028ff5",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "ساختار مشترک در همهٔ پایه‌های داخلی یکسان است — ثبت فرم درخواست اطلاعات ← هماهنگی بازدید ← ثبت درخواست در FACTS و پرداخت هزینهٔ درخواست ← ارسال فرم‌های لازم برای پایهٔ شما ← شرکت در آزمون ورودی، که تنها پس از رسیدن همهٔ فرم‌ها زمان‌بندی می‌شود ← حضور در مصاحبهٔ خانوادگی ← دریافت تصمیم به‌صورت کتبی ← پرداخت ودیعهٔ ثبت‌نام $500. آنچه میان پایه‌ها تغییر می‌کند این است که چه فرم‌هایی می‌فرستید، آیا روز همراهی هست و آیا آزمون تعیین سطح اعمال می‌شود. روند بین‌المللی F-1 جای بیشتر این مراحل را می‌گیرد و در پایهٔ خودش شرح داده شده است.",
+      "of": "a2238ddf",
+      "at": [
+        "hickory-grove-christian:guide.spineNote"
+      ]
+    },
+    {
+      "t": "TK / K5",
+      "of": "c4921f8b",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].label"
+      ]
+    },
+    {
+      "t": "ارزیابی آمادگی · مهلت‌های سنی",
+      "of": "4bc7a523",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].sublabel"
+      ]
+    },
+    {
+      "t": "بازهٔ اولویت‌دار باز می‌شود — اعضا، EEC، خواهر و برادرها",
+      "of": "f2289bb7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "ودیعهٔ ثبت‌نام هنگام پذیرش",
+      "of": "31d3187f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "فرم درخواست اطلاعات را بفرستید، سپس بازدید را هماهنگ کنید",
+      "of": "ec7cfe82",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].title",
+        "hickory-grove-christian:guide.bands[1].steps[0].title",
+        "hickory-grove-christian:guide.bands[2].steps[0].title",
+        "hickory-grove-christian:guide.bands[3].steps[0].title"
+      ]
+    },
+    {
+      "t": "دو مرحلهٔ نخست فرم‌های کوتاهی هستند که از صفحهٔ پذیرش پیوند داده شده‌اند — یکی درخواست اطلاعات و دیگری درخواست بازدید از پردیس. همین‌جا باید تصمیم بگیرید برای کدام پردیس اقدام می‌کنید: **Harris** کودکستان انتقالی و کودکستان را در کنار بقیهٔ پایه‌های TK–12 اجرا می‌کند، در حالی که **Mallard Creek** در حال راه‌اندازی **کودکستان انتقالی و کودکستان مسیحی کلاسیک** است که هر سال یک پایه رشد می‌کند و دانش‌آموزان در دورهٔ متوسطهٔ اول به Harris منتقل می‌شوند.",
+      "of": "8b2d59d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].detail"
+      ]
+    },
+    {
+      "t": "بررسی کنید فرزندتان واجد شرایط کدام پایه است",
+      "of": "3ba53718",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].title"
+      ]
+    },
+    {
+      "t": "پیش از اقدام",
+      "of": "1130444e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].tag"
+      ]
+    },
+    {
+      "t": "دو پایهٔ کوچک‌تر بر پایهٔ تاریخ تولد از هم جدا می‌شوند. کودکی که **تا October 16** سال تحصیلی موردنظر پنج ساله می‌شود واجد شرایط **کودکستان (K5)** است؛ کودکی که **در April 16 یا پیش از آن** پنج ساله می‌شود واجد شرایط **کودکستان انتقالی (TK)** است، که مدرسه آن را پلی میان پیش‌دبستان و کودکستان توصیف می‌کند و به کودک فرصت می‌دهد مهارت‌های بنیادی موردانتظار کودکستان را پرورش دهد. تاریخ تولد تمام تصمیم نیست — ارزیابی آمادگی در ادامه را ببینید. TK نخستین نقطهٔ ورود به K–12 است؛ کودکان کوچک‌تر از طریق دفتر **Early Education Center** ثبت‌نام می‌شوند، نه این روند.",
+      "of": "6131bdff",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].detail"
+      ]
+    },
+    {
+      "t": "در FACTS اقدام کنید و هزینهٔ درخواست را بپردازید",
+      "of": "5835dc0f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].title",
+        "hickory-grove-christian:guide.bands[1].steps[1].title",
+        "hickory-grove-christian:guide.bands[2].steps[1].title",
+        "hickory-grove-christian:guide.bands[3].steps[1].title"
+      ]
+    },
+    {
+      "t": "از Nov 2 یا Nov 16",
+      "of": "26c07375",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].tag",
+        "hickory-grove-christian:guide.bands[1].steps[1].tag",
+        "hickory-grove-christian:guide.bands[2].steps[1].tag",
+        "hickory-grove-christian:guide.bands[3].steps[1].tag"
+      ]
+    },
+    {
+      "t": "از طریق سامانهٔ FACTS پردیس خودتان اقدام کنید — **Harris و Mallard Creek سامانه‌های متفاوتی دارند**. اینکه آیا TK و کودکستان کلاسیک Mallard Creek مراحل یا تاریخ‌هایی متفاوت از Harris دارند **منتشر نشده است**، پس اگر برای آنجا اقدام می‌کنید با دفتر پذیرش بررسی کنید. **گواهی تولد** و **Immunization Registry Record** فرزندتان را همراه با درخواست بفرستید. دربارهٔ هزینه: مدرسه **$250 برای بازه‌ای که تا May 31, 2026 ادامه داشت** و **$500 از June 1, 2026 به بعد** را منتشر کرده است، اما آن بازهٔ منتشرشده پیش از تاریخ‌های درخواست نوامبر 2026 است — **پیش از پرداخت، هزینهٔ کنونی را با دفتر پذیرش بررسی کنید**.",
+      "of": "b0b3a64e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "سه فرم لازم برای این پایه را بفرستید",
+      "of": "a6c25c1c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].title"
+      ]
+    },
+    {
+      "t": "سه فرم پروندهٔ TK یا K5 را کامل می‌کند: یک **Information form**؛ یک **Readiness Checklist** که معلم پیش‌دبستان یا مهدکودک فرزندتان پر می‌کند؛ و یک **Personal Recommendation form از کشیش خانوادهٔ شما**، که در همهٔ پایه‌ها از TK تا 12 لازم است. هر سه را بی‌درنگ بفرستید — تا زمانی که دفتر پذیرش همهٔ آن‌ها را دریافت نکند، هیچ نوبتی تعیین نمی‌شود.",
+      "of": "77555d76",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "در ارزیابی آمادگی شرکت کنید",
+      "of": "b8760e48",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "پس از رسیدن همهٔ فرم‌ها",
+      "of": "ceda396c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].tag",
+        "hickory-grove-christian:guide.bands[1].steps[3].tag",
+        "hickory-grove-christian:guide.bands[2].steps[3].tag",
+        "hickory-grove-christian:guide.bands[3].steps[4].tag"
+      ]
+    },
+    {
+      "t": "فرزند شما در جریان روند پذیرش در یک **ارزیابی مهارتی متناسب با رشد** شرکت می‌کند و واجد شرایط شدن برای برنامه به قبولی در آن بستگی دارد — همین است که در کنار مهلت‌های سنی، جایگاه TK یا K5 را مشخص می‌کند. آزمون از طریق دفتر **Student Services** هماهنگ می‌شود و **تنها پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد** زمان‌بندی می‌شود، پس یک فرم باقی‌مانده کل زمان‌بندی را متوقف می‌کند. مدرسه منتشر نکرده است که از کدام ابزار استفاده می‌کند.",
+      "of": "7cf05845",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "پس از آزمون",
+      "of": "e08f0319",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].tag",
+        "hickory-grove-christian:guide.bands[1].steps[4].tag",
+        "hickory-grove-christian:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[3].steps[5].tag"
+      ]
+    },
+    {
+      "t": "مصاحبهٔ خانوادگی پس از تکمیل مراحل پیشین و نتیجهٔ خوب آن‌ها زمان‌بندی می‌شود. مدرسه آن را فرصتی برای بیان **مأموریت، چشم‌انداز و بیانیهٔ ایمان** خود و سنجش اینکه آیا Hickory Grove برای خانوادهٔ شما مناسب است توصیف می‌کند. **هیچ الزام منتشرشده‌ای مبنی بر مسیحی بودن یکی از والدین وجود ندارد** — آنچه لازم است فرم توصیه‌نامهٔ کشیش و همین گفت‌وگو است.",
+      "of": "a7b32e23",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].detail",
+        "hickory-grove-christian:guide.bands[1].steps[4].detail",
+        "hickory-grove-christian:guide.bands[2].steps[4].detail",
+        "hickory-grove-christian:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "تصمیم، سپس ودیعهٔ $500",
+      "of": "4a1a7c50",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].title",
+        "hickory-grove-christian:guide.bands[1].steps[5].title",
+        "hickory-grove-christian:guide.bands[2].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].steps[6].title"
+      ]
+    },
+    {
+      "t": "پیوسته",
+      "of": "086a38f2",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].tag",
+        "hickory-grove-christian:guide.bands[1].steps[5].tag",
+        "hickory-grove-christian:guide.bands[2].steps[5].tag",
+        "hickory-grove-christian:guide.bands[3].steps[6].tag"
+      ]
+    },
+    {
+      "t": "تصمیم نهایی **به‌صورت کتبی اعلام می‌شود** و در آن نمرات رضایت‌بخش، توصیه‌نامه‌ها، مصاحبه، گزارش‌های رفتاری، آزمون ورودی و هر IEP، 504 یا ارزیابی روان‌آموزشی موجود در پرونده سنجیده می‌شود. **هیچ تاریخ ثابتی برای اعلام نتیجه منتشر نشده است** — پذیرش پیوسته است و به ظرفیت آن پایه بستگی دارد. هنگام پذیرش، **ودیعهٔ غیرقابل‌استرداد $500** باید پرداخت شود و از شهریه کسر می‌شود.",
+      "of": "f1e7909d",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].detail",
+        "hickory-grove-christian:guide.bands[1].steps[5].detail",
+        "hickory-grove-christian:guide.bands[2].steps[5].detail"
+      ]
+    },
+    {
+      "t": "تا زمانی که همهٔ فرم‌ها نرسد، آزمون زمان‌بندی نمی‌شود.",
+      "of": "64f124e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "ارزیابی آمادگی که جایگاه TK یا K5 را مشخص می‌کند تنها پس از آنکه دفتر پذیرش Information form، Readiness Checklist از معلم پیش‌دبستان یا مهدکودک فرزندتان و Personal Recommendation form کشیش را دریافت کرد، از طریق Student Services هماهنگ می‌شود. درخواست‌ها از 2 نوامبر برای اعضای کلیسا، دانش‌آموزان Early Education Center و خواهر و برادر دانش‌آموزان کنونی و از 16 نوامبر برای بقیه باز می‌شود؛ پس از آن پذیرش پیوسته و وابسته به ظرفیت است و تاریخ ثابتی برای اعلام نتیجه ندارد. توجه کنید که هرگونه تعلیق، اخراج یا مردودی ثبت‌شده به‌طور خودکار به رد درخواست پذیرش می‌انجامد.",
+      "of": "66185ba4",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "فرم درخواست اطلاعات را ثبت و بازدید از پردیس را درخواست کنید",
+      "of": "405411b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "هر دو فرم‌های کوتاهی هستند که از صفحهٔ پذیرش پیوند داده شده‌اند. همین‌جا Harris یا Mallard Creek را انتخاب کنید.",
+      "of": "007e9989",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "بررسی کنید فرزندتان واجد شرایط TK است یا K5",
+      "of": "e4be2401",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "پنج ساله شدن تا Oct 16 برای K5؛ پنج ساله شدن در Apr 16 یا پیش از آن برای TK. ارزیابی نیز آمادگی را می‌سنجد.",
+      "of": "80653d29",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "پیش از اقدام",
+      "of": "4537836e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].due"
+      ]
+    },
+    {
+      "t": "در سامانهٔ FACTS پردیس خودتان اقدام کنید و هزینهٔ درخواست را بپردازید",
+      "of": "b5ed2dfd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "Harris و Mallard Creek سامانه‌های متفاوتی دارند. هزینهٔ کنونی را بررسی کنید — $250/$500 برای بازه‌ای منتشر شده که گذشته است.",
+      "of": "f43abcab",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Nov 2 یا Nov 16, 2026",
+      "of": "8cf443e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].due"
+      ]
+    },
+    {
+      "t": "گواهی تولد و Immunization Registry Record را بفرستید",
+      "of": "77ee5233",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "هر دو همراه با خود درخواست فرستاده می‌شوند.",
+      "of": "3f7f01b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "همراه با درخواست",
+      "of": "72b1bf58",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].due"
+      ]
+    },
+    {
+      "t": "Information form را تکمیل کنید",
+      "of": "cecb18bb",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "یکی از سه فرم لازم برای پروندهٔ TK یا K5.",
+      "of": "dbdb37bd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "از معلم پیش‌دبستان یا مهدکودک فرزندتان Readiness Checklist را بخواهید",
+      "of": "ff772f7c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "معلم آن را پر می‌کند، نه شما.",
+      "of": "a9fc55b7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "از کشیش خانواده‌تان Personal Recommendation form را بخواهید",
+      "of": "0bb991ad",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "در همهٔ پایه‌ها از TK تا 12 لازم است.",
+      "of": "b0e9da36",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "در ارزیابی آمادگی متناسب با رشد شرکت کنید",
+      "of": "cba43a68",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "تنها پس از رسیدن همهٔ فرم‌ها از سوی Student Services هماهنگ می‌شود. واجد شرایط شدن به قبولی در آن بستگی دارد.",
+      "of": "345206cc",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "پس از رسیدن همهٔ فرم‌ها",
+      "of": "09225c0c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].due"
+      ]
+    },
+    {
+      "t": "مأموریت، چشم‌انداز و بیانیهٔ ایمان مدرسه و اینکه آیا مدرسه با خانوادهٔ شما تناسب دارد را پوشش می‌دهد.",
+      "of": "48965695",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].detail"
+      ]
+    },
+    {
+      "t": "پس از آزمون",
+      "of": "f91a27b9",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].due"
+      ]
+    },
+    {
+      "t": "منتظر تصمیم کتبی باشید، سپس ودیعهٔ $500 را بپردازید",
+      "of": "44026a96",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].action"
+      ]
+    },
+    {
+      "t": "غیرقابل‌استرداد، از شهریه کسر می‌شود. تاریخ ثابتی برای اعلام نتیجه نیست — پذیرش پیوسته است.",
+      "of": "724667d0",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].detail"
+      ]
+    },
+    {
+      "t": "پیوسته",
+      "of": "3914a792",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].due"
+      ]
+    },
+    {
+      "t": "ابتدایی · پایه‌های 1–5",
+      "of": "72ba36a9",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].label"
+      ]
+    },
+    {
+      "t": "Academic Referral · کارنامه‌ها",
+      "of": "607998a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].sublabel"
+      ]
+    },
+    {
+      "t": "ابتدایی — پایه‌های 1–5",
+      "of": "46af5fb2",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "دو مرحلهٔ نخست فرم‌های کوتاهی هستند که از صفحهٔ پذیرش پیوند داده شده‌اند — یکی درخواست اطلاعات و دیگری درخواست بازدید از پردیس. پایه‌های 1 تا 5 در **پردیس Harris**، 7200 E. WT Harris Blvd. تدریس می‌شوند.",
+      "of": "9e48cbc4",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[0].detail"
+      ]
+    },
+    {
+      "t": "از طریق **سامانهٔ FACTS** اقدام کنید و **گواهی تولد** و **Immunization Registry Record** فرزندتان را همراه با درخواست بفرستید. دربارهٔ هزینه: مدرسه **$250 برای بازه‌ای که تا May 31, 2026 ادامه داشت** و **$500 از June 1, 2026 به بعد** را منتشر کرده است، اما آن بازهٔ منتشرشده پیش از تاریخ‌های درخواست نوامبر 2026 است — **پیش از پرداخت، هزینهٔ کنونی را با دفتر پذیرش بررسی کنید**.",
+      "of": "4880974f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[1].detail"
+      ]
+    },
+    {
+      "t": "فرم‌ها و سوابق لازم برای این پایه را بفرستید",
+      "of": "a07a2d41",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].title"
+      ]
+    },
+    {
+      "t": "پروندهٔ دورهٔ ابتدایی به چیزی بیش از پایهٔ کوچک‌تر نیاز دارد: یک **Academic Referral form از معلم کنونی فرزندتان**؛ **کارنامه‌های دست‌کم دو سال**؛ یک **Personal Recommendation form از کشیش خانوادهٔ شما**، که در همهٔ پایه‌های TK–12 لازم است؛ و **تنها برای دانش‌آموزان پایه‌های چهارم و پنجم، یک Student Questionnaire**. اگر فرزند شما **آزمون آموزشی یا تشخیصی** داشته یا **IEP یا برنامهٔ 504 جاری** دارد، نتایج آن‌ها را هم بفرستید. تا رسیدن همهٔ این‌ها هیچ نوبتی تعیین نمی‌شود.",
+      "of": "0a0a777e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "در آزمون ورودی شرکت کنید",
+      "of": "20ea4512",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[2].steps[3].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].action"
+      ]
+    },
+    {
+      "t": "آزمون از طریق دفتر **Student Services** هماهنگ می‌شود و **تنها پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد** زمان‌بندی می‌شود — یک کارنامه یا توصیه‌نامهٔ باقی‌مانده کل زمان‌بندی را متوقف می‌کند. مدرسه منتشر نکرده است که از کدام ابزار استفاده می‌کند. **در این پایه روز همراهی وجود ندارد**؛ همراهی تنها برای متقاضیان دبیرستان الزامی است.",
+      "of": "bfb0f385",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].detail"
+      ]
+    },
+    {
+      "t": "دو سال کارنامه و یک ارجاع از معلمی که اکنون فرزندتان دارد.",
+      "of": "8f0cc462",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "پروندهٔ دورهٔ ابتدایی به Academic Referral form از معلم کنونی فرزندتان، کارنامه‌های دست‌کم دو سال، Personal Recommendation form کشیش و — تنها برای پایه‌های چهارم و پنجم — یک Student Questionnaire نیاز دارد. آزمون تنها پس از رسیدن همهٔ این‌ها از طریق Student Services هماهنگ می‌شود، پس از فرم‌هایی شروع کنید که دیگران باید پر کنند. درخواست‌ها از 2 نوامبر برای اعضای کلیسا، دانش‌آموزان Early Education Center و خواهر و برادر دانش‌آموزان کنونی و از 16 نوامبر برای بقیه باز می‌شود؛ پس از آن پذیرش پیوسته است و تاریخ ثابتی برای اعلام نتیجه ندارد. توجه کنید که هرگونه تعلیق، اخراج یا مردودی ثبت‌شده به‌طور خودکار به رد درخواست پذیرش می‌انجامد.",
+      "of": "a4b5f901",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "هر دو فرم‌های کوتاهی هستند که از صفحهٔ پذیرش پیوند داده شده‌اند.",
+      "of": "b39af57a",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "در سامانهٔ FACTS اقدام کنید و هزینهٔ درخواست را بپردازید",
+      "of": "2f9b02da",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "هزینهٔ کنونی را بررسی کنید — $250/$500 برای بازه‌ای منتشر شده که گذشته است.",
+      "of": "3d61d2a5",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "از معلم کنونی فرزندتان Academic Referral form را بخواهید",
+      "of": "c4333638",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "معلمی که اکنون فرزندتان دارد آن را پر می‌کند.",
+      "of": "57b066e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "کارنامه‌های دست‌کم دو سال را بفرستید",
+      "of": "9bf51e5f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "دو سال کامل حداقلِ منتشرشده است.",
+      "of": "efc76a71",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "تنها پایه‌های چهارم و پنجم — Student Questionnaire را تکمیل کنید",
+      "of": "75084c81",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "برای پایه‌های پایین‌تر از چهارم لازم نیست.",
+      "of": "4a716a85",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "هر آزمون آموزشی یا تشخیصی و IEP یا 504 جاری را بفرستید",
+      "of": "897a3eb3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "تنها در صورت وجود — به‌عنوان بخشی از تصمیم نهایی بررسی می‌شوند.",
+      "of": "43b583e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "تنها پس از رسیدن همهٔ فرم‌ها از سوی Student Services هماهنگ می‌شود. در این پایه روز همراهی وجود ندارد.",
+      "of": "22130b9e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].detail"
+      ]
+    },
+    {
+      "t": "متوسطهٔ اول · پایه‌های 6–8",
+      "of": "7dc2f276",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].label"
+      ]
+    },
+    {
+      "t": "سه توصیه‌نامهٔ معلم",
+      "of": "4becfc9d",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].sublabel"
+      ]
+    },
+    {
+      "t": "دو مرحلهٔ نخست فرم‌های کوتاهی هستند که از صفحهٔ پذیرش پیوند داده شده‌اند — یکی درخواست اطلاعات و دیگری درخواست بازدید از پردیس. متوسطهٔ اول در **پردیس Harris**، 7200 E. WT Harris Blvd. تدریس می‌شود.",
+      "of": "781ab056",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[0].detail"
+      ]
+    },
+    {
+      "t": "از طریق **سامانهٔ FACTS** اقدام کنید و **گواهی تولد** و **Immunization Registry record** فرزندتان را همراه با درخواست بفرستید. دربارهٔ هزینه: مدرسه **$250 برای بازه‌ای که تا May 31, 2026 ادامه داشت** و **$500 از June 1, 2026 به بعد** را منتشر کرده است، اما آن بازهٔ منتشرشده پیش از تاریخ‌های درخواست نوامبر 2026 است — **پیش از پرداخت، هزینهٔ کنونی را با دفتر پذیرش بررسی کنید**.",
+      "of": "f05c506f",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[1].detail",
+        "hickory-grove-christian:guide.bands[3].steps[1].detail"
+      ]
+    },
+    {
+      "t": "چهار توصیه‌نامه و سوابق کامل را بفرستید",
+      "of": "5a853f29",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].title",
+        "hickory-grove-christian:guide.bands[3].steps[2].title"
+      ]
+    },
+    {
+      "t": "این همان پایه‌ای است که حجم مدارک در آن جهش می‌کند. **چهار فرم توصیه‌نامه** لازم است — یک **Math Teacher Recommendation**، یک **English Teacher Recommendation**، یک **Principal or Guidance Counselor Recommendation** و همان **Personal Recommendation form از کشیش خانوادهٔ شما** که در همهٔ پایه‌ها لازم است. در کنار آن‌ها: **کارنامه‌های دو سال اخیر**، **کارنامهٔ تحصیلی**، **نتایج آزمون‌های استاندارد**، یک **Student Questionnaire** که فرزندتان پر می‌کند و هر **نتیجهٔ آزمون آموزشی یا تشخیصی یا IEP، 504 یا برنامهٔ تسهیلات جاری**. سه مورد از چهار توصیه‌نامه به وقت دیگران بستگی دارد، پس نخست آن‌ها را درخواست کنید.",
+      "of": "7b1e0181",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "آزمون از طریق دفتر **Student Services** هماهنگ می‌شود و **تنها پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد** زمان‌بندی می‌شود. با چهار توصیه‌نامه در پرونده، همین شرط بیش از هر چیز دیگری می‌تواند درخواست متوسطهٔ اول را به تعویق بیندازد. **در این پایه روز همراهی الزامی نیست** — این الزام تنها برای متقاضیان دبیرستان است، هرچند پایه‌های 6 تا 12 در بقیهٔ فهرست فرم‌ها یکسان‌اند.",
+      "of": "ba2d6a03",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "چهار توصیه‌نامه — و بدون روز همراهی، برخلاف دبیرستان.",
+      "of": "59f54ed7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "پایه‌های 6 تا 12 یک فهرست فرم مشترک دارند: معلم ریاضی، معلم انگلیسی، مدیر یا مشاور راهنما و کشیش خانوادهٔ شما، به‌همراه کارنامهٔ تحصیلی، کارنامه‌های دو سال، نمرات آزمون‌های استاندارد و یک Student Questionnaire. آنچه متوسطهٔ اول ندارد روز همراهی است، که تنها از متقاضیان دبیرستان خواسته می‌شود. آزمون تنها پس از رسیدن تک‌تک این فرم‌ها از طریق Student Services هماهنگ می‌شود، پس نخست سه توصیه‌نامهٔ مدرسه را درخواست کنید. درخواست‌ها از 2 نوامبر برای اعضای کلیسا، دانش‌آموزان Early Education Center و خواهر و برادر دانش‌آموزان کنونی و از 16 نوامبر برای بقیه باز می‌شود؛ پس از آن پذیرش پیوسته و وابسته به ظرفیت است و تاریخ ثابتی برای اعلام نتیجه ندارد. توجه کنید که هرگونه تعلیق، اخراج یا مردودی ثبت‌شده به‌طور خودکار به رد درخواست پذیرش می‌انجامد.",
+      "of": "22d6f213",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "گواهی تولد و Immunization Registry record را بفرستید",
+      "of": "059a3413",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "فرم Math Teacher Recommendation را درخواست کنید",
+      "of": "5aab4e8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "یکی از سه توصیه‌نامهٔ مدرسه — زود درخواست کنید.",
+      "of": "edbe12bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "فرم English Teacher Recommendation را درخواست کنید",
+      "of": "dd1d22c0",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "فرم Principal or Guidance Counselor Recommendation را درخواست کنید",
+      "of": "eb8ef6a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "کارنامهٔ تحصیلی و کارنامه‌های دو سال اخیر را بفرستید",
+      "of": "f533f124",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "هر دو از پایهٔ 6 به بالا لازم است.",
+      "of": "177a8bf1",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "نتایج آزمون‌های استاندارد را بفرستید",
+      "of": "c27b10e4",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].action"
+      ]
+    },
+    {
+      "t": "از پایهٔ 6 به بالا لازم است.",
+      "of": "dd07176a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "از فرزندتان بخواهید Student Questionnaire را تکمیل کند",
+      "of": "81b7997a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].action"
+      ]
+    },
+    {
+      "t": "در همهٔ پایه‌ها از 6 تا 12 لازم است.",
+      "of": "084db8cf",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].detail"
+      ]
+    },
+    {
+      "t": "هر آزمون تشخیصی، IEP، 504 یا برنامهٔ تسهیلات را بفرستید",
+      "of": "6a09af62",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].action"
+      ]
+    },
+    {
+      "t": "تنها در صورت وجود — به‌عنوان بخشی از تصمیم نهایی بررسی می‌شود.",
+      "of": "4f218f25",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].detail"
+      ]
+    },
+    {
+      "t": "دبیرستان · پایه‌های 9–12",
+      "of": "8a27ca4f",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].label"
+      ]
+    },
+    {
+      "t": "روز همراهی + آزمون تعیین سطح",
+      "of": "8d4aa467",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].sublabel"
+      ]
+    },
+    {
+      "t": "دبیرستان — پایه‌های 9–12",
+      "of": "aaf17dfc",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].title"
+      ]
+    },
+    {
+      "t": "دو مرحلهٔ نخست فرم‌های کوتاهی هستند که از صفحهٔ پذیرش پیوند داده شده‌اند — یکی درخواست اطلاعات و دیگری درخواست بازدید از پردیس. دبیرستان در **پردیس Harris**، 7200 E. WT Harris Blvd. تدریس می‌شود.",
+      "of": "ebd8fbdd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[0].detail"
+      ]
+    },
+    {
+      "t": "دبیرستان فهرست فرم‌هایش را با متوسطهٔ اول مشترک دارد. **چهار فرم توصیه‌نامه** لازم است — یک **Math Teacher Recommendation**، یک **English Teacher Recommendation**، یک **Principal or Guidance Counselor Recommendation** و همان **Personal Recommendation form از کشیش خانوادهٔ شما** که در همهٔ پایه‌ها لازم است. در کنار آن‌ها: **کارنامهٔ تحصیلی دبیرستان**، **کارنامه‌های دو سال اخیر**، **نتایج آزمون‌های استاندارد**، یک **Student Questionnaire** که فرزندتان پر می‌کند و هر **نتیجهٔ آزمون آموزشی یا تشخیصی یا IEP، 504 یا برنامهٔ تسهیلات جاری**. نخست سه توصیه‌نامهٔ مدرسه را درخواست کنید — آن‌ها به وقت دیگران بستگی دارند.",
+      "of": "f3889155",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[2].detail"
+      ]
+    },
+    {
+      "t": "یک روز همراه دانش‌آموز Hickory Grove باشید",
+      "of": "1bdf7b4d",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].title"
+      ]
+    },
+    {
+      "t": "تنها دبیرستان",
+      "of": "54ed4603",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].tag"
+      ]
+    },
+    {
+      "t": "**این مرحله تنها در همین پایه وجود دارد.** متقاضیان دبیرستان **موظف‌اند** یک روز همراه یکی از دانش‌آموزان کنونی Hickory Grove باشند، که با تکمیل یک shadow request form هماهنگ می‌شود. پایه‌های 6 تا 8 هیچ الزام مشابهی ندارند، هرچند مدارکشان یکسان است، پس این روشن‌ترین تفاوت میان اقدام برای متوسطهٔ اول و اقدام برای دبیرستان در اینجاست.",
+      "of": "07105718",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].detail"
+      ]
+    },
+    {
+      "t": "در آزمون ورودی، از جمله آزمون تعیین سطح، شرکت کنید",
+      "of": "ba8246a3",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].title"
+      ]
+    },
+    {
+      "t": "آزمون از طریق دفتر **Student Services** هماهنگ می‌شود و **تنها پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد** زمان‌بندی می‌شود. متقاضیان دبیرستان همچنین در یک **آزمون ورودی الزامی برای تعیین پایهٔ تحصیلی** شرکت می‌کنند — مرحله‌ای که مدرسه تنها برای پایه‌های 9 تا 12 منتشر کرده است. ابزارهای مشخص منتشر نشده‌اند.",
+      "of": "b6003290",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].detail"
+      ]
+    },
+    {
+      "t": "تصمیم نهایی **به‌صورت کتبی اعلام می‌شود** و در آن نمرات رضایت‌بخش، توصیه‌نامه‌ها، مصاحبه، گزارش‌های رفتاری، آزمون ورودی و هر IEP، 504 یا ارزیابی روان‌آموزشی موجود در پرونده سنجیده می‌شود. **هرگونه تعلیق، اخراج یا مردودی ثبت‌شده به‌طور خودکار به رد درخواست پذیرش می‌انجامد** — قاعده‌ای که بیش از همه در این پایه اهمیت دارد، چون کارنامهٔ تحصیلی دبیرستان طولانی‌ترین سابقه را در بر دارد. **هیچ تاریخ ثابتی برای اعلام نتیجه منتشر نشده است** — پذیرش پیوسته است و به ظرفیت آن پایه بستگی دارد. هنگام پذیرش، **ودیعهٔ غیرقابل‌استرداد $500** باید پرداخت شود و از شهریه کسر می‌شود.",
+      "of": "383188d7",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[6].detail"
+      ]
+    },
+    {
+      "t": "دو مرحله که تنها اینجا وجود دارند — روز همراهی و یک آزمون تعیین سطح.",
+      "of": "a28b1f98",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "متقاضیان دبیرستان موظف‌اند یک روز همراه یکی از دانش‌آموزان کنونی Hickory Grove باشند و در یک آزمون ورودی الزامی شرکت کنند که پایهٔ تحصیلی را تعیین می‌کند. هیچ‌کدام برای پایه‌های 6 تا 8 اعمال نمی‌شود، هرچند چهار فرم توصیه‌نامه و فهرست سوابق یکسان است. آزمون تنها پس از رسیدن همهٔ فرم‌ها از طریق Student Services هماهنگ می‌شود. درخواست‌ها از 2 نوامبر برای اعضای کلیسا، دانش‌آموزان Early Education Center و خواهر و برادر دانش‌آموزان کنونی و از 16 نوامبر برای بقیه باز می‌شود؛ پس از آن پذیرش پیوسته و وابسته به ظرفیت است و تاریخ ثابتی برای اعلام نتیجه ندارد. توجه کنید که هرگونه تعلیق، اخراج یا مردودی ثبت‌شده به‌طور خودکار به رد درخواست پذیرش می‌انجامد — این قاعده در همین پایه بیشترین اثر را دارد، چون کارنامهٔ تحصیلی دبیرستان طولانی‌ترین سابقه را در بر دارد.",
+      "of": "dddeb142",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "کارنامهٔ تحصیلی دبیرستان و کارنامه‌های دو سال را بفرستید",
+      "of": "2d5c2c89",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "فرم shadow request form را تکمیل کنید و همراه یک دانش‌آموز باشید",
+      "of": "e13b876b",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].action"
+      ]
+    },
+    {
+      "t": "تنها از متقاضیان دبیرستان خواسته می‌شود. از پایه‌های 6 تا 8 خواسته نمی‌شود.",
+      "of": "230527cd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].detail"
+      ]
+    },
+    {
+      "t": "تنها دبیرستان",
+      "of": "324c1f23",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].due"
+      ]
+    },
+    {
+      "t": "در آزمون ورودی و آزمون تعیین پایه شرکت کنید",
+      "of": "d2dacae0",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].action"
+      ]
+    },
+    {
+      "t": "پس از رسیدن همهٔ فرم‌ها از سوی Student Services هماهنگ می‌شود. آزمون تعیین سطح تنها برای 9–12 منتشر شده است.",
+      "of": "fc7920cb",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].detail"
+      ]
+    },
+    {
+      "t": "بین‌المللی (F-1)",
+      "of": "7bda6384",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].label"
+      ]
+    },
+    {
+      "t": "روند جداگانه · I-20 صادرشده از سوی HGCS",
+      "of": "4ebc84d5",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].sublabel"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان بین‌المللی — ویزای F-1",
+      "of": "e09bf602",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].title"
+      ]
+    },
+    {
+      "t": "تسلط بر زبان انگلیسی — یا SLEP 50+",
+      "of": "a5447051",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "پرداخت کامل برای ثبت‌نام لازم است",
+      "of": "4440c6e0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "مصاحبه با یکی از مسئولان مدرسه — به‌صورت تصویری، نه حضوری",
+      "of": "acb6008d",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].title"
+      ]
+    },
+    {
+      "t": "نخستین مرحله",
+      "of": "e849e211",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].tag"
+      ]
+    },
+    {
+      "t": "روند بین‌المللی با یک مصاحبه **آغاز** می‌شود، نه اینکه با آن پایان یابد، و از طریق **Skype، WeChat یا WhatsApp** با یکی از مسئولان مدرسه برگزار می‌شود. این **جایگزین بازدید از پردیس** است که هر پایهٔ داخلی با آن آغاز می‌شود — از خانواده‌ای که از خارج اقدام می‌کند انتظار نمی‌رود نخست سفر کند. Hickory Grove برنامهٔ بین‌المللی خود را از **2013** اجرا می‌کند و **دارای گواهی SEVIS** است، بنابراین I-20 خود را صادر می‌کند و خانواده‌ها را به شخص ثالثی ارجاع نمی‌دهد.",
+      "of": "aeb9cb2e",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].detail"
+      ]
+    },
+    {
+      "t": "درخواست پذیرش آنلاین را تکمیل کنید",
+      "of": "1844e5ab",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "پس از مصاحبه",
+      "of": "8a871a21",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].tag"
+      ]
+    },
+    {
+      "t": "همان درخواست پذیرش آنلاین متقاضیان داخلی، که به **International Admissions Office** ارسال می‌شود. **مبلغ هزینهٔ درخواست بین‌المللی منتشر نشده است** — آن را با دفتر بین‌المللی بررسی کنید. توجه کنید که این هزینه **پس از** تصمیم پذیرش پرداخت می‌شود، نه همراه با درخواست (مرحلهٔ پذیرش را ببینید).",
+      "of": "2a722558",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].detail"
+      ]
+    },
+    {
+      "t": "رسیدن به آستانه‌های تسلط بر زبان انگلیسی",
+      "of": "97501803",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].title"
+      ]
+    },
+    {
+      "t": "همراه با درخواست",
+      "of": "76771438",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].tag",
+        "hickory-grove-christian:guide.bands[4].steps[3].tag"
+      ]
+    },
+    {
+      "t": "آستانه‌های منتشرشده **TOEFL Jr. 750 یا بالاتر** و **SLEP 50 یا بالاتر** است و برگهٔ نمره همراه با درخواست ارسال می‌شود. مدرسه اعلام کرده است که **آمادهٔ گفت‌وگو دربارهٔ گزینه‌های آزمون دیگر** است، پس دانش‌آموزی که آزمون زبان انگلیسی معتبر دیگری دارد بهتر است بپرسد تا اینکه فرض کند پذیرفته نمی‌شود.",
+      "of": "2b713050",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].detail"
+      ]
+    },
+    {
+      "t": "کارنامه‌های تحصیلی ترجمه‌شده به انگلیسی را بفرستید",
+      "of": "e5f9426c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].title"
+      ]
+    },
+    {
+      "t": "**کارنامه‌های تحصیلی متوسطهٔ اول و دبیرستان باید به انگلیسی ترجمه شوند** و مدرسه خانواده‌ها را برای ارزیابی به **International Education Evaluations (IEE)** — myiee.org، info@foreigntranscripts.com — ارجاع می‌دهد. سپس **عملکرد تحصیلی و رفتاری** پیشین و نمرات آزمون‌های استاندارد با هم بررسی می‌شوند، بنابراین تصمیم بر پایهٔ همان سوابق ترجمه‌شده گرفته می‌شود.",
+      "of": "8562191a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].detail"
+      ]
+    },
+    {
+      "t": "پذیرش، هزینهٔ درخواست، سپس I-20",
+      "of": "76070f89",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].title"
+      ]
+    },
+    {
+      "t": "هنگام پذیرش",
+      "of": "7ca12683",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].tag"
+      ]
+    },
+    {
+      "t": "به دانش‌آموز پذیرفته‌شده **از طریق ایمیل اطلاع داده می‌شود**. **هزینهٔ غیرقابل‌استرداد درخواست** در همان مرحله پرداخت می‌شود و سپس یکی از مسئولان مدرسه **I-20 را پست می‌کند**. با در دست داشتن I-20، دانش‌آموز **برای دریافت ویزای F-1 با سفارت ایالات متحده در کشور خود قرار مصاحبه می‌گذارد** — گرفتن آن وقت بر عهدهٔ خانواده است و زمان انتظار سفارت‌ها از کنترل مدرسه بیرون است، پس به‌محض رسیدن I-20 آن را آغاز کنید.",
+      "of": "d21aa6d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].detail"
+      ]
+    },
+    {
+      "t": "اقامت خانوادگی، بیمهٔ درمانی و واکسیناسیون را هماهنگ کنید",
+      "of": "5b7a3163",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].title"
+      ]
+    },
+    {
+      "t": "پیش از ورود",
+      "of": "74a844c7",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].tag"
+      ]
+    },
+    {
+      "t": "در مواردی که اقامت خانوادگی لازم است، **HGCS Student Coordinator** با دانش‌آموز یا نمایندهٔ او برای هماهنگی تماس می‌گیرد؛ مدرسه از **2013** دانش‌آموزان را نزد خانواده‌های میزبان جای داده و این هماهنگی را درون‌سازمانی انجام می‌دهد. **جزئیات بررسی صلاحیت و سوابق خانواده‌های میزبان منتشر نشده است** — مستقیم از هماهنگ‌کننده بپرسید. بیمهٔ درمانی از طریق **American Benefit Services (Short Term Medical)**، با شمارهٔ **843-214-2447** یا wesley.abs@gmail.com انجام می‌شود، و مدرسه همچنین **فرم واکسیناسیون دانش‌آموز بین‌المللی** و **معاینهٔ پزشکی جاری** را لازم می‌داند.",
+      "of": "5baf07d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].detail"
+      ]
+    },
+    {
+      "t": "پیش از نخستین روز، مبلغ را به‌طور کامل بپردازید",
+      "of": "5b35505b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].title"
+      ]
+    },
+    {
+      "t": "پیش از روز نخست",
+      "of": "81a46c8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].tag"
+      ]
+    },
+    {
+      "t": "**پرداخت کامل باید پیش از نخستین روز مدرسه دریافت شود** و تا آن زمان دانش‌آموز نمی‌تواند ثبت‌نام شود — مانده‌حساب پرداخت‌نشده درخواست را در وضعیت **توقف مالی** قرار می‌دهد. این تندترین تفاوت با پایه‌های داخلی است، که هنگام پذیرش ودیعهٔ $500 می‌گیرند و مانده را در طول سال صورت‌حساب می‌کنند. **رقم شهریهٔ بین‌المللی منتشر نشده است**؛ همچنین منتشر نشده که آیا کمک‌هزینهٔ مالی به دانش‌آموزان بین‌المللی می‌رسد یا نه. **انصراف زودهنگام $500 به‌علاوهٔ 50% شهریهٔ بین‌المللی هزینه دارد.**",
+      "of": "6a9348ce",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].detail"
+      ]
+    },
+    {
+      "t": "برنامه پس از ورود شما چه چیزهایی را در بر می‌گیرد",
+      "of": "c9c17920",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].title"
+      ]
+    },
+    {
+      "t": "در طول سال",
+      "of": "1a4fb75a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].tag"
+      ]
+    },
+    {
+      "t": "این برنامه شامل **آشناسازی پیش از آغاز مدرسه**، **جلسه‌های هفتگی با International Student Director**، گزارش‌های منظم به خانواده‌ها و نمایندگی‌ها، **ایاب‌وذهاب فرودگاه**، **نگهداری I-20**، ناهار، هزینه‌های ورزشی و فناوری و اردوهای آموزشی است. یک نکته که باید برایش برنامه‌ریزی کنید: **ثبت‌نام مجدد خودکار نیست** — هر سال باید دوباره برای آن اقدام کرد و از سال پیش منتقل نمی‌شود.",
+      "of": "504cbdc2",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].detail"
+      ]
+    },
+    {
+      "t": "روندی متفاوت، نه همان روند داخلی با مدارک بیشتر.",
+      "of": "d1c87cc3",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "این روند به‌جای بازدید از پردیس با یک مصاحبهٔ تصویری آغاز می‌شود، بر پایهٔ آستانه‌های تسلط بر زبان انگلیسی و کارنامه‌های ترجمه‌شده از سوی یک ارزیاب مشخص پیش می‌رود و با I-20 که خود Hickory Grove صادر می‌کند و یک قرار سفارت که خودتان می‌گیرید پایان می‌یابد. شکل مالی آن هم متفاوت است: پرداخت کامل پیش از نخستین روز مدرسه لازم است، نه ودیعه و برنامهٔ پرداخت. هیچ مهلت بین‌المللی جداگانه‌ای منتشر نشده است، و نه هزینهٔ درخواست بین‌المللی و نه شهریه — Sheila M. Chaney هم مدیر پذیرش و هم مدیر برنامهٔ بین‌المللی است و پرسیدن از او درست‌ترین راه است.",
+      "of": "c3dc7ad0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "مصاحبهٔ Skype، WeChat یا WhatsApp را با یکی از مسئولان مدرسه هماهنگ کنید",
+      "of": "3ce91614",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "نخستین مرحله، و جایگزین بازدید از پردیس که پایه‌های داخلی با آن آغاز می‌شوند.",
+      "of": "1f5858bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "نخستین مرحله",
+      "of": "d2c74831",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].due"
+      ]
+    },
+    {
+      "t": "به International Admissions Office ارسال می‌شود. مبلغ هزینه منتشر نشده است.",
+      "of": "7c746076",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "پس از مصاحبه",
+      "of": "acc682c1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].due"
+      ]
+    },
+    {
+      "t": "در TOEFL Jr. یا SLEP شرکت کنید و برگهٔ نمره را بفرستید",
+      "of": "5aedcfc9",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "TOEFL Jr. 750+ یا SLEP 50+. مدرسه دربارهٔ گزینه‌های آزمون دیگر گفت‌وگو می‌کند.",
+      "of": "909a3ce8",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "کارنامه‌های تحصیلی متوسطهٔ اول و دبیرستان را به انگلیسی ترجمه کنید",
+      "of": "cc38d35a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "از طریق International Education Evaluations (IEE) — myiee.org.",
+      "of": "81728386",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "منتظر ایمیل پذیرش باشید، سپس هزینهٔ غیرقابل‌استرداد درخواست را بپردازید",
+      "of": "3dc7c8d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "پس از تصمیم پرداخت می‌شود، نه همراه با درخواست.",
+      "of": "77a93204",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "هنگام پذیرش",
+      "of": "1079b123",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].due"
+      ]
+    },
+    {
+      "t": "I-20 را دریافت کنید و مصاحبهٔ سفارت ایالات متحده را رزرو کنید",
+      "of": "da5470a1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "HGCS مدرک I-20 را پست می‌کند؛ گرفتن وقت سفارت برای ویزای F-1 بر عهدهٔ شماست.",
+      "of": "1ba60e68",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "اقامت خانوادگی را با HGCS Student Coordinator هماهنگ کنید",
+      "of": "f2829f18",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "در مواردی که اقامت خانوادگی لازم است، هماهنگ‌کننده تماس می‌گیرد. جزئیات بررسی صلاحیت منتشر نشده است.",
+      "of": "f078d2bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "پیش از ورود",
+      "of": "258f0e67",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].due"
+      ]
+    },
+    {
+      "t": "بیمهٔ درمانی را هماهنگ کنید و فرم واکسیناسیون و معاینهٔ پزشکی را بفرستید",
+      "of": "3026adac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "American Benefit Services (Short Term Medical) — 843-214-2447.",
+      "of": "ee64305b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "ودیعهٔ ثبت‌نام $500 را بپردازید، سپس مانده را به‌طور کامل",
+      "of": "eb37b221",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
+      ]
+    },
+    {
+      "t": "پرداخت کامل پیش از نخستین روز مدرسه، وگرنه درخواست در وضعیت توقف مالی قرار می‌گیرد.",
+      "of": "89d1db30",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "پیش از روز نخست",
+      "of": "7263a6ac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].due"
+      ]
+    },
+    {
+      "t": "برای اقدام دوباره در هر سال برنامه‌ریزی کنید",
+      "of": "db80ae97",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].action"
+      ]
+    },
+    {
+      "t": "ثبت‌نام مجدد خودکار نیست. انصراف زودهنگام $500 به‌علاوهٔ 50% شهریهٔ بین‌المللی هزینه دارد.",
+      "of": "3c6afd19",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].detail"
+      ]
+    },
+    {
+      "t": "هر سال",
+      "of": "2191d0b1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].due"
+      ]
+    },
+    {
+      "t": "کمک‌هزینه از طریق **FACTS Grant & Aid Assessment** انجام می‌شود و **FACTS مبلغ $40** برای پردازش درخواست دریافت می‌کند. دو نکته دربارهٔ ترتیب کارها: **خانواده‌های جدید باید پیش از اقدام برای کمک‌هزینه برای ثبت‌نام پذیرفته شده باشند**، پس اینجا درخواست کمک‌هزینه پس از تصمیم پذیرش می‌آید، نه هم‌زمان با آن؛ و خانواده‌ها باید **نخست برای NC Opportunity Scholarship اقدام کنند، آن را بپذیرند یا تمدید کنند** از طریق سازمان کمک آموزشی ایالت، و سپس اگر آن نیازشان را برطرف نکرد از Hickory Grove کمک‌هزینه بخواهند — که «تا زمانی که همهٔ بودجهٔ موجود تخصیص یابد» اعطا می‌شود. **ESA+** برای کودکان دارای معلولیت که در یک مدرسهٔ غیردولتی واجد شرایط تحصیل می‌کنند در دسترس است. بازهٔ ایالتی **2026–27** از **February 2 to March 2, 2026** بود و مهلت تمدیدها **April 15, 2026**.",
+      "of": "250e2905",
+      "at": [
+        "hickory-grove-christian:guide.aid.text"
+      ]
+    },
+    {
+      "t": "بازهٔ درخواست",
+      "of": "4a9dc6ff",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].label"
+      ]
+    },
+    {
+      "t": "Nov 2, 2026 اولویت‌دار · Nov 16, 2026 عمومی",
+      "of": "a7321ccc",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.hs"
+      ]
+    },
+    {
+      "t": "هیچ مهلت بین‌المللی جداگانه‌ای منتشر نشده است",
+      "of": "d6242f35",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.intl"
+      ]
+    },
+    {
+      "t": "Readiness Checklist از معلم پیش‌دبستان یا مهدکودک + کشیش",
+      "of": "f7aa3171",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.tkk5"
+      ]
+    },
+    {
+      "t": "Academic Referral از معلم کنونی + کشیش",
+      "of": "a39ceabd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.es"
+      ]
+    },
+    {
+      "t": "هیچ‌کدام منتشر نشده — بررسی بر پایهٔ کارنامه‌های تحصیلی و نمرات آزمون است",
+      "of": "83c5ccf7",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.intl"
+      ]
+    },
+    {
+      "t": "سوابق لازم",
+      "of": "299a4b32",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "گواهی تولد · سابقهٔ واکسیناسیون · Information form",
+      "of": "e703d316",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.tkk5"
+      ]
+    },
+    {
+      "t": "کارنامه‌ها، دست‌کم دو سال · هر IEP یا 504",
+      "of": "5e2ede11",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.es"
+      ]
+    },
+    {
+      "t": "کارنامهٔ تحصیلی · کارنامه‌های دو سال · نمرات آزمون‌های استاندارد · Student Questionnaire",
+      "of": "1c61f370",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[2].cells.hs"
+      ]
+    },
+    {
+      "t": "کارنامه‌های تحصیلی متوسطهٔ اول و دبیرستان، ترجمه‌شده به انگلیسی از طریق IEE",
+      "of": "35db9686",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.intl"
+      ]
+    },
+    {
+      "t": "ارزیابی آمادگی متناسب با رشد — واجد شرایط شدن به آن بستگی دارد",
+      "of": "264dcccd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.tkk5"
+      ]
+    },
+    {
+      "t": "آزمون ورودی از طریق Student Services",
+      "of": "8bf6bdbb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[3].cells.ms"
+      ]
+    },
+    {
+      "t": "آزمون ورودی به‌همراه یک آزمون تعیین سطح الزامی",
+      "of": "715cc7e2",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.hs"
+      ]
+    },
+    {
+      "t": "TOEFL Jr. 750+ یا SLEP 50+",
+      "of": "597696fb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.intl"
+      ]
+    },
+    {
+      "t": "روز همراهی",
+      "of": "9c7c439f",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "خیر — این الزام از پایهٔ 9 آغاز می‌شود",
+      "of": "53fc7068",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.ms"
+      ]
+    },
+    {
+      "t": "بله — الزامی، با shadow request form",
+      "of": "5ae0b88d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.hs"
+      ]
+    },
+    {
+      "t": "موضوعیت ندارد",
+      "of": "9f7f439b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.intl"
+      ]
+    },
+    {
+      "t": "نخستین تماس با مدرسه",
+      "of": "d57bb388",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "بازدید از پردیس، با فرم درخواست",
+      "of": "e3ee5bc3",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.hs"
+      ]
+    },
+    {
+      "t": "مصاحبهٔ Skype، WeChat یا WhatsApp به‌جای بازدید",
+      "of": "50d9b6b4",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.intl"
+      ]
+    },
+    {
+      "t": "مصاحبهٔ خانوادگی",
+      "of": "94e34996",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "بله — مأموریت، چشم‌انداز و بیانیهٔ ایمان، و تناسب",
+      "of": "d89d340b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.hs"
+      ]
+    },
+    {
+      "t": "مصاحبهٔ تصویری آغازین همین هدف را برآورده می‌کند",
+      "of": "6ebcb5c6",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.intl"
+      ]
+    },
+    {
+      "t": "پرداخت هزینهٔ سال",
+      "of": "adfcb210",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].label"
+      ]
+    },
+    {
+      "t": "ودیعهٔ $500 هنگام پذیرش، که از شهریه کسر می‌شود",
+      "of": "2a5439a8",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.hs"
+      ]
+    },
+    {
+      "t": "پرداخت کامل پیش از نخستین روز مدرسه، وگرنه جایگاه در وضعیت توقف مالی قرار می‌گیرد",
+      "of": "97398458",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.intl"
+      ]
+    },
+    {
+      "t": "یک Personal Recommendation form از کشیش خانواده، که در همهٔ پایه‌ها از TK تا 12 لازم است · درخواست آنلاین FACTS، با بازهٔ منتشرشدهٔ هزینهٔ $250/$500 که پیش از تاریخ‌های کنونی درخواست است · آزمونی که تنها پس از رسیدن همهٔ فرم‌های لازم زمان‌بندی می‌شود · تصمیمی کتبی بدون تاریخ ثابت اعلام نتیجه، چون پذیرش پیوسته و وابسته به ظرفیت است · ودیعهٔ ثبت‌نام غیرقابل‌استرداد $500 که از شهریه کسر می‌شود · و قاعده‌ای منتشرشده که بر اساس آن هرگونه تعلیق، اخراج یا مردودی به‌طور خودکار به رد درخواست پذیرش می‌انجامد",
+      "of": "2330fb6d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[8].cells.all"
+      ]
+    },
+    {
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · پذیرش 704-531-4008 · admissions@hgchristian.org · دوشنبه تا جمعه 7:30 a.m.–3:00 p.m. نشانی پستی جداگانه است، به 6050 Hickory Grove Road, Charlotte, NC 28215 — مجموعهٔ کلیسا و مدرسه. تنها نام یک نفر از کارکنان پذیرش در سایت مدرسه آمده است؛ شماره‌های دفتری زیر برای حوزه‌هایی منتشر شده‌اند که او پوشش نمی‌دهد.",
+      "of": "87d21ad5",
+      "at": [
+        "hickory-grove-christian:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "مدیر پذیرش و برنامهٔ دانش‌آموزان بین‌المللی · 704-531-4008 · admissions@hgchristian.org",
+      "of": "197e28e7",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "704-531-4008 · دوشنبه تا جمعه 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org",
+      "of": "c4bb6418",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "پیش‌دبستان تمام‌وقت، پایین‌تر از TK · 704-531-4059 · harriseec@hgchristian.org",
+      "of": "8b7ab174",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "پیش‌دبستان نیمه‌وقت و پردیس کلاسیک TK/K · 704-531-5345",
+      "of": "bb554855",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "مدیر دورهٔ ابتدایی · 704-531-4195 · loricheuvront@hgchristian.org",
+      "of": "a5b73266",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "سامانه: FACTS · hg-nc.client.factsmgt.com — memberId 496 برای Harris، 15083 برای Mallard Creek",
+      "of": "99b89586",
+      "at": [
+        "hickory-grove-christian:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "کمک‌هزینه از طریق FACTS Grant & Aid Assessment انجام می‌شود و FACTS مبلغ $40 برای پردازش درخواست دریافت می‌کند.",
+      "of": "95b6ccfd",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "خانواده‌های جدید باید پیش از اقدام برای کمک‌هزینه برای ثبت‌نام پذیرفته شده باشند، پس این مرحله پس از تصمیم پذیرش می‌آید، نه هم‌زمان با آن.",
+      "of": "7eb67c47",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "نخست برای NC Opportunity Scholarship اقدام کنید، آن را بپذیرید یا تمدید کنید، سپس اگر نیازتان را برطرف نکرد از Hickory Grove کمک‌هزینه بخواهید — که تا زمانی که همهٔ بودجهٔ موجود تخصیص یابد اعطا می‌شود.",
+      "of": "7bb9b07d",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "ESA+ برای کودکان دارای معلولیت که در یک مدرسهٔ غیردولتی واجد شرایط تحصیل می‌کنند در دسترس است.",
+      "of": "ac450725",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[3]"
+      ]
+    },
+    {
+      "t": "بازهٔ ایالتی 2026–27 از February 2 to March 2, 2026 بود و مهلت تمدیدها April 15, 2026.",
+      "of": "2dc6a621",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[4]"
+      ]
+    },
+    {
+      "t": "پذیرش — 704-531-4008 · admissions@hgchristian.org · دوشنبه تا جمعه 7:30 a.m.–3:00 p.m.",
+      "of": "84d557ec",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · نشانی پستی 6050 Hickory Grove Road, Charlotte, NC 28215",
+      "of": "b93fa2a3",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "متقاضیان بین‌المللی — Sheila M. Chaney، مدیر پذیرش و برنامهٔ دانش‌آموزان بین‌المللی · 704-531-4008",
+      "of": "b77af464",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345",
+      "of": "271c6df5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[3]"
+      ]
+    },
+    {
+      "t": "تاریخ‌ها مربوط به دورهٔ پذیرش 2027–28 است، چنان‌که در hgchristian.org منتشر و در سپتامبر 2026 بازیابی شده، به‌همراه هر دو سیاههٔ پذیرش خانواده‌های جدید که در 11/17/25 بازنگری شده‌اند. بازهٔ منتشرشدهٔ هزینهٔ درخواست ($250 تا May 31, 2026؛ $500 از June 1, 2026) پیش از تاریخ‌های درخواست نوامبر 2026 در همان صفحه است — هزینهٔ کنونی را با دفتر پذیرش بررسی کنید. تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از اقدام آن‌ها را با سایت به‌روز بررسی کنید. گردآوری‌شده توسط Charlotte School Compare؛ وابسته به Hickory Grove Christian School نیست.",
+      "of": "263c78d5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.disclaimer"
       ]
     }
   ]

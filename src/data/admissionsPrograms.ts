@@ -264,6 +264,16 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<AdmissionsCardKey, string>>
   'covenant-day': {
     guide: 'Grade-by-Grade Application Guide — JK/K · 1–5 · 6–11',
   },
+  // Hickory Grove Christian is the FIRST five-band school, and its fifth band
+  // is not a grade band at all: International (F-1) ships as a separate
+  // process, with a video interview instead of a campus visit and almost no
+  // steps in common with the domestic path. The shared title's "TK/K · 1–5 ·
+  // 6–12" would both mis-state the middle/high split — which is real here,
+  // because the shadow day and the placement test are high-school-only — and
+  // hide the international band entirely.
+  'hickory-grove-christian': {
+    guide: 'Grade-by-Grade Application Guide — TK/K5 · 1–5 · 6–8 · 9–12 · International',
+  },
 }
 
 /**
@@ -306,13 +316,15 @@ import { charlotteCountryDay } from './admissionsPrograms/charlotte-country-day.
 import { charlotteChristian } from './admissionsPrograms/charlotte-christian.ts'
 import { charlotteLatin } from './admissionsPrograms/charlotte-latin.ts'
 import { covenantDay } from './admissionsPrograms/covenant-day.ts'
+import { hickoryGroveChristian } from './admissionsPrograms/hickory-grove-christian.ts'
 
 /**
- * FIVE schools, not eleven. **The other six are deliberately absent.**
+ * SIX schools, not eleven. **The other five are deliberately absent.**
  *
  * Nobody has researched their admissions processes — the topic infrastructure
  * is school-agnostic, but the data ships for Providence Day, Charlotte Country
- * Day, Charlotte Christian, Charlotte Latin and Covenant Day only. With no
+ * Day, Charlotte Christian, Charlotte Latin, Covenant Day and Hickory Grove
+ * Christian only. With no
  * source files under `source-material/admissions/<school>/`, the topic has no `doc_count` for
  * those schools, so `topicsForSchool()` never yields it and the Admissions
  * section does not render on their pages at all.
@@ -328,6 +340,7 @@ const PROGRAMS: Record<string, AdmissionsProgram> = {
   'charlotte-christian': charlotteChristian,
   'charlotte-latin': charlotteLatin,
   'covenant-day': covenantDay,
+  'hickory-grove-christian': hickoryGroveChristian,
 }
 
 /* ---------------------------------------------------------- translations -- */

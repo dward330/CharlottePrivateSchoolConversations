@@ -5506,18 +5506,28 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 @media (max-width: 560px) {
   .ad-people { --ad-col: 1; }
 }
-/* Below ~440px the joined bands cannot share a row without forcing the card
+/* Below ~570px the joined bands cannot share a row without forcing the card
    past the viewport, so the segmented control stacks into a vertical one — the
    shared hairline moves from the left edge to the top.
 
-   The threshold is 440px rather than the 430px three bands needed, because the
-   floor rises with the band count: Charlotte Christian ships FOUR bands (its
-   deadline break and its testing break sit at different grades, so no
-   three-band grouping states both), and four buttons plus the label leaked ~2px
-   past the viewport in the 431–432px window — page-level horizontal scroll,
-   which the wide-content rule forbids. Raising the breakpoint clears it for
-   every band count rather than only the one that exposed it. */
-@media (max-width: 440px) {
+   THE THRESHOLD TRACKS THE LARGEST BAND COUNT ANY SCHOOL SHIPS, and it has now
+   been raised twice for exactly that reason. Three bands needed 430px. Four
+   bands (Charlotte Christian, whose deadline break and testing break sit at
+   different grades, so no three-band grouping states both) leaked ~2px past the
+   viewport in the 431–432px window, and the threshold went to 440px. FIVE bands
+   (Hickory Grove Christian — four grade bands plus International (F-1), which
+   is a separate process rather than an overlay) overflow across a far wider
+   window: measured 2026-09-02 in Chromium, the page scrolled horizontally at
+   every width from 441px to 570px, by as much as 125px at the low end, and
+   first came clean at 571px.
+
+   That is page-level horizontal scroll, which the wide-content rule forbids, so
+   the breakpoint is 570px. It is set from the worst measured width rather than
+   the band count, and it applies to every school — a three-band card simply
+   stacks earlier than it strictly needs to, which costs nothing, whereas
+   scoping the rule per band count would leave the same trap for the next school
+   that adds a band. Re-measure if a school ever ships six. */
+@media (max-width: 570px) {
   .ad-bands { flex-direction: column; flex-basis: auto; }
   .ad-band + .ad-band { border-left: 1px solid var(--border); border-top: none; }
   .ad-pick-label { max-width: none; }

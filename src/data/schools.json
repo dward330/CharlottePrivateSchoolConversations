@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -104,6 +104,11 @@
     {
       "topic_slug": "admissions",
       "school_slug": "covenant-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "admissions",
+      "school_slug": "hickory-grove-christian",
       "doc_count": 1
     },
     {
@@ -4551,6 +4556,16 @@
       "subtopic": "Grade-by-Grade Application Plans",
       "source_file": "source-material/admissions/covenant-day/Covenant Day - Admissions - Grade-by-Grade Application Plans.md",
       "note_file": ".claude/docs/admissions/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "hickory-grove-christian",
+      "school": "Hickory Grove Christian School",
+      "topic_slug": "admissions",
+      "topic": "Admissions",
+      "subtopic": "Grade-by-Grade Application Plans",
+      "source_file": "source-material/admissions/hickory-grove-christian/Hickory Grove Christian - Admissions - Grade-by-Grade Application Plans.md",
+      "note_file": ".claude/docs/admissions/hickory-grove-christian.md",
       "type": "md"
     },
     {

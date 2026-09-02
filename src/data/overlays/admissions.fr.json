@@ -30,7 +30,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[2].label",
+        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -100,7 +100,8 @@
       "of": "75235da1",
       "at": [
         "providence-day:guide.bands[0].title",
-        "charlotte-latin:guide.bands[0].title"
+        "charlotte-latin:guide.bands[0].title",
+        "hickory-grove-christian:guide.bands[0].title"
       ]
     },
     {
@@ -198,7 +199,15 @@
         "covenant-day:guide.bands[1].steps[0].tag",
         "covenant-day:guide.bands[1].checklistRows[0].due",
         "covenant-day:guide.bands[2].steps[0].tag",
-        "covenant-day:guide.bands[2].checklistRows[0].due"
+        "covenant-day:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[0].steps[0].tag",
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[1].steps[0].tag",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[2].steps[0].tag",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[3].steps[0].tag",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].due"
       ]
     },
     {
@@ -1049,7 +1058,8 @@
         "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title",
-        "covenant-day:guide.aid.title"
+        "covenant-day:guide.aid.title",
+        "hickory-grove-christian:guide.aid.title"
       ]
     },
     {
@@ -1067,7 +1077,8 @@
         "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button",
-        "covenant-day:guide.aid.button"
+        "covenant-day:guide.aid.button",
+        "hickory-grove-christian:guide.aid.button"
       ]
     },
     {
@@ -1078,7 +1089,8 @@
         "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker",
-        "covenant-day:guide.comparison.kicker"
+        "covenant-day:guide.comparison.kicker",
+        "hickory-grove-christian:guide.comparison.kicker"
       ]
     },
     {
@@ -1089,7 +1101,8 @@
         "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title",
-        "covenant-day:guide.comparison.title"
+        "covenant-day:guide.comparison.title",
+        "hickory-grove-christian:guide.comparison.title"
       ]
     },
     {
@@ -1115,7 +1128,8 @@
       "of": "7f464e4f",
       "at": [
         "providence-day:guide.comparison.rows[2].label",
-        "charlotte-christian:guide.comparison.rows[1].label"
+        "charlotte-christian:guide.comparison.rows[1].label",
+        "hickory-grove-christian:guide.comparison.rows[3].label"
       ]
     },
     {
@@ -1204,7 +1218,8 @@
         "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker",
-        "covenant-day:guide.contacts.kicker"
+        "covenant-day:guide.contacts.kicker",
+        "hickory-grove-christian:guide.contacts.kicker"
       ]
     },
     {
@@ -1216,7 +1231,8 @@
         "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title",
-        "covenant-day:guide.contacts.title"
+        "covenant-day:guide.contacts.title",
+        "hickory-grove-christian:guide.contacts.title"
       ]
     },
     {
@@ -1297,7 +1313,8 @@
         "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker",
-        "covenant-day:guide.checklist.aidPanel.kicker"
+        "covenant-day:guide.checklist.aidPanel.kicker",
+        "hickory-grove-christian:guide.checklist.aidPanel.kicker"
       ]
     },
     {
@@ -1322,7 +1339,8 @@
         "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker",
-        "covenant-day:guide.checklist.contactPanel.kicker"
+        "covenant-day:guide.checklist.contactPanel.kicker",
+        "hickory-grove-christian:guide.checklist.contactPanel.kicker"
       ]
     },
     {
@@ -1361,24 +1379,17 @@
       ]
     },
     {
-      "t": "niveaux d’entrée — TK/K, niveaux 1–5, 6–8 et 9–12",
-      "of": "70c840a2",
-      "at": [
-        "charlotte-latin:guide.stats[0].label"
-      ]
-    },
-    {
       "t": "date limite de candidature pour TK/Kindergarten — 13 jours avant tous les autres niveaux",
       "of": "af3286a6",
       "at": [
-        "charlotte-latin:guide.stats[1].label"
+        "charlotte-latin:guide.stats[0].label"
       ]
     },
     {
       "t": "acompte d’inscription non remboursable",
       "of": "5b3b8389",
       "at": [
-        "charlotte-latin:guide.stats[3].label"
+        "charlotte-latin:guide.stats[2].label"
       ]
     },
     {
@@ -1868,7 +1879,8 @@
       "t": "Middle School — niveaux 6–8",
       "of": "6850595d",
       "at": [
-        "charlotte-latin:guide.bands[2].title"
+        "charlotte-latin:guide.bands[2].title",
+        "hickory-grove-christian:guide.bands[2].title"
       ]
     },
     {
@@ -2244,7 +2256,8 @@
         "charlotte-latin:guide.comparison.rows[7].label",
         "charlotte-christian:guide.comparison.rows[10].label",
         "charlotte-country-day:guide.comparison.rows[8].label",
-        "covenant-day:guide.comparison.rows[9].label"
+        "covenant-day:guide.comparison.rows[9].label",
+        "hickory-grove-christian:guide.comparison.rows[8].label"
       ]
     },
     {
@@ -2414,7 +2427,7 @@
       "of": "64501c19",
       "at": [
         "charlotte-christian:guide.stats[2].label",
-        "covenant-day:guide.stats[3].label"
+        "covenant-day:guide.stats[2].label"
       ]
     },
     {
@@ -2814,7 +2827,31 @@
         "covenant-day:guide.bands[1].checklistRows[7].due",
         "covenant-day:guide.bands[2].checklistRows[6].due",
         "covenant-day:guide.bands[2].checklistRows[7].due",
-        "covenant-day:guide.bands[2].checklistRows[8].due"
+        "covenant-day:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].due"
       ]
     },
     {
@@ -3169,7 +3206,15 @@
       "of": "95231371",
       "at": [
         "charlotte-christian:guide.bands[2].checklistRows[6].action",
-        "charlotte-christian:guide.bands[3].checklistRows[9].action"
+        "charlotte-christian:guide.bands[3].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[0].steps[5].title",
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[1].steps[4].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[2].steps[4].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].action",
+        "hickory-grove-christian:guide.bands[3].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].action"
       ]
     },
     {
@@ -3739,7 +3784,8 @@
       "of": "639aa0b9",
       "at": [
         "charlotte-country-day:guide.cycle",
-        "covenant-day:guide.cycle"
+        "covenant-day:guide.cycle",
+        "hickory-grove-christian:guide.cycle"
       ]
     },
     {
@@ -4602,24 +4648,17 @@
       ]
     },
     {
-      "t": "niveaux d'entrée — JK/K, grades 1–5, grades 6–11",
-      "of": "6fb06a60",
-      "at": [
-        "covenant-day:guide.stats[0].label"
-      ]
-    },
-    {
       "t": "date limite prioritaire JK/K — deux semaines avant tous les autres",
       "of": "6746bc3d",
       "at": [
-        "covenant-day:guide.stats[1].label"
+        "covenant-day:guide.stats[0].label"
       ]
     },
     {
       "t": "date limite prioritaire des grades 1–11",
       "of": "90be6afd",
       "at": [
-        "covenant-day:guide.stats[2].label"
+        "covenant-day:guide.stats[1].label"
       ]
     },
     {
@@ -4746,7 +4785,11 @@
       "at": [
         "covenant-day:guide.bands[0].steps[4].tag",
         "covenant-day:guide.bands[1].steps[4].tag",
-        "covenant-day:guide.bands[2].steps[4].tag"
+        "covenant-day:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[0].steps[3].tag",
+        "hickory-grove-christian:guide.bands[1].steps[2].tag",
+        "hickory-grove-christian:guide.bands[2].steps[2].tag",
+        "hickory-grove-christian:guide.bands[3].steps[2].tag"
       ]
     },
     {
@@ -5300,7 +5343,9 @@
       "of": "61e6be1a",
       "at": [
         "covenant-day:guide.comparison.rows[3].cells.jkk",
-        "covenant-day:guide.comparison.rows[3].cells.g15"
+        "covenant-day:guide.comparison.rows[3].cells.g15",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.es"
       ]
     },
     {
@@ -5314,7 +5359,8 @@
       "t": "Formulaires de recommandation",
       "of": "f250a57d",
       "at": [
-        "covenant-day:guide.comparison.rows[4].label"
+        "covenant-day:guide.comparison.rows[4].label",
+        "hickory-grove-christian:guide.comparison.rows[1].label"
       ]
     },
     {
@@ -5335,7 +5381,9 @@
       "t": "Mathématiques + anglais + chef d'établissement/conseiller + pasteur",
       "of": "b819b98e",
       "at": [
-        "covenant-day:guide.comparison.rows[4].cells.g611"
+        "covenant-day:guide.comparison.rows[4].cells.g611",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.hs"
       ]
     },
     {
@@ -5526,6 +5574,1696 @@
       "of": "a1ba4967",
       "at": [
         "covenant-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "Choisissez le niveau d’entrée de votre enfant et le guide s’adapte : la séquence complète de candidature dans l’ordre, les fenêtres de candidature 2027–28, ainsi que les formulaires et les tests correspondants — avec une check-list imprimable à emporter. Une seule trame pour tous les candidats nationaux, mais la fenêtre prioritaire ouvre deux semaines plus tôt pour les membres de l’église, les familles de l’Early Education Center et les fratries d’élèves actuels, et la procédure internationale F-1 est distincte de bout en bout.",
+      "of": "3d1ccf3e",
+      "at": [
+        "hickory-grove-christian:guide.headline"
+      ]
+    },
+    {
+      "t": "ouverture de la fenêtre prioritaire — membres de l’église, élèves de l’EEC, fratries",
+      "of": "b6ba26cc",
+      "at": [
+        "hickory-grove-christian:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "ouverture des candidatures au public",
+      "of": "0ae2d1d5",
+      "at": [
+        "hickory-grove-christian:guide.stats[1].label",
+        "hickory-grove-christian:guide.bands[0].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "acompte d’inscription à l’acceptation — déduit des frais de scolarité",
+      "of": "09f05c01",
+      "at": [
+        "hickory-grove-christian:guide.stats[2].label"
+      ]
+    },
+    {
+      "t": "Un seul portail, deux campus.",
+      "of": "242d24c6",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].title"
+      ]
+    },
+    {
+      "t": "Tout passe par FACTS : se renseigner, candidater et suivre l’arrivée des formulaires complémentaires. Harris et Mallard Creek utilisent des portails distincts : candidatez donc via celui de votre campus.",
+      "of": "beedf199",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "Deux fenêtres, puis admission au fil de l’eau.",
+      "of": "cefb5cab",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].title"
+      ]
+    },
+    {
+      "t": "Les membres de l’église, les élèves de l’Early Education Center et les fratries d’élèves actuels candidatent à partir du Nov 2, 2026 ; tous les autres à partir du Nov 16. C’est une place plus avancée dans la file, non une réduction : passées ces dates, l’admission se fait au fil de l’eau.",
+      "of": "6c028ff5",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "Une trame commune à tous les niveaux nationaux : déposer le formulaire de demande de renseignements → organiser votre visite → candidater dans FACTS et régler les frais de dossier → envoyer les formulaires exigés à votre niveau → passer les tests d’entrée, programmés seulement une fois tous les formulaires arrivés → participer à l’entretien familial → recevoir la décision par écrit → verser l’acompte d’inscription de $500. Ce qui change d’un niveau à l’autre, ce sont les formulaires à envoyer, l’existence ou non d’une journée d’immersion et l’application ou non d’un test de placement. La procédure internationale F-1 remplace l’essentiel de tout cela et est exposée dans son propre niveau.",
+      "of": "a2238ddf",
+      "at": [
+        "hickory-grove-christian:guide.spineNote"
+      ]
+    },
+    {
+      "t": "TK / K5",
+      "of": "c4921f8b",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].label"
+      ]
+    },
+    {
+      "t": "Dépistage de préparation · dates butoirs d’âge",
+      "of": "4bc7a523",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].sublabel"
+      ]
+    },
+    {
+      "t": "ouverture de la fenêtre prioritaire — membres, EEC, fratries",
+      "of": "f2289bb7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "acompte d’inscription à l’acceptation",
+      "of": "31d3187f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "Déposez le formulaire de demande de renseignements, puis organisez une visite",
+      "of": "ec7cfe82",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].title",
+        "hickory-grove-christian:guide.bands[1].steps[0].title",
+        "hickory-grove-christian:guide.bands[2].steps[0].title",
+        "hickory-grove-christian:guide.bands[3].steps[0].title"
+      ]
+    },
+    {
+      "t": "Les deux premières étapes sont de courts formulaires accessibles depuis la page des admissions : une demande de renseignements, puis une demande de visite du campus. C’est aussi le moment de décider du campus auquel vous candidatez : **Harris** accueille la Transitional Kindergarten et la Kindergarten aux côtés du reste des niveaux TK–12, tandis que **Mallard Creek** lance une **TK et une Kindergarten chrétiennes classiques** qui s’étoffent d’un niveau par an, les élèves rejoignant Harris au collège.",
+      "of": "8b2d59d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Vérifiez le niveau auquel votre enfant est éligible",
+      "of": "3ba53718",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].title"
+      ]
+    },
+    {
+      "t": "avant de candidater",
+      "of": "1130444e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].tag"
+      ]
+    },
+    {
+      "t": "Les deux plus jeunes niveaux se distinguent par la date d’anniversaire. Un enfant qui atteint cinq ans **d’ici le October 16** de l’année scolaire visée est éligible à la **Kindergarten (K5)** ; un enfant qui atteint cinq ans **au plus tard le April 16** est éligible à la **Transitional Kindergarten (TK)**, que l’école décrit comme une passerelle entre la maternelle et la kindergarten, laissant à l’enfant le temps de développer les compétences fondamentales attendues en kindergarten. L’anniversaire ne décide pas de tout : voir le dépistage de préparation ci-dessous. La TK est le point d’entrée le plus précoce en K–12 ; les enfants plus jeunes sont inscrits auprès du bureau de l’**Early Education Center** plutôt que par cette procédure.",
+      "of": "6131bdff",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Candidatez dans FACTS et réglez les frais de dossier",
+      "of": "5835dc0f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].title",
+        "hickory-grove-christian:guide.bands[1].steps[1].title",
+        "hickory-grove-christian:guide.bands[2].steps[1].title",
+        "hickory-grove-christian:guide.bands[3].steps[1].title"
+      ]
+    },
+    {
+      "t": "à partir du Nov 2 ou du Nov 16",
+      "of": "26c07375",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].tag",
+        "hickory-grove-christian:guide.bands[1].steps[1].tag",
+        "hickory-grove-christian:guide.bands[2].steps[1].tag",
+        "hickory-grove-christian:guide.bands[3].steps[1].tag"
+      ]
+    },
+    {
+      "t": "Candidatez via le portail FACTS de votre campus — **Harris et Mallard Creek utilisent des portails différents**. La question de savoir si la TK et la Kindergarten classiques de Mallard Creek suivent des étapes ou des dates différentes de celles de Harris n’est **pas publiée** : confirmez-le auprès du bureau des admissions si vous y candidatez. Joignez au dossier l’**acte de naissance** et l’**Immunization Registry Record** de votre enfant. Concernant les frais : l’école publie **$250 pour une fenêtre qui courait jusqu’au May 31, 2026** et **$500 à partir du June 1, 2026**, mais cette fenêtre publiée est antérieure aux dates de candidature de novembre 2026 — **confirmez le montant actuel auprès du bureau des admissions avant de payer**.",
+      "of": "b0b3a64e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Envoyez les trois formulaires exigés à ce niveau",
+      "of": "a6c25c1c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].title"
+      ]
+    },
+    {
+      "t": "Trois formulaires complètent un dossier TK ou K5 : un **Information form** ; un **Readiness Checklist**, rempli par l’enseignant de maternelle ou de crèche de votre enfant ; et un **Personal Recommendation form du pasteur de votre famille**, exigé à tous les niveaux de la TK à la 12. Envoyez-les tous les trois rapidement : rien n’est programmé tant que le bureau des admissions ne les a pas tous reçus.",
+      "of": "77555d76",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Passez le dépistage de préparation",
+      "of": "b8760e48",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "une fois tous les formulaires arrivés",
+      "of": "ceda396c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].tag",
+        "hickory-grove-christian:guide.bands[1].steps[3].tag",
+        "hickory-grove-christian:guide.bands[2].steps[3].tag",
+        "hickory-grove-christian:guide.bands[3].steps[4].tag"
+      ]
+    },
+    {
+      "t": "Votre enfant passe une **évaluation des compétences adaptée à son développement** au cours de la procédure d’admission, et l’admission au programme dépend de sa réussite — c’est ce qui tranche le placement en TK ou en K5, aux côtés des dates butoirs d’anniversaire. Les tests sont organisés par le bureau **Student Services**, et ils ne sont programmés **qu’une fois que le bureau des admissions a reçu tous les formulaires exigés** : un seul formulaire manquant bloque donc tout le calendrier. L’école ne publie pas l’outil qu’elle utilise.",
+      "of": "7cf05845",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "après les tests",
+      "of": "e08f0319",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].tag",
+        "hickory-grove-christian:guide.bands[1].steps[4].tag",
+        "hickory-grove-christian:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[3].steps[5].tag"
+      ]
+    },
+    {
+      "t": "L’entretien familial est programmé une fois les étapes précédentes terminées et concluantes. L’école le présente comme l’occasion de partager sa **mission, sa vision et sa déclaration de foi**, et d’évaluer si Hickory Grove convient à votre famille. **Aucune exigence publiée n’impose qu’un parent soit chrétien pratiquant** — ce qui est exigé, c’est le formulaire de recommandation du pasteur et cette conversation.",
+      "of": "a7b32e23",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].detail",
+        "hickory-grove-christian:guide.bands[1].steps[4].detail",
+        "hickory-grove-christian:guide.bands[2].steps[4].detail",
+        "hickory-grove-christian:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Décision, puis l’acompte de $500",
+      "of": "4a1a7c50",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].title",
+        "hickory-grove-christian:guide.bands[1].steps[5].title",
+        "hickory-grove-christian:guide.bands[2].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].steps[6].title"
+      ]
+    },
+    {
+      "t": "au fil de l’eau",
+      "of": "086a38f2",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].tag",
+        "hickory-grove-christian:guide.bands[1].steps[5].tag",
+        "hickory-grove-christian:guide.bands[2].steps[5].tag",
+        "hickory-grove-christian:guide.bands[3].steps[6].tag"
+      ]
+    },
+    {
+      "t": "La décision finale est **communiquée par écrit**, et elle prend en compte des résultats satisfaisants, les lettres de recommandation, l’entretien, les rapports de comportement, les tests d’entrée et tout IEP, 504 ou bilan psychopédagogique au dossier. **Aucune date de notification fixe n’est publiée** — l’admission se fait au fil de l’eau et dépend des places disponibles dans le niveau. À l’acceptation, un **acompte non remboursable de $500** est dû, et il est déduit des frais de scolarité.",
+      "of": "f1e7909d",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].detail",
+        "hickory-grove-christian:guide.bands[1].steps[5].detail",
+        "hickory-grove-christian:guide.bands[2].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Les tests ne sont programmés qu’une fois tous les formulaires arrivés.",
+      "of": "64f124e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Le dépistage de préparation qui tranche le placement en TK ou en K5 est organisé par Student Services seulement après que le bureau des admissions a reçu l’Information form, le Readiness Checklist rempli par l’enseignant de maternelle ou de crèche de votre enfant, et le Personal Recommendation form du pasteur. Les candidatures ouvrent le 2 novembre pour les membres de l’église, les élèves de l’Early Education Center et les fratries d’élèves actuels, et le 16 novembre pour tous les autres ; ensuite l’admission se fait au fil de l’eau, en fonction des places, sans date de notification fixe. Notez que toute suspension, exclusion ou matière non validée figurant au dossier entraîne automatiquement un refus d’admission.",
+      "of": "66185ba4",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Déposer le formulaire de demande de renseignements et demander une visite du campus",
+      "of": "405411b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "Ce sont deux courts formulaires accessibles depuis la page des admissions. C’est ici que vous choisissez Harris ou Mallard Creek.",
+      "of": "007e9989",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "Vérifier si votre enfant est éligible à la TK ou à la K5",
+      "of": "e4be2401",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "Cinq ans d’ici le Oct 16 pour la K5 ; cinq ans au plus tard le Apr 16 pour la TK. Le dépistage prend aussi en compte la préparation.",
+      "of": "80653d29",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "Avant de candidater",
+      "of": "4537836e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].due"
+      ]
+    },
+    {
+      "t": "Candidater dans le portail FACTS de votre campus et régler les frais de dossier",
+      "of": "b5ed2dfd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "Harris et Mallard Creek utilisent des portails différents. Confirmez le montant actuel — $250/$500 sont publiés pour une fenêtre désormais passée.",
+      "of": "f43abcab",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Nov 2 ou Nov 16, 2026",
+      "of": "8cf443e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].due"
+      ]
+    },
+    {
+      "t": "Envoyer l’acte de naissance et l’Immunization Registry Record",
+      "of": "77ee5233",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "Les deux accompagnent le dossier de candidature lui-même.",
+      "of": "3f7f01b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Avec le dossier de candidature",
+      "of": "72b1bf58",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].due"
+      ]
+    },
+    {
+      "t": "Remplir l’Information form",
+      "of": "cecb18bb",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "L’un des trois formulaires exigés pour un dossier TK ou K5.",
+      "of": "dbdb37bd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Demander le Readiness Checklist à l’enseignant de maternelle ou de crèche",
+      "of": "ff772f7c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "Rempli par l’enseignant, pas par vous.",
+      "of": "a9fc55b7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Demander le Personal Recommendation form au pasteur de votre famille",
+      "of": "0bb991ad",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "Exigé à tous les niveaux, de la TK à la 12.",
+      "of": "b0e9da36",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "Passer le dépistage de préparation adapté au développement",
+      "of": "cba43a68",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "Organisé par Student Services seulement une fois tous les formulaires arrivés. L’admission dépend de sa réussite.",
+      "of": "345206cc",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "Une fois tous les formulaires arrivés",
+      "of": "09225c0c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].due"
+      ]
+    },
+    {
+      "t": "Aborde la mission, la vision et la déclaration de foi, ainsi que l’adéquation de l’école avec votre famille.",
+      "of": "48965695",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].detail"
+      ]
+    },
+    {
+      "t": "Après les tests",
+      "of": "f91a27b9",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].due"
+      ]
+    },
+    {
+      "t": "Guetter la décision écrite, puis verser l’acompte de $500",
+      "of": "44026a96",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].action"
+      ]
+    },
+    {
+      "t": "Non remboursable, déduit des frais de scolarité. Aucune date de notification fixe — l’admission se fait au fil de l’eau.",
+      "of": "724667d0",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].detail"
+      ]
+    },
+    {
+      "t": "Au fil de l’eau",
+      "of": "3914a792",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].due"
+      ]
+    },
+    {
+      "t": "Élémentaire · Niveaux 1–5",
+      "of": "72ba36a9",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].label"
+      ]
+    },
+    {
+      "t": "Academic Referral · bulletins",
+      "of": "607998a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].sublabel"
+      ]
+    },
+    {
+      "t": "Élémentaire — Niveaux 1–5",
+      "of": "46af5fb2",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "Les deux premières étapes sont de courts formulaires accessibles depuis la page des admissions : une demande de renseignements, puis une demande de visite du campus. Les niveaux 1 à 5 sont enseignés sur le **campus Harris**, 7200 E. WT Harris Blvd.",
+      "of": "9e48cbc4",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Candidatez via le **portail FACTS**, et joignez au dossier l’**acte de naissance** et l’**Immunization Registry Record** de votre enfant. Concernant les frais : l’école publie **$250 pour une fenêtre qui courait jusqu’au May 31, 2026** et **$500 à partir du June 1, 2026**, mais cette fenêtre publiée est antérieure aux dates de candidature de novembre 2026 — **confirmez le montant actuel auprès du bureau des admissions avant de payer**.",
+      "of": "4880974f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Envoyez les formulaires et les documents exigés à ce niveau",
+      "of": "a07a2d41",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].title"
+      ]
+    },
+    {
+      "t": "Un dossier d’élémentaire demande davantage que le niveau le plus jeune : un **Academic Referral form de l’enseignant actuel de votre enfant** ; des **bulletins couvrant au moins deux années** ; un **Personal Recommendation form du pasteur de votre famille**, exigé à tous les niveaux TK–12 ; et, **pour les niveaux 4 et 5 uniquement, un Student Questionnaire**. Si votre enfant a passé des **tests pédagogiques ou diagnostiques**, ou dispose d’un **IEP ou d’un plan 504** en cours, envoyez aussi ces résultats. Rien n’est programmé tant que l’ensemble n’est pas arrivé.",
+      "of": "0a0a777e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Passez les tests d’entrée",
+      "of": "20ea4512",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[2].steps[3].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].action"
+      ]
+    },
+    {
+      "t": "Les tests sont organisés par le bureau **Student Services**, et ils ne sont programmés **qu’une fois que le bureau des admissions a reçu tous les formulaires exigés** : un seul bulletin ou une seule recommandation manquante bloque tout le calendrier. L’école ne publie pas l’outil qu’elle utilise. **Il n’y a pas de journée d’immersion à ce niveau** ; l’immersion n’est exigée que des candidats au lycée.",
+      "of": "bfb0f385",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Deux années de bulletins, et une recommandation de l’enseignant que votre enfant a aujourd’hui.",
+      "of": "8f0cc462",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Un dossier d’élémentaire demande l’Academic Referral form de l’enseignant actuel de votre enfant, des bulletins couvrant au moins deux années, le Personal Recommendation form du pasteur, et — pour les niveaux 4 et 5 uniquement — un Student Questionnaire. Les tests sont organisés par Student Services seulement une fois l’ensemble arrivé : commencez donc par les formulaires que d’autres personnes doivent remplir. Les candidatures ouvrent le 2 novembre pour les membres de l’église, les élèves de l’Early Education Center et les fratries d’élèves actuels, et le 16 novembre pour tous les autres ; ensuite l’admission se fait au fil de l’eau, sans date de notification fixe. Notez que toute suspension, exclusion ou matière non validée figurant au dossier entraîne automatiquement un refus d’admission.",
+      "of": "a4b5f901",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Ce sont deux courts formulaires accessibles depuis la page des admissions.",
+      "of": "b39af57a",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "Candidater dans le portail FACTS et régler les frais de dossier",
+      "of": "2f9b02da",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "Confirmez le montant actuel — $250/$500 sont publiés pour une fenêtre désormais passée.",
+      "of": "3d61d2a5",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "Demander l’Academic Referral form à l’enseignant actuel de votre enfant",
+      "of": "c4333638",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "Rempli par l’enseignant que votre enfant a aujourd’hui.",
+      "of": "57b066e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "Envoyer des bulletins couvrant au moins deux années",
+      "of": "9bf51e5f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Deux années complètes constituent le minimum publié.",
+      "of": "efc76a71",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Niveaux 4 et 5 uniquement — remplir le Student Questionnaire",
+      "of": "75084c81",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "Non exigé en dessous du niveau 4.",
+      "of": "4a716a85",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Envoyer tout test pédagogique ou diagnostique, ainsi qu’un IEP ou 504 en cours",
+      "of": "897a3eb3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "Seulement le cas échéant — ils sont examinés dans le cadre de la décision finale.",
+      "of": "43b583e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "Organisés par Student Services seulement une fois tous les formulaires arrivés. Pas de journée d’immersion à ce niveau.",
+      "of": "22130b9e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].detail"
+      ]
+    },
+    {
+      "t": "Collège · Niveaux 6–8",
+      "of": "7dc2f276",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].label"
+      ]
+    },
+    {
+      "t": "Trois recommandations d’enseignants",
+      "of": "4becfc9d",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].sublabel"
+      ]
+    },
+    {
+      "t": "Les deux premières étapes sont de courts formulaires accessibles depuis la page des admissions : une demande de renseignements, puis une demande de visite du campus. Le collège est enseigné sur le **campus Harris**, 7200 E. WT Harris Blvd.",
+      "of": "781ab056",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Candidatez via le **portail FACTS**, et joignez au dossier l’**acte de naissance** et l’**Immunization Registry record** de votre enfant. Concernant les frais : l’école publie **$250 pour une fenêtre qui courait jusqu’au May 31, 2026** et **$500 à partir du June 1, 2026**, mais cette fenêtre publiée est antérieure aux dates de candidature de novembre 2026 — **confirmez le montant actuel auprès du bureau des admissions avant de payer**.",
+      "of": "f05c506f",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[1].detail",
+        "hickory-grove-christian:guide.bands[3].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Envoyez quatre recommandations et le dossier complet",
+      "of": "5a853f29",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].title",
+        "hickory-grove-christian:guide.bands[3].steps[2].title"
+      ]
+    },
+    {
+      "t": "C’est le niveau où la paperasse s’intensifie. **Quatre formulaires de recommandation** sont exigés — un **Math Teacher Recommendation**, un **English Teacher Recommendation**, un **Principal or Guidance Counselor Recommendation**, et le **Personal Recommendation form du pasteur de votre famille** exigé à tous les niveaux. À cela s’ajoutent : les **bulletins des deux années les plus récentes**, le **relevé de notes**, les **résultats aux tests standardisés**, un **Student Questionnaire** rempli par votre enfant, et tout **résultat de test pédagogique ou diagnostique ou IEP, 504 ou plan d’aménagements en cours**. Trois des quatre recommandations dépendent du temps d’autres personnes : demandez-les en premier.",
+      "of": "7b1e0181",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Les tests sont organisés par le bureau **Student Services**, et ils ne sont programmés **qu’une fois que le bureau des admissions a reçu tous les formulaires exigés**. Avec quatre recommandations au dossier, c’est la condition la plus susceptible de retarder une candidature au collège. **Une journée d’immersion n’est pas exigée à ce niveau** — cette exigence ne concerne que les candidats au lycée, même si les niveaux 6 à 12 partagent par ailleurs la même liste de formulaires.",
+      "of": "ba2d6a03",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Quatre recommandations — et pas de journée d’immersion, contrairement au lycée.",
+      "of": "59f54ed7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Les niveaux 6 à 12 partagent une seule liste de formulaires : enseignant de mathématiques, enseignant d’anglais, principal ou conseiller d’orientation, et le pasteur de votre famille, plus le relevé de notes, deux années de bulletins, les résultats standardisés et un Student Questionnaire. Ce que le collège n’a pas, c’est la journée d’immersion, exigée des seuls candidats au lycée. Les tests sont organisés par Student Services seulement une fois chacun de ces formulaires arrivé : demandez donc d’abord les trois recommandations scolaires. Les candidatures ouvrent le 2 novembre pour les membres de l’église, les élèves de l’Early Education Center et les fratries d’élèves actuels, et le 16 novembre pour tous les autres ; ensuite l’admission se fait au fil de l’eau, en fonction des places, sans date de notification fixe. Notez que toute suspension, exclusion ou matière non validée figurant au dossier entraîne automatiquement un refus d’admission.",
+      "of": "22d6f213",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Envoyer l’acte de naissance et l’Immunization Registry record",
+      "of": "059a3413",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "Demander le formulaire Math Teacher Recommendation",
+      "of": "5aab4e8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "L’une des trois recommandations scolaires — demandez-la tôt.",
+      "of": "edbe12bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Demander le formulaire English Teacher Recommendation",
+      "of": "dd1d22c0",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Demander le formulaire Principal or Guidance Counselor Recommendation",
+      "of": "eb8ef6a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "Envoyer le relevé de notes et les bulletins des deux années les plus récentes",
+      "of": "f533f124",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "Les deux sont exigés à partir du niveau 6.",
+      "of": "177a8bf1",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "Envoyer les résultats aux tests standardisés",
+      "of": "c27b10e4",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].action"
+      ]
+    },
+    {
+      "t": "Exigés à partir du niveau 6.",
+      "of": "dd07176a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "Faire remplir le Student Questionnaire par votre enfant",
+      "of": "81b7997a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].action"
+      ]
+    },
+    {
+      "t": "Exigé à tous les niveaux, de la 6 à la 12.",
+      "of": "084db8cf",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].detail"
+      ]
+    },
+    {
+      "t": "Envoyer tout test diagnostique, IEP, 504 ou plan d’aménagements",
+      "of": "6a09af62",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].action"
+      ]
+    },
+    {
+      "t": "Seulement le cas échéant — examinés dans le cadre de la décision finale.",
+      "of": "4f218f25",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].detail"
+      ]
+    },
+    {
+      "t": "Lycée · Niveaux 9–12",
+      "of": "8a27ca4f",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].label"
+      ]
+    },
+    {
+      "t": "Journée d’immersion + test de placement",
+      "of": "8d4aa467",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].sublabel"
+      ]
+    },
+    {
+      "t": "Lycée — Niveaux 9–12",
+      "of": "aaf17dfc",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].title"
+      ]
+    },
+    {
+      "t": "Les deux premières étapes sont de courts formulaires accessibles depuis la page des admissions : une demande de renseignements, puis une demande de visite du campus. Le lycée est enseigné sur le **campus Harris**, 7200 E. WT Harris Blvd.",
+      "of": "ebd8fbdd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Le lycée partage sa liste de formulaires avec le collège. **Quatre formulaires de recommandation** sont exigés — un **Math Teacher Recommendation**, un **English Teacher Recommendation**, un **Principal or Guidance Counselor Recommendation**, et le **Personal Recommendation form du pasteur de votre famille** exigé à tous les niveaux. À cela s’ajoutent : le **relevé de notes du lycée**, les **bulletins des deux années les plus récentes**, les **résultats aux tests standardisés**, un **Student Questionnaire** rempli par votre enfant, et tout **résultat de test pédagogique ou diagnostique ou IEP, 504 ou plan d’aménagements en cours**. Demandez d’abord les trois recommandations scolaires : elles dépendent du temps d’autres personnes.",
+      "of": "f3889155",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Passer une journée d’immersion auprès d’un élève de Hickory Grove",
+      "of": "1bdf7b4d",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].title"
+      ]
+    },
+    {
+      "t": "lycée uniquement",
+      "of": "54ed4603",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].tag"
+      ]
+    },
+    {
+      "t": "**Cette étape n’existe qu’à ce niveau.** Les candidats au lycée sont **tenus** de passer une journée en immersion auprès d’un élève actuel de Hickory Grove, organisée en remplissant un shadow request form. Les niveaux 6 à 8 n’ont aucune exigence équivalente alors même que leur dossier est identique : c’est donc la différence la plus nette entre candidater au collège et candidater au lycée ici.",
+      "of": "07105718",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Passez les tests d’entrée, y compris le test de placement",
+      "of": "ba8246a3",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].title"
+      ]
+    },
+    {
+      "t": "Les tests sont organisés par le bureau **Student Services**, et ils ne sont programmés **qu’une fois que le bureau des admissions a reçu tous les formulaires exigés**. Les candidats au lycée passent également un **test d’entrée obligatoire servant à déterminer le placement de niveau** — une étape que l’école publie pour les niveaux 9 à 12 uniquement. Les outils précis ne sont pas publiés.",
+      "of": "b6003290",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].detail"
+      ]
+    },
+    {
+      "t": "La décision finale est **communiquée par écrit**, et elle prend en compte des résultats satisfaisants, les lettres de recommandation, l’entretien, les rapports de comportement, les tests d’entrée et tout IEP, 504 ou bilan psychopédagogique au dossier. **Toute suspension, exclusion ou matière non validée figurant au dossier entraîne automatiquement un refus d’admission** — une règle qui compte le plus à ce niveau, car un relevé de notes de lycée porte l’historique le plus long. **Aucune date de notification fixe n’est publiée** — l’admission se fait au fil de l’eau et dépend des places disponibles dans le niveau. À l’acceptation, un **acompte non remboursable de $500** est dû, et il est déduit des frais de scolarité.",
+      "of": "383188d7",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[6].detail"
+      ]
+    },
+    {
+      "t": "Deux étapes qui n’existent qu’ici — la journée d’immersion et un test de placement.",
+      "of": "a28b1f98",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Les candidats au lycée sont tenus de passer une journée en immersion auprès d’un élève actuel de Hickory Grove, et de passer un test d’entrée obligatoire qui détermine le placement de niveau. Ni l’un ni l’autre ne s’applique aux niveaux 6 à 8, alors même que les quatre formulaires de recommandation et la liste des documents sont identiques. Les tests sont organisés par Student Services seulement une fois tous les formulaires arrivés. Les candidatures ouvrent le 2 novembre pour les membres de l’église, les élèves de l’Early Education Center et les fratries d’élèves actuels, et le 16 novembre pour tous les autres ; ensuite l’admission se fait au fil de l’eau, en fonction des places, sans date de notification fixe. Notez que toute suspension, exclusion ou matière non validée figurant au dossier entraîne automatiquement un refus d’admission — la règle mord le plus fort ici, car un relevé de notes de lycée porte l’historique le plus long.",
+      "of": "dddeb142",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Envoyer le relevé de notes du lycée et deux années de bulletins",
+      "of": "2d5c2c89",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "Remplir le shadow request form et passer une journée en immersion auprès d’un élève",
+      "of": "e13b876b",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].action"
+      ]
+    },
+    {
+      "t": "Exigé des seuls candidats au lycée. Non demandé aux niveaux 6 à 8.",
+      "of": "230527cd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].detail"
+      ]
+    },
+    {
+      "t": "Lycée uniquement",
+      "of": "324c1f23",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].due"
+      ]
+    },
+    {
+      "t": "Passer les tests d’entrée et le test de placement de niveau",
+      "of": "d2dacae0",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].action"
+      ]
+    },
+    {
+      "t": "Organisés par Student Services une fois tous les formulaires arrivés. Le test de placement est publié pour les niveaux 9–12 uniquement.",
+      "of": "fc7920cb",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].detail"
+      ]
+    },
+    {
+      "t": "Élèves internationaux (F-1)",
+      "of": "7bda6384",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].label"
+      ]
+    },
+    {
+      "t": "Procédure distincte · I-20 délivré par HGCS",
+      "of": "4ebc84d5",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].sublabel"
+      ]
+    },
+    {
+      "t": "Élèves internationaux — visa F-1",
+      "of": "e09bf602",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].title"
+      ]
+    },
+    {
+      "t": "Maîtrise de l’anglais — ou SLEP 50+",
+      "of": "a5447051",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "paiement intégral exigé pour s’inscrire",
+      "of": "4440c6e0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "Entretien avec un responsable de l’école — en visioconférence, pas en présentiel",
+      "of": "acb6008d",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].title"
+      ]
+    },
+    {
+      "t": "première étape",
+      "of": "e849e211",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].tag"
+      ]
+    },
+    {
+      "t": "La procédure internationale **commence** par un entretien au lieu de s’achever par un, et il se tient par **Skype, WeChat ou WhatsApp** avec un responsable de l’école. Cela **remplace la visite du campus** qui ouvre tous les niveaux nationaux : une famille candidatant depuis l’étranger n’est pas censée voyager au préalable. Hickory Grove mène son programme international depuis **2013** et est **SEVIS-certified** : elle délivre donc son propre I-20 plutôt que de faire passer les familles par un tiers.",
+      "of": "aeb9cb2e",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Remplir le dossier d’admission en ligne",
+      "of": "1844e5ab",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "après l’entretien",
+      "of": "8a871a21",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].tag"
+      ]
+    },
+    {
+      "t": "Le même dossier d’admission en ligne que pour les candidats nationaux, soumis à l’**International Admissions Office**. Le **montant des frais de dossier internationaux n’est pas publié** — confirmez-le auprès du bureau international. Notez qu’il est réglé **après** une décision d’acceptation, et non avec le dossier (voir l’étape d’acceptation).",
+      "of": "2a722558",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Atteindre les seuils de maîtrise de l’anglais",
+      "of": "97501803",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].title"
+      ]
+    },
+    {
+      "t": "avec le dossier de candidature",
+      "of": "76771438",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].tag",
+        "hickory-grove-christian:guide.bands[4].steps[3].tag"
+      ]
+    },
+    {
+      "t": "Les seuils publiés sont **TOEFL Jr. 750 ou plus** et **SLEP 50 ou plus**, et la fiche de score est jointe au dossier. L’école indique qu’elle est **disposée à discuter d’autres options de test** : un élève disposant d’une autre évaluation d’anglais reconnue devrait donc poser la question plutôt que de supposer qu’elle sera refusée.",
+      "of": "2b713050",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Envoyer les relevés de notes traduits en anglais",
+      "of": "e5f9426c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].title"
+      ]
+    },
+    {
+      "t": "**Les relevés de notes du collège et du lycée doivent être traduits en anglais**, et l’école oriente les familles vers **International Education Evaluations (IEE)** — myiee.org, info@foreigntranscripts.com — pour l’évaluation. Les **résultats scolaires et le comportement** antérieurs ainsi que les scores aux tests standardisés sont ensuite examinés ensemble : c’est donc sur le dossier traduit que la décision est prise.",
+      "of": "8562191a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Acceptation, frais de dossier, puis l’I-20",
+      "of": "76070f89",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].title"
+      ]
+    },
+    {
+      "t": "à l’acceptation",
+      "of": "7ca12683",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].tag"
+      ]
+    },
+    {
+      "t": "Un élève accepté est **notifié par courriel**. Les **frais de dossier non remboursables** sont réglés à ce moment-là, puis un responsable de l’école **envoie l’I-20 par courrier**. Une fois l’I-20 en main, l’élève **prend rendez-vous auprès de l’ambassade des États-Unis dans son propre pays pour obtenir le visa F-1** — ce rendez-vous est à la charge de la famille, et les délais d’attente des ambassades échappent au contrôle de l’école : entamez donc la démarche dès l’arrivée de l’I-20.",
+      "of": "d21aa6d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].detail"
+      ]
+    },
+    {
+      "t": "Organiser l’hébergement en famille d’accueil, l’assurance santé et les vaccinations",
+      "of": "5b7a3163",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].title"
+      ]
+    },
+    {
+      "t": "avant l’arrivée",
+      "of": "74a844c7",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].tag"
+      ]
+    },
+    {
+      "t": "Lorsque l’hébergement en famille d’accueil est requis, le **HGCS Student Coordinator** contacte l’élève ou l’agent pour les modalités ; l’école place des élèves en famille d’accueil depuis **2013** et gère l’organisation en interne. **Les modalités de sélection et de vérification des antécédents des familles d’accueil ne sont pas publiées** — renseignez-vous directement auprès du coordinateur. L’assurance santé passe par **American Benefit Services (Short Term Medical)**, au **843-214-2447** ou wesley.abs@gmail.com, et l’école exige également un **formulaire de vaccinations pour élèves internationaux** et une **visite médicale récente**.",
+      "of": "5baf07d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Payer l’intégralité avant le premier jour",
+      "of": "5b35505b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].title"
+      ]
+    },
+    {
+      "t": "avant le jour un",
+      "of": "81a46c8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].tag"
+      ]
+    },
+    {
+      "t": "**Le paiement intégral doit être reçu avant le premier jour d’école**, et un élève ne peut pas être inscrit tant que ce n’est pas le cas — un solde impayé place le dossier en **attente financière**. C’est la différence la plus nette avec les niveaux nationaux, qui prennent un acompte de $500 à l’acceptation et facturent le solde sur l’année. Le **montant des frais de scolarité internationaux n’est pas publié** ; on ignore également si l’aide financière s’étend aux élèves internationaux. **Un retrait anticipé coûte $500 plus 50% des frais de scolarité internationaux.**",
+      "of": "6a9348ce",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].detail"
+      ]
+    },
+    {
+      "t": "Ce que le programme comprend une fois sur place",
+      "of": "c9c17920",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].title"
+      ]
+    },
+    {
+      "t": "tout au long de l’année",
+      "of": "1a4fb75a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].tag"
+      ]
+    },
+    {
+      "t": "Le programme comprend une **orientation avant la rentrée**, des **réunions hebdomadaires avec l’International Student Director**, des comptes rendus réguliers aux familles et aux agences, le **transport depuis l’aéroport**, le **suivi de l’I-20**, le déjeuner, les frais sportifs et technologiques, ainsi que les sorties scolaires. Un point à anticiper : **la réinscription n’est pas automatique** — elle se demande chaque année au lieu d’être reconduite.",
+      "of": "504cbdc2",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].detail"
+      ]
+    },
+    {
+      "t": "Une procédure différente, et non la procédure nationale avec de la paperasse en plus.",
+      "of": "d1c87cc3",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Elle s’ouvre par un entretien en visioconférence au lieu d’une visite du campus, repose sur des seuils de maîtrise de l’anglais et des relevés de notes traduits par un évaluateur désigné, et s’achève par un I-20 que Hickory Grove délivre elle-même et un rendez-vous à l’ambassade que vous prenez. La logique financière diffère aussi : le paiement intégral est exigé avant le premier jour d’école, et non un acompte assorti d’un échéancier. Aucune date limite internationale distincte n’est publiée, pas plus que les frais de dossier ou les frais de scolarité internationaux — Sheila M. Chaney dirige à la fois les admissions et le programme international : c’est à elle qu’il faut s’adresser.",
+      "of": "c3dc7ad0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Organiser l’entretien Skype, WeChat ou WhatsApp avec un responsable de l’école",
+      "of": "3ce91614",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "La première étape, et elle remplace la visite du campus par laquelle débutent les niveaux nationaux.",
+      "of": "1f5858bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "Première étape",
+      "of": "d2c74831",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].due"
+      ]
+    },
+    {
+      "t": "Soumis à l’International Admissions Office. Le montant des frais n’est pas publié.",
+      "of": "7c746076",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "Après l’entretien",
+      "of": "acc682c1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].due"
+      ]
+    },
+    {
+      "t": "Passer le TOEFL Jr. ou le SLEP et envoyer la fiche de score",
+      "of": "5aedcfc9",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "TOEFL Jr. 750+ ou SLEP 50+. L’école est disposée à discuter d’autres options de test.",
+      "of": "909a3ce8",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Faire traduire en anglais les relevés de notes du collège et du lycée",
+      "of": "cc38d35a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "Par l’intermédiaire d’International Education Evaluations (IEE) — myiee.org.",
+      "of": "81728386",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "Guetter le courriel d’acceptation, puis régler les frais de dossier non remboursables",
+      "of": "3dc7c8d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Réglés après la décision, et non avec le dossier.",
+      "of": "77a93204",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "À l’acceptation",
+      "of": "1079b123",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].due"
+      ]
+    },
+    {
+      "t": "Recevoir l’I-20 et prendre rendez-vous à l’ambassade des États-Unis",
+      "of": "da5470a1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "HGCS envoie l’I-20 par courrier ; le rendez-vous à l’ambassade pour le visa F-1 est à votre charge.",
+      "of": "1ba60e68",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Organiser l’hébergement en famille d’accueil avec le HGCS Student Coordinator",
+      "of": "f2829f18",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "Le coordinateur prend contact lorsque l’hébergement en famille d’accueil est requis. Les modalités de sélection ne sont pas publiées.",
+      "of": "f078d2bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "Avant l’arrivée",
+      "of": "258f0e67",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].due"
+      ]
+    },
+    {
+      "t": "Souscrire l’assurance santé et envoyer le formulaire de vaccinations et la visite médicale",
+      "of": "3026adac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "American Benefit Services (Short Term Medical) — 843-214-2447.",
+      "of": "ee64305b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "Verser l’acompte d’inscription de $500, puis le solde en intégralité",
+      "of": "eb37b221",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
+      ]
+    },
+    {
+      "t": "Paiement intégral avant le premier jour d’école, faute de quoi le dossier est mis en attente financière.",
+      "of": "89d1db30",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "Avant le jour un",
+      "of": "7263a6ac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].due"
+      ]
+    },
+    {
+      "t": "Prévoir de recandidater chaque année",
+      "of": "db80ae97",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].action"
+      ]
+    },
+    {
+      "t": "La réinscription n’est pas automatique. Un retrait anticipé coûte $500 plus 50% des frais de scolarité internationaux.",
+      "of": "3c6afd19",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].detail"
+      ]
+    },
+    {
+      "t": "Chaque année",
+      "of": "2191d0b1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].due"
+      ]
+    },
+    {
+      "t": "L’aide passe par **FACTS Grant & Aid Assessment**, et **FACTS facture $40** pour traiter la demande. Deux remarques sur l’ordre des opérations : **les nouvelles familles doivent être acceptées à l’inscription avant de pouvoir demander une aide**, la demande d’aide suit donc ici la décision au lieu de se dérouler en parallèle ; et les familles devraient **d’abord demander, accepter ou renouveler la NC Opportunity Scholarship** auprès de l’organisme public d’aide à l’éducation, puis solliciter une aide auprès de Hickory Grove si cela ne couvre pas le besoin — attribuée « jusqu’à ce que tous les fonds disponibles aient été alloués ». L’**ESA+** est ouverte aux enfants en situation de handicap scolarisés dans un établissement non public éligible. La fenêtre publique **2026–27** courait du **February 2 to March 2, 2026**, les renouvellements étant à déposer avant le **April 15, 2026**.",
+      "of": "250e2905",
+      "at": [
+        "hickory-grove-christian:guide.aid.text"
+      ]
+    },
+    {
+      "t": "Fenêtre de candidature",
+      "of": "4a9dc6ff",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].label"
+      ]
+    },
+    {
+      "t": "Nov 2, 2026 prioritaire · Nov 16, 2026 public",
+      "of": "a7321ccc",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.hs"
+      ]
+    },
+    {
+      "t": "Aucune date limite internationale distincte n’est publiée",
+      "of": "d6242f35",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.intl"
+      ]
+    },
+    {
+      "t": "Readiness Checklist d’un enseignant de maternelle ou de crèche + pasteur",
+      "of": "f7aa3171",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.tkk5"
+      ]
+    },
+    {
+      "t": "Academic Referral de l’enseignant actuel + pasteur",
+      "of": "a39ceabd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.es"
+      ]
+    },
+    {
+      "t": "Aucun publié — l’examen porte sur les relevés de notes et les scores aux tests",
+      "of": "83c5ccf7",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.intl"
+      ]
+    },
+    {
+      "t": "Documents exigés",
+      "of": "299a4b32",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "Acte de naissance · carnet de vaccination · Information form",
+      "of": "e703d316",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.tkk5"
+      ]
+    },
+    {
+      "t": "Bulletins, au moins deux années · tout IEP ou 504",
+      "of": "5e2ede11",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.es"
+      ]
+    },
+    {
+      "t": "Relevé de notes · deux années de bulletins · scores standardisés · Student Questionnaire",
+      "of": "1c61f370",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[2].cells.hs"
+      ]
+    },
+    {
+      "t": "Relevés de notes du collège et du lycée traduits en anglais par IEE",
+      "of": "35db9686",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.intl"
+      ]
+    },
+    {
+      "t": "Dépistage de préparation adapté au développement — l’admission en dépend",
+      "of": "264dcccd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.tkk5"
+      ]
+    },
+    {
+      "t": "Tests d’entrée via Student Services",
+      "of": "8bf6bdbb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[3].cells.ms"
+      ]
+    },
+    {
+      "t": "Tests d’entrée plus un test de placement obligatoire",
+      "of": "715cc7e2",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.hs"
+      ]
+    },
+    {
+      "t": "TOEFL Jr. 750+ ou SLEP 50+",
+      "of": "597696fb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.intl"
+      ]
+    },
+    {
+      "t": "Journée d’immersion",
+      "of": "9c7c439f",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "Non — l’exigence commence au niveau 9",
+      "of": "53fc7068",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.ms"
+      ]
+    },
+    {
+      "t": "Oui — exigée, par shadow request form",
+      "of": "5ae0b88d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.hs"
+      ]
+    },
+    {
+      "t": "Sans objet",
+      "of": "9f7f439b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.intl"
+      ]
+    },
+    {
+      "t": "Premier contact avec l’école",
+      "of": "d57bb388",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "Visite du campus, sur formulaire de demande",
+      "of": "e3ee5bc3",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.hs"
+      ]
+    },
+    {
+      "t": "Entretien Skype, WeChat ou WhatsApp au lieu d’une visite",
+      "of": "50d9b6b4",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.intl"
+      ]
+    },
+    {
+      "t": "Entretien familial",
+      "of": "94e34996",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "Oui — mission, vision et déclaration de foi, et adéquation",
+      "of": "d89d340b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.hs"
+      ]
+    },
+    {
+      "t": "L’entretien vidéo d’ouverture remplit cette fonction",
+      "of": "6ebcb5c6",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.intl"
+      ]
+    },
+    {
+      "t": "Payer l’année",
+      "of": "adfcb210",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].label"
+      ]
+    },
+    {
+      "t": "Acompte de $500 à l’acceptation, déduit des frais de scolarité",
+      "of": "2a5439a8",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.hs"
+      ]
+    },
+    {
+      "t": "Paiement intégral avant le premier jour, faute de quoi la place est mise en attente financière",
+      "of": "97398458",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.intl"
+      ]
+    },
+    {
+      "t": "Un Personal Recommendation form du pasteur de la famille, exigé à tous les niveaux de la TK à la 12 · le dossier FACTS en ligne, la fenêtre de frais publiée de $250/$500 étant antérieure aux dates de candidature actuelles · des tests programmés seulement une fois tous les formulaires exigés arrivés · une décision écrite sans date de notification fixe, l’admission se faisant au fil de l’eau et en fonction des places · un acompte d’inscription non remboursable de $500 déduit des frais de scolarité · et une règle publiée selon laquelle toute suspension, exclusion ou matière non validée entraîne automatiquement un refus d’admission",
+      "of": "2330fb6d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[8].cells.all"
+      ]
+    },
+    {
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · admissions 704-531-4008 · admissions@hgchristian.org · lun.–ven. 7:30 a.m.–3:00 p.m. Le courrier est adressé séparément, au 6050 Hickory Grove Road, Charlotte, NC 28215 — le complexe de l’église et de l’école. Un seul membre du personnel des admissions est nommé sur le site de l’école ; les lignes des bureaux ci-dessous sont publiées pour les domaines qu’elle ne couvre pas.",
+      "of": "87d21ad5",
+      "at": [
+        "hickory-grove-christian:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "Directrice des admissions et du programme des élèves internationaux · 704-531-4008 · admissions@hgchristian.org",
+      "of": "197e28e7",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "704-531-4008 · lun.–ven. 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org",
+      "of": "c4bb6418",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "Maternelle à temps plein, avant la TK · 704-531-4059 · harriseec@hgchristian.org",
+      "of": "8b7ab174",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "Maternelle à mi-temps et campus classique TK/K · 704-531-5345",
+      "of": "bb554855",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "Directrice de l’élémentaire · 704-531-4195 · loricheuvront@hgchristian.org",
+      "of": "a5b73266",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "Portail : FACTS · hg-nc.client.factsmgt.com — memberId 496 pour Harris, 15083 pour Mallard Creek",
+      "of": "99b89586",
+      "at": [
+        "hickory-grove-christian:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "L’aide passe par FACTS Grant & Aid Assessment, et FACTS facture $40 pour traiter la demande.",
+      "of": "95b6ccfd",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "Les nouvelles familles doivent être acceptées à l’inscription avant de pouvoir demander une aide : cette démarche suit donc la décision d’admission au lieu de se dérouler en parallèle.",
+      "of": "7eb67c47",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "Demandez, acceptez ou renouvelez d’abord la NC Opportunity Scholarship, puis sollicitez une aide auprès de Hickory Grove si cela ne couvre pas votre besoin — attribuée jusqu’à ce que tous les fonds disponibles aient été alloués.",
+      "of": "7bb9b07d",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "L’ESA+ est ouverte aux enfants en situation de handicap scolarisés dans un établissement non public éligible.",
+      "of": "ac450725",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[3]"
+      ]
+    },
+    {
+      "t": "La fenêtre publique 2026–27 courait du February 2 to March 2, 2026, les renouvellements étant à déposer avant le April 15, 2026.",
+      "of": "2dc6a621",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[4]"
+      ]
+    },
+    {
+      "t": "Admissions — 704-531-4008 · admissions@hgchristian.org · lun.–ven. 7:30 a.m.–3:00 p.m.",
+      "of": "84d557ec",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · courrier au 6050 Hickory Grove Road, Charlotte, NC 28215",
+      "of": "b93fa2a3",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "Candidats internationaux — Sheila M. Chaney, Director of Admissions & International Student Program · 704-531-4008",
+      "of": "b77af464",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345",
+      "of": "271c6df5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[3]"
+      ]
+    },
+    {
+      "t": "Les dates correspondent au cycle d’admission 2027–28 tel que publié sur hgchristian.org et consulté en septembre 2026, ainsi qu’aux deux check-lists d’admission pour nouvelles familles révisées le 11/17/25. La fenêtre publiée des frais de dossier ($250 jusqu’au May 31, 2026 ; $500 à partir du June 1, 2026) est antérieure aux dates de candidature de novembre 2026 figurant sur la même page — confirmez le montant actuel auprès du bureau des admissions. Les dates changent d’une année à l’autre : vérifiez-les sur le site en ligne avant d’agir. Compilé par Charlotte School Compare ; sans affiliation avec Hickory Grove Christian School.",
+      "of": "263c78d5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.disclaimer"
       ]
     }
   ]
