@@ -10,6 +10,36 @@ import App from './App.tsx'
 // rejects — a bundle that fails to load leaves English in place.
 await ready
 
+// Restore a path handed over by public/404.html before the first render.
+//
+// GitHub Pages has no rewrite rules, so a route that is real in router.ts but
+// has no pre-rendered file (today: /school/<slug>/admissions-checklist/) is
+// served 404.html. That page redirects here as `/?redirect=<encoded path>`;
+// this puts the original path back in the URL bar so the router sees it and
+// the reader lands on the sheet they asked for, not the home page.
+//
+// replaceState, NOT pushState — the `?redirect=` URL is plumbing and must not
+// occupy a history entry, or Back would bounce through it.
+//
+// Runs BEFORE the hash rewrite below so a redirected path carrying a legacy
+// hash still gets normalised, and inside try/catch so a malformed value can
+// never stop the app booting.
+if (typeof window !== 'undefined') {
+  try {
+    const params = new URLSearchParams(window.location.search)
+    const target = params.get('redirect')
+    // Same-origin, absolute-path only. A value like `//evil.example.com` is a
+    // protocol-relative URL that browsers treat as another ORIGIN, so the
+    // second character must be checked too — this is an open-redirect guard,
+    // not a tidiness check.
+    if (target && target.startsWith('/') && !target.startsWith('//')) {
+      window.history.replaceState(null, '', target)
+    }
+  } catch {
+    // Never let a URL rewrite stop the app from booting.
+  }
+}
+
 // Rewrite a legacy hash URL to its canonical path form before the first render.
 // Links to `#/school/cannon` are already shared in the wild (Facebook is the #2
 // referrer) and must keep resolving; the path form is what search engines index

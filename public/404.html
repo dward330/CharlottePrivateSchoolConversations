@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Charlotte School Insights</title>
+<!-- A 404 must not be indexed as content in its own right. -->
+<meta name="robots" content="noindex, follow">
+
+<!--
+  GitHub Pages serves this file for ANY path it has no file for, which is the
+  entire reason it exists: /school/<slug>/admissions-checklist/ is a real route
+  in src/lib/router.ts but is deliberately NOT pre-rendered (see the long note
+  in scripts/seo_routes.mjs), so before this file a pasted or shared checklist
+  link hit GitHub's own error page and the SPA never booted.
+
+  Three constraints, each deliberate:
+
+  1. IT MUST RENDER WITH NO JAVASCRIPT. This is a static file outside the React
+     app; if the boot script below is blocked or fails, the reader still gets a
+     readable page with working links. Everything visible here is plain HTML.
+
+  2. IT MUST NOT COPY index.html's PRE-PAINT LOCALE GUARD. index.html sets
+     `data-i18n-pending` to hide <body> until i18n resolves; that attribute is
+     cleared by src/lib/i18n.ts, which never runs here. Copying it would leave
+     this page permanently blank — the exact failure it is meant to prevent.
+
+  3. IT IS ENGLISH-ONLY, by decision (.claude/plans/seogaps.md, Phase 2 step 2).
+     Pre-rendering is English-only for the same reason, and the alternative — a
+     script that swaps strings after paint — reintroduces the English-flash bug
+     the pre-paint guard exists to stop. Do not "fix" this in an i18n pass.
+
+  It is NOT in ROUTES or sitemap.xml: it fixes REACHABILITY, not indexability,
+  and a 404 page in a sitemap is a contradiction.
+-->
+
+<style>
+  :root {
+    --cream: #f7f7ef;
+    --ink: #33322e;
+    --muted: #6f6d64;
+    --border: #dcdad0;
+    --brand: #12294f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: Barlow, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 14px clamp(16px, 4vw, 28px);
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .brand img { height: 40px; width: auto; display: block; border: 1px solid var(--border); }
+  .brand span { font-size: 18px; font-weight: 600; }
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: clamp(48px, 10vh, 96px) clamp(16px, 4vw, 28px);
+  }
+  .code {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brand);
+    margin: 0 0 6px;
+  }
+  h1 { margin: 0 0 14px; font-size: clamp(30px, 6vw, 42px); line-height: 1.15; }
+  p { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  .links a {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    text-decoration: none;
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .links a:hover { border-color: var(--brand); color: var(--brand); }
+  .links a.primary { background: var(--brand); border-color: var(--brand); color: var(--cream); }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 20px clamp(16px, 4vw, 28px);
+    color: var(--muted);
+    font-size: 12.5px;
+  }
+  footer p { margin: 0; max-width: 640px; }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --cream: #161819; --ink: #e6e7e8; --muted: #a2a5a8;
+      --border: #33383b; --brand: #7fa3c7;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="brand" href="/">
+    <img src="/logo.png" alt="">
+    <span>Charlotte School Insights</span>
+  </a>
+</header>
+
+<main>
+  <p class="code">Error 404</p>
+  <h1>We couldn&rsquo;t find that page</h1>
+  <p>
+    The link may be out of date, or the address may have a typo in it. Nothing
+    is broken on your end.
+  </p>
+  <p>
+    If you followed a link to a specific school&rsquo;s research, try starting
+    from the school list &mdash; every school and research area is reachable
+    from there.
+  </p>
+  <div class="links">
+    <a class="primary" href="/">All schools</a>
+    <a href="/compare/">Compare schools</a>
+  </div>
+</main>
+
+<footer>
+  <p>
+    Parent-facing research on Charlotte-area private schools. Notes are
+    distilled, lightly-cleaned extracts of source documents &mdash; verify
+    specifics with each school.
+  </p>
+</footer>
+
+<script>
+  /*
+    Boot the SPA for paths that ARE real app routes but have no pre-rendered
+    file — today that means /school/<slug>/admissions-checklist/. The router
+    already understands those paths (src/lib/router.ts parsePath()); they 404
+    here only because GitHub Pages has no rewrite rules.
+
+    Redirect rather than mount in place: this file is not the app shell, so it
+    carries none of the app's module graph. `replace()` keeps the dead URL out
+    of history, so Back does not bounce between the 404 and the app.
+
+    Deliberately NARROW. Redirecting every unmatched path would send genuine
+    typos into the app to render their own not-found state, turning one honest
+    404 into a soft-404 that search engines treat as thin content. Anything not
+    matched here keeps the real 404 status and the readable page above.
+
+    Wrapped in try/catch and placed at the END of <body>: if any of this throws
+    or is blocked, the page above has already rendered and still works.
+  */
+  (function () {
+    try {
+      var p = window.location.pathname;
+      var APP_ROUTES = [
+        /^\/school\/[A-Za-z0-9-]+\/admissions-checklist\/?$/
+      ];
+      for (var i = 0; i < APP_ROUTES.length; i++) {
+        if (APP_ROUTES[i].test(p)) {
+          // Hand the full path to the SPA shell, which boots and routes to it.
+          window.location.replace('/?redirect=' + encodeURIComponent(
+            p + window.location.search + window.location.hash
+          ));
+          return;
+        }
+      }
+    } catch (e) {
+      /* Static page above is the fallback — never leave the reader with nothing. */
+    }
+  })();
+</script>
+
+</body>
+</html>

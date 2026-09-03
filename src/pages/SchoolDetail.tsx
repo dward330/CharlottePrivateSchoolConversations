@@ -16,7 +16,7 @@ import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
 import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
 import { proseSummary, previewHasGapLanguage, proseIsEmpty, flattenMarkdown } from '../lib/prose.ts'
-import { toCompare, toHome, useNavigate } from '../lib/router.ts'
+import { toCompare, toHome, toSchool, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 import { COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
@@ -1291,6 +1291,48 @@ export function SchoolDetail({ slug }: { slug: string }) {
           })}
         </main>
       </div>
+
+      {/* Lateral crawl paths. Before this, no school page linked to any other:
+          all eleven sat at equal depth off the home page, so a crawler (and a
+          reader) had no way to move sideways. Each entry is a REAL href, which
+          is the part that matters for indexing — the onClick just keeps in-app
+          navigation client-side, exactly as the Compare link above does.
+
+          Rendered from the manifest and filtered to drop the current school, so
+          adding a school extends every other school's row automatically.
+
+          The badge carries the LINKED school's brand color (SchoolBadge reads
+          brandOf(slug) itself), not this page's --brand. */}
+      <section className="more-schools" aria-labelledby="more-schools-heading">
+        <h2 id="more-schools-heading" className="more-schools-heading">
+          {tr('school.moreSchools')}
+        </h2>
+        <div className="more-schools-grid">
+          {allSchools
+            .filter((s) => s.slug !== slug)
+            .map((s) => (
+              <a
+                key={s.slug}
+                className="more-schools-card"
+                // The card's own brand tint. Set here rather than inherited,
+                // because the page root's --brand is the CURRENT school's
+                // color — hovering a card would otherwise tint it with the
+                // wrong school. SchoolBadge sets --brand on the badge itself.
+                style={{ ['--sbrand' as string]: brandOf(s.slug).color }}
+                href={toSchool(s.slug)}
+                onClick={(e) => { e.preventDefault(); navigate(toSchool(s.slug)) }}
+              >
+                <SchoolBadge slug={s.slug} name={s.name} size={40} />
+                <span className="more-schools-text">
+                  <span className="more-schools-name">{s.name}</span>
+                  <span className="more-schools-city">
+                    {tr('school.cityState', { city: brandOf(s.slug).city })}
+                  </span>
+                </span>
+              </a>
+            ))}
+        </div>
+      </section>
     </div>
   )
 }
