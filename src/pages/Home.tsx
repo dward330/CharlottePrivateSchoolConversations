@@ -4,13 +4,18 @@ import { schools, topics, topicsForSchool, docCount, projectStats, generated, br
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { toSchool, toCompare, useNavigate } from '../lib/router.ts'
-import { COMPARE_DEFAULT_TOPIC } from '../lib/metrics.ts'
+import { COMPARE_DEFAULT_TOPIC, COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 
 export function Home() {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const stats = projectStats()
-  const allSlugs = schools.map((s) => s.slug)
+  /* The grid's cells open Compare on the standing default peer set rather than
+     all eleven columns, matching what a bare /compare/ and a school page's
+     compare link already open on (COMPARE_DEFAULT_SCHOOLS). Filtered through the
+     manifest so column order stays stable and an unknown slug drops a column
+     rather than crashing. */
+  const compareSlugs = schools.map((s) => s.slug).filter((s) => COMPARE_DEFAULT_SCHOOLS.includes(s))
   /* Every cell in this grid links into Compare, so it leads with the same topic
      Compare itself leads with (see COMPARE_DEFAULT_TOPIC and the matching
      ordering in Compare.tsx), and drops Admissions to the end — it is the one
@@ -116,10 +121,10 @@ export function Home() {
             <a
               key={topic.slug}
               className="topic-cell"
-              href={toCompare(topic.slug, allSlugs)}
+              href={toCompare(topic.slug, compareSlugs)}
               onClick={(e) => {
                 e.preventDefault()
-                navigate(toCompare(topic.slug, allSlugs))
+                navigate(toCompare(topic.slug, compareSlugs))
               }}
             >
               <span className="topic-cell-icon"><TopicGlyph slug={topic.slug} size={20} /></span>
