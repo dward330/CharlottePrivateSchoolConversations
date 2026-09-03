@@ -18,6 +18,7 @@ import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
 import { proseSummary, previewHasGapLanguage, proseIsEmpty, flattenMarkdown } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
+import { COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
 import { financialAidReport, loadFinancialAidReportOverlay } from '../data/financialAidReports.ts'
 import { FinancialAidReportCard } from '../components/FinancialAidReport.tsx'
@@ -470,7 +471,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
   }
 
   const totalDocs = covered.reduce((sum, t) => sum + docCount(t.slug, slug), 0)
-  const otherSlugs = allSchools.map((s) => s.slug)
+  /* The per-topic "compare on this topic" links open on the school being read
+     PLUS the standing default peer set, rather than all eleven columns — a
+     reader arrives beside their own school and a consistent comparison group.
+     Filtering through the manifest keeps column order stable and drops the
+     duplicate when this school is already one of the six. */
+  const compareSlugs = allSchools
+    .map((s) => s.slug)
+    .filter((s) => s === slug || COMPARE_DEFAULT_SCHOOLS.includes(s))
 
   return (
     <div className="page school-page" style={{ ['--brand' as string]: brand.color }}>
@@ -837,8 +845,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   )}
                   <a
                     className="btn"
-                    href={toCompare(t.slug, otherSlugs)}
-                    onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, otherSlugs)) }}
+                    href={toCompare(t.slug, compareSlugs)}
+                    onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, compareSlugs)) }}
                   >
                     {tr('school.compareOn', { topic: topicLabel(tr, t.slug, t.name) })} <ArrowIcon />
                   </a>

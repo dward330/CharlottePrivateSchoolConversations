@@ -4,32 +4,28 @@ import { schools, topics, topicsForSchool, docCount, projectStats, generated, br
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { toSchool, toCompare, useNavigate } from '../lib/router.ts'
-
-function ArrowIcon() {
-  return (
-    <svg
-      width="15"
-      height="15"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path d="M5 12h14M12 5l7 7-7 7" />
-    </svg>
-  )
-}
+import { COMPARE_DEFAULT_TOPIC } from '../lib/metrics.ts'
 
 export function Home() {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const stats = projectStats()
   const allSlugs = schools.map((s) => s.slug)
-  const compareAll = toCompare(topics[0]?.slug ?? null, allSlugs)
+  /* Every cell in this grid links into Compare, so it leads with the same topic
+     Compare itself leads with (see COMPARE_DEFAULT_TOPIC and the matching
+     ordering in Compare.tsx), and drops Admissions to the end — it is the one
+     topic with no Compare value rows, so it is the least useful cell to lead a
+     reader into. Everything between keeps TOPIC_ORDER.
+
+     Done HERE and not in TOPIC_ORDER: that array is the reading order of a
+     school DOSSIER, where Admissions leads deliberately, and reordering it
+     would move College Support to the top of all eleven school pages and push
+     Admissions to the bottom of each. */
+  const homeTopics = [
+    ...topics.filter((x) => x.slug === COMPARE_DEFAULT_TOPIC),
+    ...topics.filter((x) => x.slug !== COMPARE_DEFAULT_TOPIC && x.slug !== 'admissions'),
+    ...topics.filter((x) => x.slug === 'admissions'),
+  ]
 
   return (
     <div className="page home">
@@ -47,23 +43,16 @@ export function Home() {
           <span className="cta-frame">
             <a
               className="btn primary"
-              href={compareAll}
-              onClick={(e) => { e.preventDefault(); navigate(compareAll) }}
+              href="#schools"
+              onClick={(e) => {
+                // The hash router owns location.hash — scroll in place instead.
+                e.preventDefault()
+                document.getElementById('schools')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }}
             >
-              {t('home.ctaCompare')} <ArrowIcon />
+              {t('home.ctaBrowse')}
             </a>
           </span>
-          <a
-            className="btn ghost"
-            href="#schools"
-            onClick={(e) => {
-              // The hash router owns location.hash — scroll in place instead.
-              e.preventDefault()
-              document.getElementById('schools')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-            }}
-          >
-            {t('home.ctaBrowse')}
-          </a>
           <span className="freshness">{t('home.freshness', { date: generated })}</span>
         </div>
         <div className="stat-strip hero-stats">
@@ -123,7 +112,7 @@ export function Home() {
       <section aria-labelledby="topics-h" className="block">
         <h2 id="topics-h">{t('home.topicsHeading')}</h2>
         <div className="topic-grid hairline-grid">
-          {topics.map((topic) => (
+          {homeTopics.map((topic) => (
             <a
               key={topic.slug}
               className="topic-cell"
