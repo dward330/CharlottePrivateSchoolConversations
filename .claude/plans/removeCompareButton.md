@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-09-02
 branch: feat/remove-compare-button
-prs: []
+prs: [269]
 ---
 
 # Remove the home Compare CTA, lead Compare with College Support, default it to six schools
