@@ -277,16 +277,51 @@ const TOPIC_ORDER: string[] = [
  * Admissions has ONE research-coverage row and no Compare value rows (its four
  * figures live in the topic's own data — see the Compare deferral in
  * .claude/plans/admissions.md), so opening there showed a near-empty table and
- * dropped the pre-rendered page under check:seo's byte floor. Course Offerings
- * carries value rows for every school and is what the page opened on before
- * Admissions existed.
+ * dropped the pre-rendered page under check:seo's byte floor. College Support
+ * carries 8 value rows in src/data/metricValues.ts, more than any other topic
+ * (Course Offerings, which this used to be, has 3), so it is the densest
+ * landing table and clears that floor most comfortably.
+ *
+ * Compare.tsx ALSO leads its pill row with this slug, so the leftmost pill is
+ * the one already active on arrival. That ordering is local to Compare.tsx and
+ * deliberately not in TOPIC_ORDER above, which is the reading order of a school
+ * dossier.
  *
  * Read by BOTH the app (Compare.tsx) and scripts/seo_routes.mjs, so the
  * canonical pre-rendered URL and the page a reader actually lands on cannot
  * drift apart — which is the whole reason seo_routes.mjs imports from here
  * rather than re-deriving the order.
  */
-export const COMPARE_DEFAULT_TOPIC = 'course-offerings'
+export const COMPARE_DEFAULT_TOPIC = 'college-support'
+
+/**
+ * The schools a Compare view opens on when the caller names none of its own.
+ *
+ * Two consumers, deliberately sharing one list so they cannot drift:
+ *   - Compare.tsx, for a bare /compare/ with no ?schools= at all. Before this
+ *     existed that URL rendered an empty table.
+ *   - SchoolDetail.tsx, whose per-topic "compare on this topic" link opens with
+ *     the school being read PLUS these six, so a reader lands on their own
+ *     school beside a consistent peer set rather than all eleven columns.
+ *
+ * Applied by those components and deliberately NOT by the router: the canonical
+ * URL in src/lib/head.ts is built from route.schools, and check:seo asserts it
+ * matches what scripts/seo_routes.mjs pre-rendered — which pins the INDEXED
+ * compare URL to all eleven schools. If the router injected these six into
+ * route.schools, a bare /compare/ would declare a six-school canonical while the
+ * sitemap advertised an eleven-school one, and the build would fail.
+ *
+ * An unknown slug here degrades to a missing column rather than a crash: both
+ * consumers filter against the manifest.
+ */
+export const COMPARE_DEFAULT_SCHOOLS: string[] = [
+  'cannon',
+  'charlotte-christian',
+  'charlotte-country-day',
+  'charlotte-latin',
+  'davidson-day',
+  'providence-day'
+]
 
 /** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */
 export function orderTopicSlugs(slugs: string[]): string[] {

@@ -19,7 +19,7 @@ import {
   englishValueOf,
   type ValueMetric,
 } from '../data/metricValues.ts'
-import { COMPARE_DEFAULT_TOPIC } from '../lib/metrics.ts'
+import { COMPARE_DEFAULT_TOPIC, COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 
 type Props = { topic: string | null; schools: string[] }
 
@@ -201,8 +201,15 @@ export function Compare({ topic, schools }: Props) {
     : topics[0]?.slug ?? null
   const activeTopic = topic && topicBySlug(topic) ? topic : defaultTopic
 
+  /* `schools` is [] both when the URL carries no ?schools= at all and when the
+     reader has toggled every pill off. Only the FIRST should fall back to the
+     default — re-applying it on a deliberate deselection would make the pills
+     feel broken. toggleSchool() below always navigates with an explicit
+     (possibly empty) selection, so `cleared` tells the two apart. */
+  const [cleared, setCleared] = useState(false)
+  const wanted = cleared ? [] : schools.length ? schools : COMPARE_DEFAULT_SCHOOLS
   // Keep selection to known slugs, preserving manifest order for stable columns.
-  const selected = allSchools.map((s) => s.slug).filter((slug) => schools.includes(slug))
+  const selected = allSchools.map((s) => s.slug).filter((slug) => wanted.includes(slug))
 
   const setTopic = (t: string) => navigate(toCompare(t, selected))
   const toggleSchool = (slug: string) => {
@@ -210,8 +217,20 @@ export function Compare({ topic, schools }: Props) {
     if (set.has(slug)) set.delete(slug)
     else set.add(slug)
     const next = allSchools.map((s) => s.slug).filter((s) => set.has(s))
+    setCleared(next.length === 0)
     navigate(toCompare(activeTopic, next))
   }
+
+  /* Compare leads with College Support (the topic the page opens on — see
+     COMPARE_DEFAULT_TOPIC), so the leftmost pill is the one already active on
+     arrival. Done HERE and not in TOPIC_ORDER: that array is the reading order
+     of a school DOSSIER, where Admissions leads deliberately, and reordering it
+     would move College Support to the top of all eleven school pages and of the
+     home topic grid. */
+  const compareTopics = [
+    ...topics.filter((x) => x.slug === COMPARE_DEFAULT_TOPIC),
+    ...topics.filter((x) => x.slug !== COMPARE_DEFAULT_TOPIC),
+  ]
 
   const metrics = activeTopic ? metricsForTopic(activeTopic) : []
   const valueMetrics = activeTopic ? valueMetricsForTopic(activeTopic, lang) : []
@@ -229,7 +248,7 @@ export function Compare({ topic, schools }: Props) {
         <fieldset className="control">
           <legend>{t('compare.topicLegend')}</legend>
           <div className="pill-row">
-            {topics.map((topic) => (
+            {compareTopics.map((topic) => (
               <button
                 key={topic.slug}
                 type="button"
