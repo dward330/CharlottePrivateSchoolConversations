@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-09-03
 branch: feat/seogaps
-prs: []
+prs: [272]
 ---
 
 # Close the four SEO reach gaps
