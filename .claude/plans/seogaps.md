@@ -1,7 +1,7 @@
 ---
 name: seogaps
 title: Close the four SEO reach gaps — head-level hreflang, social cards, school-to-school links, and a 404 fallback
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-03
 branch: feat/seogaps
@@ -383,3 +383,66 @@ and `PROSE_TRANSLATED` are **not** involved and no overlay rebuild is needed.
   what that gate is for.
 - **404 page localization.** **Default:** English-only (Phase 2, option (a)) — recorded as a
   decision so a later i18n pass does not treat it as a bug.
+
+
+## Implementation notes
+
+### Phase 2 (locales) — 2026-09-03
+
+**Two chrome keys shipped, not one.** The plan's step 4 anticipated a single heading key
+(`school.moreSchools`); Phase 1 also added `school.cityState` (`"{{city}}, NC"`) for the
+sub-label under each school name in the row. Both were translated into the nine non-English
+catalogs. No `src/data` prose moved, so the overlay layer and `PROSE_TRANSLATED` were not
+involved, exactly as the plan predicted.
+
+**Per-locale renderings follow each catalog's OWN existing precedent, not a fresh
+translation.** Two conventions were already settled in these catalogs and were mirrored
+rather than re-decided:
+
+- *"Charlotte-area"* — each locale has an established phrasing in `nav.footerDisclaimer`
+  and `home.lede` (`del área de Charlotte`, `nan zòn Charlotte`, `de la région de
+  Charlotte`, `dell'area di Charlotte`, `منطقة شارلوت`, `منطقهٔ شارلوت`, `Charlotte
+  ప్రాంతంలోని`, `Charlotte क्षेत्र के`, `Charlotte এলাকার`). Each was reused verbatim.
+- *Latin vs. native script for "Charlotte"* — `bn`/`te`/`hi` keep the searchable Latin
+  `Charlotte` in these keys; `fa`/`ar` transliterate (`شارلوت`). Each locale's own dominant
+  pattern was followed.
+
+**`cityState` is the direct analogue of `school.dossierKicker`**, which already renders
+`{{city}}, NC` per locale — so it inherits that key's two established divergences: `ar`
+expands `NC` to `نورث كارولاينا`, and both `ar` and `fa` use the Arabic comma `،`. Every
+other locale keeps the bare `NC`.
+
+**A key-ordering pass silently deleted Arabic's plural forms, and was reverted.** The first
+attempt normalised each catalog's `school.*` key order against `en.json`. Arabic carries
+**six CLDR plural categories** (`_zero`/`_one`/`_two`/`_few`/`_many`/`_other`) across
+`divisions`, `subAreas`, `subDocs` and `topics`, where `en.json` has only `_one`/`_other` —
+so filtering by English's key list dropped **16 Arabic keys**, breaking pluralization in a
+way `tsc`, `npm run build` and `check:chrome` all pass on. Redone as an insert-only edit:
+the final diff is **+18 lines and 0 deletions** across the nine files, and Arabic's
+`school.*` went 39 → 41 keys with all 24 plural forms verified intact.
+
+**`npm run check:chrome` is NOT a sufficient gate for this, despite the plan naming it as
+one.** It audits *skip-field promises* — that a field skipped by the prose extractor
+resolves to an `afterSchool.day_*`-style key in all ten catalogs — and knows nothing about
+an arbitrary new `school.*` key. It passes identically before and after this change. The
+real gate used was an explicit assertion that both keys exist, are non-empty, and retain
+their `{{city}}` interpolation in all ten catalogs. Worth fixing in the checker separately;
+kept out of this diff as out of scope.
+
+**Plan step 2 — 404 localization: option (a), English-only, as defaulted.**
+`public/404.html` ships English-only. It is a static file outside React that must render
+with no JavaScript, and option (b)'s inline `csc.lang` swap would reintroduce the
+English-flash class of bug the pre-paint guard exists to prevent. Recorded here so a later
+i18n pass treats it as a decision rather than a gap.
+
+**Plan step 3 — the OG cards are English-only**, matching the English-only pre-rendered
+pages. Likewise not a gap.
+
+**Verification.** `npx tsc --noEmit` clean; `npm run build` exit 0 (which chains
+`check:seo`, `check:live` and `check:schema`); `check:chrome` exit 0; `check:runtime` and
+`check:live` both **unchanged at 12,329 entries × 9 locales**, confirming no overlay was
+touched. Browser check (Playwright, `npm run preview`) covered **all nine** locales — the
+plan asked for three. The heading renders translated in every one, the row holds 10 cards,
+`body` is visible (the pre-paint guard cleared), and badges stay 40×40. Both RTL locales
+genuinely **mirror**: the first card sits at x=944 versus x=48 in English, and the badge
+flips to the right of the text.
