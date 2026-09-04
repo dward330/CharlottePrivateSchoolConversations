@@ -20,6 +20,12 @@
  *   6. sitemap.xml lists exactly the routes that exist on disk — no more, no less
  *   7. sitemap hreflang alternates cover every locale in TRANSLATED
  *   8. robots.txt exists and names the sitemap
+ *   9. og:image / twitter:image agree, are absolute, exist on disk, and DIFFER
+ *      across school pages (one shared card for all 13 must fail)
+ *  10. every page carries the full <link rel="alternate" hreflang> set in
+ *      <head>, each href EQUAL to urlFor() — the sitemap's own function, so
+ *      head/sitemap drift is loud rather than silent
+ *  11. dist/404.html exists, reads without JavaScript, and is noindex
  *
  * Usage: node scripts/check_seo.mjs [--quiet]
  * Exit codes: 0 = clean, 1 = problems found, 2 = script/setup error.
@@ -98,6 +104,8 @@ if (!existsSync(DIST)) {
 
 // --- 1-5. Per-page checks -------------------------------------------------
 const titles = new Map()
+/** route path -> og:image URL, checked for distinctness after the loop. */
+const ogImages = new Map()
 
 for (const route of ROUTES) {
   const file = join(DIST, route.path, 'index.html')
@@ -146,6 +154,90 @@ for (const route of ROUTES) {
     }
   }
 
+  // --- 9. Social cards are per-route, not one shared square ----------------
+  // These pages declare twitter:card = summary_large_image, which expects a
+  // ~1200×630 landscape image. All 13 used to point at the 256×256 site logo,
+  // so every Facebook/iMessage/Slack share rendered the same cropped square.
+  // Collected here and checked for DISTINCTNESS after the loop — the previous
+  // state (13 identical URLs) must fail.
+  const ogImage = attr(
+    html,
+    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']*)["']/i,
+  )
+  const twImage = attr(
+    html,
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']*)["']/i,
+  )
+  if (!twImage) fail(`${route.path} — missing twitter:image`)
+  else if (!twImage.startsWith('http')) {
+    fail(`${route.path} — twitter:image is relative ("${twImage}")`)
+  } else if (ogImage && twImage !== ogImage) {
+    // A page whose two image tags disagree gets a different card on Twitter/X
+    // than everywhere else — a divergence nobody notices without two previews.
+    fail(`${route.path} — twitter:image "${twImage}" ≠ og:image "${ogImage}"`)
+  }
+  if (ogImage) ogImages.set(route.path, ogImage)
+
+  // The referenced card must actually be on disk. og:image is absolute, so map
+  // it back to a dist/ path; a 404 image means a silently blank social preview.
+  if (ogImage && ogImage.startsWith(SITE_ORIGIN)) {
+    const rel = ogImage.slice(SITE_ORIGIN.length)
+    const onDisk = join(DIST, decodeURIComponent(rel))
+    if (!existsSync(onDisk)) {
+      fail(`${route.path} — og:image ${rel} is not in dist/ (blank social preview)`)
+    }
+  }
+
+  // --- 10. Head-level hreflang ---------------------------------------------
+  // hreflang used to live ONLY in sitemap.xml. Google accepts that; Bing
+  // largely does not, so nine translated locales were under-advertised to
+  // every engine but one. Each page must now carry the full set in <head>.
+  //
+  // The href EQUALITY check below is the important one: if the head and the
+  // sitemap name different URLs for the same page, search engines resolve the
+  // contradiction by ignoring BOTH annotations. Comparing against urlFor() —
+  // the very function that builds the sitemap — is what makes drift loud.
+  const alts = new Map()
+  for (const m of html.matchAll(
+    /<link[^>]+rel=["']alternate["'][^>]*>/gi,
+  )) {
+    const tag = m[0]
+    const lang = attr(tag, /hreflang=["']([^"']*)["']/i)
+    const href = attr(tag, /href=["']([^"']*)["']/i)
+    if (!lang) continue
+    if (alts.has(lang)) fail(`${route.path} — duplicate hreflang="${lang}"`)
+    alts.set(lang, href)
+  }
+
+  for (const lang of LOCALES) {
+    if (!alts.has(lang)) {
+      fail(`${route.path} — no <link rel="alternate" hreflang="${lang}">`)
+      continue
+    }
+    const expected = urlFor(route, lang)
+    if (alts.get(lang) !== expected) {
+      fail(
+        `${route.path} — hreflang="${lang}" href is "${alts.get(lang)}", ` +
+          `expected "${expected}" (head/sitemap drift)`,
+      )
+    }
+  }
+  if (!alts.has('x-default')) {
+    fail(`${route.path} — no <link rel="alternate" hreflang="x-default">`)
+  } else if (alts.get('x-default') !== urlFor(route)) {
+    fail(
+      `${route.path} — x-default href is "${alts.get('x-default')}", ` +
+        `expected "${urlFor(route)}"`,
+    )
+  }
+  // Catches a locale advertised in the head that no longer ships.
+  const expectedLangs = new Set([...LOCALES, 'x-default'])
+  for (const lang of alts.keys()) {
+    if (!expectedLangs.has(lang)) {
+      fail(`${route.path} — hreflang="${lang}" is not in LOCALES`)
+    }
+  }
+
   const canonical = attr(html, /<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']*)["']/i)
   if (!canonical) fail(`${route.path} — no <link rel="canonical">`)
   else if (!canonical.startsWith('http')) {
@@ -188,6 +280,61 @@ for (const route of ROUTES) {
     // this is the no-JS test in miniature: content present before any script runs.
     if (!html.includes(route.school.name.split(' ')[0])) {
       fail(`${route.path} — "${route.school.name}" absent from the pre-rendered HTML`)
+    }
+  }
+}
+
+// --- 9b. Social cards must actually differ --------------------------------
+// The regression this guards is exact and has already happened: before this
+// plan, ONE module constant fed og:image on all 13 pages, so every share of
+// every page rendered the same image. Requiring distinct SCHOOL cards is what
+// makes that state fail; home and compare are allowed to be whatever they are.
+{
+  const schoolPaths = ROUTES.filter((r) => r.school).map((r) => r.path)
+  const seen = new Map()
+  for (const p of schoolPaths) {
+    const img = ogImages.get(p)
+    if (!img) continue
+    if (seen.has(img)) {
+      fail(`${p} — og:image "${img}" is shared with ${seen.get(img)}; cards must be per-school`)
+    } else seen.set(img, p)
+  }
+}
+
+// --- 11. 404.html, the SPA fallback ---------------------------------------
+// GitHub Pages serves this for any unmatched path. Without it a pasted
+// /school/<slug>/admissions-checklist/ link dead-ends on GitHub's own error
+// page — the route is real in router.ts but deliberately not pre-rendered.
+// It is NOT in ROUTES or the sitemap: it fixes reachability, not indexability.
+{
+  const p404 = join(DIST, '404.html')
+  if (!existsSync(p404)) {
+    fail('404.html — missing from dist/ (deep links to unrendered routes dead-end)')
+  } else {
+    const html = readFileSync(p404, 'utf8')
+    const bytes = Buffer.byteLength(html, 'utf8')
+    // Far below MIN_BYTES on purpose: this is a hand-written static page, not a
+    // pre-rendered dossier. The floor only catches a truncated or empty file.
+    if (bytes < 1_000) fail(`404.html — only ${bytes} B; looks empty or truncated`)
+    // It must READ as a page with scripting off, so the copy has to be in the
+    // markup rather than written by the boot script.
+    if (!/<h1[^>]*>/i.test(html)) fail('404.html — no <h1>; must render without JavaScript')
+    if (!/href=["']\/["']/.test(html)) fail('404.html — no link back to the home page')
+    // Copying index.html's pre-paint guard here would leave the page blank
+    // forever: src/lib/i18n.ts clears that attribute and never runs on 404.html.
+    //
+    // Matches the attribute in a TAG or a setAttribute call, deliberately NOT a
+    // bare occurrence of the string: 404.html documents in a comment why it must
+    // not carry this, and a check that fires on its own explanation teaches the
+    // next reader to delete the explanation.
+    if (
+      /<[a-z][^>]*\sdata-i18n-pending/i.test(html) ||
+      /setAttribute\(\s*['"]data-i18n-pending/.test(html)
+    ) {
+      fail('404.html — carries data-i18n-pending; nothing clears it here, page stays blank')
+    }
+    if (!/name=["']robots["'][^>]*noindex/i.test(html)) {
+      fail('404.html — no <meta name="robots" content="noindex">')
     }
   }
 }

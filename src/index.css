@@ -795,6 +795,69 @@ main { flex: 1; }
   margin-top: 28px;
   align-items: start;
 }
+
+/* ---- "More Charlotte-area schools" — the school-to-school links row ----
+   Sits after .dossier-layout at the bottom of every school page. The badge
+   reuses the page header's monogram at 40px rather than 84, so the row reads
+   as navigation and not as eleven competing headers.
+
+   --sbrand is set PER CARD to the linked school's color, so a card is never
+   tinted with the current page's --brand. */
+.more-schools {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.more-schools-heading {
+  margin: 0 0 18px;
+  font-size: 24px;
+}
+.more-schools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 10px;
+}
+.more-schools-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.more-schools-card:hover {
+  border-color: var(--sbrand);
+  background: color-mix(in srgb, var(--sbrand) 6%, transparent);
+}
+.more-schools-card:focus-visible {
+  outline: 2px solid var(--sbrand);
+  outline-offset: 2px;
+}
+.more-schools-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.more-schools-name {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 1.25;
+}
+.more-schools-city {
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+/* A navigation row is noise in a printed dossier — and it would print as
+   eleven dead links. Matches how .dossier-nav is handled. */
+@media print {
+  .more-schools { display: none; }
+}
 .dossier-nav {
   position: sticky;
   top: 76px;

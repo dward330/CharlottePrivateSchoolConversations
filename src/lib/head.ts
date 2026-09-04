@@ -16,6 +16,7 @@
 import type { Route } from './router.ts'
 import { schoolBySlug, topics } from './manifest.ts'
 import { BRANDS } from '../data/brands.ts'
+import { TRANSLATED } from './i18n.ts'
 
 /**
  * The public origin. Social scrapers and search engines require ABSOLUTE URLs
@@ -29,7 +30,27 @@ const SITE_NAME = 'Charlotte School Insights'
 const DEFAULT_TITLE = SITE_NAME
 const DEFAULT_DESCRIPTION =
   'Compare Charlotte-area private schools across sports, the arts, student clubs, and college support.'
-const OG_IMAGE = `${SITE_ORIGIN}/logo.png`
+/**
+ * Per-route social card, generated at build time by scripts/gen_og_images.mjs
+ * into dist/og/<name>.png at 1200×630.
+ *
+ * These pages declare `twitter:card = summary_large_image`, which expects a
+ * ~1200×630 landscape image. The old value here was the 256×256 site logo for
+ * ALL 13 pages, so every Facebook, iMessage and Slack share rendered the same
+ * cropped or letterboxed square — and Facebook is this site's #2 referrer.
+ *
+ * Returns an ABSOLUTE URL: social scrapers silently ignore a relative one,
+ * which is the whole failure mode SITE_ORIGIN exists to avoid. check_seo.mjs
+ * asserts both that these are absolute and that school pages DIFFER from each
+ * other, so a regression back to one shared image fails the check.
+ */
+function ogImageFor(route: Route): string {
+  if (route.name === 'school' && schoolBySlug(route.slug)) {
+    return `${SITE_ORIGIN}/og/${encodeURIComponent(route.slug)}.png`
+  }
+  if (route.name === 'compare') return `${SITE_ORIGIN}/og/compare.png`
+  return `${SITE_ORIGIN}/og/home.png`
+}
 
 /**
  * Search engines truncate a meta description at roughly 160 characters, so the
@@ -183,6 +204,61 @@ function setMeta(attr: 'name' | 'property', key: string, content: string): void 
   el.setAttribute('content', content)
 }
 
+/**
+ * The per-locale URLs for one route's canonical path, as [hreflang, href].
+ *
+ * MUST agree byte-for-byte with `urlFor(route, lang)` in scripts/seo_routes.mjs,
+ * which builds the sitemap's alternates. The head and the sitemap naming
+ * different URLs for the same page is a contradiction search engines resolve by
+ * ignoring BOTH annotations — so check_seo.mjs asserts equality against that
+ * function rather than trusting this comment.
+ *
+ * The logic is duplicated rather than shared because seo_routes.mjs is a build
+ * script under scripts/ and this is app code under src/; importing across that
+ * boundary drags the manifest-reading script into the browser bundle. The
+ * duplication is small, and the check makes the drift loud.
+ *
+ * Two details that are easy to get wrong, both mirroring seo_routes.mjs:
+ *   - English is the DEFAULT and clears ?lang= (see syncUrl() in i18n.ts), so
+ *     the English alternate is the BARE canonical URL, not `?lang=en`.
+ *   - A path that already carries a query — Compare — joins with '&', not a
+ *     second '?'. That is exactly where a hand-rolled version diverges.
+ *
+ * The set is SELF-REFERENTIAL: English lists itself, which Google requires.
+ * `x-default` points at the bare English URL.
+ */
+export function alternateUrls(path: string): Array<[string, string]> {
+  const base = SITE_ORIGIN + path
+  const join = path.includes('?') ? '&' : '?'
+  const out: Array<[string, string]> = TRANSLATED.map((lang) => [
+    lang,
+    lang === 'en' ? base : `${base}${join}lang=${lang}`,
+  ])
+  out.push(['x-default', base])
+  return out
+}
+
+/**
+ * Replace the whole <link rel="alternate" hreflang> set for a route.
+ *
+ * Removes every existing node before appending, rather than updating in place:
+ * an in-app navigation must not leave a previous page's alternates behind, and
+ * setLink() cannot help here because it keys on `rel` alone (it manages the
+ * canonical) and so can only ever hold ONE link per rel value.
+ */
+function setAlternates(path: string): void {
+  for (const el of document.head.querySelectorAll('link[rel="alternate"][hreflang]')) {
+    el.remove()
+  }
+  for (const [lang, href] of alternateUrls(path)) {
+    const el = document.createElement('link')
+    el.setAttribute('rel', 'alternate')
+    el.setAttribute('hreflang', lang)
+    el.setAttribute('href', href)
+    document.head.appendChild(el)
+  }
+}
+
 /** Set (creating if absent) a <link rel="…"> tag. */
 function setLink(rel: string, href: string): void {
   let el = document.head.querySelector<HTMLLinkElement>(`link[rel="${rel}"]`)
@@ -220,21 +296,28 @@ export function setPageMeta(route: Route): void {
   const meta = metaForRoute(route)
   const canonical = SITE_ORIGIN + meta.path
 
+  const ogImage = ogImageFor(route)
+
   document.title = meta.title
   setMeta('name', 'description', meta.description)
   setLink('canonical', canonical)
+  setAlternates(meta.path)
 
   setMeta('property', 'og:title', meta.title)
   setMeta('property', 'og:description', meta.description)
   setMeta('property', 'og:url', canonical)
-  setMeta('property', 'og:image', OG_IMAGE)
+  setMeta('property', 'og:image', ogImage)
+  setMeta('property', 'og:image:width', '1200')
+  setMeta('property', 'og:image:height', '630')
   setMeta('property', 'og:type', 'website')
   setMeta('property', 'og:site_name', SITE_NAME)
 
   setMeta('name', 'twitter:card', 'summary_large_image')
   setMeta('name', 'twitter:title', meta.title)
   setMeta('name', 'twitter:description', meta.description)
-  setMeta('name', 'twitter:image', OG_IMAGE)
+  // Kept in step with og:image deliberately — a page whose two image tags
+  // disagree gets a different card on Twitter/X than everywhere else.
+  setMeta('name', 'twitter:image', ogImage)
 
   setJsonLd(meta.jsonLd)
 }
