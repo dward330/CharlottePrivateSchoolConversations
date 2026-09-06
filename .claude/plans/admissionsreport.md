@@ -317,7 +317,9 @@ into the PDF as source material**, so explaining a term is quoting the source, n
 Pearson for the Wechsler scales, ERB for the ISEE, Clarity and FACTS for the platforms —
 with its provenance header and source URLs, per the data-provenance standard.
 
-**Render it as §9 of the PDF**, after the sources, titled *Appendix: what these terms mean*.
+**Render it as §9 of the PDF**, after the sources, titled **"What these terms mean"** —
+NOT "Appendix", and never lettered. See the naming rule below; the word "appendix" is
+reserved for the prompt page the episode must ignore.
 Include **only the terms that school's data actually uses** — Hickory Grove uses one (FACTS),
 so its report carries one entry, not nine. Detect them by scanning the school's serialized
 guide for each term.
@@ -335,6 +337,27 @@ prompt must inherit — most importantly **no difficulty claims, no preparation 
 score ranges or cutoffs.** No school in this project publishes an admissions score
 threshold; inventing one is the worst available failure. And the cognitive assessments are
 not revisable — implying otherwise would push a parent to coach a four-year-old.
+
+### ⛔ Naming rule — "Appendix" means the prompt page, and NOTHING else
+
+The PDF ends with two things that are easy to conflate, and the prompt gives them
+**opposite** instructions:
+
+| Where | What it holds | The episode must |
+|---|---|---|
+| **§9 — "What these terms mean"** | the jargon glossary | **USE it** — it is source material |
+| **Appendix A** | the NotebookLM prompt itself | **IGNORE it** — it is instructions, not facts |
+
+So the word **"appendix" is reserved for the prompt page.** Title §9 exactly
+**"What these terms mean"** — never "Appendix", never a letter, never "Appendix B". The
+prompt says *"IGNORE APPENDIX A"*, and a glossary carrying the same noun invites exactly
+one of two failures: the hosts read your production instructions aloud, or they refuse to
+explain the jargon they were just told to explain.
+
+Put §9 **before** Appendix A in the PDF, so the last page is unambiguously the fenced
+prompt and everything above it is source material. And keep the fencing visually distinct —
+Appendix A should look like a boxed, labeled block that does not resemble the report's
+other sections.
 
 ### Playwright is already available
 
@@ -571,14 +594,14 @@ The whole generator, one file. Structure it as:
 4. **Build the HTML** — one template function per section (§1–§9 in the table above), plus
    the fenced Appendix A carrying the prompt.
 
-   **§9 is the jargon appendix**, built by parsing
+   **§9 is the jargon section**, built by parsing
    `source-material/admissions/_shared/Admissions - Shared - Terminology Glossary.md` and
    emitting **only the entries whose term appears in this school's guide.** Detect by
    scanning `JSON.stringify(guide)` for each term key (`WPPSI`, `WISC`, `ISEE`, `SSAT`,
    `ERB`, `CTP`, `CAIS`, `Clarity`, `FACTS`, plus the school's portal name). Verified
    counts at planning time: charlotte-latin 6 terms, charlotte-country-day 5,
    charlotte-christian 4, covenant-day 4, providence-day 4, **hickory-grove-christian 1**.
-   A nine-entry appendix on a school that uses one term invites the hosts to explain tests
+   A nine-entry section on a school that uses one term invites the hosts to explain tests
    that school does not use.
 
    **Match on word boundaries, not bare substrings.** `ERB` and `CTP` are three-letter
@@ -706,8 +729,14 @@ SOURCE: the attached PDF is the complete and ONLY source. It is a research diges
 add facts from your own knowledge about this school, its reputation, its academics, its
 athletics, or its cost. If the PDF does not say it, it does not go in the episode.
 
-IGNORE APPENDIX A of the PDF. It contains these instructions, not information about the
-school. Never read it aloud or treat it as source material.
+IGNORE APPENDIX A of the PDF — the final, boxed page. It contains these instructions, not
+information about the school. Never read it aloud, never describe the episode's own
+structure, and never treat it as source material.
+
+Everything ELSE in the PDF is source material and should be used — including the section
+titled "What these terms mean", which defines the tests and platforms this school's process
+uses. That section is NOT the appendix and must not be skipped: it is how you explain the
+jargon without inventing anything.
 
 EPISODE PURPOSE — read this twice. This is a practical HOW TO APPLY guide for a parent who
 has already decided to apply and now needs to get it done. It is NOT a review of the
@@ -783,7 +812,7 @@ THEN RUN THESE SEGMENTS IN THIS ORDER:
      - the deadline for each step, spoken as a full date
      - which assessment or screening the child sits, BY NAME AND THEN EXPLAINED — the
        first time a test is named, say in one or two plain sentences what it actually is
-       and what it looks at, using the PDF's "what these terms mean" appendix. "Your child
+       and what it looks at, using the PDF's "What these terms mean" section. "Your child
        sits the WPPSI-IV" alone tells a parent nothing and may worry them; "the WPPSI-IV,
        which is a one-to-one session with a psychologist looking at how a young child
        reasons and solves problems — not a test of what they've been taught, and not
@@ -800,7 +829,8 @@ THEN RUN THESE SEGMENTS IN THIS ORDER:
    not affect the admission decision where the PDF says so. Do not discuss whether the
    school is worth the money — that is not this episode.
    NAME AND EXPLAIN THE PLATFORM the school uses. A parent told to "apply through Clarity"
-   does not know what Clarity is. Use the PDF's appendix: Clarity is a financial-aid
+   does not know what Clarity is. Use the PDF's "What these terms mean" section: Clarity
+   is a financial-aid
    application platform, separate from the admissions application, notable for verifying
    tax data directly with the IRS rather than making families upload returns. FACTS is a
    broader platform that a school may use for the application, the aid assessment and
@@ -860,8 +890,8 @@ HARD RULES:
   it is not published, say that it is not published.
 - EXPLAIN THE JARGON, FROM THE APPENDIX ONLY. The PDF's final section, "What these terms
   mean", defines every test, platform and acronym this school's process uses. Explain each
-  term the first time it is spoken, in one or two plain sentences drawn from that appendix.
-  This is not an exception to the no-invention rule — the appendix IS part of the source
+  term the first time it is spoken, in one or two plain sentences drawn from that section.
+  This is not an exception to the no-invention rule — that section IS part of the source
   document. What remains forbidden is going beyond it: do not add facts about a test from
   your own knowledge, however confident you are.
 - Four things you must NEVER say about an assessment, even if asked to explain it well:
@@ -1026,6 +1056,8 @@ first thing to check when listening back.
 - [ ] No raw `**` in any PDF (the post-render assertion fires on regression)
 - [ ] Bold rendered in `steps[].detail`, `watchOuts[].text`, `aid.text` — and nowhere else
 - [ ] Appendix A is byte-identical to the `.txt`
+- [ ] §9 is titled "What these terms mean" — the word "Appendix" appears nowhere but on the
+      prompt page, and §9 sits BEFORE Appendix A
 
 ## To build this
 
