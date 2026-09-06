@@ -28,10 +28,12 @@ The generator reads a school's **Admissions** research area and writes two files
   holding every admissions fact the app knows about that school: the entry bands, the
   ordered application steps, the deadline tiles, the cross-band comparison table, the
   watch-outs, the financial-aid parallel note, the admissions-office contacts, and the
-  source URLs. Its final page is a clearly fenced **Appendix A** carrying the NotebookLM
-  prompt.
-- `reports/admissions/<slug>-notebooklm-prompt.txt` — the same prompt as plain text, to
-  paste into NotebookLM without dragging a selection across a PDF.
+  source URLs, and a closing section explaining the tests and platforms that school's
+  process uses. **Every page of it is source material meant to be read** — it carries no
+  instructions to NotebookLM at all.
+- `reports/admissions/<slug>-notebooklm-prompt.txt` — the NotebookLM prompt, as plain text
+  to paste into the Audio Overview customize box. **Deliberately NOT in the PDF** — see the
+  separation rule below.
 
 Upload the PDF to a NotebookLM notebook, paste the prompt, and it produces a
 *Charlotte Private School Conversations* episode that walks a parent through **how to
@@ -104,7 +106,7 @@ Answered by the user at planning time on 2026-09-06:
 | Band coverage | **All bands in one report**, one PDF per school. The prompt gives each band its own episode segment. |
 | Episode length | **~15–20 minutes**, a standard deep dive. |
 | Output location | `reports/admissions/`, **gitignored** — regenerate from data, never commit a stale binary. |
-| Prompt delivery | **Both** — printed inside the PDF as a fenced Appendix A, *and* written as a separate `.txt`. |
+| Prompt delivery | **A separate `.txt` ONLY.** Revised 2026-09-06 (user's call): anything NotebookLM must not treat as source material does not go in the uploaded file at all. |
 
 And from a mid-planning clarification by the user, which shapes the whole prompt:
 
@@ -317,7 +319,7 @@ into the PDF as source material**, so explaining a term is quoting the source, n
 Pearson for the Wechsler scales, ERB for the ISEE, Clarity and FACTS for the platforms —
 with its provenance header and source URLs, per the data-provenance standard.
 
-**Render it as §9 of the PDF**, after the sources, titled *Appendix: what these terms mean*.
+**Render it as §9 of the PDF**, after the sources, titled **"What these terms mean"**.
 Include **only the terms that school's data actually uses** — Hickory Grove uses one (FACTS),
 so its report carries one entry, not nine. Detect them by scanning the school's serialized
 guide for each term.
@@ -335,6 +337,33 @@ prompt must inherit — most importantly **no difficulty claims, no preparation 
 score ranges or cutoffs.** No school in this project publishes an admissions score
 threshold; inventing one is the worst available failure. And the cognitive assessments are
 not revisable — implying otherwise would push a parent to coach a four-year-old.
+
+### ⛔ The PDF is source material ONLY — the prompt is never in it
+
+**Settled 2026-09-06 (user's call), and it supersedes the original "print it in both places"
+decision.** The prompt lives in the `.txt` and nowhere else.
+
+The reasoning generalises past this feature: **anything NotebookLM must not treat as source
+material does not go into the file NotebookLM ingests.** The earlier design printed the
+prompt as a fenced "Appendix A" and instructed the model to ignore it — which made correct
+output depend on a generative tool obeying an instruction not to read part of its own
+source. Removing the page removes the dependency. There is nothing to disobey.
+
+Two things this also fixed, which are the reason to keep it this way:
+
+- **A naming collision.** §9 ("What these terms mean") must be USED; Appendix A must be
+  IGNORED. With both called an appendix, the two plausible failures were the hosts reading
+  production instructions aloud, or skipping the glossary they were just told to use.
+- **A drift risk.** The prompt existed in two places that had to stay byte-identical.
+
+So: the PDF ends at §9. Every page of it is meant to be read. If a future change wants to
+put *any* instruction-shaped text in front of NotebookLM, that is the signal it belongs in
+the `.txt`, not the PDF.
+
+**One consequence to accept:** the PDF is no longer self-documenting — someone finding it
+in six months cannot see what prompt produced the episode. That is the intended trade.
+Mitigate it in the `.txt` instead: open that file with a comment line naming the school, the
+entry cycle, and the generation date, so the pair can be matched up.
 
 ### Playwright is already available
 
@@ -568,8 +597,8 @@ The whole generator, one file. Structure it as:
    no-data gate above.
 3. **Import the data** — `await import('../src/data/admissionsPrograms/<slug>.ts')`, take
    `Object.values(mod)[0].guide`.
-4. **Build the HTML** — one template function per section (§1–§9 in the table above), plus
-   the fenced Appendix A carrying the prompt.
+4. **Build the HTML** — one template function per section (§1–§9 in the table above).
+   **No prompt page.** The PDF ends at §9; nothing in it addresses NotebookLM.
 
    **§9 is the jargon appendix**, built by parsing
    `source-material/admissions/_shared/Admissions - Shared - Terminology Glossary.md` and
@@ -588,8 +617,8 @@ The whole generator, one file. Structure it as:
    positive here is not cosmetic — it makes the hosts explain a test the child will not sit.
 5. **Build the prompt string** — one function, `buildPrompt(school, guide)`, returning the
    text in "The NotebookLM prompt" below with the school name, cycle, band count and band
-   labels interpolated. **The same string** is used for Appendix A and the `.txt`, so they
-   can never drift.
+   labels interpolated. It is written to the `.txt` and **nowhere else** — it never enters
+   the PDF, so the two can never disagree about what NotebookLM is told.
 6. **Render** — Playwright → `page.pdf()`.
 7. **Write** both files; print their paths and sizes unless `--quiet`.
 
@@ -683,7 +712,8 @@ npm run build
 - 4 sources, URLs intact and not truncated mid-line
 - the cycle `2026–27 entry cycle` in the header of **every** page
 - **no raw `**` markdown anywhere**
-- Appendix A present, fenced, and byte-identical to the `.txt`
+- **No prompt text anywhere in the PDF** — grep the rendered HTML for a distinctive phrase
+  from the prompt (e.g. "EPISODE PURPOSE") and expect zero hits
 
 Then open `hickory-grove-christian` (5 bands — the widest comparison table) and
 `charlotte-latin` (bands missing `sublabel`, bands with zero watch-outs) to confirm the
@@ -706,8 +736,10 @@ SOURCE: the attached PDF is the complete and ONLY source. It is a research diges
 add facts from your own knowledge about this school, its reputation, its academics, its
 athletics, or its cost. If the PDF does not say it, it does not go in the episode.
 
-IGNORE APPENDIX A of the PDF. It contains these instructions, not information about the
-school. Never read it aloud or treat it as source material.
+EVERY PAGE of the PDF is source material and should be used — it contains no instructions
+to you, only facts about the school. That includes its final section, "What these terms
+mean", which defines the tests and platforms this school's process uses; do not skip it, it
+is how you explain the jargon without inventing anything.
 
 EPISODE PURPOSE — read this twice. This is a practical HOW TO APPLY guide for a parent who
 has already decided to apply and now needs to get it done. It is NOT a review of the
@@ -983,11 +1015,14 @@ budget.
 
 ## Risks
 
-**NotebookLM reads Appendix A aloud.** The prompt tells it not to, and the appendix is
-fenced and labeled — but this is a generative tool and instruction-following is not
-guaranteed. If it happens on the first test, the fix is to drop Appendix A from the PDF and
-ship the prompt only as `.txt`; the `.txt` is written either way, so nothing is lost. Test
-this on the first real generation and record the result in the PR.
+**~~NotebookLM reads the prompt aloud.~~ ELIMINATED 2026-09-06, not mitigated.** The
+original design printed the prompt into the PDF as a fenced "Appendix A" and told
+NotebookLM to ignore it. That was a *managed* risk — it depended on a generative tool
+obeying an instruction not to read part of its own source, which is not guaranteed. The
+user's call was to remove the page instead: **anything NotebookLM must not treat as source
+material is not in the uploaded file at all.** There is now nothing to disobey, and the
+naming collision it created (a glossary "Appendix" beside an ignored "Appendix A") stops
+existing too. Do not re-add a prompt page to the PDF.
 
 **A wide comparison table overflows.** Hickory Grove's 5 bands make a 6-column table on
 Letter portrait. Check it visually; if it overflows, either rotate that one section to
@@ -1025,7 +1060,7 @@ first thing to check when listening back.
 - [ ] §9 carries no score range, no difficulty claim, and no preparation advice
 - [ ] No raw `**` in any PDF (the post-render assertion fires on regression)
 - [ ] Bold rendered in `steps[].detail`, `watchOuts[].text`, `aid.text` — and nowhere else
-- [ ] Appendix A is byte-identical to the `.txt`
+- [ ] The PDF contains NO prompt text — asserted in the script, not just eyeballed
 
 ## To build this
 
