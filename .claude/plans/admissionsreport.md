@@ -428,6 +428,52 @@ Exit code 2. **Write no files** — not a stub PDF, not an empty prompt.
 Derive the school's display name from `schools.json` for the message. Do not hardcode
 eleven names.
 
+## Adding a school later — what happens, and what does not
+
+The roster is **six of eleven today and will grow**, so this is a standing question rather
+than a hypothetical.
+
+**Nothing about this feature needs changing when a school is added.** Provided the new
+school has an Admissions research area, `/admissions-episode` picks it up automatically —
+the script reads `src/data/admissionsPrograms/` at run time, and the glossary section
+filters itself to whatever terms that school's data actually uses. No edit to the script,
+the command, the prompt, or the glossary.
+
+**The actual gate is the Admissions research area, not the school.** Those are two separate
+pieces of work, and the distinction matters:
+
+| What was done | Does `/admissions-episode` work? |
+|---|---|
+| School added to the app (`/add-school` → `/implement`) | **No** — a school page does not imply admissions data |
+| Its Admissions card built (`src/data/admissionsPrograms/<slug>.ts` with a `guide`) | **Yes**, immediately |
+
+A school can sit in the app for months with seven research areas and no Admissions one —
+five do today. Registering a school in `PROGRAMS` in `admissionsPrograms.ts` is a
+deliberate act with its own research pass behind it, which is exactly why the no-data gate
+exists and why it names the missing *research area* rather than saying "unknown school".
+
+**So the sequence for a brand-new school is:**
+
+1. `/add-school` → `/implement` — the school and its research areas
+2. Research and build its Admissions card, the same way the six existing ones were built
+   (`source-material/admissions/<slug>/`, then `src/data/admissionsPrograms/<slug>.ts`)
+3. `/admissions-episode` — works from here, with no change to this feature
+
+**Two things to check on the first run for a new school**, neither of which the script can
+decide for itself:
+
+- **Its jargon may not be in the glossary.** The nine terms cover what the current six use.
+  A school using an instrument none of them do (say the ERB's CTP as an entrance test, or a
+  different aid platform) needs an entry added to
+  `source-material/admissions/_shared/Admissions - Shared - Terminology Glossary.md` — with
+  a real source, researched the same way. **Have the command report any capitalised acronym
+  or platform-shaped token in the school's data that has no glossary entry**, so the gap is
+  surfaced rather than silently producing an unexplained term in the episode.
+- **`{{SCHOOL_SITE}}` assumes the first source is the school's own admissions page.** True
+  for all six today and cross-checked against the source label's domain prefix, but a new
+  file that orders its sources differently will fail that check — by design, loudly, rather
+  than speaking the wrong domain.
+
 ## The freshness check — REQUIRED before any report is written
 
 **User requirement, added 2026-09-06.** Before a report is generated, the app's data for
@@ -582,8 +628,13 @@ The whole generator, one file. Structure it as:
 
 1. **Arg parsing** — `--school <slug>` (required), `--out <dir>` (default
    `reports/admissions`), `--quiet`, and `--overrides <path-to-json>` (optional). If
-   `--school` is missing, print the six available slugs and exit 2. Follow the arg style of
+   `--school` is missing, print the available slugs and exit 2. Follow the arg style of
    the existing `scripts/check_*.mjs`.
+
+   **Discover the eligible schools by reading the directory, never a hardcoded list:**
+   `readdirSync('src/data/admissionsPrograms/')`, take the `.ts` basenames, and keep those
+   whose module exposes a `guide`. Six qualify today, but the roster grows — a seventh
+   school built after this ships must be picked up with **no edit to this script.**
 
    **`--overrides` carries the freshness check's corrections.** A JSON file keyed by a dot
    path into the guide, each entry `{ value, note, source }` — e.g.
@@ -647,9 +698,12 @@ run-it-again-per-school operation, not a one-time implementation.
 
 It must:
 
-1. **Ask which school**, listing the six that have admissions data with their band counts
-   and entry cycles, plus a note naming the five that do not. Accept a slug or a name.
-   If the user passed an argument, use it — but still validate it.
+1. **Ask which school**, listing every school that has admissions data with its band count
+   and entry cycle, plus a note naming those that do not. **Both lists are computed at run
+   time** — the schools with data from `src/data/admissionsPrograms/`, the rest by
+   subtracting those from `schools.json`. Six and five today; never hardcode either number
+   or either list. Accept a slug or a name. If the user passed an argument, use it — but
+   still validate it.
 2. **Run the no-data gate** and stop with the explanation above if the school has none.
    State plainly that no files were written.
 3. **Run the freshness check** — the whole section above. Fetch the school's own admissions
@@ -1053,6 +1107,9 @@ first thing to check when listening back.
       matters / source URL per bullet — or "no differences found" when clean
 - [ ] The freshness check did **not** edit `src/data/**` or `source-material/**`
 - [ ] All six admissions schools generate with no code change between them
+- [ ] The eligible-school list is READ from `src/data/admissionsPrograms/` at run time, not
+      hardcoded — verify by adding a throwaway `zzz-test.ts` with a minimal `guide`, running
+      the command, confirming it appears, then deleting it
 - [ ] **No `{{TOKEN}}` survives into either output file.** Assert it in the script: after
       building the prompt, fail if `/\{\{[A-Z_]+\}\}/` still matches. An unsubstituted
       placeholder would be read aloud verbatim by NotebookLM.
