@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–32. */
+  /** Episode number in the show, 1–33. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,8 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes, in id order.
+ * All 32 Season 1 episodes plus the Season 2 premiere (episode 33), in id
+ * order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -56,8 +57,9 @@ export const SHOW_APPLE_URL =
  * athletics episodes (14–19) and the college-support episodes (26–31) are one
  * school each. The two Summer Camp episodes (10 and 11) map to the
  * `summer-programs` area added in 2026 and now render in that section's strip;
- * before it existed they surfaced through the page-level entry point. Only
- * episode 32 (the season finale) still maps to no research area.
+ * before it existed they surfaced through the page-level entry point. Episode 32,
+ * the Season 1 finale, is the only episode that maps to no research area — the
+ * Season 2 premiere (33) maps to `sports`.
  */
 export const EPISODES: PodcastEpisode[] = [
   {
@@ -451,22 +453,49 @@ export const EPISODES: PodcastEpisode[] = [
     ],
     researchArea: null,
   },
+  {
+    id: 33,
+    // The Season 2 premiere. The show numbers it Season 2 Episode 1; `id` is
+    // the show-wide sequence, which `check:podcast` requires to be contiguous
+    // and `episodesFor` sorts by.
+    title: 'Charlotte Christian: The New Saleh Athletic Center Takes Shape',
+    // Published: "Charlotte Christian School - The New Saleh Athletic Center Takes Shape (Season 2 Premiere)"
+    fullTitle:
+      'Charlotte Christian School - The New Saleh Athletic Center Takes Shape (Season 2 Premiere)',
+    spotifyUrl: 'https://open.spotify.com/episode/6TLyGudcsLUiE7tLcCIgSG',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000787925116',
+    schools: ['charlotte-christian'],
+    researchArea: 'sports',
+  },
 ]
 
-/** Episodes covering `school` that map to research area `area`, in episode order. */
+/**
+ * Episodes covering `school` that map to research area `area`, **newest first**.
+ *
+ * Sorted by descending `id`, which is descending release date: `check:podcast`
+ * requires ids contiguous from 1 and the table is maintained in release order,
+ * so the two orderings cannot diverge. Newest-first is what a returning
+ * listener wants — the episode they have not heard is at the top of the
+ * popover list rather than buried under a season of back catalogue.
+ */
 export function episodesFor(school: string, area: string): PodcastEpisode[] {
   return EPISODES
     .filter((e) => e.schools.includes(school) && e.researchArea === area)
-    .sort((a, b) => a.id - b.id)
+    .sort((a, b) => b.id - a.id)
 }
 
 /**
  * Episodes covering `school` that map to no research area — the page-level
- * "More episodes" entry point. Empty for a school with no such episode, in
- * which case the page-level line is omitted entirely.
+ * "More episodes" entry point, **newest first**. Empty for a school with no
+ * such episode, in which case the page-level line is omitted entirely.
+ *
+ * Same descending-`id` ordering as `episodesFor`, for the same reason. Only
+ * episode 32 lands here today, so the order is not yet visible on any page —
+ * it is set now so a second page-level episode sorts correctly on arrival.
  */
 export function unmappedEpisodesFor(school: string): PodcastEpisode[] {
   return EPISODES
     .filter((e) => e.schools.includes(school) && e.researchArea === null)
-    .sort((a, b) => a.id - b.id)
+    .sort((a, b) => b.id - a.id)
 }
