@@ -12,8 +12,17 @@ prs: []
 
 ## Goal
 
-A repeatable generator — `npm run report:admissions -- --school <slug>` — that reads a
-school's **Admissions** research area and writes two files:
+**One command the user runs per school, forever: `/admissions-episode`.** It asks which
+school, checks the app's data against that school's live admissions site, generates the
+report, and hands back the files plus the NotebookLM instructions. That is the entire
+user-facing surface of this feature.
+
+Under it sits a generator script, `npm run report:admissions -- --school <slug>`, which the
+slash command invokes. **The user is not expected to type the npm command** — it exists so
+the rendering is testable and re-runnable on its own. Every reference to it below is
+describing the plumbing, not the interface.
+
+The generator reads a school's **Admissions** research area and writes two files:
 
 - `reports/admissions/<slug>-admissions-notebooklm.pdf` — a self-contained source document
   holding every admissions fact the app knows about that school: the entry bands, the
@@ -49,6 +58,25 @@ deadline dates, contact names and source URLs match
 for all six admissions schools produces six correct reports with **no code change between
 them**. Running it for a school with no admissions data prints a clear "not enough data"
 message and exits **without writing any file**.
+
+## How this gets used, once it is built
+
+```
+/admissions-episode
+```
+
+That is the whole thing. It prompts for the school, and everything else follows from that
+one answer. To skip the prompt, `/admissions-episode providence-day`.
+
+| Command | When you run it | How often |
+|---|---|---|
+| `/implement admissionsreport` | To build this feature | **Once, ever** |
+| `/admissions-episode` | To make an episode for a school | Every school, every time |
+| `npm run report:admissions -- --school <slug>` | Never, normally | Only to re-render a PDF without re-checking the live site |
+
+**Do not make the user assemble steps.** A design where they run the freshness check, then
+the generator, then read a summary is three chances to skip the check — and the check is the
+part that stops a stale date reaching a parent's ears. One command, everything inside it.
 
 ## Why this is worth building
 
@@ -885,3 +913,6 @@ first thing to check when listening back.
 ```
 /implement admissionsreport
 ```
+
+**Run that once.** After it merges, the per-school command is `/admissions-episode` — that
+is the only command the user types from then on.
