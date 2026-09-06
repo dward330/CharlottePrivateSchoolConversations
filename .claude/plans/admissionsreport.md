@@ -1,7 +1,7 @@
 ---
 name: admissionsreport
 title: Generate a per-school Admissions PDF report plus the NotebookLM prompt that turns it into a podcast episode
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-09-06
 branch: feat/admissions-report
@@ -1140,3 +1140,49 @@ first thing to check when listening back.
 
 **Run that once.** After it merges, the per-school command is `/admissions-episode` — that
 is the only command the user types from then on.
+
+## Implementation notes
+
+Built 2026-09-06 as planned, single-phase. Everything in the plan shipped: the generator,
+the `/admissions-episode` command, the gitignore entry and the npm script. Three things
+differed from the document, all found by running the thing.
+
+**1. The glossary contradicted its own rules, and the PDF rendered it faithfully.** The
+committed `Admissions - Shared - Terminology Glossary.md` SSAT entry carried a score scale
+(`scored 440–710 per section`) and a difficulty comparison (`SSAT math is generally
+considered less difficult`) — both forbidden by rules 3 and 4 of that same file's "Rules for
+using this glossary", and by this plan's own checklist item *"§9 carries no score range, no
+difficulty claim, and no preparation advice"*. Only Providence Day uses the SSAT, so it
+surfaced on exactly one of the six PDFs. Fixed at the SOURCE (the glossary) rather than by
+filtering at render, since the file is the researched artifact the episode quotes from; both
+removals say in-line why they were made, so a later pass does not restore them. A tightened
+sweep now reports zero score/difficulty/prep violations in §9 across all six schools.
+
+**2. `---` section rules leaked into §9 as literal text.** The glossary separates its
+sections with `---`, which the entry parser swallowed into the preceding entry's body,
+printing a stray `---` at the end of each section's last entry. Caught by rasterising a
+page and looking at it — invisible to the `**` assertion and to every text-level check.
+`parseGlossary()` now ends an entry on a horizontal rule as well as on a new `##`.
+
+**3. The unknown-jargon detector needed noise filters to stay readable.** The plan asks the
+command to report capitalised tokens with no glossary entry. The naive version flagged
+`BAND`, `CROSS`, `MUST`, `NOTE`, `ALSO`, `RSVP` — kicker fields are ALL-CAPS by convention
+and prose emphasises with capitals — which buried the real finds. Two filter sets
+(`NOT_JARGON`, `SHOUTED_ENGLISH`) reduce it to genuine signal: TOEFL, SEVIS, NCSEAA, SSS,
+SLEP, ESA, NAIS, EEC, IEE and TBI-New Oasis are all really used and really undefined, and
+Charlotte Latin correctly reports none. This matters because the report is advisory — a
+checker parked at a permanently non-zero count stops being read, which this repo has hit
+three times.
+
+**One addition not in the plan:** `--unverified-note <text>`, which stamps the PDF's
+disclaimer when the freshness check could not reach the school's site. The plan requires
+that stamp but did not say how the command passes it to an offline script; this is the
+mechanism, and the command documents it.
+
+**Verified beyond the plan's checklist:** the 6-column Hickory Grove comparison table wraps
+inside Letter portrait with no truncation (the plan's flagged layout risk — no landscape
+rule or per-band fallback was needed), and the `--overrides` dot path accepts a band **key**
+or an **index**, failing with exit 2 on a path that does not resolve.
+
+**The test PDFs were deleted** (`rm -rf reports/`). They were built from committed data with
+no freshness check, so they are test artifacts, not episode-ready reports.
