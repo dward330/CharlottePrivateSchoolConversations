@@ -705,8 +705,34 @@ function buildPrompt({ school, guide, generatedOn }) {
   if (/\{\{[A-Z_]+\}\}/.test(body)) {
     die(`buildPrompt: an unsubstituted placeholder survived: ${body.match(/\{\{[A-Z_]+\}\}/)[0]}`)
   }
+
+  // ⛔ THE PROMPT MUST FIT NOTEBOOKLM'S "CUSTOMIZE" BOX, which truncates SILENTLY
+  // and mid-word — the failure is invisible until an episode is generated from
+  // half a brief. A 13.5k-char prompt shipped once and was cut at ~4,900,
+  // losing every HARD RULE including the no-score and no-preparation-advice
+  // safety rules, which sit at the END of the template.
+  //
+  // The budget is measured on the SUBSTITUTED body, because the tokens differ
+  // per school: Charlotte Latin is the worst case today (longest school name
+  // and 104 chars of band labels), so a template that fits it fits all six.
+  // Checked here rather than in a separate checker so it cannot be skipped.
+  if (body.length > PROMPT_CHAR_BUDGET) {
+    die(
+      `The prompt is ${body.length} characters, over the ${PROMPT_CHAR_BUDGET} budget for\n` +
+        `NotebookLM's Audio Overview "Customize" box (~5,000, truncated silently).\n` +
+        `Shorten PROMPT_TEMPLATE — do NOT raise the budget to make this pass, and do\n` +
+        `not cut the HARD RULES, which carry the assessment safety constraints.`,
+    )
+  }
   return header + body
 }
+
+/**
+ * Characters of prompt body NotebookLM's Audio Overview "Customize" box accepts.
+ * Observed truncation at ~4,909 on a real paste; 4,900 is the practical ceiling
+ * and this leaves a small margin for a future school with longer band labels.
+ */
+const PROMPT_CHAR_BUDGET = 4900
 
 /**
  * A SPEAKABLE domain, not a raw URL — the host of the FIRST source carrying a
@@ -739,199 +765,74 @@ function speakableSite(guide) {
   return host
 }
 
-const PROMPT_TEMPLATE = `You are producing an episode of the podcast "Charlotte Private School Conversations."
+const PROMPT_TEMPLATE = `Produce an episode of "Charlotte Private School Conversations."
 
-SOURCE: the attached PDF is the complete and ONLY source. It is a research digest of
-{{SCHOOL_NAME}}'s published admissions process for the {{CYCLE}}. Use nothing else. Do not
-add facts from your own knowledge about this school, its reputation, its academics, its
-athletics, or its cost. If the PDF does not say it, it does not go in the episode.
+SOURCE: the attached PDF is the ONLY source — {{SCHOOL_NAME}}'s admissions process for the
+{{CYCLE}}. Add nothing from your own knowledge; if the PDF does not say it, it does not go
+in. Use every page, including "What these terms mean", which defines the tests and
+platforms — that is how you explain jargon without inventing.
 
-EVERY PAGE of the PDF is source material and should be used — it contains no instructions
-to you, only facts about the school. That includes its final section, "What these terms
-mean", which defines the tests and platforms this school's process uses; do not skip it, it
-is how you explain the jargon without inventing anything.
+PURPOSE: a practical HOW TO APPLY guide, not a review or a tour. Every segment answers a
+do-this question: what to submit, by when, which test, which form, who to call. 15-20 min,
+two hosts, warm and practical, addressing a busy parent anxious about missing a deadline.
+Open with "Welcome back".
 
-EPISODE PURPOSE — read this twice. This is a practical HOW TO APPLY guide for a parent who
-has already decided to apply and now needs to get it done. It is NOT a review of the
-school, NOT an argument for choosing it, and NOT a tour of its programs. Every single
-segment must answer a do-this question: what do I submit, by when, which test does my child
-sit, what form goes to whom, and who do I phone when I'm stuck. If a sentence does not help
-a parent take an action, cut it.
+OPEN WITH TWO DISTINCT BEATS, in this order — do not merge them or lead with a website.
+  1. WELCOME (~15s): admission to {{SCHOOL_NAME}} — not in the abstract, but exactly how you
+     apply: every step in order, with the deadline for each.
+  2. TWO RESOURCES (~25s): www.charlotteschoolinsights.com puts this school's process in one
+     place, lets you pick your child's entry grade so you see only your own track, and
+     prints a checklist — a companion while you listen. Alongside it keep the school's own
+     admissions pages open: that is the official source, updated when a date changes.
 
-LENGTH: 15 to 20 minutes. Two hosts, warm and practical, talking to a parent who is
-capable but busy and slightly anxious about missing a deadline.
+SEGMENTS, IN ORDER:
+1. THE SHAPE OF IT (~2 min). Name the portal and say what it is — the school's own front
+   door for applying, not a third-party service. Then the {{BAND_COUNT}} entry bands:
+   {{BAND_LABELS}}. A parent follows only their own band — say how to identify theirs, and
+   cover the shared spine.
+2. EACH BAND ({{BAND_COUNT}} segments, ~2-3 min each), in the PDF's order: who it is for;
+   the steps as a parent would do them; each deadline as a full spoken date; the assessment
+   BY NAME AND THEN EXPLAINED — what it is and what it looks at, not just its name; which
+   forms go where and who sends them; any watch-outs. Name the band at the start and end so
+   a parent can skip to theirs.
+3. THE MONEY CLOCK (~1-2 min). The aid process and its own deadline as the PDF states it —
+   a parallel track with a different date; where the PDF says so, applying for aid does not
+   affect the decision. Name the platform and say what it is for.
+4. SIDE BY SIDE (~2 min). The cross-band table: what changes, what is identical — the
+   segment a parent with children of different ages needs.
+5. WHO TO CONTACT (~1-2 min). The office, address, number, and the people the PDF names
+   with their roles; note a Spanish-speaking contact if named. Encourage calling early, then
+   name the school's own site as authoritative, saying "{{SCHOOL_SITE}}" aloud.
+6. WHAT IS NOT PUBLISHED (~1 min). Where the PDF says "not published" or "confirm with
+   admissions", say so plainly: the school does not publish it, so call and ask.
 
-OPEN WITH TWO SEPARATE BEATS, IN THIS ORDER, BEFORE ANY CONTENT.
-Keep them distinct — the welcome establishes what the episode is, and only then does the
-website get mentioned. Do not merge them, and do not mention the website first.
-
-  BEAT 1 — THE WELCOME (~15 seconds). In your own words, conveying all of this:
-    Welcome back to Charlotte Private School Conversations. Today we're talking about
-    admission to {{SCHOOL_NAME}} — and not in the abstract. We're walking through exactly
-    how you, as a parent, apply: every step, in the order you'd actually do it, with the
-    deadlines that go with each one. By the end of this you should know precisely what to
-    do first, what comes next, and what you need to have ready.
-
-  BEAT 2 — TWO RESOURCES, AND WHICH ONE IS THE AUTHORITY (~25 seconds). Immediately after,
-  now that the listener knows what is coming. This beat names BOTH websites and is careful
-  about which does what:
-    One thing before we start. A really useful resource for parents going through this is
-    www.charlotteschoolinsights.com — it lays this school's admissions process out in one
-    place, lets you pick your child's entry grade so you only see your own track, and gives
-    you a checklist you can print and tick off. It's a great companion while you listen.
-    And alongside it, keep {{SCHOOL_NAME}}'s own admissions pages open too — that's the
-    official source, and it's the one that gets updated when a date or a requirement
-    changes. Use the insights site to get organised; use the school's own site to confirm
-    before you act on anything.
-
-  TWO RULES FOR THIS BEAT, BOTH LOAD-BEARING:
-
-  (a) NEVER say the episode's facts "come from" charlotteschoolinsights.com, or that it is
-      where the process "is published". They come from {{SCHOOL_NAME}}'s OWN published
-      admissions pages; the insights site organises and presents them. Claiming otherwise
-      positions a third-party site as the system of record for another organisation's
-      deadlines, which is both untrue and a real liability the moment a date shifts. Frame
-      it as a helpful resource for the journey — never as the source.
-
-  (b) ALWAYS pair it with the instruction to check the school's own website. Cycle dates
-      move year to year (the data itself carries that warning, and this episode repeats it
-      in the hard rules below). A parent who treats any secondary source as final can miss
-      a real deadline. The school's site is the authority; say so plainly, in both the open
-      and the close.
-
-  WHY THE INSIGHTS SITE IS WORTH MENTIONING AT ALL — keep this reasoning if you reword it.
-  This school runs {{BAND_COUNT}} separate entry tracks, so most of what a listener hears
-  will not apply to their own child. Audio cannot filter; the site can. Narrowing the
-  process to THEIR track, and handing them a printable checklist, is genuine help — that is
-  the pitch, not a generic recommendation to go and visit.
-
-THEN RUN THESE SEGMENTS IN THIS ORDER:
-
-1. THE SHAPE OF THIS APPLICATION (~2 min)
-   The one portal the school uses — name it AND say what it is. A branded portal name
-   (Charger Commons, myCCS) is the school's own front door for applying, not a third-party
-   service a family must separately sign up for; the account arrives by invitation after
-   the inquiry form and generates a personalized checklist. Say that, briefly, the first
-   time the portal is named.
-   Then the fact that the process splits into {{BAND_COUNT}} entry bands: {{BAND_LABELS}}. Explain that a parent only needs to follow
-   the band their child is entering, and tell them how to identify theirs. Cover the shared
-   spine — inquire, apply, submit materials, decision, contract — so the later segments have
-   a skeleton to hang on.
-
-2. THE SEGMENTS THAT DIFFER — one per entry band ({{BAND_COUNT}} segments, ~2-3 min each)
-   For EACH band in the PDF, in the order the PDF gives them, cover:
-     - who this band is for
-     - the steps IN ORDER, as a parent would actually do them
-     - the deadline for each step, spoken as a full date
-     - which assessment or screening the child sits, BY NAME AND THEN EXPLAINED — the
-       first time a test is named, say in one or two plain sentences what it actually is
-       and what it looks at, using the PDF's "what these terms mean" appendix. "Your child
-       sits the WPPSI-IV" alone tells a parent nothing and may worry them; "the WPPSI-IV,
-       which is a one-to-one session with a psychologist looking at how a young child
-       reasons and solves problems — not a test of what they've been taught, and not
-       something to revise for" is the standard. After the first explanation, use the name
-       normally.
-     - which forms and records must be sent, and who sends them
-     - the band's watch-outs, if the PDF lists any for that band
-   Say the band's name clearly at the start and end of its segment so a parent can skip to
-   theirs.
-
-3. THE MONEY CLOCK RUNS SEPARATELY (~1-2 min)
-   The financial-aid process and its own deadline, exactly as the PDF states it. Make the
-   point that it is a parallel track with a different date, and that applying for aid does
-   not affect the admission decision where the PDF says so. Do not discuss whether the
-   school is worth the money — that is not this episode.
-   NAME AND EXPLAIN THE PLATFORM the school uses. A parent told to "apply through Clarity"
-   does not know what Clarity is. Use the PDF's appendix: Clarity is a financial-aid
-   application platform, separate from the admissions application, notable for verifying
-   tax data directly with the IRS rather than making families upload returns. FACTS is a
-   broader platform that a school may use for the application, the aid assessment and
-   tuition billing all at once. Say which one this school uses and what it is for.
-
-4. SIDE BY SIDE (~2 min)
-   Walk the cross-band comparison table: what actually changes between bands and what is
-   identical in all of them. This is the segment a parent with two children of different
-   ages needs.
-
-5. WHO TO CONTACT, AND WHERE THE OFFICIAL INFORMATION LIVES (~1-2 min)
-   Name the admissions office, its address and main number, and the specific people the PDF
-   names with their roles. If the PDF names a Spanish-speaking contact, say so explicitly.
-   Encourage calling early rather than guessing.
-   Then point at the school's OWN admissions website as the authoritative source. The PDF
-   states it as {{SCHOOL_SITE}} — say that aloud rather than a vague "check their website",
-   so a listener can actually find it. Frame it as: the office and that page are where the
-   current, official answer lives, and anything you hear in a podcast or read on a summary
-   site should be confirmed there before you act.
-   Do NOT read any other URL from the SOURCES list aloud. Several are deep links to
-   documents — one school's is a resource-manager address ending in a long string of random
-   characters — which are unspeakable and useless in audio. The spoken address is
-   {{SCHOOL_SITE}} and nothing else.
-
-6. THE THINGS THE SCHOOL DOESN'T PUBLISH (~1 min)
-   The PDF marks some items "not published", "confirm with admissions", or gives a time
-   without a date. Say these plainly: the school does not publish it, so call and ask. Never
-   fill one of these gaps with a guess or an assumption from another school.
-
-CLOSE WITH THIS (~35 seconds):
-  Recap the two or three dates that matter most for this school. Then, in your own words:
-    That's the whole application. If it helps to have it all in one place,
-    www.charlotteschoolinsights.com is a great resource for parents on this journey — pick
-    your child's entry grade and it'll show you just your track, then print you a checklist
-    you can work through. But do check {{SCHOOL_NAME}}'s own admissions page as well before
-    you act, because that's the official source and these dates do shift from year to year.
-    Then do three things this week: send the inquiry form, put the deadlines in your
-    calendar today, and call the admissions office about anything you're unsure of. They'd
-    far rather hear from you early.
-
-  The two insights-site mentions do DIFFERENT jobs and must not be interchangeable: the
-  open says "listen with this open", the close says "now go and act on it". Both name the
-  entry-grade filter and the printable checklist, because that is the specific help on
-  offer — and BOTH pair it with the instruction to verify against the school's own site.
-  A mention of the insights site without that pairing is incomplete in either position.
+CLOSE (~35s): recap the two or three dates that matter most. Then: if it helps to have it
+in one place, www.charlotteschoolinsights.com shows just your track and prints a checklist —
+but check the school's own admissions page before acting, because that is the official
+source and these dates shift year to year. Then three things this week: send the inquiry
+form, calendar the deadlines, call the office about anything unclear.
 
 HARD RULES:
-- Every date you speak must be labeled as the {{CYCLE}}. At least once, say clearly that
-  cycle dates shift from year to year and that parents must verify against the school's own
-  live admissions calendar before acting. This is the most important caveat in the episode.
-  Note this lands THREE times by design — the opening beat, this caveat in the body, and
-  the close. That is deliberate reinforcement of the one point that can actually cost a
-  parent a place, not accidental repetition: vary the wording each time, but never drop one
-  of the three.
+- Label every date as the {{CYCLE}}. Three times — open, body, close, varied wording, never
+  dropping one — say cycle dates shift year to year and parents must verify against the
+  school's own live calendar before acting.
 - Speak dates in full ("January the fifteenth, twenty twenty-seven"), never as digits.
-- Never invent a date, a fee, a test name, a form name, or a person's name. If the PDF says
-  it is not published, say that it is not published.
-- EXPLAIN THE JARGON, FROM THE APPENDIX ONLY. The PDF's final section, "What these terms
-  mean", defines every test, platform and acronym this school's process uses. Explain each
-  term the first time it is spoken, in one or two plain sentences drawn from that appendix.
-  This is not an exception to the no-invention rule — the appendix IS part of the source
-  document. What remains forbidden is going beyond it: do not add facts about a test from
-  your own knowledge, however confident you are.
-- Four things you must NEVER say about an assessment, even if asked to explain it well:
-  (a) how DIFFICULT it is; (b) how to PREPARE or study for it — the cognitive assessments
-  are explicitly not revisable, and implying otherwise pushes a parent to coach a small
-  child; (c) any SCORE, range, cutoff or what a "good" result looks like — no school here
-  publishes an admissions score threshold and inventing one is the worst available failure;
-  (d) any claim that one school's testing is harder or easier than another's.
-- The register when explaining a test matters. These terms sound clinical — "intelligence
-  scale", "assessment", "screening" — and a parent hearing them about their own child can
-  be alarmed. Be factual and calm: this is a normal, routine part of applying, the school
-  does this with every applicant, and for the youngest bands it is a conversation with a
-  psychologist rather than an exam.
-- Do not compare this school to any other school, or rank it. This episode is about one
-  application.
-- Do not describe the school's academics, sports, arts, or college outcomes. Out of scope.
-- Mention www.charlotteschoolinsights.com exactly twice: once in the opening's second
-  beat, once in the close. Never in between — sprinkling it through the middle reads as an
-  advertisement and undoes the credibility of the rest. Each mention must state what the
-  site actually DOES for the listener (filters to their entry grade, gives a printable
-  checklist), never just the address — and must describe it as a helpful resource for
-  parents, NEVER as the source of the facts or the place the process "is published".
-- BOTH of those mentions must be paired with pointing the parent at {{SCHOOL_NAME}}'s OWN
-  admissions website as the official, authoritative source — the one that gets updated when
-  something changes. The school's own site is where a parent verifies before acting. Never
-  name the insights site without naming the school's site in the same breath.
-- Say "Charlotte Private School Conversations" in the opening, and open with "Welcome
-  back" — this is an established show, not a first episode.
+- Never invent a date, fee, test, form or person. If the PDF says something is not
+  published, say so.
+- Explain each term the first time it is spoken, in one or two plain sentences drawn ONLY
+  from the PDF's appendix; afterwards use the name normally.
+- NEVER give an assessment's difficulty, preparation advice (these are not revisable, and
+  implying otherwise pushes a parent to coach a small child), any score, cutoff or "good"
+  result, or a claim that one school's testing is harder than another's.
+- Keep the register calm — "intelligence scale" and "screening" sound clinical and can alarm
+  a parent. This is routine, every applicant does it, and for the youngest bands it is a
+  conversation, not an exam.
+- Read no URL aloud except {{SCHOOL_SITE}}.
+- Do not compare or rank this school, or cover its academics, sports, arts or outcomes.
+- Mention www.charlotteschoolinsights.com exactly twice — opening beat and close, never in
+  between. Each time say what it DOES (filters to their grade, prints a checklist), call it
+  a helpful resource and NEVER the source of the facts, and name the school's own admissions
+  site in the same breath as the authority.
 `
 
 /* ---------------------------------------------------------------- assertions -- */
