@@ -812,6 +812,13 @@ Interpolate `{{SCHOOL_NAME}}` from `schools.json`, `{{CYCLE}}` from `guide.cycle
 `{{BAND_COUNT}}` from `guide.bands.length`, `{{BAND_LABELS}}` from the band labels joined
 readably (`'TK / Kindergarten, Grades 1–5, and Grades 6–12'`).
 
+**Every token is per-school — nothing about the prompt may be hardcoded to one school.**
+The five tokens are `{{SCHOOL_NAME}}`, `{{CYCLE}}`, `{{BAND_COUNT}}`, `{{BAND_LABELS}}` and
+`{{SCHOOL_SITE}}`, appearing 14 times across the prompt. `{{BAND_COUNT}}` is the one that
+changes the episode's SHAPE rather than its wording: segment 2 emits one band segment per
+band, so a Providence Day episode has three and a Hickory Grove episode has five. Do not
+write a fixed segment list.
+
 **`{{SCHOOL_SITE}}` is a SPEAKABLE domain, not a raw URL.** Derive it as the host of the
 FIRST source carrying a URL, with `www.` stripped:
 
@@ -898,6 +905,13 @@ first thing to check when listening back.
       matters / source URL per bullet — or "no differences found" when clean
 - [ ] The freshness check did **not** edit `src/data/**` or `source-material/**`
 - [ ] All six admissions schools generate with no code change between them
+- [ ] **No `{{TOKEN}}` survives into either output file.** Assert it in the script: after
+      building the prompt, fail if `/\{\{[A-Z_]+\}\}/` still matches. An unsubstituted
+      placeholder would be read aloud verbatim by NotebookLM.
+- [ ] Diff two schools' `.txt` prompts against each other — the school name, entry cycle,
+      band count, band labels and domain must ALL differ, and the segment structure must
+      differ too (Providence Day 3 band segments, Hickory Grove 5). Identical prompts from
+      different schools means a token is hardcoded.
 - [ ] `charlotte-catholic` and a bogus slug both exit 2 and write nothing
 - [ ] `git status --short` shows no `reports/` entries
 - [ ] `npm run build` passes unchanged
