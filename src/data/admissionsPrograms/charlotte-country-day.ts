@@ -573,6 +573,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
       title: 'The admissions office',
       address: '1440 Carmel Road, Charlotte, NC 28226 · main 704-943-4530',
       people: [
+        { name: 'Eric Brunt', detail: 'Director of Enrollment Management · 704-943-4531' },
         { name: 'Robin Riggins', detail: 'Associate Director of Admissions · 704-943-4532' },
         { name: 'Molly Philips', detail: 'Assistant Director of Admissions · 704-943-4534' },
         { name: 'Tianna Butler', detail: 'Assistant Director of Admissions · 704-943-4533' },
