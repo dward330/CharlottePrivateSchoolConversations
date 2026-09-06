@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-09-06
 branch: feat/admissions-report
-prs: []
+prs: [286]
 ---
 
 # Per-school Admissions PDF report + NotebookLM episode prompt
