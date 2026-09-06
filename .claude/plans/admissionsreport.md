@@ -181,6 +181,7 @@ The report renders `AdmissionsGuide`:
 | `contacts` | `{kicker,title,address,people[]}` | §6 |
 | `checklist` | `portalNote`, `aidPanel`, `contactPanel`, `disclaimer` | §7 |
 | `sources[]` | `{label,url?}` citations | §8 |
+| *(the shared glossary)* | jargon definitions, filtered to this school's terms | §9 |
 
 Per band (`AdBand`): `key`, `label`, `sublabel?`, `title`, `deadlines[]` (4 tiles),
 `steps[]` (ordered, each `{title, tag, tagKind, detail}`), `watchOuts[]`,
@@ -282,6 +283,58 @@ still contains `**` — which turns a silent cosmetic leak into a build error.
 
 There are **no pipe-table markers** in this data (`grep -c "|"` returns 0 for all six
 files), so the table-leak half of that prior defect does not apply here.
+
+### The jargon glossary — a §9 of the PDF, and why it is source material
+
+**User requirement, added 2026-09-06: the episode must explain what the terms mean** — what
+a named exam measures, what Clarity is, and so on.
+
+The data names **nine terms and defines none of them**: WPPSI-IV, WISC-V, ISEE, SSAT, ERB,
+CTP, CAIS, Clarity, FACTS. Measured across the six schools —
+
+```
+charlotte-christian        WPPSI, WISC, ISEE, CAIS
+charlotte-country-day      WPPSI, WISC, ISEE, CAIS, Clarity
+charlotte-latin            WPPSI, WISC, ISEE, ERB, CAIS, Clarity
+covenant-day               WISC, ISEE, CAIS, FACTS
+hickory-grove-christian    FACTS
+providence-day             WPPSI, ISEE, SSAT, Clarity
+```
+
+The data says **who administers a test and when it is due, never what it measures**.
+Providence Day names the WPPSI-IV four times without once saying what it is.
+
+**The tension this creates, and the only safe resolution.** The prompt's central rule is
+*if the PDF does not say it, it does not go in the episode*. Simply instructing NotebookLM
+to "explain the terms" would license it to improvise from its own knowledge — precisely
+what every other rule forbids, and the route by which a confident, wrong claim about a
+child's assessment gets spoken aloud. A glossary is therefore only safe if it is **printed
+into the PDF as source material**, so explaining a term is quoting the source, not inventing.
+
+**The glossary is written and committed** at
+`source-material/admissions/_shared/Admissions - Shared - Terminology Glossary.md`
+(2026-09-06), researched against the publishers' and administering bodies' own pages —
+Pearson for the Wechsler scales, ERB for the ISEE, Clarity and FACTS for the platforms —
+with its provenance header and source URLs, per the data-provenance standard.
+
+**Render it as §9 of the PDF**, after the sources, titled *Appendix: what these terms mean*.
+Include **only the terms that school's data actually uses** — Hickory Grove uses one (FACTS),
+so its report carries one entry, not nine. Detect them by scanning the school's serialized
+guide for each term.
+
+Two findings in it are worth surfacing in the episode and are easy to miss:
+
+- **CAIS testing is shared across member schools.** One assessment can serve applications to
+  several Charlotte schools — a family applying to three does not sit three tests. That is
+  materially useful and appears nowhere in the per-school data.
+- **The WPPSI and WISC are the same assessment family at different ages.** A school moving
+  from one to the other between grades is following an age boundary, not raising a bar.
+
+The glossary's own "Rules for using this glossary" section carries five constraints the
+prompt must inherit — most importantly **no difficulty claims, no preparation advice, and no
+score ranges or cutoffs.** No school in this project publishes an admissions score
+threshold; inventing one is the worst available failure. And the cognitive assessments are
+not revisable — implying otherwise would push a parent to coach a four-year-old.
 
 ### Playwright is already available
 
@@ -515,8 +568,24 @@ The whole generator, one file. Structure it as:
    no-data gate above.
 3. **Import the data** — `await import('../src/data/admissionsPrograms/<slug>.ts')`, take
    `Object.values(mod)[0].guide`.
-4. **Build the HTML** — one template function per section (§1–§8 in the table above), plus
+4. **Build the HTML** — one template function per section (§1–§9 in the table above), plus
    the fenced Appendix A carrying the prompt.
+
+   **§9 is the jargon appendix**, built by parsing
+   `source-material/admissions/_shared/Admissions - Shared - Terminology Glossary.md` and
+   emitting **only the entries whose term appears in this school's guide.** Detect by
+   scanning `JSON.stringify(guide)` for each term key (`WPPSI`, `WISC`, `ISEE`, `SSAT`,
+   `ERB`, `CTP`, `CAIS`, `Clarity`, `FACTS`, plus the school's portal name). Verified
+   counts at planning time: charlotte-latin 6 terms, charlotte-country-day 5,
+   charlotte-christian 4, covenant-day 4, providence-day 4, **hickory-grove-christian 1**.
+   A nine-entry appendix on a school that uses one term invites the hosts to explain tests
+   that school does not use.
+
+   **Match on word boundaries, not bare substrings.** `ERB` and `CTP` are three-letter
+   tokens that could match inside an unrelated word, and `Clarity` is an ordinary English
+   noun. Use `\bERB\b`-style matching. Spot-checked at planning time on covenant-day: `ERB`
+   and `CTP` correctly return no match, `CAIS` matches a real deadline label. A false
+   positive here is not cosmetic — it makes the hosts explain a test the child will not sit.
 5. **Build the prompt string** — one function, `buildPrompt(school, guide)`, returning the
    text in "The NotebookLM prompt" below with the school name, cycle, band count and band
    labels interpolated. **The same string** is used for Appendix A and the `.txt`, so they
@@ -697,8 +766,12 @@ website get mentioned. Do not merge them, and do not mention the website first.
 THEN RUN THESE SEGMENTS IN THIS ORDER:
 
 1. THE SHAPE OF THIS APPLICATION (~2 min)
-   The one portal the school uses, and the fact that the process splits into
-   {{BAND_COUNT}} entry bands: {{BAND_LABELS}}. Explain that a parent only needs to follow
+   The one portal the school uses — name it AND say what it is. A branded portal name
+   (Charger Commons, myCCS) is the school's own front door for applying, not a third-party
+   service a family must separately sign up for; the account arrives by invitation after
+   the inquiry form and generates a personalized checklist. Say that, briefly, the first
+   time the portal is named.
+   Then the fact that the process splits into {{BAND_COUNT}} entry bands: {{BAND_LABELS}}. Explain that a parent only needs to follow
    the band their child is entering, and tell them how to identify theirs. Cover the shared
    spine — inquire, apply, submit materials, decision, contract — so the later segments have
    a skeleton to hang on.
@@ -708,7 +781,14 @@ THEN RUN THESE SEGMENTS IN THIS ORDER:
      - who this band is for
      - the steps IN ORDER, as a parent would actually do them
      - the deadline for each step, spoken as a full date
-     - which assessment or screening the child sits, by name
+     - which assessment or screening the child sits, BY NAME AND THEN EXPLAINED — the
+       first time a test is named, say in one or two plain sentences what it actually is
+       and what it looks at, using the PDF's "what these terms mean" appendix. "Your child
+       sits the WPPSI-IV" alone tells a parent nothing and may worry them; "the WPPSI-IV,
+       which is a one-to-one session with a psychologist looking at how a young child
+       reasons and solves problems — not a test of what they've been taught, and not
+       something to revise for" is the standard. After the first explanation, use the name
+       normally.
      - which forms and records must be sent, and who sends them
      - the band's watch-outs, if the PDF lists any for that band
    Say the band's name clearly at the start and end of its segment so a parent can skip to
@@ -719,6 +799,12 @@ THEN RUN THESE SEGMENTS IN THIS ORDER:
    point that it is a parallel track with a different date, and that applying for aid does
    not affect the admission decision where the PDF says so. Do not discuss whether the
    school is worth the money — that is not this episode.
+   NAME AND EXPLAIN THE PLATFORM the school uses. A parent told to "apply through Clarity"
+   does not know what Clarity is. Use the PDF's appendix: Clarity is a financial-aid
+   application platform, separate from the admissions application, notable for verifying
+   tax data directly with the IRS rather than making families upload returns. FACTS is a
+   broader platform that a school may use for the application, the aid assessment and
+   tuition billing all at once. Say which one this school uses and what it is for.
 
 4. SIDE BY SIDE (~2 min)
    Walk the cross-band comparison table: what actually changes between bands and what is
@@ -772,6 +858,23 @@ HARD RULES:
 - Speak dates in full ("January the fifteenth, twenty twenty-seven"), never as digits.
 - Never invent a date, a fee, a test name, a form name, or a person's name. If the PDF says
   it is not published, say that it is not published.
+- EXPLAIN THE JARGON, FROM THE APPENDIX ONLY. The PDF's final section, "What these terms
+  mean", defines every test, platform and acronym this school's process uses. Explain each
+  term the first time it is spoken, in one or two plain sentences drawn from that appendix.
+  This is not an exception to the no-invention rule — the appendix IS part of the source
+  document. What remains forbidden is going beyond it: do not add facts about a test from
+  your own knowledge, however confident you are.
+- Four things you must NEVER say about an assessment, even if asked to explain it well:
+  (a) how DIFFICULT it is; (b) how to PREPARE or study for it — the cognitive assessments
+  are explicitly not revisable, and implying otherwise pushes a parent to coach a small
+  child; (c) any SCORE, range, cutoff or what a "good" result looks like — no school here
+  publishes an admissions score threshold and inventing one is the worst available failure;
+  (d) any claim that one school's testing is harder or easier than another's.
+- The register when explaining a test matters. These terms sound clinical — "intelligence
+  scale", "assessment", "screening" — and a parent hearing them about their own child can
+  be alarmed. Be factual and calm: this is a normal, routine part of applying, the school
+  does this with every applicant, and for the youngest bands it is a conversation with a
+  psychologist rather than an exam.
 - Do not compare this school to any other school, or rank it. This episode is about one
   application.
 - Do not describe the school's academics, sports, arts, or college outcomes. Out of scope.
@@ -918,6 +1021,8 @@ first thing to check when listening back.
 - [ ] `npm run lint` and `npm run check:script` pass
 - [ ] The Providence Day PDF was **opened and read** against its data file
 - [ ] Hickory Grove (5 bands) and Charlotte Latin (missing optionals) render correctly
+- [ ] §9 lists ONLY the terms that school uses — Charlotte Latin 6, Hickory Grove 1
+- [ ] §9 carries no score range, no difficulty claim, and no preparation advice
 - [ ] No raw `**` in any PDF (the post-render assertion fires on regression)
 - [ ] Bold rendered in `steps[].detail`, `watchOuts[].text`, `aid.text` — and nowhere else
 - [ ] Appendix A is byte-identical to the `.txt`
