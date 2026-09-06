@@ -97,13 +97,17 @@ alternative. Some schools accept either.
 **Who takes it:** students in grades 3–11.
 
 **What it measures:** three scored areas — **Verbal, Quantitative (two math sections
-combined into one score), and Reading** — scored 440–710 per section with percentile ranks,
-plus an unscored writing sample sent to schools.
+combined into one score), and Reading** — reported per section with percentile ranks, plus
+an unscored writing sample sent to schools. (The published score scale is deliberately
+omitted here, per rule 4 below: no school in this project publishes an admissions score
+threshold, so a range on the page invites a "what counts as good?" inference that nothing
+in the source supports.)
 
 **How it differs from the ISEE, briefly:** the SSAT has two quantitative sections combined
-into one score where the ISEE reports four sections separately; SSAT math is generally
-considered less difficult; and the SSAT lets the student choose a creative or expository
-essay prompt, where the ISEE requires expository.
+into one score where the ISEE reports four sections separately, and the SSAT lets the
+student choose a creative or expository essay prompt, where the ISEE requires expository.
+(A relative-difficulty comparison that earlier drafts carried has been removed, per rule 3
+below — it is exactly the claim the rule forbids.)
 
 ### ERB — Educational Records Bureau
 

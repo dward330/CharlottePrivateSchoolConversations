@@ -12,6 +12,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "oxlint",
     "schema": "node scripts/gen_data_schema.mjs",
+    "report:admissions": "node scripts/gen_admissions_report.mjs",
     "check:ranks": "node scripts/check_rank_labels.mjs",
     "check:buckets": "node scripts/check_selectivity_buckets.mjs",
     "check:memberships": "node scripts/check_memberships.mjs",
