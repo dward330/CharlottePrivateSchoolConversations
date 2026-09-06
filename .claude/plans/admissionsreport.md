@@ -680,6 +680,16 @@ Keep the command thin — it orchestrates and does the web fetching, the script 
 
 ### Step 4 — verification
 
+**The PDFs generated here are TEST ARTIFACTS, not episode-ready reports.** They are built
+from the committed data with **no freshness check** — the script has no web access, so it
+cannot know whether a date has moved since August 2026. Their only job is to prove the
+generator works. A real report comes from `/admissions-episode`, which verifies against the
+school's live site first and rebuilds from current values.
+
+**Delete them when the build is done**: `rm -rf reports/` — they are gitignored, so nothing
+is lost, and it removes any chance of a stale test PDF being uploaded to NotebookLM later.
+Say so in the PR body, so the user knows the files they see are not usable output.
+
 Run all of these and record the output in the PR:
 
 ```bash
@@ -1054,7 +1064,10 @@ first thing to check when listening back.
 - [ ] `git status --short` shows no `reports/` entries
 - [ ] `npm run build` passes unchanged
 - [ ] `npm run lint` and `npm run check:script` pass
-- [ ] The Providence Day PDF was **opened and read** against its data file
+- [ ] The Providence Day PDF was **opened and read** against its data file — this is a
+      read-the-artifact step, not a "the command exited 0" step
+- [ ] `rm -rf reports/` run at the end, and the PR body states the test PDFs were not
+      freshness-checked and are not episode-ready
 - [ ] Hickory Grove (5 bands) and Charlotte Latin (missing optionals) render correctly
 - [ ] §9 lists ONLY the terms that school uses — Charlotte Latin 6, Hickory Grove 1
 - [ ] §9 carries no score range, no difficulty claim, and no preparation advice
