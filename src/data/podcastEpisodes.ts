@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–33. */
+  /** Episode number in the show, 1–34. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,8 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 premiere (episode 33), in id
- * order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–34), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -467,6 +466,20 @@ export const EPISODES: PodcastEpisode[] = [
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000787925116',
     schools: ['charlotte-christian'],
     researchArea: 'sports',
+  },
+  {
+    id: 34,
+    // Season 2. The first episode produced by `/admissions-episode`, whose
+    // report is verified against the school's OWN live admissions pages before
+    // the PDF is built.
+    title: 'Charlotte Latin: How to Apply',
+    // Published: "Charlotte Latin - Admissions - How to Apply (For Fall 2027 Entry)"
+    fullTitle: 'Charlotte Latin - Admissions - How to Apply (For Fall 2027 Entry)',
+    spotifyUrl: 'https://open.spotify.com/episode/5rXvH1a7XwAoEVJBUmwFKk',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000788198996',
+    schools: ['charlotte-latin'],
+    researchArea: 'admissions',
   },
 ]
 
