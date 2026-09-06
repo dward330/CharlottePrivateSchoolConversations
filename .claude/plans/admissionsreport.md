@@ -453,13 +453,33 @@ a parent take an action, cut it.
 LENGTH: 15 to 20 minutes. Two hosts, warm and practical, talking to a parent who is
 capable but busy and slightly anxious about missing a deadline.
 
-OPEN WITH THIS (in your own words, ~20 seconds, before anything else):
-  Welcome to Charlotte Private School Conversations. Today we're walking through exactly
-  how to apply to {{SCHOOL_NAME}} for the {{CYCLE}}. Before we start — everything we cover
-  today, and the same guidance for other Charlotte-area private schools, is at
-  www.charlotteschoolinsights.com. Pull it up while you listen and you can build yourself a
-  simple checklist as we go, so you finish this episode with your own to-do list rather
-  than a page of notes.
+OPEN WITH TWO SEPARATE BEATS, IN THIS ORDER, BEFORE ANY CONTENT.
+Keep them distinct — the welcome establishes what the episode is, and only then does the
+website get mentioned. Do not merge them, and do not mention the website first.
+
+  BEAT 1 — THE WELCOME (~15 seconds). In your own words, conveying all of this:
+    Welcome back to Charlotte Private School Conversations. Today we're talking about
+    admission to {{SCHOOL_NAME}} — and not in the abstract. We're walking through exactly
+    how you, as a parent, apply: every step, in the order you'd actually do it, with the
+    deadlines that go with each one. By the end of this you should know precisely what to
+    do first, what comes next, and what you need to have ready.
+
+  BEAT 2 — WHY THE WEBSITE HELPS (~20 seconds). Immediately after, now that the listener
+  knows what is coming. Give the site a concrete job — never a bare URL read:
+    One thing before we start. Everything we're about to cover comes from
+    www.charlotteschoolinsights.com — it's where this school's whole admissions process is
+    laid out in writing: every deadline, every form, every contact. Two reasons to pull it
+    up right now. First, we're going to say a lot of dates out loud, and you shouldn't have
+    to write them down — they're all on the page. Second, the site lets you pick your
+    child's entry grade and filters everything down to just your track, then gives you a
+    checklist you can print and tick off. So the best way to listen to this episode is with
+    that page open, building your own list as we go.
+
+  WHY BEAT 2 IS FRAMED THAT WAY — keep this reasoning if you reword it. This school runs
+  {{BAND_COUNT}} separate entry tracks, so most of what a listener hears will not apply to
+  their own child. Audio cannot filter; the website can. Pointing at it as the thing that
+  narrows the process down to THEIR track is both true and the site's real advantage over
+  the episode. Never pitch it as a generic recommendation.
 
 THEN RUN THESE SEGMENTS IN THIS ORDER:
 
@@ -503,12 +523,17 @@ THEN RUN THESE SEGMENTS IN THIS ORDER:
    fill one of these gaps with a guess or an assumption from another school.
 
 CLOSE WITH THIS (~30 seconds):
-  Recap the two or three dates that matter most for this school. Then:
-  That's the whole application. Everything we covered — every date, every form, every
-  contact — is laid out at www.charlotteschoolinsights.com, where you can go through it at
-  your own pace and turn it into a checklist you can actually tick off. Start with the
-  inquiry form, put the deadlines in your calendar today, and call the admissions office
-  with anything you're unsure about. They would much rather hear from you early.
+  Recap the two or three dates that matter most for this school. Then, in your own words:
+    That's the whole application. Every date and every contact we mentioned is at
+    www.charlotteschoolinsights.com — pick your child's entry grade and it'll show you just
+    your track, then print you a checklist. Do three things this week: send the inquiry
+    form, put the deadlines in your calendar today, and call the admissions office about
+    anything you're unsure of. They'd far rather hear from you early.
+
+  The two website mentions do DIFFERENT jobs and must not be interchangeable: the open says
+  "listen with this open", the close says "now go and act on it". Both name the
+  entry-grade filter and the printable checklist, because that is the specific help on
+  offer.
 
 HARD RULES:
 - Every date you speak must be labeled as the {{CYCLE}}. At least once, say clearly that
@@ -520,10 +545,33 @@ HARD RULES:
 - Do not compare this school to any other school, or rank it. This episode is about one
   application.
 - Do not describe the school's academics, sports, arts, or college outcomes. Out of scope.
-- Mention www.charlotteschoolinsights.com exactly twice: the open and the close. Do not
-  sprinkle it through the middle.
-- Say "Charlotte Private School Conversations" in the opening.
+- Mention www.charlotteschoolinsights.com exactly twice: once in the opening's second
+  beat, once in the close. Never in between — sprinkling it through the middle reads as an
+  advertisement and undoes the credibility of the rest. Each mention must state what the
+  site actually DOES for the listener (filters to their entry grade, gives a printable
+  checklist, holds every date so they need not take notes), never just the address.
+- Say "Charlotte Private School Conversations" in the opening, and open with "Welcome
+  back" — this is an established show, not a first episode.
 ```
+
+### The two website mentions are claims about the app — verified
+
+The open and close both promise the listener two specific things. Both were verified
+against the live app at planning time, so the episode is not overselling:
+
+- **"pick your child's entry grade and it filters to just your track"** — real. The band
+  selector is `AdmissionsGuideBody` in `src/components/AdmissionsProgram.tsx:236`, labeled
+  `admissions.applyingFor` ("I'm applying for…"), and it re-renders the whole guide for the
+  selected band. It collapses for a one-band school (`single`), which no admissions school
+  is today.
+- **"gives you a checklist you can print and tick off"** — real. The `Export checklist`
+  button (`admissions.exportChecklist`) links to a dedicated per-band route,
+  `/school/<slug>/admissions-checklist/?band=<key>`, rendered by
+  `src/pages/AdmissionsChecklist.tsx` with `@media print` rules in `src/index.css`.
+
+If either affordance is ever removed or renamed, **the prompt's opening and closing lines
+must change with it** — otherwise the episode sends parents to a control that no longer
+exists. Note the dependency here rather than discovering it from a listener.
 
 Interpolate `{{SCHOOL_NAME}}` from `schools.json`, `{{CYCLE}}` from `guide.cycle`,
 `{{BAND_COUNT}}` from `guide.bands.length`, `{{BAND_LABELS}}` from the band labels joined
