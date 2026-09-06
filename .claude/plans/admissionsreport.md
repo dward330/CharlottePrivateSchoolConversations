@@ -27,9 +27,21 @@ school's **Admissions** research area and writes two files:
 Upload the PDF to a NotebookLM notebook, paste the prompt, and it produces a
 *Charlotte Private School Conversations* episode that walks a parent through **how to
 actually apply to that school** — the steps in order, the deadlines that matter, which
-assessment their child sits, what to submit, and who to phone. The episode opens and
-closes by pointing parents at **www.charlotteschoolinsights.com** to follow the guidance
-and generate a checklist for themselves.
+assessment their child sits, what to submit, and who to phone.
+
+The episode names two websites, and the distinction between them is deliberate.
+**www.charlotteschoolinsights.com** is recommended twice — at the open and the close — as
+*a helpful resource for parents on this journey*: it filters the process to their child's
+entry grade and prints them a checklist. **The school's own admissions site** is named as
+*the authoritative source*, the one that gets updated when a date changes, and parents are
+told to confirm there before acting. The insights site is never described as the source of
+the facts — those come from the school's own published pages — and it is never mentioned
+without the school's site alongside it.
+
+Before any report is written, the command **checks the app's data against the school's own
+live admissions site** and builds the report from the live values where they differ, then
+lists every discrepancy and asks whether to update the web app. See "The freshness check"
+below — it is a hard requirement, because the episode tells parents to act on dates.
 
 We will know it worked when `--school providence-day` writes a PDF whose band count,
 deadline dates, contact names and source URLs match
@@ -306,6 +318,140 @@ Exit code 2. **Write no files** — not a stub PDF, not an empty prompt.
 Derive the school's display name from `schools.json` for the message. Do not hardcode
 eleven names.
 
+## The freshness check — REQUIRED before any report is written
+
+**User requirement, added 2026-09-06.** Before a report is generated, the app's data for
+that school must be checked against the school's **own live admissions website**. The
+episode tells parents to act on dates; shipping a stale date into audio is the one failure
+here that can cost a family a place.
+
+This is not optional and not a "nice to have if time allows" — it runs every time, because
+the whole point of a per-school command is that it gets run months and years apart.
+
+### Why this matters more than it looks
+
+Every admissions file was **retrieved Aug 2026** (all eight retrieval stamps agree). This
+plan is dated 2026-09-06, so the data is already about a month old — and autumn is exactly
+when schools publish the next cycle's calendar. Three schools sit on the 2026–27 cycle and
+three on 2027–28, so some are mid-cycle and some are about to roll. A report generated a
+year from now against unchecked data would be confidently wrong about every date.
+
+The app is also honest that this can happen: `checklist.disclaimer` on every school already
+says cycle dates shift year to year and must be verified against the live calendar. The
+freshness check is that disclaimer turned into an actual step.
+
+### What the check does
+
+Run it as **step 0** of the command, before the PDF is built:
+
+1. **Fetch the school's own admissions pages** — start from `guide.sources` (every entry
+   carries the real URL, and the first is the school's admissions page by convention).
+   Follow the pages that carry dates: the admissions calendar, the per-band process pages,
+   and the tuition/financial-aid page for the aid deadline.
+2. **Compare against the app's data**, field by field, for the things an episode states as
+   fact and a parent acts on:
+   - the entry `cycle` itself — has the school moved to the next one?
+   - every `deadlines[].value` on every band
+   - every `steps[].tag` date chip
+   - every `comparison.rows[].cells` date
+   - assessment names (WPPSI-IV, WISC-V, ISEE, CAIS …) and which band sits which
+   - fees and deposits (`$100` application, `$2,500` deposit, `$65` Clarity, `$300` testing)
+   - the financial-aid deadline in `aid.text`
+   - admissions-office names, roles and phone numbers in `contacts.people`
+   - anything the app marks "not published" that the school has SINCE published — that is a
+     real find, not a non-event
+3. **Classify every difference** as `CHANGED` (app has X, site now says Y),
+   `NEW` (site publishes something the app marks not-published), or
+   `GONE` (app has something the site no longer shows).
+
+### What happens when the site and the app disagree
+
+**The school's own website wins, always.** It is the authority — that is exactly what the
+episode tells parents. So:
+
+- **Build the report from the LIVE values**, not the app's. The PDF must never carry a date
+  the school has already moved, because that date would be spoken aloud as current.
+- **Mark each corrected value in the PDF** with a short inline note — e.g.
+  `Feb 1, 2027 (updated from the school's live calendar, checked 2026-09-06)` — so the
+  provenance is visible in the artifact rather than lost.
+- **Do NOT silently edit `src/data/admissionsPrograms/<slug>.ts`.** Editing shipped
+  research data is a separate, reviewable change that goes through the ingest pipeline and
+  the data-provenance standard (new/updated files under
+  `source-material/admissions/<school>/` with their source URLs). A report command must not
+  rewrite the website's content as a side effect.
+
+### Reporting back to the user — required
+
+After the report is written, **print a discrepancy summary and ask whether to update the
+web app.** Format:
+
+```
+FRESHNESS CHECK — Providence Day School, against providenceday.org, 2026-09-06
+
+  3 differences found. The report was built from the LIVE site values.
+
+  • CHANGED — TK/K materials deadline
+      app:  Feb 1, 2027
+      site: Feb 5, 2027
+      why it matters: spoken as a hard deadline in the TK/K segment; a parent
+      acting on the app's date would be four days early, which is harmless —
+      but the reverse case is not, and the app is now wrong either way.
+      source: https://www.providenceday.org/admissions
+
+  • NEW — Grades 1–5 assessment instrument
+      app:  "Required — instrument not published"
+      site: "ERB CTP administered on campus"
+      why it matters: the app currently tells parents to phone and ask about
+      something the school now publishes. This also removes one item from the
+      "things the school doesn't publish" segment.
+      source: https://www.providenceday.org/admissions/testing
+
+  • CHANGED — Associate Director of Admissions
+      app:  James Garland · 704-887-6029
+      site: not listed; two new names appear
+      why it matters: the episode reads contact names aloud. Naming someone who
+      has left sends parents to a dead extension.
+      source: https://www.providenceday.org/admissions/meet-our-team
+
+Update the web app with these? The report is already correct either way — this
+would bring src/data/admissionsPrograms/providence-day.ts and the committed
+source-material back in line with the school's site.
+```
+
+Rules for that summary:
+
+- **Bullets, one per difference**, each carrying app value, site value, **why it matters**
+  in plain language, and the source URL. The "why it matters" is the point — a bare diff
+  does not tell the user whether to care.
+- **Never auto-apply.** Ask; the user decides. This is research data with a provenance
+  standard attached.
+- **Say explicitly that the report is already correct**, so the user knows the episode is
+  safe to make regardless of whether they take the update.
+- **When nothing has changed, say so** — `FRESHNESS CHECK — no differences found; the app's
+  data matches the school's live site as of <date>.` Silence would be indistinguishable
+  from the check not having run.
+
+### If the school's site cannot be reached
+
+Do **not** fail the whole command, and do **not** silently proceed as if it were verified.
+Build the report from the app's data, and:
+
+- stamp the PDF's disclaimer with
+  `Live-site verification could not be completed on <date>; figures are as researched
+  <retrieval date>. Verify against <SCHOOL_SITE> before acting.`
+- tell the user plainly which pages could not be fetched, and that the report is unverified
+
+An unverifiable report is still useful; an unverified report presented as verified is not.
+
+### Implementation note
+
+The check needs live web access, which a plain Node script does not have. So the freshness
+check belongs to the **`/admissions-episode` command** (step 3 below), which runs in a
+Claude session with web tools, rather than inside `gen_admissions_report.mjs`. The script
+stays offline and deterministic; the command does the fetching, hands the script any
+corrections via a `--overrides <json>` flag, and prints the summary. Design that flag so
+the script remains runnable standalone with no overrides at all.
+
 ## Build steps
 
 ### Step 1 — `reports/` is gitignored
@@ -325,8 +471,18 @@ Verified at planning time: no `reports/` directory exists and nothing in `.gitig
 The whole generator, one file. Structure it as:
 
 1. **Arg parsing** — `--school <slug>` (required), `--out <dir>` (default
-   `reports/admissions`), `--quiet`. If `--school` is missing, print the six available
-   slugs and exit 2. Follow the arg style of the existing `scripts/check_*.mjs`.
+   `reports/admissions`), `--quiet`, and `--overrides <path-to-json>` (optional). If
+   `--school` is missing, print the six available slugs and exit 2. Follow the arg style of
+   the existing `scripts/check_*.mjs`.
+
+   **`--overrides` carries the freshness check's corrections.** A JSON file keyed by a dot
+   path into the guide, each entry `{ value, note, source }` — e.g.
+   `{"bands.tkk.deadlines.0.value": {"value": "Feb 5, 2027", "note": "updated from the
+   school's live calendar, checked 2026-09-06", "source": "https://…"}}`. The script applies
+   each override to its copy of the data before rendering and prints the `note` inline
+   beside the corrected value in the PDF. **The script must remain fully runnable with no
+   overrides at all** — offline, deterministic, and correct against the committed data — so
+   it can be tested and re-run without web access.
 2. **Resolve the school** — read `src/data/schools.json` for the display name; run the
    no-data gate above.
 3. **Import the data** — `await import('../src/data/admissionsPrograms/<slug>.ts')`, take
@@ -370,18 +526,31 @@ It must:
    If the user passed an argument, use it — but still validate it.
 2. **Run the no-data gate** and stop with the explanation above if the school has none.
    State plainly that no files were written.
-3. Run `npm run report:admissions -- --school <slug>`.
-4. Report the two output paths, and print the **NotebookLM upload instructions**:
+3. **Run the freshness check** — the whole section above. Fetch the school's own admissions
+   pages from `guide.sources`, compare every date, fee, assessment name and contact against
+   the app's data, and classify each difference. Tell the user this is happening; it is the
+   slowest step and silence looks like a hang.
+4. Run `npm run report:admissions -- --school <slug>`, passing any corrections found in
+   step 3 via `--overrides`. **The live site wins** — the report is built from the site's
+   values, with each correction marked in the PDF.
+5. Report the two output paths, and print the **NotebookLM upload instructions**:
    - open notebooklm.google.com, create a notebook named
      `Charlotte Private School Conversations — <School> Admissions`
    - upload the PDF as the only source
    - open Audio Overview → Customize, paste the prompt from the `.txt`
    - generate, then download the audio
-5. Remind the user to **listen before publishing**, specifically checking that the dates
-   and the entry cycle were spoken correctly and that the
-   `www.charlotteschoolinsights.com` mention landed at both the open and the close.
+6. **Print the freshness-check summary and ask whether to update the web app** — bullets,
+   each with app value, site value, why it matters, and the source URL, in the format the
+   freshness-check section specifies. Say explicitly that the report is already correct
+   either way. If nothing changed, say that too. **Never auto-apply an update** — if the
+   user says yes, that is a separate branch and PR following the data-provenance standard
+   (new `source-material/admissions/<school>/*.md` with source URLs, then the data edit).
+7. Remind the user to **listen before publishing**, specifically checking that the dates
+   and the entry cycle were spoken correctly, that both website mentions landed (the
+   insights site at open and close, the school's own site as the authority), and that no
+   raw URL or document GUID was read aloud.
 
-Keep the command thin — it orchestrates, the script does the work.
+Keep the command thin — it orchestrates and does the web fetching, the script renders.
 
 ### Step 4 — verification
 
@@ -464,22 +633,38 @@ website get mentioned. Do not merge them, and do not mention the website first.
     deadlines that go with each one. By the end of this you should know precisely what to
     do first, what comes next, and what you need to have ready.
 
-  BEAT 2 — WHY THE WEBSITE HELPS (~20 seconds). Immediately after, now that the listener
-  knows what is coming. Give the site a concrete job — never a bare URL read:
-    One thing before we start. Everything we're about to cover comes from
-    www.charlotteschoolinsights.com — it's where this school's whole admissions process is
-    laid out in writing: every deadline, every form, every contact. Two reasons to pull it
-    up right now. First, we're going to say a lot of dates out loud, and you shouldn't have
-    to write them down — they're all on the page. Second, the site lets you pick your
-    child's entry grade and filters everything down to just your track, then gives you a
-    checklist you can print and tick off. So the best way to listen to this episode is with
-    that page open, building your own list as we go.
+  BEAT 2 — TWO RESOURCES, AND WHICH ONE IS THE AUTHORITY (~25 seconds). Immediately after,
+  now that the listener knows what is coming. This beat names BOTH websites and is careful
+  about which does what:
+    One thing before we start. A really useful resource for parents going through this is
+    www.charlotteschoolinsights.com — it lays this school's admissions process out in one
+    place, lets you pick your child's entry grade so you only see your own track, and gives
+    you a checklist you can print and tick off. It's a great companion while you listen.
+    And alongside it, keep {{SCHOOL_NAME}}'s own admissions pages open too — that's the
+    official source, and it's the one that gets updated when a date or a requirement
+    changes. Use the insights site to get organised; use the school's own site to confirm
+    before you act on anything.
 
-  WHY BEAT 2 IS FRAMED THAT WAY — keep this reasoning if you reword it. This school runs
-  {{BAND_COUNT}} separate entry tracks, so most of what a listener hears will not apply to
-  their own child. Audio cannot filter; the website can. Pointing at it as the thing that
-  narrows the process down to THEIR track is both true and the site's real advantage over
-  the episode. Never pitch it as a generic recommendation.
+  TWO RULES FOR THIS BEAT, BOTH LOAD-BEARING:
+
+  (a) NEVER say the episode's facts "come from" charlotteschoolinsights.com, or that it is
+      where the process "is published". They come from {{SCHOOL_NAME}}'s OWN published
+      admissions pages; the insights site organises and presents them. Claiming otherwise
+      positions a third-party site as the system of record for another organisation's
+      deadlines, which is both untrue and a real liability the moment a date shifts. Frame
+      it as a helpful resource for the journey — never as the source.
+
+  (b) ALWAYS pair it with the instruction to check the school's own website. Cycle dates
+      move year to year (the data itself carries that warning, and this episode repeats it
+      in the hard rules below). A parent who treats any secondary source as final can miss
+      a real deadline. The school's site is the authority; say so plainly, in both the open
+      and the close.
+
+  WHY THE INSIGHTS SITE IS WORTH MENTIONING AT ALL — keep this reasoning if you reword it.
+  This school runs {{BAND_COUNT}} separate entry tracks, so most of what a listener hears
+  will not apply to their own child. Audio cannot filter; the site can. Narrowing the
+  process to THEIR track, and handing them a printable checklist, is genuine help — that is
+  the pitch, not a generic recommendation to go and visit.
 
 THEN RUN THESE SEGMENTS IN THIS ORDER:
 
@@ -512,33 +697,50 @@ THEN RUN THESE SEGMENTS IN THIS ORDER:
    identical in all of them. This is the segment a parent with two children of different
    ages needs.
 
-5. WHO TO CONTACT (~1-2 min)
+5. WHO TO CONTACT, AND WHERE THE OFFICIAL INFORMATION LIVES (~1-2 min)
    Name the admissions office, its address and main number, and the specific people the PDF
    names with their roles. If the PDF names a Spanish-speaking contact, say so explicitly.
    Encourage calling early rather than guessing.
+   Then point at the school's OWN admissions website as the authoritative source. The PDF
+   states it as {{SCHOOL_SITE}} — say that aloud rather than a vague "check their website",
+   so a listener can actually find it. Frame it as: the office and that page are where the
+   current, official answer lives, and anything you hear in a podcast or read on a summary
+   site should be confirmed there before you act.
+   Do NOT read any other URL from the SOURCES list aloud. Several are deep links to
+   documents — one school's is a resource-manager address ending in a long string of random
+   characters — which are unspeakable and useless in audio. The spoken address is
+   {{SCHOOL_SITE}} and nothing else.
 
 6. THE THINGS THE SCHOOL DOESN'T PUBLISH (~1 min)
    The PDF marks some items "not published", "confirm with admissions", or gives a time
    without a date. Say these plainly: the school does not publish it, so call and ask. Never
    fill one of these gaps with a guess or an assumption from another school.
 
-CLOSE WITH THIS (~30 seconds):
+CLOSE WITH THIS (~35 seconds):
   Recap the two or three dates that matter most for this school. Then, in your own words:
-    That's the whole application. Every date and every contact we mentioned is at
-    www.charlotteschoolinsights.com — pick your child's entry grade and it'll show you just
-    your track, then print you a checklist. Do three things this week: send the inquiry
-    form, put the deadlines in your calendar today, and call the admissions office about
-    anything you're unsure of. They'd far rather hear from you early.
+    That's the whole application. If it helps to have it all in one place,
+    www.charlotteschoolinsights.com is a great resource for parents on this journey — pick
+    your child's entry grade and it'll show you just your track, then print you a checklist
+    you can work through. But do check {{SCHOOL_NAME}}'s own admissions page as well before
+    you act, because that's the official source and these dates do shift from year to year.
+    Then do three things this week: send the inquiry form, put the deadlines in your
+    calendar today, and call the admissions office about anything you're unsure of. They'd
+    far rather hear from you early.
 
-  The two website mentions do DIFFERENT jobs and must not be interchangeable: the open says
-  "listen with this open", the close says "now go and act on it". Both name the
+  The two insights-site mentions do DIFFERENT jobs and must not be interchangeable: the
+  open says "listen with this open", the close says "now go and act on it". Both name the
   entry-grade filter and the printable checklist, because that is the specific help on
-  offer.
+  offer — and BOTH pair it with the instruction to verify against the school's own site.
+  A mention of the insights site without that pairing is incomplete in either position.
 
 HARD RULES:
 - Every date you speak must be labeled as the {{CYCLE}}. At least once, say clearly that
   cycle dates shift from year to year and that parents must verify against the school's own
   live admissions calendar before acting. This is the most important caveat in the episode.
+  Note this lands THREE times by design — the opening beat, this caveat in the body, and
+  the close. That is deliberate reinforcement of the one point that can actually cost a
+  parent a place, not accidental repetition: vary the wording each time, but never drop one
+  of the three.
 - Speak dates in full ("January the fifteenth, twenty twenty-seven"), never as digits.
 - Never invent a date, a fee, a test name, a form name, or a person's name. If the PDF says
   it is not published, say that it is not published.
@@ -549,7 +751,12 @@ HARD RULES:
   beat, once in the close. Never in between — sprinkling it through the middle reads as an
   advertisement and undoes the credibility of the rest. Each mention must state what the
   site actually DOES for the listener (filters to their entry grade, gives a printable
-  checklist, holds every date so they need not take notes), never just the address.
+  checklist), never just the address — and must describe it as a helpful resource for
+  parents, NEVER as the source of the facts or the place the process "is published".
+- BOTH of those mentions must be paired with pointing the parent at {{SCHOOL_NAME}}'s OWN
+  admissions website as the official, authoritative source — the one that gets updated when
+  something changes. The school's own site is where a parent verifies before acting. Never
+  name the insights site without naming the school's site in the same breath.
 - Say "Charlotte Private School Conversations" in the opening, and open with "Welcome
   back" — this is an established show, not a first episode.
 ```
@@ -577,6 +784,39 @@ Interpolate `{{SCHOOL_NAME}}` from `schools.json`, `{{CYCLE}}` from `guide.cycle
 `{{BAND_COUNT}}` from `guide.bands.length`, `{{BAND_LABELS}}` from the band labels joined
 readably (`'TK / Kindergarten, Grades 1–5, and Grades 6–12'`).
 
+**`{{SCHOOL_SITE}}` is a SPEAKABLE domain, not a raw URL.** Derive it as the host of the
+FIRST source carrying a URL, with `www.` stripped:
+
+```js
+const first = guide.sources.find((x) => x.url)
+const site = new URL(first.url).host.replace(/^www\./, '')
+```
+
+Verified 6/6 at planning time — `charlottechristian.com`, `charlottecountryday.org`,
+`charlottelatin.org`, `covenantday.org`, `hgchristian.org`, `providenceday.org`. The first
+source is the school's own admissions page in every file, by convention.
+
+**Cross-check it, and fail loudly if it disagrees.** Every source label is prefixed with
+the bare domain (`'providenceday.org — admissions process, …'`), so the host can be
+validated against the label rather than trusted:
+
+```js
+const claimed = (first.label.match(/^([a-z0-9.-]+\.[a-z]{2,})\s+—/i) || [])[1]
+// claimed must equal site (case-insensitive) — 6/6 agree today
+```
+
+If they disagree, the source order has changed; stop rather than printing a domain that
+sends parents to the wrong organisation.
+
+**Two rejected approaches, so they are not retried.** "Shortest URL" yields
+`k12.ncseaa.edu` (the state grant agency), `app.clarityapp.com` (the financial-aid vendor,
+for two schools) and `providenceday.myschoolapp.com` (a portal subdomain) — **four of six
+wrong**, each pointing a parent at a different organisation entirely. And `sources[0].url`
+used verbatim is Charlotte Christian's
+`https://www.charlottechristian.com/fs/resource-manager/view/8927b24e-…`, a document GUID
+that is meaningless read aloud. The host of the first source is right; the URL itself is
+not.
+
 Note the segment count is **data-driven** — Hickory Grove has 5 bands and will get 5 band
 segments, which is why segment 2 is written as a loop rather than a fixed list. For a
 5-band school the prompt's own 15–20 minute budget gets tight; that is acceptable and
@@ -593,9 +833,11 @@ budget.
   user-facing app text — they are a research artifact and a tool instruction, neither of
   which lives in `src/locales/*.json` or the prose overlays. This plan is **phases: 1** for
   that reason. Do not add these strings to any locale catalog.
-- **No new source-material.** Every fact comes from data already committed and already
-  cited. Nothing is fetched, so the data-provenance standard is satisfied by the existing
-  files.
+- **No unattended data edits.** The freshness check fetches the school's live site and may
+  find the committed data is stale — but it **reports** that and asks. It never edits
+  `src/data/admissionsPrograms/**` or writes `source-material/**` on its own. Accepting an
+  update is a separate branch and PR through the normal ingest and data-provenance
+  pipeline, exactly as `/plan` leaves fetched data uningested for `/implement`.
 - **No episode row in `src/data/podcastEpisodes.ts`.** The episodes this produces are not
   published yet. Once one is live, adding it to that table (so it appears under the
   school's Admissions header) is a separate, one-line change — see
@@ -622,6 +864,11 @@ first thing to check when listening back.
 ## Verification checklist for the PR
 
 - [ ] `npm run report:admissions -- --school providence-day` writes both files
+- [ ] The script runs correctly with **no** `--overrides` — offline and deterministic
+- [ ] `--overrides` applies a value AND prints its provenance note inline in the PDF
+- [ ] The freshness check ran, and its summary printed with app value / site value / why it
+      matters / source URL per bullet — or "no differences found" when clean
+- [ ] The freshness check did **not** edit `src/data/**` or `source-material/**`
 - [ ] All six admissions schools generate with no code change between them
 - [ ] `charlotte-catholic` and a bogus slug both exit 2 and write nothing
 - [ ] `git status --short` shows no `reports/` entries
