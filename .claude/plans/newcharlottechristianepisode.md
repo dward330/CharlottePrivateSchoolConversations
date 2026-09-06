@@ -319,10 +319,28 @@ orderings cannot diverge. Both accessors feed only `PodcastDeepDive.tsx`, which 
 array in render order and reads `episodes[0]` only in the single-episode branch — so
 nothing else depended on the old ordering.
 
-This also flipped the ordering of every pre-existing multi-episode section. Verified in a
-browser: Charlotte Christian's Course Offerings went from 2 → 7 → 9 to 9 → 7 → 2. The
-page-level "More episodes" list is sorted too, though the ordering is not yet visible
-anywhere — episode 32 is still the only `researchArea: null` episode.
+This also flipped the ordering of every pre-existing multi-episode section. **All six
+school pages are affected, across seven sections** — every school has a three-episode
+Course Offerings strip, and Charlotte Christian additionally has the new two-episode
+Sports strip:
+
+| School | Section | Was | Now |
+|---|---|---|---|
+| cannon | course-offerings | 1 → 3 → 6 | 6 → 3 → 1 |
+| charlotte-christian | course-offerings | 2 → 4 → 7 | 7 → 4 → 2 |
+| charlotte-christian | sports | 16 → 33 | 33 → 16 |
+| charlotte-country-day | course-offerings | 1 → 3 → 6 | 6 → 3 → 1 |
+| charlotte-latin | course-offerings | 2 → 4 → 7 | 7 → 4 → 2 |
+| davidson-day | course-offerings | 2 → 4 → 7 | 7 → 4 → 2 |
+| providence-day | course-offerings | 1 → 3 → 6 | 6 → 3 → 1 |
+
+Verified in a browser on Charlotte Christian (Sports and Course Offerings both flipped).
+The PR body and commit message for #274 cite Course Offerings as "2 → 7 → 9"; the correct
+ids are **2 → 4 → 7**, mis-transcribed from a browser check that read rendered titles
+rather than ids. The ordering flip itself was correctly observed.
+
+The page-level "More episodes" list is sorted too, though the ordering is not yet visible
+anywhere — episode 32 is still the only `researchArea: null` episode, on all six pages.
 
 The plan's Out-of-scope items were respected: the episode's new facts (1,100 seats,
 January 2027 completion) are recorded in the source-material file only and were **not**
