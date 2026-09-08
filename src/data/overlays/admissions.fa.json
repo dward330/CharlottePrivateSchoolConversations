@@ -644,8 +644,8 @@
       ]
     },
     {
-      "t": "ساعت اعلام تصمیم — تاریخ در تقویم به‌روز",
-      "of": "1ab613ed",
+      "t": "اعلام نتایج دور اول، 4:00 p.m.",
+      "of": "6e643755",
       "at": [
         "providence-day:guide.bands[1].deadlines[2].label",
         "providence-day:guide.bands[2].deadlines[2].label"
@@ -700,8 +700,8 @@
       ]
     },
     {
-      "t": "سوابق و توصیه‌نامهٔ معلم",
-      "of": "3862a5bc",
+      "t": "سوابق، توصیه‌نامه و بازدید یک‌روزه",
+      "of": "8e4565dd",
       "at": [
         "providence-day:guide.bands[1].steps[2].title"
       ]
@@ -740,8 +740,8 @@
       ]
     },
     {
-      "t": "سوابق مدرسه/کارنامه و فرم توصیه‌نامه، هر دو از طریق سیاههٔ سامانه انجام می‌شوند — اینکه دقیقاً چه مدارکی برای این پایه لازم است منتشر نشده، پس سامانه را ملاک نهایی بدانید.",
-      "of": "9d914599",
+      "t": "فهرست بر حسب پایه فرق می‌کند. **متقاضیان پایهٔ 1** یک فرم اطلاعات معلم، یک ارزیابی معلم PD و یک کارنامه ارائه می‌دهند. **متقاضیان پایه‌های 2–5** یک فرم توصیه‌نامهٔ معلم، یک فرم اجازهٔ ارسال کارنامه (همراه با نمرات نیم‌سال اول یا سه‌ماههٔ دوم) و یک بازدید یک‌روزه با ارزیابی معلم ارائه می‌دهند. همهٔ این‌ها از طریق فهرست وارسی پورتال انجام می‌شود.",
+      "of": "58257ae5",
       "at": [
         "providence-day:guide.bands[1].steps[2].detail"
       ]
@@ -754,70 +754,75 @@
       ]
     },
     {
-      "t": "برای پایه‌های 1–5 مرحلهٔ ارزیابی وجود دارد، اما ابزار مشخص آن منتشر نشده است — از دفتر پذیرش بپرسید فرزندتان چه ارزیابی‌ای می‌دهد و وقت آن چگونه تعیین می‌شود.",
-      "of": "0fc7cf16",
+      "t": "ابزار ارزیابی به پایه بستگی دارد: **متقاضیان پایهٔ 1** آزمون WPPSI-IV را می‌دهند، همان مقیاس پیش‌دبستانی وکسلر که در TK/K است؛ **پایه‌های 2–4** آزمون WISC-V را می‌دهند، مقیاس هوش وکسلر برای کودکان؛ و **پایهٔ 5** آزمون ISEE را می‌دهد، Independent School Entrance Exam. برای زمان‌بندی آزمونی که به فرزند شما مربوط است با دفتر پذیرش تماس بگیرید.",
+      "of": "7c616ee0",
       "at": [
         "providence-day:guide.bands[1].steps[3].detail"
       ]
     },
     {
-      "t": "بهار 2027",
-      "of": "a01a41e1",
+      "t": "9 آوریل 2027",
+      "of": "deb16d0c",
       "at": [
         "providence-day:guide.bands[1].steps[4].tag",
         "providence-day:guide.bands[1].checklistRows[5].due",
-        "providence-day:guide.bands[1].checklistRows[6].due",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
-        "providence-day:guide.bands[2].checklistRows[6].due"
+        "charlotte-christian:guide.bands[1].checklistRows[7].due",
+        "charlotte-christian:guide.bands[2].checklistRows[7].due",
+        "charlotte-christian:guide.bands[3].checklistRows[10].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].due",
+        "covenant-day:guide.bands[1].checklistRows[8].due",
+        "covenant-day:guide.bands[2].checklistRows[9].due"
       ]
     },
     {
-      "t": "تصمیم‌های دور نخست در تاریخ اعلام‌شده ساعت 4:00 p.m. منتشر می‌شوند — تقویم به‌روز را دنبال کنید. سپس قرارداد امضاشده و ودیعهٔ $2,500 صندلی را تضمین می‌کند.",
-      "of": "6b44fdc7",
+      "t": "نتایج دور اول در 9 آوریل 2027 ساعت 4:00 p.m. اعلام می‌شود. سپس قرارداد امضاشده و ودیعهٔ $2,500 جای تحصیلی را تضمین می‌کند.",
+      "of": "6c1511dc",
       "at": [
         "providence-day:guide.bands[1].steps[4].detail",
         "providence-day:guide.bands[2].steps[4].detail"
       ]
     },
     {
-      "t": "پایه‌ای با کمترین اطلاعات منتشرشده",
-      "of": "9dd2cdbd",
+      "t": "گروهی که بر حسب پایه تقسیم می‌شود",
+      "of": "f23a62a5",
       "at": [
         "providence-day:guide.bands[1].watchOuts[0].kicker"
       ]
     },
     {
-      "t": "پایه‌های 1–5 از همان تقویم پایه‌های 1–12 پیروی می‌کنند، اما **فهرست مدارک، فرم توصیه‌نامه و ابزار ارزیابی آن منتشر نشده است**. سیاههٔ Charger Commons شما فهرست معتبر است — و اگر پیش از اقدام به پاسخی قطعی نیاز دارید، آن را کتباً از دفتر پذیرش بخواهید.",
-      "of": "5d4c93da",
+      "t": "پایه‌های 1–5 همان تقویم پایه‌های 1–12 را دارند، اما الزامات در درون آن تقسیم می‌شود. **متقاضیان پایهٔ 1** مانند کوچک‌ترین متقاضیان در نظر گرفته می‌شوند — WPPSI-IV، یک فرم اطلاعات معلم، یک ارزیابی معلم PD و یک کارنامه. **متقاضیان پایه‌های 2–5** آزمون WISC-V (پایه‌های 2–4) یا ISEE (پایهٔ 5) را می‌دهند و یک فرم اجازهٔ ارسال کارنامه و یک بازدید یک‌روزه هم به آن افزوده می‌شود. فهرست وارسی Charger Commons شما دقیقاً نشان می‌دهد کدام موارد به فرزند شما مربوط است.",
+      "of": "be869b7f",
       "at": [
         "providence-day:guide.bands[1].watchOuts[0].text"
       ]
     },
     {
-      "t": "هیچ مرحلهٔ بازدید دانش‌آموز منتشر نشده است",
-      "of": "787334a5",
+      "t": "مرحلهٔ بازدید وجود دارد — برای پایه‌های 2–5",
+      "of": "b8e803da",
       "at": [
         "providence-day:guide.bands[1].watchOuts[1].kicker"
       ]
     },
     {
-      "t": "برخلاف بازدید الزامی از کلاس در TK/K، برای این پایه هیچ روز همراهی یا بازدید مشابهی منتشر نشده است. این به‌معنای نبودن آن نیست — تنها اطلاعاتش در دسترس نبود. هنگام بازدید بپرسید.",
-      "of": "54f44ab8",
+      "t": "متقاضیان پایه‌های 2–5 یک **بازدید یک‌روزه با ارزیابی معلم** دارند، یعنی فرزند شما یک روز را در کلاس PD می‌گذراند و همان‌جا مشاهده می‌شود. برای پایهٔ 1 هیچ مرحلهٔ بازدید یک‌روزه‌ای منتشر نشده است. در بازدید از مدرسه بپرسید این بازدید چگونه زمان‌بندی می‌شود.",
+      "of": "67124422",
       "at": [
         "providence-day:guide.bands[1].watchOuts[1].text"
       ]
     },
     {
-      "t": "سامانه ملاک نهایی است.",
-      "of": "cf3c4540",
+      "t": "ببینید کدام پایه است.",
+      "of": "7a98dca2",
       "at": [
         "providence-day:guide.bands[1].checklistCallout.lead"
       ]
     },
     {
-      "t": "فهرست دقیق مدارک و ارزیابی پایه‌های 1–5 روی وب‌سایت منتشر نشده است — سیاههٔ Charger Commons شما فهرست معتبر است. جزئیات را با دفتر پذیرش بررسی کنید.",
-      "of": "04ad8994",
+      "t": "مدارک لازم و ارزیابی‌های متقاضیان پایهٔ 1 با متقاضیان پایه‌های 2–5 فرق دارد. فهرست وارسی Charger Commons شما فهرست دقیق پایهٔ فرزندتان را نشان می‌دهد.",
+      "of": "612c48bd",
       "at": [
         "providence-day:guide.bands[1].checklistCallout.text"
       ]
@@ -867,15 +872,15 @@
       ]
     },
     {
-      "t": "سوابق مدرسه و توصیه‌نامهٔ معلم را بفرستید",
-      "of": "ffd3c182",
+      "t": "سوابق، توصیه‌نامه و موارد مربوط به بازدید یک‌روزه را ارائه دهید",
+      "of": "eb01b992",
       "at": [
         "providence-day:guide.bands[1].checklistRows[3].action"
       ]
     },
     {
-      "t": "هر دو از طریق سیاههٔ سامانه انجام می‌شوند، که فهرست نهایی است.",
-      "of": "05037617",
+      "t": "پایهٔ 1: فرم اطلاعات معلم، ارزیابی معلم PD، کارنامه. پایه‌های 2–5: فرم توصیه‌نامهٔ معلم، فرم اجازهٔ ارسال کارنامه، بازدید یک‌روزه با ارزیابی معلم.",
+      "of": "3424c1d2",
       "at": [
         "providence-day:guide.bands[1].checklistRows[3].detail"
       ]
@@ -888,15 +893,15 @@
       ]
     },
     {
-      "t": "ابزار آن منتشر نشده است — از دفتر پذیرش بپرسید کدام است و چگونه باید رزرو شود.",
-      "of": "fa99945e",
+      "t": "پایهٔ 1: WPPSI-IV · پایه‌های 2–4: WISC-V · پایهٔ 5: ISEE. برای زمان‌بندی آن با دفتر پذیرش تماس بگیرید.",
+      "of": "d9656a5d",
       "at": [
         "providence-day:guide.bands[1].checklistRows[4].detail"
       ]
     },
     {
-      "t": "تصمیم‌های دور نخست ساعت 4:00 p.m. اعلام می‌شوند — تاریخ در تقویم به‌روز.",
-      "of": "96ac0e7c",
+      "t": "نتایج دور اول ساعت 4:00 p.m. اعلام می‌شود.",
+      "of": "8f42b8ac",
       "at": [
         "providence-day:guide.bands[1].checklistRows[5].detail",
         "providence-day:guide.bands[2].checklistRows[5].detail"
@@ -911,6 +916,14 @@
       ]
     },
     {
+      "t": "پس از 9 آوریل 2027",
+      "of": "7e5c7b9e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ]
+    },
+    {
       "t": "پایه‌های 6–12",
       "of": "327ac2eb",
       "at": [
@@ -919,8 +932,8 @@
       ]
     },
     {
-      "t": "آزمون استاندارد (ISEE)",
-      "of": "922c6d07",
+      "t": "ISEE + مصاحبه",
+      "of": "8d62c402",
       "at": [
         "providence-day:guide.bands[2].sublabel"
       ]
@@ -941,15 +954,15 @@
       ]
     },
     {
-      "t": "کارنامه و توصیه‌نامه‌ها",
-      "of": "5c4c3399",
+      "t": "کارنامه، توصیه‌نامه‌ها و مصاحبه‌ها",
+      "of": "767cfcb5",
       "at": [
         "providence-day:guide.bands[2].steps[2].title"
       ]
     },
     {
-      "t": "از طریق سیاههٔ سامانه ارسال می‌شوند. فرم‌های توصیه‌نامهٔ ویژهٔ این پایه منتشر نشده‌اند — سامانه دقیقاً نشان می‌دهد فرزند شما به کدام‌ها نیاز دارد.",
-      "of": "08538be3",
+      "t": "دو فرم توصیه‌نامه لازم است — یک **فرم توصیه‌نامهٔ انگلیسی** و یک **فرم توصیه‌نامهٔ ریاضی** — به‌علاوهٔ یک **فرم اجازهٔ ارسال کارنامه** که باید نمرات نیم‌سال اول یا سه‌ماههٔ دوم را در بر داشته باشد. همچنین **مصاحبه با دانش‌آموز و والدین** و یک **بازدید یک‌روزهٔ اختیاری** وجود دارد. همهٔ این‌ها از طریق فهرست وارسی پورتال انجام می‌شود.",
+      "of": "9204da87",
       "at": [
         "providence-day:guide.bands[2].steps[2].detail"
       ]
@@ -962,22 +975,22 @@
       ]
     },
     {
-      "t": "آزمونی که مدرسه به آن اشاره می‌کند ISEE است. آن‌قدر زود ثبت‌نام کنید که پیش از مهلت مدارک، آزمون را بدهید و نمره‌ها را دریافت کنید.",
-      "of": "1eba7071",
+      "t": "برای این گروه **ISEE** — Independent School Entrance Exam — الزامی است. آن‌قدر زود ثبت‌نام کنید که بتوانید آزمون را بدهید و پیش از مهلت ارائهٔ مدارک نتیجه را دریافت کنید.",
+      "of": "952efdce",
       "at": [
         "providence-day:guide.bands[2].steps[3].detail"
       ]
     },
     {
-      "t": "دقیقاً کدام آزمون؟",
-      "of": "596cd98b",
+      "t": "آزمون همان ISEE است",
+      "of": "2ec83543",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].kicker"
       ]
     },
     {
-      "t": "آزمون استاندارد الزامی است و ISEE تنها آزمونی است که مدرسه نام می‌برد — اما شرط دقیق برای متقاضیان داخلی (ISEE یا SSAT، و کدام سطح) **منتشر نشده است**. پیش از رزرو تاریخ آزمون با دفتر پذیرش بررسی کنید.",
-      "of": "abf379a1",
+      "t": "مدرسه **Independent School Entrance Exam (ISEE)** را به‌عنوان آزمون الزامی این گروه نام می‌برد. این آزمون سطح‌های متناسب با پایه دارد — با دفتر پذیرش تأیید کنید فرزند شما کدام سطح را می‌دهد، و تاریخی را آن‌قدر زود رزرو کنید که نتیجه پیش از مهلت 26 فوریه برای ارائهٔ مدارک برسد.",
+      "of": "a0338a6b",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].text"
       ]
@@ -1005,8 +1018,8 @@
       ]
     },
     {
-      "t": "آزمون استاندارد الزامی است؛ آزمونی که مدرسه به آن اشاره می‌کند ISEE است. شرط دقیق برای متقاضیان داخلی منتشر نشده است — با دفتر پذیرش بررسی کنید. متقاضیان بین‌المللی: ISEE + TOEFL (اگر انگلیسی زبان اصلی نباشد)؛ از چین و با I-20، از طریق TBI-New Oasis آغاز کنید.",
-      "of": "8f31dd11",
+      "t": "ISEE الزامی است. دو فرم توصیه‌نامه — انگلیسی و ریاضی — به‌علاوهٔ یک فرم اجازهٔ ارسال کارنامه، و مصاحبه با دانش‌آموز و والدین. سطح ISEE را با دفتر پذیرش تأیید کنید. متقاضیان بین‌المللی: ISEE + TOEFL (اگر انگلیسی زبان اصلی نباشد)؛ از چین و با نیاز به I-20، از طریق TBI-New Oasis آغاز کنید.",
+      "of": "8e1552d6",
       "at": [
         "providence-day:guide.bands[2].checklistCallout.text"
       ]
@@ -1037,15 +1050,15 @@
       ]
     },
     {
-      "t": "کارنامه و توصیه‌نامه‌ها را ارائه دهید",
-      "of": "0ef8af51",
+      "t": "کارنامه، توصیه‌نامه‌ها و مصاحبه‌ها را ارائه دهید",
+      "of": "a92e9d3f",
       "at": [
         "providence-day:guide.bands[2].checklistRows[4].action"
       ]
     },
     {
-      "t": "از طریق سیاههٔ سامانه، که دقیقاً نشان می‌دهد چه فرم‌هایی لازم است.",
-      "of": "e2b3e095",
+      "t": "فرم توصیه‌نامهٔ انگلیسی، فرم توصیه‌نامهٔ ریاضی و یک فرم اجازهٔ ارسال کارنامه — به‌علاوهٔ مصاحبه با دانش‌آموز و والدین.",
+      "of": "ae6e38e4",
       "at": [
         "providence-day:guide.bands[2].checklistRows[4].detail"
       ]
@@ -1140,17 +1153,18 @@
       ]
     },
     {
-      "t": "الزامی — ابزار منتشر نشده",
-      "of": "2d4beeb2",
+      "t": "پایهٔ 1: WPPSI-IV · پایه‌های 2–4: WISC-V · پایهٔ 5: ISEE",
+      "of": "dd327bbb",
       "at": [
         "providence-day:guide.comparison.rows[2].cells.g15"
       ]
     },
     {
-      "t": "آزمون استاندارد — به ISEE اشاره شده",
-      "of": "8982a6d7",
+      "t": "ISEE",
+      "of": "eac03f6f",
       "at": [
-        "providence-day:guide.comparison.rows[2].cells.g612"
+        "providence-day:guide.comparison.rows[2].cells.g612",
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
       ]
     },
     {
@@ -1161,15 +1175,15 @@
       ]
     },
     {
-      "t": "از طریق سیاههٔ سامانه — فرم منتشر نشده",
-      "of": "096ca790",
+      "t": "پایهٔ 1: فرم اطلاعات معلم + ارزیابی معلم PD · پایه‌های 2–5: فرم توصیه‌نامهٔ معلم",
+      "of": "fc59fce5",
       "at": [
         "providence-day:guide.comparison.rows[3].cells.g15"
       ]
     },
     {
-      "t": "از طریق سیاههٔ سامانه — فرم‌ها منتشر نشده‌اند",
-      "of": "3fc80d2b",
+      "t": "فرم‌های توصیه‌نامهٔ انگلیسی و ریاضی",
+      "of": "46129ff8",
       "at": [
         "providence-day:guide.comparison.rows[3].cells.g612"
       ]
@@ -1189,11 +1203,13 @@
       ]
     },
     {
-      "t": "اعلام در 4:00 p.m. — تقویم به‌روز را ببینید",
-      "of": "04c61bd6",
+      "t": "9 آوریل 2027، ساعت 4:00 بعدازظهر",
+      "of": "b70c1bbf",
       "at": [
         "providence-day:guide.comparison.rows[4].cells.g15",
-        "providence-day:guide.comparison.rows[4].cells.g612"
+        "providence-day:guide.comparison.rows[4].cells.g612",
+        "covenant-day:guide.comparison.rows[7].cells.g15",
+        "covenant-day:guide.comparison.rows[7].cells.g611"
       ]
     },
     {
@@ -1292,10 +1308,17 @@
       ]
     },
     {
+      "t": "همکار پذیرش",
+      "of": "92d5966d",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ]
+    },
+    {
       "t": "مدیر صورت‌حساب دانش‌آموزی، کمک‌هزینهٔ مالی و حسابداری · 704-887-7023",
       "of": "1e375e62",
       "at": [
-        "providence-day:guide.contacts.people[7].detail"
+        "providence-day:guide.contacts.people[8].detail"
       ]
     },
     {
@@ -1365,8 +1388,8 @@
       ]
     },
     {
-      "t": "تاریخ‌ها مربوط به دورهٔ پذیرش 2026–27 است، همان‌گونه که در تقویم پذیرش providenceday.org منتشر شده (بازیابی‌شده در اوت 2026)؛ تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از اقدام آن‌ها را با تقویم به‌روز بسنجید. مواردی که با «بررسی شود» نشان داده شده‌اند روی وب‌سایت منتشر نشده‌اند. گردآوری از Charlotte School Compare؛ وابسته به Providence Day School نیست.",
-      "of": "4437f3e8",
+      "t": "تاریخ‌ها مربوط به دورهٔ ورودی 2026–27 است، همان‌گونه که در تقویم پذیرش و صفحه‌های فرایند پذیرش providenceday.org منتشر شده (در سپتامبر 2026 با سایت زنده راستی‌آزمایی شده)؛ تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از هر اقدامی آن‌ها را در تقویم زنده بررسی کنید. مواردی که «تأیید شود» علامت خورده‌اند در وب‌سایت منتشر نشده‌اند. گردآوری از Charlotte School Compare؛ وابسته به Providence Day School نیست.",
+      "of": "5c32bc67",
       "at": [
         "providence-day:guide.checklist.disclaimer"
       ]
@@ -2146,13 +2169,6 @@
       "of": "a3f2fffc",
       "at": [
         "charlotte-latin:guide.comparison.rows[2].cells.ls"
-      ]
-    },
-    {
-      "t": "ISEE",
-      "of": "eac03f6f",
-      "at": [
-        "charlotte-latin:guide.comparison.rows[2].cells.ms"
       ]
     },
     {
@@ -3026,19 +3042,6 @@
       "of": "32e1ddb4",
       "at": [
         "charlotte-christian:guide.bands[1].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "9 آوریل 2027",
-      "of": "deb16d0c",
-      "at": [
-        "charlotte-christian:guide.bands[1].checklistRows[7].due",
-        "charlotte-christian:guide.bands[2].checklistRows[7].due",
-        "charlotte-christian:guide.bands[3].checklistRows[10].due",
-        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
-        "charlotte-country-day:guide.bands[2].checklistRows[8].due",
-        "covenant-day:guide.bands[1].checklistRows[8].due",
-        "covenant-day:guide.bands[2].checklistRows[9].due"
       ]
     },
     {
@@ -4550,38 +4553,45 @@
       ]
     },
     {
+      "t": "مدیر مدیریت ثبت‌نام · 704-943-4531",
+      "of": "903f9cba",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[0].detail"
+      ]
+    },
+    {
       "t": "مدیر همکار پذیرش · 704-943-4532",
       "of": "d6960916",
       "at": [
-        "charlotte-country-day:guide.contacts.people[0].detail"
+        "charlotte-country-day:guide.contacts.people[1].detail"
       ]
     },
     {
       "t": "معاون مدیر پذیرش · 704-943-4534",
       "of": "5465bc7a",
       "at": [
-        "charlotte-country-day:guide.contacts.people[1].detail"
+        "charlotte-country-day:guide.contacts.people[2].detail"
       ]
     },
     {
       "t": "معاون مدیر پذیرش · 704-943-4533",
       "of": "4f65b49b",
       "at": [
-        "charlotte-country-day:guide.contacts.people[2].detail"
+        "charlotte-country-day:guide.contacts.people[3].detail"
       ]
     },
     {
       "t": "دستیار اداری · 704-943-4530",
       "of": "b895ef4b",
       "at": [
-        "charlotte-country-day:guide.contacts.people[3].detail"
+        "charlotte-country-day:guide.contacts.people[4].detail"
       ]
     },
     {
       "t": "دستیار پذیرش · 704-943-4595",
       "of": "a8fbb90a",
       "at": [
-        "charlotte-country-day:guide.contacts.people[4].detail"
+        "charlotte-country-day:guide.contacts.people[5].detail"
       ]
     },
     {
@@ -5440,14 +5450,6 @@
       "of": "2ec42b52",
       "at": [
         "covenant-day:guide.comparison.rows[7].cells.jkk"
-      ]
-    },
-    {
-      "t": "9 آوریل 2027، ساعت 4:00 بعدازظهر",
-      "of": "b70c1bbf",
-      "at": [
-        "covenant-day:guide.comparison.rows[7].cells.g15",
-        "covenant-day:guide.comparison.rows[7].cells.g611"
       ]
     },
     {
