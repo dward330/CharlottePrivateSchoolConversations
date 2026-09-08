@@ -78,3 +78,4 @@ Newest last.
 | [seogaps](seogaps.md) | Close the four SEO reach gaps — head-level hreflang, per-school social cards, school-to-school links, and a 404 fallback | 2026-09-03 | Implemented | [#272](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/272) |
 | [newcharlottechristianepisode](newcharlottechristianepisode.md) | Add podcast episode 33 (Saleh Athletic Center) to Charlotte Christian's Sports section | 2026-09-06 | Implemented | [#274](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/274) |
 | [admissionsreport](admissionsreport.md) | Generate a per-school Admissions PDF report plus the NotebookLM prompt that turns it into a podcast episode | 2026-09-06 | Implemented | [#286](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/286) |
+| [moreEpisodes](moreEpisodes.md) | Name the episode in the single-episode podcast popover, so "More episodes" says what it is | 2026-09-08 | Implemented | — |
