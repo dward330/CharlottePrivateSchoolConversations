@@ -5,18 +5,30 @@
 // Grade-by-Grade Application Plans.md, which carries the provenance header, the
 // source URLs and the record-level detail behind every figure below.
 //
-// CYCLE: 2026–27 only. The research file carries BOTH the 2025–26 mirror page's
-// dates and the live 2026–27 calendar's, each labeled. Only the current cycle
-// ships here. Where 2026–27 publishes no date — the Grades 1–5 and 6–12
-// decision release — the tile carries the known constant (`4:00 p.m.`) and its
-// caption names the live calendar in prose. A prior cycle's date is never
-// carried forward, and a date is never guessed.
+// REFRESHED 2026-09-08 against the school's own live admissions pages. See
+// source-material/admissions/providence-day/Providence Day - Admissions - Live
+// Process Page Refresh.md for the verbatim quotes behind every field below.
 //
-// The school's own "NOT PUBLISHED" markers are load-bearing and are rendered as
-// "confirm with admissions" rather than dropped or asserted: the application-fee
-// amount, the Grades 1–5 material list / recommendation form / assessment
-// instrument, the Grades 6–12 recommendation forms, the exact domestic testing
-// requirement (ISEE vs SSAT, which level), and the TK/K age cutoff.
+// That refresh resolved six fields this file previously carried as NOT
+// PUBLISHED. They were never unpublished — the original research could not
+// reach providenceday.org/admissions/admissions-process and fell back to a
+// 2025–26 mirror page. The live page publishes all six: the Grades 1–5 and
+// 6–12 decision date (Apr 9, 2027, 4:00 p.m.), the Grades 1–5 assessment
+// instruments (WPPSI-IV / WISC-V / ISEE, split by grade) and material list,
+// the Grades 6–12 recommendation forms (English + Math), and the required test
+// (ISEE, named outright). Grades 2–5 also have a required Day Visit, and
+// Grades 6–12 have student and parent interviews.
+//
+// CYCLE: 2026–27 only, and no date changed in the refresh. NOTE the school's
+// own two pages disagree on the LABEL while agreeing exactly on the dates — the
+// calendar page says "2026-2027", the process page's apply buttons say
+// "2027-2028". We follow the calendar page. A date is never guessed and a prior
+// cycle's date is never carried forward.
+//
+// The school's own "NOT PUBLISHED" markers that REMAIN are load-bearing and are
+// rendered as "confirm with admissions" rather than dropped or asserted: the
+// application-fee amount, the ISEE level for Grades 6–12, and the TK/K age
+// cutoff beyond "at least 4 at the time of assessment".
 
 import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 
@@ -182,11 +194,7 @@ export const providenceDay: AdmissionsProgram = {
         deadlines: [
           { value: 'Jan 15, 2027', label: 'application form due' },
           { value: 'Feb 26, 2027', label: 'all materials & assessments due' },
-          {
-            value: '4:00 p.m.',
-            label: 'decision release time — date on the live calendar',
-            unpublished: true,
-          },
+          { value: 'Apr 9, 2027', label: 'first-round decisions release, 4:00 p.m.' },
           { value: '$2,500', label: 'deposit with the contract, credited to tuition' },
         ],
         steps: [
@@ -205,40 +213,40 @@ export const providenceDay: AdmissionsProgram = {
               "First-round consideration closes Jan 15; later applications roll for remaining seats. Fee amount isn't published; confirm with admissions.",
           },
           {
-            title: 'Records & teacher recommendation',
+            title: 'Records, recommendation & day visit',
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              "School records/transcript and the recommendation form, both handled through the portal checklist — the exact items for this band aren't published, so treat the portal as definitive.",
+              'The list splits by grade. **Rising Grade 1** submits a Teacher Information Form, a PD Teacher Evaluation and a report card. **Rising Grades 2–5** submit a Teacher Recommendation Form, a Transcript Release Form (first semester or second quarter grades included) and a Day Visit and Teacher Evaluation. All of it runs through the portal checklist.',
           },
           {
             title: 'Required assessment',
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              "An assessment step exists for Grades 1–5, but the specific instrument isn't published — ask admissions which assessment your child will take and how to schedule it.",
+              'The instrument depends on the grade: **Rising Grade 1** takes the WPPSI-IV, the same Wechsler preschool scale as TK/K; **Grades 2–4** take the WISC-V, the Wechsler Intelligence Scale for Children; and **Grade 5** takes the ISEE, the Independent School Entrance Exam. Ask admissions how to schedule the one your child needs.',
           },
           {
             title: 'Decision → contract + deposit',
-            tag: 'Spring 2027',
+            tag: 'Apr 9, 2027',
             tagKind: 'accent',
             detail:
-              'First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.',
+              'First-round decisions release at 4:00 p.m. on April 9, 2027. Then the signed contract and $2,500 deposit secure the seat.',
           },
         ],
         watchOuts: [
           {
-            kicker: 'The least-published band',
-            text: "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
+            kicker: 'The band that splits by grade',
+            text: 'Grades 1–5 shares the Grades 1–12 calendar, but the requirements split inside it. **Rising Grade 1** is treated like the youngest applicants — WPPSI-IV, a Teacher Information Form, a PD Teacher Evaluation and a report card. **Rising Grades 2–5** take the WISC-V (Grades 2–4) or the ISEE (Grade 5), and add a Transcript Release Form and a Day Visit. Your Charger Commons checklist shows exactly which items apply to your child.',
           },
           {
-            kicker: 'No student-visit step published',
-            text: "Unlike TK/K's required Classroom Visit, no comparable shadow day or visit is published for this band. That doesn't mean there isn't one — it simply wasn't retrievable. Ask on your tour.",
+            kicker: 'There IS a visit step — for Grades 2–5',
+            text: 'Rising Grades 2–5 include a **Day Visit and Teacher Evaluation**, so your child spends a day in a PD classroom and is observed there. Rising Grade 1 has no published day-visit step. Ask on your tour how the visit is scheduled.',
           },
         ],
         checklistCallout: {
-          lead: 'Portal is definitive.',
-          text: 'The exact material list and assessment for Grades 1–5 are not published on the website — your Charger Commons checklist is the authoritative list. Confirm specifics with the admissions office.',
+          lead: 'Check which grade you are.',
+          text: "Rising Grade 1 and Rising Grades 2–5 have different required materials and different assessments. Your Charger Commons checklist shows the exact list for your child's grade.",
         },
         checklistRows: [
           {
@@ -257,40 +265,37 @@ export const providenceDay: AdmissionsProgram = {
             due: 'Jan 15, 2027',
           },
           {
-            action: 'Send school records and the teacher recommendation',
-            detail: 'Both handled through the portal checklist, which is the definitive list.',
+            action: 'Submit the records, recommendation and day-visit items',
+            detail:
+              'Gr 1: Teacher Information Form, PD Teacher Evaluation, report card. Gr 2–5: Teacher Recommendation Form, Transcript Release Form, Day Visit and Teacher Evaluation.',
             due: 'Feb 26, 2027',
           },
           {
             action: 'Complete the required assessment',
-            detail: "The instrument isn't published — ask admissions which one and how to book it.",
+            detail: 'Gr 1: WPPSI-IV · Gr 2–4: WISC-V · Gr 5: ISEE. Ask admissions how to schedule it.',
             due: 'Feb 26, 2027',
           },
           {
             action: 'Watch for the decision',
-            detail: 'First-round decisions release at 4:00 p.m. — date on the live calendar.',
-            due: 'Spring 2027',
+            detail: 'First-round decisions release at 4:00 p.m.',
+            due: 'Apr 9, 2027',
           },
           {
             action: 'Return the signed contract with the $2,500 deposit',
             detail: 'The deposit is credited toward tuition.',
-            due: 'Spring 2027',
+            due: 'After Apr 9, 2027',
           },
         ],
       },
       {
         key: 'g612',
         label: 'Grades 6–12',
-        sublabel: 'Standardized testing (ISEE)',
+        sublabel: 'ISEE + interviews',
         title: 'Grades 6–12',
         deadlines: [
           { value: 'Jan 15, 2027', label: 'application form due' },
           { value: 'Feb 26, 2027', label: 'all materials & testing due' },
-          {
-            value: '4:00 p.m.',
-            label: 'decision release time — date on the live calendar',
-            unpublished: true,
-          },
+          { value: 'Apr 9, 2027', label: 'first-round decisions release, 4:00 p.m.' },
           { value: '$2,500', label: 'deposit with the contract, credited to tuition' },
         ],
         steps: [
@@ -309,31 +314,31 @@ export const providenceDay: AdmissionsProgram = {
               "First-round consideration closes Jan 15; later applications roll for remaining seats. Fee amount isn't published; confirm with admissions.",
           },
           {
-            title: 'Transcript & recommendations',
+            title: 'Transcript, recommendations & interviews',
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              "Submitted through the portal checklist. The specific recommendation forms for this band aren't published — the portal shows exactly which ones your child needs.",
+              'Two recommendation forms are required — an **English Recommendation Form** and a **Math Recommendation Form** — plus a **Transcript Release Form**, which should include first semester or second quarter grades. There are also **student and parent interviews**, and an **optional day visit**. All of it runs through the portal checklist.',
           },
           {
             title: 'Standardized testing',
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              'The ISEE is the test the school references. Register early enough to sit the test — and receive scores — before the materials deadline.',
+              'The **ISEE** — the Independent School Entrance Exam — is required for this band. Register early enough to sit the test, and receive scores, before the materials deadline.',
           },
           {
             title: 'Decision → contract + deposit',
-            tag: 'Spring 2027',
+            tag: 'Apr 9, 2027',
             tagKind: 'accent',
             detail:
-              'First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.',
+              'First-round decisions release at 4:00 p.m. on April 9, 2027. Then the signed contract and $2,500 deposit secure the seat.',
           },
         ],
         watchOuts: [
           {
-            kicker: 'Which test, exactly?',
-            text: "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
+            kicker: 'The test is the ISEE',
+            text: 'The school names the **Independent School Entrance Exam (ISEE)** as the required test for this band. The exam has grade-appropriate levels — confirm with admissions which level your child sits, and book a date early enough that scores arrive before the February 26 materials deadline.',
           },
           {
             kicker: 'International applicants',
@@ -342,7 +347,7 @@ export const providenceDay: AdmissionsProgram = {
         ],
         checklistCallout: {
           lead: 'Testing note.',
-          text: 'Standardized testing is required; the ISEE is the test the school references. The exact domestic requirement is not published — confirm with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.',
+          text: 'The ISEE is required. Two recommendation forms — English and Math — plus a Transcript Release Form, and student and parent interviews. Confirm the ISEE level with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.',
         },
         checklistRows: [
           {
@@ -366,19 +371,20 @@ export const providenceDay: AdmissionsProgram = {
             due: 'Feb 26, 2027',
           },
           {
-            action: 'Submit the transcript and recommendations',
-            detail: 'Through the portal checklist, which shows exactly which forms are needed.',
+            action: 'Submit the transcript, recommendations and interviews',
+            detail:
+              'English Recommendation Form, Math Recommendation Form and a Transcript Release Form — plus student and parent interviews.',
             due: 'Feb 26, 2027',
           },
           {
             action: 'Watch for the decision',
-            detail: 'First-round decisions release at 4:00 p.m. — date on the live calendar.',
-            due: 'Spring 2027',
+            detail: 'First-round decisions release at 4:00 p.m.',
+            due: 'Apr 9, 2027',
           },
           {
             action: 'Return the signed contract with the $2,500 deposit',
             detail: 'The deposit is credited toward tuition.',
-            due: 'Spring 2027',
+            due: 'After Apr 9, 2027',
           },
         ],
       },
@@ -406,24 +412,24 @@ export const providenceDay: AdmissionsProgram = {
           label: 'Assessment',
           cells: {
             tkk: 'WPPSI-IV + Readiness Screening + Classroom Visit',
-            g15: 'Required — instrument not published',
-            g612: 'Standardized testing — ISEE referenced',
+            g15: 'Gr 1: WPPSI-IV · Gr 2–4: WISC-V · Gr 5: ISEE',
+            g612: 'ISEE',
           },
         },
         {
           label: 'Recommendation',
           cells: {
             tkk: 'Preschool Teacher Recommendation Form',
-            g15: 'Via portal checklist — form not published',
-            g612: 'Via portal checklist — forms not published',
+            g15: 'Gr 1: Teacher Information Form + PD Teacher Evaluation · Gr 2–5: Teacher Recommendation Form',
+            g612: 'English + Math Recommendation Forms',
           },
         },
         {
           label: 'Decision & contract',
           cells: {
             tkk: 'Feb 26 → contracts Mar 5, noon',
-            g15: '4:00 p.m. release — see live calendar',
-            g612: '4:00 p.m. release — see live calendar',
+            g15: 'Apr 9, 2027, 4:00 p.m.',
+            g612: 'Apr 9, 2027, 4:00 p.m.',
           },
         },
         {
@@ -453,6 +459,7 @@ export const providenceDay: AdmissionsProgram = {
         { name: 'Ron Johnson', detail: 'Admissions Officer · 704-887-7511' },
         { name: 'Ellen Teyssier', detail: 'Admissions Officer · 704-887-7097' },
         { name: 'Blair Roberts', detail: 'Admissions Services Manager · 704-887-7040' },
+        { name: 'Angela Montague', detail: 'Admissions Associate' },
         {
           name: 'En español: Claudia Trower',
           detail: 'Dir. of Student Billing, Financial Aid & Accounting · 704-887-7023',
@@ -478,7 +485,7 @@ export const providenceDay: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
+        'Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar and admissions-process pages (verified against the live site Sep 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
     },
 
     sources: [

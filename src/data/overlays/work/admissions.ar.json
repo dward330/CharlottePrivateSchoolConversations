@@ -710,13 +710,13 @@
       "t": "تقييم تجريه المدرسة"
     },
     {
-      "text": "decision release time — date on the live calendar",
-      "of": "1ab613ed",
+      "text": "first-round decisions release, 4:00 p.m.",
+      "of": "6e643755",
       "at": [
         "providence-day:guide.bands[1].deadlines[2].label",
         "providence-day:guide.bands[2].deadlines[2].label"
       ],
-      "t": "موعد إعلان القرار — التاريخ في التقويم المحدَّث"
+      "t": "إعلان قرارات الجولة الأولى، 4:00 p.m."
     },
     {
       "text": "deposit with the contract, credited to tuition",
@@ -771,12 +771,12 @@
       "t": "تُغلق مراجعة الجولة الأولى في 15 يناير؛ وتنتقل الطلبات اللاحقة إلى المراجعة المستمرة للمقاعد المتبقية. مبلغ الرسوم غير منشور؛ تأكّد منه مع مكتب القبول."
     },
     {
-      "text": "Records & teacher recommendation",
-      "of": "3862a5bc",
+      "text": "Records, recommendation & day visit",
+      "of": "8e4565dd",
       "at": [
         "providence-day:guide.bands[1].steps[2].title"
       ],
-      "t": "السجلات وتوصية المعلم"
+      "t": "السجلات والتوصية وزيارة اليوم الدراسي"
     },
     {
       "text": "by Feb 26",
@@ -813,12 +813,12 @@
       "t": "بحلول 26 فبراير"
     },
     {
-      "text": "School records/transcript and the recommendation form, both handled through the portal checklist — the exact items for this band aren't published, so treat the portal as definitive.",
-      "of": "9d914599",
+      "text": "The list splits by grade. **Rising Grade 1** submits a Teacher Information Form, a PD Teacher Evaluation and a report card. **Rising Grades 2–5** submit a Teacher Recommendation Form, a Transcript Release Form (first semester or second quarter grades included) and a Day Visit and Teacher Evaluation. All of it runs through the portal checklist.",
+      "of": "58257ae5",
       "at": [
         "providence-day:guide.bands[1].steps[2].detail"
       ],
-      "t": "السجلات المدرسية/كشف الدرجات واستمارة التوصية، وكلاهما يُقدَّم عبر قائمة مراجعة البوابة — والمستندات المطلوبة بدقة لهذا المستوى غير منشورة، لذا اعتبر البوابة المرجع النهائي."
+      "t": "تختلف القائمة باختلاف الصف. **المتقدمون إلى الصف 1** يقدمون استمارة معلومات المعلم، وتقييم معلم PD، وبطاقة الدرجات. **المتقدمون إلى الصفوف 2–5** يقدمون استمارة توصية المعلم، واستمارة الإذن بإرسال كشف الدرجات (متضمنة درجات الفصل الأول أو الربع الثاني)، وزيارة يوم دراسي مع تقييم المعلم. ويتم ذلك كله عبر قائمة التحقق في البوابة."
     },
     {
       "text": "Required assessment",
@@ -829,82 +829,87 @@
       "t": "تقييم إلزامي"
     },
     {
-      "text": "An assessment step exists for Grades 1–5, but the specific instrument isn't published — ask admissions which assessment your child will take and how to schedule it.",
-      "of": "0fc7cf16",
+      "text": "The instrument depends on the grade: **Rising Grade 1** takes the WPPSI-IV, the same Wechsler preschool scale as TK/K; **Grades 2–4** take the WISC-V, the Wechsler Intelligence Scale for Children; and **Grade 5** takes the ISEE, the Independent School Entrance Exam. Ask admissions how to schedule the one your child needs.",
+      "of": "7c616ee0",
       "at": [
         "providence-day:guide.bands[1].steps[3].detail"
       ],
-      "t": "توجد خطوة تقييم للصفوف 1–5، لكن الأداة المحددة غير منشورة — اسأل مكتب القبول عن التقييم الذي سيؤديه طفلك وكيفية تحديد موعده."
+      "t": "تعتمد الأداة على الصف: **المتقدمون إلى الصف 1** يؤدون اختبار WPPSI-IV، وهو مقياس وكسلر لما قبل المدرسة نفسه المستخدم في TK/K؛ و**الصفوف 2–4** تؤدي اختبار WISC-V، مقياس وكسلر لذكاء الأطفال؛ و**الصف 5** يؤدي اختبار ISEE، أي Independent School Entrance Exam. اسأل مكتب القبول عن كيفية تحديد موعد الاختبار الذي يخص طفلك."
     },
     {
-      "text": "Spring 2027",
-      "of": "a01a41e1",
+      "text": "Apr 9, 2027",
+      "of": "deb16d0c",
       "at": [
         "providence-day:guide.bands[1].steps[4].tag",
         "providence-day:guide.bands[1].checklistRows[5].due",
-        "providence-day:guide.bands[1].checklistRows[6].due",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
-        "providence-day:guide.bands[2].checklistRows[6].due"
+        "charlotte-christian:guide.bands[1].checklistRows[7].due",
+        "charlotte-christian:guide.bands[2].checklistRows[7].due",
+        "charlotte-christian:guide.bands[3].checklistRows[10].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].due",
+        "covenant-day:guide.bands[1].checklistRows[8].due",
+        "covenant-day:guide.bands[2].checklistRows[9].due"
       ],
-      "t": "ربيع 2027"
+      "t": "9 أبريل 2027"
     },
     {
-      "text": "First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.",
-      "of": "6b44fdc7",
+      "text": "First-round decisions release at 4:00 p.m. on April 9, 2027. Then the signed contract and $2,500 deposit secure the seat.",
+      "of": "6c1511dc",
       "at": [
         "providence-day:guide.bands[1].steps[4].detail",
         "providence-day:guide.bands[2].steps[4].detail"
       ],
-      "t": "تُعلن قرارات الجولة الأولى الساعة 4:00 p.m. في التاريخ المنشور — تابع التقويم المحدَّث. ثم يضمن العقد الموقّع ودفعة $2,500 المقعد."
+      "t": "تُعلن قرارات الجولة الأولى في 9 أبريل 2027 الساعة 4:00 p.m. بعد ذلك يضمن العقد الموقَّع ووديعة $2,500 المقعد."
     },
     {
-      "text": "The least-published band",
-      "of": "9dd2cdbd",
+      "text": "The band that splits by grade",
+      "of": "f23a62a5",
       "at": [
         "providence-day:guide.bands[1].watchOuts[0].kicker"
       ],
-      "t": "المستوى الأقل نشرًا للمعلومات"
+      "t": "المرحلة التي تنقسم حسب الصف"
     },
     {
-      "text": "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
-      "of": "5d4c93da",
+      "text": "Grades 1–5 shares the Grades 1–12 calendar, but the requirements split inside it. **Rising Grade 1** is treated like the youngest applicants — WPPSI-IV, a Teacher Information Form, a PD Teacher Evaluation and a report card. **Rising Grades 2–5** take the WISC-V (Grades 2–4) or the ISEE (Grade 5), and add a Transcript Release Form and a Day Visit. Your Charger Commons checklist shows exactly which items apply to your child.",
+      "of": "be869b7f",
       "at": [
         "providence-day:guide.bands[1].watchOuts[0].text"
       ],
-      "t": "تتبع الصفوف 1–5 تقويم الصفوف 1–12 نفسه، لكن **قائمة مستنداتها واستمارة التوصية وأداة التقييم غير منشورة**. وقائمة مراجعة Charger Commons الخاصة بك هي القائمة المعتمدة — وإن احتجت إلى إجابة قاطعة قبل التقديم، فاطلبها من مكتب القبول كتابةً."
+      "t": "تشترك الصفوف 1–5 مع الصفوف 1–12 في التقويم نفسه، لكن المتطلبات تنقسم داخلها. **المتقدمون إلى الصف 1** يُعاملون معاملة أصغر المتقدمين — WPPSI-IV، واستمارة معلومات المعلم، وتقييم معلم PD، وبطاقة الدرجات. **المتقدمون إلى الصفوف 2–5** يؤدون اختبار WISC-V (الصفوف 2–4) أو ISEE (الصف 5)، ويضاف إليها استمارة الإذن بإرسال كشف الدرجات وزيارة يوم دراسي. وتبيّن قائمة التحقق في Charger Commons بالضبط أي العناصر تخص طفلك."
     },
     {
-      "text": "No student-visit step published",
-      "of": "787334a5",
+      "text": "There IS a visit step — for Grades 2–5",
+      "of": "b8e803da",
       "at": [
         "providence-day:guide.bands[1].watchOuts[1].kicker"
       ],
-      "t": "لا توجد خطوة زيارة للطالب منشورة"
+      "t": "توجد خطوة زيارة — للصفوف 2–5"
     },
     {
-      "text": "Unlike TK/K's required Classroom Visit, no comparable shadow day or visit is published for this band. That doesn't mean there isn't one — it simply wasn't retrievable. Ask on your tour.",
-      "of": "54f44ab8",
+      "text": "Rising Grades 2–5 include a **Day Visit and Teacher Evaluation**, so your child spends a day in a PD classroom and is observed there. Rising Grade 1 has no published day-visit step. Ask on your tour how the visit is scheduled.",
+      "of": "67124422",
       "at": [
         "providence-day:guide.bands[1].watchOuts[1].text"
       ],
-      "t": "بخلاف زيارة الصف الإلزامية في TK/K، لا يوجد يوم مرافقة أو زيارة مماثلة منشورة لهذا المستوى. وهذا لا يعني عدم وجودها — فقط لم يتيسّر العثور على معلومات عنها. اسأل أثناء زيارتك."
+      "t": "يؤدي المتقدمون إلى الصفوف 2–5 **زيارة يوم دراسي مع تقييم المعلم**، أي أن طفلك يقضي يومًا في أحد صفوف PD ويُلاحَظ هناك. أما الصف 1 فلا توجد له خطوة زيارة يوم دراسي منشورة. اسأل أثناء جولتك كيف يُحدَّد موعد الزيارة."
     },
     {
-      "text": "Portal is definitive.",
-      "of": "cf3c4540",
+      "text": "Check which grade you are.",
+      "of": "7a98dca2",
       "at": [
         "providence-day:guide.bands[1].checklistCallout.lead"
       ],
-      "t": "البوابة هي المرجع النهائي."
+      "t": "تحقق من الصف المعني."
     },
     {
-      "text": "The exact material list and assessment for Grades 1–5 are not published on the website — your Charger Commons checklist is the authoritative list. Confirm specifics with the admissions office.",
-      "of": "04ad8994",
+      "text": "Rising Grade 1 and Rising Grades 2–5 have different required materials and different assessments. Your Charger Commons checklist shows the exact list for your child's grade.",
+      "of": "612c48bd",
       "at": [
         "providence-day:guide.bands[1].checklistCallout.text"
       ],
-      "t": "قائمة المستندات الدقيقة والتقييم الخاص بالصفوف 1–5 غير منشورة على الموقع — وقائمة مراجعة Charger Commons الخاصة بك هي القائمة المعتمدة. تأكّد من التفاصيل مع مكتب القبول."
+      "t": "تختلف المستندات المطلوبة والتقييمات بين المتقدمين إلى الصف 1 والمتقدمين إلى الصفوف 2–5. وتبيّن قائمة التحقق في Charger Commons القائمة الدقيقة الخاصة بصف طفلك."
     },
     {
       "text": "Submit the Grades 1–5 application and pay the fee",
@@ -953,20 +958,20 @@
       "t": "15 يناير 2027"
     },
     {
-      "text": "Send school records and the teacher recommendation",
-      "of": "ffd3c182",
+      "text": "Submit the records, recommendation and day-visit items",
+      "of": "eb01b992",
       "at": [
         "providence-day:guide.bands[1].checklistRows[3].action"
       ],
-      "t": "أرسل السجلات المدرسية وتوصية المعلم"
+      "t": "قدِّم السجلات والتوصية وما يخص زيارة اليوم الدراسي"
     },
     {
-      "text": "Both handled through the portal checklist, which is the definitive list.",
-      "of": "05037617",
+      "text": "Gr 1: Teacher Information Form, PD Teacher Evaluation, report card. Gr 2–5: Teacher Recommendation Form, Transcript Release Form, Day Visit and Teacher Evaluation.",
+      "of": "3424c1d2",
       "at": [
         "providence-day:guide.bands[1].checklistRows[3].detail"
       ],
-      "t": "كلاهما يُقدَّم عبر قائمة مراجعة البوابة، وهي القائمة النهائية."
+      "t": "الصف 1: استمارة معلومات المعلم، تقييم معلم PD، بطاقة الدرجات. الصفوف 2–5: استمارة توصية المعلم، استمارة الإذن بإرسال كشف الدرجات، زيارة يوم دراسي مع تقييم المعلم."
     },
     {
       "text": "Complete the required assessment",
@@ -977,21 +982,21 @@
       "t": "أكمل التقييم الإلزامي"
     },
     {
-      "text": "The instrument isn't published — ask admissions which one and how to book it.",
-      "of": "fa99945e",
+      "text": "Gr 1: WPPSI-IV · Gr 2–4: WISC-V · Gr 5: ISEE. Ask admissions how to schedule it.",
+      "of": "d9656a5d",
       "at": [
         "providence-day:guide.bands[1].checklistRows[4].detail"
       ],
-      "t": "الأداة غير منشورة — اسأل مكتب القبول أيها المطلوبة وكيف تُحجز."
+      "t": "الصف 1: WPPSI-IV · الصفوف 2–4: WISC-V · الصف 5: ISEE. اسأل مكتب القبول عن كيفية تحديد الموعد."
     },
     {
-      "text": "First-round decisions release at 4:00 p.m. — date on the live calendar.",
-      "of": "96ac0e7c",
+      "text": "First-round decisions release at 4:00 p.m.",
+      "of": "8f42b8ac",
       "at": [
         "providence-day:guide.bands[1].checklistRows[5].detail",
         "providence-day:guide.bands[2].checklistRows[5].detail"
       ],
-      "t": "تُعلن قرارات الجولة الأولى الساعة 4:00 p.m. — والتاريخ في التقويم المحدَّث."
+      "t": "تُعلن قرارات الجولة الأولى الساعة 4:00 p.m."
     },
     {
       "text": "The deposit is credited toward tuition.",
@@ -1003,6 +1008,15 @@
       "t": "تُخصم الدفعة من الرسوم الدراسية."
     },
     {
+      "text": "After Apr 9, 2027",
+      "of": "7e5c7b9e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ],
+      "t": "بعد 9 أبريل 2027"
+    },
+    {
       "text": "Grades 6–12",
       "of": "327ac2eb",
       "at": [
@@ -1012,12 +1026,12 @@
       "t": "الصفوف 6–12"
     },
     {
-      "text": "Standardized testing (ISEE)",
-      "of": "922c6d07",
+      "text": "ISEE + interviews",
+      "of": "8d62c402",
       "at": [
         "providence-day:guide.bands[2].sublabel"
       ],
-      "t": "الاختبارات المعيارية (ISEE)"
+      "t": "ISEE + مقابلات"
     },
     {
       "text": "all materials & testing due",
@@ -1037,20 +1051,20 @@
       "t": "قدّم طلب الصفوف 6–12 وادفع الرسوم"
     },
     {
-      "text": "Transcript & recommendations",
-      "of": "5c4c3399",
+      "text": "Transcript, recommendations & interviews",
+      "of": "767cfcb5",
       "at": [
         "providence-day:guide.bands[2].steps[2].title"
       ],
-      "t": "كشف الدرجات والتوصيات"
+      "t": "كشف الدرجات والتوصيات والمقابلات"
     },
     {
-      "text": "Submitted through the portal checklist. The specific recommendation forms for this band aren't published — the portal shows exactly which ones your child needs.",
-      "of": "08538be3",
+      "text": "Two recommendation forms are required — an **English Recommendation Form** and a **Math Recommendation Form** — plus a **Transcript Release Form**, which should include first semester or second quarter grades. There are also **student and parent interviews**, and an **optional day visit**. All of it runs through the portal checklist.",
+      "of": "9204da87",
       "at": [
         "providence-day:guide.bands[2].steps[2].detail"
       ],
-      "t": "تُقدَّم عبر قائمة مراجعة البوابة. واستمارات التوصية الخاصة بهذا المستوى غير منشورة — والبوابة تبيّن بدقة أيها يحتاجه طفلك."
+      "t": "يلزم تقديم استمارتي توصية — **استمارة توصية في اللغة الإنجليزية** و**استمارة توصية في الرياضيات** — إضافة إلى **استمارة الإذن بإرسال كشف الدرجات**، التي ينبغي أن تتضمن درجات الفصل الأول أو الربع الثاني. وهناك أيضًا **مقابلات مع الطالب ووالديه**، و**زيارة يوم دراسي اختيارية**. ويتم ذلك كله عبر قائمة التحقق في البوابة."
     },
     {
       "text": "Standardized testing",
@@ -1061,28 +1075,28 @@
       "t": "الاختبارات المعيارية"
     },
     {
-      "text": "The ISEE is the test the school references. Register early enough to sit the test — and receive scores — before the materials deadline.",
-      "of": "1eba7071",
+      "text": "The **ISEE** — the Independent School Entrance Exam — is required for this band. Register early enough to sit the test, and receive scores, before the materials deadline.",
+      "of": "952efdce",
       "at": [
         "providence-day:guide.bands[2].steps[3].detail"
       ],
-      "t": "الاختبار الذي تشير إليه المدرسة هو ISEE. سجّل مبكرًا بما يكفي لأداء الاختبار — واستلام الدرجات — قبل الموعد النهائي للمستندات."
+      "t": "اختبار **ISEE** — أي Independent School Entrance Exam — مطلوب لهذه المرحلة. سجِّل مبكرًا بما يكفي لأداء الاختبار وتلقي النتائج قبل الموعد النهائي للمستندات."
     },
     {
-      "text": "Which test, exactly?",
-      "of": "596cd98b",
+      "text": "The test is the ISEE",
+      "of": "2ec83543",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].kicker"
       ],
-      "t": "أي اختبار بالتحديد؟"
+      "t": "الاختبار هو ISEE"
     },
     {
-      "text": "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
-      "of": "abf379a1",
+      "text": "The school names the **Independent School Entrance Exam (ISEE)** as the required test for this band. The exam has grade-appropriate levels — confirm with admissions which level your child sits, and book a date early enough that scores arrive before the February 26 materials deadline.",
+      "of": "a0338a6b",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].text"
       ],
-      "t": "الاختبارات المعيارية إلزامية، وISEE هو الاختبار الوحيد الذي تسميه المدرسة — لكن الشرط الدقيق للمتقدّمين داخل البلاد (ISEE أم SSAT، وأي مستوى) **غير منشور**. تأكّد مع مكتب القبول قبل حجز موعد الاختبار."
+      "t": "تسمّي المدرسة **Independent School Entrance Exam (ISEE)** الاختبارَ المطلوب لهذه المرحلة. وللاختبار مستويات تناسب الصف — تأكد من مكتب القبول أي مستوى سيؤديه طفلك، واحجز موعدًا مبكرًا بما يكفي لوصول النتائج قبل الموعد النهائي للمستندات في 26 فبراير."
     },
     {
       "text": "International applicants",
@@ -1110,12 +1124,12 @@
       "t": "ملاحظة بشأن الاختبارات."
     },
     {
-      "text": "Standardized testing is required; the ISEE is the test the school references. The exact domestic requirement is not published — confirm with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.",
-      "of": "8f31dd11",
+      "text": "The ISEE is required. Two recommendation forms — English and Math — plus a Transcript Release Form, and student and parent interviews. Confirm the ISEE level with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.",
+      "of": "8e1552d6",
       "at": [
         "providence-day:guide.bands[2].checklistCallout.text"
       ],
-      "t": "الاختبارات المعيارية إلزامية؛ والاختبار الذي تشير إليه المدرسة هو ISEE. والشرط الدقيق للمتقدّمين داخل البلاد غير منشور — تأكّد مع مكتب القبول. المتقدّمون الدوليون: ISEE + TOEFL (إذا لم تكن الإنجليزية اللغة الأساسية)؛ ومن الصين مع I-20، ابدأ عبر TBI-New Oasis."
+      "t": "اختبار ISEE مطلوب. استمارتا توصية — الإنجليزية والرياضيات — إضافة إلى استمارة الإذن بإرسال كشف الدرجات، ومقابلات مع الطالب ووالديه. تأكد من مستوى ISEE مع مكتب القبول. المتقدمون الدوليون: ISEE + TOEFL (إذا لم تكن الإنجليزية لغتهم الأساسية)؛ ومن الصين مع الحاجة إلى I-20، يبدأ الأمر عبر TBI-New Oasis."
     },
     {
       "text": "Submit the Grades 6–12 application and pay the fee",
@@ -1146,20 +1160,20 @@
       "t": "احجز مبكرًا بما يكفي لوصول الدرجات قبل الموعد النهائي للمستندات."
     },
     {
-      "text": "Submit the transcript and recommendations",
-      "of": "0ef8af51",
+      "text": "Submit the transcript, recommendations and interviews",
+      "of": "a92e9d3f",
       "at": [
         "providence-day:guide.bands[2].checklistRows[4].action"
       ],
-      "t": "قدّم كشف الدرجات والتوصيات"
+      "t": "قدِّم كشف الدرجات والتوصيات والمقابلات"
     },
     {
-      "text": "Through the portal checklist, which shows exactly which forms are needed.",
-      "of": "e2b3e095",
+      "text": "English Recommendation Form, Math Recommendation Form and a Transcript Release Form — plus student and parent interviews.",
+      "of": "ae6e38e4",
       "at": [
         "providence-day:guide.bands[2].checklistRows[4].detail"
       ],
-      "t": "عبر قائمة مراجعة البوابة، التي تبيّن بدقة الاستمارات المطلوبة."
+      "t": "استمارة توصية في اللغة الإنجليزية، واستمارة توصية في الرياضيات، واستمارة الإذن بإرسال كشف الدرجات — إضافة إلى مقابلات مع الطالب ووالديه."
     },
     {
       "text": "Running in parallel: the financial-aid clock",
@@ -1260,20 +1274,21 @@
       "t": "WPPSI-IV + فحص الجاهزية + زيارة الصف"
     },
     {
-      "text": "Required — instrument not published",
-      "of": "2d4beeb2",
+      "text": "Gr 1: WPPSI-IV · Gr 2–4: WISC-V · Gr 5: ISEE",
+      "of": "dd327bbb",
       "at": [
         "providence-day:guide.comparison.rows[2].cells.g15"
       ],
-      "t": "إلزامي — الأداة غير منشورة"
+      "t": "الصف 1: WPPSI-IV · الصفوف 2–4: WISC-V · الصف 5: ISEE"
     },
     {
-      "text": "Standardized testing — ISEE referenced",
-      "of": "8982a6d7",
+      "text": "ISEE",
+      "of": "eac03f6f",
       "at": [
-        "providence-day:guide.comparison.rows[2].cells.g612"
+        "providence-day:guide.comparison.rows[2].cells.g612",
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
       ],
-      "t": "اختبارات معيارية — أُشير إلى ISEE"
+      "t": "ISEE"
     },
     {
       "text": "Recommendation",
@@ -1284,20 +1299,20 @@
       "t": "التوصية"
     },
     {
-      "text": "Via portal checklist — form not published",
-      "of": "096ca790",
+      "text": "Gr 1: Teacher Information Form + PD Teacher Evaluation · Gr 2–5: Teacher Recommendation Form",
+      "of": "fc59fce5",
       "at": [
         "providence-day:guide.comparison.rows[3].cells.g15"
       ],
-      "t": "عبر قائمة مراجعة البوابة — الاستمارة غير منشورة"
+      "t": "الصف 1: استمارة معلومات المعلم + تقييم معلم PD · الصفوف 2–5: استمارة توصية المعلم"
     },
     {
-      "text": "Via portal checklist — forms not published",
-      "of": "3fc80d2b",
+      "text": "English + Math Recommendation Forms",
+      "of": "46129ff8",
       "at": [
         "providence-day:guide.comparison.rows[3].cells.g612"
       ],
-      "t": "عبر قائمة مراجعة البوابة — الاستمارات غير منشورة"
+      "t": "استمارتا التوصية في الإنجليزية والرياضيات"
     },
     {
       "text": "Decision & contract",
@@ -1316,13 +1331,15 @@
       "t": "26 فبراير ← العقود 5 مارس، ظهرًا"
     },
     {
-      "text": "4:00 p.m. release — see live calendar",
-      "of": "04c61bd6",
+      "text": "Apr 9, 2027, 4:00 p.m.",
+      "of": "b70c1bbf",
       "at": [
         "providence-day:guide.comparison.rows[4].cells.g15",
-        "providence-day:guide.comparison.rows[4].cells.g612"
+        "providence-day:guide.comparison.rows[4].cells.g612",
+        "covenant-day:guide.comparison.rows[7].cells.g15",
+        "covenant-day:guide.comparison.rows[7].cells.g611"
       ],
-      "t": "الإعلان في 4:00 p.m. — راجع التقويم المحدَّث"
+      "t": "9 أبريل 2027، الساعة 4:00 عصرًا"
     },
     {
       "text": "After first round",
@@ -1432,10 +1449,18 @@
       "t": "مديرة خدمات القبول · 704-887-7040"
     },
     {
+      "text": "Admissions Associate",
+      "of": "92d5966d",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ],
+      "t": "مساعدة شؤون القبول"
+    },
+    {
       "text": "Dir. of Student Billing, Financial Aid & Accounting · 704-887-7023",
       "of": "1e375e62",
       "at": [
-        "providence-day:guide.contacts.people[7].detail"
+        "providence-day:guide.contacts.people[8].detail"
       ],
       "t": "مديرة فوترة الطلاب والمساعدات المالية والمحاسبة · 704-887-7023"
     },
@@ -1514,12 +1539,12 @@
       "t": "En español: Claudia Trower — 704-887-7023"
     },
     {
-      "text": "Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked \"confirm\" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.",
-      "of": "4437f3e8",
+      "text": "Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar and admissions-process pages (verified against the live site Sep 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked \"confirm\" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.",
+      "of": "5c32bc67",
       "at": [
         "providence-day:guide.checklist.disclaimer"
       ],
-      "t": "المواعيد تخص دورة الالتحاق 2026–27 كما نُشرت في تقويم القبول على providenceday.org (اطُّلع عليه في أغسطس 2026)؛ وتتغيّر مواعيد الدورة من سنة إلى أخرى — قارنها بالتقويم المحدَّث قبل اتخاذ أي خطوة. والبنود المؤشَّر عليها بعبارة «تأكّد» غير منشورة على الموقع. جمعتها Charlotte School Compare؛ وهي غير تابعة لمدرسة Providence Day School."
+      "t": "التواريخ تخص دورة الالتحاق 2026–27 كما هي منشورة في تقويم القبول وصفحات إجراءات القبول على providenceday.org (جرى التحقق منها على الموقع المباشر في سبتمبر 2026)؛ وتتغير تواريخ الدورة من سنة إلى أخرى — تحقق منها في التقويم المباشر قبل اتخاذ أي إجراء. والعناصر المؤشَّر عليها بـ«تأكَّد» غير منشورة على الموقع. أعدّته Charlotte School Compare؛ وهو غير تابع لمدرسة Providence Day School."
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. Four tracks on one shared spine, and what changes between them is the assessment, who schedules the Visit Day, whether there is an interview, and the deadline.",
@@ -2398,14 +2423,6 @@
         "charlotte-latin:guide.comparison.rows[2].cells.ls"
       ],
       "t": "WPPSI (الصف 1) · WISC-V (الصفوف 2–4) · ISEE (الصف 5)"
-    },
-    {
-      "text": "ISEE",
-      "of": "eac03f6f",
-      "at": [
-        "charlotte-latin:guide.comparison.rows[2].cells.ms"
-      ],
-      "t": "ISEE"
     },
     {
       "text": "ISEE (Gr 9–11) · nothing published for Gr 12",
@@ -3384,20 +3401,6 @@
         "charlotte-christian:guide.bands[1].checklistRows[7].detail"
       ],
       "t": "يُنشر الساعة 4 p.m. على مسار الصفوف 1–12."
-    },
-    {
-      "text": "Apr 9, 2027",
-      "of": "deb16d0c",
-      "at": [
-        "charlotte-christian:guide.bands[1].checklistRows[7].due",
-        "charlotte-christian:guide.bands[2].checklistRows[7].due",
-        "charlotte-christian:guide.bands[3].checklistRows[10].due",
-        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
-        "charlotte-country-day:guide.bands[2].checklistRows[8].due",
-        "covenant-day:guide.bands[1].checklistRows[8].due",
-        "covenant-day:guide.bands[2].checklistRows[9].due"
-      ],
-      "t": "9 أبريل 2027"
     },
     {
       "text": "Apr 16, 2027",
@@ -5110,10 +5113,18 @@
       "t": "1440 Carmel Road, Charlotte, NC 28226 · الرقم الرئيسي 704-943-4530"
     },
     {
+      "text": "Director of Enrollment Management · 704-943-4531",
+      "of": "903f9cba",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[0].detail"
+      ],
+      "t": "مدير إدارة التسجيل · 704-943-4531"
+    },
+    {
       "text": "Associate Director of Admissions · 704-943-4532",
       "of": "d6960916",
       "at": [
-        "charlotte-country-day:guide.contacts.people[0].detail"
+        "charlotte-country-day:guide.contacts.people[1].detail"
       ],
       "t": "مديرة مشاركة للقبول · 704-943-4532"
     },
@@ -5121,7 +5132,7 @@
       "text": "Assistant Director of Admissions · 704-943-4534",
       "of": "5465bc7a",
       "at": [
-        "charlotte-country-day:guide.contacts.people[1].detail"
+        "charlotte-country-day:guide.contacts.people[2].detail"
       ],
       "t": "مديرة مساعدة للقبول · 704-943-4534"
     },
@@ -5129,7 +5140,7 @@
       "text": "Assistant Director of Admissions · 704-943-4533",
       "of": "4f65b49b",
       "at": [
-        "charlotte-country-day:guide.contacts.people[2].detail"
+        "charlotte-country-day:guide.contacts.people[3].detail"
       ],
       "t": "مديرة مساعدة للقبول · 704-943-4533"
     },
@@ -5137,7 +5148,7 @@
       "text": "Administrative Assistant · 704-943-4530",
       "of": "b895ef4b",
       "at": [
-        "charlotte-country-day:guide.contacts.people[3].detail"
+        "charlotte-country-day:guide.contacts.people[4].detail"
       ],
       "t": "مساعدة إدارية · 704-943-4530"
     },
@@ -5145,7 +5156,7 @@
       "text": "Admissions Assistant · 704-943-4595",
       "of": "a8fbb90a",
       "at": [
-        "charlotte-country-day:guide.contacts.people[4].detail"
+        "charlotte-country-day:guide.contacts.people[5].detail"
       ],
       "t": "مساعدة القبول · 704-943-4595"
     },
@@ -6123,15 +6134,6 @@
         "covenant-day:guide.comparison.rows[7].cells.jkk"
       ],
       "t": "26 فبراير 2027، الساعة 4:00 عصرًا"
-    },
-    {
-      "text": "Apr 9, 2027, 4:00 p.m.",
-      "of": "b70c1bbf",
-      "at": [
-        "covenant-day:guide.comparison.rows[7].cells.g15",
-        "covenant-day:guide.comparison.rows[7].cells.g611"
-      ],
-      "t": "9 أبريل 2027، الساعة 4:00 عصرًا"
     },
     {
       "text": "A $100 non-refundable application fee · the FACTS/RenWeb online application · a parent interview with the Admissions Director, at which one or both parents must be professing Christians · a pastor’s recommendation · a $1,000 non-refundable enrollment deposit at contract · rolling admissions after the priority dates, with no on-campus testing, shadow visit or parent interview for a non-priority applicant unless space remains after April 9",

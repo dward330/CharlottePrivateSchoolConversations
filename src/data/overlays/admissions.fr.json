@@ -644,8 +644,8 @@
       ]
     },
     {
-      "t": "heure de publication de la décision : la date figure au calendrier en ligne",
-      "of": "1ab613ed",
+      "t": "publication des décisions du premier tour, 4:00 p.m.",
+      "of": "6e643755",
       "at": [
         "providence-day:guide.bands[1].deadlines[2].label",
         "providence-day:guide.bands[2].deadlines[2].label"
@@ -700,8 +700,8 @@
       ]
     },
     {
-      "t": "Bulletins et recommandation de l’enseignant",
-      "of": "3862a5bc",
+      "t": "Dossiers, recommandation et journée d’observation",
+      "of": "8e4565dd",
       "at": [
         "providence-day:guide.bands[1].steps[2].title"
       ]
@@ -740,8 +740,8 @@
       ]
     },
     {
-      "t": "Le dossier scolaire et le formulaire de recommandation, tous deux traités via la check-list du portail : les pièces exactes de ce niveau ne sont pas publiées, considérez donc le portail comme faisant foi.",
-      "of": "9d914599",
+      "t": "La liste varie selon le niveau. **Les candidats au niveau 1** remettent un Formulaire d’information de l’enseignant, une Évaluation de l’enseignant de PD et un bulletin scolaire. **Les candidats aux niveaux 2–5** remettent un Formulaire de recommandation de l’enseignant, un Formulaire d’autorisation de relevé de notes (incluant les notes du premier semestre ou du deuxième trimestre) et une Journée d’observation avec Évaluation de l’enseignant. Le tout passe par la liste de vérification du portail.",
+      "of": "58257ae5",
       "at": [
         "providence-day:guide.bands[1].steps[2].detail"
       ]
@@ -754,70 +754,75 @@
       ]
     },
     {
-      "t": "Une étape d’évaluation existe pour les niveaux 1–5, mais l’outil précis n’est pas publié : demandez aux admissions quelle évaluation votre enfant passera et comment la programmer.",
-      "of": "0fc7cf16",
+      "t": "L’instrument dépend du niveau : **les candidats au niveau 1** passent le WPPSI-IV, la même échelle Wechsler préscolaire que TK/K ; **les niveaux 2–4** passent le WISC-V, l’échelle d’intelligence de Wechsler pour enfants ; et le **niveau 5** passe l’ISEE, l’Independent School Entrance Exam. Demandez au bureau des admissions comment prendre rendez-vous pour celui qui concerne votre enfant.",
+      "of": "7c616ee0",
       "at": [
         "providence-day:guide.bands[1].steps[3].detail"
       ]
     },
     {
-      "t": "printemps 2027",
-      "of": "a01a41e1",
+      "t": "9 avril 2027",
+      "of": "deb16d0c",
       "at": [
         "providence-day:guide.bands[1].steps[4].tag",
         "providence-day:guide.bands[1].checklistRows[5].due",
-        "providence-day:guide.bands[1].checklistRows[6].due",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
-        "providence-day:guide.bands[2].checklistRows[6].due"
+        "charlotte-christian:guide.bands[1].checklistRows[7].due",
+        "charlotte-christian:guide.bands[2].checklistRows[7].due",
+        "charlotte-christian:guide.bands[3].checklistRows[10].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].due",
+        "covenant-day:guide.bands[1].checklistRows[8].due",
+        "covenant-day:guide.bands[2].checklistRows[9].due"
       ]
     },
     {
-      "t": "Les décisions du premier tour sont publiées à 4:00 p.m. à la date annoncée : surveillez le calendrier en ligne. Ensuite, le contrat signé et l’acompte de $2,500 réservent la place.",
-      "of": "6b44fdc7",
+      "t": "Les décisions du premier tour sont publiées à 4:00 p.m. le 9 avril 2027. Ensuite, le contrat signé et l’acompte de $2,500 garantissent la place.",
+      "of": "6c1511dc",
       "at": [
         "providence-day:guide.bands[1].steps[4].detail",
         "providence-day:guide.bands[2].steps[4].detail"
       ]
     },
     {
-      "t": "Le niveau le moins documenté",
-      "of": "9dd2cdbd",
+      "t": "Le niveau qui se divise selon la classe",
+      "of": "f23a62a5",
       "at": [
         "providence-day:guide.bands[1].watchOuts[0].kicker"
       ]
     },
     {
-      "t": "Les niveaux 1–5 suivent le calendrier des niveaux 1–12, mais **leur liste de pièces, leur formulaire de recommandation et leur outil d’évaluation ne sont pas publiés**. Votre check-list Charger Commons fait foi ; et s’il vous faut une réponse ferme avant de candidater, demandez-la par écrit aux admissions.",
-      "of": "5d4c93da",
+      "t": "Les niveaux 1–5 partagent le calendrier des niveaux 1–12, mais les exigences se divisent à l’intérieur. **Les candidats au niveau 1** sont traités comme les plus jeunes : WPPSI-IV, un Formulaire d’information de l’enseignant, une Évaluation de l’enseignant de PD et un bulletin scolaire. **Les candidats aux niveaux 2–5** passent le WISC-V (niveaux 2–4) ou l’ISEE (niveau 5), et ajoutent un Formulaire d’autorisation de relevé de notes et une Journée d’observation. Votre liste de vérification Charger Commons indique exactement les éléments qui concernent votre enfant.",
+      "of": "be869b7f",
       "at": [
         "providence-day:guide.bands[1].watchOuts[0].text"
       ]
     },
     {
-      "t": "Aucune étape de visite de l’élève n’est publiée",
-      "of": "787334a5",
+      "t": "Il Y A bien une visite — pour les niveaux 2–5",
+      "of": "b8e803da",
       "at": [
         "providence-day:guide.bands[1].watchOuts[1].kicker"
       ]
     },
     {
-      "t": "Contrairement à la visite en classe obligatoire des TK/K, aucune journée d’immersion ni visite comparable n’est publiée pour ce niveau. Cela ne veut pas dire qu’il n’en existe pas : simplement, l’information est introuvable. Posez la question lors de votre visite.",
-      "of": "54f44ab8",
+      "t": "Les candidats aux niveaux 2–5 passent une **Journée d’observation avec Évaluation de l’enseignant** : votre enfant passe une journée dans une classe de PD et y est observé. Aucune journée d’observation n’est publiée pour le niveau 1. Demandez lors de votre visite comment elle est organisée.",
+      "of": "67124422",
       "at": [
         "providence-day:guide.bands[1].watchOuts[1].text"
       ]
     },
     {
-      "t": "Le portail fait foi.",
-      "of": "cf3c4540",
+      "t": "Vérifiez de quel niveau il s’agit.",
+      "of": "7a98dca2",
       "at": [
         "providence-day:guide.bands[1].checklistCallout.lead"
       ]
     },
     {
-      "t": "La liste exacte des pièces et l’évaluation des niveaux 1–5 ne sont pas publiées sur le site : votre check-list Charger Commons fait foi. Confirmez les détails auprès du service des admissions.",
-      "of": "04ad8994",
+      "t": "Les candidats au niveau 1 et ceux des niveaux 2–5 n’ont ni les mêmes documents obligatoires ni les mêmes évaluations. Votre liste de vérification Charger Commons indique la liste exacte pour le niveau de votre enfant.",
+      "of": "612c48bd",
       "at": [
         "providence-day:guide.bands[1].checklistCallout.text"
       ]
@@ -867,15 +872,15 @@
       ]
     },
     {
-      "t": "Envoyer le dossier scolaire et la recommandation de l’enseignant",
-      "of": "ffd3c182",
+      "t": "Remettre les dossiers, la recommandation et les éléments de la journée d’observation",
+      "of": "eb01b992",
       "at": [
         "providence-day:guide.bands[1].checklistRows[3].action"
       ]
     },
     {
-      "t": "Les deux sont traités via la check-list du portail, qui fait foi.",
-      "of": "05037617",
+      "t": "Niveau 1 : Formulaire d’information de l’enseignant, Évaluation de l’enseignant de PD, bulletin scolaire. Niveaux 2–5 : Formulaire de recommandation de l’enseignant, Formulaire d’autorisation de relevé de notes, Journée d’observation avec Évaluation de l’enseignant.",
+      "of": "3424c1d2",
       "at": [
         "providence-day:guide.bands[1].checklistRows[3].detail"
       ]
@@ -888,15 +893,15 @@
       ]
     },
     {
-      "t": "L’outil n’est pas publié : demandez aux admissions lequel c’est et comment le réserver.",
-      "of": "fa99945e",
+      "t": "Niveau 1 : WPPSI-IV · Niveaux 2–4 : WISC-V · Niveau 5 : ISEE. Demandez au bureau des admissions comment le programmer.",
+      "of": "d9656a5d",
       "at": [
         "providence-day:guide.bands[1].checklistRows[4].detail"
       ]
     },
     {
-      "t": "Les décisions du premier tour sont publiées à 4:00 p.m. ; la date figure au calendrier en ligne.",
-      "of": "96ac0e7c",
+      "t": "Les décisions du premier tour sont publiées à 4:00 p.m.",
+      "of": "8f42b8ac",
       "at": [
         "providence-day:guide.bands[1].checklistRows[5].detail",
         "providence-day:guide.bands[2].checklistRows[5].detail"
@@ -911,6 +916,14 @@
       ]
     },
     {
+      "t": "Après le 9 avril 2027",
+      "of": "7e5c7b9e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ]
+    },
+    {
       "t": "Niveaux 6–12",
       "of": "327ac2eb",
       "at": [
@@ -919,8 +932,8 @@
       ]
     },
     {
-      "t": "Tests standardisés (ISEE)",
-      "of": "922c6d07",
+      "t": "ISEE + entretiens",
+      "of": "8d62c402",
       "at": [
         "providence-day:guide.bands[2].sublabel"
       ]
@@ -941,15 +954,15 @@
       ]
     },
     {
-      "t": "Bulletins et recommandations",
-      "of": "5c4c3399",
+      "t": "Relevé de notes, recommandations et entretiens",
+      "of": "767cfcb5",
       "at": [
         "providence-day:guide.bands[2].steps[2].title"
       ]
     },
     {
-      "t": "Transmis via la check-list du portail. Les formulaires de recommandation propres à ce niveau ne sont pas publiés : le portail indique exactement ceux dont votre enfant a besoin.",
-      "of": "08538be3",
+      "t": "Deux formulaires de recommandation sont exigés — un **Formulaire de recommandation d’anglais** et un **Formulaire de recommandation de mathématiques** — ainsi qu’un **Formulaire d’autorisation de relevé de notes**, qui doit inclure les notes du premier semestre ou du deuxième trimestre. S’y ajoutent des **entretiens avec l’élève et les parents** et une **journée d’observation facultative**. Le tout passe par la liste de vérification du portail.",
+      "of": "9204da87",
       "at": [
         "providence-day:guide.bands[2].steps[2].detail"
       ]
@@ -962,22 +975,22 @@
       ]
     },
     {
-      "t": "L’ISEE est le test auquel l’école se réfère. Inscrivez-vous assez tôt pour passer le test — et recevoir les résultats — avant la date limite des pièces.",
-      "of": "1eba7071",
+      "t": "L’**ISEE** — l’Independent School Entrance Exam — est exigé pour ce niveau. Inscrivez-vous assez tôt pour passer l’examen et recevoir les résultats avant la date limite des documents.",
+      "of": "952efdce",
       "at": [
         "providence-day:guide.bands[2].steps[3].detail"
       ]
     },
     {
-      "t": "Quel test, exactement ?",
-      "of": "596cd98b",
+      "t": "Le test, c’est l’ISEE",
+      "of": "2ec83543",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].kicker"
       ]
     },
     {
-      "t": "Les tests standardisés sont obligatoires et l’ISEE est le seul test que l’école nomme, mais l’exigence exacte pour les candidats nationaux (ISEE ou SSAT, et quel niveau) **n’est pas publiée**. Confirmez auprès des admissions avant de réserver une date d’examen.",
-      "of": "abf379a1",
+      "t": "L’école désigne l’**Independent School Entrance Exam (ISEE)** comme le test exigé pour ce niveau. L’examen comporte des niveaux adaptés à la classe : confirmez auprès du bureau des admissions celui que votre enfant passera, et réservez une date assez tôt pour que les résultats arrivent avant la date limite des documents du 26 février.",
+      "of": "a0338a6b",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].text"
       ]
@@ -1005,8 +1018,8 @@
       ]
     },
     {
-      "t": "Les tests standardisés sont obligatoires ; l’ISEE est le test auquel l’école se réfère. L’exigence exacte pour les candidats nationaux n’est pas publiée : confirmez auprès des admissions. Candidats internationaux : ISEE + TOEFL (si l’anglais n’est pas la langue principale) ; depuis la Chine avec un I-20, commencez par TBI-New Oasis.",
-      "of": "8f31dd11",
+      "t": "L’ISEE est exigé. Deux formulaires de recommandation — anglais et mathématiques — ainsi qu’un Formulaire d’autorisation de relevé de notes, et des entretiens avec l’élève et les parents. Confirmez le niveau de l’ISEE auprès des admissions. Candidats internationaux : ISEE + TOEFL (si l’anglais n’est pas la langue principale) ; depuis la Chine avec un I-20, commencez par TBI-New Oasis.",
+      "of": "8e1552d6",
       "at": [
         "providence-day:guide.bands[2].checklistCallout.text"
       ]
@@ -1037,15 +1050,15 @@
       ]
     },
     {
-      "t": "Transmettre les bulletins et les recommandations",
-      "of": "0ef8af51",
+      "t": "Remettre le relevé de notes, les recommandations et les entretiens",
+      "of": "a92e9d3f",
       "at": [
         "providence-day:guide.bands[2].checklistRows[4].action"
       ]
     },
     {
-      "t": "Via la check-list du portail, qui indique exactement quels formulaires sont requis.",
-      "of": "e2b3e095",
+      "t": "Formulaire de recommandation d’anglais, Formulaire de recommandation de mathématiques et un Formulaire d’autorisation de relevé de notes — ainsi que des entretiens avec l’élève et les parents.",
+      "of": "ae6e38e4",
       "at": [
         "providence-day:guide.bands[2].checklistRows[4].detail"
       ]
@@ -1140,17 +1153,18 @@
       ]
     },
     {
-      "t": "Obligatoire : outil non publié",
-      "of": "2d4beeb2",
+      "t": "Niveau 1 : WPPSI-IV · Niveaux 2–4 : WISC-V · Niveau 5 : ISEE",
+      "of": "dd327bbb",
       "at": [
         "providence-day:guide.comparison.rows[2].cells.g15"
       ]
     },
     {
-      "t": "Tests standardisés : l’ISEE est cité",
-      "of": "8982a6d7",
+      "t": "ISEE",
+      "of": "eac03f6f",
       "at": [
-        "providence-day:guide.comparison.rows[2].cells.g612"
+        "providence-day:guide.comparison.rows[2].cells.g612",
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
       ]
     },
     {
@@ -1161,15 +1175,15 @@
       ]
     },
     {
-      "t": "Via la check-list du portail : formulaire non publié",
-      "of": "096ca790",
+      "t": "Niveau 1 : Formulaire d’information de l’enseignant + Évaluation de l’enseignant de PD · Niveaux 2–5 : Formulaire de recommandation de l’enseignant",
+      "of": "fc59fce5",
       "at": [
         "providence-day:guide.comparison.rows[3].cells.g15"
       ]
     },
     {
-      "t": "Via la check-list du portail : formulaires non publiés",
-      "of": "3fc80d2b",
+      "t": "Formulaires de recommandation d’anglais et de mathématiques",
+      "of": "46129ff8",
       "at": [
         "providence-day:guide.comparison.rows[3].cells.g612"
       ]
@@ -1189,11 +1203,13 @@
       ]
     },
     {
-      "t": "Publication à 4:00 p.m. : voir le calendrier en ligne",
-      "of": "04c61bd6",
+      "t": "9 avril 2027, 4:00 p.m.",
+      "of": "b70c1bbf",
       "at": [
         "providence-day:guide.comparison.rows[4].cells.g15",
-        "providence-day:guide.comparison.rows[4].cells.g612"
+        "providence-day:guide.comparison.rows[4].cells.g612",
+        "covenant-day:guide.comparison.rows[7].cells.g15",
+        "covenant-day:guide.comparison.rows[7].cells.g611"
       ]
     },
     {
@@ -1292,10 +1308,17 @@
       ]
     },
     {
+      "t": "Associée aux admissions",
+      "of": "92d5966d",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ]
+    },
+    {
       "t": "Directrice de la facturation des élèves, de l’aide financière et de la comptabilité · 704-887-7023",
       "of": "1e375e62",
       "at": [
-        "providence-day:guide.contacts.people[7].detail"
+        "providence-day:guide.contacts.people[8].detail"
       ]
     },
     {
@@ -1365,8 +1388,8 @@
       ]
     },
     {
-      "t": "Les dates correspondent au cycle d’admission 2026–27 tel que publié au calendrier des admissions de providenceday.org (consulté en août 2026) ; les dates du cycle changent d’une année à l’autre : vérifiez-les au calendrier en ligne avant d’agir. Les éléments marqués « à confirmer » ne sont pas publiés sur le site. Compilé par Charlotte School Compare ; sans lien avec Providence Day School.",
-      "of": "4437f3e8",
+      "t": "Les dates correspondent au cycle d’entrée 2026–27 tel que publié sur le calendrier des admissions et les pages du processus d’admission de providenceday.org (vérifiées sur le site en direct en septembre 2026) ; les dates du cycle changent d’une année à l’autre — vérifiez-les sur le calendrier en direct avant d’agir. Les éléments marqués « confirmer » ne sont pas publiés sur le site web. Compilé par Charlotte School Compare ; sans affiliation avec Providence Day School.",
+      "of": "5c32bc67",
       "at": [
         "providence-day:guide.checklist.disclaimer"
       ]
@@ -2146,13 +2169,6 @@
       "of": "a3f2fffc",
       "at": [
         "charlotte-latin:guide.comparison.rows[2].cells.ls"
-      ]
-    },
-    {
-      "t": "ISEE",
-      "of": "eac03f6f",
-      "at": [
-        "charlotte-latin:guide.comparison.rows[2].cells.ms"
       ]
     },
     {
@@ -3026,19 +3042,6 @@
       "of": "32e1ddb4",
       "at": [
         "charlotte-christian:guide.bands[1].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "9 avril 2027",
-      "of": "deb16d0c",
-      "at": [
-        "charlotte-christian:guide.bands[1].checklistRows[7].due",
-        "charlotte-christian:guide.bands[2].checklistRows[7].due",
-        "charlotte-christian:guide.bands[3].checklistRows[10].due",
-        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
-        "charlotte-country-day:guide.bands[2].checklistRows[8].due",
-        "covenant-day:guide.bands[1].checklistRows[8].due",
-        "covenant-day:guide.bands[2].checklistRows[9].due"
       ]
     },
     {
@@ -4550,38 +4553,45 @@
       ]
     },
     {
+      "t": "Directeur de la gestion des inscriptions · 704-943-4531",
+      "of": "903f9cba",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[0].detail"
+      ]
+    },
+    {
       "t": "Directrice associée des admissions · 704-943-4532",
       "of": "d6960916",
       "at": [
-        "charlotte-country-day:guide.contacts.people[0].detail"
+        "charlotte-country-day:guide.contacts.people[1].detail"
       ]
     },
     {
       "t": "Directrice adjointe des admissions · 704-943-4534",
       "of": "5465bc7a",
       "at": [
-        "charlotte-country-day:guide.contacts.people[1].detail"
+        "charlotte-country-day:guide.contacts.people[2].detail"
       ]
     },
     {
       "t": "Directrice adjointe des admissions · 704-943-4533",
       "of": "4f65b49b",
       "at": [
-        "charlotte-country-day:guide.contacts.people[2].detail"
+        "charlotte-country-day:guide.contacts.people[3].detail"
       ]
     },
     {
       "t": "Assistante administrative · 704-943-4530",
       "of": "b895ef4b",
       "at": [
-        "charlotte-country-day:guide.contacts.people[3].detail"
+        "charlotte-country-day:guide.contacts.people[4].detail"
       ]
     },
     {
       "t": "Assistante des admissions · 704-943-4595",
       "of": "a8fbb90a",
       "at": [
-        "charlotte-country-day:guide.contacts.people[4].detail"
+        "charlotte-country-day:guide.contacts.people[5].detail"
       ]
     },
     {
@@ -5440,14 +5450,6 @@
       "of": "2ec42b52",
       "at": [
         "covenant-day:guide.comparison.rows[7].cells.jkk"
-      ]
-    },
-    {
-      "t": "9 avril 2027, 4:00 p.m.",
-      "of": "b70c1bbf",
-      "at": [
-        "covenant-day:guide.comparison.rows[7].cells.g15",
-        "covenant-day:guide.comparison.rows[7].cells.g611"
       ]
     },
     {
