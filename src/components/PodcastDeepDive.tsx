@@ -25,6 +25,13 @@ import {
  * episode 13 covers only Charlotte Latin and Charlotte Christian, so that one
  * cell of the 42-cell matrix stays bare and its header keeps its normal margin.
  *
+ * BOTH popover branches name their episodes, deliberately. The multi-episode
+ * list has always shown one condensed title per episode; the single-episode
+ * branch shows the same `.podcast-episode-title` above the platform rows,
+ * because `More episodes` otherwise gives the reader no clue WHICH episode the
+ * two links lead to — less context in the case with less to disambiguate. The
+ * two branches are meant to agree; keep them that way.
+ *
  * Episode titles are deliberately NOT translated (they are identifiers a
  * listener matches against Spotify and Apple); only the chrome around them is.
  */
@@ -106,28 +113,36 @@ export function PodcastDeepDive({ school, schoolName, area, topicLabel, variant 
           </div>
 
           {single ? (
-            <div className="podcast-rows">
-              <a
-                className="podrow"
-                href={single.spotifyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SpotifyIcon />
-                <span className="podrow-label">{t('podcast.spotify')}</span>
-                <ExternalIcon />
-              </a>
-              <a
-                className="podrow"
-                href={single.appleUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AppleIcon />
-                <span className="podrow-label">{t('podcast.apple')}</span>
-                <ExternalIcon />
-              </a>
-            </div>
+            <>
+              {/* Not translated by design — an identifier the listener matches
+                  against the platform, where it exists only in English. The
+                  condensed `title`, not `fullTitle`: the published wording runs
+                  90+ characters and wraps to three lines inside the 300px
+                  single-episode panel. */}
+              <div className="podcast-episode-title">{single.title}</div>
+              <div className="podcast-rows">
+                <a
+                  className="podrow"
+                  href={single.spotifyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <SpotifyIcon />
+                  <span className="podrow-label">{t('podcast.spotify')}</span>
+                  <ExternalIcon />
+                </a>
+                <a
+                  className="podrow"
+                  href={single.appleUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AppleIcon />
+                  <span className="podrow-label">{t('podcast.apple')}</span>
+                  <ExternalIcon />
+                </a>
+              </div>
+            </>
           ) : (
             <div className="podcast-list scrolllist">
               {episodes.map((e) => (
