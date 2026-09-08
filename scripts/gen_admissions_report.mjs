@@ -742,8 +742,11 @@ function buildPrompt({ school, guide, generatedOn }) {
   // safety rules, which sit at the END of the template.
   //
   // The budget is measured on the SUBSTITUTED body, because the tokens differ
-  // per school: Charlotte Latin is the worst case today (longest school name
-  // and 104 chars of band labels), so a template that fits it fits all six.
+  // per school. Hickory Grove Christian is the worst case today (5 bands, the
+  // most band-label text), with Charlotte Latin 4 chars behind it — so a
+  // template that fits Hickory Grove fits all six. Measure, do not assume:
+  // this comment named Latin until a 2026-09-08 edit measured all six and
+  // found Hickory Grove longer.
   // Checked here rather than in a separate checker so it cannot be skipped.
   if (body.length > PROMPT_CHAR_BUDGET) {
     die(
@@ -847,42 +850,42 @@ back". If the PDF does not say it, it does not go in.
 OPEN WITH TWO DISTINCT BEATS, in order — do not merge them or lead with the website.
   1. WELCOME (~15s): admission to {{SCHOOL_NAME}} — not in the abstract, but exactly how you
      apply: every step in order, with the deadline for each.
-  2. TWO RESOURCES (~25s): www.charlotteschoolinsights.com puts this school's process in one
-     place, filters to your child's entry grade and prints a checklist — a companion while you
-     listen. Alongside it keep the school's own admissions pages open: the official source,
-     updated when a date changes.
+  2. TWO RESOURCES (~35s): www.charlotteschoolinsights.com puts this school's process in one
+     place — a companion while you listen. Say how to reach the checklist: click your school,
+     find Admissions, open the application guide, PICK YOUR CHILD'S ENTRY BAND, then print it.
+     The guide opens on the youngest band, so skipping that step prints the wrong checklist.
+     Describe the shape; don't quote button labels. Alongside it keep the school's own
+     admissions pages open: the official source, updated when a date changes.
 
 SEGMENTS, IN ORDER:
 1. THE SHAPE OF IT (~2 min). Name the portal and say what it is — the school's own front door
    for applying, not a third-party service. Then the {{BAND_COUNT}} entry bands:
-   {{BAND_LABELS}}. A parent follows only their own band — say how to identify theirs, and
-   cover the shared spine.
+   {{BAND_LABELS}}. A parent follows only their own — say how to identify theirs, and cover
+   the shared spine.
 2. EACH BAND ({{BAND_COUNT}} segments, ~2-3 min each), in the PDF's order: who it is for; the
    steps as a parent would do them; each deadline as a full spoken date; the assessment BY
    NAME AND THEN EXPLAINED — what it is and what it looks at; which forms go where and who
    sends them; any watch-outs. Name the band at the start and end so a parent can skip to
-   theirs, then the cross-band table: what changes and what stays identical.
+   theirs, then the cross-band table: what changes and what stays the same.
 3. THE MONEY CLOCK (~1-2 min). The aid process and its own deadline as the PDF states it — a
    parallel track with a different date; where the PDF says so, applying for aid does not
    affect the decision. Name the platform and say what it is for.
 4. WHO TO CONTACT (~1-2 min). The office, address, number and the people the PDF names with
-   their roles; note a Spanish-speaking contact if named. Encourage calling early, then name
-   the school's own site as authoritative, saying "{{SCHOOL_SITE}}" aloud.
+   their roles, including a Spanish-speaking contact if named. Encourage calling early, then
+   name the school's own site as authoritative, saying "{{SCHOOL_SITE}}" aloud.
 5. WHAT IS NOT PUBLISHED (~1 min). Where the PDF says "not published" or "confirm with
-   admissions", say so: the school does not publish it, so call and ask.
+   admissions", say so: call and ask.
 
-CLOSE (~35s): recap the two or three dates that matter most, then: if it helps to have it in
-one place, www.charlotteschoolinsights.com shows just your track and prints a checklist — but
-check the school's own admissions page before acting, because that is the official source and
-these dates shift year to year. Then three things this week: send the inquiry form, calendar
-the deadlines, call the office about anything unclear.
+CLOSE (~35s): recap the two or three dates that matter most, then point back to
+www.charlotteschoolinsights.com for the checklist — but check the school's own admissions page
+before acting, because that is the official source and these dates shift year to year. Then
+three things this week: send the inquiry form, calendar the deadlines, call the office.
 
 HARD RULES:
 - Label every date as the {{CYCLE}}, and say plainly in the open and once more later that
   this cycle is{{START_PHRASE}} for the child — the label alone does not tell a parent which
-  September their child begins. Three times — open, body, close, varied wording —
-  say cycle dates shift year to year and parents must verify against the school's own live
-  calendar before acting.
+  September their child begins. Three times — open, body, close, varied wording — say cycle
+  dates shift year to year and parents must verify against the school's live calendar.
 - Speak dates in full ("January the fifteenth, twenty twenty-seven"), never as digits.
 - Never invent a date, fee, test, form or person, and never attribute a claim to the PDF it
   does not make. If the PDF says something is not published, say so.
@@ -897,9 +900,8 @@ HARD RULES:
 - Read no URL aloud except {{SCHOOL_SITE}}.
 - Do not compare or rank this school, or cover academics, sports, arts or outcomes.
 - Mention www.charlotteschoolinsights.com exactly twice — opening beat and close, never in
-  between. Each time say what it DOES (filters to their grade, prints a checklist), call it a
-  helpful resource and NEVER the source of the facts, and name the school's own admissions site
-  in the same breath as the authority.
+  between. Call it a helpful resource and NEVER the source of the facts, and name the school's
+  own admissions site in the same breath as the authority.
 `
 
 /* ---------------------------------------------------------------- assertions -- */
