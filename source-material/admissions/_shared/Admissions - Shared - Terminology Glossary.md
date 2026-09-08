@@ -29,6 +29,9 @@ for terms those processes use.
 - SSAT — https://en.wikipedia.org/wiki/Secondary_School_Admission_Test
 - CAIS testing (Charlotte Area Independent Schools) — https://www.charlottecountryday.org/admissions/admissions-process
 - CAIS provider description — https://alderwoodpsych.com/cais-admissions-testing/
+- TOEFL (ETS, test family and iBT skills) — https://www.ets.org/toefl.html
+- TOEFL Junior (age range, three measured sections) — https://www.ets.org/toefl/junior/prepare.html
+- SEVIS / I-20 / I-901 fee (ICE, primary source) — https://www.ice.gov/sevis/students
 - Clarity — https://clarityschools.com/
 - FACTS — https://factsmgt.com/features/enrollment-management/
 
@@ -145,6 +148,51 @@ provider-specific and cite the school's own page.
 
 ---
 
+## The international-applicant terms
+
+### TOEFL — Test of English as a Foreign Language
+
+**What it is:** an English-language proficiency test published by **ETS** (Educational
+Testing Service). It measures a student's command of English; it is **not** an admissions
+test of academic ability, and it does not replace one.
+
+**Who takes it:** international applicants, where a school asks for it. Note that "TOEFL"
+names a **family** of tests rather than one exam — the TOEFL iBT is the university-level
+test, while **TOEFL Junior** is the one built for middle-school-age students (ages 11+) in
+English-medium schools. A school that says only "the TOEFL" has not said which; the family
+is the safe thing to name, and which product to sit is a question for the admissions
+office.
+
+**What it measures:** the TOEFL iBT covers reading, listening, speaking and writing. The
+TOEFL Junior Standard test covers Reading Comprehension, Listening Comprehension, and
+Language Form and Meaning.
+
+**The point to make in an episode:** where a school asks for the TOEFL, it is normally **in
+addition to** that band's usual entrance test, not instead of it — follow the school's own
+wording. Which TOEFL product, and how it is delivered, is set by the school and ETS, not by
+this glossary.
+
+### SEVIS — Student and Exchange Visitor Information System
+
+**What it is:** a US government database, run by **Immigration and Customs Enforcement
+(ICE)** within the Department of Homeland Security, that holds the record of every
+international student attending a US school on an F or M visa. It is a record system, not a
+test and not a school process.
+
+**The I-20:** formally the *Certificate of Eligibility for Nonimmigrant Student Status* —
+the paper form of a student's SEVIS record. **Only a school that is SEVP-certified can
+issue one**, and it issues it after the student is accepted. A family cannot produce an
+I-20 themselves.
+
+**The I-901 SEVIS fee:** paid by the student or family, directly, before applying for the
+visa; the receipt is presented at the visa application. It is a **government fee, separate
+from anything the school charges**.
+
+**Why it matters here:** the same process applies to a K–12 private school as to a
+university. Whether a given school is SEVP-certified, and what its own international
+procedure is, is **a question for that school's admissions office** — several schools in
+this project explicitly do not publish it.
+
 ## The application and financial-aid platforms
 
 ### Clarity
@@ -153,7 +201,11 @@ provider-specific and cite the school's own page.
 this is the aid application, NOT the admissions application. Used by 1,000+ schools.
 
 **What is distinctive:** Clarity pioneered **IRS tax verification**, meaning the process
-draws on verified tax data rather than requiring families to upload returns manually.
+can draw on verified tax data rather than requiring families to upload returns manually.
+**This is a property of the platform, not a promise about any one school.** Whether a
+given school's families see that option — and what documents they are actually asked for
+— is set by the school's own aid instructions. Do not tell a parent they will not need
+their tax returns.
 
 **The point to make in an episode:** Clarity runs on its own clock with its own deadline,
 separate from the admissions application. Both must be completed on time.
@@ -184,7 +236,7 @@ test or service. Nothing extra to sign up for beyond what the school invites you
 ## Rules for using this glossary in a podcast episode
 
 1. **Define a term the first time it is spoken**, in one or two plain sentences, then use it
-   normally. Do not stack all nine definitions into a glossary segment — they belong where
+   normally. Do not stack all eleven definitions into a glossary segment — they belong where
    the term arises.
 2. **Never let a definition override a school's own statement.** If a school's data says the
    WISC-V is used for rising Grades 2–4, that is the fact; this file only explains what the

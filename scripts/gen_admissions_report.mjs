@@ -217,7 +217,7 @@ function resolveSegment(node, segment, path) {
 /* ------------------------------------------------------------ the glossary -- */
 
 /**
- * The nine terms the six schools' data names and NEVER defines. The data says
+ * The eleven terms the six schools' data names and NEVER defines. The data says
  * who administers a test and when it is due, never what it measures — Providence
  * Day names the WPPSI-IV four times without once saying what it is.
  *
@@ -234,7 +234,19 @@ function resolveSegment(node, segment, path) {
  * is an ordinary English noun. A false positive is not cosmetic — it makes the
  * hosts explain a test the child will not sit.
  */
-const GLOSSARY_TERMS = ['WPPSI', 'WISC', 'ISEE', 'SSAT', 'ERB', 'CTP', 'CAIS', 'Clarity', 'FACTS']
+const GLOSSARY_TERMS = [
+  'WPPSI',
+  'WISC',
+  'ISEE',
+  'SSAT',
+  'ERB',
+  'CTP',
+  'CAIS',
+  'TOEFL',
+  'SEVIS',
+  'Clarity',
+  'FACTS',
+]
 
 /**
  * Parse the committed glossary into `heading -> body markdown`, keyed by the
@@ -293,7 +305,7 @@ function glossaryFor(guide) {
 
 /**
  * Capitalised acronyms and platform-shaped tokens in this school's data that
- * have NO glossary entry. Reported, never fatal — the nine terms cover what the
+ * have NO glossary entry. Reported, never fatal — the eleven terms cover what the
  * current six schools use, and a new school may use an instrument none of them
  * do (a different entrance exam, a different aid platform). Surfacing the gap
  * beats silently producing an unexplained term in the episode.
