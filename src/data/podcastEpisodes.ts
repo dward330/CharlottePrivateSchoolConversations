@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–34. */
+  /** Episode number in the show, 1–35. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–34), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–35), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -479,6 +479,21 @@ export const EPISODES: PodcastEpisode[] = [
     appleUrl:
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000788198996',
     schools: ['charlotte-latin'],
+    researchArea: 'admissions',
+  },
+  {
+    id: 35,
+    // Season 2. The second `/admissions-episode` production, and the second to
+    // map to `admissions` — so Country Day's Admissions section gains a Listen
+    // strip where it previously had none.
+    title: 'Charlotte Country Day: How to Apply',
+    // Published: "Charlotte Country Day School - Admissions - How to Apply (For Fall 2027 Entry)"
+    fullTitle:
+      'Charlotte Country Day School - Admissions - How to Apply (For Fall 2027 Entry)',
+    spotifyUrl: 'https://open.spotify.com/episode/1afbNhrshWBa1BNspwIh0Z',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000788488533',
+    schools: ['charlotte-country-day'],
     researchArea: 'admissions',
   },
 ]
