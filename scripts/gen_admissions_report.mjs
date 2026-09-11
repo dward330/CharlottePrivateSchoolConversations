@@ -217,7 +217,7 @@ function resolveSegment(node, segment, path) {
 /* ------------------------------------------------------------ the glossary -- */
 
 /**
- * The eleven terms the six schools' data names and NEVER defines. The data says
+ * The twelve terms the six schools' data names and NEVER defines. The data says
  * who administers a test and when it is due, never what it measures — Providence
  * Day names the WPPSI-IV four times without once saying what it is.
  *
@@ -246,6 +246,10 @@ const GLOSSARY_TERMS = [
   'SEVIS',
   'Clarity',
   'FACTS',
+  // Hyphenated in every school's published wording ("TBI-New Oasis"), but the
+  // transcript of the first episode to speak it aloud rendered it "TBI New
+  // Oasis" — so match the distinctive head token and let \b cover both.
+  'TBI',
 ]
 
 /**
@@ -305,7 +309,7 @@ function glossaryFor(guide) {
 
 /**
  * Capitalised acronyms and platform-shaped tokens in this school's data that
- * have NO glossary entry. Reported, never fatal — the eleven terms cover what the
+ * have NO glossary entry. Reported, never fatal — the twelve terms cover what the
  * current six schools use, and a new school may use an instrument none of them
  * do (a different entrance exam, a different aid platform). Surfacing the gap
  * beats silently producing an unexplained term in the episode.

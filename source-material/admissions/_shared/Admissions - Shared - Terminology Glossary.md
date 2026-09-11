@@ -193,6 +193,33 @@ university. Whether a given school is SEVP-certified, and what its own internati
 procedure is, is **a question for that school's admissions office** — several schools in
 this project explicitly do not publish it.
 
+### TBI-New Oasis
+
+**What it is:** an international education **company**, not a test, a school or a
+government body. Its full name is the TBI-New Oasis International Group (Tower Bridge
+International Group), with offices in Herndon, Virginia and Beijing. It partners with US
+private schools to build and run their international-student programs, and on the family
+side it supports the school application, arranges and monitors a **homestay** with a host
+family, and provides academic and cultural support once the student arrives.
+
+**Why a school names it:** where a school works with TBI-New Oasis, it may require
+applicants from China who need an I-20 to **begin** the process through it rather than
+through the school's own portal. That is a routing instruction — which door to enter — and
+it is published by the school, not by this glossary.
+
+**What it does NOT do — say this carefully:** it does **not** issue the I-20. Only an
+SEVP-certified school can, and only after acceptance (see the SEVIS entry above). TBI-New
+Oasis's own materials describe supporting the application and translating the documents a
+student needs for an F-1 visa; they do not claim to issue the certificate. Do not tell a
+family the agency gets them their visa.
+
+**In an episode:** name it, say plainly that it is the school's named partner organization
+and the starting point that school publishes for this specific group of applicants, and
+**send the family to the admissions office for the details.** Fees, exactly which applicants
+are in scope, and what the agency does versus what the school does are not published in the
+material this project holds. It applies to a narrow set of applicants — do not imply every
+international family goes through it.
+
 ## The application and financial-aid platforms
 
 ### Clarity
@@ -206,6 +233,19 @@ can draw on verified tax data rather than requiring families to upload returns m
 given school's families see that option — and what documents they are actually asked for
 — is set by the school's own aid instructions. Do not tell a parent they will not need
 their tax returns.
+
+**Verification does not always succeed, and success does not end the paperwork.** Clarity's
+own help pages document both. Direct IRS verification fails for ordinary reasons — a
+shortened or preferred first name that does not match the 1040, an address differing down
+to the street suffix, corrected documents still being processed, an active audit — and the
+family then fills the gaps in manually. Separately, and even when every figure verifies:
+*"Even if all of your information was successfully verified through the IRS, you could
+still receive a request for further documentation for the school(s) you are applying to."*
+
+**In an episode:** it is fine, and useful, to lead with the good case — this can save a lot
+of uploading. Follow it with the caveat in the same breath, and **tell the family to keep
+their returns to hand regardless**. The parent who is told the IRS handles it, and is then
+asked for documents in January, is who this paragraph exists to protect.
 
 **The point to make in an episode:** Clarity runs on its own clock with its own deadline,
 separate from the admissions application. Both must be completed on time.
@@ -236,7 +276,7 @@ test or service. Nothing extra to sign up for beyond what the school invites you
 ## Rules for using this glossary in a podcast episode
 
 1. **Define a term the first time it is spoken**, in one or two plain sentences, then use it
-   normally. Do not stack all eleven definitions into a glossary segment — they belong where
+   normally. Do not stack all twelve definitions into a glossary segment — they belong where
    the term arises.
 2. **Never let a definition override a school's own statement.** If a school's data says the
    WISC-V is used for rising Grades 2–4, that is the fact; this file only explains what the
