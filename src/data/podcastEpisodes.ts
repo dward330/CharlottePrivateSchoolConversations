@@ -496,6 +496,26 @@ export const EPISODES: PodcastEpisode[] = [
     schools: ['charlotte-country-day'],
     researchArea: 'admissions',
   },
+  {
+    id: 36,
+    // Season 2 (the show numbers it S2 E4). The third `/admissions-episode`
+    // production and the third to map to `admissions`.
+    //
+    // FIRST episode generated after the prompt fix in PR #297. The prior take
+    // flattened the PDF's hedged Clarity line into an unconditional IRS-verification
+    // promise; this one keeps the hedge and the school-configures-it caveat, and
+    // additionally lands the ISEE level rule and rolling review. Both takes were
+    // built from the same PDF — only the prompt changed.
+    title: 'Providence Day: How to Apply',
+    // Published: "Providence Day School - Admissions - How to Apply (For Fall 2027 Entry)"
+    fullTitle:
+      'Providence Day School - Admissions - How to Apply (For Fall 2027 Entry)',
+    spotifyUrl: 'https://open.spotify.com/episode/4vdp2eJyQI0uQzy6XpITSu',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000788979044',
+    schools: ['providence-day'],
+    researchArea: 'admissions',
+  },
 ]
 
 /**
