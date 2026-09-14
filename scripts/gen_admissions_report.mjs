@@ -751,6 +751,11 @@ function buildPrompt({ school, guide, generatedOn }) {
   // template that fits Hickory Grove fits all six. Measure, do not assume:
   // this comment named Latin until a 2026-09-08 edit measured all six and
   // found Hickory Grove longer.
+  //
+  // MARGIN IS 10 CHARS as of 2026-09-14 (Hickory Grove 4,890). A 2026-09-14
+  // edit closing two fabrication traps had to trim filler prose elsewhere to
+  // fit. Adding a rule now means removing words somewhere — that is the
+  // intended trade, and it is why this guard exists rather than a bigger box.
   // Checked here rather than in a separate checker so it cannot be skipped.
   if (body.length > PROMPT_CHAR_BUDGET) {
     die(
@@ -842,14 +847,14 @@ function speakableSite(guide) {
 const PROMPT_TEMPLATE = `Produce an episode of "Charlotte Private School Conversations."
 
 SOURCE: the attached PDF is the ONLY source — {{SCHOOL_NAME}}'s admissions process for the
-{{CYCLE}}{{START_PHRASE}}. Use every page, including "What these terms mean", which defines
-the tests and platforms — explain jargon from it, never from your own knowledge.
+{{CYCLE}}{{START_PHRASE}}. Use every page, including "What these terms mean" — explain all
+jargon from it, never from your own knowledge.
 
 PURPOSE: a practical HOW TO APPLY guide, not a review or a tour. Every segment answers a
 do-this question: what to submit, by when, which test, which form, who to call. 15-20 min,
-two hosts, warm and practical, for a parent anxious about a deadline. Open with "Welcome
-back". If the PDF does not say it, it does not go in. Never rank or compare schools, or
-cover academics, sports, arts or outcomes.
+two hosts, warm and practical. Open with "Welcome back". If the PDF does not say it, it
+does not go in. Never rank or compare schools, or cover academics, sports, arts or
+outcomes.
 
 OPEN WITH TWO BEATS, in order — do not merge them or lead with the website.
   1. WELCOME (~15s): admission to {{SCHOOL_NAME}} — not in the abstract, but exactly how
@@ -858,12 +863,12 @@ OPEN WITH TWO BEATS, in order — do not merge them or lead with the website.
      place — a companion while you listen. To reach the checklist: click your school, find
      Admissions, open the application guide, PICK YOUR CHILD'S ENTRY BAND, then print it. It
      opens on the youngest band, so skipping that prints the wrong one. Describe the shape,
-     not button labels. Keep the school's own admissions pages open too: the official
+     not button labels. Keep the school's own admissions pages open too — the official
      source, updated when a date changes.
 
 SEGMENTS:
-1. THE SHAPE OF IT (~2 min). Name the portal and what it is — the school's own front door
-   for applying, not a third-party service. Then the {{BAND_COUNT}} entry bands:
+1. THE SHAPE OF IT (~2 min). Name the portal and what it is — the school's own front door,
+   not a third-party service. Then the {{BAND_COUNT}} entry bands:
    {{BAND_LABELS}}. A parent follows only their own — say how to identify theirs, and the
    shared spine.
 2. EACH BAND ({{BAND_COUNT}} segments, ~2-3 min each), in the PDF's order: who it is for;
@@ -872,11 +877,11 @@ SEGMENTS:
    who sends them; any watch-outs. An assessment is set by the grade applied TO, not the
    child's current grade. Name the band at start and end, then the cross-band table.
 3. THE MONEY CLOCK (~1-2 min). The aid process and its deadline as the PDF states it — a
-   parallel track with a different date; where the PDF says so, applying for aid does not
-   affect the decision. Name the platform and what it is for.
+   parallel track with a different date. Name the platform and what it is for. Say nothing
+   about aid affecting the admissions decision — the PDF does not say.
 4. WHO TO CONTACT (~1-2 min). The office, address, number and the people the PDF names with
-   their roles, including a Spanish-speaking contact if named. Encourage calling early, then
-   name the school's own site as authoritative, saying "{{SCHOOL_SITE}}" aloud.
+   their roles. Encourage calling early, then name the school's own site as authoritative,
+   saying "{{SCHOOL_SITE}}" aloud.
 5. WHAT IS NOT PUBLISHED (~1 min). Where the PDF says "not published" or "confirm with
    admissions", say so: call and ask. Include what it says about applying late and about a
    decision that is not a yes.
@@ -892,8 +897,9 @@ HARD RULES:
   September they begin. Three times — open, body, close, varied wording — say cycle dates
   shift year to year and parents must verify against the school's live calendar.
 - Speak dates in full ("January the fifteenth, twenty twenty-seven"), not as digits.
-- Never invent a date, fee, test, form or person, or attribute a claim to the PDF it does
-  not make. If the PDF says something is not published, say so.
+- Never invent a date, fee, test, form or person. Say "the PDF says" ONLY of words actually
+  in it. Call something unpublished ONLY where the PDF names it so — never infer an absence
+  from a topic it just does not cover. Where it states a rule without a reason, give none.
 - Explain each term the first time it is spoken, in one or two plain sentences from the
   PDF's appendix only. KEEP ITS HEDGES — "can", "may", "not published", "confirm with
   admissions". Never restate a qualified claim as a flat promise about this school.
@@ -901,8 +907,8 @@ HARD RULES:
   implying otherwise pushes a parent to coach a small child), any score, cutoff or "good"
   result, or a claim one school's testing is harder than another's.
 - Keep the register calm — "intelligence scale" and "screening" sound clinical and alarm a
-  parent. This is routine, every applicant does it; for the youngest bands a conversation,
-  not an exam.
+  parent. This is routine, every applicant does it; for the youngest, a conversation not an
+  exam.
 - Read no URL aloud but {{SCHOOL_SITE}}.
 - Mention www.charlotteschoolinsights.com exactly twice — opening beat and close, never in
   between. Call it a helpful resource, NEVER the source of the facts, and name the school's
