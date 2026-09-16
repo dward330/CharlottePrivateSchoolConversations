@@ -4090,6 +4090,51 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .cs-college-rank { font-size: 11.5px; white-space: nowrap; }
 .cs-college-empty { padding: 16px 12px; font-size: 13px; }
 
+/* Acceptance-list college names link to the institution's own homepage
+   (2026-09-16). Same model as the citation links at line 6101: THE ↗ IS THE
+   AT-REST AFFORDANCE, the underline is hover-only — stacked forty rows deep a
+   permanent underline reads as noise, where on contact it confirms what the
+   arrow already claims. See the rationale block above that rule.
+
+   This is a PARALLEL rule rather than an addition to the `.srcrow a,
+   .clubs-program-src a` selector list: those two are citation surfaces and the
+   comment above them describes them as such. A college homepage is a
+   destination, not a source. `color: inherit` keeps the row reading as a list
+   of names rather than a wall of blue, and lets .is-enrolling's bold carry the
+   only at-rest emphasis in the column. */
+a.cs-college-name {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.12s ease, text-decoration-color 0.12s ease;
+}
+/* --ink, NOT --brand: it is the brand colour prepared for use as TEXT, which the
+   dark theme lightens toward the page foreground (see the dark-theme blocks near
+   line 150). Raw var(--brand) measures 1.23:1 against the dark background for
+   Charlotte Latin's navy and 2.83:1 for Providence Day's crimson — both far
+   below AA, the navy effectively invisible. Same reason
+   `.note-card > summary:hover .topic-title` uses --ink for its hover tint. */
+a.cs-college-name:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a.cs-college-name:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+/* Toned down like .hsp-dest-arrow: at 13px row text a full-size arrow outweighs
+   the name it belongs to, forty times over. */
+.cs-college-arrow { font-size: 10px; color: var(--ink); }
+
+.cs-link-legend {
+  font-size: 11.5px;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
 /* -- 1d · levers & 1f · verdict -------------------------------------------- */
 
 .cs-lever { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }

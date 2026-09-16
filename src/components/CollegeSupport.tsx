@@ -34,6 +34,7 @@ import type {
 } from '../data/collegeSupport.ts'
 import { COLLEGE_FILTERS } from '../data/collegeSupport.ts'
 import { rankLabelFor } from '../data/collegeRankings.ts'
+import { urlFor } from '../data/collegeUrls.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 
@@ -504,6 +505,10 @@ function CollegeList({ data }: { data: Outcomes }) {
     )
   }, [data.colleges, filter, query])
 
+  /* How many of the rows CURRENTLY shown carry a homepage link, so the legend
+     describes the list in front of the reader rather than the whole roster. */
+  const linked = useMemo(() => shown.filter((c) => urlFor(c.name)).length, [shown])
+
   return (
     <div>
       <Heading hint={t('collegeSupport.hintFilter')}>
@@ -540,14 +545,35 @@ function CollegeList({ data }: { data: Outcomes }) {
         {data.collegesTotal && ` · ${data.collegesTotal}`}
       </div>
 
+      {/* The link legend explains the ↗ affordance before the reader meets it,
+          mirroring the cross-link legend on High School Placement. Rows with no
+          resolvable homepage need no explanation — they are simply plain text. */}
+      {linked > 0 && (
+        <p className="cs-link-legend text-muted">
+          <span className="cs-college-arrow" aria-hidden="true">
+            ↗
+          </span>{' '}
+          {t('collegeSupport.linkLegend', { count: linked })}
+        </p>
+      )}
+
       <div className="cs-college-list">
         {shown.map((c) => {
           const rankLabel = rankLabelFor(c.name)
+          /* The institution's homepage, resolved from the single master by name.
+             A college with no resolvable homepage renders exactly as it did
+             before the links existed — a plain <span>, no arrow. */
+          const href = urlFor(c.name)
+          const nameCls = c.enrolling ? 'cs-college-name is-enrolling' : 'cs-college-name'
           return (
             <div key={c.name} className="cs-college">
-              <span className={c.enrolling ? 'cs-college-name is-enrolling' : 'cs-college-name'}>
-                {c.name}
-              </span>
+              {href ? (
+                <a className={nameCls} href={href} target="_blank" rel="noreferrer noopener">
+                  {c.name} <span className="cs-college-arrow" aria-hidden="true">↗</span>
+                </a>
+              ) : (
+                <span className={nameCls}>{c.name}</span>
+              )}
               {rankLabel && (
                 <span className="cs-college-rank text-muted">{rankLabel}</span>
               )}
