@@ -292,7 +292,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
           <span className="courses-src-text text-muted">
             {division.sourceUrl ? (
               <a href={division.sourceUrl} target="_blank" rel="noopener noreferrer">
-                {division.source}
+                {division.source} ↗
               </a>
             ) : (
               division.source

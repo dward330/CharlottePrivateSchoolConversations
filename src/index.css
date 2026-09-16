@@ -5851,3 +5851,46 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .cite-label + span {
   display: block;
 }
+
+/* Every citation that IS a link looks like one (2026-09-15).
+
+   THE ARROW IS THE AT-REST AFFORDANCE, the underline is hover-only. Each
+   hyperlinked citation renders a trailing ↗ glyph in JSX — SourceRow's `s.url`
+   branch, Course Offerings' `sourceUrl` anchor, ClubsProgram's per-tile
+   attribution, the prose source chips and linkify()'s bare URLs all carry it,
+   so the arrow means exactly one thing anywhere on the page: this opens a page.
+   An always-on underline was rejected (user's call): stacked forty rows deep it
+   reads as noise, where on contact it confirms what the arrow already claims.
+
+   The three URL-LESS rows — the club catalog, the club clusters and the
+   financial-aid report — cite a document name with no URL in it, so they render
+   as plain text and are untouched here. They have no <a> to match.
+
+   `.srcrow a` is a DESCENDANT selector on purpose: it has to reach both
+   SourceRow's direct `.srcrow-item` anchors and Course Offerings' anchor nested
+   inside `.courses-src-text`. `.clubs-program-src` is listed beside it because
+   it is the one arrow-bearing citation link that never carried `.srcrow` — see
+   the block above — and leaving it out would reintroduce exactly the
+   inconsistency this rule removes. `.prose-link` keeps its own always-on
+   underline (it sits inline in a sentence with no arrow-bearing label to lean
+   on) and `.source-chip` is deliberately excluded (a bordered chip with its own
+   hover treatment; an underline inside it would fight that). */
+.srcrow a,
+.clubs-program-src a {
+  text-decoration: none;
+  transition: color 0.12s ease, text-decoration-color 0.12s ease;
+}
+.srcrow a:hover,
+.clubs-program-src a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+/* The rows are keyboard-reachable and had no focus treatment of their own.
+   Matches .prose-link:focus-visible so both link types signal the same way. */
+.srcrow a:focus-visible,
+.clubs-program-src a:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}

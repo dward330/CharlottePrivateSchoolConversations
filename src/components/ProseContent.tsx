@@ -36,8 +36,12 @@ function linkify(text: string): ReactNode {
     const href = trailer ? part.slice(0, -trailer.length) : part
     return (
       <span key={i}>
+        {/* The arrow belongs INSIDE the anchor: `trailer` is the sentence
+            punctuation that followed the URL, so an arrow placed after it would
+            render `…html. ↗` with the marker detached from the link it
+            describes. Same glyph as every other link path in the app. */}
         <a className="prose-link" href={href} target="_blank" rel="noreferrer noopener">
-          {href}
+          {href} ↗
         </a>
         {trailer}
       </span>
