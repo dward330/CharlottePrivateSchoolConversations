@@ -1,7 +1,7 @@
 ---
 name: prek8shape
 title: The PreK–8 school shape — a High School Placement research area, Compare exclusion, and six dropped Sports cards
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-09-16
 branch: feat/prek8-shape
@@ -311,3 +311,81 @@ ingest pipeline and builds the eight research areas. Do **not** start any of it 
 plan is deliberately inert for every existing school, and mixing a school's data into it
 would destroy that property (its key verification step is that all eleven current pages come
 out byte-identical).
+
+## Implementation notes — Phase 1 (English), 2026-09-16
+
+Phase 1 shipped on `feat/prek8-shape`. Five deviations from the plan as written,
+each a correction rather than a preference.
+
+**1. The PreK–8 flag lives in `src/data/brands.ts`, NOT on the `School` record.**
+Step 1 said to extend the `School` type in `manifest.ts` and "add the matching
+optional field wherever `schools.json` records are typed." That would not have
+survived: the ingest pipeline **rebuilds every `schools.json` school record as
+bare `{slug, name}`** from `source-material/` folder names
+(`.claude/skills/ingest-source-material/build_docs.py:187`), so a flag written
+there is **silently erased by the next ingest run** — and the school quietly
+rejoins the Compare page with no error and no failing check. `brands.ts` is the
+existing hand-maintained per-school config, already keyed by slug, already
+imported by `manifest.ts`, and explicitly documented as *not* regenerated.
+`manifest.ts` exports `hasHighSchool(slug)` and `comparableSchools` on top of it.
+**This matters for the Charlotte Prep plan:** its PreK–8 flag goes in `brands.ts`
+beside the school's color/city, not in `schools.json`.
+
+**2. There is a SEVENTH `allSchools` use in `Compare.tsx`.** The plan's table
+lists six (212, 219, 237, 245, 266, 268). Line 402 — `compare.coverage`'s `total`
+— is a per-metric "covered by N of M schools" denominator that would otherwise
+have read "3 of 12" on a page showing 11 schools. The single-constant approach
+fixed it automatically, which is the strongest argument for that decision: the
+plan's own inventory was incomplete and the chosen design absorbed it anyway.
+
+**3. Two `SchoolDetail.tsx` wiring points the plan did not name.** Both are
+invisible until a school occupies the area, and both would have shipped broken:
+the **prose-substitution disjunction** (~line 1305) must list the new topic or
+the ingested prose renders *alongside* the four cards; and the **overlay-warm
+destructuring** has a documented "leading holes MUST match the loaders above"
+invariant, so adding an eleventh loader without an eleventh hole feeds a `void`
+into `Object.fromEntries`. `tsc -b` caught the second, as its comment predicts.
+
+**4. `check:seo` needed no change — the area adds no route.** Answering the plan's
+second open question: High School Placement renders inside the existing school
+dossier like every other research area, so `seo_routes.mjs` is untouched.
+
+**5. `TOPIC_ORDER` position: immediately after `college-support`.** The default in
+the plan's first open question. The two areas are mutually exclusive in practice,
+so every dossier shows exactly one area in that slot.
+
+### Verification results
+
+- `npx tsc -b` and `npm run build` — clean (build chains `check:schema`,
+  `check:live`, `check:runtime`, `check:seo`).
+- `check:schema` / `check:chrome` / `check:seo` — exit 0. The schema doc lists
+  `high-school-placement`, its four cards and `0/11` schools.
+- `check:metrics` — output **byte-identical to `main`**, verified by diff. With a
+  fixture school flagged, it prints
+  `note: skipped 1 Compare-excluded school(s) — fixture-prep — no grades 9-12…`
+  and still reports all 30 value metrics clean rather than 30 false oversights.
+- **All eleven existing school pages byte-identical**, verified by building `main`
+  and this branch and diffing the pre-rendered `dist/**/index.html`. The only
+  delta on any page is the two content-hashed asset filenames.
+- **Browser check, 25 assertions, all passing** against a temporary `fixture-prep`
+  school (reverted before commit; no trace remains). Covered: the four cards
+  render; `NO DENOM.` chip and denominators; the hatched aggregate row; category
+  filters narrow; per-class rows expand; cross-links resolve to `/school/<slug>/`
+  while non-app destinations stay plain chips; **no Compare affordance anywhere**
+  on the PreK–8 page; absent from the Compare picker and both visible counts;
+  `?schools=fixture-prep` yields no column; **still present in "More schools"**;
+  and a K–12 school keeps its Compare buttons and does not render the area.
+
+The browser check found **three defects no automated check could see** (commit
+`844ae5a`) — a contradictory "No readable notes" line above the cards, an
+unpluralized "1 schools", and a legend swatch wearing the cross-link class. This
+is the standing lesson holding again: every defect found after the data reads
+100% has been render-layer.
+
+### Phase 2 — not started
+
+30 new keys sit in `src/locales/en.json` only; all nine other catalogs have zero
+of them. Scope is **chrome only** — there is no research prose to translate,
+because no school occupies the area yet. The prose overlay layer is wired
+(`loadHighSchoolPlacementOverlay`, glob `overlays/high-school-placement.*.json`)
+but matches no file, so every locale correctly falls back to English.
