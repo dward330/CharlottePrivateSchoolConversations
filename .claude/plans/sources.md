@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-09-15
 branch: feat/sources
-prs: []
+prs: [304]
 ---
 
 # Collapse source rows by default, and make every source hyperlink look like one
