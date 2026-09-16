@@ -311,8 +311,8 @@ trusting green checkers.
 
 ### What survived, and what did not
 
-**Kept** — re-applied on `fix/roster-assumptions`, because all four are independent
-of this school and two are bugs on `main` today:
+**Kept** — re-applied and merged as **PR #309**, because all four are independent of
+this school and two were bugs on `main`:
 
 1. `src/lib/head.ts` — every school's meta description counted the SITE's research
    areas, so Charlotte Catholic and Davidson Day claimed 9 while holding 7, Cannon 9
