@@ -1,4 +1,40 @@
-var e=`charlotte-country-day`,t=`admissions`,n=27,r=[{subtopic:`CAIS Testing Consortium`,source_file:`Charlotte Country Day - Admissions - CAIS Testing Consortium.md`,preview:`# Charlotte Country Day — Admissions — CAIS Testing Consortium`,text:`# Charlotte Country Day — Admissions — CAIS Testing Consortium`},{subtopic:`Source URLs`,source_file:null,preview:`- <https://www.charlottecountryday.org/fs/resource-manager/view/26c38483-1a56-4c11-aaa0-a4e7f465eb27> (the school's own link; 302 →) - <https://resources.finalsite.net/images/v1786996627/charlottecds/bjjlanlwnfo6m2572dsn/2027-28CAISBrochure.pdf> (the actual PDF, 1 page, 2.8 MB) -…`,text:`- <https://www.charlottecountryday.org/fs/resource-manager/view/26c38483-1a56-4c11-aaa0-a4e7f465eb27>
+var e=`charlotte-country-day`,t=`admissions`,n=34,r=[{subtopic:`Admissions Office Staff`,source_file:`Charlotte Country Day - Admissions - Admissions Office Staff.md`,preview:`# Charlotte Country Day — Admissions — Admissions Office Staff`,text:`# Charlotte Country Day — Admissions — Admissions Office Staff`},{subtopic:`Source URLs`,source_file:null,preview:`- <https://www.charlottecountryday.org/admissions/meet-our-team> (the roster below, verbatim — names, titles, direct lines, email addresses) - <https://resources.finalsite.net/images/v1786996627/charlottecds/bjjlanlwnfo6m2572dsn/2027-28CAISBrochure.pdf> (participating-schools table; corroborates Brunt's name and…`,text:`- <https://www.charlottecountryday.org/admissions/meet-our-team>
+ (the roster below, verbatim — names, titles, direct lines, email addresses)
+- <https://resources.finalsite.net/images/v1786996627/charlottecds/bjjlanlwnfo6m2572dsn/2027-28CAISBrochure.pdf>
+ (participating-schools table; corroborates Brunt's name and title)
+- <https://www.charlottecountryday.org/admissions/our-campuses>
+ (campus addresses and main lines)
+
+---`},{subtopic:`The admissions team — VERBATIM, in the school's own page order`,source_file:null,preview:`| Name | Title | Direct line | Email | |---|---|---|---| | Eric Brunt | Director of Enrollment Management | 704-943-4531 | eric.brunt@charlottecountryday.org | | Robin Riggins | Associate Director of Admissions | 704-943-4532 | robin.riggins@charlottecountryday.org | | Molly Philips | Assistant Director of Admissions…`,text:`| Name | Title | Direct line | Email |
+|---|---|---|---|
+| **Eric Brunt** | Director of Enrollment Management | 704-943-4531 | eric.brunt@charlottecountryday.org |
+| Robin Riggins | Associate Director of Admissions | 704-943-4532 | robin.riggins@charlottecountryday.org |
+| Molly Philips | Assistant Director of Admissions | 704-943-4534 | molly.philips@charlottecountryday.org |
+| Tianna Butler | Assistant Director of Admissions | 704-943-4533 | tianna.butler@charlottecountryday.org |
+| Cheryl Miller | Administrative Assistant | 704-943-4530 | cheryl.miller@charlottecountryday.org |
+| McKenzie Irwin | Admissions Assistant | 704-943-4595 | mckenzie.irwin@charlottecountryday.org |
+
+Rows 2–6 already matched the app exactly — same names, same titles, same direct lines. Only
+row 1 was missing.`},{subtopic:`Office contact block — VERBATIM`,source_file:null,preview:`> Office of Admissions, Charlotte Country Day School, 1440 Carmel Road, Charlotte, NC 28226 > Phone: (704) 943-4530 · Email: admissions@charlottecountryday.org Cannon Campus main line is 704-943-4500; Bissell Campus (grades 5–8), 5936 Green Rea Road, Charlotte, NC 28226, is 704-943-4800.`,text:`> Office of Admissions, Charlotte Country Day School, 1440 Carmel Road, Charlotte, NC 28226
+> Phone: (704) 943-4530 · Email: admissions@charlottecountryday.org
+
+Cannon Campus main line is 704-943-4500; Bissell Campus (grades 5–8), 5936 Green Rea Road,
+Charlotte, NC 28226, is 704-943-4800.`},{subtopic:`The CAIS brochure's corroborating entry — VERBATIM`,source_file:null,preview:`> Charlotte Country Day School > Eric Brunt, Director of Enrollment Management > 1440 Carmel Road, Charlotte, NC 28226-5096 > 704-943-4500 fax: 704-943-4525 > eric.brunt@charlottecountryday.org > charlottecountryday.org Note the brochure lists the campus main line (704-943-4500) against Brunt's name, while the…`,text:`> Charlotte Country Day School
+> Eric Brunt, Director of Enrollment Management
+> 1440 Carmel Road, Charlotte, NC 28226-5096
+> 704-943-4500 fax: 704-943-4525
+> eric.brunt@charlottecountryday.org
+> charlottecountryday.org
+
+Note the brochure lists the **campus main line** (704-943-4500) against Brunt's name, while
+the school's own team page lists his **direct line** (704-943-4531). The direct line is the
+more useful figure for a parent and is what the app carries.`},{subtopic:`Why this matters`,source_file:null,preview:`No date, fee or deadline is affected — nothing the admissions episode speaks as fact changes. The defect is one of completeness: the app's Contacts panel reads as the whole office and was not. A parent with an escalation, an unusual situation, or a question no assistant director can settle was being pointed one rung…`,text:`No date, fee or deadline is affected — nothing the admissions episode speaks as fact changes.
+The defect is one of completeness: the app's Contacts panel reads as the whole office and was
+not. A parent with an escalation, an unusual situation, or a question no assistant director
+can settle was being pointed one rung too low.`},{subtopic:`Not published`,source_file:null,preview:`Individual staff members' areas of responsibility — which director handles which grade band — are not published on the pages reviewed. The app does not assert any, and should not. ---`,text:`Individual staff members' areas of responsibility — which director handles which grade band —
+are **not published** on the pages reviewed. The app does not assert any, and should not.
+
+---`},{subtopic:`CAIS Testing Consortium`,source_file:`Charlotte Country Day - Admissions - CAIS Testing Consortium.md`,preview:`# Charlotte Country Day — Admissions — CAIS Testing Consortium`,text:`# Charlotte Country Day — Admissions — CAIS Testing Consortium`},{subtopic:`Source URLs`,source_file:null,preview:`- <https://www.charlottecountryday.org/fs/resource-manager/view/26c38483-1a56-4c11-aaa0-a4e7f465eb27> (the school's own link; 302 →) - <https://resources.finalsite.net/images/v1786996627/charlottecds/bjjlanlwnfo6m2572dsn/2027-28CAISBrochure.pdf> (the actual PDF, 1 page, 2.8 MB) -…`,text:`- <https://www.charlottecountryday.org/fs/resource-manager/view/26c38483-1a56-4c11-aaa0-a4e7f465eb27>
  (the school's own link; 302 →)
 - <https://resources.finalsite.net/images/v1786996627/charlottecds/bjjlanlwnfo6m2572dsn/2027-28CAISBrochure.pdf>
  (the actual PDF, 1 page, 2.8 MB)
@@ -354,4 +390,4 @@ Director of Enrollment Management. Billing contact for enrolled families: Shanno
 - <https://www.charlottecountryday.org/fs/resource-manager/view/26c38483-1a56-4c11-aaa0-a4e7f465eb27>
  — 2027–28 CAIS brochure PDF — **RETRIEVED 2026-08-30** via its 302 redirect; see companion file
 
----`}],i={school_slug:e,topic_slug:t,section_count:27,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:34,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
