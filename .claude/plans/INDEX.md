@@ -79,3 +79,4 @@ Newest last.
 | [newcharlottechristianepisode](newcharlottechristianepisode.md) | Add podcast episode 33 (Saleh Athletic Center) to Charlotte Christian's Sports section | 2026-09-06 | Implemented | [#274](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/274) |
 | [admissionsreport](admissionsreport.md) | Generate a per-school Admissions PDF report plus the NotebookLM prompt that turns it into a podcast episode | 2026-09-06 | Implemented | [#286](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/286) |
 | [moreEpisodes](moreEpisodes.md) | Name the episode in the single-episode podcast popover, so "More episodes" says what it is | 2026-09-08 | Implemented | — |
+| [ccaid](ccaid.md) | Correct Charlotte Christian's financial-aid data — SSS by NAIS → Clarity, and publish the deadlines the school now publishes | 2026-09-15 | Not implemented | — |
