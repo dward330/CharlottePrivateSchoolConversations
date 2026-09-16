@@ -515,8 +515,12 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           explanation — they are simply plain text. */}
       {linked > 0 && (
         <p className="hsp-legend text-muted">
-          <span className="hsp-dest hsp-dest-link hsp-legend-swatch">
-            <span className="hsp-dest-arrow" aria-hidden="true">↗</span>
+          {/* A visual SAMPLE of the cross-link treatment, not a link. It gets
+              its own class rather than borrowing .hsp-dest-link, so that
+              selector keeps meaning "a real cross-link to a dossier" for
+              anything that queries the page. */}
+          <span className="hsp-dest hsp-legend-swatch" aria-hidden="true">
+            <span className="hsp-dest-arrow">↗</span>
           </span>
           {t('highSchoolPlacement.crossLinkLegend', { count: linked })}
         </p>

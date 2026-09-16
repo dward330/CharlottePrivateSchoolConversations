@@ -993,7 +993,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 )}
 
                 {!ready && <p className="loading">Loading research…</p>}
-                {ready && groups.length === 0 && (
+                {/* "No readable notes" means the ingest produced no prose for
+                    this area — NOT that the area is empty. A full-substitution
+                    area renders structured cards with `groups` legitimately
+                    empty, so the message must not fire there or it contradicts
+                    the four cards directly beneath it. The other substituted
+                    areas never hit this only because they also carry ingested
+                    prose; High School Placement is the first that need not. */}
+                {ready && groups.length === 0 && !highSchoolPlacement && (
                   <p className="empty">{tr('tables.noReadableNotes')}</p>
                 )}
 

@@ -4349,7 +4349,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   font-size: 12px;
   margin: 0 0 18px;
 }
-.hsp-legend-swatch { padding-right: 8px; }
+.hsp-legend-swatch {
+  border-left: 3px solid var(--brand);
+  padding-right: 8px;
+}
 
 .hsp-cat { margin-bottom: 18px; }
 
