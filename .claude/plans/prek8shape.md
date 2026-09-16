@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-09-16
 branch: feat/prek8-shape
-prs: []
+prs: [308]
 ---
 
 # The PreK–8 school shape
