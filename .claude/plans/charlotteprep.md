@@ -1,10 +1,10 @@
 ---
 name: charlotteprep
 title: Add Charlotte Preparatory School — the first PreK–8 school, with deep research across eight research areas
-status: not-implemented
+status: abandoned
 phases: 2
 created: 2026-09-16
-branch: feat/charlotte-prep
+branch: feat/charlotte-prep  # built, then deleted 2026-09-16
 prs: []
 ---
 
@@ -266,3 +266,85 @@ added keys). This is the larger of the two mechanisms; see
   as the school does, and record the expansion as not published.
 - **Does research surface material fitting no existing card?** — **default:** land everything
   else, surface the suggestion to the user, and do **not** build the new card without approval.
+
+---
+
+## ABANDONED 2026-09-16 — the user rejected the rendered data gaps
+
+**Charlotte Preparatory School is NOT in the app, and this plan is not to be re-run
+as written.** Phase 1 (English) was fully built, verified and pushed to
+`feat/charlotte-prep`; the user reviewed the rendered dossier and rejected it —
+*"I didn't like how the data gaps came out"* — and asked for the entry to be deleted.
+The branch was deleted locally and on the remote, **nothing was ever merged to
+`main`**, and the site was never deployed with the school. Phase 2 (the nine prose
+locales) never ran.
+
+### What "the data gaps came out badly" refers to
+
+The school cleared the coverage gate on paper — 8 of 10 research areas, 21/28
+consensus prose cards, ~75% — but that gate measures *which cards have data*, not
+*how the page reads once the absences are rendered*. What shipped had:
+
+- **Sports at 3 of 7 cards.** No athletic facility is named anywhere across the
+  school's 176-URL site, no win-loss records, no sports medicine, no individual
+  awards. Four omitted cards reads as a thin area even though the three remaining
+  ones were genuinely rich.
+- **Not-published notes carrying real weight in every area** — the placement team is
+  never named, the QCC conference is never expanded, no clubs list exists, no
+  curriculum guide exists, no studio fee is ever quantified.
+- **No Compare surface at all**, by design: no Compare row, no `VALUE_METRICS` stat
+  tile, and therefore no comparison to any peer anywhere on the page.
+
+None of this was a research shortfall. Every gap was converted to a confirmed null
+against the full site inventory, which is exactly what this plan asked for. It is a
+judgment that a PreK-8 school with this publication footprint does not make a dossier
+worth shipping — and **that judgment is the durable finding.**
+
+### The lesson, if a PreK-8 school is ever reconsidered
+
+Not "research harder". The point is that **`/add-school`'s coverage percentages did
+not predict how the page would read**: a card counts as covered when it has data, and
+that says nothing about how many not-published notes end up sitting beside it. A
+future assessment should look at a *rendered* page before committing to the work,
+which is the same reason this project already insists on a browser check rather than
+trusting green checkers.
+
+### What survived, and what did not
+
+**Kept** — re-applied on `fix/roster-assumptions`, because all four are independent
+of this school and two are bugs on `main` today:
+
+1. `src/lib/head.ts` — every school's meta description counted the SITE's research
+   areas, so Charlotte Catholic and Davidson Day claimed 9 while holding 7, Cannon 9
+   while holding 8.
+2. `build_docs.py` — a full ingest would have added an unapproved **News research
+   area to ten existing school pages**; `news` now joins `branding` in
+   `INTERNAL_TOPICS`.
+3. `coverage_floor.mjs` — a Compare-excluded school became "thinnest shipped" and the
+   printed `/add-school` bar read **0/30**, i.e. no bar at all.
+4. `seo_routes.mjs` — the Compare canonical, hreflang alternates and sitemap named a
+   school Compare will never draw a column for.
+
+**Discarded** — the eight `source-material/` research files, the manifest and content
+entries, the `brands.ts` entry, and all sixteen structured cards across six
+registries. The research is recoverable from the deleted branch via reflog if it is
+ever wanted; it is deliberately not kept in the tree.
+
+**Left in place on `main`**, at the user's direction — the **High School Placement**
+research area from PR #308. It is inert with an empty registry (every existing school
+page is byte-identical, which was that PR's own verification) and stays ready for a
+future PreK-8 school with no further work.
+
+### Research findings worth keeping, if anyone revisits this school
+
+- **Form 990 Schedule I** gives the aid figures the school does not publish:
+  **FY2023 $368,575 to 47 recipients**, **FY2022 $363,160 to 48**. The retrieval path
+  is non-obvious — ProPublica's PDFs 403, the S3 XML bucket is retired, and the IRS
+  bulk `TEOS_XML` zips are what works (note the case: `05A`, not `05a`).
+- **`/academics/middle-school/college-destinations` genuinely IS colleges** (~90
+  institutions). The assessment doc records the opposite; it is wrong.
+- **The assessment's 990 financials are wrong** — it cites an FY2025 filing that does
+  not exist; the latest return is FY2023 at $9,564,533 revenue.
+- **The QCC conference expansion is published nowhere**, on or off the school's site.
+- **Destinations are 60 in four categories** (14/15/17/14), not the brief's "50+", and
+  **10 of 14** Charlotte-area independents have a dossier here, not 12.

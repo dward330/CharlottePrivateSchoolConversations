@@ -20,6 +20,7 @@
  * shape needed here is a literal, so a parse avoids requiring a TS loader for a stat.
  */
 import { readFileSync } from 'node:fs'
+import { BRANDS } from '../src/data/brands.ts'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -79,10 +80,27 @@ const report = schools.map(({ slug, name }) => {
   // Floor, not round: 17/30 is 56.67%, and the agreed bar is stated as 56%. Rounding up
   // would advertise a floor fractionally above the school it is calibrated to.
   return { slug, name, value, nulled, missing, rows: rows.length, areas, topics: topics.length,
+           comparable: BRANDS[slug]?.hasHighSchool !== false,
            fill: Math.floor((value / rows.length) * 100) }
 })
 
-const floor = report.reduce((a, b) => (b.value < a.value ? b : a))
+// THE FLOOR IS DERIVED FROM COMPARABLE SCHOOLS ONLY.
+//
+// A PreK-8 school is excluded from the Compare page entirely (see
+// `comparableSchools` in src/lib/manifest.ts), so it legitimately has NO
+// metricValues.ts keys at all and scores 0/30 here. Letting it into this
+// reduction makes it "the thinnest shipped school" and derives a 0/30 bar —
+// which is not a low bar, it is NO bar, and /add-school reads this number to
+// decide whether a candidate is worth researching. Verified 2026-09-16 against a
+// PreK-8 school carried on a branch: with it in the reduction the floor printed
+// 0/30, and with it excluded the floor is Davidson Day at 17/30 as documented.
+//
+// Its research-area count is still meaningful and is still reported, because
+// area coverage is exactly what the gate falls back to for a Compare-excluded
+// school — that is the documented consequence of the exclusion.
+const comparable = report.filter((r) => r.comparable)
+const floor = comparable.reduce((a, b) => (b.value < a.value ? b : a))
+const excluded = report.filter((r) => !r.comparable)
 
 if (asJson) {
   console.log(JSON.stringify({ rows: rows.length, topics: topics.length, schools: report, floor }, null, 2))
@@ -99,8 +117,14 @@ if (asJson) {
   console.log(`\nThe /add-school bar (inclusive): a candidate needs >= ${floor.value}/${floor.rows} Compare rows`)
   console.log(`and >= ${floor.areas}/${floor.topics} research areas to match our thinnest shipped school.`)
   console.log(`\nCount in ROWS, not percentages — each row moves the figure ~${(100 / rows.length).toFixed(1)} points.`)
-  if (report.some((r) => r.missing)) {
-    console.log(`\nNote: ${report.filter((r) => r.missing).map((r) => `${r.name} (${r.missing})`).join(', ')} have missing`)
+  if (excluded.length) {
+    console.log(`\nExcluded from the floor: ${excluded.map((r) => `${r.name} (${r.areas}/${r.topics} areas)`).join(', ')}`)
+    console.log(`— no grades 9-12, so no Compare rows are expected. For these schools the gate is`)
+    console.log(`research-area coverage alone; their 0/30 is correct and is not a floor.`)
+  }
+  const missingComparable = comparable.filter((r) => r.missing)
+  if (missingComparable.length) {
+    console.log(`\nNote: ${missingComparable.map((r) => `${r.name} (${r.missing})`).join(', ')} have missing`)
     console.log(`Compare keys — an oversight rather than a deliberate null. See npm run check:metrics.`)
   }
   console.log()

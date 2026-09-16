@@ -14,7 +14,7 @@
 // client rendering, and are unaffected by anything in this file.
 
 import type { Route } from './router.ts'
-import { schoolBySlug, topics } from './manifest.ts'
+import { schoolBySlug, topics, topicsForSchool } from './manifest.ts'
 import { BRANDS } from '../data/brands.ts'
 import { TRANSLATED } from './i18n.ts'
 
@@ -71,8 +71,8 @@ const DESC_MAX = 160
  * comma-only sample meant to be followed by "and more", so the conjunction is
  * left off — "a, b, c and more" rather than "a, b and c and more".
  */
-function topicList(n?: number): string {
-  const names = topics.slice(0, n ?? topics.length).map((t) => t.name.toLowerCase())
+function topicList(n?: number, from: { name: string }[] = topics): string {
+  const names = from.slice(0, n ?? from.length).map((t) => t.name.toLowerCase())
   if (names.length < 2) return names[0] ?? 'school research'
   if (n !== undefined) return names.join(', ')
   return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`
@@ -115,9 +115,20 @@ export function metaForRoute(route: Route): PageMeta {
     const path = `/school/${encodeURIComponent(school.slug)}/`
     // Leads with the school name and what the page IS, because that is what
     // survives truncation. Three topics plus a count beats naming all seven.
+    //
+    // The count and the sample are THIS SCHOOL'S areas, not the site's. They used
+    // to be `topics.length` and the global `topicList(3)`, which was wrong in a
+    // way nothing caught until the roster stopped being uniform: no school has
+    // every area, so every description overstated its page, and adding the
+    // PreK-8 High School Placement area silently rewrote all eleven existing
+    // schools' descriptions from "9 areas" to "10" — advertising an area those
+    // pages do not have. A school's own manifest topics are the honest figure,
+    // and they are what `topicsForSchool()` already computes for the page itself.
+    const own = topicsForSchool(school.slug)
+    const areaCount = own.length || topics.length
     const description = describe(
-      `${school.name}: independent research across ${topics.length} areas — ` +
-        `${topicList(3)} and more. Every figure cited to its source.`,
+      `${school.name}: independent research across ${areaCount} areas — ` +
+        `${topicList(3, own.length ? own : topics)} and more. Every figure cited to its source.`,
     )
     const logo = BRANDS[school.slug]?.logo
     const city = BRANDS[school.slug]?.city
