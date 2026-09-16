@@ -516,6 +516,35 @@ export const EPISODES: PodcastEpisode[] = [
     schools: ['providence-day'],
     researchArea: 'admissions',
   },
+  {
+    id: 37,
+    // The fourth `/admissions-episode` production and the fourth to map to
+    // `admissions`.
+    //
+    // SECOND take. The first flattened two of the PDF's silences into claims:
+    // that it states aid does not affect the admissions decision, and that it
+    // names no Spanish-speaking contact. The PDF says neither — and neither was
+    // the model going off-source. PROMPT_TEMPLATE asked for both behind an
+    // "if named" / "where the PDF says so" conditional that got dropped (PR
+    // #300 made them unconditional). This take instead says the document is
+    // silent on aid and draws no conclusion, and it keeps the absences the PDF
+    // DOES name (no separate Grade 1 A Closer Look, nothing describing the
+    // questionnaire as a faith questionnaire). Same PDF both times.
+    //
+    // FIRST episode whose report was built from live-site overrides rather than
+    // shipped data alone: the school moved aid off SSS by NAIS to Clarity and
+    // now publishes the deadlines src/data records as unpublished. The episode
+    // is therefore AHEAD of the app until that data change lands.
+    title: 'Charlotte Christian: How to Apply',
+    // Published: "Charlotte Christian School - Admissions - How to Apply (For Fall 2027 Entry)"
+    fullTitle:
+      'Charlotte Christian School - Admissions - How to Apply (For Fall 2027 Entry)',
+    spotifyUrl: 'https://open.spotify.com/episode/5OgiZcHIydywcmddj1oF4k',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000789889667',
+    schools: ['charlotte-christian'],
+    researchArea: 'admissions',
+  },
 ]
 
 /**
