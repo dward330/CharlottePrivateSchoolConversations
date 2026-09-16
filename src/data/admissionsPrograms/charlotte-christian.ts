@@ -6,34 +6,50 @@
 // provenance header, the source URLs and the record-level detail behind every
 // figure below. The CAIS consortium detail it leans on is the same brochure
 // documented for Country Day, in that school's "… - CAIS Testing Consortium.md".
+// The financial-aid figures come from a second committed file in the same
+// folder, "… - Financial Aid Platform Migration to Clarity.md" (2026-09-14).
 //
-// CYCLE: 2026–27, and THE SCHOOL'S OWN LABELS ARE CORRECT. This is the exact
-// opposite of Charlotte Country Day, whose section headers say "2026-27" over
-// 2027–28 content. Charlotte Christian labels its documents "2026-27" and means
-// it: the label names the school year being applied for, and every deadline
-// inside falls in the 2026–27 admission season, i.e. calendar 2027. Do NOT port
-// Country Day's mislabel reasoning onto this card, and do NOT "correct" these
-// headers — see the cycle audit in the research file.
+// CYCLE: 2027–28. THE SCHOOL'S OWN DOCUMENTS DISAGREE ON THE LABEL, AND THE
+// NEWEST ONE WINS. The Apply page, rewritten 1 Sep 2026, heads these dates
+// "Application Process for the 2027-28 School Year". The Admissions Calendar
+// and Tuition PDFs — unchanged since Jun/Aug 2026 — head the SAME dates
+// "2026-27". The dates are identical either way: apply Jan 2027 → decide
+// Feb/Apr 2027 → start Aug 2027, which is the 2027–28 school year. This card
+// ships the 2027–28 label and every date value is unchanged by that relabel.
+// The PDF-titled sources below deliberately keep their own "2026-27" filenames.
 //
-// THREE SOURCES DISAGREE, AND ONLY ONE IS CURRENT:
-//   1. The downloadable PDFs (refreshed 2026-08-26) — AUTHORITATIVE, and what
-//      this card ships.
-//   2. The live /admissions/apply page — STALE. Its inline HTML still describes
-//      the prior, closed cycle (a Dec 31, 2025 JK/K deadline, Jan 15 2026 for
-//      grades 1–12, decisions Feb 27 2026 / Apr 2 2026). It is useful only for
-//      its PDF links, portal links and TOEFL/ISEE pointers.
-//   3. The financial-aid PDF — ALSO STALE, and the trap here. It is named
-//      "2026-27financialaid.pdf" and it gives Feb 2 / Mar 2 due dates, so it
-//      reads as current. It is not: its Finalsite version stamp (v1769003003)
-//      dates it 2026-01-21, while the calendar, all three checklists and the
-//      tuition chart carry v17878006xx/v1787800765/v1787800806 stamps dating
-//      them 2026-08-26. Its notification dates (Feb 27 2026 / Apr 2 2026) match
-//      the STALE apply page, not the current calendar (Feb 26 2027 / Apr 9
-//      2027). The school refreshed everything except this one sheet.
+// THE APPLY PAGE IS NO LONGER STALE — this reverses an earlier finding. Its
+// inline HTML used to describe the prior, closed cycle (a Dec 31 2025 JK/K
+// deadline, decisions Feb 27 2026 / Apr 2 2026), and this card was built to
+// ignore it. The school rewrote it on 1 Sep 2026; it is now the authority for
+// the cycle label. The downloadable PDFs (refreshed 2026-08-26) remain
+// authoritative for the per-band deadlines, which the two agree on.
 //
-//      THEREFORE the current-cycle aid deadline is NOT PUBLISHED, and this card
-//      ships the aid STRUCTURE with the date named as unpublished. Never carry
-//      Feb 2 / Mar 2 forward as if they were current — that is the cycle rule.
+// THE FINANCIAL-AID PDF IS STALE AND IS STILL THE TRAP HERE. It is named
+// "2026-27financialaid.pdf" and gives Feb 2 / Mar 2 due dates, so it reads as
+// current. It is not: its Finalsite version stamp (v1769003003) dates it
+// 2026-01-21, and its notification dates (Feb 27 2026 / Apr 2 2026) match the
+// OLD apply page, not the current calendar (Feb 26 2027 / Apr 9 2027). Never
+// carry Feb 2 / Mar 2 forward as if they were current.
+//
+// AID MOVED TO CLARITY, AND THE DEADLINES ARE NOW PUBLISHED (retrieved
+// 2026-09-14 from the live tuition page, read as raw HTML). This card
+// previously shipped SSS by NAIS with school code 2318 and named the aid
+// deadline as unpublished; both are superseded:
+//   - The platform is Clarity. SSS/NAIS/2318 appear 0 times on the live page,
+//     and Clarity uses no school code.
+//   - Prospective families apply by Jan 22, 2027; current families by
+//     Nov 1, 2026.
+//   - The NC Opportunity Scholarship requirement is GONE ("Opportunity" and
+//     "ncseaa" both 0 occurrences). This repo's own financial-aid research
+//     records that NC Opportunity Scholarship participation "concludes after
+//     2025–26", which is consistent. Do not restate it as mandatory.
+//
+// TWO DIFFERENT FEES, NEVER COLLAPSE THEM: the CLARITY aid application fee is
+// $65; the school's ADMISSIONS application fee is $100. The $65 sentence sits
+// inside the Clarity paragraph on the tuition page. A page summarizer conflated
+// them and reported the application fee as $65; reading the raw HTML separated
+// them. Both figures are real and they are different fees.
 //
 // A TYPO IN THE SCHOOL'S OWN CALENDAR: it prints "Sunday, Feb. 1, 2026 — JK-K
 // File Materials Due / CAIS Testing Due - JK/K". The weekday is internally
@@ -127,8 +143,8 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const charlotteChristian: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. Three published documents, but four real processes: the application deadline breaks at Kindergarten→1 while the testing breaks a grade later, at 1→2.",
-    cycle: '2026–27 entry cycle',
+      "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. Three published documents, but four real processes: the application deadline breaks at Kindergarten→1 while the testing breaks a grade later, at 1→2.",
+    cycle: '2027–28 entry cycle',
 
     stats: [
       {
@@ -146,7 +162,7 @@ export const charlotteChristian: AdmissionsProgram = {
       },
       {
         title: 'The deadlines are for priority, and admissions roll after them.',
-        text: 'Every date below is the 2026–27 cycle. These are CAIS priority dates; after them the school "maintains rolling admissions where grade level space permits."',
+        text: 'Every date below is the 2027–28 cycle. These are CAIS priority dates; after them the school "maintains rolling admissions where grade level space permits."',
       },
     ],
 
@@ -659,7 +675,7 @@ export const charlotteChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **SSS by NAIS** (school code **2318**), is **need-based only** and is capped at **50 percent of tuition**. Every aid family must **also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The deadline for this cycle is not published** — confirm it with the business office.',
+      text: 'Aid runs through **Clarity** — the school moved off SSS by NAIS, and no school code is used — is **need-based only** and is capped at **50 percent of tuition**. The Clarity application carries its own **$65 fee**, separate from the $100 admissions application fee, and takes under an hour. **Prospective families apply by Jan 22, 2027**; families already at the school apply by Nov 1, 2026. Awards are made only after a student is accepted.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -804,11 +820,11 @@ export const charlotteChristian: AdmissionsProgram = {
       aidPanel: {
         kicker: 'In parallel — the financial aid clock',
         items: [
-          'Apply through SSS by NAIS — Charlotte Christian\'s school code is 2318. Upload the federal income tax return, W-2, and a business tax return if the family owns all or part of a business.',
+          'Apply through Clarity, the school\'s financial-assistance platform — it replaced SSS by NAIS, so a school code is no longer used. The application takes under an hour, is mobile-friendly, and carries a $65 application fee of its own, separate from the $100 admissions fee.',
           'Awards are need-based only and the maximum grant is limited to 50 percent of tuition. Awards for new families are not provided until the student has been accepted.',
           'Applications are considered as they are completed, and awards are limited by the funding available at the time of completion — so completing early matters, not just meeting a date.',
-          'Every family applying for assistance must ALSO apply to the North Carolina Opportunity Scholarship Program, which opens February 2 at k12.ncseaa.edu. This is a second, mandatory application.',
-          'The aid deadline for the 2026–27 cycle is not published — the only dated sheet is a prior cycle\'s. Confirm the current date with the business office before planning around it.',
+          'Clarity runs free family information webinars each fall covering the application and tax-verification process: Sept 29 (10 p.m.), Sept 30 (6 p.m.), Oct 27 (10 p.m.), Oct 28 (6 p.m.) and Dec 8, 2026 (8:30 p.m. EST), each with its own registration link.',
+          'The aid deadlines are published for this cycle: prospective families apply by Jan 22, 2027 and current families by Nov 1, 2026. Note that Jan 22 falls a week after the Jan 15 admissions deadline for grades 1-12, and three weeks after the Jan 2 JK/K one.',
         ],
       },
       contactPanel: {
@@ -820,7 +836,7 @@ export const charlotteChristian: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2026–27 entry cycle as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026) — the application-process checklists and the admissions calendar, which the school refreshed on 26 Aug 2026. The Apply page\'s inline dates and the financial-aid sheet are a prior, closed cycle and are deliberately not used here. Cycle dates shift year to year — verify against the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.',
+        'Dates are the 2027–28 entry cycle as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026) — the application-process checklists and the admissions calendar, which the school refreshed on 26 Aug 2026 — and on the Apply page, which the school rewrote on 1 Sep 2026 and which supplies the cycle label. Financial-aid detail is from the live tuition page (retrieved 14 Sep 2026); the older financial-aid PDF is a prior, closed cycle and is deliberately not used here. Cycle dates shift year to year — verify against the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.',
     },
 
     sources: [
@@ -846,7 +862,7 @@ export const charlotteChristian: AdmissionsProgram = {
       },
       {
         label:
-          'charlottechristian.com — tuition and financial assistance: SSS by NAIS, the 50 percent cap, the need-based rule, the NC Opportunity Scholarship requirement and the enrollment, new-family and international fees',
+          'charlottechristian.com — tuition and financial assistance: Clarity as the aid platform, its $65 application fee, the Jan 22 2027 prospective and Nov 1 2026 current-family due dates, the 50 percent cap, the need-based rule and the enrollment, new-family and international fees',
         url: 'https://www.charlottechristian.com/admissions/tuition',
       },
       {
@@ -861,7 +877,7 @@ export const charlotteChristian: AdmissionsProgram = {
       },
       {
         label:
-          'charlottechristian.com — apply: the portal and TOEFL/ISEE links and the downloadable process PDFs. NOTE its inline dates describe a prior, closed cycle and are not used here',
+          'charlottechristian.com — apply: the portal and TOEFL/ISEE links and the downloadable process PDFs. Rewritten 1 Sep 2026 and headed "Application Process for the 2027-28 School Year", which is where this card takes its cycle label',
         url: 'https://www.charlottechristian.com/admissions/apply',
       },
       {
@@ -874,13 +890,9 @@ export const charlotteChristian: AdmissionsProgram = {
         url: 'https://charlottechristian.myschoolapp.com/',
       },
       {
-        label: 'SSS by NAIS — the financial-aid platform; Charlotte Christian school code 2318',
-        url: 'https://sssandtadsfa.my.site.com/familyportal/FamilyLogin',
-      },
-      {
         label:
-          'North Carolina Opportunity Scholarship — the second, mandatory application for every aid applicant',
-        url: 'https://k12.ncseaa.edu',
+          'Clarity — the financial-aid platform that replaced SSS by NAIS; no school code is used, and the school links the application from its own tuition page',
+        url: 'https://www.charlottechristian.com/admissions/tuition',
       },
     ],
   },

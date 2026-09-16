@@ -721,29 +721,33 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       confidence: 96,
       timeline: [
         {
-          when: '2 Feb 2026',
-          detail:
-            'Priority deadline for **current families** and for new **JK/K** applicants — via SSS by NAIS, school code 2318',
-        },
-        {
           when: '27 Feb 2026',
-          detail: 'New JK and kindergarten applicants notified of awards by this date',
+          detail:
+            'New JK and kindergarten applicants notified of awards by this date (2026–27 cycle)',
         },
         {
           when: '2 Mar 2026',
-          detail: 'Priority deadline for new applicants, **grades 1–12**',
+          detail: 'Priority deadline for new applicants, **grades 1–12** (2026–27 cycle)',
           emphasis: true,
         },
         {
           when: '2 Apr 2026',
           detail:
-            'New grades 1–12 applicants notified by this date. Later applications still accepted, but awards are limited to funds available at each grade level',
+            'New grades 1–12 applicants notified by this date (2026–27 cycle). Later applications still accepted, but awards are limited to funds available at each grade level',
+        },
+        {
+          when: '1 Nov 2026',
+          detail: 'Priority deadline for **current families** — via Clarity',
+        },
+        {
+          when: '22 Jan 2027',
+          detail: 'Priority deadline for **prospective families** — via Clarity',
         },
       ],
       boxes: [
         {
-          title: 'A requirement unique in this series',
-          body: 'Every applicant family must **also apply to the North Carolina Opportunity Scholarship Program**, a state programme whose applications open 2 February. Across the schools examined here, this is the only instance of a school conditioning its own assistance application on a parallel state application.',
+          title: 'A requirement unique in this series — and since withdrawn',
+          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**, a state programme whose applications opened 2 February. Across the schools examined here, this was the only instance of a school conditioning its own assistance application on a parallel state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it, consistent with its own note that NC Opportunity Scholarship participation concludes after 2025–26.',
         },
         {
           tag: 'DOCUMENTATION HAZARD',
@@ -755,7 +759,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottechristian.com — 2026–27 Financial Assistance How to Apply / Due Dates (PDF), retrieved 23 Jul 2026',
+        'charlottechristian.com — 2026–27 Financial Assistance How to Apply / Due Dates (PDF), retrieved 23 Jul 2026; Clarity platform and the Nov 2026 / Jan 2027 due dates from the live Tuition & Financial Assistance page, retrieved 14 Sep 2026',
     },
     {
       id: 'fa-merit',

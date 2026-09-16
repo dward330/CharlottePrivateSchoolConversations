@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02",
+  "generated": "2026-09-15",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -89,12 +89,12 @@
     {
       "topic_slug": "admissions",
       "school_slug": "charlotte-christian",
-      "doc_count": 1
+      "doc_count": 2
     },
     {
       "topic_slug": "admissions",
       "school_slug": "charlotte-country-day",
-      "doc_count": 2
+      "doc_count": 3
     },
     {
       "topic_slug": "admissions",
@@ -114,7 +114,7 @@
     {
       "topic_slug": "admissions",
       "school_slug": "providence-day",
-      "doc_count": 1
+      "doc_count": 2
     },
     {
       "topic_slug": "after-school",
@@ -4513,9 +4513,29 @@
       "school": "Charlotte Christian School",
       "topic_slug": "admissions",
       "topic": "Admissions",
+      "subtopic": "Financial Aid Platform Migration to Clarity",
+      "source_file": "source-material/admissions/charlotte-christian/Charlotte Christian - Admissions - Financial Aid Platform Migration to Clarity.md",
+      "note_file": ".claude/docs/admissions/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "admissions",
+      "topic": "Admissions",
       "subtopic": "Grade-by-Grade Application Plans",
       "source_file": "source-material/admissions/charlotte-christian/Charlotte Christian - Admissions - Grade-by-Grade Application Plans.md",
       "note_file": ".claude/docs/admissions/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "admissions",
+      "topic": "Admissions",
+      "subtopic": "Admissions Office Staff",
+      "source_file": "source-material/admissions/charlotte-country-day/Charlotte Country Day - Admissions - Admissions Office Staff.md",
+      "note_file": ".claude/docs/admissions/charlotte-country-day.md",
       "type": "md"
     },
     {
@@ -4575,6 +4595,16 @@
       "topic": "Admissions",
       "subtopic": "Grade-by-Grade Application Plans",
       "source_file": "source-material/admissions/providence-day/Providence Day - Admissions - Grade-by-Grade Application Plans.md",
+      "note_file": ".claude/docs/admissions/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "admissions",
+      "topic": "Admissions",
+      "subtopic": "Live Process Page Refresh",
+      "source_file": "source-material/admissions/providence-day/Providence Day - Admissions - Live Process Page Refresh.md",
       "note_file": ".claude/docs/admissions/providence-day.md",
       "type": "md"
     }

@@ -1,11 +1,11 @@
 ---
 name: ccaid
 title: Correct Charlotte Christian's financial-aid data — SSS by NAIS → Clarity, and publish the deadlines the school now publishes
-status: not-implemented
+status: implemented
 phases: 2
 created: 2026-09-15
 branch: fix/ccaid
-prs: []
+prs: [303]
 ---
 
 # Correct Charlotte Christian's financial-aid data (SSS by NAIS → Clarity)
@@ -308,3 +308,151 @@ chrome. Locales per `PROSE_TRANSLATED` (`src/lib/i18n.ts:182`):
   and a reader will look for it.
 - **Does the school publish a Clarity deep link worth citing?** — **default:** no; cite the
   school's own tuition page. Do not invent or guess a Clarity URL.
+
+## Implementation notes
+
+### Phase 1 (English) — shipped
+
+Two deviations from the plan as written, both recorded here because Phase 2 runs in a
+fresh window.
+
+**1. Step 10 would have rendered the aid timeline BACKWARDS.** The plan said to change
+L726 in place and "leave every other row untouched". `Timeline` in
+`src/components/FinancialAidReport.tsx:232` maps `nodes` in **array order with no sort** —
+it draws a left-to-right rule, so array order *is* chronological order to the reader.
+Applying step 10 literally produced
+`1 Nov 2026 → 22 Jan 2027 → 27 Feb 2026 → 2 Mar 2026 → 2 Apr 2026`.
+
+The new Clarity rows were therefore placed **after** the three surviving 2026-27 rows, and
+those three were suffixed `(2026–27 cycle)` so the reader can see why the sequence spans
+two cycles. No date value was changed and the block's `meta`/retrieval date is untouched,
+per the plan's scope.
+
+Related: `RichText` (same file, L27) supports **only** `**bold**` — it splits on
+`/\*\*(.+?)\*\*/g` and has no italic branch. A first pass used `*(2026–27 cycle)*`, which
+would have shipped literal asterisks. Do not use `*italic*` in any `financialAidReports.ts`
+prose field.
+
+**2. `boxes[0]` in the same section stated the dropped NC Opportunity Scholarship
+requirement as current and mandatory** — the exact claim step 5 deletes from the admissions
+card for being false. Left alone, one page told a parent the requirement was both gone and
+mandatory. Rewritten to past tense ("A requirement unique in this series — and since
+withdrawn"), which keeps the cross-school finding while stating it no longer applies. The
+section `source` line now also names the 14 Sep 2026 retrieval that supplied the Clarity
+dates.
+
+### ⚠️ Phase 2 scope is LARGER than the plan measured: 14 entries per locale, not 4
+
+The plan's Context section measured **4 entries per locale in `admissions` only (36
+retranslations)**. Measured after Phase 1 via `npm run check:live`, the real figure is
+**14 per locale across TWO overlay topics = 126**:
+
+- **`admissions` — 7 stamps**, not 4. The plan's four aid strings (`5cdd7282`, `41ae2429`,
+  `483d6800`, `92270c6b`) **plus three the cycle relabel touched**, which the plan treated
+  as a mere "label correction" with no locale cost: `22392360` (`guide.headline`),
+  `195f3279` (the dateline `text`) and `61d07ea8` (`checklist.disclaimer`).
+- **`financial-aid-report` — 7 stamps**: `82f89c2a`, `5acd774f`, `7aad52a0`, `03085a24`,
+  `0e2284d6`, `4ef124f8`, `c2a1b69d`. The plan never listed this topic at all, because
+  step 10 was scoped as a one-row edit without noting that this file's prose is also
+  translated. Its work/overlay files are `src/data/overlays/[work/]financial-aid-report.<lang>.json`.
+
+Both topics must be spliced by stamp and rebuilt. The splice-not-re-extract rule (step 13)
+applies to both.
+
+### Verification results (Phase 1)
+
+- `npx tsc --noEmit` — exit 0.
+- `npm run build` — **exit 1, on `check:live` only, and this is the EXPECTED Phase 1
+  state**: the English changed, so 14 stamps per locale no longer resolve and those strings
+  fall back to English until Phase 2. Verified this is caused by this change alone —
+  `check:live` exits **0** on the branch with these two files stashed.
+- `check:schema`, `check:seo`, `check:runtime`, `check:podcast`, `check:news`,
+  `check:chrome` — all pass.
+- `check:metrics` — exit 1, **pre-existing**; fails identically with this change stashed
+  (advisory coverage gaps in branding/news/college-support/sports, none in admissions).
+  Its admissions sections report "every subtopic matched a rule".
+- Greps: `SSS by NAIS|2318|sssandtadsfa|k12.ncseaa` → only the deliberate "replaced SSS by
+  NAIS" framing and header comments; no live URL to the old platform. `not published` → 0.
+- **Browser check** (Playwright, `domcontentloaded`, all `<details>` force-opened):
+  - `/school/charlotte-christian/admissions-checklist/?band=g512` — cycle reads
+    `2027–28 entry cycle`, Clarity named, **$65 and $100 both present and distinct**,
+    Jan 22 2027 + Nov 1 2026 shown, webinars item renders, no `2318` / `Opportunity` /
+    `not published` / literal `**`.
+  - `/school/charlotte-christian/` — aid card correct; aid-report timeline renders in
+    chronological order and the withdrawn-requirement box reads coherently.
+  - Note `guide.cycle` renders **only** on the checklist route, not the school page.
+
+### Phase 2 (nine locales) — shipped
+
+**Scope was 16 entries per locale (144), not the 14 the Phase 1 notes recorded
+nor the 4 the Context section measured.** The Phase 1 note's 14 came from reading
+`check:live`'s output, and that checker structurally cannot report the last two:
+it walks *shipped overlay entries* and asks whether each still resolves, so
+English that was **never extracted at all** is invisible to it. `check:runtime`
+exited 0 with both strings untranslated.
+
+The two it missed are `de7f4b1b` (`1 Nov 2026`) and `a31cb4fa` (`Priority
+deadline for **prospective families** — via Clarity`) — the `when`/`detail` of a
+timeline row Phase 1 *added*. Scope was therefore re-derived by running the
+extractor's own classifier (`i18n_fields.mjs`) over the live modules and diffing
+against each work file, rather than trusting a checker's finding list. This is
+the same lesson already recorded in CLAUDE.md as "an allowlist is a lower bound,
+never a census" — it applies to a checker's output too.
+
+Final scope: `admissions` 7 stamps, `financial-aid-report` 9.
+
+**Two defects found and fixed during the splice.**
+
+1. **The financial-aid timeline was REORDERED in Phase 1**, so mapping stale
+   stamps to new ones by array path silently pairs each translation with the
+   wrong row — `5acd774f` ("current families … via SSS", the deleted row 0)
+   would have become "New JK and kindergarten applicants notified". Mapped by
+   English *meaning* instead, per the repo's key-by-text-never-by-index rule.
+
+2. **Three surviving `when` entries kept their pre-shift `at` paths.**
+   `2777eb27` / `0e3d96a9` / `c1bf0e06` (27 Feb, 2 Mar, 2 Apr 2026) were not in
+   the replace map, so nothing updated them when Phase 1 deleted row 0 and
+   shifted the rest up. That left `timeline[3].when` claimed by **two** stamps
+   and `timeline[0].when` by none.
+
+   The consequence is the silent-fallback class this repo keeps re-discovering:
+   `localized()` resolves strictly by path and its index is last-wins, so three
+   dates rendered **English in all nine locales** while `check:live`,
+   `check:runtime` and `check:sepdrift` all exited 0. Only the browser check saw
+   it. Repaired, and the whole overlay set is now asserted to have **0 colliding
+   `at` paths** — worth re-running after any splice that follows a row deletion.
+
+**Also fixed, pre-existing:** `it` and `hi` left `2 February` untranslated inside
+the NC Opportunity Scholarship box (`c2a1b69d`) — a genuine leak that predates
+this plan, corrected to `2 febbraio` / `2 फ़रवरी` while rewriting that string.
+
+**Reused rather than retranslated where the English was unchanged in substance:**
+the three timeline `detail` rows that only gained a `(2026–27 cycle)` suffix, and
+the two cycle-relabel strings (`guide.headline`, `guide.rules[1].text`), whose
+only delta is `2026–27` → `2027–28` — applied as a single asserted substitution
+per locale rather than a fresh translation, so no other wording could drift.
+
+### Verification results (Phase 2)
+
+- `npm run build` — **exit 0**. `check:live` is green for the first time since
+  Phase 1; its failure there was the expected English-ahead-of-overlays state.
+- `check:runtime` — all 9 locales resolve, 12,331 entries each.
+- `check:sepdrift` — **0 drifted figure tokens** in all 9. `$65`, `$100`,
+  `Jan 22, 2027`, `Nov 1, 2026`, `Jan 15`, `Jan 2` are all copied char-for-char.
+- `check:money`, `check:currency`, `check:bidi`, `check:fa`, `check:hi`,
+  `check:fr`, `check:script` — all clean.
+- `i18n:leaks` — run for all nine and **diffed against a stashed baseline**:
+  counts identical (es 164, bn 187, ht 180, te 364, fr 300, fa 166, it 346,
+  hi 247, ar 174) and **zero new flagged strings**. None of the 16 entries was
+  flagged, i.e. every locale translated all of them.
+- **Browser check** (Playwright, `domcontentloaded`, all `<details>`
+  force-opened), **all nine locales × both routes = 18 checks, all pass**:
+  Clarity named; `$65` and `$100` both present and distinct; Jan 22 2027 and
+  Nov 1 2026 shown; cycle reads `2027–28`; no `2318`, no `sssandtadsfa`, no
+  `k12.ncseaa`, no literal `**`. Aid timeline renders **all five dates
+  translated, in chronological order** in every locale.
+
+  One note for the next locale pass: `localizeMoneyText()` re-renders these fees
+  per locale — `65 US$` (es), `65 $US` (fr), `65 USD` (it), `$65` (hi), and
+  bidi-isolated in fa/ar. A verification regex that only looks for `$65` reports
+  a false failure on five of nine locales; match the digits, not the symbol.
