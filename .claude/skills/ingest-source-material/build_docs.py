@@ -32,6 +32,7 @@ TOPIC_NAMES = {
     "course-offerings": "Course Offerings",
     "summer-programs": "Summer Programs",
     "admissions": "Admissions",
+    "high-school-placement": "High School Placement",
 }
 SCHOOL_NAMES = {
     "cannon": "Cannon School",
@@ -53,7 +54,21 @@ pretty = lambda slug, table: table.get(slug, slug.replace("-", " ").title())
 # as a public explore topic / Compare surface. Anything here is skipped when the
 # manifest is built. `branding` holds where each school's header logo came from —
 # reference material, never a page section.
-INTERNAL_TOPICS = {"branding"}
+#
+# `news` is the same kind of thing and MUST stay here: those files record each
+# school's news-board HTML structure so a parser can be written against it
+# (.claude/skills/add-school-news/SKILL.md), and the Latest News section renders
+# from a LIVE fetch at runtime, not from ingested prose. Without this exclusion a
+# full rebuild silently adds a "News" research area to all ten schools that have
+# a board note — an unapproved section on ten pages, which is exactly what the
+# UX-design standard in CLAUDE.md forbids.
+#
+# Found 2026-09-16: the `news` folders predate this list and had never been
+# ingested, because no FULL rebuild had run since they were added. A single-topic
+# rebuild would never have surfaced it. That is the trap worth remembering — this
+# script is discovery-based, so any topic folder added since the last full run is
+# a pending unapproved research area.
+INTERNAL_TOPICS = {"branding", "news"}
 
 # A table header cell that wraps inside its own column comes out of pdfplumber as a
 # split word: the header row on one line, then the tail of the wrapped word alone on

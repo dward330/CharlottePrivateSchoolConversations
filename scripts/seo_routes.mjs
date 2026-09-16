@@ -23,6 +23,7 @@ import { dirname, resolve } from 'node:path'
 // Importing the one constant both sides read keeps the pre-rendered canonical
 // URL and the page a reader actually lands on from drifting apart.
 import { COMPARE_DEFAULT_TOPIC } from '../src/lib/metrics.ts'
+import { BRANDS } from '../src/data/brands.ts'
 
 const here = dirname(fileURLToPath(import.meta.url))
 export const REPO_ROOT = resolve(here, '..')
@@ -33,6 +34,25 @@ export const SITE_ORIGIN = 'https://charlotteschoolinsights.com'
 const manifest = JSON.parse(
   readFileSync(resolve(REPO_ROOT, 'src/data/schools.json'), 'utf8'),
 )
+
+/**
+ * The schools the Compare page can actually render, mirroring `comparableSchools`
+ * in src/lib/manifest.ts — a PreK-8 school is excluded from Compare entirely
+ * (user decision, 2026-09-15), so naming one in ?schools= advertises a column the
+ * app will never draw.
+ *
+ * This reads BRANDS rather than re-listing slugs because that is where the
+ * `hasHighSchool` flag lives, and it deliberately does NOT filter the per-school
+ * routes below: a PreK-8 school still gets its own indexable dossier page. Only
+ * the Compare selection is filtered.
+ *
+ * Getting this wrong is invisible in the app and visible only to crawlers: the
+ * canonical, the hreflang alternates and the sitemap would all advertise a
+ * Compare URL carrying a slug that produces no column.
+ */
+const comparableSlugs = manifest.schools
+  .map((s) => s.slug)
+  .filter((slug) => BRANDS[slug]?.hasHighSchool !== false)
 
 /**
  * Every indexable route, as root-relative paths in trailing-slash directory
@@ -101,7 +121,7 @@ export const ROUTES = [
       '?' +
       new URLSearchParams({
         topic: COMPARE_DEFAULT_TOPIC,
-        schools: manifest.schools.map((s) => s.slug).join(','),
+        schools: comparableSlugs.join(','),
       }).toString(),
   },
   ...manifest.schools.map((s) => ({
