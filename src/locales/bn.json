@@ -39,7 +39,8 @@
     "sports": "খেলাধুলা",
     "student-clubs": "শিক্ষার্থী ক্লাব",
     "summer-programs": "গ্রীষ্মকালীন কার্যক্রম",
-    "the-arts": "আর্টস"
+    "the-arts": "আর্টস",
+    "high-school-placement": "হাই স্কুল প্লেসমেন্ট"
   },
   "metrics": {
     "admissions.redesign-research": "ভর্তি বিষয়ক গবেষণা নথি (2026)",
@@ -383,7 +384,11 @@
     "the-arts.theatre@davidson-day": "থিয়েটার ও বাইরের স্বীকৃতি",
     "student-clubs.affinity@charlotte-christian": "বৈশ্বিক ও সাংস্কৃতিক দল",
     "summer-programs.catalog": "ক্যাম্প ক্যাটালগ",
-    "summer-programs.costPlanner": "গ্রীষ্মকালীন খরচ পরিকল্পক"
+    "summer-programs.costPlanner": "গ্রীষ্মকালীন খরচ পরিকল্পক",
+    "high-school-placement.outcomes": "স্নাতকেরা কোথায় যান",
+    "high-school-placement.placement": "প্লেসমেন্ট কর্মসূচি",
+    "high-school-placement.destinations": "তাঁরা কোথায় পৌঁছান",
+    "high-school-placement.verdict": "মূল্যায়ন ও পরিদর্শনের তালিকা"
   },
   "cardLabels": {
     "afternoonRhythm": "বিকেলের ছন্দ",
@@ -468,5 +473,36 @@
     "checklistKicker": "Charlotte School Compare · ভর্তির চেকলিস্ট",
     "exportChecklist": "চেকলিস্ট এক্সপোর্ট করুন",
     "printSave": "প্রিন্ট / PDF হিসেবে সংরক্ষণ"
+  },
+  "highSchoolPlacement": {
+    "noDenominator": "হর নেই",
+    "classByClass": "ব্যাচ অনুযায়ী",
+    "colClass": "ব্যাচ",
+    "colGraduates": "স্নাতক",
+    "colAccepted": "প্রথম দুই পছন্দের একটিতে ভর্তির সুযোগ",
+    "colScholarships": "নামাঙ্কিত বৃত্তি",
+    "colDetail": "বিবরণ",
+    "expand": "খুলুন",
+    "collapse": "বন্ধ করুন",
+    "classDestinations_one": "{{year}} ব্যাচের গন্তব্য — {{count}}টি উল্লিখিত",
+    "classDestinations_other": "{{year}} ব্যাচের গন্তব্য — {{count}}টি উল্লিখিত",
+    "namedScholarships": "অর্জিত নামাঙ্কিত বৃত্তি",
+    "processInSequence": "প্রক্রিয়াটি, ধাপে ধাপে",
+    "whatTheSchoolOwns": "স্কুল যে দায়িত্ব নেয়",
+    "notPublished": "প্রকাশিত নয়",
+    "filterAll": "সব",
+    "crossLinkLegend_one": "এর মধ্যে {{count}}টির এখানে নিজস্ব পাতা আছে — চিহ্নিত প্রান্ত অনুসরণ করুন।",
+    "crossLinkLegend_other": "এর মধ্যে {{count}}টির এখানে নিজস্ব পাতা আছে — চিহ্নিত প্রান্ত অনুসরণ করুন।",
+    "categoryCount_one": "{{count}}টি স্কুল",
+    "categoryCount_other": "{{count}}টি স্কুল",
+    "categoryLinked_one": "{{count}}টি স্কুল · {{linked}}টির নিজস্ব পাতার লিঙ্ক আছে",
+    "categoryLinked_other": "{{count}}টি স্কুল · {{linked}}টির নিজস্ব পাতার লিঙ্ক আছে",
+    "notAnAdmitRate": "এটি ভর্তির হার নয়",
+    "notAnAdmitRateText": "এই শতাংশগুলি স্কুলের স্নাতকদের বর্ণনা করে, কোনো হাই স্কুলের বাছাইয়ের কঠোরতা নয়। কোনো একটি গন্তব্যে ঢোকা কতটা কঠিন, সে সম্পর্কে এগুলি কিছুই বলে না এবং কখনও সেভাবে পড়া উচিত নয়।",
+    "acceptanceNotMatriculation": "ভর্তির সুযোগ ≠ ভর্তি হওয়া",
+    "acceptanceNotMatriculationText": "গন্তব্যের তালিকাগুলি দেখায় স্নাতকেরা কোথায় ভর্তির সুযোগ পেয়েছেন ও তা জানানো হয়েছে। স্কুল প্রতিটি প্রতিষ্ঠানে ভর্তি হওয়া শিক্ষার্থীর সংখ্যা প্রকাশ করে না, তাই কোনো গন্তব্যকে “সেখানে N জন শিক্ষার্থী ভর্তি হয়েছে” হিসেবে পড়া উচিত নয়।",
+    "destinationsMatriculationText": "সাম্প্রতিক ব্যাচগুলিতে স্নাতকেরা যেসব প্রতিষ্ঠানে ভর্তির সুযোগ পেয়েছেন ও যা জানানো হয়েছে, এটি তারই ক্রমসঞ্চিত তালিকা — কোনো একটি বছরে কে কোথায় ভর্তি হয়েছেন তার হিসাব নয়।",
+    "noRankings": "কোনো র‌্যাঙ্কিং নেই",
+    "noRankingsText": "শ্রেণিবিভাগগুলি স্কুলের নিজস্ব প্রকাশিত বিন্যাস — প্রতিষ্ঠানের ধরন, কোনো একক তালিকার স্তর নয়। এই অ্যাপে হাই স্কুলের কোনো র‌্যাঙ্কিং নেই এবং এখানে কোনোটি বানানোও হয়নি।"
   }
 }

@@ -39,7 +39,8 @@
     "sports": "Espò",
     "student-clubs": "Klib Elèv",
     "summer-programs": "Pwogram Ete",
-    "the-arts": "Atizay yo"
+    "the-arts": "Atizay yo",
+    "high-school-placement": "Plasman nan Lekòl Segondè"
   },
   "metrics": {
     "admissions.redesign-research": "Dosye Rechèch Admisyon (2026)",
@@ -383,7 +384,11 @@
     "the-arts.theatre@davidson-day": "Teyat ak Rekonesans Ekstèn",
     "student-clubs.affinity@charlotte-christian": "Gwoup Mondyal ak Kiltirèl",
     "summer-programs.catalog": "Katalòg Kan yo",
-    "summer-programs.costPlanner": "Planifikatè Depans Ete a"
+    "summer-programs.costPlanner": "Planifikatè Depans Ete a",
+    "high-school-placement.outcomes": "Kote gradye yo ale",
+    "high-school-placement.placement": "Pwogram plasman an",
+    "high-school-placement.destinations": "Kote yo rive",
+    "high-school-placement.verdict": "Konklizyon ak lis pou vizit la"
   },
   "cardLabels": {
     "afternoonRhythm": "Ritm aprèmidi a",
@@ -468,5 +473,36 @@
     "checklistKicker": "Charlotte School Compare · Lis kontwòl admisyon",
     "exportChecklist": "Ekspòte lis la",
     "printSave": "Enprime / Anrejistre kòm PDF"
+  },
+  "highSchoolPlacement": {
+    "noDenominator": "PA GEN DENOM.",
+    "classByClass": "Pwomosyon pa pwomosyon",
+    "colClass": "Pwomosyon",
+    "colGraduates": "Gradye",
+    "colAccepted": "Aksepte nan youn nan de premye chwa yo",
+    "colScholarships": "Bous ki gen non",
+    "colDetail": "Detay",
+    "expand": "Louvri",
+    "collapse": "Fèmen",
+    "classDestinations_one": "Destinasyon pwomosyon {{year}} la — {{count}} site",
+    "classDestinations_other": "Destinasyon pwomosyon {{year}} la — {{count}} site",
+    "namedScholarships": "Bous ki gen non yo genyen",
+    "processInSequence": "Pwosesis la, etap pa etap",
+    "whatTheSchoolOwns": "Sa lekòl la reskonsab",
+    "notPublished": "Pa pibliye",
+    "filterAll": "Tout",
+    "crossLinkLegend_one": "{{count}} nan yo gen yon paj isit la — swiv bò ki make a.",
+    "crossLinkLegend_other": "{{count}} nan yo gen yon paj isit la — swiv bò ki make a.",
+    "categoryCount_one": "{{count}} lekòl",
+    "categoryCount_other": "{{count}} lekòl",
+    "categoryLinked_one": "{{count}} lekòl · {{linked}} mennen nan paj pa l",
+    "categoryLinked_other": "{{count}} lekòl · {{linked}} mennen nan paj pa yo",
+    "notAnAdmitRate": "SE PA YON TO ADMISYON",
+    "notAnAdmitRateText": "Pousantaj sa yo dekri gradye lekòl la, se pa nivo seleksyon okenn lekòl segondè. Yo pa di anyen sou konbyen li difisil pou antre nan yon destinasyon an patikilye, e yo pa dwe janm li konsa.",
+    "acceptanceNotMatriculation": "AKSEPTASYON ≠ ENSKRIPSYON",
+    "acceptanceNotMatriculationText": "Lis destinasyon yo montre kote gradye yo te aksepte epi rapòte sa. Lekòl la pa pibliye konbyen elèv ki enskri nan chak etablisman, kidonk okenn destinasyon pa dwe li tankou “N elèv te enskri la”.",
+    "destinationsMatriculationText": "Sa a se lis konplè etablisman kote gradye yo te aksepte epi rapòte pandan dènye pwomosyon yo — se pa yon kontaj sou ki moun ki te enskri ki kote nan yon sèl ane.",
+    "noRankings": "PA GEN KLASMAN",
+    "noRankingsText": "Kategori yo se gwoupman lekòl la menm pibliye — kalite etablisman, se pa nivo nan yon sèl klasman. Pa gen okenn klasman lekòl segondè nan aplikasyon sa a e nou pa envante youn isit la."
   }
 }

@@ -39,7 +39,8 @@
     "sports": "క్రీడలు",
     "student-clubs": "విద్యార్థి క్లబ్‌లు",
     "summer-programs": "వేసవి కార్యక్రమాలు",
-    "the-arts": "కళలు"
+    "the-arts": "కళలు",
+    "high-school-placement": "హైస్కూల్ ప్లేస్‌మెంట్"
   },
   "metrics": {
     "admissions.redesign-research": "ప్రవేశాల పరిశోధన సంపుటి (2026)",
@@ -383,7 +384,11 @@
     "the-arts.theatre@davidson-day": "రంగస్థలం మరియు బాహ్య గుర్తింపు",
     "student-clubs.affinity@charlotte-christian": "ప్రపంచ మరియు సాంస్కృతిక బృందాలు",
     "summer-programs.catalog": "శిబిరాల జాబితా",
-    "summer-programs.costPlanner": "వేసవి ఖర్చుల ప్రణాళిక"
+    "summer-programs.costPlanner": "వేసవి ఖర్చుల ప్రణాళిక",
+    "high-school-placement.outcomes": "గ్రాడ్యుయేట్లు ఎక్కడికి వెళ్తారు",
+    "high-school-placement.placement": "ప్లేస్‌మెంట్ కార్యక్రమం",
+    "high-school-placement.destinations": "వారు ఎక్కడ చేరతారు",
+    "high-school-placement.verdict": "మదింపు & సందర్శన జాబితా"
   },
   "cardLabels": {
     "afternoonRhythm": "మధ్యాహ్నపు సాగు",
@@ -468,5 +473,36 @@
     "checklistKicker": "Charlotte School Compare · ప్రవేశాల చెక్‌లిస్ట్",
     "exportChecklist": "చెక్‌లిస్ట్ ఎగుమతి చేయండి",
     "printSave": "ముద్రించండి / PDF గా సేవ్ చేయండి"
+  },
+  "highSchoolPlacement": {
+    "noDenominator": "హారం లేదు",
+    "classByClass": "బ్యాచ్ వారీగా",
+    "colClass": "బ్యాచ్",
+    "colGraduates": "గ్రాడ్యుయేట్లు",
+    "colAccepted": "మొదటి రెండు ఎంపికల్లో ఒకదానిలో ప్రవేశం",
+    "colScholarships": "పేరిట ఉన్న స్కాలర్‌షిప్‌లు",
+    "colDetail": "వివరాలు",
+    "expand": "విస్తరించు",
+    "collapse": "మూసివేయి",
+    "classDestinations_one": "{{year}} బ్యాచ్ గమ్యస్థానాలు — {{count}} పేర్కొనబడింది",
+    "classDestinations_other": "{{year}} బ్యాచ్ గమ్యస్థానాలు — {{count}} పేర్కొనబడ్డాయి",
+    "namedScholarships": "గెలుచుకున్న పేరిట ఉన్న స్కాలర్‌షిప్‌లు",
+    "processInSequence": "ప్రక్రియ, దశలవారీగా",
+    "whatTheSchoolOwns": "పాఠశాల చేపట్టేది",
+    "notPublished": "ప్రచురించబడలేదు",
+    "filterAll": "అన్నీ",
+    "crossLinkLegend_one": "వీటిలో {{count}}కి ఇక్కడ సొంత పేజీ ఉంది — గుర్తు పెట్టిన అంచును అనుసరించండి.",
+    "crossLinkLegend_other": "వీటిలో {{count}}కి ఇక్కడ సొంత పేజీలు ఉన్నాయి — గుర్తు పెట్టిన అంచును అనుసరించండి.",
+    "categoryCount_one": "{{count}} పాఠశాల",
+    "categoryCount_other": "{{count}} పాఠశాలలు",
+    "categoryLinked_one": "{{count}} పాఠశాల · {{linked}} దాని పేజీకి లింక్ అవుతుంది",
+    "categoryLinked_other": "{{count}} పాఠశాలలు · {{linked}} వాటి పేజీలకు లింక్ అవుతాయి",
+    "notAnAdmitRate": "ఇది ప్రవేశ రేటు కాదు",
+    "notAnAdmitRateText": "ఈ శాతాలు పాఠశాల గ్రాడ్యుయేట్లను వివరిస్తాయి, ఏ హైస్కూల్ ఎంపిక కాఠిన్యాన్నీ కాదు. ఏదైనా ఒక గమ్యస్థానంలో ప్రవేశం ఎంత కష్టమో అవి చెప్పవు, అలా ఎప్పుడూ చదవకూడదు.",
+    "acceptanceNotMatriculation": "ప్రవేశం ≠ చేరిక",
+    "acceptanceNotMatriculationText": "గమ్యస్థానాల జాబితాలు గ్రాడ్యుయేట్లకు ఎక్కడ ప్రవేశం లభించిందో, ఏది నివేదించబడిందో చూపుతాయి. ఒక్కో సంస్థలో ఎంతమంది చేరారో పాఠశాల ప్రచురించదు, కాబట్టి ఏ గమ్యస్థానాన్నీ “అక్కడ N మంది విద్యార్థులు చేరారు” అని చదవకూడదు.",
+    "destinationsMatriculationText": "ఇటీవలి బ్యాచ్‌లలో గ్రాడ్యుయేట్లకు ప్రవేశం లభించి నివేదించబడిన సంస్థల సంచిత జాబితా ఇది — ఏ ఒక్క సంవత్సరంలో ఎవరు ఎక్కడ చేరారనే లెక్క కాదు.",
+    "noRankings": "ర్యాంకింగ్‌లు లేవు",
+    "noRankingsText": "ఈ విభాగాలు పాఠశాల స్వంతంగా ప్రచురించిన వర్గీకరణ — సంస్థల రకాలు, ఒకే జాబితాలోని స్థాయిలు కాదు. ఈ యాప్‌లో హైస్కూల్ ర్యాంకింగ్ ఏదీ లేదు, ఇక్కడ ఏదీ సృష్టించలేదు."
   }
 }
