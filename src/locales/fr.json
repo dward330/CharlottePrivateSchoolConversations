@@ -39,7 +39,8 @@
     "sports": "Sport",
     "student-clubs": "Clubs d’élèves",
     "summer-programs": "Programmes d’été",
-    "the-arts": "Les arts"
+    "the-arts": "Les arts",
+    "high-school-placement": "Orientation vers le secondaire"
   },
   "metrics": {
     "admissions.redesign-research": "Dossier de recherche sur les admissions (2026)",
@@ -383,7 +384,11 @@
     "the-arts.theatre@davidson-day": "Le théâtre et la reconnaissance extérieure",
     "student-clubs.affinity@charlotte-christian": "Groupes internationaux et culturels",
     "summer-programs.catalog": "Le catalogue des stages",
-    "summer-programs.costPlanner": "Le simulateur de budget d’été"
+    "summer-programs.costPlanner": "Le simulateur de budget d’été",
+    "high-school-placement.outcomes": "Où vont les diplômés",
+    "high-school-placement.placement": "Le programme d’orientation",
+    "high-school-placement.destinations": "Où ils atterrissent",
+    "high-school-placement.verdict": "Verdict et liste de visite"
   },
   "cardLabels": {
     "afternoonRhythm": "Le rythme de l’après-midi",
@@ -468,5 +473,36 @@
     "checklistKicker": "Charlotte School Compare · Check-list d’admission",
     "exportChecklist": "Exporter la check-list",
     "printSave": "Imprimer / Enregistrer en PDF"
+  },
+  "highSchoolPlacement": {
+    "noDenominator": "SANS DÉNOM.",
+    "classByClass": "Promotion par promotion",
+    "colClass": "Promotion",
+    "colGraduates": "Diplômés",
+    "colAccepted": "Admis dans l’un de leurs deux premiers choix",
+    "colScholarships": "Bourses nominatives",
+    "colDetail": "Détail",
+    "expand": "Déplier",
+    "collapse": "Replier",
+    "classDestinations_one": "Destinations de la promotion {{year}} — {{count}} cité",
+    "classDestinations_other": "Destinations de la promotion {{year}} — {{count}} cités",
+    "namedScholarships": "Bourses nominatives obtenues",
+    "processInSequence": "Le processus, étape par étape",
+    "whatTheSchoolOwns": "Ce dont l’école se charge",
+    "notPublished": "Non publié",
+    "filterAll": "Tous",
+    "crossLinkLegend_one": "{{count}} d’entre eux a une fiche ici — suivez le bord marqué.",
+    "crossLinkLegend_other": "{{count}} d’entre eux ont une fiche ici — suivez le bord marqué.",
+    "categoryCount_one": "{{count}} école",
+    "categoryCount_other": "{{count}} écoles",
+    "categoryLinked_one": "{{count}} école · {{linked}} renvoie à sa fiche",
+    "categoryLinked_other": "{{count}} écoles · {{linked}} renvoient à leur fiche",
+    "notAnAdmitRate": "CE N’EST PAS UN TAUX D’ADMISSION",
+    "notAnAdmitRateText": "Ces pourcentages décrivent les diplômés de l’école, et non la sélectivité d’un quelconque établissement secondaire. Ils ne disent rien de la difficulté d’entrer dans une destination donnée et ne doivent jamais être lus ainsi.",
+    "acceptanceNotMatriculation": "ADMISSION ≠ INSCRIPTION",
+    "acceptanceNotMatriculationText": "Les listes de destinations indiquent où les diplômés ont été admis et l’ont déclaré. L’école ne publie pas le nombre d’inscrits par établissement ; aucune destination ne doit donc être lue comme « N élèves s’y sont inscrits ».",
+    "destinationsMatriculationText": "Il s’agit de la liste cumulée des établissements où les diplômés ont été admis et l’ont déclaré au fil des dernières promotions — et non d’un décompte des inscriptions pour une année donnée.",
+    "noRankings": "AUCUN CLASSEMENT",
+    "noRankingsText": "Les catégories reprennent le regroupement publié par l’école elle-même — des types d’établissement, et non les niveaux d’un classement. Cette application ne contient aucun classement des établissements secondaires et n’en invente aucun ici."
   }
 }

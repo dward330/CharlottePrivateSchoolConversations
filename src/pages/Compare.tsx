@@ -3,7 +3,16 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel } from '../lib/labels.ts'
 import {
-  schools as allSchools,
+  /* Every school on this page comes from the COMPARABLE list, not the full
+     roster: a PreK-8 school has no grades 9-12, so 14 of the 30 rows have no
+     referent and `0 / 8` on the Ivy row would read as a result rather than an
+     absence. See `comparableSchools` in lib/manifest.ts for the full reasoning.
+
+     Aliased to `allSchools` deliberately — this module's six uses (the slug
+     allowlist, toggleSchool, the columns, the picker pills, and BOTH visible
+     "N schools" counts) then all read one filtered list, so the columns and the
+     counts cannot drift apart. Do not re-import the unfiltered `schools` here. */
+  comparableSchools as allSchools,
   topics,
   topicBySlug,
   brandOf,

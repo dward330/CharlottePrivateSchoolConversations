@@ -46,7 +46,8 @@
     "sports": "Sports",
     "student-clubs": "Student Clubs",
     "summer-programs": "Summer Programs",
-    "the-arts": "The Arts"
+    "the-arts": "The Arts",
+    "high-school-placement": "High School Placement"
   },
   "metrics": {
     "admissions.redesign-research": "Admissions Research Dossier (2026)",
@@ -391,7 +392,11 @@
     "the-arts.theatre@davidson-day": "Theatre & External Recognition",
     "student-clubs.affinity@charlotte-christian": "Global & Cultural Groups",
     "summer-programs.catalog": "The Camp Catalog",
-    "summer-programs.costPlanner": "The Summer Cost Planner"
+    "summer-programs.costPlanner": "The Summer Cost Planner",
+    "high-school-placement.outcomes": "Where Graduates Go",
+    "high-school-placement.placement": "The Placement Program",
+    "high-school-placement.destinations": "Where They Land",
+    "high-school-placement.verdict": "Verdict & Visit Checklist"
   },
   "cardLabels": {
     "afternoonRhythm": "The afternoon rhythm",
@@ -469,5 +474,36 @@
     "statusParsing": "Parsing the news board…",
     "title": "Latest News",
     "tocLabel": "Latest News"
+  },
+  "highSchoolPlacement": {
+    "noDenominator": "NO DENOM.",
+    "classByClass": "Class by class",
+    "colClass": "Class",
+    "colGraduates": "Graduates",
+    "colAccepted": "Accepted to a top-two choice",
+    "colScholarships": "Named scholarships",
+    "colDetail": "Detail",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "classDestinations_one": "Class of {{year}} destinations — {{count}} named",
+    "classDestinations_other": "Class of {{year}} destinations — {{count}} named",
+    "namedScholarships": "Named scholarships won",
+    "processInSequence": "The process, in sequence",
+    "whatTheSchoolOwns": "What the school owns",
+    "notPublished": "Not published",
+    "filterAll": "All",
+    "crossLinkLegend_one": "{{count}} of these has a dossier here — follow the marked edge.",
+    "crossLinkLegend_other": "{{count}} of these have a dossier here — follow the marked edge.",
+    "categoryCount_one": "{{count}} school",
+    "categoryCount_other": "{{count}} schools",
+    "categoryLinked_one": "{{count}} school · {{linked}} links to its dossier",
+    "categoryLinked_other": "{{count}} schools · {{linked}} link to their dossier",
+    "notAnAdmitRate": "NOT AN ADMIT RATE",
+    "notAnAdmitRateText": "These percentages describe the school’s graduates, not any high school’s selectivity. They say nothing about how hard any single destination is to enter, and must never be read as if they did.",
+    "acceptanceNotMatriculation": "ACCEPTANCE ≠ MATRICULATION",
+    "acceptanceNotMatriculationText": "The destination lists are where graduates were accepted and reported. The school does not publish per-school enrolment counts, so no destination should be read as “N students enrolled there”.",
+    "destinationsMatriculationText": "This is the cumulative list of schools graduates have been accepted to and reported over recent classes — not a count of who enrolled where in any one year.",
+    "noRankings": "NO RANKINGS",
+    "noRankingsText": "The categories are the school’s own published grouping — kinds of school, not tiers of one. There is no high-school ranking in this app and none is invented here."
   }
 }

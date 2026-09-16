@@ -27,12 +27,32 @@
 // in `source-material/branding/_shared/`. The state is NOT stored here — every school
 // is in NC, and the abbreviation lives in each locale's kicker string as chrome.
 
+// `hasHighSchool` is the PreK-8 flag, and it is FALSE only for a school that
+// ends at 8th grade. Absent or true means ordinary K-12 behaviour, so every
+// existing school needs no entry — the flag is opt-in to the exception, not a
+// field every school must carry.
+//
+// It lives HERE, in hand-maintained per-school config, rather than on the
+// `School` record in schools.json, and that placement is load-bearing: the
+// ingest pipeline REBUILDS every schools.json school record as bare
+// `{slug, name}` from the source-material folder names
+// (.claude/skills/ingest-source-material/build_docs.py:187), so a flag written
+// into that file is silently erased by the next ingest run. A PreK-8 school
+// would quietly rejoin the Compare page with no error and no failing check.
+//
+// What it drives: a school with no 9th-12th grade is excluded from the Compare
+// page entirely (see `comparableSchools` in lib/manifest.ts) and shows no
+// per-topic Compare button on its own dossier. It is NOT what hides College
+// Support or shows High School Placement — those follow the standing
+// absence-not-emptiness rule and need no flag at all.
+
 export type Brand = {
   color: string
   initials: string
   city: string
   logo?: string
   welcomeVideoUrl?: string
+  hasHighSchool?: boolean
 }
 
 export const BRANDS: Record<string, Brand> = {

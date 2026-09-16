@@ -39,7 +39,8 @@
     "sports": "ورزش",
     "student-clubs": "باشگاه‌های دانش‌آموزی",
     "summer-programs": "برنامه‌های تابستانی",
-    "the-arts": "هنرها"
+    "the-arts": "هنرها",
+    "high-school-placement": "جایابی دبیرستان"
   },
   "metrics": {
     "admissions.redesign-research": "پروندهٔ پژوهش پذیرش (2026)",
@@ -383,7 +384,11 @@
     "the-arts.theatre@davidson-day": "تئاتر و بازشناسی بیرونی",
     "student-clubs.affinity@charlotte-christian": "گروه‌های جهانی و فرهنگی",
     "summer-programs.catalog": "فهرست اردوها",
-    "summer-programs.costPlanner": "برنامه‌ریز هزینهٔ تابستان"
+    "summer-programs.costPlanner": "برنامه‌ریز هزینهٔ تابستان",
+    "high-school-placement.outcomes": "فارغ‌التحصیلان کجا می‌روند",
+    "high-school-placement.placement": "برنامهٔ جایابی",
+    "high-school-placement.destinations": "به کجا راه می‌یابند",
+    "high-school-placement.verdict": "جمع‌بندی و سیاههٔ بازدید"
   },
   "cardLabels": {
     "afternoonRhythm": "ریتم بعدازظهر",
@@ -468,5 +473,36 @@
     "checklistKicker": "Charlotte School Compare · سیاههٔ پذیرش",
     "exportChecklist": "خروجی گرفتن از سیاهه",
     "printSave": "چاپ / ذخیره به‌صورت PDF"
+  },
+  "highSchoolPlacement": {
+    "noDenominator": "بدون مخرج",
+    "classByClass": "دوره به دوره",
+    "colClass": "دوره",
+    "colGraduates": "فارغ‌التحصیلان",
+    "colAccepted": "پذیرفته‌شده در یکی از دو انتخاب نخست",
+    "colScholarships": "بورس‌های نام‌دار",
+    "colDetail": "جزئیات",
+    "expand": "گشودن",
+    "collapse": "بستن",
+    "classDestinations_one": "مقصدهای دورهٔ ⁨{{year}}⁩ — ⁨{{count}}⁩ مورد نام‌برده",
+    "classDestinations_other": "مقصدهای دورهٔ ⁨{{year}}⁩ — ⁨{{count}}⁩ مورد نام‌برده",
+    "namedScholarships": "بورس‌های نام‌دار کسب‌شده",
+    "processInSequence": "روند کار، گام به گام",
+    "whatTheSchoolOwns": "آنچه مدرسه بر عهده می‌گیرد",
+    "notPublished": "منتشر نشده",
+    "filterAll": "همه",
+    "crossLinkLegend_one": "⁨{{count}}⁩ مورد از این‌ها در اینجا صفحهٔ اختصاصی دارد — لبهٔ نشان‌دار را دنبال کنید.",
+    "crossLinkLegend_other": "⁨{{count}}⁩ مورد از این‌ها در اینجا صفحهٔ اختصاصی دارند — لبهٔ نشان‌دار را دنبال کنید.",
+    "categoryCount_one": "⁨{{count}}⁩ مدرسه",
+    "categoryCount_other": "⁨{{count}}⁩ مدرسه",
+    "categoryLinked_one": "⁨{{count}}⁩ مدرسه · ⁨{{linked}}⁩ مورد به صفحهٔ خود پیوند دارد",
+    "categoryLinked_other": "⁨{{count}}⁩ مدرسه · ⁨{{linked}}⁩ مورد به صفحهٔ خود پیوند دارند",
+    "notAnAdmitRate": "این نرخ پذیرش نیست",
+    "notAnAdmitRateText": "این درصدها فارغ‌التحصیلان مدرسه را توصیف می‌کنند، نه گزینشی‌بودن هیچ دبیرستانی. دربارهٔ دشواری ورود به هیچ مقصد مشخصی چیزی نمی‌گویند و هرگز نباید چنین خوانده شوند.",
+    "acceptanceNotMatriculation": "پذیرش ≠ ثبت‌نام",
+    "acceptanceNotMatriculationText": "سیاهه‌های مقصد نشان می‌دهند فارغ‌التحصیلان کجا پذیرفته شده و آن را گزارش کرده‌اند. مدرسه شمار ثبت‌نام‌شدگان هر آموزشگاه را منتشر نمی‌کند، بنابراین هیچ مقصدی را نباید «⁨N⁩ دانش‌آموز در آنجا ثبت‌نام کردند» خواند.",
+    "destinationsMatriculationText": "این سیاههٔ انباشتهٔ آموزشگاه‌هایی است که فارغ‌التحصیلان در دوره‌های اخیر در آن‌ها پذیرفته شده و گزارش کرده‌اند — نه شمارش اینکه در یک سال مشخص چه کسی کجا ثبت‌نام کرده است.",
+    "noRankings": "بدون رتبه‌بندی",
+    "noRankingsText": "دسته‌ها همان گروه‌بندی منتشرشدهٔ خود مدرسه‌اند — گونه‌های آموزشگاه، نه رده‌های یک فهرست. در این برنامه هیچ رتبه‌بندی دبیرستانی وجود ندارد و در اینجا نیز ساخته نشده است."
   }
 }

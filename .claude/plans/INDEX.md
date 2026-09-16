@@ -82,3 +82,5 @@ Newest last.
 | [ccaid](ccaid.md) | Correct Charlotte Christian's financial-aid data — SSS by NAIS → Clarity, and publish the deadlines the school now publishes | 2026-09-15 | Implemented | [#303](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/303) |
 | [sources](sources.md) | Collapse source rows by default, and make every source hyperlink look like one | 2026-09-15 | Implemented | [#304](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/304) |
 | [devbeacon](devbeacon.md) | Stop the Cloudflare Analytics beacon from loading on the local dev server | 2026-09-15 | Implemented | [#305](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/305) |
+| [prek8shape](prek8shape.md) | The PreK–8 school shape — a High School Placement research area, Compare exclusion, and six dropped Sports cards | 2026-09-16 | Implemented | [#308](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/308) |
+| [charlotteprep](charlotteprep.md) | Add Charlotte Preparatory School — the first PreK–8 school, with deep research across eight research areas | 2026-09-16 | Not implemented | — |
