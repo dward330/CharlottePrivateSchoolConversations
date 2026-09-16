@@ -1,7 +1,7 @@
 ---
 name: prek8shape
 title: The PreK–8 school shape — a High School Placement research area, Compare exclusion, and six dropped Sports cards
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-16
 branch: feat/prek8-shape
@@ -382,10 +382,69 @@ unpluralized "1 schools", and a legend swatch wearing the cross-link class. This
 is the standing lesson holding again: every defect found after the data reads
 100% has been render-layer.
 
-### Phase 2 — not started
+## Implementation notes — Phase 2 (locales), 2026-09-16
 
-30 new keys sit in `src/locales/en.json` only; all nine other catalogs have zero
-of them. Scope is **chrome only** — there is no research prose to translate,
-because no school occupies the area yet. The prose overlay layer is wired
-(`loadHighSchoolPlacementOverlay`, glob `overlays/high-school-placement.*.json`)
-but matches no file, so every locale correctly falls back to English.
+The 30 English keys are now translated in all nine other catalogs — **322
+entries**, chrome only. No prose overlay was touched: no school occupies the
+area yet, so `overlays/high-school-placement.*.json` still matches no file and
+every locale correctly falls back to English for prose. That stays true until
+the Charlotte Prep plan lands.
+
+**Arabic needed 45 keys where the others needed 29.** The four plural keys —
+`classDestinations`, `crossLinkLegend`, `categoryCount`, `categoryLinked` —
+require all six CLDR forms (`zero`/`one`/`two`/`few`/`many`/`other`) against the
+`_one`/`_other` pair every other locale uses. The dual is not cosmetic: Arabic
+absorbs the numeral into the noun (`مدرستان`, "two schools"), so that form
+deliberately carries **no `{{count}}`**, and a mechanical `_one`/`_other` copy
+would have rendered "2 مدرسة". Verified in a browser: count 3 → `few`, 2 →
+`two`, 1 → `one`.
+
+**Catalogs were rewritten preserving existing key ORDER, never normalized.** A
+key-order normalize is the documented way Arabic plural blocks have been
+destroyed before. A post-write diff asserted that every pre-existing key, value
+**and its position** is byte-identical to `HEAD` in all nine files; only the new
+surface was added.
+
+**`check:chrome` is not the gate for this work.** It audits skip-field promises
+(`day`/`days`/`dayFilters`/`basis`), so it passed identically before and after
+and would never have noticed 322 missing keys. Coverage was measured with a
+purpose-built script that expands `_one` into the correct plural forms per
+locale; it went 322 → 0.
+
+### Two test defects worth recording, both false results
+
+Neither was an app bug, and each would have been believed:
+
+- **A case-sensitive `innerText` match reported 47 false failures.** Several
+  labels are uppercased by CSS `text-transform`, so `body.innerText` returns
+  `CLASS BY CLASS`. Worse than the noise: the check *passed* for `bn`/`te`/`hi`/
+  `fa`/`ar` purely because those scripts have no uppercase mapping — a **false
+  pass on five locales in the same run as a false failure on five others**.
+- **A substring English-leak test flagged `filterAll` in `es` and `it`.** The
+  English `All` was matching inside `detalle`, `allí` and `distillati`. The
+  pills in fact render `Todos` and `Tutte` correctly. Word-boundary matching on
+  a Unicode letter class fixed it.
+
+### Verification results
+
+- Coverage: **0 missing** in all nine catalogs (from 322).
+- `npx tsc -b` and `npm run build` — clean, exit 0 (chains `check:schema`,
+  `check:live`, `check:runtime`, `check:seo`, `check:chrome`).
+- `check:sepdrift` per locale — 12,331 strings each, **0 drifted figure tokens**.
+- `check:fr`, `check:hi`, `check:fa`, `check:bidi`, `check:money`,
+  `check:currency` — all pass.
+- `i18n:leaks` per locale — counts **byte-identical to `main`**
+  (es 164 · bn 187 · ht 180 · te 364 · fr 300 · fa 166 · it 346 · hi 247 ·
+  ar 174). These are pre-existing prose-overlay findings; this change added none.
+- Placeholder/digit audit — every `{{count}}` / `{{year}}` / `{{linked}}`
+  survives translation; no stray or locale-native digit introduced.
+- **Browser check, 320 assertions across all ten locales, all passing**, against
+  a temporary `fixture-prep` school (reverted; `grep` confirms no trace). Covered
+  per locale: the four card titles, the topic label and all 15 visible strings
+  render in that locale; **no English leak**; no raw `{{ }}`; cross-links resolve
+  to `/school/<slug>/` while non-app destinations stay plain; **no Compare
+  affordance anywhere** on the PreK–8 page; and the fixture absent from Compare
+  even with `?schools=fixture-prep`. RTL confirmed `dir=rtl` for `ar`/`fa` with
+  figures wrapped in LRI…PDI isolates (`⁨2026⁩`); `hi`/`te` correctly take no
+  isolate and keep Western digits, leaving lakh/crore regrouping to the render
+  layer.
