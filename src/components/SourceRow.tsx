@@ -15,8 +15,18 @@
 // less chrome — but the two rows that already shipped a toggle (Club Catalog
 // and Course Offerings) put it beside their own citations, and the user asked
 // for that same affordance everywhere rather than a new page-level one. Each
-// row therefore owns its own state and starts EXPANDED, exactly as those two
-// did.
+// row therefore owns its own state.
+//
+// ROWS START COLLAPSED (user's call, 2026-09-15). They shipped EXPANDED on
+// 2026-08-31, matching the two rows that already had a toggle — but at roughly
+// forty rows a school page that meant the reader scrolled past a wall of
+// citations nobody had asked for. The default is now `hidden = true`: every row
+// renders as a lone "Show sources" button and the reader opens the ones they
+// care about. Two knock-ons, both handled elsewhere: the DEV-only "Expand all"
+// button in SchoolDetail.tsx now clicks these toggles as well as opening the
+// <details> cards, so the print-out pass CLAUDE.md requires still shows
+// citations; and pre-rendered pages no longer carry the citation text, which
+// check:seo's byte floor covers.
 //
 // THE "SOURCE" TAG IS GONE, BY DECISION (user's call, 2026-08-31). Every row
 // used to open with a bordered SOURCE / SOURCES chip. Once the toggle sat
@@ -99,7 +109,7 @@ export function SourceRow({
   hideKey,
 }: Props) {
   const { t } = useTranslation()
-  const [hidden, setHidden] = useState(false)
+  const [hidden, setHidden] = useState(true)
 
   // A card with no citations renders nothing at all — not an empty row with a
   // toggle that reveals nothing, which is the zero-items rule in CLAUDE.md.
@@ -156,7 +166,7 @@ export function SourceRowRaw({
   children: React.ReactNode
 }) {
   const { t } = useTranslation()
-  const [hidden, setHidden] = useState(false)
+  const [hidden, setHidden] = useState(true)
   return (
     <div className={`${className} srcrow`}>
       <div className="srcrow-head">

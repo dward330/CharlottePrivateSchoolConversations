@@ -386,7 +386,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
      reader open just the ones they want. The print toolbar drives them all at
      once through the DOM rather than by lifting `open` into state on each card
      — the goal is a page ready to print, and this touches no card logic.
-     `allOpen` only tracks which label/icon the button shows. */
+     `allOpen` only tracks which label/icon the button shows.
+
+     It drives the CITATION ROWS too, not just the cards. Source rows collapse
+     by default (SourceRow.tsx, 2026-09-15), and they are React `useState`
+     rather than <details> — so without this the print-out pass CLAUDE.md
+     requires for every locale would produce a page of "Show sources" buttons
+     and no citations, reading as clean while showing none of the part that
+     matters. Same technique as the cards: click the DOM, lift no state. */
   const mainRef = useRef<HTMLElement>(null)
   const [allOpen, setAllOpen] = useState(false)
   const setAllDetails = (open: boolean) => {
@@ -396,6 +403,20 @@ export function SchoolDetail({ slug }: { slug: string }) {
     mainRef.current
       ?.querySelectorAll<HTMLDetailsElement>('details')
       .forEach((d) => { d.open = open })
+    /* Then the citation rows. Every toggle is reachable regardless of card
+       state: a card is an UNCONTROLLED <details> whose body is rendered
+       unconditionally and merely hidden when closed, so the buttons are in the
+       DOM either way and no second pass is needed.
+
+       `aria-pressed` IS the state (true = hidden), so click only the buttons
+       that disagree with the target — clicking unconditionally would flip the
+       correctly-set rows the wrong way, leaving the page in mixed states. */
+    mainRef.current
+      ?.querySelectorAll<HTMLButtonElement>('button.catalog-src-toggle')
+      .forEach((b) => {
+        const hidden = b.getAttribute('aria-pressed') === 'true'
+        if (hidden === open) b.click()
+      })
     setAllOpen(open)
   }
 
