@@ -81,3 +81,4 @@ Newest last.
 | [moreEpisodes](moreEpisodes.md) | Name the episode in the single-episode podcast popover, so "More episodes" says what it is | 2026-09-08 | Implemented | — |
 | [ccaid](ccaid.md) | Correct Charlotte Christian's financial-aid data — SSS by NAIS → Clarity, and publish the deadlines the school now publishes | 2026-09-15 | Implemented | [#303](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/303) |
 | [sources](sources.md) | Collapse source rows by default, and make every source hyperlink look like one | 2026-09-15 | Implemented | [#304](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/304) |
+| [devbeacon](devbeacon.md) | Stop the Cloudflare Analytics beacon from loading on the local dev server | 2026-09-15 | Implemented | [#305](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/305) |
