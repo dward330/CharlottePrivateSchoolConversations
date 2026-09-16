@@ -176,6 +176,12 @@ risks table.
 
 ### 6. Register it and report
 
+**If the plan creates, renames, retires or materially changes a skill or slash command,
+make updating [`.claude/SKILLS.md`](../../SKILLS.md) an explicit step in the plan.** That
+file is the living index of every custom skill and command, and it is updated in the same
+PR as the change it describes. A fresh `/implement` window will not infer this, which is
+exactly the kind of decision that gets lost between windows — write it into the document.
+
 Append a row to `.claude/plans/INDEX.md` (create it from the header in the template if it
 doesn't exist) with status **Not implemented** and an em-dash in the PR column.
 

@@ -12,6 +12,12 @@ _Placeholder description — more detail to be added as the project develops._
   level of school data the app presents (see the data-schema standard below)
 - `.claude/skills/` — reusable skills
 - `.claude/commands/` — slash commands
+- [`.claude/SKILLS.md`](.claude/SKILLS.md) — the **living index** of every custom skill and
+  command: what each does, when to use it, and what it refuses to do. **It is updated in the
+  same PR as the change it describes.** Creating, renaming, materially changing or retiring a
+  skill or command means editing this file in that same PR — a register that is only
+  sometimes current is worse than none, because it gets trusted. Retired skills move to its
+  Retired section rather than being deleted.
 - `.claude/plans/` — implementation plans (one `.md` per feature) plus `INDEX.md`
 - `source-material/` — raw reference files. Bulky/original files (PDFs, spreadsheets) are
   read locally and stay **gitignored**; text-based data files (`.md`) ARE committed (see

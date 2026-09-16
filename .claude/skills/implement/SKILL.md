@@ -231,6 +231,14 @@ Update both records:
   bottom saying what changed and why. The plan is the historical record of what was
   actually done, not what was intended.
 - **`.claude/plans/INDEX.md`** — status `Implemented`, PR cell holding the link.
+- **[`.claude/SKILLS.md`](../../SKILLS.md)** — **only if this plan created, renamed,
+  materially changed or retired a skill or slash command.** That index is living and is
+  updated in the same PR as the change it describes, never as a follow-up: add a full
+  section plus an At-a-glance row for a new one, bump the `updated` date for a change, and
+  move a retired one to the Retired table rather than deleting it. Most plans touch no
+  skill and skip this — but a skill shipped without its index row leaves the register
+  lying, and a register that is only sometimes current is worse than none because it gets
+  trusted.
 
 If the work was partial, use `In progress` in both places and list the remaining steps in
 the implementation notes so a later window can resume. `Implemented` on a two-phase plan
