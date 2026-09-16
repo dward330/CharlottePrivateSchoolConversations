@@ -1,7 +1,7 @@
 ---
 name: ccaid
 title: Correct Charlotte Christian's financial-aid data — SSS by NAIS → Clarity, and publish the deadlines the school now publishes
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-09-15
 branch: fix/ccaid
@@ -308,3 +308,76 @@ chrome. Locales per `PROSE_TRANSLATED` (`src/lib/i18n.ts:182`):
   and a reader will look for it.
 - **Does the school publish a Clarity deep link worth citing?** — **default:** no; cite the
   school's own tuition page. Do not invent or guess a Clarity URL.
+
+## Implementation notes
+
+### Phase 1 (English) — shipped
+
+Two deviations from the plan as written, both recorded here because Phase 2 runs in a
+fresh window.
+
+**1. Step 10 would have rendered the aid timeline BACKWARDS.** The plan said to change
+L726 in place and "leave every other row untouched". `Timeline` in
+`src/components/FinancialAidReport.tsx:232` maps `nodes` in **array order with no sort** —
+it draws a left-to-right rule, so array order *is* chronological order to the reader.
+Applying step 10 literally produced
+`1 Nov 2026 → 22 Jan 2027 → 27 Feb 2026 → 2 Mar 2026 → 2 Apr 2026`.
+
+The new Clarity rows were therefore placed **after** the three surviving 2026-27 rows, and
+those three were suffixed `(2026–27 cycle)` so the reader can see why the sequence spans
+two cycles. No date value was changed and the block's `meta`/retrieval date is untouched,
+per the plan's scope.
+
+Related: `RichText` (same file, L27) supports **only** `**bold**` — it splits on
+`/\*\*(.+?)\*\*/g` and has no italic branch. A first pass used `*(2026–27 cycle)*`, which
+would have shipped literal asterisks. Do not use `*italic*` in any `financialAidReports.ts`
+prose field.
+
+**2. `boxes[0]` in the same section stated the dropped NC Opportunity Scholarship
+requirement as current and mandatory** — the exact claim step 5 deletes from the admissions
+card for being false. Left alone, one page told a parent the requirement was both gone and
+mandatory. Rewritten to past tense ("A requirement unique in this series — and since
+withdrawn"), which keeps the cross-school finding while stating it no longer applies. The
+section `source` line now also names the 14 Sep 2026 retrieval that supplied the Clarity
+dates.
+
+### ⚠️ Phase 2 scope is LARGER than the plan measured: 14 entries per locale, not 4
+
+The plan's Context section measured **4 entries per locale in `admissions` only (36
+retranslations)**. Measured after Phase 1 via `npm run check:live`, the real figure is
+**14 per locale across TWO overlay topics = 126**:
+
+- **`admissions` — 7 stamps**, not 4. The plan's four aid strings (`5cdd7282`, `41ae2429`,
+  `483d6800`, `92270c6b`) **plus three the cycle relabel touched**, which the plan treated
+  as a mere "label correction" with no locale cost: `22392360` (`guide.headline`),
+  `195f3279` (the dateline `text`) and `61d07ea8` (`checklist.disclaimer`).
+- **`financial-aid-report` — 7 stamps**: `82f89c2a`, `5acd774f`, `7aad52a0`, `03085a24`,
+  `0e2284d6`, `4ef124f8`, `c2a1b69d`. The plan never listed this topic at all, because
+  step 10 was scoped as a one-row edit without noting that this file's prose is also
+  translated. Its work/overlay files are `src/data/overlays/[work/]financial-aid-report.<lang>.json`.
+
+Both topics must be spliced by stamp and rebuilt. The splice-not-re-extract rule (step 13)
+applies to both.
+
+### Verification results (Phase 1)
+
+- `npx tsc --noEmit` — exit 0.
+- `npm run build` — **exit 1, on `check:live` only, and this is the EXPECTED Phase 1
+  state**: the English changed, so 14 stamps per locale no longer resolve and those strings
+  fall back to English until Phase 2. Verified this is caused by this change alone —
+  `check:live` exits **0** on the branch with these two files stashed.
+- `check:schema`, `check:seo`, `check:runtime`, `check:podcast`, `check:news`,
+  `check:chrome` — all pass.
+- `check:metrics` — exit 1, **pre-existing**; fails identically with this change stashed
+  (advisory coverage gaps in branding/news/college-support/sports, none in admissions).
+  Its admissions sections report "every subtopic matched a rule".
+- Greps: `SSS by NAIS|2318|sssandtadsfa|k12.ncseaa` → only the deliberate "replaced SSS by
+  NAIS" framing and header comments; no live URL to the old platform. `not published` → 0.
+- **Browser check** (Playwright, `domcontentloaded`, all `<details>` force-opened):
+  - `/school/charlotte-christian/admissions-checklist/?band=g512` — cycle reads
+    `2027–28 entry cycle`, Clarity named, **$65 and $100 both present and distinct**,
+    Jan 22 2027 + Nov 1 2026 shown, webinars item renders, no `2318` / `Opportunity` /
+    `not published` / literal `**`.
+  - `/school/charlotte-christian/` — aid card correct; aid-report timeline renders in
+    chronological order and the withdrawn-requirement box reads coherently.
+  - Note `guide.cycle` renders **only** on the checklist route, not the school page.
