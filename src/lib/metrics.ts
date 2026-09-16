@@ -160,6 +160,29 @@ const RULES: Record<string, Rule[]> = {
     { match: /standing out/i, key: 'standing-out', label: 'Standing Out' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+  // High School Placement — the College Support analogue for a PreK-8 school,
+  // whose graduates apply to HIGH SCHOOL rather than college. Renders as four
+  // consolidated cards driven by data/highSchoolPlacement.ts, not by the
+  // ingested prose, exactly as College Support above does.
+  //
+  // The keys here mirror the four structured card keys (outcomes, placement,
+  // destinations, verdict) so a research heading folds onto the card that
+  // already answers it rather than slugifying into an orphan prose card beside
+  // it. The leading rule must stay FIRST for the same reason it does in
+  // College Support: a "Card — …" slice heading also contains words like
+  // "placement" and "destinations" that the later rules would match.
+  'high-school-placement': [
+    {
+      match: /^card —|^card --|redesign research 2026|^provenance$|^sources$/i,
+      key: 'redesign-research',
+      label: 'High School Placement Research Dossier (2026)',
+    },
+    { match: /where graduates go|placement outcomes|acceptance rate/i, key: 'outcomes', label: 'Placement Outcomes' },
+    { match: /placement program|high school fair|placement team|interview/i, key: 'placement', label: 'The Placement Program' },
+    { match: /where they land|destinations|matriculation list|high schools attended/i, key: 'destinations', label: 'Destinations' },
+    { match: /verdict|visit checklist/i, key: 'verdict', label: 'Verdict & Visit Checklist' },
+    { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+  ],
   sports: [
     // Sports renders as seven consolidated cards driven by data/sportsProgram.ts,
     // not by the ingested prose (same arrangement as Course Offerings above). The
@@ -261,6 +284,14 @@ const TOPIC_ORDER: string[] = [
   'the-arts',
   'sports',
   'college-support',
+  // Immediately after College Support, because it IS College Support's slot for
+  // a school that has no high school. The two are mutually exclusive in
+  // practice — a PreK-8 school has no college-support research and a K-12
+  // school has no high-school-placement research — so a reader of either
+  // dossier sees one area in this position, and the reading order is the same
+  // on every page: what happens after this school, then what happens after
+  // hours, then what happens over the summer.
+  'high-school-placement',
   'after-school',
   'summer-programs'
 ]

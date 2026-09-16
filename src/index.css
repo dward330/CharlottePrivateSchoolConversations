@@ -4179,6 +4179,227 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .cs-mechanics { grid-template-columns: 1fr; }
 }
 
+/* == High School Placement ================================================= */
+/* The four cards a PreK-8 school shows in place of College Support
+   (components/HighSchoolPlacement.tsx).
+
+   Deliberately thin. This area REUSES the .cs-* primitives above wholesale —
+   .cs-body, .cs-lead, .cs-h, .cs-split, .cs-rows, .cs-lever, .cs-note,
+   .cs-flag, .cs-src and the .cs-stats grid — so it reads as a sibling of
+   College Support rather than a new invention. What follows styles only the
+   three things that genuinely have no analogue there: the denominator slot on a
+   stat tile, the per-class placement table, and the destination index with its
+   cross-links. */
+
+/* -- the denominator slot -------------------------------------------------- */
+/* The reason this area has its own stat tile at all. Every percentage renders
+   beside what it is out of, in a slot of its own rather than folded into the
+   caption: these are small cells, and a bare percentage off a small base is not
+   publishable. */
+
+.hsp-stat-denom {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--brand);
+  margin-top: 3px;
+  line-height: 1.3;
+}
+/* A figure the school publishes with NO denominator. Rendered as an explicit
+   chip rather than a blank, so the layout never has a hole and an unverifiable
+   figure never looks like a verified one — the absence IS the finding. Muted and
+   outlined, deliberately NOT the brand color the real denominators carry. */
+.hsp-no-denom {
+  display: inline-block;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border: 1px dashed var(--border);
+  border-radius: 2px;
+  padding: 1px 5px;
+}
+
+/* -- the per-class table --------------------------------------------------- */
+
+.hsp-classes {
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.hsp-class-row {
+  display: grid;
+  grid-template-columns: 80px 90px 1fr 150px 90px;
+  gap: 12px;
+  align-items: baseline;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.hsp-class-row:last-child { border-bottom: none; }
+.hsp-class-head {
+  font-family: var(--heading);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--surface, transparent);
+}
+.hsp-class-year { font-family: var(--heading); font-weight: 600; }
+.hsp-class-denom { font-size: 12px; }
+
+/* The multi-year aggregate, styled as a DIFFERENT KIND OF STATEMENT from the
+   verifiable per-class rows above it: dashed rather than solid, and hatched, so
+   it reads as the unpublished-denominator aggregate it is. Not decoration — it
+   is the visual carrier of the distinction. */
+.hsp-class-agg {
+  border-top: 1px dashed var(--border);
+  border-bottom: none;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 5px,
+    var(--border) 5px,
+    var(--border) 6px
+  );
+}
+.hsp-class-agg > * { position: relative; }
+
+.hsp-expand {
+  font: inherit;
+  font-size: 11.5px;
+  color: var(--brand);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+.hsp-expand:hover { text-decoration: underline; }
+
+.hsp-class-dests {
+  padding: 4px 14px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* -- scholarship band ------------------------------------------------------ */
+
+.hsp-schol-band {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.hsp-schol {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border-left: 3px solid var(--brand);
+  padding: 6px 0 6px 12px;
+}
+.hsp-schol-name { font-size: 13.5px; }
+
+/* -- the placement timeline ------------------------------------------------ */
+
+.hsp-timeline {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.hsp-step {
+  border-left: 2px solid var(--border);
+  padding: 0 0 16px 16px;
+  position: relative;
+}
+.hsp-step:last-child { border-left-color: transparent; padding-bottom: 0; }
+.hsp-step::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand);
+}
+.hsp-step-when { font-family: var(--heading); font-weight: 600; font-size: 13.5px; }
+.hsp-step-kind {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 1px 0 4px;
+}
+.hsp-step-text { line-height: 1.55; }
+
+/* -- the destination index ------------------------------------------------- */
+
+.hsp-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.hsp-filter-count { opacity: 0.6; font-variant-numeric: tabular-nums; }
+
+.hsp-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  margin: 0 0 18px;
+}
+.hsp-legend-swatch { padding-right: 8px; }
+
+.hsp-cat { margin-bottom: 18px; }
+
+.hsp-dest-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.hsp-dest {
+  display: inline-block;
+  font-size: 12.5px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 4px 9px;
+  line-height: 1.35;
+}
+/* The cross-link to another school's dossier in this app — the app's first
+   school-to-school link.
+
+   A 3px brand LEFT EDGE, not a filled chip. Filling 12 of 56 chips with brand
+   color would read as "these are the good ones"; the categories are the
+   school's own groupings, not a ranking, and the app must not imply one. An
+   edge marks availability without ranking. */
+.hsp-dest-link {
+  border-left: 3px solid var(--brand);
+  color: inherit;
+  text-decoration: none;
+}
+.hsp-dest-link:hover {
+  background: color-mix(in srgb, var(--brand) 8%, var(--bg));
+  text-decoration: underline;
+}
+.hsp-dest-arrow { color: var(--brand); font-size: 10px; }
+.hsp-dest-note { font-size: 11px; }
+
+/* Wide structured layouts, exactly like the College Support cards: never reflow
+   them into the two-column prose columns .note-card[open] applies by default. */
+.note-card-hsp[open] .note-card-body { column-count: 1; }
+
+@media (max-width: 900px) {
+  .hsp-stats { grid-template-columns: 1fr 1fr !important; }
+  /* The class table scrolls sideways rather than crushing five columns. */
+  .hsp-classes { overflow-x: auto; }
+  .hsp-class-row { min-width: 560px; }
+}
+
+@media (max-width: 600px) {
+  .hsp-stats { grid-template-columns: 1fr !important; }
+}
+
 /* == After School ========================================================== */
 /* The four redesigned After School cards (components/AfterSchool.tsx). Reuses
    the existing .tag-* / .srcrow primitives so these read as the same system as

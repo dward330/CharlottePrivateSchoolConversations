@@ -226,6 +226,11 @@ const STRUCTURED = [
   { topic: 'after-school', file: 'afterSchool.ts', reg: 'AFTER_SCHOOL_CARDS', root: 'AfterSchoolProgram', dir: 'afterSchoolPrograms' },
   { topic: 'summer-programs', file: 'summerPrograms.ts', reg: 'SUMMER_CARDS', root: 'SummerProgram', dir: 'summer' },
   { topic: 'admissions', file: 'admissionsPrograms.ts', reg: 'ADMISSIONS_CARDS', root: 'AdmissionsProgram', dir: 'admissionsPrograms' },
+  // The PreK-8 analogue of college-support. Its per-school directory is empty
+  // until Charlotte Prep lands (.claude/plans/charlotteprep.md), so this topic
+  // reports four cards and zero schools — which is the correct description of
+  // a shape that ships with no occupant.
+  { topic: 'high-school-placement', file: 'highSchoolPlacement.ts', reg: 'HIGH_SCHOOL_PLACEMENT_CARDS', root: 'HighSchoolPlacementProgram', dir: 'highSchoolPlacementPrograms' },
 ]
 
 for (const s of STRUCTURED) {

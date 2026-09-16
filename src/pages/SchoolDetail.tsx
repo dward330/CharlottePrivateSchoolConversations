@@ -17,7 +17,12 @@ import { ProseContent } from '../components/ProseContent.tsx'
 import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
 import { proseSummary, previewHasGapLanguage, proseIsEmpty, flattenMarkdown } from '../lib/prose.ts'
 import { toCompare, toHome, toSchool, useNavigate } from '../lib/router.ts'
-import { schools as allSchools } from '../lib/manifest.ts'
+/* TWO school lists, deliberately, and they are not interchangeable:
+   `allSchools` is the full roster and feeds the "More schools" navigation row,
+   which a PreK-8 school MUST appear in — it is how a reader reaches that
+   school's dossier. `comparableSchools` drops PreK-8 schools and feeds the
+   per-topic Compare links only. Swapping either one silently breaks the other. */
+import { schools as allSchools, comparableSchools, hasHighSchool } from '../lib/manifest.ts'
 import { COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
 import { financialAidReport, loadFinancialAidReportOverlay } from '../data/financialAidReports.ts'
@@ -88,6 +93,21 @@ import {
   // Arts also exports a VerdictBody; alias to disambiguate.
   VerdictBody as CsVerdictBody,
 } from '../components/CollegeSupport.tsx'
+import {
+  highSchoolPlacementProgram,
+  loadHighSchoolPlacementOverlay,
+  HIGH_SCHOOL_PLACEMENT_CARDS,
+  type HighSchoolPlacementProgram,
+} from '../data/highSchoolPlacement.ts'
+import {
+  // College Support exports its own OutcomesBody and VerdictBody; alias both.
+  // (High School Placement's verdict IS College Support's — it re-exports the
+  // same component — but the alias keeps the dispatcher below readable.)
+  OutcomesBody as HspOutcomesBody,
+  PlacementBody,
+  DestinationsBody,
+  VerdictBody as HspVerdictBody,
+} from '../components/HighSchoolPlacement.tsx'
 import {
   afterSchoolProgram,
   loadAfterSchoolOverlay,
@@ -246,6 +266,26 @@ function CollegeSupportCardBody({
       return <WholeClassBody data={program.wholeClass!} />
     case 'verdict':
       return <CsVerdictBody data={program.verdict!} />
+  }
+}
+
+/** The four High School Placement cards — the PreK-8 analogue of the above. */
+function HighSchoolPlacementCardBody({
+  program,
+  cardKey,
+}: {
+  program: HighSchoolPlacementProgram
+  cardKey: (typeof HIGH_SCHOOL_PLACEMENT_CARDS)[number]['key']
+}) {
+  switch (cardKey) {
+    case 'outcomes':
+      return <HspOutcomesBody data={program.outcomes!} />
+    case 'placement':
+      return <PlacementBody data={program.placement!} />
+    case 'destinations':
+      return <DestinationsBody data={program.destinations!} />
+    case 'verdict':
+      return <HspVerdictBody data={program.verdict!} />
   }
 }
 
@@ -449,6 +489,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadAfterSchoolOverlay(lang),
       loadSummerOverlay(lang),
       loadCollegeSupportOverlay(lang),
+      loadHighSchoolPlacementOverlay(lang),
       loadCourseOfferingsOverlay(lang),
       loadMetricValuesOverlay(lang),
       loadFinancialAidReportOverlay(lang),
@@ -469,8 +510,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
          Adding a loader without adding a hole silently feeds its `void` result
          into Object.fromEntries as if it were a [slug, groups] pair — which is
          what `tsc -b` caught when Summer Programs made it nine. Admissions
-         made it ten. */
-    ]).then(([, , , , , , , , , , ...entries]) => {
+         made it ten. High School Placement made it eleven. */
+    ]).then(([, , , , , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -497,9 +538,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
      reader arrives beside their own school and a consistent comparison group.
      Filtering through the manifest keeps column order stable and drops the
      duplicate when this school is already one of the six. */
-  const compareSlugs = allSchools
+  /* A PreK-8 school is excluded from Compare entirely, so its dossier shows no
+     per-topic Compare button at all (see `comparableSchools`). `comparable`
+     gates the button below; the slug list also drops the `s === slug`
+     self-injection for such a school, so even a stale link cannot name it as a
+     column. */
+  const comparable = hasHighSchool(slug)
+  const compareSlugs = comparableSchools
     .map((s) => s.slug)
-    .filter((s) => s === slug || COMPARE_DEFAULT_SCHOOLS.includes(s))
+    .filter((s) => (comparable && s === slug) || COMPARE_DEFAULT_SCHOOLS.includes(s))
 
   return (
     <div className="page school-page" style={{ ['--brand' as string]: brand.color }}>
@@ -759,6 +806,30 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const collegeSupport = csCardList.length > 0 ? csEntry : undefined
             const csCards = csCardList
+            /* High School Placement: the PreK-8 analogue of College Support,
+               and a full substitution in exactly the same way — the four
+               consolidated cards replace the ingested prose for the topic.
+
+               This branch is unreachable for every K-12 school, and by ABSENCE
+               rather than by a conditional: a school with no
+               source-material/high-school-placement/<slug>/ folder has no
+               documents for the topic, so `topicsForSchool()` never yields it
+               and `t.slug` is never this. That is the standing
+               absence-not-emptiness rule, and it is why no component anywhere
+               tests whether a school has a high school.
+
+               Same empty-entry guard as the areas above — an entry that is
+               present but empty is still truthy, and would otherwise suppress
+               the prose and leave the whole section blank. */
+            const hspEntry =
+              t.slug === 'high-school-placement'
+                ? highSchoolPlacementProgram(slug, lang)
+                : undefined
+            const hspCardList = hspEntry
+              ? HIGH_SCHOOL_PLACEMENT_CARDS.filter((c) => hspEntry[c.key] != null)
+              : []
+            const highSchoolPlacement = hspCardList.length > 0 ? hspEntry : undefined
+            const hspCards = hspCardList
             /* After School: a full substitution like Sports, The Arts and
                College Support — the four consolidated cards replace ALL five
                ingested prose sub-sections (Program Overview, Program Details,
@@ -827,15 +898,17 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   ? artsCards.length
                   : collegeSupport
                     ? csCards.length
-                    : afterSchool
-                      ? asCards.length
-                      : summer
-                        ? suCards.length
-                        : admissions
-                          ? adCards.length
-                          : clubs
-                            ? clubsCards.length + groups.length
-                            : groups.length
+                    : highSchoolPlacement
+                      ? hspCards.length
+                      : afterSchool
+                        ? asCards.length
+                        : summer
+                          ? suCards.length
+                          : admissions
+                            ? adCards.length
+                            : clubs
+                              ? clubsCards.length + groups.length
+                              : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -864,13 +937,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           : tr('school.topics', { count: cardCount })}
                     </span>
                   )}
-                  <a
-                    className="btn"
-                    href={toCompare(t.slug, compareSlugs)}
-                    onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, compareSlugs)) }}
-                  >
-                    {tr('school.compareOn', { topic: topicLabel(tr, t.slug, t.name) })} <ArrowIcon />
-                  </a>
+                  {/* Omitted entirely for a PreK-8 school — it has no Compare
+                      columns to open, so the button would lead to a page it is
+                      absent from. Absence, not a disabled control. */}
+                  {comparable && (
+                    <a
+                      className="btn"
+                      href={toCompare(t.slug, compareSlugs)}
+                      onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, compareSlugs)) }}
+                    >
+                      {tr('school.compareOn', { topic: topicLabel(tr, t.slug, t.name) })} <ArrowIcon />
+                    </a>
+                  )}
                 </div>
 
                 {/* Renders nothing when this school × topic has no episode, so a
@@ -1037,6 +1115,45 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* High School Placement: four consolidated cards built from
+                    the structured program layer, in the fixed order set by
+                    HIGH_SCHOOL_PLACEMENT_CARDS. Card titles carry no kicker
+                    line, as everywhere in this app.
+
+                    Renders only for a PreK-8 school, and only because such a
+                    school is the only one with research for this topic — see
+                    the assembly above. A school with no data for a card omits
+                    it entirely rather than rendering it with placeholder
+                    content. */}
+                {ready && t.slug === 'high-school-placement' && highSchoolPlacement && (
+                  <div className="note-cards">
+                    {hspCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-hsp"
+                      >
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">
+                              {cardTitle(tr, 'high-school-placement', card.key, card.title)}
+                            </span>
+                            <span className="topic-teaser">
+                              {highSchoolPlacement[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <HighSchoolPlacementCardBody
+                            program={highSchoolPlacement}
+                            cardKey={card.key}
+                          />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 {/* After School: four consolidated cards built from the
                     structured program layer, in the fixed order set by
                     AFTER_SCHOOL_CARDS. The design reference labels these 1a–1d
@@ -1192,6 +1309,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     (t.slug === 'sports' && sports) ||
                     (t.slug === 'the-arts' && arts) ||
                     (t.slug === 'college-support' && collegeSupport) ||
+                    (t.slug === 'high-school-placement' && highSchoolPlacement) ||
                     (t.slug === 'after-school' && afterSchool) ||
                     (t.slug === 'summer-programs' && summer) ||
                     (t.slug === 'admissions' && admissions)
@@ -1323,7 +1441,13 @@ export function SchoolDetail({ slug }: { slug: string }) {
           adding a school extends every other school's row automatically.
 
           The badge carries the LINKED school's brand color (SchoolBadge reads
-          brandOf(slug) itself), not this page's --brand. */}
+          brandOf(slug) itself), not this page's --brand.
+
+          DELIBERATELY reads the FULL roster (`allSchools`), not
+          `comparableSchools`. This row is navigation, not a Compare surface: a
+          PreK-8 school is excluded from Compare but must still be reachable
+          here, or its dossier would be unlinked from every other school's page.
+          Do not "fix" this to match the Compare filtering above. */}
       <section className="more-schools" aria-labelledby="more-schools-heading">
         <h2 id="more-schools-heading" className="more-schools-heading">
           {tr('school.moreSchools')}

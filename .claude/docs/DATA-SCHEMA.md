@@ -702,6 +702,45 @@ Root type `AdmissionsProgram` · registry `ADMISSIONS_CARDS` · `src/data/admiss
 
 </details>
 
+### high-school-placement `high-school-placement`
+
+Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS` · `src/data/highSchoolPlacement.ts` · per-school `src/data/highSchoolPlacementPrograms/<slug>.ts`
+
+| Card key | Title | Parent question / kicker |
+|---|---|---|
+| `outcomes` | Where Graduates Go | Does this school actually place kids well? |
+| `placement` | The Placement Program | Who helps my kid through this, and when? |
+| `destinations` | Where They Land | Which specific high schools do kids go to? |
+| `verdict` | Verdict & Visit Checklist | What should I probe on the tour? |
+
+**Schools with data:** 0/11 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `providence-day`
+
+<details><summary>Types defined in <code>highSchoolPlacement.ts</code> (11)</summary>
+
+`HspStat` — `value`, `denominator?`, `caption`
+
+`Destination` — `name`, `slug?`
+
+`PlacementClass` — `year`, `graduates`, `acceptedPct`, `acceptedCount`, `scholarshipNote?`, `destinations`
+
+`PlacementAggregate` — `label`, `pct`, `denominator?`
+
+`Scholarship` — `name`, `detail`
+
+`Outcomes` — `headline`, `subhead?`, `stats`, `classesTitle?`, `classes`, `tenYear?`, `scholarshipsTitle?`, `scholarships`, `flags`, `sources`
+
+`PlacementStep` — `when`, `kind?`, `text`
+
+`Placement` — `headline`, `subhead?`, `stats`, `timelineTitle?`, `steps`, `ownsTitle?`, `owns`, `notPublishedTitle?`, `notPublished`, `flags`, `sources`
+
+`DestinationCategory` — `key`, `label`, `schools`, `notes?`
+
+`Destinations` — `headline`, `subhead?`, `categories`, `flags`, `sources`
+
+`HighSchoolPlacementProgram` — `outcomes?`, `placement?`, `destinations?`, `verdict?`
+
+</details>
+
 ## 4. Compare rows (quantitative layer)
 
 `VALUE_METRICS` powers both the Compare table and the stat tiles on a school page. It is
@@ -929,6 +968,7 @@ Per-school colors and marks used by the page chrome.
 | `city` | `string` | yes |
 | `logo` | `string` |  |
 | `welcomeVideoUrl` | `string` |  |
+| `hasHighSchool` | `boolean` |  |
 
 ## 6. Adding to the schema
 
