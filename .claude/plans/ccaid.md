@@ -1,7 +1,7 @@
 ---
 name: ccaid
 title: Correct Charlotte Christian's financial-aid data — SSS by NAIS → Clarity, and publish the deadlines the school now publishes
-status: not-implemented
+status: in-progress
 phases: 2
 created: 2026-09-15
 branch: fix/ccaid
