@@ -1,6 +1,6 @@
 # collegeNameHyperlink — link every college name on "Where Graduates Go" to its homepage
 
-**Status:** english-done
+**Status:** implemented
 **Plan written:** 2026-09-16
 **Phases:** Two — English/app first, locales second (adds one new user-facing chrome string)
 
@@ -649,3 +649,50 @@ both themes, and **all six clicked through to the correct institution** (each de
 own page title confirms it). Table layout unchanged — thead and tbody column offsets
 identical, all six name cells 20px tall (no wrap introduced), admit-rate bars and widths
 unchanged, no horizontal overflow.
+
+---
+
+## Implementation notes — Phase 2 (2026-09-16)
+
+Ran as specified in step 12, with no deviations. The legend key
+`collegeSupport.linkLegend` was added to the nine non-English catalogs in
+`TRANSLATED`; `collegeUrls.ts` was correctly left out of every overlay layer.
+
+**Arabic.** All six CLDR forms, with `_two` written as the dual
+(`اسما جامعتين يرتبطان بموقعيهما الرسميين.`) carrying **no `{{count}}`** — the dual
+absorbs the numeral — and `_zero` stating "no names" rather than printing a literal 0.
+Both follow the `crossLinkLegend` / `categoryLinked` precedent in the same catalogs.
+
+**Key order was preserved rather than normalized.** Keys were inserted in place
+after `hintFilter` (the position they hold in `en.json`), so the diff is 22 pure
+insertions with zero deletions across the nine files. Normalizing `ar.json`'s key
+order has broken Arabic plurals before, so this was verified from the diff rather
+than assumed.
+
+**Plural coverage was asserted, not eyeballed.** Each locale's shipped forms were
+diffed against the categories `Intl.PluralRules` actually reaches for counts 0–120,
+and every form was then resolved through i18next at 0/1/2/3/11/100/382. Arabic's
+`few`/`many` split at 3 vs 11 behaves correctly.
+
+### Verification performed
+
+`npx tsc -b` · `npm run lint` · **full `npm run build` green** (incl. `check:live`,
+`check:seo`, `check:schema`, `check:collegeurls`) · `check:chrome` clean across all
+**ten** catalogs · `check:runtime` 9/9 prose locales resolving · `check:bidi`,
+`check:fa`, `check:hi`, `check:fr`, `check:money`, `check:currency`.
+
+Browser check (headed Chromium, Providence Day, all `<details>` forced open) in
+**ar, fa, hi, bn, es**: the legend renders translated in each; the `aria-hidden` `↗`
+sits on the leading edge in both directions; **the college-name arrow still trails
+the strong-L Latin name in RTL**, so no additional LRI…PDI isolate was needed beyond
+the one already inside the translated string; no row wraps and nothing overflows
+horizontally; no underline at rest, with underline + the `--ink` tint on hover
+(measured in `ar` and `hi`). The **singular** form was exercised by filtering the
+list down to a single row, confirming the legend recounts live with the filter.
+
+`bn` renders `380টি` with Western digits, which is correct — `bn` is in
+`FIGURE_SAFE_NUMBERS`.
+
+One note carried forward from Phase 1's harness bug: `scrollIntoViewIfNeeded()` was
+called before every hover, since Playwright's `.hover()` silently no-ops on a link
+below the viewport and reports a false "no underline on hover".
