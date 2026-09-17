@@ -31,7 +31,7 @@
 > is **951**. Extract by importing the modules and reading
 > `outcomes.colleges[].name`, the way `scripts/check_rank_labels.mjs` does.
 >
-> **Counts (2026-09-16):** 951 distinct names · **933 linked** ·
+> **Counts (2026-09-16):** 951 distinct names · **938 linked** ·
 > **18 confirmed unlinkable**. A confirmed-null is a real result, not a
 > gap: it is absent from `COLLEGE_URLS`, so the name renders as plain text. That
 > is why `check:collegeurls` does **not** gate on coverage — a coverage gate here
@@ -44,6 +44,19 @@
 > with the 403 noted rather than dropped, because marking a live institution
 > unlinkable is the worse error. A future pass re-verifying this table should
 > expect them and must not "fix" them by deleting the row.
+>
+> **TWO CONSUMERS, TWO VOCABULARIES (added 2026-09-16).** The master is also read
+> by the **Top-6 NC publics card** (`ncAdmissions`), not only by the acceptance
+> lists — and that card carries the **UNC system dashboard's own short forms**
+> (`UNC-Chapel Hill`, `NC State University`, `UNC Charlotte`, `UNC Wilmington`,
+> `UNC Greensboro`), which must be copied verbatim from the dashboard and so
+> cannot be normalized toward the spelled-out acceptance-list keys.
+> `normName()` bridges punctuation and University/College/Saint abbreviation but
+> **not initialisms**, so those five are listed as their own rows below, pointing
+> at the same URLs as their spelled-out twins. `East Carolina University` needs no
+> such row — the card and the lists already spell it identically. **Adding a
+> seventh campus to that card means adding its dashboard spelling here and in the
+> TS master**, or its row renders unlinked.
 >
 > **NAMES ARE NOT CORRECTED.** Keys are the spellings the schools published,
 > because that is what `urlFor()` receives. Two carry a misspelling —
@@ -58,7 +71,7 @@
 > school writes the institution as "Queens University of Charlotte", and
 > Providence Day lists "Queens University Belfast" separately.
 
-## Linked (933)
+## Linked (938)
 
 | College (as the school lists write it) | Homepage | Verification |
 |---|---|---|
@@ -452,6 +465,7 @@
 | Muhlenberg College | https://www.muhlenberg.edu | 200 |
 | Muskingum University | https://www.muskingum.edu | 200 |
 | NC A&T State University | https://www.ncat.edu | 200 (browser UA; plain curl bot-blocked 403) |
+| NC State University | https://www.ncsu.edu | 200; UNC-dashboard spelling for the NC publics card, same institution as North Carolina State University |
 | Nazareth University | https://www2.naz.edu | 200 |
 | New College of Florida | https://www.ncf.edu | 200 |
 | New Jersey Inst. of Technology | https://www.njit.edu | 200 |
@@ -693,6 +707,10 @@
 | Tulane University | https://tulane.edu | 200 via redirect from www.tulane.edu |
 | Tulane University of Louisiana | https://tulane.edu | 200 via redirect from www.tulane.edu |
 | Tusculum University | https://www.tusculum.edu | 200 (redirects to site.tusculum.edu) |
+| UNC Charlotte | https://www.charlotte.edu | 200; UNC-dashboard spelling for the NC publics card, same institution as University of North Carolina at Charlotte |
+| UNC Greensboro | https://www.uncg.edu | 200; UNC-dashboard spelling for the NC publics card, same institution as University of North Carolina at Greensboro |
+| UNC Wilmington | https://www.uncw.edu | 200; UNC-dashboard spelling for the NC publics card, same institution as University of North Carolina at Wilmington |
+| UNC-Chapel Hill | https://www.unc.edu | 200 (Cloudflare 403 to a scripted fetch; loads in a browser); UNC-dashboard spelling for the NC publics card, same institution as University of North Carolina at Chapel Hill |
 | Underwood International College, Yonsei University | https://uic.yonsei.ac.kr | 200 |
 | Union College | https://www.union.edu | 200 |
 | Union Commonwealth University | https://www.unionky.edu | 200 OK; Barbourville, KY institution (formerly Union College) |

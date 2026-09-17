@@ -609,3 +609,43 @@ Day passed only because its list happened to land in view. Fixed with
 `scrollIntoViewIfNeeded()` before every hover. A contrast-ratio helper also mis-parsed
 `color(srgb 0.80 …)` (what `color-mix` returns) as 0-255 and reported a *passing*
 `2692252433:1`; fixed to parse both formats before any conclusion was drawn from it.
+
+### 5. NcAdmissionsBody linked too — scope EXTENDED at the user's request
+
+The plan put the Top-6 NC publics card explicitly out of scope ("keep the diff to one
+surface"). The user asked for it after reviewing Phase 1, on the reasoning that six unlinked
+university names directly above 380 linked college names read as inconsistent. Done in
+Phase 1 rather than deferred, since the URLs were already in the master.
+
+**The non-obvious part: only 1 of the 6 names resolved.** The card renders the **UNC
+dashboard's own short forms** (`UNC-Chapel Hill`, `NC State University`, `UNC Charlotte`,
+`UNC Wilmington`, `UNC Greensboro`), which the `nc-admissions-data` standard requires be
+copied verbatim, while the acceptance lists spell the same institutions out
+(`University of North Carolina at Chapel Hill`). `normName()` bridges punctuation and
+University/College/Saint abbreviation but **not initialisms**, so five of six would have
+rendered silently unlinked — the same silent-fallback shape as the extraction bug in note 1.
+Only `East Carolina University` matched, because both surfaces spell it identically.
+
+Fixed by adding the five dashboard spellings as ordinary keys pointing at the same URLs.
+This does **not** reintroduce an ALIAS map: they are real keys for names a real consumer
+passes. The master's header comment was rewritten accordingly — the plan's "no alias layer
+needed, this table is built FROM the school lists" rationale was true of one consumer and
+is now wrong, so it says so and names both vocabularies.
+
+**`check:collegeurls` had to be widened, and it caught its own gap.** Its orphan assertion
+(3) collected names only from `outcomes.colleges[]`, so the five new keys read as orphans;
+it now also walks `ncAdmissions.universities[]`. Its doc-sync assertion (4) then correctly
+failed until the five rows were added to the `_shared` .md. Both gates firing on a genuine
+omission is the intended behaviour. Master is now 938 rows; the distinct-rendered-name
+denominator moved 951 → 956.
+
+Styling reuses the same model in a parallel rule (`a.cs-uni-link`), with the anchor **inside**
+`.cs-uni-name`'s `<strong>` so it inherits the heading font, 15px and bold rather than
+restating them — verified in-browser at 15px/700/Barlow Condensed on three schools.
+
+Browser-verified on Providence Day, Charlotte Latin and Davidson Day: all six rows linked,
+arrow present and `aria-hidden`, no underline at rest, underline + `--ink` tint on hover in
+both themes, and **all six clicked through to the correct institution** (each destination's
+own page title confirms it). Table layout unchanged — thead and tbody column offsets
+identical, all six name cells 20px tall (no wrap introduced), admit-rate bars and widths
+unchanged, no horizontal overflow.

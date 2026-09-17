@@ -3889,6 +3889,28 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .cs-uni-name { font-family: var(--heading); font-size: 15px; display: block; }
 .cs-uni-note { font-size: 11.5px; display: block; }
 
+/* The NC ledger's university names link to their homepages, on the same model as
+   the acceptance-list names below them (see a.cs-college-name near line 4090):
+   the ↗ is the at-rest affordance, the underline is hover-only, and --ink rather
+   than --brand keeps the hover tint legible on the dark theme. The anchor sits
+   INSIDE .cs-uni-name's <strong>, so it inherits the heading font, 15px size and
+   bold weight — it must not restate them, or the two would drift apart. */
+a.cs-uni-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.12s ease, text-decoration-color 0.12s ease;
+}
+a.cs-uni-link:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a.cs-uni-link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 .cs-rate { display: flex; align-items: center; gap: 10px; }
 .cs-rate-val {
   min-width: 38px;

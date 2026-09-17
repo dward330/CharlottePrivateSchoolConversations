@@ -64,7 +64,16 @@ if (SCHOOLS.length === 0) {
   process.exit(2)
 }
 
-// Every distinct college name any school actually renders.
+// Every distinct institution name any school actually renders, across BOTH
+// surfaces that resolve a link from this master:
+//   1. outcomes.colleges[]        — the "Where Graduates Go" acceptance list
+//   2. ncAdmissions.universities[] — the Top-6 NC publics card
+// Both must be collected, because "in use" drives the orphan assertion below.
+// The two surfaces use DIFFERENT vocabularies for the same institution — the
+// acceptance lists spell it out ("University of North Carolina at Chapel Hill")
+// while the NC card carries the UNC dashboard's own short form
+// ("UNC-Chapel Hill") — so a name reached only by the card is legitimately in
+// use and must not read as an orphan.
 const rendered = new Set()
 for (const [slug, load] of SCHOOLS) {
   let mod
@@ -76,6 +85,7 @@ for (const [slug, load] of SCHOOLS) {
   }
   const program = Object.values(mod)[0]
   for (const c of program?.outcomes?.colleges ?? []) rendered.add(c.name)
+  for (const u of program?.ncAdmissions?.universities ?? []) rendered.add(u.name)
 }
 
 let bad = 0

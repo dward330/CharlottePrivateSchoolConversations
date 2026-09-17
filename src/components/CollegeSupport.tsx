@@ -189,6 +189,27 @@ function RichText({ text }: { text: string }) {
 /* ---------------------- admissions rate for top nc public universities ---- */
 
 /**
+ * A university name on the NC ledger, linked to its homepage when the master
+ * resolves one. Forks exactly as the acceptance list does, so the two surfaces
+ * in this area carry the same affordance: the ↗ is the at-rest signal, the
+ * underline is hover-only.
+ *
+ * The names here are the UNC dashboard's own short forms, which normName() does
+ * not bridge to the acceptance lists' spelled-out keys — the master carries both
+ * (see its header). A name that does not resolve renders as plain text, which is
+ * also what every row did before the links existed.
+ */
+function UniName({ name }: { name: string }) {
+  const href = urlFor(name)
+  if (!href) return <>{name}</>
+  return (
+    <a className="cs-uni-link" href={href} target="_blank" rel="noreferrer noopener">
+      {name} <span className="cs-college-arrow" aria-hidden="true">↗</span>
+    </a>
+  )
+}
+
+/**
  * The area's FIRST card: how this school's own applicants fared at the six
  * top-ranked NC public universities.
  *
@@ -233,7 +254,13 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
               <tr key={u.key}>
                 <td className="cs-td cs-td-rank">#{u.rank}</td>
                 <td className="cs-td cs-td-uni">
-                  <strong className="cs-uni-name">{u.name}</strong>
+                  {/* Linked to the university's homepage from the same master
+                      the acceptance list below uses, so the two surfaces behave
+                      identically. The name stays inside <strong> so the link
+                      inherits the bold rather than replacing it. */}
+                  <strong className="cs-uni-name">
+                    <UniName name={u.name} />
+                  </strong>
                   {u.note && <span className="cs-uni-note text-muted">{u.note}</span>}
                 </td>
                 <td className="cs-td cs-td-count">{u.applied}</td>

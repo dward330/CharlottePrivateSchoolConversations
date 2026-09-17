@@ -25,9 +25,24 @@
 // institution actually meant. Names are not corrected here; the acceptance list
 // is a citation surface.
 //
-// Unlike collegeRankings.ts there is NO alias layer, and adding one would be
-// dead code: this table is built FROM the school lists, so every name they use
-// is already a key.
+// Unlike collegeRankings.ts there is no separate ALIAS map: variant spellings
+// are ordinary keys here, because this table is built FROM the names its
+// consumers actually pass. There are TWO such consumers and they use different
+// vocabularies for the same institution:
+//
+//   1. the "Where Graduates Go" acceptance lists, which spell an institution out
+//      ("University of North Carolina at Chapel Hill"), and
+//   2. the Top-6 NC publics card (ncAdmissions), which carries the UNC system
+//      dashboard's own short form ("UNC-Chapel Hill") — those strings are fixed
+//      by the dashboard's house style and must be copied verbatim, so they
+//      cannot be normalized toward the acceptance-list spellings.
+//
+// normName() bridges punctuation and University/College/Saint abbreviation, but
+// NOT initialisms, so "UNC-Chapel Hill" does not reach
+// "University of North Carolina at Chapel Hill" on its own. The six dashboard
+// spellings are therefore listed explicitly at the end of the table, pointing at
+// the same URLs. Adding a seventh campus to that card means adding its
+// dashboard spelling here too, or its row renders unlinked.
 
 import { normName } from './collegeRankings.ts'
 
@@ -966,6 +981,18 @@ export const COLLEGE_URLS: Record<string, string> = {
   "York Technical College": "https://www.yorktech.edu",
   "Young Harris College": "https://www.yhc.edu",
   "Zaytuna College": "https://zaytuna.edu",
+
+  // --- UNC-dashboard spellings, for the Top-6 NC publics card (ncAdmissions) --
+  // Same six institutions as their spelled-out keys above, same URLs. These are
+  // the exact strings the UNC system's Insight dashboard publishes, which is what
+  // that card renders; note the dashboard's own inconsistent hyphenation
+  // (UNC-Chapel Hill hyphenated, the rest not) and that it is "East Carolina
+  // University", never "Eastern" — both are copied verbatim on purpose.
+  "UNC-Chapel Hill": "https://www.unc.edu",
+  "NC State University": "https://www.ncsu.edu",
+  "UNC Charlotte": "https://www.charlotte.edu",
+  "UNC Wilmington": "https://www.uncw.edu",
+  "UNC Greensboro": "https://www.uncg.edu",
 }
 
 // Build the normalized lookup once from the canonical table, mirroring
