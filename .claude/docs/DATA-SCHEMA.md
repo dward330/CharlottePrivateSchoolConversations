@@ -988,6 +988,7 @@ Per-school colors and marks used by the page chrome.
 | `city` | `string` | yes |
 | `logo` | `string` |  |
 | `welcomeVideoUrl` | `string` |  |
+| `homepageUrl` | `string` |  |
 | `hasHighSchool` | `boolean` |  |
 
 ## 6. Adding to the schema

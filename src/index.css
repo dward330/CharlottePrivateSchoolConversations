@@ -738,6 +738,26 @@ main { flex: 1; }
   margin: 0 0 4px;
 }
 .dossier-header h1 { font-size: clamp(30px, 5vw, 44px); margin: 0 0 6px; }
+/* The school name links out to the school's own homepage. Deliberately subtle —
+   `color: inherit` and underline on hover only, with no `↗` affordance: the <h1>
+   is up to 44px and an arrow beside it reads as decoration at that size. This is
+   the same treatment .hsp-dest-out already ships on destination-high-school links,
+   so outbound name links look like one thing across the app.
+
+   The hover underline is drawn in the SCHOOL'S OWN brand color (user-chosen,
+   2026-09-17), not the heading color. --brand is set per school on .school-page in
+   SchoolDetail.tsx, so this needs no per-school CSS and picks up a new school's hex
+   automatically. Only the rule is tinted: the name itself stays `color: inherit`,
+   because brand hexes here run to deep navies that would read as low-contrast body
+   text at 44px. thickness/offset are set so a 2px accent stays visible under a
+   large heading instead of hugging the baseline. */
+.school-title-link { color: inherit; text-decoration: none; }
+.school-title-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
 .school-sub { color: var(--muted); margin: 0 0 12px; font-size: 14px; }
 /* gap is 6px, not 8px, and that is load-bearing — it is the fix for a 0.35
    desktop CLS on /school/charlotte-catholic/.
@@ -786,6 +806,31 @@ main { flex: 1; }
   max-width: 40%;
   object-fit: contain;
   align-self: center;
+}
+
+/* When the school has a homepageUrl the crest is wrapped in an <a> to that site,
+   which inserts a NEW flex item between .dossier-header and the <img>. The sizing
+   above is applied to the image, and an inline <a> would not carry it — so the
+   reserved 3:2 box is lost and the 0.35 desktop CLS documented on the <img> in
+   src/pages/SchoolDetail.tsx comes straight back.
+
+   The wrapper therefore repeats the flex/box properties, aspect-ratio included:
+   it is the flex item now, and it must reserve the same space before the PNG
+   arrives. The image then simply fills it. Verified with check:vitals against
+   main rather than assumed. See .claude/plans/vitals.md and ccwrap.md. */
+.dossier-crest-link {
+  display: block;
+  flex: 0 0 auto;
+  height: clamp(72px, 9vw, 104px);
+  aspect-ratio: 3 / 2;
+  width: auto;
+  max-width: 40%;
+  align-self: center;
+}
+.dossier-crest-link .dossier-crest {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .dossier-layout {
@@ -1546,6 +1591,19 @@ main { flex: 1; }
   letter-spacing: 0.04em;
   padding: 2px 6px;
   border-radius: 3px;
+  /* `nowrap` keeps SHORT chips ("NOT PUBLISHED", "AP", a department label) on one
+     line, which is what these were designed for and what nearly all of them are.
+     But `flex: none` + `nowrap` means a chip can neither wrap nor shrink, so a
+     LONG one paints straight out of its card over whatever sits beside it —
+     Charlotte Latin's financial-aid gap cards carry two 56-character tags that
+     overflowed a 299px card by ~50px each, landing on top of the neighbouring
+     card's title.
+
+     max-width caps a chip at its container and lets that overflow case wrap
+     instead. A chip narrower than its box is untouched, so this changes nothing
+     for the short ones. Measured in a browser before and after, not eyeballed:
+     the two overflows go to 0 and no other chip on any school page moves. */
+  max-width: 100%;
   white-space: nowrap;
 }
 .tag-outline { border: 1px solid var(--accent); color: var(--accent-700); }
@@ -1782,6 +1840,24 @@ main { flex: 1; }
 
 /* cost-component grid: priced / in-range / unpriced (dashed) */
 .fa-box-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+/* These gap-card tags are whole SENTENCES, not the one-or-two-word labels the
+   chip styles were built for — "WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF
+   TUITION" is 56 characters. The shared chip rule is `white-space: nowrap` +
+   `flex: none`, so such a tag can neither wrap nor shrink: on Charlotte Latin it
+   rendered 336px wide inside a 299px card and painted over the neighbouring
+   card's title. (max-width on the chip caps it; this is what lets it wrap
+   instead of clipping.)
+
+   Scoped HERE rather than on .tag-outline, which is shared with course tags, D1
+   badges, division and source chips across eight components — all genuinely short,
+   all correctly nowrap. Only the financial-aid box head carries sentence-length
+   tags. `align-items: flex-start` because the row is baseline-aligned: a wrapped
+   two-line chip would otherwise hang its box below the title's baseline. */
+.fa-box-head .tag-outline {
+  white-space: normal;
+  align-items: flex-start;
+  line-height: 1.35;
+}
 .fa-box-title { font-family: var(--heading); font-weight: 600; font-size: 14px; }
 .fa-box-aside { margin-left: auto; color: var(--muted); font-size: 11px; }
 .fa-box-body { margin: 0; font-size: 12.5px; line-height: 1.55; }
