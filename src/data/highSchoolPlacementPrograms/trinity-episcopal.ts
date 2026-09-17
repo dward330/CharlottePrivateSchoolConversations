@@ -122,8 +122,6 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Davidson Day School', slug: 'davidson-day' },
           { name: 'Hickory Grove Christian Academy', slug: 'hickory-grove-christian' },
           { name: 'Providence Day School', slug: 'providence-day' },
-          { name: 'Charlotte Lab School' },
-          { name: 'Community School of Davidson' },
           { name: 'Grace Academy' },
           { name: 'Northside Christian Academy' },
           { name: 'Resurrection Christian School' },
@@ -142,6 +140,8 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Central High School' },
           { name: 'Chambers High School' },
           { name: 'Charlotte Engineering Early College' },
+          { name: 'Charlotte Lab School' },
+          { name: 'Community School of Davidson' },
           { name: 'Cox Mill High School' },
           { name: 'East Gaston High School' },
           { name: 'East Lincoln High School' },
@@ -152,6 +152,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Hopewell High School' },
           { name: 'Hough High School' },
           { name: 'Indian Land High School' },
+          { name: 'Jackson-Reed High School' },
           { name: 'JM Robinson High School' },
           { name: 'Julius L. Chambers High School' },
           { name: 'Lake Norman Charter School' },
@@ -159,18 +160,23 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Langtree Charter Academy' },
           { name: 'Laurel Springs High School' },
           { name: 'Mallard Creek High School' },
+          { name: 'Morristown High School' },
           { name: 'Mountain Island Charter School' },
           { name: 'Myers Park High School' },
+          { name: 'Nauset High School' },
+          { name: 'North Boise Jr. High School' },
           { name: 'North Lincoln High School' },
           { name: 'North Mecklenburg High School' },
           { name: 'Northwest School of the Arts' },
           { name: 'Phillip O’Berry Academy of Technology' },
+          { name: 'Phoebus High School' },
           { name: 'Porter Ridge High School' },
           { name: 'Providence High School' },
           { name: 'Queens Grant High School' },
           { name: 'Robinson High School' },
           { name: 'Rocky River High School' },
           { name: 'South Mecklenburg High School' },
+          { name: 'St. Martin High School' },
           { name: 'Stuart W. Cramer High School' },
           { name: 'University of North Carolina School of the Arts' },
           { name: 'West Mecklenburg High School' },
@@ -181,6 +187,19 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           'University of North Carolina School of the Arts': 'Winston-Salem · residential arts conservatory',
         },
       },
+      /* Grouped by what each school ACTUALLY is (data/highSchools.ts `kind`),
+         not by Trinity's filing — user's call, 2026-09-17. Eight rows moved:
+         two NC public charters Trinity filed as independent (Charlotte Lab,
+         Community School of Davidson) and six public schools it filed as
+         boarding (Jackson-Reed, Morristown, Nauset, North Boise, Phoebus,
+         St. Martin). Trinity's own wording is preserved in source-material.
+
+         ONE DELIBERATE EXCEPTION: Faith Lutheran (Las Vegas NV) is a private
+         DAY school, so by kind it is `independent` — but this card's other
+         independent category says "Charlotte-AREA", which Las Vegas is not.
+         It stays here because this category is really the out-of-area one,
+         and its label already claims only "boarding AND out-of-area". Do not
+         'correct' it into the Charlotte list. */
       {
         key: 'boarding',
         label: 'Boarding and out-of-area schools',
@@ -188,8 +207,6 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Asheville School' },
           { name: 'Bishop England High School' },
           { name: 'Blair Academy' },
-          { name: 'Brooklyn Friends School' },
-          { name: 'Cape Fear Academy' },
           { name: 'Cardinal Gibbons High School' },
           { name: 'Chatham Hall' },
           { name: 'Christ School' },
@@ -197,27 +214,19 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Collegiate School' },
           { name: 'Deerfield Academy' },
           { name: 'Episcopal High School' },
-          { name: 'Faith Lutheran High School' },
           { name: 'Hargrave Military Academy' },
-          { name: 'Jackson-Reed High School' },
           { name: 'La Paz Community School' },
           { name: 'Lawrenceville School' },
           { name: 'Masters School' },
           { name: 'Mercersburg Academy' },
-          { name: 'Morristown High School' },
-          { name: 'Nauset High School' },
-          { name: 'North Boise Jr. High School' },
-          { name: 'Phoebus High School' },
           { name: 'Putney School' },
           { name: 'Rabun Gap Nacoochee School' },
           { name: 'Salem Academy' },
           { name: 'St. Andrew’s School' },
           { name: 'St. George’s School' },
-          { name: 'St. Martin High School' },
           { name: 'St. Mary’s School' },
           { name: 'St. Paul’s' },
           { name: 'St. Timothy’s School' },
-          { name: 'Tampa Preparatory School' },
           { name: 'The Cate School' },
           { name: 'The McCallie School' },
           { name: 'The Millbrook School' },
@@ -263,6 +272,22 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           'Virginia Episcopal School': 'Virginia',
           'Woodberry Forest School': 'Virginia',
         },
+      },
+      /* Private DAY schools outside the Charlotte area — added 2026-09-17 with
+         the user's UX approval. They are independent schools, so "public" is
+         wrong; they board no one, so "boarding" is wrong; and they are not
+         local, so the Charlotte-area list is wrong. Each was confirmed a day
+         school against its own site (Faith Lutheran's admissions pages state
+         it offers no on-campus boarding). */
+      {
+        key: 'out-of-area-independent',
+        label: 'Out-of-area independent schools',
+        schools: [
+          { name: 'Brooklyn Friends School' },
+          { name: 'Cape Fear Academy' },
+          { name: 'Faith Lutheran High School' },
+          { name: 'Tampa Preparatory School' },
+        ],
       },
     ],
     // No flags (user, 2026-09-16) — research apparatus: an unexplained

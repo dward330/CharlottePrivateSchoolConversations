@@ -63,11 +63,18 @@ import { normName } from './collegeRankings.ts'
 /**
  * What the institution actually is, verified against its own site.
  *
- *  - `independent` — private / independent, tuition-charging
+ *  - `independent` — private, tuition-charging, in the Charlotte area
  *  - `public`      — public district, magnet, or tuition-free public charter
- *  - `boarding`    — residential independent school
+ *  - `boarding`    — residential independent school, wherever it is
+ *  - `day`         — private day school OUTSIDE the Charlotte area
+ *
+ * `independent` and `day` are the same kind of institution split by geography,
+ * because the card's categories are the school's own and its local list says
+ * "Charlotte-AREA independent". A Las Vegas day school is independent but not
+ * Charlotte-area, and filing it under either "Charlotte-area" or "boarding"
+ * states something untrue. Added 2026-09-17 (user).
  */
-export type HighSchoolKind = 'independent' | 'public' | 'boarding'
+export type HighSchoolKind = 'independent' | 'public' | 'boarding' | 'day'
 
 /** Why a row carries no URL, where the reason is a finding worth keeping. */
 export type HighSchoolStatus = 'closed' | 'merged' | 'ambiguous'
@@ -209,14 +216,14 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     note: '2 Park St, coed NJ boarding school founded 1848',
   },
   'Brooklyn Friends School': {
-    kind: 'boarding',
+    kind: 'day',
     url: 'https://brooklynfriends.org',
     city: 'Brooklyn',
     state: 'NY',
     note: 'Quaker PreK-12, 375 Pearl St. A DAY school, not boarding',
   },
   'Cape Fear Academy': {
-    kind: 'boarding',
+    kind: 'day',
     url: 'https://www.capefearacademy.org',
     city: 'Wilmington',
     state: 'NC',
@@ -377,7 +384,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     note: 'All-girls boarding/day 9-12, IB World School',
   },
   'Tampa Preparatory School': {
-    kind: 'boarding',
+    kind: 'day',
     url: 'https://tampaprep.org',
     city: 'Tampa',
     state: 'FL',
@@ -437,7 +444,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
      Each name carries no state in the source and belongs to many schools.
      Candidate sets are in the companion doc; do NOT pick the famous one. */
   'Faith Lutheran High School': {
-    kind: 'independent',
+    kind: 'day',
     url: 'https://www.faithlutheranlv.org',
     city: 'Las Vegas',
     state: 'NV',
