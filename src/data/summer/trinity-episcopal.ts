@@ -605,7 +605,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         label:
-          '**`4ORMORE` takes $25 off each camp** at **four or more weeks of full-day camps** (8 half-days count as the equivalent). ⚠️ **Per camper, not per family** — two children with two weeks each do not qualify.',
+          '**4ORMORE takes $25 off each camp** at **four or more weeks of full-day camps** (8 half-days count as the equivalent). ⚠️ **Per camper, not per family** — two children with two weeks each do not qualify.',
         note: true,
       },
       {

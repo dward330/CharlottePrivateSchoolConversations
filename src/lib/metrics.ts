@@ -136,7 +136,29 @@ const RULES: Record<string, Rule[]> = {
       key: 'in-depth-report',
       label: 'In-Depth Report',
     },
-    { match: /^tuition and fees$/i, key: 'tuition-history', label: 'Tuition History & Sources' },
+    { match: /^tuition and fees$/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    // Trinity's four research files are committed MARKDOWN, not the gitignored
+    // PDF every other school's deep-dive arrives as — so the content builder
+    // slices them at every `## ` heading and each slice became its own card
+    // (16 of them, including three "Source URLs" ref-tables and two "Verbatim
+    // text" dumps). Charlotte Latin and Providence Day ship ONE section here
+    // because their PDF cannot be sliced; this rule reproduces that shape for a
+    // school whose research is committed as text.
+    //
+    // Every heading below is evidence BEHIND the report — the aid series, the
+    // 990 filings, the profile figure sheets, the per-grade cost table — and the
+    // report itself is hand-authored in data/financialAidReports.ts, so folding
+    // them onto its key renders the designed card and nothing else. The research
+    // stays committed and readable in source-material/ either way.
+    //
+    // Keep this LAST: it is deliberately broad, so a genuinely new card in this
+    // area must be given its own rule above rather than silently folding in.
+    {
+      match:
+        /^source urls$|^the headline figures|^a three-point aid series|^how to apply$|^a separate funding route|^⛔ confirmed absent$|^fourteen years of filings|^head of school compensation$|^how this corroborates|^⚠️|^verbatim text|^year-over-year comparison$|^school profile — per-grade/i,
+      key: 'in-depth-report',
+      label: 'In-Depth Report',
+    },
     {
       match: /tuition history|provenance|source snapshots|tuition by (band|division)|year-over-year|reduced-day|captured in the same snapshots|published \d+(\.\d+)?% increase/i,
       key: 'tuition-history',

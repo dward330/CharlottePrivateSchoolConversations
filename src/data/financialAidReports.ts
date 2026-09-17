@@ -2908,7 +2908,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         {
           tag: 'A SCHOOL-SIDE ERROR',
           title: 'Do not use the 25-26 profile PDF for grade 6–8 tuition',
-          body: 'The school\'s own 2025-26 School Profile states `Tuition (\'25-\'26): $25,400 (K-5); $25,771 (6-8)`. **$25,771 is the 2024-25 grade 6–8 figure** — the PDF carried the prior year forward. The tuition page said **$27,320** for that year, confirmed across four archived snapshots. The K-5 figure in the same PDF is correct, which makes the error easy to miss.',
+          body: 'The school\'s own 2025-26 School Profile states "Tuition (\'25-\'26): $25,400 (K-5); $25,771 (6-8)". **$25,771 is the 2024-25 grade 6–8 figure** — the PDF carried the prior year forward. The tuition page said **$27,320** for that year, confirmed across four archived snapshots. The K-5 figure in the same PDF is correct, which makes the error easy to miss.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -2942,7 +2942,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         { label: 'Grade 8', amount: 1045 },
       ],
       figureNote:
-        'Trinity prices the activity fee **per grade**, one of very few schools on this roster to do so, and it is **not smoothly monotonic**: grades 1-2 share $225 and grades 6-7 share $965, while it steps sharply at grade 4 ($545) and again at grade 6 ($965). A family with a kindergartener and an 8th grader pays $210 and $1,045 for the same line item. What the fee buys is not stated.',
+        'Trinity prices the activity fee **per grade**, one of very few schools on this roster to do so. It runs from **$210** in Kindergarten to **$1,045** in 8th grade, rising at grade 4 (**$545**) and again at grade 6 (**$965**). What the fee buys is not stated.',
       componentsTitle: 'What sits outside tuition',
       components: [
         { label: 'Activity fee — per grade · $210 to $1,045', status: 'priced' },
@@ -2986,7 +2986,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
       timeline: [
         {
           when: 'Platform',
-          detail: 'All qualified families apply through **Clarity** at `app.clarityapp.com`; the school links a "2026-27 Clarity Family Application Guide"',
+          detail: 'All qualified families apply through **Clarity** at app.clarityapp.com; the school links a "2026-27 Clarity Family Application Guide"',
         },
         {
           when: '1 Dec 2026',
@@ -3103,7 +3103,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         { value: '$275,198', label: 'Head of School compensation, FY2025' },
       ],
       figureNote:
-        'From the school\'s Form 990 filings, EIN `56-2059568`, fiscal years ending in June. Across fourteen years of filings **assets have roughly doubled**, from $24,664,284 in FY2012 to $47,316,809 in FY2025, while **liabilities more than halved**, from $6,397,455 to $3,732,082. Three years ran expenses above revenue — FY2013, FY2020 and FY2024.',
+        'From the school\'s Form 990 filings, EIN 56-2059568, fiscal years ending in June. Across fourteen years of filings **assets have roughly doubled**, from $24,664,284 in FY2012 to $47,316,809 in FY2025, while **liabilities more than halved**, from $6,397,455 to $3,732,082. Three years ran expenses above revenue — FY2013, FY2020 and FY2024.',
       figureNote2:
         'The profile\'s **$11.09 million operating budget** and the 990\'s **$13,656,485 total expenses** are different measures — a forward-looking operating budget against total filed expenses including non-operating items — and are reported separately rather than reconciled against each other.',
       boxes: [
