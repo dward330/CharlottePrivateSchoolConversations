@@ -34,6 +34,7 @@ import type {
 } from '../data/collegeSupport.ts'
 import { COLLEGE_FILTERS } from '../data/collegeSupport.ts'
 import { rankLabelFor } from '../data/collegeRankings.ts'
+import { urlFor } from '../data/collegeUrls.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 
@@ -188,6 +189,27 @@ function RichText({ text }: { text: string }) {
 /* ---------------------- admissions rate for top nc public universities ---- */
 
 /**
+ * A university name on the NC ledger, linked to its homepage when the master
+ * resolves one. Forks exactly as the acceptance list does, so the two surfaces
+ * in this area carry the same affordance: the ↗ is the at-rest signal, the
+ * underline is hover-only.
+ *
+ * The names here are the UNC dashboard's own short forms, which normName() does
+ * not bridge to the acceptance lists' spelled-out keys — the master carries both
+ * (see its header). A name that does not resolve renders as plain text, which is
+ * also what every row did before the links existed.
+ */
+function UniName({ name }: { name: string }) {
+  const href = urlFor(name)
+  if (!href) return <>{name}</>
+  return (
+    <a className="cs-uni-link" href={href} target="_blank" rel="noreferrer noopener">
+      {name} <span className="cs-college-arrow" aria-hidden="true">↗</span>
+    </a>
+  )
+}
+
+/**
  * The area's FIRST card: how this school's own applicants fared at the six
  * top-ranked NC public universities.
  *
@@ -232,7 +254,13 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
               <tr key={u.key}>
                 <td className="cs-td cs-td-rank">#{u.rank}</td>
                 <td className="cs-td cs-td-uni">
-                  <strong className="cs-uni-name">{u.name}</strong>
+                  {/* Linked to the university's homepage from the same master
+                      the acceptance list below uses, so the two surfaces behave
+                      identically. The name stays inside <strong> so the link
+                      inherits the bold rather than replacing it. */}
+                  <strong className="cs-uni-name">
+                    <UniName name={u.name} />
+                  </strong>
                   {u.note && <span className="cs-uni-note text-muted">{u.note}</span>}
                 </td>
                 <td className="cs-td cs-td-count">{u.applied}</td>
@@ -504,6 +532,10 @@ function CollegeList({ data }: { data: Outcomes }) {
     )
   }, [data.colleges, filter, query])
 
+  /* How many of the rows CURRENTLY shown carry a homepage link, so the legend
+     describes the list in front of the reader rather than the whole roster. */
+  const linked = useMemo(() => shown.filter((c) => urlFor(c.name)).length, [shown])
+
   return (
     <div>
       <Heading hint={t('collegeSupport.hintFilter')}>
@@ -540,14 +572,35 @@ function CollegeList({ data }: { data: Outcomes }) {
         {data.collegesTotal && ` · ${data.collegesTotal}`}
       </div>
 
+      {/* The link legend explains the ↗ affordance before the reader meets it,
+          mirroring the cross-link legend on High School Placement. Rows with no
+          resolvable homepage need no explanation — they are simply plain text. */}
+      {linked > 0 && (
+        <p className="cs-link-legend text-muted">
+          <span className="cs-college-arrow" aria-hidden="true">
+            ↗
+          </span>{' '}
+          {t('collegeSupport.linkLegend', { count: linked })}
+        </p>
+      )}
+
       <div className="cs-college-list">
         {shown.map((c) => {
           const rankLabel = rankLabelFor(c.name)
+          /* The institution's homepage, resolved from the single master by name.
+             A college with no resolvable homepage renders exactly as it did
+             before the links existed — a plain <span>, no arrow. */
+          const href = urlFor(c.name)
+          const nameCls = c.enrolling ? 'cs-college-name is-enrolling' : 'cs-college-name'
           return (
             <div key={c.name} className="cs-college">
-              <span className={c.enrolling ? 'cs-college-name is-enrolling' : 'cs-college-name'}>
-                {c.name}
-              </span>
+              {href ? (
+                <a className={nameCls} href={href} target="_blank" rel="noreferrer noopener">
+                  {c.name} <span className="cs-college-arrow" aria-hidden="true">↗</span>
+                </a>
+              ) : (
+                <span className={nameCls}>{c.name}</span>
+              )}
               {rankLabel && (
                 <span className="cs-college-rank text-muted">{rankLabel}</span>
               )}

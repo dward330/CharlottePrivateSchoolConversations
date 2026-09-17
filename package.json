@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:spans && npm run check:news",
+    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:spans && npm run check:news",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",
@@ -14,6 +14,7 @@
     "schema": "node scripts/gen_data_schema.mjs",
     "report:admissions": "node scripts/gen_admissions_report.mjs",
     "check:ranks": "node scripts/check_rank_labels.mjs",
+    "check:collegeurls": "node scripts/check_college_urls.mjs",
     "check:buckets": "node scripts/check_selectivity_buckets.mjs",
     "check:memberships": "node scripts/check_memberships.mjs",
     "check:schema": "node scripts/gen_data_schema.mjs --check",
