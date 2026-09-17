@@ -512,6 +512,61 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
   ],
 }
 
+// ── Trinity Episcopal ── the only K–8 school in this set, and its competitive
+// record is stronger than several high schools': a Middle School Mock Trial team
+// that won the North Carolina Bar Foundation state championship three years
+// running, plus a Speech & Debate state title the same year. Both are documented
+// ONLY in the school's blog — neither appears in either School Profile PDF — so
+// the roster and the results come from different sources, which is why the
+// unverifiable profile-only clubs sit in their own 'reported' row rather than
+// being folded in with the champions.
+//
+// ⚠️ NO STUDENT NAMES. K–8 minors, per the project rule (user, 2026-09-16). The
+// school's own posts name individual competitors; the coach is named here and
+// the students are counted, not named.
+//
+// ⚠️ NJHS and Student Council are ABSENT ON PURPOSE — zero hits sitewide and in
+// both profile PDFs, despite a web search returning confident prose about both.
+// See the header of clubsPrograms/trinity-episcopal.ts. Do not add them.
+const TRINITY_EPISCOPAL: ClubClusters = {
+  verdict: 'Mock Trial is a three-peat state champion, and Speech & Debate won state the same year.',
+  verdictHint: 'Open any row for the full research note and its source.',
+  rows: [
+    {
+      name: 'Mock Trial',
+      oneLiner: 'NC Bar Foundation Middle School state champions — 2023, 2024 and 2025',
+      evidence: 'verified',
+      evidenceLabel: 'Verified — event',
+      note: 'The strongest competitive achievement Trinity has, and it is academic rather than athletic: three consecutive state championships in the North Carolina Bar Foundation’s Middle School Mock Trial competition. A 15-student team coached by Jennifer Bader; the second title was won at the Mecklenburg County Courthouse against five other middle school teams. Bader: "I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections."',
+      source: 'tescharlotte.org — school blog, three-peat and second-championship posts',
+    },
+    {
+      name: 'Speech & Debate',
+      oneLiner: 'Also a state champion — and simultaneously a 7th-grade weekly class',
+      evidence: 'verified',
+      evidenceLabel: 'Verified — event',
+      note: 'The school states it plainly: "The speech and debate and mock trial teams both won their respective state championships this year." It is both a class and a club — Speech & Debate runs as a weekly 7th-grade enrichment as well as a competitive team, so listing it only among the enrichments understates it. Coach Jennifer Bader has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities.',
+      source: 'tescharlotte.org — Celebrating TES Staculty Achievements; 2026-27 School Profile (PDF)',
+    },
+    {
+      name: 'Honor Council',
+      oneLiner: 'Elected by grade-level peers in Middle School; Honor Code written by students in 2002',
+      evidence: 'reported',
+      evidenceLabel: 'School-published',
+      note: 'Members are "elected by their grade level peers in Middle School" and hold fellow students to the Honor Pledge adopted in 2012. The Honor Code itself was created by students in 2002. This is the school’s only confirmed honor or leadership body — there is no National Junior Honor Society and no Student Council anywhere on the site or in either School Profile, despite third-party pages claiming both.',
+      source: 'tescharlotte.org — Honor Code (spirituality/honor-code.cfm)',
+    },
+    {
+      name: 'Profile-listed academic clubs →',
+      oneLiner: 'Odyssey of the Mind, Creative Writing, Climate Justice, Monday Math Mania, Radagast Rabies',
+      evidence: 'reported',
+      evidenceLabel: 'Single-source',
+      note: 'These five are named in the 2026-27 School Profile’s club list and nowhere else — each returns zero hits across the rest of the site, and no description, advisor, meeting time or competition result is published for any of them. Odyssey of the Mind is a national creative-problem-solving competition elsewhere, but no Trinity participation or result is published, so nothing competitive is claimed here. The 2025-26 profile additionally listed MathCats and Book Club; both are gone from the 26-27 edition.',
+      source: 'tescharlotte.org — 2026-27 School Profile (PDF)',
+    },
+  ],
+}
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
@@ -524,6 +579,7 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'carmel-christian': CARMEL_CHRISTIAN,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
+  'trinity-episcopal': TRINITY_EPISCOPAL,
 }
 
 /**
