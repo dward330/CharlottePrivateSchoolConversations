@@ -114,33 +114,13 @@ export const trinityEpiscopal: AfterSchoolProgram = {
         text: '**Jocelyn Purdie**, Director of Auxiliary Services, and **Nancy Guerra**, Assistant Director, TED; the school profile records **7 Extended Day & Support Staff**',
       },
     ],
-    flags: [
-      {
-        kind: 'verify',
-        label: 'THE SCHOOL’S OWN HEDGE',
-        text: 'The rate table\'s column header is "**Estimated** TED Monthly Cost" — the word is the school\'s, not this project\'s. Treat the monthly figures as the school\'s own estimate and confirm the exact charge at registration.',
-      },
-      {
-        kind: 'gap',
-        text: '**No annual TED cost is published, and none is derivable.** Trinity states a monthly figure and never states how many months it bills, so a school-year total cannot be computed from the public record. No annual figure appears on this page for that reason.',
-      },
-      {
-        kind: 'gap',
-        text: 'A **late-pickup policy for TED is not published at all** — no per-minute charge, no grace period, no removal rule. The camp publishes one (a five-minute grace, then $5/minute), but that is a different program and does not transfer.',
-      },
-      {
-        kind: 'verify',
-        text: 'Whether TED bills a **registration fee**, prorates a partial month, or allows a mid-year switch between the monthly contract and drop-in is not stated anywhere. The TED registration form and any handbook were not retrieved, so these are unlocated rather than confirmed absent.',
-      },
-      {
-        kind: 'verify',
-        text: '**Morning care, by contrast, is a confident null.** The page says TED "begins at dismissal time", and there is positive evidence for the reading: the school\'s summer camp sells before-care at $85/week, so Trinity knows how to price morning care and simply does not offer it during the school year.',
-      },
-      {
-        kind: 'gap',
-        text: 'The school day itself is not stated on the TED page — it says only "begins at dismissal time", and publishes no dismissal clock time per division. The 8:00 a.m. start on the rate card belongs to **full days when school is closed**, not to a regular morning.',
-      },
-    ],
+    // No flags on the cost card (user, 2026-09-16). Six notes on what TED does
+    // not publish — the "Estimated" hedge, no annual total, no late-pickup
+    // policy, no registration fee, the morning-care null, no dismissal time —
+    // read as caveats about the research rather than the programme. The rates
+    // and hours themselves are unchanged, and every note stays in
+    // source-material/after-school/trinity-episcopal/.
+    flags: [],
     sources: [
       {
         label: 'tescharlotte.org — Trinity Extended Day (hours, activities, staff; no dollar figures)',
@@ -219,20 +199,11 @@ export const trinityEpiscopal: AfterSchoolProgram = {
         fee: '—',
       },
     ],
-    flags: [
-      {
-        kind: 'gap',
-        text: '**Enrichment pricing is a confirmed null.** The page says the programs carry "an additional fee" and never states one — not a range, not a per-session rate, not a per-semester figure. It also publishes no day, no grade band and no instructor for any of the four.',
-      },
-      {
-        kind: 'verify',
-        text: 'The four names are the school\'s own **examples** — the sentence reads "Examples of enrichments include… and more". The real roster is larger and is not published.',
-      },
-      {
-        kind: 'gap',
-        text: 'No hour-by-hour rhythm is published for the afternoon: the school names the activities (homework time, art, board games, Fun Friday) without saying when any of them happens, and publishes no staff-to-child ratio for TED.',
-      },
-    ],
+    // No flags on this card (user, 2026-09-16) — three notes on what the TED
+    // page does not publish: enrichment pricing, that the four named
+    // enrichments are examples rather than the full roster, and the absent
+    // afternoon schedule and staff ratio. All stay in source-material/.
+    flags: [],
     sources: [
       {
         label: 'tescharlotte.org — Trinity Extended Day',
@@ -252,8 +223,7 @@ export const trinityEpiscopal: AfterSchoolProgram = {
   verdict: {
     headline:
       'The most deliberately affordable after-school program on this roster — income-scaled monthly rates, a reduced rate on every drop-in tier, and free half days for monthly families.',
-    subhead:
-      'What it does not give you is a morning, a published annual cost, or any idea what an enrichment costs.',
+    // No subhead (user, 2026-09-16) — it listed what TED does not publish.
     strengths: [
       '**Rates scale with household income** — $105 a month under $30,000, rising through $135 and $195 to $380 over $90,000. No other school in this set prices after-school care on ability to pay at all.',
       '**Every per-day tier has a reduced rate for families receiving financial support** — drop-in falls from $31 to $25, a full day from $72 to $45 (first child) and a half day from $51 to $30. The discount is not confined to the monthly contract.',
@@ -263,16 +233,12 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       '**Days when school is closed are covered** — TED runs 8:00 a.m. to 5:30 p.m. at $72/day — which several peers do not address at all.',
       '**The program has a stated purpose beyond supervision**: dedicated homework time, group projects, and the Trinity Honor Code explicitly extended past dismissal.',
     ],
-    watchouts: [
-      '**There is no before-school care.** TED begins at dismissal, and nothing covers the morning during the school year — notable because the school\'s own summer camp sells before-care at $85 a week.',
-      '**No annual cost is published, and none can be computed.** The school gives a monthly figure and never says how many months it bills, so a family cannot total a year from the public record.',
-      '**The school hedges its own monthly figure.** The rate table is headed "*Estimated* TED Monthly Cost", which is the school\'s word, not an interpretation.',
-      '**Enrichments cost extra and no price is published** — chess club, music lessons, karate and cheer club are named as examples, with "an additional fee" and no figure anywhere.',
-      '**Every dollar figure lives in a Google Doc, not on the TED page.** The program page itself carries no pricing at all, so a family researching normally may not find any of it.',
-      '**No late-pickup policy is published for TED** — no grace period, no per-minute charge, no removal rule. The summer camp publishes all three, which makes the silence here conspicuous rather than reassuring.',
-      '**No daily rhythm and no staff-to-child ratio** are published, so how much of the afternoon is homework versus free play is unknowable from outside.',
-      '**The income bands are wide at the top.** Everything over $90,000 pays the same $380, so a household just past the threshold pays the same as one at several times it.',
-    ],
+    // No watch-outs (user, 2026-09-16) — eight notes on what TED does not
+    // publish (no before-school care, no annual total, the "Estimated" hedge,
+    // unpriced enrichments, pricing living in a Google Doc, no late-pickup
+    // policy, no daily rhythm or staff ratio, wide top income band). The rates
+    // and the strengths above are the card. All stay in source-material/.
+    watchouts: [],
     checklist: [
       'How many months a year is the TED monthly rate billed, and what does a full school year actually cost?',
       'The rate table says "Estimated" — what is the actual charge, and what makes it vary?',

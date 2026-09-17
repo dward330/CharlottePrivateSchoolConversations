@@ -101,16 +101,20 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
         </div>
       </div>
 
-      {/* Division / honest-gap notes — younger divisions and login-gated rosters. */}
-      <div className="catalog-divisions">
-        {catalog.divisions.map((div) => (
-          <div key={div.label} className="catalog-division">
-            <span className="catalog-division-label">{div.label}</span>
-            <span className="catalog-division-text">{div.text}</span>
-            <span className="tag-outline catalog-division-tag">{div.tag}</span>
-          </div>
-        ))}
-      </div>
+      {/* Division / honest-gap notes — younger divisions and login-gated rosters.
+          Optional: a school that publishes none omits the block entirely rather
+          than shipping an empty bordered container (the zero-items rule). */}
+      {catalog.divisions && catalog.divisions.length > 0 && (
+        <div className="catalog-divisions">
+          {catalog.divisions.map((div) => (
+            <div key={div.label} className="catalog-division">
+              <span className="catalog-division-label">{div.label}</span>
+              <span className="catalog-division-text">{div.text}</span>
+              <span className="tag-outline catalog-division-tag">{div.tag}</span>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* The toggle now lives inside SourceRowRaw, which every area shares. */}
       <div className="catalog-foot">

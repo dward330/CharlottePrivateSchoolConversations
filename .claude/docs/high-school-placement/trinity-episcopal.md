@@ -526,7 +526,12 @@ graduates feed directly into eight of the high schools we hold dossiers on.
 
 ---
 
-## ⛔ The profile's COLLEGE list — recorded here, NOT for publication as college outcomes
+## ⛔ The profile's COLLEGE list — NEVER rendered. Settled 2026-09-16.
+
+> **Standing rule (user, 2026-09-16): no college card on a school that caps at 8th
+> grade.** Raised at review and ruled out — *"no college card for schools that cap at
+> 8th grade."* It applies to every PreK–8 school, not just this one. The list below is
+> transcribed for provenance completeness and renders nowhere in the app.
 
 The same PDF carries **"COLLEGE CHOICES (TES Classes of 2004-2022)"** — **160 entries**,
 **71 asterisked**, including Harvard, Stanford, MIT, Duke, Brown, Penn, Dartmouth,

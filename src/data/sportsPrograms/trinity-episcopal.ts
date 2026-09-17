@@ -44,10 +44,12 @@
 //
 // One structural note on this file: the SportsProgram type has no `flags` field
 // (flags are a College Support / After School concept), so the research file's
-// verify / discrepancy / gap items are carried in the cards' own prose slots —
-// the GCMSAA negative in 1a's subhead, the flag-football discrepancy in 1a's
-// footnote, and the confirmed nulls plus the Grady Smith "not found" in 1e's
-// `worthKnowing`.
+// verify / discrepancy / gap items had been carried in the cards' own prose
+// slots. Most of those were removed at review (2026-09-16) as apparatus — the
+// flag-football source conflict, the campus paragraph, the participation
+// qualifier and the whole `worthKnowing` null inventory. The GCMSAA negative
+// survives in 1a's subhead, because it prevents a wrong-school claim. Every
+// removed item is still in source-material/sports/trinity-episcopal/.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
@@ -66,7 +68,7 @@ export const trinityEpiscopal: SportsProgram = {
     headline:
       '7 sports across 10 season-teams, with no skill-based cuts — "If a student wants to play one of the sports we offer then we create that opportunity."',
     subhead:
-      'A K–8 middle school programme in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: "Play Hard, Play Smart, Play Together, and Have Fun". Selected results from the two seasons Trinity has published — including a first basketball championship in school history — are in the note beneath the board, along with the campus and the flag-football question.',
+      'A K–8 middle school programme in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: "Play Hard, Play Smart, Play Together, and Have Fun".',
     stats: [
       { value: '7', label: 'distinct sports offered' },
       { value: '10', label: 'season-teams across three seasons' },
@@ -103,8 +105,12 @@ export const trinityEpiscopal: SportsProgram = {
         ],
       },
     ],
+    // Trimmed to the RESULTS (user, 2026-09-16). Removed: the 90% participation
+    // qualifier, the flag-football three-way source conflict, and the campus /
+    // architect paragraph. These are Trinity's only published results and there
+    // is no `record` card to carry them (see the block below), so they stay.
     footnote:
-      'The participation figure is the school\'s own and carries its own qualifier: "Typically, 90% of the Middle School student body participates in our athletic program either in the fall, winter, or spring. Most, in fact, play all three seasons." — the seasonal clause is part of what the figure measures. SELECTED RESULTS — TWO PUBLISHED SEASONS, AND NOT A RECORD TABLE: Trinity has published exactly two seasons of results, Fall 2023 and Winter 2024, and nothing athletic since February 2024, so these are selected results rather than a record. All of them are Queen City Conference play; Trinity does not compete for an NCISAA state title. WINTER 2024 — "For the first time in school history, the Trinity 8th Grade boys\' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season." The title was clinched in a 54–23 victory at home over Carmel Christian. (The game was played Feb. 8, 2024; the school\'s post is dated Feb. 13.) FALL 2023 — the strongest single result Trinity publishes is its girls cross country team: "conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference." Alongside it: the 7th/8th Grade boys soccer team won the Queen City Conference title and the tournament championship, both; the 8th Grade volleyball team tied for first in the conference; and boys cross country placed third, with 3 runners in the top 15 at the championship and 1 named all-conference. The school also named its 6th/7th Grade volleyball and soccer teams and its girls tennis team without publishing results for them. FLAG FOOTBALL, A THREE-WAY SOURCE CONFLICT: the 2026-27 School Profile PDF lists flag football in BOTH fall and spring; the 2025-26 profile omits it entirely; and the live athletics page does not mention it at all. It appears to be new for 2026-27 with the athletics page not yet updated — so the counts above are the athletics page\'s 7 sports / 10 season-teams, and flag football is reported here rather than folded in. Ask on a tour whether it is running. THE CAMPUS: Trinity\'s athletics happen on a 4.5-acre First Ward site holding 106,500 sq ft of building, developed by FMK Architects in three phases — Phase I classrooms, offices and kitchen/cafeteria; Phase II the gymnasium; Phase III chapel, library and commons. The on-campus gymnasium is the only athletics facility Trinity names anywhere: no field, track, cross-country course or golf venue is published, which is why this school has no facilities card of its own.',
+      'Selected results, not a record — Trinity has published exactly two seasons, Fall 2023 and Winter 2024, all of it Queen City Conference play. WINTER 2024: "For the first time in school history, the Trinity 8th Grade boys\' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season." The title was clinched in a 54–23 win at home over Carmel Christian. FALL 2023: the girls cross country team was "conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference." Alongside it, the 7th/8th Grade boys soccer team won both the conference title and the tournament championship; the 8th Grade volleyball team tied for first; and boys cross country placed third, with 3 runners in the top 15 and 1 named all-conference.',
     sources: [
       { label: 'tescharlotte.org — Athletics (under /community/, not /athletics/)', url: ATHLETICS },
       { label: '2026-27 School Profile (PDF) — flag football listed', url: PROFILE_2627 },
@@ -191,8 +197,12 @@ export const trinityEpiscopal: SportsProgram = {
         toVerify: true,
       },
     ],
-    worthKnowing:
-      'The full published coaching roster is those two names — Trinity names no other coach anywhere in its athletics material, so per-sport coaching is a genuine null rather than an unfinished search. It sits inside a wider set of deliberate nulls, all confirmed absent across the athletics page, both School Profile PDFs and all 51 blog posts: no win-loss records or series, no schedules, no rosters, no team levels (teams are by grade band, not A/B or varsity/JV), no outdoor venue for any sport, and no athletic trainer — David Martin is the only athletics staff member listed at all. The Queen City Conference itself has no web presence, so its member roster cannot be published either; the only members inferable from Trinity\'s own material are Trinity and Carmel Christian, an opponent. A detail worth keeping for texture: after the championship the team presented the two coaches with a clay statue of themselves, made by team members in art class. One name is deliberately NOT carried here: an earlier sweep recorded a Grady Smith as coach of 8th-grade girls basketball, retired June 2023, but this research pass could not locate him in any athletics source — he appears in a June 2023 staff-retirement post among three retiring staff with no coaching role attributed. That is "not found", which is not the same as confirmed absent, so it is neither shipped as an attribution nor recorded as a verified null.',
+    // No `worthKnowing` (user, 2026-09-16) — it inventoried confirmed nulls
+    // (no records, schedules, rosters, venues or trainer), the QCC's lack of a
+    // web presence, and a "not found" coach the pass could not verify. All of it
+    // remains in source-material/sports/trinity-episcopal/.
+    // ⚠️ The Grady Smith attribution stays OUT: "not found" is not the same as
+    // confirmed absent, so it is neither shipped nor recorded as a verified null.
     sources: [
       {
         label: 'tescharlotte.org — "Wildcats Win Historic Basketball Championship", Feb 13 2024',

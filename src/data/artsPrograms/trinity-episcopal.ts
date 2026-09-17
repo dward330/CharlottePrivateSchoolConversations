@@ -79,14 +79,11 @@ export const trinityEpiscopal: ArtsProgram = {
   ladder: {
     headline:
       'General music for every child through 4th grade, then a single choice — chorus or band — that carries a student to Advanced Band or Advanced Choir by 8th.',
-    subhead:
-      'A K–8 ladder, so it ends where most schools on this roster are only starting: there is no Upper School rung, no AP arts course and no auditioned senior ensemble. What it has instead is universal participation early and a named, choice-based studio pedagogy running the whole way up.',
-    stats: [
-      { value: 'K–8', label: 'continuous arts program' },
-      { value: '2', label: 'ensembles to choose from, starting in 5th' },
-      { value: 'TAB', label: 'Teaching Artistic Behaviors — studio pedagogy' },
-      { value: '5th', label: 'grade the ensemble choice begins' },
-    ],
+    // No subhead and no stat strip (user, 2026-09-16). The subhead compared
+    // Trinity against the K-12 schools on the roster — absent rungs a K-8 school
+    // is not missing — and the four tiles restated the headline (K–8, two
+    // ensembles, the 5th-grade choice), with TAB named and explained in the
+    // cards below. Both added emphasis rather than information.
     divisions: [
       {
         name: 'Lower School',
@@ -127,16 +124,15 @@ export const trinityEpiscopal: ArtsProgram = {
       },
       {
         label: 'An international exchange',
-        text: 'Fifth grade runs an art exchange with students in Ghana through the nonprofit Children Inspiring Hope (CIH), begun in 2023-24 and in its second consecutive year as of October 2024 — CIH\'s first new partner school since the pandemic. Led by Visual Arts Director Jen Rankey-Zona with CIH founder Amy Gaylor Nedriga. No Ghanaian partner school is named in the school\'s account.',
+        text: 'Fifth grade runs an art exchange with students in Ghana through the nonprofit Children Inspiring Hope (CIH), begun in 2023-24 and in its second consecutive year as of October 2024 — CIH\'s first new partner school since the pandemic. Led by Visual Arts Director Jen Rankey-Zona with CIH founder Amy Gaylor Nedriga.',
       },
       {
         label: 'The wording shift, preserved',
-        text: 'The school writes "chorus" for the 5th-grade ensemble and "choir" for the 6th, on two different pages. Both are quoted as published rather than normalized to one word — worth a question on a tour, since it is unclear whether it marks two different ensembles or two spellings of one.',
+        text: 'The school writes "chorus" for the 5th-grade ensemble and "choir" for the 6th, on two different pages.',
       },
-      {
-        label: 'What is not published',
-        text: 'No arts facility is named anywhere on this site: auditorium, black box and art gallery all return zero hits across the school\'s 98 published pages. The only named campus facility is the IDEA (STEM) Lab, which is not an arts space; chapel and performance gatherings happen in "our Gym" and Jamie\'s Courtyard. Open houses are held in "Trinity\'s Center for Community and the Arts" — the only arts-adjacent name on the site, and it is not described as a performance venue.',
-      },
+      // No "What is not published" row (user, 2026-09-16) — it inventoried
+      // absent facility names (zero-hit searches, the non-arts STEM lab) rather
+      // than describing the arts program. Still in source-material/.
     ],
     sources: [
       { label: 'tescharlotte.org — Lower School Enrichments', url: LS_ENRICH },
@@ -149,8 +145,8 @@ export const trinityEpiscopal: ArtsProgram = {
   theatre: {
     headline:
       'A dramatic or musical performance at every grade level in Lower School, plus a drama elective and a winter/spring production in Middle School.',
-    subhead:
-      'Trinity is K–8, so there is no awards ledger on this card and there should never be one: the regional high-school musical-theatre circuit is not open to a middle school. What exists instead is a full-length video record of the school\'s own productions, published by the school itself.',
+    // No subhead (user, 2026-09-16) — it explained why a K-8 school has no
+    // awards ledger, which is apparatus about the card rather than the program.
     seasonTitle: 'The season — as the school describes it',
     season: [
       {
@@ -166,13 +162,11 @@ export const trinityEpiscopal: ArtsProgram = {
           '"Middle School students may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical." The most recent named production is Emma - A Pop Musical (Feb 2025, 69:43). Earlier: Spring Arts Fest 2020: Selections from Fiddler on the Roof (May 2020, 10:48).',
       },
     ],
-    whoRunsIt:
-      'Trinity does not publish a theatre director, a technical director or a tech-theatre track, and no production staff is credited on any of its pages — so who directs, and whether stagecraft exists as a second track for a student who wants the theatre without the stage, are both open questions for a tour.',
-    venueNote:
-      'No performance venue is named. The school publishes no auditorium, black box or theatre of any kind — chapel and performance gatherings happen in "our Gym" and Jamie\'s Courtyard. There is also no ticketing, season calendar or festival participation on the record. What the school does publish is unusually good in one specific way: full-length video of the productions themselves, on its own Vimeo channel, which is a better answer to "what is the standard here?" than a cast list would be.',
-    ledgerTitle: 'Why there is no awards ledger here',
-    honestContext:
-      'Two sources disagree about the production slate and the disagreement is left standing rather than resolved. The 2026-27 School Profile PDF describes a "K-8 Performing Arts Program: 4th Grade Musical; 5th Grade Shakespeare Review; Middle School fall play, winter musical, and choir and band concerts". The live web pages describe 1st Grade Fairy Tale Plays and 5th Grade Shakespeare in Lower School, and a winter play or spring musical in Middle School. So the PDF says 4th grade and a fall play plus a winter musical; the web pages say 1st grade and a winter play plus a spring musical. The Vimeo record supports BOTH — 4th Grade "Aladdin" (2021) matches the PDF, while 1st Grade Fairy Tale Plays (2025) and Shakespeare 2025 match the web pages. The reading: the ensemble ladder is stable and is cited from the web pages, but the production slate varies by year and should not be read as a fixed annual calendar. Ask which grades are staging what in the year you are applying for. Separately: this card carries no year-by-year awards ledger because there is no circuit to be judged on. The regional musical-theatre awards that the high schools on this roster compete in are open to high schools only, and Trinity ends at 8th grade. Its genuine external recognition is in the visual arts, and it is on card 1d rather than being stretched to fill this one.',
+    // No whoRunsIt, venueNote, ledgerTitle or honestContext (user, 2026-09-16).
+    // All four described the RESEARCH rather than the productions: unpublished
+    // staff credits, absent venues, two sources disagreeing about the slate, and
+    // why a K-8 school has no awards circuit. The season above and the Vimeo
+    // record are the card. Every detail remains in source-material/.
     sources: [
       { label: 'tescharlotte.org — Lower School Enrichments', url: LS_ENRICH },
       { label: 'tescharlotte.org — Middle School Enrichments', url: MS_ENRICH },
@@ -196,8 +190,10 @@ export const trinityEpiscopal: ArtsProgram = {
   music: {
     headline:
       'Two ensembles, one choice, no audition — chorus or band from 5th grade, continuing as Advanced Band or Advanced Choir in 7th and 8th.',
+    // The comparative opening (no honors pipeline, the circuits a K-8 school
+    // cannot enter) removed 2026-09-16; what remains describes the program.
     subhead:
-      'There is no honors pipeline to describe here, and that is a property of a K–8 school rather than a gap: the all-state, all-district and honor-society circuits the high schools on this roster feed are not open to middle schoolers. What Trinity offers is an ensemble every interested student can join and a performance calendar that reaches outside the building.',
+      'An ensemble every interested student can join, and a performance calendar that reaches outside the building.',
     boardTitle: 'The ensemble board — how a student gets in',
     tracks: [
       {
@@ -217,8 +213,9 @@ export const trinityEpiscopal: ArtsProgram = {
         ensembles: ['Advanced Band', 'Advanced Choir'],
       },
     ],
-    boardNote:
-      'No ensemble at Trinity is described as auditioned — at every rung the published wording is a choice between two ensembles, not a competition for a seat, which matches the athletic department\'s stated no-cuts posture. Note the school\'s own wording shift, preserved as published: "chorus" in 5th grade, "choir" in 6th. NOT OFFERED: strings or orchestra. Neither exists — the terms return zero hits across all 98 of the school\'s published pages and the 2026-27 School Profile PDF. A page saying otherwise is sometimes still surfaced by search engines; it 404s, and its last archived capture is 2021.',
+    // No boardNote (user, 2026-09-16) — the no-audition point is already carried
+    // by the ladder rows below ("No audition, no prerequisite"), and the rest was
+    // apparatus: zero-hit searches for strings/orchestra and a 404'd page.
     ladderTitle: 'Where the ensembles actually perform',
     ladder: [
       {
@@ -238,8 +235,8 @@ export const trinityEpiscopal: ArtsProgram = {
         text: 'The school posts full concerts to its own Vimeo channel: 5th and 6th Grade Band Concert 11-16-21 (21:48) and 5th-6th Grade Fall Choir Performance - Final (Oct 2021, 33:37), alongside smaller pieces such as TES Presents: Crowded Table (2021), Kindergarten Students Present: For the Beauty of the Earth (2020), Love Train (2020), TES presents: Be A Light (2021) and What the World Needs Now (2021).',
       },
     ],
-    ladderNote:
-      'What is not published: no music faculty member is named, no ensemble size or participation rate is given, no named outside venue, and no festival, adjudication or honors selection of any kind. For a K–8 school the absence of an honors circuit is expected; the absence of a named music teacher is simply not published, and is worth asking about.',
+    // No ladderNote (user, 2026-09-16) — an inventory of what the school does
+    // not publish (faculty names, ensemble sizes, festival selection).
     sources: [
       { label: 'tescharlotte.org — Lower School Enrichments', url: LS_ENRICH },
       { label: 'tescharlotte.org — Middle School Enrichments', url: MS_ENRICH },
@@ -260,7 +257,10 @@ export const trinityEpiscopal: ArtsProgram = {
     headline:
       'A named choice-based pedagogy — Teaching Artistic Behaviors — and the one area where Trinity wins things outside the building.',
     subhead:
-      'Student work reached two external Charlotte venues in 2026, the Visual Arts Director took a 2025 CATO Excellence in Teaching Award as one of six educators recognized across the Charlotte area, and 5th grade has run an art exchange with students in Ghana since 2023-24. Student names are deliberately omitted throughout — these are K–8 minors, and the recognition is reported without the child.',
+      'Student work reached two external Charlotte venues in 2026, the Visual Arts Director took a 2025 CATO Excellence in Teaching Award as one of six educators recognized across the Charlotte area, and 5th grade has run an art exchange with students in Ghana since 2023-24.',
+    // NOTE: the no-minor-names rule still applies to this card — the sentence
+    // that STATED it was removed 2026-09-16 as apparatus, not the practice.
+    // Never add a student's name here; report the recognition, not the child.
     mediaTitle: 'Studio media and how the room works',
     media: [
       { name: 'Painting', detail: 'named in the school\'s own description of the centers' },
@@ -271,14 +271,18 @@ export const trinityEpiscopal: ArtsProgram = {
         detail: 'each stocked with instructional information, menus, resources, materials and tools; students move independently between them',
       },
     ],
-    pathTitle: 'The course path',
+    // No `pathTitle`: it was byte-identical to the shared sections.coursePath
+    // chrome, and a lifted heading pins that heading to English in all ten
+    // locales. Deleted 2026-09-16, as the other schools' copies already were.
     path: [
       { name: 'K–4 art, on the TAB model' },
       { name: 'Middle School art' },
       { name: 'Studio Art (7–8)', terminal: true },
     ],
+    // Trimmed to the school's own words (user, 2026-09-16); the removed opening
+    // described how the rung was NAMED and what catalog is not published.
     pathNote:
-      'The terminal rung is named only indirectly — "Studio Art students" is how the school describes the 7th and 8th graders who exhibited at the VAPA Center. No course catalog, sequence or prerequisite is published, and a K–8 school has no AP rung. The pedagogy is the published thing here, not the course list: "Trinity\'s art curriculum follows the pedagogy of Teaching Artistic Behaviors (TAB), a methodology that is student-focused, choice-based, and teacher-facilitated."',
+      '"Trinity\'s art curriculum follows the pedagogy of Teaching Artistic Behaviors (TAB), a methodology that is student-focused, choice-based, and teacher-facilitated."',
     exhibitsTitle: 'Where the work goes public — and what it has won',
     exhibits: [
       {
@@ -312,8 +316,12 @@ export const trinityEpiscopal: ArtsProgram = {
           'Fifth grade runs an ongoing exchange with students in Ghana through the nonprofit Children Inspiring Hope, in its second consecutive year as of October 2024 and CIH\'s first new partner school since the pandemic. Led by Jen Rankey-Zona with CIH founder Amy Gaylor Nedriga; two exchanges are described, one on shared humanity, generosity and kindness, and one on water as a global resource. No Ghanaian partner school is named.',
       },
     ],
+    // Trimmed to the faculty fact (user, 2026-09-16). What went: the statement
+    // of the no-minor-names policy, a post-mortem on an earlier sweep's false
+    // negative, and a Lower/Middle spelling variance in the TAB passage.
+    // ⚠️ The no-minor-names POLICY still applies — never name a student here.
     footnote:
-      'Faculty: Jen Rankey-Zona is Visual Arts Director and a founding teacher of the school; Shelby Hawk is the art teacher — "I am truly so honored to teach these wonderful artists." STUDENT NAMES ARE OMITTED BY POLICY: every award above was won by a named K–8 student, and those names are deliberately not recorded. The recognition — the award, the venue, the date, the count and the denominator — is what has research value; the identity of a minor does not. Adults are named in their professional capacity, as they are for staff across this roster. One honest note on how this material was found: an earlier sweep of this school recorded "no awards or recognition of any kind" and "no gallery or exhibit programme" as confirmed absent. Both were wrong. They were established from the two Enrichments pages, which genuinely carry no awards content — but Trinity\'s arts recognition lives in its blog, which that sweep did not enumerate. A search scoped to the obvious pages produced a confident false negative. Finally, the identical TAB passage appears on both the Lower and Middle School pages with a small spelling difference preserved here: Lower School writes "mini-art studios" and "art-making", Middle School writes "mini art studios" and "art making".',
+      'Faculty: Jen Rankey-Zona is Visual Arts Director and a founding teacher of the school; Shelby Hawk is the art teacher — "I am truly so honored to teach these wonderful artists."',
     sources: [
       {
         label: 'tescharlotte.org — "Trinity Artists Honored in Local Exhibits", March 7 2026',
@@ -336,35 +344,13 @@ export const trinityEpiscopal: ArtsProgram = {
   verdict: {
     headline:
       'A real arts programme for a K–8 school, strongest in the studio: a named pedagogy, two external exhibitions in one year, an award-winning director, and an international exchange.',
-    subhead:
-      'The open questions are all about what is not published rather than what is missing — no named music teacher, no performance venue, no course sequence, and a production slate that two of the school\'s own sources describe differently.',
-    holdsUpTitle: 'Why it holds up',
-    holdsUp: [
-      {
-        label: 'The studio pedagogy is named and consistent',
-        text: 'Teaching Artistic Behaviors is a real, identifiable choice-based methodology, described in identical terms on both the Lower and Middle School pages, and worked in centers or mini-art studios that students move between independently. Most schools this size describe art as a subject; Trinity describes a method.',
-      },
-      {
-        label: 'The external recognition is recent, plural and verifiable',
-        text: 'Two different Charlotte venues in a single year — six Lower School students at the Carolina Theatre Youth Art Month exhibition, and seventeen 7th and 8th grade Studio Art students at the VAPA Center for "Deeply Rooted", on Charlotte\'s Black history — plus two individual stipend awards. Each carries a count, a venue and a date.',
-      },
-      {
-        label: 'The faculty recognition is external and competitive',
-        text: 'Visual Arts Director Jen Rankey-Zona, a founding teacher, won a 2025 CATO Excellence in Teaching Award from the Arts & Science Council as one of six educators recognized across the Charlotte area — a regional award with a denominator, not an in-house one.',
-      },
-      {
-        label: 'Every student gets an ensemble',
-        text: 'General music for all of K–4, then a choice of two ensembles from 5th grade that continues as Advanced Band or Advanced Choir through 8th. Nothing in the published wording is auditioned, so the programme is a participation ladder rather than a selection funnel.',
-      },
-      {
-        label: 'The school publishes the work itself',
-        text: 'Full-length productions and concerts on its own Vimeo channel — Shakespeare 2025 at 45:32, Emma - A Pop Musical at 69:43, the 1st Grade Fairy Tale Plays at 28:37, whole band and choir concerts. A parent can watch the actual standard before visiting, which is a better answer than any description.',
-      },
-      {
-        label: 'The international exchange is sustained, not a one-off',
-        text: 'The 5th-grade art exchange with students in Ghana through Children Inspiring Hope began in 2023-24 and was in its second consecutive year as of October 2024 — and Trinity was CIH\'s first new partner school since the pandemic.',
-      },
-    ],
+    // No subhead (user, 2026-09-16) — it summarised what the school does not
+    // publish, and pointed at gap notes this card no longer carries.
+    // No `holdsUp` (user, 2026-09-16) — the six checkmark rows restated the
+    // cards above (the TAB pedagogy, the two exhibitions, the CATO award, the
+    // ensemble ladder, the Vimeo record, the Ghana exchange) as a summary.
+    // Per-school heading: this panel is Trinity's visit checklist.
+    askTitle: 'Visit Checklist',
     ask: [
       'Where do the plays and concerts actually happen? No auditorium, black box or theatre appears anywhere on your site — chapel and performances are described as being in "our Gym" and Jamie\'s Courtyard. What is "Trinity\'s Center for Community and the Arts", and is it a performance space?',
       'Who teaches music? No music faculty member is named anywhere on the site, though the Visual Arts Director and the art teacher both are.',

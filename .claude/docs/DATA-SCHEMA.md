@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**12 schools × 10 research areas**, 429 ingested research documents.
+**12 schools × 10 research areas**, 427 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 | 1 | 1 | 2 |
-| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 | 4 |
+| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 | 2 |
 
 ## 2. Research-area sections (prose layer)
 
@@ -180,8 +180,9 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `in-depth-report` | In-Depth Report | 12/12 | 7 |
+| `in-depth-report` | In-Depth Report | 11/12 | 4 |
 | `tuition-history` | Tuition History & Sources | 5/12 | 2 |
+| `not-rendered` ⚠️ | not-rendered | 1/12 | 1 |
 
 > ⚠️ **Unmatched subtopics.** These keys were not produced by a `RULES` entry — they
 > were slugified from a raw subtopic that matched no rule, so each is effectively an
@@ -189,6 +190,7 @@ research dossier folds in behind a structured card.
 > `src/lib/metrics.ts`, or get the new card approved. `npm run check:metrics` reports
 > the same finding.
 >
+> - `financial-aid-tuition` :: `not-rendered` — "not-rendered" (1/12 schools)
 > - `sports` :: `podcast-episode-33-saleh-athletic-center` — "Podcast Episode 33 Saleh Athletic Center" (1/12 schools)
 
 ## 3. Structured cards (typed layer)
@@ -318,7 +320,7 @@ Root type `ArtsProgram` · registry `ARTS_CARDS` · `src/data/artsProgram.ts` ·
 
 `EnrichmentRow` — `label`, `text`
 
-`ArtsLadder` — `headline`, `subhead?`, `stats`, `divisions`, `enrichmentTitle?`, `enrichment`, `photo?`, `sources`
+`ArtsLadder` — `headline`, `subhead?`, `stats?`, `divisions`, `enrichmentTitle?`, `enrichment`, `photo?`, `sources`
 
 `SeasonSlot` — `season`, `kind`, `detail`
 
@@ -340,7 +342,7 @@ Root type `ArtsProgram` · registry `ARTS_CARDS` · `src/data/artsProgram.ts` ·
 
 `VisualArts` — `headline`, `subhead?`, `mediaTitle?`, `media`, `pathTitle?`, `path`, `pathNote?`, `exhibitsTitle?`, `exhibits`, `footnote?`, `photo?`, `sources`
 
-`Verdict` — `headline`, `subhead?`, `holdsUpTitle?`, `holdsUp`, `ask`, `sources`
+`Verdict` — `headline`, `subhead?`, `holdsUpTitle?`, `holdsUp?`, `askTitle?`, `ask`, `sources`
 
 `ArtsProgram` — `ladder?`, `theatre?`, `music?`, `visual?`, `verdict?`
 
@@ -730,7 +732,7 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 | `outcomes` | Where Graduates Go | Does this school actually place kids well? |
 | `placement` | The Placement Program | Who helps my kid through this, and when? |
 | `destinations` | Where They Land | Which specific high schools do kids go to? |
-| `verdict` | Verdict & Visit Checklist | What should I probe on the tour? |
+| `verdict` | Visit Checklist | What should I probe on the tour? |
 
 **Schools with data:** 1/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `providence-day`
 
@@ -936,7 +938,7 @@ The full expandable club list behind the Student Clubs cards.
 | `verdictHint` | `string` | yes |
 | `categories` | `CatalogCategory[]` | yes |
 | `clubs` | `CatalogClub[]` | yes |
-| `divisions` | `CatalogDivision[]` | yes |
+| `divisions` | `CatalogDivision[]` |  |
 | `source` | `string` | yes |
 | `countNoun` | `string` |  |
 

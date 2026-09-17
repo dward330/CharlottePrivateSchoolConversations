@@ -90,7 +90,8 @@ export type ArtsLadder = {
   /** Muted continuation of the headline. */
   subhead?: string
   /** Four-up stat strip above the ladder. */
-  stats: ArtsStat[]
+  /** Optional — omit rather than passing []; the strip then does not render. */
+  stats?: ArtsStat[]
   divisions: Division[]
   /** Heading over the enrichment rows, e.g. "The enrichment layer". */
   enrichmentTitle?: string
@@ -239,8 +240,13 @@ export type Verdict = {
   headline: string
   subhead?: string
   holdsUpTitle?: string
-  /** The "why it holds up" checkmark rows. */
-  holdsUp: { label: string; text: string }[]
+  /** The "why it holds up" checkmark rows. Optional — omit rather than passing
+   *  [], and the whole column does not render. */
+  holdsUp?: { label: string; text: string }[]
+  /** Per-school heading for the ask panel, replacing the shared "Ask on the
+   *  tour" chrome. A research finding rather than chrome, by the same test as
+   *  `holdsUpTitle`, so it lives here and is translated via the prose overlay. */
+  askTitle?: string
   /** Tickable "ask on the tour" questions. */
   ask: string[]
   sources: ArtsSource[]

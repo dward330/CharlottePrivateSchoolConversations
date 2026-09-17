@@ -133,17 +133,28 @@ function Stepper({ band }: { band: AdBand }) {
           <span className="ad-step-n" aria-hidden="true">
             {i + 1}
           </span>
-          <div className="ad-step-body">
-            <div className="ad-step-head">
+          {/* Each step's detail collapses behind its own title (user,
+              2026-09-16). What stays visible is the spine a reader scans — the
+              number, the step title and its date tag — while the paragraph
+              explaining it opens on demand. The <details> sits INSIDE
+              .ad-step-body rather than replacing the <li>, so the numbered
+              square and its hairline joiner are untouched. */}
+          <details className="ad-step-body">
+            <summary className="ad-step-head">
               <span className="ad-step-title">{s.title}</span>
               <span className={s.tagKind === 'accent' ? 'tag-accent' : 'tag-outline'}>
                 {s.tag}
               </span>
-            </div>
+              <span className="plusmark">
+                <RuleIcon size={15}>
+                  <path d="M12 5v14M5 12h14" />
+                </RuleIcon>
+              </span>
+            </summary>
             <p className="ad-step-detail">
               <Emphasized text={s.detail} />
             </p>
-          </div>
+          </details>
         </li>
       ))}
     </ol>
@@ -317,13 +328,28 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         </a>
       </div>
 
-      <div className="ad-compare">
-        <div className="ad-head">
+      {/* Collapsed by default (user, 2026-09-16). The band table is the longest
+          thing on the card — nine rows of prose cells — and it answers a
+          question a reader only asks once they know which band they are in, so
+          it reads better as something opened deliberately than as a wall passed
+          on the way to the contacts. Kicker and title are unchanged and stay in
+          the locale catalogs, so this costs no new strings in any locale.
+
+          A plain <details>, matching the research cards: no JS, no controlled
+          state, and the browser's own find-in-page opens it. The @media print
+          rule in index.css forces every panel open, so a print-out is unchanged. */}
+      <details className="ad-compare">
+        <summary className="ad-head">
           <span className="ad-head-kicker">{data.comparison.kicker}</span>
           <h4 className="ad-head-title">{data.comparison.title}</h4>
-        </div>
+          <span className="plusmark">
+            <RuleIcon size={16}>
+              <path d="M12 5v14M5 12h14" />
+            </RuleIcon>
+          </span>
+        </summary>
         <ComparisonTable guide={data} />
-      </div>
+      </details>
 
       <div className="ad-contacts">
         {/* Kicker, title and address share ONE baseline row, per the design —

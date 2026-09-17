@@ -75,8 +75,9 @@ export const trinityEpiscopal: ClubsProgram = {
   affinity: {
     headline:
       'Five named student affinity groups, each with its grade range and a published purpose statement, plus four parent groups — under a Director of Diversity, Equity, and Belonging.',
-    subhead:
-      'Unusually well populated for a K–8 school: the groups start in Kindergarten, and the school publishes what each one is actually for rather than only its name.',
+    // No subhead: the removed line editorialised ("unusually well populated")
+    // rather than adding a fact, and the headline already carries the count,
+    // the grade ranges and the published purpose statements.
     umbrella: {
       name: 'Diversity, Equity, and Belonging',
       detail:
@@ -135,10 +136,6 @@ export const trinityEpiscopal: ClubsProgram = {
       'Ayeola Elias is Director of Diversity, Equity, and Belonging. No student diversity leadership council is published, and no attendance at a national student diversity conference appears anywhere on the site — which is consistent with a K–8 school, where those conferences are pitched at high schoolers.',
     flags: [
       {
-        kind: 'not-a-club',
-        text: '**12 Tribes of Trinity is an edge case, filed here because the school files it here.** It appears on the affinity-groups page, but its own description is about community-building and the Honor Code rather than a shared identity, and the Lower School enrichments page describes it as co-ed groups spanning grades 3–5, each led by two adults — a house or advisory system rather than an identity group.',
-      },
-      {
         kind: 'count',
         text: '**Invisible Differences is a PARENT group, not a student club.** The affinity-groups page lists it among the four parent groups; the 2026-27 School Profile lists it among the student clubs. The affinity page is the more specific source and is followed here — so the student roster is five groups, not six.',
       },
@@ -184,14 +181,11 @@ export const trinityEpiscopal: ClubsProgram = {
         source: { label: 'tescharlotte.org — the 8th grade in Washington, DC', url: DC_TRIP },
       },
     ],
-    footnoteTitle: 'One measured outcome',
-    footnote:
-      'The programme is described rather than counted almost everywhere, which makes the one published number worth carrying: **954 pounds of food** collected for Nourish Up in November 2024, through the food drive grade 1 leads. No service-hour requirement, total or per-student average is published anywhere on the site.',
+    // No footnote and no "not a club" flag (user, 2026-09-16). The 954-pounds
+    // food-drive figure and the curricular-not-extracurricular framing are both
+    // still in source-material/ and in the sources below; they read as apparatus
+    // beside the grade partnerships themselves.
     flags: [
-      {
-        kind: 'not-a-club',
-        text: '**None of this is a club.** Every partnership is attached to a grade level and to that grade’s curriculum, so a Trinity student does not join it — they arrive in the grade and it is theirs for the year. The 8th-grade Washington trip is the capstone of the Social Issues Seminar, a weekly enrichment class, which makes even the advocacy trip curricular rather than extracurricular.',
-      },
       {
         kind: 'gap',
         text: 'The school’s own copy spells the same partner two ways and names the grade-3 partner twice: **"Nourish Up"** in grades K and 1 but **"NourishUp"** in grade 6, and grade 3 is **headed "Roof Above"** while its body says **"Urban Ministry of Charlotte" / "Urban Ministry Center"**. Roof Above is the renamed organization. Both spellings are reproduced as published rather than normalized.',
@@ -232,7 +226,7 @@ export const trinityEpiscopal: ClubsProgram = {
         feedsFrom: 'the whole school',
       },
     ],
-    adjacentTitle: 'Not a society — the Honor Code itself',
+    adjacentTitle: 'The Honor Code itself',
     adjacent: [
       {
         label: 'Written by students, 2002',

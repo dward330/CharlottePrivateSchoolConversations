@@ -561,7 +561,9 @@ const TRINITY_EPISCOPAL: ClubClusters = {
       oneLiner: 'Odyssey of the Mind, Creative Writing, Climate Justice, Monday Math Mania, Radagast Rabies',
       evidence: 'reported',
       evidenceLabel: 'Single-source',
-      note: 'These five are named in the 2026-27 School Profile’s club list and nowhere else — each returns zero hits across the rest of the site, and no description, advisor, meeting time or competition result is published for any of them. Odyssey of the Mind is a national creative-problem-solving competition elsewhere, but no Trinity participation or result is published, so nothing competitive is claimed here. The 2025-26 profile additionally listed MathCats and Book Club; both are gone from the 26-27 edition.',
+      // Zero-hit search framing removed 2026-09-16 (apparatus); the substantive
+      // points — no competitive claim, and the two dropped clubs — remain.
+      note: 'Odyssey of the Mind is a national creative-problem-solving competition elsewhere, but no Trinity participation or result is published, so nothing competitive is claimed here. The 2025-26 profile additionally listed MathCats and Book Club; both are gone from the 26-27 edition.',
       source: 'tescharlotte.org — 2026-27 School Profile (PDF)',
     },
   ],

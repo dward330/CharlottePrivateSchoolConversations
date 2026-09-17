@@ -530,14 +530,13 @@ export function DestinationsBody({ data }: { data: Destinations }) {
         <CategoryBlock key={cat.key} cat={cat} />
       ))}
 
-      <Note>
-        <strong>{t('highSchoolPlacement.noRankings')}</strong>{' '}
-        {t('highSchoolPlacement.noRankingsText')}
-      </Note>
-      <Note>
-        <strong>{t('highSchoolPlacement.acceptanceNotMatriculation')}</strong>{' '}
-        {t('highSchoolPlacement.destinationsMatriculationText')}
-      </Note>
+      {/* The NO RANKINGS and ACCEPTANCE ≠ MATRICULATION notes were removed at
+          review (user, 2026-09-16) — standing caveats about how to read the
+          list rather than facts about the school, and they printed under every
+          destinations card unconditionally. The keys stay in all ten catalogs
+          (highSchoolPlacement.noRankings / .acceptanceNotMatriculation and their
+          *Text siblings) so restoring them needs no translation work. Both
+          distinctions remain in the research record. */}
 
       <Flags flags={data.flags} />
       <SourceRow sources={data.sources} className="cs-src" />

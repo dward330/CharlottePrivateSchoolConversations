@@ -101,8 +101,17 @@ export const PROSE_KEYS = new Set([
   // prose. Five siblings that were byte-identical to their fallback
   // (pathTitle, holdsUpTitle, adjacentTitle, and both checklistTitles) were
   // DELETED from the data rather than classified — a lifted heading pins that
-  // heading to English in every locale. artsProgram's `askTitle` was deleted
-  // too: the type declared it but no component ever read it.
+  // heading to English in every locale.
+  //
+  // `askTitle` is BACK, and for the opposite reason to its 2026-08-18 deletion.
+  // It was dropped then because the type declared it but no component read it.
+  // It is now read by ArtsProgram's VerdictBody (2026-09-16) and Trinity gives
+  // it a genuinely divergent value — "Visit Checklist" against the shared
+  // "Ask on the tour" — so it passes the uniform test as a research finding and
+  // belongs here. A school that does NOT override it must leave the field off,
+  // exactly as before; a value byte-identical to the fallback is a lifted
+  // heading and should be deleted rather than classified.
+  'askTitle',
   'boardTitle', 'exhibitsTitle', 'strengthsTitle', 'watchoutsTitle',
   'reachTitle', 'bucketsTitle', 'scholarshipsTitle', 'supportTitle',
   'middleTitle',

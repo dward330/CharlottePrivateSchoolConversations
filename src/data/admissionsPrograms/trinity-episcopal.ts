@@ -47,14 +47,19 @@
 // date; February 1, 2027 is both the K supporting-materials deadline and the
 // prospective-family financial-aid deadline. Both are correct as published.
 //
-// THREE SCHOOL-SIDE ERRORS ARE PRESERVED AND FLAGGED, NOT SILENTLY FIXED — they
-// ride in the bands' watch-outs, because this card has no flags array:
+// THREE SCHOOL-SIDE ERRORS ARE RECORDED HERE. Only the third is flagged to the
+// reader, in the bands' watch-outs (this card has no flags array). The first two
+// concern the SAME low-stakes event and were judged not worth a watch-out each —
+// the user removed that card 2026-09-16 as more alarming than the facts warrant.
+// Both remain documented here and in source-material; do not re-add the card
+// without asking, and do not "fix" the school's copy either:
 //   1. The Dec 1, 2026 open house is labelled "Thursday". Dec 1 2026 is a
 //      TUESDAY. Sept 29 and Nov 5 are both labelled correctly, so this is the
 //      only weekday error on the page.
 //   2. That same event's TIME disagrees between the school's own two pages —
 //      9:00–10:30 a.m. on the admission-process page, 9:30–11:00 a.m. on the
-//      admission-events-and-tours page. Both are reproduced.
+//      admission-events-and-tours page. Neither is asserted; both open-house
+//      entries tell the reader to confirm the start time with the office.
 //   3. The financial-support deadline on the process page reads "Thursday,
 //      February 1, 2026" — a year stale (the tuition page says Feb. 1, 2027),
 //      AND Feb 1 2026 was a Sunday. The archived 2026-05-09 snapshot shows the
@@ -89,12 +94,19 @@
 //     admission team member's own calendar or to the Admission Office. That is a
 //     published policy, not a research gap.
 //
-// WATCH-OUTS ARE POPULATED HERE, unlike the four most recent cards, which ship
-// `watchOuts: []` by the user's decision (2026-09-01). That decision was about
-// watch-outs restating facts already in the steps. Trinity's carry something no
-// step can: three errors in the school's own published copy, which a parent
-// needs warned about at the point they would act on them. Raise at review if the
-// empty-array convention should win instead.
+// WATCH-OUTS ARE DELIBERATELY SPARSE — one per band, and only the CAIS coaching
+// rule, whose consequence (an application invalidated at all seven schools) no
+// step can carry. This card originally shipped three more; the user removed them
+// at review (2026-09-16), and the two removals share a reason worth keeping:
+// a watch-out that RESTATES a fact already in the steps reads as an alarm out of
+// proportion to the fact. That is the same judgment behind the `watchOuts: []`
+// convention on the four most recent cards (user, 2026-09-01).
+//   · The Dec 1 open-house errors — see the block below; both are still recorded,
+//     and the open-house entries now tell the reader to confirm the start time.
+//   · The three-test split — fully carried by the band intro, the testing step
+//     (which states outright that "Grades 1–8 take the ISEE" is the costly
+//     mistake), the checklist callout and the comparison rows.
+// Before adding a watch-out, check the steps do not already say it.
 //
 // BENITA GRIFFIN IS NOT LISTED AS A CONTACT. The CAIS brochure names her as
 // Trinity's Interim Director of Admission & Financial Support, but that is a
@@ -164,7 +176,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'Two open houses cover Kindergarten, both in **Trinity’s Center for Community and the Arts**: a **Kindergarten Open House on Tuesday, Sept. 29, 2026**, 9:30–11:00 a.m., and a **K–8 Open House on Nov. 5, 2026**, 9:30–11:00 a.m. A third K–8 open house runs **Dec. 1, 2026** — see the watch-out below before you diary it. Individual tour dates are not published by policy: pick an admission team member and book from their own calendar, or contact the Admission Office.',
+              'Two open houses cover Kindergarten, both in **Trinity’s Center for Community and the Arts**: **Tuesday, Sept. 29, 2026** and **Nov. 5, 2026**, each 9:30–11:00 a.m. A third runs **Dec. 1, 2026** — confirm its start time, which the school’s two pages give differently. Individual tours are not published by policy: book from an admission team member’s own calendar, or ask the Admission Office.',
           },
           {
             title: 'Submit the application + fee through FACTS',
@@ -185,7 +197,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'by Feb 1',
             tagKind: 'accent',
             detail:
-              'Kindergarten and Grade 1 applicants take the **WPPSI-IV**, the Wechsler Preschool & Primary Scale of Intelligence, administered through the **Charlotte Area Independent Schools (CAIS) consortium** — seven schools including Trinity that share one testing arrangement. **Book with only one psychologist.** The fee is **$275**, paid to the psychologist. Your child must be **at least four years of age at the time of testing**, and the assessment may be administered **only once in a twelve month period**. There is **no refund for a cancellation within 48 hours**. CAIS schools also require an **interview with each child**, typically held **November–February**. Results come back to you and to the schools you designate as **percentile ranges** rather than raw scores.',
+              'Kindergarten and Grade 1 applicants take the **WPPSI-IV** through the **CAIS consortium** — seven schools, one shared testing arrangement. **Book with one psychologist only**, at **$275**, paid to them rather than to Trinity. Your child must be **four or older at testing**, which may be done **only once in twelve months**; cancelling **within 48 hours forfeits the fee**. CAIS also requires an **interview with each child**, usually **November–February**. Results reach you and the schools you designate as **percentile ranges**, not raw scores.',
           },
           {
             title: 'Wildcat Visit Day',
@@ -204,12 +216,8 @@ export const trinityEpiscopal: AdmissionsProgram = {
         ],
         watchOuts: [
           {
-            kicker: 'The Dec 1 open house has two errors in the school’s own copy',
-            text: 'It is printed as **"Thursday, Dec. 1, 2026"** — but **December 1, 2026 is a Tuesday**. And the **time differs between the school’s own two pages**: the admission-process page says **9:00–10:30 a.m.**, the admission-events-and-tours page says **9:30–11:00 a.m.** The September 29 and November 5 events are labelled correctly and carry the same time on both pages, so this is the only event affected. Confirm the day and the time with the Admission Office before you travel.',
-          },
-          {
             kicker: 'Coaching or re-testing invalidates the application at EVERY CAIS school',
-            text: 'This is the sharpest rule in the whole process, and its reach is what makes it sharp: **"Psychologists will report to the schools any indication that a child has been coached, tutored, or re-tested. Any indication of the aforementioned will invalidate your application to any CAIS school."** Not just Trinity — **all seven**, which are Charlotte Christian, Charlotte Country Day, Charlotte Latin, Charlotte Preparatory, Covenant Day, Providence Day and Trinity Episcopal. You will be asked to sign a **Test Validity Verification Form** at the psychologist’s office confirming no prior testing or coaching has occurred.',
+            text: '**"Psychologists will report to the schools any indication that a child has been coached, tutored, or re-tested. Any indication of the aforementioned will invalidate your application to any CAIS school."** Not just Trinity — **all seven**: Charlotte Christian, Charlotte Country Day, Charlotte Latin, Charlotte Preparatory, Covenant Day, Providence Day and Trinity Episcopal. You sign a **Test Validity Verification Form** at the psychologist’s office.',
           },
         ],
         checklistCallout: {
@@ -291,7 +299,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'Two K–8 open houses cover this band, both in **Trinity’s Center for Community and the Arts**: **Thursday, Nov. 5, 2026**, 9:30–11:00 a.m., and one on **Dec. 1, 2026** — see the watch-out below before you diary that one. Individual tour dates are not published by policy: pick an admission team member and book from their own calendar, or contact the Admission Office at admissions@tescharlotte.org or 980-207-5898.',
+              'Two K–8 open houses cover this band, both in **Trinity’s Center for Community and the Arts**: **Thursday, Nov. 5, 2026**, 9:30–11:00 a.m., and **Dec. 1, 2026** — confirm that one’s start time, which the school’s two pages give differently. Individual tours are not published by policy: book from an admission team member’s own calendar, or contact admissions@tescharlotte.org or 980-207-5898.',
           },
           {
             title: 'Submit the application + fee through FACTS',
@@ -312,7 +320,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              '**Check your child’s grade against all three.** **Grade 1** takes the **WPPSI-IV** with the Kindergarten applicants. **Grades 2–4** take the **WISC-V**, the Wechsler Intelligence Scale for Children. Both run through the **CAIS consortium**: booked by you with **one psychologist only**, **$275** paid to the psychologist, results returned as **percentile ranges**, and a required **interview with each child**, typically **November–February**. **Grades 5–8 take the ISEE**, the Independent School Entrance Exam, which is a **separate exam outside the CAIS arrangement** — no CAIS fee, no consortium psychologist, and you register for it yourself. **"Grades 1–8 take the ISEE" is a common and costly mistake: the ISEE starts at Grade 5.**',
+              '**Check your child’s grade against all three.** **Grade 1** takes the **WPPSI-IV** with the Kindergarten applicants; **Grades 2–4** take the **WISC-V**. Both run through the **CAIS consortium**: **one psychologist only**, **$275** paid to them, an **interview with each child** around **November–February**, and results as **percentile ranges**. **Grades 5–8 take the ISEE** instead — outside CAIS entirely, so no consortium fee, no consortium psychologist, and you register yourself. **"Grades 1–8 take the ISEE" is the costly mistake: it starts at Grade 5.**',
           },
           {
             title: 'Wildcat Visit Day',
@@ -331,16 +339,8 @@ export const trinityEpiscopal: AdmissionsProgram = {
         ],
         watchOuts: [
           {
-            kicker: 'Grades 1–8 is ONE deadline band and THREE different tests',
-            text: 'The single most likely thing to get wrong here. The calendar breaks once, at Kindergarten to Grade 1 — but the test breaks twice more **inside** this band. **Grade 1: WPPSI-IV. Grades 2–4: WISC-V. Grades 5–8: ISEE.** And the administering body changes at a third place again: **CAIS handles K–4 only**, so a Grade 5 family gets no consortium psychologist, no $275 CAIS fee and no consortium interview — they register for the ISEE themselves. **Do not read "Grades 1-8" on the deadline table as one testing process.**',
-          },
-          {
-            kicker: 'The Dec 1 open house has two errors in the school’s own copy',
-            text: 'It is printed as **"Thursday, Dec. 1, 2026"** — but **December 1, 2026 is a Tuesday**. And the **time differs between the school’s own two pages**: the admission-process page says **9:00–10:30 a.m.**, the admission-events-and-tours page says **9:30–11:00 a.m.** The November 5 event is labelled correctly and carries the same time on both pages. Confirm the day and the time with the Admission Office before you travel.',
-          },
-          {
             kicker: 'Coaching or re-testing invalidates the application at EVERY CAIS school',
-            text: 'For Grades 1–4, whose testing runs through the consortium: **"Psychologists will report to the schools any indication that a child has been coached, tutored, or re-tested. Any indication of the aforementioned will invalidate your application to any CAIS school."** Not just Trinity — **all seven**: Charlotte Christian, Charlotte Country Day, Charlotte Latin, Charlotte Preparatory, Covenant Day, Providence Day and Trinity Episcopal. You sign a **Test Validity Verification Form** at the psychologist’s office. Grades 5–8 sit outside CAIS, so this rule does not reach them.',
+            text: 'Grades 1–4 only, whose testing runs through the consortium: **"Psychologists will report to the schools any indication that a child has been coached, tutored, or re-tested. Any indication of the aforementioned will invalidate your application to any CAIS school."** That reaches **all seven** CAIS schools, not just Trinity, and you sign a **Test Validity Verification Form** at the psychologist’s office. Grades 5–8 sit outside CAIS, so it does not apply.',
           },
         ],
         checklistCallout: {
@@ -403,7 +403,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'The financial support application deadline for prospective families is **February 1, 2027** — the same day Kindergarten supporting materials are due, and more than seven weeks before Grades 1–8 hear back. ⚠️ **The school’s admission-process page prints this as "Thursday, February 1, 2026"**, which is a year stale and lands on a Sunday; its own tuition page says **Feb. 1, 2027**, and every other date on the process page is correctly 2027. **Confirm the aid deadline with the office before you rely on either.** Separately, the **CAIS testing fee of $275 is paid to the psychologist rather than to Trinity**, so it falls due before any aid decision — budget for it.',
+      text: 'Prospective families apply for financial support by **February 1, 2027** — the same day Kindergarten supporting materials are due. ⚠️ The school’s admission-process page still prints the 2026 date; its tuition page says 2027. **Confirm it with the office.** Note too that the **$275 CAIS testing fee goes to the psychologist, not to Trinity**, so it falls due before any aid decision.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -507,7 +507,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on tescharlotte.org and retrieved in September 2026. Three errors in the school’s own copy are reproduced rather than corrected and are flagged where they appear: the Dec 1, 2026 open house is labelled "Thursday" when it falls on a Tuesday, its time differs between the school’s two admission pages, and the financial-support deadline on the process page reads February 1, 2026 where the tuition page says February 1, 2027. The CAIS consortium detail is from the 2024-25 brochure, whose structure carries forward but whose dates do not and are not reproduced. Cycle dates shift year to year — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Trinity Episcopal School.',
+        'Dates are the 2027–28 entry cycle as published on tescharlotte.org and retrieved in September 2026. Errors in the school’s own copy are reproduced rather than corrected: the financial-support deadline on the process page reads February 1, 2026 where the tuition page says February 1, 2027, and it is flagged where it appears. The Dec 1, 2026 open house is labelled "Thursday" when it falls on a Tuesday, and its start time differs between the school’s two admission pages. The CAIS consortium detail is from the 2024-25 brochure, whose structure carries forward but whose dates do not and are not reproduced. Cycle dates shift year to year — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Trinity Episcopal School.',
     },
 
     sources: [

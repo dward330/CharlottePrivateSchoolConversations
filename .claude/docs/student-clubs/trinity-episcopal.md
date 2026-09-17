@@ -134,7 +134,7 @@ Verbatim from the 2026-27 School Profile:
 > Rabies, Creative Writing, Climate Justice, Koinonia Representatives, Honor Council,
 > Invisible Differences, Spirituality and Chapel Music, Monday Math Mania"
 
-**Only 4 of the 14 are corroborated anywhere on the website.** Zero web hits for:
+**Only 6 of the 15 are corroborated anywhere on the website.** Zero web hits for:
 Odyssey of the Mind, Radagast Rabies, Climate Justice, Monday Math Mania, Let Me Run,
 Spirituality and Chapel Music, Creative Writing (which appears only as a teacher's
 conference topic, not a club).
@@ -326,7 +326,7 @@ here, with that caveat noted.
 > Rabies, Creative Writing, Climate Justice, Koinonia Representatives, Honor Council,
 > Invisible Differences, Spirituality and Chapel Music, Monday Math Mania"
 
-**14 named clubs. Corroboration status, checked against the whole site:**
+**15 named clubs** (3 Lower School, 12 Middle School). Corroboration status, checked against the whole site:
 
 | Club | Division | Corroborated on the site? |
 |---|---|---|
@@ -346,7 +346,7 @@ here, with that caveat noted.
 | Monday Math Mania | MS | ❌ 0 hits |
 | Spirituality and Chapel Music | MS | ❌ 0 hits |
 
-**Seven of fourteen have no web corroboration at all**, and **no per-club description
+**Seven of the fifteen have no web corroboration at all**, and **no per-club description
 exists for any of them**. Cite the profile PDF and expect nothing further.
 
 **Year-over-year:** the 2025-26 profile also listed **MathCats** and **Book Club**; both

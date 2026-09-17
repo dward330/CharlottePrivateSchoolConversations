@@ -2451,6 +2451,14 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
      what the first Farsi print-out showed. */
   .note-card > .note-card-body,
   .clubrow > *:not(summary) { display: block !important; }
+  /* Same treatment for the admissions card's two collapsible layers — the step
+     details and the cross-band table (both added 2026-09-16). They are ordinary
+     <details>, so without this a print-out shows the step titles and the band
+     heading with none of the content under them. */
+  .ad-step-body > .ad-step-detail,
+  .ad-compare > .table-wrap { display: block !important; }
+  .ad-step-body > summary .plusmark,
+  .ad-compare > summary .plusmark { display: none; }
   /* An open card normally claims the full grid row and runs two columns; closed
      cards never got those rules, so pin them here too or the bodies overflow the
      half-width collapsed card. Single column in print — RTL two-column flow is
@@ -5658,13 +5666,28 @@ a.cs-college-name:focus-visible {
   position: relative;
   z-index: 1;
 }
-.ad-step-body { min-width: 0; }
+/* flex:1 so the summary row spans the width left of the numbered square and the
+   plusmark can sit hard right; without it the body shrink-wraps to its title. */
+.ad-step-body { min-width: 0; flex: 1; }
 .ad-step-head {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
   margin-bottom: 3px;
+}
+/* Each step is a <details>: the head is the summary, the detail paragraph the
+   body. Default marker suppressed so the title, tag and plusmark keep the one
+   baseline row the design specifies. */
+.ad-step-body > summary { cursor: pointer; list-style: none; }
+.ad-step-body > summary::-webkit-details-marker { display: none; }
+.ad-step-body > summary .plusmark { margin-left: auto; }
+.ad-step-body[open] > summary .plusmark { transform: rotate(45deg); }
+.ad-step-body > summary:hover .ad-step-title { color: var(--accent-700); }
+.ad-step-body > summary:focus-visible {
+  outline: 2px solid var(--accent-700);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 .ad-step-title { font-family: var(--heading); font-size: 16px; font-weight: 600; color: var(--text); }
 .ad-step-detail { margin: 3px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
@@ -5712,6 +5735,22 @@ a.cs-college-name:focus-visible {
 .ad-aid-btn { flex: none; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; }
 
 .ad-compare { margin-bottom: 24px; }
+/* The band table is a <details> collapsed by default. Its <summary> IS the
+   .ad-head baseline row, so the default triangle is suppressed (it would sit
+   outside that row and break the shared kicker/title alignment) and the
+   .plusmark carries the affordance instead, as it does on the research cards. */
+.ad-compare > summary { cursor: pointer; list-style: none; }
+.ad-compare > summary::-webkit-details-marker { display: none; }
+.ad-compare > summary .plusmark { margin-left: auto; }
+.ad-compare[open] > summary .plusmark { transform: rotate(45deg); }
+.ad-compare > summary:hover .ad-head-title { color: var(--accent-700); }
+/* The row is the click target, so it needs a visible keyboard focus ring. */
+.ad-compare > summary:focus-visible {
+  outline: 2px solid var(--accent-700);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.ad-compare[open] > summary { margin-bottom: 12px; }
 /* Kicker, title and (for contacts) the address share ONE baseline row. The
    kicker is bare letterspaced type in accent-700 — NOT a bordered .tag chip,
    which read as a button — and the title is sentence case at 19px. */

@@ -71,7 +71,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](financial-aid-tuition/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](financial-aid-tuition/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](financial-aid-tuition/providence-day.md) — 1 docs
-- [Trinity Episcopal School](financial-aid-tuition/trinity-episcopal.md) — 4 docs
+- [Trinity Episcopal School](financial-aid-tuition/trinity-episcopal.md) — 2 docs
 
 ### High School Placement (`high-school-placement/`)
 
@@ -138,4 +138,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 429 documents across 10 topics and 12 schools.
+- `src/data/schools.json` — 427 documents across 10 topics and 12 schools.

@@ -64,8 +64,9 @@ export type ClubCatalog = {
   categories: CatalogCategory[]
   /** The full filterable roster. */
   clubs: CatalogClub[]
-  /** Division notes rendered below the grid (younger divisions, gaps). */
-  divisions: CatalogDivision[]
+  /** Division notes rendered below the grid (younger divisions, gaps).
+   *  Optional — omit rather than passing [], and the block does not render. */
+  divisions?: CatalogDivision[]
   /** Source line shown in the footer SOURCES row. */
   source: string
   /** Optional noun for the counter, default "clubs" (e.g. "confirmed clubs"). */
@@ -883,9 +884,8 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
 // so it is not a student club — and nothing here says the school has no yearbook.
 const TRINITY_EPISCOPAL: ClubCatalog = {
   verdict:
-    '17 clubs across both divisions — but the school publishes no description for any of them, and the roster exists only inside a PDF.',
-  verdictHint:
-    'Filter by interest. Where the school corroborates a club elsewhere on its site, that detail is carried; where it does not, the row says so.',
+    '17 clubs across both divisions.',
+  verdictHint: 'Filter by interest.',
   categories: [
     { key: 'aff', short: 'Affinity', full: 'Affinity & identity' },
     { key: 'comp', short: 'Competitive', full: 'Competitive & academic' },
@@ -981,28 +981,11 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
       note: 'Named in the 2026-27 School Profile and nowhere else on the site; no description of any kind is published, and the name gives no clue to its purpose',
     },
   ],
-  divisions: [
-    {
-      label: 'There is no clubs page',
-      text: 'Trinity publishes no /clubs page at all — 15 of the 17 clubs above exist only inside the 2026-27 School Profile PDF, as a run of club names with no descriptions. Only 6 of those 15 are fully corroborated anywhere else on the site, three more are corroborated in a different character than “club”, and six return zero hits. The remaining two — Mock Trial and Speech & Debate — appear in the school blog and in neither profile PDF. Where a row above carries real detail, that detail came from a different page than the roster did.',
-      tag: 'Single-source',
-    },
-    {
-      label: 'Advisory, not clubs',
-      text: 'Two structures do most of what a club roster does elsewhere: Koinonia in the Middle School, where every student belongs to a group of 10–12 with one adult leader, meeting every morning and twice a week for activities; and the 12 Tribes of Trinity in the Lower School, co-ed groups spanning grades 3–5, each led by two adult staculty members. Both are structural rather than optional.',
-      tag: 'Structural',
-    },
-    {
-      label: 'Student publications',
-      text: 'There is no student newspaper and no literary magazine — each returns zero hits across the whole site. The yearbook exists, but it is coordinated by the Parents’ Association rather than by students, which is why no publications entry appears in the roster above.',
-      tag: 'Confirmed absent',
-    },
-    {
-      label: 'Membership and selection',
-      text: 'No membership numbers, meeting times, advisors, application processes or selection criteria are published for any club on this roster — the profile names them and stops. The one exception is Honor Council, whose members are elected by their grade-level peers.',
-      tag: 'Not published',
-    },
-  ],
+  // No `divisions` (user, 2026-09-16). The four notes here — no clubs page, the
+  // advisory structures, absent publications, unpublished membership criteria —
+  // were research apparatus about the SOURCES rather than facts about the clubs,
+  // and they read as a wall of caveats under a roster that speaks for itself.
+  // All four remain in source-material/student-clubs/trinity-episcopal/.
   source:
     'tescharlotte.org — 2026-27 School Profile (PDF), the sole roster · affinity-groups.cfm · spirituality/honor-code.cfm · academics/middle-school-enrichments.cfm · academics/lower-school-enrichments.cfm · school blog (Mock Trial, Speech & Debate)',
   countNoun: 'clubs',

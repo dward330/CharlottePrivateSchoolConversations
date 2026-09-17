@@ -38,85 +38,27 @@ import type { HighSchoolPlacementProgram } from '../highSchoolPlacement.ts'
 const PROFILE =
   'https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf'
 const K8 = 'https://www.tescharlotte.org/admission/k-8-advantage.cfm'
-const CLASS_2026 = 'https://www.tescharlotte.org/blog.cfm?threadid=48'
-const CLASS_2025 = 'https://www.tescharlotte.org/blog.cfm?threadid=29'
 const COUNSELORS = 'https://www.tescharlotte.org/blog.cfm?threadid=6'
 
 export const trinityEpiscopal: HighSchoolPlacementProgram = {
-  /* --------------------------------------------- 2a where graduates go -- */
-  outcomes: {
-    headline:
-      'Trinity graduates leave after 8th grade, and the school publishes where they went — 1,060 of them, across 23 classes since 2004.',
-    subhead:
-      'The headline split is cumulative since the first graduating class in 2004, not a single year: 31% went on to independent schools, 57% to public schools and 12% to boarding schools. Trinity publishes no placement success rate of any kind, and none is inferred here.',
-    stats: [
-      {
-        value: '1,060',
-        denominator: 'Classes of 2004–2026 · 23 years',
-        caption: 'graduates on record since the first 8th-grade class',
-      },
-      {
-        value: '31% / 57% / 12%',
-        denominator: 'of 1,060 · cumulative, not per class',
-        caption: 'independent / public / boarding schools',
-      },
-      {
-        value: '51',
-        denominator: 'Class of 2026 · 10 distinct high schools',
-        caption: 'graduates in the most recent class',
-      },
-      {
-        value: '30',
-        denominator: '30 of 51 · 59%',
-        caption: '“lifers” in the Class of 2026 — enrolled since Kindergarten',
-      },
-    ],
-    // No per-class table: see note 1 at the top of this file.
-    classes: [],
-    scholarships: [],
-    flags: [
-      {
-        kind: 'gap',
-        label: 'NO PLACEMENT RATE',
-        text: 'Trinity publishes no “accepted to first choice” or “top-two choice” figure, and no high school merit scholarship counts or dollars. Searched across all 100 sitemap pages, all 51 blog posts and both School Profile PDFs — “first choice”, “top two” and “97%” each return zero hits. The school’s placement story is named destination lists plus the cumulative split, never a success rate.',
-      },
-      {
-        kind: 'verify',
-        label: 'CUMULATIVE, NOT PER CLASS',
-        text: 'The 31/57/12 split is across all 1,060 graduates since 2004, not any single year. The school states it that way and it should never be read as one class’s outcome.',
-      },
-      {
-        kind: 'verify',
-        label: 'LIFER RATE IS VOLATILE',
-        text: 'The share of graduates who had been at Trinity since Kindergarten runs 9 of 51 (18%) in 2024, 28 of 54 (52%) in 2025 and 30 of 51 (59%) in 2026. The 2024 figure is an outlier against the two later years, so the trend is not a smooth line.',
-      },
-      {
-        kind: 'discrepancy',
-        text: 'The school’s own 2026 commencement list prints “Myers Park High School” twice — 11 bullets naming 10 distinct schools. Verified in the page’s raw HTML at positions 1 and 7; the remaining entries are alphabetical, so the leading duplicate reads as an editing slip. Counted here as 10.',
-      },
-    ],
-    sources: [
-      { label: 'tescharlotte.org — 2026-27 School Profile (PDF)', url: PROFILE },
-      { label: 'tescharlotte.org — Class of 2026 commencement', url: CLASS_2026 },
-      { label: 'tescharlotte.org — Class of 2025 commencement', url: CLASS_2025 },
-    ],
-  },
+  // NO `outcomes` CARD (user, 2026-09-16). It carried the cumulative
+  // 31% independent / 57% public / 12% boarding split across 1,060 graduates
+  // and the 23-class denominator. `outcomes` is optional on the type, so the
+  // area now opens on `placement`. The figures remain in
+  // source-material/high-school-placement/trinity-episcopal/.
 
-  /* ---------------------------------------------- 2b placement program -- */
+  /* ------------------------------------------------ 2b the programme -- */
   placement: {
     headline:
       'Two high school counselors, one for public and independent schools and one for boarding — a structure the school added in 2023-24.',
+    // Second sentence removed 2026-09-16 (it graded the school's transparency).
     subhead:
-      'Trinity frames the K–8 model as choosing a high school at the end of 8th grade rather than at the start of Kindergarten. The counselling roles are real and named, but the process around them is almost entirely unpublished.',
+      'Trinity frames the K–8 model as choosing a high school at the end of 8th grade rather than at the start of Kindergarten.',
     stats: [
       {
         value: '2',
         denominator: 'public + independent · boarding',
         caption: 'high school counsellors, by published scope',
-      },
-      {
-        value: '2023–24',
-        caption: 'the school year the counsellor roles were introduced',
       },
       {
         value: '9',
@@ -141,44 +83,14 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
         text: 'The school’s stated case is that nine years of one faculty knowing a child produces a better-informed choice: parents “feel more confident about finding the high school that’s best suited for their child at the end of 8th Grade rather than at the beginning of Kindergarten.”',
       },
     ],
-    owns: [
-      'Two named counsellors covering public, independent and boarding schools, with the scope split published.',
-      'A cumulative destination record kept since 2004 and republished each year in the School Profile.',
-      'Named destination lists for the two most recent classes, published at commencement.',
-    ],
-    notPublished: [
-      {
-        label: 'Any outbound entrance test',
-        text: 'SSAT and HSPT return zero hits site-wide. ISEE appears only three times and every instance is Trinity’s own inbound admission testing. Whatever test its 8th graders sit for high school admission, the school does not say.',
-      },
-      {
-        label: 'A placement timeline',
-        text: 'No published account of what grade the search starts, or what happens when.',
-      },
-      {
-        label: 'High school fairs, mock interviews or test prep',
-        text: 'Zero hits for any of them.',
-      },
-      {
-        label: 'Merit scholarships won at high schools',
-        text: 'No counts, no dollars, no named awards.',
-      },
-    ],
-    flags: [
-      {
-        kind: 'verify',
-        label: 'NOT PUBLISHED ≠ NOT DONE',
-        text: 'These gaps were established by crawling all 100 sitemap pages and all 51 blog posts. The FACTS Family Portal is gated, and a placement handbook is exactly the sort of document that would sit behind it — so this says the school does not publish these things publicly, not that it does not do them.',
-      },
-      {
-        kind: 'discrepancy',
-        text: 'The boarding counsellor’s title differs between two live school pages: the admission page calls him “Director of Admission and Boarding School Placement”, while the staff directory calls him “Associate Director of Admission”, dropping placement entirely.',
-      },
-      {
-        kind: 'verify',
-        text: 'The school writes “two high school counselors”, not “two dedicated counselors” — one of the two roles is explicitly combined with a Middle School teaching load. The 2023 article announcing the structure names a different person on the boarding side, who no longer appears in the staff directory.',
-      },
-    ],
+    // No owns / notPublished columns and no flags (user, 2026-09-16). The two
+    // columns graded the school's transparency rather than describing the
+    // programme, and the three flags were verification apparatus (a title
+    // discrepancy between two staff pages, a combined teaching load, and a
+    // gated-portal caveat). All of it stays in source-material/.
+    owns: [],
+    notPublished: [],
+    flags: [],
     sources: [
       { label: 'tescharlotte.org — The K-8 Advantage', url: K8 },
       {
@@ -353,27 +265,10 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
         },
       },
     ],
-    flags: [
-      {
-        kind: 'verify',
-        label: 'THE SCHOOL’S OWN GROUPING',
-        text: 'Trinity reports its outcomes as independent / public / boarding, and those are the three categories used here. They are kinds of school, not tiers of one, and there is no high-school ranking in this app.',
-      },
-      {
-        kind: 'gap',
-        label: 'UNEXPLAINED MARKER',
-        text: 'In the source PDF, 41 of the 99 entries carry a trailing asterisk with no legend anywhere in the document — searched and confirmed absent. It plausibly marks multiple attendees, but the school does not say, so the markers are stripped here rather than published under a guessed meaning.',
-      },
-      {
-        kind: 'discrepancy',
-        text: 'The source lists several schools twice under different spellings — “Cannon School” and “The Cannon School”, “Charlotte Catholic” and “Charlotte Catholic High School”, “Chambers High School” and “Julius L. Chambers High School”, “JM Robinson High School” and “Robinson High School”. It also prints “Lake Normal High School” for Lake Norman. Duplicates are merged here and the typo is corrected with the published spelling noted.',
-      },
-      {
-        kind: 'verify',
-        label: 'CUMULATIVE, NOT A SINGLE YEAR',
-        text: 'This is every destination reported across 23 graduating classes since 2004. A school appearing here may have taken one graduate in one year.',
-      },
-    ],
+    // No flags (user, 2026-09-16) — research apparatus: an unexplained
+    // asterisk marker, duplicate school spellings in the source, and the
+    // cumulative-not-annual caveat. All stay in source-material/.
+    flags: [],
     sources: [
       { label: 'tescharlotte.org — 2026-27 School Profile (PDF)', url: PROFILE },
     ],
@@ -381,28 +276,10 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
 
   /* ------------------------------------------------------------ verdict -- */
   verdict: {
-    headline:
-      'A school that documents where its graduates go, without claiming how well it placed them.',
-    subhead:
-      'The evidence here is unusually concrete for a middle school — a 23-year cumulative record with a denominator on every figure — and unusually quiet on outcomes. Both are worth understanding before a tour.',
-    points: [
-      {
-        label: 'The denominator is always there',
-        text: 'Every figure the school publishes carries what it is out of: 1,060 graduates across 23 classes, 51 in the Class of 2026, 30 of them lifers. Nothing is a bare percentage.',
-      },
-      {
-        label: 'The destination list is long and checkable',
-        text: '99 named high schools, including eight with their own dossier in this app — so a family can follow a Trinity graduate’s likely next step and read that school’s research directly.',
-      },
-      {
-        label: 'Boarding is a real route, not a footnote',
-        text: '12% of all graduates since 2004 went to boarding schools, there is a counsellor whose published scope is boarding placement, and the list includes Deerfield, Lawrenceville, Taft, Thacher and St. Paul’s.',
-      },
-      {
-        label: 'The K–8 case is stated plainly',
-        text: 'The school argues the high school choice is better made at the end of 8th grade than at the start of Kindergarten, after nine years of one faculty knowing the child. That is a claim a family can weigh, not a statistic.',
-      },
-    ],
+    // Lead trimmed and `points` dropped (user, 2026-09-16); the card opens on
+    // its visit checklist, which is renamed from the shared "Ask on the tour".
+    headline: 'High School Placement',
+    points: [],
     checklist: [
       'What standardized test do your 8th graders sit for high school admission, and when? The school publishes nothing on this.',
       'What share of last year’s class got into their first-choice high school? No figure is published, so ask for it directly.',
@@ -411,12 +288,9 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       'Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.',
       'The 2004–2026 destination list marks 41 of 99 schools with an asterisk and gives no legend — what does it mean?',
     ],
-    flags: [
-      {
-        kind: 'gap',
-        text: 'There is no published placement success rate to weigh against these destinations. A parent comparing Trinity with a school that advertises a “97% first-choice” figure is comparing a documented record against a marketing claim, not two like figures.',
-      },
-    ],
+    // No flags (user, 2026-09-16) — the 'publication gap' note compared
+    // Trinity's record against another school's marketing figure.
+    flags: [],
     sources: [
       { label: 'tescharlotte.org — 2026-27 School Profile (PDF)', url: PROFILE },
       { label: 'tescharlotte.org — The K-8 Advantage', url: K8 },

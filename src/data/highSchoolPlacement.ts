@@ -302,7 +302,9 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
   },
   {
     key: 'verdict',
-    title: 'Verdict & Visit Checklist',
+    // Renamed from "Verdict & Visit Checklist" (user, 2026-09-16). Trinity, the
+    // only occupant, ships no verdict prose — the card IS the checklist.
+    title: 'Visit Checklist',
     kicker: 'What should I probe on the tour?',
   },
 ] as const satisfies readonly {

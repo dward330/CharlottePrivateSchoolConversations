@@ -33,8 +33,10 @@ export const trinityEpiscopal: SummerProgram = {
       '75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session — and open to any child in the community, not only Trinity families.',
     subhead:
       'Camps run 15 June to 24 July 2026 on the uptown campus. Half days are 9 a.m.–12 p.m. or 1–4 p.m., full days 9 a.m.–4 p.m., and two of the six weeks are four-day weeks.',
-    intro:
-      '**33 of the school’s 85 listed camp rows appear below**, sampled across every price band, every week, every grade span and every vendor strand. The full slate runs **75 named camps** (85 rows once split variants are counted), **83 of them priced**, from **$225 to $785**, with a **median of $265** — **23 full-day rows and 62 half-day rows** across **23 distinct price points**. Camps per week: **13 · 13 · 12 · 17 · 15 · 15**. ⚠️ **"Open to the public" holds for the camp overall but not for every camp in it** — the **TES Academy** strand is Trinity-students-only: Summer LEAP is by invitation and requires 2026-27 Trinity enrolment, Fun with Numbers is for current or incoming TES students only, and Summer Play Days is Rising TES K only.',
+    // No intro (user, 2026-09-16) — it explained the SAMPLING (33 of 85 rows)
+    // and restated slate statistics the headline and the catalog already give.
+    // The TES-Academy-is-students-only caveat goes with it; both remain in
+    // source-material/summer-programs/trinity-episcopal/.
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'stem', label: 'STEM & coding' },
@@ -512,33 +514,10 @@ export const trinityEpiscopal: SummerProgram = {
         weeks: 'July 20-24',
       },
     ],
-    flags: [
-      {
-        kind: 'verify',
-        label: 'TWO FOUR-DAY WEEKS',
-        text: '**Two of the six weeks are four-day weeks, not one.** There is no camp on **19 June (Juneteenth)**, shortening the 15-18 June week, and none on **3 July (Independence Day)**, shortening the 29 June-2 July week. Camps per week run **13 · 13 · 12 · 17 · 15 · 15** — so the two shortest weeks are also the two with the fewest camps to choose from.',
-      },
-      {
-        kind: 'verify',
-        text: '**A sample, not the whole slate.** 34 of 85 listed rows appear above. The full catalog is 75 named camps, $225-$785, median $265, with 23 full-day and 62 half-day rows across 23 distinct price points. Price bands: **$225-$245 (21 camps) · $255-$295 (38) · $305-$395 (8) · $400-$475 (13) · $525-$785 (3)**.',
-      },
-      {
-        kind: 'verify',
-        text: '**"Open to any child in the community" does not extend to every camp.** The **TES Academy** strand is Trinity-only: Summer LEAP is by invitation and requires 2026-27 enrolment, Fun with Numbers is for current or incoming TES students, and Summer Play Days is Rising TES K only. Every other strand is genuinely open.',
-      },
-      {
-        kind: 'gap',
-        text: '**Per-camp capacity and staff ratios are not published.** The school asserts capacity is limited — "space cannot be held without payment", "all camps are subject to a minimum enrollment" — but states no number for any camp. The only ratio published anywhere is Summer LEAP\'s "6-8" students per teacher, and that is one invitation-only academic program rather than a camp-wide figure.',
-      },
-      {
-        kind: 'verify',
-        text: 'Days of the week are not published per camp — the whole slate runs Monday to Friday by session structure, minus the two holidays — so there is no day filter. Drop-off begins at **8:45 a.m.** per the camp page, though the logistics document and the FAQ both say **8:40**.',
-      },
-      {
-        kind: 'verify',
-        text: 'Where the school\'s prose catalog and its CSV schedule disagree on a price, the **CSV is used** — it is the school\'s own structured grid and splits every multi-price camp into properly-banded rows. Two camps are affected: Minecraft Modders / Beats and Jams (prose $265, CSV $255) and the July 13-17 P3 Soccer Lab split.',
-      },
-    ],
+    // No flags (user, 2026-09-16) — research apparatus about the camp
+    // catalog (sampling, source precedence, unpublished capacity and dates).
+    // All stay in source-material/summer-programs/trinity-episcopal/.
+    flags: [],
     sources: [
       {
         label: 'tescharlotte.org — Wildcat Summer Camp',
@@ -621,27 +600,27 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         label:
-          '**Both care options together are $175/week** — exactly the sum of the two toggles above, so bundling them carries no discount. ⚠️ **There is no after-care for half-day morning campers**: after-care is offered to afternoon or full-day campers only, so a 9 a.m.–12 p.m. camp ends at noon with nothing behind it.',
+          '**Both care options together are $175/week** — the sum of the two toggles, so bundling saves nothing. ⚠️ **No after-care for half-day morning campers**: a 9 a.m.–12 p.m. camp ends at noon.',
         note: true,
       },
       {
         label:
-          '**`4ORMORE` takes $25 off each camp** for an individual camper registering for **four or more weeks of full-day camps**; 8 half-day camps count as the equivalent. ⚠️ It is **per camper, not per family** — two children with two weeks each do not qualify — and it does not apply to fewer than 4 weeks of single or half-day camps.',
+          '**`4ORMORE` takes $25 off each camp** at **four or more weeks of full-day camps** (8 half-days count as the equivalent). ⚠️ **Per camper, not per family** — two children with two weeks each do not qualify.',
         note: true,
       },
       {
         label:
-          '**Financial aid excludes CAMMP, TES Academy and Black Rocket camps** — which removes most of the coding and game-design slate and the whole academic strand, so an aid-dependent family has a meaningfully smaller menu. Aid is first-come, first-served, and decisions wait on two most recent income tax statements from non-Trinity families.',
+          '**Financial aid excludes CAMMP, TES Academy and Black Rocket camps** — most of the coding slate and the whole academic strand. Aid is first-come, first-served; non-Trinity families submit two most recent tax statements.',
         note: true,
       },
       {
         label:
-          '**Lunch is bring-your-own** — there is no FLIK option at camp, unlike the school year. A camper doing a morning camp then an afternoon camp **stays on campus for lunch and recess** before joining the 1:00 session, which is what makes stacking two half-days into a full day workable. The camp "strives to be nut-free"; snacks are required, one for a half day and two for a full day.',
+          '**Lunch is bring-your-own** — no FLIK option, unlike the school year. A camper stacking two half-days **stays on campus for lunch and recess** before the 1:00 session. The camp "strives to be nut-free"; snacks required, one per half day.',
         note: true,
       },
       {
         label:
-          '**Late pick-up: a five-minute grace period, then $5/minute** — after 12:05 for a half day, 4:05 for a full day and 5:35 for after-camp care. **Two or more instances in one week could result in non-refunded removal from the program.**',
+          '**Late pick-up: five-minute grace, then $5/minute** — after 12:05 (half day), 4:05 (full day), 5:35 (after-camp care). **Two or more in one week could mean non-refunded removal.**',
         note: true,
       },
     ],
@@ -649,24 +628,10 @@ export const trinityEpiscopal: SummerProgram = {
       title: 'Registrations become final on May 1.',
       text: 'The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a cancelled registration\'s deposit and fee can be transferred to another camp.',
     },
-    flags: [
-      {
-        kind: 'verify',
-        text: 'The tier prices above are **real published price points** within each band, not averages — $245, $265, $395, $455 and $595 each belong to camps on the slate. Because bands span up to $70, a specific camp may sit below or above its tier; the catalog card carries every sampled camp\'s own price.',
-      },
-      {
-        kind: 'verify',
-        text: '**Two of the six weeks are four-day weeks** (no camp 19 June or 3 July), and the school does not publish a reduced rate for them — a four-day week in the same band costs the same as a five-day one in some cases and less in others. Check the specific camp rather than the tier.',
-      },
-      {
-        kind: 'gap',
-        text: 'No **registration open date** is published — no January date appears on the camp page or in any of the five linked documents. Registration runs through a Trinity-branded CampBrain portal, which was live and load-managed at the time of this research.',
-      },
-      {
-        kind: 'gap',
-        text: 'Trinity publishes **no sibling discount** for camp. The only discount stated anywhere is `4ORMORE`, and it is explicitly per individual camper rather than per family.',
-      },
-    ],
+    // No flags (user, 2026-09-16) — research apparatus about the camp
+    // catalog (sampling, source precedence, unpublished capacity and dates).
+    // All stay in source-material/summer-programs/trinity-episcopal/.
+    flags: [],
     sources: [
       {
         label: 'Camp fees and policies (the school\'s own document)',
