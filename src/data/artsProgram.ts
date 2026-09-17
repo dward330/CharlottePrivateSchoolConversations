@@ -321,6 +321,18 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
     ladder: 'The Early Childhood–12 Arts Ladder',
     theatre: 'Theatre & External Recognition',
   },
+  // Trinity Episcopal ends at 8th grade, so there is no TK–12 ladder — and the
+  // Blumeys are Blumenthal's HIGH-SCHOOL musical-theatre awards, which a K–8
+  // school cannot enter. Both titles must change: the shared Blumey title on a
+  // middle school's card would imply a circuit it is not eligible for. Its
+  // recognition is real but visual-arts rather than theatre (Youth Art Month at
+  // the Carolina Theatre, "Deeply Rooted" at the VAPA Center, a CATO teaching
+  // award), so that lands on `visual` and the theatre card is titled for what it
+  // actually holds: the grade-level production ladder.
+  'trinity-episcopal': {
+    ladder: 'The K–8 Arts Ladder',
+    theatre: 'Theatre & Grade-Level Productions',
+  },
 }
 
 /**
