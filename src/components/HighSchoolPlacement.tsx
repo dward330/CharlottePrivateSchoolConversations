@@ -48,6 +48,7 @@ import type {
   PlacementClass,
 } from '../data/highSchoolPlacement.ts'
 import { schoolBySlug } from '../lib/manifest.ts'
+import { highSchoolRank, highSchoolUrl } from '../data/highSchools.ts'
 import { toSchool, useNavigate } from '../lib/router.ts'
 import { SourceRow } from './SourceRow.tsx'
 
@@ -236,12 +237,37 @@ function DestinationChip({
 }) {
   const navigate = useNavigate()
   const inApp = dest.slug ? schoolBySlug(dest.slug) : undefined
+  /* The Niche rank, resolved from the single master by name. Stored as a whole
+     label rather than a number because two different scales are in play — see
+     the note on `nicheRank` in data/highSchools.ts. */
+  const rank = highSchoolRank(dest.name)
 
   if (!inApp) {
+    /* No dossier here yet, so the name links OUT to the school's own homepage
+       where one could be confirmed. A school with no resolvable homepage —
+       closed, merged, or a name too ambiguous to pin — renders as plain text,
+       which is a confirmed result rather than a gap. */
+    const href = highSchoolUrl(dest.name)
+    if (href) {
+      return (
+        <a
+          className="hsp-dest hsp-dest-out"
+          href={href}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <Marked text={dest.name} query={query} />
+          <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
+          {note && <span className="hsp-dest-note text-muted"> {note}</span>}
+          {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
+        </a>
+      )
+    }
     return (
       <span className="hsp-dest">
         <Marked text={dest.name} query={query} />
         {note && <span className="hsp-dest-note text-muted"> {note}</span>}
+        {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
       </span>
     )
   }
@@ -256,6 +282,7 @@ function DestinationChip({
       <Marked text={dest.name} query={query} />
       <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
       {note && <span className="hsp-dest-note text-muted"> {note}</span>}
+      {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
     </a>
   )
 }
@@ -489,10 +516,19 @@ const ALL = '__all'
 /**
  * The destination index: filter chips over the school's own categories.
  *
- * NO RANK LABELS, ever. `collegeRankings.ts` / `rankLabelFor()` is a US News
- * COLLEGE table with no high-school analogue, and none is invented here. The
- * four categories are the school's own published grouping — kinds of school, not
- * tiers of one — and are the only classification shown.
+ * RANK LABELS, added 2026-09-17. This comment previously read "NO RANK LABELS,
+ * ever" — on the grounds that `rankLabelFor()` is a US News COLLEGE table with
+ * no high-school analogue. That reasoning was about the absence of a SOURCE, not
+ * a judgement that ranks do not belong, and the user has since supplied one:
+ * Niche. Labels now resolve from `data/highSchools.ts` via `highSchoolRank()`.
+ *
+ * The labels stay WHOLE ("Charlotte Private #3", not "#3") because two distinct
+ * scales are in play — Charlotte-metro private K-12 for the independents,
+ * national boarding for the boarding schools. A bare #3 beside a bare #12 would
+ * invite a comparison neither ranking supports.
+ *
+ * Still true, and still the rule: the categories are NOT tiers. They are kinds
+ * of school, and the app invents no ranking of its own.
  */
 export function DestinationsBody({ data }: { data: Destinations }) {
   const { t } = useTranslation()

@@ -4564,6 +4564,15 @@ a.cs-college-name:focus-visible {
   text-decoration: underline;
 }
 .hsp-dest-arrow { color: var(--brand); font-size: 10px; }
+/* An OUTBOUND link to a school's own homepage, for a destination with no
+   dossier here yet. Deliberately NOT given the brand left edge: that edge means
+   "this school has a dossier in this app", and reusing it for an external link
+   would make the legend above the list wrong. The ↗ carries the affordance. */
+.hsp-dest-out { color: inherit; text-decoration: none; }
+.hsp-dest-out:hover { text-decoration: underline; }
+/* The Niche rank, flushed right — the one piece of the row that is a figure
+   rather than a name, so it sits in its own column like the college rank does. */
+.hsp-dest-rank { font-size: 11.5px; white-space: nowrap; margin-left: auto; padding-left: 12px; }
 /* The note sits directly beside its school name, not flushed right: across a
    924px row a right-aligned note drifts far from the name it qualifies and the
    longest one clipped the edge. `margin-right: auto` keeps the pair left and
