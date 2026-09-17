@@ -649,11 +649,16 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           {/* A visual SAMPLE of the cross-link treatment, not a link. It gets
               its own class rather than borrowing .hsp-dest-link, so that
               selector keeps meaning "a real cross-link to a dossier" for
-              anything that queries the page. */}
-          <span className="hsp-dest hsp-legend-swatch" aria-hidden="true">
-            <span className="hsp-dest-arrow">↗</span>
-          </span>
-          {t('highSchoolPlacement.crossLinkLegend', { count: linked })}
+              anything that queries the page.
+
+              THE SWATCH IS THE BLUE EDGE ALONE — no arrow (user, 2026-09-17).
+              It used to show the ↗ as well, which stopped distinguishing
+              anything once every school with a homepage became a link: the
+              arrow now appears on 81 of 95 rows and marks "this goes
+              somewhere", while the edge still marks the 10 that go to a
+              dossier IN THIS APP. */}
+          <span className="hsp-dest hsp-legend-swatch" aria-hidden="true" />
+          {t('highSchoolPlacement.crossLinkLegend')}
         </p>
       )}
 

@@ -4463,10 +4463,6 @@ a.cs-college-name:focus-visible {
   font-size: 12px;
   margin: 0 0 18px;
 }
-.hsp-legend-swatch {
-  border-left: 3px solid var(--brand);
-  padding-right: 8px;
-}
 
 .hsp-cat { margin-bottom: 18px; }
 
@@ -4550,6 +4546,21 @@ a.cs-college-name:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 .hsp-dest:last-child { border-bottom: none; }
+/* The legend's swatch: the brand edge ALONE, no arrow (the arrow now appears on
+   every linked row and no longer distinguishes anything). It holds no content,
+   so it needs its own height to render as a bar rather than collapsing.
+
+   MUST STAY AFTER .hsp-dest — it borrows that class for its sizing, and
+   .hsp-dest sets `border-left: 3px solid transparent`. Declared earlier, the
+   transparent edge wins on source order and the bar renders invisible. */
+.hsp-legend-swatch {
+  flex: none;
+  width: 0;
+  height: 15px;
+  padding: 0;
+  border-left: 3px solid var(--brand);
+  border-bottom: none;
+}
 /* The school name is ONE flex item, so a search highlight inside it does not
    become a sibling of the text around it. <Marked> returns bare text nodes
    interleaved with <mark> elements; without this wrapper each became its own
