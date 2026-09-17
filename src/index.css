@@ -4467,19 +4467,27 @@ a.cs-college-name:focus-visible {
 
 .hsp-cat { margin-bottom: 18px; }
 
+/* A LIST, not a chip cloud (user, 2026-09-17), on the Course Offerings pattern:
+   one destination per row, hairline-separated, so 99 school names scan down a
+   column instead of reflowing into ragged bands of boxes. The filter buttons
+   above are unchanged — they were already right. */
 .hsp-dest-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  flex-direction: column;
 }
 .hsp-dest {
-  display: inline-block;
-  font-size: 12.5px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  padding: 4px 9px;
-  line-height: 1.35;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 13px;
+  padding: 7px 0 7px 10px;
+  line-height: 1.45;
+  /* Transparent edge on every row so a linked row's brand edge does not shift
+     the text by 3px relative to its neighbours. */
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid var(--border);
 }
+.hsp-dest:last-child { border-bottom: none; }
 /* The cross-link to another school's dossier in this app — the app's first
    school-to-school link.
 
@@ -4488,7 +4496,7 @@ a.cs-college-name:focus-visible {
    school's own groupings, not a ranking, and the app must not imply one. An
    edge marks availability without ranking. */
 .hsp-dest-link {
-  border-left: 3px solid var(--brand);
+  border-left-color: var(--brand);
   color: inherit;
   text-decoration: none;
 }
@@ -4497,7 +4505,11 @@ a.cs-college-name:focus-visible {
   text-decoration: underline;
 }
 .hsp-dest-arrow { color: var(--brand); font-size: 10px; }
-.hsp-dest-note { font-size: 11px; }
+/* The note sits directly beside its school name, not flushed right: across a
+   924px row a right-aligned note drifts far from the name it qualifies and the
+   longest one clipped the edge. `margin-right: auto` keeps the pair left and
+   lets the row take the slack after them. */
+.hsp-dest-note { font-size: 11.5px; margin-right: auto; }
 
 /* Wide structured layouts, exactly like the College Support cards: never reflow
    them into the two-column prose columns .note-card[open] applies by default. */
