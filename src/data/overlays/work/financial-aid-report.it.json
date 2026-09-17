@@ -18,7 +18,8 @@
         "davidson-day:title",
         "carmel-christian:title",
         "hickory-grove-christian:title",
-        "gaston-day:title"
+        "gaston-day:title",
+        "trinity-episcopal:title"
       ],
       "t": "Rette e aiuti economici — Rapporto di approfondimento"
     },
@@ -113,7 +114,8 @@
         "charlotte-latin:sections[0].navTitle",
         "charlotte-catholic:sections[0].navTitle",
         "charlotte-country-day:sections[0].navTitle",
-        "cannon:sections[0].navTitle"
+        "cannon:sections[0].navTitle",
+        "trinity-episcopal:sections[0].navTitle"
       ],
       "t": "La tabella delle rette"
     },
@@ -152,7 +154,8 @@
         "providence-day:sections[0].bands[1].label",
         "charlotte-country-day:sections[0].bands[1].label",
         "cannon:sections[0].bands[1].label",
-        "carmel-christian:sections[0].bands[0].label"
+        "carmel-christian:sections[0].bands[0].label",
+        "trinity-episcopal:sections[1].bands[0].label"
       ],
       "t": "Kindergarten"
     },
@@ -296,7 +299,8 @@
         "providence-day:sections[1].title",
         "charlotte-latin:sections[1].title",
         "charlotte-country-day:sections[1].title",
-        "cannon:sections[1].title"
+        "cannon:sections[1].title",
+        "trinity-episcopal:sections[1].title"
       ],
       "t": "Oltre la retta — Il costo reale della frequenza"
     },
@@ -499,7 +503,8 @@
         "davidson-day:sections[2].navTitle",
         "carmel-christian:sections[2].navTitle",
         "hickory-grove-christian:sections[1].navTitle",
-        "gaston-day:sections[2].navTitle"
+        "gaston-day:sections[2].navTitle",
+        "trinity-episcopal:sections[2].navTitle"
       ],
       "t": "Il meccanismo degli aiuti"
     },
@@ -818,7 +823,8 @@
       "at": [
         "providence-day:sections[4].tag",
         "charlotte-country-day:sections[3].tag",
-        "cannon:sections[3].tag"
+        "cannon:sections[3].tag",
+        "trinity-episcopal:sections[2].tag"
       ],
       "t": "TUTTI GLI AIUTI SONO BASATI SUL BISOGNO"
     },
@@ -1320,7 +1326,8 @@
       "at": [
         "charlotte-latin:sections[0].bands[2].label",
         "covenant-day:sections[0].bands[2].label",
-        "carmel-christian:sections[0].bands[2].label"
+        "carmel-christian:sections[0].bands[2].label",
+        "trinity-episcopal:sections[0].bands[1].label"
       ],
       "t": "Classi 6–8"
     },
@@ -2369,7 +2376,8 @@
         "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle",
         "carmel-christian:sections[1].navTitle",
-        "gaston-day:sections[1].navTitle"
+        "gaston-day:sections[1].navTitle",
+        "trinity-episcopal:sections[1].navTitle"
       ],
       "t": "Quote e costi aggiuntivi"
     },
@@ -2554,22 +2562,6 @@
       "t": "Fare domanda di aiuti — Procedura e tempistiche"
     },
     {
-      "text": "22 Jan 2027",
-      "of": "dcaccc61",
-      "at": [
-        "charlotte-christian:sections[2].timeline[4].when"
-      ],
-      "t": "22 gen 2027"
-    },
-    {
-      "text": "Priority deadline for **current families** — via Clarity",
-      "of": "0b98338b",
-      "at": [
-        "charlotte-christian:sections[2].timeline[3].detail"
-      ],
-      "t": "Scadenza prioritaria per le **famiglie attuali** — tramite Clarity"
-    },
-    {
       "text": "27 Feb 2026",
       "of": "2777eb27",
       "at": [
@@ -2616,6 +2608,38 @@
         "charlotte-christian:sections[2].timeline[2].detail"
       ],
       "t": "I nuovi candidati delle classi 1–12 vengono informati entro questa data (ciclo 2026–27). Le domande successive sono comunque accettate, ma le assegnazioni sono limitate ai fondi disponibili per ciascun livello"
+    },
+    {
+      "text": "1 Nov 2026",
+      "of": "de7f4b1b",
+      "at": [
+        "charlotte-christian:sections[2].timeline[3].when"
+      ],
+      "t": "1 nov 2026"
+    },
+    {
+      "text": "Priority deadline for **current families** — via Clarity",
+      "of": "0b98338b",
+      "at": [
+        "charlotte-christian:sections[2].timeline[3].detail"
+      ],
+      "t": "Scadenza prioritaria per le **famiglie attuali** — tramite Clarity"
+    },
+    {
+      "text": "22 Jan 2027",
+      "of": "dcaccc61",
+      "at": [
+        "charlotte-christian:sections[2].timeline[4].when"
+      ],
+      "t": "22 gen 2027"
+    },
+    {
+      "text": "Priority deadline for **prospective families** — via Clarity",
+      "of": "a31cb4fa",
+      "at": [
+        "charlotte-christian:sections[2].timeline[4].detail"
+      ],
+      "t": "Scadenza prioritaria per le **famiglie nuove** — tramite Clarity"
     },
     {
       "text": "A requirement unique in this series — and since withdrawn",
@@ -2846,7 +2870,8 @@
       "text": "Enrollment deposit",
       "of": "e1e9eb43",
       "at": [
-        "charlotte-christian:sections[4].plans[0].label"
+        "charlotte-christian:sections[4].plans[0].label",
+        "trinity-episcopal:sections[1].components[12].label"
       ],
       "t": "Deposito d'iscrizione"
     },
@@ -3408,7 +3433,8 @@
       "text": "State Funding",
       "of": "c3eaa0ef",
       "at": [
-        "charlotte-catholic:sections[4].navTitle"
+        "charlotte-catholic:sections[4].navTitle",
+        "trinity-episcopal:sections[4].navTitle"
       ],
       "t": "Finanziamenti statali"
     },
@@ -4928,7 +4954,8 @@
         "davidson-day:sections[2].title",
         "carmel-christian:sections[2].title",
         "hickory-grove-christian:sections[1].title",
-        "gaston-day:sections[2].title"
+        "gaston-day:sections[2].title",
+        "trinity-episcopal:sections[2].title"
       ],
       "t": "Procedura e tempistiche degli aiuti"
     },
@@ -5020,7 +5047,8 @@
         "covenant-day:sections[3].navTitle",
         "carmel-christian:sections[3].navTitle",
         "hickory-grove-christian:sections[2].navTitle",
-        "gaston-day:sections[3].navTitle"
+        "gaston-day:sections[3].navTitle",
+        "trinity-episcopal:sections[3].navTitle"
       ],
       "t": "Aiuti in cifre"
     },
@@ -5031,7 +5059,8 @@
         "covenant-day:sections[3].title",
         "carmel-christian:sections[3].title",
         "hickory-grove-christian:sections[2].title",
-        "gaston-day:sections[3].title"
+        "gaston-day:sections[3].title",
+        "trinity-episcopal:sections[3].title"
       ],
       "t": "Cosa rivelano le cifre"
     },
@@ -6157,7 +6186,8 @@
       "of": "7bf2eed2",
       "at": [
         "carmel-christian:sections[2].boxes[0].title",
-        "hickory-grove-christian:sections[1].boxes[0].title"
+        "hickory-grove-christian:sections[1].boxes[0].title",
+        "trinity-episcopal:sections[2].timeline[0].when"
       ],
       "t": "Piattaforma"
     },
@@ -7176,7 +7206,8 @@
       "text": "State",
       "of": "1deca496",
       "at": [
-        "gaston-day:sections[4].ladder[2].gift"
+        "gaston-day:sections[4].ladder[2].gift",
+        "trinity-episcopal:sections[4].ladder[0].gift"
       ],
       "t": "Statale"
     },
@@ -7365,20 +7396,532 @@
       "t": "Considerata la scadenza continua e l’avvertimento sull’esaurimento dei fondi ad agosto, entro quale data dovrebbe realisticamente candidarsi una famiglia?"
     },
     {
-      "text": "1 Nov 2026",
-      "of": "de7f4b1b",
+      "text": "2026–27 school year · figures as of 16 Sep 2026",
+      "of": "ec2d25a8",
       "at": [
-        "charlotte-christian:sections[2].timeline[3].when"
+        "trinity-episcopal:meta"
       ],
-      "t": "1 nov 2026"
+      "t": ""
     },
     {
-      "text": "Priority deadline for **prospective families** — via Clarity",
-      "of": "a31cb4fa",
+      "text": "Two deadlines, two months apart.",
+      "of": "563c4abb",
       "at": [
-        "charlotte-christian:sections[2].timeline[4].detail"
+        "trinity-episcopal:framing[0].title"
       ],
-      "t": "Scadenza prioritaria per le **famiglie nuove** — tramite Clarity"
+      "t": ""
+    },
+    {
+      "text": "Returning families apply for support by **1 Dec 2026**; families starting in fall 2027 have until **1 Feb 2027**. Using the wrong one misses the date by two months.",
+      "of": "ac3a5bdb",
+      "at": [
+        "trinity-episcopal:framing[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "K–8 aid only.",
+      "of": "e34a7c17",
+      "at": [
+        "trinity-episcopal:framing[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Trinity is a K–8 school with no upper division, so every figure here is elementary and middle school tuition assistance. Not financial advice.",
+      "of": "bf194a96",
+      "at": [
+        "trinity-episcopal:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Tuition Table — Two Bands, Moving in Lockstep",
+      "of": "ca8b2010",
+      "at": [
+        "trinity-episcopal:sections[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published tuition by band, 2026-27 against 2025-26",
+      "of": "2258964c",
+      "at": [
+        "trinity-episcopal:sections[0].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades K–5",
+      "of": "e8cd7ed8",
+      "at": [
+        "trinity-episcopal:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two bands cover all nine grades. Four years of first-party history, recovered from the school's own archived tuition page: 2023-24 $22,605* / $24,312*, 2024-25 $23,961 / $25,771, 2025-26 $25,400 / $27,320, and 2026-27 $26,670 / $28,690. Year-over-year that is **+6.0% → +6.0% → +5.0%, identically for both bands** — they have moved in lockstep and have never diverged. The asterisk on the 2023-24 figures is the school's own; the footnote it points to was not captured.",
+      "of": "e0672322",
+      "at": [
+        "trinity-episcopal:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every dollar figure for Trinity lives in a Google Doc titled \"Cost of Attendance for 2026-27\", not on the tuition page itself. The tuition page carries the bands and the deadlines; the doc carries the fees.",
+      "of": "569a0d13",
+      "at": [
+        "trinity-episcopal:sections[0].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "New-student versus returning-student rates",
+      "of": "e49a5a38",
+      "at": [
+        "trinity-episcopal:sections[0].bullets[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What tuition itself includes — no inclusions statement appears anywhere",
+      "of": "1b6420d7",
+      "at": [
+        "trinity-episcopal:sections[0].bullets[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Any multi-child or sibling tuition discount",
+      "of": "bca029dd",
+      "at": [
+        "trinity-episcopal:sections[0].bullets[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Activity fee by grade, 2026-27",
+      "of": "e02529c0",
+      "at": [
+        "trinity-episcopal:sections[1].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 1",
+      "of": "20673dd7",
+      "at": [
+        "trinity-episcopal:sections[1].bands[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 2",
+      "of": "21673f6a",
+      "at": [
+        "trinity-episcopal:sections[1].bands[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 3",
+      "of": "226740fd",
+      "at": [
+        "trinity-episcopal:sections[1].bands[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 4",
+      "of": "1b6735f8",
+      "at": [
+        "trinity-episcopal:sections[1].bands[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 5",
+      "of": "1c67378b",
+      "at": [
+        "trinity-episcopal:sections[1].bands[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 6",
+      "of": "1d67391e",
+      "at": [
+        "trinity-episcopal:sections[1].bands[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 7",
+      "of": "1e673ab1",
+      "at": [
+        "trinity-episcopal:sections[1].bands[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade 8",
+      "of": "17672fac",
+      "at": [
+        "trinity-episcopal:sections[1].bands[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Trinity prices the activity fee **per grade**, one of very few schools on this roster to do so. It runs from **$210** in Kindergarten to **$1,045** in 8th grade, rising at grade 4 (**$545**) and again at grade 6 (**$965**). What the fee buys is not stated.",
+      "of": "523ee2a3",
+      "at": [
+        "trinity-episcopal:sections[1].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What sits outside tuition",
+      "of": "bc1a331f",
+      "at": [
+        "trinity-episcopal:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Activity fee — per grade · $210 to $1,045",
+      "of": "ac5a39ff",
+      "at": [
+        "trinity-episcopal:sections[1].components[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lunch (FLIK) — per meal · $11.50",
+      "of": "ec820788",
+      "at": [
+        "trinity-episcopal:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lunch — annual plan, Lower School · $1,375",
+      "of": "9db39523",
+      "at": [
+        "trinity-episcopal:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lunch — annual plan, Middle School · $1,520",
+      "of": "e91367fd",
+      "at": [
+        "trinity-episcopal:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lunch — 20-meal block · $195 LS / $210 MS",
+      "of": "fac98d73",
+      "at": [
+        "trinity-episcopal:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Trinity Extended Day — monthly, by household income · $105–$380",
+      "of": "66323900",
+      "at": [
+        "trinity-episcopal:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day drop-in · $31/day ($25 with support)",
+      "of": "c24f3650",
+      "at": [
+        "trinity-episcopal:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Summer camp — Wildcat Summer Camp · $225–$785 per camp",
+      "of": "eed1332c",
+      "at": [
+        "trinity-episcopal:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Books — no charge listed for any grade",
+      "of": "0b0aa083",
+      "at": [
+        "trinity-episcopal:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition refund insurance (A.W.G. Dewar)",
+      "of": "2c421ae6",
+      "at": [
+        "trinity-episcopal:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day enrichments — \"an additional fee\"",
+      "of": "eeb2ac70",
+      "at": [
+        "trinity-episcopal:sections[1].components[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Application fee",
+      "of": "b01f638d",
+      "at": [
+        "trinity-episcopal:sections[1].components[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Books column of the Cost of Attendance document shows a run of dashes for every grade. The document uses **words** when it means see-elsewhere — the Lunch and TED columns read \"Options in chart below\" and \"Based on income in chart below\" — and dashes when it means a null, and it is titled \"Cost of Attendance\". So **no book charge is listed** for any grade. The document never writes the word \"included\", so neither does this report.",
+      "of": "61fc733b",
+      "at": [
+        "trinity-episcopal:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school is insured by **A.W.G. Dewar, Inc.** for tuition refunds and links the brochure, but publishes no price for the plan.",
+      "of": "25c81161",
+      "at": [
+        "trinity-episcopal:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A REAL AFFORDABILITY CAVEAT",
+      "of": "7df837a0",
+      "at": [
+        "trinity-episcopal:sections[1].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid does not reach the lunch line",
+      "of": "13361b1b",
+      "at": [
+        "trinity-episcopal:sections[1].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Cost of Attendance document states it outright: **\"FLIK is not reduced for families receiving financial support.\"** A Middle School annual meal plan is $1,520 at full price whatever a family's award. The school does note it \"is more economical to purchase a 20-meal block than pay $11.50 per lunch,\" and that above three lunches a week the annual plan is cheapest.",
+      "of": "dc9720a6",
+      "at": [
+        "trinity-episcopal:sections[1].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All qualified families apply through **Clarity** at app.clarityapp.com; the school links a \"2026-27 Clarity Family Application Guide\"",
+      "of": "a1b97339",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1 Dec 2026",
+      "of": "1c26c736",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Returning families** — deadline for support for 2027-28. This includes families already receiving support and those who will seek it for the first time",
+      "of": "13c5804c",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 Jan 2027",
+      "of": "d2e4c0b1",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[2].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admission applications open for families new to Trinity",
+      "of": "df50bd00",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1 Feb 2027",
+      "of": "66d5ad62",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[3].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Prospective families** — support application deadline for a child beginning at Trinity in fall 2027",
+      "of": "2ca67ee0",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "26 Feb 2027",
+      "of": "09e2a001",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[4].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Application materials due; first admission decisions follow",
+      "of": "b38fc52b",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 Apr 2027",
+      "of": "e417d8a6",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[5].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Later admission decisions",
+      "of": "03db085f",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[5].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Returning families are due two months earlier",
+      "of": "1788e060",
+      "at": [
+        "trinity-episcopal:sections[2].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "This is the single most consequential date on the page and it is easy to get wrong, because the two deadlines sit near each other on the same tuition page. A returning family that works from the **1 Feb** prospective-family date is **two months late**. The school states the basis plainly: \"Financial awards are based on **demonstrated need** as assessed by Clarity,\" and \"**The application for financial support has no bearing on admission.**\"",
+      "of": "0dfa0c48",
+      "at": [
+        "trinity-episcopal:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of students receive financial support, 2026-27 (excludes Tuition Remission)",
+      "of": "8ab281ce",
+      "at": [
+        "trinity-episcopal:sections[3].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "total financial support awarded, 2026-27",
+      "of": "fc4e73c1",
+      "at": [
+        "trinity-episcopal:sections[3].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "students enrolled",
+      "of": "fa248fae",
+      "at": [
+        "trinity-episcopal:sections[3].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "operating budget, 2026-27",
+      "of": "b1ea7355",
+      "at": [
+        "trinity-episcopal:sections[3].stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A genuine three-point series, which few schools on this roster publish: **26% / $2.1 million in 2023-24**, **29% / $2 million in 2025-26**, and **31% / $2,139,114 in 2026-27**. The share has risen steadily while the dollar total dipped and recovered. The 2026-27 figures carry the school's own qualifier, \"**(excludes Tuition Remission)**\" — employee tuition benefits sit outside this number.",
+      "of": "ed1c7756",
+      "at": [
+        "trinity-episcopal:sections[3].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 2025-26 School Profile says \"28.9%\" where the tuition page said \"29%\" for the same year; the whole-number form is used here. Reported aid is school-wide only — there is no split by grade band, and no separate figure for K–5 against 6–8.",
+      "of": "d4a2015a",
+      "at": [
+        "trinity-episcopal:sections[3].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Second Route — the NC Opportunity Scholarship",
+      "of": "25713b4c",
+      "at": [
+        "trinity-episcopal:sections[4].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**NC Opportunity Scholarship** — administered by the **North Carolina State Education Assistance Authority**, and promoted by Trinity as \"an **additional option** for you to explore beyond financial support.\" The school links the program and does not state an amount, an eligibility threshold, or how it interacts with its own aid.",
+      "of": "682255a1",
+      "at": [
+        "trinity-episcopal:sections[4].ladder[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Need",
+      "of": "f316d80d",
+      "at": [
+        "trinity-episcopal:sections[4].ladder[1].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Trinity's own financial support** — need-based, assessed by Clarity, reaching 31% of students with $2,139,114 awarded in 2026-27. This is the school's primary channel and the only one it publishes numbers for.",
+      "of": "f9e058ee",
+      "at": [
+        "trinity-episcopal:sections[4].ladder[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two channels, and no merit programme at all",
+      "of": "227b3e6e",
+      "at": [
+        "trinity-episcopal:sections[4].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Trinity runs need-based support and points separately at the state scholarship. **No merit scholarship, named endowed scholarship, or academic award appears anywhere on the site** — every dollar of the school's own aid is need-based. Whether a family can hold an Opportunity Scholarship alongside Trinity support, and whether one offsets the other, is not published.",
+      "of": "98d0b174",
+      "at": [
+        "trinity-episcopal:sections[4].boxes[0].body"
+      ],
+      "t": ""
     }
   ]
 }

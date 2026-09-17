@@ -206,21 +206,25 @@ export const trinityEpiscopal: ClubsProgram = {
     societies: [
       {
         name: 'Mock Trial — NC Bar Foundation state champions, 2023 · 2024 · 2025',
-        division: 'Middle School · 15 students',
+        // Bare division name, as every other school's rows carry. The roster
+        // size, the 7th-grade class and the election all live in `recognizes`
+        // below, which is extracted prose — a qualifier in this field is a
+        // sentence in a table cell under a "Division" header, and ships English.
+        division: 'Middle School',
         recognizes:
           'Three consecutive state championships in the North Carolina Bar Foundation’s Middle School competition, coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams.',
         feedsFrom: 'the classroom',
       },
       {
         name: 'Speech & Debate — state champions the same year',
-        division: 'Middle School · also a 7th-grade class',
+        division: 'Middle School',
         recognizes:
           '"The speech and debate and mock trial teams both won their respective state championships this year." Speech & Debate is simultaneously a weekly 7th-grade enrichment and a competitive team, so it is both a class and a club.',
         feedsFrom: 'the classroom',
       },
       {
         name: 'Honor Council',
-        division: 'Middle School · elected',
+        division: 'Middle School',
         recognizes:
           'Members are "elected by their grade level peers in Middle School" and are responsible for encouraging integrity, building a community of trust, and holding fellow students to the pledge. Eighth graders "often find themselves… leading honor councils".',
         feedsFrom: 'the whole school',

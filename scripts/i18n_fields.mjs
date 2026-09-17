@@ -644,20 +644,6 @@ export const PATH_OVERRIDES = new Map([
   // the cross-link. A machine identifier, never display text: translating it
   // makes schoolBySlug() miss and the link silently degrades to plain text,
   // with no error — the same reading as `flags[].kind` at the top of this map.
-  // `division` is a division NAME everywhere else in the app — "Upper School",
-  // "Grades 1–5", "JK & K" — and is skipped on that basis. Trinity Episcopal's
-  // honor-society rows append a qualifier to it: "Middle School · 15 students",
-  // "· also a 7th-grade class", "· elected". The division half round-trips; the
-  // half after the separator is prose and ships English if this field is
-  // skipped.
-  //
-  // This is the leak shape this repo keeps re-finding — a field classified
-  // correctly for the values it held, which later gains one that is a phrase
-  // (`ensembles`, `tag`, `since`, `meta`). Scoped to the one path rather than
-  // promoting the leaf, because the other 37 `division` values genuinely are
-  // names and extracting them would ask nine locales to re-type "Upper School".
-  ['honors.societies[].division', true],
-
   ['destinations.categories[].schools[].slug', false],
   // Per-destination qualifiers, keyed by the destination's own NAME, so each
   // entry is its own path and the leaf is a proper noun. This is what the

@@ -74,7 +74,8 @@
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
         "hickory-grove-christian:offered.seasons[0].name",
-        "gaston-day:offered.seasons[0].name"
+        "gaston-day:offered.seasons[0].name",
+        "trinity-episcopal:offered.seasons[0].name"
       ],
       "t": "Automne"
     },
@@ -104,7 +105,8 @@
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
         "hickory-grove-christian:offered.seasons[1].name",
-        "gaston-day:offered.seasons[1].name"
+        "gaston-day:offered.seasons[1].name",
+        "trinity-episcopal:offered.seasons[1].name"
       ],
       "t": "Hiver"
     },
@@ -122,7 +124,8 @@
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
         "hickory-grove-christian:offered.seasons[2].name",
-        "gaston-day:offered.seasons[2].name"
+        "gaston-day:offered.seasons[2].name",
+        "trinity-episcopal:offered.seasons[2].name"
       ],
       "t": "Printemps"
     },
@@ -5886,7 +5889,8 @@
       "text": "20 yrs",
       "of": "d7cc331b",
       "at": [
-        "cannon:coaching.featured[0].stats[1].value"
+        "cannon:coaching.featured[0].stats[1].value",
+        "trinity-episcopal:coaching.featured[0].stats[0].value"
       ],
       "t": "20 ans"
     },
@@ -6313,7 +6317,9 @@
       "text": "4 teams",
       "of": "12157781",
       "at": [
-        "covenant-day:offered.seasons[1].note"
+        "covenant-day:offered.seasons[1].note",
+        "trinity-episcopal:offered.seasons[0].note",
+        "trinity-episcopal:offered.seasons[2].note"
       ],
       "t": "4 équipes"
     },
@@ -8627,6 +8633,174 @@
         "gaston-day:facilities.careNote"
       ],
       "t": "Cette carte est volontairement courte. Toutes les écoles homologues de cette liste publient un inventaire de leurs installations ; Gaston Day ne le fait pas, et le seul document qui le porterait (l’Athletic Handbook) est inaccessible. Il s’agit d’une lacune de publication, non d’une absence d’installations — un campus qui engage 19 sports en possède manifestement."
+    },
+    {
+      "text": "7 sports across 10 season-teams, with no skill-based cuts — \"If a student wants to play one of the sports we offer then we create that opportunity.\"",
+      "of": "f8d1a57f",
+      "at": [
+        "trinity-episcopal:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A K–8 middle school programme in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: \"Play Hard, Play Smart, Play Together, and Have Fun\".",
+      "of": "f443635c",
+      "at": [
+        "trinity-episcopal:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "distinct sports offered",
+      "of": "b64957c3",
+      "at": [
+        "trinity-episcopal:offered.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "season-teams across three seasons",
+      "of": "3305ff96",
+      "at": [
+        "trinity-episcopal:offered.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of Middle School plays in at least one season",
+      "of": "fddec10a",
+      "at": [
+        "trinity-episcopal:offered.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Queen City Conference · not the GCMSAA",
+      "of": "b9ea8813",
+      "at": [
+        "trinity-episcopal:offered.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 teams",
+      "of": "9666f7e7",
+      "at": [
+        "trinity-episcopal:offered.seasons[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Selected results, not a record — Trinity has published exactly two seasons, Fall 2023 and Winter 2024, all of it Queen City Conference play. WINTER 2024: \"For the first time in school history, the Trinity 8th Grade boys' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season.\" The title was clinched in a 54–23 win at home over Carmel Christian. FALL 2023: the girls cross country team was \"conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference.\" Alongside it, the 7th/8th Grade boys soccer team won both the conference title and the tournament championship; the 8th Grade volleyball team tied for first; and boys cross country placed third, with 3 runners in the top 15 and 1 named all-conference.",
+      "of": "95397459",
+      "at": [
+        "trinity-episcopal:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One name carries this programme: David Martin, Athletic Director and head basketball coach since 2004 — a twenty-year tenure that ended in the school's first championship.",
+      "of": "546651c3",
+      "at": [
+        "trinity-episcopal:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: David Martin, who is also the only athletics staff member Trinity lists anywhere. Assistant Coach Jason Martin works alongside him on the basketball staff.",
+      "of": "5cbe1f6f",
+      "at": [
+        "trinity-episcopal:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The twenty-year anchor · AD and head basketball coach, since 2004",
+      "of": "d038cb0a",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "leading the basketball programme",
+      "of": "61ee92d3",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2004",
+      "of": "ce2e9a4b",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "joined Trinity; the team began with him",
+      "of": "2d78ca9d",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~250",
+      "of": "db1d922c",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "students on the 8th Grade team, by his own count",
+      "of": "21389499",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Martin has helmed the basketball team since its beginning in 2004 when he joined Trinity. By his count, some 250 students have played on the 8th Grade team in that time — the school's own hedge, and it should be carried rather than presented as a counted figure. There had been many close brushes with a championship before the Feb. 8, 2024 win: \"For 20 daggum years, I have thought about this moment pretty much nonstop,\" Martin said. \"I can't explain how much energy has gone into trying to win this tournament championship over the last 20 years.\" He is Athletic Director as well as head coach, which is what a K–8 athletics department of this size looks like from the inside.",
+      "of": "191d6f6c",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director · Head Basketball Coach",
+      "of": "dcd81bcd",
+      "at": [
+        "trinity-episcopal:coaching.tenure[0].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2004",
+      "of": "60010f49",
+      "at": [
+        "trinity-episcopal:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Assistant Coach, basketball — \"another longtime Trinity staculty member\"",
+      "of": "ff257356",
+      "at": [
+        "trinity-episcopal:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "longtime",
+      "of": "8943c94a",
+      "at": [
+        "trinity-episcopal:coaching.tenure[1].since"
+      ],
+      "t": ""
     }
   ]
 }
