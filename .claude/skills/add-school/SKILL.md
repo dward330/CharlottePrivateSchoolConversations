@@ -139,7 +139,8 @@ For each research area, probe the sources that area actually lives on:
 | Student Clubs | a clubs/activities list; honor-society pages; student-life section |
 | The Arts | fine-arts department pages, performance calendar, Blumey-style award records |
 | Sports | athletics site, team rosters, state-association records, recruiting DBs for commits |
-| College Support | the **school profile** PDF and matriculation/acceptance list — the single highest-value document. For an **NC** school there is also a government-published fallback: the UNC-system Tableau dashboard gives Applied/Admitted/Enrolled per high school × campus (see the `nc-admissions-data` skill). Do not conclude "not published" for college outcomes without considering it. |
+| College Support *(K–12 only — **skip entirely for a K–8 school**)* | the **school profile** PDF and matriculation/acceptance list — the single highest-value document. For an **NC** school there is also a government-published fallback: the UNC-system Tableau dashboard gives Applied/Admitted/Enrolled per high school × campus (see the `nc-admissions-data` skill). Do not conclude "not published" for college outcomes without considering it. |
+| **High School Placement** *(K–8 only)* | the **school profile PDF** first — it is where a K–8 school publishes its cumulative destination list, and it is usually the only place. Then commencement / "where they're going" blog posts for the recent classes, and any page naming a placement counsellor. Score it on: a **named destination list**, a **cumulative split** (independent / public / boarding), a **denominator** for any figure, and whether a **counselling structure** is described. ⚑ **This is the area that decides a K–8 school** — it is what a parent is buying, so a candidate strong everywhere else with no published placement record is a genuine no-go. |
 | After School | extended-day / aftercare page with **published hours and prices** |
 | Summer Programs | a summer camp catalog with sessions and prices |
 | Financial Aid & Tuition | published tuition table, aid percentages, and (if it exists) a Form 990 |
@@ -173,7 +174,13 @@ the methodology. Take the denominator from `coverage:floor`, never from this exa
 and remember the ceiling is one below the raw topic count, since a K–12 school has no
 High School Placement area and a K–8 school has no College Support.
 
-**The per-area table**, with the schema's own areas as rows:
+**The per-area table**, with the schema's own areas as rows.
+
+**⚑ For a K–8 school, DROP the Compare-rows column entirely** — do not print it as a
+column of zeros. There are none to score, and a zero column would drag every coverage
+percentage down and read as a school-wide failure. This is the same `—` rule below,
+applied to the whole column rather than one cell. Its rows are also the K–8 area set:
+College Support out, High School Placement in.
 
 | Research area | Core prose cards | Structured card | Compare rows | Coverage | Verdict |
 |---|--:|--:|--:|--:|---|
@@ -401,6 +408,22 @@ When the user picks it, run a **focused deep research pass on that one area only
   `Private School Review`, NCES, the school's Form 990, archived versions of pages
   (a tuition table pulled before an inquiry-form redesign still counts as published), local
   press, the diocese or association the school belongs to, and PDFs the site never links.
+- **⚑ A SMALL SCHOOL'S REAL DATA IS OFTEN OFF ITS WEB PAGES ENTIRELY, and a
+  sitemap-only sweep will wrongly fail it.** Trinity Episcopal has no `/arts`, `/clubs` or
+  course-catalog page at all, yet publishes every one of those — its **school profile PDF**
+  carried tuition, aid figures, athletics by season, the full clubs list and ~101 named
+  high schools; **Google Docs** held every price (export with `/export?format=txt`);
+  **Vimeo** held the production titles the arts pages never name; and its blog was only
+  enumerable by id, because the index showed 11 of 51 posts and the tag filter returned
+  zero. Before concluding an area is unpublished on a school this size, check for a profile
+  PDF, linked Google Docs, a video channel, and whether the blog paginates.
+- **Two traps that defeat an HTTP-status check**, also from that school: a "Page Not
+  Published" stub returns **200** at 554 bytes, and an empty blog thread returns **200** at
+  40 KB. **Check body size, not status** — a 404 there was a constant 1,231 bytes.
+- **A versioned PDF 404s when the next edition ships.** Trinity's profile URL is dated by
+  school year and the prior editions are gone. If a profile PDF is carrying an area, say so
+  in the brief: `/implement` must capture its text into `source-material/` first, or the
+  figures become uncitable.
 - **For College Support on an NC school, the deep pass includes the `nc-admissions-data`
   skill** — the UNC-system dashboard publishes Applied/Admitted/Enrolled per high school ×
   campus regardless of what the school itself chooses to publish. It is well suited to this
@@ -486,8 +509,8 @@ the thin-area walk. (User-set, 2026-08-16 — moved here from step 1.)
 
 Ask the user:
 
-> Which **Welcome Video** do you want on this school's page? Paste a YouTube link — or say
-> "none" and the page simply won't show a Welcome Video section.
+> Which **Welcome Video** do you want on this school's page? Paste a YouTube **or Vimeo**
+> link — or say "none" and the page simply won't show a Welcome Video section.
 
 Rules for this question:
 
@@ -498,9 +521,17 @@ Rules for this question:
   without one hides the Welcome Video section and its TOC entries entirely (the standing
   absence-not-emptiness rule). Record the explicit "none" so `/implement` doesn't treat
   the gap as an oversight.
-- **Normalize to the embed form.** `brands.ts` requires a YouTube **embed** URL
-  (`https://www.youtube.com/embed/<id>`), not a watch/share link — convert whatever the
-  user pastes and confirm the video ID back to them.
+- **Normalize to the embed form.** `brands.ts` requires an **embed** URL, not a watch or
+  share link — convert whatever the user pastes and confirm the video ID back to them:
+  - YouTube → `https://www.youtube.com/embed/<id>`
+  - **Vimeo → `https://player.vimeo.com/video/<id>`**
+- **BOTH HOSTS WORK, with no component change.** `WelcomeVideo` passes the URL straight
+  into `<iframe src>` and has no provider-specific logic, so a Vimeo school needs nothing
+  built. Do not flag it as a UX gate or a blocker — the first Vimeo school (Trinity
+  Episcopal) was wrongly flagged as needing component work in its brief, and the real cost
+  was a data entry. **Do check the video is embeddable**: Vimeo's API reports
+  `embed_privacy`, and a video set to `whitelist` will render a blank frame on the live
+  site rather than failing loudly.
 - **Carry it into the `/plan` brief** (step 6), where it lands in the plan's `brands.ts`
   step so `/implement` wires `welcomeVideoUrl` alongside the color and initials.
 
