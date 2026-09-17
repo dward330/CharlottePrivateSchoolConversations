@@ -45,7 +45,9 @@
         "hickory-grove-christian:catalog.categoryFilters[0].label",
         "hickory-grove-christian:catalog.gradeFilters[0].label",
         "gaston-day:catalog.categoryFilters[0].label",
-        "gaston-day:catalog.gradeFilters[0].label"
+        "gaston-day:catalog.gradeFilters[0].label",
+        "trinity-episcopal:catalog.categoryFilters[0].label",
+        "trinity-episcopal:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -537,7 +539,27 @@
         "gaston-day:catalog.camps[22].dayLabel",
         "gaston-day:catalog.camps[23].dayLabel",
         "gaston-day:catalog.camps[24].dayLabel",
-        "gaston-day:catalog.camps[25].dayLabel"
+        "gaston-day:catalog.camps[25].dayLabel",
+        "trinity-episcopal:catalog.camps[7].dayLabel",
+        "trinity-episcopal:catalog.camps[8].dayLabel",
+        "trinity-episcopal:catalog.camps[9].dayLabel",
+        "trinity-episcopal:catalog.camps[10].dayLabel",
+        "trinity-episcopal:catalog.camps[11].dayLabel",
+        "trinity-episcopal:catalog.camps[12].dayLabel",
+        "trinity-episcopal:catalog.camps[18].dayLabel",
+        "trinity-episcopal:catalog.camps[19].dayLabel",
+        "trinity-episcopal:catalog.camps[20].dayLabel",
+        "trinity-episcopal:catalog.camps[21].dayLabel",
+        "trinity-episcopal:catalog.camps[22].dayLabel",
+        "trinity-episcopal:catalog.camps[23].dayLabel",
+        "trinity-episcopal:catalog.camps[24].dayLabel",
+        "trinity-episcopal:catalog.camps[25].dayLabel",
+        "trinity-episcopal:catalog.camps[26].dayLabel",
+        "trinity-episcopal:catalog.camps[27].dayLabel",
+        "trinity-episcopal:catalog.camps[30].dayLabel",
+        "trinity-episcopal:catalog.camps[31].dayLabel",
+        "trinity-episcopal:catalog.camps[32].dayLabel",
+        "trinity-episcopal:catalog.camps[33].dayLabel"
       ]
     },
     {
@@ -6144,7 +6166,12 @@
         "charlotte-country-day:catalog.camps[10].weeks",
         "charlotte-country-day:catalog.camps[42].weeks",
         "charlotte-country-day:catalog.camps[55].weeks",
-        "charlotte-country-day:catalog.camps[65].weeks"
+        "charlotte-country-day:catalog.camps[65].weeks",
+        "trinity-episcopal:catalog.camps[18].weeks",
+        "trinity-episcopal:catalog.camps[19].weeks",
+        "trinity-episcopal:catalog.camps[20].weeks",
+        "trinity-episcopal:catalog.camps[21].weeks",
+        "trinity-episcopal:catalog.camps[22].weeks"
       ]
     },
     {
@@ -6204,7 +6231,13 @@
         "charlotte-country-day:catalog.camps[34].weeks",
         "charlotte-country-day:catalog.camps[35].weeks",
         "charlotte-country-day:catalog.camps[50].weeks",
-        "charlotte-country-day:catalog.camps[52].weeks"
+        "charlotte-country-day:catalog.camps[52].weeks",
+        "trinity-episcopal:catalog.camps[7].weeks",
+        "trinity-episcopal:catalog.camps[8].weeks",
+        "trinity-episcopal:catalog.camps[9].weeks",
+        "trinity-episcopal:catalog.camps[10].weeks",
+        "trinity-episcopal:catalog.camps[11].weeks",
+        "trinity-episcopal:catalog.camps[12].weeks"
       ]
     },
     {
@@ -6234,7 +6267,13 @@
       "of": "f1330710",
       "at": [
         "charlotte-country-day:catalog.camps[14].weeks",
-        "charlotte-country-day:catalog.camps[41].weeks"
+        "charlotte-country-day:catalog.camps[41].weeks",
+        "trinity-episcopal:catalog.camps[28].weeks",
+        "trinity-episcopal:catalog.camps[29].weeks",
+        "trinity-episcopal:catalog.camps[30].weeks",
+        "trinity-episcopal:catalog.camps[31].weeks",
+        "trinity-episcopal:catalog.camps[32].weeks",
+        "trinity-episcopal:catalog.camps[33].weeks"
       ]
     },
     {
@@ -6494,7 +6533,12 @@
         "charlotte-country-day:catalog.camps[43].weeks",
         "charlotte-country-day:catalog.camps[44].weeks",
         "charlotte-country-day:catalog.camps[64].weeks",
-        "charlotte-country-day:catalog.camps[66].weeks"
+        "charlotte-country-day:catalog.camps[66].weeks",
+        "trinity-episcopal:catalog.camps[23].weeks",
+        "trinity-episcopal:catalog.camps[24].weeks",
+        "trinity-episcopal:catalog.camps[25].weeks",
+        "trinity-episcopal:catalog.camps[26].weeks",
+        "trinity-episcopal:catalog.camps[27].weeks"
       ]
     },
     {
@@ -7006,7 +7050,14 @@
       "t": "15–18 يونيو",
       "of": "78da4201",
       "at": [
-        "charlotte-country-day:catalog.camps[69].weeks"
+        "charlotte-country-day:catalog.camps[69].weeks",
+        "trinity-episcopal:catalog.camps[0].weeks",
+        "trinity-episcopal:catalog.camps[1].weeks",
+        "trinity-episcopal:catalog.camps[2].weeks",
+        "trinity-episcopal:catalog.camps[3].weeks",
+        "trinity-episcopal:catalog.camps[4].weeks",
+        "trinity-episcopal:catalog.camps[5].weeks",
+        "trinity-episcopal:catalog.camps[6].weeks"
       ]
     },
     {
@@ -7535,7 +7586,19 @@
         "hickory-grove-christian:catalog.camps[14].dayLabel",
         "gaston-day:catalog.camps[5].dayLabel",
         "gaston-day:catalog.camps[6].dayLabel",
-        "gaston-day:catalog.camps[12].dayLabel"
+        "gaston-day:catalog.camps[12].dayLabel",
+        "trinity-episcopal:catalog.camps[0].dayLabel",
+        "trinity-episcopal:catalog.camps[1].dayLabel",
+        "trinity-episcopal:catalog.camps[2].dayLabel",
+        "trinity-episcopal:catalog.camps[3].dayLabel",
+        "trinity-episcopal:catalog.camps[4].dayLabel",
+        "trinity-episcopal:catalog.camps[5].dayLabel",
+        "trinity-episcopal:catalog.camps[6].dayLabel",
+        "trinity-episcopal:catalog.camps[13].dayLabel",
+        "trinity-episcopal:catalog.camps[14].dayLabel",
+        "trinity-episcopal:catalog.camps[15].dayLabel",
+        "trinity-episcopal:catalog.camps[16].dayLabel",
+        "trinity-episcopal:catalog.camps[17].dayLabel"
       ]
     },
     {
@@ -9344,7 +9407,9 @@
       "t": "روضة صاعدة",
       "of": "de34ad9e",
       "at": [
-        "carmel-christian:catalog.gradeFilters[1].label"
+        "carmel-christian:catalog.gradeFilters[1].label",
+        "trinity-episcopal:catalog.gradeFilters[1].label",
+        "trinity-episcopal:catalog.camps[4].gradeLabel"
       ]
     },
     {
@@ -11166,6 +11231,828 @@
       "of": "ea1315a4",
       "at": [
         "gaston-day:costPlanner.flags[1].text"
+      ]
+    },
+    {
+      "t": "75 مخيمًا مذكورًا بالاسم عبر ستة أسابيع للصفوف الصاعدة K–8، من مخيم حِرَف لنصف يوم بـ $225 إلى دورة أكاديمية لثلاثة أسابيع بـ $785 — وهي مفتوحة لأي طفل في المجتمع المحلي، لا لأسر Trinity وحدها.",
+      "of": "250f3cb9",
+      "at": [
+        "trinity-episcopal:catalog.headline"
+      ]
+    },
+    {
+      "t": "تُقام المخيمات من 15 June إلى 24 July 2026 في الحرم بوسط المدينة. وأنصاف الأيام من 9 a.m.–12 p.m. أو 1–4 p.m.، والأيام الكاملة من 9 a.m.–4 p.m.، واثنان من الأسابيع الستة أسبوعان من أربعة أيام.",
+      "of": "a8c88ebc",
+      "at": [
+        "trinity-episcopal:catalog.subhead"
+      ]
+    },
+    {
+      "t": "STEM والبرمجة",
+      "of": "abb94144",
+      "at": [
+        "trinity-episcopal:catalog.categoryFilters[1].label",
+        "trinity-episcopal:catalog.camps[0].categoryLabel",
+        "trinity-episcopal:catalog.camps[7].categoryLabel",
+        "trinity-episcopal:catalog.camps[12].categoryLabel",
+        "trinity-episcopal:catalog.camps[15].categoryLabel",
+        "trinity-episcopal:catalog.camps[21].categoryLabel",
+        "trinity-episcopal:catalog.camps[26].categoryLabel"
+      ]
+    },
+    {
+      "t": "الفنون والصناعة اليدوية",
+      "of": "55d02026",
+      "at": [
+        "trinity-episcopal:catalog.categoryFilters[2].label",
+        "trinity-episcopal:catalog.camps[1].categoryLabel",
+        "trinity-episcopal:catalog.camps[2].categoryLabel",
+        "trinity-episcopal:catalog.camps[8].categoryLabel",
+        "trinity-episcopal:catalog.camps[20].categoryLabel",
+        "trinity-episcopal:catalog.camps[31].categoryLabel"
+      ]
+    },
+    {
+      "t": "الرياضة والأنشطة الخارجية",
+      "of": "441b5fe5",
+      "at": [
+        "trinity-episcopal:catalog.categoryFilters[3].label",
+        "trinity-episcopal:catalog.camps[3].categoryLabel",
+        "trinity-episcopal:catalog.camps[5].categoryLabel",
+        "trinity-episcopal:catalog.camps[10].categoryLabel",
+        "trinity-episcopal:catalog.camps[11].categoryLabel",
+        "trinity-episcopal:catalog.camps[24].categoryLabel",
+        "trinity-episcopal:catalog.camps[28].categoryLabel",
+        "trinity-episcopal:catalog.camps[29].categoryLabel"
+      ]
+    },
+    {
+      "t": "TES Academy",
+      "of": "333cd3f1",
+      "at": [
+        "trinity-episcopal:catalog.categoryFilters[4].label",
+        "trinity-episcopal:catalog.camps[6].categoryLabel",
+        "trinity-episcopal:catalog.camps[13].categoryLabel",
+        "trinity-episcopal:catalog.camps[17].categoryLabel",
+        "trinity-episcopal:catalog.camps[22].categoryLabel",
+        "trinity-episcopal:catalog.camps[33].categoryLabel"
+      ]
+    },
+    {
+      "t": "الألعاب والإثراء",
+      "of": "66deb737",
+      "at": [
+        "trinity-episcopal:catalog.categoryFilters[5].label",
+        "trinity-episcopal:catalog.camps[4].categoryLabel",
+        "trinity-episcopal:catalog.camps[14].categoryLabel",
+        "trinity-episcopal:catalog.camps[16].categoryLabel",
+        "trinity-episcopal:catalog.camps[18].categoryLabel",
+        "trinity-episcopal:catalog.camps[19].categoryLabel",
+        "trinity-episcopal:catalog.camps[23].categoryLabel",
+        "trinity-episcopal:catalog.camps[25].categoryLabel",
+        "trinity-episcopal:catalog.camps[32].categoryLabel"
+      ]
+    },
+    {
+      "t": "الفنون الأدائية",
+      "of": "1cec885c",
+      "at": [
+        "trinity-episcopal:catalog.categoryFilters[6].label",
+        "trinity-episcopal:catalog.camps[9].categoryLabel",
+        "trinity-episcopal:catalog.camps[27].categoryLabel",
+        "trinity-episcopal:catalog.camps[30].categoryLabel"
+      ]
+    },
+    {
+      "t": "1",
+      "of": "340ca71c",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[2].label"
+      ]
+    },
+    {
+      "t": "2",
+      "of": "370cabd5",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[3].label"
+      ]
+    },
+    {
+      "t": "3",
+      "of": "360caa42",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[4].label"
+      ]
+    },
+    {
+      "t": "4",
+      "of": "310ca263",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[5].label"
+      ]
+    },
+    {
+      "t": "5",
+      "of": "300ca0d0",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[6].label"
+      ]
+    },
+    {
+      "t": "6",
+      "of": "330ca589",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[7].label"
+      ]
+    },
+    {
+      "t": "7",
+      "of": "320ca3f6",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[8].label"
+      ]
+    },
+    {
+      "t": "8",
+      "of": "3d0cb547",
+      "at": [
+        "trinity-episcopal:catalog.gradeFilters[9].label"
+      ]
+    },
+    {
+      "t": "مخيم اليوم الكامل للرياضيات والروبوتات والبرمجة ضمن مسار المورّد CAMMP. ولا تنطبق المساعدة المالية على CAMMP.",
+      "of": "c6f4b824",
+      "at": [
+        "trinity-episcopal:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1-6",
+      "of": "7ba3e683",
+      "at": [
+        "trinity-episcopal:catalog.camps[0].gradeLabel",
+        "trinity-episcopal:catalog.camps[10].gradeLabel",
+        "trinity-episcopal:catalog.camps[16].gradeLabel",
+        "trinity-episcopal:catalog.camps[32].gradeLabel"
+      ]
+    },
+    {
+      "t": "9-4p",
+      "of": "eaf44237",
+      "at": [
+        "trinity-episcopal:catalog.camps[0].hours",
+        "trinity-episcopal:catalog.camps[1].hours",
+        "trinity-episcopal:catalog.camps[8].hours",
+        "trinity-episcopal:catalog.camps[9].hours",
+        "trinity-episcopal:catalog.camps[10].hours",
+        "trinity-episcopal:catalog.camps[15].hours",
+        "trinity-episcopal:catalog.camps[18].hours",
+        "trinity-episcopal:catalog.camps[20].hours",
+        "trinity-episcopal:catalog.camps[24].hours",
+        "trinity-episcopal:catalog.camps[30].hours"
+      ]
+    },
+    {
+      "t": "مخيم فنون رقمية وتقليدية ليوم كامل، وهو أحد مخيمَين مقصورين على جنس واحد في القائمة.",
+      "of": "cc0d9633",
+      "at": [
+        "trinity-episcopal:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "صاعد 3-5",
+      "of": "52fc223c",
+      "at": [
+        "trinity-episcopal:catalog.camps[1].gradeLabel",
+        "trinity-episcopal:catalog.camps[27].gradeLabel"
+      ]
+    },
+    {
+      "t": "صناعة أزياء قابلة للارتداء من موادّ مُعاد استخدامها — وبسعر $225، وهو أدنى سعر في القائمة.",
+      "of": "18666752",
+      "at": [
+        "trinity-episcopal:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2-5",
+      "of": "cf2bce7b",
+      "at": [
+        "trinity-episcopal:catalog.camps[2].gradeLabel",
+        "trinity-episcopal:catalog.camps[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "9-12p",
+      "of": "fefe779c",
+      "at": [
+        "trinity-episcopal:catalog.camps[2].hours",
+        "trinity-episcopal:catalog.camps[3].hours",
+        "trinity-episcopal:catalog.camps[4].hours",
+        "trinity-episcopal:catalog.camps[5].hours",
+        "trinity-episcopal:catalog.camps[6].hours",
+        "trinity-episcopal:catalog.camps[7].hours",
+        "trinity-episcopal:catalog.camps[11].hours",
+        "trinity-episcopal:catalog.camps[12].hours",
+        "trinity-episcopal:catalog.camps[14].hours",
+        "trinity-episcopal:catalog.camps[16].hours",
+        "trinity-episcopal:catalog.camps[17].hours",
+        "trinity-episcopal:catalog.camps[22].hours",
+        "trinity-episcopal:catalog.camps[23].hours",
+        "trinity-episcopal:catalog.camps[25].hours",
+        "trinity-episcopal:catalog.camps[26].hours",
+        "trinity-episcopal:catalog.camps[27].hours",
+        "trinity-episcopal:catalog.camps[31].hours",
+        "trinity-episcopal:catalog.camps[32].hours",
+        "trinity-episcopal:catalog.camps[33].hours"
+      ]
+    },
+    {
+      "t": "مهارات كرة سلّة لنصف يوم على ملاعب المدرسة نفسها.",
+      "of": "9438aa6c",
+      "at": [
+        "trinity-episcopal:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2-6",
+      "of": "d02bd00e",
+      "at": [
+        "trinity-episcopal:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم حركة ولعب موجَّه إلى أصغر المشاركين في القائمة.",
+      "of": "f34817b6",
+      "at": [
+        "trinity-episcopal:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "مخيم دراجات لنصف يوم للنطاقات الأكبر في Middle School.",
+      "of": "5162a0a5",
+      "at": [
+        "trinity-episcopal:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "صاعد 4-8",
+      "of": "a8840d5a",
+      "at": [
+        "trinity-episcopal:catalog.camps[5].gradeLabel",
+        "trinity-episcopal:catalog.camps[15].gradeLabel",
+        "trinity-episcopal:catalog.camps[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "المسار الأكاديمي الخاص بـ Trinity — عمل على محو الأمية للصفوف المبكرة. ولا تنطبق المساعدة المالية على مخيمات TES Academy.",
+      "of": "59091dac",
+      "at": [
+        "trinity-episcopal:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1-3",
+      "of": "7ea3eb3c",
+      "at": [
+        "trinity-episcopal:catalog.camps[6].gradeLabel",
+        "trinity-episcopal:catalog.camps[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "مسار برمجة Roblox لدى Black Rocket؛ ورفيقه المسائي هو Roblox Makers بالسعر نفسه.",
+      "of": "02a07af9",
+      "at": [
+        "trinity-episcopal:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "صاعد 3-8",
+      "of": "57fc2a1b",
+      "at": [
+        "trinity-episcopal:catalog.camps[7].gradeLabel",
+        "trinity-episcopal:catalog.camps[11].gradeLabel",
+        "trinity-episcopal:catalog.camps[18].gradeLabel",
+        "trinity-episcopal:catalog.camps[21].gradeLabel",
+        "trinity-episcopal:catalog.camps[26].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم رسم رقمي ليوم كامل لنطاق Middle School.",
+      "of": "ecea0045",
+      "at": [
+        "trinity-episcopal:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "صاعد 5-8",
+      "of": "3503b4a1",
+      "at": [
+        "trinity-episcopal:catalog.camps[8].gradeLabel",
+        "trinity-episcopal:catalog.camps[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم أداء ليوم كامل، وأحد أوسع ثلاثة نطاقات صفّية في القائمة.",
+      "of": "c7346c0d",
+      "at": [
+        "trinity-episcopal:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2-8",
+      "of": "ca2bc69c",
+      "at": [
+        "trinity-episcopal:catalog.camps[9].gradeLabel",
+        "trinity-episcopal:catalog.camps[25].gradeLabel"
+      ]
+    },
+    {
+      "t": "مسار P3 Soccer لدى Coach Pedro. ويُقام في الأسبوع نفسه أيضًا نصف يوم مقصور على الصاعدين إلى K بـ $295.",
+      "of": "b531d7aa",
+      "at": [
+        "trinity-episcopal:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "تدريب تنس لنصف يوم يشمل نطاق Middle School كلّه.",
+      "of": "15fdee7c",
+      "at": [
+        "trinity-episcopal:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "أحد أربعة مخيمات علوم غير منسوبة إلى مورّد؛ ورفيقه المسائي هو Candy Chemistry بالسعر نفسه.",
+      "of": "64225c80",
+      "at": [
+        "trinity-episcopal:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1-4",
+      "of": "7da3e9a9",
+      "at": [
+        "trinity-episcopal:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "أعلى سعر في القائمة ودورتها متعدّدة الأسابيع الوحيدة — إذ يغطّي مبلغ $785 الأسابيع الثلاثة كلّها. وهي بالدعوة فقط، وعلى الطلاب أن يكونوا مسجَّلين في Trinity لعام 2026-27.",
+      "of": "bcd1bea7",
+      "at": [
+        "trinity-episcopal:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "TES 1-3",
+      "of": "11d791a4",
+      "at": [
+        "trinity-episcopal:catalog.camps[13].gradeLabel"
+      ]
+    },
+    {
+      "t": "8:30-12p",
+      "of": "5ff2474c",
+      "at": [
+        "trinity-episcopal:catalog.camps[13].hours"
+      ]
+    },
+    {
+      "t": "29 يونيو-2 يوليو (من 3 أسابيع)",
+      "of": "f8d4412a",
+      "at": [
+        "trinity-episcopal:catalog.camps[13].weeks"
+      ]
+    },
+    {
+      "t": "مخيم قيادة لـ Middle School، وهو ثاني المخيمَين المقصورين على جنس واحد.",
+      "of": "9d96c806",
+      "at": [
+        "trinity-episcopal:catalog.camps[14].desc"
+      ]
+    },
+    {
+      "t": "29 يونيو-2 يوليو",
+      "of": "7e9ab272",
+      "at": [
+        "trinity-episcopal:catalog.camps[14].weeks",
+        "trinity-episcopal:catalog.camps[15].weeks",
+        "trinity-episcopal:catalog.camps[16].weeks",
+        "trinity-episcopal:catalog.camps[17].weeks"
+      ]
+    },
+    {
+      "t": "مخيم STEM ليوم كامل؛ ويُقام مجدّدًا في أسبوع June 22-26 بـ $425 للنسخة ذات الأيام الخمسة.",
+      "of": "9d9147d0",
+      "at": [
+        "trinity-episcopal:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "مخيم برمجة وألغاز لنصف يوم؛ ورفيقه المسائي هو Secret Agent Lab بالسعر نفسه.",
+      "of": "05d449f5",
+      "at": [
+        "trinity-episcopal:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "جسر رياضيات مخصَّص لصفّ بعينه؛ وتُقام شُعَب منفصلة للصف 6 هنا وللصفّين 7 و8 في أسبوع July 6-10 بـ $275.",
+      "of": "e455c7b2",
+      "at": [
+        "trinity-episcopal:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "صاعد 6",
+      "of": "0b34f475",
+      "at": [
+        "trinity-episcopal:catalog.camps[17].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم موضوعي ليوم كامل في أكبر أسابيع الصيف، الذي يضمّ 17 مخيمًا.",
+      "of": "a3c29590",
+      "at": [
+        "trinity-episcopal:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "المخيم الوحيد في القائمة ذو الجدول اليومي المختلط — 9-12p من الاثنين إلى الأربعاء، ويوم كامل الخميس، و9-12p الجمعة.",
+      "of": "cba7987f",
+      "at": [
+        "trinity-episcopal:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "9-12p الاثنين-الأربعاء، 9-4p الخميس، 9-12p الجمعة",
+      "of": "82841bb1",
+      "at": [
+        "trinity-episcopal:catalog.camps[19].hours"
+      ]
+    },
+    {
+      "t": "يُقام في شُعبتين منفصلتين ليوم كامل في الأسبوع نفسه، صاعد 2-5 وصاعد 6-8، كلٌّ منهما بـ $425.",
+      "of": "5c25e65c",
+      "at": [
+        "trinity-episcopal:catalog.camps[20].desc"
+      ]
+    },
+    {
+      "t": "مسار الذكاء الاصطناعي المسائي لدى Black Rocket؛ ورفيقه الصباحي هو Minecraft Designers بالسعر نفسه.",
+      "of": "46084921",
+      "at": [
+        "trinity-episcopal:catalog.camps[21].desc"
+      ]
+    },
+    {
+      "t": "1-4p",
+      "of": "74849a9f",
+      "at": [
+        "trinity-episcopal:catalog.camps[21].hours"
+      ]
+    },
+    {
+      "t": "مخيم رياضيات متعدّد الحواسّ لصفّ واحد ضمن المسار الأكاديمي الخاص بـ Trinity.",
+      "of": "4eea3dd0",
+      "at": [
+        "trinity-episcopal:catalog.camps[22].desc"
+      ]
+    },
+    {
+      "t": "صاعد 3",
+      "of": "0634ec96",
+      "at": [
+        "trinity-episcopal:catalog.camps[22].gradeLabel"
+      ]
+    },
+    {
+      "t": "أوسع نطاق صفّي في القائمة كلّها — من الصاعدين إلى K حتى 8 في مخيم واحد.",
+      "of": "ae1c0f6d",
+      "at": [
+        "trinity-episcopal:catalog.camps[23].desc"
+      ]
+    },
+    {
+      "t": "صاعد K-8",
+      "of": "53c8cb63",
+      "at": [
+        "trinity-episcopal:catalog.camps[23].gradeLabel"
+      ]
+    },
+    {
+      "t": "شعبة P3 ليوم كامل؛ ويُقام في الأسبوع نفسه نصف يوم مقصور على الصاعدين إلى K بـ $305.",
+      "of": "54a85451",
+      "at": [
+        "trinity-episcopal:catalog.camps[24].desc"
+      ]
+    },
+    {
+      "t": "مخيم طهو وزراعة، وأحد أوسع ثلاثة نطاقات صفّية في القائمة.",
+      "of": "325870d5",
+      "at": [
+        "trinity-episcopal:catalog.camps[25].desc"
+      ]
+    },
+    {
+      "t": "قيادة طائرات مسيَّرة وتحدّيات لنصف يوم؛ ورفيقه المسائي هو Virtual Reality: The Future is Now.",
+      "of": "36121bc3",
+      "at": [
+        "trinity-episcopal:catalog.camps[26].desc"
+      ]
+    },
+    {
+      "t": "مخيم مسرح غنائي لنصف يوم للصفوف الوسطى.",
+      "of": "a7f14436",
+      "at": [
+        "trinity-episcopal:catalog.camps[27].desc"
+      ]
+    },
+    {
+      "t": "يديره برنامج Venture Outdoor Leadership في UNC-Charlotte، وهو ثاني أعلى سعر في القائمة. ويُقام يومَي الاثنين والثلاثاء فقط.",
+      "of": "229cbb33",
+      "at": [
+        "trinity-episcopal:catalog.camps[28].desc"
+      ]
+    },
+    {
+      "t": "صاعد 6-8",
+      "of": "f5da6710",
+      "at": [
+        "trinity-episcopal:catalog.camps[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "الاثنين–الثلاثاء",
+      "of": "0deb4604",
+      "at": [
+        "trinity-episcopal:catalog.camps[28].dayLabel",
+        "trinity-episcopal:catalog.camps[29].dayLabel"
+      ]
+    },
+    {
+      "t": "9-4p الاثنين-الثلاثاء",
+      "of": "5adb436c",
+      "at": [
+        "trinity-episcopal:catalog.camps[28].hours",
+        "trinity-episcopal:catalog.camps[29].hours"
+      ]
+    },
+    {
+      "t": "شعبة Venture Outdoor Leadership الأصغر سنًّا، وهي أيضًا يومَي الاثنين والثلاثاء فقط.",
+      "of": "d96c7737",
+      "at": [
+        "trinity-episcopal:catalog.camps[29].desc"
+      ]
+    },
+    {
+      "t": "صاعد 4-5",
+      "of": "9d83fc09",
+      "at": [
+        "trinity-episcopal:catalog.camps[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم ليوم كامل يقدّم عرضًا في خمسة أيام، موجَّه إلى أصغر النطاقات سنًّا.",
+      "of": "5053c474",
+      "at": [
+        "trinity-episcopal:catalog.camps[30].desc"
+      ]
+    },
+    {
+      "t": "صاعد K-2",
+      "of": "5dc8db21",
+      "at": [
+        "trinity-episcopal:catalog.camps[30].gradeLabel"
+      ]
+    },
+    {
+      "t": "يُقدَّم مرّتين في الأسبوع نفسه في شُعبتَي نصف يوم متطابقتين، صباحية ومسائية.",
+      "of": "bfa1feb4",
+      "at": [
+        "trinity-episcopal:catalog.camps[31].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1-5",
+      "of": "7ca3e816",
+      "at": [
+        "trinity-episcopal:catalog.camps[31].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم استكشاف بموضوع شارلوت، ويُقدَّم هو أيضًا في شعبة صباحية وأخرى مسائية.",
+      "of": "60281ba1",
+      "at": [
+        "trinity-episcopal:catalog.camps[32].desc"
+      ]
+    },
+    {
+      "t": "رياضيات للصفوف المبكرة ضمن المسار الخاص بـ Trinity — لطلاب TES الحاليين أو الملتحقين لعام 2026-27 فقط.",
+      "of": "7b311a79",
+      "at": [
+        "trinity-episcopal:catalog.camps[33].desc"
+      ]
+    },
+    {
+      "t": "TES 1-2",
+      "of": "12d79337",
+      "at": [
+        "trinity-episcopal:catalog.camps[33].gradeLabel"
+      ]
+    },
+    {
+      "t": "ستة أسابيع، وتقع مخيمات Trinity المسعَّرة البالغة 83 مخيمًا في خمس شرائح واضحة — اختر واحدة، وحدّد الأسابيع، وأضِف الرعاية التي تحتاجها أسرة عاملة.",
+      "of": "2c90d1e2",
+      "at": [
+        "trinity-episcopal:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "الغداء لا يُباع في المخيم بأي صورة: فالمشاركون يحضرون غداءهم بأنفسهم. كما أن المشارك في نصف يوم صباحي لا يستطيع شراء رعاية بعد المخيم إطلاقًا، وهو القيد الأقرب إلى إفساد أي خطة.",
+      "of": "001f326b",
+      "at": [
+        "trinity-episcopal:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "نصف يوم، الشريحة الأولى",
+      "of": "f6b2c778",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "مخيم نصف يوم · شريحة $225–$245",
+      "of": "f65f36f3",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "21 مخيمًا. وهو أعلى سعر في الشريحة؛ وتبدأ من $225.",
+      "of": "d2351b2f",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "نصف يوم، الشريحة الرئيسية",
+      "of": "259cbaad",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "مخيم نصف يوم · شريحة $255–$295",
+      "of": "7d1b5407",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "أكبر الشرائح — 38 مخيمًا — وهي السعر الوسيط في القائمة.",
+      "of": "7560f0bc",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "نصف يوم مميّز / يوم كامل قصير",
+      "of": "1bab3d85",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "مخيم مميّز · شريحة $305–$395",
+      "of": "61ddb489",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "8 مخيمات، منها شُعَب اليوم الكامل في أسابيع الأربعة أيام.",
+      "of": "bb9f277f",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "مخيم يوم كامل",
+      "of": "306ccddc",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[3].label"
+      ]
+    },
+    {
+      "t": "مخيم يوم كامل · شريحة $400–$475",
+      "of": "f98e5c17",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[3].panelLabel"
+      ]
+    },
+    {
+      "t": "13 مخيمًا من 9 a.m.–4 p.m. — وهو السعر المعتاد لليوم الكامل على مدى خمسة أيام.",
+      "of": "e16dd77a",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[3].detail"
+      ]
+    },
+    {
+      "t": "تخصّصي / متعدّد الأسابيع",
+      "of": "aa616f96",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[4].label"
+      ]
+    },
+    {
+      "t": "مخيم تخصّصي · شريحة $525–$785",
+      "of": "e77b2bb3",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[4].panelLabel"
+      ]
+    },
+    {
+      "t": "3 مخيمات — شعبتا Camp Independence وبرنامج Summer LEAP الممتدّ ثلاثة أسابيع.",
+      "of": "73fd280e",
+      "at": [
+        "trinity-episcopal:costPlanner.tiers[4].detail"
+      ]
+    },
+    {
+      "t": "الرعاية قبل المخيم 7:45–9:00am",
+      "of": "2ca5515f",
+      "at": [
+        "trinity-episcopal:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "الرعاية بعد المخيم 4:00–5:30pm",
+      "of": "51554af6",
+      "at": [
+        "trinity-episcopal:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "دفعة غير قابلة للاسترداد، لكل مخيم",
+      "of": "97136d00",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "رسم إداري، عند التسجيل",
+      "of": "a2ce18b7",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "**خيارا الرعاية معًا بـ $175/week** — وهو مجموع الخيارين، فالدمج لا يوفّر شيئًا. ⚠️ **لا رعاية بعد المخيم للمشاركين في نصف يوم صباحي**: فمخيم 9 a.m.–12 p.m. ينتهي ظهرًا.",
+      "of": "19304519",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "**يخصم 4ORMORE مبلغ $25 من كل مخيم** عند **أربعة أسابيع أو أكثر من مخيمات اليوم الكامل** (وتُحتسب 8 أنصاف أيام ما يعادلها). ⚠️ **لكل مشارك، لا لكل أسرة** — فطفلان بأسبوعين لكلٍّ منهما لا يستوفيان الشرط.",
+      "of": "523e1560",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "**تستثني المساعدة المالية مخيمات CAMMP وTES Academy وBlack Rocket** — أي معظم قائمة البرمجة والمسار الأكاديمي كلّه. والمساعدة بحسب أسبقية التقديم؛ وتقدّم الأسر من غير Trinity أحدث إقرارين ضريبيين.",
+      "of": "7ca82e6f",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "**الغداء يحضره المشارك معه** — فلا خيار FLIK هنا، بخلاف العام الدراسي. والمشارك الذي يجمع نصفَي يوم **يبقى في الحرم لتناول الغداء والاستراحة** قبل جلسة 1:00. والمخيم \"strives to be nut-free\"؛ والوجبات الخفيفة مطلوبة، واحدة لكل نصف يوم.",
+      "of": "77badfb3",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[5].label"
+      ]
+    },
+    {
+      "t": "**الاصطحاب المتأخّر: مهلة خمس دقائق، ثم $5/دقيقة** — بعد 12:05 (نصف يوم)، و4:05 (يوم كامل)، و5:35 (الرعاية بعد المخيم). **وحالتان أو أكثر في أسبوع واحد قد تعني الاستبعاد دون استرداد.**",
+      "of": "eb0607f2",
+      "at": [
+        "trinity-episcopal:costPlanner.fees[6].label"
+      ]
+    },
+    {
+      "t": "تصبح التسجيلات نهائية في 1 مايو.",
+      "of": "db868585",
+      "at": [
+        "trinity-episcopal:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "يستحقّ الرصيد المتبقّي ويُسحب من الحساب المسجَّل في ذلك اليوم؛ والتسجيل في 1 مايو أو بعده يعني السداد بالكامل. **وتتطلّب جميع مخيمات TES Academy السداد الكامل عند التسجيل.** ويُغلق التسجيل الإلكتروني قبل أسبوع من كل دورة، وقد يُفرض **رسم إداري قدره $25** على التسجيل المتأخّر أو تبديل المخيم. ولا تُصرف المبالغ المستردّة عمومًا بعد 1 مايو، وإن كان يمكن تحويل دفعة التسجيل الملغى ورسمه إلى مخيم آخر.",
+      "of": "99595fa2",
+      "at": [
+        "trinity-episcopal:costPlanner.aside.text"
       ]
     }
   ]
