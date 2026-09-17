@@ -1,7 +1,7 @@
 ---
 name: add-trinity-episcopal
 title: Add Trinity Episcopal School — the first K–8 school to occupy the PreK–8 shape, across eight research areas
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-09-16
 branch: feat/trinity-episcopal
@@ -789,3 +789,114 @@ placement-process prose that cannot be recovered.
 institutions)** including Harvard, Stanford, MIT, Duke, Brown and Penn, plus **2
 Morehead-Cain Scholars** (from an alumni graphic — note its "904 alumni" tile is **stale**
 against the PDF's 1,060; use the PDF). See *Approvals needed*.
+
+---
+
+## Implementation notes — Phase 1 (2026-09-16)
+
+Phase 1 shipped English-only across 10 commits on `feat/trinity-episcopal`. The build
+is green (21 chained checks, exit 0) and the page was verified in a real browser.
+
+### Where the build deviated from the plan
+
+**1. Three structured-card types encode K–12 assumptions, and Trinity's data is a
+different shape — not a thinner version of the same shape.** This is the single
+biggest finding of the build, and it recurred three times:
+
+- `PlacementClass` requires `acceptedPct` + `acceptedCount`, rendered under a chrome
+  header reading **"Accepted to a top-two choice"** in all ten locales. Trinity
+  publishes no acceptance rate — "first choice", "top two" and "97%" return **zero
+  hits** across 100 sitemap pages, 51 blog posts and both profile PDFs. It publishes
+  **matriculation** instead (graduates / "lifers" / distinct high schools per class).
+  Shipped `classes: []` with the series in `stats` and `destinations`.
+- `WinningRecord` requires a state-title matrix and win-% bars, and `TitleResult` is
+  an NCISAA vocabulary where `RUNNER-UP` means *lost the state final*. Trinity won
+  **middle-school Queen City Conference** titles, which the type cannot express — a
+  first draft labelled four championships `RUNNER-UP`. The `record` card is omitted
+  and the results ship as prose.
+- The shared arts theatre card is titled **"Theatre & the Blumeys"**, a high-school
+  award a K–8 school cannot enter. Fixed with `TITLE_OVERRIDES` + locale keys.
+
+Each was resolved by omission plus prose, which is honest and needed no UX approval.
+**A PreK–8-aware variant of these types is the real fix and is a UX-gate conversation.**
+
+**2. The After School Cost Planner is NOT buildable as the plan assumed.** The plan
+says a published "18.5 days/month × 10 months" billing basis makes an annual figure
+defensible. **That basis does not exist** (0 hits for `18.5`, `averag`, `10 month`),
+and the school labels its own monthly figure "**Estimated**". Two further TED policies
+the plan cited — a 1.5% late fee and a three-occasion removal rule — are also absent;
+the two-instance removal rule belongs to the **camp**. TED ships as monthly rates with
+no derived annual total, and the `cost` card is omitted because every available
+`basis` value either publishes a forbidden annual total or prints a wrong unit.
+
+**3. `⛔ The plan's "Algebra 1 and Geometry for HS credit in 8th" is unsupported.**
+Trinity never says it. The only high-school-credit claim on the site is the world
+language (Spanish I / Latin I), and that is what shipped.
+
+**4. The Arts is NOT a thin area — two "confirmed absent" claims were wrong.** The
+plan omits an awards card because awards were "confirmed empty". In fact Trinity has
+two student art awards, a Youth Art Month exhibition at the Carolina Theatre, a
+"Deeply Rooted" exhibition at the VAPA Center, a 2025 CATO Excellence in Teaching
+Award for its Visual Arts Director, and an ongoing Ghana art exchange. The earlier
+reading came from searching only the two Enrichments pages; the recognition lives in
+the blog. **User approved building it in (2026-09-16), without student names.**
+
+**5. Mock Trial — three-peat NC state champions — was missing from the plan entirely**,
+as was a Speech & Debate state championship. Both shipped. Conversely **NJHS and
+Student Council do NOT ship**: both return zero hits site-wide despite confident
+third-party web prose, the same contamination class as the bogus "NJHS GPA 3.6" detail.
+
+**6. A figure in the plan is wrong.** 2025-26 grade 6–8 tuition is **$27,320**, not
+$25,771 — the school's own 25-26 profile PDF carried the prior year forward. Proven
+against four archived snapshots of its tuition page. Both bands rose identically at
++6.0% / +6.0% / +5.0%.
+
+**7. A build-blocking defect, fixed.** Trinity is the first school with a **Vimeo**
+welcome video, and Vimeo sits behind a Cloudflare bot challenge whose `blob:` request
+never settles — so `prerender.mjs`'s `waitUntil: 'networkidle'` timed out and
+**`npm run build` failed for the whole site**. Third-party video embeds are now
+blocked during prerender. Measured: 15s+ timeout with the embed, 685ms without.
+The video itself plays correctly for a real visitor (verified in a headed browser).
+
+**8. Counting corrections.** The club roster is **15**, not 14 (my source file's
+heading disagreed with the verbatim quote beneath it). The blog has **51 real posts**
+with no empty threads, and the counselor article is **recoverable** — threadids 6 and
+7 have their titles *swapped*, where the plan recorded the article as lost.
+
+### Also done early, from Phase 2
+
+Steps 15–16 were pulled forward: `scripts/i18n_topics.mjs` now registers
+`trinity-episcopal` **and** the `high-school-placement` topic. The topic was absent
+entirely, so without it Phase 2 would have reported 100% coverage while shipping the
+school's most important area as English to all nine locales. Verified positively —
+the extractor now reaches **254 translatable strings** in that area.
+
+### How the page reads (Step 14)
+
+Expanded, in a real browser, against two reference schools:
+
+| School | Text | Cards |
+|---|--:|--:|
+| Providence Day (richest) | 166,837 | 40 |
+| **Trinity Episcopal** | **117,519** | **43** |
+| Davidson Day (the coverage floor) | 100,654 | 31 |
+
+Nine areas render; College Support is **absent, not empty**; no Compare button appears
+and `?schools=trinity-episcopal` cannot inject a column; the badge is the school crest.
+**Sports is the thinnest area at 2 cards** (6,640 chars) — the one place the page
+visibly runs short.
+
+### Open for the user at review
+
+- **Sports ships 2 cards.** Everything published is there, but it is the thinnest area.
+- **A fifth High School Placement card** for the college list (2004–2022, 160
+  institutions incl. Harvard, Stanford, MIT, Duke) — new card, UX gate, not built.
+  ⚠️ It is where alumni went **after finishing high school elsewhere**, so it must
+  never be framed as Trinity's own college outcomes.
+- **Extending `PlacementClass`** with matriculation fields, so the per-class series
+  (graduates / lifers / distinct schools) renders as a table instead of stat tiles.
+- **The `honors` clubs card is titled "Honor Societies"** but holds a competition
+  ledger — Trinity has no chartered society. A title override would need approval.
+- **Admissions `watchOuts` is populated** here, against the four most recent cards
+  shipping `watchOuts: []` (decision 2026-09-01). Trinity's carry the three errors in
+  the school's own published copy, which no step can. Easy to empty for consistency.
