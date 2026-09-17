@@ -1,7 +1,7 @@
 ---
 name: schoolwebsitelink
 title: Link the school name and mascot crest on each dossier header to that school's own homepage
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-17
 branch: feat/school-website-link
@@ -503,6 +503,49 @@ is needed to read it.
   chips, 0 overflowing (2 before the fix), 4 wrapping to a second line (exactly the
   sentence-length ones).
 
-### Still to do
+### Phase 2 — deviations and findings
 
-Phase 2 — translate `a11y.schoolSiteLink` into the nine non-English catalogs.
+**No deviations.** One key, `a11y.schoolSiteLink`, into the nine non-English
+catalogs, inserted after `crestAlt` to hold each catalog's existing alphabetical
+`a11y` ordering. `a11y.opensNewTab` was never created (Phase 1's resolved
+default), so there was nothing else to translate. No prose overlay, extractor or
+rollout doc was touched, as the plan specified.
+
+**`{{school}}` moves as expected, and two locales put it first.** `bn`
+(`{{school}}-এর ওয়েবসাইট দেখুন`), `te` and `hi` lead with the school name because
+the verb is final; `es`/`fr`/`it`/`ht`/`ar`/`fa` lead with the verb. Nothing is
+concatenated — each is one interpolated string.
+
+**RTL needed no isolate work, as the plan predicted.** `ar` and `fa` hold no
+figures; the one embedded strong-LTR run is the school's own proper noun, which
+the bidi algorithm places correctly with no LRI/PDI. Confirmed in the browser: the
+`<h1>` computes `direction: rtl` and still sits inside its header box
+(`h1.right=1084 <= header.right=1225`), so the link introduces no RTL overflow.
+
+**`check:chrome` passes but does NOT gate this key.** It audits skip-field
+promises, not new catalog keys (recorded in the `chrome-check-is-not-a-new-key-gate`
+memory note) — its ✓ here is real but says nothing about the nine insertions. The
+actual evidence is the browser sweep below plus a parse-and-assert pass over all
+ten catalogs: key present exactly once, inside `a11y`, `{{school}}` intact.
+
+**Two Playwright API notes for the next locale pass.** `page.accessibility` no
+longer exists in the installed version — use `locator.ariaSnapshot()`, which still
+reads the computed role and name rather than `innerText` (the non-Latin
+case-false-pass trap). And a browser script kept in the scratchpad cannot resolve
+`playwright`; it has to run from the repo root.
+
+### Phase 2 verification results
+
+- **Browser, headed Chromium, all TEN locales on `/school/providence-day/`** —
+  computed ARIA role `link`; `aria-label` translated in each, carrying the school
+  name, with no raw `{{…}}` or `a11y.` key leaking; `href` `https://www.providenceday.org/`,
+  `target=_blank`, `rel=noreferrer noopener`; `id="school-title"` still on the
+  `<h1>`; crest link `aria-hidden=true`, `tabIndex=-1`, same href, reserving a real
+  156x104 box; crest absent from the tab order in every locale.
+- `npm run check:chrome` — exit 0 (skip-field promises; see the caveat above).
+- `npx tsc -b` — clean.
+- `npm run build` — exit 0, with `check:schoolurls`, `check:seo`, `check:schema`
+  and `check:news` all green in the chain.
+- `npm run check:runtime` — exit 0, all 9 prose locales resolve (12,924 entries
+  each), confirming the chrome edit disturbed no overlay.
+- No print-out, per the plan: no prose overlay or figure rendering is touched.
