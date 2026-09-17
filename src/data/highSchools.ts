@@ -529,49 +529,71 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
   /* (user, 2026-09-17) and no private rank applies, so they carry `kind`   */
   /* only — enough for the card to group them correctly.                    */
   /* ---------------------------------------------------------------------- */
-  'A.C. Reynolds High School': { kind: 'public', rankLabel: 'US News National HS Rank #2,778' },
-  'Ardrey Kell High School': { kind: 'public', rankLabel: 'US News National HS Rank #475' },
-  'Butler High School': { kind: 'public', rankLabel: 'US News National HS Rank #3,202' },
-  'Central High School': { kind: 'public' },
-  'Charlotte Engineering Early College': { kind: 'public', rankLabel: 'US News National HS Rank #567' },
-  'Cox Mill High School': { kind: 'public', rankLabel: 'US News National HS Rank #1,369' },
-  'East Gaston High School': { kind: 'public', rankLabel: 'US News National HS Rank #8,349' },
-  'East Lincoln High School': { kind: 'public', rankLabel: 'US News National HS Rank #5,475' },
-  'East Mecklenburg High School': { kind: 'public', rankLabel: 'US News National HS Rank #2,837' },
-  'Harding High School': { kind: 'public', rankLabel: 'US News National HS Rank #13,460-17,945' },
-  'Hawthorne Academy of Health Sciences': { kind: 'public', rankLabel: 'US News National HS Rank #6,927' },
-  'Hickory Ridge High School': { kind: 'public', rankLabel: 'US News National HS Rank #2,102' },
-  'Hopewell High School': { kind: 'public', rankLabel: 'US News National HS Rank #9,343' },
-  'Hough High School': { kind: 'public', rankLabel: 'US News National HS Rank #1,342' },
-  'Indian Land High School': { kind: 'public', rankLabel: 'US News National HS Rank #4,994' },
+  'A.C. Reynolds High School': { kind: 'public', url: 'https://acrhs.buncombeschools.org', rankLabel: 'US News National HS Rank #2,778' },
+  'Ardrey Kell High School': { kind: 'public', url: 'https://ardreykellhs.cmsk12.org', rankLabel: 'US News National HS Rank #475' },
+  'Butler High School': { kind: 'public', url: 'https://butlerhs.cmsk12.org', rankLabel: 'US News National HS Rank #3,202' },
+  'Central High School': { kind: 'public',
+    status: 'ambiguous',
+    note: 'No state in Trinity\u2019s data and no plain \u201cCentral High School\u201d exists in the Charlotte metro \u2014 the near names (Central Cabarrus HS, Central Academy of Technology and Arts) are distinct schools. Unlinked by the user\u2019s call, 2026-09-17.',
+  },
+  'Charlotte Engineering Early College': { kind: 'public', url: 'https://ceechs.cmsk12.org', rankLabel: 'US News National HS Rank #567' },
+  'Cox Mill High School': { kind: 'public', url: 'https://cmhs.cabarrus.k12.nc.us', rankLabel: 'US News National HS Rank #1,369' },
+  'East Gaston High School': { kind: 'public', url: 'https://eastgaston.gaston.k12.nc.us', rankLabel: 'US News National HS Rank #8,349' },
+  'East Lincoln High School': { kind: 'public', url: 'https://www.lincoln.k12.nc.us/o/elhs', rankLabel: 'US News National HS Rank #5,475' },
+  'East Mecklenburg High School': { kind: 'public', url: 'https://eastmecklenburghs.cmsk12.org', rankLabel: 'US News National HS Rank #2,837' },
+  'Harding High School': { kind: 'public', url: 'https://hardinguniversityhs.cmsk12.org', rankLabel: 'US News National HS Rank #13,460-17,945' },
+  'Hawthorne Academy of Health Sciences': { kind: 'public', url: 'https://hawthorneae.cmsk12.org', rankLabel: 'US News National HS Rank #6,927' },
+  'Hickory Ridge High School': { kind: 'public', url: 'https://hrhs.cabarrus.k12.nc.us', rankLabel: 'US News National HS Rank #2,102' },
+  'Hopewell High School': { kind: 'public', url: 'https://hopewellhs.cmsk12.org', rankLabel: 'US News National HS Rank #9,343' },
+  'Hough High School': { kind: 'public', url: 'https://williamamoshoughhs.cmsk12.org', rankLabel: 'US News National HS Rank #1,342' },
+  'Indian Land High School': { kind: 'public', url: 'https://ilhs.lancastercsd.com', rankLabel: 'US News National HS Rank #4,994' },
   /* Trinity's list also named this school as plain "Robinson High School";
      research found no separate Robinson HS in the region (the Jay M. Robinson
      MIDDLE school in CMS is a different, non-high school). Merged to one row. */
-  'JM Robinson High School': { kind: 'public', rankLabel: 'US News National HS Rank #9,862' },
+  'JM Robinson High School': { kind: 'public', url: 'https://jmrhs.cabarrus.k12.nc.us', rankLabel: 'US News National HS Rank #9,862' },
   /* Trinity's list also named this school as plain "Chambers High School";
      US News carries ONE profile, at 7600 IBM Dr (the former Vance High School,
      renamed 2020). Merged to one row, user's call 2026-09-17. */
-  'Julius L. Chambers High School': { kind: 'public', rankLabel: 'US News National HS Rank #13,460-17,945' },
-  'Lake Norman Charter School': { kind: 'public', rankLabel: 'US News National HS Rank #570' },
-  'Lake Norman High School': { kind: 'public', rankLabel: 'US News National HS Rank #2,815' },
-  'Langtree Charter Academy': { kind: 'public', rankLabel: 'US News National HS Rank #5,335' },
-  'Laurel Springs High School': { kind: 'public' },
-  'Mallard Creek High School': { kind: 'public', rankLabel: 'US News National HS Rank #7,774' },
-  'Mountain Island Charter School': { kind: 'public', rankLabel: 'US News National HS Rank #2,639' },
-  'Myers Park High School': { kind: 'public', rankLabel: 'US News National HS Rank #1,655' },
-  'North Lincoln High School': { kind: 'public', rankLabel: 'US News National HS Rank #4,471' },
-  'North Mecklenburg High School': { kind: 'public', rankLabel: 'US News National HS Rank #5,938' },
-  'Northwest School of the Arts': { kind: 'public', rankLabel: 'US News National HS Rank #1,314' },
-  'Phillip O’Berry Academy of Technology': { kind: 'public', rankLabel: 'US News National HS Rank #3,863' },
-  'Porter Ridge High School': { kind: 'public', rankLabel: 'US News National HS Rank #4,721' },
-  'Providence High School': { kind: 'public', rankLabel: 'US News National HS Rank #526' },
-  'Queens Grant High School': { kind: 'public', rankLabel: 'US News National HS Rank #13,460-17,945' },
-  'Rocky River High School': { kind: 'public', rankLabel: 'US News National HS Rank #12,122' },
-  'South Mecklenburg High School': { kind: 'public', rankLabel: 'US News National HS Rank #5,217' },
-  'Stuart W. Cramer High School': { kind: 'public', rankLabel: 'US News National HS Rank #8,598' },
-  'University of North Carolina School of the Arts': { kind: 'public' },
-  'West Mecklenburg High School': { kind: 'public', rankLabel: 'US News National HS Rank #13,460-17,945' },
-  'Westwood High School': { kind: 'public' },
+  'Julius L. Chambers High School': { kind: 'public', url: 'https://chambershs.cmsk12.org', rankLabel: 'US News National HS Rank #13,460-17,945' },
+  'Lake Norman Charter School': { kind: 'public', url: 'https://www.lncharter.org', rankLabel: 'US News National HS Rank #570' },
+  'Lake Norman High School': { kind: 'public', url: 'https://lakenormanhigh.issnc.org', rankLabel: 'US News National HS Rank #2,815' },
+  'Langtree Charter Academy': { kind: 'public', url: 'https://www.langtreecharter.org', rankLabel: 'US News National HS Rank #5,335' },
+  'Laurel Springs High School': { kind: 'public', url: 'https://laurelsprings.com' },
+  'Mallard Creek High School': { kind: 'public', url: 'https://mallardcreekhs.cmsk12.org', rankLabel: 'US News National HS Rank #7,774' },
+  'Mountain Island Charter School': { kind: 'public', url: 'https://www.micharter.org', rankLabel: 'US News National HS Rank #2,639' },
+  'Myers Park High School': { kind: 'public', url: 'https://myersparkhs.cmsk12.org', rankLabel: 'US News National HS Rank #1,655' },
+  'North Lincoln High School': { kind: 'public', url: 'https://www.lincoln.k12.nc.us/o/nlhs', rankLabel: 'US News National HS Rank #4,471' },
+  'North Mecklenburg High School': { kind: 'public', url: 'https://northmecklenburghs.cmsk12.org', rankLabel: 'US News National HS Rank #5,938' },
+  'Northwest School of the Arts': { kind: 'public', url: 'https://northwesths.cmsk12.org', rankLabel: 'US News National HS Rank #1,314' },
+  'Phillip O’Berry Academy of Technology': { kind: 'public', url: 'https://phillipoberryhs.cmsk12.org', rankLabel: 'US News National HS Rank #3,863' },
+  'Porter Ridge High School': { kind: 'public', url: 'https://prhs.ucpsnc.org', rankLabel: 'US News National HS Rank #4,721' },
+  'Providence High School': { kind: 'public', url: 'https://providencehs.cmsk12.org', rankLabel: 'US News National HS Rank #526' },
+  /* TWO DIFFERENT SCHOOLS share this name, and US News conflates them.
+     Queen's Grant COMMUNITY School (6400 Matthews-Mint Hill Rd, Mint Hill) is
+     K-8 and NHA-managed; Queens Grant HIGH School (10323 Idlewild Rd,
+     Matthews) is a separate 9-12 campus with its own site and NC charter.
+     Trinity named the high school, so that is what links here.
+
+     NO rankLabel, deliberately: the #13,460-17,945 shipped earlier came from
+     the Mint Hill K-8 record, whose US News page is headed "Queen's Grant
+     Community School in Mint Hill". A rank belonging to another institution
+     is worse than none (user, 2026-09-17). */
+  'Queens Grant High School': {
+    kind: 'public',
+    url: 'https://queensgranthigh.org',
+    city: 'Matthews',
+    state: 'NC',
+    note: 'Grades 9-12, ~430 students, 1A Yadkin Valley Conference. Distinct from Queen\u2019s Grant Community School (K-8, Mint Hill).',
+  },
+  'Rocky River High School': { kind: 'public', url: 'https://rockyriverhs.cmsk12.org', rankLabel: 'US News National HS Rank #12,122' },
+  'South Mecklenburg High School': { kind: 'public', url: 'https://southmecklenburghs.cmsk12.org', rankLabel: 'US News National HS Rank #5,217' },
+  'Stuart W. Cramer High School': { kind: 'public', url: 'https://stuartwcramer.gaston.k12.nc.us', rankLabel: 'US News National HS Rank #8,598' },
+  'University of North Carolina School of the Arts': { kind: 'public', url: 'https://www.uncsa.edu/high-school/index.aspx' },
+  'West Mecklenburg High School': { kind: 'public', url: 'https://westmecklenburghs.cmsk12.org', rankLabel: 'US News National HS Rank #13,460-17,945' },
+  'Westwood High School': { kind: 'public',
+    status: 'ambiguous',
+    note: 'No state in Trinity\u2019s data and no Westwood HS in the Charlotte area at all; the nearest is Blythewood SC, ~90 miles away, with no evidence tying it to Trinity. Unlinked by the user\u2019s call, 2026-09-17.',
+  },
 }
 
 /* Built once from the canonical table, through the SAME normalizer the college
