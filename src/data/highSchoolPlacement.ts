@@ -324,7 +324,11 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
  * school's research stays reviewable on its own. Add a school by importing it
  * here, exactly as collegeSupport.ts does.
  */
-const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {}
+import { trinityEpiscopal } from './highSchoolPlacementPrograms/trinity-episcopal.ts'
+
+const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {
+  'trinity-episcopal': trinityEpiscopal,
+}
 
 /* ---------------------------------------------------------- translations -- */
 
