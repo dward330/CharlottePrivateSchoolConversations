@@ -1,11 +1,11 @@
 ---
 name: add-trinity-episcopal
 title: Add Trinity Episcopal School — the first K–8 school to occupy the PreK–8 shape, across eight research areas
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-16
 branch: feat/trinity-episcopal
-prs: []
+prs: [312]
 ---
 
 # Add Trinity Episcopal School
@@ -907,3 +907,141 @@ visibly runs short.
 - **Admissions `watchOuts` is populated** here, against the four most recent cards
   shipping `watchOuts: []` (decision 2026-09-01). Trinity's carry the three errors in
   the school's own published copy, which no step can. Easy to empty for consistency.
+
+---
+
+## Implementation notes — Phase 2 (2026-09-17)
+
+Nine prose locales translated, built and verified: `es`, `bn`, `ht`, `te`, `fr`, `fa`,
+`it`, `hi`, `ar`. 627 Trinity strings per locale (5,643 total), plus one pre-existing
+Compare figure whose English had moved on `main`.
+
+### Steps 15-16 were already done in Phase 1
+
+`scripts/i18n_topics.mjs` registered `trinity-episcopal` and the `high-school-placement`
+topic during Phase 1 (commit `8803ad6`), pulled forward because the topic was absent
+entirely. Step 17's positive verification held: the area extracts **65 field sites / 53
+distinct strings**. (Phase 1's note of "254 translatable strings" was a pre-classification
+field count, not distinct strings.)
+
+### Step 18 was larger than "a round of edits" — 43 unclassified paths
+
+All from Trinity, and an unclassified field is **excluded from extraction rather than
+flagged**, so each would have shipped English at 100% coverage:
+
+- `destinations.categories[].notes.*` (38) — keyed by the destination school's own NAME,
+  so every entry is its own path and no leaf-key list can cover them. Needed a new
+  **prefix-wildcard** pattern form. Prose: most are places a reader should recognise, and
+  one is a hedge flagging the school's own misspelling — a sentence among 37 identifiers.
+- `schools[].slug` → skip (a machine identifier; translating it silently degrades the
+  cross-link to plain text).
+- `placement.stats[].denominator`, `cells.k`, `cells.g18`, `adjacentTitle`,
+  `leadershipTitle` → prose.
+
+`adjacentTitle` **returns after a 2026-08-18 deletion**, on the same terms as `askTitle`:
+Gaston Day's value was byte-identical to its fallback (a lifted heading), Trinity's
+genuinely diverges. Re-run the uniform test on the value, not the field's history.
+
+### Three defects found and fixed, none of them translation
+
+1. **The `PATH_OVERRIDES` matcher was copy-pasted into four scripts.** They agreed by
+   luck; the new pattern form had to land in all four or the checkers would classify
+   fields differently from the extractor. Now one exported `pathOverride()`.
+2. **The content extractor asked a different question from the renderer.** `CARD_REPLACED`
+   matched the SUBTOPIC (`/deep.?dive/i`) while `SchoolDetail` keys off the normalized
+   metric key. That held only while every school's research arrived as one unsliceable
+   PDF; Trinity's is committed markdown, so it split into 22 sections (`Source URLs`,
+   `Verbatim text — 2026-27 edition`, `Fourteen years of filings`) that all fold onto
+   `in-depth-report`. It was offering **79 sections of research apparatus** for
+   translation into nine locales, none of it reachable by a reader. Fixed to resolve the
+   metric key — which also caught **34 blocks for Charlotte Catholic and Gaston Day that
+   nine locales had already paid to translate**, card-replaced and equally unreachable.
+   `check:live` gate 2 (`shipped ⊆ fresh extract`) correctly failed on them.
+3. **`i18n_extract.mjs` has no carry-over**, so there was no supported way to add a
+   school's strings to nine translated work files. `scripts/i18n_splice_work.mjs` does
+   that merge, joined on the FNV-1a stamp, never the index. Result: 12,260 kept, 628
+   added, **0 dropped**, identically in all nine.
+
+### ⚠️ Parallel translation exposed a defect class — read this before doing it again
+
+The nine locales were translated by nine agents in parallel. **They shared one scratchpad
+directory and several used generic helper-script names** (`apply.mjs`, `<topic>.json`).
+Those files overwrote each other mid-run, so agents executed siblings' scripts against the
+**wrong locale's files**. Four agents hit it independently.
+
+Three caught their own damage. **One did not:** `high-school-placement.ht.json` held 28
+Devanagari entries and `sports.ht.json` 19 Telugu entries — Hindi and Telugu prose shipped
+as Kreyòl — while that agent's own verification reported clean.
+
+**It reported clean honestly.** Every checker in this repo compares figures
+(`check:sepdrift`), stamps (`check:translations`) or hashes (`check:runtime`). **None of
+them asks whether the prose is in the right language.**
+
+`scripts/check_work_integrity.mjs` closes that. Per entry, against the base ref: `text`/
+`of`/`at` byte-identical, no pre-existing `t` overwritten, `strings.length` and `lang`
+unchanged, no foreign script. Two findings are baked into it:
+
+- **The danda trap.** A naive Devanagari range check reports a CLEAN Bangla corpus as
+  thousands of contaminated entries — U+0964/U+0965 sit in the Devanagari block but are
+  shared punctuation Bangla uses normally (5,494 false positives on the first run).
+- **What it cannot see, stated by the check itself** rather than left to be assumed: it
+  cannot separate `fa` from `ar`, or `es`/`it`/`fr`/`ht` from each other. For `fa`/`ar` it
+  falls back to a measurable signal — Persian-only letters (پ چ ژ گ) in **77.4% of `fa`
+  entries vs 0.0% of `ar`**.
+
+**If translating locales in parallel again: give each agent a private scratch directory,
+hardcode the locale suffix in every script, and key every map by English text or stamp,
+never by index.**
+
+### The cross-locale leak review earned its place
+
+`i18n:leaks` flags strings one locale kept in English that others translated. Most flags
+are legitimate keeps, so **the signal is the band**: of Trinity's strings, 48 were
+leak-shaped (kept by 1-3 locales, translated by ≥6). Triaged against what the other
+locales actually did, **23 were genuine misses** and were fixed to the consensus
+rendering — `hi` `Visit Checklist`, `ar` `Arts & Ensembles` / `Community Life`, `bn`
+`Grade 1-8`, `te` four date strings, `ht`/`hi` `High School Placement`. The other 25 are
+defensible keeps (`Rising N-M` grade codes, the WPPSI-IV/WISC-V/ISEE row, a street
+address, camp hour codes).
+
+Two further quality passes the automated checks cannot do:
+
+- **Hedges.** All 20 hedge-bearing Trinity entries survive at full length in every locale.
+  A softened hedge turns a caveat into a claim and is invisible to a reader who cannot
+  check the English.
+- **Untranslated leak shapes.** The long strings left byte-identical to English are the
+  *same 8-10 in every locale* — direct quotations, a street address, a list of club proper
+  nouns. Nine agents converging independently is the evidence they are keeps.
+
+### Verification
+
+| Check | Result |
+|---|---|
+| `check:runtime` | ✓ 9/9 locales, 12,924 entries each — **authoritative** |
+| `check:live` | ✓ 9/9 against live English + 36 foreign-topic blocks each |
+| `check:translations` | ✓ 100% per topic, no drift; `high-school-placement` 65/65 |
+| `check:sepdrift` | ✓ 0 drifted figure tokens × 9 locales |
+| `check:hi` / `check:fa` / `check:fr` / `check:bidi` | ✓ all clean |
+| `check:money` / `check:currency` | ✓ every render site localizes |
+| `npm run build` | ✓ exit 0, all 21 chained checks |
+| Browser, panels forced open | ✓ see below |
+
+**Browser check (Playwright, `<details>` forced open, ~70k chars vs ~17k collapsed).**
+Eight areas render translated in every locale; **College Support absent, no Compare
+button** in all nine; `dir=rtl` and `data-prose` correct for `ar`/`fa`; the Vimeo iframe
+present in every locale.
+
+**The lakh/crore interaction verified end to end, which is the subtlest rule here:**
+`hi`/`te` render **`$21,39,114`** from a stored `$2,139,114`, while `fa` renders
+`$2,139,114`. The render layer regroups exactly once because the data stores no
+regrouping (verified: 0 stored regroupings in either locale). Zero Eastern-Arabic digits
+anywhere; percentages unspaced in every locale.
+
+### Left for the user, deliberately not in this diff
+
+**`verdict.headline` on High School Placement is the bare string `'High School
+Placement'`**, which renders as a bold lead paragraph directly under a card already
+titled with the area name — so the page prints that heading twice, in all ten locales.
+The English was approved and is now translated into nine locales, so changing it here
+would invalidate all nine mid-flight. Two agents independently flagged it as looking like
+placeholder data. It is a small English-layer fix worth making separately.
