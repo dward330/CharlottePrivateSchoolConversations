@@ -338,7 +338,7 @@ Root type `ArtsProgram` · registry `ARTS_CARDS` · `src/data/artsProgram.ts` ·
 
 `Exhibit` — `when`, `name`, `detail?`
 
-`VisualArts` — `headline`, `subhead?`, `mediaTitle?`, `media`, `pathTitle?`, `path`, `pathNote?`, `exhibitsTitle?`, `exhibits`, `footnote?`, `photo?`, `sources`
+`VisualArts` — `headline`, `subhead?`, `mediaTitle?`, `media?`, `pathTitle?`, `path`, `pathNote?`, `exhibitsTitle?`, `exhibits`, `footnote?`, `photo?`, `sources`
 
 `Verdict` — `headline`, `subhead?`, `holdsUpTitle?`, `holdsUp?`, `askTitle?`, `ask`, `sources`
 

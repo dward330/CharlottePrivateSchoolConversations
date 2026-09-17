@@ -198,7 +198,13 @@ export function CoverageBody({ data }: { data: Coverage }) {
                 }}
               >
                 {r.tiers.length === 0 ? (
-                  <span className="as-tl-tier is-flat">{r.flatLabel}</span>
+                  /* `title` because the label is ellipsised to its band: a
+                     narrow band shows "NO BEFO…" and the rest is unreachable.
+                     A native tooltip needs no JS, works on keyboard focus and
+                     is read by assistive tech. */
+                  <span className="as-tl-tier is-flat" title={r.flatLabel}>
+                    {r.flatLabel}
+                  </span>
                 ) : (
                   r.tiers.map((t, i) => {
                     /* Tier widths are the gaps between successive tier ends,
@@ -218,6 +224,16 @@ export function CoverageBody({ data }: { data: Coverage }) {
                         key={t.until}
                         className={i === r.tiers.length - 1 ? 'as-tl-tier is-last' : 'as-tl-tier'}
                         style={{ flexBasis: `${span * 100}%` }}
+                        /* Rebuilt from the parts rather than read off the DOM,
+                           so it stays whole when the slot ellipsises AND when
+                           the "to …" prefix is hidden at phone width. */
+                        title={[
+                          `to ${t.until}`,
+                          t.price ? localizeMoneyText(t.price) : null,
+                          t.estimated ? tr('cardLabels.est') : null,
+                        ]
+                          .filter(Boolean)
+                          .join(' · ')}
                       >
                         {/* The "to 4:30 · " prefix is dropped at phone width
                             (see .as-tl-until): it is the longest part of the

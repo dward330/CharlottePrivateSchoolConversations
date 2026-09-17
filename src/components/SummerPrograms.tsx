@@ -425,7 +425,17 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
   /* A school publishing one or two tiers can't fill the estimate rail's height,
      so the fee ledger drops under the table instead and the two columns even out
      rather than leaving a tall blank gap. Same rule as the After School matrix. */
-  const isShort = data.tiers.length <= 3
+  /* Two ways to end up unbalanced, and the second was missed. A SHORT matrix
+     leaves the rail too tall (the original rule). A HEAVY LEDGER does the
+     reverse: Trinity ships five fee notes totalling ~167 words against a 2-3
+     note, 56-131 word norm, so a 5-tier table sat beside a rail of wrapped
+     paragraphs with dead space to its left. Either imbalance drops the ledger
+     under the table, where it gets full width. */
+  const ledgerWords = data.fees.reduce(
+    (n, f) => n + (f.note ? f.label.replace(/\*\*/g, '').split(/\s+/).length : 0),
+    0,
+  )
+  const isShort = data.tiers.length <= 3 || ledgerWords > 140
   const feeLedger = data.fees.length > 0 && (
     <div className="as-fees">
       <div className="as-fees-kicker text-muted">{t('cardLabels.feesFinePrint')}</div>

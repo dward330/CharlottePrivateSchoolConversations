@@ -1724,11 +1724,21 @@ main { flex: 1; }
   background: linear-gradient(to right, transparent, var(--accent-100) 6px);
 }
 
-/* scholarship / coverage ladder */
-.fa-ladder { grid-template-columns: 84px 1fr 150px; row-gap: 13px; }
+/* Scholarship / coverage ladder.
+   Two columns, not three. The old third column was a fixed 150px, which suits a
+   3-4 word label (Country Day's "Full tuition, grades 9-12") and squeezes a real
+   sentence into a ribbon roughly four words wide — Trinity's aid rows run 50 and
+   32 words, Gaston Day's 38/50/26. The detail now sits UNDER its own bar across
+   the full width, which is what the 600px breakpoint already did and what the
+   design's own figure captions do. Label and track keep their baseline row. */
+.fa-ladder { grid-template-columns: 84px 1fr; row-gap: 6px; }
 .fa-ladder-row { display: contents; }
 .fa-ladder-gift { font-family: var(--heading); font-weight: 600; font-size: 15px; }
 .fa-ladder-track { display: block; height: 15px; background: var(--neutral-100); }
+/* Sits in the track column so it lines up under the bar rather than under the
+   label, and carries the row gap that row-gap no longer needs to supply. */
+.fa-ladder-detail { grid-column: 2; margin-bottom: 7px; line-height: 1.55; }
+.fa-ladder-row:last-child .fa-ladder-detail { margin-bottom: 0; }
 .fa-ladder-fill {
   display: block;
   height: 100%;
@@ -3333,6 +3343,14 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   margin-bottom: 16px;
 }
 .arts-panel { border-left: 1px solid var(--border); padding-left: 24px; }
+/* When "why it holds up" is omitted the checklist is the only child, so it takes
+   the whole row instead of keeping half and leaving the other half blank — and
+   it drops the divider rule, which would otherwise hang beside nothing. */
+.arts-panel:only-child {
+  grid-column: 1 / -1;
+  border-left: none;
+  padding-left: 0;
+}
 
 .arts-board { border: 1px solid var(--border); }
 .arts-board-label {
@@ -3561,6 +3579,24 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 /* When an umbrella band sits above, drop the shared top border so the two read
    as one object rather than two stacked boxes. */
 .clubs-roster.is-under-umbrella { border-top: none; }
+/* A ragged last row leaves empty track to the right of the final group. Fill it
+   with the same tint .clubs-strips shows in the same position (user, 2026-09-17)
+   — there, a background field shows through the 1px gaps; here the grid is
+   hairline-ruled, so the cell has to be drawn. ::after is a grid item, so it
+   lands in the next free cell and spans whatever remains.
+
+   NOT done by giving .hairline-grid a background field: that approach was
+   rejected for the stat tiles because it exposed the field as a grey block on
+   EVERY partial row site. This is scoped to the one grid that wants it. */
+.clubs-roster::after {
+  content: '';
+  grid-column: auto / -1;
+  background: var(--neutral-100);
+  box-shadow:
+    -1px 0 0 var(--border),
+    0 -1px 0 var(--border),
+    0 1px 0 var(--border);
+}
 .clubs-group { background: var(--bg); padding: 9px 12px; }
 .clubs-group-name { font-family: var(--heading); font-size: 15px; }
 .clubs-group-detail { font-size: 12px; line-height: 1.45; }

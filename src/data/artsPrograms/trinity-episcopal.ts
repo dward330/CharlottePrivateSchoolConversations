@@ -261,16 +261,9 @@ export const trinityEpiscopal: ArtsProgram = {
     // NOTE: the no-minor-names rule still applies to this card — the sentence
     // that STATED it was removed 2026-09-16 as apparatus, not the practice.
     // Never add a student's name here; report the recognition, not the child.
-    mediaTitle: 'Studio media and how the room works',
-    media: [
-      { name: 'Painting', detail: 'named in the school\'s own description of the centers' },
-      { name: 'Clay', detail: 'the championship-winning basketball coaches were given a clay statue made in art class' },
-      { name: 'Printmaking', detail: 'the third medium the school names by name' },
-      {
-        name: 'Centers / mini-art studios',
-        detail: 'each stocked with instructional information, menus, resources, materials and tools; students move independently between them',
-      },
-    ],
+    // No media grid (user, 2026-09-17) — three medium names with one-line
+    // sourcing notes, plus a centers gloss, read as research annotation beside
+    // the TAB pedagogy the card is actually about. Still in source-material/.
     // No `pathTitle`: it was byte-identical to the shared sections.coursePath
     // chrome, and a lifted heading pins that heading to English in all ten
     // locales. Deleted 2026-09-16, as the other schools' copies already were.

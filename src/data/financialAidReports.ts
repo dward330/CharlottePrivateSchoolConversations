@@ -2873,12 +2873,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
   meta: '2026–27 school year · figures as of 16 Sep 2026',
   framing: [
-    {
-      icon: 'info',
-      title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming. Trinity publishes more of its aid record than most of this roster.',
-    },
-    {
+        {
       icon: 'clock',
       title: 'Two deadlines, two months apart.',
       body: 'Returning families apply for support by **1 Dec 2026**; families starting in fall 2027 have until **1 Feb 2027**. Using the wrong one misses the date by two months.',
@@ -2904,19 +2899,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         'Two bands cover all nine grades. Four years of first-party history, recovered from the school\'s own archived tuition page: 2023-24 $22,605* / $24,312*, 2024-25 $23,961 / $25,771, 2025-26 $25,400 / $27,320, and 2026-27 $26,670 / $28,690. Year-over-year that is **+6.0% → +6.0% → +5.0%, identically for both bands** — they have moved in lockstep and have never diverged. The asterisk on the 2023-24 figures is the school\'s own; the footnote it points to was not captured.',
       figureNote2:
         'Every dollar figure for Trinity lives in a Google Doc titled "Cost of Attendance for 2026-27", not on the tuition page itself. The tuition page carries the bands and the deadlines; the doc carries the fees.',
-      boxes: [
-        {
-          tag: 'A SCHOOL-SIDE ERROR',
-          title: 'Do not use the 25-26 profile PDF for grade 6–8 tuition',
-          body: 'The school\'s own 2025-26 School Profile states "Tuition (\'25-\'26): $25,400 (K-5); $25,771 (6-8)". **$25,771 is the 2024-25 grade 6–8 figure** — the PDF carried the prior year forward. The tuition page said **$27,320** for that year, confirmed across four archived snapshots. The K-5 figure in the same PDF is correct, which makes the error easy to miss.',
-        },
-        {
-          tag: 'NOT PUBLISHED',
-          title: 'Three tuition-table specifics',
-          body: '',
-        },
-      ],
-      bullets: [
+            bullets: [
         'New-student versus returning-student rates',
         'What tuition itself includes — no inclusions statement appears anywhere',
         'Any multi-child or sibling tuition discount',
@@ -2969,11 +2952,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
           title: 'Aid does not reach the lunch line',
           body: 'The Cost of Attendance document states it outright: **"FLIK is not reduced for families receiving financial support."** A Middle School annual meal plan is $1,520 at full price whatever a family\'s award. The school does note it "is more economical to purchase a 20-meal block than pay $11.50 per lunch," and that above three lunches a week the annual plan is cheapest.',
         },
-        {
-          tag: 'NOT PUBLISHED',
-          body: 'No application fee amount — a search of the entire raw HTML of the admissions process page returns **zero dollar signs**, while the checklist still says "submit the application and application fee". No enrollment deposit anywhere. No price for the Dewar tuition refund plan, and no fee for any Extended Day enrichment.',
-        },
-      ],
+              ],
       source:
         'Cost of Attendance for 2026-27 (the school\'s own document); tescharlotte.org — Admission Process, retrieved 16 Sep 2026',
     },
@@ -3016,15 +2995,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
           title: 'Returning families are due two months earlier',
           body: 'This is the single most consequential date on the page and it is easy to get wrong, because the two deadlines sit near each other on the same tuition page. A returning family that works from the **1 Feb** prospective-family date is **two months late**. The school states the basis plainly: "Financial awards are based on **demonstrated need** as assessed by Clarity," and "**The application for financial support has no bearing on admission.**"',
         },
-        {
-          tag: 'A STALE DATE ON THE SCHOOL’S OWN SITE',
-          body: 'The **admission-process page** states "The financial support application deadline for prospective families is **Thursday, February 1, 2026**" — a year stale, and the tuition page is the one to trust. The cause is visible in the archive: the tuition page itself read "Thursday, February 1, 2026" in May 2026, and when it rolled forward to 2027 the process page did not. Every other date on that page is correctly 2027. (1 Feb 2026 was also a Sunday, not a Thursday — 1 Feb 2024 was a Thursday, consistent with a two-year-old copy-forward.)',
-        },
-        {
-          tag: 'NOT PUBLISHED',
-          body: 'No decision date for aid specifically, no appeals process, no mid-year change-of-circumstance route, and no statement of whether awards renew automatically — though the 1 Dec returning-family deadline implies a fresh application each year.',
-        },
-      ],
+                      ],
       source:
         'tescharlotte.org — Tuition & Affordability; Admission Process, retrieved 16 Sep 2026',
     },
@@ -3043,21 +3014,13 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         'A genuine three-point series, which few schools on this roster publish: **26% / $2.1 million in 2023-24**, **29% / $2 million in 2025-26**, and **31% / $2,139,114 in 2026-27**. The share has risen steadily while the dollar total dipped and recovered. The 2026-27 figures carry the school\'s own qualifier, "**(excludes Tuition Remission)**" — employee tuition benefits sit outside this number.',
       figureNote2:
         'The 2025-26 School Profile says "28.9%" where the tuition page said "29%" for the same year; the whole-number form is used here. Reported aid is school-wide only — there is no split by grade band, and no separate figure for K–5 against 6–8.',
-      boxes: [
-        {
-          tag: 'THE SCHOOL DELETED ITS OWN STATISTIC',
-          title: 'The series survives in the archive, not on the live page',
-          body: 'Archived tuition pages carried a sentence the live page no longer has — searching today\'s page for "awarded" returns **zero hits**. From 2023-09 to 2025-01 it read "In the 2023-24 school year, we awarded **$2.1 million** in financial support to **26%** of our students"; from 2025-09 to 2026-05, "In the 2025-26 school year, we awarded **$2 million** in financial support to **29%** of our students." **The school removed it sometime after 9 May 2026.** The 2026-27 figures survive only because they also appear in the School Profile PDF — whose URL is versioned by school year and will 404 when the next edition ships.',
-        },
-        {
-          tag: 'NOT PUBLISHED',
-          body: 'No average award size, no median award, no count of families receiving support, no award range or ceiling, and no aid figure broken out by grade. Average award is arithmetically derivable from the total and the recipient share, but a derived figure is not a school figure and is not published here.',
-        },
-        {
-          tag: 'IGNORE TWO THIRD-PARTY FIGURES',
-          body: 'PrivateSchoolReview lists tuition of **$17,752**, which matches no year from 2023-24 through 2026-27 and is stale. A third-party "over 25% receive aid" claim is untraceable to any live page and is superseded by the school\'s own 26% → 29% → 31% trajectory.',
-        },
-      ],
+      // No boxes (user, 2026-09-17). All three were apparatus about the
+      // RESEARCH rather than the aid programme: that the school deleted its own
+      // statistic from the live page, an inventory of aid figures it does not
+      // publish, and two third-party figures to disregard. The stat strip above
+      // carries what a parent needs — 31%, $2,139,114, 419, $11.09M — and the
+      // figureNotes carry the three-point series. All of it remains in
+      // source-material/financial-aid-tuition/trinity-episcopal/.
       source:
         'tescharlotte.org — 2026-27 School Profile (PDF); archived Tuition & Affordability pages (Wayback, 2023-09 to 2026-05), retrieved 16 Sep 2026',
     },
@@ -3083,71 +3046,11 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
           title: 'Two channels, and no merit programme at all',
           body: 'Trinity runs need-based support and points separately at the state scholarship. **No merit scholarship, named endowed scholarship, or academic award appears anywhere on the site** — every dollar of the school\'s own aid is need-based. Whether a family can hold an Opportunity Scholarship alongside Trinity support, and whether one offsets the other, is not published.',
         },
-        {
-          tag: 'NOT PUBLISHED',
-          body: 'No sibling, military, clergy or employee discount is published, though the "excludes Tuition Remission" qualifier on the aid figure confirms a tuition-remission benefit exists. Its terms are not stated. Note that the Extended Day rate card **does** publish a sibling rate ($355 against $380 in the top income band) — so a sibling discount exists for care but not, as far as the public record shows, for tuition.',
-        },
-      ],
+              ],
       source:
         'tescharlotte.org — Tuition & Affordability; 2026-27 School Profile (PDF), retrieved 16 Sep 2026',
     },
-    {
-      id: 'fa-paying',
-      navTitle: 'The Institution',
-      title: 'The Institution Behind the Tuition',
-      confidence: 70,
-      stats: [
-        { value: '$16,157,612', label: 'total revenue, FY2025 (Form 990)' },
-        { value: '$13,656,485', label: 'total expenses, FY2025' },
-        { value: '$47,316,809', label: 'total assets at year end, FY2025' },
-        { value: '$275,198', label: 'Head of School compensation, FY2025' },
-      ],
-      figureNote:
-        'From the school\'s Form 990 filings, EIN 56-2059568, fiscal years ending in June. Across fourteen years of filings **assets have roughly doubled**, from $24,664,284 in FY2012 to $47,316,809 in FY2025, while **liabilities more than halved**, from $6,397,455 to $3,732,082. Three years ran expenses above revenue — FY2013, FY2020 and FY2024.',
-      figureNote2:
-        'The profile\'s **$11.09 million operating budget** and the 990\'s **$13,656,485 total expenses** are different measures — a forward-looking operating budget against total filed expenses including non-operating items — and are reported separately rather than reconciled against each other.',
-      boxes: [
-        {
-          tag: 'READ THE COMPENSATION SERIES CAREFULLY',
-          title: 'FY2023 is a partial year, not a pay cut',
-          body: 'Head of School compensation runs $216,658 (FY2014) up to $297,102 (FY2021) under **Thomas Franz**, then $142,379 in FY2023 and $268,604 / $275,198 under **Imana Sherrill**. The FY2023 figure looks like a halving and is not one: the filing\'s own title reads "Head Of School **From 7/1/22**" — it is a partial-year figure spanning a leadership transition.',
-        },
-        {
-          tag: 'NOT PUBLISHED',
-          body: 'This is the thinnest part of Trinity\'s record. **No payment plans are published at all** — no installment counts, no plan names, no plan fees, no card surcharge, no late-payment policy, and no withdrawal or refund terms. Billing evidently runs through **FACTS** (the Cost of Attendance document refers to charges appearing "on your monthly FACTS statement"), but the school never describes the plans themselves.',
-        },
-      ],
-      source:
-        'ProPublica Nonprofit Explorer — Trinity Episcopal School, EIN 56-2059568, FY2012–FY2025; Cost of Attendance for 2026-27, retrieved 16 Sep 2026',
-    },
-    {
-      id: 'fa-trend',
-      navTitle: 'Trend & Questions',
-      title: 'The Trend, and What to Ask',
-      confidence: 80,
-      stats: [
-        { value: '+6.0% → +6.0% → +5.0%', label: 'tuition increases across the last three years, identical in both bands' },
-        { value: '26% → 29% → 31%', label: 'share of students on financial support, 2023-24 to 2026-27' },
-        { value: '4 yrs', label: 'of first-party tuition history recoverable from the school’s own pages' },
-      ],
-      figureNote:
-        'Both bands have risen by exactly the same percentage in each of the last three years, so the K-5/6-8 gap has widened only in dollars — $1,707 in 2023-24 to $2,020 in 2026-27 — and never in proportion. Over the same window the share of students receiving support rose by five points.',
-      questionsTitle: 'Questions the public record cannot answer',
-      questions: [
-        'What is the average award, and what is the largest award the school has made?',
-        'What are the payment plans — how many installments, on what dates, and at what cost?',
-        'What is the application fee, and what is the enrollment deposit?',
-        'What does tuition include, and what does the per-grade activity fee actually buy — why does it jump from $305 in grade 3 to $545 in grade 4 and $965 in grade 6?',
-        'Is there any relief on the FLIK meal plan for families receiving support, given the school states there is not?',
-        'What are the terms of Tuition Remission, which the 31% figure explicitly excludes?',
-        'Can a family hold an NC Opportunity Scholarship alongside Trinity support, or does one offset the other?',
-        'Do awards renew automatically, and what happens if circumstances change mid-year?',
-        'What does the A.W.G. Dewar tuition refund plan cost, and is it optional?',
-        'Why was the financial-support statistic removed from the tuition page after May 2026?',
-      ],
-      source: 'Synthesis of the sources cited on the sections above',
-    },
-  ],
+          ],
   sources:
     'tescharlotte.org — Tuition & Affordability · Admission Process · 2026-27 School Profile (PDF) · 2025-26 School Profile (PDF) · Cost of Attendance for 2026-27 (Google Doc) · Trinity Extended Day · archived tuition pages via the Wayback Machine (2023-09 to 2026-05) · ProPublica Nonprofit Explorer, EIN 56-2059568 — retrieved 16 Sep 2026',
 }

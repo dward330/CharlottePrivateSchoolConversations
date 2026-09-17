@@ -158,8 +158,10 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       'Fun Friday activities',
       'the Trinity Honor Code',
     ],
+    // Trimmed 2026-09-17 — four stitched quotations ran 124 words; these two
+    // carry the same claims in the school's own wording.
     wordsText:
-      '"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program. While providing a vital service for many families, TED offers a safe, well-structured environment for every Trinity student." The school adds that "Extended Day provides an opportunity and space for students to focus on academics through dedicated homework time and to learn how to navigate social relationships. This is accomplished through group projects and fun-focused activities, all aimed at extending the Wildcat learning experience." Day to day, "students participate in various activities such as art, board games, Fun Friday activities, etc.", and "students are expected to adhere to the Trinity Honor Code while participating in Extended Day."',
+      '"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program" — "a safe, well-structured environment for every Trinity student." It offers "dedicated homework time" plus group projects and activities such as art, board games and Fun Friday, and students "are expected to adhere to the Trinity Honor Code while participating in Extended Day."',
     catalogTitle: 'Enrichments — named, and unpriced',
     catalogIntro:
       'TED "also offers enrichment programs, **for an additional fee**, several days a week", led by "a combination of Trinity faculty/staff and independent contractors". The school gives these four as **examples** and adds "and more", so this is **not the full roster** — and it states no fee for any of them. Note that Trinity uses "enrichments" for two different things: these are the **paid** after-school add-ons, while the Lower and Middle School "Enrichments" pages list free curricular subjects.',

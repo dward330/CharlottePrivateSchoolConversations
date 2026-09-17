@@ -281,15 +281,19 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
       <div className={data.photo ? 'arts-figsplit' : undefined}>
         <Photo photo={data.photo} />
         <div>
-          <Heading>{data.mediaTitle ?? t('cardLabels.studioMedia')}</Heading>
-          <div className="arts-media">
-            {data.media.map((m) => (
-              <div key={m.name} className="arts-medium">
-                <strong>{m.name}</strong>
-                {m.detail && <div className="text-muted">{m.detail}</div>}
+          {data.media && data.media.length > 0 && (
+            <>
+              <Heading>{data.mediaTitle ?? t('cardLabels.studioMedia')}</Heading>
+              <div className="arts-media">
+                {data.media.map((m) => (
+                  <div key={m.name} className="arts-medium">
+                    <strong>{m.name}</strong>
+                    {m.detail && <div className="text-muted">{m.detail}</div>}
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          )}
 
           <Heading>{data.pathTitle ?? t('sections.coursePath')}</Heading>
           <div className="arts-path">

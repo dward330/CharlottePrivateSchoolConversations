@@ -220,7 +220,9 @@ export type VisualArts = {
   headline: string
   subhead?: string
   mediaTitle?: string
-  media: Medium[]
+  /** Optional — omit rather than passing []; the heading and grid then do not
+   *  render at all (the zero-items rule). */
+  media?: Medium[]
   pathTitle?: string
   path: CourseStep[]
   /** Trailing note on the path, e.g. "AP Art History runs parallel". */
@@ -338,6 +340,9 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
   'trinity-episcopal': {
     ladder: 'The K–8 Arts Ladder',
     theatre: 'Theatre & Grade-Level Productions',
+    // This card ships no verdict prose — its "why it holds up" column was cut at
+    // review (2026-09-17), so the checklist IS the card.
+    verdict: 'Visit Checklist',
   },
 }
 
