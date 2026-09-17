@@ -121,6 +121,29 @@ async function main() {
 
   try {
     const page = await browser.newPage()
+
+    // Third-party video embeds are blocked for the snapshot. The prerenderer
+    // captures the app's OWN markup — a lazily-loaded <iframe> to YouTube or
+    // Vimeo contributes nothing to it, and the crawler that reads these files
+    // never sees inside a cross-origin frame anyway.
+    //
+    // It is blocked because it BREAKS THE BUILD, not merely to save a request.
+    // Vimeo's player is served behind a Cloudflare bot challenge, which opens a
+    // `blob:https://challenges.cloudflare.com/…` request that never settles, so
+    // `waitUntil: 'networkidle'` below can never fire and the page times out at
+    // 30s. Measured on Trinity Episcopal, the first school to embed Vimeo:
+    // networkidle times out at 15s+ with the embed, and settles in 685ms with it
+    // blocked, against 948ms for a YouTube-embedding school. One school's
+    // welcome video would otherwise fail the whole site's build.
+    //
+    // YouTube is blocked too, for consistency and because it leaves its own
+    // `youtubei/v1/log_event` request hanging — the same failure is one slow
+    // network away for any school.
+    await page.route(
+      /(^|\.)(player\.vimeo\.com|www\.youtube\.com|youtube\.com|youtu\.be|i\.vimeocdn\.com|challenges\.cloudflare\.com)/,
+      (r) => r.abort(),
+    )
+
     for (const route of ROUTES) {
       // `query` (compare only) loads the page with its school selection, since
       // without it the table has no columns. The file still lands at `path` on
