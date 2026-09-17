@@ -174,8 +174,16 @@ function Stats({ stats }: { stats: HspStat[] }) {
       style={{ gridTemplateColumns: `repeat(${Math.min(stats.length, 4)}, 1fr)` }}
     >
       {stats.map((s) => (
+        /* Order: figure, then its CAPTION, then the denominator.
+           The caption completes the figure's sentence — "9 … years on one
+           campus" — so it follows the number directly. The denominator moved
+           below it (user, 2026-09-17) because sitting between the two split
+           that sentence with an unrelated line: "9 / Kindergarten through 8th
+           grade / years on one campus". It still reads as attached to the
+           figure, which is what the slot is for. */
         <div key={s.caption} className="cs-stat hsp-stat">
           <div className="cs-stat-val">{localizeMoneyText(s.value)}</div>
+          <div className="cs-stat-label text-muted">{s.caption}</div>
           {s.denominator ? (
             <div className="hsp-stat-denom">{localizeMoneyText(s.denominator)}</div>
           ) : (
@@ -183,7 +191,6 @@ function Stats({ stats }: { stats: HspStat[] }) {
               {t('highSchoolPlacement.noDenominator')}
             </div>
           )}
-          <div className="cs-stat-label text-muted">{s.caption}</div>
         </div>
       ))}
     </div>

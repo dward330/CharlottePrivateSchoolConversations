@@ -4313,7 +4313,10 @@ a.cs-college-name:focus-visible {
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--brand);
-  margin-top: 3px;
+  /* Sits BELOW the caption since 2026-09-17, so it needs the wider gap that
+     separates it from the figure's own sentence rather than the 3px that used
+     to tuck it under the number. */
+  margin-top: 6px;
   line-height: 1.3;
 }
 /* A figure the school publishes with NO denominator. Rendered as an explicit
