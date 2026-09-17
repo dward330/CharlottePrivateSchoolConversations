@@ -87,4 +87,4 @@ Newest last.
 | [collegeNameHyperlink](collegeNameHyperlink.md) | Link every college name on "Where Graduates Go" to its homepage, from one new master URL file | 2026-09-16 | Implemented | [#311](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/311) |
 | [add-trinity-episcopal](add-trinity-episcopal.md) | Add Trinity Episcopal School — the first K–8 school to occupy the PreK–8 shape, across eight research areas | 2026-09-16 | Implemented | [#312](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/312) |
 | [boardingranks](boardingranks.md) | Add Niche national boarding ranks to the 30 boarding destinations | 2026-09-17 | Not implemented | — |
-| [schoolwebsitelink](schoolwebsitelink.md) | Link the school name and mascot crest on each dossier header to that school's own homepage | 2026-09-17 | Implemented | — |
+| [schoolwebsitelink](schoolwebsitelink.md) | Link the school name and mascot crest on each dossier header to that school's own homepage | 2026-09-17 | Implemented | [#313](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/313) |

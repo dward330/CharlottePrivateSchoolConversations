@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-09-17
 branch: feat/school-website-link
-prs: []
+prs: [313]
 ---
 
 # Link the school name and mascot crest to the school's own website
