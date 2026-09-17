@@ -33,6 +33,32 @@
 // in `source-material/branding/_shared/`. The state is NOT stored here — every school
 // is in NC, and the abbreviation lives in each locale's kicker string as chrome.
 
+// `homepageUrl` is the school's own homepage ROOT — the link behind the school
+// name and the mascot crest in the dossier header, opening in a new tab. Root
+// only, never a deep link: a parent clicking our `<h1>` should land where the
+// school's own front door is, and an admissions or athletics sub-page rots far
+// faster than a homepage does. `scripts/check_schoolurls.mjs` enforces that shape
+// (https, no path beyond `/`, no query or fragment) plus uniqueness across schools.
+//
+// OPTIONAL, like `logo` and `welcomeVideoUrl`. A school with no `homepageUrl`
+// renders its name as plain text rather than a broken link, the same stance
+// HighSchoolPlacement and CollegeSupport already take on an unresolved URL. The
+// checker therefore reports coverage as an informational count and does NOT fail
+// on a gap — a gate nobody can drive to zero stops being read.
+//
+// It lives HERE rather than on the `School` record in schools.json for the same
+// load-bearing reason as `city` and `hasHighSchool`: the ingest pipeline REBUILDS
+// every schools.json school record as bare `{slug, name}` from the source-material
+// folder names, so a URL written there is erased by the next ingest run with no
+// error and no failing check.
+//
+// All twelve were re-verified live on 2026-09-17 before being written here;
+// statuses, final URLs and two traps (Carmel Christian answers 503 to a bare curl
+// while being perfectly up; Charlotte Christian is the lone `.com`) are recorded in
+// `source-material/branding/_shared/All Schools - Branding - Campus City and Address.md`.
+// The checker deliberately makes no network call — liveness is a dated record there,
+// not a build gate that fails on someone else's outage.
+
 // `hasHighSchool` is the PreK-8 flag, and it is FALSE only for a school that
 // ends at 8th grade. Absent or true means ordinary K-12 behaviour, so every
 // existing school needs no entry — the flag is opt-in to the exception, not a
@@ -58,6 +84,7 @@ export type Brand = {
   city: string
   logo?: string
   welcomeVideoUrl?: string
+  homepageUrl?: string
   hasHighSchool?: boolean
 }
 
@@ -66,6 +93,7 @@ export const BRANDS: Record<string, Brand> = {
     color: '#8a2433', // Cougars — maroon & gold
     initials: 'CA',
     city: 'Concord',
+    homepageUrl: 'https://www.cannonschool.org/',
     logo: '/logos/cannon.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/dI5x4KEkBSY',
   },
@@ -76,6 +104,7 @@ export const BRANDS: Record<string, Brand> = {
     color: '#13294b',
     initials: 'CM',
     city: 'Matthews',
+    homepageUrl: 'https://www.carmelchristian.org/',
     welcomeVideoUrl: 'https://www.youtube.com/embed/0ILLfsxWGYg', // user-chosen, 2026-08-16
   },
   'charlotte-catholic': {
@@ -98,12 +127,14 @@ export const BRANDS: Record<string, Brand> = {
     // own common abbreviation CCHS reduced to its distinctive pair.
     initials: 'CH',
     city: 'Charlotte',
+    homepageUrl: 'https://www.charlottecatholic.org/',
     welcomeVideoUrl: 'https://www.youtube.com/embed/mk06OtSv9ps', // user-chosen, 2026-08-18
   },
   'charlotte-christian': {
     color: '#1e40af', // Knights — royal blue & white
     initials: 'CC',
     city: 'Charlotte',
+    homepageUrl: 'https://www.charlottechristian.com/',
     logo: '/logos/charlotte-christian.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/Be0ULPLDrMM',
   },
@@ -111,6 +142,7 @@ export const BRANDS: Record<string, Brand> = {
     color: '#107a43', // Buccaneers — green & gold
     initials: 'CD',
     city: 'Charlotte',
+    homepageUrl: 'https://www.charlottecountryday.org/',
     logo: '/logos/charlotte-country-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/voNR9UF346g',
   },
@@ -118,6 +150,7 @@ export const BRANDS: Record<string, Brand> = {
     color: '#12294f', // Hawks — navy & white
     initials: 'CL',
     city: 'Charlotte',
+    homepageUrl: 'https://www.charlottelatin.org/',
     logo: '/logos/charlotte-latin.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/QvM-MuKndus',
   },
@@ -128,12 +161,14 @@ export const BRANDS: Record<string, Brand> = {
     color: '#002855',
     initials: 'CV', // 'CD' is taken by Charlotte Country Day's badge
     city: 'Matthews',
+    homepageUrl: 'https://www.covenantday.org/',
     welcomeVideoUrl: 'https://www.youtube.com/embed/sqXDmXq2zXY', // user-chosen, 2026-08-16
   },
   'davidson-day': {
     color: '#1e5fd1', // Patriots — red, white & navy
     initials: 'DD',
     city: 'Davidson',
+    homepageUrl: 'https://www.davidsonday.org/',
     logo: '/logos/davidson-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/wTYvCc7FXCs',
   },
@@ -155,6 +190,7 @@ export const BRANDS: Record<string, Brand> = {
     color: '#00263f',
     initials: 'GD', // confirmed by the GD monogram on the school's crest
     city: 'Gastonia',
+    homepageUrl: 'https://www.gastonday.org/',
     welcomeVideoUrl: 'https://www.youtube.com/embed/f1ohuLbiKJI', // user-chosen, 2026-08-18
   },
   'hickory-grove-christian': {
@@ -165,12 +201,14 @@ export const BRANDS: Record<string, Brand> = {
     color: '#14396e',
     initials: 'HG',
     city: 'Charlotte',
+    homepageUrl: 'https://www.hgchristian.org/',
     welcomeVideoUrl: 'https://www.youtube.com/embed/hhtjvy5tCVE', // user-chosen, 2026-08-17
   },
   'providence-day': {
     color: '#be123c', // Chargers — red, white & navy
     initials: 'PD',
     city: 'Charlotte',
+    homepageUrl: 'https://www.providenceday.org/',
     logo: '/logos/providence-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/EfrQPAWsqv8',
   },
@@ -191,6 +229,7 @@ export const BRANDS: Record<string, Brand> = {
     // crest monogram, reduced to its distinctive pair.
     initials: 'TE',
     city: 'Charlotte',
+    homepageUrl: 'https://www.tescharlotte.org/',
     logo: '/logos/trinity-episcopal.png',
     // K-8: no grades 9-12. Drives Compare exclusion — see the note above.
     hasHighSchool: false,

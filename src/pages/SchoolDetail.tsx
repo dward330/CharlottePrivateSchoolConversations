@@ -560,8 +560,29 @@ export function SchoolDetail({ slug }: { slug: string }) {
           <p className="dossier-kicker">{tr('school.dossierKicker', { city: brand.city })}</p>
           {/* StickySchoolTitle observes this id to know when the school name has
               scrolled under the sticky nav — don't rename it without updating
-              src/components/StickySchoolTitle.tsx. */}
-          <h1 id="school-title">{school.name}</h1>
+              src/components/StickySchoolTitle.tsx.
+
+              The outbound anchor goes INSIDE the <h1>, wrapping only the text, and
+              the id stays on the <h1>. Wrapping the heading itself would move the
+              observed id onto an element with different intersection geometry —
+              silently breaking the sticky title, which nothing automated covers —
+              and an <h1> nested in an <a> is a heading-semantics regression besides.
+              A school with no homepageUrl renders plain text, not a dead link. */}
+          <h1 id="school-title">
+            {brand.homepageUrl ? (
+              <a
+                className="school-title-link"
+                href={brand.homepageUrl}
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label={tr('a11y.schoolSiteLink', { school: school.name })}
+              >
+                {school.name}
+              </a>
+            ) : (
+              school.name
+            )}
+          </h1>
           <p className="school-sub">
             {tr('school.subAreas', { count: covered.length })} ·{' '}
             {tr('school.subDocs', { count: totalDocs })}
@@ -606,7 +627,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
               none, so the line omits itself. */}
           <PodcastDeepDive variant="page" school={slug} schoolName={school.name} />
         </div>
-        {brand.logo && (
+        {brand.logo && (() => {
           /* width/height are the crests' real intrinsic pixels (every file in
              public/logos is 1200x800). They are what lets the browser reserve
              the 3:2 box before the PNG arrives — without them the crest occupies
@@ -617,14 +638,37 @@ export function SchoolDetail({ slug }: { slug: string }) {
              `loading="lazy"` either — the crest is above the fold on every
              school page, so lazy-loading only delays the pop-in.
              See .claude/plans/vitals.md. */
-          <img
-            className="dossier-crest"
-            src={brand.logo}
-            alt={tr('a11y.crestAlt', { school: school.name })}
-            width={1200}
-            height={800}
-          />
-        )}
+          const crest = (
+            <img
+              className="dossier-crest"
+              src={brand.logo}
+              alt={tr('a11y.crestAlt', { school: school.name })}
+              width={1200}
+              height={800}
+            />
+          )
+          if (!brand.homepageUrl) return crest
+          /* The crest points at the same URL as the school name right beside it.
+             Two links to one target is duplicate-link noise for a screen-reader
+             user, so the crest link is hidden from the accessibility tree and
+             taken out of the tab order — the <h1> link carries the label. The
+             <img alt> stays for the non-link case above.
+
+             .dossier-crest-link carries the flex/sizing that used to sit on the
+             <img>; see the rule in index.css and the CLS note above. */
+          return (
+            <a
+              className="dossier-crest-link"
+              href={brand.homepageUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-hidden="true"
+              tabIndex={-1}
+            >
+              {crest}
+            </a>
+          )
+        })()}
       </header>
 
       <div className="dossier-layout">
