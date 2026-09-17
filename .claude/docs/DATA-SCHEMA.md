@@ -23,6 +23,7 @@ so it cannot silently fall out of date. Edit the data modules, never this file.
 | [4. Compare rows](#4-compare-rows-quantitative-layer) | Cross-school numbers | `src/data/metricValues.ts` (hand-maintained) |
 | [5. Standalone layers](#5-standalone-layers) | Catalogs & reports | individual `src/data/*.ts` |
 | [6. Adding to the schema](#6-adding-to-the-schema) | How each layer grows | — |
+| [7. The K-8 school shape](#7-the-k-8-school-shape) | What a school that ends at 8th grade carries | `hasHighSchool` in `src/data/brands.ts` |
 
 ## 1. Schools & research areas
 
@@ -1015,3 +1016,99 @@ acceptance-list rank labels and is chained into the build).
 - `npm run schema` — regenerate.
 - `npm run check:schema` — fail if it drifted. Chained into `npm run build`.
 - The generator reads live modules, so it cannot describe a card that no longer exists.
+
+## 7. The K-8 school shape
+
+A school that ends at 8th grade does NOT get a thinner version of the K-12 page —
+it gets a different one. This section is what `/add-school` needs before it assesses
+a K-8 candidate, so that the areas and cards a K-8 school cannot have are never
+counted as gaps in its coverage.
+
+**The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the
+Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and nothing else
+automatically — every rule below is a research and authoring decision.
+
+**K-8 schools today (1):** `trinity-episcopal`
+
+### What changes, and why
+
+| Layer | K-12 school | K-8 school |
+|---|---|---|
+| Research areas | 9 of 10 | **9 of 10** — the same count, but College Support swaps for High School Placement |
+| Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
+| Sports cards | up to 7 | **up to 3** — the 4 college-bound ones do not apply |
+| College Support | 7 cards | **none** |
+| High School Placement | none | **up to 4 cards** |
+
+### ⛔ No college card on a K-8 school — settled, not deferred
+
+A K-8 school may publish an impressive college list: Trinity names 160 institutions
+across the Classes of 2004-2022, including Harvard, Stanford, MIT and Duke, plus two
+Morehead-Cain Scholars. **It still gets no college card** (user, 2026-09-16).
+
+Those alumni reached those colleges after four years at a DIFFERENT high school.
+Crediting the K-8 school with that outcome is the same error as reading a cumulative
+placement split as a per-class rate. The list stays in `source-material/` and renders
+nowhere. Do not re-raise this as a fifth High School Placement card.
+
+### Sports — the four cards that do not apply
+
+`pipeline`, `honors`, `facilities`, `national` are college-recruiting and
+state-championship surfaces. A middle-school programme has no analogue, so their
+absence is **a property of the school, not a research gap**. `record` needs its own
+judgment: the `TitleResult` vocabulary is NCISAA STATE titles, so marking a
+middle-school conference championship `STATE` prints a false claim in ten locales —
+carry such results as prose on `offered`/`coaching` instead.
+
+### High School Placement — four cards, and when to drop one
+
+`outcomes` · `placement` · `destinations` · `verdict`. The area is the K-8 analogue
+of College Support and reuses its verdict treatment unchanged.
+
+Two traps, both hit on the first occupant:
+
+- **`PlacementClass` requires `acceptedPct` + `acceptedCount`**, rendered under a
+  chrome header reading "Accepted to a top-two choice" in all ten locales. A school
+  that publishes no such figure must leave `classes: []` rather than substitute a
+  different rate — otherwise the page states something false in ten languages.
+- **A cumulative split is not a per-class rate.** Trinity's 31/57/12 is across 1,060
+  graduates since 2004. Label it that way or omit it.
+
+### Destination metadata lives in one master
+
+Every high school named on a placement list resolves its homepage, kind and rank
+from `src/data/highSchools.ts` via `highSchoolFor(name)`. Per-school placement files
+carry only `{ name, slug? }` — never an inline url or rank.
+
+Rank labels are stored WHOLE because four scales share one column
+(`Charlotte Private K-12 Niche Rank #5`, `US News National HS Rank #475`, …): a bare
+`#5` beside a bare `#475` reads as one ranking. The card groups destinations by the
+master's `kind`, which is what each institution ACTUALLY is — not always how the
+listing school files it.
+
+### What the first occupant actually shipped
+
+Registry counts above are what a card set CAN hold. This is what a real K-8
+school filled, and it is the more useful benchmark — a K-8 page is legitimately
+sparser in the college-facing areas and no thinner anywhere else.
+
+| Area | Cards shipped | Of possible |
+|---|---|--:|
+| sports | `offered`, `coaching` | 2/7 |
+| the-arts | `ladder`, `theatre`, `music`, `visual`, `verdict` | 5/5 |
+| student-clubs | `affinity`, `service`, `honors` | 3/3 |
+| college-support | — | 0/7 |
+| after-school | `coverage`, `dayInside`, `verdict` | 3/4 |
+| summer-programs | `catalog`, `costPlanner` | 2/2 |
+| admissions | `guide` | 1/1 |
+| high-school-placement | `placement`, `destinations`, `verdict` | 3/4 |
+
+Read from `trinity-episcopal`'s own data files, so it tracks the real page rather than a
+plan. An area at 0 is not necessarily a failure — College Support is 0 by design.
+
+### What a K-8 page does NOT need approval for
+
+Adding a K-8 school is covered by the §6 "A **school**" row — automatic everywhere.
+The shape itself (the area, the Compare exclusion, the dropped Sports cards) was
+approved 2026-09-15 and the fourth destination category on 2026-09-17. Material that
+fits **no existing card** is still a new card and still needs approval.
