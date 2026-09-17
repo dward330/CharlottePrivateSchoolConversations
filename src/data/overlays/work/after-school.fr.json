@@ -1202,7 +1202,8 @@
         "charlotte-christian:coverage.summer.season",
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season"
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season"
       ],
       "t": "JUIN–JUIL."
     },
@@ -1651,7 +1652,8 @@
         "charlotte-christian:dayInside.wordsTitle",
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
-        "carmel-christian:dayInside.wordsTitle"
+        "carmel-christian:dayInside.wordsTitle",
+        "trinity-episcopal:dayInside.wordsTitle"
       ],
       "t": "Le programme, dans les mots de l’école"
     },
@@ -3127,7 +3129,8 @@
         "charlotte-country-day:coverage.facts[1].label",
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
-        "gaston-day:coverage.facts[0].label"
+        "gaston-day:coverage.facts[0].label",
+        "trinity-episcopal:coverage.facts[1].label"
       ],
       "t": "Accès libre"
     },
@@ -7640,6 +7643,460 @@
         "gaston-day:verdict.checklist[6]"
       ],
       "t": "En quoi l’encadrement du palier 5th–8th diffère-t-il de celui du palier Pre-K–4th une fois que les deux se retrouvent dans la même salle ?"
+    },
+    {
+      "text": "One K–8 program, Trinity Extended Day, runs from dismissal to 6:00 p.m. — and it is priced on household income rather than on how many days a week you use it.",
+      "of": "50aecdfe",
+      "at": [
+        "trinity-episcopal:coverage.headline"
+      ],
+      "t": "Un seul programme K–8, Trinity Extended Day, fonctionne de la sortie des cours jusqu'à 6:00 p.m. — et son tarif dépend du revenu du foyer plutôt que du nombre de jours par semaine où on l'utilise."
+    },
+    {
+      "text": "Four income bands run $105 to $380 a month, every drop-in tier has a reduced rate for families receiving financial support, and half days are free to monthly attendees. There is no morning care.",
+      "of": "da9d1870",
+      "at": [
+        "trinity-episcopal:coverage.subhead"
+      ],
+      "t": "Quatre tranches de revenus vont de $105 à $380 par mois, chaque palier d'accès libre comporte un tarif réduit pour les familles bénéficiant d'une aide financière, et les demi-journées sont gratuites pour les familles au forfait mensuel. Il n'y a pas d'accueil du matin."
+    },
+    {
+      "text": "The price on the bar is the **monthly rate for a household over $90,000** — the top of four income bands, which start at **$105/month** under $30,000. Trinity does **not** price TED by days per week, so there is no days-per-week ladder to open; the full income table and the per-day rates are in the facts below.",
+      "of": "2e4aa8fb",
+      "at": [
+        "trinity-episcopal:coverage.basisNote"
+      ],
+      "t": "Le prix affiché sur la barre correspond au **tarif mensuel pour un foyer au-dessus de $90,000** — le sommet de quatre tranches de revenus, qui commencent à **$105/mois** en dessous de $30,000. Trinity ne fixe **pas** le tarif du TED en fonction du nombre de jours par semaine : il n'y a donc pas d'échelle jours-par-semaine à déplier ; le tableau complet des revenus et les tarifs à la journée figurent dans les faits ci-dessous."
+    },
+    {
+      "text": "begins at dismissal",
+      "of": "25420411",
+      "at": [
+        "trinity-episcopal:coverage.rows[0].dismissal"
+      ],
+      "t": "commence à la sortie des cours"
+    },
+    {
+      "text": "Trinity Extended Day · dismissal–6:00 · $380/mo",
+      "of": "2c89b903",
+      "at": [
+        "trinity-episcopal:coverage.rows[0].flatLabel"
+      ],
+      "t": "Trinity Extended Day · sortie des cours–6:00 · $380/mois"
+    },
+    {
+      "text": "before school",
+      "of": "bbb5f13e",
+      "at": [
+        "trinity-episcopal:coverage.rows[1].dismissal"
+      ],
+      "t": "avant les cours"
+    },
+    {
+      "text": "No before-school care — TED is afternoon-only",
+      "of": "7f82ead5",
+      "at": [
+        "trinity-episcopal:coverage.rows[1].flatLabel"
+      ],
+      "t": "Aucun accueil avant les cours — le TED est uniquement l'après-midi"
+    },
+    {
+      "text": "early dismissal",
+      "of": "a4046a8d",
+      "at": [
+        "trinity-episcopal:coverage.rows[2].dismissal"
+      ],
+      "t": "sortie anticipée"
+    },
+    {
+      "text": "TED runs early dismissal–5:30 · free to monthly attendees, else $51/day",
+      "of": "fb32b359",
+      "at": [
+        "trinity-episcopal:coverage.rows[2].flatLabel"
+      ],
+      "t": "Le TED fonctionne de la sortie anticipée à 5:30 · gratuit pour les familles au forfait mensuel, sinon $51/jour"
+    },
+    {
+      "text": "TES closed",
+      "of": "6edc8c59",
+      "at": [
+        "trinity-episcopal:coverage.rows[3].dismissal"
+      ],
+      "t": "TES fermée"
+    },
+    {
+      "text": "TED runs 8:00–5:30 on days TES is closed · $72/day",
+      "of": "6f0363d2",
+      "at": [
+        "trinity-episcopal:coverage.rows[3].flatLabel"
+      ],
+      "t": "Le TED fonctionne de 8:00 à 5:30 les jours où TES est fermée · $72/jour"
+    },
+    {
+      "text": "**Wildcat Summer Camp** — six weeks of full- and half-day camps for rising grades K–8, **15 June to 24 July 2026**, open to any child in the community. Before-camp care 7:45–9:00 a.m. is **$85/week**, after-camp care 4:00–5:30 p.m. **$90/week**, or **$175/week** for both.",
+      "of": "1c147d80",
+      "at": [
+        "trinity-episcopal:coverage.summer.text"
+      ],
+      "t": "**Wildcat Summer Camp** — six semaines de stages en journée complète et en demi-journée pour les futurs niveaux K–8, du **15 juin au 24 juillet 2026**, ouverts à tout enfant de la communauté. L'accueil avant le stage de 7:45 à 9:00 a.m. est à **$85/semaine**, l'accueil après le stage de 4:00 à 5:30 p.m. à **$90/semaine**, ou **$175/semaine** pour les deux."
+    },
+    {
+      "text": "Monthly rates by household income",
+      "of": "08e6717a",
+      "at": [
+        "trinity-episcopal:coverage.facts[0].label"
+      ],
+      "t": "Tarifs mensuels par revenu du foyer"
+    },
+    {
+      "text": "under $30,000 **$105** · $30,000–$60,000 **$135** · $60,000–$90,000 **$195** · over $90,000 **$380** ($355 for a sibling) — the school heads this column \"**Estimated** TED Monthly Cost\"",
+      "of": "bef2ad58",
+      "at": [
+        "trinity-episcopal:coverage.facts[0].text"
+      ],
+      "t": "en dessous de $30,000 **$105** · $30,000–$60,000 **$135** · $60,000–$90,000 **$195** · au-dessus de $90,000 **$380** ($355 pour un frère ou une sœur) — l'école intitule cette colonne \"**Estimated** TED Monthly Cost\""
+    },
+    {
+      "text": "**$31/day**, or **$25/day** for families receiving financial support — TED is open until 6 p.m. on regular school days",
+      "of": "ad9a8760",
+      "at": [
+        "trinity-episcopal:coverage.facts[1].text"
+      ],
+      "t": "**$31/jour**, ou **$25/jour** pour les familles bénéficiant d'une aide financière — le TED est ouvert jusqu'à 6 p.m. les jours de classe ordinaires"
+    },
+    {
+      "text": "Full day",
+      "of": "ba859c4e",
+      "at": [
+        "trinity-episcopal:coverage.facts[2].label"
+      ],
+      "t": "Journée complète"
+    },
+    {
+      "text": "**$72/day**, or **$45/day for a first child ($40 sibling)** with financial support — these are days TES is closed but TED runs 8:00 a.m.–5:30 p.m.",
+      "of": "8a811fef",
+      "at": [
+        "trinity-episcopal:coverage.facts[2].text"
+      ],
+      "t": "**$72/jour**, ou **$45/jour pour un premier enfant ($40 pour un frère ou une sœur)** avec une aide financière — il s'agit des jours où TES est fermée mais où le TED fonctionne de 8:00 a.m. à 5:30 p.m."
+    },
+    {
+      "text": "Half day",
+      "of": "d2c21926",
+      "at": [
+        "trinity-episcopal:coverage.facts[3].label"
+      ],
+      "t": "Demi-journée"
+    },
+    {
+      "text": "**complimentary to TED monthly attendees**; otherwise **$51/day**, or **$30/day** with financial support — TED runs from early dismissal to 5:30 p.m.",
+      "of": "caf4fc97",
+      "at": [
+        "trinity-episcopal:coverage.facts[3].text"
+      ],
+      "t": "**gratuit pour les familles au forfait mensuel TED** ; sinon **$51/jour**, ou **$30/jour** avec une aide financière — le TED fonctionne de la sortie anticipée jusqu'à 5:30 p.m."
+    },
+    {
+      "text": "Morning care",
+      "of": "1fd27504",
+      "at": [
+        "trinity-episcopal:coverage.facts[4].label"
+      ],
+      "t": "Accueil du matin"
+    },
+    {
+      "text": "none — TED begins at dismissal and there is no before-school program of any kind during the school year",
+      "of": "2fc0918c",
+      "at": [
+        "trinity-episcopal:coverage.facts[4].text"
+      ],
+      "t": "aucun — le TED commence à la sortie des cours et il n'existe aucun programme d'avant l'école, quel qu'il soit, pendant l'année scolaire"
+    },
+    {
+      "text": "Staff",
+      "of": "0d19a971",
+      "at": [
+        "trinity-episcopal:coverage.facts[5].label"
+      ],
+      "t": "Personnel"
+    },
+    {
+      "text": "**Jocelyn Purdie**, Director of Auxiliary Services, and **Nancy Guerra**, Assistant Director, TED; the school profile records **7 Extended Day & Support Staff**",
+      "of": "3c378cc2",
+      "at": [
+        "trinity-episcopal:coverage.facts[5].text"
+      ],
+      "t": "**Jocelyn Purdie**, Director of Auxiliary Services, et **Nancy Guerra**, Assistant Director, TED ; le profil de l'école fait état de **7 Extended Day & Support Staff**"
+    },
+    {
+      "text": "Dedicated homework time, art, board games and Fun Friday — with the Trinity Honor Code explicitly extended past the end of the school day.",
+      "of": "68ffad9d",
+      "at": [
+        "trinity-episcopal:dayInside.headline"
+      ],
+      "t": "Un temps de devoirs dédié, des arts plastiques, des jeux de société et le Fun Friday — avec le Trinity Honor Code explicitement prolongé au-delà de la fin de la journée de classe."
+    },
+    {
+      "text": "Paid enrichments run several days a week, led by a mix of Trinity faculty and outside contractors. The school names four examples and prices none of them.",
+      "of": "6058e9f9",
+      "at": [
+        "trinity-episcopal:dayInside.subhead"
+      ],
+      "t": "Des enrichissements payants ont lieu plusieurs jours par semaine, encadrés à la fois par des enseignants de Trinity et par des intervenants extérieurs. L'école en cite quatre exemples et n'en tarife aucun."
+    },
+    {
+      "text": "building character",
+      "of": "db625236",
+      "at": [
+        "trinity-episcopal:dayInside.words[0]"
+      ],
+      "t": "forger le caractère"
+    },
+    {
+      "text": "enriching lives",
+      "of": "5bfb0743",
+      "at": [
+        "trinity-episcopal:dayInside.words[1]"
+      ],
+      "t": "enrichir les vies"
+    },
+    {
+      "text": "having fun",
+      "of": "5153d815",
+      "at": [
+        "trinity-episcopal:dayInside.words[2]"
+      ],
+      "t": "s'amuser"
+    },
+    {
+      "text": "safe, well-structured environment",
+      "of": "cdd6fbed",
+      "at": [
+        "trinity-episcopal:dayInside.words[3]"
+      ],
+      "t": "environnement sûr et bien structuré"
+    },
+    {
+      "text": "dedicated homework time",
+      "of": "3174648d",
+      "at": [
+        "trinity-episcopal:dayInside.words[4]"
+      ],
+      "t": "temps de devoirs dédié"
+    },
+    {
+      "text": "group projects",
+      "of": "51fa086e",
+      "at": [
+        "trinity-episcopal:dayInside.words[5]"
+      ],
+      "t": "projets de groupe"
+    },
+    {
+      "text": "Fun Friday activities",
+      "of": "3cadab92",
+      "at": [
+        "trinity-episcopal:dayInside.words[6]"
+      ],
+      "t": "activités du Fun Friday"
+    },
+    {
+      "text": "the Trinity Honor Code",
+      "of": "fef9e484",
+      "at": [
+        "trinity-episcopal:dayInside.words[7]"
+      ],
+      "t": "le Trinity Honor Code"
+    },
+    {
+      "text": "\"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program\" — \"a safe, well-structured environment for every Trinity student.\" It offers \"dedicated homework time\" plus group projects and activities such as art, board games and Fun Friday, and students \"are expected to adhere to the Trinity Honor Code while participating in Extended Day.\"",
+      "of": "7e55f957",
+      "at": [
+        "trinity-episcopal:dayInside.wordsText"
+      ],
+      "t": "\"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program\" — \"a safe, well-structured environment for every Trinity student.\" Le programme propose un \"dedicated homework time\" ainsi que des projets de groupe et des activités telles que les arts plastiques, les jeux de société et le Fun Friday, et les élèves \"are expected to adhere to the Trinity Honor Code while participating in Extended Day.\""
+    },
+    {
+      "text": "Enrichments — named, and unpriced",
+      "of": "35c711d7",
+      "at": [
+        "trinity-episcopal:dayInside.catalogTitle"
+      ],
+      "t": "Enrichissements — nommés, et sans tarif"
+    },
+    {
+      "text": "TED \"also offers enrichment programs, **for an additional fee**, several days a week\", led by \"a combination of Trinity faculty/staff and independent contractors\". The school gives these four as **examples** and adds \"and more\", so this is **not the full roster** — and it states no fee for any of them. Note that Trinity uses \"enrichments\" for two different things: these are the **paid** after-school add-ons, while the Lower and Middle School \"Enrichments\" pages list free curricular subjects.",
+      "of": "cef8b0de",
+      "at": [
+        "trinity-episcopal:dayInside.catalogIntro"
+      ],
+      "t": "Le TED \"also offers enrichment programs, **for an additional fee**, several days a week\", encadrés par \"a combination of Trinity faculty/staff and independent contractors\". L'école donne ces quatre-là comme **exemples** et ajoute \"and more\" : ce n'est donc **pas la liste complète** — et elle n'indique aucun tarif pour aucun d'entre eux. À noter que Trinity emploie le mot \"enrichments\" pour deux choses différentes : il s'agit ici des compléments périscolaires **payants**, alors que les pages \"Enrichments\" du Lower School et du Middle School répertorient des matières gratuites du programme scolaire."
+    },
+    {
+      "text": "Named by the school as an example of a TED enrichment; day, grade band and fee are not published.",
+      "of": "32ed0c1c",
+      "at": [
+        "trinity-episcopal:dayInside.classes[0].desc",
+        "trinity-episcopal:dayInside.classes[1].desc",
+        "trinity-episcopal:dayInside.classes[2].desc",
+        "trinity-episcopal:dayInside.classes[3].desc"
+      ],
+      "t": "Citée par l'école comme exemple d'enrichissement TED ; le jour, la tranche de niveaux et le tarif ne sont pas publiés."
+    },
+    {
+      "text": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel",
+        "trinity-episcopal:dayInside.classes[3].gradeLabel"
+      ],
+      "t": "K–8"
+    },
+    {
+      "text": "The most deliberately affordable after-school program on this roster — income-scaled monthly rates, a reduced rate on every drop-in tier, and free half days for monthly families.",
+      "of": "495b3819",
+      "at": [
+        "trinity-episcopal:verdict.headline"
+      ],
+      "t": "Le programme périscolaire le plus délibérément abordable de cette liste — des tarifs mensuels indexés sur le revenu, un tarif réduit à chaque palier d'accès libre, et des demi-journées gratuites pour les familles au forfait mensuel."
+    },
+    {
+      "text": "**Rates scale with household income** — $105 a month under $30,000, rising through $135 and $195 to $380 over $90,000. No other school in this set prices after-school care on ability to pay at all.",
+      "of": "39f87e75",
+      "at": [
+        "trinity-episcopal:verdict.strengths[0]"
+      ],
+      "t": "**Les tarifs sont indexés sur le revenu du foyer** — $105 par mois en dessous de $30,000, puis $135 et $195, jusqu'à $380 au-dessus de $90,000. Aucune autre école de cet ensemble ne fixe le tarif de l'accueil périscolaire en fonction de la capacité à payer."
+    },
+    {
+      "text": "**Every per-day tier has a reduced rate for families receiving financial support** — drop-in falls from $31 to $25, a full day from $72 to $45 (first child) and a half day from $51 to $30. The discount is not confined to the monthly contract.",
+      "of": "9bcc7168",
+      "at": [
+        "trinity-episcopal:verdict.strengths[1]"
+      ],
+      "t": "**Chaque palier à la journée comporte un tarif réduit pour les familles bénéficiant d'une aide financière** — l'accès libre passe de $31 à $25, une journée complète de $72 à $45 (premier enfant) et une demi-journée de $51 à $30. La réduction ne se limite pas au forfait mensuel."
+    },
+    {
+      "text": "**Half days are complimentary to monthly attendees.** Early-dismissal days are where care is hardest to arrange and where several peers charge a premium.",
+      "of": "c91bfd2f",
+      "at": [
+        "trinity-episcopal:verdict.strengths[2]"
+      ],
+      "t": "**Les demi-journées sont gratuites pour les familles au forfait mensuel.** Les jours de sortie anticipée sont ceux où la garde est la plus difficile à organiser et où plusieurs établissements comparables facturent un supplément."
+    },
+    {
+      "text": "**A sibling rate is published** in the top income band — $355 against $380 — so the discount is stated rather than implied.",
+      "of": "19f6cf4e",
+      "at": [
+        "trinity-episcopal:verdict.strengths[3]"
+      ],
+      "t": "**Un tarif fratrie est publié** dans la tranche de revenus la plus élevée — $355 contre $380 — de sorte que la réduction est énoncée plutôt que sous-entendue."
+    },
+    {
+      "text": "**Coverage runs to 6:00 p.m.**, the latest close on this roster, and it is one uniform program across the whole K–8 span rather than a split Lower/Middle arrangement.",
+      "of": "432e34cb",
+      "at": [
+        "trinity-episcopal:verdict.strengths[4]"
+      ],
+      "t": "**La couverture va jusqu'à 6:00 p.m.**, la fermeture la plus tardive de cette liste, et il s'agit d'un programme unique et uniforme sur toute l'étendue K–8, plutôt que d'un dispositif scindé entre Lower et Middle."
+    },
+    {
+      "text": "**Days when school is closed are covered** — TED runs 8:00 a.m. to 5:30 p.m. at $72/day — which several peers do not address at all.",
+      "of": "430a9ff8",
+      "at": [
+        "trinity-episcopal:verdict.strengths[5]"
+      ],
+      "t": "**Les jours de fermeture de l'école sont couverts** — le TED fonctionne de 8:00 a.m. à 5:30 p.m. à $72/jour — ce que plusieurs établissements comparables n'abordent pas du tout."
+    },
+    {
+      "text": "**The program has a stated purpose beyond supervision**: dedicated homework time, group projects, and the Trinity Honor Code explicitly extended past dismissal.",
+      "of": "a3c63c84",
+      "at": [
+        "trinity-episcopal:verdict.strengths[6]"
+      ],
+      "t": "**Le programme affiche une finalité qui va au-delà de la surveillance** : un temps de devoirs dédié, des projets de groupe, et le Trinity Honor Code explicitement prolongé au-delà de la sortie des cours."
+    },
+    {
+      "text": "How many months a year is the TED monthly rate billed, and what does a full school year actually cost?",
+      "of": "3986643c",
+      "at": [
+        "trinity-episcopal:verdict.checklist[0]"
+      ],
+      "t": "Sur combien de mois par an le tarif mensuel du TED est-il facturé, et combien coûte réellement une année scolaire complète ?"
+    },
+    {
+      "text": "The rate table says \"Estimated\" — what is the actual charge, and what makes it vary?",
+      "of": "8da9427b",
+      "at": [
+        "trinity-episcopal:verdict.checklist[1]"
+      ],
+      "t": "Le tableau des tarifs indique \"Estimated\" — quel est le montant réellement facturé, et qu'est-ce qui le fait varier ?"
+    },
+    {
+      "text": "Is there a registration fee, and is a partial month prorated if we start or stop mid-year?",
+      "of": "92e02dbe",
+      "at": [
+        "trinity-episcopal:verdict.checklist[2]"
+      ],
+      "t": "Y a-t-il des frais d'inscription, et un mois incomplet est-il calculé au prorata si l'on commence ou arrête en cours d'année ?"
+    },
+    {
+      "text": "Can we switch between the monthly contract and drop-in during the year, and how much notice is needed?",
+      "of": "0b3541f8",
+      "at": [
+        "trinity-episcopal:verdict.checklist[3]"
+      ],
+      "t": "Peut-on passer du forfait mensuel à l'accès libre en cours d'année, et quel préavis faut-il respecter ?"
+    },
+    {
+      "text": "What do the enrichments cost — chess club, music lessons, karate, cheer club — and what is the full current list?",
+      "of": "7526a556",
+      "at": [
+        "trinity-episcopal:verdict.checklist[4]"
+      ],
+      "t": "Combien coûtent les enrichissements — club d'échecs, cours de musique, karaté, club de cheerleading — et quelle est la liste complète actuelle ?"
+    },
+    {
+      "text": "Does an enrichment cover us until 6:00 p.m., or is it charged on top of the monthly TED rate?",
+      "of": "ffb35f33",
+      "at": [
+        "trinity-episcopal:verdict.checklist[5]"
+      ],
+      "t": "Un enrichissement nous couvre-t-il jusqu'à 6:00 p.m., ou est-il facturé en plus du tarif mensuel du TED ?"
+    },
+    {
+      "text": "What is the late-pickup policy after 6:00 p.m. — is there a charge, and at what point does it affect enrolment?",
+      "of": "c034e22d",
+      "at": [
+        "trinity-episcopal:verdict.checklist[6]"
+      ],
+      "t": "Quelle est la politique en cas de récupération tardive après 6:00 p.m. — y a-t-il des frais, et à partir de quand cela a-t-il une incidence sur l'inscription ?"
+    },
+    {
+      "text": "Which income figure is used for the band — gross household income, adjusted gross, or the Clarity assessment?",
+      "of": "067a562c",
+      "at": [
+        "trinity-episcopal:verdict.checklist[7]"
+      ],
+      "t": "Quel montant de revenu sert à déterminer la tranche — le revenu brut du foyer, le revenu brut ajusté, ou l'évaluation Clarity ?"
+    },
+    {
+      "text": "What is the staff-to-child ratio in TED, and does it differ for a kindergartener and an 8th grader?",
+      "of": "c0eef1c0",
+      "at": [
+        "trinity-episcopal:verdict.checklist[8]"
+      ],
+      "t": "Quel est le taux d'encadrement au TED, et diffère-t-il entre un élève de Kindergarten et un élève de 8th grade ?"
+    },
+    {
+      "text": "Is there any supervised option before school, even unpaid — and if not, what do working families typically do?",
+      "of": "9fb6faf4",
+      "at": [
+        "trinity-episcopal:verdict.checklist[9]"
+      ],
+      "t": "Existe-t-il une solution surveillée avant les cours, même gratuite — et sinon, comment font en général les familles où les deux parents travaillent ?"
     }
   ]
 }

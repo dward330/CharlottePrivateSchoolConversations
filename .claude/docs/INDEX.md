@@ -13,6 +13,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Covenant Day School](admissions/covenant-day.md) — 1 docs
 - [Hickory Grove Christian School](admissions/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](admissions/providence-day.md) — 2 docs
+- [Trinity Episcopal School](admissions/trinity-episcopal.md) — 2 docs
 
 ### After School (`after-school/`)
 
@@ -26,6 +27,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](after-school/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](after-school/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](after-school/providence-day.md) — 6 docs
+- [Trinity Episcopal School](after-school/trinity-episcopal.md) — 1 docs
 
 ### College Support (`college-support/`)
 
@@ -54,6 +56,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](course-offerings/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](course-offerings/hickory-grove-christian.md) — 2 docs
 - [Providence Day School](course-offerings/providence-day.md) — 1 docs
+- [Trinity Episcopal School](course-offerings/trinity-episcopal.md) — 2 docs
 
 ### Financial Aid & Tuition (`financial-aid-tuition/`)
 
@@ -68,13 +71,18 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](financial-aid-tuition/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](financial-aid-tuition/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](financial-aid-tuition/providence-day.md) — 1 docs
+- [Trinity Episcopal School](financial-aid-tuition/trinity-episcopal.md) — 4 docs
+
+### High School Placement (`high-school-placement/`)
+
+- [Trinity Episcopal School](high-school-placement/trinity-episcopal.md) — 3 docs
 
 ### Sports (`sports/`)
 
 - [Cannon School](sports/cannon.md) — 15 docs
 - [Carmel Christian School](sports/carmel-christian.md) — 1 docs
 - [Charlotte Catholic High School](sports/charlotte-catholic.md) — 1 docs
-- [Charlotte Christian School](sports/charlotte-christian.md) — 15 docs
+- [Charlotte Christian School](sports/charlotte-christian.md) — 16 docs
 - [Charlotte Country Day School](sports/charlotte-country-day.md) — 15 docs
 - [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
 - [Covenant Day School](sports/covenant-day.md) — 15 docs
@@ -82,6 +90,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](sports/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](sports/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](sports/providence-day.md) — 15 docs
+- [Trinity Episcopal School](sports/trinity-episcopal.md) — 2 docs
 
 ### Student Clubs (`student-clubs/`)
 
@@ -96,6 +105,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](student-clubs/gaston-day.md) — 2 docs
 - [Hickory Grove Christian School](student-clubs/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](student-clubs/providence-day.md) — 8 docs
+- [Trinity Episcopal School](student-clubs/trinity-episcopal.md) — 4 docs
 
 ### Summer Programs (`summer-programs/`)
 
@@ -109,6 +119,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](summer-programs/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](summer-programs/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](summer-programs/providence-day.md) — 1 docs
+- [Trinity Episcopal School](summer-programs/trinity-episcopal.md) — 2 docs
 
 ### The Arts (`the-arts/`)
 
@@ -123,7 +134,8 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Gaston Day School](the-arts/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](the-arts/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](the-arts/providence-day.md) — 7 docs
+- [Trinity Episcopal School](the-arts/trinity-episcopal.md) — 2 docs
 
 
 ## Data layer
-- `src/data/schools.json` — 406 documents across 9 topics and 11 schools.
+- `src/data/schools.json` — 429 documents across 10 topics and 12 schools.

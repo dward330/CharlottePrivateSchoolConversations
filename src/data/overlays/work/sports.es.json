@@ -74,7 +74,8 @@
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
         "hickory-grove-christian:offered.seasons[0].name",
-        "gaston-day:offered.seasons[0].name"
+        "gaston-day:offered.seasons[0].name",
+        "trinity-episcopal:offered.seasons[0].name"
       ],
       "t": "Otoño"
     },
@@ -104,7 +105,8 @@
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
         "hickory-grove-christian:offered.seasons[1].name",
-        "gaston-day:offered.seasons[1].name"
+        "gaston-day:offered.seasons[1].name",
+        "trinity-episcopal:offered.seasons[1].name"
       ],
       "t": "Invierno"
     },
@@ -122,7 +124,8 @@
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
         "hickory-grove-christian:offered.seasons[2].name",
-        "gaston-day:offered.seasons[2].name"
+        "gaston-day:offered.seasons[2].name",
+        "trinity-episcopal:offered.seasons[2].name"
       ],
       "t": "Primavera"
     },
@@ -5886,7 +5889,8 @@
       "text": "20 yrs",
       "of": "d7cc331b",
       "at": [
-        "cannon:coaching.featured[0].stats[1].value"
+        "cannon:coaching.featured[0].stats[1].value",
+        "trinity-episcopal:coaching.featured[0].stats[0].value"
       ],
       "t": "20 años"
     },
@@ -6313,7 +6317,9 @@
       "text": "4 teams",
       "of": "12157781",
       "at": [
-        "covenant-day:offered.seasons[1].note"
+        "covenant-day:offered.seasons[1].note",
+        "trinity-episcopal:offered.seasons[0].note",
+        "trinity-episcopal:offered.seasons[2].note"
       ],
       "t": "4 equipos"
     },
@@ -8627,6 +8633,174 @@
         "gaston-day:facilities.careNote"
       ],
       "t": "Esta ficha es deliberadamente breve. Todos los centros equiparables de esta lista publican un listado de instalaciones; Gaston Day no lo hace, y el único documento que lo recogería (el Athletic Handbook) no es accesible. Se trata de una laguna de publicación, no de una ausencia de instalaciones — un campus que presenta 19 deportes evidentemente las tiene."
+    },
+    {
+      "text": "7 sports across 10 season-teams, with no skill-based cuts — \"If a student wants to play one of the sports we offer then we create that opportunity.\"",
+      "of": "f8d1a57f",
+      "at": [
+        "trinity-episcopal:offered.headline"
+      ],
+      "t": "7 deportes repartidos en 10 equipos de temporada, sin cortes por nivel — \"If a student wants to play one of the sports we offer then we create that opportunity.\""
+    },
+    {
+      "text": "A K–8 middle school programme in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: \"Play Hard, Play Smart, Play Together, and Have Fun\".",
+      "of": "f443635c",
+      "at": [
+        "trinity-episcopal:offered.subhead"
+      ],
+      "t": "Un programa de middle school K–8 en la Queen City Conference, NO en la GCMSAA en la que juegan los colegios independientes más grandes de Charlotte. Los equipos se forman por franja de grado — 7.º/8.º, 8.º, 6.º/7.º — nunca como varsity, JV ni escuadras A/B. Lema: \"Play Hard, Play Smart, Play Together, and Have Fun\"."
+    },
+    {
+      "text": "distinct sports offered",
+      "of": "b64957c3",
+      "at": [
+        "trinity-episcopal:offered.stats[0].label"
+      ],
+      "t": "deportes distintos ofrecidos"
+    },
+    {
+      "text": "season-teams across three seasons",
+      "of": "3305ff96",
+      "at": [
+        "trinity-episcopal:offered.stats[1].label"
+      ],
+      "t": "equipos de temporada a lo largo de tres temporadas"
+    },
+    {
+      "text": "of Middle School plays in at least one season",
+      "of": "fddec10a",
+      "at": [
+        "trinity-episcopal:offered.stats[2].label"
+      ],
+      "t": "de la Middle School juega al menos una temporada"
+    },
+    {
+      "text": "Queen City Conference · not the GCMSAA",
+      "of": "b9ea8813",
+      "at": [
+        "trinity-episcopal:offered.stats[3].label"
+      ],
+      "t": "Queen City Conference · no la GCMSAA"
+    },
+    {
+      "text": "2 teams",
+      "of": "9666f7e7",
+      "at": [
+        "trinity-episcopal:offered.seasons[1].note"
+      ],
+      "t": "2 equipos"
+    },
+    {
+      "text": "Selected results, not a record — Trinity has published exactly two seasons, Fall 2023 and Winter 2024, all of it Queen City Conference play. WINTER 2024: \"For the first time in school history, the Trinity 8th Grade boys' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season.\" The title was clinched in a 54–23 win at home over Carmel Christian. FALL 2023: the girls cross country team was \"conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference.\" Alongside it, the 7th/8th Grade boys soccer team won both the conference title and the tournament championship; the 8th Grade volleyball team tied for first; and boys cross country placed third, with 3 runners in the top 15 and 1 named all-conference.",
+      "of": "95397459",
+      "at": [
+        "trinity-episcopal:offered.footnote"
+      ],
+      "t": "Resultados seleccionados, no un historial — Trinity ha publicado exactamente dos temporadas, otoño de 2023 e invierno de 2024, todo ello competición de la Queen City Conference. INVIERNO DE 2024: \"For the first time in school history, the Trinity 8th Grade boys' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season.\" El título se selló con una victoria de 54–23 en casa ante Carmel Christian. OTOÑO DE 2023: el equipo femenino de campo a través fue \"conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference.\" Junto a él, el equipo masculino de fútbol de 7.º/8.º grado ganó tanto el título de conferencia como el campeonato del torneo; el equipo de voleibol de 8.º grado empató en el primer puesto; y el campo a través masculino quedó tercero, con 3 corredores entre los 15 primeros y 1 nombrado all-conference."
+    },
+    {
+      "text": "One name carries this programme: David Martin, Athletic Director and head basketball coach since 2004 — a twenty-year tenure that ended in the school's first championship.",
+      "of": "546651c3",
+      "at": [
+        "trinity-episcopal:coaching.headline"
+      ],
+      "t": "Un solo nombre sostiene este programa: David Martin, Director deportivo y primer entrenador de baloncesto desde 2004 — veinte años en el cargo que terminaron en el primer campeonato de la escuela."
+    },
+    {
+      "text": "Athletic Director: David Martin, who is also the only athletics staff member Trinity lists anywhere. Assistant Coach Jason Martin works alongside him on the basketball staff.",
+      "of": "5cbe1f6f",
+      "at": [
+        "trinity-episcopal:coaching.subhead"
+      ],
+      "t": "Director deportivo: David Martin, que es además el único miembro del personal deportivo que Trinity menciona en ningún sitio. El entrenador asistente Jason Martin trabaja junto a él en el cuerpo técnico de baloncesto."
+    },
+    {
+      "text": "The twenty-year anchor · AD and head basketball coach, since 2004",
+      "of": "d038cb0a",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].kicker"
+      ],
+      "t": "El ancla de veinte años · director deportivo y primer entrenador de baloncesto, desde 2004"
+    },
+    {
+      "text": "leading the basketball programme",
+      "of": "61ee92d3",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[0].label"
+      ],
+      "t": "al frente del programa de baloncesto"
+    },
+    {
+      "text": "2004",
+      "of": "ce2e9a4b",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[1].value"
+      ],
+      "t": "2004"
+    },
+    {
+      "text": "joined Trinity; the team began with him",
+      "of": "2d78ca9d",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[1].label"
+      ],
+      "t": "llegó a Trinity; el equipo empezó con él"
+    },
+    {
+      "text": "~250",
+      "of": "db1d922c",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[2].value"
+      ],
+      "t": "~250"
+    },
+    {
+      "text": "students on the 8th Grade team, by his own count",
+      "of": "21389499",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[2].label"
+      ],
+      "t": "estudiantes en el equipo de 8.º grado, según su propio recuento"
+    },
+    {
+      "text": "Martin has helmed the basketball team since its beginning in 2004 when he joined Trinity. By his count, some 250 students have played on the 8th Grade team in that time — the school's own hedge, and it should be carried rather than presented as a counted figure. There had been many close brushes with a championship before the Feb. 8, 2024 win: \"For 20 daggum years, I have thought about this moment pretty much nonstop,\" Martin said. \"I can't explain how much energy has gone into trying to win this tournament championship over the last 20 years.\" He is Athletic Director as well as head coach, which is what a K–8 athletics department of this size looks like from the inside.",
+      "of": "191d6f6c",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].detail"
+      ],
+      "t": "Martin ha dirigido el equipo de baloncesto desde su origen en 2004, cuando llegó a Trinity. Según su recuento, unos 250 estudiantes han jugado en el equipo de 8.º grado en ese tiempo — es la matización de la propia escuela, y debe conservarse como tal en lugar de presentarse como una cifra contabilizada. Hubo muchos roces con un campeonato antes de la victoria del 8 de febrero de 2024: \"For 20 daggum years, I have thought about this moment pretty much nonstop,\" dijo Martin. \"I can't explain how much energy has gone into trying to win this tournament championship over the last 20 years.\" Es Director deportivo además de primer entrenador, que es el aspecto que tiene desde dentro un departamento deportivo K–8 de este tamaño."
+    },
+    {
+      "text": "Athletic Director · Head Basketball Coach",
+      "of": "dcd81bcd",
+      "at": [
+        "trinity-episcopal:coaching.tenure[0].role"
+      ],
+      "t": "Director deportivo · Primer entrenador de baloncesto"
+    },
+    {
+      "text": "since 2004",
+      "of": "60010f49",
+      "at": [
+        "trinity-episcopal:coaching.tenure[0].since"
+      ],
+      "t": "desde 2004"
+    },
+    {
+      "text": "Assistant Coach, basketball — \"another longtime Trinity staculty member\"",
+      "of": "ff257356",
+      "at": [
+        "trinity-episcopal:coaching.tenure[1].role"
+      ],
+      "t": "Entrenador asistente, baloncesto — \"another longtime Trinity staculty member\""
+    },
+    {
+      "text": "longtime",
+      "of": "8943c94a",
+      "at": [
+        "trinity-episcopal:coaching.tenure[1].since"
+      ],
+      "t": "de larga trayectoria"
     }
   ]
 }

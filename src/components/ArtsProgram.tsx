@@ -44,7 +44,10 @@ function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
 }
 
 /** The four-up stat strip used by 1a. */
-function StatStrip({ stats }: { stats: ArtsStat[] }) {
+/* Optional: a card with no stat tiles renders no strip at all, rather than an
+   empty hairline grid (the zero-items rule). */
+function StatStrip({ stats }: { stats?: ArtsStat[] }) {
+  if (!stats || stats.length === 0) return null
   return (
     <div className="arts-stats hairline-grid">
       {stats.map((s) => (
@@ -278,15 +281,19 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
       <div className={data.photo ? 'arts-figsplit' : undefined}>
         <Photo photo={data.photo} />
         <div>
-          <Heading>{data.mediaTitle ?? t('cardLabels.studioMedia')}</Heading>
-          <div className="arts-media">
-            {data.media.map((m) => (
-              <div key={m.name} className="arts-medium">
-                <strong>{m.name}</strong>
-                {m.detail && <div className="text-muted">{m.detail}</div>}
+          {data.media && data.media.length > 0 && (
+            <>
+              <Heading>{data.mediaTitle ?? t('cardLabels.studioMedia')}</Heading>
+              <div className="arts-media">
+                {data.media.map((m) => (
+                  <div key={m.name} className="arts-medium">
+                    <strong>{m.name}</strong>
+                    {m.detail && <div className="text-muted">{m.detail}</div>}
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          )}
 
           <Heading>{data.pathTitle ?? t('sections.coursePath')}</Heading>
           <div className="arts-path">
@@ -337,25 +344,29 @@ export function VerdictBody({ data }: { data: Verdict }) {
       <Lead headline={data.headline} subhead={data.subhead} />
 
       <div className="arts-split">
-        <div>
-          <Heading>{data.holdsUpTitle ?? t('sections.whyItHoldsUp')}</Heading>
-          <div className="arts-checks">
-            {data.holdsUp.map((h) => (
-              <div key={h.label} className="arts-check">
-                <span className="arts-tick" aria-hidden="true">
-                  ✓
-                </span>
-                <span>
-                  <strong>{h.label}</strong> — {h.text}
-                </span>
-              </div>
-            ))}
+        {/* "Why it holds up" is optional: a school with no entries renders no
+            column at all, and the ask panel takes the full width. */}
+        {data.holdsUp && data.holdsUp.length > 0 && (
+          <div>
+            <Heading>{data.holdsUpTitle ?? t('sections.whyItHoldsUp')}</Heading>
+            <div className="arts-checks">
+              {data.holdsUp.map((h) => (
+                <div key={h.label} className="arts-check">
+                  <span className="arts-tick" aria-hidden="true">
+                    ✓
+                  </span>
+                  <span>
+                    <strong>{h.label}</strong> — {h.text}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="arts-panel">
           <Heading>
-            {t('sections.askOnTour')}{' '}
+            {data.askTitle ?? t('sections.askOnTour')}{' '}
             <span className="arts-h-hint text-muted">{t('sections.hintTickAsYouGo')}</span>
           </Heading>
           <div className="arts-asks">

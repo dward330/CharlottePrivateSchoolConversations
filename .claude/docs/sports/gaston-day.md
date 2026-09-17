@@ -1,5 +1,5 @@
 # Gaston Day School — Sports
-> Distilled from 1 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Program and Championship Ledger 2026
 
 

@@ -390,7 +390,10 @@
     "high-school-placement.outcomes": "Où vont les diplômés",
     "high-school-placement.placement": "Le programme d’orientation",
     "high-school-placement.destinations": "Où ils atterrissent",
-    "high-school-placement.verdict": "Verdict et liste de visite"
+    "high-school-placement.verdict": "Liste de visite",
+    "the-arts.ladder@trinity-episcopal": "Le parcours artistique K–8",
+    "the-arts.theatre@trinity-episcopal": "Le théâtre et les spectacles par niveau",
+    "the-arts.verdict@trinity-episcopal": "Liste de visite"
   },
   "cardLabels": {
     "afternoonRhythm": "Le rythme de l’après-midi",
@@ -493,8 +496,6 @@
     "whatTheSchoolOwns": "Ce dont l’école se charge",
     "notPublished": "Non publié",
     "filterAll": "Tous",
-    "crossLinkLegend_one": "{{count}} d’entre eux a une fiche ici — suivez le bord marqué.",
-    "crossLinkLegend_other": "{{count}} d’entre eux ont une fiche ici — suivez le bord marqué.",
     "categoryCount_one": "{{count}} école",
     "categoryCount_other": "{{count}} écoles",
     "categoryLinked_one": "{{count}} école · {{linked}} renvoie à sa fiche",
@@ -505,6 +506,13 @@
     "acceptanceNotMatriculationText": "Les listes de destinations indiquent où les diplômés ont été admis et l’ont déclaré. L’école ne publie pas le nombre d’inscrits par établissement ; aucune destination ne doit donc être lue comme « N élèves s’y sont inscrits ».",
     "destinationsMatriculationText": "Il s’agit de la liste cumulée des établissements où les diplômés ont été admis et l’ont déclaré au fil des dernières promotions — et non d’un décompte des inscriptions pour une année donnée.",
     "noRankings": "AUCUN CLASSEMENT",
-    "noRankingsText": "Les catégories reprennent le regroupement publié par l’école elle-même — des types d’établissement, et non les niveaux d’un classement. Cette application ne contient aucun classement des établissements secondaires et n’en invente aucun ici."
+    "noRankingsText": "Les catégories reprennent le regroupement publié par l’école elle-même — des types d’établissement, et non les niveaux d’un classement. Cette application ne contient aucun classement des établissements secondaires et n’en invente aucun ici.",
+    "searchPlaceholder": "Filtrer par nom d’école…",
+    "searchAria": "Filtrer les destinations par nom d’école",
+    "searchCount": "{{count}} sur {{total}} correspondent",
+    "searchEmpty": "Aucune école ne correspond à « {{query}} » — essayez un terme plus court.",
+    "statusClosed": "Définitivement fermée",
+    "statusMerged": "Fusionnée avec une autre école",
+    "crossLinkLegend": "Indique que nous avons une page dédiée à cette école sur ce portail — cliquez sur le nom"
   }
 }

@@ -28,6 +28,7 @@ export const SLUGS = [
   'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
   'carmel-christian', 'hickory-grove-christian',
   'gaston-day',
+  'trinity-episcopal',
 ]
 
 /**
@@ -48,6 +49,14 @@ export const TOPICS = {
   'student-clubs': 'clubsPrograms',
   'college-support': 'collegeSupportPrograms',
   'after-school': 'afterSchoolPrograms',
+  // K-8 schools only. The area shipped inert in PR #308 and was never registered
+  // here, because nothing occupied it — so the extractor did not know the topic
+  // existed. Left unregistered once a school DOES occupy it, Phase 2 would report
+  // 100% coverage while shipping that school's single most important area as
+  // English to all nine locales: a topic that was never extracted produces no
+  // unresolved stamps to fail on, so no check would catch it. The runtime overlay
+  // glob (highSchoolPlacement.ts) has been wired since #308 and picks the file up.
+  'high-school-placement': 'highSchoolPlacementPrograms',
   // Summer Programs uses `summer/` rather than `summerPrograms/`: the doubled
   // "Programs" in the folder name read badly beside the module's own name.
   'summer-programs': 'summer',
@@ -86,6 +95,7 @@ export const EXPORTS = {
   'carmel-christian': 'carmelChristian',
   'hickory-grove-christian': 'hickoryGroveChristian',
   'gaston-day': 'gastonDay',
+  'trinity-episcopal': 'trinityEpiscopal',
 }
 
 /**

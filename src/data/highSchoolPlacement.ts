@@ -302,7 +302,9 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
   },
   {
     key: 'verdict',
-    title: 'Verdict & Visit Checklist',
+    // Renamed from "Verdict & Visit Checklist" (user, 2026-09-16). Trinity, the
+    // only occupant, ships no verdict prose — the card IS the checklist.
+    title: 'Visit Checklist',
     kicker: 'What should I probe on the tour?',
   },
 ] as const satisfies readonly {
@@ -324,7 +326,11 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
  * school's research stays reviewable on its own. Add a school by importing it
  * here, exactly as collegeSupport.ts does.
  */
-const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {}
+import { trinityEpiscopal } from './highSchoolPlacementPrograms/trinity-episcopal.ts'
+
+const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {
+  'trinity-episcopal': trinityEpiscopal,
+}
 
 /* ---------------------------------------------------------- translations -- */
 
@@ -335,10 +341,17 @@ const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {}
  * runtime guard around it survives into the output where `import.meta.glob` is
  * undefined, silently resolving every overlay to nothing. See clubsProgram.ts.
  *
- * No overlay file exists yet — this area has no prose until a school occupies
- * it. The glob simply matches nothing, and every locale falls back to English,
- * which is correct for an empty area. Wired now so the Charlotte Prep plan
- * translates its research without re-architecting this module.
+ * Occupied since Trinity Episcopal (2026-09-17): nine locale overlays exist and
+ * this glob resolves them. It was wired inert in PR #308, ahead of any school,
+ * so the first occupant needed no re-architecting here — which held.
+ *
+ * The build side was NOT wired at the same time, and that asymmetry was the
+ * expensive part: `high-school-placement` was absent from TOPICS in
+ * scripts/i18n_topics.mjs, so the prose extractor did not know the topic
+ * existed. A topic that is never extracted produces no unresolved stamps, so
+ * coverage would have read 100% while the area shipped English to all nine
+ * locales, with no check able to fail. Registered there now; keep the two sides
+ * in step when adding an area.
  */
 const overlayFiles = import.meta.glob<OverlayFile>(
   './overlays/high-school-placement.*.json',

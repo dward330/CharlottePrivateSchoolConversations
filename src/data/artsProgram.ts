@@ -90,7 +90,8 @@ export type ArtsLadder = {
   /** Muted continuation of the headline. */
   subhead?: string
   /** Four-up stat strip above the ladder. */
-  stats: ArtsStat[]
+  /** Optional — omit rather than passing []; the strip then does not render. */
+  stats?: ArtsStat[]
   divisions: Division[]
   /** Heading over the enrichment rows, e.g. "The enrichment layer". */
   enrichmentTitle?: string
@@ -219,7 +220,9 @@ export type VisualArts = {
   headline: string
   subhead?: string
   mediaTitle?: string
-  media: Medium[]
+  /** Optional — omit rather than passing []; the heading and grid then do not
+   *  render at all (the zero-items rule). */
+  media?: Medium[]
   pathTitle?: string
   path: CourseStep[]
   /** Trailing note on the path, e.g. "AP Art History runs parallel". */
@@ -239,8 +242,13 @@ export type Verdict = {
   headline: string
   subhead?: string
   holdsUpTitle?: string
-  /** The "why it holds up" checkmark rows. */
-  holdsUp: { label: string; text: string }[]
+  /** The "why it holds up" checkmark rows. Optional — omit rather than passing
+   *  [], and the whole column does not render. */
+  holdsUp?: { label: string; text: string }[]
+  /** Per-school heading for the ask panel, replacing the shared "Ask on the
+   *  tour" chrome. A research finding rather than chrome, by the same test as
+   *  `holdsUpTitle`, so it lives here and is translated via the prose overlay. */
+  askTitle?: string
   /** Tickable "ask on the tour" questions. */
   ask: string[]
   sources: ArtsSource[]
@@ -321,6 +329,21 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
     ladder: 'The Early Childhood–12 Arts Ladder',
     theatre: 'Theatre & External Recognition',
   },
+  // Trinity Episcopal ends at 8th grade, so there is no TK–12 ladder — and the
+  // Blumeys are Blumenthal's HIGH-SCHOOL musical-theatre awards, which a K–8
+  // school cannot enter. Both titles must change: the shared Blumey title on a
+  // middle school's card would imply a circuit it is not eligible for. Its
+  // recognition is real but visual-arts rather than theatre (Youth Art Month at
+  // the Carolina Theatre, "Deeply Rooted" at the VAPA Center, a CATO teaching
+  // award), so that lands on `visual` and the theatre card is titled for what it
+  // actually holds: the grade-level production ladder.
+  'trinity-episcopal': {
+    ladder: 'The K–8 Arts Ladder',
+    theatre: 'Theatre & Grade-Level Productions',
+    // This card ships no verdict prose — its "why it holds up" column was cut at
+    // review (2026-09-17), so the checklist IS the card.
+    verdict: 'Visit Checklist',
+  },
 }
 
 /**
@@ -369,6 +392,7 @@ import { covenantDay } from './artsPrograms/covenant-day.ts'
 import { carmelChristian } from './artsPrograms/carmel-christian.ts'
 import { hickoryGroveChristian } from './artsPrograms/hickory-grove-christian.ts'
 import { gastonDay } from './artsPrograms/gaston-day.ts'
+import { trinityEpiscopal } from './artsPrograms/trinity-episcopal.ts'
 
 const PROGRAMS: Record<string, ArtsProgram> = {
   'providence-day': providenceDay,
@@ -382,6 +406,7 @@ const PROGRAMS: Record<string, ArtsProgram> = {
   'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,
   'gaston-day': gastonDay,
+  'trinity-episcopal': trinityEpiscopal,
 }
 
 /* ---------------------------------------------------------- translations -- */

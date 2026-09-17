@@ -45,7 +45,7 @@
  * 2 = error.
  */
 import { readFileSync } from 'node:fs'
-import { SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
+import { SKIP_KEYS, pathOverride } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs. This
    file used to carry a five-topic copy against the extractor's nine, so it was
@@ -138,14 +138,7 @@ const missingLocales = (path) =>
 
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
 
-function pathOverridden(path) {
-  for (const [pattern, isProse] of PATH_OVERRIDES) {
-    if (pattern.startsWith('*.')) {
-      if (path.endsWith(pattern.slice(1))) return isProse
-    } else if (path === pattern || path.endsWith('.' + pattern)) return isProse
-  }
-  return undefined
-}
+const pathOverridden = pathOverride
 
 function walk(node, path, visit) {
   if (node == null) return

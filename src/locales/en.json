@@ -398,7 +398,10 @@
     "high-school-placement.outcomes": "Where Graduates Go",
     "high-school-placement.placement": "The Placement Program",
     "high-school-placement.destinations": "Where They Land",
-    "high-school-placement.verdict": "Verdict & Visit Checklist"
+    "high-school-placement.verdict": "Visit Checklist",
+    "the-arts.ladder@trinity-episcopal": "The K–8 Arts Ladder",
+    "the-arts.theatre@trinity-episcopal": "Theatre & Grade-Level Productions",
+    "the-arts.verdict@trinity-episcopal": "Visit Checklist"
   },
   "cardLabels": {
     "afternoonRhythm": "The afternoon rhythm",
@@ -494,8 +497,6 @@
     "whatTheSchoolOwns": "What the school owns",
     "notPublished": "Not published",
     "filterAll": "All",
-    "crossLinkLegend_one": "{{count}} of these has a dossier here — follow the marked edge.",
-    "crossLinkLegend_other": "{{count}} of these have a dossier here — follow the marked edge.",
     "categoryCount_one": "{{count}} school",
     "categoryCount_other": "{{count}} schools",
     "categoryLinked_one": "{{count}} school · {{linked}} links to its dossier",
@@ -506,6 +507,13 @@
     "acceptanceNotMatriculationText": "The destination lists are where graduates were accepted and reported. The school does not publish per-school enrolment counts, so no destination should be read as “N students enrolled there”.",
     "destinationsMatriculationText": "This is the cumulative list of schools graduates have been accepted to and reported over recent classes — not a count of who enrolled where in any one year.",
     "noRankings": "NO RANKINGS",
-    "noRankingsText": "The categories are the school’s own published grouping — kinds of school, not tiers of one. There is no high-school ranking in this app and none is invented here."
+    "noRankingsText": "The categories are the school’s own published grouping — kinds of school, not tiers of one. There is no high-school ranking in this app and none is invented here.",
+    "searchPlaceholder": "Filter by school name…",
+    "searchAria": "Filter destinations by school name",
+    "searchCount": "{{count}} of {{total}} match",
+    "searchEmpty": "No school matches “{{query}}” — try a shorter term.",
+    "statusClosed": "Now permanently closed",
+    "statusMerged": "Merged into another school",
+    "crossLinkLegend": "Indicates we have a dedicated school page on this portal — click the school name"
   }
 }

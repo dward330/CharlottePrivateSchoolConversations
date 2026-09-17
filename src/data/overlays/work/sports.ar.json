@@ -74,7 +74,8 @@
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
         "hickory-grove-christian:offered.seasons[0].name",
-        "gaston-day:offered.seasons[0].name"
+        "gaston-day:offered.seasons[0].name",
+        "trinity-episcopal:offered.seasons[0].name"
       ],
       "t": "الخريف"
     },
@@ -104,7 +105,8 @@
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
         "hickory-grove-christian:offered.seasons[1].name",
-        "gaston-day:offered.seasons[1].name"
+        "gaston-day:offered.seasons[1].name",
+        "trinity-episcopal:offered.seasons[1].name"
       ],
       "t": "الشتاء"
     },
@@ -122,7 +124,8 @@
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
         "hickory-grove-christian:offered.seasons[2].name",
-        "gaston-day:offered.seasons[2].name"
+        "gaston-day:offered.seasons[2].name",
+        "trinity-episcopal:offered.seasons[2].name"
       ],
       "t": "الربيع"
     },
@@ -5886,7 +5889,8 @@
       "text": "20 yrs",
       "of": "d7cc331b",
       "at": [
-        "cannon:coaching.featured[0].stats[1].value"
+        "cannon:coaching.featured[0].stats[1].value",
+        "trinity-episcopal:coaching.featured[0].stats[0].value"
       ],
       "t": "20 سنة"
     },
@@ -6313,7 +6317,9 @@
       "text": "4 teams",
       "of": "12157781",
       "at": [
-        "covenant-day:offered.seasons[1].note"
+        "covenant-day:offered.seasons[1].note",
+        "trinity-episcopal:offered.seasons[0].note",
+        "trinity-episcopal:offered.seasons[2].note"
       ],
       "t": "4 فرق"
     },
@@ -8627,6 +8633,174 @@
         "gaston-day:facilities.careNote"
       ],
       "t": "هذه البطاقة قصيرة عن قصد. فكل مدرسة نظيرة في هذه القائمة تنشر قائمة مرافق؛ أما Gaston Day فلا تفعل، والوثيقة الوحيدة التي كانت ستحملها (Athletic Handbook) غير قابلة للوصول. وهذه فجوة نشر لا غياب مرافق — فحرم يُنزل 19 رياضة يملكها بداهةً."
+    },
+    {
+      "text": "7 sports across 10 season-teams, with no skill-based cuts — \"If a student wants to play one of the sports we offer then we create that opportunity.\"",
+      "of": "f8d1a57f",
+      "at": [
+        "trinity-episcopal:offered.headline"
+      ],
+      "t": "7 رياضات عبر 10 فرق موسمية، دون أي استبعاد على أساس المهارة — \"If a student wants to play one of the sports we offer then we create that opportunity.\""
+    },
+    {
+      "text": "A K–8 middle school programme in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: \"Play Hard, Play Smart, Play Together, and Have Fun\".",
+      "of": "f443635c",
+      "at": [
+        "trinity-episcopal:offered.subhead"
+      ],
+      "t": "برنامج مرحلة متوسطة K–8 ضمن Queen City Conference، وليس GCMSAA التي تلعب فيها المدارس المستقلّة الأكبر في شارلوت. وتُشكَّل الفرق بحسب النطاق الصفّي — 7th/8th و8th و6th/7th — لا كفرق أولى أو JV أو فرق A/B. الشعار: \"Play Hard, Play Smart, Play Together, and Have Fun\"."
+    },
+    {
+      "text": "distinct sports offered",
+      "of": "b64957c3",
+      "at": [
+        "trinity-episcopal:offered.stats[0].label"
+      ],
+      "t": "رياضات متمايزة متاحة"
+    },
+    {
+      "text": "season-teams across three seasons",
+      "of": "3305ff96",
+      "at": [
+        "trinity-episcopal:offered.stats[1].label"
+      ],
+      "t": "فرق موسمية عبر ثلاثة مواسم"
+    },
+    {
+      "text": "of Middle School plays in at least one season",
+      "of": "fddec10a",
+      "at": [
+        "trinity-episcopal:offered.stats[2].label"
+      ],
+      "t": "من Middle School يلعبون في موسم واحد على الأقل"
+    },
+    {
+      "text": "Queen City Conference · not the GCMSAA",
+      "of": "b9ea8813",
+      "at": [
+        "trinity-episcopal:offered.stats[3].label"
+      ],
+      "t": "Queen City Conference · وليست GCMSAA"
+    },
+    {
+      "text": "2 teams",
+      "of": "9666f7e7",
+      "at": [
+        "trinity-episcopal:offered.seasons[1].note"
+      ],
+      "t": "فريقان"
+    },
+    {
+      "text": "Selected results, not a record — Trinity has published exactly two seasons, Fall 2023 and Winter 2024, all of it Queen City Conference play. WINTER 2024: \"For the first time in school history, the Trinity 8th Grade boys' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season.\" The title was clinched in a 54–23 win at home over Carmel Christian. FALL 2023: the girls cross country team was \"conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference.\" Alongside it, the 7th/8th Grade boys soccer team won both the conference title and the tournament championship; the 8th Grade volleyball team tied for first; and boys cross country placed third, with 3 runners in the top 15 and 1 named all-conference.",
+      "of": "95397459",
+      "at": [
+        "trinity-episcopal:offered.footnote"
+      ],
+      "t": "نتائج مختارة لا سجلّ كامل — فقد نشرت Trinity موسمين اثنين لا غير، خريف 2023 وشتاء 2024، وكلاهما ضمن منافسات Queen City Conference. شتاء 2024: \"For the first time in school history, the Trinity 8th Grade boys' basketball team won the Queen City Conference championship on Feb. 8 to cap their undefeated season.\" وقد حُسم اللقب بفوز 54–23 على أرضه على Carmel Christian. خريف 2023: كان فريق اختراق الضاحية للإناث \"conference champion for the 4th year running, ranked first among independent schools in North Carolina, and had 7 runners named all-conference.\" وإلى جانبه، أحرز فريق كرة قدم الذكور للصفّين 7th/8th لقب الرابطة وبطولة الدوري معًا؛ وتعادل فريق الكرة الطائرة للصف 8th في المركز الأول؛ وحلّ اختراق الضاحية للذكور ثالثًا، بـ 3 عدّائين ضمن أفضل 15 وعدّاء واحد ضمن منتخب الرابطة."
+    },
+    {
+      "text": "One name carries this programme: David Martin, Athletic Director and head basketball coach since 2004 — a twenty-year tenure that ended in the school's first championship.",
+      "of": "546651c3",
+      "at": [
+        "trinity-episcopal:coaching.headline"
+      ],
+      "t": "اسم واحد يحمل هذا البرنامج: David Martin، المدير الرياضي والمدرّب الرئيسي لكرة السلّة منذ 2004 — مدّة عشرين عامًا انتهت بأول بطولة في تاريخ المدرسة."
+    },
+    {
+      "text": "Athletic Director: David Martin, who is also the only athletics staff member Trinity lists anywhere. Assistant Coach Jason Martin works alongside him on the basketball staff.",
+      "of": "5cbe1f6f",
+      "at": [
+        "trinity-episcopal:coaching.subhead"
+      ],
+      "t": "المدير الرياضي: David Martin، وهو أيضًا العضو الوحيد في الكادر الرياضي الذي تذكره Trinity في أي موضع. ويعمل المدرّب المساعد Jason Martin إلى جانبه ضمن كادر كرة السلّة."
+    },
+    {
+      "text": "The twenty-year anchor · AD and head basketball coach, since 2004",
+      "of": "d038cb0a",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].kicker"
+      ],
+      "t": "مرساة العشرين عامًا · المدير الرياضي والمدرّب الرئيسي لكرة السلّة، منذ 2004"
+    },
+    {
+      "text": "leading the basketball programme",
+      "of": "61ee92d3",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[0].label"
+      ],
+      "t": "على رأس برنامج كرة السلّة"
+    },
+    {
+      "text": "2004",
+      "of": "ce2e9a4b",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[1].value"
+      ],
+      "t": "2004"
+    },
+    {
+      "text": "joined Trinity; the team began with him",
+      "of": "2d78ca9d",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[1].label"
+      ],
+      "t": "التحق بـ Trinity؛ وبدأ الفريق معه"
+    },
+    {
+      "text": "~250",
+      "of": "db1d922c",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[2].value"
+      ],
+      "t": "~250"
+    },
+    {
+      "text": "students on the 8th Grade team, by his own count",
+      "of": "21389499",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].stats[2].label"
+      ],
+      "t": "طالبًا في فريق الصف 8th، بحسب تقديره هو"
+    },
+    {
+      "text": "Martin has helmed the basketball team since its beginning in 2004 when he joined Trinity. By his count, some 250 students have played on the 8th Grade team in that time — the school's own hedge, and it should be carried rather than presented as a counted figure. There had been many close brushes with a championship before the Feb. 8, 2024 win: \"For 20 daggum years, I have thought about this moment pretty much nonstop,\" Martin said. \"I can't explain how much energy has gone into trying to win this tournament championship over the last 20 years.\" He is Athletic Director as well as head coach, which is what a K–8 athletics department of this size looks like from the inside.",
+      "of": "191d6f6c",
+      "at": [
+        "trinity-episcopal:coaching.featured[0].detail"
+      ],
+      "t": "يقود Martin فريق كرة السلّة منذ نشأته في 2004 حين التحق بـ Trinity. وبحسب تقديره، لعب نحو 250 طالبًا في فريق الصف 8th خلال تلك المدّة — وهو تحفّظ المدرسة نفسها، وينبغي نقله كما هو لا تقديمه كرقم محسوب. وقد سبقت فوز 8 فبراير 2024 محاولات كثيرة اقتربت من اللقب: \"For 20 daggum years, I have thought about this moment pretty much nonstop,\" قال Martin. \"I can't explain how much energy has gone into trying to win this tournament championship over the last 20 years.\" وهو المدير الرياضي إلى جانب كونه المدرّب الرئيسي، وهذا ما يبدو عليه قسم رياضي K–8 بهذا الحجم من الداخل."
+    },
+    {
+      "text": "Athletic Director · Head Basketball Coach",
+      "of": "dcd81bcd",
+      "at": [
+        "trinity-episcopal:coaching.tenure[0].role"
+      ],
+      "t": "المدير الرياضي · المدرّب الرئيسي لكرة السلّة"
+    },
+    {
+      "text": "since 2004",
+      "of": "60010f49",
+      "at": [
+        "trinity-episcopal:coaching.tenure[0].since"
+      ],
+      "t": "منذ 2004"
+    },
+    {
+      "text": "Assistant Coach, basketball — \"another longtime Trinity staculty member\"",
+      "of": "ff257356",
+      "at": [
+        "trinity-episcopal:coaching.tenure[1].role"
+      ],
+      "t": "مدرّب مساعد، كرة السلّة — \"another longtime Trinity staculty member\""
+    },
+    {
+      "text": "longtime",
+      "of": "8943c94a",
+      "at": [
+        "trinity-episcopal:coaching.tenure[1].since"
+      ],
+      "t": "منذ زمن طويل"
     }
   ]
 }

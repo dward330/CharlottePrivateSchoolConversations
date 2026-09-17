@@ -30,7 +30,7 @@
  *
  * Exit codes: 0 = reviewed, 1 = suspect fields found (advisory), 2 = error.
  */
-import { SKIP_KEYS, PATH_OVERRIDES, REVIEWED_SKIPS, REVIEWED_SKIP_VALUES } from './i18n_fields.mjs'
+import { SKIP_KEYS, pathOverride, REVIEWED_SKIPS, REVIEWED_SKIP_VALUES } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs. This
    file used to carry a five-topic copy against the extractor's nine, so it was
@@ -111,14 +111,7 @@ async function extraFor(topic, slug) {
 
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
 
-function pathOverridden(path) {
-  for (const [pattern, isProse] of PATH_OVERRIDES) {
-    if (pattern.startsWith('*.')) {
-      if (path.endsWith(pattern.slice(1))) return isProse
-    } else if (path === pattern || path.endsWith('.' + pattern)) return isProse
-  }
-  return undefined
-}
+const pathOverridden = pathOverride
 
 async function main() {
   const topics = ONLY ? [ONLY] : Object.keys(TOPICS)

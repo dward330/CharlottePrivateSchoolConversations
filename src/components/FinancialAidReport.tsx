@@ -112,7 +112,7 @@ function TuitionChart({
           )}
         </figcaption>
       )}
-      {note2 && <p className="fa-note fa-note-top">{localizeMoneyText(note2)}</p>}
+      {note2 && <p className="fa-note fa-note-top">{<RichText text={note2} />}</p>}
       <div className="fa-bars">
         {bands.map((b) => (
           <div key={b.label} className="fa-bar-row">
@@ -136,7 +136,7 @@ function TuitionChart({
           </div>
         ))}
       </div>
-      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
+      {note && <p className="fa-note">{<RichText text={note} />}</p>}
     </figure>
   )
 }
@@ -185,7 +185,7 @@ function RangeChart({
           )
         })}
       </div>
-      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
+      {note && <p className="fa-note">{<RichText text={note} />}</p>}
     </figure>
   )
 }
@@ -209,7 +209,7 @@ function Ladder({
           <span className="fa-figure-title">{localizeMoneyText(caption)}</span>
         </figcaption>
       )}
-      {note2 && <p className="fa-note fa-note-top">{localizeMoneyText(note2)}</p>}
+      {note2 && <p className="fa-note fa-note-top">{<RichText text={note2} />}</p>}
       <div className="fa-ladder">
         {rungs.map((r) => (
           <div key={r.gift} className="fa-ladder-row">
@@ -218,12 +218,12 @@ function Ladder({
               <span className="fa-ladder-fill" style={{ width: `${r.share}%` }} />
             </span>
             <span className="fa-ladder-detail">
-              <strong>{r.share}%</strong> {r.detail}
+              <strong>{r.share}%</strong> <RichText text={r.detail} />
             </span>
           </div>
         ))}
       </div>
-      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
+      {note && <p className="fa-note">{<RichText text={note} />}</p>}
     </figure>
   )
 }
@@ -270,7 +270,7 @@ function ComponentGrid({
       {(title || aside) && (
         <div className="fa-box-head">
           {title && <span className="fa-figure-title">{title}</span>}
-          {aside && <span className="fa-box-aside">{aside}</span>}
+          {aside && <span className="fa-box-aside"><RichText text={aside} /></span>}
         </div>
       )}
       <div className="fa-components">
@@ -281,7 +281,7 @@ function ComponentGrid({
           </div>
         ))}
       </div>
-      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
+      {note && <p className="fa-note">{<RichText text={note} />}</p>}
     </div>
   )
 }
@@ -455,7 +455,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
               <div className="fa-figure-title">{section.questionsTitle}</div>
             )}
             {section.questionsNote && (
-              <p className="fa-note fa-note-top">{section.questionsNote}</p>
+              <p className="fa-note fa-note-top"><RichText text={section.questionsNote} /></p>
             )}
             <ol className="fa-questions">
               {questions.map((q, i) => (
@@ -532,7 +532,7 @@ export function FinancialAidReportCard({
               <Icon name={f.icon} />
             </span>
             <p>
-              <strong>{f.title}</strong> {f.body}
+              <strong>{f.title}</strong> <RichText text={f.body} />
             </p>
           </div>
         ))}

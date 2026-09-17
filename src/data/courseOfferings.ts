@@ -8355,6 +8355,354 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
   ],
 }
 
+/* ── Trinity Episcopal School ───────────────────────────────────────────────
+   A K–8 school, so TWO divisions rather than three — and the one on this roster
+   with no Upper School at all. There is no curriculum guide and no course
+   catalog: the only PDF published site-wide is GuideToPhilanthropy.pdf, so the
+   2026-27 School Profile substitutes, and it is a good substitute. Divisions are
+   drawn from the live `-curriculum.cfm` and `-enrichments.cfm` pages plus that
+   profile.
+
+   TWO TRAPS, both easy to fall into from a distance.
+
+   First: Trinity Episcopal School in RICHMOND, VA is a grades 8–12 high school
+   with a full AP catalog. This is a different school. `Advanced Placement` and
+   `AP ` return zero hits across this site, which is correct for K–8 — any AP
+   list attributed to "Trinity Episcopal" belongs to the Richmond school.
+
+   Second: Trinity lists Algebra 1 and Geometry as 8th-grade math courses and
+   says NOTHING about high-school credit for either. The ONLY high-school-credit
+   claim anywhere on the site is the world language — Level 1 of Latin or
+   Spanish, completed by the end of 8th grade. Do not promote the math.
+
+   The Lower School division carries `notPublished` because K–5 is published as
+   named curricula and enrichment subjects rather than as individually-described
+   courses — which is the correct grain for an elementary program, and Trinity
+   names its actual curricula (Math in Focus 2020, Amplify Science, Descubre el
+   Español), which is unusual on this roster and is the most evaluable thing
+   here. Technology is published ONLY in the profile PDF and appears on zero
+   /academics/ pages, so it is cited to the PDF. */
+const TRINITY_EPISCOPAL: CourseOfferings = {
+  guideYear: '2026-27',
+  divisions: [
+    {
+      title: 'Lower School Courses',
+      grades: 'K – Grade 5',
+      teaser:
+        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus six weekly enrichments and a K–5 Spanish program.',
+      source: 'tescharlotte.org — Lower School curriculum and enrichments; 2026-27 School Profile',
+      sourceUrl: 'https://www.tescharlotte.org/academics/lower-school-curriculum.cfm',
+      notPublished:
+        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects rather than as named, individually-described courses. The rows below are those subjects and curricula as the school states them. No Lower School course catalog exists — the only PDF published site-wide is a philanthropy guide.',
+      departments: [
+        {
+          name: 'Core Curriculum',
+          courses: [
+            {
+              title: 'Mathematics — Math in Focus 2020',
+              tag: 'K–Gr 5',
+              description:
+                'The school "develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach."',
+            },
+            {
+              title: 'Science — Amplify Science',
+              tag: 'K–Gr 5',
+              description:
+                'The Lower School "utilizes the Amplify Science units of study as its core curriculum" for science.',
+            },
+            {
+              title: 'Social Studies — Storypaths',
+              tag: 'K–Gr 5',
+              description:
+                'Social Studies is taught through Storypaths units across the Lower School grades.',
+            },
+            {
+              title: 'Literacy',
+              tag: 'K–Gr 5',
+              description:
+                'Covers phonemic and phonological awareness in Kindergarten through Grade 2, with word study continuing through Grade 5.',
+            },
+          ],
+        },
+        {
+          name: 'Weekly Enrichments',
+          courses: [
+            {
+              title: 'Spanish — Descubre el Español',
+              tag: 'K–Gr 5',
+              description:
+                'All students take Spanish as an enrichment class, learning through the five Cs of the National World Language Standards and exploring the culture of 20 Spanish-speaking countries; heritage speakers in grades 4-5 access the Anthologia program at school and at home.',
+            },
+            {
+              title: 'IDEA (STEM) Lab',
+              tag: 'K–Gr 5',
+              description:
+                'The school\'s only named academic facility, and a weekly Lower School enrichment. It is a STEM space, not an arts space.',
+            },
+            {
+              title: 'Healthful Living (PE & Wellness)',
+              tag: 'K–Gr 5',
+              description: 'The Lower School\'s weekly physical education and wellness enrichment.',
+            },
+            {
+              title: 'Visual Arts',
+              tag: 'K–Gr 5',
+              description: 'One of the six weekly Lower School enrichments.',
+            },
+            {
+              title: 'Music',
+              tag: 'K–Gr 5',
+              description: 'One of the six weekly Lower School enrichments.',
+            },
+            {
+              title: 'Faith Studies',
+              tag: 'K–Gr 5',
+              description:
+                'Bible lessons and the study of world religions, taught K–8 and running weekly in the Lower School.',
+            },
+          ],
+        },
+        {
+          name: 'Whole-School Programs',
+          courses: [
+            {
+              title: 'K–8 Technology Program',
+              tag: 'Profile PDF only',
+              description:
+                'Facilitated by Digital Learning Catalysts, with 1:1 iPads for all students K-1 and 1:1 Chromebooks for all students Gr. 2-8. Published in the School Profile only — it appears on no /academics/ page.',
+            },
+            {
+              title: 'K–8 Service Learning',
+              description:
+                'Curriculum and community partnerships, a Community Garden and an Aquaponics Program.',
+            },
+            {
+              title: 'RISE',
+              tag: 'Gr 5',
+              description:
+                'In the last trimester of 5th Grade, students split into gender-based small groups to develop personal leadership skills for the transition to Middle School.',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Middle School Courses',
+      grades: 'Grades 6 – 8',
+      teaser:
+        'Five distinct 8th-grade math courses, a world language taken to a high-school Level 1 by the end of 8th grade, and 13 weekly enrichments.',
+      source: 'tescharlotte.org — Middle School curriculum and enrichments; 2026-27 School Profile',
+      sourceUrl: 'https://www.tescharlotte.org/academics/middle-school-curriculum.cfm',
+      departments: [
+        {
+          name: 'Mathematics',
+          courses: [
+            {
+              title: 'Math 6',
+              tag: 'Gr 6',
+              description:
+                'The 6th-grade course. Instruction across the department is "grounded in a problem-based core curriculum rooted in content and practice standards."',
+            },
+            {
+              title: 'Pre-Algebra',
+              tag: 'Gr 7',
+              description: 'The grade-level 7th-grade course.',
+            },
+            {
+              title: 'Advanced Pre-Algebra',
+              tag: 'Gr 7',
+              description:
+                'The accelerated 7th-grade course. Students are placed in grade-level and accelerated courses "based on specific performance criteria" — the criteria themselves are not published.',
+            },
+            {
+              title: 'Foundations in Algebra',
+              tag: 'Gr 8',
+              description: 'One of five distinct 8th-grade mathematics courses the school offers.',
+            },
+            {
+              title: 'Math 1',
+              tag: 'Gr 8',
+              description: 'One of five distinct 8th-grade mathematics courses the school offers.',
+            },
+            {
+              title: 'Algebra 1',
+              tag: 'Gr 8',
+              description:
+                'One of five distinct 8th-grade mathematics courses. The school states no credit arrangement for it.',
+            },
+            {
+              title: 'Math 2',
+              tag: 'Gr 8',
+              description: 'One of five distinct 8th-grade mathematics courses the school offers.',
+            },
+            {
+              title: 'Geometry',
+              tag: 'Gr 8',
+              description:
+                'The furthest of the five 8th-grade mathematics courses. The school states no credit arrangement for it.',
+            },
+          ],
+        },
+        {
+          name: 'World Language',
+          courses: [
+            {
+              title: 'Spanish I',
+              tag: 'High school course',
+              description:
+                '"Students will graduate from Trinity having completed Spanish I, a high school level course, and will be ready for Spanish II should they choose to continue studying the language."',
+            },
+            {
+              title: 'Latin I',
+              tag: 'High school course',
+              description:
+                '"Middle School students choose between Latin and Spanish, completing Level 1, a high school course, by the end of their 8th Grade year."',
+            },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            {
+              title: 'Geography, Civics, and Global Issues',
+              tag: 'Gr 6',
+              description: 'The 6th-grade year of the Social Studies course of study.',
+            },
+            {
+              title: 'Modern World History',
+              tag: 'Gr 7',
+              description: 'The 7th-grade year of the Social Studies course of study.',
+            },
+            {
+              title: 'Modern United States History',
+              tag: 'Gr 8',
+              description: 'The 8th-grade year of the Social Studies course of study.',
+            },
+          ],
+        },
+        {
+          name: 'English & Science',
+          courses: [
+            {
+              title: 'English / Language Arts',
+              tag: 'Gr 6–8',
+              description:
+                'Published as a subject strand across the three Middle School years; no per-grade course names are given.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 6–8',
+              description:
+                'An integrated science program across grades 6-8. No per-grade course names are published.',
+            },
+          ],
+        },
+        {
+          name: 'Weekly Enrichments',
+          courses: [
+            {
+              title: 'Hebrew Scriptures',
+              tag: 'Gr 6',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'Christian Narratives',
+              tag: 'Gr 7',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'World Religions',
+              tag: 'Gr 8',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'Computer Science',
+              tag: 'Gr 7',
+              description:
+                'A weekly enrichment. A 6th Grade technology class has been announced as an addition, "as digital learning catalysts teach students how to use AI to create code and build, not just how to input questions."',
+            },
+            {
+              title: 'Learning Lab',
+              tag: 'Gr 6',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'Speech & Debate',
+              tag: 'Gr 7',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'Social Issues Seminar',
+              tag: 'Gr 8',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'Healthful Living',
+              tag: 'Gr 7',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'FOCUS Period',
+              tag: 'Gr 6–8',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'Choice Electives',
+              tag: 'Gr 7–8',
+              description:
+                'Named in the School Profile\'s enrichment list. Their contents are published nowhere — the phrase appears in the profile PDF and on no page of the website.',
+            },
+            {
+              title: 'Art',
+              tag: 'Gr 6–8',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+            {
+              title: 'PE',
+              tag: 'Gr 6–8',
+              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+            },
+          ],
+        },
+        {
+          name: 'Arts & Ensembles',
+          courses: [
+            {
+              title: 'Music Ensembles — Choir or Band',
+              tag: 'Gr 6',
+              description:
+                '"6th Grade students choose from one of two ensembles: choir or band." Ensembles perform at chapels, commencement, and venues outside of school.',
+            },
+            {
+              title: 'Advanced Band / Advanced Choir',
+              tag: 'Gr 7–8',
+              description:
+                '"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir."',
+            },
+            {
+              title: 'Drama Elective',
+              tag: 'Gr 6–8',
+              description:
+                'Middle School students "may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical."',
+            },
+          ],
+        },
+        {
+          name: 'Community Life',
+          courses: [
+            {
+              title: 'Koinonia',
+              tag: 'Gr 6–8',
+              description:
+                'Each student belongs to a Koinonia with 10-12 other Middle School students and one adult leader; groups gather every morning for check-in and twice a week for activities.',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+
 const OFFERINGS: Record<string, CourseOfferings> = {
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
@@ -8367,6 +8715,7 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'davidson-day': DAVIDSON_DAY,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
+  'trinity-episcopal': TRINITY_EPISCOPAL,
 }
 
 /* ---------------------------------------------------------- translations -- */

@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/summer-programs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** 2026 Camp Catalog
 
 

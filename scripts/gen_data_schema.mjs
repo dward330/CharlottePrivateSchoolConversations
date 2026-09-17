@@ -226,10 +226,9 @@ const STRUCTURED = [
   { topic: 'after-school', file: 'afterSchool.ts', reg: 'AFTER_SCHOOL_CARDS', root: 'AfterSchoolProgram', dir: 'afterSchoolPrograms' },
   { topic: 'summer-programs', file: 'summerPrograms.ts', reg: 'SUMMER_CARDS', root: 'SummerProgram', dir: 'summer' },
   { topic: 'admissions', file: 'admissionsPrograms.ts', reg: 'ADMISSIONS_CARDS', root: 'AdmissionsProgram', dir: 'admissionsPrograms' },
-  // The PreK-8 analogue of college-support. Its per-school directory is empty
-  // until Charlotte Prep lands (.claude/plans/charlotteprep.md), so this topic
-  // reports four cards and zero schools — which is the correct description of
-  // a shape that ships with no occupant.
+  // The K-8 analogue of college-support, and the ONLY area a K-8 school has
+  // that a K-12 school does not. Trinity Episcopal is its first occupant; see
+  // the K-8 school shape section (§7) for what a K-8 page carries overall.
   { topic: 'high-school-placement', file: 'highSchoolPlacement.ts', reg: 'HIGH_SCHOOL_PLACEMENT_CARDS', root: 'HighSchoolPlacementProgram', dir: 'highSchoolPlacementPrograms' },
 ]
 
@@ -301,6 +300,7 @@ w('| [3. Structured cards](#3-structured-cards-typed-layer) | Typed, interactive
 w('| [4. Compare rows](#4-compare-rows-quantitative-layer) | Cross-school numbers | `src/data/metricValues.ts` (hand-maintained) |')
 w('| [5. Standalone layers](#5-standalone-layers) | Catalogs & reports | individual `src/data/*.ts` |')
 w('| [6. Adding to the schema](#6-adding-to-the-schema) | How each layer grows | — |')
+w('| [7. The K-8 school shape](#7-the-k-8-school-shape) | What a school that ends at 8th grade carries | `hasHighSchool` in `src/data/brands.ts` |')
 w()
 
 // ---- 1. schools & topics
@@ -740,6 +740,137 @@ w('- `npm run schema` — regenerate.')
 w('- `npm run check:schema` — fail if it drifted. Chained into `npm run build`.')
 w('- The generator reads live modules, so it cannot describe a card that no longer exists.')
 w()
+
+/* ------------------------------------------------- 7. the K-8 school shape -- */
+// Derived live: which schools are K-8 comes from `hasHighSchool: false` in
+// brands.ts, and the per-card figures from each school's own data file. The
+// RULES below are judgment, settled with the user while building Trinity
+// Episcopal (2026-09-16/17), and are what /add-school needs before it starts.
+{
+  const brandsSrc = read('../src/data/brands.ts')
+  // Each brand block is `'<slug>': { … }`; a K-8 school carries hasHighSchool: false.
+  const k8 = []
+  for (const m of brandsSrc.matchAll(/'([a-z0-9-]+)':\s*\{([\s\S]*?)\n  \}/g)) {
+    if (/hasHighSchool:\s*false/.test(m[2])) k8.push(m[1])
+  }
+
+  w('## 7. The K-8 school shape')
+  w()
+  w('A school that ends at 8th grade does NOT get a thinner version of the K-12 page —')
+  w('it gets a different one. This section is what `/add-school` needs before it assesses')
+  w('a K-8 candidate, so that the areas and cards a K-8 school cannot have are never')
+  w('counted as gaps in its coverage.')
+  w()
+  w('**The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the')
+  w('Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and nothing else')
+  w('automatically — every rule below is a research and authoring decision.')
+  w()
+  w(k8.length
+    ? `**K-8 schools today (${k8.length}):** ${k8.map((x) => `\`${x}\``).join(', ')}`
+    : '**No K-8 school currently ships.**')
+  w()
+  w('### What changes, and why')
+  w()
+  // Card counts come from the live registries, so a renamed or added card
+  // cannot leave this table quietly wrong.
+  const nCards = (topic) => (STRUCTURED.find((x) => x.topic === topic)?.cards ?? []).length
+  const K8_SPORTS_DROPPED = ['pipeline', 'honors', 'facilities', 'national']
+  const sportsAll = nCards('sports')
+  w('| Layer | K-12 school | K-8 school |')
+  w('|---|---|---|')
+  w(`| Research areas | ${topics.length - 1} of ${topics.length} | **${topics.length - 1} of ${topics.length}** — the same count, but College Support swaps for High School Placement |`)
+  w('| Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |')
+  w(`| Sports cards | up to ${sportsAll} | **up to ${sportsAll - K8_SPORTS_DROPPED.length}** — the ${K8_SPORTS_DROPPED.length} college-bound ones do not apply |`)
+  w(`| College Support | ${nCards('college-support')} cards | **none** |`)
+  w(`| High School Placement | none | **up to ${nCards('high-school-placement')} cards** |`)
+  w()
+  w('### ⛔ No college card on a K-8 school — settled, not deferred')
+  w()
+  w('A K-8 school may publish an impressive college list: Trinity names 160 institutions')
+  w('across the Classes of 2004-2022, including Harvard, Stanford, MIT and Duke, plus two')
+  w('Morehead-Cain Scholars. **It still gets no college card** (user, 2026-09-16).')
+  w()
+  w('Those alumni reached those colleges after four years at a DIFFERENT high school.')
+  w('Crediting the K-8 school with that outcome is the same error as reading a cumulative')
+  w('placement split as a per-class rate. The list stays in `source-material/` and renders')
+  w('nowhere. Do not re-raise this as a fifth High School Placement card.')
+  w()
+  w('### Sports — the four cards that do not apply')
+  w()
+  w(`${K8_SPORTS_DROPPED.map((k) => `\`${k}\``).join(', ')} are college-recruiting and`)
+  w('state-championship surfaces. A middle-school programme has no analogue, so their')
+  w('absence is **a property of the school, not a research gap**. `record` needs its own')
+  w('judgment: the `TitleResult` vocabulary is NCISAA STATE titles, so marking a')
+  w('middle-school conference championship `STATE` prints a false claim in ten locales —')
+  w('carry such results as prose on `offered`/`coaching` instead.')
+  w()
+  w('### High School Placement — four cards, and when to drop one')
+  w()
+  w('`outcomes` · `placement` · `destinations` · `verdict`. The area is the K-8 analogue')
+  w('of College Support and reuses its verdict treatment unchanged.')
+  w()
+  w('Two traps, both hit on the first occupant:')
+  w()
+  w('- **`PlacementClass` requires `acceptedPct` + `acceptedCount`**, rendered under a')
+  w('  chrome header reading "Accepted to a top-two choice" in all ten locales. A school')
+  w('  that publishes no such figure must leave `classes: []` rather than substitute a')
+  w('  different rate — otherwise the page states something false in ten languages.')
+  w('- **A cumulative split is not a per-class rate.** Trinity\'s 31/57/12 is across 1,060')
+  w('  graduates since 2004. Label it that way or omit it.')
+  w()
+  w('### Destination metadata lives in one master')
+  w()
+  w('Every high school named on a placement list resolves its homepage, kind and rank')
+  w('from `src/data/highSchools.ts` via `highSchoolFor(name)`. Per-school placement files')
+  w('carry only `{ name, slug? }` — never an inline url or rank.')
+  w()
+  w('Rank labels are stored WHOLE because four scales share one column')
+  w('(`Charlotte Private K-12 Niche Rank #5`, `US News National HS Rank #475`, …): a bare')
+  w('`#5` beside a bare `#475` reads as one ranking. The card groups destinations by the')
+  w('master\'s `kind`, which is what each institution ACTUALLY is — not always how the')
+  w('listing school files it.')
+  w()
+  // What the first occupant ACTUALLY shipped, read from its own data files.
+  // This is the realistic target for the next K-8 school — the registries above
+  // say what is POSSIBLE, and the gap between the two is the point.
+  if (k8.length) {
+    w('### What the first occupant actually shipped')
+    w()
+    w('Registry counts above are what a card set CAN hold. This is what a real K-8')
+    w('school filled, and it is the more useful benchmark — a K-8 page is legitimately')
+    w('sparser in the college-facing areas and no thinner anywhere else.')
+    w()
+    w('| Area | Cards shipped | Of possible |')
+    w('|---|---|--:|')
+    for (const st of STRUCTURED) {
+      const f = `../src/data/${st.dir}/${k8[0]}.ts`
+      let shipped = []
+      try {
+        const body = read(f)
+        const i = body.indexOf('= {')
+        if (i > 0) shipped = [...body.slice(i).matchAll(/^  (\w+): \{/gm)].map((m) => m[1])
+      } catch { /* no file for this area — the school does not carry it */ }
+      const possible = (st.cards ?? []).length
+      const cell = shipped.length
+        ? shipped.map((k) => `\`${k}\``).join(', ')
+        : '—'
+      w(`| ${st.topic} | ${cell} | ${shipped.length}/${possible} |`)
+    }
+    w()
+    w(`Read from \`${k8[0]}\`'s own data files, so it tracks the real page rather than a`)
+    w('plan. An area at 0 is not necessarily a failure — College Support is 0 by design.')
+    w()
+  }
+
+  w('### What a K-8 page does NOT need approval for')
+  w()
+  w('Adding a K-8 school is covered by the §6 "A **school**" row — automatic everywhere.')
+  w('The shape itself (the area, the Compare exclusion, the dropped Sports cards) was')
+  w('approved 2026-09-15 and the fourth destination category on 2026-09-17. Material that')
+  w('fits **no existing card** is still a new card and still needs approval.')
+  w()
+}
+
 
 const body = L.join('\n')
 

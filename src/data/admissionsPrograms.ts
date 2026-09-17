@@ -274,6 +274,17 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<AdmissionsCardKey, string>>
   'hickory-grove-christian': {
     guide: 'Grade-by-Grade Application Guide — TK/K5 · 1–5 · 6–8 · 9–12 · International',
   },
+  // Trinity Episcopal is K–8 — there is no high school, no TK and no JK — and
+  // its deadline calendar breaks exactly once, at Kindergarten → Grade 1. The
+  // shared title's "TK/K · 1–5 · 6–12" would advertise three bands, two of which
+  // do not exist here and one of which names grades the school does not enrol.
+  // Its testing boundaries (K–1 / 2–4 / 5–8) deliberately do NOT appear in the
+  // title: the bands a parent selects are the deadline bands, and the instrument
+  // changes are carried inside the Grades 1–8 band. See the header of
+  // admissionsPrograms/trinity-episcopal.ts.
+  'trinity-episcopal': {
+    guide: 'Grade-by-Grade Application Guide — K · 1–8',
+  },
 }
 
 /**
@@ -317,14 +328,15 @@ import { charlotteChristian } from './admissionsPrograms/charlotte-christian.ts'
 import { charlotteLatin } from './admissionsPrograms/charlotte-latin.ts'
 import { covenantDay } from './admissionsPrograms/covenant-day.ts'
 import { hickoryGroveChristian } from './admissionsPrograms/hickory-grove-christian.ts'
+import { trinityEpiscopal } from './admissionsPrograms/trinity-episcopal.ts'
 
 /**
- * SIX schools, not eleven. **The other five are deliberately absent.**
+ * SEVEN schools, not twelve. **The other five are deliberately absent.**
  *
  * Nobody has researched their admissions processes — the topic infrastructure
  * is school-agnostic, but the data ships for Providence Day, Charlotte Country
- * Day, Charlotte Christian, Charlotte Latin, Covenant Day and Hickory Grove
- * Christian only. With no
+ * Day, Charlotte Christian, Charlotte Latin, Covenant Day, Hickory Grove
+ * Christian and Trinity Episcopal only. With no
  * source files under `source-material/admissions/<school>/`, the topic has no `doc_count` for
  * those schools, so `topicsForSchool()` never yields it and the Admissions
  * section does not render on their pages at all.
@@ -341,6 +353,7 @@ const PROGRAMS: Record<string, AdmissionsProgram> = {
   'charlotte-latin': charlotteLatin,
   'covenant-day': covenantDay,
   'hickory-grove-christian': hickoryGroveChristian,
+  'trinity-episcopal': trinityEpiscopal,
 }
 
 /* ---------------------------------------------------------- translations -- */

@@ -390,7 +390,10 @@
     "high-school-placement.outcomes": "Dove vanno i diplomati",
     "high-school-placement.placement": "Il programma di orientamento",
     "high-school-placement.destinations": "Dove approdano",
-    "high-school-placement.verdict": "Giudizio e lista per la visita"
+    "high-school-placement.verdict": "Lista per la visita",
+    "the-arts.ladder@trinity-episcopal": "La scala delle arti K–8",
+    "the-arts.theatre@trinity-episcopal": "Teatro e spettacoli per classe",
+    "the-arts.verdict@trinity-episcopal": "Lista per la visita"
   },
   "cardLabels": {
     "afternoonRhythm": "Il ritmo del pomeriggio",
@@ -493,8 +496,6 @@
     "whatTheSchoolOwns": "Di cosa si occupa la scuola",
     "notPublished": "Non pubblicato",
     "filterAll": "Tutte",
-    "crossLinkLegend_one": "{{count}} di queste ha una scheda qui — segui il bordo evidenziato.",
-    "crossLinkLegend_other": "{{count}} di queste hanno una scheda qui — segui il bordo evidenziato.",
     "categoryCount_one": "{{count}} scuola",
     "categoryCount_other": "{{count}} scuole",
     "categoryLinked_one": "{{count}} scuola · {{linked}} rimanda alla sua scheda",
@@ -505,6 +506,13 @@
     "acceptanceNotMatriculationText": "Gli elenchi delle destinazioni indicano dove i diplomati sono stati ammessi e lo hanno dichiarato. La scuola non pubblica il numero di iscritti per istituto, quindi nessuna destinazione va letta come «N studenti si sono iscritti lì».",
     "destinationsMatriculationText": "Questo è l’elenco cumulativo degli istituti in cui i diplomati sono stati ammessi e lo hanno dichiarato nelle ultime annate — non un conteggio di chi si è iscritto dove in un singolo anno.",
     "noRankings": "NESSUNA CLASSIFICA",
-    "noRankingsText": "Le categorie sono il raggruppamento pubblicato dalla scuola stessa — tipi di istituto, non livelli di una classifica. In questa app non esiste alcuna classifica delle scuole superiori e qui non ne viene inventata nessuna."
+    "noRankingsText": "Le categorie sono il raggruppamento pubblicato dalla scuola stessa — tipi di istituto, non livelli di una classifica. In questa app non esiste alcuna classifica delle scuole superiori e qui non ne viene inventata nessuna.",
+    "searchPlaceholder": "Filtra per nome della scuola…",
+    "searchAria": "Filtra le destinazioni per nome della scuola",
+    "searchCount": "{{count}} su {{total}} corrispondono",
+    "searchEmpty": "Nessuna scuola corrisponde a «{{query}}»: prova un termine più breve.",
+    "statusClosed": "Ora chiusa definitivamente",
+    "statusMerged": "Confluita in un’altra scuola",
+    "crossLinkLegend": "Indica che abbiamo una pagina dedicata a quella scuola su questo portale: clicca sul nome"
   }
 }

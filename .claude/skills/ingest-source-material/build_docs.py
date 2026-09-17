@@ -46,6 +46,7 @@ SCHOOL_NAMES = {
     "gaston-day": "Gaston Day School",
     "hickory-grove-christian": "Hickory Grove Christian School",
     "providence-day": "Providence Day School",
+    "trinity-episcopal": "Trinity Episcopal School",
 }
 pretty = lambda slug, table: table.get(slug, slug.replace("-", " ").title())
 

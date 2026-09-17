@@ -462,7 +462,10 @@
     "high-school-placement.outcomes": "إلى أين يذهب الخريجون",
     "high-school-placement.placement": "برنامج الالتحاق",
     "high-school-placement.destinations": "أين يستقرّون",
-    "high-school-placement.verdict": "الخلاصة وقائمة الزيارة"
+    "high-school-placement.verdict": "قائمة الزيارة",
+    "the-arts.ladder@trinity-episcopal": "سُلّم الفنون من K حتى الصف 8",
+    "the-arts.theatre@trinity-episcopal": "المسرح والعروض حسب الصف",
+    "the-arts.verdict@trinity-episcopal": "قائمة الزيارة"
   },
   "cardLabels": {
     "afternoonRhythm": "إيقاع فترة بعد الظهر",
@@ -570,11 +573,9 @@
     "notPublished": "غير منشور",
     "filterAll": "الكل",
     "crossLinkLegend_zero": "لا شيء من هذه له صفحة هنا.",
-    "crossLinkLegend_one": "واحدة من هذه لها صفحة هنا — تتبّع الحافة المعلَّمة.",
     "crossLinkLegend_two": "اثنتان من هذه لهما صفحة هنا — تتبّع الحافة المعلَّمة.",
     "crossLinkLegend_few": "⁨{{count}}⁩ من هذه لها صفحات هنا — تتبّع الحافة المعلَّمة.",
     "crossLinkLegend_many": "⁨{{count}}⁩ من هذه لها صفحات هنا — تتبّع الحافة المعلَّمة.",
-    "crossLinkLegend_other": "⁨{{count}}⁩ من هذه لها صفحات هنا — تتبّع الحافة المعلَّمة.",
     "categoryCount_zero": "لا مدارس",
     "categoryCount_one": "مدرسة واحدة",
     "categoryCount_two": "مدرستان",
@@ -593,6 +594,13 @@
     "acceptanceNotMatriculationText": "تبيّن قوائم الوجهات أين قُبل الخريجون وأُبلغ عن ذلك. لا تنشر المدرسة أعداد الملتحقين بكل مؤسسة، لذا لا ينبغي قراءة أي وجهة على أنها «التحق بها ⁨N⁩ من الطلاب».",
     "destinationsMatriculationText": "هذه قائمة تراكمية بالمؤسسات التي قُبل فيها الخريجون وأُبلغ عن ذلك على مدى الدفعات الأخيرة — وليست إحصاءً لمن التحق بأي منها في سنة بعينها.",
     "noRankings": "بلا تصنيفات",
-    "noRankingsText": "الفئات هي تجميع المدرسة المنشور بنفسها — أنواع من المؤسسات، لا مراتب في قائمة واحدة. لا يتضمّن هذا التطبيق أي تصنيف للمدارس الثانوية ولم يُستحدث أي تصنيف هنا."
+    "noRankingsText": "الفئات هي تجميع المدرسة المنشور بنفسها — أنواع من المؤسسات، لا مراتب في قائمة واحدة. لا يتضمّن هذا التطبيق أي تصنيف للمدارس الثانوية ولم يُستحدث أي تصنيف هنا.",
+    "searchPlaceholder": "التصفية باسم المدرسة…",
+    "searchAria": "تصفية الوجهات باسم المدرسة",
+    "searchCount": "{{count}} من {{total}} مطابقة",
+    "searchEmpty": "لا توجد مدرسة مطابقة لـ «{{query}}» — جرّب كلمة أقصر.",
+    "statusClosed": "مغلقة نهائيًا الآن",
+    "statusMerged": "مُدمجة في مدرسة أخرى",
+    "crossLinkLegend": "يشير إلى أنّ لدينا صفحة مخصّصة لهذه المدرسة على هذه البوابة — انقر على اسم المدرسة"
   }
 }

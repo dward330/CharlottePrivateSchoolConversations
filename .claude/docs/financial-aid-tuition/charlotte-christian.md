@@ -1,5 +1,5 @@
 # Charlotte Christian School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Deep Dive Report
 
 

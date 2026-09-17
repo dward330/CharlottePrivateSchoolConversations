@@ -1,5 +1,5 @@
 # Gaston Day School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 2 source document(s) in `source-material/student-clubs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Academic and Competitive Clubs, Club Catalog and Overview
 
 

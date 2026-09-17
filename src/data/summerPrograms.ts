@@ -296,6 +296,7 @@ import { covenantDay } from './summer/covenant-day.ts'
 import { carmelChristian } from './summer/carmel-christian.ts'
 import { hickoryGroveChristian } from './summer/hickory-grove-christian.ts'
 import { gastonDay } from './summer/gaston-day.ts'
+import { trinityEpiscopal } from './summer/trinity-episcopal.ts'
 
 /**
  * FIVE schools, not six. **Davidson Day is deliberately absent.**
@@ -326,6 +327,7 @@ const PROGRAMS: Record<string, SummerProgram> = {
   'carmel-christian': carmelChristian,
   'hickory-grove-christian': hickoryGroveChristian,
   'gaston-day': gastonDay,
+  'trinity-episcopal': trinityEpiscopal,
 }
 
 /* ---------------------------------------------------------- translations -- */

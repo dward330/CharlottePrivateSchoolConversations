@@ -64,8 +64,9 @@ export type ClubCatalog = {
   categories: CatalogCategory[]
   /** The full filterable roster. */
   clubs: CatalogClub[]
-  /** Division notes rendered below the grid (younger divisions, gaps). */
-  divisions: CatalogDivision[]
+  /** Division notes rendered below the grid (younger divisions, gaps).
+   *  Optional — omit rather than passing [], and the block does not render. */
+  divisions?: CatalogDivision[]
   /** Source line shown in the footer SOURCES row. */
   source: string
   /** Optional noun for the counter, default "clubs" (e.g. "confirmed clubs"). */
@@ -838,6 +839,158 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
     'charlottecatholic.org — Clubs directory (Campus Ministry), parsed from raw HTML; School Profile 2025-2026 (PDF)',
 }
 
+// ── Trinity Episcopal ── the single-source roster, and the sharpest example of
+// it in this file. THERE IS NO /clubs PAGE — it provably does not exist. The
+// 2026-27 School Profile PDF carries the entire club list, as a run of names
+// with NO descriptions of any kind, and only 6 of them are fully corroborated
+// anywhere else on the site. Six more return ZERO hits sitewide (Odyssey of
+// the Mind, Radagast Rabies, Creative Writing as a club, Climate Justice,
+// Monday Math Mania, Spirituality and Chapel Music) — seven, counting Let Me
+// Run, which is half of one profile entry. The remaining three are
+// corroborated in a DIFFERENT character than 'club' and each says so in its
+// own row: Chess Club, Girls on the Run and Invisible Differences.
+//
+// ⚠️ COUNT CORRECTION. The research file's prose heading says "14 named clubs",
+// but its own verbatim quote from the profile lists **15** — and its
+// corroboration table beneath that heading has 15 rows. The quote and the table
+// agree with each other; the heading is a transcription slip. Counted here from
+// the quote, which is the primary evidence: 15 profile entries.
+//
+// So every `note` below is drawn from a DIFFERENT page than the roster — the
+// affinity-groups page, the honor-code page, the MS enrichments page — or, for
+// the seven with no corroboration, says plainly that the profile names the club
+// and nothing else is published. No note is invented from a club's name, which
+// is what the Providence Day entry does with its generic descriptors; here the
+// absence is the finding.
+//
+// Two clubs are added to the profile's 15 from the school's blog: Mock Trial and
+// Speech & Debate, the two state champions, which appear in NEITHER profile PDF.
+// So 17 rows from two sources.
+//
+// Three roster conflicts are carried rather than resolved silently:
+//  · Chess Club is corroborated ONLY as a paid TED after-school enrichment
+//    ("for an additional fee"), not as a student club.
+//  · "Girls on the Run & Let Me Run" is one profile entry naming two programs;
+//    Girls on the Run is well corroborated, Let Me Run returns zero hits.
+//  · Invisible Differences is listed here among student clubs by the profile,
+//    but the affinity-groups page describes it as a PARENT group. The more
+//    specific source wins and the row says so.
+//
+// ⚠️ NO STUDENT NAMES anywhere — Trinity is K–8 (user rule, 2026-09-16).
+// ⚠️ NJHS and Student Council are absent by research, not omission: zero hits
+// sitewide and in both profile PDFs. Do not add either from a search result.
+// ⚠️ NO PUBLICATIONS ROW. The student newspaper and literary magazine are
+// confirmed absent; the yearbook exists but is run by the Parents' Association,
+// so it is not a student club — and nothing here says the school has no yearbook.
+const TRINITY_EPISCOPAL: ClubCatalog = {
+  verdict:
+    '17 clubs across both divisions.',
+  verdictHint: 'Filter by interest.',
+  categories: [
+    { key: 'aff', short: 'Affinity', full: 'Affinity & identity' },
+    { key: 'comp', short: 'Competitive', full: 'Competitive & academic' },
+    { key: 'lead', short: 'Leadership', full: 'Leadership & governance' },
+    { key: 'spirit', short: 'Spiritual life', full: 'Spiritual life' },
+    { key: 'act', short: 'Active', full: 'Active & outdoors' },
+    { key: 'spec', short: 'Special interest', full: 'Special interest' },
+  ],
+  clubs: [
+    {
+      name: 'Young Children of Color',
+      cat: 'aff',
+      note: 'Lower School, grades K–5 — an affinity group and mentoring program for students of color; all students of color are invited and the family decides whether to take part',
+    },
+    {
+      name: 'Young People of Color',
+      cat: 'aff',
+      note: 'Middle School — for students who self-identify as students of color; meets weekly on cultural sensitivity, academic success, socio-political issues and preparation for high school',
+    },
+    {
+      name: 'Young People for Social Justice Group',
+      cat: 'aff',
+      note: 'Middle School — for students who self-identify as white; discusses unearned privilege and the actions students can take as allies',
+    },
+    {
+      name: 'Gender Sexuality Alliance Group',
+      cat: 'aff',
+      note: 'Middle School — human-rights discussion and activities with a focus on gay, lesbian, bisexual, questioning and transgender issues; has organized a Pride Chapel',
+    },
+    {
+      name: 'Invisible Differences',
+      cat: 'aff',
+      note: 'Listed among Middle School student clubs in the School Profile, but the school’s own affinity-groups page describes it as one of four PARENT groups, for families of children with learning differences',
+    },
+    {
+      name: 'Mock Trial',
+      cat: 'comp',
+      note: 'Middle School, 15 students, coached by Jennifer Bader — North Carolina Bar Foundation state champions in 2023, 2024 and 2025. Named in the school’s blog, not in either School Profile',
+    },
+    {
+      name: 'Speech & Debate',
+      cat: 'comp',
+      note: 'State champions the same year as Mock Trial, and simultaneously a weekly 7th-grade enrichment class — both a class and a team. Also coached by Jennifer Bader',
+    },
+    {
+      name: 'Odyssey of the Mind',
+      cat: 'comp',
+      note: 'Named in the 2026-27 School Profile and nowhere else on the site; no description, advisor or competition result is published',
+    },
+    {
+      name: 'Monday Math Mania',
+      cat: 'comp',
+      note: 'Named in the 2026-27 School Profile and nowhere else on the site; no description is published. The 2025-26 profile also listed a MathCats club, which is absent from the 26-27 edition',
+    },
+    {
+      name: 'Creative Writing',
+      cat: 'comp',
+      note: 'Named in the 2026-27 School Profile as a Middle School club; the phrase appears elsewhere on the site only as a teacher’s conference topic, never as a club',
+    },
+    {
+      name: 'Honor Council',
+      cat: 'lead',
+      note: 'Middle School, elected by grade-level peers — encourages integrity and holds students to the Honor Pledge adopted in 2012. The Honor Code was written by students in 2002',
+    },
+    {
+      name: 'Koinonia Representatives',
+      cat: 'lead',
+      note: 'Middle School — representatives of the Koinonia advisory groups, each of 10–12 students and one adult leader, which meet every morning for check-in and twice a week for activities',
+    },
+    {
+      name: 'Climate Justice',
+      cat: 'lead',
+      note: 'Named in the 2026-27 School Profile and nowhere else on the site; no description, advisor or activity is published',
+    },
+    {
+      name: 'Spirituality and Chapel Music',
+      cat: 'spirit',
+      note: 'Named in the 2026-27 School Profile and nowhere else on the site. The school’s chapel rhythm around it is published: bi-weekly K–2 and 3–5 chapels, a weekly 6–8 chapel, and a K–8 chapel every Friday in the Gym',
+    },
+    {
+      name: 'Girls on the Run & Let Me Run',
+      cat: 'act',
+      note: 'Lower School — Trinity was Girls on the Run’s second independent-school chapter and it "continues to be a popular program for students in grades 3-5"; founder Molly Barker is a Trinity alumni parent. Let Me Run, named in the same profile entry, returns no hits on the site',
+    },
+    {
+      name: 'Chess Club',
+      cat: 'spec',
+      note: 'Listed as a Lower School club in the School Profile, but corroborated on the site only as a paid Trinity Extended Day enrichment offered "for an additional fee" — alongside music lessons, karate and cheer club',
+    },
+    {
+      name: 'Radagast Rabies',
+      cat: 'spec',
+      note: 'Named in the 2026-27 School Profile and nowhere else on the site; no description of any kind is published, and the name gives no clue to its purpose',
+    },
+  ],
+  // No `divisions` (user, 2026-09-16). The four notes here — no clubs page, the
+  // advisory structures, absent publications, unpublished membership criteria —
+  // were research apparatus about the SOURCES rather than facts about the clubs,
+  // and they read as a wall of caveats under a roster that speaks for itself.
+  // All four remain in source-material/student-clubs/trinity-episcopal/.
+  source:
+    'tescharlotte.org — 2026-27 School Profile (PDF), the sole roster · affinity-groups.cfm · spirituality/honor-code.cfm · academics/middle-school-enrichments.cfm · academics/lower-school-enrichments.cfm · school blog (Mock Trial, Speech & Debate)',
+  countNoun: 'clubs',
+}
+
 const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-catholic': CHARLOTTE_CATHOLIC,
   'charlotte-latin': CHARLOTTE_LATIN,
@@ -850,6 +1003,7 @@ const CATALOG: Record<string, ClubCatalog> = {
   'carmel-christian': CARMEL_CHRISTIAN,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
+  'trinity-episcopal': TRINITY_EPISCOPAL,
 }
 
 /**

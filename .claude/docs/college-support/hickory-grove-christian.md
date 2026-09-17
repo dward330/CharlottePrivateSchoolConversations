@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — College Support
-> Distilled from 2 source document(s) in `source-material/college-support/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-24.
+> Distilled from 2 source document(s) in `source-material/college-support/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** School Profile, UNC System Admissions
 
 

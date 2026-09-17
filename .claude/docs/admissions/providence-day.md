@@ -1,5 +1,5 @@
 # Providence Day School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-15.
+> Distilled from 2 source document(s) in `source-material/admissions/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Grade-by-Grade Application Plans, Live Process Page Refresh
 
 

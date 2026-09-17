@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Admissions
-> Distilled from 3 source document(s) in `source-material/admissions/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-15.
+> Distilled from 3 source document(s) in `source-material/admissions/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Admissions Office Staff, CAIS Testing Consortium, Grade-by-Grade Application Plans
 
 

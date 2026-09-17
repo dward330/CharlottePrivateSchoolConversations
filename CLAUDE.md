@@ -94,14 +94,27 @@ discover at ingest time.
 **The bar is calibrated to the thinnest school already shipped, and it is computed, not
 transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
 school's Compare fill rate and research-area count and derives the floor from the weakest.
-As of 2026-08-15 that is Davidson Day — 17/30 Compare rows (**56%**), 7 of 8 areas, and no
-Summer Programs material at all. The gate is **≥17 of 30 Compare rows and ≥6 of 8 areas**,
-compared inclusively: exactly 17/30 passes, 16/30 does not. Counted in **rows, not rounded
-percentages** — each row moves the figure ~3.3 points. **Each research area also gets its
-own coverage percentage**, pooled across its core prose cards, structured-card field sets
-and Compare rows, and judged against the card keys **5–6 of 6** existing schools hold,
-never against every key that exists — `the-arts :: courses` sits at 1/6, so its absence is
-not a gap.
+As of 2026-09-17 that is Davidson Day — 17/30 Compare rows (**56%**), and no Summer
+Programs material at all. The gate is **≥17 of 30 Compare rows, and one area below the
+count the script derives**, compared inclusively: exactly 17/30 passes, 16/30 does not.
+
+**Never transcribe the area denominator into this file or the skill — read it from the
+script.** It has moved twice and both documents went quietly stale both times: Admissions
+made it 9 on 2026-08-31, High School Placement made it 10 on 2026-09-16. Note also that no
+school can reach the raw total, since a K–12 school has no High School Placement area and a
+K–8 school has no College Support, so `total − 1` is the real ceiling for either.
+
+**⛔ A K–8 SCHOOL IS GATED ON AREAS ALONE.** It is excluded from the Compare page entirely
+(`hasHighSchool: false`), so it has **zero of 30 Compare rows by design** and applying the
+row axis fails every K–8 candidate, including Trinity. `coverage_floor.mjs` already knows
+this — it lists such a school under "Excluded from the floor" rather than as the weakest.
+The full K–8 shape is **§7 of `DATA-SCHEMA.md`**, which `/add-school` reads first.
+
+Compare rows are counted in **rows, not rounded percentages** — each row moves the figure
+~3.3 points. **Each research area also gets its own coverage percentage**, pooled across
+its core prose cards, structured-card field sets and Compare rows, and judged against the
+card keys **5–6 of 6** existing schools hold, never against every key that exists —
+`the-arts :: courses` sits at 1/6, so its absence is not a gap.
 
 **The per-area line is ~50%, deliberately NOT the school-wide 56%**, and it is a trigger
 for a conversation rather than a pass/fail gate. Three reasons, each of which bit a draft:

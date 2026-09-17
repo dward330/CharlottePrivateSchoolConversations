@@ -1055,7 +1055,8 @@
         "charlotte-christian:coverage.summer.season",
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season"
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season"
       ]
     },
     {
@@ -1450,7 +1451,8 @@
         "charlotte-christian:dayInside.wordsTitle",
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
-        "carmel-christian:dayInside.wordsTitle"
+        "carmel-christian:dayInside.wordsTitle",
+        "trinity-episcopal:dayInside.wordsTitle"
       ]
     },
     {
@@ -2746,7 +2748,8 @@
         "charlotte-country-day:coverage.facts[1].label",
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
-        "gaston-day:coverage.facts[0].label"
+        "gaston-day:coverage.facts[0].label",
+        "trinity-episcopal:coverage.facts[1].label"
       ]
     },
     {
@@ -6695,6 +6698,404 @@
       "of": "d1678ff8",
       "at": [
         "gaston-day:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "برنامج واحد لمرحلة K–8، هو Trinity Extended Day، يعمل من انتهاء الدوام حتى 6:00 مساءً — وسعره يقوم على دخل الأسرة لا على عدد الأيام التي تستخدمه فيها أسبوعيًّا.",
+      "of": "50aecdfe",
+      "at": [
+        "trinity-episcopal:coverage.headline"
+      ]
+    },
+    {
+      "t": "أربع شرائح دخل تتراوح من $105 إلى $380 شهريًّا، ولكل فئة حضور مباشر سعر مخفَّض للأسر التي تتلقّى دعمًا ماليًّا، وأنصاف الأيام مجانية للمشتركين الشهريين. ولا توجد رعاية صباحية.",
+      "of": "da9d1870",
+      "at": [
+        "trinity-episcopal:coverage.subhead"
+      ]
+    },
+    {
+      "t": "السعر على الشريط هو **السعر الشهري لأسرة دخلها فوق $90,000** — وهو أعلى أربع شرائح دخل تبدأ من **$105/شهر** تحت $30,000. و**لا** تسعّر Trinity برنامج TED بعدد الأيام أسبوعيًّا، فلا يوجد سلّم أيام أسبوعية يُفتح؛ وجدول الدخل الكامل والأسعار اليومية في المعطيات أدناه.",
+      "of": "2e4aa8fb",
+      "at": [
+        "trinity-episcopal:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "يبدأ عند انتهاء الدوام",
+      "of": "25420411",
+      "at": [
+        "trinity-episcopal:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "Trinity Extended Day · من انتهاء الدوام–6:00 · $380/شهر",
+      "of": "2c89b903",
+      "at": [
+        "trinity-episcopal:coverage.rows[0].flatLabel"
+      ]
+    },
+    {
+      "t": "قبل الدوام",
+      "of": "bbb5f13e",
+      "at": [
+        "trinity-episcopal:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "لا رعاية قبل الدوام — TED بعد الظهر فقط",
+      "of": "7f82ead5",
+      "at": [
+        "trinity-episcopal:coverage.rows[1].flatLabel"
+      ]
+    },
+    {
+      "t": "انتهاء دوام مبكر",
+      "of": "a4046a8d",
+      "at": [
+        "trinity-episcopal:coverage.rows[2].dismissal"
+      ]
+    },
+    {
+      "t": "يعمل TED من الانتهاء المبكر–5:30 · مجانًا للمشتركين الشهريين، وإلا $51/يوم",
+      "of": "fb32b359",
+      "at": [
+        "trinity-episcopal:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "TES مغلقة",
+      "of": "6edc8c59",
+      "at": [
+        "trinity-episcopal:coverage.rows[3].dismissal"
+      ]
+    },
+    {
+      "t": "يعمل TED من 8:00–5:30 في أيام إغلاق TES · $72/يوم",
+      "of": "6f0363d2",
+      "at": [
+        "trinity-episcopal:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "**Wildcat Summer Camp** — ستة أسابيع من مخيمات اليوم الكامل ونصف اليوم للصفوف الصاعدة K–8، من **15 June إلى 24 July 2026**، ومفتوحة لأي طفل في المجتمع المحلي. الرعاية قبل المخيم 7:45–9:00 صباحًا بـ **$85/أسبوع**، والرعاية بعد المخيم 4:00–5:30 مساءً بـ **$90/أسبوع**، أو **$175/أسبوع** للاثنتين معًا.",
+      "of": "1c147d80",
+      "at": [
+        "trinity-episcopal:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "الأسعار الشهرية بحسب دخل الأسرة",
+      "of": "08e6717a",
+      "at": [
+        "trinity-episcopal:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "تحت $30,000 **$105** · $30,000–$60,000 **$135** · $60,000–$90,000 **$195** · فوق $90,000 **$380** ($355 للشقيق) — وتعنون المدرسة هذا العمود بـ \"**Estimated** TED Monthly Cost\"",
+      "of": "bef2ad58",
+      "at": [
+        "trinity-episcopal:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "**$31/يوم**، أو **$25/يوم** للأسر التي تتلقّى دعمًا ماليًّا — ويفتح TED حتى 6 مساءً في الأيام الدراسية الاعتيادية",
+      "of": "ad9a8760",
+      "at": [
+        "trinity-episcopal:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "يوم كامل",
+      "of": "ba859c4e",
+      "at": [
+        "trinity-episcopal:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "**$72/يوم**، أو **$45/يوم للطفل الأول ($40 للشقيق)** مع الدعم المالي — وهذه أيام تكون فيها TES مغلقة بينما يعمل TED من 8:00 صباحًا–5:30 مساءً",
+      "of": "8a811fef",
+      "at": [
+        "trinity-episcopal:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "نصف يوم",
+      "of": "d2c21926",
+      "at": [
+        "trinity-episcopal:coverage.facts[3].label"
+      ]
+    },
+    {
+      "t": "**مجاني للمشتركين الشهريين في TED**؛ وإلا **$51/يوم**، أو **$30/يوم** مع الدعم المالي — ويعمل TED من الانتهاء المبكر حتى 5:30 مساءً",
+      "of": "caf4fc97",
+      "at": [
+        "trinity-episcopal:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "الرعاية الصباحية",
+      "of": "1fd27504",
+      "at": [
+        "trinity-episcopal:coverage.facts[4].label"
+      ]
+    },
+    {
+      "t": "لا شيء — يبدأ TED عند انتهاء الدوام ولا يوجد أي برنامج قبل الدوام من أي نوع خلال العام الدراسي",
+      "of": "2fc0918c",
+      "at": [
+        "trinity-episcopal:coverage.facts[4].text"
+      ]
+    },
+    {
+      "t": "الكادر",
+      "of": "0d19a971",
+      "at": [
+        "trinity-episcopal:coverage.facts[5].label"
+      ]
+    },
+    {
+      "t": "**Jocelyn Purdie**، مديرة الخدمات المساندة، و**Nancy Guerra**، المديرة المساعدة لـ TED؛ ويسجّل ملف المدرسة **7 Extended Day & Support Staff**",
+      "of": "3c378cc2",
+      "at": [
+        "trinity-episcopal:coverage.facts[5].text"
+      ]
+    },
+    {
+      "t": "وقت مخصّص للواجبات، وفنون، وألعاب لوحية، وFun Friday — مع امتداد Trinity Honor Code صراحةً إلى ما بعد نهاية اليوم الدراسي.",
+      "of": "68ffad9d",
+      "at": [
+        "trinity-episcopal:dayInside.headline"
+      ]
+    },
+    {
+      "t": "تُقام أنشطة إثراء مدفوعة عدّة أيام في الأسبوع، يقودها مزيج من كادر Trinity ومتعاقدين من الخارج. وتذكر المدرسة أربعة أمثلة ولا تسعّر أيًّا منها.",
+      "of": "6058e9f9",
+      "at": [
+        "trinity-episcopal:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "بناء الشخصية",
+      "of": "db625236",
+      "at": [
+        "trinity-episcopal:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "إثراء الحياة",
+      "of": "5bfb0743",
+      "at": [
+        "trinity-episcopal:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "المرح",
+      "of": "5153d815",
+      "at": [
+        "trinity-episcopal:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "بيئة آمنة ومنظَّمة",
+      "of": "cdd6fbed",
+      "at": [
+        "trinity-episcopal:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "وقت مخصّص للواجبات",
+      "of": "3174648d",
+      "at": [
+        "trinity-episcopal:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "مشاريع جماعية",
+      "of": "51fa086e",
+      "at": [
+        "trinity-episcopal:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "أنشطة Fun Friday",
+      "of": "3cadab92",
+      "at": [
+        "trinity-episcopal:dayInside.words[6]"
+      ]
+    },
+    {
+      "t": "ميثاق الشرف Trinity Honor Code",
+      "of": "fef9e484",
+      "at": [
+        "trinity-episcopal:dayInside.words[7]"
+      ]
+    },
+    {
+      "t": "\"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program\" — \"a safe, well-structured environment for every Trinity student.\" ويوفّر البرنامج \"dedicated homework time\" إضافة إلى مشاريع جماعية وأنشطة كالفنون والألعاب اللوحية وFun Friday، والطلاب \"are expected to adhere to the Trinity Honor Code while participating in Extended Day.\"",
+      "of": "7e55f957",
+      "at": [
+        "trinity-episcopal:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "أنشطة الإثراء — مذكورة بالاسم وبلا سعر",
+      "of": "35c711d7",
+      "at": [
+        "trinity-episcopal:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "يقدّم TED \"also offers enrichment programs, **for an additional fee**, several days a week\"، يقودها \"a combination of Trinity faculty/staff and independent contractors\". وتذكر المدرسة هذه الأربعة بوصفها **أمثلة** وتضيف \"and more\"، فهذه إذن **ليست القائمة الكاملة** — ولا تذكر رسمًا لأيٍّ منها. ولاحظ أن Trinity تستخدم كلمة \"enrichments\" لشيئين مختلفين: فهذه إضافات مدفوعة بعد الدوام، بينما تسرد صفحتا \"Enrichments\" في Lower School وMiddle School موادّ منهجية مجانية.",
+      "of": "cef8b0de",
+      "at": [
+        "trinity-episcopal:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "تذكرها المدرسة مثالًا على أنشطة الإثراء في TED؛ واليوم والنطاق الصفّي والرسم غير منشورة.",
+      "of": "32ed0c1c",
+      "at": [
+        "trinity-episcopal:dayInside.classes[0].desc",
+        "trinity-episcopal:dayInside.classes[1].desc",
+        "trinity-episcopal:dayInside.classes[2].desc",
+        "trinity-episcopal:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel",
+        "trinity-episcopal:dayInside.classes[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "أكثر برامج ما بعد الدوام تعمّدًا في القدرة على تحمّل التكلفة ضمن هذه القائمة — أسعار شهرية متدرّجة بحسب الدخل، وسعر مخفَّض في كل فئة حضور مباشر، وأنصاف أيام مجانية للأسر المشتركة شهريًّا.",
+      "of": "495b3819",
+      "at": [
+        "trinity-episcopal:verdict.headline"
+      ]
+    },
+    {
+      "t": "**الأسعار تتدرّج مع دخل الأسرة** — $105 شهريًّا تحت $30,000، صعودًا عبر $135 و$195 إلى $380 فوق $90,000. ولا توجد مدرسة أخرى في هذه المجموعة تسعّر رعاية ما بعد الدوام على أساس القدرة على الدفع إطلاقًا.",
+      "of": "39f87e75",
+      "at": [
+        "trinity-episcopal:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**لكل فئة يومية سعر مخفَّض للأسر التي تتلقّى دعمًا ماليًّا** — فالحضور المباشر ينزل من $31 إلى $25، واليوم الكامل من $72 إلى $45 (للطفل الأول)، ونصف اليوم من $51 إلى $30. والخصم غير مقصور على العقد الشهري.",
+      "of": "9bcc7168",
+      "at": [
+        "trinity-episcopal:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**أنصاف الأيام مجانية للمشتركين الشهريين.** وأيام الانتهاء المبكر هي أصعب ما يكون ترتيب الرعاية فيه، وهي حيث تفرض عدّة مدارس نظيرة سعرًا إضافيًّا.",
+      "of": "c91bfd2f",
+      "at": [
+        "trinity-episcopal:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**يُنشر سعر للشقيق** في شريحة الدخل العليا — $355 مقابل $380 — فالخصم مذكور صراحةً لا مُستنتَجًا.",
+      "of": "19f6cf4e",
+      "at": [
+        "trinity-episcopal:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**التغطية تمتدّ حتى 6:00 مساءً**، وهو أحدث موعد إغلاق في هذه القائمة، وهو برنامج واحد موحَّد عبر كامل نطاق K–8 لا ترتيب منقسم بين Lower وMiddle.",
+      "of": "432e34cb",
+      "at": [
+        "trinity-episcopal:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**أيام إغلاق المدرسة مشمولة** — يعمل TED من 8:00 صباحًا حتى 5:30 مساءً بـ $72/يوم — وهو ما لا تتناوله عدّة مدارس نظيرة إطلاقًا.",
+      "of": "430a9ff8",
+      "at": [
+        "trinity-episcopal:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**للبرنامج غرض معلَن يتجاوز الإشراف**: وقت مخصّص للواجبات، ومشاريع جماعية، وامتداد Trinity Honor Code صراحةً إلى ما بعد انتهاء الدوام.",
+      "of": "a3c63c84",
+      "at": [
+        "trinity-episcopal:verdict.strengths[6]"
+      ]
+    },
+    {
+      "t": "كم شهرًا في السنة يُحتسب السعر الشهري لـ TED، وكم تبلغ كلفة عام دراسي كامل فعليًّا؟",
+      "of": "3986643c",
+      "at": [
+        "trinity-episcopal:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "يقول جدول الأسعار \"Estimated\" — فما المبلغ الفعلي، وما الذي يجعله يتغيّر؟",
+      "of": "8da9427b",
+      "at": [
+        "trinity-episcopal:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "هل توجد رسوم تسجيل، وهل يُحتسب الشهر الجزئي بالتناسب إن بدأنا أو توقّفنا في منتصف العام؟",
+      "of": "92e02dbe",
+      "at": [
+        "trinity-episcopal:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "هل يمكننا التبديل بين العقد الشهري والحضور المباشر خلال العام، وكم مدّة الإشعار المطلوبة؟",
+      "of": "0b3541f8",
+      "at": [
+        "trinity-episcopal:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "كم تكلّف أنشطة الإثراء — نادي الشطرنج، ودروس الموسيقى، والكاراتيه، ونادي التشجيع — وما القائمة الحالية الكاملة؟",
+      "of": "7526a556",
+      "at": [
+        "trinity-episcopal:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "هل يغطّينا نشاط الإثراء حتى 6:00 مساءً، أم يُحتسب فوق السعر الشهري لـ TED؟",
+      "of": "ffb35f33",
+      "at": [
+        "trinity-episcopal:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "ما سياسة الاصطحاب المتأخّر بعد 6:00 مساءً — هل توجد رسوم، وعند أي حدّ تؤثّر في التسجيل؟",
+      "of": "c034e22d",
+      "at": [
+        "trinity-episcopal:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "أي رقم دخل يُعتمد لتحديد الشريحة — إجمالي دخل الأسرة، أم الإجمالي المعدَّل، أم تقييم Clarity؟",
+      "of": "067a562c",
+      "at": [
+        "trinity-episcopal:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "ما نسبة الكادر إلى الأطفال في TED، وهل تختلف بين طفل في رياض الأطفال وطالب في الصف الثامن؟",
+      "of": "c0eef1c0",
+      "at": [
+        "trinity-episcopal:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "هل يوجد أي خيار تحت إشراف قبل الدوام، ولو غير مدفوع — وإن لم يوجد، فماذا تفعل الأسر العاملة عادةً؟",
+      "of": "9fb6faf4",
+      "at": [
+        "trinity-episcopal:verdict.checklist[9]"
       ]
     }
   ]

@@ -82,14 +82,16 @@
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
         "charlotte-country-day:affinity.strips[0].title",
-        "hickory-grove-christian:catalog.clubs[1].note"
+        "hickory-grove-christian:catalog.clubs[1].note",
+        "trinity-episcopal:affinity.strips[1].title"
       ]
     },
     {
       "t": "· 3 grupos",
       "of": "c1a289d9",
       "at": [
-        "providence-day:affinity.strips[0].hint"
+        "providence-day:affinity.strips[0].hint",
+        "trinity-episcopal:affinity.strips[1].hint"
       ]
     },
     {
@@ -105,7 +107,8 @@
       "at": [
         "providence-day:affinity.strips[1].title",
         "charlotte-christian:affinity.strips[0].title",
-        "charlotte-country-day:affinity.strips[1].title"
+        "charlotte-country-day:affinity.strips[1].title",
+        "trinity-episcopal:affinity.strips[0].title"
       ]
     },
     {
@@ -129,7 +132,8 @@
         "providence-day:affinity.strips[2].title",
         "charlotte-christian:affinity.strips[2].title",
         "charlotte-country-day:affinity.strips[2].title",
-        "cannon:affinity.strips[2].title"
+        "cannon:affinity.strips[2].title",
+        "trinity-episcopal:affinity.strips[2].title"
       ]
     },
     {
@@ -290,7 +294,9 @@
         "hickory-grove-christian:honors.societies[0].feedsFrom",
         "hickory-grove-christian:honors.societies[1].feedsFrom",
         "gaston-day:honors.societies[0].feedsFrom",
-        "gaston-day:honors.societies[1].feedsFrom"
+        "gaston-day:honors.societies[1].feedsFrom",
+        "trinity-episcopal:honors.societies[0].feedsFrom",
+        "trinity-episcopal:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -399,7 +405,8 @@
         "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint",
         "carmel-christian:clusters.verdictHint",
-        "gaston-day:clusters.verdictHint"
+        "gaston-day:clusters.verdictHint",
+        "trinity-episcopal:clusters.verdictHint"
       ]
     },
     {
@@ -426,7 +433,9 @@
         "cannon:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[0].evidenceLabel",
         "gaston-day:clusters.rows[0].evidenceLabel",
-        "gaston-day:clusters.rows[1].evidenceLabel"
+        "gaston-day:clusters.rows[1].evidenceLabel",
+        "trinity-episcopal:clusters.rows[0].evidenceLabel",
+        "trinity-episcopal:clusters.rows[1].evidenceLabel"
       ]
     },
     {
@@ -563,7 +572,8 @@
       "at": [
         "providence-day:catalog.categories[1].short",
         "charlotte-latin:catalog.categories[1].short",
-        "cannon:catalog.categories[0].short"
+        "cannon:catalog.categories[0].short",
+        "trinity-episcopal:catalog.categories[1].short"
       ]
     },
     {
@@ -580,7 +590,8 @@
         "providence-day:catalog.categories[2].short",
         "charlotte-latin:catalog.categories[4].short",
         "charlotte-country-day:catalog.categories[3].short",
-        "cannon:catalog.categories[4].short"
+        "cannon:catalog.categories[4].short",
+        "trinity-episcopal:catalog.categories[0].short"
       ]
     },
     {
@@ -1467,7 +1478,8 @@
       "t": "Speech & Debate",
       "of": "cd1e171a",
       "at": [
-        "charlotte-latin:clusters.rows[0].name"
+        "charlotte-latin:clusters.rows[0].name",
+        "trinity-episcopal:clusters.rows[1].name"
       ]
     },
     {
@@ -1645,21 +1657,24 @@
       "t": "Competitivos y académicos",
       "of": "3449d225",
       "at": [
-        "charlotte-latin:catalog.categories[1].full"
+        "charlotte-latin:catalog.categories[1].full",
+        "trinity-episcopal:catalog.categories[1].full"
       ]
     },
     {
       "t": "Liderazgo",
       "of": "c26e03ae",
       "at": [
-        "charlotte-latin:catalog.categories[2].short"
+        "charlotte-latin:catalog.categories[2].short",
+        "trinity-episcopal:catalog.categories[2].short"
       ]
     },
     {
       "t": "Liderazgo y gobernanza",
       "of": "010e90b0",
       "at": [
-        "charlotte-latin:catalog.categories[2].full"
+        "charlotte-latin:catalog.categories[2].full",
+        "trinity-episcopal:catalog.categories[2].full"
       ]
     },
     {
@@ -1668,7 +1683,9 @@
       "at": [
         "charlotte-latin:catalog.categories[3].short",
         "gaston-day:catalog.categories[5].short",
-        "gaston-day:catalog.categories[5].full"
+        "gaston-day:catalog.categories[5].full",
+        "trinity-episcopal:catalog.categories[5].short",
+        "trinity-episcopal:catalog.categories[5].full"
       ]
     },
     {
@@ -4088,7 +4105,8 @@
       "of": "a048adda",
       "at": [
         "charlotte-country-day:catalog.countNoun",
-        "davidson-day:catalog.countNoun"
+        "davidson-day:catalog.countNoun",
+        "trinity-episcopal:catalog.countNoun"
       ]
     },
     {
@@ -4967,7 +4985,8 @@
       "of": "1b3c6d97",
       "at": [
         "covenant-day:honors.adjacent[1].label",
-        "covenant-day:clusters.rows[0].name"
+        "covenant-day:clusters.rows[0].name",
+        "trinity-episcopal:clusters.rows[0].name"
       ]
     },
     {
@@ -5918,7 +5937,8 @@
       "of": "e63698f9",
       "at": [
         "hickory-grove-christian:clusters.rows[1].evidenceLabel",
-        "hickory-grove-christian:catalog.divisions[0].tag"
+        "hickory-grove-christian:catalog.divisions[0].tag",
+        "trinity-episcopal:clusters.rows[3].evidenceLabel"
       ]
     },
     {
@@ -6728,6 +6748,539 @@
       "of": "158da676",
       "at": [
         "gaston-day:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "Cinco grupos de afinidad estudiantiles con nombre propio, cada uno con su franja de grados y una declaración de propósito publicada, más cuatro grupos de padres — bajo una Director of Diversity, Equity, and Belonging.",
+      "of": "1d29d031",
+      "at": [
+        "trinity-episcopal:affinity.headline"
+      ]
+    },
+    {
+      "t": "dirigidos por Ayeola Elias, Director of Diversity, Equity, and Belonging · los grupos existen \"to foster kinship; to provide students and adults a place to celebrate their uniqueness, gifts and important role in our school community; and to affirm, protect and nurture the identities of the group\"",
+      "of": "bee45adb",
+      "at": [
+        "trinity-episcopal:affinity.umbrella.detail"
+      ]
+    },
+    {
+      "t": "grados K–5 · un grupo de afinidad y programa de mentoría para estudiantes de color; se invita a todos los estudiantes de color, y la familia decide si participa",
+      "of": "370c1608",
+      "at": [
+        "trinity-episcopal:affinity.groups[0].detail"
+      ]
+    },
+    {
+      "t": "grados 3–5 · grupos mixtos que \"learn to build community, internalize and reinforce the Honor Code\", cada uno dirigido por 2 miembros del personal docente y no docente",
+      "of": "bb4fa0f1",
+      "at": [
+        "trinity-episcopal:affinity.groups[1].detail"
+      ]
+    },
+    {
+      "t": "Middle School · para estudiantes que se identifican como estudiantes de color; se reúne semanalmente sobre sensibilidad cultural, éxito académico y cuestiones sociopolíticas, y sobre la preparación para la escuela secundaria",
+      "of": "030e8fd7",
+      "at": [
+        "trinity-episcopal:affinity.groups[2].detail"
+      ]
+    },
+    {
+      "t": "Middle School · para estudiantes que se identifican como blancos, con debates sobre el privilegio no ganado y las acciones que pueden emprender como aliados — planteado a partir del \"Be the change you wish to see in the world\" de Gandhi",
+      "of": "5687ba10",
+      "at": [
+        "trinity-episcopal:affinity.groups[3].detail"
+      ]
+    },
+    {
+      "t": "Middle School · debate y actividades de derechos humanos centrados en cuestiones gais, lesbianas, bisexuales, de cuestionamiento y transgénero; ha organizado una Pride Chapel en los últimos años",
+      "of": "d2951e82",
+      "at": [
+        "trinity-episcopal:affinity.groups[4].detail"
+      ]
+    },
+    {
+      "t": "· grados K–5",
+      "of": "d7a69aeb",
+      "at": [
+        "trinity-episcopal:affinity.strips[0].hint"
+      ]
+    },
+    {
+      "t": "Young Children of Color va de Kindergarten al grado 5 · 12 Tribes of Trinity agrupa a estudiantes de los grados 3–5.",
+      "of": "3f5176e8",
+      "at": [
+        "trinity-episcopal:affinity.strips[0].text"
+      ]
+    },
+    {
+      "t": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — los tres son grupos de Middle School, y YPC se reúne semanalmente.",
+      "of": "f7295774",
+      "at": [
+        "trinity-episcopal:affinity.strips[1].text"
+      ]
+    },
+    {
+      "t": "· 4 grupos",
+      "of": "300ca17e",
+      "at": [
+        "trinity-episcopal:affinity.strips[2].hint"
+      ]
+    },
+    {
+      "t": "Café con Padres para familias hispanas/latinas · KINDRED para familias afroamericanas/negras · Invisible Differences para familias de niños con diferencias de aprendizaje · el Diversity & Belonging Committee, abierto a todos los padres.",
+      "of": "505de667",
+      "at": [
+        "trinity-episcopal:affinity.strips[2].text"
+      ]
+    },
+    {
+      "t": "En la capilla",
+      "of": "e9497d71",
+      "at": [
+        "trinity-episcopal:affinity.strips[3].title"
+      ]
+    },
+    {
+      "t": "La GSA estudiantil ha organizado una Pride Chapel. La escuela celebra además cada año una Sankofa Chapel durante el Black History Month, una capilla de Diwali con canto y danza, y capillas del Hispanic Heritage Month dirigidas por familias latinas.",
+      "of": "d1969d81",
+      "at": [
+        "trinity-episcopal:affinity.strips[3].text"
+      ]
+    },
+    {
+      "t": "Quién lo dirige",
+      "of": "26f1498c",
+      "at": [
+        "trinity-episcopal:affinity.leadershipTitle"
+      ]
+    },
+    {
+      "t": "Ayeola Elias es Director of Diversity, Equity, and Belonging. No se publica ningún consejo estudiantil de liderazgo en diversidad, y no aparece en ningún punto del sitio la asistencia a ninguna conferencia nacional de diversidad estudiantil — lo cual es coherente con una escuela K–8, ya que esas conferencias están dirigidas a alumnos de secundaria.",
+      "of": "e22a1886",
+      "at": [
+        "trinity-episcopal:affinity.leadership"
+      ]
+    },
+    {
+      "t": "**Invisible Differences es un grupo de PADRES, no un club estudiantil.** La página de grupos de afinidad lo enumera entre los cuatro grupos de padres; el School Profile de 2026-27 lo enumera entre los clubes estudiantiles. La página de afinidad es la fuente más específica y es la que se sigue aquí — así que la lista estudiantil son cinco grupos, no seis.",
+      "of": "26d1bd11",
+      "at": [
+        "trinity-episcopal:affinity.flags[0].text"
+      ]
+    },
+    {
+      "t": "Cada grado, de Kindergarten a 7.º, tiene una alianza estable de todo el año con una organización comunitaria con nombre propio — doce en total — y 8.º grado lo convierte en incidencia política.",
+      "of": "d9dab4cd",
+      "at": [
+        "trinity-episcopal:service.headline"
+      ]
+    },
+    {
+      "t": "Esto es curricular y no un club de voluntariado: \"Each grade level partners with a community organization whose mission and services are related to curricular goals… Year-long partnerships create the possibility of relationship formation that transforms charity into mutual service among neighbors.\"",
+      "of": "9821c749",
+      "at": [
+        "trinity-episcopal:service.subhead"
+      ]
+    },
+    {
+      "t": "organizaciones asociadas con nombre propio · grados K–7",
+      "of": "89888b00",
+      "at": [
+        "trinity-episcopal:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Kindergarten y el grado 1 se asocian con Nourish Up — Kindergarten reparte Meals on Wheels semanalmente y el grado 1 visita el banco de alimentos de la First Presbyterian Church y lidera la recogida de alimentos de la escuela cada noviembre. El grado 2 trabaja con InReach, cuyos usuarios visitan Trinity mensualmente para jardinería, arte, música y autodefensa. El grado 3 se asocia con Roof Above / el Urban Ministry Center. El grado 4 con The Epiphany School of Charlotte, el grado 5 con Galilee Ministries of East Charlotte. El grado 6 — \"Feeding Our Neighbors\" — trabaja con el 8th Street Friendship Garden, el Charlotte Community ToolBank y NourishUp; el grado 7 — \"Understanding Our Neighbors\" — con Crisis Assistance Ministry, Hope Haven y el First Ward Child Development Center.",
+      "of": "a6ec8b83",
+      "at": [
+        "trinity-episcopal:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "caminando hasta la organización asociada, cada mes · grado 3",
+      "of": "e9702557",
+      "at": [
+        "trinity-episcopal:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "Los alumnos de tercer grado caminan una milla hasta el Urban Ministry Center una vez al mes para hacer arte, jugar al fútbol, cantar con el Urban Ministry Choir y organizar recogidas de ropa. La caminata es el objetivo, y la escuela lo dice: \"We like to say that Trinity has the longest hallways in Charlotte as our campus community extends into the heart of Uptown Charlotte. Each day you will see our students and teachers walking to and engaging with community organizations as part of our academic program and service-learning partnerships.\"",
+      "of": "dfe03647",
+      "at": [
+        "trinity-episcopal:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "alumnos de octavo grado en el viaje de incidencia política de 2024",
+      "of": "9e6a172a",
+      "at": [
+        "trinity-episcopal:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Octavo grado cartografía su comunidad, investiga un asunto durante todo el año en el Social Issues Seminar y después viaja a Washington D. C. para defenderlo. El grupo de 2024 se reunió con el congresista Jeff Jackson en el Capitolio y llevó cinco asuntos: recursos para víctimas de violencia armada, movilidad económica, salario mínimo, vivienda asequible y transparencia en los costes sanitarios. La Assistant Head of School Stephanie Griffin: \"This is a trip, at its heart and soul, that’s all about advocacy.\"",
+      "of": "b273b01c",
+      "at": [
+        "trinity-episcopal:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "Los propios textos de la escuela escriben de dos formas el nombre de una misma organización asociada y nombran dos veces a la del grado 3: **\"Nourish Up\"** en los grados K y 1 pero **\"NourishUp\"** en el grado 6, y el grado 3 aparece **encabezado como \"Roof Above\"** mientras que su texto dice **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"**. Roof Above es el nombre nuevo de la organización. Ambas grafías se reproducen tal como están publicadas en lugar de normalizarse.",
+      "of": "bb115202",
+      "at": [
+        "trinity-episcopal:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "Dos campeonatos estatales en un mismo año, y un triplete: el equipo de Mock Trial de Middle School ganó la competición de la North Carolina Bar Foundation en 2023, 2024 y 2025.",
+      "of": "1298574e",
+      "at": [
+        "trinity-episcopal:honors.headline"
+      ]
+    },
+    {
+      "t": "El historial de reconocimientos de Trinity es competitivo y cívico más que institucional — aquí no hay ningún capítulo de sociedad de honor; hay una sala de juicios, un circuito de debate y un Honor Council que eligen sus propios estudiantes.",
+      "of": "0c5c0682",
+      "at": [
+        "trinity-episcopal:honors.subhead"
+      ]
+    },
+    {
+      "t": "Tres campeonatos estatales consecutivos en la competición de Middle School de la North Carolina Bar Foundation, con Jennifer Bader como entrenadora. El segundo título se ganó en el Mecklenburg County Courthouse frente a otros cinco equipos de middle school.",
+      "of": "c94e30cf",
+      "at": [
+        "trinity-episcopal:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "\"The speech and debate and mock trial teams both won their respective state championships this year.\" Speech & Debate es al mismo tiempo un enriquecimiento semanal de 7.º grado y un equipo de competición, así que es a la vez una clase y un club.",
+      "of": "a1c8f308",
+      "at": [
+        "trinity-episcopal:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Los miembros son \"elected by their grade level peers in Middle School\" y se encargan de fomentar la integridad, construir una comunidad de confianza y hacer que sus compañeros cumplan el compromiso. Los alumnos de octavo \"often find themselves… leading honor councils\".",
+      "of": "1e5686fb",
+      "at": [
+        "trinity-episcopal:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "toda la escuela",
+      "of": "15f40749",
+      "at": [
+        "trinity-episcopal:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "El propio Honor Code",
+      "of": "87c74e18",
+      "at": [
+        "trinity-episcopal:honors.adjacentTitle"
+      ]
+    },
+    {
+      "t": "Escrito por estudiantes, 2002",
+      "of": "fa50bf8b",
+      "at": [
+        "trinity-episcopal:honors.adjacent[0].label"
+      ]
+    },
+    {
+      "t": "El Honor Code fue creado por estudiantes en 2002 y recoge seis compromisos: responsabilidad, dar lo mejor de uno mismo, respetar la singularidad de los demás, amabilidad, celebrar la alegría y la belleza, y abstenerse de la deshonestidad y el robo. Toda la escuela lo recita junta en el Greet the Week cada lunes por la mañana.",
+      "of": "a191bce9",
+      "at": [
+        "trinity-episcopal:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "El Middle School Honor Pledge, adoptado en 2012",
+      "of": "3a3c90a0",
+      "at": [
+        "trinity-episcopal:honors.adjacent[1].label"
+      ]
+    },
+    {
+      "t": "\"As a child of God, I pledge that I have not cheated by giving or receiving help on this work, including plagiarizing. Moreover, I am unaware of any violation of this pledge by other students.\"",
+      "of": "3c1bc375",
+      "at": [
+        "trinity-episcopal:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "La entrenadora",
+      "of": "1f153916",
+      "at": [
+        "trinity-episcopal:honors.adjacent[2].label"
+      ]
+    },
+    {
+      "t": "Jennifer Bader es Speech and Debate and Mock Trial Team Coach, y ha sido Forensics Committee Chair y miembro de la junta de la North Carolina Association for Scholastic Activities. Sobre el equipo: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\" Y sobre por qué lo hace: \"I just love when the light bulb comes on for kids. It’s really challenging material, but they really get into it.\"",
+      "of": "89eb6ef8",
+      "at": [
+        "trinity-episcopal:honors.adjacent[2].text"
+      ]
+    },
+    {
+      "t": "**En Trinity no hay National Junior Honor Society ni Student Council, diga lo que diga una búsqueda web.** \"National Junior Honor Society\", \"Junior Honor Society\", \"NJHS\" y \"Student Council\" devuelven **cero resultados** en las 98 páginas del sitemap y en ambos PDF del School Profile. Aun así, una búsqueda devuelve textos rotundos que describen un capítulo NJHS de Trinity y un Student Council de Trinity; ni una palabra de ello está corroborada en el propio sitio de la escuela, y es casi seguro que corresponde a la página de otra escuela. El Honor Council es el órgano confirmado.",
+      "of": "e75913a6",
+      "at": [
+        "trinity-episcopal:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "Los campeonatos están documentados únicamente en el blog de la escuela — **ninguno de los dos aparece en ninguno de los PDF del School Profile**, y los reconocimientos individuales de estudiantes se publicaron allí pero se omiten aquí porque Trinity es una escuela K–8 y quienes compiten son menores. No se publica ningún criterio de pertenencia, proceso de selección ni histórico del tamaño de los equipos de Mock Trial o Speech & Debate más allá de la cifra de 15 estudiantes.",
+      "of": "9222ff56",
+      "at": [
+        "trinity-episcopal:honors.flags[1].text"
+      ]
+    },
+    {
+      "t": "Mock Trial es tricampeón estatal, y Speech & Debate ganó el estatal ese mismo año.",
+      "of": "67aa8414",
+      "at": [
+        "trinity-episcopal:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Campeones estatales de Middle School de la NC Bar Foundation — 2023, 2024 y 2025",
+      "of": "b7b46f3d",
+      "at": [
+        "trinity-episcopal:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "El logro competitivo más fuerte que tiene Trinity, y es académico y no deportivo: tres campeonatos estatales consecutivos en la competición de Mock Trial de Middle School de la North Carolina Bar Foundation. Un equipo de 15 estudiantes entrenado por Jennifer Bader; el segundo título se ganó en el Mecklenburg County Courthouse frente a otros cinco equipos de middle school. Bader: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\"",
+      "of": "4def0f75",
+      "at": [
+        "trinity-episcopal:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "También campeón estatal — y al mismo tiempo una clase semanal de 7.º grado",
+      "of": "38846987",
+      "at": [
+        "trinity-episcopal:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "La escuela lo dice sin rodeos: \"The speech and debate and mock trial teams both won their respective state championships this year.\" Es a la vez una clase y un club — Speech & Debate funciona como enriquecimiento semanal de 7.º grado además de como equipo de competición, así que enumerarlo solo entre los enriquecimientos lo infravalora. La entrenadora Jennifer Bader ha sido Forensics Committee Chair y miembro de la junta de la North Carolina Association for Scholastic Activities.",
+      "of": "13c4a177",
+      "at": [
+        "trinity-episcopal:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Honor Council",
+      "of": "27433754",
+      "at": [
+        "trinity-episcopal:clusters.rows[2].name"
+      ]
+    },
+    {
+      "t": "Elegido por los compañeros de su nivel de grado en Middle School; Honor Code escrito por estudiantes en 2002",
+      "of": "cc02bd0e",
+      "at": [
+        "trinity-episcopal:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "Publicado por la escuela",
+      "of": "d9983c4e",
+      "at": [
+        "trinity-episcopal:clusters.rows[2].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Los miembros son \"elected by their grade level peers in Middle School\" y hacen que sus compañeros cumplan el Honor Pledge adoptado en 2012. El propio Honor Code fue creado por estudiantes en 2002. Este es el único órgano de honor o liderazgo confirmado de la escuela — no hay National Junior Honor Society ni Student Council en ningún punto del sitio ni en ninguno de los School Profile, pese a que páginas de terceros afirman que existen ambos.",
+      "of": "d681b335",
+      "at": [
+        "trinity-episcopal:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Clubes académicos mencionados en el profile →",
+      "of": "51614c74",
+      "at": [
+        "trinity-episcopal:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Odyssey of the Mind, Creative Writing, Climate Justice, Monday Math Mania, Radagast Rabies",
+      "of": "0325cc4b",
+      "at": [
+        "trinity-episcopal:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Odyssey of the Mind es en otros sitios una competición nacional de resolución creativa de problemas, pero no se publica ninguna participación ni resultado de Trinity, así que aquí no se afirma nada competitivo. El profile de 2025-26 enumeraba además MathCats y Book Club; ambos han desaparecido de la edición de 26-27.",
+      "of": "50368a10",
+      "at": [
+        "trinity-episcopal:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "17 clubes entre las dos divisiones.",
+      "of": "dc29e48a",
+      "at": [
+        "trinity-episcopal:catalog.verdict"
+      ]
+    },
+    {
+      "t": "Filtre por interés.",
+      "of": "ac95c7b0",
+      "at": [
+        "trinity-episcopal:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "Afinidad e identidad",
+      "of": "e3e11c3b",
+      "at": [
+        "trinity-episcopal:catalog.categories[0].full"
+      ]
+    },
+    {
+      "t": "Vida espiritual",
+      "of": "3a5bea2c",
+      "at": [
+        "trinity-episcopal:catalog.categories[3].short",
+        "trinity-episcopal:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "Activos",
+      "of": "1f89134f",
+      "at": [
+        "trinity-episcopal:catalog.categories[4].short"
+      ]
+    },
+    {
+      "t": "Activos y al aire libre",
+      "of": "0f481fae",
+      "at": [
+        "trinity-episcopal:catalog.categories[4].full"
+      ]
+    },
+    {
+      "t": "Lower School, grados K–5 — un grupo de afinidad y programa de mentoría para estudiantes de color; se invita a todos los estudiantes de color y la familia decide si participa",
+      "of": "6f550810",
+      "at": [
+        "trinity-episcopal:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Middle School — para estudiantes que se identifican como estudiantes de color; se reúne semanalmente sobre sensibilidad cultural, éxito académico, cuestiones sociopolíticas y preparación para la escuela secundaria",
+      "of": "98fdba28",
+      "at": [
+        "trinity-episcopal:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "Middle School — para estudiantes que se identifican como blancos; debate sobre el privilegio no ganado y las acciones que los estudiantes pueden emprender como aliados",
+      "of": "86d25991",
+      "at": [
+        "trinity-episcopal:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Middle School — debate y actividades de derechos humanos centrados en cuestiones gais, lesbianas, bisexuales, de cuestionamiento y transgénero; ha organizado una Pride Chapel",
+      "of": "dfd7c1b3",
+      "at": [
+        "trinity-episcopal:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Aparece entre los clubes estudiantiles de Middle School del School Profile, pero la propia página de grupos de afinidad de la escuela lo describe como uno de los cuatro grupos de PADRES, para familias de niños con diferencias de aprendizaje",
+      "of": "36fd7b0b",
+      "at": [
+        "trinity-episcopal:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Middle School, 15 estudiantes, entrenados por Jennifer Bader — campeones estatales de la North Carolina Bar Foundation en 2023, 2024 y 2025. Mencionado en el blog de la escuela, no en ninguno de los School Profile",
+      "of": "c62afe43",
+      "at": [
+        "trinity-episcopal:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Campeones estatales el mismo año que Mock Trial, y al mismo tiempo una clase de enriquecimiento semanal de 7.º grado — a la vez clase y equipo. También entrenado por Jennifer Bader",
+      "of": "85b42704",
+      "at": [
+        "trinity-episcopal:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "Mencionado en el School Profile de 2026-27 y en ningún otro punto del sitio; no se publica ninguna descripción, ningún responsable ni ningún resultado de competición",
+      "of": "5f5c62b3",
+      "at": [
+        "trinity-episcopal:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Mencionado en el School Profile de 2026-27 y en ningún otro punto del sitio; no se publica ninguna descripción. El profile de 2025-26 enumeraba además un club MathCats, que está ausente de la edición de 26-27",
+      "of": "5ff4c723",
+      "at": [
+        "trinity-episcopal:catalog.clubs[8].note"
+      ]
+    },
+    {
+      "t": "Mencionado en el School Profile de 2026-27 como club de Middle School; la expresión aparece en el resto del sitio únicamente como tema de una conferencia de un docente, nunca como club",
+      "of": "dbd9ded2",
+      "at": [
+        "trinity-episcopal:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Middle School, elegido por los compañeros de su nivel de grado — fomenta la integridad y hace que los estudiantes cumplan el Honor Pledge adoptado en 2012. El Honor Code fue escrito por estudiantes en 2002",
+      "of": "a621db8a",
+      "at": [
+        "trinity-episcopal:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "Middle School — representantes de los grupos de tutoría Koinonia, de 10–12 estudiantes y un adulto responsable cada uno, que se reúnen cada mañana para el control de asistencia y dos veces por semana para actividades",
+      "of": "c875a84a",
+      "at": [
+        "trinity-episcopal:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "Mencionado en el School Profile de 2026-27 y en ningún otro punto del sitio; no se publica ninguna descripción, ningún responsable ni ninguna actividad",
+      "of": "e631be80",
+      "at": [
+        "trinity-episcopal:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Mencionado en el School Profile de 2026-27 y en ningún otro punto del sitio. Sí está publicado el ritmo de capillas de la escuela a su alrededor: capillas quincenales de K–2 y de 3–5, una capilla semanal de 6–8 y una capilla K–8 todos los viernes en el Gym",
+      "of": "a2ba1f8f",
+      "at": [
+        "trinity-episcopal:catalog.clubs[13].note"
+      ]
+    },
+    {
+      "t": "Lower School — Trinity fue el segundo capítulo en una escuela independiente de Girls on the Run y \"continues to be a popular program for students in grades 3-5\"; la fundadora Molly Barker es madre de una exalumna de Trinity. Let Me Run, mencionado en la misma entrada del profile, no devuelve ningún resultado en el sitio",
+      "of": "5f736128",
+      "at": [
+        "trinity-episcopal:catalog.clubs[14].note"
+      ]
+    },
+    {
+      "t": "Aparece como club de Lower School en el School Profile, pero en el sitio solo está corroborado como un enriquecimiento de pago de Trinity Extended Day ofrecido \"for an additional fee\" — junto a clases de música, kárate y club de cheer",
+      "of": "afd2184b",
+      "at": [
+        "trinity-episcopal:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "Mencionado en el School Profile de 2026-27 y en ningún otro punto del sitio; no se publica ninguna descripción de ningún tipo, y el nombre no da ninguna pista sobre su propósito",
+      "of": "f7f837cd",
+      "at": [
+        "trinity-episcopal:catalog.clubs[16].note"
       ]
     }
   ]

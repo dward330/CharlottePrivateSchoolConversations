@@ -101,8 +101,31 @@ export const PROSE_KEYS = new Set([
   // prose. Five siblings that were byte-identical to their fallback
   // (pathTitle, holdsUpTitle, adjacentTitle, and both checklistTitles) were
   // DELETED from the data rather than classified — a lifted heading pins that
-  // heading to English in every locale. artsProgram's `askTitle` was deleted
-  // too: the type declared it but no component ever read it.
+  // heading to English in every locale.
+  //
+  // `askTitle` is BACK, and for the opposite reason to its 2026-08-18 deletion.
+  // It was dropped then because the type declared it but no component read it.
+  // It is now read by ArtsProgram's VerdictBody (2026-09-16) and Trinity gives
+  // it a genuinely divergent value — "Visit Checklist" against the shared
+  // "Ask on the tour" — so it passes the uniform test as a research finding and
+  // belongs here. A school that does NOT override it must leave the field off,
+  // exactly as before; a value byte-identical to the fallback is a lifted
+  // heading and should be deleted rather than classified.
+  'askTitle',
+  // `adjacentTitle` is BACK on the same terms as `askTitle`, and it is the
+  // second field to return after a 2026-08-18 deletion — so the test, not the
+  // history, is what decides. Gaston Day's value was byte-identical to the
+  // shared fallback, which makes it a LIFTED heading; Trinity Episcopal's is
+  // "The Honor Code itself" against "Recognition that is not a society", which
+  // is a different statement about a different thing and is a research finding.
+  // `leadershipTitle` is new and diverges the same way: "Who runs it" against
+  // "The leadership arm".
+  //
+  // The rule this pair illustrates: a field is not permanently disqualified by
+  // one school having lifted it. Re-run the uniform test on the actual value —
+  // identical to the fallback means delete it from the data, divergent means
+  // classify it here.
+  'adjacentTitle', 'leadershipTitle',
   'boardTitle', 'exhibitsTitle', 'strengthsTitle', 'watchoutsTitle',
   'reachTitle', 'bucketsTitle', 'scholarshipsTitle', 'supportTitle',
   'middleTitle',
@@ -604,4 +627,78 @@ export const PATH_OVERRIDES = new Map([
   // "verify against the live calendar" instruction and the not-affiliated
   // statement. The one paragraph on the sheet that must reach every reader.
   ['checklist.disclaimer', true],
+  // Trinity Episcopal's two bands, K and Grades 1-8. Its deadline boundary is
+  // K->1 and nothing else, because it is a K-8 school with no later entry
+  // point — the simplest split any card in this area ships. Registered here for
+  // the reason the block above gives: an unregistered band key is excluded from
+  // extraction rather than flagged, so the cells ship English at 100% coverage.
+  ['comparison.rows[].cells.k', true],
+  ['comparison.rows[].cells.g18', true],
+
+  /* ------------------------------------------- high school placement -- */
+
+  // K-8 only. The area shipped inert in PR #308 and Trinity Episcopal is its
+  // first occupant, so every path below is classified here for the first time.
+
+  // The destination's slug in THIS app, resolved against the roster to render
+  // the cross-link. A machine identifier, never display text: translating it
+  // makes schoolBySlug() miss and the link silently degrades to plain text,
+  // with no error — the same reading as `flags[].kind` at the top of this map.
+  ['destinations.categories[].schools[].slug', false],
+  // Per-destination qualifiers, keyed by the destination's own NAME, so each
+  // entry is its own path and the leaf is a proper noun. This is what the
+  // prefix wildcard in pathOverride() exists for.
+  //
+  // They are prose, not codes. Most are places a reader should recognise in
+  // their own language ("Virginia", "Costa Rica", "Washington DC"), and one is
+  // a full hedge — 'published as "Lake Normal High School"' — flagging the
+  // school's own misspelling. That last one is the recurring leak shape this
+  // repo keeps finding: a sentence sitting in a field whose other 37 values
+  // look like identifiers. Classified by the field's widest value, not its
+  // typical one.
+  ['destinations.categories[].notes.*', true],
+  // The denominator beneath a placement stat tile. A phrase, not a figure:
+  // "public + independent · boarding", "Kindergarten through 8th grade". The
+  // figure lives in `value`, which stays skipped.
+  ['placement.stats[].denominator', true],
 ])
+
+/**
+ * The ONE implementation of PATH_OVERRIDES matching.
+ *
+ * This logic used to be copy-pasted into four callers (i18n_extract.mjs,
+ * check_translations.mjs, check_chrome_keys.mjs, i18n_audit_skips.mjs). They
+ * agreed by luck rather than by construction, and a new pattern form had to be
+ * added to all four or the checkers would classify a field differently from the
+ * extractor — the same drift that left check:live comparing six topics against
+ * the extractor's nine. Same remedy as scripts/i18n_topics.mjs: define it once,
+ * import it everywhere, never re-declare it locally.
+ *
+ * Three pattern forms, matched in PATH_OVERRIDES insertion order:
+ *
+ *   'a.b.c'    exact, or a dot-suffix of the path  ('x.a.b.c' matches)
+ *   '*.b.c'    suffix anywhere                     ('x.y.b.c' matches)
+ *   'a.b.*'    PREFIX — every key under a.b        ('a.b.anything' matches)
+ *
+ * The prefix form exists for maps keyed by DATA rather than by schema: High
+ * School Placement's `destinations.categories[].notes` is keyed by the
+ * destination school's own name, so every entry is its own path and no finite
+ * list of leaf keys can cover it. Without it, 38 per-school qualifiers were
+ * unclassified — excluded from extraction, shipping English to nine locales
+ * with coverage still reading 100%.
+ *
+ * @returns true (prose), false (skip), or undefined (no override applies)
+ */
+export function pathOverride(path) {
+  for (const [pattern, isProse] of PATH_OVERRIDES) {
+    if (pattern.startsWith('*.')) {
+      if (path.endsWith(pattern.slice(1))) return isProse
+    } else if (pattern.endsWith('.*')) {
+      const prefix = pattern.slice(0, -1)          // keep the trailing dot
+      if (path.startsWith(prefix) || path.includes('.' + prefix)) return isProse
+    } else if (path === pattern || path.endsWith('.' + pattern)) {
+      return isProse
+    }
+  }
+  return undefined
+}

@@ -27,6 +27,13 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { stamp } from './i18n_stamp.mjs'
 
+/* The subtopic -> card-key rules the RENDERER uses. Imported rather than
+   re-expressed here: a local copy of these rules is exactly how this script
+   came to disagree with the render path (see CARD_REPLACED below). metrics.ts
+   imports cleanly under plain Node — it carries no `import.meta.glob`, unlike
+   the *Program.ts registries that force gen_data_schema.mjs to parse source. */
+const { normalizeMetric } = await import('../src/lib/metrics.ts')
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const CONTENT = join(ROOT, 'src/content')
 const WORK = join(ROOT, 'src/data/overlays/work')
@@ -48,22 +55,36 @@ const LIVE = {
 /**
  * Metric groups whose prose body a structured card replaces, per topic.
  *
- * The Deep Dive Report is the big one: all six schools have an entry in
- * financialAidReports.ts, so `FinancialAidReportCard` renders instead of the
- * prose and 36,419 of the topic's 38,589 words never reach a parent. Stage 7
- * already translated that content in its structured form; translating the
- * prose too would duplicate the work and create a second copy to keep in sync.
+ * The Deep Dive Report is the big one: every school with an entry in
+ * financialAidReports.ts renders `FinancialAidReportCard` instead of the prose,
+ * so those words never reach a parent. Stage 7 already translated that content
+ * in its structured form; translating the prose too would duplicate the work
+ * and create a second copy to keep in sync.
  *
- * Matched on the subtopic because that is what `liveSections` sees; the render
- * path keys off the normalized metric key (`in-depth-report`).
+ * MATCHED ON THE RESOLVED METRIC KEY, not on the subtopic string.
+ *
+ * It used to match the subtopic, on the assumption that a section whose card is
+ * replaced says so in its own heading ("Deep Dive Report"). That assumption held
+ * only while every school's research arrived as ONE gitignored PDF the content
+ * builder could not slice. Trinity Episcopal's arrives as committed markdown, so
+ * the builder split it at every `## ` heading into 22 sections named "Source
+ * URLs", "How to apply", "Verbatim text — 2026-27 edition" and so on — all of
+ * which `RULES` in src/lib/metrics.ts folds onto `in-depth-report`, and all of
+ * which the subtopic regex missed.
+ *
+ * The cost of the mismatch was one-directional and expensive: 79 sections of
+ * pure research apparatus — ProPublica retrieval notes, verbatim PDF dumps, a
+ * 14-year IRS table — offered up for translation into nine locales, none of
+ * which any reader can reach. The renderer keys off the normalized metric key,
+ * so this now asks the same question the renderer does.
  */
 const CARD_REPLACED = {
   'financial-aid-tuition': [
-    { subtopic: /deep.?dive/i, module: 'financialAidReports.ts' },
+    { key: 'in-depth-report', module: 'financialAidReports.ts' },
   ],
   'student-clubs': [
-    { subtopic: /academic|competitive/i, module: 'clubClusters.ts' },
-    { subtopic: /catalog|overview/i, module: 'clubCatalog.ts' },
+    { key: 'academic-clubs', module: 'clubClusters.ts' },
+    { key: 'catalog', module: 'clubCatalog.ts' },
   ],
 }
 
@@ -96,8 +117,10 @@ function slugsIn(module) {
 }
 
 function cardReplaces(topic, slug, subtopic) {
+  const metric = normalizeMetric(topic, subtopic)
+  if (!metric) return false
   for (const rule of CARD_REPLACED[topic] ?? []) {
-    if (rule.subtopic.test(subtopic) && slugsIn(rule.module).has(slug)) return true
+    if (rule.key === metric.key && slugsIn(rule.module).has(slug)) return true
   }
   return false
 }

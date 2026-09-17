@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Curriculum Guide 2026-2027
 
 

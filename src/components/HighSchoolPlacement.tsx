@@ -32,7 +32,7 @@
 //      roster, never by name: a render-time name match would silently degrade to
 //      plain text the moment a school is renamed.
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
 import type {
@@ -48,6 +48,7 @@ import type {
   PlacementClass,
 } from '../data/highSchoolPlacement.ts'
 import { schoolBySlug } from '../lib/manifest.ts'
+import { highSchoolClosure, highSchoolRank, highSchoolUrl } from '../data/highSchools.ts'
 import { toSchool, useNavigate } from '../lib/router.ts'
 import { SourceRow } from './SourceRow.tsx'
 
@@ -173,8 +174,16 @@ function Stats({ stats }: { stats: HspStat[] }) {
       style={{ gridTemplateColumns: `repeat(${Math.min(stats.length, 4)}, 1fr)` }}
     >
       {stats.map((s) => (
+        /* Order: figure, then its CAPTION, then the denominator.
+           The caption completes the figure's sentence — "9 … years on one
+           campus" — so it follows the number directly. The denominator moved
+           below it (user, 2026-09-17) because sitting between the two split
+           that sentence with an unrelated line: "9 / Kindergarten through 8th
+           grade / years on one campus". It still reads as attached to the
+           figure, which is what the slot is for. */
         <div key={s.caption} className="cs-stat hsp-stat">
           <div className="cs-stat-val">{localizeMoneyText(s.value)}</div>
+          <div className="cs-stat-label text-muted">{s.caption}</div>
           {s.denominator ? (
             <div className="hsp-stat-denom">{localizeMoneyText(s.denominator)}</div>
           ) : (
@@ -182,7 +191,6 @@ function Stats({ stats }: { stats: HspStat[] }) {
               {t('highSchoolPlacement.noDenominator')}
             </div>
           )}
-          <div className="cs-stat-label text-muted">{s.caption}</div>
         </div>
       ))}
     </div>
@@ -200,15 +208,91 @@ function Stats({ stats }: { stats: HspStat[] }) {
  * `slug` is verified against the roster before it links: a data file naming a
  * school that is not in the app renders as a plain chip rather than a dead link.
  */
-function DestinationChip({ dest, note }: { dest: Destination; note?: string }) {
+/**
+ * A school name with every case-insensitive occurrence of `query` tinted.
+ *
+ * Built from segments rather than by setting innerHTML — the query is reader
+ * input and the names come from research data, so neither is trusted as markup.
+ */
+function Marked({ text, query }: { text: string; query: string }) {
+  if (!query) return <>{text}</>
+  const needle = query.toLowerCase()
+  const hay = text.toLowerCase()
+  const out: React.ReactNode[] = []
+  let i = 0
+  for (let at = hay.indexOf(needle); at !== -1; at = hay.indexOf(needle, i)) {
+    if (at > i) out.push(text.slice(i, at))
+    out.push(
+      <mark key={at} className="hsp-mark">
+        {text.slice(at, at + query.length)}
+      </mark>,
+    )
+    i = at + query.length
+  }
+  if (i < text.length) out.push(text.slice(i))
+  return <>{out}</>
+}
+
+function DestinationChip({
+  dest,
+  note,
+  query = '',
+}: {
+  dest: Destination
+  note?: string
+  query?: string
+}) {
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const inApp = dest.slug ? schoolBySlug(dest.slug) : undefined
+  /* The Niche rank, resolved from the single master by name. Stored as a whole
+     label rather than a number because two different scales are in play — see
+     the note on `rankLabel` in data/highSchools.ts. */
+  const rank = highSchoolRank(dest.name)
+  /* A school that has closed or merged away still belongs on the list — it is
+     cumulative since 2004 and the placement was real — but a parent needs to
+     know before trying to visit it. The qualifier rides beside the name rather
+     than in the note slot, so it reads as part of what the school IS. */
+  const closure = highSchoolClosure(dest.name)
+  const closureLabel = closure
+    ? t(closure === 'closed'
+        ? 'highSchoolPlacement.statusClosed'
+        : 'highSchoolPlacement.statusMerged')
+    : undefined
 
   if (!inApp) {
+    /* No dossier here yet, so the name links OUT to the school's own homepage
+       where one could be confirmed. A school with no resolvable homepage —
+       closed, merged, or a name too ambiguous to pin — renders as plain text,
+       which is a confirmed result rather than a gap. */
+    const href = highSchoolUrl(dest.name)
+    if (href) {
+      return (
+        <a
+          className="hsp-dest hsp-dest-out"
+          href={href}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <span className="hsp-dest-name">
+            <Marked text={dest.name} query={query} />
+          </span>
+          <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
+          {note && <span className="hsp-dest-note text-muted"> {note}</span>}
+          {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
+        </a>
+      )
+    }
     return (
       <span className="hsp-dest">
-        {dest.name}
+        <span className="hsp-dest-name">
+            <Marked text={dest.name} query={query} />
+          </span>
+        {closureLabel && (
+          <span className="hsp-dest-closed"> ({closureLabel})</span>
+        )}
         {note && <span className="hsp-dest-note text-muted"> {note}</span>}
+        {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
       </span>
     )
   }
@@ -220,9 +304,12 @@ function DestinationChip({ dest, note }: { dest: Destination; note?: string }) {
       href={href}
       onClick={(e) => { e.preventDefault(); navigate(href) }}
     >
-      {dest.name}
+      <span className="hsp-dest-name">
+            <Marked text={dest.name} query={query} />
+          </span>
       <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
       {note && <span className="hsp-dest-note text-muted"> {note}</span>}
+      {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
     </a>
   )
 }
@@ -456,14 +543,38 @@ const ALL = '__all'
 /**
  * The destination index: filter chips over the school's own categories.
  *
- * NO RANK LABELS, ever. `collegeRankings.ts` / `rankLabelFor()` is a US News
- * COLLEGE table with no high-school analogue, and none is invented here. The
- * four categories are the school's own published grouping — kinds of school, not
- * tiers of one — and are the only classification shown.
+ * RANK LABELS, added 2026-09-17. This comment previously read "NO RANK LABELS,
+ * ever" — on the grounds that `rankLabelFor()` is a US News COLLEGE table with
+ * no high-school analogue. That reasoning was about the absence of a SOURCE, not
+ * a judgement that ranks do not belong, and the user has since supplied one:
+ * Niche. Labels now resolve from `data/highSchools.ts` via `highSchoolRank()`.
+ *
+ * The labels stay WHOLE ("Charlotte Private #3", not "#3") because two distinct
+ * scales are in play — Charlotte-metro private K-12 for the independents,
+ * national boarding for the boarding schools. A bare #3 beside a bare #12 would
+ * invite a comparison neither ranking supports.
+ *
+ * Still true, and still the rule: the categories are NOT tiers. They are kinds
+ * of school, and the app invents no ranking of its own.
  */
 export function DestinationsBody({ data }: { data: Destinations }) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<string>(ALL)
+  const [query, setQuery] = useState('')
+  const listRef = useRef<HTMLDivElement>(null)
+
+  /* Swapping the category or editing the query replaces the list contents, so
+     reset scroll — the reader should start at the top of the new result set
+     rather than wherever the previous one was left. Same rule as Course
+     Offerings, whose pattern this list follows. */
+  useEffect(() => {
+    if (listRef.current) listRef.current.scrollTop = 0
+  }, [filter, query])
+
+  /* Trimmed for matching but NOT for the empty-state message, which echoes what
+     the reader typed: a stray trailing space while typing must not empty the
+     list. */
+  const q = query.trim()
 
   const total = useMemo(
     () => data.categories.reduce((n, c) => n + c.schools.length, 0),
@@ -480,7 +591,27 @@ export function DestinationsBody({ data }: { data: Destinations }) {
     [data.categories],
   )
 
-  const shown = data.categories.filter((c) => filter === ALL || c.key === filter)
+  /* Category filter first, then the name search within it. A category left with
+     no match drops out entirely rather than rendering an empty heading, which
+     is the zero-items rule applied to a live filter. The search matches the
+     school NAME only — the notes are qualifiers ("published as …"), so matching
+     them would surface rows whose visible name does not contain the term. */
+  const shown = useMemo(() => {
+    const needle = q.toLowerCase()
+    return data.categories
+      .filter((c) => filter === ALL || c.key === filter)
+      .map((c) =>
+        needle
+          ? { ...c, schools: c.schools.filter((s) => s.name.toLowerCase().includes(needle)) }
+          : c,
+      )
+      .filter((c) => c.schools.length > 0)
+  }, [data.categories, filter, q])
+
+  const matched = useMemo(
+    () => shown.reduce((n, c) => n + c.schools.length, 0),
+    [shown],
+  )
 
   return (
     <div className="cs-body">
@@ -518,26 +649,72 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           {/* A visual SAMPLE of the cross-link treatment, not a link. It gets
               its own class rather than borrowing .hsp-dest-link, so that
               selector keeps meaning "a real cross-link to a dossier" for
-              anything that queries the page. */}
-          <span className="hsp-dest hsp-legend-swatch" aria-hidden="true">
-            <span className="hsp-dest-arrow">↗</span>
-          </span>
-          {t('highSchoolPlacement.crossLinkLegend', { count: linked })}
+              anything that queries the page.
+
+              THE SWATCH IS THE BLUE EDGE ALONE — no arrow (user, 2026-09-17).
+              It used to show the ↗ as well, which stopped distinguishing
+              anything once every school with a homepage became a link: the
+              arrow now appears on 81 of 95 rows and marks "this goes
+              somewhere", while the edge still marks the 10 that go to a
+              dossier IN THIS APP. */}
+          <span className="hsp-dest hsp-legend-swatch" aria-hidden="true" />
+          {t('highSchoolPlacement.crossLinkLegend')}
         </p>
       )}
 
-      {shown.map((cat) => (
-        <CategoryBlock key={cat.key} cat={cat} />
-      ))}
+      {/* Name search, on the Course Offerings pattern — 99 destinations is past
+          the point where scanning beats typing. */}
+      <div className="hsp-search">
+        <span className="hsp-search-icon" aria-hidden="true">
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </span>
+        <input
+          type="text"
+          className="input"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={t('highSchoolPlacement.searchPlaceholder')}
+          aria-label={t('highSchoolPlacement.searchAria')}
+        />
+        {q !== '' && (
+          <span className="hsp-search-count text-muted">
+            {t('highSchoolPlacement.searchCount', { count: matched, total })}
+          </span>
+        )}
+      </div>
 
-      <Note>
-        <strong>{t('highSchoolPlacement.noRankings')}</strong>{' '}
-        {t('highSchoolPlacement.noRankingsText')}
-      </Note>
-      <Note>
-        <strong>{t('highSchoolPlacement.acceptanceNotMatriculation')}</strong>{' '}
-        {t('highSchoolPlacement.destinationsMatriculationText')}
-      </Note>
+      {/* The scroll region: a fixed max height inside a hairline frame, so a
+          98-row list does not push the sources row off the bottom of the card. */}
+      <div className="hsp-destlist" ref={listRef} tabIndex={0}>
+        {shown.map((cat) => (
+          <CategoryBlock key={cat.key} cat={cat} query={q} />
+        ))}
+        {shown.length === 0 && (
+          <p className="hsp-dest-empty text-muted">
+            {t('highSchoolPlacement.searchEmpty', { query: q })}
+          </p>
+        )}
+      </div>
+
+      {/* The NO RANKINGS and ACCEPTANCE ≠ MATRICULATION notes were removed at
+          review (user, 2026-09-16) — standing caveats about how to read the
+          list rather than facts about the school, and they printed under every
+          destinations card unconditionally. The keys stay in all ten catalogs
+          (highSchoolPlacement.noRankings / .acceptanceNotMatriculation and their
+          *Text siblings) so restoring them needs no translation work. Both
+          distinctions remain in the research record. */}
 
       <Flags flags={data.flags} />
       <SourceRow sources={data.sources} className="cs-src" />
@@ -546,7 +723,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
 }
 
 /** One category's heading and its chips. */
-function CategoryBlock({ cat }: { cat: DestinationCategory }) {
+function CategoryBlock({ cat, query = '' }: { cat: DestinationCategory; query?: string }) {
   const { t } = useTranslation()
   const linked = cat.schools.filter((s) => s.slug && schoolBySlug(s.slug)).length
   return (
@@ -565,7 +742,12 @@ function CategoryBlock({ cat }: { cat: DestinationCategory }) {
       </Heading>
       <div className="hsp-dest-row">
         {cat.schools.map((s) => (
-          <DestinationChip key={s.name} dest={s} note={cat.notes?.[s.name]} />
+          <DestinationChip
+            key={s.name}
+            dest={s}
+            note={cat.notes?.[s.name]}
+            query={query}
+          />
         ))}
       </div>
     </div>

@@ -1202,7 +1202,8 @@
         "charlotte-christian:coverage.summer.season",
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season"
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season"
       ],
       "t": "జూన్–జూలై"
     },
@@ -1651,7 +1652,8 @@
         "charlotte-christian:dayInside.wordsTitle",
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
-        "carmel-christian:dayInside.wordsTitle"
+        "carmel-christian:dayInside.wordsTitle",
+        "trinity-episcopal:dayInside.wordsTitle"
       ],
       "t": "ఈ కార్యక్రమం, పాఠశాల మాటల్లో"
     },
@@ -3127,7 +3129,8 @@
         "charlotte-country-day:coverage.facts[1].label",
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
-        "gaston-day:coverage.facts[0].label"
+        "gaston-day:coverage.facts[0].label",
+        "trinity-episcopal:coverage.facts[1].label"
       ],
       "t": "డ్రాప్-ఇన్"
     },
@@ -7640,6 +7643,460 @@
         "gaston-day:verdict.checklist[6]"
       ],
       "t": "రెండు స్థాయిలూ ఒకే గదిలోకి వచ్చాక, 5th–8th తరగతి స్థాయిని Pre-K–4th స్థాయి కంటే భిన్నంగా ఎలా పర్యవేక్షిస్తారు?"
+    },
+    {
+      "text": "One K–8 program, Trinity Extended Day, runs from dismissal to 6:00 p.m. — and it is priced on household income rather than on how many days a week you use it.",
+      "of": "50aecdfe",
+      "at": [
+        "trinity-episcopal:coverage.headline"
+      ],
+      "t": "ఒకే ఒక K–8 కార్యక్రమం, Trinity Extended Day, దిగ్విరమణ నుంచి సాయంత్రం 6:00 వరకు నడుస్తుంది — మరియు దీని ధర వారానికి ఎన్ని రోజులు వాడతారన్న దానిపై కాక, కుటుంబ ఆదాయంపై ఆధారపడి ఉంటుంది."
+    },
+    {
+      "text": "Four income bands run $105 to $380 a month, every drop-in tier has a reduced rate for families receiving financial support, and half days are free to monthly attendees. There is no morning care.",
+      "of": "da9d1870",
+      "at": [
+        "trinity-episcopal:coverage.subhead"
+      ],
+      "t": "నాలుగు ఆదాయ శ్రేణుల్లో నెలకు $105 నుంచి $380 వరకు ధరలు, ఆర్థిక సహాయం పొందుతున్న కుటుంబాలకు ప్రతి drop-in శ్రేణిలోనూ తగ్గింపు రేటు ఉంది, మరియు నెలవారీ చందాదారులకు సగం రోజులు ఉచితం. ఉదయం సంరక్షణ లేదు."
+    },
+    {
+      "text": "The price on the bar is the **monthly rate for a household over $90,000** — the top of four income bands, which start at **$105/month** under $30,000. Trinity does **not** price TED by days per week, so there is no days-per-week ladder to open; the full income table and the per-day rates are in the facts below.",
+      "of": "2e4aa8fb",
+      "at": [
+        "trinity-episcopal:coverage.basisNote"
+      ],
+      "t": "గీతపై ఉన్న ధర **$90,000 పైబడిన కుటుంబానికి నెలవారీ రేటు** — ఇది నాలుగు ఆదాయ శ్రేణుల్లో అత్యధికం, $30,000 లోపు ఆదాయానికి **నెలకు $105** నుంచి ఇవి మొదలవుతాయి. Trinity TED ధరను వారానికి రోజుల ప్రకారం **నిర్ణయించదు**, కాబట్టి తెరవడానికి వారానికి-రోజుల నిచ్చెన ఏదీ లేదు; పూర్తి ఆదాయ పట్టిక మరియు రోజువారీ రేట్లు కింది వివరాల్లో ఉన్నాయి."
+    },
+    {
+      "text": "begins at dismissal",
+      "of": "25420411",
+      "at": [
+        "trinity-episcopal:coverage.rows[0].dismissal"
+      ],
+      "t": "దిగ్విరమణ నుంచి మొదలు"
+    },
+    {
+      "text": "Trinity Extended Day · dismissal–6:00 · $380/mo",
+      "of": "2c89b903",
+      "at": [
+        "trinity-episcopal:coverage.rows[0].flatLabel"
+      ],
+      "t": "Trinity Extended Day · దిగ్విరమణ–6:00 · నెలకు $380"
+    },
+    {
+      "text": "before school",
+      "of": "bbb5f13e",
+      "at": [
+        "trinity-episcopal:coverage.rows[1].dismissal"
+      ],
+      "t": "పాఠశాలకు ముందు"
+    },
+    {
+      "text": "No before-school care — TED is afternoon-only",
+      "of": "7f82ead5",
+      "at": [
+        "trinity-episcopal:coverage.rows[1].flatLabel"
+      ],
+      "t": "పాఠశాలకు ముందు సంరక్షణ లేదు — TED మధ్యాహ్నం తర్వాత మాత్రమే"
+    },
+    {
+      "text": "early dismissal",
+      "of": "a4046a8d",
+      "at": [
+        "trinity-episcopal:coverage.rows[2].dismissal"
+      ],
+      "t": "ముందస్తు దిగ్విరమణ"
+    },
+    {
+      "text": "TED runs early dismissal–5:30 · free to monthly attendees, else $51/day",
+      "of": "fb32b359",
+      "at": [
+        "trinity-episcopal:coverage.rows[2].flatLabel"
+      ],
+      "t": "TED ముందస్తు దిగ్విరమణ–5:30 వరకు నడుస్తుంది · నెలవారీ చందాదారులకు ఉచితం, లేకుంటే రోజుకు $51"
+    },
+    {
+      "text": "TES closed",
+      "of": "6edc8c59",
+      "at": [
+        "trinity-episcopal:coverage.rows[3].dismissal"
+      ],
+      "t": "TES మూసివేత"
+    },
+    {
+      "text": "TED runs 8:00–5:30 on days TES is closed · $72/day",
+      "of": "6f0363d2",
+      "at": [
+        "trinity-episcopal:coverage.rows[3].flatLabel"
+      ],
+      "t": "TES మూసివేసిన రోజుల్లో TED 8:00–5:30 నడుస్తుంది · రోజుకు $72"
+    },
+    {
+      "text": "**Wildcat Summer Camp** — six weeks of full- and half-day camps for rising grades K–8, **15 June to 24 July 2026**, open to any child in the community. Before-camp care 7:45–9:00 a.m. is **$85/week**, after-camp care 4:00–5:30 p.m. **$90/week**, or **$175/week** for both.",
+      "of": "1c147d80",
+      "at": [
+        "trinity-episcopal:coverage.summer.text"
+      ],
+      "t": "**Wildcat Summer Camp** — K–8కి ఎదుగుతున్న తరగతుల కోసం ఆరు వారాల పూర్తి-రోజు మరియు అర్ధ-రోజు camps, **15 June నుంచి 24 July 2026** వరకు, సమాజంలోని ఏ పిల్లవాడికైనా తెరిచి ఉంటుంది. Camp ముందు ఉదయం 7:45–9:00 సంరక్షణ **వారానికి $85**, camp తర్వాత సాయంత్రం 4:00–5:30 సంరక్షణ **వారానికి $90**, లేదా రెండూ కలిపి **వారానికి $175**."
+    },
+    {
+      "text": "Monthly rates by household income",
+      "of": "08e6717a",
+      "at": [
+        "trinity-episcopal:coverage.facts[0].label"
+      ],
+      "t": "కుటుంబ ఆదాయం ప్రకారం నెలవారీ రేట్లు"
+    },
+    {
+      "text": "under $30,000 **$105** · $30,000–$60,000 **$135** · $60,000–$90,000 **$195** · over $90,000 **$380** ($355 for a sibling) — the school heads this column \"**Estimated** TED Monthly Cost\"",
+      "of": "bef2ad58",
+      "at": [
+        "trinity-episcopal:coverage.facts[0].text"
+      ],
+      "t": "$30,000 లోపు **$105** · $30,000–$60,000 **$135** · $60,000–$90,000 **$195** · $90,000 పైన **$380** (సోదర/సోదరికి $355) — పాఠశాల ఈ నిలువు వరుసకు \"**Estimated** TED Monthly Cost\" అని శీర్షిక పెట్టింది"
+    },
+    {
+      "text": "**$31/day**, or **$25/day** for families receiving financial support — TED is open until 6 p.m. on regular school days",
+      "of": "ad9a8760",
+      "at": [
+        "trinity-episcopal:coverage.facts[1].text"
+      ],
+      "t": "**రోజుకు $31**, లేదా ఆర్థిక సహాయం పొందుతున్న కుటుంబాలకు **రోజుకు $25** — సాధారణ పాఠశాల రోజుల్లో TED సాయంత్రం 6 వరకు తెరిచి ఉంటుంది"
+    },
+    {
+      "text": "Full day",
+      "of": "ba859c4e",
+      "at": [
+        "trinity-episcopal:coverage.facts[2].label"
+      ],
+      "t": "పూర్తి రోజు"
+    },
+    {
+      "text": "**$72/day**, or **$45/day for a first child ($40 sibling)** with financial support — these are days TES is closed but TED runs 8:00 a.m.–5:30 p.m.",
+      "of": "8a811fef",
+      "at": [
+        "trinity-episcopal:coverage.facts[2].text"
+      ],
+      "t": "**రోజుకు $72**, లేదా ఆర్థిక సహాయంతో **మొదటి బిడ్డకు రోజుకు $45 (సోదర/సోదరికి $40)** — ఇవి TES మూసివేసిన, కానీ TED ఉదయం 8:00 నుంచి సాయంత్రం 5:30 వరకు నడిచే రోజులు"
+    },
+    {
+      "text": "Half day",
+      "of": "d2c21926",
+      "at": [
+        "trinity-episcopal:coverage.facts[3].label"
+      ],
+      "t": "అర్ధ రోజు"
+    },
+    {
+      "text": "**complimentary to TED monthly attendees**; otherwise **$51/day**, or **$30/day** with financial support — TED runs from early dismissal to 5:30 p.m.",
+      "of": "caf4fc97",
+      "at": [
+        "trinity-episcopal:coverage.facts[3].text"
+      ],
+      "t": "**TED నెలవారీ చందాదారులకు ఉచితం**; లేకుంటే **రోజుకు $51**, లేదా ఆర్థిక సహాయంతో **రోజుకు $30** — TED ముందస్తు దిగ్విరమణ నుంచి సాయంత్రం 5:30 వరకు నడుస్తుంది"
+    },
+    {
+      "text": "Morning care",
+      "of": "1fd27504",
+      "at": [
+        "trinity-episcopal:coverage.facts[4].label"
+      ],
+      "t": "ఉదయం సంరక్షణ"
+    },
+    {
+      "text": "none — TED begins at dismissal and there is no before-school program of any kind during the school year",
+      "of": "2fc0918c",
+      "at": [
+        "trinity-episcopal:coverage.facts[4].text"
+      ],
+      "t": "ఏదీ లేదు — TED దిగ్విరమణతో మొదలవుతుంది, విద్యా సంవత్సరంలో పాఠశాలకు ముందు ఎలాంటి కార్యక్రమమూ లేదు"
+    },
+    {
+      "text": "Staff",
+      "of": "0d19a971",
+      "at": [
+        "trinity-episcopal:coverage.facts[5].label"
+      ],
+      "t": "సిబ్బంది"
+    },
+    {
+      "text": "**Jocelyn Purdie**, Director of Auxiliary Services, and **Nancy Guerra**, Assistant Director, TED; the school profile records **7 Extended Day & Support Staff**",
+      "of": "3c378cc2",
+      "at": [
+        "trinity-episcopal:coverage.facts[5].text"
+      ],
+      "t": "**Jocelyn Purdie**, Director of Auxiliary Services, మరియు **Nancy Guerra**, Assistant Director, TED; పాఠశాల profile **7 Extended Day & Support Staff** అని నమోదు చేసింది"
+    },
+    {
+      "text": "Dedicated homework time, art, board games and Fun Friday — with the Trinity Honor Code explicitly extended past the end of the school day.",
+      "of": "68ffad9d",
+      "at": [
+        "trinity-episcopal:dayInside.headline"
+      ],
+      "t": "ప్రత్యేకంగా కేటాయించిన homework సమయం, కళలు, board games మరియు Fun Friday — పాఠశాల రోజు ముగిసిన తర్వాత కూడా Trinity Honor Code స్పష్టంగా వర్తిస్తుంది."
+    },
+    {
+      "text": "Paid enrichments run several days a week, led by a mix of Trinity faculty and outside contractors. The school names four examples and prices none of them.",
+      "of": "6058e9f9",
+      "at": [
+        "trinity-episcopal:dayInside.subhead"
+      ],
+      "t": "చెల్లింపు సుసంపన్న కార్యక్రమాలు వారానికి పలు రోజులు నడుస్తాయి, వీటికి Trinity అధ్యాపకులు మరియు బయటి contractors కలిసి నాయకత్వం వహిస్తారు. పాఠశాల నాలుగు ఉదాహరణలను పేర్కొంది, కానీ వాటిలో ఏ ఒక్కదాని ధరనూ చెప్పలేదు."
+    },
+    {
+      "text": "building character",
+      "of": "db625236",
+      "at": [
+        "trinity-episcopal:dayInside.words[0]"
+      ],
+      "t": "వ్యక్తిత్వ నిర్మాణం"
+    },
+    {
+      "text": "enriching lives",
+      "of": "5bfb0743",
+      "at": [
+        "trinity-episcopal:dayInside.words[1]"
+      ],
+      "t": "జీవితాలను సుసంపన్నం చేయడం"
+    },
+    {
+      "text": "having fun",
+      "of": "5153d815",
+      "at": [
+        "trinity-episcopal:dayInside.words[2]"
+      ],
+      "t": "ఆనందంగా గడపడం"
+    },
+    {
+      "text": "safe, well-structured environment",
+      "of": "cdd6fbed",
+      "at": [
+        "trinity-episcopal:dayInside.words[3]"
+      ],
+      "t": "సురక్షితమైన, చక్కగా వ్యవస్థీకృతమైన వాతావరణం"
+    },
+    {
+      "text": "dedicated homework time",
+      "of": "3174648d",
+      "at": [
+        "trinity-episcopal:dayInside.words[4]"
+      ],
+      "t": "ప్రత్యేకంగా కేటాయించిన homework సమయం"
+    },
+    {
+      "text": "group projects",
+      "of": "51fa086e",
+      "at": [
+        "trinity-episcopal:dayInside.words[5]"
+      ],
+      "t": "బృంద ప్రాజెక్టులు"
+    },
+    {
+      "text": "Fun Friday activities",
+      "of": "3cadab92",
+      "at": [
+        "trinity-episcopal:dayInside.words[6]"
+      ],
+      "t": "Fun Friday కార్యకలాపాలు"
+    },
+    {
+      "text": "the Trinity Honor Code",
+      "of": "fef9e484",
+      "at": [
+        "trinity-episcopal:dayInside.words[7]"
+      ],
+      "t": "Trinity Honor Code"
+    },
+    {
+      "text": "\"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program\" — \"a safe, well-structured environment for every Trinity student.\" It offers \"dedicated homework time\" plus group projects and activities such as art, board games and Fun Friday, and students \"are expected to adhere to the Trinity Honor Code while participating in Extended Day.\"",
+      "of": "7e55f957",
+      "at": [
+        "trinity-episcopal:dayInside.wordsText"
+      ],
+      "t": "\"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program\" — \"a safe, well-structured environment for every Trinity student.\" ఇది \"dedicated homework time\"తో పాటు బృంద ప్రాజెక్టులను, కళలు, board games మరియు Fun Friday వంటి కార్యకలాపాలను అందిస్తుంది, మరియు విద్యార్థులు \"are expected to adhere to the Trinity Honor Code while participating in Extended Day.\""
+    },
+    {
+      "text": "Enrichments — named, and unpriced",
+      "of": "35c711d7",
+      "at": [
+        "trinity-episcopal:dayInside.catalogTitle"
+      ],
+      "t": "సుసంపన్న కార్యక్రమాలు — పేర్లు ఉన్నాయి, ధరలు లేవు"
+    },
+    {
+      "text": "TED \"also offers enrichment programs, **for an additional fee**, several days a week\", led by \"a combination of Trinity faculty/staff and independent contractors\". The school gives these four as **examples** and adds \"and more\", so this is **not the full roster** — and it states no fee for any of them. Note that Trinity uses \"enrichments\" for two different things: these are the **paid** after-school add-ons, while the Lower and Middle School \"Enrichments\" pages list free curricular subjects.",
+      "of": "cef8b0de",
+      "at": [
+        "trinity-episcopal:dayInside.catalogIntro"
+      ],
+      "t": "TED \"also offers enrichment programs, **for an additional fee**, several days a week\", వీటికి \"a combination of Trinity faculty/staff and independent contractors\" నాయకత్వం వహిస్తారు. పాఠశాల ఈ నాలుగింటినీ **ఉదాహరణలుగా** ఇచ్చి \"and more\" అని చేర్చింది, కాబట్టి ఇది **పూర్తి జాబితా కాదు** — మరియు వీటిలో దేనికీ రుసుము చెప్పలేదు. Trinity \"enrichments\" అనే పదాన్ని రెండు వేర్వేరు అర్థాల్లో వాడుతుందని గమనించండి: ఇవి **చెల్లింపు** పాఠశాల-అనంతర అదనపు కార్యక్రమాలు, అయితే Lower మరియు Middle School \"Enrichments\" పేజీలు ఉచిత పాఠ్యప్రణాళిక సబ్జెక్టులను పేర్కొంటాయి."
+    },
+    {
+      "text": "Named by the school as an example of a TED enrichment; day, grade band and fee are not published.",
+      "of": "32ed0c1c",
+      "at": [
+        "trinity-episcopal:dayInside.classes[0].desc",
+        "trinity-episcopal:dayInside.classes[1].desc",
+        "trinity-episcopal:dayInside.classes[2].desc",
+        "trinity-episcopal:dayInside.classes[3].desc"
+      ],
+      "t": "TED సుసంపన్న కార్యక్రమానికి ఉదాహరణగా పాఠశాల దీన్ని పేర్కొంది; రోజు, తరగతుల శ్రేణి మరియు రుసుము ప్రచురించలేదు."
+    },
+    {
+      "text": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel",
+        "trinity-episcopal:dayInside.classes[3].gradeLabel"
+      ],
+      "t": "K–8"
+    },
+    {
+      "text": "The most deliberately affordable after-school program on this roster — income-scaled monthly rates, a reduced rate on every drop-in tier, and free half days for monthly families.",
+      "of": "495b3819",
+      "at": [
+        "trinity-episcopal:verdict.headline"
+      ],
+      "t": "ఈ జాబితాలో అత్యంత ఉద్దేశపూర్వకంగా అందుబాటు ధరలో ఉన్న పాఠశాల-అనంతర కార్యక్రమం — ఆదాయం ఆధారంగా నెలవారీ రేట్లు, ప్రతి drop-in శ్రేణిలోనూ తగ్గింపు రేటు, మరియు నెలవారీ కుటుంబాలకు ఉచిత అర్ధ రోజులు."
+    },
+    {
+      "text": "**Rates scale with household income** — $105 a month under $30,000, rising through $135 and $195 to $380 over $90,000. No other school in this set prices after-school care on ability to pay at all.",
+      "of": "39f87e75",
+      "at": [
+        "trinity-episcopal:verdict.strengths[0]"
+      ],
+      "t": "**రేట్లు కుటుంబ ఆదాయంతో పాటు మారతాయి** — $30,000 లోపు నెలకు $105, ఆపై $135, $195 దాటి $90,000 పైన $380. ఈ సమూహంలో మరే పాఠశాలా పాఠశాల-అనంతర సంరక్షణ ధరను చెల్లించగల సామర్థ్యం ఆధారంగా నిర్ణయించడం లేదు."
+    },
+    {
+      "text": "**Every per-day tier has a reduced rate for families receiving financial support** — drop-in falls from $31 to $25, a full day from $72 to $45 (first child) and a half day from $51 to $30. The discount is not confined to the monthly contract.",
+      "of": "9bcc7168",
+      "at": [
+        "trinity-episcopal:verdict.strengths[1]"
+      ],
+      "t": "**ఆర్థిక సహాయం పొందుతున్న కుటుంబాలకు ప్రతి రోజువారీ శ్రేణిలోనూ తగ్గింపు రేటు ఉంది** — drop-in $31 నుంచి $25కు, పూర్తి రోజు $72 నుంచి $45కు (మొదటి బిడ్డ), అర్ధ రోజు $51 నుంచి $30కు తగ్గుతాయి. ఈ తగ్గింపు నెలవారీ ఒప్పందానికి మాత్రమే పరిమితం కాదు."
+    },
+    {
+      "text": "**Half days are complimentary to monthly attendees.** Early-dismissal days are where care is hardest to arrange and where several peers charge a premium.",
+      "of": "c91bfd2f",
+      "at": [
+        "trinity-episcopal:verdict.strengths[2]"
+      ],
+      "t": "**నెలవారీ చందాదారులకు అర్ధ రోజులు ఉచితం.** ముందస్తు దిగ్విరమణ రోజుల్లోనే సంరక్షణను ఏర్పాటు చేసుకోవడం అత్యంత కష్టం, మరియు పలు సహచర పాఠశాలలు వీటికి అదనపు రుసుము వసూలు చేస్తాయి."
+    },
+    {
+      "text": "**A sibling rate is published** in the top income band — $355 against $380 — so the discount is stated rather than implied.",
+      "of": "19f6cf4e",
+      "at": [
+        "trinity-episcopal:verdict.strengths[3]"
+      ],
+      "t": "**అత్యధిక ఆదాయ శ్రేణిలో సోదర/సోదరి రేటు ప్రచురించారు** — $380కి బదులు $355 — కాబట్టి తగ్గింపు సూచనగా కాక స్పష్టంగా చెప్పబడింది."
+    },
+    {
+      "text": "**Coverage runs to 6:00 p.m.**, the latest close on this roster, and it is one uniform program across the whole K–8 span rather than a split Lower/Middle arrangement.",
+      "of": "432e34cb",
+      "at": [
+        "trinity-episcopal:verdict.strengths[4]"
+      ],
+      "t": "**సంరక్షణ సాయంత్రం 6:00 వరకు కొనసాగుతుంది**, ఇది ఈ జాబితాలో అత్యంత ఆలస్యపు ముగింపు, మరియు ఇది Lower/Middle వేర్వేరు ఏర్పాటుగా కాక, మొత్తం K–8 పరిధికి ఒకే ఏకరూప కార్యక్రమం."
+    },
+    {
+      "text": "**Days when school is closed are covered** — TED runs 8:00 a.m. to 5:30 p.m. at $72/day — which several peers do not address at all.",
+      "of": "430a9ff8",
+      "at": [
+        "trinity-episcopal:verdict.strengths[5]"
+      ],
+      "t": "**పాఠశాల మూసివేసిన రోజులకూ సంరక్షణ ఉంది** — TED ఉదయం 8:00 నుంచి సాయంత్రం 5:30 వరకు రోజుకు $72కు నడుస్తుంది — పలు సహచర పాఠశాలలు దీని గురించి అసలు ప్రస్తావించనే లేదు."
+    },
+    {
+      "text": "**The program has a stated purpose beyond supervision**: dedicated homework time, group projects, and the Trinity Honor Code explicitly extended past dismissal.",
+      "of": "a3c63c84",
+      "at": [
+        "trinity-episcopal:verdict.strengths[6]"
+      ],
+      "t": "**ఈ కార్యక్రమానికి కేవలం పర్యవేక్షణకు మించిన ఒక ప్రకటిత ఉద్దేశం ఉంది**: ప్రత్యేకంగా కేటాయించిన homework సమయం, బృంద ప్రాజెక్టులు, మరియు దిగ్విరమణ తర్వాత కూడా స్పష్టంగా వర్తించే Trinity Honor Code."
+    },
+    {
+      "text": "How many months a year is the TED monthly rate billed, and what does a full school year actually cost?",
+      "of": "3986643c",
+      "at": [
+        "trinity-episcopal:verdict.checklist[0]"
+      ],
+      "t": "TED నెలవారీ రేటును సంవత్సరానికి ఎన్ని నెలలు వసూలు చేస్తారు, మరియు పూర్తి విద్యా సంవత్సరానికి నిజంగా ఎంత ఖర్చవుతుంది?"
+    },
+    {
+      "text": "The rate table says \"Estimated\" — what is the actual charge, and what makes it vary?",
+      "of": "8da9427b",
+      "at": [
+        "trinity-episcopal:verdict.checklist[1]"
+      ],
+      "t": "రేట్ల పట్టికలో \"Estimated\" అని ఉంది — అసలు వసూలు ఎంత, మరియు అది దేని వల్ల మారుతుంది?"
+    },
+    {
+      "text": "Is there a registration fee, and is a partial month prorated if we start or stop mid-year?",
+      "of": "92e02dbe",
+      "at": [
+        "trinity-episcopal:verdict.checklist[2]"
+      ],
+      "t": "నమోదు రుసుము ఏమైనా ఉందా, మరియు సంవత్సరం మధ్యలో మొదలుపెడితే లేదా ఆపేస్తే పాక్షిక నెలకు దామాషా ప్రకారం లెక్కిస్తారా?"
+    },
+    {
+      "text": "Can we switch between the monthly contract and drop-in during the year, and how much notice is needed?",
+      "of": "0b3541f8",
+      "at": [
+        "trinity-episcopal:verdict.checklist[3]"
+      ],
+      "t": "సంవత్సరం మధ్యలో నెలవారీ ఒప్పందం నుంచి drop-inకు, లేదా తిరిగి మారవచ్చా, మరియు ఎంత ముందుగా తెలియజేయాలి?"
+    },
+    {
+      "text": "What do the enrichments cost — chess club, music lessons, karate, cheer club — and what is the full current list?",
+      "of": "7526a556",
+      "at": [
+        "trinity-episcopal:verdict.checklist[4]"
+      ],
+      "t": "సుసంపన్న కార్యక్రమాల ఖర్చు ఎంత — chess క్లబ్, సంగీత పాఠాలు, karate, cheer క్లబ్ — మరియు ప్రస్తుత పూర్తి జాబితా ఏమిటి?"
+    },
+    {
+      "text": "Does an enrichment cover us until 6:00 p.m., or is it charged on top of the monthly TED rate?",
+      "of": "ffb35f33",
+      "at": [
+        "trinity-episcopal:verdict.checklist[5]"
+      ],
+      "t": "సుసంపన్న కార్యక్రమం సాయంత్రం 6:00 వరకు మా అవసరాన్ని తీరుస్తుందా, లేక అది నెలవారీ TED రేటుకు అదనంగా వసూలు చేయబడుతుందా?"
+    },
+    {
+      "text": "What is the late-pickup policy after 6:00 p.m. — is there a charge, and at what point does it affect enrolment?",
+      "of": "c034e22d",
+      "at": [
+        "trinity-episcopal:verdict.checklist[6]"
+      ],
+      "t": "సాయంత్రం 6:00 తర్వాత ఆలస్యంగా తీసుకెళ్లడంపై విధానం ఏమిటి — రుసుము ఉందా, మరియు ఏ దశలో అది నమోదును ప్రభావితం చేస్తుంది?"
+    },
+    {
+      "text": "Which income figure is used for the band — gross household income, adjusted gross, or the Clarity assessment?",
+      "of": "067a562c",
+      "at": [
+        "trinity-episcopal:verdict.checklist[7]"
+      ],
+      "t": "శ్రేణిని నిర్ణయించడానికి ఏ ఆదాయ సంఖ్యను వాడతారు — స్థూల కుటుంబ ఆదాయమా, సర్దుబాటు చేసిన స్థూల ఆదాయమా, లేక Clarity అంచనానా?"
+    },
+    {
+      "text": "What is the staff-to-child ratio in TED, and does it differ for a kindergartener and an 8th grader?",
+      "of": "c0eef1c0",
+      "at": [
+        "trinity-episcopal:verdict.checklist[8]"
+      ],
+      "t": "TEDలో సిబ్బంది-పిల్లల నిష్పత్తి ఎంత, మరియు అది ఒక kindergarten విద్యార్థికి, ఒక 8వ తరగతి విద్యార్థికి వేరుగా ఉంటుందా?"
+    },
+    {
+      "text": "Is there any supervised option before school, even unpaid — and if not, what do working families typically do?",
+      "of": "9fb6faf4",
+      "at": [
+        "trinity-episcopal:verdict.checklist[9]"
+      ],
+      "t": "పాఠశాలకు ముందు పర్యవేక్షణలో ఉండే ఏదైనా ఏర్పాటు ఉందా, ఉచితమైనా సరే — లేకపోతే ఉద్యోగం చేసే కుటుంబాలు సాధారణంగా ఏం చేస్తాయి?"
     }
   ]
 }

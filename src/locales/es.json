@@ -390,7 +390,10 @@
     "high-school-placement.outcomes": "Adónde van los graduados",
     "high-school-placement.placement": "El programa de ubicación",
     "high-school-placement.destinations": "Dónde terminan",
-    "high-school-placement.verdict": "Veredicto y lista para la visita"
+    "high-school-placement.verdict": "Lista para la visita",
+    "the-arts.ladder@trinity-episcopal": "El itinerario de artes K–8",
+    "the-arts.theatre@trinity-episcopal": "Teatro y producciones por curso",
+    "the-arts.verdict@trinity-episcopal": "Lista para la visita"
   },
   "cardLabels": {
     "afternoonRhythm": "El ritmo de la tarde",
@@ -493,8 +496,6 @@
     "whatTheSchoolOwns": "De qué se encarga la escuela",
     "notPublished": "No publicado",
     "filterAll": "Todos",
-    "crossLinkLegend_one": "{{count}} de estos tiene ficha aquí — sigue el borde marcado.",
-    "crossLinkLegend_other": "{{count}} de estos tienen ficha aquí — sigue el borde marcado.",
     "categoryCount_one": "{{count}} escuela",
     "categoryCount_other": "{{count}} escuelas",
     "categoryLinked_one": "{{count}} escuela · {{linked}} enlaza con su ficha",
@@ -505,6 +506,13 @@
     "acceptanceNotMatriculationText": "Las listas de destinos recogen dónde fueron admitidos los graduados y así se informó. La escuela no publica cifras de matrícula por centro, así que ningún destino debe leerse como «allí se matricularon N estudiantes».",
     "destinationsMatriculationText": "Esta es la lista acumulada de centros en los que los graduados han sido admitidos y así se ha informado en las últimas promociones — no un recuento de quién se matriculó dónde en un año concreto.",
     "noRankings": "SIN CLASIFICACIONES",
-    "noRankingsText": "Las categorías son la agrupación publicada por la propia escuela — tipos de centro, no niveles de uno solo. En esta aplicación no hay ninguna clasificación de secundarias y aquí no se inventa ninguna."
+    "noRankingsText": "Las categorías son la agrupación publicada por la propia escuela — tipos de centro, no niveles de uno solo. En esta aplicación no hay ninguna clasificación de secundarias y aquí no se inventa ninguna.",
+    "searchPlaceholder": "Filtrar por nombre de escuela…",
+    "searchAria": "Filtrar destinos por nombre de escuela",
+    "searchCount": "{{count}} de {{total}} coinciden",
+    "searchEmpty": "Ninguna escuela coincide con «{{query}}»: pruebe con un término más corto.",
+    "statusClosed": "Cerrado definitivamente",
+    "statusMerged": "Fusionado con otra escuela",
+    "crossLinkLegend": "Indica que tenemos una página dedicada a esa escuela en este portal: haga clic en el nombre"
   }
 }

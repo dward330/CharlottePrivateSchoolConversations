@@ -48,7 +48,7 @@ Two stand alone: `add-school-news` and `admissions-episode`.
 
 **Assess a candidate school, then hand off to `/plan`.**
 
-`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-08-30
+`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-09-17
 
 Answers one question before any work starts: **can this school actually be populated
 against the schema the app already has?** A school with a thin public footprint yields a
@@ -57,7 +57,8 @@ expensive to discover at ingest time.
 
 **How it runs**
 
-1. Asks which school, and **what city/state** (disambiguation)
+1. Asks which school, **what city/state** (disambiguation), and **what grade span it
+   ends at** — K–12 and K–8 are assessed against different shapes
 2. Reads the generated `DATA-SCHEMA.md` — never works from memory
 3. Runs a scoped, time-boxed, parallel web sweep
 4. Reports a **coverage table** — % of each research area, structured card and Compare row
@@ -66,8 +67,18 @@ expensive to discover at ingest time.
 7. Invokes `/plan` with the brief
 
 > **🎯 The bar is computed, not transcribed.** `npm run coverage:floor` derives it from the
-> thinnest school already shipped — Davidson Day, **17/30 Compare rows, 7 of 8 areas**.
-> The gate is **≥17/30 rows and ≥6/8 areas**, compared inclusively.
+> thinnest school already shipped — Davidson Day, **17/30 Compare rows**. The K–12 gate is
+> **≥17/30 rows, and one area below the script's derived count**, compared inclusively.
+> **Never type the area denominator** — it has moved twice (Admissions 2026-08-31, High
+> School Placement 2026-09-16) and a hardcoded figure went quietly wrong both times.
+
+> **⚑ A K–8 school is gated differently — it has ZERO of 30 Compare rows by design.**
+> It is excluded from the Compare page entirely, so the row axis does not exist and
+> applying it fails every K–8 candidate, including the one already shipped. The K–8 gate
+> is the **area axis alone**, over the areas a K–8 school actually has:
+> College Support swapped out, **High School Placement** in — and that area is the one
+> that decides, since it is what a parent choosing a K–8 school is buying. See §7 of
+> `DATA-SCHEMA.md` for the full shape.
 
 > **⚠️ The per-area line is ~50%, deliberately NOT the school-wide 56%** — and it triggers
 > a *conversation*, not a rejection. An area's denominator is 4–23, not 30; Davidson Day
