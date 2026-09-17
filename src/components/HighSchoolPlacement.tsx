@@ -274,7 +274,9 @@ function DestinationChip({
           target="_blank"
           rel="noreferrer noopener"
         >
-          <Marked text={dest.name} query={query} />
+          <span className="hsp-dest-name">
+            <Marked text={dest.name} query={query} />
+          </span>
           <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
           {note && <span className="hsp-dest-note text-muted"> {note}</span>}
           {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
@@ -283,7 +285,9 @@ function DestinationChip({
     }
     return (
       <span className="hsp-dest">
-        <Marked text={dest.name} query={query} />
+        <span className="hsp-dest-name">
+            <Marked text={dest.name} query={query} />
+          </span>
         {closureLabel && (
           <span className="hsp-dest-closed"> ({closureLabel})</span>
         )}
@@ -300,7 +304,9 @@ function DestinationChip({
       href={href}
       onClick={(e) => { e.preventDefault(); navigate(href) }}
     >
-      <Marked text={dest.name} query={query} />
+      <span className="hsp-dest-name">
+            <Marked text={dest.name} query={query} />
+          </span>
       <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
       {note && <span className="hsp-dest-note text-muted"> {note}</span>}
       {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}

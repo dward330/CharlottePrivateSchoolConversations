@@ -4550,6 +4550,12 @@ a.cs-college-name:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 .hsp-dest:last-child { border-bottom: none; }
+/* The school name is ONE flex item, so a search highlight inside it does not
+   become a sibling of the text around it. <Marked> returns bare text nodes
+   interleaved with <mark> elements; without this wrapper each became its own
+   flex child and the row's 8px gap landed INSIDE the word — "Prov idence"
+   when searching "prov" (user, 2026-09-17). */
+.hsp-dest-name { min-width: 0; }
 /* The cross-link to another school's dossier in this app — the app's first
    school-to-school link.
 
