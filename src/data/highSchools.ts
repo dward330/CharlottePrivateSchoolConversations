@@ -581,3 +581,15 @@ export function highSchoolUrl(name: string): string | undefined {
 export function highSchoolRank(name: string): string | undefined {
   return highSchoolFor(name)?.nicheRank
 }
+
+/**
+ * Whether this school has closed or merged away, for the qualifier the card
+ * shows beside its name.
+ *
+ * `'ambiguous'` is deliberately NOT returned: it explains to a maintainer why a
+ * row carries no link, and means nothing to a parent reading the page.
+ */
+export function highSchoolClosure(name: string): 'closed' | 'merged' | undefined {
+  const s = highSchoolFor(name)?.status
+  return s === 'closed' || s === 'merged' ? s : undefined
+}

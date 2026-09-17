@@ -48,7 +48,7 @@ import type {
   PlacementClass,
 } from '../data/highSchoolPlacement.ts'
 import { schoolBySlug } from '../lib/manifest.ts'
-import { highSchoolRank, highSchoolUrl } from '../data/highSchools.ts'
+import { highSchoolClosure, highSchoolRank, highSchoolUrl } from '../data/highSchools.ts'
 import { toSchool, useNavigate } from '../lib/router.ts'
 import { SourceRow } from './SourceRow.tsx'
 
@@ -235,12 +235,23 @@ function DestinationChip({
   note?: string
   query?: string
 }) {
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const inApp = dest.slug ? schoolBySlug(dest.slug) : undefined
   /* The Niche rank, resolved from the single master by name. Stored as a whole
      label rather than a number because two different scales are in play — see
      the note on `nicheRank` in data/highSchools.ts. */
   const rank = highSchoolRank(dest.name)
+  /* A school that has closed or merged away still belongs on the list — it is
+     cumulative since 2004 and the placement was real — but a parent needs to
+     know before trying to visit it. The qualifier rides beside the name rather
+     than in the note slot, so it reads as part of what the school IS. */
+  const closure = highSchoolClosure(dest.name)
+  const closureLabel = closure
+    ? t(closure === 'closed'
+        ? 'highSchoolPlacement.statusClosed'
+        : 'highSchoolPlacement.statusMerged')
+    : undefined
 
   if (!inApp) {
     /* No dossier here yet, so the name links OUT to the school's own homepage
@@ -266,6 +277,9 @@ function DestinationChip({
     return (
       <span className="hsp-dest">
         <Marked text={dest.name} query={query} />
+        {closureLabel && (
+          <span className="hsp-dest-closed"> ({closureLabel})</span>
+        )}
         {note && <span className="hsp-dest-note text-muted"> {note}</span>}
         {rank && <span className="hsp-dest-rank text-muted">{rank}</span>}
       </span>

@@ -4573,6 +4573,12 @@ a.cs-college-name:focus-visible {
 /* The Niche rank, flushed right — the one piece of the row that is a figure
    rather than a name, so it sits in its own column like the college rank does. */
 .hsp-dest-rank { font-size: 11.5px; white-space: nowrap; margin-left: auto; padding-left: 12px; }
+/* "(Now permanently closed)" / "(Merged into another school)". Italic and a
+   touch smaller, but at the TEXT colour rather than the muted grey the sibling
+   notes use: this is the one qualifier on a row that changes what a parent
+   would do — it stops them trying to visit or contact the school — so it should
+   not recede the way a city or a venue note does. */
+.hsp-dest-closed { font-size: 12px; font-style: italic; }
 /* The note sits directly beside its school name, not flushed right: across a
    924px row a right-aligned note drifts far from the name it qualifies and the
    longest one clipped the edge. `margin-right: auto` keeps the pair left and
