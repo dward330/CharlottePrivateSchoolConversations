@@ -123,7 +123,7 @@ Verbatim from the 2026-27 School Profile:
 > Rabies, Creative Writing, Climate Justice, Koinonia Representatives, Honor Council,
 > Invisible Differences, Spirituality and Chapel Music, Monday Math Mania"
 
-**Only 4 of the 14 are corroborated anywhere on the website.** Zero web hits for:
+**Only 6 of the 15 are corroborated anywhere on the website.** Zero web hits for:
 Odyssey of the Mind, Radagast Rabies, Climate Justice, Monday Math Mania, Let Me Run,
 Spirituality and Chapel Music, Creative Writing (which appears only as a teacher's
 conference topic, not a club).

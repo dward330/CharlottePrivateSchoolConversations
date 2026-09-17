@@ -840,9 +840,20 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
 
 // ── Trinity Episcopal ── the single-source roster, and the sharpest example of
 // it in this file. THERE IS NO /clubs PAGE — it provably does not exist. The
-// 2026-27 School Profile PDF carries the entire 14-club list, as a run of names
-// with NO descriptions of any kind, and only 4 of the 14 are corroborated
-// anywhere else on the site. Seven return zero hits sitewide.
+// 2026-27 School Profile PDF carries the entire club list, as a run of names
+// with NO descriptions of any kind, and only 6 of them are fully corroborated
+// anywhere else on the site. Six more return ZERO hits sitewide (Odyssey of
+// the Mind, Radagast Rabies, Creative Writing as a club, Climate Justice,
+// Monday Math Mania, Spirituality and Chapel Music) — seven, counting Let Me
+// Run, which is half of one profile entry. The remaining three are
+// corroborated in a DIFFERENT character than 'club' and each says so in its
+// own row: Chess Club, Girls on the Run and Invisible Differences.
+//
+// ⚠️ COUNT CORRECTION. The research file's prose heading says "14 named clubs",
+// but its own verbatim quote from the profile lists **15** — and its
+// corroboration table beneath that heading has 15 rows. The quote and the table
+// agree with each other; the heading is a transcription slip. Counted here from
+// the quote, which is the primary evidence: 15 profile entries.
 //
 // So every `note` below is drawn from a DIFFERENT page than the roster — the
 // affinity-groups page, the honor-code page, the MS enrichments page — or, for
@@ -851,9 +862,9 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
 // is what the Providence Day entry does with its generic descriptors; here the
 // absence is the finding.
 //
-// Two clubs are added to the profile's 14 from the school's blog: Mock Trial and
+// Two clubs are added to the profile's 15 from the school's blog: Mock Trial and
 // Speech & Debate, the two state champions, which appear in NEITHER profile PDF.
-// So 16 rows from two sources.
+// So 17 rows from two sources.
 //
 // Three roster conflicts are carried rather than resolved silently:
 //  · Chess Club is corroborated ONLY as a paid TED after-school enrichment
@@ -872,7 +883,7 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
 // so it is not a student club — and nothing here says the school has no yearbook.
 const TRINITY_EPISCOPAL: ClubCatalog = {
   verdict:
-    '16 clubs across both divisions — but the school publishes no description for any of them, and the roster exists only inside a PDF.',
+    '17 clubs across both divisions — but the school publishes no description for any of them, and the roster exists only inside a PDF.',
   verdictHint:
     'Filter by interest. Where the school corroborates a club elsewhere on its site, that detail is carried; where it does not, the row says so.',
   categories: [
@@ -973,7 +984,7 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
   divisions: [
     {
       label: 'There is no clubs page',
-      text: 'Trinity publishes no /clubs page at all — the roster above exists only inside the 2026-27 School Profile PDF, as a run of club names with no descriptions. Only 4 of its 14 entries are corroborated anywhere else on the site; seven return zero hits. Where a row above carries real detail, that detail came from a different page than the roster did.',
+      text: 'Trinity publishes no /clubs page at all — 15 of the 17 clubs above exist only inside the 2026-27 School Profile PDF, as a run of club names with no descriptions. Only 6 of those 15 are fully corroborated anywhere else on the site, three more are corroborated in a different character than “club”, and six return zero hits. The remaining two — Mock Trial and Speech & Debate — appear in the school blog and in neither profile PDF. Where a row above carries real detail, that detail came from a different page than the roster did.',
       tag: 'Single-source',
     },
     {

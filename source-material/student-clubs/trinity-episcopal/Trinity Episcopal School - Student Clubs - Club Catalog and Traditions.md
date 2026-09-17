@@ -27,7 +27,7 @@
 > Rabies, Creative Writing, Climate Justice, Koinonia Representatives, Honor Council,
 > Invisible Differences, Spirituality and Chapel Music, Monday Math Mania"
 
-**14 named clubs. Corroboration status, checked against the whole site:**
+**15 named clubs** (3 Lower School, 12 Middle School). Corroboration status, checked against the whole site:
 
 | Club | Division | Corroborated on the site? |
 |---|---|---|
@@ -47,7 +47,7 @@
 | Monday Math Mania | MS | ❌ 0 hits |
 | Spirituality and Chapel Music | MS | ❌ 0 hits |
 
-**Seven of fourteen have no web corroboration at all**, and **no per-club description
+**Seven of the fifteen have no web corroboration at all**, and **no per-club description
 exists for any of them**. Cite the profile PDF and expect nothing further.
 
 **Year-over-year:** the 2025-26 profile also listed **MathCats** and **Book Club**; both

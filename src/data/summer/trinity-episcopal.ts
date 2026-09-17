@@ -34,7 +34,7 @@ export const trinityEpiscopal: SummerProgram = {
     subhead:
       'Camps run 15 June to 24 July 2026 on the uptown campus. Half days are 9 a.m.–12 p.m. or 1–4 p.m., full days 9 a.m.–4 p.m., and two of the six weeks are four-day weeks.',
     intro:
-      '**28 of the school’s 85 listed camp rows appear below**, sampled across every price band, every week, every grade span and every vendor strand. The full slate runs **75 named camps** (85 rows once split variants are counted), **83 of them priced**, from **$225 to $785**, with a **median of $265** — **23 full-day rows and 62 half-day rows** across **23 distinct price points**. Camps per week: **13 · 13 · 12 · 17 · 15 · 15**. ⚠️ **"Open to the public" holds for the camp overall but not for every camp in it** — the **TES Academy** strand is Trinity-students-only: Summer LEAP is by invitation and requires 2026-27 Trinity enrolment, Fun with Numbers is for current or incoming TES students only, and Summer Play Days is Rising TES K only.',
+      '**33 of the school’s 85 listed camp rows appear below**, sampled across every price band, every week, every grade span and every vendor strand. The full slate runs **75 named camps** (85 rows once split variants are counted), **83 of them priced**, from **$225 to $785**, with a **median of $265** — **23 full-day rows and 62 half-day rows** across **23 distinct price points**. Camps per week: **13 · 13 · 12 · 17 · 15 · 15**. ⚠️ **"Open to the public" holds for the camp overall but not for every camp in it** — the **TES Academy** strand is Trinity-students-only: Summer LEAP is by invitation and requires 2026-27 Trinity enrolment, Fun with Numbers is for current or incoming TES students only, and Summer Play Days is Rising TES K only.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'stem', label: 'STEM & coding' },
@@ -520,7 +520,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         kind: 'verify',
-        text: '**A sample, not the whole slate.** 28 of 85 listed rows appear above. The full catalog is 75 named camps, $225-$785, median $265, with 23 full-day and 62 half-day rows across 23 distinct price points. Price bands: **$225-$245 (21 camps) · $255-$295 (38) · $305-$395 (8) · $400-$475 (13) · $525-$785 (3)**.',
+        text: '**A sample, not the whole slate.** 34 of 85 listed rows appear above. The full catalog is 75 named camps, $225-$785, median $265, with 23 full-day and 62 half-day rows across 23 distinct price points. Price bands: **$225-$245 (21 camps) · $255-$295 (38) · $305-$395 (8) · $400-$475 (13) · $525-$785 (3)**.',
       },
       {
         kind: 'verify',
