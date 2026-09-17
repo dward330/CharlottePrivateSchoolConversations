@@ -60,7 +60,13 @@ const RULES: Record<string, Rule[]> = {
       // "Course Selection Catalog" / "Course Selection Guide" is Hickory Grove's
       // own name for its catalog; it must fold onto the same key as everyone
       // else's "Curriculum Guide" rather than slugifying into its own card.
-      match: /curriculum|course.*offerings|course offerings|course selection|program of stud/i,
+      // Trinity Episcopal splits its research by division ("Middle School
+      // Curriculum", "Lower School and Technology"). The first already matches
+      // on "curriculum"; the second must fold onto the same key rather than
+      // slugifying into a "Lower School And Technology" card this school alone
+      // would have. Its technology material (1:1 iPads K-1, Chromebooks 2-8,
+      // the IDEA STEM Lab) is course-offerings content, not a separate area.
+      match: /curriculum|course.*offerings|course offerings|course selection|program of stud|lower school and technology/i,
       key: 'curriculum',
       label: 'Course Offerings',
     },
@@ -111,6 +117,26 @@ const RULES: Record<string, Rule[]> = {
   // heading; those all fold into a single card rather than becoming seven.
   'financial-aid-tuition': [
     { match: /deep dive report|deep research|schedule and aid programs/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    // Trinity Episcopal's research is split across four files rather than one
+    // deep-dive. They fold onto the two existing keys instead of standing up
+    // four new cards: this area is meant to render the In-Depth Report plus at
+    // most one or two genuinely additive cards (see the Financial Aid card-shape
+    // rule in the ingest skill — Charlotte Catholic once shipped NINE here,
+    // including a bare "Source URLs" ref-table).
+    //
+    // "Financial Support" is the aid engine and "School Profile" is the
+    // first-party figure sheet behind it, so both belong to the report. "Tuition
+    // and Fees" carries a four-year tuition history recovered from archived
+    // snapshots, which is exactly what tuition-history already is. "Form 990"
+    // rides with the report as sourcing rather than becoming a card of its own —
+    // a 14-year IRS series is evidence for the aid numbers, not a parent-facing
+    // headline.
+    {
+      match: /^financial support$|^form 990$|^school profile/i,
+      key: 'in-depth-report',
+      label: 'In-Depth Report',
+    },
+    { match: /^tuition and fees$/i, key: 'tuition-history', label: 'Tuition History & Sources' },
     {
       match: /tuition history|provenance|source snapshots|tuition by (band|division)|year-over-year|reduced-day|captured in the same snapshots|published \d+(\.\d+)?% increase/i,
       key: 'tuition-history',
@@ -260,7 +286,7 @@ const RULES: Record<string, Rule[]> = {
     // not a research finding, so it rides along with the report rather than
     // becoming a card.
     { match: /^provenance$|confidence key/i, key: 'in-depth-report', label: 'In-Depth Report' },
-    { match: /awards and recognition/i, key: 'awards', label: 'Awards & Recognition' },
+    { match: /awards and recognition|recognition and exhibitions/i, key: 'awards', label: 'Awards & Recognition' },
     { match: /program overview/i, key: 'overview', label: 'Program Overview' },
     { match: /visual arts/i, key: 'visual-arts', label: 'Visual Arts' },
     { match: /performing arts/i, key: 'performing-arts', label: 'Performing Arts' },

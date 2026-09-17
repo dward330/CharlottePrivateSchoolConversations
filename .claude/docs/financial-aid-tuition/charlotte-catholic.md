@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Schedule and Aid Programs 2026-2027
 
 

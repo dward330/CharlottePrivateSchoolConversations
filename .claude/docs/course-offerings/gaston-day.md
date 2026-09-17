@@ -1,5 +1,5 @@
 # Gaston Day School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/course-offerings/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Curriculum and Requirements 2026
 
 

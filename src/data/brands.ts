@@ -15,9 +15,15 @@
 // for a private research tool; schools without a logo simply show no crest.
 
 // `welcomeVideoUrl` is the school's own introduction video, embedded above the
-// research areas on its dossier page. Must be a YouTube **embed** URL
-// (`https://www.youtube.com/embed/<id>`), not a watch/share link. Optional —
-// schools without one hide the Welcome Video section and its two TOC entries.
+// research areas on its dossier page. Must be an **embed** URL, not a watch or
+// share link — `https://www.youtube.com/embed/<id>` for YouTube, or
+// `https://player.vimeo.com/video/<id>` for Vimeo. Optional — schools without
+// one hide the Welcome Video section and its two TOC entries.
+//
+// Both hosts work with no component branching: WelcomeVideo passes this straight
+// into <iframe src> and has no provider-specific logic, so the only thing that
+// matters is that the URL is embeddable. Trinity Episcopal publishes on Vimeo;
+// every other school to date is YouTube.
 
 // `city` is the municipality in the school's own published mailing address, and it
 // drives the dossier kicker ("School dossier · Gastonia, NC"). Five of the eleven
@@ -167,6 +173,32 @@ export const BRANDS: Record<string, Brand> = {
     city: 'Charlotte',
     logo: '/logos/providence-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/EfrQPAWsqv8',
+  },
+  'trinity-episcopal': {
+    // Wildcats. The school's own stylesheet declares one primary, #002d56, and
+    // the logo corroborates it exactly (465,595 px of it, two orders of
+    // magnitude ahead of any other color). That raw value sits 5.1 RGB units
+    // from Covenant Day's #002855 — visually the same navy, in the most crowded
+    // part of this palette (Covenant Day, Gaston Day #00263f, Carmel #13294b,
+    // Latin #12294f and Hickory Grove #14396e are all in it). So it is graded
+    // along the school's OWN hue (208.6°, full saturation) until it clears every
+    // neighbour: 41.4 units from Hickory Grove, 43.4 from Charlotte Christian,
+    // 60.6 from Covenant Day. 8.86:1 white-on-badge, WCAG AAA. Same treatment
+    // already applied to Charlotte Catholic. The school's secondary #006f51 is a
+    // button green that appears nowhere in the mark, so it is not the accent.
+    color: '#004a8e',
+    // No other badge starts with T; TES is the school's own abbreviation and its
+    // crest monogram, reduced to its distinctive pair.
+    initials: 'TE',
+    city: 'Charlotte',
+    logo: '/logos/trinity-episcopal.png',
+    // K-8: no grades 9-12. Drives Compare exclusion — see the note above.
+    hasHighSchool: false,
+    // Trinity publishes on Vimeo, not YouTube. "Say Yes to TES" (1:25, Apr 2026),
+    // embed_privacy: anywhere. Note player.vimeo.com returns 401 to a header-less
+    // curl regardless of Referer — that is Vimeo bot-blocking, not an embed
+    // restriction, and it renders fine in the app.
+    welcomeVideoUrl: 'https://player.vimeo.com/video/1179403154',
   },
 }
 

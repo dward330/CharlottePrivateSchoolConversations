@@ -1,5 +1,5 @@
 # Covenant Day School — After School
-> Distilled from 4 source document(s) in `source-material/after-school/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 4 source document(s) in `source-material/after-school/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Deep Research 2026, Enrichment Activities, Extended Day, Program Overview
 
 

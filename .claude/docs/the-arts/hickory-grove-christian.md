@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — The Arts
-> Distilled from 1 source document(s) in `source-material/the-arts/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
+> Distilled from 1 source document(s) in `source-material/the-arts/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Deep Research
 
 

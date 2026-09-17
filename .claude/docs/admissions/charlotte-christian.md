@@ -1,5 +1,5 @@
 # Charlotte Christian School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-15.
+> Distilled from 2 source document(s) in `source-material/admissions/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
 **Documents:** Financial Aid Platform Migration to Clarity, Grade-by-Grade Application Plans
 
 
