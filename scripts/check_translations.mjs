@@ -29,7 +29,7 @@
  * findings, 2 = script error.
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
-import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
+import { PROSE_KEYS, SKIP_KEYS, pathOverride } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs and
    imported by every script that walks src/data/**. This file used to carry its
@@ -98,13 +98,8 @@ import { stamp } from './i18n_stamp.mjs'
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
 
 function classify(path, leaf) {
-  for (const [pattern, isProse] of PATH_OVERRIDES) {
-    if (pattern.startsWith('*.')) {
-      if (path.endsWith(pattern.slice(1))) return isProse ? 'prose' : 'skip'
-    } else if (path === pattern || path.endsWith('.' + pattern)) {
-      return isProse ? 'prose' : 'skip'
-    }
-  }
+  const override = pathOverride(path)
+  if (override !== undefined) return override ? 'prose' : 'skip'
   if (SKIP_KEYS.has(leaf)) return 'skip'
   if (PROSE_KEYS.has(leaf)) return 'prose'
   return 'unclassified'

@@ -39,7 +39,7 @@
  */
 import { writeFileSync, mkdirSync, readFileSync } from 'node:fs'
 import { stamp } from './i18n_stamp.mjs'
-import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
+import { PROSE_KEYS, SKIP_KEYS, pathOverride } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs and
    imported by every script that walks src/data/**. Re-declaring any of these
@@ -154,13 +154,8 @@ const words = (s) => s.trim().split(/\s+/).filter(Boolean).length
  * is an untranslated card with no signal, which is how coverage gaps hide.
  */
 function classify(path, leaf) {
-  for (const [pattern, isProse] of PATH_OVERRIDES) {
-    if (pattern.startsWith('*.')) {
-      if (path.endsWith(pattern.slice(1))) return isProse ? 'prose' : 'skip'
-    } else if (path === pattern || path.endsWith('.' + pattern)) {
-      return isProse ? 'prose' : 'skip'
-    }
-  }
+  const override = pathOverride(path)
+  if (override !== undefined) return override ? 'prose' : 'skip'
   if (SKIP_KEYS.has(leaf)) return 'skip'
   if (PROSE_KEYS.has(leaf)) return 'prose'
   return 'unclassified'
