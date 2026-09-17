@@ -167,8 +167,11 @@ repeating the search.
 
 Give the user, in this order:
 
-**A one-line verdict first** — "Strong candidate: 8 of 9 areas viable" or "Thin: only
-Sports and Tuition are populatable." Lead with the answer, not the methodology.
+**A one-line verdict first** — "Strong candidate: 8 of the 9 areas this school can have
+are viable" or "Thin: only Sports and Tuition are populatable." Lead with the answer, not
+the methodology. Take the denominator from `coverage:floor`, never from this example —
+and remember the ceiling is one below the raw topic count, since a K–12 school has no
+High School Placement area and a K–8 school has no College Support.
 
 **The per-area table**, with the schema's own areas as rows:
 
