@@ -2,6 +2,7 @@
 
 **Status:** implemented
 **Plan written:** 2026-09-16
+**PRs:** [#311](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/311)
 **Phases:** Two — English/app first, locales second (adds one new user-facing chrome string)
 
 ---
