@@ -124,9 +124,10 @@ export type HighSchoolRecord = {
    * Stored whole rather than as a bare number because SEVERAL DIFFERENT SCALES
    * are in play, from two different publishers:
    *
-   *   "Charlotte Private K-12 Niche Rank #5"   Niche, Charlotte metro, K-12
-   *   "Charlotte Private HS Niche Rank #22"    Niche, Charlotte metro, 9-12
-   *   "US News National HS Rank #4"            US News, national
+   *   "Charlotte Private K-12 Niche Rank #5"       Niche, Charlotte metro, K-12
+   *   "Charlotte Private HS Niche Rank #22"        Niche, Charlotte metro, 9-12
+   *   "Boarding High School Niche National Rank #4" Niche, national boarding
+   *   "US News National HS Rank #475"              US News, national public
    *
    * A bare "#5" beside a bare "#22" beside a bare "#4" would read as one
    * ranking and invite a comparison none of them supports, so every label names
