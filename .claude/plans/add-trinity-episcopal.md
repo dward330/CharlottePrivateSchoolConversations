@@ -203,12 +203,18 @@ elsewhere. **A sitemap-only sweep would wrongly fail this school.**
   need no component change at all (see Context correction 1), so it is a data entry plus a
   comment fix.
 
-**One thing to surface, NOT to build:** Trinity publishes a **college list (Classes of
-2004–2022, ~165 institutions** including Harvard, Stanford, MIT, Duke, Brown, Penn) plus
-**2 Morehead-Cain Scholars** — genuinely interesting long-term outcome data for a K–8
-school, with **no home in the four-card High School Placement area**. A fifth card would be
-a **new card under the UX-design gate**. Raise it with the user during the Step 14 review;
-do not build it unasked.
+**⛔ SETTLED, 2026-09-16 — no college card on a K–8 school.** Trinity publishes a
+**college list (Classes of 2004–2022, 160 institutions** including Harvard, Stanford,
+MIT, Duke, Brown, Penn) plus **2 Morehead-Cain Scholars**. It was raised at review and
+the user ruled it out: *"no college card for schools that cap at 8th grade."*
+
+**This is a standing rule for the PreK–8 shape, not a Trinity-specific decision**, and
+the reasoning generalises: those alumni reached those colleges after **four years at a
+different high school**. A college card on a K–8 dossier would credit this school with
+an outcome another school produced, which is the same error as reading its cumulative
+31/57/12 split as a per-class rate. The list stays in the committed research record
+(`source-material/high-school-placement/trinity-episcopal/… Where They Land.md`) and
+renders nowhere.
 
 ## Source material
 
@@ -241,8 +247,8 @@ enters the app that is not traceable to one of them.
 ## Out of scope
 
 - **Charlotte Prep.** Abandoned 2026-09-16; not to be revived by this plan.
-- **A fifth High School Placement card for college outcomes.** Needs UX approval — surface
-  at Step 14, build separately if wanted.
+- **A fifth High School Placement card for college outcomes.** **SETTLED — never, for any
+  school that ends at 8th grade** (user, 2026-09-16). Not deferred; ruled out.
 - **The Trinity Voice magazine archive** (`issuu.com/tescharlotte`, 18 issues 2011–2026).
   It is the likeliest home of pre-2023 class placement lists, but Issuu serves page images
   only — text endpoints return AccessDenied — so it would need OCR of ~900 pages. Recorded
@@ -472,9 +478,10 @@ copy Italian's process** — it shipped with no rollout doc and no register axis
   absent. **Default: do not publish any interpretation of it.** Transcribe the names without
   the marker, and note in the source file that the marker exists and is unexplained. Ask the
   school if it ever matters.
-- **Should the college list (2004–2022, ~165 institutions, 2 Morehead-Cain Scholars) get a
-  fifth High School Placement card?** New card → UX gate. **Default: surface at Step 14 and
-  ship without it.**
+- ~~**Should the college list (2004–2022, ~165 institutions, 2 Morehead-Cain Scholars) get a
+  fifth High School Placement card?**~~ **SETTLED — NO (user, 2026-09-16):** *"no college
+  card for schools that cap at 8th grade."* This is a standing rule for every PreK–8
+  school, not a one-off for Trinity. Do not re-raise it.
 - **Does a strings/orchestra ensemble exist?** Sources conflict — one says "fourth grade…
   chorus, strings or band", the LS Enrichments page (direct fetch) says fifth grade, chorus
   or band, no strings. **Default: trust the direct fetch; do not ship "strings".**
@@ -889,10 +896,10 @@ visibly runs short.
 ### Open for the user at review
 
 - **Sports ships 2 cards.** Everything published is there, but it is the thinnest area.
-- **A fifth High School Placement card** for the college list (2004–2022, 160
-  institutions incl. Harvard, Stanford, MIT, Duke) — new card, UX gate, not built.
-  ⚠️ It is where alumni went **after finishing high school elsewhere**, so it must
-  never be framed as Trinity's own college outcomes.
+- ~~A fifth High School Placement card for the college list~~ — **CLOSED (user,
+  2026-09-16): no college card for schools that cap at 8th grade.** A standing rule for
+  the PreK–8 shape, not a Trinity-specific decision. The list stays in the committed
+  research record only.
 - **Extending `PlacementClass`** with matriculation fields, so the per-class series
   (graduates / lifers / distinct schools) renders as a table instead of stat tiles.
 - **The `honors` clubs card is titled "Honor Societies"** but holds a competition

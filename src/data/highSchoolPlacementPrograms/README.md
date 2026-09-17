@@ -23,3 +23,18 @@ entry in [`../highSchoolPlacement.ts`](../highSchoolPlacement.ts). The area then
 renders for that school only if `source-material/high-school-placement/<slug>/`
 also exists — the card data and the research manifest are separate gates, and
 `topicsForSchool()` reads the manifest one.
+
+## ⛔ No college card on a school that caps at 8th grade
+
+**Standing rule, set by the user 2026-09-16:** *"no college card for schools that cap
+at 8th grade."* It governs every school in this area, not just the first one.
+
+Trinity Episcopal publishes a list of 160 colleges its alumni have attended (Classes of
+2004–2022, including Harvard, Stanford, MIT and Duke) plus two Morehead-Cain Scholars.
+It is genuinely interesting data and it **must not be rendered**: those alumni reached
+those colleges after **four years at a different high school**, so putting the list on a
+K–8 dossier credits this school with an outcome another school produced.
+
+That is the same error as reading a cumulative multi-year split as a per-class rate, and
+it is why a K–8 school gets no College Support area at all. Such lists stay in the
+committed research record and render nowhere.
