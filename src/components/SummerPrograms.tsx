@@ -553,7 +553,9 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
             </div>
           )}
 
-          {isShort && feeLedger}
+          {/* The ledger used to render HERE, under the matrix. It now sits in
+              the side rail below the estimate (user, 2026-09-17), because on a
+              short matrix it left the whole right column empty beside it. */}
         </div>
 
         <div className="as-cost-side">
@@ -628,7 +630,7 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
             </div>
           )}
 
-          {!isShort && feeLedger}
+          {feeLedger}
         </div>
       </div>
 

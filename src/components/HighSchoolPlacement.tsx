@@ -32,7 +32,7 @@
 //      roster, never by name: a render-time name match would silently degrade to
 //      plain text the moment a school is renamed.
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
 import type {
@@ -200,14 +200,47 @@ function Stats({ stats }: { stats: HspStat[] }) {
  * `slug` is verified against the roster before it links: a data file naming a
  * school that is not in the app renders as a plain chip rather than a dead link.
  */
-function DestinationChip({ dest, note }: { dest: Destination; note?: string }) {
+/**
+ * A school name with every case-insensitive occurrence of `query` tinted.
+ *
+ * Built from segments rather than by setting innerHTML — the query is reader
+ * input and the names come from research data, so neither is trusted as markup.
+ */
+function Marked({ text, query }: { text: string; query: string }) {
+  if (!query) return <>{text}</>
+  const needle = query.toLowerCase()
+  const hay = text.toLowerCase()
+  const out: React.ReactNode[] = []
+  let i = 0
+  for (let at = hay.indexOf(needle); at !== -1; at = hay.indexOf(needle, i)) {
+    if (at > i) out.push(text.slice(i, at))
+    out.push(
+      <mark key={at} className="hsp-mark">
+        {text.slice(at, at + query.length)}
+      </mark>,
+    )
+    i = at + query.length
+  }
+  if (i < text.length) out.push(text.slice(i))
+  return <>{out}</>
+}
+
+function DestinationChip({
+  dest,
+  note,
+  query = '',
+}: {
+  dest: Destination
+  note?: string
+  query?: string
+}) {
   const navigate = useNavigate()
   const inApp = dest.slug ? schoolBySlug(dest.slug) : undefined
 
   if (!inApp) {
     return (
       <span className="hsp-dest">
-        {dest.name}
+        <Marked text={dest.name} query={query} />
         {note && <span className="hsp-dest-note text-muted"> {note}</span>}
       </span>
     )
@@ -220,7 +253,7 @@ function DestinationChip({ dest, note }: { dest: Destination; note?: string }) {
       href={href}
       onClick={(e) => { e.preventDefault(); navigate(href) }}
     >
-      {dest.name}
+      <Marked text={dest.name} query={query} />
       <span className="hsp-dest-arrow" aria-hidden="true"> ↗</span>
       {note && <span className="hsp-dest-note text-muted"> {note}</span>}
     </a>
@@ -464,6 +497,21 @@ const ALL = '__all'
 export function DestinationsBody({ data }: { data: Destinations }) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<string>(ALL)
+  const [query, setQuery] = useState('')
+  const listRef = useRef<HTMLDivElement>(null)
+
+  /* Swapping the category or editing the query replaces the list contents, so
+     reset scroll — the reader should start at the top of the new result set
+     rather than wherever the previous one was left. Same rule as Course
+     Offerings, whose pattern this list follows. */
+  useEffect(() => {
+    if (listRef.current) listRef.current.scrollTop = 0
+  }, [filter, query])
+
+  /* Trimmed for matching but NOT for the empty-state message, which echoes what
+     the reader typed: a stray trailing space while typing must not empty the
+     list. */
+  const q = query.trim()
 
   const total = useMemo(
     () => data.categories.reduce((n, c) => n + c.schools.length, 0),
@@ -480,7 +528,27 @@ export function DestinationsBody({ data }: { data: Destinations }) {
     [data.categories],
   )
 
-  const shown = data.categories.filter((c) => filter === ALL || c.key === filter)
+  /* Category filter first, then the name search within it. A category left with
+     no match drops out entirely rather than rendering an empty heading, which
+     is the zero-items rule applied to a live filter. The search matches the
+     school NAME only — the notes are qualifiers ("published as …"), so matching
+     them would surface rows whose visible name does not contain the term. */
+  const shown = useMemo(() => {
+    const needle = q.toLowerCase()
+    return data.categories
+      .filter((c) => filter === ALL || c.key === filter)
+      .map((c) =>
+        needle
+          ? { ...c, schools: c.schools.filter((s) => s.name.toLowerCase().includes(needle)) }
+          : c,
+      )
+      .filter((c) => c.schools.length > 0)
+  }, [data.categories, filter, q])
+
+  const matched = useMemo(
+    () => shown.reduce((n, c) => n + c.schools.length, 0),
+    [shown],
+  )
 
   return (
     <div className="cs-body">
@@ -526,9 +594,51 @@ export function DestinationsBody({ data }: { data: Destinations }) {
         </p>
       )}
 
-      {shown.map((cat) => (
-        <CategoryBlock key={cat.key} cat={cat} />
-      ))}
+      {/* Name search, on the Course Offerings pattern — 99 destinations is past
+          the point where scanning beats typing. */}
+      <div className="hsp-search">
+        <span className="hsp-search-icon" aria-hidden="true">
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </span>
+        <input
+          type="text"
+          className="input"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={t('highSchoolPlacement.searchPlaceholder')}
+          aria-label={t('highSchoolPlacement.searchAria')}
+        />
+        {q !== '' && (
+          <span className="hsp-search-count text-muted">
+            {t('highSchoolPlacement.searchCount', { count: matched, total })}
+          </span>
+        )}
+      </div>
+
+      {/* The scroll region: a fixed max height inside a hairline frame, so a
+          98-row list does not push the sources row off the bottom of the card. */}
+      <div className="hsp-destlist" ref={listRef} tabIndex={0}>
+        {shown.map((cat) => (
+          <CategoryBlock key={cat.key} cat={cat} query={q} />
+        ))}
+        {shown.length === 0 && (
+          <p className="hsp-dest-empty text-muted">
+            {t('highSchoolPlacement.searchEmpty', { query: q })}
+          </p>
+        )}
+      </div>
 
       {/* The NO RANKINGS and ACCEPTANCE ≠ MATRICULATION notes were removed at
           review (user, 2026-09-16) — standing caveats about how to read the
@@ -545,7 +655,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
 }
 
 /** One category's heading and its chips. */
-function CategoryBlock({ cat }: { cat: DestinationCategory }) {
+function CategoryBlock({ cat, query = '' }: { cat: DestinationCategory; query?: string }) {
   const { t } = useTranslation()
   const linked = cat.schools.filter((s) => s.slug && schoolBySlug(s.slug)).length
   return (
@@ -564,7 +674,12 @@ function CategoryBlock({ cat }: { cat: DestinationCategory }) {
       </Heading>
       <div className="hsp-dest-row">
         {cat.schools.map((s) => (
-          <DestinationChip key={s.name} dest={s} note={cat.notes?.[s.name]} />
+          <DestinationChip
+            key={s.name}
+            dest={s}
+            note={cat.notes?.[s.name]}
+            query={query}
+          />
         ))}
       </div>
     </div>

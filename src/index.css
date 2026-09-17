@@ -4467,6 +4467,65 @@ a.cs-college-name:focus-visible {
 
 .hsp-cat { margin-bottom: 18px; }
 
+/* Name search over the destination list — the .courses-filter construction,
+   with the count of matches trailing it once the reader has typed. */
+.hsp-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.hsp-search .input {
+  width: 280px;
+  max-width: 100%;
+  min-height: 32px;
+  padding: 6px 10px 6px 28px;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text);
+  caret-color: var(--accent);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0;
+}
+.hsp-search .input::placeholder { color: var(--muted); }
+.hsp-search .input:hover { border-color: color-mix(in srgb, var(--text) 45%, transparent); }
+.hsp-search .input:focus-visible {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+}
+.hsp-search-icon {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: var(--muted);
+  pointer-events: none;
+}
+.hsp-search-count { font-size: 12px; }
+
+/* The scroll region. A 98-row list would otherwise push the sources row far off
+   the bottom of the card; the frame caps it and scrolls within, exactly as
+   .courselist does for a long course catalog. */
+.hsp-destlist {
+  max-height: 420px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  padding: 0 14px;
+  -webkit-overflow-scrolling: touch;
+}
+.hsp-destlist:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hsp-dest-empty { font-size: 13px; padding: 14px 0; margin: 0; }
+/* The search hit. A tint, not a highlighter block — these sit inside a list
+   whose only other color is the brand cross-link edge. */
+.hsp-mark {
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  color: inherit;
+}
+
 /* A LIST, not a chip cloud (user, 2026-09-17), on the Course Offerings pattern:
    one destination per row, hairline-separated, so 99 school names scan down a
    column instead of reflowing into ragged bands of boxes. The filter buttons
