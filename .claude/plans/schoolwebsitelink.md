@@ -422,3 +422,87 @@ Scope is the nine non-English catalogs in [`src/locales/`](../../src/locales/), 
   does not, add nothing and state that explicitly in the PR body.
 - **Should `a11y.opensNewTab` exist as a separate key?** — **default:** no. Ship only
   `schoolSiteLink`, which already carries the new-tab phrasing. Do not add an unused key.
+
+## Implementation notes
+
+### Phase 1 — deviations and findings
+
+**Two open questions, both resolved to their stated defaults.**
+`a11y.opensNewTab` was NOT added — `schoolSiteLink` already carries the new-tab
+phrasing, and an unused key is reported by `check:chrome`. And
+`gen_data_schema.mjs` DOES document brand-config fields: it derives the `Brand`
+table by parsing the type, so `homepageUrl` appeared in `DATA-SCHEMA.md` on the
+first `npm run schema` with no generator edit needed.
+
+**All twelve URLs verified live; none changed.** Eleven returned 200 to a bare
+`curl`. **Carmel Christian returned 503 — and is not down:** it answers 503 with a
+zero-length body to curl's default UA and 200 to a browser UA, with
+`Vary: User-Agent` on the response. That is UA-based bot filtering, and the apex
+behaves identically. Recorded in the `_shared` branding file, because a future
+re-verification pass running bare `curl` would otherwise read it as broken and
+"fix" a URL that was never wrong. It is also the concrete reason
+`check_schoolurls.mjs` makes no network call.
+
+**The CSS moved `aspect-ratio` to the wrapper, which the plan's snippet omitted.**
+Step 7 listed `flex`, `display`, `height`, `max-width` and `align-self` for
+`.dossier-crest-link`. That is not sufficient: `aspect-ratio: 3/2` is what reserves
+the box *before the PNG arrives*, which is the entire CLS fix. Without it the
+wrapper has zero width until the image loads. `.dossier-crest-link` therefore
+repeats `aspect-ratio` and `width: auto` too.
+
+**User-requested change during the build:** the hover underline is drawn in the
+school's own brand color rather than the text color, via
+`text-decoration-color: var(--brand)` (plus 2px thickness and a 4px offset so a
+thin accent stays visible under a 44px heading). `--brand` is already set per
+school on `.school-page`, so this needs no per-school CSS and picks up a new
+school's hex automatically. The name itself stays `color: inherit` — several brand
+hexes are deep navies that would read as low-contrast body text at heading size.
+
+**A second user-reported bug was fixed on this branch** (commit 2): sentence-length
+financial-aid tags overlapping the card beside them on Charlotte Latin. Unrelated
+to the link work but in the same header/card CSS surface. See that commit message
+for the measurement; the fix is scoped to `.fa-box-head .tag-outline` because
+`.tag-outline` is shared with eight components whose chips are correctly `nowrap`.
+
+**A near-miss worth recording: `git checkout <file>` reverted uncommitted work.**
+The plan's negative test says to corrupt `brands.ts` and "`git diff` the file
+back". `git checkout src/data/brands.ts` was used — and because the file had not
+yet been committed, it discarded the entire feature (the type change, the header
+comment and all twelve URLs), not just the corruption. The checker then honestly
+reported `linked 0/12`, which is what surfaced it. **Back up the file first, or
+commit before a negative test.** The re-run used a scratchpad copy.
+
+**Both negative tests pass on the right message and the right exit code.** A
+malformed URL (`http://example.com/admissions?x=1`) exits 1 naming three distinct
+shape violations; a duplicated URL exits 1 naming both schools. Note `npm run
+<script> | tail` masks the exit code — `${PIPESTATUS[0]}` or a direct `node` call
+is needed to read it.
+
+### Verification results
+
+- `npx tsc -b` — clean.
+- `npm run check:schoolurls` — exit 0, `linked 12/12 schools`.
+- `npm run check:chrome` — exit 0 (it audits skip-field promises, not new keys).
+- `npm run check:schema` — up to date after `npm run schema`.
+- `npm run build` — succeeds with `check:schoolurls` chained in after
+  `check:collegeurls`.
+- `npm run check:seo` — exit 0; no pre-rendered page fell under the byte floor.
+- **CLS, measured against `main` in a separate worktree** — `/school/providence-day/`
+  desktop 0.0000 on main vs 0.0016 on the branch; both GOOD, nowhere near the 0.35
+  regression. `/school/charlotte-latin/` 0.0012 after the tag fix.
+- **Browser (headed Chromium via Playwright), providence-day + covenant-day** —
+  name link present/labelled/`target=_blank`/`rel=noopener`; `id="school-title"`
+  still on the `<h1>`; crest link present only where a crest exists, pointing at
+  the same URL, `aria-hidden` and skipped by Tab; crest wrapper reserves a real
+  156x104 box at `aspect-ratio: 3/2`, `flex: 0 0`; hover underline resolves to each
+  school's own brand hex (`#be123c`, `#002855`).
+- **Sticky-nav observer** — `.nav-school` is hidden at the top, gains `show` once
+  the `<h1>` scrolls out, carries the school name, and hides again on scroll back.
+  Verified on both schools; the anchor-inside-the-`<h1>` constraint holds.
+- **Chip sweep, all twelve school pages with every `<details>` expanded** — 4,729
+  chips, 0 overflowing (2 before the fix), 4 wrapping to a second line (exactly the
+  sentence-length ones).
+
+### Still to do
+
+Phase 2 — translate `a11y.schoolSiteLink` into the nine non-English catalogs.
