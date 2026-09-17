@@ -2,7 +2,9 @@
 name: add-school
 description: >
   Assess whether a new school can be added to the app, then hand off to /plan. Asks which
-  school and what city/state, runs a
+  school, what city/state, and what GRADE SPAN it ends at — a school that stops at 8th
+  grade is assessed against the K–8 shape, which has no College Support area and no
+  Compare rows at all. Runs a
   scoped web sweep against the live data schema, and
   reports a coverage table — how much of each research area, structured card, and Compare
   row we could actually populate, measured against the thinnest school already shipped. If
@@ -62,6 +64,20 @@ school** in that city. If the search turns up two plausible schools with the sam
 ask which one rather than guessing — an entire sweep against the wrong school is the most
 expensive mistake available here.
 
+**Establish the GRADE SPAN from the school's own site, and say it back.** This is not a
+detail — it selects which shape the rest of this skill assesses:
+
+- **Ends at grade 12** → the K–12 shape. Everything below applies as written.
+- **ENDS AT GRADE 8** (K–8, PreK–8, JK–8) → **the K–8 shape. Read §7 of
+  [`DATA-SCHEMA.md`](../../docs/DATA-SCHEMA.md) before going further**, and use the K–8
+  branches flagged ⚑ in steps 2 and 5. A K–8 school has no College Support area and no
+  Compare column, so scoring it against either counts things it cannot structurally have
+  as gaps — the exact mistake this skill exists to prevent.
+- **Ends at some other grade** (K–5, 6–12, 9–12) → **stop and ask the user.** The app has
+  shapes for K–12 and K–8 only. A 9–12 school like Charlotte Catholic works because it
+  simply has no lower-school data, but a K–5 or 6–8 school has no shape at all and
+  needs a decision before any sweep is worth running.
+
 **Do NOT ask about the Welcome Video here.** That question waits until the school has been
 assessed and the user has decided to proceed — it is asked in step 5b, not now. Asking a
 parent-facing question about a school we may not add wastes the user's time; the viability
@@ -80,6 +96,22 @@ would be wrong the first time someone adds one. Take from it:
 - **§4** the Compare rows — these are the most demanding, because they need a specific
   published number, not prose.
 - **§5** the standalone catalogs (course offerings, club catalog, financial-aid report).
+- **⚑ §7 — THE K–8 SHAPE, if step 1 said the school ends at grade 8.** Read it in full
+  before building any column. It is the difference between assessing the right page and
+  scoring a K–8 school against a K–12 one. What it changes for this step:
+
+  | | K–12 | **K–8** |
+  |---|---|---|
+  | Areas to score | the 9 that exclude High School Placement | **the 9 that exclude College Support** |
+  | College Support | a column | **not a column — do not sweep it** |
+  | High School Placement | not a column | **a column, and the headline one** |
+  | Compare rows (§4) | 30 rows to score | **none — the school is Compare-excluded** |
+  | Sports cards (§3) | up to 7 | **up to 3**; `pipeline`/`honors`/`facilities`/`national` do not apply |
+
+  §7 also carries what the first K–8 school ACTUALLY shipped per area, read live from its
+  data files. **That table is the realistic target**, not the registry maxima beside it —
+  four of its areas shipped at 100% and Sports at 2 of 7, which is what a healthy K–8 page
+  looks like rather than a thin one.
 
 Run `npm run check:schema` first. If it fails the doc has drifted from the live modules —
 run `npm run schema` so the sweep is measured against reality rather than a stale catalog.
@@ -222,8 +254,8 @@ a figure they doubt.
 #### The bar
 
 Two gates, both calibrated to **the thinnest school the project has judged worth
-shipping** — as of 2026-08-31 that is Davidson Day, at 17/30 Compare rows (56%) and 7 of 9
-research areas, with **no Summer Programs material at all**. That was an acceptable
+shipping** — as of 2026-09-17 that is Davidson Day, at 17/30 Compare rows (56%) and 7 of
+the areas the script counts, with **no Summer Programs material at all**. That was an acceptable
 outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
 round number. `npm run coverage:floor` recomputes it — **run it, do not transcribe these
 numbers.** The area denominator moved from 8 to 9 when Admissions shipped, and it will move
@@ -250,7 +282,9 @@ again; the script reads the live data, this paragraph does not.
   So: ~50% is a rough line for *which areas are worth discussing*, and the discussion —
   with its dig-deeper option — is what actually decides. An area a hair under it that the
   user obviously wants is included without ceremony.
-- **School-wide (go / no-go):** **≥17 of 30 Compare rows, and ≥6 of 9 research areas.**
+- **School-wide (go / no-go), K–12 SCHOOLS:** **≥17 of 30 Compare rows, and one area
+  below what `coverage:floor` derives.** (A K–8 school has no Compare rows at all — see
+  the K–8 gate below.)
   The comparison is **inclusive** — exactly 17/30 passes, 16/30 (53%) does not. Count in
   **rows, not rounded percentages**: each row moves the figure ~3.3 points, so "56%" means
   "at least 17 of 30." Do not round to a neater number in either direction.
@@ -263,18 +297,56 @@ again; the script reads the live data, this paragraph does not.
   a finding worth reporting, not an inconsistency to reconcile. When both figures appear in
   one report, label them (`Compare rows: 17/30` vs `Sports area: ~83%`).
 
-  On the area count, the script derives 7/9 from Davidson Day, but the stated bar is
-  **6 of 9** — one area more permissive, deliberately. Davidson Day's two gaps are
+  On the area count, the stated bar is **one area below whatever the script derives from
+  Davidson Day** — deliberately more permissive. Davidson Day's two gaps are
   **Summer Programs** (it genuinely runs none — a confirmed absence) and **Admissions**
   (simply not researched yet, like nine of the eleven schools). A candidate that is merely
-  *unresearched* in two areas can still be worth adding. Tighten to 7/9 if the roster grows
-  and the extra latitude stops being useful; the script reports both so the gap stays
-  visible rather than silently forgotten.
+  *unresearched* in two areas can still be worth adding. Tighten to match the script's
+  derived figure exactly if the roster grows and the extra latitude stops being useful;
+  the script reports both so the gap stays visible rather than silently forgotten.
 
-  **The denominator is 9, not 8 — and it is read from the script, never typed.** Admissions
-  became the ninth area on 2026-08-31. `npm run coverage:floor` derives the area count from
-  the live data, so it moved on its own; every figure quoted here must be re-read from its
-  output rather than carried forward from a prior run of this skill.
+  **NEVER TYPE THE AREA DENOMINATOR — read it from the script.** It has moved twice:
+  Admissions made it 9 on 2026-08-31, High School Placement made it 10 on 2026-09-16. Both
+  times a hardcoded figure in this skill went quietly wrong, which is why every area count
+  quoted in a report must be re-read from `npm run coverage:floor` rather than carried
+  forward from a prior run. The script prints the floor school and its `N/<total>`.
+
+  Note that NO school can reach the raw total: a K–12 school has no High School Placement
+  area and a K–8 school has no College Support, so `total − 1` is the real ceiling for
+  both. Score against that.
+
+#### ⚑ The K–8 gate — the Compare axis does not exist
+
+**A K–8 school has ZERO of 30 Compare rows, by design.** It is excluded from the Compare
+page entirely (`hasHighSchool: false` → `comparableSchools`), so there are no
+`metricValues.ts` keys to fill and `check:metrics` skips it and prints the skip. Scoring a
+K–8 candidate on "≥17 of 30 Compare rows" fails **every** K–8 school at step 1, including
+the one already shipped. Never apply it.
+
+For a K–8 candidate the gate is the **area axis alone**, at the same latitude the K–12
+gate allows: **one area below what `coverage:floor` derives.**
+
+**Read the denominator from the script, never from this page.** `npm run coverage:floor`
+counts topics live, and that count has moved twice — Admissions made it 9 on 2026-08-31,
+High School Placement made it 10 on 2026-09-16. The script prints each school's areas as
+`N/<total>` and names the floor; a K–8 school appears in its "Excluded from the floor"
+line with its own area count, because the script already knows a Compare-excluded school's
+0/30 is correct rather than a floor.
+
+Note that a K–8 school can only ever reach `total − 1` areas, since College Support is
+structurally absent — the same ceiling a K–12 school has against High School Placement.
+Score it against that ceiling, not the raw total.
+
+Two consequences worth stating in the report rather than leaving implicit:
+
+- **The go/no-go rests on one axis instead of two**, so it is a weaker test than the K–12
+  gate. Say so. The compensating evidence is the per-area walk in step 5, which for a K–8
+  school matters more than usual.
+- **High School Placement is the axis that decides.** It is the area a K–8 school has that
+  no K–12 school does, and the one a parent choosing a K–8 school is actually buying. A
+  candidate strong everywhere else but with no published placement record is a genuine
+  no-go, however well it scores elsewhere — report it that way rather than averaging it
+  into a passing total.
 
 State the bar and the candidate's numbers against it. It is a default, not a rule — the
 user overrides it in step 5, and a school that misses on one axis while being exceptional
@@ -306,6 +378,12 @@ independent and the reasoning differs per area.
 > be N/A. Including it gives a Coverage-map card and little else.
 >
 > **Dig deeper**, include as-is, or omit the area for this school?
+
+**⚑ For a K–8 school, drop the Compare-row term from every one of these counts** — there
+are none, so "0 of 2 Compare rows" would read as a gap rather than as a structural
+absence. Pool prose cards and structured-card field sets only, and say so once at the top
+of the walk: *"Percentages below pool prose cards and structured-card fields; a K–8 school
+has no Compare rows."*
 
 **"Dig deeper" is the important option, and it must be offered wherever it could plausibly
 change the answer.** The step-3 sweep is deliberately shallow — roughly one pass per area —
@@ -453,6 +531,17 @@ The brief must carry, explicitly:
   per-school and a fresh window cannot re-derive them; without this the plan inherits
   another school's boundaries. Flag any test-instrument split that does **not** fall on a
   band boundary, since that is the sentence most likely to be written wrongly.
+- **⚑ If the school ENDS AT GRADE 8, say so in the first line of the brief**, and carry
+  these four with it. A fresh `/plan` window has no memory of this sweep, and each of these
+  costs a wrong turn if it has to be rediscovered:
+  1. **It is the K–8 shape** — point at §7 of `DATA-SCHEMA.md` rather than restating it.
+  2. **No College Support area, no Compare column, no `metricValues.ts` rows.** Not thin
+     versions: absent.
+  3. **No college card, ever**, even if the school publishes a strong college list. The
+     rule is settled (§7) and a plan that re-raises it wastes a review cycle.
+  4. **Sports ships 2–3 cards**, and `record` needs its own judgment — the `TitleResult`
+     vocabulary is NCISAA state titles, so a middle-school conference championship cannot
+     be expressed in it without printing a false claim in ten locales.
 - **Every source URL found**, per area. This is the plan's head start.
 
 Then make sure the plan `/plan` writes carries these, since they are the parts a fresh
