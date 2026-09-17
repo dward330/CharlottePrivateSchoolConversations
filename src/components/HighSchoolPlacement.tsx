@@ -240,7 +240,7 @@ function DestinationChip({
   const inApp = dest.slug ? schoolBySlug(dest.slug) : undefined
   /* The Niche rank, resolved from the single master by name. Stored as a whole
      label rather than a number because two different scales are in play — see
-     the note on `nicheRank` in data/highSchools.ts. */
+     the note on `rankLabel` in data/highSchools.ts. */
   const rank = highSchoolRank(dest.name)
   /* A school that has closed or merged away still belongs on the list — it is
      cumulative since 2004 and the placement was real — but a parent needs to

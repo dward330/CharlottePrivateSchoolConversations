@@ -8,7 +8,7 @@
 //
 // Modelled on the college masters (`collegeUrls.ts`, `collegeRankings.ts`) and
 // deliberately ONE file rather than three: a high school's homepage, its kind
-// and its Niche rank are all facts about the same institution, fetched in the
+// and its rank are all facts about the same institution, fetched in the
 // same pass, and splitting them would mean three tables to keep in step for no
 // gain. The college side is two files only because rankings and URLs were built
 // a month apart.
@@ -59,7 +59,7 @@
 // zero stops being read (CLAUDE.md records that failure mode three times over).
 
 // ──────────────────────────────────────────────────────────────────────────
-// NICHE RANKS — what is stored, and two things to know before adding more
+// RANK LABELS — what is stored, and what to know before adding more
 //
 // Read VERBATIM off each school's own rank badge on the Niche listing
 // ("#N Best Private K-12 Schools in Charlotte Area"), never inferred from a
@@ -69,19 +69,19 @@
 //  1. NICHE'S OWN SEQUENCE SKIPS #14 — IN BOTH RANKINGS. The K-12 list runs
 //     1-13 then 15-26; the high-school list runs #1-#40 with #14 likewise
 //     absent. The same single number missing from two independent rankings is a
-//     quirk on Niche's side, not a parse error. Everything below it — Hickory Grove #16,
-//     Southlake #17, Grace #32 — may therefore sit one off whatever Niche
-//     intends. The numbers here are what Niche PUBLISHES, copied char-for-char,
-//     which is the same rule this project applies to a tuition figure; #16 was
-//     independently confirmed against a search snippet. Do not "correct" them.
+//     quirk on Niche's side, not a parse error. Everything below it — Hickory
+//     Grove #16, Southlake #17, Grace #32 — may therefore sit one off whatever
+//     Niche intends. The numbers here are what Niche PUBLISHES, copied
+//     char-for-char — the same rule this project applies to a tuition figure.
+//     #16 was independently confirmed against a search snippet; do not
+//     "correct" any of them.
 //
 //  2. TWO RANKINGS, LABELLED APART. K-12 schools carry
 //     "Charlotte Private K-12 Niche Rank #N". A 9-12 school cannot appear in a
 //     K-12 ranking at all, so Charlotte Catholic and Christ the King take
 //     "Charlotte Private HS Niche Rank #N" from Niche's separate high-school
 //     list. The label names both the SCALE and the SOURCE, because #2 and #22
-//     are otherwise read as one ranking. The label states which list a number came from
-//     because #2 and #22 are otherwise read as one scale.
+//     are otherwise read as one ranking.
 //
 //     Unranked is a real state: The Fletcher School IS listed in the K-12
 //     ranking but carries no badge and no overall grade — it serves students
@@ -119,14 +119,20 @@ export type HighSchoolRecord = {
   /** Two-letter state, or a country for the one non-US entry. */
   state?: string
   /**
-   * Niche rank label, rendered verbatim on the row.
+   * The rank label, rendered VERBATIM on the row.
    *
-   * Two DIFFERENT scales, which is why the label is stored whole rather than as
-   * a bare number: Charlotte-metro private K-12 for the independents, national
-   * boarding for the boarding schools. A bare "#3" beside a bare "#12" would
-   * invite a comparison neither ranking supports.
+   * Stored whole rather than as a bare number because SEVERAL DIFFERENT SCALES
+   * are in play, from two different publishers:
+   *
+   *   "Charlotte Private K-12 Niche Rank #5"   Niche, Charlotte metro, K-12
+   *   "Charlotte Private HS Niche Rank #22"    Niche, Charlotte metro, 9-12
+   *   "US News National HS Rank #4"            US News, national
+   *
+   * A bare "#5" beside a bare "#22" beside a bare "#4" would read as one
+   * ranking and invite a comparison none of them supports, so every label names
+   * both its scale and its publisher. Never store a bare number here.
    */
-  nicheRank?: string
+  rankLabel?: string
   /** Why this row does not link, where that is itself a finding. */
   status?: HighSchoolStatus
   /** A short qualifier shown in the companion doc, never on the page. */
@@ -142,18 +148,18 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
   /* ---------------------------------------------------------------------- */
   /* Charlotte-area independent — the 10 with a dossier in this app.         */
   /* These render as an INTERNAL cross-link to that dossier, so they need no  */
-  /* homepage url; `kind` and `nicheRank` still apply.                       */
+  /* homepage url; `kind` and `rankLabel` still apply.                       */
   /* ---------------------------------------------------------------------- */
-  'Cannon School': { kind: 'independent', city: 'Concord', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #5' },
-  'Carmel Christian': { kind: 'independent', city: 'Matthews', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #13' },
-  'Charlotte Catholic': { kind: 'independent', city: 'Charlotte', state: 'NC', nicheRank: 'Charlotte Private HS Niche Rank #22' },
-  'Charlotte Christian School': { kind: 'independent', city: 'Charlotte', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #4' },
-  'Charlotte Country Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #3' },
-  'Charlotte Latin School': { kind: 'independent', city: 'Charlotte', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #2' },
-  'Covenant Day School': { kind: 'independent', city: 'Matthews', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #10' },
-  'Davidson Day School': { kind: 'independent', city: 'Davidson', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #7' },
-  'Hickory Grove Christian Academy': { kind: 'independent', city: 'Charlotte', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #16' },
-  'Providence Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', nicheRank: 'Charlotte Private K-12 Niche Rank #1' },
+  'Cannon School': { kind: 'independent', city: 'Concord', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #5' },
+  'Carmel Christian': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #13' },
+  'Charlotte Catholic': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #22' },
+  'Charlotte Christian School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #4' },
+  'Charlotte Country Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #3' },
+  'Charlotte Latin School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #2' },
+  'Covenant Day School': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #10' },
+  'Davidson Day School': { kind: 'independent', city: 'Davidson', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #7' },
+  'Hickory Grove Christian Academy': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #16' },
+  'Providence Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #1' },
 
   /* ---------------------------------------------------------------------- */
   /* Charlotte-area independent — no dossier yet, so these link out.         */
@@ -163,7 +169,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://graceacademync.com',
     city: 'Matthews',
     state: 'NC',
-    nicheRank: 'Charlotte Private K-12 Niche Rank #32',
+    rankLabel: 'Charlotte Private K-12 Niche Rank #32',
     note: 'University-model K-12 Christian school, 3645 Pleasant Plains Rd',
   },
   'Southlake Christian Academy': {
@@ -171,7 +177,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.southlakechristian.org',
     city: 'Huntersville',
     state: 'NC',
-    nicheRank: 'Charlotte Private K-12 Niche Rank #17',
+    rankLabel: 'Charlotte Private K-12 Niche Rank #17',
     note: 'Styles itself SouthLake; JK-12, 13820 Hagers Ferry Rd',
   },
   'The Fletcher School': {
@@ -186,7 +192,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.ctkchs.org',
     city: 'Huntersville',
     state: 'NC',
-    nicheRank: 'Charlotte Private HS Niche Rank #21',
+    rankLabel: 'Charlotte Private HS Niche Rank #21',
     note: 'Confirmed via the Diocese of Charlotte listing — the name collides widely',
   },
 
@@ -579,7 +585,7 @@ export function highSchoolUrl(name: string): string | undefined {
 
 /** The Niche rank label for a high school, rendered verbatim, or undefined. */
 export function highSchoolRank(name: string): string | undefined {
-  return highSchoolFor(name)?.nicheRank
+  return highSchoolFor(name)?.rankLabel
 }
 
 /**
