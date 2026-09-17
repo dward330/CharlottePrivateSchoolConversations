@@ -104,9 +104,15 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
   /* ----------------------------------------------- 2c where they land -- */
   destinations: {
     headline:
-      'Ninety-nine named high schools across 23 graduating classes — and eight of them have their own dossier here.',
+      /* 95, not the 99 lines Trinity publishes: its own list names four
+         institutions twice under different spellings (Cannon, Charlotte
+         Catholic, Chambers/Julius L. Chambers, JM Robinson/Robinson), which
+         the school's own research file documents. Ten of the 95 have a
+         dossier here — counted from the data by the component, so this
+         sentence is the only place the figure is written by hand. */
+      'Ninety-five named high schools across 23 graduating classes — and ten of them have their own dossier here.',
     subhead:
-      'This is the school’s own cumulative list for the Classes of 2004–2026, grouped into the three kinds of destination it reports. It is a list of names only: the school publishes no per-school counts and no per-year attribution, so no destination should be read as “N students went there”.',
+      'This is the school’s own cumulative list for the Classes of 2004–2026, grouped by what each destination actually is. It is a list of names only: the school publishes no per-school counts and no per-year attribution, so no destination should be read as “N students went there”.',
     categories: [
       {
         key: 'charlotte-independent',
@@ -138,7 +144,6 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Ardrey Kell High School' },
           { name: 'Butler High School' },
           { name: 'Central High School' },
-          { name: 'Chambers High School' },
           { name: 'Charlotte Engineering Early College' },
           { name: 'Charlotte Lab School' },
           { name: 'Community School of Davidson' },
@@ -173,7 +178,6 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
           { name: 'Porter Ridge High School' },
           { name: 'Providence High School' },
           { name: 'Queens Grant High School' },
-          { name: 'Robinson High School' },
           { name: 'Rocky River High School' },
           { name: 'South Mecklenburg High School' },
           { name: 'St. Martin High School' },

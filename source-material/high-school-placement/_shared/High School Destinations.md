@@ -1,44 +1,64 @@
 # High School Destinations (shared table)
 
-> **Provenance:** Compiled by Claude Code on 2026-09-17 for the Trinity Episcopal
+> **Provenance:** Compiled by Claude Code, 2026-09-17, for the Trinity Episcopal
 > placement card. Human-readable companion to the code source of truth,
-> src/data/highSchools.ts (HIGH_SCHOOLS) — the app resolves every destination
+> src/data/highSchools.ts (HIGH_SCHOOLS). The app resolves every destination
 > link, kind and rank from that TS master via highSchoolFor(name); the per-school
 > placement files store only { name, slug? }.
 >
-> **URL METHOD.** Every distinct name was resolved to the school own official
-> homepage — never an admissions sub-page, a Wikipedia article or a directory
-> profile — and each was fetched to confirm the name and street address.
+> **URL METHOD.** Each name resolved to the school own official homepage and
+> fetched to confirm the school name and street address on the page.
 >
-> **RANK METHOD.** Read verbatim off each school own Niche rank badge, never
-> inferred from a letter grade or list position. Ranks were paired to schools by
-> splitting the HTML on the card boundary and taking the first badge inside each
-> card own block. Two K-12 ranks were independently cross-checked against search
-> snippets (#16, #3) and matched; Charlotte Catholic #22 was confirmed twice.
+> **RANK METHOD.** Read verbatim off the publisher own rank badge, never inferred
+> from a letter grade or list position. US News ranks were read off LIVE profile
+> pages; see the warning below on why search snippets were not acceptable.
 >
-> **kind** is what the institution ACTUALLY is, not always how the listing school
-> files it. Twelve of 97 disagreed; the card follows this column.
+> **kind** is what the institution ACTUALLY is, not how the listing school files
+> it. Twelve of 95 disagreed; the card follows this column.
 
-## Known quirks in the source
+## ⚠️ US News search snippets are STALE — use live pages only
 
-- **Niche skips #14 in BOTH rankings.** The K-12 list runs 1-13 then 15-26; the
-  high-school list runs #1-#40 with #14 likewise absent. The same number missing
-  from two independent rankings is a Niche quirk, not a parse error. Ranks are
-  published as displayed, char-for-char.
-- **Listed is not ranked.** K-12: 57 listed, 36 ranked. High school: 69 listed,
-  39 ranked. An "of N" figure describes the listing, not the ranking.
-- **The Fletcher School is listed but unranked** — no badge, no overall grade. It
-  serves students with learning differences. Genuinely unranked, not a miss.
-- **9-12 schools cannot appear in a K-12 ranking,** so Charlotte Catholic (#22)
-  and Christ the King (#21) carry "Charlotte Private HS Niche Rank #N" from the separate
-  high-school list, labelled apart so two scales are never read as one.
-- **Fetching Niche:** a plain browser User-Agent now returns a PerimeterX captcha.
-  curl --compressed plus the four Sec-Fetch-* headers clears it; ?page=N paginates
-  and ?page=4 404s, which is how the 3-page boundary was confirmed.
+A first pass read US News ranks from WebSearch snippets. A second pass read the
+same schools LIVE and **seven figures differed**, every one plausibly:
+
+| School | Snippet | Live (2026-2027) |
+|---|--:|--:|
+| Ardrey Kell | #384 | #475 |
+| Charlotte Engineering Early College | #572 | #567 |
+| Cox Mill | #1,813 | #1,369 |
+| Lake Norman High | #3,112 | #2,815 |
+| Mountain Island Charter | #3,272 | #2,639 |
+| North Lincoln | #4,117 | #4,471 |
+| North Mecklenburg | #9,109 | #5,938 |
+| Community School of Davidson | #767 | #1,009 |
+| Nauset Regional | #1,762 | #2,051 |
+
+Snippets appear to serve a prior edition. **Never source a US News rank from a
+snippet.** curl fails entirely (TLS/HTTP2 drop, exit 92) and headless Chromium is
+blocked (ERR_HTTP2_PROTOCOL_ERROR). What works is Playwright HEADED Chromium with
+--disable-blink-features=AutomationControlled and --disable-http2.
+
+## Other quirks in the sources
+
+- **Niche skips #14 in BOTH its rankings.** K-12 runs 1-13 then 15-26; the
+  high-school list runs #1-#40 with #14 likewise absent. A Niche quirk, not a
+  parse error. Published as displayed.
+- **US News publishes a bottom tier as a RANGE**, not a number: Queens Grant,
+  West Mecklenburg, Julius L. Chambers and Harding all read #13,460-17,945 with no
+  overall score. That is the exact published string, not an estimate.
+- **Trinity names four institutions twice** under different spellings (Cannon,
+  Charlotte Catholic, Chambers/Julius L. Chambers, JM Robinson/Robinson), which its
+  own research file documents. Merged to one row each: 99 published lines, 95 schools.
+- **Ineligible is not missing.** US News ranks PUBLIC schools only, so Laurel
+  Springs (private online) has no entry; UNCSA is tracked under Best COLLEGES, not
+  high schools; North Junior High is a 7-9 junior high and absent by category;
+  Charlotte Lab has only elementary and middle rankings.
+- **Two names cannot be resolved** from Trinity own data: Central High School and
+  Westwood High School carry no state and the names are nationally common.
 
 ## Charlotte-area independent (16)
 
-| School | City | State | Homepage | Niche rank | Note |
+| School | City | State | Homepage | Rank | Note |
 |---|---|---|---|---|---|
 | Cannon School | Concord | NC | — | Charlotte Private K-12 Niche Rank #5 |  |
 | Carmel Christian | Matthews | NC | — | Charlotte Private K-12 Niche Rank #13 |  |
@@ -59,7 +79,7 @@
 
 ## Out-of-area independent (day) (4)
 
-| School | City | State | Homepage | Niche rank | Note |
+| School | City | State | Homepage | Rank | Note |
 |---|---|---|---|---|---|
 | Brooklyn Friends School | Brooklyn | NY | https://brooklynfriends.org | — | Quaker PreK-12, 375 Pearl St. A DAY school, not boarding |
 | Cape Fear Academy | Wilmington | NC | https://www.capefearacademy.org | — | PreK-12 independent DAY school, 3900 S College Rd |
@@ -68,7 +88,7 @@
 
 ## Boarding (30)
 
-| School | City | State | Homepage | Niche rank | Note |
+| School | City | State | Homepage | Rank | Note |
 |---|---|---|---|---|---|
 | Asheville School | Asheville | NC | https://www.ashevilleschool.org | — | Cloudflare bot-blocks fetch; confirmed via Wikipedia official-website + indexed pages on its own domain |
 | Bishop England High School | Charleston | SC | https://www.behs.com | — | Catholic college-prep, 363 Seven Farms Dr, Daniel Island |
@@ -101,55 +121,53 @@
 | St. George’s School | Middletown | RI | https://www.stgeorges.edu | — | Trinity’s own note says Rhode Island, matching the independently-resolved Episcopal boarding school, 372 Purgatory Rd |
 | St. Paul’s | Concord | NH | https://www.sps.edu | — | Trinity’s own note says New Hampshire, matching the independently-resolved fully-residential Episcopal 9-12 school |
 
-## Public, charter and magnet (47)
+## Public, charter and magnet (45)
 
-| School | City | State | Homepage | Niche rank | Note |
+| School | City | State | Homepage | Rank | Note |
 |---|---|---|---|---|---|
 | Charlotte Lab School | Charlotte | NC | https://www.charlottelabschool.org | — | Public charter, not independent — its own site says so |
-| Community School of Davidson | Davidson | NC | https://www.csdspartans.org | — | Public charter, not independent — its own mission text says so |
-| Jackson-Reed High School | Washington | DC | https://jacksonreedhs.org | — | DC's largest PUBLIC high school, formerly Woodrow Wilson HS (renamed 2022) |
-| Morristown High School | Morristown | NJ | https://mhs.morrisschooldistrict.org | — | PUBLIC, Morris School District's only high school |
-| Nauset High School | Eastham | MA | https://www.nausetschools.org/o/nrhs | — | Nauset Regional High School, PUBLIC, Cape Cod. No standalone domain; this path is its homepage |
+| Community School of Davidson | Davidson | NC | https://www.csdspartans.org | US News National HS Rank #1,009 | Public charter, not independent — its own mission text says so |
+| Jackson-Reed High School | Washington | DC | https://jacksonreedhs.org | US News National HS Rank #1,781 | DC's largest PUBLIC high school, formerly Woodrow Wilson HS (renamed 2022) |
+| Morristown High School | Morristown | NJ | https://mhs.morrisschooldistrict.org | US News National HS Rank #2,980 | PUBLIC, Morris School District's only high school |
+| Nauset High School | Eastham | MA | https://www.nausetschools.org/o/nrhs | US News National HS Rank #2,051 | Nauset Regional High School, PUBLIC, Cape Cod. No standalone domain; this path is its homepage |
 | North Boise Jr. High School | Boise | ID | https://north.boiseschools.org | — | NAME AS PUBLISHED. The actual school is North Junior High School, a PUBLIC grades 7-9 junior high |
-| Phoebus High School | Hampton | VA | https://phs.hampton.k12.va.us | — | PUBLIC, Hampton City Schools |
-| St. Martin High School | Ocean Springs | MS | https://smhs.jcsd.ms | — | Trinity’s own note says Mississippi. PUBLIC 9-12, Jackson County School District — filed by Trinity under boarding, but it is neither boarding nor independent |
-| A.C. Reynolds High School |  |  | — | — |  |
-| Ardrey Kell High School |  |  | — | — |  |
-| Butler High School |  |  | — | — |  |
+| Phoebus High School | Hampton | VA | https://phs.hampton.k12.va.us | US News National HS Rank #5,183 | PUBLIC, Hampton City Schools |
+| St. Martin High School | Ocean Springs | MS | https://smhs.jcsd.ms | US News National HS Rank #4,926 | Trinity’s own note says Mississippi. PUBLIC 9-12, Jackson County School District — filed by Trinity under boarding, but it is neither boarding nor independent |
+| A.C. Reynolds High School |  |  | — | US News National HS Rank #2,778 |  |
+| Ardrey Kell High School |  |  | — | US News National HS Rank #475 |  |
+| Butler High School |  |  | — | US News National HS Rank #3,202 |  |
 | Central High School |  |  | — | — |  |
-| Chambers High School |  |  | — | — |  |
-| Charlotte Engineering Early College |  |  | — | — |  |
-| Cox Mill High School |  |  | — | — |  |
-| East Gaston High School |  |  | — | — |  |
-| East Lincoln High School |  |  | — | — |  |
-| East Mecklenburg High School |  |  | — | — |  |
-| Harding High School |  |  | — | — |  |
-| Hawthorne Academy of Health Sciences |  |  | — | — |  |
-| Hickory Ridge High School |  |  | — | — |  |
-| Hopewell High School |  |  | — | — |  |
-| Hough High School |  |  | — | — |  |
-| Indian Land High School |  |  | — | — |  |
-| JM Robinson High School |  |  | — | — |  |
-| Julius L. Chambers High School |  |  | — | — |  |
-| Lake Norman Charter School |  |  | — | — |  |
-| Lake Norman High School |  |  | — | — |  |
-| Langtree Charter Academy |  |  | — | — |  |
+| Charlotte Engineering Early College |  |  | — | US News National HS Rank #567 |  |
+| Cox Mill High School |  |  | — | US News National HS Rank #1,369 |  |
+| East Gaston High School |  |  | — | US News National HS Rank #8,349 |  |
+| East Lincoln High School |  |  | — | US News National HS Rank #5,475 |  |
+| East Mecklenburg High School |  |  | — | US News National HS Rank #2,837 |  |
+| Harding High School |  |  | — | US News National HS Rank #13,460-17,945 |  |
+| Hawthorne Academy of Health Sciences |  |  | — | US News National HS Rank #6,927 |  |
+| Hickory Ridge High School |  |  | — | US News National HS Rank #2,102 |  |
+| Hopewell High School |  |  | — | US News National HS Rank #9,343 |  |
+| Hough High School |  |  | — | US News National HS Rank #1,342 |  |
+| Indian Land High School |  |  | — | US News National HS Rank #4,994 |  |
+| JM Robinson High School |  |  | — | US News National HS Rank #9,862 |  |
+| Julius L. Chambers High School |  |  | — | US News National HS Rank #13,460-17,945 |  |
+| Lake Norman Charter School |  |  | — | US News National HS Rank #570 |  |
+| Lake Norman High School |  |  | — | US News National HS Rank #2,815 |  |
+| Langtree Charter Academy |  |  | — | US News National HS Rank #5,335 |  |
 | Laurel Springs High School |  |  | — | — |  |
-| Mallard Creek High School |  |  | — | — |  |
-| Mountain Island Charter School |  |  | — | — |  |
-| Myers Park High School |  |  | — | — |  |
-| North Lincoln High School |  |  | — | — |  |
-| North Mecklenburg High School |  |  | — | — |  |
-| Northwest School of the Arts |  |  | — | — |  |
-| Phillip O’Berry Academy of Technology |  |  | — | — |  |
-| Porter Ridge High School |  |  | — | — |  |
-| Providence High School |  |  | — | — |  |
-| Queens Grant High School |  |  | — | — |  |
-| Robinson High School |  |  | — | — |  |
-| Rocky River High School |  |  | — | — |  |
-| South Mecklenburg High School |  |  | — | — |  |
-| Stuart W. Cramer High School |  |  | — | — |  |
+| Mallard Creek High School |  |  | — | US News National HS Rank #7,774 |  |
+| Mountain Island Charter School |  |  | — | US News National HS Rank #2,639 |  |
+| Myers Park High School |  |  | — | US News National HS Rank #1,655 |  |
+| North Lincoln High School |  |  | — | US News National HS Rank #4,471 |  |
+| North Mecklenburg High School |  |  | — | US News National HS Rank #5,938 |  |
+| Northwest School of the Arts |  |  | — | US News National HS Rank #1,314 |  |
+| Phillip O’Berry Academy of Technology |  |  | — | US News National HS Rank #3,863 |  |
+| Porter Ridge High School |  |  | — | US News National HS Rank #4,721 |  |
+| Providence High School |  |  | — | US News National HS Rank #526 |  |
+| Queens Grant High School |  |  | — | US News National HS Rank #13,460-17,945 |  |
+| Rocky River High School |  |  | — | US News National HS Rank #12,122 |  |
+| South Mecklenburg High School |  |  | — | US News National HS Rank #5,217 |  |
+| Stuart W. Cramer High School |  |  | — | US News National HS Rank #8,598 |  |
 | University of North Carolina School of the Arts |  |  | — | — |  |
-| West Mecklenburg High School |  |  | — | — |  |
+| West Mecklenburg High School |  |  | — | US News National HS Rank #13,460-17,945 |  |
 | Westwood High School |  |  | — | — |  |
 
