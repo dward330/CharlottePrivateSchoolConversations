@@ -8,8 +8,9 @@
 > Source page: <https://www.usnews.com/best-colleges/rankings/national-universities>
 > Local file: `~/Downloads/2027 Best National Universities Rankings _ US News College Rankings.pdf`
 > (130 pages, ~80 MB, **not committed** — bulky binaries stay gitignored per the
-> data-provenance standard). The parsed rows are committed beside this file as
-> `us-news-2027-national-pdf-harvest.json`.
+> data-provenance standard). The parsed rows are committed as the markdown table
+> at the bottom of **this file** — `.gitignore` exempts only `*.md` under
+> `source-material/`, so a sidecar `.json` beside it would be silently dropped.
 
 ## Edition confirmed
 
@@ -100,9 +101,16 @@ our canonical keys:
 **Resolve these by alias against the harvest before fetching anything** — each one
 resolved is a profile fetch avoided, and the ban risk scales with fetch count.
 
-Genuinely absent and needing a live fetch: **Iowa State, Louisiana State, UT
+Absent from this PDF and needing a live fetch: **Iowa State, Louisiana State, UT
 Dallas**, plus the deep tail (old rank >#300) and every row whose 2026 label is a
 band (`#395-434`).
+
+> **Resolved 2026-09-22 (implementation).** All three ARE ranked in 2027 — Iowa
+> State **#116** (as *Iowa State University of Science and Technology*), LSU
+> **#202** (*…and Agricultural & Mechanical College*), UT Dallas **#121** (*The
+> University of Texas--Dallas*). They were missing from the print-out, not from
+> the ranking, which is the concrete case for the rule above: **never infer
+> "unranked" from absence.** All three came from the live National list page.
 
 ## ⛔ Liberal Arts is NOT covered
 
