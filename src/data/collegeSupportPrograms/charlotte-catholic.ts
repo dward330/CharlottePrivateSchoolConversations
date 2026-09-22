@@ -547,7 +547,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       },
       {
         kind: 'verify',
-        text: 'Bucket membership is scored against the app’s master U.S. News 2026 table rather than by the school, which publishes the institution names only.',
+        text: 'Bucket membership is scored against the app’s master U.S. News 2027 table rather than by the school, which publishes the institution names only.',
       },
     ],
     sources: [

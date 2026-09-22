@@ -621,7 +621,7 @@ export const cannon: CollegeSupportProgram = {
       { label: 'cannonschool.org — 2024–25 School Profile (the 2022–24 acceptance list)', url: PROFILE_2425 },
       { label: '2025–26 School Profile (Class of 2025 outcomes)', url: PROFILE_2526 },
       { label: 'College Counseling resources (Class of 2023 matriculation list)', url: 'https://www.cannonschool.org/college-counseling-resources-clone' },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
 

@@ -706,7 +706,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { label: 'charlottecountryday.org — College Acceptances 2023–2026 (PDF)', url: ACCEPTANCES },
       { label: 'News — Class of 2026 college admissions outcomes', url: CLASS_2026 },
       { label: '2025–26 School Profile (Class of 2025 outcomes, regional split)', url: PROFILE_2526 },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
 
