@@ -70,6 +70,38 @@ candidate. The checker's own rule is authoritative and must be obeyed:
 
 Both checks pass on `main` today (verified), so any failure is caused by this change.
 
+### ⚠️ The Top-75 COUNTS move too — not just the tags
+
+**This was missed on the 2027 pass and is the reason `check:buckets` now gates
+it.** The bucket cascade above is about `cats` *tags*. Separately, every school
+prints a **Top-75 tier COUNT**, and those are derived from the ranks — so a new
+edition moves them silently. #316 shipped green with all 11 schools still
+printing their 2026 counts (Cannon `46 / 75` when 66 institutions qualified).
+
+The counts live on **four** surfaces, and all four must move together:
+
+1. the `buckets` row in `src/data/collegeSupportPrograms/<slug>.ts`
+2. a stat tile, on the schools that have one
+3. the Compare cell in `src/data/metricValues.ts`
+4. **the qual sentence that spells the figure out in prose** (`"58 of the top
+   75 National Universities appear on …"`) — a number in prose drifts exactly
+   as easily as one in a cell, and this is the surface a reviewer forgets
+
+Counted as **distinct institutions** via `canonicalRanked()`, never as tagged
+rows, and **clamped at 75**: ties put 79 National and 77 Liberal institutions
+inside the band, so a saturated school reads `75 / 75`, not `77 / 75`.
+
+`npm run check:buckets` now fails on any of the four, so this cannot ship
+stale again — but **recompute rather than waiting for the checker**, and
+re-date the edition prose (`"matched against the 2027 U.S. News tables"`) in
+the same pass. `Redesign Research 2026` is a dossier filename, not an edition;
+leave it.
+
+⚠️ **This is what makes a rankings update TWO-PHASE.** Editing that English
+prose invalidates the overlay stamps for those strings — 360 of them on the
+2027 pass (40 entries × 9 locales) — so `check:live` fails until Phase 2
+re-translates them. Plan for it rather than discovering it at build time.
+
 ### The `.md` companion, and a gap worth knowing
 
 `source-material/college-support/_shared/US News 2026 - Rank Labels.md` is the
