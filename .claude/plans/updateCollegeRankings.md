@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-09-22
 branch: feat/update-college-rankings
-prs: [316]
+prs: [316, 317]
 ---
 
 # Update the master college-rankings table to the US News 2027 edition
@@ -519,3 +519,47 @@ from the master were **not added** (the plan's stated default). Separately,
 **25 colleges dropped out of the national tables entirely** this year; their
 acceptance-list rows now render with no label, which is correct but is a
 visible change on those pages worth a look.
+
+### Follow-up: PR #317 — the Top-75 counts
+
+**#316 shipped incomplete and green.** It refreshed the ranks but left every
+Top-75 tier COUNT at its 2026 value, because `check:buckets` verified only the
+`cats` tags. Cannon rendered `46 / 75` while 66 institutions qualified. Found
+by the user, not by any check.
+
+#317 recomputes them as distinct institutions (`canonicalRanked()`, new,
+beside `canonicalMember()`), clamped at the published denominator — ties put 79
+National and 77 Liberal institutions in the band, so a saturated school reads
+`75 / 75`. Denominator kept at `/75` (user's call).
+
+**`check:buckets` now gates four printed surfaces**, each confirmed by a
+negative test: the `buckets` row, a stat tile, the Compare cell, and the qual
+sentence that spells the figure out in prose. Simulated against what #316
+actually shipped, it catches all six stale surfaces and exits 1.
+
+**It was genuinely two-phase after all.** This plan asserted "Single-phase —
+adds no user-facing text", and that was wrong: the counts and the edition date
+ARE user-facing text. Editing them invalidated 72 overlay stamps per locale,
+and `check:live` caught it. Phase 2 re-stamped 693 overlay entries plus 693
+work-file counterparts.
+
+Phase 2 was a **transform, not a re-translation**: all 72 changed English
+strings were a pure year swap (34) or a pure digit change (38), none reworded,
+so each reviewed translation was carried forward with only its number updated.
+That preserved nine native-speaker reviews.
+
+Three process lessons worth keeping:
+
+- **`check:live` caps its display at 10 per file.** Reading the capped output
+  as the total under-counted the work by 5x (72 stale per locale, not 13). The
+  same "sample size doubling as coverage" trap this repo already recorded for
+  `i18n_audit_skips.mjs`.
+- **The overlay path names the owning school INSIDE the path**
+  (`providence-day:[6].quals.cannon.text`), not in the leading prefix. Reading
+  the prefix as the school silently resolved 13 of 72 entries — a wrong answer
+  that looked like a complete one.
+- **Never `git stash` in this working tree.** It is shared, and a bare
+  `git stash pop` popped a DIFFERENT branch's stash (`feat/add-carmel-christian`)
+  and left a conflicted tree. Compare against another ref with
+  `git show <ref>:<path>` or a throwaway worktree instead. Same class of hazard
+  as `git add -A`, which CLAUDE.md already bans for the same reason.
