@@ -286,13 +286,13 @@ export const covenantDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Dartmouth, Penn; both bolded (matriculated)' },
       { tier: '“Ivy Plus”', count: '3 / 17', note: '— adds Duke, also bolded' },
-      { tier: 'Top-75 National Universities', count: '40 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '9 / 75', note: '— Davidson through Gettysburg' },
+      { tier: 'Top-75 National Universities', count: '36 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '10 / 75', note: '— Davidson through Gettysburg' },
       { tier: 'Power Four', count: '46 / 68', note: '— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12' },
       { tier: 'HBCUs', count: '3 / 107', note: '— Fayetteville State, Johnson C. Smith, NC A&T' },
     ],
     bucketsNote:
-      'Derived by this research from the school’s published list against the 2026 U.S. News tables — the same rosters used for the other schools here, not figures the school reports. Earlier windows ran higher: the 2018–2023 highlights include Stanford, MIT, Princeton, Brown, Cornell and Vanderbilt, and the 2021–2024 list adds five UC campuses.',
+      'Derived by this research from the school’s published list against the 2027 U.S. News tables — the same rosters used for the other schools here, not figures the school reports. Earlier windows ran higher: the 2018–2023 highlights include Stanford, MIT, Princeton, Brown, Cornell and Vanderbilt, and the 2021–2024 list adds five UC campuses.',
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges: [
       { name: 'American College of Building Arts', cats: [] },

@@ -32,7 +32,7 @@ import type { CollegeSupportProgram } from '../collegeSupport.ts'
    profile's own key — an asterisk marks a college where AT LEAST ONE student
    matriculated during the period. It is not a count, and it does not mean a
    student enrolled from every class. Rank labels and buckets are scored against
-   the 2026 U.S. News tables. */
+   the 2027 U.S. News tables. */
 const colleges = [
   { name: 'Allegheny College', cats: [] },
   { name: 'American University', cats: [], enrolling: true },
@@ -653,13 +653,13 @@ export const charlotteLatin: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '5 / 8', note: '— all five matriculated; absent Columbia, Princeton, Penn' },
       { tier: '“Ivy Plus”', count: '12 / 17', note: '— absent Johns Hopkins and Caltech' },
-      { tier: 'Top-75 National Universities', count: '53 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '40 / 75' },
+      { tier: 'Top-75 National Universities', count: '67 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '42 / 75' },
       { tier: 'Power Four', count: '61 / 68', note: '— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12' },
       { tier: 'HBCUs', count: '7 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     bucketsNote:
-      'Counts here are computed from the same 300-institution list you can filter at right, scored against the 2026 U.S. News tables. The Ivy and Power Four figures are exact — those memberships are fixed. The Top-75 counts are approximate to within a few places, because U.S. News publishes heavy ties around the 70–75 boundary. The three Ivy absences were confirmed by direct string search of the profile PDF; a summary of the school’s own web Acceptances page asserted Princeton was present, and the PDF governs.',
+      'Counts here are computed from the same 300-institution list you can filter at right, scored against the 2027 U.S. News tables. The Ivy and Power Four figures are exact — those memberships are fixed. The Top-75 counts are approximate to within a few places, because U.S. News publishes heavy ties around the 70–75 boundary. The three Ivy absences were confirmed by direct string search of the profile PDF; a summary of the school’s own web Acceptances page asserted Princeton was present, and the PDF governs.',
     collegesTitle: 'Every acceptance, 2023–2025',
     colleges,
     collegesTotal: '300 institutions · bold = at least one student matriculated',

@@ -27,7 +27,7 @@ import type { CollegeSupportProgram } from '../collegeSupport.ts'
 /* The Classes of 2023–2026 acceptance list, as of 5/28/2026: 320 institutions.
    `enrolling` follows the PDF's own key — bold marks a school enrolling one or
    more members of the Class of 2026. Rank labels and buckets are scored against
-   the 2026 U.S. News tables. */
+   the 2027 U.S. News tables. */
 const colleges = [
   { name: 'Agnes Scott College', cats: ['lac75'], enrolling: true },
   { name: 'Albany State University', cats: ['hbcu'] },
@@ -675,13 +675,13 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across the 2023–2026 list' },
       { tier: '“Ivy Plus”', count: '13 / 17', note: '— Stanford and Duke enrolling' },
-      { tier: 'Top-75 National Universities', count: '55 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '41 / 75', note: '— includes all three federal service academies' },
+      { tier: 'Top-75 National Universities', count: '70 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '43 / 75', note: '— includes all three federal service academies' },
       { tier: 'Power Four', count: '61 / 68' },
       { tier: 'HBCUs', count: '18 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     bucketsNote:
-      'Counts are computed from the same 320-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported. Note that none of the seven Ivies is bolded for the Class of 2026: no member of that class enrolled at an Ivy, though the Class of 2025 enrolled at Brown, Cornell, Dartmouth, Princeton and Yale. That is a real year-over-year swing rather than a data artefact.',
+      'Counts are computed from the same 320-institution list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported. Note that none of the seven Ivies is bolded for the Class of 2026: no member of that class enrolled at an Ivy, though the Class of 2025 enrolled at Brown, Cornell, Dartmouth, Princeton and Yale. That is a real year-over-year swing rather than a data artefact.',
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
     collegesTotal: '320 institutions · bold = enrolling a Class of 2026 student',

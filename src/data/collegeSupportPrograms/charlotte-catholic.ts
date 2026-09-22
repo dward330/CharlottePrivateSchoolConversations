@@ -48,7 +48,7 @@ const NCSU = 'https://admissions.ncsu.edu/venue/charlotte-catholic-high-school/'
 
 /* The 169 institutions CCHS graduates matriculated to across the Classes of
    2023–2025, exactly as printed on the School Profile. Buckets are scored
-   against the 2026 U.S. News tables in the master COLLEGE_RANKINGS and the
+   against the 2027 U.S. News tables in the master COLLEGE_RANKINGS and the
    shared Power Four / HBCU rosters in source-material/college-support/_shared/.
    Rank labels are NOT stored here: they resolve from the master at render time.
    Campus parentheticals ('(Tempe)', '(Main Campus)') are reproduced verbatim

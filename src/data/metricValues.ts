@@ -281,7 +281,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'bucket-ivy',
     label: 'Ivy League',
-    note: 'Of the 8 Ivy League universities, how many appear on the school’s published acceptance list. Derived from that list against the 2026 U.S. News tables — not a school-reported figure.',
+    note: 'Of the 8 Ivy League universities, how many appear on the school’s published acceptance list. Derived from that list against the 2027 U.S. News tables — not a school-reported figure.',
     // "43 / 68" is a real fraction and ranks as the quotient. The default
     // reading (4368) orders these rows correctly ONLY while every denominator
     // in the row is identical — true today, but luck rather than logic.
@@ -309,20 +309,20 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Yale and Dartmouth, scored across the whole 2019–2025 acceptance window rather than a single class. The denominator is the eight Ivy League institutions.',
       },
-      cannon: { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '5 of the 8 Ivy League universities appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'covenant-day': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '8 of the 8 Ivy League universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '5 of the 8 Ivy League universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'covenant-day': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '8 of the 8 Ivy League universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'One of the eight Ivy League universities (Princeton) appears on the school’s cumulative acceptance list.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'None of the 8 Ivy League universities appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.',
+        text: 'None of the 8 Ivy League universities appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -358,20 +358,20 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Six of the seventeen “Ivy Plus” institutions — Yale and Dartmouth plus Stanford, Duke, Johns Hopkins and Georgetown — appear across the 2019–2025 acceptance window rather than in any single class.',
       },
-      cannon: { kind: 'scope', text: '10 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '4 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '13 of the 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '12 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'covenant-day': { kind: 'scope', text: '3 of the 17 “Ivy Plus” institutions appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '8 of the 17 “Ivy Plus” institutions appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '17 of the 17 “Ivy Plus” institutions appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '10 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '4 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '13 of the 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '12 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'covenant-day': { kind: 'scope', text: '3 of the 17 “Ivy Plus” institutions appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '8 of the 17 “Ivy Plus” institutions appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '17 of the 17 “Ivy Plus” institutions appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Two of the seventeen “Ivy Plus” schools (Princeton, Duke) appear on the acceptance list.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'None of the 17 “Ivy Plus” institutions appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.',
+        text: 'None of the 17 “Ivy Plus” institutions appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -379,48 +379,48 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'bucket-nu75',
     label: 'Top-75 National Universities',
-    note: 'Of the top 75 National Universities in the 2026 U.S. News table, how many appear on the school’s acceptance list.',
+    note: 'Of the top 75 National Universities in the 2027 U.S. News table, how many appear on the school’s acceptance list.',
     // "43 / 68" is a real fraction and ranks as the quotient. The default
     // reading (4368) orders these rows correctly ONLY while every denominator
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '46 / 75', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '30 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '36 / 75', // scored against the 2026 US News National Universities table, Classes 2023-2025 matriculation list
-      'charlotte-country-day': '55 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '53 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
-      'covenant-day': '40 / 75', // worked classification in the Redesign Research 2026 dossier
-      'carmel-christian': '32 / 75', // counted from the cats list in collegeSupportPrograms/carmel-christian.ts; the dossier's "~25-29" was a pre-ingest estimate
-      'davidson-day': '44 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '22 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
-      'gaston-day': '41 / 75', // scored against the 2026 US News National Universities table, 2019-2025 list
-      'providence-day': '58 / 75', // buckets, collegeSupportPrograms/providence-day.ts
+      cannon: '66 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '39 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-catholic': '36 / 75', // scored against the 2027 US News National Universities table, Classes 2023-2025 matriculation list
+      'charlotte-country-day': '70 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '67 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'covenant-day': '36 / 75', // worked classification in the Redesign Research 2026 dossier
+      'carmel-christian': '30 / 75', // counted from the cats list in collegeSupportPrograms/carmel-christian.ts; the dossier's "~25-29" was a pre-ingest estimate
+      'davidson-day': '48 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '20 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
+      'gaston-day': '58 / 75', // scored against the 2027 US News National Universities table, 2019-2025 list
+      'providence-day': '75 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Scored against the 2026 US News National Universities table over the Classes of 2023-2025 matriculation list. Not comparable like-for-like with schools on this table that publish acceptance lists.',
+          'Scored against the 2027 US News National Universities table over the Classes of 2023-2025 matriculation list. Not comparable like-for-like with schools on this table that publish acceptance lists.',
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'U.S. News Top-75 National Universities named on the 2019–2025 acceptance list, scored against the 2026 tables. A seven-year cumulative count, not one class.',
+        text: 'U.S. News Top-75 National Universities named on the 2019–2025 acceptance list, scored against the 2027 tables. A seven-year cumulative count, not one class.',
       },
-      cannon: { kind: 'scope', text: '46 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '30 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '55 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '53 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'covenant-day': { kind: 'scope', text: '40 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '44 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '58 of the top 75 National Universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '66 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '39 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '70 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '67 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'covenant-day': { kind: 'scope', text: '36 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '48 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '75 of the top 75 National Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'minimum',
         text: 'A count of US News Top-75 National Universities named on the school’s cumulative acceptance list, which states no year window. Several schools sit near the current-year ranking cut.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '22 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.',
+        text: '20 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -428,48 +428,48 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'bucket-lac75',
     label: 'Top-75 Liberal Arts',
-    note: 'Of the top 75 Liberal Arts Colleges in the 2026 U.S. News table, how many appear on the school’s acceptance list.',
+    note: 'Of the top 75 Liberal Arts Colleges in the 2027 U.S. News table, how many appear on the school’s acceptance list.',
     // "43 / 68" is a real fraction and ranks as the quotient. The default
     // reading (4368) orders these rows correctly ONLY while every denominator
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '27 / 75', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '7 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '17 / 75', // scored against the 2026 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
-      'charlotte-country-day': '41 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '40 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
-      'covenant-day': '9 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
-      'carmel-christian': '10 / 75', // counted from the cats list; the dossier enumerates all ten, so the earlier 7 undercounted
-      'davidson-day': '26 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
-      'gaston-day': '23 / 75', // scored against the 2026 US News National Liberal Arts table, 2019-2025 list
-      'providence-day': '43 / 75', // buckets, collegeSupportPrograms/providence-day.ts
+      cannon: '30 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '9 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-catholic': '17 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
+      'charlotte-country-day': '43 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '42 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'covenant-day': '10 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
+      'carmel-christian': '11 / 75', // counted from the cats list; the dossier enumerates all ten, so the earlier 7 undercounted
+      'davidson-day': '28 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '8 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
+      'gaston-day': '24 / 75', // scored against the 2027 US News National Liberal Arts table, 2019-2025 list
+      'providence-day': '51 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Scored against the 2026 US News National Liberal Arts table, and includes all three service academies — Naval #3, Air Force #5 and West Point #10. CCHS reported three Naval Academy appointments in 2025 alone.',
+          'Scored against the 2027 US News National Liberal Arts table, and includes all three service academies — Naval #3, Air Force #5 and West Point #10. CCHS reported three Naval Academy appointments in 2025 alone.',
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'U.S. News Top-75 National Liberal Arts Colleges on the 2019–2025 list, scored against the 2026 tables. Includes Swarthmore, Middlebury, Davidson, Colby and Bryn Mawr.',
+        text: 'U.S. News Top-75 National Liberal Arts Colleges on the 2019–2025 list, scored against the 2027 tables. Includes Swarthmore, Middlebury, Davidson, Colby and Bryn Mawr.',
       },
-      cannon: { kind: 'scope', text: '27 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '7 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '41 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '40 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'covenant-day': { kind: 'scope', text: '9 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '26 of the top 75 Liberal Arts Colleges appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '43 of the top 75 Liberal Arts Colleges appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '30 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '9 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '43 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '42 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'covenant-day': { kind: 'scope', text: '10 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '28 of the top 75 Liberal Arts Colleges appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '51 of the top 75 Liberal Arts Colleges appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'minimum',
         text: 'US News Top-75 Liberal Arts Colleges named on the cumulative acceptance list; a couple sit near the ranking cut.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2026 U.S. News tables.',
+        text: '8 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.',
       },
     },
   },
@@ -505,16 +505,16 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '36 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.',
       },
-      cannon: { kind: 'scope', text: '43 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '34 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '53 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '43 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '34 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '53 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': {
         kind: 'scope',
         text: 'Counted from the school’s published acceptance list against the Power Four conferences. The researcher’s own tally reached 62; the figure shown, 53, is the conservative count reflected in this table.',
       },
       'covenant-day': { kind: 'scope', text: '46 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Covenant Day’s published 2023–2026 acceptance list — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. Not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '57 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '57 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.',
@@ -557,13 +557,13 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
       },
-      cannon: { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Historically Black colleges and universities named on the acceptance list.',

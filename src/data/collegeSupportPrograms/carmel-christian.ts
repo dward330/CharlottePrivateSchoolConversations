@@ -550,13 +550,13 @@ export const carmelChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '1 / 8', note: '— Princeton' },
       { tier: '“Ivy Plus”', count: '2 / 17', note: '— adds Duke' },
-      { tier: 'Top-75 National Universities', count: '32 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '10 / 75', note: '— incl. Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Richmond, Trinity, Wofford, Agnes Scott, Centre' },
+      { tier: 'Top-75 National Universities', count: '30 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '11 / 75', note: '— incl. Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Richmond, Trinity, Wofford, Agnes Scott, Centre' },
       { tier: 'Power Four', count: '44 / 68' },
       { tier: 'HBCUs', count: '8 / 107', note: '— incl. Hampton, Howard, NC A&T, Florida A&M' },
     ],
     bucketsNote:
-      'Counts are derived by this research from the same ~215-institution list you can filter at right, scored against the 2026 U.S. News tables — not figures the school reports. The list preserves the page’s verbatim duplicates (SCAD appears three ways; Alabama appears bare and as Tuscaloosa/Birmingham/Huntsville), and includes two non-college destinations — the United States Marine Corps and NASCAR Technical Institute.',
+      'Counts are derived by this research from the same ~215-institution list you can filter at right, scored against the 2027 U.S. News tables — not figures the school reports. The list preserves the page’s verbatim duplicates (SCAD appears three ways; Alabama appears bare and as Tuscaloosa/Birmingham/Huntsville), and includes two non-college destinations — the United States Marine Corps and NASCAR Technical Institute.',
     collegesTitle: 'Every named acceptance',
     colleges,
     collegesTotal: '~215 institutions · no time window, counts or matriculation markings published',
