@@ -26,7 +26,7 @@ import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
 /* The 2022–2024 acceptance list (283 institutions), with the Class of 2023
    matriculation list folded in and used to mark `enrolling`. Rank labels and
-   buckets are scored against the 2026 U.S. News tables. */
+   buckets are scored against the 2027 U.S. News tables. */
 const colleges = [
   { name: 'Agnes Scott College', cats: ['lac75'] },
   { name: 'American University', cats: [], enrolling: true },
@@ -591,13 +591,13 @@ export const cannon: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Penn; absent Harvard, Yale, Princeton, Dartmouth, Columbia' },
       { tier: '“Ivy Plus”', count: '10 / 17' },
-      { tier: 'Top-75 National Universities', count: '46 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '27 / 75' },
+      { tier: 'Top-75 National Universities', count: '66 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '30 / 75' },
       { tier: 'Power Four', count: '52 / 68' },
       { tier: 'HBCUs', count: '5 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     bucketsNote:
-      'Counts are computed from the same list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported. The Ivy count is reported strictly: the list contains “Columbia College”, which almost certainly means Columbia College in South Carolina, Chicago or Missouri rather than Columbia University, since the latter would be printed as “Columbia University”. Read loosely it would be 4 of 8; both readings are stated rather than one being picked.',
+      'Counts are computed from the same list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported. The Ivy count is reported strictly: the list contains “Columbia College”, which almost certainly means Columbia College in South Carolina, Chicago or Missouri rather than Columbia University, since the latter would be printed as “Columbia University”. Read loosely it would be 4 of 8; both readings are stated rather than one being picked.',
     collegesTitle: 'Every acceptance, 2022–2024',
     colleges,
     collegesTotal: '283 institutions · bold = a Class of 2023 student enrolled',

@@ -27,7 +27,7 @@ import type { CollegeSupportProgram } from '../collegeSupport.ts'
 /* The Classes of 2023–2025 acceptance list: 186 institutions. `enrolling`
    follows the brochure's own key — an asterisk marks a college where at least
    one Class of 2025 graduate enrolled. Rank labels and buckets are scored
-   against the 2026 U.S. News tables. */
+   against the 2027 U.S. News tables. */
 const colleges = [
   { name: 'Abilene Christian University', cats: [], enrolling: true },
   { name: 'The University of Alabama-Birmingham', cats: [] },
@@ -517,13 +517,13 @@ export const charlotteChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Cornell and Dartmouth; Yale appears only on the older list' },
       { tier: '“Ivy Plus”', count: '4 / 17' },
-      { tier: 'Top-75 National Universities', count: '30 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '7 / 75' },
+      { tier: 'Top-75 National Universities', count: '39 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '9 / 75' },
       { tier: 'Power Four', count: '40 / 68' },
       { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     bucketsNote:
-      'Counts are computed from the same 186-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported. Six of the eight Ivies are absent from the 2023–25 list; Harvard, Princeton, Brown and Penn appear on neither published list. Top-75 boundary placements in the 40–75 band are indicative, as the ranking source could not be machine-verified in full.',
+      'Counts are computed from the same 186-institution list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported. Six of the eight Ivies are absent from the 2023–25 list; Harvard, Princeton, Brown and Penn appear on neither published list. Top-75 boundary placements in the 40–75 band are indicative, as the ranking source could not be machine-verified in full.',
     collegesTitle: 'Every acceptance, 2023–2025',
     colleges,
     collegesTotal: '186 institutions · bold = a Class of 2025 graduate enrolled',

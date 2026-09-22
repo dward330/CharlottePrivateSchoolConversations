@@ -73,6 +73,14 @@ try {
   process.exit(2)
 }
 
+let canonicalRanked
+try {
+  ;({ canonicalRanked } = await import('../src/data/collegeMemberships.ts'))
+} catch (e) {
+  console.error(`check:buckets — cannot import collegeMemberships.ts: ${e.message}`)
+  process.exit(2)
+}
+
 let files
 try {
   files = readdirSync(DIR)
@@ -102,6 +110,9 @@ function qualifies(label, bucket) {
 const unparseable = new Map()
 const over = []
 const under = []
+const counts = []
+/** slug -> { nu75, lac75 } distinct-institution tallies. */
+const institutions = {}
 let entries = 0
 
 for (const file of files) {
@@ -115,9 +126,16 @@ for (const file of files) {
   }
   const program = Object.values(mod)[0]
   const colleges = program?.outcomes?.colleges ?? []
+  const distinct = { nu75: new Set(), lac75: new Set() }
   for (const c of colleges) {
     entries++
     const label = rankLabelFor(c.name)
+    // Tally DISTINCT INSTITUTIONS, not tagged rows: one institution written two
+    // ways ("SUNY Buffalo" / "SUNY University at Buffalo") must count once.
+    const key = canonicalRanked(c.name)
+    if (key) {
+      for (const bucket of BUCKETS) if (qualifies(label, bucket)) distinct[bucket].add(key)
+    }
     if (label && !/^(National|Liberal) Rank #\d+(-\d+)?$/.test(label.trim()))
       unparseable.set(label, (unparseable.get(label) ?? 0) + 1)
     const cats = c.cats ?? []
@@ -128,6 +146,68 @@ for (const file of files) {
       else if (!tagged && ok) under.push({ slug, name: c.name, bucket, label })
     }
   }
+
+  institutions[slug] = { nu75: distinct.nu75.size, lac75: distinct.lac75.size }
+
+  // Surfaces 1 and 2: the `buckets` row and any stat tile on the school page.
+  // Ties make the band hold more than 75 institutions, so a saturated school
+  // clamps at the published denominator rather than printing "77 / 75".
+  const want = (b) => Math.min(institutions[slug][b], CUTOFF)
+  const bucketOf = (label) =>
+    /Top-?75 National/i.test(label) ? 'nu75' : /Top-?75 Liberal/i.test(label) ? 'lac75' : null
+  for (const b of program?.outcomes?.buckets ?? []) {
+    const bucket = bucketOf(String(b.tier ?? ''))
+    if (!bucket) continue
+    const m = /^(\d+)\s*\/\s*75$/.exec(String(b.count ?? '').trim())
+    if (!m) continue
+    if (Number(m[1]) !== want(bucket))
+      counts.push({ slug, tier: b.tier, got: Number(m[1]), want: want(bucket), where: 'buckets row' })
+  }
+  for (const t of program?.outcomes?.stats ?? []) {
+    const bucket = bucketOf(String(t.label ?? ''))
+    if (!bucket) continue
+    const m = /^(\d+)\s*(?:\/|of)\s*75$/.exec(String(t.value ?? '').trim())
+    if (!m) continue
+    if (Number(m[1]) !== want(bucket))
+      counts.push({ slug, tier: t.label, got: Number(m[1]), want: want(bucket), where: 'stat tile' })
+  }
+}
+
+// Surface 3: the Compare table's own copy of the same two figures, plus the
+// qual sentences that spell the number out in prose.
+try {
+  const { VALUE_METRICS } = await import('../src/data/metricValues.ts')
+  if (!Array.isArray(VALUE_METRICS) || VALUE_METRICS.length === 0) {
+    console.error(
+      'check:buckets — VALUE_METRICS is empty or not an array; the Compare-table pass\n' +
+        'would silently verify nothing. Fix the import rather than ignoring this.',
+    )
+    process.exit(2)
+  }
+  const KEYED = { 'bucket-nu75': 'nu75', 'bucket-lac75': 'lac75' }
+  for (const row of VALUE_METRICS) {
+    const bucket = KEYED[row?.key]
+    if (!bucket) continue
+    for (const [slug, raw] of Object.entries(row?.values ?? {})) {
+      if (institutions[slug] === undefined) continue
+      const want = Math.min(institutions[slug][bucket], CUTOFF)
+      const m = /^(\d+)\s*\/\s*75$/.exec(String(raw).trim())
+      if (m && Number(m[1]) !== want)
+        counts.push({ slug, tier: row.label ?? row.key, got: Number(m[1]), want, where: 'metricValues.ts' })
+    }
+    // The qual prose repeats the figure in words ("58 of the top 75 ..."), and
+    // a number in prose drifts exactly as easily as one in a cell.
+    for (const [slug, q] of Object.entries(row?.quals ?? {})) {
+      if (institutions[slug] === undefined) continue
+      const want = Math.min(institutions[slug][bucket], CUTOFF)
+      const m = /(\d+) of the top 75/.exec(String(q?.text ?? ''))
+      if (m && Number(m[1]) !== want)
+        counts.push({ slug, tier: `${row.label ?? row.key} (qual prose)`, got: Number(m[1]), want, where: 'metricValues.ts' })
+    }
+  }
+} catch (e) {
+  console.error(`check:buckets — cannot import metricValues.ts: ${e.message}`)
+  process.exit(2)
 }
 
 const line = (v) =>
@@ -155,9 +235,24 @@ if (unparseable.size) {
   console.log('')
 }
 
-if (over.length || under.length) {
+if (counts.length) {
+  console.log(`STALE PRINTED COUNT — the rendered figure disagrees with the ranks (${counts.length}):`)
+  for (const c of counts)
+    console.log(
+      `  ✗ ${c.slug} · ${c.where} "${c.tier}" reads ${c.got} / 75 but ` +
+        `${c.want} distinct institution(s) qualify`,
+    )
   console.log(
-    `check:buckets — ${over.length + under.length} bucket/rank disagreement(s) across ` +
+    '\n  These are DERIVED figures: they move whenever the US News edition changes.\n' +
+      '  Counted as institutions, not tagged rows — one institution written two ways\n' +
+      '  counts once — and clamped at 75, because ties put more than 75 schools in\n' +
+      '  the band. Recompute rather than hand-editing.\n',
+  )
+}
+
+if (over.length || under.length || counts.length) {
+  console.log(
+    `check:buckets — ${over.length + under.length + counts.length} disagreement(s) across ` +
       `${entries} colleges in ${files.length} schools.\n` +
       'The master collegeRankings.ts is authoritative: fix the `cats` array in\n' +
       'src/data/collegeSupportPrograms/<slug>.ts, never a rank in the master.',

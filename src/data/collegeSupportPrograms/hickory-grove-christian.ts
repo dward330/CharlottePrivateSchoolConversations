@@ -20,7 +20,7 @@
 // deduplicated, spellings preserved verbatim including the profile's own apparent
 // typos ("Clafin", "Deleware", "Coker University"). It carries no matriculation
 // markings, so `enrolling` is set on NO college. Buckets are scored against the
-// 2026 U.S. News tables; the US News rank label resolves from the single-source
+// 2027 U.S. News tables; the US News rank label resolves from the single-source
 // master src/data/collegeRankings.ts via rankLabelFor(name), not stored here.
 //
 // Not published, and rendered as gaps rather than guessed: class rank (explicit —
@@ -431,13 +431,13 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '0 / 8' },
       { tier: '“Ivy Plus”', count: '0 / 17' },
-      { tier: 'Top-75 National Universities', count: '22 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '9 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
+      { tier: 'Top-75 National Universities', count: '20 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '8 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
       { tier: 'Power Four', count: '25 / 68' },
       { tier: 'HBCUs', count: '20 / 107', note: '— incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk' },
     ],
     bucketsNote:
-      'Counts are derived by this research from the same 132-institution list you can filter at right, scored against the 2026 U.S. News tables — not figures the school reports. The list is the union of the Class of 2023 (81) and Class of 2025 (86) profiles; verbatim spellings are preserved, including the profiles\' own apparent typos ("Clafin", "Deleware", "Coker University"), and community colleges (Central Piedmont, Cape Fear, Rowan-Cabarrus, York Technical) are kept because the school lists them.',
+      'Counts are derived by this research from the same 132-institution list you can filter at right, scored against the 2027 U.S. News tables — not figures the school reports. The list is the union of the Class of 2023 (81) and Class of 2025 (86) profiles; verbatim spellings are preserved, including the profiles\' own apparent typos ("Clafin", "Deleware", "Coker University"), and community colleges (Central Piedmont, Cape Fear, Rowan-Cabarrus, York Technical) are kept because the school lists them.',
     collegesTitle: 'Every named acceptance (2023 + 2025)',
     colleges,
     collegesTotal: '132 institutions across two published class lists · no matriculation markings',

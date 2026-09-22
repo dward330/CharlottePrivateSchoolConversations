@@ -31,7 +31,7 @@ const COUNSELING = 'https://www.gastonday.org/collegecounseling/'
 const UPPER = 'https://www.gastonday.org/upper-school/'
 
 /* The 2019–2025 acceptance list exactly as printed on the Academic Profile —
-   231 distinct institutions. Buckets are scored against the 2026 U.S. News
+   231 distinct institutions. Buckets are scored against the 2027 U.S. News
    tables and the shared Power Four / HBCU rosters in
    source-material/college-support/_shared/. Rank labels are NOT stored here:
    they resolve from the master COLLEGE_RANKINGS table at render time.
@@ -574,13 +574,13 @@ export const gastonDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Yale and Dartmouth' },
       { tier: '“Ivy Plus”', count: '6 / 17', note: '— adds Stanford, Duke, Johns Hopkins, Georgetown' },
-      { tier: 'Top-75 National Universities', count: '41 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '23 / 75', note: '— incl. Swarthmore, Middlebury, Davidson, Colby, Bryn Mawr' },
+      { tier: 'Top-75 National Universities', count: '58 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '24 / 75', note: '— incl. Swarthmore, Middlebury, Davidson, Colby, Bryn Mawr' },
       { tier: 'Power Four', count: '43 / 68' },
       { tier: 'HBCUs', count: '5 / 107', note: '— Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo' },
     ],
     bucketsNote:
-      'Scored across the whole 2019–2025 window against the 2026 U.S. News tables, so these are seven-year cumulative counts, not one class. Specialty art schools on the list (RISD, SCAD, School of Visual Arts, MICA, School of the Art Institute of Chicago, Minneapolis College of Art and Design) and foreign universities (UCL, King’s College London, Toronto, Melbourne, Sydney, Yonsei) hold no U.S. News National or Liberal Arts rank and so score in no bucket — an absence of a label, not of selectivity.',
+      'Scored across the whole 2019–2025 window against the 2027 U.S. News tables, so these are seven-year cumulative counts, not one class. Specialty art schools on the list (RISD, SCAD, School of Visual Arts, MICA, School of the Art Institute of Chicago, Minneapolis College of Art and Design) and foreign universities (UCL, King’s College London, Toronto, Melbourne, Sydney, Yonsei) hold no U.S. News National or Liberal Arts rank and so score in no bucket — an absence of a label, not of selectivity.',
     collegesTitle: 'Every acceptance, 2019–2025',
     colleges,
     collegesTotal: '231 institutions',

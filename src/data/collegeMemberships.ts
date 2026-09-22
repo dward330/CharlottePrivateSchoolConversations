@@ -22,7 +22,7 @@
 // normalization the rank labels use — so `Penn State University` and
 // `Penn State University (University Park)` resolve to one member.
 
-import { normName } from './collegeRankings.ts'
+import { COLLEGE_RANKINGS, normName, rankLabelFor } from './collegeRankings.ts'
 
 /**
  * Power Four member institutions — 68, per the committed membership file.
@@ -298,4 +298,52 @@ export function isPowerFour(name: string): boolean {
 /** Is this college a designated HBCU? Exact (normalized) match, never substring. */
 export function isHbcu(name: string): boolean {
   return HBCU_BY_NORM.has(canon(name, (n) => HBCU_BY_NORM.has(n)))
+}
+
+// ---------------------------------------------------------------------------
+// Ranked-bucket (nu75 / lac75) institution identity.
+//
+// The Top-75 bucket COUNTS are institutions, not tagged rows — the same rule the
+// Power Four and HBCU counts follow. The acceptance lists name one institution
+// several ways ("SUNY Buffalo" / "SUNY University at Buffalo", both Arizona State
+// campuses), so counting `cats` tags double-counts.
+//
+// The roster here is the master rank table itself rather than a hand-kept list:
+// a college is in the top-75 bucket when `rankLabelFor` gives it a National or
+// Liberal rank <= 75. A published band (`National Rank #382-422`) never
+// qualifies — it is a range for unranked-tier schools, always far outside 75.
+
+/** Every master spelling that resolves to a single-number rank <= 75. */
+const RANKED75_BY_NORM = new Map<string, string>()
+for (const name of Object.keys(COLLEGE_RANKINGS)) {
+  const label = rankLabelFor(name)
+  const m = label?.match(/^(National|Liberal) Rank #(\d+)$/)
+  if (!m || Number(m[2]) > 75) continue
+  const n = normName(name)
+  // Prefer the shortest spelling as the institution's representative key, so
+  // every alias of one school collapses to the same member.
+  const cur = RANKED75_BY_NORM.get(n)
+  if (!cur || name.length < cur.length) RANKED75_BY_NORM.set(n, name)
+}
+
+/**
+ * The canonical institution key for a top-75 ranked college, or undefined.
+ *
+ * Use this to count DISTINCT INSTITUTIONS for the `nu75` / `lac75` tiers, the
+ * way `canonicalMember()` is used for `p4` / `hbcu`. Two rows are the same
+ * institution when they resolve to the same master row — never merely when
+ * they share a rank, since ties are real and common (ten schools share
+ * `National Rank #59`).
+ */
+export function canonicalRanked(name: string): string | undefined {
+  const n = canon(name, (x) => RANKED75_BY_NORM.has(x))
+  return RANKED75_BY_NORM.get(n)
+}
+
+/** Which top-75 bucket this college belongs to, or undefined. */
+export function ranked75Bucket(name: string): 'nu75' | 'lac75' | undefined {
+  if (!canonicalRanked(name)) return undefined
+  const label = rankLabelFor(name)
+  if (!label) return undefined
+  return label.startsWith('National') ? 'nu75' : label.startsWith('Liberal') ? 'lac75' : undefined
 }

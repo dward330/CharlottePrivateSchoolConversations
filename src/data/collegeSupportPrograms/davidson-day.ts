@@ -589,13 +589,13 @@ export const davidsonDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Dartmouth' },
       { tier: '“Ivy Plus”', count: '8 / 17', note: '— absent MIT, Stanford, Johns Hopkins, Caltech' },
-      { tier: 'Top-75 National Universities', count: '44 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '26 / 75', note: '— includes 2 service academies' },
+      { tier: 'Top-75 National Universities', count: '48 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '28 / 75', note: '— includes 2 service academies' },
       { tier: 'Power Four', count: '45 / 68' },
       { tier: 'HBCUs', count: '3 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     bucketsNote:
-      'Counts are computed from the same 255-institution list you can filter at right, scored against the 2026 U.S. News tables — they are derived, not school-published. Two service academies rank as Liberal Arts Colleges in that system (Air Force #5, West Point #13), so the LAC figure should not be read as 26 civilian colleges.',
+      'Counts are computed from the same 255-institution list you can filter at right, scored against the 2027 U.S. News tables — they are derived, not school-published. Two service academies rank as Liberal Arts Colleges in that system (Air Force #5, West Point #13), so the LAC figure should not be read as 26 civilian colleges.',
     collegesTitle: 'Every acceptance, 2021–2025',
     colleges,
     collegesTotal: '255 institutions across five graduating classes',

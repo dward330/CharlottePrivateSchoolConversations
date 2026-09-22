@@ -27,7 +27,7 @@ import type { CollegeSupportProgram } from '../collegeSupport.ts'
    page: 382 institutions. `enrolling` follows that page's own key — bold marks a
    school enrolling more than one member of those classes. Note the profile PDF
    uses a DIFFERENT bold threshold ("one or more"), which is flagged on the card.
-   Rank labels and buckets are scored against the 2026 U.S. News tables. */
+   Rank labels and buckets are scored against the 2027 U.S. News tables. */
 const colleges = [
   { name: 'American College of Building Arts', cats: [] },
   { name: 'American University', cats: [] },
@@ -737,13 +737,13 @@ export const providenceDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '8 / 8', note: '— no absences, all bolded' },
       { tier: '“Ivy Plus”', count: '17 / 17', note: '— adds Stanford, MIT, Chicago, Duke, Caltech and peers' },
-      { tier: 'Top-75 National Universities', count: '58 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '43 / 75', note: '— absent Harvey Mudd and Grinnell at the very top' },
+      { tier: 'Top-75 National Universities', count: '75 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '51 / 75', note: '— absent Harvey Mudd and Grinnell at the very top' },
       { tier: 'Power Four', count: '65 / 68', note: '— the full ACC, plus 15 of 16 SEC, 17 of 18 Big Ten and 15 of 16 Big 12' },
       { tier: 'HBCUs', count: '14 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     bucketsNote:
-      'Counts are computed from the same 382-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported figures. Coverage of the Top-75 nationals is close to saturated: it is harder to name one missing than present.',
+      'Counts are computed from the same 382-institution list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported figures. Coverage of the Top-75 nationals is close to saturated: it is harder to name one missing than present.',
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
     collegesTotal: '382 institutions · bold = enrolling more than one graduate',

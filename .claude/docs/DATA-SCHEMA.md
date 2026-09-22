@@ -524,8 +524,9 @@ When adding a school, tag from the masters rather than judging membership by eye
 the checkers will tell you either way, but the reasoning belongs in the master.
 
 - `nu75` / `lac75` — National / Liberal rank **≤75**, inclusive, from the rank label
-  the master resolves. A band (`National Rank #395-434`) never qualifies.
-  `npm run check:buckets` (`scripts/check_selectivity_buckets.mjs`).
+  the master resolves. A band (`National Rank #382-422`) never qualifies.
+  `npm run check:buckets` (`scripts/check_selectivity_buckets.mjs`) gates both the
+  tags AND the printed counts.
 - `p4` / `hbcu` — membership in `src/data/collegeMemberships.ts` (`POWER_FOUR`, 68
   institutions incl. Notre Dame; `HBCUS`). Sourced in
   `source-material/college-support/_shared/`. `npm run check:memberships`
@@ -541,11 +542,29 @@ deleted 12 correct tags and every check would then have reported clean.
 
 **The bucket counts are INSTITUTIONS, not tagged rows, and they live on three
 surfaces.** A school listing both Arizona State campuses has two rows and one
-institution, so counts derive through `canonicalMember()`. The same figure appears in
+institution, so counts derive through `canonicalMember()` (`p4`/`hbcu`) or
+`canonicalRanked()` (`nu75`/`lac75`). The same figure appears in
 the `buckets` row, sometimes a stat tile, and `src/data/metricValues.ts` for the
 Compare table; all three must move together. `check:memberships` gates all three —
 the third was found only by opening the page, which rendered `65 / 68` and `57 / 68`
 at once while every automated check passed.
+
+**⚠️ UPDATING THE US NEWS EDITION MOVES THE TOP-75 COUNTS — they are derived, and
+they are easy to forget.** A new edition rewrites `collegeRankings.ts`, which
+silently changes how many institutions fall inside `nu75`/`lac75` for every school.
+`check:buckets` only verified the *tags* until 2026-09-22, so the 2027 refresh
+landed with all 11 schools still printing their 2026 counts (Cannon `46 / 75` when
+66 qualified). It now also gates **four** printed surfaces — the `buckets` row, a
+stat tile, the `metricValues.ts` Compare cell, and the qual sentence that spells
+the number out in prose (`"58 of the top 75 …"`), a number that drifts exactly as
+easily as one in a cell.
+
+Two rules the counts follow. They are **clamped at the published denominator**:
+ties put 79 National and 77 Liberal institutions inside the top-75 band, so a
+saturated school reads `75 / 75` rather than `77 / 75`. And the prose that dates
+the edition (`"matched against the 2027 U.S. News tables"`) must be re-dated in the
+same pass — `Redesign Research 2026` is a dossier filename, not an edition, and
+stays.
 
 **`wholeClass` score tables carry a percentile header only when the rows genuinely
 hold percentiles.** A school that publishes averages or tier counts instead of
