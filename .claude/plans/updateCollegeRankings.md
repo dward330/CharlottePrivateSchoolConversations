@@ -1,11 +1,11 @@
 ---
 name: updateCollegeRankings
 title: Update every college rank label from the US News 2026 edition to the 2027 edition
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-09-22
 branch: feat/update-college-rankings
-prs: []
+prs: [316]
 ---
 
 # Update the master college-rankings table to the US News 2027 edition
@@ -402,3 +402,88 @@ Single-phase, so one pass.
   stop and report. Do not fall back to Yahoo (it 500s) and do not carry 2026
   figures forward. A stale table that is *labelled* 2026 is safer than a
   half-updated one labelled 2027.
+
+## Implementation notes
+
+Implemented 2026-09-22. **449 rows resolved, 0 unresolved: 395 changed, 29
+unchanged, 25 removed — 424 rows remain.** Churn 93%, matching the plan's
+prediction. All checks green, `npm run build` exits 0.
+
+Five things went differently from the plan, each worth recording.
+
+**1. Route B needed a `Load More` button, not scrolling.** The plan's recipe
+(14 `mouse.wheel` passes) yields **29 anchors and stops** — the list is not
+infinite-scroll. 60 scroll passes over 54 seconds moved the count not at all.
+The real control is a `Load More` button clicked 10–14 times, and
+`btn.click()` **times out** because an overlay intercepts it;
+`btn.dispatchEvent('click')` works. This mattered a lot: the plan expected
+Route B to cover the 123 Liberal Arts rows, and the documented recipe would
+have returned ~41, pushing ~120 rows onto profile fetches — the exact ban risk
+the plan was written to avoid. With the button: **National 290 rows, Liberal
+Arts 203 rows.**
+
+**2. Three more HTTP-200 traps, beyond the two the plan knew about.** Every
+U.S. News search surface is broken: `/search?q=` works for ~25 queries then
+**rate-limits to empty results forever** (indistinguishable from "no such
+school"), `/best-colleges/search?q=` **ignores the query** and returns the
+default #1-ranked list, and every JSON API path 404s inside an HTML error
+page. Profile ids came from DuckDuckGo instead. All now in the method file.
+
+**3. A wrong-school join happened, and a rank-level check could not have seen
+it.** `Mississippi College` resolved to **University of Mississippi** (#179) —
+a real school, real 2027 rank, real verbatim sentence, wrong institution. The
+guard that caught it reads the school's **own name** out of the profile
+sentence and compares it to what was asked for. A slug-word heuristic is not
+enough: "mississippi" is in both slugs, which is how it passed. The same check
+surfaced two genuine **renames** — `Mississippi College` → *Mississippi
+Christian University*, `Virginia Wesleyan University` → *Batten University* —
+which look identical to a bad join until the id is verified.
+
+**4. The loose join key had a campus-collision bug, found by the plan's own
+category-flip tripwire.** Stripping parentheticals collapsed
+`University of North Carolina (Charlotte)` to `univ of north carolina`, which
+matched **Chapel Hill (#27)**. Fixed by splitting into two keys: `looseKeep`
+unwraps a campus tag into words, and `looseBare` (which drops it) is consulted
+**only when it maps to exactly one harvest row**. Twelve rows that no
+automatic key may safely resolve — bare flagships like `University of
+Michigan`, `University of Texas` — are an explicit hand alias table instead,
+mapping to the flagship campus as the 2026 master already did.
+
+**5. The `.md` companion is generated, not hand-written.** It records the
+channel per figure and the 25 confirmed absences with their reasons.
+
+Two plan assumptions were wrong and are corrected in the source docs: **Iowa
+State, LSU and UT Dallas are all ranked in 2027** (#116 / #202 / #121) — they
+were missing from the PDF, not from the ranking, which is the concrete case
+for the harvest doc's own "never infer unranked from absence" rule. And the
+**2027 band shape is `#382-422`**, not 2026's `#395-434`, so a row banded in
+both years still changes.
+
+### Verification
+
+- `npm run build` — **exit 0**, all chained checks pass.
+- `npm run check:ranks` / `check:buckets` / `check:schema` — pass
+  (buckets: 2,700 entries in 11 schools).
+- `npx tsc -b` — clean.
+- **9/9 plan anchors** match (MIT #1 … Williams #1 Liberal).
+- **Live spot-check, 6/6** against profile pages across different channels
+  (Duke #8, Wake Forest #34, Davidson Liberal #16, Elon #100, Clemson #80,
+  Appalachian State correctly absent — Regional).
+- **Cross-channel agreement:** 271 rows overlap between the PDF and the live
+  National list; **271 agree, 0 disagree.** (`University of St. Thomas` looks
+  like a conflict but is two different schools sharing a name, MN #156 and TX
+  #202; the master holds neither.)
+- **0 category flips** (National ↔ Liberal) — the plan's bad-join tripwire.
+- **Browser check** (dev server, every `<details>` expanded): Providence Day
+  165,879 chars / 249 labels, Charlotte Latin 143,135 / 224; no stale
+  `#395-434` band on either page. Both selectivity chips filter correctly —
+  Top-75 National shows 78 labels, all National and all ≤75; Top-75 Liberal
+  shows 51, all Liberal and all ≤75.
+
+### Follow-up kept out of the diff
+
+The 2027 edition ranks ~1,700 schools, so institutions newly ranked but absent
+from the master were **not added** (the plan's stated default). Separately,
+**25 colleges dropped out of the national tables entirely** this year; their
+acceptance-list rows now render with no label, which is correct but is a
+visible change on those pages worth a look.
