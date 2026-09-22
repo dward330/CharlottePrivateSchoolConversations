@@ -62,7 +62,7 @@ const colleges = [
   { name: 'Centre College', cats: ['lac75'] },
   { name: 'Christopher Newport University', cats: [] },
   { name: 'Clark University', cats: [] },
-  { name: 'Clemson University', cats: ['nu75', 'p4'] },
+  { name: 'Clemson University', cats: ['p4'] },
   { name: 'Coastal Carolina University', cats: [] },
   { name: 'Colby College', cats: ['lac75'] },
   { name: 'Colgate University', cats: ['lac75'] },

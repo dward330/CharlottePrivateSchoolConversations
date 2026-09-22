@@ -77,7 +77,7 @@ const colleges = [
   { name: 'Catholic University of America', cats: [] },
   { name: 'Central Piedmont Community College', cats: [] },
   { name: 'Citadel Military College of South Carolina', cats: [] },
-  { name: 'Clemson University', cats: ['nu75', 'p4'] },
+  { name: 'Clemson University', cats: ['p4'] },
   { name: 'Cleveland Community College', cats: [] },
   { name: 'Coastal Carolina University', cats: [] },
   { name: 'Colgate University', cats: ['lac75'] },
@@ -223,7 +223,7 @@ const colleges = [
   { name: 'Wingate University', cats: [] },
   { name: 'Winthrop University', cats: [] },
   { name: 'Wofford College', cats: ['lac75'] },
-  { name: 'Worcester Polytechnic Institute', cats: [] },
+  { name: 'Worcester Polytechnic Institute', cats: ['nu75'] },
   { name: 'Xavier University', cats: [] },
   { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'] },]
 

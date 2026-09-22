@@ -15,7 +15,7 @@
  * exactly one label everywhere and cross-school conflicts are impossible by
  * construction. This check therefore verifies one thing: every ranked-bucket
  * college's name resolves in the master. The human-readable companion (with a
- * source per figure) is source-material/college-support/US News 2026 - Rank
+ * source per figure) is source-material/college-support/US News 2027 - Rank
  * Labels.md; add a new college to BOTH (one row each), never re-type a rank.
  *
  * Note: `p4`-only entries are not required to resolve — a Power-Four tag alone
@@ -105,7 +105,7 @@ try {
   const { readFileSync } = await import('node:fs')
   const { COLLEGE_RANKINGS } = await import('../src/data/collegeRankings.ts')
   const mdPath = new URL(
-    '../source-material/college-support/_shared/US News 2026 - Rank Labels.md',
+    '../source-material/college-support/_shared/US News 2027 - Rank Labels.md',
     import.meta.url,
   )
   const md = readFileSync(mdPath, 'utf8')
