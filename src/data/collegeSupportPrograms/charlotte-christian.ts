@@ -547,7 +547,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     sources: [
       { label: 'charlottechristian.com — College Counseling (School Profile, acceptance list)', url: COUNSELING },
       { label: 'College & Career Planning brochure (Classes of 2023–25 list, sector split)', url: CCS },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
 

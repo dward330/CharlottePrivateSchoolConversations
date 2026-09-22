@@ -769,7 +769,7 @@ export const providenceDay: CollegeSupportProgram = {
       { label: 'providenceday.org — College Acceptances 2023–2026', url: ACCEPTANCES },
       { label: '2025–26 Academic Profile (2022–2025 list, outcomes, scholarship figure)', url: PROFILE },
       { label: 'Why Providence Day (249 colleges, $23M merit figure)', url: 'https://www.providenceday.org/admissions/why-providence-day' },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings' },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
 

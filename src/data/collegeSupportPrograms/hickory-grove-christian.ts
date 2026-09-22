@@ -37,7 +37,7 @@ const PROFILE_23 =
   'https://resources.finalsite.net/images/v1699879706/hgchristianorg/obmpbhs6ludijizshc8k/HGCSHSProfileFall23.pdf'
 const GUIDANCE = 'https://www.hgchristian.org/academics/guidance'
 const HIGH_SCHOOL = 'https://www.hgchristian.org/academics/high-school'
-const USNEWS = 'https://www.usnews.com/best-colleges/rankings'
+const USNEWS = 'https://www.usnews.com/best-colleges/rankings/national-universities'
 
 /* The acceptance list — the union of the school's Class of 2023 (81) and Class of
    2025 (86) published lists, deduplicated to 132 distinct institutions. Spellings
@@ -459,7 +459,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     sources: [
       { label: 'hgchristian.org — Fall 2025 High School Profile (Class of 2025 list, buckets, recognition)', url: PROFILE_25 },
       { label: 'hgchristian.org — Fall 2023 High School Profile (Class of 2023 list)', url: PROFILE_23 },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: USNEWS },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: USNEWS },
     ],
   },
 

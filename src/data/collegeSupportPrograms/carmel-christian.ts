@@ -577,7 +577,7 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'carmelchristian.org — College Acceptances (full named list; no window, counts or markings)', url: ACCEPTANCES },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings' },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
 

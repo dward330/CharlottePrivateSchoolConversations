@@ -679,7 +679,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     sources: [
       { label: 'charlottelatin.org — 2025–26 Upper School Profile (College Admission Summary 2023–25)', url: PROFILE },
       { label: 'College Counseling — Acceptances', url: 'https://www.charlottelatin.org/academics/college-counseling/acceptances' },
-      { label: 'U.S. News 2026 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings' },
+      { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
 

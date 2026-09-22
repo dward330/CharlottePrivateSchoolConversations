@@ -607,7 +607,7 @@ export const gastonDay: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026 (acceptance list, four-year rate, merit ledger)', url: PROFILE },
-      { label: 'Buckets scored against source-material/college-support/_shared/ (US News 2026 rank labels, Power Four membership, HBCU roster)' },
+      { label: 'Buckets scored against source-material/college-support/_shared/ (US News 2027 rank labels, Power Four membership, HBCU roster)' },
     ],
   },
 
