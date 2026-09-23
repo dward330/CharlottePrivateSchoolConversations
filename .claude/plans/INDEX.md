@@ -89,3 +89,4 @@ Newest last.
 | [boardingranks](boardingranks.md) | Add Niche national boarding ranks to the 30 boarding destinations | 2026-09-17 | Not implemented | — |
 | [schoolwebsitelink](schoolwebsitelink.md) | Link the school name and mascot crest on each dossier header to that school's own homepage | 2026-09-17 | Implemented | [#313](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/313) |
 | [updateCollegeRankings](updateCollegeRankings.md) | Update every college rank label from the US News 2026 edition to the 2027 edition | 2026-09-22 | Implemented | [#316](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/316), [#317](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/317) |
+| [cannonUpdate](cannonUpdate.md) | Remove three editorial caveat blocks from Cannon's College Support outcomes card | 2026-09-22 | English shipped | — |
