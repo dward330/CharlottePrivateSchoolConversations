@@ -1,11 +1,11 @@
 ---
 name: cannonUpdate
 title: Remove three editorial caveat blocks from Cannon's College Support outcomes card
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-22
 branch: fix/cannon-update
-prs: []
+prs: [320]
 ---
 
 # Remove three editorial caveat blocks from Cannon's College Support outcomes card
