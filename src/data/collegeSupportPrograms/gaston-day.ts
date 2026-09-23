@@ -454,10 +454,6 @@ export const gastonDay: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'discrepancy',
-        text: 'AP course count: the profile’s own course table marks **10** AP courses, while Private School Review lists **9** — its list omits Chemistry, which the profile marks (H)(AP). The school’s own table is used.',
-      },
-      {
         kind: 'gap',
         text: 'The profile publishes no per-subject AP score table, no count of AP exams sat, and no National Merit ledger — so the 3+ rate is a single school-wide figure per year rather than a distribution.',
       },

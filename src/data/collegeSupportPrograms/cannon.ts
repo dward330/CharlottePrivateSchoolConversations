@@ -497,10 +497,6 @@ export const cannon: CollegeSupportProgram = {
         kind: 'gap',
         text: 'No National Merit ledger of any kind is published — no Semifinalist, Finalist or Commended counts in any year, on either profile or in news posts. Repeated searches surfaced only a 2011 item naming a single Scholar. AP Scholar counts and the share scoring 4–5 are likewise unpublished; Cannon reports only the 3+ threshold.',
       },
-      {
-        kind: 'discrepancy',
-        text: 'The full grading scale appeared in the 2024–25 profile and was dropped from the 2025–26 edition — a disclosure regression, since a reader of the current profile cannot map a letter grade to a quality point.',
-      },
     ],
     sources: [
       { label: 'cannonschool.org — 2025–26 School Profile (advanced-course counts, AP stats, load ceiling, no-rank policy)', url: PROFILE_2526 },
@@ -723,10 +719,6 @@ export const cannon: CollegeSupportProgram = {
       },
     ],
     flags: [
-      {
-        kind: 'discrepancy',
-        text: 'The 2024–25 profile published NO test scores at all, stating that because of test-optional review “test scores for the Class of 2025 are not reported”. The 2025–26 profile then published a full Class of 2025 testing distribution. Same class, opposite decisions, one year apart, unexplained — the later figures are shown here.',
-      },
       {
         kind: 'verify',
         text: 'All four GPA bands are identical to the hundredth across the Class of 2024 and Class of 2025 tables. An exact four-band match across two different cohorts is statistically unlikely, so this may be carried-forward data rather than a genuinely stable distribution.',

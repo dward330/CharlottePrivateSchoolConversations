@@ -487,10 +487,6 @@ export const charlotteCatholic: CollegeSupportProgram = {
         text: 'The ~54:1 senior caseload is COMPUTED from the profile’s 324 seniors and its six named counselors. The school does not publish a ratio, and the director is counted as a counselor here.',
       },
       {
-        kind: 'discrepancy',
-        text: 'The live counselors page shows the 2026-27 roster, which drops Sandy Needham and adds Kate McHugh. This card uses the 2025-2026 profile roster throughout, so that the six counselors and the 324 seniors come from the same year.',
-      },
-      {
         kind: 'gap',
         text: 'The junior and senior college-planning pages embed Prezi presentations, whose content is not reachable as text. The four-year timeline above is therefore built from published policy, not from the office’s own process deck.',
       },
