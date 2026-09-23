@@ -397,10 +397,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'discrepancy',
-        text: 'The school markets “45+ AP and honors courses” while roughly 23 AP courses can actually be enumerated from its published materials. Both figures come from the school; the enumerable count is the verifiable one.',
-      },
-      {
         kind: 'verify',
         text: 'Press coverage of the 71st National Merit competition names a Class of 2025 Semifinalist who appears neither in the school’s own National Merit block nor in its senior enrollment roster, which lists only a Commended Scholar. The two sources are inconsistent about who the honorees were.',
       },
@@ -489,10 +485,6 @@ export const charlotteChristian: CollegeSupportProgram = {
         text: 'Both ratios are derived — 435 Upper Schoolers ÷ 2 gives ~218:1 across all four grades, and 94 seniors ÷ 2 gives ~47:1. The school publishes neither. Because the split is alphabetical, each counselor genuinely carries all four grades, so the 218:1 figure is the honest load measure and 47:1 describes senior-year intensity. The two personal counselors are not college counselors and do not belong in the denominator.',
       },
       {
-        kind: 'discrepancy',
-        text: 'One Upper School counselor appears as “Olivia McCarrick” on the 2024–25 profile and “Olivia Brilhante” on the counseling brochure and Student Counseling page. Most likely the same person following a name change, but the school publishes both and it is not confirmed. The Upper School Principal is likewise listed as two different people across sources.',
-      },
-      {
         kind: 'gap',
         text: 'No counselor tenure, prior employer or professional background is published for anyone on the team, and no bios appear on the college counseling page. Neither rep-visit counts nor counselor campus-visit counts are published.',
       },
@@ -572,12 +564,7 @@ export const charlotteChristian: CollegeSupportProgram = {
           'The school does not publish a disciplinary-disclosure policy — whether and how suspensions or honor violations reach the secondary school report is absent despite NACAC membership.',
       },
     ],
-    flags: [
-      {
-        kind: 'discrepancy',
-        text: 'The Academic Conservatory is described as covering six areas in the School Profile and eight on the website. Both are the school’s own figures.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'charlottechristian.com — Academic Conservatory', url: 'https://www.charlottechristian.com/academics' },
       { label: 'College & Career Planning brochure (Christian college and HBCU tiers)', url: CCS },

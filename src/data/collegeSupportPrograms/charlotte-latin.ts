@@ -519,10 +519,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'discrepancy',
-        text: 'The grading scale, the weighting statement and the no-rank policy all appeared in the 2017–18 profile and are absent from the 2025–26 edition. Both states are documented; treat the weighting and no-rank policy as unconfirmed for the current year, since only the older edition attests them.',
-      },
-      {
         kind: 'verify',
         text: 'The jump from 48 AP Scholars with Distinction (2018–20) to 193 (2023–25) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.',
       },
@@ -622,10 +618,6 @@ export const charlotteLatin: CollegeSupportProgram = {
       {
         kind: 'verify',
         text: 'Both ratios are derived (586 Upper Schoolers ÷ 4, and 145 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:36 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
-      },
-      {
-        kind: 'discrepancy',
-        text: 'The “nearly 100 college representatives each year” figure comes from the 2017–18 profile only. The current profile and web page mention rep visits but give no number, so treat ~100 as dated. The CEEB/ACT code 340663 and the dedicated rep-visit callout have likewise vanished from the current edition.',
       },
       {
         kind: 'gap',

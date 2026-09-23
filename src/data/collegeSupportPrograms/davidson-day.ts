@@ -553,10 +553,6 @@ export const davidsonDay: CollegeSupportProgram = {
         text: 'Both ratios are derived (198 ÷ 2 and 47 ÷ 2). The school never states a counselor-to-student ratio, and publishes no caseload assignment method or the point at which a student is assigned a counselor.',
       },
       {
-        kind: 'discrepancy',
-        text: 'Rep visits appear as a marketing benchmark of “more than 80” per year, while a documented recent count is ~71 (nearly 80% out-of-state). Both figures are shown; the lower one could not be re-verified live.',
-      },
-      {
         kind: 'gap',
         text: 'No grade-by-grade curriculum map is published. The live page carries no 9/10/11/12 breakdown — only “begins in 9th grade” plus the fall/spring event list, whose names map to grades only loosely.',
       },

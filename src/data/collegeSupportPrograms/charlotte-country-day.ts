@@ -540,14 +540,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'discrepancy',
-        text: 'The two most recent profiles publish different grading scales: 2025–26 gives full plus/minus bands including an A+ at 98–100, while 2024–25 gives only whole-letter ranges. Whether the scale changed or the earlier edition merely summarised is unclear, and the presence of an A+ band decides whether an unweighted GPA can exceed 4.0.',
-      },
-      {
-        kind: 'discrepancy',
-        text: 'The five-year IB Diploma pass rate is 88% in the 2025–26 profile and 91% in the 2024–25 profile — both stated as “over the last five years”. Both figures are shown.',
-      },
-      {
         kind: 'gap',
         text: 'No mandatory-AP-exam policy is published, so the 93% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.',
       },
@@ -640,10 +632,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'ACCIS · NACAC · SACAC memberships · an annually published School Profile (CEEB 340666, IB 0667)',
     ],
     flags: [
-      {
-        kind: 'discrepancy',
-        text: 'Two official sources name different directors, and both were correct when written: the 2025–26 School Profile lists Catherine Odum, while the current web pages list Allison Slater Tate. A February 2026 news post resolves it — Tate was appointed effective 1 July 2026, and Odum moved to Senior Associate Director. The profile is now stale on this point.',
-      },
       {
         kind: 'verify',
         text: 'Both ratios are derived (548 ÷ 5 and 141 ÷ 5); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:56. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
@@ -738,12 +726,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
           'The school does not publish its disciplinary-disclosure policy — whether and how Honor Council findings or suspensions reach the secondary school report. Given published NACAC membership, that omission is a sharp tour question.',
       },
     ],
-    flags: [
-      {
-        kind: 'discrepancy',
-        text: 'Arts events per year are “50+” in the 2025–26 profile but “70” in the 2024–25 edition — the figure went down. Both are shown.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'charlottecountryday.org — Senior Externship', url: 'https://www.charlottecountryday.org/cd-experience/beyond-the-classroom/externship' },
       { label: '2025–26 School Profile (IB, memberships, faculty markers)', url: PROFILE_2526 },
@@ -824,10 +807,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       {
         kind: 'gap',
         text: 'The 2025–26 profile DROPPED the SAT and ACT middle-50% ranges that the 2024–25 edition published, replacing them with per-quintile medians. The number of testers has never been published in any year — a table showing medians without a sample size shows a shape without an N.',
-      },
-      {
-        kind: 'discrepancy',
-        text: 'The two profiles give the Class of 2025 different senior counts (138 versus 141) and report different statistics for the same class — means and ranges in one edition, medians in the other — so the top-quintile 4.540 mean and 4.472 median are both correct and not comparable.',
       },
       {
         kind: 'gap',

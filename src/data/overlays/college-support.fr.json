@@ -420,24 +420,17 @@
       ]
     },
     {
-      "t": "Le taux de 4 et 5 en AP est de 77% dans le School Profile officiel, mais de 73% chez un agrégateur secondaire. Le chiffre de 77% publié par l’école est celui qui est présenté ; le chiffre de 73% n’est pas publié par l’école.",
-      "of": "18ff8808",
-      "at": [
-        "providence-day:transcript.flags[0].text"
-      ]
-    },
-    {
       "t": "Les chiffres « 461 students sitting AP exams » et « 95% of students scoring 3+ » proviennent d’un extrait indexé du PDF du profil et non d’une extraction directe — en revanche, le total de 1,213 examens tiré de la même phrase EST confirmé par le tableau par matière. Le titre « 30 AP courses » s’oppose par ailleurs à un tableau d’examens du profil qui recense 31 matières distinctes.",
       "of": "b7232f3c",
       "at": [
-        "providence-day:transcript.flags[1].text"
+        "providence-day:transcript.flags[0].text"
       ]
     },
     {
       "t": "L’école ne publie aucune comparaison de la sévérité de sa notation avec celle des écoles publiques locales, et aucun tiers ne l’audite. Le tableau de quintiles et la politique d’examen obligatoire constituent la réponse implicite ; une comparaison directe de l’inflation des notes n’est pas publiée.",
       "of": "e0ca92a5",
       "at": [
-        "providence-day:transcript.flags[2].text"
+        "providence-day:transcript.flags[1].text"
       ]
     },
     {
@@ -843,24 +836,17 @@
       ]
     },
     {
-      "t": "Les pages de l’école elle-même divergent sur la taille du service : la page College Guidance décrit cinq conseillers prenant chacun un cinquième d’une promotion, tandis que la page College Admission Representatives en indique quatre. L’organigramme confirme cinq, et la formulation « four » semble antérieure au recrutement du cinquième conseiller — mais Darren Morgan est absent du bloc de contacts du profil. Les deux chiffres sont présentés.",
-      "of": "69c807d9",
-      "at": [
-        "providence-day:counseling.flags[0].text"
-      ]
-    },
-    {
       "t": "Le ratio de ~36:1 pour les élèves de dernière année et le ratio de ~146:1 tous niveaux confondus sont calculés à partir des effectifs figurant dans le profil (730 à l’Upper School, 178 élèves de dernière année ÷ 5) et ne sont pas publiés par l’école. Les diplômes des conseillers et leurs fonctions antérieures dans les services d’admission proviennent d’un agrégateur.",
       "of": "a96906e7",
       "at": [
-        "providence-day:counseling.flags[1].text"
+        "providence-day:counseling.flags[0].text"
       ]
     },
     {
       "t": "Le service ne publie ni garantie que chaque dossier soit formellement relu avant envoi, ni stratégie codifiée d’Early Decision / Early Action, ni position déclarée sur le test-optional, ni calendrier FAFSA/CSS Profile au-delà de la programmation générale « Paying for College ».",
       "of": "c208b9e3",
       "at": [
-        "providence-day:counseling.flags[2].text"
+        "providence-day:counseling.flags[1].text"
       ]
     },
     {
@@ -1130,20 +1116,6 @@
       "of": "123e21e5",
       "at": [
         "providence-day:outcomes.scholarships[5]"
-      ]
-    },
-    {
-      "t": "Divergence : la page des admissions fait état de $23M de bourses au mérite pour la promotion 2025, tandis que l’Academic Profile officiel indique « over $20M » de bourses pour cette même promotion. La formulation diffère elle aussi — le chiffre le plus élevé décrit la catégorie la plus étroite, ce qui suggère des dates ou des méthodes de compilation différentes plutôt qu’une véritable imbrication. Les deux chiffres proviennent de l’école elle-même.",
-      "of": "352110a8",
-      "at": [
-        "providence-day:outcomes.scholarshipsNote"
-      ]
-    },
-    {
-      "t": "Le chiffre de 77 universités pour la promotion 2026 correspond à un décompte d’INSCRIPTIONS, tandis que le chiffre de 249 pour la promotion 2025 correspond à un décompte d’ADMISSIONS. Ils ne sont pas comparables et ne doivent pas être interprétés comme une baisse.",
-      "of": "b7fb58e4",
-      "at": [
-        "providence-day:outcomes.flags[0].text"
       ]
     },
     {
@@ -2015,24 +1987,17 @@
       ]
     },
     {
-      "t": "L’échelle de notation, la mention de la pondération et la politique d’absence de classement figuraient toutes dans le profil 2017–18 et sont absentes de l’édition 2025–26. Les deux états sont documentés ; à considérer comme non confirmées pour l’année en cours, la pondération et la politique d’absence de classement, puisque seule l’édition la plus ancienne les atteste.",
-      "of": "e091fbb4",
-      "at": [
-        "charlotte-latin:transcript.flags[0].text"
-      ]
-    },
-    {
       "t": "Le passage de 48 AP Scholars with Distinction (2018–20) à 193 (2023–25) est très important. Une partie correspond à une croissance réelle, mais l’ampleur suggère que la base de comptage peut différer d’une édition à l’autre — l’école ne la définit pas. Ne présentez pas les deux chiffres comme directement comparables.",
       "of": "1bf937e0",
       "at": [
-        "charlotte-latin:transcript.flags[1].text"
+        "charlotte-latin:transcript.flags[0].text"
       ]
     },
     {
       "t": "Le profil 2025–26 publié contient un commentaire éditorial interne non corrigé laissé dans le document en ligne — « We’ll need to somehow check to make sure all these students are still here, yes? » — mot pour mot dans le fichier diffusé depuis le gestionnaire de ressources de l’école elle-même. C’est un manquement de relecture dans le seul document que lit chaque bureau d’admission.",
       "of": "8fa01c0c",
       "at": [
-        "charlotte-latin:transcript.flags[2].text"
+        "charlotte-latin:transcript.flags[1].text"
       ]
     },
     {
@@ -2300,17 +2265,10 @@
       ]
     },
     {
-      "t": "Le chiffre « nearly 100 college representatives each year » provient uniquement du profil 2017–18. Le profil actuel et la page web mentionnent les visites de représentants mais ne donnent aucun nombre : il faut donc considérer ~100 comme daté. Le code CEEB/ACT 340663 et l’encadré consacré aux visites de représentants ont pareillement disparu de l’édition actuelle.",
-      "of": "532bbdbb",
-      "at": [
-        "charlotte-latin:counseling.flags[1].text"
-      ]
-    },
-    {
       "t": "Aucun décompte des visites de campus effectuées par les conseillers n’est publié — seulement l’affirmation qualitative selon laquelle ils « stay current by attending conferences, visiting colleges, and speaking extensively with college representatives ».",
       "of": "d7341909",
       "at": [
-        "charlotte-latin:counseling.flags[2].text"
+        "charlotte-latin:counseling.flags[1].text"
       ]
     },
     {
@@ -3066,24 +3024,17 @@
       ]
     },
     {
-      "t": "L’école met en avant « 45+ AP and honors courses » alors qu’environ 23 cours AP peuvent effectivement être dénombrés à partir de ses documents publiés. Les deux chiffres proviennent de l’école ; c’est le décompte énumérable qui est vérifiable.",
-      "of": "9bc7e8fe",
-      "at": [
-        "charlotte-christian:transcript.flags[0].text"
-      ]
-    },
-    {
       "t": "La couverture de presse du 71e concours National Merit nomme un Semifinalist de la promotion 2025 qui ne figure ni dans le bloc National Merit de l’école ni dans sa liste d’inscription des élèves de dernière année, laquelle ne mentionne qu’un Commended Scholar. Les deux sources sont incohérentes quant à l’identité des lauréats.",
       "of": "aee34dbd",
       "at": [
-        "charlotte-christian:transcript.flags[1].text"
+        "charlotte-christian:transcript.flags[0].text"
       ]
     },
     {
       "t": "Seul le seuil de 3+ est communiqué — la part des examens obtenant 4 ou 5 n’est publiée pour aucune année, aucun taux 4–5 ne doit donc en être déduit. Les normes de charge de cours « Most rigorous » sont elles aussi indéfinies : aucune grille n’est publiée et rien n’indique quelle fraction des élèves suit le programme le plus exigeant.",
       "of": "c62732f8",
       "at": [
-        "charlotte-christian:transcript.flags[2].text"
+        "charlotte-christian:transcript.flags[1].text"
       ]
     },
     {
@@ -3320,17 +3271,10 @@
       ]
     },
     {
-      "t": "Une conseillère de l’Upper School apparaît sous le nom « Olivia McCarrick » dans le profil 2024–25 et « Olivia Brilhante » dans la brochure d’accompagnement et sur la page Student Counseling. Il s’agit très probablement de la même personne après un changement de nom, mais l’école publie les deux et cela n’est pas confirmé. De même, le Upper School Principal est présenté comme deux personnes différentes selon les sources.",
-      "of": "6b0c5954",
-      "at": [
-        "charlotte-christian:counseling.flags[1].text"
-      ]
-    },
-    {
       "t": "Aucune ancienneté, aucun employeur précédent ni aucun parcours professionnel n’est publié pour aucun membre de l’équipe, et aucune biographie ne figure sur la page d’orientation universitaire. Ni le nombre de visites de représentants ni le nombre de visites de campus effectuées par les conseillers ne sont publiés.",
       "of": "7484d40b",
       "at": [
-        "charlotte-christian:counseling.flags[2].text"
+        "charlotte-christian:counseling.flags[1].text"
       ]
     },
     {
@@ -3542,13 +3486,6 @@
       "of": "4e635fc5",
       "at": [
         "charlotte-christian:edge.levers[1].note"
-      ]
-    },
-    {
-      "t": "L’Academic Conservatory est décrit comme couvrant six domaines dans le School Profile et huit sur le site web. Les deux chiffres proviennent de l’école elle-même.",
-      "of": "f0be9471",
-      "at": [
-        "charlotte-christian:edge.flags[0].text"
       ]
     },
     {
@@ -4593,17 +4530,10 @@
       ]
     },
     {
-      "t": "La page des conseillers en ligne affiche l’équipe 2026-27, qui ne comprend plus Sandy Needham et intègre Kate McHugh. Cette fiche s’appuie d’un bout à l’autre sur l’équipe du profil 2025-2026, afin que les six conseillers et les 324 élèves de terminale proviennent de la même année.",
-      "of": "2ec7bc5f",
-      "at": [
-        "charlotte-catholic:counseling.flags[1].text"
-      ]
-    },
-    {
       "t": "Les pages de préparation universitaire de 11e et 12e année intègrent des présentations Prezi, dont le contenu n’est pas accessible sous forme de texte. Le calendrier sur quatre ans ci-dessus est donc construit à partir des règles publiées, et non du support de travail du service.",
       "of": "9c090894",
       "at": [
-        "charlotte-catholic:counseling.flags[2].text"
+        "charlotte-catholic:counseling.flags[1].text"
       ]
     },
     {
@@ -5547,24 +5477,10 @@
       ]
     },
     {
-      "t": "Les deux profils les plus récents publient des barèmes de notation différents : celui de 2025–26 donne des tranches complètes avec plus et moins, dont un A+ à 98–100, tandis que celui de 2024–25 ne donne que des fourchettes par lettre entière. On ignore si le barème a changé ou si l’édition antérieure se contentait de résumer, et la présence d’une tranche A+ détermine si un GPA non pondéré peut dépasser 4.0.",
-      "of": "7c78d657",
-      "at": [
-        "charlotte-country-day:transcript.flags[0].text"
-      ]
-    },
-    {
-      "t": "Le taux de réussite quinquennal de l’IB Diploma est de 88% dans le profil 2025–26 et de 91% dans celui de 2024–25 — les deux présentés comme portant « over the last five years ». Les deux chiffres sont indiqués.",
-      "of": "83060e4a",
-      "at": [
-        "charlotte-country-day:transcript.flags[1].text"
-      ]
-    },
-    {
       "t": "Aucune politique d’examen AP obligatoire n’est publiée : les 93% reposent donc sur un dénominateur non précisé. La page du programme indique que l’examen « is the driver for the curriculum », ce qui suppose une forte attente mais ne constitue pas une obligation déclarée. Les décomptes d’AP Scholar ne sont plus publiés depuis 2021.",
       "of": "9d93bfc4",
       "at": [
-        "charlotte-country-day:transcript.flags[2].text"
+        "charlotte-country-day:transcript.flags[0].text"
       ]
     },
     {
@@ -5820,24 +5736,17 @@
       ]
     },
     {
-      "t": "Deux sources officielles nomment des directrices différentes, et toutes deux étaient exactes au moment de leur rédaction : le School Profile 2025–26 indique Catherine Odum, tandis que les pages web actuelles indiquent Allison Slater Tate. Une actualité de février 2026 tranche la question — Tate a été nommée avec effet au 1 July 2026, et Odum est devenue Senior Associate Director. Le profil est désormais périmé sur ce point.",
-      "of": "9df947a9",
-      "at": [
-        "charlotte-country-day:counseling.flags[0].text"
-      ]
-    },
-    {
       "t": "Les deux ratios sont dérivés (548 ÷ 5 et 141 ÷ 5) ; l’école ne publie aucun ratio. La charge réelle correspond probablement aux élèves d’avant-dernière et de dernière année, soit plutôt 1:56. Aucune biographie, ancienneté, diplôme ou employeur antérieur des conseillers n’est publié — la page de l’équipe ne donne que les noms, les titres et les coordonnées.",
       "of": "59b3a0d2",
       "at": [
-        "charlotte-country-day:counseling.flags[1].text"
+        "charlotte-country-day:counseling.flags[0].text"
       ]
     },
     {
       "t": "Aucun décompte des visites de campus effectuées par le personnel d’orientation n’est publié où que ce soit, et aucun outil ou base de données nommément désigné de recherche de bourses n’est décrit.",
       "of": "44f67cb6",
       "at": [
-        "charlotte-country-day:counseling.flags[2].text"
+        "charlotte-country-day:counseling.flags[1].text"
       ]
     },
     {
@@ -6080,13 +5989,6 @@
       ]
     },
     {
-      "t": "Le nombre d’événements artistiques par an est de « 50+ » dans le profil 2025–26 mais de « 70 » dans l’édition 2024–25 — le chiffre a baissé. Les deux sont indiqués.",
-      "of": "d7e4aae2",
-      "at": [
-        "charlotte-country-day:edge.flags[0].text"
-      ]
-    },
-    {
       "t": "Le tableau des quintiles est la réponse honnête pour le milieu de la promotion — le quatrième cinquième se situe à un GPA de 3.513 avec un SAT de 1220, le cinquième à 2.991 et 1110.",
       "of": "94f6b52d",
       "at": [
@@ -6263,17 +6165,10 @@
       ]
     },
     {
-      "t": "Les deux profils attribuent à la promotion 2025 des effectifs de dernière année différents (138 contre 141) et rapportent des statistiques différentes pour la même promotion — moyennes et fourchettes dans une édition, médianes dans l’autre — de sorte que la moyenne de 4.540 et la médiane de 4.472 du quintile supérieur sont toutes deux exactes et non comparables.",
-      "of": "10b4bbcf",
-      "at": [
-        "charlotte-country-day:wholeClass.flags[1].text"
-      ]
-    },
-    {
       "t": "Aucun accompagnement pour une année de césure, décompte de placements ou politique de report n’est publié, pas plus qu’un résultat d’entrée directe dans la vie active ou d’engagement militaire.",
       "of": "4421bf94",
       "at": [
-        "charlotte-country-day:wholeClass.flags[2].text"
+        "charlotte-country-day:wholeClass.flags[1].text"
       ]
     },
     {
@@ -6619,13 +6514,6 @@
       "of": "6229f48a",
       "at": [
         "cannon:transcript.flags[1].text"
-      ]
-    },
-    {
-      "t": "Le barème de notation complet figurait dans le profil 2024–25 et a été supprimé de l’édition 2025–26 — une régression en matière de divulgation, puisqu’un lecteur du profil actuel ne peut pas faire correspondre une note en lettre à un quality point.",
-      "of": "fbd3644e",
-      "at": [
-        "cannon:transcript.flags[2].text"
       ]
     },
     {
@@ -7271,24 +7159,17 @@
       ]
     },
     {
-      "t": "Le profil 2024–25 n’a publié AUCUN score aux tests, indiquant qu’en raison de l’examen test-optional « test scores for the Class of 2025 are not reported ». Le profil 2025–26 a ensuite publié une distribution complète des tests pour cette même Class of 2025. Même promotion, décisions opposées, à un an d’intervalle, sans explication — ce sont les chiffres les plus récents qui figurent ici.",
-      "of": "3fb5bba4",
-      "at": [
-        "cannon:wholeClass.flags[0].text"
-      ]
-    },
-    {
       "t": "Les quatre tranches de GPA sont identiques au centième entre les tableaux de la Class of 2024 et de la Class of 2025. Une correspondance exacte des quatre tranches sur deux cohortes différentes est statistiquement improbable ; il pourrait donc s’agir de données reportées d’une année sur l’autre plutôt que d’une distribution réellement stable.",
       "of": "c2eb7795",
       "at": [
-        "cannon:wholeClass.flags[1].text"
+        "cannon:wholeClass.flags[0].text"
       ]
     },
     {
       "t": "Aucune statistique, politique ou service d’accompagnement concernant l’année de césure n’est décrit nulle part — et puisque 98% en cursus de quatre ans plus 2% en cursus de deux ans couvre l’ensemble de la promotion, les résultats publiés ne laissent aucune place à un groupe en année de césure.",
       "of": "ce6f345e",
       "at": [
-        "cannon:wholeClass.flags[2].text"
+        "cannon:wholeClass.flags[1].text"
       ]
     },
     {
@@ -8944,24 +8825,17 @@
       ]
     },
     {
-      "t": "Les visites de représentants apparaissent sous forme d’un repère marketing de « more than 80 » par an, alors qu’un décompte récent documenté s’élève à ~71 (près de 80% hors de l’État). Les deux chiffres sont indiqués ; le plus bas n’a pas pu être revérifié en direct.",
-      "of": "b0fa7a99",
-      "at": [
-        "davidson-day:counseling.flags[1].text"
-      ]
-    },
-    {
       "t": "Aucune cartographie du programme niveau par niveau n’est publiée. La page en ligne ne comporte aucune répartition 9/10/11/12 — seulement « begins in 9th grade » et la liste des événements d’automne et de printemps, dont les intitulés ne correspondent que vaguement à des niveaux.",
       "of": "330f0741",
       "at": [
-        "davidson-day:counseling.flags[2].text"
+        "davidson-day:counseling.flags[1].text"
       ]
     },
     {
       "t": "Le service ne publie aucun engagement selon lequel chaque candidature est relue avant soumission, aucune doctrine Early Decision / Early Action, ni aucun décompte de visites de campus par les conseillers. Un service de deux personnes peut vraisemblablement tout relire — mais il ne le dit jamais par écrit.",
       "of": "b5bf0222",
       "at": [
-        "davidson-day:counseling.flags[3].text"
+        "davidson-day:counseling.flags[2].text"
       ]
     },
     {
@@ -11523,17 +11397,10 @@
       ]
     },
     {
-      "t": "Nombre de cours AP : le tableau des cours du profil lui-même en indique **10**, tandis que Private School Review en recense **9** — sa liste omet Chemistry, que le profil marque (H)(AP). C’est le tableau de l’école qui est retenu.",
-      "of": "1fd9de35",
-      "at": [
-        "gaston-day:transcript.flags[0].text"
-      ]
-    },
-    {
       "t": "Le profil ne publie ni tableau de scores AP par matière, ni décompte des examens AP passés, ni relevé National Merit — le taux de 3 ou plus est donc un chiffre unique à l’échelle de l’école par année, et non une distribution.",
       "of": "b9bd5d76",
       "at": [
-        "gaston-day:transcript.flags[1].text"
+        "gaston-day:transcript.flags[0].text"
       ]
     },
     {

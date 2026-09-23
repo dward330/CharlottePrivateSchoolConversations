@@ -599,10 +599,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'discrepancy',
-        text: 'The AP 4s/5s rate is 77% in the official School Profile but 73% in a secondary aggregator. The school-published 77% is shown; the 73% figure is not school-published.',
-      },
-      {
         kind: 'verify',
         text: 'The “461 students sitting AP exams” and “95% of students scoring 3+” figures come from an indexed snippet of the profile PDF rather than direct extraction — the 1,213 exam count from the same sentence IS confirmed by the subject table. The headline “30 AP courses” also sits against a profile exam table listing 31 distinct subjects.',
       },
@@ -700,10 +696,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'discrepancy',
-        text: 'The school’s own pages disagree on the size of the office: the College Guidance page describes five counselors each taking one fifth of a class, while the College Admission Representatives page says four. The roster supports five, and the “four” phrasing appears to predate the fifth hire — but Darren Morgan is absent from the profile’s contact block. Both figures are shown.',
-      },
-      {
         kind: 'verify',
         text: 'The ~36:1 senior ratio and ~146:1 all-grades ratio are computed from the profile’s enrollment figures (730 Upper School, 178 seniors ÷ 5), not published by the school. Counselor credentials and prior admissions roles are aggregator-sourced.',
       },
@@ -753,14 +745,7 @@ export const providenceDay: CollegeSupportProgram = {
       'West Point appointment',
       'Class of 2026: $21M+ to 82% of seniors',
     ],
-    scholarshipsNote:
-      'Discrepancy: the admissions page cites $23M in merit scholarships for the Class of 2025 while the official Academic Profile states “over $20M” in scholarships for the same class. The wording differs too — the larger figure describes the narrower category, which suggests different compilation dates or methods rather than a clean nesting. Both are the school’s own numbers.',
-    flags: [
-      {
-        kind: 'discrepancy',
-        text: 'The Class of 2026 figure of 77 colleges is an ENROLLING count, while the Class of 2025 figure of 249 is an ACCEPTING count. They are not comparable and must not be read as a decline.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'providenceday.org — College Acceptances 2023–2026', url: ACCEPTANCES },
       { label: '2025–26 Academic Profile (2022–2025 list, outcomes, scholarship figure)', url: PROFILE },

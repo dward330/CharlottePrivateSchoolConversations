@@ -469,18 +469,10 @@
       "t": "प्रकाशित अधिकतम सीमाएँ — **sophomore के लिए दो AP, junior के लिए तीन, senior के लिए चार** — कॉलेजों को ठीक-ठीक बताती हैं कि यहाँ कठिन समय-सारणी का क्या अर्थ है, ताकि सामान्य लोड पर छात्र को नुक़सान न हो।"
     },
     {
-      "text": "The AP 4s/5s rate is 77% in the official School Profile but 73% in a secondary aggregator. The school-published 77% is shown; the 73% figure is not school-published.",
-      "of": "18ff8808",
-      "at": [
-        "providence-day:transcript.flags[0].text"
-      ],
-      "t": "AP में 4 और 5 की दर आधिकारिक School Profile में 77% है, पर एक द्वितीयक संकलनकर्ता में 73%। यहाँ स्कूल द्वारा प्रकाशित 77% दिखाया गया है; 73% का आँकड़ा स्कूल द्वारा प्रकाशित नहीं है।"
-    },
-    {
       "text": "The “461 students sitting AP exams” and “95% of students scoring 3+” figures come from an indexed snippet of the profile PDF rather than direct extraction — the 1,213 exam count from the same sentence IS confirmed by the subject table. The headline “30 AP courses” also sits against a profile exam table listing 31 distinct subjects.",
       "of": "b7232f3c",
       "at": [
-        "providence-day:transcript.flags[1].text"
+        "providence-day:transcript.flags[0].text"
       ],
       "t": "“461 students sitting AP exams” और “95% of students scoring 3+” वाले आँकड़े profile PDF के एक अनुक्रमित अंश से आए हैं, सीधे निकाले गए पाठ से नहीं — उसी वाक्य में दिया 1,213 परीक्षाओं का आँकड़ा विषय-तालिका से पुष्ट होता है। “30 AP courses” वाली मुख्य पंक्ति भी profile की उस परीक्षा-तालिका के सामने खड़ी है जिसमें 31 अलग-अलग विषय दर्ज हैं।"
     },
@@ -488,7 +480,7 @@
       "text": "The school publishes no comparison of its grading severity against local public schools, and no third party audits it. The quintile table and the mandatory-exam policy are the implicit answer; a direct inflation comparison is unpublished.",
       "of": "e0ca92a5",
       "at": [
-        "providence-day:transcript.flags[2].text"
+        "providence-day:transcript.flags[1].text"
       ],
       "t": "स्कूल स्थानीय सरकारी स्कूलों के मुक़ाबले अपनी ग्रेडिंग की सख़्ती की कोई तुलना प्रकाशित नहीं करता, और न ही कोई तीसरा पक्ष उसकी जाँच करता है। क्विंटाइल तालिका और अनिवार्य-परीक्षा नीति ही अप्रत्यक्ष उत्तर हैं; ग्रेड-मुद्रास्फीति की सीधी तुलना अप्रकाशित है।"
     },
@@ -944,18 +936,10 @@
       "t": "SCOIR · आँकड़ों से भरा वार्षिक Academic Profile · प्रतिनिधियों से तब भी मुलाक़ात होती है जब कोई छात्र नाम दर्ज नहीं कराता"
     },
     {
-      "text": "The school’s own pages disagree on the size of the office: the College Guidance page describes five counselors each taking one fifth of a class, while the College Admission Representatives page says four. The roster supports five, and the “four” phrasing appears to predate the fifth hire — but Darren Morgan is absent from the profile’s contact block. Both figures are shown.",
-      "of": "69c807d9",
-      "at": [
-        "providence-day:counseling.flags[0].text"
-      ],
-      "t": "कार्यालय के आकार पर स्कूल के अपने ही पृष्ठ एक-दूसरे से मेल नहीं खाते: College Guidance पृष्ठ पाँच counselor बताता है जिनमें से हर एक कक्षा का पाँचवाँ हिस्सा लेता है, जबकि College Admission Representatives पृष्ठ चार कहता है। कर्मचारी-सूची पाँच का समर्थन करती है, और ऐसा लगता है कि “चार” वाला वाक्यांश पाँचवीं नियुक्ति से पहले का है — पर Darren Morgan profile के संपर्क-खंड में नहीं हैं। दोनों आँकड़े दिखाए गए हैं।"
-    },
-    {
       "text": "The ~36:1 senior ratio and ~146:1 all-grades ratio are computed from the profile’s enrollment figures (730 Upper School, 178 seniors ÷ 5), not published by the school. Counselor credentials and prior admissions roles are aggregator-sourced.",
       "of": "a96906e7",
       "at": [
-        "providence-day:counseling.flags[1].text"
+        "providence-day:counseling.flags[0].text"
       ],
       "t": "~36:1 का senior अनुपात और ~146:1 का सभी-कक्षाओं वाला अनुपात profile के नामांकन आँकड़ों (730 Upper School, 178 senior ÷ 5) से निकाले गए हैं, स्कूल ने इन्हें प्रकाशित नहीं किया। counselor की योग्यताएँ और पिछले दाख़िला-पदों की जानकारी संकलनकर्ता स्रोतों से है।"
     },
@@ -963,7 +947,7 @@
       "text": "The office does not publish a guarantee that every application is formally reviewed before submission, a codified Early Decision / Early Action strategy, a stated test-optional position, or FAFSA/CSS Profile timelines beyond the general “Paying for College” programming.",
       "of": "c208b9e3",
       "at": [
-        "providence-day:counseling.flags[2].text"
+        "providence-day:counseling.flags[1].text"
       ],
       "t": "कार्यालय न तो यह गारंटी प्रकाशित करता है कि हर आवेदन जमा करने से पहले औपचारिक रूप से देखा जाता है, न कोई लिखित Early Decision / Early Action रणनीति, न कोई घोषित test-optional रुख़, और न ही सामान्य “Paying for College” कार्यक्रम से आगे कोई FAFSA/CSS Profile समयसारणी।"
     },
@@ -1264,22 +1248,6 @@
         "providence-day:outcomes.scholarships[5]"
       ],
       "t": "Class of 2026: 82% senior छात्रों को $21M+"
-    },
-    {
-      "text": "Discrepancy: the admissions page cites $23M in merit scholarships for the Class of 2025 while the official Academic Profile states “over $20M” in scholarships for the same class. The wording differs too — the larger figure describes the narrower category, which suggests different compilation dates or methods rather than a clean nesting. Both are the school’s own numbers.",
-      "of": "352110a8",
-      "at": [
-        "providence-day:outcomes.scholarshipsNote"
-      ],
-      "t": "विसंगति: दाख़िला पृष्ठ Class of 2025 के लिए $23M की मेधा-छात्रवृत्तियाँ बताता है, जबकि आधिकारिक Academic Profile उसी कक्षा के लिए “over $20M” की छात्रवृत्तियाँ कहता है। शब्दावली भी अलग है — बड़ा आँकड़ा संकरी श्रेणी का वर्णन करता है, जिससे लगता है कि यह एक के भीतर दूसरे के समाने का मामला नहीं, बल्कि अलग-अलग संकलन-तिथियों या तरीक़ों का नतीजा है। दोनों स्कूल के अपने आँकड़े हैं।"
-    },
-    {
-      "text": "The Class of 2026 figure of 77 colleges is an ENROLLING count, while the Class of 2025 figure of 249 is an ACCEPTING count. They are not comparable and must not be read as a decline.",
-      "of": "b7fb58e4",
-      "at": [
-        "providence-day:outcomes.flags[0].text"
-      ],
-      "t": "Class of 2026 का 77 कॉलेजों वाला आँकड़ा दाख़िले की गिनती है, जबकि Class of 2025 का 249 वाला आँकड़ा स्वीकृतियों की गिनती है। दोनों की तुलना नहीं की जा सकती और इन्हें गिरावट के रूप में नहीं पढ़ा जाना चाहिए।"
     },
     {
       "text": "Two levers work at once: the student builds a verifiable spike through nation-first diploma programmes and a required internship, and the Academic Profile makes the school’s disclosure do the vouching.",
@@ -2263,18 +2231,10 @@
       "t": "profile जो एकमात्र सच्ची व्याख्यात्मक मदद देता है, शब्दशः: “As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in ‘standard’ courses**.” transcript को ग़लत पढ़ लेने के ख़िलाफ़ यह असामान्य रूप से ईमानदार चेतावनी है।"
     },
     {
-      "text": "The grading scale, the weighting statement and the no-rank policy all appeared in the 2017–18 profile and are absent from the 2025–26 edition. Both states are documented; treat the weighting and no-rank policy as unconfirmed for the current year, since only the older edition attests them.",
-      "of": "e091fbb4",
-      "at": [
-        "charlotte-latin:transcript.flags[0].text"
-      ],
-      "t": "ग्रेडिंग पैमाना, भारांकन का कथन और बिना-रैंक वाली नीति — तीनों 2017–18 के profile में थे और 2025–26 संस्करण से ग़ायब हैं। दोनों स्थितियाँ दर्ज हैं; भारांकन और बिना-रैंक नीति को मौजूदा वर्ष के लिए अपुष्ट मानें, क्योंकि केवल पुराना संस्करण ही उनकी गवाही देता है।"
-    },
-    {
       "text": "The jump from 48 AP Scholars with Distinction (2018–20) to 193 (2023–25) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.",
       "of": "1bf937e0",
       "at": [
-        "charlotte-latin:transcript.flags[1].text"
+        "charlotte-latin:transcript.flags[0].text"
       ],
       "t": "AP Scholars with Distinction का 48 (2018–20) से 193 (2023–25) तक पहुँचना बहुत बड़ी छलाँग है। इसका कुछ हिस्सा वास्तविक वृद्धि है, पर इतना बड़ा अंतर संकेत देता है कि गिनती का आधार दोनों संस्करणों में अलग हो सकता है — स्कूल इसे परिभाषित नहीं करता। दोनों को सीधे तुलनीय के रूप में प्रस्तुत न करें।"
     },
@@ -2282,7 +2242,7 @@
       "text": "The published 2025–26 profile contains an unedited internal editorial comment left in the live document — “We’ll need to somehow check to make sure all these students are still here, yes?” — verbatim in the file served from the school’s own resource manager. It is a proofreading lapse in the one document every admissions office reads.",
       "of": "8fa01c0c",
       "at": [
-        "charlotte-latin:transcript.flags[2].text"
+        "charlotte-latin:transcript.flags[1].text"
       ],
       "t": "प्रकाशित 2025–26 profile में एक बिना संपादित आंतरिक संपादकीय टिप्पणी जीवित दस्तावेज़ में ही छूट गई है — “We’ll need to somehow check to make sure all these students are still here, yes?” — यह स्कूल के अपने resource manager से परोसी जा रही फ़ाइल में शब्दशः मौजूद है। जिस एक दस्तावेज़ को हर दाख़िला कार्यालय पढ़ता है, उसी में यह प्रूफ़रीडिंग की चूक है।"
     },
@@ -2588,18 +2548,10 @@
       "t": "दोनों अनुपात निकाले गए हैं (586 Upper School छात्र ÷ 4, और 145 senior ÷ 4); स्कूल इनमें से कोई भी प्रकाशित नहीं करता। चूँकि counselor freshman वर्ष में ही नियुक्त हो जाते हैं, इसलिए सभी कक्षाओं वाला ~1:147 का आँकड़ा भार का अधिक ईमानदार माप कहा जा सकता है, जबकि ~1:36 senior वर्ष की सघनता बताता है। किसी भी कर्मचारी का जीवन-परिचय, पिछला नियोक्ता, डिग्री या योग्यता प्रकाशित नहीं है — केवल नाम और पदनाम।"
     },
     {
-      "text": "The “nearly 100 college representatives each year” figure comes from the 2017–18 profile only. The current profile and web page mention rep visits but give no number, so treat ~100 as dated. The CEEB/ACT code 340663 and the dedicated rep-visit callout have likewise vanished from the current edition.",
-      "of": "532bbdbb",
-      "at": [
-        "charlotte-latin:counseling.flags[1].text"
-      ],
-      "t": "“nearly 100 college representatives each year” वाला आँकड़ा केवल 2017–18 के profile से आता है। मौजूदा profile और वेब पृष्ठ प्रतिनिधि-दौरों का ज़िक्र तो करते हैं पर कोई संख्या नहीं देते, इसलिए ~100 को पुराना मानें। CEEB/ACT कोड 340663 और प्रतिनिधि-दौरों वाला अलग उल्लेख भी मौजूदा संस्करण से इसी तरह ग़ायब हो चुके हैं।"
-    },
-    {
       "text": "No count of campus visits made by counselors is published — only the qualitative claim that they “stay current by attending conferences, visiting colleges, and speaking extensively with college representatives”.",
       "of": "d7341909",
       "at": [
-        "charlotte-latin:counseling.flags[2].text"
+        "charlotte-latin:counseling.flags[1].text"
       ],
       "t": "counselor द्वारा किए गए कैंपस-दौरों की कोई गिनती प्रकाशित नहीं है — केवल यह गुणात्मक दावा है कि वे “stay current by attending conferences, visiting colleges, and speaking extensively with college representatives”।"
     },
@@ -3463,18 +3415,10 @@
       "t": "स्नातक होने के लिए **27 क्रेडिट चाहिए, जिनमें 4 Biblical Studies के हों**, साथ ही एक January Term क्रेडिट और आधे क्रेडिट का Junior Seminar। वे चार क्रेडिट उस वैकल्पिक जगह को भर देते हैं जिसे समकक्ष स्कूल कहीं और लगाते हैं, और यही इस transcript की सबसे विशिष्ट विशेषता है।"
     },
     {
-      "text": "The school markets “45+ AP and honors courses” while roughly 23 AP courses can actually be enumerated from its published materials. Both figures come from the school; the enumerable count is the verifiable one.",
-      "of": "9bc7e8fe",
-      "at": [
-        "charlotte-christian:transcript.flags[0].text"
-      ],
-      "t": "स्कूल “45+ AP and honors courses” का प्रचार करता है, जबकि उसकी प्रकाशित सामग्री से असल में लगभग 23 AP कोर्स ही गिने जा सकते हैं। दोनों आँकड़े स्कूल से ही आते हैं; गिना जा सकने वाला आँकड़ा ही जाँचा जा सकने वाला है।"
-    },
-    {
       "text": "Press coverage of the 71st National Merit competition names a Class of 2025 Semifinalist who appears neither in the school’s own National Merit block nor in its senior enrollment roster, which lists only a Commended Scholar. The two sources are inconsistent about who the honorees were.",
       "of": "aee34dbd",
       "at": [
-        "charlotte-christian:transcript.flags[1].text"
+        "charlotte-christian:transcript.flags[0].text"
       ],
       "t": "71वीं National Merit प्रतियोगिता की प्रेस कवरेज Class of 2025 के एक ऐसे Semifinalist का नाम लेती है जो न स्कूल के अपने National Merit खंड में हैं और न उसकी senior नामांकन सूची में, जिसमें केवल एक Commended Scholar दर्ज है। सम्मान पाने वाले कौन थे, इस पर दोनों स्रोत आपस में मेल नहीं खाते।"
     },
@@ -3482,7 +3426,7 @@
       "text": "Only the 3+ threshold is reported — the share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be inferred. “Most rigorous” course-load norms are likewise undefined: there is no published rubric and no statement of what fraction of students take the most demanding programme.",
       "of": "c62732f8",
       "at": [
-        "charlotte-christian:transcript.flags[2].text"
+        "charlotte-christian:transcript.flags[1].text"
       ],
       "t": "केवल 3+ की सीमा बताई जाती है — 4 या 5 पाने वाली परीक्षाओं का हिस्सा किसी भी वर्ष प्रकाशित नहीं होता, इसलिए 4–5 की कोई दर नहीं निकाली जानी चाहिए। “Most rigorous” कोर्स-लोड के मानक भी इसी तरह अपरिभाषित हैं: न कोई प्रकाशित मानदंड है, न यह कथन कि कितने प्रतिशत छात्र सबसे कठिन कार्यक्रम लेते हैं।"
     },
@@ -3752,18 +3696,10 @@
       "t": "दोनों अनुपात निकाले गए हैं — 435 Upper School छात्र ÷ 2 से चारों कक्षाओं में ~218:1 बनता है, और 94 senior ÷ 2 से ~47:1। स्कूल इनमें से कोई भी प्रकाशित नहीं करता। चूँकि बँटवारा वर्णमाला के हिसाब से है, इसलिए हर counselor सचमुच चारों कक्षाएँ सँभालता है, यानी 218:1 वाला आँकड़ा भार का ईमानदार माप है और 47:1 senior वर्ष की सघनता बताता है। दोनों व्यक्तिगत counselor कॉलेज counselor नहीं हैं और उन्हें हर में नहीं गिना जाना चाहिए।"
     },
     {
-      "text": "One Upper School counselor appears as “Olivia McCarrick” on the 2024–25 profile and “Olivia Brilhante” on the counseling brochure and Student Counseling page. Most likely the same person following a name change, but the school publishes both and it is not confirmed. The Upper School Principal is likewise listed as two different people across sources.",
-      "of": "6b0c5954",
-      "at": [
-        "charlotte-christian:counseling.flags[1].text"
-      ],
-      "t": "Upper School की एक counselor 2024–25 के profile में “Olivia McCarrick” के रूप में और counseling विवरणिका तथा Student Counseling पृष्ठ पर “Olivia Brilhante” के रूप में दिखती हैं। सबसे संभावित यही है कि नाम बदलने के बाद यह एक ही व्यक्ति हैं, पर स्कूल दोनों प्रकाशित करता है और इसकी पुष्टि नहीं है। Upper School Principal भी इसी तरह अलग-अलग स्रोतों में दो अलग व्यक्तियों के रूप में दर्ज हैं।"
-    },
-    {
       "text": "No counselor tenure, prior employer or professional background is published for anyone on the team, and no bios appear on the college counseling page. Neither rep-visit counts nor counselor campus-visit counts are published.",
       "of": "7484d40b",
       "at": [
-        "charlotte-christian:counseling.flags[2].text"
+        "charlotte-christian:counseling.flags[1].text"
       ],
       "t": "टीम में किसी का भी counselor कार्यकाल, पिछला नियोक्ता या पेशेवर पृष्ठभूमि प्रकाशित नहीं है, और कॉलेज counseling पृष्ठ पर कोई जीवन-परिचय नहीं है। न प्रतिनिधि-दौरों की गिनती प्रकाशित है और न counselor द्वारा किए गए कैंपस-दौरों की।"
     },
@@ -4007,14 +3943,6 @@
         "charlotte-christian:edge.levers[1].note"
       ],
       "t": "स्कूल अनुशासन-संबंधी खुलासे की कोई नीति प्रकाशित नहीं करता — NACAC की सदस्यता के बावजूद यह कहीं नहीं बताया गया कि निलंबन या honor-उल्लंघन secondary school report तक पहुँचते हैं या नहीं और किस तरह।"
-    },
-    {
-      "text": "The Academic Conservatory is described as covering six areas in the School Profile and eight on the website. Both are the school’s own figures.",
-      "of": "f0be9471",
-      "at": [
-        "charlotte-christian:edge.flags[0].text"
-      ],
-      "t": "School Profile में Academic Conservatory को छह क्षेत्रों वाला बताया गया है और वेबसाइट पर आठ। दोनों स्कूल के अपने आँकड़े हैं।"
     },
     {
       "text": "A full five-quintile GPA table, published every year — and a visible three-year grade inflation in it, with every boundary rising while the bottom floor fell.",
@@ -5205,18 +5133,10 @@
       "t": "~54:1 का senior भार profile के 324 seniors और उसमें नामित छह counselor से गणना करके निकाला गया है। स्कूल कोई अनुपात प्रकाशित नहीं करता, और यहाँ निदेशक को भी एक counselor के रूप में गिना गया है।"
     },
     {
-      "text": "The live counselors page shows the 2026-27 roster, which drops Sandy Needham and adds Kate McHugh. This card uses the 2025-2026 profile roster throughout, so that the six counselors and the 324 seniors come from the same year.",
-      "of": "2ec7bc5f",
-      "at": [
-        "charlotte-catholic:counseling.flags[1].text"
-      ],
-      "t": "Counselor का लाइव पृष्ठ 2026-27 की सूची दिखाता है, जिसमें Sandy Needham हट जाती हैं और Kate McHugh जुड़ती हैं। यह कार्ड पूरे तौर पर 2025-2026 की profile वाली सूची इस्तेमाल करता है, ताकि छह counselor और 324 seniors एक ही वर्ष के रहें।"
-    },
-    {
       "text": "The junior and senior college-planning pages embed Prezi presentations, whose content is not reachable as text. The four-year timeline above is therefore built from published policy, not from the office’s own process deck.",
       "of": "9c090894",
       "at": [
-        "charlotte-catholic:counseling.flags[2].text"
+        "charlotte-catholic:counseling.flags[1].text"
       ],
       "t": "Junior और senior की कॉलेज-योजना वाले पृष्ठों में Prezi प्रस्तुतियाँ जड़ी हैं, जिनकी सामग्री टेक्स्ट के रूप में पढ़ी नहीं जा सकती। इसलिए ऊपर की चार-वर्षीय समय-रेखा प्रकाशित नीति से बनाई गई है, कार्यालय की अपनी प्रक्रिया-प्रस्तुति से नहीं।"
     },
@@ -6295,26 +6215,10 @@
       "t": "कोई संख्यात्मक मानदंड नहीं, पर एक **“Most Rigorous Courses by Discipline”** तालिका है जो हर विषय में सबसे ऊपरी कोर्स का नाम बताती है, साथ ही AP-लोड के वर्ग (0–2 / 3–5 / 6+) जिनसे पढ़ने वाला किसी उम्मीदवार को उसके सहपाठियों के मुक़ाबले रख सकता है।"
     },
     {
-      "text": "The two most recent profiles publish different grading scales: 2025–26 gives full plus/minus bands including an A+ at 98–100, while 2024–25 gives only whole-letter ranges. Whether the scale changed or the earlier edition merely summarised is unclear, and the presence of an A+ band decides whether an unweighted GPA can exceed 4.0.",
-      "of": "7c78d657",
-      "at": [
-        "charlotte-country-day:transcript.flags[0].text"
-      ],
-      "t": "दो सबसे हालिया profile अलग-अलग ग्रेडिंग पैमाने प्रकाशित करते हैं: 2025–26 पूरी plus/minus पट्टियाँ देता है, जिनमें 98–100 पर A+ भी है, जबकि 2024–25 केवल पूरे अक्षरों के दायरे देता है। यह स्पष्ट नहीं कि पैमाना बदला या पुराने संस्करण ने केवल सार दिया था, और A+ पट्टी का होना ही तय करता है कि अभारित GPA 4.0 से ऊपर जा सकता है या नहीं।"
-    },
-    {
-      "text": "The five-year IB Diploma pass rate is 88% in the 2025–26 profile and 91% in the 2024–25 profile — both stated as “over the last five years”. Both figures are shown.",
-      "of": "83060e4a",
-      "at": [
-        "charlotte-country-day:transcript.flags[1].text"
-      ],
-      "t": "पाँच वर्षों की IB Diploma उत्तीर्ण दर 2025–26 के profile में 88% है और 2024–25 के profile में 91% — दोनों को “over the last five years” बताया गया है। दोनों आँकड़े दिखाए गए हैं।"
-    },
-    {
       "text": "No mandatory-AP-exam policy is published, so the 93% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.",
       "of": "9d93bfc4",
       "at": [
-        "charlotte-country-day:transcript.flags[2].text"
+        "charlotte-country-day:transcript.flags[0].text"
       ],
       "t": "AP परीक्षा को अनिवार्य करने वाली कोई नीति प्रकाशित नहीं है, इसलिए वह 93% एक अघोषित हर पर टिका है। पाठ्यक्रम पृष्ठ कहता है कि परीक्षा “is the driver for the curriculum”, जिससे एक मज़बूत अपेक्षा का संकेत मिलता है पर यह कोई घोषित शर्त नहीं है। AP Scholar की संख्याएँ 2021 के बाद से प्रकाशित नहीं हुई हैं।"
     },
@@ -6607,18 +6511,10 @@
       "t": "ACCIS · NACAC · SACAC की सदस्यताएँ · हर साल प्रकाशित होने वाला School Profile (CEEB 340666, IB 0667)"
     },
     {
-      "text": "Two official sources name different directors, and both were correct when written: the 2025–26 School Profile lists Catherine Odum, while the current web pages list Allison Slater Tate. A February 2026 news post resolves it — Tate was appointed effective 1 July 2026, and Odum moved to Senior Associate Director. The profile is now stale on this point.",
-      "of": "9df947a9",
-      "at": [
-        "charlotte-country-day:counseling.flags[0].text"
-      ],
-      "t": "दो आधिकारिक स्रोत अलग-अलग director का नाम देते हैं, और लिखे जाते समय दोनों सही थे: 2025–26 का School Profile Catherine Odum को दर्ज करता है, जबकि मौजूदा वेब पृष्ठ Allison Slater Tate को। फ़रवरी 2026 की एक समाचार-पोस्ट इसे सुलझाती है — Tate की नियुक्ति 1 जुलाई 2026 से प्रभावी हुई, और Odum Senior Associate Director बन गईं। इस बिंदु पर profile अब पुराना पड़ चुका है।"
-    },
-    {
       "text": "Both ratios are derived (548 ÷ 5 and 141 ÷ 5); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:56. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
       "of": "59b3a0d2",
       "at": [
-        "charlotte-country-day:counseling.flags[1].text"
+        "charlotte-country-day:counseling.flags[0].text"
       ],
       "t": "दोनों अनुपात निकाले गए हैं (548 ÷ 5 और 141 ÷ 5); स्कूल कोई अनुपात प्रकाशित नहीं करता। असली भार शायद junior और senior दोनों मिलाकर है, यानी 1:56 के अधिक क़रीब। किसी counselor का जीवन-परिचय, कार्यकाल, डिग्री या पिछला नियोक्ता प्रकाशित नहीं है — टीम पृष्ठ केवल नाम, पदनाम और संपर्क विवरण देता है।"
     },
@@ -6626,7 +6522,7 @@
       "text": "No count of campus visits made by counseling staff is published anywhere, and no named scholarship-search tool or database is described.",
       "of": "44f67cb6",
       "at": [
-        "charlotte-country-day:counseling.flags[2].text"
+        "charlotte-country-day:counseling.flags[1].text"
       ],
       "t": "counseling कर्मचारियों द्वारा किए गए कैंपस-दौरों की कोई गिनती कहीं प्रकाशित नहीं है, और न ही कोई नामित छात्रवृत्ति-खोज साधन या डेटाबेस बताया गया है।"
     },
@@ -6904,14 +6800,6 @@
       "t": "स्कूल अनुशासन-संबंधी खुलासे की अपनी नीति प्रकाशित नहीं करता — यानी Honor Council के निष्कर्ष या निलंबन secondary school report तक पहुँचते हैं या नहीं और किस तरह। NACAC की प्रकाशित सदस्यता को देखते हुए यह चूक दौरे के लिए एक तीखा सवाल है।"
     },
     {
-      "text": "Arts events per year are “50+” in the 2025–26 profile but “70” in the 2024–25 edition — the figure went down. Both are shown.",
-      "of": "d7e4aae2",
-      "at": [
-        "charlotte-country-day:edge.flags[0].text"
-      ],
-      "t": "प्रति वर्ष कला-कार्यक्रम 2025–26 के profile में “50+” हैं पर 2024–25 संस्करण में “70” — यानी आँकड़ा घट गया। दोनों दिखाए गए हैं।"
-    },
-    {
       "text": "The quintile table is the honest answer for the middle of the class — the fourth fifth sits at a 3.513 GPA with a 1220 SAT, the fifth at 2.991 and 1110.",
       "of": "94f6b52d",
       "at": [
@@ -7113,18 +7001,10 @@
       "t": "2025–26 के profile ने SAT और ACT के बीच के 50% दायरे हटा दिए, जिन्हें 2024–25 संस्करण प्रकाशित करता था, और उनकी जगह हर क्विंटाइल के मध्यमान रख दिए। परीक्षार्थियों की संख्या किसी भी वर्ष प्रकाशित नहीं हुई — बिना नमूना-आकार के मध्यमान दिखाने वाली तालिका आकार तो दिखाती है पर N नहीं।"
     },
     {
-      "text": "The two profiles give the Class of 2025 different senior counts (138 versus 141) and report different statistics for the same class — means and ranges in one edition, medians in the other — so the top-quintile 4.540 mean and 4.472 median are both correct and not comparable.",
-      "of": "10b4bbcf",
-      "at": [
-        "charlotte-country-day:wholeClass.flags[1].text"
-      ],
-      "t": "दोनों profile Class of 2025 के लिए अलग-अलग senior संख्याएँ देते हैं (138 बनाम 141) और उसी कक्षा के लिए अलग-अलग आँकड़े बताते हैं — एक संस्करण में औसत और दायरे, दूसरे में मध्यमान — इसलिए शीर्ष-क्विंटाइल का 4.540 औसत और 4.472 मध्यमान दोनों सही हैं और आपस में तुलनीय नहीं।"
-    },
-    {
       "text": "No gap-year counselling, placement count or deferral policy is published, and neither is any direct-to-work or enlistment outcome.",
       "of": "4421bf94",
       "at": [
-        "charlotte-country-day:wholeClass.flags[2].text"
+        "charlotte-country-day:wholeClass.flags[1].text"
       ],
       "t": "न gap-year की कोई counseling, स्थान-संख्या या स्थगन-नीति प्रकाशित है, और न सीधे काम पर जाने या सेना में भर्ती होने का कोई परिणाम।"
     },
@@ -7521,14 +7401,6 @@
         "cannon:transcript.flags[1].text"
       ],
       "t": "किसी भी तरह का National Merit ब्योरा प्रकाशित नहीं है — न किसी वर्ष की Semifinalist, Finalist या Commended संख्याएँ, न profile में और न समाचार-पोस्ट में। बार-बार की खोज में केवल 2011 की एक ऐसी सामग्री मिली जिसमें एक अकेले Scholar का नाम था। AP Scholar की संख्याएँ और 4–5 पाने वालों का हिस्सा भी इसी तरह अप्रकाशित है; Cannon केवल 3+ की सीमा बताता है।"
-    },
-    {
-      "text": "The full grading scale appeared in the 2024–25 profile and was dropped from the 2025–26 edition — a disclosure regression, since a reader of the current profile cannot map a letter grade to a quality point.",
-      "of": "fbd3644e",
-      "at": [
-        "cannon:transcript.flags[2].text"
-      ],
-      "t": "पूरा ग्रेडिंग पैमाना 2024–25 के profile में था और 2025–26 संस्करण से हटा दिया गया — यह खुलासे में पीछे हटना है, क्योंकि मौजूदा profile पढ़ने वाला किसी अक्षर-ग्रेड को quality point से जोड़ ही नहीं सकता।"
     },
     {
       "text": "Cannon promises something structural that most schools do not: a student keeps the same college counselor for all four years, rather than being handed off in junior year.",
@@ -8264,18 +8136,10 @@
       "t": "अंतरराष्ट्रीय विश्वविद्यालय (St Andrews, Edinburgh, Aberdeen — यहाँ 2023 का एक पुष्ट दाख़िला, University College Dublin, McGill, Toronto); service academy और सेना (Air Force Academy, The Citadel, VMI); तकनीकी संस्थान (Rose-Hulman, WPI, Stevens, Colorado School of Mines, RPI); HBCU (Howard, Spelman, NC A&T, NC Central, Winston-Salem State)।"
     },
     {
-      "text": "The 2024–25 profile published NO test scores at all, stating that because of test-optional review “test scores for the Class of 2025 are not reported”. The 2025–26 profile then published a full Class of 2025 testing distribution. Same class, opposite decisions, one year apart, unexplained — the later figures are shown here.",
-      "of": "3fb5bba4",
-      "at": [
-        "cannon:wholeClass.flags[0].text"
-      ],
-      "t": "2024–25 के profile ने कोई परीक्षा-स्कोर प्रकाशित ही नहीं किया, यह कहते हुए कि test-optional समीक्षा के कारण “test scores for the Class of 2025 are not reported”। फिर 2025–26 के profile ने Class of 2025 का पूरा परीक्षा-वितरण प्रकाशित कर दिया। वही कक्षा, उलटे निर्णय, एक साल के अंतर पर, और कोई व्याख्या नहीं — यहाँ बाद वाले आँकड़े दिखाए गए हैं।"
-    },
-    {
       "text": "All four GPA bands are identical to the hundredth across the Class of 2024 and Class of 2025 tables. An exact four-band match across two different cohorts is statistically unlikely, so this may be carried-forward data rather than a genuinely stable distribution.",
       "of": "c2eb7795",
       "at": [
-        "cannon:wholeClass.flags[1].text"
+        "cannon:wholeClass.flags[0].text"
       ],
       "t": "Class of 2024 और Class of 2025 की तालिकाओं में चारों GPA पट्टियाँ सौवें अंक तक एक जैसी हैं। दो अलग-अलग समूहों में चारों पट्टियों का ठीक-ठीक मेल खाना सांख्यिकीय रूप से असंभावित है, इसलिए हो सकता है यह सचमुच स्थिर वितरण न होकर आगे बढ़ा दिया गया पुराना आँकड़ा हो।"
     },
@@ -8283,7 +8147,7 @@
       "text": "No gap-year statistic, policy or counselling service is described anywhere — and since 98% four-year plus 2% two-year accounts for the whole class, the published outcomes leave no room for a gap-year cohort at all.",
       "of": "ce6f345e",
       "at": [
-        "cannon:wholeClass.flags[2].text"
+        "cannon:wholeClass.flags[1].text"
       ],
       "t": "gap-year का कोई आँकड़ा, नीति या counseling सेवा कहीं वर्णित नहीं है — और चूँकि 98% चार-वर्षीय तथा 2% दो-वर्षीय मिलाकर पूरी कक्षा बन जाती है, इसलिए प्रकाशित परिणामों में gap-year वाले किसी समूह के लिए जगह ही नहीं बचती।"
     },
@@ -10175,18 +10039,10 @@
       "t": "दोनों अनुपात निकाले गए हैं (198 ÷ 2 और 47 ÷ 2)। स्कूल counselor-छात्र अनुपात कभी नहीं बताता, और न भार बाँटने का कोई तरीक़ा प्रकाशित करता है और न यह कि छात्र को counselor किस मोड़ पर सौंपा जाता है।"
     },
     {
-      "text": "Rep visits appear as a marketing benchmark of “more than 80” per year, while a documented recent count is ~71 (nearly 80% out-of-state). Both figures are shown; the lower one could not be re-verified live.",
-      "of": "b0fa7a99",
-      "at": [
-        "davidson-day:counseling.flags[1].text"
-      ],
-      "t": "प्रतिनिधि-दौरे प्रचार-मानक के रूप में हर साल “more than 80” बताए जाते हैं, जबकि एक प्रलेखित हालिया गिनती ~71 है (लगभग 80% राज्य से बाहर के)। दोनों आँकड़े दिखाए गए हैं; छोटे वाले की जीवित स्रोत से दोबारा पुष्टि नहीं हो सकी।"
-    },
-    {
       "text": "No grade-by-grade curriculum map is published. The live page carries no 9/10/11/12 breakdown — only “begins in 9th grade” plus the fall/spring event list, whose names map to grades only loosely.",
       "of": "330f0741",
       "at": [
-        "davidson-day:counseling.flags[2].text"
+        "davidson-day:counseling.flags[1].text"
       ],
       "t": "कक्षा-दर-कक्षा कोई पाठ्य-योजना प्रकाशित नहीं है। जीवित पृष्ठ पर 9/10/11/12 का कोई विभाजन नहीं है — केवल “begins in 9th grade” और पतझड़/वसंत की कार्यक्रम-सूची, जिनके नाम कक्षाओं से बहुत ढीले ढंग से ही जुड़ते हैं।"
     },
@@ -10194,7 +10050,7 @@
       "text": "The office publishes no commitment that every application is read before submission, no Early Decision / Early Action doctrine, and no counselor campus-visit count. A two-person office can plausibly review everything — but it never says so in writing.",
       "of": "b5bf0222",
       "at": [
-        "davidson-day:counseling.flags[3].text"
+        "davidson-day:counseling.flags[2].text"
       ],
       "t": "कार्यालय न यह वचन प्रकाशित करता है कि हर आवेदन जमा करने से पहले पढ़ा जाता है, न कोई Early Decision / Early Action सिद्धांत, और न counselor के कैंपस-दौरों की कोई गिनती। दो लोगों का कार्यालय संभवतः सब कुछ देख सकता है — पर वह यह बात लिखित रूप में कभी नहीं कहता।"
     },
@@ -13121,18 +12977,10 @@
       "t": "2024-25 की एक तालिका English, Arts, History, Math, Science और Languages के लिए A+/A/A-…D का फैलाव देती है — एक असामान्य खुलासा, जो पाठक को किसी GDS ग्रेड को उसी के विभाग के मुक़ाबले आँकने देता है।"
     },
     {
-      "text": "AP course count: the profile’s own course table marks **10** AP courses, while Private School Review lists **9** — its list omits Chemistry, which the profile marks (H)(AP). The school’s own table is used.",
-      "of": "1fd9de35",
-      "at": [
-        "gaston-day:transcript.flags[0].text"
-      ],
-      "t": "AP कोर्स की गिनती: profile की अपनी कोर्स तालिका **10** AP कोर्स दर्ज करती है, जबकि Private School Review **9** बताता है — उसकी सूची में Chemistry छूट गया है, जिसे profile (H)(AP) दर्ज करता है। स्कूल की अपनी तालिका इस्तेमाल की गई है।"
-    },
-    {
       "text": "The profile publishes no per-subject AP score table, no count of AP exams sat, and no National Merit ledger — so the 3+ rate is a single school-wide figure per year rather than a distribution.",
       "of": "b9bd5d76",
       "at": [
-        "gaston-day:transcript.flags[1].text"
+        "gaston-day:transcript.flags[0].text"
       ],
       "t": "profile न विषय-वार AP अंकों की कोई तालिका प्रकाशित करता है, न दी गई AP परीक्षाओं की गिनती, और न National Merit का कोई ब्योरा — इसलिए 3+ की दर हर साल का एक अकेला स्कूल-भर का आँकड़ा है, कोई वितरण नहीं।"
     },
