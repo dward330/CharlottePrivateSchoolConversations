@@ -16,11 +16,16 @@
 //
 //  1. The 2025–26 profile DROPPED the acceptance list entirely, so the newest
 //     available list is a three-year rollup ending with the Class of 2024 —
-//     one full cycle stale. That is flagged on the card.
+//     one full cycle stale. Since the `caveat` removal below, the card no
+//     longer states this; it survives only as a question for the school in the
+//     `questions` card.
 //  2. Cannon's bold "enrolled" markers did not survive PDF text extraction, so
 //     `enrolling` here is driven by something better: the school's separately
 //     published Class of 2023 MATRICULATION list, which is actual enrollment
-//     rather than acceptance. The card says exactly that.
+//     rather than acceptance. That provenance is no longer stated on the card —
+//     the "TO VERIFY" flag describing it was removed at the user's request
+//     (see .claude/plans/cannonUpdate.md), along with `bucketsNote` and
+//     `caveat`. It remains true of the data; it is simply not surfaced.
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
@@ -596,8 +601,6 @@ export const cannon: CollegeSupportProgram = {
       { tier: 'Power Four', count: '52 / 68' },
       { tier: 'HBCUs', count: '5 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    bucketsNote:
-      'Counts are computed from the same list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported. The Ivy count is reported strictly: the list contains “Columbia College”, which almost certainly means Columbia College in South Carolina, Chicago or Missouri rather than Columbia University, since the latter would be printed as “Columbia University”. Read loosely it would be 4 of 8; both readings are stated rather than one being picked.',
     collegesTitle: 'Every acceptance, 2022–2024',
     colleges,
     collegesTotal: '283 institutions · bold = a Class of 2023 student enrolled',
@@ -609,14 +612,7 @@ export const cannon: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'This is Cannon’s single largest outcome-data gap. No merit-scholarship dollar figure appears on either profile or in any news post, and no current Morehead-Cain, Park, QuestBridge or ROTC outcome is published. Cannon does publish $3,000,000 in tuition assistance to 24% of its students — but that is the school’s own inbound financial aid, not college merit money, and the two must not be conflated.',
-    caveat:
-      'the headline list is explicitly “College Acceptances” across three graduating classes (2022, 2023, 2024) — roughly 330 students, each generating multiple acceptances. An institution appearing there does not mean a Cannon student attended, or that an acceptance happened in any particular year. Prefer the Class of 2023 matriculation list, which is real enrollment. Note also that the 2025–26 profile dropped the acceptance list entirely, so the newest available data is already one full cycle stale. This window begins in 2022, a year earlier than the 2023 floor the other schools here share: Cannon publishes only this single pre-aggregated block with no per-class breakdown, so the 2022 acceptances cannot be split off without discarding the list, and the school has published nothing newer to replace it.',
-    flags: [
-      {
-        kind: 'verify',
-        text: 'The profile’s bold “enrolled” markers for the Class of 2024 did not survive PDF text extraction, so the enrolling markers here come from the separately published Class of 2023 matriculation list instead. They are real enrollments, but for a different class than the acceptance list’s bold key describes.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'cannonschool.org — 2024–25 School Profile (the 2022–24 acceptance list)', url: PROFILE_2425 },
       { label: '2025–26 School Profile (Class of 2025 outcomes)', url: PROFILE_2526 },
@@ -712,8 +708,6 @@ export const cannon: CollegeSupportProgram = {
         text: 'The **Academic Resource Center** for maths, writing, science and world languages; 1:1 **academic coaching** on executive function; and a faculty-facilitated, peer-led **Academic Lab**.',
       },
     ],
-    supportNote:
-      'Not published: how many students are on formal learning plans, whether accommodations carry a fee, and specialist credentials.',
     middle: [
       {
         label: 'The list is printed honestly',

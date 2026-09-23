@@ -532,10 +532,6 @@ function CollegeList({ data }: { data: Outcomes }) {
     )
   }, [data.colleges, filter, query])
 
-  /* How many of the rows CURRENTLY shown carry a homepage link, so the legend
-     describes the list in front of the reader rather than the whole roster. */
-  const linked = useMemo(() => shown.filter((c) => urlFor(c.name)).length, [shown])
-
   return (
     <div>
       <Heading hint={t('collegeSupport.hintFilter')}>
@@ -571,18 +567,6 @@ function CollegeList({ data }: { data: Outcomes }) {
         {t('tables.shown', { count: shown.length })}
         {data.collegesTotal && ` · ${data.collegesTotal}`}
       </div>
-
-      {/* The link legend explains the ↗ affordance before the reader meets it,
-          mirroring the cross-link legend on High School Placement. Rows with no
-          resolvable homepage need no explanation — they are simply plain text. */}
-      {linked > 0 && (
-        <p className="cs-link-legend text-muted">
-          <span className="cs-college-arrow" aria-hidden="true">
-            ↗
-          </span>{' '}
-          {t('collegeSupport.linkLegend', { count: linked })}
-        </p>
-      )}
 
       <div className="cs-college-list">
         {shown.map((c) => {
