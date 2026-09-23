@@ -594,8 +594,6 @@ export const davidsonDay: CollegeSupportProgram = {
       { tier: 'Power Four', count: '45 / 68' },
       { tier: 'HBCUs', count: '3 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    bucketsNote:
-      'Counts are computed from the same 255-institution list you can filter at right, scored against the 2027 U.S. News tables — they are derived, not school-published. Two service academies rank as Liberal Arts Colleges in that system (Air Force #5, West Point #13), so the LAC figure should not be read as 26 civilian colleges.',
     collegesTitle: 'Every acceptance, 2021–2025',
     colleges,
     collegesTotal: '255 institutions across five graduating classes',
@@ -607,8 +605,6 @@ export const davidsonDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The $7.4M is the school’s own wording — “offered”, not accepted, so it includes awards from colleges no student attended. The number of students receiving merit, the median award, and the accepted total are all unpublished, as are Morehead-Cain, Robertson, QuestBridge and ROTC outcomes.',
-    caveat:
-      'this is a five-year cumulative acceptance list, not a matriculation list. A college earns a place by admitting one student at any point across five classes, so the list measures breadth, not placement. Nothing on it is bolded or otherwise marked to show enrollment — the school reports that the Class of 2025 “selected 35 different colleges” but never names them. This window begins in 2021, two years before the 2023 floor the other schools here share: the 2025–26 profile still prints this single 2021–2025 block with no per-class breakdown, so the pre-2023 classes cannot be split off without discarding the list, and no narrower or newer named list is published.',
     flags: [
       {
         kind: 'gap',
@@ -694,8 +690,6 @@ export const davidsonDay: CollegeSupportProgram = {
         text: 'How the LEC documents approved accommodations so they carry over to College Board / ACT testing and to college disability services is described nowhere. The support is well documented; its hand-off into the application process is not.',
       },
     ],
-    supportNote:
-      'No LEC staff are named — no roster, titles, credentials or headcount — and whether services carry a fee beyond tuition is not stated.',
     middle: [
       {
         label: 'The list is the evidence',

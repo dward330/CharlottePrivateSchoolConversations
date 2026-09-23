@@ -579,8 +579,6 @@ export const gastonDay: CollegeSupportProgram = {
       { tier: 'Power Four', count: '43 / 68' },
       { tier: 'HBCUs', count: '5 / 107', note: '— Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo' },
     ],
-    bucketsNote:
-      'Scored across the whole 2019–2025 window against the 2027 U.S. News tables, so these are seven-year cumulative counts, not one class. Specialty art schools on the list (RISD, SCAD, School of Visual Arts, MICA, School of the Art Institute of Chicago, Minneapolis College of Art and Design) and foreign universities (UCL, King’s College London, Toronto, Melbourne, Sydney, Yonsei) hold no U.S. News National or Liberal Arts rank and so score in no bucket — an absence of a label, not of selectivity.',
     collegesTitle: 'Every acceptance, 2019–2025',
     colleges,
     collegesTotal: '231 institutions',
@@ -593,8 +591,6 @@ export const gastonDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'College merit awards won by graduating seniors. Against a class of ~35, the 2025 figure works out to well over $100K per awarded student — but note the school does not publish how many of the class applied for or received any award beyond these counts.',
-    caveat:
-      'This is an acceptance list, not a matriculation list. The profile bolds the institutions Class of 2025 members actually enrolled at, but that bold styling does not survive PDF text extraction — so no college here is marked as enrolling, and the list should be read as "admitted somewhere in this set over seven years" rather than "the class went here".',
     flags: [
       {
         kind: 'gap',
@@ -709,8 +705,6 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'Coaching', text: '**Academic Coaching** and tutoring, plus a paid on-site summer tutoring programme open to non-students at $30/half-hour.' },
       { label: 'World language exception', text: 'International students for whom English is a second language are **not required** to take an additional world language — a documented accommodation within the graduation requirements.' },
     ],
-    supportNote:
-      'The school does not publish how many students use the Coordinate Program, what it costs, whether there is an admissions requirement, or how testing accommodations are documented with the College Board and ACT.',
     middleTitle: 'If a student is in the middle',
     middle: [
       { label: 'Everyone gets an advisor', text: 'Every Upper School student is assigned a faculty advisor matched to their interests and needs, who **stays with them through graduation** — continuity that does not depend on being a top student.' },

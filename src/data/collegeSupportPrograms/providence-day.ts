@@ -742,8 +742,6 @@ export const providenceDay: CollegeSupportProgram = {
       { tier: 'Power Four', count: '65 / 68', note: '— the full ACC, plus 15 of 16 SEC, 17 of 18 Big Ten and 15 of 16 Big 12' },
       { tier: 'HBCUs', count: '14 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    bucketsNote:
-      'Counts are computed from the same 382-institution list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported figures. Coverage of the Top-75 nationals is close to saturated: it is harder to name one missing than present.',
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
     collegesTotal: '382 institutions · bold = enrolling more than one graduate',
@@ -757,8 +755,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'Discrepancy: the admissions page cites $23M in merit scholarships for the Class of 2025 while the official Academic Profile states “over $20M” in scholarships for the same class. The wording differs too — the larger figure describes the narrower category, which suggests different compilation dates or methods rather than a clean nesting. Both are the school’s own numbers.',
-    caveat:
-      'this is an acceptance list, not a matriculation list — a four-year rolling aggregate in which a student admitted to twelve schools appears twelve times. Per-university enrollment counts are not published. Two further inconsistencies matter: the live page covers 2023–2026 while the profile PDF covers 2022–2025, and the two documents define bold differently (“more than one” member versus “one or more”), so bolding cannot be read consistently across them.',
     flags: [
       {
         kind: 'discrepancy',
@@ -864,8 +860,6 @@ export const providenceDay: CollegeSupportProgram = {
         text: 'This is a **consultative** model, not a structured learning-differences programme — there is no published LD track, resource room, or accommodations-course structure. On-site occupational therapy exists; speech-language services are not published.',
       },
     ],
-    supportNote:
-      'How accommodations are documented for College Board / ACT testing, and how many students hold them, is not published — and the Student Services page returned a 404 during this research pass, so the named staff should be re-confirmed.',
     middle: [
       {
         label: 'The list matches the distribution',

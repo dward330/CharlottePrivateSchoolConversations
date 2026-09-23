@@ -523,8 +523,6 @@ export const charlotteCatholic: CollegeSupportProgram = {
       { tier: 'Power Four', count: '39 / 68', note: '40 rows carry the tag; the two Arizona State campuses are one institution' },
       { tier: 'HBCUs', count: '2 / 107', note: 'Hampton University and Benedict College' },
     ],
-    bucketsNote:
-      'Every bucket here counts MATRICULATIONS, not acceptances. A student is admitted to many colleges and enrolls at one, so these counts are structurally lower than an acceptance-based list and must not be read as a harder or weaker admissions result than a school that publishes acceptances.',
     collegesTitle: 'Every matriculation, 2023–2025',
     collegesTotal: '169 institutions · the profile publishes no enrollment counts per institution',
     colleges,
@@ -538,8 +536,6 @@ export const charlotteCatholic: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The scholarship total is the class-wide figure the school publishes; it is not broken out by institution, by merit-versus-need, or per student.',
-    caveat:
-      'The profile’s own heading is "COLLEGE MATRICULATION CLASSES OF 2023-2025" — this is where graduates enrolled. Several schools on this roster publish acceptance lists instead, which are much longer by construction. Comparing the two directly understates CCHS.',
     flags: [
       {
         kind: 'gap',
@@ -632,8 +628,6 @@ export const charlotteCatholic: CollegeSupportProgram = {
       { label: 'Pathway Program', text: 'A distinct pathway course (507) alongside the Options track.' },
       { label: 'Study Hall', text: 'Timetabled (100), so a supported schedule need not sacrifice an elective slot.' },
     ],
-    supportNote:
-      'CCHS publishes no learning-difference policy document, no accommodation counts and no diagnostic-support staffing. The Options and Pathways courses are visible in the curriculum guide; the services behind them are not described publicly.',
     middle: [
       { label: 'The middle band is published', text: 'The 5th and 6th deciles run 3.83–3.95 and 3.71–3.82 — a family can locate a median student, which a school publishing only averages would hide.' },
       { label: 'The bottom decile is not hidden', text: 'The 10th decile is published as 2.25–3.14 rather than truncated, which is unusually candid for a school profile.' },

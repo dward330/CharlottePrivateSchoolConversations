@@ -658,8 +658,6 @@ export const charlotteLatin: CollegeSupportProgram = {
       { tier: 'Power Four', count: '61 / 68', note: '— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12' },
       { tier: 'HBCUs', count: '7 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    bucketsNote:
-      'Counts here are computed from the same 300-institution list you can filter at right, scored against the 2027 U.S. News tables. The Ivy and Power Four figures are exact — those memberships are fixed. The Top-75 counts are approximate to within a few places, because U.S. News publishes heavy ties around the 70–75 boundary. The three Ivy absences were confirmed by direct string search of the profile PDF; a summary of the school’s own web Acceptances page asserted Princeton was present, and the PDF governs.',
     collegesTitle: 'Every acceptance, 2023–2025',
     colleges,
     collegesTotal: '300 institutions · bold = at least one student matriculated',
@@ -673,8 +671,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The merit-dollar total stopped being published after the Class of 2023 — the 2024, 2025 and 2026 write-ups carry no figure, and whether the school stopped collecting or stopped publishing it is unclear. Morehead-Cain attaches to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class; Robertson, Jefferson and Belk are attested only in a 2017–18 historical paragraph and should not be read as current pipelines.',
-    caveat:
-      'this is a three-year aggregate acceptance list, not a matriculation list. The asterisk means at least one student enrolled at that college at some point across the Classes of 2023–25 — it is not a count, and it does not mean a student enrolled from every class. 169 of the 300 institutions carry no asterisk at all. The window starts at 2023, matching the floor the other schools here share; the school publishes no Class of 2026 acceptance list yet, so the window does not extend that far forward. Note also that the “100% to four-year colleges” claim carried by all three archived profile editions has been REMOVED from the current one, with no explanation, so it should not be carried forward to the present class.',
     flags: [],
     sources: [
       { label: 'charlottelatin.org — 2025–26 Upper School Profile (College Admission Summary 2023–25)', url: PROFILE },
@@ -756,8 +752,6 @@ export const charlotteLatin: CollegeSupportProgram = {
         text: 'The Office of Academic Transition and Student Success is a **transition and belonging office** for students new to independent schools, particularly from underrepresented backgrounds. Its page never mentions learning differences, 504 plans or accommodations. A student with dyslexia who is neither new to Latin nor from an underrepresented background falls outside its stated population entirely.',
       },
     ],
-    supportNote:
-      'The published-invisibility problem, verified directly: every descriptive Learning Resources page on the live site now 404s, and the “Learning Resources” tile on the Student Support and Wellness page is an href="#" anchor with no body copy. The 1985 founding, the coaching model, the 504 process and the per-session billing survive only in archived captures — so a prospective family researching learning support today finds a tile that links nowhere. Upper School LR staffing levels and the number of students served are unpublished, and whether Margaret Sigmon is still Director could not be confirmed.',
     middle: [
       {
         label: 'Breadth is the only available proxy',
