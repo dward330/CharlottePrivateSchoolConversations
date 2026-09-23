@@ -291,8 +291,6 @@ export const covenantDay: CollegeSupportProgram = {
       { tier: 'Power Four', count: '46 / 68', note: '— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12' },
       { tier: 'HBCUs', count: '3 / 107', note: '— Fayetteville State, Johnson C. Smith, NC A&T' },
     ],
-    bucketsNote:
-      'Derived by this research from the school’s published list against the 2027 U.S. News tables — the same rosters used for the other schools here, not figures the school reports. Earlier windows ran higher: the 2018–2023 highlights include Stanford, MIT, Princeton, Brown, Cornell and Vanderbilt, and the 2021–2024 list adds five UC campuses.',
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges: [
       { name: 'American College of Building Arts', cats: [] },
@@ -529,8 +527,6 @@ export const covenantDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The bold-marks-matriculation convention is itself unusual disclosure: because both published lists carry it and overlap on the classes of 2023–24, acceptances and enrollments can be cross-validated across editions.',
-    caveat:
-      'A multi-year cumulative list shows breadth, not rates: each name means at least one acceptance across four graduating classes of ~85, and bold means at least one enrollment.',
     flags: [
       {
         kind: 'verify',
@@ -641,8 +637,6 @@ export const covenantDay: CollegeSupportProgram = {
         text: 'The tuition terms disclose that tutoring and special testing beyond classroom help are available at extra cost — a stated, priced channel rather than an unspoken one.',
       },
     ],
-    supportNote:
-      'AP gating (none for freshmen, one for sophomores) is itself a whole-class guardrail: rigor is sequenced by readiness rather than open-enrollment.',
     middle: [
       {
         label: 'The list shows the range',

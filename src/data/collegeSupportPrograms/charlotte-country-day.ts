@@ -680,8 +680,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { tier: 'Power Four', count: '61 / 68' },
       { tier: 'HBCUs', count: '18 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    bucketsNote:
-      'Counts are computed from the same 320-institution list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported. Note that none of the seven Ivies is bolded for the Class of 2026: no member of that class enrolled at an Ivy, though the Class of 2025 enrolled at Brown, Cornell, Dartmouth, Princeton and Yale. That is a real year-over-year swing rather than a data artefact.',
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
     collegesTotal: '320 institutions · bold = enrolling a Class of 2026 student',
@@ -694,8 +692,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'Treat the “34 Morehead-Cain recipients” figure carefully: the College Counseling landing page shows it beside Class of 2026 statistics, but the Class of 2026 produced exactly one Morehead-Cain Scholar. The 34 is a cumulative, all-time count whose window the school never states. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile and should not be presented as current pipelines.',
-    caveat:
-      'this is a four-year cumulative acceptance list, not a matriculation list. Roughly 320 institutions appear because about 564 students across four classes each applied to around eight colleges. Only the bolded names — 69 recovered here against the school’s stated 70 — represent institutions actually enrolling a member of the Class of 2026, and 141 students spread across just 70 destinations. The school does not publish a precise percentage enrolling at four-year colleges; the “100%” it cites is an admission rate.',
     flags: [
       {
         kind: 'verify',
@@ -810,8 +806,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         text: 'Uniquely among the schools here, the ERP explicitly **“assists in requesting accommodations with the College Board, ACT, and IB”** — the hand-off into admissions testing is stated rather than left implicit.',
       },
     ],
-    supportNote:
-      'No learning specialist or academic coach is named anywhere, and no staff count or credentials are published — so the caseload behind that model is unknown.',
     middle: [
       {
         label: 'The list matches the distribution',

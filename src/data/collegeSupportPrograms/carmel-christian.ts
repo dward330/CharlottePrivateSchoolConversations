@@ -555,8 +555,6 @@ export const carmelChristian: CollegeSupportProgram = {
       { tier: 'Power Four', count: '44 / 68' },
       { tier: 'HBCUs', count: '8 / 107', note: '— incl. Hampton, Howard, NC A&T, Florida A&M' },
     ],
-    bucketsNote:
-      'Counts are derived by this research from the same ~215-institution list you can filter at right, scored against the 2027 U.S. News tables — not figures the school reports. The list preserves the page’s verbatim duplicates (SCAD appears three ways; Alabama appears bare and as Tuscaloosa/Birmingham/Huntsville), and includes two non-college destinations — the United States Marine Corps and NASCAR Technical Institute.',
     collegesTitle: 'Every named acceptance',
     colleges,
     collegesTotal: '~215 institutions · no time window, counts or matriculation markings published',
@@ -567,8 +565,6 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The school publishes no scholarship-offer totals and no named-award ledger anywhere in the materials located for this pass.',
-    caveat:
-      'this is an acceptance list, not a matriculation list — and unlike some peer schools it marks no enrollments at all, so it shows breadth of acceptances rather than where students actually enrolled. No time window or counts are stated, so a name means at least one acceptance at some point.',
     flags: [
       {
         kind: 'verify',
@@ -655,8 +651,6 @@ export const carmelChristian: CollegeSupportProgram = {
         text: 'A Personal Counselor / Registrar (Clay Kessler) serves grades 9–12, distinct from the college office — the pastoral and personal-support channel.',
       },
     ],
-    supportNote:
-      'No structured learning-differences program, resource room, or accommodations detail is published, and no figures on how testing accommodations are documented were located for this pass.',
     middle: [
       {
         label: 'The list matches a broad class',

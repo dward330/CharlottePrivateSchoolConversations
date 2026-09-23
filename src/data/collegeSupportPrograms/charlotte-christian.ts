@@ -522,8 +522,6 @@ export const charlotteChristian: CollegeSupportProgram = {
       { tier: 'Power Four', count: '40 / 68' },
       { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    bucketsNote:
-      'Counts are computed from the same 186-institution list you can filter at right, scored against the 2027 U.S. News tables — derived analysis, not school-reported. Six of the eight Ivies are absent from the 2023–25 list; Harvard, Princeton, Brown and Penn appear on neither published list. Top-75 boundary placements in the 40–75 band are indicative, as the ranking source could not be machine-verified in full.',
     collegesTitle: 'Every acceptance, 2023–2025',
     colleges,
     collegesTotal: '186 institutions · bold = a Class of 2025 graduate enrolled',
@@ -536,14 +534,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The Class of 2025 total is printed in the school’s own Celebrating Seniors booklet as “$6,400,00” — a digit is missing, and the school’s website renders the same figure as “more than $6.4 million”, which is used here. Publishing roughly ninety individually named awards is unusually granular. Morehead-Cain, QuestBridge and ROTC outcomes are not published, and no federal service academy appears on either list.',
-    caveat:
-      'this is an acceptance list across three graduating classes, not a matriculation list. The asterisk marks enrollment for the Class of 2025 only — and Duke, Cornell, Georgetown, Notre Dame, Emory, USC, UVA, Michigan, William & Mary, Colby and Boston College all carry no asterisk, meaning no Class of 2025 graduate enrolled at any of them. The most selective actual enrollments were Dartmouth (a football signee), Davidson (a golf signee), NYU (the valedictorian) and UNC–Chapel Hill (five students). The window starts at 2023, matching the floor the other schools here share; the Class of 2026 has not yet been published as a graduating class, so no 2026 acceptance list exists to extend it forward.',
-    flags: [
-      {
-        kind: 'discrepancy',
-        text: 'The school claims “99% attend a four-year college”, but its own named Class of 2025 roster shows about five of 94 graduates at a community college, a real-estate school, in childcare or taking a postgraduate year — closer to 95%. Both are the school’s own figures.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'charlottechristian.com — College Counseling (School Profile, acceptance list)', url: COUNSELING },
       { label: 'College & Career Planning brochure (Classes of 2023–25 list, sector split)', url: CCS },
@@ -640,8 +631,6 @@ export const charlotteChristian: CollegeSupportProgram = {
         text: '**WIN (“What I Need”) labs** and advisory lessons are the named Upper School academic-support structure, and the **Media & Writing Center** is free and writing-specific. What WIN Lab delivers academically is not described.',
       },
     ],
-    supportNote:
-      'This is the weakest-documented area in the entire research set. No named learning specialist, no named learning-differences programme, no psycho-educational testing, no 504 or accommodation-plan process, no extended-time policy and no College Board accommodations coordination could be found. Given the school gates Honors and AP placement on an A in the prerequisite course AND mandates AP exams, that combination makes this a priority question rather than a footnote.',
     middle: [
       {
         label: 'The middle may be the best-served cohort',

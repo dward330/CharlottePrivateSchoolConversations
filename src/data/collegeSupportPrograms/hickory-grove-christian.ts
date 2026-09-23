@@ -436,8 +436,6 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       { tier: 'Power Four', count: '25 / 68' },
       { tier: 'HBCUs', count: '20 / 107', note: '— incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk' },
     ],
-    bucketsNote:
-      'Counts are derived by this research from the same 132-institution list you can filter at right, scored against the 2027 U.S. News tables — not figures the school reports. The list is the union of the Class of 2023 (81) and Class of 2025 (86) profiles; verbatim spellings are preserved, including the profiles\' own apparent typos ("Clafin", "Deleware", "Coker University"), and community colleges (Central Piedmont, Cape Fear, Rowan-Cabarrus, York Technical) are kept because the school lists them.',
     collegesTitle: 'Every named acceptance (2023 + 2025)',
     colleges,
     collegesTotal: '132 institutions across two published class lists · no matriculation markings',
@@ -448,8 +446,6 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'The profiles publish acceptance lists and recognition counts, but no scholarship-offer totals or named-award ledger.',
-    caveat:
-      'these are acceptance lists, not matriculation lists, and mark no enrollments — so they show breadth of acceptances rather than where students actually enrolled. The Class of 2025 profile marks first-ever acceptances with an asterisk, showing the list is still widening.',
     flags: [
       {
         kind: 'verify',
@@ -538,8 +534,6 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         text: 'The Student Services page names an Educational Support Services (ESS) channel alongside standardized-testing support and wellness, but publishes no learning-differences program detail, resource-room description, or accommodations figures.',
       },
     ],
-    supportNote:
-      'No structured learning-differences program, accommodations count, or resource-room detail is published; ESS is named without figures.',
     middle: [
       {
         label: 'The list matches a broad class',
