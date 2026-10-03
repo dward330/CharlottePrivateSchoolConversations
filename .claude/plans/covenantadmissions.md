@@ -1,11 +1,11 @@
 ---
 name: covenantadmissions
 title: Refresh Covenant Day's Admissions guide to the live site — the reworded faith requirement, Grade 1's Little Lions visit, the Come See Covenant times and the moved JK/K page
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-02
 branch: fix/covenantadmissions
-prs: []
+prs: [324]
 ---
 
 # Refresh Covenant Day's Admissions guide to the live site
@@ -411,3 +411,25 @@ Scope is the **overlay layer** (`PROSE_TRANSLATED`: `es, bn, ht, te, fr, fa, it,
 - **Should `sources[9].label` stay generic rather than naming the times?** **Default:**
   name the times (step 10), since the source-list label is where a reader checks where
   a figure came from.
+
+## Implementation notes
+
+- **The PR was opened in Phase 2, not at step 13.** `/implement` holds a two-phase plan's PR
+  until both phases are on the branch, so Phase 1 committed and stopped.
+- **Step 14 measured exactly 14 retired / 14 new stamps**, and each new stamp's `at` list
+  equals the retired one's. The splice therefore matched by `at`-path with no ambiguity.
+- **Two entries were built by substitution on the reviewed translation** rather than written
+  fresh: the g611 interview (new faith passage + the locale's existing shadow-day tail) and
+  the "Constant in every band" row (only the interview clause replaced). Each old clause
+  was asserted present before replacing.
+- **Clock times follow each locale's existing convention** (the Charlotte Latin
+  `9:30–11:00 a.m.` precedent): `es`/`fr`/`it`/`ht` keep `a.m.`; `bn`/`te`/`hi`/`fa`/`ar`
+  use their own word for "morning" beside the same `9:30–11:30` digits.
+- **The Verification item for `check_work_integrity --base <Phase 1 commit>` was wrong.**
+  Phase 1 never touches the work files, so the Phase 1 commit equals `main` for them, and
+  the script reports 28 violations per locale (14 entries × "mutated" + "overwritten").
+  Verified instead by a direct diff against the base: exactly 14 entries changed per locale,
+  all of them intended stamps. The foreign-script assertion is covered by `check:script`
+  (clean). A future refresh plan should say that.
+- **Browser check:** the first locale's cold load captured text before the admissions
+  content rendered. A 2.5s settle wait fixed it, and nothing was wrong with the data.
