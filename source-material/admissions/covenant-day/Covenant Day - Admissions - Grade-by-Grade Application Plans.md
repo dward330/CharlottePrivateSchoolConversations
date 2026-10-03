@@ -131,6 +131,8 @@ records, health records, and other pertinent information."*
 
 ### 5. INTERVIEW/SHADOW — Family Interview / Student Shadow Day
 
+*Superseded 2026-10-02: the faith paragraph and the "JK/K" / "Grades 1-5" bullets below were reworded by the school — see `Covenant Day - Admissions - Live-Site Refresh 2026-10-02.md`.*
+
 > "The Admissions Office will provide a link to schedule your parent interview with the
 > Admissions Director. **An essential component for admission is the requirement that one or
 > both parents be professing Christians as evidenced by their confession of faith in Jesus
@@ -184,6 +186,8 @@ And the priority footnote, verbatim:
 *(A prior pass reported a "9:30–11:30 a.m." time for the Nov 12 Come See Covenant event; the
 rendered Key Dates list carries no time for either event. Times are NOT PUBLISHED there.)*
 
+*Superseded 2026-10-02: both event times (Thursday, 9:30–11:30 a.m.) are now published on the event's own page, `/admissions/comeseecovenant` — see `Covenant Day - Admissions - Live-Site Refresh 2026-10-02.md`.*
+
 ## Age eligibility — VERBATIM
 
 > "Students should be four years old by **March 1, 2027** to apply for JK. Students should be
@@ -213,6 +217,8 @@ also considered."*
 > - The family's active involvement in a local church"
 
 ## Faith requirements — a real admissions gate
+
+*Superseded 2026-10-02: the quote below is no longer on the live site; the current wording is in `Covenant Day - Admissions - Live-Site Refresh 2026-10-02.md`.*
 
 Unlike Charlotte Christian (where the research found **no** faith-based application
 component), Covenant Day publishes an explicit requirement:
@@ -293,6 +299,7 @@ Financial aid: Christen Marshall, Student Accounts Coordinator, 704-708-6102.
 - **Grade 12 as an entry point** — every published date and testing reference covers JK/K and
   grades 1-11 only.
 - **Come See Covenant event times** — dates only on the rendered Key Dates list.
+  *Superseded 2026-10-02: now published on `/admissions/comeseecovenant` — see `Covenant Day - Admissions - Live-Site Refresh 2026-10-02.md`.*
 - **Whether the RenWeb portal uses a per-applicant "custom checklist"** — the portal is
   login-gated.
 - **Waitlist procedures; sibling / legacy / alumni / faculty-children preference;
@@ -314,6 +321,7 @@ Financial aid: Christen Marshall, Student Accounts Coordinator, 704-708-6102.
   deadlines, non-priority consequence, capacity note
 - <https://www.covenantday.org/admissions/jk-and-kindergarten-clone> — JK/K age recommendation,
   developmental readiness
+  *Superseded 2026-10-02: this URL now returns 404; the page moved to <https://www.covenantday.org/admissions/jk-and-kindergarten> — see `Covenant Day - Admissions - Live-Site Refresh 2026-10-02.md`.*
 - <https://www.covenantday.org/admissions/faqs> — admissions criteria list, pastor-reference
   guidance, divisions, class sizes, accreditation
 - <https://www.covenantday.org/admissions/tuition-financial-aid> — tuition by division,
