@@ -2541,10 +2541,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
      details and the cross-band table (both added 2026-09-16). They are ordinary
      <details>, so without this a print-out shows the step titles and the band
      heading with none of the content under them. */
-  .ad-step-body > .ad-step-detail,
-  .ad-compare > .table-wrap { display: block !important; }
-  .ad-step-body > summary .plusmark,
-  .ad-compare > summary .plusmark { display: none; }
+  .adm-step-body > .adm-step-detail,
+  .adm-compare > .table-wrap { display: block !important; }
+  .adm-step-body > summary .plusmark,
+  .adm-compare > summary .plusmark { display: none; }
   /* An open card normally claims the full grid row and runs two columns; closed
      cards never got those rules, so pin them here too or the bodies overflow the
      half-width collapsed card. Single column in print — RTL two-column flow is
@@ -5721,10 +5721,10 @@ a.cs-college-name:focus-visible {
    to an existing token, so both dark-mode blocks handle it with no overrides.
    ══════════════════════════════════════════════════════════════════════════ */
 
-.ad-body { font-size: 14px; }
+.adm-body { font-size: 14px; }
 
 /* The framing rules — how the process works, before any date. */
-.ad-rules {
+.adm-rules {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px;
@@ -5732,22 +5732,22 @@ a.cs-college-name:focus-visible {
   padding-bottom: 18px;
   border-bottom: 1px solid var(--border);
 }
-.ad-rule { display: flex; gap: 10px; align-items: flex-start; }
-.ad-rule-icon { flex: none; margin-top: 1px; color: var(--accent); display: flex; }
-.ad-rule-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
-.ad-rule-text strong { font-family: var(--heading); color: var(--text); font-weight: 600; }
+.adm-rule { display: flex; gap: 10px; align-items: flex-start; }
+.adm-rule-icon { flex: none; margin-top: 1px; color: var(--accent); display: flex; }
+.adm-rule-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.adm-rule-text strong { font-family: var(--heading); color: var(--text); font-weight: 600; }
 
 /* The band selector: a two-line label, then the bands as ONE segmented control
    (joined, sharing a hairline, splitting the row equally), then the export
    button inline at the end — the design's own three-part row. */
-.ad-pick {
+.adm-pick {
   display: flex;
   align-items: stretch;
   gap: 12px;
   flex-wrap: wrap;
   margin: 20px 0 12px;
 }
-.ad-pick-label {
+.adm-pick-label {
   display: flex;
   align-items: center;
   flex: none;
@@ -5763,8 +5763,8 @@ a.cs-college-name:focus-visible {
 }
 /* gap:0 + the shared border below is what makes three buttons read as one
    control; each takes an equal share of the remaining width. */
-.ad-bands { display: flex; gap: 0; flex: 1 1 340px; min-width: 0; }
-.ad-band {
+.adm-bands { display: flex; gap: 0; flex: 1 1 340px; min-width: 0; }
+.adm-band {
   flex: 1;
   min-width: 0;
   appearance: none;
@@ -5781,12 +5781,12 @@ a.cs-college-name:focus-visible {
   user-select: none;
 }
 /* Collapse the shared edge so the row draws one hairline, not two. */
-.ad-band + .ad-band { border-left: none; }
-.ad-band:hover { border-color: var(--accent); color: var(--accent-700); }
-.ad-band:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.adm-band + .adm-band { border-left: none; }
+.adm-band:hover { border-color: var(--accent); color: var(--accent-700); }
+.adm-band:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 /* The selected band. --accent-900 is near-black in light mode and near-white in
    dark, and --bg inverts with it, so the fill reads correctly in both. */
-.ad-band.is-on {
+.adm-band.is-on {
   background: var(--accent-900);
   border-color: var(--accent-900);
   color: var(--bg);
@@ -5799,7 +5799,7 @@ a.cs-college-name:focus-visible {
   margin-top: 2px;
   color: color-mix(in srgb, currentColor 62%, transparent);
 }
-.ad-export {
+.adm-export {
   flex: none;
   align-self: center;
   display: inline-flex;
@@ -5808,17 +5808,17 @@ a.cs-college-name:focus-visible {
   text-decoration: none;
 }
 
-.ad-spine { margin: 0 0 18px; }
+.adm-spine { margin: 0 0 18px; }
 
 /* The 4-tile deadline strip for the selected band. */
-.ad-deadlines {
+.adm-deadlines {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   border: 1px solid var(--border);
   margin-bottom: 20px;
   overflow: hidden;
 }
-.ad-deadline {
+.adm-deadline {
   padding: 11px 14px;
   background: var(--bg);
   box-shadow: -1px 0 0 var(--border), 0 -1px 0 var(--border), 0 1px 0 var(--border);
@@ -5826,17 +5826,17 @@ a.cs-college-name:focus-visible {
 /* Default text, NOT the brand ink: the design reserves --brand for the topic
    stat band above the card, so the per-band deadline tiles inside it stay
    neutral and the two strips read as different levels. */
-.ad-deadline-val {
+.adm-deadline-val {
   font-family: var(--heading);
   font-weight: 600;
   font-size: 19px;
   line-height: 1.15;
   color: var(--text);
 }
-.ad-deadline-label { margin-top: 3px; font-size: 11.5px; line-height: 1.4; color: var(--muted); }
+.adm-deadline-label { margin-top: 3px; font-size: 11.5px; line-height: 1.4; color: var(--muted); }
 
 /* Stepper left, watch-outs right — the design's 1.5fr / 1fr split. */
-.ad-grid {
+.adm-grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 20px;
@@ -5844,13 +5844,13 @@ a.cs-college-name:focus-visible {
 }
 /* A school with no watch-outs (Charlotte Christian) gives the whole card
    width to the stepper rather than leaving an empty right-hand track. */
-.ad-grid.is-wide { grid-template-columns: 1fr; }
+.adm-grid.is-wide { grid-template-columns: 1fr; }
 
-.ad-steps { list-style: none; margin: 0; padding: 0; }
-.ad-step { position: relative; display: flex; gap: 12px; padding-bottom: 16px; }
+.adm-steps { list-style: none; margin: 0; padding: 0; }
+.adm-step { position: relative; display: flex; gap: 12px; padding-bottom: 16px; }
 /* The hairline connector joining one step's numeral to the next. The last step
    has nothing below it to join, so it draws none. */
-.ad-step::before {
+.adm-step::before {
   content: '';
   position: absolute;
   left: 13px;
@@ -5859,9 +5859,9 @@ a.cs-college-name:focus-visible {
   width: 1px;
   background: var(--border);
 }
-.ad-step.is-last { padding-bottom: 0; }
-.ad-step.is-last::before { display: none; }
-.ad-step-n {
+.adm-step.is-last { padding-bottom: 0; }
+.adm-step.is-last::before { display: none; }
+.adm-step-n {
   flex: none;
   width: 26px;
   height: 26px;
@@ -5878,8 +5878,8 @@ a.cs-college-name:focus-visible {
 }
 /* flex:1 so the summary row spans the width left of the numbered square and the
    plusmark can sit hard right; without it the body shrink-wraps to its title. */
-.ad-step-body { min-width: 0; flex: 1; }
-.ad-step-head {
+.adm-step-body { min-width: 0; flex: 1; }
+.adm-step-head {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -5889,24 +5889,24 @@ a.cs-college-name:focus-visible {
 /* Each step is a <details>: the head is the summary, the detail paragraph the
    body. Default marker suppressed so the title, tag and plusmark keep the one
    baseline row the design specifies. */
-.ad-step-body > summary { cursor: pointer; list-style: none; }
-.ad-step-body > summary::-webkit-details-marker { display: none; }
-.ad-step-body > summary .plusmark { margin-left: auto; }
-.ad-step-body[open] > summary .plusmark { transform: rotate(45deg); }
-.ad-step-body > summary:hover .ad-step-title { color: var(--accent-700); }
-.ad-step-body > summary:focus-visible {
+.adm-step-body > summary { cursor: pointer; list-style: none; }
+.adm-step-body > summary::-webkit-details-marker { display: none; }
+.adm-step-body > summary .plusmark { margin-left: auto; }
+.adm-step-body[open] > summary .plusmark { transform: rotate(45deg); }
+.adm-step-body > summary:hover .adm-step-title { color: var(--accent-700); }
+.adm-step-body > summary:focus-visible {
   outline: 2px solid var(--accent-700);
   outline-offset: 3px;
   border-radius: 4px;
 }
-.ad-step-title { font-family: var(--heading); font-size: 16px; font-weight: 600; color: var(--text); }
-.ad-step-detail { margin: 3px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
+.adm-step-title { font-family: var(--heading); font-size: 16px; font-weight: 600; color: var(--text); }
+.adm-step-detail { margin: 3px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
 
-.ad-watch { display: flex; flex-direction: column; gap: 14px; }
+.adm-watch { display: flex; flex-direction: column; gap: 14px; }
 /* Border only — no fill. The design distinguishes these from the tinted
    financial-aid strip below precisely by leaving them on the page ground. */
-.ad-watch-card { border: 1px solid var(--border); padding: 14px; }
-.ad-watch-kicker {
+.adm-watch-card { border: 1px solid var(--border); padding: 14px; }
+.adm-watch-kicker {
   font-size: 10px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -5914,14 +5914,14 @@ a.cs-college-name:focus-visible {
   margin-bottom: 8px;
 }
 /* Body text, not muted: the bold spans inside must carry weight against it. */
-.ad-watch-text { margin: 0; font-size: 13px; line-height: 1.6; }
-.ad-watch-text strong { font-weight: 600; }
+.adm-watch-text { margin: 0; font-size: 13px; line-height: 1.6; }
+.adm-watch-text strong { font-weight: 600; }
 
 /* The financial-aid clock, which runs on its own calendar.
    A 5% accent wash over a NEUTRAL hairline, not the solid --accent-100 fill
    with an accent border: the strip is a quiet aside beside the band's steps,
    and the stronger treatment made it compete with the selected band button. */
-.ad-aid {
+.adm-aid {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -5931,54 +5931,54 @@ a.cs-college-name:focus-visible {
   padding: 12px 14px;
   margin: 24px 0 20px;
 }
-.ad-aid-icon { flex: none; color: var(--accent-700); display: flex; }
-.ad-aid-text { flex: 1 1 260px; min-width: 0; }
-.ad-aid-title {
+.adm-aid-icon { flex: none; color: var(--accent-700); display: flex; }
+.adm-aid-text { flex: 1 1 260px; min-width: 0; }
+.adm-aid-title {
   font-family: var(--heading);
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 0.02em;
   color: var(--text);
 }
-.ad-aid-body { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
-.ad-aid-body strong { font-weight: 600; color: var(--text); }
-.ad-aid-btn { flex: none; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; }
+.adm-aid-body { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.adm-aid-body strong { font-weight: 600; color: var(--text); }
+.adm-aid-btn { flex: none; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; }
 
-.ad-compare { margin-bottom: 24px; }
+.adm-compare { margin-bottom: 24px; }
 /* The band table is a <details> collapsed by default. Its <summary> IS the
-   .ad-head baseline row, so the default triangle is suppressed (it would sit
+   .adm-head baseline row, so the default triangle is suppressed (it would sit
    outside that row and break the shared kicker/title alignment) and the
    .plusmark carries the affordance instead, as it does on the research cards. */
-.ad-compare > summary { cursor: pointer; list-style: none; }
-.ad-compare > summary::-webkit-details-marker { display: none; }
-.ad-compare > summary .plusmark { margin-left: auto; }
-.ad-compare[open] > summary .plusmark { transform: rotate(45deg); }
-.ad-compare > summary:hover .ad-head-title { color: var(--accent-700); }
+.adm-compare > summary { cursor: pointer; list-style: none; }
+.adm-compare > summary::-webkit-details-marker { display: none; }
+.adm-compare > summary .plusmark { margin-left: auto; }
+.adm-compare[open] > summary .plusmark { transform: rotate(45deg); }
+.adm-compare > summary:hover .adm-head-title { color: var(--accent-700); }
 /* The row is the click target, so it needs a visible keyboard focus ring. */
-.ad-compare > summary:focus-visible {
+.adm-compare > summary:focus-visible {
   outline: 2px solid var(--accent-700);
   outline-offset: 3px;
   border-radius: 4px;
 }
-.ad-compare[open] > summary { margin-bottom: 12px; }
+.adm-compare[open] > summary { margin-bottom: 12px; }
 /* Kicker, title and (for contacts) the address share ONE baseline row. The
    kicker is bare letterspaced type in accent-700 — NOT a bordered .tag chip,
    which read as a button — and the title is sentence case at 19px. */
-.ad-head {
+.adm-head {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 12px;
 }
-.ad-head-kicker {
+.adm-head-kicker {
   font-family: var(--heading);
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.1em;
   color: var(--accent-700);
 }
-.ad-head-title { margin: 0; font-size: 19px; font-weight: 600; }
+.adm-head-title { margin: 0; font-size: 19px; font-weight: 600; }
 /* The comparison table is wider than a phone: four columns of prose cells have
    a min-content width of ~333px, which — plus the card's padding and borders —
    set a 377px floor on the whole card and produced horizontal PAGE scroll at
@@ -5986,7 +5986,7 @@ a.cs-college-name:focus-visible {
    container instead, so `contain: inline-size` stops the table's intrinsic
    width propagating out to the card, and the table keeps its natural width and
    scrolls within. */
-.ad-compare .table-wrap {
+.adm-compare .table-wrap {
   min-width: 0;
   max-width: 100%;
   overflow-x: auto;
@@ -6000,7 +6000,7 @@ a.cs-college-name:focus-visible {
    left-aligned uppercase muted column heads, and a faint hover tint. The app
    has no shared .table class, so the spec is reproduced here against the app's
    tokens rather than left to inherit nothing. */
-.ad-table {
+.adm-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
@@ -6010,7 +6010,7 @@ a.cs-college-name:focus-visible {
      wrapped layout cannot fit. */
   min-width: 380px;
 }
-.ad-table thead th {
+.adm-table thead th {
   text-align: left;
   font-family: var(--sans);
   font-size: 11px;
@@ -6022,27 +6022,27 @@ a.cs-college-name:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 /* The row-label column is the design's fixed 20%. */
-.ad-table thead th:first-child { width: 20%; }
-.ad-table td,
-.ad-table tbody th {
+.adm-table thead th:first-child { width: 20%; }
+.adm-table td,
+.adm-table tbody th {
   padding: 7px;
   border-bottom: 1px solid color-mix(in srgb, var(--text) 8%, transparent);
   text-align: left;
   vertical-align: top;
 }
 /* The row label is a heading-face cell, not an uppercase column head. */
-.ad-table tbody th {
+.adm-table tbody th {
   font-family: var(--heading);
   font-weight: 600;
   font-size: 13px;
   color: var(--text);
 }
-.ad-table tbody tr:hover { background: color-mix(in srgb, var(--text) 4%, transparent); }
+.adm-table tbody tr:hover { background: color-mix(in srgb, var(--text) 4%, transparent); }
 /* A row identical in every band spans the band columns rather than repeating.
    Plain text, like every other cell — the design does not italicise it. */
-.ad-cell-all { color: var(--text); }
+.adm-cell-all { color: var(--text); }
 
-.ad-address { font-size: 12.5px; color: var(--muted); }
+.adm-address { font-size: 12.5px; color: var(--muted); }
 /* One shared hairline between cells rather than a border per card.
    The horizontal rules come from each cell's own top border; the VERTICAL ones
    are painted on the grid container as a repeating gradient, so they run the
@@ -6056,7 +6056,7 @@ a.cs-college-name:focus-visible {
 
    --ad-col is the column count and MUST stay in step with grid-template-columns
    — the gradient computes its stops from it. */
-.ad-people {
+.adm-people {
   --ad-col: 3;
   display: grid;
   grid-template-columns: repeat(var(--ad-col), 1fr);
@@ -6097,17 +6097,17 @@ a.cs-college-name:focus-visible {
   --ad-rows: round(up, calc(var(--ad-n) / var(--ad-col)), 1);
 }
 /* Transparent, so the container's rules show through between cells. */
-.ad-person { padding: 10px 12px; }
-.ad-person-name { font-family: var(--heading); font-size: 14.5px; font-weight: 600; color: var(--text); }
-.ad-person-detail { margin-top: 2px; font-size: 12px; line-height: 1.4; color: var(--muted); }
+.adm-person { padding: 10px 12px; }
+.adm-person-name { font-family: var(--heading); font-size: 14.5px; font-weight: 600; color: var(--text); }
+.adm-person-detail { margin-top: 2px; font-size: 12px; line-height: 1.4; color: var(--muted); }
 
 @media (max-width: 900px) {
-  .ad-grid { grid-template-columns: 1fr; }
-  .ad-rules { grid-template-columns: 1fr; }
-  .ad-people { --ad-col: 2; }
+  .adm-grid { grid-template-columns: 1fr; }
+  .adm-rules { grid-template-columns: 1fr; }
+  .adm-people { --ad-col: 2; }
 }
 @media (max-width: 560px) {
-  .ad-people { --ad-col: 1; }
+  .adm-people { --ad-col: 1; }
 }
 /* Below ~570px the joined bands cannot share a row without forcing the card
    past the viewport, so the segmented control stacks into a vertical one — the
@@ -6131,9 +6131,9 @@ a.cs-college-name:focus-visible {
    scoping the rule per band count would leave the same trap for the next school
    that adds a band. Re-measure if a school ever ships six. */
 @media (max-width: 570px) {
-  .ad-bands { flex-direction: column; flex-basis: auto; }
-  .ad-band + .ad-band { border-left: 1px solid var(--border); border-top: none; }
-  .ad-pick-label { max-width: none; }
+  .adm-bands { flex-direction: column; flex-basis: auto; }
+  .adm-band + .adm-band { border-left: 1px solid var(--border); border-top: none; }
+  .adm-pick-label { max-width: none; }
 }
 
 /* ── the printable checklist sheet ─────────────────────────────────────────

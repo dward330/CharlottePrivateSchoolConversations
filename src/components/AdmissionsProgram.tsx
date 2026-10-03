@@ -110,11 +110,11 @@ function Emphasized({ text }: { text: string }) {
  */
 function DeadlineStrip({ band }: { band: AdBand }) {
   return (
-    <div className="ad-deadlines">
+    <div className="adm-deadlines">
       {band.deadlines.map((d) => (
-        <div key={d.label} className="ad-deadline">
-          <div className="ad-deadline-val">{localizeMoneyText(d.value)}</div>
-          <div className="ad-deadline-label">{d.label}</div>
+        <div key={d.label} className="adm-deadline">
+          <div className="adm-deadline-val">{localizeMoneyText(d.value)}</div>
+          <div className="adm-deadline-label">{d.label}</div>
         </div>
       ))}
     </div>
@@ -124,24 +124,24 @@ function DeadlineStrip({ band }: { band: AdBand }) {
 /** The ordered application stepper — a numbered square per step, hairline-joined. */
 function Stepper({ band }: { band: AdBand }) {
   return (
-    <ol className="ad-steps">
+    <ol className="adm-steps">
       {band.steps.map((s, i) => (
         <li
           key={s.title}
-          className={`ad-step${i === band.steps.length - 1 ? ' is-last' : ''}`}
+          className={`adm-step${i === band.steps.length - 1 ? ' is-last' : ''}`}
         >
-          <span className="ad-step-n" aria-hidden="true">
+          <span className="adm-step-n" aria-hidden="true">
             {i + 1}
           </span>
           {/* Each step's detail collapses behind its own title (user,
               2026-09-16). What stays visible is the spine a reader scans — the
               number, the step title and its date tag — while the paragraph
               explaining it opens on demand. The <details> sits INSIDE
-              .ad-step-body rather than replacing the <li>, so the numbered
+              .adm-step-body rather than replacing the <li>, so the numbered
               square and its hairline joiner are untouched. */}
-          <details className="ad-step-body">
-            <summary className="ad-step-head">
-              <span className="ad-step-title">{s.title}</span>
+          <details className="adm-step-body">
+            <summary className="adm-step-head">
+              <span className="adm-step-title">{s.title}</span>
               <span className={s.tagKind === 'accent' ? 'tag-accent' : 'tag-outline'}>
                 {s.tag}
               </span>
@@ -151,7 +151,7 @@ function Stepper({ band }: { band: AdBand }) {
                 </RuleIcon>
               </span>
             </summary>
-            <p className="ad-step-detail">
+            <p className="adm-step-detail">
               <Emphasized text={s.detail} />
             </p>
           </details>
@@ -171,7 +171,7 @@ function ComparisonTable({ guide }: { guide: AdmissionsGuide }) {
   const bands = guide.bands
   return (
     <div className="table-wrap">
-      <table className="table ad-table">
+      <table className="table adm-table">
         <thead>
           <tr>
             <th scope="col" />
@@ -189,7 +189,7 @@ function ComparisonTable({ guide }: { guide: AdmissionsGuide }) {
               <tr key={r.label}>
                 <th scope="row">{r.label}</th>
                 {all !== undefined ? (
-                  <td colSpan={bands.length} className="ad-cell-all">
+                  <td colSpan={bands.length} className="adm-cell-all">
                     {localizeMoneyText(all)}
                   </td>
                 ) : (
@@ -227,15 +227,15 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
   if (!band) return null
 
   return (
-    <div className="as-body ad-body">
+    <div className="as-body adm-body">
       {/* The framing rules — how the process works before any date. */}
-      <div className="ad-rules">
+      <div className="adm-rules">
         {data.rules.map((r, i) => (
-          <div key={r.title} className="ad-rule">
-            <span className="ad-rule-icon">
+          <div key={r.title} className="adm-rule">
+            <span className="adm-rule-icon">
               <RuleIcon>{RULE_ICONS[i % RULE_ICONS.length]}</RuleIcon>
             </span>
-            <p className="ad-rule-text">
+            <p className="adm-rule-text">
               <strong>{r.title}</strong> {r.text}
             </p>
           </div>
@@ -246,16 +246,16 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
           The buttons are JOINED (no gap, shared hairline) and share the row
           equally, which is what makes them read as one segmented control rather
           than three loose buttons. */}
-      <div className="ad-pick">
+      <div className="adm-pick">
         {!single && (
           <>
-            <span className="ad-pick-label">{t('admissions.applyingFor')}</span>
-            <div className="ad-bands" role="group" aria-label={t('admissions.applyingFor')}>
+            <span className="adm-pick-label">{t('admissions.applyingFor')}</span>
+            <div className="adm-bands" role="group" aria-label={t('admissions.applyingFor')}>
               {data.bands.map((b) => (
                 <button
                   key={b.key}
                   type="button"
-                  className={`ad-band${b.key === band.key ? ' is-on' : ''}`}
+                  className={`adm-band${b.key === band.key ? ' is-on' : ''}`}
                   aria-pressed={b.key === band.key}
                   onClick={() => setBandKey(b.key)}
                 >
@@ -266,7 +266,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
             </div>
           </>
         )}
-        <a className="btn primary ad-export" href={toAdmissionsChecklist(slug, band.key)}>
+        <a className="btn primary adm-export" href={toAdmissionsChecklist(slug, band.key)}>
           <RuleIcon>
             <>
               <path d="M12 3v12M7 10l5 5 5-5" />
@@ -277,23 +277,23 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         </a>
       </div>
 
-      <p className="as-note ad-spine">{data.spineNote}</p>
+      <p className="as-note adm-spine">{data.spineNote}</p>
 
       <DeadlineStrip band={band} />
 
       {/* A school may publish no band-specific watch-outs (Charlotte
-          Christian ships `watchOuts: []` by decision). The .ad-watch wrapper is
+          Christian ships `watchOuts: []` by decision). The .adm-watch wrapper is
           then skipped ENTIRELY rather than rendered empty — an empty flex
-          column still consumes its grid track — and .ad-grid collapses to one
+          column still consumes its grid track — and .adm-grid collapses to one
           column so the stepper gets the full card width. */}
-      <div className={`ad-grid${band.watchOuts.length > 0 ? '' : ' is-wide'}`}>
+      <div className={`adm-grid${band.watchOuts.length > 0 ? '' : ' is-wide'}`}>
         <Stepper band={band} />
         {band.watchOuts.length > 0 && (
-          <div className="ad-watch">
+          <div className="adm-watch">
             {band.watchOuts.map((w) => (
-              <div key={w.kicker} className="ad-watch-card">
-                <div className="ad-watch-kicker">{w.kicker}</div>
-                <p className="ad-watch-text">
+              <div key={w.kicker} className="adm-watch-card">
+                <div className="adm-watch-kicker">{w.kicker}</div>
+                <p className="adm-watch-text">
                   <Emphasized text={w.text} />
                 </p>
               </div>
@@ -305,8 +305,8 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
       {/* The financial-aid clock runs on its own calendar, in parallel with the
           band's — so it sits outside the band-specific block and deep-links to
           the area that owns it. */}
-      <div className="ad-aid">
-        <span className="ad-aid-icon">
+      <div className="adm-aid">
+        <span className="adm-aid-icon">
           <RuleIcon size={20}>
             <>
               <circle cx="12" cy="12" r="10" />
@@ -314,13 +314,13 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
             </>
           </RuleIcon>
         </span>
-        <div className="ad-aid-text">
-          <div className="ad-aid-title">{data.aid.title}</div>
-          <p className="ad-aid-body">
+        <div className="adm-aid-text">
+          <div className="adm-aid-title">{data.aid.title}</div>
+          <p className="adm-aid-body">
             <Emphasized text={data.aid.text} />
           </p>
         </div>
-        <a className="btn ad-aid-btn" href="#topic-financial-aid-tuition">
+        <a className="btn adm-aid-btn" href="#topic-financial-aid-tuition">
           {data.aid.button}
           <RuleIcon size={14}>
             <path d="M12 5v14M5 12l7 7 7-7" />
@@ -338,10 +338,10 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
           A plain <details>, matching the research cards: no JS, no controlled
           state, and the browser's own find-in-page opens it. The @media print
           rule in index.css forces every panel open, so a print-out is unchanged. */}
-      <details className="ad-compare">
-        <summary className="ad-head">
-          <span className="ad-head-kicker">{data.comparison.kicker}</span>
-          <h4 className="ad-head-title">{data.comparison.title}</h4>
+      <details className="adm-compare">
+        <summary className="adm-head">
+          <span className="adm-head-kicker">{data.comparison.kicker}</span>
+          <h4 className="adm-head-title">{data.comparison.title}</h4>
           <span className="plusmark">
             <RuleIcon size={16}>
               <path d="M12 5v14M5 12h14" />
@@ -351,26 +351,26 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         <ComparisonTable guide={data} />
       </details>
 
-      <div className="ad-contacts">
+      <div className="adm-contacts">
         {/* Kicker, title and address share ONE baseline row, per the design —
             the address is inline context, not a paragraph under a heading. */}
-        <div className="ad-head">
-          <span className="ad-head-kicker">{data.contacts.kicker}</span>
-          <h4 className="ad-head-title">{data.contacts.title}</h4>
-          <span className="ad-address">{data.contacts.address}</span>
+        <div className="adm-head">
+          <span className="adm-head-kicker">{data.contacts.kicker}</span>
+          <h4 className="adm-head-title">{data.contacts.title}</h4>
+          <span className="adm-address">{data.contacts.address}</span>
         </div>
         {/* --ad-n is the contact count; src/index.css derives the row count from
             it and the breakpoint's column count, because BOTH grid rules are
             painted by the container (a cell cannot draw a rule across the empty
             track a ragged last row leaves). */}
         <div
-          className="ad-people"
+          className="adm-people"
           style={{ ['--ad-n' as string]: data.contacts.people.length }}
         >
           {data.contacts.people.map((p) => (
-            <div key={p.name} className="ad-person">
-              <div className="ad-person-name">{p.name}</div>
-              <div className="ad-person-detail">{p.detail}</div>
+            <div key={p.name} className="adm-person">
+              <div className="adm-person-name">{p.name}</div>
+              <div className="adm-person-detail">{p.detail}</div>
             </div>
           ))}
         </div>
