@@ -1,7 +1,7 @@
 ---
 name: covenantadmissions
 title: Refresh Covenant Day's Admissions guide to the live site — the reworded faith requirement, Grade 1's Little Lions visit, the Come See Covenant times and the moved JK/K page
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-02
 branch: fix/covenantadmissions
