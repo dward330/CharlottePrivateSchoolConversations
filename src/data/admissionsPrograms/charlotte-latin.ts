@@ -42,7 +42,7 @@
 //
 // THREE DEADLINE TILES IN THE TWO LOWER BANDS, BY DESIGN. TK/Kindergarten and
 // Lower School publish no all-file-material deadline, so they carry three tiles
-// where Middle and Upper carry four. `.ad-deadlines` is
+// where Middle and Upper carry four. `.adm-deadlines` is
 // `repeat(auto-fit, minmax(150px, 1fr))`, so a 3-tile strip is a first-class
 // layout. Do NOT pad with an invented fourth tile, and do NOT reach for
 // `unpublished: true` — that flag marks a KNOWN CONSTANT standing in for a

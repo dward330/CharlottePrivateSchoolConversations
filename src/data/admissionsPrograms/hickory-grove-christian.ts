@@ -90,7 +90,7 @@
 // constant standing in for a missing date (Providence Day's 4:00 p.m.), and
 // there is no constant here to stand in. The deadline strips are therefore
 // three tiles in the grade bands and three in the international band, which
-// `.ad-deadlines` handles natively — it is `repeat(auto-fit, minmax(150px,
+// `.adm-deadlines` handles natively — it is `repeat(auto-fit, minmax(150px,
 // 1fr))`, so an uneven tile count across bands is a first-class layout.
 //
 // THE STAT STRIP CARRIES NO BAND-COUNT TILE, BY DECISION (user, 2026-08-31,
