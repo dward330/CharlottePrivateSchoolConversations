@@ -45,6 +45,14 @@
 // priority dates, and the instrument changes are carried inside the Grades 1–5
 // screening step.
 //
+// A THIRD NON-COINCIDING BOUNDARY: THE ON-CAMPUS VISIT (live site, 2026-10-02).
+// Grade 1 now takes the small-group Little Lions Assessment with the JK/K
+// applicants ("JK/K/Grade 1 applicants will participate in our Little Lions
+// Assessment with a small group of applicants in their respective grade"); the
+// one-on-one academic-resource-therapist session is Grades 2–5. Like the
+// instrument changes, this is carried INSIDE the Grades 1–5 band — Grade 1 keeps
+// that band's Jan 15 → Apr 9 calendar, so no band is added or split.
+//
 // GRADE 6 IS A SUB-STEP, NOT A FOURTH BAND. It takes the same ISEE and the same
 // calendar as grades 7–11; what it adds is a math and English assessment on top
 // of the shadow morning. A fourth band would imply a separate calendar it does
@@ -75,17 +83,23 @@
 // read them as unresearched and backfill them. Every fact they would have
 // carried is already in `steps[].detail` and each band's `checklistCallout`:
 // the Jan 2 / Jan 15 deadline break, the twice-moving instrument, the
-// non-priority consequence and the professing-Christian requirement. The
+// non-priority consequence and the faith requirement. The
 // research file keeps the full record regardless of what this card presents.
 //
 // NO URL-LESS TRAILING NOTE IN `sources` (2026-09-01), following PR #258 —
 // prose paragraphs in a row of citation links read as broken links. The
-// NOT-PUBLISHED register (Grade 12 entry, Come See Covenant times, waitlist and
-// sibling/legacy preference, transfer and mid-year entry, F-1/I-20 and
+// NOT-PUBLISHED register (Grade 12 entry, waitlist and sibling/legacy preference, transfer and mid-year entry, F-1/I-20 and
 // English-proficiency requirements, any reduced deposit for aid applicants, the
 // FACTS aid application fee, 2027–28 tuition) lives in this header and in the
 // research file. Each gap that a parent would act on is also named at the point
 // it matters — the aid strip says the fee and reduced deposit are unpublished.
+//
+// COME SEE COVENANT TIMES ARE PUBLISHED — on the event's own page,
+// /admissions/comeseecovenant (both Thursday, 9:30–11:30 a.m.; verified
+// 2026-10-02), NOT on the Key Dates list, which still carries dates only. An
+// earlier pass rejected a 9:30–11:30 time because Key Dates showed none; that was
+// right about Key Dates and is why a re-check of Key Dates alone will find no
+// time. Cite the event page. Do NOT revert the times to "not published".
 //
 // GRADE 12 IS ABSENT FROM THE CARD BY DECISION (user, 2026-09-01), not by a gap
 // in the research. It was removed from all four places it appeared: the Grades
@@ -103,14 +117,19 @@
 // psychologist, and does not tell a parent about a brochure instead of telling
 // them the fact.
 //
-// THE PROFESSING-CHRISTIAN REQUIREMENT SHIPS AS A PUBLISHED ADMISSIONS GATE,
-// and is the sharpest contrast with Charlotte Christian, where the research
-// found NO faith-based application component at all. Covenant Day publishes one
-// outright — "An essential component for admission is the requirement that one
-// or both parents be professing Christians" — verified at the parent interview,
-// with a pastor's recommendation required at every grade JK–11. The REQUIREMENT
-// is reported in every band's interview step; the school's statement of faith
-// itself is deliberately NOT transcribed into the app.
+// THE FAITH REQUIREMENT SHIPS AS A PUBLISHED ADMISSIONS GATE, and is the
+// sharpest contrast with Charlotte Christian, where the research found NO
+// faith-based application component at all. Covenant Day publishes one outright.
+// Live wording (/admissions/process, re-verified 2026-10-02): "Covenant Day is a
+// covenant Christian school. This means we partner with families in which at
+// least one parent is a Christ-follower and is actively involved in a local
+// Christian church. As such, parents will be asked to discuss their Christian
+// testimony during the interview." It is discussed at the parent interview, with
+// a pastor's recommendation required at every grade JK–11, and is reported in
+// every band's interview step. The school DROPPED its earlier wording ("an
+// essential component for admission … professing Christians … agreement with the
+// school's statement of faith"); the statement-of-faith clause no longer appears
+// on the process page or the FAQs, so the card does not mention it.
 //
 // TUITION FIGURES ARE DELIBERATELY ABSENT. They belong to the Financial Aid &
 // Tuition area, which owns them; the research file carries the 2026–27 chart
@@ -173,7 +192,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'Applications and tours open **September 8, 2026**. The school also runs two **Come See Covenant** open events — **October 29, 2026** for JK–5 and **November 12, 2026** for JK–11. Neither event\'s time is published on the Key Dates list; schedule a personal campus visit through the admissions page if the dates do not work.',
+              'Applications and tours open **September 8, 2026**. The school also runs two **Come See Covenant** open events, both on a Thursday from **9:30 to 11:30 a.m.** — **October 29, 2026** for JK–5 and **November 12, 2026** for JK–11. Schedule a personal campus visit through the admissions page if the dates do not work.',
           },
           {
             title: 'Submit the application + $100 fee',
@@ -201,7 +220,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'after applying',
             tagKind: 'outline',
             detail:
-              'The admissions office sends a link to schedule your interview with the Admissions Director. **An essential component for admission is the requirement that one or both parents be professing Christians**, evidenced by their confession of faith in Jesus Christ alone as Savior; the interview verifies that testimony and confirms agreement with the school\'s statement of faith. Your child\'s visit is the **Little Lions Assessment**, taken with a small group of other JK/K applicants — there is no student interview at this age.',
+              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**: it partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**, and parents will be asked to **discuss their Christian testimony** during the interview. Your child\'s visit is the **Little Lions Assessment**, taken with a small group of applicants in the same grade — there is no student interview at this age.',
           },
           {
             title: 'Decision → contract',
@@ -219,7 +238,7 @@ export const covenantDay: AdmissionsProgram = {
         checklistRows: [
           {
             action: 'Arrange a campus visit or attend Come See Covenant',
-            detail: 'Applications and tours open Sept 8, 2026. JK–5 event Oct 29; JK–11 event Nov 12.',
+            detail: 'Applications and tours open Sept 8, 2026. JK–5 event Thu Oct 29; JK–11 event Thu Nov 12 — both 9:30–11:30 a.m.',
             due: 'Fall 2026',
           },
           {
@@ -249,12 +268,12 @@ export const covenantDay: AdmissionsProgram = {
           },
           {
             action: 'Attend the parent interview',
-            detail: 'Verifies the professing-Christian requirement and agreement with the statement of faith.',
+            detail: 'At least one parent must be a Christ-follower actively involved in a local Christian church; you will be asked to discuss your Christian testimony.',
             due: 'After applying',
           },
           {
             action: 'Bring your child to the Little Lions Assessment',
-            detail: 'A small-group visit with other JK/K applicants. No student interview at this age.',
+            detail: 'A small-group visit with other applicants in the same grade. No student interview at this age.',
             due: 'After applying',
           },
           {
@@ -286,7 +305,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'Applications and tours open **September 8, 2026**. Both **Come See Covenant** events cover this band — **October 29, 2026** for JK–5 and **November 12, 2026** for JK–11 — and neither carries a published time. A personal campus visit can be scheduled through the admissions page instead.',
+              'Applications and tours open **September 8, 2026**. Both **Come See Covenant** events cover this band, each on a Thursday from **9:30 to 11:30 a.m.** — **October 29, 2026** for JK–5 and **November 12, 2026** for JK–11. A personal campus visit can be scheduled through the admissions page instead.',
           },
           {
             title: 'Submit the application + $100 fee',
@@ -314,7 +333,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'after applying',
             tagKind: 'outline',
             detail:
-              'The admissions office sends a link to schedule your interview with the Admissions Director. **An essential component for admission is the requirement that one or both parents be professing Christians**, evidenced by their confession of faith in Jesus Christ alone as Savior; the interview verifies that testimony and confirms agreement with the school\'s statement of faith. Your child works **one-on-one with an academic resource therapist** to measure reading, math and writing proficiency — not a shadow day, and there is no student interview until Grade 6.',
+              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**: it partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**, and parents will be asked to **discuss their Christian testimony** during the interview. **Your child\'s visit depends on the grade.** **Grade 1** applicants join the **Little Lions Assessment** with a small group of other Grade 1 applicants; **Grades 2–5** work **one-on-one with an academic resource therapist** to measure reading, math and writing proficiency. Neither is a shadow day, and there is no student interview until Grade 6.',
           },
           {
             title: 'Decision → contract',
@@ -332,7 +351,7 @@ export const covenantDay: AdmissionsProgram = {
         checklistRows: [
           {
             action: 'Arrange a campus visit or attend Come See Covenant',
-            detail: 'Applications and tours open Sept 8, 2026. JK–5 event Oct 29; JK–11 event Nov 12.',
+            detail: 'Applications and tours open Sept 8, 2026. JK–5 event Thu Oct 29; JK–11 event Thu Nov 12 — both 9:30–11:30 a.m.',
             due: 'Fall 2026',
           },
           {
@@ -362,12 +381,12 @@ export const covenantDay: AdmissionsProgram = {
           },
           {
             action: 'Attend the parent interview',
-            detail: 'Verifies the professing-Christian requirement and agreement with the statement of faith.',
+            detail: 'At least one parent must be a Christ-follower actively involved in a local Christian church; you will be asked to discuss your Christian testimony.',
             due: 'After applying',
           },
           {
-            action: 'Bring your child for the one-on-one academic assessment',
-            detail: 'With an academic resource therapist: reading, math and writing proficiency.',
+            action: 'Bring your child for the on-campus assessment',
+            detail: 'Grade 1: the Little Lions Assessment, in a small group. Grades 2–5: one-on-one with an academic resource therapist (reading, math, writing).',
             due: 'After applying',
           },
           {
@@ -399,7 +418,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'Applications and tours open **September 8, 2026**. The **Come See Covenant** event covering these grades is **November 12, 2026** (JK–11); no time is published for it. A personal campus visit can be scheduled through the admissions page instead.',
+              'Applications and tours open **September 8, 2026**. The **Come See Covenant** event covering these grades is **Thursday, November 12, 2026, 9:30 to 11:30 a.m.** (JK–11). A personal campus visit can be scheduled through the admissions page instead.',
           },
           {
             title: 'Submit the application + $100 fee',
@@ -427,7 +446,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'after applying',
             tagKind: 'outline',
             detail:
-              'The admissions office sends a link to schedule your interview with the Admissions Director. **An essential component for admission is the requirement that one or both parents be professing Christians**, evidenced by their confession of faith in Jesus Christ alone as Savior; the interview verifies that testimony and confirms agreement with the school\'s statement of faith. **This is the first band where the student is interviewed too.** Grades 7–11 applicants spend a morning shadowing a student in the middle or high school, have lunch with their peers, and meet an admissions staff member. **Grade 6 applicants do all of that and also take a math and English assessment** during the visit — the one extra step at the bottom of this band.',
+              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**: it partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**, and parents will be asked to **discuss their Christian testimony** during the interview. **This is the first band where the student is interviewed too.** Grades 7–11 applicants spend a morning shadowing a student in the middle or high school, have lunch with their peers, and meet an admissions staff member. **Grade 6 applicants do all of that and also take a math and English assessment** during the visit — the one extra step at the bottom of this band.',
           },
           {
             title: 'Decision → contract',
@@ -445,7 +464,7 @@ export const covenantDay: AdmissionsProgram = {
         checklistRows: [
           {
             action: 'Arrange a campus visit or attend Come See Covenant',
-            detail: 'Applications and tours open Sept 8, 2026. The JK–11 event is Nov 12.',
+            detail: 'Applications and tours open Sept 8, 2026. The JK–11 event is Thu Nov 12, 9:30–11:30 a.m.',
             due: 'Fall 2026',
           },
           {
@@ -475,7 +494,7 @@ export const covenantDay: AdmissionsProgram = {
           },
           {
             action: 'Attend the parent interview',
-            detail: 'Verifies the professing-Christian requirement and agreement with the statement of faith.',
+            detail: 'At least one parent must be a Christ-follower actively involved in a local Christian church; you will be asked to discuss your Christian testimony.',
             due: 'After applying',
           },
           {
@@ -532,7 +551,7 @@ export const covenantDay: AdmissionsProgram = {
           label: 'On-campus visit',
           cells: {
             jkk: 'Little Lions Assessment, in a small group',
-            g15: 'One-on-one with an academic resource therapist',
+            g15: 'Grade 1 Little Lions Assessment, in a small group · Grades 2–5 one-on-one with an academic resource therapist',
             g611: 'Shadow morning, lunch with peers, admissions meeting',
           },
         },
@@ -587,7 +606,7 @@ export const covenantDay: AdmissionsProgram = {
         {
           label: 'Constant in every band',
           cells: {
-            all: 'A $100 non-refundable application fee · the FACTS/RenWeb online application · a parent interview with the Admissions Director, at which one or both parents must be professing Christians · a pastor’s recommendation · a $1,000 non-refundable enrollment deposit at contract · rolling admissions after the priority dates, with no on-campus testing, shadow visit or parent interview for a non-priority applicant unless space remains after April 9',
+            all: 'A $100 non-refundable application fee · the FACTS/RenWeb online application · a parent interview with the Admissions Director, where at least one parent must be a Christ-follower actively involved in a local Christian church · a pastor’s recommendation · a $1,000 non-refundable enrollment deposit at contract · rolling admissions after the priority dates, with no on-campus testing, shadow visit or parent interview for a non-priority applicant unless space remains after April 9',
           },
         },
       ],
@@ -658,7 +677,7 @@ export const covenantDay: AdmissionsProgram = {
       {
         label:
           'covenantday.org — JK and Kindergarten: the age guidance of four by Mar 1, 2027 and five by Jun 1, 2027, and the developmental-readiness factors behind placement',
-        url: 'https://www.covenantday.org/admissions/jk-and-kindergarten-clone',
+        url: 'https://www.covenantday.org/admissions/jk-and-kindergarten',
       },
       {
         label:
@@ -685,7 +704,8 @@ export const covenantDay: AdmissionsProgram = {
         url: 'https://www.covenantday.org/admissions/visit-cds',
       },
       {
-        label: 'covenantday.org — Come See Covenant: the two open events for 2026–27',
+        label:
+          'covenantday.org — Come See Covenant: the two open events, Thursday Oct 29 (JK–5) and Thursday Nov 12 (JK–11), both 9:30–11:30 a.m.',
         url: 'https://www.covenantday.org/admissions/comeseecovenant',
       },
       {
