@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-10-04
 branch: fix/moneycomma
-prs: []
+prs: [327]
 ---
 
 # Stop the money formatter from mutating figures
