@@ -33,6 +33,7 @@
     "check:currency": "node scripts/check_currency_shape.mjs",
     "check:money": "node scripts/check_money_render_paths.mjs",
     "check:moneytext": "node scripts/check_money_text.mjs",
+    "audit:moneyrender": "node scripts/audit_money_render.mjs",
     "check:bidi": "node scripts/check_rtl_bidi.mjs",
     "check:fa": "node scripts/check_fa_script.mjs",
     "check:hi": "node scripts/check_hi_numerals.mjs",

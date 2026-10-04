@@ -110,8 +110,8 @@ function Flags({ flags }: { flags: SuFlag[] }) {
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
   return (
     <p className="as-lead">
-      <strong>{headline}</strong>
-      {subhead && <span className="text-muted"> {subhead}</span>}
+      <strong>{localizeMoneyText(headline)}</strong>
+      {subhead && <span className="text-muted"> {localizeMoneyText(subhead)}</span>}
     </p>
   )
 }
@@ -328,7 +328,7 @@ export function CampCatalogBody({ data }: { data: CampCatalog }) {
                   <span className="su-cat-tag tag-neutral">{c.categoryLabel}</span>
                   <br />
                   <span className="text-muted as-class-desc">
-                    {highlight(c.desc, q)}
+                    {highlight(localizeMoneyText(c.desc), q)}
                   </span>
                 </td>
                 {/* Days, hours and weeks are one column: they are read together
@@ -515,7 +515,7 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
                       {r.detail && (
                         <>
                           <br />
-                          <span className="text-muted as-class-desc">{r.detail}</span>
+                          <span className="text-muted as-class-desc">{localizeMoneyText(r.detail)}</span>
                         </>
                       )}
                     </th>
@@ -561,7 +561,7 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
         <div className="as-cost-side">
           <div className="as-estimate">
             <div className="as-estimate-kicker text-muted">{t('tables.yourEstimate')}</div>
-            <div className="as-estimate-row">{tier.panelLabel}</div>
+            <div className="as-estimate-row">{localizeMoneyText(tier.panelLabel)}</div>
             <div className="as-estimate-days text-muted">
               {t(
                 data.sessionBased

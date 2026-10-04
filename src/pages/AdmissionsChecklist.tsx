@@ -126,7 +126,7 @@ export function AdmissionsChecklist({ slug, band }: { slug: string; band: string
             rendered empty, so the sheet opens straight at the row list. */}
         {active.checklistCallout && (
           <div className="adx-callout">
-            <strong>{active.checklistCallout.lead}</strong> {active.checklistCallout.text}
+            <strong>{localizeMoneyText(active.checklistCallout.lead)}</strong> {localizeMoneyText(active.checklistCallout.text)}
           </div>
         )}
 
@@ -136,7 +136,7 @@ export function AdmissionsChecklist({ slug, band }: { slug: string; band: string
               {/* Inert by design — ticked with a pen, never in the browser. */}
               <span className="adx-box" aria-hidden="true" />
               <div className="adx-row-body">
-                <div className="adx-row-action">{r.action}</div>
+                <div className="adx-row-action">{localizeMoneyText(r.action)}</div>
                 <div className="adx-row-detail">{localizeMoneyText(r.detail)}</div>
               </div>
               <div className="adx-row-due">{localizeMoneyText(r.due)}</div>
@@ -163,7 +163,7 @@ export function AdmissionsChecklist({ slug, band }: { slug: string; band: string
           </section>
         </div>
 
-        <p className="adx-disclaimer">{guide.checklist.disclaimer}</p>
+        <p className="adx-disclaimer">{localizeMoneyText(guide.checklist.disclaimer)}</p>
       </article>
     </div>
   )

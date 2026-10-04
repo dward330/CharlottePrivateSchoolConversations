@@ -22,6 +22,11 @@
 // surfaced until a non-English print-out. This grep is crude but it is the only
 // check that can see a NEW render site the moment someone adds one.
 //
+// It can only see fields whose NAMES sound like money. A figure inside a field
+// called label/text/detail/title is invisible here — 316 such figures shipped
+// unlocalized in es until scripts/audit_money_render.mjs (npm run
+// audit:moneyrender) scanned the rendered pages instead. Run both.
+//
 //   node scripts/check_money_render_paths.mjs
 
 import { readFileSync, readdirSync } from 'node:fs'

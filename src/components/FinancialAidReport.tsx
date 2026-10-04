@@ -131,7 +131,7 @@ function TuitionChart({
             </span>
             <span className="fa-bar-value">
               {money(b.amount)}
-              {b.delta && <span className="fa-bar-delta">{b.delta}</span>}
+              {b.delta && <span className="fa-bar-delta">{localizeMoneyText(b.delta)}</span>}
             </span>
           </div>
         ))}
@@ -277,7 +277,7 @@ function ComponentGrid({
         {components.map((c) => (
           <div key={c.label} className={`fa-component ${c.status}`}>
             <span className="fa-component-glyph">{COMPONENT_GLYPH[c.status]}</span>
-            {c.label}
+            {localizeMoneyText(c.label)}
           </div>
         ))}
       </div>
@@ -442,7 +442,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
                   {stats.map((s) => (
                     <div key={s.label} className="stat-tile">
                       <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
-                      <div className="stat-tile-label">{s.label}</div>
+                      <div className="stat-tile-label">{localizeMoneyText(s.label)}</div>
                     </div>
                   ))}
                 </div>
@@ -461,7 +461,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
               {questions.map((q, i) => (
                 <li key={q}>
                   <span className="fa-q">{t('finAid.question', { n: i + 1 })}</span>
-                  {q}
+                  {localizeMoneyText(q)}
                 </li>
               ))}
             </ol>
@@ -475,7 +475,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
               {stats.map((s) => (
                 <div key={s.label} className="stat-tile">
                   <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
-                  <div className="stat-tile-label">{s.label}</div>
+                  <div className="stat-tile-label">{localizeMoneyText(s.label)}</div>
                 </div>
               ))}
             </div>

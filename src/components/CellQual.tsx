@@ -1,5 +1,6 @@
 import { useId, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { localizeMoneyText } from '../lib/format.ts'
 import type { CellQual as CellQualData } from '../data/metricValues.ts'
 
 type Props = {
@@ -102,7 +103,7 @@ export function CellQual({ value, qual, school, metricKey }: Props) {
       >
         <div className="tip-scroll">
           <span className="tip-kind">{t(`compare.qual.${qual.kind}`)}</span>
-          <span className="tip-body">{qual.text}</span>
+          <span className="tip-body">{localizeMoneyText(qual.text)}</span>
         </div>
       </div>
     </>

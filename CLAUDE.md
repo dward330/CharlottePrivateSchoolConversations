@@ -629,6 +629,15 @@ months in every locale, English included (`$250, non` → `$250 non`, `$11.50` �
 `$11.5`), because every other money check mirrors the logic or audits call
 sites. It is chained into `npm run build`. Do not replace it with a mirror.
 
+**`npm run audit:moneyrender` is the render-site guard.** It loads every school,
+Compare and checklist page in real Chrome in `es`/`fr` — where a localized figure
+never has a leading `$` — and reports every `$<digit>` that reached the screen. It
+found 316 across 26 sites that `check:money`'s identifier grep could not see,
+because the fields were called `label`, `text` or `detail` (Trinity's
+`Comida (FLIK) — por menú · $11.50` sat two lines from `11,50 US$`). Run it after
+adding a render site or a locale; it needs `npm run build && npx vite preview`,
+so it is not in the build.
+
 **Telugu keeps native lakh/crore grouping** — it is deliberately absent from
 `FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
 `$32,50,000`. This makes it the first locale where a stat tile and the prose
