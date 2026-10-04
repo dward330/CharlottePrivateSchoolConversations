@@ -57,8 +57,11 @@ const FIGURE_SAFE = ['bn', 'fa']
 const numberLocale = (l) => (FIGURE_SAFE.includes(l.slice(0, 2)) ? 'en-US' : l)
 
 function makeFormatter(lang, rtl) {
-  const number = (n) =>
-    new Intl.NumberFormat(numberLocale(lang), { useGrouping: 'always' }).format(n)
+  const number = (n, fd) =>
+    new Intl.NumberFormat(numberLocale(lang), fd === undefined
+      ? { useGrouping: 'always' }
+      : { useGrouping: 'always', minimumFractionDigits: fd, maximumFractionDigits: fd },
+    ).format(n)
   const isolate = (s) => (rtl ? `${LRI}${s}${PDI}` : s)
 
   const leads = () => {
@@ -73,7 +76,7 @@ function makeFormatter(lang, rtl) {
       .formatToParts(1)
       .find((p) => p.type === 'currency')?.value ?? '$'
 
-  const money = (n) => {
+  const money = (n, fd) => {
     const parts = new Intl.NumberFormat(lang, {
       style: 'currency', currency: 'USD', maximumFractionDigits: 0, useGrouping: 'always',
     }).formatToParts(n)
@@ -83,7 +86,7 @@ function makeFormatter(lang, rtl) {
         if (!['integer', 'group', 'decimal', 'fraction'].includes(p.type)) return p.value
         if (done) return ''
         done = true
-        return number(n)
+        return number(n, fd)
       })
       .join('')
     return isolate(out)
@@ -95,15 +98,16 @@ function makeFormatter(lang, rtl) {
   const localizeMoneyText = (text) => {
     if (!text.includes('$')) return isolateNeutral(text)
     const withMoney = text.replace(
-      /\$(\d[\d,]*(?:\.\d+)?)([KM])?/g,
+      /\$(\d+(?:,\d{3})*(?:\.\d+)?)([KM])?/g,
       (whole, digits, suffix) => {
         const n = Number(digits.replace(/,/g, ''))
         if (!Number.isFinite(n)) return whole
+        const fd = digits.includes('.') ? digits.split('.')[1].length : undefined
         if (suffix) {
           const sym = symbol()
-          return isolate(leads() ? `${sym}${number(n)}${suffix}` : `${number(n)} ${suffix} ${sym}`)
+          return isolate(leads() ? `${sym}${number(n, fd)}${suffix}` : `${number(n, fd)} ${suffix} ${sym}`)
         }
-        return money(n)
+        return money(n, fd)
       },
     )
     return isolateNeutral(withMoney)

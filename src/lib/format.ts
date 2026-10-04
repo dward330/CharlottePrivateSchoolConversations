@@ -130,8 +130,13 @@ function figureLocale(): string {
  * drop the group separator on 4-digit numbers by default, which would render a
  * single price list as "1725 US$" next to "11.000 US$". Forcing the separator
  * keeps a column of tuition figures internally consistent.
+ *
+ * `fractionDigits` pins the decimals to what the source figure wrote. Without it
+ * the substituted number() drops trailing zeros, so a published "$11.50/hr"
+ * rendered "$11.5/hr" and "$1.00" rendered "$1". Omitted, the output is exactly
+ * what it was before — the component callers pass computed whole-dollar prices.
  */
-export function money(n: number): string {
+export function money(n: number, fractionDigits?: number): string {
   const parts = new Intl.NumberFormat(lang(), {
     style: 'currency',
     currency: 'USD',
@@ -143,7 +148,7 @@ export function money(n: number): string {
   // "28.500 US$" trails in Spanish and Bangla, and that is each locale's real
   // convention — while substituting a figure-safe number for the digits. Only
   // the numeric run is replaced, so the symbol, spacing and order are untouched.
-  const digits = number(n)
+  const digits = number(n, fractionDigits)
   let replaced = false
   const out = parts
     .map((p) => {
@@ -162,8 +167,11 @@ export function money(n: number): string {
  * Plain number with locale-appropriate grouping (see `money` on grouping, and
  * `numberLocale` on why a few locales borrow en-US's grouping entirely).
  */
-export function number(n: number): string {
-  return new Intl.NumberFormat(figureLocale(), { useGrouping: 'always' }).format(n)
+export function number(n: number, fractionDigits?: number): string {
+  return new Intl.NumberFormat(figureLocale(), fractionDigits === undefined
+    ? { useGrouping: 'always' }
+    : { useGrouping: 'always', minimumFractionDigits: fractionDigits, maximumFractionDigits: fractionDigits },
+  ).format(n)
 }
 
 /**
@@ -265,9 +273,15 @@ export function localizeMoneyText(text: string): string {
   // Left outside, it is a neutral character that RTL reorders to the far edge —
   // "≈$378/mo" rendered "$378/ماه≈" in Farsi, reading as a trailing symbol
   // rather than "about". Same class as the $ and en-dash cases above it.
-  const withMoney = text.replace(/(≈)?\$(\d[\d,]*(?:\.\d+)?)([KM])?/g, (whole, approx: string | undefined, digits: string, suffix?: string) => {
+  //
+  // A grouping comma must be followed by exactly three digits. The old
+  // `\d[\d,]*` also swallowed the comma that ENDS a figure, so "$250, non"
+  // rendered "$250 non" in every locale, English included.
+  const withMoney = text.replace(/(≈)?\$(\d+(?:,\d{3})*(?:\.\d+)?)([KM])?/g, (whole, approx: string | undefined, digits: string, suffix?: string) => {
     const n = Number(digits.replace(/,/g, ''))
     if (!Number.isFinite(n)) return whole
+    // Keep the source's decimals ("$3.0M", "$11.50"), never Intl's default.
+    const fd = digits.includes('.') ? digits.split('.')[1].length : undefined
     const near = approx ?? ''
     if (suffix) {
       // Keep the magnitude letter; localize only the number in front of it.
@@ -275,11 +289,11 @@ export function localizeMoneyText(text: string): string {
       const sym = currencySymbol()
       return bidiIsolate(
         currencyLeads()
-          ? `${near}${sym}${number(n)}${suffix}`
-          : `${near}${number(n)} ${suffix} ${sym}`,
+          ? `${near}${sym}${number(n, fd)}${suffix}`
+          : `${near}${number(n, fd)} ${suffix} ${sym}`,
       )
     }
-    return near ? bidiIsolate(`${near}${stripIsolate(money(n))}`) : money(n)
+    return near ? bidiIsolate(`${near}${stripIsolate(money(n, fd))}`) : money(n, fd)
   })
   return isolateNeutralFigures(localizeUnits(withMoney))
 }
