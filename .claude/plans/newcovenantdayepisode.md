@@ -1,11 +1,11 @@
 ---
 name: newcovenantdayepisode
 title: Add podcast episode 38 (Covenant Day — How to Apply) to Covenant Day's Admissions section
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-04
 branch: feat/new-covenant-day-episode
-prs: []
+prs: [325]
 ---
 
 # Add podcast episode 38 to Covenant Day's Admissions section
