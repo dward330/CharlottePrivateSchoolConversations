@@ -392,6 +392,13 @@ which also diverges on separators and is likewise excluded. One knock-on:
 list, so it correctly stays silent about `fr`, and the per-topic
 `check_figures.py` sweep is the real guard.
 
+**Dates translate; their digits do not — and `npm run check:dates` enforces it in the
+build.** `June 1-5` becomes es `1-5 de junio`, and the phrase around it (`by October 16`)
+translates too. The only English date a translation may keep is one inside a quote it
+keeps verbatim. First of the month is fr `1er`, it `1º` (never `1°`) and ht `1ye`. The
+rule and its KEEP are in the "Dates and session labels" section of
+`src/data/overlays/NOTES.md`.
+
 **Percent signs stay unspaced in every locale, French included.** French
 orthography wants `80 %` and `Intl` agrees — but these percentages are citations
 a parent matches against the school's own page, the sweep reads the space as a
