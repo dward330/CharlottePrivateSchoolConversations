@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-10-04
 branch: fix/datetranslate
-prs: []
+prs: [329]
 ---
 
 # Translate the dates the translations left in English
