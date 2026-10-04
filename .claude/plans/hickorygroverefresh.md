@@ -1,7 +1,7 @@
 ---
 name: hickorygroverefresh
 title: Refresh Hickory Grove Christian's Admissions guide and Financial Aid card to the live site — the rolled-forward fee window, the dropped acceptance-before-aid rule, the NCSEAA and discount dates, the international fee timing, office hours and Mallard Creek
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-04
 branch: fix/hickorygroverefresh

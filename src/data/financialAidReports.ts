@@ -2261,15 +2261,15 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       confidence: 70,
       timeline: [
         {
-          when: 'Feb–Mar',
+          when: 'From Feb 1',
           detail:
-            'The **NCSEAA Opportunity Scholarship** application window (Feb 6 – Mar 6 in the 2025 cycle; priority deadline **March 2, 2026** with April notification; late applications accepted through August)',
+            'The **NCSEAA Opportunity Scholarship** application opens **February 1**; anyone can apply — there is no income cap on applying — and the award scales with household income',
           emphasis: true,
         },
         {
           when: 'By May 31',
           detail:
-            'A **5% discount** applies to tuition paid in full by **May 31, 2026**',
+            'A **5% discount** applies when the whole school year\'s tuition is paid by **May 31**',
         },
         {
           when: 'Every year',
@@ -2325,7 +2325,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         {
           figure: '5%',
           label: 'Early-payment discount',
-          detail: 'Off tuition if paid entirely by **May 31, 2026**.',
+          detail: 'Off tuition if the whole school year is paid by **May 31**.',
           emphasis: true,
         },
         {
