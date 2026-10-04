@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-10-04
 branch: fix/hickorygroverefresh
-prs: []
+prs: [326]
 ---
 
 # Refresh Hickory Grove Christian's Admissions and Financial Aid data to the live site
