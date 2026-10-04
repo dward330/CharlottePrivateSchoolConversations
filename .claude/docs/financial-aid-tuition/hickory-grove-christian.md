@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-04.
 **Documents:** Deep Dive Report
 
 
@@ -81,6 +81,8 @@ No income cap to apply; household income affects the award amount. Application w
 Feb 6 – Mar 6 (2025 cycle); priority deadline March 2, 2026 with April notification; late
 applications accepted through August. Contact `opportunityscholarships@ncseaa.edu`.
 
+*Superseded 2026-10-04: the live Scholarships page says only "Applications open February 1st." (no year, no closing date) — see `source-material/admissions/hickory-grove-christian/Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
+
 **2. ESA+ Program.** Education Student Accounts Plus — assists parents paying qualified
 expenses for children with disabilities in eligible non-public settings. Contact
 `ESA@ncseaa.edu` / 1.855.330.3955.
@@ -91,6 +93,8 @@ are awarded until depleted. (This is the mechanism a family uses while waiting o
 lieu of, an NCSEAA award.)
 
 **4. 5% early-payment discount.** 5% off tuition if paid entirely by May 31, 2026.
+
+*Superseded 2026-10-04: the live page says "by May 31st" with no year — see `source-material/admissions/hickory-grove-christian/Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
 
 **5. FACTS payment plans.** Tuition can be spread through FACTS monthly automatic draft
 (the FACTS Family portal is referenced for payment plans and withdrawal forms, S1). Number

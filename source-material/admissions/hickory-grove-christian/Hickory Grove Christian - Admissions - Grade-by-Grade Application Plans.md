@@ -47,6 +47,8 @@ applications even opened on 2 November 2026. **This is the school's inconsistenc
 research gap.** Reproduce both figures and say the published window predates the current
 application dates; do not silently pick one.
 
+*Superseded 2026-10-04: the school rolled the window forward to $250 (November 2, 2026 – May 31, 2027) and $500 (June 1, 2027 and later), so this inconsistency no longer exists — see `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
+
 **2. The Apply page carries a prior-cycle label.** `/admissions/apply-to-hgcs` reads
 **"APPLY HERE FOR THE 2026-2027 SCHOOL YEAR"** (rendered 2026-09-01) while the Admissions
 Process page publishes the November 2026 dates for 2027–28. Two official pages, two cycle
@@ -212,6 +214,8 @@ the K–12 admissions checklist.
   launching **classical Christian TK and Kindergarten**, growing one grade at a time, with
   students integrating into Harris at middle school. **Separate FACTS portal, memberId 15083.**
 
+*Superseded 2026-10-04: the school now says it is "exploring" this expansion ("would launch"), with expected limited availability — see `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
+
 **Whether Mallard Creek's classical TK/K runs different steps or deadlines than Harris is NOT
 PUBLISHED.**
 
@@ -234,6 +238,8 @@ PUBLISHED.**
 enrollment before applying for aid; families should first apply for/accept/renew the **NC
 Opportunity Scholarship (NCSEAA)**, then may apply for HGCS FACTS Grant & Aid "until all
 available funds have been allocated" if needs are not met.
+
+*Superseded 2026-10-04: the live Scholarships page no longer says new families must be accepted before applying for aid (it now says "Apply immediately"), and the NCSEAA dates below are replaced by "Applications open February 1st." (no year) — see `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
 
 **⚠️ Correction to the prior pass:** it recorded the Scholarships page as carrying stale
 2025 dates ("February 6 – March 6, 2025"; renewal "April 15, 2025"). **The live page has
@@ -271,6 +277,8 @@ admissions@hgchristian.org, **704-531-4008**. Program began **2013**; HGCS is
 6. **If accepted** — notified by email → pay the non-refundable application fee → "HGCS
    official will mail the I-20 if student is accepted" → "Students must arrange an interview
    with the U.S. Embassy in their respective country to obtain an F1 visa."
+
+   *Superseded 2026-10-04: the same page now also says "The application fee is due at the time of application and is non-refundable.", so it gives the fee two timings — see `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
 7. **Homestay** — coordinated by the HGCS Student Coordinator, who "will contact student/agent
    with homestay information if homestay is required." Host-family homestay provided since
    2013; arrangement and vetting handled internally.
@@ -345,6 +353,8 @@ admissions@hgchristian.org (also seen as sheilachaney@hgchristian.org in an even
 **704-531-4008**.
 **General admissions office:** 704-531-4008, Mon–Fri **7:30 a.m.–3:00 p.m.**,
 admissions@hgchristian.org.
+
+*Superseded 2026-10-04: the live contact page gives MAIN OFFICE hours of 7:30 AM–3:30 PM for 704-531-4008 — see `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-10-04.md`.*
 **Campus address (academic):** 7200 E. WT Harris Blvd., Charlotte, NC 28215.
 **Mailing address:** 6050 Hickory Grove Road, Charlotte, NC 28215 (the church/school complex;
 finance/registrar historically at this address). **Reproduce both; do not silently reconcile.**
