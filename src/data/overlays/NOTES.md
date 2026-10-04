@@ -1965,6 +1965,22 @@ do not.**
 "August 12, 2025"    ->  fr "12 août 2025"          ar "12 أغسطس 2025"
 ```
 
+The phrase around the date translates with it — `by October 16`, `on or before Apr 16`,
+`from June 1` — not just the month word. A bare date label (`Nov 2026`, `15 Sep`) is prose
+too, never a code. Digits stay Western and range separators are copied char-for-char
+(`June 1-5` → es `1-5 de junio`; the `-` never becomes `–`).
+
+- **The one KEEP: a verbatim quote.** An English date may stay in a translation only if
+  the English `text` holds it inside a quoted span (`"…"` / `“…”`) **and** the translation
+  carries that same span verbatim. A quote the locale translated gets its dates translated
+  too. The exemption is decided from the English text, never from a hash allowlist.
+- **First of the month.** fr `1er`, it **`1º`** (the ordinal indicator U+00BA — never the
+  degree sign `1°`), ht **`1ye <month>`** (never bare `1 <month>`). Both it and ht had
+  drifted; the majority form won.
+- **`npm run check:dates` enforces both**, and is chained into `npm run build`. It found
+  750 English-form dates across all nine locales and 21 first-of-month drifts when it was
+  written (2026-10-04, plan `datetranslate`), all fixed in the same PR.
+
 **4. The one exception that keeps rule 1 honest — a grade word followed by a SUBJECT noun
 is a course title, not a grade tag.** `9th Grade History`, `Sixth Grade Bible`,
 `5th Grade Math` and seven siblings are **KEEPs**: verified across all nine locales, **not

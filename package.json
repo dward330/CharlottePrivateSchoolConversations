@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:schoolurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:moneytext && npm run check:spans && npm run check:news",
+    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:schoolurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:moneytext && npm run check:dates && npm run check:spans && npm run check:news",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",
@@ -33,6 +33,7 @@
     "check:currency": "node scripts/check_currency_shape.mjs",
     "check:money": "node scripts/check_money_render_paths.mjs",
     "check:moneytext": "node scripts/check_money_text.mjs",
+    "check:dates": "node scripts/check_date_forms.mjs",
     "audit:moneyrender": "node scripts/audit_money_render.mjs",
     "check:bidi": "node scripts/check_rtl_bidi.mjs",
     "check:fa": "node scripts/check_fa_script.mjs",
