@@ -114,7 +114,7 @@ function DeadlineStrip({ band }: { band: AdBand }) {
       {band.deadlines.map((d) => (
         <div key={d.label} className="adm-deadline">
           <div className="adm-deadline-val">{localizeMoneyText(d.value)}</div>
-          <div className="adm-deadline-label">{d.label}</div>
+          <div className="adm-deadline-label">{localizeMoneyText(d.label)}</div>
         </div>
       ))}
     </div>
@@ -141,7 +141,7 @@ function Stepper({ band }: { band: AdBand }) {
               square and its hairline joiner are untouched. */}
           <details className="adm-step-body">
             <summary className="adm-step-head">
-              <span className="adm-step-title">{s.title}</span>
+              <span className="adm-step-title">{localizeMoneyText(s.title)}</span>
               <span className={s.tagKind === 'accent' ? 'tag-accent' : 'tag-outline'}>
                 {s.tag}
               </span>
@@ -236,7 +236,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
               <RuleIcon>{RULE_ICONS[i % RULE_ICONS.length]}</RuleIcon>
             </span>
             <p className="adm-rule-text">
-              <strong>{r.title}</strong> {r.text}
+              <strong>{localizeMoneyText(r.title)}</strong> {localizeMoneyText(r.text)}
             </p>
           </div>
         ))}
@@ -277,7 +277,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         </a>
       </div>
 
-      <p className="as-note adm-spine">{data.spineNote}</p>
+      <p className="as-note adm-spine">{localizeMoneyText(data.spineNote)}</p>
 
       <DeadlineStrip band={band} />
 
@@ -426,7 +426,7 @@ export function AdmissionsStatBand({ program }: { program: AdmissionsProgram }) 
       {stats.map((s) => (
         <div key={s.label} className="stat-tile">
           <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
-          <div className="stat-tile-label">{s.label}</div>
+          <div className="stat-tile-label">{localizeMoneyText(s.label)}</div>
         </div>
       ))}
     </div>

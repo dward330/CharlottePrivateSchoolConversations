@@ -38,8 +38,8 @@ import type {
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
   return (
     <p className="sports-lead">
-      <strong>{headline}</strong>
-      {subhead && <span className="text-muted"> {subhead}</span>}
+      <strong>{localizeMoneyText(headline)}</strong>
+      {subhead && <span className="text-muted"> {localizeMoneyText(subhead)}</span>}
     </p>
   )
 }
@@ -120,7 +120,7 @@ export function SportsOfferedBody({ data }: { data: SportsOffered }) {
         ))}
       </div>
 
-      {data.footnote && <p className="sports-note text-muted">{data.footnote}</p>}
+      {data.footnote && <p className="sports-note text-muted">{localizeMoneyText(data.footnote)}</p>}
       <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
@@ -207,7 +207,7 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
 
       {data.didNotWin && (
         <p className="sports-note text-muted">
-          <strong className="sports-note-strong">{t('sports.didntWin')}</strong> {data.didNotWin}
+          <strong className="sports-note-strong">{t('sports.didntWin')}</strong> {localizeMoneyText(data.didNotWin)}
         </p>
       )}
 
@@ -376,7 +376,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
           </div>
         ))}
       </div>
-      {data.funnelNote && <p className="sports-note text-muted">{data.funnelNote}</p>}
+      {data.funnelNote && <p className="sports-note text-muted">{localizeMoneyText(data.funnelNote)}</p>}
 
       {/* By-sport bars beside the reality-check panel. */}
       <div className="sports-split">
@@ -470,7 +470,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
         )}
       </div>
 
-      {data.rosterNote && <p className="sports-note text-muted">{data.rosterNote}</p>}
+      {data.rosterNote && <p className="sports-note text-muted">{localizeMoneyText(data.rosterNote)}</p>}
       <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
@@ -569,7 +569,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
 
       {data.worthKnowing && (
         <p className="sports-note">
-          <strong className="sports-note-strong">{t('sports.worthKnowing')}</strong> {data.worthKnowing}
+          <strong className="sports-note-strong">{t('sports.worthKnowing')}</strong> {localizeMoneyText(data.worthKnowing)}
         </p>
       )}
       <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
@@ -618,7 +618,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
           {data.broadcast && (
             <p className="sports-note">
               <strong className="sports-note-strong">{t('cardLabels.broadcastGameDay')}</strong>{' '}
-              {data.broadcast}
+              {localizeMoneyText(data.broadcast)}
             </p>
           )}
         </div>
@@ -634,7 +634,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
               ))}
             </div>
           </div>
-          {data.careNote && <p className="sports-note text-muted">{data.careNote}</p>}
+          {data.careNote && <p className="sports-note text-muted">{localizeMoneyText(data.careNote)}</p>}
         </div>
       </div>
 
@@ -665,7 +665,7 @@ export function NationalStageBody({ data }: { data: NationalStage }) {
               ))}
             </div>
           </div>
-          {data.scheduleNote && <p className="sports-note text-muted">{data.scheduleNote}</p>}
+          {data.scheduleNote && <p className="sports-note text-muted">{localizeMoneyText(data.scheduleNote)}</p>}
         </div>
 
         <div className="sports-panel">

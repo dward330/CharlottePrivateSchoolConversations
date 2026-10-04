@@ -95,8 +95,8 @@ function Flags({ flags }: { flags: CsFlag[] }) {
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
   return (
     <p className="cs-lead">
-      <strong>{headline}</strong>
-      {subhead && <span className="text-muted"> {subhead}</span>}
+      <strong>{localizeMoneyText(headline)}</strong>
+      {subhead && <span className="text-muted"> {localizeMoneyText(subhead)}</span>}
     </p>
   )
 }
@@ -122,7 +122,7 @@ function Stats({ stats }: { stats: CsStat[] }) {
       {stats.map((s) => (
         <div key={s.label} className="cs-stat">
           <div className="cs-stat-val">{localizeMoneyText(s.value)}</div>
-          <div className="cs-stat-label text-muted">{s.label}</div>
+          <div className="cs-stat-label text-muted">{localizeMoneyText(s.label)}</div>
         </div>
       ))}
     </div>
@@ -651,7 +651,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
           <div className="cs-chips">
             {data.scholarships.map((s, i) => (
               <span key={s} className={i === 0 ? 'tag-accent' : 'tag-neutral'}>
-                {s}
+                {localizeMoneyText(s)}
               </span>
             ))}
           </div>
@@ -861,7 +861,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
               {data.checklist.map((q, i) => (
                 <label key={i} className="cs-check-row">
                   <input type="checkbox" className="cs-checkbox" />
-                  <span>{q}</span>
+                  <span>{localizeMoneyText(q)}</span>
                 </label>
               ))}
             </div>

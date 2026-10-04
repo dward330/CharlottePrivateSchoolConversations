@@ -1060,7 +1060,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="note-card-head">
                             <span className="course-kicker">{d.grades}</span>
                             <span className="topic-title">{d.title}</span>
-                            <span className="topic-teaser">{d.teaser}</span>
+                            <span className="topic-teaser">{localizeMoneyText(d.teaser)}</span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
                         </summary>
@@ -1087,7 +1087,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'sports', card.key, card.title)}</span>
                             <span className="topic-teaser">
-                              {sports[card.key]!.headline}
+                              {localizeMoneyText(sports[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1118,7 +1118,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               {cardTitle(tr, 'the-arts', card.key, artsCardTitle(slug, card), artsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
-                              {arts[card.key]!.headline}
+                              {localizeMoneyText(arts[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1150,7 +1150,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'college-support', card.key, card.title)}</span>
                             <span className="topic-teaser">
-                              {collegeSupport[card.key]!.headline}
+                              {localizeMoneyText(collegeSupport[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1189,7 +1189,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               {cardTitle(tr, 'high-school-placement', card.key, card.title)}
                             </span>
                             <span className="topic-teaser">
-                              {highSchoolPlacement[card.key]!.headline}
+                              {localizeMoneyText(highSchoolPlacement[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1226,7 +1226,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'after-school', card.key, card.title)}</span>
                             <span className="topic-teaser">
-                              {afterSchool[card.key]!.headline}
+                              {localizeMoneyText(afterSchool[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1267,7 +1267,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             <span className="note-card-head">
                               <span className="topic-title">{cardTitle(tr, 'summer-programs', card.key, card.title)}</span>
                               <span className="topic-teaser">
-                                {summer[card.key]!.headline}
+                                {localizeMoneyText(summer[card.key]!.headline)}
                               </span>
                             </span>
                             <span className="plusmark"><PlusIcon /></span>
@@ -1303,7 +1303,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               {cardTitle(tr, 'admissions', card.key, admissionsCardTitleFor(slug, card), admissionsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
-                              {admissions[card.key]!.headline}
+                              {localizeMoneyText(admissions[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1345,7 +1345,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               {cardTitle(tr, 'student-clubs', card.key, clubsCardTitle(slug, card), clubsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
-                              {clubs[card.key]!.headline}
+                              {localizeMoneyText(clubs[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -1407,7 +1407,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               {/* The report replaces the prose BODY, so the teaser
                                   must come from the report too — deriving it from
                                   the prose would show English under a Spanish card. */}
-                              {report
+                              {localizeMoneyText(report
                                 ? `${report.title} · ${report.meta}`
                                 : clusters
                                 ? clusters.verdict
@@ -1426,7 +1426,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                        the second. */
                                     (previewHasGapLanguage(g.sections[0]?.preview ?? '', t.slug)
                                       ? ''
-                                      : flattenMarkdown(g.sections[0]?.preview ?? ''))}
+                                      : flattenMarkdown(g.sections[0]?.preview ?? '')))}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>

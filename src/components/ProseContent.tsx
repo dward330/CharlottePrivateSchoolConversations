@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { parseProse, headingEchoesTitle, type ProseBlock, type HeadingTone } from '../lib/prose.ts'
 import { useTranslation } from 'react-i18next'
+import { localizeMoneyText } from '../lib/format.ts'
 
 // Bare URLs in the distilled notes are stored as plain text (no markdown link
 // syntax). Turn them into real anchors while leaving the surrounding prose intact.
@@ -16,14 +17,21 @@ const TRAILING = /[.,;:!?)\]}>"'`]+$/
 // list items, headings and table cells all agree.
 const BOLD_RE = /\*\*([^*]+)\*\*/g
 
-/** Render `**bold**` spans inside an already-plain string segment. */
+/**
+ * Render `**bold**` spans inside an already-plain string segment, localizing
+ * every baked "$" figure on the way. This is the one choke point for paragraphs,
+ * list items and table cells, and it runs AFTER linkify() has split URLs out, so
+ * an href is never rewritten.
+ */
 function emphasize(text: string, keyBase: string): ReactNode {
-  if (!text.includes('**')) return text
+  if (!text.includes('**')) return localizeMoneyText(text)
   const parts = text.split(BOLD_RE)
-  if (parts.length === 1) return text
+  if (parts.length === 1) return localizeMoneyText(text)
   return parts.map((part, i) =>
     // split() with one capture group alternates: plain, captured, plain, …
-    i % 2 === 1 ? <strong key={`${keyBase}-b${i}`}>{part}</strong> : part,
+    i % 2 === 1
+      ? <strong key={`${keyBase}-b${i}`}>{localizeMoneyText(part)}</strong>
+      : localizeMoneyText(part),
   )
 }
 
@@ -101,7 +109,7 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
       {blocks.map((b, i) => {
         switch (b.kind) {
           case 'scope':
-            return <p key={i} className="scope">{b.text}</p>
+            return <p key={i} className="scope">{localizeMoneyText(b.text)}</p>
           case 'para':
             return (
               <div key={i}>
@@ -119,7 +127,7 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
               </div>
             )
           case 'facts':
-            return <div key={i} className="facts">{b.lines.join('\n')}</div>
+            return <div key={i} className="facts">{localizeMoneyText(b.lines.join('\n'))}</div>
           case 'table':
             return (
               <div key={i} className="prose-table-wrap">

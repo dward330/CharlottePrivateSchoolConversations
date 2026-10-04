@@ -113,8 +113,8 @@ function Flags({ flags }: { flags: AsFlag[] }) {
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
   return (
     <p className="as-lead">
-      <strong>{headline}</strong>
-      {subhead && <span className="text-muted"> {subhead}</span>}
+      <strong>{localizeMoneyText(headline)}</strong>
+      {subhead && <span className="text-muted"> {localizeMoneyText(subhead)}</span>}
     </p>
   )
 }
@@ -202,8 +202,8 @@ export function CoverageBody({ data }: { data: Coverage }) {
                      narrow band shows "NO BEFO…" and the rest is unreachable.
                      A native tooltip needs no JS, works on keyboard focus and
                      is read by assistive tech. */
-                  <span className="as-tl-tier is-flat" title={r.flatLabel}>
-                    {r.flatLabel}
+                  <span className="as-tl-tier is-flat" title={r.flatLabel && localizeMoneyText(r.flatLabel)}>
+                    {r.flatLabel && localizeMoneyText(r.flatLabel)}
                   </span>
                 ) : (
                   r.tiers.map((t, i) => {
@@ -457,7 +457,7 @@ export function CostBody({ data }: { data: Cost }) {
         <div className="as-cost-side">
           <div className="as-estimate">
             <div className="as-estimate-kicker text-muted">{t('tables.yourEstimate')}</div>
-            <div className="as-estimate-row">{row.panelLabel}</div>
+            <div className="as-estimate-row">{localizeMoneyText(row.panelLabel)}</div>
             <div className="as-estimate-days text-muted">
               {t('afterSchool.daysUntilPickup', { count: days })}
             </div>
@@ -648,7 +648,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
                   <strong className="as-class-name">{highlight(c.name, q)}</strong>
                   <br />
                   <span className="text-muted as-class-desc">
-                    {highlight(c.desc, q)}
+                    {highlight(localizeMoneyText(c.desc), q)}
                   </span>
                 </td>
                 <td className="as-td">{dayLabel(t, c.day)}</td>

@@ -121,8 +121,8 @@ export function ArtsLadderBody({ data }: { data: ArtsLadder }) {
           <div className="arts-enrich">
             {data.enrichment.map((e) => (
               <div key={e.label} className="arts-enrich-row">
-                <strong className="arts-enrich-label">{e.label}</strong>
-                <span>{e.text}</span>
+                <strong className="arts-enrich-label">{localizeMoneyText(e.label)}</strong>
+                <span>{localizeMoneyText(e.text)}</span>
               </div>
             ))}
           </div>
@@ -207,7 +207,7 @@ function LedgerRow({ row }: { row: Theatre['ledger'] extends (infer R)[] | undef
       <div className="arts-ledger-show">{row.show}</div>
       <div className="arts-ledger-result">
         {row.win && <span className="arts-win">{t('cardLabels.win')}</span>}
-        {row.result}
+        {localizeMoneyText(row.result)}
       </div>
     </>
   )
@@ -356,7 +356,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
                     ✓
                   </span>
                   <span>
-                    <strong>{h.label}</strong> — {h.text}
+                    <strong>{localizeMoneyText(h.label)}</strong> — {localizeMoneyText(h.text)}
                   </span>
                 </div>
               ))}
