@@ -23,18 +23,17 @@
 // Jan 6, 2025 — now RETURNS HTTP 404. Never restore a date from any of the
 // three, from a cache, or from an archived copy. That is the cycle rule.
 //
-// ⚠️ THE PUBLISHED APPLICATION FEE IS A LIVE INCONSISTENCY, AND BOTH FIGURES
-// SHIP (user's call, 2026-09-01). Immediately below the November 2026
-// application dates, the same page reads "APPLICATION FEE: $250.00 (November,
-// 17 2025 - May 31, 2026)" and "LATE ENROLLMENT APPLICATION FEE: $500 (June 1,
-// 2026 and later)". That window belongs to the prior cycle, so read literally
-// every 2027–28 applicant pays $500 — the $250 window closed before
-// applications opened. The card gives both figures and says the published
-// window predates the current application dates, then tells the parent to
-// confirm. It does NOT pick one silently and does NOT argue the inconsistency
-// at length. The application fee is also deliberately NOT a stat tile: a bare
-// "$250" tile above the card would state as fact the very figure that is in
-// doubt.
+// THE APPLICATION FEE IS STATED AS A FACT — THE OLD INCONSISTENCY IS GONE
+// (refreshed 2026-10-04, plan hickorygroverefresh). On 2026-09-01 the fee
+// window on the Admissions Process page still read "$250.00 (November, 17 2025
+// - May 31, 2026)" / "$500 (June 1, 2026 and later)" — a prior-cycle window
+// sitting below the November 2026 dates — so the card shipped both figures and
+// told parents to confirm. On or before 2026-10-04 the school rolled the window
+// forward: "$250.00 (November, 2 2026 - May 31, 2027)" and "$500 (June 1, 2027
+// and later)", non-refundable and not applied toward tuition. The hedge was
+// removed everywhere. Do not restore it from the 2026-09-01 research file.
+// The application fee is still NOT a stat tile: adding one is a UX change that
+// needs the user's approval, and it was out of scope for the refresh.
 //
 // BOTH ADMISSION-CHECKLIST PDFs ARE RETRIEVABLE, AND A PRIOR PASS RECORDED THEM
 // AS BLOCKED. `/fs/resource-manager/view/<guid>` 302-redirects to
@@ -106,12 +105,37 @@
 // was cut back. The rules frame the process — the detail belongs in the steps
 // below, which is where a parent reads it.
 //
-// THE AID STRIP DOES NOT NAME THE UNPUBLISHED 2027-28 NCSEAA WINDOW OR THE
-// ABSENT AID-APPLICANT DEPOSIT DISCOUNT (user, 2026-09-02). Both were removed
-// from the strip and the checklist panel. They are NOT-PUBLISHED disclosures
-// rather than facts a parent can act on, and the register in this header and
-// the research file keeps the record. Do not read their absence as a research
-// gap and backfill them.
+// THE AID STRIP DOES NOT NAME THE ABSENT AID-APPLICANT DEPOSIT DISCOUNT (user,
+// 2026-09-02). It is a NOT-PUBLISHED disclosure rather than a fact a parent can
+// act on, and the register in this header and the research file keeps the
+// record. Do not read its absence as a research gap and backfill it.
+//
+// THE NCSEAA DATE IS "February 1", WITH NO YEAR (2026-10-04). The live
+// Scholarships page now says only "Applications open February 1st." — no year,
+// no closing date, no renewal date. The card says "February 1" and never adds a
+// year. The Feb 2 – Mar 2, 2026 window and April 15, 2026 renewal in the
+// 2026-09-01 research file belong to a closed cycle; never restore them. The
+// 5% early-pay discount is likewise "by May 31", with no year.
+//
+// THE ACCEPTANCE-BEFORE-AID PRECONDITION WAS DROPPED BY THE SCHOOL (2026-10-04).
+// The 2026-09-01 file recorded "new families must be accepted for enrollment
+// before applying for aid". The live page no longer says so; it says "Apply
+// immediately … email finance@hgchristian.org". Do not restore the
+// precondition from the older file.
+//
+// MALLARD CREEK'S "applications submitted before February 18 will be considered
+// first" IS NOT CARRIED (user, 2026-10-04). The page gives no year and its
+// "This fall … exploring" framing reads as the prior cycle's text, so a bare
+// "February 18" would read as a 2027 date the school has not published. Only
+// the "expected limited availability" ships; the date stays in the research
+// file. The campus is "exploring" the classical TK/K, so the card says it
+// "plans to open" one, not that it "is launching".
+//
+// THE INTERNATIONAL FEE SHIPS WITH BOTH PUBLISHED TIMINGS (user, 2026-10-04).
+// The enrollment-process page says the fee is "due at the time of application"
+// in one line and places it after acceptance in its step list. The card gives
+// both and sends the family to the international office; it does not pick one.
+// The amount remains not published.
 //
 // NOTE FOR EDITORS: `rules[].text` is rendered RAW — `<strong>{title}</strong>
 // {text}` in AdmissionsProgram.tsx — so it is the one prose field on this card
@@ -127,7 +151,7 @@
 // would have carried is already in `steps[].detail` and each band's
 // `checklistCallout`: the priority-window split, the after-all-forms testing
 // sequence, the automatic-denial rule, the high-school-only shadow day, the
-// stale fee window and the rolling decision. The research file keeps the full
+// fee and the rolling decision. The research file keeps the full
 // record regardless of what this card presents.
 //
 // NO URL-LESS TRAILING NOTE IN `sources` (2026-09-01), following PR #258 —
@@ -138,10 +162,9 @@
 // faculty-children / re-application / mid-year transfer policies, a fixed
 // notification date, any reduced deposit for aid applicants, the specific
 // assessment instruments, whether Mallard Creek's classical TK/K runs different
-// steps, and the 2027–28 NCSEAA window) lives in this header and in the
-// research file. Each gap a parent would act on is also named where it matters
-// — the aid strip says the 2027–28 NCSEAA window is not yet published, and the
-// TK/K5 apply step says Mallard Creek's steps are not published separately.
+// steps) lives in this header and in the research file. The international fee
+// amount and Mallard Creek's limited availability are also named where a parent
+// acts on them, in the international application step and the TK/K5 apply step.
 //
 // NEVER NARRATE THE CHECKLIST DOCUMENTS — standing editorial rule (user, PR
 // #261). This card's best material comes from two PDFs, which makes the
@@ -166,7 +189,10 @@
 // mailing address (6050 Hickory Grove Road) are published and are reproduced
 // rather than silently reconciled. ⚠️ 704-531-3589 appears on an old admissions
 // page and is NOT shipped; the current published admissions number is
-// 704-531-4008.
+// 704-531-4008. Its hours are the contact page's MAIN OFFICE figure, "7:30
+// AM–3:30 PM" (re-checked 2026-10-04; it read 3:00 p.m. on 2026-09-01), so
+// `contacts.address` calls that line the main office. The Mallard Creek EEC
+// email (mallardcreekeec@hgchristian.org) was added the same day.
 
 import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 
@@ -217,7 +243,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** is launching a **classical Christian TK and Kindergarten** that grows one grade a year, with students moving to Harris at middle school.',
+              'The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** plans to open a **classical Christian TK and Kindergarten** that would grow one grade a year, with students moving to Harris at middle school.',
           },
           {
             title: 'Check which grade your child is eligible for',
@@ -231,7 +257,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. Whether Mallard Creek\'s classical TK and Kindergarten follow different steps or dates from Harris is **not published**, so confirm with the admissions office if you are applying there. Send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.',
+              'Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. The school expects **limited availability at Mallard Creek**, so confirm its dates and steps with the admissions office if you are applying there. Send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send the three forms this band requires',
@@ -280,7 +306,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Apply in the FACTS portal for your campus and pay the application fee',
-            detail: 'Harris and Mallard Creek use different portals. Confirm the current fee — $250/$500 are published for a window that has passed.',
+            detail: 'Harris and Mallard Creek use different portals. Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -343,7 +369,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send the forms and records this band requires',
@@ -387,7 +413,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Apply in the FACTS portal and pay the application fee',
-            detail: 'Confirm the current fee — $250/$500 are published for a window that has passed.',
+            detail: 'Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -460,7 +486,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send four recommendations and the full record',
@@ -504,7 +530,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Apply in the FACTS portal and pay the application fee',
-            detail: 'Confirm the current fee — $250/$500 are published for a window that has passed.',
+            detail: 'Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -592,7 +618,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send four recommendations and the full record',
@@ -643,7 +669,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Apply in the FACTS portal and pay the application fee',
-            detail: 'Confirm the current fee — $250/$500 are published for a window that has passed.',
+            detail: 'Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -736,7 +762,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'after the interview',
             tagKind: 'accent',
             detail:
-              'The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The **international application fee amount is not published** — confirm it with the international office. Note that it is paid **after** an acceptance decision rather than with the application (see the acceptance step).',
+              'The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The application fee is **non-refundable**, but its **amount is not published**, and the school\'s page states its timing two ways — **due at the time of application** in one line, and paid **after acceptance** in its step-by-step list — so **confirm both the amount and when it is due with the international office**.',
           },
           {
             title: 'Meet the English-proficiency thresholds',
@@ -757,7 +783,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'on acceptance',
             tagKind: 'accent',
             detail:
-              'An accepted student is **notified by email**. The **non-refundable application fee** is paid at that point, and a school official then **mails the I-20**. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family\'s to book, and embassy waiting times are outside the school\'s control, so start it as soon as the I-20 arrives.',
+              'An accepted student is **notified by email**, and a school official then **mails the I-20**. The school\'s step-by-step list places the **non-refundable application fee** at this point, although another line on the same page says it is due with the application — settle that with the international office. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family\'s to book, and embassy waiting times are outside the school\'s control, so start it as soon as the I-20 arrives.',
           },
           {
             title: 'Arrange homestay, health insurance and immunizations',
@@ -778,7 +804,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'through the year',
             tagKind: 'outline',
             detail:
-              'The program covers an **orientation before school starts**, **weekly meetings with the International Student Director**, regular reports back to families and agencies, **airport transportation**, **I-20 maintenance**, lunch, athletic and technology fees, and field trips. One thing to plan for: **re-enrollment is not automatic** — it is applied for each year rather than carried forward.',
+              'The program covers an **orientation before school starts**, **PSAT and ACT testing**, **weekly meetings with the International Student Director**, regular reports back to families and agencies, **airport transportation** at the start and end of the year, **I-20 maintenance**, daily lunch, athletic and technology fees, local college visits, class field trips and required class reading books. One thing to plan for: **re-enrollment is not automatic** — it is applied for each year rather than carried forward.',
           },
         ],
         watchOuts: [],
@@ -794,7 +820,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Complete the online admission application',
-            detail: 'Submitted to the International Admissions Office. The fee amount is not published.',
+            detail: 'Submitted to the International Admissions Office. The fee is non-refundable; its amount is not published, and the page gives its timing as both at application and after acceptance — confirm.',
             due: 'After the interview',
           },
           {
@@ -808,8 +834,8 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             due: 'With the application',
           },
           {
-            action: 'Watch for the acceptance email, then pay the non-refundable application fee',
-            detail: 'Paid after the decision, not with the application.',
+            action: 'Watch for the acceptance email',
+            detail: 'The step list places the non-refundable application fee here; another line says it is due with the application — confirm which.',
             due: 'On acceptance',
           },
           {
@@ -843,7 +869,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application. Two things about the order of operations: **new families must be accepted for enrollment before they can apply for aid**, so the aid application follows the decision here rather than running alongside it; and families should **first apply for, accept or renew the NC Opportunity Scholarship** through the state education assistance authority, then apply to Hickory Grove for aid if that does not meet the need — awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. The **2026–27** state window ran **February 2 to March 2, 2026** with renewals due **April 15, 2026**.',
+      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application; request the aid information from the **finance office** at finance@hgchristian.org. The order of operations: apply for, accept or renew the **NC Opportunity Scholarship** through the state education assistance authority — **anyone can apply**, with no income cap on applying, and applications open **February 1** — and if you are still waiting on it, or it will not meet your need, apply to Hickory Grove for aid, awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. Hickory Grove offers **no automatic discounts** such as multi-child or pastor discounts, but families earn a **5% discount for paying the whole school year\'s tuition by May 31**.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -934,7 +960,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         {
           label: 'Constant in every band',
           cells: {
-            all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with the published $250/$500 fee window predating the current application dates · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
+            all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with a non-refundable $250 application fee through May 31, 2027 ($500 from June 1, 2027), not applied toward tuition · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
           },
         },
       ],
@@ -944,7 +970,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       kicker: 'CONTACTS',
       title: 'The admissions office',
       address:
-        '7200 E. WT Harris Blvd., Charlotte, NC 28215 · admissions 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:00 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. Only one admissions staff member is named on the school’s site; the office lines below are published for the areas she does not cover.',
+        '7200 E. WT Harris Blvd., Charlotte, NC 28215 · main office 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:30 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. Only one admissions staff member is named on the school’s site; the office lines below are published for the areas she does not cover.',
       people: [
         {
           name: 'Sheila M. Chaney',
@@ -953,7 +979,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         },
         {
           name: 'Admissions office',
-          detail: '704-531-4008 · Mon–Fri 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org',
+          detail: '704-531-4008 · Mon–Fri 7:30 a.m.–3:30 p.m. · admissions@hgchristian.org',
         },
         {
           name: 'Early Education Center — Harris',
@@ -961,7 +987,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         },
         {
           name: 'Early Education Center — Mallard Creek',
-          detail: 'Half-day preschool and the classical TK/K campus · 704-531-5345',
+          detail: 'Half-day preschool and the classical TK/K campus · 704-531-5345 · mallardcreekeec@hgchristian.org',
         },
         {
           name: 'Mrs. Lori Cheuvront',
@@ -976,30 +1002,30 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       aidPanel: {
         kicker: 'In parallel — the financial aid clock',
         items: [
-          'Aid runs through FACTS Grant & Aid Assessment, and FACTS charges $40 to process the application.',
-          'New families must be accepted for enrollment before they can apply for aid, so this follows the admissions decision rather than running alongside it.',
-          'Apply for, accept or renew the NC Opportunity Scholarship first, then apply to Hickory Grove for aid if that does not meet your need — awarded until all available funds have been allocated.',
+          'Aid runs through FACTS Grant & Aid Assessment, and FACTS charges $40 to process the application. Request it from the finance office — finance@hgchristian.org.',
+          'Apply for, accept or renew the NC Opportunity Scholarship first — anyone can apply, and applications open February 1.',
+          'If you are still waiting on the state scholarship, or it will not meet your need, apply to Hickory Grove for aid — awarded until all available funds have been allocated.',
           'ESA+ is available for children with disabilities attending an eligible non-public school.',
-          'The 2026–27 state window ran February 2 to March 2, 2026, with renewals due April 15, 2026.',
+          'No automatic discounts (multi-child, pastor), but a 5% discount for paying the full year\'s tuition by May 31.',
         ],
       },
       contactPanel: {
         kicker: 'Questions — admissions office',
         lines: [
-          'Admissions — 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:00 p.m.',
+          'Admissions — 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:30 p.m.',
           '7200 E. WT Harris Blvd., Charlotte, NC 28215 · mail to 6050 Hickory Grove Road, Charlotte, NC 28215',
           'International applicants — Sheila M. Chaney, Director of Admissions & International Student Program · 704-531-4008',
           'Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345',
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on hgchristian.org and retrieved in September 2026, together with both new-family admission checklists revised 11/17/25. The published application-fee window ($250 to May 31, 2026; $500 from June 1, 2026) predates the November 2026 application dates on the same page — confirm the current fee with the admissions office. Cycle dates shift year to year — verify against the live site before acting. Compiled by Charlotte School Compare; not affiliated with Hickory Grove Christian School.',
+        'Dates are the 2027–28 entry cycle as published on hgchristian.org, re-checked against the live site on October 4, 2026, together with both new-family admission checklists revised 11/17/25. The application fee is $250 from November 2, 2026 through May 31, 2027, and $500 from June 1, 2027. Cycle dates shift year to year — verify against the live site before acting. Compiled by Charlotte School Compare; not affiliated with Hickory Grove Christian School.',
     },
 
     sources: [
       {
         label:
-          'hgchristian.org — admissions process: the Nov 2 and Nov 16, 2026 application windows, who qualifies for the priority window, the three website steps, the published $250/$500 application-fee window and the non-discrimination statement',
+          'hgchristian.org — admissions process: the Nov 2 and Nov 16, 2026 application windows, who qualifies for the priority window, the three website steps, the $250 application fee through May 31, 2027 and the $500 late fee from June 1, 2027 and the non-discrimination statement',
         url: 'https://hgchristian.org/admissions/admissions-process',
       },
       {
@@ -1019,7 +1045,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       },
       {
         label:
-          'hgchristian.org — scholarships: FACTS Grant & Aid, the $40 FACTS charge, the acceptance-before-aid precondition, the NC Opportunity Scholarship order of operations, ESA+, and the Feb 2 – Mar 2, 2026 window with April 15, 2026 renewals',
+          'hgchristian.org — scholarships: FACTS Grant & Aid, the $40 FACTS charge, the apply-immediately instruction, the NC Opportunity Scholarship order of operations and February 1 opening, ESA+, and the 5% pay-by-May-31 discount',
         url: 'https://hgchristian.org/admissions/scholarships',
       },
       {
