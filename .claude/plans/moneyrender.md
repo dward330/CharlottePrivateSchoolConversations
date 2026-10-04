@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-10-04
 branch: fix/moneyrender
-prs: []
+prs: [328]
 ---
 
 # Localize every money figure the app renders
