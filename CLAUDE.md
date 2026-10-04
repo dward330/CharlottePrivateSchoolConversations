@@ -621,6 +621,14 @@ Three separate render paths were bypassing `localizeMoneyText()` — invisible t
 English readers by construction, which is why no checker saw them. Two new
 checks now close that class: `npm run check:currency` and `npm run check:money`.
 
+**`check:moneytext` is the only check that runs the REAL `format.ts`** (copied
+beside a stub `i18n.ts` and imported under plain Node), over every money-bearing
+string in the work files and `src/data`. It asserts rendering never eats the
+punctuation after a figure or the trailing zeros of cents — both shipped for
+months in every locale, English included (`$250, non` → `$250 non`, `$11.50` →
+`$11.5`), because every other money check mirrors the logic or audits call
+sites. It is chained into `npm run build`. Do not replace it with a mirror.
+
 **Telugu keeps native lakh/crore grouping** — it is deliberately absent from
 `FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
 `$32,50,000`. This makes it the first locale where a stat tile and the prose
