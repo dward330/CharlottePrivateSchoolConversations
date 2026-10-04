@@ -1,7 +1,7 @@
 ---
 name: hickorygroverefresh
 title: Refresh Hickory Grove Christian's Admissions guide and Financial Aid card to the live site — the rolled-forward fee window, the dropped acceptance-before-aid rule, the NCSEAA and discount dates, the international fee timing, office hours and Mallard Creek
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-04
 branch: fix/hickorygroverefresh
@@ -473,3 +473,42 @@ because no chrome key changes. Mechanism: `.claude/docs/prose-translation-archit
   aid timing. The user's Phase 1 review can drop the last sentence.
 - **Should the Mallard Creek EEC email also appear in `checklist.contactPanel.lines[3]`?** —
   **default:** no. That line lists phones only for both EECs today. Keep its shape.
+
+## Implementation notes
+
+- **Phase 1 committed and stopped; the PR was opened in Phase 2**, as `covenantadmissions` did.
+- **Step 13 measured exactly 23 retired / 23 new (`admissions`) and 4 / 4
+  (`financial-aid-report`) in all nine locales**, each new stamp's `at` list equal to its
+  retired one's. The splice matched by `at` path plus old English, never by index. Before it
+  wrote, a validator checked every translation for its figures, `**` count, year count, bidi
+  controls, native digits and English-form dates. All 18 work files round-trip byte-identically
+  through `JSON.stringify(…, null, 2)`, so only the 27 entries per locale changed.
+- **Deviation — dates are written in each locale's own form, not copied from the retired
+  entries.** Hickory Grove's earlier admissions translations left 7 of 11 dates in English
+  form (`hasta el May 31, 2026`) in `es`/`fr`/`it`/`ht`, against **0** for every other school
+  in the topic. The translators first copied that quirk. It was corrected to the
+  topic-wide convention (`31 de mayo de 2027`, `1er février`, `31 মে 2027`, `1 फ़रवरी`, …),
+  with Western digits and still no year on February 1 / May 31.
+- **Clock times reuse the retired A19/A20/A22 rendering in every locale.** For Hickory Grove
+  that rendering is Latin `7:30 a.m.–3:30 p.m.` in all nine, so step 15's
+  "word for morning" split (a Charlotte Latin precedent) did not apply. Only 3:00 → 3:30
+  changed.
+- **Verification.** `npx tsc -b` was clean, and `npm run build` exited 0, `check:live`
+  included. `check:sepdrift` showed 0 drifted tokens in all nine locales. `check:money`,
+  `check:currency`, `check:bidi`, `check:fa`, `check:hi`, `check:fr`, `check:script` and
+  `check:runtime` were all clean. The work-file diff against `main` showed exactly 23 / 4
+  changed entries per locale, all intended stamps, with 0 duplicate `at` paths in the 18
+  overlays. `i18n:leaks` added no new flags in any locale and removed 1 each in `es`/`te`/`hi`:
+  the old `Feb–Mar` label those three had kept in English.
+- **Browser check (real Chrome, all nine locales):** I clicked each of the 5 band tabs on
+  the school page with every `<details>` forced open, then loaded the checklist at
+  `?band=tkk5|es|ms|intl`. All 27 strings render translated in every locale, with the
+  figures present and no literal `**`. The first matcher missed strings because rendering
+  is localized: `250 US$` (es/fr), `250 USD` (it), and LRI/PDI-isolated figures (fa/ar).
+  Normalizing those confirmed every string.
+- **Found, NOT fixed (out of scope): `localizeMoneyText()` drops a comma that directly
+  follows a figure.** The regex at `src/lib/format.ts:268`, `\$(\d[\d,]*…)`, captures the
+  trailing comma in `$250, non rimborsabile`, and reformatting then loses it, so it renders
+  `250 USD non rimborsabile`. It is pre-existing and app-wide: 327 such commas across seven
+  locales' work files (bn 69, te 59, it 46, fr 41, es 40, hi 39, ht 33). The fix is a regex
+  change touching every page, so it belongs in its own plan.
