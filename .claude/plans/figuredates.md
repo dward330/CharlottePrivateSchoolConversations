@@ -1,11 +1,11 @@
 ---
 name: figuredates
 title: Translate the English dates and words left in skipped figure fields (admissions deadline strip + stat tiles, clubs service tiles) by promoting three paths to prose, plus a rendered-page date census
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-05
 branch: fix/figuredates
-prs: []
+prs: [331]
 ---
 
 # Translate the dates the extractor never saw
@@ -264,3 +264,22 @@ Single-phase — translates existing English; no English text changes.
   If the user prefers not to touch `value` beyond admissions, drop that override and its
   splice. The census then needs a documented reason for the one Charlotte Catholic
   `March 1`, and it cannot read 0.
+
+## Implementation notes
+
+Built as planned, with no deviations in approach. The figures, for the record:
+
+- **Splice:** admissions ADDED 8 per locale (as predicted). Student-clubs ADDED **34**, not
+  ≈36: two of the 36 values already existed as strings. DROPPED 0 and 0 existing `t`
+  changed in all 18 files. The work files show a large line diff only because the splice
+  re-orders entries to extract order.
+- **Translations:** 11 per locale (2 admissions dates + `March 1` + 8 unit words). The other
+  31 figures round-trip identical. `Before day one` was already translated in admissions,
+  so the splice reused it.
+- **Census:** `main` reported exactly 54 per locale (39 deadline strip + 14 stat tiles +
+  1 clubs) for es and te. After the fix it reports 0 in all nine locales. The baseline ran
+  from a throwaway `git worktree` of `main`, not a stash.
+- **Seen but out of scope:** other stat tiles still render English unit words that are not
+  dates, e.g. `1 yr` / `2 yrs` and `5:30 PM` (metric-values and after-school tiles in skipped
+  fields). The date census cannot see them by design. A word-level render census would be the
+  follow-up.
