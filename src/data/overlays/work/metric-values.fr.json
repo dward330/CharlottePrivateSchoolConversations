@@ -339,11 +339,11 @@
       "at": [
         "providence-day:[2].values.cannon",
         "providence-day:[2].values.gaston-day",
-        "providence-day:[24].values.charlotte-country-day",
-        "providence-day:[24].values.covenant-day",
-        "providence-day:[24].values.hickory-grove-christian",
-        "providence-day:[24].values.gaston-day",
-        "providence-day:[28].values.charlotte-christian"
+        "providence-day:[30].values.charlotte-country-day",
+        "providence-day:[30].values.covenant-day",
+        "providence-day:[30].values.hickory-grove-christian",
+        "providence-day:[30].values.gaston-day",
+        "providence-day:[34].values.charlotte-christian"
       ],
       "t": "8"
     },
@@ -365,10 +365,10 @@
         "providence-day:[2].values.covenant-day",
         "providence-day:[2].values.carmel-christian",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[24].values.providence-day",
-        "providence-day:[28].values.charlotte-country-day",
-        "providence-day:[29].values.covenant-day",
-        "providence-day:[29].values.davidson-day"
+        "providence-day:[30].values.providence-day",
+        "providence-day:[34].values.charlotte-country-day",
+        "providence-day:[35].values.covenant-day",
+        "providence-day:[35].values.davidson-day"
       ],
       "t": "9"
     },
@@ -416,7 +416,9 @@
       "text": "92%",
       "of": "decf5375",
       "at": [
-        "providence-day:[3].values.cannon"
+        "providence-day:[3].values.cannon",
+        "providence-day:[12].values.providence-day",
+        "providence-day:[14].values.charlotte-country-day"
       ],
       "t": "92%"
     },
@@ -424,7 +426,9 @@
       "text": "89%",
       "of": "5cb0b6ed",
       "at": [
-        "providence-day:[3].values.charlotte-christian"
+        "providence-day:[3].values.charlotte-christian",
+        "providence-day:[11].values.covenant-day",
+        "providence-day:[12].values.charlotte-christian"
       ],
       "t": "89%"
     },
@@ -433,7 +437,8 @@
       "of": "3ac0d9bf",
       "at": [
         "providence-day:[3].values.charlotte-catholic",
-        "providence-day:[3].values.providence-day"
+        "providence-day:[3].values.providence-day",
+        "providence-day:[14].values.charlotte-catholic"
       ],
       "t": "94%"
     },
@@ -457,7 +462,9 @@
       "text": "73%",
       "of": "2dc5384e",
       "at": [
-        "providence-day:[3].values.carmel-christian"
+        "providence-day:[3].values.carmel-christian",
+        "providence-day:[11].values.charlotte-christian",
+        "providence-day:[13].values.covenant-day"
       ],
       "t": "73%"
     },
@@ -564,7 +571,8 @@
       "text": "6 / 8",
       "of": "25dfbfd4",
       "at": [
-        "providence-day:[4].values.charlotte-catholic"
+        "providence-day:[4].values.charlotte-catholic",
+        "providence-day:[13].subs.gaston-day"
       ],
       "t": "6 / 8"
     },
@@ -572,7 +580,8 @@
       "text": "7 / 8",
       "of": "66b449f7",
       "at": [
-        "providence-day:[4].values.charlotte-country-day"
+        "providence-day:[4].values.charlotte-country-day",
+        "providence-day:[13].subs.hickory-grove-christian"
       ],
       "t": "7 / 8"
     },
@@ -604,7 +613,9 @@
       "text": "8 / 8",
       "of": "f18bd6a6",
       "at": [
-        "providence-day:[4].values.providence-day"
+        "providence-day:[4].values.providence-day",
+        "providence-day:[14].subs.cannon",
+        "providence-day:[14].subs.charlotte-latin"
       ],
       "t": "8 / 8"
     },
@@ -716,7 +727,8 @@
       "text": "10 / 17",
       "of": "0d57c08b",
       "at": [
-        "providence-day:[5].values.cannon"
+        "providence-day:[5].values.cannon",
+        "providence-day:[13].subs.charlotte-country-day"
       ],
       "t": "10 / 17"
     },
@@ -748,7 +760,8 @@
       "text": "12 / 17",
       "of": "a12d445d",
       "at": [
-        "providence-day:[5].values.charlotte-latin"
+        "providence-day:[5].values.charlotte-latin",
+        "providence-day:[13].subs.cannon"
       ],
       "t": "12 / 17"
     },
@@ -1444,10 +1457,803 @@
       "t": "24 des 68 universités du Power Four figurent sur les listes d’admissions 2023 + 2025 publiées par Hickory Grove Christian (UConn appartient à la Big East et non au Power Four : elle est donc exclue). Il ne s’agit pas d’un chiffre publié par l’école elle-même."
     },
     {
+      "text": "Admit rate — UNC-Chapel Hill",
+      "of": "29d4a5d7",
+      "at": [
+        "providence-day:[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The share of each school’s own applicants that the university admitted for Fall 2025, from the UNC System’s published admissions dashboard. It is a figure for that school at that university, not either one’s overall admit rate. Beneath each rate: admitted / applied. Small schools send few applicants, so a single-year rate can rest on a handful of students; the NC admissions card on each school page adds the five-year rate.",
+      "of": "c38c09ad",
+      "at": [
+        "providence-day:[9].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "32%",
+      "of": "4e4b822f",
+      "at": [
+        "providence-day:[9].values.cannon",
+        "providence-day:[10].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "26%",
+      "of": "cae2e534",
+      "at": [
+        "providence-day:[9].values.charlotte-christian",
+        "providence-day:[18].values.gaston-day"
+      ],
+      "t": "26%"
+    },
+    {
+      "text": "23%",
+      "of": "3eea5795",
+      "at": [
+        "providence-day:[9].values.charlotte-catholic",
+        "providence-day:[10].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "29%",
+      "of": "1af92973",
+      "at": [
+        "providence-day:[9].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "33%",
+      "of": "324d94b2",
+      "at": [
+        "providence-day:[9].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "27%",
+      "of": "9ee06159",
+      "at": [
+        "providence-day:[9].values.covenant-day",
+        "providence-day:[9].values.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "25%",
+      "of": "1adb145f",
+      "at": [
+        "providence-day:[9].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "40%",
+      "of": "9d2ff464",
+      "at": [
+        "providence-day:[9].values.davidson-day",
+        "providence-day:[14].values.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20%",
+      "of": "cee768ae",
+      "at": [
+        "providence-day:[9].values.hickory-grove-christian",
+        "providence-day:[18].values.carmel-christian"
+      ],
+      "t": "20%"
+    },
+    {
+      "text": "46%",
+      "of": "2135415e",
+      "at": [
+        "providence-day:[9].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 / 63",
+      "of": "7ef1490d",
+      "at": [
+        "providence-day:[9].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 38",
+      "of": "7e526240",
+      "at": [
+        "providence-day:[9].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "24 / 103",
+      "of": "0deb38f4",
+      "at": [
+        "providence-day:[9].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 / 69",
+      "of": "74f1394f",
+      "at": [
+        "providence-day:[9].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 / 69",
+      "of": "382f50e4",
+      "at": [
+        "providence-day:[9].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 33",
+      "of": "8deb8d21",
+      "at": [
+        "providence-day:[9].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 / 16",
+      "of": "ca4caa79",
+      "at": [
+        "providence-day:[9].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 25",
+      "of": "0f55851a",
+      "at": [
+        "providence-day:[9].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 / 10",
+      "of": "b7bce349",
+      "at": [
+        "providence-day:[9].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 / 11",
+      "of": "5e3ede63",
+      "at": [
+        "providence-day:[9].subs.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47 / 103",
+      "of": "c9ce24e3",
+      "at": [
+        "providence-day:[9].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — NC State University",
+      "of": "35bcd44e",
+      "at": [
+        "providence-day:[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "65%",
+      "of": "07a35b03",
+      "at": [
+        "providence-day:[10].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "45%",
+      "of": "113766c5",
+      "at": [
+        "providence-day:[10].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "28%",
+      "of": "3efba0b6",
+      "at": [
+        "providence-day:[10].values.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "34%",
+      "of": "325a60a5",
+      "at": [
+        "providence-day:[10].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "52%",
+      "of": "a49dde59",
+      "at": [
+        "providence-day:[10].values.covenant-day",
+        "providence-day:[13].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "31%",
+      "of": "be52ee44",
+      "at": [
+        "providence-day:[10].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "43%",
+      "of": "2d28884f",
+      "at": [
+        "providence-day:[10].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "53%",
+      "of": "d0a06234",
+      "at": [
+        "providence-day:[10].values.hickory-grove-christian",
+        "providence-day:[13].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47%",
+      "of": "bd32655b",
+      "at": [
+        "providence-day:[10].values.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "34 / 52",
+      "of": "b754721a",
+      "at": [
+        "providence-day:[10].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14 / 31",
+      "of": "d89af3af",
+      "at": [
+        "providence-day:[10].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "39 / 141",
+      "of": "6d2de258",
+      "at": [
+        "providence-day:[10].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 48",
+      "of": "eb926fe6",
+      "at": [
+        "providence-day:[10].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 / 67",
+      "of": "2e2f4126",
+      "at": [
+        "providence-day:[10].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "22 / 42",
+      "of": "81f12ffa",
+      "at": [
+        "providence-day:[10].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 / 26",
+      "of": "df31e86a",
+      "at": [
+        "providence-day:[10].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 21",
+      "of": "8fedcede",
+      "at": [
+        "providence-day:[10].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 19",
+      "of": "0b57bd65",
+      "at": [
+        "providence-day:[10].subs.hickory-grove-christian",
+        "providence-day:[13].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 / 15",
+      "of": "7bba68fb",
+      "at": [
+        "providence-day:[10].subs.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 / 71",
+      "of": "2c2cff69",
+      "at": [
+        "providence-day:[10].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — UNC Charlotte",
+      "of": "d9535790",
+      "at": [
+        "providence-day:[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "100%",
+      "of": "2f97df3b",
+      "at": [
+        "providence-day:[11].values.cannon",
+        "providence-day:[12].values.cannon",
+        "providence-day:[12].values.charlotte-country-day",
+        "providence-day:[12].values.charlotte-latin",
+        "providence-day:[12].values.carmel-christian",
+        "providence-day:[12].values.davidson-day",
+        "providence-day:[12].values.hickory-grove-christian",
+        "providence-day:[12].values.gaston-day",
+        "providence-day:[14].values.cannon",
+        "providence-day:[14].values.charlotte-christian",
+        "providence-day:[14].values.charlotte-latin",
+        "providence-day:[14].values.carmel-christian",
+        "providence-day:[14].values.davidson-day",
+        "providence-day:[14].values.hickory-grove-christian",
+        "providence-day:[14].values.gaston-day",
+        "providence-day:[14].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "88%",
+      "of": "38b2bcd8",
+      "at": [
+        "providence-day:[11].values.charlotte-catholic",
+        "providence-day:[11].values.charlotte-country-day",
+        "providence-day:[13].values.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "79%",
+      "of": "a9de0068",
+      "at": [
+        "providence-day:[11].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "57%",
+      "of": "20a9da80",
+      "at": [
+        "providence-day:[11].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "86%",
+      "of": "2c9017b2",
+      "at": [
+        "providence-day:[11].values.davidson-day",
+        "providence-day:[11].values.gaston-day",
+        "providence-day:[12].values.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "84%",
+      "of": "b8957144",
+      "at": [
+        "providence-day:[11].values.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "85%",
+      "of": "4c9288a9",
+      "at": [
+        "providence-day:[11].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "25 / 25",
+      "of": "dbbc278e",
+      "at": [
+        "providence-day:[11].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 / 11",
+      "of": "4a394ca0",
+      "at": [
+        "providence-day:[11].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "57 / 65",
+      "of": "704ea8e5",
+      "at": [
+        "providence-day:[11].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14 / 16",
+      "of": "e59f8554",
+      "at": [
+        "providence-day:[11].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 14",
+      "of": "e58baaaf",
+      "at": [
+        "providence-day:[11].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17 / 19",
+      "of": "46be663a",
+      "at": [
+        "providence-day:[11].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17 / 30",
+      "of": "cbc3b4c7",
+      "at": [
+        "providence-day:[11].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "6 / 7",
+      "of": "1cdfb1a9",
+      "at": [
+        "providence-day:[11].subs.davidson-day",
+        "providence-day:[11].subs.gaston-day",
+        "providence-day:[12].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "21 / 25",
+      "of": "024f2a02",
+      "at": [
+        "providence-day:[11].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17 / 20",
+      "of": "45c0a33e",
+      "at": [
+        "providence-day:[11].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — East Carolina University",
+      "of": "efb4fc3a",
+      "at": [
+        "providence-day:[12].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "98%",
+      "of": "bade2553",
+      "at": [
+        "providence-day:[12].values.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12 / 12",
+      "of": "9c2d3c7e",
+      "at": [
+        "providence-day:[12].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 / 9",
+      "of": "f28bd839",
+      "at": [
+        "providence-day:[12].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47 / 48",
+      "of": "f0fcad27",
+      "at": [
+        "providence-day:[12].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 11",
+      "of": "e08ba2d0",
+      "at": [
+        "providence-day:[12].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 10",
+      "of": "1257c86a",
+      "at": [
+        "providence-day:[12].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 / 20",
+      "of": "e3e75ab0",
+      "at": [
+        "providence-day:[12].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "6 / 6",
+      "of": "1bdfb016",
+      "at": [
+        "providence-day:[12].subs.davidson-day",
+        "providence-day:[14].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5 / 5",
+      "of": "8cbd0a26",
+      "at": [
+        "providence-day:[12].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 / 4",
+      "of": "c36f5396",
+      "at": [
+        "providence-day:[12].subs.gaston-day",
+        "providence-day:[14].subs.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12 / 13",
+      "of": "9d2d3e11",
+      "at": [
+        "providence-day:[12].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — UNC Wilmington",
+      "of": "768be06a",
+      "at": [
+        "providence-day:[13].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "71%",
+      "of": "79ca2d20",
+      "at": [
+        "providence-day:[13].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "60%",
+      "of": "9b9bf53a",
+      "at": [
+        "providence-day:[13].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "68%",
+      "of": "6b8821f2",
+      "at": [
+        "providence-day:[13].values.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "59%",
+      "of": "b4af40aa",
+      "at": [
+        "providence-day:[13].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "61%",
+      "of": "77997df7",
+      "at": [
+        "providence-day:[13].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "providence-day:[13].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "75%",
+      "of": "a9bfeb54",
+      "at": [
+        "providence-day:[13].values.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 15",
+      "of": "93f013c1",
+      "at": [
+        "providence-day:[13].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "62 / 91",
+      "of": "001a22ea",
+      "at": [
+        "providence-day:[13].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "13 / 25",
+      "of": "c7a6f401",
+      "at": [
+        "providence-day:[13].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "16 / 22",
+      "of": "9973a69d",
+      "at": [
+        "providence-day:[13].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "19 / 31",
+      "of": "658fc266",
+      "at": [
+        "providence-day:[13].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 / 9",
+      "of": "65b44864",
+      "at": [
+        "providence-day:[13].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — UNC Greensboro",
+      "of": "4f9615d4",
+      "at": [
+        "providence-day:[14].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 / 3",
+      "of": "c876f4e6",
+      "at": [
+        "providence-day:[14].subs.charlotte-christian",
+        "providence-day:[14].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "16 / 17",
+      "of": "846cc9c9",
+      "at": [
+        "providence-day:[14].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 12",
+      "of": "e38ba789",
+      "at": [
+        "providence-day:[14].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 / 5",
+      "of": "0d39074f",
+      "at": [
+        "providence-day:[14].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 9",
+      "of": "4e372d56",
+      "at": [
+        "providence-day:[14].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 / 7",
+      "of": "5bb438a6",
+      "at": [
+        "providence-day:[14].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
       "text": "HBCUs",
       "of": "d6316d90",
       "at": [
-        "providence-day:[9].label"
+        "providence-day:[15].label"
       ],
       "t": "HBCUs"
     },
@@ -1455,7 +2261,7 @@
       "text": "Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.",
       "of": "3ac0172e",
       "at": [
-        "providence-day:[9].note"
+        "providence-day:[15].note"
       ],
       "t": "Parmi les 107 Historically Black Colleges & Universities, combien figurent sur la liste des admissions de l’école."
     },
@@ -1463,8 +2269,8 @@
       "text": "5 / 107",
       "of": "4ecefe03",
       "at": [
-        "providence-day:[9].values.cannon",
-        "providence-day:[9].values.gaston-day"
+        "providence-day:[15].values.cannon",
+        "providence-day:[15].values.gaston-day"
       ],
       "t": "5 / 107"
     },
@@ -1472,7 +2278,7 @@
       "text": "10 / 107",
       "of": "3d306a67",
       "at": [
-        "providence-day:[9].values.charlotte-christian"
+        "providence-day:[15].values.charlotte-christian"
       ],
       "t": "10 / 107"
     },
@@ -1480,7 +2286,7 @@
       "text": "2 / 107",
       "of": "bc5a1f5a",
       "at": [
-        "providence-day:[9].values.charlotte-catholic"
+        "providence-day:[15].values.charlotte-catholic"
       ],
       "t": "2 / 107"
     },
@@ -1488,7 +2294,7 @@
       "text": "18 / 107",
       "of": "3db58dbf",
       "at": [
-        "providence-day:[9].values.charlotte-country-day"
+        "providence-day:[15].values.charlotte-country-day"
       ],
       "t": "18 / 107"
     },
@@ -1496,7 +2302,7 @@
       "text": "7 / 107",
       "of": "027a6539",
       "at": [
-        "providence-day:[9].values.charlotte-latin"
+        "providence-day:[15].values.charlotte-latin"
       ],
       "t": "7 / 107"
     },
@@ -1504,8 +2310,8 @@
       "text": "3 / 107",
       "of": "b0f5bfa5",
       "at": [
-        "providence-day:[9].values.covenant-day",
-        "providence-day:[9].values.davidson-day"
+        "providence-day:[15].values.covenant-day",
+        "providence-day:[15].values.davidson-day"
       ],
       "t": "3 / 107"
     },
@@ -1513,7 +2319,7 @@
       "text": "8 / 107",
       "of": "6f35d04c",
       "at": [
-        "providence-day:[9].values.carmel-christian"
+        "providence-day:[15].values.carmel-christian"
       ],
       "t": "8 / 107"
     },
@@ -1521,7 +2327,7 @@
       "text": "20 / 107",
       "of": "23377734",
       "at": [
-        "providence-day:[9].values.hickory-grove-christian"
+        "providence-day:[15].values.hickory-grove-christian"
       ],
       "t": "20 / 107"
     },
@@ -1529,7 +2335,7 @@
       "text": "14 / 107",
       "of": "6d19cd5b",
       "at": [
-        "providence-day:[9].values.providence-day"
+        "providence-day:[15].values.providence-day"
       ],
       "t": "14 / 107"
     },
@@ -1537,7 +2343,7 @@
       "text": "Hampton University and Benedict College, from the Classes of 2023-2025 matriculation list.",
       "of": "b738cd71",
       "at": [
-        "providence-day:[9].quals.charlotte-catholic.text"
+        "providence-day:[15].quals.charlotte-catholic.text"
       ],
       "t": "Hampton University et Benedict College, d’après la liste d’inscriptions des promotions 2023-2025."
     },
@@ -1545,7 +2351,7 @@
       "text": "Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.",
       "of": "ac3cf220",
       "at": [
-        "providence-day:[9].quals.gaston-day.text"
+        "providence-day:[15].quals.gaston-day.text"
       ],
       "t": "Établissements d’enseignement supérieur historiquement noirs figurant sur la liste d’admissions 2019–2025, rapportés au registre fédéral de 107 : Hampton, NC A&T, NC Central, Winston-Salem State et Tougaloo. Tougaloo détient également un classement Liberal Arts 2026 (#180) et compte donc dans deux catégories."
     },
@@ -1553,7 +2359,7 @@
       "text": "5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "3741175e",
       "at": [
-        "providence-day:[9].quals.cannon.text"
+        "providence-day:[15].quals.cannon.text"
       ],
       "t": "5 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions publiée de Cannon, mise en correspondance avec les tableaux 2027 U.S. News — un chiffre que l’école ne communique pas elle-même."
     },
@@ -1561,7 +2367,7 @@
       "text": "10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "8b6db690",
       "at": [
-        "providence-day:[9].quals.charlotte-christian.text"
+        "providence-day:[15].quals.charlotte-christian.text"
       ],
       "t": "10 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions publiée de Charlotte Christian, mise en correspondance avec les tableaux 2027 U.S. News — un chiffre que l’école ne communique pas elle-même."
     },
@@ -1569,7 +2375,7 @@
       "text": "18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "f58c99bd",
       "at": [
-        "providence-day:[9].quals.charlotte-country-day.text"
+        "providence-day:[15].quals.charlotte-country-day.text"
       ],
       "t": "18 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions publiée de Charlotte Country Day, mise en correspondance avec les tableaux 2027 U.S. News — un chiffre que l’école ne communique pas elle-même."
     },
@@ -1577,7 +2383,7 @@
       "text": "6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "2929cca4",
       "at": [
-        "providence-day:[9].quals.charlotte-latin.text"
+        "providence-day:[15].quals.charlotte-latin.text"
       ],
       "t": "6 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions publiée de Charlotte Latin, mise en correspondance avec les tableaux 2027 U.S. News — un chiffre que l’école ne communique pas elle-même."
     },
@@ -1585,7 +2391,7 @@
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.",
       "of": "583a906f",
       "at": [
-        "providence-day:[9].quals.covenant-day.text"
+        "providence-day:[15].quals.covenant-day.text"
       ],
       "t": "3 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions 2023–2026 publiée de Covenant Day — Fayetteville State, Johnson C. Smith et NC A&T. Un chiffre que l’école ne communique pas elle-même."
     },
@@ -1593,7 +2399,7 @@
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "02ca5eb3",
       "at": [
-        "providence-day:[9].quals.davidson-day.text"
+        "providence-day:[15].quals.davidson-day.text"
       ],
       "t": "3 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions publiée de Davidson Day, mise en correspondance avec les tableaux 2027 U.S. News — un chiffre que l’école ne communique pas elle-même."
     },
@@ -1601,7 +2407,7 @@
       "text": "14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "3aeb9e38",
       "at": [
-        "providence-day:[9].quals.providence-day.text"
+        "providence-day:[15].quals.providence-day.text"
       ],
       "t": "14 des 107 Historically Black Colleges & Universities figurent sur la liste d’admissions publiée de Providence Day, mise en correspondance avec les tableaux 2027 U.S. News — un chiffre que l’école ne communique pas elle-même."
     },
@@ -1609,7 +2415,7 @@
       "text": "Historically Black colleges and universities named on the acceptance list.",
       "of": "c7e59bc6",
       "at": [
-        "providence-day:[9].quals.carmel-christian.text"
+        "providence-day:[15].quals.carmel-christian.text"
       ],
       "t": "Établissements d’enseignement supérieur historiquement noirs nommés sur la liste des admissions."
     },
@@ -1617,7 +2423,7 @@
       "text": "20 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — a notably deep HBCU pipeline.",
       "of": "31d4d033",
       "at": [
-        "providence-day:[9].quals.hickory-grove-christian.text"
+        "providence-day:[15].quals.hickory-grove-christian.text"
       ],
       "t": "20 des 107 Historically Black Colleges & Universities figurent sur les listes d’admissions 2023 + 2025 publiées par Hickory Grove Christian (dont Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — une filière HBCU particulièrement dense."
     },
@@ -1625,7 +2431,7 @@
       "text": "Seniors per counselor",
       "of": "bb1a037b",
       "at": [
-        "providence-day:[10].label"
+        "providence-day:[16].label"
       ],
       "t": "Élèves de terminale par conseiller"
     },
@@ -1633,7 +2439,7 @@
       "text": "Approximate seniors per dedicated college counselor at peak application season, from each school’s note.",
       "of": "d8b27599",
       "at": [
-        "providence-day:[10].note"
+        "providence-day:[16].note"
       ],
       "t": "Nombre approximatif d’élèves de terminale par conseiller d’orientation dédié au plus fort de la saison des candidatures, d’après la note de chaque école."
     },
@@ -1641,7 +2447,7 @@
       "text": "28:1",
       "of": "2d11b212",
       "at": [
-        "providence-day:[10].values.cannon"
+        "providence-day:[16].values.cannon"
       ],
       "t": "28:1"
     },
@@ -1649,7 +2455,7 @@
       "text": "~47:1",
       "of": "6d315a65",
       "at": [
-        "providence-day:[10].values.charlotte-christian"
+        "providence-day:[16].values.charlotte-christian"
       ],
       "t": "~47:1"
     },
@@ -1657,7 +2463,7 @@
       "text": "~54:1",
       "of": "23857895",
       "at": [
-        "providence-day:[10].values.charlotte-catholic"
+        "providence-day:[16].values.charlotte-catholic"
       ],
       "t": "~54:1"
     },
@@ -1665,7 +2471,7 @@
       "text": "~34:1",
       "of": "6546401f",
       "at": [
-        "providence-day:[10].values.charlotte-country-day"
+        "providence-day:[16].values.charlotte-country-day"
       ],
       "t": "~34:1"
     },
@@ -1673,7 +2479,7 @@
       "text": "~36:1",
       "of": "1ee45b4d",
       "at": [
-        "providence-day:[10].values.charlotte-latin"
+        "providence-day:[16].values.charlotte-latin"
       ],
       "t": "~36:1"
     },
@@ -1681,7 +2487,7 @@
       "text": "85:1",
       "of": "1a9bb18f",
       "at": [
-        "providence-day:[10].values.covenant-day"
+        "providence-day:[16].values.covenant-day"
       ],
       "t": "85:1"
     },
@@ -1689,7 +2495,7 @@
       "text": "~23:1",
       "of": "32575577",
       "at": [
-        "providence-day:[10].values.davidson-day"
+        "providence-day:[16].values.davidson-day"
       ],
       "t": "~23:1"
     },
@@ -1697,7 +2503,7 @@
       "text": "~18:1",
       "of": "d5a4e3d5",
       "at": [
-        "providence-day:[10].values.gaston-day"
+        "providence-day:[16].values.gaston-day"
       ],
       "t": "~18:1"
     },
@@ -1705,7 +2511,7 @@
       "text": "~44:1",
       "of": "a80d4a10",
       "at": [
-        "providence-day:[10].values.providence-day"
+        "providence-day:[16].values.providence-day"
       ],
       "t": "~44:1"
     },
@@ -1713,7 +2519,7 @@
       "text": "Computed, not published: 324 seniors in the Class of 2026 divided by the six counselors named on the school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.",
       "of": "73cf74e8",
       "at": [
-        "providence-day:[10].quals.charlotte-catholic.text"
+        "providence-day:[16].quals.charlotte-catholic.text"
       ],
       "t": "Calculé, et non publié : 324 élèves de terminale de la promotion 2026 divisés par les six conseillers nommés sur le profil de l’école, directrice des services d’orientation comprise. Sur les quatre niveaux (~1,171 élèves), le rapport est d’environ 195:1."
     },
@@ -1721,7 +2527,7 @@
       "text": "COMPUTED, not published — the school states neither a caseload nor a ratio. 35 seniors in the Class of 2026 over two college-counseling staff (Peter Gangemi, Director; Kristy Smith, Assistant) gives ~18:1; counted against the Director alone it would be 35:1.",
       "of": "6e2d1a6b",
       "at": [
-        "providence-day:[10].quals.gaston-day.text"
+        "providence-day:[16].quals.gaston-day.text"
       ],
       "t": "CALCULÉ, non publié — l’école n’indique ni charge de suivi ni ratio. 35 élèves de dernière année dans la promotion 2026 pour deux membres du personnel d’orientation universitaire (Peter Gangemi, Director ; Kristy Smith, Assistant) donne ~18:1 ; rapporté au seul Director, ce serait 35:1."
     },
@@ -1729,7 +2535,7 @@
       "text": "About 28 seniors per dedicated college counselor at peak application season — 111 seniors across 4 counselors. A lower ratio means more counselor time per student.",
       "of": "b4c9954a",
       "at": [
-        "providence-day:[10].quals.cannon.text"
+        "providence-day:[16].quals.cannon.text"
       ],
       "t": "Environ 28 élèves de terminale par conseiller d’orientation universitaire dédié au pic de la saison des candidatures — 111 élèves de terminale répartis entre 4 conseillers. Un ratio plus faible signifie plus de temps de conseiller par élève."
     },
@@ -1737,7 +2543,7 @@
       "text": "An effective caseload of about 47 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
       "of": "747f359d",
       "at": [
-        "providence-day:[10].quals.charlotte-christian.text"
+        "providence-day:[16].quals.charlotte-christian.text"
       ],
       "t": "Une charge effective d’environ 47 élèves de terminale par conseiller d’orientation universitaire au pic de la saison des candidatures. Un ratio plus faible signifie plus de temps de conseiller par élève."
     },
@@ -1745,7 +2551,7 @@
       "text": "About 34–35 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
       "of": "f2673c0f",
       "at": [
-        "providence-day:[10].quals.charlotte-country-day.text"
+        "providence-day:[16].quals.charlotte-country-day.text"
       ],
       "t": "Environ 34–35 élèves de terminale par conseiller d’orientation universitaire au pic de la saison des candidatures. Un ratio plus faible signifie plus de temps de conseiller par élève."
     },
@@ -1753,7 +2559,7 @@
       "text": "About 36–37 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
       "of": "3c59be83",
       "at": [
-        "providence-day:[10].quals.charlotte-latin.text"
+        "providence-day:[16].quals.charlotte-latin.text"
       ],
       "t": "Environ 36–37 élèves de terminale par conseiller d’orientation universitaire au pic de la saison des candidatures. Un ratio plus faible signifie plus de temps de conseiller par élève."
     },
@@ -1761,7 +2567,7 @@
       "text": "85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.",
       "of": "28cd3465",
       "at": [
-        "providence-day:[10].quals.covenant-day.text"
+        "providence-day:[16].quals.covenant-day.text"
       ],
       "t": "85 élèves de dernière année pour un seul Guidance & College Counseling Director dédié — la charge la plus lourde ici, amortie par une seconde conseillère d’orientation et une assistante d’orientation qui assument la charge non universitaire. Un ratio plus bas signifie plus de temps de conseiller par élève."
     },
@@ -1769,7 +2575,7 @@
       "text": "About 23–24 seniors per college counselor at peak application season, in a senior class of roughly 47 — the lightest caseload here. A lower ratio means more counselor time per student.",
       "of": "7fed6c42",
       "at": [
-        "providence-day:[10].quals.davidson-day.text"
+        "providence-day:[16].quals.davidson-day.text"
       ],
       "t": "Environ 23–24 élèves de terminale par conseiller d’orientation universitaire au pic de la saison des candidatures, dans une classe de terminale d’environ 47 — la charge la plus légère ici. Un ratio plus faible signifie plus de temps de conseiller par élève."
     },
@@ -1777,7 +2583,7 @@
       "text": "About 44–45 seniors per college counselor at peak application season, under a quarter-class model. A lower ratio means more counselor time per student.",
       "of": "116d1af0",
       "at": [
-        "providence-day:[10].quals.providence-day.text"
+        "providence-day:[16].quals.providence-day.text"
       ],
       "t": "Environ 44–45 élèves de terminale par conseiller d’orientation universitaire au pic de la saison des candidatures, selon un modèle par quart de classe. Un ratio plus faible signifie plus de temps de conseiller par élève."
     },
@@ -1785,7 +2591,7 @@
       "text": "Top tuition",
       "of": "233f7a8c",
       "at": [
-        "providence-day:[11].label"
+        "providence-day:[17].label"
       ],
       "t": "Frais de scolarité les plus élevés"
     },
@@ -1793,7 +2599,7 @@
       "text": "Highest published grade-band tuition, 2026–27 school year.",
       "of": "7c10f0b3",
       "at": [
-        "providence-day:[11].note"
+        "providence-day:[17].note"
       ],
       "t": "Frais de scolarité les plus élevés publiés par tranche de niveaux, année scolaire 2026–27."
     },
@@ -1801,7 +2607,7 @@
       "text": "$32,070",
       "of": "f55a5a85",
       "at": [
-        "providence-day:[11].values.cannon"
+        "providence-day:[17].values.cannon"
       ],
       "t": "$32,070"
     },
@@ -1809,7 +2615,7 @@
       "text": "$27,055",
       "of": "54ac7b3e",
       "at": [
-        "providence-day:[11].values.charlotte-christian"
+        "providence-day:[17].values.charlotte-christian"
       ],
       "t": "$27,055"
     },
@@ -1817,7 +2623,7 @@
       "text": "$23,562",
       "of": "b91c6e27",
       "at": [
-        "providence-day:[11].values.charlotte-catholic"
+        "providence-day:[17].values.charlotte-catholic"
       ],
       "t": "$23,562"
     },
@@ -1825,7 +2631,7 @@
       "text": "$34,075",
       "of": "bb245580",
       "at": [
-        "providence-day:[11].values.charlotte-country-day"
+        "providence-day:[17].values.charlotte-country-day"
       ],
       "t": "$34,075"
     },
@@ -1833,7 +2639,7 @@
       "text": "$36,500",
       "of": "05d1c615",
       "at": [
-        "providence-day:[11].values.charlotte-latin"
+        "providence-day:[17].values.charlotte-latin"
       ],
       "t": "$36,500"
     },
@@ -1841,7 +2647,7 @@
       "text": "$22,790",
       "of": "855a707f",
       "at": [
-        "providence-day:[11].values.covenant-day"
+        "providence-day:[17].values.covenant-day"
       ],
       "t": "$22,790"
     },
@@ -1849,7 +2655,7 @@
       "text": "$18,750",
       "of": "984cd4da",
       "at": [
-        "providence-day:[11].values.carmel-christian"
+        "providence-day:[17].values.carmel-christian"
       ],
       "t": "$18,750"
     },
@@ -1857,7 +2663,7 @@
       "text": "$26,910",
       "of": "d7e28b59",
       "at": [
-        "providence-day:[11].values.davidson-day"
+        "providence-day:[17].values.davidson-day"
       ],
       "t": "$26,910"
     },
@@ -1865,7 +2671,7 @@
       "text": "$13,750",
       "of": "fc371887",
       "at": [
-        "providence-day:[11].values.hickory-grove-christian"
+        "providence-day:[17].values.hickory-grove-christian"
       ],
       "t": "$13,750"
     },
@@ -1873,7 +2679,7 @@
       "text": "$22,390",
       "of": "c0a5f08b",
       "at": [
-        "providence-day:[11].values.gaston-day"
+        "providence-day:[17].values.gaston-day"
       ],
       "t": "$22,390"
     },
@@ -1881,7 +2687,7 @@
       "text": "$36,325",
       "of": "8315551a",
       "at": [
-        "providence-day:[11].values.providence-day"
+        "providence-day:[17].values.providence-day"
       ],
       "t": "$36,325"
     },
@@ -1889,7 +2695,7 @@
       "text": "MACS sets tuition centrally for all its schools; CCHS publishes none of its own. This is the High International rate for 2026-27. A community (non-parishioner) family pays $21,562 and a participating Catholic family $15,041 — a roughly 30% difference driven by parish participation rather than financial need.",
       "of": "31a9490f",
       "at": [
-        "providence-day:[11].quals.charlotte-catholic.text"
+        "providence-day:[17].quals.charlotte-catholic.text"
       ],
       "t": "MACS fixe les frais de scolarité de façon centralisée pour toutes ses écoles ; CCHS n’en publie aucun qui lui soit propre. Il s’agit du tarif High International pour 2026-27. Une famille de la communauté (non-paroissienne) paie $21,562 et une famille catholique pratiquante $15,041 — un écart d’environ 30% déterminé par l’engagement paroissial plutôt que par les ressources."
     },
@@ -1897,7 +2703,7 @@
       "text": "This is the Grades 6–12 tuition for 2026–27. Providence Day’s top band spans Grades 6–12, so it covers a wider grade range than the 9–12 figures beside it.",
       "of": "3597d6af",
       "at": [
-        "providence-day:[11].quals.providence-day.text"
+        "providence-day:[17].quals.providence-day.text"
       ],
       "t": "Il s’agit des frais de scolarité des Grades 6–12 pour 2026–27. La tranche la plus élevée de Providence Day couvre les Grades 6–12, elle porte donc sur une plage de niveaux plus large que les chiffres 9–12 qui l’accompagnent."
     },
@@ -1905,7 +2711,7 @@
       "text": "The Grades 9–12 band ($13,750). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.",
       "of": "a3a396b5",
       "at": [
-        "providence-day:[11].quals.hickory-grove-christian.text"
+        "providence-day:[17].quals.hickory-grove-christian.text"
       ],
       "t": "La tranche des niveaux 9–12 ($13,750). La page des frais de scolarité de l’école s’affiche à travers un widget de portail : ce chiffre actuel est donc confirmé par deux miroirs tiers plutôt que repris d’un PDF de l’école ; l’année scolaire exacte n’est pas précisée."
     },
@@ -1913,7 +2719,7 @@
       "text": "% receiving aid",
       "of": "dcbef77c",
       "at": [
-        "providence-day:[12].label"
+        "providence-day:[18].label"
       ],
       "t": "% bénéficiant d’une aide"
     },
@@ -1921,7 +2727,7 @@
       "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Davidson Day & Hickory Grove Christian do not publish this.",
       "of": "c53ce403",
       "at": [
-        "providence-day:[12].note"
+        "providence-day:[18].note"
       ],
       "t": "Part des élèves/familles bénéficiant d’une aide, telle que l’école l’indique. « ~ » lorsque l’école dit « approximately » ; l’année et le dénominateur varient — voir le rapport de l’école. Charlotte Christian, Davidson Day et Hickory Grove Christian ne publient pas cette donnée."
     },
@@ -1929,7 +2735,7 @@
       "text": "24%",
       "of": "3edd8ba2",
       "at": [
-        "providence-day:[12].values.cannon"
+        "providence-day:[18].values.cannon"
       ],
       "t": "24%"
     },
@@ -1937,8 +2743,8 @@
       "text": "~20%",
       "of": "7c1640da",
       "at": [
-        "providence-day:[12].values.charlotte-country-day",
-        "providence-day:[12].values.covenant-day"
+        "providence-day:[18].values.charlotte-country-day",
+        "providence-day:[18].values.covenant-day"
       ],
       "t": "~20%"
     },
@@ -1946,31 +2752,15 @@
       "text": "14%",
       "of": "842974e7",
       "at": [
-        "providence-day:[12].values.charlotte-latin"
+        "providence-day:[18].values.charlotte-latin"
       ],
       "t": "14%"
-    },
-    {
-      "text": "20%",
-      "of": "cee768ae",
-      "at": [
-        "providence-day:[12].values.carmel-christian"
-      ],
-      "t": "20%"
-    },
-    {
-      "text": "26%",
-      "of": "cae2e534",
-      "at": [
-        "providence-day:[12].values.gaston-day"
-      ],
-      "t": "26%"
     },
     {
       "text": "~21%",
       "of": "5813c997",
       "at": [
-        "providence-day:[12].values.providence-day"
+        "providence-day:[18].values.providence-day"
       ],
       "t": "~21%"
     },
@@ -1978,7 +2768,7 @@
       "text": "Share of students receiving aid in 2025–26.",
       "of": "d4524d34",
       "at": [
-        "providence-day:[12].quals.cannon.text"
+        "providence-day:[18].quals.cannon.text"
       ],
       "t": "Part des élèves bénéficiant d’une aide en 2025–26."
     },
@@ -1986,7 +2776,7 @@
       "text": "Approximately 20% of the student body; the school does not date this figure.",
       "of": "9b62c744",
       "at": [
-        "providence-day:[12].quals.charlotte-country-day.text"
+        "providence-day:[18].quals.charlotte-country-day.text"
       ],
       "t": "Environ 20% de l’effectif ; l’école ne date pas ce chiffre."
     },
@@ -1994,7 +2784,7 @@
       "text": "14% of students, from the school’s strategic plan.",
       "of": "b356d314",
       "at": [
-        "providence-day:[12].quals.charlotte-latin.text"
+        "providence-day:[18].quals.charlotte-latin.text"
       ],
       "t": "14% des élèves, d’après le plan stratégique de l’école."
     },
@@ -2002,7 +2792,7 @@
       "text": "Approximately 20% of students, reported only by third-party aggregators — the school itself publishes no share, and as a church ministry it files no Form 990 to check it against. Verify with the school.",
       "of": "b1b657e1",
       "at": [
-        "providence-day:[12].quals.covenant-day.text"
+        "providence-day:[18].quals.covenant-day.text"
       ],
       "t": "Environ 20% des élèves, chiffre rapporté uniquement par des agrégateurs tiers — l’école elle-même ne publie aucune part, et en tant que ministère d’église elle ne dépose aucun Form 990 permettant de le vérifier. À confirmer auprès de l’école."
     },
@@ -2010,7 +2800,7 @@
       "text": "Approximately 21% of families — a family-level share rather than a share of students, and the school does not date it.",
       "of": "d4018c93",
       "at": [
-        "providence-day:[12].quals.providence-day.text"
+        "providence-day:[18].quals.providence-day.text"
       ],
       "t": "Environ 21% des familles — une part au niveau des familles plutôt qu’une part des élèves, et l’école ne la date pas."
     },
@@ -2018,7 +2808,7 @@
       "text": "Aid awarded / year",
       "of": "c5ec8b05",
       "at": [
-        "providence-day:[13].label"
+        "providence-day:[19].label"
       ],
       "t": "Aide accordée / an"
     },
@@ -2026,7 +2816,7 @@
       "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.",
       "of": "2d93b266",
       "at": [
-        "providence-day:[13].note"
+        "providence-day:[19].note"
       ],
       "t": "Montant total de l’aide aux frais de scolarité accordée, pour la dernière année où l’école avance un chiffre. Charlotte Christian et Davidson Day ne publient pas de total ; les totaux publiés par Country Day se contredisent et sont donc omis."
     },
@@ -2034,7 +2824,7 @@
       "text": "$3.0M",
       "of": "f5d8fd59",
       "at": [
-        "providence-day:[13].values.cannon"
+        "providence-day:[19].values.cannon"
       ],
       "t": "$3.0M"
     },
@@ -2042,7 +2832,7 @@
       "text": "$3.25M",
       "of": "22c9d5fe",
       "at": [
-        "providence-day:[13].values.charlotte-latin"
+        "providence-day:[19].values.charlotte-latin"
       ],
       "t": "$3.25M"
     },
@@ -2050,7 +2840,7 @@
       "text": "$3.68M",
       "of": "d21cc86b",
       "at": [
-        "providence-day:[13].values.providence-day"
+        "providence-day:[19].values.providence-day"
       ],
       "t": "$3.68M"
     },
@@ -2058,7 +2848,7 @@
       "text": "$3,000,000 in tuition assistance awarded in 2025–26.",
       "of": "ae22714a",
       "at": [
-        "providence-day:[13].quals.cannon.text"
+        "providence-day:[19].quals.cannon.text"
       ],
       "t": "$3,000,000 d’aide aux frais de scolarité accordés en 2025–26."
     },
@@ -2066,7 +2856,7 @@
       "text": "$3.25M awarded in 2024–25.",
       "of": "e8f819c5",
       "at": [
-        "providence-day:[13].quals.charlotte-latin.text"
+        "providence-day:[19].quals.charlotte-latin.text"
       ],
       "t": "$3.25M accordés en 2024–25."
     },
@@ -2074,7 +2864,7 @@
       "text": "$3,683,971 — the most recent figure the school publishes, from 2017–18, so it is older than the others shown here.",
       "of": "f59d53f0",
       "at": [
-        "providence-day:[13].quals.providence-day.text"
+        "providence-day:[19].quals.providence-day.text"
       ],
       "t": "$3,683,971 — le chiffre le plus récent publié par l’école, datant de 2017–18, il est donc plus ancien que les autres présentés ici."
     },
@@ -2082,7 +2872,7 @@
       "text": "Average award",
       "of": "d52ae269",
       "at": [
-        "providence-day:[14].label"
+        "providence-day:[20].label"
       ],
       "t": "Aide moyenne"
     },
@@ -2090,7 +2880,7 @@
       "text": "Average aid grant where the school publishes one. Most schools publish neither an average nor a median.",
       "of": "f67cb39d",
       "at": [
-        "providence-day:[14].note"
+        "providence-day:[20].note"
       ],
       "t": "Montant moyen de l’aide accordée lorsque l’école en publie un. La plupart des écoles ne publient ni moyenne ni médiane."
     },
@@ -2098,7 +2888,7 @@
       "text": "$17,900",
       "of": "9e06e14c",
       "at": [
-        "providence-day:[14].values.charlotte-latin"
+        "providence-day:[20].values.charlotte-latin"
       ],
       "t": "$17,900"
     },
@@ -2106,7 +2896,7 @@
       "text": "$13,695",
       "of": "63abc83b",
       "at": [
-        "providence-day:[14].values.providence-day"
+        "providence-day:[20].values.providence-day"
       ],
       "t": "$13,695"
     },
@@ -2114,7 +2904,7 @@
       "text": "Average aid award in 2024–25.",
       "of": "5f6ad730",
       "at": [
-        "providence-day:[14].quals.charlotte-latin.text"
+        "providence-day:[20].quals.charlotte-latin.text"
       ],
       "t": "Aide moyenne accordée en 2024–25."
     },
@@ -2122,7 +2912,7 @@
       "text": "$13,695 average grant, from 2017–18 — the most recent year the school publishes an average, so it is older than the Charlotte Latin figure beside it.",
       "of": "db3fb7f4",
       "at": [
-        "providence-day:[14].quals.providence-day.text"
+        "providence-day:[20].quals.providence-day.text"
       ],
       "t": "$13,695 de subvention moyenne, datant de 2017–18 — l’année la plus récente pour laquelle l’école publie une moyenne, elle est donc plus ancienne que le chiffre de Charlotte Latin qui l’accompagne."
     },
@@ -2130,7 +2920,7 @@
       "text": "Program span",
       "of": "a03fe315",
       "at": [
-        "providence-day:[15].label"
+        "providence-day:[21].label"
       ],
       "t": "Amplitude du programme"
     },
@@ -2138,7 +2928,7 @@
       "text": "Grade span of the arts program as each school states it.",
       "of": "b49060de",
       "at": [
-        "providence-day:[15].note"
+        "providence-day:[21].note"
       ],
       "t": "Amplitude des niveaux couverts par le programme artistique, telle que chaque école la formule."
     },
@@ -2146,7 +2936,7 @@
       "text": "JrK–12",
       "of": "62538c4c",
       "at": [
-        "providence-day:[15].values.cannon"
+        "providence-day:[21].values.cannon"
       ],
       "t": "JrK–12"
     },
@@ -2154,9 +2944,9 @@
       "text": "JK–12",
       "of": "12658e2c",
       "at": [
-        "providence-day:[15].values.charlotte-christian",
-        "providence-day:[15].values.charlotte-country-day",
-        "providence-day:[15].values.covenant-day"
+        "providence-day:[21].values.charlotte-christian",
+        "providence-day:[21].values.charlotte-country-day",
+        "providence-day:[21].values.covenant-day"
       ],
       "t": "JK–12"
     },
@@ -2164,7 +2954,7 @@
       "text": "9–12",
       "of": "c8cc9d8a",
       "at": [
-        "providence-day:[15].values.charlotte-catholic"
+        "providence-day:[21].values.charlotte-catholic"
       ],
       "t": "9–12"
     },
@@ -2172,9 +2962,9 @@
       "text": "TK–12",
       "of": "0ebb0ed6",
       "at": [
-        "providence-day:[15].values.charlotte-latin",
-        "providence-day:[15].values.hickory-grove-christian",
-        "providence-day:[15].values.providence-day"
+        "providence-day:[21].values.charlotte-latin",
+        "providence-day:[21].values.hickory-grove-christian",
+        "providence-day:[21].values.providence-day"
       ],
       "t": "TK–12"
     },
@@ -2182,7 +2972,7 @@
       "text": "K–12",
       "of": "e0278c04",
       "at": [
-        "providence-day:[15].values.carmel-christian"
+        "providence-day:[21].values.carmel-christian"
       ],
       "t": "K–12"
     },
@@ -2190,7 +2980,7 @@
       "text": "Age 2–Gr 12",
       "of": "928a1a5d",
       "at": [
-        "providence-day:[15].values.davidson-day"
+        "providence-day:[21].values.davidson-day"
       ],
       "t": "2 ans–Gr 12"
     },
@@ -2198,7 +2988,7 @@
       "text": "PS–Grade 12",
       "of": "b6cc687f",
       "at": [
-        "providence-day:[15].values.gaston-day"
+        "providence-day:[21].values.gaston-day"
       ],
       "t": "PS–Grade 12"
     },
@@ -2206,7 +2996,7 @@
       "text": "Charlotte Catholic is a high school only — the single 9-12 school on this roster. Every other school here spans PK or K through 12, so its arts ladder begins where theirs are already several years established.",
       "of": "c5c45c44",
       "at": [
-        "providence-day:[15].quals.charlotte-catholic.text"
+        "providence-day:[21].quals.charlotte-catholic.text"
       ],
       "t": "Charlotte Catholic est uniquement un lycée — la seule école 9-12 de cette liste. Toutes les autres écoles présentées ici couvrent de la maternelle (PK ou K) à la 12e année : son parcours artistique commence donc là où le leur est déjà installé depuis plusieurs années."
     },
@@ -2214,7 +3004,7 @@
       "text": "Arts run from preschool through grade 12: in the Early/Lower School music, art and drama are coordinated with classroom units of study, and drama classes begin as early as second grade.",
       "of": "2e7c4f12",
       "at": [
-        "providence-day:[15].quals.gaston-day.text"
+        "providence-day:[21].quals.gaston-day.text"
       ],
       "t": "Les arts se pratiquent de la maternelle à la 12e année : dans l’Early/Lower School, la musique, les arts plastiques et le théâtre sont coordonnés avec les unités d’étude menées en classe, et les cours de théâtre commencent dès la deuxième année."
     },
@@ -2222,7 +3012,7 @@
       "text": "Arts are offered from Junior Kindergarten (JrK) through grade 12, across all three divisions.",
       "of": "5b05f192",
       "at": [
-        "providence-day:[15].quals.cannon.text"
+        "providence-day:[21].quals.cannon.text"
       ],
       "t": "Les arts sont proposés de la Junior Kindergarten (JrK) jusqu’à la 12e année, dans les trois divisions."
     },
@@ -2230,8 +3020,8 @@
       "text": "Arts are offered from Junior Kindergarten (JK) through grade 12.",
       "of": "30c5dc2c",
       "at": [
-        "providence-day:[15].quals.charlotte-christian.text",
-        "providence-day:[15].quals.charlotte-country-day.text"
+        "providence-day:[21].quals.charlotte-christian.text",
+        "providence-day:[21].quals.charlotte-country-day.text"
       ],
       "t": "Les arts sont proposés de la Junior Kindergarten (JK) jusqu’à la 12e année."
     },
@@ -2239,8 +3029,8 @@
       "text": "Arts are offered from Transitional Kindergarten (TK) through grade 12.",
       "of": "7d0a0239",
       "at": [
-        "providence-day:[15].quals.charlotte-latin.text",
-        "providence-day:[15].quals.providence-day.text"
+        "providence-day:[21].quals.charlotte-latin.text",
+        "providence-day:[21].quals.providence-day.text"
       ],
       "t": "Les arts sont proposés de la Transitional Kindergarten (TK) jusqu’à la 12e année."
     },
@@ -2248,7 +3038,7 @@
       "text": "Arts are offered from Junior Kindergarten (JK) through grade 12 — art is integrated in JK–K and becomes sequential from grade 1.",
       "of": "735ad1de",
       "at": [
-        "providence-day:[15].quals.covenant-day.text"
+        "providence-day:[21].quals.covenant-day.text"
       ],
       "t": "Les arts sont proposés de la Junior Kindergarten (JK) jusqu’à la 12e année — l’art est intégré en JK–K et devient séquentiel à partir de la 1re année."
     },
@@ -2256,7 +3046,7 @@
       "text": "Arts run from age 2 through grade 12 — the widest span among these schools, reaching down to the earliest early-childhood years.",
       "of": "06d6f2d3",
       "at": [
-        "providence-day:[15].quals.davidson-day.text"
+        "providence-day:[21].quals.davidson-day.text"
       ],
       "t": "Les arts s’étendent de l’âge de 2 ans jusqu’à la 12e année — la plage la plus large parmi ces écoles, remontant jusqu’aux toutes premières années de la petite enfance."
     },
@@ -2264,7 +3054,7 @@
       "text": "Arts run K–12: integrated music and art in grades K–4, becoming sequential and elective from grade 5 up.",
       "of": "f67b4480",
       "at": [
-        "providence-day:[15].quals.carmel-christian.text"
+        "providence-day:[21].quals.carmel-christian.text"
       ],
       "t": "Les arts sont enseignés de la K à la 12e année : musique et arts plastiques intégrés en K–4, puis progression séquentielle et optionnelle à partir de la 5e année."
     },
@@ -2272,7 +3062,7 @@
       "text": "Arts are offered from Transitional Kindergarten (TK) through grade 12 — visual art and general music in the early grades, widening into band, choir, theatre and a leveled studio track by high school.",
       "of": "6d8aaff6",
       "at": [
-        "providence-day:[15].quals.hickory-grove-christian.text"
+        "providence-day:[21].quals.hickory-grove-christian.text"
       ],
       "t": "Les arts sont proposés de la Transitional Kindergarten (TK) à la 12e année — arts visuels et éducation musicale générale dans les petites classes, s’élargissant vers l’harmonie, la chorale, le théâtre et une filière d’atelier par niveaux au lycée."
     },
@@ -2280,7 +3070,7 @@
       "text": "Signature recognition",
       "of": "b770b2aa",
       "at": [
-        "providence-day:[16].label"
+        "providence-day:[22].label"
       ],
       "t": "Distinction emblématique"
     },
@@ -2288,7 +3078,7 @@
       "text": "The most notable arts recognition or distinction named in each school’s note (measured differently per school).",
       "of": "45fef1e1",
       "at": [
-        "providence-day:[16].note"
+        "providence-day:[22].note"
       ],
       "t": "La reconnaissance ou distinction artistique la plus notable citée dans la note de chaque école (mesurée différemment selon les écoles)."
     },
@@ -2296,7 +3086,7 @@
       "text": "NCTC festival",
       "of": "d4051bdd",
       "at": [
-        "providence-day:[16].values.cannon"
+        "providence-day:[22].values.cannon"
       ],
       "t": "Festival NCTC"
     },
@@ -2304,7 +3094,7 @@
       "text": "Blumey Best Show",
       "of": "cdb2efd0",
       "at": [
-        "providence-day:[16].values.charlotte-christian"
+        "providence-day:[22].values.charlotte-christian"
       ],
       "t": "Blumey Best Show"
     },
@@ -2312,8 +3102,8 @@
       "text": "5 Blumey finalists (2025)",
       "of": "3a689e57",
       "at": [
-        "providence-day:[16].values.charlotte-catholic",
-        "providence-day:[20].values.charlotte-catholic"
+        "providence-day:[22].values.charlotte-catholic",
+        "providence-day:[26].values.charlotte-catholic"
       ],
       "t": "5 finalistes Blumey (2025)"
     },
@@ -2321,7 +3111,7 @@
       "text": "31+ Blumey noms",
       "of": "1b07308b",
       "at": [
-        "providence-day:[16].values.charlotte-country-day"
+        "providence-day:[22].values.charlotte-country-day"
       ],
       "t": "31+ nominations aux Blumey"
     },
@@ -2329,7 +3119,7 @@
       "text": "80%+ participation",
       "of": "2f0d86b8",
       "at": [
-        "providence-day:[16].values.charlotte-latin"
+        "providence-day:[22].values.charlotte-latin"
       ],
       "t": "80%+ de participation"
     },
@@ -2337,7 +3127,7 @@
       "text": "2 Blumey wins",
       "of": "a8e5f5e0",
       "at": [
-        "providence-day:[16].values.covenant-day"
+        "providence-day:[22].values.covenant-day"
       ],
       "t": "2 victoires aux Blumey"
     },
@@ -2345,7 +3135,7 @@
       "text": "2026 Blumey — Best Actress",
       "of": "381ce8f4",
       "at": [
-        "providence-day:[16].values.carmel-christian"
+        "providence-day:[22].values.carmel-christian"
       ],
       "t": "Blumey 2026 — Best Actress"
     },
@@ -2353,7 +3143,7 @@
       "text": "2025–26 Blumey noms",
       "of": "5a21c3aa",
       "at": [
-        "providence-day:[16].values.hickory-grove-christian"
+        "providence-day:[22].values.hickory-grove-christian"
       ],
       "t": "Nominations Blumey 2025–26"
     },
@@ -2361,7 +3151,7 @@
       "text": "6-yr superior ratings",
       "of": "e87ef0b0",
       "at": [
-        "providence-day:[16].values.gaston-day"
+        "providence-day:[22].values.gaston-day"
       ],
       "t": "6 ans de mentions « superior »"
     },
@@ -2369,7 +3159,7 @@
       "text": "Blumey recognition",
       "of": "cc199a5c",
       "at": [
-        "providence-day:[16].values.providence-day"
+        "providence-day:[22].values.providence-day"
       ],
       "t": "Reconnaissance aux Blumey"
     },
@@ -2377,7 +3167,7 @@
       "text": "Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five further placements followed in 2026 for The Wizard of Oz — four nominees and one finalist. CCHS has not won a Blumey in either year.",
       "of": "7eec925f",
       "at": [
-        "providence-day:[16].quals.charlotte-catholic.text"
+        "providence-day:[22].quals.charlotte-catholic.text"
       ],
       "t": "Cinq finalistes aux Blumey Awards en 2025, un dans chacune des cinq catégories d’interprétation individuelle, tous pour Fiddler on the Roof. Cinq places supplémentaires ont suivi en 2026 pour The Wizard of Oz — quatre nommés et un finaliste. CCHS n’a remporté aucun Blumey ni l’une ni l’autre année."
     },
@@ -2385,7 +3175,7 @@
       "text": "Chorus students earned “superior” ratings in regional adjudications across six years — the school's own phrasing, which it does not break down by year or name the adjudicating body. Students have also gained admission to the UNC School of the Arts and to Governor's School.",
       "of": "1b69282f",
       "at": [
-        "providence-day:[16].quals.gaston-day.text"
+        "providence-day:[22].quals.gaston-day.text"
       ],
       "t": "Les élèves de la chorale ont obtenu des mentions « superior » lors d’auditions régionales pendant six années — c’est la formulation de l’école elle-même, qui ne la ventile ni par année ni ne nomme l’organisme évaluateur. Des élèves ont également été admis à la UNC School of the Arts et à la Governor's School."
     },
@@ -2393,7 +3183,7 @@
       "text": "The school’s theatre program competes in the NC Theatre Conference High School Play Festival — the recognition its note leads with.",
       "of": "eb7778e0",
       "at": [
-        "providence-day:[16].quals.cannon.text"
+        "providence-day:[22].quals.cannon.text"
       ],
       "t": "Le programme de théâtre de l’école concourt au NC Theatre Conference High School Play Festival — la reconnaissance mise en avant dans sa note."
     },
@@ -2401,7 +3191,7 @@
       "text": "Won Best Show at the Wells Fargo Blumey Awards for its production of Oklahoma! (2013). The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
       "of": "9818c743",
       "at": [
-        "providence-day:[16].quals.charlotte-christian.text"
+        "providence-day:[22].quals.charlotte-christian.text"
       ],
       "t": "A remporté le prix Best Show aux Wells Fargo Blumey Awards pour sa production d’Oklahoma! (2013). Les Blumey sont les récompenses du théâtre musical lycéen de la région de Charlotte."
     },
@@ -2409,7 +3199,7 @@
       "text": "31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards — a breadth-of-recognition figure rather than a single win.",
       "of": "66200628",
       "at": [
-        "providence-day:[16].quals.charlotte-country-day.text"
+        "providence-day:[22].quals.charlotte-country-day.text"
       ],
       "t": "31+ nominations aux Blumey Awards, les récompenses du théâtre musical lycéen de la région de Charlotte — un indicateur d’ampleur de la reconnaissance plutôt qu’une victoire unique."
     },
@@ -2417,7 +3207,7 @@
       "text": "Over 80% of students take part in the arts — a participation measure the school leads with, alongside individual Blumey wins (Best Actress, 2022).",
       "of": "d257d095",
       "at": [
-        "providence-day:[16].quals.charlotte-latin.text"
+        "providence-day:[22].quals.charlotte-latin.text"
       ],
       "t": "Plus de 80% des élèves participent aux arts — une mesure de participation que l’école met en avant, aux côtés de victoires individuelles aux Blumey (Best Actress, 2022)."
     },
@@ -2425,7 +3215,7 @@
       "text": "Two wins at the Blumey Awards — Best Featured Performer (2013) and the Student Critic Award (2016) — within eight recognitions from 2013–2019, plus a 2025 National Shakespeare Competition finalist. The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
       "of": "12e87673",
       "at": [
-        "providence-day:[16].quals.covenant-day.text"
+        "providence-day:[22].quals.covenant-day.text"
       ],
       "t": "Deux victoires aux Blumey Awards — Best Featured Performer (2013) et le Student Critic Award (2016) — parmi huit reconnaissances de 2013 à 2019, plus une finaliste de la National Shakespeare Competition en 2025. Les Blumey sont les récompenses du théâtre musical lycéen de la région de Charlotte."
     },
@@ -2433,7 +3223,7 @@
       "text": "Repeated recognition at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards.",
       "of": "33f3f508",
       "at": [
-        "providence-day:[16].quals.providence-day.text"
+        "providence-day:[22].quals.providence-day.text"
       ],
       "t": "Reconnaissance répétée aux Blumey Awards, les récompenses du théâtre musical lycéen de la région de Charlotte."
     },
@@ -2441,7 +3231,7 @@
       "text": "The 2026 Blumey Award for Best Actress — Anna Jernigan, for Footloose. The winner advances to the national Jimmy Awards.",
       "of": "e3a50509",
       "at": [
-        "providence-day:[16].quals.carmel-christian.text"
+        "providence-day:[22].quals.carmel-christian.text"
       ],
       "t": "Le Blumey Award 2026 de la Best Actress — Anna Jernigan, pour Footloose. La lauréate accède aux Jimmy Awards nationaux."
     },
@@ -2449,7 +3239,7 @@
       "text": "Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with Amara Aghedo and Christian Young recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
       "of": "b5035838",
       "at": [
-        "providence-day:[16].quals.hickory-grove-christian.text"
+        "providence-day:[22].quals.hickory-grove-christian.text"
       ],
       "t": "Nommés et finalistes aux Blumey Awards sur deux saisons consécutives — Seussical (2025) et Disney’s The Little Mermaid (2026), avec Amara Aghedo et Christian Young présents les deux fois. Aucune victoire n’est publiée. Les Blumeys sont les prix de comédie musicale scolaire de la région de Charlotte."
     },
@@ -2457,7 +3247,7 @@
       "text": "Advanced coursework",
       "of": "a79c3149",
       "at": [
-        "providence-day:[17].label"
+        "providence-day:[23].label"
       ],
       "t": "Cours avancés"
     },
@@ -2465,7 +3255,7 @@
       "text": "Advanced (AP/IB) arts coursework offered, where the note names it.",
       "of": "340c2db7",
       "at": [
-        "providence-day:[17].note"
+        "providence-day:[23].note"
       ],
       "t": "Cours artistiques avancés (AP/IB) proposés, là où la note les nomme."
     },
@@ -2473,8 +3263,8 @@
       "text": "AP Studio Art",
       "of": "c75dc683",
       "at": [
-        "providence-day:[17].values.cannon",
-        "providence-day:[17].values.covenant-day"
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.covenant-day"
       ],
       "t": "AP Studio Art"
     },
@@ -2482,7 +3272,7 @@
       "text": "1 AP + 12 Honors",
       "of": "1ae7fdfc",
       "at": [
-        "providence-day:[17].values.charlotte-catholic"
+        "providence-day:[23].values.charlotte-catholic"
       ],
       "t": "1 AP + 12 Honors"
     },
@@ -2490,7 +3280,7 @@
       "text": "AP + IB",
       "of": "3b521870",
       "at": [
-        "providence-day:[17].values.charlotte-country-day"
+        "providence-day:[23].values.charlotte-country-day"
       ],
       "t": "AP + IB"
     },
@@ -2498,12 +3288,12 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[17].values.carmel-christian",
-        "providence-day:[18].values.carmel-christian",
-        "providence-day:[28].values.charlotte-latin",
-        "providence-day:[28].values.davidson-day",
-        "providence-day:[29].values.cannon",
-        "providence-day:[29].values.hickory-grove-christian"
+        "providence-day:[23].values.carmel-christian",
+        "providence-day:[24].values.carmel-christian",
+        "providence-day:[34].values.charlotte-latin",
+        "providence-day:[34].values.davidson-day",
+        "providence-day:[35].values.cannon",
+        "providence-day:[35].values.hickory-grove-christian"
       ],
       "t": "3"
     },
@@ -2511,7 +3301,7 @@
       "text": "AP Studio Art 2D",
       "of": "dafc312f",
       "at": [
-        "providence-day:[17].values.hickory-grove-christian"
+        "providence-day:[23].values.hickory-grove-christian"
       ],
       "t": "AP Studio Art 2D"
     },
@@ -2519,7 +3309,7 @@
       "text": "Visual Art IV (H)",
       "of": "c08d2e6c",
       "at": [
-        "providence-day:[17].values.gaston-day"
+        "providence-day:[23].values.gaston-day"
       ],
       "t": "Visual Art IV (H)"
     },
@@ -2527,7 +3317,7 @@
       "text": "3 AP arts",
       "of": "513cfd73",
       "at": [
-        "providence-day:[17].values.providence-day"
+        "providence-day:[23].values.providence-day"
       ],
       "t": "3 AP artistiques"
     },
@@ -2535,7 +3325,7 @@
       "text": "AP Studio Art is the only AP arts course CCHS offers — there is no AP Music Theory and no AP Art History, confirmed by sweeping all 195 courses in the curriculum guide. Reporting the AP count alone would make a 39-course department, the largest in the school, read as thin.",
       "of": "ecb63b1b",
       "at": [
-        "providence-day:[17].quals.charlotte-catholic.text"
+        "providence-day:[23].quals.charlotte-catholic.text"
       ],
       "t": "AP Studio Art est le seul cours artistique AP proposé par CCHS — il n’y a ni AP Music Theory ni AP Art History, ce qu’a confirmé un balayage des 195 cours du guide des cours. Ne rapporter que le nombre d’AP ferait paraître mince un département de 39 cours, le plus vaste de l’école."
     },
@@ -2543,7 +3333,7 @@
       "text": "Visual Art IV (H) is the terminal arts course. There is no AP Studio Art or AP Art History in the profile's course table, so the ceiling here is an Honors course carrying +0.50 rather than an AP carrying +1.0.",
       "of": "4453fc64",
       "at": [
-        "providence-day:[17].quals.gaston-day.text"
+        "providence-day:[23].quals.gaston-day.text"
       ],
       "t": "Visual Art IV (H) est le cours d’arts terminal. Il n’y a ni AP Studio Art ni AP Art History dans le tableau des cours du profile, si bien que le plafond est ici un cours Honors valant +0.50 et non un AP valant +1.0."
     },
@@ -2551,7 +3341,7 @@
       "text": "The advanced arts course the note names is AP Studio Art.",
       "of": "f7986af4",
       "at": [
-        "providence-day:[17].quals.cannon.text"
+        "providence-day:[23].quals.cannon.text"
       ],
       "t": "Le cours d’arts avancé que la note nomme est AP Studio Art."
     },
@@ -2559,7 +3349,7 @@
       "text": "Offers both AP and IB arts pathways — a dual AP/IB arts offering that is rare among these schools.",
       "of": "dc2f4054",
       "at": [
-        "providence-day:[17].quals.charlotte-country-day.text"
+        "providence-day:[23].quals.charlotte-country-day.text"
       ],
       "t": "Propose à la fois des parcours artistiques AP et IB — une double offre artistique AP/IB rare parmi ces écoles."
     },
@@ -2567,7 +3357,7 @@
       "text": "AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art); Honors Auditioned Theatre is the performing-side advanced course.",
       "of": "0c3c1617",
       "at": [
-        "providence-day:[17].quals.covenant-day.text"
+        "providence-day:[23].quals.covenant-day.text"
       ],
       "t": "AP Studio Art couronne le parcours en arts visuels (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art) ; Honors Auditioned Theatre est le cours avancé du côté de l’interprétation."
     },
@@ -2575,7 +3365,7 @@
       "text": "Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.",
       "of": "37750126",
       "at": [
-        "providence-day:[17].quals.providence-day.text"
+        "providence-day:[23].quals.providence-day.text"
       ],
       "t": "Trois cours d’arts AP : AP Studio Art, AP Art History et AP Music Theory."
     },
@@ -2583,7 +3373,7 @@
       "text": "The advanced arts course the school names is AP Studio Art 2D (AP 2-D Art & Design), atop the Art I–IV studio sequence; students \"consistently score 3 or 4.\"",
       "of": "c9894b1e",
       "at": [
-        "providence-day:[17].quals.hickory-grove-christian.text"
+        "providence-day:[23].quals.hickory-grove-christian.text"
       ],
       "t": "Le cours d’arts avancé que nomme l’école est AP Studio Art 2D (AP 2-D Art & Design), au sommet de la progression d’atelier Art I–IV ; les élèves « consistently score 3 or 4 »."
     },
@@ -2591,7 +3381,7 @@
       "text": "Ensembles / offerings",
       "of": "65db4389",
       "at": [
-        "providence-day:[18].label"
+        "providence-day:[24].label"
       ],
       "t": "Ensembles / offre"
     },
@@ -2599,7 +3389,7 @@
       "text": "Count or breadth of ensembles / arts offerings as each note describes them.",
       "of": "66e31b3f",
       "at": [
-        "providence-day:[18].note"
+        "providence-day:[24].note"
       ],
       "t": "Nombre ou étendue des ensembles et de l’offre artistique, tels que chaque note les décrit."
     },
@@ -2607,7 +3397,7 @@
       "text": "3 pillars",
       "of": "176bc52f",
       "at": [
-        "providence-day:[18].values.cannon"
+        "providence-day:[24].values.cannon"
       ],
       "t": "3 piliers"
     },
@@ -2615,7 +3405,7 @@
       "text": "40+ electives",
       "of": "4a7cca16",
       "at": [
-        "providence-day:[18].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian"
       ],
       "t": "40+ options"
     },
@@ -2623,7 +3413,7 @@
       "text": "12 ensembles",
       "of": "80771526",
       "at": [
-        "providence-day:[18].values.charlotte-catholic"
+        "providence-day:[24].values.charlotte-catholic"
       ],
       "t": "12 ensembles"
     },
@@ -2631,7 +3421,7 @@
       "text": "8 ensembles",
       "of": "10a2036b",
       "at": [
-        "providence-day:[18].values.charlotte-country-day"
+        "providence-day:[24].values.charlotte-country-day"
       ],
       "t": "8 ensembles"
     },
@@ -2639,7 +3429,7 @@
       "text": "9 ensembles",
       "of": "924f6d38",
       "at": [
-        "providence-day:[18].values.covenant-day"
+        "providence-day:[24].values.covenant-day"
       ],
       "t": "9 ensembles"
     },
@@ -2647,8 +3437,8 @@
       "text": "3 ensembles",
       "of": "6d5a020e",
       "at": [
-        "providence-day:[18].values.hickory-grove-christian",
-        "providence-day:[18].values.gaston-day"
+        "providence-day:[24].values.hickory-grove-christian",
+        "providence-day:[24].values.gaston-day"
       ],
       "t": "3 ensembles"
     },
@@ -2656,7 +3446,7 @@
       "text": "4 ensembles",
       "of": "ddc02b07",
       "at": [
-        "providence-day:[18].values.providence-day"
+        "providence-day:[24].values.providence-day"
       ],
       "t": "4 ensembles"
     },
@@ -2664,7 +3454,7 @@
       "text": "Twelve named ensembles carry their own course codes across choral, band and percussion. Marching Band and Jazz Band also operate, Jazz Band as an after-school group without a course code.",
       "of": "05c75ca2",
       "at": [
-        "providence-day:[18].quals.charlotte-catholic.text"
+        "providence-day:[24].quals.charlotte-catholic.text"
       ],
       "t": "Douze ensembles nommés disposent de leurs propres codes de cours, en chant choral, orchestre et percussions. Marching Band et Jazz Band fonctionnent également, le Jazz Band comme groupe périscolaire sans code de cours."
     },
@@ -2672,7 +3462,7 @@
       "text": "Three named ensembles: the Upper School Vocal Performance Ensemble, the MS Instrumental Ensemble (woodwinds, brass, percussion, piano, guitar) and the Middle School Chorus. Band and Concert Choir also run as credit-bearing fine-arts courses but are not counted here as ensembles.",
       "of": "7a4e9010",
       "at": [
-        "providence-day:[18].quals.gaston-day.text"
+        "providence-day:[24].quals.gaston-day.text"
       ],
       "t": "Trois ensembles nommés : le Upper School Vocal Performance Ensemble, le MS Instrumental Ensemble (bois, cuivres, percussions, piano, guitare) et le Middle School Chorus. Band et Concert Choir fonctionnent également comme des cours de fine arts crédités, mais ne sont pas comptés ici comme des ensembles."
     },
@@ -2680,7 +3470,7 @@
       "text": "The program is organized around three pillars — Visual Arts, Music, and Theater — rather than counted as a number of ensembles.",
       "of": "96aeb708",
       "at": [
-        "providence-day:[18].quals.cannon.text"
+        "providence-day:[24].quals.cannon.text"
       ],
       "t": "Le programme est organisé autour de trois piliers — Visual Arts, Music et Theater — plutôt que compté en nombre d’ensembles."
     },
@@ -2688,7 +3478,7 @@
       "text": "40+ arts electives across four areas — a stated floor rather than an exact catalog count.",
       "of": "77a9c1b0",
       "at": [
-        "providence-day:[18].quals.charlotte-christian.text"
+        "providence-day:[24].quals.charlotte-christian.text"
       ],
       "t": "40+ options artistiques réparties en quatre domaines — un plancher annoncé plutôt qu’un décompte exact du catalogue."
     },
@@ -2696,7 +3486,7 @@
       "text": "Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and open-enrollment groups.",
       "of": "1905d4d4",
       "at": [
-        "providence-day:[18].quals.charlotte-country-day.text"
+        "providence-day:[24].quals.charlotte-country-day.text"
       ],
       "t": "Huit groupes vocaux et instrumentaux répartis sur le Middle School et l’Upper School, allant des ensembles honors sur audition aux groupes ouverts à tous."
     },
@@ -2704,7 +3494,7 @@
       "text": "Nine named ensembles across the divisions — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella, and the grade-5 intro ensembles — plus a Tri-M Music Honor Society chapter. Worship bands at both MS and HS are the distinctive rung.",
       "of": "ca3c56d6",
       "at": [
-        "providence-day:[18].quals.covenant-day.text"
+        "providence-day:[24].quals.covenant-day.text"
       ],
       "t": "Neuf ensembles nommés dans toutes les divisions — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella et les ensembles d’initiation de 5e année — plus un chapitre de la Tri-M Music Honor Society. Les worship bands au collège comme au lycée constituent l’échelon distinctif."
     },
@@ -2712,7 +3502,7 @@
       "text": "Four performing ensembles: Band, Orchestra, Chorus, and Jazz.",
       "of": "15743562",
       "at": [
-        "providence-day:[18].quals.providence-day.text"
+        "providence-day:[24].quals.providence-day.text"
       ],
       "t": "Quatre ensembles de spectacle : Band, Orchestra, Chorus et Jazz."
     },
@@ -2720,7 +3510,7 @@
       "text": "Three named high-school ensembles — Concert Band, Jazz Band and Choir. No orchestra is offered at any level.",
       "of": "1290bb44",
       "at": [
-        "providence-day:[18].quals.hickory-grove-christian.text"
+        "providence-day:[24].quals.hickory-grove-christian.text"
       ],
       "t": "Trois ensembles nommés au lycée — Concert Band, Jazz Band et Choir. Aucun orchestre n’est proposé à quelque niveau que ce soit."
     },
@@ -2728,7 +3518,7 @@
       "text": "Upper School student organizations",
       "of": "f627bba6",
       "at": [
-        "providence-day:[19].label"
+        "providence-day:[25].label"
       ],
       "t": "Organisations étudiantes de l’Upper School"
     },
@@ -2736,7 +3526,7 @@
       "text": "Clubs, honor societies, and student-led organizations in the Upper School. Each school counts differently — hover a figure for what it includes.",
       "of": "41f9b3fb",
       "at": [
-        "providence-day:[19].note"
+        "providence-day:[25].note"
       ],
       "t": "Clubs, sociétés d’honneur et organisations dirigées par des élèves dans l’Upper School. Chaque école compte différemment — survolez un chiffre pour voir ce qu’il inclut."
     },
@@ -2744,7 +3534,7 @@
       "text": "≥19",
       "of": "d4042e4e",
       "at": [
-        "providence-day:[19].values.cannon"
+        "providence-day:[25].values.cannon"
       ],
       "t": "≥19"
     },
@@ -2752,7 +3542,7 @@
       "text": "23",
       "of": "8ef29b12",
       "at": [
-        "providence-day:[19].values.charlotte-christian"
+        "providence-day:[25].values.charlotte-christian"
       ],
       "t": "23"
     },
@@ -2760,7 +3550,7 @@
       "text": "76",
       "of": "89e5c740",
       "at": [
-        "providence-day:[19].values.charlotte-catholic"
+        "providence-day:[25].values.charlotte-catholic"
       ],
       "t": "76"
     },
@@ -2768,7 +3558,7 @@
       "text": "~45–50",
       "of": "969a4292",
       "at": [
-        "providence-day:[19].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-country-day"
       ],
       "t": "~45–50"
     },
@@ -2776,9 +3566,9 @@
       "text": "25",
       "of": "88f291a0",
       "at": [
-        "providence-day:[19].values.charlotte-latin",
-        "providence-day:[29].values.charlotte-catholic",
-        "providence-day:[29].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-latin",
+        "providence-day:[35].values.charlotte-catholic",
+        "providence-day:[35].values.charlotte-country-day"
       ],
       "t": "25"
     },
@@ -2786,7 +3576,7 @@
       "text": "≥14",
       "of": "d1042995",
       "at": [
-        "providence-day:[19].values.covenant-day"
+        "providence-day:[25].values.covenant-day"
       ],
       "t": "≥14"
     },
@@ -2794,7 +3584,7 @@
       "text": "~5",
       "of": "885dbb3c",
       "at": [
-        "providence-day:[19].values.carmel-christian"
+        "providence-day:[25].values.carmel-christian"
       ],
       "t": "~5"
     },
@@ -2802,7 +3592,7 @@
       "text": "≥9",
       "of": "e05ccd9b",
       "at": [
-        "providence-day:[19].values.davidson-day"
+        "providence-day:[25].values.davidson-day"
       ],
       "t": "≥9"
     },
@@ -2810,7 +3600,7 @@
       "text": "27",
       "of": "8af294c6",
       "at": [
-        "providence-day:[19].values.hickory-grove-christian"
+        "providence-day:[25].values.hickory-grove-christian"
       ],
       "t": "27"
     },
@@ -2818,7 +3608,7 @@
       "text": "31",
       "of": "88f05309",
       "at": [
-        "providence-day:[19].values.gaston-day"
+        "providence-day:[25].values.gaston-day"
       ],
       "t": "31"
     },
@@ -2826,7 +3616,7 @@
       "text": "77",
       "of": "8ae5c8d3",
       "at": [
-        "providence-day:[19].values.providence-day"
+        "providence-day:[25].values.providence-day"
       ],
       "t": "77"
     },
@@ -2834,7 +3624,7 @@
       "text": "Counted from the clubs directory's raw HTML across its six categories — Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile separately says 'over 50 club opportunities', a round prose figure rather than a count.",
       "of": "59d0997a",
       "at": [
-        "providence-day:[19].quals.charlotte-catholic.text"
+        "providence-day:[25].quals.charlotte-catholic.text"
       ],
       "t": "Décompte établi à partir du code HTML brut de l’annuaire des clubs, sur ses six catégories — Éducation 16, Service 23, Communauté 9, Culture 4, Sport 15, Intérêt général 9. Le profil de l’école évoque par ailleurs « over 50 club opportunities », une formulation arrondie plutôt qu’un décompte."
     },
@@ -2842,7 +3632,7 @@
       "text": "Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 11 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.",
       "of": "5ef8dd83",
       "at": [
-        "providence-day:[19].quals.cannon.text"
+        "providence-day:[25].quals.cannon.text"
       ],
       "t": "Cannon ne publie aucun annuaire de clubs officiels, il s’agit donc d’un plancher documenté : 8 organisations nommées de l’Upper School plus ses 11 sociétés d’honneur de l’Upper School. La liste réelle évolue d’année en année et n’est pas entièrement divulguée."
     },
@@ -2850,7 +3640,7 @@
       "text": "Counts the 23 named organizations in the Upper School across four categories. The school also reports 35 across JK–12; only the Upper School band is used here for a like-for-like comparison.",
       "of": "717784a4",
       "at": [
-        "providence-day:[19].quals.charlotte-christian.text"
+        "providence-day:[25].quals.charlotte-christian.text"
       ],
       "t": "Compte les 23 organisations nommées de l’Upper School réparties en quatre catégories. L’école déclare également 35 sur l’ensemble JK–12 ; seule la tranche Upper School est utilisée ici pour une comparaison équivalente."
     },
@@ -2858,7 +3648,7 @@
       "text": "The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 7 are confirmed by name in public sources.",
       "of": "ac32cf5a",
       "at": [
-        "providence-day:[19].quals.charlotte-country-day.text"
+        "providence-day:[25].quals.charlotte-country-day.text"
       ],
       "t": "L’école publie une fourchette plutôt qu’une liste — sa page Upper School cite « nearly 50 clubs » et le profil 2025–26 répertorie « 45 different clubs and activities ». Seuls 7 sont confirmés nommément dans des sources publiques."
     },
@@ -2866,7 +3656,7 @@
       "text": "Covenant Day publishes no club directory of its own, so this is a documented floor: 14 Upper School organizations and honor societies confirmed across school pages and a third-party roster, after filtering out Middle/Lower School entries, paid lesson programs, and curricular ensembles.",
       "of": "4d31acec",
       "at": [
-        "providence-day:[19].quals.covenant-day.text"
+        "providence-day:[25].quals.covenant-day.text"
       ],
       "t": "Covenant Day ne publie aucun annuaire de clubs qui lui soit propre, il s’agit donc d’un socle documenté : 14 organisations et sociétés d’honneur de l’Upper School confirmées sur les pages de l’école et un répertoire tiers, après filtrage des entrées de Middle/Lower School, des programmes de cours particuliers payants et des ensembles du cursus."
     },
@@ -2874,7 +3664,7 @@
       "text": "Davidson Day publishes no Upper School club roster, so this counts only the clubs confirmed in public sources — a documented floor, not a total.",
       "of": "42b278f6",
       "at": [
-        "providence-day:[19].quals.davidson-day.text"
+        "providence-day:[25].quals.davidson-day.text"
       ],
       "t": "Davidson Day ne publie aucune liste de clubs de l’Upper School, ce décompte ne retient donc que les clubs confirmés dans des sources publiques — un plancher documenté, non un total."
     },
@@ -2882,7 +3672,7 @@
       "text": "Taken from the school’s official 2025–26 Upper School club list, with 5 arts clubs excluded for a clean count — the deepest slate in the set.",
       "of": "29593fea",
       "at": [
-        "providence-day:[19].quals.providence-day.text"
+        "providence-day:[25].quals.providence-day.text"
       ],
       "t": "Tiré de la liste officielle des clubs de l’Upper School 2025–26 de l’école, avec 5 clubs artistiques exclus pour un décompte net — l’éventail le plus fourni de l’ensemble."
     },
@@ -2890,7 +3680,7 @@
       "text": "Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.",
       "of": "64db848f",
       "at": [
-        "providence-day:[19].quals.carmel-christian.text"
+        "providence-day:[25].quals.carmel-christian.text"
       ],
       "t": "Organisations étudiantes permanentes du lycée : National Honor Society, National Beta Club, Spanish Honor Society, Student Council et le Timothy Project. Les autres clubs sont créés à l’initiative des élèves sur candidature, aucune liste fixe n’est donc publiée."
     },
@@ -2898,7 +3688,7 @@
       "text": "27 non-sports organizations (18 clubs/organizations + 9 arts/music) from a single aggregator (PrivateSchoolReview) — the school's own site has no clubs page, so this is a single-source count. Five are honor societies; a subset (Choir, Drama, Jazz Band, Discipleship) is corroborated on the school site.",
       "of": "60c9c31d",
       "at": [
-        "providence-day:[19].quals.hickory-grove-christian.text"
+        "providence-day:[25].quals.hickory-grove-christian.text"
       ],
       "t": "27 organisations hors sport (18 clubs/organisations + 9 arts/musique) provenant d’un unique agrégateur (PrivateSchoolReview) — le site de l’école n’a pas de page consacrée aux clubs : ce décompte repose donc sur une source unique. Cinq sont des sociétés d’honneur ; une partie (Choir, Drama, Jazz Band, Discipleship) est corroborée sur le site de l’école."
     },
@@ -2906,7 +3696,7 @@
       "text": "Flagship result",
       "of": "472b065e",
       "at": [
-        "providence-day:[20].label"
+        "providence-day:[26].label"
       ],
       "t": "Résultat phare"
     },
@@ -2914,7 +3704,7 @@
       "text": "The single most notable competitive club achievement documented in each school’s note.",
       "of": "d2360dbe",
       "at": [
-        "providence-day:[20].note"
+        "providence-day:[26].note"
       ],
       "t": "La réussite la plus notable d’un club de compétition documentée dans la note de chaque école."
     },
@@ -2922,7 +3712,7 @@
       "text": "FLL Worlds top 100",
       "of": "6601652a",
       "at": [
-        "providence-day:[20].values.cannon"
+        "providence-day:[26].values.cannon"
       ],
       "t": "FLL Worlds — top 100"
     },
@@ -2930,7 +3720,7 @@
       "text": "Chess 2nd place",
       "of": "b9f2156c",
       "at": [
-        "providence-day:[20].values.charlotte-christian"
+        "providence-day:[26].values.charlotte-christian"
       ],
       "t": "Échecs — 2e place"
     },
@@ -2938,7 +3728,7 @@
       "text": "Model UN — 6 awards",
       "of": "b0aa007f",
       "at": [
-        "providence-day:[20].values.charlotte-country-day"
+        "providence-day:[26].values.charlotte-country-day"
       ],
       "t": "Model UN — 6 distinctions"
     },
@@ -2946,7 +3736,7 @@
       "text": "Debate top-20 US",
       "of": "75c75ed4",
       "at": [
-        "providence-day:[20].values.charlotte-latin"
+        "providence-day:[26].values.charlotte-latin"
       ],
       "t": "Débat — top 20 des États-Unis"
     },
@@ -2954,7 +3744,7 @@
       "text": "Mock Trial art 2nd NC",
       "of": "50ea292d",
       "at": [
-        "providence-day:[20].values.covenant-day"
+        "providence-day:[26].values.covenant-day"
       ],
       "t": "Mock Trial art. 2e NC"
     },
@@ -2962,7 +3752,7 @@
       "text": "2022 NCISAA 4A basketball title",
       "of": "643bd5bc",
       "at": [
-        "providence-day:[20].values.carmel-christian"
+        "providence-day:[26].values.carmel-christian"
       ],
       "t": "Titre de basketball NCISAA 4A 2022"
     },
@@ -2970,7 +3760,7 @@
       "text": "Battle of Books 1st",
       "of": "bcec0bda",
       "at": [
-        "providence-day:[20].values.davidson-day"
+        "providence-day:[26].values.davidson-day"
       ],
       "t": "Battle of Books — 1re place"
     },
@@ -2978,7 +3768,7 @@
       "text": "iGEM gold medal",
       "of": "c7a9f494",
       "at": [
-        "providence-day:[20].values.gaston-day"
+        "providence-day:[26].values.gaston-day"
       ],
       "t": "médaille d’or iGEM"
     },
@@ -2986,7 +3776,7 @@
       "text": "DECA → ICDC ’26",
       "of": "d41ceb82",
       "at": [
-        "providence-day:[20].values.providence-day"
+        "providence-day:[26].values.providence-day"
       ],
       "t": "DECA → ICDC ’26"
     },
@@ -2994,7 +3784,7 @@
       "text": "The strongest recent dated competitive result. The only alternative found is a Speech & Debate state runner-up finish from 2017 — nine years old, and older than any result shipped for another school here.",
       "of": "864bbf93",
       "at": [
-        "providence-day:[20].quals.charlotte-catholic.text"
+        "providence-day:[26].quals.charlotte-catholic.text"
       ],
       "t": "Le meilleur résultat compétitif daté de ces dernières années. La seule autre trace trouvée est une place de finaliste au niveau de l’État en Speech & Debate remontant à 2017 — vieille de neuf ans, et plus ancienne que tout résultat publié pour une autre école ici."
     },
@@ -3002,7 +3792,7 @@
       "text": "The iGEM gold medal is the school's strongest published competitive result — iGEM is a university-level synthetic-biology competition with a high-school track, and Gaston Day fielded teams in 2012, 2016, 2018 and 2020. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing. The medal level is third-party-confirmed; the archived iGEM wikis 403 to automated fetches.",
       "of": "86c0a38e",
       "at": [
-        "providence-day:[20].quals.gaston-day.text"
+        "providence-day:[26].quals.gaston-day.text"
       ],
       "t": "La médaille d’or iGEM est le meilleur résultat compétitif publié par l’école — iGEM est une compétition universitaire de biologie de synthèse dotée d’une catégorie lycée, et Gaston Day y a engagé des équipes en 2012, 2016, 2018 et 2020. L’équipe de VEX Robotics s’est par ailleurs qualifiée pour les TSA VEX Nationals en 2023, sa première année de compétition. Le niveau de la médaille est confirmé par un tiers ; les wikis iGEM archivés renvoient un 403 aux récupérations automatisées."
     },
@@ -3010,7 +3800,7 @@
       "text": "The Brainy Yaks robotics team finished in the top 100 of more than 32,000 teams at the FIRST LEGO League World Championship, in back-to-back years (2024 and 2025).",
       "of": "7144e497",
       "at": [
-        "providence-day:[20].quals.cannon.text"
+        "providence-day:[26].quals.cannon.text"
       ],
       "t": "L’équipe de robotique Brainy Yaks a terminé dans le top 100 de plus de 32,000 équipes au FIRST LEGO League World Championship, deux années consécutives (2024 et 2025)."
     },
@@ -3018,7 +3808,7 @@
       "text": "The Middle School Chess team placed 2nd at a tournament — the most notable competitive club result the school’s note documents.",
       "of": "e10d379a",
       "at": [
-        "providence-day:[20].quals.charlotte-christian.text"
+        "providence-day:[26].quals.charlotte-christian.text"
       ],
       "t": "L’équipe d’échecs du Middle School a terminé 2e d’un tournoi — le résultat compétitif de club le plus notable que documente la note de l’école."
     },
@@ -3026,7 +3816,7 @@
       "text": "The Model UN team earned 6 awards at the MUNCH 2025 conference, including 4 Outstanding Delegate honors.",
       "of": "f56e4e05",
       "at": [
-        "providence-day:[20].quals.charlotte-country-day.text"
+        "providence-day:[26].quals.charlotte-country-day.text"
       ],
       "t": "L’équipe Model UN a remporté 6 distinctions à la conférence MUNCH 2025, dont 4 distinctions Outstanding Delegate."
     },
@@ -3034,7 +3824,7 @@
       "text": "The debate program was named to the NSDA Schools of Excellence — a top-20 ranking nationally.",
       "of": "692b1cbf",
       "at": [
-        "providence-day:[20].quals.charlotte-latin.text"
+        "providence-day:[26].quals.charlotte-latin.text"
       ],
       "t": "Le programme de débat a été nommé aux NSDA Schools of Excellence — un classement dans le top 20 national."
     },
@@ -3042,7 +3832,7 @@
       "text": "Cornelia Knight of the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory) and was the 2025 State Champion Courtroom Artist runner-up — the program’s best-documented statewide result.",
       "of": "283bfd15",
       "at": [
-        "providence-day:[20].quals.covenant-day.text"
+        "providence-day:[26].quals.covenant-day.text"
       ],
       "t": "Cornelia Knight, de l’équipe Covenant Day Blue de Mock Trial, a remporté l’épreuve régionale d’artiste d’audience du NC Mock Trial (Hickory) et a été deuxième au titre de State Champion Courtroom Artist en 2025 — le meilleur résultat documenté du programme à l’échelle de l’État."
     },
@@ -3050,7 +3840,7 @@
       "text": "The Middle School Battle of the Books team placed 1st in its regional competition.",
       "of": "255fc0f0",
       "at": [
-        "providence-day:[20].quals.davidson-day.text"
+        "providence-day:[26].quals.davidson-day.text"
       ],
       "t": "L’équipe Battle of the Books du Middle School a terminé 1re de sa compétition régionale."
     },
@@ -3058,7 +3848,7 @@
       "text": "The DECA business team advanced to the national International Career Development Conference (ICDC) in 2026.",
       "of": "833db766",
       "at": [
-        "providence-day:[20].quals.providence-day.text"
+        "providence-day:[26].quals.providence-day.text"
       ],
       "t": "L’équipe de commerce DECA s’est qualifiée pour la International Career Development Conference (ICDC) nationale en 2026."
     },
@@ -3066,7 +3856,7 @@
       "text": "The 2022 NCISAA 4A boys basketball state title (def. Greensboro Day 71–66; Cade Tyson scored 31). The girls soccer team reached the 2026 4A final as runner-up.",
       "of": "c4b526ed",
       "at": [
-        "providence-day:[20].quals.carmel-christian.text"
+        "providence-day:[26].quals.carmel-christian.text"
       ],
       "t": "Le titre d’État NCISAA 4A 2022 de basketball garçons (victoire contre Greensboro Day 71–66 ; Cade Tyson a inscrit 31 points). L’équipe de football féminin a atteint la finale 4A 2026 en tant que finaliste."
     },
@@ -3074,7 +3864,7 @@
       "text": "Participation signal",
       "of": "c51dd962",
       "at": [
-        "providence-day:[21].label"
+        "providence-day:[27].label"
       ],
       "t": "Indicateur de participation"
     },
@@ -3082,7 +3872,7 @@
       "text": "A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.",
       "of": "11f5cf07",
       "at": [
-        "providence-day:[21].note"
+        "providence-day:[27].note"
       ],
       "t": "Un chiffre d’ampleur de la participation lorsque l’école en publie un (mesuré différemment selon les écoles — voir la note de l’école). Le chiffre de Charlotte Latin porte sur la participation sportive."
     },
@@ -3090,7 +3880,7 @@
       "text": "~10k service hrs",
       "of": "546c8d85",
       "at": [
-        "providence-day:[21].values.cannon"
+        "providence-day:[27].values.cannon"
       ],
       "t": "~10 k h de service"
     },
@@ -3098,7 +3888,7 @@
       "text": "100% service",
       "of": "f0085170",
       "at": [
-        "providence-day:[21].values.charlotte-catholic"
+        "providence-day:[27].values.charlotte-catholic"
       ],
       "t": "100% de service"
     },
@@ -3106,7 +3896,7 @@
       "text": "~50% mentor weekly",
       "of": "c1f3ec73",
       "at": [
-        "providence-day:[21].values.charlotte-country-day"
+        "providence-day:[27].values.charlotte-country-day"
       ],
       "t": "~50% encadrent chaque semaine"
     },
@@ -3114,7 +3904,7 @@
       "text": "~90% play a sport",
       "of": "a1d11602",
       "at": [
-        "providence-day:[21].values.charlotte-latin"
+        "providence-day:[27].values.charlotte-latin"
       ],
       "t": "~90% pratiquent un sport"
     },
@@ -3122,7 +3912,7 @@
       "text": "~50% in service clubs",
       "of": "c3fd9e34",
       "at": [
-        "providence-day:[21].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ],
       "t": "~50% dans des clubs de service"
     },
@@ -3130,7 +3920,7 @@
       "text": "100% is structurally true rather than a survey result: 70 approved service hours over four years is a graduation requirement at CCHS (10 hours in 9th grade, 20 in each of 10th-12th, at least 5 parish hours a year, submitted by March 1).",
       "of": "dfa63711",
       "at": [
-        "providence-day:[21].quals.charlotte-catholic.text"
+        "providence-day:[27].quals.charlotte-catholic.text"
       ],
       "t": "Les 100% sont vrais par construction plutôt que le résultat d’une enquête : 70 heures de service validées sur quatre ans constituent une condition d’obtention du diplôme à CCHS (10 heures en 9e année, 20 dans chacune des 10e à 12e, dont au moins 5 heures paroissiales par an, à déclarer avant le 1er mars)."
     },
@@ -3138,7 +3928,7 @@
       "text": "About 10,000 service hours a year, scoped to the Upper School page that carries it. This replaces an older ~15,000 school-wide figure the school no longer publishes.",
       "of": "a18e36d7",
       "at": [
-        "providence-day:[21].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text"
       ],
       "t": "Environ 10,000 heures de service par an, limitées à la page Upper School qui les mentionne. Cela remplace un ancien chiffre de ~15,000 à l’échelle de l’école que celle-ci ne publie plus."
     },
@@ -3146,7 +3936,7 @@
       "text": "About half of juniors and seniors mentor younger students weekly — a mentoring-participation figure rather than a club-membership one.",
       "of": "efe8c172",
       "at": [
-        "providence-day:[21].quals.charlotte-country-day.text"
+        "providence-day:[27].quals.charlotte-country-day.text"
       ],
       "t": "Environ la moitié des élèves de première et de terminale accompagnent chaque semaine des élèves plus jeunes — un indicateur de participation au mentorat plutôt que d’adhésion à un club."
     },
@@ -3154,7 +3944,7 @@
       "text": "About 90% of students in grades 7–12 play a sanctioned sport. This is a sports-participation figure, the breadth measure the school publishes.",
       "of": "0dc1a9c9",
       "at": [
-        "providence-day:[21].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text"
       ],
       "t": "Environ 90% des élèves des 7e à 12e années pratiquent un sport reconnu. Il s’agit d’un indicateur de participation sportive, la mesure d’ampleur que publie l’école."
     },
@@ -3162,7 +3952,7 @@
       "text": "Service clubs engage roughly half of the Upper School.",
       "of": "9269a031",
       "at": [
-        "providence-day:[21].quals.providence-day.text"
+        "providence-day:[27].quals.providence-day.text"
       ],
       "t": "Les clubs de service mobilisent environ la moitié de l’Upper School."
     },
@@ -3170,7 +3960,7 @@
       "text": "Latest pickup time",
       "of": "678b6663",
       "at": [
-        "providence-day:[22].label"
+        "providence-day:[28].label"
       ],
       "t": "Heure de récupération la plus tardive"
     },
@@ -3178,7 +3968,7 @@
       "text": "End of the Lower-School extended-care/aftercare day. Verify current hours with the school.",
       "of": "33e992af",
       "at": [
-        "providence-day:[22].note"
+        "providence-day:[28].note"
       ],
       "t": "Fin de la journée de garde prolongée / périscolaire en Lower School. Vérifiez les horaires en vigueur auprès de l’école."
     },
@@ -3186,15 +3976,15 @@
       "text": "6:00 PM",
       "of": "434a888c",
       "at": [
-        "providence-day:[22].values.charlotte-country-day",
-        "providence-day:[22].values.charlotte-latin",
-        "providence-day:[22].values.covenant-day",
-        "providence-day:[22].values.carmel-christian",
-        "providence-day:[22].values.davidson-day",
-        "providence-day:[22].values.gaston-day",
-        "providence-day:[22].values.cannon",
-        "providence-day:[22].values.providence-day",
-        "providence-day:[22].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-country-day",
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.covenant-day",
+        "providence-day:[28].values.carmel-christian",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[28].values.gaston-day",
+        "providence-day:[28].values.cannon",
+        "providence-day:[28].values.providence-day",
+        "providence-day:[28].values.charlotte-christian"
       ],
       "t": "6:00 p.m."
     },
@@ -3202,7 +3992,7 @@
       "text": "5:30 PM",
       "of": "ce6d8030",
       "at": [
-        "providence-day:[22].values.hickory-grove-christian"
+        "providence-day:[28].values.hickory-grove-christian"
       ],
       "t": "5:30 p.m."
     },
@@ -3210,7 +4000,7 @@
       "text": "6:00 PM is from the school's own 2025-26 Schedule of Tuition and Fees (Lower School 3:00–6:00, Middle School 4:00–6:00). The After School Program web page states 5:30 PM for both divisions — the two school sources disagree, and a family should confirm the current window.",
       "of": "63555ec8",
       "at": [
-        "providence-day:[22].quals.gaston-day.text"
+        "providence-day:[28].quals.gaston-day.text"
       ],
       "t": "6:00 PM provient du Schedule of Tuition and Fees 2025-26 de l’école elle-même (Lower School 3:00–6:00, Middle School 4:00–6:00). La page web du After School Program indique 5:30 PM pour les deux divisions — les deux sources de l’école divergent, et une famille devrait confirmer la plage horaire actuelle."
     },
@@ -3218,7 +4008,7 @@
       "text": "The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.",
       "of": "b1268c11",
       "at": [
-        "providence-day:[22].quals.cannon.text"
+        "providence-day:[28].quals.cannon.text"
       ],
       "t": "L’After School Program JrK–8 fonctionne de 3:00 à 6:00 p.m. les jours normaux. Les jours de sortie anticipée, il fonctionne de 11:45 a.m. à 4:00 p.m. et se termine deux heures plus tôt que les 6:00 indiquées ici."
     },
@@ -3226,7 +4016,7 @@
       "text": "6:00 p.m. is the Lower School figure: Extended Day (JK–4) runs from dismissal to 6:00 p.m., and the school states that all Extended Day care ends promptly at 6 p.m. Middle School (grades 5–8) is a separate programme that ends at 5:00 p.m., a full hour earlier, with its own late fee from 5:01 p.m. This is the only school on the roster whose divisions differ, so read this row as Lower School and confirm Middle School hours separately.",
       "of": "8331c851",
       "at": [
-        "providence-day:[22].quals.charlotte-christian.text"
+        "providence-day:[28].quals.charlotte-christian.text"
       ],
       "t": "6:00 p.m. correspond à la Lower School : Extended Day (JK–4) fonctionne de la sortie des classes jusqu'à 6:00 p.m., et l'école précise que tout l'accueil Extended Day prend fin à 6 p.m. précises. La Middle School (niveaux 5–8) est un programme distinct qui se termine à 5:00 p.m., une heure plus tôt, avec ses propres frais de retard à partir de 5:01 p.m. C'est le seul établissement de la liste dont les divisions diffèrent : lisez cette ligne comme la Lower School et confirmez séparément les horaires de la Middle School."
     },
@@ -3234,7 +4024,7 @@
       "text": "The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.",
       "of": "b14230c9",
       "at": [
-        "providence-day:[22].quals.charlotte-country-day.text"
+        "providence-day:[28].quals.charlotte-country-day.text"
       ],
       "t": "Le programme Structured Care du Lower School fonctionne jusqu’à 6:00 p.m. Confirmez les horaires actuels auprès de l’école."
     },
@@ -3242,7 +4032,7 @@
       "text": "Extended Day closes at 6:00 p.m. for every grade it serves — TK from 1:00, Kindergarten from 2:00, grades 1–5 from 3:00 — and the Middle School Clubhouse also runs to 6:00. Upper School has no published after-school programme. Late pickup is billed at $1.00 per minute after 6:00 p.m.",
       "of": "ee1783f6",
       "at": [
-        "providence-day:[22].quals.providence-day.text"
+        "providence-day:[28].quals.providence-day.text"
       ],
       "t": "Extended Day ferme à 6:00 p.m. pour tous les niveaux qu'il accueille — TK à partir de 1:00, Kindergarten à partir de 2:00, les niveaux 1–5 à partir de 3:00 — et le Middle School Clubhouse fonctionne lui aussi jusqu'à 6:00. L'Upper School ne propose aucun programme périscolaire publié. La récupération tardive est facturée $1.00 par minute après 6:00 p.m."
     },
@@ -3250,7 +4040,7 @@
       "text": "The Lower School’s Hawks’ Club aftercare runs 1:30–6:00 p.m. Confirm current hours with the school.",
       "of": "195480ea",
       "at": [
-        "providence-day:[22].quals.charlotte-latin.text"
+        "providence-day:[28].quals.charlotte-latin.text"
       ],
       "t": "L’accueil périscolaire Hawks’ Club du Lower School fonctionne de 1:30 à 6:00 p.m. Confirmez les horaires actuels auprès de l’école."
     },
@@ -3258,7 +4048,7 @@
       "text": "The JK–8 Extended Day program’s last session runs 4:30–6:00 p.m., and free before-care starts at 7:30 a.m. Confirm current hours with the school.",
       "of": "201a40fd",
       "at": [
-        "providence-day:[22].quals.covenant-day.text"
+        "providence-day:[28].quals.covenant-day.text"
       ],
       "t": "La dernière session du programme Extended Day de la JK–8 se déroule de 4:30 à 6:00 p.m., et l’accueil du matin gratuit commence à 7:30 a.m. Confirmez les horaires actuels auprès de l’école."
     },
@@ -3266,7 +4056,7 @@
       "text": "The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.",
       "of": "2f34b58d",
       "at": [
-        "providence-day:[22].quals.davidson-day.text"
+        "providence-day:[28].quals.davidson-day.text"
       ],
       "t": "Le programme Extended Care du Lower School fonctionne de 2:45 à 6:00 p.m. Confirmez les horaires actuels auprès de l’école."
     },
@@ -3274,7 +4064,7 @@
       "text": "After School / After YCC care runs 3:00–6:00 PM; 6:00 PM is the latest published pickup.",
       "of": "29662437",
       "at": [
-        "providence-day:[22].quals.carmel-christian.text"
+        "providence-day:[28].quals.carmel-christian.text"
       ],
       "t": "La garde After School / After YCC fonctionne de 3:00 à 6:00 p.m. ; 6:00 p.m. est le départ publié le plus tardif."
     },
@@ -3282,7 +4072,7 @@
       "text": "The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup — earlier than the 6:00 p.m. the other schools offer.",
       "of": "7c44cd2b",
       "at": [
-        "providence-day:[22].quals.hickory-grove-christian.text"
+        "providence-day:[28].quals.hickory-grove-christian.text"
       ],
       "t": "Le programme Afterschool (TK–5) et la Study Hall (niveaux 6–11) partagent une même plage de 2:30 à 5:30 p.m. : 5:30 p.m. est donc le départ le plus tardif — plus tôt que les 6:00 p.m. proposés par les autres écoles."
     },
@@ -3290,7 +4080,7 @@
       "text": "Cost of after-school care",
       "of": "bafb4f23",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[29].label"
       ],
       "t": "Coût de la garde périscolaire"
     },
@@ -3298,7 +4088,7 @@
       "text": "The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.",
       "of": "459a5728",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[29].note"
       ],
       "t": "La formule publiée la plus chère : la tranche de niveaux la plus coûteuse, à l’horaire de sortie le plus tardif, cinq jours par semaine. Chaque cellule affiche un coût mensuel avec le total annuel en dessous. Les écoles facturent sur des périodes différentes — mensuelle, semestrielle, annuelle — le signe ≈ marque donc le chiffre que nous avons converti et non celui que publie l’école, en supposant une année scolaire de 10 mois. Lisez les notes de chaque cellule avant de comparer. Tarifs 2026–27, sauf ceux de Cannon, qui datent de 2025–26."
     },
@@ -3306,7 +4096,7 @@
       "text": "≈$378/mo",
       "of": "12060e16",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[29].values.cannon"
       ],
       "t": "≈$378/mois"
     },
@@ -3314,7 +4104,7 @@
       "text": "$325/mo",
       "of": "78207236",
       "at": [
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[29].values.charlotte-christian"
       ],
       "t": "$325/mois"
     },
@@ -3322,7 +4112,7 @@
       "text": "$900/mo",
       "of": "07338e8f",
       "at": [
-        "providence-day:[23].values.charlotte-country-day"
+        "providence-day:[29].values.charlotte-country-day"
       ],
       "t": "$900/mois"
     },
@@ -3330,7 +4120,7 @@
       "text": "≈$930/mo",
       "of": "5a8ce014",
       "at": [
-        "providence-day:[23].values.charlotte-latin"
+        "providence-day:[29].values.charlotte-latin"
       ],
       "t": "≈$930/mois"
     },
@@ -3338,7 +4128,7 @@
       "text": "$744/mo",
       "of": "2cf59f11",
       "at": [
-        "providence-day:[23].values.covenant-day"
+        "providence-day:[29].values.covenant-day"
       ],
       "t": "$744/mois"
     },
@@ -3346,7 +4136,7 @@
       "text": "$245/mo",
       "of": "fca2b9dd",
       "at": [
-        "providence-day:[23].values.carmel-christian"
+        "providence-day:[29].values.carmel-christian"
       ],
       "t": "$245/mois"
     },
@@ -3354,7 +4144,7 @@
       "text": "$95/wk",
       "of": "14616d74",
       "at": [
-        "providence-day:[23].values.gaston-day"
+        "providence-day:[29].values.gaston-day"
       ],
       "t": "$95/wk"
     },
@@ -3362,7 +4152,7 @@
       "text": "$750/mo",
       "of": "d147bcce",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[29].values.providence-day"
       ],
       "t": "$750/mois"
     },
@@ -3370,7 +4160,7 @@
       "text": "$3,784/yr",
       "of": "f1cd0645",
       "at": [
-        "providence-day:[23].subs.cannon"
+        "providence-day:[29].subs.cannon"
       ],
       "t": "$3,784/an"
     },
@@ -3378,7 +4168,7 @@
       "text": "≈$3,250/yr",
       "of": "c5df3b81",
       "at": [
-        "providence-day:[23].subs.charlotte-christian"
+        "providence-day:[29].subs.charlotte-christian"
       ],
       "t": "≈$3,250/an"
     },
@@ -3386,7 +4176,7 @@
       "text": "≈$9,000/yr",
       "of": "4d4cf8b6",
       "at": [
-        "providence-day:[23].subs.charlotte-country-day"
+        "providence-day:[29].subs.charlotte-country-day"
       ],
       "t": "≈$9,000/an"
     },
@@ -3394,7 +4184,7 @@
       "text": "$9,300/yr",
       "of": "a629cde3",
       "at": [
-        "providence-day:[23].subs.charlotte-latin"
+        "providence-day:[29].subs.charlotte-latin"
       ],
       "t": "$9,300/an"
     },
@@ -3402,7 +4192,7 @@
       "text": "$6,696/yr",
       "of": "71c8d334",
       "at": [
-        "providence-day:[23].subs.covenant-day"
+        "providence-day:[29].subs.covenant-day"
       ],
       "t": "$6,696/an"
     },
@@ -3410,7 +4200,7 @@
       "text": "≈$2,205/yr",
       "of": "9ebecfe2",
       "at": [
-        "providence-day:[23].subs.carmel-christian"
+        "providence-day:[29].subs.carmel-christian"
       ],
       "t": "≈$2,205/an"
     },
@@ -3418,7 +4208,7 @@
       "text": "≈$7,500/yr",
       "of": "ff10409d",
       "at": [
-        "providence-day:[23].subs.providence-day"
+        "providence-day:[29].subs.providence-day"
       ],
       "t": "≈$7,500/an"
     },
@@ -3426,7 +4216,7 @@
       "text": "$95/week is the Lower School (PS–4th) rate on the 2025-26 fee schedule; Middle School (5th–8th) is $55/week. Drop-in is $30/day and $15/day respectively. The programme web page labels the recurring figures as $100 and $60 per MONTH — the weekly reading is used because a monthly rate below four drop-in days is not coherent.",
       "of": "1bd17d1a",
       "at": [
-        "providence-day:[23].quals.gaston-day.text"
+        "providence-day:[29].quals.gaston-day.text"
       ],
       "t": "$95/semaine est le tarif Lower School (PS–4th) du barème 2025-26 ; le Middle School (5th–8th) est à $55/semaine. L’accueil ponctuel est à $30/jour et $15/jour respectivement. La page web du programme libelle les montants récurrents comme $100 et $60 par MOIS — c’est la lecture hebdomadaire qui est retenue, car un tarif mensuel inférieur à quatre journées ponctuelles n’est pas cohérent."
     },
@@ -3434,7 +4224,7 @@
       "text": "Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.",
       "of": "a2b60be7",
       "at": [
-        "providence-day:[23].quals.cannon.text"
+        "providence-day:[29].quals.cannon.text"
       ],
       "t": "Cannon publie un seul prix annuel, $3,784 — le chiffre mensuel ci-dessus est ce montant réparti sur 10 mois, et non un tarif annoncé par l’école. Il couvre l’After School Program JrK–8, de 3:00 à 6:00 p.m. (3 heures), cinq jours par semaine, aux tarifs 2025–26 : la seule école ici qui ne soit pas en 2026–27, car la page portant la grille tarifaire n’est plus liée publiquement."
     },
@@ -3442,7 +4232,7 @@
       "text": "JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27; the yearly total assumes 10 billing months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).",
       "of": "34914993",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text"
+        "providence-day:[29].quals.charlotte-christian.text"
       ],
       "t": "Extended Day de JK à la classe 4 jusqu’à 6:00 p.m., cinq jours par semaine, facturé mensuellement à $325 pour 2026–27 ; le total annuel suppose 10 mois de facturation. Les tarifs ont augmenté de 32–52% par rapport à 2024–25, et la Middle School n’entre pas dans ce chiffre car elle facture à l’heure ($8/h, jusqu’à 5:00 p.m.)."
     },
@@ -3450,7 +4240,7 @@
       "text": "Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.",
       "of": "bfd505a4",
       "at": [
-        "providence-day:[23].quals.charlotte-country-day.text"
+        "providence-day:[29].quals.charlotte-country-day.text"
       ],
       "t": "Junior Kindergarten à l’horaire de 6:00 p.m., cinq jours par semaine, facturé mensuellement à $900 — le total annuel suppose 10 mois, ce que l’école ne publie pas. JK sort à 1:15 p.m., ce qui couvre donc environ 4.75 heures par jour ; les classes 1–4 au même horaire de 6:00 p.m. coûtent $610/mois."
     },
@@ -3458,7 +4248,7 @@
       "text": "Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.",
       "of": "761a11d0",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text"
+        "providence-day:[29].quals.charlotte-latin.text"
       ],
       "t": "Latin facture au semestre, $4,650 deux fois par an — le chiffre mensuel ci-dessus correspond à ces $9,300 répartis sur 10 mois, et non à un tarif annoncé par l’école. Il couvre TK/K à l’horaire de 1:30 à 6:00 p.m. cinq jours par semaine ; TK et Kindergarten sortent à 1:30 p.m., ce qui couvre donc 4.5 heures par jour, plus que tout autre chiffre à côté. Les classes 1–5 à leur horaire de 2:55 à 6:00 p.m. coûtent $3,000 par semestre."
     },
@@ -3466,7 +4256,7 @@
       "text": "Covenant Day prices per 1.5-hour session ($248/month for five days a week): a JK/K child dismissed at 1:30 p.m. needs all three sessions to reach 6:00, i.e. $744/month. The yearly figure is the school’s own \"for 10 Months\" table ($6,696), cheaper than 10× the monthly rate because August and December bill at half. Grades 1–8 dismiss around 3:00 and need only two sessions ($496/month); before-care from 7:30 a.m. is free.",
       "of": "10cbfb01",
       "at": [
-        "providence-day:[23].quals.covenant-day.text"
+        "providence-day:[29].quals.covenant-day.text"
       ],
       "t": "Covenant Day facture par session de 1.5 heure ($248/mois pour cinq jours par semaine) : un enfant de JK/K qui sort à 1:30 p.m. a besoin des trois sessions pour atteindre 6:00, soit $744/mois. Le montant annuel provient du propre tableau « for 10 Months » de l’école ($6,696), moins cher que 10× le tarif mensuel parce qu’août et décembre sont facturés à moitié. Les niveaux 1–8 sortent vers 3:00 et n’ont besoin que de deux sessions ($496/mois) ; l’accueil du matin dès 7:30 a.m. est gratuit."
     },
@@ -3474,7 +4264,7 @@
       "text": "Carmel Christian publishes one flat After School / After YCC rate — $245/month for five days a week, 3:00–6:00 p.m. — the same for every grade, unlike the tiered-by-grade schools beside it. The yearly total spreads it over the nine billing months the handbook states; before-care from 7:30 a.m. is $110/month, and there is a $30/day drop-in.",
       "of": "cf0e9d8e",
       "at": [
-        "providence-day:[23].quals.carmel-christian.text"
+        "providence-day:[29].quals.carmel-christian.text"
       ],
       "t": "Carmel Christian publie un tarif unique et forfaitaire pour l’After School / After YCC — $245 par mois pour cinq jours par semaine, de 3:00 à 6:00 p.m. — identique pour tous les niveaux, contrairement aux écoles voisines qui pratiquent des tarifs par niveau. Le total annuel le répartit sur les neuf mois de facturation indiqués dans le règlement ; la garde du matin à partir de 7:30 a.m. coûte $110 par mois, et il existe une formule à la journée à $30."
     },
@@ -3482,7 +4272,7 @@
       "text": "Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.",
       "of": "16104bd6",
       "at": [
-        "providence-day:[23].quals.providence-day.text"
+        "providence-day:[29].quals.providence-day.text"
       ],
       "t": "Transitional Kindergarten à l’horaire de 1 à 6 p.m., cinq jours par semaine, facturé mensuellement à $750 ; le total annuel suppose 10 mois, et l’école indique explicitement qu’elle ne publie pas son nombre de mois de facturation. TK sort à 1:00 p.m., ce qui couvre donc 5 heures par jour ; les classes 1–5 de 3 à 6 p.m. coûtent $470/mois, et il n’existe aucune option à la carte."
     },
@@ -3490,7 +4280,7 @@
       "text": "Weeks of summer camp",
       "of": "4e40c309",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[30].label"
       ],
       "t": "Semaines de camp d’été"
     },
@@ -3498,7 +4288,7 @@
       "text": "Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.",
       "of": "473a9df1",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[30].note"
       ],
       "t": "Nombre de semaines de camp que l’école organise à l’été 2026, semaines écourtées par les jours fériés comprises. Une saison plus longue, ce sont plus de semaines qu’une famille peut couvrir."
     },
@@ -3506,8 +4296,8 @@
       "text": "7",
       "of": "320ca3f6",
       "at": [
-        "providence-day:[24].values.cannon",
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[30].values.cannon",
+        "providence-day:[30].values.charlotte-latin"
       ],
       "t": "7"
     },
@@ -3515,8 +4305,8 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[24].values.charlotte-christian",
-        "providence-day:[24].values.carmel-christian"
+        "providence-day:[30].values.charlotte-christian",
+        "providence-day:[30].values.carmel-christian"
       ],
       "t": "6"
     },
@@ -3524,8 +4314,8 @@
       "text": "4",
       "of": "310ca263",
       "at": [
-        "providence-day:[24].values.charlotte-catholic",
-        "providence-day:[25].values.charlotte-catholic"
+        "providence-day:[30].values.charlotte-catholic",
+        "providence-day:[31].values.charlotte-catholic"
       ],
       "t": "4"
     },
@@ -3533,7 +4323,7 @@
       "text": "Four distinct camp windows across June and July, every one a half-day block. CCHS runs no continuous multi-week summer season and no academic summer school — its handbook states a failing student retakes the course externally, at their own expense.",
       "of": "a5ef77cd",
       "at": [
-        "providence-day:[24].quals.charlotte-catholic.text"
+        "providence-day:[30].quals.charlotte-catholic.text"
       ],
       "t": "Quatre périodes de stage distinctes réparties sur juin et juillet, chacune sous forme de demi-journée. CCHS ne propose ni saison estivale continue sur plusieurs semaines, ni école d’été académique — son règlement précise qu’un élève en échec repasse le cours à l’extérieur, à ses propres frais."
     },
@@ -3541,7 +4331,7 @@
       "text": "Eight weeks including the June 1-5 \"Pre-Camp\" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.",
       "of": "e9f9e019",
       "at": [
-        "providence-day:[24].quals.charlotte-country-day.text"
+        "providence-day:[30].quals.charlotte-country-day.text"
       ],
       "t": "Huit semaines, y compris la semaine « Pre-Camp » du 1-5 juin, qui compte 9 camps tarifés. La page d’été de l’école elle-même présente la saison comme les sept semaines à partir du 8 juin."
     },
@@ -3549,7 +4339,7 @@
       "text": "The live 2026 page shows eight session windows (Jun–Jul), consistent with the ~8 week-blocks of the Summer 2023 catalog recovered from the Internet Archive; the exact 2026 camp names are hidden behind the school's registration platform.",
       "of": "952a5232",
       "at": [
-        "providence-day:[24].quals.hickory-grove-christian.text"
+        "providence-day:[30].quals.hickory-grove-christian.text"
       ],
       "t": "La page 2026 en ligne affiche huit fenêtres de session (juin–juil.), ce qui concorde avec les ~8 blocs hebdomadaires du catalogue Summer 2023 récupéré depuis l’Internet Archive ; les noms exacts des stages 2026 sont masqués derrière la plateforme d’inscription de l’école."
     },
@@ -3557,7 +4347,7 @@
       "text": "Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).",
       "of": "a93f21d0",
       "at": [
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[30].quals.charlotte-christian.text"
       ],
       "t": "Six semaines, mais pas consécutives : l’école observe une pause de deux semaines autour du 4 juillet (aucun camp du 29 juin au 3 juillet)."
     },
@@ -3565,7 +4355,7 @@
       "text": "Eight camp weeks between June 1 and July 31, not consecutive — the week of June 29 has no camps.",
       "of": "9b3d546d",
       "at": [
-        "providence-day:[24].quals.covenant-day.text"
+        "providence-day:[30].quals.covenant-day.text"
       ],
       "t": "Huit semaines de stage entre le 1er juin et le 31 juillet, non consécutives — la semaine du 29 juin n’a pas de stages."
     },
@@ -3573,7 +4363,7 @@
       "text": "Camps published",
       "of": "d6903fa7",
       "at": [
-        "providence-day:[25].label"
+        "providence-day:[31].label"
       ],
       "t": "Camps publiés"
     },
@@ -3581,7 +4371,7 @@
       "text": "Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.",
       "of": "bc366956",
       "at": [
-        "providence-day:[25].note"
+        "providence-day:[31].note"
       ],
       "t": "Camps proposés dans le catalogue 2026 de l’école elle-même. Les conventions de décompte diffèrent — la plupart des écoles comptent chaque semaine de camp comme une ligne distincte — il faut donc lire les notes de chaque cellule avant de comparer."
     },
@@ -3589,7 +4379,7 @@
       "text": "251",
       "of": "26db2743",
       "at": [
-        "providence-day:[25].values.cannon"
+        "providence-day:[31].values.cannon"
       ],
       "t": "251"
     },
@@ -3597,7 +4387,7 @@
       "text": "133",
       "of": "7a3aae4a",
       "at": [
-        "providence-day:[25].values.charlotte-christian"
+        "providence-day:[31].values.charlotte-christian"
       ],
       "t": "133"
     },
@@ -3605,7 +4395,7 @@
       "text": "132",
       "of": "7b3aafdd",
       "at": [
-        "providence-day:[25].values.charlotte-country-day"
+        "providence-day:[31].values.charlotte-country-day"
       ],
       "t": "132"
     },
@@ -3613,7 +4403,7 @@
       "text": "232",
       "of": "27ea3360",
       "at": [
-        "providence-day:[25].values.charlotte-latin"
+        "providence-day:[31].values.charlotte-latin"
       ],
       "t": "232"
     },
@@ -3621,7 +4411,7 @@
       "text": "20",
       "of": "8df2997f",
       "at": [
-        "providence-day:[25].values.covenant-day"
+        "providence-day:[31].values.covenant-day"
       ],
       "t": "20"
     },
@@ -3629,7 +4419,7 @@
       "text": "36",
       "of": "89f0549c",
       "at": [
-        "providence-day:[25].values.carmel-christian"
+        "providence-day:[31].values.carmel-christian"
       ],
       "t": "36"
     },
@@ -3637,8 +4427,8 @@
       "text": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[25].values.hickory-grove-christian",
-        "providence-day:[28].values.providence-day"
+        "providence-day:[31].values.hickory-grove-christian",
+        "providence-day:[34].values.providence-day"
       ],
       "t": "17"
     },
@@ -3646,7 +4436,7 @@
       "text": "30",
       "of": "87f05176",
       "at": [
-        "providence-day:[25].values.gaston-day"
+        "providence-day:[31].values.gaston-day"
       ],
       "t": "30"
     },
@@ -3654,7 +4444,7 @@
       "text": "170",
       "of": "e130c313",
       "at": [
-        "providence-day:[25].values.providence-day"
+        "providence-day:[31].values.providence-day"
       ],
       "t": "170"
     },
@@ -3662,7 +4452,7 @@
       "text": "Cougar Basketball, Eddie Hull Baseball, Cougar Football and Just4Kicks Soccer. Notre Dame Vision and the Mayor's Youth Employment Program are hosted by others and are not counted as CCHS camps.",
       "of": "0ff37082",
       "at": [
-        "providence-day:[25].quals.charlotte-catholic.text"
+        "providence-day:[31].quals.charlotte-catholic.text"
       ],
       "t": "Cougar Basketball, Eddie Hull Baseball, Cougar Football et Just4Kicks Soccer. Notre Dame Vision et le Mayor’s Youth Employment Program sont organisés par d’autres et ne sont pas comptés comme des stages de CCHS."
     },
@@ -3670,7 +4460,7 @@
       "text": "251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.",
       "of": "94ffcc7f",
       "at": [
-        "providence-day:[25].quals.cannon.text"
+        "providence-day:[31].quals.cannon.text"
       ],
       "t": "251 offres camp-semaine réparties sur sept semaines, correspondant à environ 180 intitulés de camp distincts. Comptées à partir de la brochure 2026 de 80 pages de l’école elle-même."
     },
@@ -3678,7 +4468,7 @@
       "text": "17 named camps in the Summer 2023 catalog — 12 academic/enrichment and 5 athletic — recovered from the Internet Archive because the live 2026 catalog is hidden behind the school's registration platform. A representative slate, not the exact 2026 list.",
       "of": "e5176267",
       "at": [
-        "providence-day:[25].quals.hickory-grove-christian.text"
+        "providence-day:[31].quals.hickory-grove-christian.text"
       ],
       "t": "17 stages nommés dans le catalogue Summer 2023 — 12 académiques/d’enrichissement et 5 sportifs — récupérés depuis l’Internet Archive, le catalogue 2026 en vigueur étant masqué derrière la plateforme d’inscription de l’école. Une programmation représentative, et non la liste exacte de 2026."
     },
@@ -3686,7 +4476,7 @@
       "text": "232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.",
       "of": "7f216eb0",
       "at": [
-        "providence-day:[25].quals.charlotte-latin.text"
+        "providence-day:[31].quals.charlotte-latin.text"
       ],
       "t": "232 offres réparties sur sept sessions, issues de 169 intitulés de camp uniques — un camp proposé sur trois sessions est compté trois fois."
     },
@@ -3694,7 +4484,7 @@
       "text": "170 priced rows in the 2026 brochure, covering 151 distinct camp names and 231 total camp-session offerings.",
       "of": "a5300730",
       "at": [
-        "providence-day:[25].quals.providence-day.text"
+        "providence-day:[31].quals.providence-day.text"
       ],
       "t": "170 lignes tarifées dans la brochure 2026, couvrant 151 noms de camp distincts et 231 offres camp-session au total."
     },
@@ -3702,7 +4492,7 @@
       "text": "132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as \"over 150 exciting camp options\", a figure its public listing does not itemize.",
       "of": "7491b610",
       "at": [
-        "providence-day:[25].quals.charlotte-country-day.text"
+        "providence-day:[31].quals.charlotte-country-day.text"
       ],
       "t": "132 lignes tarifées, soit environ 85 intitulés de camp distincts. L’école présente par ailleurs le programme comme « plus de 150 options de camp passionnantes », un chiffre que sa liste publique ne détaille pas."
     },
@@ -3710,7 +4500,7 @@
       "text": "133 half-day sessions across six weeks, roughly 96 distinct camps. Every one is a three-hour half-day — the school publishes no full-day camp.",
       "of": "3910e6df",
       "at": [
-        "providence-day:[25].quals.charlotte-christian.text"
+        "providence-day:[31].quals.charlotte-christian.text"
       ],
       "t": "133 sessions de demi-journée réparties sur six semaines, soit environ 96 camps distincts. Toutes sont des demi-journées de trois heures — l’école ne publie aucun camp à la journée complète."
     },
@@ -3718,7 +4508,7 @@
       "text": "20 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets \"29 camps\"; per-week variants and portal-only offerings likely account for the difference.",
       "of": "f3deb34b",
       "at": [
-        "providence-day:[25].quals.covenant-day.text"
+        "providence-day:[31].quals.covenant-day.text"
       ],
       "t": "20 stages distincts nommés sur la page publique 2026 — un décompte par stage, et non le décompte de sessions par semaine que publient la plupart des écoles voisines. L’école commercialise séparément « 29 camps » ; les variantes par semaine et les offres réservées au portail expliquent probablement la différence."
     },
@@ -3726,7 +4516,7 @@
       "text": "Ages served",
       "of": "20a1e226",
       "at": [
-        "providence-day:[26].label"
+        "providence-day:[32].label"
       ],
       "t": "Âges accueillis"
     },
@@ -3734,7 +4524,7 @@
       "text": "The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.",
       "of": "4d564628",
       "at": [
-        "providence-day:[26].note"
+        "providence-day:[32].note"
       ],
       "t": "L’amplitude que couvre le catalogue d’été de l’école elle-même. Latin et Cannon classent leurs camps par âge ; les autres publient des tranches de niveau scolaire, reprises ici telles que l’école les formule."
     },
@@ -3742,8 +4532,8 @@
       "text": "4–18",
       "of": "cca868d1",
       "at": [
-        "providence-day:[26].values.cannon",
-        "providence-day:[26].values.providence-day"
+        "providence-day:[32].values.cannon",
+        "providence-day:[32].values.providence-day"
       ],
       "t": "4–18"
     },
@@ -3751,8 +4541,8 @@
       "text": "JK–Grade 12",
       "of": "a9b0c7e9",
       "at": [
-        "providence-day:[26].values.charlotte-christian",
-        "providence-day:[26].values.covenant-day"
+        "providence-day:[32].values.charlotte-christian",
+        "providence-day:[32].values.covenant-day"
       ],
       "t": "JK–12e année"
     },
@@ -3760,7 +4550,7 @@
       "text": "ages 6–13",
       "of": "3c2734a0",
       "at": [
-        "providence-day:[26].values.charlotte-catholic"
+        "providence-day:[32].values.charlotte-catholic"
       ],
       "t": "6–13 ans"
     },
@@ -3768,7 +4558,7 @@
       "text": "Age 4–Grade 12",
       "of": "ba434c7b",
       "at": [
-        "providence-day:[26].values.charlotte-country-day"
+        "providence-day:[32].values.charlotte-country-day"
       ],
       "t": "Âge 4–Grade 12"
     },
@@ -3776,7 +4566,7 @@
       "text": "3.5–18",
       "of": "349c7711",
       "at": [
-        "providence-day:[26].values.charlotte-latin"
+        "providence-day:[32].values.charlotte-latin"
       ],
       "t": "3.5–18"
     },
@@ -3784,7 +4574,7 @@
       "text": "rising K–8",
       "of": "d534a63d",
       "at": [
-        "providence-day:[26].values.carmel-christian"
+        "providence-day:[32].values.carmel-christian"
       ],
       "t": "futurs K–8"
     },
@@ -3792,7 +4582,7 @@
       "text": "rising 1–8",
       "of": "cbc3c1d3",
       "at": [
-        "providence-day:[26].values.hickory-grove-christian"
+        "providence-day:[32].values.hickory-grove-christian"
       ],
       "t": "futurs 1–8"
     },
@@ -3800,7 +4590,7 @@
       "text": "rising PK–Grade 12",
       "of": "e78394a3",
       "at": [
-        "providence-day:[26].values.gaston-day"
+        "providence-day:[32].values.gaston-day"
       ],
       "t": "futurs PK–Grade 12"
     },
@@ -3808,7 +4598,7 @@
       "text": "These are community youth camps that CCHS athletics hosts, not summer programming for its own students. Campers are rising 2nd-9th graders aged 6-13 — younger than the 9-12 school running them, which is why the band sits below the school's own grade span.",
       "of": "85ccd063",
       "at": [
-        "providence-day:[26].quals.charlotte-catholic.text"
+        "providence-day:[32].quals.charlotte-catholic.text"
       ],
       "t": "Il s’agit de stages pour jeunes de la communauté organisés par le service des sports de CCHS, et non d’une offre estivale destinée à ses propres élèves. Les participants entrent en 2e à 9e année et ont de 6 à 13 ans — plus jeunes que l’école 9-12 qui les accueille, raison pour laquelle cette tranche se situe en deçà des niveaux de l’école elle-même."
     },
@@ -3816,7 +4606,7 @@
       "text": "Camp Spartan Jr takes rising PK–K and Camp Spartan rising 1st–5th; half-day enrichment camps span rising PreK–6th; summer tutoring runs to rising 12th. Nike Sports Camps are advertised by age (8–17) rather than by grade.",
       "of": "e5ef27d2",
       "at": [
-        "providence-day:[26].quals.gaston-day.text"
+        "providence-day:[32].quals.gaston-day.text"
       ],
       "t": "Camp Spartan Jr accueille les futurs PK–K et Camp Spartan les futurs 1st–5th ; les stages d’enrichissement en demi-journée couvrent les futurs PreK–6th ; le soutien scolaire d’été va jusqu’aux futurs 12th. Les Nike Sports Camps sont annoncés par âge (8–17) et non par niveau."
     },
@@ -3824,7 +4614,7 @@
       "text": "The school states camps are \"open to all campers ages 3.5 - 18 years old\". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.",
       "of": "e3070636",
       "at": [
-        "providence-day:[26].quals.charlotte-latin.text"
+        "providence-day:[32].quals.charlotte-latin.text"
       ],
       "t": "L’école indique que les camps sont « ouverts à tous les campeurs de 3.5 - 18 ans ». L’âge est calculé au 1er août 2026, et tous les campeurs de Pre-K doivent être propres."
     },
@@ -3832,7 +4622,7 @@
       "text": "The brochure says campers must be \"at least four years old by January 1, 2026\"; the About page states ages 4.5 to 18. Both are the school’s own wording.",
       "of": "2a21488f",
       "at": [
-        "providence-day:[26].quals.providence-day.text"
+        "providence-day:[32].quals.providence-day.text"
       ],
       "t": "La brochure précise que les campeurs doivent avoir « au moins quatre ans révolus au 1er janvier 2026 » ; la page About indique des âges de 4.5 à 18 ans. Les deux formulations sont celles de l’école."
     },
@@ -3840,7 +4630,7 @@
       "text": "The listing’s lowest published band is Age 4. The school’s own pages disagree on the floor — the summer page says ages 4–18, the after-school page says 3–18.",
       "of": "ef5848a4",
       "at": [
-        "providence-day:[26].quals.charlotte-country-day.text"
+        "providence-day:[32].quals.charlotte-country-day.text"
       ],
       "t": "La tranche la plus basse publiée dans la liste est Âge 4. Les pages de l’école elle-même divergent sur ce seuil — la page d’été indique 4–18 ans, la page périscolaire 3–18 ans."
     },
@@ -3848,7 +4638,7 @@
       "text": "Grades are rising 2026-27. JK campers must have turned 4 by February 1, 2026.",
       "of": "3f5e77ee",
       "at": [
-        "providence-day:[26].quals.charlotte-christian.text"
+        "providence-day:[32].quals.charlotte-christian.text"
       ],
       "t": "Les niveaux indiqués sont ceux de la rentrée 2026-27. Les campeurs de JK doivent avoir eu 4 ans au 1er février 2026."
     },
@@ -3856,7 +4646,7 @@
       "text": "The school states Camp Cannon is \"open to all children ages 4 to 18\". Campers must be fully potty trained, and only camps matching a child’s age appear during online registration.",
       "of": "4b131395",
       "at": [
-        "providence-day:[26].quals.cannon.text"
+        "providence-day:[32].quals.cannon.text"
       ],
       "t": "L’école indique que Camp Cannon est « ouvert à tous les enfants de 4 à 18 ans ». Les campeurs doivent être entièrement propres, et seuls les camps correspondant à l’âge de l’enfant apparaissent lors de l’inscription en ligne."
     },
@@ -3864,7 +4654,7 @@
       "text": "Grades are rising grades for the coming school year, from Little Lion/Cub Camp at the bottom through high-school strength-and-conditioning and college-admissions camps. Camps are open to the community.",
       "of": "69e9d0af",
       "at": [
-        "providence-day:[26].quals.covenant-day.text"
+        "providence-day:[32].quals.covenant-day.text"
       ],
       "t": "Les niveaux sont les niveaux futurs pour l’année scolaire à venir, du Little Lion/Cub Camp tout en bas jusqu’aux stages de préparation physique du lycée et d’admission universitaire. Les stages sont ouverts à la communauté."
     },
@@ -3872,7 +4662,7 @@
       "text": "Summer Adventures serves rising kindergarten through rising 8th grade; individual camps carry narrower bands.",
       "of": "a35bbc86",
       "at": [
-        "providence-day:[26].quals.carmel-christian.text"
+        "providence-day:[32].quals.carmel-christian.text"
       ],
       "t": "Summer Adventures accueille les futurs élèves de la kindergarten à la 8e année ; les stages pris individuellement couvrent des tranches plus étroites."
     },
@@ -3880,7 +4670,7 @@
       "text": "The great majority of camps serve rising 1st–8th graders, plus one high-school camp (a College Admissions Boot Camp for rising juniors and seniors). From the Summer 2023 catalog, recovered from the Internet Archive.",
       "of": "cdadf459",
       "at": [
-        "providence-day:[26].quals.hickory-grove-christian.text"
+        "providence-day:[32].quals.hickory-grove-christian.text"
       ],
       "t": "La grande majorité des stages s’adresse aux futurs élèves de la 1re à la 8e année, à quoi s’ajoute un stage destiné au lycée (un College Admissions Boot Camp pour les futurs élèves de 11e et 12e année). D’après le catalogue Summer 2023, récupéré depuis l’Internet Archive."
     },
@@ -3888,7 +4678,7 @@
       "text": "Wrap-around care",
       "of": "2459c4c2",
       "at": [
-        "providence-day:[27].label"
+        "providence-day:[33].label"
       ],
       "t": "Accueil élargi"
     },
@@ -3896,7 +4686,7 @@
       "text": "Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.",
       "of": "5701e6ec",
       "at": [
-        "providence-day:[27].note"
+        "providence-day:[33].note"
       ],
       "t": "De la dépose la plus matinale à la récupération la plus tardive avec les options payantes d’accueil du matin et du soir de l’école — la véritable amplitude d’une journée de camp pour une famille qui travaille."
     },
@@ -3904,9 +4694,9 @@
       "text": "7:30 AM–5:30 PM",
       "of": "ed8a2e9b",
       "at": [
-        "providence-day:[27].values.cannon",
-        "providence-day:[27].values.charlotte-latin",
-        "providence-day:[27].values.covenant-day"
+        "providence-day:[33].values.cannon",
+        "providence-day:[33].values.charlotte-latin",
+        "providence-day:[33].values.covenant-day"
       ],
       "t": "7:30 a.m.–5:30 p.m."
     },
@@ -3914,7 +4704,7 @@
       "text": "8:00 AM–5:00 PM",
       "of": "42437dde",
       "at": [
-        "providence-day:[27].values.charlotte-christian"
+        "providence-day:[33].values.charlotte-christian"
       ],
       "t": "8:00 a.m.–5:00 p.m."
     },
@@ -3922,7 +4712,7 @@
       "text": "7:30 AM–5:00 PM",
       "of": "792cd57e",
       "at": [
-        "providence-day:[27].values.charlotte-country-day"
+        "providence-day:[33].values.charlotte-country-day"
       ],
       "t": "7:30 a.m.–5:00 p.m."
     },
@@ -3930,7 +4720,7 @@
       "text": "7:45 AM–5:00 PM",
       "of": "195aba7e",
       "at": [
-        "providence-day:[27].values.gaston-day"
+        "providence-day:[33].values.gaston-day"
       ],
       "t": "7:45 a.m.–5:00 p.m."
     },
@@ -3938,7 +4728,7 @@
       "text": "7:00 AM–6:00 PM",
       "of": "9b4038c2",
       "at": [
-        "providence-day:[27].values.providence-day"
+        "providence-day:[33].values.providence-day"
       ],
       "t": "7:00 a.m.–6:00 p.m."
     },
@@ -3946,7 +4736,7 @@
       "text": "Before Camp Care runs 7:45–8:30 AM at $25/week and After Camp Care 3:30–5:00 PM at $35/week, both registered separately from the camps. A Between Camp Lunch Care block (11:30 AM–12:30 PM, $40/week) is REQUIRED for campers staying on campus between a morning and an afternoon camp.",
       "of": "18f2e836",
       "at": [
-        "providence-day:[27].quals.gaston-day.text"
+        "providence-day:[33].quals.gaston-day.text"
       ],
       "t": "Le Before Camp Care fonctionne de 7:45 à 8:30 AM à $25/semaine et l’After Camp Care de 3:30 à 5:00 PM à $35/semaine, tous deux avec une inscription distincte de celle des stages. Un créneau de Between Camp Lunch Care (11:30 AM–12:30 PM, $40/semaine) est OBLIGATOIRE pour les campeurs qui restent sur le campus entre un stage du matin et un stage de l’après-midi."
     },
@@ -3954,7 +4744,7 @@
       "text": "An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.",
       "of": "5f49f081",
       "at": [
-        "providence-day:[27].quals.providence-day.text"
+        "providence-day:[33].quals.providence-day.text"
       ],
       "t": "Une amplitude de onze heures, la plus large des cinq — Before Care dès 7am et After Care jusqu’à 6pm, à $120/semaine chacun, ou $220/semaine en formule groupée Complete Care."
     },
@@ -3962,7 +4752,7 @@
       "text": "A nine-hour span. Because every camp is a half-day, covering a full working day means registering a morning AND an afternoon camp; the noon–1 p.m. bridge care between them is free.",
       "of": "107eb4f8",
       "at": [
-        "providence-day:[27].quals.charlotte-christian.text"
+        "providence-day:[33].quals.charlotte-christian.text"
       ],
       "t": "Une amplitude de neuf heures. Comme chaque camp est à la demi-journée, couvrir une journée de travail complète suppose d’inscrire l’enfant à un camp du matin ET à un camp de l’après-midi ; l’accueil relais entre les deux, de midi à 1 p.m., est gratuit."
     },
@@ -3970,7 +4760,7 @@
       "text": "A ten-hour span: Before Care from 7:30 am at $50/week and After Care to 5:30 pm at $60/week, or $90/week for both. Camp itself runs 9:00–4:00.",
       "of": "c70f383c",
       "at": [
-        "providence-day:[27].quals.cannon.text"
+        "providence-day:[33].quals.cannon.text"
       ],
       "t": "Une amplitude de dix heures : Before Care dès 7:30 am à $50/semaine et After Care jusqu’à 5:30 pm à $60/semaine, ou $90/semaine pour les deux. Le camp lui-même se déroule de 9:00 à 4:00."
     },
@@ -3978,7 +4768,7 @@
       "text": "A ten-hour span. Before Care runs 7:30–8:15 am ($70.00/week) and After Care to 5:30 pm ($150.00/week); the Super Care bundle is $195.00/week. Late pick-up is $25.00 every 15 minutes.",
       "of": "5a5e0dc4",
       "at": [
-        "providence-day:[27].quals.charlotte-latin.text"
+        "providence-day:[33].quals.charlotte-latin.text"
       ],
       "t": "Une amplitude de dix heures. Le Before Care va de 7:30 à 8:15 am ($70.00/semaine) et l’After Care jusqu’à 5:30 pm ($150.00/semaine) ; la formule Super Care coûte $195.00/semaine. La récupération tardive est facturée $25.00 par tranche de 15 minutes."
     },
@@ -3986,7 +4776,7 @@
       "text": "A nine-and-a-half-hour span: Morning Care from 7:30 am ($105/week) and Afternoon Care to 5 pm ($85/week), or $160/week bundled as Super Care. Late pick-up is $1/minute after 5 pm.",
       "of": "e8bfeef8",
       "at": [
-        "providence-day:[27].quals.charlotte-country-day.text"
+        "providence-day:[33].quals.charlotte-country-day.text"
       ],
       "t": "Une amplitude de neuf heures et demie : Morning Care dès 7:30 am ($105/semaine) et Afternoon Care jusqu’à 5 pm ($85/semaine), ou $160/semaine en formule groupée Super Care. La récupération tardive est facturée $1/minute après 5 pm."
     },
@@ -3994,7 +4784,7 @@
       "text": "A ten-hour span for TK–8: Before Care 7:30–8:45 am at $50/week and After Care 4:00–5:30 pm at $50/week, with $30/week Lunch Care bridging noon–1 pm. Camp Lion (Full Day) and Cub Camp include all three at no extra cost.",
       "of": "a9b752de",
       "at": [
-        "providence-day:[27].quals.covenant-day.text"
+        "providence-day:[33].quals.covenant-day.text"
       ],
       "t": "Une amplitude de dix heures pour la TK–8 : garde du matin de 7:30 à 8:45 am à $50/semaine et garde du soir de 4:00 à 5:30 pm à $50/semaine, avec une garde du déjeuner à $30/semaine assurant la transition de midi à 1 pm. Camp Lion (Full Day) et Cub Camp incluent les trois sans frais supplémentaires."
     },
@@ -4002,7 +4792,7 @@
       "text": "Wrap-around care is limited to the 12–1 PM After Camp Lunch Hour add-on; no before-camp or full-day care is published.",
       "of": "a8a24ad5",
       "at": [
-        "providence-day:[27].quals.carmel-christian.text"
+        "providence-day:[33].quals.carmel-christian.text"
       ],
       "t": "La garde en complément se limite à l’option After Camp Lunch Hour de 12 à 1 PM ; aucune garde avant le stage ni à la journée complète n’est publiée."
     },
@@ -4010,7 +4800,7 @@
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[28].label"
+        "providence-day:[34].label"
       ],
       "t": "Engagements Power 4"
     },
@@ -4018,7 +4808,7 @@
       "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[28].note"
+        "providence-day:[34].note"
       ],
       "t": "Athlètes distincts engagés auprès d’un programme SEC / Big Ten / ACC / Big 12, promotions 2024–2026. Minimum documenté."
     },
@@ -4026,8 +4816,8 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[28].values.cannon",
-        "providence-day:[28].values.covenant-day"
+        "providence-day:[34].values.cannon",
+        "providence-day:[34].values.covenant-day"
       ],
       "t": "1"
     },
@@ -4035,7 +4825,7 @@
       "text": "10",
       "of": "1beb2a44",
       "at": [
-        "providence-day:[28].values.charlotte-catholic"
+        "providence-day:[34].values.charlotte-catholic"
       ],
       "t": "10"
     },
@@ -4043,8 +4833,8 @@
       "text": "0",
       "of": "350ca8af",
       "at": [
-        "providence-day:[28].values.carmel-christian",
-        "providence-day:[28].values.hickory-grove-christian"
+        "providence-day:[34].values.carmel-christian",
+        "providence-day:[34].values.hickory-grove-christian"
       ],
       "t": "0"
     },
@@ -4052,7 +4842,7 @@
       "text": "Ten Power Four commitments across the Classes of 2024-2026, each table-parsed from a dated article and checked by name. The Class of 2026 is a documented minimum: only the February signing ceremony is published, and CCHS holds separate fall and spring signing days, so baseball and lacrosse are largely unpublished for that class.",
       "of": "43a71e96",
       "at": [
-        "providence-day:[28].quals.charlotte-catholic.text"
+        "providence-day:[34].quals.charlotte-catholic.text"
       ],
       "t": "Dix engagements en Power Four sur les promotions 2024-2026, chacun extrait d’un tableau issu d’un article daté et vérifié nominativement. La promotion 2026 constitue un minimum documenté : seule la cérémonie de signature de février est publiée, et CCHS organise des journées de signature distinctes à l’automne et au printemps, si bien que le baseball et le lacrosse restent en grande partie non publiés pour cette promotion."
     },
@@ -4060,8 +4850,8 @@
       "text": "A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[28].quals.cannon.text",
-        "providence-day:[29].quals.cannon.text"
+        "providence-day:[34].quals.cannon.text",
+        "providence-day:[35].quals.cannon.text"
       ],
       "t": "Un minimum documenté. Plusieurs des athlètes les plus connus de Cannon se sont engagés en dehors de la fenêtre 2024–26 et ne sont donc pas comptés ici."
     },
@@ -4069,8 +4859,8 @@
       "text": "A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.",
       "of": "58bba487",
       "at": [
-        "providence-day:[28].quals.charlotte-christian.text",
-        "providence-day:[29].quals.charlotte-christian.text"
+        "providence-day:[34].quals.charlotte-christian.text",
+        "providence-day:[35].quals.charlotte-christian.text"
       ],
       "t": "Un minimum documenté : la liste publique des engagements de l’école va jusqu’en 2025, et sa Class of 2026 n’est pas encore établie."
     },
@@ -4078,8 +4868,8 @@
       "text": "A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.",
       "of": "cb967194",
       "at": [
-        "providence-day:[28].quals.charlotte-latin.text",
-        "providence-day:[29].quals.charlotte-latin.text"
+        "providence-day:[34].quals.charlotte-latin.text",
+        "providence-day:[35].quals.charlotte-latin.text"
       ],
       "t": "Un minimum documenté. Les classes académiquement exigeantes de Charlotte Latin orientent de nombreux athlètes vers la Division III, et ses listes de signatures de novembre sont partielles."
     },
@@ -4087,7 +4877,7 @@
       "text": "A documented minimum: Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. The Class of 2024’s spring signing article is only partially recoverable, so earlier 2024 commits may be missing.",
       "of": "3aa17bd4",
       "at": [
-        "providence-day:[28].quals.covenant-day.text"
+        "providence-day:[34].quals.covenant-day.text"
       ],
       "t": "Un minimum documenté : Emily Eaton (’24) a signé avec le programme de field hockey de Louisville, un programme de l’ACC, et a été titulaire à chaque match dès sa première année. L’article sur les signatures de printemps de la Class of 2024 n’est que partiellement récupérable, de sorte que des engagements de 2024 antérieurs peuvent manquer."
     },
@@ -4095,8 +4885,8 @@
       "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[28].quals.davidson-day.text",
-        "providence-day:[29].quals.davidson-day.text"
+        "providence-day:[34].quals.davidson-day.text",
+        "providence-day:[35].quals.davidson-day.text"
       ],
       "t": "Un minimum documenté ; les Classes of 2024 et 2026 sont sous-documentées pour Davidson Day."
     },
@@ -4104,7 +4894,7 @@
       "text": "Division I commits",
       "of": "ce720efb",
       "at": [
-        "providence-day:[29].label"
+        "providence-day:[35].label"
       ],
       "t": "Engagements Division I"
     },
@@ -4112,7 +4902,7 @@
       "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[29].note"
+        "providence-day:[35].note"
       ],
       "t": "Athlètes distincts engagés auprès d’un programme NCAA Division I quel qu’il soit, promotions 2024–2026 (inclut le décompte Power 4 ci-dessus). Minimum documenté."
     },
@@ -4120,7 +4910,7 @@
       "text": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[29].values.charlotte-christian"
+        "providence-day:[35].values.charlotte-christian"
       ],
       "t": "26"
     },
@@ -4128,7 +4918,7 @@
       "text": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[29].values.charlotte-latin"
+        "providence-day:[35].values.charlotte-latin"
       ],
       "t": "14"
     },
@@ -4136,7 +4926,7 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "providence-day:[29].values.carmel-christian"
+        "providence-day:[35].values.carmel-christian"
       ],
       "t": "5"
     },
@@ -4144,7 +4934,7 @@
       "text": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[29].values.providence-day"
+        "providence-day:[35].values.providence-day"
       ],
       "t": "39"
     },
@@ -4152,7 +4942,7 @@
       "text": "Twenty-five Division I commitments among 35 documented athletes; Power Four is a subset. One athlete named on a signing list but never found on a college roster is excluded. See p4-commits-2426 on why the 2026 class is understated.",
       "of": "3144613e",
       "at": [
-        "providence-day:[29].quals.charlotte-catholic.text"
+        "providence-day:[35].quals.charlotte-catholic.text"
       ],
       "t": "Vingt-cinq engagements en Division I parmi 35 athlètes documentés ; le Power Four en est un sous-ensemble. Un athlète figurant sur une liste de signatures mais jamais retrouvé dans un effectif universitaire est exclu. Voir p4-commits-2426 sur les raisons pour lesquelles la promotion 2026 est sous-évaluée."
     },
@@ -4160,7 +4950,7 @@
       "text": "A documented minimum from the school’s own signing articles: Eaton and Marcus (’24), Huitt, Dirks, Gardner and Stanley (’25), Neil, Welsh and Houseton (’26). The Class of 2024 article is only partially recoverable, so the floor may be low.",
       "of": "3a938b8a",
       "at": [
-        "providence-day:[29].quals.covenant-day.text"
+        "providence-day:[35].quals.covenant-day.text"
       ],
       "t": "Un minimum documenté d’après les propres articles de signatures de l’école : Eaton et Marcus (’24), Huitt, Dirks, Gardner et Stanley (’25), Neil, Welsh et Houseton (’26). L’article de la Class of 2024 n’est que partiellement récupérable, de sorte que le socle peut être bas."
     },
@@ -4168,7 +4958,7 @@
       "text": "A documented minimum — all three are baseball: Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025, plus Brady Johnson (ETSU). All are mid-major D1; no Power 4 and no other-sport commit surfaced, and the school publishes no all-sport list.",
       "of": "fdfe26b8",
       "at": [
-        "providence-day:[29].quals.hickory-grove-christian.text"
+        "providence-day:[35].quals.hickory-grove-christian.text"
       ],
       "t": "Un minimum documenté — les trois relèvent du baseball : Davis Cabbage (UNC Wilmington) et Ben Green (UNC Asheville) dans la promotion 2025, plus Brady Johnson (ETSU). Tous en D1 mid-major ; aucun engagement en Power 4 ni dans un autre sport n’est apparu, et l’école ne publie aucune liste tous sports confondus."
     }

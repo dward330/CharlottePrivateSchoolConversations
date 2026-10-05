@@ -339,11 +339,11 @@
       "at": [
         "providence-day:[2].values.cannon",
         "providence-day:[2].values.gaston-day",
-        "providence-day:[24].values.charlotte-country-day",
-        "providence-day:[24].values.covenant-day",
-        "providence-day:[24].values.hickory-grove-christian",
-        "providence-day:[24].values.gaston-day",
-        "providence-day:[28].values.charlotte-christian"
+        "providence-day:[30].values.charlotte-country-day",
+        "providence-day:[30].values.covenant-day",
+        "providence-day:[30].values.hickory-grove-christian",
+        "providence-day:[30].values.gaston-day",
+        "providence-day:[34].values.charlotte-christian"
       ],
       "t": "8"
     },
@@ -365,10 +365,10 @@
         "providence-day:[2].values.covenant-day",
         "providence-day:[2].values.carmel-christian",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[24].values.providence-day",
-        "providence-day:[28].values.charlotte-country-day",
-        "providence-day:[29].values.covenant-day",
-        "providence-day:[29].values.davidson-day"
+        "providence-day:[30].values.providence-day",
+        "providence-day:[34].values.charlotte-country-day",
+        "providence-day:[35].values.covenant-day",
+        "providence-day:[35].values.davidson-day"
       ],
       "t": "9"
     },
@@ -416,7 +416,9 @@
       "text": "92%",
       "of": "decf5375",
       "at": [
-        "providence-day:[3].values.cannon"
+        "providence-day:[3].values.cannon",
+        "providence-day:[12].values.providence-day",
+        "providence-day:[14].values.charlotte-country-day"
       ],
       "t": "92%"
     },
@@ -424,7 +426,9 @@
       "text": "89%",
       "of": "5cb0b6ed",
       "at": [
-        "providence-day:[3].values.charlotte-christian"
+        "providence-day:[3].values.charlotte-christian",
+        "providence-day:[11].values.covenant-day",
+        "providence-day:[12].values.charlotte-christian"
       ],
       "t": "89%"
     },
@@ -433,7 +437,8 @@
       "of": "3ac0d9bf",
       "at": [
         "providence-day:[3].values.charlotte-catholic",
-        "providence-day:[3].values.providence-day"
+        "providence-day:[3].values.providence-day",
+        "providence-day:[14].values.charlotte-catholic"
       ],
       "t": "94%"
     },
@@ -457,7 +462,9 @@
       "text": "73%",
       "of": "2dc5384e",
       "at": [
-        "providence-day:[3].values.carmel-christian"
+        "providence-day:[3].values.carmel-christian",
+        "providence-day:[11].values.charlotte-christian",
+        "providence-day:[13].values.covenant-day"
       ],
       "t": "73%"
     },
@@ -564,7 +571,8 @@
       "text": "6 / 8",
       "of": "25dfbfd4",
       "at": [
-        "providence-day:[4].values.charlotte-catholic"
+        "providence-day:[4].values.charlotte-catholic",
+        "providence-day:[13].subs.gaston-day"
       ],
       "t": "6 / 8"
     },
@@ -572,7 +580,8 @@
       "text": "7 / 8",
       "of": "66b449f7",
       "at": [
-        "providence-day:[4].values.charlotte-country-day"
+        "providence-day:[4].values.charlotte-country-day",
+        "providence-day:[13].subs.hickory-grove-christian"
       ],
       "t": "7 / 8"
     },
@@ -604,7 +613,9 @@
       "text": "8 / 8",
       "of": "f18bd6a6",
       "at": [
-        "providence-day:[4].values.providence-day"
+        "providence-day:[4].values.providence-day",
+        "providence-day:[14].subs.cannon",
+        "providence-day:[14].subs.charlotte-latin"
       ],
       "t": "8 / 8"
     },
@@ -716,7 +727,8 @@
       "text": "10 / 17",
       "of": "0d57c08b",
       "at": [
-        "providence-day:[5].values.cannon"
+        "providence-day:[5].values.cannon",
+        "providence-day:[13].subs.charlotte-country-day"
       ],
       "t": "10 / 17"
     },
@@ -748,7 +760,8 @@
       "text": "12 / 17",
       "of": "a12d445d",
       "at": [
-        "providence-day:[5].values.charlotte-latin"
+        "providence-day:[5].values.charlotte-latin",
+        "providence-day:[13].subs.cannon"
       ],
       "t": "12 / 17"
     },
@@ -1444,10 +1457,803 @@
       "t": "Hickory Grove Christian ప్రచురించిన 2023 + 2025 ప్రవేశాల జాబితాలలో 68 Power Four విశ్వవిద్యాలయాలలో 24 కనిపిస్తాయి (UConn Big East, Power Four కాదు, కాబట్టి దాన్ని మినహాయించాం). ఇది పాఠశాల స్వయంగా నివేదించిన సంఖ్య కాదు."
     },
     {
+      "text": "Admit rate — UNC-Chapel Hill",
+      "of": "29d4a5d7",
+      "at": [
+        "providence-day:[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The share of each school’s own applicants that the university admitted for Fall 2025, from the UNC System’s published admissions dashboard. It is a figure for that school at that university, not either one’s overall admit rate. Beneath each rate: admitted / applied. Small schools send few applicants, so a single-year rate can rest on a handful of students; the NC admissions card on each school page adds the five-year rate.",
+      "of": "c38c09ad",
+      "at": [
+        "providence-day:[9].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "32%",
+      "of": "4e4b822f",
+      "at": [
+        "providence-day:[9].values.cannon",
+        "providence-day:[10].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "26%",
+      "of": "cae2e534",
+      "at": [
+        "providence-day:[9].values.charlotte-christian",
+        "providence-day:[18].values.gaston-day"
+      ],
+      "t": "26%"
+    },
+    {
+      "text": "23%",
+      "of": "3eea5795",
+      "at": [
+        "providence-day:[9].values.charlotte-catholic",
+        "providence-day:[10].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "29%",
+      "of": "1af92973",
+      "at": [
+        "providence-day:[9].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "33%",
+      "of": "324d94b2",
+      "at": [
+        "providence-day:[9].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "27%",
+      "of": "9ee06159",
+      "at": [
+        "providence-day:[9].values.covenant-day",
+        "providence-day:[9].values.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "25%",
+      "of": "1adb145f",
+      "at": [
+        "providence-day:[9].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "40%",
+      "of": "9d2ff464",
+      "at": [
+        "providence-day:[9].values.davidson-day",
+        "providence-day:[14].values.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20%",
+      "of": "cee768ae",
+      "at": [
+        "providence-day:[9].values.hickory-grove-christian",
+        "providence-day:[18].values.carmel-christian"
+      ],
+      "t": "20%"
+    },
+    {
+      "text": "46%",
+      "of": "2135415e",
+      "at": [
+        "providence-day:[9].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 / 63",
+      "of": "7ef1490d",
+      "at": [
+        "providence-day:[9].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 38",
+      "of": "7e526240",
+      "at": [
+        "providence-day:[9].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "24 / 103",
+      "of": "0deb38f4",
+      "at": [
+        "providence-day:[9].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 / 69",
+      "of": "74f1394f",
+      "at": [
+        "providence-day:[9].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 / 69",
+      "of": "382f50e4",
+      "at": [
+        "providence-day:[9].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 33",
+      "of": "8deb8d21",
+      "at": [
+        "providence-day:[9].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 / 16",
+      "of": "ca4caa79",
+      "at": [
+        "providence-day:[9].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 25",
+      "of": "0f55851a",
+      "at": [
+        "providence-day:[9].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 / 10",
+      "of": "b7bce349",
+      "at": [
+        "providence-day:[9].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 / 11",
+      "of": "5e3ede63",
+      "at": [
+        "providence-day:[9].subs.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47 / 103",
+      "of": "c9ce24e3",
+      "at": [
+        "providence-day:[9].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — NC State University",
+      "of": "35bcd44e",
+      "at": [
+        "providence-day:[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "65%",
+      "of": "07a35b03",
+      "at": [
+        "providence-day:[10].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "45%",
+      "of": "113766c5",
+      "at": [
+        "providence-day:[10].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "28%",
+      "of": "3efba0b6",
+      "at": [
+        "providence-day:[10].values.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "34%",
+      "of": "325a60a5",
+      "at": [
+        "providence-day:[10].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "52%",
+      "of": "a49dde59",
+      "at": [
+        "providence-day:[10].values.covenant-day",
+        "providence-day:[13].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "31%",
+      "of": "be52ee44",
+      "at": [
+        "providence-day:[10].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "43%",
+      "of": "2d28884f",
+      "at": [
+        "providence-day:[10].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "53%",
+      "of": "d0a06234",
+      "at": [
+        "providence-day:[10].values.hickory-grove-christian",
+        "providence-day:[13].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47%",
+      "of": "bd32655b",
+      "at": [
+        "providence-day:[10].values.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "34 / 52",
+      "of": "b754721a",
+      "at": [
+        "providence-day:[10].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14 / 31",
+      "of": "d89af3af",
+      "at": [
+        "providence-day:[10].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "39 / 141",
+      "of": "6d2de258",
+      "at": [
+        "providence-day:[10].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 48",
+      "of": "eb926fe6",
+      "at": [
+        "providence-day:[10].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 / 67",
+      "of": "2e2f4126",
+      "at": [
+        "providence-day:[10].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "22 / 42",
+      "of": "81f12ffa",
+      "at": [
+        "providence-day:[10].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 / 26",
+      "of": "df31e86a",
+      "at": [
+        "providence-day:[10].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 21",
+      "of": "8fedcede",
+      "at": [
+        "providence-day:[10].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 19",
+      "of": "0b57bd65",
+      "at": [
+        "providence-day:[10].subs.hickory-grove-christian",
+        "providence-day:[13].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 / 15",
+      "of": "7bba68fb",
+      "at": [
+        "providence-day:[10].subs.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 / 71",
+      "of": "2c2cff69",
+      "at": [
+        "providence-day:[10].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — UNC Charlotte",
+      "of": "d9535790",
+      "at": [
+        "providence-day:[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "100%",
+      "of": "2f97df3b",
+      "at": [
+        "providence-day:[11].values.cannon",
+        "providence-day:[12].values.cannon",
+        "providence-day:[12].values.charlotte-country-day",
+        "providence-day:[12].values.charlotte-latin",
+        "providence-day:[12].values.carmel-christian",
+        "providence-day:[12].values.davidson-day",
+        "providence-day:[12].values.hickory-grove-christian",
+        "providence-day:[12].values.gaston-day",
+        "providence-day:[14].values.cannon",
+        "providence-day:[14].values.charlotte-christian",
+        "providence-day:[14].values.charlotte-latin",
+        "providence-day:[14].values.carmel-christian",
+        "providence-day:[14].values.davidson-day",
+        "providence-day:[14].values.hickory-grove-christian",
+        "providence-day:[14].values.gaston-day",
+        "providence-day:[14].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "88%",
+      "of": "38b2bcd8",
+      "at": [
+        "providence-day:[11].values.charlotte-catholic",
+        "providence-day:[11].values.charlotte-country-day",
+        "providence-day:[13].values.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "79%",
+      "of": "a9de0068",
+      "at": [
+        "providence-day:[11].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "57%",
+      "of": "20a9da80",
+      "at": [
+        "providence-day:[11].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "86%",
+      "of": "2c9017b2",
+      "at": [
+        "providence-day:[11].values.davidson-day",
+        "providence-day:[11].values.gaston-day",
+        "providence-day:[12].values.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "84%",
+      "of": "b8957144",
+      "at": [
+        "providence-day:[11].values.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "85%",
+      "of": "4c9288a9",
+      "at": [
+        "providence-day:[11].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "25 / 25",
+      "of": "dbbc278e",
+      "at": [
+        "providence-day:[11].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 / 11",
+      "of": "4a394ca0",
+      "at": [
+        "providence-day:[11].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "57 / 65",
+      "of": "704ea8e5",
+      "at": [
+        "providence-day:[11].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14 / 16",
+      "of": "e59f8554",
+      "at": [
+        "providence-day:[11].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 14",
+      "of": "e58baaaf",
+      "at": [
+        "providence-day:[11].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17 / 19",
+      "of": "46be663a",
+      "at": [
+        "providence-day:[11].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17 / 30",
+      "of": "cbc3b4c7",
+      "at": [
+        "providence-day:[11].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "6 / 7",
+      "of": "1cdfb1a9",
+      "at": [
+        "providence-day:[11].subs.davidson-day",
+        "providence-day:[11].subs.gaston-day",
+        "providence-day:[12].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "21 / 25",
+      "of": "024f2a02",
+      "at": [
+        "providence-day:[11].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17 / 20",
+      "of": "45c0a33e",
+      "at": [
+        "providence-day:[11].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — East Carolina University",
+      "of": "efb4fc3a",
+      "at": [
+        "providence-day:[12].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "98%",
+      "of": "bade2553",
+      "at": [
+        "providence-day:[12].values.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12 / 12",
+      "of": "9c2d3c7e",
+      "at": [
+        "providence-day:[12].subs.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 / 9",
+      "of": "f28bd839",
+      "at": [
+        "providence-day:[12].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47 / 48",
+      "of": "f0fcad27",
+      "at": [
+        "providence-day:[12].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 11",
+      "of": "e08ba2d0",
+      "at": [
+        "providence-day:[12].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 / 10",
+      "of": "1257c86a",
+      "at": [
+        "providence-day:[12].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 / 20",
+      "of": "e3e75ab0",
+      "at": [
+        "providence-day:[12].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "6 / 6",
+      "of": "1bdfb016",
+      "at": [
+        "providence-day:[12].subs.davidson-day",
+        "providence-day:[14].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5 / 5",
+      "of": "8cbd0a26",
+      "at": [
+        "providence-day:[12].subs.hickory-grove-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 / 4",
+      "of": "c36f5396",
+      "at": [
+        "providence-day:[12].subs.gaston-day",
+        "providence-day:[14].subs.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12 / 13",
+      "of": "9d2d3e11",
+      "at": [
+        "providence-day:[12].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — UNC Wilmington",
+      "of": "768be06a",
+      "at": [
+        "providence-day:[13].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "71%",
+      "of": "79ca2d20",
+      "at": [
+        "providence-day:[13].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "60%",
+      "of": "9b9bf53a",
+      "at": [
+        "providence-day:[13].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "68%",
+      "of": "6b8821f2",
+      "at": [
+        "providence-day:[13].values.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "59%",
+      "of": "b4af40aa",
+      "at": [
+        "providence-day:[13].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "61%",
+      "of": "77997df7",
+      "at": [
+        "providence-day:[13].values.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "providence-day:[13].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "75%",
+      "of": "a9bfeb54",
+      "at": [
+        "providence-day:[13].values.gaston-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 15",
+      "of": "93f013c1",
+      "at": [
+        "providence-day:[13].subs.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "62 / 91",
+      "of": "001a22ea",
+      "at": [
+        "providence-day:[13].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "13 / 25",
+      "of": "c7a6f401",
+      "at": [
+        "providence-day:[13].subs.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "16 / 22",
+      "of": "9973a69d",
+      "at": [
+        "providence-day:[13].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "19 / 31",
+      "of": "658fc266",
+      "at": [
+        "providence-day:[13].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 / 9",
+      "of": "65b44864",
+      "at": [
+        "providence-day:[13].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admit rate — UNC Greensboro",
+      "of": "4f9615d4",
+      "at": [
+        "providence-day:[14].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 / 3",
+      "of": "c876f4e6",
+      "at": [
+        "providence-day:[14].subs.charlotte-christian",
+        "providence-day:[14].subs.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "16 / 17",
+      "of": "846cc9c9",
+      "at": [
+        "providence-day:[14].subs.charlotte-catholic"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11 / 12",
+      "of": "e38ba789",
+      "at": [
+        "providence-day:[14].subs.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 / 5",
+      "of": "0d39074f",
+      "at": [
+        "providence-day:[14].subs.covenant-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 / 9",
+      "of": "4e372d56",
+      "at": [
+        "providence-day:[14].subs.carmel-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 / 7",
+      "of": "5bb438a6",
+      "at": [
+        "providence-day:[14].subs.providence-day"
+      ],
+      "t": ""
+    },
+    {
       "text": "HBCUs",
       "of": "d6316d90",
       "at": [
-        "providence-day:[9].label"
+        "providence-day:[15].label"
       ],
       "t": "HBCUs"
     },
@@ -1455,7 +2261,7 @@
       "text": "Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.",
       "of": "3ac0172e",
       "at": [
-        "providence-day:[9].note"
+        "providence-day:[15].note"
       ],
       "t": "107 Historically Black Colleges & Universities లో ఎన్ని పాఠశాల ప్రవేశ జాబితాలో కనిపిస్తాయి."
     },
@@ -1463,8 +2269,8 @@
       "text": "5 / 107",
       "of": "4ecefe03",
       "at": [
-        "providence-day:[9].values.cannon",
-        "providence-day:[9].values.gaston-day"
+        "providence-day:[15].values.cannon",
+        "providence-day:[15].values.gaston-day"
       ],
       "t": "5 / 107"
     },
@@ -1472,7 +2278,7 @@
       "text": "10 / 107",
       "of": "3d306a67",
       "at": [
-        "providence-day:[9].values.charlotte-christian"
+        "providence-day:[15].values.charlotte-christian"
       ],
       "t": "10 / 107"
     },
@@ -1480,7 +2286,7 @@
       "text": "2 / 107",
       "of": "bc5a1f5a",
       "at": [
-        "providence-day:[9].values.charlotte-catholic"
+        "providence-day:[15].values.charlotte-catholic"
       ],
       "t": "2 / 107"
     },
@@ -1488,7 +2294,7 @@
       "text": "18 / 107",
       "of": "3db58dbf",
       "at": [
-        "providence-day:[9].values.charlotte-country-day"
+        "providence-day:[15].values.charlotte-country-day"
       ],
       "t": "18 / 107"
     },
@@ -1496,7 +2302,7 @@
       "text": "7 / 107",
       "of": "027a6539",
       "at": [
-        "providence-day:[9].values.charlotte-latin"
+        "providence-day:[15].values.charlotte-latin"
       ],
       "t": "7 / 107"
     },
@@ -1504,8 +2310,8 @@
       "text": "3 / 107",
       "of": "b0f5bfa5",
       "at": [
-        "providence-day:[9].values.covenant-day",
-        "providence-day:[9].values.davidson-day"
+        "providence-day:[15].values.covenant-day",
+        "providence-day:[15].values.davidson-day"
       ],
       "t": "3 / 107"
     },
@@ -1513,7 +2319,7 @@
       "text": "8 / 107",
       "of": "6f35d04c",
       "at": [
-        "providence-day:[9].values.carmel-christian"
+        "providence-day:[15].values.carmel-christian"
       ],
       "t": "8 / 107"
     },
@@ -1521,7 +2327,7 @@
       "text": "20 / 107",
       "of": "23377734",
       "at": [
-        "providence-day:[9].values.hickory-grove-christian"
+        "providence-day:[15].values.hickory-grove-christian"
       ],
       "t": "20 / 107"
     },
@@ -1529,7 +2335,7 @@
       "text": "14 / 107",
       "of": "6d19cd5b",
       "at": [
-        "providence-day:[9].values.providence-day"
+        "providence-day:[15].values.providence-day"
       ],
       "t": "14 / 107"
     },
@@ -1537,7 +2343,7 @@
       "text": "Hampton University and Benedict College, from the Classes of 2023-2025 matriculation list.",
       "of": "b738cd71",
       "at": [
-        "providence-day:[9].quals.charlotte-catholic.text"
+        "providence-day:[15].quals.charlotte-catholic.text"
       ],
       "t": "2023-2025 బ్యాచ్‌ల చేరిక జాబితా నుంచి Hampton University మరియు Benedict College."
     },
@@ -1545,7 +2351,7 @@
       "text": "Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.",
       "of": "ac3cf220",
       "at": [
-        "providence-day:[9].quals.gaston-day.text"
+        "providence-day:[15].quals.gaston-day.text"
       ],
       "t": "2019–2025 ప్రవేశాల జాబితాలోని Historically Black కళాశాలలు మరియు విశ్వవిద్యాలయాలు, 107 సంస్థల ఫెడరల్ జాబితాతో సరిపోల్చగా: Hampton, NC A&T, NC Central, Winston-Salem State మరియు Tougaloo. Tougalooకు 2026 Liberal Arts ర్యాంక్ (#180) కూడా ఉంది, కాబట్టి అది రెండు విభాగాల్లో లెక్కకు వస్తుంది."
     },
@@ -1553,7 +2359,7 @@
       "text": "5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "3741175e",
       "at": [
-        "providence-day:[9].quals.cannon.text"
+        "providence-day:[15].quals.cannon.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 5 Cannon ప్రచురించిన అంగీకార జాబితాలో కనిపిస్తాయి, 2027 U.S. News పట్టికలతో సరిపోల్చబడ్డాయి — ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1561,7 +2367,7 @@
       "text": "10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "8b6db690",
       "at": [
-        "providence-day:[9].quals.charlotte-christian.text"
+        "providence-day:[15].quals.charlotte-christian.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 10 Charlotte Christian ప్రచురించిన అంగీకార జాబితాలో కనిపిస్తాయి, 2027 U.S. News పట్టికలతో సరిపోల్చబడ్డాయి — ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1569,7 +2375,7 @@
       "text": "18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "f58c99bd",
       "at": [
-        "providence-day:[9].quals.charlotte-country-day.text"
+        "providence-day:[15].quals.charlotte-country-day.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 18 Charlotte Country Day ప్రచురించిన అంగీకార జాబితాలో కనిపిస్తాయి, 2027 U.S. News పట్టికలతో సరిపోల్చబడ్డాయి — ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1577,7 +2383,7 @@
       "text": "6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "2929cca4",
       "at": [
-        "providence-day:[9].quals.charlotte-latin.text"
+        "providence-day:[15].quals.charlotte-latin.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 6 Charlotte Latin ప్రచురించిన అంగీకార జాబితాలో కనిపిస్తాయి, 2027 U.S. News పట్టికలతో సరిపోల్చబడ్డాయి — ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1585,7 +2391,7 @@
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.",
       "of": "583a906f",
       "at": [
-        "providence-day:[9].quals.covenant-day.text"
+        "providence-day:[15].quals.covenant-day.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 3 Covenant Day ప్రచురించిన 2023–2026 అంగీకార జాబితాలో కనిపిస్తాయి — Fayetteville State, Johnson C. Smith, మరియు NC A&T. ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1593,7 +2399,7 @@
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "02ca5eb3",
       "at": [
-        "providence-day:[9].quals.davidson-day.text"
+        "providence-day:[15].quals.davidson-day.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 3 Davidson Day ప్రచురించిన అంగీకార జాబితాలో కనిపిస్తాయి, 2027 U.S. News పట్టికలతో సరిపోల్చబడ్డాయి — ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1601,7 +2407,7 @@
       "text": "14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
       "of": "3aeb9e38",
       "at": [
-        "providence-day:[9].quals.providence-day.text"
+        "providence-day:[15].quals.providence-day.text"
       ],
       "t": "107 Historically Black Colleges & Universities లో 14 Providence Day ప్రచురించిన అంగీకార జాబితాలో కనిపిస్తాయి, 2027 U.S. News పట్టికలతో సరిపోల్చబడ్డాయి — ఇది పాఠశాల స్వయంగా నివేదించే సంఖ్య కాదు."
     },
@@ -1609,7 +2415,7 @@
       "text": "Historically Black colleges and universities named on the acceptance list.",
       "of": "c7e59bc6",
       "at": [
-        "providence-day:[9].quals.carmel-christian.text"
+        "providence-day:[15].quals.carmel-christian.text"
       ],
       "t": "ప్రవేశాల జాబితాలో పేర్కొన్న Historically Black కళాశాలలు మరియు విశ్వవిద్యాలయాలు."
     },
@@ -1617,7 +2423,7 @@
       "text": "20 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — a notably deep HBCU pipeline.",
       "of": "31d4d033",
       "at": [
-        "providence-day:[9].quals.hickory-grove-christian.text"
+        "providence-day:[15].quals.hickory-grove-christian.text"
       ],
       "t": "Hickory Grove Christian ప్రచురించిన 2023 + 2025 ప్రవేశాల జాబితాలలో 107 Historically Black Colleges & Universitiesలో 20 కనిపిస్తాయి (Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk సహా) — ఇది గమనార్హంగా బలమైన HBCU మార్గం."
     },
@@ -1625,7 +2431,7 @@
       "text": "Seniors per counselor",
       "of": "bb1a037b",
       "at": [
-        "providence-day:[10].label"
+        "providence-day:[16].label"
       ],
       "t": "ఒక్కో counselorకు చివరి సంవత్సరం విద్యార్థులు"
     },
@@ -1633,7 +2439,7 @@
       "text": "Approximate seniors per dedicated college counselor at peak application season, from each school’s note.",
       "of": "d8b27599",
       "at": [
-        "providence-day:[10].note"
+        "providence-day:[16].note"
       ],
       "t": "దరఖాస్తుల రద్దీ సమయంలో ఒక్కో ప్రత్యేక కళాశాల counselorకు సుమారుగా ఉండే చివరి సంవత్సరం విద్యార్థులు, ఆయా పాఠశాలల గమనికల ఆధారంగా."
     },
@@ -1641,7 +2447,7 @@
       "text": "28:1",
       "of": "2d11b212",
       "at": [
-        "providence-day:[10].values.cannon"
+        "providence-day:[16].values.cannon"
       ],
       "t": "28:1"
     },
@@ -1649,7 +2455,7 @@
       "text": "~47:1",
       "of": "6d315a65",
       "at": [
-        "providence-day:[10].values.charlotte-christian"
+        "providence-day:[16].values.charlotte-christian"
       ],
       "t": "~47:1"
     },
@@ -1657,7 +2463,7 @@
       "text": "~54:1",
       "of": "23857895",
       "at": [
-        "providence-day:[10].values.charlotte-catholic"
+        "providence-day:[16].values.charlotte-catholic"
       ],
       "t": "~54:1"
     },
@@ -1665,7 +2471,7 @@
       "text": "~34:1",
       "of": "6546401f",
       "at": [
-        "providence-day:[10].values.charlotte-country-day"
+        "providence-day:[16].values.charlotte-country-day"
       ],
       "t": "~34:1"
     },
@@ -1673,7 +2479,7 @@
       "text": "~36:1",
       "of": "1ee45b4d",
       "at": [
-        "providence-day:[10].values.charlotte-latin"
+        "providence-day:[16].values.charlotte-latin"
       ],
       "t": "~36:1"
     },
@@ -1681,7 +2487,7 @@
       "text": "85:1",
       "of": "1a9bb18f",
       "at": [
-        "providence-day:[10].values.covenant-day"
+        "providence-day:[16].values.covenant-day"
       ],
       "t": "85:1"
     },
@@ -1689,7 +2495,7 @@
       "text": "~23:1",
       "of": "32575577",
       "at": [
-        "providence-day:[10].values.davidson-day"
+        "providence-day:[16].values.davidson-day"
       ],
       "t": "~23:1"
     },
@@ -1697,7 +2503,7 @@
       "text": "~18:1",
       "of": "d5a4e3d5",
       "at": [
-        "providence-day:[10].values.gaston-day"
+        "providence-day:[16].values.gaston-day"
       ],
       "t": "~18:1"
     },
@@ -1705,7 +2511,7 @@
       "text": "~44:1",
       "of": "a80d4a10",
       "at": [
-        "providence-day:[10].values.providence-day"
+        "providence-day:[16].values.providence-day"
       ],
       "t": "~44:1"
     },
@@ -1713,7 +2519,7 @@
       "text": "Computed, not published: 324 seniors in the Class of 2026 divided by the six counselors named on the school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.",
       "of": "73cf74e8",
       "at": [
-        "providence-day:[10].quals.charlotte-catholic.text"
+        "providence-day:[16].quals.charlotte-catholic.text"
       ],
       "t": "లెక్కించినది, ప్రచురించినది కాదు: Class of 2026లోని 324 మంది seniorsను పాఠశాల ప్రొఫైల్‌లో పేర్కొన్న ఆరుగురు counselors (Director of Counseling Services కలిపి)తో భాగించారు. నాలుగు తరగతుల అంతటా (~1,171 విద్యార్థులు) ఇది సుమారు 195:1."
     },
@@ -1721,7 +2527,7 @@
       "text": "COMPUTED, not published — the school states neither a caseload nor a ratio. 35 seniors in the Class of 2026 over two college-counseling staff (Peter Gangemi, Director; Kristy Smith, Assistant) gives ~18:1; counted against the Director alone it would be 35:1.",
       "of": "6e2d1a6b",
       "at": [
-        "providence-day:[10].quals.gaston-day.text"
+        "providence-day:[16].quals.gaston-day.text"
       ],
       "t": "గణించబడింది, ప్రచురించలేదు — పాఠశాల కేస్‌లోడ్‌ను గానీ నిష్పత్తిని గానీ పేర్కొనలేదు. Class of 2026లోని 35 మంది చివరి సంవత్సరం విద్యార్థులను ఇద్దరు కళాశాల-కౌన్సెలింగ్ సిబ్బందితో (Peter Gangemi, Director; Kristy Smith, Assistant) పోల్చితే సుమారు ~18:1 వస్తుంది; Director ఒక్కరినే లెక్కిస్తే అది 35:1 అవుతుంది."
     },
@@ -1729,7 +2535,7 @@
       "text": "About 28 seniors per dedicated college counselor at peak application season — 111 seniors across 4 counselors. A lower ratio means more counselor time per student.",
       "of": "b4c9954a",
       "at": [
-        "providence-day:[10].quals.cannon.text"
+        "providence-day:[16].quals.cannon.text"
       ],
       "t": "అత్యధిక దరఖాస్తు సీజన్‌లో ప్రత్యేక కళాశాల కౌన్సెలర్‌కు సుమారు 28 సీనియర్‌లు — 4 కౌన్సెలర్‌ల మధ్య 111 సీనియర్‌లు. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ కౌన్సెలర్ సమయం అని అర్థం."
     },
@@ -1737,7 +2543,7 @@
       "text": "An effective caseload of about 47 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
       "of": "747f359d",
       "at": [
-        "providence-day:[10].quals.charlotte-christian.text"
+        "providence-day:[16].quals.charlotte-christian.text"
       ],
       "t": "అత్యధిక దరఖాస్తు సీజన్‌లో ఒక్కో కళాశాల కౌన్సెలర్‌కు సుమారు 47 సీనియర్‌ల ప్రభావవంతమైన కేస్‌లోడ్. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ కౌన్సెలర్ సమయం అని అర్థం."
     },
@@ -1745,7 +2551,7 @@
       "text": "About 34–35 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
       "of": "f2673c0f",
       "at": [
-        "providence-day:[10].quals.charlotte-country-day.text"
+        "providence-day:[16].quals.charlotte-country-day.text"
       ],
       "t": "అత్యధిక దరఖాస్తు సీజన్‌లో ఒక్కో కళాశాల కౌన్సెలర్‌కు సుమారు 34–35 సీనియర్‌లు. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ కౌన్సెలర్ సమయం అని అర్థం."
     },
@@ -1753,7 +2559,7 @@
       "text": "About 36–37 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
       "of": "3c59be83",
       "at": [
-        "providence-day:[10].quals.charlotte-latin.text"
+        "providence-day:[16].quals.charlotte-latin.text"
       ],
       "t": "అత్యధిక దరఖాస్తు సీజన్‌లో ఒక్కో కళాశాల కౌన్సెలర్‌కు సుమారు 36–37 సీనియర్‌లు. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ కౌన్సెలర్ సమయం అని అర్థం."
     },
@@ -1761,7 +2567,7 @@
       "text": "85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.",
       "of": "28cd3465",
       "at": [
-        "providence-day:[10].quals.covenant-day.text"
+        "providence-day:[16].quals.covenant-day.text"
       ],
       "t": "ఒక ప్రత్యేక Guidance & College Counseling Directorకు 85 మంది చివరి సంవత్సరం విద్యార్థులు — ఇక్కడ అత్యధిక భారం, college-యేతర భారాన్ని మోసే రెండో guidance counselor మరియు ఒక guidance assistantతో కాస్త ఊరట. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ counselor సమయం."
     },
@@ -1769,7 +2575,7 @@
       "text": "About 23–24 seniors per college counselor at peak application season, in a senior class of roughly 47 — the lightest caseload here. A lower ratio means more counselor time per student.",
       "of": "7fed6c42",
       "at": [
-        "providence-day:[10].quals.davidson-day.text"
+        "providence-day:[16].quals.davidson-day.text"
       ],
       "t": "అత్యధిక దరఖాస్తు సీజన్‌లో ఒక్కో కళాశాల కౌన్సెలర్‌కు సుమారు 23–24 సీనియర్‌లు, సుమారు 47 సీనియర్ తరగతిలో — ఇక్కడ అత్యంత తేలికైన కేస్‌లోడ్. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ కౌన్సెలర్ సమయం అని అర్థం."
     },
@@ -1777,7 +2583,7 @@
       "text": "About 44–45 seniors per college counselor at peak application season, under a quarter-class model. A lower ratio means more counselor time per student.",
       "of": "116d1af0",
       "at": [
-        "providence-day:[10].quals.providence-day.text"
+        "providence-day:[16].quals.providence-day.text"
       ],
       "t": "అత్యధిక దరఖాస్తు సీజన్‌లో ఒక్కో కళాశాల కౌన్సెలర్‌కు సుమారు 44–45 సీనియర్‌లు, క్వార్టర్-క్లాస్ మోడల్ కింద. తక్కువ నిష్పత్తి అంటే ఒక్కో విద్యార్థికి ఎక్కువ కౌన్సెలర్ సమయం అని అర్థం."
     },
@@ -1785,7 +2591,7 @@
       "text": "Top tuition",
       "of": "233f7a8c",
       "at": [
-        "providence-day:[11].label"
+        "providence-day:[17].label"
       ],
       "t": "అత్యధిక ట్యూషన్"
     },
@@ -1793,7 +2599,7 @@
       "text": "Highest published grade-band tuition, 2026–27 school year.",
       "of": "7c10f0b3",
       "at": [
-        "providence-day:[11].note"
+        "providence-day:[17].note"
       ],
       "t": "2026–27 విద్యా సంవత్సరానికి ప్రచురించిన అత్యధిక తరగతి-శ్రేణి ట్యూషన్."
     },
@@ -1801,7 +2607,7 @@
       "text": "$32,070",
       "of": "f55a5a85",
       "at": [
-        "providence-day:[11].values.cannon"
+        "providence-day:[17].values.cannon"
       ],
       "t": "$32,070"
     },
@@ -1809,7 +2615,7 @@
       "text": "$27,055",
       "of": "54ac7b3e",
       "at": [
-        "providence-day:[11].values.charlotte-christian"
+        "providence-day:[17].values.charlotte-christian"
       ],
       "t": "$27,055"
     },
@@ -1817,7 +2623,7 @@
       "text": "$23,562",
       "of": "b91c6e27",
       "at": [
-        "providence-day:[11].values.charlotte-catholic"
+        "providence-day:[17].values.charlotte-catholic"
       ],
       "t": "$23,562"
     },
@@ -1825,7 +2631,7 @@
       "text": "$34,075",
       "of": "bb245580",
       "at": [
-        "providence-day:[11].values.charlotte-country-day"
+        "providence-day:[17].values.charlotte-country-day"
       ],
       "t": "$34,075"
     },
@@ -1833,7 +2639,7 @@
       "text": "$36,500",
       "of": "05d1c615",
       "at": [
-        "providence-day:[11].values.charlotte-latin"
+        "providence-day:[17].values.charlotte-latin"
       ],
       "t": "$36,500"
     },
@@ -1841,7 +2647,7 @@
       "text": "$22,790",
       "of": "855a707f",
       "at": [
-        "providence-day:[11].values.covenant-day"
+        "providence-day:[17].values.covenant-day"
       ],
       "t": "$22,790"
     },
@@ -1849,7 +2655,7 @@
       "text": "$18,750",
       "of": "984cd4da",
       "at": [
-        "providence-day:[11].values.carmel-christian"
+        "providence-day:[17].values.carmel-christian"
       ],
       "t": "$18,750"
     },
@@ -1857,7 +2663,7 @@
       "text": "$26,910",
       "of": "d7e28b59",
       "at": [
-        "providence-day:[11].values.davidson-day"
+        "providence-day:[17].values.davidson-day"
       ],
       "t": "$26,910"
     },
@@ -1865,7 +2671,7 @@
       "text": "$13,750",
       "of": "fc371887",
       "at": [
-        "providence-day:[11].values.hickory-grove-christian"
+        "providence-day:[17].values.hickory-grove-christian"
       ],
       "t": "$13,750"
     },
@@ -1873,7 +2679,7 @@
       "text": "$22,390",
       "of": "c0a5f08b",
       "at": [
-        "providence-day:[11].values.gaston-day"
+        "providence-day:[17].values.gaston-day"
       ],
       "t": "$22,390"
     },
@@ -1881,7 +2687,7 @@
       "text": "$36,325",
       "of": "8315551a",
       "at": [
-        "providence-day:[11].values.providence-day"
+        "providence-day:[17].values.providence-day"
       ],
       "t": "$36,325"
     },
@@ -1889,7 +2695,7 @@
       "text": "MACS sets tuition centrally for all its schools; CCHS publishes none of its own. This is the High International rate for 2026-27. A community (non-parishioner) family pays $21,562 and a participating Catholic family $15,041 — a roughly 30% difference driven by parish participation rather than financial need.",
       "of": "31a9490f",
       "at": [
-        "providence-day:[11].quals.charlotte-catholic.text"
+        "providence-day:[17].quals.charlotte-catholic.text"
       ],
       "t": "MACS తన అన్ని పాఠశాలలకూ ట్యూషన్‌ను కేంద్రంగా నిర్ణయిస్తుంది; CCHS తన సొంతంగా ఏదీ ప్రచురించదు. ఇది 2026-27కు High International రేటు. community (parish సభ్యత్వం లేని) కుటుంబం $21,562 మరియు భాగస్వామ్యం ఉన్న కాథలిక్ కుటుంబం $15,041 చెల్లిస్తాయి — ఇది ఆర్థిక అవసరం వల్ల కాకుండా parish భాగస్వామ్యం వల్ల ఏర్పడే సుమారు 30% తేడా."
     },
@@ -1897,7 +2703,7 @@
       "text": "This is the Grades 6–12 tuition for 2026–27. Providence Day’s top band spans Grades 6–12, so it covers a wider grade range than the 9–12 figures beside it.",
       "of": "3597d6af",
       "at": [
-        "providence-day:[11].quals.providence-day.text"
+        "providence-day:[17].quals.providence-day.text"
       ],
       "t": "ఇది 2026–27 కోసం Grades 6–12 ట్యూషన్. Providence Day యొక్క టాప్ బ్యాండ్ Grades 6–12 వరకు విస్తరించి ఉంది, కాబట్టి ఇది పక్కనున్న 9–12 సంఖ్యల కంటే విస్తృత గ్రేడ్ శ్రేణిని కవర్ చేస్తుంది."
     },
@@ -1905,7 +2711,7 @@
       "text": "The Grades 9–12 band ($13,750). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.",
       "of": "a3a396b5",
       "at": [
-        "providence-day:[11].quals.hickory-grove-christian.text"
+        "providence-day:[17].quals.hickory-grove-christian.text"
       ],
       "t": "9–12 తరగతుల శ్రేణి ($13,750). పాఠశాల ట్యూషన్ పేజీ ఒక portal widget ద్వారా కనిపిస్తుంది, కాబట్టి ఈ ప్రస్తుత సంఖ్య పాఠశాల PDF నుంచి తీసుకున్నది కాక రెండు మూడో-పక్ష ప్రతిబింబ సైట్లలో ధ్రువీకరించబడింది; ఖచ్చితమైన విద్యా సంవత్సరం పేర్కొనబడలేదు."
     },
@@ -1913,7 +2719,7 @@
       "text": "% receiving aid",
       "of": "dcbef77c",
       "at": [
-        "providence-day:[12].label"
+        "providence-day:[18].label"
       ],
       "t": "సహాయం పొందుతున్న శాతం"
     },
@@ -1921,7 +2727,7 @@
       "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Davidson Day & Hickory Grove Christian do not publish this.",
       "of": "c53ce403",
       "at": [
-        "providence-day:[12].note"
+        "providence-day:[18].note"
       ],
       "t": "పాఠశాల తెలిపిన విధంగా సహాయం పొందుతున్న విద్యార్థుల/కుటుంబాల వాటా. పాఠశాల “approximately” అన్న చోట “~” ఇచ్చాం; సంవత్సరం/హారం మారుతూ ఉంటాయి — పాఠశాల నివేదిక చూడండి. Charlotte Christian, Davidson Day మరియు Hickory Grove Christian దీన్ని ప్రచురించవు."
     },
@@ -1929,7 +2735,7 @@
       "text": "24%",
       "of": "3edd8ba2",
       "at": [
-        "providence-day:[12].values.cannon"
+        "providence-day:[18].values.cannon"
       ],
       "t": "24%"
     },
@@ -1937,8 +2743,8 @@
       "text": "~20%",
       "of": "7c1640da",
       "at": [
-        "providence-day:[12].values.charlotte-country-day",
-        "providence-day:[12].values.covenant-day"
+        "providence-day:[18].values.charlotte-country-day",
+        "providence-day:[18].values.covenant-day"
       ],
       "t": "~20%"
     },
@@ -1946,31 +2752,15 @@
       "text": "14%",
       "of": "842974e7",
       "at": [
-        "providence-day:[12].values.charlotte-latin"
+        "providence-day:[18].values.charlotte-latin"
       ],
       "t": "14%"
-    },
-    {
-      "text": "20%",
-      "of": "cee768ae",
-      "at": [
-        "providence-day:[12].values.carmel-christian"
-      ],
-      "t": "20%"
-    },
-    {
-      "text": "26%",
-      "of": "cae2e534",
-      "at": [
-        "providence-day:[12].values.gaston-day"
-      ],
-      "t": "26%"
     },
     {
       "text": "~21%",
       "of": "5813c997",
       "at": [
-        "providence-day:[12].values.providence-day"
+        "providence-day:[18].values.providence-day"
       ],
       "t": "~21%"
     },
@@ -1978,7 +2768,7 @@
       "text": "Share of students receiving aid in 2025–26.",
       "of": "d4524d34",
       "at": [
-        "providence-day:[12].quals.cannon.text"
+        "providence-day:[18].quals.cannon.text"
       ],
       "t": "2025–26లో సహాయం పొందుతున్న విద్యార్థుల వాటా."
     },
@@ -1986,7 +2776,7 @@
       "text": "Approximately 20% of the student body; the school does not date this figure.",
       "of": "9b62c744",
       "at": [
-        "providence-day:[12].quals.charlotte-country-day.text"
+        "providence-day:[18].quals.charlotte-country-day.text"
       ],
       "t": "విద్యార్థి సముదాయంలో సుమారు 20%; పాఠశాల ఈ సంఖ్యకు తేదీ ఇవ్వలేదు."
     },
@@ -1994,7 +2784,7 @@
       "text": "14% of students, from the school’s strategic plan.",
       "of": "b356d314",
       "at": [
-        "providence-day:[12].quals.charlotte-latin.text"
+        "providence-day:[18].quals.charlotte-latin.text"
       ],
       "t": "పాఠశాల వ్యూహాత్మక ప్రణాళిక నుండి, విద్యార్థుల్లో 14%."
     },
@@ -2002,7 +2792,7 @@
       "text": "Approximately 20% of students, reported only by third-party aggregators — the school itself publishes no share, and as a church ministry it files no Form 990 to check it against. Verify with the school.",
       "of": "b1b657e1",
       "at": [
-        "providence-day:[12].quals.covenant-day.text"
+        "providence-day:[18].quals.covenant-day.text"
       ],
       "t": "సుమారు 20% విద్యార్థులు, కేవలం third-party సమాహారకులు మాత్రమే నివేదించారు — పాఠశాల స్వయంగా ఏ శాతాన్నీ ప్రచురించదు, మరియు ఒక church ministryగా దాన్ని సరిచూసేందుకు ఏ Form 990 దాఖలు చేయదు. పాఠశాలతో ధ్రువీకరించండి."
     },
@@ -2010,7 +2800,7 @@
       "text": "Approximately 21% of families — a family-level share rather than a share of students, and the school does not date it.",
       "of": "d4018c93",
       "at": [
-        "providence-day:[12].quals.providence-day.text"
+        "providence-day:[18].quals.providence-day.text"
       ],
       "t": "సుమారు 21% కుటుంబాలు — విద్యార్థుల వాటా కాకుండా కుటుంబ-స్థాయి వాటా, మరియు పాఠశాల దీనికి తేదీ ఇవ్వలేదు."
     },
@@ -2018,7 +2808,7 @@
       "text": "Aid awarded / year",
       "of": "c5ec8b05",
       "at": [
-        "providence-day:[13].label"
+        "providence-day:[19].label"
       ],
       "t": "సంవత్సరానికి అందించిన సహాయం"
     },
@@ -2026,7 +2816,7 @@
       "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.",
       "of": "2d93b266",
       "at": [
-        "providence-day:[13].note"
+        "providence-day:[19].note"
       ],
       "t": "పాఠశాల ఒక సంఖ్యను పేర్కొన్న ఇటీవలి సంవత్సరానికి అందించిన మొత్తం ట్యూషన్ సహాయం. Charlotte Christian మరియు Davidson Day మొత్తాన్ని ప్రచురించలేదు; Country Day ప్రచురించిన మొత్తాలు పరస్పర విరుద్ధంగా ఉన్నందున వాటిని విడిచిపెట్టాం."
     },
@@ -2034,7 +2824,7 @@
       "text": "$3.0M",
       "of": "f5d8fd59",
       "at": [
-        "providence-day:[13].values.cannon"
+        "providence-day:[19].values.cannon"
       ],
       "t": "$3.0M"
     },
@@ -2042,7 +2832,7 @@
       "text": "$3.25M",
       "of": "22c9d5fe",
       "at": [
-        "providence-day:[13].values.charlotte-latin"
+        "providence-day:[19].values.charlotte-latin"
       ],
       "t": "$3.25M"
     },
@@ -2050,7 +2840,7 @@
       "text": "$3.68M",
       "of": "d21cc86b",
       "at": [
-        "providence-day:[13].values.providence-day"
+        "providence-day:[19].values.providence-day"
       ],
       "t": "$3.68M"
     },
@@ -2058,7 +2848,7 @@
       "text": "$3,000,000 in tuition assistance awarded in 2025–26.",
       "of": "ae22714a",
       "at": [
-        "providence-day:[13].quals.cannon.text"
+        "providence-day:[19].quals.cannon.text"
       ],
       "t": "2025–26లో $3,000,000 ట్యూషన్ సహాయం అందించబడింది."
     },
@@ -2066,7 +2856,7 @@
       "text": "$3.25M awarded in 2024–25.",
       "of": "e8f819c5",
       "at": [
-        "providence-day:[13].quals.charlotte-latin.text"
+        "providence-day:[19].quals.charlotte-latin.text"
       ],
       "t": "2024–25లో $3.25M అందించబడింది."
     },
@@ -2074,7 +2864,7 @@
       "text": "$3,683,971 — the most recent figure the school publishes, from 2017–18, so it is older than the others shown here.",
       "of": "f59d53f0",
       "at": [
-        "providence-day:[13].quals.providence-day.text"
+        "providence-day:[19].quals.providence-day.text"
       ],
       "t": "$3,683,971 — పాఠశాల ప్రచురించే అత్యంత ఇటీవలి సంఖ్య, 2017–18 నుండి, కాబట్టి ఇక్కడ చూపబడిన ఇతరాల కంటే పాతది."
     },
@@ -2082,7 +2872,7 @@
       "text": "Average award",
       "of": "d52ae269",
       "at": [
-        "providence-day:[14].label"
+        "providence-day:[20].label"
       ],
       "t": "సగటు సహాయం"
     },
@@ -2090,7 +2880,7 @@
       "text": "Average aid grant where the school publishes one. Most schools publish neither an average nor a median.",
       "of": "f67cb39d",
       "at": [
-        "providence-day:[14].note"
+        "providence-day:[20].note"
       ],
       "t": "పాఠశాల ప్రచురించిన చోట సగటు సహాయ మొత్తం. చాలా పాఠశాలలు సగటును గానీ, మధ్యగతాన్ని గానీ ప్రచురించవు."
     },
@@ -2098,7 +2888,7 @@
       "text": "$17,900",
       "of": "9e06e14c",
       "at": [
-        "providence-day:[14].values.charlotte-latin"
+        "providence-day:[20].values.charlotte-latin"
       ],
       "t": "$17,900"
     },
@@ -2106,7 +2896,7 @@
       "text": "$13,695",
       "of": "63abc83b",
       "at": [
-        "providence-day:[14].values.providence-day"
+        "providence-day:[20].values.providence-day"
       ],
       "t": "$13,695"
     },
@@ -2114,7 +2904,7 @@
       "text": "Average aid award in 2024–25.",
       "of": "5f6ad730",
       "at": [
-        "providence-day:[14].quals.charlotte-latin.text"
+        "providence-day:[20].quals.charlotte-latin.text"
       ],
       "t": "2024–25లో సగటు సహాయ మొత్తం."
     },
@@ -2122,7 +2912,7 @@
       "text": "$13,695 average grant, from 2017–18 — the most recent year the school publishes an average, so it is older than the Charlotte Latin figure beside it.",
       "of": "db3fb7f4",
       "at": [
-        "providence-day:[14].quals.providence-day.text"
+        "providence-day:[20].quals.providence-day.text"
       ],
       "t": "$13,695 సగటు గ్రాంట్, 2017–18 నుండి — పాఠశాల సగటును ప్రచురించే అత్యంత ఇటీవలి సంవత్సరం, కాబట్టి పక్కనున్న Charlotte Latin సంఖ్య కంటే పాతది."
     },
@@ -2130,7 +2920,7 @@
       "text": "Program span",
       "of": "a03fe315",
       "at": [
-        "providence-day:[15].label"
+        "providence-day:[21].label"
       ],
       "t": "కార్యక్రమ పరిధి"
     },
@@ -2138,7 +2928,7 @@
       "text": "Grade span of the arts program as each school states it.",
       "of": "b49060de",
       "at": [
-        "providence-day:[15].note"
+        "providence-day:[21].note"
       ],
       "t": "ఆయా పాఠశాలలు పేర్కొన్న ప్రకారం కళల కార్యక్రమ తరగతుల పరిధి."
     },
@@ -2146,7 +2936,7 @@
       "text": "JrK–12",
       "of": "62538c4c",
       "at": [
-        "providence-day:[15].values.cannon"
+        "providence-day:[21].values.cannon"
       ],
       "t": "JrK–12"
     },
@@ -2154,9 +2944,9 @@
       "text": "JK–12",
       "of": "12658e2c",
       "at": [
-        "providence-day:[15].values.charlotte-christian",
-        "providence-day:[15].values.charlotte-country-day",
-        "providence-day:[15].values.covenant-day"
+        "providence-day:[21].values.charlotte-christian",
+        "providence-day:[21].values.charlotte-country-day",
+        "providence-day:[21].values.covenant-day"
       ],
       "t": "JK–12"
     },
@@ -2164,7 +2954,7 @@
       "text": "9–12",
       "of": "c8cc9d8a",
       "at": [
-        "providence-day:[15].values.charlotte-catholic"
+        "providence-day:[21].values.charlotte-catholic"
       ],
       "t": "9–12"
     },
@@ -2172,9 +2962,9 @@
       "text": "TK–12",
       "of": "0ebb0ed6",
       "at": [
-        "providence-day:[15].values.charlotte-latin",
-        "providence-day:[15].values.hickory-grove-christian",
-        "providence-day:[15].values.providence-day"
+        "providence-day:[21].values.charlotte-latin",
+        "providence-day:[21].values.hickory-grove-christian",
+        "providence-day:[21].values.providence-day"
       ],
       "t": "TK–12"
     },
@@ -2182,7 +2972,7 @@
       "text": "K–12",
       "of": "e0278c04",
       "at": [
-        "providence-day:[15].values.carmel-christian"
+        "providence-day:[21].values.carmel-christian"
       ],
       "t": "K–12"
     },
@@ -2190,7 +2980,7 @@
       "text": "Age 2–Gr 12",
       "of": "928a1a5d",
       "at": [
-        "providence-day:[15].values.davidson-day"
+        "providence-day:[21].values.davidson-day"
       ],
       "t": "2 ఏళ్లు–12వ తరగతి"
     },
@@ -2198,7 +2988,7 @@
       "text": "PS–Grade 12",
       "of": "b6cc687f",
       "at": [
-        "providence-day:[15].values.gaston-day"
+        "providence-day:[21].values.gaston-day"
       ],
       "t": "PS–12వ తరగతి"
     },
@@ -2206,7 +2996,7 @@
       "text": "Charlotte Catholic is a high school only — the single 9-12 school on this roster. Every other school here spans PK or K through 12, so its arts ladder begins where theirs are already several years established.",
       "of": "c5c45c44",
       "at": [
-        "providence-day:[15].quals.charlotte-catholic.text"
+        "providence-day:[21].quals.charlotte-catholic.text"
       ],
       "t": "Charlotte Catholic ఉన్నత పాఠశాల మాత్రమే — ఈ జాబితాలో ఏకైక 9-12 పాఠశాల. ఇక్కడి మిగతా ప్రతి పాఠశాలా PK లేదా K నుంచి 12 వరకు ఉంటుంది, కాబట్టి వాటి కళల స్థాయులు అప్పటికే కొన్నేళ్లుగా స్థిరపడిన చోట దీని కళల స్థాయి మొదలవుతుంది."
     },
@@ -2214,7 +3004,7 @@
       "text": "Arts run from preschool through grade 12: in the Early/Lower School music, art and drama are coordinated with classroom units of study, and drama classes begin as early as second grade.",
       "of": "2e7c4f12",
       "at": [
-        "providence-day:[15].quals.gaston-day.text"
+        "providence-day:[21].quals.gaston-day.text"
       ],
       "t": "కళలు preschool నుంచి 12వ తరగతి వరకు సాగుతాయి: Early/Lower Schoolలో సంగీతం, చిత్రకళ మరియు నాటకం తరగతి గది అధ్యయన విభాగాలతో సమన్వయం చేయబడతాయి, మరియు నాటక తరగతులు రెండో తరగతి నుంచే మొదలవుతాయి."
     },
@@ -2222,7 +3012,7 @@
       "text": "Arts are offered from Junior Kindergarten (JrK) through grade 12, across all three divisions.",
       "of": "5b05f192",
       "at": [
-        "providence-day:[15].quals.cannon.text"
+        "providence-day:[21].quals.cannon.text"
       ],
       "t": "కళలు Junior Kindergarten (JrK) నుండి గ్రేడ్ 12 వరకు, మూడు విభాగాల అంతటా అందించబడతాయి."
     },
@@ -2230,8 +3020,8 @@
       "text": "Arts are offered from Junior Kindergarten (JK) through grade 12.",
       "of": "30c5dc2c",
       "at": [
-        "providence-day:[15].quals.charlotte-christian.text",
-        "providence-day:[15].quals.charlotte-country-day.text"
+        "providence-day:[21].quals.charlotte-christian.text",
+        "providence-day:[21].quals.charlotte-country-day.text"
       ],
       "t": "కళలు Junior Kindergarten (JK) నుండి గ్రేడ్ 12 వరకు అందించబడతాయి."
     },
@@ -2239,8 +3029,8 @@
       "text": "Arts are offered from Transitional Kindergarten (TK) through grade 12.",
       "of": "7d0a0239",
       "at": [
-        "providence-day:[15].quals.charlotte-latin.text",
-        "providence-day:[15].quals.providence-day.text"
+        "providence-day:[21].quals.charlotte-latin.text",
+        "providence-day:[21].quals.providence-day.text"
       ],
       "t": "కళలు Transitional Kindergarten (TK) నుండి గ్రేడ్ 12 వరకు అందించబడతాయి."
     },
@@ -2248,7 +3038,7 @@
       "text": "Arts are offered from Junior Kindergarten (JK) through grade 12 — art is integrated in JK–K and becomes sequential from grade 1.",
       "of": "735ad1de",
       "at": [
-        "providence-day:[15].quals.covenant-day.text"
+        "providence-day:[21].quals.covenant-day.text"
       ],
       "t": "కళలు Junior Kindergarten (JK) నుంచి 12వ తరగతి వరకు అందిస్తారు — కళలు JK–Kలో మిళితంగా ఉండి 1వ తరగతి నుంచి క్రమబద్ధమవుతాయి."
     },
@@ -2256,7 +3046,7 @@
       "text": "Arts run from age 2 through grade 12 — the widest span among these schools, reaching down to the earliest early-childhood years.",
       "of": "06d6f2d3",
       "at": [
-        "providence-day:[15].quals.davidson-day.text"
+        "providence-day:[21].quals.davidson-day.text"
       ],
       "t": "కళలు వయసు 2 నుండి గ్రేడ్ 12 వరకు నడుస్తాయి — ఈ పాఠశాలల్లో అత్యంత విస్తృత శ్రేణి, అత్యంత ప్రారంభ బాల్య సంవత్సరాల వరకు చేరుకుంటుంది."
     },
@@ -2264,7 +3054,7 @@
       "text": "Arts run K–12: integrated music and art in grades K–4, becoming sequential and elective from grade 5 up.",
       "of": "f67b4480",
       "at": [
-        "providence-day:[15].quals.carmel-christian.text"
+        "providence-day:[21].quals.carmel-christian.text"
       ],
       "t": "కళలు K–12 వరకు నడుస్తాయి: K–4 తరగతులలో సంగీతం మరియు కళలు పాఠ్యాంశాలలో కలిపి ఉంటాయి, 5వ తరగతి నుంచి ఇవి క్రమానుగతంగా మరియు ఐచ్ఛికంగా మారతాయి."
     },
@@ -2272,7 +3062,7 @@
       "text": "Arts are offered from Transitional Kindergarten (TK) through grade 12 — visual art and general music in the early grades, widening into band, choir, theatre and a leveled studio track by high school.",
       "of": "6d8aaff6",
       "at": [
-        "providence-day:[15].quals.hickory-grove-christian.text"
+        "providence-day:[21].quals.hickory-grove-christian.text"
       ],
       "t": "కళలు Transitional Kindergarten (TK) నుంచి 12వ తరగతి వరకు అందుబాటులో ఉంటాయి — తొలి తరగతులలో దృశ్య కళలు మరియు సాధారణ సంగీతం, హై స్కూల్ నాటికి ఇవి band, choir, theatre మరియు స్థాయుల వారీ studio మార్గంగా విస్తరిస్తాయి."
     },
@@ -2280,7 +3070,7 @@
       "text": "Signature recognition",
       "of": "b770b2aa",
       "at": [
-        "providence-day:[16].label"
+        "providence-day:[22].label"
       ],
       "t": "ప్రత్యేక గుర్తింపు"
     },
@@ -2288,7 +3078,7 @@
       "text": "The most notable arts recognition or distinction named in each school’s note (measured differently per school).",
       "of": "45fef1e1",
       "at": [
-        "providence-day:[16].note"
+        "providence-day:[22].note"
       ],
       "t": "ఆయా పాఠశాలల గమనికలో పేర్కొన్న అత్యంత గుర్తించదగిన కళల గుర్తింపు లేదా ప్రత్యేకత (ఒక్కో పాఠశాలకు ఒక్కో విధంగా కొలవబడింది)."
     },
@@ -2296,7 +3086,7 @@
       "text": "NCTC festival",
       "of": "d4051bdd",
       "at": [
-        "providence-day:[16].values.cannon"
+        "providence-day:[22].values.cannon"
       ],
       "t": "NCTC festival"
     },
@@ -2304,7 +3094,7 @@
       "text": "Blumey Best Show",
       "of": "cdb2efd0",
       "at": [
-        "providence-day:[16].values.charlotte-christian"
+        "providence-day:[22].values.charlotte-christian"
       ],
       "t": "Blumey Best Show"
     },
@@ -2312,8 +3102,8 @@
       "text": "5 Blumey finalists (2025)",
       "of": "3a689e57",
       "at": [
-        "providence-day:[16].values.charlotte-catholic",
-        "providence-day:[20].values.charlotte-catholic"
+        "providence-day:[22].values.charlotte-catholic",
+        "providence-day:[26].values.charlotte-catholic"
       ],
       "t": "5 Blumey ఫైనలిస్టులు (2025)"
     },
@@ -2321,7 +3111,7 @@
       "text": "31+ Blumey noms",
       "of": "1b07308b",
       "at": [
-        "providence-day:[16].values.charlotte-country-day"
+        "providence-day:[22].values.charlotte-country-day"
       ],
       "t": "31+ Blumey నామినేషన్‌లు"
     },
@@ -2329,7 +3119,7 @@
       "text": "80%+ participation",
       "of": "2f0d86b8",
       "at": [
-        "providence-day:[16].values.charlotte-latin"
+        "providence-day:[22].values.charlotte-latin"
       ],
       "t": "80%+ పాల్గొనడం"
     },
@@ -2337,7 +3127,7 @@
       "text": "2 Blumey wins",
       "of": "a8e5f5e0",
       "at": [
-        "providence-day:[16].values.covenant-day"
+        "providence-day:[22].values.covenant-day"
       ],
       "t": "2 Blumey విజయాలు"
     },
@@ -2345,7 +3135,7 @@
       "text": "2026 Blumey — Best Actress",
       "of": "381ce8f4",
       "at": [
-        "providence-day:[16].values.carmel-christian"
+        "providence-day:[22].values.carmel-christian"
       ],
       "t": "2026 Blumey — Best Actress"
     },
@@ -2353,7 +3143,7 @@
       "text": "2025–26 Blumey noms",
       "of": "5a21c3aa",
       "at": [
-        "providence-day:[16].values.hickory-grove-christian"
+        "providence-day:[22].values.hickory-grove-christian"
       ],
       "t": "2025–26 Blumey నామినేషన్లు"
     },
@@ -2361,7 +3151,7 @@
       "text": "6-yr superior ratings",
       "of": "e87ef0b0",
       "at": [
-        "providence-day:[16].values.gaston-day"
+        "providence-day:[22].values.gaston-day"
       ],
       "t": "6 ఏళ్లు superior రేటింగ్‌లు"
     },
@@ -2369,7 +3159,7 @@
       "text": "Blumey recognition",
       "of": "cc199a5c",
       "at": [
-        "providence-day:[16].values.providence-day"
+        "providence-day:[22].values.providence-day"
       ],
       "t": "Blumey గుర్తింపు"
     },
@@ -2377,7 +3167,7 @@
       "text": "Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five further placements followed in 2026 for The Wizard of Oz — four nominees and one finalist. CCHS has not won a Blumey in either year.",
       "of": "7eec925f",
       "at": [
-        "providence-day:[16].quals.charlotte-catholic.text"
+        "providence-day:[22].quals.charlotte-catholic.text"
       ],
       "t": "2025లో ఐదుగురు Blumey Award ఫైనలిస్టులు, ఐదు వ్యక్తిగత ప్రదర్శన విభాగాల్లో ఒక్కొక్కరు, అందరూ Fiddler on the Roof కోసం. 2026లో The Wizard of Oz కోసం మరో ఐదు స్థానాలు వచ్చాయి — నలుగురు నామినీలు మరియు ఒక ఫైనలిస్టు. CCHS ఈ రెండు సంవత్సరాల్లోనూ Blumey గెలవలేదు."
     },
@@ -2385,7 +3175,7 @@
       "text": "Chorus students earned “superior” ratings in regional adjudications across six years — the school's own phrasing, which it does not break down by year or name the adjudicating body. Students have also gained admission to the UNC School of the Arts and to Governor's School.",
       "of": "1b69282f",
       "at": [
-        "providence-day:[16].quals.gaston-day.text"
+        "providence-day:[22].quals.gaston-day.text"
       ],
       "t": "Chorus విద్యార్థులు ఆరు సంవత్సరాల పాటు ప్రాంతీయ న్యాయనిర్ణయాల్లో “superior” రేటింగ్‌లు సాధించారు — ఇది పాఠశాల సొంత మాటలు, దీన్ని అది సంవత్సరాల వారీగా విడదీయలేదు, న్యాయనిర్ణయ సంస్థ పేరునూ చెప్పలేదు. విద్యార్థులు UNC School of the Arts మరియు Governor's Schoolలో ప్రవేశం కూడా పొందారు."
     },
@@ -2393,7 +3183,7 @@
       "text": "The school’s theatre program competes in the NC Theatre Conference High School Play Festival — the recognition its note leads with.",
       "of": "eb7778e0",
       "at": [
-        "providence-day:[16].quals.cannon.text"
+        "providence-day:[22].quals.cannon.text"
       ],
       "t": "పాఠశాల థియేటర్ కార్యక్రమం NC Theatre Conference High School Play Festival లో పాల్గొంటుంది — దాని నోట్ ప్రధానంగా పేర్కొనే గుర్తింపు."
     },
@@ -2401,7 +3191,7 @@
       "text": "Won Best Show at the Wells Fargo Blumey Awards for its production of Oklahoma! (2013). The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
       "of": "9818c743",
       "at": [
-        "providence-day:[16].quals.charlotte-christian.text"
+        "providence-day:[22].quals.charlotte-christian.text"
       ],
       "t": "Oklahoma! (2013) నిర్మాణానికి Wells Fargo Blumey Awards వద్ద Best Show గెలుచుకుంది. Blumeys అనేవి Charlotte ప్రాంతపు హైస్కూల్ మ్యూజికల్-థియేటర్ పురస్కారాలు."
     },
@@ -2409,7 +3199,7 @@
       "text": "31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards — a breadth-of-recognition figure rather than a single win.",
       "of": "66200628",
       "at": [
-        "providence-day:[16].quals.charlotte-country-day.text"
+        "providence-day:[22].quals.charlotte-country-day.text"
       ],
       "t": "Blumey Awards వద్ద 31+ నామినేషన్‌లు, Charlotte ప్రాంతపు హైస్కూల్ మ్యూజికల్-థియేటర్ పురస్కారాలు — ఒకే విజయం కాకుండా గుర్తింపు-విస్తృతి సంఖ్య."
     },
@@ -2417,7 +3207,7 @@
       "text": "Over 80% of students take part in the arts — a participation measure the school leads with, alongside individual Blumey wins (Best Actress, 2022).",
       "of": "d257d095",
       "at": [
-        "providence-day:[16].quals.charlotte-latin.text"
+        "providence-day:[22].quals.charlotte-latin.text"
       ],
       "t": "80% కంటే ఎక్కువ విద్యార్థులు కళల్లో పాల్గొంటారు — పాఠశాల ప్రధానంగా పేర్కొనే భాగస్వామ్య కొలత, వ్యక్తిగత Blumey విజయాలతో పాటు (Best Actress, 2022)."
     },
@@ -2425,7 +3215,7 @@
       "text": "Two wins at the Blumey Awards — Best Featured Performer (2013) and the Student Critic Award (2016) — within eight recognitions from 2013–2019, plus a 2025 National Shakespeare Competition finalist. The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
       "of": "12e87673",
       "at": [
-        "providence-day:[16].quals.covenant-day.text"
+        "providence-day:[22].quals.covenant-day.text"
       ],
       "t": "Blumey Awards వద్ద రెండు విజయాలు — Best Featured Performer (2013) మరియు Student Critic Award (2016) — 2013–2019 మధ్య ఎనిమిది గుర్తింపులలో, అదనంగా 2025 National Shakespeare Competition finalist. Blumeys అనేవి Charlotte ప్రాంత ఉన్నత-పాఠశాల సంగీత-నాటక పురస్కారాలు."
     },
@@ -2433,7 +3223,7 @@
       "text": "Repeated recognition at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards.",
       "of": "33f3f508",
       "at": [
-        "providence-day:[16].quals.providence-day.text"
+        "providence-day:[22].quals.providence-day.text"
       ],
       "t": "Blumey Awards వద్ద పునరావృత గుర్తింపు, Charlotte ప్రాంతపు హైస్కూల్ మ్యూజికల్-థియేటర్ పురస్కారాలు."
     },
@@ -2441,7 +3231,7 @@
       "text": "The 2026 Blumey Award for Best Actress — Anna Jernigan, for Footloose. The winner advances to the national Jimmy Awards.",
       "of": "e3a50509",
       "at": [
-        "providence-day:[16].quals.carmel-christian.text"
+        "providence-day:[22].quals.carmel-christian.text"
       ],
       "t": "Best Actressకు 2026 Blumey Award — Footloose కోసం Anna Jernigan. విజేత జాతీయ Jimmy Awardsకు ఎంపికవుతారు."
     },
@@ -2449,7 +3239,7 @@
       "text": "Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with Amara Aghedo and Christian Young recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
       "of": "b5035838",
       "at": [
-        "providence-day:[16].quals.hickory-grove-christian.text"
+        "providence-day:[22].quals.hickory-grove-christian.text"
       ],
       "t": "వరుసగా రెండు సీజన్లలో Blumey Award నామినీలు మరియు ఫైనలిస్టులు — Seussical (2025) మరియు Disney’s The Little Mermaid (2026), రెండింటిలోనూ Amara Aghedo మరియు Christian Young కనిపిస్తారు. ఏ విజయమూ ప్రచురించబడలేదు. Blumeys అనేవి Charlotte ప్రాంత హై-స్కూల్ సంగీత నాటక పురస్కారాలు."
     },
@@ -2457,7 +3247,7 @@
       "text": "Advanced coursework",
       "of": "a79c3149",
       "at": [
-        "providence-day:[17].label"
+        "providence-day:[23].label"
       ],
       "t": "ఉన్నత స్థాయి కోర్సులు"
     },
@@ -2465,7 +3255,7 @@
       "text": "Advanced (AP/IB) arts coursework offered, where the note names it.",
       "of": "340c2db7",
       "at": [
-        "providence-day:[17].note"
+        "providence-day:[23].note"
       ],
       "t": "గమనికలో పేర్కొన్న చోట అందించే ఉన్నత స్థాయి (AP/IB) కళల కోర్సులు."
     },
@@ -2473,8 +3263,8 @@
       "text": "AP Studio Art",
       "of": "c75dc683",
       "at": [
-        "providence-day:[17].values.cannon",
-        "providence-day:[17].values.covenant-day"
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.covenant-day"
       ],
       "t": "AP Studio Art"
     },
@@ -2482,7 +3272,7 @@
       "text": "1 AP + 12 Honors",
       "of": "1ae7fdfc",
       "at": [
-        "providence-day:[17].values.charlotte-catholic"
+        "providence-day:[23].values.charlotte-catholic"
       ],
       "t": "1 AP + 12 Honors"
     },
@@ -2490,7 +3280,7 @@
       "text": "AP + IB",
       "of": "3b521870",
       "at": [
-        "providence-day:[17].values.charlotte-country-day"
+        "providence-day:[23].values.charlotte-country-day"
       ],
       "t": "AP + IB"
     },
@@ -2498,12 +3288,12 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[17].values.carmel-christian",
-        "providence-day:[18].values.carmel-christian",
-        "providence-day:[28].values.charlotte-latin",
-        "providence-day:[28].values.davidson-day",
-        "providence-day:[29].values.cannon",
-        "providence-day:[29].values.hickory-grove-christian"
+        "providence-day:[23].values.carmel-christian",
+        "providence-day:[24].values.carmel-christian",
+        "providence-day:[34].values.charlotte-latin",
+        "providence-day:[34].values.davidson-day",
+        "providence-day:[35].values.cannon",
+        "providence-day:[35].values.hickory-grove-christian"
       ],
       "t": "3"
     },
@@ -2511,7 +3301,7 @@
       "text": "AP Studio Art 2D",
       "of": "dafc312f",
       "at": [
-        "providence-day:[17].values.hickory-grove-christian"
+        "providence-day:[23].values.hickory-grove-christian"
       ],
       "t": "AP Studio Art 2D"
     },
@@ -2519,7 +3309,7 @@
       "text": "Visual Art IV (H)",
       "of": "c08d2e6c",
       "at": [
-        "providence-day:[17].values.gaston-day"
+        "providence-day:[23].values.gaston-day"
       ],
       "t": "Visual Art IV (H)"
     },
@@ -2527,7 +3317,7 @@
       "text": "3 AP arts",
       "of": "513cfd73",
       "at": [
-        "providence-day:[17].values.providence-day"
+        "providence-day:[23].values.providence-day"
       ],
       "t": "3 AP కళల కోర్సులు"
     },
@@ -2535,7 +3325,7 @@
       "text": "AP Studio Art is the only AP arts course CCHS offers — there is no AP Music Theory and no AP Art History, confirmed by sweeping all 195 courses in the curriculum guide. Reporting the AP count alone would make a 39-course department, the largest in the school, read as thin.",
       "of": "ecb63b1b",
       "at": [
-        "providence-day:[17].quals.charlotte-catholic.text"
+        "providence-day:[23].quals.charlotte-catholic.text"
       ],
       "t": "CCHS అందించే ఏకైక AP కళల కోర్సు AP Studio Art — AP Music Theory లేదు, AP Art History లేదు, ఇది పాఠ్యప్రణాళిక మార్గదర్శిలోని మొత్తం 195 కోర్సులను పరిశీలించి ధ్రువీకరించారు. AP సంఖ్యను మాత్రమే చూపితే పాఠశాలలోని అతిపెద్ద విభాగమైన 39 కోర్సుల విభాగం బలహీనంగా కనిపిస్తుంది."
     },
@@ -2543,7 +3333,7 @@
       "text": "Visual Art IV (H) is the terminal arts course. There is no AP Studio Art or AP Art History in the profile's course table, so the ceiling here is an Honors course carrying +0.50 rather than an AP carrying +1.0.",
       "of": "4453fc64",
       "at": [
-        "providence-day:[17].quals.gaston-day.text"
+        "providence-day:[23].quals.gaston-day.text"
       ],
       "t": "Visual Art IV (H) చివరి కళల కోర్సు. profile కోర్సు పట్టికలో AP Studio Art గానీ AP Art History గానీ లేవు, కాబట్టి ఇక్కడ గరిష్ఠ స్థాయి +1.0 ఇచ్చే AP కాక, +0.50 ఇచ్చే Honors కోర్సు."
     },
@@ -2551,7 +3341,7 @@
       "text": "The advanced arts course the note names is AP Studio Art.",
       "of": "f7986af4",
       "at": [
-        "providence-day:[17].quals.cannon.text"
+        "providence-day:[23].quals.cannon.text"
       ],
       "t": "నోట్ పేర్కొనే అధునాతన కళల కోర్సు AP Studio Art."
     },
@@ -2559,7 +3349,7 @@
       "text": "Offers both AP and IB arts pathways — a dual AP/IB arts offering that is rare among these schools.",
       "of": "dc2f4054",
       "at": [
-        "providence-day:[17].quals.charlotte-country-day.text"
+        "providence-day:[23].quals.charlotte-country-day.text"
       ],
       "t": "AP మరియు IB కళల మార్గాలు రెండింటినీ అందిస్తుంది — ఈ పాఠశాలల్లో అరుదైన ద్వంద్వ AP/IB కళల ఆఫరింగ్."
     },
@@ -2567,7 +3357,7 @@
       "text": "AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art); Honors Auditioned Theatre is the performing-side advanced course.",
       "of": "0c3c1617",
       "at": [
-        "providence-day:[17].quals.covenant-day.text"
+        "providence-day:[23].quals.covenant-day.text"
       ],
       "t": "AP Studio Art దృశ్య కళల మార్గం శిఖరం (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art); Honors Auditioned Theatre ప్రదర్శన-వైపు అధునాతన కోర్సు."
     },
@@ -2575,7 +3365,7 @@
       "text": "Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.",
       "of": "37750126",
       "at": [
-        "providence-day:[17].quals.providence-day.text"
+        "providence-day:[23].quals.providence-day.text"
       ],
       "t": "మూడు AP కళల కోర్సులు: AP Studio Art, AP Art History, మరియు AP Music Theory."
     },
@@ -2583,7 +3373,7 @@
       "text": "The advanced arts course the school names is AP Studio Art 2D (AP 2-D Art & Design), atop the Art I–IV studio sequence; students \"consistently score 3 or 4.\"",
       "of": "c9894b1e",
       "at": [
-        "providence-day:[17].quals.hickory-grove-christian.text"
+        "providence-day:[23].quals.hickory-grove-christian.text"
       ],
       "t": "పాఠశాల పేర్కొన్న ఉన్నత స్థాయి కళల కోర్సు AP Studio Art 2D (AP 2-D Art & Design), ఇది Art I–IV studio క్రమానికి పైన ఉంటుంది; విద్యార్థులు \"consistently score 3 or 4.\""
     },
@@ -2591,7 +3381,7 @@
       "text": "Ensembles / offerings",
       "of": "65db4389",
       "at": [
-        "providence-day:[18].label"
+        "providence-day:[24].label"
       ],
       "t": "బృందాలు / అందుబాటులో ఉన్నవి"
     },
@@ -2599,7 +3389,7 @@
       "text": "Count or breadth of ensembles / arts offerings as each note describes them.",
       "of": "66e31b3f",
       "at": [
-        "providence-day:[18].note"
+        "providence-day:[24].note"
       ],
       "t": "ఆయా గమనికలు వివరించిన ప్రకారం బృందాల సంఖ్య లేదా కళల కార్యక్రమాల విస్తృతి."
     },
@@ -2607,7 +3397,7 @@
       "text": "3 pillars",
       "of": "176bc52f",
       "at": [
-        "providence-day:[18].values.cannon"
+        "providence-day:[24].values.cannon"
       ],
       "t": "3 మూల స్తంభాలు"
     },
@@ -2615,7 +3405,7 @@
       "text": "40+ electives",
       "of": "4a7cca16",
       "at": [
-        "providence-day:[18].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian"
       ],
       "t": "40+ ఐచ్ఛిక కోర్సులు"
     },
@@ -2623,7 +3413,7 @@
       "text": "12 ensembles",
       "of": "80771526",
       "at": [
-        "providence-day:[18].values.charlotte-catholic"
+        "providence-day:[24].values.charlotte-catholic"
       ],
       "t": "12 బృందాలు"
     },
@@ -2631,7 +3421,7 @@
       "text": "8 ensembles",
       "of": "10a2036b",
       "at": [
-        "providence-day:[18].values.charlotte-country-day"
+        "providence-day:[24].values.charlotte-country-day"
       ],
       "t": "8 బృందాలు"
     },
@@ -2639,7 +3429,7 @@
       "text": "9 ensembles",
       "of": "924f6d38",
       "at": [
-        "providence-day:[18].values.covenant-day"
+        "providence-day:[24].values.covenant-day"
       ],
       "t": "9 బృందాలు"
     },
@@ -2647,8 +3437,8 @@
       "text": "3 ensembles",
       "of": "6d5a020e",
       "at": [
-        "providence-day:[18].values.hickory-grove-christian",
-        "providence-day:[18].values.gaston-day"
+        "providence-day:[24].values.hickory-grove-christian",
+        "providence-day:[24].values.gaston-day"
       ],
       "t": "3 బృందాలు"
     },
@@ -2656,7 +3446,7 @@
       "text": "4 ensembles",
       "of": "ddc02b07",
       "at": [
-        "providence-day:[18].values.providence-day"
+        "providence-day:[24].values.providence-day"
       ],
       "t": "4 బృందాలు"
     },
@@ -2664,7 +3454,7 @@
       "text": "Twelve named ensembles carry their own course codes across choral, band and percussion. Marching Band and Jazz Band also operate, Jazz Band as an after-school group without a course code.",
       "of": "05c75ca2",
       "at": [
-        "providence-day:[18].quals.charlotte-catholic.text"
+        "providence-day:[24].quals.charlotte-catholic.text"
       ],
       "t": "పేరున్న పన్నెండు బృందాలకు గాన, band మరియు percussion విభాగాల్లో వాటి సొంత కోర్సు కోడ్‌లు ఉన్నాయి. Marching Band మరియు Jazz Band కూడా నడుస్తాయి, Jazz Band కోర్సు కోడ్ లేని పాఠశాల తర్వాత బృందంగా."
     },
@@ -2672,7 +3462,7 @@
       "text": "Three named ensembles: the Upper School Vocal Performance Ensemble, the MS Instrumental Ensemble (woodwinds, brass, percussion, piano, guitar) and the Middle School Chorus. Band and Concert Choir also run as credit-bearing fine-arts courses but are not counted here as ensembles.",
       "of": "7a4e9010",
       "at": [
-        "providence-day:[18].quals.gaston-day.text"
+        "providence-day:[24].quals.gaston-day.text"
       ],
       "t": "పేరున్న మూడు ensembles: Upper School Vocal Performance Ensemble, MS Instrumental Ensemble (woodwinds, brass, percussion, piano, guitar) మరియు Middle School Chorus. Band మరియు Concert Choir కూడా క్రెడిట్ ఇచ్చే fine-arts కోర్సులుగా నడుస్తాయి, కానీ వాటిని ఇక్కడ ensembles గా లెక్కించలేదు."
     },
@@ -2680,7 +3470,7 @@
       "text": "The program is organized around three pillars — Visual Arts, Music, and Theater — rather than counted as a number of ensembles.",
       "of": "96aeb708",
       "at": [
-        "providence-day:[18].quals.cannon.text"
+        "providence-day:[24].quals.cannon.text"
       ],
       "t": "కార్యక్రమం ఎన్‌సెంబుల్‌ల సంఖ్యగా లెక్కించడానికి బదులుగా మూడు స్తంభాల చుట్టూ నిర్వహించబడింది — Visual Arts, Music, మరియు Theater."
     },
@@ -2688,7 +3478,7 @@
       "text": "40+ arts electives across four areas — a stated floor rather than an exact catalog count.",
       "of": "77a9c1b0",
       "at": [
-        "providence-day:[18].quals.charlotte-christian.text"
+        "providence-day:[24].quals.charlotte-christian.text"
       ],
       "t": "నాలుగు ప్రాంతాల అంతటా 40+ కళల ఎలెక్టివ్‌లు — ఖచ్చితమైన క్యాటలాగ్ లెక్క కాకుండా పేర్కొన్న కనీస సంఖ్య."
     },
@@ -2696,7 +3486,7 @@
       "text": "Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and open-enrollment groups.",
       "of": "1905d4d4",
       "at": [
-        "providence-day:[18].quals.charlotte-country-day.text"
+        "providence-day:[24].quals.charlotte-country-day.text"
       ],
       "t": "Middle మరియు Upper School అంతటా ఎనిమిది గాత్ర మరియు వాద్య సమూహాలు, ఆడిషన్ చేయబడిన హానర్స్ ఎన్‌సెంబుల్‌లు మరియు ఓపెన్-ఎన్‌రోల్‌మెంట్ సమూహాలను కలుపుతూ."
     },
@@ -2704,7 +3494,7 @@
       "text": "Nine named ensembles across the divisions — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella, and the grade-5 intro ensembles — plus a Tri-M Music Honor Society chapter. Worship bands at both MS and HS are the distinctive rung.",
       "of": "ca3c56d6",
       "at": [
-        "providence-day:[18].quals.covenant-day.text"
+        "providence-day:[24].quals.covenant-day.text"
       ],
       "t": "విభాగాల అంతటా తొమ్మిది పేరున్న బృందాలు — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella, మరియు grade-5 intro బృందాలు — అదనంగా ఒక Tri-M Music Honor Society chapter. MS మరియు HS రెండింటిలోనూ worship bands ప్రత్యేక అంశం."
     },
@@ -2712,7 +3502,7 @@
       "text": "Four performing ensembles: Band, Orchestra, Chorus, and Jazz.",
       "of": "15743562",
       "at": [
-        "providence-day:[18].quals.providence-day.text"
+        "providence-day:[24].quals.providence-day.text"
       ],
       "t": "నాలుగు ప్రదర్శన ఎన్‌సెంబుల్‌లు: Band, Orchestra, Chorus, మరియు Jazz."
     },
@@ -2720,7 +3510,7 @@
       "text": "Three named high-school ensembles — Concert Band, Jazz Band and Choir. No orchestra is offered at any level.",
       "of": "1290bb44",
       "at": [
-        "providence-day:[18].quals.hickory-grove-christian.text"
+        "providence-day:[24].quals.hickory-grove-christian.text"
       ],
       "t": "పేరున్న మూడు హై-స్కూల్ బృందాలు — Concert Band, Jazz Band మరియు Choir. ఏ స్థాయిలోనూ orchestra అందుబాటులో లేదు."
     },
@@ -2728,7 +3518,7 @@
       "text": "Upper School student organizations",
       "of": "f627bba6",
       "at": [
-        "providence-day:[19].label"
+        "providence-day:[25].label"
       ],
       "t": "Upper School విద్యార్థి సంస్థలు"
     },
@@ -2736,7 +3526,7 @@
       "text": "Clubs, honor societies, and student-led organizations in the Upper School. Each school counts differently — hover a figure for what it includes.",
       "of": "41f9b3fb",
       "at": [
-        "providence-day:[19].note"
+        "providence-day:[25].note"
       ],
       "t": "Upper School లో క్లబ్‌లు, హానర్ సొసైటీలు, మరియు విద్యార్థి-నేతృత్వంలోని సంస్థలు. ప్రతి పాఠశాల భిన్నంగా లెక్కిస్తుంది — అది ఏమి కలిగి ఉందో తెలుసుకోవడానికి ఒక సంఖ్యపై హోవర్ చేయండి."
     },
@@ -2744,7 +3534,7 @@
       "text": "≥19",
       "of": "d4042e4e",
       "at": [
-        "providence-day:[19].values.cannon"
+        "providence-day:[25].values.cannon"
       ],
       "t": "≥19"
     },
@@ -2752,7 +3542,7 @@
       "text": "23",
       "of": "8ef29b12",
       "at": [
-        "providence-day:[19].values.charlotte-christian"
+        "providence-day:[25].values.charlotte-christian"
       ],
       "t": "23"
     },
@@ -2760,7 +3550,7 @@
       "text": "76",
       "of": "89e5c740",
       "at": [
-        "providence-day:[19].values.charlotte-catholic"
+        "providence-day:[25].values.charlotte-catholic"
       ],
       "t": "76"
     },
@@ -2768,7 +3558,7 @@
       "text": "~45–50",
       "of": "969a4292",
       "at": [
-        "providence-day:[19].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-country-day"
       ],
       "t": "~45–50"
     },
@@ -2776,9 +3566,9 @@
       "text": "25",
       "of": "88f291a0",
       "at": [
-        "providence-day:[19].values.charlotte-latin",
-        "providence-day:[29].values.charlotte-catholic",
-        "providence-day:[29].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-latin",
+        "providence-day:[35].values.charlotte-catholic",
+        "providence-day:[35].values.charlotte-country-day"
       ],
       "t": "25"
     },
@@ -2786,7 +3576,7 @@
       "text": "≥14",
       "of": "d1042995",
       "at": [
-        "providence-day:[19].values.covenant-day"
+        "providence-day:[25].values.covenant-day"
       ],
       "t": "≥14"
     },
@@ -2794,7 +3584,7 @@
       "text": "~5",
       "of": "885dbb3c",
       "at": [
-        "providence-day:[19].values.carmel-christian"
+        "providence-day:[25].values.carmel-christian"
       ],
       "t": "~5"
     },
@@ -2802,7 +3592,7 @@
       "text": "≥9",
       "of": "e05ccd9b",
       "at": [
-        "providence-day:[19].values.davidson-day"
+        "providence-day:[25].values.davidson-day"
       ],
       "t": "≥9"
     },
@@ -2810,7 +3600,7 @@
       "text": "27",
       "of": "8af294c6",
       "at": [
-        "providence-day:[19].values.hickory-grove-christian"
+        "providence-day:[25].values.hickory-grove-christian"
       ],
       "t": "27"
     },
@@ -2818,7 +3608,7 @@
       "text": "31",
       "of": "88f05309",
       "at": [
-        "providence-day:[19].values.gaston-day"
+        "providence-day:[25].values.gaston-day"
       ],
       "t": "31"
     },
@@ -2826,7 +3616,7 @@
       "text": "77",
       "of": "8ae5c8d3",
       "at": [
-        "providence-day:[19].values.providence-day"
+        "providence-day:[25].values.providence-day"
       ],
       "t": "77"
     },
@@ -2834,7 +3624,7 @@
       "text": "Counted from the clubs directory's raw HTML across its six categories — Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile separately says 'over 50 club opportunities', a round prose figure rather than a count.",
       "of": "59d0997a",
       "at": [
-        "providence-day:[19].quals.charlotte-catholic.text"
+        "providence-day:[25].quals.charlotte-catholic.text"
       ],
       "t": "క్లబ్‌ల డైరెక్టరీ raw HTML నుంచి దాని ఆరు విభాగాల అంతటా లెక్కించారు — Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. పాఠశాల ప్రొఫైల్ వేరుగా '50కి పైగా క్లబ్ అవకాశాలు' అని చెబుతుంది, ఇది లెక్క కాకుండా ఒక గుండ్రటి సంఖ్య."
     },
@@ -2842,7 +3632,7 @@
       "text": "Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 11 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.",
       "of": "5ef8dd83",
       "at": [
-        "providence-day:[19].quals.cannon.text"
+        "providence-day:[25].quals.cannon.text"
       ],
       "t": "Cannon చార్టర్డ్ క్లబ్ డైరెక్టరీని ప్రచురించదు, కాబట్టి ఇది నమోదైన కనీస సంఖ్య: 8 పేరుగల Upper School సంస్థలు మరియు దాని 11 Upper School హానర్ సొసైటీలు. లైవ్ రోస్టర్ సంవత్సరానికి సంవత్సరం మారుతుంది మరియు పూర్తిగా వెల్లడించబడదు."
     },
@@ -2850,7 +3640,7 @@
       "text": "Counts the 23 named organizations in the Upper School across four categories. The school also reports 35 across JK–12; only the Upper School band is used here for a like-for-like comparison.",
       "of": "717784a4",
       "at": [
-        "providence-day:[19].quals.charlotte-christian.text"
+        "providence-day:[25].quals.charlotte-christian.text"
       ],
       "t": "Upper School లో నాలుగు వర్గాల అంతటా 23 పేరుగల సంస్థలను లెక్కిస్తుంది. పాఠశాల JK–12 అంతటా 35 అని కూడా నివేదిస్తుంది; సమానమైన పోలిక కోసం ఇక్కడ Upper School బ్యాండ్ మాత్రమే వాడబడింది."
     },
@@ -2858,7 +3648,7 @@
       "text": "The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 7 are confirmed by name in public sources.",
       "of": "ac32cf5a",
       "at": [
-        "providence-day:[19].quals.charlotte-country-day.text"
+        "providence-day:[25].quals.charlotte-country-day.text"
       ],
       "t": "పాఠశాల జాబితా కాకుండా ఒక శ్రేణిని ప్రచురిస్తుంది — దాని Upper School పేజీ “nearly 50 clubs” అని పేర్కొంటుంది మరియు 2025–26 ప్రొఫైల్ “45 different clubs and activities” అని జాబితా చేస్తుంది. ప్రజా మూలాల్లో పేరుతో 7 మాత్రమే ధృవీకరించబడ్డాయి."
     },
@@ -2866,7 +3656,7 @@
       "text": "Covenant Day publishes no club directory of its own, so this is a documented floor: 14 Upper School organizations and honor societies confirmed across school pages and a third-party roster, after filtering out Middle/Lower School entries, paid lesson programs, and curricular ensembles.",
       "of": "4d31acec",
       "at": [
-        "providence-day:[19].quals.covenant-day.text"
+        "providence-day:[25].quals.covenant-day.text"
       ],
       "t": "Covenant Day తన సొంత క్లబ్ directory ఏదీ ప్రచురించదు, కాబట్టి ఇది నమోదైన కనీస స్థాయి: Middle/Lower School నమోదులు, చెల్లింపు lesson కార్యక్రమాలు మరియు పాఠ్యప్రణాళిక బృందాలను వడపోసిన తర్వాత, పాఠశాల పేజీలు మరియు ఒక third-party జాబితా అంతటా ధ్రువీకరించిన 14 Upper School సంస్థలు మరియు honor societies."
     },
@@ -2874,7 +3664,7 @@
       "text": "Davidson Day publishes no Upper School club roster, so this counts only the clubs confirmed in public sources — a documented floor, not a total.",
       "of": "42b278f6",
       "at": [
-        "providence-day:[19].quals.davidson-day.text"
+        "providence-day:[25].quals.davidson-day.text"
       ],
       "t": "Davidson Day Upper School క్లబ్ రోస్టర్‌ను ప్రచురించదు, కాబట్టి ఇది ప్రజా మూలాల్లో ధృవీకరించబడిన క్లబ్‌లను మాత్రమే లెక్కిస్తుంది — నమోదైన కనీస సంఖ్య, మొత్తం కాదు."
     },
@@ -2882,7 +3672,7 @@
       "text": "Taken from the school’s official 2025–26 Upper School club list, with 5 arts clubs excluded for a clean count — the deepest slate in the set.",
       "of": "29593fea",
       "at": [
-        "providence-day:[19].quals.providence-day.text"
+        "providence-day:[25].quals.providence-day.text"
       ],
       "t": "పాఠశాల అధికారిక 2025–26 Upper School క్లబ్ జాబితా నుండి తీసుకోబడింది, స్పష్టమైన లెక్క కోసం 5 కళల క్లబ్‌లను మినహాయించడంతో — సెట్‌లో అత్యంత లోతైన శ్రేణి."
     },
@@ -2890,7 +3680,7 @@
       "text": "Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.",
       "of": "64db848f",
       "at": [
-        "providence-day:[19].quals.carmel-christian.text"
+        "providence-day:[25].quals.carmel-christian.text"
       ],
       "t": "శాశ్వతంగా ఉన్న హై-స్కూల్ విద్యార్థి సంస్థలు: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, మరియు Timothy Project. మిగతా క్లబ్‌లు దరఖాస్తు ద్వారా విద్యార్థులే ప్రారంభిస్తారు, కాబట్టి స్థిరమైన జాబితా ఏదీ ప్రచురించబడలేదు."
     },
@@ -2898,7 +3688,7 @@
       "text": "27 non-sports organizations (18 clubs/organizations + 9 arts/music) from a single aggregator (PrivateSchoolReview) — the school's own site has no clubs page, so this is a single-source count. Five are honor societies; a subset (Choir, Drama, Jazz Band, Discipleship) is corroborated on the school site.",
       "of": "60c9c31d",
       "at": [
-        "providence-day:[19].quals.hickory-grove-christian.text"
+        "providence-day:[25].quals.hickory-grove-christian.text"
       ],
       "t": "ఒకే సమాహారకం (PrivateSchoolReview) నుంచి 27 క్రీడేతర సంస్థలు (18 clubs/organizations + 9 arts/music) — పాఠశాల స్వంత సైట్‌లో clubs పేజీ లేదు, కాబట్టి ఇది ఒకే మూలం నుంచి వచ్చిన లెక్క. వీటిలో ఐదు Honor Societies; కొంత భాగం (Choir, Drama, Jazz Band, Discipleship) పాఠశాల సైట్‌లో ధ్రువీకరించబడింది."
     },
@@ -2906,7 +3696,7 @@
       "text": "Flagship result",
       "of": "472b065e",
       "at": [
-        "providence-day:[20].label"
+        "providence-day:[26].label"
       ],
       "t": "ప్రధాన విజయం"
     },
@@ -2914,7 +3704,7 @@
       "text": "The single most notable competitive club achievement documented in each school’s note.",
       "of": "d2360dbe",
       "at": [
-        "providence-day:[20].note"
+        "providence-day:[26].note"
       ],
       "t": "ఆయా పాఠశాలల గమనికలో నమోదైన అత్యంత గుర్తించదగిన పోటీ క్లబ్ విజయం."
     },
@@ -2922,7 +3712,7 @@
       "text": "FLL Worlds top 100",
       "of": "6601652a",
       "at": [
-        "providence-day:[20].values.cannon"
+        "providence-day:[26].values.cannon"
       ],
       "t": "FLL Worlds తొలి 100లో"
     },
@@ -2930,7 +3720,7 @@
       "text": "Chess 2nd place",
       "of": "b9f2156c",
       "at": [
-        "providence-day:[20].values.charlotte-christian"
+        "providence-day:[26].values.charlotte-christian"
       ],
       "t": "చెస్‌లో 2వ స్థానం"
     },
@@ -2938,7 +3728,7 @@
       "text": "Model UN — 6 awards",
       "of": "b0aa007f",
       "at": [
-        "providence-day:[20].values.charlotte-country-day"
+        "providence-day:[26].values.charlotte-country-day"
       ],
       "t": "Model UN — 6 పురస్కారాలు"
     },
@@ -2946,7 +3736,7 @@
       "text": "Debate top-20 US",
       "of": "75c75ed4",
       "at": [
-        "providence-day:[20].values.charlotte-latin"
+        "providence-day:[26].values.charlotte-latin"
       ],
       "t": "Debateలో US తొలి 20లో"
     },
@@ -2954,7 +3744,7 @@
       "text": "Mock Trial art 2nd NC",
       "of": "50ea292d",
       "at": [
-        "providence-day:[20].values.covenant-day"
+        "providence-day:[26].values.covenant-day"
       ],
       "t": "Mock Trial art 2nd NC"
     },
@@ -2962,7 +3752,7 @@
       "text": "2022 NCISAA 4A basketball title",
       "of": "643bd5bc",
       "at": [
-        "providence-day:[20].values.carmel-christian"
+        "providence-day:[26].values.carmel-christian"
       ],
       "t": "2022 NCISAA 4A basketball టైటిల్"
     },
@@ -2970,7 +3760,7 @@
       "text": "Battle of Books 1st",
       "of": "bcec0bda",
       "at": [
-        "providence-day:[20].values.davidson-day"
+        "providence-day:[26].values.davidson-day"
       ],
       "t": "Battle of Books 1వ స్థానం"
     },
@@ -2978,7 +3768,7 @@
       "text": "iGEM gold medal",
       "of": "c7a9f494",
       "at": [
-        "providence-day:[20].values.gaston-day"
+        "providence-day:[26].values.gaston-day"
       ],
       "t": "iGEM బంగారు పతకం"
     },
@@ -2986,7 +3776,7 @@
       "text": "DECA → ICDC ’26",
       "of": "d41ceb82",
       "at": [
-        "providence-day:[20].values.providence-day"
+        "providence-day:[26].values.providence-day"
       ],
       "t": "DECA → ICDC ’26"
     },
@@ -2994,7 +3784,7 @@
       "text": "The strongest recent dated competitive result. The only alternative found is a Speech & Debate state runner-up finish from 2017 — nine years old, and older than any result shipped for another school here.",
       "of": "864bbf93",
       "at": [
-        "providence-day:[20].quals.charlotte-catholic.text"
+        "providence-day:[26].quals.charlotte-catholic.text"
       ],
       "t": "ఇటీవలి తేదీ ఉన్న అత్యంత బలమైన పోటీ ఫలితం. కనుగొన్న ఏకైక ప్రత్యామ్నాయం 2017 నాటి Speech & Debate రాష్ట్ర ద్వితీయ స్థానం — తొమ్మిదేళ్ల నాటిది, మరియు ఇక్కడి మరే పాఠశాలకూ ప్రచురించిన ఫలితం కంటే పాతది."
     },
@@ -3002,7 +3792,7 @@
       "text": "The iGEM gold medal is the school's strongest published competitive result — iGEM is a university-level synthetic-biology competition with a high-school track, and Gaston Day fielded teams in 2012, 2016, 2018 and 2020. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing. The medal level is third-party-confirmed; the archived iGEM wikis 403 to automated fetches.",
       "of": "86c0a38e",
       "at": [
-        "providence-day:[20].quals.gaston-day.text"
+        "providence-day:[26].quals.gaston-day.text"
       ],
       "t": "iGEM బంగారు పతకం పాఠశాల ప్రచురించిన అత్యంత బలమైన పోటీ ఫలితం — iGEM అనేది హైస్కూల్ విభాగం ఉన్న విశ్వవిద్యాలయ-స్థాయి synthetic-biology పోటీ, మరియు Gaston Day 2012, 2016, 2018 మరియు 2020లో జట్లను పంపింది. VEX Robotics జట్టు విడిగా 2023లో, పోటీ పడిన మొదటి సంవత్సరంలోనే, TSA VEX Nationalsకు అర్హత సాధించింది. పతక స్థాయిని మూడో పక్షం ధ్రువీకరించింది; ఆర్కైవ్ చేసిన iGEM wikis స్వయంచాలక fetchలకు 403 ఇస్తున్నాయి."
     },
@@ -3010,7 +3800,7 @@
       "text": "The Brainy Yaks robotics team finished in the top 100 of more than 32,000 teams at the FIRST LEGO League World Championship, in back-to-back years (2024 and 2025).",
       "of": "7144e497",
       "at": [
-        "providence-day:[20].quals.cannon.text"
+        "providence-day:[26].quals.cannon.text"
       ],
       "t": "Brainy Yaks రోబోటిక్స్ జట్టు FIRST LEGO League World Championship లో 32,000 కంటే ఎక్కువ జట్లలో top 100 లో నిలిచింది, వరుసగా రెండు సంవత్సరాలు (2024 మరియు 2025)."
     },
@@ -3018,7 +3808,7 @@
       "text": "The Middle School Chess team placed 2nd at a tournament — the most notable competitive club result the school’s note documents.",
       "of": "e10d379a",
       "at": [
-        "providence-day:[20].quals.charlotte-christian.text"
+        "providence-day:[26].quals.charlotte-christian.text"
       ],
       "t": "Middle School చెస్ జట్టు ఒక టోర్నమెంట్‌లో 2nd స్థానంలో నిలిచింది — పాఠశాల నోట్ నమోదు చేసే అత్యంత గుర్తించదగిన పోటీ క్లబ్ ఫలితం."
     },
@@ -3026,7 +3816,7 @@
       "text": "The Model UN team earned 6 awards at the MUNCH 2025 conference, including 4 Outstanding Delegate honors.",
       "of": "f56e4e05",
       "at": [
-        "providence-day:[20].quals.charlotte-country-day.text"
+        "providence-day:[26].quals.charlotte-country-day.text"
       ],
       "t": "Model UN జట్టు MUNCH 2025 సదస్సులో 6 పురస్కారాలు సాధించింది, 4 Outstanding Delegate గౌరవాలతో సహా."
     },
@@ -3034,7 +3824,7 @@
       "text": "The debate program was named to the NSDA Schools of Excellence — a top-20 ranking nationally.",
       "of": "692b1cbf",
       "at": [
-        "providence-day:[20].quals.charlotte-latin.text"
+        "providence-day:[26].quals.charlotte-latin.text"
       ],
       "t": "డిబేట్ కార్యక్రమం NSDA Schools of Excellence కు ఎంపిక చేయబడింది — జాతీయంగా టాప్-20 ర్యాంకింగ్."
     },
@@ -3042,7 +3832,7 @@
       "text": "Cornelia Knight of the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory) and was the 2025 State Champion Courtroom Artist runner-up — the program’s best-documented statewide result.",
       "of": "283bfd15",
       "at": [
-        "providence-day:[20].quals.covenant-day.text"
+        "providence-day:[26].quals.covenant-day.text"
       ],
       "t": "Covenant Day Blue Mock Trial జట్టుకు చెందిన Cornelia Knight, NC Mock Trial courtroom-artist regional (Hickory) గెలిచి 2025 State Champion Courtroom Artist ద్వితీయ స్థానంలో నిలిచారు — కార్యక్రమ అత్యధికంగా నమోదైన రాష్ట్రస్థాయి ఫలితం."
     },
@@ -3050,7 +3840,7 @@
       "text": "The Middle School Battle of the Books team placed 1st in its regional competition.",
       "of": "255fc0f0",
       "at": [
-        "providence-day:[20].quals.davidson-day.text"
+        "providence-day:[26].quals.davidson-day.text"
       ],
       "t": "Middle School Battle of the Books జట్టు తన ప్రాంతీయ పోటీలో 1st స్థానంలో నిలిచింది."
     },
@@ -3058,7 +3848,7 @@
       "text": "The DECA business team advanced to the national International Career Development Conference (ICDC) in 2026.",
       "of": "833db766",
       "at": [
-        "providence-day:[20].quals.providence-day.text"
+        "providence-day:[26].quals.providence-day.text"
       ],
       "t": "DECA వ్యాపార జట్టు 2026లో జాతీయ International Career Development Conference (ICDC) కు చేరుకుంది."
     },
@@ -3066,7 +3856,7 @@
       "text": "The 2022 NCISAA 4A boys basketball state title (def. Greensboro Day 71–66; Cade Tyson scored 31). The girls soccer team reached the 2026 4A final as runner-up.",
       "of": "c4b526ed",
       "at": [
-        "providence-day:[20].quals.carmel-christian.text"
+        "providence-day:[26].quals.carmel-christian.text"
       ],
       "t": "2022 NCISAA 4A బాలుర basketball రాష్ట్ర టైటిల్ (Greensboro Dayపై 71–66 విజయం; Cade Tyson 31 పాయింట్లు). బాలికల soccer జట్టు 2026 4A ఫైనల్‌కు చేరి ద్వితీయ స్థానంలో నిలిచింది."
     },
@@ -3074,7 +3864,7 @@
       "text": "Participation signal",
       "of": "c51dd962",
       "at": [
-        "providence-day:[21].label"
+        "providence-day:[27].label"
       ],
       "t": "పాల్గొనే స్థాయి సూచిక"
     },
@@ -3082,7 +3872,7 @@
       "text": "A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.",
       "of": "11f5cf07",
       "at": [
-        "providence-day:[21].note"
+        "providence-day:[27].note"
       ],
       "t": "పాఠశాల ప్రచురించిన చోట పాల్గొనే విస్తృతిని తెలిపే సంఖ్య (ఒక్కో పాఠశాలకు ఒక్కో విధంగా కొలవబడింది — పాఠశాల గమనికను చూడండి). Charlotte Latin సంఖ్య క్రీడల్లో పాల్గొనడాన్ని సూచిస్తుంది."
     },
@@ -3090,7 +3880,7 @@
       "text": "~10k service hrs",
       "of": "546c8d85",
       "at": [
-        "providence-day:[21].values.cannon"
+        "providence-day:[27].values.cannon"
       ],
       "t": "~10k సేవా గంటలు"
     },
@@ -3098,7 +3888,7 @@
       "text": "100% service",
       "of": "f0085170",
       "at": [
-        "providence-day:[21].values.charlotte-catholic"
+        "providence-day:[27].values.charlotte-catholic"
       ],
       "t": "100% సేవ"
     },
@@ -3106,7 +3896,7 @@
       "text": "~50% mentor weekly",
       "of": "c1f3ec73",
       "at": [
-        "providence-day:[21].values.charlotte-country-day"
+        "providence-day:[27].values.charlotte-country-day"
       ],
       "t": "~50% వారానికి mentoring"
     },
@@ -3114,7 +3904,7 @@
       "text": "~90% play a sport",
       "of": "a1d11602",
       "at": [
-        "providence-day:[21].values.charlotte-latin"
+        "providence-day:[27].values.charlotte-latin"
       ],
       "t": "~90% ఏదో ఒక క్రీడ ఆడతారు"
     },
@@ -3122,7 +3912,7 @@
       "text": "~50% in service clubs",
       "of": "c3fd9e34",
       "at": [
-        "providence-day:[21].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ],
       "t": "~50% సేవా క్లబ్‌లలో"
     },
@@ -3130,7 +3920,7 @@
       "text": "100% is structurally true rather than a survey result: 70 approved service hours over four years is a graduation requirement at CCHS (10 hours in 9th grade, 20 in each of 10th-12th, at least 5 parish hours a year, submitted by March 1).",
       "of": "dfa63711",
       "at": [
-        "providence-day:[21].quals.charlotte-catholic.text"
+        "providence-day:[27].quals.charlotte-catholic.text"
       ],
       "t": "100% అనేది సర్వే ఫలితం కాకుండా నిర్మాణపరంగానే నిజం: CCHSలో పట్టా పొందడానికి నాలుగు సంవత్సరాల్లో 70 ఆమోదిత సేవా గంటలు తప్పనిసరి (9వ తరగతిలో 10 గంటలు, 10–12 తరగతుల్లో ఒక్కో సంవత్సరం 20, సంవత్సరానికి కనీసం 5 parish గంటలు, మార్చి 1 లోపు సమర్పించాలి)."
     },
@@ -3138,7 +3928,7 @@
       "text": "About 10,000 service hours a year, scoped to the Upper School page that carries it. This replaces an older ~15,000 school-wide figure the school no longer publishes.",
       "of": "a18e36d7",
       "at": [
-        "providence-day:[21].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text"
       ],
       "t": "సంవత్సరానికి సుమారు 10,000 సేవా గంటలు, దీన్ని కలిగి ఉన్న Upper School పేజీకి పరిమితం. ఇది పాఠశాల ఇక ప్రచురించని పాత ~15,000 పాఠశాల-వ్యాప్త సంఖ్యను భర్తీ చేస్తుంది."
     },
@@ -3146,7 +3936,7 @@
       "text": "About half of juniors and seniors mentor younger students weekly — a mentoring-participation figure rather than a club-membership one.",
       "of": "efe8c172",
       "at": [
-        "providence-day:[21].quals.charlotte-country-day.text"
+        "providence-day:[27].quals.charlotte-country-day.text"
       ],
       "t": "సుమారు సగం జూనియర్‌లు మరియు సీనియర్‌లు వారానికి చిన్న విద్యార్థులకు మెంటర్‌గా ఉంటారు — క్లబ్-సభ్యత్వం కాకుండా మెంటరింగ్-భాగస్వామ్య సంఖ్య."
     },
@@ -3154,7 +3944,7 @@
       "text": "About 90% of students in grades 7–12 play a sanctioned sport. This is a sports-participation figure, the breadth measure the school publishes.",
       "of": "0dc1a9c9",
       "at": [
-        "providence-day:[21].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text"
       ],
       "t": "గ్రేడ్‌లు 7–12లోని సుమారు 90% విద్యార్థులు అనుమతించబడిన క్రీడలో పాల్గొంటారు. ఇది క్రీడా-భాగస్వామ్య సంఖ్య, పాఠశాల ప్రచురించే విస్తృతి కొలత."
     },
@@ -3162,7 +3952,7 @@
       "text": "Service clubs engage roughly half of the Upper School.",
       "of": "9269a031",
       "at": [
-        "providence-day:[21].quals.providence-day.text"
+        "providence-day:[27].quals.providence-day.text"
       ],
       "t": "సేవా క్లబ్‌లు Upper School లో సుమారు సగం మందిని నిమగ్నం చేస్తాయి."
     },
@@ -3170,7 +3960,7 @@
       "text": "Latest pickup time",
       "of": "678b6663",
       "at": [
-        "providence-day:[22].label"
+        "providence-day:[28].label"
       ],
       "t": "చివరి పికప్ సమయం"
     },
@@ -3178,7 +3968,7 @@
       "text": "End of the Lower-School extended-care/aftercare day. Verify current hours with the school.",
       "of": "33e992af",
       "at": [
-        "providence-day:[22].note"
+        "providence-day:[28].note"
       ],
       "t": "Lower School విస్తరిత సంరక్షణ/అనంతర సంరక్షణ రోజు ముగింపు. ప్రస్తుత సమయాలను పాఠశాలతో ధ్రువీకరించుకోండి."
     },
@@ -3186,15 +3976,15 @@
       "text": "6:00 PM",
       "of": "434a888c",
       "at": [
-        "providence-day:[22].values.charlotte-country-day",
-        "providence-day:[22].values.charlotte-latin",
-        "providence-day:[22].values.covenant-day",
-        "providence-day:[22].values.carmel-christian",
-        "providence-day:[22].values.davidson-day",
-        "providence-day:[22].values.gaston-day",
-        "providence-day:[22].values.cannon",
-        "providence-day:[22].values.providence-day",
-        "providence-day:[22].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-country-day",
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.covenant-day",
+        "providence-day:[28].values.carmel-christian",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[28].values.gaston-day",
+        "providence-day:[28].values.cannon",
+        "providence-day:[28].values.providence-day",
+        "providence-day:[28].values.charlotte-christian"
       ],
       "t": "6:00 PM"
     },
@@ -3202,7 +3992,7 @@
       "text": "5:30 PM",
       "of": "ce6d8030",
       "at": [
-        "providence-day:[22].values.hickory-grove-christian"
+        "providence-day:[28].values.hickory-grove-christian"
       ],
       "t": "5:30 PM"
     },
@@ -3210,7 +4000,7 @@
       "text": "6:00 PM is from the school's own 2025-26 Schedule of Tuition and Fees (Lower School 3:00–6:00, Middle School 4:00–6:00). The After School Program web page states 5:30 PM for both divisions — the two school sources disagree, and a family should confirm the current window.",
       "of": "63555ec8",
       "at": [
-        "providence-day:[22].quals.gaston-day.text"
+        "providence-day:[28].quals.gaston-day.text"
       ],
       "t": "6:00 PM అనేది పాఠశాల సొంత 2025-26 Schedule of Tuition and Fees నుంచి వచ్చింది (Lower School 3:00–6:00, Middle School 4:00–6:00). After School Program వెబ్ పేజీ రెండు విభాగాలకూ 5:30 PM అని చెబుతుంది — పాఠశాల రెండు మూలాలూ విభేదిస్తున్నాయి, కాబట్టి ప్రస్తుత సమయాన్ని కుటుంబం ధ్రువీకరించుకోవాలి."
     },
@@ -3218,7 +4008,7 @@
       "text": "The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.",
       "of": "b1268c11",
       "at": [
-        "providence-day:[22].quals.cannon.text"
+        "providence-day:[28].quals.cannon.text"
       ],
       "t": "JrK–8 After School Program సాధారణ రోజుల్లో 3:00–6:00 p.m. వరకు నడుస్తుంది. ముందుగా సెలవిచ్చే రోజుల్లో ఇది 11:45 a.m.–4:00 p.m. వరకు నడిచి, ఇక్కడ చూపిన 6:00 కంటే రెండు గంటలు ముందే ముగుస్తుంది."
     },
@@ -3226,7 +4016,7 @@
       "text": "6:00 p.m. is the Lower School figure: Extended Day (JK–4) runs from dismissal to 6:00 p.m., and the school states that all Extended Day care ends promptly at 6 p.m. Middle School (grades 5–8) is a separate programme that ends at 5:00 p.m., a full hour earlier, with its own late fee from 5:01 p.m. This is the only school on the roster whose divisions differ, so read this row as Lower School and confirm Middle School hours separately.",
       "of": "8331c851",
       "at": [
-        "providence-day:[22].quals.charlotte-christian.text"
+        "providence-day:[28].quals.charlotte-christian.text"
       ],
       "t": "6:00 p.m. అనేది Lower School గణాంకం: Extended Day (JK–4) బడి వదిలిన దగ్గర నుంచి 6:00 p.m. వరకు నడుస్తుంది, మరియు Extended Day సంరక్షణ అంతా సరిగ్గా 6 p.m.కి ముగుస్తుందని పాఠశాల పేర్కొంటుంది. Middle School (5–8 తరగతులు) వేరే కార్యక్రమం; అది 5:00 p.m.కి — పూర్తి గంట ముందుగానే — ముగుస్తుంది, 5:01 p.m. నుంచి దానికంటూ ప్రత్యేక ఆలస్య రుసుము ఉంటుంది. జాబితాలో విభాగాల మధ్య తేడా ఉన్న ఏకైక పాఠశాల ఇదే, కాబట్టి ఈ వరుసను Lower Schoolగా చదవండి, Middle School వేళలను విడిగా నిర్ధారించుకోండి."
     },
@@ -3234,7 +4024,7 @@
       "text": "The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.",
       "of": "b14230c9",
       "at": [
-        "providence-day:[22].quals.charlotte-country-day.text"
+        "providence-day:[28].quals.charlotte-country-day.text"
       ],
       "t": "Lower School యొక్క Structured Care కార్యక్రమం సాయంత్రం 6:00 p.m. వరకు నడుస్తుంది. ప్రస్తుత సమయాలను పాఠశాలతో ధృవీకరించండి."
     },
@@ -3242,7 +4032,7 @@
       "text": "Extended Day closes at 6:00 p.m. for every grade it serves — TK from 1:00, Kindergarten from 2:00, grades 1–5 from 3:00 — and the Middle School Clubhouse also runs to 6:00. Upper School has no published after-school programme. Late pickup is billed at $1.00 per minute after 6:00 p.m.",
       "of": "ee1783f6",
       "at": [
-        "providence-day:[22].quals.providence-day.text"
+        "providence-day:[28].quals.providence-day.text"
       ],
       "t": "Extended Day తాను సేవలందించే అన్ని తరగతులకూ 6:00 p.m.కి ముగుస్తుంది — TK 1:00 నుంచి, Kindergarten 2:00 నుంచి, 1–5 తరగతులు 3:00 నుంచి — మరియు Middle School Clubhouse కూడా 6:00 వరకు నడుస్తుంది. Upper Schoolకి ప్రచురితమైన ఆఫ్టర్-స్కూల్ కార్యక్రమం ఏదీ లేదు. ఆలస్యంగా తీసుకెళ్తే 6:00 p.m. తర్వాత నిమిషానికి $1.00 చొప్పున బిల్లు వేస్తారు."
     },
@@ -3250,7 +4040,7 @@
       "text": "The Lower School’s Hawks’ Club aftercare runs 1:30–6:00 p.m. Confirm current hours with the school.",
       "of": "195480ea",
       "at": [
-        "providence-day:[22].quals.charlotte-latin.text"
+        "providence-day:[28].quals.charlotte-latin.text"
       ],
       "t": "Lower School యొక్క Hawks’ Club ఆఫ్టర్‌కేర్ 1:30–6:00 p.m. నడుస్తుంది. ప్రస్తుత సమయాలను పాఠశాలతో ధృవీకరించండి."
     },
@@ -3258,7 +4048,7 @@
       "text": "The JK–8 Extended Day program’s last session runs 4:30–6:00 p.m., and free before-care starts at 7:30 a.m. Confirm current hours with the school.",
       "of": "201a40fd",
       "at": [
-        "providence-day:[22].quals.covenant-day.text"
+        "providence-day:[28].quals.covenant-day.text"
       ],
       "t": "JK–8 Extended Day కార్యక్రమం చివరి session సాయంత్రం 4:30–6:00 నడుస్తుంది, మరియు ఉచిత before-care ఉదయం 7:30కి మొదలవుతుంది. ప్రస్తుత సమయాలను పాఠశాలతో ధ్రువీకరించండి."
     },
@@ -3266,7 +4056,7 @@
       "text": "The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.",
       "of": "2f34b58d",
       "at": [
-        "providence-day:[22].quals.davidson-day.text"
+        "providence-day:[28].quals.davidson-day.text"
       ],
       "t": "Lower School యొక్క Extended Care 2:45–6:00 p.m. నడుస్తుంది. ప్రస్తుత సమయాలను పాఠశాలతో ధృవీకరించండి."
     },
@@ -3274,7 +4064,7 @@
       "text": "After School / After YCC care runs 3:00–6:00 PM; 6:00 PM is the latest published pickup.",
       "of": "29662437",
       "at": [
-        "providence-day:[22].quals.carmel-christian.text"
+        "providence-day:[28].quals.carmel-christian.text"
       ],
       "t": "After School / After YCC సంరక్షణ 3:00–6:00 PM నడుస్తుంది; ప్రచురించిన చివరి పికప్ సమయం 6:00 PM."
     },
@@ -3282,7 +4072,7 @@
       "text": "The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup — earlier than the 6:00 p.m. the other schools offer.",
       "of": "7c44cd2b",
       "at": [
-        "providence-day:[22].quals.hickory-grove-christian.text"
+        "providence-day:[28].quals.hickory-grove-christian.text"
       ],
       "t": "Afterschool కార్యక్రమం (TK–5) మరియు Study Hall (6–11 తరగతులు) ఒకే 2:30–5:30 p.m. సమయాన్ని పంచుకుంటాయి, కాబట్టి చివరి పికప్ 5:30 p.m. — ఇతర పాఠశాలలు ఇచ్చే 6:00 p.m. కంటే ముందుగా."
     },
@@ -3290,7 +4080,7 @@
       "text": "Cost of after-school care",
       "of": "bafb4f23",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[29].label"
       ],
       "t": "స్కూలు తర్వాతి సంరక్షణ ఖర్చు"
     },
@@ -3298,7 +4088,7 @@
       "text": "The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.",
       "of": "459a5728",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[29].note"
       ],
       "t": "ప్రచురించిన అత్యంత ఖరీదైన ఏర్పాటు: అత్యధిక ధర ఉన్న తరగతుల విభాగం, ఆలస్యంగా పికప్ చేసే స్థాయిలో, వారానికి ఐదు రోజులు. ప్రతి గడిలో నెలవారీ ఖర్చు, దాని కింద సంవత్సరపు మొత్తం. స్కూళ్లు వేర్వేరు కాలవ్యవధుల్లో బిల్లు వేస్తాయి — నెలవారీ, సెమిస్టర్‌వారీ, సంవత్సరవారీ — కాబట్టి ≈ గుర్తు ఆ స్కూలు ప్రచురించిన అంకె కాకుండా మేము మార్చిన అంకెను సూచిస్తుంది; ఇది 10 నెలల విద్యా సంవత్సరం ఆధారంగా. పోల్చే ముందు ప్రతి గడి నోట్‌ను చదవండి. 2026–27 ధరలు, Cannon వి మాత్రం 2025–26."
     },
@@ -3306,7 +4096,7 @@
       "text": "≈$378/mo",
       "of": "12060e16",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[29].values.cannon"
       ],
       "t": "≈$378/నెల"
     },
@@ -3314,7 +4104,7 @@
       "text": "$325/mo",
       "of": "78207236",
       "at": [
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[29].values.charlotte-christian"
       ],
       "t": "$325/నెల"
     },
@@ -3322,7 +4112,7 @@
       "text": "$900/mo",
       "of": "07338e8f",
       "at": [
-        "providence-day:[23].values.charlotte-country-day"
+        "providence-day:[29].values.charlotte-country-day"
       ],
       "t": "$900/నెల"
     },
@@ -3330,7 +4120,7 @@
       "text": "≈$930/mo",
       "of": "5a8ce014",
       "at": [
-        "providence-day:[23].values.charlotte-latin"
+        "providence-day:[29].values.charlotte-latin"
       ],
       "t": "≈$930/నెల"
     },
@@ -3338,7 +4128,7 @@
       "text": "$744/mo",
       "of": "2cf59f11",
       "at": [
-        "providence-day:[23].values.covenant-day"
+        "providence-day:[29].values.covenant-day"
       ],
       "t": "$744/mo"
     },
@@ -3346,7 +4136,7 @@
       "text": "$245/mo",
       "of": "fca2b9dd",
       "at": [
-        "providence-day:[23].values.carmel-christian"
+        "providence-day:[29].values.carmel-christian"
       ],
       "t": "నెలకు $245"
     },
@@ -3354,7 +4144,7 @@
       "text": "$95/wk",
       "of": "14616d74",
       "at": [
-        "providence-day:[23].values.gaston-day"
+        "providence-day:[29].values.gaston-day"
       ],
       "t": "$95/wk"
     },
@@ -3362,7 +4152,7 @@
       "text": "$750/mo",
       "of": "d147bcce",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[29].values.providence-day"
       ],
       "t": "$750/నెల"
     },
@@ -3370,7 +4160,7 @@
       "text": "$3,784/yr",
       "of": "f1cd0645",
       "at": [
-        "providence-day:[23].subs.cannon"
+        "providence-day:[29].subs.cannon"
       ],
       "t": "$3,784/సం"
     },
@@ -3378,7 +4168,7 @@
       "text": "≈$3,250/yr",
       "of": "c5df3b81",
       "at": [
-        "providence-day:[23].subs.charlotte-christian"
+        "providence-day:[29].subs.charlotte-christian"
       ],
       "t": "≈$3,250/సం"
     },
@@ -3386,7 +4176,7 @@
       "text": "≈$9,000/yr",
       "of": "4d4cf8b6",
       "at": [
-        "providence-day:[23].subs.charlotte-country-day"
+        "providence-day:[29].subs.charlotte-country-day"
       ],
       "t": "≈$9,000/సం"
     },
@@ -3394,7 +4184,7 @@
       "text": "$9,300/yr",
       "of": "a629cde3",
       "at": [
-        "providence-day:[23].subs.charlotte-latin"
+        "providence-day:[29].subs.charlotte-latin"
       ],
       "t": "$9,300/సం"
     },
@@ -3402,7 +4192,7 @@
       "text": "$6,696/yr",
       "of": "71c8d334",
       "at": [
-        "providence-day:[23].subs.covenant-day"
+        "providence-day:[29].subs.covenant-day"
       ],
       "t": "సంవత్సరానికి $6,696"
     },
@@ -3410,7 +4200,7 @@
       "text": "≈$2,205/yr",
       "of": "9ebecfe2",
       "at": [
-        "providence-day:[23].subs.carmel-christian"
+        "providence-day:[29].subs.carmel-christian"
       ],
       "t": "సంవత్సరానికి ≈$2,205"
     },
@@ -3418,7 +4208,7 @@
       "text": "≈$7,500/yr",
       "of": "ff10409d",
       "at": [
-        "providence-day:[23].subs.providence-day"
+        "providence-day:[29].subs.providence-day"
       ],
       "t": "≈$7,500/సం"
     },
@@ -3426,7 +4216,7 @@
       "text": "$95/week is the Lower School (PS–4th) rate on the 2025-26 fee schedule; Middle School (5th–8th) is $55/week. Drop-in is $30/day and $15/day respectively. The programme web page labels the recurring figures as $100 and $60 per MONTH — the weekly reading is used because a monthly rate below four drop-in days is not coherent.",
       "of": "1bd17d1a",
       "at": [
-        "providence-day:[23].quals.gaston-day.text"
+        "providence-day:[29].quals.gaston-day.text"
       ],
       "t": "2025-26 రుసుముల పట్టికలో $95/week అనేది Lower School (PS–4th) రేటు; Middle School (5th–8th) $55/week. Drop-in వరుసగా $30/day మరియు $15/day. కార్యక్రమ వెబ్ పేజీ ఈ పునరావృత సంఖ్యలను నెలకు $100 మరియు $60 అని లేబుల్ చేస్తుంది — నాలుగు drop-in రోజుల కంటే తక్కువ నెలవారీ రేటు పొందికగా లేనందున, వారపు అర్థాన్నే ఉపయోగించాం."
     },
@@ -3434,7 +4224,7 @@
       "text": "Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.",
       "of": "a2b60be7",
       "at": [
-        "providence-day:[23].quals.cannon.text"
+        "providence-day:[29].quals.cannon.text"
       ],
       "t": "Cannon ఒకే ఒక వార్షిక ధరను ప్రచురిస్తుంది, $3,784 — పైన ఉన్న నెలవారీ అంకె ఆ మొత్తాన్ని 10 నెలలకు పంచినది, స్కూలు చెప్పే ధర కాదు. దీనితో JrK–8 After School Program, 3:00–6:00 p.m. (3 గంటలు), వారానికి ఐదు రోజులు, 2025–26 ధరలకు లభిస్తుంది: 2026–27లో లేని ఏకైక స్కూలు ఇదే, ఎందుకంటే ధరల పట్టిక ఉన్న పేజీకి ఇప్పుడు బహిరంగ లింక్ లేదు."
     },
@@ -3442,7 +4232,7 @@
       "text": "JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27; the yearly total assumes 10 billing months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).",
       "of": "34914993",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text"
+        "providence-day:[29].quals.charlotte-christian.text"
       ],
       "t": "JK నుంచి 4వ తరగతి వరకు Extended Day 6:00 p.m. వరకు, వారానికి ఐదు రోజులు, 2026–27కి నెలకు $325 చొప్పున బిల్లు; సంవత్సరపు మొత్తం 10 నెలల బిల్లింగ్ ఆధారంగా. 2024–25తో పోలిస్తే ధరలు 32–52% పెరిగాయి, Middle School ఈ అంకెలో లేదు ఎందుకంటే అది గంటల లెక్కన బిల్లు వేస్తుంది ($8/గంట, 5:00 p.m. వరకు)."
     },
@@ -3450,7 +4240,7 @@
       "text": "Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.",
       "of": "bfd505a4",
       "at": [
-        "providence-day:[23].quals.charlotte-country-day.text"
+        "providence-day:[29].quals.charlotte-country-day.text"
       ],
       "t": "Junior Kindergarten 6:00 p.m. స్థాయిలో, వారానికి ఐదు రోజులు, నెలకు $900 చొప్పున బిల్లు — సంవత్సరపు మొత్తం 10 నెలల ఆధారంగా, ఆ వివరాన్ని స్కూలు ప్రచురించదు. JK 1:15 p.m.కి వదిలేస్తారు, కాబట్టి ఇది రోజుకు సుమారు 4.75 గంటలు; అదే 6:00 p.m. స్థాయిలో 1–4 తరగతులకు $610/నెల."
     },
@@ -3458,7 +4248,7 @@
       "text": "Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.",
       "of": "761a11d0",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text"
+        "providence-day:[29].quals.charlotte-latin.text"
       ],
       "t": "Latin సెమిస్టర్‌వారీగా బిల్లు వేస్తుంది, సంవత్సరానికి రెండుసార్లు $4,650 — పైన ఉన్న నెలవారీ అంకె ఆ $9,300ని 10 నెలలకు పంచినది, స్కూలు చెప్పే ధర కాదు. ఇది TK/K కోసం 1:30–6:00 p.m. స్థాయిని వారానికి ఐదు రోజులు కవర్ చేస్తుంది; TK, Kindergarten 1:30 p.m.కి వదిలేస్తారు, కాబట్టి ఇది రోజుకు 4.5 గంటలు — పక్కనున్న ఏ అంకె కంటే ఎక్కువ. 1–5 తరగతులకు వాటి 2:55–6:00 p.m. స్థాయి సెమిస్టర్‌కు $3,000."
     },
@@ -3466,7 +4256,7 @@
       "text": "Covenant Day prices per 1.5-hour session ($248/month for five days a week): a JK/K child dismissed at 1:30 p.m. needs all three sessions to reach 6:00, i.e. $744/month. The yearly figure is the school’s own \"for 10 Months\" table ($6,696), cheaper than 10× the monthly rate because August and December bill at half. Grades 1–8 dismiss around 3:00 and need only two sessions ($496/month); before-care from 7:30 a.m. is free.",
       "of": "10cbfb01",
       "at": [
-        "providence-day:[23].quals.covenant-day.text"
+        "providence-day:[29].quals.covenant-day.text"
       ],
       "t": "Covenant Day ఒక్కో 1.5-గంటల session ప్రకారం ధర నిర్ణయిస్తుంది (వారానికి ఐదు రోజులకు $248/month): మధ్యాహ్నం 1:30కి దిగ్విరమణ చెందే ఒక JK/K పిల్లకు 6:00కు చేరుకోవడానికి మూడు sessions అవసరం, అంటే $744/month. వార్షిక సంఖ్య పాఠశాల సొంత \"for 10 Months\" పట్టిక ($6,696), August మరియు December సగం బిల్లు అవుతాయి కాబట్టి నెలవారీ రేటుకు 10× కంటే చౌక. 1–8 తరగతులు సుమారు 3:00కి దిగ్విరమణ చెంది కేవలం రెండు sessions అవసరం ($496/month); ఉదయం 7:30 నుంచి before-care ఉచితం."
     },
@@ -3474,7 +4264,7 @@
       "text": "Carmel Christian publishes one flat After School / After YCC rate — $245/month for five days a week, 3:00–6:00 p.m. — the same for every grade, unlike the tiered-by-grade schools beside it. The yearly total spreads it over the nine billing months the handbook states; before-care from 7:30 a.m. is $110/month, and there is a $30/day drop-in.",
       "of": "cf0e9d8e",
       "at": [
-        "providence-day:[23].quals.carmel-christian.text"
+        "providence-day:[29].quals.carmel-christian.text"
       ],
       "t": "Carmel Christian ఒకే ఏకరీతి After School / After YCC రేటును ప్రచురిస్తుంది — వారానికి ఐదు రోజులు, 3:00–6:00 p.m.కు నెలకు $245 — పక్కనున్న తరగతుల వారీ శ్రేణులు ఉన్న పాఠశాలలకు భిన్నంగా ఇది ప్రతి తరగతికీ ఒకటే. handbook పేర్కొన్న తొమ్మిది బిల్లింగ్ నెలలపై పంచి వార్షిక మొత్తాన్ని లెక్కించాం; 7:30 a.m. నుంచి before-care నెలకు $110, మరియు రోజుకు $30 drop-in ఉంది."
     },
@@ -3482,7 +4272,7 @@
       "text": "Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.",
       "of": "16104bd6",
       "at": [
-        "providence-day:[23].quals.providence-day.text"
+        "providence-day:[29].quals.providence-day.text"
       ],
       "t": "Transitional Kindergarten 1–6 p.m. స్థాయిలో, వారానికి ఐదు రోజులు, నెలకు $750 చొప్పున బిల్లు; సంవత్సరపు మొత్తం 10 నెలల ఆధారంగా, తాము ఎన్ని నెలలు బిల్లు వేస్తామో ప్రచురించలేదని స్కూలు స్పష్టంగా చెబుతుంది. TK 1:00 p.m.కి వదిలేస్తారు, కాబట్టి ఇది రోజుకు 5 గంటలు; 1–5 తరగతులకు 3–6 p.m. ధర $470/నెల, డ్రాప్-ఇన్ సదుపాయం లేదు."
     },
@@ -3490,7 +4280,7 @@
       "text": "Weeks of summer camp",
       "of": "4e40c309",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[30].label"
       ],
       "t": "సమ్మర్ క్యాంప్ వారాలు"
     },
@@ -3498,7 +4288,7 @@
       "text": "Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.",
       "of": "473a9df1",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[30].note"
       ],
       "t": "2026 వేసవిలో పాఠశాల నిర్వహించే క్యాంప్ వారాల సంఖ్య, సెలవుల వల్ల తక్కువ రోజులున్న వారాలతో కలిపి. సీజన్ ఎంత పొడవుంటే, కుటుంబం అంత ఎక్కువ వారాలు సర్దుబాటు చేసుకోగలదు."
     },
@@ -3506,8 +4296,8 @@
       "text": "7",
       "of": "320ca3f6",
       "at": [
-        "providence-day:[24].values.cannon",
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[30].values.cannon",
+        "providence-day:[30].values.charlotte-latin"
       ],
       "t": "7"
     },
@@ -3515,8 +4305,8 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[24].values.charlotte-christian",
-        "providence-day:[24].values.carmel-christian"
+        "providence-day:[30].values.charlotte-christian",
+        "providence-day:[30].values.carmel-christian"
       ],
       "t": "6"
     },
@@ -3524,8 +4314,8 @@
       "text": "4",
       "of": "310ca263",
       "at": [
-        "providence-day:[24].values.charlotte-catholic",
-        "providence-day:[25].values.charlotte-catholic"
+        "providence-day:[30].values.charlotte-catholic",
+        "providence-day:[31].values.charlotte-catholic"
       ],
       "t": "4"
     },
@@ -3533,7 +4323,7 @@
       "text": "Four distinct camp windows across June and July, every one a half-day block. CCHS runs no continuous multi-week summer season and no academic summer school — its handbook states a failing student retakes the course externally, at their own expense.",
       "of": "a5ef77cd",
       "at": [
-        "providence-day:[24].quals.charlotte-catholic.text"
+        "providence-day:[30].quals.charlotte-catholic.text"
       ],
       "t": "June మరియు July అంతటా నాలుగు వేర్వేరు శిబిర కాలాలు, ప్రతి ఒక్కటీ అర్ధ-రోజు కార్యక్రమం. CCHS నిరంతర బహు-వార వేసవి కార్యక్రమాన్ని లేదా విద్యాపరమైన వేసవి తరగతులను నిర్వహించదు — విఫలమైన విద్యార్థి ఆ కోర్సును బయట, సొంత ఖర్చుతో మళ్లీ చదవాలని దాని handbook పేర్కొంటుంది."
     },
@@ -3541,7 +4331,7 @@
       "text": "Eight weeks including the June 1-5 \"Pre-Camp\" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.",
       "of": "e9f9e019",
       "at": [
-        "providence-day:[24].quals.charlotte-country-day.text"
+        "providence-day:[30].quals.charlotte-country-day.text"
       ],
       "t": "ఎనిమిది వారాలు, జూన్ 1-5 నాటి “Pre-Camp” వారంతో కలిపి — ఆ వారంలో ధర నిర్ణయించిన 9 క్యాంపులు ఉన్నాయి. అయితే పాఠశాల స్వంత సమ్మర్ పేజీ మాత్రం జూన్ 8 నుంచి మొదలయ్యే ఏడు వారాలుగా సీజన్‌ను ప్రచారం చేస్తుంది."
     },
@@ -3549,7 +4339,7 @@
       "text": "The live 2026 page shows eight session windows (Jun–Jul), consistent with the ~8 week-blocks of the Summer 2023 catalog recovered from the Internet Archive; the exact 2026 camp names are hidden behind the school's registration platform.",
       "of": "952a5232",
       "at": [
-        "providence-day:[24].quals.hickory-grove-christian.text"
+        "providence-day:[30].quals.hickory-grove-christian.text"
       ],
       "t": "ప్రస్తుత 2026 పేజీ ఎనిమిది సెషన్ కాలాలను (Jun–Jul) చూపుతుంది, ఇవి Internet Archive నుంచి తిరిగి పొందిన Summer 2023 జాబితాలోని ~8 వార-విడతలకు అనుగుణంగా ఉన్నాయి; 2026 శిబిరాల ఖచ్చితమైన పేర్లు పాఠశాల నమోదు platform వెనుక దాగి ఉన్నాయి."
     },
@@ -3557,7 +4347,7 @@
       "text": "Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).",
       "of": "a93f21d0",
       "at": [
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[30].quals.charlotte-christian.text"
       ],
       "t": "ఆరు వారాలు, కానీ వరుసగా కాదు: జూలై 4 చుట్టూ పాఠశాల రెండు వారాల విరామం తీసుకుంటుంది (జూన్ 29 – జూలై 3 మధ్య క్యాంపులు లేవు)."
     },
@@ -3565,7 +4355,7 @@
       "text": "Eight camp weeks between June 1 and July 31, not consecutive — the week of June 29 has no camps.",
       "of": "9b3d546d",
       "at": [
-        "providence-day:[24].quals.covenant-day.text"
+        "providence-day:[30].quals.covenant-day.text"
       ],
       "t": "జూన్ 1 మరియు జూలై 31 మధ్య ఎనిమిది శిబిర వారాలు, వరుసగా కాదు — జూన్ 29 వారంలో శిబిరాలు లేవు."
     },
@@ -3573,7 +4363,7 @@
       "text": "Camps published",
       "of": "d6903fa7",
       "at": [
-        "providence-day:[25].label"
+        "providence-day:[31].label"
       ],
       "t": "ప్రకటించిన క్యాంపులు"
     },
@@ -3581,7 +4371,7 @@
       "text": "Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.",
       "of": "bc366956",
       "at": [
-        "providence-day:[25].note"
+        "providence-day:[31].note"
       ],
       "t": "పాఠశాల స్వంత 2026 క్యాటలాగ్‌లో ఇచ్చిన క్యాంపుల సంఖ్య. లెక్కింపు పద్ధతులు వేర్వేరుగా ఉంటాయి — చాలా పాఠశాలలు ఒక క్యాంప్ నడిచే ప్రతి వారాన్నీ విడిగా ఒక వరుసగా లెక్కిస్తాయి — కాబట్టి పోల్చే ముందు ఒక్కో గడిలోని నోట్లు చదవండి."
     },
@@ -3589,7 +4379,7 @@
       "text": "251",
       "of": "26db2743",
       "at": [
-        "providence-day:[25].values.cannon"
+        "providence-day:[31].values.cannon"
       ],
       "t": "251"
     },
@@ -3597,7 +4387,7 @@
       "text": "133",
       "of": "7a3aae4a",
       "at": [
-        "providence-day:[25].values.charlotte-christian"
+        "providence-day:[31].values.charlotte-christian"
       ],
       "t": "133"
     },
@@ -3605,7 +4395,7 @@
       "text": "132",
       "of": "7b3aafdd",
       "at": [
-        "providence-day:[25].values.charlotte-country-day"
+        "providence-day:[31].values.charlotte-country-day"
       ],
       "t": "132"
     },
@@ -3613,7 +4403,7 @@
       "text": "232",
       "of": "27ea3360",
       "at": [
-        "providence-day:[25].values.charlotte-latin"
+        "providence-day:[31].values.charlotte-latin"
       ],
       "t": "232"
     },
@@ -3621,7 +4411,7 @@
       "text": "20",
       "of": "8df2997f",
       "at": [
-        "providence-day:[25].values.covenant-day"
+        "providence-day:[31].values.covenant-day"
       ],
       "t": "20"
     },
@@ -3629,7 +4419,7 @@
       "text": "36",
       "of": "89f0549c",
       "at": [
-        "providence-day:[25].values.carmel-christian"
+        "providence-day:[31].values.carmel-christian"
       ],
       "t": "36"
     },
@@ -3637,8 +4427,8 @@
       "text": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[25].values.hickory-grove-christian",
-        "providence-day:[28].values.providence-day"
+        "providence-day:[31].values.hickory-grove-christian",
+        "providence-day:[34].values.providence-day"
       ],
       "t": "17"
     },
@@ -3646,7 +4436,7 @@
       "text": "30",
       "of": "87f05176",
       "at": [
-        "providence-day:[25].values.gaston-day"
+        "providence-day:[31].values.gaston-day"
       ],
       "t": "30"
     },
@@ -3654,7 +4444,7 @@
       "text": "170",
       "of": "e130c313",
       "at": [
-        "providence-day:[25].values.providence-day"
+        "providence-day:[31].values.providence-day"
       ],
       "t": "170"
     },
@@ -3662,7 +4452,7 @@
       "text": "Cougar Basketball, Eddie Hull Baseball, Cougar Football and Just4Kicks Soccer. Notre Dame Vision and the Mayor's Youth Employment Program are hosted by others and are not counted as CCHS camps.",
       "of": "0ff37082",
       "at": [
-        "providence-day:[25].quals.charlotte-catholic.text"
+        "providence-day:[31].quals.charlotte-catholic.text"
       ],
       "t": "Cougar Basketball, Eddie Hull Baseball, Cougar Football మరియు Just4Kicks Soccer. Notre Dame Vision మరియు Mayor's Youth Employment Program ఇతరులు నిర్వహిస్తారు మరియు వాటిని CCHS శిబిరాలుగా లెక్కించలేదు."
     },
@@ -3670,7 +4460,7 @@
       "text": "251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.",
       "of": "94ffcc7f",
       "at": [
-        "providence-day:[25].quals.cannon.text"
+        "providence-day:[31].quals.cannon.text"
       ],
       "t": "ఏడు వారాల్లో 251 క్యాంప్-వారం ఆఫర్లు, అంటే సుమారు 180 వేర్వేరు క్యాంప్ పేర్లు. పాఠశాల స్వంత 80 పేజీల 2026 బ్రోషర్ నుంచి లెక్కించినవి."
     },
@@ -3678,7 +4468,7 @@
       "text": "17 named camps in the Summer 2023 catalog — 12 academic/enrichment and 5 athletic — recovered from the Internet Archive because the live 2026 catalog is hidden behind the school's registration platform. A representative slate, not the exact 2026 list.",
       "of": "e5176267",
       "at": [
-        "providence-day:[25].quals.hickory-grove-christian.text"
+        "providence-day:[31].quals.hickory-grove-christian.text"
       ],
       "t": "Summer 2023 జాబితాలో పేరున్న 17 శిబిరాలు — 12 విద్యా/అభివృద్ధి మరియు 5 క్రీడా — ప్రస్తుత 2026 జాబితా పాఠశాల నమోదు platform వెనుక దాగి ఉన్నందున వీటిని Internet Archive నుంచి తిరిగి పొందాం. ఇది ఖచ్చితమైన 2026 జాబితా కాక ఒక ప్రాతినిధ్య జాబితా."
     },
@@ -3686,7 +4476,7 @@
       "text": "232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.",
       "of": "7f216eb0",
       "at": [
-        "providence-day:[25].quals.charlotte-latin.text"
+        "providence-day:[31].quals.charlotte-latin.text"
       ],
       "t": "ఏడు సెషన్లలో 232 ఆఫర్లు, 169 ప్రత్యేక క్యాంప్ పేర్ల నుంచి — మూడు సెషన్లలో నడిచే ఒక క్యాంప్‌ను మూడుసార్లు లెక్కించారు."
     },
@@ -3694,7 +4484,7 @@
       "text": "170 priced rows in the 2026 brochure, covering 151 distinct camp names and 231 total camp-session offerings.",
       "of": "a5300730",
       "at": [
-        "providence-day:[25].quals.providence-day.text"
+        "providence-day:[31].quals.providence-day.text"
       ],
       "t": "2026 బ్రోషర్‌లో ధర ఉన్న 170 వరుసలు, వాటిలో 151 వేర్వేరు క్యాంప్ పేర్లు, మొత్తం 231 క్యాంప్-సెషన్ ఆఫర్లు ఉన్నాయి."
     },
@@ -3702,7 +4492,7 @@
       "text": "132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as \"over 150 exciting camp options\", a figure its public listing does not itemize.",
       "of": "7491b610",
       "at": [
-        "providence-day:[25].quals.charlotte-country-day.text"
+        "providence-day:[31].quals.charlotte-country-day.text"
       ],
       "t": "ధర ఉన్న 132 వరుసలు, సుమారు 85 వేర్వేరు క్యాంప్ పేర్లు. పాఠశాల విడిగా ఈ కార్యక్రమాన్ని “150కి పైగా ఆసక్తికరమైన క్యాంప్ ఎంపికలు” అని ప్రచారం చేస్తుంది, కానీ దాని బహిరంగ జాబితాలో ఆ సంఖ్యను విడగొట్టి చూపలేదు."
     },
@@ -3710,7 +4500,7 @@
       "text": "133 half-day sessions across six weeks, roughly 96 distinct camps. Every one is a three-hour half-day — the school publishes no full-day camp.",
       "of": "3910e6df",
       "at": [
-        "providence-day:[25].quals.charlotte-christian.text"
+        "providence-day:[31].quals.charlotte-christian.text"
       ],
       "t": "ఆరు వారాల్లో 133 అర్ధ-రోజు సెషన్లు, సుమారు 96 వేర్వేరు క్యాంపులు. అన్నీ మూడు గంటల అర్ధ-రోజు క్యాంపులే — పాఠశాల పూర్తి-రోజు క్యాంప్‌ను ఏదీ ప్రకటించలేదు."
     },
@@ -3718,7 +4508,7 @@
       "text": "20 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets \"29 camps\"; per-week variants and portal-only offerings likely account for the difference.",
       "of": "f3deb34b",
       "at": [
-        "providence-day:[25].quals.covenant-day.text"
+        "providence-day:[31].quals.covenant-day.text"
       ],
       "t": "బహిరంగ 2026 పేజీలో పేర్కొన్న 20 విభిన్న శిబిరాలు — ఒక్కో-శిబిర లెక్క, దాని పక్కన చాలా పాఠశాలలు ప్రచురించే ఒక్కో-వారపు session లెక్క కాదు. పాఠశాల విడిగా \"29 camps\" అని ప్రచారం చేస్తుంది; ఒక్కో-వారపు రూపాంతరాలు మరియు portal-మాత్రమే ఎంపికలు ఈ తేడాకు కారణం కావచ్చు."
     },
@@ -3726,7 +4516,7 @@
       "text": "Ages served",
       "of": "20a1e226",
       "at": [
-        "providence-day:[26].label"
+        "providence-day:[32].label"
       ],
       "t": "ఏ వయసు వారికి"
     },
@@ -3734,7 +4524,7 @@
       "text": "The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.",
       "of": "4d564628",
       "at": [
-        "providence-day:[26].note"
+        "providence-day:[32].note"
       ],
       "t": "పాఠశాల స్వంత సమ్మర్ క్యాటలాగ్ కవర్ చేసే వయసు పరిధి. Latin, Cannon క్యాంపులను వయసు ఆధారంగా సర్దుతాయి; మిగిలినవి తరగతుల శ్రేణులను ప్రకటిస్తాయి, ఇక్కడ పాఠశాల చెప్పిన రీతిలోనే చూపించాం."
     },
@@ -3742,8 +4532,8 @@
       "text": "4–18",
       "of": "cca868d1",
       "at": [
-        "providence-day:[26].values.cannon",
-        "providence-day:[26].values.providence-day"
+        "providence-day:[32].values.cannon",
+        "providence-day:[32].values.providence-day"
       ],
       "t": "4–18"
     },
@@ -3751,8 +4541,8 @@
       "text": "JK–Grade 12",
       "of": "a9b0c7e9",
       "at": [
-        "providence-day:[26].values.charlotte-christian",
-        "providence-day:[26].values.covenant-day"
+        "providence-day:[32].values.charlotte-christian",
+        "providence-day:[32].values.covenant-day"
       ],
       "t": "JK–12వ తరగతి"
     },
@@ -3760,7 +4550,7 @@
       "text": "ages 6–13",
       "of": "3c2734a0",
       "at": [
-        "providence-day:[26].values.charlotte-catholic"
+        "providence-day:[32].values.charlotte-catholic"
       ],
       "t": "ages 6–13"
     },
@@ -3768,7 +4558,7 @@
       "text": "Age 4–Grade 12",
       "of": "ba434c7b",
       "at": [
-        "providence-day:[26].values.charlotte-country-day"
+        "providence-day:[32].values.charlotte-country-day"
       ],
       "t": "వయసు 4–12వ తరగతి"
     },
@@ -3776,7 +4566,7 @@
       "text": "3.5–18",
       "of": "349c7711",
       "at": [
-        "providence-day:[26].values.charlotte-latin"
+        "providence-day:[32].values.charlotte-latin"
       ],
       "t": "3.5–18"
     },
@@ -3784,7 +4574,7 @@
       "text": "rising K–8",
       "of": "d534a63d",
       "at": [
-        "providence-day:[26].values.carmel-christian"
+        "providence-day:[32].values.carmel-christian"
       ],
       "t": "K–8లోకి వెళ్తున్నవారు"
     },
@@ -3792,7 +4582,7 @@
       "text": "rising 1–8",
       "of": "cbc3c1d3",
       "at": [
-        "providence-day:[26].values.hickory-grove-christian"
+        "providence-day:[32].values.hickory-grove-christian"
       ],
       "t": "1–8లోకి వెళ్తున్నవారు"
     },
@@ -3800,7 +4590,7 @@
       "text": "rising PK–Grade 12",
       "of": "e78394a3",
       "at": [
-        "providence-day:[26].values.gaston-day"
+        "providence-day:[32].values.gaston-day"
       ],
       "t": "rising PK–12వ తరగతి"
     },
@@ -3808,7 +4598,7 @@
       "text": "These are community youth camps that CCHS athletics hosts, not summer programming for its own students. Campers are rising 2nd-9th graders aged 6-13 — younger than the 9-12 school running them, which is why the band sits below the school's own grade span.",
       "of": "85ccd063",
       "at": [
-        "providence-day:[26].quals.charlotte-catholic.text"
+        "providence-day:[32].quals.charlotte-catholic.text"
       ],
       "t": "ఇవి CCHS క్రీడా విభాగం నిర్వహించే సమాజ యువజన శిబిరాలు, తన సొంత విద్యార్థుల కోసం వేసవి కార్యక్రమాలు కావు. శిబిరార్థులు 6-13 సంవత్సరాల వయసున్న rising 2వ–9వ తరగతి విద్యార్థులు — వీటిని నిర్వహిస్తున్న 9-12 పాఠశాల కంటే చిన్నవారు, అందుకే ఈ శ్రేణి పాఠశాల సొంత తరగతుల పరిధి కంటే కింద ఉంటుంది."
     },
@@ -3816,7 +4606,7 @@
       "text": "Camp Spartan Jr takes rising PK–K and Camp Spartan rising 1st–5th; half-day enrichment camps span rising PreK–6th; summer tutoring runs to rising 12th. Nike Sports Camps are advertised by age (8–17) rather than by grade.",
       "of": "e5ef27d2",
       "at": [
-        "providence-day:[26].quals.gaston-day.text"
+        "providence-day:[32].quals.gaston-day.text"
       ],
       "t": "Camp Spartan Jr rising PK–K ని, Camp Spartan rising 1st–5th ని తీసుకుంటుంది; అర్ధ-రోజు సుసంపన్న శిబిరాలు rising PreK–6th వరకు విస్తరిస్తాయి; వేసవి ట్యూటరింగ్ rising 12th వరకు నడుస్తుంది. Nike Sports Camps తరగతిని బట్టి కాక వయస్సును బట్టి (8–17) ప్రకటించబడతాయి."
     },
@@ -3824,7 +4614,7 @@
       "text": "The school states camps are \"open to all campers ages 3.5 - 18 years old\". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.",
       "of": "e3070636",
       "at": [
-        "providence-day:[26].quals.charlotte-latin.text"
+        "providence-day:[32].quals.charlotte-latin.text"
       ],
       "t": "క్యాంపులు “3.5 - 18 ఏళ్ల వయసున్న క్యాంపర్లందరికీ తెరిచి ఉన్నాయి” అని పాఠశాల చెబుతోంది. వయసును 1 ఆగస్టు 2026 నాటికి లెక్కిస్తారు, Pre-K క్యాంపర్లందరూ టాయిలెట్ ట్రెయినింగ్ పూర్తి చేసి ఉండాలి."
     },
@@ -3832,7 +4622,7 @@
       "text": "The brochure says campers must be \"at least four years old by January 1, 2026\"; the About page states ages 4.5 to 18. Both are the school’s own wording.",
       "of": "2a21488f",
       "at": [
-        "providence-day:[26].quals.providence-day.text"
+        "providence-day:[32].quals.providence-day.text"
       ],
       "t": "క్యాంపర్లకు “1 జనవరి 2026 నాటికి కనీసం నాలుగేళ్లు” ఉండాలని బ్రోషర్ చెబుతోంది; About పేజీ మాత్రం 4.5 నుంచి 18 ఏళ్లు అని పేర్కొంటుంది. రెండూ పాఠశాల స్వంత మాటలే."
     },
@@ -3840,7 +4630,7 @@
       "text": "The listing’s lowest published band is Age 4. The school’s own pages disagree on the floor — the summer page says ages 4–18, the after-school page says 3–18.",
       "of": "ef5848a4",
       "at": [
-        "providence-day:[26].quals.charlotte-country-day.text"
+        "providence-day:[32].quals.charlotte-country-day.text"
       ],
       "t": "జాబితాలో ప్రకటించిన అత్యల్ప శ్రేణి Age 4. కనిష్ఠ వయసు విషయంలో పాఠశాల స్వంత పేజీలే విభేదిస్తున్నాయి — సమ్మర్ పేజీ 4–18 ఏళ్లు అంటోంది, ఆఫ్టర్-స్కూల్ పేజీ 3–18 అంటోంది."
     },
@@ -3848,7 +4638,7 @@
       "text": "Grades are rising 2026-27. JK campers must have turned 4 by February 1, 2026.",
       "of": "3f5e77ee",
       "at": [
-        "providence-day:[26].quals.charlotte-christian.text"
+        "providence-day:[32].quals.charlotte-christian.text"
       ],
       "t": "తరగతులు 2026-27లో వెళ్లే తరగతులు. JK క్యాంపర్లకు 1 ఫిబ్రవరి 2026 నాటికి 4 ఏళ్లు నిండి ఉండాలి."
     },
@@ -3856,7 +4646,7 @@
       "text": "The school states Camp Cannon is \"open to all children ages 4 to 18\". Campers must be fully potty trained, and only camps matching a child’s age appear during online registration.",
       "of": "4b131395",
       "at": [
-        "providence-day:[26].quals.cannon.text"
+        "providence-day:[32].quals.cannon.text"
       ],
       "t": "Camp Cannon “4 నుంచి 18 ఏళ్ల పిల్లలందరికీ తెరిచి ఉంది” అని పాఠశాల చెబుతోంది. క్యాంపర్లు పూర్తిగా పాటీ ట్రెయినింగ్ పూర్తి చేసి ఉండాలి, ఆన్‌లైన్ రిజిస్ట్రేషన్ సమయంలో పిల్లల వయసుకు సరిపోయే క్యాంపులు మాత్రమే కనిపిస్తాయి."
     },
@@ -3864,7 +4654,7 @@
       "text": "Grades are rising grades for the coming school year, from Little Lion/Cub Camp at the bottom through high-school strength-and-conditioning and college-admissions camps. Camps are open to the community.",
       "of": "69e9d0af",
       "at": [
-        "providence-day:[26].quals.covenant-day.text"
+        "providence-day:[32].quals.covenant-day.text"
       ],
       "t": "తరగతులు రాబోయే విద్యా సంవత్సరపు rising తరగతులు, అట్టడుగున Little Lion/Cub Camp నుంచి high-school strength-and-conditioning మరియు college-admissions శిబిరాల వరకు. శిబిరాలు community అందరికీ తెరిచి ఉంటాయి."
     },
@@ -3872,7 +4662,7 @@
       "text": "Summer Adventures serves rising kindergarten through rising 8th grade; individual camps carry narrower bands.",
       "of": "a35bbc86",
       "at": [
-        "providence-day:[26].quals.carmel-christian.text"
+        "providence-day:[32].quals.carmel-christian.text"
       ],
       "t": "Summer Adventures kindergartenలోకి వెళ్తున్నవారి నుంచి 8వ తరగతిలోకి వెళ్తున్నవారి వరకు అందుబాటులో ఉంటుంది; ఒక్కో శిబిరానికి ఇంకా ఇరుకైన శ్రేణులు ఉంటాయి."
     },
@@ -3880,7 +4670,7 @@
       "text": "The great majority of camps serve rising 1st–8th graders, plus one high-school camp (a College Admissions Boot Camp for rising juniors and seniors). From the Summer 2023 catalog, recovered from the Internet Archive.",
       "of": "cdadf459",
       "at": [
-        "providence-day:[26].quals.hickory-grove-christian.text"
+        "providence-day:[32].quals.hickory-grove-christian.text"
       ],
       "t": "చాలా వరకు శిబిరాలు 1–8 తరగతులలోకి వెళ్తున్న విద్యార్థులకు, వీటితో పాటు ఒక హై-స్కూల్ శిబిరం (మూడో మరియు చివరి సంవత్సరంలోకి వెళ్తున్నవారికి College Admissions Boot Camp). Internet Archive నుంచి తిరిగి పొందిన Summer 2023 జాబితా ఆధారంగా."
     },
@@ -3888,7 +4678,7 @@
       "text": "Wrap-around care",
       "of": "2459c4c2",
       "at": [
-        "providence-day:[27].label"
+        "providence-day:[33].label"
       ],
       "t": "క్యాంప్‌కు ముందు, తర్వాత సంరక్షణ"
     },
@@ -3896,7 +4686,7 @@
       "text": "Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.",
       "of": "5701e6ec",
       "at": [
-        "providence-day:[27].note"
+        "providence-day:[33].note"
       ],
       "t": "పాఠశాల డబ్బు తీసుకుని అందించే బిఫోర్- మరియు ఆఫ్టర్-కేర్ ఎంపికలతో కలిపి, పిల్లల్ని దింపగలిగే తొలి సమయం నుంచి తీసుకెళ్లగలిగే చివరి సమయం వరకు — ఉద్యోగం చేసే కుటుంబానికి క్యాంప్ రోజు నిజమైన హద్దు."
     },
@@ -3904,9 +4694,9 @@
       "text": "7:30 AM–5:30 PM",
       "of": "ed8a2e9b",
       "at": [
-        "providence-day:[27].values.cannon",
-        "providence-day:[27].values.charlotte-latin",
-        "providence-day:[27].values.covenant-day"
+        "providence-day:[33].values.cannon",
+        "providence-day:[33].values.charlotte-latin",
+        "providence-day:[33].values.covenant-day"
       ],
       "t": "7:30 AM–5:30 PM"
     },
@@ -3914,7 +4704,7 @@
       "text": "8:00 AM–5:00 PM",
       "of": "42437dde",
       "at": [
-        "providence-day:[27].values.charlotte-christian"
+        "providence-day:[33].values.charlotte-christian"
       ],
       "t": "8:00 AM–5:00 PM"
     },
@@ -3922,7 +4712,7 @@
       "text": "7:30 AM–5:00 PM",
       "of": "792cd57e",
       "at": [
-        "providence-day:[27].values.charlotte-country-day"
+        "providence-day:[33].values.charlotte-country-day"
       ],
       "t": "7:30 AM–5:00 PM"
     },
@@ -3930,7 +4720,7 @@
       "text": "7:45 AM–5:00 PM",
       "of": "195aba7e",
       "at": [
-        "providence-day:[27].values.gaston-day"
+        "providence-day:[33].values.gaston-day"
       ],
       "t": "7:45 AM–5:00 PM"
     },
@@ -3938,7 +4728,7 @@
       "text": "7:00 AM–6:00 PM",
       "of": "9b4038c2",
       "at": [
-        "providence-day:[27].values.providence-day"
+        "providence-day:[33].values.providence-day"
       ],
       "t": "7:00 AM–6:00 PM"
     },
@@ -3946,7 +4736,7 @@
       "text": "Before Camp Care runs 7:45–8:30 AM at $25/week and After Camp Care 3:30–5:00 PM at $35/week, both registered separately from the camps. A Between Camp Lunch Care block (11:30 AM–12:30 PM, $40/week) is REQUIRED for campers staying on campus between a morning and an afternoon camp.",
       "of": "18f2e836",
       "at": [
-        "providence-day:[27].quals.gaston-day.text"
+        "providence-day:[33].quals.gaston-day.text"
       ],
       "t": "Before Camp Care 7:45–8:30 AM కు $25/week రేటుతో, After Camp Care 3:30–5:00 PM కు $35/week రేటుతో నడుస్తాయి; ఈ రెండూ శిబిరాల నుంచి విడిగా నమోదు చేసుకోవాలి. ఉదయం మరియు మధ్యాహ్నం శిబిరాల మధ్య ప్రాంగణంలోనే ఉండే శిబిరార్థులకు Between Camp Lunch Care సమయం (11:30 AM–12:30 PM, $40/week) తప్పనిసరి."
     },
@@ -3954,7 +4744,7 @@
       "text": "An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.",
       "of": "5f49f081",
       "at": [
-        "providence-day:[27].quals.providence-day.text"
+        "providence-day:[33].quals.providence-day.text"
       ],
       "t": "పదకొండు గంటల విస్తృతి, ఐదింటిలోకెల్లా ఎక్కువ — Before Care 7am నుంచి, After Care 6pm వరకు, రెండూ $120/వారం, లేదా Complete Care బండిల్‌గా కలిపి $220/వారం."
     },
@@ -3962,7 +4752,7 @@
       "text": "A nine-hour span. Because every camp is a half-day, covering a full working day means registering a morning AND an afternoon camp; the noon–1 p.m. bridge care between them is free.",
       "of": "107eb4f8",
       "at": [
-        "providence-day:[27].quals.charlotte-christian.text"
+        "providence-day:[33].quals.charlotte-christian.text"
       ],
       "t": "తొమ్మిది గంటల విస్తృతి. ప్రతి క్యాంపూ అర్ధ-రోజు కావడంతో, పూర్తి పని దినాన్ని కవర్ చేయాలంటే ఉదయం ఒక క్యాంపు, మధ్యాహ్నం ఒక క్యాంపు రెండూ నమోదు చేయాలి; వాటి మధ్య మధ్యాహ్నం–1 p.m. వంతెన సంరక్షణ ఉచితం."
     },
@@ -3970,7 +4760,7 @@
       "text": "A ten-hour span: Before Care from 7:30 am at $50/week and After Care to 5:30 pm at $60/week, or $90/week for both. Camp itself runs 9:00–4:00.",
       "of": "c70f383c",
       "at": [
-        "providence-day:[27].quals.cannon.text"
+        "providence-day:[33].quals.cannon.text"
       ],
       "t": "పది గంటల విస్తృతి: Before Care 7:30 am నుంచి $50/వారం, After Care 5:30 pm వరకు $60/వారం, లేదా రెండూ కలిపి $90/వారం. క్యాంప్ మాత్రం 9:00–4:00 మధ్య నడుస్తుంది."
     },
@@ -3978,7 +4768,7 @@
       "text": "A ten-hour span. Before Care runs 7:30–8:15 am ($70.00/week) and After Care to 5:30 pm ($150.00/week); the Super Care bundle is $195.00/week. Late pick-up is $25.00 every 15 minutes.",
       "of": "5a5e0dc4",
       "at": [
-        "providence-day:[27].quals.charlotte-latin.text"
+        "providence-day:[33].quals.charlotte-latin.text"
       ],
       "t": "పది గంటల విస్తృతి. Before Care 7:30–8:15 am వరకు ($70.00/వారం), After Care 5:30 pm వరకు ($150.00/వారం); Super Care బండిల్ $195.00/వారం. ఆలస్యంగా తీసుకెళ్తే ప్రతి 15 నిమిషాలకు $25.00."
     },
@@ -3986,7 +4776,7 @@
       "text": "A nine-and-a-half-hour span: Morning Care from 7:30 am ($105/week) and Afternoon Care to 5 pm ($85/week), or $160/week bundled as Super Care. Late pick-up is $1/minute after 5 pm.",
       "of": "e8bfeef8",
       "at": [
-        "providence-day:[27].quals.charlotte-country-day.text"
+        "providence-day:[33].quals.charlotte-country-day.text"
       ],
       "t": "తొమ్మిదిన్నర గంటల విస్తృతి: Morning Care 7:30 am నుంచి ($105/వారం), Afternoon Care 5 pm వరకు ($85/వారం), లేదా Super Care బండిల్‌గా $160/వారం. 5 pm తర్వాత ఆలస్యంగా తీసుకెళ్తే నిమిషానికి $1."
     },
@@ -3994,7 +4784,7 @@
       "text": "A ten-hour span for TK–8: Before Care 7:30–8:45 am at $50/week and After Care 4:00–5:30 pm at $50/week, with $30/week Lunch Care bridging noon–1 pm. Camp Lion (Full Day) and Cub Camp include all three at no extra cost.",
       "of": "a9b752de",
       "at": [
-        "providence-day:[27].quals.covenant-day.text"
+        "providence-day:[33].quals.covenant-day.text"
       ],
       "t": "TK–8కు ఒక పది-గంటల వ్యవధి: $50/week వద్ద Before Care 7:30–8:45 am మరియు $50/week వద్ద After Care 4:00–5:30 pm, మధ్యాహ్నం–1 pm మధ్యను కలిపే $30/week Lunch Careతో. Camp Lion (Full Day) మరియు Cub Campలో మూడూ అదనపు ఖర్చు లేకుండా కలిసి ఉంటాయి."
     },
@@ -4002,7 +4792,7 @@
       "text": "Wrap-around care is limited to the 12–1 PM After Camp Lunch Hour add-on; no before-camp or full-day care is published.",
       "of": "a8a24ad5",
       "at": [
-        "providence-day:[27].quals.carmel-christian.text"
+        "providence-day:[33].quals.carmel-christian.text"
       ],
       "t": "అనుబంధ సంరక్షణ 12–1 PM After Camp Lunch Hour అదనపు ఎంపికకు మాత్రమే పరిమితం; శిబిరానికి ముందు లేదా పూర్తి-రోజు సంరక్షణ ఏదీ ప్రచురించబడలేదు."
     },
@@ -4010,7 +4800,7 @@
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[28].label"
+        "providence-day:[34].label"
       ],
       "t": "Power 4 commitments"
     },
@@ -4018,7 +4808,7 @@
       "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[28].note"
+        "providence-day:[34].note"
       ],
       "t": "SEC / Big Ten / ACC / Big 12 కార్యక్రమానికి commit అయిన విభిన్న క్రీడాకారులు, 2024–2026 బ్యాచ్‌లు. నమోదైన కనిష్ఠ సంఖ్య."
     },
@@ -4026,8 +4816,8 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[28].values.cannon",
-        "providence-day:[28].values.covenant-day"
+        "providence-day:[34].values.cannon",
+        "providence-day:[34].values.covenant-day"
       ],
       "t": "1"
     },
@@ -4035,7 +4825,7 @@
       "text": "10",
       "of": "1beb2a44",
       "at": [
-        "providence-day:[28].values.charlotte-catholic"
+        "providence-day:[34].values.charlotte-catholic"
       ],
       "t": "10"
     },
@@ -4043,8 +4833,8 @@
       "text": "0",
       "of": "350ca8af",
       "at": [
-        "providence-day:[28].values.carmel-christian",
-        "providence-day:[28].values.hickory-grove-christian"
+        "providence-day:[34].values.carmel-christian",
+        "providence-day:[34].values.hickory-grove-christian"
       ],
       "t": "0"
     },
@@ -4052,7 +4842,7 @@
       "text": "Ten Power Four commitments across the Classes of 2024-2026, each table-parsed from a dated article and checked by name. The Class of 2026 is a documented minimum: only the February signing ceremony is published, and CCHS holds separate fall and spring signing days, so baseball and lacrosse are largely unpublished for that class.",
       "of": "43a71e96",
       "at": [
-        "providence-day:[28].quals.charlotte-catholic.text"
+        "providence-day:[34].quals.charlotte-catholic.text"
       ],
       "t": "2024-2026 బ్యాచ్‌లలో పది Power Four commitments, ప్రతి ఒక్కటీ తేదీ ఉన్న కథనం నుంచి పట్టిక రూపంలో తీసి పేరు వారీగా తనిఖీ చేశారు. Class of 2026 నమోదైన కనీస సంఖ్య: ఫిబ్రవరి signing కార్యక్రమం మాత్రమే ప్రచురించబడింది, మరియు CCHS శరదృతువు, వసంత signing days వేర్వేరుగా నిర్వహిస్తుంది, కాబట్టి ఆ బ్యాచ్‌కు baseball మరియు lacrosse ఎక్కువగా ప్రచురించబడలేదు."
     },
@@ -4060,8 +4850,8 @@
       "text": "A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[28].quals.cannon.text",
-        "providence-day:[29].quals.cannon.text"
+        "providence-day:[34].quals.cannon.text",
+        "providence-day:[35].quals.cannon.text"
       ],
       "t": "నమోదైన కనీసం. Cannon యొక్క అత్యంత ప్రసిద్ధ క్రీడాకారుల్లో చాలామంది 2024–26 విండో వెలుపల కమిట్ అయ్యారు కాబట్టి ఇక్కడ లెక్కించబడలేదు."
     },
@@ -4069,8 +4859,8 @@
       "text": "A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.",
       "of": "58bba487",
       "at": [
-        "providence-day:[28].quals.charlotte-christian.text",
-        "providence-day:[29].quals.charlotte-christian.text"
+        "providence-day:[34].quals.charlotte-christian.text",
+        "providence-day:[35].quals.charlotte-christian.text"
       ],
       "t": "నమోదైన కనీసం: పాఠశాల ప్రజా కమిట్‌మెంట్ జాబితా 2025 వరకు నడుస్తుంది, మరియు దాని Class of 2026 ఇంకా సంకలనం చేయబడలేదు."
     },
@@ -4078,8 +4868,8 @@
       "text": "A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.",
       "of": "cb967194",
       "at": [
-        "providence-day:[28].quals.charlotte-latin.text",
-        "providence-day:[29].quals.charlotte-latin.text"
+        "providence-day:[34].quals.charlotte-latin.text",
+        "providence-day:[35].quals.charlotte-latin.text"
       ],
       "t": "నమోదైన కనీసం. Charlotte Latin యొక్క విద్యాపరంగా భారీ తరగతులు చాలామంది క్రీడాకారులను Division III కి పంపుతాయి, మరియు దాని November సైనింగ్ జాబితాలు పాక్షికమైనవి."
     },
@@ -4087,7 +4877,7 @@
       "text": "A documented minimum: Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. The Class of 2024’s spring signing article is only partially recoverable, so earlier 2024 commits may be missing.",
       "of": "3aa17bd4",
       "at": [
-        "providence-day:[28].quals.covenant-day.text"
+        "providence-day:[34].quals.covenant-day.text"
       ],
       "t": "ఒక నమోదైన కనీసం: Emily Eaton (’24) ఒక ACC కార్యక్రమం అయిన Louisville field hockeyతో సంతకం చేసి freshmanగా ప్రతి మ్యాచ్‌లో ఆడారు. Class of 2024 spring signing కథనం కొంతభాగం మాత్రమే గుర్తించగలం, కాబట్టి మునుపటి 2024 commits కొన్ని లేకపోవచ్చు."
     },
@@ -4095,8 +4885,8 @@
       "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[28].quals.davidson-day.text",
-        "providence-day:[29].quals.davidson-day.text"
+        "providence-day:[34].quals.davidson-day.text",
+        "providence-day:[35].quals.davidson-day.text"
       ],
       "t": "నమోదైన కనీసం; Davidson Day కోసం Classes of 2024 మరియు 2026 తక్కువగా నమోదు చేయబడ్డాయి."
     },
@@ -4104,7 +4894,7 @@
       "text": "Division I commits",
       "of": "ce720efb",
       "at": [
-        "providence-day:[29].label"
+        "providence-day:[35].label"
       ],
       "t": "Division I commitments"
     },
@@ -4112,7 +4902,7 @@
       "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[29].note"
+        "providence-day:[35].note"
       ],
       "t": "ఏదైనా NCAA Division I కార్యక్రమానికి commit అయిన విభిన్న క్రీడాకారులు, 2024–2026 బ్యాచ్‌లు (పైన పేర్కొన్న Power 4 సంఖ్యతో సహా). నమోదైన కనిష్ఠ సంఖ్య."
     },
@@ -4120,7 +4910,7 @@
       "text": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[29].values.charlotte-christian"
+        "providence-day:[35].values.charlotte-christian"
       ],
       "t": "26"
     },
@@ -4128,7 +4918,7 @@
       "text": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[29].values.charlotte-latin"
+        "providence-day:[35].values.charlotte-latin"
       ],
       "t": "14"
     },
@@ -4136,7 +4926,7 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "providence-day:[29].values.carmel-christian"
+        "providence-day:[35].values.carmel-christian"
       ],
       "t": "5"
     },
@@ -4144,7 +4934,7 @@
       "text": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[29].values.providence-day"
+        "providence-day:[35].values.providence-day"
       ],
       "t": "39"
     },
@@ -4152,7 +4942,7 @@
       "text": "Twenty-five Division I commitments among 35 documented athletes; Power Four is a subset. One athlete named on a signing list but never found on a college roster is excluded. See p4-commits-2426 on why the 2026 class is understated.",
       "of": "3144613e",
       "at": [
-        "providence-day:[29].quals.charlotte-catholic.text"
+        "providence-day:[35].quals.charlotte-catholic.text"
       ],
       "t": "నమోదైన 35 క్రీడాకారుల్లో ఇరవై ఐదు Division I commitments; Power Four అనేది వాటిలో ఒక ఉపసమూహం. signing జాబితాలో పేరున్నా ఏ కళాశాల రోస్టర్‌లోనూ కనిపించని ఒక క్రీడాకారుడిని మినహాయించారు. 2026 బ్యాచ్ ఎందుకు తక్కువగా చూపబడిందో p4-commits-2426లో చూడండి."
     },
@@ -4160,7 +4950,7 @@
       "text": "A documented minimum from the school’s own signing articles: Eaton and Marcus (’24), Huitt, Dirks, Gardner and Stanley (’25), Neil, Welsh and Houseton (’26). The Class of 2024 article is only partially recoverable, so the floor may be low.",
       "of": "3a938b8a",
       "at": [
-        "providence-day:[29].quals.covenant-day.text"
+        "providence-day:[35].quals.covenant-day.text"
       ],
       "t": "పాఠశాల సొంత signing కథనాల నుంచి ఒక నమోదైన కనీసం: Eaton మరియు Marcus (’24), Huitt, Dirks, Gardner మరియు Stanley (’25), Neil, Welsh మరియు Houseton (’26). Class of 2024 కథనం కొంతభాగం మాత్రమే గుర్తించగలం, కాబట్టి కనీస స్థాయి తక్కువగా ఉండవచ్చు."
     },
@@ -4168,7 +4958,7 @@
       "text": "A documented minimum — all three are baseball: Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025, plus Brady Johnson (ETSU). All are mid-major D1; no Power 4 and no other-sport commit surfaced, and the school publishes no all-sport list.",
       "of": "fdfe26b8",
       "at": [
-        "providence-day:[29].quals.hickory-grove-christian.text"
+        "providence-day:[35].quals.hickory-grove-christian.text"
       ],
       "t": "నమోదైన కనిష్ఠ సంఖ్య — మూడూ baseballవే: Class of 2025లో Davis Cabbage (UNC Wilmington) మరియు Ben Green (UNC Asheville), అదనంగా Brady Johnson (ETSU). అందరూ mid-major D1; Power 4 గానీ, ఇతర క్రీడల commit గానీ ఏదీ కనిపించలేదు, మరియు పాఠశాల అన్ని క్రీడల జాబితాను ప్రచురించలేదు."
     }

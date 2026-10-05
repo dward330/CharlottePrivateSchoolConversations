@@ -98,6 +98,14 @@ export type ValueMetric = {
   compareAs?: 'span' | 'sum' | 'fraction' | 'range-width' | 'range-start' | 'range-mid'
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
+  /**
+   * Keep this row off the school-page stat-tile strip (SchoolDetail.tsx) and
+   * show it on Compare only. For a row whose figures the school page already
+   * presents in a structured card, where a tile would repeat them directly
+   * above that card. First user: the six Top 6 NC admit-rate rows, which
+   * restate the ncAdmissions card.
+   */
+  compareOnly?: boolean
 }
 
 export const VALUE_METRICS: ValueMetric[] = [
@@ -523,6 +531,213 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '24 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.',
       },
+    },
+  },
+  // ==================== Top 6 NC public universities ======================
+  // Government-published, not school-published: Fall 2025 Applied / Admitted
+  // per NC high school × UNC campus, from the UNC System Insight dashboard via
+  // the nc-admissions-data skill. Provenance per school in
+  // source-material/college-support/<school>/<School> - College Support - UNC System Admissions.md.
+  //
+  // Each cell is Math.round(100 * accepted / applied) from that school's
+  // ncAdmissions.universities[] (collegeSupportPrograms/<slug>.ts), and its
+  // sub-line is `accepted / applied`. NEVER re-round the card's one-decimal
+  // `rate` — that double-rounds (Covenant Day at UNC Charlotte). Rows follow
+  // the card's US News order. `check:ncrows` re-derives every cell.
+  //
+  // compareOnly: the school page already shows these figures in the
+  // ncAdmissions card, so the rows stay off its stat-tile strip.
+  {
+    topic: 'college-support',
+    key: 'nc-admit-unc-chapel-hill',
+    label: 'Admit rate — UNC-Chapel Hill',
+    note: 'The share of each school’s own applicants that the university admitted for Fall 2025, from the UNC System’s published admissions dashboard. It is a figure for that school at that university, not either one’s overall admit rate. Beneath each rate: admitted / applied. Small schools send few applicants, so a single-year rate can rest on a handful of students; the NC admissions card on each school page adds the five-year rate.',
+    compareOnly: true,
+    values: {
+      cannon: '32%',
+      'charlotte-christian': '26%',
+      'charlotte-catholic': '23%',
+      'charlotte-country-day': '29%',
+      'charlotte-latin': '33%',
+      'covenant-day': '27%',
+      'carmel-christian': '25%',
+      'davidson-day': '40%',
+      'hickory-grove-christian': '20%',
+      'gaston-day': '27%',
+      'providence-day': '46%',
+    },
+    subs: {
+      cannon: '20 / 63',
+      'charlotte-christian': '10 / 38',
+      'charlotte-catholic': '24 / 103',
+      'charlotte-country-day': '20 / 69',
+      'charlotte-latin': '23 / 69',
+      'covenant-day': '9 / 33',
+      'carmel-christian': '4 / 16',
+      'davidson-day': '10 / 25',
+      'hickory-grove-christian': '2 / 10',
+      'gaston-day': '3 / 11',
+      'providence-day': '47 / 103',
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'nc-admit-nc-state-university',
+    label: 'Admit rate — NC State University',
+    compareOnly: true,
+    values: {
+      cannon: '65%',
+      'charlotte-christian': '45%',
+      'charlotte-catholic': '28%',
+      'charlotte-country-day': '23%',
+      'charlotte-latin': '34%',
+      'covenant-day': '52%',
+      'carmel-christian': '31%',
+      'davidson-day': '43%',
+      'hickory-grove-christian': '53%',
+      'gaston-day': '47%',
+      'providence-day': '32%',
+    },
+    subs: {
+      cannon: '34 / 52',
+      'charlotte-christian': '14 / 31',
+      'charlotte-catholic': '39 / 141',
+      'charlotte-country-day': '11 / 48',
+      'charlotte-latin': '23 / 67',
+      'covenant-day': '22 / 42',
+      'carmel-christian': '8 / 26',
+      'davidson-day': '9 / 21',
+      'hickory-grove-christian': '10 / 19',
+      'gaston-day': '7 / 15',
+      'providence-day': '23 / 71',
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'nc-admit-unc-charlotte',
+    label: 'Admit rate — UNC Charlotte',
+    compareOnly: true,
+    values: {
+      cannon: '100%',
+      'charlotte-christian': '73%',
+      'charlotte-catholic': '88%',
+      'charlotte-country-day': '88%',
+      'charlotte-latin': '79%',
+      'covenant-day': '89%', // 17/19 = 89.47% — the card shows 89.5%, which re-rounds to a wrong 90
+      'carmel-christian': '57%',
+      'davidson-day': '86%',
+      'hickory-grove-christian': '84%',
+      'gaston-day': '86%',
+      'providence-day': '85%',
+    },
+    subs: {
+      cannon: '25 / 25',
+      'charlotte-christian': '8 / 11',
+      'charlotte-catholic': '57 / 65',
+      'charlotte-country-day': '14 / 16',
+      'charlotte-latin': '11 / 14',
+      'covenant-day': '17 / 19',
+      'carmel-christian': '17 / 30',
+      'davidson-day': '6 / 7',
+      'hickory-grove-christian': '21 / 25',
+      'gaston-day': '6 / 7',
+      'providence-day': '17 / 20',
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'nc-admit-east-carolina-university',
+    label: 'Admit rate — East Carolina University',
+    compareOnly: true,
+    values: {
+      cannon: '100%',
+      'charlotte-christian': '89%',
+      'charlotte-catholic': '98%',
+      'charlotte-country-day': '100%',
+      'charlotte-latin': '100%',
+      'covenant-day': '86%',
+      'carmel-christian': '100%',
+      'davidson-day': '100%',
+      'hickory-grove-christian': '100%',
+      'gaston-day': '100%',
+      'providence-day': '92%',
+    },
+    subs: {
+      cannon: '12 / 12',
+      'charlotte-christian': '8 / 9',
+      'charlotte-catholic': '47 / 48',
+      'charlotte-country-day': '11 / 11',
+      'charlotte-latin': '10 / 10',
+      'covenant-day': '6 / 7',
+      'carmel-christian': '20 / 20',
+      'davidson-day': '6 / 6',
+      'hickory-grove-christian': '5 / 5',
+      'gaston-day': '4 / 4',
+      'providence-day': '12 / 13',
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'nc-admit-unc-wilmington',
+    label: 'Admit rate — UNC Wilmington',
+    compareOnly: true,
+    values: {
+      cannon: '71%',
+      'charlotte-christian': '60%',
+      'charlotte-catholic': '68%',
+      'charlotte-country-day': '59%',
+      'charlotte-latin': '52%',
+      'covenant-day': '73%',
+      'carmel-christian': '61%',
+      'davidson-day': '78%',
+      'hickory-grove-christian': '88%',
+      'gaston-day': '75%',
+      'providence-day': '53%',
+    },
+    subs: {
+      cannon: '12 / 17',
+      'charlotte-christian': '9 / 15',
+      'charlotte-catholic': '62 / 91',
+      'charlotte-country-day': '10 / 17',
+      'charlotte-latin': '13 / 25',
+      'covenant-day': '16 / 22',
+      'carmel-christian': '19 / 31',
+      'davidson-day': '7 / 9',
+      'hickory-grove-christian': '7 / 8',
+      'gaston-day': '6 / 8',
+      'providence-day': '10 / 19',
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'nc-admit-unc-greensboro',
+    label: 'Admit rate — UNC Greensboro',
+    compareOnly: true,
+    values: {
+      cannon: '100%',
+      'charlotte-christian': '100%',
+      'charlotte-catholic': '94%',
+      'charlotte-country-day': '92%',
+      'charlotte-latin': '100%',
+      'covenant-day': '40%',
+      'carmel-christian': '100%',
+      'davidson-day': '100%',
+      'hickory-grove-christian': '100%',
+      'gaston-day': '100%',
+      'providence-day': '100%',
+    },
+    subs: {
+      cannon: '8 / 8',
+      'charlotte-christian': '3 / 3',
+      'charlotte-catholic': '16 / 17',
+      'charlotte-country-day': '11 / 12',
+      'charlotte-latin': '8 / 8',
+      'covenant-day': '2 / 5',
+      'carmel-christian': '9 / 9',
+      'davidson-day': '3 / 3',
+      'hickory-grove-christian': '6 / 6',
+      'gaston-day': '4 / 4',
+      'providence-day': '7 / 7',
     },
   },
   {

@@ -627,13 +627,15 @@ for (const s of STRUCTURED) {
 // ---- 4. compare
 w('## 4. Compare rows (quantitative layer)')
 w()
-w('`VALUE_METRICS` powers both the Compare table and the stat tiles on a school page. It is')
+w('`VALUE_METRICS` powers both the Compare table and the stat tiles on a school page (a')
+w('`compareOnly` row skips the tiles). It is')
 w('**hand-maintained** — the ingest never writes it, so a newly ingested school renders N/A')
 w('here until someone backfills it. `null` is a deliberate "not located"; a missing key is an')
 w('oversight. `npm run check:metrics` tells the two apart.')
 w()
 w('Legend: **↓** lower value is the leader · **–** no leader tint (e.g. cost rows, where the')
-w('highest number is not the best) · **Q** carries per-cell provenance tooltips.')
+w('highest number is not the best) · **Q** carries per-cell provenance tooltips · **C** Compare')
+w('only, no school-page stat tile (the school page shows the figures in a structured card).')
 w()
 const vmByTopic = new Map()
 for (const vm of VALUE_METRICS) {
@@ -651,6 +653,7 @@ for (const t of orderTopicSlugs([...vmByTopic.keys()])) {
       vm.lowerIsBetter ? '↓' : '',
       vm.noLead ? '–' : '',
       vm.quals ? 'Q' : '',
+      vm.compareOnly ? 'C' : '',
       vm.subs ? 'sub' : '',
     ].filter(Boolean).join(' ')
     w(`| \`${vm.key}\` | ${esc(vm.label)} | ${have}/${schools.length} | ${flags || ''} |`)

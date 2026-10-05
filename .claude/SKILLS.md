@@ -48,7 +48,7 @@ Two stand alone: `add-school-news` and `admissions-episode`.
 
 **Assess a candidate school, then hand off to `/plan`.**
 
-`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-09-17
+`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-10-05
 
 Answers one question before any work starts: **can this school actually be populated
 against the schema the app already has?** A school with a thin public footprint yields a
@@ -67,12 +67,14 @@ expensive to discover at ingest time.
 7. Invokes `/plan` with the brief
 
 > **🎯 The bar is computed, not transcribed.** `npm run coverage:floor` derives it from the
-> thinnest school already shipped — Davidson Day, **17/30 Compare rows**. The K–12 gate is
-> **≥17/30 rows, and one area below the script's derived count**, compared inclusively.
+> thinnest school already shipped — Davidson Day, **23/36 Compare rows**. The K–12 gate is
+> **≥23/36 rows, and one area below the script's derived count**, compared inclusively.
+> The row total moved 30 → 36 on 2026-10-05 (six Top 6 NC admit-rate rows, which an
+> out-of-state candidate scores 0/6 on by construction).
 > **Never type the area denominator** — it has moved twice (Admissions 2026-08-31, High
 > School Placement 2026-09-16) and a hardcoded figure went quietly wrong both times.
 
-> **⚑ A K–8 school is gated differently — it has ZERO of 30 Compare rows by design.**
+> **⚑ A K–8 school is gated differently — it has ZERO Compare rows by design.**
 > It is excluded from the Compare page entirely, so the row axis does not exist and
 > applying it fails every K–8 candidate, including the one already shipped. The K–8 gate
 > is the **area axis alone**, over the areas a K–8 school actually has:
@@ -80,10 +82,10 @@ expensive to discover at ingest time.
 > that decides, since it is what a parent choosing a K–8 school is buying. See §7 of
 > `DATA-SCHEMA.md` for the full shape.
 
-> **⚠️ The per-area line is ~50%, deliberately NOT the school-wide 56%** — and it triggers
-> a *conversation*, not a rejection. An area's denominator is 4–23, not 30; Davidson Day
+> **⚠️ The per-area line is ~50%, deliberately NOT the school-wide 63%** — and it triggers
+> a *conversation*, not a rejection. An area's denominator is 2–28, not 36; Davidson Day
 > ships with **zero** Summer Programs material; and Course Offerings quantizes to
-> 0/25/50/75/100, where 56% is unreachable. **Always print counts beside a percentage.**
+> 0/25/50/75/100, where 63% is unreachable. **Always print counts beside a percentage.**
 
 **Deliberately cannot:** edit `src/`, write `source-material/`, or run the ingest pipeline.
 Only **URLs** carry forward — a sweep sized for percentages produces indicative figures,

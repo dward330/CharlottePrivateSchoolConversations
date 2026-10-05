@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:schoolurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:moneytext && npm run check:dates && npm run check:spans && npm run check:news",
+    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:schoolurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:ncrows && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:moneytext && npm run check:dates && npm run check:spans && npm run check:news",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",
@@ -43,6 +43,7 @@
     "check:sources": "node scripts/check_work_sources.mjs",
     "check:podcast": "node scripts/check_podcast_episodes.mjs",
     "check:ncsuper": "node scripts/check_nc_superlatives.mjs",
+    "check:ncrows": "node scripts/check_nc_compare_rows.mjs",
     "i18n:leaks": "node scripts/find_english_leaks.mjs",
     "i18n:siblings": "node scripts/find_sibling_leaks.mjs",
     "check:chrome": "node scripts/check_chrome_keys.mjs",
