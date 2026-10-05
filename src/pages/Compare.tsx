@@ -13,7 +13,10 @@ import {
      "N schools" counts) then all read one filtered list, so the columns and the
      counts cannot drift apart. Do not re-import the unfiltered `schools` here. */
   comparableSchools as allSchools,
-  topics,
+  /* Topics likewise come from the COMPARABLE list: an area only PreK-8 schools
+     research has no column to fill once they are excluded. See
+     `comparableTopics` in lib/manifest.ts. */
+  comparableTopics,
   topicBySlug,
   brandOf,
   metricsForTopic,
@@ -203,12 +206,16 @@ export function Compare({ topic, schools }: Props) {
   const navigate = useNavigate()
   /* With no ?topic= in the URL, open on COMPARE_DEFAULT_TOPIC rather than the
      first topic in reading order — see that constant for why the two differ.
-     It still falls back to topics[0] if the named default is ever absent from
-     the manifest, so a mis-set constant degrades rather than blanking the page. */
-  const defaultTopic = topicBySlug(COMPARE_DEFAULT_TOPIC)
+     It still falls back to the first comparable topic if the named default is
+     ever absent, so a mis-set constant degrades rather than blanking the page.
+     A ?topic= that is not comparable (e.g. high-school-placement, held only by
+     PreK-8 schools) falls back to the default the same way an unknown slug does,
+     so an old or shared link never renders an all-"n/a" table. */
+  const isComparable = (slug: string) => comparableTopics.some((x) => x.slug === slug)
+  const defaultTopic = isComparable(COMPARE_DEFAULT_TOPIC)
     ? COMPARE_DEFAULT_TOPIC
-    : topics[0]?.slug ?? null
-  const activeTopic = topic && topicBySlug(topic) ? topic : defaultTopic
+    : comparableTopics[0]?.slug ?? null
+  const activeTopic = topic && isComparable(topic) ? topic : defaultTopic
 
   /* `schools` is [] both when the URL carries no ?schools= at all and when the
      reader has toggled every pill off. Only the FIRST should fall back to the
@@ -237,8 +244,8 @@ export function Compare({ topic, schools }: Props) {
      would move College Support to the top of all eleven school pages and of the
      home topic grid. */
   const compareTopics = [
-    ...topics.filter((x) => x.slug === COMPARE_DEFAULT_TOPIC),
-    ...topics.filter((x) => x.slug !== COMPARE_DEFAULT_TOPIC),
+    ...comparableTopics.filter((x) => x.slug === COMPARE_DEFAULT_TOPIC),
+    ...comparableTopics.filter((x) => x.slug !== COMPARE_DEFAULT_TOPIC),
   ]
 
   const metrics = activeTopic ? metricsForTopic(activeTopic) : []

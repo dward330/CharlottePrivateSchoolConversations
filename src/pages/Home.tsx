@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { topicLabel } from '../lib/labels.ts'
-import { schools, topics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
+import { schools, topics, comparableTopics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { toSchool, toCompare, useNavigate } from '../lib/router.ts'
@@ -25,11 +25,14 @@ export function Home() {
      Done HERE and not in TOPIC_ORDER: that array is the reading order of a
      school DOSSIER, where Admissions leads deliberately, and reordering it
      would move College Support to the top of all eleven school pages and push
-     Admissions to the bottom of each. */
+     Admissions to the bottom of each.
+
+     Built from `comparableTopics`, not `topics`: the grid is a Compare entry
+     point, so it lists Compare's topics rather than every research area. */
   const homeTopics = [
-    ...topics.filter((x) => x.slug === COMPARE_DEFAULT_TOPIC),
-    ...topics.filter((x) => x.slug !== COMPARE_DEFAULT_TOPIC && x.slug !== 'admissions'),
-    ...topics.filter((x) => x.slug === 'admissions'),
+    ...comparableTopics.filter((x) => x.slug === COMPARE_DEFAULT_TOPIC),
+    ...comparableTopics.filter((x) => x.slug !== COMPARE_DEFAULT_TOPIC && x.slug !== 'admissions'),
+    ...comparableTopics.filter((x) => x.slug === 'admissions'),
   ]
 
   return (

@@ -45,6 +45,9 @@ export function hasHighSchool(slug: string): boolean {
  * Deliberately NOT used by the "More schools" navigation row on a school page
  * (SchoolDetail.tsx): that row is how a reader reaches a dossier, not a Compare
  * surface, and a PreK-8 school belongs in it.
+ *
+ * Its topic-axis sibling is `comparableTopics` below: excluding these schools
+ * also leaves any area only they research with nothing to compare.
  */
 export const comparableSchools: School[] = schools.filter((s) => hasHighSchool(s.slug))
 
@@ -83,6 +86,28 @@ export function docCount(topicSlug: string, schoolSlug: string): number {
 export function topicsForSchool(schoolSlug: string): Topic[] {
   return topics.filter((t) => docCount(t.slug, schoolSlug) > 0)
 }
+
+/**
+ * The topics the Compare page is allowed to offer — every research area that at
+ * least one COMPARABLE school has research for.
+ *
+ * `comparableSchools` filters Compare's columns; this filters its topics, and the
+ * two must agree. A topic only PreK-8 schools research would otherwise survive
+ * as a pill whose table is all-"n/a" columns, because every school holding it
+ * has been excluded. Today that removes exactly `high-school-placement`, which
+ * only Trinity Episcopal (PreK-8) holds. It is derived rather than a hardcoded
+ * slug, so a second PreK-8-only area drops off with no code change — absence of
+ * data, not a conditional.
+ *
+ * DERIVE FROM THIS, never from `topics`, anywhere Compare is the subject.
+ * Compare.tsx reads it for its pills, its default topic and its `?topic=`
+ * validation; Home.tsx reads it for the "What you can compare" grid, whose every
+ * cell links into Compare. `topics` itself is untouched — the area is real, keeps
+ * its slot on a dossier, and still counts in the home lede's area total.
+ */
+export const comparableTopics: Topic[] = topics.filter((t) =>
+  comparableSchools.some((s) => docCount(t.slug, s.slug) > 0),
+)
 
 export type MetricCoverage = {
   metric: Metric
