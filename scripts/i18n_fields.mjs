@@ -463,6 +463,12 @@ export const PATH_OVERRIDES = new Map([
   // Marked prose so the descriptive ones translate; the translator leaves the
   // proper nouns identical, which the overlay stores as a no-op.
   ['clusters.rows[].name', true],
+  // The service card's tiles are mostly bare figures ("70", "~10,000",
+  // "100%"), but nine carry English beside a translated `valueLabel`: a date
+  // ("March 1") and unit words ("1 hr/wk", "20 hrs", "40 hrs", "25 hrs",
+  // "req.", "Gr. 6", "Yr-long", "a mile"). Same path-scoped promotion as
+  // `cost.fees[].value`; the figures round-trip identical.
+  ['service.programs[].value', true],
   // After School — caught by the skip audit BEFORE translating, which is what
   // that script is for. `name` is a proper noun in the enrichment catalog
   // ("Art", "Chess", "YoLa — Yoga & Language") but a descriptive step in the
@@ -544,6 +550,15 @@ export const PATH_OVERRIDES = new Map([
   // is precisely where every previous leak of this class hid. Prose; the
   // translator carries the dated values through char-for-char.
   ['*.checklistRows[].due', true],
+  // The deadline strip under the band selector and the Admissions stat tiles
+  // hold the SAME dates as `due` above ("Jan 15, 2027", "Nov 2, 2026",
+  // "Fri Feb 26, 2027") plus fee figures ("$500", "10%"), and one phrase with
+  // no date in it at all ("Before day one") — the identifier's-clothes shape
+  // again. Skipped as `value` figures, they rendered English in every locale.
+  // Prose by path so `value` stays a skip everywhere else; the figures
+  // round-trip unchanged and localizeMoneyText() still formats them at render.
+  ['guide.bands[].deadlines[].value', true],
+  ['guide.stats[].value', true],
   // The band selector's sublabel is what tells a parent WHY the bands differ
   // ("Readiness model · earlier calendar", "Standardized testing (ISEE)").
   // `ISEE` is a searchable identifier and stays English inside it.

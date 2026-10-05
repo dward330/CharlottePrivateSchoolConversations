@@ -399,6 +399,16 @@ keeps verbatim. First of the month is fr `1er`, it `1º` (never `1°`) and ht `1
 rule and its KEEP are in the "Dates and session labels" section of
 `src/data/overlays/NOTES.md`.
 
+**`check:dates` sees only extracted strings; `npm run audit:daterender` sees the page.** A
+date in a field the extractor skips never reaches a work file, so it renders English in
+every locale while `check:dates` passes. The audit loads every school, Compare and checklist
+page in real Chrome in all nine prose locales and reports every English-form date outside
+quotes, the Latest News section and verbatim tables. It found 54 per locale in the
+admissions deadline strip, the stat tiles and one clubs service tile, all `value` fields now
+promoted by path in `PATH_OVERRIDES` (plan `figuredates`). Like `audit:moneyrender`, it
+needs `npm run build && npx vite preview`, so it is not in the build. Run it after adding a
+render site or a skipped field.
+
 **Percent signs stay unspaced in every locale, French included.** French
 orthography wants `80 %` and `Intl` agrees — but these percentages are citations
 a parent matches against the school's own page, the sweep reads the space as a
