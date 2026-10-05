@@ -1,11 +1,11 @@
 ---
 name: compare-no-hsp
 title: Remove High School Placement from the Compare page (topic pill, deep link, and the home "What you can compare" cell)
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-05
 branch: feat/compare-no-hsp
-prs: []
+prs: [332]
 ---
 
 # Remove High School Placement from the Compare page
@@ -257,3 +257,15 @@ delete any locale key.
   the Compare page. **Default: yes, remove it.** The grid is headed "What you can compare",
   and its cell opens the same empty table this plan removes. If the user says keep it,
   skip Step 3 and accept that the cell will open Compare on College Support instead.
+
+## Implementation notes
+
+Built as planned. Open question resolved on its default: the home grid cell was removed too.
+Two small details:
+
+- Compare.tsx validates through a local `isComparable(slug)` helper shared by the default and
+  `?topic=` checks, instead of two inline `.some(...)` calls. `topicBySlug` stays imported
+  for the corner label.
+- Browser check: the first Trinity assertion false-failed. The HSP heading renders uppercased
+  through CSS, so a case-sensitive `innerText` match missed it (the known innerText case trap).
+  Re-checked by `#topic-high-school-placement`: the section is present with 3 cards.
