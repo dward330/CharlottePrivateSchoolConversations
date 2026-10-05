@@ -1980,6 +1980,11 @@ too, never a code. Digits stay Western and range separators are copied char-for-
 - **`npm run check:dates` enforces both**, and is chained into `npm run build`. It found
   750 English-form dates across all nine locales and 21 first-of-month drifts when it was
   written (2026-10-04, plan `datetranslate`), all fixed in the same PR.
+- **`check:dates` sees only extracted strings.** A date in a field the extractor skips
+  renders English in every locale and never reaches it. `npm run audit:daterender` (served
+  build, real Chrome) is the render-site census that finds those: it found 54 per locale in
+  the admissions deadline strip, stat tiles and one clubs service tile (2026-10-05, plan
+  `figuredates`).
 
 **4. The one exception that keeps rule 1 honest — a grade word followed by a SUBJECT noun
 is a course title, not a grade tag.** `9th Grade History`, `Sixth Grade Bible`,

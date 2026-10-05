@@ -35,6 +35,7 @@
     "check:moneytext": "node scripts/check_money_text.mjs",
     "check:dates": "node scripts/check_date_forms.mjs",
     "audit:moneyrender": "node scripts/audit_money_render.mjs",
+    "audit:daterender": "node scripts/audit_date_render.mjs",
     "check:bidi": "node scripts/check_rtl_bidi.mjs",
     "check:fa": "node scripts/check_fa_script.mjs",
     "check:hi": "node scripts/check_hi_numerals.mjs",
