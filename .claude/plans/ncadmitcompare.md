@@ -472,3 +472,19 @@ Telugu's or Bangla's method.
 - **Docs:** floor is Davidson Day **23/36 (63%)**, ~2.8 points per row; the per-area
   denominator range is now **2–28** (College Support 22 → 28; Admissions at 2 had already
   made the old "4–23" low end stale). `DATA-SCHEMA.md` gains a **C** flag for `compareOnly`.
+- **Phase 1 revision after review (2026-10-05).** The user dropped the UNC-Chapel Hill
+  `note` and asked for tooltips instead: one on each of the six row headers (what the
+  percentages are, which year) and one on every cell (admitted first, then applied, and the
+  year). Both are composed at render from **chrome keys** (`compare.ncAdmitTip*`,
+  `compare.ncAdmitCell*` in `en.json`) interpolating `{{term}}` / `{{university}}` /
+  `{{school}}` / the counts, read from each school's `ncAdmissions` card. The year is
+  therefore the same `latestTerm` the school-page card uses and moves with a data refresh.
+  Rows carry `rowTip: 'ncAdmit'` (classified skip in `i18n_fields.mjs`). The popover
+  mechanics moved from `CellQual` into a shared `TopLayerTip`. `check:ncrows` now asserts
+  `rowTip`, refuses any `Fall <year>` typed into a row's label or note, and requires the tip
+  keys to interpolate `{{term}}`. Its negative tests (one `rowTip` removed, a typed year in a
+  note) each failed with that row's message. The re-splice dropped exactly 1 unit per locale
+  (the note) and added 0.
+- **Phase 2 scope therefore changed.** The six row labels are already translated in all nine
+  prose overlays. What remains is the **five new chrome keys** in the nine non-English
+  `src/locales/*.json` catalogs (`TRANSLATED`), not prose.

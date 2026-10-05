@@ -106,6 +106,14 @@ export type ValueMetric = {
    * restate the ncAdmissions card.
    */
   compareOnly?: boolean
+  /**
+   * A hover/focus tip on the Compare row header, composed at render time from
+   * chrome strings plus live data rather than stored here as prose. `ncAdmit`:
+   * names the university and the term, read from the selected schools'
+   * `ncAdmissions.latestTerm` — the same field the school-page card captions
+   * its ledger with — so a dashboard refresh moves the tip's year with the card.
+   */
+  rowTip?: 'ncAdmit'
 }
 
 export const VALUE_METRICS: ValueMetric[] = [
@@ -547,12 +555,15 @@ export const VALUE_METRICS: ValueMetric[] = [
   //
   // compareOnly: the school page already shows these figures in the
   // ncAdmissions card, so the rows stay off its stat-tile strip.
+  //
+  // rowTip: no `note` — the explanation is a row-header tooltip whose year is
+  // read from the cards' latestTerm at render (Compare.tsx), never typed here.
   {
     topic: 'college-support',
     key: 'nc-admit-unc-chapel-hill',
     label: 'Admit rate — UNC-Chapel Hill',
-    note: 'The share of each school’s own applicants that the university admitted for Fall 2025, from the UNC System’s published admissions dashboard. It is a figure for that school at that university, not either one’s overall admit rate. Beneath each rate: admitted / applied. Small schools send few applicants, so a single-year rate can rest on a handful of students; the NC admissions card on each school page adds the five-year rate.',
     compareOnly: true,
+    rowTip: 'ncAdmit',
     values: {
       cannon: '32%',
       'charlotte-christian': '26%',
@@ -585,6 +596,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'nc-admit-nc-state-university',
     label: 'Admit rate — NC State University',
     compareOnly: true,
+    rowTip: 'ncAdmit',
     values: {
       cannon: '65%',
       'charlotte-christian': '45%',
@@ -617,6 +629,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'nc-admit-unc-charlotte',
     label: 'Admit rate — UNC Charlotte',
     compareOnly: true,
+    rowTip: 'ncAdmit',
     values: {
       cannon: '100%',
       'charlotte-christian': '73%',
@@ -649,6 +662,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'nc-admit-east-carolina-university',
     label: 'Admit rate — East Carolina University',
     compareOnly: true,
+    rowTip: 'ncAdmit',
     values: {
       cannon: '100%',
       'charlotte-christian': '89%',
@@ -681,6 +695,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'nc-admit-unc-wilmington',
     label: 'Admit rate — UNC Wilmington',
     compareOnly: true,
+    rowTip: 'ncAdmit',
     values: {
       cannon: '71%',
       'charlotte-christian': '60%',
@@ -713,6 +728,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'nc-admit-unc-greensboro',
     label: 'Admit rate — UNC Greensboro',
     compareOnly: true,
+    rowTip: 'ncAdmit',
     values: {
       cannon: '100%',
       'charlotte-christian': '100%',

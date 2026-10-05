@@ -4,7 +4,7 @@
  * ncAdmissions card they restate.
  *
  * WHY THIS EXISTS. Compare → College Support carries one row per Top 6 NC
- * public university (`nc-admit-<university key>`), each cell the Fall 2025
+ * public university (`nc-admit-<university key>`), each cell the latest-term
  * rate at which that university admitted the school's applicants. The figures
  * already live in each school's `ncAdmissions` card
  * (src/data/collegeSupportPrograms/<slug>.ts), but VALUE_METRICS is
@@ -25,8 +25,13 @@
  *   - every row is `compareOnly` (the school page already shows the card);
  *   - every cell and its `accepted / applied` sub-line match the counts, and
  *     no school with data is missing or extra;
- *   - every school shares one `latestTerm`, and the first row's note names
- *     `Fall <term>` — so a Fall 2026 refresh fails until the note moves too.
+ *   - every row carries `rowTip: 'ncAdmit'`, whose header tooltip reads its
+ *     year from the cards' `latestTerm` at render (Compare.tsx), and no row
+ *     types a `Fall <year>` into its label or note — a typed year is exactly
+ *     what a refresh leaves behind;
+ *   - every school shares one `latestTerm`, because the tooltip states a single
+ *     term for the whole row; and the en.json tip strings interpolate both
+ *     `{{term}}` and `{{university}}` rather than spelling either out.
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -86,8 +91,11 @@ idx.forEach((rowIdx, i) => {
   if (row.compareOnly !== true) findings.push(`${tag}: missing compareOnly: true`)
   const name = programs[slugs[0]].universities[i].name
   if (!row.label.endsWith(name)) findings.push(`${tag}: label "${row.label}" must end with "${name}"`)
-  if (i === 0 && !(row.note ?? '').includes(`Fall ${term}`)) {
-    findings.push(`${tag}: note must name "Fall ${term}" (the card's latestTerm)`)
+  if (row.rowTip !== 'ncAdmit') findings.push(`${tag}: missing rowTip: 'ncAdmit'`)
+  for (const field of ['label', 'note']) {
+    if (/Fall \d{4}/.test(row[field] ?? '')) {
+      findings.push(`${tag}: ${field} types a year ("${row[field].match(/Fall \d{4}/)[0]}") — the tooltip reads it from latestTerm`)
+    }
   }
 
   for (const s of slugs) {
@@ -109,6 +117,18 @@ idx.forEach((rowIdx, i) => {
     }
   }
 })
+
+// The tip text is chrome: the year and the university must arrive by
+// interpolation, never be spelled into the catalog.
+const en = JSON.parse(fs.readFileSync('src/locales/en.json', 'utf8'))
+for (const k of ['ncAdmitTipKind', 'ncAdmitTip', 'ncAdmitCellKind', 'ncAdmitCellAdmitted']) {
+  const v = en.compare?.[k]
+  if (typeof v !== 'string') findings.push(`en.json compare.${k} is missing`)
+  else if (!v.includes('{{term}}')) findings.push(`en.json compare.${k} must interpolate {{term}}`)
+}
+if (!(en.compare?.ncAdmitTip ?? '').includes('{{university}}')) {
+  findings.push('en.json compare.ncAdmitTip must interpolate {{university}}')
+}
 
 if (findings.length) {
   console.error(`check:ncrows — ${findings.length} finding(s):`)
