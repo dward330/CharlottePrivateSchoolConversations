@@ -74,7 +74,9 @@
 //
 // What it drives: a school with no 9th-12th grade is excluded from the Compare
 // page entirely (see `comparableSchools` in lib/manifest.ts) and shows no
-// per-topic Compare button on its own dossier. It is NOT what hides College
+// per-topic Compare button on its own dossier. A research area that ONLY such
+// schools hold therefore has no Compare topic pill or home "What you can
+// compare" cell either (see `comparableTopics`). It is NOT what hides College
 // Support or shows High School Placement — those follow the standing
 // absence-not-emptiness rule and need no flag at all.
 

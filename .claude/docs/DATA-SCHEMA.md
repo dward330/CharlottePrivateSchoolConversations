@@ -1045,8 +1045,9 @@ a K-8 candidate, so that the areas and cards a K-8 school cannot have are never
 counted as gaps in its coverage.
 
 **The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the
-Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and nothing else
-automatically — every rule below is a research and authoring decision.
+Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,
+the Compare topic list (`comparableTopics`, same file) — and nothing else
+automatically. Every rule below is a research and authoring decision.
 
 **K-8 schools today (1):** `trinity-episcopal`
 
@@ -1056,6 +1057,7 @@ automatically — every rule below is a research and authoring decision.
 |---|---|---|
 | Research areas | 9 of 10 | **9 of 10** — the same count, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
+| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug |
 | Sports cards | up to 7 | **up to 3** — the 4 college-bound ones do not apply |
 | College Support | 7 cards | **none** |
 | High School Placement | none | **up to 4 cards** |
