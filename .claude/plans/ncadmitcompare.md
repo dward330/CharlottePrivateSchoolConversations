@@ -1,11 +1,11 @@
 ---
 name: ncadmitcompare
 title: Add six Compare rows under College Support — each school's Fall 2025 admit rate at each of the Top 6 NC public universities
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-05
 branch: feat/ncadmitcompare
-prs: []
+prs: [333]
 ---
 
 # NC university admit rates on the Compare page
