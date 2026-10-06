@@ -171,7 +171,13 @@
       "official": "قائمة رسمية",
       "scope": "ملاحظة نطاق"
     },
-    "qualAria": "{{value}} — ما الذي يحسبه هذا الرقم لـ {{school}}"
+    "qualAria": "{{value}} — ما الذي يحسبه هذا الرقم لـ {{school}}",
+    "ncAdmitLabel": "نسبة القبول (خريف {{term}}) — {{university}}",
+    "ncAdmitTipKind": "خريف {{term}} · أحدث سنة منشورة",
+    "ncAdmitTip": "نسبة المتقدمين من كل مدرسة الذين قبلتهم {{university}} لخريف {{term}}، وهي أحدث سنة في لوحة بيانات القبول التي ينشرها نظام UNC. تحت كل نسبة: المقبولون / المتقدمون.",
+    "ncAdmitCellKind": "قبول خريف {{term}} · {{university}}",
+    "ncAdmitCellAdmitted": "المقبولون: {{admitted}} — طلاب {{school}} الذين قبلتهم {{university}} لخريف {{term}}",
+    "ncAdmitCellApplied": "المتقدمون: {{applied}} — جميع طلاب {{school}} الذين تقدموا إليها. تحت النسبة: المقبولون / المتقدمون."
   },
   "school": {
     "allSchools": "→ جميع المدارس",

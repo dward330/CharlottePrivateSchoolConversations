@@ -498,3 +498,10 @@ Telugu's or Bangla's method.
   "Admit rate" rendering per locale for `ncAdmitLabel`. `Fall {{term}}` translates per
   the dates rule (es `otoño de {{term}}`); university and school names arrive by
   interpolation and stay Latin.
+- **Phase 2 (2026-10-05).** The six chrome keys were translated into all nine `TRANSLATED`
+  catalogs, inserted after `compare.qualAria`. A JSON round-trip was confirmed
+  byte-identical first, and every `{{placeholder}}` was asserted to survive per key. The
+  last review then dropped the row tip's closing sentence ("This is not the university's
+  overall admit rate; each school's own page adds the five-year rate.") in all ten. Real
+  Chrome, all 10 locales: label, row tip and cell tip translated, with 0 English chrome
+  left; university and school names stay Latin, and figures render from the card counts.
