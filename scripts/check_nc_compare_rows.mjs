@@ -121,13 +121,15 @@ idx.forEach((rowIdx, i) => {
 // The tip text is chrome: the year and the university must arrive by
 // interpolation, never be spelled into the catalog.
 const en = JSON.parse(fs.readFileSync('src/locales/en.json', 'utf8'))
-for (const k of ['ncAdmitTipKind', 'ncAdmitTip', 'ncAdmitCellKind', 'ncAdmitCellAdmitted']) {
+for (const k of ['ncAdmitLabel', 'ncAdmitTipKind', 'ncAdmitTip', 'ncAdmitCellKind', 'ncAdmitCellAdmitted']) {
   const v = en.compare?.[k]
   if (typeof v !== 'string') findings.push(`en.json compare.${k} is missing`)
   else if (!v.includes('{{term}}')) findings.push(`en.json compare.${k} must interpolate {{term}}`)
 }
-if (!(en.compare?.ncAdmitTip ?? '').includes('{{university}}')) {
-  findings.push('en.json compare.ncAdmitTip must interpolate {{university}}')
+for (const k of ['ncAdmitLabel', 'ncAdmitTip']) {
+  if (!(en.compare?.[k] ?? '').includes('{{university}}')) {
+    findings.push(`en.json compare.${k} must interpolate {{university}}`)
+  }
 }
 
 if (findings.length) {

@@ -391,7 +391,9 @@ export function Compare({ topic, schools }: Props) {
                               className="qual row-tip"
                               trigger={
                                 <>
-                                  <span className="row-metric-label">{vm.label}</span>
+                                  {/* The year sits in the label, composed from the cards'
+                                      latestTerm like the tips, so it is never typed. */}
+                                  <span className="row-metric-label">{t('compare.ncAdmitLabel', tip)}</span>
                                   <span className="qual-dot" aria-hidden="true" />
                                 </>
                               }
