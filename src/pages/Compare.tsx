@@ -402,7 +402,8 @@ export function Compare({ topic, schools }: Props) {
       }
       const headBottom = thead.getBoundingClientRect().bottom
       const tableBottom = table.getBoundingClientRect().bottom
-      const pinH = thead.offsetHeight
+      // The copy's own height — on phones it is the compact row, shorter than the real one.
+      const pinH = pinScrollRef.current?.offsetHeight || thead.offsetHeight
       setPinShown(headBottom <= navH && tableBottom > navH + pinH)
     }
     const schedule = () => {

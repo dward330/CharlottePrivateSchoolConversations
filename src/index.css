@@ -2292,6 +2292,26 @@ table.compare thead th.corner { z-index: 4; }
 .compare-pin-table { table-layout: fixed; min-width: 0; }
 table.compare-pin-table thead th { position: static; }   /* keep .corner's left-sticky only */
 .compare-pin-table .corner { position: sticky; inset-inline-start: 0; }
+/* Phones: a compact pinned row. The full header (40px badge + a name wrapping to
+   three lines) is ~110px, which with the nav ate a quarter of the screen. Only
+   the COPY shrinks — the real header keeps its size, and column widths still
+   come from it, so the columns stay aligned. Badge stays (it carries the brand
+   colour); the name is clamped to two lines; the corner drops its sub-line. */
+@media (max-width: 600px) {
+  table.compare-pin-table thead th { padding: 6px 8px; vertical-align: middle; }
+  .compare-pin-table .col-school-link { gap: 3px; }
+  .compare-pin-table .badge { width: 22px !important; height: 22px !important; font-size: 9px !important; }
+  .compare-pin-table .col-school-name {
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+  }
+  .compare-pin-table .corner-label { font-size: 15px; }
+  .compare-pin-table .corner-sub { display: none; }
+}
 
 .row-metric-label { display: block; font-family: var(--heading); font-weight: 600; font-size: 17px; line-height: 1.2; }
 .row-metric-cov { display: block; color: var(--muted); font-size: 11.5px; margin-top: 2px; }
