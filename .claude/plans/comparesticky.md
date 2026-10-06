@@ -333,3 +333,9 @@ Single-phase. It adds no user-facing text.
   0.1616 on the branch — above the plan's 0.1263 / 0.0636 — but an A/B against a `main`
   build on the same machine gave 0.1868 / 0.1616. No regression; the baseline predates
   #333's six added rows.
+- **Follow-up: compact pinned row on phones** (the plan's open question, picked up at the
+  user's request after #334). At `max-width: 600px` the pinned *copy* only gets a 22px
+  badge, a 12px name clamped to two lines, 6px padding and no corner sub-line. Real header
+  is unchanged, so column widths still come from it. The copy is now **71px against the real
+  header's 108px** (70 vs 125 in `ar`/`hi`). Show/hide now measures the copy's own height,
+  not the real thead's.
