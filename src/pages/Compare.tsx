@@ -1,5 +1,5 @@
 import { localizeMoneyText } from '../lib/format.ts'
-import { useEffect, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState, type Ref } from 'react'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel } from '../lib/labels.ts'
 import {
@@ -216,6 +216,60 @@ function rankValueOf(vm: ValueMetric, slug: string): number | null {
   }
 }
 
+/**
+ * The Compare table's header row — the active topic in the corner and one
+ * badge-and-name cell per school. Rendered TWICE: once as the real `<thead>`,
+ * and once in the pinned copy that stays under the site nav while the table
+ * scrolls (see `.compare-pin` in index.css for why the real thead's own sticky
+ * is inert). One component for both so the two copies cannot drift.
+ *
+ * `pinned` takes the copy's links out of the tab order; its wrapper is
+ * aria-hidden, so screen readers and keyboard users get the real thead only,
+ * while a mouse or touch click on a pinned school name still opens its page.
+ */
+function CompareHead({
+  cols,
+  activeTopic,
+  pinned = false,
+  theadRef,
+}: {
+  cols: { slug: string; name: string }[]
+  activeTopic: string | null
+  pinned?: boolean
+  theadRef?: Ref<HTMLTableSectionElement>
+}) {
+  const { t } = useTranslation()
+  const navigate = useNavigate()
+  return (
+    <thead ref={theadRef}>
+      <tr>
+        <th className="corner" scope="col">
+          <span className="corner-label">{topicLabel(t, activeTopic ?? '', topicBySlug(activeTopic ?? '')?.name ?? '')}</span>
+          <span className="corner-sub">{t('compare.researchMetric')}</span>
+        </th>
+        {cols.map((s) => (
+          <th
+            key={s.slug}
+            scope="col"
+            className="col-school"
+            style={{ ['--brand' as string]: brandOf(s.slug).color }}
+          >
+            <a
+              href={toSchool(s.slug)}
+              onClick={(e) => { e.preventDefault(); navigate(toSchool(s.slug)) }}
+              className="col-school-link"
+              tabIndex={pinned ? -1 : undefined}
+            >
+              <SchoolBadge slug={s.slug} name={s.name} size={40} />
+              <span className="col-school-name">{s.name}</span>
+            </a>
+          </th>
+        ))}
+      </tr>
+    </thead>
+  )
+}
+
 export function Compare({ topic, schools }: Props) {
   const { t, i18n } = useTranslation()
   const lang = i18n.resolvedLanguage ?? 'en'
@@ -278,6 +332,99 @@ export function Compare({ topic, schools }: Props) {
   const valueMetrics = activeTopic ? valueMetricsForTopic(activeTopic, lang) : []
   const cols = allSchools.filter((s) => selected.includes(s.slug))
 
+  /* The pinned header copy. Vertical pinning is native `position: sticky` on
+     .compare-pin; the effects below only measure the nav, copy the real
+     header's column widths, mirror the table's sideways scroll, and decide
+     when the copy is visible. */
+  const wrapRef = useRef<HTMLDivElement>(null)
+  const realTheadRef = useRef<HTMLTableSectionElement>(null)
+  const pinScrollRef = useRef<HTMLDivElement>(null)
+  const [navH, setNavH] = useState(0)
+  const [colWidths, setColWidths] = useState<number[]>([])
+  const [tableW, setTableW] = useState<number | undefined>(undefined)
+  const [pinShown, setPinShown] = useState(false)
+  const colKey = `${activeTopic}|${cols.map((s) => s.slug).join(',')}`
+  const hasCols = cols.length > 0
+
+  // The nav's height varies by viewport and locale, so it is measured, never assumed.
+  useEffect(() => {
+    const nav = document.querySelector('.topnav')
+    if (!nav) return
+    const measure = () => setNavH(nav.getBoundingClientRect().height)
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(nav)
+    return () => ro.disconnect()
+  }, [])
+
+  /* Column widths come from the real header, re-measured whenever the table
+     reflows (font swap, locale, selection, window size). Fractional widths via
+     getBoundingClientRect — offsetWidth rounds, and the rounding accumulates
+     into a visible drift across eleven columns. */
+  useEffect(() => {
+    const thead = realTheadRef.current
+    const table = thead?.parentElement
+    if (!thead || !table) return
+    const measure = () => {
+      const cells = Array.from(thead.rows[0]?.cells ?? [])
+      setColWidths(cells.map((c) => c.getBoundingClientRect().width))
+      setTableW(table.getBoundingClientRect().width)
+    }
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(table)
+    return () => ro.disconnect()
+  }, [colKey, hasCols])
+
+  // Sideways scroll: the copy is its own (overflow: hidden) scroll container,
+  // so mirroring scrollLeft keeps .corner's left-sticky working inside it.
+  useEffect(() => {
+    const wrap = wrapRef.current
+    if (!wrap) return
+    const sync = () => {
+      if (pinScrollRef.current) pinScrollRef.current.scrollLeft = wrap.scrollLeft
+    }
+    wrap.addEventListener('scroll', sync, { passive: true })
+    return () => wrap.removeEventListener('scroll', sync)
+  }, [hasCols])
+
+  /* Show the copy once the real header has passed under the nav, and hide it
+     again before it would hang past the last row over the footnote. */
+  useEffect(() => {
+    let frame = 0
+    const update = () => {
+      frame = 0
+      const thead = realTheadRef.current
+      const table = thead?.parentElement
+      if (!thead || !table) {
+        setPinShown(false)
+        return
+      }
+      const headBottom = thead.getBoundingClientRect().bottom
+      const tableBottom = table.getBoundingClientRect().bottom
+      const pinH = thead.offsetHeight
+      setPinShown(headBottom <= navH && tableBottom > navH + pinH)
+    }
+    const schedule = () => {
+      if (!frame) frame = requestAnimationFrame(update)
+    }
+    update()
+    window.addEventListener('scroll', schedule, { passive: true })
+    window.addEventListener('resize', schedule, { passive: true })
+    return () => {
+      if (frame) cancelAnimationFrame(frame)
+      window.removeEventListener('scroll', schedule)
+      window.removeEventListener('resize', schedule)
+    }
+  }, [navH, colKey, hasCols])
+
+  // The copy may have been hidden while the table scrolled sideways.
+  useLayoutEffect(() => {
+    if (pinShown && pinScrollRef.current && wrapRef.current) {
+      pinScrollRef.current.scrollLeft = wrapRef.current.scrollLeft
+    }
+  }, [pinShown, colWidths, tableW])
+
   return (
     <div className="page">
       <a className="back" href={toHome()} onClick={(e) => { e.preventDefault(); navigate(toHome()) }}>
@@ -331,37 +478,23 @@ export function Compare({ topic, schools }: Props) {
         <p className="empty">{t('compare.empty')}</p>
       ) : (
         <div className="table-frame">
-          <div className="table-wrap" role="region" aria-label={t('compare.tableAria')} tabIndex={0}>
+          <div className="compare-pin" style={{ top: navH }} aria-hidden="true">
+            <div className={`compare-pin-inner${pinShown ? ' on' : ''}`} ref={pinScrollRef}>
+              <table className="compare compare-pin-table" style={{ width: tableW }}>
+                <colgroup>
+                  {colWidths.map((w, i) => <col key={i} style={{ width: w }} />)}
+                </colgroup>
+                <CompareHead cols={cols} activeTopic={activeTopic} pinned />
+              </table>
+            </div>
+          </div>
+          <div className="table-wrap" ref={wrapRef} role="region" aria-label={t('compare.tableAria')} tabIndex={0}>
             <table className="compare">
-              <thead>
-                <tr>
-                  <th className="corner" scope="col">
-                    <span className="corner-label">{topicLabel(t, activeTopic ?? '', topicBySlug(activeTopic ?? '')?.name ?? '')}</span>
-                    <span className="corner-sub">{t('compare.researchMetric')}</span>
-                  </th>
-                  {cols.map((s) => (
-                    <th
-                      key={s.slug}
-                      scope="col"
-                      className="col-school"
-                      style={{ ['--brand' as string]: brandOf(s.slug).color }}
-                    >
-                      <a
-                        href={toSchool(s.slug)}
-                        onClick={(e) => { e.preventDefault(); navigate(toSchool(s.slug)) }}
-                        className="col-school-link"
-                      >
-                        <SchoolBadge slug={s.slug} name={s.name} size={40} />
-                        <span className="col-school-name">{s.name}</span>
-                      </a>
-                    </th>
-                  ))}
-                </tr>
-              </thead>
+              <CompareHead cols={cols} activeTopic={activeTopic} theadRef={realTheadRef} />
               {valueMetrics.length > 0 && (
                 <tbody>
                   <tr className="group-row">
-                    <td className="group-label" colSpan={cols.length + 1}>{t('compare.keyStats')}</td>
+                    <td className="group-label" colSpan={cols.length + 1}><span className="group-label-text">{t('compare.keyStats')}</span></td>
                   </tr>
                   {valueMetrics.map((vm) => {
                     // Highlight the best value only when there's a real spread.
@@ -475,7 +608,7 @@ export function Compare({ topic, schools }: Props) {
               <tbody>
                 {valueMetrics.length > 0 && (
                   <tr className="group-row">
-                    <td className="group-label" colSpan={cols.length + 1}>{t('compare.researchCoverage')}</td>
+                    <td className="group-label" colSpan={cols.length + 1}><span className="group-label-text">{t('compare.researchCoverage')}</span></td>
                   </tr>
                 )}
                 {metrics.map((m) => (
