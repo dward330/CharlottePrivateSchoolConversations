@@ -485,9 +485,9 @@ Telugu's or Bangla's method.
   keys to interpolate `{{term}}`. Its negative tests (one `rowTip` removed, a typed year in a
   note) each failed with that row's message. The re-splice dropped exactly 1 unit per locale
   (the note) and added 0.
-- **Second revision: the year moves into the row label** — `Admit rate Fall 2025 — UNC-Chapel
+- **Second revision: the year moves into the row label** — `Admit rate (Fall 2025) — UNC-Chapel
   Hill`. Compare renders the header from the chrome key `compare.ncAdmitLabel`
-  (`Admit rate Fall {{term}} — {{university}}`) with the same card-derived `term`, so the
+  (`Admit rate (Fall {{term}}) — {{university}}`) with the same card-derived `term`, so the
   year is still never typed. `VALUE_METRICS[].label` stays the year-free source name
   (read by `check:ncrows` and the schema doc). Its nine prose-overlay translations are
   now **unrendered on Compare** (harmless; they still resolve if anything shows `label`).

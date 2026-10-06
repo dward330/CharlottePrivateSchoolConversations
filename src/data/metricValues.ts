@@ -559,7 +559,7 @@ export const VALUE_METRICS: ValueMetric[] = [
   // rowTip: no `note` — the explanation is a row-header tooltip whose year is
   // read from the cards' latestTerm at render (Compare.tsx), never typed here.
   // Compare also renders the row header from `compare.ncAdmitLabel`
-  // ("Admit rate Fall {{term}} — {{university}}"), so `label` below is the
+  // ("Admit rate (Fall {{term}}) — {{university}}"), so `label` below is the
   // year-free source name: the schema doc and check:ncrows read it.
   {
     topic: 'college-support',
