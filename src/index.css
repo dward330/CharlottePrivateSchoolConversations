@@ -2241,10 +2241,17 @@ table.compare th, table.compare td {
 }
 table.compare tr > th:last-child, table.compare tr > td:last-child { border-right: none; }
 table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(--bg); vertical-align: bottom; }
+/* The rule above outranks `.corner { z-index: 4 }` below (0,1,3 vs 0,1,0), which
+   left the corner at 3 — level with the school cells, so a later school cell
+   painted over the topic name during sideways scroll. Restated here so the
+   corner stays on top of the header row it is pinned in. */
+table.compare thead th.corner { z-index: 4; }
 
 .corner, .row-metric {
   position: sticky;
-  left: 0;
+  /* Logical, not `left`: in RTL (fa, ar) this column sits on the RIGHT, and a
+     `left: 0` sticky never engages there, so it scrolled away sideways. */
+  inset-inline-start: 0;
   z-index: 2;
   background: var(--bg);
   text-align: left !important;
@@ -2266,12 +2273,32 @@ table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(-
 }
 .col-school-link:hover .col-school-name { text-decoration: underline; }
 
+/* A pinned copy of the Compare header (Compare.tsx, CompareHead). The real
+   thead's sticky above is inert: .table-wrap's overflow makes it the scroll
+   container, and it never scrolls vertically. This copy sits OUTSIDE that
+   container, so its sticky is relative to the page. Zero height, so showing it
+   moves nothing (CLS — see compare-cls). Scoped to .compare-pin*, never bare
+   .table-wrap, which the Admissions table shares. */
+.compare-pin { position: sticky; height: 0; z-index: 10; }
+.compare-pin-inner {
+  position: absolute; left: 0; right: 0; top: 0;
+  overflow: hidden;            /* a scroll container: .corner's left:0 sticks inside it */
+  visibility: hidden;
+  border: 1px solid var(--border); border-top: none;
+  background: var(--bg);
+  box-shadow: 0 6px 12px -8px rgb(0 0 0 / 0.18);
+}
+.compare-pin-inner.on { visibility: visible; }
+.compare-pin-table { table-layout: fixed; min-width: 0; }
+table.compare-pin-table thead th { position: static; }   /* keep .corner's left-sticky only */
+.compare-pin-table .corner { position: sticky; inset-inline-start: 0; }
+
 .row-metric-label { display: block; font-family: var(--heading); font-weight: 600; font-size: 17px; line-height: 1.2; }
 .row-metric-cov { display: block; color: var(--muted); font-size: 11.5px; margin-top: 2px; }
 
 /* grouped sections + value (numeric) rows */
 .group-row td.group-label {
-  text-align: left;
+  text-align: start;   /* the reading-start edge, where the sticky label text pins */
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -2279,10 +2306,11 @@ table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(-
   color: var(--muted);
   background: var(--bg);
   padding: 7px 14px;
-  position: sticky;
-  left: 0;
-  z-index: 2;
 }
+/* The label cell spans the whole row, so a sticky on the CELL has no room to
+   move and scrolled away sideways with everything else. The text inside it is
+   what sticks. */
+.group-label-text { display: inline-block; position: sticky; inset-inline-start: 14px; }
 .value-row .row-metric { vertical-align: top; }
 .row-metric-note {
   display: block;
@@ -2534,7 +2562,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   table.compare thead th,
   .corner,
   .row-metric,
-  .group-row td.group-label { position: static; }
+  .group-row td.group-label,
+  .group-label-text { position: static; }
+  /* The pinned header copy would print as a second header. */
+  .compare-pin { display: none; }
   .topnav { backdrop-filter: none; background: var(--surface); }
   .page { padding-bottom: 0; max-width: none; }
   /* Don't split a card, callout, or table row across a page break. */
