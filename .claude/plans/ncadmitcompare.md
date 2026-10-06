@@ -505,3 +505,6 @@ Telugu's or Bangla's method.
   overall admit rate; each school's own page adds the five-year rate.") in all ten. Real
   Chrome, all 10 locales: label, row tip and cell tip translated, with 0 English chrome
   left; university and school names stay Latin, and figures render from the card counts.
+- **Last review tweak.** The cell tip's "Beneath the rate: admitted / applied." moved to its
+  own key, `compare.ncAdmitCellFormat`, and renders as a third spaced line in all ten
+  catalogs. The Applied line lost its trailing period to match the Admitted line.

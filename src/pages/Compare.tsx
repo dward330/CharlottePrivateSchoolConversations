@@ -447,6 +447,7 @@ export function Compare({ topic, schools }: Props) {
                                           school: s.name,
                                         })}
                                       </span>
+                                      <span className="tip-body">{t('compare.ncAdmitCellFormat')}</span>
                                     </TopLayerTip>
                                   ) : vm.quals?.[s.slug] ? (
                                     <CellQual

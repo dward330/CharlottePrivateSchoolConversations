@@ -2407,7 +2407,8 @@ table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(-
   line-height: 1.45;
   color: var(--body, var(--text));
 }
-/* Stacked lines (the NC admit-rate cell tip: admitted, then applied). */
+/* Stacked lines (the NC admit-rate cell tip: admitted, applied, then the
+   `admitted / applied` key). */
 .tip-body + .tip-body { margin-top: 6px; }
 .tip:popover-open { display: block; }
 
