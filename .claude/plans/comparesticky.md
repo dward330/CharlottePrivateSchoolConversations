@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-10-05
 branch: feat/compare-sticky-header
-prs: []
+prs: [334]
 ---
 
 # Freeze the Compare table header while scrolling
