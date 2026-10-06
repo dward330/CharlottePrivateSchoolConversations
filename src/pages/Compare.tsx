@@ -24,6 +24,8 @@ import {
 } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { CellQual } from '../components/CellQual.tsx'
+import { TopLayerTip } from '../components/TopLayerTip.tsx'
+import { collegeSupportProgram } from '../data/collegeSupport.ts'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
 import {
   valueMetricsForTopic,
@@ -34,6 +36,30 @@ import {
 import { COMPARE_DEFAULT_TOPIC, COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 
 type Props = { topic: string | null; schools: string[] }
+
+/**
+ * What an `ncAdmit` row's tooltips say for one school, read from its
+ * ncAdmissions card — the same `latestTerm` the school-page card captions its
+ * ledger with, and the same counts the cell's `admitted / applied` line shows.
+ * A dashboard refresh therefore moves the tips' year with the card instead of
+ * leaving a typed "Fall 2025" behind.
+ */
+function ncAdmitFor(vm: ValueMetric, slug: string) {
+  const nc = collegeSupportProgram(slug)?.ncAdmissions
+  const u = nc?.universities.find((x) => `nc-admit-${x.key}` === vm.key)
+  if (!nc?.latestTerm || !u) return null
+  return { term: nc.latestTerm, university: u.name, applied: u.applied, admitted: u.accepted }
+}
+
+/** The row-header tip. `check:ncrows` holds every school to one shared term,
+    so the first selected school with a card speaks for the row. */
+function ncAdmitTip(vm: ValueMetric, slugs: string[]): { term: string; university: string } | null {
+  for (const slug of slugs) {
+    const f = ncAdmitFor(vm, slug)
+    if (f) return { term: f.term, university: f.university }
+  }
+  return null
+}
 
 function CheckIcon() {
   return (
@@ -355,16 +381,36 @@ export function Compare({ topic, schools }: Props) {
                       !vm.noLead && cols.length > 1 && present.length > 1 && Math.min(...present) !== Math.max(...present)
                         ? (vm.lowerIsBetter ? Math.min(...present) : Math.max(...present))
                         : null
+                    const tip = vm.rowTip === 'ncAdmit' ? ncAdmitTip(vm, cols.map((s) => s.slug)) : null
                     return (
                       <tr key={vm.key} className="value-row">
                         <th scope="row" className="row-metric">
-                          <span className="row-metric-label">{vm.label}</span>
+                          {tip ? (
+                            <TopLayerTip
+                              idPrefix={`rowtip-${vm.key}`}
+                              className="qual row-tip"
+                              trigger={
+                                <>
+                                  {/* The year sits in the label, composed from the cards'
+                                      latestTerm like the tips, so it is never typed. */}
+                                  <span className="row-metric-label">{t('compare.ncAdmitLabel', tip)}</span>
+                                  <span className="qual-dot" aria-hidden="true" />
+                                </>
+                              }
+                            >
+                              <span className="tip-kind">{t('compare.ncAdmitTipKind', tip)}</span>
+                              <span className="tip-body">{t('compare.ncAdmitTip', tip)}</span>
+                            </TopLayerTip>
+                          ) : (
+                            <span className="row-metric-label">{vm.label}</span>
+                          )}
                           {vm.note && <span className="row-metric-note">{vm.note}</span>}
                         </th>
                         {cols.map((s, i) => {
                           const v = vm.values[s.slug] ?? null
                           const sub = vm.subs?.[s.slug] ?? null
                           const lead = best != null && nums[i] === best
+                          const cellTip = tip && v != null ? ncAdmitFor(vm, s.slug) : null
                           return (
                             <td
                               key={s.slug}
@@ -373,7 +419,37 @@ export function Compare({ topic, schools }: Props) {
                             >
                               {v != null ? (
                                 <>
-                                  {vm.quals?.[s.slug] ? (
+                                  {cellTip ? (
+                                    <TopLayerTip
+                                      idPrefix={`celltip-${vm.key}`}
+                                      className="qual"
+                                      ariaLabel={t('compare.qualAria', { value: localizeMoneyText(v), school: s.name })}
+                                      trigger={
+                                        <>
+                                          <span className="mark-val">{localizeMoneyText(v)}</span>
+                                          <span className="qual-dot" aria-hidden="true" />
+                                        </>
+                                      }
+                                    >
+                                      <span className="tip-kind">{t('compare.ncAdmitCellKind', cellTip)}</span>
+                                      {/* Admitted first, matching the `admitted / applied` line. */}
+                                      <span className="tip-body">
+                                        {t('compare.ncAdmitCellAdmitted', {
+                                          ...cellTip,
+                                          admitted: localizeMoneyText(cellTip.admitted),
+                                          school: s.name,
+                                        })}
+                                      </span>
+                                      <span className="tip-body">
+                                        {t('compare.ncAdmitCellApplied', {
+                                          ...cellTip,
+                                          applied: localizeMoneyText(cellTip.applied),
+                                          school: s.name,
+                                        })}
+                                      </span>
+                                      <span className="tip-body">{t('compare.ncAdmitCellFormat')}</span>
+                                    </TopLayerTip>
+                                  ) : vm.quals?.[s.slug] ? (
                                     <CellQual
                                       value={localizeMoneyText(v)}
                                       qual={vm.quals[s.slug]}

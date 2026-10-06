@@ -143,7 +143,14 @@
       "official": "দাপ্তরিক তালিকা",
       "scope": "পরিধি নোট"
     },
-    "qualAria": "{{value}} — {{school}}-এর জন্য এই সংখ্যাটি কী গণনা করে"
+    "qualAria": "{{value}} — {{school}}-এর জন্য এই সংখ্যাটি কী গণনা করে",
+    "ncAdmitLabel": "ভর্তির হার (শরৎ {{term}}) — {{university}}",
+    "ncAdmitTipKind": "শরৎ {{term}} · সর্বশেষ প্রকাশিত বছর",
+    "ncAdmitTip": "প্রতিটি স্কুলের নিজস্ব আবেদনকারীদের যে অংশকে {{university}} শরৎ {{term}}-এর জন্য ভর্তি করেছে — UNC সিস্টেমের প্রকাশিত ভর্তি ড্যাশবোর্ডের সবচেয়ে সাম্প্রতিক বছর। প্রতিটি হারের নিচে: ভর্তি / আবেদন।",
+    "ncAdmitCellKind": "শরৎ {{term}}-এর ভর্তি · {{university}}",
+    "ncAdmitCellAdmitted": "ভর্তি: {{admitted}} — {{school}}-এর যে শিক্ষার্থীদের {{university}} শরৎ {{term}}-এর জন্য ভর্তি করেছে",
+    "ncAdmitCellApplied": "আবেদন: {{applied}} — {{school}}-এর যত শিক্ষার্থী সেখানে আবেদন করেছে",
+    "ncAdmitCellFormat": "হারের নিচে: ভর্তি / আবেদন।"
   },
   "school": {
     "allSchools": "← সব স্কুল",

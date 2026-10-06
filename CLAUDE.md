@@ -94,9 +94,14 @@ discover at ingest time.
 **The bar is calibrated to the thinnest school already shipped, and it is computed, not
 transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
 school's Compare fill rate and research-area count and derives the floor from the weakest.
-As of 2026-09-17 that is Davidson Day — 17/30 Compare rows (**56%**), and no Summer
-Programs material at all. The gate is **≥17 of 30 Compare rows, and one area below the
-count the script derives**, compared inclusively: exactly 17/30 passes, 16/30 does not.
+As of 2026-10-05 that is Davidson Day — 23/36 Compare rows (**63%**), and no Summer
+Programs material at all. The gate is **≥23 of 36 Compare rows, and one area below the
+count the script derives**, compared inclusively: exactly 23/36 passes, 22/36 does not.
+The row total moves too (30 → 36 when the six Top 6 NC admit-rate rows shipped,
+2026-10-05), so read it from the script like the area count. Those six rows exist only for
+NC high schools — the UNC System dashboard covers no other state — so an out-of-state
+candidate (a Fort Mill, SC school, say) scores 0/6 on them and should be judged against
+the other 30.
 
 **Never transcribe the area denominator into this file or the skill — read it from the
 script.** It has moved twice and both documents went quietly stale both times: Admissions
@@ -105,24 +110,24 @@ school can reach the raw total, since a K–12 school has no High School Placeme
 K–8 school has no College Support, so `total − 1` is the real ceiling for either.
 
 **⛔ A K–8 SCHOOL IS GATED ON AREAS ALONE.** It is excluded from the Compare page entirely
-(`hasHighSchool: false`), so it has **zero of 30 Compare rows by design** and applying the
+(`hasHighSchool: false`), so it has **zero Compare rows by design** and applying the
 row axis fails every K–8 candidate, including Trinity. `coverage_floor.mjs` already knows
 this — it lists such a school under "Excluded from the floor" rather than as the weakest.
 The full K–8 shape is **§7 of `DATA-SCHEMA.md`**, which `/add-school` reads first.
 
 Compare rows are counted in **rows, not rounded percentages** — each row moves the figure
-~3.3 points. **Each research area also gets its own coverage percentage**, pooled across
+~2.8 points. **Each research area also gets its own coverage percentage**, pooled across
 its core prose cards, structured-card field sets and Compare rows, and judged against the
 card keys **5–6 of 6** existing schools hold, never against every key that exists —
 `the-arts :: courses` sits at 1/6, so its absence is not a gap.
 
-**The per-area line is ~50%, deliberately NOT the school-wide 56%**, and it is a trigger
+**The per-area line is ~50%, deliberately NOT the school-wide 63%**, and it is a trigger
 for a conversation rather than a pass/fail gate. Three reasons, each of which bit a draft:
-the 56% is a rate over 30 Compare rows while an area's denominator is 4–23, so they are
+the 63% is a rate over 36 Compare rows while an area's denominator is 2–28, so they are
 not the same kind of measurement; **Davidson Day — the school the bar is calibrated to —
-has no Summer Programs material at all (0%)**, so a 56% per-area gate would reject an area
+has no Summer Programs material at all (0%)**, so a 63% per-area gate would reject an area
 the project already ships without; and Course Offerings quantizes to 0/25/50/75/100, where
-"56%" is unreachable and would silently behave as 75%. **Always print counts beside an
+"63%" is unreachable and would silently behave as 75%. **Always print counts beside an
 area percentage** — one item swings Sports 4 points and Course Offerings 25.
 
 **An area under the line is not dropped — it is offered a deeper look.** The step-3 sweep is

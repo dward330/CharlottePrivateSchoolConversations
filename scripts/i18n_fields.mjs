@@ -424,6 +424,9 @@ export const PATH_OVERRIDES = new Map([
   // `compareAs` (metricValues.ts) — a ranking-strategy ENUM ('span' | 'sum' |
   // 'fraction' | …) consumed by Compare's leader logic, never display text.
   ['compareAs', false],
+  // `rowTip` (metricValues.ts) — an ENUM ('ncAdmit') selecting which row-header
+  // tooltip Compare composes from chrome keys (compare.ncAdmitTip*), never display text.
+  ['rowTip', false],
   ['quals.davidson-day.kind', false],
   ['quals.carmel-christian.kind', false],
   ['quals.hickory-grove-christian.kind', false],

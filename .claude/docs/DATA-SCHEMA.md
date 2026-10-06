@@ -782,13 +782,15 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 ## 4. Compare rows (quantitative layer)
 
-`VALUE_METRICS` powers both the Compare table and the stat tiles on a school page. It is
+`VALUE_METRICS` powers both the Compare table and the stat tiles on a school page (a
+`compareOnly` row skips the tiles). It is
 **hand-maintained** — the ingest never writes it, so a newly ingested school renders N/A
 here until someone backfills it. `null` is a deliberate "not located"; a missing key is an
 oversight. `npm run check:metrics` tells the two apart.
 
 Legend: **↓** lower value is the leader · **–** no leader tint (e.g. cost rows, where the
-highest number is not the best) · **Q** carries per-cell provenance tooltips.
+highest number is not the best) · **Q** carries per-cell provenance tooltips · **C** Compare
+only, no school-page stat tile (the school page shows the figures in a structured card).
 
 ### Course Offerings `course-offerings`
 
@@ -832,6 +834,12 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | `bucket-nu75` | Top-75 National Universities | 11/12 | Q |
 | `bucket-lac75` | Top-75 Liberal Arts | 11/12 | Q |
 | `bucket-p4` | Power Four | 11/12 | Q |
+| `nc-admit-unc-chapel-hill` | Admit rate — UNC-Chapel Hill | 11/12 | C sub |
+| `nc-admit-nc-state-university` | Admit rate — NC State University | 11/12 | C sub |
+| `nc-admit-unc-charlotte` | Admit rate — UNC Charlotte | 11/12 | C sub |
+| `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/12 | C sub |
+| `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/12 | C sub |
+| `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/12 | C sub |
 | `bucket-hbcu` | HBCUs | 11/12 | Q |
 | `counselor-caseload` | Seniors per counselor | 9/12 | ↓ Q |
 
@@ -860,7 +868,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | `aid-awarded` | Aid awarded / year | 3/12 | Q |
 | `avg-award` | Average award | 2/12 | Q |
 
-**Total:** 30 Compare rows across 8 research areas.
+**Total:** 36 Compare rows across 8 research areas.
 
 <details><summary>ValueMetric shape</summary>
 
@@ -878,6 +886,8 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | `lowerIsBetter` | `boolean` |  |
 | `compareAs` | `'span' \| 'sum' \| 'fraction' \| 'range-width' \| 'range-start' \| 'ra…` |  |
 | `quals` | `Record<string, CellQual>` |  |
+| `compareOnly` | `boolean` |  |
+| `rowTip` | `'ncAdmit'` |  |
 
 **`CellQual`**
 

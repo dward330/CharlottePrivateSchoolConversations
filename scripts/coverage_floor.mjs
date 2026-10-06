@@ -77,7 +77,7 @@ const report = schools.map(({ slug, name }) => {
     else value++
   }
   const areas = topics.filter((t) => (docs.get(`${slug}::${t}`) ?? 0) > 0).length
-  // Floor, not round: 17/30 is 56.67%, and the agreed bar is stated as 56%. Rounding up
+  // Floor, not round: 23/36 is 63.89%, and the agreed bar is stated as 63%. Rounding up
   // would advertise a floor fractionally above the school it is calibrated to.
   return { slug, name, value, nulled, missing, rows: rows.length, areas, topics: topics.length,
            comparable: BRANDS[slug]?.hasHighSchool !== false,
@@ -93,7 +93,8 @@ const report = schools.map(({ slug, name }) => {
 // which is not a low bar, it is NO bar, and /add-school reads this number to
 // decide whether a candidate is worth researching. Verified 2026-09-16 against a
 // PreK-8 school carried on a branch: with it in the reduction the floor printed
-// 0/30, and with it excluded the floor is Davidson Day at 17/30 as documented.
+// 0/30, and with it excluded the floor is Davidson Day at 17/30 as documented
+// (rows have since grown to 36; the same exclusion now yields 23/36).
 //
 // Its research-area count is still meaningful and is still reported, because
 // area coverage is exactly what the gate falls back to for a Compare-excluded
@@ -120,7 +121,7 @@ if (asJson) {
   if (excluded.length) {
     console.log(`\nExcluded from the floor: ${excluded.map((r) => `${r.name} (${r.areas}/${r.topics} areas)`).join(', ')}`)
     console.log(`— no grades 9-12, so no Compare rows are expected. For these schools the gate is`)
-    console.log(`research-area coverage alone; their 0/30 is correct and is not a floor.`)
+    console.log(`research-area coverage alone; their 0/${rows.length} is correct and is not a floor.`)
   }
   const missingComparable = comparable.filter((r) => r.missing)
   if (missingComparable.length) {

@@ -150,7 +150,14 @@
       "official": "Official list",
       "scope": "Scope note"
     },
-    "qualAria": "{{value}} — what this figure counts for {{school}}"
+    "qualAria": "{{value}} — what this figure counts for {{school}}",
+    "ncAdmitLabel": "Admit rate (Fall {{term}}) — {{university}}",
+    "ncAdmitTipKind": "Fall {{term}} · latest year published",
+    "ncAdmitTip": "The share of each school’s own applicants that {{university}} admitted for Fall {{term}}, the most recent year on the UNC System’s published admissions dashboard. Beneath each rate: admitted / applied.",
+    "ncAdmitCellKind": "Fall {{term}} admissions · {{university}}",
+    "ncAdmitCellAdmitted": "Admitted: {{admitted}} — students from {{school}} whom {{university}} admitted for Fall {{term}}",
+    "ncAdmitCellApplied": "Applied: {{applied}} — all students from {{school}} who applied there",
+    "ncAdmitCellFormat": "Beneath the rate: admitted / applied."
   },
   "school": {
     "allSchools": "← All schools",

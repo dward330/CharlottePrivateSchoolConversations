@@ -777,7 +777,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 (a, b) => rank(a.metric.key) - rank(b.metric.key),
               )
             }
-            const stats = valueMetricsForTopic(t.slug, lang).filter((vm) => vm.values[slug] != null)
+            const stats = valueMetricsForTopic(t.slug, lang).filter(
+              (vm) => !vm.compareOnly && vm.values[slug] != null,
+            )
             /* Course Offerings is rendered from the structured curriculum layer
                as one card per division, so its header count and card grid come
                from `offerings` rather than the ingested metric groups. */
@@ -1029,9 +1031,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 {/* Admissions renders its 4-tile band from the topic's OWN data
                     rather than from VALUE_METRICS. The strip above and the
                     Compare table's Key Stats rows are the same array filtered by
-                    topic, so adding rows there would have shipped the Compare
-                    surface the user deferred for this area (2026-08-30). Same
-                    classes, same position — visually it is the band above. */}
+                    topic (minus `compareOnly` rows), so adding rows there would
+                    have shipped the Compare surface the user deferred for this
+                    area (2026-08-30). Same classes, same position — visually
+                    it is the band above. */}
                 {ready && t.slug === 'admissions' && admissions && (
                   <AdmissionsStatBand program={admissions} />
                 )}

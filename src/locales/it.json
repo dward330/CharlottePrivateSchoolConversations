@@ -143,7 +143,14 @@
       "official": "Elenco ufficiale",
       "scope": "Nota sull’ambito"
     },
-    "qualAria": "{{value}} — che cosa conta questa cifra per {{school}}"
+    "qualAria": "{{value}} — che cosa conta questa cifra per {{school}}",
+    "ncAdmitLabel": "Tasso di ammissione (autunno {{term}}) — {{university}}",
+    "ncAdmitTipKind": "Autunno {{term}} · ultimo anno pubblicato",
+    "ncAdmitTip": "La quota dei candidati di ciascuna scuola che {{university}} ha ammesso per l'autunno {{term}}, l'anno più recente nella dashboard delle ammissioni pubblicata dal sistema UNC. Sotto ogni tasso: ammessi / candidati.",
+    "ncAdmitCellKind": "Ammissioni autunno {{term}} · {{university}}",
+    "ncAdmitCellAdmitted": "Ammessi: {{admitted}} — studenti di {{school}} ammessi da {{university}} per l'autunno {{term}}",
+    "ncAdmitCellApplied": "Candidati: {{applied}} — tutti gli studenti di {{school}} che vi hanno presentato domanda",
+    "ncAdmitCellFormat": "Sotto il tasso: ammessi / candidati."
   },
   "school": {
     "allSchools": "← Tutte le scuole",
