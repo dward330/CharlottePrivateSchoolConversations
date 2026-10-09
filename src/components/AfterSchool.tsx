@@ -203,7 +203,7 @@ export function CoverageBody({ data }: { data: Coverage }) {
                      A native tooltip needs no JS, works on keyboard focus and
                      is read by assistive tech. */
                   <span className="as-tl-tier is-flat" title={r.flatLabel && localizeMoneyText(r.flatLabel)}>
-                    {r.flatLabel && localizeMoneyText(r.flatLabel)}
+                    <span className="as-tl-flat">{r.flatLabel && localizeMoneyText(r.flatLabel)}</span>
                   </span>
                 ) : (
                   r.tiers.map((t, i) => {
@@ -225,25 +225,18 @@ export function CoverageBody({ data }: { data: Coverage }) {
                         className={i === r.tiers.length - 1 ? 'as-tl-tier is-last' : 'as-tl-tier'}
                         style={{ flexBasis: `${span * 100}%` }}
                         /* Rebuilt from the parts rather than read off the DOM,
-                           so it stays whole when the slot ellipsises AND when
-                           the "to …" prefix is hidden at phone width. */
+                           so it stays whole when the slot is cramped. */
                         title={[
-                          `to ${t.until}`,
+                          tr('afterSchool.tierUntil', { time: t.until }),
                           t.price ? localizeMoneyText(t.price) : null,
                           t.estimated ? tr('cardLabels.est') : null,
                         ]
                           .filter(Boolean)
                           .join(' · ')}
                       >
-                        {/* The "to 4:30 · " prefix is dropped at phone width
-                            (see .as-tl-until): it is the longest part of the
-                            label and the least load-bearing, since the tier's
-                            right edge already shows where it ends. Keeping it
-                            would force a narrow slot to borrow width from its
-                            neighbours, which visibly distorts the clock — Country
-                            Day's 30-minute 3:00–3:30 tier would render as wide as
-                            the 60-minute one beside it. */}
-                        <span className="as-tl-until">to {t.until} · </span>
+                        {/* At phone width none of this renders inside the
+                            bar — the legend below carries it (.as-tl-legend). */}
+                        <span className="as-tl-until">{tr('afterSchool.tierUntil', { time: t.until })} · </span>
                         {t.price && <span className="as-tl-price">{localizeMoneyText(t.price)}</span>}
                         {t.estimated && <span className="as-inline-tag tag-neutral">{tr('cardLabels.est')}</span>}
                       </span>
@@ -252,6 +245,24 @@ export function CoverageBody({ data }: { data: Coverage }) {
                 )}
               </div>
             </div>
+            {/* Phone-only legend (hidden above 600px). Below that width the bar
+                carries no text at all — a price in a 30-minute slot is what
+                clipped, and a touch device never shows the `title` fallback —
+                so every tier's price is listed here in wrapping text instead,
+                once, and the bar is left as an exact clock. */}
+            <ul className={r.uncovered ? 'as-tl-legend is-uncovered' : 'as-tl-legend'}>
+              {r.tiers.length === 0 ? (
+                r.flatLabel ? <li className="is-last">{localizeMoneyText(r.flatLabel)}</li> : null
+              ) : (
+                r.tiers.map((t, i) => (
+                  <li key={t.until} className={i === r.tiers.length - 1 ? 'is-last' : undefined}>
+                    <span className="text-muted">{tr('afterSchool.tierUntil', { time: t.until })}</span>
+                    {t.price && <> · <strong>{localizeMoneyText(t.price)}</strong></>}
+                    {t.estimated && <span className="as-inline-tag tag-neutral">{tr('cardLabels.est')}</span>}
+                  </li>
+                ))
+              )}
+            </ul>
           </div>
         ))}
 

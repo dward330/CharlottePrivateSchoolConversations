@@ -1256,9 +1256,15 @@ main { flex: 1; }
 .stat-tile-label { color: var(--muted); font-size: 12px; margin-top: 2px; }
 
 /* expandable research cards, two-up on wide screens */
-.note-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+/* minmax(0, …), never a bare 1fr: a 1fr track can never be narrower than its
+   widest child's min-content, so one opened card holding a wide table widened
+   the track — and with it every card in that area, open or closed. On a phone
+   that made every school page scroll sideways (345px closed, 716px open). The
+   wrappers inside the cards that are meant to scroll never got to. */
+.note-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start; }
 .note-card {
   position: relative;
+  min-width: 0;
   border: 1px solid var(--border);
   padding: 14px 20px;
 }
@@ -1496,6 +1502,9 @@ main { flex: 1; }
   border-bottom: 1px solid var(--border);
   white-space: nowrap;
 }
+/* A sentence-length cell (marked by ProseContent) wraps at a readable measure
+   instead of stretching the table to thousands of pixels; figures stay nowrap. */
+.prose-table .is-long { white-space: normal; overflow-wrap: anywhere; min-width: 26ch; max-width: 40ch; }
 .prose-table thead th {
   font-size: 12px;
   text-transform: uppercase;
@@ -1604,7 +1613,13 @@ main { flex: 1; }
      for the short ones. Measured in a browser before and after, not eyeballed:
      the two overflows go to 0 and no other chip on any school page moves. */
   max-width: 100%;
-  white-space: nowrap;
+  /* …but `nowrap` kept the TEXT painting out of that capped box (+150px on
+     Where Graduates Go at phone width). A `flex: none` chip still sizes to its
+     max-content when it fits, so short chips stay on one line. break-word, NOT
+     anywhere: `anywhere` also shrinks the chip's min-content, which let the
+     Sports matrix squeeze a column until "TO VERIFY" split over three lines. */
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 .tag-outline { border: 1px solid var(--accent); color: var(--accent-700); }
 .tag-accent { background: var(--accent-100); color: var(--accent-800); border: 1px solid var(--accent); }
@@ -1933,22 +1948,22 @@ main { flex: 1; }
 }
 
 @media (max-width: 900px) {
-  .fa-split, .fa-split-wide { grid-template-columns: 1fr; }
-  .fa-framing { grid-template-columns: 1fr; }
-  .fa-boxrow.multi { grid-template-columns: 1fr; }
-  .fa-timeline { grid-template-columns: 1fr; row-gap: 16px; }
+  .fa-split, .fa-split-wide { grid-template-columns: minmax(0, 1fr); }
+  .fa-framing { grid-template-columns: minmax(0, 1fr); }
+  .fa-boxrow.multi { grid-template-columns: minmax(0, 1fr); }
+  .fa-timeline { grid-template-columns: minmax(0, 1fr); row-gap: 16px; }
   /* The connecting rule only reads across a row, not a stack. */
   .fa-timeline-rule { display: none; }
   .fa-timeline-node { padding-right: 0; }
 }
 @media (max-width: 600px) {
-  .fa-components { grid-template-columns: 1fr; }
+  .fa-components { grid-template-columns: minmax(0, 1fr); }
   .fa-bars { grid-template-columns: 88px 1fr; row-gap: 8px; }
   /* The value would be too cramped in a third column; drop it under the bar. */
   .fa-bar-value { grid-column: 2; }
   .fa-ladder { grid-template-columns: 64px 1fr; }
   .fa-ladder-detail { grid-column: 2; }
-  .fa-stats { grid-template-columns: 1fr; }
+  .fa-stats { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ------------------------------------ academic & competitive clubs (layered) */
@@ -2159,12 +2174,16 @@ main { flex: 1; }
 
 @media (max-width: 600px) {
   /* The two-up grid and 170px division label don't fit narrow screens. */
-  .catalog-grid { grid-template-columns: 1fr; gap: 0; }
+  .catalog-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .catalog-scroll { max-height: 340px; padding: 0 10px; }
   .catalog-division { flex-wrap: wrap; }
   .catalog-division-label { width: auto; }
   .catalog-division-text { flex: 1 0 100%; order: 3; }
   .catalog-count { margin-left: 0; }
+  /* A long category ("Faith / service / leadership") drops under the club
+     name rather than pushing the list 5–44px past its frame. */
+  .catalog-club-head { flex-wrap: wrap; }
+  .catalog-club-cat { flex: 0 1 auto; min-width: 0; }
 }
 
 /* -------------------------------------------------------------- compare */
@@ -2520,15 +2539,15 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 }
 
 @media (max-width: 900px) {
-  .dossier-layout { grid-template-columns: 1fr; }
+  .dossier-layout { grid-template-columns: minmax(0, 1fr); }
   .dossier-nav { display: none; }
-  .note-cards { grid-template-columns: 1fr; }
+  .note-cards { grid-template-columns: minmax(0, 1fr); }
   .note-card[open] .note-card-body { column-count: 1; }
   .topic-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 540px) {
-  .topic-grid { grid-template-columns: 1fr; }
+  .topic-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3451,7 +3470,7 @@ html.photo-viewer-open { overflow: hidden; }
 @media (max-width: 900px) {
   .sports-board,
   .sports-split,
-  .sports-coaches { grid-template-columns: 1fr; }
+  .sports-coaches { grid-template-columns: minmax(0, 1fr); }
   .sports-panel { border-left: none; padding-left: 0; }
   .sports-stats { grid-template-columns: 1fr 1fr; }
   .sports-search { margin-left: 0; width: 100%; }
@@ -3462,7 +3481,7 @@ html.photo-viewer-open { overflow: hidden; }
   .sports-roster { min-width: 620px; }
   .sports-bar-row,
   .sports-funnel-row { grid-template-columns: 120px 1fr 70px; }
-  .sports-honor { grid-template-columns: 1fr; gap: 4px; }
+  .sports-honor { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   .sports-honor .tag-accent,
   .sports-honor .tag-outline { justify-self: start; }
   .sports-tenure { grid-template-columns: 1fr 1fr; }
@@ -3820,16 +3839,32 @@ html.photo-viewer-open { overflow: hidden; }
   .arts-season,
   .arts-split,
   .arts-media,
-  .arts-exhibits { grid-template-columns: 1fr !important; }
+  .arts-exhibits { grid-template-columns: minmax(0, 1fr) !important; }
   .arts-figsplit,
-  .arts-figsplit.is-reverse { grid-template-columns: 1fr; }
+  .arts-figsplit.is-reverse { grid-template-columns: minmax(0, 1fr); }
   .arts-panel { border-left: none; padding-left: 0; }
   .arts-stats { grid-template-columns: 1fr 1fr; }
-  .arts-enrich-row { grid-template-columns: 1fr; gap: 4px; }
+  .arts-enrich-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   /* The ledger keeps its column widths and scrolls sideways rather than
      crushing — the scroller owns the overflow. */
   .arts-scroll { overflow-x: auto; }
   .arts-ledger { min-width: 560px; }
+}
+
+/* Phone: the ledger stacks to Year | Show, with each result on its own line
+   under its show at full width — the Result column and its WIN chip were
+   starting off-screen. The ledgers hold 2–10 rows, so the height cap goes too:
+   a two-axis scroll box nested in the page scroll traps swipes. CSS only; the
+   cells are already bare grid children. */
+@media (max-width: 600px) {
+  .arts-scroll { max-height: none; overflow: visible; }
+  .arts-ledger { min-width: 0; grid-template-columns: auto minmax(0, 1fr); }
+  .arts-ledger > .arts-th:nth-child(3) { display: none; }
+  .arts-th { position: static; }
+  .arts-ledger-year { grid-row: span 2; }
+  .arts-ledger-show { border-bottom: none; padding: 9px 12px 2px 0; font-weight: 600; }
+  .arts-ledger-result { grid-column: 2; padding: 2px 12px 10px 0; }
+  .arts-ledger > .arts-th:nth-child(2) { padding-left: 0; }
 }
 
 /* ============================================================================
@@ -4067,15 +4102,15 @@ html.photo-viewer-open { overflow: hidden; }
 @media (max-width: 900px) {
   .clubs-roster { grid-template-columns: 1fr 1fr; }
   .clubs-strips,
-  .clubs-programs { grid-template-columns: 1fr !important; }
+  .clubs-programs { grid-template-columns: minmax(0, 1fr) !important; }
   .clubs-leadership,
-  .clubs-adjacent-row { grid-template-columns: 1fr; gap: 4px; }
+  .clubs-adjacent-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   /* The ledger scrolls sideways rather than crushing its four columns. */
   .clubs-ledger { min-width: 620px; }
 }
 
 @media (max-width: 600px) {
-  .clubs-roster { grid-template-columns: 1fr; }
+  .clubs-roster { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ============================================================================
@@ -4158,6 +4193,9 @@ html.photo-viewer-open { overflow: hidden; }
    Let that lone child span the full width instead of stranding a dead column
    beside it and squeezing its text into half the card. */
 .cs-split > :only-child { grid-column: 1 / -1; }
+/* Same flaw as .note-cards one level down: without this the split's track grew
+   to the 420px merit ledger and its .cs-ledger-wrap never scrolled. */
+.cs-split > * { min-width: 0; }
 
 /* -- label/text detail rows ------------------------------------------------ */
 
@@ -4590,9 +4628,9 @@ a.cs-college-name:focus-visible {
   .cs-roster,
   .cs-timeline,
   .cs-quintiles,
-  .cs-band-grid { grid-template-columns: 1fr !important; }
+  .cs-band-grid { grid-template-columns: minmax(0, 1fr) !important; }
   .cs-mechanics { grid-template-columns: 1fr 1fr; }
-  .cs-row { grid-template-columns: 1fr; gap: 4px; }
+  .cs-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   /* Tables scroll sideways rather than crushing their columns. */
   .cs-scores { min-width: 620px; }
   .cs-ledger { min-width: 420px; }
@@ -4602,8 +4640,80 @@ a.cs-college-name:focus-visible {
 }
 
 @media (max-width: 600px) {
-  .cs-stats { grid-template-columns: 1fr !important; }
-  .cs-mechanics { grid-template-columns: 1fr; }
+  .cs-stats { grid-template-columns: minmax(0, 1fr) !important; }
+  .cs-mechanics { grid-template-columns: minmax(0, 1fr); }
+
+  /* The NC admit-rate ledger stacks: one block per university, so the admit
+     rate and the 5-yr pooled rate — the figures the card exists for — are no
+     longer off-screen behind a 660px table. Same DOM; each figure's label comes
+     from its cell's data-label (the existing tables.nc* keys). The counts row
+     is never hidden: a rate never ships without its denominator. */
+  .cs-nc-ledger { min-width: 0; display: block; }
+  .cs-nc-ledger thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .cs-nc-ledger tbody { display: block; }
+  .cs-nc-ledger tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 12px;
+    row-gap: 8px;
+    padding: 12px 12px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cs-nc-ledger tr:last-child { border-bottom: none; }
+  .cs-nc-ledger .cs-td { display: block; padding: 0; border-bottom: none; text-align: left; }
+  .cs-nc-ledger .cs-td-rank { flex: none; font-size: 14px; }
+  /* Name fills the rest of the rank's line, so everything after it wraps. */
+  .cs-nc-ledger .cs-td-uni { flex: 1 1 calc(100% - 48px); min-width: 0; }
+  .cs-nc-ledger .cs-uni-name { font-size: 17px; line-height: 1.2; }
+  .cs-nc-ledger .cs-td[data-label]::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+  /* Admit rate: label left, value right, the bar at full width beneath. */
+  /* Visual order: header, admit rate, counts, 5-yr — the rate leads, as in
+     the desktop table's emphasis; DOM order (and so reading order with the
+     thead) is unchanged. */
+  .cs-nc-ledger .cs-td-rate {
+    order: 1;
+    flex: 1 1 100%;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: baseline;
+    row-gap: 4px;
+  }
+  .cs-nc-ledger .cs-td-rate .cs-rate { display: contents; }
+  .cs-nc-ledger .cs-td-rate .cs-rate-val { min-width: 0; font-size: 20px; line-height: 1; text-align: right; }
+  .cs-nc-ledger .cs-td-rate .cs-bar-track { grid-column: 1 / -1; }
+  /* Applied · Accepted: two halves, label above figure. */
+  .cs-nc-ledger .cs-td-count { order: 2; flex: 1 1 40%; display: flex; flex-direction: column; }
+  /* 5-yr pooled: a tinted line, label left, counts then rate right. */
+  .cs-nc-ledger .cs-td-5yr {
+    order: 3;
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 8px;
+    background: var(--neutral-100);
+    padding: 6px 10px;
+  }
+  .cs-nc-ledger .cs-td-5yr::before { margin-right: auto; }
+  .cs-nc-ledger .cs-5yr-note { order: 1; white-space: normal; font-size: 12px; }
+  .cs-nc-ledger .cs-5yr-val { order: 2; display: inline; font-size: 17px; }
 }
 
 /* == High School Placement ================================================= */
@@ -4909,6 +5019,12 @@ a.cs-college-name:focus-visible {
 /* The Niche rank, flushed right — the one piece of the row that is a figure
    rather than a name, so it sits in its own column like the college rank does. */
 .hsp-dest-rank { font-size: 11.5px; white-space: nowrap; margin-left: auto; padding-left: 12px; }
+@media (max-width: 600px) {
+  /* "US News National HS Rank #13,460-17,945" is wider than a 320px list:
+     let it wrap (at spaces — the figure stays whole) under the school name. */
+  .hsp-dest { flex-wrap: wrap; }
+  .hsp-dest-rank { white-space: normal; text-align: end; }
+}
 /* "(Now permanently closed)" / "(Merged into another school)". Italic and a
    touch smaller, but at the TEXT colour rather than the muted grey the sibling
    notes use: this is the one qualifier on a row that changes what a parent
@@ -4933,7 +5049,7 @@ a.cs-college-name:focus-visible {
 }
 
 @media (max-width: 600px) {
-  .hsp-stats { grid-template-columns: 1fr !important; }
+  .hsp-stats { grid-template-columns: minmax(0, 1fr) !important; }
 }
 
 /* == After School ========================================================== */
@@ -4991,10 +5107,11 @@ a.cs-college-name:focus-visible {
 
 .as-tl-row {
   display: grid;
-  grid-template-columns: 170px 1fr;
+  grid-template-columns: 170px minmax(0, 1fr);
   gap: 14px;
   align-items: center;
 }
+.as-tl-row > * { min-width: 0; }
 .as-tl-hours {
   display: flex;
   justify-content: space-between;
@@ -5083,6 +5200,30 @@ a.cs-college-name:focus-visible {
   color: var(--text-muted);
   background: transparent;
 }
+
+/* The phone-only legend under each bar (≤600px; see the breakpoint block). Each
+   item carries a swatch matching its bar segment — the last tier's accent fill,
+   the others' band tint, a dashed outline for an uncovered division — so the
+   eye can pair segment and line. */
+.as-tl-legend { display: none; }
+.as-tl-legend li {
+  position: relative;
+  padding-left: 18px;
+}
+.as-tl-legend li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+  border: 1px solid var(--accent-300);
+  background: color-mix(in oklab, var(--accent) 9%, transparent);
+}
+.as-tl-legend li.is-last::before { background: color-mix(in oklab, var(--accent) 22%, transparent); }
+.as-tl-legend.is-uncovered li::before { border: 1px dashed var(--border); background: transparent; }
+.as-tl-legend strong { font-weight: 600; color: var(--text); }
 
 .as-summer {
   border: 1px solid var(--border);
@@ -5256,7 +5397,10 @@ a.cs-college-name:focus-visible {
   padding: 5px 0;
   border-bottom: 1px solid var(--border);
 }
-.as-fee strong { font-family: var(--heading); white-space: nowrap; }
+/* A fee is usually a short figure, but some are sentences ("$10 for the first
+   10 min, then $10 / 10 min more" — +66px past a 360px screen in French). It
+   wraps at spaces only, so a figure itself never breaks. */
+.as-fee strong { font-family: var(--heading); text-align: end; max-width: 60%; }
 .as-fee-note { margin: 5px 0 0; }
 
 /* -- 1c enrichment catalog ------------------------------------------------- */
@@ -5456,10 +5600,10 @@ a.cs-college-name:focus-visible {
 
 @media (max-width: 900px) {
   .as-cost,
-  .as-split { grid-template-columns: 1fr !important; }
+  .as-split { grid-template-columns: minmax(0, 1fr) !important; }
   .as-rhythm { grid-template-columns: 1fr 1fr !important; }
-  .as-row { grid-template-columns: 1fr; gap: 4px; }
-  .as-tl-row { grid-template-columns: 120px 1fr; }
+  .as-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .as-tl-row { grid-template-columns: 120px minmax(0, 1fr); }
   /* The matrix scrolls sideways rather than crushing its columns. */
   .as-cost-matrix .as-table { min-width: 520px; }
   .su-photos { grid-template-columns: repeat(3, 1fr); gap: 10px; }
@@ -5467,19 +5611,38 @@ a.cs-college-name:focus-visible {
 }
 
 @media (max-width: 600px) {
-  .as-rhythm { grid-template-columns: 1fr !important; }
-  .as-tl-row { grid-template-columns: 96px 1fr; gap: 8px; }
-  .as-tl-tier { font-size: 9px; padding: 0 4px; }
-  /* Drop the "to 4:30 · " prefix at phone width and keep the price. It is the
-     longest part of the label and the least load-bearing — the tier's right
-     edge already shows where it ends — and keeping it forces a narrow slot to
-     borrow width from its neighbours, which distorts the clock: Country Day's
-     30-minute 3:00-3:30 tier otherwise renders as wide as the 60-minute tier
-     beside it, so a half-hour and a full hour look identical. */
-  .as-tl-until { display: none; }
+  .as-rhythm { grid-template-columns: minmax(0, 1fr) !important; }
+  /* The enrichment catalog's multi-price fees ("TK/K $200 · 1–5 $220") wrap at
+     their spaces so the four columns fit a phone without a sideways swipe. */
+  .as-catalog .as-td-fee { white-space: normal; }
+  .as-catalog .as-th,
+  .as-catalog .as-td { padding-left: 6px; padding-right: 6px; }
+  .as-tl-row { grid-template-columns: 96px minmax(0, 1fr); gap: 8px; }
+  /* The summer row has no label: let its note take the full width instead of
+     overflowing a 96px-indented column (+63px at Providence Day, 320px). */
+  .as-tl-row:has(> .as-summer) { grid-template-columns: minmax(0, 1fr); }
+  .as-tl-row:has(> .as-summer) > span:empty { display: none; }
+  /* At phone width the bar carries NO text — the legend below it carries every
+     price, once (settled with the user 2026-10-09). A 9px price in a 30-minute
+     slot is what clipped, and touch devices never show the `title` fallback.
+     With the labels gone the max-content floor goes too, so each tier gets
+     exactly its clock share and the dashed dividers mark true time. */
+  .as-tl-tier { padding: 0; min-width: 0; flex-shrink: 0; }
+  .as-tl-tier > * { display: none; }
+  .as-tl-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    grid-column: 2;
+    list-style: none;
+    margin: -4px 0 4px;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
   /* One photo per row at phone width: three 4:3 frames across a 320px screen
      are too small to read as photographs at all. */
-  .su-photos { grid-template-columns: 1fr; }
+  .su-photos { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
@@ -5880,7 +6043,9 @@ a.cs-college-name:focus-visible {
   color: var(--accent-700);
   font-family: var(--heading);
 }
-.news-loading-domain { margin-left: auto; color: var(--muted); font-size: 12px; }
+/* An unbreakable domain ("charlottecountryday.org") pushed a 320px page 14px
+   sideways while the section loaded; let it wrap anywhere instead. */
+.news-loading-domain { margin-left: auto; min-width: 0; overflow-wrap: anywhere; color: var(--muted); font-size: 12px; }
 
 .news-hairline {
   position: relative;
@@ -5951,7 +6116,7 @@ a.cs-college-name:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .news-featured, .news-sk-featured { grid-template-columns: 1fr; }
+  .news-featured, .news-sk-featured { grid-template-columns: minmax(0, 1fr); }
   .news-featured-photo { border-right: 0; border-bottom: 1px solid var(--border); }
   .news-featured-title { font-size: 21px; }
   .news-row, .news-sk-row { grid-template-columns: 52px 1fr auto; gap: 12px; }
@@ -6350,8 +6515,8 @@ a.cs-college-name:focus-visible {
 .adm-person-detail { margin-top: 2px; font-size: 12px; line-height: 1.4; color: var(--muted); }
 
 @media (max-width: 900px) {
-  .adm-grid { grid-template-columns: 1fr; }
-  .adm-rules { grid-template-columns: 1fr; }
+  .adm-grid { grid-template-columns: minmax(0, 1fr); }
+  .adm-rules { grid-template-columns: minmax(0, 1fr); }
   .adm-people { --ad-col: 2; }
 }
 @media (max-width: 560px) {
@@ -6487,7 +6652,7 @@ a.cs-college-name:focus-visible {
 }
 
 @media (max-width: 700px) {
-  .adx-panels { grid-template-columns: 1fr; }
+  .adx-panels { grid-template-columns: minmax(0, 1fr); }
   .adx-head-rail { text-align: left; }
 }
 
@@ -6681,4 +6846,27 @@ a.cs-college-name:focus-visible {
   outline: 2px solid var(--brand);
   outline-offset: 2px;
   border-radius: 2px;
+}
+
+/* -- sideways-scroll edge fades -------------------------------------------- */
+/* useScrollEdges (src/lib/useScrollEdges.ts) sets data-scroll-left / -right on a
+   scroll wrapper while content is hidden on that PHYSICAL side, so the fade
+   mirrors correctly in RTL. A mask rather than a box-shadow or background:
+   the tables paint opaque header and row-header fills that would cover one.
+   No attribute, no mask — a table that fits, or one scrolled to an end, shows
+   its first and last columns unfaded. */
+[data-scroll-right]:not([data-scroll-left]) {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+}
+[data-scroll-left]:not([data-scroll-right]) {
+  -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent);
+  mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent);
+}
+[data-scroll-left][data-scroll-right] {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent);
+}
+@media print {
+  [data-scroll-left], [data-scroll-right] { -webkit-mask-image: none; mask-image: none; }
 }

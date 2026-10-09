@@ -1,7 +1,7 @@
 ---
 name: mobileready
 title: Make every school-page research card mobile ready — stop opened cards widening the page, unclip Coverage Map prices, wrap long prose-table cells, and give sideways-scroll tables a visible edge
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-09
 branch: fix/mobile-ready-cards
@@ -575,3 +575,42 @@ UI chrome only, so the scope is the `src/locales/*.json` catalogs per
   redesign as its own `/plan` if the user wants it after seeing the result.
 - **Should the audit cover Compare and the admissions checklist?** —
   **default:** no, follow-up. The script's route list makes it a small extension.
+
+## Implementation notes
+
+Phase 1 (English) built 2026-10-09 on `fix/mobile-ready-cards`. Deviations:
+
+- **Audit measures with the passed viewport width, never `window.innerWidth`.**
+  Under `isMobile` emulation Chrome widens the layout viewport to fit
+  overflowing content, so `innerWidth` grows with the defect being measured. A
+  first port read it and under-reported doc overflow (Gaston Day only). The
+  planning probe passed `vw` in, which is why its numbers were right.
+- **RTL-aware measuring uses the section's raw edges**, unclamped. Clamping them
+  to `0…vw` reintroduced the Arabic cascade.
+- **Two extra page-overflow fixes outside the research cards**, needed to reach
+  the plan's zero-doc-overflow bar: `.news-loading-domain` (Latest News loading
+  header, en 320 + ar) and `.as-fee strong` (Carmel Christian fr *Cost Planner*,
+  a `nowrap` fee sentence; now wraps at spaces, capped at 60% of the row).
+- **Chip rule uses `overflow-wrap: break-word`, not `anywhere`.** `anywhere`
+  also shrinks a chip's min-content, which let the Sports matrix squeeze a
+  column to 61px and split `TO VERIFY` over three lines. With `break-word` the
+  three `TO VERIFY` chips in narrow Sports matrix cells (Carmel Christian,
+  Providence Day) wrap once at the space, inside their cell. As shipped, their
+  text painted out past the chip box. No other short chip of 4,709 wraps.
+- **`.prose-table .is-long` min-width is `26ch`, not `16ch`.** At 16ch, Gaston
+  Day's 246-character Criteria cell got a ~122px column and ~16-line rows. 26ch
+  halves the row height. The table is 2.5–3 screen-widths, inside the plan's bar.
+- **The `.cs-split` and every other phone collapse were converted by a scan of
+  `@media (max-width…)` blocks** (31 rules), not only the ones the plan named.
+- **NC stack uses flex `order`** so the rate leads the counts, per the canvas.
+  DOM and reading order are unchanged.
+- **Removed the old `.as-tl-until { display: none }` rule.** At ≤600px all
+  in-bar text is now hidden by `.as-tl-tier > *`.
+- **`check:chrome` does not list `afterSchool.tierUntil` as awaiting
+  translation.** It audits skipped-field promises, not new keys (memory
+  `chrome-check-is-not-a-new-key-gate`). Phase 2 must add the key to all nine
+  catalogs by hand and verify it with a direct key check.
+
+Not changed (suggestion only): the Enrichment catalog's empty state
+(`AfterSchool.tsx`, "No classes match — try clearing the search or filters.")
+is hardcoded English JSX. It is out of this plan's scope.

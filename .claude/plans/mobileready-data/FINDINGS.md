@@ -236,3 +236,36 @@ does not cascade into every element.
 
 Course Offerings, section stat strips, the admissions stat band, Latest News,
 the podcast strip and the welcome video produced no findings.
+
+## After — Phase 1 build, 2026-10-09
+
+Measured with `npm run audit:mobile` (the promoted script,
+`scripts/audit_mobile_layout.mjs`) against a `vite build` of branch
+`fix/mobile-ready-cards`. Every card open, every admissions band clicked.
+
+| Run | Broken cards | Doc overflow | Sideways-scroll cards |
+|---|---|---|---|
+| en @ 320/360/390, as shipped (baseline, re-run with the promoted script) | 311 | 36 of 36 page×width | 8 |
+| en @ 320/360/390, after | **0** | **0** | 101 |
+| fr @ 360, after | **0** | **0** | 101 |
+| ar @ 360, after | **0** | **0** | 101 |
+
+The baseline reproduces the "as shipped" table above exactly (390px column
+identical, page by page). Its 311 broken cards are the cascade: once the track
+is widened, every card in the area reads as past the screen edge.
+
+Sideways-scroll cards against the 110 measured with the grid fix injected:
+
+- **28 no longer need a swipe**: all 11 *Admission Rates at the Top NC Public
+  Universities* tables (stacked, step 5b), all 10 Arts awards ledgers (stacked,
+  step 5c), and the 7 near-misses (4 *Club Catalog & Overview*, 2 *A Day Inside
+  + Enrichment*, Trinity *Where They Land*; step 7).
+- **19 moved from broken to a working in-card scroll**: 11 *Where Graduates Go*
+  and 8 *The Transcript Colleges See* — their ledgers now scroll inside the card
+  instead of widening it (step 3).
+
+Two page-overflow sources sat outside the research cards and only surfaced
+once the cards were fixed: the Latest News loading header's unbreakable domain
+(`.news-loading-domain`, +14px at 320 in English, +38/+62px in Arabic) and a
+`nowrap` fee sentence in Carmel Christian's French *Cost Planner*
+(`.as-fee strong`, +66px). Both fixed.

@@ -138,6 +138,7 @@ import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
 import { useTranslation } from 'react-i18next'
+import { useScrollEdges } from '../lib/useScrollEdges.ts'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 import { localizeMoneyText } from '../lib/format.ts'
 
@@ -435,6 +436,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
      and no citations, reading as clean while showing none of the part that
      matters. Same technique as the cards: click the DOM, lift no state. */
   const mainRef = useRef<HTMLElement>(null)
+  // Fades the edge of every sideways-scroll table that has more to show.
+  useScrollEdges(mainRef)
   const [allOpen, setAllOpen] = useState(false)
   const setAllDetails = (open: boolean) => {
     /* Every <details> inside the report — the top-level cards and the nested
