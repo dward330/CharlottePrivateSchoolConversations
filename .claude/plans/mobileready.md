@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-10-09
 branch: fix/mobile-ready-cards
-prs: []
+prs: [337]
 ---
 
 # Make every research card mobile ready
