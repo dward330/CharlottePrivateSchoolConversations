@@ -3196,6 +3196,186 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-photo figcaption strong { font-family: var(--heading); font-size: 14px; }
 .sports-credit { font-size: 10.5px; margin-top: 2px; }
 
+/* -- photo viewer (plan photolightbox) -------------------------------------
+   Every research photo (facilities, arts cards, summer band) is wrapped in a
+   .photo-zoom button that opens the shared <dialog class="pv-dialog">. The
+   button is fully reset so the thumbnail keeps its exact crop and height; the
+   modal shows the same file uncropped, unfiltered and never upscaled. The
+   scrim is a fixed dark tone in both themes, as photo viewers are. */
+
+.photo-zoom {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: zoom-in;
+  -webkit-tap-highlight-color: transparent;
+}
+.photo-zoom:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.photo-zoom-glyph {
+  position: absolute;
+  inset-block-end: 8px;
+  inset-inline-end: 8px;
+  box-sizing: content-box;
+  padding: 6px;
+  border-radius: 50%;
+  color: #fff;
+  background: rgb(0 0 0 / 0.55);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+.photo-zoom:hover .photo-zoom-glyph,
+.photo-zoom:focus-visible .photo-zoom-glyph { opacity: 1; }
+/* Touch screens have no hover, so the glyph is the only affordance there. */
+@media (hover: none) {
+  .photo-zoom-glyph { opacity: 0.85; }
+}
+
+html.photo-viewer-open { overflow: hidden; }
+
+.pv-dialog {
+  box-sizing: border-box;
+  border: 0;
+  padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right))
+    max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+  margin: 0;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  background: transparent;
+  color: #f1f2f3;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.pv-dialog[open] { display: grid; place-items: center; }
+.pv-dialog::backdrop { background: rgb(0 0 0 / 0.92); }
+
+.pv-panel {
+  position: relative;
+  max-width: min(1400px, 94vw);
+  animation: pv-in 0.15s ease-out;
+}
+@keyframes pv-in {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.pv-figure {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) 56px;
+  grid-template-areas:
+    'prev stage next'
+    '.    count .'
+    '.    caption .';
+  align-items: center;
+  column-gap: 8px;
+}
+.pv-stage { grid-area: stage; touch-action: pan-y pinch-zoom; }
+.pv-img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 190px);
+  max-height: calc(100dvh - 190px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-inline: auto;
+}
+.pv-navs { display: contents; }
+.pv-prev { grid-area: prev; }
+.pv-next { grid-area: next; }
+.pv-count {
+  grid-area: count;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #c9cdd1;
+}
+.pv-caption {
+  grid-area: caption;
+  max-width: 70ch;
+  margin: 8px auto 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.pv-caption strong { font-family: var(--heading); font-size: 15px; color: #fff; }
+.pv-muted { color: #c9cdd1; }
+.pv-credit { font-size: 11px; margin-top: 2px; }
+
+.pv-close,
+.pv-nav {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgb(255 255 255 / 0.35);
+  border-radius: 50%;
+  background: rgb(0 0 0 / 0.55);
+  color: #fff;
+  cursor: pointer;
+}
+.pv-close:hover,
+.pv-nav:hover { background: rgb(255 255 255 / 0.18); }
+.pv-close:focus-visible,
+.pv-nav:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.pv-nav { justify-self: center; }
+/* Pinned to the viewport corner, clear of the image, and of the notch on phones. */
+.pv-close {
+  position: fixed;
+  inset-block-start: max(12px, env(safe-area-inset-top));
+  inset-inline-end: max(12px, env(safe-area-inset-right));
+  z-index: 1;
+}
+/* The chevron points right; "previous" and RTL each mirror it, so next always
+   points in the reading direction. */
+.pv-prev svg { transform: scaleX(-1); }
+[dir='rtl'] .pv-prev svg { transform: none; }
+[dir='rtl'] .pv-next svg { transform: scaleX(-1); }
+
+/* Phones: the image takes the full width, and the arrows and counter move
+   into one row beneath it rather than eating 112px of a 390px screen. */
+@media (max-width: 640px) {
+  .pv-dialog { padding-inline: max(8px, env(safe-area-inset-left)) max(8px, env(safe-area-inset-right)); }
+  .pv-panel { max-width: 100%; width: 100%; }
+  .pv-figure {
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    grid-template-areas:
+      'stage stage stage'
+      'prev  count next'
+      'caption caption caption';
+    row-gap: 10px;
+  }
+  .pv-count { margin-top: 0; }
+  .pv-caption { margin-top: 0; }
+  .pv-figure { padding-top: 56px; }
+  .pv-img {
+    max-height: calc(100vh - 290px);
+    max-height: calc(100dvh - 290px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pv-panel { animation: none; }
+}
+
+@media print {
+  .pv-dialog,
+  .photo-zoom-glyph { display: none !important; }
+}
+
 .sports-venues { display: flex; flex-direction: column; font-size: 13px; }
 .sports-venue {
   display: flex;

@@ -16,6 +16,8 @@ import { winPct, localizeMoneyText } from '../lib/format.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
+import { PhotoViewer, PhotoZoomButton, type ViewerPhoto } from './PhotoViewer.tsx'
+import { usePhotoViewer } from './usePhotoViewer.ts'
 import type {
   Coaching,
   CollegePipeline,
@@ -581,16 +583,28 @@ export function CoachingBody({ data }: { data: Coaching }) {
 
 export function FacilitiesBody({ data }: { data: Facilities }) {
   const { t } = useTranslation()
+  const viewer = usePhotoViewer()
+  const viewerPhotos: ViewerPhoto[] = (data.photos ?? []).map((p) => ({
+    src: assetUrl(p.src),
+    alt: p.name,
+    title: p.name,
+    meta: p.meta,
+    caption: p.caption,
+    credit: p.credit,
+  }))
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
 
-      {/* Photo strip — rendered only when real photos were sourced. */}
+      {/* Photo strip — rendered only when real photos were sourced. Each
+          thumbnail opens the shared viewer, one group per school. */}
       {data.photos && data.photos.length > 0 && (
         <div className="sports-photos">
-          {data.photos.map((p) => (
+          {data.photos.map((p, i) => (
             <figure key={p.src} className="sports-photo">
-              <img src={assetUrl(p.src)} alt={p.name} loading="lazy" />
+              <PhotoZoomButton label={p.name} onOpen={(el) => { viewer.open(i, el) }}>
+                <img src={assetUrl(p.src)} alt={p.name} loading="lazy" />
+              </PhotoZoomButton>
               <figcaption>
                 <strong>{p.name}</strong>
                 {p.meta && <> · {p.meta}</>}
@@ -601,6 +615,12 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
           ))}
         </div>
       )}
+      <PhotoViewer
+        photos={viewerPhotos}
+        index={viewer.index}
+        onIndexChange={viewer.setIndex}
+        onClose={viewer.close}
+      />
 
       <div className="sports-split">
         <div>

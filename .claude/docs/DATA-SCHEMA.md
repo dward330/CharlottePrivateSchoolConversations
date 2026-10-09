@@ -202,6 +202,15 @@ missing that field simply does not render the card.
 Per-school data lives one file per school so each school's research stays reviewable on
 its own, and is merged with locale overlays at render time.
 
+**Every research photo opens in the shared click-to-enlarge viewer.** The three photo
+fields — Sports `facilities.photos`, The Arts card `photo`, Summer Programs `photos` — are
+wired to it inside their components, so adding photo DATA to them needs no extra work. A
+NEW card or surface that renders photos must wrap each `<img>` in `PhotoZoomButton` and
+render a `PhotoViewer` (`src/components/PhotoViewer.tsx`; `FacilitiesBody` is the worked
+example). `npm run check:photos`, chained into the build, fails on any `<img>` that does
+neither and is not on its short, reasoned exemption list (logos, crests, off-site news
+thumbnails). The viewer adds no prose: it reuses the photo's own caption, credit and alt.
+
 **Locale overlay entries are keyed by CONTENT HASH, not by school — one entry may serve
 several schools.** Any two schools whose English text is identical at a translated field
 share a single overlay entry listing every path it covers, so editing that entry changes

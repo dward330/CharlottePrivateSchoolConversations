@@ -388,6 +388,16 @@ w()
 w('Per-school data lives one file per school so each school\'s research stays reviewable on')
 w('its own, and is merged with locale overlays at render time.')
 w()
+// Standing rule added 2026-10-09 with the photo viewer (plan photolightbox).
+w('**Every research photo opens in the shared click-to-enlarge viewer.** The three photo')
+w('fields — Sports `facilities.photos`, The Arts card `photo`, Summer Programs `photos` — are')
+w('wired to it inside their components, so adding photo DATA to them needs no extra work. A')
+w('NEW card or surface that renders photos must wrap each `<img>` in `PhotoZoomButton` and')
+w('render a `PhotoViewer` (`src/components/PhotoViewer.tsx`; `FacilitiesBody` is the worked')
+w('example). `npm run check:photos`, chained into the build, fails on any `<img>` that does')
+w('neither and is not on its short, reasoned exemption list (logos, crests, off-site news')
+w('thumbnails). The viewer adds no prose: it reuses the photo\'s own caption, credit and alt.')
+w()
 // Standing note added 2026-08-19: content-hash sharing has now caused confusion
 // twice (the PR #150 triage, and a follow-up that mis-described convention keeps
 // as leaks). See .claude/plans/shared-role-labels.md.
