@@ -1,11 +1,11 @@
 ---
 name: photolightbox
 title: Click-to-enlarge photo viewer (modal lightbox) for every photo surface — sports facilities, arts cards, summer band
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-09
 branch: feat/photolightbox
-prs: []
+prs: [336]
 ---
 
 # Click-to-enlarge photo viewer
@@ -345,3 +345,10 @@ Phase 1 (English) built 2026-10-09 on `feat/photolightbox`. Deviations from the 
   also in `DATA-SCHEMA.md` §3 (via `gen_data_schema.mjs`) so `/add-school` and `/plan`
   see it. It cannot see CSS `background-image` photos or `createElement('img')`; none
   exist today.
+
+Phase 2 (locales) built 2026-10-09 in a fresh window. `photoViewer.*` was added to all nine
+catalogs by appending to the parsed JSON; every catalog round-tripped byte-identically
+first, so the diff is only the new object. Completeness was checked by a scripted diff of
+keys and placeholders across all ten catalogs, because `check:chrome` cannot see new keys.
+In the browser, `ar` renders the counter as `1 من 3` and the English `of 3 2` RTL reordering
+noted above is gone. ArrowLeft goes to the next photo in `ar`. PR #336.
