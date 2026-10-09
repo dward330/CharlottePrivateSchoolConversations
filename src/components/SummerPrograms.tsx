@@ -30,6 +30,8 @@ import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
+import { PhotoViewer, PhotoZoomButton } from './PhotoViewer.tsx'
+import { usePhotoViewer } from './usePhotoViewer.ts'
 import type { TFunction } from 'i18next'
 import type {
   Camp,
@@ -178,15 +180,26 @@ function highlight(text: string, q: string): React.ReactNode {
  * page it appears on.
  */
 export function SummerPhotoBand({ photos }: { photos: SummerPhoto[] }) {
+  // The hook runs before the early return (rules of hooks).
+  const viewer = usePhotoViewer()
   if (photos.length === 0) return null
   return (
     <div className="su-photos">
-      {photos.map((p) => (
+      {photos.map((p, i) => (
         <figure key={p.src} className="su-photo">
-          <img src={p.src} alt={p.alt} loading="lazy" />
+          <PhotoZoomButton label={p.alt} onOpen={(el) => { viewer.open(i, el) }}>
+            <img src={p.src} alt={p.alt} loading="lazy" />
+          </PhotoZoomButton>
           <figcaption className="text-muted">{p.caption}</figcaption>
         </figure>
       ))}
+      {/* The viewer shows the photo un-filtered — the duotone is the band's look only. */}
+      <PhotoViewer
+        photos={photos.map((p) => ({ src: p.src, alt: p.alt, caption: p.caption }))}
+        index={viewer.index}
+        onIndexChange={viewer.setIndex}
+        onClose={viewer.close}
+      />
     </div>
   )
 }

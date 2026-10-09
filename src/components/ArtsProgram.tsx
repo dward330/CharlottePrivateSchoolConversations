@@ -18,6 +18,8 @@
 
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
+import { PhotoViewer, PhotoZoomButton } from './PhotoViewer.tsx'
+import { usePhotoViewer } from './usePhotoViewer.ts'
 import { localizeMoneyText } from '../lib/format.ts'
 import { assetUrl } from '../lib/asset.ts'
 import type {
@@ -70,10 +72,21 @@ function Heading({ children }: { children: React.ReactNode }) {
  * collapses the layout to a single full-width column.
  */
 function Photo({ photo }: { photo?: ArtsPhoto }) {
+  // The hook runs before the early return (rules of hooks).
+  const viewer = usePhotoViewer()
   if (!photo) return null
+  const src = assetUrl(photo.src)
   return (
     <figure className="arts-photo">
-      <img src={assetUrl(photo.src)} alt={photo.name} loading="lazy" />
+      <PhotoZoomButton label={photo.name} onOpen={(el) => { viewer.open(0, el) }}>
+        <img src={src} alt={photo.name} loading="lazy" />
+      </PhotoZoomButton>
+      <PhotoViewer
+        photos={[{ src, alt: photo.name, title: photo.name, caption: photo.caption, credit: photo.credit }]}
+        index={viewer.index}
+        onIndexChange={viewer.setIndex}
+        onClose={viewer.close}
+      />
       <figcaption>
         <strong>{photo.name}</strong>
         {photo.caption && <div className="text-muted">{photo.caption}</div>}
