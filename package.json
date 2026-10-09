@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:schoolurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:ncrows && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:moneytext && npm run check:dates && npm run check:spans && npm run check:news",
+    "build": "tsc -b && vite build && npm run gen:og && npm run prerender && npm run seo:files && npm run check:seo && npm run check:schema && npm run check:ranks && npm run check:collegeurls && npm run check:schoolurls && npm run check:buckets && npm run check:memberships && npm run check:ncsuper && npm run check:ncrows && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:moneytext && npm run check:dates && npm run check:spans && npm run check:news && npm run check:photos",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",
@@ -53,6 +53,7 @@
     "check:spans": "node scripts/check_span_metrics.mjs",
     "check:vitals": "node scripts/check_vitals.mjs",
     "check:news": "node scripts/check_news_hosts.mjs",
+    "check:photos": "node scripts/check_photo_viewer.mjs",
     "gen:og": "node scripts/gen_og_images.mjs"
   },
   "dependencies": {

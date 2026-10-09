@@ -334,3 +334,14 @@ Phase 1 (English) built 2026-10-09 on `feat/photolightbox`. Deviations from the 
 - RTL observation for Phase 2: the English `"2 of 3"` renders as `of 3 2` under
   `dir="rtl"` (bidi reordering of a Latin string). The Arabic/Farsi `position` strings fix
   it. Check it in the Phase 2 `?lang=ar` browser pass.
+- **Added `check:photos` (user request after Phase 1).** The user asked whether future
+  cards with photos would get the viewer. Photo *data* on the three surfaces already does;
+  a new photo *surface* would not. `scripts/check_photo_viewer.mjs`, chained into
+  `npm run build`, fails on any JSX `<img>` under `src/` that is neither inside a
+  `PhotoZoomButton` nor on its exemption list. The list holds five entries: the viewer's
+  own image, the site logo, the school crest and two news thumbnails, each with a reason. It
+  also fails on a stale or over-broad exemption, and on a file that renders
+  `PhotoZoomButton` with no `PhotoViewer`. Negative-tested on all three paths. The rule is
+  also in `DATA-SCHEMA.md` §3 (via `gen_data_schema.mjs`) so `/add-school` and `/plan`
+  see it. It cannot see CSS `background-image` photos or `createElement('img')`; none
+  exist today.
