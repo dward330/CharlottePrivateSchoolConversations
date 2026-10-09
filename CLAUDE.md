@@ -946,6 +946,12 @@ Each was set after a real defect.
   see. When measuring how big a defect class is, scan the data — the `es` unit-conversion
   revert found 26 entries where the allowlist implied 17, because whole unit families
   (lbs→kg, acres→ha, in→cm) were invisible to the pattern that built it.
+- **A phone-width check is a browser check with every `<details>` open.** The card-grid
+  blowout shipped because a closed card is 345px and an open one 716px: with every card
+  closed the page was exactly viewport width, and once any card opened every school page
+  scrolled sideways (a bare `1fr` grid track grows to its widest child — use
+  `minmax(0, 1fr)`). `npm run audit:mobile` (needs `npm run build && npx vite preview`)
+  opens every card at 320/360/390px and fails on page overflow or clipped content.
 - **A checker parked at a permanently non-zero count stops being read.** Three checkers in
   this repo reached that state (`check:sepdrift`, `check:live` at 4,646 phantom findings,
   and the identical-strings report). Either fix the findings or ship the check as a

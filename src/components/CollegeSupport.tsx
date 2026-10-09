@@ -238,22 +238,27 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
             : t('sections.ncLedger'))}
       </Heading>
       <div className="cs-ledger-wrap">
-        <table className="cs-ledger cs-nc-ledger">
-          <thead>
-            <tr>
-              <th scope="col" className="cs-th cs-th-rank">{t('tables.ncRank')}</th>
-              <th scope="col" className="cs-th">{t('tables.ncUniversity')}</th>
-              <th scope="col" className="cs-th cs-th-count">{t('tables.ncApplied')}</th>
-              <th scope="col" className="cs-th cs-th-count">{t('tables.ncAccepted')}</th>
-              <th scope="col" className="cs-th cs-th-rate">{t('tables.ncAdmitRate')}</th>
-              <th scope="col" className="cs-th cs-th-5yr">{t('tables.ncFiveYear')}</th>
+        {/* At ≤600px this table stacks into one block per university (CSS
+            only — see .cs-nc-ledger in the breakpoint block), with each figure
+            labelled from its own data-label. `display: block` on table parts
+            strips table semantics in some browsers, so the roles are explicit
+            and a screen reader still pairs every figure with its header. */}
+        <table className="cs-ledger cs-nc-ledger" role="table">
+          <thead role="rowgroup">
+            <tr role="row">
+              <th scope="col" role="columnheader" className="cs-th cs-th-rank">{t('tables.ncRank')}</th>
+              <th scope="col" role="columnheader" className="cs-th">{t('tables.ncUniversity')}</th>
+              <th scope="col" role="columnheader" className="cs-th cs-th-count">{t('tables.ncApplied')}</th>
+              <th scope="col" role="columnheader" className="cs-th cs-th-count">{t('tables.ncAccepted')}</th>
+              <th scope="col" role="columnheader" className="cs-th cs-th-rate">{t('tables.ncAdmitRate')}</th>
+              <th scope="col" role="columnheader" className="cs-th cs-th-5yr">{t('tables.ncFiveYear')}</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody role="rowgroup">
             {data.universities.map((u) => (
-              <tr key={u.key}>
-                <td className="cs-td cs-td-rank">#{u.rank}</td>
-                <td className="cs-td cs-td-uni">
+              <tr key={u.key} role="row">
+                <td role="cell" className="cs-td cs-td-rank">#{u.rank}</td>
+                <td role="cell" className="cs-td cs-td-uni">
                   {/* Linked to the university's homepage from the same master
                       the acceptance list below uses, so the two surfaces behave
                       identically. The name stays inside <strong> so the link
@@ -263,9 +268,9 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
                   </strong>
                   {u.note && <span className="cs-uni-note text-muted">{u.note}</span>}
                 </td>
-                <td className="cs-td cs-td-count">{u.applied}</td>
-                <td className="cs-td cs-td-count">{u.accepted}</td>
-                <td className="cs-td">
+                <td role="cell" className="cs-td cs-td-count" data-label={t('tables.ncApplied')}>{u.applied}</td>
+                <td role="cell" className="cs-td cs-td-count" data-label={t('tables.ncAccepted')}>{u.accepted}</td>
+                <td role="cell" className="cs-td cs-td-rate" data-label={t('tables.ncAdmitRate')}>
                   {/* A row with no `ratePct` is the PUBLICATION GAP case: it
                       renders its counts and NO bar at all. A zero-width bar
                       would read as a 0% admit rate, which is a different and
@@ -286,7 +291,7 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
                     <span className="text-muted">—</span>
                   )}
                 </td>
-                <td className="cs-td cs-td-5yr">
+                <td role="cell" className="cs-td cs-td-5yr" data-label={t('tables.ncFiveYear')}>
                   {u.fiveYearRate && <span className="cs-5yr-val">{u.fiveYearRate}</span>}
                   {/* The denominator line is composed from a chrome key rather
                       than stored as one string, so "applied"/"in" translate

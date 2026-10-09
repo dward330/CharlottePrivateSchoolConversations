@@ -57,6 +57,11 @@ function linkify(text: string): ReactNode {
   })
 }
 
+// A table cell longer than this (as displayed, bold markers stripped) is a
+// sentence, not a figure — no figure in the corpus comes close to 40 characters.
+const LONG_CELL = 40
+const plainLength = (text: string) => text.replace(BOLD_RE, '$1').length
+
 // Renders one distilled research note as structured content: a lede, section headings,
 // bulleted lists, "at a glance" quick-fact panels, tinted callouts for strengths /
 // caveats, and clickable source chips — instead of one undifferentiated block of text.
@@ -142,7 +147,16 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
                   <tbody>
                     {b.rows.map((row, j) => (
                       <tr key={j}>
-                        {row.map((cell, k) => (k === 0 ? <th key={k} scope="row">{linkify(cell)}</th> : <td key={k}>{linkify(cell)}</td>))}
+                        {/* Cells stay `nowrap` so a figure never breaks;
+                            a sentence-length cell (Gaston Day's 246-character
+                            scholarship row made the table 2,306px wide) is
+                            marked is-long and wraps. */}
+                        {row.map((cell, k) => {
+                          const cls = plainLength(cell) > LONG_CELL ? 'is-long' : undefined
+                          return k === 0
+                            ? <th key={k} scope="row" className={cls}>{linkify(cell)}</th>
+                            : <td key={k} className={cls}>{linkify(cell)}</td>
+                        })}
                       </tr>
                     ))}
                   </tbody>
