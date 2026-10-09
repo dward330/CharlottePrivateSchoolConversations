@@ -1,7 +1,7 @@
 ---
 name: mobileready
 title: Make every school-page research card mobile ready — stop opened cards widening the page, unclip Coverage Map prices, wrap long prose-table cells, and give sideways-scroll tables a visible edge
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-09
 branch: fix/mobile-ready-cards
@@ -547,12 +547,12 @@ UI chrome only, so the scope is the `src/locales/*.json` catalogs per
 
 ### Phase 2 — Locales
 
-- [ ] `npm run check:chrome` — `afterSchool.tierUntil` present in all ten
+- [x] `npm run check:chrome` — `afterSchool.tierUntil` present in all ten
       catalogs and no longer listed as awaiting translation.
-- [ ] `npm run build` — succeeds.
-- [ ] `npm run audit:mobile -- --lang fr --lang ar --lang te` — 0 BROKEN, 0
+- [x] `npm run build` — succeeds.
+- [x] `npm run audit:mobile -- --lang fr --lang ar --lang te` — 0 BROKEN, 0
       doc-overflow.
-- [ ] Browser: Covenant Day *Coverage Map* desktop in `ar` and `hi`: the
+- [x] Browser: Covenant Day *Coverage Map* desktop in `ar` and `hi`: the
       `tierUntil` phrase reads in-language and the clock figure is intact and
       LTR.
 
@@ -614,3 +614,41 @@ Phase 1 (English) built 2026-10-09 on `fix/mobile-ready-cards`. Deviations:
 Not changed (suggestion only): the Enrichment catalog's empty state
 (`AfterSchool.tsx`, "No classes match — try clearing the search or filters.")
 is hardcoded English JSX. It is out of this plan's scope.
+
+### Phase 2 (2026-10-09)
+
+`afterSchool.tierUntil` translated into all nine catalogs. The clock value
+interpolates unchanged, and in `fa`/`ar` it renders in reading order without an
+isolate: a colon between European digits stays inside the number run.
+`check:chrome` cannot see a new key, so all ten catalogs were checked directly
+for the key and its `{{time}}` placeholder.
+
+**The Phase 2 audit failed on its first run**, and none of it came from the new
+key. Phase 1 checked `fr`/`ar` at 360px only. At 320px the longer translated
+strings broke four places (fr 19 cards, te 8 + 1 doc overflow, ar 1 + 1 doc
+overflow). The user approved fixing them on this branch:
+
+- **Arts ledger phone column** `auto` → `fit-content(35%)`. Carmel Christian's
+  year cell `~2022-23 (year to verify)` took 202px of 248, leaving the result
+  column 46px (ar, te).
+- **Admissions** `.adm-aid-btn` / `.adm-export` may shrink and wrap at ≤600px.
+  The aid button was 265px in a 250px row (fr, te).
+- **`.sports-stats`** phone tracks → `minmax(0, 1fr)`, values get
+  `overflow-wrap: anywhere; hyphens: auto` (`no 1 en Caroline du Nord`, and
+  `consécutives` now hyphenates as `consécu-tives`).
+- **Audit false positive fixed in the script, not the CSS.** The NC admit-rate
+  ledger hides its `<thead>` on phones with `clip: rect(0 0 0 0)`. The text
+  still lays out at full width but nothing paints, and the French header read
+  as +23px clipped-text on 11 schools. `visible()` now skips content under such
+  a clip.
+
+After: 0 BROKEN and 0 doc overflow at 320/360/390 in en, fr, ar and te. In
+`fr`, SIDEWAYS SCROLL went 96 → 103. Those are the seven Admissions
+grade-by-grade guides, whose band tables always scrolled. They were previously
+filed under BROKEN because of the button.
+
+Noticed, not changed: Carmel Christian's arts year value
+`~2022-23 (year to verify)` is English editorial text in a figure field, so it
+renders in English in every locale. In `ar` its parentheses also reorder under
+bidi. It is a data fix (move the hedge into the result prose), not a layout one.
+

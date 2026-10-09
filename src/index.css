@@ -3472,7 +3472,10 @@ html.photo-viewer-open { overflow: hidden; }
   .sports-split,
   .sports-coaches { grid-template-columns: minmax(0, 1fr); }
   .sports-panel { border-left: none; padding-left: 0; }
-  .sports-stats { grid-template-columns: 1fr 1fr; }
+  /* minmax(0, …): a bare 1fr track grows to its widest stat, and a value
+     like "no 1 en Caroline du Nord" (fr) clipped inside the hairline grid. */
+  .sports-stats { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .sports-stat-val { overflow-wrap: anywhere; hyphens: auto; }
   .sports-search { margin-left: 0; width: 100%; }
   /* The matrix and roster keep their column widths and scroll sideways
      rather than crushing — the scroller owns the overflow. */
@@ -3858,7 +3861,10 @@ html.photo-viewer-open { overflow: hidden; }
    cells are already bare grid children. */
 @media (max-width: 600px) {
   .arts-scroll { max-height: none; overflow: visible; }
-  .arts-ledger { min-width: 0; grid-template-columns: auto minmax(0, 1fr); }
+  /* fit-content, not auto: one year cell holds an editorial value
+     ("~2022-23 (year to verify)") whose max-content width took 202px of a
+     248px card and left the result column 46px (Carmel Christian, ar/te). */
+  .arts-ledger { min-width: 0; grid-template-columns: fit-content(35%) minmax(0, 1fr); }
   .arts-ledger > .arts-th:nth-child(3) { display: none; }
   .arts-th { position: static; }
   .arts-ledger-year { grid-row: span 2; }
@@ -6356,6 +6362,12 @@ a.cs-college-name:focus-visible {
 .adm-aid-body { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
 .adm-aid-body strong { font-weight: 600; color: var(--text); }
 .adm-aid-btn { flex: none; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; }
+/* On a phone the button's label may wrap rather than push past the card: the
+   translated "Financial Aid & Tuition" is 265px in a 250px row at 320px (te). */
+@media (max-width: 600px) {
+  .adm-aid-btn,
+  .adm-export { flex: 0 1 auto; min-width: 0; max-width: 100%; }
+}
 
 .adm-compare { margin-bottom: 24px; }
 /* The band table is a <details> collapsed by default. Its <summary> IS the

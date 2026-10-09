@@ -87,7 +87,16 @@ const scan = (page, vw) => page.evaluate((vw) => {
     const s = getComputedStyle(el)
     if (s.display === 'none' || s.visibility === 'hidden') return false
     const r = el.getBoundingClientRect()
-    return r.width > 1 && r.height > 1
+    if (!(r.width > 1 && r.height > 1)) return false
+    // Visually-hidden content (the .sr-only pattern: clip rect(0 0 0 0) on a
+    // 1px box) lays its text out at full width but paints none of it. The NC
+    // admit-rate ledger hides its <thead> this way on phones, and its French
+    // header text read as +23px clipped-text on 11 schools.
+    for (let a = el; a && a !== document.body; a = a.parentElement) {
+      const as = a === el ? s : getComputedStyle(a)
+      if (as.clip !== 'auto' && as.position === 'absolute' && /rect\(0px,? 0px,? 0px,? 0px\)/.test(as.clip)) return false
+    }
+    return true
   }
   const chain = (el) => {
     const c = []
