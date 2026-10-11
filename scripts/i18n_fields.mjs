@@ -679,6 +679,55 @@ export const PATH_OVERRIDES = new Map([
   // "public + independent · boarding", "Kindergarten through 8th grade". The
   // figure lives in `value`, which stays skipped.
   ['placement.stats[].denominator', true],
+
+  /* --------------------------------------------- international travel -- */
+
+  // Providence Day only (2026-10-11). Every path is scoped to this topic's
+  // shape rather than added as a bare leaf key, because several of these leaf
+  // names (`strong`, `place`, `in`, `out`) are generic enough to collide later.
+  //
+  // Lead lines and section intros: bold sentence + muted follow-on.
+  ['lead.strong', true],
+  ['lead.muted', true],
+  ['intro.strong', true],
+  ['intro.muted', true],
+  // The trip ledger. `dest` is a country ("Denmark & Sweden"), which a reader
+  // should recognise in their own language — prose, by the same reading as the
+  // High School Placement place notes. `place` mixes a city with a programme
+  // description ("Round Square conference, …"); `group` is "6 students" — a
+  // count WITH a noun, so it must move. `div` is a filter code (LS/MS/US),
+  // mapped to chrome by the component: skipped, or the filter breaks.
+  ['trips.years[].trips[].dest', true],
+  ['trips.years[].trips[].place', true],
+  ['trips.years[].trips[].theme', true],
+  ['trips.years[].trips[].group', true],
+  ['trips.years[].trips[].timing', true],
+  ['trips.years[].trips[].homestay', true],
+  ['trips.years[].trips[].div', false],
+  ['trips.alsoOnRecord[].lead', true],
+  ['photo.alt', true],
+  ['start.divisions[].theme', true],
+  // Exchange partners. `school` is the partner school's own name (kept, like
+  // every school name in the app); `years` is a figure span ("2022–25").
+  ['exchanges.partners[].country', true],
+  ['exchanges.partners[].out', true],
+  ['exchanges.partners[].in', true],
+  ['exchanges.partners[].school', false],
+  ['exchanges.partners[].years', false],
+  ['exchanges.homestays[].place', true],
+  ['credential.required[]', true],
+  ['credential.beyond[]', true],
+  ['credential.quote.attribution', true],
+  // `name` is skipped as a proper noun by default, which is right for the
+  // Postcards / Big Builds programme names and wrong for "Speakers at home" —
+  // the recurring leak shape (a phrase in a proper-noun field). Classified by
+  // the widest value.
+  ['network.cells[].name', true],
+  ['verdict.standsOut.points[]', true],
+  // `topic` is skipped repo-wide as a routing slug. Here it is the bold lead of
+  // each tour question ("Starting grade.") — prose.
+  ['verdict.ask[].topic', true],
+  ['verdict.ask[].question', true],
 ])
 
 /**

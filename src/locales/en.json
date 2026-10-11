@@ -47,7 +47,8 @@
     "student-clubs": "Student Clubs",
     "summer-programs": "Summer Programs",
     "the-arts": "The Arts",
-    "high-school-placement": "High School Placement"
+    "high-school-placement": "High School Placement",
+    "international-travel": "International Travel"
   },
   "metrics": {
     "admissions.redesign-research": "Admissions Research Dossier (2026)",
@@ -96,7 +97,8 @@
     "theatre": "Theatre & Drama",
     "tuition-history": "Tuition History & Sources",
     "visual-arts": "Visual Arts",
-    "win-loss": "Win–Loss Records"
+    "win-loss": "Win–Loss Records",
+    "international-travel.redesign-research": "International Travel Research Dossier (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -407,7 +409,16 @@
     "high-school-placement.verdict": "Visit Checklist",
     "the-arts.ladder@trinity-episcopal": "The K–8 Arts Ladder",
     "the-arts.theatre@trinity-episcopal": "Theatre & Grade-Level Productions",
-    "the-arts.verdict@trinity-episcopal": "Visit Checklist"
+    "the-arts.verdict@trinity-episcopal": "Visit Checklist",
+    "international-travel.trips": "Where They Go",
+    "international-travel.start": "When Your Child Can Start",
+    "international-travel.exchanges": "Exchanges & Homestays",
+    "international-travel.credential": "Credential",
+    "international-travel.network": "Network",
+    "international-travel.signup": "Signing Up",
+    "international-travel.verdict": "Verdict & Ask the School",
+    "international-travel.credential@providence-day": "The Global Studies Diploma",
+    "international-travel.network@providence-day": "Round Square & the Wider Network"
   },
   "cardLabels": {
     "afternoonRhythm": "The afternoon rhythm",
@@ -530,5 +541,26 @@
     "next": "Next photo",
     "position": "{{current}} of {{total}}",
     "dialogLabel": "Photo viewer"
+  },
+  "travel": {
+    "allDivisions": "All divisions",
+    "lowerSchool": "Lower School",
+    "middleSchool": "Middle School",
+    "upperSchool": "Upper School",
+    "tripsShown_one": "{{count}} trip shown",
+    "tripsShown_other": "{{count}} trips shown",
+    "tripCount_one": "{{count}} trip",
+    "tripCount_other": "{{count}} trips",
+    "homestay": "Homestay · {{place}}",
+    "alsoOnRecord": "Also on the record",
+    "out": "Out:",
+    "in": "In:",
+    "livingWithFamily": "Living with a family",
+    "requiredCoursework": "Required coursework",
+    "beyondClassroom": "Beyond the classroom",
+    "standsOut": "Where it stands out",
+    "askOnTour": "Ask on the tour",
+    "askOnTourNote": "not published on the school's site",
+    "confirmCalendar": "Confirm exact dates and times on the live school calendar."
   }
 }

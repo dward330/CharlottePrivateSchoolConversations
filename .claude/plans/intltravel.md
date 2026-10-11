@@ -1,7 +1,7 @@
 ---
 name: intltravel
 title: Add an International Travel research area (after Course Offerings) — seven structured cards, Providence Day populated
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-11
 branch: feat/intltravel
@@ -844,3 +844,101 @@ Two layers, two mechanisms. Do not cross them.
   research lands, which is the repo's absence-of-data rule and the user's own "never
   render empty or placeholder cards". If the user wants otherwise, that is a new UX
   surface and needs its own decision.
+
+## Implementation notes
+
+**Phase 1 (English) built 2026-10-11 on `feat/intltravel`.** Claude Design etags were
+unchanged at step 1 (all three still `1791758016363725`), so the local copies were the spec.
+
+**Deviations from the plan, and why:**
+
+- **No PR opened at the Phase 1 stop.** Step 11 says to open one; the `/implement`
+  skill's standing rule is to commit Phase 1 to the branch and open the single PR only
+  after Phase 2, so both phases land in one PR. The branch is pushed.
+- **CSS tokens.** The plan names `--color-divider` / `--color-bg` / `--color-accent-*`;
+  `src/index.css` actually uses `--border`, `--bg`, `--text`, `--muted`, `--ink`,
+  `--accent-*`, `--heading`. The `it-*` block uses the real ones.
+- **Photo blend dropped.** `.it-photo img` keeps the Summer band's grayscale filter but not
+  its `mix-blend-mode: multiply`, which crushed the photo to near-black over a dark-mode
+  card.
+- **Seville photo captioned "Spain, summer 2023", not "Seville, summer 2023".** The photo
+  is the Court of the Lions in the Alhambra (Granada); the school's alt text says only
+  "2023 summer trip to Spain".
+- **Chrome keys.** `travel.lowerSchool` was added (the `Trip.div` union includes `LS`).
+  `travel.languagePath` was not: the language-path heading is per-school data
+  (`start.languages.title`), as the plan itself says sub-heads that vary are.
+- **i18n classification is path-scoped** (a `/* international travel */` block in
+  `PATH_OVERRIDES`), not new leaf keys. Two overrides beat leaf defaults that would have
+  leaked English: `verdict.ask[].topic` (`topic` is skipped repo-wide as a routing slug)
+  and `network.cells[].name` (`name` is skipped as a proper noun; "Speakers at home" is
+  prose). `div`, `exchanges.partners[].school` and `.years` are skipped. Residual: 0.
+- **`gen_data_schema.mjs` §7** now says "up to N−1 of N" research areas for both K-12 and
+  K-8, since a single-school area makes "N−1" a ceiling rather than a count. The
+  `coverage:floor` area denominator is now 11; Davidson Day still sets the floor at 7.
+
+**Fact corrections forced by the implement-time URL verification.** The full record is
+in the Source URLs file under "Implement-time verification". The ones that change what a
+reader sees:
+
+- GSD graduates **250–375** (the GSD page's "375 students have received the GSD to date"
+  graphic is a cumulative recipient count), not 250–325+.
+- Round Square Global Member "**for over a decade**". "Since 2016" is on no page.
+- Credential intro states the start year as "2005 or 2007".
+- Rewordings to match the live pages:
+  - Galápagos ("evolution, biodiversity, environmental sustainability");
+  - Thailand ("human/wildlife coexistence");
+  - Bermuda ("two separate weeks in March");
+  - South Africa ("a permanent kindergarten building");
+  - Collingwood ("connected virtually");
+  - Upper School exchanges ("two to four weeks");
+  - the GSD course list (General Information page wording, no "senior capstone");
+  - the alumna quote (attributed to Global Education, not the GSD);
+  - the award wording.
+- **Dropped**, because no live page supports them:
+  - "third graders" (Worldwide Show and Tell);
+  - "fly … passports";
+  - the Upper School languages step;
+  - "100+ students" (Postcards);
+  - the Oxford "delegates" group tag;
+  - the exchange-visitor presentations sentence;
+  - the "Recognition — July 2026" tour question (its premise is unverified), which
+    leaves **10 tour questions, not 11**;
+  - "points system" from the GSD question.
+- **London moved from the ledger to "Also on the record"**: its row needed a "year not
+  stated" note, which breaks the gaps-only-in-verdict rule. The ledger is now 15 dated
+  trips; MS still shows 3 (England, Ecuador, Greece).
+- **Yovanovitch replaced** by the GSD page's Masood Khan Ambassador Series luncheon.
+- **Calendar titles and times** now come from the event details: "…Promote Diplomacy!",
+  1:15–2:15 PM; "…Orientation #3", 1:00–2:00 PM.
+- **"Earlier years"** is now cited to the 2014 news post that was found, framed as one
+  teacher's trips.
+
+**Phase 1 verification (all passing):**
+- `tsc -b`;
+- `npm run build`, with every chained check;
+- `i18n_extract --report --residual`: 0 unclassified;
+- `check_metrics`: no unmatched travel subtopic;
+- `schema` / `check:schema`;
+- the two `providence-day.ts` greps;
+- Compare exclusion: `dist/compare` has 0 mentions, the home page 0, PD's page has it;
+- PD meta description: 152 chars;
+- `audit:mobile` (PD + Cannon): 0 doc overflow at 320/360/390.
+
+The real-Chrome check (Playwright, `channel: 'chrome'`) at 1280 and 390 confirmed:
+- chip/rail order: Course Offerings → International Travel;
+- no Compare button and no kickers;
+- 4 tiles and the 7 card titles in order;
+- the filter: 15 → MS 3, counts pluralised;
+- homestay tags on Colombia, Spain and France only;
+- filter tabs 40px tall;
+- both photos load and open in the viewer;
+- the checkboxes toggle;
+- Cannon has no section.
+
+The dark-mode screenshot is legible.
+
+**Phase 2 remains:**
+- chrome keys in 9 catalogs;
+- `international-travel.<lang>.json` overlays for the 9 `PROSE_TRANSLATED` locales;
+- the Phase 2 checks;
+- open the PR, flip INDEX to Implemented, merge.

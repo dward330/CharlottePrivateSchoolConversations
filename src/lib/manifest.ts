@@ -88,6 +88,17 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
 }
 
 /**
+ * Research areas deliberately kept OFF Compare even though a comparable school
+ * holds them — an EDITORIAL deferral, distinct from the derived PreK-8
+ * exclusion below. International Travel was added 2026-10-11 with only
+ * Providence Day researched, and the user deferred Compare for it ("We don't
+ * need to add international travel as a compare topic yet"). It is filtered out
+ * of `comparableTopics` (pills, home grid, Compare meta description) and gates
+ * the dossier's "Compare on …" button. When Compare is wanted, delete the entry.
+ */
+export const COMPARE_DEFERRED_TOPICS: ReadonlySet<string> = new Set(['international-travel'])
+
+/**
  * The topics the Compare page is allowed to offer — every research area that at
  * least one COMPARABLE school has research for.
  *
@@ -97,7 +108,7 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
  * has been excluded. Today that removes exactly `high-school-placement`, which
  * only Trinity Episcopal (PreK-8) holds. It is derived rather than a hardcoded
  * slug, so a second PreK-8-only area drops off with no code change — absence of
- * data, not a conditional.
+ * data, not a conditional. It also drops every COMPARE_DEFERRED_TOPICS entry.
  *
  * DERIVE FROM THIS, never from `topics`, anywhere Compare is the subject.
  * Compare.tsx reads it for its pills, its default topic and its `?topic=`
@@ -105,8 +116,10 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
  * cell links into Compare. `topics` itself is untouched — the area is real, keeps
  * its slot on a dossier, and still counts in the home lede's area total.
  */
-export const comparableTopics: Topic[] = topics.filter((t) =>
-  comparableSchools.some((s) => docCount(t.slug, s.slug) > 0),
+export const comparableTopics: Topic[] = topics.filter(
+  (t) =>
+    !COMPARE_DEFERRED_TOPICS.has(t.slug) &&
+    comparableSchools.some((s) => docCount(t.slug, s.slug) > 0),
 )
 
 export type MetricCoverage = {

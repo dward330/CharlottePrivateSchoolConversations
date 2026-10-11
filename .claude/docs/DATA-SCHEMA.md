@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**12 schools × 10 research areas**, 431 ingested research documents.
+**12 schools × 11 research areas**, 433 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -58,6 +58,7 @@ exists yet and **the section does not render at all** for that school.
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
+| International Travel | `international-travel` | — | — | — | — | — | — | — | — | — | — | 2 | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -89,6 +90,12 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `curriculum` | Course Offerings | 12/12 | 9 |
+
+### International Travel `international-travel`
+
+| Card key | Label | Schools | Distinct subtopic phrasings |
+|---|---|--:|--:|
+| `redesign-research` | International Travel Research Dossier (2026) | 1/12 | 2 |
 
 ### Student Clubs `student-clubs`
 
@@ -789,6 +796,56 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 </details>
 
+### International Travel `international-travel`
+
+Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` · `src/data/internationalTravel.ts` · per-school `src/data/internationalTravel/<slug>.ts`
+
+| Card key | Title | Parent question / kicker |
+|---|---|---|
+| `trips` | Where They Go | — |
+| `start` | When Your Child Can Start | — |
+| `exchanges` | Exchanges & Homestays | — |
+| `credential` | Credential | — |
+| `network` | Network | — |
+| `signup` | Signing Up | — |
+| `verdict` | Verdict & Ask the School | — |
+
+**Schools with data:** 1/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
+
+<details><summary>Types defined in <code>internationalTravel.ts</code> (16)</summary>
+
+`TravelLead` — `strong`
+
+`TravelStat` — `value`
+
+`TravelPhoto` — `src`, `alt`, `caption?`, `credit?`
+
+`TravelDivision` *(union)* — `LS` \| `MS` \| `US`
+
+`Trip` — `dest`, `place?`, `div`, `group?`, `theme`, `timing?`, `homestay?`
+
+`TripYear` — `year`
+
+`TripsCard` — `headline`, `intro`, `years`, `photo?`, `alsoOnRecord`, `sources`
+
+`StartCard` — `headline`, `intro`, `framework?`, `divisions`, `languages?`, `sources`
+
+`ExchangePartner` — `country`, `years`, `school`, `out?`, `in?`
+
+`ExchangesCard` — `headline`, `intro`, `partners`, `photo?`, `homestays`, `sources`
+
+`CredentialCard` — `headline`, `intro`, `stats`, `required`, `beyond`, `quote?`, `award?`, `sources`
+
+`NetworkCard` — `headline`, `intro`, `ledgerTitle?`, `conferences`, `cells`, `rows`, `sources`
+
+`SignupCard` — `headline`, `intro`, `groups`, `footnote?`, `sources`
+
+`VerdictCard` — `headline`, `standsOut`, `ask`, `sources`
+
+`InternationalTravelProgram` — `lead`, `stats`, `trips?`, `start?`, `exchanges?`, `credential?`, `network?`, `signup?`, `verdict?`
+
+</details>
+
 ## 4. Compare rows (quantitative layer)
 
 `VALUE_METRICS` powers both the Compare table and the stat tiles on a school page (a
@@ -1065,7 +1122,8 @@ counted as gaps in its coverage.
 
 **The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the
 Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,
-the Compare topic list (`comparableTopics`, same file) — and nothing else
+the Compare topic list (`comparableTopics`, same file; it also drops the editorially
+deferred `COMPARE_DEFERRED_TOPICS`, today International Travel) — and nothing else
 automatically. Every rule below is a research and authoring decision.
 
 **K-8 schools today (1):** `trinity-episcopal`
@@ -1074,9 +1132,9 @@ automatically. Every rule below is a research and authoring decision.
 
 | Layer | K-12 school | K-8 school |
 |---|---|---|
-| Research areas | 9 of 10 | **9 of 10** — the same count, but College Support swaps for High School Placement |
+| Research areas | up to 10 of 11 | **up to 10 of 11** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
-| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug |
+| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. International Travel is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, 2026-10-11), not a data absence |
 | Sports cards | up to 7 | **up to 3** — the 4 college-bound ones do not apply |
 | College Support | 7 cards | **none** |
 | High School Placement | none | **up to 4 cards** |
@@ -1143,6 +1201,7 @@ sparser in the college-facing areas and no thinner anywhere else.
 | summer-programs | `catalog`, `costPlanner` | 2/2 |
 | admissions | `guide` | 1/1 |
 | high-school-placement | `placement`, `destinations`, `verdict` | 3/4 |
+| international-travel | — | 0/7 |
 
 Read from `trinity-episcopal`'s own data files, so it tracks the real page rather than a
 plan. An area at 0 is not necessarily a failure — College Support is 0 by design.

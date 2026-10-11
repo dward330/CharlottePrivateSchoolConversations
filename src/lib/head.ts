@@ -14,7 +14,7 @@
 // client rendering, and are unaffected by anything in this file.
 
 import type { Route } from './router.ts'
-import { schoolBySlug, topics, topicsForSchool } from './manifest.ts'
+import { schoolBySlug, topics, topicsForSchool, comparableTopics } from './manifest.ts'
 import { BRANDS } from '../data/brands.ts'
 import { TRANSLATED } from './i18n.ts'
 
@@ -183,7 +183,9 @@ export function metaForRoute(route: Route): PageMeta {
       title: `Compare Charlotte private schools — ${SITE_NAME}`,
       description: describe(
         `Compare Charlotte-area private schools side by side: ` +
-          `${topicList(3)} and more. Each figure traceable to its source.`,
+          // comparableTopics, not topics: the Compare page must not advertise
+          // an area it does not offer (COMPARE_DEFERRED_TOPICS, PreK-8-only).
+          `${topicList(3, comparableTopics)} and more. Each figure traceable to its source.`,
       ),
       path: `/compare/${q ? `?${q}` : ''}`,
       jsonLd: null,

@@ -230,6 +230,9 @@ const STRUCTURED = [
   // that a K-12 school does not. Trinity Episcopal is its first occupant; see
   // the K-8 school shape section (§7) for what a K-8 page carries overall.
   { topic: 'high-school-placement', file: 'highSchoolPlacement.ts', reg: 'HIGH_SCHOOL_PLACEMENT_CARDS', root: 'HighSchoolPlacementProgram', dir: 'highSchoolPlacementPrograms' },
+  // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts); its stat
+  // strip is the topic's own data, never VALUE_METRICS. Providence Day only.
+  { topic: 'international-travel', file: 'internationalTravel.ts', reg: 'INTERNATIONAL_TRAVEL_CARDS', root: 'InternationalTravelProgram', dir: 'internationalTravel' },
 ]
 
 for (const s of STRUCTURED) {
@@ -795,7 +798,8 @@ w()
   w()
   w('**The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the')
   w('Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,')
-  w('the Compare topic list (`comparableTopics`, same file) — and nothing else')
+  w('the Compare topic list (`comparableTopics`, same file; it also drops the editorially')
+  w('deferred `COMPARE_DEFERRED_TOPICS`, today International Travel) — and nothing else')
   w('automatically. Every rule below is a research and authoring decision.')
   w()
   w(k8.length
@@ -811,9 +815,9 @@ w()
   const sportsAll = nCards('sports')
   w('| Layer | K-12 school | K-8 school |')
   w('|---|---|---|')
-  w(`| Research areas | ${topics.length - 1} of ${topics.length} | **${topics.length - 1} of ${topics.length}** — the same count, but College Support swaps for High School Placement |`)
+  w(`| Research areas | up to ${topics.length - 1} of ${topics.length} | **up to ${topics.length - 1} of ${topics.length}** — the same ceiling, but College Support swaps for High School Placement |`)
   w('| Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |')
-  w('| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug |')
+  w('| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. International Travel is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, 2026-10-11), not a data absence |')
   w(`| Sports cards | up to ${sportsAll} | **up to ${sportsAll - K8_SPORTS_DROPPED.length}** — the ${K8_SPORTS_DROPPED.length} college-bound ones do not apply |`)
   w(`| College Support | ${nCards('college-support')} cards | **none** |`)
   w(`| High School Placement | none | **up to ${nCards('high-school-placement')} cards** |`)

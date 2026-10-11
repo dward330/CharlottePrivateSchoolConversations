@@ -60,6 +60,10 @@ export const TOPICS = {
   // Summer Programs uses `summer/` rather than `summerPrograms/`: the doubled
   // "Programs" in the folder name read badly beside the module's own name.
   'summer-programs': 'summer',
+  // Providence Day only (2026-10-11). Registered from the start, for the reason
+  // given on high-school-placement above: an unregistered topic is never
+  // extracted, so Phase 2 would report 100% while shipping it in English.
+  'international-travel': 'internationalTravel',
   'course-offerings': null,   // single module + accessor, see ACCESSORS
   'financial-aid-report': null,
   'metric-values': null,

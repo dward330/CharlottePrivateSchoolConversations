@@ -77,6 +77,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Trinity Episcopal School](high-school-placement/trinity-episcopal.md) — 3 docs
 
+### International Travel (`international-travel/`)
+
+- [Providence Day School](international-travel/providence-day.md) — 2 docs
+
 ### Sports (`sports/`)
 
 - [Cannon School](sports/cannon.md) — 15 docs
@@ -138,4 +142,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 431 documents across 10 topics and 12 schools.
+- `src/data/schools.json` — 433 documents across 11 topics and 12 schools.
