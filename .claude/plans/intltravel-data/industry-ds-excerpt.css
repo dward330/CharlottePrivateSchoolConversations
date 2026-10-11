@@ -1,0 +1,34 @@
+/* Excerpt copied 2026-10-11 from Claude Design project 5da24575-40bf-4787-8934-0fadfc56059f,
+   _ds/industry-ff3418ab-b7c3-4c24-aa94-1755d044fdea/styles.css: the Industry design-system
+   rules the travel section markup uses that src/index.css does NOT already carry.
+   Reference only. Map onto the app's existing equivalents (see plan Context →
+   "The Industry design system as the app already carries it"); do not paste wholesale.
+   The app's tokens (--color-*, --space-*, --font-*) already match this file. */
+
+.text-muted { color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+
+/* tags — the app has .tag-* variants but no bare .tag base */
+.tag {
+  display: inline-flex; align-items: center; font-size: 11px;
+  letter-spacing: 0.02em; padding: 3px 10px;
+  border-radius: 0; /* blueprint frame: square */
+}
+.tag-accent { background: var(--color-accent-100); color: var(--color-accent-800); }
+.tag-neutral { background: var(--color-neutral-100); color: var(--color-neutral-800); }
+.tag-outline { border: 1px solid var(--color-accent); color: var(--color-accent); }
+
+/* blueprint frame + duotone photo (deliberately NOT ported to the app; the app's
+   .note-card already draws the hairline frame, and photos render undertoned) */
+.blueprint { position: relative; border: 1px solid var(--color-divider); border-radius: 0; }
+.duotone { position: relative; overflow: hidden; }
+.duotone::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: var(--color-accent); mix-blend-mode: color; }
+
+/* the design's section-head button, dropped by this plan (no Compare) */
+.btn-secondary { border-color: var(--color-divider); }
+
+/* travel-specific rules from Providence Day School.dc.html <style> */
+#travel details.topic[open] { grid-column: 1 / -1; }
+#travel .depttab { min-height: 40px; }
+.depttab:hover { border-color: var(--color-accent); color: var(--color-accent-700); }
+.depttab[data-active="true"] { background: var(--color-accent-900); border-color: var(--color-accent-900); color: var(--color-bg); }

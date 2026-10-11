@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<script src="./image-slot.js"></script>
+<link rel="stylesheet" href="_ds/industry-ff3418ab-b7c3-4c24-aa94-1755d044fdea/styles.css">
+<script src="_ds/industry-ff3418ab-b7c3-4c24-aa94-1755d044fdea/_ds_bundle.js"></script>
+<style>
+body { margin: 0; background: var(--color-bg); }
+a { color: var(--brand); }
+a:hover { color: var(--color-accent); }
+details.topic > summary { list-style: none; }
+details.topic > summary::-webkit-details-marker { display: none; }
+details.topic > summary .plusmark { transition: transform 0.18s ease; }
+details.topic[open] > summary .plusmark { transform: rotate(45deg); }
+details.topic > summary:hover .topic-title { color: var(--brand); }
+details.topic > summary .topic-teaser { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+details.topic[open] > summary .topic-teaser { display: none; }
+details.topic[open] { grid-column: 1 / -1; }
+.depttab { appearance: none; border: 1px solid var(--color-divider); background: transparent; color: inherit; font-family: var(--font-heading); font-weight: 500; font-size: 14.5px; letter-spacing: 0.03em; padding: 6px 14px; min-height: 40px; cursor: pointer; }
+.depttab:hover { border-color: var(--color-accent); color: var(--color-accent-700); }
+.depttab:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.depttab[data-active="true"] { background: var(--color-accent-900); border-color: var(--color-accent-900); color: var(--color-bg); }
+[data-hidesrc="true"] .srcrow { display: none !important; }
+</style>
+</helmet>
+<div data-hidesrc="{{ hideSrc }}" style="--brand: #be123c; padding: clamp(16px, 4vw, 48px); font-family: var(--font-body); color: var(--color-text);">
+
+  <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}">
+  <div style="max-width: 980px; margin-bottom: 40px;">
+    <div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--brand); margin-bottom: 6px;">Turn 1 · New research area — International Travel · Providence Day</div>
+    <h1 style="margin: 0 0 10px; font-size: 34px;">International Travel: seven topics, ordered by what a parent asks first</h1>
+    <p style="margin: 0 0 18px; font-size: 14px; line-height: 1.6; max-width: 760px; text-wrap: pretty;">Parents open this section with one picture in mind: <em>my child, somewhere abroad.</em> So the section leads with scale (the stat strip), then the trips themselves, then when their child becomes eligible, then the deeper programs that make the trips mean something (exchanges, the diploma, the network), and only then how to sign up. Open questions the school's site doesn't answer are collected in the last card as a tour checklist, so the earlier cards stay about what the program does. Everything here is the live, responsive section; the frame on the right is the same file at phone width.</p>
+    <div class="blueprint" style="padding: var(--space-4) var(--space-6); background: var(--color-bg);">
+      <div style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; border-bottom: 1px solid var(--color-divider); padding-bottom: 8px; margin-bottom: 4px;">The topic map</div>
+      <div style="display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 0 16px; font-size: 13px;">
+        <span class="text-muted" style="padding: 8px 0 4px; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Topic</span><span class="text-muted" style="padding: 8px 0 4px; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">The parent question it answers</span>
+        <a href="#1a" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1a · Where They Go</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">Where in the world could my child actually go?</span>
+        <a href="#1b" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1b · When Your Child Can Start</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">What happens at my child's age, TK through 12?</span>
+        <a href="#1c" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1c · Exchanges &amp; Homestays</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">Can my child live with a family abroad, and host one back?</span>
+        <a href="#1d" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1d · The Global Studies Diploma</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">Does all this add up to something on the transcript?</span>
+        <a href="#1e" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1e · Round Square &amp; the Wider Network</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">Who is the school connected to, and who teaches it?</span>
+        <a href="#1f" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1f · Signing Up</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">When and how do we register for a trip?</span>
+        <a href="#1g" style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 7px 0; border-top: 1px solid var(--color-divider); text-decoration: none;">1g · Verdict &amp; Ask the School</a><span class="text-muted" style="padding: 7px 0; border-top: 1px solid var(--color-divider);">What should I confirm on the tour?</span>
+      </div>
+    </div>
+  </div>
+  </sc-if>
+
+  <div style="display: flex; gap: 48px; align-items: flex-start;">
+
+    <section id="travel" data-screen-label="International Travel" style="flex: none; width: {{ secWidth }}; min-width: 0; scroll-margin-top: 80px;">
+      <div style="display: flex; align-items: center; gap: var(--space-4); flex-wrap: wrap; border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-3);">
+        <span style="color: var(--brand); display: flex;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg></span>
+        <h2 style="margin: 0; font-size: 30px;">International Travel</h2>
+        <a href="Compare Schools.dc.html" class="btn btn-secondary" style="margin-left: auto; text-decoration: none;">Compare on International Travel
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+      </div>
+      <p style="margin: var(--space-4) 0; font-size: 14.5px; line-height: 1.55; text-wrap: pretty;"><strong>One TK–12 Global Education program — "Inward. Outward. Forward." — with student travel abroad in Middle and Upper School, reciprocal exchanges with partner schools, and what the school calls the first Global Studies Diploma in the nation.</strong> <span class="text-muted">The school's Strategic Framework describes Providence Day as "one of just six schools nationwide to offer a Global Studies Diploma and a Round Square school."</span></p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-bottom: 20px;">
+        <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 34px; line-height: 1.1; color: var(--brand);">~19</div><div style="font-size: 13px; font-weight: 600; margin-top: 2px;">countries &amp; territories</div><div class="text-muted" style="font-size: 12px; line-height: 1.45;">reached by student travel, 2021–25 — our count from the school's Global Map</div></div>
+        <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 34px; line-height: 1.1; color: var(--brand);">8</div><div style="font-size: 13px; font-weight: 600; margin-top: 2px;">exchange partner schools</div><div class="text-muted" style="font-size: 12px; line-height: 1.45;">in Colombia, Peru, Australia, South Africa, Germany, Bermuda and France</div></div>
+        <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 34px; line-height: 1.1; color: var(--brand);">1st</div><div style="font-size: 13px; font-weight: 600; margin-top: 2px;">Global Studies Diploma</div><div class="text-muted" style="font-size: 12px; line-height: 1.45;">"the first in the nation," per the school — an optional second diploma, grades 9–12</div></div>
+        <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 34px; line-height: 1.1; color: var(--brand);">280+</div><div style="font-size: 13px; font-weight: 600; margin-top: 2px;">Round Square schools</div><div class="text-muted" style="font-size: 12px; line-height: 1.45;">in 50 countries — PD has been a Global Member since 2016</div></div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 20px; align-items: start;">
+
+        <!-- 1A WHERE THEY GO -->
+        <details id="1a" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); grid-column: 1 / -1; scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1a</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">Where They Go</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">Sixteen documented trips abroad since 2022 — Round Square conferences, service builds, language homestays and science expeditions, filterable by division.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <p style="margin: 0 0 var(--space-4); font-size: 14.5px; line-height: 1.5;"><strong>Trips run from one-week conferences to summer immersions, with groups of 2 to 12 students.</strong> <span class="text-muted">Upper School offers "faculty-led spring break and summer travel options"; Middle School students "may take advantage of opportunities for world travel, including a Middle School conference with Round Square and a summer PDS trip."</span></p>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-6); align-items: flex-start;">
+              <div style="flex: 1 1 420px; min-width: 0;">
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-4);">
+                  <button class="depttab" data-active="{{ tabAll }}" onClick="{{ showAll }}">All divisions</button>
+                  <button class="depttab" data-active="{{ tabMS }}" onClick="{{ showMS }}">Middle School</button>
+                  <button class="depttab" data-active="{{ tabUS }}" onClick="{{ showUS }}">Upper School</button>
+                  <span class="text-muted" style="font-size: 12.5px; margin-left: 4px;">{{ tripTotal }}</span>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+                  <sc-for list="{{ tripGroups }}" as="g" hint-placeholder-count="3">
+                    <div>
+                      <div style="display: flex; align-items: baseline; gap: 10px; border-bottom: 1px solid var(--color-text); padding-bottom: 4px;">
+                        <span style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">{{ g.year }}</span>
+                        <span class="text-muted" style="font-size: 12px;">{{ g.note }}</span>
+                        <span class="text-muted" style="font-size: 12px; margin-left: auto;">{{ g.count }}</span>
+                      </div>
+                      <sc-for list="{{ g.trips }}" as="t" hint-placeholder-count="3">
+                        <div style="display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);">
+                          <div style="flex: 1 1 240px; min-width: 0;">
+                            <div style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; line-height: 1.2;">{{ t.dest }}</div>
+                            <sc-if value="{{ t.hasPlace }}" hint-placeholder-val="{{ true }}"><div class="text-muted" style="font-size: 12.5px; line-height: 1.45;">{{ t.place }}</div></sc-if>
+                          </div>
+                          <div style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 5px;">
+                            <span style="font-size: 13px; line-height: 1.45;">{{ t.theme }}</span>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                              <span class="tag tag-neutral" style="font-size: 10.5px;">{{ t.divLabel }}</span>
+                              <sc-if value="{{ t.hasTiming }}" hint-placeholder-val="{{ false }}"><span class="tag tag-outline" style="font-size: 10.5px;">{{ t.timing }}</span></sc-if>
+                              <sc-if value="{{ t.hasHome }}" hint-placeholder-val="{{ false }}"><span class="tag tag-accent" style="font-size: 10.5px;">{{ t.homeLabel }}</span></sc-if>
+                            </div>
+                          </div>
+                        </div>
+                      </sc-for>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+              <div style="flex: 1 1 260px; max-width: 340px; display: flex; flex-direction: column; gap: var(--space-4);">
+                <figure style="margin: 0;">
+                  <div class="blueprint duotone" style="aspect-ratio: 4 / 3; position: relative;">
+                    <image-slot id="pd-travel-trip" shape="rect" placeholder="Students on a trip abroad — e.g. Galápagos or the Colombia conference" style="position: absolute; inset: 0;"></image-slot>
+                  </div>
+                  <figcaption style="font-size: 12px; margin-top: 6px; line-height: 1.5;"><strong style="font-family: var(--font-heading); font-size: 14px;">On the Global Map</strong><br><span class="text-muted">The school logs every trip by school year on its Global Map, 2021–22 through 2024–25.</span></figcaption>
+                </figure>
+                <div>
+                  <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;">Also on the record</div>
+                  <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.5;">
+                    <div style="padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong>Jordan, every year.</strong> A named endowment funds "annual travel opportunities" to the International Academy Amman, a fellow Round Square school.</div>
+                    <div style="padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong>Closer to home.</strong> Alaska and Puerto Rico ("Community, Culture, and Comida") in Upper School; Arizona, California, Hawaii and a Round Square conference in Atlanta in Middle School.</div>
+                    <div style="padding: 8px 0;"><strong>Earlier years.</strong> An older school news post describes art history trips each summer to Italy, France and Greece/Turkey, and travel to Southeast Asia, Vietnam, Cambodia, Thailand, South Africa and Morocco.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><a href="https://www.providenceday.org" target="_blank">providenceday.org — Global Map ↗</a><a href="https://www.providenceday.org" target="_blank">Middle School Global Education ↗</a><a href="https://www.providenceday.org" target="_blank">Upper School Global Education ↗</a><a href="https://www.roundsquare.org" target="_blank">roundsquare.org — RSIC 2025 ↗</a></div>
+          </div>
+        </details>
+
+        <!-- 1B WHEN YOUR CHILD CAN START -->
+        <details id="1b" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1b</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">When Your Child Can Start</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">Global learning begins in TK with classroom "passports" and video exchanges; travel abroad opens in Middle School and widens in Upper School.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <p style="margin: 0 0 var(--space-4); font-size: 14.5px; line-height: 1.5;"><strong>The program is "woven throughout the student experience from Transitional Kindergarten through graduation,"</strong> <span class="text-muted">organized as the "PD Passport" around three stages.</span></p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-bottom: var(--space-6);">
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 22px; color: var(--brand);">Inward</div><div class="text-muted" style="font-size: 12.5px;">self-awareness</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 22px; color: var(--brand);">Outward</div><div class="text-muted" style="font-size: 12.5px;">engaging with diverse cultures</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 22px; color: var(--brand);">Forward</div><div class="text-muted" style="font-size: 12.5px;">applying learning to "contribute to a changing world"</div></div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-bottom: var(--space-6);">
+              <div style="background: var(--color-bg); padding: 14px;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; border-bottom: 1px solid var(--color-divider); padding-bottom: 6px; margin-bottom: 4px;">Lower School <span class="text-muted" style="font-weight: 400; font-size: 12px; letter-spacing: 0; text-transform: none;">· TK–5</span></div>
+                <div style="font-family: var(--font-heading); font-size: 15px; margin-bottom: 8px; color: var(--color-accent-700);">"Wonder + Awareness"</div>
+                <div style="display: flex; flex-direction: column; gap: 7px; font-size: 13px; line-height: 1.5;">
+                  <span>"TK Goes Global" — students "fly" between classrooms with passports to China, Germany, India and Kenya</span>
+                  <span>A project on a different world region in every grade, TK through 5</span>
+                  <span>Kindergarten video calls with Collingwood School, Canada</span>
+                  <span>Third graders in Round Square "Worldwide Show &amp; Tell"</span>
+                  <span>A Spanish video exchange with Markham College, Peru</span>
+                </div>
+              </div>
+              <div style="background: var(--color-bg); padding: 14px;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; border-bottom: 1px solid var(--color-divider); padding-bottom: 6px; margin-bottom: 4px;">Middle School <span class="text-muted" style="font-weight: 400; font-size: 12px; letter-spacing: 0; text-transform: none;">· 6–8</span></div>
+                <div style="font-family: var(--font-heading); font-size: 15px; margin-bottom: 8px; color: var(--color-accent-700);">"Exploration + Connection"</div>
+                <div style="display: flex; flex-direction: column; gap: 7px; font-size: 13px; line-height: 1.5;">
+                  <span><strong>First trips abroad:</strong> Greece (summer 2024), the Galápagos (2024–25), a Round Square conference in England (2024–25)</span>
+                  <span>Student-led Round Square Postcards — "Food is Love" and "What's Trending" each drew 100+ students</span>
+                  <span>An 8th-grade "Global Perspectives" course</span>
+                </div>
+              </div>
+              <div style="background: var(--color-bg); padding: 14px;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; border-bottom: 1px solid var(--color-divider); padding-bottom: 6px; margin-bottom: 4px;">Upper School <span class="text-muted" style="font-weight: 400; font-size: 12px; letter-spacing: 0; text-transform: none;">· 9–12</span></div>
+                <div style="font-family: var(--font-heading); font-size: 15px; margin-bottom: 8px; color: var(--color-accent-700);">"Leadership + Impact"</div>
+                <div style="display: flex; flex-direction: column; gap: 7px; font-size: 13px; line-height: 1.5;">
+                  <span>Faculty-led spring break and summer trips</span>
+                  <span>Round Square international conferences and Big Builds</span>
+                  <span>Individual exchanges of two weeks to a month</span>
+                  <span>The optional Global Studies Diploma, "starting in ninth grade"</span>
+                </div>
+              </div>
+            </div>
+            <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">The language path — "an 11-year journey toward language proficiency"</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider);">
+              <div style="background: var(--color-bg); padding: 10px 12px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">TK–Grade 1</div><div style="font-size: 13px; line-height: 1.45;">Exposure to French, Spanish and Mandarin Chinese</div></div>
+              <div style="background: var(--color-bg); padding: 10px 12px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Grade 2</div><div style="font-size: 13px; line-height: 1.45;">Choose one language for the rest of Lower School</div></div>
+              <div style="background: var(--color-bg); padding: 10px 12px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Middle School</div><div style="font-size: 13px; line-height: 1.45;">Latin and German are added</div></div>
+              <div style="background: var(--color-bg); padding: 10px 12px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Upper School</div><div style="font-size: 13px; line-height: 1.45;">Mandarin Chinese, French, Spanish, Latin, German</div></div>
+            </div>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><a href="https://www.providenceday.org" target="_blank">providenceday.org — Global Education ↗</a><a href="https://www.providenceday.org" target="_blank">Lower School ↗</a><a href="https://www.providenceday.org" target="_blank">Middle School ↗</a><a href="https://www.providenceday.org" target="_blank">World Languages ↗</a></div>
+          </div>
+        </details>
+
+        <!-- 1C EXCHANGES & HOMESTAYS -->
+        <details id="1c" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1c</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">Exchanges &amp; Homestays</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">Eight partner schools in seven countries, from one-week visits in Bermuda to four weeks in Peru or Australia — most reciprocal, with the partner student later living with a PD family.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <p style="margin: 0 0 var(--space-4); font-size: 14.5px; line-height: 1.5;"><strong>Individual Round Square exchanges, logged on the Global Map from 2022–23 to 2024–25.</strong> <span class="text-muted">Most are reciprocal: the host student later spends a similar period at Providence Day.</span></p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-bottom: var(--space-6);">
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Colombia · 2022–25</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Colegio Los Nogales</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> two weeks in March<br><strong>In:</strong> two weeks, then three weeks</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Peru · 2022–24</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Colegio San Silvestre, Lima</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> four weeks<br><strong>In:</strong> one month</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Australia · 2023–25</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Matthew Flinders School, Sunshine Coast</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> four weeks<br><strong>In:</strong> hosted in return</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">South Africa · 2024–25</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Dainfern College</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> three weeks, summer<br><strong>In:</strong> April</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Germany · 2024–25</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Landheim Ammersee</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> three weeks in March, boarding or homestay<br><strong>In:</strong> hosts expected in fall</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Germany · 2022–23</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Schule Schloss Salem</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> one month<br><strong>In:</strong> one month</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">Bermuda · 2022–23</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Bermuda High School for Girls</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> one-week exchanges</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div class="text-muted" style="font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;">France · 2022–25</div><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 1.25; margin: 2px 0 6px;">Lycée Notre Dame de la Merci, Montpellier</div><div style="font-size: 12.5px; line-height: 1.5;"><strong>Out:</strong> group exchange, then a three-week individual visit<br><strong>In:</strong> 15 French students hosted by PD families</div></div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-6); align-items: flex-start;">
+              <figure style="margin: 0; flex: 1 1 220px; max-width: 300px;">
+                <div class="blueprint duotone" style="aspect-ratio: 4 / 3; position: relative;">
+                  <image-slot id="pd-travel-exchange" shape="rect" placeholder="Exchange students with a PD host family" style="position: absolute; inset: 0;"></image-slot>
+                </div>
+                <figcaption style="font-size: 12px; margin-top: 6px; line-height: 1.5;"><strong style="font-family: var(--font-heading); font-size: 14px;">Hosting at home</strong><br><span class="text-muted">Exchange visitors give presentations to Lower School and Spanish classes.</span></figcaption>
+              </figure>
+              <div style="flex: 1 1 280px; min-width: 0;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;">Living with a family</div>
+                <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.5;">
+                  <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 130px; font-family: var(--font-heading); font-size: 15px;">Bogotá</strong><span style="flex: 1 1 200px;">Homestays during the 2024–25 Round Square conference in Colombia</span></div>
+                  <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 130px; font-family: var(--font-heading); font-size: 15px;">Seville</strong><span style="flex: 1 1 200px;">A host family and daily language classes, summer 2023</span></div>
+                  <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 130px; font-family: var(--font-heading); font-size: 15px;">Montpellier</strong><span style="flex: 1 1 200px;">A French host family on the reciprocal language exchange</span></div>
+                  <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0;"><strong style="flex: 0 0 130px; font-family: var(--font-heading); font-size: 15px;">On campus</strong><span style="flex: 1 1 200px;">Term visitors from Finland (spring semester, junior class) and Germany (six weeks, sophomore class) in 2022–23</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><a href="https://www.providenceday.org" target="_blank">providenceday.org — Global Map ↗</a><a href="https://www.providenceday.org" target="_blank">Upper School Global Education ↗</a></div>
+          </div>
+        </details>
+
+        <!-- 1D GSD -->
+        <details id="1d" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1d</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">The Global Studies Diploma</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">An optional second diploma for grades 9–12 — global coursework, four years of one language, travel or hosting, and a senior capstone in Global Leadership.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <p style="margin: 0 0 var(--space-4); font-size: 14.5px; line-height: 1.5;"><strong>"An optional second diploma that recognizes students who pursue advanced global learning throughout their Upper School experience."</strong> <span class="text-muted">Students "typically begin their GSD journey in 9th grade" and "can join later in Upper School under certain circumstances."</span></p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-bottom: var(--space-6);">
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 26px; line-height: 1.1;">~20</div><div class="text-muted" style="font-size: 12px;">seniors graduate with it in a typical year</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 26px; line-height: 1.1;">250–325+</div><div class="text-muted" style="font-size: 12px;">graduates so far — school pages give different totals</div></div>
+              <div style="background: var(--color-bg); padding: 12px 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 26px; line-height: 1.1;">B−</div><div class="text-muted" style="font-size: 12px;">minimum grade in every required GSD course</div></div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-6); margin-bottom: var(--space-6);">
+              <div style="flex: 1 1 260px; min-width: 0;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;">Required coursework</div>
+                <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.45;">
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">Global Civics</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">World History (or AP World History)</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">Comparative Government and Politics</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">4 years of the same world language</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">Two Global Studies courses</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">2.5 GSD elective credits</span>
+                  <span style="padding: 6px 0;">Global Leadership — the senior capstone</span>
+                </div>
+              </div>
+              <div style="flex: 1 1 260px; min-width: 0;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;">Beyond the classroom</div>
+                <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.45;">
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">"Traveling abroad and/or hosting exchange students"</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">Attending local global speaker events</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">Presenting global experiences to peers</span>
+                  <span style="padding: 6px 0; border-bottom: 1px solid var(--color-divider);">Taking civic action</span>
+                  <span style="padding: 6px 0;">An individual portfolio, plus an optional "Global Ambassador" distinction (since 2021)</span>
+                </div>
+              </div>
+            </div>
+            <blockquote style="margin: 0 0 var(--space-4); padding: var(--space-4) 0; border-top: 1px solid var(--color-text); border-bottom: 1px solid var(--color-divider);">
+              <p style="margin: 0 0 8px; font-family: var(--font-heading); font-size: 21px; line-height: 1.3; text-wrap: pretty;">The GSD helped her think of herself "as more than a North Carolinian, more than an American, but as a human."</p>
+              <footer class="text-muted" style="font-size: 12.5px; line-height: 1.5;">A Class of 2025 GSD graduate, now at Columbia, who "had never left the United States" before freshman year — then jumped "off cliffs in Wales," met "students from Japan at Oxford University," and explored "La Alhambra in Spain."</footer>
+            </blockquote>
+            <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 13px; line-height: 1.5;"><strong style="flex: 0 0 auto; font-family: var(--font-heading); font-size: 15px;">Distinguished Global Scholar Award</strong><span style="flex: 1 1 260px;">One GSD candidate each year, with a GPA of 3.75 or higher. Funded by the Bessant/Clay Endowment.</span></div>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><a href="https://www.providenceday.org" target="_blank">providenceday.org — Global Studies Diploma ↗</a><a href="https://www.providenceday.org" target="_blank">GSD program site ↗</a><a href="https://www.providenceday.org" target="_blank">Admissions ↗</a></div>
+          </div>
+        </details>
+
+        <!-- 1E ROUND SQUARE & NETWORK -->
+        <details id="1e" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1e</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">Round Square &amp; the Wider Network</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">A Round Square Global Member feeding international conferences, service Big Builds and virtual dialogues — taught by faculty who travel for a certificate of their own.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <p style="margin: 0 0 var(--space-4); font-size: 14.5px; line-height: 1.5;"><strong>Round Square is a network of "280+ like-minded schools in 50 countries on six continents."</strong> <span class="text-muted">In 2019 a Southern Association of Independent Schools accreditation committee called Providence Day "a national leader in the field of Global Education."</span></p>
+            <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;">Round Square conferences PD has attended</div>
+            <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.5; margin-bottom: var(--space-6);">
+              <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 90px; font-family: var(--font-heading); font-size: 15px;">2025</strong><span style="flex: 1 1 220px;">Dubai, "Beyond the Dunes" — 958 students and 294 adults from 155 schools across 28 countries</span></div>
+              <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 90px; font-family: var(--font-heading); font-size: 15px;">2024–25</strong><span style="flex: 1 1 220px;">Colombia, "Blooming from the Past" · England (Middle School), "Leadership and Adventure"</span></div>
+              <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 90px; font-family: var(--font-heading); font-size: 15px;">2023–24</strong><span style="flex: 1 1 220px;">Kenya, "The New Africa" · Atlanta (Middle School)</span></div>
+              <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 8px 0;"><strong style="flex: 0 0 90px; font-family: var(--font-heading); font-size: 15px;">2022–23</strong><span style="flex: 1 1 220px;">Oxford + the Wales coast, "Take Less: Be More"</span></div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-bottom: var(--space-6);">
+              <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; margin-bottom: 4px;">Postcards</div><div style="font-size: 13px; line-height: 1.5;">Virtual dialogues. PD hosted one on gender equality in February 2022: 120 participants from 23 schools in nine countries.</div></div>
+              <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; margin-bottom: 4px;">Big Builds</div><div style="font-size: 13px; line-height: 1.5;">Service projects abroad — in Thailand, 4 students and 2 faculty worked on human–elephant coexistence at Kui Buri National Park.</div></div>
+              <div style="background: var(--color-bg); padding: 14px;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 16px; margin-bottom: 4px;">Speakers at home</div><div style="font-size: 13px; line-height: 1.5;">GSD students heard former Ambassador Marie Yovanovitch at the World Affairs Council of Charlotte (December 2023).</div></div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 13px; line-height: 1.5; padding-bottom: 8px; border-bottom: 1px solid var(--color-divider);"><strong style="flex: 0 0 150px; font-family: var(--font-heading); font-size: 15px;">Faculty who travel</strong><span style="flex: 1 1 260px;">Since 2006, the Global Educator Certificate has required faculty to study a language, travel to at least two countries or cultures, and share what they learned. Recent faculty trips: Uruguay, South Korea, Switzerland, Israel, Italy and Central Europe, Germany, Morocco, Japan and Thailand.</span></div>
+            <div style="display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 13px; line-height: 1.5; padding-top: 8px;"><strong style="flex: 0 0 150px; font-family: var(--font-heading); font-size: 15px;">Also a member of</strong><span style="flex: 1 1 260px;">The Institute for Global Learning and Global Connections, and Global Online Academy</span></div>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><a href="https://www.providenceday.org" target="_blank">providenceday.org — Global Education ↗</a><a href="https://www.providenceday.org" target="_blank">Global Map ↗</a><a href="https://www.roundsquare.org" target="_blank">roundsquare.org ↗</a></div>
+          </div>
+        </details>
+
+        <!-- 1F PAYING & SIGNING UP -->
+        <details id="1f" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1f</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">Signing Up</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">Trip registration for 2026–27 opens this fall, alongside a virtual Global Trips information session and a required orientation for new GSD students.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <p style="margin: 0 0 var(--space-4); font-size: 14.5px; line-height: 1.5;"><strong>Trip registration for 2026–27 opens this fall, and trip details are shared through registration.</strong> <span class="text-muted">Both trip entries sit in the late-September / early-October 2026 view of the school calendar.</span></p>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-6); align-items: flex-start;">
+              <div style="flex: 1 1 280px; min-width: 0;">
+                <div style="display: flex; align-items: baseline; gap: 10px; border-bottom: 1px solid var(--color-text); padding-bottom: 4px;"><span style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">Global Trips</span><span class="text-muted" style="font-size: 12px;">Fall 2026 · every family</span></div>
+                <div style="display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span class="text-muted" style="flex: 0 0 140px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-top: 3px;">All day</span><div style="flex: 1 1 240px; min-width: 0;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 17px; line-height: 1.25;">Global Trip Registration Opens</div><div class="text-muted" style="font-size: 12.5px; line-height: 1.45; margin-top: 2px;">Trip details are shared through registration</div></div></div>
+                <div style="display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 10px 0;"><span class="text-muted" style="flex: 0 0 140px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-top: 3px;">6:30–7:00 PM</span><div style="flex: 1 1 240px; min-width: 0;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 17px; line-height: 1.25;">Global Trips Virtual Information Session</div><div class="text-muted" style="font-size: 12.5px; line-height: 1.45; margin-top: 2px;">Hosted by Global Education</div></div></div>
+              </div>
+              <div style="flex: 1 1 280px; min-width: 0;">
+                <div style="display: flex; align-items: baseline; gap: 10px; border-bottom: 1px solid var(--color-text); padding-bottom: 4px;"><span style="font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">Global Studies Diploma</span><span class="text-muted" style="font-size: 12px;">Upper School · GSD students</span></div>
+                <div style="display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span class="text-muted" style="flex: 0 0 140px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-top: 3px;">October 2, 2026</span><div style="flex: 1 1 240px; min-width: 0;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 17px; line-height: 1.25;">Final Required GSD New Student Orientation</div></div></div>
+                <div style="display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 10px 0;"><span class="text-muted" style="flex: 0 0 140px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-top: 3px;">Recurring</span><div style="flex: 1 1 240px; min-width: 0;"><div style="font-family: var(--font-heading); font-weight: 600; font-size: 17px; line-height: 1.25;">GSD Donuts and Discussions</div></div></div>
+              </div>
+            </div>
+            <p class="text-muted" style="margin: var(--space-3) 0 0; font-size: 12px;">Confirm exact dates and times on the live school calendar.</p>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><a href="https://www.providenceday.org" target="_blank">providenceday.org — 2026–27 school calendar ↗</a></div>
+          </div>
+        </details>
+
+        <!-- 1G VERDICT & ASK -->
+        <details id="1g" class="topic blueprint" open="{{ openAll }}" style="padding: var(--space-4) var(--space-6); grid-column: 1 / -1; scroll-margin-top: 24px;">
+          <summary style="cursor: pointer; display: flex; gap: 14px; align-items: flex-start;">
+            <sc-if value="{{ notEmbed }}" hint-placeholder-val="{{ true }}"><span style="flex: none; background: var(--brand); color: var(--color-bg); font-family: var(--font-heading); font-weight: 600; font-size: 12px; padding: 1px 7px; margin-top: 3px;">1g</span></sc-if>
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+              <h4 class="topic-title" style="margin: 0; font-size: 19px;">Verdict &amp; Ask the School</h4>
+              <p class="text-muted topic-teaser" style="margin: 0; font-size: 13.5px; line-height: 1.5;">Where the program stands out, and eleven questions the school's website doesn't answer yet — starting grade, current trips, cost and safety.</p>
+            </div>
+            <span class="plusmark" style="flex: none; color: var(--brand); margin-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg></span>
+          </summary>
+          <div class="rich" style="border-top: 1px solid var(--color-divider); margin-top: var(--space-4); padding-top: var(--space-4); font-size: 13.5px; line-height: 1.6;">
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-8); align-items: flex-start;">
+              <div style="flex: 1 1 300px; min-width: 0;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">Where it stands out</div>
+                <p style="margin: 0 0 10px; font-size: 14px; line-height: 1.55;">Among Charlotte private schools, Providence Day stands out for its credential (the GSD), its Round Square network and the breadth of its reciprocal exchanges.</p>
+                <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.5;">
+                  <div style="display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><span style="color: var(--brand); flex: none; display: flex; padding-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></span><span>A named second diploma, running since the mid-2000s, with clear published requirements</span></div>
+                  <div style="display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><span style="color: var(--brand); flex: none; display: flex; padding-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></span><span>Eight exchange partners, with durations and reciprocity documented year by year</span></div>
+                  <div style="display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--color-divider);"><span style="color: var(--brand); flex: none; display: flex; padding-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></span><span>Round Square conferences on four continents in four years</span></div>
+                  <div style="display: flex; gap: 10px; padding: 8px 0;"><span style="color: var(--brand); flex: none; display: flex; padding-top: 2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></span><span>Global learning in every division, TK to 12, with one language carried 11 years</span></div>
+                </div>
+              </div>
+              <div style="flex: 1 1 340px; min-width: 0;">
+                <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">Ask on the tour <span class="text-muted" style="font-family: var(--font-body); font-weight: 400; font-size: 12px; letter-spacing: 0; text-transform: none;">· not published on the school's site</span></div>
+                <div style="display: flex; flex-direction: column; font-size: 13px; line-height: 1.5;">
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Starting grade.</strong> What is the earliest grade allowed on an international trip? Are Middle School trips open to 6th graders, or only 7th–8th?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Current trip list.</strong> Which trips are offered for 2026–27 and summer 2027? What are the dates, durations and grade bands?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Cost.</strong> What is the price range per trip, and what does it include (airfare, insurance, meals)? What are the deposit and refund policies?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Aid.</strong> Do the Murdock, Latchwood or Bhandari Mehta "beyond tuition" funds cover global trips? How does a family apply, and when?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Jordan.</strong> How are students selected for the Daher-funded trip? Which grades are eligible, when does it happen, and is it fully funded?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Selection.</strong> Are trips first-come, first-served or application-based? How are Round Square delegates chosen?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Safety.</strong> What are the chaperone ratios, travel vendors, insurance, emergency protocols, and passport and visa timelines?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Exchanges.</strong> How do families apply for Round Square exchanges? Are host families required to host in return?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>GSD.</strong> Is the points system still used? Does one trip satisfy the travel requirement? Is there a GSD-specific travel subsidy?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-divider); cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Recognition.</strong> What was the July 2026 "national recognition," and which organization gave it?</span></label>
+                  <label style="display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; cursor: pointer; align-items: start;"><input type="checkbox" style="accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px;"><span><strong>Scale.</strong> How many students travel abroad each year, and what share of each grade does that represent?</span></label>
+                </div>
+              </div>
+            </div>
+            <div class="srcrow" style="display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; border-top: 1px solid var(--color-divider); padding-top: 12px; margin-top: var(--space-4); font-size: 12px;"><span class="tag tag-outline" style="font-size: 10px; flex: none;">SOURCE</span><span class="text-muted">Charlotte School Compare research, official providenceday.org pages as of October 2026</span></div>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <sc-if value="{{ showFrame }}" hint-placeholder-val="{{ true }}">
+      <aside style="flex: none; width: 392px; position: sticky; top: 24px;">
+        <div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--brand); margin-bottom: 8px;">Mobile · 390 × 844 · same file</div>
+        <div class="blueprint" style="width: 390px; height: 844px; background: var(--color-bg); overflow: hidden;">
+          <iframe src="International%20Travel%20Section%20Redesign.dc.html?embed=1" title="International Travel at phone width" style="width: 390px; height: 844px; border: 0; display: block;"></iframe>
+        </div>
+      </aside>
+    </sc-if>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;openAll&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Review&quot;}, &quot;showMobile&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Review&quot;}, &quot;showSources&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Content&quot;}}">
+class Component extends DCLogic {
+  state = { div: 'all', embed: new URLSearchParams(window.location.search).has('embed') };
+
+  trips() {
+    return [
+      { year: '2025–26', note: 'dated by Round Square', trips: [
+        { dest: 'United Arab Emirates', place: 'Dubai — 57th Round Square International Conference, "Beyond the Dunes"', div: 'US', group: '', theme: 'Conference · environment', timing: 'Sept 19–25, 2025' }
+      ]},
+      { year: '2024–25', note: '', trips: [
+        { dest: 'Colombia', place: 'Round Square International Conference, "Blooming from the Past" · Amazon pre-conference · Boyacá', div: 'US', group: '6 students', theme: 'Conference · cultural', timing: 'Includes a 4-day Amazon pre-conference', homestay: 'Bogotá' },
+        { dest: 'England', place: 'Milton Abbey School Round Square conference, "Leadership and Adventure" · Dorset + London', div: 'MS', group: '6 students', theme: 'Conference · leadership · adventure', timing: 'One week' },
+        { dest: 'Ecuador', place: 'Galápagos Islands', div: 'MS', group: '10 students', theme: 'Science · biodiversity · conservation' },
+        { dest: 'Denmark & Sweden', place: '"Scandinavia"', div: 'US', group: '10 students', theme: 'Design · sustainability · urban innovation' },
+        { dest: 'South Korea', place: 'Cheongshim International Academy Model UN', div: 'US', group: '12 students', theme: 'Model UN abroad · history · culture' },
+        { dest: 'South Africa', place: 'Round Square International Service Project', div: 'US', group: '2 students', theme: 'Service — a kindergarten build, beekeeping' }
+      ]},
+      { year: '2023–24', note: '', trips: [
+        { dest: 'Kenya', place: 'Nairobi — Round Square conference, "The New Africa" + Maasai Mara pre-conference', div: 'US', group: '5 delegates', theme: 'Conference' },
+        { dest: 'Thailand', place: 'Kui Buri National Park — Round Square Big Build', div: 'US', group: '4 students + 2 faculty', theme: 'Service · human–elephant coexistence' },
+        { dest: 'Greece', place: '', div: 'MS', group: '', theme: 'Mythology · archaeology · philosophy', timing: 'Summer (June 2024)' },
+        { dest: 'Japan', place: '', div: 'US', group: '', theme: 'Tradition and technology · anime · sustainability' },
+        { dest: 'Iceland', place: '', div: 'US', group: '', theme: 'Climate change · environment' }
+      ]},
+      { year: '2022–23', note: '', trips: [
+        { dest: 'United Kingdom', place: 'Oxford + the Wales coast — Round Square conference, "Take Less: Be More"', div: 'US', group: 'delegates', theme: 'Conference · sustainability (coasteering, Bug Farm)' },
+        { dest: 'Spain', place: 'Seville + Granada, Cádiz, Madrid', div: 'US', group: '', theme: 'Language and cultural immersion with daily language classes', timing: 'Summer 2023', homestay: 'host family' },
+        { dest: 'France', place: 'Montpellier (Lycée Notre Dame de La Merci) + Paris', div: 'US', group: '', theme: 'Language exchange (reciprocal)', homestay: 'French host family' }
+      ]},
+      { year: 'Current page', note: 'year not stated', trips: [
+        { dest: 'London, England', place: 'Performing arts history, for "students with a passion for the arts"', div: 'US', group: '', theme: 'Arts tour' }
+      ]}
+    ];
+  }
+
+  renderVals() {
+    const { div, embed } = this.state;
+    const p = this.props;
+    const groups = this.trips().map(g => {
+      const trips = g.trips.filter(t => div === 'all' || t.div === div).map(t => ({
+        ...t,
+        divLabel: (t.div === 'MS' ? 'Middle School' : 'Upper School') + (t.group ? ' · ' + t.group : ''),
+        homeLabel: 'Homestay · ' + (t.homestay || ''), hasPlace: !!t.place, hasTiming: !!t.timing, hasHome: !!t.homestay
+      }));
+      return { ...g, trips, count: trips.length + (trips.length === 1 ? ' trip' : ' trips') };
+    }).filter(g => g.trips.length);
+    const total = groups.reduce((n, g) => n + g.trips.length, 0);
+    return {
+      secWidth: embed ? '100%' : '980px',
+      notEmbed: !embed,
+      showFrame: !embed && (p.showMobile ?? true),
+      openAll: embed ? false : (p.openAll ?? true),
+      hideSrc: !(p.showSources ?? true),
+      tripGroups: groups,
+      tripTotal: total + ' trips shown',
+      tabAll: div === 'all', tabMS: div === 'MS', tabUS: div === 'US',
+      showAll: () => this.setState({ div: 'all' }),
+      showMS: () => this.setState({ div: 'MS' }),
+      showUS: () => this.setState({ div: 'US' })
+    };
+  }
+}
+</script>
+</body>
+</html>
+
