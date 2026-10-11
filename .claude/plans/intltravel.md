@@ -942,3 +942,21 @@ The dark-mode screenshot is legible.
 - `international-travel.<lang>.json` overlays for the 9 `PROSE_TRANSLATED` locales;
 - the Phase 2 checks;
 - open the PR, flip INDEX to Implemented, merge.
+
+**Post-review change (2026-10-11, user-approved before Phase 2): the Where They Go ledger
+scrolls inside a capped frame on desktop.**
+- At ≥701px `.it-ledger-frame` caps at 640px, so the ledger ends level with the photo
+  and "Also on the record" column. That column is ~713px, and the tabs + frame come to
+  ~700px. Before this, ~1,200px of ledger trailed beside an empty column.
+- The division tabs and the "N trips shown" count sit outside the frame and stay put.
+- Changing the filter resets the frame to the top.
+- `useVerticalFade` (in the component) sets `data-fade-top` / `data-fade-bottom` for
+  mask fades. It is the vertical counterpart of `useScrollEdges`, which is sideways-only.
+- **Below 701px and in print the cap is removed**: a nested scroll box traps a thumb on
+  a scrolling page, and a capped frame would cut a print-out.
+- The frame is focusable (`role="region"`) and labelled by a new chrome key,
+  `travel.ledgerLabel` = "Trips by school year". Phase 2 must translate it with the rest
+  of `travel.*`.
+- Verified in Chrome: 640px cap, fades toggling top/bottom with scroll, MS filter →
+  307px with no fade and scrollTop 0; at 390px no cap and no overflow; print media
+  uncapped; `audit:mobile` clean.

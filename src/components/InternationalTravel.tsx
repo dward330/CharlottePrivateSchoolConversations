@@ -10,7 +10,7 @@
 // Every card ends in a SOURCE row built by <SourceRow>, listing the specific
 // pages behind that card's facts — the project's citation standard.
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
 import { assetUrl } from '../lib/asset.ts'
@@ -137,6 +137,37 @@ function Row({ label, text, wide }: { label: string; text: string; wide?: boolea
 
 /* ----------------------------------------------------- 1 · where they go -- */
 
+/**
+ * Marks a vertically scrolling frame with `data-fade-top` / `data-fade-bottom`
+ * while rows are hidden above / below, so index.css can draw a mask fade there —
+ * the vertical counterpart of useScrollEdges (which is sideways-only). Below the
+ * desktop breakpoint the frame has no height cap, never overflows, and so never
+ * gets either attribute. `resetKey` returns the frame to the top when the
+ * division filter changes what it holds.
+ */
+function useVerticalFade(resetKey: string) {
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    el.scrollTop = 0
+    const update = () => {
+      const max = el.scrollHeight - el.clientHeight
+      el.toggleAttribute('data-fade-top', max > 1 && el.scrollTop > 1)
+      el.toggleAttribute('data-fade-bottom', max > 1 && el.scrollTop < max - 1)
+    }
+    update()
+    el.addEventListener('scroll', update, { passive: true })
+    const ro = new ResizeObserver(update)
+    ro.observe(el)
+    return () => {
+      el.removeEventListener('scroll', update)
+      ro.disconnect()
+    }
+  }, [resetKey])
+  return ref
+}
+
 type DivFilter = 'all' | TravelDivision
 
 function TripsBody({ data }: { data: TripsCard }) {
@@ -156,6 +187,7 @@ function TripsBody({ data }: { data: TripsCard }) {
     .map((y) => ({ ...y, trips: y.trips.filter((tr) => div === 'all' || tr.div === div) }))
     .filter((y) => y.trips.length > 0)
   const total = groups.reduce((n, y) => n + y.trips.length, 0)
+  const frame = useVerticalFade(div)
 
   return (
     <div className="it-body">
@@ -179,6 +211,18 @@ function TripsBody({ data }: { data: TripsCard }) {
               <span className="text-muted it-count">{t('travel.tripsShown', { count: total })}</span>
             </div>
           )}
+          {/* On desktop the ledger scrolls inside a capped frame so the card
+              stays level with the side column; the tabs and the count above
+              stay put. On phones (and in print) the cap is removed and it is a
+              plain list — a nested scroll box traps a thumb on a page that
+              scrolls too. Focusable so keyboard users can scroll it. */}
+          <div
+            ref={frame}
+            className="it-ledger-frame"
+            tabIndex={0}
+            role="region"
+            aria-label={t('travel.ledgerLabel')}
+          >
           <div className="it-ledger">
             {groups.map((y) => (
               <div key={y.year} className="it-year">
@@ -214,6 +258,7 @@ function TripsBody({ data }: { data: TripsCard }) {
                 ))}
               </div>
             ))}
+          </div>
           </div>
         </div>
         <div className="it-side">

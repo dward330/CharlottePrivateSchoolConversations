@@ -5699,6 +5699,36 @@ a.cs-college-name:focus-visible {
 .note-card-it .depttab { min-height: 40px; }
 .it-count { font-size: 12.5px; margin-inline-start: 4px; }
 .it-ledger { display: flex; flex-direction: column; gap: 16px; }
+/* The ledger's scroll frame — desktop only. Capped at roughly the side
+   column's height so the card stays level instead of trailing ~1,200px of
+   ledger beside an empty column. Below 700px (one-column layout) and in print
+   it is a plain list: no cap, no nested scroll, nothing cut from a print-out. */
+.it-ledger-frame:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (min-width: 701px) {
+  .it-ledger-frame {
+    max-height: 640px;
+    overflow-y: auto;
+    padding-inline-end: 8px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-300) transparent;
+  }
+  /* Vertical edge fades, set by useVerticalFade while rows are hidden. */
+  .it-ledger-frame[data-fade-bottom]:not([data-fade-top]) {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+  }
+  .it-ledger-frame[data-fade-top]:not([data-fade-bottom]) {
+    -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to top, #000 calc(100% - 40px), transparent);
+  }
+  .it-ledger-frame[data-fade-top][data-fade-bottom] {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to bottom, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+  }
+}
+@media print {
+  .it-ledger-frame { max-height: none !important; overflow: visible !important; -webkit-mask-image: none !important; mask-image: none !important; }
+}
 .it-year-head {
   display: flex;
   flex-wrap: wrap;
