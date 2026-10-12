@@ -446,3 +446,10 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
     `localizeMoneyText()` — they rendered `27–2026` in fa/ar (pre-existing since #338; the
     new `2026–27` label and note hit it too). See NOTES.md, Global Exposure.
   - Phase 2 committed and pushed; **no PR yet** — waiting for the user's test.
+- **Phase 2 review (2026-10-12):** at the user's request, **the trips' exact travel dates
+  were removed** ("it may be a privacy concern"). The three `timing` tags are gone; "June
+  2027" became "summer 2027" in the ledger and Signing Up headlines; the three source labels
+  read "Japan trip, 2027" etc. Registration and payment deadlines stay — they are not travel
+  dates. Translations were adapted by swapping each locale's existing "summer 2027"
+  rendering (from the year-group note) into the old headline text, keyed by stamp. As with
+  costs, the dates remain in the research files only.

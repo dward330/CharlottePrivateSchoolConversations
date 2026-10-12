@@ -40,8 +40,8 @@ const LS_WAYBACK =
   'https://web.archive.org/web/20260421200148/https://www.providenceday.org/lower-school/global-education'
 const US_WAYBACK =
   'https://web.archive.org/web/20260421204110/https://www.providenceday.org/upper-school/global-education'
-// The three June 2027 Upper School trips. The slugs say 2026, but the trips run
-// in May–June 2027 (school year 2026–27).
+// The three summer 2027 Upper School trips. The slugs say 2026, but the trips run
+// in summer 2027 (school year 2026–27).
 const TRIP_JAPAN_27 = 'https://www.providenceday.org/japan-2026-us'
 const TRIP_ICELAND_27 = 'https://www.providenceday.org/iceland-2026-us'
 const TRIP_FRANCE_27 = 'https://www.providenceday.org/france-2026-us'
@@ -80,7 +80,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------- where they go -- */
   trips: {
     headline:
-      'Eighteen trips abroad across the 2022–23 to 2026–27 school years — including three Upper School trips planned for June 2027 — from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Filter by division.',
+      'Eighteen trips abroad across the 2022–23 to 2026–27 school years — including three Upper School trips planned for summer 2027 — from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Filter by division.',
     intro: {
       strong:
         'Trips run from one-week conferences to summer immersions, with groups of 2 to 16 students.',
@@ -98,7 +98,6 @@ export const providenceDay: InternationalTravelProgram = {
             div: 'US',
             group: 'grades 9–11',
             theme: 'Tradition and reinvention · remembrance and the work of peace',
-            timing: 'June 4–13, 2027',
           },
           {
             dest: 'Iceland',
@@ -106,7 +105,6 @@ export const providenceDay: InternationalTravelProgram = {
             div: 'US',
             group: 'grades 9–11',
             theme: 'Glaciers and a warming world · geothermal energy · the UN SDGs',
-            timing: 'June 1–8, 2027',
           },
           {
             dest: 'France',
@@ -114,7 +112,6 @@ export const providenceDay: InternationalTravelProgram = {
             div: 'US',
             group: 'grades 9–11',
             theme: 'Exchange week with host families, then Paris · no French required',
-            timing: 'May 29 – June 9, 2027',
             homestay: 'Montpellier',
           },
         ],
@@ -277,9 +274,9 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Global Education', url: GE },
       { label: 'providenceday.org — Middle School Global Education', url: MS },
       { label: 'providenceday.org — Upper School Global Education', url: US },
-      { label: 'providenceday.org — Japan trip, June 2027', url: TRIP_JAPAN_27 },
-      { label: 'providenceday.org — Iceland trip, June 2027', url: TRIP_ICELAND_27 },
-      { label: 'providenceday.org — France trip, May–June 2027', url: TRIP_FRANCE_27 },
+      { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
+      { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
+      { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
       { label: 'providenceday.org — Why Providence Day (photo, travel options)', url: ADM },
       { label: 'providenceday.org — Endowment', url: ENDOW },
       { label: 'providenceday.org — 2014 news post', url: NEWS_2014 },
@@ -524,7 +521,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------------- signing up -- */
   signup: {
     headline:
-      'Registration for the June 2027 trips opens October 16 and closes November 2, with a virtual information session in between, aid decisions in mid-November and required orientations for new GSD students.',
+      'Registration for the summer 2027 trips opens October 16 and closes November 2, with a virtual information session in between, aid decisions in mid-November and required orientations for new GSD students.',
     intro: {
       strong:
         'Registration for global trips opens October 16, 2026, and closes November 2, when the nonrefundable deposit and any financial aid application are also due.',
@@ -594,9 +591,9 @@ export const providenceDay: InternationalTravelProgram = {
     footnote: true,
     sources: [
       { label: 'providenceday.org — School calendars', url: CALENDAR },
-      { label: 'providenceday.org — Japan trip, June 2027', url: TRIP_JAPAN_27 },
-      { label: 'providenceday.org — Iceland trip, June 2027', url: TRIP_ICELAND_27 },
-      { label: 'providenceday.org — France trip, May–June 2027', url: TRIP_FRANCE_27 },
+      { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
+      { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
+      { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
     ],
   },
 
@@ -664,9 +661,9 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Global Studies Diploma', url: GSD },
       { label: 'providenceday.org — Endowment (funds, Jordan)', url: ENDOW },
       { label: 'providenceday.org — Strategic Framework', url: STRATEGY },
-      { label: 'providenceday.org — Japan trip, June 2027', url: TRIP_JAPAN_27 },
-      { label: 'providenceday.org — Iceland trip, June 2027', url: TRIP_ICELAND_27 },
-      { label: 'providenceday.org — France trip, May–June 2027', url: TRIP_FRANCE_27 },
+      { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
+      { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
+      { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
     ],
   },
 }
