@@ -229,7 +229,9 @@ function TripsBody({ data }: { data: TripsCard }) {
             {groups.map((y) => (
               <div key={y.year} className="it-year">
                 <div className="it-year-head">
-                  <span className="it-year-label">{y.year}</span>
+                  {/* Year ranges ("2025–26") are bidi-neutral: without the isolate
+                      localizeMoneyText adds, fa/ar draw them as "26–2025". */}
+                  <span className="it-year-label">{localizeMoneyText(y.year)}</span>
                   {y.note && <span className="text-muted it-year-note">{y.note}</span>}
                   <span className="text-muted it-year-count">
                     {t('travel.tripCount', { count: y.trips.length })}
@@ -351,7 +353,7 @@ function ExchangesBody({ data }: { data: ExchangesCard }) {
       <div className="it-grid it-partners">
         {data.partners.map((p) => (
           <div key={p.school} className="it-cell">
-            <div className="text-muted it-eyebrow">{p.country} · {p.years}</div>
+            <div className="text-muted it-eyebrow">{p.country} · {localizeMoneyText(p.years)}</div>
             <div className="it-partner-school">{p.school}</div>
             <div className="it-small">
               {p.out && (
@@ -449,7 +451,7 @@ function NetworkBody({ data }: { data: NetworkCard }) {
           {data.ledgerTitle && <Heading>{data.ledgerTitle}</Heading>}
           <div className="it-rows it-block">
             {data.conferences.map((c) => (
-              <Row key={c.year} label={c.year} text={c.text} />
+              <Row key={c.year} label={localizeMoneyText(c.year)} text={c.text} />
             ))}
           </div>
         </>
@@ -486,7 +488,7 @@ function SignupBody({ data }: { data: SignupCard }) {
           <div key={g.title} className="it-col">
             <div className="it-year-head">
               <span className="it-year-label">{g.title}</span>
-              {g.note && <span className="text-muted it-year-note">{g.note}</span>}
+              {g.note && <span className="text-muted it-year-note">{localizeMoneyText(g.note)}</span>}
             </div>
             {g.events.map((e) => (
               <div key={e.name} className="it-agenda-row">

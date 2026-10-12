@@ -2807,6 +2807,26 @@ Exposure", and each locale translated the *concept* rather than the words
   (a program name — 4 locales keep it, 5 translate it; either reads correctly).
 - **Fixed in this pass as genuine leaks:** ht kept the three division themes in English
   (8/8 others translated); te kept `Kui Buri National Park` (8/8 translated the park).
+- **pdtrips2027 (2026-10-12) — the June 2027 trips.** 38 strings × 9 locales, spliced by
+  stamp (14 dropped per locale, all edited Phase 1 English). Signing Up event titles
+  (`signup.groups[].events[].name`) are now **prose** in `PATH_OVERRIDES`: the 2027
+  deadlines ("First payment due") are phrases in a proper-noun field, the recurring leak
+  shape. Promoting the path also extracted the four older calendar titles; all are
+  translated except `GSD Donuts and Discussions: Promote Diplomacy!`, a named event series
+  kept byte-identical in all nine. The quoted trip titles ("Continuity and Change", "A
+  Living Lab for the Planet’s Future", "Layers of History & Culture") stay English per the
+  rule above. `UN SDGs` had no precedent and each locale used its standard name for the UN
+  Sustainable Development Goals. First of the month inside a range follows the ordinal
+  rule (`1er–8 juin`, `1º–8 giugno`, `1ye–8 jen`). New `i18n:leaks` keeps: ht's
+  `Tokyo, Hiroshima + Miyajima — "Continuity and Change"` (spelled identically in Kreyòl)
+  and the France row's `Montpellier` homestay in the Latin locales.
+- **Render fix, pdtrips2027:** the ledger year labels (`2025–26`), the exchange-partner
+  years (`2022–25`), the Round Square conference years and the Signing Up group note
+  (`2026–27`) rendered **`26–2025`** in fa/ar — the wrong-year defect `isolateNeutralFigures()`
+  exists for, present since #338 because these four sites printed the raw string. They now
+  pass through `localizeMoneyText()` (a no-op outside RTL). Measured by glyph x-position in
+  Chrome. Small ranges (`4–13 ژوئن`, `9–11`, `6:30–7:00`) still draw right-to-left; that
+  regex deliberately isolates only 4-digit year ranges, %, and fractions.
 - **Render fix, not a translation:** the stat-tile value is wrapped in `<bdi dir="ltr">`.
   Without it, `~19`, `~375`, `280+` and `B−` rendered `19~`, `375~`, `+280`, `−B` inside
   fa/ar tiles — every checker passed, because the stored figure was correct. The other

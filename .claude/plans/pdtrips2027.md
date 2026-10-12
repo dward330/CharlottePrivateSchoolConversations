@@ -1,7 +1,7 @@
 ---
 name: pdtrips2027
 title: Add Providence Day's three 2027 Upper School global trips (Japan, Iceland, France) to Global Exposure
-status: english-done
+status: in-progress
 phases: 2
 created: 2026-10-12
 branch: feat/pdtrips2027
@@ -438,3 +438,11 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
   The user chose **page only**: the costs stay in the research files (the 2027 source file,
   the Source URLs file and the ingested `src/content` JSON), which the page does not render.
   Do not re-add them to rendered data.
+- **Phase 2 (2026-10-12), deviations:**
+  - `signup.groups[].events[].name` promoted to prose in `PATH_OVERRIDES`
+    (`scripts/i18n_fields.mjs`): the new deadline titles are phrases in a proper-noun field
+    and would have rendered English in all nine locales. 38 strings per locale, not ~29.
+  - `InternationalTravel.tsx`: four year-range render sites now go through
+    `localizeMoneyText()` — they rendered `27–2026` in fa/ar (pre-existing since #338; the
+    new `2026–27` label and note hit it too). See NOTES.md, Global Exposure.
+  - Phase 2 committed and pushed; **no PR yet** — waiting for the user's test.
