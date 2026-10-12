@@ -1,7 +1,7 @@
 ---
 name: pdtrips2027
 title: Add Providence Day's three 2027 Upper School global trips (Japan, Iceland, France) to Global Exposure
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-10-12
 branch: feat/pdtrips2027

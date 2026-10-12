@@ -40,6 +40,11 @@ const LS_WAYBACK =
   'https://web.archive.org/web/20260421200148/https://www.providenceday.org/lower-school/global-education'
 const US_WAYBACK =
   'https://web.archive.org/web/20260421204110/https://www.providenceday.org/upper-school/global-education'
+// The three June 2027 Upper School trips. The slugs say 2026, but the trips run
+// in May–June 2027 (school year 2026–27).
+const TRIP_JAPAN_27 = 'https://www.providenceday.org/japan-2026-us'
+const TRIP_ICELAND_27 = 'https://www.providenceday.org/iceland-2026-us'
+const TRIP_FRANCE_27 = 'https://www.providenceday.org/france-2026-us'
 
 export const providenceDay: InternationalTravelProgram = {
   lead: {
@@ -75,14 +80,45 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------- where they go -- */
   trips: {
     headline:
-      'Fifteen trips abroad across the 2022–23 to 2025–26 school years — Round Square conferences, service projects, language-immersion trips with host-family stays, and science expeditions. Filter by division.',
+      'Eighteen trips abroad across the 2022–23 to 2026–27 school years — including three Upper School trips planned for June 2027 — from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Filter by division.',
     intro: {
       strong:
-        'Trips run from one-week conferences to summer immersions, with groups of 2 to 12 students.',
+        'Trips run from one-week conferences to summer immersions, with groups of 2 to 16 students.',
       muted:
         'Faculty lead trips over spring break and in the summer. Middle School students can also travel to a Middle School Round Square conference and on a summer PD trip.',
     },
     years: [
+      {
+        year: '2026–27',
+        note: 'planned for summer 2027',
+        trips: [
+          {
+            dest: 'Japan',
+            place: 'Tokyo, Hiroshima + Miyajima — "Continuity and Change"',
+            div: 'US',
+            group: 'grades 9–11',
+            theme: 'Tradition and reinvention · remembrance and the work of peace',
+            timing: 'June 4–13, 2027',
+          },
+          {
+            dest: 'Iceland',
+            place: 'Reykjavík, the Golden Circle + the south coast — "A Living Lab for the Planet’s Future"',
+            div: 'US',
+            group: 'grades 9–11',
+            theme: 'Glaciers and a warming world · geothermal energy · the UN SDGs',
+            timing: 'June 1–8, 2027',
+          },
+          {
+            dest: 'France',
+            place: 'Montpellier (Lycée Notre Dame de la Merci) + Paris — "Layers of History & Culture"',
+            div: 'US',
+            group: 'grades 9–11',
+            theme: 'Exchange week with host families, then Paris · no French required',
+            timing: 'May 29 – June 9, 2027',
+            homestay: 'Montpellier',
+          },
+        ],
+      },
       {
         year: '2025–26',
         note: 'dated by Round Square',
@@ -241,6 +277,9 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Global Education', url: GE },
       { label: 'providenceday.org — Middle School Global Education', url: MS },
       { label: 'providenceday.org — Upper School Global Education', url: US },
+      { label: 'providenceday.org — Japan trip, June 2027', url: TRIP_JAPAN_27 },
+      { label: 'providenceday.org — Iceland trip, June 2027', url: TRIP_ICELAND_27 },
+      { label: 'providenceday.org — France trip, May–June 2027', url: TRIP_FRANCE_27 },
       { label: 'providenceday.org — Why Providence Day (photo, travel options)', url: ADM },
       { label: 'providenceday.org — Endowment', url: ENDOW },
       { label: 'providenceday.org — 2014 news post', url: NEWS_2014 },
@@ -485,16 +524,17 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------------- signing up -- */
   signup: {
     headline:
-      'Global trip registration opens October 16, with a virtual Global Trips information session a week later and required orientations for new GSD students.',
+      'Registration for the June 2027 trips opens October 16 and closes November 2, with a virtual information session in between, aid decisions in mid-November and required orientations for new GSD students.',
     intro: {
-      strong: 'Registration for global trips opens October 16, 2026.',
+      strong:
+        'Registration for global trips opens October 16, 2026, and closes November 2, when the nonrefundable deposit and any financial aid application are also due.',
       muted:
-        'Both trip events are on the school\'s Global Education calendar. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade.',
+        'Both trip events are on the school\'s Global Education calendar. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. The three published 2027 trips are Upper School only, for students in grades 9–11 when they register: Japan costs $5,650, Iceland $5,450 and France $3,850, each plus a group flight (estimated at $2,700, $1,600 and $1,560). A $1,000 nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
     },
     groups: [
       {
         title: 'Global Trips',
-        note: 'Fall 2026',
+        note: '2026–27',
         events: [
           {
             when: 'October 16, 2026 · All day',
@@ -506,6 +546,41 @@ export const providenceDay: InternationalTravelProgram = {
             name: 'Global Trips Virtual Information Session',
             detail: 'Online, via Google Meet',
             audience: 'Middle & Upper School · grades 6–12',
+          },
+          {
+            when: 'November 2, 2026',
+            name: 'Registration, nonrefundable deposit and financial aid application due',
+            audience: 'Upper School · grades 9–11',
+          },
+          {
+            when: 'November 13, 2026',
+            name: 'Financial aid award letters sent',
+            audience: 'Upper School · grades 9–11',
+          },
+          {
+            when: 'November 16, 2026',
+            name: 'Financial aid award decisions due',
+            audience: 'Upper School · grades 9–11',
+          },
+          {
+            when: 'November 19, 2026',
+            name: 'Trip status letters sent to families',
+            audience: 'Upper School · grades 9–11',
+          },
+          {
+            when: 'December 1, 2026',
+            name: 'First payment due',
+            audience: 'Upper School · grades 9–11',
+          },
+          {
+            when: 'January 25, 2027',
+            name: 'PDS travel forms due',
+            audience: 'Upper School · grades 9–11',
+          },
+          {
+            when: 'February 1, 2027',
+            name: 'Second payment due',
+            audience: 'Upper School · grades 9–11',
           },
         ],
       },
@@ -527,13 +602,18 @@ export const providenceDay: InternationalTravelProgram = {
       },
     ],
     footnote: true,
-    sources: [{ label: 'providenceday.org — School calendars', url: CALENDAR }],
+    sources: [
+      { label: 'providenceday.org — School calendars', url: CALENDAR },
+      { label: 'providenceday.org — Japan trip, June 2027', url: TRIP_JAPAN_27 },
+      { label: 'providenceday.org — Iceland trip, June 2027', url: TRIP_ICELAND_27 },
+      { label: 'providenceday.org — France trip, May–June 2027', url: TRIP_FRANCE_27 },
+    ],
   },
 
   /* --------------------------------------------- verdict & ask the school -- */
   verdict: {
     headline:
-      "Where the program stands out, and ten questions the school's website doesn't answer yet — starting grade, current trips, cost and safety.",
+      "Where the program stands out, and nine questions the school's website doesn't answer yet — starting grade, Middle School trips, aid and safety.",
     standsOut: {
       summary:
         'Among Charlotte private schools, Providence Day stands out for its credential (the GSD), its Round Square network and the breadth of its reciprocal exchanges.',
@@ -551,18 +631,14 @@ export const providenceDay: InternationalTravelProgram = {
           'What is the earliest grade allowed on an international trip? Are Middle School trips open to 6th graders, or only 7th–8th?',
       },
       {
-        topic: 'Current trip list.',
-        question: 'Which trips are offered for 2026–27 and summer 2027? What are the dates, durations and grade bands?',
-      },
-      {
-        topic: 'Cost.',
+        topic: 'Middle School trips.',
         question:
-          'What is the price range per trip, and what does it include (airfare, insurance, meals)? What are the deposit and refund policies?',
+          'Which Middle School trips are offered for 2026–27 and summer 2027? The published 2027 trip pages are all Upper School, grades 9–11.',
       },
       {
         topic: 'Aid.',
         question:
-          'Do the endowed funds listed under "Financial Assistance Beyond Tuition" (Murdock, Latchwood, Bhandari Mehta) cover global trips? How does a family apply, and when?',
+          'Trip aid is limited and covers one global trip per student. How much does a typical award cover, and do the endowed funds listed under "Financial Assistance Beyond Tuition" (Murdock, Latchwood, Bhandari Mehta) contribute?',
       },
       {
         topic: 'Jordan.',
@@ -571,12 +647,13 @@ export const providenceDay: InternationalTravelProgram = {
       },
       {
         topic: 'Selection.',
-        question: 'Are trips first-come, first-served or application-based? How are Round Square delegates chosen?',
+        question:
+          'Registrations go to a Global Education Travel Committee for review. When a trip is oversubscribed, how are places decided? How are Round Square delegates chosen?',
       },
       {
         topic: 'Safety.',
         question:
-          'What are the chaperone ratios, travel vendors, insurance, emergency protocols, and passport and visa timelines?',
+          'Each 2027 trip has two PD study tour leaders, travel partner Envoys and emergency medical and evacuation insurance. What are the emergency protocols, and who manages medical needs on the trip?',
       },
       {
         topic: 'Exchanges.',
@@ -597,6 +674,9 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Global Studies Diploma', url: GSD },
       { label: 'providenceday.org — Endowment (funds, Jordan)', url: ENDOW },
       { label: 'providenceday.org — Strategic Framework', url: STRATEGY },
+      { label: 'providenceday.org — Japan trip, June 2027', url: TRIP_JAPAN_27 },
+      { label: 'providenceday.org — Iceland trip, June 2027', url: TRIP_ICELAND_27 },
+      { label: 'providenceday.org — France trip, May–June 2027', url: TRIP_FRANCE_27 },
     ],
   },
 }
