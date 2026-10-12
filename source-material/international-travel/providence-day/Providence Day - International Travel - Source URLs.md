@@ -171,3 +171,9 @@ pages use a hyphen.
 **Spelling.** The France page writes "Lycée Notre Dame de La Merci"; the app keeps the
 existing "Lycée Notre Dame de la Merci" so one school reads identically across the ledger
 and the exchanges card.
+
+**Calendar check (2026-10-12).** The school calendar (element 34493 on
+https://www.providenceday.org/calendars, fetched month by month for Oct 2026 – Feb 2027)
+lists only "Global Trip Registration Opens" (Oct 16) and "Global Trips Virtual Information
+Session" (Oct 22). None of the 2027 trip-page deadlines (Nov 2, Nov 19, Dec 1, Jan 25,
+Feb 1) appear on it, so the Signing Up intro says those come from the trip pages.
