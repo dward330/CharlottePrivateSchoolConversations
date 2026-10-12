@@ -419,3 +419,13 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
   The ledger is "trips on the record", and the year note says "planned for summer 2027".
   If the user wants planned trips visually distinct beyond that note, that is a new tag
   variant and needs UX approval.
+
+## Implementation notes
+
+- **Phase 1 review (2026-10-12):** at the user's request, the two financial-aid rows were
+  removed from Signing Up's Global Trips column — `November 13, 2026` "Financial aid award
+  letters sent" and `November 16, 2026` "Financial aid award decisions due". The column has
+  **7 events**, not 9. The November 2 row, which also names the aid application, stays.
+- `npm run build` exits 1 at `check:live` throughout Phase 1: the 13 edited English strings
+  per locale no longer match their shipped translations. Vite build and prerender complete
+  before it; Phase 2's splice clears it.

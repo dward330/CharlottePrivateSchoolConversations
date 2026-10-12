@@ -553,16 +553,6 @@ export const providenceDay: InternationalTravelProgram = {
             audience: 'Upper School · grades 9–11',
           },
           {
-            when: 'November 13, 2026',
-            name: 'Financial aid award letters sent',
-            audience: 'Upper School · grades 9–11',
-          },
-          {
-            when: 'November 16, 2026',
-            name: 'Financial aid award decisions due',
-            audience: 'Upper School · grades 9–11',
-          },
-          {
             when: 'November 19, 2026',
             name: 'Trip status letters sent to families',
             audience: 'Upper School · grades 9–11',
