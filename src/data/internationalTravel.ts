@@ -156,12 +156,15 @@ export type InternationalTravelProgram = {
  * titles; a school retitles them through TITLE_OVERRIDES below.
  */
 export const INTERNATIONAL_TRAVEL_CARDS = [
+  // Order set by the user on review (2026-10-11): exchanges and signing up move
+  // ahead of the school-level overview, so the "how do we take part" cards follow
+  // the trip ledger directly.
   { key: 'trips', title: 'Where They Go' },
-  { key: 'start', title: 'Global Learning at Each School Level' },
   { key: 'exchanges', title: 'Exchanges & Homestays' },
+  { key: 'signup', title: 'Signing Up' },
+  { key: 'start', title: 'Global Learning at Each School Level' },
   { key: 'credential', title: 'Credential' },
   { key: 'network', title: 'Network' },
-  { key: 'signup', title: 'Signing Up' },
   { key: 'verdict', title: 'Verdict & Ask the School' },
 ] as const satisfies readonly {
   key: 'trips' | 'start' | 'exchanges' | 'credential' | 'network' | 'signup' | 'verdict'

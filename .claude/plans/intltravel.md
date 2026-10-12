@@ -1011,3 +1011,5 @@ Quotes remain only on:
 The rule is in `internationalTravel/README.md`.
 
 **Retitle (2026-10-11):** the `start` card is now "Global Learning at Each School Level". "Grade by Grade" overpromised, because the card is organised by Lower / Middle / Upper School.
+
+**Card order changed on review (2026-10-11):** trips → exchanges → signup → start → credential → network → verdict. The registry order in `INTERNATIONAL_TRAVEL_CARDS` is the only change.

@@ -803,11 +803,11 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
 | `trips` | Where They Go | — |
-| `start` | Global Learning at Each School Level | — |
 | `exchanges` | Exchanges & Homestays | — |
+| `signup` | Signing Up | — |
+| `start` | Global Learning at Each School Level | — |
 | `credential` | Credential | — |
 | `network` | Network | — |
-| `signup` | Signing Up | — |
 | `verdict` | Verdict & Ask the School | — |
 
 **Schools with data:** 1/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
