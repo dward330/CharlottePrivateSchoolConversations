@@ -521,12 +521,12 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------------- signing up -- */
   signup: {
     headline:
-      'Registration for the summer 2027 trips opens October 16 and closes November 2, with a virtual information session in between, aid decisions in mid-November and required orientations for new GSD students.',
+      'Registration for the summer 2027 trips opens October 16 and closes November 2, with a virtual information session in between and required orientations for new GSD students.',
     intro: {
       strong:
         'Registration for global trips opens October 16, 2026, and closes November 2, when the nonrefundable deposit and any financial aid application are also due.',
       muted:
-        'Both trip events are on the school\'s Global Education calendar. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. The three published 2027 trips are Upper School only, for students in grades 9–11 when they register. A nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
+        'The first two trip events are on the school\'s Global Education calendar; the other deadlines come from the 2027 trip pages and are not on the calendar yet. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. The three published 2027 trips are Upper School only, for students in grades 9–11 when they register. A nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
     },
     groups: [
       {

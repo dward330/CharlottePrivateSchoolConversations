@@ -453,3 +453,8 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
   dates. Translations were adapted by swapping each locale's existing "summer 2027"
   rendering (from the year-group note) into the old headline text, keyed by stamp. As with
   costs, the dates remain in the research files only.
+- **Follow-up after merge (2026-10-12):** the Signing Up headline drops "aid decisions in
+  mid-November", and the intro's first sentence now says the first two trip events are on
+  the calendar and the other deadlines come from the trip pages. A month-by-month calendar
+  fetch (Oct 2026 – Feb 2027) confirmed none of the 2027 deadlines are on it yet. Both
+  strings were translated in all nine locales by editing each existing translation.
