@@ -1,11 +1,11 @@
 ---
 name: pdtrips2027
 title: Add Providence Day's three 2027 Upper School global trips (Japan, Iceland, France) to Global Exposure
-status: in-progress
+status: implemented
 phases: 2
 created: 2026-10-12
 branch: feat/pdtrips2027
-prs: []
+prs: [341]
 ---
 
 # Providence Day — the 2027 global trips
@@ -445,7 +445,7 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
   - `InternationalTravel.tsx`: four year-range render sites now go through
     `localizeMoneyText()` — they rendered `27–2026` in fa/ar (pre-existing since #338; the
     new `2026–27` label and note hit it too). See NOTES.md, Global Exposure.
-  - Phase 2 committed and pushed; **no PR yet** — waiting for the user's test.
+  - Shipped in PR #341 after the user tested both phases locally.
 - **Phase 2 review (2026-10-12):** at the user's request, **the trips' exact travel dates
   were removed** ("it may be a privacy concern"). The three `timing` tags are gone; "June
   2027" became "summer 2027" in the ledger and Signing Up headlines; the three source labels
