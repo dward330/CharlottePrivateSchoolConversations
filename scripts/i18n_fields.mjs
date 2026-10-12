@@ -715,6 +715,10 @@ export const PATH_OVERRIDES = new Map([
   ['exchanges.partners[].school', false],
   ['exchanges.partners[].years', false],
   ['exchanges.homestays[].place', true],
+  ['exchanges.visitors[]', true],
+  // Division / grade band on a Signing Up agenda row ("Upper School · GSD students,
+  // grades 9–12") — a phrase, not a code.
+  ['signup.groups[].events[].audience', true],
   ['credential.required[]', true],
   ['credential.beyond[]', true],
   ['credential.quote.attribution', true],

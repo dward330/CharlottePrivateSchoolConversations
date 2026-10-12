@@ -58,7 +58,7 @@ exists yet and **the section does not render at all** for that school.
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
-| International Travel | `international-travel` | — | — | — | — | — | — | — | — | — | — | 2 | — |
+| Global Exposure | `international-travel` | — | — | — | — | — | — | — | — | — | — | 2 | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -91,11 +91,11 @@ research dossier folds in behind a structured card.
 |---|---|--:|--:|
 | `curriculum` | Course Offerings | 12/12 | 9 |
 
-### International Travel `international-travel`
+### Global Exposure `international-travel`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | International Travel Research Dossier (2026) | 1/12 | 2 |
+| `redesign-research` | Global Exposure Research Dossier (2026) | 1/12 | 2 |
 
 ### Student Clubs `student-clubs`
 
@@ -796,14 +796,14 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 </details>
 
-### International Travel `international-travel`
+### Global Exposure `international-travel`
 
 Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` · `src/data/internationalTravel.ts` · per-school `src/data/internationalTravel/<slug>.ts`
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
 | `trips` | Where They Go | — |
-| `start` | When Your Child Can Start | — |
+| `start` | Global Learning, Grade by Grade | — |
 | `exchanges` | Exchanges & Homestays | — |
 | `credential` | Credential | — |
 | `network` | Network | — |
@@ -832,7 +832,7 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 
 `ExchangePartner` — `country`, `years`, `school`, `out?`, `in?`
 
-`ExchangesCard` — `headline`, `intro`, `partners`, `photo?`, `homestays`, `sources`
+`ExchangesCard` — `headline`, `intro`, `partners`, `photo?`, `homestays`, `visitors?`, `sources`
 
 `CredentialCard` — `headline`, `intro`, `stats`, `required`, `beyond`, `quote?`, `award?`, `sources`
 

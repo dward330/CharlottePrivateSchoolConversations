@@ -960,3 +960,35 @@ scrolls inside a capped frame on desktop.**
 - Verified in Chrome: 640px cap, fades toggling top/bottom with scroll, MS filter →
   307px with no fade and scrollTop 0; at 390px no cap and no overflow; print media
   uncapped; `audit:mobile` clean.
+
+**Post-review corrections (2026-10-11, user-requested before Phase 2):**
+- **Renamed for display to "Global Exposure".** This covers `topics.*`, `TOPIC_NAMES`,
+  the metric label and the meta description. The slug, data dir, source-material folder,
+  overlay filenames and component/module names deliberately keep `international-travel`:
+  renaming them would churn the ingest, overlay and i18n wiring for no reader-visible
+  gain. Phase 2 translates "Global Exposure", not "International Travel".
+- **`start` card retitled "Global Learning, Grade by Grade".** The old title read as
+  "when does travel start".
+- **Exchanges:**
+  - the intro speaks in the first person ("At PD, …");
+  - "Out:" / "In:" became the self-explanatory labels "PD student abroad:" / "Partner
+    student at PD:", with values reworded to read after them ("a return visit",
+    "in April", "expected in the fall"), in place of a legend;
+  - "Living with a family" became "Staying with host families abroad", with full
+    sentences and "City, Country" labels;
+  - the "On campus" row (visiting students joining PD classes, not a homestay) moved to
+    a new optional `exchanges.visitors[]` list under "Visiting students on campus".
+- **GSD:**
+  - first-person intro;
+  - the graduates tile is now `~375` "students have received the GSD to date" (the GSD
+    page's current figure, marked approximate), replacing the 250–375 range; the README
+    rule now prefers the current figure with `~` over a range;
+  - quotes removed from the first "Beyond the classroom" item;
+  - "Columbia University" in full (the school page lists "Columbia University '29").
+- **Signing Up:** each event carries an `audience` tag ("Middle & Upper School · grades
+  6–12", "Upper School · GSD students, grades 9–12", "Upper School · new GSD students,
+  typically grade 9"). The intro states that the tags are our reading, not the
+  calendar's.
+- **New chrome keys for Phase 2:** `travel.visitorsOnCampus`. Changed values:
+  `travel.out`, `travel.in`, `travel.livingWithFamily`, `topics.international-travel`,
+  `cards.international-travel.start`, `metrics.international-travel.redesign-research`.

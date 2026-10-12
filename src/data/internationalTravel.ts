@@ -85,7 +85,10 @@ export type ExchangesCard = {
   intro: TravelLead
   partners: ExchangePartner[]
   photo?: TravelPhoto
+  /** Host-family stays abroad, one complete sentence per "City, Country". */
   homestays: { place: string; text: string }[]
+  /** Visiting exchange students who joined the school's own classes. */
+  visitors?: string[]
   sources: Source[]
 }
 
@@ -117,7 +120,8 @@ export type SignupCard = {
   groups: {
     title: string
     note?: string
-    events: { when: string; name: string; detail?: string }[]
+    /** `audience` is the division / grade band the event is for, as a tag. */
+    events: { when: string; name: string; detail?: string; audience?: string }[]
   }[]
   /** Show the "confirm on the live calendar" footnote. */
   footnote?: boolean
@@ -131,7 +135,7 @@ export type VerdictCard = {
   sources: Source[]
 }
 
-/** One school's International Travel entry. */
+/** One school's International Travel (displayed "Global Exposure") entry. */
 export type InternationalTravelProgram = {
   lead: TravelLead
   /** ≤4 tiles; the strip renders nothing when empty. */
@@ -153,7 +157,7 @@ export type InternationalTravelProgram = {
  */
 export const INTERNATIONAL_TRAVEL_CARDS = [
   { key: 'trips', title: 'Where They Go' },
-  { key: 'start', title: 'When Your Child Can Start' },
+  { key: 'start', title: 'Global Learning, Grade by Grade' },
   { key: 'exchanges', title: 'Exchanges & Homestays' },
   { key: 'credential', title: 'Credential' },
   { key: 'network', title: 'Network' },

@@ -77,7 +77,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Trinity Episcopal School](high-school-placement/trinity-episcopal.md) — 3 docs
 
-### International Travel (`international-travel/`)
+### Global Exposure (`international-travel/`)
 
 - [Providence Day School](international-travel/providence-day.md) — 2 docs
 

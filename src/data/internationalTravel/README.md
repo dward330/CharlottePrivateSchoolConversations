@@ -4,6 +4,9 @@ One `<slug>.ts` per school with International Travel research, each exporting an
 `InternationalTravelProgram` (types and card registry in
 [`../internationalTravel.ts`](../internationalTravel.ts)).
 
+**The area is displayed as "Global Exposure"** (renamed 2026-10-11); its slug, data
+directory and source-material folder keep the original `international-travel` name.
+
 **Providence Day is the only occupant** (`.claude/plans/intltravel.md`), added
 2026-10-11 from a Claude Design handoff. The area sits directly after Course Offerings
 and is **deliberately off Compare** (`COMPARE_DEFERRED_TOPICS` in
@@ -30,9 +33,12 @@ researched" shell.
   published" text. An unknown is omitted (a trip with no stated timing has no
   `timing`), and if a parent would want it answered it becomes an "Ask on the tour"
   question.
-- **Conflicts between the school's own pages are shown as ranges**, and the text says
-  so ("250–375 — school pages give different totals"). Our own tallies say they are
-  ours ("our count from the school's Global Map").
+- **Where the school's own pages give different totals, show the most current one,
+  marked `~` as an approximation** — not a range with a "pages differ" caveat (user
+  preference, 2026-10-11). Providence Day's GSD tile is `~375`, from the GSD page's "to
+  date" count, though older pages say 250+, 300+ and 325+. Record the other figures in
+  the Source URLs file. Our own tallies say they are ours ("our count from the school's
+  Global Map").
 - **`credential` and `network` are retitled per school** through `TITLE_OVERRIDES` in
   `../internationalTravel.ts` (Providence Day: "The Global Studies Diploma", "Round
   Square & the Wider Network"). Each override needs a
@@ -44,5 +50,5 @@ researched" shell.
   filename, `alt` or caption, even when the school's own alt text names them; rename
   the file on download if the CDN path carries a name. With no photo the figure is
   omitted and the adjacent column fills the width.
-- **Figures are authored US-style** (`250–375`, `3.75`, `B−`, `280+`) and never
+- **Figures are authored US-style** (`~375`, `3.75`, `B−`, `280+`) and never
   re-typed per locale.

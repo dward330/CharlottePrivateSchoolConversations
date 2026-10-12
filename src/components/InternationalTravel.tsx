@@ -368,14 +368,28 @@ function ExchangesBody({ data }: { data: ExchangesCard }) {
             <Photo photo={data.photo} />
           </div>
         )}
-        {data.homestays.length > 0 && (
+        {(data.homestays.length > 0 || (data.visitors?.length ?? 0) > 0) && (
           <div className="it-main">
-            <Heading>{t('travel.livingWithFamily')}</Heading>
-            <div className="it-rows">
-              {data.homestays.map((h) => (
-                <Row key={h.place} label={h.place} text={h.text} wide />
-              ))}
-            </div>
+            {data.homestays.length > 0 && (
+              <>
+                <Heading>{t('travel.livingWithFamily')}</Heading>
+                <div className="it-rows it-block">
+                  {data.homestays.map((h) => (
+                    <Row key={h.place} label={h.place} text={h.text} wide />
+                  ))}
+                </div>
+              </>
+            )}
+            {data.visitors && data.visitors.length > 0 && (
+              <>
+                <Heading>{t('travel.visitorsOnCampus')}</Heading>
+                <div className="it-list">
+                  {data.visitors.map((v) => (
+                    <p key={v} className="it-list-item it-para"><RichText text={v} /></p>
+                  ))}
+                </div>
+              </>
+            )}
           </div>
         )}
       </div>
@@ -478,6 +492,11 @@ function SignupBody({ data }: { data: SignupCard }) {
                 <div className="it-agenda-what">
                   <div className="it-agenda-name">{e.name}</div>
                   {e.detail && <div className="text-muted it-small">{e.detail}</div>}
+                  {e.audience && (
+                    <div className="it-tags it-agenda-tags">
+                      <span className="tag tag-neutral">{e.audience}</span>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}

@@ -103,7 +103,7 @@ const RULES: Record<string, Rule[]> = {
     {
       match: /.*/,
       key: 'redesign-research',
-      label: 'International Travel Research Dossier (2026)',
+      label: 'Global Exposure Research Dossier (2026)',
     },
   ],
   'summer-programs': [
@@ -340,6 +340,7 @@ const TOPIC_ORDER: string[] = [
   'admissions',
   'course-offerings',
   // Placed directly after Course Offerings at the user's request (2026-10-11).
+  // Displayed as "Global Exposure" (renamed 2026-10-11); the slug is unchanged.
   'international-travel',
   'student-clubs',
   'the-arts',

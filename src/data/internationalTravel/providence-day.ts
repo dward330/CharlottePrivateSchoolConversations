@@ -325,14 +325,14 @@ export const providenceDay: InternationalTravelProgram = {
     intro: {
       strong: 'Individual Round Square exchanges, logged on the Global Map from 2022–23 to 2024–25.',
       muted:
-        'The school says PD students "have engaged in two- to four-week exchanges"; most are reciprocal, with the host student later spending a similar period at Providence Day.',
+        'At PD, students "have engaged in two- to four-week exchanges," and most are reciprocal: the partner student later spends a similar period at Providence Day.',
     },
     partners: [
       { country: 'Colombia', years: '2022–25', school: 'Colegio Los Nogales', out: 'two weeks in March', in: 'two weeks, then three weeks' },
       { country: 'Peru', years: '2022–24', school: 'Colegio San Silvestre, Lima', out: 'four weeks', in: 'one month' },
-      { country: 'Australia', years: '2023–25', school: 'Matthew Flinders School, Sunshine Coast', out: 'four weeks', in: 'hosted in return' },
-      { country: 'South Africa', years: '2024–25', school: 'Dainfern College', out: 'three weeks, summer', in: 'April' },
-      { country: 'Germany', years: '2024–25', school: 'Landheim Ammersee', out: 'three weeks in March, boarding or homestay', in: 'hosts expected in the fall' },
+      { country: 'Australia', years: '2023–25', school: 'Matthew Flinders School, Sunshine Coast', out: 'four weeks', in: 'a return visit' },
+      { country: 'South Africa', years: '2024–25', school: 'Dainfern College', out: 'three weeks over the summer', in: 'in April' },
+      { country: 'Germany', years: '2024–25', school: 'Landheim Ammersee', out: 'three weeks in March, boarding or homestay', in: 'expected in the fall' },
       { country: 'Germany', years: '2022–23', school: 'Schule Schloss Salem', out: 'one month', in: 'one month' },
       { country: 'Bermuda', years: '2022–23', school: 'Bermuda High School for Girls', out: 'two separate weeks in March' },
       {
@@ -353,13 +353,21 @@ export const providenceDay: InternationalTravelProgram = {
       credit: 'Photo: Providence Day School',
     },
     homestays: [
-      { place: 'Bogotá', text: 'Homestays during the 2024–25 Round Square conference in Colombia' },
-      { place: 'Seville', text: 'A host family and daily language classes, summer 2023' },
-      { place: 'Montpellier', text: 'A French host family on the reciprocal language exchange' },
       {
-        place: 'On campus',
-        text: 'Visiting students from Finland (spring semester, junior class) and Germany (six weeks in the fall, sophomore class) in 2022–23',
+        place: 'Bogotá, Colombia',
+        text: 'Upper School students at the 2024–25 Round Square International Conference in Colombia stayed with host families in Bogotá.',
       },
+      {
+        place: 'Seville, Spain',
+        text: 'On the summer 2023 trip to Spain, Upper School students had a host-family stay in Seville and took language classes every day.',
+      },
+      {
+        place: 'Montpellier, France',
+        text: 'On the reciprocal language exchange with Lycée Notre Dame de la Merci, PD students stayed with French host families.',
+      },
+    ],
+    visitors: [
+      'In 2022–23, a student from Finland joined PD\'s junior class for the spring semester, and a student from Germany joined the sophomore class for six weeks in the fall.',
     ],
     sources: [
       { label: 'providenceday.org — Global Map', url: MAP },
@@ -374,13 +382,13 @@ export const providenceDay: InternationalTravelProgram = {
       'An optional second diploma for grades 9–12 — global coursework, four years of one language, travel or hosting, and a Global Leadership course.',
     intro: {
       strong:
-        'The school calls it "an optional second diploma that recognizes students who pursue advanced global learning throughout their Upper School experience."',
+        'At PD, the Global Studies Diploma is "an optional second diploma that recognizes students who pursue advanced global learning throughout their Upper School experience."',
       muted:
         'Students "typically begin their GSD journey in 9th grade," and "can join later in Upper School under certain circumstances." School pages date the start to 2005 or 2007.',
     },
     stats: [
       { value: '~20', label: 'seniors graduate with it in a typical year' },
-      { value: '250–375', label: 'graduates so far — school pages give different totals' },
+      { value: '~375', label: 'students have received the GSD to date' },
       { value: 'B−', label: 'minimum grade in every required GSD course' },
     ],
     required: [
@@ -393,7 +401,7 @@ export const providenceDay: InternationalTravelProgram = {
       'Global Leadership',
     ],
     beyond: [
-      '"Traveling abroad and/or hosting exchange students"',
+      'Traveling abroad and/or hosting exchange students',
       'Attending local global speaker events',
       'Presenting global experiences to peers',
       'Taking civic action',
@@ -403,7 +411,7 @@ export const providenceDay: InternationalTravelProgram = {
     quote: {
       text: 'Thanks to Global Education, she can think of herself "as more than a North Carolinian, more than an American, but as a human."',
       attribution:
-        'A Class of 2025 graduate, now at Columbia, who "had never left the United States" when she started freshman year — and has since "jumped off cliffs in Wales, met with students from Japan at Oxford University, and explored La Alhambra in Spain."',
+        'A Class of 2025 graduate, now at Columbia University, who "had never left the United States" when she started freshman year — and has since "jumped off cliffs in Wales, met with students from Japan at Oxford University, and explored La Alhambra in Spain."',
     },
     award: {
       name: 'Distinguished Global Scholar Award',
@@ -416,7 +424,6 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'GSD site — Alumni', url: GSD_ALUMNI },
       { label: 'GSD site — Home (portfolio)', url: GSD_HOME },
       { label: 'providenceday.org — Global Education (alumna, "starting in ninth grade")', url: GE },
-      { label: 'providenceday.org — Why Providence Day (250+)', url: ADM },
       { label: 'providenceday.org — Endowment (award)', url: ENDOW },
     ],
   },
@@ -481,18 +488,24 @@ export const providenceDay: InternationalTravelProgram = {
       'Global trip registration opens October 16, with a virtual Global Trips information session a week later and required orientations for new GSD students.',
     intro: {
       strong: 'Registration for global trips opens October 16, 2026.',
-      muted: "Both trip events sit on the school's Global Education calendar.",
+      muted:
+        'Both trip events sit on the school\'s Global Education calendar. The division and grade tags are our reading, not the calendar\'s: the trips on record run in Middle and Upper School, and the GSD is an Upper School program students "typically begin" in 9th grade.',
     },
     groups: [
       {
         title: 'Global Trips',
         note: 'Fall 2026',
         events: [
-          { when: 'October 16, 2026 · All day', name: 'Global Trip Registration Opens' },
+          {
+            when: 'October 16, 2026 · All day',
+            name: 'Global Trip Registration Opens',
+            audience: 'Middle & Upper School · grades 6–12',
+          },
           {
             when: 'October 22, 2026 · 6:30–7:00 PM',
             name: 'Global Trips Virtual Information Session',
             detail: 'Online, via Google Meet',
+            audience: 'Middle & Upper School · grades 6–12',
           },
         ],
       },
@@ -500,8 +513,16 @@ export const providenceDay: InternationalTravelProgram = {
         title: 'Global Studies Diploma',
         note: 'Upper School · GSD students',
         events: [
-          { when: 'September 29, 2026 · 1:15–2:15 PM', name: 'GSD Donuts and Discussions: Promote Diplomacy!' },
-          { when: 'October 2, 2026 · 1:00–2:00 PM', name: 'Final Required GSD New Student Orientation #3' },
+          {
+            when: 'September 29, 2026 · 1:15–2:15 PM',
+            name: 'GSD Donuts and Discussions: Promote Diplomacy!',
+            audience: 'Upper School · GSD students, grades 9–12',
+          },
+          {
+            when: 'October 2, 2026 · 1:00–2:00 PM',
+            name: 'Final Required GSD New Student Orientation #3',
+            audience: 'Upper School · new GSD students, typically grade 9',
+          },
         ],
       },
     ],

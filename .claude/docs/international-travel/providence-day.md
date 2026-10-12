@@ -1,4 +1,4 @@
-# Providence Day School — International Travel
+# Providence Day School — Global Exposure
 > Distilled from 2 source document(s) in `source-material/international-travel/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-11.
 **Documents:** Deep Research, Source URLs
 
