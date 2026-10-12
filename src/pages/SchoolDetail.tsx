@@ -22,7 +22,7 @@ import { toCompare, toHome, toSchool, useNavigate } from '../lib/router.ts'
    which a PreK-8 school MUST appear in — it is how a reader reaches that
    school's dossier. `comparableSchools` drops PreK-8 schools and feeds the
    per-topic Compare links only. Swapping either one silently breaks the other. */
-import { schools as allSchools, comparableSchools, hasHighSchool } from '../lib/manifest.ts'
+import { schools as allSchools, comparableSchools, hasHighSchool, COMPARE_DEFERRED_TOPICS } from '../lib/manifest.ts'
 import { COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
 import { financialAidReport, loadFinancialAidReportOverlay } from '../data/financialAidReports.ts'
@@ -134,6 +134,19 @@ import {
   AdmissionsCardBody,
   AdmissionsStatBand,
 } from '../components/AdmissionsProgram.tsx'
+import {
+  internationalTravelProgram,
+  loadInternationalTravelOverlay,
+  INTERNATIONAL_TRAVEL_CARDS,
+  WIDE_TRAVEL_CARDS,
+  internationalTravelCardTitleFor,
+  titleOverrideSlug as travelOverrideSlug,
+} from '../data/internationalTravel.ts'
+import {
+  InternationalTravelCardBody,
+  InternationalTravelLead,
+  InternationalTravelStatBand,
+} from '../components/InternationalTravel.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
@@ -497,6 +510,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadMetricValuesOverlay(lang),
       loadFinancialAidReportOverlay(lang),
       loadAdmissionsOverlay(lang),
+      loadInternationalTravelOverlay(lang),
       /* The content overlay must be warmed BEFORE loadMetricGroups reads it —
          it resolves blocks synchronously off the cached index, so racing them
          would render English on first paint. */
@@ -513,8 +527,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
          Adding a loader without adding a hole silently feeds its `void` result
          into Object.fromEntries as if it were a [slug, groups] pair — which is
          what `tsc -b` caught when Summer Programs made it nine. Admissions
-         made it ten. High School Placement made it eleven. */
-    ]).then(([, , , , , , , , , , , ...entries]) => {
+         made it ten. High School Placement made it eleven. International
+         Travel made it twelve. */
+    ]).then(([, , , , , , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -939,6 +954,20 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const admissions = adCardList.length > 0 ? adEntry : undefined
             const adCards = adCardList
+            /* International Travel: a full substitution like Admissions and
+               Summer Programs — the seven cards replace the whole ingested
+               prose, folded onto a single metric key by
+               RULES['international-travel']. Only Providence Day is
+               researched; every other school has no source files, so the topic
+               never reaches this branch for them. Same present-but-empty guard
+               as the areas above. */
+            const itEntry =
+              t.slug === 'international-travel' ? internationalTravelProgram(slug, lang) : undefined
+            const itCardList = itEntry
+              ? INTERNATIONAL_TRAVEL_CARDS.filter((c) => itEntry[c.key] != null)
+              : []
+            const travel = itCardList.length > 0 ? itEntry : undefined
+            const itCards = itCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
@@ -955,7 +984,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           ? suCards.length
                           : admissions
                             ? adCards.length
-                            : clubs
+                            : travel
+                              ? itCards.length
+                              : clubs
                               ? clubsCards.length + groups.length
                               : groups.length
             return (
@@ -989,7 +1020,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   {/* Omitted entirely for a PreK-8 school — it has no Compare
                       columns to open, so the button would lead to a page it is
                       absent from. Absence, not a disabled control. */}
-                  {comparable && (
+                  {/* Also omitted for a topic deliberately kept off Compare
+                      (COMPARE_DEFERRED_TOPICS) — the button would open a
+                      Compare page that does not list it. */}
+                  {comparable && !COMPARE_DEFERRED_TOPICS.has(t.slug) && (
                     <a
                       className="btn"
                       href={toCompare(t.slug, compareSlugs)}
@@ -1040,6 +1074,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     it is the band above. */}
                 {ready && t.slug === 'admissions' && admissions && (
                   <AdmissionsStatBand program={admissions} />
+                )}
+
+                {/* International Travel: the lead line, then its 4-tile band —
+                    from the topic's own data, for the same Compare reason as
+                    Admissions above. */}
+                {ready && t.slug === 'international-travel' && travel && (
+                  <>
+                    <InternationalTravelLead program={travel} />
+                    <InternationalTravelStatBand program={travel} />
+                  </>
                 )}
 
                 {!ready && <p className="loading">Loading research…</p>}
@@ -1326,6 +1370,40 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* International Travel: seven cards in the fixed order set by
+                    INTERNATIONAL_TRAVEL_CARDS, in their own grid like Admissions.
+                    Where They Go and the Verdict span the full row even when
+                    closed, as in the design; the rest sit two-up. Credential and
+                    Network carry per-school titles (TITLE_OVERRIDES). */}
+                {ready && t.slug === 'international-travel' && travel && (
+                  <div className="note-cards">
+                    {itCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className={`note-card note-card-report note-card-it${WIDE_TRAVEL_CARDS.has(card.key) ? ' note-card-wide' : ''}`}
+                      >
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">
+                              {cardTitle(tr, 'international-travel', card.key, internationalTravelCardTitleFor(slug, card), travelOverrideSlug(slug, card.key))}
+                            </span>
+                            <span className="topic-teaser">
+                              {localizeMoneyText(travel[card.key]!.headline)}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <InternationalTravelCardBody
+                            program={travel}
+                            cardKey={card.key}
+                          />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
                   {/* Student Clubs: the three redesigned cards, in the fixed
                       1a–1c order, ahead of the two prose cards that remain.
@@ -1369,7 +1447,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     (t.slug === 'high-school-placement' && highSchoolPlacement) ||
                     (t.slug === 'after-school' && afterSchool) ||
                     (t.slug === 'summer-programs' && summer) ||
-                    (t.slug === 'admissions' && admissions)
+                    (t.slug === 'admissions' && admissions) ||
+                    (t.slug === 'international-travel' && travel)
                       ? []
                       : groups
                   ).map((g) => {

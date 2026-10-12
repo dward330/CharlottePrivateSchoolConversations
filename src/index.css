@@ -5604,6 +5604,247 @@ a.cs-college-name:focus-visible {
 .su-addons { margin-top: 14px; }
 .su-addons .as-filters-label { display: block; margin-bottom: 6px; }
 
+/* ═════════════════════════════════════════════════════════════════════════
+   International Travel — components/InternationalTravel.tsx
+
+   From the Claude Design handoff (International Travel Section Redesign),
+   mapped onto the app's own tokens. Every grid is
+   repeat(auto-fit, minmax(min(100%, N), 1fr)) or wrapping flex so an opened
+   card reflows to a 320px phone; every flex child carries min-width: 0; and
+   inline-direction properties are logical so the fa/ar locales mirror.
+   Classes are `it-`, never `ad-` (EasyList hides those).
+   ═════════════════════════════════════════════════════════════════════════ */
+
+/* Structured layouts — never the two-column prose flow .note-card[open] sets. */
+.note-card-it[open] .note-card-body { column-count: 1; }
+/* Where They Go and the Verdict span the row even when closed, as designed. */
+.note-card-wide { grid-column: 1 / -1; }
+
+.it-section-lead { margin: 0 0 16px; font-size: 14.5px; line-height: 1.55; text-wrap: pretty; }
+.it-lead { margin: 0 0 16px; font-size: 14.5px; line-height: 1.5; }
+.it-body { font-size: 13.5px; line-height: 1.6; }
+.it-small { font-size: 12.5px; line-height: 1.5; }
+.it-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.it-h-note { font-family: inherit; font-weight: 400; font-size: 12px; letter-spacing: 0; text-transform: none; }
+.it-eyebrow { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* Stat strip — the shared .stat-strip / .stat-tile, plus the note line. */
+.it-stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); }
+.it-stats .stat-tile-val { color: var(--brand); }
+.it-stat-label { font-size: 13px; font-weight: 600; margin-top: 2px; }
+.it-stat-note { font-size: 12px; line-height: 1.45; }
+.it-stats-sm { grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); margin-bottom: 24px; }
+.it-stats-sm .stat-tile-val { color: var(--ink); font-size: 26px; }
+
+/* Divider-gap grids: hairlines drawn by the 1px gaps over the border colour. */
+.it-grid {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+.it-cell { background: var(--bg); padding: 12px 14px; min-width: 0; }
+.it-framework { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.it-ladder { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); }
+.it-languages { grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); margin-bottom: 0; }
+.it-partners { grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); }
+.it-cells { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); }
+
+.it-framework-name { font-family: var(--heading); font-weight: 600; font-size: 22px; color: var(--brand); }
+.it-ladder-head {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+}
+.it-ladder-grades { font-weight: 400; font-size: 12px; letter-spacing: 0; text-transform: none; }
+.it-ladder-theme { font-family: var(--heading); font-size: 15px; margin-bottom: 8px; color: var(--accent-700); }
+.it-ladder-items { display: flex; flex-direction: column; gap: 7px; font-size: 13px; line-height: 1.5; }
+.it-partner-school {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 2px 0 6px;
+  overflow-wrap: anywhere;
+}
+.it-cell-name { font-family: var(--heading); font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+
+/* Two-column splits that wrap to one column. */
+.it-split { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.it-split-loose { gap: 32px; }
+.it-main { flex: 1 1 420px; min-width: 0; }
+.it-col { flex: 1 1 260px; min-width: 0; }
+/* The side column fills the row when there is no photo beside the list — no
+   fixed max-width, per the handoff's "let the adjacent column fill". */
+.it-side { flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+.it-side:has(.it-photo) { max-width: 340px; }
+@media (max-width: 700px) { .it-side:has(.it-photo) { max-width: none; } }
+.it-side-photo { flex: 1 1 220px; }
+
+/* Trip ledger. */
+.it-tabs { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 16px; }
+.note-card-it .depttab { min-height: 40px; }
+.it-count { font-size: 12.5px; margin-inline-start: 4px; }
+.it-ledger { display: flex; flex-direction: column; gap: 16px; }
+/* The ledger's scroll frame — desktop only. Capped at roughly the side
+   column's height so the card stays level instead of trailing ~1,200px of
+   ledger beside an empty column. Below 700px (one-column layout) and in print
+   it is a plain list: no cap, no nested scroll, nothing cut from a print-out. */
+.it-ledger-frame:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (min-width: 701px) {
+  .it-ledger-frame {
+    max-height: 640px;
+    overflow-y: auto;
+    padding-inline-end: 8px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-300) transparent;
+  }
+  /* Vertical edge fades, set by useVerticalFade while rows are hidden. */
+  .it-ledger-frame[data-fade-bottom]:not([data-fade-top]) {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+  }
+  .it-ledger-frame[data-fade-top]:not([data-fade-bottom]) {
+    -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to top, #000 calc(100% - 40px), transparent);
+  }
+  .it-ledger-frame[data-fade-top][data-fade-bottom] {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to bottom, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+  }
+}
+@media print {
+  .it-ledger-frame { max-height: none !important; overflow: visible !important; -webkit-mask-image: none !important; mask-image: none !important; }
+}
+.it-year-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  border-bottom: 1px solid var(--text);
+  padding-bottom: 4px;
+}
+.it-year-label { font-family: var(--heading); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; }
+.it-year-note { font-size: 12px; }
+.it-year-count { font-size: 12px; margin-inline-start: auto; }
+.it-trip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.it-trip-where { flex: 1 1 240px; min-width: 0; }
+.it-trip-what { flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+.it-trip-dest { font-family: var(--heading); font-weight: 600; font-size: 18px; line-height: 1.2; }
+.it-trip-place { font-size: 12.5px; line-height: 1.45; overflow-wrap: anywhere; }
+.it-trip-theme { font-size: 13px; line-height: 1.45; }
+.it-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.it-tags .tag { font-size: 10.5px; }
+
+/* Lists and label/text rows. */
+.it-list { display: flex; flex-direction: column; font-size: 13px; line-height: 1.5; }
+.it-list-item { padding: 7px 0; border-bottom: 1px solid var(--border); }
+.it-list-item:last-child { border-bottom: 0; }
+.it-rows { display: flex; flex-direction: column; font-size: 13px; line-height: 1.5; }
+.it-block { margin-bottom: 24px; }
+.it-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+.it-row:last-child { border-bottom: 0; }
+.it-row-label { flex: 0 0 90px; font-family: var(--heading); font-size: 15px; }
+.it-row-wide .it-row-label { flex-basis: 140px; }
+.it-row-text { flex: 1 1 220px; min-width: 0; }
+
+/* Photos — the grayscale treatment of the Summer band, but WITHOUT its
+   multiply blend: over a dark-mode card background the blend crushed the photo
+   to near-black. The viewer shows the photo unfiltered. */
+.it-photo { margin: 0; }
+.it-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--border);
+  filter: grayscale(1) contrast(1.08);
+  background: var(--surface-2);
+}
+.it-photo figcaption { font-size: 12px; line-height: 1.5; margin-top: 6px; }
+.it-photo figcaption strong { font-family: var(--heading); font-size: 14px; }
+.it-credit { font-size: 11px; margin-top: 2px; }
+
+/* The credential's student quote. */
+.it-quote {
+  margin: 24px 0 16px;
+  padding: 16px 0;
+  border-top: 1px solid var(--text);
+  border-bottom: 1px solid var(--border);
+}
+.it-quote p { margin: 0 0 8px; font-family: var(--heading); font-size: 21px; line-height: 1.3; text-wrap: pretty; }
+.it-quote footer { font-size: 12.5px; line-height: 1.5; }
+
+/* Signing Up agenda rows. */
+.it-agenda-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.it-agenda-row:last-child { border-bottom: 0; }
+.it-agenda-when { flex: 0 0 140px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-top: 3px; }
+.it-agenda-what { flex: 1 1 240px; min-width: 0; }
+.it-agenda-name { font-family: var(--heading); font-weight: 600; font-size: 17px; line-height: 1.25; }
+.it-agenda-tags { margin-top: 6px; }
+.it-para { margin: 0; }
+.it-footnote { margin: 12px 0 0; font-size: 12px; }
+
+/* Verdict. */
+.it-verdict-summary { margin: 0 0 10px; font-size: 14px; line-height: 1.55; }
+.it-check { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+.it-check:last-child { border-bottom: 0; }
+.it-check-mark { color: var(--brand); flex: none; display: flex; padding-top: 2px; }
+.it-ask {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  align-items: start;
+}
+.it-ask:last-child { border-bottom: 0; }
+.it-ask input { accent-color: var(--brand); margin: 3px 0 0; width: 16px; height: 16px; }
+
+/* Source row — the same treatment as After School / Summer. */
+.it-src {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  margin-top: 16px;
+  padding-top: 12px;
+  font-size: 12px;
+}
+
 @media (max-width: 900px) {
   .as-cost,
   .as-split { grid-template-columns: minmax(0, 1fr) !important; }

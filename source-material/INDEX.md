@@ -18,6 +18,7 @@ source-material/<topic>/<school-slug>/<files>
 | `college-support` | 51 | College counseling & outcomes |
 | `student-clubs` | 48 | Clubs & activities |
 | `after-school` | 21 | Extended day / aftercare / enrichment (each has a Deep Research report) |
+| `international-travel` | 2 | Global education & student travel abroad — Providence Day only so far (deep-research transcription + per-fact source-URL map), added 2026-10-11 |
 
 Grand total: 235 documents across 30 school folders (+ index files).
 

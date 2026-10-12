@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-11",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -75,6 +75,10 @@
     {
       "slug": "high-school-placement",
       "name": "High School Placement"
+    },
+    {
+      "slug": "international-travel",
+      "name": "Global Exposure"
     },
     {
       "slug": "sports",
@@ -363,6 +367,11 @@
       "topic_slug": "high-school-placement",
       "school_slug": "trinity-episcopal",
       "doc_count": 3
+    },
+    {
+      "topic_slug": "international-travel",
+      "school_slug": "providence-day",
+      "doc_count": 2
     },
     {
       "topic_slug": "sports",
@@ -4909,6 +4918,26 @@
       "subtopic": "Tuition and Fees",
       "source_file": "source-material/financial-aid-tuition/trinity-episcopal/Trinity Episcopal School - Financial Aid and Tuition - Tuition and Fees.md",
       "note_file": ".claude/docs/financial-aid-tuition/trinity-episcopal.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "international-travel",
+      "topic": "Global Exposure",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/international-travel/providence-day/Providence Day - International Travel - Deep Research.md",
+      "note_file": ".claude/docs/international-travel/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "international-travel",
+      "topic": "Global Exposure",
+      "subtopic": "Source URLs",
+      "source_file": "source-material/international-travel/providence-day/Providence Day - International Travel - Source URLs.md",
+      "note_file": ".claude/docs/international-travel/providence-day.md",
       "type": "md"
     }
   ]

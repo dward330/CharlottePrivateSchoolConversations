@@ -95,6 +95,17 @@ const RULES: Record<string, Rule[]> = {
     { match: /pricing|cost/i, key: 'in-depth-report', label: 'In-Depth Report' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+  // International Travel renders as seven structured cards driven by
+  // data/internationalTravel.ts, not by the ingested prose — the same full
+  // substitution as Admissions and Summer Programs. Every slice of the research
+  // folds onto one key so none can slugify into an orphan prose card.
+  'international-travel': [
+    {
+      match: /.*/,
+      key: 'redesign-research',
+      label: 'Global Exposure Research Dossier (2026)',
+    },
+  ],
   'summer-programs': [
     // Summer Programs renders as two consolidated cards driven by
     // data/summerPrograms.ts, not by the ingested prose (the same full
@@ -328,6 +339,9 @@ const RULES: Record<string, Rule[]> = {
 const TOPIC_ORDER: string[] = [
   'admissions',
   'course-offerings',
+  // Placed directly after Course Offerings at the user's request (2026-10-11).
+  // Displayed as "Global Exposure" (renamed 2026-10-11); the slug is unchanged.
+  'international-travel',
   'student-clubs',
   'the-arts',
   'sports',

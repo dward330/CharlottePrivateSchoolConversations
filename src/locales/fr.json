@@ -40,7 +40,8 @@
     "student-clubs": "Clubs d’élèves",
     "summer-programs": "Programmes d’été",
     "the-arts": "Les arts",
-    "high-school-placement": "Orientation vers le secondaire"
+    "high-school-placement": "Orientation vers le secondaire",
+    "international-travel": "Ouverture internationale"
   },
   "metrics": {
     "admissions.redesign-research": "Dossier de recherche sur les admissions (2026)",
@@ -89,7 +90,8 @@
     "theatre": "Théâtre et art dramatique",
     "tuition-history": "Historique des frais de scolarité et sources",
     "visual-arts": "Arts visuels",
-    "win-loss": "Bilans victoires-défaites"
+    "win-loss": "Bilans victoires-défaites",
+    "international-travel.redesign-research": "Dossier de recherche sur l’ouverture internationale (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -399,7 +401,16 @@
     "high-school-placement.verdict": "Liste de visite",
     "the-arts.ladder@trinity-episcopal": "Le parcours artistique K–8",
     "the-arts.theatre@trinity-episcopal": "Le théâtre et les spectacles par niveau",
-    "the-arts.verdict@trinity-episcopal": "Liste de visite"
+    "the-arts.verdict@trinity-episcopal": "Liste de visite",
+    "international-travel.trips": "Les destinations",
+    "international-travel.start": "L’apprentissage international à chaque étape de la scolarité",
+    "international-travel.exchanges": "Échanges et séjours en famille d’accueil",
+    "international-travel.credential": "Le diplôme",
+    "international-travel.network": "Le réseau",
+    "international-travel.signup": "S’inscrire aux voyages et au GSD",
+    "international-travel.verdict": "Verdict et questions à poser à l’école",
+    "international-travel.credential@providence-day": "Le Global Studies Diploma",
+    "international-travel.network@providence-day": "Round Square et le réseau élargi"
   },
   "cardLabels": {
     "afternoonRhythm": "Le rythme de l’après-midi",
@@ -529,5 +540,30 @@
     "next": "Photo suivante",
     "position": "{{current}} sur {{total}}",
     "dialogLabel": "Visionneuse de photos"
+  },
+  "travel": {
+    "allDivisions": "Toutes les divisions",
+    "lowerSchool": "Lower School",
+    "middleSchool": "Middle School",
+    "upperSchool": "Upper School",
+    "tripsShown_one": "{{count}} voyage affiché",
+    "tripsShown_many": "{{count}} de voyages affichés",
+    "tripsShown_other": "{{count}} voyages affichés",
+    "tripCount_one": "{{count}} voyage",
+    "tripCount_many": "{{count}} de voyages",
+    "tripCount_other": "{{count}} voyages",
+    "ledgerLabel": "Voyages par année scolaire",
+    "homestay": "Famille d’accueil · {{place}}",
+    "alsoOnRecord": "Également documenté",
+    "out": "Élève de PD à l’étranger :",
+    "in": "Élève partenaire à PD :",
+    "livingWithFamily": "Séjours en famille d’accueil à l’étranger",
+    "visitorsOnCampus": "Élèves accueillis sur le campus",
+    "requiredCoursework": "Cours obligatoires",
+    "beyondClassroom": "Au-delà de la salle de classe",
+    "standsOut": "Ses points forts",
+    "askOnTour": "À demander lors de la visite",
+    "askOnTourNote": "non publié sur le site de l’école",
+    "confirmCalendar": "Vérifiez les dates et horaires exacts sur le calendrier en ligne de l’école."
   }
 }
