@@ -429,3 +429,9 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
 - `npm run build` exits 1 at `check:live` throughout Phase 1: the 13 edited English strings
   per locale no longer match their shipped translations. Vite build and prerender complete
   before it; Phase 2's splice clears it.
+- **Phase 1 review (2026-10-12):** at the user's request, **all trip costs were removed from
+  the page** ("that may be private information") — the per-trip prices, the estimated
+  airfares and the `$1,000` deposit amount. `signup.intro.muted` now reads "…grades 9–11
+  when they register. A nonrefundable deposit is due at registration, and the balance…".
+  No `$` figure remains in `providence-day.ts`, so Phase 2's `audit:moneyrender` step has
+  no new figures to check.

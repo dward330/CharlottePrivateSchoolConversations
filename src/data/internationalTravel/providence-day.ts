@@ -529,7 +529,7 @@ export const providenceDay: InternationalTravelProgram = {
       strong:
         'Registration for global trips opens October 16, 2026, and closes November 2, when the nonrefundable deposit and any financial aid application are also due.',
       muted:
-        'Both trip events are on the school\'s Global Education calendar. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. The three published 2027 trips are Upper School only, for students in grades 9–11 when they register: Japan costs $5,650, Iceland $5,450 and France $3,850, each plus a group flight (estimated at $2,700, $1,600 and $1,560). A $1,000 nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
+        'Both trip events are on the school\'s Global Education calendar. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. The three published 2027 trips are Upper School only, for students in grades 9–11 when they register. A nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
     },
     groups: [
       {
