@@ -1,11 +1,11 @@
 ---
 name: newglobalexposureepisode
 title: Add podcast episodes 39 (Hickory Grove — How to Apply) and 40 (Providence Day — Global Exposure) to their research-area sections
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-12
 branch: feat/new-global-exposure-episode
-prs: []
+prs: [340]
 ---
 
 # Add podcast episodes 39 and 40
