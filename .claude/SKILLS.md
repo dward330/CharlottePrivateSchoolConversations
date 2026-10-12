@@ -281,7 +281,7 @@ rate is `sum(admitted)/sum(applied)` — never the mean of five annual rates.
 
 **Turn one school's admissions process into a podcast episode.**
 
-`.claude/commands/admissions-episode.md` · added 2026-09-06
+`.claude/commands/admissions-episode.md` · added 2026-09-06 · updated 2026-10-12
 *A slash command rather than a skill directory — the only one so far.*
 
 Produces the PDF, the prompt and the upload steps for an episode of *Charlotte Private
@@ -293,6 +293,11 @@ School Conversations* that walks a parent through **how to actually apply** to o
 4. Hands back the PDF + prompt + NotebookLM steps
 
 > **🔁 Run it once per school, every time. The freshness check is the point.**
+
+> **🎙️ Show rules (2026-10-12, every episode):** a talk show that never mentions a PDF
+> aloud, the exact opening "Welcome to another episode of Charlotte Private School
+> Conversations.", and charlotteschoolinsights.com named as a great resource to learn more.
+> See the Podcast episode standard in `CLAUDE.md`.
 
 > **⚠️ NotebookLM drops hedges and conditionals.** A correct PDF does **not** mean a correct
 > episode — diff the episode's *claims* against the PDF, and regenerate **all** schools

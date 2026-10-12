@@ -223,6 +223,29 @@ reads first.
 
 See [`.claude/skills/nc-admissions-data/SKILL.md`](.claude/skills/nc-admissions-data/SKILL.md).
 
+## Podcast episode standard (required)
+
+Every NotebookLM prompt written for an episode of *Charlotte Private School Conversations*,
+whether through `/admissions-episode` (`PROMPT_TEMPLATE` in
+`scripts/gen_admissions_report.mjs`) or written by hand for a research-area deep dive, carries
+these three rules. The user set them 2026-10-12 as standing rules for every future episode:
+
+- **A real talk show, never a reading.** The hosts have done the homework and trade
+  reactions and takes in their own words. Opinions are voiced as opinions, and every fact
+  still comes only from the source. **The hosts never mention a PDF, document, source, file
+  or notes aloud.** Attribution is spoken as "the school says" or "our research found". A
+  prompt must never instruct the hosts to say "the PDF says".
+- **The opening line is exactly "Welcome to another episode of Charlotte Private School
+  Conversations."** Never "Welcome back", and never an invented cold-open scenario.
+- **charlotteschoolinsights.com is named as a great resource to learn more**, at the open
+  and the close. It is never named as the source of the facts, and the school's own site is
+  named as the authority in the same breath.
+
+The talk-show rule is in tension with the invention rules: "share their ideas" is how a
+descriptive phrase turns into an invented claim about a school. So the prompt always pairs it
+with "opinions voiced as opinions, every fact from the source", and a take is still checked
+claim by claim against the source PDF before publishing.
+
 ## UX-design standard (required)
 
 **Ingestion and research work enrich data only — they must never change the web app's UX
