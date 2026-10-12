@@ -161,7 +161,7 @@ export const INTERNATIONAL_TRAVEL_CARDS = [
   // the trip ledger directly.
   { key: 'trips', title: 'Where They Go' },
   { key: 'exchanges', title: 'Exchanges & Homestays' },
-  { key: 'signup', title: 'Signing Up' },
+  { key: 'signup', title: 'Signing Up for Travel & GSD' },
   { key: 'start', title: 'Global Learning at Each School Level' },
   { key: 'credential', title: 'Credential' },
   { key: 'network', title: 'Network' },

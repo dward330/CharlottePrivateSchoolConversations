@@ -804,7 +804,7 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 |---|---|---|
 | `trips` | Where They Go | — |
 | `exchanges` | Exchanges & Homestays | — |
-| `signup` | Signing Up | — |
+| `signup` | Signing Up for Travel & GSD | — |
 | `start` | Global Learning at Each School Level | — |
 | `credential` | Credential | — |
 | `network` | Network | — |
