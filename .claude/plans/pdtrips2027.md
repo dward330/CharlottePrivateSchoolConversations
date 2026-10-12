@@ -435,3 +435,6 @@ every locale in `PROSE_TRANSLATED` (`src/lib/i18n.ts`, currently
   when they register. A nonrefundable deposit is due at registration, and the balance…".
   No `$` figure remains in `providence-day.ts`, so Phase 2's `audit:moneyrender` step has
   no new figures to check.
+  The user chose **page only**: the costs stay in the research files (the 2027 source file,
+  the Source URLs file and the ingested `src/content` JSON), which the page does not render.
+  Do not re-add them to rendered data.
