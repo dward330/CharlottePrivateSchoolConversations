@@ -1,11 +1,11 @@
 ---
 name: intltravel
 title: Add an International Travel research area (after Course Offerings) — seven structured cards, Providence Day populated
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-11
 branch: feat/intltravel
-prs: []
+prs: [338]
 ---
 
 # International Travel research area
@@ -1028,3 +1028,20 @@ The rule is in `internationalTravel/README.md`.
   "seniors" tile now reads "students earn it in a typical graduating class".
 - **GSD card.** Dropped "School pages date the program's start to 2005 or 2007", and
   lowercased "class of 2025".
+
+**Phase 2 (locales) shipped 2026-10-12, PR #338.**
+- Nine parallel per-locale agents, each with its own scratch dir, filled the 221-string
+  work files and added the chrome keys. Every CLDR plural form is present (es/fr/it
+  `_many`; Arabic's six forms, `_two` without a numeral).
+- `i18n:leaks` surfaced four genuine leaks, fixed to the consensus rendering: ht's three
+  division themes and te's `Kui Buri National Park`. The remaining flags are keeps, ledgered
+  in `src/data/overlays/NOTES.md`.
+- **Deviation, a render fix found by the browser check:** `StatStrip` now wraps the tile
+  value in `<bdi dir="ltr">`. Without it `~19` / `~375` / `280+` / `B−` rendered as
+  `19~` / `375~` / `+280` / `−B` in fa/ar, while every checker passed.
+- **`check_work_integrity` skips files absent at its base ref**, so it never saw the new
+  topic, even with `--base main`. The new work files were scanned for foreign script
+  directly, and the Latin-script locales were spot-read.
+- Out of scope, noted in the PR: four `audit:mobile` findings in es Course Offerings and
+  fa Clubs; the other topics' stat tiles are not bidi-isolated either.
+
