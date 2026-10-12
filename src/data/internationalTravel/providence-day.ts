@@ -46,7 +46,7 @@ export const providenceDay: InternationalTravelProgram = {
     strong:
       'One TK–12 Global Education program — "Inward. Outward. Forward." — with student travel abroad in Middle and Upper School, reciprocal exchanges with partner schools, and what the school calls the first Global Studies Diploma in the nation.',
     muted:
-      'The school\'s Strategic Framework describes Providence Day as "one of just six schools nationwide to offer a Global Studies Diploma and a Round Square school."',
+      'The school\'s Strategic Framework counts Providence Day as one of just six schools nationwide to offer a Global Studies Diploma and to be a Round Square school.',
   },
 
   stats: [
@@ -63,12 +63,12 @@ export const providenceDay: InternationalTravelProgram = {
     {
       value: '1st',
       label: 'Global Studies Diploma',
-      note: '"the first in the nation," per the school — an optional second diploma, grades 9–12',
+      note: 'the first in the nation, per the school — an optional second diploma, grades 9–12',
     },
     {
       value: '280+',
       label: 'Round Square schools',
-      note: 'in 50 countries — PD has been a Global Member "for over a decade"',
+      note: 'in 50 countries — PD has been a Global Member for over a decade',
     },
   ],
 
@@ -80,7 +80,7 @@ export const providenceDay: InternationalTravelProgram = {
       strong:
         'Trips run from one-week conferences to summer immersions, with groups of 2 to 12 students.',
       muted:
-        'The school describes "faculty-led spring break and summer travel options"; Middle School students "may take advantage of opportunities for world travel, including a Middle School conference with Round Square and a summer PDS trip."',
+        'Faculty lead trips over spring break and in the summer. Middle School students can also travel to a Middle School Round Square conference and on a summer PD trip.',
     },
     years: [
       {
@@ -126,7 +126,7 @@ export const providenceDay: InternationalTravelProgram = {
           },
           {
             dest: 'Denmark & Sweden',
-            place: '"Scandinavia"',
+            place: 'The Scandinavia trip',
             div: 'US',
             group: '10 students',
             theme: 'Design · sustainability · urban innovation',
@@ -221,11 +221,11 @@ export const providenceDay: InternationalTravelProgram = {
     alsoOnRecord: [
       {
         lead: 'Jordan, every year.',
-        text: 'A named endowment supports "annual travel opportunities" to the International Academy of Amman, a fellow Round Square member school.',
+        text: 'A named endowment funds annual trips to the International Academy of Amman, a fellow Round Square member school.',
       },
       {
         lead: 'Performing arts in London.',
-        text: 'Upper School "students with a passion for the arts traveled to London to explore the history of the performing arts."',
+        text: 'Upper School students with a passion for the arts traveled to London to explore the history of the performing arts.',
       },
       {
         lead: 'Closer to home.',
@@ -254,13 +254,13 @@ export const providenceDay: InternationalTravelProgram = {
       'Global learning begins in TK with "TK Goes Global" and Round Square video exchanges; travel abroad opens in Middle School and widens in Upper School.',
     intro: {
       strong:
-        'The program is "woven throughout the student experience from Transitional Kindergarten through graduation,"',
-      muted: 'organized as the TK–12 framework the school calls the "PD Passport."',
+        'Global education runs through the student experience from Transitional Kindergarten through graduation,',
+      muted: 'organized as a TK–12 framework called the PD Passport.',
     },
     framework: [
       { name: 'Inward', text: 'curiosity, self-awareness and an understanding of one\'s own perspectives' },
       { name: 'Outward', text: 'engaging with diverse cultures, viewpoints and communities' },
-      { name: 'Forward', text: 'applying learning to "contribute to a changing world"' },
+      { name: 'Forward', text: 'applying learning to contribute to a changing world' },
     ],
     divisions: [
       {
@@ -271,7 +271,7 @@ export const providenceDay: InternationalTravelProgram = {
           '"TK Goes Global" — a classroom tour of India, China, Germany, Peru and Kenya',
           'A project on a different area of the world in every grade, TK through 5',
           'Kindergarten connected virtually with Collingwood School, Canada',
-          'Round Square\'s "Worldwide Show and Tell"',
+          'Round Square\'s Worldwide Show and Tell',
           'A Spanish video exchange with Markham College, Peru',
         ],
       },
@@ -293,12 +293,12 @@ export const providenceDay: InternationalTravelProgram = {
           'Faculty-led spring break and summer trips',
           'Round Square international conferences and service projects',
           'Reciprocal exchanges of two to four weeks',
-          'The optional Global Studies Diploma, "starting in ninth grade"',
+          'The optional Global Studies Diploma, starting in ninth grade',
         ],
       },
     ],
     languages: {
-      title: 'The language path — "an 11-year journey toward language proficiency"',
+      title: 'The language path — an 11-year journey toward language proficiency',
       steps: [
         { when: 'From TK', text: 'Exposure to French, Spanish and Mandarin Chinese' },
         { when: 'By Grade 2', text: 'Choose one language for the remaining four years of Lower School' },
@@ -325,7 +325,7 @@ export const providenceDay: InternationalTravelProgram = {
     intro: {
       strong: 'Individual Round Square exchanges, logged on the Global Map from 2022–23 to 2024–25.',
       muted:
-        'At PD, students "have engaged in two- to four-week exchanges," and most are reciprocal: the partner student later spends a similar period at Providence Day.',
+        'At PD, students have taken part in exchanges of two to four weeks, and most are reciprocal: the partner student later spends a similar period at Providence Day.',
     },
     partners: [
       { country: 'Colombia', years: '2022–25', school: 'Colegio Los Nogales', out: 'two weeks in March', in: 'two weeks, then three weeks' },
@@ -382,9 +382,9 @@ export const providenceDay: InternationalTravelProgram = {
       'An optional second diploma for grades 9–12 — global coursework, four years of one language, travel or hosting, and a Global Leadership course.',
     intro: {
       strong:
-        'At PD, the Global Studies Diploma is "an optional second diploma that recognizes students who pursue advanced global learning throughout their Upper School experience."',
+        'At PD, the Global Studies Diploma is an optional second diploma that recognizes students who pursue advanced global learning throughout their Upper School experience.',
       muted:
-        'Students "typically begin their GSD journey in 9th grade," and "can join later in Upper School under certain circumstances." School pages date the start to 2005 or 2007.',
+        'Students typically begin in 9th grade, and can join later in Upper School under certain circumstances. School pages date the program\'s start to 2005 or 2007.',
     },
     stats: [
       { value: '~20', label: 'seniors graduate with it in a typical year' },
@@ -406,7 +406,7 @@ export const providenceDay: InternationalTravelProgram = {
       'Presenting global experiences to peers',
       'Taking civic action',
       'Model UN, Round Square, Future Problem Solvers or World Quest',
-      'An individual portfolio, plus an optional "Global Ambassador" distinction (since 2021)',
+      'An individual portfolio, plus an optional Global Ambassador distinction (since 2021)',
     ],
     quote: {
       text: 'Thanks to Global Education, she can think of herself "as more than a North Carolinian, more than an American, but as a human."',
@@ -423,7 +423,7 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'GSD site — FAQ', url: GSD_FAQ },
       { label: 'GSD site — Alumni', url: GSD_ALUMNI },
       { label: 'GSD site — Home (portfolio)', url: GSD_HOME },
-      { label: 'providenceday.org — Global Education (alumna, "starting in ninth grade")', url: GE },
+      { label: 'providenceday.org — Global Education (alumna, ninth-grade start)', url: GE },
       { label: 'providenceday.org — Endowment (award)', url: ENDOW },
     ],
   },
@@ -433,9 +433,9 @@ export const providenceDay: InternationalTravelProgram = {
     headline:
       'A Round Square Global Member feeding international conferences, service projects and online student dialogues — taught by faculty who travel for a certificate of their own.',
     intro: {
-      strong: 'Round Square is a network of "280+ like-minded schools in 50 countries on six continents."',
+      strong: 'Round Square is a network of 280+ like-minded schools in 50 countries on six continents.',
       muted:
-        'PD is "one of only two Round Square schools in North Carolina." A 2019 Southern Association of Independent Schools accreditation committee called Providence Day "a national leader in the field of Global Education."',
+        'PD is one of only two Round Square schools in North Carolina. A 2019 Southern Association of Independent Schools accreditation committee called Providence Day "a national leader in the field of Global Education."',
     },
     ledgerTitle: 'Round Square conferences PD has attended',
     conferences: [
@@ -489,7 +489,7 @@ export const providenceDay: InternationalTravelProgram = {
     intro: {
       strong: 'Registration for global trips opens October 16, 2026.',
       muted:
-        'Both trip events sit on the school\'s Global Education calendar. The division and grade tags are our reading, not the calendar\'s: the trips on record run in Middle and Upper School, and the GSD is an Upper School program students "typically begin" in 9th grade.',
+        'Both trip events sit on the school\'s Global Education calendar. The division and grade tags are our reading, not the calendar\'s: the trips on record run in Middle and Upper School, and the GSD is an Upper School program students typically begin in 9th grade.',
     },
     groups: [
       {

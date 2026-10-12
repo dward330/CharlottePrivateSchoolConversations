@@ -992,3 +992,20 @@ scrolls inside a capped frame on desktop.**
 - **New chrome keys for Phase 2:** `travel.visitorsOnCampus`. Changed values:
   `travel.out`, `travel.in`, `travel.livingWithFamily`, `topics.international-travel`,
   `cards.international-travel.start`, `metrics.international-travel.redesign-research`.
+
+**Quote-mark pass (2026-10-11, user-requested).** Verbatim school wording had been wrapped
+in quotes as a citation habit. Most of it now reads as plain prose:
+- the GSD intro and the 9th-grade line;
+- "280+ like-minded schools…" and "one of only two…";
+- the faculty-led trips and Middle School travel lines;
+- "PD Passport", "Global Ambassador", "Worldwide Show and Tell";
+- the London caption, and others.
+
+Quotes remain only on:
+- names and titles: the motto, conference themes, trip and Postcard names, "TK Goes
+  Global";
+- the alumna's words;
+- the SAIS verdict;
+- the "Financial Assistance Beyond Tuition" heading.
+
+The rule is in `internationalTravel/README.md`.

@@ -28,7 +28,13 @@ researched" shell.
   behind that card's facts. A fact with no URL is not rendered. The per-fact map lives
   in `source-material/international-travel/<slug>/<School> - International Travel - Source URLs.md`.
   Deep-research output, including AI-generated summaries, is a lead sheet and never
-  the citation. Quoted wording must match the live page exactly.
+  the citation.
+- **Quote marks only where they mean something** (user preference, 2026-10-11): a
+  name or title (a conference theme, a trip or program name, the school's motto), a
+  real person's own words, an outside body's verdict we attribute rather than assert
+  (SAIS), or a page heading a parent would search for. School-page wording that is
+  just description is written as plain prose — the SOURCE row already cites the page.
+  What IS quoted must match the live page exactly.
 - **Gaps go to `verdict.ask` only.** Cards 1–6 carry no "not stated" or "not
   published" text. An unknown is omitted (a trip with no stated timing has no
   `timing`), and if a parent would want it answered it becomes an "Ask on the tour"
