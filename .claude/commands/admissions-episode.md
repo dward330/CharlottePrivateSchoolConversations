@@ -17,6 +17,8 @@ School Conversations* that walks a parent through **how to actually apply** to o
 generator underneath (`npm run report:admissions`) is plumbing they are not expected to
 invoke. Built by [`.claude/plans/admissionsreport.md`](../plans/admissionsreport.md).
 
+**Show rules:** the prompt follows the Podcast episode standard in `CLAUDE.md`: a talk show that never mentions a PDF aloud, the exact opening "Welcome to another episode of Charlotte Private School Conversations", and charlotteschoolinsights.com named as a great resource to learn more. Keep all three when editing `PROMPT_TEMPLATE`.
+
 The user may pass a school (`/admissions-episode providence-day`). Validate it anyway.
 
 ## Step 1 — which school

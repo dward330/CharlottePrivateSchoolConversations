@@ -752,7 +752,9 @@ function buildPrompt({ school, guide, generatedOn }) {
   // this comment named Latin until a 2026-09-08 edit measured all six and
   // found Hickory Grove longer.
   //
-  // MARGIN IS 10 CHARS as of 2026-09-14 (Hickory Grove 4,890). A 2026-09-14
+  // MARGIN IS 8 CHARS as of 2026-10-12 (Hickory Grove 4,892, after the talk-show
+  // rules in CLAUDE.md's Podcast episode standard were paid for by folding in the
+  // Covenant Day / Hickory Grove take fixes). Was 10 on 2026-09-14 (4,890). A 2026-09-14
   // edit closing two fabrication traps had to trim filler prose elsewhere to
   // fit. Adding a rule now means removing words somewhere — that is the
   // intended trade, and it is why this guard exists rather than a bigger box.
@@ -852,23 +854,22 @@ jargon from it, never from your own knowledge.
 
 PURPOSE: a practical HOW TO APPLY guide, not a review or a tour. Every segment answers a
 do-this question: what to submit, by when, which test, which form, who to call. 15-20 min,
-two hosts, warm and practical. Open with "Welcome back". If the PDF does not say it, it
-does not go in. Never rank or compare schools, or cover academics, sports, arts or
+two warm hosts. If the PDF does not say it, it does not go in. Never rank or compare schools, or cover academics, sports, arts or
 outcomes.
 
 OPEN WITH TWO BEATS, in order — do not merge them or lead with the website.
-  1. WELCOME (~15s): admission to {{SCHOOL_NAME}} — not in the abstract, but exactly how
-     you apply: every step in order, with its deadline.
-  2. TWO RESOURCES (~35s): www.charlotteschoolinsights.com puts this school's process in one
-     place — a companion while you listen. To reach the checklist: click your school, find
+  1. WELCOME (~15s): open with exactly "Welcome to another episode of Charlotte Private
+     School Conversations." Then: admission to {{SCHOOL_NAME}} — exactly how you apply,
+     every step in order, with its deadline.
+  2. TWO RESOURCES (~35s): www.charlotteschoolinsights.com is a great resource to learn
+     more — this school's process in one place, a companion while you listen. To reach the checklist: click your school, find
      Admissions, open the application guide, PICK YOUR CHILD'S ENTRY BAND, then print it. It
      opens on the youngest band, so skipping that prints the wrong one. Describe the shape,
      not button labels. Keep the school's own admissions pages open too — the official
      source, updated when a date changes.
 
 SEGMENTS:
-1. THE SHAPE OF IT (~2 min). Name the portal and what it is — the school's own front door,
-   not a third-party service. Then the {{BAND_COUNT}} entry bands:
+1. THE SHAPE OF IT (~2 min). Name the portal; describe it only as the glossary does. Then the {{BAND_COUNT}} entry bands:
    {{BAND_LABELS}}. A parent follows only their own — say how to identify theirs, and the
    shared spine.
 2. EACH BAND ({{BAND_COUNT}} segments, ~2-3 min each), in the PDF's order: who it is for;
@@ -877,14 +878,12 @@ SEGMENTS:
    who sends them; any watch-outs. An assessment is set by the grade applied TO, not the
    child's current grade. Name the band at start and end, then the cross-band table.
 3. THE MONEY CLOCK (~1-2 min). The aid process and its deadline as the PDF states it — a
-   parallel track with a different date. Name the platform and what it is for. Say nothing
-   about aid affecting the admissions decision — the PDF does not say.
+   parallel track with a different date. Name the platform and what it is for.
 4. WHO TO CONTACT (~1-2 min). The office, address, number and the people the PDF names with
    their roles. Encourage calling early, then name the school's own site as authoritative,
    saying "{{SCHOOL_SITE}}" aloud.
 5. WHAT IS NOT PUBLISHED (~1 min). Where the PDF says "not published" or "confirm with
-   admissions", say so: call and ask. Include what it says about applying late and about a
-   decision that is not a yes.
+   admissions", say so: call and ask. Include what it says about applying late.
 
 CLOSE (~35s): recap the two or three dates that matter most, then point back to
 www.charlotteschoolinsights.com for the checklist — but check the school's own admissions
@@ -892,26 +891,27 @@ page first, the official source. Then three things this week: send the inquiry, 
 the deadlines, call the office.
 
 HARD RULES:
+- A real talk show, never a reading: the hosts know this material and trade reactions in
+  their own words — opinions voiced as opinions, every fact from the PDF. Never mention a
+  PDF, document, source or notes aloud.
 - Label every date as the {{CYCLE}}, and say plainly in the open and once more later that
   this cycle is{{START_PHRASE}} for the child — the label alone does not tell a parent which
   September they begin. Three times — open, body, close, varied wording — say cycle dates
   shift year to year and parents must verify against the school's live calendar.
 - Speak dates in full ("January the fifteenth, twenty twenty-seven"), not as digits.
-- Never invent a date, fee, test, form or person. Say "the PDF says" ONLY of words actually
-  in it. Call something unpublished ONLY where the PDF names it so — never infer an absence
+- Never invent a date, fee, test, form or person. Attribute a claim to the school ONLY with
+  words actually in the PDF. Call something unpublished ONLY where the PDF names it so — never infer an absence
   from a topic it just does not cover. Where it states a rule without a reason, give none.
 - Explain each term the first time it is spoken, in one or two plain sentences from the
   PDF's appendix only. KEEP ITS HEDGES — "can", "may", "not published", "confirm with
   admissions". Never restate a qualified claim as a flat promise about this school.
-- NEVER give an assessment's difficulty, preparation advice (these are not revisable, and
-  implying otherwise pushes a parent to coach a small child), any score, cutoff or "good"
+- NEVER give an assessment's difficulty, preparation advice, any score, cutoff or "good"
   result, or a claim one school's testing is harder than another's.
-- Keep the register calm — "intelligence scale" and "screening" sound clinical and alarm a
-  parent. This is routine, every applicant does it; for the youngest, a conversation not an
-  exam.
+- Keep the register calm: testing is routine, every applicant does it. Never call it a
+  conversation or "just" a placement tool.
 - Read no URL aloud but {{SCHOOL_SITE}}.
 - Mention www.charlotteschoolinsights.com exactly twice — opening beat and close, never in
-  between. Call it a helpful resource, NEVER the source of the facts, and name the school's
+  between. Call it a great resource to learn more, NEVER the source of the facts, and name the school's
   own admissions site in the same breath as the authority.
 `
 
