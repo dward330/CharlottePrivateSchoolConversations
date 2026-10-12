@@ -719,6 +719,12 @@ export const PATH_OVERRIDES = new Map([
   // Division / grade band on a Signing Up agenda row ("Upper School · GSD students,
   // grades 9–12") — a phrase, not a code.
   ['signup.groups[].events[].audience', true],
+  // Agenda row titles. The first four were calendar titles and passed as proper
+  // nouns; the 2027 registration deadlines (pdtrips2027) are descriptive phrases
+  // ("First payment due") — the recurring leak shape, so the path is prose. The
+  // named event series ("GSD Donuts and Discussions: Promote Diplomacy!") is
+  // kept verbatim by the translator, like the area's other quoted titles.
+  ['signup.groups[].events[].name', true],
   ['credential.required[]', true],
   ['credential.beyond[]', true],
   ['credential.quote.attribution', true],

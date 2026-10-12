@@ -74,15 +74,15 @@
       ]
     },
     {
-      "t": "2022–23 నుంచి 2025–26 విద్యా సంవత్సరాల మధ్య పదిహేను విదేశీ యాత్రలు — Round Square సదస్సులు, సేవా ప్రాజెక్టులు, ఆతిథ్య కుటుంబాలతో బసతో కూడిన భాషా అభ్యాస యాత్రలు, మరియు సైన్స్ యాత్రలు. విభాగం వారీగా వడపోయండి.",
-      "of": "7f889047",
+      "t": "2022–23 నుంచి 2026–27 విద్యా సంవత్సరాల మధ్య పద్దెనిమిది విదేశీ యాత్రలు — వేసవి 2027కి ప్రణాళిక చేసిన మూడు Upper School యాత్రలతో సహా — Round Square సదస్సులు, సేవా ప్రాజెక్టుల నుంచి ఆతిథ్య కుటుంబాలతో బసతో కూడిన భాషా అభ్యాస యాత్రలు, సైన్స్ యాత్రల వరకు. విభాగం వారీగా ఫిల్టర్ చేయండి.",
+      "of": "78f376d3",
       "at": [
         "providence-day:trips.headline"
       ]
     },
     {
-      "t": "యాత్రలు ఒక వారం సదస్సుల నుంచి వేసవి భాషా-సాంస్కృతిక అభ్యాస యాత్రల వరకు ఉంటాయి, బృందాల్లో 2 నుంచి 12 మంది విద్యార్థులు ఉంటారు.",
-      "of": "d99a0d51",
+      "t": "యాత్రలు ఒక వారం సదస్సుల నుంచి వేసవి అభ్యాస యాత్రల వరకు ఉంటాయి, 2 నుంచి 16 మంది విద్యార్థుల బృందాలతో.",
+      "of": "73be1225",
       "at": [
         "providence-day:trips.intro.strong"
       ]
@@ -95,38 +95,129 @@
       ]
     },
     {
+      "t": "వేసవి 2027కి ప్రణాళిక చేయబడింది",
+      "of": "224afbcc",
+      "at": [
+        "providence-day:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "జపాన్",
+      "of": "a28f44fb",
+      "at": [
+        "providence-day:trips.years[0].trips[0].dest",
+        "providence-day:trips.years[3].trips[3].dest"
+      ]
+    },
+    {
+      "t": "టోక్యో, హిరోషిమా + మియాజిమా — \"Continuity and Change\"",
+      "of": "b59b4eb2",
+      "at": [
+        "providence-day:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "9–11 తరగతులు",
+      "of": "3854e3f5",
+      "at": [
+        "providence-day:trips.years[0].trips[0].group",
+        "providence-day:trips.years[0].trips[1].group",
+        "providence-day:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "సంప్రదాయం మరియు పునరావిష్కరణ · స్మరణ మరియు శాంతి కోసం కృషి",
+      "of": "7ca4ab35",
+      "at": [
+        "providence-day:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "ఐస్‌లాండ్",
+      "of": "c586cd85",
+      "at": [
+        "providence-day:trips.years[0].trips[1].dest",
+        "providence-day:trips.years[3].trips[4].dest"
+      ]
+    },
+    {
+      "t": "రేక్యావిక్, గోల్డెన్ సర్కిల్ + దక్షిణ తీరం — \"A Living Lab for the Planet’s Future\"",
+      "of": "8c505158",
+      "at": [
+        "providence-day:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "హిమానీనదాలు మరియు వేడెక్కుతున్న ప్రపంచం · భూఉష్ణ శక్తి · ఐక్యరాజ్యసమితి సుస్థిర అభివృద్ధి లక్ష్యాలు (UN SDGs)",
+      "of": "83377435",
+      "at": [
+        "providence-day:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "ఫ్రాన్స్",
+      "of": "7b2e4bba",
+      "at": [
+        "providence-day:trips.years[0].trips[2].dest",
+        "providence-day:trips.years[4].trips[2].dest",
+        "providence-day:exchanges.partners[7].country"
+      ]
+    },
+    {
+      "t": "మోంట్‌పెలియర్ (Lycée Notre Dame de la Merci) + పారిస్ — \"Layers of History & Culture\"",
+      "of": "cefd034b",
+      "at": [
+        "providence-day:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "ఆతిథ్య కుటుంబాలతో ఎక్స్ఛేంజ్ వారం, ఆ తర్వాత పారిస్ · ఫ్రెంచ్ భాష రావాల్సిన అవసరం లేదు",
+      "of": "17aab6db",
+      "at": [
+        "providence-day:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "మోంట్‌పెలియర్",
+      "of": "8faa6198",
+      "at": [
+        "providence-day:trips.years[0].trips[2].homestay",
+        "providence-day:trips.years[4].trips[2].homestay"
+      ]
+    },
+    {
       "t": "Round Square ఇచ్చిన తేదీ ప్రకారం",
       "of": "dd1f28d3",
       "at": [
-        "providence-day:trips.years[0].note"
+        "providence-day:trips.years[1].note"
       ]
     },
     {
       "t": "యునైటెడ్ అరబ్ ఎమిరేట్స్",
       "of": "d8e2d83e",
       "at": [
-        "providence-day:trips.years[0].trips[0].dest"
+        "providence-day:trips.years[1].trips[0].dest"
       ]
     },
     {
       "t": "దుబాయ్ — 57వ Round Square International Conference",
       "of": "8c3a6eb0",
       "at": [
-        "providence-day:trips.years[0].trips[0].place"
+        "providence-day:trips.years[1].trips[0].place"
       ]
     },
     {
       "t": "సదస్సు · పర్యావరణ అంశాలు",
       "of": "bb2435c6",
       "at": [
-        "providence-day:trips.years[0].trips[0].theme"
+        "providence-day:trips.years[1].trips[0].theme"
       ]
     },
     {
       "t": "కొలంబియా",
       "of": "dae90f8f",
       "at": [
-        "providence-day:trips.years[1].trips[0].dest",
+        "providence-day:trips.years[2].trips[0].dest",
         "providence-day:exchanges.partners[0].country"
       ]
     },
@@ -134,149 +225,149 @@
       "t": "Round Square International Conference, \"Blooming from the Past\" · అమెజాన్ ముందస్తు సదస్సు · బోయాకా",
       "of": "4afe7f9b",
       "at": [
-        "providence-day:trips.years[1].trips[0].place"
+        "providence-day:trips.years[2].trips[0].place"
       ]
     },
     {
       "t": "6 మంది విద్యార్థులు",
       "of": "723bf37b",
       "at": [
-        "providence-day:trips.years[1].trips[0].group",
-        "providence-day:trips.years[1].trips[1].group"
+        "providence-day:trips.years[2].trips[0].group",
+        "providence-day:trips.years[2].trips[1].group"
       ]
     },
     {
       "t": "సదస్సు · సాంస్కృతిక",
       "of": "4287181c",
       "at": [
-        "providence-day:trips.years[1].trips[0].theme"
+        "providence-day:trips.years[2].trips[0].theme"
       ]
     },
     {
       "t": "నాలుగు రోజుల అమెజాన్ ముందస్తు సదస్సుతో సహా",
       "of": "10134884",
       "at": [
-        "providence-day:trips.years[1].trips[0].timing"
+        "providence-day:trips.years[2].trips[0].timing"
       ]
     },
     {
       "t": "బొగోటా",
       "of": "f9e3f0bb",
       "at": [
-        "providence-day:trips.years[1].trips[0].homestay"
+        "providence-day:trips.years[2].trips[0].homestay"
       ]
     },
     {
       "t": "ఇంగ్లాండ్",
       "of": "a2a8f2aa",
       "at": [
-        "providence-day:trips.years[1].trips[1].dest"
+        "providence-day:trips.years[2].trips[1].dest"
       ]
     },
     {
       "t": "Milton Abbey School Round Square సదస్సు, \"Leadership and Adventure\" · డోర్సెట్ + లండన్",
       "of": "05f9ba39",
       "at": [
-        "providence-day:trips.years[1].trips[1].place"
+        "providence-day:trips.years[2].trips[1].place"
       ]
     },
     {
       "t": "సదస్సు · నాయకత్వం · సాహసం",
       "of": "8cd0e100",
       "at": [
-        "providence-day:trips.years[1].trips[1].theme"
+        "providence-day:trips.years[2].trips[1].theme"
       ]
     },
     {
       "t": "ఒక వారం",
       "of": "cfc528c5",
       "at": [
-        "providence-day:trips.years[1].trips[1].timing"
+        "providence-day:trips.years[2].trips[1].timing"
       ]
     },
     {
       "t": "ఈక్వెడార్",
       "of": "5cb016c8",
       "at": [
-        "providence-day:trips.years[1].trips[2].dest"
+        "providence-day:trips.years[2].trips[2].dest"
       ]
     },
     {
       "t": "గాలాపాగోస్ దీవులు",
       "of": "2696cb7e",
       "at": [
-        "providence-day:trips.years[1].trips[2].place"
+        "providence-day:trips.years[2].trips[2].place"
       ]
     },
     {
       "t": "10 మంది విద్యార్థులు",
       "of": "4b2a145c",
       "at": [
-        "providence-day:trips.years[1].trips[2].group",
-        "providence-day:trips.years[1].trips[3].group"
+        "providence-day:trips.years[2].trips[2].group",
+        "providence-day:trips.years[2].trips[3].group"
       ]
     },
     {
       "t": "పరిణామం · జీవవైవిధ్యం · పర్యావరణ సుస్థిరత",
       "of": "00a51056",
       "at": [
-        "providence-day:trips.years[1].trips[2].theme"
+        "providence-day:trips.years[2].trips[2].theme"
       ]
     },
     {
       "t": "డెన్మార్క్ మరియు స్వీడన్",
       "of": "3579dc39",
       "at": [
-        "providence-day:trips.years[1].trips[3].dest"
+        "providence-day:trips.years[2].trips[3].dest"
       ]
     },
     {
       "t": "స్కాండినేవియా యాత్ర",
       "of": "93d69e04",
       "at": [
-        "providence-day:trips.years[1].trips[3].place"
+        "providence-day:trips.years[2].trips[3].place"
       ]
     },
     {
       "t": "డిజైన్ · సుస్థిరత · పట్టణ ఆవిష్కరణ",
       "of": "77010f79",
       "at": [
-        "providence-day:trips.years[1].trips[3].theme"
+        "providence-day:trips.years[2].trips[3].theme"
       ]
     },
     {
       "t": "దక్షిణ కొరియా",
       "of": "0a0c11e8",
       "at": [
-        "providence-day:trips.years[1].trips[4].dest"
+        "providence-day:trips.years[2].trips[4].dest"
       ]
     },
     {
       "t": "Cheongshim International Academy Model UN",
       "of": "4e9cf4ee",
       "at": [
-        "providence-day:trips.years[1].trips[4].place"
+        "providence-day:trips.years[2].trips[4].place"
       ]
     },
     {
       "t": "12 మంది విద్యార్థులు",
       "of": "96b4c0d2",
       "at": [
-        "providence-day:trips.years[1].trips[4].group"
+        "providence-day:trips.years[2].trips[4].group"
       ]
     },
     {
       "t": "విదేశాల్లో Model UN · చరిత్ర · సంస్కృతి",
       "of": "eedf3d20",
       "at": [
-        "providence-day:trips.years[1].trips[4].theme"
+        "providence-day:trips.years[2].trips[4].theme"
       ]
     },
     {
       "t": "దక్షిణ ఆఫ్రికా",
       "of": "af086de8",
       "at": [
-        "providence-day:trips.years[1].trips[5].dest",
+        "providence-day:trips.years[2].trips[5].dest",
         "providence-day:exchanges.partners[3].country"
       ]
     },
@@ -284,211 +375,182 @@
       "t": "Round Square International Service Project",
       "of": "d833476c",
       "at": [
-        "providence-day:trips.years[1].trips[5].place"
+        "providence-day:trips.years[2].trips[5].place"
       ]
     },
     {
       "t": "2 మంది విద్యార్థులు",
       "of": "7e829eaf",
       "at": [
-        "providence-day:trips.years[1].trips[5].group"
+        "providence-day:trips.years[2].trips[5].group"
       ]
     },
     {
       "t": "సేవ — శాశ్వత కిండర్‌గార్టెన్ భవనం, తేనెటీగల పెంపకం",
       "of": "247206f6",
       "at": [
-        "providence-day:trips.years[1].trips[5].theme"
+        "providence-day:trips.years[2].trips[5].theme"
       ]
     },
     {
       "t": "కెన్యా",
       "of": "58c8bfc3",
       "at": [
-        "providence-day:trips.years[2].trips[0].dest"
+        "providence-day:trips.years[3].trips[0].dest"
       ]
     },
     {
       "t": "నైరోబీ — Round Square సదస్సు, \"The New Africa\" + మసాయ్ మారా ముందస్తు సదస్సు",
       "of": "0f24367b",
       "at": [
-        "providence-day:trips.years[2].trips[0].place"
+        "providence-day:trips.years[3].trips[0].place"
       ]
     },
     {
       "t": "5 మంది ప్రతినిధులు",
       "of": "0613735c",
       "at": [
-        "providence-day:trips.years[2].trips[0].group"
+        "providence-day:trips.years[3].trips[0].group"
       ]
     },
     {
       "t": "సదస్సు",
       "of": "ae7bb1c3",
       "at": [
-        "providence-day:trips.years[2].trips[0].theme"
+        "providence-day:trips.years[3].trips[0].theme"
       ]
     },
     {
       "t": "థాయిలాండ్",
       "of": "b9e13756",
       "at": [
-        "providence-day:trips.years[2].trips[1].dest"
+        "providence-day:trips.years[3].trips[1].dest"
       ]
     },
     {
       "t": "Kui Buri జాతీయ ఉద్యానవనం — Round Square Big Build",
       "of": "c8d1cf27",
       "at": [
-        "providence-day:trips.years[2].trips[1].place"
+        "providence-day:trips.years[3].trips[1].place"
       ]
     },
     {
       "t": "4 మంది విద్యార్థులు + 2 మంది ఉపాధ్యాయులు",
       "of": "336bc8a2",
       "at": [
-        "providence-day:trips.years[2].trips[1].group"
+        "providence-day:trips.years[3].trips[1].group"
       ]
     },
     {
       "t": "సేవ · మానవులు/వన్యప్రాణుల సహజీవనం",
       "of": "d6f0e8f5",
       "at": [
-        "providence-day:trips.years[2].trips[1].theme"
+        "providence-day:trips.years[3].trips[1].theme"
       ]
     },
     {
       "t": "గ్రీస్",
       "of": "cbef70fa",
       "at": [
-        "providence-day:trips.years[2].trips[2].dest"
+        "providence-day:trips.years[3].trips[2].dest"
       ]
     },
     {
       "t": "పురాణాలు · పురావస్తు శాస్త్రం · తత్వశాస్త్రం",
       "of": "eff563fa",
       "at": [
-        "providence-day:trips.years[2].trips[2].theme"
+        "providence-day:trips.years[3].trips[2].theme"
       ]
     },
     {
       "t": "వేసవి 2024",
       "of": "87d4d960",
       "at": [
-        "providence-day:trips.years[2].trips[2].timing"
-      ]
-    },
-    {
-      "t": "జపాన్",
-      "of": "a28f44fb",
-      "at": [
-        "providence-day:trips.years[2].trips[3].dest"
+        "providence-day:trips.years[3].trips[2].timing"
       ]
     },
     {
       "t": "సంప్రదాయం మరియు సాంకేతికత · అనిమే · సుస్థిరత",
       "of": "b9ee9739",
       "at": [
-        "providence-day:trips.years[2].trips[3].theme"
-      ]
-    },
-    {
-      "t": "ఐస్‌లాండ్",
-      "of": "c586cd85",
-      "at": [
-        "providence-day:trips.years[2].trips[4].dest"
+        "providence-day:trips.years[3].trips[3].theme"
       ]
     },
     {
       "t": "వాతావరణ మార్పు · పర్యావరణం",
       "of": "09df4414",
       "at": [
-        "providence-day:trips.years[2].trips[4].theme"
+        "providence-day:trips.years[3].trips[4].theme"
       ]
     },
     {
       "t": "యునైటెడ్ కింగ్‌డమ్",
       "of": "710317c3",
       "at": [
-        "providence-day:trips.years[3].trips[0].dest"
+        "providence-day:trips.years[4].trips[0].dest"
       ]
     },
     {
       "t": "ఆక్స్‌ఫర్డ్ + వేల్స్ తీరం — Round Square సదస్సు, \"Take Less: Be More\"",
       "of": "c13f0900",
       "at": [
-        "providence-day:trips.years[3].trips[0].place"
+        "providence-day:trips.years[4].trips[0].place"
       ]
     },
     {
       "t": "సదస్సు · సుస్థిరత (కోస్టీరింగ్, Bug Farm)",
       "of": "92242dac",
       "at": [
-        "providence-day:trips.years[3].trips[0].theme"
+        "providence-day:trips.years[4].trips[0].theme"
       ]
     },
     {
       "t": "స్పెయిన్",
       "of": "e6d1e3ee",
       "at": [
-        "providence-day:trips.years[3].trips[1].dest"
+        "providence-day:trips.years[4].trips[1].dest"
       ]
     },
     {
       "t": "సెవిల్ + గ్రెనడా, కాడిజ్, మాడ్రిడ్",
       "of": "b387ce5a",
       "at": [
-        "providence-day:trips.years[3].trips[1].place"
+        "providence-day:trips.years[4].trips[1].place"
       ]
     },
     {
       "t": "రోజువారీ భాషా తరగతులతో భాషా, సాంస్కృతిక అభ్యాసం",
       "of": "bc6129be",
       "at": [
-        "providence-day:trips.years[3].trips[1].theme"
+        "providence-day:trips.years[4].trips[1].theme"
       ]
     },
     {
       "t": "వేసవి 2023",
       "of": "8ed4e465",
       "at": [
-        "providence-day:trips.years[3].trips[1].timing"
+        "providence-day:trips.years[4].trips[1].timing"
       ]
     },
     {
       "t": "సెవిల్",
       "of": "6c7be847",
       "at": [
-        "providence-day:trips.years[3].trips[1].homestay"
-      ]
-    },
-    {
-      "t": "ఫ్రాన్స్",
-      "of": "7b2e4bba",
-      "at": [
-        "providence-day:trips.years[3].trips[2].dest",
-        "providence-day:exchanges.partners[7].country"
+        "providence-day:trips.years[4].trips[1].homestay"
       ]
     },
     {
       "t": "మోంట్‌పెలియర్ (Lycée Notre Dame de la Merci) + పారిస్",
       "of": "f1a25582",
       "at": [
-        "providence-day:trips.years[3].trips[2].place"
+        "providence-day:trips.years[4].trips[2].place"
       ]
     },
     {
       "t": "భాషా ఎక్స్ఛేంజ్ (పరస్పర)",
       "of": "e126edab",
       "at": [
-        "providence-day:trips.years[3].trips[2].theme"
-      ]
-    },
-    {
-      "t": "మోంట్‌పెలియర్",
-      "of": "8faa6198",
-      "at": [
-        "providence-day:trips.years[3].trips[2].homestay"
+        "providence-day:trips.years[4].trips[2].theme"
       ]
     },
     {
@@ -1281,22 +1343,22 @@
       ]
     },
     {
-      "t": "అంతర్జాతీయ యాత్రల నమోదు అక్టోబర్ 16న తెరుచుకుంటుంది, ఒక వారం తర్వాత వర్చువల్ Global Trips సమాచార సమావేశం, కొత్త GSD విద్యార్థులకు తప్పనిసరి ఓరియెంటేషన్‌లు ఉంటాయి.",
-      "of": "6448a7fa",
+      "t": "వేసవి 2027 యాత్రల రిజిస్ట్రేషన్ అక్టోబర్ 16న ప్రారంభమై నవంబర్ 2న ముగుస్తుంది; మధ్యలో ఒక వర్చువల్ సమాచార సమావేశం, నవంబర్ మధ్యలో ఆర్థిక సహాయ నిర్ణయాలు, కొత్త GSD విద్యార్థులకు తప్పనిసరి ఓరియంటేషన్లు ఉంటాయి.",
+      "of": "3d967c98",
       "at": [
         "providence-day:signup.headline"
       ]
     },
     {
-      "t": "అంతర్జాతీయ యాత్రల నమోదు అక్టోబర్ 16, 2026న తెరుచుకుంటుంది.",
-      "of": "191cc5e6",
+      "t": "Global trips రిజిస్ట్రేషన్ అక్టోబర్ 16, 2026న ప్రారంభమై నవంబర్ 2న ముగుస్తుంది; అదే రోజు తిరిగి చెల్లించని డిపాజిట్ మరియు ఏదైనా ఆర్థిక సహాయ దరఖాస్తు కూడా సమర్పించాలి.",
+      "of": "dd50e911",
       "at": [
         "providence-day:signup.intro.strong"
       ]
     },
     {
-      "t": "రెండు యాత్రా కార్యక్రమాలూ పాఠశాల Global Education క్యాలెండర్‌లో ఉన్నాయి. అంతర్జాతీయ యాత్రలు Middle, Upper School విద్యార్థుల కోసం; GSD కార్యక్రమాలు ఈ ప్రోగ్రామ్‌లో ఉన్న Upper School విద్యార్థుల కోసం, వారు సాధారణంగా 9వ తరగతిలో దీన్ని మొదలుపెడతారు.",
-      "of": "060e2111",
+      "t": "రెండు యాత్ర కార్యక్రమాలూ పాఠశాల Global Education క్యాలెండర్‌లో ఉన్నాయి. Global trips Middle, Upper School విద్యార్థుల కోసం; GSD కార్యక్రమాలు ఈ ప్రోగ్రామ్‌లో ఉన్న Upper School విద్యార్థుల కోసం, వారు సాధారణంగా 9వ తరగతిలో దీన్ని మొదలుపెడతారు. ప్రచురించిన మూడు 2027 యాత్రలు Upper School కు మాత్రమే, రిజిస్టర్ చేసుకునే సమయంలో 9–11 తరగతుల్లో ఉన్న విద్యార్థుల కోసం. రిజిస్ట్రేషన్ సమయంలో తిరిగి చెల్లించని డిపాజిట్ కట్టాలి, మిగిలిన మొత్తాన్ని ఒకేసారి పూర్తిగా లేదా రెండు వాయిదాల్లో చెల్లించవచ్చు. జపాన్, ఐస్‌లాండ్ యాత్రలకు 10 నుంచి 16 మంది, ఫ్రాన్స్‌కు 8 నుంచి 14 మంది విద్యార్థులను తీసుకుంటారు, ఆ తర్వాత వెయిట్‌లిస్ట్ ఉంటుంది. Providence Day లో విద్యార్థి చదివే కాలంలో ఒక global trip కోసం పరిమిత ఆర్థిక సహాయం అందుబాటులో ఉంది.",
+      "of": "d7d4e074",
       "at": [
         "providence-day:signup.intro.muted"
       ]
@@ -1309,8 +1371,8 @@
       ]
     },
     {
-      "t": "శరదృతువు 2026",
-      "of": "486271a2",
+      "t": "2026–27",
+      "of": "4427b993",
       "at": [
         "providence-day:signup.groups[0].note"
       ]
@@ -1320,6 +1382,13 @@
       "of": "1f4bdf1c",
       "at": [
         "providence-day:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "Global Trip రిజిస్ట్రేషన్ ప్రారంభం",
+      "of": "6e7d9a8b",
+      "at": [
+        "providence-day:signup.groups[0].events[0].name"
       ]
     },
     {
@@ -1338,10 +1407,98 @@
       ]
     },
     {
+      "t": "Global Trips వర్చువల్ సమాచార సమావేశం",
+      "of": "5206f277",
+      "at": [
+        "providence-day:signup.groups[0].events[1].name"
+      ]
+    },
+    {
       "t": "ఆన్‌లైన్‌లో, Google Meet ద్వారా",
       "of": "65c6e2f4",
       "at": [
         "providence-day:signup.groups[0].events[1].detail"
+      ]
+    },
+    {
+      "t": "నవంబర్ 2, 2026",
+      "of": "dc16870f",
+      "at": [
+        "providence-day:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "రిజిస్ట్రేషన్, తిరిగి చెల్లించని డిపాజిట్ మరియు ఆర్థిక సహాయ దరఖాస్తుకు గడువు",
+      "of": "17239da7",
+      "at": [
+        "providence-day:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "Upper School · 9–11 తరగతులు",
+      "of": "a8f782fe",
+      "at": [
+        "providence-day:signup.groups[0].events[2].audience",
+        "providence-day:signup.groups[0].events[3].audience",
+        "providence-day:signup.groups[0].events[4].audience",
+        "providence-day:signup.groups[0].events[5].audience",
+        "providence-day:signup.groups[0].events[6].audience"
+      ]
+    },
+    {
+      "t": "నవంబర్ 19, 2026",
+      "of": "e979ce05",
+      "at": [
+        "providence-day:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "యాత్ర స్థితి లేఖలు కుటుంబాలకు పంపబడతాయి",
+      "of": "89745092",
+      "at": [
+        "providence-day:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "డిసెంబర్ 1, 2026",
+      "of": "a77e03d3",
+      "at": [
+        "providence-day:signup.groups[0].events[4].when"
+      ]
+    },
+    {
+      "t": "మొదటి చెల్లింపు గడువు",
+      "of": "beb12695",
+      "at": [
+        "providence-day:signup.groups[0].events[4].name"
+      ]
+    },
+    {
+      "t": "జనవరి 25, 2027",
+      "of": "ed0cbd43",
+      "at": [
+        "providence-day:signup.groups[0].events[5].when"
+      ]
+    },
+    {
+      "t": "PDS ప్రయాణ ఫారాలకు గడువు",
+      "of": "312c178b",
+      "at": [
+        "providence-day:signup.groups[0].events[5].name"
+      ]
+    },
+    {
+      "t": "ఫిబ్రవరి 1, 2027",
+      "of": "57b92f01",
+      "at": [
+        "providence-day:signup.groups[0].events[6].when"
+      ]
+    },
+    {
+      "t": "రెండవ చెల్లింపు గడువు",
+      "of": "9cfc4389",
+      "at": [
+        "providence-day:signup.groups[0].events[6].name"
       ]
     },
     {
@@ -1359,6 +1516,13 @@
       ]
     },
     {
+      "t": "GSD Donuts and Discussions: Promote Diplomacy!",
+      "of": "650ae345",
+      "at": [
+        "providence-day:signup.groups[1].events[0].name"
+      ]
+    },
+    {
       "t": "Upper School · GSD విద్యార్థులు, 9–12 తరగతులు",
       "of": "244d8a61",
       "at": [
@@ -1373,6 +1537,13 @@
       ]
     },
     {
+      "t": "చివరి తప్పనిసరి GSD కొత్త విద్యార్థుల ఓరియంటేషన్ #3",
+      "of": "21173435",
+      "at": [
+        "providence-day:signup.groups[1].events[1].name"
+      ]
+    },
+    {
       "t": "Upper School · కొత్త GSD విద్యార్థులు, సాధారణంగా 9వ తరగతి",
       "of": "199ae5b7",
       "at": [
@@ -1380,8 +1551,8 @@
       ]
     },
     {
-      "t": "ఈ కార్యక్రమం ఎక్కడ ప్రత్యేకంగా నిలుస్తుంది, మరియు పాఠశాల వెబ్‌సైట్ ఇంకా సమాధానం ఇవ్వని పది ప్రశ్నలు — ప్రారంభ తరగతి, ప్రస్తుత యాత్రలు, ఖర్చు మరియు భద్రత.",
-      "of": "8070dd1f",
+      "t": "ఈ ప్రోగ్రామ్ ఎక్కడ ప్రత్యేకంగా నిలుస్తుంది, మరియు పాఠశాల వెబ్‌సైట్ ఇంకా సమాధానం ఇవ్వని తొమ్మిది ప్రశ్నలు — ప్రారంభ తరగతి, Middle School యాత్రలు, ఆర్థిక సహాయం మరియు భద్రత.",
+      "of": "f66b307b",
       "at": [
         "providence-day:verdict.headline"
       ]
@@ -1436,129 +1607,115 @@
       ]
     },
     {
-      "t": "ప్రస్తుత యాత్రల జాబితా.",
-      "of": "33f8fb9b",
+      "t": "Middle School యాత్రలు.",
+      "of": "efbecefe",
       "at": [
         "providence-day:verdict.ask[1].topic"
       ]
     },
     {
-      "t": "2026–27 కి మరియు వేసవి 2027 కి ఏ యాత్రలు అందుబాటులో ఉన్నాయి? తేదీలు, వ్యవధులు మరియు తరగతి శ్రేణులు ఏమిటి?",
-      "of": "4b2371c2",
+      "t": "2026–27 మరియు వేసవి 2027కి ఏ Middle School యాత్రలు అందుబాటులో ఉన్నాయి? ప్రచురించిన 2027 యాత్ర పేజీలన్నీ Upper School, 9–11 తరగతులకు చెందినవే.",
+      "of": "aecd5ec3",
       "at": [
         "providence-day:verdict.ask[1].question"
-      ]
-    },
-    {
-      "t": "ఖర్చు.",
-      "of": "04e0a6c2",
-      "at": [
-        "providence-day:verdict.ask[2].topic"
-      ]
-    },
-    {
-      "t": "ఒక్కో యాత్రకు ధరల శ్రేణి ఎంత, అందులో ఏమేమి ఉంటాయి (విమాన ఛార్జీలు, బీమా, భోజనం)? డిపాజిట్ మరియు రీఫండ్ విధానాలు ఏమిటి?",
-      "of": "d10501c0",
-      "at": [
-        "providence-day:verdict.ask[2].question"
       ]
     },
     {
       "t": "ఆర్థిక సహాయం.",
       "of": "b17a4d3d",
       "at": [
-        "providence-day:verdict.ask[3].topic"
+        "providence-day:verdict.ask[2].topic"
       ]
     },
     {
-      "t": "\"Financial Assistance Beyond Tuition\" కింద జాబితా చేసిన ఎండోమెంట్ నిధులు (Murdock, Latchwood, Bhandari Mehta) అంతర్జాతీయ యాత్రలకు వర్తిస్తాయా? ఒక కుటుంబం ఎలా, ఎప్పుడు దరఖాస్తు చేయాలి?",
-      "of": "f1e878fc",
+      "t": "యాత్ర ఆర్థిక సహాయం పరిమితం, ఒక్కో విద్యార్థికి ఒక global trip కు మాత్రమే వర్తిస్తుంది. సాధారణంగా ఇచ్చే సహాయం ఎంత మొత్తాన్ని భరిస్తుంది, మరియు \"Financial Assistance Beyond Tuition\" కింద పేర్కొన్న ఎండోమెంట్ నిధులు (Murdock, Latchwood, Bhandari Mehta) ఇందుకు తోడ్పడతాయా?",
+      "of": "63836323",
       "at": [
-        "providence-day:verdict.ask[3].question"
+        "providence-day:verdict.ask[2].question"
       ]
     },
     {
       "t": "జోర్డాన్.",
       "of": "1e0264d3",
       "at": [
-        "providence-day:verdict.ask[4].topic"
+        "providence-day:verdict.ask[3].topic"
       ]
     },
     {
       "t": "Daher నిధులతో జరిగే జోర్డాన్ యాత్రకు విద్యార్థులను ఎలా ఎంపిక చేస్తారు? ఏ తరగతులు అర్హులు, అది ఎప్పుడు జరుగుతుంది, పూర్తిగా నిధులు సమకూరుస్తారా?",
       "of": "6fb9373e",
       "at": [
-        "providence-day:verdict.ask[4].question"
+        "providence-day:verdict.ask[3].question"
       ]
     },
     {
       "t": "ఎంపిక.",
       "of": "92b0d001",
       "at": [
-        "providence-day:verdict.ask[5].topic"
+        "providence-day:verdict.ask[4].topic"
       ]
     },
     {
-      "t": "యాత్రలు ముందు వచ్చినవారికి ముందు ప్రాతిపదికనా లేక దరఖాస్తు ఆధారంగానా? Round Square ప్రతినిధులను ఎలా ఎంచుకుంటారు?",
-      "of": "c235a648",
+      "t": "రిజిస్ట్రేషన్‌లు పరిశీలన కోసం Global Education Travel Committee కి వెళ్తాయి. ఒక యాత్రకు సీట్ల కంటే ఎక్కువ దరఖాస్తులు వస్తే, స్థానాలు ఎలా నిర్ణయిస్తారు? Round Square ప్రతినిధులను ఎలా ఎంపిక చేస్తారు?",
+      "of": "a2956585",
       "at": [
-        "providence-day:verdict.ask[5].question"
+        "providence-day:verdict.ask[4].question"
       ]
     },
     {
       "t": "భద్రత.",
       "of": "925b432b",
       "at": [
-        "providence-day:verdict.ask[6].topic"
+        "providence-day:verdict.ask[5].topic"
       ]
     },
     {
-      "t": "పర్యవేక్షకుల నిష్పత్తులు, ట్రావెల్ వెండార్లు, బీమా, అత్యవసర విధానాలు, మరియు పాస్‌పోర్ట్, వీసా కాలపరిమితులు ఏమిటి?",
-      "of": "5ff91d0a",
+      "t": "ప్రతి 2027 యాత్రకు ఇద్దరు PD అధ్యయన పర్యటన నాయకులు, ప్రయాణ భాగస్వామి Envoys, అత్యవసర వైద్య మరియు తరలింపు బీమా ఉంటాయి. అత్యవసర విధానాలు ఏమిటి, యాత్రలో వైద్య అవసరాలను ఎవరు చూసుకుంటారు?",
+      "of": "aa88b5c4",
       "at": [
-        "providence-day:verdict.ask[6].question"
+        "providence-day:verdict.ask[5].question"
       ]
     },
     {
       "t": "ఎక్స్ఛేంజ్‌లు.",
       "of": "3b61cee5",
       "at": [
-        "providence-day:verdict.ask[7].topic"
+        "providence-day:verdict.ask[6].topic"
       ]
     },
     {
       "t": "Round Square ఎక్స్ఛేంజ్‌లకు కుటుంబాలు ఎలా దరఖాస్తు చేయాలి? బదులుగా ఆతిథ్య కుటుంబాలు కూడా అతిథి విద్యార్థికి ఆతిథ్యం ఇవ్వడం తప్పనిసరా?",
       "of": "b86305ff",
       "at": [
-        "providence-day:verdict.ask[7].question"
+        "providence-day:verdict.ask[6].question"
       ]
     },
     {
       "t": "GSD.",
       "of": "8fc75c0d",
       "at": [
-        "providence-day:verdict.ask[8].topic"
+        "providence-day:verdict.ask[7].topic"
       ]
     },
     {
       "t": "ఒక్క యాత్రతో ప్రయాణ నిబంధన నెరవేరుతుందా? GSD కోసం ప్రత్యేకమైన ప్రయాణ సబ్సిడీ ఏదైనా ఉందా?",
       "of": "28117a3d",
       "at": [
-        "providence-day:verdict.ask[8].question"
+        "providence-day:verdict.ask[7].question"
       ]
     },
     {
       "t": "పరిమాణం.",
       "of": "b8f5ed2d",
       "at": [
-        "providence-day:verdict.ask[9].topic"
+        "providence-day:verdict.ask[8].topic"
       ]
     },
     {
       "t": "ప్రతి సంవత్సరం ఎంతమంది విద్యార్థులు విదేశాలకు ప్రయాణిస్తారు, అది ప్రతి తరగతిలో ఎంత వాటా?",
       "of": "c588ed4f",
       "at": [
-        "providence-day:verdict.ask[9].question"
+        "providence-day:verdict.ask[8].question"
       ]
     }
   ]
