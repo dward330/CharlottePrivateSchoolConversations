@@ -75,7 +75,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------- where they go -- */
   trips: {
     headline:
-      'Fifteen dated trips abroad since 2022–23 — Round Square conferences, service projects, language homestays and science expeditions, filterable by division.',
+      'Fifteen trips abroad across the 2022–23 to 2025–26 school years — Round Square conferences, service projects, language-immersion trips with host-family stays, and science expeditions. Filter by division.',
     intro: {
       strong:
         'Trips run from one-week conferences to summer immersions, with groups of 2 to 12 students.',
@@ -293,7 +293,7 @@ export const providenceDay: InternationalTravelProgram = {
           'Faculty-led spring break and summer trips',
           'Round Square international conferences and service projects',
           'Reciprocal exchanges of two to four weeks',
-          'The optional Global Studies Diploma, starting in ninth grade',
+          'The optional Global Studies Diploma, starting in 9th grade',
         ],
       },
     ],
@@ -301,7 +301,7 @@ export const providenceDay: InternationalTravelProgram = {
       title: 'The language path — an 11-year journey toward language proficiency',
       steps: [
         { when: 'From TK', text: 'Exposure to French, Spanish and Mandarin Chinese' },
-        { when: 'By Grade 2', text: 'Choose one language for the remaining four years of Lower School' },
+        { when: 'By 2nd grade', text: 'Choose one language for the remaining four years of Lower School' },
         { when: 'Middle School', text: 'Latin and German are added' },
       ],
     },
@@ -367,7 +367,7 @@ export const providenceDay: InternationalTravelProgram = {
       },
     ],
     visitors: [
-      'In 2022–23, a student from Finland joined PD\'s junior class for the spring semester, and a student from Germany joined the sophomore class for six weeks in the fall.',
+      'In 2022–23, a student from Finland joined PD\'s 11th grade for the spring semester, and a student from Germany joined the 10th grade for six weeks in the fall.',
     ],
     sources: [
       { label: 'providenceday.org — Global Map', url: MAP },
@@ -384,10 +384,10 @@ export const providenceDay: InternationalTravelProgram = {
       strong:
         'At PD, the Global Studies Diploma is an optional second diploma that recognizes students who pursue advanced global learning throughout their Upper School experience.',
       muted:
-        'Students typically begin in 9th grade, and can join later in Upper School under certain circumstances. School pages date the program\'s start to 2005 or 2007.',
+        'Students typically begin in 9th grade, and can join later in Upper School under certain circumstances.',
     },
     stats: [
-      { value: '~20', label: 'seniors graduate with it in a typical year' },
+      { value: '~20', label: 'students earn it in a typical graduating class' },
       { value: '~375', label: 'students have received the GSD to date' },
       { value: 'B−', label: 'minimum grade in every required GSD course' },
     ],
@@ -411,7 +411,7 @@ export const providenceDay: InternationalTravelProgram = {
     quote: {
       text: 'Thanks to Global Education, she can think of herself "as more than a North Carolinian, more than an American, but as a human."',
       attribution:
-        'A Class of 2025 graduate, now at Columbia University, who "had never left the United States" when she started freshman year — and has since "jumped off cliffs in Wales, met with students from Japan at Oxford University, and explored La Alhambra in Spain."',
+        'A class of 2025 graduate, now at Columbia University, who "had never left the United States" when she started 9th grade — and has since "jumped off cliffs in Wales, met with students from Japan at Oxford University, and explored La Alhambra in Spain."',
     },
     award: {
       name: 'Distinguished Global Scholar Award',
@@ -423,7 +423,7 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'GSD site — FAQ', url: GSD_FAQ },
       { label: 'GSD site — Alumni', url: GSD_ALUMNI },
       { label: 'GSD site — Home (portfolio)', url: GSD_HOME },
-      { label: 'providenceday.org — Global Education (alumna, ninth-grade start)', url: GE },
+      { label: 'providenceday.org — Global Education (alumna, 9th-grade start)', url: GE },
       { label: 'providenceday.org — Endowment (award)', url: ENDOW },
     ],
   },
@@ -489,7 +489,7 @@ export const providenceDay: InternationalTravelProgram = {
     intro: {
       strong: 'Registration for global trips opens October 16, 2026.',
       muted:
-        'Both trip events sit on the school\'s Global Education calendar. The division and grade tags are our reading, not the calendar\'s: the trips on record run in Middle and Upper School, and the GSD is an Upper School program students typically begin in 9th grade.',
+        'Both trip events are on the school\'s Global Education calendar. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade.',
     },
     groups: [
       {
@@ -521,7 +521,7 @@ export const providenceDay: InternationalTravelProgram = {
           {
             when: 'October 2, 2026 · 1:00–2:00 PM',
             name: 'Final Required GSD New Student Orientation #3',
-            audience: 'Upper School · new GSD students, typically grade 9',
+            audience: 'Upper School · new GSD students, typically 9th grade',
           },
         ],
       },

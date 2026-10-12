@@ -1013,3 +1013,18 @@ The rule is in `internationalTravel/README.md`.
 **Retitle (2026-10-11):** the `start` card is now "Global Learning at Each School Level". "Grade by Grade" overpromised, because the card is organised by Lower / Middle / Upper School.
 
 **Card order changed on review (2026-10-11):** trips → exchanges → signup → start → credential → network → verdict. The registry order in `INTERNATIONAL_TRAVEL_CARDS` is the only change.
+
+**Wording pass (2026-10-12, user-requested):**
+- **Where They Go teaser.** It names the span the ledger shows ("across the 2022–23 to
+  2025–26 school years"): a reviewer misread "since 2022–23" as disagreeing with the
+  ledger. "Language homestays" became "language-immersion trips with host-family stays".
+- **Signing Up intro.** States the audience firmly ("Global trips are for Middle and
+  Upper School students; the GSD events are for Upper School students in the program…"),
+  without the "our reading, not the calendar's" hedge.
+- **One grade convention across the area:** ordinal numerals, "9th grade" / "8th-grade" /
+  "2nd grade", alongside ranges as "grades 9–12". "ninth grade", "By Grade 2" and
+  "typically grade 9" were converted. So were the class-year words: junior / sophomore
+  became 11th / 10th grade, the alumna's "freshman year" became "9th grade", and the GSD
+  "seniors" tile now reads "students earn it in a typical graduating class".
+- **GSD card.** Dropped "School pages date the program's start to 2005 or 2007", and
+  lowercased "class of 2025".
