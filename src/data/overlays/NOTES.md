@@ -2781,3 +2781,35 @@ npm run i18n:leaks    -- --lang <l> --min 6                  # x9
 ```
 
 Verdicts and the full evidence: `.claude/plans/siblingtail2-data/TRIAGE.md`.
+
+# Global Exposure (`international-travel`) — Phase 2, 2026-10-12
+
+One school (Providence Day), 221 strings × 9 locales, plus 33 chrome keys (`topics`,
+`metrics`, nine `cards.international-travel.*`, the `travel.*` block). The slug, overlay
+filenames and work files keep `international-travel`; only the display name is "Global
+Exposure", and each locale translated the *concept* rather than the words
+(es *Experiencia internacional*, fr *Ouverture internationale*, ar *الانفتاح العالمي*, …).
+
+**Soft spots for a reviewer:**
+
+- **Identifier keeps, all nine locales:** Round Square, Global Studies Diploma, GSD, Model
+  UN, PD Passport, Global Map, the partner-school names, conference names (including
+  `57th Round Square International Conference`, whose `57th` therefore stays English),
+  and `Lower / Middle / Upper School` — in the prose AND in the division filter tabs.
+  That is why the credential card title is a bare `Global Studies Diploma` in fa/hi/ar.
+- **Quoted titles stay verbatim English** ("Inward. Outward. Forward.", "TK Goes Global",
+  conference themes, Postcard names, "Financial Assistance Beyond Tuition"); quoted
+  *speech* (the alumna, the SAIS committee) is translated. The three unquoted division
+  themes (`Wonder + Awareness`, …) are translated everywhere.
+- **`i18n:leaks` residue that is a KEEP:** place names spelled identically in a Latin
+  locale (Colombia, Kenya, Montpellier, Bermuda), `GSD.`, `Round Square International
+  Service Project`, `Cheongshim International Academy Model UN`, and `Global Trips`
+  (a program name — 4 locales keep it, 5 translate it; either reads correctly).
+- **Fixed in this pass as genuine leaks:** ht kept the three division themes in English
+  (8/8 others translated); te kept `Kui Buri National Park` (8/8 translated the park).
+- **Render fix, not a translation:** the stat-tile value is wrapped in `<bdi dir="ltr">`.
+  Without it, `~19`, `~375`, `280+` and `B−` rendered `19~`, `375~`, `+280`, `−B` inside
+  fa/ar tiles — every checker passed, because the stored figure was correct. The other
+  topics' stat tiles (`AdmissionsProgram`, `FinancialAidReport`, the Compare-metric
+  tiles) do not isolate their value either; none was audited for a leading/trailing
+  neutral in this pass.

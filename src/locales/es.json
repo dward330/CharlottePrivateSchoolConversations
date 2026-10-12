@@ -40,7 +40,8 @@
     "student-clubs": "Clubes estudiantiles",
     "summer-programs": "Programas de verano",
     "the-arts": "Artes",
-    "high-school-placement": "Ubicación en secundaria"
+    "high-school-placement": "Ubicación en secundaria",
+    "international-travel": "Experiencia internacional"
   },
   "metrics": {
     "admissions.redesign-research": "Informe de admisiones (2026)",
@@ -89,7 +90,8 @@
     "theatre": "Teatro y drama",
     "tuition-history": "Histórico de matrícula y fuentes",
     "visual-arts": "Artes visuales",
-    "win-loss": "Récords de victorias y derrotas"
+    "win-loss": "Récords de victorias y derrotas",
+    "international-travel.redesign-research": "Informe de experiencia internacional (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -399,7 +401,16 @@
     "high-school-placement.verdict": "Lista para la visita",
     "the-arts.ladder@trinity-episcopal": "El itinerario de artes K–8",
     "the-arts.theatre@trinity-episcopal": "Teatro y producciones por curso",
-    "the-arts.verdict@trinity-episcopal": "Lista para la visita"
+    "the-arts.verdict@trinity-episcopal": "Lista para la visita",
+    "international-travel.trips": "Adónde viajan",
+    "international-travel.start": "El aprendizaje global en cada etapa escolar",
+    "international-travel.exchanges": "Intercambios y estancias con familias anfitrionas",
+    "international-travel.credential": "Credencial",
+    "international-travel.network": "Red",
+    "international-travel.signup": "Inscripción",
+    "international-travel.verdict": "Valoración y preguntas para el colegio",
+    "international-travel.credential@providence-day": "El Global Studies Diploma",
+    "international-travel.network@providence-day": "Round Square y la red más amplia"
   },
   "cardLabels": {
     "afternoonRhythm": "El ritmo de la tarde",
@@ -529,5 +540,30 @@
     "next": "Foto siguiente",
     "position": "{{current}} de {{total}}",
     "dialogLabel": "Visor de fotos"
+  },
+  "travel": {
+    "allDivisions": "Todas las divisiones",
+    "lowerSchool": "Lower School",
+    "middleSchool": "Middle School",
+    "upperSchool": "Upper School",
+    "tripsShown_one": "{{count}} viaje mostrado",
+    "tripsShown_many": "{{count}} viajes mostrados",
+    "tripsShown_other": "{{count}} viajes mostrados",
+    "tripCount_one": "{{count}} viaje",
+    "tripCount_many": "{{count}} viajes",
+    "tripCount_other": "{{count}} viajes",
+    "ledgerLabel": "Viajes por curso escolar",
+    "homestay": "Familia anfitriona · {{place}}",
+    "alsoOnRecord": "También documentado",
+    "out": "Estudiante de PD en el extranjero:",
+    "in": "Estudiante asociado en PD:",
+    "livingWithFamily": "Alojados con familias anfitrionas en el extranjero",
+    "visitorsOnCampus": "Estudiantes visitantes en el campus",
+    "requiredCoursework": "Asignaturas obligatorias",
+    "beyondClassroom": "Más allá del aula",
+    "standsOut": "En qué destaca",
+    "askOnTour": "Preguntar en la visita",
+    "askOnTourNote": "no publicado en la web del colegio",
+    "confirmCalendar": "Confirme las fechas y horas exactas en el calendario actualizado del colegio."
   }
 }

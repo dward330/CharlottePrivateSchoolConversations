@@ -40,7 +40,8 @@
     "student-clubs": "విద్యార్థి క్లబ్‌లు",
     "summer-programs": "వేసవి కార్యక్రమాలు",
     "the-arts": "కళలు",
-    "high-school-placement": "హైస్కూల్ ప్లేస్‌మెంట్"
+    "high-school-placement": "హైస్కూల్ ప్లేస్‌మెంట్",
+    "international-travel": "అంతర్జాతీయ అనుభవం"
   },
   "metrics": {
     "admissions.redesign-research": "ప్రవేశాల పరిశోధన సంపుటి (2026)",
@@ -89,7 +90,8 @@
     "theatre": "రంగస్థలం మరియు నాటకం",
     "tuition-history": "ట్యూషన్ చరిత్ర మరియు ఆధారాలు",
     "visual-arts": "దృశ్య కళలు",
-    "win-loss": "గెలుపు–ఓటమి రికార్డులు"
+    "win-loss": "గెలుపు–ఓటమి రికార్డులు",
+    "international-travel.redesign-research": "అంతర్జాతీయ అనుభవ పరిశోధన సంపుటి (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -399,7 +401,16 @@
     "high-school-placement.verdict": "సందర్శన జాబితా",
     "the-arts.ladder@trinity-episcopal": "K–8 కళల నిచ్చెన",
     "the-arts.theatre@trinity-episcopal": "రంగస్థలం మరియు తరగతి వారీ ప్రదర్శనలు",
-    "the-arts.verdict@trinity-episcopal": "సందర్శన జాబితా"
+    "the-arts.verdict@trinity-episcopal": "సందర్శన జాబితా",
+    "international-travel.trips": "వారు ఎక్కడికి వెళ్తారు",
+    "international-travel.start": "ప్రతి పాఠశాల స్థాయిలో అంతర్జాతీయ అభ్యాసం",
+    "international-travel.exchanges": "ఎక్స్ఛేంజ్‌లు మరియు ఆతిథ్య కుటుంబాల బస",
+    "international-travel.credential": "ధ్రువపత్రం",
+    "international-travel.network": "నెట్‌వర్క్",
+    "international-travel.signup": "నమోదు చేసుకోవడం",
+    "international-travel.verdict": "తీర్పు మరియు పాఠశాలను అడగవలసినవి",
+    "international-travel.credential@providence-day": "Global Studies Diploma",
+    "international-travel.network@providence-day": "Round Square మరియు విస్తృత నెట్‌వర్క్"
   },
   "cardLabels": {
     "afternoonRhythm": "మధ్యాహ్నపు సాగు",
@@ -529,5 +540,28 @@
     "next": "తదుపరి ఫోటో",
     "position": "{{total}}లో {{current}}",
     "dialogLabel": "ఫోటో వీక్షణ విండో"
+  },
+  "travel": {
+    "allDivisions": "అన్ని విభాగాలు",
+    "lowerSchool": "Lower School",
+    "middleSchool": "Middle School",
+    "upperSchool": "Upper School",
+    "tripsShown_one": "{{count}} యాత్ర చూపబడింది",
+    "tripsShown_other": "{{count}} యాత్రలు చూపబడ్డాయి",
+    "tripCount_one": "{{count}} యాత్ర",
+    "tripCount_other": "{{count}} యాత్రలు",
+    "ledgerLabel": "విద్యా సంవత్సరం వారీగా యాత్రలు",
+    "homestay": "ఆతిథ్య కుటుంబంతో బస · {{place}}",
+    "alsoOnRecord": "రికార్డులో ఇంకా ఉన్నవి",
+    "out": "విదేశాల్లో PD విద్యార్థి:",
+    "in": "PDలో భాగస్వామి పాఠశాల విద్యార్థి:",
+    "livingWithFamily": "విదేశాల్లో ఆతిథ్య కుటుంబాలతో బస",
+    "visitorsOnCampus": "క్యాంపస్‌కు వచ్చిన అతిథి విద్యార్థులు",
+    "requiredCoursework": "తప్పనిసరి కోర్సులు",
+    "beyondClassroom": "తరగతి గది వెలుపల",
+    "standsOut": "ఇది ఎక్కడ ప్రత్యేకంగా నిలుస్తుంది",
+    "askOnTour": "సందర్శనలో అడగండి",
+    "askOnTourNote": "పాఠశాల వెబ్‌సైట్‌లో ప్రచురించబడలేదు",
+    "confirmCalendar": "ఖచ్చితమైన తేదీలు మరియు సమయాలను పాఠశాల ప్రత్యక్ష క్యాలెండర్‌లో నిర్ధారించుకోండి."
   }
 }

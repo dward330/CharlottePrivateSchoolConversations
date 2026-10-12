@@ -79,7 +79,9 @@ function StatStrip({ stats, className }: { stats: TravelStat[]; className?: stri
     <div className={`stat-strip it-stats${className ? ` ${className}` : ''}`}>
       {stats.map((s) => (
         <div key={s.label} className="stat-tile">
-          <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
+          {/* Isolated LTR: a figure with a leading/trailing neutral (`~19`, `B−`)
+              would otherwise reorder to `19~` / `−B` inside an fa/ar tile. */}
+          <div className="stat-tile-val"><bdi dir="ltr">{localizeMoneyText(s.value)}</bdi></div>
           <div className="it-stat-label">{localizeMoneyText(s.label)}</div>
           {s.note && <div className="it-stat-note text-muted"><RichText text={s.note} /></div>}
         </div>

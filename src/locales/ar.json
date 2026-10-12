@@ -48,7 +48,8 @@
     "student-clubs": "أندية الطلاب",
     "summer-programs": "البرامج الصيفية",
     "the-arts": "الفنون",
-    "high-school-placement": "الالتحاق بالمرحلة الثانوية"
+    "high-school-placement": "الالتحاق بالمرحلة الثانوية",
+    "international-travel": "الانفتاح العالمي"
   },
   "metrics": {
     "admissions.redesign-research": "ملف بحثي عن القبول (2026)",
@@ -97,7 +98,8 @@
     "theatre": "المسرح والدراما",
     "tuition-history": "تاريخ الرسوم ومصادرها",
     "visual-arts": "الفنون البصرية",
-    "win-loss": "سجلّات الفوز والخسارة"
+    "win-loss": "سجلّات الفوز والخسارة",
+    "international-travel.redesign-research": "ملف بحثي عن الانفتاح العالمي (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -467,7 +469,16 @@
     "high-school-placement.verdict": "قائمة الزيارة",
     "the-arts.ladder@trinity-episcopal": "سُلّم الفنون من K حتى الصف 8",
     "the-arts.theatre@trinity-episcopal": "المسرح والعروض حسب الصف",
-    "the-arts.verdict@trinity-episcopal": "قائمة الزيارة"
+    "the-arts.verdict@trinity-episcopal": "قائمة الزيارة",
+    "international-travel.trips": "إلى أين يسافرون",
+    "international-travel.start": "التعلّم العالمي في كل مرحلة دراسية",
+    "international-travel.exchanges": "التبادلات والإقامة لدى أسر مضيفة",
+    "international-travel.credential": "الشهادة",
+    "international-travel.network": "الشبكة",
+    "international-travel.signup": "التسجيل",
+    "international-travel.verdict": "الخلاصة وأسئلة للمدرسة",
+    "international-travel.credential@providence-day": "Global Studies Diploma",
+    "international-travel.network@providence-day": "Round Square والشبكة الأوسع"
   },
   "cardLabels": {
     "afternoonRhythm": "إيقاع فترة بعد الظهر",
@@ -613,5 +624,36 @@
     "next": "الصورة التالية",
     "position": "{{current}} من {{total}}",
     "dialogLabel": "عارض الصور"
+  },
+  "travel": {
+    "allDivisions": "كل المراحل",
+    "lowerSchool": "Lower School",
+    "middleSchool": "Middle School",
+    "upperSchool": "Upper School",
+    "tripsShown_zero": "{{count}} رحلة معروضة",
+    "tripsShown_one": "رحلة واحدة معروضة",
+    "tripsShown_two": "رحلتان معروضتان",
+    "tripsShown_few": "{{count}} رحلات معروضة",
+    "tripsShown_many": "{{count}} رحلةً معروضة",
+    "tripsShown_other": "{{count}} رحلة معروضة",
+    "tripCount_zero": "{{count}} رحلة",
+    "tripCount_one": "رحلة واحدة",
+    "tripCount_two": "رحلتان",
+    "tripCount_few": "{{count}} رحلات",
+    "tripCount_many": "{{count}} رحلةً",
+    "tripCount_other": "{{count}} رحلة",
+    "ledgerLabel": "الرحلات حسب السنة الدراسية",
+    "homestay": "إقامة لدى أسرة مضيفة · {{place}}",
+    "alsoOnRecord": "أيضًا في السجلّ",
+    "out": "طالب من PD في الخارج:",
+    "in": "طالب من المدرسة الشريكة في PD:",
+    "livingWithFamily": "الإقامة لدى أسر مضيفة في الخارج",
+    "visitorsOnCampus": "طلاب زائرون في الحرم المدرسي",
+    "requiredCoursework": "المقررات المطلوبة",
+    "beyondClassroom": "خارج الفصل الدراسي",
+    "standsOut": "مواطن التميّز",
+    "askOnTour": "اسأل في الجولة",
+    "askOnTourNote": "غير منشور على موقع المدرسة",
+    "confirmCalendar": "تحقّق من التواريخ والأوقات الدقيقة في تقويم المدرسة المباشر."
   }
 }

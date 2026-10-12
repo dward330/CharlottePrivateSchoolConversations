@@ -40,7 +40,8 @@
     "student-clubs": "विद्यार्थी क्लब",
     "summer-programs": "ग्रीष्मकालीन कार्यक्रम",
     "the-arts": "कला",
-    "high-school-placement": "हाई स्कूल प्लेसमेंट"
+    "high-school-placement": "हाई स्कूल प्लेसमेंट",
+    "international-travel": "वैश्विक अनुभव"
   },
   "metrics": {
     "admissions.redesign-research": "प्रवेश पर शोध दस्तावेज़ (2026)",
@@ -89,7 +90,8 @@
     "theatre": "रंगमंच और नाटक",
     "tuition-history": "ट्यूशन का इतिहास और स्रोत",
     "visual-arts": "दृश्य कला",
-    "win-loss": "जीत–हार रिकॉर्ड"
+    "win-loss": "जीत–हार रिकॉर्ड",
+    "international-travel.redesign-research": "वैश्विक अनुभव पर शोध दस्तावेज़ (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -399,7 +401,16 @@
     "high-school-placement.verdict": "विज़िट सूची",
     "the-arts.ladder@trinity-episcopal": "K–8 कला की सीढ़ी",
     "the-arts.theatre@trinity-episcopal": "रंगमंच और कक्षावार प्रस्तुतियाँ",
-    "the-arts.verdict@trinity-episcopal": "विज़िट सूची"
+    "the-arts.verdict@trinity-episcopal": "विज़िट सूची",
+    "international-travel.trips": "छात्र कहाँ जाते हैं",
+    "international-travel.start": "हर स्कूल स्तर पर वैश्विक सीख",
+    "international-travel.exchanges": "आदान-प्रदान और होमस्टे",
+    "international-travel.credential": "प्रमाणपत्र",
+    "international-travel.network": "नेटवर्क",
+    "international-travel.signup": "पंजीकरण",
+    "international-travel.verdict": "निष्कर्ष और स्कूल से पूछें",
+    "international-travel.credential@providence-day": "Global Studies Diploma",
+    "international-travel.network@providence-day": "Round Square और व्यापक नेटवर्क"
   },
   "cardLabels": {
     "afternoonRhythm": "दोपहर की दिनचर्या",
@@ -529,5 +540,28 @@
     "next": "अगली फ़ोटो",
     "position": "{{total}} में से {{current}}",
     "dialogLabel": "फ़ोटो व्यूअर"
+  },
+  "travel": {
+    "allDivisions": "सभी डिवीज़न",
+    "lowerSchool": "Lower School",
+    "middleSchool": "Middle School",
+    "upperSchool": "Upper School",
+    "tripsShown_one": "{{count}} यात्रा दिखाई गई",
+    "tripsShown_other": "{{count}} यात्राएँ दिखाई गईं",
+    "tripCount_one": "{{count}} यात्रा",
+    "tripCount_other": "{{count}} यात्राएँ",
+    "ledgerLabel": "स्कूल वर्ष के अनुसार यात्राएँ",
+    "homestay": "होमस्टे · {{place}}",
+    "alsoOnRecord": "रिकॉर्ड में यह भी",
+    "out": "विदेश में PD छात्र:",
+    "in": "PD में साझेदार छात्र:",
+    "livingWithFamily": "विदेश में मेज़बान परिवारों के साथ रहना",
+    "visitorsOnCampus": "कैंपस पर आए छात्र",
+    "requiredCoursework": "अनिवार्य कोर्स",
+    "beyondClassroom": "कक्षा से आगे",
+    "standsOut": "यह कहाँ अलग दिखता है",
+    "askOnTour": "स्कूल भ्रमण पर पूछें",
+    "askOnTourNote": "स्कूल की साइट पर प्रकाशित नहीं",
+    "confirmCalendar": "सटीक तारीख़ों और समय की पुष्टि स्कूल के लाइव कैलेंडर पर करें।"
   }
 }
