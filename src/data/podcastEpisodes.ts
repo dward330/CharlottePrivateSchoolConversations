@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–38. */
+  /** Episode number in the show, 1–40. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–38), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–40), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -559,6 +559,38 @@ export const EPISODES: PodcastEpisode[] = [
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000793129231',
     schools: ['covenant-day'],
     researchArea: 'admissions',
+  },
+  {
+    id: 39,
+    // The sixth `/admissions-episode` production and the sixth to map to
+    // `admissions` — Hickory Grove's first episode, so its Admissions section
+    // gains a Listen strip. Take 5 of the v4 prompt (2026-10-05).
+    title: 'Hickory Grove Christian: How to Apply',
+    // Published: "Hickory Grove Christian School - Admissions - How to Apply (For Fall 2027 Entry)"
+    fullTitle:
+      'Hickory Grove Christian School - Admissions - How to Apply (For Fall 2027 Entry)',
+    spotifyUrl: 'https://open.spotify.com/episode/2F3UEhjtO91CFyu05NDM7W',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000793352678',
+    schools: ['hickory-grove-christian'],
+    researchArea: 'admissions',
+  },
+  {
+    id: 40,
+    // The first research-area deep dive written by hand rather than through
+    // `/admissions-episode`, and the first to map to `international-travel`
+    // (displayed as Global Exposure) — it gives Providence Day's Global
+    // Exposure section its Listen strip. Take 2 of the v3 prompt; the first
+    // take invented a "hosting covers it if you can't afford travel" claim.
+    title: 'Providence Day: Global Exposure',
+    // Published: "Providence Day: Global Exposure — Trips, Exchanges & the Global Studies Diploma"
+    fullTitle:
+      'Providence Day: Global Exposure — Trips, Exchanges & the Global Studies Diploma',
+    spotifyUrl: 'https://open.spotify.com/episode/1W1nwBzsqGFaTrIGUyBx8A',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000796003539',
+    schools: ['providence-day'],
+    researchArea: 'international-travel',
   },
 ]
 
