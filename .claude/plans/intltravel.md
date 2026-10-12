@@ -1009,3 +1009,5 @@ Quotes remain only on:
 - the "Financial Assistance Beyond Tuition" heading.
 
 The rule is in `internationalTravel/README.md`.
+
+**Retitle (2026-10-11):** the `start` card is now "Global Learning at Each School Level". "Grade by Grade" overpromised, because the card is organised by Lower / Middle / Upper School.

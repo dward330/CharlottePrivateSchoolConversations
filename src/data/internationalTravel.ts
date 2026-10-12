@@ -157,7 +157,7 @@ export type InternationalTravelProgram = {
  */
 export const INTERNATIONAL_TRAVEL_CARDS = [
   { key: 'trips', title: 'Where They Go' },
-  { key: 'start', title: 'Global Learning, Grade by Grade' },
+  { key: 'start', title: 'Global Learning at Each School Level' },
   { key: 'exchanges', title: 'Exchanges & Homestays' },
   { key: 'credential', title: 'Credential' },
   { key: 'network', title: 'Network' },

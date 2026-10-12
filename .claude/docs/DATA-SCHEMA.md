@@ -803,7 +803,7 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
 | `trips` | Where They Go | — |
-| `start` | Global Learning, Grade by Grade | — |
+| `start` | Global Learning at Each School Level | — |
 | `exchanges` | Exchanges & Homestays | — |
 | `credential` | Credential | — |
 | `network` | Network | — |
