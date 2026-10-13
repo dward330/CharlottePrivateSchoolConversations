@@ -2882,9 +2882,15 @@ Providence Day's "& GSD" title was **moved** into `signup@providence-day` in Pha
   Latin locale (Canada, Cuba, Costa Rica, Québec, Rwanda, Argentina, Arequipa,
   Monteverde, Southampton), "Jinrui." (bn/hi carry the danda: *Jinrui।*, as with their
   existing *GSD।*), and "International Studies" (above).
-- **Pre-existing, not from this pass:** the ar Providence Day entry `e3c6252e` ("Food is
-  Love … ‏19 مدرسة") stores a U+200F RLM before the 19. That is the only stored bidi
-  mark in the ar/fa overlays. It renders correctly, so it was left alone.
+- **Fixed 2026-10-13 — the one stored bidi mark (ar PD `e3c6252e`, Postcards).** It held
+  two U+200F RLMs, one before each "19" that followed a quoted English title ("Food is
+  Love" 19 مدرسة). **The marks were doing real work:** without them, bidi rule W7
+  attaches the European number to the preceding strong-L run, and Chrome drew "19" beside
+  the verb instead of beside مدرسة (measured by glyph x-position). Deleting them would
+  have shipped a misordered sentence while every checker passed. The fix is a rewording
+  in which the number never follows Latin text: شاركت 19 مدرسة من 10 دول في "Food is Love".
+  The ar/fa overlays now store **zero** bidi controls. **Rule for future RTL work:** when
+  a figure must follow a Latin title, reorder the sentence; don't store a mark.
 - **`check_work_integrity` cannot validate a new-school splice.** Its length assertion
   exits before the per-entry checks, so all nine locales report "242 → 482" and "0 newly
   translated". The same assertions were run directly against `main` by stamp: 0 lost,
