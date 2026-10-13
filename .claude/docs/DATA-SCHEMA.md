@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**12 schools × 11 research areas**, 434 ingested research documents.
+**12 schools × 11 research areas**, 436 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -58,7 +58,7 @@ exists yet and **the section does not render at all** for that school.
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
-| Global Exposure | `international-travel` | — | — | — | — | — | — | — | — | — | — | 3 | — |
+| Global Exposure | `international-travel` | — | — | — | — | 2 | — | — | — | — | — | 3 | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -95,7 +95,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Global Exposure Research Dossier (2026) | 1/12 | 3 |
+| `redesign-research` | Global Exposure Research Dossier (2026) | 2/12 | 3 |
 
 ### Student Clubs `student-clubs`
 
@@ -804,15 +804,17 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 |---|---|---|
 | `trips` | Where They Go | — |
 | `exchanges` | Exchanges & Homestays | — |
-| `signup` | Signing Up for Travel & GSD | — |
+| `signup` | Signing Up for Travel | — |
 | `start` | Global Learning at Each School Level | — |
 | `credential` | Credential | — |
 | `network` | Network | — |
+| `community` | Global Community on Campus | — |
+| `milestones` | Firsts & Milestones | — |
 | `verdict` | Verdict & Ask the School | — |
 
-**Schools with data:** 1/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
+**Schools with data:** 2/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
 
-<details><summary>Types defined in <code>internationalTravel.ts</code> (16)</summary>
+<details><summary>Types defined in <code>internationalTravel.ts</code> (18)</summary>
 
 `TravelLead` — `strong`
 
@@ -840,9 +842,13 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 
 `SignupCard` — `headline`, `intro`, `groups`, `footnote?`, `sources`
 
+`CommunityCard` — `headline`, `intro`, `stats`, `cells`, `rows?`, `sources`
+
+`MilestonesCard` — `headline`, `intro`, `events`, `sources`
+
 `VerdictCard` — `headline`, `standsOut`, `ask`, `sources`
 
-`InternationalTravelProgram` — `lead`, `stats`, `trips?`, `start?`, `exchanges?`, `credential?`, `network?`, `signup?`, `verdict?`
+`InternationalTravelProgram` — `lead`, `stats`, `trips?`, `start?`, `exchanges?`, `credential?`, `network?`, `signup?`, `community?`, `milestones?`, `verdict?`
 
 </details>
 
@@ -1201,7 +1207,7 @@ sparser in the college-facing areas and no thinner anywhere else.
 | summer-programs | `catalog`, `costPlanner` | 2/2 |
 | admissions | `guide` | 1/1 |
 | high-school-placement | `placement`, `destinations`, `verdict` | 3/4 |
-| international-travel | — | 0/7 |
+| international-travel | — | 0/9 |
 
 Read from `trinity-episcopal`'s own data files, so it tracks the real page rather than a
 plan. An area at 0 is not necessarily a failure — College Support is 0 by design.

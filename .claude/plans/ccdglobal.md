@@ -1,7 +1,7 @@
 ---
 name: ccdglobal
 title: Add Charlotte Country Day to Global Exposure — six existing cards plus two new shared cards (Global Community on Campus, Firsts & Milestones), credential omitted
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-12
 branch: feat/ccdglobal
@@ -706,3 +706,76 @@ Two layers, two mechanisms. Re-read both lists first; they can grow.
 
 - **Should Providence Day get `community` and `milestones` later?** **Default:** no action
   in this plan. Mention in the PR body that PD's research would need a pass for them.
+
+## Implementation notes
+
+**Phase 1 (English) built 2026-10-12 on `feat/ccdglobal`.**
+
+**Step 2 results** (recorded in the Source URLs file under "Implement-time verification"):
+- Lower School is **JK–4** (fetched).
+- **2025–26 Upper School trips dropped.** The live page shows only the 2027 cycle. A
+  site-restricted search returned a search-engine summary of the older page listing
+  France / Ecuador / South Korea, but a search cache is not a citable page, and the
+  Wayback API returned 429. The ledger skips 2025–26; "2025–26 trips" is a Verdict
+  question.
+- Taste of Cultures (Lebanon, Latin) and the Nov 2024 VAMUN post are live. VAMUN 2024 is
+  added to the network ledger's `2024–25` row: 12 delegates, verbal commendations for two
+  delegations.
+- History item URLs: `first-ib-school-in-nc`, `first-middle-school-exchange-program`.
+- Both photos kept, and neither shows a legible name. They were resized to PD's scale
+  (800×600, 675×900). The "Southampton Exchange" photo was taken at St Paul's, London,
+  so its caption says the exchange includes London visits, which the MS-GE page states.
+
+**Deviations from the plan:**
+- **IB wording is "the first private school in North Carolina".** The IB history item page
+  says "first private school"; the timeline tile and IS say "first NC school". The app
+  renders the narrower claim, which all three pages support. It appears in `start` (Upper
+  School) and `milestones`.
+- **Grade wording uses ordinals** ("8th grade · up to 15 students", not "grade 8 · up to
+  15"), the area's one-grade-convention rule from intltravel's wording pass.
+- **The 2023–24 trips carry season `timing`** ("Spring 2024", "Summer 2024"), as PD's
+  2023–24 Greece row does. Their groups come from WB-US-2024 and N-2023 (Oman & UAE
+  grades 9–12, the rest 9–11).
+- **Three month-year mentions outside `signup` were rephrased to seasons** (Arequipa "fall
+  2019", Seville "summer 2024", Taste of Cultures "spring 2026"), so the month-day grep
+  hits only Signing Up. The one remaining hit is the plan's own year-group note "as
+  scheduled in March 2024", which dates a page snapshot, not a trip.
+- **The headline count is 20 trips over three school years** (10 in 2026–27, 6 in
+  2023–24, 4 in 2022–23). It names the three years instead of a span, because 2024–25
+  and 2025–26 are absent.
+- **The Verdict has 11 questions.** All the plan's candidates apply, including "2025–26
+  trips".
+- `SchoolDetail.tsx`: only a stale comment changed. The new keys flow through
+  `INTERNATIONAL_TRAVEL_CARDS`, `WIDE_TRAVEL_CARDS` and the `headline` teaser, with no
+  logic change.
+- **The ingest also refreshed Providence Day's research note** with its already-committed
+  2027 trips source file, which had not been re-ingested after #341. It is the same
+  topic, and the commit is limited to this topic's paths.
+- **`npm run build` exits 0, `check:live` included.** No Providence Day prose changed, so
+  no shipped stamp went stale. Country Day's English is simply untranslated until Phase 2.
+
+**Phase 1 verification:**
+- `check_metrics` passes, with no unmatched travel subtopic.
+- `tsc -b` passes.
+- `i18n_extract --report --residual` reports 0 unclassified fields (international-travel:
+  549 strings).
+- `schema` and `check:schema` pass. The schema shows 2/12 schools and lists `community`
+  and `milestones`.
+- `npm run build` passes every chained gate, including `check:seo` (Country Day's meta
+  description is 158 chars) and `check:photos`.
+- The price grep finds no hits. Date hits are only in `signup`, plus the snapshot note
+  above. "Not published" appears only in `verdict`. The name grep finds nothing.
+- All 29 `sources` URLs appear in the Source URLs file.
+- Real Chrome (Playwright, `channel: 'chrome'`, every `<details>` open):
+  - the 8 titles appear in plan order, with no Credential card;
+  - the 4 tiles show 27 / 6 / 11 / 1988;
+  - trips, milestones and verdict are wide;
+  - the division filter shows All 20, MS 6, US 14;
+  - homestay tags appear only on Canada, Peru, England, Costa Rica and Spain (2024);
+  - both photos load and open in the viewer;
+  - milestones are listed oldest first, with both 1992 rows;
+  - PD has 7 cards and keeps "Signing Up for Travel & GSD";
+  - Cannon has no section;
+  - 390px has no overflow;
+  - dark mode stays legible.
+- `audit:mobile` finds 0 page overflow.
