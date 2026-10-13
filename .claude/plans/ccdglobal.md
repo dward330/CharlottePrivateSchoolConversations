@@ -779,3 +779,10 @@ Two layers, two mechanisms. Re-read both lists first; they can grow.
   - 390px has no overflow;
   - dark mode stays legible.
 - `audit:mobile` finds 0 page overflow.
+
+**Phase 1 review (2026-10-12): photos are shown in color.** At the user's request, the
+grayscale filter came off `.it-photo img` (every Global Exposure photo, Providence Day's
+included). The duotone treatment (grayscale + accent background + multiply) came off
+`.su-photo img` in the Summer Programs band, so photos look as the source publishes them
+on every school. No school has Summer photos yet, so that change shows only once one does.
+Verified in real Chrome: computed `filter: none` on both schools' Global Exposure photos.

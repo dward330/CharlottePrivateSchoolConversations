@@ -79,6 +79,8 @@ researched" shell.
   `assetUrl()` + `PhotoZoomButton` (`check:photos`). **No student is named** in the
   filename, `alt` or caption, even when the school's own alt text names them; rename
   the file on download if the CDN path carries a name. With no photo the figure is
-  omitted and the adjacent column fills the width.
+  omitted and the adjacent column fills the width. **Photos render in the school's
+  own colors** — no grayscale or duotone filter, on any school (user decision,
+  2026-10-12).
 - **Figures are authored US-style** (`~375`, `3.75`, `B−`, `280+`) and never
   re-typed per locale.

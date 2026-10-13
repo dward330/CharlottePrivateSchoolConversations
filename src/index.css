@@ -5576,12 +5576,10 @@ a.cs-college-name:focus-visible {
   object-fit: cover;
   display: block;
   border: 1px solid var(--border);
-  /* The duotone treatment from the design: the photograph is pulled toward the
-     steel accent so a band of six schools' snapshots reads as one system rather
-     than six stock photos. Kept subtle enough that faces stay legible. */
-  filter: grayscale(1) contrast(1.08);
-  background: var(--accent-300);
-  mix-blend-mode: multiply;
+  /* Shown in the school's own colors (user decision, 2026-10-12): the design's
+     grayscale/duotone treatment was dropped so every photo looks as the source
+     publishes it. The background only shows while the image loads. */
+  background: var(--surface-2);
 }
 .su-photo figcaption {
   font-size: 11.5px;
@@ -5773,9 +5771,8 @@ a.cs-college-name:focus-visible {
 .it-row-wide .it-row-label { flex-basis: 140px; }
 .it-row-text { flex: 1 1 220px; min-width: 0; }
 
-/* Photos — the grayscale treatment of the Summer band, but WITHOUT its
-   multiply blend: over a dark-mode card background the blend crushed the photo
-   to near-black. The viewer shows the photo unfiltered. */
+/* Photos — shown in the school's own colors, unfiltered, as in the Summer band
+   (user decision, 2026-10-12: no grayscale treatment on any school's photos). */
 .it-photo { margin: 0; }
 .it-photo img {
   width: 100%;
@@ -5783,7 +5780,6 @@ a.cs-college-name:focus-visible {
   object-fit: cover;
   display: block;
   border: 1px solid var(--border);
-  filter: grayscale(1) contrast(1.08);
   background: var(--surface-2);
 }
 .it-photo figcaption { font-size: 12px; line-height: 1.5; margin-top: 6px; }
