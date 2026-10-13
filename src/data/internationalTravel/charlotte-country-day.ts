@@ -101,6 +101,10 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       {
         year: '2026–27',
         note: 'Middle School in winter and spring 2027; Upper School over spring break and in summer 2027',
+        noteByDiv: {
+          MS: 'winter and spring 2027',
+          US: 'over spring break and in summer 2027',
+        },
         trips: [
           {
             dest: 'Canada',

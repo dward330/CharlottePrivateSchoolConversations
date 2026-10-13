@@ -53,7 +53,17 @@ export type Trip = {
   homestay?: string
 }
 
-export type TripYear = { year: string; note?: string; trips: Trip[] }
+export type TripYear = {
+  year: string
+  /** Shown under "All", and under a division filter that has no `noteByDiv` entry. */
+  note?: string
+  /**
+   * Replaces `note` while the ledger is filtered to one division, for a year
+   * whose note describes several ("Middle School in winter…; Upper School in…").
+   */
+  noteByDiv?: Partial<Record<TravelDivision, string>>
+  trips: Trip[]
+}
 
 export type TripsCard = {
   headline: string

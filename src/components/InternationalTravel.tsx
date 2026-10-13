@@ -188,7 +188,11 @@ function TripsBody({ data }: { data: TripsCard }) {
       .map((d) => ({ id: d, label: divLabel(t, d) })),
   ]
   const groups = data.years
-    .map((y) => ({ ...y, trips: y.trips.filter((tr) => div === 'all' || tr.div === div) }))
+    .map((y) => ({
+      ...y,
+      note: (div !== 'all' && y.noteByDiv?.[div]) || y.note,
+      trips: y.trips.filter((tr) => div === 'all' || tr.div === div),
+    }))
     .filter((y) => y.trips.length > 0)
   const total = groups.reduce((n, y) => n + y.trips.length, 0)
   const frame = useVerticalFade(div)

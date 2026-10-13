@@ -736,6 +736,11 @@ export const PATH_OVERRIDES = new Map([
   // Same reason as network.cells: "Global clubs", "Visiting diplomats" are
   // phrases in a proper-noun field (Country Day, 2026-10-12).
   ['community.cells[].name', true],
+  // Per-division year notes on the trips ledger ("winter and spring 2027") —
+  // prose, keyed by the division code.
+  ['trips.years[].noteByDiv.LS', true],
+  ['trips.years[].noteByDiv.MS', true],
+  ['trips.years[].noteByDiv.US', true],
   // A figure ("1992", "2020–22"), explicit so a leaf rule can never promote it.
   ['milestones.events[].year', false],
   ['verdict.standsOut.points[]', true],

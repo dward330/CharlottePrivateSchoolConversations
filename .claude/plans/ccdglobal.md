@@ -786,3 +786,11 @@ included). The duotone treatment (grayscale + accent background + multiply) came
 `.su-photo img` in the Summer Programs band, so photos look as the source publishes them
 on every school. No school has Summer photos yet, so that change shows only once one does.
 Verified in real Chrome: computed `filter: none` on both schools' Global Exposure photos.
+
+**Phase 1 review (2026-10-12): the year note follows the division filter.** At the user's
+request, `TripYear` gained an optional `noteByDiv` (`Partial<Record<TravelDivision,
+string>>`). Under the Middle School or Upper School tab it replaces `note`; under All, the
+combined note shows. Country Day's 2026–27 row uses it ("winter and spring 2027" /
+"over spring break and in summer 2027"). The new paths are classified as prose in
+`PATH_OVERRIDES`, so Phase 2 translates them. Providence Day has no `noteByDiv`, and its
+ledger is unchanged. Verified in real Chrome across all three tabs on both schools.

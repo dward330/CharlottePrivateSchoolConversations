@@ -826,7 +826,7 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 
 `Trip` — `dest`, `place?`, `div`, `group?`, `theme`, `timing?`, `homestay?`
 
-`TripYear` — `year`
+`TripYear` — `year`, `note?`, `noteByDiv?`, `trips`
 
 `TripsCard` — `headline`, `intro`, `years`, `photo?`, `alsoOnRecord`, `sources`
 
