@@ -1,11 +1,11 @@
 ---
 name: ccdglobal
 title: Add Charlotte Country Day to Global Exposure — six existing cards plus two new shared cards (Global Community on Campus, Firsts & Milestones), credential omitted
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-12
 branch: feat/ccdglobal
-prs: []
+prs: [344]
 ---
 
 # Charlotte Country Day — Global Exposure
@@ -839,3 +839,4 @@ great. Proceed to next phase").**
   - fa Clubs (1; it and the es chips were recorded as pre-existing in intltravel's PR);
   - bn Financial Aid range label on Country Day (+16px, with a +2px page overflow).
     This branch changes no Financial Aid file.
+- Shipped in PR #344 after the user tested both phases locally (2026-10-13).
