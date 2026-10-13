@@ -857,4 +857,36 @@ students" and "an average of 20 seniors per year"; the B- minimum; "more than 32
 Academy of Amman; every Global Map trip and exchange row except the corrections above;
 "starting in ninth grade" (Global Education page); Global Online Academy (US Explore tile).
 
+### 2027 Global Trips (fetched 2026-10-12)
+
+Three Upper School trip pages, verified live 2026-10-12 (all read "Registration Coming
+Soon"). Verbatim text is in \`Providence Day - International Travel - 2027 Global Trips.md\`.
+The slugs say \`2026\`; the trips run May–June 2027 (school year 2026–27).
+
+| Fact rendered | Source (fetched 2026-10-12) | Where in the app |
+|---|---|---|
+| Japan, "Continuity and Change" — Tokyo, Hiroshima, Miyajima; June 4-13, 2027; $5650 + flight (estimated $2700); min 10, max 16; current 9-11 grade students | https://www.providenceday.org/japan-2026-us | Where They Go (2026–27 row), Signing Up intro |
+| Iceland, "A Living Lab for the Planet’s Future" — Reykjavík, Golden Circle, south coast; June 1-8, 2027; $5450 + flight (estimated $1600); min 10, max 16; current 9-11 grade students | https://www.providenceday.org/iceland-2026-us | Where They Go (2026–27 row), Signing Up intro |
+| France, "Layers of History & Culture" — week-long Montpellier exchange with host families from Lycée Notre Dame de La Merci, then Paris; May 29 - June 9, 2027; $3850 + flight (estimated $1560); min 8, max 14; no World Language Requirement | https://www.providenceday.org/france-2026-us | Where They Go (2026–27 row, homestay Montpellier), Signing Up intro |
+| $1000 nonrefundable deposit at registration; balance in full or two installments; waitlist after the enrollment limit; limited financial assistance toward one global trip per student | all three pages | Signing Up intro, Verdict (Aid) |
+| Dates-and-deadlines table (Oct 16, Nov 2, Nov 13, Nov 16, Nov 19, Dec 1 2026; Jan 25, Feb 1 2027) | all three pages | Signing Up, Global Trips column |
+| Registrations reviewed by "the Global Education Travel Committee and the Financial Assistance Committee" | all three pages | Verdict (Selection) |
+| Two trained PDS study tour leaders, travel partner Envoys, international emergency medical and evacuation insurance | all three pages | Verdict (Safety) |
+
+**House-style note.** The pages write money without a thousands separator (\`$5650\`,
+\`$1000\`). The app authors these as \`$5,650\`, \`$5,450\`, \`$3,850\`, \`$2,700\`, \`$1,600\`,
+\`$1,560\` and \`$1,000\` — the US-style form \`localizeMoneyText()\` re-renders per locale. The
+amounts are unchanged. Dates are written with an en dash (\`June 4–13, 2027\`) where the
+pages use a hyphen.
+
+**Spelling.** The France page writes "Lycée Notre Dame de La Merci"; the app keeps the
+existing "Lycée Notre Dame de la Merci" so one school reads identically across the ledger
+and the exchanges card.
+
+**Calendar check (2026-10-12).** The school calendar (element 34493 on
+https://www.providenceday.org/calendars, fetched month by month for Oct 2026 – Feb 2027)
+lists only "Global Trip Registration Opens" (Oct 16) and "Global Trips Virtual Information
+Session" (Oct 22). None of the 2027 trip-page deadlines (Nov 2, Nov 19, Dec 1, Jan 25,
+Feb 1) appear on it, so the Signing Up intro says those come from the trip pages.
+
 ---`}],i={school_slug:e,topic_slug:t,section_count:28,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
