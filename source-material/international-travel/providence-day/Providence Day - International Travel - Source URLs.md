@@ -177,3 +177,85 @@ https://www.providenceday.org/calendars, fetched month by month for Oct 2026 –
 lists only "Global Trip Registration Opens" (Oct 16) and "Global Trips Virtual Information
 Session" (Oct 22). None of the 2027 trip-page deadlines (Nov 2, Nov 19, Dec 1, Jan 25,
 Feb 1) appear on it, so the Signing Up intro says those come from the trip pages.
+
+## Community & Milestones verification (2026-10-13, /implement pdcommunity)
+
+Checked the leads in `Providence Day - International Travel - Community and Milestones Deep Research.md`
+(a transcription of the user's Claude deep-research PDF) against the school's own pages.
+Each page was fetched with `curl -sL` and a browser user agent, then stripped to text.
+The 2015 magazines and the 2026–27 college profile were fetched as PDFs and read with `pdftotext`.
+**This section is the citation record for the Global Community on Campus and Firsts &
+Milestones cards.** Only rows marked *fetched* or *Wayback* render.
+
+**The PDF's three "could not load" news posts all loaded (HTTP 200) on retry.** That
+retry produced the card's strongest facts: the IGL endorsement, the Cultural Connections
+attendance figures and the Charlotte Chinese Academy partnership.
+
+Some of the posts name students (the Diwali post's author and choreographers, the
+Cultural Connections presenters and photo captions, the Seal of Biliteracy senior, Global
+Map exchange students, and the GSD alumni roster). **None of those names is recorded here
+or rendered.**
+
+### Verified
+
+| Fact | URL | How | Notes |
+|---|---|---|---|
+| "The PD community has 72 different countries of origin represented and 38% students of color." | https://www.providenceday.org/admissions/why-providence-day | fetched | Undated. The page does not say whether it counts students or families. Rendered as "countries of origin in the PD community". |
+| Cultural Connections: "organized by the Parents' Association in partnership with the Office of Equity, Inclusion, and Belonging (EIB), brings together students, families, faculty, and staff to celebrate traditions from around the world". The opening Hispanic Heritage Month night drew "More than 250 people … the largest Hispanic Heritage Month celebration in school history". "The Diwali celebration in October brought more than 500 attendees". "New to the Cultural Connections lineup this year, a Friday night Shabbat dinner in January drew more than 350 attendees". Also Lunar New Year, Eid al-Fitr and Black History Month. The PD community "includes families who have relocated from other countries, parents raising multicultural children" | https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/cultural-connections-celebrating-the-traditions-that-make-us-who-we-are | fetched | Posted Sep 25 2026, reprinted from PD Magazine. "Last September" and "this year" point to the **2025–26** school year, but that is our inference, so the page carries no year on these figures. Two students and a parent volunteer are named; the app names none of them. |
+| Upper School Diwali celebration (Oct 31 2024 post): teachers in "traditional Indian lehengas and kurtas" danced in a performance choreographed by two seniors, in the MAC | https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/dancing-into-diwali-teachers-and-students-celebrate-culture-and-community-together | fetched | The post names the student author and choreographers, which the app omits. Faculty are named on the page but not in the app. |
+| Charlotte Chinese Academy: "celebrated 20 years of partnership … since it began in 2006. Each weekend, CCA holds classes and cultural programming on Providence Day's campus"; "Founded in 1996 with just 15 students, CCA has grown to serve more than 200 students across 19 classes"; partnered "on Cultural Connections Lunar New Year celebrations" | https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/celebrating-20-years-of-partnership-with-charlotte-chinese-academy | fetched | Posted Jul 2 2026. PD's own post, so CCA's site is not needed as a source. |
+| Podcast episode 5, "Bringing Together Global Perspectives (Parent Edition)": "our community is made up of families from all over the world … a group of PD mothers who moved to Charlotte from other countries" | https://www.providenceday.org/about/pd-communications/podcast-from-the-horses-mouth | fetched | Undated. |
+| Bhandari Mehta Endowment, "Established in 2020": "Award recipients, in order of priority, are those students whose families are first- or second-generation immigrants to the United States or are students of color" | https://www.providenceday.org/philanthropy/endowment | fetched | |
+| Languages: "Adding to the Mandarin Chinese, French, and Spanish introduced in Lower School, students may also choose from Latin and German" (MS). Upper School "World Language 38 courses in French, German, Latin, Spanish, and Mandarin Chinese, including 5 APs" | https://www.providenceday.org/middle-school/global-education ; https://www.providenceday.org/upper-school | fetched | The PDF had the US line from a search snippet; it is on the live page. |
+| Seal of Biliteracy: "one of 37 Providence Day students who received their Seal of Biliteracy Diploma at a ceremony"; "a minimum of six years of studying a foreign language"; "Providence Day began offering the Seal of Biliteracy program around seven years ago" | https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/world-language-journey-opens-up-student-opportunities | fetched | **The post is dated Apr 19 2024** (the PDF said undated). "Around seven years ago" is approximate, so it is **not** a milestone row. The 37 is rendered as a 2024 figure. A senior is named; the app omits the name. |
+| IGL endorsement: "Providence Day School has been named one of just 11 schools worldwide to receive endorsement from the Institute for Global Learning (IGL) … The announcement was made in April at IGL's Global Educators Conference"; "Renewed every five years". "This year, Providence Day students had the opportunity to earn the Institute for Global Learning's Intercultural Dialogue Facilitator Certificate, a leadership program for grades 9–12 … A cohort of students completed the inaugural program." | https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/providence-day-earns-prestigious-national-recognition-in-global-education | fetched | Posted Jun 23 2026, so the endorsement is **2026** (announced April 2026). This settles the PDF's "award unconfirmed". Corroborated by IGL's list of endorsed schools (https://globallearning.org/endorsement-and-evaluation/, fetched), which includes "Providence Day School (North Carolina, USA)". |
+| "Since 2004, PDS has been offering signature programs for students, faculty and parents to foster global mindedness and a desire to be empathetic problem solvers." | https://www.providenceday.org/uploaded/About_PDS/Magazine/PDMag15-SpringFINAL.pdf | fetched (PDF) | The school's own magazine, Spring 2015. |
+| Global Educator Certificate "Since 2006" | https://www.providenceday.org/the-pd-difference/global-education | fetched | Already verified 2026-10-11; re-read. |
+| GEC scale: "the most recent of 27 PDS teachers to receive the certification, with another 32 currently in the program" | https://www.providenceday.org/cf_news/view.cfm?newsid=27 | fetched | Posted 07/17/2014. The teacher is named on the page but not in the app. |
+| GSD "Created in 2007"; "first school in the nation to establish a Global Studies Diploma" | https://www.providenceday.org/global-studies-diploma | fetched | |
+| "In 2007, Providence Day School was the first in the nation to establish the Global Studies Diploma (GSD)" | https://www.providenceday.org/the-pd-difference/global-education | fetched | |
+| College profile 2026–27: "The first of its kind in the country, the program has graduated 375 students since 2007"; "23 earned the PDS Global Studies Diploma"; "2,060 students enrolled" | https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf | fetched (PDF) | Corroborates 2007 and the existing `~375` tile. Not rendered on the new cards. |
+| GSD alumni roster begins with the **Class of 2007** (4 names); the "Global Ambassador" distinction "was created in 2021" | https://sites.google.com/providenceday.org/gsd-homepage/alumni | fetched | The roster names every graduate; the app names none of them. |
+| Desoer Family Global Studies Faculty Award, "Established in 2008", which supports "international travel by Upper School faculty" for the certificate | https://www.providenceday.org/philanthropy/endowment | fetched | |
+| Bessant/Clay Endowment for Global Education, "established in 2018"; it supports the Distinguished Global Scholar Award and "expenses related to the Global Education Department" | https://www.providenceday.org/philanthropy/endowment | fetched | |
+| SAIS 2019: "Providence Day is considered a national leader in the field of Global Education." | https://www.providenceday.org/admissions/why-providence-day | fetched | |
+| Round Square, Fall 2015 magazine: "PDS recently became an official member school of Round Square International … PDS was one of only three schools in North America accepted into Round Square." | https://www.providenceday.org/uploaded/About_PDS/Magazine/PDMag15-Fall.pdf | fetched (PDF) | See Conflicts. **Not rendered as a milestone.** |
+| Round Square, earlier GE page: "Providence Day School became a Global Member of Round Square in 2016 and stands as the only school member in the state of North Carolina." | https://web.archive.org/web/20250517213717/https://www.providenceday.org/the-pd-difference/global-education | Wayback | Confirms the PDF's search-indexed wording. See Conflicts. |
+| FOCUS "created in 2006"; Multicultural Task Force 2004, renamed Multicultural Advisory Board in 2014-15; Round Square exchanges "range from four weeks to a semester or even a year" | https://www.providenceday.org/uploaded/About_PDS/Magazine/PDMag15-Fall.pdf | fetched (PDF) | Historical; current status unknown. Not rendered. |
+| 2015 learning specialist: "an entire English language learner curriculum map, which allows me to identify areas with which our international students may be struggling" | https://www.providenceday.org/uploaded/About_PDS/Magazine/PDMag15-SpringFINAL.pdf | fetched (PDF) | Historical; it does not establish a current ESL program. Not rendered. |
+| World Peace Mandala; 15 French students from Montpellier hosted by PD families | https://www.providenceday.org/the-pd-difference/global-education/global-map | fetched | Not rendered: hosting is already covered by the Exchanges card. |
+| "What's Trending" Postcard: "More than 100 students from 19 schools in nine countries" | https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/tech-talk-goes-global-pd-middle-school-leads-round-square-postcard | fetched | Posted Apr 16 2025. Not rendered: Postcards are already on the network card. |
+| Strategic Framework: "countries of origin, language" listed as diversity dimensions; "PD Passport, our TK-12 global education framework"; "one of just six schools nationwide" | https://www.providenceday.org/the-pd-difference/leadership/strategic-framework | fetched | |
+| Global Speaker Series, fall 2016 newsletter | https://www.providenceday.org/cf_enotify/view.cfm?n=882 | fetched | Historical; not rendered. |
+| Class of 2020: "27 Global Studies Diploma recipients" | https://alumni.providenceday.org/news/21121 | fetched | Not rendered. |
+
+### Not verified — dropped
+
+| Claim | Why |
+|---|---|
+| 2022 EIB report: Cultural Connections hosting Diwali/Hanukkah/Lunar New Year/Eid; student-initiated Holi; heritage months; affinity groups | The page returns **HTTP 404**. The PDF had only a search snippet. The 2026 Cultural Connections post covers the series instead. |
+| Upper School clubs list (MUN, language clubs, affinity clubs, International Club) | Round Square's profile of the school only (Secondary). Not found on providenceday.org. |
+| International / F-1 student count; Niche 0.6%, findingschool 4%, NAIS "F-1" | No school page publishes a count. The third-party figures disagree. |
+| "more than 60 different nationalities" | A Homes.com parent review. |
+| Brazilian Ambassador at the Global Speaker Series | Network of Complementary Schools profile only (Secondary), undated. |
+| Charlotte Chinese Academy Spring Festival on campus, Feb 2024 | CCA's site only; PD's 2026 post covers the partnership instead. |
+| Seal of Biliteracy start year (~2017) | "around seven years ago" is approximate. |
+| A current ESL/ELL program, family languages, faculty languages, international faculty count | Not published on any school page. |
+
+### Conflicts
+
+- **Round Square year.** Fall 2015 magazine: "recently became an official member school"
+  (2015). Global Education page as archived 2025-05-17: "became a Global Member of Round
+  Square in 2016". Live page: "For over a decade". These may be two membership tiers, but no
+  page says so. **Per the plan, no page is clearly authoritative, so Round Square has no
+  milestone row.**
+- **GSD start year.** 2007 appears on the GSD's own providenceday.org page ("Created in
+  2007"), the Global Education page, the admissions page ("Since 2007") and the 2026–27
+  college profile ("since 2007"). The GSD Google site's alumni roster also begins with the
+  Class of 2007. 2005 appears on the GSD Google site's General Information page ("started
+  in 2005 with 5 students") and its FAQ ("2005 had the first graduating class of 5"). The
+  FAQ contradicts the same site's roster. **The milestone uses 2007**, which every
+  providenceday.org page and the roster support. The plan's example pointed at the GSD
+  Google site; this deviation is recorded in the plan's Implementation notes.
+- **Students of color.** 38% (admissions page, undated) vs 39% (2026–27 college profile).
+  Not rendered.
