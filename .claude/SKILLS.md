@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**7 active** · 0 retired · Last updated **2026-09-15**
+**8 active** · 0 retired · Last updated **2026-10-12**
 
 ---
 
@@ -24,6 +24,7 @@
 | 📰 | [`add-school-news`](#add-school-news) | Wire a school's live news feed | ✅ Yes | Single |
 | 🎓 | [`nc-admissions-data`](#nc-admissions-data) | Government admit rates per school | ✅ Data only | — |
 | 🎙️ | [`admissions-episode`](#admissions-episode) | One school's admissions → podcast | ❌ Generates files | Single |
+| 🌍 | [`global-exposure`](#global-exposure) | Deep-research prompt → verified Global Exposure plan | ❌ Never | — |
 
 ### The main road
 
@@ -36,8 +37,9 @@
                                                         single time
 ```
 
-Two skills feed research **into** that road at any point:
-`nc-admissions-data` (admit rates) and `ingest-source-material` (everything else).
+Three skills feed research **into** that road at any point:
+`nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
+ending in a `/plan` handoff) and `ingest-source-material` (everything else).
 Two stand alone: `add-school-news` and `admissions-episode`.
 
 ---
@@ -302,6 +304,45 @@ School Conversations* that walks a parent through **how to actually apply** to o
 > **⚠️ NotebookLM drops hedges and conditionals.** A correct PDF does **not** mean a correct
 > episode — diff the episode's *claims* against the PDF, and regenerate **all** schools
 > after touching `PROMPT_TEMPLATE`.
+
+---
+
+<a id="global-exposure"></a>
+
+## 🌍 `global-exposure`
+
+**Get a school's Global Exposure research from Claude deep research into a verified `/plan`.**
+
+`.claude/skills/global-exposure/SKILL.md` · added 2026-10-12 · supporting file:
+`prompt-template.md` (the deep-research prompt, with `{{PLACEHOLDERS}}`)
+
+The repeatable form of how Charlotte Country Day's section was planned (`ccdglobal`).
+Providence Day's section is the template and the standard; going beyond it is welcome,
+but only with the user's approval.
+
+| Mode | Trigger | What it does |
+|---|---|---|
+| **A** | No PDF yet | Asks which school, fills the template, hands back the prompt in **one** copy-paste block. Writes nothing. |
+| **B** | The PDF is attached | Transcribes it → `Deep Research.md`. Verifies it against the school's **live** pages (and Wayback) → `Source URLs.md`. Maps it onto the live card registry, asks about cards to omit or add, then invokes `/plan`. |
+
+> **🔒 The PDF is a lead sheet, never a citation.** A fact renders only once a live
+> school page confirms it. The one allowed third-party source is a detail about an outside
+> event or network (Round Square's conference number). The school's own participation
+> still comes from the school.
+
+> **⚠️ "Could not load" from deep research is a reason to retry, never a finding.**
+> Country Day's Middle School travel page was reported unloadable. It loaded at once and
+> held the area's richest data.
+
+> **🛑 A new card is a UX change.** Mode B proposes it, with the evidence, and the user
+> approves it before `/plan` writes it in. A card the school cannot fill is omitted, not
+> repurposed.
+
+> **🔐 Privacy:** trip prices and exact travel dates live in the research files only. The
+> page shows season + year. No student is named anywhere.
+
+**Deliberately cannot:** run the deep research itself, edit app code, or render a fact
+the Source URLs file has not verified.
 
 ---
 
