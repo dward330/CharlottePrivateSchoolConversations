@@ -1797,6 +1797,29 @@ main { flex: 1; }
   background: linear-gradient(to right, transparent, var(--accent-100) 6px);
 }
 
+/* On phones the label sits UNDER its bar instead of beside it. Beside the bar
+   it is absolutely positioned and nowrap, so a label longer than the space
+   past the segment — a localized figure such as Bangla's, or any range on a
+   320px screen — ran off the right edge of the page. The track keeps its
+   13px grey band as a background, and the label takes the padding below it. */
+@media (max-width: 600px) {
+  .fa-range-track {
+    height: auto;
+    padding-top: 16px;
+    background: linear-gradient(var(--neutral-100), var(--neutral-100)) top / 100% 13px no-repeat;
+  }
+  .fa-range-seg { bottom: auto; height: 13px; }
+  .fa-range-label,
+  .fa-range-label.flip {
+    position: static;
+    display: block;
+    white-space: normal;
+    padding-left: 0;
+    background: none;
+    color: inherit;
+  }
+}
+
 /* Scholarship / coverage ladder.
    Two columns, not three. The old third column was a fixed 150px, which suits a
    3-4 word label (Country Day's "Full tuition, grades 9-12") and squeezes a real
@@ -2025,7 +2048,9 @@ main { flex: 1; }
   /* The 170px name column and its 182px detail indent don't fit narrow
      screens — stack the row and drop the indent. */
   .clubrow > summary { flex-wrap: wrap; }
-  .clubrow-name { width: auto; }
+  /* …and let the name shrink and wrap: a long translated name (fa) in a
+     flex:none box ran off a 320px screen. */
+  .clubrow-name { width: auto; flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
   .clubrow-oneliner { flex: 1 0 100%; order: 3; }
   .clubrow-detail { padding-left: 0; }
 }
@@ -2830,6 +2855,9 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   /* The filter drops onto its own full-width line rather than being squeezed
      beside the department name. */
   .courses-filter { width: 100%; margin-left: 0; }
+  /* The count may shrink and wrap: flex:none, a longer translated count (es)
+     was wider than a 320px row on its own. */
+  .courses-count { flex: 0 1 auto; min-width: 0; }
   .courselist { max-height: 320px; padding: 0 10px; }
 }
 
@@ -4163,6 +4191,10 @@ html.photo-viewer-open { overflow: hidden; }
   line-height: 1.55;
 }
 .cs-flag-tag { flex: none; font-size: 10px; }
+/* The text beside the tag may shrink below its longest token and break it — a
+   slash-joined phrase ("autunno/primavera,") has no break point and, as a
+   min-width:auto flex item, pushed the it page past a 320px screen. */
+.cs-flag > :not(.cs-flag-tag) { min-width: 0; overflow-wrap: anywhere; }
 .cs-inline-tag { font-size: 9px; margin-left: 6px; vertical-align: 1px; }
 
 /* -- stat strip ------------------------------------------------------------ */
@@ -5093,6 +5125,8 @@ a.cs-college-name:focus-visible {
   line-height: 1.55;
 }
 .as-flag-tag { flex: none; font-size: 10px; }
+/* Same as .cs-flag: a slash-joined token ("piano/chitarra/canto,") must break. */
+.as-flag > :not(.as-flag-tag) { min-width: 0; overflow-wrap: anywhere; }
 .as-inline-tag { font-size: 9px; margin-left: 6px; vertical-align: 1px; }
 
 .as-rows { display: flex; flex-direction: column; font-size: 13px; }
