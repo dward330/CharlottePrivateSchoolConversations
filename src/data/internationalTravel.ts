@@ -1,7 +1,8 @@
-// Structured data for the "International Travel" research area — seven cards in a
-// fixed parent-priority order (where students go, when a child can start,
-// exchanges, the school's credential, its network, signing up, and a verdict
-// with questions to ask on the tour).
+// Structured data for the "International Travel" research area — nine cards in a
+// fixed parent-priority order (where students go, exchanges, signing up, global
+// learning at each school level, the school's credential, its network, its
+// global community on campus, its firsts and milestones, and a verdict with
+// questions to ask on the tour). Every card is optional per school.
 //
 // Placed directly after Course Offerings in TOPIC_ORDER at the user's request
 // (2026-10-11), and deliberately kept OFF Compare — see COMPARE_DEFERRED_TOPICS
@@ -52,7 +53,17 @@ export type Trip = {
   homestay?: string
 }
 
-export type TripYear = { year: string; note?: string; trips: Trip[] }
+export type TripYear = {
+  year: string
+  /** Shown under "All", and under a division filter that has no `noteByDiv` entry. */
+  note?: string
+  /**
+   * Replaces `note` while the ledger is filtered to one division, for a year
+   * whose note describes several ("Middle School in winter…; Upper School in…").
+   */
+  noteByDiv?: Partial<Record<TravelDivision, string>>
+  trips: Trip[]
+}
 
 export type TripsCard = {
   headline: string
@@ -128,6 +139,24 @@ export type SignupCard = {
   sources: Source[]
 }
 
+/** The school's international families, languages and on-campus programs. */
+export type CommunityCard = {
+  headline: string
+  intro: TravelLead
+  stats: TravelStat[]
+  cells: { name: string; text: string }[]
+  rows?: { label: string; text: string }[]
+  sources: Source[]
+}
+
+export type MilestonesCard = {
+  headline: string
+  intro: TravelLead
+  /** Oldest first. `year` is a figure ("1992", "2020–22"); key rows by year + title. */
+  events: { year: string; title: string; text: string }[]
+  sources: Source[]
+}
+
 export type VerdictCard = {
   headline: string
   standsOut: { summary: string; points: string[] }
@@ -146,6 +175,8 @@ export type InternationalTravelProgram = {
   credential?: CredentialCard
   network?: NetworkCard
   signup?: SignupCard
+  community?: CommunityCard
+  milestones?: MilestonesCard
   verdict?: VerdictCard
 }
 
@@ -161,13 +192,26 @@ export const INTERNATIONAL_TRAVEL_CARDS = [
   // the trip ledger directly.
   { key: 'trips', title: 'Where They Go' },
   { key: 'exchanges', title: 'Exchanges & Homestays' },
-  { key: 'signup', title: 'Signing Up for Travel & GSD' },
+  { key: 'signup', title: 'Signing Up for Travel' },
   { key: 'start', title: 'Global Learning at Each School Level' },
   { key: 'credential', title: 'Credential' },
   { key: 'network', title: 'Network' },
+  // Added with Charlotte Country Day (2026-10-12, user-approved): shared,
+  // optional cards placed just before the Verdict so it stays last.
+  { key: 'community', title: 'Global Community on Campus' },
+  { key: 'milestones', title: 'Firsts & Milestones' },
   { key: 'verdict', title: 'Verdict & Ask the School' },
 ] as const satisfies readonly {
-  key: 'trips' | 'start' | 'exchanges' | 'credential' | 'network' | 'signup' | 'verdict'
+  key:
+    | 'trips'
+    | 'start'
+    | 'exchanges'
+    | 'credential'
+    | 'network'
+    | 'signup'
+    | 'community'
+    | 'milestones'
+    | 'verdict'
   title: string
 }[]
 
@@ -176,6 +220,7 @@ export type InternationalTravelCardKey = (typeof INTERNATIONAL_TRAVEL_CARDS)[num
 /** Cards that span the full grid row even when closed, as in the design. */
 export const WIDE_TRAVEL_CARDS: ReadonlySet<InternationalTravelCardKey> = new Set([
   'trips',
+  'milestones',
   'verdict',
 ])
 
@@ -183,7 +228,8 @@ export const WIDE_TRAVEL_CARDS: ReadonlySet<InternationalTravelCardKey> = new Se
  * Per-school card titles. The credential and the network are named things —
  * Providence Day's credential IS the Global Studies Diploma — so the generic
  * "Credential" / "Network" would read as a placeholder. A school with neither
- * omits the card entirely rather than keeping a generic title.
+ * omits the card entirely rather than keeping a generic title. Providence Day
+ * also keeps "& GSD" on its Signing Up title, since its card lists GSD events.
  *
  * Each override needs a matching `cards.international-travel.<key>@<slug>` key
  * in every locale catalog, or it renders in English everywhere.
@@ -192,6 +238,10 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<InternationalTravelCardKey,
   'providence-day': {
     credential: 'The Global Studies Diploma',
     network: 'Round Square & the Wider Network',
+    signup: 'Signing Up for Travel & GSD',
+  },
+  'charlotte-country-day': {
+    network: "Model UN, WorldQuest & Charlotte's Global Partners",
   },
 }
 
@@ -214,9 +264,10 @@ export function internationalTravelCardTitleFor(
 /* ------------------------------------------------------------ school data -- */
 
 /**
- * Per-school entries live in ./internationalTravel/<slug>.ts. Only Providence
- * Day is researched; every other school is ABSENT rather than present-and-empty,
- * and with no source-material folder the section never renders on its page.
+ * Per-school entries live in ./internationalTravel/<slug>.ts. Providence Day and
+ * Charlotte Country Day are researched; every other school is ABSENT rather than
+ * present-and-empty, and with no source-material folder the section never
+ * renders on its page.
  */
 import {
   localized,
@@ -227,9 +278,11 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { providenceDay } from './internationalTravel/providence-day.ts'
+import { charlotteCountryDay } from './internationalTravel/charlotte-country-day.ts'
 
 const PROGRAMS: Record<string, InternationalTravelProgram> = {
   'providence-day': providenceDay,
+  'charlotte-country-day': charlotteCountryDay,
 }
 
 /* ---------------------------------------------------------- translations -- */

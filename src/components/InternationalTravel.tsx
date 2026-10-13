@@ -1,5 +1,5 @@
 // The "International Travel" research area — the section lead, its stat strip,
-// and the expanded bodies of the seven cards (see data/internationalTravel.ts
+// and the expanded bodies of the nine cards (see data/internationalTravel.ts
 // for the data and the card contract).
 //
 // Recreates the Claude Design handoff ("International Travel Section
@@ -18,10 +18,12 @@ import { SourceRow } from './SourceRow.tsx'
 import { PhotoViewer, PhotoZoomButton } from './PhotoViewer.tsx'
 import { usePhotoViewer } from './usePhotoViewer.ts'
 import type {
+  CommunityCard,
   CredentialCard,
   ExchangesCard,
   InternationalTravelCardKey,
   InternationalTravelProgram,
+  MilestonesCard,
   NetworkCard,
   SignupCard,
   StartCard,
@@ -186,7 +188,11 @@ function TripsBody({ data }: { data: TripsCard }) {
       .map((d) => ({ id: d, label: divLabel(t, d) })),
   ]
   const groups = data.years
-    .map((y) => ({ ...y, trips: y.trips.filter((tr) => div === 'all' || tr.div === div) }))
+    .map((y) => ({
+      ...y,
+      note: (div !== 'all' && y.noteByDiv?.[div]) || y.note,
+      trips: y.trips.filter((tr) => div === 'all' || tr.div === div),
+    }))
     .filter((y) => y.trips.length > 0)
   const total = groups.reduce((n, y) => n + y.trips.length, 0)
   const frame = useVerticalFade(div)
@@ -513,7 +519,59 @@ function SignupBody({ data }: { data: SignupCard }) {
   )
 }
 
-/* --------------------------------------------- 7 · verdict & ask the school -- */
+/* -------------------------------------------- 7 · global community on campus -- */
+
+function CommunityBody({ data }: { data: CommunityCard }) {
+  return (
+    <div className="it-body">
+      <Lead lead={data.intro} />
+      <StatStrip stats={data.stats} className="it-stats-sm" />
+      {data.cells.length > 0 && (
+        <div className="it-grid it-cells">
+          {data.cells.map((c) => (
+            <div key={c.name} className="it-cell">
+              <div className="it-cell-name">{c.name}</div>
+              <div className="it-small"><RichText text={c.text} /></div>
+            </div>
+          ))}
+        </div>
+      )}
+      {data.rows && data.rows.length > 0 && (
+        <div className="it-rows">
+          {data.rows.map((r) => (
+            <Row key={r.label} label={r.label} text={r.text} wide />
+          ))}
+        </div>
+      )}
+      <SourceRow sources={data.sources} className="it-src" />
+    </div>
+  )
+}
+
+/* ------------------------------------------------ 8 · firsts & milestones -- */
+
+function MilestonesBody({ data }: { data: MilestonesCard }) {
+  return (
+    <div className="it-body">
+      <Lead lead={data.intro} />
+      <div className="it-rows it-block">
+        {/* Keyed by year + title: one year can hold two events (1992). Years go
+            through localizeMoneyText so a range ("2020–22") keeps its order in
+            fa/ar. */}
+        {data.events.map((e) => (
+          <Row
+            key={`${e.year}-${e.title}`}
+            label={localizeMoneyText(e.year)}
+            text={`**${e.title}.** ${e.text}`}
+          />
+        ))}
+      </div>
+      <SourceRow sources={data.sources} className="it-src" />
+    </div>
+  )
+}
+
+/* --------------------------------------------- 9 · verdict & ask the school -- */
 
 function VerdictBody({ data }: { data: VerdictCard }) {
   const { t } = useTranslation()
@@ -597,6 +655,10 @@ export function InternationalTravelCardBody({
       return <NetworkBody data={program.network!} />
     case 'signup':
       return <SignupBody data={program.signup!} />
+    case 'community':
+      return <CommunityBody data={program.community!} />
+    case 'milestones':
+      return <MilestonesBody data={program.milestones!} />
     case 'verdict':
       return <VerdictBody data={program.verdict!} />
   }

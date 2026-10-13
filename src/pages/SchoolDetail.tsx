@@ -955,10 +955,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
             const admissions = adCardList.length > 0 ? adEntry : undefined
             const adCards = adCardList
             /* International Travel: a full substitution like Admissions and
-               Summer Programs — the seven cards replace the whole ingested
+               Summer Programs — the structured cards replace the whole ingested
                prose, folded onto a single metric key by
-               RULES['international-travel']. Only Providence Day is
-               researched; every other school has no source files, so the topic
+               RULES['international-travel']. Only Providence Day and Charlotte
+               Country Day are researched; every other school has no source
+               files, so the topic
                never reaches this branch for them. Same present-but-empty guard
                as the areas above. */
             const itEntry =

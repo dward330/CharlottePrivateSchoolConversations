@@ -106,7 +106,8 @@
       "of": "a28f44fb",
       "at": [
         "providence-day:trips.years[0].trips[0].dest",
-        "providence-day:trips.years[3].trips[3].dest"
+        "providence-day:trips.years[3].trips[3].dest",
+        "charlotte-country-day:trips.years[1].trips[2].dest"
       ]
     },
     {
@@ -122,7 +123,10 @@
       "at": [
         "providence-day:trips.years[0].trips[0].group",
         "providence-day:trips.years[0].trips[1].group",
-        "providence-day:trips.years[0].trips[2].group"
+        "providence-day:trips.years[0].trips[2].group",
+        "charlotte-country-day:trips.years[1].trips[2].group",
+        "charlotte-country-day:trips.years[1].trips[3].group",
+        "charlotte-country-day:trips.years[1].trips[5].group"
       ]
     },
     {
@@ -137,7 +141,8 @@
       "of": "c586cd85",
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
-        "providence-day:trips.years[3].trips[4].dest"
+        "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-country-day:trips.years[2].trips[1].dest"
       ]
     },
     {
@@ -160,7 +165,8 @@
       "at": [
         "providence-day:trips.years[0].trips[2].dest",
         "providence-day:trips.years[4].trips[2].dest",
-        "providence-day:exchanges.partners[7].country"
+        "providence-day:exchanges.partners[7].country",
+        "charlotte-country-day:trips.years[0].trips[2].dest"
       ]
     },
     {
@@ -261,7 +267,10 @@
       "t": "ఇంగ్లాండ్",
       "of": "a2a8f2aa",
       "at": [
-        "providence-day:trips.years[2].trips[1].dest"
+        "providence-day:trips.years[2].trips[1].dest",
+        "charlotte-country-day:trips.years[0].trips[3].dest",
+        "charlotte-country-day:trips.years[1].trips[1].dest",
+        "charlotte-country-day:exchanges.partners[1].country"
       ]
     },
     {
@@ -452,7 +461,8 @@
       "t": "గ్రీస్",
       "of": "cbef70fa",
       "at": [
-        "providence-day:trips.years[3].trips[2].dest"
+        "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-country-day:trips.years[0].trips[7].dest"
       ]
     },
     {
@@ -466,7 +476,11 @@
       "t": "వేసవి 2024",
       "of": "87d4d960",
       "at": [
-        "providence-day:trips.years[3].trips[2].timing"
+        "providence-day:trips.years[3].trips[2].timing",
+        "charlotte-country-day:trips.years[1].trips[2].timing",
+        "charlotte-country-day:trips.years[1].trips[3].timing",
+        "charlotte-country-day:trips.years[1].trips[4].timing",
+        "charlotte-country-day:trips.years[1].trips[5].timing"
       ]
     },
     {
@@ -508,7 +522,8 @@
       "t": "స్పెయిన్",
       "of": "e6d1e3ee",
       "at": [
-        "providence-day:trips.years[4].trips[1].dest"
+        "providence-day:trips.years[4].trips[1].dest",
+        "charlotte-country-day:trips.years[1].trips[4].dest"
       ]
     },
     {
@@ -536,7 +551,8 @@
       "t": "సెవిల్",
       "of": "6c7be847",
       "at": [
-        "providence-day:trips.years[4].trips[1].homestay"
+        "providence-day:trips.years[4].trips[1].homestay",
+        "charlotte-country-day:trips.years[1].trips[4].homestay"
       ]
     },
     {
@@ -768,7 +784,8 @@
       "t": "9–12",
       "of": "c8cc9d8a",
       "at": [
-        "providence-day:start.divisions[2].grades"
+        "providence-day:start.divisions[2].grades",
+        "charlotte-country-day:start.divisions[2].grades"
       ]
     },
     {
@@ -845,7 +862,8 @@
       "t": "Middle School",
       "of": "15441234",
       "at": [
-        "providence-day:start.languages.steps[2].when"
+        "providence-day:start.languages.steps[2].when",
+        "charlotte-country-day:signup.groups[1].events[0].audience"
       ]
     },
     {
@@ -894,7 +912,9 @@
       "t": "పెరూ",
       "of": "1fcfd723",
       "at": [
-        "providence-day:exchanges.partners[1].country"
+        "providence-day:exchanges.partners[1].country",
+        "charlotte-country-day:trips.years[0].trips[1].dest",
+        "charlotte-country-day:exchanges.partners[2].country"
       ]
     },
     {
@@ -1031,7 +1051,8 @@
       "t": "సెవిల్, స్పెయిన్",
       "of": "208b05c0",
       "at": [
-        "providence-day:exchanges.homestays[1].place"
+        "providence-day:exchanges.homestays[1].place",
+        "charlotte-country-day:exchanges.homestays[4].place"
       ]
     },
     {
@@ -1318,7 +1339,8 @@
       "t": "ప్రయాణించే ఉపాధ్యాయులు",
       "of": "d43cddb9",
       "at": [
-        "providence-day:network.rows[0].label"
+        "providence-day:network.rows[0].label",
+        "charlotte-country-day:network.rows[0].label"
       ]
     },
     {
@@ -1374,7 +1396,8 @@
       "t": "2026–27",
       "of": "4427b993",
       "at": [
-        "providence-day:signup.groups[0].note"
+        "providence-day:signup.groups[0].note",
+        "charlotte-country-day:signup.groups[1].note"
       ]
     },
     {
@@ -1624,7 +1647,8 @@
       "t": "ఆర్థిక సహాయం.",
       "of": "b17a4d3d",
       "at": [
-        "providence-day:verdict.ask[2].topic"
+        "providence-day:verdict.ask[2].topic",
+        "charlotte-country-day:verdict.ask[1].topic"
       ]
     },
     {
@@ -1652,7 +1676,8 @@
       "t": "ఎంపిక.",
       "of": "92b0d001",
       "at": [
-        "providence-day:verdict.ask[4].topic"
+        "providence-day:verdict.ask[4].topic",
+        "charlotte-country-day:verdict.ask[2].topic"
       ]
     },
     {
@@ -1666,7 +1691,8 @@
       "t": "భద్రత.",
       "of": "925b432b",
       "at": [
-        "providence-day:verdict.ask[5].topic"
+        "providence-day:verdict.ask[5].topic",
+        "charlotte-country-day:verdict.ask[3].topic"
       ]
     },
     {
@@ -1708,7 +1734,8 @@
       "t": "పరిమాణం.",
       "of": "b8f5ed2d",
       "at": [
-        "providence-day:verdict.ask[8].topic"
+        "providence-day:verdict.ask[8].topic",
+        "charlotte-country-day:verdict.ask[10].topic"
       ]
     },
     {
@@ -1716,6 +1743,1706 @@
       "of": "c588ed4f",
       "at": [
         "providence-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "యాత్రలు 6వ తరగతిలో మొదలవుతాయి; వీటిని పాఠశాల 1988 నుంచి ఉందని చెప్పే Office of International Studies నిర్వహిస్తుంది — క్యూబెక్ సిటీ, అరెక్విపా, సౌతాంప్టన్‌లలో సోదర పాఠశాలలతో ఎక్స్ఛేంజ్‌లు, ఆతిథ్య కుటుంబాలతో బసలు, మరియు వసంత సెలవుల్లో, వేసవిలో ఉపాధ్యాయుల నేతృత్వంలో Upper School యాత్రలు ఉంటాయి.",
+      "of": "155b6937",
+      "at": [
+        "charlotte-country-day:lead.strong"
+      ]
+    },
+    {
+      "t": "2015 నుంచి తన అంతర్జాతీయ యాత్రా అనుభవాల్లో విద్యార్థులు ఆరు ఖండాల్లో 27 దేశాలను సందర్శించారని పాఠశాల లెక్కిస్తుంది.",
+      "of": "7644558f",
+      "at": [
+        "charlotte-country-day:lead.muted"
+      ]
+    },
+    {
+      "t": "దేశాలు",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-country-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "2015 నుంచి Country Day అంతర్జాతీయ యాత్రా అనుభవాల్లో విద్యార్థులు సందర్శించినవి",
+      "of": "4b437e39",
+      "at": [
+        "charlotte-country-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "Middle School అనుభవాలు",
+      "of": "8db0a869",
+      "at": [
+        "charlotte-country-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "2026–27లో, 6వ తరగతి నుంచి",
+      "of": "848b95eb",
+      "at": [
+        "charlotte-country-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "ఎక్స్ఛేంజ్ భాగస్వామ్యాలు",
+      "of": "bd94bb29",
+      "at": [
+        "charlotte-country-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "Rotary, AFS-YES, Kennedy-Lugar YES మరియు కెనడా, పెరూ, యునైటెడ్ కింగ్‌డమ్‌లలోని సోదర పాఠశాలలతో సహా",
+      "of": "bca03bc3",
+      "at": [
+        "charlotte-country-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "International Studies ప్రారంభం",
+      "of": "6334b273",
+      "at": [
+        "charlotte-country-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "పాఠశాల ప్రకారం Charlotteలో మొదటి సమగ్ర కార్యక్రమం",
+      "of": "53864bf9",
+      "at": [
+        "charlotte-country-day:stats[3].note"
+      ]
+    },
+    {
+      "t": "మూడు విద్యా సంవత్సరాల — 2022–23, 2023–24 మరియు 2026–27 — ఇరవై యాత్రలు మరియు ఎక్స్ఛేంజ్‌లు; వీటిలో 6వ తరగతి నుంచి ఆరు Middle School అనుభవాలు, సోదర పాఠశాలల ఆతిథ్య కుటుంబ బసలు, రువాండా నుంచి అర్జెంటీనా వరకు Upper School యాత్రలు ఉన్నాయి. విభాగం వారీగా ఫిల్టర్ చేయండి.",
+      "of": "da1b522a",
+      "at": [
+        "charlotte-country-day:trips.headline"
+      ]
+    },
+    {
+      "t": "Middle School అనుభవాలు 6వ తరగతిలో మొదలవుతాయి — సోదర పాఠశాల ఎక్స్ఛేంజ్‌ల నుంచి భాషా, చరిత్ర యాత్రల వరకు — ప్రతి దానికీ తరగతి, బృంద పరిమాణం, ఎంపిక విధానం ప్రచురించబడ్డాయి.",
+      "of": "69e221f9",
+      "at": [
+        "charlotte-country-day:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Upper School యాత్రలను వసంత సెలవుల్లో, వేసవిలో ఉపాధ్యాయులు నడిపిస్తారు, అవి సంవత్సరానికి సంవత్సరానికి మారుతాయి. 2027లో ప్రతి Upper School యాత్ర సంబంధిత భాష చదివే విద్యార్థులకు ప్రాధాన్యం ఇస్తుంది, అందరికీ తెరిచి ఉంటుంది.",
+      "of": "34ea2615",
+      "at": [
+        "charlotte-country-day:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Middle School శీతాకాలం, వసంతం 2027లో; Upper School వసంత సెలవుల్లో మరియు వేసవి 2027లో",
+      "of": "c8524cc6",
+      "at": [
+        "charlotte-country-day:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "శీతాకాలం, వసంతం 2027",
+      "of": "e29216b3",
+      "at": [
+        "charlotte-country-day:trips.years[0].noteByDiv.MS"
+      ]
+    },
+    {
+      "t": "వసంత సెలవుల్లో మరియు వేసవి 2027లో",
+      "of": "709b4557",
+      "at": [
+        "charlotte-country-day:trips.years[0].noteByDiv.US"
+      ]
+    },
+    {
+      "t": "కెనడా",
+      "of": "5cf10bfb",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].dest",
+        "charlotte-country-day:exchanges.partners[0].country"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ సిటీ — Externat Saint-Coeur de Marie",
+      "of": "7f526499",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "6వ తరగతి · సాధారణంగా 12 మంది విద్యార్థుల వరకు",
+      "of": "43b55971",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · ఫ్రెంచ్ భాష, క్యూబెక్ సంస్కృతి · ఫ్రెంచ్ చదివే విద్యార్థులకు ప్రాధాన్యం",
+      "of": "08f062e4",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "శీతాకాలం 2027",
+      "of": "20b8e081",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].timing",
+        "charlotte-country-day:trips.years[0].trips[2].timing",
+        "charlotte-country-day:trips.years[0].trips[3].timing",
+        "charlotte-country-day:trips.years[0].trips[4].timing",
+        "charlotte-country-day:trips.years[0].trips[5].timing"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ సిటీ",
+      "of": "5231ed57",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].homestay"
+      ]
+    },
+    {
+      "t": "Charlotte సోదర నగరం అరెక్విపా — Prescott School",
+      "of": "30b8f6e2",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "7వ తరగతి స్పానిష్ విద్యార్థులు · సాధారణంగా 10–12 మంది",
+      "of": "36695ebd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · స్పానిష్ భాష, పెరూ సంస్కృతి",
+      "of": "0f66542f",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "వసంతం 2027",
+      "of": "a01a41e1",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].timing"
+      ]
+    },
+    {
+      "t": "అరెక్విపా",
+      "of": "b064fb81",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].homestay"
+      ]
+    },
+    {
+      "t": "Charlotte సోదర నగరం లిమోజ్ · లోయర్ లోయ + నార్మండీ",
+      "of": "cadc2507",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "8వ తరగతి · 15 మంది విద్యార్థుల వరకు",
+      "of": "0dedf691",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].group",
+        "charlotte-country-day:trips.years[0].trips[5].group"
+      ]
+    },
+    {
+      "t": "రెండవ ప్రపంచ యుద్ధ చరిత్ర, D-Day ప్రదేశాలు · ఫ్రెంచ్ చదివే విద్యార్థులకు ప్రాధాన్యం · దరఖాస్తులు ఎక్కువైతే లాటరీ",
+      "of": "09651e0b",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "సౌతాంప్టన్ — King Edward VI School",
+      "of": "30396498",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].place"
+      ]
+    },
+    {
+      "t": "8వ తరగతి · 8–10 మంది విద్యార్థులు",
+      "of": "66a22dfd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].group"
+      ]
+    },
+    {
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · ఒక సృజనాత్మక కళల ప్రాజెక్ట్ · ప్రాజెక్ట్ ప్రతిపాదన, ఇంటర్వ్యూ ద్వారా ఎంపిక",
+      "of": "68c8c10f",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].theme"
+      ]
+    },
+    {
+      "t": "సౌతాంప్టన్",
+      "of": "0007ed21",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].homestay",
+        "charlotte-country-day:milestones.events[3].title"
+      ]
+    },
+    {
+      "t": "కోస్టా రికా",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].dest"
+      ]
+    },
+    {
+      "t": "మాంటెవెర్డే",
+      "of": "e05e633c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].place",
+        "charlotte-country-day:trips.years[0].trips[4].homestay"
+      ]
+    },
+    {
+      "t": "8వ తరగతి స్పానిష్ విద్యార్థులు · 10 మంది వరకు",
+      "of": "7f122bdd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].group"
+      ]
+    },
+    {
+      "t": "ప్రతి ఉదయం స్పానిష్ పాఠాలు · మధ్యాహ్నాలు సంస్కృతి, ప్రకృతి",
+      "of": "a757cbbd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].theme"
+      ]
+    },
+    {
+      "t": "ఇటలీ",
+      "of": "3415f00c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].dest",
+        "charlotte-country-day:trips.years[2].trips[0].dest"
+      ]
+    },
+    {
+      "t": "రోమ్ + సొరెంటో — పాంపేయి మరియు హెర్క్యులేనియం",
+      "of": "f5d6f91c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].place"
+      ]
+    },
+    {
+      "t": "ప్రాచీన రోమన్ ప్రదేశాలు · లాటిన్ చదివే విద్యార్థులకు ప్రాధాన్యం · దరఖాస్తులు ఎక్కువైతే లాటరీ",
+      "of": "69e0b055",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].theme"
+      ]
+    },
+    {
+      "t": "రువాండా",
+      "of": "c4203e2a",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].dest"
+      ]
+    },
+    {
+      "t": "1994 టుట్సీలపై జరిగిన జాతి హననం తర్వాత పునరుద్ధరణ, సయోధ్య · పర్యావరణ నాయకత్వం · ఫ్రెంచ్ భాషా గుర్తింపు · ఫ్రెంచ్ చదివే విద్యార్థులకు ప్రాధాన్యం",
+      "of": "78e49f59",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].theme"
+      ]
+    },
+    {
+      "t": "వసంత సెలవులు 2027",
+      "of": "ca8ed76c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].timing",
+        "charlotte-country-day:trips.years[0].trips[7].timing",
+        "charlotte-country-day:trips.years[0].trips[8].timing"
+      ]
+    },
+    {
+      "t": "ఏథెన్స్",
+      "of": "e3903dd0",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[7].place"
+      ]
+    },
+    {
+      "t": "గ్రీకు, రోమన్ ప్రదేశాలు · 1995 నుంచి యూరప్‌లో వలసలు · గ్రీస్–టర్కీ సంబంధాలు · లాటిన్ చదివే విద్యార్థులకు ప్రాధాన్యం",
+      "of": "2587e437",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[7].theme"
+      ]
+    },
+    {
+      "t": "చైనా",
+      "of": "94da8330",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].dest",
+        "charlotte-country-day:milestones.events[8].title"
+      ]
+    },
+    {
+      "t": "సిల్క్ రోడ్, దున్‌హువాంగ్ నుంచి షియాన్ వరకు + షాంఘై",
+      "of": "f9b518cd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].place"
+      ]
+    },
+    {
+      "t": "గోబీ ఎడారి, టెర్రకోటా యోధులు · షాంఘైలోని Jinrui School విద్యార్థులతో గడిపే సమయం · చైనీస్ చదివే విద్యార్థులకు ప్రాధాన్యం",
+      "of": "15cb9313",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].theme"
+      ]
+    },
+    {
+      "t": "అర్జెంటీనా",
+      "of": "cc75630e",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].dest"
+      ]
+    },
+    {
+      "t": "బ్యూనస్ ఎయిర్స్, పరానా + ఇగ్వాజు జలపాతాలు",
+      "of": "214aa2a5",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].place"
+      ]
+    },
+    {
+      "t": "అర్జెంటీనా విద్యార్థులతో సాంస్కృతిక ఎక్స్ఛేంజ్ · పరానాలో ఒక సేవా-అభ్యాస ప్రాజెక్ట్ · స్పానిష్ చదివే విద్యార్థులకు ప్రాధాన్యం",
+      "of": "2f4d8f24",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].theme"
+      ]
+    },
+    {
+      "t": "వేసవి 2027",
+      "of": "8ad4de19",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].timing"
+      ]
+    },
+    {
+      "t": "మార్చి 2024లో షెడ్యూల్ చేసినట్లు",
+      "of": "df5c4c86",
+      "at": [
+        "charlotte-country-day:trips.years[1].note"
+      ]
+    },
+    {
+      "t": "ఒమన్ మరియు యునైటెడ్ అరబ్ ఎమిరేట్స్",
+      "of": "e8311df7",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].dest"
+      ]
+    },
+    {
+      "t": "మస్కట్, సూర్, షర్కియా ఇసుక ఎడారి, అబుదాబి + దుబాయ్",
+      "of": "3576ae90",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "9–12 తరగతులు",
+      "of": "3554df3c",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].group"
+      ]
+    },
+    {
+      "t": "అరబ్ ప్రపంచంలో సంప్రదాయం, ఆధునికీకరణ",
+      "of": "15118a0f",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "వసంతం 2024",
+      "of": "9d1a3d28",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].timing",
+        "charlotte-country-day:trips.years[1].trips[1].timing"
+      ]
+    },
+    {
+      "t": "లండన్ — a cappella బృందం Voces8 తో కలిసి, Cadogan Hall లో ప్రదర్శన",
+      "of": "c996d8be",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].place"
+      ]
+    },
+    {
+      "t": "కోయిర్ విద్యార్థులు, 9–11 తరగతులు",
+      "of": "abb830b2",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].group"
+      ]
+    },
+    {
+      "t": "కోయిర్ · రిహార్సల్స్, మాస్టర్ క్లాసులు",
+      "of": "e965a618",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "క్యోటో, టోక్యో + నకసెండో మార్గం",
+      "of": "2a596c5e",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[2].place"
+      ]
+    },
+    {
+      "t": "సాంస్కృతిక అనుభవం",
+      "of": "4680c2e5",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "న్యూజిలాండ్",
+      "of": "23dc5780",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[3].dest"
+      ]
+    },
+    {
+      "t": "మావోరీ సంస్కృతి, పర్యావరణం",
+      "of": "8a5c0540",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[3].theme"
+      ]
+    },
+    {
+      "t": "సెవిల్, కోర్డోబా మరియు గ్రెనడాలకు ఒక్క రోజు యాత్రలతో",
+      "of": "6089f775",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].place"
+      ]
+    },
+    {
+      "t": "Honors Spanish II లేదా అంతకంటే పై స్థాయి, 9–11 తరగతులు",
+      "of": "560a74bc",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].group"
+      ]
+    },
+    {
+      "t": "భాషా అభ్యాసం",
+      "of": "21dd6828",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "స్వీడన్ మరియు డెన్మార్క్",
+      "of": "edf07e99",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].dest"
+      ]
+    },
+    {
+      "t": "కోపెన్‌హాగన్, ఓరెసుండ్ వంతెన",
+      "of": "f0717355",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].place"
+      ]
+    },
+    {
+      "t": "డిజైన్, సుస్థిరత",
+      "of": "2588c5a7",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].theme"
+      ]
+    },
+    {
+      "t": "వేసవి 2023, 2019 తర్వాత మొదటి వేసవి యాత్రలు",
+      "of": "f686c66b",
+      "at": [
+        "charlotte-country-day:trips.years[2].note"
+      ]
+    },
+    {
+      "t": "ఫ్లోరెన్స్ + కోర్టోనా",
+      "of": "f01b8768",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "కళలు · చాలా సంవత్సరాలుగా ప్రతి రెండు సంవత్సరాలకు ఒకసారి అందించబడుతోంది",
+      "of": "33ede95a",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "సుస్థిరత, పర్యావరణ శాస్త్రం",
+      "of": "a10e40f7",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "స్పెయిన్ మరియు మొరాకో",
+      "of": "b08766f6",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[2].dest"
+      ]
+    },
+    {
+      "t": "స్పానిష్ భాషా అభ్యాసం",
+      "of": "5f58c668",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "పోలాండ్, జర్మనీ మరియు ఫ్రాన్స్",
+      "of": "9b261f3b",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].dest"
+      ]
+    },
+    {
+      "t": "వ్రొత్స్వాఫ్, క్రెఫెల్డ్ + లిమోజ్ — Charlotte సోదర నగరాలు",
+      "of": "1ad3d331",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].place"
+      ]
+    },
+    {
+      "t": "Charlotte సోదర నగరాలు",
+      "of": "1a910f6a",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].theme",
+        "charlotte-country-day:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "సౌతాంప్టన్ సోదర పాఠశాల ఎక్స్ఛేంజ్‌లో భాగంగా లండన్‌లో Country Day Middle School విద్యార్థులు",
+      "of": "9fcffe93",
+      "at": [
+        "charlotte-country-day:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "సౌతాంప్టన్ ఎక్స్ఛేంజ్",
+      "of": "0567af9a",
+      "at": [
+        "charlotte-country-day:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "King Edward VI School తో 8వ తరగతి ఎక్స్ఛేంజ్‌లో లండన్ సందర్శనలు కూడా ఉంటాయి.",
+      "of": "1d8e2cbc",
+      "at": [
+        "charlotte-country-day:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "ఫోటో: Charlotte Country Day School",
+      "of": "c3e53b21",
+      "at": [
+        "charlotte-country-day:trips.photo.credit",
+        "charlotte-country-day:exchanges.photo.credit"
+      ]
+    },
+    {
+      "t": "క్యూబా, 2015.",
+      "of": "e5f1fa7e",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "విద్యార్థులను క్యూబాకు పంపిన రాష్ట్రంలోని మొదటి పాఠశాల తానేనని పాఠశాల చెబుతుంది.",
+      "of": "c99d1a0b",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "Middle School, 1993 నుంచి.",
+      "of": "15112d86",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "2018 నాటికి 6–8 తరగతుల్లోని 800 మందికి పైగా విద్యార్థులు అంతర్జాతీయ యాత్రా అనుభవంలో పాల్గొన్నారు; ఆ సంవత్సరం 65 మంది Middle School విద్యార్థులు ఒకే సంవత్సరంలో ఐదు దేశాలకు ప్రయాణించాల్సి ఉంది.",
+      "of": "9ced1236",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "అరెక్విపా, 2019.",
+      "of": "72157015",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "శరదృతువు 2019లో 12 మంది Middle School విద్యార్థులు పెరూలోని అరెక్విపాకు ప్రయాణించారు, మేయర్‌ను కూడా కలిశారు.",
+      "of": "59a98f68",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "విరామం, 2020–22.",
+      "of": "feee8d37",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[3].lead"
+      ]
+    },
+    {
+      "t": "మహమ్మారి సమయంలో అంతర్జాతీయ అనుభవాలు నిలిచిపోయాయి; వేసవి 2023లో 2019 తర్వాత మొదటి వేసవి యాత్రలు జరిగాయి.",
+      "of": "324ca0b2",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[3].text"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ సిటీ, సౌతాంప్టన్, అరెక్విపాలలో మూడు సోదర పాఠశాలలు — రెండు వైపులా ఆతిథ్య కుటుంబ బసలు, దానితో పాటు క్యాంపస్‌కు వచ్చే అతిథి విద్యార్థులు, ఆతిథ్యం ఇచ్చే కుటుంబాలు.",
+      "of": "44738944",
+      "at": [
+        "charlotte-country-day:exchanges.headline"
+      ]
+    },
+    {
+      "t": "1992 నుంచి Country Day అనేక దేశాల్లో సోదర పాఠశాల భాగస్వామ్యాలను నిర్మించింది; ప్రస్తుత భాగస్వాములు కెనడా, పెరూ, యునైటెడ్ కింగ్‌డమ్‌లలో ఉన్నారు.",
+      "of": "d7b615f1",
+      "at": [
+        "charlotte-country-day:exchanges.intro.strong"
+      ]
+    },
+    {
+      "t": "రెండు వారాల ఎక్స్ఛేంజ్‌లలో ఆతిథ్య కుటుంబ బసలు, సందర్శనలు, కొన్ని తరగతులు ఉంటాయి; సోదర పాఠశాలల విద్యార్థులు విద్యా సంవత్సరంలో Charlotte ను సందర్శిస్తారు. సౌతాంప్టన్ ఎక్స్ఛేంజ్ 1991 నుంచి, క్యూబెక్ ఎక్స్ఛేంజ్ 2017 నుంచి నడుస్తున్నాయి.",
+      "of": "5df7fabc",
+      "at": [
+        "charlotte-country-day:exchanges.intro.muted"
+      ]
+    },
+    {
+      "t": "6వ తరగతి విద్యార్థులు, శీతాకాలంలో ఆతిథ్య కుటుంబ బస కోసం",
+      "of": "7325434e",
+      "at": [
+        "charlotte-country-day:exchanges.partners[0].out"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ విద్యార్థులు వసంతంలో సందర్శిస్తారు",
+      "of": "f1a449d6",
+      "at": [
+        "charlotte-country-day:exchanges.partners[0].in"
+      ]
+    },
+    {
+      "t": "8వ తరగతి విద్యార్థులు, ఒక సృజనాత్మక కళల ప్రాజెక్ట్‌తో",
+      "of": "9dbe7dff",
+      "at": [
+        "charlotte-country-day:exchanges.partners[1].out"
+      ]
+    },
+    {
+      "t": "KES విద్యార్థులు శరదృతువులో సందర్శిస్తారు",
+      "of": "1c112da8",
+      "at": [
+        "charlotte-country-day:exchanges.partners[1].in"
+      ]
+    },
+    {
+      "t": "7వ తరగతి స్పానిష్ విద్యార్థులు, వసంతంలో",
+      "of": "c5327b91",
+      "at": [
+        "charlotte-country-day:exchanges.partners[2].out"
+      ]
+    },
+    {
+      "t": "Prescott విద్యార్థులు జనవరిలో సందర్శిస్తారు",
+      "of": "2e0b0cbd",
+      "at": [
+        "charlotte-country-day:exchanges.partners[2].in"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ సోదర పాఠశాల ఎక్స్ఛేంజ్‌లో ఒక శీతాకాల ఉత్సవంలో ఇద్దరు Country Day విద్యార్థులు",
+      "of": "8682829b",
+      "at": [
+        "charlotte-country-day:exchanges.photo.alt"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ ఎక్స్ఛేంజ్",
+      "of": "acdc3db5",
+      "at": [
+        "charlotte-country-day:exchanges.photo.caption.title"
+      ]
+    },
+    {
+      "t": "క్యూబెక్‌లో Country Day విద్యార్థులు.",
+      "of": "23047881",
+      "at": [
+        "charlotte-country-day:exchanges.photo.caption.text"
+      ]
+    },
+    {
+      "t": "క్యూబెక్ సిటీ, కెనడా",
+      "of": "6255f909",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[0].place"
+      ]
+    },
+    {
+      "t": "6వ తరగతి విద్యార్థులు Externat Saint-Coeur de Marie కుటుంబాలతో బస చేస్తారు; ఇది ఫ్రెంచ్ బోధనా భాషగా ఉన్న JK–6 పాఠశాల.",
+      "of": "29bbc5c4",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[0].text"
+      ]
+    },
+    {
+      "t": "సౌతాంప్టన్, ఇంగ్లాండ్",
+      "of": "eb175cba",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[1].place"
+      ]
+    },
+    {
+      "t": "8వ తరగతి విద్యార్థులు King Edward VI School కుటుంబాలతో బస చేసి, ఆ ప్రాంతానికి సంబంధించిన ఒక సృజనాత్మక కళల ప్రాజెక్ట్‌పై పనిచేస్తారు.",
+      "of": "70db2af0",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[1].text"
+      ]
+    },
+    {
+      "t": "అరెక్విపా, పెరూ",
+      "of": "6e0dbf13",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[2].place"
+      ]
+    },
+    {
+      "t": "7వ తరగతి స్పానిష్ విద్యార్థులు Prescott School కుటుంబాలతో బస చేస్తారు; ఇది Charlotte సోదర నగరంలో ఉన్న K–12 పాఠశాల.",
+      "of": "935f021a",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[2].text"
+      ]
+    },
+    {
+      "t": "మాంటెవెర్డే, కోస్టా రికా",
+      "of": "bd78fd15",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[3].place"
+      ]
+    },
+    {
+      "t": "8వ తరగతి స్పానిష్ యాత్రలో విద్యార్థులకు స్థానిక కుటుంబాలు ఆతిథ్యం ఇస్తాయి, ప్రతి ఉదయం భాషా పాఠాలు ఉంటాయి.",
+      "of": "aef186c5",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[3].text"
+      ]
+    },
+    {
+      "t": "Honors Spanish II లేదా అంతకంటే పై స్థాయి విద్యార్థుల కోసం వేసవి 2024 Upper School స్పెయిన్ యాత్ర సెవిల్‌లో ఆతిథ్య కుటుంబ బసల చుట్టూ ప్రణాళిక చేయబడింది.",
+      "of": "02e0bc40",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[4].text"
+      ]
+    },
+    {
+      "t": "షాంఘైలోని Jinrui School విద్యార్థులు 2025 ప్రారంభంలో Middle Schoolలో ఒక వారం గడిపారు.",
+      "of": "456ca6b7",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[0]"
+      ]
+    },
+    {
+      "t": "Rotary Club, AFS-YES మరియు అమెరికా విదేశాంగ శాఖ నిర్వహించే Kennedy-Lugar YES కార్యక్రమంతో సహా 11 ఎక్స్ఛేంజ్ కార్యక్రమ భాగస్వామ్యాలు ఉన్నాయని పాఠశాల లెక్కిస్తుంది.",
+      "of": "c076bba1",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[1]"
+      ]
+    },
+    {
+      "t": "కుటుంబాలు International Parents Group ద్వారా కొన్ని రోజులు, వారాలు లేదా ఒక సెమిస్టర్ పాటు అతిథి విద్యార్థికి ఆతిథ్యం ఇవ్వవచ్చు.",
+      "of": "dd505512",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[2]"
+      ]
+    },
+    {
+      "t": "2027 యాత్రల కోసం Upper School దరఖాస్తులు సెప్టెంబర్ 1–25, 2026 మధ్య, రిజిస్ట్రేషన్ అక్టోబర్‌లో; 2026–27 కోసం Middle School దరఖాస్తుల గడువులు ఏప్రిల్, ఆగస్టు 2026లో ముగిశాయి.",
+      "of": "495adb8c",
+      "at": [
+        "charlotte-country-day:signup.headline"
+      ]
+    },
+    {
+      "t": "యాత్ర ఆర్థిక సహాయం కోసం Admissions వద్ద Parents' Financial Statement నమోదై ఉండాలి, దానితో పాటు యాత్ర గడువులోగా Global Programs Financial Aid Application సమర్పించాలి.",
+      "of": "08cfad28",
+      "at": [
+        "charlotte-country-day:signup.intro.strong"
+      ]
+    },
+    {
+      "t": "Upper School యాత్రలు సంబంధిత భాష చదివే విద్యార్థులకు ప్రాధాన్యం ఇస్తాయి, అందరికీ తెరిచి ఉంటాయి. Middle Schoolలో సౌతాంప్టన్ ఎక్స్ఛేంజ్ ప్రాజెక్ట్ ప్రతిపాదన, ఇంటర్వ్యూ ద్వారా ఎంపిక చేస్తుంది; దరఖాస్తులు ఎక్కువైతే ఫ్రాన్స్, ఇటలీ యాత్రలు లాటరీ వాడతాయి.",
+      "of": "e516b509",
+      "at": [
+        "charlotte-country-day:signup.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School · 2027 యాత్రలు",
+      "of": "f17b4735",
+      "at": [
+        "charlotte-country-day:signup.groups[0].title"
+      ]
+    },
+    {
+      "t": "2026 చక్రం",
+      "of": "7a999acd",
+      "at": [
+        "charlotte-country-day:signup.groups[0].note"
+      ]
+    },
+    {
+      "t": "ఆగస్టు 24, 2026",
+      "of": "c80a32e4",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "విద్యార్థుల అసెంబ్లీ",
+      "of": "3473c114",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].name"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].audience",
+        "charlotte-country-day:signup.groups[0].events[1].audience",
+        "charlotte-country-day:signup.groups[0].events[2].audience",
+        "charlotte-country-day:signup.groups[0].events[3].audience"
+      ]
+    },
+    {
+      "t": "సెప్టెంబర్ 1, 2026",
+      "of": "52ff5361",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[1].when"
+      ]
+    },
+    {
+      "t": "తల్లిదండ్రులు & విద్యార్థుల సమాచార సమావేశం",
+      "of": "78e62389",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[1].name"
+      ]
+    },
+    {
+      "t": "సెప్టెంబర్ 1–25, 2026",
+      "of": "a514ebdb",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "యాత్ర దరఖాస్తులు, ఆర్థిక సహాయ దరఖాస్తులకు గడువు",
+      "of": "db9ac912",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "అక్టోబర్ 2–16, 2026",
+      "of": "d761a21f",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "రిజిస్ట్రేషన్",
+      "of": "83988d98",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "Middle School · 2026–27 అనుభవాలు",
+      "of": "f4b89cec",
+      "at": [
+        "charlotte-country-day:signup.groups[1].title"
+      ]
+    },
+    {
+      "t": "ఏప్రిల్ 20, 2026",
+      "of": "e71621ad",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].when"
+      ]
+    },
+    {
+      "t": "దరఖాస్తులు, Global Programs Financial Aid Application కు గడువు",
+      "of": "55c30b3a",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].name"
+      ]
+    },
+    {
+      "t": "క్యూబెక్, ఫ్రాన్స్, సౌతాంప్టన్, కోస్టా రికా మరియు ఇటలీ",
+      "of": "3ecc1680",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].detail"
+      ]
+    },
+    {
+      "t": "ఆగస్టు 30, 2026",
+      "of": "5268410d",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].when"
+      ]
+    },
+    {
+      "t": "పెరూ దరఖాస్తు, ఆర్థిక సహాయ దరఖాస్తుకు గడువు",
+      "of": "acf9179d",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].name"
+      ]
+    },
+    {
+      "t": "Middle School · 7వ తరగతి",
+      "of": "f2d14667",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].audience"
+      ]
+    },
+    {
+      "t": "JK నుంచి 12 వరకు ప్రతి విభాగంలో అంతర్జాతీయ అభ్యాసం — 6వ తరగతిలో మొదలయ్యే యాత్రలు, Upper Schoolలో IB Diploma తో.",
+      "of": "1c604a4f",
+      "at": [
+        "charlotte-country-day:start.headline"
+      ]
+    },
+    {
+      "t": "Country Dayలో అంతర్జాతీయ దృక్పథం అంటే కేవలం యాత్రలు మాత్రమే కాదు: మూడు విభాగాల విద్యార్థులూ మన సరిహద్దులకు ఆవల ఉన్న ప్రపంచం గురించి చర్చిస్తారు.",
+      "of": "505f3556",
+      "at": [
+        "charlotte-country-day:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Office of International Studies ఈ కార్యక్రమాన్ని నాలుగు స్తంభాల చుట్టూ నిర్వహిస్తుంది.",
+      "of": "fdca5fd3",
+      "at": [
+        "charlotte-country-day:start.intro.muted"
+      ]
+    },
+    {
+      "t": "6వ తరగతి నుంచి మొదలయ్యే విద్యా, సాంస్కృతిక, పర్యావరణ శాస్త్ర, భాషా అభ్యాస యాత్రలు",
+      "of": "1ac6ffd7",
+      "at": [
+        "charlotte-country-day:start.framework[0].text"
+      ]
+    },
+    {
+      "t": "1992 నుంచి భాగస్వామ్యాలు; రెండు వారాల ఎక్స్ఛేంజ్‌లలో ఆతిథ్య కుటుంబ బసలు, సందర్శనలు, కొన్ని తరగతులు ఉంటాయి",
+      "of": "ce936fbb",
+      "at": [
+        "charlotte-country-day:start.framework[1].text"
+      ]
+    },
+    {
+      "t": "Middle School సైన్స్ నుంచి Upper School ఎలెక్టివ్‌ల వరకు కోర్సుల్లోనే అంతర్జాతీయ అనుసంధానాలు",
+      "of": "7cc787d3",
+      "at": [
+        "charlotte-country-day:start.framework[2].text"
+      ]
+    },
+    {
+      "t": "గ్రాంట్‌లు, సబాటికల్‌లు, అంతర్జాతీయ పరిశోధన గ్రాంట్‌లు ఉపాధ్యాయులను విదేశాలకు పంపి ప్రత్యక్షంగా నేర్చుకునేలా చేస్తాయి",
+      "of": "eafe79de",
+      "at": [
+        "charlotte-country-day:start.framework[3].text"
+      ]
+    },
+    {
+      "t": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-country-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "ఫ్రెంచ్, స్పానిష్ భాషలు జూనియర్ కిండర్‌గార్టెన్ నుంచి 1వ తరగతి మధ్య మొదలవుతాయి",
+      "of": "e41b23f3",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "3వ తరగతిలో ఒక అంతర్జాతీయ అధ్యయన యూనిట్",
+      "of": "a594ecf5",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "పాఠశాల చాంద్రమాన నూతన సంవత్సర వేడుకను 4వ తరగతి నాయకులు ప్రారంభిస్తారు",
+      "of": "42a86f07",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-country-day:start.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "**యాత్రలు 6వ తరగతిలో మొదలవుతాయి:** 2026–27లో ఆరు అనుభవాలు",
+      "of": "fd9a9233",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "ఫ్రెంచ్, స్పానిష్ మరియు లాటిన్",
+      "of": "a67de764",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "పర్యావరణ శాస్త్రంలో విదేశీ మట్టి నమూనాలు",
+      "of": "a04053a6",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Model United Nations మరియు Global Action Team",
+      "of": "013bd925",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "వసంత సెలవుల్లో, వేసవిలో ఉపాధ్యాయుల నేతృత్వంలో యాత్రలు, మరియు సాధారణంగా జూన్‌లో భాగస్వామి పాఠశాలల్లో సుమారు రెండు వారాలు",
+      "of": "94b368b8",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "AP Comparative Government, మరియు World Religions, International Relations వంటి ఎలెక్టివ్‌లు",
+      "of": "60d6e41c",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "IB Diploma — 1992లో దీన్ని అందించిన నార్త్ కరోలినాలోని మొదటి ప్రైవేట్ పాఠశాలగా Country Day నిలిచింది",
+      "of": "986efa65",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "School Year Abroad, Alzar School లేదా Maine Coast Semester ద్వారా ఒక సెమిస్టర్ లేదా ఒక సంవత్సరం బయట",
+      "of": "2cdfc6a7",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "ఏ అంతర్జాతీయ పాఠశాలల నెట్‌వర్క్ సభ్యత్వమూ ప్రచురించబడలేదు; దానికి బదులుగా Model UN, Academic WorldQuest మరియు Charlotte సొంత అంతర్జాతీయ సంస్థలు — \"Global starts Local.\"",
+      "of": "d4cbf80b",
+      "at": [
+        "charlotte-country-day:network.headline"
+      ]
+    },
+    {
+      "t": "Office of International Studies నినాదం \"Global starts Local\" కింద, ఈ కార్యక్రమం పోటీలపై మరియు Charlotte అంతర్జాతీయ సమాజంపై ఆధారపడుతుంది.",
+      "of": "4920da95",
+      "at": [
+        "charlotte-country-day:network.intro.strong"
+      ]
+    },
+    {
+      "t": "Academic WorldQuest, Euro Challenge మరియు Model UN సదస్సు పోటీల్లో మొత్తం 23 విజయాలు ఉన్నాయని పాఠశాల లెక్కిస్తుంది.",
+      "of": "814c363d",
+      "at": [
+        "charlotte-country-day:network.intro.muted"
+      ]
+    },
+    {
+      "t": "Model UN సదస్సులు",
+      "of": "13728fae",
+      "at": [
+        "charlotte-country-day:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "సెప్టెంబర్‌లో CHARMUN కు ఆతిథ్యం · University of Virginia లో VAMUN, 10 మంది ప్రతినిధులు, ఒక Best Delegate అవార్డు, ఒక మౌఖిక ప్రశంస · UNC-Chapel Hill లో MUNCH, 20 మంది విద్యార్థులు",
+      "of": "210d9dcc",
+      "at": [
+        "charlotte-country-day:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "University of Virginia లో VAMUN, 12 మంది Upper School ప్రతినిధులు, రెండు ప్రతినిధి బృందాలకు మౌఖిక ప్రశంసలు · UNC-Chapel Hill లో MUNCH, 17 మంది విద్యార్థులు, ఆరు అవార్డులు",
+      "of": "2be7c7bd",
+      "at": [
+        "charlotte-country-day:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-country-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "పాఠశాల ప్రకారం, Country Day విద్యార్థులు దాదాపు ప్రతి సంవత్సరం Academic WorldQuest పోటీలో మొదటి స్థానంలో నిలుస్తారు.",
+      "of": "1a1f19cb",
+      "at": [
+        "charlotte-country-day:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "అరెక్విపా, లిమోజ్, క్రెఫెల్డ్, వ్రొత్స్వాఫ్‌లకు యాత్రలు, మరియు Charlotte–అరెక్విపా సోదర నగర భాగస్వామ్యంపై ఒక ఫోరం.",
+      "of": "ce900999",
+      "at": [
+        "charlotte-country-day:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "సమాజ భాగస్వాములు",
+      "of": "bb11ee85",
+      "at": [
+        "charlotte-country-day:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "World Affairs Council of Charlotte మరియు International House తో ఉత్సవాలు, కార్యక్రమాలు, మరియు నార్త్ కరోలినా దౌత్య బృంద సభ్యులతో సంబంధాలు.",
+      "of": "d0597de1",
+      "at": [
+        "charlotte-country-day:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "గ్రాంట్‌లు, సబాటికల్‌లు, అంతర్జాతీయ పరిశోధన గ్రాంట్‌లు ఉపాధ్యాయులను విదేశాలకు పంపుతాయి. Country Dayలో ఐదు సంవత్సరాలు బోధించిన తర్వాత ఒక ఉపాధ్యాయుని అంతర్జాతీయ ప్రయాణానికి, విద్యకు J. R. Williams Fellowship నిధులు అందిస్తుంది. 2007లో పాఠశాల చైనాతో NCలో మొదటి పూర్తి స్థాయి ఉపాధ్యాయ ఎక్స్ఛేంజ్‌ను ఏర్పాటు చేసింది.",
+      "of": "8c21f672",
+      "at": [
+        "charlotte-country-day:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "సెమిస్టర్ కార్యక్రమాలు",
+      "of": "6f461520",
+      "at": [
+        "charlotte-country-day:network.rows[1].label"
+      ]
+    },
+    {
+      "t": "Maine Coast Semester at Chewonki లోని పద్నాలుగు సభ్య పాఠశాలల్లో Country Day ఒకటి; ఆమోదించిన కార్యక్రమాలకు విద్యార్థి GPA పై ప్రభావం లేకుండా క్రెడిట్ ఇస్తుంది.",
+      "of": "d4224b67",
+      "at": [
+        "charlotte-country-day:network.rows[1].text"
+      ]
+    },
+    {
+      "t": "57 దేశాల నుంచి కుటుంబాలు, 20 భాషలు మాట్లాడే ఉపాధ్యాయులు, మరియు పూర్తి సమయ ESL కార్యక్రమం — ఈ ప్రాంతంలోని స్వతంత్ర పాఠశాలల్లో మొదటిది.",
+      "of": "f5dd8498",
+      "at": [
+        "charlotte-country-day:community.headline"
+      ]
+    },
+    {
+      "t": "Country Dayలో విస్తృత శ్రేణి సంస్కృతులు, జాతీయతలకు ప్రాతినిధ్యం వహించే కుటుంబాలు, విద్యార్థులు ఉన్నారు,",
+      "of": "24ae89ba",
+      "at": [
+        "charlotte-country-day:community.intro.strong"
+      ]
+    },
+    {
+      "t": "మరియు దాని International Parents Group పాఠశాలకు కొత్తగా వచ్చిన, తరచూ దేశానికే కొత్తగా వచ్చిన అంతర్జాతీయ కుటుంబాలకు తోడ్పాటు అందిస్తుంది.",
+      "of": "c9ec54a6",
+      "at": [
+        "charlotte-country-day:community.intro.muted"
+      ]
+    },
+    {
+      "t": "తల్లిదండ్రుల జాతీయతలు",
+      "of": "df766b03",
+      "at": [
+        "charlotte-country-day:community.stats[0].label"
+      ]
+    },
+    {
+      "t": "ప్రస్తుతం Country Dayలో ప్రాతినిధ్యం ఉన్నవి",
+      "of": "aea164f1",
+      "at": [
+        "charlotte-country-day:community.stats[0].note"
+      ]
+    },
+    {
+      "t": "ఉపాధ్యాయులు మాట్లాడే భాషలు",
+      "of": "0ee10997",
+      "at": [
+        "charlotte-country-day:community.stats[1].label"
+      ]
+    },
+    {
+      "t": "100+ ఉపాధ్యాయులు రెండవ భాష మాట్లాడతారు",
+      "of": "7061206f",
+      "at": [
+        "charlotte-country-day:community.stats[1].note"
+      ]
+    },
+    {
+      "t": "రెండవ భాషగా ఇంగ్లీష్ (English as a Second Language)",
+      "of": "8c465920",
+      "at": [
+        "charlotte-country-day:community.stats[2].label",
+        "charlotte-country-day:community.cells[0].name",
+        "charlotte-country-day:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "దీన్ని అందించిన ఈ ప్రాంతంలోని మొదటి స్వతంత్ర పాఠశాల",
+      "of": "6d483d63",
+      "at": [
+        "charlotte-country-day:community.stats[2].note"
+      ]
+    },
+    {
+      "t": "పాఠశాల ప్రకారం, పూర్తి సమయ ESL కార్యక్రమం ఉన్న NCలోని మొదటి, ఏకైక స్వతంత్ర పాఠశాల. మొదటి రెండు సంవత్సరాల్లో ఇది 75 మంది అంతర్జాతీయ విద్యార్థులను ఆకర్షించింది.",
+      "of": "86e7f703",
+      "at": [
+        "charlotte-country-day:community.cells[0].text"
+      ]
+    },
+    {
+      "t": "International Parents Group",
+      "of": "4dd2a51d",
+      "at": [
+        "charlotte-country-day:community.cells[1].name"
+      ]
+    },
+    {
+      "t": "కొత్త అంతర్జాతీయ కుటుంబాలకు స్వాగతం పలుకుతుంది; Big Saturday లో 20కి పైగా దేశాల వంటకాలతో International Food Hall ను, సుమారు 80 మంది సభ్యులతో శరదృతువు విందును నిర్వహిస్తుంది.",
+      "of": "e0614085",
+      "at": [
+        "charlotte-country-day:community.cells[1].text"
+      ]
+    },
+    {
+      "t": "సందర్శించే దౌత్యవేత్తలు",
+      "of": "6637feeb",
+      "at": [
+        "charlotte-country-day:community.cells[2].name"
+      ]
+    },
+    {
+      "t": "విద్యార్థులు మయన్మార్, ఫిన్లాండ్, జమైకా, చెక్ రిపబ్లిక్, జర్మనీ మరియు కేప్ వెర్డే రాయబారులతో కలిసి మధ్యాహ్న భోజనం చేశారు.",
+      "of": "1466fd00",
+      "at": [
+        "charlotte-country-day:community.cells[2].text"
+      ]
+    },
+    {
+      "t": "సాంస్కృతిక వేడుకలు",
+      "of": "249dea28",
+      "at": [
+        "charlotte-country-day:community.cells[3].name"
+      ]
+    },
+    {
+      "t": "1,000కి పైగా చేతితో చేసిన డంప్లింగ్‌లతో చాంద్రమాన నూతన సంవత్సరం, మరియు 2024 చివర్లో మొదలై వసంతం 2026లో లెబనాన్‌తో 11వ కార్యక్రమానికి చేరుకున్న Taste of Cultures సిరీస్.",
+      "of": "bfb7fdb2",
+      "at": [
+        "charlotte-country-day:community.cells[3].text"
+      ]
+    },
+    {
+      "t": "అంతర్జాతీయ క్లబ్‌లు",
+      "of": "6986c71f",
+      "at": [
+        "charlotte-country-day:community.cells[4].name"
+      ]
+    },
+    {
+      "t": "Middle Schoolలో Model UN, Global Action Team; Upper Schoolలో Model UN, Interact Club, International Studies Board, World Quest మరియు Euro Challenge.",
+      "of": "111e88c2",
+      "at": [
+        "charlotte-country-day:community.cells[4].text"
+      ]
+    },
+    {
+      "t": "దాదాపు యాభై సంవత్సరాల అంతర్జాతీయ \"మొదటివి\" — 1977 యాత్రా సహాయ నిధి నుంచి పది యాత్రలు, ఎక్స్ఛేంజ్‌లతో కూడిన 2027 కార్యక్రమం వరకు.",
+      "of": "ba0034b8",
+      "at": [
+        "charlotte-country-day:milestones.headline"
+      ]
+    },
+    {
+      "t": "Country Day తన అంతర్జాతీయ కార్యక్రమం 1977 ఎండోమెంట్‌తో, మొదటి International Studies కార్యక్రమం 1988లో మొదలయ్యాయని చెబుతుంది,",
+      "of": "1a11d669",
+      "at": [
+        "charlotte-country-day:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "అప్పటి నుంచి నార్త్ కరోలినాలో వరుస \"మొదటివి\" తనవేనని చెబుతుంది — ఒక్కొక్కటి కింద పాఠశాల చెప్పినట్లే ఇవ్వబడింది.",
+      "of": "28301b8b",
+      "at": [
+        "charlotte-country-day:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "విద్యార్థి యాత్రల కోసం ఒక నిధి",
+      "of": "51eca8b1",
+      "at": [
+        "charlotte-country-day:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "Mildred Dalton Cox Endowment for International Studies, లేకపోతే పాల్గొనలేని విద్యార్థులకు సహాయం చేస్తుంది.",
+      "of": "8bd77410",
+      "at": [
+        "charlotte-country-day:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "ESL అందించిన ఈ ప్రాంతంలోని మొదటి స్వతంత్ర పాఠశాల.",
+      "of": "61c60610",
+      "at": [
+        "charlotte-country-day:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "International Studies",
+      "of": "d16b87d2",
+      "at": [
+        "charlotte-country-day:milestones.events[2].title"
+      ]
+    },
+    {
+      "t": "Charlotteలో మొదటి International Studies కార్యక్రమం.",
+      "of": "be6521e4",
+      "at": [
+        "charlotte-country-day:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "King Edward VI School తో ఎక్స్ఛేంజ్ మొదలవుతుంది.",
+      "of": "604dcdc6",
+      "at": [
+        "charlotte-country-day:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "సోదర పాఠశాలలు",
+      "of": "1b610d9c",
+      "at": [
+        "charlotte-country-day:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "ఫ్రాన్స్, జర్మనీ వంటి దేశాల్లో Upper School సోదర పాఠశాల భాగస్వామ్యాలు.",
+      "of": "e83554a0",
+      "at": [
+        "charlotte-country-day:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "IB Diploma",
+      "of": "bbf07cd5",
+      "at": [
+        "charlotte-country-day:milestones.events[5].title"
+      ]
+    },
+    {
+      "t": "దీన్ని అందించిన నార్త్ కరోలినాలోని మొదటి ప్రైవేట్ పాఠశాల.",
+      "of": "9351da38",
+      "at": [
+        "charlotte-country-day:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "Middle School ఎక్స్ఛేంజ్‌లు",
+      "of": "48a8fcfe",
+      "at": [
+        "charlotte-country-day:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "మాంట్రియల్‌లోని ఒక పాఠశాలతో మొదలుపెట్టి, Middle School స్థాయిలో ఎక్స్ఛేంజ్‌లు ప్రారంభించిన ఈ ప్రాంతంలోని మొదటి స్వతంత్ర పాఠశాలల్లో ఒకటి.",
+      "of": "5e86a105",
+      "at": [
+        "charlotte-country-day:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "ఉపాధ్యాయుల ప్రయాణాల కోసం ఒక ఫెలోషిప్",
+      "of": "1cdf7eba",
+      "at": [
+        "charlotte-country-day:milestones.events[7].title"
+      ]
+    },
+    {
+      "t": "Country Dayలో ఐదు సంవత్సరాల తర్వాత ఒక ఉపాధ్యాయుని అంతర్జాతీయ ప్రయాణానికి J. R. Williams Fellowship నిధులు అందిస్తుంది.",
+      "of": "25f70e14",
+      "at": [
+        "charlotte-country-day:milestones.events[7].text"
+      ]
+    },
+    {
+      "t": "చైనాతో NCలో మొదటి పూర్తి స్థాయి ఉపాధ్యాయ ఎక్స్ఛేంజ్.",
+      "of": "305ba6f9",
+      "at": [
+        "charlotte-country-day:milestones.events[8].text"
+      ]
+    },
+    {
+      "t": "క్యూబా",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-country-day:milestones.events[9].title"
+      ]
+    },
+    {
+      "t": "విద్యార్థులను క్యూబాకు పంపిన రాష్ట్రంలోని మొదటి పాఠశాల.",
+      "of": "51e2f1ce",
+      "at": [
+        "charlotte-country-day:milestones.events[9].text"
+      ]
+    },
+    {
+      "t": "క్యూబెక్",
+      "of": "aa1129b8",
+      "at": [
+        "charlotte-country-day:milestones.events[10].title"
+      ]
+    },
+    {
+      "t": "Externat Saint-Coeur de Marie తో ఎక్స్ఛేంజ్ మొదలవుతుంది.",
+      "of": "ed8217b1",
+      "at": [
+        "charlotte-country-day:milestones.events[10].text"
+      ]
+    },
+    {
+      "t": "విరామం",
+      "of": "3d69308e",
+      "at": [
+        "charlotte-country-day:milestones.events[11].title"
+      ]
+    },
+    {
+      "t": "అంతర్జాతీయ అనుభవాలు నిలిచిపోయాయి; వేసవి 2023లో 2019 తర్వాత మొదటి వేసవి యాత్రలు జరిగాయి.",
+      "of": "02769dd7",
+      "at": [
+        "charlotte-country-day:milestones.events[11].text"
+      ]
+    },
+    {
+      "t": "పది యాత్రలు, ఎక్స్ఛేంజ్‌లు",
+      "of": "7aa0e717",
+      "at": [
+        "charlotte-country-day:milestones.events[12].title"
+      ]
+    },
+    {
+      "t": "నాలుగు Upper School యాత్రలు, ఆరు Middle School అనుభవాలు ప్రణాళికలో ఉన్నాయి.",
+      "of": "d54a93f8",
+      "at": [
+        "charlotte-country-day:milestones.events[12].text"
+      ]
+    },
+    {
+      "t": "ఈ ప్రోగ్రామ్ ఎక్కడ ప్రత్యేకంగా నిలుస్తుంది, మరియు పాఠశాల వెబ్‌సైట్ ఇంకా సమాధానం ఇవ్వని పదకొండు ప్రశ్నలు — Upper School ధరలు, ఆర్థిక సహాయం, ఎంపిక మరియు భద్రత.",
+      "of": "792e6c24",
+      "at": [
+        "charlotte-country-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Charlotte ప్రైవేట్ పాఠశాలల్లో Country Day యాత్రలు ఎంత ముందుగా, ఎంత స్పష్టంగా మొదలవుతాయనే విషయంలో — 6వ తరగతి నుంచి ప్రచురించిన ఆరు Middle School అనుభవాలు — మరియు 1991 నుంచి నడుస్తున్న సోదర పాఠశాల ఎక్స్ఛేంజ్‌లతో ప్రత్యేకంగా నిలుస్తుంది.",
+      "of": "fd3b6b6a",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "6వ తరగతిలో ప్రారంభం, ప్రతి Middle School యాత్రకు తరగతి, బృంద పరిమాణం, ఎంపిక విధానం ప్రచురించబడ్డాయి",
+      "of": "c813ec50",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "మూడు సోదర పాఠశాలలు, రెండు వైపులా ఆతిథ్య కుటుంబ బసలతో",
+      "of": "a555d5a6",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "పాఠశాల చెప్పుకునే వరుస రాష్ట్ర \"మొదటివి\": 1988, 1992, 2007, 2015",
+      "of": "fc5a13a6",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "క్యాంపస్‌లోనే అంతర్జాతీయ సమాజం: 57 తల్లిదండ్రుల జాతీయతలు, పూర్తి సమయ ESL",
+      "of": "68e599b0",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Upper School ధరలు.",
+      "of": "88a23151",
+      "at": [
+        "charlotte-country-day:verdict.ask[0].topic"
+      ]
+    },
+    {
+      "t": "2027 Upper School యాత్రల ధరలు ప్రచురించబడలేదు. ఒక యాత్రకు ఎంత ఖర్చవుతుంది, అందులో ఏమేమి ఉంటాయి? Middle School పేజీల్లో వాటి ధరలు ఉన్నాయి.",
+      "of": "c1242d91",
+      "at": [
+        "charlotte-country-day:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Cox ఎండోమెంట్ ప్రతి సంవత్సరం ఎంత మొత్తం ఇస్తుంది, మరియు ట్యూషన్ ఆర్థిక సహాయం యాత్ర ఖర్చులకు కూడా వర్తిస్తుందా?",
+      "of": "4d7b6059",
+      "at": [
+        "charlotte-country-day:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "భాషా ప్రాధాన్యం కాకుండా, ఒక యాత్రకు దరఖాస్తులు ఎక్కువైనప్పుడు Upper School స్థానాలు ఎలా నిర్ణయిస్తారు?",
+      "of": "1eb583ed",
+      "at": [
+        "charlotte-country-day:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "డైరెక్టర్ ప్రయాణ భాగస్వాములను స్వయంగా పరిశీలిస్తారు, కానీ ఏ విధానమూ ప్రచురించబడలేదు. ఏ సంస్థలను ఉపయోగిస్తారు, ఏ బీమా ఉంటుంది, పర్యవేక్షకుల నిష్పత్తి ఎంత?",
+      "of": "d8946575",
+      "at": [
+        "charlotte-country-day:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "2025–26 యాత్రలు.",
+      "of": "075a6403",
+      "at": [
+        "charlotte-country-day:verdict.ask[4].topic"
+      ]
+    },
+    {
+      "t": "2025–26లో Upper School యాత్రలు జరిగాయా? ప్రస్తుత పేజీలో ఇప్పుడు 2027 యాత్రలు మాత్రమే ఉన్నాయి.",
+      "of": "8e147454",
+      "at": [
+        "charlotte-country-day:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "ఫ్రాన్స్ తరగతి.",
+      "of": "06d2855d",
+      "at": [
+        "charlotte-country-day:verdict.ask[5].topic"
+      ]
+    },
+    {
+      "t": "Middle School ఫ్రాన్స్ యాత్ర 7వ తరగతి విద్యార్థులకు తెరిచి ఉందా? దాని శీర్షిక 7వ, 8వ తరగతి అని చెబుతుంది, కానీ అర్హత 8వ తరగతి అని చెబుతుంది.",
+      "of": "2e69da42",
+      "at": [
+        "charlotte-country-day:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Jinrui.",
+      "of": "e6f81128",
+      "at": [
+        "charlotte-country-day:verdict.ask[6].topic"
+      ]
+    },
+    {
+      "t": "షాంఘైలోని Jinrui School అధికారిక సోదర పాఠశాలా? ప్రచురించిన ప్రస్తుత భాగస్వాముల జాబితాలో అది లేదు.",
+      "of": "cc4f9226",
+      "at": [
+        "charlotte-country-day:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "ఆతిథ్యం.",
+      "of": "bbbc8485",
+      "at": [
+        "charlotte-country-day:verdict.ask[7].topic"
+      ]
+    },
+    {
+      "t": "ఎక్స్ఛేంజ్ కుటుంబాలు బదులుగా సోదర పాఠశాల విద్యార్థికి ఆతిథ్యం ఇవ్వడం తప్పనిసరా?",
+      "of": "22530a9f",
+      "at": [
+        "charlotte-country-day:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Lower School మరియు భాషలు.",
+      "of": "66e50ac2",
+      "at": [
+        "charlotte-country-day:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "Middle Schoolకు ముందు ఏ అంతర్జాతీయ, భాషా పాఠ్యాంశాలు ఉంటాయి, మరియు JK నుంచి 12 వరకు ప్రచురించిన భాషా క్రమం ఏదైనా ఉందా?",
+      "of": "9259a6b1",
+      "at": [
+        "charlotte-country-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "ధ్రువపత్రం.",
+      "of": "81c33a02",
+      "at": [
+        "charlotte-country-day:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "అంతర్జాతీయ సర్టిఫికెట్ లేదా డిప్లొమా ఏదైనా ప్రణాళికలో ఉందా?",
+      "of": "5a84f0d0",
+      "at": [
+        "charlotte-country-day:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "ప్రతి సంవత్సరం ఎంతమంది విద్యార్థులు ప్రయాణిస్తారు? చివరిగా ప్రచురించిన సంఖ్య 2018–19లో 65 మంది Middle School విద్యార్థులు.",
+      "of": "4f2ce549",
+      "at": [
+        "charlotte-country-day:verdict.ask[10].question"
       ]
     }
   ]
