@@ -12,6 +12,12 @@
 // Rules this file follows (see ./README.md): every card's `sources` lists the
 // specific pages behind its facts; gaps appear only in `verdict.ask`; conflicts
 // between the school's own pages are shown as ranges; no student is named.
+//
+// The Global Community on Campus and Firsts & Milestones cards (2026-10-13,
+// .claude/plans/pdcommunity.md) come from a second deep-research PDF, verified
+// against live pages in the Source URLs file's "Community & Milestones
+// verification" section. Round Square has no milestone row: the school's pages
+// give 2015, 2016 and "for over a decade", and none is authoritative.
 
 import type { InternationalTravelProgram } from '../internationalTravel.ts'
 
@@ -34,6 +40,14 @@ const RS_DUBAI = 'https://www.roundsquare.org/articles/rsic2025-dubai/'
 const LS_NEWS =
   'https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/the-lower-school-makes-global-connections-through-round-square'
 const NEWS_2014 = 'https://www.providenceday.org/cf_news/view.cfm?newsid=27'
+const PD_NEWS = 'https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post'
+const N_CULTURE = `${PD_NEWS}/cultural-connections-celebrating-the-traditions-that-make-us-who-we-are`
+const N_CCA = `${PD_NEWS}/celebrating-20-years-of-partnership-with-charlotte-chinese-academy`
+const N_IGL = `${PD_NEWS}/providence-day-earns-prestigious-national-recognition-in-global-education`
+const N_BILITERACY = `${PD_NEWS}/world-language-journey-opens-up-student-opportunities`
+const PODCAST = 'https://www.providenceday.org/about/pd-communications/podcast-from-the-horses-mouth'
+const UPPER = 'https://www.providenceday.org/upper-school'
+const MAG_SPRING_2015 = 'https://www.providenceday.org/uploaded/About_PDS/Magazine/PDMag15-SpringFINAL.pdf'
 // The school redesigned these two pages in 2026; the facts below survive only
 // in the snapshot taken before the redesign.
 const LS_WAYBACK =
@@ -594,6 +608,128 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
       { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
       { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
+    ],
+  },
+
+  /* ---------------------------------------------- global community on campus -- */
+  community: {
+    headline:
+      'Families from 72 countries of origin, five world languages from TK, and a parent-run series of cultural celebrations that drew record crowds.',
+    intro: {
+      strong: 'Providence Day reports 72 countries of origin across its community,',
+      muted:
+        'including families who have relocated from other countries — and a weekend Chinese school has met on campus for 20 years.',
+    },
+    stats: [
+      { value: '72', label: 'countries of origin', note: 'represented in the PD community' },
+      { value: '500+', label: 'at the Diwali celebration', note: 'a record year for Cultural Connections' },
+      { value: '2006', label: 'Charlotte Chinese Academy on campus', note: 'weekend classes for 20 years' },
+    ],
+    cells: [
+      {
+        name: 'Cultural Connections',
+        text: 'A Parents\' Association series, run with the school\'s Office of Equity, Inclusion, and Belonging. In its record year, Hispanic Heritage Month drew 250+, Diwali 500+ and a first Shabbat dinner 350+, alongside Lunar New Year and Eid al-Fitr.',
+      },
+      {
+        name: 'Charlotte Chinese Academy',
+        text: 'A weekend Chinese language school with 200+ students in 19 classes has met on campus since 2006, and partners on the Lunar New Year celebration.',
+      },
+      {
+        name: 'World languages',
+        text: 'Mandarin Chinese, French and Spanish from TK; Latin and German join in Middle School. Upper School offers 38 language courses, including 5 APs, and 37 students earned the Seal of Biliteracy in 2024.',
+      },
+      {
+        name: 'Families from abroad',
+        text: 'A school podcast episode features PD mothers who moved to Charlotte from other countries. The Bhandari Mehta Endowment, established in 2020, makes its awards first to students whose families are first- or second-generation immigrants to the US, or who are students of color.',
+      },
+      {
+        name: 'Intercultural dialogue',
+        text: 'Upper School students can earn the Institute for Global Learning\'s Intercultural Dialogue Facilitator Certificate; the first cohort completed it in 2025–26.',
+      },
+    ],
+    sources: [
+      { label: 'providenceday.org — Why Providence Day (countries of origin)', url: ADM },
+      { label: 'providenceday.org — Cultural Connections, 2026', url: N_CULTURE },
+      { label: 'providenceday.org — Charlotte Chinese Academy partnership, 2026', url: N_CCA },
+      { label: 'providenceday.org — Middle School Global Education (languages)', url: MS },
+      { label: 'providenceday.org — Upper School (language courses)', url: UPPER },
+      { label: 'providenceday.org — Seal of Biliteracy, 2024', url: N_BILITERACY },
+      { label: 'providenceday.org — Podcast: From the Horse\'s Mouth', url: PODCAST },
+      { label: 'providenceday.org — Endowment (Bhandari Mehta)', url: ENDOW },
+      { label: 'providenceday.org — IGL endorsement, 2026', url: N_IGL },
+    ],
+  },
+
+  /* ------------------------------------------------- firsts & milestones -- */
+  milestones: {
+    headline:
+      'Two decades of global firsts, from 2004\'s first signature programs to a 2026 endorsement shared by 11 schools worldwide.',
+    intro: {
+      strong: 'Providence Day dates its global programs to 2004 and its Global Studies Diploma to 2007,',
+      muted: 'which the school calls the first in the nation — each milestone below as the school states it.',
+    },
+    events: [
+      {
+        year: '2004',
+        title: 'Global programs begin',
+        text: 'Signature programs for students, faculty and parents, including trips abroad and exchanges.',
+      },
+      {
+        year: '2006',
+        title: 'Global Educator Certificate',
+        text: 'Faculty and staff begin their own globally focused learning, with language study and travel.',
+      },
+      {
+        year: '2006',
+        title: 'Charlotte Chinese Academy',
+        text: 'A weekend Chinese language school begins holding classes on campus.',
+      },
+      {
+        year: '2007',
+        title: 'The Global Studies Diploma',
+        text: 'The first in the nation, per the school.',
+      },
+      {
+        year: '2008',
+        title: 'A faculty travel award',
+        text: 'The Desoer Family Global Studies Faculty Award funds international travel by Upper School faculty for the certificate.',
+      },
+      {
+        year: '2014',
+        title: '27 certified teachers',
+        text: 'Teachers who had earned the Global Educator Certificate, with 32 more in the program.',
+      },
+      {
+        year: '2018',
+        title: 'An endowment for Global Education',
+        text: 'The Bessant/Clay Endowment funds the Distinguished Global Scholar Award and the Global Education Department.',
+      },
+      {
+        year: '2019',
+        title: '"A national leader"',
+        text: 'The Southern Association of Independent Schools accreditation committee\'s verdict on the program.',
+      },
+      {
+        year: '2021',
+        title: 'Global Ambassador',
+        text: 'A distinction GSD students can earn at graduation.',
+      },
+      {
+        year: '2026',
+        title: 'Endorsed by the Institute for Global Learning',
+        text: 'One of just 11 schools worldwide to receive the endorsement, per the school.',
+      },
+    ],
+    sources: [
+      { label: 'providenceday.org — Providence Day Magazine, Spring 2015 (p. 9)', url: MAG_SPRING_2015 },
+      { label: 'providenceday.org — Global Education', url: GE },
+      { label: 'providenceday.org — Charlotte Chinese Academy partnership, 2026', url: N_CCA },
+      { label: 'providenceday.org — Global Studies Diploma', url: GSD },
+      { label: 'providenceday.org — Endowment (Desoer, Bessant/Clay)', url: ENDOW },
+      { label: 'providenceday.org — Global Educator Certificate news, 2014', url: NEWS_2014 },
+      { label: 'providenceday.org — Why Providence Day (SAIS)', url: ADM },
+      { label: 'Global Studies Diploma site — Alumni', url: GSD_ALUMNI },
+      { label: 'providenceday.org — IGL endorsement, 2026', url: N_IGL },
     ],
   },
 

@@ -55,8 +55,10 @@ researched" shell.
   (user-approved 2026-10-12): `community` ("Global Community on Campus" — international
   families, languages, ESL, on-campus cultural programs) and `milestones` ("Firsts &
   Milestones" — a dated timeline, oldest first, full width). No school ships either
-  empty or as a placeholder; Providence Day has neither until its research supplies
-  them. A milestone `year` is a pure figure (`1992`, `2020–22`), and one year may hold
+  empty or as a placeholder. Providence Day added both on 2026-10-13
+  (`.claude/plans/pdcommunity.md`) from a second deep-research PDF verified against
+  live pages; a milestone whose year the school's own pages dispute (Round Square:
+  2015, 2016, "for over a decade") is omitted rather than shown with two years. A milestone `year` is a pure figure (`1992`, `2020–22`), and one year may hold
   two events, so rows are keyed by year + title.
 - **The Credential card is omitted where no global credential exists.** Country Day
   publishes no global diploma or certificate, so it has no `credential`; its IB Diploma

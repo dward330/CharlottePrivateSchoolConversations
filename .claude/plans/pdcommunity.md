@@ -1,7 +1,7 @@
 ---
 name: pdcommunity
 title: Add Global Community on Campus and Firsts & Milestones to Providence Day's Global Exposure, from a focused Claude deep-research PDF
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-13
 branch: feat/pdcommunity
@@ -519,3 +519,34 @@ and the date the page was published or last updated if shown.
 
 Deliver the result as a PDF.
 ````
+
+## Implementation notes
+
+### Phase 1 (2026-10-13)
+
+- **Both cards render.** `community` has 5 cells and 3 stat tiles; `milestones` has 10
+  events (thresholds: ≥3 / ≥5). Verification is in the Source URLs file's
+  "Community & Milestones verification (2026-10-13)" section.
+- **The PDF's three "could not load" posts all loaded on retry** (IGL endorsement, Cultural
+  Connections, Charlotte Chinese Academy) and supplied the strongest facts. The
+  "June 2026 national recognition" is now confirmed as the **Institute for Global Learning
+  endorsement** (one of 11 schools worldwide, announced April 2026).
+- **GSD milestone year is 2007, not the GSD Google site's 2005.** This deviates from the
+  Decisions example ("the GSD site for the GSD"). The GSD's own providenceday.org page
+  ("Created in 2007"), the Global Education page, the admissions page and the 2026–27
+  college profile all say 2007. The GSD Google site is internally inconsistent: its FAQ
+  says 2005 had the first graduating class, but its own alumni roster begins with the
+  Class of 2007. Recorded under Conflicts.
+- **Round Square has no milestone row.** The Fall 2015 magazine says "recently became an
+  official member" (2015). A Wayback copy of the Global Education page (2025-05-17) says
+  "Global Member … in 2016". The live page says "for over a decade". No page is
+  authoritative.
+- **Verdict unchanged.** Neither card was omitted, and no existing Ask question is answered
+  by the new data (none concerned the community). `standsOut` was left as is, so no
+  existing stamp changed and Phase 2 should drop nothing.
+- Cultural Connections' attendance figures render without a year. The post (Sep 25 2026,
+  reprinted from PD Magazine) implies 2025–26, but that is an inference. The IGL
+  certificate's "2025–26" comes from "this year" in a June 2026 post.
+- Not rendered, though verified: the 2015 ELL curriculum map, FOCUS (2006), the
+  Multicultural Task Force (2004), the World Peace Mandala, hosted French students and the
+  Postcard figures. They are historical, or already on PD's other cards.
