@@ -1,7 +1,7 @@
 ---
 name: ccdglobal
 title: Add Charlotte Country Day to Global Exposure — six existing cards plus two new shared cards (Global Community on Campus, Firsts & Milestones), credential omitted
-status: not-implemented
+status: in-progress
 phases: 2
 created: 2026-10-12
 branch: feat/ccdglobal
