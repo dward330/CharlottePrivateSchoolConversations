@@ -1,7 +1,7 @@
 ---
 name: pdcommunity
 title: Add Global Community on Campus and Firsts & Milestones to Providence Day's Global Exposure, from a focused Claude deep-research PDF
-status: english-done
+status: in-progress
 phases: 2
 created: 2026-10-13
 branch: feat/pdcommunity
@@ -550,3 +550,33 @@ Deliver the result as a PDF.
 - Not rendered, though verified: the 2015 ELL curriculum map, FOCUS (2006), the
   Multicultural Task Force (2004), the World Peace Mandala, hosted French students and the
   Postcard figures. They are historical, or already on PD's other cards.
+
+### Phase 2 (2026-10-13)
+
+- **Translated.** 41 strings × 9 locales were spliced by stamp: 482 kept, 41 added,
+  **0 dropped**. Each locale reuses its Country Day glossary. The soft spots are in
+  `src/data/overlays/NOTES.md`, under "Providence Day — community & milestones".
+- **Card order changed at the user's request, mid-Phase 2:** "move global community to
+  the 3rd card … the same for Charlotte Country Day and the other schools (going forward)".
+  `community` now sits third in `INTERNATIONAL_TRAVEL_CARDS`, after `exchanges` and
+  before `signup`; `milestones` stays just before the Verdict. Because the registry is
+  shared, this one edit reorders every school, current and future, and
+  `/global-exposure` already reads the live registry. Also updated: the README note and
+  the regenerated `DATA-SCHEMA.md`. This deviates from the Phase 1 verification order
+  above, which listed Global Community seventh. **The new order:**
+  - **PD:** Where They Go, Exchanges, **Global Community**, Signing Up & GSD, Each
+    School Level, GSD, Round Square, Firsts & Milestones, Verdict.
+  - **CCD:** the same, with no credential card, so 8 cards.
+- **Checks, all passing:**
+  - `check:runtime`, `check:live`, `check:dates`, `check:bidi`, `check:fa`,
+    `check:hi`, `check:fr`, `check:script`, `check:chrome` and `check:moneytext`;
+  - `check_figures.py` and `check:sepdrift` × 9;
+  - `i18n:leaks` × 9 (0 hits on the new strings);
+  - the by-stamp integrity assertions;
+  - `npm run build`;
+  - `audit:daterender` (all 9 locales);
+  - `audit:mobile --only providence-day --lang fa/ar/es --widths 320`;
+  - a real-Chrome check of card order (PD in en/es/fa/ar, CCD in en) and of
+    `2025–26` order in fa/ar.
+- **Found, not changed:** `N+` figures render `+250` in fa/ar prose but `500+` in stat
+  tiles. This predates the PR (CCD's `100+`, PD's `280+`); see NOTES.md.

@@ -2897,3 +2897,53 @@ Providence Day's "& GSD" title was **moved** into `signup@providence-day` in Pha
   0 English or stamps mutated, 0 Providence Day `t` overwritten, 240 new entries (all
   Country Day), 0 empty. Cross-Latin byte-identical comparison found 1 pair, a
   legitimate PD keep ("…Future Problem Solvers o World Quest", es = it).
+
+## Providence Day — community & milestones (`pdcommunity`) — Phase 2, 2026-10-13
+
+41 strings × 9 locales, spliced by stamp: 482 kept, 41 added, **0 dropped**, because
+the Verdict was not edited. There is no chrome change. The `community` and `milestones`
+titles shipped with `ccdglobal`. Phrasing reuses each locale's Country Day rendering of
+the same cards ("per the school", "firsts", "endowment", "Lunar New Year").
+
+**Soft spots for a reviewer:**
+
+- **"A national leader" (the 2019 milestone title) is translated in all nine locales**,
+  even though bn/ht/hi keep the same SAIS quote in English inside the existing Round
+  Square paragraph. A bare English heading reads as a leak, while a quote kept inside a
+  sentence does not. A reviewer may want the two to match in those three locales.
+- **"Endorsement" (IGL, 2026)** varies by locale: es *aval*, fr/it *reconnaissance /
+  riconoscimento*, ht *rekonesans*, bn *স্বীকৃতি*, te *ఆమోదం*, hi *अनुमोदन*, fa
+  *تأییدیه*, ar *اعتماد*. In ar, *اعتماد* also means "accreditation", the word the SAIS
+  row uses. Both senses are right, but a reviewer may prefer *تزكية* for the IGL row.
+- **"Students of color"** (Bhandari Mehta Endowment): bn *অশ্বেতাঙ্গ*, te
+  *శ్వేతజాతీయేతర* and hi *गैर-श्वेत* ("non-white") are the closest idiomatic terms. es/fr/it
+  use the calque *de color*, ar *من ذوي البشرة الملوّنة*, fa *رنگین‌پوست*. The register is
+  worth a native check.
+- **"World languages"** is *lingue straniere* in it and *lang etranje* in ht ("foreign
+  languages", the school term in each). The other locales use "languages of the world".
+- **Festival names:** Diwali, Shabbat and Eid al-Fitr use native script in
+  bn/te/hi/fa/ar (*দিওয়ালি*, *దీపావళి*, *दिवाली*, *دیوالی*, *ديوالي*; *ঈদুল ফিতর*,
+  *عید فطر*, *عيد الفطر*). ar glosses Shabbat as *السبت اليهودي (Shabbat)*. Hispanic
+  Heritage Month stays English everywhere, as in the existing Charlotte Christian clubs
+  prose.
+- **Identifier keeps, all nine:** Cultural Connections, Charlotte Chinese Academy, Global
+  Educator Certificate, Global Ambassador, Global Studies Diploma (ht adds the article:
+  *Global Studies Diploma a*, as with *IB Diploma a*), and the Parents' Association,
+  Office of Equity, Inclusion, and Belonging, the Desoer, Bessant/Clay and Bhandari
+  Mehta award names, the Intercultural Dialogue Facilitator Certificate and the Seal of
+  Biliteracy. These are byte-identical in all nine, so `i18n:leaks` correctly stays
+  silent on them.
+- **RTL:** fa/ar store zero bidi controls. Three sentences were reordered so that no
+  figure follows Latin text (rule W7, above): the record-attendance figures (e.g. 250+
+  نفر در Hispanic Heritage Month) and the "38 language courses … in Upper School"
+  sentence. A scan for `[A-Za-z]…\d` in the 41 fa/ar strings returns nothing.
+- **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English/stamps/at-paths
+  mutated, 0 existing `t` overwritten, 41 added, all under
+  `providence-day:community.*` / `milestones.*`, 0 empty.
+- **Not changed, but worth knowing: `N+` figures put the `+` on different sides in
+  fa/ar.** In prose the `+` renders on the left (`+250`), because the render layer
+  isolates the digits and leaves the `+` outside the isolate. In a stat tile, which is
+  not isolated, it renders on the right (`500+`). The two forms appear side by side on
+  PD's community card. **This predates this PR:** Country Day's `100+` and PD's existing
+  `280+` measure the same way in a real-Chrome glyph-position check. Both forms are
+  normal in RTL text. Any fix belongs in `format.ts`, never in the stored strings.
