@@ -54,7 +54,9 @@ researched" shell.
 - **Every card is optional, including the two shared cards added with Country Day**
   (user-approved 2026-10-12): `community` ("Global Community on Campus" — international
   families, languages, ESL, on-campus cultural programs) and `milestones` ("Firsts &
-  Milestones" — a dated timeline, oldest first, full width). No school ships either
+  Milestones" — a dated timeline, oldest first, full width). `community` is the **third**
+  card for every school, after Exchanges & Homestays (user decision, 2026-10-13), and
+  `milestones` sits just before the Verdict. No school ships either
   empty or as a placeholder. Providence Day added both on 2026-10-13
   (`.claude/plans/pdcommunity.md`) from a second deep-research PDF verified against
   live pages; a milestone whose year the school's own pages dispute (Round Square:

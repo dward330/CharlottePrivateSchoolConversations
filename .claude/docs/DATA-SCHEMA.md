@@ -804,11 +804,11 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 |---|---|---|
 | `trips` | Where They Go | — |
 | `exchanges` | Exchanges & Homestays | — |
+| `community` | Global Community on Campus | — |
 | `signup` | Signing Up for Travel | — |
 | `start` | Global Learning at Each School Level | — |
 | `credential` | Credential | — |
 | `network` | Network | — |
-| `community` | Global Community on Campus | — |
 | `milestones` | Firsts & Milestones | — |
 | `verdict` | Verdict & Ask the School | — |
 
