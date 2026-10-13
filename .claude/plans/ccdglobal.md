@@ -794,3 +794,48 @@ combined note shows. Country Day's 2026–27 row uses it ("winter and spring 202
 "over spring break and in summer 2027"). The new paths are classified as prose in
 `PATH_OVERRIDES`, so Phase 2 translates them. Providence Day has no `noteByDiv`, and its
 ledger is unchanged. Verified in real Chrome across all three tabs on both schools.
+
+**Phase 2 (locales), 2026-10-12/13, in the same window at the user's go-ahead ("looks
+great. Proceed to next phase").**
+- **Splice:** 242 kept, 240 added, **0 dropped** per locale (no Providence Day prose
+  changed).
+- **Translation:** nine parallel agents, one scratch directory each, filled 240 strings
+  per locale plus the 6 chrome keys. All nine were cut off by an API session limit
+  partway through. They were resumed from their transcripts after each locale's on-disk
+  state was verified.
+- **Cross-locale fixes (genuine leaks found by `i18n:leaks`):**
+  - it "Québec City" → *Città del Québec* (5 entries);
+  - hi "English as a Second Language" left in English → translated, matching te/bn's
+    pattern;
+  - es "…con China de Carolina del Norte" → "…en Carolina del Norte".
+
+  Agents had already fixed te/bn ESL themselves. The rest of the leak report is
+  keeps, listed in `src/data/overlays/NOTES.md` ("Charlotte Country Day").
+- **`check_work_integrity --base main` reports a violation for every locale on any
+  new-school splice** ("242 → 482 strings"): its length assertion exits before the
+  per-entry checks. Its four assertions were run directly by stamp against `main`:
+  - 0 lost;
+  - 0 `text`/`of` mutated;
+  - 0 PD `t` overwritten;
+  - 240 new entries (all Country Day), 0 empty.
+
+  `check:script` covers foreign script. A cross-Latin byte-identical scan found one
+  legitimate PD keep.
+- **Phase 2 verification:**
+  - `check:runtime`, `check:live`, `check:chrome` and `check:dates` (0 English-form
+    dates, 0 first-of-month drifts);
+  - `check:bidi`, `check:fa`, `check:hi`, `check:fr` and `check:script`;
+  - `check_figures` and `check:sepdrift` (0 drifted) for all 9 locales;
+  - all 6 chrome keys present and translated in all 9 catalogs, with PD's `& GSD` title
+    intact in each;
+  - `npm run build` passes every gate;
+  - `audit:daterender` (9 locales) and `audit:moneyrender` (es/fr) are clean;
+  - real Chrome in es/fa/hi/ar: 8 translated titles, tiles 27/6/11/1988, and fa/ar
+    ranges read `2026–27`, `2020–22`, `1991–2027` (glyph x-position, not reversed);
+  - ar plural trip counts are correct (`10 رحلات`).
+- **`audit:mobile` at 320px**, both schools, 9 locales: **no Global Exposure finding**.
+  It reported 8 broken cards and 1 doc overflow, all outside this plan:
+  - es Course Offerings count chips (6);
+  - fa Clubs (1; it and the es chips were recorded as pre-existing in intltravel's PR);
+  - bn Financial Aid range label on Country Day (+16px, with a +2px page overflow).
+    This branch changes no Financial Aid file.

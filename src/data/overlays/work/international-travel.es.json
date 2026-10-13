@@ -122,7 +122,8 @@
       "of": "a28f44fb",
       "at": [
         "providence-day:trips.years[0].trips[0].dest",
-        "providence-day:trips.years[3].trips[3].dest"
+        "providence-day:trips.years[3].trips[3].dest",
+        "charlotte-country-day:trips.years[1].trips[2].dest"
       ],
       "t": "Japón"
     },
@@ -140,7 +141,10 @@
       "at": [
         "providence-day:trips.years[0].trips[0].group",
         "providence-day:trips.years[0].trips[1].group",
-        "providence-day:trips.years[0].trips[2].group"
+        "providence-day:trips.years[0].trips[2].group",
+        "charlotte-country-day:trips.years[1].trips[2].group",
+        "charlotte-country-day:trips.years[1].trips[3].group",
+        "charlotte-country-day:trips.years[1].trips[5].group"
       ],
       "t": "grados 9–11"
     },
@@ -157,7 +161,8 @@
       "of": "c586cd85",
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
-        "providence-day:trips.years[3].trips[4].dest"
+        "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-country-day:trips.years[2].trips[1].dest"
       ],
       "t": "Islandia"
     },
@@ -183,7 +188,8 @@
       "at": [
         "providence-day:trips.years[0].trips[2].dest",
         "providence-day:trips.years[4].trips[2].dest",
-        "providence-day:exchanges.partners[7].country"
+        "providence-day:exchanges.partners[7].country",
+        "charlotte-country-day:trips.years[0].trips[2].dest"
       ],
       "t": "Francia"
     },
@@ -298,7 +304,10 @@
       "text": "England",
       "of": "a2a8f2aa",
       "at": [
-        "providence-day:trips.years[2].trips[1].dest"
+        "providence-day:trips.years[2].trips[1].dest",
+        "charlotte-country-day:trips.years[0].trips[3].dest",
+        "charlotte-country-day:trips.years[1].trips[1].dest",
+        "charlotte-country-day:exchanges.partners[1].country"
       ],
       "t": "Inglaterra"
     },
@@ -516,7 +525,8 @@
       "text": "Greece",
       "of": "cbef70fa",
       "at": [
-        "providence-day:trips.years[3].trips[2].dest"
+        "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-country-day:trips.years[0].trips[7].dest"
       ],
       "t": "Grecia"
     },
@@ -532,7 +542,11 @@
       "text": "Summer 2024",
       "of": "87d4d960",
       "at": [
-        "providence-day:trips.years[3].trips[2].timing"
+        "providence-day:trips.years[3].trips[2].timing",
+        "charlotte-country-day:trips.years[1].trips[2].timing",
+        "charlotte-country-day:trips.years[1].trips[3].timing",
+        "charlotte-country-day:trips.years[1].trips[4].timing",
+        "charlotte-country-day:trips.years[1].trips[5].timing"
       ],
       "t": "Verano de 2024"
     },
@@ -580,7 +594,8 @@
       "text": "Spain",
       "of": "e6d1e3ee",
       "at": [
-        "providence-day:trips.years[4].trips[1].dest"
+        "providence-day:trips.years[4].trips[1].dest",
+        "charlotte-country-day:trips.years[1].trips[4].dest"
       ],
       "t": "España"
     },
@@ -612,7 +627,8 @@
       "text": "Seville",
       "of": "6c7be847",
       "at": [
-        "providence-day:trips.years[4].trips[1].homestay"
+        "providence-day:trips.years[4].trips[1].homestay",
+        "charlotte-country-day:trips.years[1].trips[4].homestay"
       ],
       "t": "Sevilla"
     },
@@ -877,7 +893,8 @@
       "text": "9–12",
       "of": "c8cc9d8a",
       "at": [
-        "providence-day:start.divisions[2].grades"
+        "providence-day:start.divisions[2].grades",
+        "charlotte-country-day:start.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -965,7 +982,8 @@
       "text": "Middle School",
       "of": "15441234",
       "at": [
-        "providence-day:start.languages.steps[2].when"
+        "providence-day:start.languages.steps[2].when",
+        "charlotte-country-day:signup.groups[1].events[0].audience"
       ],
       "t": "Middle School"
     },
@@ -1021,7 +1039,9 @@
       "text": "Peru",
       "of": "1fcfd723",
       "at": [
-        "providence-day:exchanges.partners[1].country"
+        "providence-day:exchanges.partners[1].country",
+        "charlotte-country-day:trips.years[0].trips[1].dest",
+        "charlotte-country-day:exchanges.partners[2].country"
       ],
       "t": "Perú"
     },
@@ -1177,7 +1197,8 @@
       "text": "Seville, Spain",
       "of": "208b05c0",
       "at": [
-        "providence-day:exchanges.homestays[1].place"
+        "providence-day:exchanges.homestays[1].place",
+        "charlotte-country-day:exchanges.homestays[4].place"
       ],
       "t": "Sevilla, España"
     },
@@ -1505,7 +1526,8 @@
       "text": "Faculty who travel",
       "of": "d43cddb9",
       "at": [
-        "providence-day:network.rows[0].label"
+        "providence-day:network.rows[0].label",
+        "charlotte-country-day:network.rows[0].label"
       ],
       "t": "Profesores que viajan"
     },
@@ -1569,7 +1591,8 @@
       "text": "2026–27",
       "of": "4427b993",
       "at": [
-        "providence-day:signup.groups[0].note"
+        "providence-day:signup.groups[0].note",
+        "charlotte-country-day:signup.groups[1].note"
       ],
       "t": "2026–27"
     },
@@ -1854,7 +1877,8 @@
       "text": "Aid.",
       "of": "b17a4d3d",
       "at": [
-        "providence-day:verdict.ask[2].topic"
+        "providence-day:verdict.ask[2].topic",
+        "charlotte-country-day:verdict.ask[1].topic"
       ],
       "t": "Ayuda."
     },
@@ -1886,7 +1910,8 @@
       "text": "Selection.",
       "of": "92b0d001",
       "at": [
-        "providence-day:verdict.ask[4].topic"
+        "providence-day:verdict.ask[4].topic",
+        "charlotte-country-day:verdict.ask[2].topic"
       ],
       "t": "Selección."
     },
@@ -1902,7 +1927,8 @@
       "text": "Safety.",
       "of": "925b432b",
       "at": [
-        "providence-day:verdict.ask[5].topic"
+        "providence-day:verdict.ask[5].topic",
+        "charlotte-country-day:verdict.ask[3].topic"
       ],
       "t": "Seguridad."
     },
@@ -1950,7 +1976,8 @@
       "text": "Scale.",
       "of": "b8f5ed2d",
       "at": [
-        "providence-day:verdict.ask[8].topic"
+        "providence-day:verdict.ask[8].topic",
+        "charlotte-country-day:verdict.ask[10].topic"
       ],
       "t": "Escala."
     },
@@ -1961,6 +1988,1946 @@
         "providence-day:verdict.ask[8].question"
       ],
       "t": "¿Cuántos estudiantes viajan al extranjero cada año y qué proporción de cada grado representa?"
+    },
+    {
+      "text": "Travel begins in 6th grade, run by an Office of International Studies the school dates to 1988, with sister-school exchanges and homestays in Québec City, Arequipa and Southampton, and faculty-led Upper School trips over spring break and in the summer.",
+      "of": "155b6937",
+      "at": [
+        "charlotte-country-day:lead.strong"
+      ],
+      "t": "Los viajes empiezan en 6.º grado, a cargo de una Office of International Studies que el colegio remonta a 1988, con intercambios con colegios hermanos y estancias con familias anfitrionas en la ciudad de Quebec, Arequipa y Southampton, y viajes de Upper School dirigidos por profesores durante las vacaciones de primavera y en verano."
+    },
+    {
+      "text": "The school counts 27 countries visited by students on its global travel experiences since 2015, across six continents.",
+      "of": "7644558f",
+      "at": [
+        "charlotte-country-day:lead.muted"
+      ],
+      "t": "El colegio contabiliza 27 países visitados por sus estudiantes en sus experiencias de viaje global desde 2015, en seis continentes."
+    },
+    {
+      "text": "countries",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-country-day:stats[0].label"
+      ],
+      "t": "países"
+    },
+    {
+      "text": "visited by students on Country Day's global travel experiences since 2015",
+      "of": "4b437e39",
+      "at": [
+        "charlotte-country-day:stats[0].note"
+      ],
+      "t": "visitados por estudiantes en las experiencias de viaje global de Country Day desde 2015"
+    },
+    {
+      "text": "Middle School experiences",
+      "of": "8db0a869",
+      "at": [
+        "charlotte-country-day:stats[1].label"
+      ],
+      "t": "experiencias de Middle School"
+    },
+    {
+      "text": "in 2026–27, from 6th grade",
+      "of": "848b95eb",
+      "at": [
+        "charlotte-country-day:stats[1].note"
+      ],
+      "t": "en 2026–27, desde 6.º grado"
+    },
+    {
+      "text": "exchange partnerships",
+      "of": "bd94bb29",
+      "at": [
+        "charlotte-country-day:stats[2].label"
+      ],
+      "t": "programas de intercambio asociados"
+    },
+    {
+      "text": "including Rotary, AFS-YES, Kennedy-Lugar YES and sister schools in Canada, Peru and the United Kingdom",
+      "of": "bca03bc3",
+      "at": [
+        "charlotte-country-day:stats[2].note"
+      ],
+      "t": "incluidos Rotary, AFS-YES, Kennedy-Lugar YES y colegios hermanos en Canadá, Perú y el Reino Unido"
+    },
+    {
+      "text": "International Studies founded",
+      "of": "6334b273",
+      "at": [
+        "charlotte-country-day:stats[3].label"
+      ],
+      "t": "fundación de International Studies"
+    },
+    {
+      "text": "the first comprehensive program in Charlotte, per the school",
+      "of": "53864bf9",
+      "at": [
+        "charlotte-country-day:stats[3].note"
+      ],
+      "t": "el primer programa integral de Charlotte, según el colegio"
+    },
+    {
+      "text": "Twenty trips and exchanges from three school years — 2022–23, 2023–24 and 2026–27 — including six Middle School experiences from 6th grade, sister-school homestays and Upper School trips from Rwanda to Argentina. Filter by division.",
+      "of": "da1b522a",
+      "at": [
+        "charlotte-country-day:trips.headline"
+      ],
+      "t": "Veinte viajes e intercambios de tres cursos escolares — 2022–23, 2023–24 y 2026–27 — incluidas seis experiencias de Middle School desde 6.º grado, estancias con familias de colegios hermanos y viajes de Upper School desde Ruanda hasta Argentina. Filtra por división."
+    },
+    {
+      "text": "Middle School experiences begin in 6th grade, from sister-school exchanges to language and history trips, with a published grade, group size and selection method for each.",
+      "of": "69e221f9",
+      "at": [
+        "charlotte-country-day:trips.intro.strong"
+      ],
+      "t": "Las experiencias de Middle School empiezan en 6.º grado, desde intercambios con colegios hermanos hasta viajes de idioma e historia, y cada una publica su grado, el tamaño del grupo y el método de selección."
+    },
+    {
+      "text": "Upper School trips are faculty-led over spring break and in the summer, and change from year to year. Each 2027 Upper School trip gives priority to students of the matching language and is open to all.",
+      "of": "34ea2615",
+      "at": [
+        "charlotte-country-day:trips.intro.muted"
+      ],
+      "t": "Los viajes de Upper School están dirigidos por profesores durante las vacaciones de primavera y en verano, y cambian de un año a otro. Cada viaje de Upper School de 2027 da prioridad a los estudiantes del idioma correspondiente y está abierto a todos."
+    },
+    {
+      "text": "Middle School in winter and spring 2027; Upper School over spring break and in summer 2027",
+      "of": "c8524cc6",
+      "at": [
+        "charlotte-country-day:trips.years[0].note"
+      ],
+      "t": "Middle School en invierno y primavera de 2027; Upper School durante las vacaciones de primavera y en el verano de 2027"
+    },
+    {
+      "text": "winter and spring 2027",
+      "of": "e29216b3",
+      "at": [
+        "charlotte-country-day:trips.years[0].noteByDiv.MS"
+      ],
+      "t": "invierno y primavera de 2027"
+    },
+    {
+      "text": "over spring break and in summer 2027",
+      "of": "709b4557",
+      "at": [
+        "charlotte-country-day:trips.years[0].noteByDiv.US"
+      ],
+      "t": "durante las vacaciones de primavera y en el verano de 2027"
+    },
+    {
+      "text": "Canada",
+      "of": "5cf10bfb",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].dest",
+        "charlotte-country-day:exchanges.partners[0].country"
+      ],
+      "t": "Canadá"
+    },
+    {
+      "text": "Québec City — Externat Saint-Coeur de Marie",
+      "of": "7f526499",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].place"
+      ],
+      "t": "Ciudad de Quebec — Externat Saint-Coeur de Marie"
+    },
+    {
+      "text": "6th grade · usually up to 12 students",
+      "of": "43b55971",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].group"
+      ],
+      "t": "6.º grado · normalmente hasta 12 estudiantes"
+    },
+    {
+      "text": "Sister-school exchange · French language and Québécois culture · preference to French students",
+      "of": "08f062e4",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].theme"
+      ],
+      "t": "Intercambio con un colegio hermano · lengua francesa y cultura quebequense · preferencia para estudiantes de francés"
+    },
+    {
+      "text": "Winter 2027",
+      "of": "20b8e081",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].timing",
+        "charlotte-country-day:trips.years[0].trips[2].timing",
+        "charlotte-country-day:trips.years[0].trips[3].timing",
+        "charlotte-country-day:trips.years[0].trips[4].timing",
+        "charlotte-country-day:trips.years[0].trips[5].timing"
+      ],
+      "t": "Invierno de 2027"
+    },
+    {
+      "text": "Québec City",
+      "of": "5231ed57",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].homestay"
+      ],
+      "t": "Ciudad de Quebec"
+    },
+    {
+      "text": "Arequipa, Charlotte's sister city — Prescott School",
+      "of": "30b8f6e2",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].place"
+      ],
+      "t": "Arequipa, ciudad hermana de Charlotte — Prescott School"
+    },
+    {
+      "text": "7th-grade Spanish students · usually 10–12",
+      "of": "36695ebd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].group"
+      ],
+      "t": "estudiantes de español de 7.º grado · normalmente 10–12"
+    },
+    {
+      "text": "Sister-school exchange · Spanish language and Peruvian culture",
+      "of": "0f66542f",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].theme"
+      ],
+      "t": "Intercambio con un colegio hermano · lengua española y cultura peruana"
+    },
+    {
+      "text": "Spring 2027",
+      "of": "a01a41e1",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].timing"
+      ],
+      "t": "Primavera de 2027"
+    },
+    {
+      "text": "Arequipa",
+      "of": "b064fb81",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].homestay"
+      ],
+      "t": "Arequipa"
+    },
+    {
+      "text": "Limoges, Charlotte's sister city · the Loire Valley + Normandy",
+      "of": "cadc2507",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].place"
+      ],
+      "t": "Limoges, ciudad hermana de Charlotte · el valle del Loira + Normandía"
+    },
+    {
+      "text": "8th grade · up to 15 students",
+      "of": "0dedf691",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].group",
+        "charlotte-country-day:trips.years[0].trips[5].group"
+      ],
+      "t": "8.º grado · hasta 15 estudiantes"
+    },
+    {
+      "text": "World War II history and the D-Day sites · preference to French students · a lottery if oversubscribed",
+      "of": "09651e0b",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].theme"
+      ],
+      "t": "Historia de la Segunda Guerra Mundial y los lugares del Día D · preferencia para estudiantes de francés · sorteo si hay más solicitudes que plazas"
+    },
+    {
+      "text": "Southampton — King Edward VI School",
+      "of": "30396498",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].place"
+      ],
+      "t": "Southampton — King Edward VI School"
+    },
+    {
+      "text": "8th grade · 8–10 students",
+      "of": "66a22dfd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].group"
+      ],
+      "t": "8.º grado · 8–10 estudiantes"
+    },
+    {
+      "text": "Sister-school exchange · a creative-arts project · selection by project proposal and interview",
+      "of": "68c8c10f",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].theme"
+      ],
+      "t": "Intercambio con un colegio hermano · un proyecto de artes creativas · selección mediante propuesta de proyecto y entrevista"
+    },
+    {
+      "text": "Southampton",
+      "of": "0007ed21",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].homestay",
+        "charlotte-country-day:milestones.events[3].title"
+      ],
+      "t": "Southampton"
+    },
+    {
+      "text": "Costa Rica",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].dest"
+      ],
+      "t": "Costa Rica"
+    },
+    {
+      "text": "Monteverde",
+      "of": "e05e633c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].place",
+        "charlotte-country-day:trips.years[0].trips[4].homestay"
+      ],
+      "t": "Monteverde"
+    },
+    {
+      "text": "8th-grade Spanish students · up to 10",
+      "of": "7f122bdd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].group"
+      ],
+      "t": "estudiantes de español de 8.º grado · hasta 10"
+    },
+    {
+      "text": "Spanish lessons each morning · culture and nature in the afternoons",
+      "of": "a757cbbd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].theme"
+      ],
+      "t": "Clases de español cada mañana · cultura y naturaleza por las tardes"
+    },
+    {
+      "text": "Italy",
+      "of": "3415f00c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].dest",
+        "charlotte-country-day:trips.years[2].trips[0].dest"
+      ],
+      "t": "Italia"
+    },
+    {
+      "text": "Rome + Sorrento — Pompeii and Herculaneum",
+      "of": "f5d6f91c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].place"
+      ],
+      "t": "Roma + Sorrento — Pompeya y Herculano"
+    },
+    {
+      "text": "Ancient Roman sites · preference to Latin students · a lottery if oversubscribed",
+      "of": "69e0b055",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].theme"
+      ],
+      "t": "Yacimientos de la antigua Roma · preferencia para estudiantes de latín · sorteo si hay más solicitudes que plazas"
+    },
+    {
+      "text": "Rwanda",
+      "of": "c4203e2a",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].dest"
+      ],
+      "t": "Ruanda"
+    },
+    {
+      "text": "Recovery and reconciliation after the 1994 Genocide against the Tutsi · environmental leadership · Francophone identity · priority to French students",
+      "of": "78e49f59",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].theme"
+      ],
+      "t": "Recuperación y reconciliación tras el Genocidio de 1994 contra los tutsis · liderazgo medioambiental · identidad francófona · prioridad para estudiantes de francés"
+    },
+    {
+      "text": "Spring break 2027",
+      "of": "ca8ed76c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].timing",
+        "charlotte-country-day:trips.years[0].trips[7].timing",
+        "charlotte-country-day:trips.years[0].trips[8].timing"
+      ],
+      "t": "Vacaciones de primavera de 2027"
+    },
+    {
+      "text": "Athens",
+      "of": "e3903dd0",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[7].place"
+      ],
+      "t": "Atenas"
+    },
+    {
+      "text": "Greek and Roman sites · migration in Europe since 1995 · Greece–Turkey relations · priority to Latin students",
+      "of": "2587e437",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[7].theme"
+      ],
+      "t": "Yacimientos griegos y romanos · la migración en Europa desde 1995 · las relaciones entre Grecia y Turquía · prioridad para estudiantes de latín"
+    },
+    {
+      "text": "China",
+      "of": "94da8330",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].dest",
+        "charlotte-country-day:milestones.events[8].title"
+      ],
+      "t": "China"
+    },
+    {
+      "text": "The Silk Road, Dunhuang to Xi'an + Shanghai",
+      "of": "f9b518cd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].place"
+      ],
+      "t": "La Ruta de la Seda, de Dunhuang a Xi'an + Shanghái"
+    },
+    {
+      "text": "The Gobi Desert and the Terracotta Warriors · time with students at Jinrui School in Shanghai · priority to Chinese students",
+      "of": "15cb9313",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].theme"
+      ],
+      "t": "El desierto de Gobi y los Guerreros de Terracota · tiempo con estudiantes de Jinrui School en Shanghái · prioridad para estudiantes de chino"
+    },
+    {
+      "text": "Argentina",
+      "of": "cc75630e",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].dest"
+      ],
+      "t": "Argentina"
+    },
+    {
+      "text": "Buenos Aires, Paraná + Iguazú Falls",
+      "of": "214aa2a5",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].place"
+      ],
+      "t": "Buenos Aires, Paraná + las cataratas del Iguazú"
+    },
+    {
+      "text": "Cultural exchange with Argentine students · a service-learning project in Paraná · priority to Spanish students",
+      "of": "2f4d8f24",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].theme"
+      ],
+      "t": "Intercambio cultural con estudiantes argentinos · un proyecto de aprendizaje-servicio en Paraná · prioridad para estudiantes de español"
+    },
+    {
+      "text": "Summer 2027",
+      "of": "8ad4de19",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].timing"
+      ],
+      "t": "Verano de 2027"
+    },
+    {
+      "text": "as scheduled in March 2024",
+      "of": "df5c4c86",
+      "at": [
+        "charlotte-country-day:trips.years[1].note"
+      ],
+      "t": "según lo programado en marzo de 2024"
+    },
+    {
+      "text": "Oman & United Arab Emirates",
+      "of": "e8311df7",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].dest"
+      ],
+      "t": "Omán y Emiratos Árabes Unidos"
+    },
+    {
+      "text": "Muscat, Sur, the Sharqiya Sands, Abu Dhabi + Dubai",
+      "of": "3576ae90",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].place"
+      ],
+      "t": "Mascate, Sur, las arenas de Sharqiya, Abu Dabi + Dubái"
+    },
+    {
+      "text": "grades 9–12",
+      "of": "3554df3c",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].group"
+      ],
+      "t": "grados 9–12"
+    },
+    {
+      "text": "Tradition and modernization in the Arab world",
+      "of": "15118a0f",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].theme"
+      ],
+      "t": "Tradición y modernización en el mundo árabe"
+    },
+    {
+      "text": "Spring 2024",
+      "of": "9d1a3d28",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].timing",
+        "charlotte-country-day:trips.years[1].trips[1].timing"
+      ],
+      "t": "Primavera de 2024"
+    },
+    {
+      "text": "London — with the a cappella ensemble Voces8, performing in Cadogan Hall",
+      "of": "c996d8be",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].place"
+      ],
+      "t": "Londres — con el conjunto a cappella Voces8, actuando en el Cadogan Hall"
+    },
+    {
+      "text": "choir students, grades 9–11",
+      "of": "abb830b2",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].group"
+      ],
+      "t": "estudiantes de coro, grados 9–11"
+    },
+    {
+      "text": "Choir · rehearsals and master classes",
+      "of": "e965a618",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].theme"
+      ],
+      "t": "Coro · ensayos y clases magistrales"
+    },
+    {
+      "text": "Kyoto, Tokyo + the Nakasendo Way",
+      "of": "2a596c5e",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[2].place"
+      ],
+      "t": "Kioto, Tokio + el camino de Nakasendo"
+    },
+    {
+      "text": "Cultural experience",
+      "of": "4680c2e5",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[2].theme"
+      ],
+      "t": "Experiencia cultural"
+    },
+    {
+      "text": "New Zealand",
+      "of": "23dc5780",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[3].dest"
+      ],
+      "t": "Nueva Zelanda"
+    },
+    {
+      "text": "Māori culture and the environment",
+      "of": "8a5c0540",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[3].theme"
+      ],
+      "t": "La cultura maorí y el medio ambiente"
+    },
+    {
+      "text": "Seville, with day trips to Córdoba and Granada",
+      "of": "6089f775",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].place"
+      ],
+      "t": "Sevilla, con excursiones de un día a Córdoba y Granada"
+    },
+    {
+      "text": "Honors Spanish II or higher, grades 9–11",
+      "of": "560a74bc",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].group"
+      ],
+      "t": "Honors Spanish II o superior, grados 9–11"
+    },
+    {
+      "text": "Language immersion",
+      "of": "21dd6828",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].theme"
+      ],
+      "t": "Inmersión lingüística"
+    },
+    {
+      "text": "Sweden & Denmark",
+      "of": "edf07e99",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].dest"
+      ],
+      "t": "Suecia y Dinamarca"
+    },
+    {
+      "text": "Copenhagen and the Øresund Bridge",
+      "of": "f0717355",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].place"
+      ],
+      "t": "Copenhague y el puente de Øresund"
+    },
+    {
+      "text": "Design and sustainability",
+      "of": "2588c5a7",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].theme"
+      ],
+      "t": "Diseño y sostenibilidad"
+    },
+    {
+      "text": "summer 2023, the first summer trips since 2019",
+      "of": "f686c66b",
+      "at": [
+        "charlotte-country-day:trips.years[2].note"
+      ],
+      "t": "verano de 2023, los primeros viajes de verano desde 2019"
+    },
+    {
+      "text": "Florence + Cortona",
+      "of": "f01b8768",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[0].place"
+      ],
+      "t": "Florencia + Cortona"
+    },
+    {
+      "text": "Arts · offered every two years for many years",
+      "of": "33ede95a",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[0].theme"
+      ],
+      "t": "Artes · se ofrece cada dos años desde hace muchos años"
+    },
+    {
+      "text": "Sustainability and environmental science",
+      "of": "a10e40f7",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[1].theme"
+      ],
+      "t": "Sostenibilidad y ciencias ambientales"
+    },
+    {
+      "text": "Spain & Morocco",
+      "of": "b08766f6",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[2].dest"
+      ],
+      "t": "España y Marruecos"
+    },
+    {
+      "text": "Spanish immersion",
+      "of": "5f58c668",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[2].theme"
+      ],
+      "t": "Inmersión en español"
+    },
+    {
+      "text": "Poland, Germany & France",
+      "of": "9b261f3b",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].dest"
+      ],
+      "t": "Polonia, Alemania y Francia"
+    },
+    {
+      "text": "Wrocław, Krefeld + Limoges — Charlotte's sister cities",
+      "of": "1ad3d331",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].place"
+      ],
+      "t": "Breslavia, Krefeld + Limoges — ciudades hermanas de Charlotte"
+    },
+    {
+      "text": "Charlotte's sister cities",
+      "of": "1a910f6a",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].theme",
+        "charlotte-country-day:network.cells[1].name"
+      ],
+      "t": "Ciudades hermanas de Charlotte"
+    },
+    {
+      "text": "Country Day Middle School students on the Southampton sister-school exchange, in London",
+      "of": "9fcffe93",
+      "at": [
+        "charlotte-country-day:trips.photo.alt"
+      ],
+      "t": "Estudiantes de Middle School de Country Day en el intercambio con el colegio hermano de Southampton, en Londres"
+    },
+    {
+      "text": "Southampton exchange",
+      "of": "0567af9a",
+      "at": [
+        "charlotte-country-day:trips.photo.caption.title"
+      ],
+      "t": "Intercambio con Southampton"
+    },
+    {
+      "text": "The 8th-grade exchange with King Edward VI School includes visits to London.",
+      "of": "1d8e2cbc",
+      "at": [
+        "charlotte-country-day:trips.photo.caption.text"
+      ],
+      "t": "El intercambio de 8.º grado con King Edward VI School incluye visitas a Londres."
+    },
+    {
+      "text": "Photo: Charlotte Country Day School",
+      "of": "c3e53b21",
+      "at": [
+        "charlotte-country-day:trips.photo.credit",
+        "charlotte-country-day:exchanges.photo.credit"
+      ],
+      "t": "Foto: Charlotte Country Day School"
+    },
+    {
+      "text": "Cuba, 2015.",
+      "of": "e5f1fa7e",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[0].lead"
+      ],
+      "t": "Cuba, 2015."
+    },
+    {
+      "text": "The school calls itself the state's first school to send students to Cuba.",
+      "of": "c99d1a0b",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[0].text"
+      ],
+      "t": "El colegio se presenta como el primero del estado en enviar estudiantes a Cuba."
+    },
+    {
+      "text": "Middle School, since 1993.",
+      "of": "15112d86",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[1].lead"
+      ],
+      "t": "Middle School, desde 1993."
+    },
+    {
+      "text": "More than 800 students in grades 6–8 had taken part in a global travel experience by 2018, when 65 Middle School students were set to travel to five countries in one year.",
+      "of": "9ced1236",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[1].text"
+      ],
+      "t": "Más de 800 estudiantes de los grados 6–8 habían participado en una experiencia de viaje global para 2018, cuando 65 estudiantes de Middle School tenían previsto viajar a cinco países en un solo año."
+    },
+    {
+      "text": "Arequipa, 2019.",
+      "of": "72157015",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[2].lead"
+      ],
+      "t": "Arequipa, 2019."
+    },
+    {
+      "text": "12 Middle School students traveled to Arequipa, Peru, in fall 2019, including a visit to the mayor.",
+      "of": "59a98f68",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[2].text"
+      ],
+      "t": "12 estudiantes de Middle School viajaron a Arequipa, Perú, en el otoño de 2019, con una visita al alcalde incluida."
+    },
+    {
+      "text": "A pause, 2020–22.",
+      "of": "feee8d37",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[3].lead"
+      ],
+      "t": "Una pausa, 2020–22."
+    },
+    {
+      "text": "Global experiences paused during the pandemic; summer 2023 brought the first summer trips since 2019.",
+      "of": "324ca0b2",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[3].text"
+      ],
+      "t": "Las experiencias globales se interrumpieron durante la pandemia; el verano de 2023 trajo los primeros viajes de verano desde 2019."
+    },
+    {
+      "text": "Three sister schools — in Québec City, Southampton and Arequipa — with homestays both ways, plus visiting students on campus and families who host.",
+      "of": "44738944",
+      "at": [
+        "charlotte-country-day:exchanges.headline"
+      ],
+      "t": "Tres colegios hermanos — en la ciudad de Quebec, Southampton y Arequipa — con estancias con familias anfitrionas en ambos sentidos, además de estudiantes visitantes en el campus y familias que los acogen."
+    },
+    {
+      "text": "Since 1992, Country Day has built sister-school partnerships in numerous countries; its current partners are in Canada, Peru and the United Kingdom.",
+      "of": "d7b615f1",
+      "at": [
+        "charlotte-country-day:exchanges.intro.strong"
+      ],
+      "t": "Desde 1992, Country Day ha creado alianzas con colegios hermanos en numerosos países; sus socios actuales están en Canadá, Perú y el Reino Unido."
+    },
+    {
+      "text": "The two-week exchanges include homestays, sightseeing and some classes, and sister-school students visit Charlotte during the school year. The Southampton exchange has run since 1991 and the Québec exchange since 2017.",
+      "of": "5df7fabc",
+      "at": [
+        "charlotte-country-day:exchanges.intro.muted"
+      ],
+      "t": "Los intercambios de dos semanas incluyen estancias con familias anfitrionas, visitas turísticas y algunas clases, y los estudiantes de los colegios hermanos visitan Charlotte durante el curso escolar. El intercambio con Southampton funciona desde 1991 y el de Quebec desde 2017."
+    },
+    {
+      "text": "6th graders, for a winter homestay",
+      "of": "7325434e",
+      "at": [
+        "charlotte-country-day:exchanges.partners[0].out"
+      ],
+      "t": "estudiantes de 6.º grado, para una estancia de invierno con una familia anfitriona"
+    },
+    {
+      "text": "Québec students visit in the spring",
+      "of": "f1a449d6",
+      "at": [
+        "charlotte-country-day:exchanges.partners[0].in"
+      ],
+      "t": "los estudiantes de Quebec vienen de visita en primavera"
+    },
+    {
+      "text": "8th graders, with a creative-arts project",
+      "of": "9dbe7dff",
+      "at": [
+        "charlotte-country-day:exchanges.partners[1].out"
+      ],
+      "t": "estudiantes de 8.º grado, con un proyecto de artes creativas"
+    },
+    {
+      "text": "KES students visit in the fall",
+      "of": "1c112da8",
+      "at": [
+        "charlotte-country-day:exchanges.partners[1].in"
+      ],
+      "t": "los estudiantes de KES vienen de visita en otoño"
+    },
+    {
+      "text": "7th-grade Spanish students, in the spring",
+      "of": "c5327b91",
+      "at": [
+        "charlotte-country-day:exchanges.partners[2].out"
+      ],
+      "t": "estudiantes de español de 7.º grado, en primavera"
+    },
+    {
+      "text": "Prescott students visit in January",
+      "of": "2e0b0cbd",
+      "at": [
+        "charlotte-country-day:exchanges.partners[2].in"
+      ],
+      "t": "los estudiantes de Prescott vienen de visita en enero"
+    },
+    {
+      "text": "Two Country Day students on the Québec sister-school exchange, at a winter carnival",
+      "of": "8682829b",
+      "at": [
+        "charlotte-country-day:exchanges.photo.alt"
+      ],
+      "t": "Dos estudiantes de Country Day en el intercambio con el colegio hermano de Quebec, en un carnaval de invierno"
+    },
+    {
+      "text": "Québec exchange",
+      "of": "acdc3db5",
+      "at": [
+        "charlotte-country-day:exchanges.photo.caption.title"
+      ],
+      "t": "Intercambio con Quebec"
+    },
+    {
+      "text": "Country Day students in Québec.",
+      "of": "23047881",
+      "at": [
+        "charlotte-country-day:exchanges.photo.caption.text"
+      ],
+      "t": "Estudiantes de Country Day en Quebec."
+    },
+    {
+      "text": "Québec City, Canada",
+      "of": "6255f909",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[0].place"
+      ],
+      "t": "Ciudad de Quebec, Canadá"
+    },
+    {
+      "text": "6th graders stay with families from Externat Saint-Coeur de Marie, a JK–6 school whose language of instruction is French.",
+      "of": "29bbc5c4",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[0].text"
+      ],
+      "t": "Los estudiantes de 6.º grado se alojan con familias de Externat Saint-Coeur de Marie, un colegio de JK a 6 cuya lengua de enseñanza es el francés."
+    },
+    {
+      "text": "Southampton, England",
+      "of": "eb175cba",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[1].place"
+      ],
+      "t": "Southampton, Inglaterra"
+    },
+    {
+      "text": "8th graders stay with families from King Edward VI School and work on a creative-arts project tied to the region.",
+      "of": "70db2af0",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[1].text"
+      ],
+      "t": "Los estudiantes de 8.º grado se alojan con familias de King Edward VI School y trabajan en un proyecto de artes creativas vinculado a la región."
+    },
+    {
+      "text": "Arequipa, Peru",
+      "of": "6e0dbf13",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[2].place"
+      ],
+      "t": "Arequipa, Perú"
+    },
+    {
+      "text": "7th-grade Spanish students stay with families from Prescott School, a K–12 school in a city that is Charlotte's sister city.",
+      "of": "935f021a",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[2].text"
+      ],
+      "t": "Los estudiantes de español de 7.º grado se alojan con familias de Prescott School, un colegio de K a 12 en una ciudad hermana de Charlotte."
+    },
+    {
+      "text": "Monteverde, Costa Rica",
+      "of": "bd78fd15",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[3].place"
+      ],
+      "t": "Monteverde, Costa Rica"
+    },
+    {
+      "text": "On the 8th-grade Spanish trip, students are hosted by local families and take language lessons each morning.",
+      "of": "aef186c5",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[3].text"
+      ],
+      "t": "En el viaje de español de 8.º grado, los estudiantes se alojan con familias locales y reciben clases de idioma cada mañana."
+    },
+    {
+      "text": "The summer 2024 Upper School Spain trip, for students in Honors Spanish II or higher, was planned around homestays in Seville.",
+      "of": "02e0bc40",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[4].text"
+      ],
+      "t": "El viaje de Upper School a España del verano de 2024, para estudiantes de Honors Spanish II o superior, se planificó en torno a estancias con familias anfitrionas en Sevilla."
+    },
+    {
+      "text": "Students from Jinrui School in Shanghai spent a week at the Middle School in early 2025.",
+      "of": "456ca6b7",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[0]"
+      ],
+      "t": "Estudiantes de Jinrui School de Shanghái pasaron una semana en la Middle School a principios de 2025."
+    },
+    {
+      "text": "The school counts 11 exchange program partnerships, including the Rotary Club, AFS-YES and the U.S. State Department's Kennedy-Lugar YES program.",
+      "of": "c076bba1",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[1]"
+      ],
+      "t": "El colegio contabiliza 11 programas de intercambio asociados, entre ellos el Rotary Club, AFS-YES y el programa Kennedy-Lugar YES del Departamento de Estado de EE. UU."
+    },
+    {
+      "text": "Families can host a visiting student through the International Parents Group, for a few days, weeks or a semester.",
+      "of": "dd505512",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[2]"
+      ],
+      "t": "Las familias pueden acoger a un estudiante visitante a través del International Parents Group, durante unos días, unas semanas o un semestre."
+    },
+    {
+      "text": "Upper School applications for the 2027 trips run September 1–25, 2026, with registration in October; Middle School applications for 2026–27 were due in April and August 2026.",
+      "of": "495adb8c",
+      "at": [
+        "charlotte-country-day:signup.headline"
+      ],
+      "t": "Las solicitudes de Upper School para los viajes de 2027 se presentan del 1 al 25 de septiembre de 2026, con la inscripción en octubre; las solicitudes de Middle School para 2026–27 vencían en abril y agosto de 2026."
+    },
+    {
+      "text": "Trip financial aid requires a Parents' Financial Statement on file with Admissions, plus the Global Programs Financial Aid Application by the trip's deadline.",
+      "of": "08cfad28",
+      "at": [
+        "charlotte-country-day:signup.intro.strong"
+      ],
+      "t": "La ayuda financiera para viajes requiere tener un Parents' Financial Statement en el expediente de Admissions, además de la Global Programs Financial Aid Application antes de la fecha límite del viaje."
+    },
+    {
+      "text": "Upper School trips give priority to students of the matching language and are open to all. In the Middle School, the Southampton exchange selects by project proposal and interview, and France and Italy use a lottery if oversubscribed.",
+      "of": "e516b509",
+      "at": [
+        "charlotte-country-day:signup.intro.muted"
+      ],
+      "t": "Los viajes de Upper School dan prioridad a los estudiantes del idioma correspondiente y están abiertos a todos. En Middle School, el intercambio con Southampton selecciona mediante propuesta de proyecto y entrevista, y los viajes a Francia e Italia recurren a un sorteo si hay más solicitudes que plazas."
+    },
+    {
+      "text": "Upper School · 2027 trips",
+      "of": "f17b4735",
+      "at": [
+        "charlotte-country-day:signup.groups[0].title"
+      ],
+      "t": "Upper School · viajes de 2027"
+    },
+    {
+      "text": "2026 cycle",
+      "of": "7a999acd",
+      "at": [
+        "charlotte-country-day:signup.groups[0].note"
+      ],
+      "t": "Ciclo de 2026"
+    },
+    {
+      "text": "August 24, 2026",
+      "of": "c80a32e4",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].when"
+      ],
+      "t": "24 de agosto de 2026"
+    },
+    {
+      "text": "Student Assembly",
+      "of": "3473c114",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].name"
+      ],
+      "t": "Asamblea de estudiantes"
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].audience",
+        "charlotte-country-day:signup.groups[0].events[1].audience",
+        "charlotte-country-day:signup.groups[0].events[2].audience",
+        "charlotte-country-day:signup.groups[0].events[3].audience"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "September 1, 2026",
+      "of": "52ff5361",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[1].when"
+      ],
+      "t": "1 de septiembre de 2026"
+    },
+    {
+      "text": "Parent & Student Info Meeting",
+      "of": "78e62389",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[1].name"
+      ],
+      "t": "Reunión informativa para familias y estudiantes"
+    },
+    {
+      "text": "September 1–25, 2026",
+      "of": "a514ebdb",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[2].when"
+      ],
+      "t": "1–25 de septiembre de 2026"
+    },
+    {
+      "text": "Trip applications and financial aid applications due",
+      "of": "db9ac912",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[2].name"
+      ],
+      "t": "Vencen las solicitudes de viaje y las solicitudes de ayuda financiera"
+    },
+    {
+      "text": "October 2–16, 2026",
+      "of": "d761a21f",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[3].when"
+      ],
+      "t": "2–16 de octubre de 2026"
+    },
+    {
+      "text": "Registration",
+      "of": "83988d98",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[3].name"
+      ],
+      "t": "Inscripción"
+    },
+    {
+      "text": "Middle School · 2026–27 experiences",
+      "of": "f4b89cec",
+      "at": [
+        "charlotte-country-day:signup.groups[1].title"
+      ],
+      "t": "Middle School · experiencias de 2026–27"
+    },
+    {
+      "text": "April 20, 2026",
+      "of": "e71621ad",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].when"
+      ],
+      "t": "20 de abril de 2026"
+    },
+    {
+      "text": "Applications and Global Programs Financial Aid Application due",
+      "of": "55c30b3a",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].name"
+      ],
+      "t": "Vencen las solicitudes y la Global Programs Financial Aid Application"
+    },
+    {
+      "text": "Québec, France, Southampton, Costa Rica and Italy",
+      "of": "3ecc1680",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].detail"
+      ],
+      "t": "Quebec, Francia, Southampton, Costa Rica e Italia"
+    },
+    {
+      "text": "August 30, 2026",
+      "of": "5268410d",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].when"
+      ],
+      "t": "30 de agosto de 2026"
+    },
+    {
+      "text": "Peru application and financial aid application due",
+      "of": "acf9179d",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].name"
+      ],
+      "t": "Vencen la solicitud para Perú y la solicitud de ayuda financiera"
+    },
+    {
+      "text": "Middle School · 7th grade",
+      "of": "f2d14667",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].audience"
+      ],
+      "t": "Middle School · 7.º grado"
+    },
+    {
+      "text": "Global learning in every division, JK to 12 — with travel beginning in 6th grade and the IB Diploma in Upper School.",
+      "of": "1c604a4f",
+      "at": [
+        "charlotte-country-day:start.headline"
+      ],
+      "t": "Aprendizaje global en todas las divisiones, de JK a 12 — con viajes a partir de 6.º grado y el IB Diploma en Upper School."
+    },
+    {
+      "text": "At Country Day, global mindedness is about far more than travel: students in all three divisions discuss the world beyond our borders.",
+      "of": "505f3556",
+      "at": [
+        "charlotte-country-day:start.intro.strong"
+      ],
+      "t": "En Country Day, la mentalidad global va mucho más allá de viajar: los estudiantes de las tres divisiones conversan sobre el mundo más allá de nuestras fronteras."
+    },
+    {
+      "text": "The Office of International Studies organizes the program around four pillars.",
+      "of": "fdca5fd3",
+      "at": [
+        "charlotte-country-day:start.intro.muted"
+      ],
+      "t": "La Office of International Studies organiza el programa en torno a cuatro pilares."
+    },
+    {
+      "text": "Academic, cultural, environmental science and language immersion trips, beginning in 6th grade",
+      "of": "1ac6ffd7",
+      "at": [
+        "charlotte-country-day:start.framework[0].text"
+      ],
+      "t": "Viajes académicos, culturales, de ciencias ambientales y de inmersión lingüística, a partir de 6.º grado"
+    },
+    {
+      "text": "Partnerships since 1992, with two-week exchanges that include homestays, sightseeing and some classes",
+      "of": "ce936fbb",
+      "at": [
+        "charlotte-country-day:start.framework[1].text"
+      ],
+      "t": "Alianzas desde 1992, con intercambios de dos semanas que incluyen estancias con familias anfitrionas, visitas turísticas y algunas clases"
+    },
+    {
+      "text": "Global connections built into courses, from Middle School science to Upper School electives",
+      "of": "7cc787d3",
+      "at": [
+        "charlotte-country-day:start.framework[2].text"
+      ],
+      "t": "Conexiones globales integradas en las asignaturas, desde las ciencias de Middle School hasta las optativas de Upper School"
+    },
+    {
+      "text": "Grants, sabbaticals and international research grants send teachers to learn firsthand abroad",
+      "of": "eafe79de",
+      "at": [
+        "charlotte-country-day:start.framework[3].text"
+      ],
+      "t": "Becas, años sabáticos y becas de investigación internacional llevan a los profesores a aprender de primera mano en el extranjero"
+    },
+    {
+      "text": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-country-day:start.divisions[0].grades"
+      ],
+      "t": "JK–4"
+    },
+    {
+      "text": "French and Spanish begin in junior kindergarten to 1st grade",
+      "of": "e41b23f3",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[0]"
+      ],
+      "t": "El francés y el español empiezan entre junior kindergarten y 1.º grado"
+    },
+    {
+      "text": "A 3rd-grade global studies unit",
+      "of": "a594ecf5",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[1]"
+      ],
+      "t": "Una unidad de estudios globales en 3.º grado"
+    },
+    {
+      "text": "4th-grade leaders open the school's Lunar New Year celebration",
+      "of": "42a86f07",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[2]"
+      ],
+      "t": "Líderes de 4.º grado inauguran la celebración del Año Nuevo Lunar del colegio"
+    },
+    {
+      "text": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-country-day:start.divisions[1].grades"
+      ],
+      "t": "5–8"
+    },
+    {
+      "text": "**Travel begins in 6th grade:** six experiences in 2026–27",
+      "of": "fd9a9233",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[0]"
+      ],
+      "t": "**Los viajes empiezan en 6.º grado:** seis experiencias en 2026–27"
+    },
+    {
+      "text": "French, Spanish and Latin",
+      "of": "a67de764",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[1]"
+      ],
+      "t": "Francés, español y latín"
+    },
+    {
+      "text": "Foreign soil samples in environmental science",
+      "of": "a04053a6",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[2]"
+      ],
+      "t": "Muestras de suelo extranjero en ciencias ambientales"
+    },
+    {
+      "text": "Model United Nations and the Global Action Team",
+      "of": "013bd925",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[3]"
+      ],
+      "t": "Model United Nations y el Global Action Team"
+    },
+    {
+      "text": "Faculty-led trips over spring break and in the summer, and about two weeks at partner schools, usually in June",
+      "of": "94b368b8",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[0]"
+      ],
+      "t": "Viajes dirigidos por profesores durante las vacaciones de primavera y en verano, y unas dos semanas en colegios asociados, normalmente en junio"
+    },
+    {
+      "text": "AP Comparative Government, and electives such as World Religions and International Relations",
+      "of": "60d6e41c",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[1]"
+      ],
+      "t": "AP Comparative Government y optativas como World Religions e International Relations"
+    },
+    {
+      "text": "The IB Diploma — in 1992, Country Day became the first private school in North Carolina to offer it",
+      "of": "986efa65",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[2]"
+      ],
+      "t": "El IB Diploma — en 1992, Country Day se convirtió en el primer colegio privado de Carolina del Norte en ofrecerlo"
+    },
+    {
+      "text": "A semester or year away through School Year Abroad, the Alzar School or Maine Coast Semester",
+      "of": "2cdfc6a7",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[3]"
+      ],
+      "t": "Un semestre o un año fuera a través de School Year Abroad, la Alzar School o Maine Coast Semester"
+    },
+    {
+      "text": "No global-schools network membership is published; instead, Model UN, Academic WorldQuest and Charlotte's own global institutions — \"Global starts Local.\"",
+      "of": "d4cbf80b",
+      "at": [
+        "charlotte-country-day:network.headline"
+      ],
+      "t": "No consta su pertenencia a ninguna red de colegios globales; en su lugar, Model UN, Academic WorldQuest y las propias instituciones globales de Charlotte — \"Global starts Local.\""
+    },
+    {
+      "text": "The program leans on competitions and on Charlotte's international community, under the Office of International Studies' motto, \"Global starts Local.\"",
+      "of": "4920da95",
+      "at": [
+        "charlotte-country-day:network.intro.strong"
+      ],
+      "t": "El programa se apoya en las competiciones y en la comunidad internacional de Charlotte, bajo el lema de la Office of International Studies: \"Global starts Local.\""
+    },
+    {
+      "text": "The school counts 23 wins across Academic WorldQuest, Euro Challenge and Model UN conference competitions.",
+      "of": "814c363d",
+      "at": [
+        "charlotte-country-day:network.intro.muted"
+      ],
+      "t": "El colegio contabiliza 23 victorias en competiciones de Academic WorldQuest, Euro Challenge y conferencias de Model UN."
+    },
+    {
+      "text": "Model UN conferences",
+      "of": "13728fae",
+      "at": [
+        "charlotte-country-day:network.ledgerTitle"
+      ],
+      "t": "Conferencias de Model UN"
+    },
+    {
+      "text": "Hosted CHARMUN in September · VAMUN at the University of Virginia, 10 delegates, a Best Delegate award and a verbal commendation · MUNCH at UNC-Chapel Hill, 20 students",
+      "of": "210d9dcc",
+      "at": [
+        "charlotte-country-day:network.conferences[0].text"
+      ],
+      "t": "Organizó CHARMUN en septiembre · VAMUN en la University of Virginia, 10 delegados, un premio Best Delegate y una mención verbal · MUNCH en UNC-Chapel Hill, 20 estudiantes"
+    },
+    {
+      "text": "VAMUN at the University of Virginia, 12 Upper School delegates and verbal commendations for two delegations · MUNCH at UNC-Chapel Hill, 17 students, six awards",
+      "of": "2be7c7bd",
+      "at": [
+        "charlotte-country-day:network.conferences[1].text"
+      ],
+      "t": "VAMUN en la University of Virginia, 12 delegados de Upper School y menciones verbales para dos delegaciones · MUNCH en UNC-Chapel Hill, 17 estudiantes, seis premios"
+    },
+    {
+      "text": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-country-day:network.cells[0].name"
+      ],
+      "t": "Academic WorldQuest"
+    },
+    {
+      "text": "Country Day students finish in first place at the Academic WorldQuest competition nearly every year, per the school.",
+      "of": "1a1f19cb",
+      "at": [
+        "charlotte-country-day:network.cells[0].text"
+      ],
+      "t": "Los estudiantes de Country Day terminan en primer lugar en la competición Academic WorldQuest casi todos los años, según el colegio."
+    },
+    {
+      "text": "Trips to Arequipa, Limoges, Krefeld and Wrocław, and a forum on the Charlotte–Arequipa sister-city partnership.",
+      "of": "ce900999",
+      "at": [
+        "charlotte-country-day:network.cells[1].text"
+      ],
+      "t": "Viajes a Arequipa, Limoges, Krefeld y Breslavia, y un foro sobre el hermanamiento entre Charlotte y Arequipa."
+    },
+    {
+      "text": "Community partners",
+      "of": "bb11ee85",
+      "at": [
+        "charlotte-country-day:network.cells[2].name"
+      ],
+      "t": "Socios en la comunidad"
+    },
+    {
+      "text": "Festivals and events with the World Affairs Council of Charlotte and International House, and ties to members of the North Carolina diplomatic corps.",
+      "of": "d0597de1",
+      "at": [
+        "charlotte-country-day:network.cells[2].text"
+      ],
+      "t": "Festivales y eventos con el World Affairs Council of Charlotte y la International House, y vínculos con miembros del cuerpo diplomático de Carolina del Norte."
+    },
+    {
+      "text": "Grants, sabbaticals and international research grants send teachers abroad. The J. R. Williams Fellowship funds international travel and education for a faculty member after five years of teaching at Country Day. In 2007, the school set up NC's first full teacher exchange with China.",
+      "of": "8c21f672",
+      "at": [
+        "charlotte-country-day:network.rows[0].text"
+      ],
+      "t": "Becas, años sabáticos y becas de investigación internacional llevan a los profesores al extranjero. La J. R. Williams Fellowship financia viajes y formación internacionales para un profesor tras cinco años de docencia en Country Day. En 2007, el colegio puso en marcha el primer intercambio completo de profesores con China en Carolina del Norte."
+    },
+    {
+      "text": "Semester programs",
+      "of": "6f461520",
+      "at": [
+        "charlotte-country-day:network.rows[1].label"
+      ],
+      "t": "Programas semestrales"
+    },
+    {
+      "text": "Country Day is one of fourteen member schools of Maine Coast Semester at Chewonki, and awards credit for approved programs without affecting a student's GPA.",
+      "of": "d4224b67",
+      "at": [
+        "charlotte-country-day:network.rows[1].text"
+      ],
+      "t": "Country Day es uno de los catorce colegios miembros de Maine Coast Semester at Chewonki, y otorga créditos por los programas aprobados sin que afecten al GPA del estudiante."
+    },
+    {
+      "text": "Families from 57 nations, teachers who speak 20 languages, and a full-time ESL program — the first among the area's independent schools.",
+      "of": "f5dd8498",
+      "at": [
+        "charlotte-country-day:community.headline"
+      ],
+      "t": "Familias de 57 países, profesores que hablan 20 idiomas y un programa de ESL a tiempo completo — el primero entre los colegios independientes de la zona."
+    },
+    {
+      "text": "Country Day is home to families and students who represent a wide range of cultures and nationalities,",
+      "of": "24ae89ba",
+      "at": [
+        "charlotte-country-day:community.intro.strong"
+      ],
+      "t": "Country Day acoge a familias y estudiantes que representan una amplia variedad de culturas y nacionalidades,"
+    },
+    {
+      "text": "and its International Parents Group supports global families who are new to the school, and often new to the country.",
+      "of": "c9ec54a6",
+      "at": [
+        "charlotte-country-day:community.intro.muted"
+      ],
+      "t": "y su International Parents Group apoya a las familias internacionales que son nuevas en el colegio y, a menudo, también en el país."
+    },
+    {
+      "text": "parent nationalities",
+      "of": "df766b03",
+      "at": [
+        "charlotte-country-day:community.stats[0].label"
+      ],
+      "t": "nacionalidades de los padres"
+    },
+    {
+      "text": "currently represented at Country Day",
+      "of": "aea164f1",
+      "at": [
+        "charlotte-country-day:community.stats[0].note"
+      ],
+      "t": "representadas actualmente en Country Day"
+    },
+    {
+      "text": "languages spoken by faculty",
+      "of": "0ee10997",
+      "at": [
+        "charlotte-country-day:community.stats[1].label"
+      ],
+      "t": "idiomas que hablan los profesores"
+    },
+    {
+      "text": "100+ teachers speak a second language",
+      "of": "7061206f",
+      "at": [
+        "charlotte-country-day:community.stats[1].note"
+      ],
+      "t": "100+ profesores hablan un segundo idioma"
+    },
+    {
+      "text": "English as a Second Language",
+      "of": "8c465920",
+      "at": [
+        "charlotte-country-day:community.stats[2].label",
+        "charlotte-country-day:community.cells[0].name",
+        "charlotte-country-day:milestones.events[1].title"
+      ],
+      "t": "Inglés como segunda lengua (ESL)"
+    },
+    {
+      "text": "the first area independent school to offer it",
+      "of": "6d483d63",
+      "at": [
+        "charlotte-country-day:community.stats[2].note"
+      ],
+      "t": "el primer colegio independiente de la zona en ofrecerlo"
+    },
+    {
+      "text": "The first and only independent school in NC with a full-time ESL program, per the school. It drew 75 international students in its first two years.",
+      "of": "86e7f703",
+      "at": [
+        "charlotte-country-day:community.cells[0].text"
+      ],
+      "t": "El primer y único colegio independiente de Carolina del Norte con un programa de ESL a tiempo completo, según el colegio. Atrajo a 75 estudiantes internacionales en sus dos primeros años."
+    },
+    {
+      "text": "International Parents Group",
+      "of": "4dd2a51d",
+      "at": [
+        "charlotte-country-day:community.cells[1].name"
+      ],
+      "t": "International Parents Group"
+    },
+    {
+      "text": "Welcomes new international families; runs the International Food Hall at Big Saturday, with dishes from more than 20 countries, and a fall dinner of around 80 members.",
+      "of": "e0614085",
+      "at": [
+        "charlotte-country-day:community.cells[1].text"
+      ],
+      "t": "Da la bienvenida a las nuevas familias internacionales; organiza el International Food Hall en Big Saturday, con platos de más de 20 países, y una cena de otoño de unos 80 miembros."
+    },
+    {
+      "text": "Visiting diplomats",
+      "of": "6637feeb",
+      "at": [
+        "charlotte-country-day:community.cells[2].name"
+      ],
+      "t": "Diplomáticos de visita"
+    },
+    {
+      "text": "Students have lunched with the ambassadors of Myanmar, Finland, Jamaica, the Czech Republic, Germany and Cape Verde.",
+      "of": "1466fd00",
+      "at": [
+        "charlotte-country-day:community.cells[2].text"
+      ],
+      "t": "Los estudiantes han almorzado con los embajadores de Myanmar, Finlandia, Jamaica, la República Checa, Alemania y Cabo Verde."
+    },
+    {
+      "text": "Cultural celebrations",
+      "of": "249dea28",
+      "at": [
+        "charlotte-country-day:community.cells[3].name"
+      ],
+      "t": "Celebraciones culturales"
+    },
+    {
+      "text": "Lunar New Year with over 1,000 handmade dumplings, and Taste of Cultures, a series begun in late 2024 that reached its 11th event, Lebanon, in spring 2026.",
+      "of": "bfb7fdb2",
+      "at": [
+        "charlotte-country-day:community.cells[3].text"
+      ],
+      "t": "El Año Nuevo Lunar con más de 1,000 dumplings hechos a mano, y Taste of Cultures, una serie iniciada a finales de 2024 que llegó a su 11.º evento, Líbano, en la primavera de 2026."
+    },
+    {
+      "text": "Global clubs",
+      "of": "6986c71f",
+      "at": [
+        "charlotte-country-day:community.cells[4].name"
+      ],
+      "t": "Clubes globales"
+    },
+    {
+      "text": "Model UN and the Global Action Team in Middle School; Model UN, Interact Club, the International Studies Board, World Quest and Euro Challenge in Upper School.",
+      "of": "111e88c2",
+      "at": [
+        "charlotte-country-day:community.cells[4].text"
+      ],
+      "t": "Model UN y el Global Action Team en Middle School; Model UN, Interact Club, el International Studies Board, World Quest y Euro Challenge en Upper School."
+    },
+    {
+      "text": "Nearly fifty years of global firsts, from a 1977 travel-aid fund to a 2027 program of ten trips and exchanges.",
+      "of": "ba0034b8",
+      "at": [
+        "charlotte-country-day:milestones.headline"
+      ],
+      "t": "Casi cincuenta años de logros pioneros en lo global, desde un fondo de ayuda para viajes de 1977 hasta un programa de diez viajes e intercambios en 2027."
+    },
+    {
+      "text": "Country Day dates its global program to a 1977 endowment and its first International Studies program to 1988,",
+      "of": "1a11d669",
+      "at": [
+        "charlotte-country-day:milestones.intro.strong"
+      ],
+      "t": "Country Day remonta su programa global a un fondo dotado de 1977 y su primer programa de International Studies a 1988,"
+    },
+    {
+      "text": "and claims a run of North Carolina firsts since — each below as the school states it.",
+      "of": "28301b8b",
+      "at": [
+        "charlotte-country-day:milestones.intro.muted"
+      ],
+      "t": "y desde entonces reivindica una serie de primicias en Carolina del Norte — cada una, abajo, tal como la formula el colegio."
+    },
+    {
+      "text": "A fund for student travel",
+      "of": "51eca8b1",
+      "at": [
+        "charlotte-country-day:milestones.events[0].title"
+      ],
+      "t": "Un fondo para viajes de estudiantes"
+    },
+    {
+      "text": "The Mildred Dalton Cox Endowment for International Studies helps students who otherwise would be unable to take part.",
+      "of": "8bd77410",
+      "at": [
+        "charlotte-country-day:milestones.events[0].text"
+      ],
+      "t": "El Mildred Dalton Cox Endowment for International Studies ayuda a los estudiantes que de otro modo no podrían participar."
+    },
+    {
+      "text": "The first area independent school to offer ESL.",
+      "of": "61c60610",
+      "at": [
+        "charlotte-country-day:milestones.events[1].text"
+      ],
+      "t": "El primer colegio independiente de la zona en ofrecer ESL."
+    },
+    {
+      "text": "International Studies",
+      "of": "d16b87d2",
+      "at": [
+        "charlotte-country-day:milestones.events[2].title"
+      ],
+      "t": "International Studies"
+    },
+    {
+      "text": "The first International Studies program in Charlotte.",
+      "of": "be6521e4",
+      "at": [
+        "charlotte-country-day:milestones.events[2].text"
+      ],
+      "t": "El primer programa de International Studies de Charlotte."
+    },
+    {
+      "text": "The exchange with King Edward VI School begins.",
+      "of": "604dcdc6",
+      "at": [
+        "charlotte-country-day:milestones.events[3].text"
+      ],
+      "t": "Comienza el intercambio con King Edward VI School."
+    },
+    {
+      "text": "Sister schools",
+      "of": "1b610d9c",
+      "at": [
+        "charlotte-country-day:milestones.events[4].title"
+      ],
+      "t": "Colegios hermanos"
+    },
+    {
+      "text": "Upper School sister-school partnerships in countries like France and Germany.",
+      "of": "e83554a0",
+      "at": [
+        "charlotte-country-day:milestones.events[4].text"
+      ],
+      "t": "Alianzas de Upper School con colegios hermanos en países como Francia y Alemania."
+    },
+    {
+      "text": "The IB Diploma",
+      "of": "bbf07cd5",
+      "at": [
+        "charlotte-country-day:milestones.events[5].title"
+      ],
+      "t": "El IB Diploma"
+    },
+    {
+      "text": "The first private school in North Carolina to offer it.",
+      "of": "9351da38",
+      "at": [
+        "charlotte-country-day:milestones.events[5].text"
+      ],
+      "t": "El primer colegio privado de Carolina del Norte en ofrecerlo."
+    },
+    {
+      "text": "Middle School exchanges",
+      "of": "48a8fcfe",
+      "at": [
+        "charlotte-country-day:milestones.events[6].title"
+      ],
+      "t": "Intercambios en Middle School"
+    },
+    {
+      "text": "One of the first independent schools in the region to start exchanges at the Middle School level, beginning with a school in Montreal.",
+      "of": "5e86a105",
+      "at": [
+        "charlotte-country-day:milestones.events[6].text"
+      ],
+      "t": "Uno de los primeros colegios independientes de la región en iniciar intercambios en Middle School, empezando por un colegio de Montreal."
+    },
+    {
+      "text": "A fellowship for faculty travel",
+      "of": "1cdf7eba",
+      "at": [
+        "charlotte-country-day:milestones.events[7].title"
+      ],
+      "t": "Una beca para viajes del profesorado"
+    },
+    {
+      "text": "The J. R. Williams Fellowship funds international travel for a teacher after five years at Country Day.",
+      "of": "25f70e14",
+      "at": [
+        "charlotte-country-day:milestones.events[7].text"
+      ],
+      "t": "La J. R. Williams Fellowship financia viajes internacionales para un profesor tras cinco años en Country Day."
+    },
+    {
+      "text": "NC's first full teacher exchange with China.",
+      "of": "305ba6f9",
+      "at": [
+        "charlotte-country-day:milestones.events[8].text"
+      ],
+      "t": "El primer intercambio completo de profesores con China en Carolina del Norte."
+    },
+    {
+      "text": "Cuba",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-country-day:milestones.events[9].title"
+      ],
+      "t": "Cuba"
+    },
+    {
+      "text": "The state's first school to send students to Cuba.",
+      "of": "51e2f1ce",
+      "at": [
+        "charlotte-country-day:milestones.events[9].text"
+      ],
+      "t": "El primer colegio del estado en enviar estudiantes a Cuba."
+    },
+    {
+      "text": "Québec",
+      "of": "aa1129b8",
+      "at": [
+        "charlotte-country-day:milestones.events[10].title"
+      ],
+      "t": "Quebec"
+    },
+    {
+      "text": "The exchange with Externat Saint-Coeur de Marie begins.",
+      "of": "ed8217b1",
+      "at": [
+        "charlotte-country-day:milestones.events[10].text"
+      ],
+      "t": "Comienza el intercambio con Externat Saint-Coeur de Marie."
+    },
+    {
+      "text": "A pause",
+      "of": "3d69308e",
+      "at": [
+        "charlotte-country-day:milestones.events[11].title"
+      ],
+      "t": "Una pausa"
+    },
+    {
+      "text": "Global experiences paused; summer 2023 brought the first summer trips since 2019.",
+      "of": "02769dd7",
+      "at": [
+        "charlotte-country-day:milestones.events[11].text"
+      ],
+      "t": "Las experiencias globales se interrumpieron; el verano de 2023 trajo los primeros viajes de verano desde 2019."
+    },
+    {
+      "text": "Ten trips and exchanges",
+      "of": "7aa0e717",
+      "at": [
+        "charlotte-country-day:milestones.events[12].title"
+      ],
+      "t": "Diez viajes e intercambios"
+    },
+    {
+      "text": "Four Upper School trips and six Middle School experiences planned.",
+      "of": "d54a93f8",
+      "at": [
+        "charlotte-country-day:milestones.events[12].text"
+      ],
+      "t": "Cuatro viajes de Upper School y seis experiencias de Middle School previstos."
+    },
+    {
+      "text": "Where the program stands out, and eleven questions the school's website doesn't answer yet — Upper School prices, aid, selection and safety.",
+      "of": "792e6c24",
+      "at": [
+        "charlotte-country-day:verdict.headline"
+      ],
+      "t": "Dónde destaca el programa y once preguntas que la web del colegio aún no responde — precios de Upper School, ayudas, selección y seguridad."
+    },
+    {
+      "text": "Among Charlotte private schools, Country Day stands out for how early and how concretely travel begins — six published Middle School experiences from 6th grade — and for sister-school exchanges running since 1991.",
+      "of": "fd3b6b6a",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.summary"
+      ],
+      "t": "Entre los colegios privados de Charlotte, Country Day destaca por lo pronto y lo concreto que es el inicio de los viajes — seis experiencias de Middle School publicadas desde 6.º grado — y por sus intercambios con colegios hermanos, en marcha desde 1991."
+    },
+    {
+      "text": "A 6th-grade start, with grade, group size and selection published for every Middle School trip",
+      "of": "c813ec50",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[0]"
+      ],
+      "t": "Un inicio en 6.º grado, con el grado, el tamaño del grupo y la selección publicados para cada viaje de Middle School"
+    },
+    {
+      "text": "Three sister schools, with homestays both ways",
+      "of": "a555d5a6",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[1]"
+      ],
+      "t": "Tres colegios hermanos, con estancias con familias anfitrionas en ambos sentidos"
+    },
+    {
+      "text": "A run of state firsts the school claims: 1988, 1992, 2007, 2015",
+      "of": "fc5a13a6",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[2]"
+      ],
+      "t": "Una serie de primicias estatales que reivindica el colegio: 1988, 1992, 2007, 2015"
+    },
+    {
+      "text": "A global community on campus: 57 parent nationalities and full-time ESL",
+      "of": "68e599b0",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[3]"
+      ],
+      "t": "Una comunidad global en el campus: 57 nacionalidades de los padres y ESL a tiempo completo"
+    },
+    {
+      "text": "Upper School prices.",
+      "of": "88a23151",
+      "at": [
+        "charlotte-country-day:verdict.ask[0].topic"
+      ],
+      "t": "Precios de Upper School."
+    },
+    {
+      "text": "The 2027 Upper School trip prices are not published. What does a trip cost, and what does it include? The Middle School pages list their prices.",
+      "of": "c1242d91",
+      "at": [
+        "charlotte-country-day:verdict.ask[0].question"
+      ],
+      "t": "No se publican los precios de los viajes de Upper School de 2027. ¿Cuánto cuesta un viaje y qué incluye? Las páginas de Middle School sí indican sus precios."
+    },
+    {
+      "text": "How much does the Cox endowment award each year, and does tuition aid extend to trip costs?",
+      "of": "4d7b6059",
+      "at": [
+        "charlotte-country-day:verdict.ask[1].question"
+      ],
+      "t": "¿Cuánto otorga cada año el fondo Cox y se extiende la ayuda para la matrícula a los costes de los viajes?"
+    },
+    {
+      "text": "Beyond language priority, how are Upper School places decided when a trip is oversubscribed?",
+      "of": "1eb583ed",
+      "at": [
+        "charlotte-country-day:verdict.ask[2].question"
+      ],
+      "t": "Además de la prioridad por idioma, ¿cómo se asignan las plazas de Upper School cuando un viaje tiene más solicitudes que plazas?"
+    },
+    {
+      "text": "The director reviews travel partners in person, but no protocol is published. Which vendors are used, what insurance is carried, and what are the chaperone ratios?",
+      "of": "d8946575",
+      "at": [
+        "charlotte-country-day:verdict.ask[3].question"
+      ],
+      "t": "El director revisa en persona a las empresas de viajes asociadas, pero no se publica ningún protocolo. ¿Con qué proveedores se trabaja, qué seguro se contrata y cuál es la proporción de acompañantes?"
+    },
+    {
+      "text": "2025–26 trips.",
+      "of": "075a6403",
+      "at": [
+        "charlotte-country-day:verdict.ask[4].topic"
+      ],
+      "t": "Viajes de 2025–26."
+    },
+    {
+      "text": "Did Upper School trips run in 2025–26? The live page now lists only the 2027 trips.",
+      "of": "8e147454",
+      "at": [
+        "charlotte-country-day:verdict.ask[4].question"
+      ],
+      "t": "¿Se realizaron viajes de Upper School en 2025–26? La página actual solo enumera los viajes de 2027."
+    },
+    {
+      "text": "France grade.",
+      "of": "06d2855d",
+      "at": [
+        "charlotte-country-day:verdict.ask[5].topic"
+      ],
+      "t": "Grado del viaje a Francia."
+    },
+    {
+      "text": "Is the Middle School France trip open to 7th graders? Its heading says 7th and 8th grade, but its eligibility says 8th grade.",
+      "of": "2e69da42",
+      "at": [
+        "charlotte-country-day:verdict.ask[5].question"
+      ],
+      "t": "¿Está abierto a 7.º grado el viaje a Francia de Middle School? Su título dice 7.º y 8.º grado, pero sus requisitos dicen 8.º grado."
+    },
+    {
+      "text": "Jinrui.",
+      "of": "e6f81128",
+      "at": [
+        "charlotte-country-day:verdict.ask[6].topic"
+      ],
+      "t": "Jinrui."
+    },
+    {
+      "text": "Is Jinrui School in Shanghai a formal sister school? It is not in the published list of current partners.",
+      "of": "cc4f9226",
+      "at": [
+        "charlotte-country-day:verdict.ask[6].question"
+      ],
+      "t": "¿Es Jinrui School de Shanghái un colegio hermano formal? No figura en la lista publicada de socios actuales."
+    },
+    {
+      "text": "Hosting.",
+      "of": "bbbc8485",
+      "at": [
+        "charlotte-country-day:verdict.ask[7].topic"
+      ],
+      "t": "Acogida."
+    },
+    {
+      "text": "Are exchange families required to host a sister-school student in return?",
+      "of": "22530a9f",
+      "at": [
+        "charlotte-country-day:verdict.ask[7].question"
+      ],
+      "t": "¿Las familias de intercambio deben acoger a su vez a un estudiante del colegio hermano?"
+    },
+    {
+      "text": "Lower School and languages.",
+      "of": "66e50ac2",
+      "at": [
+        "charlotte-country-day:verdict.ask[8].topic"
+      ],
+      "t": "Lower School e idiomas."
+    },
+    {
+      "text": "What global and language curriculum runs before Middle School, and is there a published language sequence from JK to 12?",
+      "of": "9259a6b1",
+      "at": [
+        "charlotte-country-day:verdict.ask[8].question"
+      ],
+      "t": "¿Qué currículo global y de idiomas se imparte antes de Middle School, y hay una secuencia de idiomas publicada de JK a 12?"
+    },
+    {
+      "text": "Credential.",
+      "of": "81c33a02",
+      "at": [
+        "charlotte-country-day:verdict.ask[9].topic"
+      ],
+      "t": "Credencial."
+    },
+    {
+      "text": "Is a global certificate or diploma planned?",
+      "of": "5a84f0d0",
+      "at": [
+        "charlotte-country-day:verdict.ask[9].question"
+      ],
+      "t": "¿Está previsto un certificado o diploma global?"
+    },
+    {
+      "text": "How many students travel each year? The last published figure is 65 Middle School students, in 2018–19.",
+      "of": "4f2ce549",
+      "at": [
+        "charlotte-country-day:verdict.ask[10].question"
+      ],
+      "t": "¿Cuántos estudiantes viajan cada año? La última cifra publicada es de 65 estudiantes de Middle School, en 2018–19."
     }
   ]
 }

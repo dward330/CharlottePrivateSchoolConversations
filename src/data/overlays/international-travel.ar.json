@@ -106,7 +106,8 @@
       "of": "a28f44fb",
       "at": [
         "providence-day:trips.years[0].trips[0].dest",
-        "providence-day:trips.years[3].trips[3].dest"
+        "providence-day:trips.years[3].trips[3].dest",
+        "charlotte-country-day:trips.years[1].trips[2].dest"
       ]
     },
     {
@@ -122,7 +123,10 @@
       "at": [
         "providence-day:trips.years[0].trips[0].group",
         "providence-day:trips.years[0].trips[1].group",
-        "providence-day:trips.years[0].trips[2].group"
+        "providence-day:trips.years[0].trips[2].group",
+        "charlotte-country-day:trips.years[1].trips[2].group",
+        "charlotte-country-day:trips.years[1].trips[3].group",
+        "charlotte-country-day:trips.years[1].trips[5].group"
       ]
     },
     {
@@ -137,7 +141,8 @@
       "of": "c586cd85",
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
-        "providence-day:trips.years[3].trips[4].dest"
+        "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-country-day:trips.years[2].trips[1].dest"
       ]
     },
     {
@@ -160,7 +165,8 @@
       "at": [
         "providence-day:trips.years[0].trips[2].dest",
         "providence-day:trips.years[4].trips[2].dest",
-        "providence-day:exchanges.partners[7].country"
+        "providence-day:exchanges.partners[7].country",
+        "charlotte-country-day:trips.years[0].trips[2].dest"
       ]
     },
     {
@@ -261,7 +267,10 @@
       "t": "إنجلترا",
       "of": "a2a8f2aa",
       "at": [
-        "providence-day:trips.years[2].trips[1].dest"
+        "providence-day:trips.years[2].trips[1].dest",
+        "charlotte-country-day:trips.years[0].trips[3].dest",
+        "charlotte-country-day:trips.years[1].trips[1].dest",
+        "charlotte-country-day:exchanges.partners[1].country"
       ]
     },
     {
@@ -452,7 +461,8 @@
       "t": "اليونان",
       "of": "cbef70fa",
       "at": [
-        "providence-day:trips.years[3].trips[2].dest"
+        "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-country-day:trips.years[0].trips[7].dest"
       ]
     },
     {
@@ -466,7 +476,11 @@
       "t": "صيف 2024",
       "of": "87d4d960",
       "at": [
-        "providence-day:trips.years[3].trips[2].timing"
+        "providence-day:trips.years[3].trips[2].timing",
+        "charlotte-country-day:trips.years[1].trips[2].timing",
+        "charlotte-country-day:trips.years[1].trips[3].timing",
+        "charlotte-country-day:trips.years[1].trips[4].timing",
+        "charlotte-country-day:trips.years[1].trips[5].timing"
       ]
     },
     {
@@ -508,7 +522,8 @@
       "t": "إسبانيا",
       "of": "e6d1e3ee",
       "at": [
-        "providence-day:trips.years[4].trips[1].dest"
+        "providence-day:trips.years[4].trips[1].dest",
+        "charlotte-country-day:trips.years[1].trips[4].dest"
       ]
     },
     {
@@ -536,7 +551,8 @@
       "t": "إشبيلية",
       "of": "6c7be847",
       "at": [
-        "providence-day:trips.years[4].trips[1].homestay"
+        "providence-day:trips.years[4].trips[1].homestay",
+        "charlotte-country-day:trips.years[1].trips[4].homestay"
       ]
     },
     {
@@ -768,7 +784,8 @@
       "t": "9–12",
       "of": "c8cc9d8a",
       "at": [
-        "providence-day:start.divisions[2].grades"
+        "providence-day:start.divisions[2].grades",
+        "charlotte-country-day:start.divisions[2].grades"
       ]
     },
     {
@@ -845,7 +862,8 @@
       "t": "Middle School",
       "of": "15441234",
       "at": [
-        "providence-day:start.languages.steps[2].when"
+        "providence-day:start.languages.steps[2].when",
+        "charlotte-country-day:signup.groups[1].events[0].audience"
       ]
     },
     {
@@ -894,7 +912,9 @@
       "t": "بيرو",
       "of": "1fcfd723",
       "at": [
-        "providence-day:exchanges.partners[1].country"
+        "providence-day:exchanges.partners[1].country",
+        "charlotte-country-day:trips.years[0].trips[1].dest",
+        "charlotte-country-day:exchanges.partners[2].country"
       ]
     },
     {
@@ -1031,7 +1051,8 @@
       "t": "إشبيلية، إسبانيا",
       "of": "208b05c0",
       "at": [
-        "providence-day:exchanges.homestays[1].place"
+        "providence-day:exchanges.homestays[1].place",
+        "charlotte-country-day:exchanges.homestays[4].place"
       ]
     },
     {
@@ -1318,7 +1339,8 @@
       "t": "معلّمون يسافرون",
       "of": "d43cddb9",
       "at": [
-        "providence-day:network.rows[0].label"
+        "providence-day:network.rows[0].label",
+        "charlotte-country-day:network.rows[0].label"
       ]
     },
     {
@@ -1374,7 +1396,8 @@
       "t": "2026–27",
       "of": "4427b993",
       "at": [
-        "providence-day:signup.groups[0].note"
+        "providence-day:signup.groups[0].note",
+        "charlotte-country-day:signup.groups[1].note"
       ]
     },
     {
@@ -1624,7 +1647,8 @@
       "t": "المساعدة المالية.",
       "of": "b17a4d3d",
       "at": [
-        "providence-day:verdict.ask[2].topic"
+        "providence-day:verdict.ask[2].topic",
+        "charlotte-country-day:verdict.ask[1].topic"
       ]
     },
     {
@@ -1652,7 +1676,8 @@
       "t": "الاختيار.",
       "of": "92b0d001",
       "at": [
-        "providence-day:verdict.ask[4].topic"
+        "providence-day:verdict.ask[4].topic",
+        "charlotte-country-day:verdict.ask[2].topic"
       ]
     },
     {
@@ -1666,7 +1691,8 @@
       "t": "السلامة.",
       "of": "925b432b",
       "at": [
-        "providence-day:verdict.ask[5].topic"
+        "providence-day:verdict.ask[5].topic",
+        "charlotte-country-day:verdict.ask[3].topic"
       ]
     },
     {
@@ -1708,7 +1734,8 @@
       "t": "النطاق.",
       "of": "b8f5ed2d",
       "at": [
-        "providence-day:verdict.ask[8].topic"
+        "providence-day:verdict.ask[8].topic",
+        "charlotte-country-day:verdict.ask[10].topic"
       ]
     },
     {
@@ -1716,6 +1743,1706 @@
       "of": "c588ed4f",
       "at": [
         "providence-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "يبدأ السفر في الصف السادس، ويديره مكتب للدراسات الدولية (Office of International Studies) تؤرّخ المدرسة نشأته بعام 1988، مع تبادلات مع مدارس شقيقة وإقامة لدى أسر مضيفة في مدينة كيبيك وأريكيبا وساوثهامبتون، ورحلات لـUpper School يقودها المعلّمون خلال عطلة الربيع وفي الصيف.",
+      "of": "155b6937",
+      "at": [
+        "charlotte-country-day:lead.strong"
+      ]
+    },
+    {
+      "t": "تُحصي المدرسة 27 دولة زارها الطلاب في تجارب السفر العالمية التي تنظّمها منذ 2015، عبر ست قارات.",
+      "of": "7644558f",
+      "at": [
+        "charlotte-country-day:lead.muted"
+      ]
+    },
+    {
+      "t": "دولة",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-country-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "زارها الطلاب في تجارب السفر العالمية لـCountry Day منذ 2015",
+      "of": "4b437e39",
+      "at": [
+        "charlotte-country-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "تجارب لـMiddle School",
+      "of": "8db0a869",
+      "at": [
+        "charlotte-country-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "في 2026–27، بدءًا من الصف السادس",
+      "of": "848b95eb",
+      "at": [
+        "charlotte-country-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "شراكات تبادل",
+      "of": "bd94bb29",
+      "at": [
+        "charlotte-country-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "منها Rotary وAFS-YES وKennedy-Lugar YES ومدارس شقيقة في كندا وبيرو والمملكة المتحدة",
+      "of": "bca03bc3",
+      "at": [
+        "charlotte-country-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "تأسيس برنامج الدراسات الدولية",
+      "of": "6334b273",
+      "at": [
+        "charlotte-country-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "أول برنامج شامل في شارلوت، بحسب المدرسة",
+      "of": "53864bf9",
+      "at": [
+        "charlotte-country-day:stats[3].note"
+      ]
+    },
+    {
+      "t": "عشرون رحلة وتبادلًا من ثلاثة أعوام دراسية — 2022–23 و2023–24 و2026–27 — منها ست تجارب لـMiddle School بدءًا من الصف السادس، وإقامات لدى أسر مضيفة مع مدارس شقيقة، ورحلات لـUpper School من رواندا إلى الأرجنتين. صنّف حسب المرحلة.",
+      "of": "da1b522a",
+      "at": [
+        "charlotte-country-day:trips.headline"
+      ]
+    },
+    {
+      "t": "تبدأ تجارب Middle School في الصف السادس، من التبادلات مع المدارس الشقيقة إلى رحلات اللغة والتاريخ، مع صف دراسي وحجم مجموعة وطريقة اختيار منشورة لكل منها.",
+      "of": "69e221f9",
+      "at": [
+        "charlotte-country-day:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "رحلات Upper School يقودها المعلّمون خلال عطلة الربيع وفي الصيف، وتتغيّر من عام إلى آخر. وتمنح كل رحلة من رحلات Upper School لعام 2027 الأولوية لطلاب اللغة المقابلة، وهي مفتوحة للجميع.",
+      "of": "34ea2615",
+      "at": [
+        "charlotte-country-day:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Middle School في شتاء وربيع 2027؛ وUpper School خلال عطلة الربيع وفي صيف 2027",
+      "of": "c8524cc6",
+      "at": [
+        "charlotte-country-day:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "شتاء وربيع 2027",
+      "of": "e29216b3",
+      "at": [
+        "charlotte-country-day:trips.years[0].noteByDiv.MS"
+      ]
+    },
+    {
+      "t": "خلال عطلة الربيع وفي صيف 2027",
+      "of": "709b4557",
+      "at": [
+        "charlotte-country-day:trips.years[0].noteByDiv.US"
+      ]
+    },
+    {
+      "t": "كندا",
+      "of": "5cf10bfb",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].dest",
+        "charlotte-country-day:exchanges.partners[0].country"
+      ]
+    },
+    {
+      "t": "مدينة كيبيك — Externat Saint-Coeur de Marie",
+      "of": "7f526499",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "الصف السادس · حتى 12 طالبًا عادةً",
+      "of": "43b55971",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "تبادل مع مدرسة شقيقة · اللغة الفرنسية والثقافة الكيبيكية · الأفضلية لطلاب الفرنسية",
+      "of": "08f062e4",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "شتاء 2027",
+      "of": "20b8e081",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].timing",
+        "charlotte-country-day:trips.years[0].trips[2].timing",
+        "charlotte-country-day:trips.years[0].trips[3].timing",
+        "charlotte-country-day:trips.years[0].trips[4].timing",
+        "charlotte-country-day:trips.years[0].trips[5].timing"
+      ]
+    },
+    {
+      "t": "مدينة كيبيك",
+      "of": "5231ed57",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[0].homestay"
+      ]
+    },
+    {
+      "t": "أريكيبا، المدينة الشقيقة لشارلوت — Prescott School",
+      "of": "30b8f6e2",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "طلاب الإسبانية في الصف السابع · 10–12 عادةً",
+      "of": "36695ebd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "تبادل مع مدرسة شقيقة · اللغة الإسبانية والثقافة البيروفية",
+      "of": "0f66542f",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "ربيع 2027",
+      "of": "a01a41e1",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].timing"
+      ]
+    },
+    {
+      "t": "أريكيبا",
+      "of": "b064fb81",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[1].homestay"
+      ]
+    },
+    {
+      "t": "ليموج، المدينة الشقيقة لشارلوت · وادي اللوار + نورماندي",
+      "of": "cadc2507",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "الصف الثامن · حتى 15 طالبًا",
+      "of": "0dedf691",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].group",
+        "charlotte-country-day:trips.years[0].trips[5].group"
+      ]
+    },
+    {
+      "t": "تاريخ الحرب العالمية الثانية ومواقع إنزال D-Day · الأفضلية لطلاب الفرنسية · قرعة إذا تجاوز الطلب عدد الأماكن",
+      "of": "09651e0b",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "ساوثهامبتون — King Edward VI School",
+      "of": "30396498",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].place"
+      ]
+    },
+    {
+      "t": "الصف الثامن · 8–10 طلاب",
+      "of": "66a22dfd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].group"
+      ]
+    },
+    {
+      "t": "تبادل مع مدرسة شقيقة · مشروع في الفنون الإبداعية · الاختيار بناءً على مقترح مشروع ومقابلة",
+      "of": "68c8c10f",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].theme"
+      ]
+    },
+    {
+      "t": "ساوثهامبتون",
+      "of": "0007ed21",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[3].homestay",
+        "charlotte-country-day:milestones.events[3].title"
+      ]
+    },
+    {
+      "t": "كوستاريكا",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].dest"
+      ]
+    },
+    {
+      "t": "مونتيفيردي",
+      "of": "e05e633c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].place",
+        "charlotte-country-day:trips.years[0].trips[4].homestay"
+      ]
+    },
+    {
+      "t": "طلاب الإسبانية في الصف الثامن · حتى 10",
+      "of": "7f122bdd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].group"
+      ]
+    },
+    {
+      "t": "دروس في الإسبانية كل صباح · الثقافة والطبيعة في فترات بعد الظهر",
+      "of": "a757cbbd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[4].theme"
+      ]
+    },
+    {
+      "t": "إيطاليا",
+      "of": "3415f00c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].dest",
+        "charlotte-country-day:trips.years[2].trips[0].dest"
+      ]
+    },
+    {
+      "t": "روما + سورينتو — بومبي وهيركولانيوم",
+      "of": "f5d6f91c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].place"
+      ]
+    },
+    {
+      "t": "المواقع الرومانية القديمة · الأفضلية لطلاب اللاتينية · قرعة إذا تجاوز الطلب عدد الأماكن",
+      "of": "69e0b055",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[5].theme"
+      ]
+    },
+    {
+      "t": "رواندا",
+      "of": "c4203e2a",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].dest"
+      ]
+    },
+    {
+      "t": "التعافي والمصالحة بعد الإبادة الجماعية ضد التوتسي عام 1994 · القيادة البيئية · الهوية الفرنكوفونية · الأولوية لطلاب الفرنسية",
+      "of": "78e49f59",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].theme"
+      ]
+    },
+    {
+      "t": "عطلة الربيع 2027",
+      "of": "ca8ed76c",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[6].timing",
+        "charlotte-country-day:trips.years[0].trips[7].timing",
+        "charlotte-country-day:trips.years[0].trips[8].timing"
+      ]
+    },
+    {
+      "t": "أثينا",
+      "of": "e3903dd0",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[7].place"
+      ]
+    },
+    {
+      "t": "المواقع اليونانية والرومانية · الهجرة في أوروبا منذ 1995 · العلاقات اليونانية التركية · الأولوية لطلاب اللاتينية",
+      "of": "2587e437",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[7].theme"
+      ]
+    },
+    {
+      "t": "الصين",
+      "of": "94da8330",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].dest",
+        "charlotte-country-day:milestones.events[8].title"
+      ]
+    },
+    {
+      "t": "طريق الحرير، من دونهوانغ إلى شيآن + شنغهاي",
+      "of": "f9b518cd",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].place"
+      ]
+    },
+    {
+      "t": "صحراء غوبي وجيش التيراكوتا · وقت مع طلاب Jinrui School في شنغهاي · الأولوية لطلاب الصينية",
+      "of": "15cb9313",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[8].theme"
+      ]
+    },
+    {
+      "t": "الأرجنتين",
+      "of": "cc75630e",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].dest"
+      ]
+    },
+    {
+      "t": "بوينس آيرس، بارانا + شلالات إيغوازو",
+      "of": "214aa2a5",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].place"
+      ]
+    },
+    {
+      "t": "تبادل ثقافي مع طلاب أرجنتينيين · مشروع تعلّم بالخدمة في بارانا · الأولوية لطلاب الإسبانية",
+      "of": "2f4d8f24",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].theme"
+      ]
+    },
+    {
+      "t": "صيف 2027",
+      "of": "8ad4de19",
+      "at": [
+        "charlotte-country-day:trips.years[0].trips[9].timing"
+      ]
+    },
+    {
+      "t": "بحسب الجدول المعلن في مارس 2024",
+      "of": "df5c4c86",
+      "at": [
+        "charlotte-country-day:trips.years[1].note"
+      ]
+    },
+    {
+      "t": "عُمان والإمارات العربية المتحدة",
+      "of": "e8311df7",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].dest"
+      ]
+    },
+    {
+      "t": "مسقط، صور، رمال الشرقية، أبوظبي + دبي",
+      "of": "3576ae90",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "الصفوف 9–12",
+      "of": "3554df3c",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].group"
+      ]
+    },
+    {
+      "t": "التقاليد والتحديث في العالم العربي",
+      "of": "15118a0f",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "ربيع 2024",
+      "of": "9d1a3d28",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[0].timing",
+        "charlotte-country-day:trips.years[1].trips[1].timing"
+      ]
+    },
+    {
+      "t": "لندن — مع فرقة الغناء دون مصاحبة موسيقية (a cappella) Voces8، والأداء في Cadogan Hall",
+      "of": "c996d8be",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].place"
+      ]
+    },
+    {
+      "t": "طلاب الكورال، الصفوف 9–11",
+      "of": "abb830b2",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].group"
+      ]
+    },
+    {
+      "t": "الكورال · تدريبات ودروس متقدّمة (master classes)",
+      "of": "e965a618",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "كيوتو، طوكيو + طريق ناكاسيندو",
+      "of": "2a596c5e",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[2].place"
+      ]
+    },
+    {
+      "t": "تجربة ثقافية",
+      "of": "4680c2e5",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "نيوزيلندا",
+      "of": "23dc5780",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[3].dest"
+      ]
+    },
+    {
+      "t": "ثقافة الماوري والبيئة",
+      "of": "8a5c0540",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[3].theme"
+      ]
+    },
+    {
+      "t": "إشبيلية، مع رحلات يومية إلى قرطبة وغرناطة",
+      "of": "6089f775",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].place"
+      ]
+    },
+    {
+      "t": "Honors Spanish II أو أعلى، الصفوف 9–11",
+      "of": "560a74bc",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].group"
+      ]
+    },
+    {
+      "t": "انغماس لغوي",
+      "of": "21dd6828",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "السويد والدنمارك",
+      "of": "edf07e99",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].dest"
+      ]
+    },
+    {
+      "t": "كوبنهاغن وجسر أوريسند",
+      "of": "f0717355",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].place"
+      ]
+    },
+    {
+      "t": "التصميم والاستدامة",
+      "of": "2588c5a7",
+      "at": [
+        "charlotte-country-day:trips.years[1].trips[5].theme"
+      ]
+    },
+    {
+      "t": "صيف 2023، أولى الرحلات الصيفية منذ 2019",
+      "of": "f686c66b",
+      "at": [
+        "charlotte-country-day:trips.years[2].note"
+      ]
+    },
+    {
+      "t": "فلورنسا + كورتونا",
+      "of": "f01b8768",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "الفنون · تُقدَّم كل عامين منذ سنوات عديدة",
+      "of": "33ede95a",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "الاستدامة وعلوم البيئة",
+      "of": "a10e40f7",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "إسبانيا والمغرب",
+      "of": "b08766f6",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[2].dest"
+      ]
+    },
+    {
+      "t": "انغماس في الإسبانية",
+      "of": "5f58c668",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "بولندا وألمانيا وفرنسا",
+      "of": "9b261f3b",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].dest"
+      ]
+    },
+    {
+      "t": "فروتسواف، كريفيلد + ليموج — المدن الشقيقة لشارلوت",
+      "of": "1ad3d331",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].place"
+      ]
+    },
+    {
+      "t": "المدن الشقيقة لشارلوت",
+      "of": "1a910f6a",
+      "at": [
+        "charlotte-country-day:trips.years[2].trips[3].theme",
+        "charlotte-country-day:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "طلاب Middle School في Country Day خلال التبادل مع المدرسة الشقيقة في ساوثهامبتون، في لندن",
+      "of": "9fcffe93",
+      "at": [
+        "charlotte-country-day:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "تبادل ساوثهامبتون",
+      "of": "0567af9a",
+      "at": [
+        "charlotte-country-day:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "يتضمّن تبادل الصف الثامن مع King Edward VI School زيارات إلى لندن.",
+      "of": "1d8e2cbc",
+      "at": [
+        "charlotte-country-day:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "صورة: Charlotte Country Day School",
+      "of": "c3e53b21",
+      "at": [
+        "charlotte-country-day:trips.photo.credit",
+        "charlotte-country-day:exchanges.photo.credit"
+      ]
+    },
+    {
+      "t": "كوبا، 2015.",
+      "of": "e5f1fa7e",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "تصف المدرسة نفسها بأنها أول مدرسة في الولاية ترسل طلابًا إلى كوبا.",
+      "of": "c99d1a0b",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "Middle School، منذ 1993.",
+      "of": "15112d86",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "شارك أكثر من 800 طالب في الصفوف 6–8 في تجربة سفر عالمية بحلول 2018، حين كان من المقرّر أن يسافر 65 طالبًا من Middle School إلى خمس دول في عام واحد.",
+      "of": "9ced1236",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "أريكيبا، 2019.",
+      "of": "72157015",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "سافر 12 طالبًا من Middle School إلى أريكيبا في بيرو في خريف 2019، وشملت الرحلة زيارة إلى رئيس البلدية.",
+      "of": "59a98f68",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "توقّف، 2020–22.",
+      "of": "feee8d37",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[3].lead"
+      ]
+    },
+    {
+      "t": "توقّفت التجارب العالمية خلال الجائحة؛ وشهد صيف 2023 أولى الرحلات الصيفية منذ 2019.",
+      "of": "324ca0b2",
+      "at": [
+        "charlotte-country-day:trips.alsoOnRecord[3].text"
+      ]
+    },
+    {
+      "t": "ثلاث مدارس شقيقة — في مدينة كيبيك وساوثهامبتون وأريكيبا — مع إقامة لدى أسر مضيفة في الاتجاهين، إضافةً إلى طلاب زائرين في الحرم المدرسي وأسر تستضيفهم.",
+      "of": "44738944",
+      "at": [
+        "charlotte-country-day:exchanges.headline"
+      ]
+    },
+    {
+      "t": "منذ 1992، أقامت Country Day شراكات مع مدارس شقيقة في دول عديدة؛ وشركاؤها الحاليون في كندا وبيرو والمملكة المتحدة.",
+      "of": "d7b615f1",
+      "at": [
+        "charlotte-country-day:exchanges.intro.strong"
+      ]
+    },
+    {
+      "t": "تتضمّن التبادلات التي تستمر أسبوعين الإقامة لدى أسر مضيفة وجولات سياحية وبعض الحصص الدراسية، ويزور طلاب المدارس الشقيقة شارلوت خلال العام الدراسي. ويستمر تبادل ساوثهامبتون منذ 1991، وتبادل كيبيك منذ 2017.",
+      "of": "5df7fabc",
+      "at": [
+        "charlotte-country-day:exchanges.intro.muted"
+      ]
+    },
+    {
+      "t": "طلاب الصف السادس، لإقامة شتوية لدى أسر مضيفة",
+      "of": "7325434e",
+      "at": [
+        "charlotte-country-day:exchanges.partners[0].out"
+      ]
+    },
+    {
+      "t": "يزور طلاب كيبيك المدرسة في الربيع",
+      "of": "f1a449d6",
+      "at": [
+        "charlotte-country-day:exchanges.partners[0].in"
+      ]
+    },
+    {
+      "t": "طلاب الصف الثامن، مع مشروع في الفنون الإبداعية",
+      "of": "9dbe7dff",
+      "at": [
+        "charlotte-country-day:exchanges.partners[1].out"
+      ]
+    },
+    {
+      "t": "يزور طلاب KES المدرسة في الخريف",
+      "of": "1c112da8",
+      "at": [
+        "charlotte-country-day:exchanges.partners[1].in"
+      ]
+    },
+    {
+      "t": "طلاب الإسبانية في الصف السابع، في الربيع",
+      "of": "c5327b91",
+      "at": [
+        "charlotte-country-day:exchanges.partners[2].out"
+      ]
+    },
+    {
+      "t": "يزور طلاب Prescott المدرسة في يناير",
+      "of": "2e0b0cbd",
+      "at": [
+        "charlotte-country-day:exchanges.partners[2].in"
+      ]
+    },
+    {
+      "t": "طالبان من Country Day خلال التبادل مع المدرسة الشقيقة في كيبيك، في كرنفال شتوي",
+      "of": "8682829b",
+      "at": [
+        "charlotte-country-day:exchanges.photo.alt"
+      ]
+    },
+    {
+      "t": "تبادل كيبيك",
+      "of": "acdc3db5",
+      "at": [
+        "charlotte-country-day:exchanges.photo.caption.title"
+      ]
+    },
+    {
+      "t": "طلاب Country Day في كيبيك.",
+      "of": "23047881",
+      "at": [
+        "charlotte-country-day:exchanges.photo.caption.text"
+      ]
+    },
+    {
+      "t": "مدينة كيبيك، كندا",
+      "of": "6255f909",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[0].place"
+      ]
+    },
+    {
+      "t": "يقيم طلاب الصف السادس لدى أسر من Externat Saint-Coeur de Marie، وهي مدرسة من JK–6 لغة التدريس فيها الفرنسية.",
+      "of": "29bbc5c4",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[0].text"
+      ]
+    },
+    {
+      "t": "ساوثهامبتون، إنجلترا",
+      "of": "eb175cba",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[1].place"
+      ]
+    },
+    {
+      "t": "يقيم طلاب الصف الثامن لدى أسر من King Edward VI School ويعملون على مشروع في الفنون الإبداعية مرتبط بالمنطقة.",
+      "of": "70db2af0",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[1].text"
+      ]
+    },
+    {
+      "t": "أريكيبا، بيرو",
+      "of": "6e0dbf13",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[2].place"
+      ]
+    },
+    {
+      "t": "يقيم طلاب الإسبانية في الصف السابع لدى أسر من Prescott School، وهي مدرسة من K–12 في مدينة هي المدينة الشقيقة لشارلوت.",
+      "of": "935f021a",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[2].text"
+      ]
+    },
+    {
+      "t": "مونتيفيردي، كوستاريكا",
+      "of": "bd78fd15",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[3].place"
+      ]
+    },
+    {
+      "t": "في رحلة الإسبانية للصف الثامن، يقيم الطلاب لدى أسر محلية ويحضرون دروسًا في اللغة كل صباح.",
+      "of": "aef186c5",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[3].text"
+      ]
+    },
+    {
+      "t": "خُطِّطت رحلة Upper School إلى إسبانيا في صيف 2024، المخصّصة لطلاب Honors Spanish II أو أعلى، حول الإقامة لدى أسر مضيفة في إشبيلية.",
+      "of": "02e0bc40",
+      "at": [
+        "charlotte-country-day:exchanges.homestays[4].text"
+      ]
+    },
+    {
+      "t": "أمضى طلاب من Jinrui School في شنغهاي أسبوعًا في Middle School في مطلع 2025.",
+      "of": "456ca6b7",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[0]"
+      ]
+    },
+    {
+      "t": "تُحصي المدرسة 11 شراكة في برامج التبادل، منها Rotary Club وAFS-YES وبرنامج Kennedy-Lugar YES التابع لوزارة الخارجية الأمريكية.",
+      "of": "c076bba1",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[1]"
+      ]
+    },
+    {
+      "t": "يمكن للأسر استضافة طالب زائر عبر International Parents Group، لبضعة أيام أو أسابيع أو لفصل دراسي.",
+      "of": "dd505512",
+      "at": [
+        "charlotte-country-day:exchanges.visitors[2]"
+      ]
+    },
+    {
+      "t": "تُقدَّم طلبات Upper School لرحلات 2027 من 1 إلى 25 سبتمبر 2026، ويليها التسجيل في أكتوبر؛ أما طلبات Middle School للعام 2026–27 فكان موعدها النهائي في أبريل وأغسطس 2026.",
+      "of": "495adb8c",
+      "at": [
+        "charlotte-country-day:signup.headline"
+      ]
+    },
+    {
+      "t": "تتطلّب المساعدة المالية للرحلات وجود Parents' Financial Statement في ملف الطالب لدى مكتب القبول، إضافةً إلى تقديم Global Programs Financial Aid Application قبل الموعد النهائي للرحلة.",
+      "of": "08cfad28",
+      "at": [
+        "charlotte-country-day:signup.intro.strong"
+      ]
+    },
+    {
+      "t": "تمنح رحلات Upper School الأولوية لطلاب اللغة المقابلة، وهي مفتوحة للجميع. وفي Middle School، يختار تبادل ساوثهامبتون المشاركين بناءً على مقترح مشروع ومقابلة، وتلجأ رحلتا فرنسا وإيطاليا إلى القرعة إذا تجاوز الطلب عدد الأماكن.",
+      "of": "e516b509",
+      "at": [
+        "charlotte-country-day:signup.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School · رحلات 2027",
+      "of": "f17b4735",
+      "at": [
+        "charlotte-country-day:signup.groups[0].title"
+      ]
+    },
+    {
+      "t": "دورة 2026",
+      "of": "7a999acd",
+      "at": [
+        "charlotte-country-day:signup.groups[0].note"
+      ]
+    },
+    {
+      "t": "24 أغسطس 2026",
+      "of": "c80a32e4",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "تجمّع الطلاب",
+      "of": "3473c114",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].name"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[0].audience",
+        "charlotte-country-day:signup.groups[0].events[1].audience",
+        "charlotte-country-day:signup.groups[0].events[2].audience",
+        "charlotte-country-day:signup.groups[0].events[3].audience"
+      ]
+    },
+    {
+      "t": "1 سبتمبر 2026",
+      "of": "52ff5361",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[1].when"
+      ]
+    },
+    {
+      "t": "اجتماع معلومات لأولياء الأمور والطلاب",
+      "of": "78e62389",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[1].name"
+      ]
+    },
+    {
+      "t": "1–25 سبتمبر 2026",
+      "of": "a514ebdb",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي لتقديم طلبات الرحلات وطلبات المساعدة المالية",
+      "of": "db9ac912",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "2–16 أكتوبر 2026",
+      "of": "d761a21f",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "التسجيل",
+      "of": "83988d98",
+      "at": [
+        "charlotte-country-day:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "Middle School · تجارب 2026–27",
+      "of": "f4b89cec",
+      "at": [
+        "charlotte-country-day:signup.groups[1].title"
+      ]
+    },
+    {
+      "t": "20 أبريل 2026",
+      "of": "e71621ad",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي لتقديم الطلبات وGlobal Programs Financial Aid Application",
+      "of": "55c30b3a",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].name"
+      ]
+    },
+    {
+      "t": "كيبيك وفرنسا وساوثهامبتون وكوستاريكا وإيطاليا",
+      "of": "3ecc1680",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[0].detail"
+      ]
+    },
+    {
+      "t": "30 أغسطس 2026",
+      "of": "5268410d",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي لتقديم طلب رحلة بيرو وطلب المساعدة المالية",
+      "of": "acf9179d",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].name"
+      ]
+    },
+    {
+      "t": "Middle School · الصف السابع",
+      "of": "f2d14667",
+      "at": [
+        "charlotte-country-day:signup.groups[1].events[1].audience"
+      ]
+    },
+    {
+      "t": "تعلّم عالمي في كل مرحلة، من JK حتى الصف 12 — مع بدء السفر في الصف السادس، وIB Diploma في Upper School.",
+      "of": "1c604a4f",
+      "at": [
+        "charlotte-country-day:start.headline"
+      ]
+    },
+    {
+      "t": "في Country Day، يتجاوز الانفتاح العالمي السفر بكثير: إذ يناقش الطلاب في المراحل الثلاث كلها العالم الممتد خارج حدودنا.",
+      "of": "505f3556",
+      "at": [
+        "charlotte-country-day:start.intro.strong"
+      ]
+    },
+    {
+      "t": "ينظّم Office of International Studies البرنامج حول أربع ركائز.",
+      "of": "fdca5fd3",
+      "at": [
+        "charlotte-country-day:start.intro.muted"
+      ]
+    },
+    {
+      "t": "رحلات أكاديمية وثقافية وفي علوم البيئة والانغماس اللغوي، بدءًا من الصف السادس",
+      "of": "1ac6ffd7",
+      "at": [
+        "charlotte-country-day:start.framework[0].text"
+      ]
+    },
+    {
+      "t": "شراكات منذ 1992، مع تبادلات مدتها أسبوعان تتضمّن الإقامة لدى أسر مضيفة وجولات سياحية وبعض الحصص الدراسية",
+      "of": "ce936fbb",
+      "at": [
+        "charlotte-country-day:start.framework[1].text"
+      ]
+    },
+    {
+      "t": "روابط عالمية مدمجة في المقرّرات، من العلوم في Middle School إلى المقرّرات الاختيارية في Upper School",
+      "of": "7cc787d3",
+      "at": [
+        "charlotte-country-day:start.framework[2].text"
+      ]
+    },
+    {
+      "t": "منح وإجازات تفرّغ ومنح بحثية دولية ترسل المعلّمين للتعلّم مباشرةً في الخارج",
+      "of": "eafe79de",
+      "at": [
+        "charlotte-country-day:start.framework[3].text"
+      ]
+    },
+    {
+      "t": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-country-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "تبدأ الفرنسية والإسبانية من الروضة التمهيدية (junior kindergarten) حتى الصف الأول",
+      "of": "e41b23f3",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "وحدة في الدراسات العالمية للصف الثالث",
+      "of": "a594ecf5",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "قادة من الصف الرابع يفتتحون احتفال المدرسة برأس السنة القمرية",
+      "of": "42a86f07",
+      "at": [
+        "charlotte-country-day:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-country-day:start.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "**يبدأ السفر في الصف السادس:** ست تجارب في 2026–27",
+      "of": "fd9a9233",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "الفرنسية والإسبانية واللاتينية",
+      "of": "a67de764",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "عيّنات تربة أجنبية في علوم البيئة",
+      "of": "a04053a6",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Model United Nations وGlobal Action Team",
+      "of": "013bd925",
+      "at": [
+        "charlotte-country-day:start.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "رحلات يقودها المعلّمون خلال عطلة الربيع وفي الصيف، ونحو أسبوعين في مدارس شريكة، في يونيو عادةً",
+      "of": "94b368b8",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "AP Comparative Government، ومقرّرات اختيارية مثل الأديان العالمية والعلاقات الدولية",
+      "of": "60d6e41c",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "IB Diploma — في 1992، أصبحت Country Day أول مدرسة خاصة في نورث كارولاينا تقدّمه",
+      "of": "986efa65",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "فصل دراسي أو عام كامل بعيدًا عبر School Year Abroad أو Alzar School أو Maine Coast Semester",
+      "of": "2cdfc6a7",
+      "at": [
+        "charlotte-country-day:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "لا توجد عضوية منشورة في شبكة للمدارس العالمية؛ بل Model UN وAcademic WorldQuest والمؤسسات العالمية في شارلوت نفسها — \"Global starts Local.\"",
+      "of": "d4cbf80b",
+      "at": [
+        "charlotte-country-day:network.headline"
+      ]
+    },
+    {
+      "t": "يعتمد البرنامج على المسابقات وعلى المجتمع الدولي في شارلوت، تحت شعار Office of International Studies: \"Global starts Local.\"",
+      "of": "4920da95",
+      "at": [
+        "charlotte-country-day:network.intro.strong"
+      ]
+    },
+    {
+      "t": "تُحصي المدرسة 23 فوزًا في مسابقات Academic WorldQuest وEuro Challenge ومؤتمرات Model UN.",
+      "of": "814c363d",
+      "at": [
+        "charlotte-country-day:network.intro.muted"
+      ]
+    },
+    {
+      "t": "مؤتمرات Model UN",
+      "of": "13728fae",
+      "at": [
+        "charlotte-country-day:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "استضافة CHARMUN في سبتمبر · VAMUN في University of Virginia، 10 مندوبين، وجائزة Best Delegate وإشادة شفهية · MUNCH في UNC-Chapel Hill، 20 طالبًا",
+      "of": "210d9dcc",
+      "at": [
+        "charlotte-country-day:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "VAMUN في University of Virginia، 12 مندوبًا من Upper School وإشادات شفهية لوفدين · MUNCH في UNC-Chapel Hill، 17 طالبًا، وست جوائز",
+      "of": "2be7c7bd",
+      "at": [
+        "charlotte-country-day:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-country-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "يحرز طلاب Country Day المركز الأول في مسابقة Academic WorldQuest كل عام تقريبًا، بحسب المدرسة.",
+      "of": "1a1f19cb",
+      "at": [
+        "charlotte-country-day:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "رحلات إلى أريكيبا وليموج وكريفيلد وفروتسواف، ومنتدى عن شراكة المدينتين الشقيقتين شارلوت–أريكيبا.",
+      "of": "ce900999",
+      "at": [
+        "charlotte-country-day:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "شركاء من المجتمع",
+      "of": "bb11ee85",
+      "at": [
+        "charlotte-country-day:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "مهرجانات وفعاليات مع World Affairs Council of Charlotte وInternational House، وصلات بأعضاء في السلك الدبلوماسي في نورث كارولاينا.",
+      "of": "d0597de1",
+      "at": [
+        "charlotte-country-day:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "ترسل المنح وإجازات التفرّغ والمنح البحثية الدولية المعلّمين إلى الخارج. وتموّل J. R. Williams Fellowship السفر والتعليم الدوليين لأحد أعضاء الهيئة التدريسية بعد خمس سنوات من التدريس في Country Day. وفي 2007، أطلقت المدرسة أول تبادل كامل للمعلّمين مع الصين في نورث كارولاينا.",
+      "of": "8c21f672",
+      "at": [
+        "charlotte-country-day:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "برامج الفصل الدراسي",
+      "of": "6f461520",
+      "at": [
+        "charlotte-country-day:network.rows[1].label"
+      ]
+    },
+    {
+      "t": "Country Day واحدة من أربع عشرة مدرسة عضوًا في Maine Coast Semester (at Chewonki)، وتمنح ساعات معتمدة للبرامج المعتمَدة من دون أن يتأثّر GPA الطالب.",
+      "of": "d4224b67",
+      "at": [
+        "charlotte-country-day:network.rows[1].text"
+      ]
+    },
+    {
+      "t": "أسر من 57 دولة، ومعلّمون يتحدّثون 20 لغة، وبرنامج ESL بدوام كامل — الأول بين المدارس المستقلة في المنطقة.",
+      "of": "f5dd8498",
+      "at": [
+        "charlotte-country-day:community.headline"
+      ]
+    },
+    {
+      "t": "تضمّ Country Day أسرًا وطلابًا يمثّلون طيفًا واسعًا من الثقافات والجنسيات،",
+      "of": "24ae89ba",
+      "at": [
+        "charlotte-country-day:community.intro.strong"
+      ]
+    },
+    {
+      "t": "وتدعم International Parents Group التابعة لها الأسر العالمية الجديدة على المدرسة، والجديدة على البلاد في أحيان كثيرة.",
+      "of": "c9ec54a6",
+      "at": [
+        "charlotte-country-day:community.intro.muted"
+      ]
+    },
+    {
+      "t": "جنسية لأولياء الأمور",
+      "of": "df766b03",
+      "at": [
+        "charlotte-country-day:community.stats[0].label"
+      ]
+    },
+    {
+      "t": "ممثَّلة حاليًا في Country Day",
+      "of": "aea164f1",
+      "at": [
+        "charlotte-country-day:community.stats[0].note"
+      ]
+    },
+    {
+      "t": "لغة يتحدّثها المعلّمون",
+      "of": "0ee10997",
+      "at": [
+        "charlotte-country-day:community.stats[1].label"
+      ]
+    },
+    {
+      "t": "100+ معلّم يتحدّثون لغة ثانية",
+      "of": "7061206f",
+      "at": [
+        "charlotte-country-day:community.stats[1].note"
+      ]
+    },
+    {
+      "t": "الإنجليزية لغةً ثانية (ESL)",
+      "of": "8c465920",
+      "at": [
+        "charlotte-country-day:community.stats[2].label",
+        "charlotte-country-day:community.cells[0].name",
+        "charlotte-country-day:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "أول مدرسة مستقلة في المنطقة تقدّمه",
+      "of": "6d483d63",
+      "at": [
+        "charlotte-country-day:community.stats[2].note"
+      ]
+    },
+    {
+      "t": "المدرسة المستقلة الأولى والوحيدة في نورث كارولاينا التي لديها برنامج ESL بدوام كامل، بحسب المدرسة. واستقطب 75 طالبًا دوليًا في عاميه الأولين.",
+      "of": "86e7f703",
+      "at": [
+        "charlotte-country-day:community.cells[0].text"
+      ]
+    },
+    {
+      "t": "International Parents Group",
+      "of": "4dd2a51d",
+      "at": [
+        "charlotte-country-day:community.cells[1].name"
+      ]
+    },
+    {
+      "t": "ترحّب بالأسر الدولية الجديدة؛ وتدير International Food Hall في Big Saturday، بأطباق من أكثر من 20 دولة، وعشاءً خريفيًا يحضره نحو 80 عضوًا.",
+      "of": "e0614085",
+      "at": [
+        "charlotte-country-day:community.cells[1].text"
+      ]
+    },
+    {
+      "t": "دبلوماسيون زائرون",
+      "of": "6637feeb",
+      "at": [
+        "charlotte-country-day:community.cells[2].name"
+      ]
+    },
+    {
+      "t": "تناول الطلاب الغداء مع سفراء ميانمار وفنلندا وجامايكا وجمهورية التشيك وألمانيا والرأس الأخضر.",
+      "of": "1466fd00",
+      "at": [
+        "charlotte-country-day:community.cells[2].text"
+      ]
+    },
+    {
+      "t": "احتفالات ثقافية",
+      "of": "249dea28",
+      "at": [
+        "charlotte-country-day:community.cells[3].name"
+      ]
+    },
+    {
+      "t": "رأس السنة القمرية مع أكثر من 1,000 فطيرة (dumpling) مصنوعة يدويًا، وTaste of Cultures، وهي سلسلة بدأت أواخر 2024 وبلغت فعاليتها الحادية عشرة، عن لبنان، في ربيع 2026.",
+      "of": "bfb7fdb2",
+      "at": [
+        "charlotte-country-day:community.cells[3].text"
+      ]
+    },
+    {
+      "t": "أندية عالمية",
+      "of": "6986c71f",
+      "at": [
+        "charlotte-country-day:community.cells[4].name"
+      ]
+    },
+    {
+      "t": "Model UN وGlobal Action Team في Middle School؛ وModel UN وInteract Club وInternational Studies Board وWorld Quest وEuro Challenge في Upper School.",
+      "of": "111e88c2",
+      "at": [
+        "charlotte-country-day:community.cells[4].text"
+      ]
+    },
+    {
+      "t": "قرابة خمسين عامًا من الإنجازات العالمية الأولى، من صندوق لدعم السفر في 1977 إلى برنامج من عشر رحلات وتبادلات في 2027.",
+      "of": "ba0034b8",
+      "at": [
+        "charlotte-country-day:milestones.headline"
+      ]
+    },
+    {
+      "t": "تؤرّخ Country Day برنامجها العالمي بوقف أُنشئ عام 1977، وأول برنامج لها في الدراسات الدولية بعام 1988،",
+      "of": "1a11d669",
+      "at": [
+        "charlotte-country-day:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "وتنسب إلى نفسها سلسلة من الإنجازات الأولى في نورث كارولاينا منذ ذلك الحين — كلٌّ منها أدناه كما تذكره المدرسة.",
+      "of": "28301b8b",
+      "at": [
+        "charlotte-country-day:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "صندوق لسفر الطلاب",
+      "of": "51eca8b1",
+      "at": [
+        "charlotte-country-day:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "يساعد Mildred Dalton Cox Endowment for International Studies الطلاب الذين لولاه لما تمكّنوا من المشاركة.",
+      "of": "8bd77410",
+      "at": [
+        "charlotte-country-day:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "أول مدرسة مستقلة في المنطقة تقدّم ESL.",
+      "of": "61c60610",
+      "at": [
+        "charlotte-country-day:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "الدراسات الدولية",
+      "of": "d16b87d2",
+      "at": [
+        "charlotte-country-day:milestones.events[2].title"
+      ]
+    },
+    {
+      "t": "أول برنامج للدراسات الدولية في شارلوت.",
+      "of": "be6521e4",
+      "at": [
+        "charlotte-country-day:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "بدء التبادل مع King Edward VI School.",
+      "of": "604dcdc6",
+      "at": [
+        "charlotte-country-day:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "المدارس الشقيقة",
+      "of": "1b610d9c",
+      "at": [
+        "charlotte-country-day:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "شراكات لـUpper School مع مدارس شقيقة في دول مثل فرنسا وألمانيا.",
+      "of": "e83554a0",
+      "at": [
+        "charlotte-country-day:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "IB Diploma",
+      "of": "bbf07cd5",
+      "at": [
+        "charlotte-country-day:milestones.events[5].title"
+      ]
+    },
+    {
+      "t": "أول مدرسة خاصة في نورث كارولاينا تقدّمه.",
+      "of": "9351da38",
+      "at": [
+        "charlotte-country-day:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "تبادلات Middle School",
+      "of": "48a8fcfe",
+      "at": [
+        "charlotte-country-day:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "واحدة من أولى المدارس المستقلة في المنطقة التي بدأت التبادلات على مستوى Middle School، بدءًا بمدرسة في مونتريال.",
+      "of": "5e86a105",
+      "at": [
+        "charlotte-country-day:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "زمالة لسفر المعلّمين",
+      "of": "1cdf7eba",
+      "at": [
+        "charlotte-country-day:milestones.events[7].title"
+      ]
+    },
+    {
+      "t": "تموّل J. R. Williams Fellowship السفر الدولي لمعلّم بعد خمس سنوات في Country Day.",
+      "of": "25f70e14",
+      "at": [
+        "charlotte-country-day:milestones.events[7].text"
+      ]
+    },
+    {
+      "t": "أول تبادل كامل للمعلّمين مع الصين في نورث كارولاينا.",
+      "of": "305ba6f9",
+      "at": [
+        "charlotte-country-day:milestones.events[8].text"
+      ]
+    },
+    {
+      "t": "كوبا",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-country-day:milestones.events[9].title"
+      ]
+    },
+    {
+      "t": "أول مدرسة في الولاية ترسل طلابًا إلى كوبا.",
+      "of": "51e2f1ce",
+      "at": [
+        "charlotte-country-day:milestones.events[9].text"
+      ]
+    },
+    {
+      "t": "كيبيك",
+      "of": "aa1129b8",
+      "at": [
+        "charlotte-country-day:milestones.events[10].title"
+      ]
+    },
+    {
+      "t": "بدء التبادل مع Externat Saint-Coeur de Marie.",
+      "of": "ed8217b1",
+      "at": [
+        "charlotte-country-day:milestones.events[10].text"
+      ]
+    },
+    {
+      "t": "توقّف",
+      "of": "3d69308e",
+      "at": [
+        "charlotte-country-day:milestones.events[11].title"
+      ]
+    },
+    {
+      "t": "توقّفت التجارب العالمية؛ وشهد صيف 2023 أولى الرحلات الصيفية منذ 2019.",
+      "of": "02769dd7",
+      "at": [
+        "charlotte-country-day:milestones.events[11].text"
+      ]
+    },
+    {
+      "t": "عشر رحلات وتبادلات",
+      "of": "7aa0e717",
+      "at": [
+        "charlotte-country-day:milestones.events[12].title"
+      ]
+    },
+    {
+      "t": "أربع رحلات لـUpper School وست تجارب لـMiddle School مخطَّط لها.",
+      "of": "d54a93f8",
+      "at": [
+        "charlotte-country-day:milestones.events[12].text"
+      ]
+    },
+    {
+      "t": "أين يتميّز البرنامج، وأحد عشر سؤالًا لا يجيب عنها موقع المدرسة بعد — أسعار رحلات Upper School، والمساعدة المالية، والاختيار، والسلامة.",
+      "of": "792e6c24",
+      "at": [
+        "charlotte-country-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "من بين المدارس الخاصة في شارلوت، تتميّز Country Day بمدى تبكير السفر وملموسيّته — ست تجارب منشورة لـMiddle School بدءًا من الصف السادس — وبتبادلات مع مدارس شقيقة مستمرة منذ 1991.",
+      "of": "fd3b6b6a",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "بداية من الصف السادس، مع نشر الصف وحجم المجموعة وطريقة الاختيار لكل رحلة من رحلات Middle School",
+      "of": "c813ec50",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "ثلاث مدارس شقيقة، مع إقامة لدى أسر مضيفة في الاتجاهين",
+      "of": "a555d5a6",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "سلسلة من الإنجازات الأولى على مستوى الولاية تنسبها المدرسة إلى نفسها: 1988، 1992، 2007، 2015",
+      "of": "fc5a13a6",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "مجتمع عالمي داخل الحرم المدرسي: 57 جنسية لأولياء الأمور وبرنامج ESL بدوام كامل",
+      "of": "68e599b0",
+      "at": [
+        "charlotte-country-day:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "أسعار رحلات Upper School.",
+      "of": "88a23151",
+      "at": [
+        "charlotte-country-day:verdict.ask[0].topic"
+      ]
+    },
+    {
+      "t": "أسعار رحلات Upper School لعام 2027 غير منشورة. كم تكلّف الرحلة، وماذا تشمل؟ أما صفحات Middle School فتذكر أسعارها.",
+      "of": "c1242d91",
+      "at": [
+        "charlotte-country-day:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "كم يمنح وقف Cox كل عام، وهل تمتد المساعدة في الرسوم الدراسية لتشمل تكاليف الرحلات؟",
+      "of": "4d7b6059",
+      "at": [
+        "charlotte-country-day:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "بعيدًا عن أولوية اللغة، كيف تُحسم الأماكن في Upper School عندما يتجاوز الطلب على رحلة ما عدد الأماكن المتاحة؟",
+      "of": "1eb583ed",
+      "at": [
+        "charlotte-country-day:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "يراجع المدير شركاء السفر شخصيًا، لكن لا يوجد بروتوكول منشور. ما الجهات المزوّدة المعتمدة، وما التأمين المعمول به، وما نسب المرافقين إلى الطلاب؟",
+      "of": "d8946575",
+      "at": [
+        "charlotte-country-day:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "رحلات 2025–26.",
+      "of": "075a6403",
+      "at": [
+        "charlotte-country-day:verdict.ask[4].topic"
+      ]
+    },
+    {
+      "t": "هل أُقيمت رحلات Upper School في 2025–26؟ فالصفحة الحالية لا تذكر الآن سوى رحلات 2027.",
+      "of": "8e147454",
+      "at": [
+        "charlotte-country-day:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "صف رحلة فرنسا.",
+      "of": "06d2855d",
+      "at": [
+        "charlotte-country-day:verdict.ask[5].topic"
+      ]
+    },
+    {
+      "t": "هل رحلة Middle School إلى فرنسا مفتوحة لطلاب الصف السابع؟ فعنوانها يذكر الصفين السابع والثامن، لكن شروط الأهلية تذكر الصف الثامن.",
+      "of": "2e69da42",
+      "at": [
+        "charlotte-country-day:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Jinrui.",
+      "of": "e6f81128",
+      "at": [
+        "charlotte-country-day:verdict.ask[6].topic"
+      ]
+    },
+    {
+      "t": "هل Jinrui School في شنغهاي مدرسة شقيقة رسميًا؟ فهي غير مدرجة في القائمة المنشورة للشركاء الحاليين.",
+      "of": "cc4f9226",
+      "at": [
+        "charlotte-country-day:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "الاستضافة.",
+      "of": "bbbc8485",
+      "at": [
+        "charlotte-country-day:verdict.ask[7].topic"
+      ]
+    },
+    {
+      "t": "هل يُشترط على أسر التبادل أن تستضيف طالبًا من المدرسة الشقيقة في المقابل؟",
+      "of": "22530a9f",
+      "at": [
+        "charlotte-country-day:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Lower School واللغات.",
+      "of": "66e50ac2",
+      "at": [
+        "charlotte-country-day:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "ما المنهج العالمي واللغوي المعتمد قبل Middle School، وهل يوجد تسلسل منشور لتعلّم اللغات من JK حتى الصف 12؟",
+      "of": "9259a6b1",
+      "at": [
+        "charlotte-country-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "الشهادة.",
+      "of": "81c33a02",
+      "at": [
+        "charlotte-country-day:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "هل من المخطَّط إطلاق شهادة أو دبلوم عالمي؟",
+      "of": "5a84f0d0",
+      "at": [
+        "charlotte-country-day:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "كم عدد الطلاب الذين يسافرون كل عام؟ آخر رقم منشور هو 65 طالبًا من Middle School، في 2018–19.",
+      "of": "4f2ce549",
+      "at": [
+        "charlotte-country-day:verdict.ask[10].question"
       ]
     }
   ]

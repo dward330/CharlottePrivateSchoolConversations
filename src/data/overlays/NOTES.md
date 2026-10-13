@@ -2833,3 +2833,61 @@ Exposure", and each locale translated the *concept* rather than the words
   topics' stat tiles (`AdmissionsProgram`, `FinancialAidReport`, the Compare-metric
   tiles) do not isolate their value either; none was audited for a leading/trailing
   neutral in this pass.
+
+## Charlotte Country Day (`ccdglobal`) — Phase 2, 2026-10-12/13
+
+The second school in the area. 240 strings × 9 locales, spliced by stamp (242 kept, **0
+dropped**: no Providence Day prose changed), plus 6 chrome keys. These are the new generic
+`signup` title, `community`, `milestones`, `network@charlotte-country-day`, and
+`travel.out` / `travel.in`, which became the school-neutral "Abroad:" / "Visiting:".
+Providence Day's "& GSD" title was **moved** into `signup@providence-day` in Phase 1
+(each locale's existing string, untouched), so it never regressed to English.
+
+**Soft spots for a reviewer:**
+
+- **"Visiting:" (`travel.in`) is the loosest label in every locale.** It sits before
+  sentences like "Québec students visit in the spring". Several locales chose a noun
+  rather than a participle, to avoid echoing the sentence: hi/bn *आगमन / আগমন*
+  ("arrival"), fa *مهمانان* ("guests"), ar *الزوّار* ("the visitors"), te *సందర్శన*
+  ("visit"). Each reads naturally in context; a native reviewer may prefer another.
+- **"Firsts & Milestones" has no idiomatic equivalent anywhere.** The renderings are es
+  *Primicias e hitos*, fr *Premières et jalons*, it *Primati e tappe*, ht *Premye Fwa ak
+  Gwo Etap*, hi *पहली उपलब्धियाँ और अहम पड़ाव*. Spanish *primicias* can read as
+  journalistic ("scoops").
+- **"Sister school / sister city"**: es *colegio hermano*, fr *école jumelle*, it *scuola
+  gemellata*, ar *مدرسة شقيقة*, te *సోదర పాఠశాల*. bn transliterates (*সিস্টার স্কুল*).
+- **Identifier keeps, all nine:** the school and program names (King Edward VI School,
+  Externat Saint-Coeur de Marie, Prescott School, Jinrui School, Academic WorldQuest,
+  CHARMUN/VAMUN/MUNCH, Maine Coast Semester, …), "Global starts Local" (a quoted motto)
+  and the Lower/Middle/Upper School identifiers. Form names (Parents' Financial Statement,
+  Global Programs Financial Aid Application) stay English. "Office of International
+  Studies" stays English except in **fa** (*دفتر مطالعات بین‌المللی*). That split is
+  deliberate either way, because the office name is not on a searchable form.
+- **The 1988 milestone title "International Studies"** is kept English in six locales as
+  the program's name; ht/fa/ar translate it. Both readings are correct, and `i18n:leaks`
+  will keep listing it.
+- **Place names** follow each locale's exonyms (es *Breslavia*, it *Breslavia*, *Cordova*,
+  fr *Birmanie*). The non-Latin locales transliterate (fa *آرکیپا*, *وروتسواف*;
+  te/hi/bn likewise). The fa and ht agents flagged their less-common transliterations as
+  worth a native check: ht *Kòdoba*, *Erkilanòm*; fa *کرفلد*, *مونته‌ورده*, *شی‌آن*.
+- **Fixed in the cross-locale pass, as genuine leaks:**
+  - it kept **"Québec City"** in five places, where the other eight translated it. It now
+    reads *Città del Québec*.
+  - hi kept **"English as a Second Language"**, where the other eight translated it. It
+    now uses te/bn's pattern, with the native phrase and the English name in brackets
+    (te and bn had fixed their own copies already).
+  - es *…con China de Carolina del Norte* ("China of North Carolina") now reads *…con
+    China en Carolina del Norte*.
+- **`i18n:leaks` residue that is a KEEP:** destination names spelled identically in a
+  Latin locale (Canada, Cuba, Costa Rica, Québec, Rwanda, Argentina, Arequipa,
+  Monteverde, Southampton), "Jinrui." (bn/hi carry the danda: *Jinrui।*, as with their
+  existing *GSD।*), and "International Studies" (above).
+- **Pre-existing, not from this pass:** the ar Providence Day entry `e3c6252e` ("Food is
+  Love … ‏19 مدرسة") stores a U+200F RLM before the 19. That is the only stored bidi
+  mark in the ar/fa overlays. It renders correctly, so it was left alone.
+- **`check_work_integrity` cannot validate a new-school splice.** Its length assertion
+  exits before the per-entry checks, so all nine locales report "242 → 482" and "0 newly
+  translated". The same assertions were run directly against `main` by stamp: 0 lost,
+  0 English or stamps mutated, 0 Providence Day `t` overwritten, 240 new entries (all
+  Country Day), 0 empty. Cross-Latin byte-identical comparison found 1 pair, a
+  legitimate PD keep ("…Future Problem Solvers o World Quest", es = it).
