@@ -1,11 +1,11 @@
 ---
 name: pdcommunity
 title: Add Global Community on Campus and Firsts & Milestones to Providence Day's Global Exposure, from a focused Claude deep-research PDF
-status: in-progress
+status: implemented
 phases: 2
 created: 2026-10-13
 branch: feat/pdcommunity
-prs: []
+prs: [346]
 ---
 
 # Providence Day — Global Community on Campus + Firsts & Milestones
