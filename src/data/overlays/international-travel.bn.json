@@ -166,6 +166,10 @@
         "providence-day:trips.years[0].trips[2].dest",
         "providence-day:trips.years[4].trips[2].dest",
         "providence-day:exchanges.partners[7].country",
+        "charlotte-latin:trips.years[0].trips[1].dest",
+        "charlotte-latin:trips.years[2].trips[3].dest",
+        "charlotte-latin:exchanges.partners[1].country",
+        "charlotte-latin:milestones.events[1].title",
         "charlotte-country-day:trips.years[0].trips[2].dest"
       ]
     },
@@ -268,6 +272,9 @@
       "of": "a2a8f2aa",
       "at": [
         "providence-day:trips.years[2].trips[1].dest",
+        "charlotte-latin:trips.years[0].trips[6].dest",
+        "charlotte-latin:trips.years[2].trips[2].dest",
+        "charlotte-latin:trips.years[3].trips[1].dest",
         "charlotte-country-day:trips.years[0].trips[3].dest",
         "charlotte-country-day:trips.years[1].trips[1].dest",
         "charlotte-country-day:exchanges.partners[1].country"
@@ -362,7 +369,8 @@
       "t": "12 জন শিক্ষার্থী",
       "of": "96b4c0d2",
       "at": [
-        "providence-day:trips.years[2].trips[4].group"
+        "providence-day:trips.years[2].trips[4].group",
+        "charlotte-latin:trips.years[2].trips[5].group"
       ]
     },
     {
@@ -377,7 +385,14 @@
       "of": "af086de8",
       "at": [
         "providence-day:trips.years[2].trips[5].dest",
-        "providence-day:exchanges.partners[3].country"
+        "providence-day:exchanges.partners[3].country",
+        "charlotte-latin:trips.years[0].trips[3].dest",
+        "charlotte-latin:trips.years[0].trips[4].dest",
+        "charlotte-latin:trips.years[1].trips[4].dest",
+        "charlotte-latin:trips.years[2].trips[5].dest",
+        "charlotte-latin:exchanges.partners[5].country",
+        "charlotte-latin:exchanges.partners[6].country",
+        "charlotte-latin:milestones.events[5].title"
       ]
     },
     {
@@ -523,6 +538,8 @@
       "of": "e6d1e3ee",
       "at": [
         "providence-day:trips.years[4].trips[1].dest",
+        "charlotte-latin:trips.years[0].trips[5].dest",
+        "charlotte-latin:trips.years[2].trips[6].dest",
         "charlotte-country-day:trips.years[1].trips[4].dest"
       ]
     },
@@ -544,7 +561,9 @@
       "t": "গ্রীষ্ম 2023",
       "of": "8ed4e465",
       "at": [
-        "providence-day:trips.years[4].trips[1].timing"
+        "providence-day:trips.years[4].trips[1].timing",
+        "charlotte-latin:trips.years[3].trips[0].timing",
+        "charlotte-latin:trips.years[3].trips[1].timing"
       ]
     },
     {
@@ -700,7 +719,8 @@
       "t": "TK–5",
       "of": "f79ad9ec",
       "at": [
-        "providence-day:start.divisions[0].grades"
+        "providence-day:start.divisions[0].grades",
+        "charlotte-latin:start.divisions[0].grades"
       ]
     },
     {
@@ -749,7 +769,8 @@
       "t": "6–8",
       "of": "b7020a62",
       "at": [
-        "providence-day:start.divisions[1].grades"
+        "providence-day:start.divisions[1].grades",
+        "charlotte-latin:start.divisions[1].grades"
       ]
     },
     {
@@ -785,6 +806,7 @@
       "of": "c8cc9d8a",
       "at": [
         "providence-day:start.divisions[2].grades",
+        "charlotte-latin:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades"
       ]
     },
@@ -863,6 +885,7 @@
       "of": "15441234",
       "at": [
         "providence-day:start.languages.steps[2].when",
+        "charlotte-latin:signup.groups[0].events[4].audience",
         "charlotte-country-day:signup.groups[1].events[0].audience"
       ]
     },
@@ -967,7 +990,10 @@
       "of": "263d0c7e",
       "at": [
         "providence-day:exchanges.partners[4].country",
-        "providence-day:exchanges.partners[5].country"
+        "providence-day:exchanges.partners[5].country",
+        "charlotte-latin:trips.years[1].trips[0].dest",
+        "charlotte-latin:exchanges.partners[0].country",
+        "charlotte-latin:milestones.events[0].title"
       ]
     },
     {
@@ -1340,6 +1366,7 @@
       "of": "d43cddb9",
       "at": [
         "providence-day:network.rows[0].label",
+        "charlotte-latin:network.rows[0].label",
         "charlotte-country-day:network.rows[0].label"
       ]
     },
@@ -1397,6 +1424,7 @@
       "of": "4427b993",
       "at": [
         "providence-day:signup.groups[0].note",
+        "charlotte-latin:signup.groups[1].note",
         "charlotte-country-day:signup.groups[1].note"
       ]
     },
@@ -1936,6 +1964,7 @@
       "of": "b17a4d3d",
       "at": [
         "providence-day:verdict.ask[2].topic",
+        "charlotte-latin:verdict.ask[5].topic",
         "charlotte-country-day:verdict.ask[1].topic"
       ]
     },
@@ -2023,6 +2052,7 @@
       "of": "b8f5ed2d",
       "at": [
         "providence-day:verdict.ask[8].topic",
+        "charlotte-latin:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic"
       ]
     },
@@ -2031,6 +2061,1644 @@
       "of": "c588ed4f",
       "at": [
         "providence-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Global Studies-এর ভ্রমণ গ্রেড 6 থেকেই শিক্ষার্থীদের জন্য খোলা, আর পুরো ব্যবস্থাটি গড়ে উঠেছে চার মহাদেশের সাতটি সিস্টার স্কুলকে ঘিরে, আর্জেন্টিনা, ফ্রান্স, ইতালি ও দক্ষিণ আফ্রিকায় দুই দিক থেকেই হোমস্টে-সহ।",
+      "of": "f725529b",
+      "at": [
+        "charlotte-latin:lead.strong"
+      ]
+    },
+    {
+      "t": "2026–27 সালে আটটি গ্রীষ্মকালীন কার্যক্রম রয়েছে — দক্ষিণ আফ্রিকায় ক্রেডিটযুক্ত একটি নেতৃত্ব-কোর্স থেকে শুরু করে Independent Schools Cultural Alliance-এর সঙ্গে ইংল্যান্ডে দুই সপ্তাহ পর্যন্ত।",
+      "of": "85768621",
+      "at": [
+        "charlotte-latin:lead.muted"
+      ]
+    },
+    {
+      "t": "সিস্টার স্কুল",
+      "of": "c05de3fc",
+      "at": [
+        "charlotte-latin:stats[0].label"
+      ]
+    },
+    {
+      "t": "জার্মানি, ফ্রান্স, আর্জেন্টিনা, ইতালি, চীন ও দক্ষিণ আফ্রিকায়",
+      "of": "57298f03",
+      "at": [
+        "charlotte-latin:stats[0].note"
+      ]
+    },
+    {
+      "t": "প্রথম সিস্টার স্কুল",
+      "of": "2586c8f5",
+      "at": [
+        "charlotte-latin:stats[1].label"
+      ]
+    },
+    {
+      "t": "Jugenddorf Christophorusschule, Bad Zwesten, জার্মানি",
+      "of": "916b5920",
+      "at": [
+        "charlotte-latin:stats[1].note"
+      ]
+    },
+    {
+      "t": "ভ্রমণ কার্যক্রম",
+      "of": "4613274a",
+      "at": [
+        "charlotte-latin:stats[2].label"
+      ]
+    },
+    {
+      "t": "2026–27 সালে, গ্রেড 6–11-এর শিক্ষার্থীদের জন্য",
+      "of": "73127b23",
+      "at": [
+        "charlotte-latin:stats[2].note"
+      ]
+    },
+    {
+      "t": "অতিথি সিস্টার-স্কুল দল",
+      "of": "f810a3e9",
+      "at": [
+        "charlotte-latin:stats[3].label"
+      ]
+    },
+    {
+      "t": "2026–27 সালে Latin পরিবারগুলোর আতিথ্যে",
+      "of": "3a949212",
+      "at": [
+        "charlotte-latin:stats[3].note"
+      ]
+    },
+    {
+      "t": "চারটি শিক্ষাবর্ষের — 2022–23, 2024–25, 2025–26 ও 2026–27 — বাইশটি ভ্রমণ; বুয়েনোস আইরেস, বোর্দো ও গুয়াস্তাল্লায় সিস্টার-স্কুলে হোমস্টে থেকে শুরু করে দক্ষিণ আফ্রিকায় ক্রেডিটযুক্ত একটি নেতৃত্ব-কোর্স পর্যন্ত। বিভাগ অনুযায়ী ফিল্টার করুন।",
+      "of": "48e680bf",
+      "at": [
+        "charlotte-latin:trips.headline"
+      ]
+    },
+    {
+      "t": "2026–27-এর প্রতিটি কার্যক্রম গ্রীষ্মে হয় এবং গ্রেড 6–11-এর শিক্ষার্থীদের জন্য খোলা; আবেদন একটিই, সঙ্গে একজন শিক্ষক বা কর্মীর রেফারেন্স — আর Upper School-এর জন্য একটি সাক্ষাৎকার।",
+      "of": "8d4bd0f7",
+      "at": [
+        "charlotte-latin:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Upper School-এর বেশিরভাগ ভ্রমণের আয়োজক Latin-এর সিস্টার স্কুলগুলো, আর যে শিক্ষার্থীরা সিস্টার-স্কুল বিনিময়ে ভ্রমণ করে, বিনিময়ে একজন অতিথি শিক্ষার্থীকে আতিথ্য দিতে তাদের জোরালোভাবে উৎসাহিত করা হয়।",
+      "of": "18b93c50",
+      "at": [
+        "charlotte-latin:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "আটটি কার্যক্রমই গ্রীষ্ম 2027-এ",
+      "of": "a1403c91",
+      "at": [
+        "charlotte-latin:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "আর্জেন্টিনা",
+      "of": "cc75630e",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].dest",
+        "charlotte-latin:trips.years[1].trips[1].dest",
+        "charlotte-latin:trips.years[2].trips[0].dest",
+        "charlotte-latin:trips.years[3].trips[0].dest",
+        "charlotte-latin:exchanges.partners[2].country",
+        "charlotte-latin:exchanges.photo.caption.title",
+        "charlotte-latin:milestones.events[2].title",
+        "charlotte-country-day:trips.years[0].trips[9].dest"
+      ]
+    },
+    {
+      "t": "বুয়েনোস আইরেস — Colegio Carmen Arriola de Marin",
+      "of": "697d1d2d",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].place",
+        "charlotte-latin:trips.years[3].trips[0].place"
+      ]
+    },
+    {
+      "t": "গ্রেড 10–12-এ উঠতে যাওয়া শিক্ষার্থী · সর্বোচ্চ 12 জন শিক্ষার্থী",
+      "of": "37fea528",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].group",
+        "charlotte-latin:trips.years[0].trips[1].group",
+        "charlotte-latin:trips.years[0].trips[2].group",
+        "charlotte-latin:trips.years[0].trips[3].group",
+        "charlotte-latin:trips.years[0].trips[5].group"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময় · ভাষা ও সংস্কৃতি · হোস্ট ভাইবোনদের সঙ্গে ক্লাস",
+      "of": "79c0b19f",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2027",
+      "of": "8ad4de19",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].timing",
+        "charlotte-latin:trips.years[0].trips[1].timing",
+        "charlotte-latin:trips.years[0].trips[2].timing",
+        "charlotte-latin:trips.years[0].trips[3].timing",
+        "charlotte-latin:trips.years[0].trips[4].timing",
+        "charlotte-latin:trips.years[0].trips[5].timing",
+        "charlotte-latin:trips.years[0].trips[6].timing",
+        "charlotte-latin:trips.years[0].trips[7].timing",
+        "charlotte-country-day:trips.years[0].trips[9].timing"
+      ]
+    },
+    {
+      "t": "বুয়েনোস আইরেস",
+      "of": "bf9b1fed",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].homestay",
+        "charlotte-latin:trips.years[3].trips[0].homestay"
+      ]
+    },
+    {
+      "t": "বোর্দো — Sainte Marie Grand LeBrun, তারপর প্যারিসে তিন দিন",
+      "of": "5c621575",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময় · ভাষা ও সংস্কৃতি · আর্কাশোঁ ও সাঁত-এমিলিয়ঁতে দিনব্যাপী ভ্রমণ",
+      "of": "2c677e52",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "বোর্দো",
+      "of": "7704ba1f",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[1].homestay",
+        "charlotte-latin:trips.years[2].trips[3].place",
+        "charlotte-latin:trips.years[2].trips[3].homestay"
+      ]
+    },
+    {
+      "t": "ইতালি",
+      "of": "3415f00c",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].dest",
+        "charlotte-latin:trips.years[2].trips[4].dest",
+        "charlotte-latin:exchanges.partners[3].country",
+        "charlotte-latin:milestones.events[3].title",
+        "charlotte-country-day:trips.years[0].trips[5].dest",
+        "charlotte-country-day:trips.years[2].trips[0].dest"
+      ]
+    },
+    {
+      "t": "মিলান, গুয়াস্তাল্লা — Istituto Bertrand Russell, তারপর ভেনিস",
+      "of": "268388f6",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময় · সাংস্কৃতিক নিমজ্জন · হোস্ট পরিবারের সঙ্গে এক সপ্তাহ",
+      "of": "e32de09d",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "গুয়াস্তাল্লা",
+      "of": "0f4a0b11",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].homestay"
+      ]
+    },
+    {
+      "t": "কেপটাউন, ডারবান + পিটারমারিৎসবার্গ",
+      "of": "701e6c2f",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[3].place"
+      ]
+    },
+    {
+      "t": "Cultural and Comparative Leadership — Upper School-এর ক্রেডিটযুক্ত একটি নেতৃত্ব-বিষয়ক ঐচ্ছিক কোর্স, যার গ্রেড ট্রান্সক্রিপ্টে ওঠে · Hilton College ও St. Anne's-এ কর্মশালা",
+      "of": "79aca1fd",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[3].theme"
+      ]
+    },
+    {
+      "t": "পিটারমারিৎসবার্গ — St. Anne's Diocesan College ও Hilton College",
+      "of": "ff1347cd",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].place"
+      ]
+    },
+    {
+      "t": "দুজন মেয়ে ও দুজন ছেলে, জুনিয়র ও সিনিয়র বর্ষে উঠতে যাওয়া শিক্ষার্থী",
+      "of": "8138e7cc",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].group"
+      ]
+    },
+    {
+      "t": "চার থেকে ছয় সপ্তাহের দীর্ঘমেয়াদি সিস্টার-স্কুল বিনিময় · মেয়েরা হোস্ট পরিবারের সঙ্গে থাকে; ছেলেরা Hilton College-এ বোর্ডিংয়ে থাকে",
+      "of": "b7ae07f2",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].theme"
+      ]
+    },
+    {
+      "t": "পিটারমারিৎসবার্গ",
+      "of": "1b82e6c3",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].homestay"
+      ]
+    },
+    {
+      "t": "কাদিস",
+      "of": "0c964340",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[5].place",
+        "charlotte-latin:trips.years[0].trips[5].homestay"
+      ]
+    },
+    {
+      "t": "Centro Mundolengua-পরিচালিত দুই সপ্তাহের ভাষা-নিমজ্জন · Spanish III এবং/অথবা একজন স্প্যানিশ শিক্ষকের সুপারিশ আবশ্যক",
+      "of": "d4f9322e",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[5].theme"
+      ]
+    },
+    {
+      "t": "দক্ষিণ ইংল্যান্ড, Independent Schools Cultural Alliance-এর সঙ্গে",
+      "of": "50c9b7c3",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[6].place",
+        "charlotte-latin:trips.years[3].trips[1].place"
+      ]
+    },
+    {
+      "t": "গ্রেড 7–9-এ উঠতে যাওয়া শিক্ষার্থী · সর্বোচ্চ 12 জন শিক্ষার্থী",
+      "of": "172e1ea0",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[6].group"
+      ]
+    },
+    {
+      "t": "বিশ্বের নানা স্কুলের শিক্ষার্থীদের সঙ্গে দুই সপ্তাহ · অক্সফোর্ড, স্টোনহেঞ্জ ও স্ট্র্যাটফোর্ড-আপন-এভন",
+      "of": "1502e482",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[6].theme"
+      ]
+    },
+    {
+      "t": "কানাডা",
+      "of": "5cf10bfb",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].dest",
+        "charlotte-latin:trips.years[2].trips[1].dest",
+        "charlotte-country-day:trips.years[0].trips[0].dest",
+        "charlotte-country-day:exchanges.partners[0].country"
+      ]
+    },
+    {
+      "t": "মন্ট্রিয়ল + কুইবেক সিটি",
+      "of": "03189eda",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].place"
+      ]
+    },
+    {
+      "t": "গ্রেড 7–9-এ উঠতে যাওয়া শিক্ষার্থী · সর্বোচ্চ 20 জন শিক্ষার্থী",
+      "of": "74ee5f07",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].group"
+      ]
+    },
+    {
+      "t": "পাঁচ দিনের ভাষা ও সাংস্কৃতিক নিমজ্জন · ফরাসি ক্লাস করা আবশ্যক নয় · প্রতি দুই বছর অন্তর আয়োজিত",
+      "of": "c669bd72",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].theme"
+      ]
+    },
+    {
+      "t": "শরৎ 2025-এ যেমন রাখা হয়েছিল, Upper School-এর কার্যক্রম",
+      "of": "fe8375cc",
+      "at": [
+        "charlotte-latin:trips.years[1].note"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময় · উদ্ভাবন ও নকশা",
+      "of": "1842b46c",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময়",
+      "of": "d3068f55",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[1].theme",
+        "charlotte-latin:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "নিউ মেক্সিকো",
+      "of": "48a75914",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[2].dest"
+      ]
+    },
+    {
+      "t": "শিল্পকলায় নিমজ্জন",
+      "of": "678148a8",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "বেলজিয়াম ও নেদারল্যান্ডস",
+      "of": "cbc4811b",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[3].dest"
+      ]
+    },
+    {
+      "t": "শান্তি, ন্যায়বিচার ও স্মৃতি",
+      "of": "4ab911e2",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[3].theme"
+      ]
+    },
+    {
+      "t": "কেপটাউন + ডারবানের আশপাশ",
+      "of": "494c74c8",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[4].place"
+      ]
+    },
+    {
+      "t": "Cultural and Comparative Leadership · আড়াই সপ্তাহের একটি কোর্স",
+      "of": "568f0902",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2026",
+      "of": "89d4dc86",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[4].timing"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2025",
+      "of": "9ba947d3",
+      "at": [
+        "charlotte-latin:trips.years[2].note"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2025",
+      "of": "88d4daf3",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[0].timing",
+        "charlotte-latin:trips.years[2].trips[1].timing",
+        "charlotte-latin:trips.years[2].trips[2].timing",
+        "charlotte-latin:trips.years[2].trips[3].timing",
+        "charlotte-latin:trips.years[2].trips[4].timing",
+        "charlotte-latin:trips.years[2].trips[5].timing",
+        "charlotte-latin:trips.years[2].trips[6].timing"
+      ]
+    },
+    {
+      "t": "কুইবেক",
+      "of": "aa1129b8",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[1].place",
+        "charlotte-latin:milestones.events[8].title",
+        "charlotte-country-day:milestones.events[10].title"
+      ]
+    },
+    {
+      "t": "22 জন শিক্ষার্থী",
+      "of": "0e3c157f",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[1].group"
+      ]
+    },
+    {
+      "t": "পাঁচ দিনের ফরাসি ভাষা-নিমজ্জন · সে বছর নতুন",
+      "of": "e97b398d",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Independent Schools Cultural Alliance-এর সঙ্গে",
+      "of": "9fe6e4ba",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময় · কোনো ট্যুর আয়োজক ছাড়াই স্কুলের নিজের পরিকল্পনায়",
+      "of": "ec4f3fea",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[3].theme",
+        "charlotte-latin:trips.years[2].trips[4].theme"
+      ]
+    },
+    {
+      "t": "দুই সপ্তাহেরও বেশি সময়ের একটি নেতৃত্ব-কোর্স, শিক্ষাগত ক্রেডিটের জন্য Latin-এর প্রথম ভ্রমণ · গান্ধী পাঠ এবং একটি প্রাথমিক বিদ্যালয়ে স্বেচ্ছাসেবা",
+      "of": "3b430b08",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[5].theme"
+      ]
+    },
+    {
+      "t": "ভাষা-নিমজ্জন",
+      "of": "21dd6828",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[6].theme",
+        "charlotte-country-day:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2023",
+      "of": "a1a95145",
+      "at": [
+        "charlotte-latin:trips.years[3].note"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুল বিনিময় · সিস্টার স্কুলে ক্লাস, বুয়েনোস আইরেস ও টিগ্রে ব-দ্বীপের আশপাশে দিনব্যাপী ভ্রমণ",
+      "of": "5979515a",
+      "at": [
+        "charlotte-latin:trips.years[3].trips[0].theme"
+      ]
+    },
+    {
+      "t": "দুই সপ্তাহ · পার্লামেন্ট, অক্সফোর্ড, বাথ, স্টোনহেঞ্জ ও স্ট্র্যাটফোর্ড-আপন-এভন",
+      "of": "b8130451",
+      "at": [
+        "charlotte-latin:trips.years[3].trips[1].theme"
+      ]
+    },
+    {
+      "t": "দক্ষিণ আফ্রিকার উত্তমাশা অন্তরীপে Charlotte Latin-এর Upper School শিক্ষার্থীরা",
+      "of": "13e1df91",
+      "at": [
+        "charlotte-latin:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "দক্ষিণ আফ্রিকা, 2025",
+      "of": "cc8225bb",
+      "at": [
+        "charlotte-latin:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "উত্তমাশা অন্তরীপে নেতৃত্ব-কোর্স — শিক্ষাগত ক্রেডিটের জন্য Latin-এর প্রথম ভ্রমণ।",
+      "of": "e5a6e67e",
+      "at": [
+        "charlotte-latin:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "ছবি: Charlotte Latin School",
+      "of": "0f7b8c87",
+      "at": [
+        "charlotte-latin:trips.photo.credit",
+        "charlotte-latin:exchanges.photo.credit"
+      ]
+    },
+    {
+      "t": "কোস্টা রিকা ও ইয়েলোস্টোন।",
+      "of": "39fefb96",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[0].lead",
+        "charlotte-latin:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "Global Education পাতায় Middle School-এর আরও কিছু কার্যক্রম তালিকাভুক্ত আছে — কোস্টা রিকায় (নেতৃত্ব ও টেকসইতা) এবং ইয়েলোস্টোন ও গ্র্যান্ড টিটনে (নেতৃত্ব ও পরিবেশ) — তবে কোনো বছর উল্লেখ নেই।",
+      "of": "91a39890",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "শ্রেণিভিত্তিক ভ্রমণ।",
+      "of": "91a67df7",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "Global Studies-এর ভ্রমণ থেকে আলাদা, Middle School-এর গ্রেডভিত্তিক শ্রেণি-ভ্রমণগুলো যায় আটলান্টা, কুইবেক ও ওয়াশিংটন, ডি.সি.-তে, শুরু গ্রেড 6 থেকে।",
+      "of": "c8abd2b5",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "1989 থেকে সাতটি সিস্টার স্কুল — এর মধ্যে পাঁচটি 2026–27 সালে Charlotte-এ আসছে — আর আর্জেন্টিনা, ফ্রান্স, ইতালি ও দক্ষিণ আফ্রিকায় দুই দিক থেকেই হোমস্টে।",
+      "of": "ac4b4487",
+      "at": [
+        "charlotte-latin:exchanges.headline"
+      ]
+    },
+    {
+      "t": "Latin দুই বা ছয় সপ্তাহের বিনিময়ের জন্য সিস্টার-স্কুলের দলগুলোকে স্বাগত জানায়: অতিথিরা Latin পরিবারগুলোর সঙ্গে থাকে এবং হোস্ট ভাইবোনদের সঙ্গে ক্লাস করে, আর Latin গ্রীষ্মকালীন কার্যক্রমের মাধ্যমে ফিরতি সফর করে।",
+      "of": "e56579d6",
+      "at": [
+        "charlotte-latin:exchanges.intro.strong"
+      ]
+    },
+    {
+      "t": "স্কুলের সিস্টার-স্কুল বিনিময়ের সম্পর্কগুলো 30 বছরেরও বেশি পুরোনো।",
+      "of": "c6120b5f",
+      "at": [
+        "charlotte-latin:exchanges.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School-এর শিক্ষার্থীরা, গ্রীষ্ম 2027-এ",
+      "of": "ccbcc4a2",
+      "at": [
+        "charlotte-latin:exchanges.partners[1].out",
+        "charlotte-latin:exchanges.partners[2].out"
+      ]
+    },
+    {
+      "t": "বোর্দোর শিক্ষার্থীরা বসন্তে আসে",
+      "of": "c23bc2db",
+      "at": [
+        "charlotte-latin:exchanges.partners[1].in"
+      ]
+    },
+    {
+      "t": "Marín-এর 12 জন শিক্ষার্থী শীতে আসে",
+      "of": "daa82b60",
+      "at": [
+        "charlotte-latin:exchanges.partners[2].in"
+      ]
+    },
+    {
+      "t": "Upper School-এর শিক্ষার্থীরা, গ্রীষ্ম 2027-এ এক সপ্তাহের হোমস্টের জন্য",
+      "of": "a84f710b",
+      "at": [
+        "charlotte-latin:exchanges.partners[3].out"
+      ]
+    },
+    {
+      "t": "Russell-এর 12 জন শিক্ষার্থী শরতে আসে",
+      "of": "1ea2070a",
+      "at": [
+        "charlotte-latin:exchanges.partners[3].in"
+      ]
+    },
+    {
+      "t": "চীন",
+      "of": "94da8330",
+      "at": [
+        "charlotte-latin:exchanges.partners[4].country",
+        "charlotte-latin:milestones.events[4].title",
+        "charlotte-country-day:trips.years[0].trips[8].dest",
+        "charlotte-country-day:milestones.events[8].title"
+      ]
+    },
+    {
+      "t": "দুজন ছেলে, গ্রীষ্ম 2027-এ চার থেকে ছয় সপ্তাহ বোর্ডিংয়ে",
+      "of": "925d6530",
+      "at": [
+        "charlotte-latin:exchanges.partners[5].out"
+      ]
+    },
+    {
+      "t": "Hilton-এর দুজন শিক্ষার্থী শরতের শেষ দিকে ছয় সপ্তাহের জন্য আসে",
+      "of": "6ef2932c",
+      "at": [
+        "charlotte-latin:exchanges.partners[5].in"
+      ]
+    },
+    {
+      "t": "দুজন মেয়ে, গ্রীষ্ম 2027-এ চার থেকে ছয় সপ্তাহ হোস্ট পরিবারের সঙ্গে",
+      "of": "d4814c80",
+      "at": [
+        "charlotte-latin:exchanges.partners[6].out"
+      ]
+    },
+    {
+      "t": "St. Anne's-এর দুজন শিক্ষার্থী শরতে ছয় সপ্তাহের জন্য আসে",
+      "of": "ab136b26",
+      "at": [
+        "charlotte-latin:exchanges.partners[6].in"
+      ]
+    },
+    {
+      "t": "আর্জেন্টিনায় কাঠের একটি পর্যবেক্ষণ-মঞ্চে Charlotte Latin-এর শিক্ষার্থীরা",
+      "of": "79da2030",
+      "at": [
+        "charlotte-latin:exchanges.photo.alt"
+      ]
+    },
+    {
+      "t": "আর্জেন্টিনায় Latin-এর শিক্ষার্থীরা — সেখানে সিস্টার-স্কুল বিনিময়ের শুরু 1998 সালে।",
+      "of": "8a1ea4b4",
+      "at": [
+        "charlotte-latin:exchanges.photo.caption.text"
+      ]
+    },
+    {
+      "t": "বুয়েনোস আইরেস, আর্জেন্টিনা",
+      "of": "5f0347e2",
+      "at": [
+        "charlotte-latin:exchanges.homestays[0].place"
+      ]
+    },
+    {
+      "t": "Upper School-এর শিক্ষার্থীরা দ্বিভাষিক সিস্টার স্কুল Colegio Carmen Arriola de Marin-এর হোস্ট পরিবারগুলোর সঙ্গে থাকে এবং হোস্ট ভাইবোনদের সঙ্গে ক্লাস করে।",
+      "of": "2962bf6f",
+      "at": [
+        "charlotte-latin:exchanges.homestays[0].text"
+      ]
+    },
+    {
+      "t": "বোর্দো, ফ্রান্স",
+      "of": "39bf2898",
+      "at": [
+        "charlotte-latin:exchanges.homestays[1].place"
+      ]
+    },
+    {
+      "t": "Upper School-এর শিক্ষার্থীরা Sainte Marie Grand LeBrun-এর হোস্ট পরিবারগুলোর সঙ্গে থাকে, সঙ্গে আর্কাশোঁ ও সাঁত-এমিলিয়ঁতে দিনব্যাপী ভ্রমণ।",
+      "of": "7086015a",
+      "at": [
+        "charlotte-latin:exchanges.homestays[1].text"
+      ]
+    },
+    {
+      "t": "গুয়াস্তাল্লা, ইতালি",
+      "of": "e8893cec",
+      "at": [
+        "charlotte-latin:exchanges.homestays[2].place"
+      ]
+    },
+    {
+      "t": "মিলানের পর Upper School-এর শিক্ষার্থীরা Istituto Bertrand Russell-এর হোস্ট পরিবারগুলোর সঙ্গে এক সপ্তাহ কাটায়, তারপর দ্বিতীয় সপ্তাহটি ভেনিসে।",
+      "of": "57194f9b",
+      "at": [
+        "charlotte-latin:exchanges.homestays[2].text"
+      ]
+    },
+    {
+      "t": "পিটারমারিৎসবার্গ, দক্ষিণ আফ্রিকা",
+      "of": "e7011116",
+      "at": [
+        "charlotte-latin:exchanges.homestays[3].place"
+      ]
+    },
+    {
+      "t": "দীর্ঘমেয়াদি বিনিময়ে দুজন মেয়ে চার থেকে ছয় সপ্তাহ St. Anne's-এর হোস্ট পরিবারের সঙ্গে থাকে; দুজন ছেলে Hilton College-এর ক্যাম্পাসে বোর্ডিংয়ে থাকে।",
+      "of": "c08ebc31",
+      "at": [
+        "charlotte-latin:exchanges.homestays[3].text"
+      ]
+    },
+    {
+      "t": "কাদিস, স্পেন",
+      "of": "b1e7ad7d",
+      "at": [
+        "charlotte-latin:exchanges.homestays[4].place"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীরা অন্তত আরেকজন Latin শিক্ষার্থীর সঙ্গে একটি স্প্যানিশ হোমস্টেতে থাকে; কার্যক্রমটি কোনো সিস্টার স্কুল নয়, পরিচালনা করে Centro Mundolengua।",
+      "of": "0f4c9c36",
+      "at": [
+        "charlotte-latin:exchanges.homestays[4].text"
+      ]
+    },
+    {
+      "t": "একটি অতিথি দলে সাধারণত প্রায় 12 জন শিক্ষার্থী ও দুজন শিক্ষক থাকেন, 10 থেকে 14 দিনের জন্য; তারা ক্লাসে যোগ দেয় এবং Charlotte-এর আশপাশে দলগত ভ্রমণে যায়।",
+      "of": "ce3f06b6",
+      "at": [
+        "charlotte-latin:exchanges.visitors[0]"
+      ]
+    },
+    {
+      "t": "হোস্ট বাড়িতে বসবাসকারী প্রত্যেক প্রাপ্তবয়স্ককে স্কুলের ব্যবস্থাপনায় একটি ব্যাকগ্রাউন্ড চেক সম্পন্ন করতে হয়।",
+      "of": "43df26cf",
+      "at": [
+        "charlotte-latin:exchanges.visitors[1]"
+      ]
+    },
+    {
+      "t": "আতিথ্য দিতে পরিবারের Upper School-এর শিক্ষার্থী থাকা জরুরি নয়, আর গ্রীষ্মকালীন সিস্টার-স্কুল বিনিময়ে ভ্রমণকারী Upper School-এর শিক্ষার্থীদের আতিথ্য দিতে জোরালোভাবে উৎসাহিত করা হয়।",
+      "of": "f5925a85",
+      "at": [
+        "charlotte-latin:exchanges.visitors[2]"
+      ]
+    },
+    {
+      "t": "2026–27-এর আটটি কার্যক্রমের জন্য একটিই আবেদন, খোলা থাকবে 31 আগস্ট থেকে 2 অক্টোবর 2026 পর্যন্ত; চূড়ান্ত তালিকা ঘোষণা 30 অক্টোবরের মধ্যে।",
+      "of": "dc697e66",
+      "at": [
+        "charlotte-latin:signup.headline"
+      ]
+    },
+    {
+      "t": "একটিমাত্র অনলাইন আবেদনেই সব কার্যক্রম অন্তর্ভুক্ত, যা যাচাই করে Global Studies অফিস ও জ্যেষ্ঠ প্রশাসন।",
+      "of": "160409d9",
+      "at": [
+        "charlotte-latin:signup.intro.strong"
+      ]
+    },
+    {
+      "t": "Upper School-এর আবেদনকারীরা সাক্ষাৎকার দেয় এবং একজন শিক্ষক বা কর্মীকে রেফারেন্স হিসেবে উল্লেখ করে; Middle School-এর আবেদনকারীরা একজন রেফারেন্স উল্লেখ করে, আর সাক্ষাৎকার দেয় কেবল কোনো কার্যক্রমে আসনের চেয়ে বেশি আবেদন পড়লে। আসন পূর্ণ হলে কার্যক্রমে একটি অপেক্ষমাণ তালিকা রাখা হয়।",
+      "of": "4d67d70a",
+      "at": [
+        "charlotte-latin:signup.intro.muted"
+      ]
+    },
+    {
+      "t": "আবেদন · 2026–27-এর কার্যক্রম",
+      "of": "526b9f79",
+      "at": [
+        "charlotte-latin:signup.groups[0].title"
+      ]
+    },
+    {
+      "t": "2026-এর চক্র",
+      "of": "7a999acd",
+      "at": [
+        "charlotte-latin:signup.groups[0].note",
+        "charlotte-country-day:signup.groups[0].note"
+      ]
+    },
+    {
+      "t": "31 আগস্ট 2026",
+      "of": "26a8b252",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "আবেদন শুরু",
+      "of": "878e9426",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[0].name"
+      ]
+    },
+    {
+      "t": "Middle ও Upper School",
+      "of": "2c886912",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[0].audience",
+        "charlotte-latin:signup.groups[0].events[1].audience",
+        "charlotte-latin:signup.groups[0].events[2].audience",
+        "charlotte-latin:signup.groups[0].events[3].audience",
+        "charlotte-latin:signup.groups[0].events[6].audience",
+        "charlotte-latin:signup.groups[1].events[0].audience",
+        "charlotte-latin:signup.groups[1].events[1].audience",
+        "charlotte-latin:signup.groups[1].events[2].audience",
+        "charlotte-latin:signup.groups[1].events[3].audience",
+        "charlotte-latin:signup.groups[1].events[4].audience"
+      ]
+    },
+    {
+      "t": "10 সেপ্টেম্বর 2026",
+      "of": "ed32a6bb",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[1].when"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থী সমাবেশ",
+      "of": "a6f0c140",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[1].name"
+      ]
+    },
+    {
+      "t": "22 সেপ্টেম্বর 2026",
+      "of": "66f77fa2",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "আগ্রহী অভিভাবকদের সভা",
+      "of": "23e1c30c",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "2 অক্টোবর 2026",
+      "of": "0815b247",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "আবেদন শেষ",
+      "of": "ee90f8e2",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "15 অক্টোবর 2026-এর মধ্যে",
+      "of": "197287e4",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[4].when"
+      ]
+    },
+    {
+      "t": "ইংল্যান্ড ভ্রমণের চূড়ান্ত তালিকা ঘোষণা",
+      "of": "3ac55c28",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[4].name"
+      ]
+    },
+    {
+      "t": "30 অক্টোবর 2026",
+      "of": "ded9fc48",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].when"
+      ]
+    },
+    {
+      "t": "দক্ষিণ আফ্রিকার আবেদন শেষ",
+      "of": "ebea61cb",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].name"
+      ]
+    },
+    {
+      "t": "নেতৃত্ব-কোর্স ও দীর্ঘমেয়াদি বিনিময়ের বর্ধিত শেষ তারিখ",
+      "of": "ac88a66f",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].detail"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].audience",
+        "charlotte-country-day:signup.groups[0].events[0].audience",
+        "charlotte-country-day:signup.groups[0].events[1].audience",
+        "charlotte-country-day:signup.groups[0].events[2].audience",
+        "charlotte-country-day:signup.groups[0].events[3].audience"
+      ]
+    },
+    {
+      "t": "30 অক্টোবর 2026-এর মধ্যে",
+      "of": "9e32c879",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[6].when"
+      ]
+    },
+    {
+      "t": "চূড়ান্ত তালিকা ঘোষণা",
+      "of": "3cf36dee",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[6].name"
+      ]
+    },
+    {
+      "t": "নির্বাচিত হওয়ার পর",
+      "of": "eb9055c8",
+      "at": [
+        "charlotte-latin:signup.groups[1].title"
+      ]
+    },
+    {
+      "t": "13 নভেম্বর 2026",
+      "of": "2fa2ef97",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[0].when"
+      ]
+    },
+    {
+      "t": "সংরক্ষণ-চুক্তি ও জামানত জমার শেষ দিন",
+      "of": "04b5373c",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[0].name"
+      ]
+    },
+    {
+      "t": "10 ডিসেম্বর 2026",
+      "of": "d7205b71",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[1].when"
+      ]
+    },
+    {
+      "t": "অভিভাবকদের প্রথম সভা",
+      "of": "9a71ec1e",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[1].name"
+      ]
+    },
+    {
+      "t": "22 জানুয়ারি 2027",
+      "of": "b57206c2",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[2].when"
+      ]
+    },
+    {
+      "t": "কাগজপত্র জমার শেষ দিন",
+      "of": "fd890a06",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[2].name"
+      ]
+    },
+    {
+      "t": "31 মার্চ 2027",
+      "of": "e5230531",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[3].when"
+      ]
+    },
+    {
+      "t": "চূড়ান্ত পরিশোধের শেষ দিন",
+      "of": "dcbb05ff",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[3].name"
+      ]
+    },
+    {
+      "t": "17 মে 2027",
+      "of": "81d4151f",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[4].when"
+      ]
+    },
+    {
+      "t": "অভিভাবকদের দ্বিতীয় সভা",
+      "of": "f87234fa",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[4].name"
+      ]
+    },
+    {
+      "t": "Latin পরিবারগুলোর বাড়িতে সিস্টার-স্কুলের অতিথি, শিক্ষার্থী-পরিচালিত দিওয়ালি ও চান্দ্র নববর্ষ উদ্‌যাপন, এবং Charlotte-এর সিস্টার সিটিগুলো নিয়ে একটি বিশ্বমেলা।",
+      "of": "8777cc32",
+      "at": [
+        "charlotte-latin:community.headline"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুলের অতিথিদের স্বাগত জানিয়ে এবং আন্তঃসাংস্কৃতিক অভিজ্ঞতা তৈরি করে Latin পৃথিবীকে তার ক্যাম্পাসে নিয়ে আসতে চায়।",
+      "of": "c34137e7",
+      "at": [
+        "charlotte-latin:community.intro.strong"
+      ]
+    },
+    {
+      "t": "এর অনেকটাই পরিচালনা করে শিক্ষার্থীরা — দিওয়ালি সমাবেশ থেকে চান্দ্র নববর্ষ পর্যন্ত।",
+      "of": "f016d937",
+      "at": [
+        "charlotte-latin:community.intro.muted"
+      ]
+    },
+    {
+      "t": "হোস্ট পরিবার",
+      "of": "08de32bd",
+      "at": [
+        "charlotte-latin:community.cells[0].name"
+      ]
+    },
+    {
+      "t": "অতিথি সিস্টার-স্কুল দলগুলোকে আতিথ্য দেয় Latin পরিবারগুলো — 2026–27 সালে পাঁচটি দল, ইতালি, দক্ষিণ আফ্রিকা, আর্জেন্টিনা ও ফ্রান্স থেকে।",
+      "of": "5c44d5e6",
+      "at": [
+        "charlotte-latin:community.cells[0].text"
+      ]
+    },
+    {
+      "t": "দিওয়ালি",
+      "of": "b2f891dd",
+      "at": [
+        "charlotte-latin:community.cells[1].name",
+        "charlotte-latin:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "Indian Student Alliance-এর আয়োজনে Middle ও Upper School-এর জন্য শিক্ষার্থী-পরিচালিত একটি সমাবেশ, 2022–23 থেকে প্রতি বছর অনুষ্ঠিত — সে বছরই দিওয়ালি স্কুলের ক্যালেন্ডারেও যুক্ত হয়।",
+      "of": "ebd7d036",
+      "at": [
+        "charlotte-latin:community.cells[1].text"
+      ]
+    },
+    {
+      "t": "চান্দ্র নববর্ষ",
+      "of": "0fe4a3fe",
+      "at": [
+        "charlotte-latin:community.cells[2].name"
+      ]
+    },
+    {
+      "t": "তিনটি বিভাগেই আয়োজন, যা সংগঠিত করে শিক্ষার্থীরা এবং পরামর্শ দেয় Global Studies ও Office of Diversity, Equity and Inclusion।",
+      "of": "07bf05e0",
+      "at": [
+        "charlotte-latin:community.cells[2].text"
+      ]
+    },
+    {
+      "t": "Charlotte-এর সিস্টার সিটি",
+      "of": "1a910f6a",
+      "at": [
+        "charlotte-latin:community.cells[3].name",
+        "charlotte-country-day:trips.years[2].trips[3].theme",
+        "charlotte-country-day:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "বসন্ত 2026-এ Sunny's Day ক্যাম্পাসকে Charlotte-এর ছয়টি সিস্টার সিটি নিয়ে একটি বিশ্বমেলায় পরিণত করে, যাতে শিক্ষার্থীরা Charlotte-কে একটি আন্তর্জাতিক শহর হিসেবে দেখতে পারে।",
+      "of": "7c3d429d",
+      "at": [
+        "charlotte-latin:community.cells[3].text"
+      ]
+    },
+    {
+      "t": "Silk Road Evening",
+      "of": "294a9706",
+      "at": [
+        "charlotte-latin:community.cells[4].name"
+      ]
+    },
+    {
+      "t": "Middle School-এর একটি বার্ষিক সন্ধ্যা-আয়োজন, Latin-এর ক্যাম্পাসভিত্তিক বৈশ্বিক কার্যক্রমের তালিকায় অন্তর্ভুক্ত।",
+      "of": "1c2c4be8",
+      "at": [
+        "charlotte-latin:community.cells[4].text"
+      ]
+    },
+    {
+      "t": "Model UN",
+      "of": "9ba6f23d",
+      "at": [
+        "charlotte-latin:community.cells[5].name"
+      ]
+    },
+    {
+      "t": "Latin-এর ক্যাম্পাসভিত্তিক বৈশ্বিক কার্যক্রমের অংশ, Middle ও Upper School-এ দলসহ।",
+      "of": "a99f216e",
+      "at": [
+        "charlotte-latin:community.cells[5].text"
+      ]
+    },
+    {
+      "t": "TK থেকে বৈশ্বিক শিক্ষা — Lower School-এর প্রত্যেক শিক্ষার্থীর জন্য স্প্যানিশ, গ্রেড 6-এ ভ্রমণের সুযোগ, আর Upper School-এ School Year Abroad-এর মাধ্যমে এক সেমিস্টার অন্যত্র।",
+      "of": "d659aa09",
+      "at": [
+        "charlotte-latin:start.headline"
+      ]
+    },
+    {
+      "t": "Latin তার Community, Belonging and Global Education অফিসের অধীনে বৈশ্বিক শিক্ষাকে চারটি ভাগে সাজিয়েছে — ভ্রমণ, সিস্টার স্কুল, শিক্ষকদের পেশাগত উন্নয়ন এবং ক্যাম্পাসভিত্তিক কার্যক্রম।",
+      "of": "dbb93d2e",
+      "at": [
+        "charlotte-latin:start.intro.strong"
+      ]
+    },
+    {
+      "t": "কোর্সওয়ার্ক, সিস্টার-স্কুল অংশীদারত্ব ও আন্তর্জাতিক ভ্রমণের মাধ্যমে স্কুলটি তার Portrait of the Latin Leader-এর বৈশ্বিক সচেতনতা ও সাংস্কৃতিক দক্ষতা গড়ে তুলতে চায়।",
+      "of": "62af5733",
+      "at": [
+        "charlotte-latin:start.intro.muted"
+      ]
+    },
+    {
+      "t": "Middle ও Upper School-এর শিক্ষার্থীদের জন্য বিনিময়, সেবামূলক শিক্ষা, আন্তর্জাতিক ক্রীড়া প্রতিযোগিতা এবং দীর্ঘমেয়াদি বিদেশে পড়াশোনা",
+      "of": "13f20f64",
+      "at": [
+        "charlotte-latin:start.framework[0].text"
+      ]
+    },
+    {
+      "t": "সাতটি অংশীদার, ভ্রমণ ও বিনিময়ের মূল ভিত্তি",
+      "of": "75196f11",
+      "at": [
+        "charlotte-latin:start.framework[1].text"
+      ]
+    },
+    {
+      "t": "শিক্ষকদের বিদেশ ভ্রমণ, যাতে তারা শ্রেণিকক্ষে বৈশ্বিক অন্তর্দৃষ্টি ফিরিয়ে আনেন",
+      "of": "f9f6a793",
+      "at": [
+        "charlotte-latin:start.framework[2].text"
+      ]
+    },
+    {
+      "t": "সিস্টার-স্কুলের অতিথি ও আন্তঃসাংস্কৃতিক অভিজ্ঞতা, যা পৃথিবীকে ক্যাম্পাসে নিয়ে আসে",
+      "of": "697cc63e",
+      "at": [
+        "charlotte-latin:start.framework[3].text"
+      ]
+    },
+    {
+      "t": "প্রত্যেক শিক্ষার্থীর জন্য স্প্যানিশ, TK থেকে গ্রেড 5 পর্যন্ত",
+      "of": "eff529e0",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "Passport Program-এর আওতায় বিভিন্ন দেশ ও সংস্কৃতি নিয়ে পাঠ",
+      "of": "a53a4f18",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "Global Partners — প্রতি বছর একটি নির্দিষ্ট দেশ নিয়ে গভীর অধ্যয়ন",
+      "of": "ab5db6c1",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "Holidays Around the World — বিশ্বের নানা দেশের উৎসব",
+      "of": "32f66c9e",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[3]"
+      ]
+    },
+    {
+      "t": "**Global Studies-এর ভ্রমণ শুরু গ্রেড 6-এ**, গ্রীষ্মকালীন কার্যক্রমের জন্য",
+      "of": "5936646b",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "আটলান্টা, কুইবেক ও ওয়াশিংটন, ডি.সি.-তে গ্রেডভিত্তিক শ্রেণি-ভ্রমণ, শুরু গ্রেড 6 থেকে",
+      "of": "47f2ba67",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "ফরাসি, স্প্যানিশ ও লাতিন — French 6 ও Spanish 6 থেকে French I ও Latin I পর্যন্ত",
+      "of": "e92a20b1",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "History 6 — মধ্যপ্রাচ্য, আফ্রিকা, চীন, ভারত ও ইউরোপের প্রাচীন সভ্যতা নিয়ে",
+      "of": "09fa6a6e",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "বার্ষিক Silk Road Evening",
+      "of": "11f41762",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[4]"
+      ]
+    },
+    {
+      "t": "একটি বিশ্বভাষায় তিন ক্রেডিট, সঙ্গে World History I ও II",
+      "of": "9a64d84a",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "AP Comparative Government ও AP European History",
+      "of": "e3ba46ef",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Cultural and Comparative Leadership — দক্ষিণ আফ্রিকায় পড়ানো ক্রেডিটযুক্ত একটি ঐচ্ছিক কোর্স",
+      "of": "994e9837",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "School Year Abroad বা অনুমোদিত কোনো সেমিস্টার স্কুলের মাধ্যমে এক সেমিস্টার বা এক বছর অন্যত্র, সম্ভব হলে জুনিয়র বর্ষের বসন্তে",
+      "of": "23cf45ee",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "School Year Abroad-এর একটি সদস্য স্কুল, সঙ্গে অনুমোদিত সেমিস্টার স্কুল, Independent Schools Cultural Alliance, ভ্রমণকারী শিক্ষকেরা এবং Middle School থেকেই Model UN।",
+      "of": "d2c89f42",
+      "at": [
+        "charlotte-latin:network.headline"
+      ]
+    },
+    {
+      "t": "Latin-এর বৃহত্তর নেটওয়ার্কে আছে School Year Abroad, যার এটি একটি সদস্য স্কুল, সঙ্গে সেইসব কার্যক্রম ও শিক্ষক-গোষ্ঠী, যাদের সঙ্গে স্কুলটি ভ্রমণ করে ও শেখে।",
+      "of": "13380c39",
+      "at": [
+        "charlotte-latin:network.intro.strong"
+      ]
+    },
+    {
+      "t": "এর ভ্রমণের মধ্যে আন্তর্জাতিক ক্রীড়া প্রতিযোগিতা এবং দীর্ঘমেয়াদি বিদেশে পড়াশোনাও অন্তর্ভুক্ত।",
+      "of": "ab278222",
+      "at": [
+        "charlotte-latin:network.intro.muted"
+      ]
+    },
+    {
+      "t": "Model UN সম্মেলন",
+      "of": "13728fae",
+      "at": [
+        "charlotte-latin:network.ledgerTitle",
+        "charlotte-country-day:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "Appalachian State University-তে Middle School-এর Model UN সম্মেলন · পাঁচজন প্রতিনিধি, যাদের দুজন Best Delegate নির্বাচিত",
+      "of": "7bd07a65",
+      "at": [
+        "charlotte-latin:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Providence Day School-এ CHARMUN · Middle School-এর আটজন প্রতিনিধি, দুটি Best Delegate পুরস্কার, একটি Outstanding Delegate, একটি Best Position Paper ও দুটি Honorable Mention-সহ",
+      "of": "2b8b666d",
+      "at": [
+        "charlotte-latin:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Harvard Model UN · লিথুয়ানিয়ার প্রতিনিধিত্বকারী Upper School-এর 14 জন শিক্ষার্থী, একটি মৌখিক প্রশংসাসহ",
+      "of": "8a489aee",
+      "at": [
+        "charlotte-latin:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "School Year Abroad",
+      "of": "097d4bbf",
+      "at": [
+        "charlotte-latin:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "Latin এখন একটি সদস্য স্কুল। এর শিক্ষার্থীরা রেন, ভিতের্বো ও সারাগোসায় SYA-র ক্যাম্পাসগুলোতে ভর্তিতে অগ্রাধিকার এবং প্রয়োজনভিত্তিক সহায়তায় প্রাধান্য পায়।",
+      "of": "05341b60",
+      "at": [
+        "charlotte-latin:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "সেমিস্টার স্কুল",
+      "of": "66aa11f6",
+      "at": [
+        "charlotte-latin:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "স্কুল-অনুমোদিত একটি তালিকা — Alzar School, High Mountain Institute, The Island School, The Mountain School, School for Ethics and Global Leadership এবং The Outdoor Academy — সঙ্গে প্রতি শরতে SYA ও সেমিস্টার স্কুলগুলোর ক্যাম্পাস-পরিদর্শন।",
+      "of": "847ec0f0",
+      "at": [
+        "charlotte-latin:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Independent Schools Cultural Alliance",
+      "of": "06e0136b",
+      "at": [
+        "charlotte-latin:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "Latin-এর Middle School-এর ইংল্যান্ড কার্যক্রম চলে ISCA-র সঙ্গে, বিশ্বের নানা স্কুলের শিক্ষার্থীদের পাশাপাশি।",
+      "of": "5f2d1398",
+      "at": [
+        "charlotte-latin:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "সাম্প্রতিক শিক্ষক-ভ্রমণের মধ্যে আছে সেভিয়ায় AP প্রশিক্ষণ, আজাঁতে ভাষা-অর্জন বিষয়ক একটি কর্মশালা, আর্জেন্টিনার সিস্টার স্কুলে Lower School-এর একটি সফর, পেরুতে World Leadership School-এর শিক্ষক-কার্যক্রম, ফিনল্যান্ডে Lapland International Forum for Education, এবং কানাডায় Institute for Global Learning Conference-এ একটি উপস্থাপনা।",
+      "of": "12dccfdb",
+      "at": [
+        "charlotte-latin:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "শিক্ষকদের সম্মেলন",
+      "of": "6e07a0fd",
+      "at": [
+        "charlotte-latin:network.rows[1].label"
+      ]
+    },
+    {
+      "t": "বসন্ত 2022-এ শিক্ষক ও কর্মীরা সান ডিয়েগোতে Global Education Benchmark Group-এর Global Educators Conference-এ অংশ নেন, যেখানে Lower School-এর দুজন শিক্ষক উপস্থাপনা করেন।",
+      "of": "72377a96",
+      "at": [
+        "charlotte-latin:network.rows[1].text"
+      ]
+    },
+    {
+      "t": "1989 সালের প্রথম সিস্টার স্কুল থেকে 2027 সালের আটটি গ্রীষ্মকালীন কার্যক্রম পর্যন্ত।",
+      "of": "cde37caa",
+      "at": [
+        "charlotte-latin:milestones.headline"
+      ]
+    },
+    {
+      "t": "Latin তার সিস্টার-স্কুল নেটওয়ার্কের সূচনা ধরে 1989 থেকে এবং 2008 পর্যন্ত অংশীদার যুক্ত করেছে,",
+      "of": "68e9e62e",
+      "at": [
+        "charlotte-latin:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "তারপর নিজস্ব ভ্রমণ কার্যক্রম গড়ে তুলেছে — নিচে প্রতিটি \"প্রথম\" স্কুলের নিজের ভাষ্য অনুযায়ী।",
+      "of": "9b2e9fba",
+      "at": [
+        "charlotte-latin:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "প্রথম সিস্টার স্কুল: Jugenddorf Christophorusschule, Bad Zwesten।",
+      "of": "962740ce",
+      "at": [
+        "charlotte-latin:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "Sainte Marie Grand LeBrun, বোর্দো।",
+      "of": "47bb2efd",
+      "at": [
+        "charlotte-latin:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "Colegio Carmen Arriola de Marin, বুয়েনোস আইরেস।",
+      "of": "cd24e03b",
+      "at": [
+        "charlotte-latin:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "Istituto Bertrand Russell, গুয়াস্তাল্লা।",
+      "of": "37883502",
+      "at": [
+        "charlotte-latin:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "Luzhou Laojiao Tianfu Middle School, লুঝৌ শহর।",
+      "of": "8898725b",
+      "at": [
+        "charlotte-latin:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "Hilton College ও St. Anne's Diocesan College।",
+      "of": "3fa277fb",
+      "at": [
+        "charlotte-latin:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "প্রথম বার্ষিক দিওয়ালি সমাবেশ, এবং স্কুলের ক্যালেন্ডারে দিওয়ালি।",
+      "of": "ddbc2bf0",
+      "at": [
+        "charlotte-latin:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "ক্রেডিটের জন্য একটি ভ্রমণ",
+      "of": "bbcc5c65",
+      "at": [
+        "charlotte-latin:milestones.events[7].title"
+      ]
+    },
+    {
+      "t": "দক্ষিণ আফ্রিকা: স্কুলের দাবি অনুযায়ী Latin-এর প্রথম ভ্রমণ, যার জন্য শিক্ষার্থীরা শিক্ষাগত ক্রেডিট অর্জন করতে পারত।",
+      "of": "7d55eb38",
+      "at": [
+        "charlotte-latin:milestones.events[7].text"
+      ]
+    },
+    {
+      "t": "Middle School-এর একটি নতুন ভ্রমণ, 22 জন শিক্ষার্থীর জন্য।",
+      "of": "4e4578bf",
+      "at": [
+        "charlotte-latin:milestones.events[8].text"
+      ]
+    },
+    {
+      "t": "ট্যুর কোম্পানি ছাড়াই",
+      "of": "d3987ed5",
+      "at": [
+        "charlotte-latin:milestones.events[9].title"
+      ]
+    },
+    {
+      "t": "ফ্রান্স ও ইতালি, স্কুলের নিজের পরিকল্পনায়।",
+      "of": "aca70277",
+      "at": [
+        "charlotte-latin:milestones.events[9].text"
+      ]
+    },
+    {
+      "t": "আটটি কার্যক্রম",
+      "of": "f33626cd",
+      "at": [
+        "charlotte-latin:milestones.events[10].title"
+      ]
+    },
+    {
+      "t": "ছয়টি Upper School-এর এবং দুটি Middle School-এর জন্য।",
+      "of": "d25b4b0f",
+      "at": [
+        "charlotte-latin:milestones.events[10].text"
+      ]
+    },
+    {
+      "t": "কার্যক্রমটি কোথায় আলাদা, আর এমন দশটি প্রশ্ন যার উত্তর স্কুলের ওয়েবসাইটে এখনও নেই — 2025–26-এর ভ্রমণ, সহায়তা, তত্ত্বাবধায়ক ও পরিসর নিয়ে।",
+      "of": "d4764859",
+      "at": [
+        "charlotte-latin:verdict.headline"
+      ]
+    },
+    {
+      "t": "Latin আলাদা তার সিস্টার-স্কুল নেটওয়ার্কের গভীরতার জন্য — 1989 থেকে সাতটি অংশীদার, দুই দিক থেকেই হোমস্টে ও পারস্পরিক আতিথ্য — এবং ভ্রমণ কীভাবে চলে তা প্রকাশ করার জন্য: যোগ্যতা, বাছাই, নিবন্ধনের একটি ক্যালেন্ডার এবং নিরাপত্তা-সেবাদাতার নাম।",
+      "of": "19c6bb01",
+      "at": [
+        "charlotte-latin:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "চার মহাদেশে সাতটি সিস্টার স্কুল, সবচেয়ে পুরোনোটি 1989 সালের",
+      "of": "a601a5ae",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "দক্ষিণ আফ্রিকায় পড়ানো ক্রেডিটযুক্ত একটি নেতৃত্ব-কোর্স",
+      "of": "bbad35d9",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "School Year Abroad-এর একটি সদস্য স্কুল",
+      "of": "1d8c25b4",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "প্রাথমিক চিকিৎসা, CPR ও ঝুঁকি ব্যবস্থাপনায় প্রশিক্ষিত ভ্রমণ-পরিচালক, সঙ্গে International SOS-এর জরুরি, চিকিৎসা ও উদ্ধার-স্থানান্তর (ইভাকুয়েশন) সুরক্ষা",
+      "of": "8551beda",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "2025–26-এর ভ্রমণ।",
+      "of": "075a6403",
+      "at": [
+        "charlotte-latin:verdict.ask[0].topic",
+        "charlotte-country-day:verdict.ask[4].topic"
+      ]
+    },
+    {
+      "t": "জার্মানি, আর্জেন্টিনা, নিউ মেক্সিকো এবং বেলজিয়াম ও নেদারল্যান্ডসের কার্যক্রমগুলো কি গ্রীষ্ম 2026-এ হয়েছিল? কেবল দক্ষিণ আফ্রিকার কোর্সটিই নথিভুক্ত।",
+      "of": "e79e21a7",
+      "at": [
+        "charlotte-latin:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Global Education পাতায় কোস্টা রিকা ও ইয়েলোস্টোনে Middle School-এর কার্যক্রম তালিকাভুক্ত আছে। সেগুলো কি এখনও চালু, আর কখন হয়?",
+      "of": "cd0a83d4",
+      "at": [
+        "charlotte-latin:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "কুইবেক শ্রেণি-ভ্রমণ।",
+      "of": "99b1245f",
+      "at": [
+        "charlotte-latin:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "কোন গ্রেডের শ্রেণি-ভ্রমণ কুইবেকে যায়, আর ঐচ্ছিক মন্ট্রিয়ল ও কুইবেক সিটি কার্যক্রম থেকে এটি কীভাবে আলাদা?",
+      "of": "67c32c9b",
+      "at": [
+        "charlotte-latin:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "চীন।",
+      "of": "71fc683a",
+      "at": [
+        "charlotte-latin:verdict.ask[3].topic"
+      ]
+    },
+    {
+      "t": "লুঝৌর 2006 সালের সিস্টার স্কুলটি কি এখনও সক্রিয়? এর সঙ্গে কোনো বিনিময় প্রকাশিত নেই।",
+      "of": "22500ce6",
+      "at": [
+        "charlotte-latin:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "জার্মানি।",
+      "of": "821a61f0",
+      "at": [
+        "charlotte-latin:verdict.ask[4].topic"
+      ]
+    },
+    {
+      "t": "2025–26-এর পর Bad Zwesten বিনিময় কি আবার চালু হবে? 2026–27-এর কার্যক্রমের মধ্যে এটি নেই।",
+      "of": "09731df5",
+      "at": [
+        "charlotte-latin:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "Plus Fund উল্লেখযোগ্য আর্থিক সহায়তা পাওয়া পরিবারগুলোকে টিউশনের বাইরের খরচে সাহায্য করে, ভ্রমণসহ। একটি ভ্রমণে এটি কীভাবে প্রযোজ্য হয়, আর কীভাবে এর জন্য অনুরোধ করতে হয়?",
+      "of": "851f51e0",
+      "at": [
+        "charlotte-latin:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "তত্ত্বাবধায়ক।",
+      "of": "f9473f55",
+      "at": [
+        "charlotte-latin:verdict.ask[6].topic"
+      ]
+    },
+    {
+      "t": "প্রতিটি দলের সঙ্গে কতজন ভ্রমণ-পরিচালক যান?",
+      "of": "5bb5bc72",
+      "at": [
+        "charlotte-latin:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "প্রতি বছর কতজন শিক্ষার্থী ভ্রমণ করে? সর্বশেষ প্রকাশিত সংখ্যা গ্রীষ্ম 2025-এর: কুইবেকে Middle School-এর 22 জন এবং দক্ষিণ আফ্রিকায় Upper School-এর 12 জন শিক্ষার্থী।",
+      "of": "645faba3",
+      "at": [
+        "charlotte-latin:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "সনদ।",
+      "of": "81c33a02",
+      "at": [
+        "charlotte-latin:verdict.ask[8].topic",
+        "charlotte-country-day:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "কোনো বৈশ্বিক সার্টিফিকেট বা সম্মাননা চালুর পরিকল্পনা আছে কি?",
+      "of": "8e12a458",
+      "at": [
+        "charlotte-latin:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Lower School।",
+      "of": "43f046ec",
+      "at": [
+        "charlotte-latin:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "গ্রেড 6-এর আগে কোনো ভ্রমণ বা বিনিময়ের পরিকল্পনা আছে কি?",
+      "of": "70c885be",
+      "at": [
+        "charlotte-latin:verdict.ask[9].question"
       ]
     },
     {
@@ -2143,14 +3811,6 @@
       "of": "709b4557",
       "at": [
         "charlotte-country-day:trips.years[0].noteByDiv.US"
-      ]
-    },
-    {
-      "t": "কানাডা",
-      "of": "5cf10bfb",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[0].dest",
-        "charlotte-country-day:exchanges.partners[0].country"
       ]
     },
     {
@@ -2308,14 +3968,6 @@
       ]
     },
     {
-      "t": "ইতালি",
-      "of": "3415f00c",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[5].dest",
-        "charlotte-country-day:trips.years[2].trips[0].dest"
-      ]
-    },
-    {
       "t": "রোম + সোরেন্তো — পম্পেই ও হারকুলেনিয়াম",
       "of": "f5d6f91c",
       "at": [
@@ -2367,14 +4019,6 @@
       ]
     },
     {
-      "t": "চীন",
-      "of": "94da8330",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[8].dest",
-        "charlotte-country-day:milestones.events[8].title"
-      ]
-    },
-    {
       "t": "সিল্ক রোড, দুনহুয়াং থেকে শিআন + সাংহাই",
       "of": "f9b518cd",
       "at": [
@@ -2389,13 +4033,6 @@
       ]
     },
     {
-      "t": "আর্জেন্টিনা",
-      "of": "cc75630e",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[9].dest"
-      ]
-    },
-    {
       "t": "বুয়েনোস আইরেস, পারানা + ইগুয়াসু জলপ্রপাত",
       "of": "214aa2a5",
       "at": [
@@ -2407,13 +4044,6 @@
       "of": "2f4d8f24",
       "at": [
         "charlotte-country-day:trips.years[0].trips[9].theme"
-      ]
-    },
-    {
-      "t": "গ্রীষ্ম 2027",
-      "of": "8ad4de19",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[9].timing"
       ]
     },
     {
@@ -2523,13 +4153,6 @@
       ]
     },
     {
-      "t": "ভাষা-নিমজ্জন",
-      "of": "21dd6828",
-      "at": [
-        "charlotte-country-day:trips.years[1].trips[4].theme"
-      ]
-    },
-    {
       "t": "সুইডেন ও ডেনমার্ক",
       "of": "edf07e99",
       "at": [
@@ -2604,14 +4227,6 @@
       "of": "1ad3d331",
       "at": [
         "charlotte-country-day:trips.years[2].trips[3].place"
-      ]
-    },
-    {
-      "t": "Charlotte-এর সিস্টার সিটি",
-      "of": "1a910f6a",
-      "at": [
-        "charlotte-country-day:trips.years[2].trips[3].theme",
-        "charlotte-country-day:network.cells[1].name"
       ]
     },
     {
@@ -2896,13 +4511,6 @@
       ]
     },
     {
-      "t": "2026-এর চক্র",
-      "of": "7a999acd",
-      "at": [
-        "charlotte-country-day:signup.groups[0].note"
-      ]
-    },
-    {
       "t": "24 আগস্ট 2026",
       "of": "c80a32e4",
       "at": [
@@ -2914,16 +4522,6 @@
       "of": "3473c114",
       "at": [
         "charlotte-country-day:signup.groups[0].events[0].name"
-      ]
-    },
-    {
-      "t": "Upper School",
-      "of": "bfabeb69",
-      "at": [
-        "charlotte-country-day:signup.groups[0].events[0].audience",
-        "charlotte-country-day:signup.groups[0].events[1].audience",
-        "charlotte-country-day:signup.groups[0].events[2].audience",
-        "charlotte-country-day:signup.groups[0].events[3].audience"
       ]
     },
     {
@@ -3176,13 +4774,6 @@
       "of": "814c363d",
       "at": [
         "charlotte-country-day:network.intro.muted"
-      ]
-    },
-    {
-      "t": "Model UN সম্মেলন",
-      "of": "13728fae",
-      "at": [
-        "charlotte-country-day:network.ledgerTitle"
       ]
     },
     {
@@ -3524,13 +5115,6 @@
       ]
     },
     {
-      "t": "কুইবেক",
-      "of": "aa1129b8",
-      "at": [
-        "charlotte-country-day:milestones.events[10].title"
-      ]
-    },
-    {
       "t": "Externat Saint-Coeur de Marie-এর সঙ্গে বিনিময় শুরু।",
       "of": "ed8217b1",
       "at": [
@@ -3643,13 +5227,6 @@
       ]
     },
     {
-      "t": "2025–26-এর ভ্রমণ।",
-      "of": "075a6403",
-      "at": [
-        "charlotte-country-day:verdict.ask[4].topic"
-      ]
-    },
-    {
       "t": "2025–26 সালে কি Upper School-এর ভ্রমণ হয়েছিল? লাইভ পাতায় এখন কেবল 2027-এর ভ্রমণগুলোই তালিকাভুক্ত।",
       "of": "8e147454",
       "at": [
@@ -3710,13 +5287,6 @@
       "of": "9259a6b1",
       "at": [
         "charlotte-country-day:verdict.ask[8].question"
-      ]
-    },
-    {
-      "t": "সনদ।",
-      "of": "81c33a02",
-      "at": [
-        "charlotte-country-day:verdict.ask[9].topic"
       ]
     },
     {

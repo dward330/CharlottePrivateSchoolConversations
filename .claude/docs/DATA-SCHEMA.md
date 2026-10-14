@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**12 schools × 11 research areas**, 437 ingested research documents.
+**12 schools × 11 research areas**, 439 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -58,7 +58,7 @@ exists yet and **the section does not render at all** for that school.
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
-| Global Exposure | `international-travel` | — | — | — | — | 2 | — | — | — | — | — | 4 | — |
+| Global Exposure | `international-travel` | — | — | — | — | 2 | 2 | — | — | — | — | 4 | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -95,7 +95,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Global Exposure Research Dossier (2026) | 2/12 | 4 |
+| `redesign-research` | Global Exposure Research Dossier (2026) | 3/12 | 4 |
 
 ### Student Clubs `student-clubs`
 
@@ -812,7 +812,7 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 | `milestones` | Firsts & Milestones | — |
 | `verdict` | Verdict & Ask the School | — |
 
-**Schools with data:** 2/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
+**Schools with data:** 3/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
 
 <details><summary>Types defined in <code>internationalTravel.ts</code> (18)</summary>
 

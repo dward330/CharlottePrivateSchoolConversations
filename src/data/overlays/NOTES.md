@@ -2964,3 +2964,63 @@ the same cards ("per the school", "firsts", "endowment", "Lunar New Year").
     - The newly formatted fields are byte-identical in English.
     - `check:bidi` now asserts that the `+` sits inside the isolate.
   - **Stored strings are unchanged.**
+
+## Charlotte Latin (`latinglobal`) — Phase 2, 2026-10-14
+
+The third school in the area. 211 strings × 9 locales, spliced by stamp: 523 kept, 211
+added, **0 dropped**, because no Providence Day or Country Day prose changed. One chrome
+key, `network@charlotte-latin` ("School Year Abroad & the Wider Network"), keeps
+"School Year Abroad" in Latin script in all nine, as Country Day's title keeps "Model UN".
+
+**Soft spots for a reviewer:**
+
+- **"Latin" means the school, not the language.** Every locale keeps it as the school's
+  name ("familias de Latin", "Latin परिवार", "خانواده‌های Latin"). ar writes
+  *Charlotte Latin* in full. Only "French, Spanish and Latin" (the MS language list,
+  `e92a20b1`) translates it as the language. The course codes French 6, Spanish 6,
+  French I and Latin I stay English in all nine, including fr (`check:fr`).
+- **"Rising 10th–12th graders" had no glossary precedent.** Each locale chose
+  "students moving up into grades 10–12" (es *que pasan a 10.º–12.º grado*, it *che
+  entreranno nelle classi 10ª–12ª*, hi *कक्षा 10–12 में जाने वाले*). For "rising juniors
+  and seniors" most locales avoided adding grade digits the English lacks. es, it and
+  fr wrote 11th/12th, which is accurate but adds figures.
+- **Gendered forms.** es "two Lower School teachers" was first rendered feminine
+  (*profesoras*), an assumption the English does not make. It is now *docentes*. it and
+  ar render the two St. Anne's visitors as feminine (*studentesse*, *طالبتان*), which is
+  correct, since St. Anne's is the girls' side of the exchange.
+- **Program names kept English:** Holidays Around the World (8 of 9; bn adds a short
+  gloss, hi brackets the English after *दुनिया भर के त्योहार*), Portrait of the Latin
+  Leader, Silk Road Evening, Passport Program, Global Partners, the office names
+  (Community, Belonging and Global Education; Office of Diversity, Equity and Inclusion)
+  and the Model UN award names (Best Delegate, Outstanding Delegate, Best Position
+  Paper). it first translated Holidays Around the World and was brought into line.
+- **"World Fair"** is translated everywhere. te first kept it English, and it now follows
+  hi's pattern: the native phrase with *(World Fair)* after it.
+- **"Semester schools"** (the Network cell name) is translated in all nine. fr's
+  running prose keeps *semester schools* in English as the category name. The cell
+  label reads *Écoles semestrielles*.
+- **Place names to spot-check** (new transliterations, no glossary precedent): fa
+  *گواستالا*, *پیترماریتزبورگ*, *دماغهٔ امید نیک*; ar *بيترماريتسبرغ*, *آجان*, *مدينة
+  لوتشو*, *دلتا تيغري*; bn *আজাঁ*, *উত্তমাশা অন্তরীপ*; hi *ग्वास्टाला*, *आज़ाँ*; ht *Kap Bòn
+  Esperans*, *Vil Kebèk*. ht keeps Cape Town and Durban in Latin script.
+- **ar spells grade ordinals as digits** (*الصف 6*) where the glossary spells them out
+  (*الصف السادس*). This keeps the figure sweep's digit match and reads naturally.
+- **RTL, rule W7:** "Harvard Model UN · 14 …" put the 14 after Latin text, so in fa/ar
+  it would draw beside the conference name rather than beside "students". Both were
+  reordered so the number follows Arabic-script text (fa *نمایندگی لیتوانی توسط 14
+  دانش‌آموز*, ar *مثّل 14 طالبًا*). The remaining Latin-then-digit hits are course codes
+  (French 6, History 6), where the digit belongs to the identifier. fa/ar store zero
+  bidi controls.
+- **Not translated, by precedent:** the four `start.framework[].name` labels (Travel
+  Opportunities, Sister Schools, Faculty Development, On-Campus Programming) render
+  English in every locale. The extractor skips `name` as a proper noun, and Country Day's
+  framework names have rendered English since #344. Promoting the path would affect both
+  schools; that is a separate decision.
+- **Pre-existing, not from this data:** in fa/ar, the trip year-group label (*برنامه‌های
+  2026–27*) and a bold Verdict topic (*سفرهای 2025–26.*) draw their year range reversed.
+  Country Day's page shows the same two render sites reversed, so the cause is
+  un-isolated render sites, not stored strings.
+- **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English/stamps/at-paths
+  mutated, 0 existing `t` overwritten, 211 added, all under `charlotte-latin:*`, 0 empty,
+  0 foreign-script. `check_work_integrity` itself fails on the length assertion, as for
+  every new-school splice.

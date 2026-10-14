@@ -245,6 +245,9 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<InternationalTravelCardKey,
   'charlotte-country-day': {
     network: "Model UN, WorldQuest & Charlotte's Global Partners",
   },
+  'charlotte-latin': {
+    network: 'School Year Abroad & the Wider Network',
+  },
 }
 
 /** The school slug when this school overrides the shared card title, else undefined. */
@@ -266,8 +269,8 @@ export function internationalTravelCardTitleFor(
 /* ------------------------------------------------------------ school data -- */
 
 /**
- * Per-school entries live in ./internationalTravel/<slug>.ts. Providence Day and
- * Charlotte Country Day are researched; every other school is ABSENT rather than
+ * Per-school entries live in ./internationalTravel/<slug>.ts. Providence Day,
+ * Charlotte Country Day and Charlotte Latin are researched; every other school is ABSENT rather than
  * present-and-empty, and with no source-material folder the section never
  * renders on its page.
  */
@@ -281,10 +284,12 @@ import {
 } from '../lib/localizeData.ts'
 import { providenceDay } from './internationalTravel/providence-day.ts'
 import { charlotteCountryDay } from './internationalTravel/charlotte-country-day.ts'
+import { charlotteLatin } from './internationalTravel/charlotte-latin.ts'
 
 const PROGRAMS: Record<string, InternationalTravelProgram> = {
   'providence-day': providenceDay,
   'charlotte-country-day': charlotteCountryDay,
+  'charlotte-latin': charlotteLatin,
 }
 
 /* ---------------------------------------------------------- translations -- */
