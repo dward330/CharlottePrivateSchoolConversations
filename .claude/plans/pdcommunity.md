@@ -578,5 +578,11 @@ Deliver the result as a PDF.
   - `audit:mobile --only providence-day --lang fa/ar/es --widths 320`;
   - a real-Chrome check of card order (PD in en/es/fa/ar, CCD in en) and of
     `2025–26` order in fa/ar.
-- **Found, not changed:** `N+` figures render `+250` in fa/ar prose but `500+` in stat
-  tiles. This predates the PR (CCD's `100+`, PD's `280+`); see NOTES.md.
+- **Fixed at the user's request ("if you recommend fixing it, do it now"):** `N+`
+  figures rendered `+250` in fa/ar prose but `500+` in stat tiles, on every school (CCD's
+  `100+`, PD's `280+`, `3.8+`, `50+`). The fix touches `src/lib/format.ts`
+  (`isolateNeutralFigures` plus a trailing `+` in the money isolate), 15 raw call sites
+  in 6 components, and `check:bidi`. **This is a deviation:** the plan expected no
+  `src/components/**` or `scripts/**` change. A real-Chrome scan of all 12 schools in
+  fa/ar now finds 0 misplaced `+`, and LTR output is byte-identical. Details are in
+  NOTES.md.

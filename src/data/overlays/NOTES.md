@@ -2940,10 +2940,27 @@ the same cards ("per the school", "firsts", "endowment", "Lunar New Year").
 - **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English/stamps/at-paths
   mutated, 0 existing `t` overwritten, 41 added, all under
   `providence-day:community.*` / `milestones.*`, 0 empty.
-- **Not changed, but worth knowing: `N+` figures put the `+` on different sides in
-  fa/ar.** In prose the `+` renders on the left (`+250`), because the render layer
-  isolates the digits and leaves the `+` outside the isolate. In a stat tile, which is
-  not isolated, it renders on the right (`500+`). The two forms appear side by side on
-  PD's community card. **This predates this PR:** Country Day's `100+` and PD's existing
-  `280+` measure the same way in a real-Chrome glyph-position check. Both forms are
-  normal in RTL text. Any fix belongs in `format.ts`, never in the stored strings.
+- **Fixed in this PR: `N+` figures drew the `+` on the wrong side in fa/ar.**
+  - **Symptom:** prose rendered `250+` as `+250`, beside a stat tile showing `500+`
+    correctly.
+  - **Cause:** after an Arabic-script letter, bidi rule W2 makes the digits Arabic
+    numbers, and W5 attaches a `+` only to European numbers. So the `+` stays neutral and
+    resolves RTL. The tile has no Arabic letter before it, so it was unaffected.
+  - **Not a PD-only defect:** Country Day's `100+`, PD's `280+`, `3.8+` GPAs and `50+`
+    service hours all did it.
+  - **Fix, in `src/lib/format.ts`:**
+    - `isolateNeutralFigures()` now isolates `N+` (`250+`, `1,000+`, `3.8+`).
+    - The money path carries a trailing `+` inside its isolate (`$13M+`), as it already
+      does the leading `≈`.
+    - Fifteen call sites in six components that printed text raw now go through `localizeMoneyText()`:
+      the college-support roster detail, the club society table, the adjacent rows and
+      the footnote, the club-catalog division text, the sports-funnel count, the arts
+      notes and the course tag.
+  - **Verified:**
+    - A real-Chrome glyph-position scan of all 12 school pages in fa and ar, every
+      `<details>` open, finds **0** `+` on the wrong side (it was 11 before).
+    - `main`'s `format.ts` against the new one, over ~240k strings in 10 locales, gives
+      byte-identical LTR output.
+    - The newly formatted fields are byte-identical in English.
+    - `check:bidi` now asserts that the `+` sits inside the isolate.
+  - **Stored strings are unchanged.**

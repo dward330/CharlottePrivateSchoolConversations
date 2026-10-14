@@ -431,7 +431,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
                 <div className="cs-counselor-role text-muted">{c.role}</div>
                 <div className="cs-counselor-name">{c.name}</div>
                 {c.detail && (
-                  <div className="cs-counselor-detail text-muted">{c.detail}</div>
+                  <div className="cs-counselor-detail text-muted">{localizeMoneyText(c.detail)}</div>
                 )}
               </div>
             ))}

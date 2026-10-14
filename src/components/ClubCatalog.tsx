@@ -15,6 +15,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { ClubCatalog } from '../data/clubCatalog.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRowRaw } from './SourceRow.tsx'
+import { localizeMoneyText } from '../lib/format.ts'
 
 const ALL = 'all'
 
@@ -109,7 +110,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
           {catalog.divisions.map((div) => (
             <div key={div.label} className="catalog-division">
               <span className="catalog-division-label">{div.label}</span>
-              <span className="catalog-division-text">{div.text}</span>
+              <span className="catalog-division-text">{localizeMoneyText(div.text)}</span>
               <span className="tag-outline catalog-division-tag">{div.tag}</span>
             </div>
           ))}

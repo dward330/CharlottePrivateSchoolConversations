@@ -374,7 +374,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
                 style={{ width: `${Math.round(stage.width * 100)}%` }}
               />
             </span>
-            <strong className="sports-funnel-count">{stage.count}</strong>
+            <strong className="sports-funnel-count">{localizeMoneyText(stage.count)}</strong>
           </div>
         ))}
       </div>
