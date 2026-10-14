@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**8 active** · 0 retired · Last updated **2026-10-12**
+**8 active** · 0 retired · Last updated **2026-10-13**
 
 ---
 
@@ -313,17 +313,18 @@ School Conversations* that walks a parent through **how to actually apply** to o
 
 **Get a school's Global Exposure research from Claude deep research into a verified `/plan`.**
 
-`.claude/skills/global-exposure/SKILL.md` · added 2026-10-12 · supporting file:
+`.claude/skills/global-exposure/SKILL.md` · added 2026-10-12 · updated 2026-10-13 · supporting file:
 `prompt-template.md` (the deep-research prompt, with `{{PLACEHOLDERS}}`)
 
 The repeatable form of how Charlotte Country Day's section was planned (`ccdglobal`).
-Providence Day's section is the template and the standard; going beyond it is welcome,
-but only with the user's approval.
+Charlotte Country Day's section is the standard (since 2026-10-13); Providence Day remains
+the model for the `credential` card only. Going beyond the standard is welcome, but only
+with the user's approval.
 
 | Mode | Trigger | What it does |
 |---|---|---|
 | **A** | No PDF yet | Asks which school, fills the template, hands back the prompt in **one** copy-paste block. Writes nothing. |
-| **B** | The PDF is attached | Transcribes it → `Deep Research.md`. Verifies it against the school's **live** pages (and Wayback) → `Source URLs.md`. Maps it onto the live card registry, asks about cards to omit or add, then invokes `/plan`. |
+| **B** | The PDF is attached | Transcribes it → `Deep Research.md`. Verifies it against the school's **live** pages (and Wayback) → `Source URLs.md`. Maps it onto the live card registry, rates each card at / below standard, asks about cards to omit or add, then invokes `/plan`. |
 
 > **🔒 The PDF is a lead sheet, never a citation.** A fact renders only once a live
 > school page confirms it. The one allowed third-party source is a detail about an outside
@@ -333,6 +334,11 @@ but only with the user's approval.
 > **⚠️ "Could not load" from deep research is a reason to retry, never a finding.**
 > Country Day's Middle School travel page was reported unloadable. It loaded at once and
 > held the area's richest data.
+
+> **📏 The bar is Country Day's depth.** Every trip carries grade, group size, selection,
+> season and homestay where the school publishes them; `community` needs ≥3 verified cells
+> and `milestones` ≥5 verified events, or the card is omitted. A school that publishes less
+> is filled as far as verified facts allow, never padded.
 
 > **🛑 A new card is a UX change.** Mode B proposes it, with the evidence, and the user
 > approves it before `/plan` writes it in. A card the school cannot fill is omitted, not

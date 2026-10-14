@@ -14,6 +14,11 @@ and is **deliberately off Compare** (`COMPARE_DEFERRED_TOPICS` in
 `src/lib/manifest.ts`). Its stat strip is therefore the school's own `stats`, never
 `metricValues.ts` rows, which would feed Compare's Key Stats.
 
+**The model for a new school is `charlotte-country-day.ts`** (the `/global-exposure`
+standard since 2026-10-13): its header comment, URL constants at the top,
+`'<domain> — <page>'` source labels and card order. Providence Day's file is the model
+for the `credential` card only, which Country Day does not have.
+
 ## Two gates
 
 Adding a school takes the file here **and** an import plus a `PROGRAMS` entry in
