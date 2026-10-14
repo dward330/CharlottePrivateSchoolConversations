@@ -1,11 +1,11 @@
 ---
 name: communityfourth
 title: Move Global Community on Campus to the 4th Global Exposure card for every school
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-13
 branch: feat/communityfourth
-prs: []
+prs: [347]
 ---
 
 # Global Community on Campus → 4th card
@@ -153,3 +153,9 @@ its own explicit request.
         (مجتمع عالمي داخل الحرم المدرسي). This proves the order holds in a translated
         RTL locale.
 - [ ] `npm run audit:mobile -- --only providence-day`: no broken card, no page overflow.
+
+## Implementation notes
+
+Shipped as planned in PR #347. While the build ran, the user restated the rule as "it
+should try to always come after the signing up card". The registry order already does
+this: on any school that has a `signup` card, `community` renders directly after it.
