@@ -220,3 +220,30 @@ before use; filenames below carry no names.
 Full finalsite paths for the GE-carousel images are in the GE page source
 (`resources.finalsite.net/images/f_auto,q_auto,t_image_size_4/v<ver>/charlottelatin/<id>/<file>`);
 copy the version segment from the page at implement time.
+
+## Implement-time verification (2026-10-13, `/implement latinglobal`)
+
+| Check | Source | Result |
+|---|---|---|
+| G-PROG re-fetched | G-PROG | **Unchanged.** Same eight programs, same eligibility lines and month labels. |
+| G-DATES re-fetched | G-DATES | **Unchanged.** Same 15 entries, August 31, 2026 → May 17, 2027. (The October 15 England roster date and the October 30 South Africa extension come from G-APP / G-FAQ, as recorded above, not G-DATES.) |
+| G-SIS27 re-fetched | G-SIS27 | **Unchanged.** Five visiting groups: Italy (12: "11 girls, one boy"), St. Anne's (two girls), Hilton (two boys), Argentina (12), France (12). |
+| GE re-fetched | GE | **Unchanged.** Seven sister schools with years 1989–2008; Costa Rica and Yellowstone/Grand Tetons still listed; faculty-travel list (Sevilla, Agen, Argentina, Peru, Finland, Canada) and on-campus list (Passport, Silk Road Evening, Global Partners) as recorded. |
+| "2023 Middle School Model United Nations" | https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2023-ms-mun (key **N-MSMUN23**) | **fetched.** "The Middle School Model UN team participated in the 2023 CHARMUN conference held at Providence Day School on February 3 and 4." Eight Middle School delegates listed, with two Best Delegate, one Outstanding Delegate, one Best Position Paper and two Honorable Mention awards. Names students — **render counts only**. February 2023 → school year **2022–23**; it joins the `network` Model UN ledger. |
+| N-GLOBAL re-read for the 2024–25 themes | N-GLOBAL | **fetched.** Canada: "22 Middle School students visited Quebec for five days, getting an experience in French immersion"; South Africa: "twelve Upper School students … over two weeks … the first Latin trip that students could get academic credit for … read Gandhi, volunteered at a local primary school"; France and Italy "without the assistance of a tour organizer"; a French host family; "spotting penguins on the southwestern tip of Africa". |
+| 2017–18 / 2020–21 US profile PDFs | — | **Dropped, not fetched** — no card uses them (plan default). |
+| LS "Global Partners in TK/KG" / "Schools Around the World" | LS | **Dropped** (plan default). Global Partners and Passport render from GE's wording only. |
+
+### Photos kept
+
+| File | Source | Check |
+|---|---|---|
+| `public/travel/charlotte-latin-south-africa-2025.jpg` (800×435) | `https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_4/v1756926402/charlottelatin/jdam5pkilrrmhsahxzm3/summer_25_2.jpg` (N-GLOBAL) | Opened. A group of Upper School students behind the Cape of Good Hope sign — a place marker, no name, caption or school sign identifying anyone. The South Africa trip, summer 2025. |
+| `public/travel/charlotte-latin-argentina-exchange.jpg` (800×600) | `https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_4/v1756409371/charlottelatin/b3uqktyxrdg2u5icipmd/argentina2.jpg` (GE carousel, N-GLOBAL) | Opened. Five students on a raised wooden lookout; no text in frame. |
+
+**Not kept:** `summer_25_1.jpg` (three students in Venetian masks — usable, but the
+Cape photo is the clearer trip image), `summer_25_3.jpg` (Middle School students at
+Stonehenge, faces fully legible and a "LATIN HAWKS" sweatshirt — fine in itself, but the
+trips card takes one photo), `SouthAfrica_Leadershipcover.jpg` (portrait 1200×1600, a lone
+figure from behind; less informative). None of the three shows the named student's lab
+visit.
