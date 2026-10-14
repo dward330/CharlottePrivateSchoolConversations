@@ -68,9 +68,9 @@ const WB_GAPP_2510 =
 export const charlotteLatin: InternationalTravelProgram = {
   lead: {
     strong:
-      'Global Studies travel opens to 6th graders, for a program the summer after, and is built around seven sister schools on four continents, with homestays both ways in Argentina, France, Italy and South Africa.',
+      'Global Studies travel is open to as young as 6th grade and is built around seven sister schools on four continents, with homestays both ways in Argentina, France, Italy and South Africa.',
     muted:
-      'In 2026–27 that is eight summer programs, from a credit-bearing leadership course in South Africa to two weeks in England with the Independent Schools Cultural Alliance.',
+      'In 2026–27 there are eight summer programs, from a credit-bearing leadership course in South Africa to two weeks in England with the Independent Schools Cultural Alliance.',
   },
 
   stats: [
