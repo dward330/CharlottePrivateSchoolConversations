@@ -80,7 +80,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 ### Global Exposure (`international-travel/`)
 
 - [Charlotte Country Day School](international-travel/charlotte-country-day.md) — 2 docs
-- [Providence Day School](international-travel/providence-day.md) — 3 docs
+- [Providence Day School](international-travel/providence-day.md) — 4 docs
 
 ### Sports (`sports/`)
 
@@ -143,4 +143,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 436 documents across 11 topics and 12 schools.
+- `src/data/schools.json` — 437 documents across 11 topics and 12 schools.

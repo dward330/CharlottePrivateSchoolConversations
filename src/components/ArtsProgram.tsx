@@ -174,10 +174,10 @@ export function TheatreBody({ data }: { data: Theatre }) {
           </div>
           {data.whoRunsIt && (
             <p className="arts-p">
-              <strong className="arts-note-strong">{t('cardLabels.whoRunsIt')}</strong> {data.whoRunsIt}
+              <strong className="arts-note-strong">{t('cardLabels.whoRunsIt')}</strong> {localizeMoneyText(data.whoRunsIt)}
             </p>
           )}
-          {data.venueNote && <p className="arts-note text-muted">{data.venueNote}</p>}
+          {data.venueNote && <p className="arts-note text-muted">{localizeMoneyText(data.venueNote)}</p>}
         </div>
         <Photo photo={data.photo} />
       </div>
@@ -202,7 +202,7 @@ export function TheatreBody({ data }: { data: Theatre }) {
 
       {data.honestContext && (
         <p className="arts-note text-muted">
-          <strong className="arts-note-strong">{t('cardLabels.honestContext')}</strong> {data.honestContext}
+          <strong className="arts-note-strong">{t('cardLabels.honestContext')}</strong> {localizeMoneyText(data.honestContext)}
         </p>
       )}
 
@@ -257,7 +257,7 @@ export function MusicBody({ data }: { data: Music }) {
               </div>
             ))}
           </div>
-          {data.boardNote && <p className="arts-note text-muted">{data.boardNote}</p>}
+          {data.boardNote && <p className="arts-note text-muted">{localizeMoneyText(data.boardNote)}</p>}
         </div>
 
         <div className="arts-panel">
@@ -272,7 +272,7 @@ export function MusicBody({ data }: { data: Music }) {
               </div>
             ))}
           </div>
-          {data.ladderNote && <p className="arts-note text-muted">{data.ladderNote}</p>}
+          {data.ladderNote && <p className="arts-note text-muted">{localizeMoneyText(data.ladderNote)}</p>}
         </div>
       </div>
 
@@ -341,7 +341,7 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
         ))}
       </div>
 
-      {data.footnote && <p className="arts-note text-muted">{data.footnote}</p>}
+      {data.footnote && <p className="arts-note text-muted">{localizeMoneyText(data.footnote)}</p>}
 
       <SourceRow sources={data.sources} className="arts-src" />
     </div>

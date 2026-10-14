@@ -100,6 +100,13 @@ function stripIsolate(s: string): string {
  * which is why "AP Calculus BC" and plain "20,642" measured clean (27/27 Latin
  * identifiers intact in the spike) and need no treatment.
  *
+ * A trailing "+" ("250+", "1,000+") joined the list 2026-10-13. The digits are
+ * not themselves reordered, but after an Arabic-script letter bidi rule W2
+ * makes them ARABIC numbers, and W5 attaches a "+" only to EUROPEAN numbers. So
+ * the "+" stays neutral, resolves RTL and lands on the far side: "250+" read
+ * "+250" in fa/ar prose, beside a stat tile showing "500+" correctly (the tile has
+ * no Arabic letter in front of it). Measured by glyph x-position in Chrome.
+ *
  * Deliberately narrow. It matches only the shapes proven to break, so it
  * cannot disturb prose it was not aimed at, and it is a no-op outside RTL.
  */
@@ -107,9 +114,10 @@ function isolateNeutralFigures(text: string): string {
   if (!isRtl()) return text
   return text.replace(
     // A year range joined by en-dash/hyphen ("2025–26", "2024–2025"), a
-    // percentage, or a slash-joined fraction ("58 / 75", "8 / 8"). All anchored
-    // on digits so bare punctuation never matches.
-    /\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+/g,
+    // percentage, a slash-joined fraction ("58 / 75", "8 / 8"), or a count with a
+    // trailing plus ("250+", "1,000+"). All anchored on digits so bare
+    // punctuation never matches.
+    /\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+|\d+(?:,\d{3})*(?:\.\d+)?\+/g,
     (m) => `${LRI}${m}${PDI}`,
   )
 }
@@ -277,23 +285,28 @@ export function localizeMoneyText(text: string): string {
   // A grouping comma must be followed by exactly three digits. The old
   // `\d[\d,]*` also swallowed the comma that ENDS a figure, so "$250, non"
   // rendered "$250 non" in every locale, English included.
-  const withMoney = text.replace(/(≈)?\$(\d+(?:,\d{3})*(?:\.\d+)?)([KM])?/g, (whole, approx: string | undefined, digits: string, suffix?: string) => {
+  //
+  // A trailing "+" ("$13M+", "$154,000+") is captured for the same reason as the
+  // ≈: outside the isolate, RTL draws it before the figure ("+$13M"). It is
+  // re-emitted at the end of the run, so LTR output is byte-identical.
+  const withMoney = text.replace(/(≈)?\$(\d+(?:,\d{3})*(?:\.\d+)?)([KM])?(\+)?/g, (whole, approx: string | undefined, digits: string, suffix?: string, plus?: string) => {
     const n = Number(digits.replace(/,/g, ''))
     if (!Number.isFinite(n)) return whole
     // Keep the source's decimals ("$3.0M", "$11.50"), never Intl's default.
     const fd = digits.includes('.') ? digits.split('.')[1].length : undefined
     const near = approx ?? ''
+    const more = plus ?? ''
     if (suffix) {
       // Keep the magnitude letter; localize only the number in front of it.
       // Both the placement AND the symbol come from Intl — see currencySymbol().
       const sym = currencySymbol()
       return bidiIsolate(
         currencyLeads()
-          ? `${near}${sym}${number(n, fd)}${suffix}`
-          : `${near}${number(n, fd)} ${suffix} ${sym}`,
+          ? `${near}${sym}${number(n, fd)}${suffix}${more}`
+          : `${near}${number(n, fd)} ${suffix} ${sym}${more}`,
       )
     }
-    return near ? bidiIsolate(`${near}${stripIsolate(money(n, fd))}`) : money(n, fd)
+    return near || more ? bidiIsolate(`${near}${stripIsolate(money(n, fd))}${more}`) : money(n, fd)
   })
   return isolateNeutralFigures(localizeUnits(withMoney))
 }

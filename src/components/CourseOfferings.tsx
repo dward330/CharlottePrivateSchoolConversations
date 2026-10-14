@@ -24,6 +24,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Course, Division } from '../data/courseOfferings.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRowRaw } from './SourceRow.tsx'
+import { localizeMoneyText } from '../lib/format.ts'
 
 /** AP, Post-AP, and IB read as the advanced track and take the filled tag. */
 function isAdvancedTag(tag: string): boolean {
@@ -255,7 +256,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
               </span>
               {c.tag && (
                 <span className={isAdvancedTag(c.tag) ? 'tag-accent' : 'tag-outline'}>
-                  {c.tag}
+                  {localizeMoneyText(c.tag)}
                 </span>
               )}
               {/* Department attribution only where rows are actually

@@ -201,7 +201,7 @@ export function ServiceBody({ data }: { data: Service }) {
       {data.footnote && (
         <div className="clubs-footnote">
           <Heading>{data.footnoteTitle ?? t('sections.beyondBigThree')}</Heading>
-          <p className="clubs-p">{data.footnote}</p>
+          <p className="clubs-p">{localizeMoneyText(data.footnote)}</p>
         </div>
       )}
 
@@ -235,9 +235,9 @@ export function HonorsBody({ data }: { data: Honors }) {
             {data.societies.map((s) => (
               <tr key={s.name}>
                 <td className="clubs-td clubs-td-name">{s.name}</td>
-                <td className="clubs-td text-muted">{s.division}</td>
-                <td className="clubs-td">{s.recognizes}</td>
-                <td className="clubs-td text-muted">{s.feedsFrom}</td>
+                <td className="clubs-td text-muted">{localizeMoneyText(s.division)}</td>
+                <td className="clubs-td">{localizeMoneyText(s.recognizes)}</td>
+                <td className="clubs-td text-muted">{localizeMoneyText(s.feedsFrom)}</td>
               </tr>
             ))}
           </tbody>
@@ -253,7 +253,7 @@ export function HonorsBody({ data }: { data: Honors }) {
           {data.adjacent.map((a) => (
             <div key={a.label} className="clubs-adjacent-row">
               <strong className="clubs-adjacent-label">{a.label}</strong>
-              <span>{a.text}</span>
+              <span>{localizeMoneyText(a.text)}</span>
             </div>
           ))}
         </div>

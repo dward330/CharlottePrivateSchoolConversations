@@ -93,21 +93,24 @@ function makeFormatter(lang, rtl) {
   }
 
   const isolateNeutral = (t) =>
-    rtl ? t.replace(/\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%/g, (m) => `${LRI}${m}${PDI}`) : t
+    rtl ? t.replace(/\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+|\d+(?:,\d{3})*(?:\.\d+)?\+/g, (m) => `${LRI}${m}${PDI}`) : t
 
   const localizeMoneyText = (text) => {
     if (!text.includes('$')) return isolateNeutral(text)
     const withMoney = text.replace(
-      /\$(\d+(?:,\d{3})*(?:\.\d+)?)([KM])?/g,
-      (whole, digits, suffix) => {
+      /\$(\d+(?:,\d{3})*(?:\.\d+)?)([KM])?(\+)?/g,
+      (whole, digits, suffix, plus) => {
         const n = Number(digits.replace(/,/g, ''))
         if (!Number.isFinite(n)) return whole
         const fd = digits.includes('.') ? digits.split('.')[1].length : undefined
+        const more = plus ?? ''
         if (suffix) {
           const sym = symbol()
-          return isolate(leads() ? `${sym}${number(n, fd)}${suffix}` : `${number(n, fd)} ${suffix} ${sym}`)
+          return isolate(leads() ? `${sym}${number(n, fd)}${suffix}${more}` : `${number(n, fd)} ${suffix} ${sym}${more}`)
         }
-        return money(n, fd)
+        if (!more) return money(n, fd)
+        const m = money(n, fd)
+        return isolate(`${rtl ? m.slice(LRI.length, -PDI.length) : m}${more}`)
       },
     )
     return isolateNeutral(withMoney)
@@ -125,7 +128,17 @@ const NEUTRAL_CASES = [
   ['2024-25', 'year range (hyphen)'],
   ['82%', 'percentage'],
   ['4.5%', 'decimal percentage'],
+  ['58 / 75', 'fraction'],
+  ['250+', 'count with trailing plus'],
+  ['1,000+', 'grouped count with plus'],
+  ['3.8+', 'decimal with trailing plus'],
+  ['$154,000+', 'money with trailing plus'],
+  ['$13M+', 'magnitude with trailing plus'],
 ]
+
+// The "+" must sit INSIDE the isolate, or RTL draws it before the figure
+// ("250+" -> "+250"). Mere presence of an isolate does not prove that.
+const PLUS_CASES = NEUTRAL_CASES.filter(([input]) => input.endsWith('+'))
 
 // Shapes that are strong-L and must NOT be touched — isolating these would be
 // harmless but noisy, and a rule broad enough to catch them is a rule that will
@@ -147,6 +160,15 @@ for (const [input, what] of NEUTRAL_CASES) {
   const ok = out.includes(LRI) && out.includes(PDI)
   if (!ok) bad++
   console.log(`  ${ok ? 'ok ' : 'BAD'}  ${what.padEnd(24)} ${JSON.stringify(out)}`)
+}
+
+for (const f of [['fa', fa, 'متن'], ['ar', makeFormatter('ar', true), 'نص']]) {
+  for (const [input, what] of PLUS_CASES) {
+    const out = f[1].localizeMoneyText(`${f[2]} ${input} ${f[2]}`)
+    const ok = out.includes(`+${PDI}`)
+    if (!ok) bad++
+    console.log(`  ${ok ? 'ok ' : 'BAD'}  ${(f[0] + ' + inside').padEnd(24)} ${JSON.stringify(out)}`)
+  }
 }
 
 // ── 2. RTL: strong-L identifiers are left alone ──────────────────────────────
@@ -205,8 +227,8 @@ for (const lang of ['en', 'es', 'fr', 'ht', 'te', 'bn']) {
 
 // ── 4. English output is exactly what it was ─────────────────────────────────
 const en = makeFormatter('en', false)
-const enSample = en.localizeMoneyText('Round-trip $1,990 in 2025–26 · 82% of students')
-const EXPECTED = 'Round-trip $1,990 in 2025–26 · 82% of students'
+const enSample = en.localizeMoneyText('Round-trip $1,990 in 2025–26 · 82% of students · 250+ at $13M+')
+const EXPECTED = 'Round-trip $1,990 in 2025–26 · 82% of students · 250+ at $13M+'
 if (enSample !== EXPECTED) {
   console.error(`\n✗ English drifted:\n  got      ${JSON.stringify(enSample)}\n  expected ${JSON.stringify(EXPECTED)}`)
   bad++
