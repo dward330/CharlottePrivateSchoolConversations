@@ -692,3 +692,41 @@ cards in order, 4 tiles, 22 trips / 5 MS / 17 US, Network ledger 2024–25 → 2
 2015–16, no empty community stat strip, photo viewer opens, no overflow at 390px, dark
 mode legible; Providence Day 9 and Country Day 8 cards unchanged); `npm run audit:mobile`
 — 0 page overflows.
+
+### Phase 2 (locales) — 2026-10-13/14, branch `feat/latinglobal`
+
+Built as planned through step 4. Awaiting the user's browser test (step 5) before the PR.
+
+- **Chrome:** `network@charlotte-latin` added to the nine catalogs by text insertion after
+  `network@charlotte-country-day`. Key order is untouched, including `ar.json`.
+- **Splice:** 523 kept, 211 added, **0 dropped** per locale.
+- **Translation:** nine parallel agents, each with a private scratch directory. Each wrote
+  only a stamp → translation map. The maps were applied centrally by `of` stamp, so no
+  agent touched the repo.
+- **Cross-locale fixes** made after the agents finished:
+  - it "Holidays Around the World" was reverted to the English name (8 of 9 keep it).
+  - fr "Semester schools" cell label is now translated.
+  - es "dos profesoras" became gender-neutral *docentes*.
+  - te "World Fair" now follows hi's native phrase + *(World Fair)*.
+  - fa/ar "Harvard Model UN · 14 …" was reordered so the figure follows Arabic-script
+    text (rule W7, NOTES).
+- **Not changed, recorded in NOTES:**
+  - `start.framework[].name` renders English, by Country Day's precedent (skipped as a
+    proper noun).
+  - Two pre-existing fa/ar render sites draw a year range reversed: the trip year-group
+    label and a bold Verdict topic. They show on Country Day's page too.
+
+Phase 2 verification:
+- splice 0 dropped ×9;
+- `check:figures` and `check:sepdrift` clean ×9;
+- `check:chrome`, `check:runtime`, `check:live`, `check:dates`, `check:fr`, `check:bidi`,
+  `check:fa`, `check:hi` and `check:script` all exit 0;
+- `check:work` fails on its length assertion by design. The same assertions were run by
+  stamp against `main`: 0 lost / 0 mutated / 0 overwritten / 211 added (all Latin) /
+  0 empty / 0 foreign-script / 0 bidi controls, ×9;
+- `npm run build` exits 0;
+- `audit:daterender` passes in 9 locales and `audit:moneyrender` in es/fr;
+- `audit:mobile` passes, including 320px for Latin in es/fa/hi/ar/bn;
+- real Chrome, every `<details>` open, es/fa/hi/ar: the 8 Global Exposure cards are
+  translated and in order with the Network title translated. In fa, 23 of 25 year ranges
+  in the section draw in order (the 2 exceptions are above).

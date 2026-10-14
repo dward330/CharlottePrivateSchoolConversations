@@ -189,6 +189,10 @@
         "providence-day:trips.years[0].trips[2].dest",
         "providence-day:trips.years[4].trips[2].dest",
         "providence-day:exchanges.partners[7].country",
+        "charlotte-latin:trips.years[0].trips[1].dest",
+        "charlotte-latin:trips.years[2].trips[3].dest",
+        "charlotte-latin:exchanges.partners[1].country",
+        "charlotte-latin:milestones.events[1].title",
         "charlotte-country-day:trips.years[0].trips[2].dest"
       ],
       "t": "ఫ్రాన్స్"
@@ -305,6 +309,9 @@
       "of": "a2a8f2aa",
       "at": [
         "providence-day:trips.years[2].trips[1].dest",
+        "charlotte-latin:trips.years[0].trips[6].dest",
+        "charlotte-latin:trips.years[2].trips[2].dest",
+        "charlotte-latin:trips.years[3].trips[1].dest",
         "charlotte-country-day:trips.years[0].trips[3].dest",
         "charlotte-country-day:trips.years[1].trips[1].dest",
         "charlotte-country-day:exchanges.partners[1].country"
@@ -412,7 +419,8 @@
       "text": "12 students",
       "of": "96b4c0d2",
       "at": [
-        "providence-day:trips.years[2].trips[4].group"
+        "providence-day:trips.years[2].trips[4].group",
+        "charlotte-latin:trips.years[2].trips[5].group"
       ],
       "t": "12 మంది విద్యార్థులు"
     },
@@ -429,7 +437,14 @@
       "of": "af086de8",
       "at": [
         "providence-day:trips.years[2].trips[5].dest",
-        "providence-day:exchanges.partners[3].country"
+        "providence-day:exchanges.partners[3].country",
+        "charlotte-latin:trips.years[0].trips[3].dest",
+        "charlotte-latin:trips.years[0].trips[4].dest",
+        "charlotte-latin:trips.years[1].trips[4].dest",
+        "charlotte-latin:trips.years[2].trips[5].dest",
+        "charlotte-latin:exchanges.partners[5].country",
+        "charlotte-latin:exchanges.partners[6].country",
+        "charlotte-latin:milestones.events[5].title"
       ],
       "t": "దక్షిణ ఆఫ్రికా"
     },
@@ -595,6 +610,8 @@
       "of": "e6d1e3ee",
       "at": [
         "providence-day:trips.years[4].trips[1].dest",
+        "charlotte-latin:trips.years[0].trips[5].dest",
+        "charlotte-latin:trips.years[2].trips[6].dest",
         "charlotte-country-day:trips.years[1].trips[4].dest"
       ],
       "t": "స్పెయిన్"
@@ -619,7 +636,9 @@
       "text": "Summer 2023",
       "of": "8ed4e465",
       "at": [
-        "providence-day:trips.years[4].trips[1].timing"
+        "providence-day:trips.years[4].trips[1].timing",
+        "charlotte-latin:trips.years[3].trips[0].timing",
+        "charlotte-latin:trips.years[3].trips[1].timing"
       ],
       "t": "వేసవి 2023"
     },
@@ -797,7 +816,8 @@
       "text": "TK–5",
       "of": "f79ad9ec",
       "at": [
-        "providence-day:start.divisions[0].grades"
+        "providence-day:start.divisions[0].grades",
+        "charlotte-latin:start.divisions[0].grades"
       ],
       "t": "TK–5"
     },
@@ -853,7 +873,8 @@
       "text": "6–8",
       "of": "b7020a62",
       "at": [
-        "providence-day:start.divisions[1].grades"
+        "providence-day:start.divisions[1].grades",
+        "charlotte-latin:start.divisions[1].grades"
       ],
       "t": "6–8"
     },
@@ -894,6 +915,7 @@
       "of": "c8cc9d8a",
       "at": [
         "providence-day:start.divisions[2].grades",
+        "charlotte-latin:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades"
       ],
       "t": "9–12"
@@ -983,6 +1005,7 @@
       "of": "15441234",
       "at": [
         "providence-day:start.languages.steps[2].when",
+        "charlotte-latin:signup.groups[0].events[4].audience",
         "charlotte-country-day:signup.groups[1].events[0].audience"
       ],
       "t": "Middle School"
@@ -1101,7 +1124,10 @@
       "of": "263d0c7e",
       "at": [
         "providence-day:exchanges.partners[4].country",
-        "providence-day:exchanges.partners[5].country"
+        "providence-day:exchanges.partners[5].country",
+        "charlotte-latin:trips.years[1].trips[0].dest",
+        "charlotte-latin:exchanges.partners[0].country",
+        "charlotte-latin:milestones.events[0].title"
       ],
       "t": "జర్మనీ"
     },
@@ -1527,6 +1553,7 @@
       "of": "d43cddb9",
       "at": [
         "providence-day:network.rows[0].label",
+        "charlotte-latin:network.rows[0].label",
         "charlotte-country-day:network.rows[0].label"
       ],
       "t": "ప్రయాణించే ఉపాధ్యాయులు"
@@ -1592,6 +1619,7 @@
       "of": "4427b993",
       "at": [
         "providence-day:signup.groups[0].note",
+        "charlotte-latin:signup.groups[1].note",
         "charlotte-country-day:signup.groups[1].note"
       ],
       "t": "2026–27"
@@ -2207,6 +2235,7 @@
       "of": "b17a4d3d",
       "at": [
         "providence-day:verdict.ask[2].topic",
+        "charlotte-latin:verdict.ask[5].topic",
         "charlotte-country-day:verdict.ask[1].topic"
       ],
       "t": "ఆర్థిక సహాయం."
@@ -2306,6 +2335,7 @@
       "of": "b8f5ed2d",
       "at": [
         "providence-day:verdict.ask[8].topic",
+        "charlotte-latin:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic"
       ],
       "t": "పరిమాణం."
@@ -2317,6 +2347,1868 @@
         "providence-day:verdict.ask[8].question"
       ],
       "t": "ప్రతి సంవత్సరం ఎంతమంది విద్యార్థులు విదేశాలకు ప్రయాణిస్తారు, అది ప్రతి తరగతిలో ఎంత వాటా?"
+    },
+    {
+      "text": "Global Studies travel opens to 6th graders, for a program the summer after, and is built around seven sister schools on four continents, with homestays both ways in Argentina, France, Italy and South Africa.",
+      "of": "f68e7c27",
+      "at": [
+        "charlotte-latin:lead.strong"
+      ],
+      "t": "Global Studies యాత్రలు 6వ తరగతి విద్యార్థులకు తెరుచుకుంటాయి — ఆ తర్వాతి వేసవిలో జరిగే కార్యక్రమం కోసం — ఇవి నాలుగు ఖండాల్లోని ఏడు సోదర పాఠశాలల చుట్టూ నిర్మించబడ్డాయి; అర్జెంటీనా, ఫ్రాన్స్, ఇటలీ, దక్షిణ ఆఫ్రికాలలో రెండు వైపులా ఆతిథ్య కుటుంబ బసలు ఉంటాయి."
+    },
+    {
+      "text": "In 2026–27 that is eight summer programs, from a credit-bearing leadership course in South Africa to two weeks in England with the Independent Schools Cultural Alliance.",
+      "of": "13cb9bcc",
+      "at": [
+        "charlotte-latin:lead.muted"
+      ],
+      "t": "2026–27లో అవి ఎనిమిది వేసవి కార్యక్రమాలు — దక్షిణ ఆఫ్రికాలో క్రెడిట్ ఇచ్చే నాయకత్వ కోర్సు నుంచి Independent Schools Cultural Alliance తో ఇంగ్లాండ్‌లో రెండు వారాల వరకు."
+    },
+    {
+      "text": "sister schools",
+      "of": "c05de3fc",
+      "at": [
+        "charlotte-latin:stats[0].label"
+      ],
+      "t": "సోదర పాఠశాలలు"
+    },
+    {
+      "text": "in Germany, France, Argentina, Italy, China and South Africa",
+      "of": "57298f03",
+      "at": [
+        "charlotte-latin:stats[0].note"
+      ],
+      "t": "జర్మనీ, ఫ్రాన్స్, అర్జెంటీనా, ఇటలీ, చైనా మరియు దక్షిణ ఆఫ్రికాలో"
+    },
+    {
+      "text": "first sister school",
+      "of": "2586c8f5",
+      "at": [
+        "charlotte-latin:stats[1].label"
+      ],
+      "t": "మొదటి సోదర పాఠశాల"
+    },
+    {
+      "text": "Jugenddorf Christophorusschule, Bad Zwesten, Germany",
+      "of": "916b5920",
+      "at": [
+        "charlotte-latin:stats[1].note"
+      ],
+      "t": "Jugenddorf Christophorusschule, Bad Zwesten, జర్మనీ"
+    },
+    {
+      "text": "travel programs",
+      "of": "4613274a",
+      "at": [
+        "charlotte-latin:stats[2].label"
+      ],
+      "t": "యాత్రా కార్యక్రమాలు"
+    },
+    {
+      "text": "in 2026–27, for students in grades 6–11",
+      "of": "73127b23",
+      "at": [
+        "charlotte-latin:stats[2].note"
+      ],
+      "t": "2026–27లో, 6–11 తరగతుల విద్యార్థుల కోసం"
+    },
+    {
+      "text": "visiting sister-school groups",
+      "of": "f810a3e9",
+      "at": [
+        "charlotte-latin:stats[3].label"
+      ],
+      "t": "సందర్శించే సోదర పాఠశాల బృందాలు"
+    },
+    {
+      "text": "hosted by Latin families in 2026–27",
+      "of": "3a949212",
+      "at": [
+        "charlotte-latin:stats[3].note"
+      ],
+      "t": "2026–27లో Latin కుటుంబాలు ఆతిథ్యం ఇచ్చేవి"
+    },
+    {
+      "text": "Twenty-two trips across four school years — 2022–23, 2024–25, 2025–26 and 2026–27 — from sister-school homestays in Buenos Aires, Bordeaux and Guastalla to a leadership course for credit in South Africa. Filter by division.",
+      "of": "48e680bf",
+      "at": [
+        "charlotte-latin:trips.headline"
+      ],
+      "t": "నాలుగు విద్యా సంవత్సరాల్లో — 2022–23, 2024–25, 2025–26 మరియు 2026–27 — ఇరవై రెండు యాత్రలు; బ్యూనస్ ఎయిర్స్, బోర్డో, గ్వాస్టల్లాలలో సోదర పాఠశాలల ఆతిథ్య కుటుంబ బసల నుంచి దక్షిణ ఆఫ్రికాలో క్రెడిట్ ఇచ్చే నాయకత్వ కోర్సు వరకు. విభాగం వారీగా ఫిల్టర్ చేయండి."
+    },
+    {
+      "text": "Every 2026–27 program runs in the summer and is open to students in grades 6–11, through one application with a faculty or staff reference — and, for Upper School, an interview.",
+      "of": "8d4bd0f7",
+      "at": [
+        "charlotte-latin:trips.intro.strong"
+      ],
+      "t": "2026–27లో ప్రతి కార్యక్రమం వేసవిలో జరుగుతుంది, 6–11 తరగతుల విద్యార్థులకు తెరిచి ఉంటుంది — ఒక ఉపాధ్యాయుడు లేదా సిబ్బంది సిఫార్సుతో ఒకే దరఖాస్తు ద్వారా, Upper School కు అదనంగా ఒక ఇంటర్వ్యూ."
+    },
+    {
+      "text": "Latin's sister schools host most Upper School trips, and students who travel on a sister-school exchange are strongly encouraged to host a visiting student in return.",
+      "of": "18b93c50",
+      "at": [
+        "charlotte-latin:trips.intro.muted"
+      ],
+      "t": "చాలా Upper School యాత్రలకు Latin సోదర పాఠశాలలే ఆతిథ్యం ఇస్తాయి; సోదర పాఠశాల ఎక్స్ఛేంజ్‌లో ప్రయాణించే విద్యార్థులు బదులుగా ఒక అతిథి విద్యార్థికి ఆతిథ్యం ఇవ్వాలని గట్టిగా ప్రోత్సహించబడతారు."
+    },
+    {
+      "text": "all eight programs in summer 2027",
+      "of": "a1403c91",
+      "at": [
+        "charlotte-latin:trips.years[0].note"
+      ],
+      "t": "ఎనిమిది కార్యక్రమాలూ వేసవి 2027లో"
+    },
+    {
+      "text": "Argentina",
+      "of": "cc75630e",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].dest",
+        "charlotte-latin:trips.years[1].trips[1].dest",
+        "charlotte-latin:trips.years[2].trips[0].dest",
+        "charlotte-latin:trips.years[3].trips[0].dest",
+        "charlotte-latin:exchanges.partners[2].country",
+        "charlotte-latin:exchanges.photo.caption.title",
+        "charlotte-latin:milestones.events[2].title",
+        "charlotte-country-day:trips.years[0].trips[9].dest"
+      ],
+      "t": "అర్జెంటీనా"
+    },
+    {
+      "text": "Buenos Aires — Colegio Carmen Arriola de Marin",
+      "of": "697d1d2d",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].place",
+        "charlotte-latin:trips.years[3].trips[0].place"
+      ],
+      "t": "బ్యూనస్ ఎయిర్స్ — Colegio Carmen Arriola de Marin"
+    },
+    {
+      "text": "rising 10th–12th graders · up to 12 students",
+      "of": "37fea528",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].group",
+        "charlotte-latin:trips.years[0].trips[1].group",
+        "charlotte-latin:trips.years[0].trips[2].group",
+        "charlotte-latin:trips.years[0].trips[3].group",
+        "charlotte-latin:trips.years[0].trips[5].group"
+      ],
+      "t": "10వ–12వ తరగతుల్లోకి వెళ్లబోయే విద్యార్థులు · 12 మంది విద్యార్థుల వరకు"
+    },
+    {
+      "text": "Sister-school exchange · language and culture · classes alongside host siblings",
+      "of": "79c0b19f",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · భాష, సంస్కృతి · ఆతిథ్య కుటుంబంలోని తోబుట్టువులతో కలిసి తరగతులు"
+    },
+    {
+      "text": "Summer 2027",
+      "of": "8ad4de19",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].timing",
+        "charlotte-latin:trips.years[0].trips[1].timing",
+        "charlotte-latin:trips.years[0].trips[2].timing",
+        "charlotte-latin:trips.years[0].trips[3].timing",
+        "charlotte-latin:trips.years[0].trips[4].timing",
+        "charlotte-latin:trips.years[0].trips[5].timing",
+        "charlotte-latin:trips.years[0].trips[6].timing",
+        "charlotte-latin:trips.years[0].trips[7].timing",
+        "charlotte-country-day:trips.years[0].trips[9].timing"
+      ],
+      "t": "వేసవి 2027"
+    },
+    {
+      "text": "Buenos Aires",
+      "of": "bf9b1fed",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[0].homestay",
+        "charlotte-latin:trips.years[3].trips[0].homestay"
+      ],
+      "t": "బ్యూనస్ ఎయిర్స్"
+    },
+    {
+      "text": "Bordeaux — Sainte Marie Grand LeBrun, then three days in Paris",
+      "of": "5c621575",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[1].place"
+      ],
+      "t": "బోర్డో — Sainte Marie Grand LeBrun, ఆ తర్వాత పారిస్‌లో మూడు రోజులు"
+    },
+    {
+      "text": "Sister-school exchange · language and culture · day trips to Arcachon and Saint-Émilion",
+      "of": "2c677e52",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[1].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · భాష, సంస్కృతి · ఆర్కషాన్, సెయింట్-ఎమిలియాన్‌లకు ఒక్క రోజు యాత్రలు"
+    },
+    {
+      "text": "Bordeaux",
+      "of": "7704ba1f",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[1].homestay",
+        "charlotte-latin:trips.years[2].trips[3].place",
+        "charlotte-latin:trips.years[2].trips[3].homestay"
+      ],
+      "t": "బోర్డో"
+    },
+    {
+      "text": "Italy",
+      "of": "3415f00c",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].dest",
+        "charlotte-latin:trips.years[2].trips[4].dest",
+        "charlotte-latin:exchanges.partners[3].country",
+        "charlotte-latin:milestones.events[3].title",
+        "charlotte-country-day:trips.years[0].trips[5].dest",
+        "charlotte-country-day:trips.years[2].trips[0].dest"
+      ],
+      "t": "ఇటలీ"
+    },
+    {
+      "text": "Milan, Guastalla — Istituto Bertrand Russell, then Venice",
+      "of": "268388f6",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].place"
+      ],
+      "t": "మిలాన్, గ్వాస్టల్లా — Istituto Bertrand Russell, ఆ తర్వాత వెనిస్"
+    },
+    {
+      "text": "Sister-school exchange · cultural immersion · a week with host families",
+      "of": "e32de09d",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · సాంస్కృతిక అభ్యాసం · ఆతిథ్య కుటుంబాలతో ఒక వారం"
+    },
+    {
+      "text": "Guastalla",
+      "of": "0f4a0b11",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[2].homestay"
+      ],
+      "t": "గ్వాస్టల్లా"
+    },
+    {
+      "text": "Cape Town, Durban + Pietermaritzburg",
+      "of": "701e6c2f",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[3].place"
+      ],
+      "t": "కేప్ టౌన్, డర్బన్ + పీటర్‌మారిట్జ్‌బర్గ్"
+    },
+    {
+      "text": "Cultural and Comparative Leadership, a credit-bearing Upper School leadership elective graded on the transcript · workshops at Hilton College and St. Anne's",
+      "of": "79aca1fd",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[3].theme"
+      ],
+      "t": "Cultural and Comparative Leadership — ట్రాన్స్‌క్రిప్ట్‌లో గ్రేడ్ నమోదయ్యే, క్రెడిట్ ఇచ్చే Upper School నాయకత్వ ఎలెక్టివ్ · Hilton College, St. Anne's లలో వర్క్‌షాప్‌లు"
+    },
+    {
+      "text": "Pietermaritzburg — St. Anne's Diocesan College and Hilton College",
+      "of": "ff1347cd",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].place"
+      ],
+      "t": "పీటర్‌మారిట్జ్‌బర్గ్ — St. Anne's Diocesan College మరియు Hilton College"
+    },
+    {
+      "text": "two girls and two boys, rising juniors and seniors",
+      "of": "8138e7cc",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].group"
+      ],
+      "t": "ఇద్దరు అమ్మాయిలు, ఇద్దరు అబ్బాయిలు — రాబోయే జూనియర్లు, సీనియర్లు"
+    },
+    {
+      "text": "Long-term sister-school exchange of four to six weeks · girls stay with host families; boys board at Hilton College",
+      "of": "b7ae07f2",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].theme"
+      ],
+      "t": "నాలుగు నుంచి ఆరు వారాల దీర్ఘకాలిక సోదర పాఠశాల ఎక్స్ఛేంజ్ · అమ్మాయిలు ఆతిథ్య కుటుంబాలతో బస చేస్తారు; అబ్బాయిలు Hilton College లో బోర్డింగ్‌లో ఉంటారు"
+    },
+    {
+      "text": "Pietermaritzburg",
+      "of": "1b82e6c3",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[4].homestay"
+      ],
+      "t": "పీటర్‌మారిట్జ్‌బర్గ్"
+    },
+    {
+      "text": "Cádiz",
+      "of": "0c964340",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[5].place",
+        "charlotte-latin:trips.years[0].trips[5].homestay"
+      ],
+      "t": "కాడిజ్"
+    },
+    {
+      "text": "Two weeks of language immersion run by Centro Mundolengua · Spanish III and/or a Spanish teacher's recommendation required",
+      "of": "d4f9322e",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[5].theme"
+      ],
+      "t": "Centro Mundolengua నిర్వహించే రెండు వారాల భాషా అభ్యాసం · Spanish III మరియు/లేదా ఒక స్పానిష్ ఉపాధ్యాయుని సిఫార్సు తప్పనిసరి"
+    },
+    {
+      "text": "Southern England, with the Independent Schools Cultural Alliance",
+      "of": "50c9b7c3",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[6].place",
+        "charlotte-latin:trips.years[3].trips[1].place"
+      ],
+      "t": "దక్షిణ ఇంగ్లాండ్, Independent Schools Cultural Alliance తో"
+    },
+    {
+      "text": "rising 7th–9th graders · up to 12 students",
+      "of": "172e1ea0",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[6].group"
+      ],
+      "t": "7వ–9వ తరగతుల్లోకి వెళ్లబోయే విద్యార్థులు · 12 మంది విద్యార్థుల వరకు"
+    },
+    {
+      "text": "Two weeks alongside students from schools around the world · Oxford, Stonehenge and Stratford-upon-Avon",
+      "of": "1502e482",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[6].theme"
+      ],
+      "t": "ప్రపంచవ్యాప్తంగా ఉన్న పాఠశాలల విద్యార్థులతో కలిసి రెండు వారాలు · ఆక్స్‌ఫర్డ్, స్టోన్‌హెంజ్ మరియు స్ట్రాట్‌ఫర్డ్-అపాన్-ఏవన్"
+    },
+    {
+      "text": "Canada",
+      "of": "5cf10bfb",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].dest",
+        "charlotte-latin:trips.years[2].trips[1].dest",
+        "charlotte-country-day:trips.years[0].trips[0].dest",
+        "charlotte-country-day:exchanges.partners[0].country"
+      ],
+      "t": "కెనడా"
+    },
+    {
+      "text": "Montreal + Québec City",
+      "of": "03189eda",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].place"
+      ],
+      "t": "మాంట్రియల్ + క్యూబెక్ సిటీ"
+    },
+    {
+      "text": "rising 7th–9th graders · up to 20 students",
+      "of": "74ee5f07",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].group"
+      ],
+      "t": "7వ–9వ తరగతుల్లోకి వెళ్లబోయే విద్యార్థులు · 20 మంది విద్యార్థుల వరకు"
+    },
+    {
+      "text": "Five days of language and cultural immersion · no French classes required · offered every other year",
+      "of": "c669bd72",
+      "at": [
+        "charlotte-latin:trips.years[0].trips[7].theme"
+      ],
+      "t": "ఐదు రోజుల భాషా, సాంస్కృతిక అభ్యాసం · ఫ్రెంచ్ తరగతులు చదివి ఉండాల్సిన అవసరం లేదు · ప్రతి రెండు సంవత్సరాలకు ఒకసారి అందించబడుతుంది"
+    },
+    {
+      "text": "Upper School programs as offered in fall 2025",
+      "of": "fe8375cc",
+      "at": [
+        "charlotte-latin:trips.years[1].note"
+      ],
+      "t": "శరదృతువు 2025లో అందించిన Upper School కార్యక్రమాలు"
+    },
+    {
+      "text": "Sister-school exchange · innovation and design",
+      "of": "1842b46c",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[0].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · ఆవిష్కరణ, డిజైన్"
+    },
+    {
+      "text": "Sister-school exchange",
+      "of": "d3068f55",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[1].theme",
+        "charlotte-latin:trips.years[2].trips[0].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్"
+    },
+    {
+      "text": "New Mexico",
+      "of": "48a75914",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[2].dest"
+      ],
+      "t": "న్యూ మెక్సికో"
+    },
+    {
+      "text": "Arts immersion",
+      "of": "678148a8",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[2].theme"
+      ],
+      "t": "కళల అభ్యాసం"
+    },
+    {
+      "text": "Belgium & the Netherlands",
+      "of": "cbc4811b",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[3].dest"
+      ],
+      "t": "బెల్జియం మరియు నెదర్లాండ్స్"
+    },
+    {
+      "text": "Peace, justice and memory",
+      "of": "4ab911e2",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[3].theme"
+      ],
+      "t": "శాంతి, న్యాయం, స్మృతి"
+    },
+    {
+      "text": "Cape Town + around Durban",
+      "of": "494c74c8",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[4].place"
+      ],
+      "t": "కేప్ టౌన్ + డర్బన్ పరిసరాలు"
+    },
+    {
+      "text": "Cultural and Comparative Leadership · a two-and-a-half-week course",
+      "of": "568f0902",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[4].theme"
+      ],
+      "t": "Cultural and Comparative Leadership · రెండున్నర వారాల కోర్సు"
+    },
+    {
+      "text": "Summer 2026",
+      "of": "89d4dc86",
+      "at": [
+        "charlotte-latin:trips.years[1].trips[4].timing"
+      ],
+      "t": "వేసవి 2026"
+    },
+    {
+      "text": "summer 2025",
+      "of": "9ba947d3",
+      "at": [
+        "charlotte-latin:trips.years[2].note"
+      ],
+      "t": "వేసవి 2025"
+    },
+    {
+      "text": "Summer 2025",
+      "of": "88d4daf3",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[0].timing",
+        "charlotte-latin:trips.years[2].trips[1].timing",
+        "charlotte-latin:trips.years[2].trips[2].timing",
+        "charlotte-latin:trips.years[2].trips[3].timing",
+        "charlotte-latin:trips.years[2].trips[4].timing",
+        "charlotte-latin:trips.years[2].trips[5].timing",
+        "charlotte-latin:trips.years[2].trips[6].timing"
+      ],
+      "t": "వేసవి 2025"
+    },
+    {
+      "text": "Québec",
+      "of": "aa1129b8",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[1].place",
+        "charlotte-latin:milestones.events[8].title",
+        "charlotte-country-day:milestones.events[10].title"
+      ],
+      "t": "క్యూబెక్"
+    },
+    {
+      "text": "22 students",
+      "of": "0e3c157f",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[1].group"
+      ],
+      "t": "22 మంది విద్యార్థులు"
+    },
+    {
+      "text": "Five days of French immersion · new that year",
+      "of": "e97b398d",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[1].theme"
+      ],
+      "t": "ఐదు రోజుల ఫ్రెంచ్ భాషా అభ్యాసం · ఆ సంవత్సరం కొత్తది"
+    },
+    {
+      "text": "With the Independent Schools Cultural Alliance",
+      "of": "9fe6e4ba",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[2].theme"
+      ],
+      "t": "Independent Schools Cultural Alliance తో"
+    },
+    {
+      "text": "Sister-school exchange · planned by the school without a tour organizer",
+      "of": "ec4f3fea",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[3].theme",
+        "charlotte-latin:trips.years[2].trips[4].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · టూర్ నిర్వాహక సంస్థ లేకుండా పాఠశాలే ప్రణాళిక చేసింది"
+    },
+    {
+      "text": "A leadership course of over two weeks, the first Latin trip for academic credit · reading Gandhi and volunteering at a primary school",
+      "of": "3b430b08",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[5].theme"
+      ],
+      "t": "రెండు వారాలకు పైగా జరిగే నాయకత్వ కోర్సు, విద్యా క్రెడిట్ ఇచ్చిన మొదటి Latin యాత్ర · గాంధీ రచనలు చదవడం, ఒక ప్రాథమిక పాఠశాలలో స్వచ్ఛంద సేవ"
+    },
+    {
+      "text": "Language immersion",
+      "of": "21dd6828",
+      "at": [
+        "charlotte-latin:trips.years[2].trips[6].theme",
+        "charlotte-country-day:trips.years[1].trips[4].theme"
+      ],
+      "t": "భాషా అభ్యాసం"
+    },
+    {
+      "text": "summer 2023",
+      "of": "a1a95145",
+      "at": [
+        "charlotte-latin:trips.years[3].note"
+      ],
+      "t": "వేసవి 2023"
+    },
+    {
+      "text": "Sister-school exchange · classes at the sister school, day trips around Buenos Aires and the Tigre delta",
+      "of": "5979515a",
+      "at": [
+        "charlotte-latin:trips.years[3].trips[0].theme"
+      ],
+      "t": "సోదర పాఠశాల ఎక్స్ఛేంజ్ · సోదర పాఠశాలలో తరగతులు, బ్యూనస్ ఎయిర్స్ పరిసరాలకు, టిగ్రే డెల్టాకు ఒక్క రోజు యాత్రలు"
+    },
+    {
+      "text": "Two weeks · Parliament, Oxford, Bath, Stonehenge and Stratford-upon-Avon",
+      "of": "b8130451",
+      "at": [
+        "charlotte-latin:trips.years[3].trips[1].theme"
+      ],
+      "t": "రెండు వారాలు · పార్లమెంట్, ఆక్స్‌ఫర్డ్, బాత్, స్టోన్‌హెంజ్ మరియు స్ట్రాట్‌ఫర్డ్-అపాన్-ఏవన్"
+    },
+    {
+      "text": "Charlotte Latin Upper School students at the Cape of Good Hope, South Africa",
+      "of": "13e1df91",
+      "at": [
+        "charlotte-latin:trips.photo.alt"
+      ],
+      "t": "దక్షిణ ఆఫ్రికాలోని కేప్ ఆఫ్ గుడ్ హోప్ వద్ద Charlotte Latin Upper School విద్యార్థులు"
+    },
+    {
+      "text": "South Africa, 2025",
+      "of": "cc8225bb",
+      "at": [
+        "charlotte-latin:trips.photo.caption.title"
+      ],
+      "t": "దక్షిణ ఆఫ్రికా, 2025"
+    },
+    {
+      "text": "The leadership course at the Cape of Good Hope — the first Latin trip for academic credit.",
+      "of": "e5a6e67e",
+      "at": [
+        "charlotte-latin:trips.photo.caption.text"
+      ],
+      "t": "కేప్ ఆఫ్ గుడ్ హోప్ వద్ద నాయకత్వ కోర్సు — విద్యా క్రెడిట్ ఇచ్చిన మొదటి Latin యాత్ర."
+    },
+    {
+      "text": "Photo: Charlotte Latin School",
+      "of": "0f7b8c87",
+      "at": [
+        "charlotte-latin:trips.photo.credit",
+        "charlotte-latin:exchanges.photo.credit"
+      ],
+      "t": "ఫోటో: Charlotte Latin School"
+    },
+    {
+      "text": "Costa Rica and Yellowstone.",
+      "of": "39fefb96",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[0].lead",
+        "charlotte-latin:verdict.ask[1].topic"
+      ],
+      "t": "కోస్టా రికా మరియు ఎల్లోస్టోన్."
+    },
+    {
+      "text": "The Global Education page also lists Middle School programs in Costa Rica (leadership and sustainability) and Yellowstone and Grand Teton (leadership and the environment), with no year attached.",
+      "of": "91a39890",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[0].text"
+      ],
+      "t": "Global Education పేజీలో కోస్టా రికా (నాయకత్వం, సుస్థిరత) మరియు ఎల్లోస్టోన్, గ్రాండ్ టీటన్ (నాయకత్వం, పర్యావరణం) లలో Middle School కార్యక్రమాలు కూడా ఉన్నాయి, కానీ వాటికి ఏ సంవత్సరమూ పేర్కొనలేదు."
+    },
+    {
+      "text": "Class trips.",
+      "of": "91a67df7",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[1].lead"
+      ],
+      "t": "తరగతి యాత్రలు."
+    },
+    {
+      "text": "Separate from Global Studies travel, Middle School grade-level class trips go to Atlanta, Québec and Washington, D.C., beginning in 6th grade.",
+      "of": "c8abd2b5",
+      "at": [
+        "charlotte-latin:trips.alsoOnRecord[1].text"
+      ],
+      "t": "Global Studies యాత్రలకు వేరుగా, Middle School తరగతి స్థాయి యాత్రలు 6వ తరగతి నుంచి అట్లాంటా, క్యూబెక్, వాషింగ్టన్, D.C. లకు వెళ్తాయి."
+    },
+    {
+      "text": "Seven sister schools since 1989 — five of them visiting Charlotte in 2026–27 — with homestays both ways in Argentina, France, Italy and South Africa.",
+      "of": "ac4b4487",
+      "at": [
+        "charlotte-latin:exchanges.headline"
+      ],
+      "t": "1989 నుంచి ఏడు సోదర పాఠశాలలు — వాటిలో ఐదు 2026–27లో Charlotte ను సందర్శిస్తాయి — అర్జెంటీనా, ఫ్రాన్స్, ఇటలీ, దక్షిణ ఆఫ్రికాలలో రెండు వైపులా ఆతిథ్య కుటుంబ బసలతో."
+    },
+    {
+      "text": "Latin welcomes sister-school groups for two- or six-week exchanges: the visitors stay with Latin families and attend classes with their host siblings, and Latin returns the visit with summer programs.",
+      "of": "e56579d6",
+      "at": [
+        "charlotte-latin:exchanges.intro.strong"
+      ],
+      "t": "Latin రెండు లేదా ఆరు వారాల ఎక్స్ఛేంజ్‌ల కోసం సోదర పాఠశాల బృందాలను స్వాగతిస్తుంది: అతిథులు Latin కుటుంబాలతో బస చేసి, ఆతిథ్య కుటుంబంలోని తోబుట్టువులతో కలిసి తరగతులకు హాజరవుతారు; Latin వేసవి కార్యక్రమాలతో తిరుగు సందర్శన చేస్తుంది."
+    },
+    {
+      "text": "The school's sister-school exchange relationships date back more than 30 years.",
+      "of": "c6120b5f",
+      "at": [
+        "charlotte-latin:exchanges.intro.muted"
+      ],
+      "t": "పాఠశాల సోదర పాఠశాల ఎక్స్ఛేంజ్ సంబంధాలు 30 సంవత్సరాలకు పైగా పాతవి."
+    },
+    {
+      "text": "Upper School students, in summer 2027",
+      "of": "ccbcc4a2",
+      "at": [
+        "charlotte-latin:exchanges.partners[1].out",
+        "charlotte-latin:exchanges.partners[2].out"
+      ],
+      "t": "Upper School విద్యార్థులు, వేసవి 2027లో"
+    },
+    {
+      "text": "Bordeaux students visit in the spring",
+      "of": "c23bc2db",
+      "at": [
+        "charlotte-latin:exchanges.partners[1].in"
+      ],
+      "t": "బోర్డో విద్యార్థులు వసంతంలో సందర్శిస్తారు"
+    },
+    {
+      "text": "12 Marín students visit in winter",
+      "of": "daa82b60",
+      "at": [
+        "charlotte-latin:exchanges.partners[2].in"
+      ],
+      "t": "12 మంది Marín విద్యార్థులు శీతాకాలంలో సందర్శిస్తారు"
+    },
+    {
+      "text": "Upper School students, for a week of homestay in summer 2027",
+      "of": "a84f710b",
+      "at": [
+        "charlotte-latin:exchanges.partners[3].out"
+      ],
+      "t": "Upper School విద్యార్థులు, వేసవి 2027లో ఒక వారం ఆతిథ్య కుటుంబ బస కోసం"
+    },
+    {
+      "text": "12 Russell students visit in the fall",
+      "of": "1ea2070a",
+      "at": [
+        "charlotte-latin:exchanges.partners[3].in"
+      ],
+      "t": "12 మంది Russell విద్యార్థులు శరదృతువులో సందర్శిస్తారు"
+    },
+    {
+      "text": "China",
+      "of": "94da8330",
+      "at": [
+        "charlotte-latin:exchanges.partners[4].country",
+        "charlotte-latin:milestones.events[4].title",
+        "charlotte-country-day:trips.years[0].trips[8].dest",
+        "charlotte-country-day:milestones.events[8].title"
+      ],
+      "t": "చైనా"
+    },
+    {
+      "text": "two boys, boarding for four to six weeks in summer 2027",
+      "of": "925d6530",
+      "at": [
+        "charlotte-latin:exchanges.partners[5].out"
+      ],
+      "t": "ఇద్దరు అబ్బాయిలు, వేసవి 2027లో నాలుగు నుంచి ఆరు వారాలు బోర్డింగ్‌లో"
+    },
+    {
+      "text": "two Hilton students visit for six weeks in late fall",
+      "of": "6ef2932c",
+      "at": [
+        "charlotte-latin:exchanges.partners[5].in"
+      ],
+      "t": "ఇద్దరు Hilton విద్యార్థులు శరదృతువు చివర్లో ఆరు వారాల పాటు సందర్శిస్తారు"
+    },
+    {
+      "text": "two girls, with host families for four to six weeks in summer 2027",
+      "of": "d4814c80",
+      "at": [
+        "charlotte-latin:exchanges.partners[6].out"
+      ],
+      "t": "ఇద్దరు అమ్మాయిలు, వేసవి 2027లో నాలుగు నుంచి ఆరు వారాలు ఆతిథ్య కుటుంబాలతో"
+    },
+    {
+      "text": "two St. Anne's students visit for six weeks in the fall",
+      "of": "ab136b26",
+      "at": [
+        "charlotte-latin:exchanges.partners[6].in"
+      ],
+      "t": "ఇద్దరు St. Anne's విద్యార్థులు శరదృతువులో ఆరు వారాల పాటు సందర్శిస్తారు"
+    },
+    {
+      "text": "Charlotte Latin students on a wooden lookout in Argentina",
+      "of": "79da2030",
+      "at": [
+        "charlotte-latin:exchanges.photo.alt"
+      ],
+      "t": "అర్జెంటీనాలో ఒక చెక్క వీక్షణ వేదికపై Charlotte Latin విద్యార్థులు"
+    },
+    {
+      "text": "Latin students in Argentina, where the sister-school exchange dates to 1998.",
+      "of": "8a1ea4b4",
+      "at": [
+        "charlotte-latin:exchanges.photo.caption.text"
+      ],
+      "t": "అర్జెంటీనాలో Latin విద్యార్థులు; అక్కడి సోదర పాఠశాల ఎక్స్ఛేంజ్ 1998 నాటిది."
+    },
+    {
+      "text": "Buenos Aires, Argentina",
+      "of": "5f0347e2",
+      "at": [
+        "charlotte-latin:exchanges.homestays[0].place"
+      ],
+      "t": "బ్యూనస్ ఎయిర్స్, అర్జెంటీనా"
+    },
+    {
+      "text": "Upper School students live with host families from Colegio Carmen Arriola de Marin, a bilingual sister school, and attend classes with their host siblings.",
+      "of": "2962bf6f",
+      "at": [
+        "charlotte-latin:exchanges.homestays[0].text"
+      ],
+      "t": "Upper School విద్యార్థులు ద్విభాషా సోదర పాఠశాల అయిన Colegio Carmen Arriola de Marin కు చెందిన ఆతిథ్య కుటుంబాలతో నివసిస్తూ, ఆతిథ్య కుటుంబంలోని తోబుట్టువులతో కలిసి తరగతులకు హాజరవుతారు."
+    },
+    {
+      "text": "Bordeaux, France",
+      "of": "39bf2898",
+      "at": [
+        "charlotte-latin:exchanges.homestays[1].place"
+      ],
+      "t": "బోర్డో, ఫ్రాన్స్"
+    },
+    {
+      "text": "Upper School students stay with host families from Sainte Marie Grand LeBrun, with day trips to Arcachon and Saint-Émilion.",
+      "of": "7086015a",
+      "at": [
+        "charlotte-latin:exchanges.homestays[1].text"
+      ],
+      "t": "Upper School విద్యార్థులు Sainte Marie Grand LeBrun కు చెందిన ఆతిథ్య కుటుంబాలతో బస చేస్తారు, ఆర్కషాన్, సెయింట్-ఎమిలియాన్‌లకు ఒక్క రోజు యాత్రలతో."
+    },
+    {
+      "text": "Guastalla, Italy",
+      "of": "e8893cec",
+      "at": [
+        "charlotte-latin:exchanges.homestays[2].place"
+      ],
+      "t": "గ్వాస్టల్లా, ఇటలీ"
+    },
+    {
+      "text": "After Milan, Upper School students spend a week with host families from Istituto Bertrand Russell, before a second week in Venice.",
+      "of": "57194f9b",
+      "at": [
+        "charlotte-latin:exchanges.homestays[2].text"
+      ],
+      "t": "మిలాన్ తర్వాత, Upper School విద్యార్థులు Istituto Bertrand Russell కు చెందిన ఆతిథ్య కుటుంబాలతో ఒక వారం గడుపుతారు, ఆ తర్వాత రెండవ వారం వెనిస్‌లో."
+    },
+    {
+      "text": "Pietermaritzburg, South Africa",
+      "of": "e7011116",
+      "at": [
+        "charlotte-latin:exchanges.homestays[3].place"
+      ],
+      "t": "పీటర్‌మారిట్జ్‌బర్గ్, దక్షిణ ఆఫ్రికా"
+    },
+    {
+      "text": "On the long-term exchange, two girls live with St. Anne's host families for four to six weeks; the two boys board on campus at Hilton College.",
+      "of": "c08ebc31",
+      "at": [
+        "charlotte-latin:exchanges.homestays[3].text"
+      ],
+      "t": "దీర్ఘకాలిక ఎక్స్ఛేంజ్‌లో ఇద్దరు అమ్మాయిలు నాలుగు నుంచి ఆరు వారాల పాటు St. Anne's ఆతిథ్య కుటుంబాలతో నివసిస్తారు; ఇద్దరు అబ్బాయిలు Hilton College క్యాంపస్‌లో బోర్డింగ్‌లో ఉంటారు."
+    },
+    {
+      "text": "Cádiz, Spain",
+      "of": "b1e7ad7d",
+      "at": [
+        "charlotte-latin:exchanges.homestays[4].place"
+      ],
+      "t": "కాడిజ్, స్పెయిన్"
+    },
+    {
+      "text": "Students live in a Spanish homestay with at least one other Latin student, on a program run by Centro Mundolengua rather than a sister school.",
+      "of": "0f4c9c36",
+      "at": [
+        "charlotte-latin:exchanges.homestays[4].text"
+      ],
+      "t": "విద్యార్థులు కనీసం మరో ఒక Latin విద్యార్థితో కలిసి ఒక స్పానిష్ ఆతిథ్య కుటుంబంలో నివసిస్తారు; ఈ కార్యక్రమాన్ని సోదర పాఠశాల కాకుండా Centro Mundolengua నిర్వహిస్తుంది."
+    },
+    {
+      "text": "A visiting group is usually about 12 students and two teachers, for 10 to 14 days, joining classes and group outings around Charlotte.",
+      "of": "ce3f06b6",
+      "at": [
+        "charlotte-latin:exchanges.visitors[0]"
+      ],
+      "t": "సందర్శించే బృందంలో సాధారణంగా సుమారు 12 మంది విద్యార్థులు, ఇద్దరు ఉపాధ్యాయులు ఉంటారు; 10 నుంచి 14 రోజుల పాటు తరగతుల్లో చేరి, Charlotte చుట్టుపక్కల బృంద విహారాలకు వెళ్తారు."
+    },
+    {
+      "text": "Every adult living in a host home completes a background check arranged by the school.",
+      "of": "43df26cf",
+      "at": [
+        "charlotte-latin:exchanges.visitors[1]"
+      ],
+      "t": "ఆతిథ్య ఇంట్లో నివసించే ప్రతి పెద్దవారూ పాఠశాల ఏర్పాటు చేసే నేపథ్య తనిఖీ (background check) పూర్తి చేస్తారు."
+    },
+    {
+      "text": "Families need not have an Upper School student to host, and Upper School students traveling on a summer sister-school exchange are strongly encouraged to host.",
+      "of": "f5925a85",
+      "at": [
+        "charlotte-latin:exchanges.visitors[2]"
+      ],
+      "t": "ఆతిథ్యం ఇవ్వడానికి కుటుంబాల్లో Upper School విద్యార్థి ఉండాల్సిన అవసరం లేదు; వేసవి సోదర పాఠశాల ఎక్స్ఛేంజ్‌లో ప్రయాణించే Upper School విద్యార్థులు ఆతిథ్యం ఇవ్వాలని గట్టిగా ప్రోత్సహించబడతారు."
+    },
+    {
+      "text": "One application for all eight 2026–27 programs, open August 31 to October 2, 2026, with rosters announced by October 30.",
+      "of": "dc697e66",
+      "at": [
+        "charlotte-latin:signup.headline"
+      ],
+      "t": "2026–27 ఎనిమిది కార్యక్రమాలన్నింటికీ ఒకే దరఖాస్తు — ఆగస్టు 31 నుంచి అక్టోబర్ 2, 2026 వరకు తెరిచి ఉంటుంది; అక్టోబర్ 30 నాటికి జాబితాలు ప్రకటిస్తారు."
+    },
+    {
+      "text": "One online application covers every program, reviewed by the Global Studies office and senior administration.",
+      "of": "160409d9",
+      "at": [
+        "charlotte-latin:signup.intro.strong"
+      ],
+      "t": "ఒకే ఆన్‌లైన్ దరఖాస్తు ప్రతి కార్యక్రమానికీ వర్తిస్తుంది; దీన్ని Global Studies కార్యాలయం, సీనియర్ పరిపాలనా విభాగం పరిశీలిస్తాయి."
+    },
+    {
+      "text": "Upper School applicants interview and name a faculty or staff reference; Middle School applicants name a reference and interview only if a program is oversubscribed. A full program keeps a waitlist.",
+      "of": "4d67d70a",
+      "at": [
+        "charlotte-latin:signup.intro.muted"
+      ],
+      "t": "Upper School దరఖాస్తుదారులు ఇంటర్వ్యూకు హాజరై, ఒక ఉపాధ్యాయుడు లేదా సిబ్బంది సిఫార్సుదారుని పేర్కొంటారు; Middle School దరఖాస్తుదారులు ఒక సిఫార్సుదారుని పేర్కొంటారు, కార్యక్రమానికి దరఖాస్తులు ఎక్కువైతేనే ఇంటర్వ్యూ ఉంటుంది. నిండిపోయిన కార్యక్రమం వెయిట్‌లిస్ట్ నిర్వహిస్తుంది."
+    },
+    {
+      "text": "Applying · 2026–27 programs",
+      "of": "526b9f79",
+      "at": [
+        "charlotte-latin:signup.groups[0].title"
+      ],
+      "t": "దరఖాస్తు · 2026–27 కార్యక్రమాలు"
+    },
+    {
+      "text": "2026 cycle",
+      "of": "7a999acd",
+      "at": [
+        "charlotte-latin:signup.groups[0].note",
+        "charlotte-country-day:signup.groups[0].note"
+      ],
+      "t": "2026 చక్రం"
+    },
+    {
+      "text": "August 31, 2026",
+      "of": "26a8b252",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[0].when"
+      ],
+      "t": "ఆగస్టు 31, 2026"
+    },
+    {
+      "text": "Applications open",
+      "of": "878e9426",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[0].name"
+      ],
+      "t": "దరఖాస్తులు ప్రారంభం"
+    },
+    {
+      "text": "Middle & Upper School",
+      "of": "2c886912",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[0].audience",
+        "charlotte-latin:signup.groups[0].events[1].audience",
+        "charlotte-latin:signup.groups[0].events[2].audience",
+        "charlotte-latin:signup.groups[0].events[3].audience",
+        "charlotte-latin:signup.groups[0].events[6].audience",
+        "charlotte-latin:signup.groups[1].events[0].audience",
+        "charlotte-latin:signup.groups[1].events[1].audience",
+        "charlotte-latin:signup.groups[1].events[2].audience",
+        "charlotte-latin:signup.groups[1].events[3].audience",
+        "charlotte-latin:signup.groups[1].events[4].audience"
+      ],
+      "t": "Middle & Upper School"
+    },
+    {
+      "text": "September 10, 2026",
+      "of": "ed32a6bb",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[1].when"
+      ],
+      "t": "సెప్టెంబర్ 10, 2026"
+    },
+    {
+      "text": "Student assemblies",
+      "of": "a6f0c140",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[1].name"
+      ],
+      "t": "విద్యార్థుల అసెంబ్లీలు"
+    },
+    {
+      "text": "September 22, 2026",
+      "of": "66f77fa2",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[2].when"
+      ],
+      "t": "సెప్టెంబర్ 22, 2026"
+    },
+    {
+      "text": "Parent interest meeting",
+      "of": "23e1c30c",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[2].name"
+      ],
+      "t": "ఆసక్తి గల తల్లిదండ్రుల సమావేశం"
+    },
+    {
+      "text": "October 2, 2026",
+      "of": "0815b247",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[3].when"
+      ],
+      "t": "అక్టోబర్ 2, 2026"
+    },
+    {
+      "text": "Applications close",
+      "of": "ee90f8e2",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[3].name"
+      ],
+      "t": "దరఖాస్తులు ముగింపు"
+    },
+    {
+      "text": "By October 15, 2026",
+      "of": "197287e4",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[4].when"
+      ],
+      "t": "అక్టోబర్ 15, 2026 నాటికి"
+    },
+    {
+      "text": "England roster announced",
+      "of": "3ac55c28",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[4].name"
+      ],
+      "t": "ఇంగ్లాండ్ జాబితా ప్రకటన"
+    },
+    {
+      "text": "October 30, 2026",
+      "of": "ded9fc48",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].when"
+      ],
+      "t": "అక్టోబర్ 30, 2026"
+    },
+    {
+      "text": "South Africa applications close",
+      "of": "ebea61cb",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].name"
+      ],
+      "t": "దక్షిణ ఆఫ్రికా దరఖాస్తులు ముగింపు"
+    },
+    {
+      "text": "The extended deadline for the leadership course and the long-term exchange",
+      "of": "ac88a66f",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].detail"
+      ],
+      "t": "నాయకత్వ కోర్సు, దీర్ఘకాలిక ఎక్స్ఛేంజ్‌ల కోసం పొడిగించిన గడువు"
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[5].audience",
+        "charlotte-country-day:signup.groups[0].events[0].audience",
+        "charlotte-country-day:signup.groups[0].events[1].audience",
+        "charlotte-country-day:signup.groups[0].events[2].audience",
+        "charlotte-country-day:signup.groups[0].events[3].audience"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "By October 30, 2026",
+      "of": "9e32c879",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[6].when"
+      ],
+      "t": "అక్టోబర్ 30, 2026 నాటికి"
+    },
+    {
+      "text": "Rosters announced",
+      "of": "3cf36dee",
+      "at": [
+        "charlotte-latin:signup.groups[0].events[6].name"
+      ],
+      "t": "జాబితాల ప్రకటన"
+    },
+    {
+      "text": "After acceptance",
+      "of": "eb9055c8",
+      "at": [
+        "charlotte-latin:signup.groups[1].title"
+      ],
+      "t": "ఎంపికైన తర్వాత"
+    },
+    {
+      "text": "November 13, 2026",
+      "of": "2fa2ef97",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[0].when"
+      ],
+      "t": "నవంబర్ 13, 2026"
+    },
+    {
+      "text": "Reservation agreements and deposits due",
+      "of": "04b5373c",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[0].name"
+      ],
+      "t": "రిజర్వేషన్ ఒప్పందాలు, డిపాజిట్లకు గడువు"
+    },
+    {
+      "text": "December 10, 2026",
+      "of": "d7205b71",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[1].when"
+      ],
+      "t": "డిసెంబర్ 10, 2026"
+    },
+    {
+      "text": "First parent meeting",
+      "of": "9a71ec1e",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[1].name"
+      ],
+      "t": "మొదటి తల్లిదండ్రుల సమావేశం"
+    },
+    {
+      "text": "January 22, 2027",
+      "of": "b57206c2",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[2].when"
+      ],
+      "t": "జనవరి 22, 2027"
+    },
+    {
+      "text": "Paperwork due",
+      "of": "fd890a06",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[2].name"
+      ],
+      "t": "పత్రాలకు గడువు"
+    },
+    {
+      "text": "March 31, 2027",
+      "of": "e5230531",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[3].when"
+      ],
+      "t": "మార్చి 31, 2027"
+    },
+    {
+      "text": "Final payment due",
+      "of": "dcbb05ff",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[3].name"
+      ],
+      "t": "చివరి చెల్లింపు గడువు"
+    },
+    {
+      "text": "May 17, 2027",
+      "of": "81d4151f",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[4].when"
+      ],
+      "t": "మే 17, 2027"
+    },
+    {
+      "text": "Second parent meeting",
+      "of": "f87234fa",
+      "at": [
+        "charlotte-latin:signup.groups[1].events[4].name"
+      ],
+      "t": "రెండవ తల్లిదండ్రుల సమావేశం"
+    },
+    {
+      "text": "Sister-school visitors in Latin homes, student-led Diwali and Lunar New Year celebrations, and a World Fair on Charlotte's sister cities.",
+      "of": "8777cc32",
+      "at": [
+        "charlotte-latin:community.headline"
+      ],
+      "t": "Latin ఇళ్లలో సోదర పాఠశాల అతిథులు, విద్యార్థులు నడిపించే దీపావళి, చాంద్రమాన నూతన సంవత్సర వేడుకలు, మరియు Charlotte సోదర నగరాలపై ఒక ప్రపంచ ప్రదర్శన (World Fair)."
+    },
+    {
+      "text": "By welcoming sister-school visitors and creating cross-cultural experiences, Latin aims to bring the world to its campus.",
+      "of": "c34137e7",
+      "at": [
+        "charlotte-latin:community.intro.strong"
+      ],
+      "t": "సోదర పాఠశాల అతిథులను స్వాగతించడం, అంతర్‌సాంస్కృతిక అనుభవాలను సృష్టించడం ద్వారా ప్రపంచాన్ని తన క్యాంపస్‌కు తీసుకురావాలని Latin లక్ష్యంగా పెట్టుకుంది."
+    },
+    {
+      "text": "Much of it is run by students, from the Diwali assembly to Lunar New Year.",
+      "of": "f016d937",
+      "at": [
+        "charlotte-latin:community.intro.muted"
+      ],
+      "t": "దీపావళి అసెంబ్లీ నుంచి చాంద్రమాన నూతన సంవత్సరం వరకు, ఇందులో చాలా భాగాన్ని విద్యార్థులే నిర్వహిస్తారు."
+    },
+    {
+      "text": "Host families",
+      "of": "08de32bd",
+      "at": [
+        "charlotte-latin:community.cells[0].name"
+      ],
+      "t": "ఆతిథ్య కుటుంబాలు"
+    },
+    {
+      "text": "Latin families host the visiting sister-school groups — five in 2026–27, from Italy, South Africa, Argentina and France.",
+      "of": "5c44d5e6",
+      "at": [
+        "charlotte-latin:community.cells[0].text"
+      ],
+      "t": "సందర్శించే సోదర పాఠశాల బృందాలకు Latin కుటుంబాలు ఆతిథ్యం ఇస్తాయి — 2026–27లో ఇటలీ, దక్షిణ ఆఫ్రికా, అర్జెంటీనా, ఫ్రాన్స్ నుంచి ఐదు బృందాలు."
+    },
+    {
+      "text": "Diwali",
+      "of": "b2f891dd",
+      "at": [
+        "charlotte-latin:community.cells[1].name",
+        "charlotte-latin:milestones.events[6].title"
+      ],
+      "t": "దీపావళి"
+    },
+    {
+      "text": "A student-led assembly for the Middle and Upper School by the Indian Student Alliance, held each year since 2022–23, when Diwali also joined the school calendar.",
+      "of": "ebd7d036",
+      "at": [
+        "charlotte-latin:community.cells[1].text"
+      ],
+      "t": "Indian Student Alliance నిర్వహించే, Middle, Upper School ల కోసం విద్యార్థులు నడిపించే అసెంబ్లీ; 2022–23 నుంచి ప్రతి సంవత్సరం జరుగుతోంది — అదే సంవత్సరం దీపావళి పాఠశాల క్యాలెండర్‌లో కూడా చేరింది."
+    },
+    {
+      "text": "Lunar New Year",
+      "of": "0fe4a3fe",
+      "at": [
+        "charlotte-latin:community.cells[2].name"
+      ],
+      "t": "చాంద్రమాన నూతన సంవత్సరం"
+    },
+    {
+      "text": "Programming in all three divisions, organized by students and advised by Global Studies and the Office of Diversity, Equity and Inclusion.",
+      "of": "07bf05e0",
+      "at": [
+        "charlotte-latin:community.cells[2].text"
+      ],
+      "t": "మూడు విభాగాల్లోనూ కార్యక్రమాలు; విద్యార్థులు నిర్వహిస్తారు, Global Studies మరియు Office of Diversity, Equity and Inclusion సలహా ఇస్తాయి."
+    },
+    {
+      "text": "Charlotte's sister cities",
+      "of": "1a910f6a",
+      "at": [
+        "charlotte-latin:community.cells[3].name",
+        "charlotte-country-day:trips.years[2].trips[3].theme",
+        "charlotte-country-day:network.cells[1].name"
+      ],
+      "t": "Charlotte సోదర నగరాలు"
+    },
+    {
+      "text": "Sunny's Day in spring 2026 turned the campus into a World Fair on Charlotte's six sister cities, so students could see Charlotte as an international city.",
+      "of": "7c3d429d",
+      "at": [
+        "charlotte-latin:community.cells[3].text"
+      ],
+      "t": "వసంతం 2026లో Sunny's Day క్యాంపస్‌ను Charlotte ఆరు సోదర నగరాలపై ఒక ప్రపంచ ప్రదర్శన (World Fair)గా మార్చింది — Charlotte ను ఒక అంతర్జాతీయ నగరంగా విద్యార్థులు చూడగలిగేలా."
+    },
+    {
+      "text": "Silk Road Evening",
+      "of": "294a9706",
+      "at": [
+        "charlotte-latin:community.cells[4].name"
+      ],
+      "t": "Silk Road Evening"
+    },
+    {
+      "text": "An annual Middle School evening, listed among Latin's on-campus global programs.",
+      "of": "1c2c4be8",
+      "at": [
+        "charlotte-latin:community.cells[4].text"
+      ],
+      "t": "ప్రతి సంవత్సరం జరిగే Middle School సాయంత్ర కార్యక్రమం; Latin క్యాంపస్‌లోని అంతర్జాతీయ కార్యక్రమాల జాబితాలో ఉంది."
+    },
+    {
+      "text": "Model UN",
+      "of": "9ba6f23d",
+      "at": [
+        "charlotte-latin:community.cells[5].name"
+      ],
+      "t": "Model UN"
+    },
+    {
+      "text": "Part of Latin's on-campus global programming, with teams in the Middle and Upper School.",
+      "of": "a99f216e",
+      "at": [
+        "charlotte-latin:community.cells[5].text"
+      ],
+      "t": "Latin క్యాంపస్‌లోని అంతర్జాతీయ కార్యక్రమాల్లో భాగం; Middle, Upper School లలో బృందాలు ఉన్నాయి."
+    },
+    {
+      "text": "Global learning from TK — Spanish for every Lower School student, travel opening in 6th grade, and a semester away through School Year Abroad in Upper School.",
+      "of": "d659aa09",
+      "at": [
+        "charlotte-latin:start.headline"
+      ],
+      "t": "TK నుంచే అంతర్జాతీయ అభ్యాసం — ప్రతి Lower School విద్యార్థికీ స్పానిష్, 6వ తరగతిలో తెరుచుకునే యాత్రలు, Upper Schoolలో School Year Abroad ద్వారా ఒక సెమిస్టర్ బయట."
+    },
+    {
+      "text": "Latin organizes global education in four parts — travel, sister schools, faculty development and on-campus programming — under its Community, Belonging and Global Education office.",
+      "of": "dbb93d2e",
+      "at": [
+        "charlotte-latin:start.intro.strong"
+      ],
+      "t": "Latin అంతర్జాతీయ విద్యను నాలుగు భాగాలుగా నిర్వహిస్తుంది — యాత్రలు, సోదర పాఠశాలలు, ఉపాధ్యాయుల వృత్తి అభివృద్ధి, క్యాంపస్‌లోని కార్యక్రమాలు — తన Community, Belonging and Global Education కార్యాలయం ఆధ్వర్యంలో."
+    },
+    {
+      "text": "Through coursework, sister-school partnerships and international travel, the school aims to build the global awareness and cultural competency of its Portrait of the Latin Leader.",
+      "of": "62af5733",
+      "at": [
+        "charlotte-latin:start.intro.muted"
+      ],
+      "t": "కోర్సులు, సోదర పాఠశాల భాగస్వామ్యాలు, అంతర్జాతీయ యాత్రల ద్వారా, తన Portrait of the Latin Leader లోని అంతర్జాతీయ అవగాహన, సాంస్కృతిక సామర్థ్యాన్ని పెంపొందించాలని పాఠశాల లక్ష్యంగా పెట్టుకుంది."
+    },
+    {
+      "text": "Exchanges, service learning, international athletic competition and longer study abroad, for Middle and Upper School students",
+      "of": "13f20f64",
+      "at": [
+        "charlotte-latin:start.framework[0].text"
+      ],
+      "t": "Middle, Upper School విద్యార్థుల కోసం ఎక్స్ఛేంజ్‌లు, సేవా-అభ్యాసం, అంతర్జాతీయ క్రీడా పోటీలు, దీర్ఘకాలిక విదేశీ చదువు"
+    },
+    {
+      "text": "Seven partners, the cornerstone of travel and exchange",
+      "of": "75196f11",
+      "at": [
+        "charlotte-latin:start.framework[1].text"
+      ],
+      "t": "ఏడు భాగస్వాములు — యాత్రలకు, ఎక్స్ఛేంజ్‌లకు మూలస్తంభం"
+    },
+    {
+      "text": "Travel abroad for teachers, so they bring global insight back to the classroom",
+      "of": "f9f6a793",
+      "at": [
+        "charlotte-latin:start.framework[2].text"
+      ],
+      "t": "ఉపాధ్యాయుల విదేశీ ప్రయాణాలు — వారు అంతర్జాతీయ అవగాహనను తిరిగి తరగతి గదికి తీసుకొచ్చేలా"
+    },
+    {
+      "text": "Sister-school visitors and cross-cultural experiences that bring the world to campus",
+      "of": "697cc63e",
+      "at": [
+        "charlotte-latin:start.framework[3].text"
+      ],
+      "t": "ప్రపంచాన్ని క్యాంపస్‌కు తీసుకొచ్చే సోదర పాఠశాల అతిథులు, అంతర్‌సాంస్కృతిక అనుభవాలు"
+    },
+    {
+      "text": "Spanish for every student, TK through 5th grade",
+      "of": "eff529e0",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[0]"
+      ],
+      "t": "TK నుంచి 5వ తరగతి వరకు ప్రతి విద్యార్థికీ స్పానిష్"
+    },
+    {
+      "text": "The Passport Program's studies of countries and cultures",
+      "of": "a53a4f18",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[1]"
+      ],
+      "t": "Passport Program లో దేశాలు, సంస్కృతుల అధ్యయనాలు"
+    },
+    {
+      "text": "Global Partners, an annual deep dive into one country of study",
+      "of": "ab5db6c1",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[2]"
+      ],
+      "t": "Global Partners — ప్రతి సంవత్సరం అధ్యయనానికి ఎంచుకున్న ఒక దేశంపై లోతైన అధ్యయనం"
+    },
+    {
+      "text": "Holidays Around the World",
+      "of": "32f66c9e",
+      "at": [
+        "charlotte-latin:start.divisions[0].items[3]"
+      ],
+      "t": "Holidays Around the World"
+    },
+    {
+      "text": "**Global Studies travel opens in 6th grade**, for summer programs",
+      "of": "5936646b",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[0]"
+      ],
+      "t": "**Global Studies యాత్రలు 6వ తరగతిలో తెరుచుకుంటాయి**, వేసవి కార్యక్రమాల కోసం"
+    },
+    {
+      "text": "Grade-level class trips to Atlanta, Québec and Washington, D.C., beginning in 6th grade",
+      "of": "47f2ba67",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[1]"
+      ],
+      "t": "6వ తరగతి నుంచి అట్లాంటా, క్యూబెక్, వాషింగ్టన్, D.C. లకు తరగతి స్థాయి యాత్రలు"
+    },
+    {
+      "text": "French, Spanish and Latin, from French 6 and Spanish 6 to French I and Latin I",
+      "of": "e92a20b1",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[2]"
+      ],
+      "t": "ఫ్రెంచ్, స్పానిష్ మరియు లాటిన్ — French 6, Spanish 6 నుంచి French I, Latin I వరకు"
+    },
+    {
+      "text": "History 6 on the ancient civilizations of the Middle East, Africa, China, India and Europe",
+      "of": "09fa6a6e",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[3]"
+      ],
+      "t": "మధ్యప్రాచ్యం, ఆఫ్రికా, చైనా, భారతదేశం, యూరప్‌ల ప్రాచీన నాగరికతలపై History 6"
+    },
+    {
+      "text": "The annual Silk Road Evening",
+      "of": "11f41762",
+      "at": [
+        "charlotte-latin:start.divisions[1].items[4]"
+      ],
+      "t": "ప్రతి సంవత్సరం జరిగే Silk Road Evening"
+    },
+    {
+      "text": "Three credits in one world language, plus World History I and II",
+      "of": "9a64d84a",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[0]"
+      ],
+      "t": "ఒకే ప్రపంచ భాషలో మూడు క్రెడిట్‌లు, దానితో పాటు World History I and II"
+    },
+    {
+      "text": "AP Comparative Government and AP European History",
+      "of": "e3ba46ef",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[1]"
+      ],
+      "t": "AP Comparative Government మరియు AP European History"
+    },
+    {
+      "text": "Cultural and Comparative Leadership, a credit-bearing elective taught in South Africa",
+      "of": "994e9837",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[2]"
+      ],
+      "t": "Cultural and Comparative Leadership — దక్షిణ ఆఫ్రికాలో బోధించే, క్రెడిట్ ఇచ్చే ఎలెక్టివ్"
+    },
+    {
+      "text": "A semester or year away through School Year Abroad or an approved semester school, preferably in the spring of junior year",
+      "of": "23cf45ee",
+      "at": [
+        "charlotte-latin:start.divisions[2].items[3]"
+      ],
+      "t": "School Year Abroad లేదా ఆమోదించిన సెమిస్టర్ పాఠశాల ద్వారా ఒక సెమిస్టర్ లేదా ఒక సంవత్సరం బయట — వీలైతే జూనియర్ సంవత్సరం వసంతంలో"
+    },
+    {
+      "text": "A School Year Abroad member school, with approved semester schools, the Independent Schools Cultural Alliance, educators who travel, and Model UN from Middle School up.",
+      "of": "d2c89f42",
+      "at": [
+        "charlotte-latin:network.headline"
+      ],
+      "t": "School Year Abroad సభ్య పాఠశాల — ఆమోదించిన సెమిస్టర్ పాఠశాలలు, Independent Schools Cultural Alliance, ప్రయాణించే ఉపాధ్యాయులు, Middle School నుంచే Model UN తో."
+    },
+    {
+      "text": "Latin's wider network is School Year Abroad, where it is a member school, plus the programs and educators' groups it travels and learns with.",
+      "of": "13380c39",
+      "at": [
+        "charlotte-latin:network.intro.strong"
+      ],
+      "t": "Latin విస్తృత నెట్‌వర్క్‌లో అది సభ్య పాఠశాలగా ఉన్న School Year Abroad, దానితో పాటు అది కలిసి ప్రయాణించే, నేర్చుకునే కార్యక్రమాలు, ఉపాధ్యాయ బృందాలు ఉన్నాయి."
+    },
+    {
+      "text": "Its travel also takes in international athletic competition and longer study abroad.",
+      "of": "ab278222",
+      "at": [
+        "charlotte-latin:network.intro.muted"
+      ],
+      "t": "దాని యాత్రల్లో అంతర్జాతీయ క్రీడా పోటీలు, దీర్ఘకాలిక విదేశీ చదువు కూడా ఉన్నాయి."
+    },
+    {
+      "text": "Model UN conferences",
+      "of": "13728fae",
+      "at": [
+        "charlotte-latin:network.ledgerTitle",
+        "charlotte-country-day:network.ledgerTitle"
+      ],
+      "t": "Model UN సదస్సులు"
+    },
+    {
+      "text": "The Middle School Model UN conference at Appalachian State University · five delegates, two named Best Delegates",
+      "of": "7bd07a65",
+      "at": [
+        "charlotte-latin:network.conferences[0].text"
+      ],
+      "t": "Appalachian State University లో Middle School Model UN సదస్సు · ఐదుగురు ప్రతినిధులు, ఇద్దరికి Best Delegate గుర్తింపు"
+    },
+    {
+      "text": "CHARMUN at Providence Day School · eight Middle School delegates, with two Best Delegate awards, an Outstanding Delegate, a Best Position Paper and two Honorable Mentions",
+      "of": "2b8b666d",
+      "at": [
+        "charlotte-latin:network.conferences[1].text"
+      ],
+      "t": "Providence Day School లో CHARMUN · ఎనిమిది మంది Middle School ప్రతినిధులు; రెండు Best Delegate అవార్డులు, ఒక Outstanding Delegate, ఒక Best Position Paper, రెండు Honorable Mentions"
+    },
+    {
+      "text": "Harvard Model UN · 14 Upper School students representing Lithuania, with one verbal commendation",
+      "of": "8a489aee",
+      "at": [
+        "charlotte-latin:network.conferences[2].text"
+      ],
+      "t": "Harvard Model UN · లిథువేనియాకు ప్రాతినిధ్యం వహించిన 14 మంది Upper School విద్యార్థులు, ఒక మౌఖిక ప్రశంస"
+    },
+    {
+      "text": "School Year Abroad",
+      "of": "097d4bbf",
+      "at": [
+        "charlotte-latin:network.cells[0].name"
+      ],
+      "t": "School Year Abroad"
+    },
+    {
+      "text": "Latin is now a member school. Its students get preferred admission and priority for need-based aid at SYA's campuses in Rennes, Viterbo and Zaragoza.",
+      "of": "05341b60",
+      "at": [
+        "charlotte-latin:network.cells[0].text"
+      ],
+      "t": "Latin ఇప్పుడు సభ్య పాఠశాల. దాని విద్యార్థులకు రెన్, విటెర్బో, సరగోసాలలోని SYA క్యాంపస్‌లలో ప్రాధాన్య ప్రవేశం, అవసరాధారిత ఆర్థిక సహాయంలో ప్రాధాన్యం లభిస్తాయి."
+    },
+    {
+      "text": "Semester schools",
+      "of": "66aa11f6",
+      "at": [
+        "charlotte-latin:network.cells[1].name"
+      ],
+      "t": "సెమిస్టర్ పాఠశాలలు"
+    },
+    {
+      "text": "A school-approved list — the Alzar School, High Mountain Institute, The Island School, The Mountain School, the School for Ethics and Global Leadership and The Outdoor Academy — with SYA and semester-school campus visits each fall.",
+      "of": "847ec0f0",
+      "at": [
+        "charlotte-latin:network.cells[1].text"
+      ],
+      "t": "పాఠశాల ఆమోదించిన జాబితా — the Alzar School, High Mountain Institute, The Island School, The Mountain School, the School for Ethics and Global Leadership మరియు The Outdoor Academy — ప్రతి శరదృతువులో SYA, సెమిస్టర్ పాఠశాలల క్యాంపస్ సందర్శనలతో."
+    },
+    {
+      "text": "Independent Schools Cultural Alliance",
+      "of": "06e0136b",
+      "at": [
+        "charlotte-latin:network.cells[2].name"
+      ],
+      "t": "Independent Schools Cultural Alliance"
+    },
+    {
+      "text": "Latin's Middle School England program runs with ISCA, alongside students from schools around the world.",
+      "of": "5f2d1398",
+      "at": [
+        "charlotte-latin:network.cells[2].text"
+      ],
+      "t": "Latin Middle School ఇంగ్లాండ్ కార్యక్రమం ISCA తో కలిసి, ప్రపంచవ్యాప్తంగా ఉన్న పాఠశాలల విద్యార్థులతో పాటు జరుగుతుంది."
+    },
+    {
+      "text": "Recent faculty travel includes AP training in Seville, a language-acquisition workshop in Agen, a Lower School visit to the Argentine sister school, the World Leadership School educator program in Peru, the Lapland International Forum for Education in Finland, and a presentation at the Institute for Global Learning Conference in Canada.",
+      "of": "12dccfdb",
+      "at": [
+        "charlotte-latin:network.rows[0].text"
+      ],
+      "t": "ఇటీవలి ఉపాధ్యాయ ప్రయాణాల్లో సెవిల్‌లో AP శిక్షణ, అజాన్‌లో భాషా సముపార్జనపై వర్క్‌షాప్, అర్జెంటీనా సోదర పాఠశాలకు Lower School సందర్శన, పెరూలో World Leadership School ఉపాధ్యాయ కార్యక్రమం, ఫిన్లాండ్‌లో Lapland International Forum for Education, మరియు కెనడాలో Institute for Global Learning Conference లో ఒక ప్రజెంటేషన్ ఉన్నాయి."
+    },
+    {
+      "text": "Educators' conferences",
+      "of": "6e07a0fd",
+      "at": [
+        "charlotte-latin:network.rows[1].label"
+      ],
+      "t": "ఉపాధ్యాయుల సదస్సులు"
+    },
+    {
+      "text": "In spring 2022, faculty and staff attended the Global Education Benchmark Group's Global Educators Conference in San Diego, where two Lower School teachers presented.",
+      "of": "72377a96",
+      "at": [
+        "charlotte-latin:network.rows[1].text"
+      ],
+      "t": "వసంతం 2022లో ఉపాధ్యాయులు, సిబ్బంది శాన్ డియాగోలో Global Education Benchmark Group నిర్వహించిన Global Educators Conference కు హాజరయ్యారు; అక్కడ ఇద్దరు Lower School ఉపాధ్యాయులు ప్రజెంటేషన్ ఇచ్చారు."
+    },
+    {
+      "text": "From a first sister school in 1989 to eight summer programs in 2027.",
+      "of": "cde37caa",
+      "at": [
+        "charlotte-latin:milestones.headline"
+      ],
+      "t": "1989లో మొదటి సోదర పాఠశాల నుంచి 2027లో ఎనిమిది వేసవి కార్యక్రమాల వరకు."
+    },
+    {
+      "text": "Latin dates its sister-school network to 1989 and added partners through 2008,",
+      "of": "68e9e62e",
+      "at": [
+        "charlotte-latin:milestones.intro.strong"
+      ],
+      "t": "Latin తన సోదర పాఠశాల నెట్‌వర్క్ 1989లో మొదలైందని చెబుతుంది, 2008 వరకు భాగస్వాములను చేర్చుకుంది,"
+    },
+    {
+      "text": "then built out its own travel program — each first below as the school states it.",
+      "of": "9b2e9fba",
+      "at": [
+        "charlotte-latin:milestones.intro.muted"
+      ],
+      "t": "ఆ తర్వాత తన సొంత యాత్రా కార్యక్రమాన్ని నిర్మించుకుంది — ఒక్కొక్క \"మొదటిది\" కింద పాఠశాల చెప్పినట్లే ఇవ్వబడింది."
+    },
+    {
+      "text": "The first sister school: Jugenddorf Christophorusschule, Bad Zwesten.",
+      "of": "962740ce",
+      "at": [
+        "charlotte-latin:milestones.events[0].text"
+      ],
+      "t": "మొదటి సోదర పాఠశాల: Jugenddorf Christophorusschule, Bad Zwesten."
+    },
+    {
+      "text": "Sainte Marie Grand LeBrun, Bordeaux.",
+      "of": "47bb2efd",
+      "at": [
+        "charlotte-latin:milestones.events[1].text"
+      ],
+      "t": "Sainte Marie Grand LeBrun, బోర్డో."
+    },
+    {
+      "text": "Colegio Carmen Arriola de Marin, Buenos Aires.",
+      "of": "cd24e03b",
+      "at": [
+        "charlotte-latin:milestones.events[2].text"
+      ],
+      "t": "Colegio Carmen Arriola de Marin, బ్యూనస్ ఎయిర్స్."
+    },
+    {
+      "text": "Istituto Bertrand Russell, Guastalla.",
+      "of": "37883502",
+      "at": [
+        "charlotte-latin:milestones.events[3].text"
+      ],
+      "t": "Istituto Bertrand Russell, గ్వాస్టల్లా."
+    },
+    {
+      "text": "Luzhou Laojiao Tianfu Middle School, Luzhou City.",
+      "of": "8898725b",
+      "at": [
+        "charlotte-latin:milestones.events[4].text"
+      ],
+      "t": "Luzhou Laojiao Tianfu Middle School, లూజౌ నగరం."
+    },
+    {
+      "text": "Hilton College and St. Anne's Diocesan College.",
+      "of": "3fa277fb",
+      "at": [
+        "charlotte-latin:milestones.events[5].text"
+      ],
+      "t": "Hilton College మరియు St. Anne's Diocesan College."
+    },
+    {
+      "text": "The first annual Diwali assembly, and Diwali on the school calendar.",
+      "of": "ddbc2bf0",
+      "at": [
+        "charlotte-latin:milestones.events[6].text"
+      ],
+      "t": "మొదటి వార్షిక దీపావళి అసెంబ్లీ, పాఠశాల క్యాలెండర్‌లో దీపావళి."
+    },
+    {
+      "text": "A trip for credit",
+      "of": "bbcc5c65",
+      "at": [
+        "charlotte-latin:milestones.events[7].title"
+      ],
+      "t": "క్రెడిట్ ఇచ్చే యాత్ర"
+    },
+    {
+      "text": "South Africa: the first Latin trip students could earn academic credit for, per the school.",
+      "of": "7d55eb38",
+      "at": [
+        "charlotte-latin:milestones.events[7].text"
+      ],
+      "t": "దక్షిణ ఆఫ్రికా: పాఠశాల ప్రకారం, విద్యార్థులు విద్యా క్రెడిట్ పొందగలిగిన మొదటి Latin యాత్ర."
+    },
+    {
+      "text": "A new Middle School trip, for 22 students.",
+      "of": "4e4578bf",
+      "at": [
+        "charlotte-latin:milestones.events[8].text"
+      ],
+      "t": "22 మంది విద్యార్థుల కోసం ఒక కొత్త Middle School యాత్ర."
+    },
+    {
+      "text": "Without a tour company",
+      "of": "d3987ed5",
+      "at": [
+        "charlotte-latin:milestones.events[9].title"
+      ],
+      "t": "టూర్ సంస్థ లేకుండా"
+    },
+    {
+      "text": "France and Italy, planned by the school itself.",
+      "of": "aca70277",
+      "at": [
+        "charlotte-latin:milestones.events[9].text"
+      ],
+      "t": "ఫ్రాన్స్ మరియు ఇటలీ — పాఠశాలే స్వయంగా ప్రణాళిక చేసింది."
+    },
+    {
+      "text": "Eight programs",
+      "of": "f33626cd",
+      "at": [
+        "charlotte-latin:milestones.events[10].title"
+      ],
+      "t": "ఎనిమిది కార్యక్రమాలు"
+    },
+    {
+      "text": "Six for Upper School and two for Middle School.",
+      "of": "d25b4b0f",
+      "at": [
+        "charlotte-latin:milestones.events[10].text"
+      ],
+      "t": "Upper School కు ఆరు, Middle School కు రెండు."
+    },
+    {
+      "text": "Where the program stands out, and ten questions the school's website doesn't answer yet — on 2025–26 trips, aid, chaperones and scale.",
+      "of": "d4764859",
+      "at": [
+        "charlotte-latin:verdict.headline"
+      ],
+      "t": "ఈ ప్రోగ్రామ్ ఎక్కడ ప్రత్యేకంగా నిలుస్తుంది, మరియు పాఠశాల వెబ్‌సైట్ ఇంకా సమాధానం ఇవ్వని పది ప్రశ్నలు — 2025–26 యాత్రలు, ఆర్థిక సహాయం, పర్యవేక్షకులు మరియు పరిమాణంపై."
+    },
+    {
+      "text": "Latin stands out for the depth of its sister-school network — seven partners since 1989, with homestays both ways and reciprocal hosting — and for publishing how travel works: eligibility, selection, a sign-up calendar and its safety provider.",
+      "of": "19c6bb01",
+      "at": [
+        "charlotte-latin:verdict.standsOut.summary"
+      ],
+      "t": "Latin తన సోదర పాఠశాల నెట్‌వర్క్ లోతుతో — 1989 నుంచి ఏడు భాగస్వాములు, రెండు వైపులా ఆతిథ్య కుటుంబ బసలు, పరస్పర ఆతిథ్యం — మరియు యాత్రలు ఎలా పనిచేస్తాయో ప్రచురించడంతో ప్రత్యేకంగా నిలుస్తుంది: అర్హత, ఎంపిక, నమోదు క్యాలెండర్, దాని భద్రతా సేవా సంస్థ."
+    },
+    {
+      "text": "Seven sister schools on four continents, the oldest from 1989",
+      "of": "a601a5ae",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[0]"
+      ],
+      "t": "నాలుగు ఖండాల్లో ఏడు సోదర పాఠశాలలు, అత్యంత పాతది 1989 నాటిది"
+    },
+    {
+      "text": "A credit-bearing leadership course taught in South Africa",
+      "of": "bbad35d9",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[1]"
+      ],
+      "t": "దక్షిణ ఆఫ్రికాలో బోధించే, క్రెడిట్ ఇచ్చే నాయకత్వ కోర్సు"
+    },
+    {
+      "text": "A School Year Abroad member school",
+      "of": "1d8c25b4",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[2]"
+      ],
+      "t": "School Year Abroad సభ్య పాఠశాల"
+    },
+    {
+      "text": "Trip leaders trained in first aid, CPR and risk management, with International SOS emergency, medical and evacuation cover",
+      "of": "8551beda",
+      "at": [
+        "charlotte-latin:verdict.standsOut.points[3]"
+      ],
+      "t": "ప్రథమ చికిత్స, CPR, రిస్క్ నిర్వహణలో శిక్షణ పొందిన యాత్రా నాయకులు, International SOS అత్యవసర, వైద్య మరియు తరలింపు కవరేజ్‌తో"
+    },
+    {
+      "text": "2025–26 trips.",
+      "of": "075a6403",
+      "at": [
+        "charlotte-latin:verdict.ask[0].topic",
+        "charlotte-country-day:verdict.ask[4].topic"
+      ],
+      "t": "2025–26 యాత్రలు."
+    },
+    {
+      "text": "Did the Germany, Argentina, New Mexico and Belgium & the Netherlands programs run in summer 2026? Only the South Africa course is documented.",
+      "of": "e79e21a7",
+      "at": [
+        "charlotte-latin:verdict.ask[0].question"
+      ],
+      "t": "జర్మనీ, అర్జెంటీనా, న్యూ మెక్సికో, బెల్జియం మరియు నెదర్లాండ్స్ కార్యక్రమాలు వేసవి 2026లో జరిగాయా? దక్షిణ ఆఫ్రికా కోర్సు మాత్రమే నమోదై ఉంది."
+    },
+    {
+      "text": "The Global Education page lists Middle School programs in Costa Rica and Yellowstone. Are they still offered, and when?",
+      "of": "cd0a83d4",
+      "at": [
+        "charlotte-latin:verdict.ask[1].question"
+      ],
+      "t": "Global Education పేజీలో కోస్టా రికా, ఎల్లోస్టోన్‌లలో Middle School కార్యక్రమాలు ఉన్నాయి. అవి ఇంకా అందుబాటులో ఉన్నాయా, ఎప్పుడు?"
+    },
+    {
+      "text": "Québec class trip.",
+      "of": "99b1245f",
+      "at": [
+        "charlotte-latin:verdict.ask[2].topic"
+      ],
+      "t": "క్యూబెక్ తరగతి యాత్ర."
+    },
+    {
+      "text": "Which grade's class trip goes to Québec, and how does it differ from the elective Montreal and Québec City program?",
+      "of": "67c32c9b",
+      "at": [
+        "charlotte-latin:verdict.ask[2].question"
+      ],
+      "t": "ఏ తరగతి యాత్ర క్యూబెక్‌కు వెళ్తుంది, అది ఐచ్ఛికమైన మాంట్రియల్, క్యూబెక్ సిటీ కార్యక్రమం నుంచి ఎలా భిన్నంగా ఉంటుంది?"
+    },
+    {
+      "text": "China.",
+      "of": "71fc683a",
+      "at": [
+        "charlotte-latin:verdict.ask[3].topic"
+      ],
+      "t": "చైనా."
+    },
+    {
+      "text": "Is the 2006 sister school in Luzhou still active? No exchange with it is published.",
+      "of": "22500ce6",
+      "at": [
+        "charlotte-latin:verdict.ask[3].question"
+      ],
+      "t": "లూజౌలోని 2006 నాటి సోదర పాఠశాల ఇంకా క్రియాశీలంగా ఉందా? దానితో ఏ ఎక్స్ఛేంజ్ కూడా ప్రచురించబడలేదు."
+    },
+    {
+      "text": "Germany.",
+      "of": "821a61f0",
+      "at": [
+        "charlotte-latin:verdict.ask[4].topic"
+      ],
+      "t": "జర్మనీ."
+    },
+    {
+      "text": "Will the Bad Zwesten exchange return after 2025–26? It is not among the 2026–27 programs.",
+      "of": "09731df5",
+      "at": [
+        "charlotte-latin:verdict.ask[4].question"
+      ],
+      "t": "2025–26 తర్వాత Bad Zwesten ఎక్స్ఛేంజ్ మళ్లీ వస్తుందా? అది 2026–27 కార్యక్రమాల్లో లేదు."
+    },
+    {
+      "text": "The Plus Fund helps families on substantial aid with costs beyond tuition, including travel. How does it apply to a trip, and how is it requested?",
+      "of": "851f51e0",
+      "at": [
+        "charlotte-latin:verdict.ask[5].question"
+      ],
+      "t": "గణనీయమైన ఆర్థిక సహాయం పొందే కుటుంబాలకు ట్యూషన్ కాకుండా ఇతర ఖర్చులకు — ప్రయాణంతో సహా — Plus Fund సహాయం చేస్తుంది. ఇది ఒక యాత్రకు ఎలా వర్తిస్తుంది, దాన్ని ఎలా అభ్యర్థించాలి?"
+    },
+    {
+      "text": "Chaperones.",
+      "of": "f9473f55",
+      "at": [
+        "charlotte-latin:verdict.ask[6].topic"
+      ],
+      "t": "పర్యవేక్షకులు."
+    },
+    {
+      "text": "How many trip leaders travel with each group?",
+      "of": "5bb5bc72",
+      "at": [
+        "charlotte-latin:verdict.ask[6].question"
+      ],
+      "t": "ప్రతి బృందంతో ఎంతమంది యాత్రా నాయకులు ప్రయాణిస్తారు?"
+    },
+    {
+      "text": "How many students travel each year? The latest published counts are 22 Middle School students to Québec and 12 Upper School students to South Africa, in summer 2025.",
+      "of": "645faba3",
+      "at": [
+        "charlotte-latin:verdict.ask[7].question"
+      ],
+      "t": "ప్రతి సంవత్సరం ఎంతమంది విద్యార్థులు ప్రయాణిస్తారు? తాజాగా ప్రచురించిన సంఖ్యలు వేసవి 2025లో క్యూబెక్‌కు 22 మంది Middle School విద్యార్థులు, దక్షిణ ఆఫ్రికాకు 12 మంది Upper School విద్యార్థులు."
+    },
+    {
+      "text": "Credential.",
+      "of": "81c33a02",
+      "at": [
+        "charlotte-latin:verdict.ask[8].topic",
+        "charlotte-country-day:verdict.ask[9].topic"
+      ],
+      "t": "ధ్రువపత్రం."
+    },
+    {
+      "text": "Is a global certificate or distinction planned?",
+      "of": "8e12a458",
+      "at": [
+        "charlotte-latin:verdict.ask[8].question"
+      ],
+      "t": "అంతర్జాతీయ సర్టిఫికెట్ లేదా గుర్తింపు ఏదైనా ప్రణాళికలో ఉందా?"
+    },
+    {
+      "text": "Lower School.",
+      "of": "43f046ec",
+      "at": [
+        "charlotte-latin:verdict.ask[9].topic"
+      ],
+      "t": "Lower School."
+    },
+    {
+      "text": "Is any travel or exchange planned before 6th grade?",
+      "of": "70c885be",
+      "at": [
+        "charlotte-latin:verdict.ask[9].question"
+      ],
+      "t": "6వ తరగతికి ముందు ఏదైనా యాత్ర లేదా ఎక్స్ఛేంజ్ ప్రణాళికలో ఉందా?"
     },
     {
       "text": "Travel begins in 6th grade, run by an Office of International Studies the school dates to 1988, with sister-school exchanges and homestays in Québec City, Arequipa and Southampton, and faculty-led Upper School trips over spring break and in the summer.",
@@ -2445,15 +4337,6 @@
         "charlotte-country-day:trips.years[0].noteByDiv.US"
       ],
       "t": "వసంత సెలవుల్లో మరియు వేసవి 2027లో"
-    },
-    {
-      "text": "Canada",
-      "of": "5cf10bfb",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[0].dest",
-        "charlotte-country-day:exchanges.partners[0].country"
-      ],
-      "t": "కెనడా"
     },
     {
       "text": "Québec City — Externat Saint-Coeur de Marie",
@@ -2631,15 +4514,6 @@
       "t": "ప్రతి ఉదయం స్పానిష్ పాఠాలు · మధ్యాహ్నాలు సంస్కృతి, ప్రకృతి"
     },
     {
-      "text": "Italy",
-      "of": "3415f00c",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[5].dest",
-        "charlotte-country-day:trips.years[2].trips[0].dest"
-      ],
-      "t": "ఇటలీ"
-    },
-    {
       "text": "Rome + Sorrento — Pompeii and Herculaneum",
       "of": "f5d6f91c",
       "at": [
@@ -2698,15 +4572,6 @@
       "t": "గ్రీకు, రోమన్ ప్రదేశాలు · 1995 నుంచి యూరప్‌లో వలసలు · గ్రీస్–టర్కీ సంబంధాలు · లాటిన్ చదివే విద్యార్థులకు ప్రాధాన్యం"
     },
     {
-      "text": "China",
-      "of": "94da8330",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[8].dest",
-        "charlotte-country-day:milestones.events[8].title"
-      ],
-      "t": "చైనా"
-    },
-    {
       "text": "The Silk Road, Dunhuang to Xi'an + Shanghai",
       "of": "f9b518cd",
       "at": [
@@ -2723,14 +4588,6 @@
       "t": "గోబీ ఎడారి, టెర్రకోటా యోధులు · షాంఘైలోని Jinrui School విద్యార్థులతో గడిపే సమయం · చైనీస్ చదివే విద్యార్థులకు ప్రాధాన్యం"
     },
     {
-      "text": "Argentina",
-      "of": "cc75630e",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[9].dest"
-      ],
-      "t": "అర్జెంటీనా"
-    },
-    {
       "text": "Buenos Aires, Paraná + Iguazú Falls",
       "of": "214aa2a5",
       "at": [
@@ -2745,14 +4602,6 @@
         "charlotte-country-day:trips.years[0].trips[9].theme"
       ],
       "t": "అర్జెంటీనా విద్యార్థులతో సాంస్కృతిక ఎక్స్ఛేంజ్ · పరానాలో ఒక సేవా-అభ్యాస ప్రాజెక్ట్ · స్పానిష్ చదివే విద్యార్థులకు ప్రాధాన్యం"
-    },
-    {
-      "text": "Summer 2027",
-      "of": "8ad4de19",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[9].timing"
-      ],
-      "t": "వేసవి 2027"
     },
     {
       "text": "as scheduled in March 2024",
@@ -2876,14 +4725,6 @@
       "t": "Honors Spanish II లేదా అంతకంటే పై స్థాయి, 9–11 తరగతులు"
     },
     {
-      "text": "Language immersion",
-      "of": "21dd6828",
-      "at": [
-        "charlotte-country-day:trips.years[1].trips[4].theme"
-      ],
-      "t": "భాషా అభ్యాసం"
-    },
-    {
       "text": "Sweden & Denmark",
       "of": "edf07e99",
       "at": [
@@ -2970,15 +4811,6 @@
         "charlotte-country-day:trips.years[2].trips[3].place"
       ],
       "t": "వ్రొత్స్వాఫ్, క్రెఫెల్డ్ + లిమోజ్ — Charlotte సోదర నగరాలు"
-    },
-    {
-      "text": "Charlotte's sister cities",
-      "of": "1a910f6a",
-      "at": [
-        "charlotte-country-day:trips.years[2].trips[3].theme",
-        "charlotte-country-day:network.cells[1].name"
-      ],
-      "t": "Charlotte సోదర నగరాలు"
     },
     {
       "text": "Country Day Middle School students on the Southampton sister-school exchange, in London",
@@ -3302,14 +5134,6 @@
       "t": "Upper School · 2027 యాత్రలు"
     },
     {
-      "text": "2026 cycle",
-      "of": "7a999acd",
-      "at": [
-        "charlotte-country-day:signup.groups[0].note"
-      ],
-      "t": "2026 చక్రం"
-    },
-    {
       "text": "August 24, 2026",
       "of": "c80a32e4",
       "at": [
@@ -3324,17 +5148,6 @@
         "charlotte-country-day:signup.groups[0].events[0].name"
       ],
       "t": "విద్యార్థుల అసెంబ్లీ"
-    },
-    {
-      "text": "Upper School",
-      "of": "bfabeb69",
-      "at": [
-        "charlotte-country-day:signup.groups[0].events[0].audience",
-        "charlotte-country-day:signup.groups[0].events[1].audience",
-        "charlotte-country-day:signup.groups[0].events[2].audience",
-        "charlotte-country-day:signup.groups[0].events[3].audience"
-      ],
-      "t": "Upper School"
     },
     {
       "text": "September 1, 2026",
@@ -3623,14 +5436,6 @@
         "charlotte-country-day:network.intro.muted"
       ],
       "t": "Academic WorldQuest, Euro Challenge మరియు Model UN సదస్సు పోటీల్లో మొత్తం 23 విజయాలు ఉన్నాయని పాఠశాల లెక్కిస్తుంది."
-    },
-    {
-      "text": "Model UN conferences",
-      "of": "13728fae",
-      "at": [
-        "charlotte-country-day:network.ledgerTitle"
-      ],
-      "t": "Model UN సదస్సులు"
     },
     {
       "text": "Hosted CHARMUN in September · VAMUN at the University of Virginia, 10 delegates, a Best Delegate award and a verbal commendation · MUNCH at UNC-Chapel Hill, 20 students",
@@ -4019,14 +5824,6 @@
       "t": "విద్యార్థులను క్యూబాకు పంపిన రాష్ట్రంలోని మొదటి పాఠశాల."
     },
     {
-      "text": "Québec",
-      "of": "aa1129b8",
-      "at": [
-        "charlotte-country-day:milestones.events[10].title"
-      ],
-      "t": "క్యూబెక్"
-    },
-    {
       "text": "The exchange with Externat Saint-Coeur de Marie begins.",
       "of": "ed8217b1",
       "at": [
@@ -4155,14 +5952,6 @@
       "t": "డైరెక్టర్ ప్రయాణ భాగస్వాములను స్వయంగా పరిశీలిస్తారు, కానీ ఏ విధానమూ ప్రచురించబడలేదు. ఏ సంస్థలను ఉపయోగిస్తారు, ఏ బీమా ఉంటుంది, పర్యవేక్షకుల నిష్పత్తి ఎంత?"
     },
     {
-      "text": "2025–26 trips.",
-      "of": "075a6403",
-      "at": [
-        "charlotte-country-day:verdict.ask[4].topic"
-      ],
-      "t": "2025–26 యాత్రలు."
-    },
-    {
       "text": "Did Upper School trips run in 2025–26? The live page now lists only the 2027 trips.",
       "of": "8e147454",
       "at": [
@@ -4233,14 +6022,6 @@
         "charlotte-country-day:verdict.ask[8].question"
       ],
       "t": "Middle Schoolకు ముందు ఏ అంతర్జాతీయ, భాషా పాఠ్యాంశాలు ఉంటాయి, మరియు JK నుంచి 12 వరకు ప్రచురించిన భాషా క్రమం ఏదైనా ఉందా?"
-    },
-    {
-      "text": "Credential.",
-      "of": "81c33a02",
-      "at": [
-        "charlotte-country-day:verdict.ask[9].topic"
-      ],
-      "t": "ధ్రువపత్రం."
     },
     {
       "text": "Is a global certificate or diploma planned?",
