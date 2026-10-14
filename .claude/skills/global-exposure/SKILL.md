@@ -10,8 +10,8 @@ description: >
   or omit, then hand off to /plan. Use when the user types /global-exposure, or asks for
   "the deep research prompt for <school>'s global exposure / international travel", "a
   global exposure section for <school>", or attaches a global-travel research PDF for a
-  school. Providence Day is the template; going beyond it is welcome but needs the user's
-  approval. This skill writes ONLY source-material and the plan (via /plan) — never app
+  school. Charlotte Country Day is the standard; going beyond it is welcome but needs the
+  user's approval. This skill writes ONLY source-material and the plan (via /plan) — never app
   code.
 ---
 
@@ -19,10 +19,59 @@ description: >
 
 The repeatable version of what built Charlotte Country Day's section
 (`.claude/plans/ccdglobal.md`, 2026-10-12): **prompt → user runs Claude deep research →
-PDF → verified research files → `/plan`**. Providence Day's section
-(`.claude/plans/intltravel.md`) is the template and the standard, within reason, judged
-on what the school's own website publishes. Going beyond it in data or UX is welcome, but
-always with the user's approval.
+PDF → verified research files → `/plan`**. Charlotte Country Day's section
+(`.claude/plans/ccdglobal.md`, `src/data/internationalTravel/charlotte-country-day.ts`)
+is the standard (named by the user, 2026-10-13), within reason, judged on what the
+school's own website publishes. Providence Day's section (`.claude/plans/intltravel.md`)
+was the original template and remains the model for the `credential` card, which Country
+Day does not have. Going beyond the standard in data or UX is welcome, but always with the
+user's approval.
+
+## The standard: Charlotte Country Day
+
+The bar each card is measured against in B4. It is Country Day's *depth*, not its facts.
+A school that publishes less is not a defect: **a card the school cannot reach the bar on
+is filled as far as verified facts allow, never padded; a card it cannot fill at all is
+omitted and its gap goes to `verdict.ask`.**
+
+- **Lead + stats:** a lead and up to 4 stat tiles, each a pure figure (`27`, `1988`),
+  each with a `note` saying whose count it is ("per the school").
+- **`trips`:** trips across every school year the site (or Wayback) documents — Country
+  Day has 20 over three years. **Every trip carries grade, group size, selection method
+  (in `theme`), season `timing` and `homestay`** where the school publishes them. Grade
+  wording is ordinal ("8th grade · up to 15 students"). A multi-division year uses
+  `noteByDiv`. Older or dropped trips go to `alsoOnRecord`; a dropped year's page is cited
+  by its Wayback copy. A photo where the school publishes a usable one.
+- **`exchanges`:** each sister school with outbound and inbound legs, `years` as a
+  pure-figure span, homestays, `visitors`, and a photo where usable.
+- **`signup`:** one group per division, every event tagged with an `audience`.
+  Application and registration deadlines only — never travel dates or prices.
+- **`community`:** pure-figure stats plus cells (ESL, international parents, visiting
+  diplomats, cultural celebrations, global clubs — Country Day has 3 stats and 5 cells).
+  **Rendered only with ≥3 verified cells** (`pdcommunity.md` → Decisions).
+- **`start`:** the school's own framework (Country Day's 4 pillars) where it publishes
+  one, plus divisions with items.
+- **`network`:** retitled per school through `TITLE_OVERRIDES` to name the school's real
+  network. With no Round Square-type membership, Country Day's "Model UN, WorldQuest &
+  Charlotte's Global Partners" is the example. A conference ledger, one row per school
+  year.
+- **`milestones`:** dated events, oldest first — a pure-figure `year`, a short bold
+  `title`, one sentence of `text`. Claimed firsts are worded "per the school", and the
+  **narrowest claim every page supports** is the one rendered (`ccdglobal.md` →
+  Implementation notes). **Rendered only with ≥5 verified dated events**
+  (`pdcommunity.md` → Decisions).
+- **`credential`:** Country Day has none. If the school publishes a global diploma or
+  certificate, model **Providence Day's GSD block** (`providence-day.ts`), and its title
+  must be a per-school `TITLE_OVERRIDES` entry.
+- **`verdict`:** a `standsOut` summary plus ~4 points, and **one `ask` question per gap**
+  (Country Day has 11).
+- **Conflicting years:** the program's own current page wins, or the row is omitted —
+  never "2005 or 2007".
+- **Wording:** month-year mentions are rephrased to seasons; season `timing` on every
+  trip that has one.
+- **File conventions:** a header comment stating provenance, verification date and the
+  rules followed; URL constants at the top; source labels as `'<domain> — <page>'`; card
+  order as in the registry.
 
 ## Hard constraints
 
@@ -86,7 +135,10 @@ always with the user's approval.
   the types, `TITLE_OVERRIDES` and `WIDE_TRAVEL_CARDS`. **Never list cards from memory.**
   The registry grows (`community` and `milestones` were added by `ccdglobal`).
 - `src/data/internationalTravel/README.md`: the data rules every school file follows.
-- `src/data/internationalTravel/providence-day.ts`: the template school's shape and tone.
+- `src/data/internationalTravel/charlotte-country-day.ts`: **the standard school's shape,
+  tone and depth.**
+- `src/data/internationalTravel/providence-day.ts`: its `credential` block only, if the
+  school has a credential.
 - `src/locales/en.json` → the `cards.international-travel.*` and `travel.*` keys. **Look
   for chrome that names a specific school** (Providence Day's "GSD" and "PD" both leaked
   into shared chrome once). Anything school-specific must become a per-school
@@ -142,7 +194,11 @@ following Country Day's file as the model:
 ### B4. Map onto the cards, and ask
 
 Build a short mapping in the conversation: for each registry card, what this school can
-fill from **verified** facts. Then ask the user (AskUserQuestion, one round) only about
+fill from **verified** facts. Then mark each card **at standard / below standard (one-line
+reason) / omitted**, measured against [the standard](#the-standard-charlotte-country-day),
+and put that table in the conversation before the question round. A card below standard
+is not a question for the user unless the reason is a choice; the reason goes into the
+`/plan` brief. Then ask the user (AskUserQuestion, one round) only about
 what is genuinely theirs to decide:
 - **A card the school cannot fill.** The default is to omit it (omit-to-hide), and the gap
   becomes a Verdict question. Retitling a card to hold something it was not designed for is
@@ -161,6 +217,7 @@ Invoke the `plan` skill with a brief that carries everything a fresh window need
 - the two source files;
 - the card mapping and the user's decisions, quoted with their date as the approval
   record;
+- the per-card standard table from B4;
 - the school-specific chrome found in B1;
 - every PDF-only fact still to verify;
 - any third-party-sourced detail;

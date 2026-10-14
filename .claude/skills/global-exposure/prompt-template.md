@@ -16,13 +16,16 @@ Placeholders:
 | `{{DOMAIN}}` | `charlottecountryday.org` | the school's official site, confirmed by fetching it |
 | `{{GRADES}}` | `JK–12` | the school's own site |
 | `{{DISAMBIGUATION}}` | `Several other schools are called "Country Day", so discard any source that is not about Charlotte Country Day.` | one sentence naming the likely collision; omit if none |
-| `{{PEERS}}` | `Providence Day, Charlotte Latin` | 2–3 Charlotte schools for section 10; prefer ones already in Global Exposure |
+| `{{PEERS}}` | `Providence Day, Charlotte Latin` | 2–3 Charlotte schools for section 10; prefer ones already in Global Exposure, Charlotte Country Day first |
 
 **Editing the template.** History: v1 was written for Charlotte Country Day (2026-10-12)
 from the Providence Day dossier's shape, adding the URL rule (Providence Day's PDF cited
 with chips and gave no URLs), the conflicting-figures rule, the no-student-names rule and
 sections 13–20. Keep the section numbers stable. `/global-exposure`'s mode B maps PDF
-sections to cards by number.
+sections to cards by number. v2 (2026-10-13): Charlotte Country Day named the standard
+for `/global-exposure` (plan `gestandard`). Sections unchanged; §3's trip-table columns
+(grade, group size, homestay, selection, timing) are the detail that standard depends on,
+so keep them.
 
 ---
 
