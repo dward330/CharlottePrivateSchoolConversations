@@ -1,7 +1,7 @@
 ---
 name: latinglobal
 title: Add Charlotte Latin to Global Exposure — eight cards (credential omitted; network retitled "School Year Abroad & the Wider Network"), four ledger years from the school's Global Studies Google Site, no prices or exact travel dates on the page
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-13
 branch: feat/latinglobal
@@ -638,3 +638,57 @@ Then research prose, per `PROSE_TRANSLATED` (mechanism:
   **Default:** omit `noteByDiv`; one `note` covers both.
 - **Is a third ledger detail — the 2025–26 Middle School programs — recoverable?** The
   Wayback copy says only "all trips". **Default:** no MS rows for 2025–26.
+
+## Implementation notes
+
+### Phase 1 (English) — 2026-10-13, branch `feat/latinglobal`
+
+Built as planned, with these deviations and recorded inferences:
+
+- **Step 2 re-fetch:** G-PROG, G-DATES, G-SIS27 and GE were unchanged. The 2023 Middle
+  School Model UN post (`/~board/news/post/2023-ms-mun`, new key N-MSMUN23) gives a count
+  — eight delegates at CHARMUN, Providence Day School, February 2023, with six awards — so
+  the Network ledger has a **third row, `2022–23`**, as the plan allowed. Students unnamed.
+- **Photos kept:** `summer_25_2.jpg` → `public/travel/charlotte-latin-south-africa-2025.jpg`
+  (the summer 2025 South Africa group at the Cape of Good Hope sign) for `trips`, and
+  `argentina2.jpg` → `public/travel/charlotte-latin-argentina-exchange.jpg` for
+  `exchanges`. Both opened and checked; reasons for the three not kept are in the Source
+  URLs file.
+- **2025–26 ledger note** reads `'Upper School programs as offered in fall 2025'`, not "in
+  October 2025": the plan's month-and-year wording would have tripped its own
+  month-day grep (dates only inside `signup`).
+- **2025–26 Argentina theme** is `'Sister-school exchange'` (GE says "Sister school
+  cultural exchange"); South Africa 2025–26 got `place: 'Cape Town + around Durban'` and
+  "a two-and-a-half-week course" from BLOG-SA26.
+- **Signup:** `SignupBody` keys events by `name`, so the two October 30, 2026 events stay
+  separate. Roster dates render as `'By October 15, 2026'` / `'By October 30, 2026'`
+  (G-FAQ: "by", "no later than"). The two parent meetings are named "First" and "Second"
+  so their keys differ.
+- **Signup intro** says applications are reviewed "by the Global Studies office and senior
+  administration" — G-APP's wording; the plan's "and trip leaders" applies only to
+  interviews.
+- **Network intro** is stated positively ("Latin's wider network is School Year Abroad…")
+  and drops "Latin belongs to no global-schools network like Round Square" — an absence
+  claim no page makes.
+- **Division inference** (recorded per Decisions): 2024–25 and 2022–23 trips take their
+  division from GE's program lists — Argentina, France, Italy, South Africa and Spain are
+  Upper School; England (ISCA) and Québec are Middle School. N-GLOBAL confirms Canada (MS)
+  and South Africa (US) directly.
+- **Extra verification rows** in the Source URLs file: CO's world-language and history
+  requirements, AG's Plus Fund purpose, and G-APP / G-FAQ's selection and roster dates.
+- **Comment fix outside Files touched:** `src/pages/SchoolDetail.tsx` had a comment
+  naming only Providence Day and Country Day as researched; it now names Latin too.
+  Comment only.
+- **Plan typo:** Verification says Providence Day has 7 cards. It has **9** since
+  pdcommunity (#346); it is unchanged by this branch.
+
+Verification: `check_metrics` clean for this topic (one pre-existing `sports` unmatched
+subtopic, Charlotte Christian); `i18n_extract --report --residual` — every field
+classified; `npm run schema && check:schema` — Global Exposure 3/12; `npx tsc -b` clean;
+`npm run build` — every chained gate passes (`check:seo` with Latin's meta at 152 chars,
+`check:photos`, `check:live`, `check:runtime`, `check:dates`); the `$`, month-day,
+"not published" and surname greps return what the plan expects; real-Chrome check (8
+cards in order, 4 tiles, 22 trips / 5 MS / 17 US, Network ledger 2024–25 → 2022–23 →
+2015–16, no empty community stat strip, photo viewer opens, no overflow at 390px, dark
+mode legible; Providence Day 9 and Country Day 8 cards unchanged); `npm run audit:mobile`
+— 0 page overflows.

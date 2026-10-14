@@ -7,9 +7,10 @@ One `<slug>.ts` per school with International Travel research, each exporting an
 **The area is displayed as "Global Exposure"** (renamed 2026-10-11); its slug, data
 directory and source-material folder keep the original `international-travel` name.
 
-**Two schools:** Providence Day (`.claude/plans/intltravel.md`), added 2026-10-11 from
-a Claude Design handoff, and Charlotte Country Day (`.claude/plans/ccdglobal.md`),
-added 2026-10-12 from a Claude deep-research PDF verified against live pages. The area sits directly after Course Offerings
+**Three schools:** Providence Day (`.claude/plans/intltravel.md`), added 2026-10-11 from
+a Claude Design handoff; Charlotte Country Day (`.claude/plans/ccdglobal.md`),
+added 2026-10-12 from a Claude deep-research PDF verified against live pages; and
+Charlotte Latin (`.claude/plans/latinglobal.md`), added 2026-10-13 the same way. The area sits directly after Course Offerings
 and is **deliberately off Compare** (`COMPARE_DEFERRED_TOPICS` in
 `src/lib/manifest.ts`). Its stat strip is therefore the school's own `stats`, never
 `metricValues.ts` rows, which would feed Compare's Key Stats.
@@ -34,7 +35,11 @@ researched" shell.
   behind that card's facts. A fact with no URL is not rendered. The per-fact map lives
   in `source-material/international-travel/<slug>/<School> - International Travel - Source URLs.md`.
   Deep-research output, including AI-generated summaries, is a lead sheet and never
-  the citation.
+  the citation. **A school-run site under the school's own domain counts as the
+  school's own site** — Charlotte Latin's Global Studies Google Site
+  (`sites.google.com/charlottelatin.org/globalstudies`) carries every trip page, the
+  application, the FAQs and the sign-up calendar, and is cited as `'Global Studies
+  site — <page>'`.
 - **Quote marks only where they mean something** (user preference, 2026-10-11): a
   name or title (a conference theme, a trip or program name, the school's motto), a
   real person's own words, an outside body's verdict we attribute rather than assert
@@ -53,7 +58,8 @@ researched" shell.
   Global Map").
 - **`credential` and `network` are retitled per school** through `TITLE_OVERRIDES` in
   `../internationalTravel.ts` (Providence Day: "The Global Studies Diploma", "Round
-  Square & the Wider Network"). Each override needs a
+  Square & the Wider Network"; Charlotte Latin: "School Year Abroad & the Wider
+  Network"). Each override needs a
   `cards.international-travel.<key>@<slug>` key in every locale catalog. A school with
   no credential or network **omits the card**; it never ships under the generic title.
 - **Every card is optional, including the two shared cards added with Country Day**
