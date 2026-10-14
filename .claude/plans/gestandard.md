@@ -1,11 +1,11 @@
 ---
 name: gestandard
 title: Make Charlotte Country Day the standard for the /global-exposure skill (replacing Providence Day as the template)
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-13
 branch: docs/gestandard
-prs: []
+prs: [348]
 ---
 
 # Charlotte Country Day becomes the Global Exposure standard
@@ -293,3 +293,12 @@ because skill files do not ship to the site.
 - Should the standard also require a photo on `trips` and `exchanges`, given that Country
   Day has both? — **default:** no. Photos stay optional (README rule); the checklist says
   "a photo where the school publishes a usable one".
+
+## Implementation notes
+
+Built as planned (PR #348). Two small additions beyond the steps: `.claude/SKILLS.md`'s
+header "Last updated" date was bumped to 2026-10-13 alongside the section's `updated`
+date, and the B1 bullet names the standard by file path (`charlotte-country-day.ts`)
+rather than the school's full name. The verification grep for "Charlotte Country Day"
+therefore hits the description, intro and standard section, and B1 is matched by path.
+All counts in the checklist matched the live file at implement time.
