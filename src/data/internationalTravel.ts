@@ -191,13 +191,13 @@ export const INTERNATIONAL_TRAVEL_CARDS = [
   // ahead of the school-level overview, so the "how do we take part" cards follow
   // the trip ledger directly. `community` and `milestones` were added with
   // Charlotte Country Day (2026-10-12, user-approved) as shared, optional cards.
-  // The user then moved `community` to third place for every school, current and
-  // future (2026-10-13, pdcommunity). `milestones` stays just before the Verdict,
+  // The user placed `community` fourth, after Signing Up, for every school, current
+  // and future (2026-10-13, communityfourth). `milestones` stays just before the Verdict,
   // so the Verdict stays last.
   { key: 'trips', title: 'Where They Go' },
   { key: 'exchanges', title: 'Exchanges & Homestays' },
-  { key: 'community', title: 'Global Community on Campus' },
   { key: 'signup', title: 'Signing Up for Travel' },
+  { key: 'community', title: 'Global Community on Campus' },
   { key: 'start', title: 'Global Learning at Each School Level' },
   { key: 'credential', title: 'Credential' },
   { key: 'network', title: 'Network' },
