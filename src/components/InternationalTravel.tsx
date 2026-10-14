@@ -120,7 +120,7 @@ function Photo({ photo }: { photo?: TravelPhoto }) {
       />
       {photo.caption && (
         <figcaption>
-          <strong>{photo.caption.title}</strong>
+          <strong>{localizeMoneyText(photo.caption.title)}</strong>
           <div className="text-muted">{photo.caption.text}</div>
           {photo.credit && <div className="text-muted it-credit">{photo.credit}</div>}
         </figcaption>
@@ -279,7 +279,7 @@ function TripsBody({ data }: { data: TripsCard }) {
               <div className="it-list">
                 {data.alsoOnRecord.map((r) => (
                   <div key={r.lead} className="it-list-item">
-                    <strong>{r.lead}</strong> <RichText text={r.text} />
+                    <strong>{localizeMoneyText(r.lead)}</strong> <RichText text={r.text} />
                   </div>
                 ))}
               </div>
@@ -493,7 +493,7 @@ function SignupBody({ data }: { data: SignupCard }) {
         {data.groups.map((g) => (
           <div key={g.title} className="it-col">
             <div className="it-year-head">
-              <span className="it-year-label">{g.title}</span>
+              <span className="it-year-label">{localizeMoneyText(g.title)}</span>
               {g.note && <span className="text-muted it-year-note">{localizeMoneyText(g.note)}</span>}
             </div>
             {g.events.map((e) => (
@@ -604,7 +604,7 @@ function VerdictBody({ data }: { data: VerdictCard }) {
               <label key={q.topic} className="it-ask">
                 <input type="checkbox" />
                 <span>
-                  <strong>{q.topic}</strong> <RichText text={q.question} />
+                  <strong>{localizeMoneyText(q.topic)}</strong> <RichText text={q.question} />
                 </span>
               </label>
             ))}
