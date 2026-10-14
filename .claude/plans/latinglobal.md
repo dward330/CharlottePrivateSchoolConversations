@@ -1,11 +1,11 @@
 ---
 name: latinglobal
 title: Add Charlotte Latin to Global Exposure — eight cards (credential omitted; network retitled "School Year Abroad & the Wider Network"), four ledger years from the school's Global Studies Google Site, no prices or exact travel dates on the page
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-13
 branch: feat/latinglobal
-prs: []
+prs: [349]
 ---
 
 # Charlotte Latin — Global Exposure
@@ -695,7 +695,7 @@ mode legible; Providence Day 9 and Country Day 8 cards unchanged); `npm run audi
 
 ### Phase 2 (locales) — 2026-10-13/14, branch `feat/latinglobal`
 
-Built as planned through step 4. Awaiting the user's browser test (step 5) before the PR.
+Built as planned. Shipped in PR #349.
 
 - **Chrome:** `network@charlotte-latin` added to the nine catalogs by text insertion after
   `network@charlotte-country-day`. Key order is untouched, including `ar.json`.
@@ -730,3 +730,12 @@ Phase 2 verification:
 - real Chrome, every `<details>` open, es/fa/hi/ar: the 8 Global Exposure cards are
   translated and in order with the Network title translated. In fa, 23 of 25 year ranges
   in the section draw in order (the 2 exceptions are above).
+
+**Lead reworded after Phase 2 (user request, 2026-10-14).** The user rewrote the lead
+to "Global Studies travel is open to as young as 6th grade and is built around…" /
+"In 2026–27 there are eight summer programs…". This drops the "for a program the summer
+after" qualifier that Decisions had required. The user chose their wording over a
+suggested "Students can apply … as early as 6th grade". The two strings got new stamps.
+The work files were re-spliced (2 dropped, 2 added ×9), translated in all nine locales
+("open to students from 6th grade") and re-verified: figures, sepdrift, script, dates and
+build all clean.
