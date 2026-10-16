@@ -208,3 +208,52 @@ name, sign, badge or legible caption. Filenames carry no names. Alt text is gene
 
 Credit as "Photo: Charlotte Christian School". Caption with place + "a Winterim trip" — **no
 year** (the year is only in the filename).
+
+## Implement-time verification
+
+Run 2026-10-16 by `/implement christianglobal` (step 2), with `curl -sL` and a browser user
+agent, `pdftotext -layout` for PDFs, and the Wayback CDX index.
+
+| Check | Source | How | Result |
+|---|---|---|---|
+| US page unchanged | US | fetched | Winterim text unchanged ("takes place during the end of February … on-campus, in-town, domestic, and international opportunities"). The packet link still points to `ba353ab7-…` (`2027WinterimPacketdocx.pdf`). **No 2028 packet posted.** |
+| DIV unchanged | DIV | fetched | "cultural empathy, global awareness and a posture of humility"; "Director of Diversity, Belonging and Global Awareness"; Romans 12 "members of the CCS community"; "Global Knights student group"; "Global Knights Club and the Global Awareness Prefect". |
+| CURR unchanged | CURR | fetched | "impact the global culture for Christ"; "Multicultural Festival". |
+| APPLY unchanged | APPLY | fetched | I-20; "Charlotte Christian School does not provide host families." |
+| WP27 unchanged | WP27 | fetched | Five goals, registration dates (July 24 / Aug. 28 / Sept. 5 / Sept. 11, 2026), priority rule, "Final trip size and offerings will be determined according to registrations", the seven international trips and their grade bands and ranges, all as in the trip table above. |
+| **Winterim 2025 packet FOUND** | **WP25** | Wayback | The Parents' Hub (PAR) snapshots of Sep and Dec 2024 link "Winterim Information" to `https://resources.finalsite.net/images/v1692906838/charlotte/it2s4inji6vynrip4ll4/2025WinterimPacket.pdf` (live: 404). CDX holds two captures, 2024-07-19 and **2024-09-21**; the September one is cited (it revises the Montreal/Québec trip's text and cost). **This fills the 2024–25 gap the planning pass recorded.** |
+| EN2922 year | EN2922 | fetched | The same newsletter lists "2019-20 donors", "2020 Scholastic Art Winners", the "2020 Western Region Honors Orchestra", "2020 North Carolina All State honor band in March" and the musical "Feb. 6-8". **Supports "J-Term, winter 2020".** |
+| Photo | `23_US-Winterim-4.png` | opened | 800×533, ~35 students in St Peter's Square, St Peter's Basilica behind. No name, sign, badge or legible caption. Saved as `public/travel/charlotte-christian-italy.jpg`. |
+
+**New page key.**
+
+| Key | URL | Level |
+|---|---|---|
+| **WP25** | `https://web.archive.org/web/20240921230636/https://resources.finalsite.net/images/v1692906838/charlotte/it2s4inji6vynrip4ll4/2025WinterimPacket.pdf` (11 pp., "Winterim 2025 Upper School"), linked from `https://web.archive.org/web/20241213124541/https://www.charlottechristian.com/campus-life/parents` | Wayback (live URL 404) |
+
+WP25 also states: registration "will open on July 26, 2024"; "close at midnight on Aug. 22,
+2024"; "confirmed via email by Aug. 29, 2024"; contracts due Sept. 15, 2024; "Winterim is
+scheduled Feb. 24-28, 2025"; the same five goals and the same priority rule; and
+"Final trip size and offerings will be determined according to registrations". Its
+Puerto Rico trip ("this Spanish-speaking US territory") is filed under **Domestic**, so it is
+left out of the ledger like 2023's.
+
+**Winterim 2025 international trips (6)** — filed under "International" in WP25.
+
+| Year | Trip | Grades | Group | Theme / partner | Timing (render) | Cost (research) | Travel dates (research) | Leaders (research) | Src |
+|---|---|---|---|---|---|---|---|---|---|
+| 2024–25 | **Cuba** — Havana, Remedios | 10–12 | 15–20 | Shoe distribution with Samaritan's Feet · schools and deaf communities, with local churches | Winterim 2025 | $2,100-2,200 | Feb. 23 – Mar. 1 | J. Simmons, A. Gatlin | WP25 |
+| 2024–25 | **Dominican Republic** | 10–12 | 16–45 | Service learning with SCORE International · ministry days in villages | Winterim 2025 | $1,900-2,250 | Feb. 23–28 | O. McCarrick | WP25 |
+| 2024–25 | **Ireland** | 9–12 | 20–40 | "Best of Ireland" · the Cliffs of Moher, Gaelic games, the Book of Kells | Winterim 2025 | $3,625-4,000 | Feb. 23–28 | A. Reeves, R. Mina | WP25 |
+| 2024–25 | **Italy** — Sorrento, Pompeii, Rome | 9–12 | 24–40 | Art, history and faith · catacombs, Vatican City; a service opportunity in Rome | Winterim 2025 | $4,050-4,400 | Feb. 23 – Mar. 1 | K. Pleshko, B. Gillette | WP25 |
+| 2024–25 | **Canada** — Montréal + Québec City | 10–12 | 20–40 | Francophone Canada · serving others, the Hôtel de Glace, a sugar shack | Winterim 2025 | $2,625-3,225 | Feb. 23–28 | E. McGinnis, J. Rego | WP25 |
+| 2024–25 | **Panama** | 9–10 | 16–21 | Vacation Bible School at an inner-city Christian school; a day of prayer with Crossroads Christian Academy; Panamá Viejo, an Emberá village | Winterim 2025 | $1,500-1,700 | Feb. 23–28 | B. & L. Giller | WP25 |
+
+**Recounted with WP25: 35 trips abroad offered across five Winterims** (2023: 6, 2024: 8,
+2025: 6, 2026: 8, 2027: 7). **Countries, our count: 17**: the 15 above plus **Cuba** and
+**Ireland**. The Republic of Ireland is counted separately from the United Kingdom.
+
+**Consequences for the plan.** These figures supersede the plan's 29 / 15 / four-packet
+figures. The ledger gains a `2024–25` year, the SCORE ledger gains a `2024–25` row, the
+Samaritan's Feet cell gains Cuba (2025), and the Verdict's "no Winterim 2025 packet"
+question is dropped, since the packet is now found.
