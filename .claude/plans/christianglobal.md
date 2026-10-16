@@ -1,7 +1,7 @@
 ---
 name: christianglobal
 title: Add Charlotte Christian School to Global Exposure — seven cards (exchanges and credential omitted; network retitled "SCORE International & the Winterim Mission Partners"), 29 Winterim trips abroad over four school years from the school's own Winterim packets; no prices or exact travel dates on the page
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-10-16
 branch: feat/christianglobal
@@ -727,3 +727,38 @@ Then the research prose, per `PROSE_TRANSLATED`. The mechanism is in
   above if the user finds it long.
 - **Should the travel-partner row (Joshua Expeditions, Grand Classroom, EF Tours) render?**
   **Default:** include. Drop it at review if it reads like advertising.
+
+## Implementation notes
+
+**Phase 1 (English), 2026-10-16.**
+
+- **Step 2 found the Winterim 2025 packet**, so the plan's "no 2024–25 packet" gap is
+  closed. The Parents' Hub Wayback snapshots (Sep and Dec 2024) link
+  `2025WinterimPacket.pdf`. Its live URL is 404, but CDX holds a 2024-09-21 capture, now
+  cited as **WP25** (`'Winterim 2025 packet (Wayback, Sep 2024)'`). It lists 6 trips abroad:
+  Cuba (Samaritan's Feet), the Dominican Republic (SCORE), Ireland, Italy, Montréal + Québec
+  City, and Panama. Puerto Rico is filed under Domestic and is excluded, as in 2023.
+  Knock-on changes, all recorded in the Source URLs file under "Implement-time
+  verification":
+  - **35 trips over five Winterims** (not 29 over four); the headline says "Thirty-five".
+  - **17 countries** (Cuba and Ireland added); the tile note is "our count from five
+    Winterims, 2023–2027".
+  - "Seven or eight trips abroad a year" becomes **"six to eight"** in the lead and the
+    Verdict summary.
+  - The SCORE ledger gains a `2024–25` row.
+  - The Samaritan's Feet cell names Cuba ("Baja California, Lisbon and Cuba, offered in four
+    Winterims from 2023 to 2027").
+  - The Verdict's "2025" question is dropped, leaving **eleven** questions.
+- **No 2028 packet.** The Upper School page still links `ba353ab7-…` (2027). The US, DIV,
+  CURR, APPLY and WP27 pages are unchanged.
+- **EN2922 supports winter 2020** ("2019-20 donors", 2020 honors, a "Feb. 6-8" musical), so
+  the alsoOnRecord row reads "Italy, winter 2020".
+- **No division filter renders.** `InternationalTravel.tsx` shows the tabs only when
+  `divs.size >= 2`, so a single-division ledger has none. The trips headline therefore drops
+  the other schools' closing "Filter by division." The Phase 1 browser check confirms 0 tab
+  rows.
+- **Photo:** `23_US-Winterim-4.png` is already a JPEG at 800×533 and was saved as is.
+- **Defaults taken:** the travel-partners row is included; insurers are not named; the
+  crayon drive is omitted; the sign-up card ships as the `2026 cycle`; all five years stay in
+  the ledger.
+
