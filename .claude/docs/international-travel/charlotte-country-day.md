@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Global Exposure
-> Distilled from 2 source document(s) in `source-material/international-travel/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-12.
+> Distilled from 2 source document(s) in `source-material/international-travel/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-16.
 **Documents:** Deep Research, Source URLs
 
 
