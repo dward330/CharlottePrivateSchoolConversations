@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-10-15
 branch: feat/cannonglobal
-prs: []
+prs: [351]
 ---
 
 # Cannon School — Global Exposure
