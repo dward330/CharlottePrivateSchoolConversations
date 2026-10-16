@@ -958,7 +958,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                Summer Programs — the structured cards replace the whole ingested
                prose, folded onto a single metric key by
                RULES['international-travel']. Only Providence Day, Charlotte
-               Country Day and Charlotte Latin are researched; every other school has no source
+               Country Day, Charlotte Latin and Cannon are researched; every other school has no source
                files, so the topic
                never reaches this branch for them. Same present-but-empty guard
                as the areas above. */

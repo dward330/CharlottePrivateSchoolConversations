@@ -916,7 +916,8 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
-        "charlotte-country-day:start.divisions[2].grades"
+        "charlotte-country-day:start.divisions[2].grades",
+        "cannon:start.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -1127,7 +1128,8 @@
         "providence-day:exchanges.partners[5].country",
         "charlotte-latin:trips.years[1].trips[0].dest",
         "charlotte-latin:exchanges.partners[0].country",
-        "charlotte-latin:milestones.events[0].title"
+        "charlotte-latin:milestones.events[0].title",
+        "cannon:trips.years[0].trips[2].dest"
       ],
       "t": "जर्मनी"
     },
@@ -1554,7 +1556,8 @@
       "at": [
         "providence-day:network.rows[0].label",
         "charlotte-latin:network.rows[0].label",
-        "charlotte-country-day:network.rows[0].label"
+        "charlotte-country-day:network.rows[0].label",
+        "cannon:network.rows[0].label"
       ],
       "t": "यात्रा करने वाले शिक्षक"
     },
@@ -2202,7 +2205,8 @@
       "text": "Starting grade.",
       "of": "885235a8",
       "at": [
-        "providence-day:verdict.ask[0].topic"
+        "providence-day:verdict.ask[0].topic",
+        "cannon:verdict.ask[0].topic"
       ],
       "t": "शुरुआती कक्षा।"
     },
@@ -2236,7 +2240,8 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[1].topic"
+        "charlotte-country-day:verdict.ask[1].topic",
+        "cannon:verdict.ask[3].topic"
       ],
       "t": "आर्थिक सहायता।"
     },
@@ -2269,7 +2274,8 @@
       "of": "92b0d001",
       "at": [
         "providence-day:verdict.ask[4].topic",
-        "charlotte-country-day:verdict.ask[2].topic"
+        "charlotte-country-day:verdict.ask[2].topic",
+        "cannon:verdict.ask[4].topic"
       ],
       "t": "चयन।"
     },
@@ -2286,7 +2292,8 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[3].topic"
+        "charlotte-country-day:verdict.ask[3].topic",
+        "cannon:verdict.ask[5].topic"
       ],
       "t": "सुरक्षा।"
     },
@@ -2336,7 +2343,8 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
-        "charlotte-country-day:verdict.ask[10].topic"
+        "charlotte-country-day:verdict.ask[10].topic",
+        "cannon:verdict.ask[9].topic"
       ],
       "t": "पैमाना।"
     },
@@ -2794,7 +2802,8 @@
       "text": "Summer 2026",
       "of": "89d4dc86",
       "at": [
-        "charlotte-latin:trips.years[1].trips[4].timing"
+        "charlotte-latin:trips.years[1].trips[4].timing",
+        "cannon:trips.years[0].trips[1].timing"
       ],
       "t": "ग्रीष्म 2026"
     },
@@ -2816,7 +2825,8 @@
         "charlotte-latin:trips.years[2].trips[3].timing",
         "charlotte-latin:trips.years[2].trips[4].timing",
         "charlotte-latin:trips.years[2].trips[5].timing",
-        "charlotte-latin:trips.years[2].trips[6].timing"
+        "charlotte-latin:trips.years[2].trips[6].timing",
+        "cannon:trips.years[1].trips[1].timing"
       ],
       "t": "ग्रीष्म 2025"
     },
@@ -3042,7 +3052,8 @@
         "charlotte-latin:exchanges.partners[4].country",
         "charlotte-latin:milestones.events[4].title",
         "charlotte-country-day:trips.years[0].trips[8].dest",
-        "charlotte-country-day:milestones.events[8].title"
+        "charlotte-country-day:milestones.events[8].title",
+        "cannon:trips.years[1].trips[1].dest"
       ],
       "t": "चीन"
     },
@@ -4484,7 +4495,9 @@
       "text": "Costa Rica",
       "of": "4a26cbe8",
       "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest"
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
       ],
       "t": "कोस्टा रिका"
     },
@@ -5345,7 +5358,8 @@
       "text": "5–8",
       "of": "660365d3",
       "at": [
-        "charlotte-country-day:start.divisions[1].grades"
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
       ],
       "t": "5–8"
     },
@@ -6038,6 +6052,806 @@
         "charlotte-country-day:verdict.ask[10].question"
       ],
       "t": "हर साल कितने छात्र यात्रा करते हैं? आख़िरी प्रकाशित आँकड़ा 2018–19 में Middle School के 65 छात्रों का है।"
+    },
+    {
+      "text": "Cannon's global program centres on the Upper School, with a Global Studies Certificate awarded at Senior Night and Winterm trips abroad for grades 9–11, on a base of world-language study that begins in Junior Kindergarten.",
+      "of": "9231abba",
+      "at": [
+        "cannon:lead.strong"
+      ],
+      "t": "Cannon का वैश्विक कार्यक्रम Upper School पर केंद्रित है, जिसमें Senior Night पर दिया जाने वाला Global Studies Certificate और कक्षा 9–11 के लिए Winterm की विदेश यात्राएँ शामिल हैं, और इसकी नींव विश्व भाषाओं की पढ़ाई है जो Junior Kindergarten से शुरू होती है।"
+    },
+    {
+      "text": "Recent travel includes TECHO service builds in Costa Rica and the Dominican Republic, a summer in China, and a Middle School trip to Costa Rica in summer 2026.",
+      "of": "8175ebea",
+      "at": [
+        "cannon:lead.muted"
+      ],
+      "t": "हाल की यात्राओं में कोस्टा रिका और डोमिनिकन गणराज्य में TECHO के साथ सेवा-निर्माण कार्य, चीन में गर्मियों की एक यात्रा, और ग्रीष्म 2026 में Middle School की कोस्टा रिका यात्रा शामिल हैं।"
+    },
+    {
+      "text": "Upper School students",
+      "of": "91a4e95b",
+      "at": [
+        "cannon:stats[0].label"
+      ],
+      "t": "Upper School के छात्र"
+    },
+    {
+      "text": "on the Winterm 2026 TECHO service build in the Dominican Republic, per the school",
+      "of": "465880f5",
+      "at": [
+        "cannon:stats[0].note"
+      ],
+      "t": "स्कूल के अनुसार, डोमिनिकन गणराज्य में Winterm 2026 के TECHO सेवा-निर्माण कार्य पर"
+    },
+    {
+      "text": "languages to try in 5th grade",
+      "of": "ae631c9f",
+      "at": [
+        "cannon:stats[1].label"
+      ],
+      "t": "कक्षा 5 में आज़माने के लिए भाषाएँ"
+    },
+    {
+      "text": "French, Mandarin Chinese and Spanish, then students choose one",
+      "of": "7e143905",
+      "at": [
+        "cannon:stats[1].note"
+      ],
+      "t": "फ़्रेंच, मंदारिन चीनी और स्पैनिश, फिर छात्र इनमें से एक चुनते हैं"
+    },
+    {
+      "text": "teachers with the Global Education Badge",
+      "of": "df12cf0d",
+      "at": [
+        "cannon:stats[2].label"
+      ],
+      "t": "Global Education Badge वाले शिक्षक"
+    },
+    {
+      "text": "our count from the school's list, 2017–2024",
+      "of": "76d4523e",
+      "at": [
+        "cannon:stats[2].note"
+      ],
+      "t": "स्कूल की सूची से हमारी गिनती, 2017–2024"
+    },
+    {
+      "text": "Five trips from two school years — 2024–25 and 2025–26 — including TECHO service builds in Costa Rica and the Dominican Republic, a summer in China and a Middle School summer in Costa Rica. Filter by division.",
+      "of": "7248e7b4",
+      "at": [
+        "cannon:trips.headline"
+      ],
+      "t": "दो स्कूल वर्षों — 2024–25 और 2025–26 — की पाँच यात्राएँ, जिनमें कोस्टा रिका और डोमिनिकन गणराज्य में TECHO के साथ सेवा-निर्माण कार्य, चीन में गर्मियों की एक यात्रा और कोस्टा रिका में Middle School की गर्मियों की यात्रा शामिल हैं। डिवीज़न के अनुसार फ़िल्टर करें।"
+    },
+    {
+      "text": "Upper School travel runs mainly through Winterm, a week each January after winter break, whose Trips and Certifications track is open to grades 9–11.",
+      "of": "784fa992",
+      "at": [
+        "cannon:trips.intro.strong"
+      ],
+      "t": "Upper School की यात्राएँ मुख्य रूप से Winterm के ज़रिए होती हैं — हर जनवरी में शीतकालीन अवकाश के बाद का एक सप्ताह — जिसका Trips and Certifications ट्रैक कक्षा 9–11 के लिए खुला है।"
+    },
+    {
+      "text": "Middle School students traveled abroad in summer 2026, and the school has run Upper School TECHO service builds two years running.",
+      "of": "3a73c4eb",
+      "at": [
+        "cannon:trips.intro.muted"
+      ],
+      "t": "Middle School के छात्र ग्रीष्म 2026 में विदेश गए, और स्कूल लगातार दो वर्षों से Upper School के TECHO सेवा-निर्माण कार्य चला रहा है।"
+    },
+    {
+      "text": "Upper School in Winterm and winter 2026; Middle School in summer 2026",
+      "of": "4594c144",
+      "at": [
+        "cannon:trips.years[0].note"
+      ],
+      "t": "Upper School: Winterm और शीतकाल 2026 में; Middle School: ग्रीष्म 2026 में"
+    },
+    {
+      "text": "Winterm and winter 2026",
+      "of": "8d6ad0f7",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.US"
+      ],
+      "t": "Winterm और शीतकाल 2026"
+    },
+    {
+      "text": "summer 2026",
+      "of": "9ca94966",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.MS"
+      ],
+      "t": "ग्रीष्म 2026"
+    },
+    {
+      "text": "Dominican Republic",
+      "of": "efe03871",
+      "at": [
+        "cannon:trips.years[0].trips[0].dest"
+      ],
+      "t": "डोमिनिकन गणराज्य"
+    },
+    {
+      "text": "Santo Domingo, with TECHO",
+      "of": "15b510c8",
+      "at": [
+        "cannon:trips.years[0].trips[0].place"
+      ],
+      "t": "सैंटो डोमिंगो, TECHO के साथ"
+    },
+    {
+      "text": "22 Upper School students",
+      "of": "c3090671",
+      "at": [
+        "cannon:trips.years[0].trips[0].group"
+      ],
+      "t": "Upper School के 22 छात्र"
+    },
+    {
+      "text": "Winterm service learning · building homes for two families · selected by interview; Spanish fluency not required",
+      "of": "cdede383",
+      "at": [
+        "cannon:trips.years[0].trips[0].theme"
+      ],
+      "t": "Winterm सेवा-अधिगम · दो परिवारों के लिए घर बनाना · इंटरव्यू के आधार पर चयन; स्पैनिश में प्रवाह ज़रूरी नहीं"
+    },
+    {
+      "text": "Winterm 2026",
+      "of": "8cdff00f",
+      "at": [
+        "cannon:trips.years[0].trips[0].timing"
+      ],
+      "t": "Winterm 2026"
+    },
+    {
+      "text": "San José, Arenal, Monteverde + Manuel Antonio",
+      "of": "4b455b01",
+      "at": [
+        "cannon:trips.years[0].trips[1].place"
+      ],
+      "t": "सैन होज़े, अरेनाल, मोंटेवेर्दे + मैनुअल एंटोनियो"
+    },
+    {
+      "text": "Eight days of Spanish, geography and culture, including a Spanish-language scavenger hunt in Santa Elena",
+      "of": "a3e72f40",
+      "at": [
+        "cannon:trips.years[0].trips[1].theme"
+      ],
+      "t": "स्पैनिश, भूगोल और संस्कृति के आठ दिन, जिनमें सांता एलेना में स्पैनिश भाषा में एक ख़ज़ाना-खोज (स्कैवेंजर हंट) भी शामिल थी"
+    },
+    {
+      "text": "Hamburg — the Hamburg Open",
+      "of": "39982f84",
+      "at": [
+        "cannon:trips.years[0].trips[2].place"
+      ],
+      "t": "हैम्बर्ग — Hamburg Open"
+    },
+    {
+      "text": "Cannon Studios students",
+      "of": "bd178e05",
+      "at": [
+        "cannon:trips.years[0].trips[2].group"
+      ],
+      "t": "Cannon Studios के छात्र"
+    },
+    {
+      "text": "An international event-technology convention",
+      "of": "4c6140f6",
+      "at": [
+        "cannon:trips.years[0].trips[2].theme"
+      ],
+      "t": "इवेंट-टेक्नोलॉजी का एक अंतरराष्ट्रीय सम्मेलन"
+    },
+    {
+      "text": "Winter 2026",
+      "of": "1fb8deee",
+      "at": [
+        "cannon:trips.years[0].trips[2].timing"
+      ],
+      "t": "शीतकाल 2026"
+    },
+    {
+      "text": "Winterm 2025 and summer 2025",
+      "of": "327bb7bb",
+      "at": [
+        "cannon:trips.years[1].note"
+      ],
+      "t": "Winterm 2025 और ग्रीष्म 2025"
+    },
+    {
+      "text": "with TECHO",
+      "of": "d00be1cc",
+      "at": [
+        "cannon:trips.years[1].trips[0].place"
+      ],
+      "t": "TECHO के साथ"
+    },
+    {
+      "text": "Winterm service learning · the school's first trip with TECHO",
+      "of": "0e9369b0",
+      "at": [
+        "cannon:trips.years[1].trips[0].theme"
+      ],
+      "t": "Winterm सेवा-अधिगम · TECHO के साथ स्कूल की पहली यात्रा"
+    },
+    {
+      "text": "Winterm 2025",
+      "of": "8ddff1a2",
+      "at": [
+        "cannon:trips.years[1].trips[0].timing"
+      ],
+      "t": "Winterm 2025"
+    },
+    {
+      "text": "Shanghai, Xi'an, Chongqing, Zhangjiajie, Fenghuang + Changsha",
+      "of": "6b1d973c",
+      "at": [
+        "cannon:trips.years[1].trips[1].place"
+      ],
+      "t": "शंघाई, शीआन, चोंगकिंग, झांगजियाजिए, फ़ेंगहुआंग + चांग्शा"
+    },
+    {
+      "text": "History and culture · a visit to Fudan University and an AI and robotics company",
+      "of": "ae3698ad",
+      "at": [
+        "cannon:trips.years[1].trips[1].theme"
+      ],
+      "t": "इतिहास और संस्कृति · Fudan University और AI व रोबोटिक्स की एक कंपनी का दौरा"
+    },
+    {
+      "text": "Cannon Middle School students and their chaperones at a waterfall in Costa Rica",
+      "of": "ad569ad8",
+      "at": [
+        "cannon:trips.photo.alt"
+      ],
+      "t": "कोस्टा रिका में एक झरने के पास Cannon Middle School के छात्र और उनके संरक्षक"
+    },
+    {
+      "text": "Costa Rica, summer 2026",
+      "of": "df9034ad",
+      "at": [
+        "cannon:trips.photo.caption.title"
+      ],
+      "t": "कोस्टा रिका, ग्रीष्म 2026"
+    },
+    {
+      "text": "The Middle School trip traveled from the mountains to the Pacific coast.",
+      "of": "bbab4eb1",
+      "at": [
+        "cannon:trips.photo.caption.text"
+      ],
+      "t": "Middle School की यात्रा पहाड़ों से प्रशांत तट तक गई।"
+    },
+    {
+      "text": "Photo: Cannon School",
+      "of": "edf8c7b4",
+      "at": [
+        "cannon:trips.photo.credit"
+      ],
+      "t": "फ़ोटो: Cannon School"
+    },
+    {
+      "text": "Winterm in Costa Rica.",
+      "of": "3647471b",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].lead"
+      ],
+      "t": "कोस्टा रिका में Winterm।"
+    },
+    {
+      "text": "A Winterm Spanish immersion trip to Playa Sámara, Guanacaste, with volunteering at CREAR; the school does not give the year.",
+      "of": "e7304ed8",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].text"
+      ],
+      "t": "प्लाया सामारा, ग्वानाकास्ते की एक Winterm स्पैनिश भाषा-अनुभव यात्रा, जिसमें CREAR में स्वयंसेवा भी शामिल थी; स्कूल इसका वर्ष नहीं बताता।"
+    },
+    {
+      "text": "A Lower School family trip.",
+      "of": "5af53f7e",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].lead"
+      ],
+      "t": "Lower School की एक पारिवारिक यात्रा।"
+    },
+    {
+      "text": "In 2019 the school planned its second Lower School family trip abroad, to Greece, for summer 2020, open to students 5 and up with a parent.",
+      "of": "89e472ff",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].text"
+      ],
+      "t": "2019 में स्कूल ने ग्रीष्म 2020 के लिए ग्रीस की अपनी दूसरी Lower School पारिवारिक विदेश यात्रा की योजना बनाई, जो 5 वर्ष और उससे अधिक उम्र के छात्रों के लिए एक अभिभावक के साथ खुली थी।"
+    },
+    {
+      "text": "Global learning in every division, JrK to 12 — Spanish from Junior Kindergarten, a three-language choice in 5th grade, and Winterm trips in the Upper School.",
+      "of": "5d74a864",
+      "at": [
+        "cannon:start.headline"
+      ],
+      "t": "हर डिवीज़न में वैश्विक सीख, JrK से 12 तक — Junior Kindergarten से स्पैनिश, कक्षा 5 में तीन भाषाओं में से चुनाव, और Upper School में Winterm यात्राएँ।"
+    },
+    {
+      "text": "The International Program aims to promote global competency by broadening the experiences of students through travel, summer exchange, study and service.",
+      "of": "24e2dd00",
+      "at": [
+        "cannon:start.intro.strong"
+      ],
+      "t": "International Program का लक्ष्य यात्रा, गर्मियों के आदान-प्रदान, अध्ययन और सेवा के ज़रिए छात्रों के अनुभवों को व्यापक बनाकर वैश्विक दक्षता को बढ़ावा देना है।"
+    },
+    {
+      "text": "Language study runs from Junior Kindergarten to AP, and global themes reach into Lower School Spanish.",
+      "of": "0d6d6f23",
+      "at": [
+        "cannon:start.intro.muted"
+      ],
+      "t": "भाषा की पढ़ाई Junior Kindergarten से AP तक चलती है, और वैश्विक विषय Lower School की स्पैनिश कक्षाओं तक पहुँचते हैं।"
+    },
+    {
+      "text": "JrK–4",
+      "of": "f92a2a15",
+      "at": [
+        "cannon:start.divisions[0].grades"
+      ],
+      "t": "JrK–4"
+    },
+    {
+      "text": "Spanish from Junior Kindergarten",
+      "of": "b994af1e",
+      "at": [
+        "cannon:start.divisions[0].items[0]"
+      ],
+      "t": "Junior Kindergarten से स्पैनिश"
+    },
+    {
+      "text": "1st grade's culture journey through five South American countries, in Spanish class",
+      "of": "873263e9",
+      "at": [
+        "cannon:start.divisions[0].items[1]"
+      ],
+      "t": "स्पैनिश कक्षा में, कक्षा 1 की पाँच दक्षिण अमेरिकी देशों से होकर गुज़रने वाली सांस्कृतिक यात्रा"
+    },
+    {
+      "text": "An imaginary trip to Costa Rica in 3rd-grade Spanish",
+      "of": "74cdf22a",
+      "at": [
+        "cannon:start.divisions[0].items[2]"
+      ],
+      "t": "कक्षा 3 की स्पैनिश में कोस्टा रिका की एक काल्पनिक यात्रा"
+    },
+    {
+      "text": "5th graders try French, Mandarin Chinese and Spanish, then choose one",
+      "of": "318572fb",
+      "at": [
+        "cannon:start.divisions[1].items[0]"
+      ],
+      "t": "कक्षा 5 के छात्र फ़्रेंच, मंदारिन चीनी और स्पैनिश आज़माते हैं, फिर इनमें से एक चुनते हैं"
+    },
+    {
+      "text": "A Model UN team among the academic competition teams",
+      "of": "b08a3eb4",
+      "at": [
+        "cannon:start.divisions[1].items[1]"
+      ],
+      "t": "शैक्षणिक प्रतियोगिता टीमों में एक Model UN टीम"
+    },
+    {
+      "text": "**Travel abroad:** a summer trip to Costa Rica in 2026",
+      "of": "dc98431a",
+      "at": [
+        "cannon:start.divisions[1].items[2]"
+      ],
+      "t": "**विदेश यात्रा:** 2026 में कोस्टा रिका की गर्मियों की एक यात्रा"
+    },
+    {
+      "text": "Three years of world language, with Chinese, French and Spanish through Honors V and AP",
+      "of": "bcd39cd4",
+      "at": [
+        "cannon:start.divisions[2].items[0]"
+      ],
+      "t": "विश्व भाषा के तीन वर्ष, जिसमें चीनी, फ़्रेंच और स्पैनिश Honors V और AP तक उपलब्ध हैं"
+    },
+    {
+      "text": "Honors World History",
+      "of": "82998000",
+      "at": [
+        "cannon:start.divisions[2].items[1]"
+      ],
+      "t": "Honors World History"
+    },
+    {
+      "text": "Winterm, a week each January, with trips open to grades 9–11",
+      "of": "63cc9952",
+      "at": [
+        "cannon:start.divisions[2].items[2]"
+      ],
+      "t": "Winterm, हर जनवरी में एक सप्ताह, जिसकी यात्राएँ कक्षा 9–11 के लिए खुली हैं"
+    },
+    {
+      "text": "Honors Glocal Perspectives for seniors",
+      "of": "597fe42d",
+      "at": [
+        "cannon:start.divisions[2].items[3]"
+      ],
+      "t": "सीनियर छात्रों के लिए Honors Glocal Perspectives"
+    },
+    {
+      "text": "A certificate awarded at Senior Night — a required senior course with a capstone, four Mastery Credit strands, and global experiences beyond the classroom.",
+      "of": "1d7006c8",
+      "at": [
+        "cannon:credential.headline"
+      ],
+      "t": "Senior Night पर दिया जाने वाला एक प्रमाणपत्र — कैपस्टोन के साथ एक अनिवार्य सीनियर कोर्स, Mastery Credit के चार क्षेत्र, और कक्षा से बाहर के वैश्विक अनुभव।"
+    },
+    {
+      "text": "The Global Studies Certificate is designed to recognize students who demonstrate a global mindset and embody the qualities of a global citizen, and is awarded at Senior Night.",
+      "of": "924a207d",
+      "at": [
+        "cannon:credential.intro.strong"
+      ],
+      "t": "Global Studies Certificate उन छात्रों को मान्यता देने के लिए बनाया गया है जो वैश्विक सोच दिखाते हैं और एक वैश्विक नागरिक के गुणों को अपनाते हैं, और यह Senior Night पर दिया जाता है।"
+    },
+    {
+      "text": "Since the Class of 2024, students meet its requirements through the Global Studies Mastery Credits.",
+      "of": "ec599e6d",
+      "at": [
+        "cannon:credential.intro.muted"
+      ],
+      "t": "2024 के बैच (Class of 2024) से, छात्र Global Studies Mastery Credits के ज़रिए इसकी आवश्यकताएँ पूरी करते हैं।"
+    },
+    {
+      "text": "Mastery Credit strands",
+      "of": "cc76155e",
+      "at": [
+        "cannon:credential.stats[0].label"
+      ],
+      "t": "Mastery Credit के क्षेत्र"
+    },
+    {
+      "text": "for the Class of 2024 onward",
+      "of": "9c91b507",
+      "at": [
+        "cannon:credential.stats[0].note"
+      ],
+      "t": "2024 के बैच (Class of 2024) और उसके बाद के लिए"
+    },
+    {
+      "text": "Honors Glocal Perspectives in senior year, with a capstone essay and a presentation on a global topic",
+      "of": "920ae956",
+      "at": [
+        "cannon:credential.required[0]"
+      ],
+      "t": "सीनियर वर्ष में Honors Glocal Perspectives, जिसमें किसी वैश्विक विषय पर एक कैपस्टोन निबंध और एक प्रस्तुति होती है"
+    },
+    {
+      "text": "Communication and language proficiency — ACTFL targets of Intermediate Mid–High by level 4 and Advanced Low in AP",
+      "of": "3bfbab28",
+      "at": [
+        "cannon:credential.required[1]"
+      ],
+      "t": "संवाद और भाषा दक्षता — ACTFL लक्ष्य: लेवल 4 तक Intermediate Mid–High और AP में Advanced Low"
+    },
+    {
+      "text": "Independence, research and critical thinking",
+      "of": "77d6fb80",
+      "at": [
+        "cannon:credential.required[2]"
+      ],
+      "t": "स्वतंत्रता, शोध और आलोचनात्मक चिंतन"
+    },
+    {
+      "text": "Intercultural competence or collaboration",
+      "of": "b9331838",
+      "at": [
+        "cannon:credential.required[3]"
+      ],
+      "t": "अंतरसांस्कृतिक दक्षता या सहयोग"
+    },
+    {
+      "text": "Citizenship and leadership",
+      "of": "9ded9ae7",
+      "at": [
+        "cannon:credential.required[4]"
+      ],
+      "t": "नागरिकता और नेतृत्व"
+    },
+    {
+      "text": "A school-sponsored trip abroad, living abroad for a month or more, or hosting an international student",
+      "of": "5c7aa5a9",
+      "at": [
+        "cannon:credential.beyond[0]"
+      ],
+      "t": "स्कूल द्वारा प्रायोजित कोई विदेश यात्रा, एक महीने या उससे अधिक समय तक विदेश में रहना, या किसी अंतरराष्ट्रीय छात्र की मेज़बानी"
+    },
+    {
+      "text": "A second Winterm course",
+      "of": "5d3b8001",
+      "at": [
+        "cannon:credential.beyond[1]"
+      ],
+      "t": "एक दूसरा Winterm कोर्स"
+    },
+    {
+      "text": "Global education events such as the World Affairs Council of Charlotte and World Quest",
+      "of": "bc5d9da4",
+      "at": [
+        "cannon:credential.beyond[2]"
+      ],
+      "t": "World Affairs Council of Charlotte और World Quest जैसे वैश्विक शिक्षा कार्यक्रम"
+    },
+    {
+      "text": "A sustained global team or club, such as Model UN, the Southern Diversity Leadership Conference or UNC World View",
+      "of": "555017cb",
+      "at": [
+        "cannon:credential.beyond[3]"
+      ],
+      "t": "कोई निरंतर वैश्विक टीम या क्लब, जैसे Model UN, Southern Diversity Leadership Conference या UNC World View"
+    },
+    {
+      "text": "Charlotte's World Affairs Council, UNC's World View and student competitions — with teachers who earn a Global Education Badge of their own.",
+      "of": "4c9cfe10",
+      "at": [
+        "cannon:network.headline"
+      ],
+      "t": "Charlotte का World Affairs Council, UNC का World View और छात्र प्रतियोगिताएँ — ऐसे शिक्षकों के साथ जो ख़ुद अपना Global Education Badge अर्जित करते हैं।"
+    },
+    {
+      "text": "The program's links run through Charlotte's World Affairs Council, UNC's World View and student competitions, and its mission includes \"thinking globally and acting locally.\"",
+      "of": "d3940894",
+      "at": [
+        "cannon:network.intro.strong"
+      ],
+      "t": "कार्यक्रम के संबंध Charlotte के World Affairs Council, UNC के World View और छात्र प्रतियोगिताओं से जुड़ते हैं, और इसके मिशन में \"thinking globally and acting locally\" शामिल है।"
+    },
+    {
+      "text": "Teachers can earn a Global Education Badge through 100 hours of global professional development, and some travel abroad on awards and grants.",
+      "of": "37946bcf",
+      "at": [
+        "cannon:network.intro.muted"
+      ],
+      "t": "शिक्षक 100 घंटे के वैश्विक व्यावसायिक विकास के ज़रिए Global Education Badge अर्जित कर सकते हैं, और कुछ शिक्षक पुरस्कारों और अनुदानों पर विदेश यात्रा करते हैं।"
+    },
+    {
+      "text": "World Affairs Council of Charlotte & UNC World View",
+      "of": "22dfa26a",
+      "at": [
+        "cannon:network.cells[0].name"
+      ],
+      "t": "World Affairs Council of Charlotte और UNC World View"
+    },
+    {
+      "text": "The program's partner links, and qualifying events and groups for the Global Studies Certificate.",
+      "of": "d840bd86",
+      "at": [
+        "cannon:network.cells[0].text"
+      ],
+      "t": "कार्यक्रम के साझेदार संबंध, और Global Studies Certificate के लिए मान्य कार्यक्रम और समूह।"
+    },
+    {
+      "text": "Model UN & World Quest",
+      "of": "cec8b265",
+      "at": [
+        "cannon:network.cells[1].name"
+      ],
+      "t": "Model UN और World Quest"
+    },
+    {
+      "text": "Model UN is a Middle School academic team, and Model UN and World Quest both count toward the certificate.",
+      "of": "4c167c8e",
+      "at": [
+        "cannon:network.cells[1].text"
+      ],
+      "t": "Model UN, Middle School की एक शैक्षणिक टीम है, और Model UN व World Quest दोनों प्रमाणपत्र में गिने जाते हैं।"
+    },
+    {
+      "text": "Global Education Badge",
+      "of": "bde4347b",
+      "at": [
+        "cannon:network.cells[2].name"
+      ],
+      "t": "Global Education Badge"
+    },
+    {
+      "text": "Teachers earn it with at least 100 hours of global professional development and a capstone, such as a new Winterm course or a student travel program. It is sponsored by the North Carolina Global Education Benchmark Group; 21 teachers earned it from 2017 to 2024, our count.",
+      "of": "f2f9a018",
+      "at": [
+        "cannon:network.cells[2].text"
+      ],
+      "t": "शिक्षक इसे कम से कम 100 घंटे के वैश्विक व्यावसायिक विकास और एक कैपस्टोन — जैसे कोई नया Winterm कोर्स या छात्रों का कोई यात्रा कार्यक्रम — के साथ अर्जित करते हैं। इसे North Carolina Global Education Benchmark Group प्रायोजित करता है; हमारी गिनती के अनुसार 2017 से 2024 तक 21 शिक्षकों ने इसे अर्जित किया।"
+    },
+    {
+      "text": "In 2026, the inaugural Helfrich Catalyst Fellowship sent a sixth-grade social studies teacher to Peru, and a Kimbrough award sent an Upper School English teacher to Finland, joined by a colleague with a World Affairs Council grant.",
+      "of": "617c443d",
+      "at": [
+        "cannon:network.rows[0].text"
+      ],
+      "t": "2026 में पहली Helfrich Catalyst Fellowship के तहत कक्षा 6 के सामाजिक अध्ययन के एक शिक्षक पेरू गए, और एक Kimbrough पुरस्कार के तहत Upper School के अंग्रेज़ी के एक शिक्षक फ़िनलैंड गए, जिनके साथ World Affairs Council का अनुदान पाने वाले एक सहकर्मी भी गए।"
+    },
+    {
+      "text": "Where the program stands out, and eleven questions the school's website doesn't answer yet — trip costs, aid, selection and safety.",
+      "of": "f4f33a1d",
+      "at": [
+        "cannon:verdict.headline"
+      ],
+      "t": "यह कार्यक्रम कहाँ अलग दिखता है, और ग्यारह सवाल जिनका जवाब स्कूल की वेबसाइट अभी तक नहीं देती — यात्रा का ख़र्च, आर्थिक सहायता, चयन और सुरक्षा।"
+    },
+    {
+      "text": "Cannon's global program is small and centred on the Upper School, but it offers something most Charlotte schools do not — a Global Studies Certificate with published requirements — and global language learning from Junior Kindergarten.",
+      "of": "c535bace",
+      "at": [
+        "cannon:verdict.standsOut.summary"
+      ],
+      "t": "Cannon का वैश्विक कार्यक्रम छोटा है और Upper School पर केंद्रित है, लेकिन यह कुछ ऐसा देता है जो Charlotte के अधिकांश स्कूल नहीं देते — प्रकाशित आवश्यकताओं वाला एक Global Studies Certificate — और Junior Kindergarten से वैश्विक भाषा शिक्षा।"
+    },
+    {
+      "text": "A certificate awarded at Senior Night, with a required senior capstone course",
+      "of": "aa6ce3c8",
+      "at": [
+        "cannon:verdict.standsOut.points[0]"
+      ],
+      "t": "Senior Night पर दिया जाने वाला एक प्रमाणपत्र, जिसके साथ सीनियर वर्ष का एक अनिवार्य कैपस्टोन कोर्स है"
+    },
+    {
+      "text": "Spanish from Junior Kindergarten and a three-language choice in 5th grade",
+      "of": "4c35b3e3",
+      "at": [
+        "cannon:verdict.standsOut.points[1]"
+      ],
+      "t": "Junior Kindergarten से स्पैनिश और कक्षा 5 में तीन भाषाओं में से चुनाव"
+    },
+    {
+      "text": "Two years of TECHO service builds in Latin America",
+      "of": "3a03b150",
+      "at": [
+        "cannon:verdict.standsOut.points[2]"
+      ],
+      "t": "लैटिन अमेरिका में TECHO के साथ सेवा-निर्माण कार्य के दो वर्ष"
+    },
+    {
+      "text": "Teachers trained through a 100-hour Global Education Badge",
+      "of": "ef80b425",
+      "at": [
+        "cannon:verdict.standsOut.points[3]"
+      ],
+      "t": "100 घंटे के Global Education Badge के ज़रिए प्रशिक्षित शिक्षक"
+    },
+    {
+      "text": "What is the earliest grade for international travel, and is the Middle School Costa Rica trip offered every year?",
+      "of": "a0ffdd44",
+      "at": [
+        "cannon:verdict.ask[0].question"
+      ],
+      "t": "अंतरराष्ट्रीय यात्रा के लिए सबसे शुरुआती कक्षा कौन-सी है, और क्या Middle School की कोस्टा रिका यात्रा हर साल होती है?"
+    },
+    {
+      "text": "2026–27 trips.",
+      "of": "d393dcf3",
+      "at": [
+        "cannon:verdict.ask[1].topic"
+      ],
+      "t": "2026–27 की यात्राएँ।"
+    },
+    {
+      "text": "Which trips are planned for 2026–27? No trip list is published.",
+      "of": "6fcc0b18",
+      "at": [
+        "cannon:verdict.ask[1].question"
+      ],
+      "t": "2026–27 के लिए कौन-सी यात्राएँ नियोजित हैं? यात्राओं की कोई सूची प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Cost.",
+      "of": "04e0a6c2",
+      "at": [
+        "cannon:verdict.ask[2].topic"
+      ],
+      "t": "ख़र्च।"
+    },
+    {
+      "text": "What does a trip cost, and what does it include? No trip price is published.",
+      "of": "50cea9fe",
+      "at": [
+        "cannon:verdict.ask[2].question"
+      ],
+      "t": "एक यात्रा का ख़र्च कितना है, और उसमें क्या शामिल है? किसी यात्रा की क़ीमत प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Financial aid covers \"Required overnight class trips\". Do aid or the John Riley Endowment for Science, Service, and Travel cover optional trips abroad?",
+      "of": "3371f86f",
+      "at": [
+        "cannon:verdict.ask[3].question"
+      ],
+      "t": "आर्थिक सहायता \"Required overnight class trips\" को कवर करती है। क्या सहायता या John Riley Endowment for Science, Service, and Travel वैकल्पिक विदेश यात्राओं को भी कवर करते हैं?"
+    },
+    {
+      "text": "The Dominican Republic trip selected students by interview. How are places decided on other trips, and when a trip is oversubscribed?",
+      "of": "12db6d49",
+      "at": [
+        "cannon:verdict.ask[4].question"
+      ],
+      "t": "डोमिनिकन गणराज्य यात्रा के लिए छात्रों का चयन इंटरव्यू से हुआ था। दूसरी यात्राओं में जगहें कैसे तय होती हैं, और तब क्या होता है जब किसी यात्रा के लिए जगहों से ज़्यादा आवेदन हों?"
+    },
+    {
+      "text": "Which travel vendors are used, what insurance is carried, and what are the chaperone ratios?",
+      "of": "1427e6e2",
+      "at": [
+        "cannon:verdict.ask[5].question"
+      ],
+      "t": "किन ट्रैवल वेंडरों का उपयोग होता है, कौन-सा बीमा लिया जाता है, और संरक्षकों का अनुपात क्या है?"
+    },
+    {
+      "text": "China sister school.",
+      "of": "8c1af722",
+      "at": [
+        "cannon:verdict.ask[6].topic"
+      ],
+      "t": "चीन का सिस्टर स्कूल।"
+    },
+    {
+      "text": "Is an exchange with a sister school in China still active?",
+      "of": "f9c47385",
+      "at": [
+        "cannon:verdict.ask[6].question"
+      ],
+      "t": "क्या चीन के किसी सिस्टर स्कूल के साथ आदान-प्रदान अब भी सक्रिय है?"
+    },
+    {
+      "text": "Certificate rules.",
+      "of": "4f4906eb",
+      "at": [
+        "cannon:verdict.ask[7].topic"
+      ],
+      "t": "प्रमाणपत्र के नियम।"
+    },
+    {
+      "text": "The earlier rules asked for two global experiences beyond the classroom. Does that still apply alongside the Global Studies Mastery Credits, and how many credits are required?",
+      "of": "898368ab",
+      "at": [
+        "cannon:verdict.ask[7].question"
+      ],
+      "t": "पहले के नियमों में कक्षा से बाहर के दो वैश्विक अनुभव माँगे जाते थे। क्या Global Studies Mastery Credits के साथ-साथ यह अब भी लागू है, और कितने क्रेडिट ज़रूरी हैं?"
+    },
+    {
+      "text": "Certificate earners.",
+      "of": "22432004",
+      "at": [
+        "cannon:verdict.ask[8].topic"
+      ],
+      "t": "प्रमाणपत्र पाने वाले।"
+    },
+    {
+      "text": "How many seniors earn the Global Studies Certificate each year?",
+      "of": "944727be",
+      "at": [
+        "cannon:verdict.ask[8].question"
+      ],
+      "t": "हर साल कितने सीनियर छात्र Global Studies Certificate अर्जित करते हैं?"
+    },
+    {
+      "text": "How many students travel abroad each year?",
+      "of": "bf7a2408",
+      "at": [
+        "cannon:verdict.ask[9].question"
+      ],
+      "t": "हर साल कितने छात्र विदेश यात्रा करते हैं?"
+    },
+    {
+      "text": "International students.",
+      "of": "c4fc7979",
+      "at": [
+        "cannon:verdict.ask[10].topic"
+      ],
+      "t": "अंतरराष्ट्रीय छात्र।"
+    },
+    {
+      "text": "Does Cannon still enroll about ten international students a year in the Upper School, living with host families? The school's page on this dates from 2021.",
+      "of": "17818050",
+      "at": [
+        "cannon:verdict.ask[10].question"
+      ],
+      "t": "क्या Cannon अब भी हर साल Upper School में लगभग दस अंतरराष्ट्रीय छात्रों को दाख़िला देता है, जो मेज़बान परिवारों के साथ रहते हैं? इस विषय पर स्कूल का पेज 2021 का है।"
     }
   ]
 }

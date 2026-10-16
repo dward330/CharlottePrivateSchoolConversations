@@ -807,7 +807,8 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
-        "charlotte-country-day:start.divisions[2].grades"
+        "charlotte-country-day:start.divisions[2].grades",
+        "cannon:start.divisions[2].grades"
       ]
     },
     {
@@ -993,7 +994,8 @@
         "providence-day:exchanges.partners[5].country",
         "charlotte-latin:trips.years[1].trips[0].dest",
         "charlotte-latin:exchanges.partners[0].country",
-        "charlotte-latin:milestones.events[0].title"
+        "charlotte-latin:milestones.events[0].title",
+        "cannon:trips.years[0].trips[2].dest"
       ]
     },
     {
@@ -1367,7 +1369,8 @@
       "at": [
         "providence-day:network.rows[0].label",
         "charlotte-latin:network.rows[0].label",
-        "charlotte-country-day:network.rows[0].label"
+        "charlotte-country-day:network.rows[0].label",
+        "cannon:network.rows[0].label"
       ]
     },
     {
@@ -1935,7 +1938,8 @@
       "t": "Grad pou kòmanse.",
       "of": "885235a8",
       "at": [
-        "providence-day:verdict.ask[0].topic"
+        "providence-day:verdict.ask[0].topic",
+        "cannon:verdict.ask[0].topic"
       ]
     },
     {
@@ -1965,7 +1969,8 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[1].topic"
+        "charlotte-country-day:verdict.ask[1].topic",
+        "cannon:verdict.ask[3].topic"
       ]
     },
     {
@@ -1994,7 +1999,8 @@
       "of": "92b0d001",
       "at": [
         "providence-day:verdict.ask[4].topic",
-        "charlotte-country-day:verdict.ask[2].topic"
+        "charlotte-country-day:verdict.ask[2].topic",
+        "cannon:verdict.ask[4].topic"
       ]
     },
     {
@@ -2009,7 +2015,8 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[3].topic"
+        "charlotte-country-day:verdict.ask[3].topic",
+        "cannon:verdict.ask[5].topic"
       ]
     },
     {
@@ -2053,7 +2060,8 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
-        "charlotte-country-day:verdict.ask[10].topic"
+        "charlotte-country-day:verdict.ask[10].topic",
+        "cannon:verdict.ask[9].topic"
       ]
     },
     {
@@ -2458,7 +2466,8 @@
       "t": "Ete 2026",
       "of": "89d4dc86",
       "at": [
-        "charlotte-latin:trips.years[1].trips[4].timing"
+        "charlotte-latin:trips.years[1].trips[4].timing",
+        "cannon:trips.years[0].trips[1].timing"
       ]
     },
     {
@@ -2478,7 +2487,8 @@
         "charlotte-latin:trips.years[2].trips[3].timing",
         "charlotte-latin:trips.years[2].trips[4].timing",
         "charlotte-latin:trips.years[2].trips[5].timing",
-        "charlotte-latin:trips.years[2].trips[6].timing"
+        "charlotte-latin:trips.years[2].trips[6].timing",
+        "cannon:trips.years[1].trips[1].timing"
       ]
     },
     {
@@ -2677,7 +2687,8 @@
         "charlotte-latin:exchanges.partners[4].country",
         "charlotte-latin:milestones.events[4].title",
         "charlotte-country-day:trips.years[0].trips[8].dest",
-        "charlotte-country-day:milestones.events[8].title"
+        "charlotte-country-day:milestones.events[8].title",
+        "cannon:trips.years[1].trips[1].dest"
       ]
     },
     {
@@ -3942,7 +3953,9 @@
       "t": "Kosta Rika",
       "of": "4a26cbe8",
       "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest"
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
       ]
     },
     {
@@ -4696,7 +4709,8 @@
       "t": "5–8",
       "of": "660365d3",
       "at": [
-        "charlotte-country-day:start.divisions[1].grades"
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
       ]
     },
     {
@@ -5301,6 +5315,706 @@
       "of": "4f2ce549",
       "at": [
         "charlotte-country-day:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Pwogram mondyal Cannon an santre sou Upper School, ak yon Global Studies Certificate yo bay pandan Senior Night ak vwayaj Winterm aletranje pou grad 9–11, sou yon baz etid lang etranje ki kòmanse depi Junior Kindergarten.",
+      "of": "9231abba",
+      "at": [
+        "cannon:lead.strong"
+      ]
+    },
+    {
+      "t": "Dènye vwayaj yo gen ladan yo chantye sèvis TECHO pou bati kay nan Kosta Rika ak nan Repiblik Dominikèn, yon ete nan Lachin, ak yon vwayaj Middle School nan Kosta Rika nan ete 2026.",
+      "of": "8175ebea",
+      "at": [
+        "cannon:lead.muted"
+      ]
+    },
+    {
+      "t": "elèv Upper School",
+      "of": "91a4e95b",
+      "at": [
+        "cannon:stats[0].label"
+      ]
+    },
+    {
+      "t": "nan chantye sèvis TECHO Winterm 2026 la nan Repiblik Dominikèn, dapre lekòl la",
+      "of": "465880f5",
+      "at": [
+        "cannon:stats[0].note"
+      ]
+    },
+    {
+      "t": "lang pou eseye nan 5yèm ane",
+      "of": "ae631c9f",
+      "at": [
+        "cannon:stats[1].label"
+      ]
+    },
+    {
+      "t": "Franse, chinwa mandaren ak panyòl, epi elèv yo chwazi youn",
+      "of": "7e143905",
+      "at": [
+        "cannon:stats[1].note"
+      ]
+    },
+    {
+      "t": "pwofesè ki gen Global Education Badge la",
+      "of": "df12cf0d",
+      "at": [
+        "cannon:stats[2].label"
+      ]
+    },
+    {
+      "t": "se kontaj pa nou apati lis lekòl la, 2017–2024",
+      "of": "76d4523e",
+      "at": [
+        "cannon:stats[2].note"
+      ]
+    },
+    {
+      "t": "Senk vwayaj sou de ane lekòl — 2024–25 ak 2025–26 — ak chantye sèvis TECHO pou bati kay nan Kosta Rika ak nan Repiblik Dominikèn, yon ete nan Lachin ak yon ete Middle School nan Kosta Rika. Filtre pa divizyon.",
+      "of": "7248e7b4",
+      "at": [
+        "cannon:trips.headline"
+      ]
+    },
+    {
+      "t": "Vwayaj Upper School yo fèt sitou atravè Winterm, yon semèn chak mwa janvye apre vakans ivè a, epi pakou Trips and Certifications li a louvri pou grad 9–11.",
+      "of": "784fa992",
+      "at": [
+        "cannon:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Elèv Middle School yo te vwayaje aletranje nan ete 2026, epi lekòl la fè chantye sèvis TECHO pou Upper School de ane youn dèyè lòt.",
+      "of": "3a73c4eb",
+      "at": [
+        "cannon:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School pandan Winterm ak ivè 2026; Middle School nan ete 2026",
+      "of": "4594c144",
+      "at": [
+        "cannon:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "Winterm ak ivè 2026",
+      "of": "8d6ad0f7",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.US"
+      ]
+    },
+    {
+      "t": "ete 2026",
+      "of": "9ca94966",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.MS"
+      ]
+    },
+    {
+      "t": "Repiblik Dominikèn",
+      "of": "efe03871",
+      "at": [
+        "cannon:trips.years[0].trips[0].dest"
+      ]
+    },
+    {
+      "t": "Santo Domingo, ak TECHO",
+      "of": "15b510c8",
+      "at": [
+        "cannon:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "22 elèv Upper School",
+      "of": "c3090671",
+      "at": [
+        "cannon:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Aprantisaj atravè sèvis pandan Winterm · bati kay pou de fanmi · seleksyon pa entèvyou; pa bezwen pale panyòl byen",
+      "of": "cdede383",
+      "at": [
+        "cannon:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Winterm 2026",
+      "of": "8cdff00f",
+      "at": [
+        "cannon:trips.years[0].trips[0].timing"
+      ]
+    },
+    {
+      "t": "San José, Arenal, Monteverde + Manuel Antonio",
+      "of": "4b455b01",
+      "at": [
+        "cannon:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "Uit jou panyòl, jewografi ak kilti, ak yon chas trezò an panyòl nan Santa Elena",
+      "of": "a3e72f40",
+      "at": [
+        "cannon:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Hamburg — Hamburg Open nan",
+      "of": "39982f84",
+      "at": [
+        "cannon:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "Elèv Cannon Studios",
+      "of": "bd178e05",
+      "at": [
+        "cannon:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "Yon gwo konvansyon entènasyonal sou teknoloji evènman",
+      "of": "4c6140f6",
+      "at": [
+        "cannon:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Ivè 2026",
+      "of": "1fb8deee",
+      "at": [
+        "cannon:trips.years[0].trips[2].timing"
+      ]
+    },
+    {
+      "t": "Winterm 2025 ak ete 2025",
+      "of": "327bb7bb",
+      "at": [
+        "cannon:trips.years[1].note"
+      ]
+    },
+    {
+      "t": "ak TECHO",
+      "of": "d00be1cc",
+      "at": [
+        "cannon:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "Aprantisaj atravè sèvis pandan Winterm · premye vwayaj lekòl la ak TECHO",
+      "of": "0e9369b0",
+      "at": [
+        "cannon:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Winterm 2025",
+      "of": "8ddff1a2",
+      "at": [
+        "cannon:trips.years[1].trips[0].timing"
+      ]
+    },
+    {
+      "t": "Shanghai, Xi'an, Chongqing, Zhangjiajie, Fenghuang + Changsha",
+      "of": "6b1d973c",
+      "at": [
+        "cannon:trips.years[1].trips[1].place"
+      ]
+    },
+    {
+      "t": "Istwa ak kilti · yon vizit nan Fudan University ak nan yon konpayi entèlijans atifisyèl ak robotik",
+      "of": "ae3698ad",
+      "at": [
+        "cannon:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Elèv Middle School Cannon ak akonpayatè yo bò yon kaskad dlo nan Kosta Rika",
+      "of": "ad569ad8",
+      "at": [
+        "cannon:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "Kosta Rika, ete 2026",
+      "of": "df9034ad",
+      "at": [
+        "cannon:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "Vwayaj Middle School la te soti nan mòn yo rive sou kòt Pasifik la.",
+      "of": "bbab4eb1",
+      "at": [
+        "cannon:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "Foto: Cannon School",
+      "of": "edf8c7b4",
+      "at": [
+        "cannon:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Winterm nan Kosta Rika.",
+      "of": "3647471b",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "Yon vwayaj imèsyon nan panyòl pandan Winterm nan Playa Sámara, Guanacaste, ak travay volontè nan CREAR; lekòl la pa bay ane a.",
+      "of": "e7304ed8",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "Yon vwayaj fanmi Lower School.",
+      "of": "5af53f7e",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "An 2019, lekòl la te planifye dezyèm vwayaj fanmi Lower School li aletranje, an Grès, pou ete 2020, louvri pou elèv ki gen 5 an oswa plis ak yon paran.",
+      "of": "89e472ff",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "Aprantisaj mondyal nan chak divizyon, JrK rive 12 — panyòl depi Junior Kindergarten, yon chwa ant twa lang nan 5yèm ane, ak vwayaj Winterm nan Upper School.",
+      "of": "5d74a864",
+      "at": [
+        "cannon:start.headline"
+      ]
+    },
+    {
+      "t": "Pwogram Entènasyonal la vize ankouraje konpetans mondyal lè li elaji eksperyans elèv yo atravè vwayaj, echanj pandan ete, etid ak sèvis.",
+      "of": "24e2dd00",
+      "at": [
+        "cannon:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Etid lang yo kouri depi Junior Kindergarten rive AP, epi tèm mondyal yo rive jis nan kou panyòl Lower School.",
+      "of": "0d6d6f23",
+      "at": [
+        "cannon:start.intro.muted"
+      ]
+    },
+    {
+      "t": "JrK–4",
+      "of": "f92a2a15",
+      "at": [
+        "cannon:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "Panyòl depi Junior Kindergarten",
+      "of": "b994af1e",
+      "at": [
+        "cannon:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "Yon vwayaj kiltirèl 1ye ane atravè senk peyi Amerik di Sid, nan klas panyòl",
+      "of": "873263e9",
+      "at": [
+        "cannon:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "Yon vwayaj imajinè nan Kosta Rika nan klas panyòl 3yèm ane",
+      "of": "74cdf22a",
+      "at": [
+        "cannon:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "Elèv 5yèm ane yo eseye franse, chinwa mandaren ak panyòl, epi yo chwazi youn",
+      "of": "318572fb",
+      "at": [
+        "cannon:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Yon ekip Model UN pami ekip konpetisyon akademik yo",
+      "of": "b08a3eb4",
+      "at": [
+        "cannon:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "**Vwayaj aletranje:** yon vwayaj ete nan Kosta Rika an 2026",
+      "of": "dc98431a",
+      "at": [
+        "cannon:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Twa ane lang etranje, ak chinwa, franse ak panyòl jiska Honors V ak AP",
+      "of": "bcd39cd4",
+      "at": [
+        "cannon:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Honors World History",
+      "of": "82998000",
+      "at": [
+        "cannon:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Winterm, yon semèn chak mwa janvye, ak vwayaj ki louvri pou grad 9–11",
+      "of": "63cc9952",
+      "at": [
+        "cannon:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Honors Glocal Perspectives pou elèv dènye ane",
+      "of": "597fe42d",
+      "at": [
+        "cannon:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "Yon sètifika yo bay pandan Senior Night — yon kou obligatwa pou elèv dènye ane ak yon pwojè final, kat branch Mastery Credit, ak eksperyans mondyal andeyò salklas la.",
+      "of": "1d7006c8",
+      "at": [
+        "cannon:credential.headline"
+      ]
+    },
+    {
+      "t": "Global Studies Certificate la fèt pou rekonèt elèv ki montre yon mantalite mondyal epi ki gen kalite yon sitwayen mondyal, epi yo bay li pandan Senior Night.",
+      "of": "924a207d",
+      "at": [
+        "cannon:credential.intro.strong"
+      ]
+    },
+    {
+      "t": "Depi pwomosyon 2024 la, elèv yo ranpli kondisyon li yo atravè Global Studies Mastery Credits.",
+      "of": "ec599e6d",
+      "at": [
+        "cannon:credential.intro.muted"
+      ]
+    },
+    {
+      "t": "branch Mastery Credit",
+      "of": "cc76155e",
+      "at": [
+        "cannon:credential.stats[0].label"
+      ]
+    },
+    {
+      "t": "pou pwomosyon 2024 la ak sa ki vin apre yo",
+      "of": "9c91b507",
+      "at": [
+        "cannon:credential.stats[0].note"
+      ]
+    },
+    {
+      "t": "Honors Glocal Perspectives nan dènye ane, ak yon redaksyon final ak yon prezantasyon sou yon sijè mondyal",
+      "of": "920ae956",
+      "at": [
+        "cannon:credential.required[0]"
+      ]
+    },
+    {
+      "t": "Kominikasyon ak metriz lang — objektif ACTFL Intermediate Mid–High nan nivo 4 ak Advanced Low nan AP",
+      "of": "3bfbab28",
+      "at": [
+        "cannon:credential.required[1]"
+      ]
+    },
+    {
+      "t": "Endepandans, rechèch ak panse kritik",
+      "of": "77d6fb80",
+      "at": [
+        "cannon:credential.required[2]"
+      ]
+    },
+    {
+      "t": "Konpetans entèkiltirèl oswa kolaborasyon",
+      "of": "b9331838",
+      "at": [
+        "cannon:credential.required[3]"
+      ]
+    },
+    {
+      "t": "Sitwayènte ak lidèchip",
+      "of": "9ded9ae7",
+      "at": [
+        "cannon:credential.required[4]"
+      ]
+    },
+    {
+      "t": "Yon vwayaj aletranje lekòl la patwone, viv aletranje pou yon mwa oswa plis, oswa resevwa yon elèv entènasyonal lakay ou",
+      "of": "5c7aa5a9",
+      "at": [
+        "cannon:credential.beyond[0]"
+      ]
+    },
+    {
+      "t": "Yon dezyèm kou Winterm",
+      "of": "5d3b8001",
+      "at": [
+        "cannon:credential.beyond[1]"
+      ]
+    },
+    {
+      "t": "Evènman edikasyon mondyal tankou World Affairs Council of Charlotte ak World Quest",
+      "of": "bc5d9da4",
+      "at": [
+        "cannon:credential.beyond[2]"
+      ]
+    },
+    {
+      "t": "Yon ekip oswa yon klib mondyal ki dire, tankou Model UN, Southern Diversity Leadership Conference oswa UNC World View",
+      "of": "555017cb",
+      "at": [
+        "cannon:credential.beyond[3]"
+      ]
+    },
+    {
+      "t": "World Affairs Council Charlotte la, World View UNC a ak konpetisyon elèv yo — ak pwofesè ki jwenn pwòp Global Education Badge pa yo.",
+      "of": "4c9cfe10",
+      "at": [
+        "cannon:network.headline"
+      ]
+    },
+    {
+      "t": "Lyen pwogram nan pase pa World Affairs Council Charlotte la, World View UNC a ak konpetisyon elèv yo, epi misyon li gen ladan l \"thinking globally and acting locally.\"",
+      "of": "d3940894",
+      "at": [
+        "cannon:network.intro.strong"
+      ]
+    },
+    {
+      "t": "Pwofesè yo ka jwenn yon Global Education Badge apre 100 èdtan fòmasyon pwofesyonèl sou mond lan, epi kèk ladan yo vwayaje aletranje gras a prim ak sibvansyon.",
+      "of": "37946bcf",
+      "at": [
+        "cannon:network.intro.muted"
+      ]
+    },
+    {
+      "t": "World Affairs Council of Charlotte ak UNC World View",
+      "of": "22dfa26a",
+      "at": [
+        "cannon:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "Lyen patnè pwogram nan, ak evènman ak gwoup ki konte pou Global Studies Certificate la.",
+      "of": "d840bd86",
+      "at": [
+        "cannon:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Model UN ak World Quest",
+      "of": "cec8b265",
+      "at": [
+        "cannon:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "Model UN se yon ekip akademik Middle School, epi Model UN ak World Quest toude konte pou sètifika a.",
+      "of": "4c167c8e",
+      "at": [
+        "cannon:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Global Education Badge",
+      "of": "bde4347b",
+      "at": [
+        "cannon:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "Pwofesè yo jwenn li ak omwen 100 èdtan fòmasyon pwofesyonèl sou mond lan ak yon pwojè final, tankou yon nouvo kou Winterm oswa yon pwogram vwayaj pou elèv. Se North Carolina Global Education Benchmark Group ki patwone l; 21 pwofesè te jwenn li soti 2017 rive 2024, dapre kontaj pa nou.",
+      "of": "f2f9a018",
+      "at": [
+        "cannon:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "An 2026, premye Helfrich Catalyst Fellowship la te voye yon pwofesè syans sosyal sizyèm ane nan Pewou, epi yon prim Kimbrough te voye yon pwofesè angle Upper School an Fenlann, ansanm ak yon kolèg ki te gen yon sibvansyon World Affairs Council.",
+      "of": "617c443d",
+      "at": [
+        "cannon:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "Kote pwogram nan kanpe apa, ak onz kesyon sit entènèt lekòl la poko reponn — pri vwayaj, èd, seleksyon ak sekirite.",
+      "of": "f4f33a1d",
+      "at": [
+        "cannon:verdict.headline"
+      ]
+    },
+    {
+      "t": "Pwogram mondyal Cannon an piti epi li santre sou Upper School, men li ofri yon bagay pifò lekòl Charlotte pa ofri — yon Global Studies Certificate ak kondisyon ki pibliye — ak aprantisaj lang etranje depi Junior Kindergarten.",
+      "of": "c535bace",
+      "at": [
+        "cannon:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "Yon sètifika yo bay pandan Senior Night, ak yon kou final obligatwa pou elèv dènye ane",
+      "of": "aa6ce3c8",
+      "at": [
+        "cannon:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "Panyòl depi Junior Kindergarten ak yon chwa ant twa lang nan 5yèm ane",
+      "of": "4c35b3e3",
+      "at": [
+        "cannon:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "De ane chantye sèvis TECHO an Amerik Latin",
+      "of": "3a03b150",
+      "at": [
+        "cannon:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "Pwofesè ki fòme atravè yon Global Education Badge 100 èdtan",
+      "of": "ef80b425",
+      "at": [
+        "cannon:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Ki grad ki pi piti pou vwayaj entènasyonal, e èske yo ofri vwayaj Middle School nan Kosta Rika a chak ane?",
+      "of": "a0ffdd44",
+      "at": [
+        "cannon:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Vwayaj 2026–27.",
+      "of": "d393dcf3",
+      "at": [
+        "cannon:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "Ki vwayaj ki planifye pou 2026–27? Lekòl la pa pibliye okenn lis vwayaj.",
+      "of": "6fcc0b18",
+      "at": [
+        "cannon:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "Pri.",
+      "of": "04e0a6c2",
+      "at": [
+        "cannon:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "Konbyen yon vwayaj koute, e kisa li gen ladan l? Lekòl la pa pibliye okenn pri vwayaj.",
+      "of": "50cea9fe",
+      "at": [
+        "cannon:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "Èd finansye kouvri \"Required overnight class trips\". Èske èd la oswa John Riley Endowment for Science, Service, and Travel kouvri vwayaj aletranje opsyonèl yo?",
+      "of": "3371f86f",
+      "at": [
+        "cannon:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "Pou vwayaj Repiblik Dominikèn nan, yo te chwazi elèv yo pa entèvyou. Kijan yo deside kiyès ki jwenn plas nan lòt vwayaj yo, e lè gen twòp demann pou yon vwayaj?",
+      "of": "12db6d49",
+      "at": [
+        "cannon:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "Ki konpayi vwayaj yo itilize, ki asirans yo genyen, e konbyen akonpayatè genyen pou chak elèv?",
+      "of": "1427e6e2",
+      "at": [
+        "cannon:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Lekòl sè an Lachin.",
+      "of": "8c1af722",
+      "at": [
+        "cannon:verdict.ask[6].topic"
+      ]
+    },
+    {
+      "t": "Èske yon echanj ak yon lekòl sè an Lachin toujou aktif?",
+      "of": "f9c47385",
+      "at": [
+        "cannon:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "Règ sètifika a.",
+      "of": "4f4906eb",
+      "at": [
+        "cannon:verdict.ask[7].topic"
+      ]
+    },
+    {
+      "t": "Ansyen règ yo te mande de eksperyans mondyal andeyò salklas la. Èske sa toujou aplike ansanm ak Global Studies Mastery Credits yo, e konbyen kredi ki obligatwa?",
+      "of": "898368ab",
+      "at": [
+        "cannon:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Elèv ki resevwa sètifika a.",
+      "of": "22432004",
+      "at": [
+        "cannon:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "Konbyen elèv dènye ane ki resevwa Global Studies Certificate la chak ane?",
+      "of": "944727be",
+      "at": [
+        "cannon:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Konbyen elèv ki vwayaje aletranje chak ane?",
+      "of": "bf7a2408",
+      "at": [
+        "cannon:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "Elèv entènasyonal.",
+      "of": "c4fc7979",
+      "at": [
+        "cannon:verdict.ask[10].topic"
+      ]
+    },
+    {
+      "t": "Èske Cannon toujou enskri anviwon dis elèv entènasyonal chak ane nan Upper School, ki rete lakay fanmi akèy? Paj lekòl la sou sa a date depi 2021.",
+      "of": "17818050",
+      "at": [
+        "cannon:verdict.ask[10].question"
       ]
     }
   ]

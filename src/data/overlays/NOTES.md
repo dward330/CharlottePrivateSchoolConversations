@@ -3024,3 +3024,50 @@ key, `network@charlotte-latin` ("School Year Abroad & the Wider Network"), keeps
   mutated, 0 existing `t` overwritten, 211 added, all under `charlotte-latin:*`, 0 empty,
   0 foreign-script. `check_work_integrity` itself fails on the length assertion, as for
   every new-school splice.
+
+## Cannon (`cannonglobal`) — Phase 2, 2026-10-16
+
+The fourth school in the area, and the first compact one (five cards, no conference
+ledger). 100 strings × 9 locales, spliced by stamp: 734 kept, 100 added, **0 dropped**.
+Two chrome keys: `credential@cannon` follows `credential@providence-day` (a bare
+`Global Studies Certificate` in bn/te/fa/hi/ar, with an article in es/fr/it/ht), and
+`network@cannon` follows `network@charlotte-country-day`.
+
+**Soft spots for a reviewer:**
+
+- **No precedent existed for four terms, so each locale chose its own:**
+  - "Mastery Credit strands": es *ejes*, fr *volets*, it *aree*, bn *ধারা*, te
+    *విభాగాలు*, hi *क्षेत्र*, fa *محور*, ar *مسارات*.
+  - "capstone": a native "final project / essay" in most locales. bn and te
+    transliterate it (*ক্যাপস্টোন*, *క్యాప్‌స్టోన్*), and it keeps the loanword.
+  - "TECHO service builds": a coined phrase everywhere. Examples are es *proyectos de
+    construcción solidaria*, fr *chantiers solidaires*, it *cantieri di volontariato* and
+    ht *chantye sèvis*.
+  - "Class of 2024": *promoción / promotion / pwomosyon 2024* in es/fr/ht. it keeps
+    "Class of 2024" in English. hi and te put "batch" with the English in brackets.
+- **"Junior Kindergarten" is split.** es/fr/it/ht/hi keep it in Latin, capitalised.
+  bn/te transliterate it, and fa/ar translate it, following Country Day's lowercase
+  "junior kindergarten" precedent. `JrK` stays Latin everywhere.
+- **"International Program"** (the program's name) is translated in es/ht/fa/ar and
+  kept in Latin in bn/te/fr/it/hi. Both readings are right.
+- **"students 5 and up" (the 2019 Greece trip) is an age in all nine locales**, which
+  matches the source ("age 5 and above", WB-TA-2019).
+- **The two quoted English phrases stay verbatim** ("thinking globally and acting
+  locally", "Required overnight class trips"), per the quoted-title rule. fr wraps them
+  in « », it in “ ”, and the other locales use straight quotes.
+- **New transliterations of Chinese and Costa Rican places** (Zhangjiajie, Fenghuang,
+  Changsha, Chongqing, Playa Sámara, Guanacaste, Santa Elena) have no glossary
+  precedent in bn/te/hi/fa/ar and are worth a native check.
+- **`i18n:leaks` residue that is a KEEP:**
+  - The Costa Rica place list is spelled identically in es/fr/it/ht.
+  - ht's China city list matches fr/it apart from the apostrophe.
+  - te keeps both network cell names in English with `&`, which is te's own house style
+    for these cells (it has the same `Model UN & World Quest` cell for Country Day).
+- **Fixed in the cross-locale pass:** ar's "Filter by division." now uses *صنّف حسب
+  المرحلة.*, matching the three other schools' headlines.
+- **RTL:** fa/ar store zero bidi controls. The only figure after Latin text is inside
+  `Winterm 2026` / `Winterm 2025`, where the year belongs to the identifier. fa
+  restructured the 100-hour badge point so `100` follows Persian text.
+- **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English or stamps mutated,
+  0 existing `t` overwritten, 100 added, all under `cannon:*`, 0 empty, 0 bidi controls.
+  The only "foreign-script" hits were bn/hi's danda (U+0964) and pure identifiers.
