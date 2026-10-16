@@ -1,7 +1,7 @@
 ---
 name: cannonglobal
 title: Add Cannon School to Global Exposure — a compact five-card section (trips, school levels, "The Global Studies Certificate", a retitled network, verdict), no prices or exact travel dates on the page
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-15
 branch: feat/cannonglobal
@@ -489,3 +489,30 @@ Then research prose, per `PROSE_TRANSLATED` (mechanism:
 - **Should the 2020 Lower School Greece trip render at all, given it probably never ran?**
   **Default:** keep it in `alsoOnRecord`, worded as planned; drop it if the user objects at
   review.
+
+## Implementation notes
+
+**Phase 1 (English), 2026-10-15.**
+
+- **Step 2 resolved every open date.** Each story's `article:published` meta tag (in the raw
+  HTML; the browser text shows no date) gives N-CHINA 2025-07-03, N-CR 2026-07-21, N-FAC
+  2026-06-04, N-STUDIOS 2026-08-25, N-TECHO 2026-01-30, so the ledger stands as planned.
+  N-CHINA's byline is an Upper School Chinese teacher → the China trip renders as **US**
+  (the open question's default). The badge list re-counts to 21. K has no CLT/FLES wording
+  (it is on G1/G3); it was never rendered.
+- **Photo:** `costarica.jpg` (N-CR) → `public/travel/cannon-costa-rica-2026.jpg`, 800×600;
+  no legible name, sign or caption.
+- **Year notes say "Winterm", not "January".** The plan's `note`/`noteByDiv` wording
+  ("Winterm in January 2026", "Winterm, January 2026") fails its own month-plus-digit grep,
+  so the 2025–26 note is "Upper School in Winterm and winter 2026; Middle School in summer
+  2026" (`US: 'Winterm and winter 2026'`, `MS: 'summer 2026'`) and the 2024–25 note is
+  "Winterm 2025 and summer 2025". The trips intro still says Winterm is "a week each
+  January", which is no date.
+- **The "at least two" Verdict question is reworded** to "asked for two global experiences
+  beyond the classroom", because the plan's grep forbids the phrase anywhere in the file.
+- **The 2025 TECHO trip reads "the school's first trip with TECHO"**, not "the first TECHO
+  build": N-TECHO calls it only "a similar Winterm trip".
+- **Catalog label is "Course Catalog 2025–26 (PDF)".** The plan said 2026–27, but the CAT
+  URL in the Source URLs file is `CannonAcademicCourseCatalog2025-26DIGITAL1.pdf`.
+- **A stale comment in `src/pages/SchoolDetail.tsx`** listing the researched schools now
+  names Cannon too (one comment, no code change).

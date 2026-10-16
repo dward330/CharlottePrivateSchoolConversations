@@ -133,3 +133,29 @@ by a caption, before use.**
 | China 2025 story header | https://resources.finalsite.net/images/t_image_size_4/v1751563216/cannonschoolorg/vc5bb3xvgofmxkolht2r/China.jpg | "Across China: A Journey of Discovery and Connection" | No |
 | International Programs hero | https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_4/v1736972471/cannonschoolorg/aissmhlzci5pfjqde5y1/CostaRica20255.jpg | "Costa Rica 2025" | No |
 | N-FAC header | …/sherrill.jpg | — | **Yes — teacher surname. Do not use.** |
+
+## Implement-time verification
+
+Run 2026-10-15 by `/implement cannonglobal` (step 2). Pages re-read in real Chrome via
+Playwright (`channel: 'chrome'`, `domcontentloaded`), plus `curl -sL` with a browser user
+agent for the raw HTML. **Nothing moved since planning.**
+
+| Check | Source | How | Result |
+|---|---|---|---|
+| Mission, certificate text, "Starting with the Class of 2024…", Global Education Badge (100 hours, NC Global Education Benchmark Group) | IP | browser | Unchanged. Badge list re-counted: 2017 (3), 2018 (5), 2019 (4), 2020 (3), 2021 (2), 2022 (2), 2023 (1), 2024 (1) = **21**, our count. |
+| Winterm a week after winter break; Trips and Certifications open "from 9th through 11th grade"; the undated Playa Sámara / CREAR trip; "four experiences" | WT | browser | Unchanged. |
+| 22 Upper School students; six days in Santo Domingo with TECHO; "following a similar Winterm trip to Costa Rica in 2025"; interview selection; homes for two families | N-TECHO | browser + HTML | Unchanged. `article:published` = **2026-01-30**. |
+| MS Costa Rica: eight days; San José, Arenal, Monteverde, Santa Elena scavenger hunt, Manuel Antonio | N-CR | browser + HTML | Unchanged. `article:published` = **2026-07-21** → "This summer" = **summer 2026**. Kept in `2025–26` as `Summer 2026`. |
+| China itinerary, Fudan University, an AI and robotics company | N-CHINA | browser + HTML | `article:published` = **2025-07-03** → **Summer 2025**. Byline: "Written by … Upper School Chinese teacher" → rendered as an **Upper School** trip (open question resolved to its default: US). The byline names the teacher — not rendered. |
+| Hamburg Open, "last January" | N-STUDIOS | browser + HTML | `article:published` = **2026-08-25** → "last January" = **January 2026**; kept in `2025–26`, timing `Winter 2026`. |
+| Faculty travel awards (Helfrich Catalyst Fellowship → Peru; Kimbrough award → Finland; a World Affairs Council grant) | N-FAC | browser + HTML | Unchanged. `article:published` = **2026-06-04** → 2026. Rendered by role only. |
+| Kindergarten CLT/FLES wording | K | browser | **Not on the page** — only "Spanish" as a co-curricular class. Dropped (it was never going to render). |
+
+**Photo.** Kept `costarica.jpg` (N-CR's story header, the plan's first preference) →
+`public/travel/cannon-costa-rica-2026.jpg`, resized to 800×600 like the other
+`public/travel/` images. Opened and inspected: a group at a waterfall, with no legible name,
+sign or caption. `techno_sizes.jpg` and `CostaRica20255.jpg` downloaded but not used;
+`sherrill.jpg` never downloaded.
+
+**Dropped as still PDF-only:** the Kindergarten CLT/FLES quote. Every other rendered fact
+traces to a fetched or Wayback row above.
