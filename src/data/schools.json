@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-15",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -367,6 +367,11 @@
       "topic_slug": "high-school-placement",
       "school_slug": "trinity-episcopal",
       "doc_count": 3
+    },
+    {
+      "topic_slug": "international-travel",
+      "school_slug": "cannon",
+      "doc_count": 2
     },
     {
       "topic_slug": "international-travel",
@@ -4928,6 +4933,26 @@
       "subtopic": "Tuition and Fees",
       "source_file": "source-material/financial-aid-tuition/trinity-episcopal/Trinity Episcopal School - Financial Aid and Tuition - Tuition and Fees.md",
       "note_file": ".claude/docs/financial-aid-tuition/trinity-episcopal.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "international-travel",
+      "topic": "Global Exposure",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/international-travel/cannon/Cannon School - International Travel - Deep Research.md",
+      "note_file": ".claude/docs/international-travel/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "international-travel",
+      "topic": "Global Exposure",
+      "subtopic": "Source URLs",
+      "source_file": "source-material/international-travel/cannon/Cannon School - International Travel - Source URLs.md",
+      "note_file": ".claude/docs/international-travel/cannon.md",
       "type": "md"
     },
     {
