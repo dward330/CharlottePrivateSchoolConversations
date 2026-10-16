@@ -807,7 +807,8 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
-        "charlotte-country-day:start.divisions[2].grades"
+        "charlotte-country-day:start.divisions[2].grades",
+        "cannon:start.divisions[2].grades"
       ]
     },
     {
@@ -993,7 +994,8 @@
         "providence-day:exchanges.partners[5].country",
         "charlotte-latin:trips.years[1].trips[0].dest",
         "charlotte-latin:exchanges.partners[0].country",
-        "charlotte-latin:milestones.events[0].title"
+        "charlotte-latin:milestones.events[0].title",
+        "cannon:trips.years[0].trips[2].dest"
       ]
     },
     {
@@ -1367,7 +1369,8 @@
       "at": [
         "providence-day:network.rows[0].label",
         "charlotte-latin:network.rows[0].label",
-        "charlotte-country-day:network.rows[0].label"
+        "charlotte-country-day:network.rows[0].label",
+        "cannon:network.rows[0].label"
       ]
     },
     {
@@ -1935,7 +1938,8 @@
       "t": "الصف الذي يبدأ منه السفر.",
       "of": "885235a8",
       "at": [
-        "providence-day:verdict.ask[0].topic"
+        "providence-day:verdict.ask[0].topic",
+        "cannon:verdict.ask[0].topic"
       ]
     },
     {
@@ -1965,7 +1969,8 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[1].topic"
+        "charlotte-country-day:verdict.ask[1].topic",
+        "cannon:verdict.ask[3].topic"
       ]
     },
     {
@@ -1994,7 +1999,8 @@
       "of": "92b0d001",
       "at": [
         "providence-day:verdict.ask[4].topic",
-        "charlotte-country-day:verdict.ask[2].topic"
+        "charlotte-country-day:verdict.ask[2].topic",
+        "cannon:verdict.ask[4].topic"
       ]
     },
     {
@@ -2009,7 +2015,8 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[3].topic"
+        "charlotte-country-day:verdict.ask[3].topic",
+        "cannon:verdict.ask[5].topic"
       ]
     },
     {
@@ -2053,7 +2060,8 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
-        "charlotte-country-day:verdict.ask[10].topic"
+        "charlotte-country-day:verdict.ask[10].topic",
+        "cannon:verdict.ask[9].topic"
       ]
     },
     {
@@ -2458,7 +2466,8 @@
       "t": "صيف 2026",
       "of": "89d4dc86",
       "at": [
-        "charlotte-latin:trips.years[1].trips[4].timing"
+        "charlotte-latin:trips.years[1].trips[4].timing",
+        "cannon:trips.years[0].trips[1].timing"
       ]
     },
     {
@@ -2478,7 +2487,8 @@
         "charlotte-latin:trips.years[2].trips[3].timing",
         "charlotte-latin:trips.years[2].trips[4].timing",
         "charlotte-latin:trips.years[2].trips[5].timing",
-        "charlotte-latin:trips.years[2].trips[6].timing"
+        "charlotte-latin:trips.years[2].trips[6].timing",
+        "cannon:trips.years[1].trips[1].timing"
       ]
     },
     {
@@ -2677,7 +2687,8 @@
         "charlotte-latin:exchanges.partners[4].country",
         "charlotte-latin:milestones.events[4].title",
         "charlotte-country-day:trips.years[0].trips[8].dest",
-        "charlotte-country-day:milestones.events[8].title"
+        "charlotte-country-day:milestones.events[8].title",
+        "cannon:trips.years[1].trips[1].dest"
       ]
     },
     {
@@ -3942,7 +3953,9 @@
       "t": "كوستاريكا",
       "of": "4a26cbe8",
       "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest"
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
       ]
     },
     {
@@ -4696,7 +4709,8 @@
       "t": "5–8",
       "of": "660365d3",
       "at": [
-        "charlotte-country-day:start.divisions[1].grades"
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
       ]
     },
     {
@@ -5301,6 +5315,706 @@
       "of": "4f2ce549",
       "at": [
         "charlotte-country-day:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "يتمحور البرنامج العالمي في Cannon حول Upper School، مع Global Studies Certificate تُمنح في Senior Night، ورحلات Winterm إلى الخارج للصفوف 9–11، وذلك على أساس من دراسة اللغات العالمية تبدأ منذ الروضة التمهيدية (Junior Kindergarten).",
+      "of": "9231abba",
+      "at": [
+        "cannon:lead.strong"
+      ]
+    },
+    {
+      "t": "تشمل الرحلات الأخيرة مشاريع بناء خدمية مع TECHO في كوستاريكا وجمهورية الدومينيكان، وصيفًا في الصين، ورحلة لـMiddle School إلى كوستاريكا في صيف 2026.",
+      "of": "8175ebea",
+      "at": [
+        "cannon:lead.muted"
+      ]
+    },
+    {
+      "t": "طالبًا من Upper School",
+      "of": "91a4e95b",
+      "at": [
+        "cannon:stats[0].label"
+      ]
+    },
+    {
+      "t": "شاركوا في مشروع البناء الخدمي مع TECHO في جمهورية الدومينيكان ضمن Winterm 2026، بحسب المدرسة",
+      "of": "465880f5",
+      "at": [
+        "cannon:stats[0].note"
+      ]
+    },
+    {
+      "t": "لغات للتجربة في الصف 5",
+      "of": "ae631c9f",
+      "at": [
+        "cannon:stats[1].label"
+      ]
+    },
+    {
+      "t": "الفرنسية والصينية الماندرينية والإسبانية، ثم يختار الطلاب واحدة منها",
+      "of": "7e143905",
+      "at": [
+        "cannon:stats[1].note"
+      ]
+    },
+    {
+      "t": "معلّمًا يحملون Global Education Badge",
+      "of": "df12cf0d",
+      "at": [
+        "cannon:stats[2].label"
+      ]
+    },
+    {
+      "t": "بإحصائنا من قائمة المدرسة، 2017–2024",
+      "of": "76d4523e",
+      "at": [
+        "cannon:stats[2].note"
+      ]
+    },
+    {
+      "t": "خمس رحلات من عامين دراسيين — 2024–25 و2025–26 — منها مشاريع بناء خدمية مع TECHO في كوستاريكا وجمهورية الدومينيكان، وصيف في الصين، وصيف لـMiddle School في كوستاريكا. صنّف حسب المرحلة.",
+      "of": "7248e7b4",
+      "at": [
+        "cannon:trips.headline"
+      ]
+    },
+    {
+      "t": "يجري سفر طلاب Upper School أساسًا عبر Winterm، وهو أسبوع في كل يناير بعد العطلة الشتوية، ومسار Trips and Certifications فيه مفتوح للصفوف 9–11.",
+      "of": "784fa992",
+      "at": [
+        "cannon:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "سافر طلاب Middle School إلى الخارج في صيف 2026، ونظّمت المدرسة مشاريع بناء خدمية مع TECHO لطلاب Upper School عامين متتاليين.",
+      "of": "3a73c4eb",
+      "at": [
+        "cannon:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School في Winterm وشتاء 2026؛ وMiddle School في صيف 2026",
+      "of": "4594c144",
+      "at": [
+        "cannon:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "Winterm وشتاء 2026",
+      "of": "8d6ad0f7",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.US"
+      ]
+    },
+    {
+      "t": "صيف 2026",
+      "of": "9ca94966",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.MS"
+      ]
+    },
+    {
+      "t": "جمهورية الدومينيكان",
+      "of": "efe03871",
+      "at": [
+        "cannon:trips.years[0].trips[0].dest"
+      ]
+    },
+    {
+      "t": "سانتو دومينغو، مع TECHO",
+      "of": "15b510c8",
+      "at": [
+        "cannon:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "22 طالبًا من Upper School",
+      "of": "c3090671",
+      "at": [
+        "cannon:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "تعلّم خدمي ضمن Winterm · بناء منزلين لأسرتين · الاختيار بالمقابلة؛ لا تُشترط إجادة الإسبانية",
+      "of": "cdede383",
+      "at": [
+        "cannon:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Winterm 2026",
+      "of": "8cdff00f",
+      "at": [
+        "cannon:trips.years[0].trips[0].timing"
+      ]
+    },
+    {
+      "t": "سان خوسيه وأرينال ومونتيفيردي + مانويل أنطونيو",
+      "of": "4b455b01",
+      "at": [
+        "cannon:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "ثمانية أيام من الإسبانية والجغرافيا والثقافة، منها لعبة بحث عن الكنز باللغة الإسبانية في سانتا إيلينا",
+      "of": "a3e72f40",
+      "at": [
+        "cannon:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "هامبورغ — Hamburg Open",
+      "of": "39982f84",
+      "at": [
+        "cannon:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "طلاب Cannon Studios",
+      "of": "bd178e05",
+      "at": [
+        "cannon:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "مؤتمر دولي لتقنيات الفعاليات",
+      "of": "4c6140f6",
+      "at": [
+        "cannon:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "شتاء 2026",
+      "of": "1fb8deee",
+      "at": [
+        "cannon:trips.years[0].trips[2].timing"
+      ]
+    },
+    {
+      "t": "Winterm 2025 وصيف 2025",
+      "of": "327bb7bb",
+      "at": [
+        "cannon:trips.years[1].note"
+      ]
+    },
+    {
+      "t": "مع TECHO",
+      "of": "d00be1cc",
+      "at": [
+        "cannon:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "تعلّم خدمي ضمن Winterm · أول رحلة للمدرسة مع TECHO",
+      "of": "0e9369b0",
+      "at": [
+        "cannon:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Winterm 2025",
+      "of": "8ddff1a2",
+      "at": [
+        "cannon:trips.years[1].trips[0].timing"
+      ]
+    },
+    {
+      "t": "شنغهاي وشيآن وتشونغتشينغ وتشانغجياجيه وفنغهوانغ + تشانغشا",
+      "of": "6b1d973c",
+      "at": [
+        "cannon:trips.years[1].trips[1].place"
+      ]
+    },
+    {
+      "t": "التاريخ والثقافة · زيارة إلى Fudan University وإلى شركة للذكاء الاصطناعي والروبوتات",
+      "of": "ae3698ad",
+      "at": [
+        "cannon:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "طلاب Middle School في Cannon ومرافقوهم عند شلال في كوستاريكا",
+      "of": "ad569ad8",
+      "at": [
+        "cannon:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "كوستاريكا، صيف 2026",
+      "of": "df9034ad",
+      "at": [
+        "cannon:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "انتقلت رحلة Middle School من الجبال إلى ساحل المحيط الهادئ.",
+      "of": "bbab4eb1",
+      "at": [
+        "cannon:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "صورة: Cannon School",
+      "of": "edf8c7b4",
+      "at": [
+        "cannon:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Winterm في كوستاريكا.",
+      "of": "3647471b",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "رحلة انغماس في الإسبانية ضمن Winterm إلى بلايا سامارا في غواناكاستي، مع عمل تطوعي في CREAR؛ ولا تذكر المدرسة السنة.",
+      "of": "e7304ed8",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "رحلة عائلية لـLower School.",
+      "of": "5af53f7e",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "في 2019 خطّطت المدرسة لرحلتها العائلية الثانية إلى الخارج لـLower School، إلى اليونان، في صيف 2020، وهي مفتوحة للطلاب من سن 5 فما فوق برفقة أحد الوالدين.",
+      "of": "89e472ff",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "تعلّم عالمي في كل مرحلة، من JrK حتى الصف 12 — الإسبانية منذ الروضة التمهيدية، والاختيار بين ثلاث لغات في الصف 5، ورحلات Winterm في Upper School.",
+      "of": "5d74a864",
+      "at": [
+        "cannon:start.headline"
+      ]
+    },
+    {
+      "t": "يهدف البرنامج الدولي إلى تعزيز الكفاءة العالمية عبر توسيع تجارب الطلاب من خلال السفر والتبادل الصيفي والدراسة والخدمة.",
+      "of": "24e2dd00",
+      "at": [
+        "cannon:start.intro.strong"
+      ]
+    },
+    {
+      "t": "تمتدّ دراسة اللغات من الروضة التمهيدية حتى AP، وتصل الموضوعات العالمية إلى حصص الإسبانية في Lower School.",
+      "of": "0d6d6f23",
+      "at": [
+        "cannon:start.intro.muted"
+      ]
+    },
+    {
+      "t": "JrK–4",
+      "of": "f92a2a15",
+      "at": [
+        "cannon:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "الإسبانية منذ الروضة التمهيدية",
+      "of": "b994af1e",
+      "at": [
+        "cannon:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "رحلة ثقافية لطلاب الصف 1 عبر خمس دول في أمريكا الجنوبية، في حصة الإسبانية",
+      "of": "873263e9",
+      "at": [
+        "cannon:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "رحلة متخيَّلة إلى كوستاريكا في حصة الإسبانية للصف 3",
+      "of": "74cdf22a",
+      "at": [
+        "cannon:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "يجرّب طلاب الصف 5 الفرنسية والصينية الماندرينية والإسبانية، ثم يختارون واحدة منها",
+      "of": "318572fb",
+      "at": [
+        "cannon:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "فريق Model UN ضمن فرق المسابقات الأكاديمية",
+      "of": "b08a3eb4",
+      "at": [
+        "cannon:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "**السفر إلى الخارج:** رحلة صيفية إلى كوستاريكا في 2026",
+      "of": "dc98431a",
+      "at": [
+        "cannon:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "ثلاث سنوات من لغة عالمية، مع الصينية والفرنسية والإسبانية حتى مستوى Honors V وAP",
+      "of": "bcd39cd4",
+      "at": [
+        "cannon:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Honors World History",
+      "of": "82998000",
+      "at": [
+        "cannon:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Winterm، أسبوع في كل يناير، برحلات مفتوحة للصفوف 9–11",
+      "of": "63cc9952",
+      "at": [
+        "cannon:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Honors Glocal Perspectives لطلاب السنة الأخيرة",
+      "of": "597fe42d",
+      "at": [
+        "cannon:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "شهادة تُمنح في Senior Night — مقرّر إلزامي في السنة الأخيرة مع مشروع ختامي، وأربعة مسارات في Mastery Credit، وتجارب عالمية خارج الفصل الدراسي.",
+      "of": "1d7006c8",
+      "at": [
+        "cannon:credential.headline"
+      ]
+    },
+    {
+      "t": "صُمّمت Global Studies Certificate لتكريم الطلاب الذين يُظهرون عقلية عالمية ويجسّدون صفات المواطن العالمي، وتُمنح في Senior Night.",
+      "of": "924a207d",
+      "at": [
+        "cannon:credential.intro.strong"
+      ]
+    },
+    {
+      "t": "منذ دفعة 2024، يستوفي الطلاب متطلباتها عبر Global Studies Mastery Credits.",
+      "of": "ec599e6d",
+      "at": [
+        "cannon:credential.intro.muted"
+      ]
+    },
+    {
+      "t": "مسارات في Mastery Credit",
+      "of": "cc76155e",
+      "at": [
+        "cannon:credential.stats[0].label"
+      ]
+    },
+    {
+      "t": "لدفعة 2024 وما بعدها",
+      "of": "9c91b507",
+      "at": [
+        "cannon:credential.stats[0].note"
+      ]
+    },
+    {
+      "t": "Honors Glocal Perspectives في السنة الأخيرة، مع مقال ختامي وعرض تقديمي عن موضوع عالمي",
+      "of": "920ae956",
+      "at": [
+        "cannon:credential.required[0]"
+      ]
+    },
+    {
+      "t": "التواصل والكفاءة اللغوية — أهداف ACTFL هي مستوى Intermediate Mid–High بحلول المستوى 4، وAdvanced Low في AP",
+      "of": "3bfbab28",
+      "at": [
+        "cannon:credential.required[1]"
+      ]
+    },
+    {
+      "t": "الاستقلالية والبحث والتفكير النقدي",
+      "of": "77d6fb80",
+      "at": [
+        "cannon:credential.required[2]"
+      ]
+    },
+    {
+      "t": "الكفاءة بين الثقافات أو التعاون",
+      "of": "b9331838",
+      "at": [
+        "cannon:credential.required[3]"
+      ]
+    },
+    {
+      "t": "المواطَنة والقيادة",
+      "of": "9ded9ae7",
+      "at": [
+        "cannon:credential.required[4]"
+      ]
+    },
+    {
+      "t": "رحلة إلى الخارج ترعاها المدرسة، أو العيش في الخارج لشهر أو أكثر، أو استضافة طالب دولي",
+      "of": "5c7aa5a9",
+      "at": [
+        "cannon:credential.beyond[0]"
+      ]
+    },
+    {
+      "t": "مقرّر ثانٍ ضمن Winterm",
+      "of": "5d3b8001",
+      "at": [
+        "cannon:credential.beyond[1]"
+      ]
+    },
+    {
+      "t": "فعاليات للتعليم العالمي مثل World Affairs Council of Charlotte وWorld Quest",
+      "of": "bc5d9da4",
+      "at": [
+        "cannon:credential.beyond[2]"
+      ]
+    },
+    {
+      "t": "فريق أو نادٍ عالمي مستمر، مثل Model UN أو Southern Diversity Leadership Conference أو UNC World View",
+      "of": "555017cb",
+      "at": [
+        "cannon:credential.beyond[3]"
+      ]
+    },
+    {
+      "t": "World Affairs Council في شارلوت، وWorld View التابع لـUNC، ومسابقات طلابية — مع معلّمين ينالون Global Education Badge خاصًا بهم.",
+      "of": "4c9cfe10",
+      "at": [
+        "cannon:network.headline"
+      ]
+    },
+    {
+      "t": "تمرّ صلات البرنامج عبر World Affairs Council في شارلوت، وWorld View التابع لـUNC، والمسابقات الطلابية، وتتضمّن رسالته \"thinking globally and acting locally\".",
+      "of": "d3940894",
+      "at": [
+        "cannon:network.intro.strong"
+      ]
+    },
+    {
+      "t": "يمكن للمعلّمين نيل Global Education Badge عبر 100 ساعة من التطوير المهني العالمي، ويسافر بعضهم إلى الخارج بفضل جوائز ومنح.",
+      "of": "37946bcf",
+      "at": [
+        "cannon:network.intro.muted"
+      ]
+    },
+    {
+      "t": "World Affairs Council of Charlotte وUNC World View",
+      "of": "22dfa26a",
+      "at": [
+        "cannon:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "روابط الشراكة للبرنامج، وفعاليات ومجموعات مؤهَّلة لـGlobal Studies Certificate.",
+      "of": "d840bd86",
+      "at": [
+        "cannon:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Model UN وWorld Quest",
+      "of": "cec8b265",
+      "at": [
+        "cannon:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "Model UN فريق أكاديمي في Middle School، ويُحتسب كلٌّ من Model UN وWorld Quest ضمن متطلبات الشهادة.",
+      "of": "4c167c8e",
+      "at": [
+        "cannon:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Global Education Badge",
+      "of": "bde4347b",
+      "at": [
+        "cannon:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "ينالها المعلّمون بعد ما لا يقل عن 100 ساعة من التطوير المهني العالمي ومشروع ختامي، مثل مقرّر جديد ضمن Winterm أو برنامج سفر للطلاب. وترعاها North Carolina Global Education Benchmark Group؛ ونالها 21 معلّمًا من 2017 إلى 2024، بإحصائنا.",
+      "of": "f2f9a018",
+      "at": [
+        "cannon:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "في 2026، أرسلت Helfrich Catalyst Fellowship في دورتها الأولى معلّمًا للدراسات الاجتماعية في الصف السادس إلى بيرو، وأرسلت جائزة Kimbrough معلّمًا للغة الإنجليزية في Upper School إلى فنلندا، ورافقه زميل حصل على منحة من World Affairs Council.",
+      "of": "617c443d",
+      "at": [
+        "cannon:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "أين يتميّز البرنامج، وأحد عشر سؤالًا لا يجيب عنها موقع المدرسة بعد — تكاليف الرحلات، والمساعدة المالية، والاختيار، والسلامة.",
+      "of": "f4f33a1d",
+      "at": [
+        "cannon:verdict.headline"
+      ]
+    },
+    {
+      "t": "البرنامج العالمي في Cannon صغير ويتمحور حول Upper School، لكنه يقدّم ما لا تقدّمه معظم مدارس شارلوت — Global Studies Certificate بمتطلبات منشورة — إلى جانب تعلّم اللغات العالمية منذ الروضة التمهيدية.",
+      "of": "c535bace",
+      "at": [
+        "cannon:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "شهادة تُمنح في Senior Night، مع مقرّر ختامي إلزامي في السنة الأخيرة",
+      "of": "aa6ce3c8",
+      "at": [
+        "cannon:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "الإسبانية منذ الروضة التمهيدية، والاختيار بين ثلاث لغات في الصف 5",
+      "of": "4c35b3e3",
+      "at": [
+        "cannon:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "عامان من مشاريع البناء الخدمية مع TECHO في أمريكا اللاتينية",
+      "of": "3a03b150",
+      "at": [
+        "cannon:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "معلّمون مدرَّبون عبر Global Education Badge الذي يتطلّب 100 ساعة",
+      "of": "ef80b425",
+      "at": [
+        "cannon:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "ما أصغر صف يُسمح له بالسفر الدولي، وهل تُنظَّم رحلة Middle School إلى كوستاريكا كل عام؟",
+      "of": "a0ffdd44",
+      "at": [
+        "cannon:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "رحلات 2026–27.",
+      "of": "d393dcf3",
+      "at": [
+        "cannon:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "ما الرحلات المخطَّط لها في 2026–27؟ لا توجد قائمة رحلات منشورة.",
+      "of": "6fcc0b18",
+      "at": [
+        "cannon:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "التكلفة.",
+      "of": "04e0a6c2",
+      "at": [
+        "cannon:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "كم تكلّف الرحلة، وماذا تشمل؟ لا يوجد سعر منشور لأي رحلة.",
+      "of": "50cea9fe",
+      "at": [
+        "cannon:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "تغطي المساعدة المالية \"Required overnight class trips\". فهل تغطي المساعدة المالية أو John Riley Endowment for Science, Service, and Travel الرحلات الاختيارية إلى الخارج؟",
+      "of": "3371f86f",
+      "at": [
+        "cannon:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "اختيرَ طلاب رحلة جمهورية الدومينيكان بالمقابلة. كيف تُحسم الأماكن في الرحلات الأخرى، وعندما يتجاوز الطلب على رحلة ما عدد الأماكن المتاحة؟",
+      "of": "12db6d49",
+      "at": [
+        "cannon:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "ما الجهات المزوّدة لخدمات السفر المعتمدة، وما التأمين المعمول به، وما نسب المرافقين إلى الطلاب؟",
+      "of": "1427e6e2",
+      "at": [
+        "cannon:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "المدرسة الشقيقة في الصين.",
+      "of": "8c1af722",
+      "at": [
+        "cannon:verdict.ask[6].topic"
+      ]
+    },
+    {
+      "t": "هل لا يزال التبادل مع مدرسة شقيقة في الصين قائمًا؟",
+      "of": "f9c47385",
+      "at": [
+        "cannon:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "قواعد الشهادة.",
+      "of": "4f4906eb",
+      "at": [
+        "cannon:verdict.ask[7].topic"
+      ]
+    },
+    {
+      "t": "كانت القواعد السابقة تشترط تجربتين عالميتين خارج الفصل الدراسي. فهل لا يزال ذلك ساريًا إلى جانب Global Studies Mastery Credits، وكم عدد الساعات المعتمدة المطلوبة؟",
+      "of": "898368ab",
+      "at": [
+        "cannon:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "الحاصلون على الشهادة.",
+      "of": "22432004",
+      "at": [
+        "cannon:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "كم عدد طلاب السنة الأخيرة الذين ينالون Global Studies Certificate كل عام؟",
+      "of": "944727be",
+      "at": [
+        "cannon:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "كم عدد الطلاب الذين يسافرون إلى الخارج كل عام؟",
+      "of": "bf7a2408",
+      "at": [
+        "cannon:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "الطلاب الدوليون.",
+      "of": "c4fc7979",
+      "at": [
+        "cannon:verdict.ask[10].topic"
+      ]
+    },
+    {
+      "t": "هل لا تزال Cannon تستقبل نحو عشرة طلاب دوليين سنويًا في Upper School، يقيمون لدى أسر مضيفة؟ تعود صفحة المدرسة عن هذا الموضوع إلى عام 2021.",
+      "of": "17818050",
+      "at": [
+        "cannon:verdict.ask[10].question"
       ]
     }
   ]

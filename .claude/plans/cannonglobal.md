@@ -1,7 +1,7 @@
 ---
 name: cannonglobal
 title: Add Cannon School to Global Exposure — a compact five-card section (trips, school levels, "The Global Studies Certificate", a retitled network, verdict), no prices or exact travel dates on the page
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-15
 branch: feat/cannonglobal
@@ -516,3 +516,35 @@ Then research prose, per `PROSE_TRANSLATED` (mechanism:
   URL in the Source URLs file is `CannonAcademicCourseCatalog2025-26DIGITAL1.pdf`.
 - **A stale comment in `src/pages/SchoolDetail.tsx`** listing the researched schools now
   names Cannon too (one comment, no code change).
+
+**Phase 2 (locales), 2026-10-16.** Built as planned.
+
+- **Chrome:** both `@cannon` keys added to the nine catalogs by text insertion after
+  `network@charlotte-latin`; key order untouched, including `ar.json`.
+  `credential@cannon` follows `credential@providence-day` (a bare Latin name in
+  bn/te/fa/hi/ar); `network@cannon` follows `network@charlotte-country-day`.
+- **Splice:** 734 kept, 100 added, **0 dropped** per locale.
+- **Translation:** nine parallel agents, each in a private scratch directory, each
+  writing only a stamp → translation map (plus the two chrome titles); applied centrally
+  by `of` stamp.
+- **Cross-locale fix:** ar's "Filter by division." was aligned to the other three
+  schools' *صنّف حسب المرحلة.*
+- **`i18n:leaks` residue kept:** identical place lists in Latin locales, and te's
+  `&`-style network cell names (te house style). Soft spots are in
+  `src/data/overlays/NOTES.md` → "Cannon (`cannonglobal`)".
+- **Step 5 (stop for the user's test) was skipped at the user's instruction**: "when
+  you're done and you commit and push, you can merge and deploy" (2026-10-16).
+
+Phase 2 verification:
+- splice 0 dropped ×9;
+- `check_figures` and `check:sepdrift` clean ×9;
+- `check:chrome`, `check:runtime`, `check:live`, `check:dates`, `check:fr`, `check:bidi`,
+  `check:fa`, `check:hi` and `check:script` all pass;
+- by-stamp integrity vs `main`: 0 lost / 0 mutated / 0 overwritten / 100 added (all
+  `cannon:*`) / 0 empty / 0 bidi controls ×9;
+- `npm run build` exits 0;
+- `audit:mobile` at 320px for Cannon in es/fa/hi/ar/bn/te: 0 overflow;
+- `audit:daterender` clean in all 9 locales; `audit:moneyrender` clean;
+- real Chrome, every `<details>` open, es/fa/hi: the 5 cards are translated and in
+  order, both titles translated, no English sentinel strings; fa/ar: 5 of 5 year ranges
+  draw left-to-right (glyph x-position).

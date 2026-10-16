@@ -807,7 +807,8 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
-        "charlotte-country-day:start.divisions[2].grades"
+        "charlotte-country-day:start.divisions[2].grades",
+        "cannon:start.divisions[2].grades"
       ]
     },
     {
@@ -993,7 +994,8 @@
         "providence-day:exchanges.partners[5].country",
         "charlotte-latin:trips.years[1].trips[0].dest",
         "charlotte-latin:exchanges.partners[0].country",
-        "charlotte-latin:milestones.events[0].title"
+        "charlotte-latin:milestones.events[0].title",
+        "cannon:trips.years[0].trips[2].dest"
       ]
     },
     {
@@ -1367,7 +1369,8 @@
       "at": [
         "providence-day:network.rows[0].label",
         "charlotte-latin:network.rows[0].label",
-        "charlotte-country-day:network.rows[0].label"
+        "charlotte-country-day:network.rows[0].label",
+        "cannon:network.rows[0].label"
       ]
     },
     {
@@ -1935,7 +1938,8 @@
       "t": "শুরুর গ্রেড।",
       "of": "885235a8",
       "at": [
-        "providence-day:verdict.ask[0].topic"
+        "providence-day:verdict.ask[0].topic",
+        "cannon:verdict.ask[0].topic"
       ]
     },
     {
@@ -1965,7 +1969,8 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[1].topic"
+        "charlotte-country-day:verdict.ask[1].topic",
+        "cannon:verdict.ask[3].topic"
       ]
     },
     {
@@ -1994,7 +1999,8 @@
       "of": "92b0d001",
       "at": [
         "providence-day:verdict.ask[4].topic",
-        "charlotte-country-day:verdict.ask[2].topic"
+        "charlotte-country-day:verdict.ask[2].topic",
+        "cannon:verdict.ask[4].topic"
       ]
     },
     {
@@ -2009,7 +2015,8 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-country-day:verdict.ask[3].topic"
+        "charlotte-country-day:verdict.ask[3].topic",
+        "cannon:verdict.ask[5].topic"
       ]
     },
     {
@@ -2053,7 +2060,8 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
-        "charlotte-country-day:verdict.ask[10].topic"
+        "charlotte-country-day:verdict.ask[10].topic",
+        "cannon:verdict.ask[9].topic"
       ]
     },
     {
@@ -2458,7 +2466,8 @@
       "t": "গ্রীষ্ম 2026",
       "of": "89d4dc86",
       "at": [
-        "charlotte-latin:trips.years[1].trips[4].timing"
+        "charlotte-latin:trips.years[1].trips[4].timing",
+        "cannon:trips.years[0].trips[1].timing"
       ]
     },
     {
@@ -2478,7 +2487,8 @@
         "charlotte-latin:trips.years[2].trips[3].timing",
         "charlotte-latin:trips.years[2].trips[4].timing",
         "charlotte-latin:trips.years[2].trips[5].timing",
-        "charlotte-latin:trips.years[2].trips[6].timing"
+        "charlotte-latin:trips.years[2].trips[6].timing",
+        "cannon:trips.years[1].trips[1].timing"
       ]
     },
     {
@@ -2677,7 +2687,8 @@
         "charlotte-latin:exchanges.partners[4].country",
         "charlotte-latin:milestones.events[4].title",
         "charlotte-country-day:trips.years[0].trips[8].dest",
-        "charlotte-country-day:milestones.events[8].title"
+        "charlotte-country-day:milestones.events[8].title",
+        "cannon:trips.years[1].trips[1].dest"
       ]
     },
     {
@@ -3942,7 +3953,9 @@
       "t": "কোস্টা রিকা",
       "of": "4a26cbe8",
       "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest"
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
       ]
     },
     {
@@ -4696,7 +4709,8 @@
       "t": "5–8",
       "of": "660365d3",
       "at": [
-        "charlotte-country-day:start.divisions[1].grades"
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
       ]
     },
     {
@@ -5301,6 +5315,706 @@
       "of": "4f2ce549",
       "at": [
         "charlotte-country-day:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Cannon-এর বৈশ্বিক কার্যক্রমের কেন্দ্রে আছে Upper School — সেখানে Senior Night-এ একটি Global Studies Certificate দেওয়া হয় এবং গ্রেড 9–11-এর জন্য Winterm-এ বিদেশ ভ্রমণ হয়; এর ভিত্তি বিশ্ব-ভাষা শিক্ষা, যা শুরু হয় জুনিয়র কিন্ডারগার্টেন থেকে।",
+      "of": "9231abba",
+      "at": [
+        "cannon:lead.strong"
+      ]
+    },
+    {
+      "t": "সাম্প্রতিক ভ্রমণের মধ্যে আছে কোস্টা রিকা ও ডোমিনিকান প্রজাতন্ত্রে TECHO-র সেবামূলক নির্মাণ-প্রকল্প, চীনে একটি গ্রীষ্ম, এবং গ্রীষ্ম 2026-এ কোস্টা রিকায় Middle School-এর একটি ভ্রমণ।",
+      "of": "8175ebea",
+      "at": [
+        "cannon:lead.muted"
+      ]
+    },
+    {
+      "t": "জন Upper School শিক্ষার্থী",
+      "of": "91a4e95b",
+      "at": [
+        "cannon:stats[0].label"
+      ]
+    },
+    {
+      "t": "স্কুলের দাবি অনুযায়ী, ডোমিনিকান প্রজাতন্ত্রে Winterm 2026-এর TECHO সেবামূলক নির্মাণ-প্রকল্পে",
+      "of": "465880f5",
+      "at": [
+        "cannon:stats[0].note"
+      ]
+    },
+    {
+      "t": "টি ভাষা, গ্রেড 5-এ চেখে দেখার জন্য",
+      "of": "ae631c9f",
+      "at": [
+        "cannon:stats[1].label"
+      ]
+    },
+    {
+      "t": "ফরাসি, ম্যান্ডারিন চীনা ও স্প্যানিশ, এরপর শিক্ষার্থীরা একটি বেছে নেয়",
+      "of": "7e143905",
+      "at": [
+        "cannon:stats[1].note"
+      ]
+    },
+    {
+      "t": "জন শিক্ষক, যাদের Global Education Badge আছে",
+      "of": "df12cf0d",
+      "at": [
+        "cannon:stats[2].label"
+      ]
+    },
+    {
+      "t": "2017–2024 সময়ের জন্য স্কুলের তালিকা থেকে আমাদের গণনা",
+      "of": "76d4523e",
+      "at": [
+        "cannon:stats[2].note"
+      ]
+    },
+    {
+      "t": "দুটি শিক্ষাবর্ষের — 2024–25 ও 2025–26 — পাঁচটি ভ্রমণ; এর মধ্যে আছে কোস্টা রিকা ও ডোমিনিকান প্রজাতন্ত্রে TECHO-র সেবামূলক নির্মাণ-প্রকল্প, চীনে একটি গ্রীষ্ম এবং কোস্টা রিকায় Middle School-এর একটি গ্রীষ্ম। বিভাগ অনুযায়ী ফিল্টার করুন।",
+      "of": "7248e7b4",
+      "at": [
+        "cannon:trips.headline"
+      ]
+    },
+    {
+      "t": "Upper School-এর ভ্রমণ মূলত হয় Winterm-এর মাধ্যমে — প্রতি জানুয়ারিতে শীতকালীন ছুটির পর এক সপ্তাহ — যার Trips and Certifications ট্র্যাকটি গ্রেড 9–11-এর জন্য খোলা।",
+      "of": "784fa992",
+      "at": [
+        "cannon:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2026-এ Middle School-এর শিক্ষার্থীরা বিদেশ ভ্রমণে গেছে, আর স্কুলটি পরপর দুই বছর Upper School-এর TECHO সেবামূলক নির্মাণ-প্রকল্প পরিচালনা করেছে।",
+      "of": "3a73c4eb",
+      "at": [
+        "cannon:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School: Winterm ও শীত 2026; Middle School: গ্রীষ্ম 2026",
+      "of": "4594c144",
+      "at": [
+        "cannon:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "Winterm ও শীত 2026",
+      "of": "8d6ad0f7",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.US"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম 2026",
+      "of": "9ca94966",
+      "at": [
+        "cannon:trips.years[0].noteByDiv.MS"
+      ]
+    },
+    {
+      "t": "ডোমিনিকান প্রজাতন্ত্র",
+      "of": "efe03871",
+      "at": [
+        "cannon:trips.years[0].trips[0].dest"
+      ]
+    },
+    {
+      "t": "সান্তো দোমিঙ্গো, TECHO-র সঙ্গে",
+      "of": "15b510c8",
+      "at": [
+        "cannon:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "22 জন Upper School শিক্ষার্থী",
+      "of": "c3090671",
+      "at": [
+        "cannon:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Winterm-এ সেবামূলক শিক্ষা · দুটি পরিবারের জন্য বাড়ি নির্মাণ · সাক্ষাৎকারের ভিত্তিতে বাছাই; স্প্যানিশে সাবলীল হওয়া আবশ্যক নয়",
+      "of": "cdede383",
+      "at": [
+        "cannon:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Winterm 2026",
+      "of": "8cdff00f",
+      "at": [
+        "cannon:trips.years[0].trips[0].timing"
+      ]
+    },
+    {
+      "t": "সান হোসে, আরেনাল, মন্তেভের্দে + মানুয়েল আন্তোনিও",
+      "of": "4b455b01",
+      "at": [
+        "cannon:trips.years[0].trips[1].place"
+      ]
+    },
+    {
+      "t": "স্প্যানিশ ভাষা, ভূগোল ও সংস্কৃতি নিয়ে আট দিন, সঙ্গে সান্তা এলেনায় স্প্যানিশ ভাষায় একটি গুপ্তধন-খোঁজার খেলা",
+      "of": "a3e72f40",
+      "at": [
+        "cannon:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "হামবুর্গ — Hamburg Open",
+      "of": "39982f84",
+      "at": [
+        "cannon:trips.years[0].trips[2].place"
+      ]
+    },
+    {
+      "t": "Cannon Studios-এর শিক্ষার্থীরা",
+      "of": "bd178e05",
+      "at": [
+        "cannon:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "ইভেন্ট-প্রযুক্তি বিষয়ক একটি আন্তর্জাতিক সম্মেলন",
+      "of": "4c6140f6",
+      "at": [
+        "cannon:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "শীত 2026",
+      "of": "1fb8deee",
+      "at": [
+        "cannon:trips.years[0].trips[2].timing"
+      ]
+    },
+    {
+      "t": "Winterm 2025 ও গ্রীষ্ম 2025",
+      "of": "327bb7bb",
+      "at": [
+        "cannon:trips.years[1].note"
+      ]
+    },
+    {
+      "t": "TECHO-র সঙ্গে",
+      "of": "d00be1cc",
+      "at": [
+        "cannon:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "Winterm-এ সেবামূলক শিক্ষা · TECHO-র সঙ্গে স্কুলের প্রথম ভ্রমণ",
+      "of": "0e9369b0",
+      "at": [
+        "cannon:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Winterm 2025",
+      "of": "8ddff1a2",
+      "at": [
+        "cannon:trips.years[1].trips[0].timing"
+      ]
+    },
+    {
+      "t": "সাংহাই, শিআন, চংকিং, ঝাংজিয়াজিয়ে, ফেংহুয়াং + চাংশা",
+      "of": "6b1d973c",
+      "at": [
+        "cannon:trips.years[1].trips[1].place"
+      ]
+    },
+    {
+      "t": "ইতিহাস ও সংস্কৃতি · Fudan University এবং কৃত্রিম বুদ্ধিমত্তা (AI) ও রোবোটিক্স বিষয়ক একটি প্রতিষ্ঠান পরিদর্শন",
+      "of": "ae3698ad",
+      "at": [
+        "cannon:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "কোস্টা রিকায় একটি জলপ্রপাতের ধারে Cannon-এর Middle School শিক্ষার্থী ও তাদের তত্ত্বাবধায়কেরা",
+      "of": "ad569ad8",
+      "at": [
+        "cannon:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "কোস্টা রিকা, গ্রীষ্ম 2026",
+      "of": "df9034ad",
+      "at": [
+        "cannon:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "Middle School-এর ভ্রমণটি পাহাড় থেকে প্রশান্ত মহাসাগরের উপকূল পর্যন্ত গিয়েছিল।",
+      "of": "bbab4eb1",
+      "at": [
+        "cannon:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "ছবি: Cannon School",
+      "of": "edf8c7b4",
+      "at": [
+        "cannon:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "কোস্টা রিকায় Winterm।",
+      "of": "3647471b",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "গুয়ানাকাস্তের প্লায়া সামারায় Winterm-এর একটি স্প্যানিশ ভাষা-নিমজ্জন ভ্রমণ, সঙ্গে CREAR-এ স্বেচ্ছাসেবা; স্কুল এর বছর উল্লেখ করেনি।",
+      "of": "e7304ed8",
+      "at": [
+        "cannon:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "Lower School-এর একটি পারিবারিক ভ্রমণ।",
+      "of": "5af53f7e",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "2019 সালে স্কুলটি গ্রীষ্ম 2020-এর জন্য Lower School-এর দ্বিতীয় পারিবারিক বিদেশ ভ্রমণের পরিকল্পনা করে — গন্তব্য গ্রিস — যা একজন অভিভাবকের সঙ্গে 5 বছর ও তার বেশি বয়সী শিক্ষার্থীদের জন্য খোলা ছিল।",
+      "of": "89e472ff",
+      "at": [
+        "cannon:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "প্রতিটি বিভাগে বৈশ্বিক শিক্ষা, JrK থেকে 12 পর্যন্ত — জুনিয়র কিন্ডারগার্টেন থেকে স্প্যানিশ, গ্রেড 5-এ তিনটি ভাষা থেকে বেছে নেওয়ার সুযোগ, আর Upper School-এ Winterm ভ্রমণ।",
+      "of": "5d74a864",
+      "at": [
+        "cannon:start.headline"
+      ]
+    },
+    {
+      "t": "International Program-এর লক্ষ্য হলো ভ্রমণ, গ্রীষ্মকালীন বিনিময়, পড়াশোনা ও সেবার মাধ্যমে শিক্ষার্থীদের অভিজ্ঞতা বিস্তৃত করে বৈশ্বিক দক্ষতা গড়ে তোলা।",
+      "of": "24e2dd00",
+      "at": [
+        "cannon:start.intro.strong"
+      ]
+    },
+    {
+      "t": "ভাষা শিক্ষা চলে জুনিয়র কিন্ডারগার্টেন থেকে AP পর্যন্ত, আর বৈশ্বিক বিষয়বস্তু Lower School-এর স্প্যানিশ ক্লাসেও পৌঁছায়।",
+      "of": "0d6d6f23",
+      "at": [
+        "cannon:start.intro.muted"
+      ]
+    },
+    {
+      "t": "JrK–4",
+      "of": "f92a2a15",
+      "at": [
+        "cannon:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "জুনিয়র কিন্ডারগার্টেন থেকে স্প্যানিশ",
+      "of": "b994af1e",
+      "at": [
+        "cannon:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "স্প্যানিশ ক্লাসে গ্রেড 1-এর শিক্ষার্থীদের দক্ষিণ আমেরিকার পাঁচটি দেশজুড়ে সংস্কৃতি-যাত্রা",
+      "of": "873263e9",
+      "at": [
+        "cannon:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "গ্রেড 3-এর স্প্যানিশ ক্লাসে কোস্টা রিকায় একটি কাল্পনিক ভ্রমণ",
+      "of": "74cdf22a",
+      "at": [
+        "cannon:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "গ্রেড 5-এর শিক্ষার্থীরা ফরাসি, ম্যান্ডারিন চীনা ও স্প্যানিশ চেখে দেখে, তারপর একটি বেছে নেয়",
+      "of": "318572fb",
+      "at": [
+        "cannon:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "শিক্ষাবিষয়ক প্রতিযোগিতার দলগুলোর মধ্যে একটি Model UN দল",
+      "of": "b08a3eb4",
+      "at": [
+        "cannon:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "**বিদেশ ভ্রমণ:** 2026 সালে কোস্টা রিকায় একটি গ্রীষ্মকালীন ভ্রমণ",
+      "of": "dc98431a",
+      "at": [
+        "cannon:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "তিন বছরের বিশ্ব-ভাষা শিক্ষা, যেখানে চীনা, ফরাসি ও স্প্যানিশ Honors V ও AP পর্যন্ত পড়া যায়",
+      "of": "bcd39cd4",
+      "at": [
+        "cannon:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Honors World History",
+      "of": "82998000",
+      "at": [
+        "cannon:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Winterm — প্রতি জানুয়ারিতে এক সপ্তাহ, যেখানে ভ্রমণগুলো গ্রেড 9–11-এর জন্য খোলা",
+      "of": "63cc9952",
+      "at": [
+        "cannon:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "সিনিয়র বর্ষের শিক্ষার্থীদের জন্য Honors Glocal Perspectives",
+      "of": "597fe42d",
+      "at": [
+        "cannon:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "Senior Night-এ দেওয়া একটি সার্টিফিকেট — ক্যাপস্টোন প্রকল্পসহ সিনিয়র বর্ষের একটি আবশ্যিক কোর্স, চারটি Mastery Credit ধারা, এবং শ্রেণিকক্ষের বাইরের বৈশ্বিক অভিজ্ঞতা।",
+      "of": "1d7006c8",
+      "at": [
+        "cannon:credential.headline"
+      ]
+    },
+    {
+      "t": "Global Studies Certificate-এর উদ্দেশ্য সেইসব শিক্ষার্থীকে স্বীকৃতি দেওয়া, যারা বৈশ্বিক মানসিকতার পরিচয় দেয় এবং একজন বিশ্বনাগরিকের গুণাবলি ধারণ করে; এটি দেওয়া হয় Senior Night-এ।",
+      "of": "924a207d",
+      "at": [
+        "cannon:credential.intro.strong"
+      ]
+    },
+    {
+      "t": "Class of 2024 থেকে শিক্ষার্থীরা Global Studies Mastery Credits-এর মাধ্যমে এর শর্তগুলো পূরণ করে।",
+      "of": "ec599e6d",
+      "at": [
+        "cannon:credential.intro.muted"
+      ]
+    },
+    {
+      "t": "টি Mastery Credit ধারা",
+      "of": "cc76155e",
+      "at": [
+        "cannon:credential.stats[0].label"
+      ]
+    },
+    {
+      "t": "Class of 2024 ও তার পরের ব্যাচগুলোর জন্য",
+      "of": "9c91b507",
+      "at": [
+        "cannon:credential.stats[0].note"
+      ]
+    },
+    {
+      "t": "সিনিয়র বর্ষে Honors Glocal Perspectives, সঙ্গে একটি বৈশ্বিক বিষয়ে ক্যাপস্টোন প্রবন্ধ ও একটি উপস্থাপনা",
+      "of": "920ae956",
+      "at": [
+        "cannon:credential.required[0]"
+      ]
+    },
+    {
+      "t": "যোগাযোগ ও ভাষাগত দক্ষতা — ACTFL লক্ষ্যমাত্রা: লেভেল 4-এর মধ্যে Intermediate Mid–High এবং AP-তে Advanced Low",
+      "of": "3bfbab28",
+      "at": [
+        "cannon:credential.required[1]"
+      ]
+    },
+    {
+      "t": "স্বনির্ভরতা, গবেষণা ও সমালোচনামূলক চিন্তা",
+      "of": "77d6fb80",
+      "at": [
+        "cannon:credential.required[2]"
+      ]
+    },
+    {
+      "t": "আন্তঃসাংস্কৃতিক দক্ষতা অথবা সহযোগিতা",
+      "of": "b9331838",
+      "at": [
+        "cannon:credential.required[3]"
+      ]
+    },
+    {
+      "t": "নাগরিকত্ব ও নেতৃত্ব",
+      "of": "9ded9ae7",
+      "at": [
+        "cannon:credential.required[4]"
+      ]
+    },
+    {
+      "t": "স্কুলের উদ্যোগে একটি বিদেশ ভ্রমণ, এক মাস বা তার বেশি সময় বিদেশে বসবাস, অথবা একজন আন্তর্জাতিক শিক্ষার্থীকে আতিথ্য দেওয়া",
+      "of": "5c7aa5a9",
+      "at": [
+        "cannon:credential.beyond[0]"
+      ]
+    },
+    {
+      "t": "দ্বিতীয় একটি Winterm কোর্স",
+      "of": "5d3b8001",
+      "at": [
+        "cannon:credential.beyond[1]"
+      ]
+    },
+    {
+      "t": "World Affairs Council of Charlotte ও World Quest-এর মতো বৈশ্বিক শিক্ষা-বিষয়ক অনুষ্ঠান",
+      "of": "bc5d9da4",
+      "at": [
+        "cannon:credential.beyond[2]"
+      ]
+    },
+    {
+      "t": "কোনো বৈশ্বিক দল বা ক্লাবে দীর্ঘমেয়াদে যুক্ত থাকা, যেমন Model UN, Southern Diversity Leadership Conference অথবা UNC World View",
+      "of": "555017cb",
+      "at": [
+        "cannon:credential.beyond[3]"
+      ]
+    },
+    {
+      "t": "Charlotte-এর World Affairs Council, UNC-র World View এবং শিক্ষার্থীদের প্রতিযোগিতা — সঙ্গে এমন শিক্ষকেরা, যারা নিজেরাও একটি Global Education Badge অর্জন করেন।",
+      "of": "4c9cfe10",
+      "at": [
+        "cannon:network.headline"
+      ]
+    },
+    {
+      "t": "কার্যক্রমটির যোগসূত্র Charlotte-এর World Affairs Council, UNC-র World View এবং শিক্ষার্থীদের প্রতিযোগিতার মধ্য দিয়ে, আর এর মিশনের অংশ হলো \"thinking globally and acting locally.\"",
+      "of": "d3940894",
+      "at": [
+        "cannon:network.intro.strong"
+      ]
+    },
+    {
+      "t": "শিক্ষকেরা 100 ঘণ্টার বৈশ্বিক পেশাগত উন্নয়নের মাধ্যমে Global Education Badge অর্জন করতে পারেন, আর কেউ কেউ পুরস্কার ও অনুদান নিয়ে বিদেশে যান।",
+      "of": "37946bcf",
+      "at": [
+        "cannon:network.intro.muted"
+      ]
+    },
+    {
+      "t": "World Affairs Council of Charlotte ও UNC World View",
+      "of": "22dfa26a",
+      "at": [
+        "cannon:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "কার্যক্রমটির অংশীদার-যোগসূত্র, এবং Global Studies Certificate-এর জন্য গণ্য অনুষ্ঠান ও দল।",
+      "of": "d840bd86",
+      "at": [
+        "cannon:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Model UN ও World Quest",
+      "of": "cec8b265",
+      "at": [
+        "cannon:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "Model UN হলো Middle School-এর একটি শিক্ষাবিষয়ক দল, আর Model UN ও World Quest দুটোই সার্টিফিকেটের জন্য গণ্য হয়।",
+      "of": "4c167c8e",
+      "at": [
+        "cannon:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Global Education Badge",
+      "of": "bde4347b",
+      "at": [
+        "cannon:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "শিক্ষকেরা অন্তত 100 ঘণ্টার বৈশ্বিক পেশাগত উন্নয়ন এবং একটি ক্যাপস্টোন — যেমন নতুন একটি Winterm কোর্স বা শিক্ষার্থীদের একটি ভ্রমণ-কার্যক্রম — সম্পন্ন করে এটি অর্জন করেন। এর পৃষ্ঠপোষক North Carolina Global Education Benchmark Group; আমাদের গণনায় 2017 থেকে 2024 সালের মধ্যে 21 জন শিক্ষক এটি অর্জন করেছেন।",
+      "of": "f2f9a018",
+      "at": [
+        "cannon:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "2026 সালে প্রথমবারের Helfrich Catalyst Fellowship ষষ্ঠ শ্রেণির একজন সমাজবিজ্ঞান শিক্ষককে পেরুতে পাঠায়, আর একটি Kimbrough পুরস্কার Upper School-এর একজন ইংরেজি শিক্ষককে ফিনল্যান্ডে পাঠায়; তাঁর সঙ্গে যোগ দেন World Affairs Council-এর অনুদান পাওয়া একজন সহকর্মী।",
+      "of": "617c443d",
+      "at": [
+        "cannon:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "কার্যক্রমটি কোথায় আলাদা, আর এমন এগারোটি প্রশ্ন যার উত্তর স্কুলের ওয়েবসাইটে এখনও নেই — ভ্রমণের খরচ, সহায়তা, বাছাই ও নিরাপত্তা।",
+      "of": "f4f33a1d",
+      "at": [
+        "cannon:verdict.headline"
+      ]
+    },
+    {
+      "t": "Cannon-এর বৈশ্বিক কার্যক্রম ছোট এবং Upper School-কেন্দ্রিক, তবে এটি এমন কিছু দেয় যা Charlotte-এর বেশিরভাগ স্কুল দেয় না — প্রকাশিত শর্তসহ একটি Global Studies Certificate — আর জুনিয়র কিন্ডারগার্টেন থেকে বৈশ্বিক ভাষা শিক্ষা।",
+      "of": "c535bace",
+      "at": [
+        "cannon:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "Senior Night-এ দেওয়া একটি সার্টিফিকেট, সঙ্গে সিনিয়র বর্ষের একটি আবশ্যিক ক্যাপস্টোন কোর্স",
+      "of": "aa6ce3c8",
+      "at": [
+        "cannon:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "জুনিয়র কিন্ডারগার্টেন থেকে স্প্যানিশ এবং গ্রেড 5-এ তিনটি ভাষা থেকে বেছে নেওয়ার সুযোগ",
+      "of": "4c35b3e3",
+      "at": [
+        "cannon:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "লাতিন আমেরিকায় দুই বছর ধরে TECHO-র সেবামূলক নির্মাণ-প্রকল্প",
+      "of": "3a03b150",
+      "at": [
+        "cannon:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "100 ঘণ্টার Global Education Badge-এর মাধ্যমে প্রশিক্ষিত শিক্ষক",
+      "of": "ef80b425",
+      "at": [
+        "cannon:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "আন্তর্জাতিক ভ্রমণে সবচেয়ে কম কোন গ্রেড থেকে যাওয়া যায়, আর Middle School-এর কোস্টা রিকা ভ্রমণ কি প্রতি বছর রাখা হয়?",
+      "of": "a0ffdd44",
+      "at": [
+        "cannon:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "2026–27-এর ভ্রমণ।",
+      "of": "d393dcf3",
+      "at": [
+        "cannon:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "2026–27-এর জন্য কোন কোন ভ্রমণের পরিকল্পনা আছে? কোনো ভ্রমণ-তালিকা প্রকাশিত নেই।",
+      "of": "6fcc0b18",
+      "at": [
+        "cannon:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "খরচ।",
+      "of": "04e0a6c2",
+      "at": [
+        "cannon:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "একটি ভ্রমণে কত খরচ হয়, আর তাতে কী কী অন্তর্ভুক্ত? ভ্রমণের কোনো মূল্য প্রকাশিত নেই।",
+      "of": "50cea9fe",
+      "at": [
+        "cannon:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "আর্থিক সহায়তা \"Required overnight class trips\"-এর খরচ বহন করে। সহায়তা বা John Riley Endowment for Science, Service, and Travel কি ঐচ্ছিক বিদেশ ভ্রমণের খরচও বহন করে?",
+      "of": "3371f86f",
+      "at": [
+        "cannon:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "ডোমিনিকান প্রজাতন্ত্র ভ্রমণে শিক্ষার্থীদের সাক্ষাৎকারের ভিত্তিতে বাছাই করা হয়েছিল। অন্য ভ্রমণগুলোতে আসন কীভাবে ঠিক হয়, আর কোনো ভ্রমণে আসনের চেয়ে বেশি আবেদন পড়লে কী হয়?",
+      "of": "12db6d49",
+      "at": [
+        "cannon:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "কোন কোন ভ্রমণ-প্রতিষ্ঠান ব্যবহার করা হয়, কী বিমা থাকে, আর তত্ত্বাবধায়ক ও শিক্ষার্থীর অনুপাত কত?",
+      "of": "1427e6e2",
+      "at": [
+        "cannon:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "চীনের সিস্টার স্কুল।",
+      "of": "8c1af722",
+      "at": [
+        "cannon:verdict.ask[6].topic"
+      ]
+    },
+    {
+      "t": "চীনের একটি সিস্টার স্কুলের সঙ্গে বিনিময় কি এখনও সক্রিয়?",
+      "of": "f9c47385",
+      "at": [
+        "cannon:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "সার্টিফিকেটের নিয়ম।",
+      "of": "4f4906eb",
+      "at": [
+        "cannon:verdict.ask[7].topic"
+      ]
+    },
+    {
+      "t": "আগের নিয়মে শ্রেণিকক্ষের বাইরে দুটি বৈশ্বিক অভিজ্ঞতা চাওয়া হতো। Global Studies Mastery Credits-এর পাশাপাশি সেটি কি এখনও প্রযোজ্য, আর কতগুলো ক্রেডিট প্রয়োজন?",
+      "of": "898368ab",
+      "at": [
+        "cannon:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "সার্টিফিকেট অর্জনকারী।",
+      "of": "22432004",
+      "at": [
+        "cannon:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "প্রতি বছর কতজন সিনিয়র শিক্ষার্থী Global Studies Certificate অর্জন করে?",
+      "of": "944727be",
+      "at": [
+        "cannon:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "প্রতি বছর কতজন শিক্ষার্থী বিদেশ ভ্রমণে যায়?",
+      "of": "bf7a2408",
+      "at": [
+        "cannon:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "আন্তর্জাতিক শিক্ষার্থী।",
+      "of": "c4fc7979",
+      "at": [
+        "cannon:verdict.ask[10].topic"
+      ]
+    },
+    {
+      "t": "Cannon কি এখনও প্রতি বছর Upper School-এ প্রায় দশজন আন্তর্জাতিক শিক্ষার্থী ভর্তি করে, যারা হোস্ট পরিবারের সঙ্গে থাকে? এ বিষয়ে স্কুলের পাতাটি 2021 সালের।",
+      "of": "17818050",
+      "at": [
+        "cannon:verdict.ask[10].question"
       ]
     }
   ]
