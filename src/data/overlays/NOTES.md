@@ -3112,7 +3112,22 @@ International & the Winterim Mission Partners". 227 strings × 9 locales, splice
   names (Portugal, Cuba, Costa Rica, La Paz, São Paulo, Rio de Janeiro, Birmingham, Panama,
   Quito, La Misión) or the `SCORE International, 2009–10.` identifier. The flagged locales
   differ only in transliteration or punctuation.
-- **RTL:** fa/ar store zero bidi controls.
+- **RTL: three fa strings were restructured so a digit follows Persian text.** In fa, a
+  sentence that opens with a number after a lead ending in Latin text (`SCORE
+  International، 2009–10.` + `31 دانش‌آموز…`) joins the lead's left-to-right run, so the
+  `31` drew at the right edge, *before* the bold lead. The same thing happened inside
+  `…سفر J-Term، 40 نفر…`, where `40` was split from *نفر*. All three were found by
+  measuring glyph x-positions in real Chrome. The fixes are *در آن سال 31…* twice (the
+  also-on-record row and the SCORE milestone) and *J-Term، جمعاً 40 نفر…* (the 40 is the
+  combined count of students, staff and parents). ar was clean, because Arabic opens these
+  sentences with a verb (*عمل 31 طالبًا*). The mechanism is the one Cannon's fa
+  `100`-hour point hit, so check it whenever a Latin-ending lead sits before digit-led
+  prose. fa/ar store zero bidi controls.
+- **Not changed, site-wide:** un-isolated grade ranges such as `10–12` in RichText draw
+  `12–10` left to right in fa/ar (RTL reading order). This was measured in fa: Providence
+  Day draws 16 of 18 short ranges this way and Country Day 11 of 13. Only `\d{4}–\d{2}`
+  year ranges are isolated, so this is a site-wide render-layer question rather than a
+  data defect here.
 - **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English or stamps mutated,
   0 existing `t` overwritten, 227 added, all under `charlotte-christian:*`, 0 empty, 0 bidi
   controls, 0 foreign-script.
