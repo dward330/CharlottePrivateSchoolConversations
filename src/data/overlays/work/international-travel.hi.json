@@ -162,6 +162,8 @@
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
         "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-christian:trips.years[0].trips[3].dest",
+        "charlotte-christian:trips.years[3].trips[3].dest",
         "charlotte-country-day:trips.years[2].trips[1].dest"
       ],
       "t": "आइसलैंड"
@@ -312,6 +314,7 @@
         "charlotte-latin:trips.years[0].trips[6].dest",
         "charlotte-latin:trips.years[2].trips[2].dest",
         "charlotte-latin:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[3].dest",
         "charlotte-country-day:trips.years[1].trips[1].dest",
         "charlotte-country-day:exchanges.partners[1].country"
@@ -346,7 +349,8 @@
       "text": "Ecuador",
       "of": "5cb016c8",
       "at": [
-        "providence-day:trips.years[2].trips[2].dest"
+        "providence-day:trips.years[2].trips[2].dest",
+        "charlotte-christian:trips.years[3].trips[2].dest"
       ],
       "t": "इक्वाडोर"
     },
@@ -541,6 +545,7 @@
       "of": "cbef70fa",
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[0].dest",
         "charlotte-country-day:trips.years[0].trips[7].dest"
       ],
       "t": "ग्रीस"
@@ -916,6 +921,7 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
+        "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
         "cannon:start.divisions[2].grades"
       ],
@@ -2240,6 +2246,7 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
         "cannon:verdict.ask[3].topic"
       ],
@@ -2292,6 +2299,7 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
         "cannon:verdict.ask[5].topic"
       ],
@@ -2309,7 +2317,8 @@
       "text": "Exchanges.",
       "of": "3b61cee5",
       "at": [
-        "providence-day:verdict.ask[6].topic"
+        "providence-day:verdict.ask[6].topic",
+        "charlotte-christian:verdict.ask[5].topic"
       ],
       "t": "आदान-प्रदान।"
     },
@@ -2343,6 +2352,7 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
+        "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
         "cannon:verdict.ask[9].topic"
       ],
@@ -2571,6 +2581,8 @@
         "charlotte-latin:trips.years[2].trips[4].dest",
         "charlotte-latin:exchanges.partners[3].country",
         "charlotte-latin:milestones.events[3].title",
+        "charlotte-christian:trips.years[0].trips[4].dest",
+        "charlotte-christian:trips.years[2].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[5].dest",
         "charlotte-country-day:trips.years[2].trips[0].dest"
       ],
@@ -2696,6 +2708,8 @@
       "at": [
         "charlotte-latin:trips.years[0].trips[7].dest",
         "charlotte-latin:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[0].trips[1].dest",
+        "charlotte-christian:trips.years[2].trips[4].dest",
         "charlotte-country-day:trips.years[0].trips[0].dest",
         "charlotte-country-day:exchanges.partners[0].country"
       ],
@@ -2836,6 +2850,7 @@
       "at": [
         "charlotte-latin:trips.years[2].trips[1].place",
         "charlotte-latin:milestones.events[8].title",
+        "charlotte-christian:trips.years[0].trips[1].place",
         "charlotte-country-day:milestones.events[10].title"
       ],
       "t": "क्यूबेक"
@@ -3246,6 +3261,7 @@
       "of": "7a999acd",
       "at": [
         "charlotte-latin:signup.groups[0].note",
+        "charlotte-christian:signup.groups[0].note",
         "charlotte-country-day:signup.groups[0].note"
       ],
       "t": "2026 का चक्र"
@@ -3376,6 +3392,10 @@
       "of": "bfabeb69",
       "at": [
         "charlotte-latin:signup.groups[0].events[5].audience",
+        "charlotte-christian:signup.groups[0].events[0].audience",
+        "charlotte-christian:signup.groups[0].events[1].audience",
+        "charlotte-christian:signup.groups[0].events[2].audience",
+        "charlotte-christian:signup.groups[0].events[3].audience",
         "charlotte-country-day:signup.groups[0].events[0].audience",
         "charlotte-country-day:signup.groups[0].events[1].audience",
         "charlotte-country-day:signup.groups[0].events[2].audience",
@@ -3598,7 +3618,8 @@
       "text": "Model UN",
       "of": "9ba6f23d",
       "at": [
-        "charlotte-latin:community.cells[5].name"
+        "charlotte-latin:community.cells[5].name",
+        "charlotte-christian:network.rows[0].label"
       ],
       "t": "Model UN"
     },
@@ -4193,6 +4214,7 @@
       "of": "81c33a02",
       "at": [
         "charlotte-latin:verdict.ask[8].topic",
+        "charlotte-christian:verdict.ask[6].topic",
         "charlotte-country-day:verdict.ask[9].topic"
       ],
       "t": "प्रमाणपत्र।"
@@ -4222,6 +4244,1970 @@
       "t": "क्या कक्षा 6 से पहले कोई यात्रा या आदान-प्रदान नियोजित है?"
     },
     {
+      "text": "Upper School students at Charlotte Christian take part in Winterim, a week each year at the turn of February and March, with six to eight trips abroad offered each year from 9th grade.",
+      "of": "b1de1b50",
+      "at": [
+        "charlotte-christian:lead.strong"
+      ],
+      "t": "Charlotte Christian में Upper School के छात्र Winterim में भाग लेते हैं, जो हर साल फ़रवरी और मार्च के संधिकाल में एक सप्ताह होता है, और इसमें कक्षा 9 से हर साल विदेश की छह से आठ यात्राएँ पेश की जाती हैं।"
+    },
+    {
+      "text": "Most trips pair travel with a mission or service partner, from SCORE International in the Dominican Republic, on record since 2009–10, to Samaritan's Feet in Portugal.",
+      "of": "9f16daa4",
+      "at": [
+        "charlotte-christian:lead.muted"
+      ],
+      "t": "अधिकांश यात्राओं में यात्रा के साथ कोई मिशन या सेवा साझेदार जुड़ा होता है — डोमिनिकन गणराज्य में SCORE International से, जो 2009–10 से दर्ज है, लेकर पुर्तगाल में Samaritan's Feet तक।"
+    },
+    {
+      "text": "trips abroad",
+      "of": "880958d4",
+      "at": [
+        "charlotte-christian:stats[0].label"
+      ],
+      "t": "विदेश यात्राएँ"
+    },
+    {
+      "text": "offered in Winterim 2027, per the school's packet",
+      "of": "fd3d310b",
+      "at": [
+        "charlotte-christian:stats[0].note"
+      ],
+      "t": "Winterim 2027 में पेश की गईं, स्कूल के पैकेट के अनुसार"
+    },
+    {
+      "text": "countries",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-christian:stats[1].label",
+        "charlotte-country-day:stats[0].label"
+      ],
+      "t": "देश"
+    },
+    {
+      "text": "our count from five Winterims, 2023–2027",
+      "of": "67da5c25",
+      "at": [
+        "charlotte-christian:stats[1].note"
+      ],
+      "t": "पाँच Winterims, 2023–2027, से हमारी गिनती"
+    },
+    {
+      "text": "Winterim credit to graduate",
+      "of": "8bba5721",
+      "at": [
+        "charlotte-christian:stats[2].label"
+      ],
+      "t": "स्नातक होने के लिए Winterim क्रेडिट"
+    },
+    {
+      "text": ".25 each Upper School year",
+      "of": "33dd954c",
+      "at": [
+        "charlotte-christian:stats[2].note"
+      ],
+      "t": "Upper School के हर वर्ष .25"
+    },
+    {
+      "text": "first SCORE International trip on record",
+      "of": "ae804668",
+      "at": [
+        "charlotte-christian:stats[3].label"
+      ],
+      "t": "दर्ज पहली SCORE International यात्रा"
+    },
+    {
+      "text": "31 students to the Dominican Republic, per the school",
+      "of": "ad981135",
+      "at": [
+        "charlotte-christian:stats[3].note"
+      ],
+      "t": "डोमिनिकन गणराज्य में 31 छात्र, स्कूल के अनुसार"
+    },
+    {
+      "text": "Thirty-five trips abroad offered across five Winterims, 2023 to 2027, each with a published grade band and group size, and most with a mission or service partner.",
+      "of": "f66bb874",
+      "at": [
+        "charlotte-christian:trips.headline"
+      ],
+      "t": "पाँच Winterims, 2023 से 2027, में विदेश की पैंतीस यात्राएँ पेश की गईं, हर एक की प्रकाशित कक्षा-सीमा और समूह के आकार के साथ, और अधिकांश के साथ कोई मिशन या सेवा साझेदार।"
+    },
+    {
+      "text": "Winterim trips abroad are open to Upper School students, some from 9th grade and most from 10th, and each year's packet gives every trip its grade band, group size and theme.",
+      "of": "70474adc",
+      "at": [
+        "charlotte-christian:trips.intro.strong"
+      ],
+      "t": "Winterim की विदेश यात्राएँ Upper School के छात्रों के लिए खुली हैं, कुछ कक्षा 9 से और अधिकांश कक्षा 10 से, और हर साल का पैकेट हर यात्रा की कक्षा-सीमा, समूह का आकार और विषय बताता है।"
+    },
+    {
+      "text": "The packets list the trips offered, and final offerings depend on registrations. Winterim also offers local and domestic experiences, so going abroad is one choice among many.",
+      "of": "c9ee7295",
+      "at": [
+        "charlotte-christian:trips.intro.muted"
+      ],
+      "t": "पैकेट पेश की गई यात्राओं की सूची देते हैं, और अंतिम रूप से कौन-सी यात्राएँ होंगी यह पंजीकरणों पर निर्भर करता है। Winterim स्थानीय और देश के भीतर के अनुभव भी पेश करता है, इसलिए विदेश जाना कई विकल्पों में से एक है।"
+    },
+    {
+      "text": "Winterim 2027",
+      "of": "daf7b8d3",
+      "at": [
+        "charlotte-christian:trips.years[0].note",
+        "charlotte-christian:trips.years[0].trips[0].timing",
+        "charlotte-christian:trips.years[0].trips[1].timing",
+        "charlotte-christian:trips.years[0].trips[2].timing",
+        "charlotte-christian:trips.years[0].trips[3].timing",
+        "charlotte-christian:trips.years[0].trips[4].timing",
+        "charlotte-christian:trips.years[0].trips[5].timing",
+        "charlotte-christian:trips.years[0].trips[6].timing"
+      ],
+      "t": "Winterim 2027"
+    },
+    {
+      "text": "Brazil",
+      "of": "808bf777",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].dest",
+        "charlotte-christian:trips.years[1].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[2].dest"
+      ],
+      "t": "ब्राज़ील"
+    },
+    {
+      "text": "São Paulo",
+      "of": "a97d65fb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].place"
+      ],
+      "t": "साओ पाउलो"
+    },
+    {
+      "text": "9th–12th grade · female athletes · 16–40 students",
+      "of": "84424c73",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].group"
+      ],
+      "t": "कक्षा 9–12 · छात्रा खिलाड़ी · 16–40 छात्र"
+    },
+    {
+      "text": "A sports ministry tour with Missionary Athletes International · sport clinics and outreach with local churches",
+      "of": "3837eede",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].theme"
+      ],
+      "t": "Missionary Athletes International के साथ एक स्पोर्ट्स मिनिस्ट्री टूर · खेल क्लिनिक और स्थानीय चर्चों के साथ आउटरीच"
+    },
+    {
+      "text": "10th–12th grade · 25–35 students",
+      "of": "8ce305da",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].group"
+      ],
+      "t": "कक्षा 10–12 · 25–35 छात्र"
+    },
+    {
+      "text": "French conversation and a Québec winter, with service alongside a local church",
+      "of": "0f7c35e8",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].theme"
+      ],
+      "t": "फ़्रेंच बातचीत और क्यूबेक की सर्दी, एक स्थानीय चर्च के साथ सेवा के साथ"
+    },
+    {
+      "text": "Dominican Republic",
+      "of": "efe03871",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[5].dest",
+        "charlotte-christian:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[3].trips[0].dest",
+        "charlotte-christian:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[4].trips[0].dest",
+        "charlotte-christian:trips.years[4].trips[1].dest",
+        "cannon:trips.years[0].trips[0].dest"
+      ],
+      "t": "डोमिनिकन गणराज्य"
+    },
+    {
+      "text": "10th–12th grade · 16–32 students",
+      "of": "c14d94eb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].group"
+      ],
+      "t": "कक्षा 10–12 · 16–32 छात्र"
+    },
+    {
+      "text": "Service learning with SCORE International",
+      "of": "9fe5bbb4",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].theme",
+        "charlotte-christian:trips.years[1].trips[5].theme",
+        "charlotte-christian:trips.years[2].trips[1].theme"
+      ],
+      "t": "SCORE International के साथ सेवा के ज़रिए सीख"
+    },
+    {
+      "text": "11th–12th grade · 35–40 students",
+      "of": "282b6160",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].group"
+      ],
+      "t": "कक्षा 11–12 · 35–40 छात्र"
+    },
+    {
+      "text": "Landscape and culture, with an environmental-stewardship service project",
+      "of": "0e21c24d",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].theme"
+      ],
+      "t": "भू-दृश्य और संस्कृति, पर्यावरण-संरक्षण की एक सेवा परियोजना के साथ"
+    },
+    {
+      "text": "Sorrento, Pompeii + Rome",
+      "of": "2dceb288",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].place",
+        "charlotte-christian:trips.years[2].trips[3].place"
+      ],
+      "t": "सोरेंटो, पोम्पेई + रोम"
+    },
+    {
+      "text": "9th–12th grade · 24–32 students",
+      "of": "cd29cba6",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].group"
+      ],
+      "t": "कक्षा 9–12 · 24–32 छात्र"
+    },
+    {
+      "text": "Art, history and faith, with service in Rome",
+      "of": "fbfda720",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].theme",
+        "charlotte-christian:trips.years[2].trips[3].theme"
+      ],
+      "t": "कला, इतिहास और आस्था, रोम में सेवा के साथ"
+    },
+    {
+      "text": "Mexico",
+      "of": "2c485c16",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].dest",
+        "charlotte-christian:trips.years[4].trips[4].dest"
+      ],
+      "t": "मेक्सिको"
+    },
+    {
+      "text": "La Paz",
+      "of": "4ce30ab5",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].place"
+      ],
+      "t": "ला पाज़"
+    },
+    {
+      "text": "10th–12th grade · 16–20 students",
+      "of": "61566892",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].group",
+        "charlotte-christian:trips.years[1].trips[3].group"
+      ],
+      "t": "कक्षा 10–12 · 16–20 छात्र"
+    },
+    {
+      "text": "Service and spiritual formation with Rancho El Camino",
+      "of": "7371d242",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].theme"
+      ],
+      "t": "Rancho El Camino के साथ सेवा और आध्यात्मिक विकास"
+    },
+    {
+      "text": "Portugal",
+      "of": "268c9f87",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].dest",
+        "charlotte-christian:trips.years[3].trips[7].dest"
+      ],
+      "t": "पुर्तगाल"
+    },
+    {
+      "text": "Lisbon",
+      "of": "73fe8472",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].place",
+        "charlotte-christian:trips.years[3].trips[7].place"
+      ],
+      "t": "लिस्बन"
+    },
+    {
+      "text": "10th–12th grade · 10–12 students",
+      "of": "3236b88b",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].group"
+      ],
+      "t": "कक्षा 10–12 · 10–12 छात्र"
+    },
+    {
+      "text": "Shoe distribution with Samaritan's Feet",
+      "of": "6d7464e0",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].theme"
+      ],
+      "t": "Samaritan's Feet के साथ जूते बाँटना"
+    },
+    {
+      "text": "Winterim 2026",
+      "of": "d9f7b740",
+      "at": [
+        "charlotte-christian:trips.years[1].note",
+        "charlotte-christian:trips.years[1].trips[0].timing",
+        "charlotte-christian:trips.years[1].trips[1].timing",
+        "charlotte-christian:trips.years[1].trips[2].timing",
+        "charlotte-christian:trips.years[1].trips[3].timing",
+        "charlotte-christian:trips.years[1].trips[4].timing",
+        "charlotte-christian:trips.years[1].trips[5].timing",
+        "charlotte-christian:trips.years[1].trips[6].timing",
+        "charlotte-christian:trips.years[1].trips[7].timing"
+      ],
+      "t": "Winterim 2026"
+    },
+    {
+      "text": "Athens, Corinth + Nafplio",
+      "of": "743a2533",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].place"
+      ],
+      "t": "एथेंस, कोरिंथ + नाफ़प्लियो"
+    },
+    {
+      "text": "11th–12th grade · 16–40 students",
+      "of": "fd8b705f",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].group"
+      ],
+      "t": "कक्षा 11–12 · 16–40 छात्र"
+    },
+    {
+      "text": "In Paul's footsteps, with a beach clean-up",
+      "of": "db9d6da2",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].theme"
+      ],
+      "t": "पॉल के पदचिह्नों पर, समुद्र-तट की सफ़ाई के साथ"
+    },
+    {
+      "text": "Rio de Janeiro",
+      "of": "09c24330",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].place",
+        "charlotte-christian:trips.years[1].trips[2].place"
+      ],
+      "t": "रियो डी जनेरियो"
+    },
+    {
+      "text": "10th–12th grade · 18–30 students",
+      "of": "d9fb73ab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].group"
+      ],
+      "t": "कक्षा 10–12 · 18–30 छात्र"
+    },
+    {
+      "text": "Afro-Brazilian culture, with a day of service",
+      "of": "eb6ec44d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].theme"
+      ],
+      "t": "एफ़्रो-ब्राज़ीलियाई संस्कृति, सेवा के एक दिन के साथ"
+    },
+    {
+      "text": "9th–12th grade · female athletes · 10–25 students",
+      "of": "76125896",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].group"
+      ],
+      "t": "कक्षा 9–12 · छात्रा खिलाड़ी · 10–25 छात्र"
+    },
+    {
+      "text": "A sports ministry tour · sport clinics and church outreach",
+      "of": "a1081dab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].theme"
+      ],
+      "t": "एक स्पोर्ट्स मिनिस्ट्री टूर · खेल क्लिनिक और चर्च आउटरीच"
+    },
+    {
+      "text": "Birmingham",
+      "of": "6bc36087",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].place"
+      ],
+      "t": "बर्मिंघम"
+    },
+    {
+      "text": "A mission trip with a local church: food distribution and youth outreach",
+      "of": "c6a53f1b",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].theme"
+      ],
+      "t": "एक स्थानीय चर्च के साथ मिशन यात्रा: भोजन वितरण और युवाओं के बीच आउटरीच"
+    },
+    {
+      "text": "Costa Rica",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].dest",
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
+      ],
+      "t": "कोस्टा रिका"
+    },
+    {
+      "text": "10th–12th grade · girls · 16–30 students",
+      "of": "03e00863",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].group"
+      ],
+      "t": "कक्षा 10–12 · लड़कियाँ · 16–30 छात्र"
+    },
+    {
+      "text": "Wildlife biology and conservation, with tree-planting and a wildlife sanctuary",
+      "of": "fa5c592c",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].theme"
+      ],
+      "t": "वन्यजीव जीवविज्ञान और संरक्षण, पेड़ लगाने और एक वन्यजीव अभयारण्य के साथ"
+    },
+    {
+      "text": "10th–12th grade · 16–30 students",
+      "of": "8f8ec15d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[5].group"
+      ],
+      "t": "कक्षा 10–12 · 16–30 छात्र"
+    },
+    {
+      "text": "Panama",
+      "of": "754af0bd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].dest",
+        "charlotte-christian:trips.years[2].trips[5].dest",
+        "charlotte-christian:trips.years[3].trips[6].dest",
+        "charlotte-christian:trips.years[4].trips[5].dest"
+      ],
+      "t": "पनामा"
+    },
+    {
+      "text": "9th–10th grade · 16–21 students",
+      "of": "c186c8f1",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].group",
+        "charlotte-christian:trips.years[2].trips[5].group"
+      ],
+      "t": "कक्षा 9–10 · 16–21 छात्र"
+    },
+    {
+      "text": "Vacation Bible School at an inner-city Christian school, Panamá Viejo and an Emberá village",
+      "of": "a1c8d2dc",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].theme",
+        "charlotte-christian:trips.years[2].trips[5].theme"
+      ],
+      "t": "शहर के भीतरी इलाक़े के एक ईसाई स्कूल में Vacation Bible School, पनामा विएखो और एक एम्बेरा गाँव"
+    },
+    {
+      "text": "Scotland",
+      "of": "54d53665",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].dest"
+      ],
+      "t": "स्कॉटलैंड"
+    },
+    {
+      "text": "The Highlands, Edinburgh + Glasgow",
+      "of": "002a10dd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].place"
+      ],
+      "t": "हाइलैंड्स, एडिनबर्ग + ग्लासगो"
+    },
+    {
+      "text": "10th–12th grade · girls · 20–30 students",
+      "of": "ab9a3512",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].group"
+      ],
+      "t": "कक्षा 10–12 · लड़कियाँ · 20–30 छात्र"
+    },
+    {
+      "text": "History and culture, with a day of service in Glasgow",
+      "of": "72c286aa",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].theme"
+      ],
+      "t": "इतिहास और संस्कृति, ग्लासगो में सेवा के एक दिन के साथ"
+    },
+    {
+      "text": "Winterim 2025",
+      "of": "dcf7bbf9",
+      "at": [
+        "charlotte-christian:trips.years[2].note",
+        "charlotte-christian:trips.years[2].trips[0].timing",
+        "charlotte-christian:trips.years[2].trips[1].timing",
+        "charlotte-christian:trips.years[2].trips[2].timing",
+        "charlotte-christian:trips.years[2].trips[3].timing",
+        "charlotte-christian:trips.years[2].trips[4].timing",
+        "charlotte-christian:trips.years[2].trips[5].timing"
+      ],
+      "t": "Winterim 2025"
+    },
+    {
+      "text": "Cuba",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].dest",
+        "charlotte-country-day:milestones.events[9].title"
+      ],
+      "t": "क्यूबा"
+    },
+    {
+      "text": "Havana + Remedios",
+      "of": "77d6ef0b",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].place"
+      ],
+      "t": "हवाना + रेमेदियोस"
+    },
+    {
+      "text": "10th–12th grade · 15–20 students",
+      "of": "a27040a7",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].group"
+      ],
+      "t": "कक्षा 10–12 · 15–20 छात्र"
+    },
+    {
+      "text": "Shoe distribution with Samaritan's Feet, in schools and deaf communities",
+      "of": "c57c35ec",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].theme"
+      ],
+      "t": "Samaritan's Feet के साथ जूते बाँटना, स्कूलों और बधिर समुदायों में"
+    },
+    {
+      "text": "10th–12th grade · 16–45 students",
+      "of": "ef5aa6ed",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[1].group"
+      ],
+      "t": "कक्षा 10–12 · 16–45 छात्र"
+    },
+    {
+      "text": "Ireland",
+      "of": "1578db1c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].dest"
+      ],
+      "t": "आयरलैंड"
+    },
+    {
+      "text": "9th–12th grade · 20–40 students",
+      "of": "7b144b4d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].group"
+      ],
+      "t": "कक्षा 9–12 · 20–40 छात्र"
+    },
+    {
+      "text": "The \"Best of Ireland\" tour · the Cliffs of Moher, Gaelic games and the Book of Kells",
+      "of": "847d4f9c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].theme"
+      ],
+      "t": "\"Best of Ireland\" टूर · मोहर की चट्टानें (Cliffs of Moher), गेलिक खेल और Book of Kells"
+    },
+    {
+      "text": "9th–12th grade · 24–40 students",
+      "of": "1c77b691",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[3].group"
+      ],
+      "t": "कक्षा 9–12 · 24–40 छात्र"
+    },
+    {
+      "text": "Montréal + Québec City",
+      "of": "35da86de",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].place"
+      ],
+      "t": "मॉन्ट्रियल + क्यूबेक सिटी"
+    },
+    {
+      "text": "10th–12th grade · 20–40 students",
+      "of": "5d1c0a7d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].group"
+      ],
+      "t": "कक्षा 10–12 · 20–40 छात्र"
+    },
+    {
+      "text": "Francophone Canada, with time serving others",
+      "of": "a632ecda",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].theme"
+      ],
+      "t": "फ़्रेंच-भाषी कनाडा, दूसरों की सेवा में बिताए समय के साथ"
+    },
+    {
+      "text": "Winterim 2024",
+      "of": "dbf7ba66",
+      "at": [
+        "charlotte-christian:trips.years[3].note",
+        "charlotte-christian:trips.years[3].trips[0].timing",
+        "charlotte-christian:trips.years[3].trips[1].timing",
+        "charlotte-christian:trips.years[3].trips[2].timing",
+        "charlotte-christian:trips.years[3].trips[3].timing",
+        "charlotte-christian:trips.years[3].trips[4].timing",
+        "charlotte-christian:trips.years[3].trips[5].timing",
+        "charlotte-christian:trips.years[3].trips[6].timing",
+        "charlotte-christian:trips.years[3].trips[7].timing"
+      ],
+      "t": "Winterim 2024"
+    },
+    {
+      "text": "10th–12th grade · up to 40 students",
+      "of": "5511c716",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].group",
+        "charlotte-christian:trips.years[4].trips[0].group"
+      ],
+      "t": "कक्षा 10–12 · अधिकतम 40 छात्र"
+    },
+    {
+      "text": "Service with SCORE International",
+      "of": "ac7bc0ee",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].theme"
+      ],
+      "t": "SCORE International के साथ सेवा"
+    },
+    {
+      "text": "Varsity baseball team · up to 25 students",
+      "of": "5457d418",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].group"
+      ],
+      "t": "वार्सिटी बेसबॉल टीम · अधिकतम 25 छात्र"
+    },
+    {
+      "text": "Service with SCORE International and two exhibition games",
+      "of": "9bb78ef9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].theme",
+        "charlotte-christian:trips.years[4].trips[1].theme"
+      ],
+      "t": "SCORE International के साथ सेवा और दो प्रदर्शनी मैच"
+    },
+    {
+      "text": "Quito, Baños + Isla de la Plata",
+      "of": "4468430b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].place"
+      ],
+      "t": "कीटो, बान्योस + इस्ला दे ला प्लाटा"
+    },
+    {
+      "text": "10th–12th grade · up to 27 students",
+      "of": "5e6ff8cf",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].group"
+      ],
+      "t": "कक्षा 10–12 · अधिकतम 27 छात्र"
+    },
+    {
+      "text": "Spanish practice and adventure, with service at a cocoa plantation",
+      "of": "170ae113",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].theme"
+      ],
+      "t": "स्पेनिश का अभ्यास और रोमांच, एक कोको बागान में सेवा के साथ"
+    },
+    {
+      "text": "10th–12th grade · up to 35 students",
+      "of": "484e0f3a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].group"
+      ],
+      "t": "कक्षा 10–12 · अधिकतम 35 छात्र"
+    },
+    {
+      "text": "Education and adventure · a glacier, an ice cave and Reykjavík",
+      "of": "353a1ddb",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].theme"
+      ],
+      "t": "शिक्षा और रोमांच · एक ग्लेशियर, एक बर्फ़ की गुफा और रेक्याविक"
+    },
+    {
+      "text": "Germany & Austria",
+      "of": "8ec09463",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].dest"
+      ],
+      "t": "जर्मनी और ऑस्ट्रिया"
+    },
+    {
+      "text": "Munich + Salzburg",
+      "of": "b959b2ac",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].place"
+      ],
+      "t": "म्यूनिख + ज़ाल्त्सबर्ग"
+    },
+    {
+      "text": "9th–12th grade · up to 35 students",
+      "of": "68a5242a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].group"
+      ],
+      "t": "कक्षा 9–12 · अधिकतम 35 छात्र"
+    },
+    {
+      "text": "History and culture · Dachau, Neuschwanstein and Hohensalzburg",
+      "of": "f4a857c9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].theme"
+      ],
+      "t": "इतिहास और संस्कृति · डाखाऊ, नॉयश्वानश्टाइन और होहेनज़ाल्त्सबर्ग"
+    },
+    {
+      "text": "Greece & Italy",
+      "of": "b393f43b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].dest"
+      ],
+      "t": "ग्रीस और इटली"
+    },
+    {
+      "text": "Athens, Delphi, Sorrento, Pompeii + Rome",
+      "of": "5508dbe9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].place"
+      ],
+      "t": "एथेंस, डेल्फ़ी, सोरेंटो, पोम्पेई + रोम"
+    },
+    {
+      "text": "9th–12th grade · up to 36 students",
+      "of": "a49d4451",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].group",
+        "charlotte-christian:trips.years[4].trips[2].group"
+      ],
+      "t": "कक्षा 9–12 · अधिकतम 36 छात्र"
+    },
+    {
+      "text": "Art, history and faith, with a service project in Rome",
+      "of": "80fa75ce",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].theme"
+      ],
+      "t": "कला, इतिहास और आस्था, रोम में एक सेवा परियोजना के साथ"
+    },
+    {
+      "text": "9th–10th grade · up to 20 students",
+      "of": "ae20003a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].group"
+      ],
+      "t": "कक्षा 9–10 · अधिकतम 20 छात्र"
+    },
+    {
+      "text": "Mission and service",
+      "of": "0cdaa077",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].theme"
+      ],
+      "t": "मिशन और सेवा"
+    },
+    {
+      "text": "10th–12th grade · up to 15 students",
+      "of": "2d664adc",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].group",
+        "charlotte-christian:trips.years[4].trips[4].group"
+      ],
+      "t": "कक्षा 10–12 · अधिकतम 15 छात्र"
+    },
+    {
+      "text": "Mission and service with Samaritan's Feet",
+      "of": "af9974c3",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].theme",
+        "charlotte-christian:trips.years[4].trips[4].theme"
+      ],
+      "t": "Samaritan's Feet के साथ मिशन और सेवा"
+    },
+    {
+      "text": "Winterim 2023",
+      "of": "def7bf1f",
+      "at": [
+        "charlotte-christian:trips.years[4].note",
+        "charlotte-christian:trips.years[4].trips[0].timing",
+        "charlotte-christian:trips.years[4].trips[1].timing",
+        "charlotte-christian:trips.years[4].trips[2].timing",
+        "charlotte-christian:trips.years[4].trips[3].timing",
+        "charlotte-christian:trips.years[4].trips[4].timing",
+        "charlotte-christian:trips.years[4].trips[5].timing"
+      ],
+      "t": "Winterim 2023"
+    },
+    {
+      "text": "Service and mission with SCORE International, in sugar cane villages",
+      "of": "e134de9c",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[0].theme"
+      ],
+      "t": "SCORE International के साथ सेवा और मिशन, गन्ने के गाँवों में"
+    },
+    {
+      "text": "Varsity baseball team · up to 22 students",
+      "of": "2f5a84c7",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[1].group"
+      ],
+      "t": "वार्सिटी बेसबॉल टीम · अधिकतम 22 छात्र"
+    },
+    {
+      "text": "Italy & Greece",
+      "of": "56467571",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].dest"
+      ],
+      "t": "इटली और ग्रीस"
+    },
+    {
+      "text": "Athens, Delphi, Pompeii + Rome",
+      "of": "13f8f1d1",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].place"
+      ],
+      "t": "एथेंस, डेल्फ़ी, पोम्पेई + रोम"
+    },
+    {
+      "text": "Art, history and faith",
+      "of": "d6e56dfb",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].theme"
+      ],
+      "t": "कला, इतिहास और आस्था"
+    },
+    {
+      "text": "England & France",
+      "of": "d1830c93",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].dest"
+      ],
+      "t": "इंग्लैंड और फ़्रांस"
+    },
+    {
+      "text": "London, Stratford-upon-Avon, Oxford + Paris",
+      "of": "2408949e",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].place"
+      ],
+      "t": "लंदन, स्ट्रैटफ़र्ड-अपॉन-एवन, ऑक्सफ़ोर्ड + पेरिस"
+    },
+    {
+      "text": "9th–12th grade · up to 30 students",
+      "of": "cbe3059b",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].group"
+      ],
+      "t": "कक्षा 9–12 · अधिकतम 30 छात्र"
+    },
+    {
+      "text": "Literary history · the Globe and Shakespeare's birthplace",
+      "of": "f2df711d",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].theme"
+      ],
+      "t": "साहित्यिक इतिहास · ग्लोब थिएटर और शेक्सपियर का जन्मस्थान"
+    },
+    {
+      "text": "La Misión, Baja California",
+      "of": "56b84549",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[4].place"
+      ],
+      "t": "ला मिसियोन, बाहा कैलिफ़ोर्निया"
+    },
+    {
+      "text": "9th–12th grade · up to 20 students",
+      "of": "e2dadbd0",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].group"
+      ],
+      "t": "कक्षा 9–12 · अधिकतम 20 छात्र"
+    },
+    {
+      "text": "Mission and service, with Vacation Bible School",
+      "of": "e86654cc",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].theme"
+      ],
+      "t": "मिशन और सेवा, Vacation Bible School के साथ"
+    },
+    {
+      "text": "Charlotte Christian Upper School students in St Peter's Square, Rome",
+      "of": "2e4ac334",
+      "at": [
+        "charlotte-christian:trips.photo.alt"
+      ],
+      "t": "रोम के सेंट पीटर्स स्क्वेयर में Charlotte Christian के Upper School के छात्र"
+    },
+    {
+      "text": "Italy, on Winterim",
+      "of": "f8be29c8",
+      "at": [
+        "charlotte-christian:trips.photo.caption.title"
+      ],
+      "t": "इटली, Winterim पर"
+    },
+    {
+      "text": "A Winterim trip in Rome, at St Peter's Square.",
+      "of": "cd909f39",
+      "at": [
+        "charlotte-christian:trips.photo.caption.text"
+      ],
+      "t": "रोम में Winterim की एक यात्रा, सेंट पीटर्स स्क्वेयर पर।"
+    },
+    {
+      "text": "Photo: Charlotte Christian School",
+      "of": "b4dee894",
+      "at": [
+        "charlotte-christian:trips.photo.credit"
+      ],
+      "t": "फ़ोटो: Charlotte Christian School"
+    },
+    {
+      "text": "Mission trips from 1998.",
+      "of": "9e63d634",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].lead"
+      ],
+      "t": "1998 से मिशन यात्राएँ।"
+    },
+    {
+      "text": "School-sponsored mission trips with faculty and students went to Mexico in 1998, Costa Rica in 1999 and Austria in 2000.",
+      "of": "f2b45faf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].text"
+      ],
+      "t": "शिक्षकों और छात्रों के साथ स्कूल द्वारा प्रायोजित मिशन यात्राएँ 1998 में मेक्सिको, 1999 में कोस्टा रिका और 2000 में ऑस्ट्रिया गईं।"
+    },
+    {
+      "text": "SCORE International, 2009–10.",
+      "of": "5ee1d1f2",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].lead"
+      ],
+      "t": "SCORE International, 2009–10।"
+    },
+    {
+      "text": "31 students worked with SCORE International in the Dominican Republic.",
+      "of": "7d95e865",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].text"
+      ],
+      "t": "31 छात्रों ने डोमिनिकन गणराज्य में SCORE International के साथ काम किया।"
+    },
+    {
+      "text": "Basketball in Limoges.",
+      "of": "69ce32e5",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].lead"
+      ],
+      "t": "लिमोज़ में बास्केटबॉल।"
+    },
+    {
+      "text": "Four varsity players represented Charlotte in a partner-cities tournament in Limoges, France, in 2009–10.",
+      "of": "8585aa63",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].text"
+      ],
+      "t": "2009–10 में चार वार्सिटी खिलाड़ियों ने लिमोज़, फ़्रांस में साझेदार शहरों के एक टूर्नामेंट में Charlotte का प्रतिनिधित्व किया।"
+    },
+    {
+      "text": "Summer 2011.",
+      "of": "091cdf6e",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].lead"
+      ],
+      "t": "ग्रीष्म 2011।"
+    },
+    {
+      "text": "42 students joined school mission trips to the Dominican Republic or to Sea Island, Georgia, with Habitat for Humanity.",
+      "of": "55aeccaf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].text"
+      ],
+      "t": "42 छात्र डोमिनिकन गणराज्य की, या Habitat for Humanity के साथ सी आइलैंड, जॉर्जिया की स्कूल मिशन यात्राओं में शामिल हुए।"
+    },
+    {
+      "text": "The first J-Term.",
+      "of": "1669ffad",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].lead"
+      ],
+      "t": "पहला J-Term।"
+    },
+    {
+      "text": "The 2013–14 J-Term was announced with mission trips to Uganda, Nicaragua or the Dominican Republic, and trips to France and New York.",
+      "of": "520636dc",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].text"
+      ],
+      "t": "2013–14 के J-Term की घोषणा युगांडा, निकारागुआ या डोमिनिकन गणराज्य की मिशन यात्राओं, और फ़्रांस व न्यूयॉर्क की यात्राओं के साथ की गई थी।"
+    },
+    {
+      "text": "Salamanca, summer 2018.",
+      "of": "732fc624",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].lead"
+      ],
+      "t": "सालामांका, ग्रीष्म 2018।"
+    },
+    {
+      "text": "Upper School students traveled to Spain for language and cultural immersion.",
+      "of": "95475ac7",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].text"
+      ],
+      "t": "Upper School के छात्र भाषा और संस्कृति के गहन अनुभव के लिए स्पेन गए।"
+    },
+    {
+      "text": "Italy, winter 2020.",
+      "of": "b439a08f",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].lead"
+      ],
+      "t": "इटली, शीतकाल 2020।"
+    },
+    {
+      "text": "On a J-Term trip, 40 students, staff and parents traced Christian art and history through Rome.",
+      "of": "b1161259",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].text"
+      ],
+      "t": "एक J-Term यात्रा पर 40 छात्रों, कर्मचारियों और अभिभावकों ने रोम में ईसाई कला और इतिहास की खोज की।"
+    },
+    {
+      "text": "Registration for Winterim 2027 opened in July 2026 and closed in August, with contracts and passport copies due in September.",
+      "of": "7981f78b",
+      "at": [
+        "charlotte-christian:signup.headline"
+      ],
+      "t": "Winterim 2027 के लिए पंजीकरण जुलाई 2026 में खुला और अगस्त में बंद हुआ, और अनुबंध व पासपोर्ट की प्रतियाँ सितंबर में जमा करनी थीं।"
+    },
+    {
+      "text": "Places go by priority: the highest grade level available, first-time attendees, curriculum connections, accurate registration information and demonstrated readiness. Time of registration counts least.",
+      "of": "6a3472e2",
+      "at": [
+        "charlotte-christian:signup.intro.strong"
+      ],
+      "t": "जगहें प्राथमिकता के आधार पर मिलती हैं: उपलब्ध सबसे ऊँची कक्षा, पहली बार भाग लेने वाले, पाठ्यक्रम से जुड़ाव, पंजीकरण की सही जानकारी और दिखाई गई तैयारी। पंजीकरण का समय सबसे कम मायने रखता है।"
+    },
+    {
+      "text": "International trips need a passport valid at least six months past the trip, and the packet points families to outside companies for travel insurance.",
+      "of": "edbc8a1c",
+      "at": [
+        "charlotte-christian:signup.intro.muted"
+      ],
+      "t": "अंतरराष्ट्रीय यात्राओं के लिए ऐसा पासपोर्ट चाहिए जो यात्रा के बाद कम से कम छह महीने तक वैध हो, और पैकेट यात्रा बीमा के लिए परिवारों को बाहरी कंपनियों की ओर भेजता है।"
+    },
+    {
+      "text": "Upper School · Winterim 2027",
+      "of": "36206b84",
+      "at": [
+        "charlotte-christian:signup.groups[0].title"
+      ],
+      "t": "Upper School · Winterim 2027"
+    },
+    {
+      "text": "July 24, 2026",
+      "of": "16cdbde9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].when"
+      ],
+      "t": "24 जुलाई 2026"
+    },
+    {
+      "text": "Registration opens",
+      "of": "57db52b9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].name"
+      ],
+      "t": "पंजीकरण शुरू"
+    },
+    {
+      "text": "August 28, 2026",
+      "of": "de3274a0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].when"
+      ],
+      "t": "28 अगस्त 2026"
+    },
+    {
+      "text": "Registration and deposit close, at midnight",
+      "of": "181076aa",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].name"
+      ],
+      "t": "पंजीकरण और जमा राशि बंद, आधी रात को"
+    },
+    {
+      "text": "September 5, 2026",
+      "of": "ef816aad",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].when"
+      ],
+      "t": "5 सितंबर 2026"
+    },
+    {
+      "text": "Registrations confirmed by email",
+      "of": "1cc4b161",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].name"
+      ],
+      "t": "पंजीकरणों की पुष्टि ईमेल से"
+    },
+    {
+      "text": "September 11, 2026",
+      "of": "5e0692e8",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].when"
+      ],
+      "t": "11 सितंबर 2026"
+    },
+    {
+      "text": "Financial contracts, liability release forms and passport copies due",
+      "of": "70df62e0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].name"
+      ],
+      "t": "वित्तीय अनुबंध, दायित्व-मुक्ति फ़ॉर्म और पासपोर्ट की प्रतियाँ जमा करने की अंतिम तिथि"
+    },
+    {
+      "text": "Global Knights, the Knights Nations Club, a Global Awareness Prefect and Romans 12, led by a Director of Diversity, Belonging and Global Awareness.",
+      "of": "37035c3c",
+      "at": [
+        "charlotte-christian:community.headline"
+      ],
+      "t": "Global Knights, Knights Nations Club, एक Global Awareness Prefect और Romans 12, जिनका नेतृत्व Director of Diversity, Belonging and Global Awareness करते हैं।"
+    },
+    {
+      "text": "The school aims to strengthen students' cultural empathy, global awareness and a posture of humility, while seeking unity within their differences,",
+      "of": "b1c8737b",
+      "at": [
+        "charlotte-christian:community.intro.strong"
+      ],
+      "t": "स्कूल का लक्ष्य छात्रों की सांस्कृतिक सहानुभूति, वैश्विक जागरूकता और विनम्रता के भाव को मज़बूत करना है, साथ ही उनके मतभेदों के बीच एकता तलाशना,"
+    },
+    {
+      "text": "through work led by the Director of Diversity, Belonging and Global Awareness.",
+      "of": "5253137a",
+      "at": [
+        "charlotte-christian:community.intro.muted"
+      ],
+      "t": "Director of Diversity, Belonging and Global Awareness के नेतृत्व में होने वाले काम के ज़रिए।"
+    },
+    {
+      "text": "Global Knights",
+      "of": "0bb765f8",
+      "at": [
+        "charlotte-christian:community.cells[0].name"
+      ],
+      "t": "Global Knights"
+    },
+    {
+      "text": "A 5th-grade Middle School elective and Middle School student group, and an Upper School club.",
+      "of": "18c3805f",
+      "at": [
+        "charlotte-christian:community.cells[0].text"
+      ],
+      "t": "कक्षा 5 का एक Middle School वैकल्पिक विषय और Middle School का छात्र समूह, और Upper School का एक क्लब।"
+    },
+    {
+      "text": "Knights Nations Club",
+      "of": "5469c2eb",
+      "at": [
+        "charlotte-christian:community.cells[1].name"
+      ],
+      "t": "Knights Nations Club"
+    },
+    {
+      "text": "Upper School students learning about local and international communities, from international grocery stores to how Easter is celebrated across the globe.",
+      "of": "cb5e96bb",
+      "at": [
+        "charlotte-christian:community.cells[1].text"
+      ],
+      "t": "Upper School के छात्र जो स्थानीय और अंतरराष्ट्रीय समुदायों के बारे में सीखते हैं, अंतरराष्ट्रीय किराना दुकानों से लेकर दुनिया भर में ईस्टर कैसे मनाया जाता है, तक।"
+    },
+    {
+      "text": "Global Awareness Prefect",
+      "of": "b2f64770",
+      "at": [
+        "charlotte-christian:community.cells[2].name"
+      ],
+      "t": "Global Awareness Prefect"
+    },
+    {
+      "text": "One of nine Upper School student-government prefects.",
+      "of": "1e103adb",
+      "at": [
+        "charlotte-christian:community.cells[2].text"
+      ],
+      "t": "Upper School की छात्र सरकार के नौ प्रीफ़ेक्ट में से एक।"
+    },
+    {
+      "text": "Romans 12",
+      "of": "0fa36b8e",
+      "at": [
+        "charlotte-christian:community.cells[3].name"
+      ],
+      "t": "Romans 12"
+    },
+    {
+      "text": "Members of the school community who meet monthly and, per the school, strengthen its multicultural and global awareness.",
+      "of": "209fcb60",
+      "at": [
+        "charlotte-christian:community.cells[3].text"
+      ],
+      "t": "स्कूल समुदाय के सदस्य जो हर महीने मिलते हैं और, स्कूल के अनुसार, उसकी बहुसांस्कृतिक और वैश्विक जागरूकता को मज़बूत करते हैं।"
+    },
+    {
+      "text": "Multicultural Festival",
+      "of": "1d6572a8",
+      "at": [
+        "charlotte-christian:community.cells[4].name"
+      ],
+      "t": "बहुसांस्कृतिक उत्सव (Multicultural Festival)"
+    },
+    {
+      "text": "An annual Lower School celebration, part of Spanish class.",
+      "of": "e168cf00",
+      "at": [
+        "charlotte-christian:community.cells[4].text"
+      ],
+      "t": "Lower School का एक वार्षिक उत्सव, स्पेनिश कक्षा का हिस्सा।"
+    },
+    {
+      "text": "International students",
+      "of": "67ddb06d",
+      "at": [
+        "charlotte-christian:community.cells[5].name"
+      ],
+      "t": "अंतरराष्ट्रीय छात्र"
+    },
+    {
+      "text": "The school enrolls international students on I-20 visas, and does not provide host families.",
+      "of": "7c3c3888",
+      "at": [
+        "charlotte-christian:community.cells[5].text"
+      ],
+      "t": "स्कूल I-20 वीज़ा पर अंतरराष्ट्रीय छात्रों को दाख़िला देता है, और मेज़बान परिवार उपलब्ध नहीं कराता।"
+    },
+    {
+      "text": "Global learning in every division, JK to 12, with three languages to sample in 5th grade and Winterim trips abroad from 9th grade.",
+      "of": "333d3d36",
+      "at": [
+        "charlotte-christian:start.headline"
+      ],
+      "t": "हर डिवीज़न में वैश्विक सीख, JK से 12 तक, कक्षा 5 में आज़माने के लिए तीन भाषाओं और कक्षा 9 से Winterim की विदेश यात्राओं के साथ।"
+    },
+    {
+      "text": "In the school's words, \"The study of modern and classical languages equips students to impact the global culture for Christ.\"",
+      "of": "630744bd",
+      "at": [
+        "charlotte-christian:start.intro.strong"
+      ],
+      "t": "स्कूल के शब्दों में, \"The study of modern and classical languages equips students to impact the global culture for Christ.\""
+    },
+    {
+      "text": "Winterim, the Upper School's yearly week of experiences, sets out five goals of its own.",
+      "of": "a6b559cf",
+      "at": [
+        "charlotte-christian:start.intro.muted"
+      ],
+      "t": "Winterim, Upper School का वार्षिक अनुभव-सप्ताह, अपने ख़ुद के पाँच लक्ष्य तय करता है।"
+    },
+    {
+      "text": "Spiritual growth in student and faculty relationships",
+      "of": "aea85279",
+      "at": [
+        "charlotte-christian:start.framework[0].text"
+      ],
+      "t": "छात्रों और शिक्षकों के आपसी रिश्तों में आध्यात्मिक विकास"
+    },
+    {
+      "text": "Problem solving, independence and life skills in new settings",
+      "of": "30c1d5b9",
+      "at": [
+        "charlotte-christian:start.framework[1].text"
+      ],
+      "t": "नए माहौल में समस्या-समाधान, आत्मनिर्भरता और जीवन-कौशल"
+    },
+    {
+      "text": "Discover the heritage, beliefs and experiences of another cultural context",
+      "of": "a6eab46f",
+      "at": [
+        "charlotte-christian:start.framework[2].text"
+      ],
+      "t": "किसी दूसरे सांस्कृतिक परिवेश की विरासत, मान्यताओं और अनुभवों को जानना"
+    },
+    {
+      "text": "Serve a community",
+      "of": "c98caeee",
+      "at": [
+        "charlotte-christian:start.framework[3].text"
+      ],
+      "t": "किसी समुदाय की सेवा"
+    },
+    {
+      "text": "Explore sites, museums and landmarks",
+      "of": "20a6d6e9",
+      "at": [
+        "charlotte-christian:start.framework[4].text"
+      ],
+      "t": "स्थलों, संग्रहालयों और प्रसिद्ध स्थानों की सैर"
+    },
+    {
+      "text": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-christian:start.divisions[0].grades",
+        "charlotte-country-day:start.divisions[0].grades"
+      ],
+      "t": "JK–4"
+    },
+    {
+      "text": "Spanish, with an annual Multicultural Festival",
+      "of": "e4dccff2",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[0]"
+      ],
+      "t": "स्पेनिश, एक वार्षिक बहुसांस्कृतिक उत्सव के साथ"
+    },
+    {
+      "text": "Social studies that widens from families and neighborhoods to global geography",
+      "of": "2c2ce7fe",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[1]"
+      ],
+      "t": "सामाजिक अध्ययन, जो परिवारों और पड़ोस से बढ़कर वैश्विक भूगोल तक जाता है"
+    },
+    {
+      "text": "Learning about other cultures through literature, guest speakers and projects",
+      "of": "76475748",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[2]"
+      ],
+      "t": "साहित्य, अतिथि वक्ताओं और परियोजनाओं के ज़रिए दूसरी संस्कृतियों के बारे में सीखना"
+    },
+    {
+      "text": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:start.divisions[1].grades",
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
+      ],
+      "t": "5–8"
+    },
+    {
+      "text": "**A 5th-grade Language Survey** of French, Latin and Spanish, then one language through 8th grade",
+      "of": "3d8eb71a",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[0]"
+      ],
+      "t": "**कक्षा 5 का एक Language Survey**, फ़्रेंच, लैटिन और स्पेनिश का, फिर कक्षा 8 तक एक भाषा"
+    },
+    {
+      "text": "Global Knights and Multicultural Studies electives",
+      "of": "d8817f2f",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[1]"
+      ],
+      "t": "Global Knights और Multicultural Studies वैकल्पिक विषय"
+    },
+    {
+      "text": "Heritage months in world-language classes",
+      "of": "dc96d1b7",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[2]"
+      ],
+      "t": "विश्व भाषा कक्षाओं में हेरिटेज मंथ"
+    },
+    {
+      "text": "Field trips to Sudan Interior Missions (6th grade), the Holocaust butterfly memorial (7th) and on the Civil Rights Movement (8th)",
+      "of": "efffb023",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[3]"
+      ],
+      "t": "Sudan Interior Missions (कक्षा 6), होलोकॉस्ट बटरफ़्लाई स्मारक (कक्षा 7) और नागरिक अधिकार आंदोलन पर (कक्षा 8) शैक्षिक भ्रमण"
+    },
+    {
+      "text": "Modern World Civilizations",
+      "of": "79f78ae4",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[4]"
+      ],
+      "t": "Modern World Civilizations"
+    },
+    {
+      "text": "French, Latin and Spanish through AP",
+      "of": "45d606ba",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[0]"
+      ],
+      "t": "फ़्रेंच, लैटिन और स्पेनिश, AP स्तर तक"
+    },
+    {
+      "text": "Survey of World Literature, asking \"What does it mean to be an engaged global citizen?\"",
+      "of": "564f6945",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[1]"
+      ],
+      "t": "Survey of World Literature, जो पूछता है \"What does it mean to be an engaged global citizen?\""
+    },
+    {
+      "text": "AP World History: Modern",
+      "of": "5e5aef15",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[2]"
+      ],
+      "t": "AP World History: Modern"
+    },
+    {
+      "text": "**Winterim each year,** with trips abroad from 9th grade",
+      "of": "dbf021e3",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[3]"
+      ],
+      "t": "**हर साल Winterim,** कक्षा 9 से विदेश यात्राओं के साथ"
+    },
+    {
+      "text": "SCORE International in the Dominican Republic since at least 2009–10, Samaritan's Feet and other mission partners on Winterim trips, and Model UN and Harvard Model Congress at home.",
+      "of": "7fbf99bd",
+      "at": [
+        "charlotte-christian:network.headline"
+      ],
+      "t": "कम से कम 2009–10 से डोमिनिकन गणराज्य में SCORE International, Winterim यात्राओं पर Samaritan's Feet और अन्य मिशन साझेदार, और स्कूल में Model UN और Harvard Model Congress।"
+    },
+    {
+      "text": "Charlotte Christian's travel runs through long-standing mission and service partners, above all SCORE International in the Dominican Republic.",
+      "of": "4f07fe6d",
+      "at": [
+        "charlotte-christian:network.intro.strong"
+      ],
+      "t": "Charlotte Christian की यात्राएँ लंबे समय से जुड़े मिशन और सेवा साझेदारों के ज़रिए होती हैं, सबसे बढ़कर डोमिनिकन गणराज्य में SCORE International।"
+    },
+    {
+      "text": "At home, the Upper School has a Model UN club, and in 2010–11 it sent the largest delegation of any school in the nation to Harvard Model Congress.",
+      "of": "9347c2d9",
+      "at": [
+        "charlotte-christian:network.intro.muted"
+      ],
+      "t": "स्कूल में, Upper School का एक Model UN क्लब है, और 2010–11 में उसने Harvard Model Congress में देश के किसी भी स्कूल का सबसे बड़ा प्रतिनिधिमंडल भेजा।"
+    },
+    {
+      "text": "SCORE International trips on record",
+      "of": "85d7b52f",
+      "at": [
+        "charlotte-christian:network.ledgerTitle"
+      ],
+      "t": "दर्ज SCORE International यात्राएँ"
+    },
+    {
+      "text": "Winterim 2027, for 10th–12th grade",
+      "of": "0fdada5c",
+      "at": [
+        "charlotte-christian:network.conferences[0].text"
+      ],
+      "t": "Winterim 2027, कक्षा 10–12 के लिए"
+    },
+    {
+      "text": "Winterim 2026, for 10th–12th grade",
+      "of": "592be1c5",
+      "at": [
+        "charlotte-christian:network.conferences[1].text"
+      ],
+      "t": "Winterim 2026, कक्षा 10–12 के लिए"
+    },
+    {
+      "text": "Winterim 2025, for 10th–12th grade",
+      "of": "ba09951a",
+      "at": [
+        "charlotte-christian:network.conferences[2].text"
+      ],
+      "t": "Winterim 2025, कक्षा 10–12 के लिए"
+    },
+    {
+      "text": "Winterim 2024, plus a varsity baseball service trip",
+      "of": "6b5eaa95",
+      "at": [
+        "charlotte-christian:network.conferences[3].text"
+      ],
+      "t": "Winterim 2024, साथ में वार्सिटी बेसबॉल की एक सेवा यात्रा"
+    },
+    {
+      "text": "Winterim 2023, plus a varsity baseball service trip",
+      "of": "34806714",
+      "at": [
+        "charlotte-christian:network.conferences[4].text"
+      ],
+      "t": "Winterim 2023, साथ में वार्सिटी बेसबॉल की एक सेवा यात्रा"
+    },
+    {
+      "text": "31 students",
+      "of": "0779a3fb",
+      "at": [
+        "charlotte-christian:network.conferences[5].text"
+      ],
+      "t": "31 छात्र"
+    },
+    {
+      "text": "SCORE International",
+      "of": "2b1bad1d",
+      "at": [
+        "charlotte-christian:network.cells[0].name",
+        "charlotte-christian:milestones.events[2].title"
+      ],
+      "t": "SCORE International"
+    },
+    {
+      "text": "A Christ-centered ministry the school's Dominican Republic trips serve with, through sports, orphan care and construction.",
+      "of": "4e0aa8ac",
+      "at": [
+        "charlotte-christian:network.cells[0].text"
+      ],
+      "t": "एक मसीह-केंद्रित मिनिस्ट्री, जिसके साथ स्कूल की डोमिनिकन गणराज्य यात्राएँ खेल, अनाथ बच्चों की देखभाल और निर्माण-कार्य के ज़रिए सेवा करती हैं।"
+    },
+    {
+      "text": "Samaritan's Feet",
+      "of": "9e0222ed",
+      "at": [
+        "charlotte-christian:network.cells[1].name"
+      ],
+      "t": "Samaritan's Feet"
+    },
+    {
+      "text": "Shoe-distribution trips to Baja California, Lisbon and Cuba, offered in four Winterims from 2023 to 2027.",
+      "of": "86e53654",
+      "at": [
+        "charlotte-christian:network.cells[1].text"
+      ],
+      "t": "बाहा कैलिफ़ोर्निया, लिस्बन और क्यूबा की जूते बाँटने वाली यात्राएँ, जो 2023 से 2027 तक चार Winterims में पेश की गईं।"
+    },
+    {
+      "text": "Missionary Athletes International",
+      "of": "7a5b3a63",
+      "at": [
+        "charlotte-christian:network.cells[2].name"
+      ],
+      "t": "Missionary Athletes International"
+    },
+    {
+      "text": "The female athletes' sports ministry tour in Brazil, in Winterim 2027.",
+      "of": "54fc41b1",
+      "at": [
+        "charlotte-christian:network.cells[2].text"
+      ],
+      "t": "Winterim 2027 में ब्राज़ील में छात्रा खिलाड़ियों का स्पोर्ट्स मिनिस्ट्री टूर।"
+    },
+    {
+      "text": "Rancho El Camino",
+      "of": "6e905c70",
+      "at": [
+        "charlotte-christian:network.cells[3].name"
+      ],
+      "t": "Rancho El Camino"
+    },
+    {
+      "text": "Service in La Paz, Mexico, in Winterim 2027.",
+      "of": "b00ca515",
+      "at": [
+        "charlotte-christian:network.cells[3].text"
+      ],
+      "t": "Winterim 2027 में ला पाज़, मेक्सिको में सेवा।"
+    },
+    {
+      "text": "An Upper School club.",
+      "of": "e0b4beb8",
+      "at": [
+        "charlotte-christian:network.rows[0].text"
+      ],
+      "t": "Upper School का एक क्लब।"
+    },
+    {
+      "text": "Harvard Model Congress",
+      "of": "1d0fcbcc",
+      "at": [
+        "charlotte-christian:network.rows[1].label",
+        "charlotte-christian:milestones.events[4].title"
+      ],
+      "t": "Harvard Model Congress"
+    },
+    {
+      "text": "In 2010–11, 43 juniors and seniors made up the largest delegation of any school in the nation, in the school's eighth year there.",
+      "of": "eca7663e",
+      "at": [
+        "charlotte-christian:network.rows[1].text"
+      ],
+      "t": "2010–11 में, 43 जूनियर और सीनियर छात्रों का दल देश के किसी भी स्कूल का सबसे बड़ा प्रतिनिधिमंडल था, और यह वहाँ स्कूल का आठवाँ वर्ष था।"
+    },
+    {
+      "text": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-christian:network.rows[2].label",
+        "charlotte-country-day:network.cells[0].name"
+      ],
+      "t": "Academic WorldQuest"
+    },
+    {
+      "text": "Eight students competed in 2011, in the World Affairs Council of Charlotte's contest.",
+      "of": "e9299c24",
+      "at": [
+        "charlotte-christian:network.rows[2].text"
+      ],
+      "t": "2011 में आठ छात्रों ने World Affairs Council of Charlotte की प्रतियोगिता में भाग लिया।"
+    },
+    {
+      "text": "Travel partners",
+      "of": "5fc6fea4",
+      "at": [
+        "charlotte-christian:network.rows[3].label"
+      ],
+      "t": "यात्रा साझेदार"
+    },
+    {
+      "text": "Joshua Expeditions, Grand Classroom and EF Tours run several Winterim trips, per the packets.",
+      "of": "b5c85cd0",
+      "at": [
+        "charlotte-christian:network.rows[3].text"
+      ],
+      "t": "पैकेटों के अनुसार, Joshua Expeditions, Grand Classroom और EF Tours Winterim की कई यात्राएँ संचालित करते हैं।"
+    },
+    {
+      "text": "Nearly three decades on record, from mission trips abroad in 1998 to a required Winterim week each Upper School year.",
+      "of": "d7700d34",
+      "at": [
+        "charlotte-christian:milestones.headline"
+      ],
+      "t": "लगभग तीन दशकों का रिकॉर्ड, 1998 में विदेश की मिशन यात्राओं से लेकर Upper School के हर वर्ष एक अनिवार्य Winterim सप्ताह तक।"
+    },
+    {
+      "text": "The school's own magazine records mission trips abroad from 1998 and SCORE International from 2009–10,",
+      "of": "45d84d4c",
+      "at": [
+        "charlotte-christian:milestones.intro.strong"
+      ],
+      "t": "स्कूल की अपनी पत्रिका में 1998 से विदेश की मिशन यात्राएँ और 2009–10 से SCORE International दर्ज हैं,"
+    },
+    {
+      "text": "and a required week of experiences each Upper School year since J-Term began in 2013–14.",
+      "of": "2dc42d5f",
+      "at": [
+        "charlotte-christian:milestones.intro.muted"
+      ],
+      "t": "और 2013–14 में J-Term शुरू होने के बाद से Upper School के हर वर्ष अनुभवों का एक अनिवार्य सप्ताह।"
+    },
+    {
+      "text": "Mission trips abroad",
+      "of": "6b985fa6",
+      "at": [
+        "charlotte-christian:milestones.events[0].title"
+      ],
+      "t": "विदेश की मिशन यात्राएँ"
+    },
+    {
+      "text": "School-sponsored mission trips with faculty and students went to Mexico, then to Costa Rica in 1999 and Austria in 2000.",
+      "of": "9de7d4d9",
+      "at": [
+        "charlotte-christian:milestones.events[0].text"
+      ],
+      "t": "शिक्षकों और छात्रों के साथ स्कूल द्वारा प्रायोजित मिशन यात्राएँ मेक्सिको गईं, फिर 1999 में कोस्टा रिका और 2000 में ऑस्ट्रिया।"
+    },
+    {
+      "text": "Families host Guatemalan students",
+      "of": "f5ae4cf2",
+      "at": [
+        "charlotte-christian:milestones.events[1].title"
+      ],
+      "t": "परिवारों ने ग्वाटेमाला के छात्रों की मेज़बानी की"
+    },
+    {
+      "text": "The Faces exchange, later Experiencias Interculturales, began: visiting Guatemalan high schoolers lived with school families for eight weeks and attended Upper School classes.",
+      "of": "71946e53",
+      "at": [
+        "charlotte-christian:milestones.events[1].text"
+      ],
+      "t": "Faces आदान-प्रदान, जो बाद में Experiencias Interculturales बना, शुरू हुआ: ग्वाटेमाला से आए हाई स्कूल छात्र आठ सप्ताह तक स्कूल के परिवारों के साथ रहे और Upper School की कक्षाओं में शामिल हुए।"
+    },
+    {
+      "text": "31 students served in the Dominican Republic.",
+      "of": "c869cd82",
+      "at": [
+        "charlotte-christian:milestones.events[2].text"
+      ],
+      "t": "31 छात्रों ने डोमिनिकन गणराज्य में सेवा की।"
+    },
+    {
+      "text": "Lord of All Nations",
+      "of": "d2c8af54",
+      "at": [
+        "charlotte-christian:milestones.events[3].title"
+      ],
+      "t": "Lord of All Nations"
+    },
+    {
+      "text": "The Lower School's Multicultural Day represented 24 countries.",
+      "of": "d75f5c87",
+      "at": [
+        "charlotte-christian:milestones.events[3].text"
+      ],
+      "t": "Lower School के बहुसांस्कृतिक दिवस (Multicultural Day) में 24 देशों का प्रतिनिधित्व हुआ।"
+    },
+    {
+      "text": "The largest delegation of any school in the nation.",
+      "of": "0092aa02",
+      "at": [
+        "charlotte-christian:milestones.events[4].text"
+      ],
+      "t": "देश के किसी भी स्कूल का सबसे बड़ा प्रतिनिधिमंडल।"
+    },
+    {
+      "text": "J-Term begins",
+      "of": "f16d9118",
+      "at": [
+        "charlotte-christian:milestones.events[5].title"
+      ],
+      "t": "J-Term की शुरुआत"
+    },
+    {
+      "text": "A required week of experiences each Upper School year, from the Class of 2017, earning .25 credit a year.",
+      "of": "a11068b1",
+      "at": [
+        "charlotte-christian:milestones.events[5].text"
+      ],
+      "t": "Class of 2017 से, Upper School के हर वर्ष अनुभवों का एक अनिवार्य सप्ताह, जिससे हर साल .25 क्रेडिट मिलता है।"
+    },
+    {
+      "text": "Winterim",
+      "of": "4d5bbcf6",
+      "at": [
+        "charlotte-christian:milestones.events[6].title"
+      ],
+      "t": "Winterim"
+    },
+    {
+      "text": "Winterim 2023 offered six trips abroad.",
+      "of": "266150c9",
+      "at": [
+        "charlotte-christian:milestones.events[6].text"
+      ],
+      "t": "Winterim 2023 में विदेश की छह यात्राएँ पेश की गईं।"
+    },
+    {
+      "text": "Where the program stands out, and eleven questions the school's website doesn't answer yet — trip costs, aid, which trips ran, and safety.",
+      "of": "b6cf535b",
+      "at": [
+        "charlotte-christian:verdict.headline"
+      ],
+      "t": "यह प्रोग्राम कहाँ अलग दिखता है, और ग्यारह सवाल जिनका जवाब स्कूल की वेबसाइट अभी तक नहीं देती — यात्रा का ख़र्च, आर्थिक सहायता, कौन-सी यात्राएँ वास्तव में हुईं, और सुरक्षा।"
+    },
+    {
+      "text": "Charlotte Christian has no global diploma or exchange program, but every Upper School year includes Winterim, and its packets publish six to eight trips abroad a year, each with a grade band, group size and, for most, a mission or service partner.",
+      "of": "0b7af53b",
+      "at": [
+        "charlotte-christian:verdict.standsOut.summary"
+      ],
+      "t": "Charlotte Christian में कोई वैश्विक डिप्लोमा या आदान-प्रदान कार्यक्रम नहीं है, लेकिन Upper School के हर वर्ष में Winterim शामिल है, और उसके पैकेट हर साल विदेश की छह से आठ यात्राएँ प्रकाशित करते हैं, हर एक की कक्षा-सीमा, समूह के आकार और, अधिकांश के लिए, किसी मिशन या सेवा साझेदार के साथ।"
+    },
+    {
+      "text": "A required Winterim every Upper School year",
+      "of": "e5e7ad7e",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[0]"
+      ],
+      "t": "Upper School के हर वर्ष एक अनिवार्य Winterim"
+    },
+    {
+      "text": "Trips abroad from 9th grade, published with grade bands and group sizes",
+      "of": "da24537d",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[1]"
+      ],
+      "t": "कक्षा 9 से विदेश यात्राएँ, कक्षा-सीमा और समूह के आकार के साथ प्रकाशित"
+    },
+    {
+      "text": "Mission and service partners on record since 2009–10",
+      "of": "24e396fd",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[2]"
+      ],
+      "t": "2009–10 से दर्ज मिशन और सेवा साझेदार"
+    },
+    {
+      "text": "Three languages to sample in 5th grade",
+      "of": "f2bc0c74",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[3]"
+      ],
+      "t": "कक्षा 5 में आज़माने के लिए तीन भाषाएँ"
+    },
+    {
+      "text": "Cost.",
+      "of": "04e0a6c2",
+      "at": [
+        "charlotte-christian:verdict.ask[0].topic",
+        "cannon:verdict.ask[2].topic"
+      ],
+      "t": "ख़र्च।"
+    },
+    {
+      "text": "What does a Winterim trip abroad cost and include, and how much can the price change once registrations are in?",
+      "of": "a591be8f",
+      "at": [
+        "charlotte-christian:verdict.ask[0].question"
+      ],
+      "t": "Winterim की एक विदेश यात्रा का ख़र्च कितना है और उसमें क्या-क्या शामिल है, और पंजीकरण हो जाने के बाद क़ीमत कितनी बदल सकती है?"
+    },
+    {
+      "text": "Financial aid covers up to half of tuition, and families pay all fees. Does any aid or fund help with Winterim travel?",
+      "of": "f5accc6b",
+      "at": [
+        "charlotte-christian:verdict.ask[1].question"
+      ],
+      "t": "आर्थिक सहायता ट्यूशन के अधिकतम आधे हिस्से को कवर करती है, और सभी शुल्क परिवार चुकाते हैं। क्या Winterim यात्रा के लिए कोई सहायता या फ़ंड मदद करता है?"
+    },
+    {
+      "text": "9th grade.",
+      "of": "aff588b3",
+      "at": [
+        "charlotte-christian:verdict.ask[2].topic"
+      ],
+      "t": "कक्षा 9।"
+    },
+    {
+      "text": "Most trips abroad are for 10th–12th or 11th–12th grade, and priority goes to the highest grade. How often does a 9th grader get a place on one?",
+      "of": "984891ef",
+      "at": [
+        "charlotte-christian:verdict.ask[2].question"
+      ],
+      "t": "विदेश की अधिकांश यात्राएँ कक्षा 10–12 या कक्षा 11–12 के लिए हैं, और प्राथमिकता सबसे ऊँची कक्षा को मिलती है। कक्षा 9 के किसी छात्र को इनमें से किसी यात्रा में कितनी बार जगह मिलती है?"
+    },
+    {
+      "text": "Which trips ran.",
+      "of": "37757c77",
+      "at": [
+        "charlotte-christian:verdict.ask[3].topic"
+      ],
+      "t": "कौन-सी यात्राएँ वास्तव में हुईं।"
+    },
+    {
+      "text": "The packets list the trips offered, and final offerings depend on registrations. Which trips actually ran each year?",
+      "of": "1013c7e2",
+      "at": [
+        "charlotte-christian:verdict.ask[3].question"
+      ],
+      "t": "पैकेट पेश की गई यात्राओं की सूची देते हैं, और अंतिम रूप से कौन-सी यात्राएँ होंगी यह पंजीकरणों पर निर्भर करता है। हर साल वास्तव में कौन-सी यात्राएँ हुईं?"
+    },
+    {
+      "text": "What are the chaperone ratios, and what insurance does the school carry? The packet points families to outside insurers.",
+      "of": "e87c69eb",
+      "at": [
+        "charlotte-christian:verdict.ask[4].question"
+      ],
+      "t": "संरक्षकों और छात्रों का अनुपात क्या है, और स्कूल कौन-सा बीमा रखता है? पैकेट परिवारों को बाहरी बीमा कंपनियों की ओर भेजता है।"
+    },
+    {
+      "text": "Does Experiencias Interculturales, the Guatemalan exchange begun in 2008, still run, or is any other exchange offered?",
+      "of": "28de2f76",
+      "at": [
+        "charlotte-christian:verdict.ask[5].question"
+      ],
+      "t": "क्या 2008 में शुरू हुआ ग्वाटेमाला का आदान-प्रदान Experiencias Interculturales अब भी चलता है, या कोई और आदान-प्रदान पेश किया जाता है?"
+    },
+    {
+      "text": "Is a global certificate, or the Seal of Biliteracy, offered school-wide?",
+      "of": "f6594d16",
+      "at": [
+        "charlotte-christian:verdict.ask[6].question"
+      ],
+      "t": "क्या पूरे स्कूल में कोई वैश्विक प्रमाणपत्र, या Seal of Biliteracy, पेश किया जाता है?"
+    },
+    {
+      "text": "How many students go abroad each year? No figure is published.",
+      "of": "16cd4be3",
+      "at": [
+        "charlotte-christian:verdict.ask[7].question"
+      ],
+      "t": "हर साल कितने छात्र विदेश जाते हैं? कोई आँकड़ा प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Middle and Lower School.",
+      "of": "d66506a6",
+      "at": [
+        "charlotte-christian:verdict.ask[8].topic"
+      ],
+      "t": "Middle School और Lower School।"
+    },
+    {
+      "text": "Is there any travel before 9th grade?",
+      "of": "e0867033",
+      "at": [
+        "charlotte-christian:verdict.ask[8].question"
+      ],
+      "t": "क्या कक्षा 9 से पहले कोई यात्रा होती है?"
+    },
+    {
+      "text": "Model UN today.",
+      "of": "69ba852a",
+      "at": [
+        "charlotte-christian:verdict.ask[9].topic"
+      ],
+      "t": "आज का Model UN।"
+    },
+    {
+      "text": "Which Model UN conferences does the Upper School attend, and does it still go to Harvard Model Congress?",
+      "of": "df0cec1f",
+      "at": [
+        "charlotte-christian:verdict.ask[9].question"
+      ],
+      "t": "Upper School किन Model UN सम्मेलनों में भाग लेता है, और क्या वह अब भी Harvard Model Congress में जाता है?"
+    },
+    {
+      "text": "International students.",
+      "of": "c4fc7979",
+      "at": [
+        "charlotte-christian:verdict.ask[10].topic",
+        "cannon:verdict.ask[10].topic"
+      ],
+      "t": "अंतरराष्ट्रीय छात्र।"
+    },
+    {
+      "text": "How many international students are enrolled, and is English-language support offered? Financial aid is not available to students on an I-20.",
+      "of": "58c47522",
+      "at": [
+        "charlotte-christian:verdict.ask[10].question"
+      ],
+      "t": "कितने अंतरराष्ट्रीय छात्र नामांकित हैं, और क्या अंग्रेज़ी भाषा में सहायता दी जाती है? I-20 वाले छात्रों के लिए आर्थिक सहायता उपलब्ध नहीं है।"
+    },
+    {
       "text": "Travel begins in 6th grade, run by an Office of International Studies the school dates to 1988, with sister-school exchanges and homestays in Québec City, Arequipa and Southampton, and faculty-led Upper School trips over spring break and in the summer.",
       "of": "155b6937",
       "at": [
@@ -4236,14 +6222,6 @@
         "charlotte-country-day:lead.muted"
       ],
       "t": "स्कूल के अनुसार, 2015 से उसकी वैश्विक यात्राओं में छात्र छह महाद्वीपों के 27 देशों में जा चुके हैं।"
-    },
-    {
-      "text": "countries",
-      "of": "92e99ecd",
-      "at": [
-        "charlotte-country-day:stats[0].label"
-      ],
-      "t": "देश"
     },
     {
       "text": "visited by students on Country Day's global travel experiences since 2015",
@@ -4490,16 +6468,6 @@
         "charlotte-country-day:milestones.events[3].title"
       ],
       "t": "साउथेम्प्टन"
-    },
-    {
-      "text": "Costa Rica",
-      "of": "4a26cbe8",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest",
-        "cannon:trips.years[0].trips[1].dest",
-        "cannon:trips.years[1].trips[0].dest"
-      ],
-      "t": "कोस्टा रिका"
     },
     {
       "text": "Monteverde",
@@ -5323,14 +7291,6 @@
       "t": "अनुदान, सबैटिकल और अंतरराष्ट्रीय शोध अनुदान शिक्षकों को विदेश में प्रत्यक्ष रूप से सीखने के लिए भेजते हैं"
     },
     {
-      "text": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:start.divisions[0].grades"
-      ],
-      "t": "JK–4"
-    },
-    {
       "text": "French and Spanish begin in junior kindergarten to 1st grade",
       "of": "e41b23f3",
       "at": [
@@ -5353,15 +7313,6 @@
         "charlotte-country-day:start.divisions[0].items[2]"
       ],
       "t": "कक्षा 4 के छात्र-नेता स्कूल के चंद्र नववर्ष (Lunar New Year) उत्सव का उद्घाटन करते हैं"
-    },
-    {
-      "text": "5–8",
-      "of": "660365d3",
-      "at": [
-        "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
-      ],
-      "t": "5–8"
     },
     {
       "text": "**Travel begins in 6th grade:** six experiences in 2026–27",
@@ -5466,14 +7417,6 @@
         "charlotte-country-day:network.conferences[1].text"
       ],
       "t": "University of Virginia में VAMUN, Upper School के 12 प्रतिनिधि और दो प्रतिनिधिमंडलों को मौखिक प्रशंसा · UNC-Chapel Hill में MUNCH, 17 छात्र, छह पुरस्कार"
-    },
-    {
-      "text": "Academic WorldQuest",
-      "of": "135cbfac",
-      "at": [
-        "charlotte-country-day:network.cells[0].name"
-      ],
-      "t": "Academic WorldQuest"
     },
     {
       "text": "Country Day students finish in first place at the Academic WorldQuest competition nearly every year, per the school.",
@@ -5822,14 +7765,6 @@
       "t": "चीन के साथ NC का पहला पूर्ण शिक्षक आदान-प्रदान।"
     },
     {
-      "text": "Cuba",
-      "of": "f2388c8c",
-      "at": [
-        "charlotte-country-day:milestones.events[9].title"
-      ],
-      "t": "क्यूबा"
-    },
-    {
       "text": "The state's first school to send students to Cuba.",
       "of": "51e2f1ce",
       "at": [
@@ -6164,14 +8099,6 @@
         "cannon:trips.years[0].noteByDiv.MS"
       ],
       "t": "ग्रीष्म 2026"
-    },
-    {
-      "text": "Dominican Republic",
-      "of": "efe03871",
-      "at": [
-        "cannon:trips.years[0].trips[0].dest"
-      ],
-      "t": "डोमिनिकन गणराज्य"
     },
     {
       "text": "Santo Domingo, with TECHO",
@@ -6742,14 +8669,6 @@
       "t": "2026–27 के लिए कौन-सी यात्राएँ नियोजित हैं? यात्राओं की कोई सूची प्रकाशित नहीं है।"
     },
     {
-      "text": "Cost.",
-      "of": "04e0a6c2",
-      "at": [
-        "cannon:verdict.ask[2].topic"
-      ],
-      "t": "ख़र्च।"
-    },
-    {
       "text": "What does a trip cost, and what does it include? No trip price is published.",
       "of": "50cea9fe",
       "at": [
@@ -6836,14 +8755,6 @@
         "cannon:verdict.ask[9].question"
       ],
       "t": "हर साल कितने छात्र विदेश यात्रा करते हैं?"
-    },
-    {
-      "text": "International students.",
-      "of": "c4fc7979",
-      "at": [
-        "cannon:verdict.ask[10].topic"
-      ],
-      "t": "अंतरराष्ट्रीय छात्र।"
     },
     {
       "text": "Does Cannon still enroll about ten international students a year in the Upper School, living with host families? The school's page on this dates from 2021.",

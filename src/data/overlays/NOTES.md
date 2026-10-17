@@ -3071,3 +3071,48 @@ Two chrome keys: `credential@cannon` follows `credential@providence-day` (a bare
 - **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English or stamps mutated,
   0 existing `t` overwritten, 100 added, all under `cannon:*`, 0 empty, 0 bidi controls.
   The only "foreign-script" hits were bn/hi's danda (U+0964) and pure identifiers.
+
+## Charlotte Christian (`christianglobal`) — Phase 2, 2026-10-17
+
+The fifth school in the area: seven cards, with the network card retitled "SCORE
+International & the Winterim Mission Partners". 227 strings × 9 locales, spliced by stamp:
+834 kept, 227 added, **0 dropped**. One chrome key, `network@charlotte-christian`, follows
+`network@charlotte-latin` (SCORE International and Winterim stay Latin in every locale).
+
+**Fixed in the cross-locale pass:**
+
+- **The two school quotes are kept verbatim in all nine locales.** The quotes are "The study
+  of modern and classical languages equips students to impact the global culture for
+  Christ." and "What does it mean to be an engaged global citizen?". es/fr/it/ht/ar had
+  translated them, and hi had added a bracketed Hindi gloss. Every rollout doc says verbatim
+  quoted source strings stay English, so all six now keep the English quote and translate
+  only the framing ("In the school's words", "asking"). "Best of Ireland" (a tour title)
+  was already kept everywhere.
+- **"Lord of All Nations"** is the named theme of the Lower School's Multicultural Day, so it
+  stays English in all nine. es and bn had translated it; seven locales kept it.
+
+**Soft spots for a reviewer:**
+
+- **"packet" (the Winterim packet), with no precedent:** es *dosier*, fr *brochure*, it
+  *fascicolo (informativo)*, fa *دفترچه*, ar *كتيّب*, hi *पैकेट*, bn *তথ্য-পুস্তিকা*, ht
+  *dokiman*.
+- **"mission" / "ministry" in a faith-school sense:** fa *مأموریت مذهبی* (with *تبشیری* as the
+  alternative), ar *إرسالي/إرسالية*, bn *পরিচর্যা* for ministry, te *పరిచర్య*, hi
+  *स्पोर्ट्स मिनिस्ट्री* (a loanword), ht *evanjelizasyon* for "outreach".
+- **"partners":** es uses *entidades*, not *socios*, in the card title and throughout.
+- **"on record":** fr *documenté(s)*, it *documentato*, ht *nan dosye yo*. Check that
+  these keep the force of "on record".
+- **"Multicultural Festival" / "Multicultural Day"** are translated in most locales. fr
+  translates the Festival but keeps "Multicultural Day" in English.
+- **"varsity"** stays Latin in es/ht/te; fa has *تیم اصلی* and ar *الفريق الأول*.
+- **Female-only groups:** it uses *studentesse*, ar *طالبة*, es *deportistas femeninas*.
+- **New transliterations with no glossary precedent** (Neuschwanstein, Dachau, Baños,
+  Panamá Viejo, Salzburg) in te/hi are worth a native check.
+- **`i18n:leaks` residue that is a KEEP:** all twelve Charlotte Christian flags are place
+  names (Portugal, Cuba, Costa Rica, La Paz, São Paulo, Rio de Janeiro, Birmingham, Panama,
+  Quito, La Misión) or the `SCORE International, 2009–10.` identifier. The flagged locales
+  differ only in transliteration or punctuation.
+- **RTL:** fa/ar store zero bidi controls.
+- **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English or stamps mutated,
+  0 existing `t` overwritten, 227 added, all under `charlotte-christian:*`, 0 empty, 0 bidi
+  controls, 0 foreign-script.

@@ -142,6 +142,8 @@
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
         "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-christian:trips.years[0].trips[3].dest",
+        "charlotte-christian:trips.years[3].trips[3].dest",
         "charlotte-country-day:trips.years[2].trips[1].dest"
       ]
     },
@@ -275,6 +277,7 @@
         "charlotte-latin:trips.years[0].trips[6].dest",
         "charlotte-latin:trips.years[2].trips[2].dest",
         "charlotte-latin:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[3].dest",
         "charlotte-country-day:trips.years[1].trips[1].dest",
         "charlotte-country-day:exchanges.partners[1].country"
@@ -305,7 +308,8 @@
       "t": "Équateur",
       "of": "5cb016c8",
       "at": [
-        "providence-day:trips.years[2].trips[2].dest"
+        "providence-day:trips.years[2].trips[2].dest",
+        "charlotte-christian:trips.years[3].trips[2].dest"
       ]
     },
     {
@@ -477,6 +481,7 @@
       "of": "cbef70fa",
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[0].dest",
         "charlotte-country-day:trips.years[0].trips[7].dest"
       ]
     },
@@ -807,6 +812,7 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
+        "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
         "cannon:start.divisions[2].grades"
       ]
@@ -1969,6 +1975,7 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
         "cannon:verdict.ask[3].topic"
       ]
@@ -2015,6 +2022,7 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
         "cannon:verdict.ask[5].topic"
       ]
@@ -2030,7 +2038,8 @@
       "t": "Échanges.",
       "of": "3b61cee5",
       "at": [
-        "providence-day:verdict.ask[6].topic"
+        "providence-day:verdict.ask[6].topic",
+        "charlotte-christian:verdict.ask[5].topic"
       ]
     },
     {
@@ -2060,6 +2069,7 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
+        "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
         "cannon:verdict.ask[9].topic"
       ]
@@ -2263,6 +2273,8 @@
         "charlotte-latin:trips.years[2].trips[4].dest",
         "charlotte-latin:exchanges.partners[3].country",
         "charlotte-latin:milestones.events[3].title",
+        "charlotte-christian:trips.years[0].trips[4].dest",
+        "charlotte-christian:trips.years[2].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[5].dest",
         "charlotte-country-day:trips.years[2].trips[0].dest"
       ]
@@ -2373,6 +2385,8 @@
       "at": [
         "charlotte-latin:trips.years[0].trips[7].dest",
         "charlotte-latin:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[0].trips[1].dest",
+        "charlotte-christian:trips.years[2].trips[4].dest",
         "charlotte-country-day:trips.years[0].trips[0].dest",
         "charlotte-country-day:exchanges.partners[0].country"
       ]
@@ -2497,6 +2511,7 @@
       "at": [
         "charlotte-latin:trips.years[2].trips[1].place",
         "charlotte-latin:milestones.events[8].title",
+        "charlotte-christian:trips.years[0].trips[1].place",
         "charlotte-country-day:milestones.events[10].title"
       ]
     },
@@ -2857,6 +2872,7 @@
       "of": "7a999acd",
       "at": [
         "charlotte-latin:signup.groups[0].note",
+        "charlotte-christian:signup.groups[0].note",
         "charlotte-country-day:signup.groups[0].note"
       ]
     },
@@ -2972,6 +2988,10 @@
       "of": "bfabeb69",
       "at": [
         "charlotte-latin:signup.groups[0].events[5].audience",
+        "charlotte-christian:signup.groups[0].events[0].audience",
+        "charlotte-christian:signup.groups[0].events[1].audience",
+        "charlotte-christian:signup.groups[0].events[2].audience",
+        "charlotte-christian:signup.groups[0].events[3].audience",
         "charlotte-country-day:signup.groups[0].events[0].audience",
         "charlotte-country-day:signup.groups[0].events[1].audience",
         "charlotte-country-day:signup.groups[0].events[2].audience",
@@ -3167,7 +3187,8 @@
       "t": "Model UN",
       "of": "9ba6f23d",
       "at": [
-        "charlotte-latin:community.cells[5].name"
+        "charlotte-latin:community.cells[5].name",
+        "charlotte-christian:network.rows[0].label"
       ]
     },
     {
@@ -3688,6 +3709,7 @@
       "of": "81c33a02",
       "at": [
         "charlotte-latin:verdict.ask[8].topic",
+        "charlotte-christian:verdict.ask[6].topic",
         "charlotte-country-day:verdict.ask[9].topic"
       ]
     },
@@ -3713,6 +3735,1734 @@
       ]
     },
     {
+      "t": "Les élèves d’Upper School de Charlotte Christian participent au Winterim, une semaine chaque année à la charnière de février et de mars, avec six à huit voyages à l’étranger proposés chaque année dès la 9e année.",
+      "of": "b1de1b50",
+      "at": [
+        "charlotte-christian:lead.strong"
+      ]
+    },
+    {
+      "t": "La plupart des voyages associent le déplacement à un partenaire missionnaire ou de service, de SCORE International en République dominicaine, documenté depuis 2009–10, à Samaritan's Feet au Portugal.",
+      "of": "9f16daa4",
+      "at": [
+        "charlotte-christian:lead.muted"
+      ]
+    },
+    {
+      "t": "voyages à l’étranger",
+      "of": "880958d4",
+      "at": [
+        "charlotte-christian:stats[0].label"
+      ]
+    },
+    {
+      "t": "proposés lors du Winterim 2027, selon la brochure de l’école",
+      "of": "fd3d310b",
+      "at": [
+        "charlotte-christian:stats[0].note"
+      ]
+    },
+    {
+      "t": "pays",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-christian:stats[1].label",
+        "charlotte-country-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "notre décompte sur cinq Winterims, 2023–2027",
+      "of": "67da5c25",
+      "at": [
+        "charlotte-christian:stats[1].note"
+      ]
+    },
+    {
+      "t": "crédit Winterim requis pour obtenir le diplôme",
+      "of": "8bba5721",
+      "at": [
+        "charlotte-christian:stats[2].label"
+      ]
+    },
+    {
+      "t": ".25 par année d’Upper School",
+      "of": "33dd954c",
+      "at": [
+        "charlotte-christian:stats[2].note"
+      ]
+    },
+    {
+      "t": "premier voyage SCORE International documenté",
+      "of": "ae804668",
+      "at": [
+        "charlotte-christian:stats[3].label"
+      ]
+    },
+    {
+      "t": "31 élèves en République dominicaine, selon l’école",
+      "of": "ad981135",
+      "at": [
+        "charlotte-christian:stats[3].note"
+      ]
+    },
+    {
+      "t": "Trente-cinq voyages à l’étranger proposés sur cinq Winterims, de 2023 à 2027, chacun avec une tranche de niveaux et une taille de groupe publiées, et la plupart avec un partenaire missionnaire ou de service.",
+      "of": "f66bb874",
+      "at": [
+        "charlotte-christian:trips.headline"
+      ]
+    },
+    {
+      "t": "Les voyages à l’étranger du Winterim sont ouverts aux élèves d’Upper School, certains dès la 9e année et la plupart dès la 10e, et la brochure de chaque année indique pour chaque voyage sa tranche de niveaux, sa taille de groupe et son thème.",
+      "of": "70474adc",
+      "at": [
+        "charlotte-christian:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Les brochures listent les voyages proposés, et l’offre définitive dépend des inscriptions. Le Winterim propose aussi des expériences locales et nationales : partir à l’étranger n’est donc qu’un choix parmi d’autres.",
+      "of": "c9ee7295",
+      "at": [
+        "charlotte-christian:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Winterim 2027",
+      "of": "daf7b8d3",
+      "at": [
+        "charlotte-christian:trips.years[0].note",
+        "charlotte-christian:trips.years[0].trips[0].timing",
+        "charlotte-christian:trips.years[0].trips[1].timing",
+        "charlotte-christian:trips.years[0].trips[2].timing",
+        "charlotte-christian:trips.years[0].trips[3].timing",
+        "charlotte-christian:trips.years[0].trips[4].timing",
+        "charlotte-christian:trips.years[0].trips[5].timing",
+        "charlotte-christian:trips.years[0].trips[6].timing"
+      ]
+    },
+    {
+      "t": "Brésil",
+      "of": "808bf777",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].dest",
+        "charlotte-christian:trips.years[1].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[2].dest"
+      ]
+    },
+    {
+      "t": "São Paulo",
+      "of": "a97d65fb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "9e–12e année · athlètes féminines · 16–40 élèves",
+      "of": "84424c73",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Une tournée de ministère sportif avec Missionary Athletes International · stages sportifs et actions de proximité avec des Églises locales",
+      "of": "3837eede",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "10e–12e année · 25–35 élèves",
+      "of": "8ce305da",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "Conversation en français et hiver québécois, avec du service aux côtés d’une Église locale",
+      "of": "0f7c35e8",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "République dominicaine",
+      "of": "efe03871",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[5].dest",
+        "charlotte-christian:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[3].trips[0].dest",
+        "charlotte-christian:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[4].trips[0].dest",
+        "charlotte-christian:trips.years[4].trips[1].dest",
+        "cannon:trips.years[0].trips[0].dest"
+      ]
+    },
+    {
+      "t": "10e–12e année · 16–32 élèves",
+      "of": "c14d94eb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "Apprentissage par le service avec SCORE International",
+      "of": "9fe5bbb4",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].theme",
+        "charlotte-christian:trips.years[1].trips[5].theme",
+        "charlotte-christian:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "11e–12e année · 35–40 élèves",
+      "of": "282b6160",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].group"
+      ]
+    },
+    {
+      "t": "Paysages et culture, avec un projet de service de préservation de l’environnement",
+      "of": "0e21c24d",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Sorrente, Pompéi + Rome",
+      "of": "2dceb288",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].place",
+        "charlotte-christian:trips.years[2].trips[3].place"
+      ]
+    },
+    {
+      "t": "9e–12e année · 24–32 élèves",
+      "of": "cd29cba6",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].group"
+      ]
+    },
+    {
+      "t": "Art, histoire et foi, avec du service à Rome",
+      "of": "fbfda720",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].theme",
+        "charlotte-christian:trips.years[2].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Mexique",
+      "of": "2c485c16",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].dest",
+        "charlotte-christian:trips.years[4].trips[4].dest"
+      ]
+    },
+    {
+      "t": "La Paz",
+      "of": "4ce30ab5",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · 16–20 élèves",
+      "of": "61566892",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].group",
+        "charlotte-christian:trips.years[1].trips[3].group"
+      ]
+    },
+    {
+      "t": "Service et formation spirituelle avec Rancho El Camino",
+      "of": "7371d242",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].theme"
+      ]
+    },
+    {
+      "t": "Portugal",
+      "of": "268c9f87",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].dest",
+        "charlotte-christian:trips.years[3].trips[7].dest"
+      ]
+    },
+    {
+      "t": "Lisbonne",
+      "of": "73fe8472",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].place",
+        "charlotte-christian:trips.years[3].trips[7].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · 10–12 élèves",
+      "of": "3236b88b",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].group"
+      ]
+    },
+    {
+      "t": "Distribution de chaussures avec Samaritan's Feet",
+      "of": "6d7464e0",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2026",
+      "of": "d9f7b740",
+      "at": [
+        "charlotte-christian:trips.years[1].note",
+        "charlotte-christian:trips.years[1].trips[0].timing",
+        "charlotte-christian:trips.years[1].trips[1].timing",
+        "charlotte-christian:trips.years[1].trips[2].timing",
+        "charlotte-christian:trips.years[1].trips[3].timing",
+        "charlotte-christian:trips.years[1].trips[4].timing",
+        "charlotte-christian:trips.years[1].trips[5].timing",
+        "charlotte-christian:trips.years[1].trips[6].timing",
+        "charlotte-christian:trips.years[1].trips[7].timing"
+      ]
+    },
+    {
+      "t": "Athènes, Corinthe + Nauplie",
+      "of": "743a2533",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "11e–12e année · 16–40 élèves",
+      "of": "fd8b705f",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].group"
+      ]
+    },
+    {
+      "t": "Sur les pas de Paul, avec un nettoyage de plage",
+      "of": "db9d6da2",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Rio de Janeiro",
+      "of": "09c24330",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].place",
+        "charlotte-christian:trips.years[1].trips[2].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · 18–30 élèves",
+      "of": "d9fb73ab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].group"
+      ]
+    },
+    {
+      "t": "Culture afro-brésilienne, avec une journée de service",
+      "of": "eb6ec44d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "9e–12e année · athlètes féminines · 10–25 élèves",
+      "of": "76125896",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].group"
+      ]
+    },
+    {
+      "t": "Une tournée de ministère sportif · stages sportifs et actions de proximité avec des Églises",
+      "of": "a1081dab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Birmingham",
+      "of": "6bc36087",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].place"
+      ]
+    },
+    {
+      "t": "Un voyage missionnaire avec une Église locale : distribution alimentaire et actions auprès des jeunes",
+      "of": "c6a53f1b",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Costa Rica",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].dest",
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
+      ]
+    },
+    {
+      "t": "10e–12e année · filles · 16–30 élèves",
+      "of": "03e00863",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].group"
+      ]
+    },
+    {
+      "t": "Biologie de la faune et conservation, avec des plantations d’arbres et un sanctuaire de la faune sauvage",
+      "of": "fa5c592c",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "10e–12e année · 16–30 élèves",
+      "of": "8f8ec15d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[5].group"
+      ]
+    },
+    {
+      "t": "Panama",
+      "of": "754af0bd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].dest",
+        "charlotte-christian:trips.years[2].trips[5].dest",
+        "charlotte-christian:trips.years[3].trips[6].dest",
+        "charlotte-christian:trips.years[4].trips[5].dest"
+      ]
+    },
+    {
+      "t": "9e–10e année · 16–21 élèves",
+      "of": "c186c8f1",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].group",
+        "charlotte-christian:trips.years[2].trips[5].group"
+      ]
+    },
+    {
+      "t": "Vacation Bible School dans une école chrétienne d’un quartier défavorisé, Panamá Viejo et un village emberá",
+      "of": "a1c8d2dc",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].theme",
+        "charlotte-christian:trips.years[2].trips[5].theme"
+      ]
+    },
+    {
+      "t": "Écosse",
+      "of": "54d53665",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].dest"
+      ]
+    },
+    {
+      "t": "Les Highlands, Édimbourg + Glasgow",
+      "of": "002a10dd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · filles · 20–30 élèves",
+      "of": "ab9a3512",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].group"
+      ]
+    },
+    {
+      "t": "Histoire et culture, avec une journée de service à Glasgow",
+      "of": "72c286aa",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2025",
+      "of": "dcf7bbf9",
+      "at": [
+        "charlotte-christian:trips.years[2].note",
+        "charlotte-christian:trips.years[2].trips[0].timing",
+        "charlotte-christian:trips.years[2].trips[1].timing",
+        "charlotte-christian:trips.years[2].trips[2].timing",
+        "charlotte-christian:trips.years[2].trips[3].timing",
+        "charlotte-christian:trips.years[2].trips[4].timing",
+        "charlotte-christian:trips.years[2].trips[5].timing"
+      ]
+    },
+    {
+      "t": "Cuba",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].dest",
+        "charlotte-country-day:milestones.events[9].title"
+      ]
+    },
+    {
+      "t": "La Havane + Remedios",
+      "of": "77d6ef0b",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · 15–20 élèves",
+      "of": "a27040a7",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].group"
+      ]
+    },
+    {
+      "t": "Distribution de chaussures avec Samaritan's Feet, dans des écoles et des communautés sourdes",
+      "of": "c57c35ec",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "10e–12e année · 16–45 élèves",
+      "of": "ef5aa6ed",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[1].group"
+      ]
+    },
+    {
+      "t": "Irlande",
+      "of": "1578db1c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].dest"
+      ]
+    },
+    {
+      "t": "9e–12e année · 20–40 élèves",
+      "of": "7b144b4d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].group"
+      ]
+    },
+    {
+      "t": "Le circuit « Best of Ireland » · les falaises de Moher, les sports gaéliques et le Livre de Kells",
+      "of": "847d4f9c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "9e–12e année · 24–40 élèves",
+      "of": "1c77b691",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[3].group"
+      ]
+    },
+    {
+      "t": "Montréal + Québec",
+      "of": "35da86de",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · 20–40 élèves",
+      "of": "5d1c0a7d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].group"
+      ]
+    },
+    {
+      "t": "Le Canada francophone, avec du temps consacré au service des autres",
+      "of": "a632ecda",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2024",
+      "of": "dbf7ba66",
+      "at": [
+        "charlotte-christian:trips.years[3].note",
+        "charlotte-christian:trips.years[3].trips[0].timing",
+        "charlotte-christian:trips.years[3].trips[1].timing",
+        "charlotte-christian:trips.years[3].trips[2].timing",
+        "charlotte-christian:trips.years[3].trips[3].timing",
+        "charlotte-christian:trips.years[3].trips[4].timing",
+        "charlotte-christian:trips.years[3].trips[5].timing",
+        "charlotte-christian:trips.years[3].trips[6].timing",
+        "charlotte-christian:trips.years[3].trips[7].timing"
+      ]
+    },
+    {
+      "t": "10e–12e année · jusqu’à 40 élèves",
+      "of": "5511c716",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].group",
+        "charlotte-christian:trips.years[4].trips[0].group"
+      ]
+    },
+    {
+      "t": "Service avec SCORE International",
+      "of": "ac7bc0ee",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Équipe varsity de baseball · jusqu’à 25 élèves",
+      "of": "5457d418",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].group"
+      ]
+    },
+    {
+      "t": "Service avec SCORE International et deux matchs d’exhibition",
+      "of": "9bb78ef9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].theme",
+        "charlotte-christian:trips.years[4].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Quito, Baños + Isla de la Plata",
+      "of": "4468430b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · jusqu’à 27 élèves",
+      "of": "5e6ff8cf",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].group"
+      ]
+    },
+    {
+      "t": "Pratique de l’espagnol et aventure, avec du service dans une plantation de cacao",
+      "of": "170ae113",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].theme"
+      ]
+    },
+    {
+      "t": "10e–12e année · jusqu’à 35 élèves",
+      "of": "484e0f3a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].group"
+      ]
+    },
+    {
+      "t": "Éducation et aventure · un glacier, une grotte de glace et Reykjavík",
+      "of": "353a1ddb",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Allemagne et Autriche",
+      "of": "8ec09463",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].dest"
+      ]
+    },
+    {
+      "t": "Munich + Salzbourg",
+      "of": "b959b2ac",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].place"
+      ]
+    },
+    {
+      "t": "9e–12e année · jusqu’à 35 élèves",
+      "of": "68a5242a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].group"
+      ]
+    },
+    {
+      "t": "Histoire et culture · Dachau, Neuschwanstein et la forteresse de Hohensalzburg",
+      "of": "f4a857c9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Grèce et Italie",
+      "of": "b393f43b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].dest"
+      ]
+    },
+    {
+      "t": "Athènes, Delphes, Sorrente, Pompéi + Rome",
+      "of": "5508dbe9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].place"
+      ]
+    },
+    {
+      "t": "9e–12e année · jusqu’à 36 élèves",
+      "of": "a49d4451",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].group",
+        "charlotte-christian:trips.years[4].trips[2].group"
+      ]
+    },
+    {
+      "t": "Art, histoire et foi, avec un projet de service à Rome",
+      "of": "80fa75ce",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].theme"
+      ]
+    },
+    {
+      "t": "9e–10e année · jusqu’à 20 élèves",
+      "of": "ae20003a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].group"
+      ]
+    },
+    {
+      "t": "Mission et service",
+      "of": "0cdaa077",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].theme"
+      ]
+    },
+    {
+      "t": "10e–12e année · jusqu’à 15 élèves",
+      "of": "2d664adc",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].group",
+        "charlotte-christian:trips.years[4].trips[4].group"
+      ]
+    },
+    {
+      "t": "Mission et service avec Samaritan's Feet",
+      "of": "af9974c3",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].theme",
+        "charlotte-christian:trips.years[4].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2023",
+      "of": "def7bf1f",
+      "at": [
+        "charlotte-christian:trips.years[4].note",
+        "charlotte-christian:trips.years[4].trips[0].timing",
+        "charlotte-christian:trips.years[4].trips[1].timing",
+        "charlotte-christian:trips.years[4].trips[2].timing",
+        "charlotte-christian:trips.years[4].trips[3].timing",
+        "charlotte-christian:trips.years[4].trips[4].timing",
+        "charlotte-christian:trips.years[4].trips[5].timing"
+      ]
+    },
+    {
+      "t": "Service et mission avec SCORE International, dans des villages de la canne à sucre",
+      "of": "e134de9c",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Équipe varsity de baseball · jusqu’à 22 élèves",
+      "of": "2f5a84c7",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[1].group"
+      ]
+    },
+    {
+      "t": "Italie et Grèce",
+      "of": "56467571",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].dest"
+      ]
+    },
+    {
+      "t": "Athènes, Delphes, Pompéi + Rome",
+      "of": "13f8f1d1",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].place"
+      ]
+    },
+    {
+      "t": "Art, histoire et foi",
+      "of": "d6e56dfb",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Angleterre et France",
+      "of": "d1830c93",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].dest"
+      ]
+    },
+    {
+      "t": "Londres, Stratford-upon-Avon, Oxford + Paris",
+      "of": "2408949e",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].place"
+      ]
+    },
+    {
+      "t": "9e–12e année · jusqu’à 30 élèves",
+      "of": "cbe3059b",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].group"
+      ]
+    },
+    {
+      "t": "Histoire littéraire · le Globe et la maison natale de Shakespeare",
+      "of": "f2df711d",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].theme"
+      ]
+    },
+    {
+      "t": "La Misión, Basse-Californie",
+      "of": "56b84549",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[4].place"
+      ]
+    },
+    {
+      "t": "9e–12e année · jusqu’à 20 élèves",
+      "of": "e2dadbd0",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].group"
+      ]
+    },
+    {
+      "t": "Mission et service, avec une Vacation Bible School",
+      "of": "e86654cc",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].theme"
+      ]
+    },
+    {
+      "t": "Des élèves d’Upper School de Charlotte Christian sur la place Saint-Pierre, à Rome",
+      "of": "2e4ac334",
+      "at": [
+        "charlotte-christian:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "L’Italie, pendant le Winterim",
+      "of": "f8be29c8",
+      "at": [
+        "charlotte-christian:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "Un voyage du Winterim à Rome, sur la place Saint-Pierre.",
+      "of": "cd909f39",
+      "at": [
+        "charlotte-christian:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "Photo : Charlotte Christian School",
+      "of": "b4dee894",
+      "at": [
+        "charlotte-christian:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Des voyages missionnaires dès 1998.",
+      "of": "9e63d634",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "Des voyages missionnaires organisés par l’école, avec des enseignants et des élèves, sont allés au Mexique en 1998, au Costa Rica en 1999 et en Autriche en 2000.",
+      "of": "f2b45faf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "SCORE International, 2009–10.",
+      "of": "5ee1d1f2",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "31 élèves ont travaillé avec SCORE International en République dominicaine.",
+      "of": "7d95e865",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "Basket-ball à Limoges.",
+      "of": "69ce32e5",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "Quatre joueurs varsity ont représenté Charlotte lors d’un tournoi des villes jumelées à Limoges, en France, en 2009–10.",
+      "of": "8585aa63",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "Été 2011.",
+      "of": "091cdf6e",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].lead"
+      ]
+    },
+    {
+      "t": "42 élèves ont participé à des voyages missionnaires de l’école en République dominicaine ou à Sea Island, en Géorgie, avec Habitat for Humanity.",
+      "of": "55aeccaf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].text"
+      ]
+    },
+    {
+      "t": "Le premier J-Term.",
+      "of": "1669ffad",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].lead"
+      ]
+    },
+    {
+      "t": "Le J-Term 2013–14 a été annoncé avec des voyages missionnaires en Ouganda, au Nicaragua ou en République dominicaine, ainsi que des voyages en France et à New York.",
+      "of": "520636dc",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].text"
+      ]
+    },
+    {
+      "t": "Salamanque, été 2018.",
+      "of": "732fc624",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].lead"
+      ]
+    },
+    {
+      "t": "Des élèves d’Upper School se sont rendus en Espagne pour une immersion linguistique et culturelle.",
+      "of": "95475ac7",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].text"
+      ]
+    },
+    {
+      "t": "Italie, hiver 2020.",
+      "of": "b439a08f",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].lead"
+      ]
+    },
+    {
+      "t": "Lors d’un voyage du J-Term, 40 élèves, membres du personnel et parents ont parcouru l’art et l’histoire chrétiens à travers Rome.",
+      "of": "b1161259",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].text"
+      ]
+    },
+    {
+      "t": "Les inscriptions au Winterim 2027 ont ouvert en juillet 2026 et fermé en août, avec des contrats et des copies de passeport à rendre en septembre.",
+      "of": "7981f78b",
+      "at": [
+        "charlotte-christian:signup.headline"
+      ]
+    },
+    {
+      "t": "Les places sont attribuées par ordre de priorité : le niveau scolaire le plus élevé admissible, les primo-participants, les liens avec le programme scolaire, l’exactitude des informations d’inscription et la préparation démontrée. Le moment de l’inscription compte le moins.",
+      "of": "6a3472e2",
+      "at": [
+        "charlotte-christian:signup.intro.strong"
+      ]
+    },
+    {
+      "t": "Les voyages internationaux exigent un passeport valide au moins six mois après le voyage, et la brochure oriente les familles vers des compagnies extérieures pour l’assurance voyage.",
+      "of": "edbc8a1c",
+      "at": [
+        "charlotte-christian:signup.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School · Winterim 2027",
+      "of": "36206b84",
+      "at": [
+        "charlotte-christian:signup.groups[0].title"
+      ]
+    },
+    {
+      "t": "24 juillet 2026",
+      "of": "16cdbde9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "Ouverture des inscriptions",
+      "of": "57db52b9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].name"
+      ]
+    },
+    {
+      "t": "28 août 2026",
+      "of": "de3274a0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].when"
+      ]
+    },
+    {
+      "t": "Clôture des inscriptions et du versement de l’acompte, à minuit",
+      "of": "181076aa",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].name"
+      ]
+    },
+    {
+      "t": "5 septembre 2026",
+      "of": "ef816aad",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "Confirmation des inscriptions par e-mail",
+      "of": "1cc4b161",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "11 septembre 2026",
+      "of": "5e0692e8",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "Date limite des contrats financiers, des formulaires de décharge de responsabilité et des copies de passeport",
+      "of": "70df62e0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "Global Knights, le Knights Nations Club, un Global Awareness Prefect et Romans 12, sous la direction d’un Director of Diversity, Belonging and Global Awareness.",
+      "of": "37035c3c",
+      "at": [
+        "charlotte-christian:community.headline"
+      ]
+    },
+    {
+      "t": "L’école vise à renforcer l’empathie culturelle des élèves, leur conscience du monde et une posture d’humilité, tout en recherchant l’unité au sein de leurs différences,",
+      "of": "b1c8737b",
+      "at": [
+        "charlotte-christian:community.intro.strong"
+      ]
+    },
+    {
+      "t": "grâce à un travail mené par le Director of Diversity, Belonging and Global Awareness.",
+      "of": "5253137a",
+      "at": [
+        "charlotte-christian:community.intro.muted"
+      ]
+    },
+    {
+      "t": "Global Knights",
+      "of": "0bb765f8",
+      "at": [
+        "charlotte-christian:community.cells[0].name"
+      ]
+    },
+    {
+      "t": "Une option de Middle School en 5e année et un groupe d’élèves de Middle School, ainsi qu’un club d’Upper School.",
+      "of": "18c3805f",
+      "at": [
+        "charlotte-christian:community.cells[0].text"
+      ]
+    },
+    {
+      "t": "Knights Nations Club",
+      "of": "5469c2eb",
+      "at": [
+        "charlotte-christian:community.cells[1].name"
+      ]
+    },
+    {
+      "t": "Des élèves d’Upper School qui découvrent les communautés locales et internationales, des épiceries internationales à la façon dont Pâques est célébrée à travers le monde.",
+      "of": "cb5e96bb",
+      "at": [
+        "charlotte-christian:community.cells[1].text"
+      ]
+    },
+    {
+      "t": "Global Awareness Prefect",
+      "of": "b2f64770",
+      "at": [
+        "charlotte-christian:community.cells[2].name"
+      ]
+    },
+    {
+      "t": "L’un des neuf prefects du gouvernement des élèves de l’Upper School.",
+      "of": "1e103adb",
+      "at": [
+        "charlotte-christian:community.cells[2].text"
+      ]
+    },
+    {
+      "t": "Romans 12",
+      "of": "0fa36b8e",
+      "at": [
+        "charlotte-christian:community.cells[3].name"
+      ]
+    },
+    {
+      "t": "Des membres de la communauté scolaire qui se réunissent chaque mois et, selon l’école, renforcent sa conscience multiculturelle et internationale.",
+      "of": "209fcb60",
+      "at": [
+        "charlotte-christian:community.cells[3].text"
+      ]
+    },
+    {
+      "t": "Festival multiculturel",
+      "of": "1d6572a8",
+      "at": [
+        "charlotte-christian:community.cells[4].name"
+      ]
+    },
+    {
+      "t": "Une célébration annuelle de la Lower School, dans le cadre du cours d’espagnol.",
+      "of": "e168cf00",
+      "at": [
+        "charlotte-christian:community.cells[4].text"
+      ]
+    },
+    {
+      "t": "Élèves internationaux",
+      "of": "67ddb06d",
+      "at": [
+        "charlotte-christian:community.cells[5].name"
+      ]
+    },
+    {
+      "t": "L’école accueille des élèves internationaux titulaires d’un visa I-20, et ne fournit pas de familles d’accueil.",
+      "of": "7c3c3888",
+      "at": [
+        "charlotte-christian:community.cells[5].text"
+      ]
+    },
+    {
+      "t": "L’apprentissage international dans chaque division, de JK à 12, avec trois langues à découvrir en 5e année et des voyages Winterim à l’étranger dès la 9e année.",
+      "of": "333d3d36",
+      "at": [
+        "charlotte-christian:start.headline"
+      ]
+    },
+    {
+      "t": "Selon les mots de l’école, \"The study of modern and classical languages equips students to impact the global culture for Christ.\"",
+      "of": "630744bd",
+      "at": [
+        "charlotte-christian:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Le Winterim, la semaine annuelle d’expériences de l’Upper School, se fixe cinq objectifs propres.",
+      "of": "a6b559cf",
+      "at": [
+        "charlotte-christian:start.intro.muted"
+      ]
+    },
+    {
+      "t": "Croissance spirituelle dans les relations entre élèves et enseignants",
+      "of": "aea85279",
+      "at": [
+        "charlotte-christian:start.framework[0].text"
+      ]
+    },
+    {
+      "t": "Résolution de problèmes, autonomie et compétences de vie dans des cadres nouveaux",
+      "of": "30c1d5b9",
+      "at": [
+        "charlotte-christian:start.framework[1].text"
+      ]
+    },
+    {
+      "t": "Découvrir le patrimoine, les croyances et les expériences d’un autre contexte culturel",
+      "of": "a6eab46f",
+      "at": [
+        "charlotte-christian:start.framework[2].text"
+      ]
+    },
+    {
+      "t": "Servir une communauté",
+      "of": "c98caeee",
+      "at": [
+        "charlotte-christian:start.framework[3].text"
+      ]
+    },
+    {
+      "t": "Explorer des sites, des musées et des monuments",
+      "of": "20a6d6e9",
+      "at": [
+        "charlotte-christian:start.framework[4].text"
+      ]
+    },
+    {
+      "t": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-christian:start.divisions[0].grades",
+        "charlotte-country-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "L’espagnol, avec un Festival multiculturel annuel",
+      "of": "e4dccff2",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "Des sciences sociales qui s’élargissent des familles et des quartiers à la géographie mondiale",
+      "of": "2c2ce7fe",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "La découverte d’autres cultures par la littérature, des intervenants invités et des projets",
+      "of": "76475748",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:start.divisions[1].grades",
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "**Un Language Survey en 5e année** de français, de latin et d’espagnol, puis une langue jusqu’en 8e année",
+      "of": "3d8eb71a",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Les options Global Knights et Multicultural Studies",
+      "of": "d8817f2f",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Des mois du patrimoine dans les cours de langues étrangères",
+      "of": "dc96d1b7",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Des sorties scolaires à Sudan Interior Missions (6e année), au mémorial des papillons de l’Holocauste (7e) et sur le mouvement des droits civiques (8e)",
+      "of": "efffb023",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "Modern World Civilizations",
+      "of": "79f78ae4",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[4]"
+      ]
+    },
+    {
+      "t": "Le français, le latin et l’espagnol jusqu’à l’AP",
+      "of": "45d606ba",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Survey of World Literature, qui pose la question \"What does it mean to be an engaged global citizen?\"",
+      "of": "564f6945",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "AP World History: Modern",
+      "of": "5e5aef15",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "**Le Winterim chaque année,** avec des voyages à l’étranger dès la 9e année",
+      "of": "dbf021e3",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "SCORE International en République dominicaine depuis au moins 2009–10, Samaritan's Feet et d’autres partenaires missionnaires lors des voyages du Winterim, ainsi que le Model UN et le Harvard Model Congress sur place.",
+      "of": "7fbf99bd",
+      "at": [
+        "charlotte-christian:network.headline"
+      ]
+    },
+    {
+      "t": "Les voyages de Charlotte Christian passent par des partenaires missionnaires et de service de longue date, avant tout SCORE International en République dominicaine.",
+      "of": "4f07fe6d",
+      "at": [
+        "charlotte-christian:network.intro.strong"
+      ]
+    },
+    {
+      "t": "Sur place, l’Upper School dispose d’un club de Model UN, et en 2010–11, elle a envoyé au Harvard Model Congress la plus grande délégation de toutes les écoles du pays.",
+      "of": "9347c2d9",
+      "at": [
+        "charlotte-christian:network.intro.muted"
+      ]
+    },
+    {
+      "t": "Voyages SCORE International documentés",
+      "of": "85d7b52f",
+      "at": [
+        "charlotte-christian:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "Winterim 2027, pour la 10e–12e année",
+      "of": "0fdada5c",
+      "at": [
+        "charlotte-christian:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Winterim 2026, pour la 10e–12e année",
+      "of": "592be1c5",
+      "at": [
+        "charlotte-christian:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Winterim 2025, pour la 10e–12e année",
+      "of": "ba09951a",
+      "at": [
+        "charlotte-christian:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "Winterim 2024, plus un voyage de service de l’équipe varsity de baseball",
+      "of": "6b5eaa95",
+      "at": [
+        "charlotte-christian:network.conferences[3].text"
+      ]
+    },
+    {
+      "t": "Winterim 2023, plus un voyage de service de l’équipe varsity de baseball",
+      "of": "34806714",
+      "at": [
+        "charlotte-christian:network.conferences[4].text"
+      ]
+    },
+    {
+      "t": "31 élèves",
+      "of": "0779a3fb",
+      "at": [
+        "charlotte-christian:network.conferences[5].text"
+      ]
+    },
+    {
+      "t": "SCORE International",
+      "of": "2b1bad1d",
+      "at": [
+        "charlotte-christian:network.cells[0].name",
+        "charlotte-christian:milestones.events[2].title"
+      ]
+    },
+    {
+      "t": "Un ministère centré sur le Christ avec lequel les voyages de l’école en République dominicaine servent, à travers le sport, la prise en charge d’orphelins et la construction.",
+      "of": "4e0aa8ac",
+      "at": [
+        "charlotte-christian:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Samaritan's Feet",
+      "of": "9e0222ed",
+      "at": [
+        "charlotte-christian:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "Des voyages de distribution de chaussures en Basse-Californie, à Lisbonne et à Cuba, proposés lors de quatre Winterims de 2023 à 2027.",
+      "of": "86e53654",
+      "at": [
+        "charlotte-christian:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Missionary Athletes International",
+      "of": "7a5b3a63",
+      "at": [
+        "charlotte-christian:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "La tournée de ministère sportif des athlètes féminines au Brésil, lors du Winterim 2027.",
+      "of": "54fc41b1",
+      "at": [
+        "charlotte-christian:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "Rancho El Camino",
+      "of": "6e905c70",
+      "at": [
+        "charlotte-christian:network.cells[3].name"
+      ]
+    },
+    {
+      "t": "Du service à La Paz, au Mexique, lors du Winterim 2027.",
+      "of": "b00ca515",
+      "at": [
+        "charlotte-christian:network.cells[3].text"
+      ]
+    },
+    {
+      "t": "Un club d’Upper School.",
+      "of": "e0b4beb8",
+      "at": [
+        "charlotte-christian:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "Harvard Model Congress",
+      "of": "1d0fcbcc",
+      "at": [
+        "charlotte-christian:network.rows[1].label",
+        "charlotte-christian:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "En 2010–11, 43 élèves de 11e et 12e année formaient la plus grande délégation de toutes les écoles du pays, pour la huitième année de participation de l’école.",
+      "of": "eca7663e",
+      "at": [
+        "charlotte-christian:network.rows[1].text"
+      ]
+    },
+    {
+      "t": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-christian:network.rows[2].label",
+        "charlotte-country-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "Huit élèves ont concouru en 2011, dans la compétition du World Affairs Council of Charlotte.",
+      "of": "e9299c24",
+      "at": [
+        "charlotte-christian:network.rows[2].text"
+      ]
+    },
+    {
+      "t": "Partenaires de voyage",
+      "of": "5fc6fea4",
+      "at": [
+        "charlotte-christian:network.rows[3].label"
+      ]
+    },
+    {
+      "t": "Joshua Expeditions, Grand Classroom et EF Tours organisent plusieurs voyages du Winterim, selon les brochures.",
+      "of": "b5c85cd0",
+      "at": [
+        "charlotte-christian:network.rows[3].text"
+      ]
+    },
+    {
+      "t": "Près de trois décennies documentées, des voyages missionnaires à l’étranger en 1998 à une semaine de Winterim obligatoire chaque année d’Upper School.",
+      "of": "d7700d34",
+      "at": [
+        "charlotte-christian:milestones.headline"
+      ]
+    },
+    {
+      "t": "Le magazine de l’école elle-même fait état de voyages missionnaires à l’étranger dès 1998 et de SCORE International dès 2009–10,",
+      "of": "45d84d4c",
+      "at": [
+        "charlotte-christian:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "ainsi que d’une semaine d’expériences obligatoire chaque année d’Upper School depuis le lancement du J-Term en 2013–14.",
+      "of": "2dc42d5f",
+      "at": [
+        "charlotte-christian:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "Voyages missionnaires à l’étranger",
+      "of": "6b985fa6",
+      "at": [
+        "charlotte-christian:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "Des voyages missionnaires organisés par l’école, avec des enseignants et des élèves, sont allés au Mexique, puis au Costa Rica en 1999 et en Autriche en 2000.",
+      "of": "9de7d4d9",
+      "at": [
+        "charlotte-christian:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "Des familles accueillent des élèves guatémaltèques",
+      "of": "f5ae4cf2",
+      "at": [
+        "charlotte-christian:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "L’échange Faces, devenu plus tard Experiencias Interculturales, a commencé : des lycéens guatémaltèques en visite ont vécu dans des familles de l’école pendant huit semaines et suivi des cours d’Upper School.",
+      "of": "71946e53",
+      "at": [
+        "charlotte-christian:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "31 élèves ont fait du service en République dominicaine.",
+      "of": "c869cd82",
+      "at": [
+        "charlotte-christian:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "Lord of All Nations",
+      "of": "d2c8af54",
+      "at": [
+        "charlotte-christian:milestones.events[3].title"
+      ]
+    },
+    {
+      "t": "Le Multicultural Day de la Lower School a représenté 24 pays.",
+      "of": "d75f5c87",
+      "at": [
+        "charlotte-christian:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "La plus grande délégation de toutes les écoles du pays.",
+      "of": "0092aa02",
+      "at": [
+        "charlotte-christian:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "Lancement du J-Term",
+      "of": "f16d9118",
+      "at": [
+        "charlotte-christian:milestones.events[5].title"
+      ]
+    },
+    {
+      "t": "Une semaine d’expériences obligatoire chaque année d’Upper School, à partir de la promotion 2017, rapportant .25 crédit par an.",
+      "of": "a11068b1",
+      "at": [
+        "charlotte-christian:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "Winterim",
+      "of": "4d5bbcf6",
+      "at": [
+        "charlotte-christian:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "Le Winterim 2023 proposait six voyages à l’étranger.",
+      "of": "266150c9",
+      "at": [
+        "charlotte-christian:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "Les points forts du programme, et onze questions auxquelles le site de l’école ne répond pas encore — coût des voyages, aide, voyages effectivement réalisés et sécurité.",
+      "of": "b6cf535b",
+      "at": [
+        "charlotte-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "Charlotte Christian n’a ni diplôme international ni programme d’échange, mais chaque année d’Upper School comprend le Winterim, et ses brochures publient six à huit voyages à l’étranger par an, chacun avec une tranche de niveaux, une taille de groupe et, pour la plupart, un partenaire missionnaire ou de service.",
+      "of": "0b7af53b",
+      "at": [
+        "charlotte-christian:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "Un Winterim obligatoire chaque année d’Upper School",
+      "of": "e5e7ad7e",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "Des voyages à l’étranger dès la 9e année, publiés avec tranches de niveaux et tailles de groupe",
+      "of": "da24537d",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "Des partenaires missionnaires et de service documentés depuis 2009–10",
+      "of": "24e396fd",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "Trois langues à découvrir en 5e année",
+      "of": "f2bc0c74",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Coût.",
+      "of": "04e0a6c2",
+      "at": [
+        "charlotte-christian:verdict.ask[0].topic",
+        "cannon:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "Combien coûte un voyage du Winterim à l’étranger et que comprend-il, et dans quelle mesure le prix peut-il changer une fois les inscriptions reçues ?",
+      "of": "a591be8f",
+      "at": [
+        "charlotte-christian:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "L’aide financière couvre jusqu’à la moitié des frais de scolarité, et les familles paient l’intégralité des frais annexes. Une aide ou un fonds contribue-t-il aux voyages du Winterim ?",
+      "of": "f5accc6b",
+      "at": [
+        "charlotte-christian:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "9e année.",
+      "of": "aff588b3",
+      "at": [
+        "charlotte-christian:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "La plupart des voyages à l’étranger s’adressent à la 10e–12e ou à la 11e–12e année, et la priorité va au niveau le plus élevé. À quelle fréquence un élève de 9e année obtient-il une place sur l’un d’eux ?",
+      "of": "984891ef",
+      "at": [
+        "charlotte-christian:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "Voyages réalisés.",
+      "of": "37757c77",
+      "at": [
+        "charlotte-christian:verdict.ask[3].topic"
+      ]
+    },
+    {
+      "t": "Les brochures listent les voyages proposés, et l’offre définitive dépend des inscriptions. Quels voyages ont effectivement eu lieu chaque année ?",
+      "of": "1013c7e2",
+      "at": [
+        "charlotte-christian:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "Quels sont les taux d’encadrement, et quelle assurance l’école souscrit-elle ? La brochure oriente les familles vers des assureurs extérieurs.",
+      "of": "e87c69eb",
+      "at": [
+        "charlotte-christian:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "Experiencias Interculturales, l’échange guatémaltèque lancé en 2008, existe-t-il toujours, ou un autre échange est-il proposé ?",
+      "of": "28de2f76",
+      "at": [
+        "charlotte-christian:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Un certificat international, ou le Seal of Biliteracy, est-il proposé à l’échelle de toute l’école ?",
+      "of": "f6594d16",
+      "at": [
+        "charlotte-christian:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "Combien d’élèves partent à l’étranger chaque année ? Aucun chiffre n’est publié.",
+      "of": "16cd4be3",
+      "at": [
+        "charlotte-christian:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Middle School et Lower School.",
+      "of": "d66506a6",
+      "at": [
+        "charlotte-christian:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "Existe-t-il des voyages avant la 9e année ?",
+      "of": "e0867033",
+      "at": [
+        "charlotte-christian:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Le Model UN aujourd’hui.",
+      "of": "69ba852a",
+      "at": [
+        "charlotte-christian:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "À quelles conférences de Model UN l’Upper School participe-t-elle, et va-t-elle toujours au Harvard Model Congress ?",
+      "of": "df0cec1f",
+      "at": [
+        "charlotte-christian:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "Élèves internationaux.",
+      "of": "c4fc7979",
+      "at": [
+        "charlotte-christian:verdict.ask[10].topic",
+        "cannon:verdict.ask[10].topic"
+      ]
+    },
+    {
+      "t": "Combien d’élèves internationaux sont inscrits, et un soutien en langue anglaise est-il proposé ? L’aide financière n’est pas accessible aux élèves titulaires d’un I-20.",
+      "of": "58c47522",
+      "at": [
+        "charlotte-christian:verdict.ask[10].question"
+      ]
+    },
+    {
       "t": "Les voyages commencent en 6e année, organisés par un Office of International Studies que l’école fait remonter à 1988, avec des échanges et des séjours en famille d’accueil auprès d’écoles jumelles à Québec, Arequipa et Southampton, et des voyages d’Upper School encadrés par des enseignants pendant les vacances de printemps et l’été.",
       "of": "155b6937",
       "at": [
@@ -3724,13 +5474,6 @@
       "of": "7644558f",
       "at": [
         "charlotte-country-day:lead.muted"
-      ]
-    },
-    {
-      "t": "pays",
-      "of": "92e99ecd",
-      "at": [
-        "charlotte-country-day:stats[0].label"
       ]
     },
     {
@@ -3947,15 +5690,6 @@
       "at": [
         "charlotte-country-day:trips.years[0].trips[3].homestay",
         "charlotte-country-day:milestones.events[3].title"
-      ]
-    },
-    {
-      "t": "Costa Rica",
-      "of": "4a26cbe8",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest",
-        "cannon:trips.years[0].trips[1].dest",
-        "cannon:trips.years[1].trips[0].dest"
       ]
     },
     {
@@ -4678,13 +6412,6 @@
       ]
     },
     {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:start.divisions[0].grades"
-      ]
-    },
-    {
       "t": "Le français et l’espagnol commencent entre la junior kindergarten et la 1re année",
       "of": "e41b23f3",
       "at": [
@@ -4703,14 +6430,6 @@
       "of": "42a86f07",
       "at": [
         "charlotte-country-day:start.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
       ]
     },
     {
@@ -4802,13 +6521,6 @@
       "of": "2be7c7bd",
       "at": [
         "charlotte-country-day:network.conferences[1].text"
-      ]
-    },
-    {
-      "t": "Academic WorldQuest",
-      "of": "135cbfac",
-      "at": [
-        "charlotte-country-day:network.cells[0].name"
       ]
     },
     {
@@ -5115,13 +6827,6 @@
       ]
     },
     {
-      "t": "Cuba",
-      "of": "f2388c8c",
-      "at": [
-        "charlotte-country-day:milestones.events[9].title"
-      ]
-    },
-    {
       "t": "La première école de l’État à envoyer des élèves à Cuba.",
       "of": "51e2f1ce",
       "at": [
@@ -5413,13 +7118,6 @@
       "of": "9ca94966",
       "at": [
         "cannon:trips.years[0].noteByDiv.MS"
-      ]
-    },
-    {
-      "t": "République dominicaine",
-      "of": "efe03871",
-      "at": [
-        "cannon:trips.years[0].trips[0].dest"
       ]
     },
     {
@@ -5920,13 +7618,6 @@
       ]
     },
     {
-      "t": "Coût.",
-      "of": "04e0a6c2",
-      "at": [
-        "cannon:verdict.ask[2].topic"
-      ]
-    },
-    {
       "t": "Combien coûte un voyage, et que comprend-il ? Aucun prix de voyage n’est publié.",
       "of": "50cea9fe",
       "at": [
@@ -6001,13 +7692,6 @@
       "of": "bf7a2408",
       "at": [
         "cannon:verdict.ask[9].question"
-      ]
-    },
-    {
-      "t": "Élèves internationaux.",
-      "of": "c4fc7979",
-      "at": [
-        "cannon:verdict.ask[10].topic"
       ]
     },
     {
