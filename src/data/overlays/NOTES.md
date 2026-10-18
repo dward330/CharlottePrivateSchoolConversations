@@ -3131,3 +3131,27 @@ International & the Winterim Mission Partners". 227 strings × 9 locales, splice
 - **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English or stamps mutated,
   0 existing `t` overwritten, 227 added, all under `charlotte-christian:*`, 0 empty, 0 bidi
   controls, 0 foreign-script.
+- **pdswitzerland (2026-10-18) — Providence Day's summer 2027 Switzerland Middle School
+  trip.** 13 strings × 9 locales, spliced by stamp (7 dropped per locale, all edited Phase 1
+  English; 1061 → 1067 entries). The two restored financial-aid rows were dropped at the
+  pdtrips2027 review before that plan's Phase 2, so they had no earlier translation to reuse.
+  - **The quoted title stays verbatim English** in all nine, with each locale's usual quote
+    marks around it, which match its Japan-row precedent (fr « », it “ ”).
+  - **"design thinking" is a loanword in es and it**, and is translated elsewhere (fr
+    *pensée design*, ht *panse konsepsyon*). bn writes it as a loanword in Bangla script
+    (*ডিজাইন থিংকিং*).
+  - **Einstein** is localized in fa (*اینشتین*) and kept Latin in bn, te, hi and ar. No
+    locale had a precedent.
+  - **"Financial aid award decisions due" is ambiguous in English** (whose decision?). es
+    and fr read it as the family's reply deadline (*Vence la respuesta…*, *Date limite de
+    réponse…*); the other locales stay neutral. ht's award-letters row adds *voye bay fanmi
+    yo* ("sent to families"), following its glossary row for the trip status letters.
+  - **New transliterations with no precedent:** Winterthur (bn *ভিন্টারটুর*, te
+    *వింటర్‌థర్*, hi *विंटरथुर*, fa *وینترتور*, ar *فينترتور*, fr *Winterthour*).
+  - **RTL:** no fa or ar entry puts a digit right after Latin text. fa and ar store zero
+    bidi controls.
+  - **The Verdict headline (`verdict.headline`) is not rendered on the page** in any
+    locale, English included. It is translated anyway, so the overlay stays complete.
+  - **`i18n:leaks`:** nothing new. The only flag on an edited path is the existing
+    `Global Trips` keep.
+  - **No new soft spot beyond the items above.**
