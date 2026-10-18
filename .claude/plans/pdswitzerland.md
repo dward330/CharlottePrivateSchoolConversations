@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-10-18
 branch: feat/pdswitzerland
-prs: []
+prs: [353]
 ---
 
 # Providence Day — the 2027 Switzerland Middle School trip
