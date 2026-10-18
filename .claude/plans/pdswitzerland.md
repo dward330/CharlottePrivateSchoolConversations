@@ -1,7 +1,7 @@
 ---
 name: pdswitzerland
 title: Add Providence Day's summer 2027 Middle School trip to Switzerland to Global Exposure
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-18
 branch: feat/pdswitzerland
@@ -372,3 +372,17 @@ list first, because it can grow.
       sees only entries already on its base ref.
 - [ ] Browser check in `es`, `fa` and `ar`: the Switzerland row, the Signing Up audience and
       the 8 questions all render translated.
+
+## Implementation notes
+
+- **Phase 2:** the work files were updated by stamp with 7 dropped and 13 added per locale, as
+  predicted. The two restored financial-aid rows had **no earlier translation to reuse**:
+  `git log -S` shows they were dropped at the pdtrips2027 review before that plan's Phase 2
+  ran. They were translated fresh.
+- **`verdict.headline` is not rendered on the page** in any locale, English included. It was
+  translated anyway so the overlay stays complete.
+- **`check_work_integrity` reports one "violation" per locale.** It is the entry count moving
+  from 1061 to 1067, which that script cannot validate on a splice. No translation was lost
+  or overwritten.
+- The judgment calls are recorded in the Global Exposure section of
+  `src/data/overlays/NOTES.md`.
