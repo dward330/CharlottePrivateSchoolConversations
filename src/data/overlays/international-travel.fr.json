@@ -74,8 +74,8 @@
       ]
     },
     {
-      "t": "Dix-huit voyages à l’étranger sur les années scolaires 2022–23 à 2026–27 — dont trois voyages d’Upper School prévus pour l’été 2027 — des conférences et projets de service Round Square aux voyages d’immersion linguistique avec séjour en famille d’accueil, en passant par des expéditions scientifiques. Filtrez par division.",
-      "of": "78f376d3",
+      "t": "Dix-neuf voyages à l’étranger sur les années scolaires 2022–23 à 2026–27 — dont quatre voyages prévus pour l’été 2027, trois d’Upper School et un de Middle School — des conférences et projets de service Round Square aux voyages d’immersion linguistique avec séjour en famille d’accueil, en passant par des expéditions scientifiques. Filtrez par division.",
+      "of": "eccb018e",
       "at": [
         "providence-day:trips.headline"
       ]
@@ -195,6 +195,34 @@
       "at": [
         "providence-day:trips.years[0].trips[2].homestay",
         "providence-day:trips.years[4].trips[2].homestay"
+      ]
+    },
+    {
+      "t": "Suisse",
+      "of": "9bcbf122",
+      "at": [
+        "providence-day:trips.years[0].trips[3].dest"
+      ]
+    },
+    {
+      "t": "Zurich, Genève, Berne + Winterthour — « Explorers of the Invisible: Physics, Peace, & Swiss Precision »",
+      "of": "e7b5c2a9",
+      "at": [
+        "providence-day:trips.years[0].trips[3].place"
+      ]
+    },
+    {
+      "t": "niveaux 6–8",
+      "of": "943db2f0",
+      "at": [
+        "providence-day:trips.years[0].trips[3].group"
+      ]
+    },
+    {
+      "t": "Physique, ingénierie et pensée design · une visite prévue au CERN, Technorama · Einstein",
+      "of": "f9442cf9",
+      "at": [
+        "providence-day:trips.years[0].trips[3].theme"
       ]
     },
     {
@@ -786,8 +814,8 @@
       ]
     },
     {
-      "t": "**Premiers voyages à l’étranger :** la Grèce (été 2024), les Galápagos (2024–25), une conférence Round Square en Angleterre (2024–25)",
-      "of": "d799bba9",
+      "t": "**Premiers voyages à l’étranger :** la Grèce (été 2024), les Galápagos (2024–25), une conférence Round Square en Angleterre (2024–25), et la Suisse, prévue pour l’été 2027",
+      "of": "fc15856a",
       "at": [
         "providence-day:start.divisions[1].items[0]"
       ]
@@ -1415,8 +1443,8 @@
       ]
     },
     {
-      "t": "Les deux premiers événements liés aux voyages figurent au calendrier Global Education de l’école ; les autres échéances proviennent des pages des voyages 2027 et ne figurent pas encore au calendrier. Les voyages internationaux s’adressent aux élèves de Middle School et d’Upper School ; les événements du GSD s’adressent aux élèves d’Upper School inscrits au programme, qui le commencent généralement en 9e année. Les trois voyages 2027 publiés sont réservés à l’Upper School, aux élèves en niveaux 9–11 au moment de l’inscription. Un acompte non remboursable est dû à l’inscription, et le solde peut être réglé en une fois ou en deux versements. Les voyages au Japon et en Islande accueillent de 10 à 16 élèves et celui en France de 8 à 14, avec une liste d’attente au-delà. Une aide financière limitée est disponible pour un voyage international au cours de la scolarité d’un élève à Providence Day.",
-      "of": "81b008de",
+      "t": "Les deux premiers événements liés aux voyages figurent au calendrier Global Education de l’école ; les autres échéances proviennent des pages des voyages 2027 et ne figurent pas encore au calendrier. Les voyages internationaux s’adressent aux élèves de Middle School et d’Upper School ; les événements du GSD s’adressent aux élèves d’Upper School inscrits au programme, qui le commencent généralement en 9e année. Sur les quatre voyages 2027 publiés, ceux au Japon, en Islande et en France s’adressent aux élèves en niveaux 9–11 au moment de l’inscription, et celui en Suisse aux niveaux 6–8. Un acompte non remboursable est dû à l’inscription, et le solde peut être réglé en une fois ou en deux versements. Les voyages au Japon et en Islande accueillent de 10 à 16 élèves, celui en Suisse de 10 à 14 et celui en France de 8 à 14, avec une liste d’attente au-delà. Une aide financière limitée est disponible pour un voyage international au cours de la scolarité d’un élève à Providence Day.",
+      "of": "f435c5a5",
       "at": [
         "providence-day:signup.intro.muted"
       ]
@@ -1495,70 +1523,101 @@
       ]
     },
     {
-      "t": "Upper School · niveaux 9–11",
-      "of": "a8f782fe",
+      "t": "Middle School et Upper School · niveaux 6–11",
+      "of": "853c23ba",
       "at": [
         "providence-day:signup.groups[0].events[2].audience",
         "providence-day:signup.groups[0].events[3].audience",
         "providence-day:signup.groups[0].events[4].audience",
         "providence-day:signup.groups[0].events[5].audience",
-        "providence-day:signup.groups[0].events[6].audience"
+        "providence-day:signup.groups[0].events[6].audience",
+        "providence-day:signup.groups[0].events[7].audience",
+        "providence-day:signup.groups[0].events[8].audience"
+      ]
+    },
+    {
+      "t": "13 novembre 2026",
+      "of": "2fa2ef97",
+      "at": [
+        "providence-day:signup.groups[0].events[3].when",
+        "charlotte-latin:signup.groups[1].events[0].when"
+      ]
+    },
+    {
+      "t": "Envoi des lettres d’attribution d’aide financière",
+      "of": "950a1da8",
+      "at": [
+        "providence-day:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "16 novembre 2026",
+      "of": "735e3158",
+      "at": [
+        "providence-day:signup.groups[0].events[4].when"
+      ]
+    },
+    {
+      "t": "Date limite de réponse aux décisions d’aide financière",
+      "of": "b02f9dce",
+      "at": [
+        "providence-day:signup.groups[0].events[4].name"
       ]
     },
     {
       "t": "19 novembre 2026",
       "of": "e979ce05",
       "at": [
-        "providence-day:signup.groups[0].events[3].when"
+        "providence-day:signup.groups[0].events[5].when"
       ]
     },
     {
       "t": "Envoi aux familles des lettres sur le statut des voyages",
       "of": "89745092",
       "at": [
-        "providence-day:signup.groups[0].events[3].name"
+        "providence-day:signup.groups[0].events[5].name"
       ]
     },
     {
       "t": "1er décembre 2026",
       "of": "a77e03d3",
       "at": [
-        "providence-day:signup.groups[0].events[4].when"
+        "providence-day:signup.groups[0].events[6].when"
       ]
     },
     {
       "t": "Date limite du premier versement",
       "of": "beb12695",
       "at": [
-        "providence-day:signup.groups[0].events[4].name"
+        "providence-day:signup.groups[0].events[6].name"
       ]
     },
     {
       "t": "25 janvier 2027",
       "of": "ed0cbd43",
       "at": [
-        "providence-day:signup.groups[0].events[5].when"
+        "providence-day:signup.groups[0].events[7].when"
       ]
     },
     {
       "t": "Date limite de remise des formulaires de voyage PDS",
       "of": "312c178b",
       "at": [
-        "providence-day:signup.groups[0].events[5].name"
+        "providence-day:signup.groups[0].events[7].name"
       ]
     },
     {
       "t": "1er février 2027",
       "of": "57b92f01",
       "at": [
-        "providence-day:signup.groups[0].events[6].when"
+        "providence-day:signup.groups[0].events[8].when"
       ]
     },
     {
       "t": "Date limite du second versement",
       "of": "9cfc4389",
       "at": [
-        "providence-day:signup.groups[0].events[6].name"
+        "providence-day:signup.groups[0].events[8].name"
       ]
     },
     {
@@ -1899,8 +1958,8 @@
       ]
     },
     {
-      "t": "Les points forts du programme, et neuf questions auxquelles le site de l’école ne répond pas encore — niveau de départ, voyages de Middle School, aide et sécurité.",
-      "of": "f66b307b",
+      "t": "Les points forts du programme, et huit questions auxquelles le site de l’école ne répond pas encore — voyages de Middle School, aide, sélection et sécurité.",
+      "of": "f11dd675",
       "at": [
         "providence-day:verdict.headline"
       ]
@@ -1941,39 +2000,24 @@
       ]
     },
     {
-      "t": "Niveau de départ.",
-      "of": "885235a8",
-      "at": [
-        "providence-day:verdict.ask[0].topic",
-        "cannon:verdict.ask[0].topic"
-      ]
-    },
-    {
-      "t": "Quel est le niveau minimal admis pour un voyage international ? Les voyages de Middle School sont-ils ouverts aux élèves de 6e année, ou seulement à ceux de 7e–8e année ?",
-      "of": "f0bdaffa",
-      "at": [
-        "providence-day:verdict.ask[0].question"
-      ]
-    },
-    {
       "t": "Voyages de Middle School.",
       "of": "efbecefe",
       "at": [
-        "providence-day:verdict.ask[1].topic"
+        "providence-day:verdict.ask[0].topic"
       ]
     },
     {
-      "t": "Quels voyages de Middle School sont proposés pour 2026–27 et l’été 2027 ? Les pages publiées des voyages 2027 concernent toutes l’Upper School, niveaux 9–11.",
-      "of": "aecd5ec3",
+      "t": "La Suisse est le seul voyage de Middle School publié pour l’été 2027. D’autres voyages de Middle School ou une conférence Round Square de Middle School sont-ils prévus pour 2026–27 ?",
+      "of": "870a993b",
       "at": [
-        "providence-day:verdict.ask[1].question"
+        "providence-day:verdict.ask[0].question"
       ]
     },
     {
       "t": "Aide.",
       "of": "b17a4d3d",
       "at": [
-        "providence-day:verdict.ask[2].topic",
+        "providence-day:verdict.ask[1].topic",
         "charlotte-latin:verdict.ask[5].topic",
         "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
@@ -1984,28 +2028,28 @@
       "t": "L’aide aux voyages est limitée et couvre un seul voyage international par élève. Quelle part couvre une aide type, et les fonds de dotation listés sous « Financial Assistance Beyond Tuition » (Murdock, Latchwood, Bhandari Mehta) y contribuent-ils ?",
       "of": "63836323",
       "at": [
-        "providence-day:verdict.ask[2].question"
+        "providence-day:verdict.ask[1].question"
       ]
     },
     {
       "t": "Jordanie.",
       "of": "1e0264d3",
       "at": [
-        "providence-day:verdict.ask[3].topic"
+        "providence-day:verdict.ask[2].topic"
       ]
     },
     {
       "t": "Comment les élèves sont-ils sélectionnés pour le voyage en Jordanie financé par le fonds Daher ? Quels niveaux sont éligibles, quand a-t-il lieu, et est-il entièrement financé ?",
       "of": "6fb9373e",
       "at": [
-        "providence-day:verdict.ask[3].question"
+        "providence-day:verdict.ask[2].question"
       ]
     },
     {
       "t": "Sélection.",
       "of": "92b0d001",
       "at": [
-        "providence-day:verdict.ask[4].topic",
+        "providence-day:verdict.ask[3].topic",
         "charlotte-country-day:verdict.ask[2].topic",
         "cannon:verdict.ask[4].topic"
       ]
@@ -2014,14 +2058,14 @@
       "t": "Les inscriptions sont examinées par un Global Education Travel Committee. Lorsqu’un voyage est surchargé de demandes, comment les places sont-elles attribuées ? Comment les délégués Round Square sont-ils choisis ?",
       "of": "a2956585",
       "at": [
-        "providence-day:verdict.ask[4].question"
+        "providence-day:verdict.ask[3].question"
       ]
     },
     {
       "t": "Sécurité.",
       "of": "925b432b",
       "at": [
-        "providence-day:verdict.ask[5].topic",
+        "providence-day:verdict.ask[4].topic",
         "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
         "cannon:verdict.ask[5].topic"
@@ -2031,14 +2075,14 @@
       "t": "Chaque voyage 2027 compte deux responsables de voyage d’études de PD, le partenaire de voyage Envoys et une assurance médicale d’urgence et de rapatriement. Quels sont les protocoles d’urgence, et qui gère les besoins médicaux pendant le voyage ?",
       "of": "aa88b5c4",
       "at": [
-        "providence-day:verdict.ask[5].question"
+        "providence-day:verdict.ask[4].question"
       ]
     },
     {
       "t": "Échanges.",
       "of": "3b61cee5",
       "at": [
-        "providence-day:verdict.ask[6].topic",
+        "providence-day:verdict.ask[5].topic",
         "charlotte-christian:verdict.ask[5].topic"
       ]
     },
@@ -2046,28 +2090,28 @@
       "t": "Comment les familles postulent-elles aux échanges Round Square ? Les familles d’accueil sont-elles tenues d’accueillir à leur tour ?",
       "of": "b86305ff",
       "at": [
-        "providence-day:verdict.ask[6].question"
+        "providence-day:verdict.ask[5].question"
       ]
     },
     {
       "t": "GSD.",
       "of": "8fc75c0d",
       "at": [
-        "providence-day:verdict.ask[7].topic"
+        "providence-day:verdict.ask[6].topic"
       ]
     },
     {
       "t": "Un seul voyage suffit-il à remplir l’exigence de voyage ? Existe-t-il une aide au voyage propre au GSD ?",
       "of": "28117a3d",
       "at": [
-        "providence-day:verdict.ask[7].question"
+        "providence-day:verdict.ask[6].question"
       ]
     },
     {
       "t": "Ampleur.",
       "of": "b8f5ed2d",
       "at": [
-        "providence-day:verdict.ask[8].topic",
+        "providence-day:verdict.ask[7].topic",
         "charlotte-latin:verdict.ask[7].topic",
         "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
@@ -2078,7 +2122,7 @@
       "t": "Combien d’élèves voyagent à l’étranger chaque année, et quelle part de chaque niveau cela représente-t-il ?",
       "of": "c588ed4f",
       "at": [
-        "providence-day:verdict.ask[8].question"
+        "providence-day:verdict.ask[7].question"
       ]
     },
     {
@@ -3017,13 +3061,6 @@
       "of": "eb9055c8",
       "at": [
         "charlotte-latin:signup.groups[1].title"
-      ]
-    },
-    {
-      "t": "13 novembre 2026",
-      "of": "2fa2ef97",
-      "at": [
-        "charlotte-latin:signup.groups[1].events[0].when"
       ]
     },
     {
@@ -7594,6 +7631,13 @@
       "of": "ef80b425",
       "at": [
         "cannon:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Niveau de départ.",
+      "of": "885235a8",
+      "at": [
+        "cannon:verdict.ask[0].topic"
       ]
     },
     {
