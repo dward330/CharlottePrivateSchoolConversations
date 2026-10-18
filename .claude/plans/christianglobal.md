@@ -1,11 +1,11 @@
 ---
 name: christianglobal
 title: Add Charlotte Christian School to Global Exposure — seven cards (exchanges and credential omitted; network retitled "SCORE International & the Winterim Mission Partners"), 29 Winterim trips abroad over four school years from the school's own Winterim packets; no prices or exact travel dates on the page
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-16
 branch: feat/christianglobal
-prs: []
+prs: [352]
 ---
 
 # Charlotte Christian School — Global Exposure
@@ -762,3 +762,28 @@ Then the research prose, per `PROSE_TRANSLATED`. The mechanism is in
   crayon drive is omitted; the sign-up card ships as the `2026 cycle`; all five years stay in
   the ledger.
 
+
+**Phase 2 (locales), 2026-10-17. PR #352.**
+
+- **Splice:** 834 kept, 227 added, **0 dropped** in all nine locales. Nine parallel
+  translators each wrote a stamp → translation map to a private scratch directory, and
+  the maps were applied centrally by stamp. The first run hit the weekly usage limit before
+  writing anything; the re-run completed.
+- **Goal names needed no decision.** The five Winterim goal names are not extracted
+  (skipped as proper names, like Country Day's framework), so they render English as the
+  default intended.
+- **Cross-locale fixes:**
+  - The two quoted school sentences are kept verbatim in English in all nine locales, per
+    every rollout doc; es/fr/it/ht/ar had translated them and hi had added a gloss.
+  - "Lord of All Nations" stays English everywhere (es/bn had translated it).
+- **fa bidi fix the plan did not anticipate.** In fa, a digit-led sentence after a
+  Latin-ending lead joins the lead's LTR run, so three rows drew wrong. Two read
+  `31 دانش‌آموز…` after a SCORE lead and one read `J-Term، 40 نفر`. All three were
+  restructured so the digit follows Persian text (*در آن سال 31…*, *جمعاً 40*). This was
+  verified by glyph x-position in real Chrome; ar was clean.
+- **Left as is:** short grade ranges (`10–12`) draw in RTL order in fa/ar on every
+  school (Providence Day 16/18, Country Day 11/13). It is a site-wide render question,
+  recorded in NOTES.
+- **Process slip:** a mid-audit `npm run build` replaced `dist/` and killed the first
+  `audit:daterender`/`audit:moneyrender` run. Both were re-run clean against the final
+  build.
