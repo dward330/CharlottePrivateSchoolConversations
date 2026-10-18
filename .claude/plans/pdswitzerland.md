@@ -1,7 +1,7 @@
 ---
 name: pdswitzerland
 title: Add Providence Day's summer 2027 Middle School trip to Switzerland to Global Exposure
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-18
 branch: feat/pdswitzerland

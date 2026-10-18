@@ -1596,6 +1596,27 @@ lists only "Global Trip Registration Opens" (Oct 16) and "Global Trips Virtual I
 Session" (Oct 22). None of the 2027 trip-page deadlines (Nov 2, Nov 19, Dec 1, Jan 25,
 Feb 1) appear on it, so the Signing Up intro says those come from the trip pages.
 
+### 2027 Switzerland Middle School trip (fetched 2026-10-18)
+
+One Middle School trip page, verified live 2026-10-18 (reads "Register Now"). Verbatim text
+is in `Providence Day - International Travel - 2027 Switzerland Middle School Trip.md`. The
+slug says `2026`; the trip runs June 5–11, 2027 (school year 2026–27). It is the only `-ms`
+trip page found: every other `<dest>-2026-ms` slug tried on 2026-10-18 returned 404.
+
+| Fact rendered | Source (fetched 2026-10-18) | Where in the app |
+|---|---|---|
+| Switzerland, "Explorers of the Invisible: Physics, Peace, & Swiss Precision" — Zurich, Geneva, Bern, Winterthur; current 6-8 grade students | https://www.providenceday.org/switzerland-2026-ms | Where They Go (2026–27 row, `div: 'MS'`, `grades 6–8`), When Your Child Can Start (Middle School), Signing Up intro |
+| Physics, earth science, engineering and design thinking; CERN visit "(pending availability)"; Swiss Science Center Technorama (Winterthur); Einstein in Zurich's Old Town and the Bern Historical Museum | https://www.providenceday.org/switzerland-2026-ms | Where They Go (theme — "a planned CERN visit") |
+| Minimum 10, maximum 14 students; waitlist after the enrollment limit | https://www.providenceday.org/switzerland-2026-ms | Signing Up intro |
+| Dates-and-deadlines table (Oct 16, Nov 2, Nov 13, Nov 16, Nov 19, Dec 1 2026; Jan 25, Feb 1 2027) — **identical to the three Upper School pages** | https://www.providenceday.org/switzerland-2026-ms | Signing Up, Global Trips column (audience widened to grades 6–11; Nov 13 and Nov 16 aid rows restored) |
+| Two trained PDS study tour leaders, travel partner Envoys, international emergency medical and evacuation insurance; limited financial assistance toward one global trip — same terms as the Upper School pages | https://www.providenceday.org/switzerland-2026-ms | Verdict (Safety, Aid) |
+| Only Middle School trip published for summer 2027 | the page above + the 404 sweep | Verdict (Middle School trips) |
+
+**Not rendered.** The cost ($4800 + flight, estimated $1350), the $1000 deposit, the exact
+dates (June 5 - June 11, 2027) and the study tour leaders' names — per the 2026-10-12
+privacy rule. Geneva's UN, WHO and Red Cross are left out of the row because the page says
+students explore only "the outside of" those buildings.
+
 ## Community & Milestones verification (2026-10-13, /implement pdcommunity)
 
 Checked the leads in `Providence Day - International Travel - Community and Milestones Deep Research.md`

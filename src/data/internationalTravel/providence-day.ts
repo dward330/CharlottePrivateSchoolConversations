@@ -54,11 +54,12 @@ const LS_WAYBACK =
   'https://web.archive.org/web/20260421200148/https://www.providenceday.org/lower-school/global-education'
 const US_WAYBACK =
   'https://web.archive.org/web/20260421204110/https://www.providenceday.org/upper-school/global-education'
-// The three summer 2027 Upper School trips. The slugs say 2026, but the trips run
-// in summer 2027 (school year 2026–27).
+// The four summer 2027 trips (three Upper School, one Middle School). The slugs say
+// 2026, but the trips run in summer 2027 (school year 2026–27).
 const TRIP_JAPAN_27 = 'https://www.providenceday.org/japan-2026-us'
 const TRIP_ICELAND_27 = 'https://www.providenceday.org/iceland-2026-us'
 const TRIP_FRANCE_27 = 'https://www.providenceday.org/france-2026-us'
+const TRIP_SWITZERLAND_27 = 'https://www.providenceday.org/switzerland-2026-ms'
 
 export const providenceDay: InternationalTravelProgram = {
   lead: {
@@ -94,7 +95,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------- where they go -- */
   trips: {
     headline:
-      'Eighteen trips abroad across the 2022–23 to 2026–27 school years — including three Upper School trips planned for summer 2027 — from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Filter by division.',
+      'Nineteen trips abroad across the 2022–23 to 2026–27 school years — including four trips planned for summer 2027, three in Upper School and one in Middle School — from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Filter by division.',
     intro: {
       strong:
         'Trips run from one-week conferences to summer immersions, with groups of 2 to 16 students.',
@@ -127,6 +128,13 @@ export const providenceDay: InternationalTravelProgram = {
             group: 'grades 9–11',
             theme: 'Exchange week with host families, then Paris · no French required',
             homestay: 'Montpellier',
+          },
+          {
+            dest: 'Switzerland',
+            place: 'Zurich, Geneva, Bern + Winterthur — "Explorers of the Invisible: Physics, Peace, & Swiss Precision"',
+            div: 'MS',
+            group: 'grades 6–8',
+            theme: 'Physics, engineering and design thinking · a planned CERN visit, Technorama · Einstein',
           },
         ],
       },
@@ -291,6 +299,7 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
       { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
       { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
+      { label: 'providenceday.org — Switzerland trip, 2027', url: TRIP_SWITZERLAND_27 },
       { label: 'providenceday.org — Why Providence Day (photo, travel options)', url: ADM },
       { label: 'providenceday.org — Endowment', url: ENDOW },
       { label: 'providenceday.org — 2014 news post', url: NEWS_2014 },
@@ -330,7 +339,7 @@ export const providenceDay: InternationalTravelProgram = {
         grades: '6–8',
         theme: 'Exploration + Connection',
         items: [
-          '**First trips abroad:** Greece (summer 2024), the Galápagos (2024–25), a Round Square conference in England (2024–25)',
+          '**First trips abroad:** Greece (summer 2024), the Galápagos (2024–25), a Round Square conference in England (2024–25), and Switzerland, planned for summer 2027',
           'A Middle School Round Square conference in Atlanta (2023–24), and trips to Arizona, California and Hawaii',
           'An 8th-grade Global Perspectives course',
         ],
@@ -362,6 +371,7 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'Lower School Global Education (Wayback, Apr 2026)', url: LS_WAYBACK },
       { label: 'providenceday.org — Lower School Round Square news', url: LS_NEWS },
       { label: 'providenceday.org — Middle School Global Education', url: MS },
+      { label: 'providenceday.org — Switzerland trip, 2027', url: TRIP_SWITZERLAND_27 },
       { label: 'providenceday.org — Upper School Global Education', url: US },
       { label: 'providenceday.org — Global Map', url: MAP },
       { label: 'providenceday.org — Why Providence Day', url: ADM },
@@ -540,7 +550,7 @@ export const providenceDay: InternationalTravelProgram = {
       strong:
         'Registration for global trips opens October 16, 2026, and closes November 2, when the nonrefundable deposit and any financial aid application are also due.',
       muted:
-        'The first two trip events are on the school\'s Global Education calendar; the other deadlines come from the 2027 trip pages and are not on the calendar yet. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. The three published 2027 trips are Upper School only, for students in grades 9–11 when they register. A nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
+        'The first two trip events are on the school\'s Global Education calendar; the other deadlines come from the 2027 trip pages and are not on the calendar yet. Global trips are for Middle and Upper School students; the GSD events are for Upper School students in the program, who typically begin it in 9th grade. Of the four published 2027 trips, Japan, Iceland and France are for students in grades 9–11 when they register, and Switzerland is for grades 6–8. A nonrefundable deposit is due at registration, and the balance can be paid in full or in two installments. Japan and Iceland take 10 to 16 students, Switzerland 10 to 14 and France 8 to 14, with a waitlist after that. Limited financial aid is available toward one global trip during a student\'s time at Providence Day.',
     },
     groups: [
       {
@@ -561,27 +571,37 @@ export const providenceDay: InternationalTravelProgram = {
           {
             when: 'November 2, 2026',
             name: 'Registration, nonrefundable deposit and financial aid application due',
-            audience: 'Upper School · grades 9–11',
+            audience: 'Middle & Upper School · grades 6–11',
+          },
+          {
+            when: 'November 13, 2026',
+            name: 'Financial aid award letters sent',
+            audience: 'Middle & Upper School · grades 6–11',
+          },
+          {
+            when: 'November 16, 2026',
+            name: 'Financial aid award decisions due',
+            audience: 'Middle & Upper School · grades 6–11',
           },
           {
             when: 'November 19, 2026',
             name: 'Trip status letters sent to families',
-            audience: 'Upper School · grades 9–11',
+            audience: 'Middle & Upper School · grades 6–11',
           },
           {
             when: 'December 1, 2026',
             name: 'First payment due',
-            audience: 'Upper School · grades 9–11',
+            audience: 'Middle & Upper School · grades 6–11',
           },
           {
             when: 'January 25, 2027',
             name: 'PDS travel forms due',
-            audience: 'Upper School · grades 9–11',
+            audience: 'Middle & Upper School · grades 6–11',
           },
           {
             when: 'February 1, 2027',
             name: 'Second payment due',
-            audience: 'Upper School · grades 9–11',
+            audience: 'Middle & Upper School · grades 6–11',
           },
         ],
       },
@@ -608,6 +628,7 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
       { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
       { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
+      { label: 'providenceday.org — Switzerland trip, 2027', url: TRIP_SWITZERLAND_27 },
     ],
   },
 
@@ -736,7 +757,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* --------------------------------------------- verdict & ask the school -- */
   verdict: {
     headline:
-      "Where the program stands out, and nine questions the school's website doesn't answer yet — starting grade, Middle School trips, aid and safety.",
+      "Where the program stands out, and eight questions the school's website doesn't answer yet — Middle School trips, aid, selection and safety.",
     standsOut: {
       summary:
         'Among Charlotte private schools, Providence Day stands out for its credential (the GSD), its Round Square network and the breadth of its reciprocal exchanges.',
@@ -749,14 +770,9 @@ export const providenceDay: InternationalTravelProgram = {
     },
     ask: [
       {
-        topic: 'Starting grade.',
-        question:
-          'What is the earliest grade allowed on an international trip? Are Middle School trips open to 6th graders, or only 7th–8th?',
-      },
-      {
         topic: 'Middle School trips.',
         question:
-          'Which Middle School trips are offered for 2026–27 and summer 2027? The published 2027 trip pages are all Upper School, grades 9–11.',
+          'Switzerland is the only Middle School trip published for summer 2027. Are other Middle School trips or a Middle School Round Square conference planned for 2026–27?',
       },
       {
         topic: 'Aid.',
@@ -800,6 +816,7 @@ export const providenceDay: InternationalTravelProgram = {
       { label: 'providenceday.org — Japan trip, 2027', url: TRIP_JAPAN_27 },
       { label: 'providenceday.org — Iceland trip, 2027', url: TRIP_ICELAND_27 },
       { label: 'providenceday.org — France trip, 2027', url: TRIP_FRANCE_27 },
+      { label: 'providenceday.org — Switzerland trip, 2027', url: TRIP_SWITZERLAND_27 },
     ],
   },
 }
