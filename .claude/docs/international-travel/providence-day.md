@@ -1,5 +1,5 @@
 # Providence Day School — Global Exposure
-> Distilled from 4 source document(s) in `source-material/international-travel/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-13.
+> Distilled from 4 source document(s) in `source-material/international-travel/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-16.
 **Documents:** 2027 Global Trips, Community and Milestones Deep Research, Deep Research, Source URLs
 
 

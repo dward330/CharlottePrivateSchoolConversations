@@ -142,6 +142,8 @@
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
         "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-christian:trips.years[0].trips[3].dest",
+        "charlotte-christian:trips.years[3].trips[3].dest",
         "charlotte-country-day:trips.years[2].trips[1].dest"
       ]
     },
@@ -275,6 +277,7 @@
         "charlotte-latin:trips.years[0].trips[6].dest",
         "charlotte-latin:trips.years[2].trips[2].dest",
         "charlotte-latin:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[3].dest",
         "charlotte-country-day:trips.years[1].trips[1].dest",
         "charlotte-country-day:exchanges.partners[1].country"
@@ -305,7 +308,8 @@
       "t": "Ekwatè",
       "of": "5cb016c8",
       "at": [
-        "providence-day:trips.years[2].trips[2].dest"
+        "providence-day:trips.years[2].trips[2].dest",
+        "charlotte-christian:trips.years[3].trips[2].dest"
       ]
     },
     {
@@ -477,6 +481,7 @@
       "of": "cbef70fa",
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[0].dest",
         "charlotte-country-day:trips.years[0].trips[7].dest"
       ]
     },
@@ -807,6 +812,7 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
+        "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
         "cannon:start.divisions[2].grades"
       ]
@@ -1969,6 +1975,7 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
         "cannon:verdict.ask[3].topic"
       ]
@@ -2015,6 +2022,7 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
         "cannon:verdict.ask[5].topic"
       ]
@@ -2030,7 +2038,8 @@
       "t": "Echanj.",
       "of": "3b61cee5",
       "at": [
-        "providence-day:verdict.ask[6].topic"
+        "providence-day:verdict.ask[6].topic",
+        "charlotte-christian:verdict.ask[5].topic"
       ]
     },
     {
@@ -2060,6 +2069,7 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
+        "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
         "cannon:verdict.ask[9].topic"
       ]
@@ -2263,6 +2273,8 @@
         "charlotte-latin:trips.years[2].trips[4].dest",
         "charlotte-latin:exchanges.partners[3].country",
         "charlotte-latin:milestones.events[3].title",
+        "charlotte-christian:trips.years[0].trips[4].dest",
+        "charlotte-christian:trips.years[2].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[5].dest",
         "charlotte-country-day:trips.years[2].trips[0].dest"
       ]
@@ -2373,6 +2385,8 @@
       "at": [
         "charlotte-latin:trips.years[0].trips[7].dest",
         "charlotte-latin:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[0].trips[1].dest",
+        "charlotte-christian:trips.years[2].trips[4].dest",
         "charlotte-country-day:trips.years[0].trips[0].dest",
         "charlotte-country-day:exchanges.partners[0].country"
       ]
@@ -2497,6 +2511,7 @@
       "at": [
         "charlotte-latin:trips.years[2].trips[1].place",
         "charlotte-latin:milestones.events[8].title",
+        "charlotte-christian:trips.years[0].trips[1].place",
         "charlotte-country-day:milestones.events[10].title"
       ]
     },
@@ -2857,6 +2872,7 @@
       "of": "7a999acd",
       "at": [
         "charlotte-latin:signup.groups[0].note",
+        "charlotte-christian:signup.groups[0].note",
         "charlotte-country-day:signup.groups[0].note"
       ]
     },
@@ -2972,6 +2988,10 @@
       "of": "bfabeb69",
       "at": [
         "charlotte-latin:signup.groups[0].events[5].audience",
+        "charlotte-christian:signup.groups[0].events[0].audience",
+        "charlotte-christian:signup.groups[0].events[1].audience",
+        "charlotte-christian:signup.groups[0].events[2].audience",
+        "charlotte-christian:signup.groups[0].events[3].audience",
         "charlotte-country-day:signup.groups[0].events[0].audience",
         "charlotte-country-day:signup.groups[0].events[1].audience",
         "charlotte-country-day:signup.groups[0].events[2].audience",
@@ -3167,7 +3187,8 @@
       "t": "Model UN",
       "of": "9ba6f23d",
       "at": [
-        "charlotte-latin:community.cells[5].name"
+        "charlotte-latin:community.cells[5].name",
+        "charlotte-christian:network.rows[0].label"
       ]
     },
     {
@@ -3688,6 +3709,7 @@
       "of": "81c33a02",
       "at": [
         "charlotte-latin:verdict.ask[8].topic",
+        "charlotte-christian:verdict.ask[6].topic",
         "charlotte-country-day:verdict.ask[9].topic"
       ]
     },
@@ -3713,6 +3735,1734 @@
       ]
     },
     {
+      "t": "Elèv Upper School nan Charlotte Christian patisipe nan Winterim, yon semèn chak ane ant fen fevriye ak kòmansman mas, ak sis a uit vwayaj aletranje yo ofri chak ane depi 9yèm ane.",
+      "of": "b1de1b50",
+      "at": [
+        "charlotte-christian:lead.strong"
+      ]
+    },
+    {
+      "t": "Pifò vwayaj yo mete vwayaj la ansanm ak yon patnè misyon oswa sèvis, depi SCORE International nan Repiblik Dominikèn, ki nan dosye yo depi 2009–10, rive nan Samaritan's Feet nan Pòtigal.",
+      "of": "9f16daa4",
+      "at": [
+        "charlotte-christian:lead.muted"
+      ]
+    },
+    {
+      "t": "vwayaj aletranje",
+      "of": "880958d4",
+      "at": [
+        "charlotte-christian:stats[0].label"
+      ]
+    },
+    {
+      "t": "yo ofri nan Winterim 2027, dapre dokiman lekòl la",
+      "of": "fd3d310b",
+      "at": [
+        "charlotte-christian:stats[0].note"
+      ]
+    },
+    {
+      "t": "peyi",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-christian:stats[1].label",
+        "charlotte-country-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "se kontaj pa nou apati senk Winterim, 2023–2027",
+      "of": "67da5c25",
+      "at": [
+        "charlotte-christian:stats[1].note"
+      ]
+    },
+    {
+      "t": "kredi Winterim pou gradye",
+      "of": "8bba5721",
+      "at": [
+        "charlotte-christian:stats[2].label"
+      ]
+    },
+    {
+      "t": ".25 chak ane nan Upper School",
+      "of": "33dd954c",
+      "at": [
+        "charlotte-christian:stats[2].note"
+      ]
+    },
+    {
+      "t": "premye vwayaj SCORE International ki nan dosye yo",
+      "of": "ae804668",
+      "at": [
+        "charlotte-christian:stats[3].label"
+      ]
+    },
+    {
+      "t": "31 elèv nan Repiblik Dominikèn, dapre lekòl la",
+      "of": "ad981135",
+      "at": [
+        "charlotte-christian:stats[3].note"
+      ]
+    },
+    {
+      "t": "Trannsenk vwayaj aletranje yo ofri nan senk Winterim, depi 2023 rive 2027, chak ak yon nivo grad ak yon gwosè gwoup ki pibliye, e pifò ak yon patnè misyon oswa sèvis.",
+      "of": "f66bb874",
+      "at": [
+        "charlotte-christian:trips.headline"
+      ]
+    },
+    {
+      "t": "Vwayaj aletranje Winterim yo louvri pou elèv Upper School, kèk depi 9yèm ane e pifò depi 10yèm ane, epi dokiman chak ane bay chak vwayaj nivo grad li, gwosè gwoup li ak tèm li.",
+      "of": "70474adc",
+      "at": [
+        "charlotte-christian:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Dokiman yo bay lis vwayaj yo ofri yo, e vwayaj ki fèt finalman depann de enskripsyon yo. Winterim ofri tou eksperyans lokal ak nan peyi a, kidonk ale aletranje se yon chwa pami anpil lòt.",
+      "of": "c9ee7295",
+      "at": [
+        "charlotte-christian:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Winterim 2027",
+      "of": "daf7b8d3",
+      "at": [
+        "charlotte-christian:trips.years[0].note",
+        "charlotte-christian:trips.years[0].trips[0].timing",
+        "charlotte-christian:trips.years[0].trips[1].timing",
+        "charlotte-christian:trips.years[0].trips[2].timing",
+        "charlotte-christian:trips.years[0].trips[3].timing",
+        "charlotte-christian:trips.years[0].trips[4].timing",
+        "charlotte-christian:trips.years[0].trips[5].timing",
+        "charlotte-christian:trips.years[0].trips[6].timing"
+      ]
+    },
+    {
+      "t": "Brezil",
+      "of": "808bf777",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].dest",
+        "charlotte-christian:trips.years[1].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[2].dest"
+      ]
+    },
+    {
+      "t": "São Paulo",
+      "of": "a97d65fb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · atlèt fi · 16–40 elèv",
+      "of": "84424c73",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Yon tounen ministè espò ak Missionary Athletes International · klinik espò ak evanjelizasyon ansanm ak legliz lokal",
+      "of": "3837eede",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 25–35 elèv",
+      "of": "8ce305da",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "Konvèsasyon an franse ak yon ivè nan Kebèk, ak sèvis ansanm ak yon legliz lokal",
+      "of": "0f7c35e8",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Repiblik Dominikèn",
+      "of": "efe03871",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[5].dest",
+        "charlotte-christian:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[3].trips[0].dest",
+        "charlotte-christian:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[4].trips[0].dest",
+        "charlotte-christian:trips.years[4].trips[1].dest",
+        "cannon:trips.years[0].trips[0].dest"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 16–32 elèv",
+      "of": "c14d94eb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "Aprantisaj atravè sèvis ak SCORE International",
+      "of": "9fe5bbb4",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].theme",
+        "charlotte-christian:trips.years[1].trips[5].theme",
+        "charlotte-christian:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "11yèm–12yèm ane · 35–40 elèv",
+      "of": "282b6160",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].group"
+      ]
+    },
+    {
+      "t": "Peyizaj ak kilti, ak yon pwojè sèvis pou pwoteje anviwònman an",
+      "of": "0e21c24d",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Sorrento, Pompeyi + Wòm",
+      "of": "2dceb288",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].place",
+        "charlotte-christian:trips.years[2].trips[3].place"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · 24–32 elèv",
+      "of": "cd29cba6",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].group"
+      ]
+    },
+    {
+      "t": "Atizay, istwa ak lafwa, ak sèvis nan Wòm",
+      "of": "fbfda720",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].theme",
+        "charlotte-christian:trips.years[2].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Meksik",
+      "of": "2c485c16",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].dest",
+        "charlotte-christian:trips.years[4].trips[4].dest"
+      ]
+    },
+    {
+      "t": "La Paz",
+      "of": "4ce30ab5",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 16–20 elèv",
+      "of": "61566892",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].group",
+        "charlotte-christian:trips.years[1].trips[3].group"
+      ]
+    },
+    {
+      "t": "Sèvis ak fòmasyon espirityèl ak Rancho El Camino",
+      "of": "7371d242",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].theme"
+      ]
+    },
+    {
+      "t": "Pòtigal",
+      "of": "268c9f87",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].dest",
+        "charlotte-christian:trips.years[3].trips[7].dest"
+      ]
+    },
+    {
+      "t": "Lisbòn",
+      "of": "73fe8472",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].place",
+        "charlotte-christian:trips.years[3].trips[7].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 10–12 elèv",
+      "of": "3236b88b",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].group"
+      ]
+    },
+    {
+      "t": "Distribisyon soulye ak Samaritan's Feet",
+      "of": "6d7464e0",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2026",
+      "of": "d9f7b740",
+      "at": [
+        "charlotte-christian:trips.years[1].note",
+        "charlotte-christian:trips.years[1].trips[0].timing",
+        "charlotte-christian:trips.years[1].trips[1].timing",
+        "charlotte-christian:trips.years[1].trips[2].timing",
+        "charlotte-christian:trips.years[1].trips[3].timing",
+        "charlotte-christian:trips.years[1].trips[4].timing",
+        "charlotte-christian:trips.years[1].trips[5].timing",
+        "charlotte-christian:trips.years[1].trips[6].timing",
+        "charlotte-christian:trips.years[1].trips[7].timing"
+      ]
+    },
+    {
+      "t": "Atèn, Korent + Nafplio",
+      "of": "743a2533",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "11yèm–12yèm ane · 16–40 elèv",
+      "of": "fd8b705f",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].group"
+      ]
+    },
+    {
+      "t": "Sou tras Pòl, ak yon netwayaj plaj",
+      "of": "db9d6da2",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Rio de Janeiro",
+      "of": "09c24330",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].place",
+        "charlotte-christian:trips.years[1].trips[2].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 18–30 elèv",
+      "of": "d9fb73ab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].group"
+      ]
+    },
+    {
+      "t": "Kilti afwo-brezilyen, ak yon jounen sèvis",
+      "of": "eb6ec44d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · atlèt fi · 10–25 elèv",
+      "of": "76125896",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].group"
+      ]
+    },
+    {
+      "t": "Yon tounen ministè espò · klinik espò ak evanjelizasyon ak legliz",
+      "of": "a1081dab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Birmingham",
+      "of": "6bc36087",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].place"
+      ]
+    },
+    {
+      "t": "Yon vwayaj misyon ak yon legliz lokal: distribisyon manje ak aktivite pou jèn yo",
+      "of": "c6a53f1b",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Kosta Rika",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].dest",
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · tifi · 16–30 elèv",
+      "of": "03e00863",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].group"
+      ]
+    },
+    {
+      "t": "Byoloji bèt sovaj ak konsèvasyon, ak plantasyon pyebwa ak yon refij bèt sovaj",
+      "of": "fa5c592c",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 16–30 elèv",
+      "of": "8f8ec15d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[5].group"
+      ]
+    },
+    {
+      "t": "Panama",
+      "of": "754af0bd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].dest",
+        "charlotte-christian:trips.years[2].trips[5].dest",
+        "charlotte-christian:trips.years[3].trips[6].dest",
+        "charlotte-christian:trips.years[4].trips[5].dest"
+      ]
+    },
+    {
+      "t": "9yèm–10yèm ane · 16–21 elèv",
+      "of": "c186c8f1",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].group",
+        "charlotte-christian:trips.years[2].trips[5].group"
+      ]
+    },
+    {
+      "t": "Lekòl Biblik Vakans nan yon lekòl kretyen nan sant vil la, Panamá Viejo ak yon vilaj Emberá",
+      "of": "a1c8d2dc",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].theme",
+        "charlotte-christian:trips.years[2].trips[5].theme"
+      ]
+    },
+    {
+      "t": "Ekòs",
+      "of": "54d53665",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].dest"
+      ]
+    },
+    {
+      "t": "Highlands yo, Edinbou + Glasgow",
+      "of": "002a10dd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · tifi · 20–30 elèv",
+      "of": "ab9a3512",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].group"
+      ]
+    },
+    {
+      "t": "Istwa ak kilti, ak yon jounen sèvis nan Glasgow",
+      "of": "72c286aa",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2025",
+      "of": "dcf7bbf9",
+      "at": [
+        "charlotte-christian:trips.years[2].note",
+        "charlotte-christian:trips.years[2].trips[0].timing",
+        "charlotte-christian:trips.years[2].trips[1].timing",
+        "charlotte-christian:trips.years[2].trips[2].timing",
+        "charlotte-christian:trips.years[2].trips[3].timing",
+        "charlotte-christian:trips.years[2].trips[4].timing",
+        "charlotte-christian:trips.years[2].trips[5].timing"
+      ]
+    },
+    {
+      "t": "Kiba",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].dest",
+        "charlotte-country-day:milestones.events[9].title"
+      ]
+    },
+    {
+      "t": "Lavàn + Remedios",
+      "of": "77d6ef0b",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 15–20 elèv",
+      "of": "a27040a7",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].group"
+      ]
+    },
+    {
+      "t": "Distribisyon soulye ak Samaritan's Feet, nan lekòl ak nan kominote moun ki soud",
+      "of": "c57c35ec",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 16–45 elèv",
+      "of": "ef5aa6ed",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[1].group"
+      ]
+    },
+    {
+      "t": "Iland",
+      "of": "1578db1c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].dest"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · 20–40 elèv",
+      "of": "7b144b4d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].group"
+      ]
+    },
+    {
+      "t": "Tounen \"Best of Ireland\" la · Falèz Moher yo, jwèt gaelik ak Book of Kells la",
+      "of": "847d4f9c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · 24–40 elèv",
+      "of": "1c77b691",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[3].group"
+      ]
+    },
+    {
+      "t": "Monreyal + Vil Kebèk",
+      "of": "35da86de",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 20–40 elèv",
+      "of": "5d1c0a7d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].group"
+      ]
+    },
+    {
+      "t": "Kanada frankofòn, ak tan pou sèvi lòt moun",
+      "of": "a632ecda",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2024",
+      "of": "dbf7ba66",
+      "at": [
+        "charlotte-christian:trips.years[3].note",
+        "charlotte-christian:trips.years[3].trips[0].timing",
+        "charlotte-christian:trips.years[3].trips[1].timing",
+        "charlotte-christian:trips.years[3].trips[2].timing",
+        "charlotte-christian:trips.years[3].trips[3].timing",
+        "charlotte-christian:trips.years[3].trips[4].timing",
+        "charlotte-christian:trips.years[3].trips[5].timing",
+        "charlotte-christian:trips.years[3].trips[6].timing",
+        "charlotte-christian:trips.years[3].trips[7].timing"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · jiska 40 elèv",
+      "of": "5511c716",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].group",
+        "charlotte-christian:trips.years[4].trips[0].group"
+      ]
+    },
+    {
+      "t": "Sèvis ak SCORE International",
+      "of": "ac7bc0ee",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Ekip bezbòl varsity · jiska 25 elèv",
+      "of": "5457d418",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].group"
+      ]
+    },
+    {
+      "t": "Sèvis ak SCORE International ak de match egzibisyon",
+      "of": "9bb78ef9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].theme",
+        "charlotte-christian:trips.years[4].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Quito, Baños + Isla de la Plata",
+      "of": "4468430b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · jiska 27 elèv",
+      "of": "5e6ff8cf",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].group"
+      ]
+    },
+    {
+      "t": "Pratik panyòl ak avanti, ak sèvis nan yon plantasyon kakawo",
+      "of": "170ae113",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].theme"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · jiska 35 elèv",
+      "of": "484e0f3a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].group"
+      ]
+    },
+    {
+      "t": "Edikasyon ak avanti · yon glasye, yon kav glas ak Reykjavík",
+      "of": "353a1ddb",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].theme"
+      ]
+    },
+    {
+      "t": "Almay ak Otrich",
+      "of": "8ec09463",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].dest"
+      ]
+    },
+    {
+      "t": "Minik + Salzburg",
+      "of": "b959b2ac",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].place"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · jiska 35 elèv",
+      "of": "68a5242a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].group"
+      ]
+    },
+    {
+      "t": "Istwa ak kilti · Dachau, Neuschwanstein ak Hohensalzburg",
+      "of": "f4a857c9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Grès ak Itali",
+      "of": "b393f43b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].dest"
+      ]
+    },
+    {
+      "t": "Atèn, Delfi, Sorrento, Pompeyi + Wòm",
+      "of": "5508dbe9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].place"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · jiska 36 elèv",
+      "of": "a49d4451",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].group",
+        "charlotte-christian:trips.years[4].trips[2].group"
+      ]
+    },
+    {
+      "t": "Atizay, istwa ak lafwa, ak yon pwojè sèvis nan Wòm",
+      "of": "80fa75ce",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].theme"
+      ]
+    },
+    {
+      "t": "9yèm–10yèm ane · jiska 20 elèv",
+      "of": "ae20003a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].group"
+      ]
+    },
+    {
+      "t": "Misyon ak sèvis",
+      "of": "0cdaa077",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].theme"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · jiska 15 elèv",
+      "of": "2d664adc",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].group",
+        "charlotte-christian:trips.years[4].trips[4].group"
+      ]
+    },
+    {
+      "t": "Misyon ak sèvis ak Samaritan's Feet",
+      "of": "af9974c3",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].theme",
+        "charlotte-christian:trips.years[4].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2023",
+      "of": "def7bf1f",
+      "at": [
+        "charlotte-christian:trips.years[4].note",
+        "charlotte-christian:trips.years[4].trips[0].timing",
+        "charlotte-christian:trips.years[4].trips[1].timing",
+        "charlotte-christian:trips.years[4].trips[2].timing",
+        "charlotte-christian:trips.years[4].trips[3].timing",
+        "charlotte-christian:trips.years[4].trips[4].timing",
+        "charlotte-christian:trips.years[4].trips[5].timing"
+      ]
+    },
+    {
+      "t": "Sèvis ak misyon ak SCORE International, nan vilaj kann",
+      "of": "e134de9c",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Ekip bezbòl varsity · jiska 22 elèv",
+      "of": "2f5a84c7",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[1].group"
+      ]
+    },
+    {
+      "t": "Itali ak Grès",
+      "of": "56467571",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].dest"
+      ]
+    },
+    {
+      "t": "Atèn, Delfi, Pompeyi + Wòm",
+      "of": "13f8f1d1",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].place"
+      ]
+    },
+    {
+      "t": "Atizay, istwa ak lafwa",
+      "of": "d6e56dfb",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Anglete ak Lafrans",
+      "of": "d1830c93",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].dest"
+      ]
+    },
+    {
+      "t": "Lonn, Stratford-upon-Avon, Oxford + Pari",
+      "of": "2408949e",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].place"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · jiska 30 elèv",
+      "of": "cbe3059b",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].group"
+      ]
+    },
+    {
+      "t": "Istwa literè · Globe la ak kay kote Shakespeare te fèt",
+      "of": "f2df711d",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].theme"
+      ]
+    },
+    {
+      "t": "La Misión, Baja California",
+      "of": "56b84549",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[4].place"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · jiska 20 elèv",
+      "of": "e2dadbd0",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].group"
+      ]
+    },
+    {
+      "t": "Misyon ak sèvis, ak Lekòl Biblik Vakans",
+      "of": "e86654cc",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].theme"
+      ]
+    },
+    {
+      "t": "Elèv Upper School Charlotte Christian nan Plas Sen Pyè, Wòm",
+      "of": "2e4ac334",
+      "at": [
+        "charlotte-christian:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "Itali, pandan Winterim",
+      "of": "f8be29c8",
+      "at": [
+        "charlotte-christian:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "Yon vwayaj Winterim nan Wòm, nan Plas Sen Pyè.",
+      "of": "cd909f39",
+      "at": [
+        "charlotte-christian:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "Foto: Charlotte Christian School",
+      "of": "b4dee894",
+      "at": [
+        "charlotte-christian:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Vwayaj misyon depi 1998.",
+      "of": "9e63d634",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "Vwayaj misyon lekòl la te patwone, ak pwofesè ak elèv, te ale Meksik an 1998, Kosta Rika an 1999 ak Otrich an 2000.",
+      "of": "f2b45faf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "SCORE International, 2009–10.",
+      "of": "5ee1d1f2",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "31 elèv te travay ak SCORE International nan Repiblik Dominikèn.",
+      "of": "7d95e865",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "Baskètbòl nan Limoges.",
+      "of": "69ce32e5",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "Kat jwè varsity te reprezante Charlotte nan yon tounwa vil patnè nan Limoges, Lafrans, an 2009–10.",
+      "of": "8585aa63",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "Ete 2011.",
+      "of": "091cdf6e",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].lead"
+      ]
+    },
+    {
+      "t": "42 elèv te patisipe nan vwayaj misyon lekòl la nan Repiblik Dominikèn oswa nan Sea Island, Georgia, ak Habitat for Humanity.",
+      "of": "55aeccaf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].text"
+      ]
+    },
+    {
+      "t": "Premye J-Term nan.",
+      "of": "1669ffad",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].lead"
+      ]
+    },
+    {
+      "t": "Yo te anonse J-Term 2013–14 la ak vwayaj misyon nan Ouganda, Nikaragwa oswa Repiblik Dominikèn, ak vwayaj an Lafrans ak New York.",
+      "of": "520636dc",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].text"
+      ]
+    },
+    {
+      "t": "Salamanca, ete 2018.",
+      "of": "732fc624",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].lead"
+      ]
+    },
+    {
+      "t": "Elèv Upper School te vwayaje an Espay pou imèsyon nan lang ak kilti.",
+      "of": "95475ac7",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].text"
+      ]
+    },
+    {
+      "t": "Itali, ivè 2020.",
+      "of": "b439a08f",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].lead"
+      ]
+    },
+    {
+      "t": "Nan yon vwayaj J-Term, 40 elèv, anplwaye ak paran te swiv tras atizay ak istwa kretyen atravè Wòm.",
+      "of": "b1161259",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].text"
+      ]
+    },
+    {
+      "t": "Enskripsyon pou Winterim 2027 te ouvè an jiyè 2026 epi li te fèmen an out, ak kontra ak kopi paspò ki te dwe remèt an septanm.",
+      "of": "7981f78b",
+      "at": [
+        "charlotte-christian:signup.headline"
+      ]
+    },
+    {
+      "t": "Plas yo bay dapre priyorite: nivo grad ki pi wo ki disponib, moun k ap patisipe pou premye fwa, koneksyon ak pwogram etid la, enfòmasyon enskripsyon ki egzak ak preparasyon elèv la demontre. Lè yon moun enskri a konte mwens pase tout.",
+      "of": "6a3472e2",
+      "at": [
+        "charlotte-christian:signup.intro.strong"
+      ]
+    },
+    {
+      "t": "Vwayaj entènasyonal yo mande yon paspò ki valab omwen sis mwa apre vwayaj la, epi dokiman an voye fanmi yo bò kote konpayi deyò pou asirans vwayaj.",
+      "of": "edbc8a1c",
+      "at": [
+        "charlotte-christian:signup.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School · Winterim 2027",
+      "of": "36206b84",
+      "at": [
+        "charlotte-christian:signup.groups[0].title"
+      ]
+    },
+    {
+      "t": "24 jiyè 2026",
+      "of": "16cdbde9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "Enskripsyon ouvè",
+      "of": "57db52b9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].name"
+      ]
+    },
+    {
+      "t": "28 out 2026",
+      "of": "de3274a0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].when"
+      ]
+    },
+    {
+      "t": "Enskripsyon ak depo fèmen, a minwi",
+      "of": "181076aa",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].name"
+      ]
+    },
+    {
+      "t": "5 septanm 2026",
+      "of": "ef816aad",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "Konfimasyon enskripsyon pa imèl",
+      "of": "1cc4b161",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "11 septanm 2026",
+      "of": "5e0692e8",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "Dènye dat pou kontra finansye, fòm dechaj responsablite ak kopi paspò",
+      "of": "70df62e0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "Global Knights, Knights Nations Club, yon Global Awareness Prefect ak Romans 12, anba direksyon yon Direktè Divèsite, Apatenans ak Konsyans Mondyal.",
+      "of": "37035c3c",
+      "at": [
+        "charlotte-christian:community.headline"
+      ]
+    },
+    {
+      "t": "Lekòl la vize ranfòse anpati kiltirèl elèv yo, konsyans yo sou mond lan ak yon atitid imilite, pandan l ap chèche inite nan mitan diferans yo,",
+      "of": "b1c8737b",
+      "at": [
+        "charlotte-christian:community.intro.strong"
+      ]
+    },
+    {
+      "t": "atravè travay Direktè Divèsite, Apatenans ak Konsyans Mondyal la dirije.",
+      "of": "5253137a",
+      "at": [
+        "charlotte-christian:community.intro.muted"
+      ]
+    },
+    {
+      "t": "Global Knights",
+      "of": "0bb765f8",
+      "at": [
+        "charlotte-christian:community.cells[0].name"
+      ]
+    },
+    {
+      "t": "Yon kou opsyonèl Middle School nan 5yèm ane ak yon gwoup elèv Middle School, ansanm ak yon klib Upper School.",
+      "of": "18c3805f",
+      "at": [
+        "charlotte-christian:community.cells[0].text"
+      ]
+    },
+    {
+      "t": "Knights Nations Club",
+      "of": "5469c2eb",
+      "at": [
+        "charlotte-christian:community.cells[1].name"
+      ]
+    },
+    {
+      "t": "Elèv Upper School k ap aprann sou kominote lokal ak entènasyonal, depi makèt entènasyonal rive nan fason yo selebre Pak toupatou sou latè.",
+      "of": "cb5e96bb",
+      "at": [
+        "charlotte-christian:community.cells[1].text"
+      ]
+    },
+    {
+      "t": "Global Awareness Prefect",
+      "of": "b2f64770",
+      "at": [
+        "charlotte-christian:community.cells[2].name"
+      ]
+    },
+    {
+      "t": "Youn nan nèf prefè gouvènman elèv Upper School la.",
+      "of": "1e103adb",
+      "at": [
+        "charlotte-christian:community.cells[2].text"
+      ]
+    },
+    {
+      "t": "Romans 12",
+      "of": "0fa36b8e",
+      "at": [
+        "charlotte-christian:community.cells[3].name"
+      ]
+    },
+    {
+      "t": "Manm kominote lekòl la ki rankontre chak mwa epi ki, dapre lekòl la, ranfòse konsyans miltikiltirèl ak mondyal li.",
+      "of": "209fcb60",
+      "at": [
+        "charlotte-christian:community.cells[3].text"
+      ]
+    },
+    {
+      "t": "Festival Miltikiltirèl",
+      "of": "1d6572a8",
+      "at": [
+        "charlotte-christian:community.cells[4].name"
+      ]
+    },
+    {
+      "t": "Yon selebrasyon Lower School chak ane, ki fè pati klas panyòl la.",
+      "of": "e168cf00",
+      "at": [
+        "charlotte-christian:community.cells[4].text"
+      ]
+    },
+    {
+      "t": "Elèv entènasyonal",
+      "of": "67ddb06d",
+      "at": [
+        "charlotte-christian:community.cells[5].name"
+      ]
+    },
+    {
+      "t": "Lekòl la enskri elèv entènasyonal ki gen viza I-20, epi li pa bay fanmi akèy.",
+      "of": "7c3c3888",
+      "at": [
+        "charlotte-christian:community.cells[5].text"
+      ]
+    },
+    {
+      "t": "Aprantisaj mondyal nan chak divizyon, JK rive 12, ak twa lang pou eseye nan 5yèm ane ak vwayaj aletranje Winterim depi 9yèm ane.",
+      "of": "333d3d36",
+      "at": [
+        "charlotte-christian:start.headline"
+      ]
+    },
+    {
+      "t": "Nan pwòp mo lekòl la, \"The study of modern and classical languages equips students to impact the global culture for Christ.\"",
+      "of": "630744bd",
+      "at": [
+        "charlotte-christian:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Winterim, semèn eksperyans Upper School la fè chak ane, gen senk objektif pa li.",
+      "of": "a6b559cf",
+      "at": [
+        "charlotte-christian:start.intro.muted"
+      ]
+    },
+    {
+      "t": "Kwasans espirityèl nan relasyon ant elèv ak pwofesè",
+      "of": "aea85279",
+      "at": [
+        "charlotte-christian:start.framework[0].text"
+      ]
+    },
+    {
+      "t": "Rezoud pwoblèm, endepandans ak konpetans lavi nan nouvo kontèks",
+      "of": "30c1d5b9",
+      "at": [
+        "charlotte-christian:start.framework[1].text"
+      ]
+    },
+    {
+      "t": "Dekouvri eritaj, kwayans ak eksperyans yon lòt kontèks kiltirèl",
+      "of": "a6eab46f",
+      "at": [
+        "charlotte-christian:start.framework[2].text"
+      ]
+    },
+    {
+      "t": "Sèvi yon kominote",
+      "of": "c98caeee",
+      "at": [
+        "charlotte-christian:start.framework[3].text"
+      ]
+    },
+    {
+      "t": "Eksplore sit, mize ak moniman",
+      "of": "20a6d6e9",
+      "at": [
+        "charlotte-christian:start.framework[4].text"
+      ]
+    },
+    {
+      "t": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-christian:start.divisions[0].grades",
+        "charlotte-country-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "Panyòl, ak yon Festival Miltikiltirèl chak ane",
+      "of": "e4dccff2",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "Syans sosyal ki elaji depi fanmi ak katye rive nan jewografi mondyal",
+      "of": "2c2ce7fe",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "Aprann sou lòt kilti atravè literati, envite ki vin pale ak pwojè",
+      "of": "76475748",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:start.divisions[1].grades",
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "**Yon Language Survey nan 5yèm ane** an franse, laten ak panyòl, epi yon sèl lang jiska 8yèm ane",
+      "of": "3d8eb71a",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Kou opsyonèl Global Knights ak Multicultural Studies",
+      "of": "d8817f2f",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Mwa eritaj nan klas lang etranje yo",
+      "of": "dc96d1b7",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Sòti edikatif nan Sudan Interior Missions (6yèm ane), memoryal papiyon Olokòs la (7yèm) ak sou Mouvman Dwa Sivik yo (8yèm)",
+      "of": "efffb023",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "Modern World Civilizations",
+      "of": "79f78ae4",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[4]"
+      ]
+    },
+    {
+      "t": "Franse, laten ak panyòl jiska nivo AP",
+      "of": "45d606ba",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Survey of World Literature, ki poze kesyon \"What does it mean to be an engaged global citizen?\"",
+      "of": "564f6945",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "AP World History: Modern",
+      "of": "5e5aef15",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "**Winterim chak ane,** ak vwayaj aletranje depi 9yèm ane",
+      "of": "dbf021e3",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "SCORE International nan Repiblik Dominikèn depi omwen 2009–10, Samaritan's Feet ak lòt patnè misyon nan vwayaj Winterim yo, ak Model UN ak Harvard Model Congress isit la.",
+      "of": "7fbf99bd",
+      "at": [
+        "charlotte-christian:network.headline"
+      ]
+    },
+    {
+      "t": "Vwayaj Charlotte Christian yo pase atravè patnè misyon ak sèvis ki la depi lontan, sitou SCORE International nan Repiblik Dominikèn.",
+      "of": "4f07fe6d",
+      "at": [
+        "charlotte-christian:network.intro.strong"
+      ]
+    },
+    {
+      "t": "Isit la, Upper School la gen yon klib Model UN, e an 2010–11 li te voye pi gwo delegasyon nenpòt lekòl nan peyi a nan Harvard Model Congress.",
+      "of": "9347c2d9",
+      "at": [
+        "charlotte-christian:network.intro.muted"
+      ]
+    },
+    {
+      "t": "Vwayaj SCORE International ki nan dosye yo",
+      "of": "85d7b52f",
+      "at": [
+        "charlotte-christian:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "Winterim 2027, pou 10yèm–12yèm ane",
+      "of": "0fdada5c",
+      "at": [
+        "charlotte-christian:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Winterim 2026, pou 10yèm–12yèm ane",
+      "of": "592be1c5",
+      "at": [
+        "charlotte-christian:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Winterim 2025, pou 10yèm–12yèm ane",
+      "of": "ba09951a",
+      "at": [
+        "charlotte-christian:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "Winterim 2024, plis yon vwayaj sèvis ekip bezbòl varsity",
+      "of": "6b5eaa95",
+      "at": [
+        "charlotte-christian:network.conferences[3].text"
+      ]
+    },
+    {
+      "t": "Winterim 2023, plis yon vwayaj sèvis ekip bezbòl varsity",
+      "of": "34806714",
+      "at": [
+        "charlotte-christian:network.conferences[4].text"
+      ]
+    },
+    {
+      "t": "31 elèv",
+      "of": "0779a3fb",
+      "at": [
+        "charlotte-christian:network.conferences[5].text"
+      ]
+    },
+    {
+      "t": "SCORE International",
+      "of": "2b1bad1d",
+      "at": [
+        "charlotte-christian:network.cells[0].name",
+        "charlotte-christian:milestones.events[2].title"
+      ]
+    },
+    {
+      "t": "Yon ministè ki santre sou Kris, ak ki vwayaj lekòl la nan Repiblik Dominikèn yo fè sèvis, atravè espò, swen òfelen ak konstriksyon.",
+      "of": "4e0aa8ac",
+      "at": [
+        "charlotte-christian:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Samaritan's Feet",
+      "of": "9e0222ed",
+      "at": [
+        "charlotte-christian:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "Vwayaj distribisyon soulye nan Baja California, Lisbòn ak Kiba, yo te ofri nan kat Winterim depi 2023 rive 2027.",
+      "of": "86e53654",
+      "at": [
+        "charlotte-christian:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Missionary Athletes International",
+      "of": "7a5b3a63",
+      "at": [
+        "charlotte-christian:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "Tounen ministè espò atlèt fi yo nan Brezil, nan Winterim 2027.",
+      "of": "54fc41b1",
+      "at": [
+        "charlotte-christian:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "Rancho El Camino",
+      "of": "6e905c70",
+      "at": [
+        "charlotte-christian:network.cells[3].name"
+      ]
+    },
+    {
+      "t": "Sèvis nan La Paz, Meksik, nan Winterim 2027.",
+      "of": "b00ca515",
+      "at": [
+        "charlotte-christian:network.cells[3].text"
+      ]
+    },
+    {
+      "t": "Yon klib Upper School.",
+      "of": "e0b4beb8",
+      "at": [
+        "charlotte-christian:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "Harvard Model Congress",
+      "of": "1d0fcbcc",
+      "at": [
+        "charlotte-christian:network.rows[1].label",
+        "charlotte-christian:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "An 2010–11, 43 elèv 11yèm ak 12yèm ane te fòme pi gwo delegasyon nenpòt lekòl nan peyi a, nan uityèm ane lekòl la t ap patisipe.",
+      "of": "eca7663e",
+      "at": [
+        "charlotte-christian:network.rows[1].text"
+      ]
+    },
+    {
+      "t": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-christian:network.rows[2].label",
+        "charlotte-country-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "Uit elèv te fè konpetisyon an 2011, nan konkou World Affairs Council of Charlotte la.",
+      "of": "e9299c24",
+      "at": [
+        "charlotte-christian:network.rows[2].text"
+      ]
+    },
+    {
+      "t": "Patnè vwayaj",
+      "of": "5fc6fea4",
+      "at": [
+        "charlotte-christian:network.rows[3].label"
+      ]
+    },
+    {
+      "t": "Joshua Expeditions, Grand Classroom ak EF Tours òganize plizyè vwayaj Winterim, dapre dokiman yo.",
+      "of": "b5c85cd0",
+      "at": [
+        "charlotte-christian:network.rows[3].text"
+      ]
+    },
+    {
+      "t": "Prèske twa deseni nan dosye yo, depi vwayaj misyon aletranje an 1998 rive nan yon semèn Winterim obligatwa chak ane nan Upper School.",
+      "of": "d7700d34",
+      "at": [
+        "charlotte-christian:milestones.headline"
+      ]
+    },
+    {
+      "t": "Pwòp magazin lekòl la anrejistre vwayaj misyon aletranje depi 1998 ak SCORE International depi 2009–10,",
+      "of": "45d84d4c",
+      "at": [
+        "charlotte-christian:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "ak yon semèn eksperyans obligatwa chak ane nan Upper School depi J-Term te kòmanse an 2013–14.",
+      "of": "2dc42d5f",
+      "at": [
+        "charlotte-christian:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "Vwayaj misyon aletranje",
+      "of": "6b985fa6",
+      "at": [
+        "charlotte-christian:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "Vwayaj misyon lekòl la te patwone, ak pwofesè ak elèv, te ale Meksik, epi Kosta Rika an 1999 ak Otrich an 2000.",
+      "of": "9de7d4d9",
+      "at": [
+        "charlotte-christian:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "Fanmi yo resevwa elèv gwatemalteken",
+      "of": "f5ae4cf2",
+      "at": [
+        "charlotte-christian:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "Echanj Faces la, ki pita vin rele Experiencias Interculturales, te kòmanse: elèv lekòl segondè gwatemalteken ki t ap vizite te rete lakay fanmi lekòl la pandan uit semèn epi yo te swiv kou Upper School.",
+      "of": "71946e53",
+      "at": [
+        "charlotte-christian:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "31 elèv te fè sèvis nan Repiblik Dominikèn.",
+      "of": "c869cd82",
+      "at": [
+        "charlotte-christian:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "Lord of All Nations",
+      "of": "d2c8af54",
+      "at": [
+        "charlotte-christian:milestones.events[3].title"
+      ]
+    },
+    {
+      "t": "Jounen Miltikiltirèl Lower School la te reprezante 24 peyi.",
+      "of": "d75f5c87",
+      "at": [
+        "charlotte-christian:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "Pi gwo delegasyon nenpòt lekòl nan peyi a.",
+      "of": "0092aa02",
+      "at": [
+        "charlotte-christian:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "J-Term kòmanse",
+      "of": "f16d9118",
+      "at": [
+        "charlotte-christian:milestones.events[5].title"
+      ]
+    },
+    {
+      "t": "Yon semèn eksperyans obligatwa chak ane nan Upper School, depi pwomosyon 2017 la, ki bay .25 kredi pa ane.",
+      "of": "a11068b1",
+      "at": [
+        "charlotte-christian:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "Winterim",
+      "of": "4d5bbcf6",
+      "at": [
+        "charlotte-christian:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "Winterim 2023 te ofri sis vwayaj aletranje.",
+      "of": "266150c9",
+      "at": [
+        "charlotte-christian:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "Kote pwogram nan kanpe apa, ak onz kesyon sit entènèt lekòl la poko reponn — pri vwayaj, èd, ki vwayaj ki te fèt, ak sekirite.",
+      "of": "b6cf535b",
+      "at": [
+        "charlotte-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "Charlotte Christian pa gen diplòm mondyal ni pwogram echanj, men chak ane nan Upper School gen Winterim, e dokiman li yo pibliye sis a uit vwayaj aletranje pa ane, chak ak yon nivo grad, yon gwosè gwoup e, pou pifò, yon patnè misyon oswa sèvis.",
+      "of": "0b7af53b",
+      "at": [
+        "charlotte-christian:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "Yon Winterim obligatwa chak ane nan Upper School",
+      "of": "e5e7ad7e",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "Vwayaj aletranje depi 9yèm ane, pibliye ak nivo grad ak gwosè gwoup",
+      "of": "da24537d",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "Patnè misyon ak sèvis ki nan dosye yo depi 2009–10",
+      "of": "24e396fd",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "Twa lang pou eseye nan 5yèm ane",
+      "of": "f2bc0c74",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Pri.",
+      "of": "04e0a6c2",
+      "at": [
+        "charlotte-christian:verdict.ask[0].topic",
+        "cannon:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "Konbyen yon vwayaj Winterim aletranje koute e kisa li gen ladan l, e konbyen pri a ka chanje apre enskripsyon yo fin fèt?",
+      "of": "a591be8f",
+      "at": [
+        "charlotte-christian:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Èd finansye kouvri jiska mwatye frè lekòl la, epi fanmi yo peye tout frè yo. Èske gen okenn èd oswa fon ki ede ak vwayaj Winterim?",
+      "of": "f5accc6b",
+      "at": [
+        "charlotte-christian:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "9yèm ane.",
+      "of": "aff588b3",
+      "at": [
+        "charlotte-christian:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "Pifò vwayaj aletranje se pou 10yèm–12yèm oswa 11yèm–12yèm ane, epi priyorite a ale bay grad ki pi wo a. Konbyen fwa yon elèv 9yèm ane jwenn yon plas nan youn ladan yo?",
+      "of": "984891ef",
+      "at": [
+        "charlotte-christian:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "Ki vwayaj ki te fèt.",
+      "of": "37757c77",
+      "at": [
+        "charlotte-christian:verdict.ask[3].topic"
+      ]
+    },
+    {
+      "t": "Dokiman yo bay lis vwayaj yo ofri yo, e vwayaj ki fèt finalman depann de enskripsyon yo. Ki vwayaj ki te fèt toutbon chak ane?",
+      "of": "1013c7e2",
+      "at": [
+        "charlotte-christian:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "Ki rapò akonpayatè pa elèv, e ki asirans lekòl la genyen? Dokiman an voye fanmi yo bò kote konpayi asirans deyò.",
+      "of": "e87c69eb",
+      "at": [
+        "charlotte-christian:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "Èske Experiencias Interculturales, echanj gwatemalteken ki te kòmanse an 2008 la, toujou fèt, oswa èske yo ofri nenpòt lòt echanj?",
+      "of": "28de2f76",
+      "at": [
+        "charlotte-christian:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Èske yo ofri yon sètifika mondyal, oswa Seal of Biliteracy, nan tout lekòl la?",
+      "of": "f6594d16",
+      "at": [
+        "charlotte-christian:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "Konbyen elèv ki ale aletranje chak ane? Pa gen okenn chif ki pibliye.",
+      "of": "16cd4be3",
+      "at": [
+        "charlotte-christian:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Middle School ak Lower School.",
+      "of": "d66506a6",
+      "at": [
+        "charlotte-christian:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "Èske gen nenpòt vwayaj anvan 9yèm ane?",
+      "of": "e0867033",
+      "at": [
+        "charlotte-christian:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Model UN jodi a.",
+      "of": "69ba852a",
+      "at": [
+        "charlotte-christian:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "Nan ki konferans Model UN Upper School la patisipe, e èske li toujou ale nan Harvard Model Congress?",
+      "of": "df0cec1f",
+      "at": [
+        "charlotte-christian:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "Elèv entènasyonal.",
+      "of": "c4fc7979",
+      "at": [
+        "charlotte-christian:verdict.ask[10].topic",
+        "cannon:verdict.ask[10].topic"
+      ]
+    },
+    {
+      "t": "Konbyen elèv entènasyonal ki enskri, e èske yo ofri sipò nan lang angle? Èd finansye pa disponib pou elèv ki gen I-20.",
+      "of": "58c47522",
+      "at": [
+        "charlotte-christian:verdict.ask[10].question"
+      ]
+    },
+    {
       "t": "Vwayaj yo kòmanse nan 6yèm ane, yon Office of International Studies ki la depi 1988 dapre lekòl la òganize yo, ak echanj ak lekòl sè ak sejou lakay fanmi akèy nan Vil Kebèk, Arequipa ak Southampton, plis vwayaj Upper School pwofesè yo dirije pandan vakans prentan ak pandan ete a.",
       "of": "155b6937",
       "at": [
@@ -3724,13 +5474,6 @@
       "of": "7644558f",
       "at": [
         "charlotte-country-day:lead.muted"
-      ]
-    },
-    {
-      "t": "peyi",
-      "of": "92e99ecd",
-      "at": [
-        "charlotte-country-day:stats[0].label"
       ]
     },
     {
@@ -3947,15 +5690,6 @@
       "at": [
         "charlotte-country-day:trips.years[0].trips[3].homestay",
         "charlotte-country-day:milestones.events[3].title"
-      ]
-    },
-    {
-      "t": "Kosta Rika",
-      "of": "4a26cbe8",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest",
-        "cannon:trips.years[0].trips[1].dest",
-        "cannon:trips.years[1].trips[0].dest"
       ]
     },
     {
@@ -4678,13 +6412,6 @@
       ]
     },
     {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:start.divisions[0].grades"
-      ]
-    },
-    {
       "t": "Franse ak panyòl kòmanse depi junior kindergarten rive 1ye ane",
       "of": "e41b23f3",
       "at": [
@@ -4703,14 +6430,6 @@
       "of": "42a86f07",
       "at": [
         "charlotte-country-day:start.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
       ]
     },
     {
@@ -4802,13 +6521,6 @@
       "of": "2be7c7bd",
       "at": [
         "charlotte-country-day:network.conferences[1].text"
-      ]
-    },
-    {
-      "t": "Academic WorldQuest",
-      "of": "135cbfac",
-      "at": [
-        "charlotte-country-day:network.cells[0].name"
       ]
     },
     {
@@ -5115,13 +6827,6 @@
       ]
     },
     {
-      "t": "Kiba",
-      "of": "f2388c8c",
-      "at": [
-        "charlotte-country-day:milestones.events[9].title"
-      ]
-    },
-    {
       "t": "Premye lekòl nan eta a ki voye elèv Kiba.",
       "of": "51e2f1ce",
       "at": [
@@ -5413,13 +7118,6 @@
       "of": "9ca94966",
       "at": [
         "cannon:trips.years[0].noteByDiv.MS"
-      ]
-    },
-    {
-      "t": "Repiblik Dominikèn",
-      "of": "efe03871",
-      "at": [
-        "cannon:trips.years[0].trips[0].dest"
       ]
     },
     {
@@ -5920,13 +7618,6 @@
       ]
     },
     {
-      "t": "Pri.",
-      "of": "04e0a6c2",
-      "at": [
-        "cannon:verdict.ask[2].topic"
-      ]
-    },
-    {
       "t": "Konbyen yon vwayaj koute, e kisa li gen ladan l? Lekòl la pa pibliye okenn pri vwayaj.",
       "of": "50cea9fe",
       "at": [
@@ -6001,13 +7692,6 @@
       "of": "bf7a2408",
       "at": [
         "cannon:verdict.ask[9].question"
-      ]
-    },
-    {
-      "t": "Elèv entènasyonal.",
-      "of": "c4fc7979",
-      "at": [
-        "cannon:verdict.ask[10].topic"
       ]
     },
     {

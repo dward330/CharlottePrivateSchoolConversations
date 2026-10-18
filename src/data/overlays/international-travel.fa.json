@@ -142,6 +142,8 @@
       "at": [
         "providence-day:trips.years[0].trips[1].dest",
         "providence-day:trips.years[3].trips[4].dest",
+        "charlotte-christian:trips.years[0].trips[3].dest",
+        "charlotte-christian:trips.years[3].trips[3].dest",
         "charlotte-country-day:trips.years[2].trips[1].dest"
       ]
     },
@@ -275,6 +277,7 @@
         "charlotte-latin:trips.years[0].trips[6].dest",
         "charlotte-latin:trips.years[2].trips[2].dest",
         "charlotte-latin:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[3].dest",
         "charlotte-country-day:trips.years[1].trips[1].dest",
         "charlotte-country-day:exchanges.partners[1].country"
@@ -305,7 +308,8 @@
       "t": "اکوادور",
       "of": "5cb016c8",
       "at": [
-        "providence-day:trips.years[2].trips[2].dest"
+        "providence-day:trips.years[2].trips[2].dest",
+        "charlotte-christian:trips.years[3].trips[2].dest"
       ]
     },
     {
@@ -477,6 +481,7 @@
       "of": "cbef70fa",
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[0].dest",
         "charlotte-country-day:trips.years[0].trips[7].dest"
       ]
     },
@@ -807,6 +812,7 @@
       "at": [
         "providence-day:start.divisions[2].grades",
         "charlotte-latin:start.divisions[2].grades",
+        "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
         "cannon:start.divisions[2].grades"
       ]
@@ -1969,6 +1975,7 @@
       "at": [
         "providence-day:verdict.ask[2].topic",
         "charlotte-latin:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
         "cannon:verdict.ask[3].topic"
       ]
@@ -2015,6 +2022,7 @@
       "of": "925b432b",
       "at": [
         "providence-day:verdict.ask[5].topic",
+        "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
         "cannon:verdict.ask[5].topic"
       ]
@@ -2030,7 +2038,8 @@
       "t": "تبادل‌ها.",
       "of": "3b61cee5",
       "at": [
-        "providence-day:verdict.ask[6].topic"
+        "providence-day:verdict.ask[6].topic",
+        "charlotte-christian:verdict.ask[5].topic"
       ]
     },
     {
@@ -2060,6 +2069,7 @@
       "at": [
         "providence-day:verdict.ask[8].topic",
         "charlotte-latin:verdict.ask[7].topic",
+        "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
         "cannon:verdict.ask[9].topic"
       ]
@@ -2263,6 +2273,8 @@
         "charlotte-latin:trips.years[2].trips[4].dest",
         "charlotte-latin:exchanges.partners[3].country",
         "charlotte-latin:milestones.events[3].title",
+        "charlotte-christian:trips.years[0].trips[4].dest",
+        "charlotte-christian:trips.years[2].trips[3].dest",
         "charlotte-country-day:trips.years[0].trips[5].dest",
         "charlotte-country-day:trips.years[2].trips[0].dest"
       ]
@@ -2373,6 +2385,8 @@
       "at": [
         "charlotte-latin:trips.years[0].trips[7].dest",
         "charlotte-latin:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[0].trips[1].dest",
+        "charlotte-christian:trips.years[2].trips[4].dest",
         "charlotte-country-day:trips.years[0].trips[0].dest",
         "charlotte-country-day:exchanges.partners[0].country"
       ]
@@ -2497,6 +2511,7 @@
       "at": [
         "charlotte-latin:trips.years[2].trips[1].place",
         "charlotte-latin:milestones.events[8].title",
+        "charlotte-christian:trips.years[0].trips[1].place",
         "charlotte-country-day:milestones.events[10].title"
       ]
     },
@@ -2857,6 +2872,7 @@
       "of": "7a999acd",
       "at": [
         "charlotte-latin:signup.groups[0].note",
+        "charlotte-christian:signup.groups[0].note",
         "charlotte-country-day:signup.groups[0].note"
       ]
     },
@@ -2972,6 +2988,10 @@
       "of": "bfabeb69",
       "at": [
         "charlotte-latin:signup.groups[0].events[5].audience",
+        "charlotte-christian:signup.groups[0].events[0].audience",
+        "charlotte-christian:signup.groups[0].events[1].audience",
+        "charlotte-christian:signup.groups[0].events[2].audience",
+        "charlotte-christian:signup.groups[0].events[3].audience",
         "charlotte-country-day:signup.groups[0].events[0].audience",
         "charlotte-country-day:signup.groups[0].events[1].audience",
         "charlotte-country-day:signup.groups[0].events[2].audience",
@@ -3167,7 +3187,8 @@
       "t": "Model UN",
       "of": "9ba6f23d",
       "at": [
-        "charlotte-latin:community.cells[5].name"
+        "charlotte-latin:community.cells[5].name",
+        "charlotte-christian:network.rows[0].label"
       ]
     },
     {
@@ -3688,6 +3709,7 @@
       "of": "81c33a02",
       "at": [
         "charlotte-latin:verdict.ask[8].topic",
+        "charlotte-christian:verdict.ask[6].topic",
         "charlotte-country-day:verdict.ask[9].topic"
       ]
     },
@@ -3713,6 +3735,1734 @@
       ]
     },
     {
+      "t": "دانش‌آموزان Upper School در Charlotte Christian در Winterim شرکت می‌کنند؛ یک هفته در هر سال در گذر از فوریه به مارس، با شش تا هشت سفر به خارج از کشور که هر سال از پایهٔ 9 ارائه می‌شود.",
+      "of": "b1de1b50",
+      "at": [
+        "charlotte-christian:lead.strong"
+      ]
+    },
+    {
+      "t": "بیشتر سفرها سفر را با یک همکار در مأموریت مذهبی یا خدمت همراه می‌کنند، از SCORE International در جمهوری دومینیکن، که از 2009–10 سابقهٔ ثبت‌شده دارد، تا Samaritan's Feet در پرتغال.",
+      "of": "9f16daa4",
+      "at": [
+        "charlotte-christian:lead.muted"
+      ]
+    },
+    {
+      "t": "سفر به خارج از کشور",
+      "of": "880958d4",
+      "at": [
+        "charlotte-christian:stats[0].label"
+      ]
+    },
+    {
+      "t": "ارائه‌شده در Winterim 2027، بر پایهٔ دفترچهٔ اطلاعاتی مدرسه",
+      "of": "fd3d310b",
+      "at": [
+        "charlotte-christian:stats[0].note"
+      ]
+    },
+    {
+      "t": "کشور",
+      "of": "92e99ecd",
+      "at": [
+        "charlotte-christian:stats[1].label",
+        "charlotte-country-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "شمارش ما از پنج دورهٔ Winterim، 2023–2027",
+      "of": "67da5c25",
+      "at": [
+        "charlotte-christian:stats[1].note"
+      ]
+    },
+    {
+      "t": "واحد درسی Winterim لازم برای فارغ‌التحصیلی",
+      "of": "8bba5721",
+      "at": [
+        "charlotte-christian:stats[2].label"
+      ]
+    },
+    {
+      "t": ".25 در هر سال Upper School",
+      "of": "33dd954c",
+      "at": [
+        "charlotte-christian:stats[2].note"
+      ]
+    },
+    {
+      "t": "نخستین سفر ثبت‌شده با SCORE International",
+      "of": "ae804668",
+      "at": [
+        "charlotte-christian:stats[3].label"
+      ]
+    },
+    {
+      "t": "31 دانش‌آموز به جمهوری دومینیکن، به گفتهٔ مدرسه",
+      "of": "ad981135",
+      "at": [
+        "charlotte-christian:stats[3].note"
+      ]
+    },
+    {
+      "t": "سی و پنج سفر به خارج از کشور ارائه‌شده در پنج دورهٔ Winterim، از 2023 تا 2027، که برای هر یک پایه‌های مجاز و اندازهٔ گروه منتشر شده و بیشترشان یک همکار در مأموریت مذهبی یا خدمت دارند.",
+      "of": "f66bb874",
+      "at": [
+        "charlotte-christian:trips.headline"
+      ]
+    },
+    {
+      "t": "سفرهای Winterim به خارج از کشور به روی دانش‌آموزان Upper School باز است، برخی از پایهٔ 9 و بیشترشان از پایهٔ 10، و دفترچهٔ هر سال برای هر سفر پایه‌های مجاز، اندازهٔ گروه و موضوع آن را مشخص می‌کند.",
+      "of": "70474adc",
+      "at": [
+        "charlotte-christian:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "دفترچه‌ها سفرهای ارائه‌شده را فهرست می‌کنند و فهرست نهایی سفرها به ثبت‌نام‌ها بستگی دارد. Winterim تجربه‌های محلی و داخلی نیز ارائه می‌دهد، بنابراین رفتن به خارج از کشور یکی از گزینه‌های بسیار است.",
+      "of": "c9ee7295",
+      "at": [
+        "charlotte-christian:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Winterim 2027",
+      "of": "daf7b8d3",
+      "at": [
+        "charlotte-christian:trips.years[0].note",
+        "charlotte-christian:trips.years[0].trips[0].timing",
+        "charlotte-christian:trips.years[0].trips[1].timing",
+        "charlotte-christian:trips.years[0].trips[2].timing",
+        "charlotte-christian:trips.years[0].trips[3].timing",
+        "charlotte-christian:trips.years[0].trips[4].timing",
+        "charlotte-christian:trips.years[0].trips[5].timing",
+        "charlotte-christian:trips.years[0].trips[6].timing"
+      ]
+    },
+    {
+      "t": "برزیل",
+      "of": "808bf777",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].dest",
+        "charlotte-christian:trips.years[1].trips[1].dest",
+        "charlotte-christian:trips.years[1].trips[2].dest"
+      ]
+    },
+    {
+      "t": "سائوپائولو",
+      "of": "a97d65fb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · ورزشکاران دختر · 16–40 دانش‌آموز",
+      "of": "84424c73",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "یک تور خدمت مذهبی ورزشی با Missionary Athletes International · کارگاه‌های ورزشی و برنامه‌های ارتباط با جامعه همراه با کلیساهای محلی",
+      "of": "3837eede",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 25–35 دانش‌آموز",
+      "of": "8ce305da",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "گفت‌وگو به زبان فرانسوی و زمستان کبک، همراه با خدمت در کنار یک کلیسای محلی",
+      "of": "0f7c35e8",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "جمهوری دومینیکن",
+      "of": "efe03871",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].dest",
+        "charlotte-christian:trips.years[1].trips[5].dest",
+        "charlotte-christian:trips.years[2].trips[1].dest",
+        "charlotte-christian:trips.years[3].trips[0].dest",
+        "charlotte-christian:trips.years[3].trips[1].dest",
+        "charlotte-christian:trips.years[4].trips[0].dest",
+        "charlotte-christian:trips.years[4].trips[1].dest",
+        "cannon:trips.years[0].trips[0].dest"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 16–32 دانش‌آموز",
+      "of": "c14d94eb",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "یادگیری خدمت‌محور با SCORE International",
+      "of": "9fe5bbb4",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[2].theme",
+        "charlotte-christian:trips.years[1].trips[5].theme",
+        "charlotte-christian:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 11–12 · 35–40 دانش‌آموز",
+      "of": "282b6160",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].group"
+      ]
+    },
+    {
+      "t": "طبیعت و فرهنگ، همراه با یک پروژهٔ خدماتی در زمینهٔ پاسداری از محیط زیست",
+      "of": "0e21c24d",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[3].theme"
+      ]
+    },
+    {
+      "t": "سورنتو، پمپئی + رم",
+      "of": "2dceb288",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].place",
+        "charlotte-christian:trips.years[2].trips[3].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · 24–32 دانش‌آموز",
+      "of": "cd29cba6",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].group"
+      ]
+    },
+    {
+      "t": "هنر، تاریخ و ایمان، همراه با خدمت در رم",
+      "of": "fbfda720",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[4].theme",
+        "charlotte-christian:trips.years[2].trips[3].theme"
+      ]
+    },
+    {
+      "t": "مکزیک",
+      "of": "2c485c16",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].dest",
+        "charlotte-christian:trips.years[4].trips[4].dest"
+      ]
+    },
+    {
+      "t": "لاپاز",
+      "of": "4ce30ab5",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 16–20 دانش‌آموز",
+      "of": "61566892",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].group",
+        "charlotte-christian:trips.years[1].trips[3].group"
+      ]
+    },
+    {
+      "t": "خدمت و پرورش معنوی با Rancho El Camino",
+      "of": "7371d242",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[5].theme"
+      ]
+    },
+    {
+      "t": "پرتغال",
+      "of": "268c9f87",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].dest",
+        "charlotte-christian:trips.years[3].trips[7].dest"
+      ]
+    },
+    {
+      "t": "لیسبون",
+      "of": "73fe8472",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].place",
+        "charlotte-christian:trips.years[3].trips[7].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 10–12 دانش‌آموز",
+      "of": "3236b88b",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].group"
+      ]
+    },
+    {
+      "t": "توزیع کفش با Samaritan's Feet",
+      "of": "6d7464e0",
+      "at": [
+        "charlotte-christian:trips.years[0].trips[6].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2026",
+      "of": "d9f7b740",
+      "at": [
+        "charlotte-christian:trips.years[1].note",
+        "charlotte-christian:trips.years[1].trips[0].timing",
+        "charlotte-christian:trips.years[1].trips[1].timing",
+        "charlotte-christian:trips.years[1].trips[2].timing",
+        "charlotte-christian:trips.years[1].trips[3].timing",
+        "charlotte-christian:trips.years[1].trips[4].timing",
+        "charlotte-christian:trips.years[1].trips[5].timing",
+        "charlotte-christian:trips.years[1].trips[6].timing",
+        "charlotte-christian:trips.years[1].trips[7].timing"
+      ]
+    },
+    {
+      "t": "آتن، کورینت + نافپلیو",
+      "of": "743a2533",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 11–12 · 16–40 دانش‌آموز",
+      "of": "fd8b705f",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].group"
+      ]
+    },
+    {
+      "t": "در جای پای پولس، همراه با پاک‌سازی ساحل",
+      "of": "db9d6da2",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "ریودوژانیرو",
+      "of": "09c24330",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].place",
+        "charlotte-christian:trips.years[1].trips[2].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 18–30 دانش‌آموز",
+      "of": "d9fb73ab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].group"
+      ]
+    },
+    {
+      "t": "فرهنگ آفریقایی-برزیلی، همراه با یک روز خدمت",
+      "of": "eb6ec44d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · ورزشکاران دختر · 10–25 دانش‌آموز",
+      "of": "76125896",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].group"
+      ]
+    },
+    {
+      "t": "یک تور خدمت مذهبی ورزشی · کارگاه‌های ورزشی و برنامه‌های ارتباط کلیسا با جامعه",
+      "of": "a1081dab",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "بیرمنگام",
+      "of": "6bc36087",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].place"
+      ]
+    },
+    {
+      "t": "یک سفر مأموریت مذهبی با یک کلیسای محلی: توزیع غذا و برنامه‌های ویژهٔ نوجوانان",
+      "of": "c6a53f1b",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[3].theme"
+      ]
+    },
+    {
+      "t": "کاستاریکا",
+      "of": "4a26cbe8",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].dest",
+        "charlotte-country-day:trips.years[0].trips[4].dest",
+        "cannon:trips.years[0].trips[1].dest",
+        "cannon:trips.years[1].trips[0].dest"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · دختران · 16–30 دانش‌آموز",
+      "of": "03e00863",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].group"
+      ]
+    },
+    {
+      "t": "زیست‌شناسی و حفاظت از حیات وحش، همراه با درخت‌کاری و یک پناهگاه حیات وحش",
+      "of": "fa5c592c",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[4].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 16–30 دانش‌آموز",
+      "of": "8f8ec15d",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[5].group"
+      ]
+    },
+    {
+      "t": "پاناما",
+      "of": "754af0bd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].dest",
+        "charlotte-christian:trips.years[2].trips[5].dest",
+        "charlotte-christian:trips.years[3].trips[6].dest",
+        "charlotte-christian:trips.years[4].trips[5].dest"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–10 · 16–21 دانش‌آموز",
+      "of": "c186c8f1",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].group",
+        "charlotte-christian:trips.years[2].trips[5].group"
+      ]
+    },
+    {
+      "t": "Vacation Bible School در یک مدرسهٔ مسیحی در محلات مرکزی شهر، پانامای قدیم و یک روستای امبرا",
+      "of": "a1c8d2dc",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[6].theme",
+        "charlotte-christian:trips.years[2].trips[5].theme"
+      ]
+    },
+    {
+      "t": "اسکاتلند",
+      "of": "54d53665",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].dest"
+      ]
+    },
+    {
+      "t": "هایلندز، ادینبرو + گلاسگو",
+      "of": "002a10dd",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · دختران · 20–30 دانش‌آموز",
+      "of": "ab9a3512",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].group"
+      ]
+    },
+    {
+      "t": "تاریخ و فرهنگ، همراه با یک روز خدمت در گلاسگو",
+      "of": "72c286aa",
+      "at": [
+        "charlotte-christian:trips.years[1].trips[7].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2025",
+      "of": "dcf7bbf9",
+      "at": [
+        "charlotte-christian:trips.years[2].note",
+        "charlotte-christian:trips.years[2].trips[0].timing",
+        "charlotte-christian:trips.years[2].trips[1].timing",
+        "charlotte-christian:trips.years[2].trips[2].timing",
+        "charlotte-christian:trips.years[2].trips[3].timing",
+        "charlotte-christian:trips.years[2].trips[4].timing",
+        "charlotte-christian:trips.years[2].trips[5].timing"
+      ]
+    },
+    {
+      "t": "کوبا",
+      "of": "f2388c8c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].dest",
+        "charlotte-country-day:milestones.events[9].title"
+      ]
+    },
+    {
+      "t": "هاوانا + رمدیوس",
+      "of": "77d6ef0b",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 15–20 دانش‌آموز",
+      "of": "a27040a7",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].group"
+      ]
+    },
+    {
+      "t": "توزیع کفش با Samaritan's Feet، در مدارس و جوامع ناشنوایان",
+      "of": "c57c35ec",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 16–45 دانش‌آموز",
+      "of": "ef5aa6ed",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[1].group"
+      ]
+    },
+    {
+      "t": "ایرلند",
+      "of": "1578db1c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].dest"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · 20–40 دانش‌آموز",
+      "of": "7b144b4d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].group"
+      ]
+    },
+    {
+      "t": "تور \"Best of Ireland\" · صخره‌های موهر، بازی‌های گیلیک و کتاب کلز",
+      "of": "847d4f9c",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · 24–40 دانش‌آموز",
+      "of": "1c77b691",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[3].group"
+      ]
+    },
+    {
+      "t": "مونترال + شهر کبک",
+      "of": "35da86de",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · 20–40 دانش‌آموز",
+      "of": "5d1c0a7d",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].group"
+      ]
+    },
+    {
+      "t": "کانادای فرانسوی‌زبان، همراه با زمانی برای خدمت به دیگران",
+      "of": "a632ecda",
+      "at": [
+        "charlotte-christian:trips.years[2].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2024",
+      "of": "dbf7ba66",
+      "at": [
+        "charlotte-christian:trips.years[3].note",
+        "charlotte-christian:trips.years[3].trips[0].timing",
+        "charlotte-christian:trips.years[3].trips[1].timing",
+        "charlotte-christian:trips.years[3].trips[2].timing",
+        "charlotte-christian:trips.years[3].trips[3].timing",
+        "charlotte-christian:trips.years[3].trips[4].timing",
+        "charlotte-christian:trips.years[3].trips[5].timing",
+        "charlotte-christian:trips.years[3].trips[6].timing",
+        "charlotte-christian:trips.years[3].trips[7].timing"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · حداکثر 40 دانش‌آموز",
+      "of": "5511c716",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].group",
+        "charlotte-christian:trips.years[4].trips[0].group"
+      ]
+    },
+    {
+      "t": "خدمت با SCORE International",
+      "of": "ac7bc0ee",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[0].theme"
+      ]
+    },
+    {
+      "t": "تیم اصلی بیسبال · حداکثر 25 دانش‌آموز",
+      "of": "5457d418",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].group"
+      ]
+    },
+    {
+      "t": "خدمت با SCORE International و دو مسابقهٔ نمایشی",
+      "of": "9bb78ef9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[1].theme",
+        "charlotte-christian:trips.years[4].trips[1].theme"
+      ]
+    },
+    {
+      "t": "کیتو، بانیوس + جزیرهٔ لا پلاتا",
+      "of": "4468430b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · حداکثر 27 دانش‌آموز",
+      "of": "5e6ff8cf",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].group"
+      ]
+    },
+    {
+      "t": "تمرین زبان اسپانیایی و ماجراجویی، همراه با خدمت در یک مزرعهٔ کاکائو",
+      "of": "170ae113",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[2].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · حداکثر 35 دانش‌آموز",
+      "of": "484e0f3a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].group"
+      ]
+    },
+    {
+      "t": "آموزش و ماجراجویی · یک یخچال طبیعی، یک غار یخی و ریکیاویک",
+      "of": "353a1ddb",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[3].theme"
+      ]
+    },
+    {
+      "t": "آلمان و اتریش",
+      "of": "8ec09463",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].dest"
+      ]
+    },
+    {
+      "t": "مونیخ + سالزبورگ",
+      "of": "b959b2ac",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · حداکثر 35 دانش‌آموز",
+      "of": "68a5242a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].group"
+      ]
+    },
+    {
+      "t": "تاریخ و فرهنگ · داخائو، نویشوانشتاین و هوهن‌سالزبورگ",
+      "of": "f4a857c9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[4].theme"
+      ]
+    },
+    {
+      "t": "یونان و ایتالیا",
+      "of": "b393f43b",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].dest"
+      ]
+    },
+    {
+      "t": "آتن، دلفی، سورنتو، پمپئی + رم",
+      "of": "5508dbe9",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · حداکثر 36 دانش‌آموز",
+      "of": "a49d4451",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].group",
+        "charlotte-christian:trips.years[4].trips[2].group"
+      ]
+    },
+    {
+      "t": "هنر، تاریخ و ایمان، همراه با یک پروژهٔ خدماتی در رم",
+      "of": "80fa75ce",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[5].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–10 · حداکثر 20 دانش‌آموز",
+      "of": "ae20003a",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].group"
+      ]
+    },
+    {
+      "t": "مأموریت مذهبی و خدمت",
+      "of": "0cdaa077",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[6].theme"
+      ]
+    },
+    {
+      "t": "پایه‌های 10–12 · حداکثر 15 دانش‌آموز",
+      "of": "2d664adc",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].group",
+        "charlotte-christian:trips.years[4].trips[4].group"
+      ]
+    },
+    {
+      "t": "مأموریت مذهبی و خدمت با Samaritan's Feet",
+      "of": "af9974c3",
+      "at": [
+        "charlotte-christian:trips.years[3].trips[7].theme",
+        "charlotte-christian:trips.years[4].trips[4].theme"
+      ]
+    },
+    {
+      "t": "Winterim 2023",
+      "of": "def7bf1f",
+      "at": [
+        "charlotte-christian:trips.years[4].note",
+        "charlotte-christian:trips.years[4].trips[0].timing",
+        "charlotte-christian:trips.years[4].trips[1].timing",
+        "charlotte-christian:trips.years[4].trips[2].timing",
+        "charlotte-christian:trips.years[4].trips[3].timing",
+        "charlotte-christian:trips.years[4].trips[4].timing",
+        "charlotte-christian:trips.years[4].trips[5].timing"
+      ]
+    },
+    {
+      "t": "خدمت و مأموریت مذهبی با SCORE International، در روستاهای نیشکرکاری",
+      "of": "e134de9c",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[0].theme"
+      ]
+    },
+    {
+      "t": "تیم اصلی بیسبال · حداکثر 22 دانش‌آموز",
+      "of": "2f5a84c7",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[1].group"
+      ]
+    },
+    {
+      "t": "ایتالیا و یونان",
+      "of": "56467571",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].dest"
+      ]
+    },
+    {
+      "t": "آتن، دلفی، پمپئی + رم",
+      "of": "13f8f1d1",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].place"
+      ]
+    },
+    {
+      "t": "هنر، تاریخ و ایمان",
+      "of": "d6e56dfb",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[2].theme"
+      ]
+    },
+    {
+      "t": "انگلستان و فرانسه",
+      "of": "d1830c93",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].dest"
+      ]
+    },
+    {
+      "t": "لندن، استراتفورد-آپان-ایون، آکسفورد + پاریس",
+      "of": "2408949e",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · حداکثر 30 دانش‌آموز",
+      "of": "cbe3059b",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].group"
+      ]
+    },
+    {
+      "t": "تاریخ ادبی · تئاتر گلوب و زادگاه شکسپیر",
+      "of": "f2df711d",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[3].theme"
+      ]
+    },
+    {
+      "t": "لا میسیون، باخا کالیفرنیا",
+      "of": "56b84549",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[4].place"
+      ]
+    },
+    {
+      "t": "پایه‌های 9–12 · حداکثر 20 دانش‌آموز",
+      "of": "e2dadbd0",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].group"
+      ]
+    },
+    {
+      "t": "مأموریت مذهبی و خدمت، همراه با Vacation Bible School",
+      "of": "e86654cc",
+      "at": [
+        "charlotte-christian:trips.years[4].trips[5].theme"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان Upper School در Charlotte Christian در میدان سن پیتر، رم",
+      "of": "2e4ac334",
+      "at": [
+        "charlotte-christian:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "ایتالیا، در Winterim",
+      "of": "f8be29c8",
+      "at": [
+        "charlotte-christian:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "یک سفر Winterim در رم، در میدان سن پیتر.",
+      "of": "cd909f39",
+      "at": [
+        "charlotte-christian:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "عکس: Charlotte Christian School",
+      "of": "b4dee894",
+      "at": [
+        "charlotte-christian:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "سفرهای مأموریت مذهبی از 1998.",
+      "of": "9e63d634",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "سفرهای مأموریت مذهبی با حمایت مدرسه، با حضور معلمان و دانش‌آموزان، در 1998 به مکزیک، در 1999 به کاستاریکا و در 2000 به اتریش رفتند.",
+      "of": "f2b45faf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "SCORE International، 2009–10.",
+      "of": "5ee1d1f2",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "در آن سال 31 دانش‌آموز با SCORE International در جمهوری دومینیکن کار کردند.",
+      "of": "7d95e865",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "بسکتبال در لیموژ.",
+      "of": "69ce32e5",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "در 2009–10، چهار بازیکن تیم اصلی در یک تورنمنت شهرهای همکار در لیموژ، فرانسه، نمایندهٔ شارلوت بودند.",
+      "of": "8585aa63",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "تابستان 2011.",
+      "of": "091cdf6e",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].lead"
+      ]
+    },
+    {
+      "t": "42 دانش‌آموز در سفرهای مأموریت مذهبی مدرسه به جمهوری دومینیکن یا به سی‌آیلند در جورجیا، همراه با Habitat for Humanity، شرکت کردند.",
+      "of": "55aeccaf",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[3].text"
+      ]
+    },
+    {
+      "t": "نخستین J-Term.",
+      "of": "1669ffad",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].lead"
+      ]
+    },
+    {
+      "t": "J-Term سال 2013–14 با سفرهای مأموریت مذهبی به اوگاندا، نیکاراگوئه یا جمهوری دومینیکن، و سفرهایی به فرانسه و نیویورک اعلام شد.",
+      "of": "520636dc",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[4].text"
+      ]
+    },
+    {
+      "t": "سالامانکا، تابستان 2018.",
+      "of": "732fc624",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].lead"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان Upper School برای غوطه‌وری زبانی و فرهنگی به اسپانیا سفر کردند.",
+      "of": "95475ac7",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[5].text"
+      ]
+    },
+    {
+      "t": "ایتالیا، زمستان 2020.",
+      "of": "b439a08f",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].lead"
+      ]
+    },
+    {
+      "t": "در یک سفر J-Term، جمعاً 40 نفر از دانش‌آموزان، کارکنان و والدین ردّ هنر و تاریخ مسیحی را در رم دنبال کردند.",
+      "of": "b1161259",
+      "at": [
+        "charlotte-christian:trips.alsoOnRecord[6].text"
+      ]
+    },
+    {
+      "t": "ثبت‌نام Winterim 2027 در ژوئیه 2026 آغاز شد و در ماه اوت پایان یافت، و مهلت تحویل قراردادها و رونوشت گذرنامه‌ها در ماه سپتامبر بود.",
+      "of": "7981f78b",
+      "at": [
+        "charlotte-christian:signup.headline"
+      ]
+    },
+    {
+      "t": "جایگاه‌ها بر پایهٔ اولویت تخصیص می‌یابند: بالاترین پایهٔ تحصیلی واجد شرایط، شرکت‌کنندگانی که بار نخست شرکت می‌کنند، پیوند با برنامهٔ درسی، دقت اطلاعات ثبت‌نام و آمادگی نشان‌داده‌شده. زمان ثبت‌نام کمترین اهمیت را دارد.",
+      "of": "6a3472e2",
+      "at": [
+        "charlotte-christian:signup.intro.strong"
+      ]
+    },
+    {
+      "t": "سفرهای بین‌المللی به گذرنامه‌ای نیاز دارند که دست‌کم تا شش ماه پس از سفر اعتبار داشته باشد، و دفترچه خانواده‌ها را برای بیمهٔ مسافرتی به شرکت‌های بیرونی ارجاع می‌دهد.",
+      "of": "edbc8a1c",
+      "at": [
+        "charlotte-christian:signup.intro.muted"
+      ]
+    },
+    {
+      "t": "Upper School · Winterim 2027",
+      "of": "36206b84",
+      "at": [
+        "charlotte-christian:signup.groups[0].title"
+      ]
+    },
+    {
+      "t": "24 ژوئیه 2026",
+      "of": "16cdbde9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].when"
+      ]
+    },
+    {
+      "t": "آغاز ثبت‌نام",
+      "of": "57db52b9",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[0].name"
+      ]
+    },
+    {
+      "t": "28 اوت 2026",
+      "of": "de3274a0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].when"
+      ]
+    },
+    {
+      "t": "پایان ثبت‌نام و پرداخت پیش‌پرداخت، در نیمه‌شب",
+      "of": "181076aa",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[1].name"
+      ]
+    },
+    {
+      "t": "5 سپتامبر 2026",
+      "of": "ef816aad",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].when"
+      ]
+    },
+    {
+      "t": "تأیید ثبت‌نام‌ها از طریق ایمیل",
+      "of": "1cc4b161",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[2].name"
+      ]
+    },
+    {
+      "t": "11 سپتامبر 2026",
+      "of": "5e0692e8",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].when"
+      ]
+    },
+    {
+      "t": "مهلت تحویل قراردادهای مالی، فرم‌های سلب مسئولیت و رونوشت گذرنامه‌ها",
+      "of": "70df62e0",
+      "at": [
+        "charlotte-christian:signup.groups[0].events[3].name"
+      ]
+    },
+    {
+      "t": "Global Knights، Knights Nations Club، یک Global Awareness Prefect و Romans 12، به رهبری مدیر امور تنوع، تعلق‌خاطر و آگاهی جهانی.",
+      "of": "37035c3c",
+      "at": [
+        "charlotte-christian:community.headline"
+      ]
+    },
+    {
+      "t": "مدرسه می‌کوشد همدلی فرهنگی، آگاهی جهانی و نگرشی فروتنانه را در دانش‌آموزان تقویت کند و در عین حال در میان تفاوت‌هایشان در پی وحدت باشد،",
+      "of": "b1c8737b",
+      "at": [
+        "charlotte-christian:community.intro.strong"
+      ]
+    },
+    {
+      "t": "از طریق فعالیت‌هایی به رهبری مدیر امور تنوع، تعلق‌خاطر و آگاهی جهانی.",
+      "of": "5253137a",
+      "at": [
+        "charlotte-christian:community.intro.muted"
+      ]
+    },
+    {
+      "t": "Global Knights",
+      "of": "0bb765f8",
+      "at": [
+        "charlotte-christian:community.cells[0].name"
+      ]
+    },
+    {
+      "t": "یک درس اختیاری پایهٔ 5 و یک گروه دانش‌آموزی در Middle School، و یک باشگاه در Upper School.",
+      "of": "18c3805f",
+      "at": [
+        "charlotte-christian:community.cells[0].text"
+      ]
+    },
+    {
+      "t": "Knights Nations Club",
+      "of": "5469c2eb",
+      "at": [
+        "charlotte-christian:community.cells[1].name"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان Upper School که دربارهٔ جوامع محلی و بین‌المللی می‌آموزند، از فروشگاه‌های مواد غذایی بین‌المللی تا چگونگی برگزاری جشن عید پاک در سراسر جهان.",
+      "of": "cb5e96bb",
+      "at": [
+        "charlotte-christian:community.cells[1].text"
+      ]
+    },
+    {
+      "t": "Global Awareness Prefect",
+      "of": "b2f64770",
+      "at": [
+        "charlotte-christian:community.cells[2].name"
+      ]
+    },
+    {
+      "t": "یکی از نُه مسئول (prefect) شورای دانش‌آموزی Upper School.",
+      "of": "1e103adb",
+      "at": [
+        "charlotte-christian:community.cells[2].text"
+      ]
+    },
+    {
+      "t": "Romans 12",
+      "of": "0fa36b8e",
+      "at": [
+        "charlotte-christian:community.cells[3].name"
+      ]
+    },
+    {
+      "t": "اعضایی از جامعهٔ مدرسه که ماهانه گرد هم می‌آیند و به گفتهٔ مدرسه، آگاهی چندفرهنگی و جهانی آن را تقویت می‌کنند.",
+      "of": "209fcb60",
+      "at": [
+        "charlotte-christian:community.cells[3].text"
+      ]
+    },
+    {
+      "t": "جشنوارهٔ چندفرهنگی",
+      "of": "1d6572a8",
+      "at": [
+        "charlotte-christian:community.cells[4].name"
+      ]
+    },
+    {
+      "t": "جشنی سالانه در Lower School، به‌عنوان بخشی از کلاس اسپانیایی.",
+      "of": "e168cf00",
+      "at": [
+        "charlotte-christian:community.cells[4].text"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان بین‌المللی",
+      "of": "67ddb06d",
+      "at": [
+        "charlotte-christian:community.cells[5].name"
+      ]
+    },
+    {
+      "t": "مدرسه دانش‌آموزان بین‌المللی دارای ویزای I-20 را ثبت‌نام می‌کند، و خانوادهٔ میزبان فراهم نمی‌کند.",
+      "of": "7c3c3888",
+      "at": [
+        "charlotte-christian:community.cells[5].text"
+      ]
+    },
+    {
+      "t": "یادگیری جهانی در هر دوره، از JK تا 12، با سه زبان برای آشنایی در پایهٔ 5 و سفرهای Winterim به خارج از کشور از پایهٔ 9.",
+      "of": "333d3d36",
+      "at": [
+        "charlotte-christian:start.headline"
+      ]
+    },
+    {
+      "t": "به گفتهٔ خود مدرسه، \"The study of modern and classical languages equips students to impact the global culture for Christ.\"",
+      "of": "630744bd",
+      "at": [
+        "charlotte-christian:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Winterim، هفتهٔ سالانهٔ تجربه‌ها در Upper School، پنج هدف ویژهٔ خود را تعیین کرده است.",
+      "of": "a6b559cf",
+      "at": [
+        "charlotte-christian:start.intro.muted"
+      ]
+    },
+    {
+      "t": "رشد معنوی در روابط میان دانش‌آموزان و معلمان",
+      "of": "aea85279",
+      "at": [
+        "charlotte-christian:start.framework[0].text"
+      ]
+    },
+    {
+      "t": "حل مسئله، استقلال و مهارت‌های زندگی در محیط‌های تازه",
+      "of": "30c1d5b9",
+      "at": [
+        "charlotte-christian:start.framework[1].text"
+      ]
+    },
+    {
+      "t": "کشف میراث، باورها و تجربه‌های یک بستر فرهنگی دیگر",
+      "of": "a6eab46f",
+      "at": [
+        "charlotte-christian:start.framework[2].text"
+      ]
+    },
+    {
+      "t": "خدمت به یک جامعه",
+      "of": "c98caeee",
+      "at": [
+        "charlotte-christian:start.framework[3].text"
+      ]
+    },
+    {
+      "t": "کاوش در مکان‌ها، موزه‌ها و بناهای شاخص",
+      "of": "20a6d6e9",
+      "at": [
+        "charlotte-christian:start.framework[4].text"
+      ]
+    },
+    {
+      "t": "JK–4",
+      "of": "e110cc75",
+      "at": [
+        "charlotte-christian:start.divisions[0].grades",
+        "charlotte-country-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "زبان اسپانیایی، همراه با جشنوارهٔ چندفرهنگی سالانه",
+      "of": "e4dccff2",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "مطالعات اجتماعی که از خانواده‌ها و محله‌ها تا جغرافیای جهانی گسترش می‌یابد",
+      "of": "2c2ce7fe",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "آشنایی با فرهنگ‌های دیگر از طریق ادبیات، سخنرانان مهمان و پروژه‌ها",
+      "of": "76475748",
+      "at": [
+        "charlotte-christian:start.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:start.divisions[1].grades",
+        "charlotte-country-day:start.divisions[1].grades",
+        "cannon:start.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "**دورهٔ آشنایی با زبان‌ها در پایهٔ 5** شامل فرانسوی، لاتین و اسپانیایی، سپس یک زبان تا پایهٔ 8",
+      "of": "3d8eb71a",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "درس‌های اختیاری Global Knights و Multicultural Studies",
+      "of": "d8817f2f",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "ماه‌های میراث فرهنگی در کلاس‌های زبان‌های خارجی",
+      "of": "dc96d1b7",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "اردوهای علمی به Sudan Interior Missions (پایهٔ 6)، یادبود پروانه‌های هولوکاست (پایهٔ 7) و دربارهٔ جنبش حقوق مدنی (پایهٔ 8)",
+      "of": "efffb023",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "Modern World Civilizations",
+      "of": "79f78ae4",
+      "at": [
+        "charlotte-christian:start.divisions[1].items[4]"
+      ]
+    },
+    {
+      "t": "فرانسوی، لاتین و اسپانیایی تا سطح AP",
+      "of": "45d606ba",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Survey of World Literature، با این پرسش: \"What does it mean to be an engaged global citizen?\"",
+      "of": "564f6945",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "AP World History: Modern",
+      "of": "5e5aef15",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "**Winterim در هر سال،** با سفرهای خارج از کشور از پایهٔ 9",
+      "of": "dbf021e3",
+      "at": [
+        "charlotte-christian:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "SCORE International در جمهوری دومینیکن دست‌کم از 2009–10، Samaritan's Feet و دیگر همکاران مأموریت مذهبی در سفرهای Winterim، و Model UN و Harvard Model Congress در خود مدرسه.",
+      "of": "7fbf99bd",
+      "at": [
+        "charlotte-christian:network.headline"
+      ]
+    },
+    {
+      "t": "سفرهای Charlotte Christian از طریق همکاران دیرینه در مأموریت مذهبی و خدمت انجام می‌شود، بیش از همه SCORE International در جمهوری دومینیکن.",
+      "of": "4f07fe6d",
+      "at": [
+        "charlotte-christian:network.intro.strong"
+      ]
+    },
+    {
+      "t": "در خود مدرسه، Upper School یک باشگاه Model UN دارد، و در 2010–11 بزرگ‌ترین هیئت نمایندگی را در میان همهٔ مدارس کشور به Harvard Model Congress فرستاد.",
+      "of": "9347c2d9",
+      "at": [
+        "charlotte-christian:network.intro.muted"
+      ]
+    },
+    {
+      "t": "سفرهای ثبت‌شده با SCORE International",
+      "of": "85d7b52f",
+      "at": [
+        "charlotte-christian:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "Winterim 2027، برای پایه‌های 10–12",
+      "of": "0fdada5c",
+      "at": [
+        "charlotte-christian:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Winterim 2026، برای پایه‌های 10–12",
+      "of": "592be1c5",
+      "at": [
+        "charlotte-christian:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Winterim 2025، برای پایه‌های 10–12",
+      "of": "ba09951a",
+      "at": [
+        "charlotte-christian:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "Winterim 2024، به‌علاوهٔ یک سفر خدماتی تیم اصلی بیسبال",
+      "of": "6b5eaa95",
+      "at": [
+        "charlotte-christian:network.conferences[3].text"
+      ]
+    },
+    {
+      "t": "Winterim 2023، به‌علاوهٔ یک سفر خدماتی تیم اصلی بیسبال",
+      "of": "34806714",
+      "at": [
+        "charlotte-christian:network.conferences[4].text"
+      ]
+    },
+    {
+      "t": "31 دانش‌آموز",
+      "of": "0779a3fb",
+      "at": [
+        "charlotte-christian:network.conferences[5].text"
+      ]
+    },
+    {
+      "t": "SCORE International",
+      "of": "2b1bad1d",
+      "at": [
+        "charlotte-christian:network.cells[0].name",
+        "charlotte-christian:milestones.events[2].title"
+      ]
+    },
+    {
+      "t": "یک نهاد خدمت مذهبی مسیح‌محور که سفرهای مدرسه به جمهوری دومینیکن با آن همکاری می‌کنند، از طریق ورزش، مراقبت از کودکان یتیم و ساخت‌وساز.",
+      "of": "4e0aa8ac",
+      "at": [
+        "charlotte-christian:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Samaritan's Feet",
+      "of": "9e0222ed",
+      "at": [
+        "charlotte-christian:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "سفرهای توزیع کفش به باخا کالیفرنیا، لیسبون و کوبا، که در چهار دورهٔ Winterim از 2023 تا 2027 ارائه شده‌اند.",
+      "of": "86e53654",
+      "at": [
+        "charlotte-christian:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "Missionary Athletes International",
+      "of": "7a5b3a63",
+      "at": [
+        "charlotte-christian:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "تور خدمت مذهبی ورزشی ورزشکاران دختر در برزیل، در Winterim 2027.",
+      "of": "54fc41b1",
+      "at": [
+        "charlotte-christian:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "Rancho El Camino",
+      "of": "6e905c70",
+      "at": [
+        "charlotte-christian:network.cells[3].name"
+      ]
+    },
+    {
+      "t": "خدمت در لاپاز، مکزیک، در Winterim 2027.",
+      "of": "b00ca515",
+      "at": [
+        "charlotte-christian:network.cells[3].text"
+      ]
+    },
+    {
+      "t": "یک باشگاه در Upper School.",
+      "of": "e0b4beb8",
+      "at": [
+        "charlotte-christian:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "Harvard Model Congress",
+      "of": "1d0fcbcc",
+      "at": [
+        "charlotte-christian:network.rows[1].label",
+        "charlotte-christian:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "در 2010–11، 43 دانش‌آموز سال سوم و سال آخر دبیرستان بزرگ‌ترین هیئت نمایندگی را در میان همهٔ مدارس کشور تشکیل دادند، در هشتمین سال حضور مدرسه در آنجا.",
+      "of": "eca7663e",
+      "at": [
+        "charlotte-christian:network.rows[1].text"
+      ]
+    },
+    {
+      "t": "Academic WorldQuest",
+      "of": "135cbfac",
+      "at": [
+        "charlotte-christian:network.rows[2].label",
+        "charlotte-country-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "هشت دانش‌آموز در 2011 در مسابقهٔ World Affairs Council of Charlotte رقابت کردند.",
+      "of": "e9299c24",
+      "at": [
+        "charlotte-christian:network.rows[2].text"
+      ]
+    },
+    {
+      "t": "همکاران سفر",
+      "of": "5fc6fea4",
+      "at": [
+        "charlotte-christian:network.rows[3].label"
+      ]
+    },
+    {
+      "t": "به گفتهٔ دفترچه‌ها، Joshua Expeditions، Grand Classroom و EF Tours چند سفر Winterim را اجرا می‌کنند.",
+      "of": "b5c85cd0",
+      "at": [
+        "charlotte-christian:network.rows[3].text"
+      ]
+    },
+    {
+      "t": "نزدیک به سه دهه سابقهٔ ثبت‌شده، از سفرهای مأموریت مذهبی به خارج از کشور در 1998 تا یک هفتهٔ الزامی Winterim در هر سال Upper School.",
+      "of": "d7700d34",
+      "at": [
+        "charlotte-christian:milestones.headline"
+      ]
+    },
+    {
+      "t": "مجلهٔ خود مدرسه سفرهای مأموریت مذهبی به خارج از کشور را از 1998 و SCORE International را از 2009–10 ثبت کرده است،",
+      "of": "45d84d4c",
+      "at": [
+        "charlotte-christian:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "و نیز یک هفتهٔ الزامی تجربه‌ها را در هر سال Upper School، از زمان آغاز J-Term در 2013–14.",
+      "of": "2dc42d5f",
+      "at": [
+        "charlotte-christian:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "سفرهای مأموریت مذهبی به خارج از کشور",
+      "of": "6b985fa6",
+      "at": [
+        "charlotte-christian:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "سفرهای مأموریت مذهبی با حمایت مدرسه، با حضور معلمان و دانش‌آموزان، به مکزیک رفتند، سپس در 1999 به کاستاریکا و در 2000 به اتریش.",
+      "of": "9de7d4d9",
+      "at": [
+        "charlotte-christian:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "خانواده‌ها میزبان دانش‌آموزان گواتمالایی می‌شوند",
+      "of": "f5ae4cf2",
+      "at": [
+        "charlotte-christian:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "تبادل Faces، که بعدها Experiencias Interculturales نام گرفت، آغاز شد: دانش‌آموزان دبیرستانی مهمان از گواتمالا هشت هفته نزد خانواده‌های مدرسه زندگی کردند و در کلاس‌های Upper School شرکت کردند.",
+      "of": "71946e53",
+      "at": [
+        "charlotte-christian:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "در آن سال 31 دانش‌آموز در جمهوری دومینیکن خدمت کردند.",
+      "of": "c869cd82",
+      "at": [
+        "charlotte-christian:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "Lord of All Nations",
+      "of": "d2c8af54",
+      "at": [
+        "charlotte-christian:milestones.events[3].title"
+      ]
+    },
+    {
+      "t": "روز چندفرهنگی Lower School نمایندهٔ 24 کشور بود.",
+      "of": "d75f5c87",
+      "at": [
+        "charlotte-christian:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "بزرگ‌ترین هیئت نمایندگی در میان همهٔ مدارس کشور.",
+      "of": "0092aa02",
+      "at": [
+        "charlotte-christian:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "آغاز J-Term",
+      "of": "f16d9118",
+      "at": [
+        "charlotte-christian:milestones.events[5].title"
+      ]
+    },
+    {
+      "t": "یک هفتهٔ الزامی تجربه‌ها در هر سال Upper School، از دورهٔ فارغ‌التحصیلی 2017، با کسب .25 واحد درسی در هر سال.",
+      "of": "a11068b1",
+      "at": [
+        "charlotte-christian:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "Winterim",
+      "of": "4d5bbcf6",
+      "at": [
+        "charlotte-christian:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "در Winterim 2023 شش سفر به خارج از کشور ارائه شد.",
+      "of": "266150c9",
+      "at": [
+        "charlotte-christian:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "نقاط برجستهٔ برنامه، و یازده پرسشی که وب‌سایت مدرسه هنوز به آن‌ها پاسخ نمی‌دهد — هزینهٔ سفرها، کمک‌هزینه، اینکه کدام سفرها برگزار شدند، و ایمنی.",
+      "of": "b6cf535b",
+      "at": [
+        "charlotte-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "Charlotte Christian دیپلم جهانی یا برنامهٔ تبادل ندارد، اما هر سال Upper School شامل Winterim است، و دفترچه‌های آن هر سال شش تا هشت سفر به خارج از کشور را منتشر می‌کنند که برای هر یک پایه‌های مجاز، اندازهٔ گروه و، برای بیشترشان، یک همکار در مأموریت مذهبی یا خدمت مشخص شده است.",
+      "of": "0b7af53b",
+      "at": [
+        "charlotte-christian:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "یک Winterim الزامی در هر سال Upper School",
+      "of": "e5e7ad7e",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "سفرهای خارج از کشور از پایهٔ 9، که با پایه‌های مجاز و اندازهٔ گروه منتشر می‌شوند",
+      "of": "da24537d",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "همکاران مأموریت مذهبی و خدمت با سابقهٔ ثبت‌شده از 2009–10",
+      "of": "24e396fd",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "سه زبان برای آشنایی در پایهٔ 5",
+      "of": "f2bc0c74",
+      "at": [
+        "charlotte-christian:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "هزینه.",
+      "of": "04e0a6c2",
+      "at": [
+        "charlotte-christian:verdict.ask[0].topic",
+        "cannon:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "هزینهٔ یک سفر Winterim به خارج از کشور چقدر است و چه چیزهایی را در بر می‌گیرد، و پس از ثبت‌نام‌ها قیمت تا چه اندازه ممکن است تغییر کند؟",
+      "of": "a591be8f",
+      "at": [
+        "charlotte-christian:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "کمک‌هزینهٔ مالی تا نیمی از شهریه را پوشش می‌دهد و خانواده‌ها همهٔ هزینه‌های جانبی را می‌پردازند. آیا کمک‌هزینه یا صندوقی به هزینهٔ سفرهای Winterim کمک می‌کند؟",
+      "of": "f5accc6b",
+      "at": [
+        "charlotte-christian:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "پایهٔ 9.",
+      "of": "aff588b3",
+      "at": [
+        "charlotte-christian:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "بیشتر سفرهای خارج از کشور برای پایه‌های 10–12 یا 11–12 است، و اولویت با بالاترین پایه است. یک دانش‌آموز پایهٔ 9 هر چند وقت یک بار در یکی از این سفرها جا می‌گیرد؟",
+      "of": "984891ef",
+      "at": [
+        "charlotte-christian:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "کدام سفرها برگزار شدند.",
+      "of": "37757c77",
+      "at": [
+        "charlotte-christian:verdict.ask[3].topic"
+      ]
+    },
+    {
+      "t": "دفترچه‌ها سفرهای ارائه‌شده را فهرست می‌کنند و فهرست نهایی سفرها به ثبت‌نام‌ها بستگی دارد. هر سال در عمل کدام سفرها برگزار شدند؟",
+      "of": "1013c7e2",
+      "at": [
+        "charlotte-christian:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "نسبت همراهان بزرگسال به دانش‌آموزان چقدر است، و مدرسه چه بیمه‌ای دارد؟ دفترچه خانواده‌ها را به بیمه‌گران بیرونی ارجاع می‌دهد.",
+      "of": "e87c69eb",
+      "at": [
+        "charlotte-christian:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "آیا Experiencias Interculturales، تبادل گواتمالایی که در 2008 آغاز شد، هنوز برگزار می‌شود، یا تبادل دیگری ارائه می‌شود؟",
+      "of": "28de2f76",
+      "at": [
+        "charlotte-christian:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "آیا گواهی‌نامه‌ای جهانی، یا Seal of Biliteracy، در سطح کل مدرسه ارائه می‌شود؟",
+      "of": "f6594d16",
+      "at": [
+        "charlotte-christian:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "هر سال چند دانش‌آموز به خارج از کشور می‌روند؟ هیچ رقمی منتشر نشده است.",
+      "of": "16cd4be3",
+      "at": [
+        "charlotte-christian:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Middle و Lower School.",
+      "of": "d66506a6",
+      "at": [
+        "charlotte-christian:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "آیا پیش از پایهٔ 9 سفری وجود دارد؟",
+      "of": "e0867033",
+      "at": [
+        "charlotte-christian:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Model UN امروز.",
+      "of": "69ba852a",
+      "at": [
+        "charlotte-christian:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "Upper School در کدام کنفرانس‌های Model UN شرکت می‌کند، و آیا هنوز به Harvard Model Congress می‌رود؟",
+      "of": "df0cec1f",
+      "at": [
+        "charlotte-christian:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان بین‌المللی.",
+      "of": "c4fc7979",
+      "at": [
+        "charlotte-christian:verdict.ask[10].topic",
+        "cannon:verdict.ask[10].topic"
+      ]
+    },
+    {
+      "t": "چند دانش‌آموز بین‌المللی ثبت‌نام کرده‌اند، و آیا پشتیبانی زبان انگلیسی ارائه می‌شود؟ کمک‌هزینهٔ مالی به دانش‌آموزان دارای I-20 تعلق نمی‌گیرد.",
+      "of": "58c47522",
+      "at": [
+        "charlotte-christian:verdict.ask[10].question"
+      ]
+    },
+    {
       "t": "سفر از پایهٔ 6 آغاز می‌شود و دفتر مطالعات بین‌المللی آن را اداره می‌کند؛ دفتری که مدرسه پیشینه‌اش را به 1988 می‌رساند. این برنامه شامل تبادل با مدارس خواهرخوانده و اقامت نزد خانواده‌های میزبان در شهر کبک، آرکیپا و ساوت‌همپتون، و سفرهای Upper School به رهبری معلمان در تعطیلات بهاری و در تابستان است.",
       "of": "155b6937",
       "at": [
@@ -3724,13 +5474,6 @@
       "of": "7644558f",
       "at": [
         "charlotte-country-day:lead.muted"
-      ]
-    },
-    {
-      "t": "کشور",
-      "of": "92e99ecd",
-      "at": [
-        "charlotte-country-day:stats[0].label"
       ]
     },
     {
@@ -3947,15 +5690,6 @@
       "at": [
         "charlotte-country-day:trips.years[0].trips[3].homestay",
         "charlotte-country-day:milestones.events[3].title"
-      ]
-    },
-    {
-      "t": "کاستاریکا",
-      "of": "4a26cbe8",
-      "at": [
-        "charlotte-country-day:trips.years[0].trips[4].dest",
-        "cannon:trips.years[0].trips[1].dest",
-        "cannon:trips.years[1].trips[0].dest"
       ]
     },
     {
@@ -4678,13 +6412,6 @@
       ]
     },
     {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:start.divisions[0].grades"
-      ]
-    },
-    {
       "t": "زبان‌های فرانسوی و اسپانیایی از کودکستان مقدماتی تا پایهٔ 1 آغاز می‌شوند",
       "of": "e41b23f3",
       "at": [
@@ -4703,14 +6430,6 @@
       "of": "42a86f07",
       "at": [
         "charlotte-country-day:start.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
       ]
     },
     {
@@ -4802,13 +6521,6 @@
       "of": "2be7c7bd",
       "at": [
         "charlotte-country-day:network.conferences[1].text"
-      ]
-    },
-    {
-      "t": "Academic WorldQuest",
-      "of": "135cbfac",
-      "at": [
-        "charlotte-country-day:network.cells[0].name"
       ]
     },
     {
@@ -5115,13 +6827,6 @@
       ]
     },
     {
-      "t": "کوبا",
-      "of": "f2388c8c",
-      "at": [
-        "charlotte-country-day:milestones.events[9].title"
-      ]
-    },
-    {
       "t": "نخستین مدرسهٔ این ایالت که دانش‌آموزانی را به کوبا فرستاد.",
       "of": "51e2f1ce",
       "at": [
@@ -5413,13 +7118,6 @@
       "of": "9ca94966",
       "at": [
         "cannon:trips.years[0].noteByDiv.MS"
-      ]
-    },
-    {
-      "t": "جمهوری دومینیکن",
-      "of": "efe03871",
-      "at": [
-        "cannon:trips.years[0].trips[0].dest"
       ]
     },
     {
@@ -5920,13 +7618,6 @@
       ]
     },
     {
-      "t": "هزینه.",
-      "of": "04e0a6c2",
-      "at": [
-        "cannon:verdict.ask[2].topic"
-      ]
-    },
-    {
       "t": "هزینهٔ یک سفر چقدر است و چه چیزهایی را در بر می‌گیرد؟ هیچ قیمتی برای سفرها منتشر نشده است.",
       "of": "50cea9fe",
       "at": [
@@ -6001,13 +7692,6 @@
       "of": "bf7a2408",
       "at": [
         "cannon:verdict.ask[9].question"
-      ]
-    },
-    {
-      "t": "دانش‌آموزان بین‌المللی.",
-      "of": "c4fc7979",
-      "at": [
-        "cannon:verdict.ask[10].topic"
       ]
     },
     {

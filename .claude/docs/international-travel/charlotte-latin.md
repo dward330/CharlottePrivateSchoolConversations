@@ -1,5 +1,5 @@
 # Charlotte Latin School — Global Exposure
-> Distilled from 2 source document(s) in `source-material/international-travel/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-13.
+> Distilled from 2 source document(s) in `source-material/international-travel/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-16.
 **Documents:** Deep Research, Source URLs
 
 
