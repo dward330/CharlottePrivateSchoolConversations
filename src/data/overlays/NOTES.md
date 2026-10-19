@@ -3155,3 +3155,61 @@ International & the Winterim Mission Partners". 227 strings × 9 locales, splice
   - **`i18n:leaks`:** nothing new. The only flag on an edited path is the existing
     `Global Trips` keep.
   - **No new soft spot beyond the items above.**
+
+## Davidson Day (`ddglobal`) — Phase 2, 2026-10-19
+
+The sixth school in the area: six cards, with the credential retitled "The Global Studies
+Diploma Distinction" and the network card "AFAR & the Archaeology Conferences". 129
+strings × 9 locales, spliced by stamp: 1067 kept, 129 added, **0 dropped**. Two chrome
+keys, `credential@davidson-day` and `network@davidson-day`, follow
+`network@charlotte-christian`. The program name stays Latin in every locale (es/fr/it add
+an article, ht a trailing *la*), and "AFAR" stays Latin in the network title.
+
+**Checked centrally, nothing to fix:**
+
+- **The quoted GSD definition is verbatim English in all nine.** Each locale keeps its own
+  quote marks (fr « », it “ ”). Five add a short framing so the sentence parses: bn and hi
+  *"in the school's words"*, te *"its purpose:"*, fa *"its aim is stated as:"*, ar
+  *"is described as"*. None of them glosses the quote.
+- **"offered since"** is the label under the `2021` tile, so it reads after the year. te
+  and hi had phrased it as a question (*"since when offered"*), and both were changed to a
+  postposition that follows the number (te *నుంచి అందిస్తున్నారు*, hi *से उपलब्ध*). fa's
+  *"Summer 2027, as announced"* had gained *"by the school"*, which was dropped because the
+  English does not say who announced it.
+
+**Soft spots for a reviewer:**
+
+- **"sophomore year" has no equivalent anywhere.** es/ht say *second year of Upper
+  School*, it/fa/ar *second year of high school*, bn/te/hi transliterate *sophomore*, and
+  fr writes ***10e année***. That adds a digit the English lacks. It follows fr's existing
+  *élèves de 12e année* for "seniors", and `check_figures` passes it.
+- **The program name's gender:** fr and es make *Distinction* feminine (*la … proposée*),
+  while it keeps the masculine article of Providence Day's *il Global Studies Diploma*.
+- **"Distinction" used alone:** es, it and hi keep it Latin as a name. fa uses *نشان*,
+  except in the Verdict's research-requirement question, where it stays Latin. te
+  transliterates it *డిస్టింక్షన్*.
+- **Archaeology vocabulary, no precedent:** "ball court" (fr *jeu de balle*, it *campo da
+  gioco della palla*, ht *teren jwèt boul*); "fish-salting" (bn *মাছ-লবণজাতকরণ* and hi
+  *मछली-नमकीन*, both a little technical); "dig" (ht *fouy*); "practicum" (es *prácticas*,
+  fr/ht *stage pratique / estaj pratik*, te *ప్రాక్టికమ్*).
+- **New place transliterations:** Tagus River (es *río Tajo*, ar *نهر تاجة*, bn *তাহো নদী*,
+  te *టాగస్ నది*); Friedberg (fa *فریدبرگ*, te *ఫ్రీడ్‌బర్గ్*, Latin elsewhere); Belize in ht
+  *Beliz* and Florida in ht *Florid*, neither with a glossary precedent. hi writes the
+  National Museum of Finland in Hindi with the English in brackets.
+- **"Early Childhood"** stays Latin as a division name in every locale that mentions it, like
+  Lower School.
+- **fa ordinals keep their digits:** `11مین`, `20مین` instead of spelled-out ordinals.
+- **`i18n:leaks` residue is all KEEPs:** Helsinki, `Middle School.` (bn/hi differ only by
+  the danda), `Tróia, Portugal` and Belize. The flagged locales differ only in
+  transliteration.
+- **RTL:** 3 fa strings were restructured so that no digit follows Latin text
+  (`Mount Royal University، کلگری · در آنجا 10…`, `— در پاییز 2024، 10 دانش‌آموز`, and the
+  Mieza row). ar opens these clauses with a verb. In real Chrome, glyph x-positions show
+  **0 digit-after-Latin inversions in fa and ar** (100 digit tokens each). The only flags
+  are the three `8–12`/`10–12`/`9–12` AFAR grade bands. They draw in RTL order, which is
+  the same site-wide un-isolated short-range behaviour Charlotte Christian shows, recorded
+  above. fa/ar store zero bidi controls.
+- **Integrity**, by stamp against `main`, all nine: 0 lost, 0 English or stamps mutated,
+  0 existing `t` overwritten, 129 added, all under `davidson-day:*`, 0 empty, 0 bidi
+  controls, 0 foreign-script. The bn count reads 50 until U+0964 (the danda) is excluded,
+  then 0.

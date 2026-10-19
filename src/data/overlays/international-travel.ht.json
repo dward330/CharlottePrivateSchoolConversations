@@ -510,7 +510,8 @@
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
         "charlotte-christian:trips.years[1].trips[0].dest",
-        "charlotte-country-day:trips.years[0].trips[7].dest"
+        "charlotte-country-day:trips.years[0].trips[7].dest",
+        "davidson-day:milestones.events[2].title"
       ]
     },
     {
@@ -528,7 +529,11 @@
         "charlotte-country-day:trips.years[1].trips[2].timing",
         "charlotte-country-day:trips.years[1].trips[3].timing",
         "charlotte-country-day:trips.years[1].trips[4].timing",
-        "charlotte-country-day:trips.years[1].trips[5].timing"
+        "charlotte-country-day:trips.years[1].trips[5].timing",
+        "davidson-day:trips.years[2].note",
+        "davidson-day:trips.years[2].trips[0].timing",
+        "davidson-day:trips.years[2].trips[1].timing",
+        "davidson-day:trips.years[2].trips[2].timing"
       ]
     },
     {
@@ -573,7 +578,10 @@
         "providence-day:trips.years[4].trips[1].dest",
         "charlotte-latin:trips.years[0].trips[5].dest",
         "charlotte-latin:trips.years[2].trips[6].dest",
-        "charlotte-country-day:trips.years[1].trips[4].dest"
+        "charlotte-country-day:trips.years[1].trips[4].dest",
+        "davidson-day:trips.years[0].trips[0].dest",
+        "davidson-day:trips.years[1].trips[0].dest",
+        "davidson-day:trips.years[2].trips[2].dest"
       ]
     },
     {
@@ -842,7 +850,8 @@
         "charlotte-latin:start.divisions[2].grades",
         "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
-        "cannon:start.divisions[2].grades"
+        "cannon:start.divisions[2].grades",
+        "davidson-day:start.divisions[2].grades"
       ]
     },
     {
@@ -1863,7 +1872,8 @@
       "t": "Global Studies Diploma a",
       "of": "8c7895a4",
       "at": [
-        "providence-day:milestones.events[3].title"
+        "providence-day:milestones.events[3].title",
+        "davidson-day:milestones.events[5].title"
       ]
     },
     {
@@ -2021,7 +2031,8 @@
         "charlotte-latin:verdict.ask[5].topic",
         "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
-        "cannon:verdict.ask[3].topic"
+        "cannon:verdict.ask[3].topic",
+        "davidson-day:verdict.ask[4].topic"
       ]
     },
     {
@@ -2051,7 +2062,8 @@
       "at": [
         "providence-day:verdict.ask[3].topic",
         "charlotte-country-day:verdict.ask[2].topic",
-        "cannon:verdict.ask[4].topic"
+        "cannon:verdict.ask[4].topic",
+        "davidson-day:verdict.ask[5].topic"
       ]
     },
     {
@@ -2068,7 +2080,8 @@
         "providence-day:verdict.ask[4].topic",
         "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
-        "cannon:verdict.ask[5].topic"
+        "cannon:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[6].topic"
       ]
     },
     {
@@ -2083,7 +2096,8 @@
       "of": "3b61cee5",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-christian:verdict.ask[5].topic"
+        "charlotte-christian:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[7].topic"
       ]
     },
     {
@@ -2115,7 +2129,8 @@
         "charlotte-latin:verdict.ask[7].topic",
         "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
-        "cannon:verdict.ask[9].topic"
+        "cannon:verdict.ask[9].topic",
+        "davidson-day:verdict.ask[10].topic"
       ]
     },
     {
@@ -2275,7 +2290,10 @@
         "charlotte-latin:trips.years[0].trips[5].timing",
         "charlotte-latin:trips.years[0].trips[6].timing",
         "charlotte-latin:trips.years[0].trips[7].timing",
-        "charlotte-country-day:trips.years[0].trips[9].timing"
+        "charlotte-country-day:trips.years[0].trips[9].timing",
+        "davidson-day:trips.years[0].trips[0].timing",
+        "davidson-day:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[0].trips[2].timing"
       ]
     },
     {
@@ -2525,7 +2543,11 @@
       "of": "89d4dc86",
       "at": [
         "charlotte-latin:trips.years[1].trips[4].timing",
-        "cannon:trips.years[0].trips[1].timing"
+        "cannon:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[1].note",
+        "davidson-day:trips.years[1].trips[0].timing",
+        "davidson-day:trips.years[1].trips[1].timing",
+        "davidson-day:trips.years[1].trips[2].timing"
       ]
     },
     {
@@ -4023,7 +4045,11 @@
       "of": "268c9f87",
       "at": [
         "charlotte-christian:trips.years[0].trips[6].dest",
-        "charlotte-christian:trips.years[3].trips[7].dest"
+        "charlotte-christian:trips.years[3].trips[7].dest",
+        "davidson-day:trips.years[0].trips[1].dest",
+        "davidson-day:trips.years[1].trips[1].dest",
+        "davidson-day:trips.years[2].trips[1].dest",
+        "davidson-day:milestones.events[3].title"
       ]
     },
     {
@@ -4987,7 +5013,8 @@
       "at": [
         "charlotte-christian:start.divisions[1].grades",
         "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
+        "cannon:start.divisions[1].grades",
+        "davidson-day:start.divisions[1].grades"
       ]
     },
     {
@@ -5383,7 +5410,8 @@
       "of": "04e0a6c2",
       "at": [
         "charlotte-christian:verdict.ask[0].topic",
-        "cannon:verdict.ask[2].topic"
+        "cannon:verdict.ask[2].topic",
+        "davidson-day:verdict.ask[3].topic"
       ]
     },
     {
@@ -7743,6 +7771,918 @@
       "of": "17818050",
       "at": [
         "cannon:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Vwayaj Davidson Day yo se AFAR, American Foreign Academic Research, yon lekòl akeyoloji sou teren ki voye elèv chak ete al fouye ansanm ak akeyològ pwofesyonèl an Espay, nan Pòtigal ak nan Beliz, epi prezante rechèch yo nan konferans inivèsite.",
+      "of": "d60ad2d8",
+      "at": [
+        "davidson-day:lead.strong"
+      ]
+    },
+    {
+      "t": "Li mache ansanm ak Global Studies Diploma Distinction, yon pakou Upper School yo ofri depi 2021, kote pifò elèv patisipe nan AFAR.",
+      "of": "10d505f1",
+      "at": [
+        "davidson-day:lead.muted"
+      ]
+    },
+    {
+      "t": "peyi kote AFAR fè fouy",
+      "of": "eff66b0a",
+      "at": [
+        "davidson-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "Espay, Pòtigal ak Beliz, dapre lekòl la",
+      "of": "a78624c0",
+      "at": [
+        "davidson-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "sezon nan Cahal Pech",
+      "of": "ab840bcd",
+      "at": [
+        "davidson-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "2006–2026, nan lwès Beliz, dapre lekòl la",
+      "of": "4dc989a4",
+      "at": [
+        "davidson-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "elèv ki te prezante nan Mount Royal University",
+      "of": "4643db2e",
+      "at": [
+        "davidson-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "nan Calgary, otòn 2024, nèf ladan yo nan Global Studies Diploma",
+      "of": "3c79ea53",
+      "at": [
+        "davidson-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction te kòmanse",
+      "of": "ca9e6eb6",
+      "at": [
+        "davidson-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "dapre lekòl la",
+      "of": "8dbe1011",
+      "at": [
+        "davidson-day:stats[3].note",
+        "davidson-day:credential.stats[0].note"
+      ]
+    },
+    {
+      "t": "Nèf fouy AFAR sou twa ete — 2024, 2026 ak 2027 yo anonse a — an Espay, nan Pòtigal ak nan Beliz.",
+      "of": "5d1577e0",
+      "at": [
+        "davidson-day:trips.headline"
+      ]
+    },
+    {
+      "t": "Elèv yo travay ansanm ak akeyològ pwofesyonèl nan chak sit, ak kou ak sòti ki fè pati jounen an.",
+      "of": "f2907304",
+      "at": [
+        "davidson-day:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Lyen International Travel lekòl la kounye a mennen sou paj Global Studies Diploma Distinction li, kidonk dènye detay sou vwayaj yo soti nan yon atik lekòl la pibliye nan otòn 2026.",
+      "of": "5ef792ac",
+      "at": [
+        "davidson-day:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Ete 2027, jan yo anonse l",
+      "of": "1b18daa4",
+      "at": [
+        "davidson-day:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "Zorita de los Canes",
+      "of": "a87494af",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].place",
+        "davidson-day:trips.years[1].trips[0].place",
+        "davidson-day:trips.years[2].trips[2].place"
+      ]
+    },
+    {
+      "t": "8yèm–12yèm ane · jiska 18 elèv pa sesyon, dapre AFAR",
+      "of": "dfb3578a",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Fouye chato medyeval Zorita a",
+      "of": "c5b8c4e9",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Tróia",
+      "of": "8b09294e",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].place",
+        "davidson-day:trips.years[1].trips[1].place",
+        "davidson-day:trips.years[2].trips[1].place"
+      ]
+    },
+    {
+      "t": "10yèm–12yèm ane · 18 elèv pa sesyon, dapre AFAR",
+      "of": "71f779b9",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "Yon vil women sou kòt la kote yo te sale pwason, ki konsève anba sab la",
+      "of": "c969ab69",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Beliz",
+      "of": "b9e03916",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].dest",
+        "davidson-day:trips.years[1].trips[2].dest",
+        "davidson-day:trips.years[2].trips[0].dest"
+      ]
+    },
+    {
+      "t": "Baking Pot",
+      "of": "5a016cd0",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].place",
+        "davidson-day:milestones.events[8].title"
+      ]
+    },
+    {
+      "t": "9yèm–12yèm ane · jiska 18 elèv, dapre AFAR",
+      "of": "dd426230",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "Premye sezon AFAR nan yon nouvo sit Maya, anviwon 20 minit pi wo sou rivyè a apati Cahal Pech",
+      "of": "72e4bf6b",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "11yèm sezon fouy pwojè a · de nan chanm chato a ak yon chanm anba tè",
+      "of": "b40a1012",
+      "at": [
+        "davidson-day:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Ansyen vil women an, kote AFAR ap travay depi 2018",
+      "of": "de203da8",
+      "at": [
+        "davidson-day:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Cahal Pech",
+      "of": "47652f7a",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].place",
+        "davidson-day:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "Dènye nan 20 sezon yo nan sit Maya a",
+      "of": "ed476fdc",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Teren jwèt boul lwès la, bò plas palè wayal la · rechèch yo te prezante pita nan Calgary",
+      "of": "ad2863a4",
+      "at": [
+        "davidson-day:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Faktori women kote yo te sale pwason an · rechèch yo te prezante pita nan Calgary",
+      "of": "37c0706e",
+      "at": [
+        "davidson-day:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Chato medyeval ki anwo rivyè Tagus la · rechèch yo te prezante pita nan Calgary",
+      "of": "26dd0105",
+      "at": [
+        "davidson-day:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Elèv AFAR Davidson Day ak akeyològ nan fouy Tróia a nan Pòtigal",
+      "of": "098aadde",
+      "at": [
+        "davidson-day:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "Tróia, Pòtigal",
+      "of": "f1a56858",
+      "at": [
+        "davidson-day:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "Ekip AFAR la nan sit women Tróia a, ete 2026.",
+      "of": "841c222c",
+      "at": [
+        "davidson-day:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "Foto: Davidson Day School",
+      "of": "675efbf3",
+      "at": [
+        "davidson-day:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Middle School, Espay ak Lafrans.",
+      "of": "9e71cebc",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "Nan kòmansman 2026, paj vwayaj lekòl la te dekri yon vwayaj imèsyon nan lang ak kilti pandan ete a nan Madrid, Toledo ak Pari, ak yon aswè Flamenco ak yon kou kizin nan Pari; li pa parèt ankò nan vèsyon paj la ki vin apre yo.",
+      "of": "e86ca030",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "Grès, 2017–18.",
+      "of": "6300e482",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "AFAR te fè fouy nan Mieza, ansyen vil masedonyen an, pandan vwayaj rechèch 2017 ak 2018 li yo.",
+      "of": "4fb4d187",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "North Carolina, novanm 2024.",
+      "of": "73cde345",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "13 elèv te travay nan fouy Adam Spach Rock House la nan Winston-Salem, premye elèv lekòl segondè ki te travay sou yon sit ak North Carolina State Historic Preservation Office, dapre lekòl la.",
+      "of": "b47ee713",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "Panyòl depi Early Childhood, kou lang Upper School pou elèv Middle School ki pare, ak fouy AFAR ak yon distenksyon rechèch nan Upper School.",
+      "of": "7e00224e",
+      "at": [
+        "davidson-day:start.headline"
+      ]
+    },
+    {
+      "t": "Lekòl la di kourikoulòm li bay elèv yo konpetans ki pare pou lavi reyèl, pou yo ka pare pou dirije sou sèn mondyal la.",
+      "of": "96e54937",
+      "at": [
+        "davidson-day:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Vwayaj yo kòmanse nan Upper School, atravè AFAR.",
+      "of": "c411b4a0",
+      "at": [
+        "davidson-day:start.intro.muted"
+      ]
+    },
+    {
+      "t": "EC–4",
+      "of": "4731e8de",
+      "at": [
+        "davidson-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "Panyòl depi Early Childhood, ki kòmanse a laj dezan, yon pwofesè panyòl Early Childhood & Lower School anseye l",
+      "of": "04615083",
+      "at": [
+        "davidson-day:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "Panyòl, yon pwofesè panyòl Middle School anseye l",
+      "of": "525ef0df",
+      "at": [
+        "davidson-day:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Elèv ki pare pou pwochen nivo a pran kou lang etranje nan Upper School",
+      "of": "fc05740e",
+      "at": [
+        "davidson-day:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Fouy ete AFAR yo an Espay, nan Pòtigal ak nan Beliz",
+      "of": "d263d515",
+      "at": [
+        "davidson-day:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction la, elèv yo aplike pou li nan fen dezyèm ane Upper School",
+      "of": "88036c67",
+      "at": [
+        "davidson-day:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "AP Spanish ak AP French Language & Culture",
+      "of": "f5d65d18",
+      "at": [
+        "davidson-day:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Honors Anthropology, epi Research Methods Honors nan 11yèm ane ak Capstone Research Honors Mentorship nan 12yèm",
+      "of": "23c3a852",
+      "at": [
+        "davidson-day:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "Yon distenksyon Upper School depi 2021: Honors Anthropology, kat AP mondyal, yon lang, yon estaj pratik 100 èdtan ak dezan rechèch orijinal, ke chak elèv dènye ane prezante.",
+      "of": "bf33f1bf",
+      "at": [
+        "davidson-day:credential.headline"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction la \"prepares students to understand an increasingly interconnected world through rigorous academic study, language immersion, and transformative international experiences.\"",
+      "of": "6ef068f8",
+      "at": [
+        "davidson-day:credential.intro.strong"
+      ]
+    },
+    {
+      "t": "Se youn nan twa Diploma Distinctions yo: elèv yo aplike nan fen dezyèm ane Upper School epi yo pase dezan ap apwofondi.",
+      "of": "f361e654",
+      "at": [
+        "davidson-day:credential.intro.muted"
+      ]
+    },
+    {
+      "t": "ofri depi",
+      "of": "da9200ae",
+      "at": [
+        "davidson-day:credential.stats[0].label"
+      ]
+    },
+    {
+      "t": "kou AP mondyal opsyonèl",
+      "of": "161b73e7",
+      "at": [
+        "davidson-day:credential.stats[1].label"
+      ]
+    },
+    {
+      "t": "chwazi pami sis opsyon",
+      "of": "b8ae6fbf",
+      "at": [
+        "davidson-day:credential.stats[1].note"
+      ]
+    },
+    {
+      "t": "èdtan estaj pratik",
+      "of": "5248e584",
+      "at": [
+        "davidson-day:credential.stats[2].label"
+      ]
+    },
+    {
+      "t": "omwen, nan yon estaj apwouve, yon okazyon volontè oswa yon pwogram pre-inivèsitè",
+      "of": "ed234621",
+      "at": [
+        "davidson-day:credential.stats[2].note"
+      ]
+    },
+    {
+      "t": "Honors Anthropology",
+      "of": "4a85b0f8",
+      "at": [
+        "davidson-day:credential.required[0]"
+      ]
+    },
+    {
+      "t": "Kat pami: AP World History oswa AP European History, AP Environmental Science, AP Psychology, AP Macroeconomics, AP with WE Service Recognition, ak AP Spanish oswa AP French Language & Culture",
+      "of": "19d750c7",
+      "at": [
+        "davidson-day:credential.required[1]"
+      ]
+    },
+    {
+      "t": "Nivo IV, oswa twa nivo nan menm lang lan nan Upper School",
+      "of": "d8c66c56",
+      "at": [
+        "davidson-day:credential.required[2]"
+      ]
+    },
+    {
+      "t": "Omwen 100 èdtan estaj pratik, plis Ethics Labs chak trimès",
+      "of": "611df9fe",
+      "at": [
+        "davidson-day:credential.required[3]"
+      ]
+    },
+    {
+      "t": "Research Methods Honors nan 11yèm ane ak Capstone Research Honors Mentorship nan 12yèm ane",
+      "of": "76f8c565",
+      "at": [
+        "davidson-day:credential.required[4]"
+      ]
+    },
+    {
+      "t": "Yon prezantasyon final nan Davidson Day Scholars Research Conference",
+      "of": "e830c231",
+      "at": [
+        "davidson-day:credential.required[5]"
+      ]
+    },
+    {
+      "t": "Rechèch sou teren AFAR an Espay, nan Pòtigal oswa nan Beliz, ke pifò elèv nan distenksyon an fè",
+      "of": "d54cafc3",
+      "at": [
+        "davidson-day:credential.beyond[0]"
+      ]
+    },
+    {
+      "t": "Eksperyans estaj pratik ki souvan gen ladan vwayaj entènasyonal, rechèch, imèsyon nan lang oswa sèvis entèkiltirèl",
+      "of": "97506c78",
+      "at": [
+        "davidson-day:credential.beyond[1]"
+      ]
+    },
+    {
+      "t": "Prezante rechèch nan konferans akademik, tankou konferans Mount Royal University a nan Calgary",
+      "of": "aa834881",
+      "at": [
+        "davidson-day:credential.beyond[2]"
+      ]
+    },
+    {
+      "t": "AFAR, pwojè patnè li yo ak pwòp konferans Maya pa li, ak elèv k ap prezante rechèch yo nan konferans inivèsite depi Calgary rive Helsinki.",
+      "of": "d900c0ac",
+      "at": [
+        "davidson-day:network.headline"
+      ]
+    },
+    {
+      "t": "AFAR se lekòl akeyoloji sou teren ki patnè lekòl la. Dapre lekòl la, li egziste depi plis pase 20 ane, e plis pase 500 elèv ki soti nan tout pwogram li an te patisipe nan pwojè li yo.",
+      "of": "000b6d8b",
+      "at": [
+        "davidson-day:network.intro.strong"
+      ]
+    },
+    {
+      "t": "Elèv yo prezante nan konferans akademik pou fèmen sik syantifik la, e AFAR òganize pwòp konferans pa li tou.",
+      "of": "21abf4c0",
+      "at": [
+        "davidson-day:network.intro.muted"
+      ]
+    },
+    {
+      "t": "Konferans akademik",
+      "of": "4a540fe1",
+      "at": [
+        "davidson-day:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "Okazyon yo ofri ane lekòl sa a: konferans akeyoloji Mount Royal University a nan Calgary ak Banff · yon konferans sou tèm Maya nan Disney's Coronado Springs Resort nan Florid, AFAR ak lòt akeyològ òganize · fouy nan Friedberg, North Carolina",
+      "of": "788ef023",
+      "at": [
+        "davidson-day:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Mount Royal University, Calgary · 10 elèv te fè twa prezantasyon sou rechèch yo te fè pandan ete 2024",
+      "of": "0f4a3811",
+      "at": [
+        "davidson-day:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Yon konferans prensipal ak yon prezantasyon fèt an kolaborasyon nan yon konferans National Museum of Finland te òganize nan Helsinki, kòmansman 2020",
+      "of": "325c0d56",
+      "at": [
+        "davidson-day:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "AFAR",
+      "of": "318084ad",
+      "at": [
+        "davidson-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "Lekòl akeyoloji entènasyonal sou teren ki patnè lekòl la, ki parèt nan lis patenarya kominotè li yo.",
+      "of": "c7a03689",
+      "at": [
+        "davidson-day:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Konferans AFAR yo",
+      "of": "0f83f200",
+      "at": [
+        "davidson-day:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "AFAR òganize de konferans entènasyonal sou akeyoloji Maya chak ane, ak prezantasyon rechèch elèv ak atelye; Maya at the Playa konn fèt sou entènèt.",
+      "of": "b54a5441",
+      "at": [
+        "davidson-day:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "NC State Historic Preservation Office",
+      "of": "c340ac96",
+      "at": [
+        "davidson-day:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "Fouy Adam Spach Rock House 2024 la nan Winston-Salem, fèt ansanm ak Environmental Research Group.",
+      "of": "210af9d0",
+      "at": [
+        "davidson-day:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "Belize Valley Archaeological Reconnaissance Project",
+      "of": "4dbb029a",
+      "at": [
+        "davidson-day:network.cells[3].name"
+      ]
+    },
+    {
+      "t": "Pwojè AFAR nan Beliz, sa ki dire pi lontan e ki mande plis efò fizik pami pwojè li yo.",
+      "of": "d8f013c1",
+      "at": [
+        "davidson-day:network.cells[3].text"
+      ]
+    },
+    {
+      "t": "Pou ansyen elèv",
+      "of": "fea1c18e",
+      "at": [
+        "davidson-day:network.rows[0].label"
+      ]
+    },
+    {
+      "t": "Pook's Hill nan Beliz se yon pwojè AFAR ki louvri sèlman pou ansyen elèv Davidson Day; an 2026, yon nouvo gradye te youn nan de direktè laboratwa li yo.",
+      "of": "f0a0b3a1",
+      "at": [
+        "davidson-day:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "Ventan AFAR, depi premye sezon an nan Cahal Pech an 2006 rive nan yon nouvo sit Maya an 2027.",
+      "of": "026fa403",
+      "at": [
+        "davidson-day:milestones.headline"
+      ]
+    },
+    {
+      "t": "Lekòl la mete kòmansman AFAR an 2006 ak kòmansman Global Studies Diploma Distinction li an 2021,",
+      "of": "689deaad",
+      "at": [
+        "davidson-day:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "ak yon premye nan North Carolina sou wout la — chak etap anba a jan lekòl la di l.",
+      "of": "bb50cb0d",
+      "at": [
+        "davidson-day:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "AFAR kòmanse",
+      "of": "344a9881",
+      "at": [
+        "davidson-day:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "Rechèch kòmanse nan sit Maya Cahal Pech nan lwès Beliz.",
+      "of": "c22ed8f0",
+      "at": [
+        "davidson-day:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "Teren jwèt boul lwès la",
+      "of": "4af5f040",
+      "at": [
+        "davidson-day:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "Travay nan Cahal Pech vire sou teren jwèt boul ki bò plas palè wayal la.",
+      "of": "a3b5507a",
+      "at": [
+        "davidson-day:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "AFAR kòmanse nan Mieza, ansyen vil masedonyen an.",
+      "of": "3acfd431",
+      "at": [
+        "davidson-day:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "Rechèch kòmanse nan vil women Tróia a.",
+      "of": "36c0fac6",
+      "at": [
+        "davidson-day:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "Helsinki",
+      "of": "8d816624",
+      "at": [
+        "davidson-day:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "Elèv yo fè yon konferans prensipal ak yon prezantasyon an kolaborasyon nan yon konferans National Museum of Finland òganize.",
+      "of": "6e70b808",
+      "at": [
+        "davidson-day:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "Yo ofri distenksyon an pou premye fwa.",
+      "of": "2fb77837",
+      "at": [
+        "davidson-day:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "Yon premye nan North Carolina",
+      "of": "45866c72",
+      "at": [
+        "davidson-day:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "Premye elèv lekòl segondè ki patisipe nan yon fouy ak North Carolina State Historic Preservation Office, dapre lekòl la.",
+      "of": "7809aa13",
+      "at": [
+        "davidson-day:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "Cahal Pech fini",
+      "of": "6217ac88",
+      "at": [
+        "davidson-day:milestones.events[7].title"
+      ]
+    },
+    {
+      "t": "20yèm e dènye sezon nan sit la.",
+      "of": "212faa71",
+      "at": [
+        "davidson-day:milestones.events[7].text"
+      ]
+    },
+    {
+      "t": "Pwojè Beliz la deplase nan yon nouvo sit Maya.",
+      "of": "7f0018db",
+      "at": [
+        "davidson-day:milestones.events[8].text"
+      ]
+    },
+    {
+      "t": "Kote pwogram nan kanpe apa, ak trèz kesyon sit entènèt lekòl la poko reponn — pri vwayaj, èd, grad ak sekirite.",
+      "of": "5b0760c5",
+      "at": [
+        "davidson-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Pwogram mondyal Davidson Day a pa sanble ak pwogram okenn lòt lekòl isit la: vwayaj li yo se rechèch akeyolojik, pa touris. Elèv yo fouye ansanm ak pwofesyonèl an Espay, nan Pòtigal ak nan Beliz, epi yo prezante sa yo jwenn nan konferans inivèsite, nan kad yon distenksyon rechèch Upper School ki dire dezan.",
+      "of": "153110de",
+      "at": [
+        "davidson-day:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "Rechèch sou teren pandan ete a nan twa sit aktif, youn ladan yo nan dosye yo pou 20 sezon",
+      "of": "7d81b0c4",
+      "at": [
+        "davidson-day:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "Rechèch elèv yo prezante nan Mount Royal University — 10 elèv nan otòn 2024",
+      "of": "9732fd2b",
+      "at": [
+        "davidson-day:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "Yon diplòm ak dezan rechèch orijinal ak yon pwojè final nan dènye ane",
+      "of": "38401043",
+      "at": [
+        "davidson-day:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "Premye fouy elèv lekòl segondè ak North Carolina State Historic Preservation Office, dapre lekòl la",
+      "of": "855f7275",
+      "at": [
+        "davidson-day:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Paj vwayaj.",
+      "of": "fda3cc5a",
+      "at": [
+        "davidson-day:verdict.ask[0].topic"
+      ]
+    },
+    {
+      "t": "Yo retire paj International Travel lekòl la. Ki kote li pibliye vwayaj li yo kounye a?",
+      "of": "34768566",
+      "at": [
+        "davidson-day:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Middle School.",
+      "of": "94287eee",
+      "at": [
+        "davidson-day:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "Èske vwayaj ete Middle School la an Espay ak Lafrans toujou fèt, e apati ki grad?",
+      "of": "e7919a2e",
+      "at": [
+        "davidson-day:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "Grad.",
+      "of": "86a82891",
+      "at": [
+        "davidson-day:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "AFAR fikse pwòp nivo grad pa li. Ki grad ki pi piti kote yon elèv Davidson Day ka antre nan yon fouy?",
+      "of": "f30232a8",
+      "at": [
+        "davidson-day:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "Konbyen yon fouy koute yon fanmi Davidson Day, e kisa frè Field Experience la kouvri?",
+      "of": "125c0a40",
+      "at": [
+        "davidson-day:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "Èske èd finansye lekòl la kouvri AFAR oswa nenpòt vwayaj, anplis pwòp asistans AFAR bay?",
+      "of": "090f8169",
+      "at": [
+        "davidson-day:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "Kijan yo deside kiyès ki jwenn plas lè yon sesyon plen?",
+      "of": "5847bb5b",
+      "at": [
+        "davidson-day:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Ki rapò akonpayatè pa elèv ak ki aranjman asirans ki genyen, e kiyès ki dirije chak vwayaj?",
+      "of": "17eebcd0",
+      "at": [
+        "davidson-day:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "Èske gen nenpòt echanj, lekòl jimo oswa sejou lakay fanmi akèy?",
+      "of": "f1a63dc0",
+      "at": [
+        "davidson-day:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Egzijans rechèch.",
+      "of": "72853ca3",
+      "at": [
+        "davidson-day:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "Ansyen paj pwogram nan te mande de semèn rechèch entènasyonal sou teren. Èske distenksyon an toujou mande sa?",
+      "of": "0128214a",
+      "at": [
+        "davidson-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Gradye.",
+      "of": "5843a5c9",
+      "at": [
+        "davidson-day:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "Konbyen elèv ki resevwa Global Studies Diploma Distinction depi 2021?",
+      "of": "4bf0a26a",
+      "at": [
+        "davidson-day:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "Konbyen elèv Davidson Day ki ale nan AFAR chak ete?",
+      "of": "dfa093d8",
+      "at": [
+        "davidson-day:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Pi lwen pase akeyoloji.",
+      "of": "64c8ef8e",
+      "at": [
+        "davidson-day:verdict.ask[11].topic"
+      ]
+    },
+    {
+      "t": "Lekòl la di vwayaj sèvis entènasyonal ak pwogram imèsyon nan lang ap vini pandan pakou a ap grandi. Kilè?",
+      "of": "9c9b3fff",
+      "at": [
+        "davidson-day:verdict.ask[11].question"
+      ]
+    },
+    {
+      "t": "Kontinwite.",
+      "of": "d8caa403",
+      "at": [
+        "davidson-day:verdict.ask[12].topic"
+      ]
+    },
+    {
+      "t": "Se fondatè AFAR ki dirije pwogram nan. Kijan yo òganize pèsonèl ak direksyon li pi lwen pase yon sèl moun?",
+      "of": "c55ae84c",
+      "at": [
+        "davidson-day:verdict.ask[12].question"
       ]
     }
   ]
