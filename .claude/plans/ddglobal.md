@@ -1,7 +1,7 @@
 ---
 name: ddglobal
 title: Add Davidson Day School to Global Exposure — six cards (exchanges, signup and community omitted; credential "The Global Studies Diploma Distinction"; network "AFAR & the Archaeology Conferences"), nine AFAR summer digs over three school years with AFAR's grade bands credited to AFAR; no prices or exact travel dates on the page
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-18
 branch: feat/ddglobal
@@ -718,3 +718,36 @@ Then the research prose, per `PROSE_TRANSLATED`. The mechanism is in
   it lives in `alsoOnRecord` only (decision 2).
 - **Credential quote?** **Default:** none. The quotable lines come from named students or
   the director.
+
+## Implementation notes
+
+**Phase 1 (English) — built 2026-10-18 on `feat/ddglobal`.** Deviations from the plan:
+
+- **Trips intro, muted line.** The International Travel page is still 404, but the Student
+  Life page's "International Travel" tile now links to the Global Studies Diploma
+  Distinction page. The line states that fact instead of "no longer appears on its site".
+- **2023–24 rows get per-site themes** from WB-IR (Aug 2024): the western ball court, the
+  Roman fish-salting factory and the castle above the Tagus River, each "· research later
+  presented in Calgary". Repeating one theme three times read as a template.
+- **Middle School `start` item** names Spanish and Upper School language classes only. The
+  directory lists an *Upper School* French teacher, so "French with the Upper School" was an
+  inference and was dropped.
+- **Verdict** has 13 questions, all from the plan. The Continuity question is worded "How is
+  it staffed and led beyond one person?", not "Who would run it otherwise?".
+- **Defaults applied:** BVAR cell included, cited to WB-IT-MAR; no Davidson College row; no
+  credential quote; Middle School trip in `alsoOnRecord` only. The Issuu brochure gives no
+  graduate count, so the Graduates question stays.
+- **Plan greps:** the date grep hits only grade ordinals (`8th–12th grade`, `11th field
+  season`), and the conflict grep hits "archaeological research rather than touring" in the
+  verdict. Neither is a real finding.
+
+**Phase 1 verification:** `tsc -b` clean; residual 0; schema current; `npm run build` green
+(check:seo, with the meta description at 151 chars; check:photos; check:live;
+check:runtime). The Playwright check found 6 cards in order, tiles 3/20/10/2021, no tabs,
+9 trips, the photo in the viewer, and no overflow at 1280 or 390 dark. The other schools
+show 9/8/8/5/7 cards. `audit:mobile` passes.
+
+**For Phase 2:** `audit:daterender` reports exactly one hit per locale (9):
+`North Carolina, November 2024.`, an `alsoOnRecord` lead. That field is prose
+(`i18n_fields.mjs:707`) and just isn't translated yet, so translating it must bring the
+audit to 0.
