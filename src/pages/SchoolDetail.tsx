@@ -147,7 +147,7 @@ import {
   InternationalTravelLead,
   InternationalTravelStatBand,
 } from '../components/InternationalTravel.tsx'
-import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
+import { WelcomeVideo, ClassVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
 import { useTranslation } from 'react-i18next'
@@ -1254,6 +1254,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       </details>
                     ))}
                   </div>
+                )}
+
+                {/* The school's own video of where a graduating class is headed:
+                    a coda BELOW the four-card grid, never a grid item, so it
+                    takes no card's column width or collapse behaviour. Absent
+                    field, nothing renders: a school without one ends at the grid. */}
+                {ready && t.slug === 'high-school-placement' && highSchoolPlacement?.classVideo && (
+                  <ClassVideo
+                    name={school.name}
+                    url={highSchoolPlacement.classVideo.url}
+                    classYear={highSchoolPlacement.classVideo.classYear}
+                  />
                 )}
 
                 {/* After School: four consolidated cards built from the

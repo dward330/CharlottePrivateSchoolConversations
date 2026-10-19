@@ -271,6 +271,14 @@ export type HighSchoolPlacementProgram = {
   placement?: Placement
   destinations?: Destinations
   verdict?: Verdict
+  /**
+   * The school's own video of where one graduating class is headed, rendered
+   * BELOW the four-card grid — never as a card. `url` is the embed form
+   * (player.vimeo.com/video/<id> or youtube.com/embed/<id>), the same rule as
+   * `welcomeVideoUrl` in brands.ts. The heading and caption are chrome keys
+   * interpolating `classYear`, not data. Absent = nothing renders.
+   */
+  classVideo?: { url: string; classYear: number }
 }
 
 /**

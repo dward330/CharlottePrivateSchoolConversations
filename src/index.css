@@ -993,6 +993,18 @@ main { flex: 1; }
   border: 0;
 }
 .welcome-caption { color: var(--muted); font-size: 12.5px; margin: 12px 0 0; }
+/* The High School Placement class video: the Welcome Video frame, closing the
+   area below its card grid, with its head inside the frame and one step smaller. */
+.class-video { margin-top: 24px; }
+.class-video-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.class-video-head h3 { font-size: 19px; margin: 0; }
+.class-video-head .glyph { color: var(--brand); align-self: center; display: inline-flex; }
 
 .topic-section { scroll-margin-top: 80px; }
 .topic-section-head {
