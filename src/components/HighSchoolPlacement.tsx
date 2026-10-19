@@ -494,7 +494,7 @@ export function OutcomesBody({
       {destinations && (
         <>
           <h3 className="hsp-merged-head">
-            {t('cards.high-school-placement.destinations', { defaultValue: 'Where They Land' })}
+            {t('highSchoolPlacement.cumulativeHead')}
           </h3>
           <DestinationsBody data={destinations} embedded />
         </>

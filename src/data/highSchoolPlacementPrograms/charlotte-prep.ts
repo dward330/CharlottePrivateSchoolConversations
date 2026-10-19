@@ -259,9 +259,9 @@ export const charlottePrep: HighSchoolPlacementProgram = {
   /* ----------------------------------------------- 2c where they land -- */
   destinations: {
     headline:
-      'Graduates have gone on to more than 60 high schools — and across the last four classes, Charlotte Latin took the most: 29 of the 115 named graduates.',
+      'Charlotte Prep’s alumni, all years: more than 60 high schools, from its first graduating class to today — not only the four classes above.',
     subhead:
-      'This is the school’s own cumulative list, from its website and its placement guide, plus the four schools that appear only on its 2023–2026 class lists, grouped by what each destination actually is.',
+      'This is the school’s own cumulative list of where its alumni have attended high school — "Our graduates have attended the following schools" — from its website and its placement guide, plus four schools that appear only on its 2023–2026 class lists. The school’s Fast Facts count 614 alumni, a figure not yet updated for the Class of 2026. It gives no years and no counts for this list, so a school here may have taken a single graduate many years ago. Grouped by what each destination actually is.',
     categories: [
       {
         key: 'charlotte-independent',

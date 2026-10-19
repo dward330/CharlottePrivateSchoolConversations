@@ -1076,7 +1076,7 @@ phrases on the expanded page.
   `school.classVideoCaption`, `school.classVideoIframeTitle`,
   `cards.the-arts.ladder@charlotte-prep`, `cards.the-arts.theatre@charlotte-prep`,
   `cards.admissions.guide@charlotte-prep`, and the tally keys
-  `highSchoolPlacement.classTallies`, `.classTalliesNote`, `.tallyClass`,
+  `highSchoolPlacement.classTallies`, `.classTalliesNote`, `.tallyClass`, `.cumulativeHead`,
   `.tallyListed_one` / `_other` (pluralised, so use each locale's CLDR plural forms;
   `ar` has six).
 - Steps 16–20 as written. `high-school-placement` is already in `TOPICS`.
