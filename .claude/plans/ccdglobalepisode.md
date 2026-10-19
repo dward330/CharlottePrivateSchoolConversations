@@ -1,11 +1,11 @@
 ---
 name: ccdglobalepisode
 title: Add podcast episode 41 (Charlotte Country Day — Global Exposure) to CCD's Global Exposure section
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-18
 branch: feat/ccd-global-episode
-prs: []
+prs: [354]
 ---
 
 # Add podcast episode 41 — Charlotte Country Day: Global Exposure
