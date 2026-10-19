@@ -14,7 +14,7 @@ Charlotte Prep's competitive academic record rests on two things: a Middle Schoo
 | 2024 | CHARMUN, second year as a member school | 2 awards: a vocal commendation, on a committee simulating the COP 28 climate conference, and Most-Improved Delegate, on an International Court of Justice simulation. Both went to 8th graders. | 20 |
 | 2025-26 | "Model UN conferences" | not published | not published |
 
-The 2025-26 line comes from an 8th grader's story of November 6, 2025, which lists "participating in fascinating Model UN conferences" among her Charlotte Prep experiences (the story is listed under Method).
+The 2025-26 line comes from an 8th grader's story of November 6, 2025, which lists "participating in fascinating Model UN conferences" among her Charlotte Prep experiences.
 
 **What the club does between conferences** (February 29, 2024 story):
 

@@ -3055,6 +3055,143 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
     'tescharlotte.org — Tuition & Affordability · Admission Process · 2026-27 School Profile (PDF) · 2025-26 School Profile (PDF) · Cost of Attendance for 2026-27 (Google Doc) · Trinity Extended Day · archived tuition pages via the Wayback Machine (2023-09 to 2026-05) · ProPublica Nonprofit Explorer, EIN 56-2059568 — retrieved 16 Sep 2026',
 }
 
+/* Charlotte Preparatory School — PreK–8. Transcribed from
+   source-material/financial-aid-tuition/charlotte-prep/ (Tuition and Fees,
+   Financial Support, Form 990, Tuition History).
+
+   Three things worth knowing:
+
+   First, 2025-26 is MISSING from the tuition history — every archived capture
+   of the tuition page from September 2025 to August 2026 is an HTTP 520 — so
+   the comparison year on the tuition table is 2024-25 and the change is
+   labelled as two years, never presented as one year's rise.
+
+   Second, the aid totals come from the school's IRS Form 990 filings
+   (Schedule I, "Reduction in tuition base"), not from the school. They are
+   labelled that way everywhere. The school's own statistic is a share of
+   FAMILIES ("10% of Charlotte Prep families received tuition assistance",
+   2024-25), not of students, and the two are never combined into a rate.
+
+   Third, the aid page contradicts itself on the deadline — January 2 in its
+   body, January 15 in its FAQ — so both are stated and the reader is told to
+   confirm. Neither is picked. */
+const CHARLOTTE_PREP: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2026–27 school year · figures as of 19 Oct 2026',
+  framing: [
+    {
+      icon: 'clock',
+      title: 'One page, two aid deadlines.',
+      body: 'The school\'s aid page says **January 2** in its text and **January 15** in its FAQ. Confirm the date with the Director of Enrollment before relying on either.',
+    },
+    {
+      icon: 'book',
+      title: 'Aid covers K–8 only.',
+      body: 'Tuition assistance is offered for **Kindergarten through 8th grade**; the Early School\'s Pre-Primary, Primary and TK programs are not eligible. Aid totals below are from the school\'s federal tax filings and are labelled so. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'The Tuition Table',
+      title: 'The Tuition Table — Seven Programs, Two Grade Bands',
+      confidence: 95,
+      figureCaption: 'Published tuition, 2026-27 against 2024-25',
+      bands: [
+        { label: 'Pre-Primary (8:30–12:00)', amount: 17700, prior: 15400, delta: '+15% (2 yrs)' },
+        { label: 'Primary (8:30–12:00)', amount: 18500, prior: 16100, delta: '+15% (2 yrs)' },
+        { label: 'Transitional K (8:30–2:30)', amount: 23900, prior: 20750, delta: '+15% (2 yrs)' },
+        { label: 'Montessori K', amount: 25800, prior: 22400, delta: '+15% (2 yrs)' },
+        { label: 'Kindergarten', amount: 25800, prior: 22400, delta: '+15% (2 yrs)' },
+        { label: 'Grades 1–4', amount: 28800, prior: 25000, delta: '+15% (2 yrs)' },
+        { label: 'Grades 5–8', amount: 30200, prior: 26250, delta: '+15% (2 yrs)' },
+      ],
+      figureNote:
+        'The comparison is with **2024-25**, the last year the school\'s tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. Since 2024-25 the school has **folded its athletics, fine arts and technology fees into tuition**, so part of the rise replaces fees families once paid separately. The board\'s stated aim is to keep tuition "**at or below the median of peer schools**".',
+      figureNote2:
+        'A **3% discount** applies for younger siblings of current students.',
+      source:
+        'charlotteprep.org — Tuition & Fees 2026-27; archived tuition pages (Wayback, 2015 to 2024); Strategic Plan 2022-2027, retrieved 19 Oct 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Fees & Added Costs',
+      title: 'Beyond Tuition — The Real Cost of Attendance',
+      confidence: 85,
+      componentsTitle: 'What sits outside tuition',
+      components: [
+        { label: 'Down payment — $2,000, credited to tuition', status: 'priced' },
+        { label: 'New Family Commitment Fee — $1,000, one time', status: 'priced' },
+        { label: 'Parents\' Association — $150 per student per year', status: 'priced' },
+        { label: 'Tuition Refund Plan — "approximately 1.45%" of tuition', status: 'priced' },
+        { label: 'After School Program, K–8 — $4,500 a year', status: 'priced' },
+        { label: 'Drop-in after school — $20 an hour', status: 'priced' },
+        { label: 'Early School Extended Day — $2,700 (TK) to $5,900 (Pre-Primary/Primary)', status: 'range' },
+        { label: 'Summer camp — $250 to $600 a week (2026)', status: 'range' },
+        { label: 'Lunch through FLIK — billed separately', status: 'unpriced' },
+        { label: 'After School Studios — a fee for each class', status: 'unpriced' },
+        { label: 'Field trips — "may be assessed"', status: 'unpriced' },
+      ],
+      componentsNote:
+        'The **Tuition Refund Plan is required unless the full annual fees are paid by May 1**, in which case it is optional. At about 1.45%, it would add roughly $418 to Grades 1–4 tuition — our estimate, since the school gives a percentage and no dollar figure.',
+      source: 'charlotteprep.org — Tuition & Fees 2026-27; Tuition Refund Plan pamphlet 2026-2027, retrieved 19 Oct 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'Aid Process and Timeline',
+      confidence: 80,
+      tag: 'NEED, MERIT AND FIT',
+      timeline: [
+        {
+          when: 'Step 1',
+          detail: 'Request tuition assistance from the **Director of Enrollment**, Seher Khanna',
+        },
+        {
+          when: 'Platform',
+          detail: 'Apply through **Clarity**; awards consider "financial need, academic merit, and the student\'s fit"',
+        },
+        {
+          when: 'Jan 2 or Jan 15',
+          detail: '**The aid deadline** — the page text says January 2, its FAQ says January 15; confirm which applies',
+          emphasis: true,
+        },
+        {
+          when: 'Jan 15, 2027',
+          detail: 'Grades 1–8 admission application deadline (Early School & K: January 2)',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Aid stops below Kindergarten',
+          body: 'Assistance is "offered in grades K-8th", so a family entering at **Pre-Primary, Primary or TK** pays full tuition until Kindergarten. For a family planning a nine- or ten-year path, that makes the Early School years the most expensive stretch relative to aid.',
+        },
+      ],
+      source: 'charlotteprep.org — Tuition Assistance; Tuition & Fees 2026-27, retrieved 19 Oct 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'Aid in Numbers',
+      title: 'What the Numbers Disclose',
+      confidence: 80,
+      stats: [
+        { value: '10%', label: 'of families received tuition assistance, 2024-25 — the school\'s own figure' },
+        { value: '$476,679', label: 'tuition assistance, fiscal year ending June 2025 — per the Form 990' },
+        { value: '49', label: 'students aided, fiscal year ending June 2025 — per the Form 990' },
+        { value: '$11,048,536', label: 'tuition and fee revenue, same year — per the Form 990' },
+      ],
+      figureNote:
+        'The school\'s federal tax filings give an eight-year series of tuition assistance, reported as "Reduction in tuition base": **$374,330 to 51 students (FY2018)**, $448,646 to 61 (FY2019), $502,105 to 68 (FY2020), $516,135 to 58 (FY2021), $363,160 to 48 (FY2022), $368,575 to 47 (FY2023), $457,393 to 50 (FY2024) and **$476,679 to 49 (FY2025)**. Fiscal years end in June.',
+      figureNote2:
+        'The school\'s 10% is a share of **families**, and the 990 counts **students**, so the two are not combined into a rate.',
+      source:
+        'Charlotte Prep 2024-2025 Prep Fund results; IRS Form 990 filings, EIN 45-2588411, FY2018–FY2025 (IRS TEOS e-file data), retrieved 19 Oct 2026',
+    },
+  ],
+  sources:
+    'charlotteprep.org — Tuition & Fees 2026-27 · Tuition Assistance · Strategic Plan 2022-2027 · Tuition Refund Plan pamphlet 2026-2027 · archived tuition pages via the Wayback Machine (2015 to 2024) · IRS Form 990 filings, EIN 45-2588411 (FY2018–FY2025) · ProPublica Nonprofit Explorer — retrieved 19 Oct 2026',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-catholic': CHARLOTTE_CATHOLIC,
   'charlotte-country-day': COUNTRY_DAY,
@@ -3068,6 +3205,7 @@ const REPORTS: Record<string, FinancialAidReport> = {
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
   'trinity-episcopal': TRINITY_EPISCOPAL,
+  'charlotte-prep': CHARLOTTE_PREP,
 }
 
 /* ---------------------------------------------------------- translations -- */
