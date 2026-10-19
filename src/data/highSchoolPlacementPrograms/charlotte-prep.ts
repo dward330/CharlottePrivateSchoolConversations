@@ -322,7 +322,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
   /* ------------------------------------------------------------ verdict -- */
   verdict: {
     headline:
-      'The clearest placement record a PreK–8 school here publishes: a rate for every recent class, a named list behind each one, and a process that is written down step by step.',
+      'A published placement rate for every recent class, a named list behind each one, and a process written down step by step.',
     points: [],
     checklist: [
       'How many students were in the Class of 2026, and is the named list the whole class? The 97% is published, but the class size behind it is not.',

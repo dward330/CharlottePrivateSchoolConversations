@@ -182,20 +182,20 @@ The strategic plan also records a move to "longer instructional blocks in 2025-2
 - The PreK-8 Model — https://charlotteprep.org/about/the-prek-8-model
 - Leadership — https://charlotteprep.org/student-life/leadership
 - Fast Facts — https://charlotteprep.org/about/fast-facts
-- Tuition & Fees 2026-2027 — https://charlotteprep.org/admissions/tuition-fees
+- Tuition & Fees 2026-27 — https://charlotteprep.org/admissions/tuition-fees
 - Fall 2025 admissions packet — https://charlotteprep.org/uploads/files/Admissions/fall-2025-admissions-packet-web.pdf
 - Philosophy of Education — https://charlotteprep.org/uploads/files/philosophy-of-education.pdf
-- Portrait of a Charlotte Prep Graduate — https://charlotteprep.org/uploads/files/portrait-of-a-graduate-2025.pdf
+- Portrait of a Graduate — https://charlotteprep.org/uploads/files/portrait-of-a-graduate-2025.pdf
 - Strategic Plan 2022-2027 — https://charlotteprep.org/about/strategic-plan-2022-2027
 - The Prep Fund — https://charlotteprep.org/support/the-prep-fund
-- Testing at Charlotte Prep (April 9, 2026) — https://charlotteprep.org/community/news/stories/testing-at-charlotte-prep
-- Building the Foundations for Student Learning (September 24, 2026) — https://charlotteprep.org/community/news/stories/building-the-foundations-for-student-learning
-- Designing an Excellent Curriculum (May 10, 2023) — https://charlotteprep.org/community/news/stories/designing-an-excellent-curriculum
-- Connected Learning at Prep (September 5, 2024) — https://charlotteprep.org/community/news/stories/connected-learning-at-prep
-- 8th-Grade Ignite Presentations (April 30, 2026) — https://charlotteprep.org/community/news/stories/8th-grade-ignite-presentations
-- Joy Term Returns (January 13, 2026) — https://charlotteprep.org/community/news/stories/joy-term-returns
-- Prep Students Dive into the IXL Universe (October 19, 2023) — https://charlotteprep.org/community/news/stories/prep-students-dive-into-the-ixl-universe
-- Montessori Three-Year Cycle (2025) — https://issuu.com/charlottepreparatoryschool/docs/montessori_3_year_cycle
+- Testing at Prep (Apr 2026) — https://charlotteprep.org/community/news/stories/testing-at-charlotte-prep
+- Curriculum review (Sep 2026) — https://charlotteprep.org/community/news/stories/building-the-foundations-for-student-learning
+- Designing the curriculum (2023) — https://charlotteprep.org/community/news/stories/designing-an-excellent-curriculum
+- Connected Learning (2024) — https://charlotteprep.org/community/news/stories/connected-learning-at-prep
+- 8th-Grade Ignite (2026) — https://charlotteprep.org/community/news/stories/8th-grade-ignite-presentations
+- Joy Term Returns (2026) — https://charlotteprep.org/community/news/stories/joy-term-returns
+- IXL at Prep (2023) — https://charlotteprep.org/community/news/stories/prep-students-dive-into-the-ixl-universe
+- Montessori cycle (2025) — https://issuu.com/charlottepreparatoryschool/docs/montessori_3_year_cycle
 
 ## Method
 
