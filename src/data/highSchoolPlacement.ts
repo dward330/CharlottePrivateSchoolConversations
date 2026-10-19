@@ -335,9 +335,11 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
  * here, exactly as collegeSupport.ts does.
  */
 import { trinityEpiscopal } from './highSchoolPlacementPrograms/trinity-episcopal.ts'
+import { charlottePrep } from './highSchoolPlacementPrograms/charlotte-prep.ts'
 
 const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {
   'trinity-episcopal': trinityEpiscopal,
+  'charlotte-prep': charlottePrep,
 }
 
 /* ---------------------------------------------------------- translations -- */

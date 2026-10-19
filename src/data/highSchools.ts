@@ -595,6 +595,64 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     status: 'ambiguous',
     note: 'No state in Trinity\u2019s data and no Westwood HS in the Charlotte area at all; the nearest is Blythewood SC, ~90 miles away, with no evidence tying it to Trinity. Unlinked by the user\u2019s call, 2026-09-17.',
   },
+
+  /* ---------------------------------------------------------------------- */
+  /* Added for Charlotte Preparatory School (2026-10-19). Every URL was      */
+  /* fetched live that day; see source-material/high-school-placement/       */
+  /* charlotte-prep/ (Where They Land, ## Method). No rank labels yet: the   */
+  /* Niche Charlotte K-12 list 403'd and US News needs a headed browser, so  */
+  /* these render unranked rather than with a guessed figure.                */
+  /* ---------------------------------------------------------------------- */
+
+  /* Charlotte Prep's spellings of dossier schools \u2014 same institution, same
+     record values, so the rank still resolves under the name as published. */
+  'Carmel Christian School': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #13' },
+  'Charlotte Catholic High School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #22' },
+  'Gaston Day School': { kind: 'independent', city: 'Gastonia', state: 'NC' },
+
+  /* Charlotte-area independent \u2014 no dossier, link out. */
+  'British International School of Charlotte': { kind: 'independent', url: 'https://www.nordangliaeducation.com/bisc-charlotte', city: 'Charlotte', state: 'NC', note: 'bischarlotte.org redirects to the Nord Anglia page' },
+  'Trinity Christian Prep': { kind: 'independent', url: 'https://trinityprep.com', city: 'Charlotte', state: 'NC', note: 'Own name Trinity Preparatory School (the brochure spelling); grades 7-12 for neurodivergent students, 7516 E Independence Blvd' },
+  'United Faith Christian Academy': { kind: 'independent', url: 'https://ufca.org', city: 'Charlotte', state: 'NC', note: '8617 Providence Rd' },
+
+  /* Public, charter and magnet. */
+  'Central Academy of Technology and Arts': { kind: 'public', url: 'https://cata.ucpsnc.org', city: 'Monroe', state: 'NC', note: 'Union County magnet; IB Diploma since 2022-23' },
+  'Cuthbertson High School': { kind: 'public', url: 'https://chs.ucpsnc.org', city: 'Waxhaw', state: 'NC' },
+  'Independence High School': { kind: 'public', url: 'https://independencehs.cmsk12.org', city: 'Charlotte', state: 'NC' },
+  'Marvin Ridge High School': { kind: 'public', url: 'https://mrhs.ucpsnc.org', city: 'Waxhaw', state: 'NC' },
+  'Northwestern High School': { kind: 'public', url: 'https://nwhs.rock-hill.k12.sc.us', city: 'Rock Hill', state: 'SC', note: 'Charlotte Prep gives no city; the Rock Hill school is the only Northwestern HS in the Charlotte area (our identification)' },
+  'Olympic Community of Schools': { kind: 'public', url: 'https://olympichs.cmsk12.org', city: 'Charlotte', state: 'NC', note: 'Now Olympic High School (CMS)' },
+  'Union Academy': { kind: 'public', url: 'https://www.unionacademy.org', city: 'Monroe', state: 'NC', note: 'Tuition-free public charter' },
+  'Weddington High School': { kind: 'public', url: 'https://whs.ucpsnc.org', city: 'Matthews', state: 'NC' },
+  'York Prep Academy': { kind: 'public', url: 'https://www.yorkprepsc.org', city: 'Rock Hill', state: 'SC', note: 'York Preparatory Academy, a public charter; Charlotte Prep gives no city (our identification)' },
+  'South Carolina Governor\u2019s School for the Arts': { kind: 'public', url: 'https://www.scgsah.org', city: 'Greenville', state: 'SC', note: 'Public residential arts high school; own name SC Governor\u2019s School for the Arts and Humanities' },
+  'Campolindo High School': { kind: 'public', url: 'https://chs.acalanes.k12.ca.us', city: 'Moraga', state: 'CA' },
+  'Christian-von-Dohm Gymnasium': { kind: 'public', url: 'https://www.cvd-gs.de', city: 'Goslar', state: 'Germany' },
+  'Portland High School': { kind: 'public', url: 'https://phs.portlandschools.org', city: 'Portland', state: 'ME', note: 'Charlotte Prep\u2019s brochure says South Portland High School instead' },
+  'Washington-Lee High School': { kind: 'public', url: 'https://wl.apsva.us', city: 'Arlington', state: 'VA', note: 'Renamed Washington-Liberty High School' },
+
+  /* Boarding. */
+  'American Hebrew Academy': { kind: 'boarding', city: 'Greensboro', state: 'NC', status: 'closed', note: 'Closed June 2019; the domain now hosts a non-school page, never link it' },
+  'Baylor School': { kind: 'boarding', url: 'https://www.baylorschool.org', city: 'Chattanooga', state: 'TN' },
+  'Choate Rosemary Hall': { kind: 'boarding', url: 'https://www.choate.edu', city: 'Wallingford', state: 'CT' },
+  'Currey Ingram Academy': { kind: 'boarding', url: 'https://www.curreyingram.org', city: 'Brentwood', state: 'TN', note: 'K-12 for learning differences; residential life for grades 9-12' },
+  'Interlochen Arts Academy': { kind: 'boarding', url: 'https://www.interlochen.org/arts-boarding-school', city: 'Interlochen', state: 'MI' },
+  'Peddie School': { kind: 'boarding', url: 'https://peddie.org', city: 'Hightstown', state: 'NJ' },
+  'Riverside Military Academy': { kind: 'boarding', url: 'https://www.riversidemilitary.org', city: 'Gainesville', state: 'GA' },
+  'Suffield Academy': { kind: 'boarding', url: 'https://www.suffieldacademy.org', city: 'Suffield', state: 'CT' },
+  'Walnut Hill School for the Arts': { kind: 'boarding', url: 'https://www.walnuthillarts.org', city: 'Natick', state: 'MA' },
+
+  /* Private day schools outside the Charlotte area. */
+  'American School in London': { kind: 'day', url: 'https://www.asl.org', city: 'London', state: 'England' },
+  'American School of Marrakech': { kind: 'day', url: 'https://asm.ac.ma', city: 'Marrakech', state: 'Morocco' },
+  'Carlisle School': { kind: 'day', url: 'https://www.carlisleschool.org', city: 'Axton', state: 'VA' },
+  'Carolina Day School': { kind: 'day', url: 'https://www.carolinaday.org', city: 'Asheville', state: 'NC' },
+  'Georgetown Day School': { kind: 'day', url: 'https://www.gds.org', city: 'Washington', state: 'DC' },
+  'International Community School in London': { kind: 'day', url: 'https://www.icslondon.co.uk', city: 'London', state: 'England', note: 'icslondon.com is an unrelated software firm; ICS London as the former International Community School is our identification' },
+  'Lincoln Community School': { kind: 'day', url: 'https://www.lincoln.edu.gh', city: 'Accra', state: 'Ghana' },
+  'Sidwell Friends School': { kind: 'day', url: 'https://www.sidwell.edu', city: 'Washington', state: 'DC' },
+  'The Gregory School': { kind: 'day', url: 'https://www.gregoryschool.org', city: 'Tucson', state: 'AZ' },
+  'Wesleyan School': { kind: 'day', url: 'https://www.wesleyanschool.org', city: 'Peachtree Corners', state: 'GA' },
 }
 
 /* Built once from the canonical table, through the SAME normalizer the college

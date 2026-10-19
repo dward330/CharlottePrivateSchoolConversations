@@ -173,3 +173,49 @@ AutomationControlled and --disable-http2.
 | West Mecklenburg High School |  |  | https://westmecklenburghs.cmsk12.org | US News National HS Rank #13,460-17,945 |  |
 | Westwood High School |  |  | — *ambiguous* | — | No state in Trinity’s data and no Westwood HS in the Charlotte area at all; the nearest is Blythewood SC, ~90 miles away, with no evidence tying it to Trinity. Unlinked by the user’s call, 2026-09-17. |
 
+
+## Added for Charlotte Preparatory School (2026-10-19) (39)
+
+Every URL fetched live on 2026-10-19. Names are as Charlotte Prep writes them (its website list, its placement guide, or its 2023–2026 class lists). No rank labels yet: Niche's Charlotte K-12 list returned 403 and US News needs a headed browser, so these rows render unranked rather than with a guessed figure. Full verification notes are in source-material/high-school-placement/charlotte-prep/ (Where They Land, Method).
+
+| Name | City | State | Kind | Homepage | Note |
+|---|---|---|---|---|---|
+| Carmel Christian School | Matthews | NC | independent | dossier | Charlotte Prep's spelling of Carmel Christian; same rank |
+| Charlotte Catholic High School | Charlotte | NC | independent | dossier | Charlotte Prep's spelling of Charlotte Catholic; same rank |
+| Gaston Day School | Gastonia | NC | independent | dossier | Has its own dossier in the app |
+| British International School of Charlotte | Charlotte | NC | independent | https://www.nordangliaeducation.com/bisc-charlotte | bischarlotte.org redirects here |
+| Trinity Christian Prep | Charlotte | NC | independent | https://trinityprep.com | Own name Trinity Preparatory School; grades 7-12, neurodivergent learners |
+| United Faith Christian Academy | Charlotte | NC | independent | https://ufca.org | 8617 Providence Rd |
+| Central Academy of Technology and Arts | Monroe | NC | public | https://cata.ucpsnc.org | Union County magnet; IB since 2022-23 |
+| Cuthbertson High School | Waxhaw | NC | public | https://chs.ucpsnc.org | |
+| Independence High School | Charlotte | NC | public | https://independencehs.cmsk12.org | |
+| Marvin Ridge High School | Waxhaw | NC | public | https://mrhs.ucpsnc.org | |
+| Northwestern High School | Rock Hill | SC | public | https://nwhs.rock-hill.k12.sc.us | Identification ours; Prep gives no city |
+| Olympic Community of Schools | Charlotte | NC | public | https://olympichs.cmsk12.org | Now Olympic High School |
+| Union Academy | Monroe | NC | public | https://www.unionacademy.org | Public charter |
+| Weddington High School | Matthews | NC | public | https://whs.ucpsnc.org | |
+| York Prep Academy | Rock Hill | SC | public | https://www.yorkprepsc.org | York Preparatory Academy, public charter; identification ours |
+| South Carolina Governor's School for the Arts | Greenville | SC | public | https://www.scgsah.org | Public residential arts high school |
+| Campolindo High School | Moraga | CA | public | https://chs.acalanes.k12.ca.us | |
+| Christian-von-Dohm Gymnasium | Goslar | Germany | public | https://www.cvd-gs.de | |
+| Portland High School | Portland | ME | public | https://phs.portlandschools.org | Prep's brochure says South Portland High School |
+| Washington-Lee High School | Arlington | VA | public | https://wl.apsva.us | Now Washington-Liberty |
+| American Hebrew Academy | Greensboro | NC | boarding | — *closed* | Closed June 2019 |
+| Baylor School | Chattanooga | TN | boarding | https://www.baylorschool.org | |
+| Choate Rosemary Hall | Wallingford | CT | boarding | https://www.choate.edu | |
+| Currey Ingram Academy | Brentwood | TN | boarding | https://www.curreyingram.org | Residential life for grades 9-12 |
+| Interlochen Arts Academy | Interlochen | MI | boarding | https://www.interlochen.org/arts-boarding-school | |
+| Peddie School | Hightstown | NJ | boarding | https://peddie.org | |
+| Riverside Military Academy | Gainesville | GA | boarding | https://www.riversidemilitary.org | |
+| Suffield Academy | Suffield | CT | boarding | https://www.suffieldacademy.org | |
+| Walnut Hill School for the Arts | Natick | MA | boarding | https://www.walnuthillarts.org | |
+| American School in London | London | England | day | https://www.asl.org | |
+| American School of Marrakech | Marrakech | Morocco | day | https://asm.ac.ma | |
+| Carlisle School | Axton | VA | day | https://www.carlisleschool.org | |
+| Carolina Day School | Asheville | NC | day | https://www.carolinaday.org | |
+| Georgetown Day School | Washington | DC | day | https://www.gds.org | |
+| International Community School in London | London | England | day | https://www.icslondon.co.uk | Identification ours |
+| Lincoln Community School | Accra | Ghana | day | https://www.lincoln.edu.gh | |
+| Sidwell Friends School | Washington | DC | day | https://www.sidwell.edu | |
+| The Gregory School | Tucson | AZ | day | https://www.gregoryschool.org | |
+| Wesleyan School | Peachtree Corners | GA | day | https://www.wesleyanschool.org | |
