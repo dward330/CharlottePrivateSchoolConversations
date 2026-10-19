@@ -255,6 +255,10 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<InternationalTravelCardKey,
   'charlotte-christian': {
     network: 'SCORE International & the Winterim Mission Partners',
   },
+  'davidson-day': {
+    credential: 'The Global Studies Diploma Distinction',
+    network: 'AFAR & the Archaeology Conferences',
+  },
 }
 
 /** The school slug when this school overrides the shared card title, else undefined. */
@@ -277,7 +281,7 @@ export function internationalTravelCardTitleFor(
 
 /**
  * Per-school entries live in ./internationalTravel/<slug>.ts. Providence Day,
- * Charlotte Country Day, Charlotte Latin, Cannon and Charlotte Christian are researched; every other school is ABSENT rather than
+ * Charlotte Country Day, Charlotte Latin, Cannon, Charlotte Christian and Davidson Day are researched; every other school is ABSENT rather than
  * present-and-empty, and with no source-material folder the section never
  * renders on its page.
  */
@@ -294,6 +298,7 @@ import { charlotteCountryDay } from './internationalTravel/charlotte-country-day
 import { charlotteLatin } from './internationalTravel/charlotte-latin.ts'
 import { cannon } from './internationalTravel/cannon.ts'
 import { charlotteChristian } from './internationalTravel/charlotte-christian.ts'
+import { davidsonDay } from './internationalTravel/davidson-day.ts'
 
 const PROGRAMS: Record<string, InternationalTravelProgram> = {
   'providence-day': providenceDay,
@@ -301,6 +306,7 @@ const PROGRAMS: Record<string, InternationalTravelProgram> = {
   'charlotte-latin': charlotteLatin,
   cannon,
   'charlotte-christian': charlotteChristian,
+  'davidson-day': davidsonDay,
 }
 
 /* ---------------------------------------------------------- translations -- */

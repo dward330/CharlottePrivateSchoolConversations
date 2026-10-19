@@ -510,7 +510,8 @@
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
         "charlotte-christian:trips.years[1].trips[0].dest",
-        "charlotte-country-day:trips.years[0].trips[7].dest"
+        "charlotte-country-day:trips.years[0].trips[7].dest",
+        "davidson-day:milestones.events[2].title"
       ]
     },
     {
@@ -528,7 +529,11 @@
         "charlotte-country-day:trips.years[1].trips[2].timing",
         "charlotte-country-day:trips.years[1].trips[3].timing",
         "charlotte-country-day:trips.years[1].trips[4].timing",
-        "charlotte-country-day:trips.years[1].trips[5].timing"
+        "charlotte-country-day:trips.years[1].trips[5].timing",
+        "davidson-day:trips.years[2].note",
+        "davidson-day:trips.years[2].trips[0].timing",
+        "davidson-day:trips.years[2].trips[1].timing",
+        "davidson-day:trips.years[2].trips[2].timing"
       ]
     },
     {
@@ -573,7 +578,10 @@
         "providence-day:trips.years[4].trips[1].dest",
         "charlotte-latin:trips.years[0].trips[5].dest",
         "charlotte-latin:trips.years[2].trips[6].dest",
-        "charlotte-country-day:trips.years[1].trips[4].dest"
+        "charlotte-country-day:trips.years[1].trips[4].dest",
+        "davidson-day:trips.years[0].trips[0].dest",
+        "davidson-day:trips.years[1].trips[0].dest",
+        "davidson-day:trips.years[2].trips[2].dest"
       ]
     },
     {
@@ -842,7 +850,8 @@
         "charlotte-latin:start.divisions[2].grades",
         "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
-        "cannon:start.divisions[2].grades"
+        "cannon:start.divisions[2].grades",
+        "davidson-day:start.divisions[2].grades"
       ]
     },
     {
@@ -1863,7 +1872,8 @@
       "t": "Global Studies Diploma",
       "of": "8c7895a4",
       "at": [
-        "providence-day:milestones.events[3].title"
+        "providence-day:milestones.events[3].title",
+        "davidson-day:milestones.events[5].title"
       ]
     },
     {
@@ -2021,7 +2031,8 @@
         "charlotte-latin:verdict.ask[5].topic",
         "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
-        "cannon:verdict.ask[3].topic"
+        "cannon:verdict.ask[3].topic",
+        "davidson-day:verdict.ask[4].topic"
       ]
     },
     {
@@ -2051,7 +2062,8 @@
       "at": [
         "providence-day:verdict.ask[3].topic",
         "charlotte-country-day:verdict.ask[2].topic",
-        "cannon:verdict.ask[4].topic"
+        "cannon:verdict.ask[4].topic",
+        "davidson-day:verdict.ask[5].topic"
       ]
     },
     {
@@ -2068,7 +2080,8 @@
         "providence-day:verdict.ask[4].topic",
         "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
-        "cannon:verdict.ask[5].topic"
+        "cannon:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[6].topic"
       ]
     },
     {
@@ -2083,7 +2096,8 @@
       "of": "3b61cee5",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-christian:verdict.ask[5].topic"
+        "charlotte-christian:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[7].topic"
       ]
     },
     {
@@ -2115,7 +2129,8 @@
         "charlotte-latin:verdict.ask[7].topic",
         "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
-        "cannon:verdict.ask[9].topic"
+        "cannon:verdict.ask[9].topic",
+        "davidson-day:verdict.ask[10].topic"
       ]
     },
     {
@@ -2275,7 +2290,10 @@
         "charlotte-latin:trips.years[0].trips[5].timing",
         "charlotte-latin:trips.years[0].trips[6].timing",
         "charlotte-latin:trips.years[0].trips[7].timing",
-        "charlotte-country-day:trips.years[0].trips[9].timing"
+        "charlotte-country-day:trips.years[0].trips[9].timing",
+        "davidson-day:trips.years[0].trips[0].timing",
+        "davidson-day:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[0].trips[2].timing"
       ]
     },
     {
@@ -2525,7 +2543,11 @@
       "of": "89d4dc86",
       "at": [
         "charlotte-latin:trips.years[1].trips[4].timing",
-        "cannon:trips.years[0].trips[1].timing"
+        "cannon:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[1].note",
+        "davidson-day:trips.years[1].trips[0].timing",
+        "davidson-day:trips.years[1].trips[1].timing",
+        "davidson-day:trips.years[1].trips[2].timing"
       ]
     },
     {
@@ -4023,7 +4045,11 @@
       "of": "268c9f87",
       "at": [
         "charlotte-christian:trips.years[0].trips[6].dest",
-        "charlotte-christian:trips.years[3].trips[7].dest"
+        "charlotte-christian:trips.years[3].trips[7].dest",
+        "davidson-day:trips.years[0].trips[1].dest",
+        "davidson-day:trips.years[1].trips[1].dest",
+        "davidson-day:trips.years[2].trips[1].dest",
+        "davidson-day:milestones.events[3].title"
       ]
     },
     {
@@ -4987,7 +5013,8 @@
       "at": [
         "charlotte-christian:start.divisions[1].grades",
         "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
+        "cannon:start.divisions[1].grades",
+        "davidson-day:start.divisions[1].grades"
       ]
     },
     {
@@ -5383,7 +5410,8 @@
       "of": "04e0a6c2",
       "at": [
         "charlotte-christian:verdict.ask[0].topic",
-        "cannon:verdict.ask[2].topic"
+        "cannon:verdict.ask[2].topic",
+        "davidson-day:verdict.ask[3].topic"
       ]
     },
     {
@@ -7743,6 +7771,918 @@
       "of": "17818050",
       "at": [
         "cannon:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Davidson Day की यात्राएँ AFAR के ज़रिए होती हैं — American Foreign Academic Research पुरातत्व फ़ील्ड स्कूल — जो हर गर्मी छात्रों को स्पेन, पुर्तगाल और बेलीज़ में पेशेवर पुरातत्वविदों के साथ खुदाई करने और अपना शोध विश्वविद्यालयों के सम्मेलनों में प्रस्तुत करने के लिए भेजता है।",
+      "of": "d60ad2d8",
+      "at": [
+        "davidson-day:lead.strong"
+      ]
+    },
+    {
+      "t": "यह Global Studies Diploma Distinction के साथ जुड़ा है, जो 2021 से उपलब्ध एक Upper School मार्ग है और जिसके अधिकांश छात्र AFAR में भाग लेते हैं।",
+      "of": "10d505f1",
+      "at": [
+        "davidson-day:lead.muted"
+      ]
+    },
+    {
+      "t": "देश जहाँ AFAR की खुदाई होती है",
+      "of": "eff66b0a",
+      "at": [
+        "davidson-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "स्पेन, पुर्तगाल और बेलीज़, स्कूल के अनुसार",
+      "of": "a78624c0",
+      "at": [
+        "davidson-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "Cahal Pech में सीज़न",
+      "of": "ab840bcd",
+      "at": [
+        "davidson-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "2006–2026, पश्चिमी बेलीज़ में, स्कूल के अनुसार",
+      "of": "4dc989a4",
+      "at": [
+        "davidson-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "छात्रों ने Mount Royal University में प्रस्तुति दी",
+      "of": "4643db2e",
+      "at": [
+        "davidson-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "कैलगरी में, शरद 2024, जिनमें से नौ Global Studies Diploma में थे",
+      "of": "3c79ea53",
+      "at": [
+        "davidson-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction की शुरुआत",
+      "of": "ca9e6eb6",
+      "at": [
+        "davidson-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "स्कूल के अनुसार",
+      "of": "8dbe1011",
+      "at": [
+        "davidson-day:stats[3].note",
+        "davidson-day:credential.stats[0].note"
+      ]
+    },
+    {
+      "t": "तीन गर्मियों में AFAR की नौ खुदाइयाँ — 2024, 2026 और घोषित 2027 — स्पेन, पुर्तगाल और बेलीज़ में।",
+      "of": "5d1577e0",
+      "at": [
+        "davidson-day:trips.headline"
+      ]
+    },
+    {
+      "t": "हर स्थल पर छात्र पेशेवर पुरातत्वविदों के साथ काम करते हैं, और दिन में व्याख्यान और भ्रमण भी शामिल होते हैं।",
+      "of": "f2907304",
+      "at": [
+        "davidson-day:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "स्कूल का International Travel लिंक अब उसके Global Studies Diploma Distinction पेज पर ले जाता है, इसलिए सबसे नई यात्रा का विवरण स्कूल की शरद 2026 की एक ख़बर से लिया गया है।",
+      "of": "5ef792ac",
+      "at": [
+        "davidson-day:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "ग्रीष्म 2027, घोषणा के अनुसार",
+      "of": "1b18daa4",
+      "at": [
+        "davidson-day:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "Zorita de los Canes",
+      "of": "a87494af",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].place",
+        "davidson-day:trips.years[1].trips[0].place",
+        "davidson-day:trips.years[2].trips[2].place"
+      ]
+    },
+    {
+      "t": "कक्षा 8–12 · हर सत्र में अधिकतम 18 छात्र, AFAR के अनुसार",
+      "of": "dfb3578a",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Zorita के मध्ययुगीन क़िले की खुदाई",
+      "of": "c5b8c4e9",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Tróia",
+      "of": "8b09294e",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].place",
+        "davidson-day:trips.years[1].trips[1].place",
+        "davidson-day:trips.years[2].trips[1].place"
+      ]
+    },
+    {
+      "t": "कक्षा 10–12 · हर सत्र में 18 छात्र, AFAR के अनुसार",
+      "of": "71f779b9",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "तट पर बसा एक रोमन मछली-नमकीन बनाने वाला नगर, जो रेत के नीचे सुरक्षित है",
+      "of": "c969ab69",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "बेलीज़",
+      "of": "b9e03916",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].dest",
+        "davidson-day:trips.years[1].trips[2].dest",
+        "davidson-day:trips.years[2].trips[0].dest"
+      ]
+    },
+    {
+      "t": "Baking Pot",
+      "of": "5a016cd0",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].place",
+        "davidson-day:milestones.events[8].title"
+      ]
+    },
+    {
+      "t": "कक्षा 9–12 · अधिकतम 18 छात्र, AFAR के अनुसार",
+      "of": "dd426230",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "एक नए माया स्थल पर AFAR का पहला सीज़न, Cahal Pech से नदी की ऊपरी दिशा में लगभग 20 मिनट दूर",
+      "of": "72e4bf6b",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "परियोजना का 11वाँ फ़ील्ड सीज़न · क़िले के दो कमरे और एक भूमिगत कक्ष",
+      "of": "b40a1012",
+      "at": [
+        "davidson-day:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "प्राचीन रोमन नगर, जहाँ AFAR 2018 से काम कर रहा है",
+      "of": "de203da8",
+      "at": [
+        "davidson-day:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Cahal Pech",
+      "of": "47652f7a",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].place",
+        "davidson-day:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "इस माया स्थल पर 20 सीज़नों में से आख़िरी",
+      "of": "ed476fdc",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "शाही महल के प्रांगण के पास पश्चिमी बॉल कोर्ट · शोध बाद में कैलगरी में प्रस्तुत किया गया",
+      "of": "ad2863a4",
+      "at": [
+        "davidson-day:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "रोमन मछली-नमकीन कारख़ाना · शोध बाद में कैलगरी में प्रस्तुत किया गया",
+      "of": "37c0706e",
+      "at": [
+        "davidson-day:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "टेगस नदी के ऊपर स्थित मध्ययुगीन क़िला · शोध बाद में कैलगरी में प्रस्तुत किया गया",
+      "of": "26dd0105",
+      "at": [
+        "davidson-day:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "पुर्तगाल में Tróia की खुदाई पर Davidson Day के AFAR छात्र और पुरातत्वविद",
+      "of": "098aadde",
+      "at": [
+        "davidson-day:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "Tróia, पुर्तगाल",
+      "of": "f1a56858",
+      "at": [
+        "davidson-day:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "Tróia के रोमन स्थल पर AFAR टीम, ग्रीष्म 2026।",
+      "of": "841c222c",
+      "at": [
+        "davidson-day:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "फ़ोटो: Davidson Day School",
+      "of": "675efbf3",
+      "at": [
+        "davidson-day:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Middle School, स्पेन और फ़्रांस।",
+      "of": "9e71cebc",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "2026 की शुरुआत में स्कूल के यात्रा पेज पर मैड्रिड, टोलेडो और पेरिस की गर्मियों की एक भाषा और सांस्कृतिक अनुभव यात्रा का वर्णन था, जिसमें एक फ़्लैमेंको शाम और पेरिस में खाना पकाने की एक कक्षा शामिल थी; पेज की बाद की प्रतियों में यह नहीं है।",
+      "of": "e86ca030",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "ग्रीस, 2017–18।",
+      "of": "6300e482",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "AFAR ने अपनी 2017 और 2018 की शोध यात्राओं में प्राचीन मैसेडोनियाई नगर Mieza में खुदाई की।",
+      "of": "4fb4d187",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "नॉर्थ कैरोलिना, नवंबर 2024।",
+      "of": "73cde345",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "13 छात्रों ने विंस्टन-सेलम में Adam Spach Rock House की खुदाई पर काम किया — स्कूल के अनुसार, North Carolina State Historic Preservation Office के साथ किसी स्थल पर काम करने वाले वे पहले हाई स्कूल छात्र थे।",
+      "of": "b47ee713",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "Early Childhood से स्पेनिश, तैयार Middle School छात्रों के लिए Upper School की भाषा कक्षाएँ, और Upper School में AFAR की खुदाइयाँ और एक शोध distinction।",
+      "of": "7e00224e",
+      "at": [
+        "davidson-day:start.headline"
+      ]
+    },
+    {
+      "t": "स्कूल कहता है कि उसका पाठ्यक्रम छात्रों को वास्तविक दुनिया के लिए तैयार कौशल देता है, ताकि वे वैश्विक मंच पर नेतृत्व के लिए तैयार हों।",
+      "of": "96e54937",
+      "at": [
+        "davidson-day:start.intro.strong"
+      ]
+    },
+    {
+      "t": "यात्राएँ Upper School में, AFAR के ज़रिए शुरू होती हैं।",
+      "of": "c411b4a0",
+      "at": [
+        "davidson-day:start.intro.muted"
+      ]
+    },
+    {
+      "t": "EC–4",
+      "of": "4731e8de",
+      "at": [
+        "davidson-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "Early Childhood से स्पेनिश, जो दो साल की उम्र से शुरू होता है, Early Childhood और Lower School के एक स्पेनिश शिक्षक द्वारा पढ़ाया जाता है",
+      "of": "04615083",
+      "at": [
+        "davidson-day:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "स्पेनिश, Middle School के एक स्पेनिश शिक्षक द्वारा पढ़ाया जाता है",
+      "of": "525ef0df",
+      "at": [
+        "davidson-day:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "अगले स्तर के लिए तैयार छात्र Upper School में विश्व भाषा की कक्षाएँ लेते हैं",
+      "of": "fc05740e",
+      "at": [
+        "davidson-day:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "स्पेन, पुर्तगाल और बेलीज़ में AFAR की गर्मियों की खुदाइयाँ",
+      "of": "d263d515",
+      "at": [
+        "davidson-day:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction, जिसके लिए सोफ़ोमोर वर्ष के अंत में आवेदन किया जाता है",
+      "of": "88036c67",
+      "at": [
+        "davidson-day:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "AP Spanish और AP French Language & Culture",
+      "of": "f5d65d18",
+      "at": [
+        "davidson-day:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Honors Anthropology, फिर कक्षा 11 में Research Methods Honors और कक्षा 12 में Capstone Research Honors Mentorship",
+      "of": "23c3a852",
+      "at": [
+        "davidson-day:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "2021 से एक Upper School distinction: Honors Anthropology, चार वैश्विक AP, एक भाषा, 100 घंटे का प्रैक्टिकम और दो वर्षों का मौलिक शोध, जिसे हर सीनियर छात्र प्रस्तुत करता है।",
+      "of": "bf33f1bf",
+      "at": [
+        "davidson-day:credential.headline"
+      ]
+    },
+    {
+      "t": "स्कूल के शब्दों में, Global Studies Diploma Distinction \"prepares students to understand an increasingly interconnected world through rigorous academic study, language immersion, and transformative international experiences.\"",
+      "of": "6ef068f8",
+      "at": [
+        "davidson-day:credential.intro.strong"
+      ]
+    },
+    {
+      "t": "यह तीन Diploma Distinctions में से एक है: छात्र सोफ़ोमोर वर्ष के अंत में आवेदन करते हैं और दो वर्षों तक गहराई से अध्ययन करते हैं।",
+      "of": "f361e654",
+      "at": [
+        "davidson-day:credential.intro.muted"
+      ]
+    },
+    {
+      "t": "से उपलब्ध",
+      "of": "da9200ae",
+      "at": [
+        "davidson-day:credential.stats[0].label"
+      ]
+    },
+    {
+      "t": "वैश्विक AP वैकल्पिक विषय",
+      "of": "161b73e7",
+      "at": [
+        "davidson-day:credential.stats[1].label"
+      ]
+    },
+    {
+      "t": "छह विकल्पों में से चुने गए",
+      "of": "b8ae6fbf",
+      "at": [
+        "davidson-day:credential.stats[1].note"
+      ]
+    },
+    {
+      "t": "प्रैक्टिकम घंटे",
+      "of": "5248e584",
+      "at": [
+        "davidson-day:credential.stats[2].label"
+      ]
+    },
+    {
+      "t": "कम से कम, किसी स्वीकृत इंटर्नशिप, स्वयंसेवी अवसर या प्री-कॉलेज कार्यक्रम में",
+      "of": "ed234621",
+      "at": [
+        "davidson-day:credential.stats[2].note"
+      ]
+    },
+    {
+      "t": "Honors Anthropology",
+      "of": "4a85b0f8",
+      "at": [
+        "davidson-day:credential.required[0]"
+      ]
+    },
+    {
+      "t": "इनमें से चार: AP World History या AP European History, AP Environmental Science, AP Psychology, AP Macroeconomics, AP with WE Service Recognition, और AP Spanish या AP French Language & Culture",
+      "of": "19d750c7",
+      "at": [
+        "davidson-day:credential.required[1]"
+      ]
+    },
+    {
+      "t": "Level IV, या Upper School में एक ही भाषा के तीन स्तर",
+      "of": "d8c66c56",
+      "at": [
+        "davidson-day:credential.required[2]"
+      ]
+    },
+    {
+      "t": "कम से कम 100 प्रैक्टिकम घंटे, साथ में हर तिमाही Ethics Labs",
+      "of": "611df9fe",
+      "at": [
+        "davidson-day:credential.required[3]"
+      ]
+    },
+    {
+      "t": "कक्षा 11 में Research Methods Honors और कक्षा 12 में Capstone Research Honors Mentorship",
+      "of": "76f8c565",
+      "at": [
+        "davidson-day:credential.required[4]"
+      ]
+    },
+    {
+      "t": "Davidson Day Scholars Research Conference में एक कैपस्टोन प्रस्तुति",
+      "of": "e830c231",
+      "at": [
+        "davidson-day:credential.required[5]"
+      ]
+    },
+    {
+      "t": "स्पेन, पुर्तगाल या बेलीज़ में AFAR फ़ील्ड शोध, जिसे distinction के अधिकांश छात्र लेते हैं",
+      "of": "d54cafc3",
+      "at": [
+        "davidson-day:credential.beyond[0]"
+      ]
+    },
+    {
+      "t": "प्रैक्टिकम अनुभव, जिनमें अक्सर अंतरराष्ट्रीय यात्रा, शोध, भाषा अनुभव या अंतर-सांस्कृतिक सेवा शामिल होती है",
+      "of": "97506c78",
+      "at": [
+        "davidson-day:credential.beyond[1]"
+      ]
+    },
+    {
+      "t": "शैक्षणिक सम्मेलनों में शोध प्रस्तुत करना, जैसे कैलगरी में Mount Royal University का सम्मेलन",
+      "of": "aa834881",
+      "at": [
+        "davidson-day:credential.beyond[2]"
+      ]
+    },
+    {
+      "t": "AFAR, उसकी साझेदार परियोजनाएँ और उसके अपने माया सम्मेलन, जहाँ छात्र कैलगरी से हेलसिंकी तक विश्वविद्यालयों के सम्मेलनों में अपना शोध प्रस्तुत करते हैं।",
+      "of": "d900c0ac",
+      "at": [
+        "davidson-day:network.headline"
+      ]
+    },
+    {
+      "t": "AFAR स्कूल का साझेदार पुरातत्व फ़ील्ड स्कूल है। स्कूल के अनुसार, यह 20 से अधिक वर्षों से चल रहा है, और इसके पूरे कार्यक्रम से 500 से अधिक छात्र इसकी परियोजनाओं में भाग ले चुके हैं।",
+      "of": "000b6d8b",
+      "at": [
+        "davidson-day:network.intro.strong"
+      ]
+    },
+    {
+      "t": "वैज्ञानिक चक्र पूरा करने के लिए छात्र शैक्षणिक सम्मेलनों में प्रस्तुति देते हैं, और AFAR अपने ख़ुद के सम्मेलन भी आयोजित करता है।",
+      "of": "21abf4c0",
+      "at": [
+        "davidson-day:network.intro.muted"
+      ]
+    },
+    {
+      "t": "शैक्षणिक सम्मेलन",
+      "of": "4a540fe1",
+      "at": [
+        "davidson-day:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "इस स्कूल वर्ष में दिए गए अवसर: कैलगरी और बैन्फ़ में Mount Royal University का पुरातत्व सम्मेलन · फ़्लोरिडा के Disney's Coronado Springs Resort में माया विषय पर एक सम्मेलन, जिसे AFAR और अन्य पुरातत्वविद आयोजित करते हैं · नॉर्थ कैरोलिना के Friedberg में खुदाई",
+      "of": "788ef023",
+      "at": [
+        "davidson-day:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Mount Royal University, कैलगरी · 10 छात्रों ने अपने ग्रीष्म 2024 के शोध पर तीन प्रस्तुतियाँ दीं",
+      "of": "0f4a3811",
+      "at": [
+        "davidson-day:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "हेलसिंकी में फ़िनलैंड के राष्ट्रीय संग्रहालय (National Museum of Finland) द्वारा आयोजित एक सम्मेलन में एक संयुक्त मुख्य व्याख्यान और प्रस्तुति, 2020 की शुरुआत",
+      "of": "325c0d56",
+      "at": [
+        "davidson-day:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "AFAR",
+      "of": "318084ad",
+      "at": [
+        "davidson-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "स्कूल का साझेदार अंतरराष्ट्रीय पुरातत्व फ़ील्ड स्कूल, जो उसकी सामुदायिक साझेदारियों में सूचीबद्ध है।",
+      "of": "c7a03689",
+      "at": [
+        "davidson-day:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "AFAR के सम्मेलन",
+      "of": "0f83f200",
+      "at": [
+        "davidson-day:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "AFAR हर साल माया पुरातत्व पर दो अंतरराष्ट्रीय सम्मेलन आयोजित करता है, जिनमें छात्रों की शोध प्रस्तुतियाँ और कार्यशालाएँ होती हैं; Maya at the Playa वर्चुअल रूप से आयोजित हुआ है।",
+      "of": "b54a5441",
+      "at": [
+        "davidson-day:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "NC State Historic Preservation Office",
+      "of": "c340ac96",
+      "at": [
+        "davidson-day:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "विंस्टन-सेलम में 2024 की Adam Spach Rock House खुदाई, Environmental Research Group के साथ मिलकर।",
+      "of": "210af9d0",
+      "at": [
+        "davidson-day:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "Belize Valley Archaeological Reconnaissance Project",
+      "of": "4dbb029a",
+      "at": [
+        "davidson-day:network.cells[3].name"
+      ]
+    },
+    {
+      "t": "AFAR की बेलीज़ परियोजना, उसकी सूची में सबसे लंबे समय से चलने वाली और शारीरिक रूप से सबसे कठिन।",
+      "of": "d8f013c1",
+      "at": [
+        "davidson-day:network.cells[3].text"
+      ]
+    },
+    {
+      "t": "पूर्व छात्रों के लिए",
+      "of": "fea1c18e",
+      "at": [
+        "davidson-day:network.rows[0].label"
+      ]
+    },
+    {
+      "t": "बेलीज़ में Pook's Hill एक AFAR परियोजना है जो केवल Davidson Day के पूर्व छात्रों के लिए खुली है; 2026 में एक हाल के स्नातक ने इसके दो लैब निदेशकों में से एक के रूप में काम किया।",
+      "of": "f0a0b3a1",
+      "at": [
+        "davidson-day:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "AFAR के बीस वर्ष, 2006 में Cahal Pech के पहले सीज़न से लेकर 2027 में एक नए माया स्थल तक।",
+      "of": "026fa403",
+      "at": [
+        "davidson-day:milestones.headline"
+      ]
+    },
+    {
+      "t": "स्कूल AFAR की शुरुआत 2006 और अपने Global Studies Diploma Distinction की शुरुआत 2021 बताता है,",
+      "of": "689deaad",
+      "at": [
+        "davidson-day:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "और बीच में नॉर्थ कैरोलिना की एक पहली उपलब्धि भी — नीचे हर एक वैसा ही है जैसा स्कूल बताता है।",
+      "of": "bb50cb0d",
+      "at": [
+        "davidson-day:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "AFAR की शुरुआत",
+      "of": "344a9881",
+      "at": [
+        "davidson-day:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "पश्चिमी बेलीज़ के माया स्थल Cahal Pech पर शोध शुरू होता है।",
+      "of": "c22ed8f0",
+      "at": [
+        "davidson-day:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "पश्चिमी बॉल कोर्ट",
+      "of": "4af5f040",
+      "at": [
+        "davidson-day:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "Cahal Pech पर काम शाही महल के प्रांगण के पास बॉल कोर्ट की ओर मुड़ता है।",
+      "of": "a3b5507a",
+      "at": [
+        "davidson-day:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "AFAR प्राचीन मैसेडोनियाई नगर Mieza में काम शुरू करता है।",
+      "of": "3acfd431",
+      "at": [
+        "davidson-day:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "रोमन नगर Tróia में शोध शुरू होता है।",
+      "of": "36c0fac6",
+      "at": [
+        "davidson-day:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "हेलसिंकी",
+      "of": "8d816624",
+      "at": [
+        "davidson-day:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "छात्र फ़िनलैंड के राष्ट्रीय संग्रहालय (National Museum of Finland) द्वारा आयोजित एक सम्मेलन में एक संयुक्त मुख्य व्याख्यान और प्रस्तुति देते हैं।",
+      "of": "6e70b808",
+      "at": [
+        "davidson-day:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "distinction पहली बार पेश किया जाता है।",
+      "of": "2fb77837",
+      "at": [
+        "davidson-day:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "नॉर्थ कैरोलिना में पहली बार",
+      "of": "45866c72",
+      "at": [
+        "davidson-day:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "स्कूल के अनुसार, North Carolina State Historic Preservation Office के साथ किसी खुदाई पर काम करने वाले पहले हाई स्कूल छात्र।",
+      "of": "7809aa13",
+      "at": [
+        "davidson-day:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "Cahal Pech का समापन",
+      "of": "6217ac88",
+      "at": [
+        "davidson-day:milestones.events[7].title"
+      ]
+    },
+    {
+      "t": "इस स्थल पर 20वाँ और अंतिम सीज़न।",
+      "of": "212faa71",
+      "at": [
+        "davidson-day:milestones.events[7].text"
+      ]
+    },
+    {
+      "t": "बेलीज़ परियोजना एक नए माया स्थल पर चली जाती है।",
+      "of": "7f0018db",
+      "at": [
+        "davidson-day:milestones.events[8].text"
+      ]
+    },
+    {
+      "t": "यह कार्यक्रम कहाँ अलग दिखता है, और तेरह सवाल जिनका जवाब स्कूल की वेबसाइट अभी तक नहीं देती — यात्रा का ख़र्च, आर्थिक सहायता, कक्षाएँ और सुरक्षा।",
+      "of": "5b0760c5",
+      "at": [
+        "davidson-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Davidson Day का वैश्विक कार्यक्रम यहाँ के किसी भी दूसरे स्कूल जैसा नहीं है: इसकी यात्राएँ घूमने-फिरने के बजाय पुरातात्विक शोध हैं। छात्र स्पेन, पुर्तगाल और बेलीज़ में पेशेवरों के साथ खुदाई करते हैं, और अपने निष्कर्ष विश्वविद्यालयों के सम्मेलनों में प्रस्तुत करते हैं — यह सब दो वर्ष के एक Upper School शोध distinction के भीतर।",
+      "of": "153110de",
+      "at": [
+        "davidson-day:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "तीन सक्रिय स्थलों पर गर्मियों का फ़ील्ड शोध, जिनमें से एक पर 20 सीज़नों का रिकॉर्ड है",
+      "of": "7d81b0c4",
+      "at": [
+        "davidson-day:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "Mount Royal University में प्रस्तुत छात्र शोध — शरद 2024 में 10 छात्र",
+      "of": "9732fd2b",
+      "at": [
+        "davidson-day:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "दो वर्षों के मौलिक शोध और सीनियर वर्ष के एक कैपस्टोन वाला प्रमाणपत्र",
+      "of": "38401043",
+      "at": [
+        "davidson-day:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "स्कूल के अनुसार, North Carolina State Historic Preservation Office के साथ हाई स्कूल छात्रों की पहली खुदाई",
+      "of": "855f7275",
+      "at": [
+        "davidson-day:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "यात्रा पेज।",
+      "of": "fda3cc5a",
+      "at": [
+        "davidson-day:verdict.ask[0].topic"
+      ]
+    },
+    {
+      "t": "स्कूल का International Travel पेज हटा दिया गया है। अब वह अपनी यात्राएँ कहाँ प्रकाशित करता है?",
+      "of": "34768566",
+      "at": [
+        "davidson-day:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Middle School।",
+      "of": "94287eee",
+      "at": [
+        "davidson-day:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "क्या स्पेन और फ़्रांस की Middle School की गर्मियों की यात्रा अब भी होती है, और किस कक्षा से?",
+      "of": "e7919a2e",
+      "at": [
+        "davidson-day:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "कक्षाएँ।",
+      "of": "86a82891",
+      "at": [
+        "davidson-day:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "AFAR अपनी कक्षा-सीमाएँ ख़ुद तय करता है। Davidson Day का कोई छात्र सबसे पहले किस कक्षा में खुदाई में शामिल हो सकता है?",
+      "of": "f30232a8",
+      "at": [
+        "davidson-day:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "एक खुदाई का ख़र्च Davidson Day के एक परिवार के लिए कितना है, और Field Experience शुल्क में क्या शामिल है?",
+      "of": "125c0a40",
+      "at": [
+        "davidson-day:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "क्या स्कूल की आर्थिक सहायता, AFAR की अपनी सहायता के अलावा, AFAR या किसी यात्रा को कवर करती है?",
+      "of": "090f8169",
+      "at": [
+        "davidson-day:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "किसी सत्र के भर जाने पर जगहें कैसे तय की जाती हैं?",
+      "of": "5847bb5b",
+      "at": [
+        "davidson-day:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "संरक्षकों का अनुपात और बीमा की व्यवस्था क्या है, और हर यात्रा का नेतृत्व कौन करता है?",
+      "of": "17eebcd0",
+      "at": [
+        "davidson-day:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "क्या कोई आदान-प्रदान, सिस्टर स्कूल या होमस्टे है?",
+      "of": "f1a63dc0",
+      "at": [
+        "davidson-day:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "शोध की अनिवार्यता।",
+      "of": "72853ca3",
+      "at": [
+        "davidson-day:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "पुराने कार्यक्रम पेज पर दो सप्ताह का अंतरराष्ट्रीय फ़ील्ड शोध अनिवार्य था। क्या Distinction में यह अब भी अनिवार्य है?",
+      "of": "0128214a",
+      "at": [
+        "davidson-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "स्नातक।",
+      "of": "5843a5c9",
+      "at": [
+        "davidson-day:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "2021 से अब तक कितने छात्रों ने Global Studies Diploma Distinction अर्जित किया है?",
+      "of": "4bf0a26a",
+      "at": [
+        "davidson-day:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "हर गर्मी Davidson Day के कितने छात्र AFAR पर जाते हैं?",
+      "of": "dfa093d8",
+      "at": [
+        "davidson-day:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "पुरातत्व से आगे।",
+      "of": "64c8ef8e",
+      "at": [
+        "davidson-day:verdict.ask[11].topic"
+      ]
+    },
+    {
+      "t": "स्कूल कहता है कि यह मार्ग विकसित होने के साथ अंतरराष्ट्रीय सेवा यात्राएँ और भाषा अनुभव कार्यक्रम आएँगे। कब?",
+      "of": "9c9b3fff",
+      "at": [
+        "davidson-day:verdict.ask[11].question"
+      ]
+    },
+    {
+      "t": "निरंतरता।",
+      "of": "d8caa403",
+      "at": [
+        "davidson-day:verdict.ask[12].topic"
+      ]
+    },
+    {
+      "t": "इस कार्यक्रम का नेतृत्व AFAR के संस्थापक करते हैं। एक व्यक्ति से आगे इसका स्टाफ़ और नेतृत्व कैसे व्यवस्थित है?",
+      "of": "c55ae84c",
+      "at": [
+        "davidson-day:verdict.ask[12].question"
       ]
     }
   ]

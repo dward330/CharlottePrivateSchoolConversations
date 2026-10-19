@@ -510,7 +510,8 @@
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
         "charlotte-christian:trips.years[1].trips[0].dest",
-        "charlotte-country-day:trips.years[0].trips[7].dest"
+        "charlotte-country-day:trips.years[0].trips[7].dest",
+        "davidson-day:milestones.events[2].title"
       ]
     },
     {
@@ -528,7 +529,11 @@
         "charlotte-country-day:trips.years[1].trips[2].timing",
         "charlotte-country-day:trips.years[1].trips[3].timing",
         "charlotte-country-day:trips.years[1].trips[4].timing",
-        "charlotte-country-day:trips.years[1].trips[5].timing"
+        "charlotte-country-day:trips.years[1].trips[5].timing",
+        "davidson-day:trips.years[2].note",
+        "davidson-day:trips.years[2].trips[0].timing",
+        "davidson-day:trips.years[2].trips[1].timing",
+        "davidson-day:trips.years[2].trips[2].timing"
       ]
     },
     {
@@ -573,7 +578,10 @@
         "providence-day:trips.years[4].trips[1].dest",
         "charlotte-latin:trips.years[0].trips[5].dest",
         "charlotte-latin:trips.years[2].trips[6].dest",
-        "charlotte-country-day:trips.years[1].trips[4].dest"
+        "charlotte-country-day:trips.years[1].trips[4].dest",
+        "davidson-day:trips.years[0].trips[0].dest",
+        "davidson-day:trips.years[1].trips[0].dest",
+        "davidson-day:trips.years[2].trips[2].dest"
       ]
     },
     {
@@ -842,7 +850,8 @@
         "charlotte-latin:start.divisions[2].grades",
         "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
-        "cannon:start.divisions[2].grades"
+        "cannon:start.divisions[2].grades",
+        "davidson-day:start.divisions[2].grades"
       ]
     },
     {
@@ -1863,7 +1872,8 @@
       "t": "Le Global Studies Diploma",
       "of": "8c7895a4",
       "at": [
-        "providence-day:milestones.events[3].title"
+        "providence-day:milestones.events[3].title",
+        "davidson-day:milestones.events[5].title"
       ]
     },
     {
@@ -2021,7 +2031,8 @@
         "charlotte-latin:verdict.ask[5].topic",
         "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
-        "cannon:verdict.ask[3].topic"
+        "cannon:verdict.ask[3].topic",
+        "davidson-day:verdict.ask[4].topic"
       ]
     },
     {
@@ -2051,7 +2062,8 @@
       "at": [
         "providence-day:verdict.ask[3].topic",
         "charlotte-country-day:verdict.ask[2].topic",
-        "cannon:verdict.ask[4].topic"
+        "cannon:verdict.ask[4].topic",
+        "davidson-day:verdict.ask[5].topic"
       ]
     },
     {
@@ -2068,7 +2080,8 @@
         "providence-day:verdict.ask[4].topic",
         "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
-        "cannon:verdict.ask[5].topic"
+        "cannon:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[6].topic"
       ]
     },
     {
@@ -2083,7 +2096,8 @@
       "of": "3b61cee5",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-christian:verdict.ask[5].topic"
+        "charlotte-christian:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[7].topic"
       ]
     },
     {
@@ -2115,7 +2129,8 @@
         "charlotte-latin:verdict.ask[7].topic",
         "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
-        "cannon:verdict.ask[9].topic"
+        "cannon:verdict.ask[9].topic",
+        "davidson-day:verdict.ask[10].topic"
       ]
     },
     {
@@ -2275,7 +2290,10 @@
         "charlotte-latin:trips.years[0].trips[5].timing",
         "charlotte-latin:trips.years[0].trips[6].timing",
         "charlotte-latin:trips.years[0].trips[7].timing",
-        "charlotte-country-day:trips.years[0].trips[9].timing"
+        "charlotte-country-day:trips.years[0].trips[9].timing",
+        "davidson-day:trips.years[0].trips[0].timing",
+        "davidson-day:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[0].trips[2].timing"
       ]
     },
     {
@@ -2525,7 +2543,11 @@
       "of": "89d4dc86",
       "at": [
         "charlotte-latin:trips.years[1].trips[4].timing",
-        "cannon:trips.years[0].trips[1].timing"
+        "cannon:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[1].note",
+        "davidson-day:trips.years[1].trips[0].timing",
+        "davidson-day:trips.years[1].trips[1].timing",
+        "davidson-day:trips.years[1].trips[2].timing"
       ]
     },
     {
@@ -4023,7 +4045,11 @@
       "of": "268c9f87",
       "at": [
         "charlotte-christian:trips.years[0].trips[6].dest",
-        "charlotte-christian:trips.years[3].trips[7].dest"
+        "charlotte-christian:trips.years[3].trips[7].dest",
+        "davidson-day:trips.years[0].trips[1].dest",
+        "davidson-day:trips.years[1].trips[1].dest",
+        "davidson-day:trips.years[2].trips[1].dest",
+        "davidson-day:milestones.events[3].title"
       ]
     },
     {
@@ -4987,7 +5013,8 @@
       "at": [
         "charlotte-christian:start.divisions[1].grades",
         "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
+        "cannon:start.divisions[1].grades",
+        "davidson-day:start.divisions[1].grades"
       ]
     },
     {
@@ -5383,7 +5410,8 @@
       "of": "04e0a6c2",
       "at": [
         "charlotte-christian:verdict.ask[0].topic",
-        "cannon:verdict.ask[2].topic"
+        "cannon:verdict.ask[2].topic",
+        "davidson-day:verdict.ask[3].topic"
       ]
     },
     {
@@ -7743,6 +7771,918 @@
       "of": "17818050",
       "at": [
         "cannon:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Les voyages de Davidson Day, c’est AFAR, l’American Foreign Academic Research, une école de fouilles archéologiques qui envoie chaque été des élèves fouiller aux côtés d’archéologues professionnels en Espagne, au Portugal et au Belize, puis présenter leurs recherches lors de conférences universitaires.",
+      "of": "d60ad2d8",
+      "at": [
+        "davidson-day:lead.strong"
+      ]
+    },
+    {
+      "t": "Elle va de pair avec la Global Studies Diploma Distinction, un parcours d’Upper School proposé depuis 2021, dont la plupart des élèves participent à AFAR.",
+      "of": "10d505f1",
+      "at": [
+        "davidson-day:lead.muted"
+      ]
+    },
+    {
+      "t": "pays accueillant des fouilles AFAR",
+      "of": "eff66b0a",
+      "at": [
+        "davidson-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "Espagne, Portugal et Belize, selon l’école",
+      "of": "a78624c0",
+      "at": [
+        "davidson-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "saisons à Cahal Pech",
+      "of": "ab840bcd",
+      "at": [
+        "davidson-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "2006–2026, dans l’ouest du Belize, selon l’école",
+      "of": "4dc989a4",
+      "at": [
+        "davidson-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "élèves ont présenté leurs travaux à Mount Royal University",
+      "of": "4643db2e",
+      "at": [
+        "davidson-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "à Calgary, à l’automne 2024, dont neuf inscrits au Global Studies Diploma",
+      "of": "3c79ea53",
+      "at": [
+        "davidson-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "lancement de la Global Studies Diploma Distinction",
+      "of": "ca9e6eb6",
+      "at": [
+        "davidson-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "selon l’école",
+      "of": "8dbe1011",
+      "at": [
+        "davidson-day:stats[3].note",
+        "davidson-day:credential.stats[0].note"
+      ]
+    },
+    {
+      "t": "Neuf fouilles AFAR sur trois étés — 2024, 2026 et 2027, annoncé — en Espagne, au Portugal et au Belize.",
+      "of": "5d1577e0",
+      "at": [
+        "davidson-day:trips.headline"
+      ]
+    },
+    {
+      "t": "Sur chaque site, les élèves travaillent aux côtés d’archéologues professionnels, avec des conférences et des excursions intégrées à la journée.",
+      "of": "f2907304",
+      "at": [
+        "davidson-day:trips.intro.strong"
+      ]
+    },
+    {
+      "t": "Le lien International Travel de l’école mène désormais à sa page Global Studies Diploma Distinction ; les détails des voyages les plus récents proviennent donc d’un article de l’école de l’automne 2026.",
+      "of": "5ef792ac",
+      "at": [
+        "davidson-day:trips.intro.muted"
+      ]
+    },
+    {
+      "t": "Été 2027, tel qu’annoncé",
+      "of": "1b18daa4",
+      "at": [
+        "davidson-day:trips.years[0].note"
+      ]
+    },
+    {
+      "t": "Zorita de los Canes",
+      "of": "a87494af",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].place",
+        "davidson-day:trips.years[1].trips[0].place",
+        "davidson-day:trips.years[2].trips[2].place"
+      ]
+    },
+    {
+      "t": "8e–12e année · jusqu’à 18 élèves par session, selon AFAR",
+      "of": "dfb3578a",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].group"
+      ]
+    },
+    {
+      "t": "Fouille du château médiéval de Zorita",
+      "of": "c5b8c4e9",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].theme"
+      ]
+    },
+    {
+      "t": "Tróia",
+      "of": "8b09294e",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].place",
+        "davidson-day:trips.years[1].trips[1].place",
+        "davidson-day:trips.years[2].trips[1].place"
+      ]
+    },
+    {
+      "t": "10e–12e année · 18 élèves par session, selon AFAR",
+      "of": "71f779b9",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].group"
+      ]
+    },
+    {
+      "t": "Une ville romaine de salaison de poisson sur la côte, préservée sous le sable",
+      "of": "c969ab69",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Belize",
+      "of": "b9e03916",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].dest",
+        "davidson-day:trips.years[1].trips[2].dest",
+        "davidson-day:trips.years[2].trips[0].dest"
+      ]
+    },
+    {
+      "t": "Baking Pot",
+      "of": "5a016cd0",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].place",
+        "davidson-day:milestones.events[8].title"
+      ]
+    },
+    {
+      "t": "9e–12e année · jusqu’à 18 élèves, selon AFAR",
+      "of": "dd426230",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].group"
+      ]
+    },
+    {
+      "t": "La première saison d’AFAR sur un nouveau site maya, à environ 20 minutes en amont de Cahal Pech",
+      "of": "72e4bf6b",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].theme"
+      ]
+    },
+    {
+      "t": "La 11e saison de fouilles du projet · deux salles du château et une chambre souterraine",
+      "of": "b40a1012",
+      "at": [
+        "davidson-day:trips.years[1].trips[0].theme"
+      ]
+    },
+    {
+      "t": "L’ancienne cité romaine, où AFAR travaille depuis 2018",
+      "of": "de203da8",
+      "at": [
+        "davidson-day:trips.years[1].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Cahal Pech",
+      "of": "47652f7a",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].place",
+        "davidson-day:trips.years[2].trips[0].place"
+      ]
+    },
+    {
+      "t": "La dernière des 20 saisons sur le site maya",
+      "of": "ed476fdc",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Le jeu de balle ouest, à côté de la place du palais royal · recherches présentées ensuite à Calgary",
+      "of": "ad2863a4",
+      "at": [
+        "davidson-day:trips.years[2].trips[0].theme"
+      ]
+    },
+    {
+      "t": "L’usine romaine de salaison de poisson · recherches présentées ensuite à Calgary",
+      "of": "37c0706e",
+      "at": [
+        "davidson-day:trips.years[2].trips[1].theme"
+      ]
+    },
+    {
+      "t": "Le château médiéval surplombant le Tage · recherches présentées ensuite à Calgary",
+      "of": "26dd0105",
+      "at": [
+        "davidson-day:trips.years[2].trips[2].theme"
+      ]
+    },
+    {
+      "t": "Des élèves AFAR de Davidson Day et des archéologues sur le chantier de fouilles de Tróia, au Portugal",
+      "of": "098aadde",
+      "at": [
+        "davidson-day:trips.photo.alt"
+      ]
+    },
+    {
+      "t": "Tróia, Portugal",
+      "of": "f1a56858",
+      "at": [
+        "davidson-day:trips.photo.caption.title"
+      ]
+    },
+    {
+      "t": "L’équipe AFAR sur le site romain de Tróia, été 2026.",
+      "of": "841c222c",
+      "at": [
+        "davidson-day:trips.photo.caption.text"
+      ]
+    },
+    {
+      "t": "Photo : Davidson Day School",
+      "of": "675efbf3",
+      "at": [
+        "davidson-day:trips.photo.credit"
+      ]
+    },
+    {
+      "t": "Middle School, Espagne et France.",
+      "of": "9e71cebc",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].lead"
+      ]
+    },
+    {
+      "t": "Début 2026, la page voyages de l’école décrivait un voyage d’été d’immersion linguistique et culturelle à Madrid, Tolède et Paris, avec une soirée flamenco et un cours de cuisine à Paris ; il a disparu des versions ultérieures de la page.",
+      "of": "e86ca030",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].text"
+      ]
+    },
+    {
+      "t": "Grèce, 2017–18.",
+      "of": "6300e482",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].lead"
+      ]
+    },
+    {
+      "t": "AFAR a fouillé à Mieza, l’ancienne cité macédonienne, lors de ses voyages de recherche de 2017 et 2018.",
+      "of": "4fb4d187",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].text"
+      ]
+    },
+    {
+      "t": "Caroline du Nord, novembre 2024.",
+      "of": "73cde345",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].lead"
+      ]
+    },
+    {
+      "t": "13 élèves ont travaillé sur les fouilles de l’Adam Spach Rock House à Winston-Salem, les premiers lycéens à travailler sur un site avec le North Carolina State Historic Preservation Office, selon l’école.",
+      "of": "b47ee713",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].text"
+      ]
+    },
+    {
+      "t": "L’espagnol dès l’Early Childhood, des cours de langue d’Upper School pour les élèves de Middle School qui sont prêts, et en Upper School, les fouilles AFAR et une distinction de recherche.",
+      "of": "7e00224e",
+      "at": [
+        "davidson-day:start.headline"
+      ]
+    },
+    {
+      "t": "L’école affirme que son programme dote les élèves de compétences adaptées au monde réel pour qu’ils soient prêts à jouer un rôle de premier plan sur la scène internationale.",
+      "of": "96e54937",
+      "at": [
+        "davidson-day:start.intro.strong"
+      ]
+    },
+    {
+      "t": "Les voyages commencent en Upper School, avec AFAR.",
+      "of": "c411b4a0",
+      "at": [
+        "davidson-day:start.intro.muted"
+      ]
+    },
+    {
+      "t": "EC–4",
+      "of": "4731e8de",
+      "at": [
+        "davidson-day:start.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "L’espagnol dès l’Early Childhood, qui commence à deux ans, enseigné par un professeur d’espagnol d’Early Childhood et de Lower School",
+      "of": "04615083",
+      "at": [
+        "davidson-day:start.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "L’espagnol, enseigné par un professeur d’espagnol de Middle School",
+      "of": "525ef0df",
+      "at": [
+        "davidson-day:start.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Les élèves prêts pour le niveau suivant suivent des cours de langues étrangères en Upper School",
+      "of": "fc05740e",
+      "at": [
+        "davidson-day:start.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Les fouilles d’été d’AFAR en Espagne, au Portugal et au Belize",
+      "of": "d263d515",
+      "at": [
+        "davidson-day:start.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "La Global Studies Diploma Distinction, à laquelle on postule à la fin de la 10e année",
+      "of": "88036c67",
+      "at": [
+        "davidson-day:start.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "AP Spanish et AP French Language & Culture",
+      "of": "f5d65d18",
+      "at": [
+        "davidson-day:start.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Honors Anthropology, puis Research Methods Honors en 11e année et Capstone Research Honors Mentorship en 12e",
+      "of": "23c3a852",
+      "at": [
+        "davidson-day:start.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "Une distinction d’Upper School depuis 2021 : Honors Anthropology, quatre AP à dimension internationale, une langue, un stage pratique de 100 heures et deux années de recherche originale, présentée par chaque élève de 12e année.",
+      "of": "bf33f1bf",
+      "at": [
+        "davidson-day:credential.headline"
+      ]
+    },
+    {
+      "t": "La Global Studies Diploma Distinction « prepares students to understand an increasingly interconnected world through rigorous academic study, language immersion, and transformative international experiences. »",
+      "of": "6ef068f8",
+      "at": [
+        "davidson-day:credential.intro.strong"
+      ]
+    },
+    {
+      "t": "C’est l’une des trois Diploma Distinctions : les élèves postulent à la fin de la 10e année et consacrent deux ans à un travail approfondi.",
+      "of": "f361e654",
+      "at": [
+        "davidson-day:credential.intro.muted"
+      ]
+    },
+    {
+      "t": "proposée depuis",
+      "of": "da9200ae",
+      "at": [
+        "davidson-day:credential.stats[0].label"
+      ]
+    },
+    {
+      "t": "options AP à dimension internationale",
+      "of": "161b73e7",
+      "at": [
+        "davidson-day:credential.stats[1].label"
+      ]
+    },
+    {
+      "t": "choisies parmi six possibilités",
+      "of": "b8ae6fbf",
+      "at": [
+        "davidson-day:credential.stats[1].note"
+      ]
+    },
+    {
+      "t": "heures de stage pratique",
+      "of": "5248e584",
+      "at": [
+        "davidson-day:credential.stats[2].label"
+      ]
+    },
+    {
+      "t": "au minimum, dans un stage, une activité bénévole ou un programme pré-universitaire approuvé",
+      "of": "ed234621",
+      "at": [
+        "davidson-day:credential.stats[2].note"
+      ]
+    },
+    {
+      "t": "Honors Anthropology",
+      "of": "4a85b0f8",
+      "at": [
+        "davidson-day:credential.required[0]"
+      ]
+    },
+    {
+      "t": "Quatre cours parmi : AP World History ou AP European History, AP Environmental Science, AP Psychology, AP Macroeconomics, AP with WE Service Recognition, et AP Spanish ou AP French Language & Culture",
+      "of": "19d750c7",
+      "at": [
+        "davidson-day:credential.required[1]"
+      ]
+    },
+    {
+      "t": "Le niveau IV, ou trois niveaux d’une même langue en Upper School",
+      "of": "d8c66c56",
+      "at": [
+        "davidson-day:credential.required[2]"
+      ]
+    },
+    {
+      "t": "Au moins 100 heures de stage pratique, plus des Ethics Labs chaque trimestre",
+      "of": "611df9fe",
+      "at": [
+        "davidson-day:credential.required[3]"
+      ]
+    },
+    {
+      "t": "Research Methods Honors en 11e année et Capstone Research Honors Mentorship en 12e année",
+      "of": "76f8c565",
+      "at": [
+        "davidson-day:credential.required[4]"
+      ]
+    },
+    {
+      "t": "Une présentation de fin d’études à la Davidson Day Scholars Research Conference",
+      "of": "e830c231",
+      "at": [
+        "davidson-day:credential.required[5]"
+      ]
+    },
+    {
+      "t": "Des recherches de terrain AFAR en Espagne, au Portugal ou au Belize, que suivent la plupart des élèves de la distinction",
+      "of": "d54cafc3",
+      "at": [
+        "davidson-day:credential.beyond[0]"
+      ]
+    },
+    {
+      "t": "Des stages pratiques qui comprennent souvent des voyages à l’étranger, de la recherche, une immersion linguistique ou du service interculturel",
+      "of": "97506c78",
+      "at": [
+        "davidson-day:credential.beyond[1]"
+      ]
+    },
+    {
+      "t": "La présentation de recherches lors de conférences universitaires, comme celle de Mount Royal University à Calgary",
+      "of": "aa834881",
+      "at": [
+        "davidson-day:credential.beyond[2]"
+      ]
+    },
+    {
+      "t": "AFAR, ses projets partenaires et ses propres conférences sur les Mayas, avec des élèves qui présentent leurs recherches lors de conférences universitaires, de Calgary à Helsinki.",
+      "of": "d900c0ac",
+      "at": [
+        "davidson-day:network.headline"
+      ]
+    },
+    {
+      "t": "AFAR est l’école de fouilles archéologiques partenaire de l’établissement. Selon l’école, elle existe depuis plus de 20 ans, et plus de 500 élèves de l’ensemble de son programme ont participé à ses projets.",
+      "of": "000b6d8b",
+      "at": [
+        "davidson-day:network.intro.strong"
+      ]
+    },
+    {
+      "t": "Les élèves présentent leurs travaux lors de conférences universitaires pour boucler le cycle scientifique, et AFAR organise ses propres conférences.",
+      "of": "21abf4c0",
+      "at": [
+        "davidson-day:network.intro.muted"
+      ]
+    },
+    {
+      "t": "Conférences universitaires",
+      "of": "4a540fe1",
+      "at": [
+        "davidson-day:network.ledgerTitle"
+      ]
+    },
+    {
+      "t": "Possibilités offertes cette année scolaire : la conférence d’archéologie de Mount Royal University à Calgary et à Banff · une conférence sur le thème des Mayas au Disney’s Coronado Springs Resort en Floride, organisée par AFAR et d’autres archéologues · des fouilles à Friedberg, en Caroline du Nord",
+      "of": "788ef023",
+      "at": [
+        "davidson-day:network.conferences[0].text"
+      ]
+    },
+    {
+      "t": "Mount Royal University, Calgary · où 10 élèves ont fait trois présentations sur leurs recherches de l’été 2024",
+      "of": "0f4a3811",
+      "at": [
+        "davidson-day:network.conferences[1].text"
+      ]
+    },
+    {
+      "t": "Une conférence plénière et une présentation collaboratives lors d’un colloque organisé par le Musée national de Finlande à Helsinki, début 2020",
+      "of": "325c0d56",
+      "at": [
+        "davidson-day:network.conferences[2].text"
+      ]
+    },
+    {
+      "t": "AFAR",
+      "of": "318084ad",
+      "at": [
+        "davidson-day:network.cells[0].name"
+      ]
+    },
+    {
+      "t": "L’école de fouilles archéologiques internationale partenaire de l’établissement, citée parmi ses partenariats communautaires.",
+      "of": "c7a03689",
+      "at": [
+        "davidson-day:network.cells[0].text"
+      ]
+    },
+    {
+      "t": "Les conférences d’AFAR",
+      "of": "0f83f200",
+      "at": [
+        "davidson-day:network.cells[1].name"
+      ]
+    },
+    {
+      "t": "AFAR organise chaque année deux conférences internationales sur l’archéologie maya, avec des présentations de recherches d’élèves et des ateliers ; Maya at the Playa s’est tenue en ligne.",
+      "of": "b54a5441",
+      "at": [
+        "davidson-day:network.cells[1].text"
+      ]
+    },
+    {
+      "t": "NC State Historic Preservation Office",
+      "of": "c340ac96",
+      "at": [
+        "davidson-day:network.cells[2].name"
+      ]
+    },
+    {
+      "t": "Les fouilles de 2024 de l’Adam Spach Rock House à Winston-Salem, menées avec l’Environmental Research Group.",
+      "of": "210af9d0",
+      "at": [
+        "davidson-day:network.cells[2].text"
+      ]
+    },
+    {
+      "t": "Belize Valley Archaeological Reconnaissance Project",
+      "of": "4dbb029a",
+      "at": [
+        "davidson-day:network.cells[3].name"
+      ]
+    },
+    {
+      "t": "Le projet d’AFAR au Belize, le plus ancien et le plus exigeant physiquement de ses projets.",
+      "of": "d8f013c1",
+      "at": [
+        "davidson-day:network.cells[3].text"
+      ]
+    },
+    {
+      "t": "Pour les anciens élèves",
+      "of": "fea1c18e",
+      "at": [
+        "davidson-day:network.rows[0].label"
+      ]
+    },
+    {
+      "t": "Pook’s Hill, au Belize, est un projet AFAR réservé aux anciens élèves de Davidson Day ; en 2026, un jeune diplômé a été l’un de ses deux directeurs de laboratoire.",
+      "of": "f0a0b3a1",
+      "at": [
+        "davidson-day:network.rows[0].text"
+      ]
+    },
+    {
+      "t": "Vingt ans d’AFAR, de la première saison à Cahal Pech en 2006 à un nouveau site maya en 2027.",
+      "of": "026fa403",
+      "at": [
+        "davidson-day:milestones.headline"
+      ]
+    },
+    {
+      "t": "L’école fait remonter AFAR à 2006 et son Global Studies Diploma Distinction à 2021,",
+      "of": "689deaad",
+      "at": [
+        "davidson-day:milestones.intro.strong"
+      ]
+    },
+    {
+      "t": "avec une première en Caroline du Nord en chemin — chaque étape ci-dessous telle que l’école la présente.",
+      "of": "bb50cb0d",
+      "at": [
+        "davidson-day:milestones.intro.muted"
+      ]
+    },
+    {
+      "t": "Lancement d’AFAR",
+      "of": "344a9881",
+      "at": [
+        "davidson-day:milestones.events[0].title"
+      ]
+    },
+    {
+      "t": "Les recherches commencent sur le site maya de Cahal Pech, dans l’ouest du Belize.",
+      "of": "c22ed8f0",
+      "at": [
+        "davidson-day:milestones.events[0].text"
+      ]
+    },
+    {
+      "t": "Le jeu de balle ouest",
+      "of": "4af5f040",
+      "at": [
+        "davidson-day:milestones.events[1].title"
+      ]
+    },
+    {
+      "t": "Les travaux à Cahal Pech se concentrent sur le jeu de balle situé à côté de la place du palais royal.",
+      "of": "a3b5507a",
+      "at": [
+        "davidson-day:milestones.events[1].text"
+      ]
+    },
+    {
+      "t": "AFAR commence à Mieza, l’ancienne cité macédonienne.",
+      "of": "3acfd431",
+      "at": [
+        "davidson-day:milestones.events[2].text"
+      ]
+    },
+    {
+      "t": "Les recherches commencent dans la cité romaine de Tróia.",
+      "of": "36c0fac6",
+      "at": [
+        "davidson-day:milestones.events[3].text"
+      ]
+    },
+    {
+      "t": "Helsinki",
+      "of": "8d816624",
+      "at": [
+        "davidson-day:milestones.events[4].title"
+      ]
+    },
+    {
+      "t": "Des élèves donnent une conférence plénière et une présentation collaboratives lors d’un colloque organisé par le Musée national de Finlande.",
+      "of": "6e70b808",
+      "at": [
+        "davidson-day:milestones.events[4].text"
+      ]
+    },
+    {
+      "t": "La distinction est proposée pour la première fois.",
+      "of": "2fb77837",
+      "at": [
+        "davidson-day:milestones.events[5].text"
+      ]
+    },
+    {
+      "t": "Une première en Caroline du Nord",
+      "of": "45866c72",
+      "at": [
+        "davidson-day:milestones.events[6].title"
+      ]
+    },
+    {
+      "t": "Les premiers lycéens sur un chantier de fouilles avec le North Carolina State Historic Preservation Office, selon l’école.",
+      "of": "7809aa13",
+      "at": [
+        "davidson-day:milestones.events[6].text"
+      ]
+    },
+    {
+      "t": "Fin de Cahal Pech",
+      "of": "6217ac88",
+      "at": [
+        "davidson-day:milestones.events[7].title"
+      ]
+    },
+    {
+      "t": "La 20e et dernière saison sur le site.",
+      "of": "212faa71",
+      "at": [
+        "davidson-day:milestones.events[7].text"
+      ]
+    },
+    {
+      "t": "Le projet au Belize s’installe sur un nouveau site maya.",
+      "of": "7f0018db",
+      "at": [
+        "davidson-day:milestones.events[8].text"
+      ]
+    },
+    {
+      "t": "Les points forts du programme, et treize questions auxquelles le site de l’école ne répond pas encore — coût des voyages, aide, niveaux et sécurité.",
+      "of": "5b0760c5",
+      "at": [
+        "davidson-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Le programme international de Davidson Day ne ressemble à celui d’aucune autre école présentée ici : ses voyages relèvent de la recherche archéologique plutôt que du tourisme. Les élèves fouillent aux côtés de professionnels en Espagne, au Portugal et au Belize, et présentent leurs résultats lors de conférences universitaires, dans le cadre d’une distinction de recherche de deux ans en Upper School.",
+      "of": "153110de",
+      "at": [
+        "davidson-day:verdict.standsOut.summary"
+      ]
+    },
+    {
+      "t": "Des recherches de terrain l’été sur trois sites actifs, dont l’un compte 20 saisons documentées",
+      "of": "7d81b0c4",
+      "at": [
+        "davidson-day:verdict.standsOut.points[0]"
+      ]
+    },
+    {
+      "t": "Des recherches d’élèves présentées à Mount Royal University — 10 élèves à l’automne 2024",
+      "of": "9732fd2b",
+      "at": [
+        "davidson-day:verdict.standsOut.points[1]"
+      ]
+    },
+    {
+      "t": "Un diplôme comprenant deux années de recherche originale et un projet de fin d’études en 12e année",
+      "of": "38401043",
+      "at": [
+        "davidson-day:verdict.standsOut.points[2]"
+      ]
+    },
+    {
+      "t": "Les premières fouilles de lycéens avec le North Carolina State Historic Preservation Office, selon l’école",
+      "of": "855f7275",
+      "at": [
+        "davidson-day:verdict.standsOut.points[3]"
+      ]
+    },
+    {
+      "t": "Page voyages.",
+      "of": "fda3cc5a",
+      "at": [
+        "davidson-day:verdict.ask[0].topic"
+      ]
+    },
+    {
+      "t": "La page International Travel de l’école a été supprimée. Où l’école publie-t-elle désormais ses voyages ?",
+      "of": "34768566",
+      "at": [
+        "davidson-day:verdict.ask[0].question"
+      ]
+    },
+    {
+      "t": "Middle School.",
+      "of": "94287eee",
+      "at": [
+        "davidson-day:verdict.ask[1].topic"
+      ]
+    },
+    {
+      "t": "Le voyage d’été de Middle School en Espagne et en France a-t-il toujours lieu, et à partir de quel niveau ?",
+      "of": "e7919a2e",
+      "at": [
+        "davidson-day:verdict.ask[1].question"
+      ]
+    },
+    {
+      "t": "Niveaux.",
+      "of": "86a82891",
+      "at": [
+        "davidson-day:verdict.ask[2].topic"
+      ]
+    },
+    {
+      "t": "AFAR fixe ses propres tranches de niveaux. À partir de quel niveau un élève de Davidson Day peut-il participer à une fouille ?",
+      "of": "f30232a8",
+      "at": [
+        "davidson-day:verdict.ask[2].question"
+      ]
+    },
+    {
+      "t": "Combien coûte une fouille pour une famille de Davidson Day, et que couvrent les frais de Field Experience ?",
+      "of": "125c0a40",
+      "at": [
+        "davidson-day:verdict.ask[3].question"
+      ]
+    },
+    {
+      "t": "L’aide financière de l’école couvre-t-elle AFAR ou un autre voyage, au-delà de l’aide propre d’AFAR ?",
+      "of": "090f8169",
+      "at": [
+        "davidson-day:verdict.ask[4].question"
+      ]
+    },
+    {
+      "t": "Comment les places sont-elles attribuées lorsqu’une session est complète ?",
+      "of": "5847bb5b",
+      "at": [
+        "davidson-day:verdict.ask[5].question"
+      ]
+    },
+    {
+      "t": "Quels sont les taux d’encadrement et les dispositions d’assurance, et qui dirige chaque voyage ?",
+      "of": "17eebcd0",
+      "at": [
+        "davidson-day:verdict.ask[6].question"
+      ]
+    },
+    {
+      "t": "Existe-t-il un échange, une école jumelée ou un séjour en famille d’accueil ?",
+      "of": "f1a63dc0",
+      "at": [
+        "davidson-day:verdict.ask[7].question"
+      ]
+    },
+    {
+      "t": "Exigence de recherche.",
+      "of": "72853ca3",
+      "at": [
+        "davidson-day:verdict.ask[8].topic"
+      ]
+    },
+    {
+      "t": "L’ancienne page du programme exigeait deux semaines de recherche de terrain à l’étranger. La Distinction l’exige-t-elle toujours ?",
+      "of": "0128214a",
+      "at": [
+        "davidson-day:verdict.ask[8].question"
+      ]
+    },
+    {
+      "t": "Diplômés.",
+      "of": "5843a5c9",
+      "at": [
+        "davidson-day:verdict.ask[9].topic"
+      ]
+    },
+    {
+      "t": "Combien d’élèves ont obtenu la Global Studies Diploma Distinction depuis 2021 ?",
+      "of": "4bf0a26a",
+      "at": [
+        "davidson-day:verdict.ask[9].question"
+      ]
+    },
+    {
+      "t": "Combien d’élèves de Davidson Day participent à AFAR chaque été ?",
+      "of": "dfa093d8",
+      "at": [
+        "davidson-day:verdict.ask[10].question"
+      ]
+    },
+    {
+      "t": "Au-delà de l’archéologie.",
+      "of": "64c8ef8e",
+      "at": [
+        "davidson-day:verdict.ask[11].topic"
+      ]
+    },
+    {
+      "t": "L’école indique que des voyages de service à l’étranger et des programmes d’immersion linguistique viendront à mesure que le parcours se développera. Quand ?",
+      "of": "9c9b3fff",
+      "at": [
+        "davidson-day:verdict.ask[11].question"
+      ]
+    },
+    {
+      "t": "Continuité.",
+      "of": "d8caa403",
+      "at": [
+        "davidson-day:verdict.ask[12].topic"
+      ]
+    },
+    {
+      "t": "Le programme est dirigé par le fondateur d’AFAR. Comment son encadrement et sa direction sont-ils assurés au-delà d’une seule personne ?",
+      "of": "c55ae84c",
+      "at": [
+        "davidson-day:verdict.ask[12].question"
       ]
     }
   ]

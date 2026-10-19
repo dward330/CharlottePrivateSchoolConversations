@@ -7,12 +7,13 @@ One `<slug>.ts` per school with International Travel research, each exporting an
 **The area is displayed as "Global Exposure"** (renamed 2026-10-11); its slug, data
 directory and source-material folder keep the original `international-travel` name.
 
-**Five schools:** Providence Day (`.claude/plans/intltravel.md`), added 2026-10-11 from
+**Six schools:** Providence Day (`.claude/plans/intltravel.md`), added 2026-10-11 from
 a Claude Design handoff; Charlotte Country Day (`.claude/plans/ccdglobal.md`),
 added 2026-10-12 from a Claude deep-research PDF verified against live pages;
 Charlotte Latin (`.claude/plans/latinglobal.md`), added 2026-10-13 the same way; Cannon
 (`.claude/plans/cannonglobal.md`), added 2026-10-15 the same way; and Charlotte Christian
-(`.claude/plans/christianglobal.md`), added 2026-10-16 the same way. Cannon is the first
+(`.claude/plans/christianglobal.md`), added 2026-10-16 the same way; and Davidson Day
+(`.claude/plans/ddglobal.md`), added 2026-10-18 the same way. Cannon is the first
 **compact** section — five cards (Where They Go, school levels, credential, network,
 verdict), with a network card that has no conference ledger (`conferences: []` and no
 `ledgerTitle`, which renders no empty heading). Charlotte Christian's trip ledger is built from the school's
@@ -20,7 +21,12 @@ yearly **Winterim packets** (school-hosted PDFs, three of the four via Wayback, 
 Upper School page for 2023), which list
 the trips *offered* ("Final trip size and offerings will be determined according to
 registrations"), so its ledger, headline and tiles say "offered" and never that a packet
-trip ran. A card a school cannot fill is omitted,
+trip ran. Davidson Day is the first section whose school **removed its travel page**
+(`/student-life/international-travel` is 404), so it is built from Wayback copies of that
+page and fall 2026 school posts, cited as `'International Travel (Wayback, Mar 2026)'`.
+It is also the first to render a **third-party figure on a trip row**: AFAR's grade bands
+and group sizes on the 2026–27 rows, from goafar.org and worded "per AFAR" (user
+decision, 2026-10-18), with `goafar.org` cited only in `trips.sources`. A card a school cannot fill is omitted,
 never padded toward Country Day's depth. The area sits directly after Course Offerings
 and is **deliberately off Compare** (`COMPARE_DEFERRED_TOPICS` in
 `src/lib/manifest.ts`). Its stat strip is therefore the school's own `stats`, never
@@ -72,7 +78,8 @@ researched" shell.
   Square & the Wider Network"; Charlotte Latin: "School Year Abroad & the Wider
   Network"; Cannon: "The Global Studies Certificate", "The World Affairs Council, Model UN
   & the Global Education Badge"; Charlotte Christian: "SCORE International & the Winterim
-  Mission Partners"). Each override needs a
+  Mission Partners"; Davidson Day: "The Global Studies Diploma Distinction", "AFAR & the
+  Archaeology Conferences"). Each override needs a
   `cards.international-travel.<key>@<slug>` key in every locale catalog. A school with
   no credential or network **omits the card**; it never ships under the generic title.
 - **Every card is optional, including the two shared cards added with Country Day**

@@ -578,7 +578,8 @@
       "at": [
         "providence-day:trips.years[3].trips[2].dest",
         "charlotte-christian:trips.years[1].trips[0].dest",
-        "charlotte-country-day:trips.years[0].trips[7].dest"
+        "charlotte-country-day:trips.years[0].trips[7].dest",
+        "davidson-day:milestones.events[2].title"
       ],
       "t": "یونان"
     },
@@ -598,7 +599,11 @@
         "charlotte-country-day:trips.years[1].trips[2].timing",
         "charlotte-country-day:trips.years[1].trips[3].timing",
         "charlotte-country-day:trips.years[1].trips[4].timing",
-        "charlotte-country-day:trips.years[1].trips[5].timing"
+        "charlotte-country-day:trips.years[1].trips[5].timing",
+        "davidson-day:trips.years[2].note",
+        "davidson-day:trips.years[2].trips[0].timing",
+        "davidson-day:trips.years[2].trips[1].timing",
+        "davidson-day:trips.years[2].trips[2].timing"
       ],
       "t": "تابستان 2024"
     },
@@ -649,7 +654,10 @@
         "providence-day:trips.years[4].trips[1].dest",
         "charlotte-latin:trips.years[0].trips[5].dest",
         "charlotte-latin:trips.years[2].trips[6].dest",
-        "charlotte-country-day:trips.years[1].trips[4].dest"
+        "charlotte-country-day:trips.years[1].trips[4].dest",
+        "davidson-day:trips.years[0].trips[0].dest",
+        "davidson-day:trips.years[1].trips[0].dest",
+        "davidson-day:trips.years[2].trips[2].dest"
       ],
       "t": "اسپانیا"
     },
@@ -955,7 +963,8 @@
         "charlotte-latin:start.divisions[2].grades",
         "charlotte-christian:start.divisions[2].grades",
         "charlotte-country-day:start.divisions[2].grades",
-        "cannon:start.divisions[2].grades"
+        "cannon:start.divisions[2].grades",
+        "davidson-day:start.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -2118,7 +2127,8 @@
       "text": "The Global Studies Diploma",
       "of": "8c7895a4",
       "at": [
-        "providence-day:milestones.events[3].title"
+        "providence-day:milestones.events[3].title",
+        "davidson-day:milestones.events[5].title"
       ],
       "t": "Global Studies Diploma"
     },
@@ -2298,7 +2308,8 @@
         "charlotte-latin:verdict.ask[5].topic",
         "charlotte-christian:verdict.ask[1].topic",
         "charlotte-country-day:verdict.ask[1].topic",
-        "cannon:verdict.ask[3].topic"
+        "cannon:verdict.ask[3].topic",
+        "davidson-day:verdict.ask[4].topic"
       ],
       "t": "کمک‌هزینه."
     },
@@ -2332,7 +2343,8 @@
       "at": [
         "providence-day:verdict.ask[3].topic",
         "charlotte-country-day:verdict.ask[2].topic",
-        "cannon:verdict.ask[4].topic"
+        "cannon:verdict.ask[4].topic",
+        "davidson-day:verdict.ask[5].topic"
       ],
       "t": "گزینش."
     },
@@ -2351,7 +2363,8 @@
         "providence-day:verdict.ask[4].topic",
         "charlotte-christian:verdict.ask[4].topic",
         "charlotte-country-day:verdict.ask[3].topic",
-        "cannon:verdict.ask[5].topic"
+        "cannon:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[6].topic"
       ],
       "t": "ایمنی."
     },
@@ -2368,7 +2381,8 @@
       "of": "3b61cee5",
       "at": [
         "providence-day:verdict.ask[5].topic",
-        "charlotte-christian:verdict.ask[5].topic"
+        "charlotte-christian:verdict.ask[5].topic",
+        "davidson-day:verdict.ask[7].topic"
       ],
       "t": "تبادل‌ها."
     },
@@ -2404,7 +2418,8 @@
         "charlotte-latin:verdict.ask[7].topic",
         "charlotte-christian:verdict.ask[7].topic",
         "charlotte-country-day:verdict.ask[10].topic",
-        "cannon:verdict.ask[9].topic"
+        "cannon:verdict.ask[9].topic",
+        "davidson-day:verdict.ask[10].topic"
       ],
       "t": "مقیاس."
     },
@@ -2584,7 +2599,10 @@
         "charlotte-latin:trips.years[0].trips[5].timing",
         "charlotte-latin:trips.years[0].trips[6].timing",
         "charlotte-latin:trips.years[0].trips[7].timing",
-        "charlotte-country-day:trips.years[0].trips[9].timing"
+        "charlotte-country-day:trips.years[0].trips[9].timing",
+        "davidson-day:trips.years[0].trips[0].timing",
+        "davidson-day:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[0].trips[2].timing"
       ],
       "t": "تابستان 2027"
     },
@@ -2867,7 +2885,11 @@
       "of": "89d4dc86",
       "at": [
         "charlotte-latin:trips.years[1].trips[4].timing",
-        "cannon:trips.years[0].trips[1].timing"
+        "cannon:trips.years[0].trips[1].timing",
+        "davidson-day:trips.years[1].note",
+        "davidson-day:trips.years[1].trips[0].timing",
+        "davidson-day:trips.years[1].trips[1].timing",
+        "davidson-day:trips.years[1].trips[2].timing"
       ],
       "t": "تابستان 2026"
     },
@@ -4569,7 +4591,11 @@
       "of": "268c9f87",
       "at": [
         "charlotte-christian:trips.years[0].trips[6].dest",
-        "charlotte-christian:trips.years[3].trips[7].dest"
+        "charlotte-christian:trips.years[3].trips[7].dest",
+        "davidson-day:trips.years[0].trips[1].dest",
+        "davidson-day:trips.years[1].trips[1].dest",
+        "davidson-day:trips.years[2].trips[1].dest",
+        "davidson-day:milestones.events[3].title"
       ],
       "t": "پرتغال"
     },
@@ -5664,7 +5690,8 @@
       "at": [
         "charlotte-christian:start.divisions[1].grades",
         "charlotte-country-day:start.divisions[1].grades",
-        "cannon:start.divisions[1].grades"
+        "cannon:start.divisions[1].grades",
+        "davidson-day:start.divisions[1].grades"
       ],
       "t": "5–8"
     },
@@ -6116,7 +6143,8 @@
       "of": "04e0a6c2",
       "at": [
         "charlotte-christian:verdict.ask[0].topic",
-        "cannon:verdict.ask[2].topic"
+        "cannon:verdict.ask[2].topic",
+        "davidson-day:verdict.ask[3].topic"
       ],
       "t": "هزینه."
     },
@@ -8813,6 +8841,1047 @@
         "cannon:verdict.ask[10].question"
       ],
       "t": "آیا Cannon همچنان هر سال حدود ده دانش‌آموز بین‌المللی را در Upper School می‌پذیرد که نزد خانواده‌های میزبان زندگی می‌کنند؟ صفحهٔ مدرسه در این باره به سال 2021 بازمی‌گردد."
+    },
+    {
+      "text": "Davidson Day's travel is AFAR, the American Foreign Academic Research archaeology field school, which sends students each summer to dig alongside professional archaeologists in Spain, Portugal and Belize, and to present their research at university conferences.",
+      "of": "d60ad2d8",
+      "at": [
+        "davidson-day:lead.strong"
+      ],
+      "t": "سفرهای Davidson Day همان AFAR است، مدرسهٔ میدانی باستان‌شناسی American Foreign Academic Research، که هر تابستان دانش‌آموزان را به اسپانیا، پرتغال و بلیز می‌فرستد تا در کنار باستان‌شناسان حرفه‌ای کاوش کنند و پژوهش خود را در کنفرانس‌های دانشگاهی ارائه دهند."
+    },
+    {
+      "text": "It pairs with the Global Studies Diploma Distinction, an Upper School pathway offered since 2021, in which most students take part in AFAR.",
+      "of": "10d505f1",
+      "at": [
+        "davidson-day:lead.muted"
+      ],
+      "t": "این برنامه با Global Studies Diploma Distinction همراه است، مسیری در Upper School که از 2021 ارائه می‌شود و بیشتر دانش‌آموزانِ آن در AFAR شرکت می‌کنند."
+    },
+    {
+      "text": "countries with AFAR digs",
+      "of": "eff66b0a",
+      "at": [
+        "davidson-day:stats[0].label"
+      ],
+      "t": "کشور با کاوش‌های AFAR"
+    },
+    {
+      "text": "Spain, Portugal and Belize, per the school",
+      "of": "a78624c0",
+      "at": [
+        "davidson-day:stats[0].note"
+      ],
+      "t": "اسپانیا، پرتغال و بلیز، به گفتهٔ مدرسه"
+    },
+    {
+      "text": "seasons at Cahal Pech",
+      "of": "ab840bcd",
+      "at": [
+        "davidson-day:stats[1].label"
+      ],
+      "t": "فصل کاوش در Cahal Pech"
+    },
+    {
+      "text": "2006–2026, in western Belize, per the school",
+      "of": "4dc989a4",
+      "at": [
+        "davidson-day:stats[1].note"
+      ],
+      "t": "2006–2026، در غرب بلیز، به گفتهٔ مدرسه"
+    },
+    {
+      "text": "students presented at Mount Royal University",
+      "of": "4643db2e",
+      "at": [
+        "davidson-day:stats[2].label"
+      ],
+      "t": "دانش‌آموز که در Mount Royal University ارائه دادند"
+    },
+    {
+      "text": "in Calgary, fall 2024, nine of them in the Global Studies Diploma",
+      "of": "3c79ea53",
+      "at": [
+        "davidson-day:stats[2].note"
+      ],
+      "t": "در کلگری، پاییز 2024، که نُه نفر از آنان در Global Studies Diploma بودند"
+    },
+    {
+      "text": "Global Studies Diploma Distinction began",
+      "of": "ca9e6eb6",
+      "at": [
+        "davidson-day:stats[3].label"
+      ],
+      "t": "آغاز Global Studies Diploma Distinction"
+    },
+    {
+      "text": "per the school",
+      "of": "8dbe1011",
+      "at": [
+        "davidson-day:stats[3].note",
+        "davidson-day:credential.stats[0].note"
+      ],
+      "t": "به گفتهٔ مدرسه"
+    },
+    {
+      "text": "Nine AFAR digs over three summers — 2024, 2026 and the announced 2027 — in Spain, Portugal and Belize.",
+      "of": "5d1577e0",
+      "at": [
+        "davidson-day:trips.headline"
+      ],
+      "t": "نُه کاوش AFAR در سه تابستان — 2024، 2026 و 2027 که اعلام شده است — در اسپانیا، پرتغال و بلیز."
+    },
+    {
+      "text": "Students work alongside professional archaeologists at each site, with lectures and excursions built into the day.",
+      "of": "f2907304",
+      "at": [
+        "davidson-day:trips.intro.strong"
+      ],
+      "t": "دانش‌آموزان در هر محوطه در کنار باستان‌شناسان حرفه‌ای کار می‌کنند و سخنرانی‌ها و گردش‌های علمی بخشی از برنامهٔ روزانه است."
+    },
+    {
+      "text": "The school's International Travel link now leads to its Global Studies Diploma Distinction page, so the newest trip details come from a fall 2026 school story.",
+      "of": "5ef792ac",
+      "at": [
+        "davidson-day:trips.intro.muted"
+      ],
+      "t": "پیوند International Travel در وب‌سایت مدرسه اکنون به صفحهٔ Global Studies Diploma Distinction می‌رسد، از این رو تازه‌ترین جزئیات سفرها از گزارشی از مدرسه در پاییز 2026 گرفته شده است."
+    },
+    {
+      "text": "Summer 2027, as announced",
+      "of": "1b18daa4",
+      "at": [
+        "davidson-day:trips.years[0].note"
+      ],
+      "t": "تابستان 2027، طبق اعلام"
+    },
+    {
+      "text": "Zorita de los Canes",
+      "of": "a87494af",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].place",
+        "davidson-day:trips.years[1].trips[0].place",
+        "davidson-day:trips.years[2].trips[2].place"
+      ],
+      "t": "Zorita de los Canes"
+    },
+    {
+      "text": "8th–12th grade · up to 18 students per session, per AFAR",
+      "of": "dfb3578a",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].group"
+      ],
+      "t": "پایه‌های 8–12 · حداکثر 18 دانش‌آموز در هر دوره، به گفتهٔ AFAR"
+    },
+    {
+      "text": "Excavating the medieval castle of Zorita",
+      "of": "c5b8c4e9",
+      "at": [
+        "davidson-day:trips.years[0].trips[0].theme"
+      ],
+      "t": "کاوش قلعهٔ قرون‌وسطایی Zorita"
+    },
+    {
+      "text": "Tróia",
+      "of": "8b09294e",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].place",
+        "davidson-day:trips.years[1].trips[1].place",
+        "davidson-day:trips.years[2].trips[1].place"
+      ],
+      "t": "Tróia"
+    },
+    {
+      "text": "10th–12th grade · 18 students per session, per AFAR",
+      "of": "71f779b9",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].group"
+      ],
+      "t": "پایه‌های 10–12 · 18 دانش‌آموز در هر دوره، به گفتهٔ AFAR"
+    },
+    {
+      "text": "A Roman fish-salting town on the coast, preserved under the sand",
+      "of": "c969ab69",
+      "at": [
+        "davidson-day:trips.years[0].trips[1].theme"
+      ],
+      "t": "شهری رومی در ساحل برای نمک‌سود کردن ماهی، که زیر شن‌ها حفظ شده است"
+    },
+    {
+      "text": "Belize",
+      "of": "b9e03916",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].dest",
+        "davidson-day:trips.years[1].trips[2].dest",
+        "davidson-day:trips.years[2].trips[0].dest"
+      ],
+      "t": "بلیز"
+    },
+    {
+      "text": "Baking Pot",
+      "of": "5a016cd0",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].place",
+        "davidson-day:milestones.events[8].title"
+      ],
+      "t": "Baking Pot"
+    },
+    {
+      "text": "9th–12th grade · up to 18 students, per AFAR",
+      "of": "dd426230",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].group"
+      ],
+      "t": "پایه‌های 9–12 · حداکثر 18 دانش‌آموز، به گفتهٔ AFAR"
+    },
+    {
+      "text": "AFAR's first season at a new Maya site, about 20 minutes upriver from Cahal Pech",
+      "of": "72e4bf6b",
+      "at": [
+        "davidson-day:trips.years[0].trips[2].theme"
+      ],
+      "t": "نخستین فصل AFAR در یک محوطهٔ تازهٔ مایا، حدود 20 دقیقه بالاتر از Cahal Pech در مسیر رودخانه"
+    },
+    {
+      "text": "The project's 11th field season · two of the castle's rooms and an underground chamber",
+      "of": "b40a1012",
+      "at": [
+        "davidson-day:trips.years[1].trips[0].theme"
+      ],
+      "t": "11مین فصل میدانی پروژه · دو اتاق قلعه و یک اتاقک زیرزمینی"
+    },
+    {
+      "text": "The ancient Roman city, where AFAR has worked since 2018",
+      "of": "de203da8",
+      "at": [
+        "davidson-day:trips.years[1].trips[1].theme"
+      ],
+      "t": "شهر باستانی رومی، که AFAR از 2018 در آن کار کرده است"
+    },
+    {
+      "text": "Cahal Pech",
+      "of": "47652f7a",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].place",
+        "davidson-day:trips.years[2].trips[0].place"
+      ],
+      "t": "Cahal Pech"
+    },
+    {
+      "text": "The last of 20 seasons at the Maya site",
+      "of": "ed476fdc",
+      "at": [
+        "davidson-day:trips.years[1].trips[2].theme"
+      ],
+      "t": "آخرین فصل از 20 فصل کاوش در این محوطهٔ مایا"
+    },
+    {
+      "text": "The western ball court beside the royal palace plaza · research later presented in Calgary",
+      "of": "ad2863a4",
+      "at": [
+        "davidson-day:trips.years[2].trips[0].theme"
+      ],
+      "t": "زمین توپ‌بازی غربی در کنار میدان کاخ سلطنتی · پژوهشی که بعدها در کلگری ارائه شد"
+    },
+    {
+      "text": "The Roman fish-salting factory · research later presented in Calgary",
+      "of": "37c0706e",
+      "at": [
+        "davidson-day:trips.years[2].trips[1].theme"
+      ],
+      "t": "کارگاه رومی نمک‌سود کردن ماهی · پژوهشی که بعدها در کلگری ارائه شد"
+    },
+    {
+      "text": "The medieval castle above the Tagus River · research later presented in Calgary",
+      "of": "26dd0105",
+      "at": [
+        "davidson-day:trips.years[2].trips[2].theme"
+      ],
+      "t": "قلعهٔ قرون‌وسطایی بر فراز رود تاگوس · پژوهشی که بعدها در کلگری ارائه شد"
+    },
+    {
+      "text": "Davidson Day AFAR students and archaeologists at the Tróia excavation in Portugal",
+      "of": "098aadde",
+      "at": [
+        "davidson-day:trips.photo.alt"
+      ],
+      "t": "دانش‌آموزان AFAR از Davidson Day و باستان‌شناسان در محل کاوش Tróia در پرتغال"
+    },
+    {
+      "text": "Tróia, Portugal",
+      "of": "f1a56858",
+      "at": [
+        "davidson-day:trips.photo.caption.title"
+      ],
+      "t": "Tróia، پرتغال"
+    },
+    {
+      "text": "The AFAR team at the Roman site of Tróia, summer 2026.",
+      "of": "841c222c",
+      "at": [
+        "davidson-day:trips.photo.caption.text"
+      ],
+      "t": "تیم AFAR در محوطهٔ رومی Tróia، تابستان 2026."
+    },
+    {
+      "text": "Photo: Davidson Day School",
+      "of": "675efbf3",
+      "at": [
+        "davidson-day:trips.photo.credit"
+      ],
+      "t": "عکس: Davidson Day School"
+    },
+    {
+      "text": "Middle School, Spain & France.",
+      "of": "9e71cebc",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].lead"
+      ],
+      "t": "Middle School، اسپانیا و فرانسه."
+    },
+    {
+      "text": "In early 2026 the school's travel page described a summer language and cultural immersion trip to Madrid, Toledo and Paris, with a Flamenco evening and a Paris cooking class; it is gone from later copies of the page.",
+      "of": "e86ca030",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[0].text"
+      ],
+      "t": "در اوایل 2026، صفحهٔ سفرهای مدرسه یک سفر تابستانی غوطه‌وری زبانی و فرهنگی به مادرید، تولدو و پاریس را توصیف می‌کرد که یک شب فلامنکو و یک کلاس آشپزی در پاریس را در بر داشت؛ این سفر در نسخه‌های بعدی این صفحه دیگر دیده نمی‌شود."
+    },
+    {
+      "text": "Greece, 2017–18.",
+      "of": "6300e482",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].lead"
+      ],
+      "t": "یونان، 2017–18."
+    },
+    {
+      "text": "AFAR dug at Mieza, the ancient Macedonian city, in its 2017 and 2018 research trips.",
+      "of": "4fb4d187",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[1].text"
+      ],
+      "t": "AFAR در سفرهای پژوهشی سال‌های 2017 و 2018 خود، در Mieza، شهر باستانی مقدونی، کاوش کرد."
+    },
+    {
+      "text": "North Carolina, November 2024.",
+      "of": "73cde345",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].lead"
+      ],
+      "t": "کارولینای شمالی، نوامبر 2024."
+    },
+    {
+      "text": "13 students worked on the Adam Spach Rock House excavation in Winston-Salem, the first high school students to work on a site with the North Carolina State Historic Preservation Office, per the school.",
+      "of": "b47ee713",
+      "at": [
+        "davidson-day:trips.alsoOnRecord[2].text"
+      ],
+      "t": "13 دانش‌آموز روی کاوش Adam Spach Rock House در وینستون-سیلم کار کردند؛ به گفتهٔ مدرسه، آنان نخستین دانش‌آموزان دبیرستانی بودند که همراه با North Carolina State Historic Preservation Office روی یک محوطه کار کردند."
+    },
+    {
+      "text": "Spanish from Early Childhood, Upper School language classes for Middle Schoolers who are ready, and AFAR digs and a research distinction in the Upper School.",
+      "of": "7e00224e",
+      "at": [
+        "davidson-day:start.headline"
+      ],
+      "t": "اسپانیایی از Early Childhood، کلاس‌های زبان Upper School برای دانش‌آموزان آمادهٔ Middle School، و کاوش‌های AFAR و یک نشان پژوهشی در Upper School."
+    },
+    {
+      "text": "The school says its curriculum equips students with real-world-ready skills so they will be prepared to lead on the global stage.",
+      "of": "96e54937",
+      "at": [
+        "davidson-day:start.intro.strong"
+      ],
+      "t": "مدرسه می‌گوید برنامهٔ درسی‌اش دانش‌آموزان را به مهارت‌هایی آماده برای دنیای واقعی مجهز می‌کند تا برای رهبری در صحنهٔ جهانی آماده باشند."
+    },
+    {
+      "text": "Travel begins in the Upper School, through AFAR.",
+      "of": "c411b4a0",
+      "at": [
+        "davidson-day:start.intro.muted"
+      ],
+      "t": "سفر در Upper School و از طریق AFAR آغاز می‌شود."
+    },
+    {
+      "text": "EC–4",
+      "of": "4731e8de",
+      "at": [
+        "davidson-day:start.divisions[0].grades"
+      ],
+      "t": "EC–4"
+    },
+    {
+      "text": "Spanish from Early Childhood, which starts at age two, taught by an Early Childhood & Lower School Spanish teacher",
+      "of": "04615083",
+      "at": [
+        "davidson-day:start.divisions[0].items[0]"
+      ],
+      "t": "اسپانیایی از Early Childhood، که از دوسالگی آغاز می‌شود، با تدریس یک معلم اسپانیایی Early Childhood و Lower School"
+    },
+    {
+      "text": "Spanish, taught by a Middle School Spanish teacher",
+      "of": "525ef0df",
+      "at": [
+        "davidson-day:start.divisions[1].items[0]"
+      ],
+      "t": "اسپانیایی، با تدریس یک معلم اسپانیایی Middle School"
+    },
+    {
+      "text": "Students ready for the next level take world language classes in the Upper School",
+      "of": "fc05740e",
+      "at": [
+        "davidson-day:start.divisions[1].items[1]"
+      ],
+      "t": "دانش‌آموزانی که برای سطح بعدی آماده‌اند، در کلاس‌های زبان خارجی Upper School شرکت می‌کنند"
+    },
+    {
+      "text": "AFAR's summer digs in Spain, Portugal and Belize",
+      "of": "d263d515",
+      "at": [
+        "davidson-day:start.divisions[2].items[0]"
+      ],
+      "t": "کاوش‌های تابستانی AFAR در اسپانیا، پرتغال و بلیز"
+    },
+    {
+      "text": "The Global Studies Diploma Distinction, applied for at the end of sophomore year",
+      "of": "88036c67",
+      "at": [
+        "davidson-day:start.divisions[2].items[1]"
+      ],
+      "t": "Global Studies Diploma Distinction، که درخواست آن در پایان سال دوم دبیرستان ارائه می‌شود"
+    },
+    {
+      "text": "AP Spanish and AP French Language & Culture",
+      "of": "f5d65d18",
+      "at": [
+        "davidson-day:start.divisions[2].items[2]"
+      ],
+      "t": "AP Spanish و AP French Language & Culture"
+    },
+    {
+      "text": "Honors Anthropology, then Research Methods Honors in 11th grade and Capstone Research Honors Mentorship in 12th",
+      "of": "23c3a852",
+      "at": [
+        "davidson-day:start.divisions[2].items[3]"
+      ],
+      "t": "Honors Anthropology، سپس Research Methods Honors در پایهٔ 11 و Capstone Research Honors Mentorship در پایهٔ 12"
+    },
+    {
+      "text": "An Upper School distinction since 2021: Honors Anthropology, four global APs, a language, a 100-hour practicum and two years of original research, presented by every senior.",
+      "of": "bf33f1bf",
+      "at": [
+        "davidson-day:credential.headline"
+      ],
+      "t": "نشانی در Upper School از 2021: Honors Anthropology، چهار درس AP جهانی، یک زبان، یک دورهٔ کارورزی 100 ساعته و دو سال پژوهش اصیل که همهٔ دانش‌آموزان سال آخر آن را ارائه می‌دهند."
+    },
+    {
+      "text": "The Global Studies Diploma Distinction \"prepares students to understand an increasingly interconnected world through rigorous academic study, language immersion, and transformative international experiences.\"",
+      "of": "6ef068f8",
+      "at": [
+        "davidson-day:credential.intro.strong"
+      ],
+      "t": "هدف Global Studies Diploma Distinction چنین بیان شده است: \"prepares students to understand an increasingly interconnected world through rigorous academic study, language immersion, and transformative international experiences.\""
+    },
+    {
+      "text": "It is one of three Diploma Distinctions: students apply at the end of sophomore year and spend two years going deep.",
+      "of": "f361e654",
+      "at": [
+        "davidson-day:credential.intro.muted"
+      ],
+      "t": "این یکی از سه Diploma Distinctions است: دانش‌آموزان در پایان سال دوم دبیرستان درخواست می‌دهند و دو سال را به کار عمیق می‌گذرانند."
+    },
+    {
+      "text": "offered since",
+      "of": "da9200ae",
+      "at": [
+        "davidson-day:credential.stats[0].label"
+      ],
+      "t": "ارائه از"
+    },
+    {
+      "text": "global AP electives",
+      "of": "161b73e7",
+      "at": [
+        "davidson-day:credential.stats[1].label"
+      ],
+      "t": "درس انتخابی AP جهانی"
+    },
+    {
+      "text": "chosen from six options",
+      "of": "b8ae6fbf",
+      "at": [
+        "davidson-day:credential.stats[1].note"
+      ],
+      "t": "از میان شش گزینه"
+    },
+    {
+      "text": "practicum hours",
+      "of": "5248e584",
+      "at": [
+        "davidson-day:credential.stats[2].label"
+      ],
+      "t": "ساعت کارورزی"
+    },
+    {
+      "text": "at least, in an approved internship, volunteer opportunity or pre-collegiate program",
+      "of": "ed234621",
+      "at": [
+        "davidson-day:credential.stats[2].note"
+      ],
+      "t": "دست‌کم، در یک کارآموزی تأییدشده، فرصت داوطلبانه یا برنامهٔ پیش‌دانشگاهی"
+    },
+    {
+      "text": "Honors Anthropology",
+      "of": "4a85b0f8",
+      "at": [
+        "davidson-day:credential.required[0]"
+      ],
+      "t": "Honors Anthropology"
+    },
+    {
+      "text": "Four of: AP World History or AP European History, AP Environmental Science, AP Psychology, AP Macroeconomics, AP with WE Service Recognition, and AP Spanish or AP French Language & Culture",
+      "of": "19d750c7",
+      "at": [
+        "davidson-day:credential.required[1]"
+      ],
+      "t": "چهار درس از میان: AP World History یا AP European History، AP Environmental Science، AP Psychology، AP Macroeconomics، AP with WE Service Recognition، و AP Spanish یا AP French Language & Culture"
+    },
+    {
+      "text": "Level IV, or three levels of the same language in the Upper School",
+      "of": "d8c66c56",
+      "at": [
+        "davidson-day:credential.required[2]"
+      ],
+      "t": "سطح IV، یا سه سطح از یک زبان در Upper School"
+    },
+    {
+      "text": "At least 100 practicum hours, plus quarterly Ethics Labs",
+      "of": "611df9fe",
+      "at": [
+        "davidson-day:credential.required[3]"
+      ],
+      "t": "دست‌کم 100 ساعت کارورزی، به‌علاوهٔ Ethics Labs در هر فصل تحصیلی"
+    },
+    {
+      "text": "Research Methods Honors in 11th grade and Capstone Research Honors Mentorship in 12th grade",
+      "of": "76f8c565",
+      "at": [
+        "davidson-day:credential.required[4]"
+      ],
+      "t": "Research Methods Honors در پایهٔ 11 و Capstone Research Honors Mentorship در پایهٔ 12"
+    },
+    {
+      "text": "A capstone presentation at the Davidson Day Scholars Research Conference",
+      "of": "e830c231",
+      "at": [
+        "davidson-day:credential.required[5]"
+      ],
+      "t": "ارائهٔ پروژهٔ پایانی در Davidson Day Scholars Research Conference"
+    },
+    {
+      "text": "AFAR field research in Spain, Portugal or Belize, which most students in the distinction take",
+      "of": "d54cafc3",
+      "at": [
+        "davidson-day:credential.beyond[0]"
+      ],
+      "t": "پژوهش میدانی AFAR در اسپانیا، پرتغال یا بلیز، که بیشتر دانش‌آموزان این نشان در آن شرکت می‌کنند"
+    },
+    {
+      "text": "Practicum experiences that often include international travel, research, language immersion or cross-cultural service",
+      "of": "97506c78",
+      "at": [
+        "davidson-day:credential.beyond[1]"
+      ],
+      "t": "تجربه‌های کارورزی که اغلب سفر بین‌المللی، پژوهش، غوطه‌وری زبانی یا خدمات میان‌فرهنگی را در بر می‌گیرند"
+    },
+    {
+      "text": "Presenting research at academic conferences, such as Mount Royal University's in Calgary",
+      "of": "aa834881",
+      "at": [
+        "davidson-day:credential.beyond[2]"
+      ],
+      "t": "ارائهٔ پژوهش در کنفرانس‌های علمی، مانند کنفرانس Mount Royal University در کلگری"
+    },
+    {
+      "text": "AFAR, its partner projects and its own Maya conferences, with students presenting their research at university conferences from Calgary to Helsinki.",
+      "of": "d900c0ac",
+      "at": [
+        "davidson-day:network.headline"
+      ],
+      "t": "AFAR، پروژه‌های همکار آن و کنفرانس‌های مایای خودش، همراه با ارائهٔ پژوهش دانش‌آموزان در کنفرانس‌های دانشگاهی از کلگری تا هلسینکی."
+    },
+    {
+      "text": "AFAR is the school's partnering archaeology field school. Per the school, it has run for more than 20 years, and more than 500 students from across its program have taken part in its projects.",
+      "of": "000b6d8b",
+      "at": [
+        "davidson-day:network.intro.strong"
+      ],
+      "t": "AFAR مدرسهٔ میدانی باستان‌شناسیِ همکار مدرسه است. به گفتهٔ مدرسه، این برنامه بیش از 20 سال است که برگزار می‌شود و بیش از 500 دانش‌آموز از سراسر برنامهٔ آن در پروژه‌هایش شرکت کرده‌اند."
+    },
+    {
+      "text": "Students present at academic conferences to close the scientific cycle, and AFAR hosts conferences of its own.",
+      "of": "21abf4c0",
+      "at": [
+        "davidson-day:network.intro.muted"
+      ],
+      "t": "دانش‌آموزان برای کامل کردن چرخهٔ علمی در کنفرانس‌های علمی ارائه می‌دهند، و AFAR نیز کنفرانس‌های خود را برگزار می‌کند."
+    },
+    {
+      "text": "Academic conferences",
+      "of": "4a540fe1",
+      "at": [
+        "davidson-day:network.ledgerTitle"
+      ],
+      "t": "کنفرانس‌های علمی"
+    },
+    {
+      "text": "Opportunities offered this school year: Mount Royal University's archaeology conference in Calgary and Banff · a Maya-themed conference at Disney's Coronado Springs Resort in Florida, hosted by AFAR and other archaeologists · excavations in Friedberg, North Carolina",
+      "of": "788ef023",
+      "at": [
+        "davidson-day:network.conferences[0].text"
+      ],
+      "t": "فرصت‌های ارائه‌شده در این سال تحصیلی: کنفرانس باستان‌شناسی Mount Royal University در کلگری و بنف · یک کنفرانس با موضوع مایا در Disney's Coronado Springs Resort در فلوریدا، به میزبانی AFAR و دیگر باستان‌شناسان · کاوش در فریدبرگ، کارولینای شمالی"
+    },
+    {
+      "text": "Mount Royal University, Calgary · 10 students gave three presentations on their summer 2024 research",
+      "of": "0f4a3811",
+      "at": [
+        "davidson-day:network.conferences[1].text"
+      ],
+      "t": "Mount Royal University، کلگری · در آنجا 10 دانش‌آموز سه ارائه دربارهٔ پژوهش تابستان 2024 خود داشتند"
+    },
+    {
+      "text": "A collaborative keynote lecture and presentation at a conference hosted by the National Museum of Finland in Helsinki, early 2020",
+      "of": "325c0d56",
+      "at": [
+        "davidson-day:network.conferences[2].text"
+      ],
+      "t": "یک سخنرانی کلیدی و ارائهٔ مشترک در کنفرانسی به میزبانی موزهٔ ملی فنلاند در هلسینکی، اوایل 2020"
+    },
+    {
+      "text": "AFAR",
+      "of": "318084ad",
+      "at": [
+        "davidson-day:network.cells[0].name"
+      ],
+      "t": "AFAR"
+    },
+    {
+      "text": "The school's partnering international archaeological field school, listed among its community partnerships.",
+      "of": "c7a03689",
+      "at": [
+        "davidson-day:network.cells[0].text"
+      ],
+      "t": "مدرسهٔ میدانی بین‌المللی باستان‌شناسیِ همکار مدرسه، که در میان مشارکت‌های اجتماعی آن فهرست شده است."
+    },
+    {
+      "text": "AFAR's conferences",
+      "of": "0f83f200",
+      "at": [
+        "davidson-day:network.cells[1].name"
+      ],
+      "t": "کنفرانس‌های AFAR"
+    },
+    {
+      "text": "AFAR hosts two international conferences on Maya archaeology each year, with student research presentations and workshops; Maya at the Playa has been held virtually.",
+      "of": "b54a5441",
+      "at": [
+        "davidson-day:network.cells[1].text"
+      ],
+      "t": "AFAR هر سال دو کنفرانس بین‌المللی دربارهٔ باستان‌شناسی مایا برگزار می‌کند که ارائه‌های پژوهشی دانش‌آموزان و کارگاه‌ها را در بر دارد؛ Maya at the Playa به‌صورت مجازی برگزار شده است."
+    },
+    {
+      "text": "NC State Historic Preservation Office",
+      "of": "c340ac96",
+      "at": [
+        "davidson-day:network.cells[2].name"
+      ],
+      "t": "NC State Historic Preservation Office"
+    },
+    {
+      "text": "The 2024 Adam Spach Rock House dig in Winston-Salem, worked with the Environmental Research Group.",
+      "of": "210af9d0",
+      "at": [
+        "davidson-day:network.cells[2].text"
+      ],
+      "t": "کاوش Adam Spach Rock House در 2024 در وینستون-سیلم، با همکاری Environmental Research Group."
+    },
+    {
+      "text": "Belize Valley Archaeological Reconnaissance Project",
+      "of": "4dbb029a",
+      "at": [
+        "davidson-day:network.cells[3].name"
+      ],
+      "t": "Belize Valley Archaeological Reconnaissance Project"
+    },
+    {
+      "text": "AFAR's Belize project, the longest-running and most physically demanding in its lineup.",
+      "of": "d8f013c1",
+      "at": [
+        "davidson-day:network.cells[3].text"
+      ],
+      "t": "پروژهٔ بلیز AFAR، طولانی‌ترین و از نظر جسمی دشوارترین پروژه در مجموعهٔ آن."
+    },
+    {
+      "text": "For alumni",
+      "of": "fea1c18e",
+      "at": [
+        "davidson-day:network.rows[0].label"
+      ],
+      "t": "برای فارغ‌التحصیلان"
+    },
+    {
+      "text": "Pook's Hill in Belize is an AFAR project open only to Davidson Day alumni; in 2026 a recent graduate served as one of its two lab directors.",
+      "of": "f0a0b3a1",
+      "at": [
+        "davidson-day:network.rows[0].text"
+      ],
+      "t": "Pook's Hill در بلیز پروژه‌ای از AFAR است که تنها برای فارغ‌التحصیلان Davidson Day باز است؛ در 2026 یکی از فارغ‌التحصیلان اخیر به‌عنوان یکی از دو مدیر آزمایشگاه آن خدمت کرد."
+    },
+    {
+      "text": "Twenty years of AFAR, from the first season at Cahal Pech in 2006 to a new Maya site in 2027.",
+      "of": "026fa403",
+      "at": [
+        "davidson-day:milestones.headline"
+      ],
+      "t": "بیست سال AFAR، از نخستین فصل در Cahal Pech در 2006 تا یک محوطهٔ تازهٔ مایا در 2027."
+    },
+    {
+      "text": "The school dates AFAR to 2006 and its Global Studies Diploma Distinction to 2021,",
+      "of": "689deaad",
+      "at": [
+        "davidson-day:milestones.intro.strong"
+      ],
+      "t": "مدرسه پیشینهٔ AFAR را به 2006 و Global Studies Diploma Distinction خود را به 2021 می‌رساند،"
+    },
+    {
+      "text": "with a North Carolina first along the way — each below as the school states it.",
+      "of": "bb50cb0d",
+      "at": [
+        "davidson-day:milestones.intro.muted"
+      ],
+      "t": "و در این میان یک رویداد نخستین در کارولینای شمالی — هر کدام در زیر، همان‌گونه که مدرسه بیان می‌کند."
+    },
+    {
+      "text": "AFAR begins",
+      "of": "344a9881",
+      "at": [
+        "davidson-day:milestones.events[0].title"
+      ],
+      "t": "آغاز AFAR"
+    },
+    {
+      "text": "Research starts at the Maya site of Cahal Pech in western Belize.",
+      "of": "c22ed8f0",
+      "at": [
+        "davidson-day:milestones.events[0].text"
+      ],
+      "t": "پژوهش در محوطهٔ مایایی Cahal Pech در غرب بلیز آغاز می‌شود."
+    },
+    {
+      "text": "The western ball court",
+      "of": "4af5f040",
+      "at": [
+        "davidson-day:milestones.events[1].title"
+      ],
+      "t": "زمین توپ‌بازی غربی"
+    },
+    {
+      "text": "Work at Cahal Pech turns to the ball court beside the royal palace plaza.",
+      "of": "a3b5507a",
+      "at": [
+        "davidson-day:milestones.events[1].text"
+      ],
+      "t": "کار در Cahal Pech به زمین توپ‌بازی کنار میدان کاخ سلطنتی می‌رسد."
+    },
+    {
+      "text": "AFAR begins at Mieza, the ancient Macedonian city.",
+      "of": "3acfd431",
+      "at": [
+        "davidson-day:milestones.events[2].text"
+      ],
+      "t": "AFAR کار خود را در Mieza، شهر باستانی مقدونی، آغاز می‌کند."
+    },
+    {
+      "text": "Research begins at the Roman city of Tróia.",
+      "of": "36c0fac6",
+      "at": [
+        "davidson-day:milestones.events[3].text"
+      ],
+      "t": "پژوهش در شهر رومی Tróia آغاز می‌شود."
+    },
+    {
+      "text": "Helsinki",
+      "of": "8d816624",
+      "at": [
+        "davidson-day:milestones.events[4].title"
+      ],
+      "t": "هلسینکی"
+    },
+    {
+      "text": "Students give a collaborative keynote lecture and presentation at a conference hosted by the National Museum of Finland.",
+      "of": "6e70b808",
+      "at": [
+        "davidson-day:milestones.events[4].text"
+      ],
+      "t": "دانش‌آموزان یک سخنرانی کلیدی و ارائهٔ مشترک در کنفرانسی به میزبانی موزهٔ ملی فنلاند ارائه می‌دهند."
+    },
+    {
+      "text": "The distinction is first offered.",
+      "of": "2fb77837",
+      "at": [
+        "davidson-day:milestones.events[5].text"
+      ],
+      "t": "این نشان برای نخستین بار ارائه می‌شود."
+    },
+    {
+      "text": "A North Carolina first",
+      "of": "45866c72",
+      "at": [
+        "davidson-day:milestones.events[6].title"
+      ],
+      "t": "نخستین در کارولینای شمالی"
+    },
+    {
+      "text": "The first high school students on a dig with the North Carolina State Historic Preservation Office, per the school.",
+      "of": "7809aa13",
+      "at": [
+        "davidson-day:milestones.events[6].text"
+      ],
+      "t": "به گفتهٔ مدرسه، نخستین دانش‌آموزان دبیرستانی در یک کاوش همراه با North Carolina State Historic Preservation Office."
+    },
+    {
+      "text": "Cahal Pech ends",
+      "of": "6217ac88",
+      "at": [
+        "davidson-day:milestones.events[7].title"
+      ],
+      "t": "پایان Cahal Pech"
+    },
+    {
+      "text": "The 20th and final season at the site.",
+      "of": "212faa71",
+      "at": [
+        "davidson-day:milestones.events[7].text"
+      ],
+      "t": "20مین و آخرین فصل در این محوطه."
+    },
+    {
+      "text": "The Belize project moves to a new Maya site.",
+      "of": "7f0018db",
+      "at": [
+        "davidson-day:milestones.events[8].text"
+      ],
+      "t": "پروژهٔ بلیز به یک محوطهٔ تازهٔ مایا منتقل می‌شود."
+    },
+    {
+      "text": "Where the program stands out, and thirteen questions the school's website doesn't answer yet — trip costs, aid, grades and safety.",
+      "of": "5b0760c5",
+      "at": [
+        "davidson-day:verdict.headline"
+      ],
+      "t": "نقاط برجستهٔ برنامه، و سیزده پرسشی که وب‌سایت مدرسه هنوز به آن‌ها پاسخ نمی‌دهد — هزینهٔ سفرها، کمک‌هزینه، پایه‌ها و ایمنی."
+    },
+    {
+      "text": "Davidson Day's global program is unlike any other school's here: its travel is archaeological research rather than touring. Students dig alongside professionals in Spain, Portugal and Belize, and present their findings at university conferences, inside a two-year Upper School research distinction.",
+      "of": "153110de",
+      "at": [
+        "davidson-day:verdict.standsOut.summary"
+      ],
+      "t": "برنامهٔ جهانی Davidson Day به برنامهٔ هیچ مدرسهٔ دیگری در اینجا شباهت ندارد: سفرهای آن پژوهش باستان‌شناسی است، نه گردشگری. دانش‌آموزان در کنار متخصصان در اسپانیا، پرتغال و بلیز کاوش می‌کنند و یافته‌های خود را در کنفرانس‌های دانشگاهی ارائه می‌دهند، آن هم در چارچوب یک نشان پژوهشی دوساله در Upper School."
+    },
+    {
+      "text": "Summer field research at three active sites, one of them on record for 20 seasons",
+      "of": "7d81b0c4",
+      "at": [
+        "davidson-day:verdict.standsOut.points[0]"
+      ],
+      "t": "پژوهش میدانی تابستانی در سه محوطهٔ فعال، که یکی از آن‌ها 20 فصل کاوش در کارنامه دارد"
+    },
+    {
+      "text": "Student research presented at Mount Royal University — 10 students in fall 2024",
+      "of": "9732fd2b",
+      "at": [
+        "davidson-day:verdict.standsOut.points[1]"
+      ],
+      "t": "ارائهٔ پژوهش دانش‌آموزان در Mount Royal University — در پاییز 2024، 10 دانش‌آموز"
+    },
+    {
+      "text": "A credential with two years of original research and a senior capstone",
+      "of": "38401043",
+      "at": [
+        "davidson-day:verdict.standsOut.points[2]"
+      ],
+      "t": "مدرکی با دو سال پژوهش اصیل و یک پروژهٔ پایانی در سال آخر"
+    },
+    {
+      "text": "The first high school dig with the North Carolina State Historic Preservation Office, per the school",
+      "of": "855f7275",
+      "at": [
+        "davidson-day:verdict.standsOut.points[3]"
+      ],
+      "t": "نخستین کاوش دبیرستانی همراه با North Carolina State Historic Preservation Office، به گفتهٔ مدرسه"
+    },
+    {
+      "text": "Travel page.",
+      "of": "fda3cc5a",
+      "at": [
+        "davidson-day:verdict.ask[0].topic"
+      ],
+      "t": "صفحهٔ سفرها."
+    },
+    {
+      "text": "The school's International Travel page has been removed. Where does it now publish its trips?",
+      "of": "34768566",
+      "at": [
+        "davidson-day:verdict.ask[0].question"
+      ],
+      "t": "صفحهٔ International Travel مدرسه حذف شده است. مدرسه اکنون سفرهایش را کجا منتشر می‌کند؟"
+    },
+    {
+      "text": "Middle School.",
+      "of": "94287eee",
+      "at": [
+        "davidson-day:verdict.ask[1].topic"
+      ],
+      "t": "Middle School."
+    },
+    {
+      "text": "Does the Middle School summer trip to Spain and France still run, and from what grade?",
+      "of": "e7919a2e",
+      "at": [
+        "davidson-day:verdict.ask[1].question"
+      ],
+      "t": "آیا سفر تابستانی Middle School به اسپانیا و فرانسه هنوز برگزار می‌شود، و از چه پایه‌ای؟"
+    },
+    {
+      "text": "Grades.",
+      "of": "86a82891",
+      "at": [
+        "davidson-day:verdict.ask[2].topic"
+      ],
+      "t": "پایه‌ها."
+    },
+    {
+      "text": "AFAR sets its own grade bands. What is the earliest grade a Davidson Day student can join a dig?",
+      "of": "f30232a8",
+      "at": [
+        "davidson-day:verdict.ask[2].question"
+      ],
+      "t": "AFAR پایه‌های مجاز خود را تعیین می‌کند. پایین‌ترین پایه‌ای که یک دانش‌آموز Davidson Day می‌تواند در آن به یک کاوش بپیوندد کدام است؟"
+    },
+    {
+      "text": "What does a dig cost a Davidson Day family, and what does the Field Experience fee cover?",
+      "of": "125c0a40",
+      "at": [
+        "davidson-day:verdict.ask[3].question"
+      ],
+      "t": "هزینهٔ یک کاوش برای یک خانوادهٔ Davidson Day چقدر است، و هزینهٔ Field Experience چه چیزهایی را پوشش می‌دهد؟"
+    },
+    {
+      "text": "Does the school's financial aid cover AFAR or any trip, beyond AFAR's own assistance?",
+      "of": "090f8169",
+      "at": [
+        "davidson-day:verdict.ask[4].question"
+      ],
+      "t": "آیا کمک‌هزینهٔ مالی مدرسه، فراتر از کمک‌های خود AFAR، هزینهٔ AFAR یا هر سفر دیگری را پوشش می‌دهد؟"
+    },
+    {
+      "text": "How are places decided when a session fills?",
+      "of": "5847bb5b",
+      "at": [
+        "davidson-day:verdict.ask[5].question"
+      ],
+      "t": "وقتی ظرفیت یک دوره پر می‌شود، جاها چگونه تخصیص می‌یابند؟"
+    },
+    {
+      "text": "What are the chaperone ratios and insurance arrangements, and who leads each trip?",
+      "of": "17eebcd0",
+      "at": [
+        "davidson-day:verdict.ask[6].question"
+      ],
+      "t": "نسبت همراهان بزرگسال به دانش‌آموزان و ترتیبات بیمه چگونه است، و چه کسی هر سفر را رهبری می‌کند؟"
+    },
+    {
+      "text": "Is there any exchange, sister school or homestay?",
+      "of": "f1a63dc0",
+      "at": [
+        "davidson-day:verdict.ask[7].question"
+      ],
+      "t": "آیا تبادل دانش‌آموز، مدرسهٔ خواهرخوانده یا اقامت نزد خانوادهٔ میزبان وجود دارد؟"
+    },
+    {
+      "text": "Research requirement.",
+      "of": "72853ca3",
+      "at": [
+        "davidson-day:verdict.ask[8].topic"
+      ],
+      "t": "الزام پژوهشی."
+    },
+    {
+      "text": "The older program page required two weeks of international field research. Does the Distinction still require it?",
+      "of": "0128214a",
+      "at": [
+        "davidson-day:verdict.ask[8].question"
+      ],
+      "t": "صفحهٔ قدیمی‌تر برنامه دو هفته پژوهش میدانی بین‌المللی را الزامی می‌دانست. آیا Distinction هنوز آن را الزامی می‌داند؟"
+    },
+    {
+      "text": "Graduates.",
+      "of": "5843a5c9",
+      "at": [
+        "davidson-day:verdict.ask[9].topic"
+      ],
+      "t": "فارغ‌التحصیلان."
+    },
+    {
+      "text": "How many students have earned the Global Studies Diploma Distinction since 2021?",
+      "of": "4bf0a26a",
+      "at": [
+        "davidson-day:verdict.ask[9].question"
+      ],
+      "t": "از 2021 تاکنون چند دانش‌آموز Global Studies Diploma Distinction را کسب کرده‌اند؟"
+    },
+    {
+      "text": "How many Davidson Day students go on AFAR each summer?",
+      "of": "dfa093d8",
+      "at": [
+        "davidson-day:verdict.ask[10].question"
+      ],
+      "t": "هر تابستان چند دانش‌آموز Davidson Day در AFAR شرکت می‌کنند؟"
+    },
+    {
+      "text": "Beyond archaeology.",
+      "of": "64c8ef8e",
+      "at": [
+        "davidson-day:verdict.ask[11].topic"
+      ],
+      "t": "فراتر از باستان‌شناسی."
+    },
+    {
+      "text": "The school says international service trips and language immersion programs will come as the pathway matures. When?",
+      "of": "9c9b3fff",
+      "at": [
+        "davidson-day:verdict.ask[11].question"
+      ],
+      "t": "مدرسه می‌گوید با پخته‌تر شدن این مسیر، سفرهای خدماتی بین‌المللی و برنامه‌های غوطه‌وری زبانی نیز افزوده خواهند شد. چه زمانی؟"
+    },
+    {
+      "text": "Continuity.",
+      "of": "d8caa403",
+      "at": [
+        "davidson-day:verdict.ask[12].topic"
+      ],
+      "t": "تداوم."
+    },
+    {
+      "text": "The program is led by AFAR's founder. How is it staffed and led beyond one person?",
+      "of": "c55ae84c",
+      "at": [
+        "davidson-day:verdict.ask[12].question"
+      ],
+      "t": "این برنامه را بنیان‌گذار AFAR رهبری می‌کند. فراتر از یک نفر، کادر و رهبری آن چگونه سازمان یافته است؟"
     }
   ]
 }
