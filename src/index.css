@@ -4877,7 +4877,8 @@ a.cs-college-name:focus-visible {
 .hsp-tally-note { font-size: 12.5px; margin: -2px 0 10px; }
 .hsp-tally { min-width: 0; margin-bottom: 18px; }
 .hsp-tally-head { font-size: 13px; margin: 0 0 8px; }
-.hsp-tally-list { max-height: 300px; }
+/* Compound selector: .hsp-destlist (420px) is declared later and would win. */
+.hsp-destlist.hsp-tally-list { max-height: 205px; }
 .hsp-tally-row {
   display: grid;
   grid-template-columns: 2.2em minmax(0, 1fr);
