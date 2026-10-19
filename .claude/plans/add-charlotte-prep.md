@@ -1,7 +1,7 @@
 ---
 name: add-charlotte-prep
 title: Add Charlotte Preparatory School — a PreK–8 school, nine research areas, High School Placement as the headline
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-19
 branch: feat/add-charlotte-prep
@@ -961,3 +961,102 @@ These findings were made but are not built:
 
 Story: https://www.charlotteprep.org/community/news/stories/prep-middle-schoolers-visit-costa-rica.
 If the user later wants this area, it is a separate `/global-exposure` run.
+
+## Implementation notes — Phase 1 (2026-10-19)
+
+Phase 1 shipped English-only on `feat/add-charlotte-prep` (7 commits). `npm run build`
+exits 0 with every chained check; `npm run audit:mobile` is clean at 320/360/390px; the
+page was checked in real Chrome (headed Playwright) with every `<details>` open.
+
+### How the page reads (Step 15)
+
+| School | Expanded text | Cards | Areas |
+|---|--:|--:|--:|
+| Providence Day (fullest) | 182,086 | 44 | 10 |
+| Trinity Episcopal (K–8 precedent) | 69,152 | 23 | 9 |
+| **Charlotte Prep** | **64,191** | **25** | **9** |
+
+Confirmed in the browser: nine areas; College Support and Global Exposure absent (not
+empty); no empty card; no Compare link anywhere; `/compare/?schools=charlotte-prep,…` shows
+no Charlotte Prep column; the badge is `/logos/charlotte-prep.png`; both Vimeo players load
+(page titles "Lower School at Charlotte Prep" and "Class of 2026 High School Destinations");
+the class video sits after the HSP grid, not inside it; Trinity renders no video frame; the
+`@charlotte-prep` arts and admissions titles render; 0 backticks and 0 "not published"
+phrases on the expanded page.
+
+### Where the build deviated from the plan
+
+1. **Three research filenames changed** so their subtopics fold onto existing metric keys
+   instead of slugifying into unapproved cards: "Tuition Assistance" → **Financial Support**
+   (Trinity's filename), "Productions and Recognition" → **Theatre Productions and
+   Recognition**, After School → **After School Program Overview**. `check:metrics`: zero
+   unmatched Charlotte Prep subtopics.
+2. **HSP `outcomes`: `classes: []`, per the Open-question default.** No class size is
+   published anywhere (178 URLs, both packets, both brochure revisions, six annual
+   reports). The rates ship as stat tiles beside each class list's size ("39 graduates
+   named on the class list"). New finds: a **96% rate for 2025** (2024-25 Annual Report) and
+   a **95% "top choice" (singular) rate for 2023** — a different measure, so it is quoted in
+   the subhead, not tiled. `tenYear` is unused because it renders only inside the class
+   table; the 96% ten-year figure is a NO DENOM. tile instead.
+3. **Destinations are the union of the website list, the brochure list and the 2023–2026
+   class lists**, grouped by true kind (66 schools). **39 rows were added to
+   `highSchools.ts`** and to the `_shared` companion doc, **all unranked** (Niche 403'd; US
+   News needs a headed browser) — a follow-up. Two identifications are ours and noted in the
+   rows: Northwestern HS = Rock Hill SC, York Prep Academy = York Preparatory Academy, Rock
+   Hill. St. Andrew's resolves to the existing Delaware row though Charlotte Prep never says
+   which — the card note says so.
+4. **Summer prices corrected.** The plan's table was the registration form's (partly
+   early-bird) prices; the cards use the brochure's regular prices ($525/$275 Traditional)
+   and state the form's figures in a fee note. Camp hours are resolved: 9:00–4:00. June 29–
+   July 3 is a closed week; the only four-day week is June 15–18.
+5. **Financial Aid: the 990 series is eight years (FY2018–FY2025)**, newest $476,679 to 49
+   students. The plan's 990 years were off by one ($9,564,533 is FY ending June 2023). The
+   school DOES publish a share: "10% of Charlotte Prep families received tuition
+   assistance" (2024-25) — families, not students, so never combined with the 990 count.
+   Aid excludes Pre-Primary/Primary/TK. 2025-26 tuition is unarchived, so the tuition
+   table compares with 2024-25 and labels every change "+15% (2 yrs)".
+6. **Course Offerings: the plan's "8th-grade Algebra/Geometry is inferred only" now has a
+   first-party line** (the April 2026 testing table's "CTP-5 Algebra Sub-Test (For students
+   in Geometry or Algebra only)"). The body says only that some 8th graders are in Algebra
+   or Geometry. Two 2018 Issuu curriculum overviews exist; the stale 2018 table and a
+   publication-gap list were moved under `## Method` so they do not render.
+7. **Course Offerings is the first school page to render `ProseContent` source chips**
+   (no structured catalog, so its prose card renders). `.source-chip-label` is
+   `nowrap` + ellipsis, which `audit:mobile` flagged as clipped at phone width. Fixed in
+   data (labels ≤31 chars), not CSS. The latent CSS behaviour remains for any future
+   prose-only card with long citation labels.
+8. **Sports:** Country Day's team page 167 is girls' tennis, not cheer; the athletics page
+   names **10** teams while Fast Facts says 11 — the tile says both. The AD date is
+   unpublished; the 2020 bio is the source for the Clover/Moses details.
+9. **Arts:** Scholastic recognition is now a *confirmed* absence (0 hits in 23 Mid-Carolina
+   lists, 2020–2026); Carnegie Hall stays attributed to the school's own page, undated.
+   Only `ladder` and `theatre` got overrides — the verdict ships a "why it holds up" column,
+   so the shared verdict title stands.
+10. **Clubs:** the plan's "Model UN + one science-fair result" grew to a Region 6 science
+    fair record (19 state-advancing placements 2024–26; Junior Physics 1st three years) and
+    a MOSAIC MS Diversity Club (catalog, not `affinity`). The stale service list is 2015,
+    not 2018.
+11. **Brand color #2b458c**, not the raw #1d2e5e, which sits 19–22 RGB units from three
+    existing navies — graded along the school's own hue, the Trinity precedent.
+12. **One extra chrome key**, `school.classVideoIframeTitle`, for the iframe's accessible
+    title, beside the plan's heading and caption keys.
+13. **Ingest side effect, not shipped:** a full rebuild rewrote every school's notes (date
+    stamps) and also picked up a section PR #355 added to Davidson Day's Global Exposure
+    source without re-ingesting. All non-Charlotte-Prep churn was reverted; that Davidson
+    Day drift is pre-existing and left for its own change.
+
+### For Phase 2
+
+- New `en` chrome keys to translate (nine catalogs): `school.classVideo`,
+  `school.classVideoCaption`, `school.classVideoIframeTitle`,
+  `cards.the-arts.ladder@charlotte-prep`, `cards.the-arts.theatre@charlotte-prep`,
+  `cards.admissions.guide@charlotte-prep`.
+- Steps 16–20 as written. `high-school-placement` is already in `TOPICS`.
+
+### Open for the user at review
+
+- **The Clubs `honors` card is titled "Honor Societies"** over a competition ledger;
+  Charlotte Prep has no honor society. A title override needs your OK.
+- **Thinnest areas:** Sports (2 cards), Course Offerings (one prose card, no catalog).
+- **The class video shows students' faces** (the school's own publication); the page adds
+  no names. Worth one watch before it ships.
