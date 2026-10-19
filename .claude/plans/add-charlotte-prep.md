@@ -964,7 +964,7 @@ If the user later wants this area, it is a separate `/global-exposure` run.
 
 ## Implementation notes — Phase 1 (2026-10-19)
 
-Phase 1 shipped English-only on `feat/add-charlotte-prep` (7 commits). `npm run build`
+Phase 1 shipped English-only on `feat/add-charlotte-prep`. `npm run build`
 exits 0 with every chained check; `npm run audit:mobile` is clean at 320/360/390px; the
 page was checked in real Chrome (headed Playwright) with every `<details>` open.
 
@@ -1045,12 +1045,38 @@ phrases on the expanded page.
     source without re-ingesting. All non-Charlotte-Prep churn was reverted; that Davidson
     Day drift is pre-existing and left for its own change.
 
+### Review change (user, 2026-10-19): Where Graduates Go + Where They Land merged
+
+- **A K–8 school with both `outcomes` and `destinations` now shows them as ONE card**
+  (option 1 of two offered). `hspCardsFor()` in `highSchoolPlacement.ts` drops the separate
+  Where They Land card and the destination index renders inside Where Graduates Go, under
+  its own "Where They Land" head, with one merged sources row. **Trinity is unchanged**,
+  because it has no `outcomes`. Charlotte Prep's area is now 3 cards plus the video.
+- **New `classTallies`** on `Outcomes`: per-class destination counts for 2023–2026,
+  OUR count from the school's named lists, with names normalised to master spellings so they
+  link. Ranks are hidden inside the tallies; they show once in the index below. Where tallies
+  exist, the ACCEPTANCE ≠ MATRICULATION caveat is dropped, because these lists ARE where
+  each graduate is heading.
+- **A false headline was fixed.** "In each of the last four classes, more went to Charlotte
+  Latin than anywhere else" was untrue: 2025 was a three-way tie at 6, and 2024 a tie with
+  Providence High at 7. It now reads "across the last four classes, Charlotte Latin took the
+  most: 29 of the 115 named graduates."
+- **A latent build bug was fixed: `prerender.mjs`'s embed block never matched Vimeo.**
+  `(^|\.)player\.vimeo\.com` needs a dot or start-of-string before `player`, but a real
+  URL has `/`, so only `www.youtube.com` was ever blocked. Trinity built by luck. Charlotte
+  Prep's two Vimeo embeds timed out the prerender. The pattern is now anchored on the host.
+- `DATA-SCHEMA.md` §7 records the merge rule and the `classTallies` conventions (in the
+  generator).
+
 ### For Phase 2
 
 - New `en` chrome keys to translate (nine catalogs): `school.classVideo`,
   `school.classVideoCaption`, `school.classVideoIframeTitle`,
   `cards.the-arts.ladder@charlotte-prep`, `cards.the-arts.theatre@charlotte-prep`,
-  `cards.admissions.guide@charlotte-prep`.
+  `cards.admissions.guide@charlotte-prep`, and the tally keys
+  `highSchoolPlacement.classTallies`, `.classTalliesNote`, `.tallyClass`,
+  `.tallyListed_one` / `_other` (pluralised, so use each locale's CLDR plural forms;
+  `ar` has six).
 - Steps 16–20 as written. `high-school-placement` is already in `TOPICS`.
 
 ### Open for the user at review

@@ -97,6 +97,7 @@ import {
   highSchoolPlacementProgram,
   loadHighSchoolPlacementOverlay,
   HIGH_SCHOOL_PLACEMENT_CARDS,
+  hspCardsFor,
   type HighSchoolPlacementProgram,
 } from '../data/highSchoolPlacement.ts'
 import {
@@ -293,7 +294,9 @@ function HighSchoolPlacementCardBody({
 }) {
   switch (cardKey) {
     case 'outcomes':
-      return <HspOutcomesBody data={program.outcomes!} />
+      /* A school with both cards gets the destination index inside this one —
+         see hspCardsFor(). */
+      return <HspOutcomesBody data={program.outcomes!} destinations={program.destinations} />
     case 'placement':
       return <PlacementBody data={program.placement!} />
     case 'destinations':
@@ -890,7 +893,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 ? highSchoolPlacementProgram(slug, lang)
                 : undefined
             const hspCardList = hspEntry
-              ? HIGH_SCHOOL_PLACEMENT_CARDS.filter((c) => hspEntry[c.key] != null)
+              ? hspCardsFor(hspEntry)
               : []
             const highSchoolPlacement = hspCardList.length > 0 ? hspEntry : undefined
             const hspCards = hspCardList

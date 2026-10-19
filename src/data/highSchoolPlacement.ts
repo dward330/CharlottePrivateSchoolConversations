@@ -167,6 +167,22 @@ export type Scholarship = {
   detail: string
 }
 
+/**
+ * Where one graduating class is HEADING, counted from the school's own named
+ * class announcement. These are per-graduate destinations (matriculation), not
+ * acceptances, and the count is ours — the school publishes the names, never
+ * the tallies — so the card says so in chrome rather than per school.
+ */
+export type ClassTally = {
+  /** The class year as published, e.g. "2026". */
+  year: string
+  /** How many graduates the school's list names — the tally's denominator. */
+  listed: number
+  /** Destinations, most graduates first. Names are canonical master names so
+      they resolve to the destination's homepage or dossier. */
+  schools: (Destination & { count: number })[]
+}
+
 export type Outcomes = {
   headline: string
   subhead?: string
@@ -178,6 +194,12 @@ export type Outcomes = {
   classes: PlacementClass[]
   /** The published multi-year aggregate, where there is one. */
   tenYear?: PlacementAggregate
+  /**
+   * Per-class destination counts from the school's named class lists. Where
+   * present, the card also drops the ACCEPTANCE ≠ MATRICULATION caveat: these
+   * lists ARE matriculation, so that note would contradict the counts above it.
+   */
+  classTallies?: ClassTally[]
   /** Heading over the scholarship band. */
   scholarshipsTitle?: string
   /** Named awards won. Empty omits the band. */
@@ -320,6 +342,22 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
   title: string
   kicker: string
 }[]
+
+/**
+ * The cards a school actually shows, in render order.
+ *
+ * A school with BOTH `outcomes` and `destinations` gets them as ONE card (user,
+ * 2026-10-19): "how well do kids place" and "where do they end up" are one
+ * parent question, so the destination index renders inside Where Graduates Go
+ * and the separate Where They Land card is dropped. A school with only one of
+ * the two (Trinity Episcopal has no `outcomes`) is unchanged.
+ */
+export function hspCardsFor(program: HighSchoolPlacementProgram) {
+  const merged = program.outcomes != null && program.destinations != null
+  return HIGH_SCHOOL_PLACEMENT_CARDS.filter(
+    (c) => program[c.key] != null && !(merged && c.key === 'destinations'),
+  )
+}
 
 /**
  * Per-school programs, keyed by slug.

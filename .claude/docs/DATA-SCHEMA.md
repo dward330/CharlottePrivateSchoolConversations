@@ -771,7 +771,7 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 **Schools with data:** 2/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `providence-day`
 
-<details><summary>Types defined in <code>highSchoolPlacement.ts</code> (11)</summary>
+<details><summary>Types defined in <code>highSchoolPlacement.ts</code> (12)</summary>
 
 `HspStat` — `value`, `denominator?`, `caption`
 
@@ -783,7 +783,9 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 `Scholarship` — `name`, `detail`
 
-`Outcomes` — `headline`, `subhead?`, `stats`, `classesTitle?`, `classes`, `tenYear?`, `scholarshipsTitle?`, `scholarships`, `flags`, `sources`
+`ClassTally` — `year`, `listed`, `schools`
+
+`Outcomes` — `headline`, `subhead?`, `stats`, `classesTitle?`, `classes`, `tenYear?`, `classTallies?`, `scholarshipsTitle?`, `scholarships`, `flags`, `sources`
 
 `PlacementStep` — `when`, `kind?`, `text`
 
@@ -1179,6 +1181,20 @@ Two traps, both hit on the first occupant:
   different rate — otherwise the page states something false in ten languages.
 - **A cumulative split is not a per-class rate.** Trinity's 31/57/12 is across 1,060
   graduates since 2004. Label it that way or omit it.
+
+**A school with BOTH `outcomes` and `destinations` shows them as ONE card** (user,
+2026-10-19): the destination index renders inside Where Graduates Go and the separate
+Where They Land card is dropped — `hspCardsFor()` in `src/data/highSchoolPlacement.ts`.
+A school with only one of the two (Trinity) is unchanged. So such a school shows three
+cards, not four.
+
+**`classTallies`** carries per-class destination counts where the school publishes a
+NAMED list for each class (Charlotte Prep, 2023–2026). The count is ours, from the
+names, and the card says so in chrome. Normalise names to the master's canonical
+spelling so each one links, and keep the exact spellings in source-material. Where it
+is present the ACCEPTANCE ≠ MATRICULATION caveat is dropped, because those lists ARE
+matriculation. Check any "most graduates" headline against EVERY class — two of
+Charlotte Prep's four classes were ties at the top.
 
 ### Destination metadata lives in one master
 

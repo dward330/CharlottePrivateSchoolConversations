@@ -46,6 +46,7 @@ import type {
   Outcomes,
   Placement,
   PlacementClass,
+  ClassTally,
 } from '../data/highSchoolPlacement.ts'
 import { schoolBySlug } from '../lib/manifest.ts'
 import { highSchoolClosure, highSchoolRank, highSchoolUrl } from '../data/highSchools.ts'
@@ -380,8 +381,22 @@ function ClassRow({ row }: { row: PlacementClass }) {
  * the card title and teaser, and the <details> shell already draws the four
  * registration marks. The body starts at the takeaway sentence.
  */
-export function OutcomesBody({ data }: { data: Outcomes }) {
+export function OutcomesBody({
+  data,
+  destinations,
+}: {
+  data: Outcomes
+  /** Present when the school shows both cards: the destination index then
+      renders inside this card instead of as Where They Land (hspCardsFor). */
+  destinations?: Destinations
+}) {
   const { t } = useTranslation()
+  /* One sources row for the merged card, in card order, without repeats. */
+  const sources = destinations
+    ? [...data.sources, ...destinations.sources].filter(
+        (src, i, all) => all.findIndex((o) => o.label === src.label && o.url === src.url) === i,
+      )
+    : data.sources
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -433,6 +448,20 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
         </>
       )}
 
+      {data.classTallies && data.classTallies.length > 0 && (
+        <>
+          <Heading>{t('highSchoolPlacement.classTallies')}</Heading>
+          <p className="hsp-tally-note text-muted">
+            {t('highSchoolPlacement.classTalliesNote')}
+          </p>
+          <div className="hsp-tallies">
+            {data.classTallies.map((c) => (
+              <TallyBlock key={c.year} tally={c} />
+            ))}
+          </div>
+        </>
+      )}
+
       {data.scholarships.length > 0 && (
         <>
           <Heading>
@@ -457,13 +486,51 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
         <strong>{t('highSchoolPlacement.notAnAdmitRate')}</strong>{' '}
         {t('highSchoolPlacement.notAnAdmitRateText')}
       </Note>
-      <Note>
-        <strong>{t('highSchoolPlacement.acceptanceNotMatriculation')}</strong>{' '}
-        {t('highSchoolPlacement.acceptanceNotMatriculationText')}
-      </Note>
+      {/* Dropped where the school publishes per-graduate class lists: those ARE
+          matriculation, so this caveat would contradict the counts above. */}
+      {!data.classTallies?.length && (
+        <Note>
+          <strong>{t('highSchoolPlacement.acceptanceNotMatriculation')}</strong>{' '}
+          {t('highSchoolPlacement.acceptanceNotMatriculationText')}
+        </Note>
+      )}
+
+      {destinations && (
+        <>
+          <h3 className="hsp-merged-head">
+            {t('cards.high-school-placement.destinations', { defaultValue: 'Where They Land' })}
+          </h3>
+          <DestinationsBody data={destinations} embedded />
+        </>
+      )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} className="cs-src" />
+      <SourceRow sources={sources} className="cs-src" />
+    </div>
+  )
+}
+
+/** One class's tally: where its named graduates are heading, most first. */
+function TallyBlock({ tally }: { tally: ClassTally }) {
+  const { t } = useTranslation()
+  return (
+    <div className="hsp-tally">
+      <div className="hsp-tally-head">
+        <span className="hsp-class-year">
+          {t('highSchoolPlacement.tallyClass', { year: tally.year })}
+        </span>
+        <span className="text-muted">
+          {t('highSchoolPlacement.tallyListed', { count: tally.listed })}
+        </span>
+      </div>
+      <div className="hsp-dest-row">
+        {tally.schools.map((d) => (
+          <div key={d.name} className="hsp-tally-row">
+            <span className="hsp-tally-count">{d.count}</span>
+            <DestinationChip dest={d} />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
@@ -557,7 +624,15 @@ const ALL = '__all'
  * Still true, and still the rule: the categories are NOT tiers. They are kinds
  * of school, and the app invents no ranking of its own.
  */
-export function DestinationsBody({ data }: { data: Destinations }) {
+export function DestinationsBody({
+  data,
+  embedded = false,
+}: {
+  data: Destinations
+  /** Rendered inside the merged Where Graduates Go card, which owns the
+      sources row — so this body skips its own. */
+  embedded?: boolean
+}) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<string>(ALL)
   const [query, setQuery] = useState('')
@@ -717,7 +792,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           distinctions remain in the research record. */}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} className="cs-src" />
+      {!embedded && <SourceRow sources={data.sources} className="cs-src" />}
     </div>
   )
 }

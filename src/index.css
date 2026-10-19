@@ -4871,6 +4871,54 @@ a.cs-college-name:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 
+/* -- per-class tallies: where each named class is heading ------------------
+   Two columns where they fit, one at phone width; each class is a short
+   count + destination list. minmax(0, 1fr) so a long name cannot widen the
+   track past the card. */
+.hsp-tally-note { font-size: 12.5px; margin: -2px 0 10px; }
+.hsp-tallies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 14px 28px;
+  margin-bottom: 18px;
+}
+.hsp-tally { min-width: 0; }
+/* Ranks belong to the destination index below, where each school appears once;
+   repeated in every class column they crowd the names into one-word lines. */
+.hsp-tally .hsp-dest-rank { display: none; }
+.hsp-tally-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  font-size: 13px;
+}
+.hsp-tally-row {
+  display: grid;
+  grid-template-columns: 2.2em minmax(0, 1fr);
+  align-items: baseline;
+  border-bottom: 1px solid var(--border);
+}
+.hsp-tally-row:last-child { border-bottom: none; }
+.hsp-tally-count {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  text-align: end;
+  padding-right: 4px;
+}
+/* The destination index inside the merged Where Graduates Go card: one step
+   above the in-card section labels, so it reads as the card's second half. */
+.hsp-merged-head {
+  font-size: 18px;
+  margin: 26px 0 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
 /* -- scholarship band ------------------------------------------------------ */
 
 .hsp-schol-band {
