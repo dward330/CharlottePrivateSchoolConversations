@@ -1,11 +1,11 @@
 ---
 name: ddglobal
 title: Add Davidson Day School to Global Exposure — six cards (exchanges, signup and community omitted; credential "The Global Studies Diploma Distinction"; network "AFAR & the Archaeology Conferences"), nine AFAR summer digs over three school years with AFAR's grade bands credited to AFAR; no prices or exact travel dates on the page
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-18
 branch: feat/ddglobal
-prs: []
+prs: [355]
 ---
 
 # Davidson Day School — Global Exposure
@@ -751,3 +751,15 @@ show 9/8/8/5/7 cards. `audit:mobile` passes.
 `North Carolina, November 2024.`, an `alsoOnRecord` lead. That field is prose
 (`i18n_fields.mjs:707`) and just isn't translated yet, so translating it must bring the
 audit to 0.
+
+**Phase 2 (locales), 2026-10-19. PR #355.**
+
+- **Splice:** 1067 kept, 129 added and **0 dropped** in all nine locales. Nine parallel translators each wrote a stamp → translation map to a private scratch directory, and the maps were applied centrally by stamp.
+- **Chrome:** both `@davidson-day` keys were added to the nine catalogs by text insertion after `network@charlotte-christian`. Key order is unchanged, ar included.
+- **Central fixes:**
+  - te and hi had worded "offered since" (the label under the `2021` tile) as a question. Both now use a postposition that reads after the year.
+  - fa's "as announced" had gained "by the school", which the English does not say, so it was removed.
+  - All nine kept the GSD quote verbatim, so no quote fixes were needed this time.
+- **Deviation from the Verification list:** the plan asked that `8th–12th`-style bands read left-to-right in fa/ar. They draw in RTL order. Charlotte Christian (shipped and reviewed) does the same, because RichText isolates only `\d{4}–\d{2}` year ranges. That is the documented site-wide residual, so it was left unchanged rather than fixed for one school. In real Chrome there are 0 digit-after-Latin inversions in fa or ar.
+- **fr adds a digit:** "sophomore year" is *10e année*, a digit the English lacks. It follows fr's shipped *12e année* for "seniors", passes `check_figures`, and is listed as a soft spot in NOTES.
+- **Results:** `audit:daterender` is 0 in all nine locales; the Phase 1 hit is now translated. `audit:moneyrender` and `audit:mobile` (320px × 9 locales) are clean.
