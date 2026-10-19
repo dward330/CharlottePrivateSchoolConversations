@@ -454,11 +454,7 @@ export function OutcomesBody({
           <p className="hsp-tally-note text-muted">
             {t('highSchoolPlacement.classTalliesNote')}
           </p>
-          <div className="hsp-tallies">
-            {data.classTallies.map((c) => (
-              <TallyBlock key={c.year} tally={c} />
-            ))}
-          </div>
+          <TallyPicker tallies={data.classTallies} />
         </>
       )}
 
@@ -510,20 +506,41 @@ export function OutcomesBody({
   )
 }
 
-/** One class's tally: where its named graduates are heading, most first. */
-function TallyBlock({ tally }: { tally: ClassTally }) {
+/**
+ * Where each class is headed: one class at a time, chosen from button tabs
+ * (the same pills as the destination filters below), over a scrollable list.
+ * Opens on the newest class — the array is newest first.
+ */
+function TallyPicker({ tallies }: { tallies: ClassTally[] }) {
   const { t } = useTranslation()
+  const [year, setYear] = useState(tallies[0].year)
+  const listRef = useRef<HTMLDivElement>(null)
+  const tally = tallies.find((c) => c.year === year) ?? tallies[0]
+
+  /* A new class replaces the list, so start the reader at its top. */
+  useEffect(() => {
+    if (listRef.current) listRef.current.scrollTop = 0
+  }, [year])
+
   return (
     <div className="hsp-tally">
-      <div className="hsp-tally-head">
-        <span className="hsp-class-year">
-          {t('highSchoolPlacement.tallyClass', { year: tally.year })}
-        </span>
-        <span className="text-muted">
-          {t('highSchoolPlacement.tallyListed', { count: tally.listed })}
-        </span>
+      <div className="hsp-filters" role="group" aria-label={t('highSchoolPlacement.classTallies')}>
+        {tallies.map((c) => (
+          <button
+            key={c.year}
+            type="button"
+            className={`pill ${c.year === tally.year ? 'on' : ''}`}
+            aria-pressed={c.year === tally.year}
+            onClick={() => setYear(c.year)}
+          >
+            {t('highSchoolPlacement.tallyClass', { year: c.year })}
+          </button>
+        ))}
       </div>
-      <div className="hsp-dest-row">
+      <p className="hsp-tally-head text-muted">
+        {t('highSchoolPlacement.tallyListed', { count: tally.listed })}
+      </p>
+      <div className="hsp-destlist hsp-tally-list" ref={listRef} tabIndex={0}>
         {tally.schools.map((d) => (
           <div key={d.name} className="hsp-tally-row">
             <span className="hsp-tally-count">{d.count}</span>

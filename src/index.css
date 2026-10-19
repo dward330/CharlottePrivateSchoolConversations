@@ -4872,30 +4872,12 @@ a.cs-college-name:focus-visible {
 }
 
 /* -- per-class tallies: where each named class is heading ------------------
-   Two columns where they fit, one at phone width; each class is a short
-   count + destination list. minmax(0, 1fr) so a long name cannot widen the
-   track past the card. */
+   One class at a time — pill tabs (.hsp-filters) over a scrollable list that
+   reuses the destination index's frame (.hsp-destlist), shorter. */
 .hsp-tally-note { font-size: 12.5px; margin: -2px 0 10px; }
-.hsp-tallies {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
-  gap: 14px 28px;
-  margin-bottom: 18px;
-}
-.hsp-tally { min-width: 0; }
-/* Ranks belong to the destination index below, where each school appears once;
-   repeated in every class column they crowd the names into one-word lines. */
-.hsp-tally .hsp-dest-rank { display: none; }
-.hsp-tally-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 10px;
-  flex-wrap: wrap;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 6px;
-  font-size: 13px;
-}
+.hsp-tally { min-width: 0; margin-bottom: 18px; }
+.hsp-tally-head { font-size: 13px; margin: 0 0 8px; }
+.hsp-tally-list { max-height: 300px; }
 .hsp-tally-row {
   display: grid;
   grid-template-columns: 2.2em minmax(0, 1fr);
@@ -4910,6 +4892,9 @@ a.cs-college-name:focus-visible {
   text-align: end;
   padding-right: 4px;
 }
+/* Ranks belong to the destination index below, where each school appears once;
+   repeated per class they crowd the names. */
+.hsp-tally .hsp-dest-rank { display: none; }
 /* The destination index inside the merged Where Graduates Go card: one step
    above the in-card section labels, so it reads as the card's second half. */
 .hsp-merged-head {

@@ -1054,7 +1054,9 @@ phrases on the expanded page.
   because it has no `outcomes`. Charlotte Prep's area is now 3 cards plus the video.
 - **New `classTallies`** on `Outcomes`: per-class destination counts for 2023–2026,
   OUR count from the school's named lists, with names normalised to master spellings so they
-  link. Ranks are hidden inside the tallies; they show once in the index below. Where tallies
+  link. Shown one class at a time: pill tabs (newest first, the destination filters'
+  style) over a scrollable list (user, 2026-10-19). Ranks are hidden there; they show once
+  in the index below. Where tallies
   exist, the ACCEPTANCE ≠ MATRICULATION caveat is dropped, because these lists ARE where
   each graduate is heading.
 - **A false headline was fixed.** "In each of the last four classes, more went to Charlotte
