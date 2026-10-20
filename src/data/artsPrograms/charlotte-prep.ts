@@ -44,7 +44,7 @@ export const charlottePrep: ArtsProgram = {
     headline:
       'Music, drama and art for every child through 4th grade, band from 4th, then a choice between chorus and band in 5th and between drama and art in 7th.',
     subhead:
-      'The school counts "20+ arts performances and events per year", and fine arts fees have been included in tuition since 2024–25.',
+      'The school counts "20+ arts performances and events per year".',
     stats: [
       { value: '20+', label: 'arts performances and events per year' },
       { value: '4–8', label: 'grades in band' },
