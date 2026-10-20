@@ -70,7 +70,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
     headline:
       '97% of the Class of 2026 were accepted into one or both of their top two high school choices — and Charlotte Prep has published a rate like it for every class since 2023.',
     subhead:
-      'Fifteen of the Class of 2026 "were accepted to every school they applied to."',
+      'Fifteen members of the Class of 2026 were accepted to every school they applied to, the school says.',
     stats: [
       {
         value: '97%',
