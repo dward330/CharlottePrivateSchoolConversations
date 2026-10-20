@@ -408,8 +408,6 @@ export const charlottePrep: HighSchoolPlacementProgram = {
       'A published placement rate for every recent class, a named list behind each one, and a process written down step by step.',
     points: [],
     checklist: [
-      'How many students were in the Class of 2026, and is the named list the whole class? The 97% is published, but the class size behind it is not.',
-      'Your Middle School page says 96% over ten years; an earlier story said 94% since 2015. Which is current, and over how many graduates?',
       'Who is on the placement team today? The 2022 guide named three roles; the current guide and staff directory name none.',
       'Is ISEE preparation still free, and is it a class or individual support?',
       'How many schools does a typical family apply to, and how many interviews does a student usually sit?',
