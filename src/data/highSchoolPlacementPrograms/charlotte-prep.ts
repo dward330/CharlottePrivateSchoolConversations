@@ -23,10 +23,10 @@
 //     stat tiles, each captioned with the size of the list it sits beside, and
 //     no derived count is presented as the school's.
 //
-//  2. 2023 IS A DIFFERENT MEASURE. The 2022-23 Annual Report says "accepted into
-//     their top choice" (singular), not "one or both of their top two choices",
-//     so it is quoted in the subhead rather than sitting in a tile beside the
-//     top-two rates.
+//  2. 2023 IS A DIFFERENT MEASURE. The 2022-23 Annual Report says "95% … accepted
+//     into their top choice" (singular), not "one or both of their top two
+//     choices", so it is not tiled beside the top-two rates. It was quoted in the
+//     subhead and removed at review (user, 2026-10-19); it stays in source-material.
 //
 //  3. THE 10-YEAR FIGURE HAS TWO PUBLISHED VERSIONS — 96% "over the past 10
 //     years" (Middle School page, added after Nov 2024) and 94% "since 2015"
@@ -70,7 +70,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
     headline:
       '97% of the Class of 2026 were accepted into one or both of their top two high school choices — and Charlotte Prep has published a rate like it for every class since 2023.',
     subhead:
-      'Fifteen of the Class of 2026 "were accepted to every school they applied to." For 2023 the school reported a narrower measure: "95% of our graduates were accepted into their top choice high school."',
+      'Fifteen of the Class of 2026 "were accepted to every school they applied to."',
     stats: [
       {
         value: '97%',
