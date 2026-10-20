@@ -91,7 +91,7 @@ export const charlottePrep: AdmissionsProgram = {
             tag: 'by Feb 1',
             tagKind: 'accent',
             detail:
-              '**Montessori K and Kindergarten applicants take the WPPSI-IV** through the **CAIS consortium**, at **$300**, booked with **one psychologist only**. "External testing is not required before Montessori Kindergarten," so **Pre-Primary, Primary and TK applicants sit no test**. CAIS also requires an **interview with each child**, typically **November–February**.',
+              '**Montessori K and Kindergarten applicants take the WPPSI-IV** through the **CAIS consortium**, booked with **one psychologist only**. "External testing is not required before Montessori Kindergarten," so **Pre-Primary, Primary and TK applicants sit no test**. CAIS also requires an **interview with each child**, typically **November–February**.',
           },
           {
             title: 'Meet and Greet, or Kindergarten Play Day',
@@ -111,7 +111,7 @@ export const charlottePrep: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Your deadline is Jan 2 — two weeks ahead of Grades 1–8.',
-          text: 'Early School and Kindergarten apply by January 2, finish testing and recommendations by February 1, and hear back on February 26 at 4:00 p.m. Only Montessori K and Kindergarten sit a test — the WPPSI-IV, through a CAIS psychologist at $300. Pre-Primary, Primary and TK applicants sit none.',
+          text: 'Early School and Kindergarten apply by January 2, finish testing and recommendations by February 1, and hear back on February 26 at 4:00 p.m. Only Montessori K and Kindergarten sit a test — the WPPSI-IV, through a CAIS psychologist. Pre-Primary, Primary and TK applicants sit none.',
         },
         checklistRows: [
           {
@@ -189,7 +189,7 @@ export const charlottePrep: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              '**Check your child’s grade against all three.** **Grade 1** takes the **WPPSI-IV**, the same test as Kindergarten; **Grades 2–4** take the **WISC-V**. Both run through the **CAIS consortium** at **$300**, with **one psychologist only** and an interview with each child. **Grades 5–8 take the ISEE**, registered by you through ERB at iseeonline.erblearn.org.',
+              '**Check your child’s grade against all three.** **Grade 1** takes the **WPPSI-IV**, the same test as Kindergarten; **Grades 2–4** take the **WISC-V**. Both run through the **CAIS consortium**, with **one psychologist only** and an interview with each child. **Grades 5–8 take the ISEE**, registered by you through ERB at iseeonline.erblearn.org.',
           },
           {
             title: 'An on-campus experience',
@@ -209,7 +209,7 @@ export const charlottePrep: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Check which test your grade sits — it changes twice inside this band.',
-          text: 'Grade 1 takes the WPPSI-IV, Grades 2–4 the WISC-V — both through a CAIS psychologist at $300 — and Grades 5–8 the ISEE, registered through ERB. Applications are due January 15; recommendations, testing and transcripts by February 26; decisions arrive April 9 at 4:00 p.m.',
+          text: 'Grade 1 takes the WPPSI-IV, Grades 2–4 the WISC-V — both through a CAIS psychologist — and Grades 5–8 the ISEE, registered through ERB. Applications are due January 15; recommendations, testing and transcripts by February 26; decisions arrive April 9 at 4:00 p.m.',
         },
         checklistRows: [
           {
@@ -229,7 +229,7 @@ export const charlottePrep: AdmissionsProgram = {
           },
           {
             action: 'Complete the test your grade sits',
-            detail: 'Gr 1: WPPSI-IV · Gr 2–4: WISC-V, both through a CAIS psychologist at $300 · Gr 5–8: the ISEE, through ERB.',
+            detail: 'Gr 1: WPPSI-IV · Gr 2–4: WISC-V, both through a CAIS psychologist · Gr 5–8: the ISEE, through ERB.',
             due: 'Feb 26, 2027',
           },
           {
