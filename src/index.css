@@ -3069,7 +3069,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   display: block;
 }
 .sports-bar-track-sm { height: 12px; }
-.sports-bar-track-xs { height: 10px; }
 .sports-bar-fill {
   position: absolute;
   inset: 0;
@@ -3218,7 +3217,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-tenures { display: flex; flex-direction: column; }
 .sports-tenure {
   display: grid;
-  grid-template-columns: 170px 190px 1fr 120px;
+  grid-template-columns: 170px minmax(0, 1fr) 120px;
   gap: 12px;
   align-items: center;
   padding: 8px 12px;

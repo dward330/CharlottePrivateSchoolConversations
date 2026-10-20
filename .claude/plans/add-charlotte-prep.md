@@ -1077,6 +1077,15 @@ phrases on the expanded page.
 - `DATA-SCHEMA.md` §7 records the merge rule and the `classTallies` conventions (in the
   generator).
 
+### Review change (user, 2026-10-19): tenure bars removed from EVERY school's Sports card
+
+**This one is cross-school, not a Charlotte Prep change.** The coaching card's tenure
+ledger drew a bar per person, with its length relative to the longest tenure on that
+school's list. So a full bar meant 3 years on one page and 20 on another, and it said
+nothing the "since" year beside it does not. The bar is removed from the component for all
+schools (name · role · since remain); `TenureRow.width` stays in the data, unrendered, so
+no school's file changed. No new strings.
+
 ### For Phase 2
 
 - New `en` chrome keys to translate (nine catalogs): `school.classVideo`,
