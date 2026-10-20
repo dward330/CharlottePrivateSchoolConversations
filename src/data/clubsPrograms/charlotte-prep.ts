@@ -58,7 +58,7 @@ export const charlottePrep: ClubsProgram = {
         name: 'Student-led relief, and a 2nd-grade tradition',
         detail:
           'In October 2024 the student council ran a carpool-line supply drive for Hurricane Helene relief, every class made cards of hope, and the school co-hosted a benefit concert with 7th Street Concerts and the Sphinx Virtuosi; students "filled a moving truck with essential goods" and delivered it to the YMCA. Each February, second graders host a Black History Lunch & Learn for Charlotte community leaders — the seventh annual one was February 12, 2026.',
-        source: { label: 'charlotteprep.org — "Support for Hurricane Helene Recovery", Oct 2024', url: HELENE },
+        source: { label: 'charlotteprep.org — "Support for Hurricane Helene Recovery"', url: HELENE },
       },
     ],
     flags: [],

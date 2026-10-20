@@ -474,7 +474,7 @@ export function CostBody({ data }: { data: Cost }) {
                         className="as-rowbtn"
                         aria-pressed={r.id === rowId}
                       >
-                        {r.label}
+                        {localizeMoneyText(r.label)}
                       </button>
                     </th>
                     {r.prices.map((p, i) => (

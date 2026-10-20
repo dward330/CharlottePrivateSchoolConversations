@@ -523,7 +523,7 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
                         className="as-rowbtn"
                         aria-pressed={r.id === tierId}
                       >
-                        {r.label}
+                        {localizeMoneyText(r.label)}
                       </button>
                       {r.detail && (
                         <>
