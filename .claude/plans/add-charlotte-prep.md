@@ -1147,3 +1147,101 @@ Programs." text was removed from its data.
 - **Thinnest area:** Sports (2 cards).
 - **The class video shows students' faces** (the school's own publication); the page adds
   no names. Worth one watch before it ships.
+
+## Implementation notes — Phase 2 (2026-10-20)
+
+Nine prose locales translated, built and verified: `es`, `bn`, `ht`, `te`, `fr`, `fa`,
+`it`, `hi`, `ar`. **538 new strings + 9 Tuition History prose blocks per locale** (4,923
+total), plus the class-video, class-picker and `@charlotte-prep` chrome keys in all nine
+catalogs.
+
+### Steps 16–18
+
+- `charlotte-prep` added to `SLUGS` / `EXPORTS` in `scripts/i18n_topics.mjs`.
+- **Five unclassified paths, not 43.** `cells.esk`, `outcomes.stats[].denominator` and
+  `placement.owns[]` → prose; `destinations.classTallies[].schools[].slug` → skip (a
+  cross-link slug, like `categories[].schools[].slug`).
+- **Arts `verdict.holdsUpTitle: 'Why it holds up'` was deleted, not classified.** It was
+  byte-identical to its chrome fallback `sections.whyItHoldsUp`, a lifted heading that
+  would have pinned English in nine locales. English rendering is unchanged.
+- **Splice: 14,165 kept, 538 added, 0 dropped**, identically in all nine. The content
+  extractor's carry-over added the 9 Tuition History blocks (36 → 45).
+- **Positive check:** Charlotte Prep has units in all nine of its topics, and 0 in College
+  Support, Global Exposure and metric-values.
+
+### Step 19: translation
+
+Nine parallel agents with private scratch dirs wrote stamp maps, and the main session
+applied them, the fifth time this pattern ran collision-free. **All nine hit the API
+session limit mid-run**; each was resumed from its on-disk partial work, and none was lost.
+
+Central checks after applying:
+- **By-stamp integrity vs `main`:** nothing lost or mutated, no prior `t` overwritten,
+  every added stamp renders on Charlotte Prep, no foreign script, no stray bidi controls,
+  fa/ar letter split holds (fa 69% Persian-letter share, ar 0%). `check_work_integrity.mjs`
+  itself cannot validate a new-school splice (its length assertion), so this was run as a
+  scratch script, as on #344.
+- **Verbatim quotes:** 84 per locale; all quoted words survive everywhere (two locales moved
+  a closing period or comma at the quote boundary, which is acceptable).
+- **Leak band** (kept by 1–3 locales, translated by ≥6): 20 flagged. 10 were fixed to the
+  consensus: fr course connectors (`Algebra ou Geometry` …), fr Before/After Care labels,
+  te/fa/hi `Germany`/`England`/`Morocco`, bn `4th grade`. 10 are defensible keeps
+  (contact lines, `/yr` and `/ hr` price labels per their precedents, proper names, bn/te
+  `drop-in`, which matches those locales' existing after-school files).
+- **Gender.** The Director of Enrollment's title was rendered feminine in `it` and `ar`
+  on the strength of the first name alone; the school publishes no pronoun for her. Both
+  now use the English title "Director of Enrollment", as fr/bn/te/es do. The athletic
+  director's feminine title stands: the school's own bio says "she".
+
+### Step 20: chrome
+
+The plan's listed keys, plus one more: **`cards.admissions.guide@covenant-day` was in
+`en` but missing from all nine other catalogs on `main`**, so Covenant Day's guide heading
+had been rendering English to every non-English reader. Added alongside. Plural forms
+follow CLDR: `ar` has all six (`_two`/`_one`/`_zero` carry no `{{count}}`), and `es` adds
+`_many`.
+
+### Three render-path defects found by the audits, all fixed
+
+The audits flagged Charlotte Prep values reaching paths no school had exercised:
+- `SummerPrograms` cost-planner row buttons rendered `r.label` raw (`$600` on es/fr).
+  `AfterSchool`'s identical row button got the same latent fix.
+- `ArtsProgram`'s `Lead` rendered headline/subhead raw; the theatre subhead is the first
+  to carry a figure (`$180,000`).
+- A per-program citation label ended `, Oct 2024`, an English date in a field kept English
+  by design. Trimmed; the card text already says October 2024.
+
+### Verification
+
+| Check | Result |
+|---|---|
+| `check:runtime` | ✓ 9/9, 14,748 entries each (14,165 + 538 + 45) — authoritative |
+| `check:live` | ✓ 9/9 + 45 foreign-topic blocks |
+| `check:translations` | ✓ 100%, no drift (the 3 untranslated sites are the empty-English `811c9dc5`, other schools) |
+| `check:chrome` | ✓ all 10 catalogs; every en key present in all nine |
+| `check:sepdrift` | ✓ 0 drifted × 9 |
+| `check:dates` / `check:money` / `check:currency` / `check:moneytext` | ✓ |
+| `check:bidi` / `check:fa` / `check:hi` / `check:fr` | ✓ |
+| `check_figures.py` | ✓ for every Charlotte Prep string; `es` reports 10 older findings in other schools (college-support and metric-values are untouched by this branch) |
+| `npm run build` | ✓ exit 0, all chained checks |
+| `audit:moneyrender` / `audit:daterender` | ✓ every locale (after the three fixes) |
+| `audit:mobile` (CP + Trinity, 10 locales, 320/360) | ✓ no broken card, no page overflow |
+| Real-Chrome check, panels forced open, all 9 locales | ✓ see below |
+
+**Browser:** every `@charlotte-prep` heading and the Class of 2026 video heading render
+translated in all nine; `dir=rtl` for fa/ar; the deep-dive figure renders `$4,76,679` in
+te/hi (regrouped once, at render) and `$476,679` in fa/ht; Trinity unchanged.
+
+### Left for the user, deliberately not in this diff
+
+- **Three skipped `name` fields hold descriptive phrases for every school**, so they
+  render English in all nine locales: `service.programs[].name` (41 values, e.g. "Service
+  without a requirement", "A buddy for every Lower Schooler"), `visual.media[].name` (68,
+  "Drawing and painting") and `visual.path[].name` (46). Older than this branch; Charlotte
+  Prep inherits it like every school. Promoting the paths re-translates ~155 values × 9
+  across all 13 schools, which is outside this plan.
+- **English oddities the translators reported**, all in approved English and left as is:
+  "named for Willy Wonka Jr. in 2024" (clubs, ambiguous); British "programme" ×3; mixed
+  `2024-25` / `2024–25` in the financial-aid report; "rising or graduated 8th graders"
+  (summer, ambiguous).
+- Stat-tile unit words (`+15% (2 yrs)`) stay English, the known open `figuredates` class.
