@@ -30,7 +30,7 @@ export const charlottePrep: AfterSchoolProgram = {
     headline:
       'One K–8 After School Program from dismissal to 5:30 p.m. at a single annual price, a separate Extended Day for the Early School — and no morning care.',
     subhead:
-      '"No additional before-school care is available at this time." Drop-off opens at 7:45 a.m. for Lower and Middle School and 8:00 a.m. for the Early School.',
+      'Drop-off opens at 7:45 a.m. for Lower and Middle School and 8:00 a.m. for the Early School.',
     hours: ['8 am', '10 am', '12 pm', '2 pm', '4 pm', '6 pm'],
     basisNote:
       'Prices on the bars are the **2026–27 annual** figures from the tuition page. The school does not price after-school care by days per week; occasional use is the **$20/hour** drop-in instead.',
