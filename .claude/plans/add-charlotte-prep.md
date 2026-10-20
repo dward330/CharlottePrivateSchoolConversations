@@ -1111,6 +1111,15 @@ apply, since each division has real, named rows. Non-course material stays in
 source-material. The earlier source-chip label fix is now moot, because the prose card no
 longer renders.
 
+### Review change (user, 2026-10-19): a "See Summer Programs →" link (cross-school)
+
+The After School Coverage Map's summer band now ends with a link that scrolls to the
+school's Summer Programs section. It renders only when the school has that section
+(`hasSummer`, from the page's topic list), and it scrolls in place, because the hash router
+owns `location.hash`. **It affects all eight schools with a summer band.** The
+`afterSchool.seeSummer` key ships in all ten catalogs. Charlotte Prep's literal "See Summer
+Programs." text was removed from its data.
+
 ### For Phase 2
 
 - New `en` chrome keys to translate (nine catalogs): `school.classVideo`,

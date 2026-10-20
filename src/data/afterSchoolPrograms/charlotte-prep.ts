@@ -71,7 +71,7 @@ export const charlottePrep: AfterSchoolProgram = {
     ],
     summer: {
       season: 'JUN–JUL',
-      text: '**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade, with Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m. at **$60/week** each. See Summer Programs.',
+      text: '**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade, with Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m. at **$60/week** each.',
     },
     facts: [
       {
@@ -132,7 +132,7 @@ export const charlottePrep: AfterSchoolProgram = {
     ],
     aside: {
       title: 'Or drop in by the hour.',
-      text: 'Drop-in care is **$20 an hour** for Montessori Kindergarten through 8th grade. A full afternoon to 5:30 is about **$50** on drop-in, against roughly **$25 an afternoon** on the annual plan over a 180-day year — our arithmetic, not a school figure — so the annual price pays off from about two or three afternoons a week.',
+      text: 'Drop-in care is **$20 an hour** for Montessori Kindergarten through 8th grade. A full afternoon to 5:30 is about **$50** on drop-in, against roughly **$25 an afternoon** on the annual plan over a 180-day year.',
     },
     fees: [
       { label: 'After School Program, K–8 (annual)', value: '$4,500' },

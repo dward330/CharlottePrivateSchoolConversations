@@ -1301,6 +1301,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <AfterSchoolCardBody
                             program={afterSchool}
                             cardKey={card.key}
+                            hasSummer={covered.some((c) => c.slug === 'summer-programs')}
                           />
                         </div>
                       </details>

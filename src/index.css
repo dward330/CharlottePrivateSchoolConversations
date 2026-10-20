@@ -5331,6 +5331,8 @@ a.cs-college-name:focus-visible {
   line-height: 1.5;
 }
 .as-summer-chip { font-size: 10px; flex: none; }
+.as-summer-link { color: var(--brand); font-weight: 600; white-space: nowrap; }
+.as-summer-link:hover { text-decoration: underline; }
 
 /* States the attendance assumption behind the tier prices. A bar can carry only
    one number, but every school prices by days-per-week as well as by pickup
