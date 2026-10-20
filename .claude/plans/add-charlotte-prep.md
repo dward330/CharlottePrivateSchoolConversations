@@ -1,11 +1,11 @@
 ---
 name: add-charlotte-prep
 title: Add Charlotte Preparatory School — a PreK–8 school, nine research areas, High School Placement as the headline
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-19
 branch: feat/add-charlotte-prep
-prs: []
+prs: [356]
 ---
 
 # Add Charlotte Preparatory School
