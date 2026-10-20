@@ -1000,8 +1000,14 @@ phrases on the expanded page.
    table; the 96% ten-year figure is a NO DENOM. tile instead.
 3. **Destinations are the union of the website list, the brochure list and the 2023–2026
    class lists**, grouped by true kind (66 schools). **39 rows were added to
-   `highSchools.ts`** and to the `_shared` companion doc, **all unranked** (Niche 403'd; US
-   News needs a headed browser) — a follow-up. Two identifications are ours and noted in the
+   `highSchools.ts`** and to the `_shared` companion doc, at first unranked. **Ranked
+   2026-10-19 at review**: US News 2026-2027 live profiles for 10 Charlotte-area publics
+   (Queens Grant and UNCSA have no US News HS record), and a **Niche 2027** refresh of
+   every Charlotte-area private school. Ten existing labels moved (Latin #2 → #6, Christian
+   #4 → #3, Country Day #3 → #4, Hickory Grove #16 → #11, Carmel #13 → #12, Covenant #10 →
+   #13, Southlake #17 → #16, Grace #32 → #34, Christ the King HS #21 → #14, Charlotte
+   Catholic HS #22 → #21); this also changes Trinity's card. The 2027 lists no longer
+   skip #14. Boarding and out-of-area rows stay unranked, as on Trinity's card. Two identifications are ours and noted in the
    rows: Northwestern HS = Rock Hill SC, York Prep Academy = York Preparatory Academy, Rock
    Hill. St. Andrew's resolves to the existing Delaware row though Charlotte Prep never says
    which — the card note says so.

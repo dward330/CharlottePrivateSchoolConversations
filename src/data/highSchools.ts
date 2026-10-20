@@ -66,15 +66,15 @@
 // letter grade or from a card's position in the list. Niche 403s an ordinary
 // fetch; a curl with a browser User-Agent returns the real HTML.
 //
-//  1. NICHE'S OWN SEQUENCE SKIPS #14 — IN BOTH RANKINGS. The K-12 list runs
-//     1-13 then 15-26; the high-school list runs #1-#40 with #14 likewise
-//     absent. The same single number missing from two independent rankings is a
-//     quirk on Niche's side, not a parse error. Everything below it — Hickory
-//     Grove #16, Southlake #17, Grace #32 — may therefore sit one off whatever
-//     Niche intends. The numbers here are what Niche PUBLISHES, copied
-//     char-for-char — the same rule this project applies to a tuition figure.
-//     #16 was independently confirmed against a search snippet; do not
-//     "correct" any of them.
+//  1. THE 2027 EDITION (refreshed 2026-10-19). The 2026 lists skipped #14 in
+//     BOTH rankings; the 2027 lists do not — K-12 runs #1-#34 (57 schools, 23
+//     unbadged) and high school #1-#39 (69 schools, 30 unbadged), no gaps. Ten
+//     labels moved (Latin #2 → #6, Christian #4 → #3, Country Day #3 → #4, …);
+//     the before/after table is in the companion doc. The numbers here are
+//     what Niche PUBLISHES on each school's own badge, copied char-for-char —
+//     the same rule this project applies to a tuition figure. Since 2027 the
+//     high-school list also ranks K-12 schools; a K-12 school still takes its
+//     K-12 label.
 //
 //  2. TWO RANKINGS, LABELLED APART. K-12 schools carry
 //     "Charlotte Private K-12 Niche Rank #N". A 9-12 school cannot appear in a
@@ -152,14 +152,14 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
   /* homepage url; `kind` and `rankLabel` still apply.                       */
   /* ---------------------------------------------------------------------- */
   'Cannon School': { kind: 'independent', city: 'Concord', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #5' },
-  'Carmel Christian': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #13' },
-  'Charlotte Catholic': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #22' },
-  'Charlotte Christian School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #4' },
-  'Charlotte Country Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #3' },
-  'Charlotte Latin School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #2' },
-  'Covenant Day School': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #10' },
+  'Carmel Christian': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #12' },
+  'Charlotte Catholic': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #21' },
+  'Charlotte Christian School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #3' },
+  'Charlotte Country Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #4' },
+  'Charlotte Latin School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #6' },
+  'Covenant Day School': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #13' },
   'Davidson Day School': { kind: 'independent', city: 'Davidson', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #7' },
-  'Hickory Grove Christian Academy': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #16' },
+  'Hickory Grove Christian Academy': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #11' },
   'Providence Day School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #1' },
 
   /* ---------------------------------------------------------------------- */
@@ -170,7 +170,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://graceacademync.com',
     city: 'Matthews',
     state: 'NC',
-    rankLabel: 'Charlotte Private K-12 Niche Rank #32',
+    rankLabel: 'Charlotte Private K-12 Niche Rank #34',
     note: 'University-model K-12 Christian school, 3645 Pleasant Plains Rd',
   },
   'Southlake Christian Academy': {
@@ -178,7 +178,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.southlakechristian.org',
     city: 'Huntersville',
     state: 'NC',
-    rankLabel: 'Charlotte Private K-12 Niche Rank #17',
+    rankLabel: 'Charlotte Private K-12 Niche Rank #16',
     note: 'Styles itself SouthLake; JK-12, 13820 Hagers Ferry Rd',
   },
   'The Fletcher School': {
@@ -193,7 +193,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.ctkchs.org',
     city: 'Huntersville',
     state: 'NC',
-    rankLabel: 'Charlotte Private HS Niche Rank #21',
+    rankLabel: 'Charlotte Private HS Niche Rank #14',
     note: 'Confirmed via the Diocese of Charlotte listing — the name collides widely',
   },
 
@@ -221,6 +221,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.charlottelabschool.org',
     city: 'Charlotte',
     state: 'NC',
+    rankLabel: 'US News National HS Rank #6,763',
     note: 'Public charter, not independent — its own site says so',
   },
   'Community School of Davidson': {
@@ -606,25 +607,25 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
 
   /* Charlotte Prep's spellings of dossier schools \u2014 same institution, same
      record values, so the rank still resolves under the name as published. */
-  'Carmel Christian School': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #13' },
-  'Charlotte Catholic High School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #22' },
-  'Gaston Day School': { kind: 'independent', city: 'Gastonia', state: 'NC' },
+  'Carmel Christian School': { kind: 'independent', city: 'Matthews', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #12' },
+  'Charlotte Catholic High School': { kind: 'independent', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #21' },
+  'Gaston Day School': { kind: 'independent', city: 'Gastonia', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #8' },
 
   /* Charlotte-area independent \u2014 no dossier, link out. */
-  'British International School of Charlotte': { kind: 'independent', url: 'https://www.nordangliaeducation.com/bisc-charlotte', city: 'Charlotte', state: 'NC', note: 'bischarlotte.org redirects to the Nord Anglia page' },
-  'Trinity Christian Prep': { kind: 'independent', url: 'https://trinityprep.com', city: 'Charlotte', state: 'NC', note: 'Own name Trinity Preparatory School (the brochure spelling); grades 7-12 for neurodivergent students, 7516 E Independence Blvd' },
-  'United Faith Christian Academy': { kind: 'independent', url: 'https://ufca.org', city: 'Charlotte', state: 'NC', note: '8617 Providence Rd' },
+  'British International School of Charlotte': { kind: 'independent', url: 'https://www.nordangliaeducation.com/bisc-charlotte', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #2', note: 'bischarlotte.org redirects to the Nord Anglia page' },
+  'Trinity Christian Prep': { kind: 'independent', url: 'https://trinityprep.com', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private HS Niche Rank #29', note: 'Own name Trinity Preparatory School (the brochure spelling); grades 7-12 for neurodivergent students, 7516 E Independence Blvd' },
+  'United Faith Christian Academy': { kind: 'independent', url: 'https://ufca.org', city: 'Charlotte', state: 'NC', rankLabel: 'Charlotte Private K-12 Niche Rank #14', note: '8617 Providence Rd' },
 
   /* Public, charter and magnet. */
-  'Central Academy of Technology and Arts': { kind: 'public', url: 'https://cata.ucpsnc.org', city: 'Monroe', state: 'NC', note: 'Union County magnet; IB Diploma since 2022-23' },
-  'Cuthbertson High School': { kind: 'public', url: 'https://chs.ucpsnc.org', city: 'Waxhaw', state: 'NC' },
-  'Independence High School': { kind: 'public', url: 'https://independencehs.cmsk12.org', city: 'Charlotte', state: 'NC' },
-  'Marvin Ridge High School': { kind: 'public', url: 'https://mrhs.ucpsnc.org', city: 'Waxhaw', state: 'NC' },
-  'Northwestern High School': { kind: 'public', url: 'https://nwhs.rock-hill.k12.sc.us', city: 'Rock Hill', state: 'SC', note: 'Charlotte Prep gives no city; the Rock Hill school is the only Northwestern HS in the Charlotte area (our identification)' },
-  'Olympic Community of Schools': { kind: 'public', url: 'https://olympichs.cmsk12.org', city: 'Charlotte', state: 'NC', note: 'Now Olympic High School (CMS)' },
-  'Union Academy': { kind: 'public', url: 'https://www.unionacademy.org', city: 'Monroe', state: 'NC', note: 'Tuition-free public charter' },
-  'Weddington High School': { kind: 'public', url: 'https://whs.ucpsnc.org', city: 'Matthews', state: 'NC' },
-  'York Prep Academy': { kind: 'public', url: 'https://www.yorkprepsc.org', city: 'Rock Hill', state: 'SC', note: 'York Preparatory Academy, a public charter; Charlotte Prep gives no city (our identification)' },
+  'Central Academy of Technology and Arts': { kind: 'public', url: 'https://cata.ucpsnc.org', city: 'Monroe', state: 'NC', rankLabel: 'US News National HS Rank #974', note: 'Union County magnet; IB Diploma since 2022-23' },
+  'Cuthbertson High School': { kind: 'public', url: 'https://chs.ucpsnc.org', city: 'Waxhaw', state: 'NC', rankLabel: 'US News National HS Rank #2,050' },
+  'Independence High School': { kind: 'public', url: 'https://independencehs.cmsk12.org', city: 'Charlotte', state: 'NC', rankLabel: 'US News National HS Rank #5,023' },
+  'Marvin Ridge High School': { kind: 'public', url: 'https://mrhs.ucpsnc.org', city: 'Waxhaw', state: 'NC', rankLabel: 'US News National HS Rank #614' },
+  'Northwestern High School': { kind: 'public', url: 'https://nwhs.rock-hill.k12.sc.us', city: 'Rock Hill', state: 'SC', rankLabel: 'US News National HS Rank #5,730', note: 'Charlotte Prep gives no city; the Rock Hill school is the only Northwestern HS in the Charlotte area (our identification)' },
+  'Olympic Community of Schools': { kind: 'public', url: 'https://olympichs.cmsk12.org', city: 'Charlotte', state: 'NC', rankLabel: 'US News National HS Rank #13,127', note: 'Now Olympic High School (CMS)' },
+  'Union Academy': { kind: 'public', url: 'https://www.unionacademy.org', city: 'Monroe', state: 'NC', rankLabel: 'US News National HS Rank #2,538', note: 'Tuition-free public charter' },
+  'Weddington High School': { kind: 'public', url: 'https://whs.ucpsnc.org', city: 'Matthews', state: 'NC', rankLabel: 'US News National HS Rank #697' },
+  'York Prep Academy': { kind: 'public', url: 'https://www.yorkprepsc.org', city: 'Rock Hill', state: 'SC', rankLabel: 'US News National HS Rank #3,954', note: 'York Preparatory Academy, a public charter; Charlotte Prep gives no city (our identification)' },
   'South Carolina Governor\u2019s School for the Arts': { kind: 'public', url: 'https://www.scgsah.org', city: 'Greenville', state: 'SC', note: 'Public residential arts high school; own name SC Governor\u2019s School for the Arts and Humanities' },
   'Campolindo High School': { kind: 'public', url: 'https://chs.acalanes.k12.ca.us', city: 'Moraga', state: 'CA' },
   'Christian-von-Dohm Gymnasium': { kind: 'public', url: 'https://www.cvd-gs.de', city: 'Goslar', state: 'Germany' },
