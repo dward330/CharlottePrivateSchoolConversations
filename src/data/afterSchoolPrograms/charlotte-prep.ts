@@ -167,8 +167,6 @@ export const charlottePrep: AfterSchoolProgram = {
       'healthy routines',
       'a loving and nurturing environment',
     ],
-    wordsText:
-      'The program is "exciting and fun-filled, offering hands-on activities, homework time, and learning opportunities that coincide with monthly themes and the school-day curriculum. We also provide an afternoon snack." Teachers "set these routines at the beginning of the school year and reinforce expectations throughout the year."',
     catalogTitle: 'After School Studios — a sample',
     catalogIntro:
       '"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks." Studios run **45 minutes to an hour**, students are walked to them by their teacher, and "there is a fee, separate from Charlotte Prep\'s annual tuition, associated with each class." The school lists these as **sample** offerings, not this term’s schedule.',
