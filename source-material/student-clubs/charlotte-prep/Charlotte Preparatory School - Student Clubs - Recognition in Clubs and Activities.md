@@ -1,4 +1,4 @@
-# Charlotte Preparatory School — Student Clubs — Academic and Competitive Clubs
+# Charlotte Preparatory School — Student Clubs — Recognition in Clubs and Activities
 
 Charlotte Prep's competitive academic record rests on two things: a Middle School Model UN club, and a steady run of placements at the regional science and engineering fair. The school has no honor society of any kind.
 

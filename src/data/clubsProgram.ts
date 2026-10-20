@@ -233,6 +233,18 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ClubsProgram, string>
   'charlotte-christian': {
     affinity: 'Global & Cultural Groups',
   },
+  // Neither K-8 school has an honor society (zero hits for honor society, NJHS
+  // or Beta Club on either site). Both cards hold competitions plus a student
+  // leadership body — Charlotte Prep: the Region 6 science fair, CHARMUN Model
+  // UN, Student Council; Trinity: Mock Trial, Speech & Debate, Honor Council —
+  // so the shared "Honor Societies" title named something neither school has
+  // (user, 2026-10-19).
+  'charlotte-prep': {
+    honors: 'Competitions & Student Leadership',
+  },
+  'trinity-episcopal': {
+    honors: 'Competitions & Student Leadership',
+  },
 }
 
 /**

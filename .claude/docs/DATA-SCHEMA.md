@@ -102,14 +102,14 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `academic-clubs` | Academic & Competitive Clubs | 10/13 | 5 |
+| `academic-clubs` | Academic & Competitive Clubs | 9/13 | 5 |
 | `honor-societies` | Honor Societies | 4/13 | 1 |
 | `signature` | Signature Programs & Traditions | 6/13 | 6 |
 | `media` | Publications & Media | 2/13 | 2 |
 | `affinity` | Affinity & Identity Groups | 5/13 | 3 |
 | `service` | Service & Civic Engagement | 7/13 | 4 |
 | `lower-middle` | Lower / Middle School Activities | 3/13 | 3 |
-| `catalog` | Club Catalog & Overview | 13/13 | 7 |
+| `catalog` | Club Catalog & Overview | 13/13 | 8 |
 
 ### The Arts `the-arts`
 

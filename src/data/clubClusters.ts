@@ -569,40 +569,10 @@ const TRINITY_EPISCOPAL: ClubClusters = {
   ],
 }
 
-// ── Charlotte Prep ── PreK–8, so a Middle School read. Its competitive record
-// is academic: the Region 6 Science & Engineering Fair (first in Junior Physics
-// three years running, read off UNC Charlotte's own results lists) and CHARMUN
-// Model UN. No honor society exists. No student names (no-minor-names rule).
-const CHARLOTTE_PREP: ClubClusters = {
-  verdict: 'Science fair is the flagship: first place in Junior Physics at the regional fair three years running.',
-  verdictHint: 'Open any row for the full research note and its source.',
-  rows: [
-    {
-      name: 'Science & Engineering Fair',
-      oneLiner: 'Region 6 NC Science & Engineering Fair — students advanced to State in 2024, 2025 and 2026',
-      evidence: 'verified',
-      evidenceLabel: 'Verified — event',
-      note: 'The school runs its own science fair each December, and its top projects go on to UNC Charlotte’s Region 6 fair. UNC Charlotte’s results lists show 7 Charlotte Prep placements advancing to the state fair in 2024, 5 in 2025 and 7 in 2026, with first place in Junior Physics all three years. The school reports a 3rd place in physics at the 2024 state fair in Raleigh.',
-      source: 'UNC Charlotte Center for STEM Education — Region 6 results lists, 2024–2026; charlotteprep.org — "Prep Scholar Awarded at State Science Fair", March 2024',
-    },
-    {
-      name: 'Model UN',
-      oneLiner: 'A club since 2020; CHARMUN member school since 2023, with delegate awards in 2023 and 2024',
-      evidence: 'verified',
-      evidenceLabel: 'Verified — event',
-      note: 'The school’s first CHARMUN delegate awards came in 2023, its first year as a member school. In 2024, 20 delegates attended and the club won a vocal commendation in the COP 28 committee and a Most-Improved Delegate award in the International Court of Justice.',
-      source: 'charlotteprep.org — "Model UN Club Awarded at Conference"',
-    },
-    {
-      name: 'Student Council',
-      oneLiner: 'Grades 5–8, with an 8th-grade president — ran the 2024 Hurricane Helene relief drive',
-      evidence: 'reported',
-      evidenceLabel: 'School news',
-      note: '"More than a third of our 5th graders serve" (February 2023). The council led the 2024–25 Middle School assemblies, organized the October 2024 Hurricane Helene supply drive, and takes part in the International Day of Peace each September.',
-      source: 'charlotteprep.org — "How Our Middle Schoolers Become Leaders"; Hurricane Helene relief story, October 2024',
-    },
-  ],
-}
+// Charlotte Prep has NO entry here, deliberately (user, 2026-10-19): its
+// science-fair and Model UN record already fills the Competitions & Student
+// Leadership card, so an Academic & Competitive Clubs card repeated it. Its
+// research file is named so it folds into the Club Catalog instead.
 
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
@@ -617,7 +587,6 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
   'trinity-episcopal': TRINITY_EPISCOPAL,
-  'charlotte-prep': CHARLOTTE_PREP,
 }
 
 /**

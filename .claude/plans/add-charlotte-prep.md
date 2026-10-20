@@ -1086,6 +1086,17 @@ nothing the "since" year beside it does not. The bar is removed from the compone
 schools (name · role · since remain); `TenureRow.width` stays in the data, unrendered, so
 no school's file changed. No new strings.
 
+### Review changes (user, 2026-10-19): Student Clubs
+
+- **"Honor Societies" retitled "Competitions & Student Leadership" for Charlotte Prep AND
+  Trinity Episcopal** (`TITLE_OVERRIDES` in `clubsProgram.ts`). Neither school has an honor
+  society. The `@charlotte-prep` and `@trinity-episcopal` keys ship in **all ten**
+  catalogs now, because Trinity is already translated and would otherwise fall back to
+  English. Phase 2 has nothing to add for this key.
+- **Charlotte Prep's Academic & Competitive Clubs card removed**: it repeated the
+  competition card. The research file is renamed "Recognition in Clubs and Activities", so
+  it folds onto the catalog key, and Charlotte Prep has no `clubClusters.ts` entry.
+
 ### For Phase 2
 
 - New `en` chrome keys to translate (nine catalogs): `school.classVideo`,
@@ -1099,8 +1110,7 @@ no school's file changed. No new strings.
 
 ### Open for the user at review
 
-- **The Clubs `honors` card is titled "Honor Societies"** over a competition ledger;
-  Charlotte Prep has no honor society. A title override needs your OK.
+- ~~The Clubs `honors` title~~ — resolved: "Competitions & Student Leadership" (see above).
 - **Thinnest areas:** Sports (2 cards), Course Offerings (one prose card, no catalog).
 - **The class video shows students' faces** (the school's own publication); the page adds
   no names. Worth one watch before it ships.
