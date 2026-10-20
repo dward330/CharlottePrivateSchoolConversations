@@ -117,7 +117,7 @@ export const charlottePrep: SportsProgram = {
           { value: 'B.S.', label: 'PK-12 Health and Physical Education, Kennesaw State University' },
         ],
         detail:
-          'Suttles came to Charlotte Prep in 2018 to teach Middle School P.E. and now holds the Athletic Director title alongside it. Before Charlotte Prep she taught P.E. at Crowders\' Creek Elementary School and health and P.E. for grades 6–8 at Moses Middle School, where she coached softball and girls\' basketball. In summer 2025 she attended Athletic Directors Training in Charlottesville, VA, "focusing on planning and safety". The school does not publish the date she became AD.',
+          'Suttles came to Charlotte Prep in 2018 to teach Middle School P.E. and now holds the Athletic Director title alongside it. Before Charlotte Prep she taught P.E. at Crowders\' Creek Elementary School and health and P.E. for grades 6–8 at Moses Middle School, where she coached softball and girls\' basketball. In summer 2025 she attended Athletic Directors Training in Charlottesville, VA, "focusing on planning and safety".',
       },
     ],
     tenure: [
