@@ -11,7 +11,7 @@
 //
 //  0. ONE CARD, NOT TWO: this school has both `outcomes` and `destinations`, so
 //     hspCardsFor() renders the destination index inside Where Graduates Go
-//     (user, 2026-10-19), after the per-class `classTallies`.
+//     (user, 2026-10-19); its class picker is driven by `classTallies`.
 //
 //  1. THE PER-CLASS TABLE IS DELIBERATELY EMPTY (`classes: []`). `PlacementClass`
 //     needs `graduates` + `acceptedCount`, and Charlotte Prep never publishes a
@@ -93,85 +93,6 @@ export const charlottePrep: HighSchoolPlacementProgram = {
       },
     ],
     classes: [],
-    /* Where each named class is heading — OUR count from the school's own
-       class announcements (2023–2026). Names are normalised to the master's
-       canonical spelling so each links: the school wrote "Charlotte Country
-       Day" (2025), "East Meck High School", "South Meck High School",
-       "Covenant Day", "East Mecklenburg High School IB Program" and, in 2023,
-       "Central Academy of Arts & Sciences IB Program" — taken to be CATA, our
-       identification. Exact spellings are in source-material (Where They Land). */
-    classTallies: [
-      {
-        year: '2026',
-        listed: 39,
-        schools: [
-          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 11 },
-          { name: 'Myers Park High School', count: 6 },
-          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 5 },
-          { name: 'Providence Day School', slug: 'providence-day', count: 5 },
-          { name: 'Charlotte Catholic High School', slug: 'charlotte-catholic', count: 3 },
-          { name: 'Providence High School', count: 2 },
-          { name: 'Carolina Day School', count: 1 },
-          { name: 'Charlotte Christian School', slug: 'charlotte-christian', count: 1 },
-          { name: 'East Mecklenburg High School', count: 1 },
-          { name: 'Marvin Ridge High School', count: 1 },
-          { name: 'South Mecklenburg High School', count: 1 },
-          { name: 'Walnut Hill School for the Arts', count: 1 },
-          { name: 'York Prep Academy', count: 1 },
-        ],
-      },
-      {
-        year: '2025',
-        listed: 27,
-        schools: [
-          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 6 },
-          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 6 },
-          { name: 'Providence Day School', slug: 'providence-day', count: 6 },
-          { name: 'Providence High School', count: 3 },
-          { name: 'Myers Park High School', count: 2 },
-          { name: 'Cannon School', slug: 'cannon', count: 1 },
-          { name: 'Covenant Day School', slug: 'covenant-day', count: 1 },
-          { name: 'East Mecklenburg High School', count: 1 },
-          { name: 'McCallie School', count: 1 },
-        ],
-      },
-      {
-        year: '2024',
-        listed: 29,
-        schools: [
-          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 7 },
-          { name: 'Providence High School', count: 7 },
-          { name: 'Providence Day School', slug: 'providence-day', count: 5 },
-          { name: 'Baylor School', count: 1 },
-          { name: 'Charlotte Catholic High School', slug: 'charlotte-catholic', count: 1 },
-          { name: 'Charlotte Christian School', slug: 'charlotte-christian', count: 1 },
-          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 1 },
-          { name: 'East Mecklenburg High School', count: 1 },
-          { name: 'McCallie School', count: 1 },
-          { name: 'Myers Park High School', count: 1 },
-          { name: 'St. Andrew’s School', count: 1 },
-          { name: 'Weddington High School', count: 1 },
-          { name: 'Woodberry Forest School', count: 1 },
-        ],
-      },
-      {
-        year: '2023',
-        listed: 20,
-        schools: [
-          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 5 },
-          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 3 },
-          { name: 'Charlotte Catholic High School', slug: 'charlotte-catholic', count: 2 },
-          { name: 'Northwest School of the Arts', count: 2 },
-          { name: 'Providence Day School', slug: 'providence-day', count: 2 },
-          { name: 'Cannon School', slug: 'cannon', count: 1 },
-          { name: 'Central Academy of Technology and Arts', count: 1 },
-          { name: 'East Mecklenburg High School', count: 1 },
-          { name: 'McCallie School', count: 1 },
-          { name: 'Northwestern High School', count: 1 },
-          { name: 'Weddington High School', count: 1 },
-        ],
-      },
-    ],
     scholarships: [
       {
         name: 'Grant D. Williams Foundation Scholarship',
@@ -259,9 +180,88 @@ export const charlottePrep: HighSchoolPlacementProgram = {
   /* ----------------------------------------------- 2c where they land -- */
   destinations: {
     headline:
-      'Charlotte Prep’s alumni, all years: more than 60 high schools, from its first graduating class to today — not only the four classes above.',
+      'More than 60 high schools across all of Charlotte Prep’s alumni — and, for each class from 2023 to 2026, exactly where its graduates are heading.',
     subhead:
-      'This is the school’s own cumulative list of where its alumni have attended high school — "Our graduates have attended the following schools" — from its website and its placement guide, plus four schools that appear only on its 2023–2026 class lists. The school’s Fast Facts count 614 alumni, a figure not yet updated for the Class of 2026. It gives no years and no counts for this list, so a school here may have taken a single graduate many years ago. Grouped by what each destination actually is.',
+      '"All alumni" is the school’s own cumulative list — "Our graduates have attended the following schools" — from its website and placement guide, plus four schools that appear only on its 2023–2026 class lists. It gives no years and no counts, so a school there may have taken a single graduate many years ago; the school’s Fast Facts count 614 alumni, a figure not yet updated for the Class of 2026. Choose a class to see where each of its named graduates is heading. Schools are grouped by what each one actually is.',
+    /* Where each named class is heading (the class picker) — OUR count from the school's own
+       class announcements (2023–2026). Names are normalised to the master's
+       canonical spelling so each links: the school wrote "Charlotte Country
+       Day" (2025), "East Meck High School", "South Meck High School",
+       "Covenant Day", "East Mecklenburg High School IB Program" and, in 2023,
+       "Central Academy of Arts & Sciences IB Program" — taken to be CATA, our
+       identification. Exact spellings are in source-material (Where They Land). */
+    classTallies: [
+      {
+        year: '2026',
+        listed: 39,
+        schools: [
+          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 11 },
+          { name: 'Myers Park High School', count: 6 },
+          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 5 },
+          { name: 'Providence Day School', slug: 'providence-day', count: 5 },
+          { name: 'Charlotte Catholic High School', slug: 'charlotte-catholic', count: 3 },
+          { name: 'Providence High School', count: 2 },
+          { name: 'Carolina Day School', count: 1 },
+          { name: 'Charlotte Christian School', slug: 'charlotte-christian', count: 1 },
+          { name: 'East Mecklenburg High School', count: 1 },
+          { name: 'Marvin Ridge High School', count: 1 },
+          { name: 'South Mecklenburg High School', count: 1 },
+          { name: 'Walnut Hill School for the Arts', count: 1 },
+          { name: 'York Prep Academy', count: 1 },
+        ],
+      },
+      {
+        year: '2025',
+        listed: 27,
+        schools: [
+          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 6 },
+          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 6 },
+          { name: 'Providence Day School', slug: 'providence-day', count: 6 },
+          { name: 'Providence High School', count: 3 },
+          { name: 'Myers Park High School', count: 2 },
+          { name: 'Cannon School', slug: 'cannon', count: 1 },
+          { name: 'Covenant Day School', slug: 'covenant-day', count: 1 },
+          { name: 'East Mecklenburg High School', count: 1 },
+          { name: 'McCallie School', count: 1 },
+        ],
+      },
+      {
+        year: '2024',
+        listed: 29,
+        schools: [
+          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 7 },
+          { name: 'Providence High School', count: 7 },
+          { name: 'Providence Day School', slug: 'providence-day', count: 5 },
+          { name: 'Baylor School', count: 1 },
+          { name: 'Charlotte Catholic High School', slug: 'charlotte-catholic', count: 1 },
+          { name: 'Charlotte Christian School', slug: 'charlotte-christian', count: 1 },
+          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 1 },
+          { name: 'East Mecklenburg High School', count: 1 },
+          { name: 'McCallie School', count: 1 },
+          { name: 'Myers Park High School', count: 1 },
+          { name: 'St. Andrew’s School', count: 1 },
+          { name: 'Weddington High School', count: 1 },
+          { name: 'Woodberry Forest School', count: 1 },
+        ],
+      },
+      {
+        year: '2023',
+        listed: 20,
+        schools: [
+          { name: 'Charlotte Latin School', slug: 'charlotte-latin', count: 5 },
+          { name: 'Charlotte Country Day School', slug: 'charlotte-country-day', count: 3 },
+          { name: 'Charlotte Catholic High School', slug: 'charlotte-catholic', count: 2 },
+          { name: 'Northwest School of the Arts', count: 2 },
+          { name: 'Providence Day School', slug: 'providence-day', count: 2 },
+          { name: 'Cannon School', slug: 'cannon', count: 1 },
+          { name: 'Central Academy of Technology and Arts', count: 1 },
+          { name: 'East Mecklenburg High School', count: 1 },
+          { name: 'McCallie School', count: 1 },
+          { name: 'Northwestern High School', count: 1 },
+          { name: 'Weddington High School', count: 1 },
+        ],
+      },
+    ],
     categories: [
       {
         key: 'charlotte-independent',

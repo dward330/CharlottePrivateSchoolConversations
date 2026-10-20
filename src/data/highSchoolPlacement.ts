@@ -194,12 +194,6 @@ export type Outcomes = {
   classes: PlacementClass[]
   /** The published multi-year aggregate, where there is one. */
   tenYear?: PlacementAggregate
-  /**
-   * Per-class destination counts from the school's named class lists. Where
-   * present, the card also drops the ACCEPTANCE ≠ MATRICULATION caveat: these
-   * lists ARE matriculation, so that note would contradict the counts above it.
-   */
-  classTallies?: ClassTally[]
   /** Heading over the scholarship band. */
   scholarshipsTitle?: string
   /** Named awards won. Empty omits the band. */
@@ -273,6 +267,16 @@ export type DestinationCategory = {
 export type Destinations = {
   headline: string
   subhead?: string
+  /**
+   * Per-class destination counts from the school's named class lists, newest
+   * first. Where present, the card gains a class picker above its filter chips:
+   * "All alumni" shows `categories` as published, and a class reshapes the same
+   * list to that class's schools — grouped into the same categories — with the
+   * graduate count beside each. Every tally name must appear in `categories`.
+   * The ACCEPTANCE ≠ MATRICULATION caveat is dropped where these exist: the
+   * lists ARE matriculation, so the note would contradict the counts.
+   */
+  classTallies?: ClassTally[]
   /** The school's own categories, in its own order. Empty omits the card. */
   categories: DestinationCategory[]
   flags: CsFlag[]

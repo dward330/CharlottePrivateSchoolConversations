@@ -4871,31 +4871,42 @@ a.cs-college-name:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 
-/* -- per-class tallies: where each named class is heading ------------------
-   One class at a time — pill tabs (.hsp-filters) over a scrollable list that
-   reuses the destination index's frame (.hsp-destlist), shorter. */
-.hsp-tally-note { font-size: 12.5px; margin: -2px 0 10px; }
-.hsp-tally { min-width: 0; margin-bottom: 18px; }
-.hsp-tally-head { font-size: 13px; margin: 0 0 8px; }
-/* Compound selector: .hsp-destlist (420px) is declared later and would win. */
-.hsp-destlist.hsp-tally-list { max-height: 205px; }
-.hsp-tally-row {
+/* -- the class picker over the destination index --------------------------
+   "All alumni" or one class; a class view puts each school's graduate count to
+   the LEFT of the row's edge, explained by a second legend line. */
+.hsp-view {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 12px;
+}
+.hsp-view-label {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hsp-view-select { width: auto; min-width: 180px; max-width: 100%; }
+.hsp-view-count { font-size: 13px; }
+.hsp-count-row {
   display: grid;
   grid-template-columns: 2.2em minmax(0, 1fr);
   align-items: baseline;
-  border-bottom: 1px solid var(--border);
 }
-.hsp-tally-row:last-child { border-bottom: none; }
-.hsp-tally-count {
+.hsp-count,
+.hsp-legend-count {
   font-family: var(--heading);
   font-weight: 600;
   font-size: 15px;
   text-align: end;
   padding-right: 4px;
 }
-/* Ranks belong to the destination index below, where each school appears once;
-   repeated per class they crowd the names. */
-.hsp-tally .hsp-dest-rank { display: none; }
+.hsp-legend-count { flex: none; width: 2.2em; color: var(--text); }
+/* The count line sits directly under the cross-link line: one legend, two keys. */
+.hsp-legend + .hsp-legend { margin-top: -12px; }
+
 /* The destination index inside the merged Where Graduates Go card: one step
    above the in-card section labels, so it reads as the card's second half. */
 .hsp-merged-head {

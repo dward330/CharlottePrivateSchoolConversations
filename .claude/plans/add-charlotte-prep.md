@@ -1052,13 +1052,14 @@ phrases on the expanded page.
   Where They Land card and the destination index renders inside Where Graduates Go, under
   its own "Where They Land" head, with one merged sources row. **Trinity is unchanged**,
   because it has no `outcomes`. Charlotte Prep's area is now 3 cards plus the video.
-- **New `classTallies`** on `Outcomes`: per-class destination counts for 2023–2026,
-  OUR count from the school's named lists, with names normalised to master spellings so they
-  link. Shown one class at a time: pill tabs (newest first, the destination filters'
-  style) over a scrollable list (user, 2026-10-19). Ranks are hidden there; they show once
-  in the index below. Where tallies
-  exist, the ACCEPTANCE ≠ MATRICULATION caveat is dropped, because these lists ARE where
-  each graduate is heading.
+- **Per-class counts are a class picker on the destination index** (user, 2026-10-19,
+  after two intermediate designs: a separate grid, then class tabs). `destinations.classTallies`
+  adds a "Show" dropdown above the filter chips. **All alumni** is the cumulative list as
+  published. **Class of 2026–2023** reshapes the same list, in the same categories and with
+  the same ranks, to that class's schools, with the graduate count to the left of each row,
+  "N graduates on the list", and a second legend line explaining the number. Names are
+  normalised to master spellings so they link. Where tallies exist, the ACCEPTANCE ≠
+  MATRICULATION caveat is dropped, because these lists ARE where each graduate is heading.
 - **A false headline was fixed.** "In each of the last four classes, more went to Charlotte
   Latin than anywhere else" was untrue: 2025 was a three-way tie at 6, and 2024 a tie with
   Providence High at 7. It now reads "across the last four classes, Charlotte Latin took the
@@ -1076,7 +1077,7 @@ phrases on the expanded page.
   `school.classVideoCaption`, `school.classVideoIframeTitle`,
   `cards.the-arts.ladder@charlotte-prep`, `cards.the-arts.theatre@charlotte-prep`,
   `cards.admissions.guide@charlotte-prep`, and the tally keys
-  `highSchoolPlacement.classTallies`, `.classTalliesNote`, `.tallyClass`, `.cumulativeHead`,
+  `highSchoolPlacement.viewLabel`, `.viewAllAlumni`, `.countLegend`, `.tallyClass`,
   `.tallyListed_one` / `_other` (pluralised, so use each locale's CLDR plural forms;
   `ar` has six).
 - Steps 16–20 as written. `high-school-placement` is already in `TOPICS`.

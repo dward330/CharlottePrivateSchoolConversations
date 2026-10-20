@@ -785,7 +785,7 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 `ClassTally` — `year`, `listed`, `schools`
 
-`Outcomes` — `headline`, `subhead?`, `stats`, `classesTitle?`, `classes`, `tenYear?`, `classTallies?`, `scholarshipsTitle?`, `scholarships`, `flags`, `sources`
+`Outcomes` — `headline`, `subhead?`, `stats`, `classesTitle?`, `classes`, `tenYear?`, `scholarshipsTitle?`, `scholarships`, `flags`, `sources`
 
 `PlacementStep` — `when`, `kind?`, `text`
 
@@ -793,7 +793,7 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 `DestinationCategory` — `key`, `label`, `schools`, `notes?`
 
-`Destinations` — `headline`, `subhead?`, `categories`, `flags`, `sources`
+`Destinations` — `headline`, `subhead?`, `classTallies?`, `categories`, `flags`, `sources`
 
 `HighSchoolPlacementProgram` — `outcomes?`, `placement?`, `destinations?`, `verdict?`, `classVideo?`
 
@@ -1188,13 +1188,17 @@ Where They Land card is dropped — `hspCardsFor()` in `src/data/highSchoolPlace
 A school with only one of the two (Trinity) is unchanged. So such a school shows three
 cards, not four.
 
-**`classTallies`** carries per-class destination counts where the school publishes a
-NAMED list for each class (Charlotte Prep, 2023–2026). The count is ours, from the
-names, and the card says so in chrome. Normalise names to the master's canonical
-spelling so each one links, and keep the exact spellings in source-material. Where it
-is present the ACCEPTANCE ≠ MATRICULATION caveat is dropped, because those lists ARE
-matriculation. Check any "most graduates" headline against EVERY class — two of
-Charlotte Prep's four classes were ties at the top.
+**`destinations.classTallies`** carries per-class destination counts where the school
+publishes a NAMED list for each class (Charlotte Prep, 2023–2026). It adds a class
+picker above the filter chips. "All alumni" shows the cumulative list as published,
+and a class reshapes the same list, in the same categories and with the same ranks,
+to that class's schools, with the graduate count to the left of each row and a
+legend line explaining it. The count is ours, from the names. Every tally name must
+appear in `categories`. Normalise names to the master's canonical spelling, and keep
+the exact spellings in source-material. Where tallies are present, the ACCEPTANCE ≠
+MATRICULATION caveat is dropped, because those lists ARE matriculation. Check any
+"most graduates" headline against EVERY class: two of Charlotte Prep's four classes
+were ties at the top.
 
 ### Destination metadata lives in one master
 
