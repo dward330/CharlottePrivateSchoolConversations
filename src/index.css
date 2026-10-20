@@ -1672,8 +1672,11 @@ main { flex: 1; }
 
 .fa-framing {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  /* One equal column per framing rule: most reports carry three, the K-8
+     reports two — a fixed repeat(3) left a two-rule row with an empty third. */
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 14px 32px;
   padding: 14px 0;
   border-bottom: 1px solid var(--border);
 }
@@ -1971,6 +1974,8 @@ main { flex: 1; }
 .fa-q { flex: none; font-family: var(--heading); font-weight: 600; color: var(--accent-700); }
 
 .fa-srcrow { display: flex; gap: 8px; align-items: baseline; }
+/* A source row directly under a figure (no side rail) needs air above it. */
+.fa-section > .fa-srcrow { margin-top: 12px; }
 .fa-src-text { color: var(--muted); font-size: 12px; line-height: 1.6; }
 .fa-sources {
   margin-top: 24px;
@@ -1984,7 +1989,7 @@ main { flex: 1; }
 
 @media (max-width: 900px) {
   .fa-split, .fa-split-wide { grid-template-columns: minmax(0, 1fr); }
-  .fa-framing { grid-template-columns: minmax(0, 1fr); }
+  .fa-framing { grid-auto-flow: row; grid-template-columns: minmax(0, 1fr); }
   .fa-boxrow.multi { grid-template-columns: minmax(0, 1fr); }
   .fa-timeline { grid-template-columns: minmax(0, 1fr); row-gap: 16px; }
   /* The connecting rule only reads across a row, not a stack. */

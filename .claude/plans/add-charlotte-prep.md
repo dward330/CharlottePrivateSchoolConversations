@@ -1120,6 +1120,16 @@ owns `location.hash`. **It affects all eight schools with a summer band.** The
 `afterSchool.seeSummer` key ships in all ten catalogs. Charlotte Prep's literal "See Summer
 Programs." text was removed from its data.
 
+### Review changes (user, 2026-10-19): Financial Aid report layout (cross-school)
+
+- **Framing notes split evenly.** `.fa-framing` was a fixed three-column grid, so a
+  two-note report (both K-8 schools) left an empty third column. It now uses one equal
+  column per note.
+- **A lone source row goes under the figure, not in the side rail.** The rail exists for
+  boxes. A figure section with a source but no boxes put only the Show Sources toggle
+  beside the chart. Any school with such a section gets this layout.
+- Charlotte Prep: the tuition-revenue stat tile was removed (three tiles remain).
+
 ### For Phase 2
 
 - New `en` chrome keys to translate (nine catalogs): `school.classVideo`,

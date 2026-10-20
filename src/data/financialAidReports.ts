@@ -3178,7 +3178,6 @@ const CHARLOTTE_PREP: FinancialAidReport = {
         { value: '10%', label: 'of families received tuition assistance, 2024-25 — the school\'s own figure' },
         { value: '$476,679', label: 'tuition assistance, fiscal year ending June 2025 — per the Form 990' },
         { value: '49', label: 'students aided, fiscal year ending June 2025 — per the Form 990' },
-        { value: '$11,048,536', label: 'tuition and fee revenue, same year — per the Form 990' },
       ],
       figureNote:
         'The school\'s federal tax filings give an eight-year series of tuition assistance, reported as "Reduction in tuition base": **$374,330 to 51 students (FY2018)**, $448,646 to 61 (FY2019), $502,105 to 68 (FY2020), $516,135 to 58 (FY2021), $363,160 to 48 (FY2022), $368,575 to 47 (FY2023), $457,393 to 50 (FY2024) and **$476,679 to 49 (FY2025)**. Fiscal years end in June.',
