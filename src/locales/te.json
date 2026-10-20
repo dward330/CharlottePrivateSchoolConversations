@@ -179,7 +179,10 @@
     "welcomeCaption": "{{school}} గురించి ఆ పాఠశాల మాటల్లోనే ఒక పరిచయం. చూడటానికి play నొక్కండి.",
     "welcomeFrom": "పాఠశాల నుంచి",
     "welcomeIframeTitle": "{{school}} — స్వాగత వీడియో",
-    "welcomeVideo": "స్వాగత వీడియో"
+    "welcomeVideo": "స్వాగత వీడియో",
+    "classVideo": "{{year}} బ్యాచ్ ఎక్కడికి వెళ్తోంది",
+    "classVideoCaption": "{{year}} బ్యాచ్ హైస్కూల్ కోసం ఎక్కడికి వెళ్తోందో చూపే {{school}} సొంత వీడియో. చూడటానికి ప్లే నొక్కండి.",
+    "classVideoIframeTitle": "{{school}} — {{year}} బ్యాచ్ హైస్కూల్ గమ్యస్థానాలు"
   },
   "sports": {
     "stateTitleMatrix_one": "రాష్ట్ర టైటిల్ పట్టిక, గత {{count}} సీజన్",
@@ -423,7 +426,11 @@
     "international-travel.network@cannon": "World Affairs Council, Model UN & Global Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International & Winterim మిషన్ భాగస్వాములు",
     "international-travel.credential@davidson-day": "Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR & పురావస్తు సదస్సులు"
+    "international-travel.network@davidson-day": "AFAR & పురావస్తు సదస్సులు",
+    "admissions.guide@covenant-day": "తరగతుల వారీ దరఖాస్తు మార్గదర్శి — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "తరగతుల వారీ దరఖాస్తు మార్గదర్శి — Early School & K · 1–8",
+    "the-arts.ladder@charlotte-prep": "PreK–8 కళల నిచ్చెన",
+    "the-arts.theatre@charlotte-prep": "రంగస్థలం మరియు తరగతి స్థాయి ప్రదర్శనలు"
   },
   "cardLabels": {
     "afternoonRhythm": "మధ్యాహ్నపు సాగు",
@@ -544,7 +551,13 @@
     "searchEmpty": "“{{query}}”తో ఏ పాఠశాలా సరిపోలలేదు — చిన్న పదం ప్రయత్నించండి.",
     "statusClosed": "ఇప్పుడు శాశ్వతంగా మూసివేయబడింది",
     "statusMerged": "మరో పాఠశాలలో విలీనం",
-    "crossLinkLegend": "ఈ పోర్టల్‌లో ఆ పాఠశాలకు ప్రత్యేక పేజీ ఉందని సూచిస్తుంది — పాఠశాల పేరుపై క్లిక్ చేయండి"
+    "crossLinkLegend": "ఈ పోర్టల్‌లో ఆ పాఠశాలకు ప్రత్యేక పేజీ ఉందని సూచిస్తుంది — పాఠశాల పేరుపై క్లిక్ చేయండి",
+    "viewLabel": "చూపించు",
+    "viewAllAlumni": "పూర్వ విద్యార్థులందరూ",
+    "countLegend": "ప్రతి పాఠశాల పేరుకు ఎడమవైపు ఉన్న సంఖ్య, {{year}} బ్యాచ్ గ్రాడ్యుయేట్లలో ఎంతమంది అక్కడికి వెళ్తున్నారో చూపుతుంది — ఇది పాఠశాల సొంత బ్యాచ్ ప్రకటన నుండి మేము చేసిన లెక్క.",
+    "tallyClass": "{{year}} బ్యాచ్",
+    "tallyListed_one": "జాబితాలో {{count}} గ్రాడ్యుయేట్",
+    "tallyListed_other": "జాబితాలో {{count}} మంది గ్రాడ్యుయేట్లు"
   },
   "photoViewer": {
     "open": "ఫోటోను పెద్దదిగా చూడండి: {{name}}",

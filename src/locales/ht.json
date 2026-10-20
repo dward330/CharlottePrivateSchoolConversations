@@ -179,7 +179,10 @@
     "welcomeCaption": "Yon entwodiksyon sou {{school}}, nan pwòp mo lekòl la. Peze play pou gade.",
     "welcomeFrom": "Nan men lekòl la",
     "welcomeIframeTitle": "{{school}} — Videyo Byenveni",
-    "welcomeVideo": "Videyo Byenveni"
+    "welcomeVideo": "Videyo Byenveni",
+    "classVideo": "Kote Pwomosyon {{year}} la Prale",
+    "classVideoCaption": "Pwòp videyo {{school}} sou kote Pwomosyon {{year}} li a prale pou high school. Peze jwe pou gade l.",
+    "classVideoIframeTitle": "{{school}} — destinasyon high school Pwomosyon {{year}} la"
   },
   "sports": {
     "stateTitleMatrix_one": "Matris tit eta, dènye {{count}} sezon",
@@ -423,7 +426,11 @@
     "international-travel.network@cannon": "World Affairs Council, Model UN ak Global Education Badge la",
     "international-travel.network@charlotte-christian": "SCORE International ak Patnè Misyon Winterim yo",
     "international-travel.credential@davidson-day": "Global Studies Diploma Distinction la",
-    "international-travel.network@davidson-day": "AFAR ak Konferans Akeyoloji yo"
+    "international-travel.network@davidson-day": "AFAR ak Konferans Akeyoloji yo",
+    "admissions.guide@covenant-day": "Gid aplikasyon klas pa klas — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "Gid aplikasyon klas pa klas — Early School ak K · 1–8",
+    "the-arts.ladder@charlotte-prep": "Nechèl Atistik PreK–8 la",
+    "the-arts.theatre@charlotte-prep": "Teyat ak Pwodiksyon pa Nivo Ane"
   },
   "cardLabels": {
     "afternoonRhythm": "Ritm aprèmidi a",
@@ -544,7 +551,13 @@
     "searchEmpty": "Pa gen lekòl ki koresponn ak “{{query}}” — eseye yon tèm pi kout.",
     "statusClosed": "Fèmen nèt kounye a",
     "statusMerged": "Fizyone ak yon lòt lekòl",
-    "crossLinkLegend": "Endike nou gen yon paj dedye pou lekòl la sou pòtal sa a — klike sou non lekòl la"
+    "crossLinkLegend": "Endike nou gen yon paj dedye pou lekòl la sou pòtal sa a — klike sou non lekòl la",
+    "viewLabel": "Montre",
+    "viewAllAlumni": "Tout ansyen elèv yo",
+    "countLegend": "Chif ki agoch chak lekòl la se konbyen gradye Pwomosyon {{year}} ki prale la — se konte pa nou, apati anons pwomosyon an lekòl la li menm fè.",
+    "tallyClass": "Pwomosyon {{year}}",
+    "tallyListed_one": "{{count}} gradye sou lis la",
+    "tallyListed_other": "{{count}} gradye sou lis la"
   },
   "photoViewer": {
     "open": "Agrandi foto a: {{name}}",

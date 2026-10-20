@@ -108,7 +108,8 @@
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
         "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades"
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
       ],
       "t": "5–8"
     },
@@ -1494,7 +1495,8 @@
       "text": "February",
       "of": "fca77633",
       "at": [
-        "charlotte-latin:visual.exhibits[0].when"
+        "charlotte-latin:visual.exhibits[0].when",
+        "charlotte-prep:theatre.season[2].season"
       ],
       "t": "ఫిబ్రవరి"
     },
@@ -1528,7 +1530,8 @@
       "of": "98dbac97",
       "at": [
         "charlotte-latin:visual.exhibits[2].when",
-        "covenant-day:theatre.season[2].season"
+        "covenant-day:theatre.season[2].season",
+        "charlotte-prep:theatre.season[3].season"
       ],
       "t": "ఏప్రిల్"
     },
@@ -3006,7 +3009,8 @@
       "text": "The ensemble board",
       "of": "f7da1e67",
       "at": [
-        "charlotte-catholic:music.boardTitle"
+        "charlotte-catholic:music.boardTitle",
+        "charlotte-prep:music.boardTitle"
       ],
       "t": "బృందాల పట్టిక"
     },
@@ -3249,7 +3253,9 @@
       "of": "9f7b6307",
       "at": [
         "charlotte-catholic:visual.exhibitsTitle",
-        "trinity-episcopal:ladder.enrichment[0].label"
+        "trinity-episcopal:ladder.enrichment[0].label",
+        "charlotte-prep:ladder.enrichment[1].label",
+        "charlotte-prep:visual.exhibitsTitle"
       ],
       "t": "విద్యార్థుల రచనలు ప్రజల ముందుకు వచ్చే చోటు"
     },
@@ -8398,7 +8404,8 @@
       "text": "K–4",
       "of": "6492de3d",
       "at": [
-        "trinity-episcopal:ladder.divisions[0].grades"
+        "trinity-episcopal:ladder.divisions[0].grades",
+        "charlotte-prep:ladder.divisions[1].grades"
       ],
       "t": "K–4"
     },
@@ -8863,7 +8870,8 @@
       "text": "Visit Checklist",
       "of": "ae162c84",
       "at": [
-        "trinity-episcopal:verdict.askTitle"
+        "trinity-episcopal:verdict.askTitle",
+        "charlotte-prep:verdict.askTitle"
       ],
       "t": "సందర్శన జాబితా"
     },
@@ -8938,6 +8946,592 @@
         "trinity-episcopal:verdict.ask[8]"
       ],
       "t": "Ghana మార్పిడి ఇప్పటికీ కొనసాగుతోందా, మరియు అది 5వ తరగతి కాకుండా ఇతర తరగతులకూ చేరుతుందా?"
+    },
+    {
+      "text": "Music, drama and art for every child through 4th grade, band from 4th, then a choice between chorus and band in 5th and between drama and art in 7th.",
+      "of": "fb5bca69",
+      "at": [
+        "charlotte-prep:ladder.headline"
+      ],
+      "t": "4వ తరగతి వరకు ప్రతి పిల్లవాడికీ సంగీతం, నాటకం మరియు కళ, 4వ తరగతి నుంచి band, ఆ తర్వాత 5వ తరగతిలో chorus మరియు band మధ్య, 7వ తరగతిలో నాటకం మరియు కళ మధ్య ఎంపిక."
+    },
+    {
+      "text": "arts performances and events per year",
+      "of": "2b5a4b84",
+      "at": [
+        "charlotte-prep:ladder.stats[0].label"
+      ],
+      "t": "సంవత్సరానికి కళా ప్రదర్శనలు మరియు కార్యక్రమాలు"
+    },
+    {
+      "text": "grades in band",
+      "of": "2dea08eb",
+      "at": [
+        "charlotte-prep:ladder.stats[1].label"
+      ],
+      "t": "band లో ఉన్న తరగతులు"
+    },
+    {
+      "text": "grades in the spring stage show",
+      "of": "55d76973",
+      "at": [
+        "charlotte-prep:ladder.stats[2].label"
+      ],
+      "t": "వసంత రంగస్థల ప్రదర్శనలో ఉన్న తరగతులు"
+    },
+    {
+      "text": "PreK–MK",
+      "of": "8b2cce68",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].grades"
+      ],
+      "t": "PreK–MK"
+    },
+    {
+      "text": "\"All early school students participate in music classes.\"",
+      "of": "8f2161cd",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].items[0]"
+      ],
+      "t": "\"All early school students participate in music classes.\""
+    },
+    {
+      "text": "Montessori Kindergarten adds weekly art alongside P.E., Spanish and technology",
+      "of": "a3ed189c",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].items[1]"
+      ],
+      "t": "Montessori Kindergarten లో P.E., Spanish మరియు టెక్నాలజీతో పాటు వారానికోసారి కళ కూడా చేరుతుంది"
+    },
+    {
+      "text": "An Early School Winter Concert each year",
+      "of": "674480c0",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].items[2]"
+      ],
+      "t": "ప్రతి సంవత్సరం ఒక Early School Winter Concert"
+    },
+    {
+      "text": "Music, drama and art in a 6-day rotation of specialized classes",
+      "of": "b1f4527e",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[0]"
+      ],
+      "t": "ప్రత్యేక తరగతుల 6-రోజుల రొటేషన్‌లో సంగీతం, నాటకం మరియు కళ"
+    },
+    {
+      "text": "K–2 \"shine on stage annually in age-appropriate, curricular-themed costumed productions\"",
+      "of": "66cce3e9",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[1]"
+      ],
+      "t": "K–2 విద్యార్థులు \"shine on stage annually in age-appropriate, curricular-themed costumed productions\""
+    },
+    {
+      "text": "Recorders and Orff instruments; a 3rd-grade recorder musical and a 4th-grade bilingual play",
+      "of": "adf1cece",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[2]"
+      ],
+      "t": "Recorders మరియు Orff వాయిద్యాలు; 3వ తరగతి recorder సంగీత నాటకం, 4వ తరగతి ద్విభాషా నాటకం"
+    },
+    {
+      "text": "Band begins in 4th grade",
+      "of": "9cdeade0",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[3]"
+      ],
+      "t": "4వ తరగతిలో band మొదలవుతుంది"
+    },
+    {
+      "text": "\"Students may choose between Chorus and Band as 5th graders, while they continue to take both Drama and Art.\"",
+      "of": "a5e6286c",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[0]"
+      ],
+      "t": "\"Students may choose between Chorus and Band as 5th graders, while they continue to take both Drama and Art.\""
+    },
+    {
+      "text": "\"Once they are in 7th grade they may choose between Drama and Art.\"",
+      "of": "03e5776e",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[1]"
+      ],
+      "t": "\"Once they are in 7th grade they may choose between Drama and Art.\""
+    },
+    {
+      "text": "Middle School drama runs as year-long electives",
+      "of": "96e3e647",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[2]"
+      ],
+      "t": "Middle School నాటకం సంవత్సరం పొడవునా సాగే ఐచ్ఛికాలుగా నడుస్తుంది"
+    },
+    {
+      "text": "The spring show is open to 3rd–8th grade artists",
+      "of": "c3e263d4",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[3]"
+      ],
+      "t": "వసంత ప్రదర్శన 3–8 తరగతుల కళాకారులకు అందుబాటులో ఉంటుంది"
+    },
+    {
+      "text": "Beyond the school day",
+      "of": "8934f53d",
+      "at": [
+        "charlotte-prep:ladder.enrichmentTitle"
+      ],
+      "t": "పాఠశాల సమయం దాటి"
+    },
+    {
+      "text": "After School Studios",
+      "of": "07c5e7a8",
+      "at": [
+        "charlotte-prep:ladder.enrichment[0].label"
+      ],
+      "t": "After School Studios"
+    },
+    {
+      "text": "Fee-based studios add arts options, from a sample list that includes Storybook Theater (K–2), One-Act Play (3–8), Ukulele (3–5), Beginner and Intermediate Print Making (3–5, 6–8), Primary Chorus (1–2) and a before-school Beginner Chorus (3–6) in the Music Cottage.",
+      "of": "a51190c8",
+      "at": [
+        "charlotte-prep:ladder.enrichment[0].text"
+      ],
+      "t": "రుసుముతో కూడిన studios కళల ఎంపికలను జోడిస్తాయి, ఒక నమూనా జాబితా నుంచి: Storybook Theater (K–2), One-Act Play (3–8), Ukulele (3–5), Beginner and Intermediate Print Making (3–5, 6–8), Primary Chorus (1–2) మరియు Music Cottage లో పాఠశాలకు ముందు జరిగే Beginner Chorus (3–6)."
+    },
+    {
+      "text": "A Winter and a Spring Fine Arts Showcase each year, performances for Grandparents & Special Friends’ Day, and school assemblies. The school’s Fine Arts page says students have performed at the Biltmore Estate, at Charlotte Knights and Hornets games, \"and with Distinguished Concerts International New York at Carnegie Hall\".",
+      "of": "3a8d4039",
+      "at": [
+        "charlotte-prep:ladder.enrichment[1].text"
+      ],
+      "t": "ప్రతి సంవత్సరం ఒక Winter మరియు ఒక Spring Fine Arts Showcase, Grandparents & Special Friends’ Day కోసం ప్రదర్శనలు, మరియు పాఠశాల సమావేశాలు. విద్యార్థులు Biltmore Estate లో, Charlotte Knights మరియు Hornets ఆటల్లో, \"and with Distinguished Concerts International New York at Carnegie Hall\" ప్రదర్శనలు ఇచ్చారని పాఠశాల Fine Arts పేజీ చెబుతోంది."
+    },
+    {
+      "text": "A stage show at nearly every grade — K–2 musicals, a 3rd-grade recorder musical, a 4th-grade bilingual play — and a 3rd–8th grade spring production with a Middle School one-act in the fall.",
+      "of": "173c7d73",
+      "at": [
+        "charlotte-prep:theatre.headline"
+      ],
+      "t": "దాదాపు ప్రతి తరగతికీ ఒక రంగస్థల ప్రదర్శన — K–2 సంగీత నాటకాలు, 3వ తరగతి recorder సంగీత నాటకం, 4వ తరగతి ద్విభాషా నాటకం — మరియు శరత్కాలంలో Middle School ఏకాంక నాటికతో పాటు 3–8 తరగతుల వసంత ప్రదర్శన."
+    },
+    {
+      "text": "Productions run as \"Prep Players\" in the gym, which has a proscenium stage and $180,000 of new stage lighting, plus new sets bought in 2024–25.",
+      "of": "7aa8231f",
+      "at": [
+        "charlotte-prep:theatre.subhead"
+      ],
+      "t": "ప్రదర్శనలు \"Prep Players\" పేరుతో వ్యాయామశాలలో జరుగుతాయి, అక్కడ proscenium వేదిక, $180,000 విలువైన కొత్త రంగస్థల లైటింగ్, అలాగే 2024–25లో కొన్న కొత్త సెట్లు ఉన్నాయి."
+    },
+    {
+      "text": "The season, from the school’s own record",
+      "of": "7af2ed4b",
+      "at": [
+        "charlotte-prep:theatre.seasonTitle"
+      ],
+      "t": "సీజన్, పాఠశాల సొంత రికార్డు నుంచి"
+    },
+    {
+      "text": "November",
+      "of": "3ea53a3f",
+      "at": [
+        "charlotte-prep:theatre.season[0].season"
+      ],
+      "t": "నవంబర్"
+    },
+    {
+      "text": "Middle School one-act",
+      "of": "d1342265",
+      "at": [
+        "charlotte-prep:theatre.season[0].kind"
+      ],
+      "t": "Middle School ఏకాంక నాటిక"
+    },
+    {
+      "text": "Alice by Lindsay Price, November 14–15, 2025, in the gymnasium, with the Middle School set design club crafting props and costumes.",
+      "of": "8e7d4c4c",
+      "at": [
+        "charlotte-prep:theatre.season[0].detail"
+      ],
+      "t": "Lindsay Price రచించిన Alice, నవంబర్ 14–15, 2025, వ్యాయామశాలలో; Middle School set design క్లబ్ props మరియు దుస్తులు రూపొందించింది."
+    },
+    {
+      "text": "December",
+      "of": "662dcc9e",
+      "at": [
+        "charlotte-prep:theatre.season[1].season",
+        "charlotte-prep:visual.exhibits[0].when"
+      ],
+      "t": "డిసెంబర్"
+    },
+    {
+      "text": "4th-grade bilingual play",
+      "of": "6823fcea",
+      "at": [
+        "charlotte-prep:theatre.season[1].kind"
+      ],
+      "t": "4వ తరగతి ద్విభాషా నాటకం"
+    },
+    {
+      "text": "Los Tres Cuentos, December 3, 2025.",
+      "of": "65cba0b3",
+      "at": [
+        "charlotte-prep:theatre.season[1].detail"
+      ],
+      "t": "Los Tres Cuentos, డిసెంబర్ 3, 2025."
+    },
+    {
+      "text": "1st & 2nd grade musical",
+      "of": "b47789d8",
+      "at": [
+        "charlotte-prep:theatre.season[2].kind"
+      ],
+      "t": "1 మరియు 2 తరగతుల సంగీత నాటకం"
+    },
+    {
+      "text": "Piece By Piece (February 25, 2026); earlier, United We Stand (2024) and Could You Hug a Cactus? (2025).",
+      "of": "1ee9c531",
+      "at": [
+        "charlotte-prep:theatre.season[2].detail"
+      ],
+      "t": "Piece By Piece (ఫిబ్రవరి 25, 2026); అంతకుముందు, United We Stand (2024) మరియు Could You Hug a Cactus? (2025)."
+    },
+    {
+      "text": "The 3rd–8th grade spring show",
+      "of": "a7b5f029",
+      "at": [
+        "charlotte-prep:theatre.season[3].kind"
+      ],
+      "t": "3–8 తరగతుల వసంత ప్రదర్శన"
+    },
+    {
+      "text": "The Wizard of Oz (April 17, 2026); a murder-mystery comedy (April 11, 2025); Willy Wonka Jr. (April 19–20, 2024), which took more than 150 rehearsal hours and had its own stage crew.",
+      "of": "c0e90469",
+      "at": [
+        "charlotte-prep:theatre.season[3].detail"
+      ],
+      "t": "The Wizard of Oz (ఏప్రిల్ 17, 2026); ఒక murder-mystery హాస్య నాటకం (ఏప్రిల్ 11, 2025); Willy Wonka Jr. (ఏప్రిల్ 19–20, 2024), దీనికి 150 కి పైగా రిహార్సల్ గంటలు పట్టాయి, దానికి సొంత stage crew ఉంది."
+    },
+    {
+      "text": "April–May",
+      "of": "db2d149d",
+      "at": [
+        "charlotte-prep:theatre.season[4].season"
+      ],
+      "t": "ఏప్రిల్–మే"
+    },
+    {
+      "text": "3rd-grade recorder musical",
+      "of": "a86d723a",
+      "at": [
+        "charlotte-prep:theatre.season[4].kind"
+      ],
+      "t": "3వ తరగతి recorder సంగీత నాటకం"
+    },
+    {
+      "text": "Perseverance Project (April 30, 2026); Just Imagine (May 1, 2025); The Perseverance Project (May 2024).",
+      "of": "d9abc2c4",
+      "at": [
+        "charlotte-prep:theatre.season[4].detail"
+      ],
+      "t": "Perseverance Project (ఏప్రిల్ 30, 2026); Just Imagine (మే 1, 2025); The Perseverance Project (మే 2024)."
+    },
+    {
+      "text": "May",
+      "of": "3ba7e226",
+      "at": [
+        "charlotte-prep:theatre.season[5].season",
+        "charlotte-prep:visual.exhibits[1].when"
+      ],
+      "t": "మే"
+    },
+    {
+      "text": "Kindergarten performance",
+      "of": "950f0837",
+      "at": [
+        "charlotte-prep:theatre.season[5].kind"
+      ],
+      "t": "Kindergarten ప్రదర్శన"
+    },
+    {
+      "text": "An annual Kindergarten performance closes the year.",
+      "of": "a3d230e4",
+      "at": [
+        "charlotte-prep:theatre.season[5].detail"
+      ],
+      "t": "వార్షిక Kindergarten ప్రదర్శనతో సంవత్సరం ముగుస్తుంది."
+    },
+    {
+      "text": "Drama teacher Erica Davis (BFA in Musical Theater, East Carolina University; at Charlotte Prep since 2021) directs; Morgan Moscati was music director for Willy Wonka Jr.",
+      "of": "8576602a",
+      "at": [
+        "charlotte-prep:theatre.whoRunsIt"
+      ],
+      "t": "Drama ఉపాధ్యాయురాలు Erica Davis (BFA in Musical Theater, East Carolina University; 2021 నుంచి Charlotte Prep లో) దర్శకత్వం వహిస్తారు; Willy Wonka Jr. కు Morgan Moscati సంగీత దర్శకులుగా ఉన్నారు."
+    },
+    {
+      "text": "Band from 4th grade, then chorus or band from 5th — with recorders and Orff instruments underneath and a recorder musical in 3rd grade.",
+      "of": "f5d34e0d",
+      "at": [
+        "charlotte-prep:music.headline"
+      ],
+      "t": "4వ తరగతి నుంచి band, ఆ తర్వాత 5వ తరగతి నుంచి chorus లేదా band — దాని కింద recorders మరియు Orff వాయిద్యాలు, 3వ తరగతిలో ఒక recorder సంగీత నాటకం."
+    },
+    {
+      "text": "An ensemble any interested student can join; no audition is described.",
+      "of": "cda7988b",
+      "at": [
+        "charlotte-prep:music.subhead"
+      ],
+      "t": "ఆసక్తి ఉన్న ఏ విద్యార్థి అయినా చేరగలిగే ensemble; ఎలాంటి ఆడిషన్ గురించీ చెప్పలేదు."
+    },
+    {
+      "text": "Early School and K–3 — everyone participates",
+      "of": "3f5e103c",
+      "at": [
+        "charlotte-prep:music.tracks[0].label"
+      ],
+      "t": "Early School మరియు K–3 — అందరూ పాల్గొంటారు"
+    },
+    {
+      "text": "4th grade",
+      "of": "154b9434",
+      "at": [
+        "charlotte-prep:music.tracks[1].label"
+      ],
+      "t": "4వ తరగతి"
+    },
+    {
+      "text": "5th grade on — choose one",
+      "of": "99fbfc39",
+      "at": [
+        "charlotte-prep:music.tracks[2].label"
+      ],
+      "t": "5వ తరగతి నుంచి — ఒకటి ఎంచుకోండి"
+    },
+    {
+      "text": "Where the ensembles perform",
+      "of": "86324122",
+      "at": [
+        "charlotte-prep:music.ladderTitle"
+      ],
+      "t": "Ensembles ఎక్కడ ప్రదర్శిస్తాయి"
+    },
+    {
+      "text": "Fine Arts Showcases",
+      "of": "898ccebf",
+      "at": [
+        "charlotte-prep:music.ladder[0].label"
+      ],
+      "t": "Fine Arts Showcases"
+    },
+    {
+      "text": "A Winter and a Spring Fine Arts Showcase each year — the May 14, 2026 recording is titled \"Middle School Band & Chorus\".",
+      "of": "df47e2f5",
+      "at": [
+        "charlotte-prep:music.ladder[0].text"
+      ],
+      "t": "ప్రతి సంవత్సరం ఒక Winter మరియు ఒక Spring Fine Arts Showcase — మే 14, 2026 రికార్డింగ్ శీర్షిక \"Middle School Band & Chorus\"."
+    },
+    {
+      "text": "School occasions",
+      "of": "4a230751",
+      "at": [
+        "charlotte-prep:music.ladder[1].label"
+      ],
+      "t": "పాఠశాల సందర్భాలు"
+    },
+    {
+      "text": "Grandparents & Special Friends’ Day, the Veterans Day program and the International Day of Peace assembly, and traditional Prep songs from the chorus at 8th-grade graduation.",
+      "of": "9eb0bae0",
+      "at": [
+        "charlotte-prep:music.ladder[1].text"
+      ],
+      "t": "Grandparents & Special Friends’ Day, Veterans Day కార్యక్రమం మరియు International Day of Peace సమావేశం, అలాగే 8వ తరగతి స్నాతకోత్సవంలో chorus పాడే సంప్రదాయ Prep పాటలు."
+    },
+    {
+      "text": "Off campus",
+      "of": "32d2425f",
+      "at": [
+        "charlotte-prep:music.ladder[2].label"
+      ],
+      "t": "క్యాంపస్ వెలుపల"
+    },
+    {
+      "text": "The school says its musicians have performed at the Biltmore Estate, at Charlotte Knights and Hornets games, \"and with Distinguished Concerts International New York at Carnegie Hall\" — no date is given for that performance.",
+      "of": "db2327b3",
+      "at": [
+        "charlotte-prep:music.ladder[2].text"
+      ],
+      "t": "తమ సంగీతకారులు Biltmore Estate లో, Charlotte Knights మరియు Hornets ఆటల్లో, \"and with Distinguished Concerts International New York at Carnegie Hall\" ప్రదర్శనలు ఇచ్చారని పాఠశాల చెబుతోంది — ఆ ప్రదర్శనకు తేదీ ఇవ్వలేదు."
+    },
+    {
+      "text": "A spiral curriculum — \"growing in complexity from year to year\" — across drawing, painting, printmaking, sculpture, collage, weaving and digital photography.",
+      "of": "b982294d",
+      "at": [
+        "charlotte-prep:visual.headline"
+      ],
+      "t": "ఒక spiral పాఠ్యప్రణాళిక — \"growing in complexity from year to year\" — డ్రాయింగ్, పెయింటింగ్, ప్రింట్‌మేకింగ్, శిల్పం, కొలాజ్, నేత మరియు డిజిటల్ ఫోటోగ్రఫీ అంతటా."
+    },
+    {
+      "text": "Work goes public at the Winter and Spring Fine Arts Showcases and on Grandparents & Special Friends’ Day.",
+      "of": "01389c5a",
+      "at": [
+        "charlotte-prep:visual.subhead"
+      ],
+      "t": "విద్యార్థుల రచనలు Winter మరియు Spring Fine Arts Showcases లో, Grandparents & Special Friends’ Day నాడు ప్రజల ముందుకు వస్తాయి."
+    },
+    {
+      "text": "The media",
+      "of": "ce47e118",
+      "at": [
+        "charlotte-prep:visual.mediaTitle"
+      ],
+      "t": "మాధ్యమాలు"
+    },
+    {
+      "text": "gelli, relief, linoleum, foam, screen and collograph",
+      "of": "f53f777d",
+      "at": [
+        "charlotte-prep:visual.media[1].detail"
+      ],
+      "t": "gelli, relief, లినోలియం, ఫోమ్, స్క్రీన్ మరియు collograph"
+    },
+    {
+      "text": "\"Art is taught as a spiral curriculum woven around artistic principles, concepts, and habits, growing in complexity from year to year.\"",
+      "of": "85e09c8c",
+      "at": [
+        "charlotte-prep:visual.pathNote"
+      ],
+      "t": "\"Art is taught as a spiral curriculum woven around artistic principles, concepts, and habits, growing in complexity from year to year.\""
+    },
+    {
+      "text": "Each year",
+      "of": "2191d0b1",
+      "at": [
+        "charlotte-prep:visual.exhibits[2].when"
+      ],
+      "t": "ప్రతి సంవత్సరం"
+    },
+    {
+      "text": "Guests \"view student work\" alongside the performances.",
+      "of": "f1fda437",
+      "at": [
+        "charlotte-prep:visual.exhibits[2].detail"
+      ],
+      "t": "ప్రదర్శనలతో పాటు అతిథులు \"view student work\"."
+    },
+    {
+      "text": "Faculty: Stephanie Mould is the art teacher (MA in Art Education, University of Florida; BA in Studio Art, SUNY Oneonta; at Charlotte Prep since 2021), working from the Art Studio.",
+      "of": "d3f1a64e",
+      "at": [
+        "charlotte-prep:visual.footnote"
+      ],
+      "t": "అధ్యాపకులు: Stephanie Mould కళా ఉపాధ్యాయురాలు (MA in Art Education, University of Florida; BA in Studio Art, SUNY Oneonta; 2021 నుంచి Charlotte Prep లో), Art Studio నుంచి పనిచేస్తారు."
+    },
+    {
+      "text": "A broad, every-child arts programme for a PreK–8 school: a stage at nearly every grade, a freshly equipped theatre, and credentialed teachers in each discipline.",
+      "of": "ccfe3184",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ],
+      "t": "ఒక PreK–8 పాఠశాలకు విస్తృతమైన, ప్రతి పిల్లవాడికీ అందే కళల కార్యక్రమం: దాదాపు ప్రతి తరగతికీ ఒక వేదిక, కొత్తగా సమకూర్చిన రంగస్థలం, ప్రతి విభాగంలో అర్హత కలిగిన ఉపాధ్యాయులు."
+    },
+    {
+      "text": "Everyone takes all three",
+      "of": "5570fa8f",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[0].label"
+      ],
+      "t": "అందరూ మూడింటినీ నేర్చుకుంటారు"
+    },
+    {
+      "text": "Music, drama and art for every child through 4th grade, and both Drama and Art alongside an ensemble in 5th and 6th.",
+      "of": "8b5edaef",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[0].text"
+      ],
+      "t": "4వ తరగతి వరకు ప్రతి పిల్లవాడికీ సంగీతం, నాటకం మరియు కళ, 5 మరియు 6 తరగతుల్లో ఒక ensemble తో పాటు Drama మరియు Art రెండూ."
+    },
+    {
+      "text": "A stage at nearly every grade",
+      "of": "b0e332f4",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[1].label"
+      ],
+      "t": "దాదాపు ప్రతి తరగతికీ ఒక వేదిక"
+    },
+    {
+      "text": "Six recurring productions across the year, from Kindergarten to the 3rd–8th grade spring show.",
+      "of": "6051025a",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[1].text"
+      ],
+      "t": "సంవత్సరం పొడవునా ఆరు పునరావృత ప్రదర్శనలు, Kindergarten నుంచి 3–8 తరగతుల వసంత ప్రదర్శన వరకు."
+    },
+    {
+      "text": "Real investment",
+      "of": "fef48996",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[2].label"
+      ],
+      "t": "నిజమైన పెట్టుబడి"
+    },
+    {
+      "text": "$180,000 of new stage lighting and new sets, paid for by the auction, a parent fundraiser and the annual fund.",
+      "of": "0d27d6ed",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[2].text"
+      ],
+      "t": "$180,000 విలువైన కొత్త రంగస్థల లైటింగ్ మరియు కొత్త సెట్లు, వేలం, తల్లిదండ్రుల నిధుల సేకరణ, వార్షిక నిధి ద్వారా సమకూర్చబడ్డాయి."
+    },
+    {
+      "text": "How often does each art meet in the 6-day rotation?",
+      "of": "ea3f4065",
+      "at": [
+        "charlotte-prep:verdict.ask[0]"
+      ],
+      "t": "6-రోజుల రొటేషన్‌లో ఒక్కో కళ ఎంత తరచుగా జరుగుతుంది?"
+    },
+    {
+      "text": "Do 7th and 8th graders keep band or chorus alongside their Drama-or-Art choice?",
+      "of": "6bac7326",
+      "at": [
+        "charlotte-prep:verdict.ask[1]"
+      ],
+      "t": "7 మరియు 8 తరగతుల విద్యార్థులు Drama-లేదా-Art ఎంపికతో పాటు band లేదా chorus ను కొనసాగిస్తారా?"
+    },
+    {
+      "text": "Is the 3rd–8th grade spring show part of the school day or an after-school program, and does it cost extra?",
+      "of": "c578e268",
+      "at": [
+        "charlotte-prep:verdict.ask[2]"
+      ],
+      "t": "3–8 తరగతుల వసంత ప్రదర్శన పాఠశాల సమయంలో భాగమా, లేక after-school కార్యక్రమమా, దానికి అదనపు ఖర్చు ఉందా?"
+    },
+    {
+      "text": "When was the Carnegie Hall performance, and which students took part?",
+      "of": "1d043481",
+      "at": [
+        "charlotte-prep:verdict.ask[3]"
+      ],
+      "t": "Carnegie Hall ప్రదర్శన ఎప్పుడు జరిగింది, ఏ విద్యార్థులు పాల్గొన్నారు?"
+    },
+    {
+      "text": "Who teaches chorus this year, and what does the current After School Studio list look like — with prices?",
+      "of": "c54a6ab6",
+      "at": [
+        "charlotte-prep:verdict.ask[4]"
+      ],
+      "t": "ఈ సంవత్సరం chorus ఎవరు బోధిస్తున్నారు, ప్రస్తుత After School Studio జాబితా ధరలతో సహా ఎలా ఉంది?"
+    },
+    {
+      "text": "Does the school enter student art in any outside exhibitions or competitions?",
+      "of": "88448971",
+      "at": [
+        "charlotte-prep:verdict.ask[5]"
+      ],
+      "t": "పాఠశాల విద్యార్థుల కళాకృతులను ఏవైనా బయటి ప్రదర్శనలు లేదా పోటీలకు పంపుతుందా?"
     }
   ]
 }

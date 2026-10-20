@@ -94,7 +94,8 @@
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
         "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades"
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
       ]
     },
     {
@@ -1316,7 +1317,8 @@
       "t": "Février",
       "of": "fca77633",
       "at": [
-        "charlotte-latin:visual.exhibits[0].when"
+        "charlotte-latin:visual.exhibits[0].when",
+        "charlotte-prep:theatre.season[2].season"
       ]
     },
     {
@@ -1346,7 +1348,8 @@
       "of": "98dbac97",
       "at": [
         "charlotte-latin:visual.exhibits[2].when",
-        "covenant-day:theatre.season[2].season"
+        "covenant-day:theatre.season[2].season",
+        "charlotte-prep:theatre.season[3].season"
       ]
     },
     {
@@ -2640,7 +2643,8 @@
       "t": "Le tableau des ensembles",
       "of": "f7da1e67",
       "at": [
-        "charlotte-catholic:music.boardTitle"
+        "charlotte-catholic:music.boardTitle",
+        "charlotte-prep:music.boardTitle"
       ]
     },
     {
@@ -2853,7 +2857,9 @@
       "of": "9f7b6307",
       "at": [
         "charlotte-catholic:visual.exhibitsTitle",
-        "trinity-episcopal:ladder.enrichment[0].label"
+        "trinity-episcopal:ladder.enrichment[0].label",
+        "charlotte-prep:ladder.enrichment[1].label",
+        "charlotte-prep:visual.exhibitsTitle"
       ]
     },
     {
@@ -7361,7 +7367,8 @@
       "t": "K–4",
       "of": "6492de3d",
       "at": [
-        "trinity-episcopal:ladder.divisions[0].grades"
+        "trinity-episcopal:ladder.divisions[0].grades",
+        "charlotte-prep:ladder.divisions[1].grades"
       ]
     },
     {
@@ -7768,7 +7775,8 @@
       "t": "Liste de visite",
       "of": "ae162c84",
       "at": [
-        "trinity-episcopal:verdict.askTitle"
+        "trinity-episcopal:verdict.askTitle",
+        "charlotte-prep:verdict.askTitle"
       ]
     },
     {
@@ -7832,6 +7840,519 @@
       "of": "4eac9d0d",
       "at": [
         "trinity-episcopal:verdict.ask[8]"
+      ]
+    },
+    {
+      "t": "Musique, théâtre et art pour chaque enfant jusqu’à la 4e année, l’orchestre d’harmonie dès la 4e, puis un choix entre chorale et orchestre en 5e et entre théâtre et art en 7e.",
+      "of": "fb5bca69",
+      "at": [
+        "charlotte-prep:ladder.headline"
+      ]
+    },
+    {
+      "t": "spectacles et événements artistiques par an",
+      "of": "2b5a4b84",
+      "at": [
+        "charlotte-prep:ladder.stats[0].label"
+      ]
+    },
+    {
+      "t": "niveaux en orchestre d’harmonie",
+      "of": "2dea08eb",
+      "at": [
+        "charlotte-prep:ladder.stats[1].label"
+      ]
+    },
+    {
+      "t": "niveaux dans le spectacle de printemps",
+      "of": "55d76973",
+      "at": [
+        "charlotte-prep:ladder.stats[2].label"
+      ]
+    },
+    {
+      "t": "PreK–MK",
+      "of": "8b2cce68",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "\"All early school students participate in music classes.\"",
+      "of": "8f2161cd",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "La Montessori Kindergarten ajoute un cours d’art hebdomadaire, en plus de l’EPS, de l’espagnol et de la technologie",
+      "of": "a3ed189c",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "Un Winter Concert de l’Early School chaque année",
+      "of": "674480c0",
+      "at": [
+        "charlotte-prep:ladder.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "Musique, théâtre et art dans une rotation de cours spécialisés sur 6 jours",
+      "of": "b1f4527e",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Les K–2 \"shine on stage annually in age-appropriate, curricular-themed costumed productions\"",
+      "of": "66cce3e9",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Flûtes à bec et instruments Orff ; une comédie musicale à la flûte à bec en 3e année et une pièce bilingue en 4e année",
+      "of": "adf1cece",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "L’orchestre d’harmonie (Band) commence en 4e année",
+      "of": "9cdeade0",
+      "at": [
+        "charlotte-prep:ladder.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "\"Students may choose between Chorus and Band as 5th graders, while they continue to take both Drama and Art.\"",
+      "of": "a5e6286c",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "\"Once they are in 7th grade they may choose between Drama and Art.\"",
+      "of": "03e5776e",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Le théâtre du Middle School prend la forme d’options sur toute l’année",
+      "of": "96e3e647",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Le spectacle de printemps est ouvert aux artistes de la 3e à la 8e année",
+      "of": "c3e263d4",
+      "at": [
+        "charlotte-prep:ladder.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "Au-delà de la journée de classe",
+      "of": "8934f53d",
+      "at": [
+        "charlotte-prep:ladder.enrichmentTitle"
+      ]
+    },
+    {
+      "t": "After School Studios",
+      "of": "07c5e7a8",
+      "at": [
+        "charlotte-prep:ladder.enrichment[0].label"
+      ]
+    },
+    {
+      "t": "Des studios payants ajoutent des options artistiques, à partir d’une liste d’exemples qui comprend Storybook Theater (K–2), One-Act Play (3–8), Ukulele (3–5), Beginner and Intermediate Print Making (3–5, 6–8), Primary Chorus (1–2) et un Beginner Chorus avant les cours (3–6) au Music Cottage.",
+      "of": "a51190c8",
+      "at": [
+        "charlotte-prep:ladder.enrichment[0].text"
+      ]
+    },
+    {
+      "t": "Un Fine Arts Showcase d’hiver et un de printemps chaque année, des prestations pour le Grandparents & Special Friends’ Day et des assemblées scolaires. La page Fine Arts de l’école indique que des élèves se sont produits au Biltmore Estate, lors de matchs des Charlotte Knights et des Hornets, \"and with Distinguished Concerts International New York at Carnegie Hall\".",
+      "of": "3a8d4039",
+      "at": [
+        "charlotte-prep:ladder.enrichment[1].text"
+      ]
+    },
+    {
+      "t": "Un spectacle à presque chaque niveau — des comédies musicales en K–2, une comédie musicale à la flûte à bec en 3e année, une pièce bilingue en 4e année — et une production de printemps des 3e–8e années, avec une pièce en un acte du Middle School à l’automne.",
+      "of": "173c7d73",
+      "at": [
+        "charlotte-prep:theatre.headline"
+      ]
+    },
+    {
+      "t": "Les productions sont présentées sous le nom de \"Prep Players\" dans le gymnase, doté d’une scène à l’italienne et de $180,000 de nouvel éclairage scénique, ainsi que de nouveaux décors achetés en 2024–25.",
+      "of": "7aa8231f",
+      "at": [
+        "charlotte-prep:theatre.subhead"
+      ]
+    },
+    {
+      "t": "La saison, d’après les publications de l’école elle-même",
+      "of": "7af2ed4b",
+      "at": [
+        "charlotte-prep:theatre.seasonTitle"
+      ]
+    },
+    {
+      "t": "Novembre",
+      "of": "3ea53a3f",
+      "at": [
+        "charlotte-prep:theatre.season[0].season"
+      ]
+    },
+    {
+      "t": "Pièce en un acte du Middle School",
+      "of": "d1342265",
+      "at": [
+        "charlotte-prep:theatre.season[0].kind"
+      ]
+    },
+    {
+      "t": "Alice de Lindsay Price, les 14–15 novembre 2025, dans le gymnase, le club de décors du Middle School ayant fabriqué les accessoires et les costumes.",
+      "of": "8e7d4c4c",
+      "at": [
+        "charlotte-prep:theatre.season[0].detail"
+      ]
+    },
+    {
+      "t": "Décembre",
+      "of": "662dcc9e",
+      "at": [
+        "charlotte-prep:theatre.season[1].season",
+        "charlotte-prep:visual.exhibits[0].when"
+      ]
+    },
+    {
+      "t": "Pièce bilingue de 4e année",
+      "of": "6823fcea",
+      "at": [
+        "charlotte-prep:theatre.season[1].kind"
+      ]
+    },
+    {
+      "t": "Los Tres Cuentos, 3 décembre 2025.",
+      "of": "65cba0b3",
+      "at": [
+        "charlotte-prep:theatre.season[1].detail"
+      ]
+    },
+    {
+      "t": "Comédie musicale des 1re et 2e années",
+      "of": "b47789d8",
+      "at": [
+        "charlotte-prep:theatre.season[2].kind"
+      ]
+    },
+    {
+      "t": "Piece By Piece (25 février 2026) ; auparavant, United We Stand (2024) et Could You Hug a Cactus? (2025).",
+      "of": "1ee9c531",
+      "at": [
+        "charlotte-prep:theatre.season[2].detail"
+      ]
+    },
+    {
+      "t": "Le spectacle de printemps des 3e–8e années",
+      "of": "a7b5f029",
+      "at": [
+        "charlotte-prep:theatre.season[3].kind"
+      ]
+    },
+    {
+      "t": "The Wizard of Oz (17 avril 2026) ; une comédie policière à énigme (11 avril 2025) ; Willy Wonka Jr. (19–20 avril 2024), qui a demandé plus de 150 heures de répétition et disposait de sa propre équipe technique.",
+      "of": "c0e90469",
+      "at": [
+        "charlotte-prep:theatre.season[3].detail"
+      ]
+    },
+    {
+      "t": "Avril–mai",
+      "of": "db2d149d",
+      "at": [
+        "charlotte-prep:theatre.season[4].season"
+      ]
+    },
+    {
+      "t": "Comédie musicale à la flûte à bec de 3e année",
+      "of": "a86d723a",
+      "at": [
+        "charlotte-prep:theatre.season[4].kind"
+      ]
+    },
+    {
+      "t": "Perseverance Project (30 avril 2026) ; Just Imagine (1er mai 2025) ; The Perseverance Project (mai 2024).",
+      "of": "d9abc2c4",
+      "at": [
+        "charlotte-prep:theatre.season[4].detail"
+      ]
+    },
+    {
+      "t": "Mai",
+      "of": "3ba7e226",
+      "at": [
+        "charlotte-prep:theatre.season[5].season",
+        "charlotte-prep:visual.exhibits[1].when"
+      ]
+    },
+    {
+      "t": "Spectacle de Kindergarten",
+      "of": "950f0837",
+      "at": [
+        "charlotte-prep:theatre.season[5].kind"
+      ]
+    },
+    {
+      "t": "Un spectacle annuel de Kindergarten clôt l’année.",
+      "of": "a3d230e4",
+      "at": [
+        "charlotte-prep:theatre.season[5].detail"
+      ]
+    },
+    {
+      "t": "La professeure de théâtre Erica Davis (BFA in Musical Theater, East Carolina University ; à Charlotte Prep depuis 2021) assure la mise en scène ; Morgan Moscati a été directeur musical de Willy Wonka Jr.",
+      "of": "8576602a",
+      "at": [
+        "charlotte-prep:theatre.whoRunsIt"
+      ]
+    },
+    {
+      "t": "L’orchestre d’harmonie dès la 4e année, puis chorale ou orchestre dès la 5e — avec, en amont, les flûtes à bec et les instruments Orff, et une comédie musicale à la flûte à bec en 3e année.",
+      "of": "f5d34e0d",
+      "at": [
+        "charlotte-prep:music.headline"
+      ]
+    },
+    {
+      "t": "Un ensemble ouvert à tout élève intéressé ; aucune audition n’est mentionnée.",
+      "of": "cda7988b",
+      "at": [
+        "charlotte-prep:music.subhead"
+      ]
+    },
+    {
+      "t": "Early School et K–3 — tout le monde participe",
+      "of": "3f5e103c",
+      "at": [
+        "charlotte-prep:music.tracks[0].label"
+      ]
+    },
+    {
+      "t": "4e année",
+      "of": "154b9434",
+      "at": [
+        "charlotte-prep:music.tracks[1].label"
+      ]
+    },
+    {
+      "t": "À partir de la 5e année — un choix à faire",
+      "of": "99fbfc39",
+      "at": [
+        "charlotte-prep:music.tracks[2].label"
+      ]
+    },
+    {
+      "t": "Où se produisent les ensembles",
+      "of": "86324122",
+      "at": [
+        "charlotte-prep:music.ladderTitle"
+      ]
+    },
+    {
+      "t": "Fine Arts Showcases",
+      "of": "898ccebf",
+      "at": [
+        "charlotte-prep:music.ladder[0].label"
+      ]
+    },
+    {
+      "t": "Un Fine Arts Showcase d’hiver et un de printemps chaque année — l’enregistrement du 14 mai 2026 s’intitule \"Middle School Band & Chorus\".",
+      "of": "df47e2f5",
+      "at": [
+        "charlotte-prep:music.ladder[0].text"
+      ]
+    },
+    {
+      "t": "Événements de l’école",
+      "of": "4a230751",
+      "at": [
+        "charlotte-prep:music.ladder[1].label"
+      ]
+    },
+    {
+      "t": "Le Grandparents & Special Friends’ Day, le programme du Veterans Day et l’assemblée de la Journée internationale de la paix, ainsi que les chants traditionnels de Prep interprétés par la chorale lors de la remise des diplômes de 8e année.",
+      "of": "9eb0bae0",
+      "at": [
+        "charlotte-prep:music.ladder[1].text"
+      ]
+    },
+    {
+      "t": "Hors campus",
+      "of": "32d2425f",
+      "at": [
+        "charlotte-prep:music.ladder[2].label"
+      ]
+    },
+    {
+      "t": "L’école indique que ses musiciens se sont produits au Biltmore Estate, lors de matchs des Charlotte Knights et des Hornets, \"and with Distinguished Concerts International New York at Carnegie Hall\" — aucune date n’est donnée pour cette prestation.",
+      "of": "db2327b3",
+      "at": [
+        "charlotte-prep:music.ladder[2].text"
+      ]
+    },
+    {
+      "t": "Un programme en spirale — \"growing in complexity from year to year\" — couvrant dessin, peinture, gravure, sculpture, collage, tissage et photographie numérique.",
+      "of": "b982294d",
+      "at": [
+        "charlotte-prep:visual.headline"
+      ]
+    },
+    {
+      "t": "Les œuvres sont présentées au public lors des Fine Arts Showcases d’hiver et de printemps et lors du Grandparents & Special Friends’ Day.",
+      "of": "01389c5a",
+      "at": [
+        "charlotte-prep:visual.subhead"
+      ]
+    },
+    {
+      "t": "Les techniques",
+      "of": "ce47e118",
+      "at": [
+        "charlotte-prep:visual.mediaTitle"
+      ]
+    },
+    {
+      "t": "gelli, relief, linoléum, mousse, sérigraphie et collagraphie",
+      "of": "f53f777d",
+      "at": [
+        "charlotte-prep:visual.media[1].detail"
+      ]
+    },
+    {
+      "t": "\"Art is taught as a spiral curriculum woven around artistic principles, concepts, and habits, growing in complexity from year to year.\"",
+      "of": "85e09c8c",
+      "at": [
+        "charlotte-prep:visual.pathNote"
+      ]
+    },
+    {
+      "t": "Chaque année",
+      "of": "2191d0b1",
+      "at": [
+        "charlotte-prep:visual.exhibits[2].when"
+      ]
+    },
+    {
+      "t": "Les invités \"view student work\" en marge des spectacles.",
+      "of": "f1fda437",
+      "at": [
+        "charlotte-prep:visual.exhibits[2].detail"
+      ]
+    },
+    {
+      "t": "Enseignants : Stephanie Mould est la professeure d’art (MA in Art Education, University of Florida ; BA in Studio Art, SUNY Oneonta ; à Charlotte Prep depuis 2021) et travaille depuis l’Art Studio.",
+      "of": "d3f1a64e",
+      "at": [
+        "charlotte-prep:visual.footnote"
+      ]
+    },
+    {
+      "t": "Un programme artistique large, pour chaque enfant, dans une école PreK–8 : une scène à presque chaque niveau, un théâtre fraîchement équipé et des enseignants diplômés dans chaque discipline.",
+      "of": "ccfe3184",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ]
+    },
+    {
+      "t": "Tout le monde suit les trois",
+      "of": "5570fa8f",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[0].label"
+      ]
+    },
+    {
+      "t": "Musique, théâtre et art pour chaque enfant jusqu’à la 4e année, puis Drama et Art en plus d’un ensemble en 5e et 6e.",
+      "of": "8b5edaef",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[0].text"
+      ]
+    },
+    {
+      "t": "Une scène à presque chaque niveau",
+      "of": "b0e332f4",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[1].label"
+      ]
+    },
+    {
+      "t": "Six productions récurrentes au fil de l’année, de la Kindergarten au spectacle de printemps des 3e–8e années.",
+      "of": "6051025a",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[1].text"
+      ]
+    },
+    {
+      "t": "Un véritable investissement",
+      "of": "fef48996",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[2].label"
+      ]
+    },
+    {
+      "t": "$180,000 de nouvel éclairage scénique et de nouveaux décors, financés par la vente aux enchères, une collecte de fonds des parents et le fonds annuel.",
+      "of": "0d27d6ed",
+      "at": [
+        "charlotte-prep:verdict.holdsUp[2].text"
+      ]
+    },
+    {
+      "t": "À quelle fréquence chaque discipline artistique a-t-elle lieu dans la rotation sur 6 jours ?",
+      "of": "ea3f4065",
+      "at": [
+        "charlotte-prep:verdict.ask[0]"
+      ]
+    },
+    {
+      "t": "Les élèves de 7e et 8e année gardent-ils l’orchestre ou la chorale en plus de leur choix entre Drama et Art ?",
+      "of": "6bac7326",
+      "at": [
+        "charlotte-prep:verdict.ask[1]"
+      ]
+    },
+    {
+      "t": "Le spectacle de printemps des 3e–8e années fait-il partie de la journée de classe ou d’un programme périscolaire, et entraîne-t-il un coût supplémentaire ?",
+      "of": "c578e268",
+      "at": [
+        "charlotte-prep:verdict.ask[2]"
+      ]
+    },
+    {
+      "t": "Quand a eu lieu la prestation à Carnegie Hall, et quels élèves y ont participé ?",
+      "of": "1d043481",
+      "at": [
+        "charlotte-prep:verdict.ask[3]"
+      ]
+    },
+    {
+      "t": "Qui enseigne la chorale cette année, et à quoi ressemble la liste actuelle des After School Studios — avec les prix ?",
+      "of": "c54a6ab6",
+      "at": [
+        "charlotte-prep:verdict.ask[4]"
+      ]
+    },
+    {
+      "t": "L’école inscrit-elle des œuvres d’élèves à des expositions ou concours extérieurs ?",
+      "of": "88448971",
+      "at": [
+        "charlotte-prep:verdict.ask[5]"
       ]
     }
   ]

@@ -1056,7 +1056,8 @@
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
         "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season"
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1452,7 +1453,8 @@
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
         "carmel-christian:dayInside.wordsTitle",
-        "trinity-episcopal:dayInside.wordsTitle"
+        "trinity-episcopal:dayInside.wordsTitle",
+        "charlotte-prep:dayInside.wordsTitle"
       ]
     },
     {
@@ -2749,7 +2751,8 @@
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
         "gaston-day:coverage.facts[0].label",
-        "trinity-episcopal:coverage.facts[1].label"
+        "trinity-episcopal:coverage.facts[1].label",
+        "charlotte-prep:coverage.facts[2].label"
       ]
     },
     {
@@ -3212,7 +3215,8 @@
       "t": "tan pou devwa",
       "of": "a3f22180",
       "at": [
-        "charlotte-country-day:dayInside.words[0]"
+        "charlotte-country-day:dayInside.words[0]",
+        "charlotte-prep:dayInside.words[1]"
       ]
     },
     {
@@ -3874,7 +3878,8 @@
       "of": "5e92d4cb",
       "at": [
         "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[8].gradeLabel",
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
       ]
     },
     {
@@ -3903,7 +3908,9 @@
       "t": "3–5",
       "of": "72b1a582",
       "at": [
-        "cannon:dayInside.classes[4].gradeLabel"
+        "cannon:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {
@@ -3938,7 +3945,8 @@
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel"
+        "cannon:dayInside.classes[7].gradeLabel",
+        "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -4078,7 +4086,9 @@
       "t": "3–6",
       "of": "71b1a3ef",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
       ]
     },
     {
@@ -4092,7 +4102,8 @@
       "t": "K–4",
       "of": "6492de3d",
       "at": [
-        "cannon:dayInside.classes[20].gradeLabel"
+        "cannon:dayInside.classes[20].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
@@ -6725,7 +6736,8 @@
       "t": "kòmanse lè lekòl la lage",
       "of": "25420411",
       "at": [
-        "trinity-episcopal:coverage.rows[0].dismissal"
+        "trinity-episcopal:coverage.rows[0].dismissal",
+        "charlotte-prep:coverage.rows[2].dismissal"
       ]
     },
     {
@@ -6739,7 +6751,8 @@
       "t": "anvan lekòl",
       "of": "bbb5f13e",
       "at": [
-        "trinity-episcopal:coverage.rows[1].dismissal"
+        "trinity-episcopal:coverage.rows[1].dismissal",
+        "charlotte-prep:coverage.rows[3].dismissal"
       ]
     },
     {
@@ -6851,7 +6864,8 @@
       "t": "Pèsonèl",
       "of": "0d19a971",
       "at": [
-        "trinity-episcopal:coverage.facts[5].label"
+        "trinity-episcopal:coverage.facts[5].label",
+        "charlotte-prep:coverage.facts[3].label"
       ]
     },
     {
@@ -7096,6 +7110,475 @@
       "of": "9fb6faf4",
       "at": [
         "trinity-episcopal:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "Yon sèl After School Program K–8 soti lè lekòl lage rive 5:30 p.m. pou yon sèl pri anyèl, yon Extended Day apa pou Early School la — epi pa gen swen nan maten.",
+      "of": "1b1c88eb",
+      "at": [
+        "charlotte-prep:coverage.headline"
+      ]
+    },
+    {
+      "t": "Lè pou depoze timoun yo kòmanse a 7:45 a.m. pou Lower School ak Middle School epi a 8:00 a.m. pou Early School la.",
+      "of": "fa7c092a",
+      "at": [
+        "charlotte-prep:coverage.subhead"
+      ]
+    },
+    {
+      "t": "Pri sou ba yo se chif **anyèl 2026–27** yo ki soti nan paj frè eskolè a. Lekòl la pa fikse pri swen apre lekòl selon kantite jou pa semèn; pou itilizasyon okazyonèl, se opsyon san randevou **$20/èdtan** lan.",
+      "of": "57933404",
+      "at": [
+        "charlotte-prep:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "pwogram demi jounen an fini a 12:00",
+      "of": "44fe5348",
+      "at": [
+        "charlotte-prep:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "Extended Day · 12:00–5:30 · $5,900/ane",
+      "of": "1e712fe6",
+      "at": [
+        "charlotte-prep:coverage.rows[0].flatLabel"
+      ]
+    },
+    {
+      "t": "lekòl lage a 2:30",
+      "of": "3bf3dddd",
+      "at": [
+        "charlotte-prep:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "TK Extended Day · 2:30–5:30 · $2,700/ane",
+      "of": "ed47ad14",
+      "at": [
+        "charlotte-prep:coverage.rows[1].flatLabel"
+      ]
+    },
+    {
+      "t": "After School Program · 3:00–5:30 · $4,500/ane",
+      "of": "d22681e6",
+      "at": [
+        "charlotte-prep:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "Pa gen swen anvan lekòl — depoze timoun depi 7:45 (8:00 pou Early School)",
+      "of": "62dd3216",
+      "at": [
+        "charlotte-prep:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "**Summer Adventures at Prep** te dire sèt semèn an 2026, soti 8 jen rive 31 jiyè, pou timoun depi Early School rive 8yèm ane, ak swen anvan kan 8:00–9:00 a.m. ak swen apre kan 4:00–5:00 p.m. pou **$60/semèn** chak.",
+      "of": "30029ab8",
+      "at": [
+        "charlotte-prep:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "Gwoup laj",
+      "of": "00d0937c",
+      "at": [
+        "charlotte-prep:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "\"kindergarteners, first and second graders, third and fourth graders, and then our middle school students\"",
+      "of": "1b8efb9d",
+      "at": [
+        "charlotte-prep:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Frè ak sè",
+      "of": "70b3463e",
+      "at": [
+        "charlotte-prep:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "\"We provide complimentary care for younger students who have siblings with a later dismissal time.\"",
+      "of": "0b44d9cd",
+      "at": [
+        "charlotte-prep:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "**$20/èdtan**, Montessori Kindergarten rive 8yèm ane",
+      "of": "7e28b5fd",
+      "at": [
+        "charlotte-prep:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "**Justen Kirchner**, Direktè Pwogram Oksilyè, sipèvize swen apre lekòl, extended day, studio yo ak kan ete a; anyè pèsonèl la bay non **14** pwofesè After School Program",
+      "of": "81ada1bb",
+      "at": [
+        "charlotte-prep:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "Yon sèl pri anyèl — $4,500 pou apremidi K–8 rive 5:30 — ak yon opsyon san randevou $20 pa èdtan pou fanmi ki bezwen swen sèlman de tanzantan.",
+      "of": "0ef39748",
+      "at": [
+        "charlotte-prep:cost.headline"
+      ]
+    },
+    {
+      "t": "Tarif 2026–27 yo, ki soti nan pwòp paj frè eskolè lekòl la. Extended Day Early School la gen pri apa.",
+      "of": "99ab8b5b",
+      "at": [
+        "charlotte-prep:cost.subhead"
+      ]
+    },
+    {
+      "t": "pri anyèl",
+      "of": "f046b46f",
+      "at": [
+        "charlotte-prep:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "K–Gr 8 · 3:00–5:30",
+      "of": "7910e4a5",
+      "at": [
+        "charlotte-prep:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "Kindergarten–8yèm ane · 3:00–5:30 pm",
+      "of": "97e0bf29",
+      "at": [
+        "charlotte-prep:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "TK Extended Day · 2:30–5:30",
+      "of": "797e0aee",
+      "at": [
+        "charlotte-prep:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten Extended Day · 2:30–5:30 pm",
+      "of": "58b4e67c",
+      "at": [
+        "charlotte-prep:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30",
+      "of": "28cc8aca",
+      "at": [
+        "charlotte-prep:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30 pm",
+      "of": "efd2c105",
+      "at": [
+        "charlotte-prep:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "Oswa vini san randevou, pa èdtan.",
+      "of": "a1c438c6",
+      "at": [
+        "charlotte-prep:cost.aside.title"
+      ]
+    },
+    {
+      "t": "Swen san randevou koute **$20 pa èdtan** pou Montessori Kindergarten rive 8yèm ane. Yon apremidi konplè rive 5:30 koute anviwon **$50** san randevou, konpare ak apeprè **$25 pa apremidi** sou plan anyèl la sou yon ane 180 jou.",
+      "of": "5d37cc00",
+      "at": [
+        "charlotte-prep:cost.aside.text"
+      ]
+    },
+    {
+      "t": "After School Program, K–8 (anyèl)",
+      "of": "ac412f57",
+      "at": [
+        "charlotte-prep:cost.fees[0].label"
+      ]
+    },
+    {
+      "t": "$4,500",
+      "of": "3274a76a",
+      "at": [
+        "charlotte-prep:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "San randevou, Montessori K–8",
+      "of": "900cc507",
+      "at": [
+        "charlotte-prep:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$20 / èdtan",
+      "of": "2253fbf2",
+      "at": [
+        "charlotte-prep:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Pre-Primary/Primary School Day, 12:00–2:30/3:00",
+      "of": "d4ef633b",
+      "at": [
+        "charlotte-prep:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "$3,400",
+      "of": "ecf49030",
+      "at": [
+        "charlotte-prep:cost.fees[2].value"
+      ]
+    },
+    {
+      "t": "Opsyon **School Day** la se sèlman \"for students with siblings enrolled at Prep in TK-8th grade.\" **After School Studios** gen yon frè apa pou chak kou, men lekòl la pa di konbyen.",
+      "of": "b093f039",
+      "at": [
+        "charlotte-prep:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "Ti goute, tan pou devwa, tèm chak mwa, aktivite pratik ak tan lib — plis studio 12 semèn nan lang, teyat, mizik, atizay ak STEM.",
+      "of": "6e2367a1",
+      "at": [
+        "charlotte-prep:dayInside.headline"
+      ]
+    },
+    {
+      "t": "\"Classes are led by warm and enthusiastic teachers and include a healthy mix of age-appropriate activities, homework time, and free time.\"",
+      "of": "a9321611",
+      "at": [
+        "charlotte-prep:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "ti goute apremidi",
+      "of": "0b8f397d",
+      "at": [
+        "charlotte-prep:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "tèm chak mwa",
+      "of": "06b19e00",
+      "at": [
+        "charlotte-prep:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "aktivite pratik",
+      "of": "11638716",
+      "at": [
+        "charlotte-prep:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "tan lib",
+      "of": "01eed358",
+      "at": [
+        "charlotte-prep:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "abitid ki an sante",
+      "of": "41c1ce67",
+      "at": [
+        "charlotte-prep:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "yon anviwònman ki plen lanmou ak swen",
+      "of": "e28b382b",
+      "at": [
+        "charlotte-prep:dayInside.words[6]"
+      ]
+    },
+    {
+      "t": "After School Studios — yon echantiyon",
+      "of": "752279f7",
+      "at": [
+        "charlotte-prep:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "\"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks.\" Studio yo dire **45 minit rive inèdtan**, pwofesè a mache ak elèv yo rive nan studio a, epi \"there is a fee, separate from Charlotte Prep's annual tuition, associated with each class.\" Lekòl la bay sa yo kòm ofrann **egzanp**, se pa orè trimès sa a.",
+      "of": "a057204d",
+      "at": [
+        "charlotte-prep:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "Chak semèn: pale pou pi piti yo, ekri pou elèv avanse yo, ak kilti atravè atizay ak atizana.",
+      "of": "58febb38",
+      "at": [
+        "charlotte-prep:dayInside.classes[0].desc"
+      ]
+    },
+    {
+      "t": "Jwe teyat ak kominikasyon, ki fini ak yon ti pèfòmans Reader’s Theatre enfòmèl.",
+      "of": "dab5dc57",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "Fè odisyon epi jwe nan yon pyès teyat yon sèl ak.",
+      "of": "e1c0cf53",
+      "at": [
+        "charlotte-prep:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "Akò ak fason pou grate kòd yo.",
+      "of": "b9eaca1b",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "Bricole, fè desen, bati epi teste nan STEM Lab la.",
+      "of": "256293b5",
+      "at": [
+        "charlotte-prep:dayInside.classes[4].desc"
+      ]
+    },
+    {
+      "t": "Nan Art Studio a, 3:15–4:00.",
+      "of": "5b19d526",
+      "at": [
+        "charlotte-prep:dayInside.classes[5].desc"
+      ]
+    },
+    {
+      "t": "Lino, serigrafi ak kolograf, 3:15–4:00.",
+      "of": "02946049",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].desc"
+      ]
+    },
+    {
+      "t": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].gradeLabel"
+      ]
+    },
+    {
+      "t": "Gen ladan l chante andeyò kanpis nan kote tankou Knights Stadium ak Bojangles Coliseum.",
+      "of": "42efe35a",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "1–2",
+      "of": "ab9ea77d",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "Rankontre anvan lekòl, 7:15–8:00 a.m., nan Music Cottage la — elèv 3yèm ak 4yèm ane, plis elèv 5yèm ak 6yèm ane ki nan Band.",
+      "of": "e84e428c",
+      "at": [
+        "charlotte-prep:dayInside.classes[8].desc"
+      ]
+    },
+    {
+      "t": "Yon pwogram apremidi senp ak pri klè: yon sèl frè anyèl pou chak ane K–8, yon opsyon pa èdtan an rezèv, ak swen gratis pou yon pi piti frè oswa sè k ap tann yon pi gran.",
+      "of": "81b24a49",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ]
+    },
+    {
+      "t": "**Yon sèl pri anyèl ki klè.** $4,500 kouvri apremidi K–8 rive 5:30 p.m., epi yon opsyon san randevou $20 pa èdtan kouvri itilizasyon okazyonèl.",
+      "of": "8f2a6aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Swen gratis pou pi piti frè ak sè** k ap tann lè lekòl lage pita pou yon pi gran frè oswa sè.",
+      "of": "e7156aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Kat gwoup laj ak tan pou devwa enkli** — K, 1–2, 3–4 ak Middle School — plis yon ti goute ak tèm chak mwa.",
+      "of": "93d8aee8",
+      "at": [
+        "charlotte-prep:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Studio douz semèn** nan lang, teyat, mizik, atizay ak STEM chak otòn ak prentan.",
+      "of": "1eb5e0fa",
+      "at": [
+        "charlotte-prep:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Yon direktè dedye** jere swen apre lekòl, extended day, studio yo ak kan ete a ansanm.",
+      "of": "ce5304c8",
+      "at": [
+        "charlotte-prep:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "Èske gen swen apre lekòl nan jou travay pwofesè, jou ferye ak jou lekòl lage bonè, e konbyen sa koute?",
+      "of": "45674143",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Ki règ la pou ranmase ta apre 5:30 p.m.?",
+      "of": "454a80af",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Ki studio ki ap fèt trimès sa a, ki jou, e konbyen chak koute?",
+      "of": "7cb6c90c",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Èske yon elèv Montessori Kindergarten ka enskri nan After School Program anyèl la, oswa se sèlman san randevou?",
+      "of": "aacee27e",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Èske rabè 3% pou frè ak sè a aplike sou frè apre lekòl yo?",
+      "of": "ef1cfe82",
+      "at": [
+        "charlotte-prep:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Èske gen okenn opsyon ak sipèvizyon anvan 7:45 a.m.?",
+      "of": "95cebc68",
+      "at": [
+        "charlotte-prep:verdict.checklist[5]"
       ]
     }
   ]

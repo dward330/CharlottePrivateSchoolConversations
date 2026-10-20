@@ -179,7 +179,10 @@
     "welcomeCaption": "Une présentation de {{school}}, dans les mots de l’école elle-même. Appuyez sur lecture pour la regarder.",
     "welcomeFrom": "De la part de l’école",
     "welcomeIframeTitle": "{{school}} — vidéo de bienvenue",
-    "welcomeVideo": "Vidéo de bienvenue"
+    "welcomeVideo": "Vidéo de bienvenue",
+    "classVideo": "Où va la promotion {{year}}",
+    "classVideoCaption": "La vidéo de {{school}} elle-même sur les écoles secondaires où se dirige sa promotion {{year}}. Appuyez sur lecture pour la regarder.",
+    "classVideoIframeTitle": "{{school}} — destinations secondaires de la promotion {{year}}"
   },
   "sports": {
     "stateTitleMatrix_one": "Matrice des titres d’État, dernière {{count}} saison",
@@ -423,7 +426,11 @@
     "international-travel.network@cannon": "Le World Affairs Council, le Model UN et le Global Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International et les partenaires missionnaires du Winterim",
     "international-travel.credential@davidson-day": "La Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR et les colloques d’archéologie"
+    "international-travel.network@davidson-day": "AFAR et les colloques d’archéologie",
+    "admissions.guide@covenant-day": "Guide de candidature niveau par niveau — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "Guide de candidature niveau par niveau — Early School et K · 1–8",
+    "the-arts.ladder@charlotte-prep": "Le parcours artistique PreK–8",
+    "the-arts.theatre@charlotte-prep": "Le théâtre et les productions par niveau"
   },
   "cardLabels": {
     "afternoonRhythm": "Le rythme de l’après-midi",
@@ -544,7 +551,13 @@
     "searchEmpty": "Aucune école ne correspond à « {{query}} » — essayez un terme plus court.",
     "statusClosed": "Définitivement fermée",
     "statusMerged": "Fusionnée avec une autre école",
-    "crossLinkLegend": "Indique que nous avons une page dédiée à cette école sur ce portail — cliquez sur le nom"
+    "crossLinkLegend": "Indique que nous avons une page dédiée à cette école sur ce portail — cliquez sur le nom",
+    "viewLabel": "Afficher",
+    "viewAllAlumni": "Tous les anciens élèves",
+    "countLegend": "Le nombre à gauche de chaque école indique combien de diplômés de la promotion {{year}} s’y dirigent — notre décompte, d’après l’annonce de la promotion publiée par l’école elle-même.",
+    "tallyClass": "Promotion {{year}}",
+    "tallyListed_one": "{{count}} diplômé sur la liste",
+    "tallyListed_other": "{{count}} diplômés sur la liste"
   },
   "photoViewer": {
     "open": "Agrandir la photo : {{name}}",

@@ -64,7 +64,8 @@
       "text": "Exposure",
       "of": "504443a0",
       "at": [
-        "trinity-episcopal:placement.steps[0].kind"
+        "trinity-episcopal:placement.steps[0].kind",
+        "charlotte-prep:placement.steps[2].kind"
       ],
       "t": "Ekspozisyon"
     },
@@ -144,7 +145,8 @@
       "text": "Charlotte-area independent schools",
       "of": "d9db0228",
       "at": [
-        "trinity-episcopal:destinations.categories[0].label"
+        "trinity-episcopal:destinations.categories[0].label",
+        "charlotte-prep:destinations.categories[0].label"
       ],
       "t": "Lekòl endepandan nan zòn Charlotte"
     },
@@ -152,7 +154,8 @@
       "text": "Public, charter and magnet schools",
       "of": "d37d2ef5",
       "at": [
-        "trinity-episcopal:destinations.categories[1].label"
+        "trinity-episcopal:destinations.categories[1].label",
+        "charlotte-prep:destinations.categories[1].label"
       ],
       "t": "Lekòl piblik, charter ak magnet"
     },
@@ -168,7 +171,8 @@
       "text": "Winston-Salem · residential arts conservatory",
       "of": "060e1432",
       "at": [
-        "trinity-episcopal:destinations.categories[1].notes.University of North Carolina School of the Arts"
+        "trinity-episcopal:destinations.categories[1].notes.University of North Carolina School of the Arts",
+        "charlotte-prep:destinations.categories[1].notes.University of North Carolina School of the Arts"
       ],
       "t": "Winston-Salem · konsèvatwa atistik rezidansyèl"
     },
@@ -185,7 +189,8 @@
       "of": "14c97ec2",
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.Asheville School",
-        "trinity-episcopal:destinations.categories[2].notes.Christ School"
+        "trinity-episcopal:destinations.categories[2].notes.Christ School",
+        "charlotte-prep:destinations.categories[3].notes.Carolina Day School"
       ],
       "t": "Asheville"
     },
@@ -203,7 +208,8 @@
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.Blair Academy",
         "trinity-episcopal:destinations.categories[2].notes.Lawrenceville School",
-        "trinity-episcopal:destinations.categories[2].notes.Morristown High School"
+        "trinity-episcopal:destinations.categories[2].notes.Morristown High School",
+        "charlotte-prep:destinations.categories[2].notes.Peddie School"
       ],
       "t": "New Jersey"
     },
@@ -226,7 +232,11 @@
         "trinity-episcopal:destinations.categories[2].notes.Episcopal High School",
         "trinity-episcopal:destinations.categories[2].notes.Hargrave Military Academy",
         "trinity-episcopal:destinations.categories[2].notes.Virginia Episcopal School",
-        "trinity-episcopal:destinations.categories[2].notes.Woodberry Forest School"
+        "trinity-episcopal:destinations.categories[2].notes.Woodberry Forest School",
+        "charlotte-prep:destinations.categories[2].notes.Chatham Hall",
+        "charlotte-prep:destinations.categories[2].notes.Episcopal High School",
+        "charlotte-prep:destinations.categories[2].notes.Woodberry Forest School",
+        "charlotte-prep:destinations.categories[3].notes.Carlisle School"
       ],
       "t": "Virginia"
     },
@@ -267,7 +277,8 @@
       "text": "Massachusetts",
       "of": "b08e6983",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.Nauset High School"
+        "trinity-episcopal:destinations.categories[2].notes.Nauset High School",
+        "charlotte-prep:destinations.categories[2].notes.Walnut Hill School for the Arts"
       ],
       "t": "Massachusetts"
     },
@@ -291,7 +302,9 @@
       "text": "Georgia",
       "of": "0bfef26f",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.Rabun Gap Nacoochee School"
+        "trinity-episcopal:destinations.categories[2].notes.Rabun Gap Nacoochee School",
+        "charlotte-prep:destinations.categories[2].notes.Riverside Military Academy",
+        "charlotte-prep:destinations.categories[3].notes.Wesleyan School"
       ],
       "t": "Georgia"
     },
@@ -356,7 +369,8 @@
       "of": "d3b4ab57",
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.The Cate School",
-        "trinity-episcopal:destinations.categories[2].notes.The Thacher School"
+        "trinity-episcopal:destinations.categories[2].notes.The Thacher School",
+        "charlotte-prep:destinations.categories[1].notes.Campolindo High School"
       ],
       "t": "California"
     },
@@ -364,7 +378,10 @@
       "text": "Tennessee",
       "of": "17011501",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.The McCallie School"
+        "trinity-episcopal:destinations.categories[2].notes.The McCallie School",
+        "charlotte-prep:destinations.categories[2].notes.Baylor School",
+        "charlotte-prep:destinations.categories[2].notes.Currey Ingram Academy",
+        "charlotte-prep:destinations.categories[2].notes.McCallie School"
       ],
       "t": "Tennessee"
     },
@@ -372,7 +389,9 @@
       "text": "Connecticut",
       "of": "fbb40a80",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.The Taft School"
+        "trinity-episcopal:destinations.categories[2].notes.The Taft School",
+        "charlotte-prep:destinations.categories[2].notes.Choate Rosemary Hall",
+        "charlotte-prep:destinations.categories[2].notes.Suffield Academy"
       ],
       "t": "Connecticut"
     },
@@ -380,7 +399,8 @@
       "text": "Out-of-area independent schools",
       "of": "e6df106c",
       "at": [
-        "trinity-episcopal:destinations.categories[3].label"
+        "trinity-episcopal:destinations.categories[3].label",
+        "charlotte-prep:destinations.categories[3].label"
       ],
       "t": "Lekòl endepandan andeyò zòn nan"
     },
@@ -439,6 +459,529 @@
         "trinity-episcopal:verdict.checklist[5]"
       ],
       "t": "Lis destinasyon 2004–2026 la make 41 nan 99 lekòl ak yon zetwal e li pa bay okenn legann — kisa sa vle di?"
+    },
+    {
+      "text": "97% of the Class of 2026 were accepted into one or both of their top two high school choices — and Charlotte Prep has published a rate like it for every class since 2023.",
+      "of": "4ff6a80d",
+      "at": [
+        "charlotte-prep:outcomes.headline"
+      ],
+      "t": "97% nan Pwomosyon 2026 te aksepte nan youn oswa toude nan de premye chwa high school yo — epi Charlotte Prep pibliye yon to konsa pou chak pwomosyon depi 2023."
+    },
+    {
+      "text": "Fifteen members of the Class of 2026 were accepted to every school they applied to, the school says.",
+      "of": "50e5f9f7",
+      "at": [
+        "charlotte-prep:outcomes.subhead"
+      ],
+      "t": "Kenz manm Pwomosyon 2026 te aksepte nan tout lekòl yo te aplike, dapre lekòl la."
+    },
+    {
+      "text": "97%",
+      "of": "6ac7e114",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].value"
+      ],
+      "t": "97%"
+    },
+    {
+      "text": "39 graduates named on the class list",
+      "of": "20db089c",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].denominator"
+      ],
+      "t": "39 gradye ki site pa non sou lis pwomosyon an"
+    },
+    {
+      "text": "Class of 2026 · into one or both top-two choices",
+      "of": "e237d0f7",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].caption"
+      ],
+      "t": "Pwomosyon 2026 · nan youn oswa toude nan de premye chwa yo"
+    },
+    {
+      "text": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].value",
+        "charlotte-prep:outcomes.stats[3].value"
+      ],
+      "t": "96%"
+    },
+    {
+      "text": "27 graduates named on the class list",
+      "of": "3037257f",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].denominator"
+      ],
+      "t": "27 gradye ki site pa non sou lis pwomosyon an"
+    },
+    {
+      "text": "Class of 2025 · into one or both top-two choices",
+      "of": "643feda4",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].caption"
+      ],
+      "t": "Pwomosyon 2025 · nan youn oswa toude nan de premye chwa yo"
+    },
+    {
+      "text": "100%",
+      "of": "2f97df3b",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].value"
+      ],
+      "t": "100%"
+    },
+    {
+      "text": "29 graduates named on the class list",
+      "of": "fbd8b055",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].denominator"
+      ],
+      "t": "29 gradye ki site pa non sou lis pwomosyon an"
+    },
+    {
+      "text": "Class of 2024 · into one or both top-two choices",
+      "of": "38fb1a4d",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].caption"
+      ],
+      "t": "Pwomosyon 2024 · nan youn oswa toude nan de premye chwa yo"
+    },
+    {
+      "text": "over the past 10 years, as the school states it · an earlier page said 94% since 2015",
+      "of": "11646f79",
+      "at": [
+        "charlotte-prep:outcomes.stats[3].caption"
+      ],
+      "t": "sou 10 dènye ane yo, jan lekòl la di l · yon paj anvan te di 94% depi 2015"
+    },
+    {
+      "text": "Providence Day School · Class of 2025 · \"an exclusive four-year scholarship [that] includes a financial award and a personal mentorship with Grant Williams himself, NBA player and Providence Day alum\"",
+      "of": "6eb45320",
+      "at": [
+        "charlotte-prep:outcomes.scholarships[0].detail"
+      ],
+      "t": "Providence Day School · Pwomosyon 2025 · \"an exclusive four-year scholarship [that] includes a financial award and a personal mentorship with Grant Williams himself, NBA player and Providence Day alum\""
+    },
+    {
+      "text": "The McCallie School · Class of 2025 · \"Over the past 16 years, Charlotte Prep has sent 11 graduates to McCallie, seven of whom earned the highly selective Michaels‑Dickson Merit Scholarship.\"",
+      "of": "aa0868a9",
+      "at": [
+        "charlotte-prep:outcomes.scholarships[1].detail"
+      ],
+      "t": "The McCallie School · Pwomosyon 2025 · \"Over the past 16 years, Charlotte Prep has sent 11 graduates to McCallie, seven of whom earned the highly selective Michaels‑Dickson Merit Scholarship.\""
+    },
+    {
+      "text": "A dedicated placement team, a twelve-step path that starts before 8th grade, and a fall fair that brings over 40 high schools to campus to recruit.",
+      "of": "1179118a",
+      "at": [
+        "charlotte-prep:placement.headline"
+      ],
+      "t": "Yon ekip plasman dedye, yon chemen douz etap ki kòmanse anvan 8yèm ane, ak yon fwa nan otòn ki mennen plis pase 40 high school sou kanpis la pou rekrite."
+    },
+    {
+      "text": "The application is parent-driven, but the school manages the rest: \"Our team manages all other aspects of the process to minimize stress and provide all necessary materials.\"",
+      "of": "133ab7e7",
+      "at": [
+        "charlotte-prep:placement.subhead"
+      ],
+      "t": "Se paran yo ki mennen aplikasyon an, men lekòl la jere rès la: \"Our team manages all other aspects of the process to minimize stress and provide all necessary materials.\""
+    },
+    {
+      "text": "steps in the school’s guide",
+      "of": "2ac0eb14",
+      "at": [
+        "charlotte-prep:placement.stats[0].denominator"
+      ],
+      "t": "etap nan gid lekòl la"
+    },
+    {
+      "text": "from the start of the path to acceptance",
+      "of": "ae847b9f",
+      "at": [
+        "charlotte-prep:placement.stats[0].caption"
+      ],
+      "t": "soti nan kòmansman chemen an rive nan akseptasyon"
+    },
+    {
+      "text": "schools invited each September",
+      "of": "6145efa5",
+      "at": [
+        "charlotte-prep:placement.stats[1].denominator"
+      ],
+      "t": "lekòl envite chak septanm"
+    },
+    {
+      "text": "to the High School Fair and Boarding School Fair",
+      "of": "7caca540",
+      "at": [
+        "charlotte-prep:placement.stats[1].caption"
+      ],
+      "t": "nan High School Fair ak Boarding School Fair"
+    },
+    {
+      "text": "Grade 7 practice → Grade 8",
+      "of": "6cf589f3",
+      "at": [
+        "charlotte-prep:placement.stats[2].denominator"
+      ],
+      "t": "pratik nan 7yèm ane → 8yèm ane"
+    },
+    {
+      "text": "the one admissions test the school names",
+      "of": "e0954993",
+      "at": [
+        "charlotte-prep:placement.stats[2].caption"
+      ],
+      "t": "sèl tès admisyon lekòl la nonmen"
+    },
+    {
+      "text": "Spring of 7th grade — the Parent Coffee",
+      "of": "1088e488",
+      "at": [
+        "charlotte-prep:placement.steps[0].when"
+      ],
+      "t": "Prentan 7yèm ane — Parent Coffee la"
+    },
+    {
+      "text": "Orientation",
+      "of": "c551d9c1",
+      "at": [
+        "charlotte-prep:placement.steps[0].kind"
+      ],
+      "t": "Oryantasyon"
+    },
+    {
+      "text": "\"Each spring, rising 8th-grade parents attend a Parent Coffee to learn about the admissions process, events, deadlines, and other tips and information to prepare for the year ahead.\"",
+      "of": "ad41cc41",
+      "at": [
+        "charlotte-prep:placement.steps[0].text"
+      ],
+      "t": "\"Each spring, rising 8th-grade parents attend a Parent Coffee to learn about the admissions process, events, deadlines, and other tips and information to prepare for the year ahead.\""
+    },
+    {
+      "text": "Grade 7 — a practice ISEE",
+      "of": "b517bb3b",
+      "at": [
+        "charlotte-prep:placement.steps[1].when"
+      ],
+      "t": "7yèm ane — yon ISEE pratik"
+    },
+    {
+      "text": "Testing",
+      "of": "0535d93b",
+      "at": [
+        "charlotte-prep:placement.steps[1].kind"
+      ],
+      "t": "Tès"
+    },
+    {
+      "text": "Students sit the Independent School Entrance Exam for practice in 7th grade, then for high school placement in 8th, and the school provides ISEE test preparation in between: \"Students learn test-taking strategies and prepare for admissions testing to gain comfort and fine tune skills.\"",
+      "of": "d11f63fe",
+      "at": [
+        "charlotte-prep:placement.steps[1].text"
+      ],
+      "t": "Elèv yo pase Independent School Entrance Exam pou pratike nan 7yèm ane, apre sa pou plasman high school nan 8yèm, epi lekòl la bay preparasyon pou tès ISEE ant de yo: \"Students learn test-taking strategies and prepare for admissions testing to gain comfort and fine tune skills.\""
+    },
+    {
+      "text": "September of 8th grade — the High School Fair",
+      "of": "15a25aa9",
+      "at": [
+        "charlotte-prep:placement.steps[2].when"
+      ],
+      "t": "Septanm 8yèm ane — High School Fair la"
+    },
+    {
+      "text": "\"In September, administrators from over 40 schools are invited to Charlotte Prep's High School Fair and Boarding School Fair to recruit our students.\" The boarding fair includes a panel discussion — one 2026 family credits it with their decision to pursue boarding school.",
+      "of": "051f6498",
+      "at": [
+        "charlotte-prep:placement.steps[2].text"
+      ],
+      "t": "\"In September, administrators from over 40 schools are invited to Charlotte Prep's High School Fair and Boarding School Fair to recruit our students.\" Fwa boarding la gen ladan l yon panèl diskisyon — yon fanmi 2026 di se li ki fè yo deside chwazi lekòl entènay."
+    },
+    {
+      "text": "Fall of 8th grade — meetings and school visits",
+      "of": "e1f51311",
+      "at": [
+        "charlotte-prep:placement.steps[3].when"
+      ],
+      "t": "Otòn 8yèm ane — reyinyon ak vizit lekòl"
+    },
+    {
+      "text": "Fit",
+      "of": "116f13cc",
+      "at": [
+        "charlotte-prep:placement.steps[3].kind"
+      ],
+      "t": "Konpatibilite"
+    },
+    {
+      "text": "The team meets individually with each 8th grader and separately with each student's parents \"to discuss their plans, their objectives for their child, and appropriate placement opportunities.\" Families are encouraged to visit open houses and tours, and students make day visits to the schools on their list.",
+      "of": "564e359c",
+      "at": [
+        "charlotte-prep:placement.steps[3].text"
+      ],
+      "t": "Ekip la rankontre chak elèv 8yèm ane youn pa youn epi apa ak paran chak elèv \"to discuss their plans, their objectives for their child, and appropriate placement opportunities.\" Yo ankouraje fanmi yo vizite jounen pòt ouvè ak vizit gide, epi elèv yo fè vizit yon jounen nan lekòl ki sou lis yo."
+    },
+    {
+      "text": "Grade 8 — interviews",
+      "of": "b468c620",
+      "at": [
+        "charlotte-prep:placement.steps[4].when"
+      ],
+      "t": "8yèm ane — entèvyou"
+    },
+    {
+      "text": "Preparation",
+      "of": "04b7937a",
+      "at": [
+        "charlotte-prep:placement.steps[4].kind"
+      ],
+      "t": "Preparasyon"
+    },
+    {
+      "text": "\"In Leadership class, students learn interview etiquette and conduct. They learn about proper dress, eye contact, handshake, and what to look for as they seek the school that fits them best.\" Teachers and administrators run mock interviews, and the brochure adds a practice interview with the head of school.",
+      "of": "8443e3d1",
+      "at": [
+        "charlotte-prep:placement.steps[4].text"
+      ],
+      "t": "\"In Leadership class, students learn interview etiquette and conduct. They learn about proper dress, eye contact, handshake, and what to look for as they seek the school that fits them best.\" Pwofesè ak administratè yo fè entèvyou simile, epi bwochi a ajoute yon entèvyou pratik ak direktè lekòl la."
+    },
+    {
+      "text": "Winter of 8th grade — applications and advocacy",
+      "of": "1cb9733a",
+      "at": [
+        "charlotte-prep:placement.steps[5].when"
+      ],
+      "t": "Ivè 8yèm ane — aplikasyon ak pledwaye"
+    },
+    {
+      "text": "Advocacy",
+      "of": "879acf67",
+      "at": [
+        "charlotte-prep:placement.steps[5].kind"
+      ],
+      "t": "Pledwaye"
+    },
+    {
+      "text": "\"Charlotte Prep electronically delivers our students' complete transcripts and teacher recommendation packets to the schools prior to deadlines.\" The team then meets with each high school \"for in-depth conversations about our student applicants and to provide further insight to ensure each student is well known.\"",
+      "of": "e3ee9883",
+      "at": [
+        "charlotte-prep:placement.steps[5].text"
+      ],
+      "t": "\"Charlotte Prep electronically delivers our students' complete transcripts and teacher recommendation packets to the schools prior to deadlines.\" Apre sa ekip la rankontre chak high school \"for in-depth conversations about our student applicants and to provide further insight to ensure each student is well known.\""
+    },
+    {
+      "text": "A one-on-one meeting with every 8th grader, and a separate one with their parents",
+      "of": "e8e2ac5c",
+      "at": [
+        "charlotte-prep:placement.owns[0]"
+      ],
+      "t": "Yon reyinyon youn ak youn ak chak elèv 8yèm ane, ak yon lòt apa ak paran yo"
+    },
+    {
+      "text": "Mock interviews with teachers, administrators and the head of school",
+      "of": "faef0b4f",
+      "at": [
+        "charlotte-prep:placement.owns[1]"
+      ],
+      "t": "Entèvyou simile ak pwofesè, administratè ak direktè lekòl la"
+    },
+    {
+      "text": "ISEE preparation, after a practice ISEE in 7th grade",
+      "of": "b365cfab",
+      "at": [
+        "charlotte-prep:placement.owns[2]"
+      ],
+      "t": "Preparasyon ISEE, apre yon ISEE pratik nan 7yèm ane"
+    },
+    {
+      "text": "Transcripts and teacher recommendations delivered electronically before each deadline",
+      "of": "612f8743",
+      "at": [
+        "charlotte-prep:placement.owns[3]"
+      ],
+      "t": "Relve nòt ak rekòmandasyon pwofesè voye elektwonikman anvan chak dat limit"
+    },
+    {
+      "text": "A meeting with each high school about its Charlotte Prep applicants",
+      "of": "b3f85e89",
+      "at": [
+        "charlotte-prep:placement.owns[4]"
+      ],
+      "t": "Yon reyinyon ak chak high school sou kandida Charlotte Prep li yo"
+    },
+    {
+      "text": "More than 60 high schools across all of Charlotte Prep’s alumni — and, for each class from 2023 to 2026, exactly where its graduates are heading.",
+      "of": "903a736a",
+      "at": [
+        "charlotte-prep:destinations.headline"
+      ],
+      "t": "Plis pase 60 high school atravè tout ansyen elèv Charlotte Prep yo — epi, pou chak pwomosyon soti 2023 rive 2026, egzakteman kote gradye li yo prale."
+    },
+    {
+      "text": "Choose a class to see where each of its named graduates is heading. Schools are grouped by what each one actually is.",
+      "of": "3a208d7f",
+      "at": [
+        "charlotte-prep:destinations.subhead"
+      ],
+      "t": "Chwazi yon pwomosyon pou wè kote chak gradye ki site pa non prale. Lekòl yo gwoupe dapre sa chak youn ye reyèlman."
+    },
+    {
+      "text": "now Olympic High School",
+      "of": "240d01b0",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Olympic Community of Schools"
+      ],
+      "t": "kounye a se Olympic High School"
+    },
+    {
+      "text": "Greenville, SC · residential arts school",
+      "of": "f4dfd5af",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.South Carolina Governor's School for the Arts"
+      ],
+      "t": "Greenville, SC · lekòl atistik rezidansyèl"
+    },
+    {
+      "text": "Germany",
+      "of": "263d0c7e",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Christian-von-Dohm Gymnasium"
+      ],
+      "t": "Almay"
+    },
+    {
+      "text": "Maine · the placement guide says South Portland High School",
+      "of": "112a57bf",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Portland High School"
+      ],
+      "t": "Maine · gid plasman an di South Portland High School"
+    },
+    {
+      "text": "Virginia · now Washington-Liberty",
+      "of": "aa4bb759",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Washington-Lee High School"
+      ],
+      "t": "Virginia · kounye a se Washington-Liberty"
+    },
+    {
+      "text": "Boarding schools",
+      "of": "9a4ca450",
+      "at": [
+        "charlotte-prep:destinations.categories[2].label"
+      ],
+      "t": "Lekòl entènay"
+    },
+    {
+      "text": "Michigan",
+      "of": "dce172db",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.Interlochen Arts Academy"
+      ],
+      "t": "Michigan"
+    },
+    {
+      "text": "Pennsylvania",
+      "of": "53054bf9",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.Mercersburg Academy"
+      ],
+      "t": "Pennsylvania"
+    },
+    {
+      "text": "the school does not say which St. Andrew’s",
+      "of": "f4923032",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.St. Andrew’s School"
+      ],
+      "t": "lekòl la pa di kilès St. Andrew’s"
+    },
+    {
+      "text": "England",
+      "of": "a2a8f2aa",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.American School in London",
+        "charlotte-prep:destinations.categories[3].notes.International Community School in London"
+      ],
+      "t": "Angletè"
+    },
+    {
+      "text": "Morocco",
+      "of": "01eb2899",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.American School of Marrakech"
+      ],
+      "t": "Mawòk"
+    },
+    {
+      "text": "Washington, DC",
+      "of": "36b7a1d6",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.Georgetown Day School",
+        "charlotte-prep:destinations.categories[3].notes.Sidwell Friends School"
+      ],
+      "t": "Washington, DC"
+    },
+    {
+      "text": "Ghana",
+      "of": "b0b5c104",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.Lincoln Community School"
+      ],
+      "t": "Ghana"
+    },
+    {
+      "text": "Arizona",
+      "of": "aa1a664f",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.The Gregory School"
+      ],
+      "t": "Arizona"
+    },
+    {
+      "text": "A published placement rate for every recent class, a named list behind each one, and a process written down step by step.",
+      "of": "f1a9aa40",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ],
+      "t": "Yon to plasman pibliye pou chak pwomosyon resan, yon lis non dèyè chak youn, ak yon pwosesis ki ekri etap pa etap."
+    },
+    {
+      "text": "Who is on the placement team today? The 2022 guide named three roles; the current guide and staff directory name none.",
+      "of": "ee554e04",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ],
+      "t": "Kiyès ki nan ekip plasman an jodi a? Gid 2022 la te nonmen twa wòl; gid aktyèl la ak anyè pèsonèl la pa nonmen okenn."
+    },
+    {
+      "text": "Is ISEE preparation still free, and is it a class or individual support?",
+      "of": "823a5569",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ],
+      "t": "Èske preparasyon ISEE a toujou gratis, e èske se yon kou oswa sipò endividyèl?"
+    },
+    {
+      "text": "How many schools does a typical family apply to, and how many interviews does a student usually sit?",
+      "of": "8be13cf7",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ],
+      "t": "Nan konbyen lekòl yon fanmi tipik aplike, e konbyen entèvyou yon elèv konn pase anjeneral?"
+    },
+    {
+      "text": "How many graduates take a merit scholarship at their high school each year?",
+      "of": "2e724873",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
+      ],
+      "t": "Konbyen gradye ki pran yon bous merit nan high school yo chak ane?"
     }
   ]
 }

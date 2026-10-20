@@ -359,7 +359,8 @@
         "gaston-day:honors.societies[0].feedsFrom",
         "gaston-day:honors.societies[1].feedsFrom",
         "trinity-episcopal:honors.societies[0].feedsFrom",
-        "trinity-episcopal:honors.societies[1].feedsFrom"
+        "trinity-episcopal:honors.societies[1].feedsFrom",
+        "charlotte-prep:honors.societies[0].feedsFrom"
       ],
       "t": "कक्षा"
     },
@@ -668,7 +669,8 @@
         "providence-day:catalog.categories[1].short",
         "charlotte-latin:catalog.categories[1].short",
         "cannon:catalog.categories[0].short",
-        "trinity-episcopal:catalog.categories[1].short"
+        "trinity-episcopal:catalog.categories[1].short",
+        "charlotte-prep:catalog.categories[1].short"
       ],
       "t": "प्रतिस्पर्धी"
     },
@@ -1402,7 +1404,8 @@
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
         "hickory-grove-christian:catalog.divisions[1].tag",
-        "gaston-day:catalog.divisions[1].tag"
+        "gaston-day:catalog.divisions[1].tag",
+        "charlotte-prep:catalog.divisions[0].tag"
       ],
       "t": "स्कूल द्वारा बताया गया"
     },
@@ -1432,7 +1435,8 @@
         "charlotte-catholic:clusters.rows[4].evidenceLabel",
         "charlotte-catholic:catalog.divisions[0].tag",
         "cannon:catalog.divisions[1].tag",
-        "gaston-day:catalog.divisions[2].tag"
+        "gaston-day:catalog.divisions[2].tag",
+        "charlotte-prep:catalog.divisions[1].tag"
       ],
       "t": "संरचनात्मक"
     },
@@ -1927,7 +1931,8 @@
       "of": "3449d225",
       "at": [
         "charlotte-latin:catalog.categories[1].full",
-        "trinity-episcopal:catalog.categories[1].full"
+        "trinity-episcopal:catalog.categories[1].full",
+        "charlotte-prep:catalog.categories[1].full"
       ],
       "t": "प्रतिस्पर्धी और शैक्षणिक"
     },
@@ -1936,7 +1941,9 @@
       "of": "c26e03ae",
       "at": [
         "charlotte-latin:catalog.categories[2].short",
-        "trinity-episcopal:catalog.categories[2].short"
+        "trinity-episcopal:catalog.categories[2].short",
+        "charlotte-prep:catalog.categories[0].short",
+        "charlotte-prep:catalog.categories[0].full"
       ],
       "t": "नेतृत्व"
     },
@@ -1957,7 +1964,9 @@
         "gaston-day:catalog.categories[5].short",
         "gaston-day:catalog.categories[5].full",
         "trinity-episcopal:catalog.categories[5].short",
-        "trinity-episcopal:catalog.categories[5].full"
+        "trinity-episcopal:catalog.categories[5].full",
+        "charlotte-prep:catalog.categories[4].short",
+        "charlotte-prep:catalog.categories[4].full"
       ],
       "t": "विशेष रुचि"
     },
@@ -3694,7 +3703,8 @@
       "of": "d559270e",
       "at": [
         "charlotte-catholic:catalog.categories[2].short",
-        "charlotte-catholic:catalog.categories[2].full"
+        "charlotte-catholic:catalog.categories[2].full",
+        "charlotte-prep:catalog.categories[3].short"
       ],
       "t": "समुदाय"
     },
@@ -6800,7 +6810,8 @@
       "text": "2",
       "of": "370cabd5",
       "at": [
-        "hickory-grove-christian:service.programs[2].value"
+        "hickory-grove-christian:service.programs[2].value",
+        "charlotte-prep:service.programs[0].value"
       ],
       "t": "2"
     },
@@ -7679,7 +7690,8 @@
       "text": "Arts",
       "of": "278c981b",
       "at": [
-        "gaston-day:catalog.categories[4].short"
+        "gaston-day:catalog.categories[4].short",
+        "charlotte-prep:catalog.categories[2].short"
       ],
       "t": "कलाएँ"
     },
@@ -8213,7 +8225,8 @@
       "text": "the whole school",
       "of": "15f40749",
       "at": [
-        "trinity-episcopal:honors.societies[2].feedsFrom"
+        "trinity-episcopal:honors.societies[2].feedsFrom",
+        "charlotte-prep:honors.societies[2].feedsFrom"
       ],
       "t": "पूरा स्कूल"
     },
@@ -8569,6 +8582,262 @@
         "trinity-episcopal:catalog.clubs[16].note"
       ],
       "t": "इसका नाम 2026-27 की School Profile में है और साइट पर कहीं और नहीं; किसी भी तरह का कोई विवरण प्रकाशित नहीं है, और नाम से इसके उद्देश्य का कोई संकेत नहीं मिलता"
+    },
+    {
+      "text": "Service is built into the leadership program: two annual service days, a cross-age buddy system that pairs every Lower Schooler with an older student, and student-led drives.",
+      "of": "c6591d25",
+      "at": [
+        "charlotte-prep:service.headline"
+      ],
+      "t": "सेवा लीडरशिप कार्यक्रम का हिस्सा है: दो वार्षिक सेवा दिवस, अलग-अलग उम्र के छात्रों की एक buddy व्यवस्था जो हर Lower School छात्र को एक बड़े छात्र के साथ जोड़ती है, और छात्रों द्वारा चलाए जाने वाले अभियान।"
+    },
+    {
+      "text": "The school states five goals for it, from \"nurture compassion and empathy for others\" to \"develop a life-long commitment to service and our society\". \"The leadership curriculum expounds on the idea of servant leadership and the importance of civic engagement.\"",
+      "of": "a17b67cb",
+      "at": [
+        "charlotte-prep:service.subhead"
+      ],
+      "t": "स्कूल इसके लिए पाँच लक्ष्य बताता है, \"nurture compassion and empathy for others\" से लेकर \"develop a life-long commitment to service and our society\" तक। \"The leadership curriculum expounds on the idea of servant leadership and the importance of civic engagement.\""
+    },
+    {
+      "text": "annual service days",
+      "of": "4380c528",
+      "at": [
+        "charlotte-prep:service.programs[0].valueLabel"
+      ],
+      "t": "वार्षिक सेवा दिवस"
+    },
+    {
+      "text": "On the Family Day of Service, \"Prep families do service projects for local organizations\" on and off campus. On the Student Morning of Service, \"students engage in service work that addresses childhood literacy, child homelessness, animal welfare, homelessness, or economic inequality.\" Alongside both, the Parents Association’s holiday drive, Preppy’s Pantry, \"collects coats and non-perishable food items\", and Lower School students \"routinely visit a local nursing home to read and play games with residents.\"",
+      "of": "5b245330",
+      "at": [
+        "charlotte-prep:service.programs[0].detail"
+      ],
+      "t": "Family Day of Service पर, \"Prep families do service projects for local organizations\", कैंपस पर और बाहर दोनों जगह। Student Morning of Service पर, \"students engage in service work that addresses childhood literacy, child homelessness, animal welfare, homelessness, or economic inequality.\" इन दोनों के साथ, Parents Association का त्योहारी अभियान, Preppy’s Pantry, \"collects coats and non-perishable food items\", और Lower School के छात्र \"routinely visit a local nursing home to read and play games with residents.\""
+    },
+    {
+      "text": "BUDEE",
+      "of": "84cb79ba",
+      "at": [
+        "charlotte-prep:service.programs[1].value"
+      ],
+      "t": "BUDEE"
+    },
+    {
+      "text": "\"Be Understanding, Dedicated, Empathetic, and Engaged\"",
+      "of": "ff5e07e5",
+      "at": [
+        "charlotte-prep:service.programs[1].valueLabel"
+      ],
+      "t": "\"Be Understanding, Dedicated, Empathetic, and Engaged\""
+    },
+    {
+      "text": "BUDEE \"matches TK students from the Early School with 3rd Graders and each of the other Lower School students with a Middle School buddy\", and the pairs \"meet for community service, character education, and teamwork exercises.\" In 2023–24 the BUDEE groups ran programs for the International Day of Peace, Veterans Day, Hispanic Heritage Month, a Day of Service, Earth Day and more. Eighth graders also tutor their 4th-grade BUDEEs.",
+      "of": "c2191daf",
+      "at": [
+        "charlotte-prep:service.programs[1].detail"
+      ],
+      "t": "BUDEE \"matches TK students from the Early School with 3rd Graders and each of the other Lower School students with a Middle School buddy\", और ये जोड़ियाँ \"meet for community service, character education, and teamwork exercises.\" 2023–24 में BUDEE समूहों ने International Day of Peace, Veterans Day, Hispanic Heritage Month, एक Day of Service, Earth Day और अन्य अवसरों के लिए कार्यक्रम चलाए। कक्षा 8 के छात्र कक्षा 4 के अपने BUDEEs को पढ़ाई में मदद भी देते हैं।"
+    },
+    {
+      "text": "300+",
+      "of": "35d88a5b",
+      "at": [
+        "charlotte-prep:service.programs[2].value"
+      ],
+      "t": "300+"
+    },
+    {
+      "text": "registered for the 2024 Hurricane Helene benefit concert",
+      "of": "766df160",
+      "at": [
+        "charlotte-prep:service.programs[2].valueLabel"
+      ],
+      "t": "2024 के Hurricane Helene बेनिफ़िट कॉन्सर्ट के लिए पंजीकृत"
+    },
+    {
+      "text": "In October 2024 the student council ran a carpool-line supply drive for Hurricane Helene relief, every class made cards of hope, and the school co-hosted a benefit concert with 7th Street Concerts and the Sphinx Virtuosi; students \"filled a moving truck with essential goods\" and delivered it to the YMCA. Each February, second graders host a Black History Lunch & Learn for Charlotte community leaders — the seventh annual one was February 12, 2026.",
+      "of": "105ffdc4",
+      "at": [
+        "charlotte-prep:service.programs[2].detail"
+      ],
+      "t": "अक्टूबर 2024 में छात्र परिषद ने Hurricane Helene राहत के लिए carpool-लाइन पर सामग्री संग्रह अभियान चलाया, हर कक्षा ने उम्मीद के कार्ड बनाए, और स्कूल ने 7th Street Concerts और Sphinx Virtuosi के साथ मिलकर एक बेनिफ़िट कॉन्सर्ट आयोजित किया; छात्रों ने \"filled a moving truck with essential goods\" और उसे YMCA तक पहुँचाया। हर फ़रवरी, कक्षा 2 के छात्र Charlotte समुदाय के नेताओं के लिए Black History Lunch & Learn आयोजित करते हैं — सातवाँ वार्षिक आयोजन 12 फ़रवरी 2026 को हुआ।"
+    },
+    {
+      "text": "Recognition here is won, not chartered: first place in Junior Physics at the regional science fair three years running, and delegate awards at Charlotte’s Model UN conference.",
+      "of": "8c4fc814",
+      "at": [
+        "charlotte-prep:honors.headline"
+      ],
+      "t": "यहाँ सम्मान अर्जित किया जाता है, चार्टर से नहीं मिलता: क्षेत्रीय विज्ञान मेले में Junior Physics में लगातार तीन साल पहला स्थान, और Charlotte के Model UN सम्मेलन में डेलीगेट पुरस्कार।"
+    },
+    {
+      "text": "Charlotte Prep has no honor society. Its character framework is the Honor Code and the Four Pillars of leadership — respect, integrity, perseverance and courage.",
+      "of": "ed3ca68e",
+      "at": [
+        "charlotte-prep:honors.subhead"
+      ],
+      "t": "Charlotte Prep में कोई honor society नहीं है। इसका चरित्र-ढाँचा Honor Code और लीडरशिप के Four Pillars हैं — सम्मान, ईमानदारी, दृढ़ता और साहस।"
+    },
+    {
+      "text": "Students advanced to the North Carolina State Science & Engineering Fair seven times in 2024, five in 2025 and seven in 2026 (four Elementary, three Junior), with first place in Junior Physics in each of those three years. The school reports a 3rd place in physics at the 2024 state fair.",
+      "of": "a471a042",
+      "at": [
+        "charlotte-prep:honors.societies[0].recognizes"
+      ],
+      "t": "छात्र 2024 में सात बार, 2025 में पाँच बार और 2026 में सात बार (चार Elementary, तीन Junior) North Carolina State Science & Engineering Fair तक पहुँचे, और इन तीनों वर्षों में हर बार Junior Physics में पहला स्थान मिला। स्कूल 2024 के राज्य मेले में भौतिकी में 3रा स्थान बताता है।"
+    },
+    {
+      "text": "A club since 2020 and a CHARMUN member school since 2023. The school’s first delegate awards came in 2023; in 2024, with 20 delegates attending, it won a vocal commendation and a Most-Improved Delegate award.",
+      "of": "c464a5e4",
+      "at": [
+        "charlotte-prep:honors.societies[1].recognizes"
+      ],
+      "t": "2020 से एक क्लब और 2023 से CHARMUN सदस्य स्कूल। स्कूल को पहले डेलीगेट पुरस्कार 2023 में मिले; 2024 में, 20 डेलीगेट्स की उपस्थिति के साथ, उसने एक vocal commendation और एक Most-Improved Delegate पुरस्कार जीता।"
+    },
+    {
+      "text": "a club",
+      "of": "056514e8",
+      "at": [
+        "charlotte-prep:honors.societies[1].feedsFrom"
+      ],
+      "t": "एक क्लब"
+    },
+    {
+      "text": "Leads Middle School assemblies and organized the 2024 Hurricane Helene relief drive; in 2023 more than a third of 5th graders ran for it.",
+      "of": "2b7c3029",
+      "at": [
+        "charlotte-prep:honors.societies[2].recognizes"
+      ],
+      "t": "Middle School की सभाओं का नेतृत्व करती है और 2024 का Hurricane Helene राहत अभियान आयोजित किया; 2023 में कक्षा 5 के एक-तिहाई से ज़्यादा छात्रों ने इसका चुनाव लड़ा।"
+    },
+    {
+      "text": "Seven Middle School clubs and activities on the school’s own record.",
+      "of": "f6930879",
+      "at": [
+        "charlotte-prep:catalog.verdict"
+      ],
+      "t": "स्कूल के अपने रिकॉर्ड में Middle School के सात क्लब और गतिविधियाँ।"
+    },
+    {
+      "text": "No clubs list is published — each one here appears in the school’s news.",
+      "of": "74326a4d",
+      "at": [
+        "charlotte-prep:catalog.verdictHint"
+      ],
+      "t": "कोई क्लब सूची प्रकाशित नहीं है — यहाँ दिया हर क्लब स्कूल की ख़बरों में दिखता है।"
+    },
+    {
+      "text": "clubs on record",
+      "of": "d27802cc",
+      "at": [
+        "charlotte-prep:catalog.countNoun"
+      ],
+      "t": "रिकॉर्ड में दर्ज क्लब"
+    },
+    {
+      "text": "Arts & production",
+      "of": "ef7245d0",
+      "at": [
+        "charlotte-prep:catalog.categories[2].full"
+      ],
+      "t": "कला और प्रोडक्शन"
+    },
+    {
+      "text": "Culture & community",
+      "of": "0b7b4aa6",
+      "at": [
+        "charlotte-prep:catalog.categories[3].full"
+      ],
+      "t": "संस्कृति और समुदाय"
+    },
+    {
+      "text": "Grades 5–8, with an 8th-grade president; led the 2024–25 Middle School assemblies and the Hurricane Helene relief drive",
+      "of": "4d83ff25",
+      "at": [
+        "charlotte-prep:catalog.clubs[0].note"
+      ],
+      "t": "कक्षा 5–8, कक्षा 8 के एक अध्यक्ष के साथ; 2024–25 की Middle School सभाओं और Hurricane Helene राहत अभियान का नेतृत्व किया"
+    },
+    {
+      "text": "Middle School students who lead guest tours, most recently at the 2nd-grade Black History Lunch & Learn in February 2026",
+      "of": "ffe793c8",
+      "at": [
+        "charlotte-prep:catalog.clubs[1].note"
+      ],
+      "t": "Middle School के छात्र जो मेहमानों को टूर कराते हैं, हाल ही में फ़रवरी 2026 में कक्षा 2 के Black History Lunch & Learn में"
+    },
+    {
+      "text": "A club since 2020; CHARMUN member school since 2023, with delegate awards in 2023 and 2024",
+      "of": "84f056ea",
+      "at": [
+        "charlotte-prep:catalog.clubs[2].note"
+      ],
+      "t": "2020 से एक क्लब; 2023 से CHARMUN सदस्य स्कूल, 2023 और 2024 में डेलीगेट पुरस्कारों के साथ"
+    },
+    {
+      "text": "Middle School; built props and costumes for the November 2025 one-act, Alice",
+      "of": "465f4047",
+      "at": [
+        "charlotte-prep:catalog.clubs[3].note"
+      ],
+      "t": "Middle School; नवंबर 2025 के एकांकी Alice के लिए प्रॉप्स और पोशाकें बनाईं"
+    },
+    {
+      "text": "Runs the spring stage show alongside the set design club — named for Willy Wonka Jr. in 2024",
+      "of": "4a5d5cad",
+      "at": [
+        "charlotte-prep:catalog.clubs[4].note"
+      ],
+      "t": "सेट डिज़ाइन क्लब के साथ मिलकर वसंत का मंच-शो चलाता है — 2024 में Willy Wonka Jr. के संदर्भ में नामित"
+    },
+    {
+      "text": "The Middle School diversity club; ten members attended the ACT Middle School Diversity Conference in both 2023–24 and 2024–25",
+      "of": "fd136df6",
+      "at": [
+        "charlotte-prep:catalog.clubs[5].note"
+      ],
+      "t": "Middle School का विविधता क्लब; दस सदस्यों ने 2023–24 और 2024–25 दोनों में ACT Middle School Diversity Conference में भाग लिया"
+    },
+    {
+      "text": "Founded by a student in the Class of 2023; last mentioned in January 2024",
+      "of": "9bd5b388",
+      "at": [
+        "charlotte-prep:catalog.clubs[6].note"
+      ],
+      "t": "2023 बैच के एक छात्र द्वारा स्थापित; आख़िरी बार जनवरी 2024 में उल्लेख"
+    },
+    {
+      "text": "Joy Term (K–8)",
+      "of": "c003bd18",
+      "at": [
+        "charlotte-prep:catalog.divisions[0].label"
+      ],
+      "t": "Joy Term (K–8)"
+    },
+    {
+      "text": "Each January since 2025, \"over 20 mini-courses\" — from Juggling and Prep Poetry Jam to Show Choir and Surviving the Zombie Apocalypse — with each student taking 3 to 4.",
+      "of": "78ddb3f0",
+      "at": [
+        "charlotte-prep:catalog.divisions[0].text"
+      ],
+      "t": "2025 से हर जनवरी, \"over 20 mini-courses\" — Juggling और Prep Poetry Jam से लेकर Show Choir और Surviving the Zombie Apocalypse तक — जिनमें से हर छात्र 3 से 4 लेता है।"
+    },
+    {
+      "text": "After School Studios",
+      "of": "07c5e7a8",
+      "at": [
+        "charlotte-prep:catalog.divisions[1].label"
+      ],
+      "t": "After School Studios"
+    },
+    {
+      "text": "Fee-based studios each fall and spring, such as STEM, Hindi, chorus, ukulele, printmaking and theatre — covered in the After School section.",
+      "of": "c35a0376",
+      "at": [
+        "charlotte-prep:catalog.divisions[1].text"
+      ],
+      "t": "हर पतझड़ और वसंत में शुल्क वाले स्टूडियो, जैसे STEM, हिन्दी, chorus, ukulele, printmaking और थिएटर — After School अनुभाग में शामिल।"
     }
   ]
 }

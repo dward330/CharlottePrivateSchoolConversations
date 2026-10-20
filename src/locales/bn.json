@@ -179,7 +179,10 @@
     "welcomeCaption": "{{school}}-এর নিজের ভাষায় একটি পরিচিতি। দেখতে play চাপুন।",
     "welcomeFrom": "স্কুলের পক্ষ থেকে",
     "welcomeIframeTitle": "{{school}} — স্বাগত ভিডিও",
-    "welcomeVideo": "স্বাগত ভিডিও"
+    "welcomeVideo": "স্বাগত ভিডিও",
+    "classVideo": "{{year}} ব্যাচ হাই স্কুলের জন্য কোথায় যাচ্ছে",
+    "classVideoCaption": "{{year}} ব্যাচ হাই স্কুলের জন্য কোথায় যাচ্ছে, তা নিয়ে {{school}}-এর নিজস্ব ভিডিও। দেখতে প্লে চাপুন।",
+    "classVideoIframeTitle": "{{school}} — {{year}} ব্যাচের হাই স্কুল গন্তব্য"
   },
   "sports": {
     "stateTitleMatrix_one": "রাজ্য-শিরোপার ছক, সর্বশেষ {{count}} মৌসুম",
@@ -423,7 +426,11 @@
     "international-travel.network@cannon": "World Affairs Council, Model UN ও Global Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International ও Winterim-এর মিশন-অংশীদারেরা",
     "international-travel.credential@davidson-day": "Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR ও প্রত্নতত্ত্ব সম্মেলন"
+    "international-travel.network@davidson-day": "AFAR ও প্রত্নতত্ত্ব সম্মেলন",
+    "admissions.guide@covenant-day": "শ্রেণিভিত্তিক আবেদন নির্দেশিকা — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "শ্রেণিভিত্তিক আবেদন নির্দেশিকা — Early School ও K · 1–8",
+    "the-arts.ladder@charlotte-prep": "PreK–8 আর্টস ধাপ",
+    "the-arts.theatre@charlotte-prep": "থিয়েটার ও শ্রেণিভিত্তিক প্রযোজনা"
   },
   "cardLabels": {
     "afternoonRhythm": "বিকেলের ছন্দ",
@@ -544,7 +551,13 @@
     "searchEmpty": "“{{query}}” -এর সঙ্গে কোনো স্কুল মেলেনি — ছোট শব্দ দিয়ে দেখুন।",
     "statusClosed": "এখন স্থায়ীভাবে বন্ধ",
     "statusMerged": "অন্য স্কুলের সঙ্গে একীভূত",
-    "crossLinkLegend": "বোঝায় যে এই পোর্টালে ওই স্কুলের নিজস্ব পাতা আছে — স্কুলের নামে ক্লিক করুন"
+    "crossLinkLegend": "বোঝায় যে এই পোর্টালে ওই স্কুলের নিজস্ব পাতা আছে — স্কুলের নামে ক্লিক করুন",
+    "viewLabel": "দেখুন",
+    "viewAllAlumni": "সব প্রাক্তন শিক্ষার্থী",
+    "countLegend": "প্রতিটি স্কুলের বাঁ পাশের সংখ্যাটি জানায় {{year}} ব্যাচের কতজন গ্র্যাজুয়েট সেখানে যাচ্ছে — স্কুলের নিজস্ব ব্যাচ-ঘোষণা থেকে আমাদের গণনা।",
+    "tallyClass": "{{year}} ব্যাচ",
+    "tallyListed_one": "তালিকায় {{count}} জন গ্র্যাজুয়েট",
+    "tallyListed_other": "তালিকায় {{count}} জন গ্র্যাজুয়েট"
   },
   "photoViewer": {
     "open": "ছবি বড় করে দেখুন: {{name}}",

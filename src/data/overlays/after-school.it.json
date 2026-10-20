@@ -1056,7 +1056,8 @@
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
         "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season"
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1452,7 +1453,8 @@
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
         "carmel-christian:dayInside.wordsTitle",
-        "trinity-episcopal:dayInside.wordsTitle"
+        "trinity-episcopal:dayInside.wordsTitle",
+        "charlotte-prep:dayInside.wordsTitle"
       ]
     },
     {
@@ -2749,7 +2751,8 @@
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
         "gaston-day:coverage.facts[0].label",
-        "trinity-episcopal:coverage.facts[1].label"
+        "trinity-episcopal:coverage.facts[1].label",
+        "charlotte-prep:coverage.facts[2].label"
       ]
     },
     {
@@ -3212,7 +3215,8 @@
       "t": "tempo per i compiti",
       "of": "a3f22180",
       "at": [
-        "charlotte-country-day:dayInside.words[0]"
+        "charlotte-country-day:dayInside.words[0]",
+        "charlotte-prep:dayInside.words[1]"
       ]
     },
     {
@@ -3874,7 +3878,8 @@
       "of": "5e92d4cb",
       "at": [
         "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[8].gradeLabel",
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
       ]
     },
     {
@@ -3903,7 +3908,9 @@
       "t": "3–5",
       "of": "72b1a582",
       "at": [
-        "cannon:dayInside.classes[4].gradeLabel"
+        "cannon:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {
@@ -3938,7 +3945,8 @@
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel"
+        "cannon:dayInside.classes[7].gradeLabel",
+        "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -4078,7 +4086,9 @@
       "t": "3–6",
       "of": "71b1a3ef",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
       ]
     },
     {
@@ -4092,7 +4102,8 @@
       "t": "K–4",
       "of": "6492de3d",
       "at": [
-        "cannon:dayInside.classes[20].gradeLabel"
+        "cannon:dayInside.classes[20].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
@@ -6725,7 +6736,8 @@
       "t": "inizia all’uscita",
       "of": "25420411",
       "at": [
-        "trinity-episcopal:coverage.rows[0].dismissal"
+        "trinity-episcopal:coverage.rows[0].dismissal",
+        "charlotte-prep:coverage.rows[2].dismissal"
       ]
     },
     {
@@ -6739,7 +6751,8 @@
       "t": "prima della scuola",
       "of": "bbb5f13e",
       "at": [
-        "trinity-episcopal:coverage.rows[1].dismissal"
+        "trinity-episcopal:coverage.rows[1].dismissal",
+        "charlotte-prep:coverage.rows[3].dismissal"
       ]
     },
     {
@@ -6851,7 +6864,8 @@
       "t": "Personale",
       "of": "0d19a971",
       "at": [
-        "trinity-episcopal:coverage.facts[5].label"
+        "trinity-episcopal:coverage.facts[5].label",
+        "charlotte-prep:coverage.facts[3].label"
       ]
     },
     {
@@ -7096,6 +7110,475 @@
       "of": "9fb6faf4",
       "at": [
         "trinity-episcopal:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "Un unico After School Program K–8 dall’uscita fino alle 5:30 p.m. a un solo prezzo annuale, un Extended Day separato per la Early School — e nessuna assistenza mattutina.",
+      "of": "1b1c88eb",
+      "at": [
+        "charlotte-prep:coverage.headline"
+      ]
+    },
+    {
+      "t": "L’accompagnamento a scuola è possibile dalle 7:45 a.m. per Lower e Middle School e dalle 8:00 a.m. per la Early School.",
+      "of": "fa7c092a",
+      "at": [
+        "charlotte-prep:coverage.subhead"
+      ]
+    },
+    {
+      "t": "I prezzi sulle barre sono le cifre **annuali 2026–27** della pagina delle rette. La scuola non fissa il prezzo dell’assistenza pomeridiana in base ai giorni a settimana; per un uso occasionale c’è invece l’ingresso libero a **$20/ora**.",
+      "of": "57933404",
+      "at": [
+        "charlotte-prep:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "il programma di mezza giornata termina alle 12:00",
+      "of": "44fe5348",
+      "at": [
+        "charlotte-prep:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "Extended Day · 12:00–5:30 · $5,900/yr",
+      "of": "1e712fe6",
+      "at": [
+        "charlotte-prep:coverage.rows[0].flatLabel"
+      ]
+    },
+    {
+      "t": "uscita alle 2:30",
+      "of": "3bf3dddd",
+      "at": [
+        "charlotte-prep:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "TK Extended Day · 2:30–5:30 · $2,700/yr",
+      "of": "ed47ad14",
+      "at": [
+        "charlotte-prep:coverage.rows[1].flatLabel"
+      ]
+    },
+    {
+      "t": "After School Program · 3:00–5:30 · $4,500/yr",
+      "of": "d22681e6",
+      "at": [
+        "charlotte-prep:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "Nessuna assistenza prima della scuola — ingresso dalle 7:45 (8:00 Early School)",
+      "of": "62dd3216",
+      "at": [
+        "charlotte-prep:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "**Summer Adventures at Prep** si è svolto per sette settimane nel 2026, dall’8 giugno al 31 luglio, per i partecipanti dalla Early School alla classe 8ª, con l’accoglienza anticipata 8:00–9:00 a.m. e l’assistenza post-campo 4:00–5:00 p.m. a **$60/settimana** ciascuna.",
+      "of": "30029ab8",
+      "at": [
+        "charlotte-prep:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "Fasce d’età",
+      "of": "00d0937c",
+      "at": [
+        "charlotte-prep:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "\"kindergarteners, first and second graders, third and fourth graders, and then our middle school students\"",
+      "of": "1b8efb9d",
+      "at": [
+        "charlotte-prep:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Fratelli e sorelle",
+      "of": "70b3463e",
+      "at": [
+        "charlotte-prep:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "\"We provide complimentary care for younger students who have siblings with a later dismissal time.\"",
+      "of": "0b44d9cd",
+      "at": [
+        "charlotte-prep:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "**$20/ora**, dal Montessori Kindergarten alla classe 8ª",
+      "of": "7e28b5fd",
+      "at": [
+        "charlotte-prep:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "**Justen Kirchner**, Director of Auxiliary Programs, supervisiona l’after school, l’extended day, gli studios e il campo estivo; l’elenco del personale riporta **14** insegnanti dell’After School Program",
+      "of": "81ada1bb",
+      "at": [
+        "charlotte-prep:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "Un unico prezzo annuale — $4,500 per i pomeriggi K–8 fino alle 5:30 — con un ingresso libero a $20 l’ora per le famiglie che hanno bisogno dell’assistenza solo ogni tanto.",
+      "of": "0ef39748",
+      "at": [
+        "charlotte-prep:cost.headline"
+      ]
+    },
+    {
+      "t": "Le tariffe 2026–27, dalla pagina delle rette della scuola stessa. L’Extended Day della Early School ha un prezzo a parte.",
+      "of": "99ab8b5b",
+      "at": [
+        "charlotte-prep:cost.subhead"
+      ]
+    },
+    {
+      "t": "prezzo annuale",
+      "of": "f046b46f",
+      "at": [
+        "charlotte-prep:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "K–Gr 8 · 3:00–5:30",
+      "of": "7910e4a5",
+      "at": [
+        "charlotte-prep:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "Dal Kindergarten alla classe 8 · 3:00–5:30 pm",
+      "of": "97e0bf29",
+      "at": [
+        "charlotte-prep:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "TK Extended Day · 2:30–5:30",
+      "of": "797e0aee",
+      "at": [
+        "charlotte-prep:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten Extended Day · 2:30–5:30 pm",
+      "of": "58b4e67c",
+      "at": [
+        "charlotte-prep:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30",
+      "of": "28cc8aca",
+      "at": [
+        "charlotte-prep:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30 pm",
+      "of": "efd2c105",
+      "at": [
+        "charlotte-prep:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "Oppure a ingresso libero, a ore.",
+      "of": "a1c438c6",
+      "at": [
+        "charlotte-prep:cost.aside.title"
+      ]
+    },
+    {
+      "t": "L’assistenza a ingresso libero costa **$20 l’ora** dal Montessori Kindergarten alla classe 8ª. Un pomeriggio intero fino alle 5:30 costa circa **$50** a ingresso libero, contro all’incirca **$25 a pomeriggio** con il piano annuale su un anno di 180 giorni.",
+      "of": "5d37cc00",
+      "at": [
+        "charlotte-prep:cost.aside.text"
+      ]
+    },
+    {
+      "t": "After School Program, K–8 (annuale)",
+      "of": "ac412f57",
+      "at": [
+        "charlotte-prep:cost.fees[0].label"
+      ]
+    },
+    {
+      "t": "$4,500",
+      "of": "3274a76a",
+      "at": [
+        "charlotte-prep:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Ingresso libero, Montessori K–8",
+      "of": "900cc507",
+      "at": [
+        "charlotte-prep:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$20 / hr",
+      "of": "2253fbf2",
+      "at": [
+        "charlotte-prep:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Pre-Primary/Primary School Day, 12:00–2:30/3:00",
+      "of": "d4ef633b",
+      "at": [
+        "charlotte-prep:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "$3,400",
+      "of": "ecf49030",
+      "at": [
+        "charlotte-prep:cost.fees[2].value"
+      ]
+    },
+    {
+      "t": "L’opzione **School Day** è riservata solo \"for students with siblings enrolled at Prep in TK-8th grade.\" Gli **After School Studios** prevedono una quota a parte per ciascun corso, che la scuola non indica.",
+      "of": "b093f039",
+      "at": [
+        "charlotte-prep:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "Merenda, tempo per i compiti, temi mensili, attività pratiche e tempo libero — più studios di 12 settimane di lingua, teatro, musica, arte e STEM.",
+      "of": "6e2367a1",
+      "at": [
+        "charlotte-prep:dayInside.headline"
+      ]
+    },
+    {
+      "t": "\"Classes are led by warm and enthusiastic teachers and include a healthy mix of age-appropriate activities, homework time, and free time.\"",
+      "of": "a9321611",
+      "at": [
+        "charlotte-prep:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "merenda pomeridiana",
+      "of": "0b8f397d",
+      "at": [
+        "charlotte-prep:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "temi mensili",
+      "of": "06b19e00",
+      "at": [
+        "charlotte-prep:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "attività pratiche",
+      "of": "11638716",
+      "at": [
+        "charlotte-prep:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "tempo libero",
+      "of": "01eed358",
+      "at": [
+        "charlotte-prep:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "routine sane",
+      "of": "41c1ce67",
+      "at": [
+        "charlotte-prep:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "un ambiente amorevole e accogliente",
+      "of": "e28b382b",
+      "at": [
+        "charlotte-prep:dayInside.words[6]"
+      ]
+    },
+    {
+      "t": "After School Studios — una selezione",
+      "of": "752279f7",
+      "at": [
+        "charlotte-prep:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "\"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks.\" Gli studios durano **da 45 minuti a un’ora**, gli studenti vi vengono accompagnati dal loro insegnante, e \"there is a fee, separate from Charlotte Prep's annual tuition, associated with each class.\" La scuola li presenta come offerte **di esempio**, non come il calendario di questo trimestre.",
+      "of": "a057204d",
+      "at": [
+        "charlotte-prep:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "Settimanale: conversazione per i più piccoli, scrittura per gli studenti avanzati e cultura attraverso arte e lavoretti.",
+      "of": "58febb38",
+      "at": [
+        "charlotte-prep:dayInside.classes[0].desc"
+      ]
+    },
+    {
+      "t": "Recitazione e comunicazione, con una rappresentazione informale di Reader’s Theatre finale.",
+      "of": "dab5dc57",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "Fare il provino e recitare in un atto unico.",
+      "of": "e1c0cf53",
+      "at": [
+        "charlotte-prep:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "Accordi e tecnica di strumming.",
+      "of": "b9eaca1b",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "Sperimentare, progettare, costruire e testare nello STEM Lab.",
+      "of": "256293b5",
+      "at": [
+        "charlotte-prep:dayInside.classes[4].desc"
+      ]
+    },
+    {
+      "t": "Nell’Art Studio, 3:15–4:00.",
+      "of": "5b19d526",
+      "at": [
+        "charlotte-prep:dayInside.classes[5].desc"
+      ]
+    },
+    {
+      "t": "Linoleum, serigrafia e collografia, 3:15–4:00.",
+      "of": "02946049",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].desc"
+      ]
+    },
+    {
+      "t": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].gradeLabel"
+      ]
+    },
+    {
+      "t": "Comprende esibizioni canore fuori dal campus in sedi come il Knights Stadium e il Bojangles Coliseum.",
+      "of": "42efe35a",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "1–2",
+      "of": "ab9ea77d",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "Si riunisce prima delle lezioni, 7:15–8:00 a.m., nel Music Cottage — studenti di 3ª e 4ª classe, più quelli di 5ª e 6ª nella Band.",
+      "of": "e84e428c",
+      "at": [
+        "charlotte-prep:dayInside.classes[8].desc"
+      ]
+    },
+    {
+      "t": "Un programma pomeridiano semplice e dal prezzo chiaro: un’unica quota annuale per ogni classe K–8, un’alternativa oraria e assistenza gratuita per un fratello minore che aspetta quello più grande.",
+      "of": "81b24a49",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ]
+    },
+    {
+      "t": "**Un unico prezzo annuale chiaro.** $4,500 coprono i pomeriggi K–8 fino alle 5:30 p.m., e un ingresso libero a $20 l’ora copre l’uso occasionale.",
+      "of": "8f2a6aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Assistenza gratuita per i fratelli minori** in attesa dell’uscita più tardiva di un fratello maggiore.",
+      "of": "e7156aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Quattro fasce d’età con il tempo per i compiti incluso** — K, 1–2, 3–4 e Middle School — più una merenda e temi mensili.",
+      "of": "93d8aee8",
+      "at": [
+        "charlotte-prep:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Studios di dodici settimane** di lingua, teatro, musica, arte e STEM ogni autunno e primavera.",
+      "of": "1eb5e0fa",
+      "at": [
+        "charlotte-prep:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Un direttore dedicato** gestisce insieme after school, extended day, studios e campo estivo.",
+      "of": "ce5304c8",
+      "at": [
+        "charlotte-prep:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "L’assistenza pomeridiana è offerta nei giorni di lavoro dei docenti, nelle festività e nei giorni di uscita anticipata, e a quale costo?",
+      "of": "45674143",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Qual è la politica per il ritiro in ritardo dopo le 5:30 p.m.?",
+      "of": "454a80af",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Quali studios sono attivi in questo trimestre, in quali giorni, e quanto costa ciascuno?",
+      "of": "7cb6c90c",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Un bambino del Montessori Kindergarten può iscriversi all’After School Program annuale, o solo usufruire dell’ingresso libero?",
+      "of": "aacee27e",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Lo sconto fratelli del 3% si applica alle quote dell’assistenza pomeridiana?",
+      "of": "ef1cfe82",
+      "at": [
+        "charlotte-prep:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Esiste qualche opzione con sorveglianza prima delle 7:45 a.m.?",
+      "of": "95cebc68",
+      "at": [
+        "charlotte-prep:verdict.checklist[5]"
       ]
     }
   ]

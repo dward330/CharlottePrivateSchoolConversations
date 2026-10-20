@@ -1203,7 +1203,8 @@
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
         "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season"
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ],
       "t": "JEN–JIYÈ"
     },
@@ -1653,7 +1654,8 @@
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
         "carmel-christian:dayInside.wordsTitle",
-        "trinity-episcopal:dayInside.wordsTitle"
+        "trinity-episcopal:dayInside.wordsTitle",
+        "charlotte-prep:dayInside.wordsTitle"
       ],
       "t": "Pwogram nan, nan pwòp mo lekòl la"
     },
@@ -3130,7 +3132,8 @@
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
         "gaston-day:coverage.facts[0].label",
-        "trinity-episcopal:coverage.facts[1].label"
+        "trinity-episcopal:coverage.facts[1].label",
+        "charlotte-prep:coverage.facts[2].label"
       ],
       "t": "San randevou"
     },
@@ -3659,7 +3662,8 @@
       "text": "homework time",
       "of": "a3f22180",
       "at": [
-        "charlotte-country-day:dayInside.words[0]"
+        "charlotte-country-day:dayInside.words[0]",
+        "charlotte-prep:dayInside.words[1]"
       ],
       "t": "tan pou devwa"
     },
@@ -4415,7 +4419,8 @@
       "of": "5e92d4cb",
       "at": [
         "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[8].gradeLabel",
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
       ],
       "t": "K–2"
     },
@@ -4448,7 +4453,9 @@
       "text": "3–5",
       "of": "72b1a582",
       "at": [
-        "cannon:dayInside.classes[4].gradeLabel"
+        "cannon:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ],
       "t": "3–5"
     },
@@ -4488,7 +4495,8 @@
       "text": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel"
+        "cannon:dayInside.classes[7].gradeLabel",
+        "charlotte-prep:dayInside.classes[2].gradeLabel"
       ],
       "t": "3–8"
     },
@@ -4648,7 +4656,9 @@
       "text": "3–6",
       "of": "71b1a3ef",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
       ],
       "t": "3–6"
     },
@@ -4664,7 +4674,8 @@
       "text": "K–4",
       "of": "6492de3d",
       "at": [
-        "cannon:dayInside.classes[20].gradeLabel"
+        "cannon:dayInside.classes[20].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ],
       "t": "K–4"
     },
@@ -7672,7 +7683,8 @@
       "text": "begins at dismissal",
       "of": "25420411",
       "at": [
-        "trinity-episcopal:coverage.rows[0].dismissal"
+        "trinity-episcopal:coverage.rows[0].dismissal",
+        "charlotte-prep:coverage.rows[2].dismissal"
       ],
       "t": "kòmanse lè lekòl la lage"
     },
@@ -7688,7 +7700,8 @@
       "text": "before school",
       "of": "bbb5f13e",
       "at": [
-        "trinity-episcopal:coverage.rows[1].dismissal"
+        "trinity-episcopal:coverage.rows[1].dismissal",
+        "charlotte-prep:coverage.rows[3].dismissal"
       ],
       "t": "anvan lekòl"
     },
@@ -7816,7 +7829,8 @@
       "text": "Staff",
       "of": "0d19a971",
       "at": [
-        "trinity-episcopal:coverage.facts[5].label"
+        "trinity-episcopal:coverage.facts[5].label",
+        "charlotte-prep:coverage.facts[3].label"
       ],
       "t": "Pèsonèl"
     },
@@ -8097,6 +8111,542 @@
         "trinity-episcopal:verdict.checklist[9]"
       ],
       "t": "Èske gen okenn opsyon ak sipèvizyon anvan lekòl, menm gratis — e si non, kisa fanmi k ap travay yo fè anjeneral?"
+    },
+    {
+      "text": "One K–8 After School Program from dismissal to 5:30 p.m. at a single annual price, a separate Extended Day for the Early School — and no morning care.",
+      "of": "1b1c88eb",
+      "at": [
+        "charlotte-prep:coverage.headline"
+      ],
+      "t": "Yon sèl After School Program K–8 soti lè lekòl lage rive 5:30 p.m. pou yon sèl pri anyèl, yon Extended Day apa pou Early School la — epi pa gen swen nan maten."
+    },
+    {
+      "text": "Drop-off opens at 7:45 a.m. for Lower and Middle School and 8:00 a.m. for the Early School.",
+      "of": "fa7c092a",
+      "at": [
+        "charlotte-prep:coverage.subhead"
+      ],
+      "t": "Lè pou depoze timoun yo kòmanse a 7:45 a.m. pou Lower School ak Middle School epi a 8:00 a.m. pou Early School la."
+    },
+    {
+      "text": "Prices on the bars are the **2026–27 annual** figures from the tuition page. The school does not price after-school care by days per week; occasional use is the **$20/hour** drop-in instead.",
+      "of": "57933404",
+      "at": [
+        "charlotte-prep:coverage.basisNote"
+      ],
+      "t": "Pri sou ba yo se chif **anyèl 2026–27** yo ki soti nan paj frè eskolè a. Lekòl la pa fikse pri swen apre lekòl selon kantite jou pa semèn; pou itilizasyon okazyonèl, se opsyon san randevou **$20/èdtan** lan."
+    },
+    {
+      "text": "half-day program ends 12:00",
+      "of": "44fe5348",
+      "at": [
+        "charlotte-prep:coverage.rows[0].dismissal"
+      ],
+      "t": "pwogram demi jounen an fini a 12:00"
+    },
+    {
+      "text": "Extended Day · 12:00–5:30 · $5,900/yr",
+      "of": "1e712fe6",
+      "at": [
+        "charlotte-prep:coverage.rows[0].flatLabel"
+      ],
+      "t": "Extended Day · 12:00–5:30 · $5,900/ane"
+    },
+    {
+      "text": "dismissal 2:30",
+      "of": "3bf3dddd",
+      "at": [
+        "charlotte-prep:coverage.rows[1].dismissal"
+      ],
+      "t": "lekòl lage a 2:30"
+    },
+    {
+      "text": "TK Extended Day · 2:30–5:30 · $2,700/yr",
+      "of": "ed47ad14",
+      "at": [
+        "charlotte-prep:coverage.rows[1].flatLabel"
+      ],
+      "t": "TK Extended Day · 2:30–5:30 · $2,700/ane"
+    },
+    {
+      "text": "After School Program · 3:00–5:30 · $4,500/yr",
+      "of": "d22681e6",
+      "at": [
+        "charlotte-prep:coverage.rows[2].flatLabel"
+      ],
+      "t": "After School Program · 3:00–5:30 · $4,500/ane"
+    },
+    {
+      "text": "No before-school care — drop-off from 7:45 (8:00 Early School)",
+      "of": "62dd3216",
+      "at": [
+        "charlotte-prep:coverage.rows[3].flatLabel"
+      ],
+      "t": "Pa gen swen anvan lekòl — depoze timoun depi 7:45 (8:00 pou Early School)"
+    },
+    {
+      "text": "**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade, with Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m. at **$60/week** each.",
+      "of": "30029ab8",
+      "at": [
+        "charlotte-prep:coverage.summer.text"
+      ],
+      "t": "**Summer Adventures at Prep** te dire sèt semèn an 2026, soti 8 jen rive 31 jiyè, pou timoun depi Early School rive 8yèm ane, ak swen anvan kan 8:00–9:00 a.m. ak swen apre kan 4:00–5:00 p.m. pou **$60/semèn** chak."
+    },
+    {
+      "text": "Age groups",
+      "of": "00d0937c",
+      "at": [
+        "charlotte-prep:coverage.facts[0].label"
+      ],
+      "t": "Gwoup laj"
+    },
+    {
+      "text": "\"kindergarteners, first and second graders, third and fourth graders, and then our middle school students\"",
+      "of": "1b8efb9d",
+      "at": [
+        "charlotte-prep:coverage.facts[0].text"
+      ],
+      "t": "\"kindergarteners, first and second graders, third and fourth graders, and then our middle school students\""
+    },
+    {
+      "text": "Siblings",
+      "of": "70b3463e",
+      "at": [
+        "charlotte-prep:coverage.facts[1].label"
+      ],
+      "t": "Frè ak sè"
+    },
+    {
+      "text": "\"We provide complimentary care for younger students who have siblings with a later dismissal time.\"",
+      "of": "0b44d9cd",
+      "at": [
+        "charlotte-prep:coverage.facts[1].text"
+      ],
+      "t": "\"We provide complimentary care for younger students who have siblings with a later dismissal time.\""
+    },
+    {
+      "text": "**$20/hour**, Montessori Kindergarten through 8th grade",
+      "of": "7e28b5fd",
+      "at": [
+        "charlotte-prep:coverage.facts[2].text"
+      ],
+      "t": "**$20/èdtan**, Montessori Kindergarten rive 8yèm ane"
+    },
+    {
+      "text": "**Justen Kirchner**, Director of Auxiliary Programs, oversees after school, extended day, studios and summer camp; the staff directory lists **14** After School Program Teachers",
+      "of": "81ada1bb",
+      "at": [
+        "charlotte-prep:coverage.facts[3].text"
+      ],
+      "t": "**Justen Kirchner**, Direktè Pwogram Oksilyè, sipèvize swen apre lekòl, extended day, studio yo ak kan ete a; anyè pèsonèl la bay non **14** pwofesè After School Program"
+    },
+    {
+      "text": "One annual price — $4,500 for K–8 afternoons to 5:30 — with a $20-an-hour drop-in for families who only need care now and then.",
+      "of": "0ef39748",
+      "at": [
+        "charlotte-prep:cost.headline"
+      ],
+      "t": "Yon sèl pri anyèl — $4,500 pou apremidi K–8 rive 5:30 — ak yon opsyon san randevou $20 pa èdtan pou fanmi ki bezwen swen sèlman de tanzantan."
+    },
+    {
+      "text": "The 2026–27 rates, from the school’s own tuition page. The Early School’s Extended Day is priced separately.",
+      "of": "99ab8b5b",
+      "at": [
+        "charlotte-prep:cost.subhead"
+      ],
+      "t": "Tarif 2026–27 yo, ki soti nan pwòp paj frè eskolè lekòl la. Extended Day Early School la gen pri apa."
+    },
+    {
+      "text": "annual price",
+      "of": "f046b46f",
+      "at": [
+        "charlotte-prep:cost.periodsLabel"
+      ],
+      "t": "pri anyèl"
+    },
+    {
+      "text": "K–Gr 8 · 3:00–5:30",
+      "of": "7910e4a5",
+      "at": [
+        "charlotte-prep:cost.rows[0].label"
+      ],
+      "t": "K–Gr 8 · 3:00–5:30"
+    },
+    {
+      "text": "Kindergarten–Grade 8 · 3:00–5:30 pm",
+      "of": "97e0bf29",
+      "at": [
+        "charlotte-prep:cost.rows[0].panelLabel"
+      ],
+      "t": "Kindergarten–8yèm ane · 3:00–5:30 pm"
+    },
+    {
+      "text": "TK Extended Day · 2:30–5:30",
+      "of": "797e0aee",
+      "at": [
+        "charlotte-prep:cost.rows[1].label"
+      ],
+      "t": "TK Extended Day · 2:30–5:30"
+    },
+    {
+      "text": "Transitional Kindergarten Extended Day · 2:30–5:30 pm",
+      "of": "58b4e67c",
+      "at": [
+        "charlotte-prep:cost.rows[1].panelLabel"
+      ],
+      "t": "Transitional Kindergarten Extended Day · 2:30–5:30 pm"
+    },
+    {
+      "text": "Pre-Primary/Primary Extended Day · 12:00–5:30",
+      "of": "28cc8aca",
+      "at": [
+        "charlotte-prep:cost.rows[2].label"
+      ],
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30"
+    },
+    {
+      "text": "Pre-Primary/Primary Extended Day · 12:00–5:30 pm",
+      "of": "efd2c105",
+      "at": [
+        "charlotte-prep:cost.rows[2].panelLabel"
+      ],
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30 pm"
+    },
+    {
+      "text": "Or drop in by the hour.",
+      "of": "a1c438c6",
+      "at": [
+        "charlotte-prep:cost.aside.title"
+      ],
+      "t": "Oswa vini san randevou, pa èdtan."
+    },
+    {
+      "text": "Drop-in care is **$20 an hour** for Montessori Kindergarten through 8th grade. A full afternoon to 5:30 is about **$50** on drop-in, against roughly **$25 an afternoon** on the annual plan over a 180-day year.",
+      "of": "5d37cc00",
+      "at": [
+        "charlotte-prep:cost.aside.text"
+      ],
+      "t": "Swen san randevou koute **$20 pa èdtan** pou Montessori Kindergarten rive 8yèm ane. Yon apremidi konplè rive 5:30 koute anviwon **$50** san randevou, konpare ak apeprè **$25 pa apremidi** sou plan anyèl la sou yon ane 180 jou."
+    },
+    {
+      "text": "After School Program, K–8 (annual)",
+      "of": "ac412f57",
+      "at": [
+        "charlotte-prep:cost.fees[0].label"
+      ],
+      "t": "After School Program, K–8 (anyèl)"
+    },
+    {
+      "text": "$4,500",
+      "of": "3274a76a",
+      "at": [
+        "charlotte-prep:cost.fees[0].value"
+      ],
+      "t": "$4,500"
+    },
+    {
+      "text": "Drop-in, Montessori K–8",
+      "of": "900cc507",
+      "at": [
+        "charlotte-prep:cost.fees[1].label"
+      ],
+      "t": "San randevou, Montessori K–8"
+    },
+    {
+      "text": "$20 / hr",
+      "of": "2253fbf2",
+      "at": [
+        "charlotte-prep:cost.fees[1].value"
+      ],
+      "t": "$20 / èdtan"
+    },
+    {
+      "text": "Pre-Primary/Primary School Day, 12:00–2:30/3:00",
+      "of": "d4ef633b",
+      "at": [
+        "charlotte-prep:cost.fees[2].label"
+      ],
+      "t": "Pre-Primary/Primary School Day, 12:00–2:30/3:00"
+    },
+    {
+      "text": "$3,400",
+      "of": "ecf49030",
+      "at": [
+        "charlotte-prep:cost.fees[2].value"
+      ],
+      "t": "$3,400"
+    },
+    {
+      "text": "The **School Day** option is only \"for students with siblings enrolled at Prep in TK-8th grade.\" **After School Studios** carry a separate fee for each class, which the school does not state.",
+      "of": "b093f039",
+      "at": [
+        "charlotte-prep:cost.fees[3].label"
+      ],
+      "t": "Opsyon **School Day** la se sèlman \"for students with siblings enrolled at Prep in TK-8th grade.\" **After School Studios** gen yon frè apa pou chak kou, men lekòl la pa di konbyen."
+    },
+    {
+      "text": "Snack, homework time, monthly themes, hands-on activities and free time — plus 12-week studios in language, drama, music, art and STEM.",
+      "of": "6e2367a1",
+      "at": [
+        "charlotte-prep:dayInside.headline"
+      ],
+      "t": "Ti goute, tan pou devwa, tèm chak mwa, aktivite pratik ak tan lib — plis studio 12 semèn nan lang, teyat, mizik, atizay ak STEM."
+    },
+    {
+      "text": "\"Classes are led by warm and enthusiastic teachers and include a healthy mix of age-appropriate activities, homework time, and free time.\"",
+      "of": "a9321611",
+      "at": [
+        "charlotte-prep:dayInside.subhead"
+      ],
+      "t": "\"Classes are led by warm and enthusiastic teachers and include a healthy mix of age-appropriate activities, homework time, and free time.\""
+    },
+    {
+      "text": "afternoon snack",
+      "of": "0b8f397d",
+      "at": [
+        "charlotte-prep:dayInside.words[0]"
+      ],
+      "t": "ti goute apremidi"
+    },
+    {
+      "text": "monthly themes",
+      "of": "06b19e00",
+      "at": [
+        "charlotte-prep:dayInside.words[2]"
+      ],
+      "t": "tèm chak mwa"
+    },
+    {
+      "text": "hands-on activities",
+      "of": "11638716",
+      "at": [
+        "charlotte-prep:dayInside.words[3]"
+      ],
+      "t": "aktivite pratik"
+    },
+    {
+      "text": "free time",
+      "of": "01eed358",
+      "at": [
+        "charlotte-prep:dayInside.words[4]"
+      ],
+      "t": "tan lib"
+    },
+    {
+      "text": "healthy routines",
+      "of": "41c1ce67",
+      "at": [
+        "charlotte-prep:dayInside.words[5]"
+      ],
+      "t": "abitid ki an sante"
+    },
+    {
+      "text": "a loving and nurturing environment",
+      "of": "e28b382b",
+      "at": [
+        "charlotte-prep:dayInside.words[6]"
+      ],
+      "t": "yon anviwònman ki plen lanmou ak swen"
+    },
+    {
+      "text": "After School Studios — a sample",
+      "of": "752279f7",
+      "at": [
+        "charlotte-prep:dayInside.catalogTitle"
+      ],
+      "t": "After School Studios — yon echantiyon"
+    },
+    {
+      "text": "\"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks.\" Studios run **45 minutes to an hour**, students are walked to them by their teacher, and \"there is a fee, separate from Charlotte Prep's annual tuition, associated with each class.\" The school lists these as **sample** offerings, not this term’s schedule.",
+      "of": "a057204d",
+      "at": [
+        "charlotte-prep:dayInside.catalogIntro"
+      ],
+      "t": "\"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks.\" Studio yo dire **45 minit rive inèdtan**, pwofesè a mache ak elèv yo rive nan studio a, epi \"there is a fee, separate from Charlotte Prep's annual tuition, associated with each class.\" Lekòl la bay sa yo kòm ofrann **egzanp**, se pa orè trimès sa a."
+    },
+    {
+      "text": "Weekly: speaking for younger students, writing for advanced students, and culture through art and crafts.",
+      "of": "58febb38",
+      "at": [
+        "charlotte-prep:dayInside.classes[0].desc"
+      ],
+      "t": "Chak semèn: pale pou pi piti yo, ekri pou elèv avanse yo, ak kilti atravè atizay ak atizana."
+    },
+    {
+      "text": "Acting and communication, ending in an informal Reader’s Theatre performance.",
+      "of": "dab5dc57",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].desc"
+      ],
+      "t": "Jwe teyat ak kominikasyon, ki fini ak yon ti pèfòmans Reader’s Theatre enfòmèl."
+    },
+    {
+      "text": "Audition for and perform a one-act play.",
+      "of": "e1c0cf53",
+      "at": [
+        "charlotte-prep:dayInside.classes[2].desc"
+      ],
+      "t": "Fè odisyon epi jwe nan yon pyès teyat yon sèl ak."
+    },
+    {
+      "text": "Chords and strumming.",
+      "of": "b9eaca1b",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].desc"
+      ],
+      "t": "Akò ak fason pou grate kòd yo."
+    },
+    {
+      "text": "Tinker, design, build and test in the STEM Lab.",
+      "of": "256293b5",
+      "at": [
+        "charlotte-prep:dayInside.classes[4].desc"
+      ],
+      "t": "Bricole, fè desen, bati epi teste nan STEM Lab la."
+    },
+    {
+      "text": "In the Art Studio, 3:15–4:00.",
+      "of": "5b19d526",
+      "at": [
+        "charlotte-prep:dayInside.classes[5].desc"
+      ],
+      "t": "Nan Art Studio a, 3:15–4:00."
+    },
+    {
+      "text": "Linoleum, screen printing and collograph, 3:15–4:00.",
+      "of": "02946049",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].desc"
+      ],
+      "t": "Lino, serigrafi ak kolograf, 3:15–4:00."
+    },
+    {
+      "text": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].gradeLabel"
+      ],
+      "t": "6–8"
+    },
+    {
+      "text": "Includes off-campus singing at venues such as Knights Stadium and Bojangles Coliseum.",
+      "of": "42efe35a",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].desc"
+      ],
+      "t": "Gen ladan l chante andeyò kanpis nan kote tankou Knights Stadium ak Bojangles Coliseum."
+    },
+    {
+      "text": "1–2",
+      "of": "ab9ea77d",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].gradeLabel"
+      ],
+      "t": "1–2"
+    },
+    {
+      "text": "Meets before school, 7:15–8:00 a.m., in the Music Cottage — 3rd and 4th graders, plus 5th and 6th graders in Band.",
+      "of": "e84e428c",
+      "at": [
+        "charlotte-prep:dayInside.classes[8].desc"
+      ],
+      "t": "Rankontre anvan lekòl, 7:15–8:00 a.m., nan Music Cottage la — elèv 3yèm ak 4yèm ane, plis elèv 5yèm ak 6yèm ane ki nan Band."
+    },
+    {
+      "text": "A simple, clearly priced afternoon program: one annual fee for every grade K–8, an hourly fallback, and free care for a younger sibling waiting on an older one.",
+      "of": "81b24a49",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ],
+      "t": "Yon pwogram apremidi senp ak pri klè: yon sèl frè anyèl pou chak ane K–8, yon opsyon pa èdtan an rezèv, ak swen gratis pou yon pi piti frè oswa sè k ap tann yon pi gran."
+    },
+    {
+      "text": "**One clear annual price.** $4,500 covers K–8 afternoons to 5:30 p.m., and a $20 hourly drop-in covers occasional use.",
+      "of": "8f2a6aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[0]"
+      ],
+      "t": "**Yon sèl pri anyèl ki klè.** $4,500 kouvri apremidi K–8 rive 5:30 p.m., epi yon opsyon san randevou $20 pa èdtan kouvri itilizasyon okazyonèl."
+    },
+    {
+      "text": "**Free care for younger siblings** waiting for an older sibling’s later dismissal.",
+      "of": "e7156aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[1]"
+      ],
+      "t": "**Swen gratis pou pi piti frè ak sè** k ap tann lè lekòl lage pita pou yon pi gran frè oswa sè."
+    },
+    {
+      "text": "**Four age groups with homework time built in** — K, 1–2, 3–4 and Middle School — plus a snack and monthly themes.",
+      "of": "93d8aee8",
+      "at": [
+        "charlotte-prep:verdict.strengths[2]"
+      ],
+      "t": "**Kat gwoup laj ak tan pou devwa enkli** — K, 1–2, 3–4 ak Middle School — plis yon ti goute ak tèm chak mwa."
+    },
+    {
+      "text": "**Twelve-week studios** in language, drama, music, art and STEM each fall and spring.",
+      "of": "1eb5e0fa",
+      "at": [
+        "charlotte-prep:verdict.strengths[3]"
+      ],
+      "t": "**Studio douz semèn** nan lang, teyat, mizik, atizay ak STEM chak otòn ak prentan."
+    },
+    {
+      "text": "**A dedicated director** runs after school, extended day, studios and summer camp together.",
+      "of": "ce5304c8",
+      "at": [
+        "charlotte-prep:verdict.strengths[4]"
+      ],
+      "t": "**Yon direktè dedye** jere swen apre lekòl, extended day, studio yo ak kan ete a ansanm."
+    },
+    {
+      "text": "Is after-school care offered on teacher workdays, holidays and early-dismissal days, and at what cost?",
+      "of": "45674143",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ],
+      "t": "Èske gen swen apre lekòl nan jou travay pwofesè, jou ferye ak jou lekòl lage bonè, e konbyen sa koute?"
+    },
+    {
+      "text": "What is the late-pickup policy after 5:30 p.m.?",
+      "of": "454a80af",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ],
+      "t": "Ki règ la pou ranmase ta apre 5:30 p.m.?"
+    },
+    {
+      "text": "Which studios run this term, on which days, and what does each cost?",
+      "of": "7cb6c90c",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ],
+      "t": "Ki studio ki ap fèt trimès sa a, ki jou, e konbyen chak koute?"
+    },
+    {
+      "text": "Can a Montessori Kindergartner enroll in the annual After School Program, or only drop in?",
+      "of": "aacee27e",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
+      ],
+      "t": "Èske yon elèv Montessori Kindergarten ka enskri nan After School Program anyèl la, oswa se sèlman san randevou?"
+    },
+    {
+      "text": "Does the 3% sibling discount apply to after-school fees?",
+      "of": "ef1cfe82",
+      "at": [
+        "charlotte-prep:verdict.checklist[4]"
+      ],
+      "t": "Èske rabè 3% pou frè ak sè a aplike sou frè apre lekòl yo?"
+    },
+    {
+      "text": "Is there any supervised option before 7:45 a.m.?",
+      "of": "95cebc68",
+      "at": [
+        "charlotte-prep:verdict.checklist[5]"
+      ],
+      "t": "Èske gen okenn opsyon ak sipèvizyon anvan 7:45 a.m.?"
     }
   ]
 }

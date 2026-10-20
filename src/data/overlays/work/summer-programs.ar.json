@@ -52,7 +52,9 @@
         "gaston-day:catalog.categoryFilters[0].label",
         "gaston-day:catalog.gradeFilters[0].label",
         "trinity-episcopal:catalog.categoryFilters[0].label",
-        "trinity-episcopal:catalog.gradeFilters[0].label"
+        "trinity-episcopal:catalog.gradeFilters[0].label",
+        "charlotte-prep:catalog.categoryFilters[0].label",
+        "charlotte-prep:catalog.gradeFilters[0].label"
       ],
       "t": "الكل"
     },
@@ -205,7 +207,13 @@
         "gaston-day:catalog.camps[18].categoryLabel",
         "gaston-day:catalog.camps[23].categoryLabel",
         "gaston-day:catalog.camps[24].categoryLabel",
-        "gaston-day:catalog.camps[25].categoryLabel"
+        "gaston-day:catalog.camps[25].categoryLabel",
+        "charlotte-prep:catalog.categoryFilters[3].label",
+        "charlotte-prep:catalog.camps[11].categoryLabel",
+        "charlotte-prep:catalog.camps[12].categoryLabel",
+        "charlotte-prep:catalog.camps[13].categoryLabel",
+        "charlotte-prep:catalog.camps[14].categoryLabel",
+        "charlotte-prep:catalog.camps[15].categoryLabel"
       ],
       "t": "الرياضة"
     },
@@ -581,7 +589,21 @@
         "trinity-episcopal:catalog.camps[30].dayLabel",
         "trinity-episcopal:catalog.camps[31].dayLabel",
         "trinity-episcopal:catalog.camps[32].dayLabel",
-        "trinity-episcopal:catalog.camps[33].dayLabel"
+        "trinity-episcopal:catalog.camps[33].dayLabel",
+        "charlotte-prep:catalog.camps[0].dayLabel",
+        "charlotte-prep:catalog.camps[1].dayLabel",
+        "charlotte-prep:catalog.camps[2].dayLabel",
+        "charlotte-prep:catalog.camps[4].dayLabel",
+        "charlotte-prep:catalog.camps[6].dayLabel",
+        "charlotte-prep:catalog.camps[7].dayLabel",
+        "charlotte-prep:catalog.camps[8].dayLabel",
+        "charlotte-prep:catalog.camps[9].dayLabel",
+        "charlotte-prep:catalog.camps[10].dayLabel",
+        "charlotte-prep:catalog.camps[11].dayLabel",
+        "charlotte-prep:catalog.camps[12].dayLabel",
+        "charlotte-prep:catalog.camps[13].dayLabel",
+        "charlotte-prep:catalog.camps[14].dayLabel",
+        "charlotte-prep:catalog.camps[15].dayLabel"
       ],
       "t": "الاثنين–الجمعة"
     },
@@ -6205,7 +6227,8 @@
       "text": "Ages 6–13",
       "of": "8561fb80",
       "at": [
-        "charlotte-catholic:catalog.camps[1].gradeLabel"
+        "charlotte-catholic:catalog.camps[1].gradeLabel",
+        "charlotte-prep:catalog.camps[15].gradeLabel"
       ],
       "t": "الأعمار 6–13"
     },
@@ -8449,7 +8472,8 @@
         "trinity-episcopal:catalog.camps[14].dayLabel",
         "trinity-episcopal:catalog.camps[15].dayLabel",
         "trinity-episcopal:catalog.camps[16].dayLabel",
-        "trinity-episcopal:catalog.camps[17].dayLabel"
+        "trinity-episcopal:catalog.camps[17].dayLabel",
+        "charlotte-prep:catalog.camps[5].dayLabel"
       ],
       "t": "الاثنين–الخميس"
     },
@@ -10810,7 +10834,8 @@
       "of": "81647be8",
       "at": [
         "carmel-christian:catalog.camps[9].gradeLabel",
-        "carmel-christian:catalog.camps[27].gradeLabel"
+        "carmel-christian:catalog.camps[27].gradeLabel",
+        "charlotte-prep:catalog.camps[9].gradeLabel"
       ],
       "t": "صاعد 2–6"
     },
@@ -11657,7 +11682,10 @@
       "at": [
         "gaston-day:catalog.categoryFilters[1].label",
         "gaston-day:catalog.camps[0].categoryLabel",
-        "gaston-day:catalog.camps[1].categoryLabel"
+        "gaston-day:catalog.camps[1].categoryLabel",
+        "charlotte-prep:catalog.categoryFilters[1].label",
+        "charlotte-prep:catalog.camps[0].categoryLabel",
+        "charlotte-prep:catalog.camps[1].categoryLabel"
       ],
       "t": "مخيّم نهاري"
     },
@@ -11693,7 +11721,9 @@
       "of": "5f3ff239",
       "at": [
         "gaston-day:catalog.categoryFilters[6].label",
-        "gaston-day:catalog.camps[26].categoryLabel"
+        "gaston-day:catalog.camps[26].categoryLabel",
+        "charlotte-prep:catalog.categoryFilters[4].label",
+        "charlotte-prep:catalog.camps[3].categoryLabel"
       ],
       "t": "تدريس خصوصي"
     },
@@ -12651,7 +12681,8 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[2].label"
+        "trinity-episcopal:catalog.gradeFilters[2].label",
+        "charlotte-prep:catalog.gradeFilters[4].label"
       ],
       "t": "1"
     },
@@ -12659,7 +12690,8 @@
       "text": "2",
       "of": "370cabd5",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[3].label"
+        "trinity-episcopal:catalog.gradeFilters[3].label",
+        "charlotte-prep:catalog.gradeFilters[5].label"
       ],
       "t": "2"
     },
@@ -12667,7 +12699,8 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[4].label"
+        "trinity-episcopal:catalog.gradeFilters[4].label",
+        "charlotte-prep:catalog.gradeFilters[6].label"
       ],
       "t": "3"
     },
@@ -12675,7 +12708,8 @@
       "text": "4",
       "of": "310ca263",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[5].label"
+        "trinity-episcopal:catalog.gradeFilters[5].label",
+        "charlotte-prep:catalog.gradeFilters[7].label"
       ],
       "t": "4"
     },
@@ -12683,7 +12717,8 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[6].label"
+        "trinity-episcopal:catalog.gradeFilters[6].label",
+        "charlotte-prep:catalog.gradeFilters[8].label"
       ],
       "t": "5"
     },
@@ -12691,7 +12726,8 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[7].label"
+        "trinity-episcopal:catalog.gradeFilters[7].label",
+        "charlotte-prep:catalog.gradeFilters[9].label"
       ],
       "t": "6"
     },
@@ -12699,7 +12735,8 @@
       "text": "7",
       "of": "320ca3f6",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[8].label"
+        "trinity-episcopal:catalog.gradeFilters[8].label",
+        "charlotte-prep:catalog.gradeFilters[10].label"
       ],
       "t": "7"
     },
@@ -12707,7 +12744,8 @@
       "text": "8",
       "of": "3d0cb547",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[9].label"
+        "trinity-episcopal:catalog.gradeFilters[9].label",
+        "charlotte-prep:catalog.gradeFilters[11].label"
       ],
       "t": "8"
     },
@@ -13476,6 +13514,672 @@
         "trinity-episcopal:costPlanner.aside.text"
       ],
       "t": "يستحقّ الرصيد المتبقّي ويُسحب من الحساب المسجَّل في ذلك اليوم؛ والتسجيل في 1 مايو أو بعده يعني السداد بالكامل. **وتتطلّب جميع مخيمات TES Academy السداد الكامل عند التسجيل.** ويُغلق التسجيل الإلكتروني قبل أسبوع من كل دورة، وقد يُفرض **رسم إداري قدره $25** على التسجيل المتأخّر أو تبديل المخيم. ولا تُصرف المبالغ المستردّة عمومًا بعد 1 مايو، وإن كان يمكن تحويل دفعة التسجيل الملغى ورسمه إلى مخيم آخر."
+    },
+    {
+      "text": "Summer 2026 ran seven weeks, June 8 to July 31, for campers from the Early School through 8th grade — a traditional day camp plus a specialty or sports camp almost every week.",
+      "of": "ad1bd718",
+      "at": [
+        "charlotte-prep:catalog.headline"
+      ],
+      "t": "استمرّ صيف 2026 سبعة أسابيع، من 8 يونيو إلى 31 يوليو، للمخيّمين من Early School حتى الصف 8 — مخيّم نهاري تقليدي إضافة إلى مخيّم تخصّصي أو رياضي في كل أسبوع تقريبًا."
+    },
+    {
+      "text": "Full days ran 9:00 a.m.–4:00 p.m., half days 9:00 a.m.–12:00 p.m. or 1:00–4:00 p.m. Camp was closed June 19 and the whole week of June 29–July 3, so June 15–18 was the one four-day week. Lunch was included for full-day campers.",
+      "of": "d455d91c",
+      "at": [
+        "charlotte-prep:catalog.subhead"
+      ],
+      "t": "امتدّت الأيام الكاملة من 9:00 صباحًا–4:00 مساءً، وأنصاف الأيام من 9:00 صباحًا–12:00 ظهرًا أو من 1:00–4:00 مساءً. وأُغلق المخيّم يوم 19 يونيو وطوال أسبوع 29 يونيو–3 يوليو، فكان أسبوع 15–18 يونيو الأسبوعَ الوحيد المؤلّف من أربعة أيام. وكان الغداء مشمولًا للمخيّمين في اليوم الكامل."
+    },
+    {
+      "text": "Specialty",
+      "of": "0f972bcf",
+      "at": [
+        "charlotte-prep:catalog.categoryFilters[2].label",
+        "charlotte-prep:catalog.camps[4].categoryLabel",
+        "charlotte-prep:catalog.camps[5].categoryLabel",
+        "charlotte-prep:catalog.camps[6].categoryLabel",
+        "charlotte-prep:catalog.camps[7].categoryLabel",
+        "charlotte-prep:catalog.camps[8].categoryLabel",
+        "charlotte-prep:catalog.camps[9].categoryLabel",
+        "charlotte-prep:catalog.camps[10].categoryLabel"
+      ],
+      "t": "تخصّصي"
+    },
+    {
+      "text": "Junior Counselor",
+      "of": "b866acbe",
+      "at": [
+        "charlotte-prep:catalog.categoryFilters[5].label",
+        "charlotte-prep:catalog.camps[2].categoryLabel",
+        "charlotte-prep:costPlanner.tiers[7].label"
+      ],
+      "t": "Junior Counselor"
+    },
+    {
+      "text": "Primary / TK",
+      "of": "175dc1f1",
+      "at": [
+        "charlotte-prep:catalog.gradeFilters[1].label"
+      ],
+      "t": "Primary / TK"
+    },
+    {
+      "text": "Montessori K",
+      "of": "5a603829",
+      "at": [
+        "charlotte-prep:catalog.gradeFilters[2].label"
+      ],
+      "t": "Montessori K"
+    },
+    {
+      "text": "K",
+      "of": "ce0c068a",
+      "at": [
+        "charlotte-prep:catalog.gradeFilters[3].label"
+      ],
+      "t": "K"
+    },
+    {
+      "text": "The Early School camp: water days, nature walks, arts and crafts, field trips and nap time.",
+      "of": "e92cfc26",
+      "at": [
+        "charlotte-prep:catalog.camps[0].desc"
+      ],
+      "t": "مخيّم Early School: أيام اللعب بالماء، ونزهات في الطبيعة، والفنون والحِرَف، والرحلات الميدانية، ووقت القيلولة."
+    },
+    {
+      "text": "Rising Primary & TK",
+      "of": "e9d47aac",
+      "at": [
+        "charlotte-prep:catalog.camps[0].gradeLabel"
+      ],
+      "t": "صاعد إلى Primary وTK"
+    },
+    {
+      "text": "9:00–4:00 or half day",
+      "of": "d3f0d5bd",
+      "at": [
+        "charlotte-prep:catalog.camps[0].hours",
+        "charlotte-prep:catalog.camps[1].hours"
+      ],
+      "t": "9:00–4:00 أو نصف يوم"
+    },
+    {
+      "text": "All 7 weeks",
+      "of": "8d091ec0",
+      "at": [
+        "charlotte-prep:catalog.camps[0].weeks",
+        "charlotte-prep:catalog.camps[1].weeks",
+        "charlotte-prep:catalog.camps[2].weeks"
+      ],
+      "t": "الأسابيع الـ 7 كلها"
+    },
+    {
+      "text": "The core day camp: games, crafts, off-campus field trips, karaoke and snow cones. The brochure says rising MK–8; the registration form says K–7.",
+      "of": "5b29ec13",
+      "at": [
+        "charlotte-prep:catalog.camps[1].desc"
+      ],
+      "t": "المخيّم النهاري الأساسي: ألعاب، وحِرَف، ورحلات ميدانية خارج الحرم المدرسي، وكاريوكي، وثلج مُنكَّه. ويذكر الكتيّب الصاعدين MK–8؛ بينما تذكر استمارة التسجيل K–7."
+    },
+    {
+      "text": "Rising MK–8",
+      "of": "67eba9b6",
+      "at": [
+        "charlotte-prep:catalog.camps[1].gradeLabel",
+        "charlotte-prep:catalog.camps[4].gradeLabel",
+        "charlotte-prep:catalog.camps[5].gradeLabel",
+        "charlotte-prep:catalog.camps[6].gradeLabel",
+        "charlotte-prep:catalog.camps[10].gradeLabel"
+      ],
+      "t": "صاعد MK–8"
+    },
+    {
+      "text": "For rising or graduated 8th graders. \"Limited spots available and these positions may require an interview.\"",
+      "of": "9812f280",
+      "at": [
+        "charlotte-prep:catalog.camps[2].desc"
+      ],
+      "t": "للصاعدين إلى الصف 8 أو المتخرّجين منه. \"Limited spots available and these positions may require an interview.\""
+    },
+    {
+      "text": "Rising or graduated 8th",
+      "of": "0f691ebf",
+      "at": [
+        "charlotte-prep:catalog.camps[2].gradeLabel"
+      ],
+      "t": "صاعد إلى الصف 8 أو متخرّج منه"
+    },
+    {
+      "text": "9:00–4:00",
+      "of": "590c719d",
+      "at": [
+        "charlotte-prep:catalog.camps[2].hours",
+        "charlotte-prep:catalog.camps[4].hours",
+        "charlotte-prep:catalog.camps[5].hours",
+        "charlotte-prep:catalog.camps[6].hours",
+        "charlotte-prep:catalog.camps[7].hours",
+        "charlotte-prep:catalog.camps[8].hours",
+        "charlotte-prep:catalog.camps[9].hours",
+        "charlotte-prep:catalog.camps[10].hours",
+        "charlotte-prep:catalog.camps[11].hours",
+        "charlotte-prep:catalog.camps[12].hours",
+        "charlotte-prep:catalog.camps[13].hours",
+        "charlotte-prep:catalog.camps[14].hours"
+      ],
+      "t": "9:00–4:00"
+    },
+    {
+      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri).",
+      "of": "53362b15",
+      "at": [
+        "charlotte-prep:catalog.camps[3].desc"
+      ],
+      "t": "إضافة لمخيّمي Traditional، يدرّسها معلّمو Charlotte Prep في \"small groups of 6 or less\": جلسات في القراءة والكتابة الأساسية والرياضيات والمهارات الاجتماعية للصاعدين MK–2 (الاثنين–الأربعاء)، وجلسات في القراءة والكتابة والرياضيات والتفكير النقدي للصاعدين 3–5 (الخميس–الجمعة)."
+    },
+    {
+      "text": "Rising MK–5",
+      "of": "74ebbe2d",
+      "at": [
+        "charlotte-prep:catalog.camps[3].gradeLabel",
+        "charlotte-prep:catalog.camps[8].gradeLabel"
+      ],
+      "t": "صاعد MK–5"
+    },
+    {
+      "text": "Mon–Wed or Thu–Fri",
+      "of": "8d25a4fc",
+      "at": [
+        "charlotte-prep:catalog.camps[3].dayLabel"
+      ],
+      "t": "الاثنين–الأربعاء أو الخميس–الجمعة"
+    },
+    {
+      "text": "50-minute sessions, 9:00–11:50",
+      "of": "5e345901",
+      "at": [
+        "charlotte-prep:catalog.camps[3].hours"
+      ],
+      "t": "جلسات من 50 دقيقة، 9:00–11:50"
+    },
+    {
+      "text": "A full-day art camp.",
+      "of": "2b374576",
+      "at": [
+        "charlotte-prep:catalog.camps[4].desc"
+      ],
+      "t": "مخيّم فنون ليوم كامل."
+    },
+    {
+      "text": "June 8–12",
+      "of": "95569fc1",
+      "at": [
+        "charlotte-prep:catalog.camps[4].weeks",
+        "charlotte-prep:catalog.camps[11].weeks"
+      ],
+      "t": "8–12 يونيو"
+    },
+    {
+      "text": "A full-day music camp.",
+      "of": "6460af60",
+      "at": [
+        "charlotte-prep:catalog.camps[5].desc"
+      ],
+      "t": "مخيّم موسيقى ليوم كامل."
+    },
+    {
+      "text": "June 15–18",
+      "of": "aad38eab",
+      "at": [
+        "charlotte-prep:catalog.camps[5].weeks"
+      ],
+      "t": "15–18 يونيو"
+    },
+    {
+      "text": "A full-day musical-theatre camp. The registration form lists it at $525.",
+      "of": "a1bb343e",
+      "at": [
+        "charlotte-prep:catalog.camps[6].desc"
+      ],
+      "t": "مخيّم مسرح غنائي ليوم كامل. وتُدرجه استمارة التسجيل بسعر $525."
+    },
+    {
+      "text": "June 22–26",
+      "of": "1cce46bc",
+      "at": [
+        "charlotte-prep:catalog.camps[6].weeks"
+      ],
+      "t": "22–26 يونيو"
+    },
+    {
+      "text": "A full-day coding camp for the older grades.",
+      "of": "2ab62df1",
+      "at": [
+        "charlotte-prep:catalog.camps[7].desc"
+      ],
+      "t": "مخيّم برمجة ليوم كامل للصفوف الأكبر."
+    },
+    {
+      "text": "Rising 2–8",
+      "of": "7f6478c2",
+      "at": [
+        "charlotte-prep:catalog.camps[7].gradeLabel"
+      ],
+      "t": "صاعد 2–8"
+    },
+    {
+      "text": "July 6–10",
+      "of": "b64ea98f",
+      "at": [
+        "charlotte-prep:catalog.camps[7].weeks",
+        "charlotte-prep:catalog.camps[13].weeks"
+      ],
+      "t": "6–10 يوليو"
+    },
+    {
+      "text": "A full-day LEGO engineering camp, listed in the brochure but not on the registration form.",
+      "of": "d69b063d",
+      "at": [
+        "charlotte-prep:catalog.camps[8].desc"
+      ],
+      "t": "مخيّم هندسة LEGO ليوم كامل، مُدرج في الكتيّب لكنه غير موجود في استمارة التسجيل."
+    },
+    {
+      "text": "July 13–17",
+      "of": "00eeda1a",
+      "at": [
+        "charlotte-prep:catalog.camps[8].weeks"
+      ],
+      "t": "13–17 يوليو"
+    },
+    {
+      "text": "A full-day STEM camp.",
+      "of": "07fab43e",
+      "at": [
+        "charlotte-prep:catalog.camps[9].desc"
+      ],
+      "t": "مخيّم STEM ليوم كامل."
+    },
+    {
+      "text": "July 20–24",
+      "of": "7f345a9a",
+      "at": [
+        "charlotte-prep:catalog.camps[9].weeks",
+        "charlotte-prep:catalog.camps[14].weeks"
+      ],
+      "t": "20–24 يوليو"
+    },
+    {
+      "text": "A full-day cooking camp.",
+      "of": "d49a69a3",
+      "at": [
+        "charlotte-prep:catalog.camps[10].desc"
+      ],
+      "t": "مخيّم طهي ليوم كامل."
+    },
+    {
+      "text": "July 27–31",
+      "of": "abbf5137",
+      "at": [
+        "charlotte-prep:catalog.camps[10].weeks"
+      ],
+      "t": "27–31 يوليو"
+    },
+    {
+      "text": "A full-day multi-sport camp.",
+      "of": "ff48875d",
+      "at": [
+        "charlotte-prep:catalog.camps[11].desc"
+      ],
+      "t": "مخيّم متعدّد الرياضات ليوم كامل."
+    },
+    {
+      "text": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "charlotte-prep:catalog.camps[11].gradeLabel",
+        "charlotte-prep:catalog.camps[12].gradeLabel",
+        "charlotte-prep:catalog.camps[13].gradeLabel",
+        "charlotte-prep:catalog.camps[14].gradeLabel"
+      ],
+      "t": "K–8"
+    },
+    {
+      "text": "A full-day sports camp that runs twice — $400 in the four-day week, $500 in July.",
+      "of": "689c72d8",
+      "at": [
+        "charlotte-prep:catalog.camps[12].desc"
+      ],
+      "t": "مخيّم رياضي ليوم كامل يُقام مرّتين — $400 في الأسبوع المؤلّف من أربعة أيام، و$500 في يوليو."
+    },
+    {
+      "text": "June 15–18 and July 13–17",
+      "of": "e37557c9",
+      "at": [
+        "charlotte-prep:catalog.camps[12].weeks"
+      ],
+      "t": "15–18 يونيو و13–17 يوليو"
+    },
+    {
+      "text": "A full-day basketball camp.",
+      "of": "72f1282c",
+      "at": [
+        "charlotte-prep:catalog.camps[13].desc"
+      ],
+      "t": "مخيّم كرة سلة ليوم كامل."
+    },
+    {
+      "text": "A full-day volleyball camp.",
+      "of": "6cc68f3b",
+      "at": [
+        "charlotte-prep:catalog.camps[14].desc"
+      ],
+      "t": "مخيّم كرة طائرة ليوم كامل."
+    },
+    {
+      "text": "Run on campus by a third party, US Sports Camps, and registered on its own site, for ages 6–13. Lunch is not included.",
+      "of": "03148062",
+      "at": [
+        "charlotte-prep:catalog.camps[15].desc"
+      ],
+      "t": "تديره في الحرم المدرسي جهة خارجية، هي US Sports Camps، ويُسجَّل فيه عبر موقعها الخاص، للأعمار 6–13. والغداء غير مشمول."
+    },
+    {
+      "text": "9:00–12:00 or 9:00–3:00",
+      "of": "1915c222",
+      "at": [
+        "charlotte-prep:catalog.camps[15].hours"
+      ],
+      "t": "9:00–12:00 أو 9:00–3:00"
+    },
+    {
+      "text": "June 22–26 and July 27–31",
+      "of": "98f7b025",
+      "at": [
+        "charlotte-prep:catalog.camps[15].weeks"
+      ],
+      "t": "22–26 يونيو و27–31 يوليو"
+    },
+    {
+      "text": "Summer 2026 priced by the week: $525 for a full day of Traditional Camp, $500 for the Early School camp, and $500–$600 for a specialty or sports week.",
+      "of": "07e1335f",
+      "at": [
+        "charlotte-prep:costPlanner.headline"
+      ],
+      "t": "سُعّر صيف 2026 بالأسبوع: $525 لليوم الكامل في Traditional Camp، و$500 لمخيّم Early School، و$500–$600 لأسبوع تخصّصي أو رياضي."
+    },
+    {
+      "text": "Lunch was included for full-day campers, and before- and after-care were sold by the week. Payment was due in full at registration.",
+      "of": "a9a4d8b6",
+      "at": [
+        "charlotte-prep:costPlanner.subhead"
+      ],
+      "t": "كان الغداء مشمولًا للمخيّمين في اليوم الكامل، وبيعت الرعاية قبل المخيّم وبعده بالأسبوع. وكان الدفع كاملًا مستحقًّا عند التسجيل."
+    },
+    {
+      "text": "Traditional Camp, full day",
+      "of": "6fb37270",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[0].label"
+      ],
+      "t": "Traditional Camp، يوم كامل"
+    },
+    {
+      "text": "Traditional Camp · 9:00 a.m.–4:00 p.m.",
+      "of": "3bb9a23f",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "Traditional Camp · 9:00 صباحًا–4:00 مساءً"
+    },
+    {
+      "text": "$420 in the four-day week of June 15–18.",
+      "of": "dd386fe9",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[0].detail"
+      ],
+      "t": "$420 في الأسبوع المؤلّف من أربعة أيام، 15–18 يونيو."
+    },
+    {
+      "text": "Traditional Camp, half day",
+      "of": "7ebbdbc8",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[1].label"
+      ],
+      "t": "Traditional Camp، نصف يوم"
+    },
+    {
+      "text": "Traditional Camp · half day",
+      "of": "9c4b036d",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "Traditional Camp · نصف يوم"
+    },
+    {
+      "text": "$175 in the four-day week.",
+      "of": "0622c843",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[1].detail"
+      ],
+      "t": "$175 في الأسبوع المؤلّف من أربعة أيام."
+    },
+    {
+      "text": "Young Adventurers, full day",
+      "of": "72245bcb",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[2].label"
+      ],
+      "t": "Young Adventurers، يوم كامل"
+    },
+    {
+      "text": "Young Adventurers (Primary & TK) · full day",
+      "of": "8b243ec8",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[2].panelLabel"
+      ],
+      "t": "Young Adventurers (Primary وTK) · يوم كامل"
+    },
+    {
+      "text": "$400 in the four-day week.",
+      "of": "5956b9bc",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[2].detail"
+      ],
+      "t": "$400 في الأسبوع المؤلّف من أربعة أيام."
+    },
+    {
+      "text": "Young Adventurers, half day",
+      "of": "8e5c0b27",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[3].label"
+      ],
+      "t": "Young Adventurers، نصف يوم"
+    },
+    {
+      "text": "Young Adventurers (Primary & TK) · half day",
+      "of": "e688edc0",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[3].panelLabel"
+      ],
+      "t": "Young Adventurers (Primary وTK) · نصف يوم"
+    },
+    {
+      "text": "$200 in the four-day week.",
+      "of": "515f2d2e",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[3].detail"
+      ],
+      "t": "$200 في الأسبوع المؤلّف من أربعة أيام."
+    },
+    {
+      "text": "Specialty camp, $600 band",
+      "of": "53b15851",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[4].label"
+      ],
+      "t": "مخيّم تخصّصي، فئة $600"
+    },
+    {
+      "text": "Specialty camp · $600",
+      "of": "f2170069",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[4].panelLabel"
+      ],
+      "t": "مخيّم تخصّصي · $600"
+    },
+    {
+      "text": "Art Explorers Workshop and Junior Gourmet Cooking Lab.",
+      "of": "4bce6e41",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[4].detail"
+      ],
+      "t": "Art Explorers Workshop وJunior Gourmet Cooking Lab."
+    },
+    {
+      "text": "Specialty camp, $550 band",
+      "of": "85480f61",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[5].label"
+      ],
+      "t": "مخيّم تخصّصي، فئة $550"
+    },
+    {
+      "text": "Specialty camp · $550",
+      "of": "336faf55",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[5].panelLabel"
+      ],
+      "t": "مخيّم تخصّصي · $550"
+    },
+    {
+      "text": "Broadway Bound Juniors, GameMakers Coding, LEGO Engineering and Quantum Creators.",
+      "of": "255faa0c",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[5].detail"
+      ],
+      "t": "Broadway Bound Juniors وGameMakers Coding وLEGO Engineering وQuantum Creators."
+    },
+    {
+      "text": "Sports or music camp",
+      "of": "5636f07d",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[6].label"
+      ],
+      "t": "مخيّم رياضي أو موسيقي"
+    },
+    {
+      "text": "Sports / Rhythm & Beats · $500",
+      "of": "1b6533da",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[6].panelLabel"
+      ],
+      "t": "رياضة / Rhythm & Beats · $500"
+    },
+    {
+      "text": "Amazing Athletes, Basketball, Volleyball, Kidokinetics (July) and Rhythm & Beats.",
+      "of": "c1264c95",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[6].detail"
+      ],
+      "t": "Amazing Athletes وBasketball وVolleyball وKidokinetics (يوليو) وRhythm & Beats."
+    },
+    {
+      "text": "Junior Counselor · rising or graduated 8th",
+      "of": "82ef65ef",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[7].panelLabel"
+      ],
+      "t": "Junior Counselor · صاعد إلى الصف 8 أو متخرّج منه"
+    },
+    {
+      "text": "$300 every week, including the four-day week.",
+      "of": "71e11c48",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[7].detail"
+      ],
+      "t": "$300 كل أسبوع، بما في ذلك الأسبوع المؤلّف من أربعة أيام."
+    },
+    {
+      "text": "Before Care 8:00–9:00 a.m.",
+      "of": "19030ab1",
+      "at": [
+        "charlotte-prep:costPlanner.addons[0].label"
+      ],
+      "t": "Before Care 8:00–9:00 صباحًا"
+    },
+    {
+      "text": "After Care 4:00–5:00 p.m.",
+      "of": "dc68e673",
+      "at": [
+        "charlotte-prep:costPlanner.addons[1].label"
+      ],
+      "t": "After Care 4:00–5:00 مساءً"
+    },
+    {
+      "text": "Midsummer Tune-Up, one session",
+      "of": "93b8daec",
+      "at": [
+        "charlotte-prep:costPlanner.addons[2].label"
+      ],
+      "t": "Midsummer Tune-Up، جلسة واحدة"
+    },
+    {
+      "text": "**Before and After Care together are $110/week** — $10 less than the two toggles added up. In the four-day week each is $55, or $100 for both.",
+      "of": "89ddb387",
+      "at": [
+        "charlotte-prep:costPlanner.fees[0].label"
+      ],
+      "t": "**Before Care وAfter Care معًا بسعر $110/أسبوع** — أي أقل بـ $10 من مجموع الخيارين منفصلين. وفي الأسبوع المؤلّف من أربعة أيام يبلغ كلٌّ منهما $55، أو $100 للاثنين معًا."
+    },
+    {
+      "text": "**Midsummer Tune-Up tutoring is $60 per session per week, or $150 for all three** — the toggle prices one session.",
+      "of": "b7a39cd0",
+      "at": [
+        "charlotte-prep:costPlanner.fees[1].label"
+      ],
+      "t": "**دروس Midsummer Tune-Up بسعر $60 للجلسة في الأسبوع، أو $150 للجلسات الثلاث كلها** — والخيار هنا يسعّر جلسة واحدة."
+    },
+    {
+      "text": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.",
+      "of": "f73fc16c",
+      "at": [
+        "charlotte-prep:costPlanner.fees[2].label"
+      ],
+      "t": "**الحجز المبكر: \"$25 savings per week now through January 15, 2026.\"** وأظهرت استمارة التسجيل عدّة أسعار أقل من الكتيّب بـ $25، بما يتّسق مع ذلك التوفير، لكن خانتين منها كانتا أعلى من الكتيّب، لذا يُعتمد الكتيّب هنا قائمةً للأسعار العادية."
+    },
+    {
+      "text": "**Refunds:** \"Refunds are available up to two weeks before camp starts. A refund fee of $150 will apply per camper.\"",
+      "of": "4056517b",
+      "at": [
+        "charlotte-prep:costPlanner.fees[3].label"
+      ],
+      "t": "**الاسترداد:** \"Refunds are available up to two weeks before camp starts. A refund fee of $150 will apply per camper.\""
+    },
+    {
+      "text": "**Nike Soccer Camp is booked and paid separately** through US Sports Camps ($299 half day, $429 full day) and does not include lunch.",
+      "of": "3da51568",
+      "at": [
+        "charlotte-prep:costPlanner.fees[4].label"
+      ],
+      "t": "**يُحجز Nike Soccer Camp ويُدفع بشكل منفصل** عبر US Sports Camps ($299 لنصف اليوم، و$429 لليوم الكامل) ولا يشمل الغداء."
+    },
+    {
+      "text": "Payment is due at registration.",
+      "of": "4324e6cb",
+      "at": [
+        "charlotte-prep:costPlanner.aside.title"
+      ],
+      "t": "الدفع مستحقّ عند التسجيل."
+    },
+    {
+      "text": "Registration for summer 2026 ran on the school's own web form, paid by card, and closed Friday, May 29, 2026. Children in the school-year Extended-Day Program were not enrolled automatically — they had to be registered for camp like everyone else. No summer 2027 programme has been posted yet.",
+      "of": "e1863a91",
+      "at": [
+        "charlotte-prep:costPlanner.aside.text"
+      ],
+      "t": "جرى التسجيل لصيف 2026 عبر استمارة إلكترونية على موقع المدرسة نفسها، بالدفع بالبطاقة، وأُغلق يوم الجمعة، 29 مايو 2026. ولم يُسجَّل الأطفال الملتحقون ببرنامج Extended-Day خلال العام الدراسي تلقائيًا — بل كان عليهم التسجيل في المخيّم كغيرهم. ولم يُنشر أي برنامج لصيف 2027 حتى الآن."
     }
   ]
 }
