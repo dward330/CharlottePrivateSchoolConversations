@@ -105,7 +105,7 @@ export const charlottePrep: SportsProgram = {
   /* --------------------------------------------------------- 1e coaching -- */
   coaching: {
     headline:
-      'Renee Suttles leads the programme as Athletic Director and P.E. teacher — at Charlotte Prep since 2018, and the only athletics title in the staff directory.',
+      'Renee Suttles leads the programme as Athletic Director and P.E. teacher — at Charlotte Prep since 2018.',
     subhead:
       'Teams are coached by faculty: the 2023–24 girls’ basketball champions were coached by "three Charlotte Prep teachers".',
     featured: [
