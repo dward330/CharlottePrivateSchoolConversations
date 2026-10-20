@@ -6478,6 +6478,8 @@ a.cs-college-name:focus-visible {
   padding-bottom: 18px;
   border-bottom: 1px solid var(--border);
 }
+/* A school with a single framing rule takes the whole row rather than half. */
+.adm-rules > :only-child { grid-column: 1 / -1; }
 .adm-rule { display: flex; gap: 10px; align-items: flex-start; }
 .adm-rule-icon { flex: none; margin-top: 1px; color: var(--accent); display: flex; }
 .adm-rule-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }

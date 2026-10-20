@@ -47,10 +47,6 @@ export const charlottePrep: AdmissionsProgram = {
         title: 'One portal.',
         text: 'Everything runs through FACTS: start an application in the FACTS admissions portal and pay the $100 non-refundable fee there. Entering a teacher’s and a registrar’s email in the portal sends them the recommendation and transcript forms directly.',
       },
-      {
-        title: 'The deadline and the test split at different grades.',
-        text: 'The calendar breaks once, at Kindergarten → Grade 1. The test changes at different points: Montessori K, Kindergarten and Grade 1 take the WPPSI-IV; Grades 2–4 the WISC-V; Grades 5–8 the ISEE. "External testing is not required before Montessori Kindergarten." Check both against your child’s grade.',
-      },
     ],
 
     spineNote:
@@ -337,7 +333,7 @@ export const charlottePrep: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on charlotteprep.org and in the CAIS 2027–2028 brochure, retrieved in October 2026. The school’s own dates page prints no year, and an older admissions packet still online carries earlier dates — the live page is followed here. Cycle dates shift year to year — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Preparatory School.',
+        'Dates are the 2027–28 entry cycle as published on charlotteprep.org and in the CAIS 2027–2028 brochure, retrieved in October 2026. Cycle dates shift year to year — verify against the live pages before acting.',
     },
 
     sources: [
