@@ -52,3 +52,44 @@ export function WelcomeVideo({ name, url }: { name: string; url: string }) {
     </section>
   )
 }
+
+/** The school's own video of where one graduating class is headed for high
+    school, closing the High School Placement area below its card grid. It
+    reuses the Welcome Video frame with the head one step smaller (h3), so it
+    reads as part of the area rather than a new page section. The class year is
+    interpolated into the chrome strings, so the video never reads as "this
+    year's class" once it is a year old. The page adds no names, captions or
+    transcript of the students it shows. */
+export function ClassVideo({
+  name,
+  url,
+  classYear,
+}: {
+  name: string
+  url: string
+  classYear: number
+}) {
+  const { t } = useTranslation()
+  return (
+    <div className="welcome-frame class-video">
+      <div className="class-video-head">
+        <span className="glyph"><PlayIcon size={16} /></span>
+        <h3>{t('school.classVideo', { year: classYear })}</h3>
+        <span className="welcome-note">{t('school.welcomeFrom')}</span>
+      </div>
+      <div className="welcome-embed">
+        <iframe
+          src={url}
+          title={t('school.classVideoIframeTitle', { school: name, year: classYear })}
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          loading="lazy"
+        />
+      </div>
+      <p className="welcome-caption">
+        {t('school.classVideoCaption', { school: name, year: classYear })}
+      </p>
+    </div>
+  )
+}

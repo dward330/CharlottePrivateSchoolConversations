@@ -167,6 +167,22 @@ export type Scholarship = {
   detail: string
 }
 
+/**
+ * Where one graduating class is HEADING, counted from the school's own named
+ * class announcement. These are per-graduate destinations (matriculation), not
+ * acceptances, and the count is ours — the school publishes the names, never
+ * the tallies — so the card says so in chrome rather than per school.
+ */
+export type ClassTally = {
+  /** The class year as published, e.g. "2026". */
+  year: string
+  /** How many graduates the school's list names — the tally's denominator. */
+  listed: number
+  /** Destinations, most graduates first. Names are canonical master names so
+      they resolve to the destination's homepage or dossier. */
+  schools: (Destination & { count: number })[]
+}
+
 export type Outcomes = {
   headline: string
   subhead?: string
@@ -251,6 +267,16 @@ export type DestinationCategory = {
 export type Destinations = {
   headline: string
   subhead?: string
+  /**
+   * Per-class destination counts from the school's named class lists, newest
+   * first. Where present, the card gains a class picker above its filter chips:
+   * "All alumni" shows `categories` as published, and a class reshapes the same
+   * list to that class's schools — grouped into the same categories — with the
+   * graduate count beside each. Every tally name must appear in `categories`.
+   * The ACCEPTANCE ≠ MATRICULATION caveat is dropped where these exist: the
+   * lists ARE matriculation, so the note would contradict the counts.
+   */
+  classTallies?: ClassTally[]
   /** The school's own categories, in its own order. Empty omits the card. */
   categories: DestinationCategory[]
   flags: CsFlag[]
@@ -271,6 +297,14 @@ export type HighSchoolPlacementProgram = {
   placement?: Placement
   destinations?: Destinations
   verdict?: Verdict
+  /**
+   * The school's own video of where one graduating class is headed, rendered
+   * BELOW the four-card grid — never as a card. `url` is the embed form
+   * (player.vimeo.com/video/<id> or youtube.com/embed/<id>), the same rule as
+   * `welcomeVideoUrl` in brands.ts. The heading and caption are chrome keys
+   * interpolating `classYear`, not data. Absent = nothing renders.
+   */
+  classVideo?: { url: string; classYear: number }
 }
 
 /**
@@ -314,6 +348,22 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
 }[]
 
 /**
+ * The cards a school actually shows, in render order.
+ *
+ * A school with BOTH `outcomes` and `destinations` gets them as ONE card (user,
+ * 2026-10-19): "how well do kids place" and "where do they end up" are one
+ * parent question, so the destination index renders inside Where Graduates Go
+ * and the separate Where They Land card is dropped. A school with only one of
+ * the two (Trinity Episcopal has no `outcomes`) is unchanged.
+ */
+export function hspCardsFor(program: HighSchoolPlacementProgram) {
+  const merged = program.outcomes != null && program.destinations != null
+  return HIGH_SCHOOL_PLACEMENT_CARDS.filter(
+    (c) => program[c.key] != null && !(merged && c.key === 'destinations'),
+  )
+}
+
+/**
  * Per-school programs, keyed by slug.
  *
  * EMPTY BY DESIGN as of this plan. The shape ships with no occupant: Charlotte
@@ -327,9 +377,11 @@ export const HIGH_SCHOOL_PLACEMENT_CARDS = [
  * here, exactly as collegeSupport.ts does.
  */
 import { trinityEpiscopal } from './highSchoolPlacementPrograms/trinity-episcopal.ts'
+import { charlottePrep } from './highSchoolPlacementPrograms/charlotte-prep.ts'
 
 const PROGRAMS: Record<string, HighSchoolPlacementProgram> = {
   'trinity-episcopal': trinityEpiscopal,
+  'charlotte-prep': charlottePrep,
 }
 
 /* ---------------------------------------------------------- translations -- */

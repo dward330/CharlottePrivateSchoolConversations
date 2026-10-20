@@ -380,8 +380,22 @@ function ClassRow({ row }: { row: PlacementClass }) {
  * the card title and teaser, and the <details> shell already draws the four
  * registration marks. The body starts at the takeaway sentence.
  */
-export function OutcomesBody({ data }: { data: Outcomes }) {
+export function OutcomesBody({
+  data,
+  destinations,
+}: {
+  data: Outcomes
+  /** Present when the school shows both cards: the destination index then
+      renders inside this card instead of as Where They Land (hspCardsFor). */
+  destinations?: Destinations
+}) {
   const { t } = useTranslation()
+  /* One sources row for the merged card, in card order, without repeats. */
+  const sources = destinations
+    ? [...data.sources, ...destinations.sources].filter(
+        (src, i, all) => all.findIndex((o) => o.label === src.label && o.url === src.url) === i,
+      )
+    : data.sources
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -457,16 +471,30 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
         <strong>{t('highSchoolPlacement.notAnAdmitRate')}</strong>{' '}
         {t('highSchoolPlacement.notAnAdmitRateText')}
       </Note>
-      <Note>
-        <strong>{t('highSchoolPlacement.acceptanceNotMatriculation')}</strong>{' '}
-        {t('highSchoolPlacement.acceptanceNotMatriculationText')}
-      </Note>
+      {/* Dropped where the school publishes per-graduate class lists: those ARE
+          matriculation, so this caveat would contradict the counts above. */}
+      {!destinations?.classTallies?.length && (
+        <Note>
+          <strong>{t('highSchoolPlacement.acceptanceNotMatriculation')}</strong>{' '}
+          {t('highSchoolPlacement.acceptanceNotMatriculationText')}
+        </Note>
+      )}
+
+      {destinations && (
+        <>
+          <h3 className="hsp-merged-head">
+            {t('cards.high-school-placement.destinations', { defaultValue: 'Where They Land' })}
+          </h3>
+          <DestinationsBody data={destinations} embedded />
+        </>
+      )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} className="cs-src" />
+      <SourceRow sources={sources} className="cs-src" />
     </div>
   )
 }
+
 
 /* ------------------------------------------------ 2b the placement program -- */
 
@@ -557,19 +585,53 @@ const ALL = '__all'
  * Still true, and still the rule: the categories are NOT tiers. They are kinds
  * of school, and the app invents no ranking of its own.
  */
-export function DestinationsBody({ data }: { data: Destinations }) {
+export function DestinationsBody({
+  data,
+  embedded = false,
+}: {
+  data: Destinations
+  /** Rendered inside the merged Where Graduates Go card, which owns the
+      sources row — so this body skips its own. */
+  embedded?: boolean
+}) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<string>(ALL)
   const [query, setQuery] = useState('')
+  /* ALL = every alumnus (the school's cumulative list); otherwise a class year. */
+  const [view, setView] = useState<string>(ALL)
   const listRef = useRef<HTMLDivElement>(null)
 
-  /* Swapping the category or editing the query replaces the list contents, so
-     reset scroll — the reader should start at the top of the new result set
+  /* Swapping the class, the category or the query replaces the list contents,
+     so reset scroll — the reader should start at the top of the new result set
      rather than wherever the previous one was left. Same rule as Course
      Offerings, whose pattern this list follows. */
   useEffect(() => {
     if (listRef.current) listRef.current.scrollTop = 0
-  }, [filter, query])
+  }, [view, filter, query])
+
+  const tally = view === ALL ? undefined : data.classTallies?.find((c) => c.year === view)
+
+  /* The categories for the current view. "All alumni" is the list as
+     published. A class keeps the same categories, in the same order, holding
+     only that class's schools — most graduates first — with a category the
+     class did not reach dropped (zero-items rule). */
+  const categories = useMemo(() => {
+    if (!tally) return data.categories
+    const counts = new Map(tally.schools.map((s) => [s.name, s.count]))
+    return data.categories
+      .map((c) => ({
+        ...c,
+        schools: c.schools
+          .filter((s) => counts.has(s.name))
+          .sort((a, b) => counts.get(b.name)! - counts.get(a.name)! || a.name.localeCompare(b.name)),
+      }))
+      .filter((c) => c.schools.length > 0)
+  }, [data.categories, tally])
+
+  const counts = useMemo(
+    () => (tally ? new Map(tally.schools.map((s) => [s.name, s.count])) : undefined),
+    [tally],
+  )
 
   /* Trimmed for matching but NOT for the empty-state message, which echoes what
      the reader typed: a stray trailing space while typing must not empty the
@@ -577,18 +639,18 @@ export function DestinationsBody({ data }: { data: Destinations }) {
   const q = query.trim()
 
   const total = useMemo(
-    () => data.categories.reduce((n, c) => n + c.schools.length, 0),
-    [data.categories],
+    () => categories.reduce((n, c) => n + c.schools.length, 0),
+    [categories],
   )
   /* How many destinations across the whole card have a dossier here — the
      number the legend advertises. Counted from the data, never hardcoded. */
   const linked = useMemo(
     () =>
-      data.categories.reduce(
+      categories.reduce(
         (n, c) => n + c.schools.filter((s) => s.slug && schoolBySlug(s.slug)).length,
         0,
       ),
-    [data.categories],
+    [categories],
   )
 
   /* Category filter first, then the name search within it. A category left with
@@ -598,7 +660,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
      them would surface rows whose visible name does not contain the term. */
   const shown = useMemo(() => {
     const needle = q.toLowerCase()
-    return data.categories
+    return categories
       .filter((c) => filter === ALL || c.key === filter)
       .map((c) =>
         needle
@@ -606,7 +668,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           : c,
       )
       .filter((c) => c.schools.length > 0)
-  }, [data.categories, filter, q])
+  }, [categories, filter, q])
 
   const matched = useMemo(
     () => shown.reduce((n, c) => n + c.schools.length, 0),
@@ -616,6 +678,38 @@ export function DestinationsBody({ data }: { data: Destinations }) {
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
+
+      {/* The class picker: "All alumni" is the school's cumulative list; a
+          class shows where its named graduates are heading, in the same
+          categories, with the count beside each school. */}
+      {data.classTallies && data.classTallies.length > 0 && (
+        <div className="hsp-view">
+          <label className="hsp-view-label" htmlFor="hsp-view-select">
+            {t('highSchoolPlacement.viewLabel')}
+          </label>
+          <select
+            id="hsp-view-select"
+            className="input hsp-view-select"
+            value={view}
+            onChange={(e) => {
+              setView(e.target.value)
+              setFilter(ALL)
+            }}
+          >
+            <option value={ALL}>{t('highSchoolPlacement.viewAllAlumni')}</option>
+            {data.classTallies.map((c) => (
+              <option key={c.year} value={c.year}>
+                {t('highSchoolPlacement.tallyClass', { year: c.year })}
+              </option>
+            ))}
+          </select>
+          {tally && (
+            <span className="hsp-view-count text-muted">
+              {t('highSchoolPlacement.tallyListed', { count: tally.listed })}
+            </span>
+          )}
+        </div>
+      )}
 
       <div className="hsp-filters">
         <button
@@ -627,7 +721,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           {t('highSchoolPlacement.filterAll')}
           <span className="hsp-filter-count"> {total}</span>
         </button>
-        {data.categories.map((c) => (
+        {categories.map((c) => (
           <button
             key={c.key}
             type="button"
@@ -659,6 +753,12 @@ export function DestinationsBody({ data }: { data: Destinations }) {
               dossier IN THIS APP. */}
           <span className="hsp-dest hsp-legend-swatch" aria-hidden="true" />
           {t('highSchoolPlacement.crossLinkLegend')}
+        </p>
+      )}
+      {tally && (
+        <p className="hsp-legend text-muted">
+          <span className="hsp-legend-count" aria-hidden="true">#</span>
+          {t('highSchoolPlacement.countLegend', { year: tally.year })}
         </p>
       )}
 
@@ -699,7 +799,7 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           98-row list does not push the sources row off the bottom of the card. */}
       <div className="hsp-destlist" ref={listRef} tabIndex={0}>
         {shown.map((cat) => (
-          <CategoryBlock key={cat.key} cat={cat} query={q} />
+          <CategoryBlock key={cat.key} cat={cat} query={q} counts={counts} />
         ))}
         {shown.length === 0 && (
           <p className="hsp-dest-empty text-muted">
@@ -717,13 +817,22 @@ export function DestinationsBody({ data }: { data: Destinations }) {
           distinctions remain in the research record. */}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} className="cs-src" />
+      {!embedded && <SourceRow sources={data.sources} className="cs-src" />}
     </div>
   )
 }
 
 /** One category's heading and its chips. */
-function CategoryBlock({ cat, query = '' }: { cat: DestinationCategory; query?: string }) {
+function CategoryBlock({
+  cat,
+  query = '',
+  counts,
+}: {
+  cat: DestinationCategory
+  query?: string
+  /** Graduates of the selected class per school; set only in a class view. */
+  counts?: Map<string, number>
+}) {
   const { t } = useTranslation()
   const linked = cat.schools.filter((s) => s.slug && schoolBySlug(s.slug)).length
   return (
@@ -741,14 +850,21 @@ function CategoryBlock({ cat, query = '' }: { cat: DestinationCategory; query?: 
         {cat.label}
       </Heading>
       <div className="hsp-dest-row">
-        {cat.schools.map((s) => (
-          <DestinationChip
-            key={s.name}
-            dest={s}
-            note={cat.notes?.[s.name]}
-            query={query}
-          />
-        ))}
+        {cat.schools.map((s) =>
+          counts ? (
+            <div key={s.name} className="hsp-count-row">
+              <span className="hsp-count">{counts.get(s.name)}</span>
+              <DestinationChip dest={s} note={cat.notes?.[s.name]} query={query} />
+            </div>
+          ) : (
+            <DestinationChip
+              key={s.name}
+              dest={s}
+              note={cat.notes?.[s.name]}
+              query={query}
+            />
+          ),
+        )}
       </div>
     </div>
   )

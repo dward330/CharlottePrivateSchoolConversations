@@ -554,12 +554,10 @@ export function CoachingBody({ data }: { data: Coaching }) {
             <div key={t.name} className="sports-tenure">
               <span className="sports-tenure-name">{t.name}</span>
               <span className="text-muted sports-tenure-role">{t.role}</span>
-              <span className="sports-bar-track sports-bar-track-xs">
-                <span
-                  className="sports-bar-fill"
-                  style={{ width: `${Math.round(t.width * 100)}%` }}
-                />
-              </span>
+              {/* No tenure bar (user, 2026-10-19): its length was relative to the
+                  longest tenure on THAT school's list, so the same bar meant 3
+                  years on one page and 20 on another, and it said nothing the
+                  "since" year beside it does not say better. */}
               <span className="sports-tenure-since">
                 {t.since}
                 {t.toVerify && <ToVerify />}

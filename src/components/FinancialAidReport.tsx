@@ -353,7 +353,10 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
   } = section
 
   const hasFigure = !!(bands || (ranges && rangeMax) || ladder)
-  const hasSide = !!(boxes?.length || source)
+  /* The side rail exists for boxes. A figure section with a source but no
+     boxes used to put the lone source toggle in the rail, beside the chart;
+     it now sits under the figure instead (user, 2026-10-19). */
+  const hasSide = !!boxes?.length
   /** Does the question checklist have anything to sit beside? */
   const hasAside = !!(stats?.length || boxes?.length)
 
@@ -405,6 +408,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
           )}
         </div>
       )}
+      {hasFigure && !hasSide && !timeline && source && <SourceRow text={source} />}
 
       {components && (
         <ComponentGrid

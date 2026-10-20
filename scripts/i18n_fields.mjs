@@ -652,6 +652,9 @@ export const PATH_OVERRIDES = new Map([
   // extraction rather than flagged, so the cells ship English at 100% coverage.
   ['comparison.rows[].cells.k', true],
   ['comparison.rows[].cells.g18', true],
+  // Charlotte Prep's first band, Early School & K (`esk`); its second reuses
+  // Trinity's `g18`. Same reason as above: unregistered means unextracted.
+  ['comparison.rows[].cells.esk', true],
 
   /* ------------------------------------------- high school placement -- */
 
@@ -679,6 +682,15 @@ export const PATH_OVERRIDES = new Map([
   // "public + independent · boarding", "Kindergarten through 8th grade". The
   // figure lives in `value`, which stays skipped.
   ['placement.stats[].denominator', true],
+  // Charlotte Prep (2026-10-19). The same denominator phrase under the
+  // Where Graduates Go tiles ("39 graduates named on the class list").
+  ['outcomes.stats[].denominator', true],
+  // "What the school owns" column — full sentences describing the placement
+  // program. Trinity shipped it empty, so the path first surfaced here.
+  ['placement.owns[]', true],
+  // The class picker's per-class rows: same cross-link slug as the
+  // categories list above, and skipped for the same reason.
+  ['destinations.classTallies[].schools[].slug', false],
 
   /* --------------------------------------------- international travel -- */
 

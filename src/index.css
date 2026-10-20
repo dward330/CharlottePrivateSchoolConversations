@@ -993,6 +993,18 @@ main { flex: 1; }
   border: 0;
 }
 .welcome-caption { color: var(--muted); font-size: 12.5px; margin: 12px 0 0; }
+/* The High School Placement class video: the Welcome Video frame, closing the
+   area below its card grid, with its head inside the frame and one step smaller. */
+.class-video { margin-top: 24px; }
+.class-video-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.class-video-head h3 { font-size: 19px; margin: 0; }
+.class-video-head .glyph { color: var(--brand); align-self: center; display: inline-flex; }
 
 .topic-section { scroll-margin-top: 80px; }
 .topic-section-head {
@@ -1660,8 +1672,11 @@ main { flex: 1; }
 
 .fa-framing {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  /* One equal column per framing rule: most reports carry three, the K-8
+     reports two — a fixed repeat(3) left a two-rule row with an empty third. */
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 14px 32px;
   padding: 14px 0;
   border-bottom: 1px solid var(--border);
 }
@@ -1959,6 +1974,8 @@ main { flex: 1; }
 .fa-q { flex: none; font-family: var(--heading); font-weight: 600; color: var(--accent-700); }
 
 .fa-srcrow { display: flex; gap: 8px; align-items: baseline; }
+/* A source row directly under a figure (no side rail) needs air above it. */
+.fa-section > .fa-srcrow { margin-top: 12px; }
 .fa-src-text { color: var(--muted); font-size: 12px; line-height: 1.6; }
 .fa-sources {
   margin-top: 24px;
@@ -1972,7 +1989,7 @@ main { flex: 1; }
 
 @media (max-width: 900px) {
   .fa-split, .fa-split-wide { grid-template-columns: minmax(0, 1fr); }
-  .fa-framing { grid-template-columns: minmax(0, 1fr); }
+  .fa-framing { grid-auto-flow: row; grid-template-columns: minmax(0, 1fr); }
   .fa-boxrow.multi { grid-template-columns: minmax(0, 1fr); }
   .fa-timeline { grid-template-columns: minmax(0, 1fr); row-gap: 16px; }
   /* The connecting rule only reads across a row, not a stack. */
@@ -3057,7 +3074,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   display: block;
 }
 .sports-bar-track-sm { height: 12px; }
-.sports-bar-track-xs { height: 10px; }
 .sports-bar-fill {
   position: absolute;
   inset: 0;
@@ -3206,7 +3222,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-tenures { display: flex; flex-direction: column; }
 .sports-tenure {
   display: grid;
-  grid-template-columns: 170px 190px 1fr 120px;
+  grid-template-columns: 170px minmax(0, 1fr) 120px;
   gap: 12px;
   align-items: center;
   padding: 8px 12px;
@@ -4859,6 +4875,51 @@ a.cs-college-name:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 
+/* -- the class picker over the destination index --------------------------
+   "All alumni" or one class; a class view puts each school's graduate count to
+   the LEFT of the row's edge, explained by a second legend line. */
+.hsp-view {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 12px;
+}
+.hsp-view-label {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hsp-view-select { width: auto; min-width: 180px; max-width: 100%; }
+.hsp-view-count { font-size: 13px; }
+.hsp-count-row {
+  display: grid;
+  grid-template-columns: 2.2em minmax(0, 1fr);
+  align-items: baseline;
+}
+.hsp-count,
+.hsp-legend-count {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  text-align: end;
+  padding-right: 4px;
+}
+.hsp-legend-count { flex: none; width: 2.2em; color: var(--text); }
+/* The count line sits directly under the cross-link line: one legend, two keys. */
+.hsp-legend + .hsp-legend { margin-top: -12px; }
+
+/* The destination index inside the merged Where Graduates Go card: one step
+   above the in-card section labels, so it reads as the card's second half. */
+.hsp-merged-head {
+  font-size: 18px;
+  margin: 26px 0 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
 /* -- scholarship band ------------------------------------------------------ */
 
 .hsp-schol-band {
@@ -5275,6 +5336,8 @@ a.cs-college-name:focus-visible {
   line-height: 1.5;
 }
 .as-summer-chip { font-size: 10px; flex: none; }
+.as-summer-link { color: var(--brand); font-weight: 600; white-space: nowrap; }
+.as-summer-link:hover { text-decoration: underline; }
 
 /* States the attendance assumption behind the tier prices. A bar can carry only
    one number, but every school prices by days-per-week as well as by pickup
@@ -6422,6 +6485,8 @@ a.cs-college-name:focus-visible {
   padding-bottom: 18px;
   border-bottom: 1px solid var(--border);
 }
+/* A school with a single framing rule takes the whole row rather than half. */
+.adm-rules > :only-child { grid-column: 1 / -1; }
 .adm-rule { display: flex; gap: 10px; align-items: flex-start; }
 .adm-rule-icon { flex: none; margin-top: 1px; color: var(--accent); display: flex; }
 .adm-rule-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }

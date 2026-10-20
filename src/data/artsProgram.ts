@@ -344,6 +344,14 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
     // review (2026-09-17), so the checklist IS the card.
     verdict: 'Visit Checklist',
   },
+  // Charlotte Prep is PreK–8: no TK–12 ladder, and the Blumeys (Blumenthal's
+  // HIGH-SCHOOL musical-theatre awards) are closed to it. Its theatre card holds
+  // a production at nearly every grade, so it is titled for that. Its verdict
+  // ships a "why it holds up" column, so the shared title stands.
+  'charlotte-prep': {
+    ladder: 'The PreK–8 Arts Ladder',
+    theatre: 'Theatre & Grade-Level Productions',
+  },
 }
 
 /**
@@ -393,6 +401,7 @@ import { carmelChristian } from './artsPrograms/carmel-christian.ts'
 import { hickoryGroveChristian } from './artsPrograms/hickory-grove-christian.ts'
 import { gastonDay } from './artsPrograms/gaston-day.ts'
 import { trinityEpiscopal } from './artsPrograms/trinity-episcopal.ts'
+import { charlottePrep } from './artsPrograms/charlotte-prep.ts'
 
 const PROGRAMS: Record<string, ArtsProgram> = {
   'providence-day': providenceDay,
@@ -407,6 +416,7 @@ const PROGRAMS: Record<string, ArtsProgram> = {
   'hickory-grove-christian': hickoryGroveChristian,
   'gaston-day': gastonDay,
   'trinity-episcopal': trinityEpiscopal,
+  'charlotte-prep': charlottePrep,
 }
 
 /* ---------------------------------------------------------- translations -- */

@@ -10,6 +10,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](admissions/charlotte-christian.md) — 2 docs
 - [Charlotte Country Day School](admissions/charlotte-country-day.md) — 3 docs
 - [Charlotte Latin School](admissions/charlotte-latin.md) — 1 docs
+- [Charlotte Preparatory School](admissions/charlotte-prep.md) — 2 docs
 - [Covenant Day School](admissions/covenant-day.md) — 2 docs
 - [Hickory Grove Christian School](admissions/hickory-grove-christian.md) — 2 docs
 - [Providence Day School](admissions/providence-day.md) — 2 docs
@@ -22,6 +23,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](after-school/charlotte-christian.md) — 6 docs
 - [Charlotte Country Day School](after-school/charlotte-country-day.md) — 6 docs
 - [Charlotte Latin School](after-school/charlotte-latin.md) — 6 docs
+- [Charlotte Preparatory School](after-school/charlotte-prep.md) — 1 docs
 - [Covenant Day School](after-school/covenant-day.md) — 4 docs
 - [Davidson Day School](after-school/davidson-day.md) — 5 docs
 - [Gaston Day School](after-school/gaston-day.md) — 1 docs
@@ -51,6 +53,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](course-offerings/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](course-offerings/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](course-offerings/charlotte-latin.md) — 1 docs
+- [Charlotte Preparatory School](course-offerings/charlotte-prep.md) — 1 docs
 - [Covenant Day School](course-offerings/covenant-day.md) — 4 docs
 - [Davidson Day School](course-offerings/davidson-day.md) — 1 docs
 - [Gaston Day School](course-offerings/gaston-day.md) — 1 docs
@@ -66,6 +69,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](financial-aid-tuition/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](financial-aid-tuition/charlotte-country-day.md) — 2 docs
 - [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 1 docs
+- [Charlotte Preparatory School](financial-aid-tuition/charlotte-prep.md) — 4 docs
 - [Covenant Day School](financial-aid-tuition/covenant-day.md) — 2 docs
 - [Davidson Day School](financial-aid-tuition/davidson-day.md) — 2 docs
 - [Gaston Day School](financial-aid-tuition/gaston-day.md) — 1 docs
@@ -75,6 +79,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### High School Placement (`high-school-placement/`)
 
+- [Charlotte Preparatory School](high-school-placement/charlotte-prep.md) — 3 docs
 - [Trinity Episcopal School](high-school-placement/trinity-episcopal.md) — 3 docs
 
 ### Global Exposure (`international-travel/`)
@@ -94,6 +99,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](sports/charlotte-christian.md) — 16 docs
 - [Charlotte Country Day School](sports/charlotte-country-day.md) — 15 docs
 - [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
+- [Charlotte Preparatory School](sports/charlotte-prep.md) — 2 docs
 - [Covenant Day School](sports/covenant-day.md) — 15 docs
 - [Davidson Day School](sports/davidson-day.md) — 15 docs
 - [Gaston Day School](sports/gaston-day.md) — 1 docs
@@ -109,6 +115,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](student-clubs/charlotte-christian.md) — 10 docs
 - [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 10 docs
 - [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
+- [Charlotte Preparatory School](student-clubs/charlotte-prep.md) — 3 docs
 - [Covenant Day School](student-clubs/covenant-day.md) — 6 docs
 - [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
 - [Gaston Day School](student-clubs/gaston-day.md) — 2 docs
@@ -124,6 +131,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](summer-programs/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](summer-programs/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](summer-programs/charlotte-latin.md) — 1 docs
+- [Charlotte Preparatory School](summer-programs/charlotte-prep.md) — 2 docs
 - [Covenant Day School](summer-programs/covenant-day.md) — 1 docs
 - [Gaston Day School](summer-programs/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](summer-programs/hickory-grove-christian.md) — 1 docs
@@ -138,6 +146,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](the-arts/charlotte-christian.md) — 8 docs
 - [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 8 docs
 - [Charlotte Latin School](the-arts/charlotte-latin.md) — 7 docs
+- [Charlotte Preparatory School](the-arts/charlotte-prep.md) — 2 docs
 - [Covenant Day School](the-arts/covenant-day.md) — 7 docs
 - [Davidson Day School](the-arts/davidson-day.md) — 5 docs
 - [Gaston Day School](the-arts/gaston-day.md) — 1 docs
@@ -147,4 +156,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 446 documents across 11 topics and 12 schools.
+- `src/data/schools.json` — 466 documents across 11 topics and 13 schools.

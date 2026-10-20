@@ -991,6 +991,75 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
   countNoun: 'clubs',
 }
 
+// ── Charlotte Prep ── publishes NO clubs list ("room enough for everyone … in
+// the club", with no club named). This roster is built from the clubs that
+// appear in its own news stories and reports, each with its latest evidence in
+// source-material/student-clubs/charlotte-prep/. Band and Chorus are taken in
+// the school day, so they are on the Arts cards rather than here.
+const CHARLOTTE_PREP: ClubCatalog = {
+  verdict: 'Seven Middle School clubs and activities on the school’s own record.',
+  verdictHint: 'No clubs list is published — each one here appears in the school’s news.',
+  countNoun: 'clubs on record',
+  categories: [
+    { key: 'lead', short: 'Leadership', full: 'Leadership' },
+    { key: 'comp', short: 'Competitive', full: 'Competitive & academic' },
+    { key: 'arts', short: 'Arts', full: 'Arts & production' },
+    { key: 'culture', short: 'Community', full: 'Culture & community' },
+    { key: 'spec', short: 'Special interest', full: 'Special interest' },
+  ],
+  clubs: [
+    {
+      name: 'Student Council',
+      cat: 'lead',
+      note: 'Grades 5–8, with an 8th-grade president; led the 2024–25 Middle School assemblies and the Hurricane Helene relief drive',
+    },
+    {
+      name: 'Student Ambassadors',
+      cat: 'lead',
+      note: 'Middle School students who lead guest tours, most recently at the 2nd-grade Black History Lunch & Learn in February 2026',
+    },
+    {
+      name: 'Model UN',
+      cat: 'comp',
+      note: 'A club since 2020; CHARMUN member school since 2023, with delegate awards in 2023 and 2024',
+    },
+    {
+      name: 'Set Design Club',
+      cat: 'arts',
+      note: 'Middle School; built props and costumes for the November 2025 one-act, Alice',
+    },
+    {
+      name: 'Stage Crew',
+      cat: 'arts',
+      note: 'Runs the spring stage show alongside the set design club — named for Willy Wonka Jr. in 2024',
+    },
+    {
+      name: 'MOSAIC MS Diversity Club',
+      cat: 'culture',
+      note: 'The Middle School diversity club; ten members attended the ACT Middle School Diversity Conference in both 2023–24 and 2024–25',
+    },
+    {
+      name: 'Dungeons & Dragons Club',
+      cat: 'spec',
+      note: 'Founded by a student in the Class of 2023; last mentioned in January 2024',
+    },
+  ],
+  divisions: [
+    {
+      label: 'Joy Term (K–8)',
+      text: 'Each January since 2025, "over 20 mini-courses" — from Juggling and Prep Poetry Jam to Show Choir and Surviving the Zombie Apocalypse — with each student taking 3 to 4.',
+      tag: 'School-reported',
+    },
+    {
+      label: 'After School Studios',
+      text: 'Fee-based studios each fall and spring, such as STEM, Hindi, chorus, ukulele, printmaking and theatre — covered in the After School section.',
+      tag: 'Structural',
+    },
+  ],
+  source:
+    'charlotteprep.org — news stories 2023–2026 (Student Council, Model UN, Alice, Willy Wonka Jr., Joy Term), the Prep Fund report and the Strategic Plan 2022–2027',
+}
+
 const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-catholic': CHARLOTTE_CATHOLIC,
   'charlotte-latin': CHARLOTTE_LATIN,
@@ -1004,6 +1073,7 @@ const CATALOG: Record<string, ClubCatalog> = {
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
   'trinity-episcopal': TRINITY_EPISCOPAL,
+  'charlotte-prep': CHARLOTTE_PREP,
 }
 
 /**

@@ -55,7 +55,8 @@
       "t": "Esposizione",
       "of": "504443a0",
       "at": [
-        "trinity-episcopal:placement.steps[0].kind"
+        "trinity-episcopal:placement.steps[0].kind",
+        "charlotte-prep:placement.steps[2].kind"
       ]
     },
     {
@@ -125,14 +126,16 @@
       "t": "Scuole indipendenti dell’area di Charlotte",
       "of": "d9db0228",
       "at": [
-        "trinity-episcopal:destinations.categories[0].label"
+        "trinity-episcopal:destinations.categories[0].label",
+        "charlotte-prep:destinations.categories[0].label"
       ]
     },
     {
       "t": "Scuole pubbliche, charter e magnet",
       "of": "d37d2ef5",
       "at": [
-        "trinity-episcopal:destinations.categories[1].label"
+        "trinity-episcopal:destinations.categories[1].label",
+        "charlotte-prep:destinations.categories[1].label"
       ]
     },
     {
@@ -146,7 +149,8 @@
       "t": "Winston-Salem · conservatorio artistico residenziale",
       "of": "060e1432",
       "at": [
-        "trinity-episcopal:destinations.categories[1].notes.University of North Carolina School of the Arts"
+        "trinity-episcopal:destinations.categories[1].notes.University of North Carolina School of the Arts",
+        "charlotte-prep:destinations.categories[1].notes.University of North Carolina School of the Arts"
       ]
     },
     {
@@ -161,7 +165,8 @@
       "of": "14c97ec2",
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.Asheville School",
-        "trinity-episcopal:destinations.categories[2].notes.Christ School"
+        "trinity-episcopal:destinations.categories[2].notes.Christ School",
+        "charlotte-prep:destinations.categories[3].notes.Carolina Day School"
       ]
     },
     {
@@ -177,7 +182,8 @@
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.Blair Academy",
         "trinity-episcopal:destinations.categories[2].notes.Lawrenceville School",
-        "trinity-episcopal:destinations.categories[2].notes.Morristown High School"
+        "trinity-episcopal:destinations.categories[2].notes.Morristown High School",
+        "charlotte-prep:destinations.categories[2].notes.Peddie School"
       ]
     },
     {
@@ -198,7 +204,11 @@
         "trinity-episcopal:destinations.categories[2].notes.Episcopal High School",
         "trinity-episcopal:destinations.categories[2].notes.Hargrave Military Academy",
         "trinity-episcopal:destinations.categories[2].notes.Virginia Episcopal School",
-        "trinity-episcopal:destinations.categories[2].notes.Woodberry Forest School"
+        "trinity-episcopal:destinations.categories[2].notes.Woodberry Forest School",
+        "charlotte-prep:destinations.categories[2].notes.Chatham Hall",
+        "charlotte-prep:destinations.categories[2].notes.Episcopal High School",
+        "charlotte-prep:destinations.categories[2].notes.Woodberry Forest School",
+        "charlotte-prep:destinations.categories[3].notes.Carlisle School"
       ]
     },
     {
@@ -234,7 +244,8 @@
       "t": "Massachusetts",
       "of": "b08e6983",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.Nauset High School"
+        "trinity-episcopal:destinations.categories[2].notes.Nauset High School",
+        "charlotte-prep:destinations.categories[2].notes.Walnut Hill School for the Arts"
       ]
     },
     {
@@ -255,7 +266,9 @@
       "t": "Georgia",
       "of": "0bfef26f",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.Rabun Gap Nacoochee School"
+        "trinity-episcopal:destinations.categories[2].notes.Rabun Gap Nacoochee School",
+        "charlotte-prep:destinations.categories[2].notes.Riverside Military Academy",
+        "charlotte-prep:destinations.categories[3].notes.Wesleyan School"
       ]
     },
     {
@@ -312,28 +325,35 @@
       "of": "d3b4ab57",
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.The Cate School",
-        "trinity-episcopal:destinations.categories[2].notes.The Thacher School"
+        "trinity-episcopal:destinations.categories[2].notes.The Thacher School",
+        "charlotte-prep:destinations.categories[1].notes.Campolindo High School"
       ]
     },
     {
       "t": "Tennessee",
       "of": "17011501",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.The McCallie School"
+        "trinity-episcopal:destinations.categories[2].notes.The McCallie School",
+        "charlotte-prep:destinations.categories[2].notes.Baylor School",
+        "charlotte-prep:destinations.categories[2].notes.Currey Ingram Academy",
+        "charlotte-prep:destinations.categories[2].notes.McCallie School"
       ]
     },
     {
       "t": "Connecticut",
       "of": "fbb40a80",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.The Taft School"
+        "trinity-episcopal:destinations.categories[2].notes.The Taft School",
+        "charlotte-prep:destinations.categories[2].notes.Choate Rosemary Hall",
+        "charlotte-prep:destinations.categories[2].notes.Suffield Academy"
       ]
     },
     {
       "t": "Scuole indipendenti fuori zona",
       "of": "e6df106c",
       "at": [
-        "trinity-episcopal:destinations.categories[3].label"
+        "trinity-episcopal:destinations.categories[3].label",
+        "charlotte-prep:destinations.categories[3].label"
       ]
     },
     {
@@ -383,6 +403,464 @@
       "of": "d2f610ec",
       "at": [
         "trinity-episcopal:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Il 97% della classe del 2026 è stato ammesso in una o in entrambe le prime due scuole superiori scelte — e Charlotte Prep ha pubblicato un tasso analogo per ogni classe dal 2023.",
+      "of": "4ff6a80d",
+      "at": [
+        "charlotte-prep:outcomes.headline"
+      ]
+    },
+    {
+      "t": "Quindici membri della classe del 2026 sono stati ammessi in tutte le scuole a cui avevano fatto domanda, secondo la scuola.",
+      "of": "50e5f9f7",
+      "at": [
+        "charlotte-prep:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "97%",
+      "of": "6ac7e114",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "39 diplomati nominati nell’elenco della classe",
+      "of": "20db089c",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].denominator"
+      ]
+    },
+    {
+      "t": "Classe del 2026 · in una o entrambe le prime due scelte",
+      "of": "e237d0f7",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].caption"
+      ]
+    },
+    {
+      "t": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].value",
+        "charlotte-prep:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "27 diplomati nominati nell’elenco della classe",
+      "of": "3037257f",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].denominator"
+      ]
+    },
+    {
+      "t": "Classe del 2025 · in una o entrambe le prime due scelte",
+      "of": "643feda4",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].caption"
+      ]
+    },
+    {
+      "t": "100%",
+      "of": "2f97df3b",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "29 diplomati nominati nell’elenco della classe",
+      "of": "fbd8b055",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].denominator"
+      ]
+    },
+    {
+      "t": "Classe del 2024 · in una o entrambe le prime due scelte",
+      "of": "38fb1a4d",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].caption"
+      ]
+    },
+    {
+      "t": "negli ultimi 10 anni, come lo dichiara la scuola · una pagina precedente indicava il 94% dal 2015",
+      "of": "11646f79",
+      "at": [
+        "charlotte-prep:outcomes.stats[3].caption"
+      ]
+    },
+    {
+      "t": "Providence Day School · Classe del 2025 · \"an exclusive four-year scholarship [that] includes a financial award and a personal mentorship with Grant Williams himself, NBA player and Providence Day alum\"",
+      "of": "6eb45320",
+      "at": [
+        "charlotte-prep:outcomes.scholarships[0].detail"
+      ]
+    },
+    {
+      "t": "The McCallie School · Classe del 2025 · \"Over the past 16 years, Charlotte Prep has sent 11 graduates to McCallie, seven of whom earned the highly selective Michaels‑Dickson Merit Scholarship.\"",
+      "of": "aa0868a9",
+      "at": [
+        "charlotte-prep:outcomes.scholarships[1].detail"
+      ]
+    },
+    {
+      "t": "Un team dedicato al collocamento, un percorso in dodici tappe che inizia prima della classe 8ª e una fiera autunnale che porta oltre 40 scuole superiori nel campus a reclutare.",
+      "of": "1179118a",
+      "at": [
+        "charlotte-prep:placement.headline"
+      ]
+    },
+    {
+      "t": "La domanda è gestita dai genitori, ma del resto si occupa la scuola: \"Our team manages all other aspects of the process to minimize stress and provide all necessary materials.\"",
+      "of": "133ab7e7",
+      "at": [
+        "charlotte-prep:placement.subhead"
+      ]
+    },
+    {
+      "t": "tappe nella guida della scuola",
+      "of": "2ac0eb14",
+      "at": [
+        "charlotte-prep:placement.stats[0].denominator"
+      ]
+    },
+    {
+      "t": "dall’inizio del percorso all’ammissione",
+      "of": "ae847b9f",
+      "at": [
+        "charlotte-prep:placement.stats[0].caption"
+      ]
+    },
+    {
+      "t": "scuole invitate ogni settembre",
+      "of": "6145efa5",
+      "at": [
+        "charlotte-prep:placement.stats[1].denominator"
+      ]
+    },
+    {
+      "t": "alla High School Fair e alla Boarding School Fair",
+      "of": "7caca540",
+      "at": [
+        "charlotte-prep:placement.stats[1].caption"
+      ]
+    },
+    {
+      "t": "prova in classe 7 → classe 8",
+      "of": "6cf589f3",
+      "at": [
+        "charlotte-prep:placement.stats[2].denominator"
+      ]
+    },
+    {
+      "t": "l’unico test di ammissione che la scuola nomina",
+      "of": "e0954993",
+      "at": [
+        "charlotte-prep:placement.stats[2].caption"
+      ]
+    },
+    {
+      "t": "Primavera della classe 7ª — il Parent Coffee",
+      "of": "1088e488",
+      "at": [
+        "charlotte-prep:placement.steps[0].when"
+      ]
+    },
+    {
+      "t": "Orientamento",
+      "of": "c551d9c1",
+      "at": [
+        "charlotte-prep:placement.steps[0].kind"
+      ]
+    },
+    {
+      "t": "\"Each spring, rising 8th-grade parents attend a Parent Coffee to learn about the admissions process, events, deadlines, and other tips and information to prepare for the year ahead.\"",
+      "of": "ad41cc41",
+      "at": [
+        "charlotte-prep:placement.steps[0].text"
+      ]
+    },
+    {
+      "t": "Classe 7ª — un ISEE di prova",
+      "of": "b517bb3b",
+      "at": [
+        "charlotte-prep:placement.steps[1].when"
+      ]
+    },
+    {
+      "t": "Test",
+      "of": "0535d93b",
+      "at": [
+        "charlotte-prep:placement.steps[1].kind"
+      ]
+    },
+    {
+      "t": "Gli studenti sostengono l’Independent School Entrance Exam per esercitarsi in classe 7ª, poi per il collocamento alle superiori in classe 8ª, e nel frattempo la scuola offre la preparazione al test ISEE: \"Students learn test-taking strategies and prepare for admissions testing to gain comfort and fine tune skills.\"",
+      "of": "d11f63fe",
+      "at": [
+        "charlotte-prep:placement.steps[1].text"
+      ]
+    },
+    {
+      "t": "Settembre della classe 8ª — la High School Fair",
+      "of": "15a25aa9",
+      "at": [
+        "charlotte-prep:placement.steps[2].when"
+      ]
+    },
+    {
+      "t": "\"In September, administrators from over 40 schools are invited to Charlotte Prep's High School Fair and Boarding School Fair to recruit our students.\" La fiera dei collegi comprende una tavola rotonda — una famiglia del 2026 le attribuisce la decisione di puntare su un collegio.",
+      "of": "051f6498",
+      "at": [
+        "charlotte-prep:placement.steps[2].text"
+      ]
+    },
+    {
+      "t": "Autunno della classe 8ª — colloqui e visite alle scuole",
+      "of": "e1f51311",
+      "at": [
+        "charlotte-prep:placement.steps[3].when"
+      ]
+    },
+    {
+      "t": "Affinità",
+      "of": "116f13cc",
+      "at": [
+        "charlotte-prep:placement.steps[3].kind"
+      ]
+    },
+    {
+      "t": "Il team incontra individualmente ogni studente di classe 8ª e separatamente i genitori di ciascuno \"to discuss their plans, their objectives for their child, and appropriate placement opportunities.\" Le famiglie sono incoraggiate a partecipare a open house e visite guidate, e gli studenti trascorrono giornate di visita nelle scuole della loro lista.",
+      "of": "564e359c",
+      "at": [
+        "charlotte-prep:placement.steps[3].text"
+      ]
+    },
+    {
+      "t": "Classe 8ª — colloqui",
+      "of": "b468c620",
+      "at": [
+        "charlotte-prep:placement.steps[4].when"
+      ]
+    },
+    {
+      "t": "Preparazione",
+      "of": "04b7937a",
+      "at": [
+        "charlotte-prep:placement.steps[4].kind"
+      ]
+    },
+    {
+      "t": "\"In Leadership class, students learn interview etiquette and conduct. They learn about proper dress, eye contact, handshake, and what to look for as they seek the school that fits them best.\" Insegnanti e amministratori conducono colloqui simulati, e la brochure aggiunge un colloquio di prova con il capo d’istituto.",
+      "of": "8443e3d1",
+      "at": [
+        "charlotte-prep:placement.steps[4].text"
+      ]
+    },
+    {
+      "t": "Inverno della classe 8ª — domande e sostegno ai candidati",
+      "of": "1cb9733a",
+      "at": [
+        "charlotte-prep:placement.steps[5].when"
+      ]
+    },
+    {
+      "t": "Sostegno ai candidati",
+      "of": "879acf67",
+      "at": [
+        "charlotte-prep:placement.steps[5].kind"
+      ]
+    },
+    {
+      "t": "\"Charlotte Prep electronically delivers our students' complete transcripts and teacher recommendation packets to the schools prior to deadlines.\" Il team poi incontra ciascuna scuola superiore \"for in-depth conversations about our student applicants and to provide further insight to ensure each student is well known.\"",
+      "of": "e3ee9883",
+      "at": [
+        "charlotte-prep:placement.steps[5].text"
+      ]
+    },
+    {
+      "t": "Un colloquio individuale con ogni studente di classe 8ª, e uno separato con i suoi genitori",
+      "of": "e8e2ac5c",
+      "at": [
+        "charlotte-prep:placement.owns[0]"
+      ]
+    },
+    {
+      "t": "Colloqui simulati con insegnanti, amministratori e il capo d’istituto",
+      "of": "faef0b4f",
+      "at": [
+        "charlotte-prep:placement.owns[1]"
+      ]
+    },
+    {
+      "t": "Preparazione all’ISEE, dopo un ISEE di prova in classe 7ª",
+      "of": "b365cfab",
+      "at": [
+        "charlotte-prep:placement.owns[2]"
+      ]
+    },
+    {
+      "t": "Transcript e raccomandazioni degli insegnanti consegnati elettronicamente prima di ogni scadenza",
+      "of": "612f8743",
+      "at": [
+        "charlotte-prep:placement.owns[3]"
+      ]
+    },
+    {
+      "t": "Un incontro con ciascuna scuola superiore sui suoi candidati di Charlotte Prep",
+      "of": "b3f85e89",
+      "at": [
+        "charlotte-prep:placement.owns[4]"
+      ]
+    },
+    {
+      "t": "Oltre 60 scuole superiori tra tutti gli ex alunni di Charlotte Prep — e, per ogni classe dal 2023 al 2026, esattamente dove sono diretti i suoi diplomati.",
+      "of": "903a736a",
+      "at": [
+        "charlotte-prep:destinations.headline"
+      ]
+    },
+    {
+      "t": "Scegli una classe per vedere dove è diretto ciascuno dei suoi diplomati nominati. Le scuole sono raggruppate in base a ciò che ciascuna è effettivamente.",
+      "of": "3a208d7f",
+      "at": [
+        "charlotte-prep:destinations.subhead"
+      ]
+    },
+    {
+      "t": "ora Olympic High School",
+      "of": "240d01b0",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Olympic Community of Schools"
+      ]
+    },
+    {
+      "t": "Greenville, SC · scuola d’arte residenziale",
+      "of": "f4dfd5af",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.South Carolina Governor's School for the Arts"
+      ]
+    },
+    {
+      "t": "Germania",
+      "of": "263d0c7e",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Christian-von-Dohm Gymnasium"
+      ]
+    },
+    {
+      "t": "Maine · la guida al collocamento dice South Portland High School",
+      "of": "112a57bf",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Portland High School"
+      ]
+    },
+    {
+      "t": "Virginia · ora Washington-Liberty",
+      "of": "aa4bb759",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Washington-Lee High School"
+      ]
+    },
+    {
+      "t": "Collegi",
+      "of": "9a4ca450",
+      "at": [
+        "charlotte-prep:destinations.categories[2].label"
+      ]
+    },
+    {
+      "t": "Michigan",
+      "of": "dce172db",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.Interlochen Arts Academy"
+      ]
+    },
+    {
+      "t": "Pennsylvania",
+      "of": "53054bf9",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.Mercersburg Academy"
+      ]
+    },
+    {
+      "t": "la scuola non dice quale St. Andrew’s",
+      "of": "f4923032",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.St. Andrew’s School"
+      ]
+    },
+    {
+      "t": "Inghilterra",
+      "of": "a2a8f2aa",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.American School in London",
+        "charlotte-prep:destinations.categories[3].notes.International Community School in London"
+      ]
+    },
+    {
+      "t": "Marocco",
+      "of": "01eb2899",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.American School of Marrakech"
+      ]
+    },
+    {
+      "t": "Washington, DC",
+      "of": "36b7a1d6",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.Georgetown Day School",
+        "charlotte-prep:destinations.categories[3].notes.Sidwell Friends School"
+      ]
+    },
+    {
+      "t": "Ghana",
+      "of": "b0b5c104",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.Lincoln Community School"
+      ]
+    },
+    {
+      "t": "Arizona",
+      "of": "aa1a664f",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.The Gregory School"
+      ]
+    },
+    {
+      "t": "Un tasso di collocamento pubblicato per ogni classe recente, un elenco nominativo dietro ciascuno e un processo messo per iscritto passo dopo passo.",
+      "of": "f1a9aa40",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ]
+    },
+    {
+      "t": "Chi fa parte oggi del team per il collocamento? La guida del 2022 indicava tre ruoli; la guida attuale e l’elenco del personale non ne indicano nessuno.",
+      "of": "ee554e04",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "La preparazione all’ISEE è ancora gratuita, ed è un corso o un supporto individuale?",
+      "of": "823a5569",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "A quante scuole fa domanda una famiglia tipo, e quanti colloqui sostiene di solito uno studente?",
+      "of": "8be13cf7",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Quanti diplomati ottengono ogni anno una borsa di studio al merito nella loro scuola superiore?",
+      "of": "2e724873",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
       ]
     }
   ]

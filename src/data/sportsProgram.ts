@@ -270,7 +270,8 @@ export type TenureRow = {
   name: string
   /** Sport / role, e.g. "Football · Asst. AD Facilities". */
   role: string
-  /** Bar width 0–1, longest tenure = 1. */
+  /** Bar width 0–1, longest tenure = 1. No longer rendered — the tenure bar was
+      removed 2026-10-19 — but kept so no school's data needs editing. */
   width: number
   /** Right-hand label, e.g. "since 2002". */
   since: string
@@ -431,6 +432,7 @@ import { carmelChristian } from './sportsPrograms/carmel-christian.ts'
 import { hickoryGroveChristian } from './sportsPrograms/hickory-grove-christian.ts'
 import { gastonDay } from './sportsPrograms/gaston-day.ts'
 import { trinityEpiscopal } from './sportsPrograms/trinity-episcopal.ts'
+import { charlottePrep } from './sportsPrograms/charlotte-prep.ts'
 
 const PROGRAMS: Record<string, SportsProgram> = {
   'providence-day': providenceDay,
@@ -445,6 +447,7 @@ const PROGRAMS: Record<string, SportsProgram> = {
   'hickory-grove-christian': hickoryGroveChristian,
   'gaston-day': gastonDay,
   'trinity-episcopal': trinityEpiscopal,
+  'charlotte-prep': charlottePrep,
 }
 
 /* ---------------------------------------------------------- translations -- */

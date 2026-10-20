@@ -569,6 +569,11 @@ const TRINITY_EPISCOPAL: ClubClusters = {
   ],
 }
 
+// Charlotte Prep has NO entry here, deliberately (user, 2026-10-19): its
+// science-fair and Model UN record already fills the Competitions & Student
+// Leadership card, so an Academic & Competitive Clubs card repeated it. Its
+// research file is named so it folds into the Club Catalog instead.
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,

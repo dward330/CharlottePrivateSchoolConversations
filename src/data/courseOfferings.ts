@@ -8703,6 +8703,283 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
   ],
 }
 
+/* ── Charlotte Preparatory School ───────────────────────────────────────────
+   PreK–8, three divisions. The school publishes NO course catalog, program of
+   studies or curriculum guide, so — on the Trinity Episcopal precedent — each
+   division lists the subjects, named programs, specials and electives the
+   school itself names, in its own words, under an honest notPublished line.
+   Redesigned at review (user, 2026-10-19; Claude Design "Charlotte Prep Course
+   Offerings"): this replaced a single prose card that also covered the school
+   model, a daily schedule, testing and a curriculum-review timeline — none of
+   them courses. Those stay in source-material/course-offerings/charlotte-prep/.
+   Nothing here states a course name, placement rule or high-school credit the
+   school does not publish. */
+const PREP_MS = 'https://charlotteprep.org/academics/middle-school'
+const PREP_LS = 'https://charlotteprep.org/academics/lower-school'
+const PREP_ES = 'https://charlotteprep.org/academics/montessori-early-school'
+
+const CHARLOTTE_PREP: CourseOfferings = {
+  guideYear: '2026-27',
+  divisions: [
+    {
+      title: 'Montessori Early School',
+      grades: 'Ages 2 – 6',
+      teaser:
+        'Three Montessori stages, the three-year Primary cycle, and specials — 11 entries in 3 areas.',
+      source:
+        'charlotteprep.org — Montessori Early School; Montessori Three-Year Cycle guide (2025); Fall 2025 Admissions Packet',
+      sourceUrl: PREP_ES,
+      notPublished:
+        'The Early School teaches by the Montessori method in mixed-age classrooms rather than in separate courses. The rows below are the stages, milestones and specials the school names, in its own words.',
+      departments: [
+        {
+          name: 'Montessori Stages',
+          courses: [
+            {
+              title: 'Pre-Primary',
+              tag: 'Age 2',
+              description:
+                'Younger children "focus on gaining independence, large motor control, and early language and communication skills."',
+            },
+            {
+              title: 'Primary',
+              tag: 'Ages 3–4',
+              description:
+                'Students "build concentration, coordination, organization, and independence through repeated, sequential practical life activities in preparation for future academic work."',
+            },
+            {
+              title: 'Transitional K & Montessori K',
+              tag: 'Ages 5–6',
+              description:
+                'Older students "begin to make connections between concrete and abstract concepts through the use of specialized didactic materials and meaningful learning experiences."',
+            },
+          ],
+        },
+        {
+          name: 'The Three-Year Cycle',
+          courses: [
+            {
+              title: 'First Year',
+              tag: 'Age 3',
+              description:
+                'Beginning phonemic awareness, and "developing the concepts of grading and 1:1 correspondence, and working on numeral recognition 0-10."',
+            },
+            {
+              title: 'Second Year',
+              tag: 'Age 4',
+              description:
+                '"Connecting phonetic sounds to their alphabet symbols" and "connecting the numerals and quantities for numbers 0-20 and beyond."',
+            },
+            {
+              title: 'Third Year',
+              tag: 'Age 5',
+              description:
+                'Writing with the movable alphabet and pencil, "beginning to blend sounds to decode (read) words," and "extending mathematical concepts, such as the decimal system and operations."',
+            },
+          ],
+        },
+        {
+          name: 'Specials',
+          courses: [
+            {
+              title: 'Music',
+              tag: 'All Early School',
+              description: '"All early school students participate in music classes."',
+            },
+            {
+              title: 'Art',
+              tag: 'Montessori K · weekly',
+              description: 'A weekly art class for Montessori Kindergarten students.',
+            },
+            {
+              title: 'Physical Education',
+              tag: 'Montessori K · weekly',
+              description: 'A weekly P.E. class for Montessori Kindergarten students.',
+            },
+            {
+              title: 'Spanish',
+              tag: 'Montessori K · weekly',
+              description: 'A weekly Spanish class for Montessori Kindergarten students.',
+            },
+            {
+              title: 'Technology',
+              tag: 'Montessori K · weekly',
+              description: 'A weekly technology class for Montessori Kindergarten students.',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Lower School Courses',
+      grades: 'Kindergarten – Grade 4',
+      teaser:
+        'A workshop model for reading, writing and math, four named programs, and a six-day specials rotation — 13 entries in 3 areas.',
+      source: 'charlotteprep.org — Lower School; The Prep Fund',
+      sourceUrl: PREP_LS,
+      notPublished:
+        'Charlotte Prep publishes subjects and named programs for the Lower School, not individually described courses. The rows below are those, in the school’s words.',
+      departments: [
+        {
+          name: 'Core Subjects',
+          courses: [
+            {
+              title: 'Reading & Writing',
+              tag: 'K–2',
+              description:
+                'Daily instruction in "decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process."',
+            },
+            {
+              title: 'Reading & Writing',
+              tag: 'Gr 3–4',
+              description:
+                'Students "support cross-discipline learning, develop interpretive and analytic comprehension skills, and establish their voices as writers."',
+            },
+            {
+              title: 'Mathematics',
+              tag: 'K–4',
+              description:
+                '"Grounded in a global philosophy. A balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge."',
+            },
+          ],
+        },
+        {
+          name: 'Named Programs',
+          courses: [
+            {
+              title: 'Collaborative Classroom',
+              tag: 'K–3',
+              description: 'A reading curriculum "based on the science of reading", launched with Prep Fund support.',
+            },
+            {
+              title: 'SIPPS',
+              tag: 'Reading intervention',
+              description: 'A reading intervention program used by the learning-support specialists.',
+            },
+            {
+              title: 'Daily Language Instruction',
+              tag: 'Gr 3–4',
+              description: 'A grammar program for 3rd and 4th grade.',
+            },
+            {
+              title: 'IXL',
+              tag: 'Gr 3–8',
+              description: 'An online practice platform for math, used since 2023.',
+            },
+          ],
+        },
+        {
+          name: 'Specials Rotation',
+          courses: [
+            { title: 'Music', tag: 'K–4', description: 'Part of the fine arts in the six-day rotation of specialized classes.' },
+            { title: 'Drama', tag: 'K–4', description: 'Part of the fine arts in the six-day rotation of specialized classes.' },
+            { title: 'Art', tag: 'K–4', description: 'Part of the fine arts in the six-day rotation of specialized classes.' },
+            { title: 'Technology & STEM', tag: 'K–4', description: 'A special in the six-day rotation.' },
+            { title: 'Spanish', tag: 'K–4', description: 'A special in the six-day rotation; Spanish is taught K–8.' },
+            { title: 'Physical Education', tag: 'K–4', description: 'A special in the six-day rotation.' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Middle School Courses',
+      grades: 'Grades 5 – 8',
+      teaser:
+        'Core subjects with math a year ahead and Spanish as a core class, a leadership sequence, and arts electives — 13 entries in 3 areas.',
+      source: 'charlotteprep.org — Middle School; Leadership; Fall 2025 Admissions Packet; "Testing at Charlotte Prep" (April 2026)',
+      sourceUrl: PREP_MS,
+      notPublished:
+        'Charlotte Prep publishes no course catalog or program of studies. These are the subjects, programs and electives the school itself names, in its own words.',
+      departments: [
+        {
+          name: 'Core Subjects',
+          courses: [
+            {
+              title: 'Mathematics',
+              tag: 'Gr 5–8',
+              description: '"Our standard math curriculum is a full year ahead of learning at most other schools."',
+            },
+            {
+              title: 'Algebra or Geometry',
+              tag: 'Gr 8',
+              description:
+                'Some 8th graders take Algebra or Geometry; those students sit a CTP-5 Algebra sub-test.',
+            },
+            {
+              title: 'Spanish',
+              tag: 'Gr 5–8 · core',
+              description:
+                'A core class on the Somos curriculum, developing "the confidence and skills they will need to succeed in high school Spanish"; 8th graders sit the National Spanish Exam.',
+            },
+            {
+              title: 'Reading & Writing',
+              tag: 'Gr 5–8',
+              description: '"Reading and writing are emphasized throughout the curriculum."',
+            },
+            {
+              title: 'Technology & STEM',
+              tag: 'Gr 5–8',
+              description:
+                'Students "become creative and responsible users of emerging technologies, leveraging tools like coding and robotics."',
+            },
+          ],
+        },
+        {
+          name: 'Leadership',
+          courses: [
+            {
+              title: 'Leadership Class',
+              tag: 'Gr 5–8',
+              description:
+                'Students learn to present themselves, with "interview skills such as shaking hands properly, appropriate dress, eye contact, and asking thoughtful questions."',
+            },
+            {
+              title: 'Persuasive Speech Project',
+              tag: 'Gr 6',
+              description: 'A sixth-grade public-speaking project.',
+            },
+            {
+              title: 'Ignite Talks',
+              tag: 'Gr 8',
+              description: '"Prep 5x30" talks on a topic of the student’s choice — "five slides displayed for 30 seconds each."',
+            },
+            {
+              title: 'Capstone Project',
+              tag: 'Gr 8',
+              description: 'Policy proposals built around the 8th-grade trip to Washington, D.C.',
+            },
+          ],
+        },
+        {
+          name: 'Arts & PE',
+          courses: [
+            {
+              title: 'Chorus or Band',
+              tag: 'Gr 5–6',
+              description: 'A choice of ensemble from 5th grade, taken alongside both Drama and Art.',
+            },
+            {
+              title: 'Drama and Art',
+              tag: 'Gr 5–6',
+              description: 'Fifth and sixth graders "continue to take both Drama and Art."',
+            },
+            {
+              title: 'Drama or Art',
+              tag: 'Gr 7–8',
+              description: '"Once they are in 7th grade they may choose between Drama and Art."',
+            },
+            {
+              title: 'Physical Education',
+              tag: 'Gr 5–8',
+              description: 'Middle School students have Physical Education "twice a week."',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+
 const OFFERINGS: Record<string, CourseOfferings> = {
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
@@ -8716,6 +8993,7 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
   'trinity-episcopal': TRINITY_EPISCOPAL,
+  'charlotte-prep': CHARLOTTE_PREP,
 }
 
 /* ---------------------------------------------------------- translations -- */

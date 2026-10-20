@@ -179,7 +179,10 @@
     "welcomeCaption": "Un'introduzione a {{school}}, con le parole della scuola stessa. Premi play per guardare.",
     "welcomeFrom": "Dalla scuola",
     "welcomeIframeTitle": "{{school}} — Video di benvenuto",
-    "welcomeVideo": "Video di benvenuto"
+    "welcomeVideo": "Video di benvenuto",
+    "classVideo": "Dove è diretta la classe del {{year}}",
+    "classVideoCaption": "Il video di {{school}} su dove andrà alle superiori la sua classe del {{year}}. Premi play per guardarlo.",
+    "classVideoIframeTitle": "{{school}} — destinazioni alle superiori della classe del {{year}}"
   },
   "sports": {
     "stateTitleMatrix_one": "Matrice dei titoli statali, ultima {{count}} stagione",
@@ -214,6 +217,7 @@
     "sport": "Sport"
   },
   "afterSchool": {
+    "seeSummer": "Vedi Programmi estivi →",
     "basisAnnual": "all'anno",
     "basisMonthly": "al mese",
     "basisSemester": "a semestre",
@@ -393,6 +397,8 @@
     "the-arts.ladder@davidson-day": "La scala delle arti dalla prima infanzia alla 12ª",
     "the-arts.theatre@davidson-day": "Teatro e riconoscimenti esterni",
     "student-clubs.affinity@charlotte-christian": "Gruppi globali e culturali",
+    "student-clubs.honors@charlotte-prep": "Competizioni e leadership studentesca",
+    "student-clubs.honors@trinity-episcopal": "Competizioni e leadership studentesca",
     "summer-programs.catalog": "Il catalogo dei campi",
     "summer-programs.costPlanner": "Il pianificatore dei costi estivi",
     "high-school-placement.outcomes": "Dove vanno i diplomati",
@@ -420,7 +426,11 @@
     "international-travel.network@cannon": "Il World Affairs Council, Model UN e il Global Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International e i partner di missione del Winterim",
     "international-travel.credential@davidson-day": "La Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR e i convegni di archeologia"
+    "international-travel.network@davidson-day": "AFAR e i convegni di archeologia",
+    "admissions.guide@covenant-day": "Guida alla domanda anno per anno — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "Guida alla domanda anno per anno — Early School e K · 1–8",
+    "the-arts.ladder@charlotte-prep": "La scala delle arti PreK–8",
+    "the-arts.theatre@charlotte-prep": "Teatro e produzioni di classe"
   },
   "cardLabels": {
     "afternoonRhythm": "Il ritmo del pomeriggio",
@@ -541,7 +551,13 @@
     "searchEmpty": "Nessuna scuola corrisponde a «{{query}}»: prova un termine più breve.",
     "statusClosed": "Ora chiusa definitivamente",
     "statusMerged": "Confluita in un’altra scuola",
-    "crossLinkLegend": "Indica che abbiamo una pagina dedicata a quella scuola su questo portale: clicca sul nome"
+    "crossLinkLegend": "Indica che abbiamo una pagina dedicata a quella scuola su questo portale: clicca sul nome",
+    "viewLabel": "Mostra",
+    "viewAllAlumni": "Tutti gli ex alunni",
+    "countLegend": "Il numero a sinistra di ogni scuola indica quanti diplomati della classe del {{year}} vi sono diretti — un nostro conteggio dall’annuncio della classe pubblicato dalla scuola stessa.",
+    "tallyClass": "Classe del {{year}}",
+    "tallyListed_one": "{{count}} diplomato nell’elenco",
+    "tallyListed_other": "{{count}} diplomati nell’elenco"
   },
   "photoViewer": {
     "open": "Ingrandisci la foto: {{name}}",

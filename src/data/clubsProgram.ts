@@ -233,6 +233,18 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ClubsProgram, string>
   'charlotte-christian': {
     affinity: 'Global & Cultural Groups',
   },
+  // Neither K-8 school has an honor society (zero hits for honor society, NJHS
+  // or Beta Club on either site). Both cards hold competitions plus a student
+  // leadership body — Charlotte Prep: the Region 6 science fair, CHARMUN Model
+  // UN, Student Council; Trinity: Mock Trial, Speech & Debate, Honor Council —
+  // so the shared "Honor Societies" title named something neither school has
+  // (user, 2026-10-19).
+  'charlotte-prep': {
+    honors: 'Competitions & Student Leadership',
+  },
+  'trinity-episcopal': {
+    honors: 'Competitions & Student Leadership',
+  },
 }
 
 /**
@@ -282,6 +294,7 @@ import { carmelChristian } from './clubsPrograms/carmel-christian.ts'
 import { hickoryGroveChristian } from './clubsPrograms/hickory-grove-christian.ts'
 import { gastonDay } from './clubsPrograms/gaston-day.ts'
 import { trinityEpiscopal } from './clubsPrograms/trinity-episcopal.ts'
+import { charlottePrep } from './clubsPrograms/charlotte-prep.ts'
 
 const PROGRAMS: Record<string, ClubsProgram> = {
   'providence-day': providenceDay,
@@ -296,6 +309,7 @@ const PROGRAMS: Record<string, ClubsProgram> = {
   'hickory-grove-christian': hickoryGroveChristian,
   'gaston-day': gastonDay,
   'trinity-episcopal': trinityEpiscopal,
+  'charlotte-prep': charlottePrep,
 }
 
 /* ---------------------------------------------------------- translations -- */

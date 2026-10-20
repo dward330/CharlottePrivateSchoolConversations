@@ -139,8 +139,14 @@ async function main() {
     // YouTube is blocked too, for consistency and because it leaves its own
     // `youtubei/v1/log_event` request hanging — the same failure is one slow
     // network away for any school.
+    //
+    // The pattern is anchored on the URL's HOST. An earlier `(^|\.)player\.vimeo…`
+    // form never matched a real request URL — the character before `player` in
+    // `https://player.vimeo.com/…` is `/`, not `.` — so only www.youtube.com was
+    // ever blocked and Vimeo pages passed by luck. Found 2026-10-19 when the
+    // second Vimeo school (Charlotte Prep, two embeds) timed out the build.
     await page.route(
-      /(^|\.)(player\.vimeo\.com|www\.youtube\.com|youtube\.com|youtu\.be|i\.vimeocdn\.com|challenges\.cloudflare\.com)/,
+      /^https?:\/\/([^/]*\.)?(vimeo\.com|vimeocdn\.com|youtube\.com|youtube-nocookie\.com|youtu\.be|ytimg\.com|challenges\.cloudflare\.com)(:\d+)?\//,
       (r) => r.abort(),
     )
 

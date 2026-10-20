@@ -166,7 +166,15 @@ function RichText({ text }: { text: string }) {
  * 3:10 stay honestly proportional to the same clock. An uncovered division still
  * gets a row — drawn as a dashed outline — because the gap is the finding.
  */
-export function CoverageBody({ data }: { data: Coverage }) {
+export function CoverageBody({
+  data,
+  hasSummer = false,
+}: {
+  data: Coverage
+  /** The school has a Summer Programs section to jump to — only then does the
+      summer band carry a link (never a link to a section that is not there). */
+  hasSummer?: boolean
+}) {
   const { t: tr } = useTranslation()
   return (
     <div className="as-body">
@@ -273,6 +281,26 @@ export function CoverageBody({ data }: { data: Coverage }) {
               <span className="as-summer-chip tag-accent">{data.summer.season}</span>
               <span>
                 <RichText text={data.summer.text} />
+                {hasSummer && (
+                  <>
+                    {' '}
+                    {/* A button-like anchor that scrolls in place: the hash router
+                        owns location.hash, so a raw "#topic-…" href would be read
+                        as a route (the same reason SchoolDetail's sidebar does this). */}
+                    <a
+                      className="as-summer-link"
+                      href="#topic-summer-programs"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        document
+                          .getElementById('topic-summer-programs')
+                          ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                      }}
+                    >
+                      {tr('afterSchool.seeSummer')}
+                    </a>
+                  </>
+                )}
               </span>
             </div>
           </div>
@@ -446,7 +474,7 @@ export function CostBody({ data }: { data: Cost }) {
                         className="as-rowbtn"
                         aria-pressed={r.id === rowId}
                       >
-                        {r.label}
+                        {localizeMoneyText(r.label)}
                       </button>
                     </th>
                     {r.prices.map((p, i) => (
@@ -835,13 +863,15 @@ export function VerdictBody({ data }: { data: Verdict }) {
 export function AfterSchoolCardBody({
   program,
   cardKey,
+  hasSummer = false,
 }: {
   program: AfterSchoolProgram
   cardKey: keyof AfterSchoolProgram
+  hasSummer?: boolean
 }) {
   switch (cardKey) {
     case 'coverage':
-      return <CoverageBody data={program.coverage!} />
+      return <CoverageBody data={program.coverage!} hasSummer={hasSummer} />
     case 'cost':
       return <CostBody data={program.cost!} />
     case 'dayInside':

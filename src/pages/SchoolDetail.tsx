@@ -97,6 +97,7 @@ import {
   highSchoolPlacementProgram,
   loadHighSchoolPlacementOverlay,
   HIGH_SCHOOL_PLACEMENT_CARDS,
+  hspCardsFor,
   type HighSchoolPlacementProgram,
 } from '../data/highSchoolPlacement.ts'
 import {
@@ -147,7 +148,7 @@ import {
   InternationalTravelLead,
   InternationalTravelStatBand,
 } from '../components/InternationalTravel.tsx'
-import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
+import { WelcomeVideo, ClassVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
 import { useTranslation } from 'react-i18next'
@@ -293,7 +294,9 @@ function HighSchoolPlacementCardBody({
 }) {
   switch (cardKey) {
     case 'outcomes':
-      return <HspOutcomesBody data={program.outcomes!} />
+      /* A school with both cards gets the destination index inside this one —
+         see hspCardsFor(). */
+      return <HspOutcomesBody data={program.outcomes!} destinations={program.destinations} />
     case 'placement':
       return <PlacementBody data={program.placement!} />
     case 'destinations':
@@ -890,7 +893,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 ? highSchoolPlacementProgram(slug, lang)
                 : undefined
             const hspCardList = hspEntry
-              ? HIGH_SCHOOL_PLACEMENT_CARDS.filter((c) => hspEntry[c.key] != null)
+              ? hspCardsFor(hspEntry)
               : []
             const highSchoolPlacement = hspCardList.length > 0 ? hspEntry : undefined
             const hspCards = hspCardList
@@ -1256,6 +1259,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* The school's own video of where a graduating class is headed:
+                    a coda BELOW the four-card grid, never a grid item, so it
+                    takes no card's column width or collapse behaviour. Absent
+                    field, nothing renders: a school without one ends at the grid. */}
+                {ready && t.slug === 'high-school-placement' && highSchoolPlacement?.classVideo && (
+                  <ClassVideo
+                    name={school.name}
+                    url={highSchoolPlacement.classVideo.url}
+                    classYear={highSchoolPlacement.classVideo.classYear}
+                  />
+                )}
+
                 {/* After School: four consolidated cards built from the
                     structured program layer, in the fixed order set by
                     AFTER_SCHOOL_CARDS. The design reference labels these 1a–1d
@@ -1286,6 +1301,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <AfterSchoolCardBody
                             program={afterSchool}
                             cardKey={card.key}
+                            hasSummer={covered.some((c) => c.slug === 'summer-programs')}
                           />
                         </div>
                       </details>

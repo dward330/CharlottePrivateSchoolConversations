@@ -52,7 +52,9 @@
         "gaston-day:catalog.categoryFilters[0].label",
         "gaston-day:catalog.gradeFilters[0].label",
         "trinity-episcopal:catalog.categoryFilters[0].label",
-        "trinity-episcopal:catalog.gradeFilters[0].label"
+        "trinity-episcopal:catalog.gradeFilters[0].label",
+        "charlotte-prep:catalog.categoryFilters[0].label",
+        "charlotte-prep:catalog.gradeFilters[0].label"
       ],
       "t": "Tutti"
     },
@@ -205,7 +207,13 @@
         "gaston-day:catalog.camps[18].categoryLabel",
         "gaston-day:catalog.camps[23].categoryLabel",
         "gaston-day:catalog.camps[24].categoryLabel",
-        "gaston-day:catalog.camps[25].categoryLabel"
+        "gaston-day:catalog.camps[25].categoryLabel",
+        "charlotte-prep:catalog.categoryFilters[3].label",
+        "charlotte-prep:catalog.camps[11].categoryLabel",
+        "charlotte-prep:catalog.camps[12].categoryLabel",
+        "charlotte-prep:catalog.camps[13].categoryLabel",
+        "charlotte-prep:catalog.camps[14].categoryLabel",
+        "charlotte-prep:catalog.camps[15].categoryLabel"
       ],
       "t": "Sport"
     },
@@ -581,7 +589,21 @@
         "trinity-episcopal:catalog.camps[30].dayLabel",
         "trinity-episcopal:catalog.camps[31].dayLabel",
         "trinity-episcopal:catalog.camps[32].dayLabel",
-        "trinity-episcopal:catalog.camps[33].dayLabel"
+        "trinity-episcopal:catalog.camps[33].dayLabel",
+        "charlotte-prep:catalog.camps[0].dayLabel",
+        "charlotte-prep:catalog.camps[1].dayLabel",
+        "charlotte-prep:catalog.camps[2].dayLabel",
+        "charlotte-prep:catalog.camps[4].dayLabel",
+        "charlotte-prep:catalog.camps[6].dayLabel",
+        "charlotte-prep:catalog.camps[7].dayLabel",
+        "charlotte-prep:catalog.camps[8].dayLabel",
+        "charlotte-prep:catalog.camps[9].dayLabel",
+        "charlotte-prep:catalog.camps[10].dayLabel",
+        "charlotte-prep:catalog.camps[11].dayLabel",
+        "charlotte-prep:catalog.camps[12].dayLabel",
+        "charlotte-prep:catalog.camps[13].dayLabel",
+        "charlotte-prep:catalog.camps[14].dayLabel",
+        "charlotte-prep:catalog.camps[15].dayLabel"
       ],
       "t": "Lun–Ven"
     },
@@ -6205,7 +6227,8 @@
       "text": "Ages 6–13",
       "of": "8561fb80",
       "at": [
-        "charlotte-catholic:catalog.camps[1].gradeLabel"
+        "charlotte-catholic:catalog.camps[1].gradeLabel",
+        "charlotte-prep:catalog.camps[15].gradeLabel"
       ],
       "t": "Età 6–13"
     },
@@ -8449,7 +8472,8 @@
         "trinity-episcopal:catalog.camps[14].dayLabel",
         "trinity-episcopal:catalog.camps[15].dayLabel",
         "trinity-episcopal:catalog.camps[16].dayLabel",
-        "trinity-episcopal:catalog.camps[17].dayLabel"
+        "trinity-episcopal:catalog.camps[17].dayLabel",
+        "charlotte-prep:catalog.camps[5].dayLabel"
       ],
       "t": "Lun–Gio"
     },
@@ -10810,7 +10834,8 @@
       "of": "81647be8",
       "at": [
         "carmel-christian:catalog.camps[9].gradeLabel",
-        "carmel-christian:catalog.camps[27].gradeLabel"
+        "carmel-christian:catalog.camps[27].gradeLabel",
+        "charlotte-prep:catalog.camps[9].gradeLabel"
       ],
       "t": "2–6 in ingresso"
     },
@@ -11657,7 +11682,10 @@
       "at": [
         "gaston-day:catalog.categoryFilters[1].label",
         "gaston-day:catalog.camps[0].categoryLabel",
-        "gaston-day:catalog.camps[1].categoryLabel"
+        "gaston-day:catalog.camps[1].categoryLabel",
+        "charlotte-prep:catalog.categoryFilters[1].label",
+        "charlotte-prep:catalog.camps[0].categoryLabel",
+        "charlotte-prep:catalog.camps[1].categoryLabel"
       ],
       "t": "Campo diurno"
     },
@@ -11693,7 +11721,9 @@
       "of": "5f3ff239",
       "at": [
         "gaston-day:catalog.categoryFilters[6].label",
-        "gaston-day:catalog.camps[26].categoryLabel"
+        "gaston-day:catalog.camps[26].categoryLabel",
+        "charlotte-prep:catalog.categoryFilters[4].label",
+        "charlotte-prep:catalog.camps[3].categoryLabel"
       ],
       "t": "Tutoraggio"
     },
@@ -12651,7 +12681,8 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[2].label"
+        "trinity-episcopal:catalog.gradeFilters[2].label",
+        "charlotte-prep:catalog.gradeFilters[4].label"
       ],
       "t": "1"
     },
@@ -12659,7 +12690,8 @@
       "text": "2",
       "of": "370cabd5",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[3].label"
+        "trinity-episcopal:catalog.gradeFilters[3].label",
+        "charlotte-prep:catalog.gradeFilters[5].label"
       ],
       "t": "2"
     },
@@ -12667,7 +12699,8 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[4].label"
+        "trinity-episcopal:catalog.gradeFilters[4].label",
+        "charlotte-prep:catalog.gradeFilters[6].label"
       ],
       "t": "3"
     },
@@ -12675,7 +12708,8 @@
       "text": "4",
       "of": "310ca263",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[5].label"
+        "trinity-episcopal:catalog.gradeFilters[5].label",
+        "charlotte-prep:catalog.gradeFilters[7].label"
       ],
       "t": "4"
     },
@@ -12683,7 +12717,8 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[6].label"
+        "trinity-episcopal:catalog.gradeFilters[6].label",
+        "charlotte-prep:catalog.gradeFilters[8].label"
       ],
       "t": "5"
     },
@@ -12691,7 +12726,8 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[7].label"
+        "trinity-episcopal:catalog.gradeFilters[7].label",
+        "charlotte-prep:catalog.gradeFilters[9].label"
       ],
       "t": "6"
     },
@@ -12699,7 +12735,8 @@
       "text": "7",
       "of": "320ca3f6",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[8].label"
+        "trinity-episcopal:catalog.gradeFilters[8].label",
+        "charlotte-prep:catalog.gradeFilters[10].label"
       ],
       "t": "7"
     },
@@ -12707,7 +12744,8 @@
       "text": "8",
       "of": "3d0cb547",
       "at": [
-        "trinity-episcopal:catalog.gradeFilters[9].label"
+        "trinity-episcopal:catalog.gradeFilters[9].label",
+        "charlotte-prep:catalog.gradeFilters[11].label"
       ],
       "t": "8"
     },
@@ -13476,6 +13514,672 @@
         "trinity-episcopal:costPlanner.aside.text"
       ],
       "t": "Il saldo è dovuto e viene prelevato quel giorno dal conto registrato; iscriversi il 1 maggio o dopo significa pagare per intero. **Tutti i campi della TES Academy richiedono il pagamento integrale all’iscrizione.** Le iscrizioni online chiudono una settimana prima di ogni turno, e può essere applicata una **quota amministrativa di $25** per un’iscrizione tardiva o un cambio di campo. I rimborsi di norma non vengono emessi dopo il 1 maggio, anche se la caparra e la quota di un’iscrizione annullata possono essere trasferite a un altro campo."
+    },
+    {
+      "text": "Summer 2026 ran seven weeks, June 8 to July 31, for campers from the Early School through 8th grade — a traditional day camp plus a specialty or sports camp almost every week.",
+      "of": "ad1bd718",
+      "at": [
+        "charlotte-prep:catalog.headline"
+      ],
+      "t": "L’estate 2026 è durata sette settimane, dall’8 giugno al 31 luglio, per i partecipanti dalla Early School alla classe 8ª — un campo diurno tradizionale più un campo specialistico o sportivo quasi ogni settimana."
+    },
+    {
+      "text": "Full days ran 9:00 a.m.–4:00 p.m., half days 9:00 a.m.–12:00 p.m. or 1:00–4:00 p.m. Camp was closed June 19 and the whole week of June 29–July 3, so June 15–18 was the one four-day week. Lunch was included for full-day campers.",
+      "of": "d455d91c",
+      "at": [
+        "charlotte-prep:catalog.subhead"
+      ],
+      "t": "Le giornate intere andavano 9:00 a.m.–4:00 p.m., le mezze giornate 9:00 a.m.–12:00 p.m. o 1:00–4:00 p.m. Il campo era chiuso il 19 giugno e per tutta la settimana dal 29 giugno al 3 luglio, quindi la settimana del 15–18 giugno era l’unica di quattro giorni. Il pranzo era incluso per chi frequentava la giornata intera."
+    },
+    {
+      "text": "Specialty",
+      "of": "0f972bcf",
+      "at": [
+        "charlotte-prep:catalog.categoryFilters[2].label",
+        "charlotte-prep:catalog.camps[4].categoryLabel",
+        "charlotte-prep:catalog.camps[5].categoryLabel",
+        "charlotte-prep:catalog.camps[6].categoryLabel",
+        "charlotte-prep:catalog.camps[7].categoryLabel",
+        "charlotte-prep:catalog.camps[8].categoryLabel",
+        "charlotte-prep:catalog.camps[9].categoryLabel",
+        "charlotte-prep:catalog.camps[10].categoryLabel"
+      ],
+      "t": "Specialistici"
+    },
+    {
+      "text": "Junior Counselor",
+      "of": "b866acbe",
+      "at": [
+        "charlotte-prep:catalog.categoryFilters[5].label",
+        "charlotte-prep:catalog.camps[2].categoryLabel",
+        "charlotte-prep:costPlanner.tiers[7].label"
+      ],
+      "t": "Junior Counselor"
+    },
+    {
+      "text": "Primary / TK",
+      "of": "175dc1f1",
+      "at": [
+        "charlotte-prep:catalog.gradeFilters[1].label"
+      ],
+      "t": "Primary / TK"
+    },
+    {
+      "text": "Montessori K",
+      "of": "5a603829",
+      "at": [
+        "charlotte-prep:catalog.gradeFilters[2].label"
+      ],
+      "t": "Montessori K"
+    },
+    {
+      "text": "K",
+      "of": "ce0c068a",
+      "at": [
+        "charlotte-prep:catalog.gradeFilters[3].label"
+      ],
+      "t": "K"
+    },
+    {
+      "text": "The Early School camp: water days, nature walks, arts and crafts, field trips and nap time.",
+      "of": "e92cfc26",
+      "at": [
+        "charlotte-prep:catalog.camps[0].desc"
+      ],
+      "t": "Il campo della Early School: giornate con l’acqua, passeggiate nella natura, arte e lavoretti, gite e riposino."
+    },
+    {
+      "text": "Rising Primary & TK",
+      "of": "e9d47aac",
+      "at": [
+        "charlotte-prep:catalog.camps[0].gradeLabel"
+      ],
+      "t": "Primary e TK in ingresso"
+    },
+    {
+      "text": "9:00–4:00 or half day",
+      "of": "d3f0d5bd",
+      "at": [
+        "charlotte-prep:catalog.camps[0].hours",
+        "charlotte-prep:catalog.camps[1].hours"
+      ],
+      "t": "9:00–4:00 o mezza giornata"
+    },
+    {
+      "text": "All 7 weeks",
+      "of": "8d091ec0",
+      "at": [
+        "charlotte-prep:catalog.camps[0].weeks",
+        "charlotte-prep:catalog.camps[1].weeks",
+        "charlotte-prep:catalog.camps[2].weeks"
+      ],
+      "t": "Tutte le 7 settimane"
+    },
+    {
+      "text": "The core day camp: games, crafts, off-campus field trips, karaoke and snow cones. The brochure says rising MK–8; the registration form says K–7.",
+      "of": "5b29ec13",
+      "at": [
+        "charlotte-prep:catalog.camps[1].desc"
+      ],
+      "t": "Il campo diurno principale: giochi, lavoretti, gite fuori dal campus, karaoke e granite. La brochure dice MK–8 in ingresso; il modulo di iscrizione dice K–7."
+    },
+    {
+      "text": "Rising MK–8",
+      "of": "67eba9b6",
+      "at": [
+        "charlotte-prep:catalog.camps[1].gradeLabel",
+        "charlotte-prep:catalog.camps[4].gradeLabel",
+        "charlotte-prep:catalog.camps[5].gradeLabel",
+        "charlotte-prep:catalog.camps[6].gradeLabel",
+        "charlotte-prep:catalog.camps[10].gradeLabel"
+      ],
+      "t": "MK–8 in ingresso"
+    },
+    {
+      "text": "For rising or graduated 8th graders. \"Limited spots available and these positions may require an interview.\"",
+      "of": "9812f280",
+      "at": [
+        "charlotte-prep:catalog.camps[2].desc"
+      ],
+      "t": "Per chi entra in classe 8ª o l’ha appena terminata. \"Limited spots available and these positions may require an interview.\""
+    },
+    {
+      "text": "Rising or graduated 8th",
+      "of": "0f691ebf",
+      "at": [
+        "charlotte-prep:catalog.camps[2].gradeLabel"
+      ],
+      "t": "8ª in ingresso o appena terminata"
+    },
+    {
+      "text": "9:00–4:00",
+      "of": "590c719d",
+      "at": [
+        "charlotte-prep:catalog.camps[2].hours",
+        "charlotte-prep:catalog.camps[4].hours",
+        "charlotte-prep:catalog.camps[5].hours",
+        "charlotte-prep:catalog.camps[6].hours",
+        "charlotte-prep:catalog.camps[7].hours",
+        "charlotte-prep:catalog.camps[8].hours",
+        "charlotte-prep:catalog.camps[9].hours",
+        "charlotte-prep:catalog.camps[10].hours",
+        "charlotte-prep:catalog.camps[11].hours",
+        "charlotte-prep:catalog.camps[12].hours",
+        "charlotte-prep:catalog.camps[13].hours",
+        "charlotte-prep:catalog.camps[14].hours"
+      ],
+      "t": "9:00–4:00"
+    },
+    {
+      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri).",
+      "of": "53362b15",
+      "at": [
+        "charlotte-prep:catalog.camps[3].desc"
+      ],
+      "t": "Un’aggiunta per i partecipanti al Traditional Camp, tenuta da insegnanti di Charlotte Prep in \"small groups of 6 or less\": sessioni di alfabetizzazione, matematica e abilità sociali per MK–2 in ingresso (Lun–Mer), sessioni di lettura e scrittura, matematica e pensiero critico per 3–5 in ingresso (Gio–Ven)."
+    },
+    {
+      "text": "Rising MK–5",
+      "of": "74ebbe2d",
+      "at": [
+        "charlotte-prep:catalog.camps[3].gradeLabel",
+        "charlotte-prep:catalog.camps[8].gradeLabel"
+      ],
+      "t": "MK–5 in ingresso"
+    },
+    {
+      "text": "Mon–Wed or Thu–Fri",
+      "of": "8d25a4fc",
+      "at": [
+        "charlotte-prep:catalog.camps[3].dayLabel"
+      ],
+      "t": "Lun–Mer o Gio–Ven"
+    },
+    {
+      "text": "50-minute sessions, 9:00–11:50",
+      "of": "5e345901",
+      "at": [
+        "charlotte-prep:catalog.camps[3].hours"
+      ],
+      "t": "Sessioni di 50 minuti, 9:00–11:50"
+    },
+    {
+      "text": "A full-day art camp.",
+      "of": "2b374576",
+      "at": [
+        "charlotte-prep:catalog.camps[4].desc"
+      ],
+      "t": "Un campo d’arte a giornata intera."
+    },
+    {
+      "text": "June 8–12",
+      "of": "95569fc1",
+      "at": [
+        "charlotte-prep:catalog.camps[4].weeks",
+        "charlotte-prep:catalog.camps[11].weeks"
+      ],
+      "t": "8–12 giugno"
+    },
+    {
+      "text": "A full-day music camp.",
+      "of": "6460af60",
+      "at": [
+        "charlotte-prep:catalog.camps[5].desc"
+      ],
+      "t": "Un campo di musica a giornata intera."
+    },
+    {
+      "text": "June 15–18",
+      "of": "aad38eab",
+      "at": [
+        "charlotte-prep:catalog.camps[5].weeks"
+      ],
+      "t": "15–18 giugno"
+    },
+    {
+      "text": "A full-day musical-theatre camp. The registration form lists it at $525.",
+      "of": "a1bb343e",
+      "at": [
+        "charlotte-prep:catalog.camps[6].desc"
+      ],
+      "t": "Un campo di teatro musicale a giornata intera. Il modulo di iscrizione lo indica a $525."
+    },
+    {
+      "text": "June 22–26",
+      "of": "1cce46bc",
+      "at": [
+        "charlotte-prep:catalog.camps[6].weeks"
+      ],
+      "t": "22–26 giugno"
+    },
+    {
+      "text": "A full-day coding camp for the older grades.",
+      "of": "2ab62df1",
+      "at": [
+        "charlotte-prep:catalog.camps[7].desc"
+      ],
+      "t": "Un campo di coding a giornata intera per le classi più grandi."
+    },
+    {
+      "text": "Rising 2–8",
+      "of": "7f6478c2",
+      "at": [
+        "charlotte-prep:catalog.camps[7].gradeLabel"
+      ],
+      "t": "2–8 in ingresso"
+    },
+    {
+      "text": "July 6–10",
+      "of": "b64ea98f",
+      "at": [
+        "charlotte-prep:catalog.camps[7].weeks",
+        "charlotte-prep:catalog.camps[13].weeks"
+      ],
+      "t": "6–10 luglio"
+    },
+    {
+      "text": "A full-day LEGO engineering camp, listed in the brochure but not on the registration form.",
+      "of": "d69b063d",
+      "at": [
+        "charlotte-prep:catalog.camps[8].desc"
+      ],
+      "t": "Un campo di ingegneria LEGO a giornata intera, presente nella brochure ma non nel modulo di iscrizione."
+    },
+    {
+      "text": "July 13–17",
+      "of": "00eeda1a",
+      "at": [
+        "charlotte-prep:catalog.camps[8].weeks"
+      ],
+      "t": "13–17 luglio"
+    },
+    {
+      "text": "A full-day STEM camp.",
+      "of": "07fab43e",
+      "at": [
+        "charlotte-prep:catalog.camps[9].desc"
+      ],
+      "t": "Un campo STEM a giornata intera."
+    },
+    {
+      "text": "July 20–24",
+      "of": "7f345a9a",
+      "at": [
+        "charlotte-prep:catalog.camps[9].weeks",
+        "charlotte-prep:catalog.camps[14].weeks"
+      ],
+      "t": "20–24 luglio"
+    },
+    {
+      "text": "A full-day cooking camp.",
+      "of": "d49a69a3",
+      "at": [
+        "charlotte-prep:catalog.camps[10].desc"
+      ],
+      "t": "Un campo di cucina a giornata intera."
+    },
+    {
+      "text": "July 27–31",
+      "of": "abbf5137",
+      "at": [
+        "charlotte-prep:catalog.camps[10].weeks"
+      ],
+      "t": "27–31 luglio"
+    },
+    {
+      "text": "A full-day multi-sport camp.",
+      "of": "ff48875d",
+      "at": [
+        "charlotte-prep:catalog.camps[11].desc"
+      ],
+      "t": "Un campo multisport a giornata intera."
+    },
+    {
+      "text": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "charlotte-prep:catalog.camps[11].gradeLabel",
+        "charlotte-prep:catalog.camps[12].gradeLabel",
+        "charlotte-prep:catalog.camps[13].gradeLabel",
+        "charlotte-prep:catalog.camps[14].gradeLabel"
+      ],
+      "t": "K–8"
+    },
+    {
+      "text": "A full-day sports camp that runs twice — $400 in the four-day week, $500 in July.",
+      "of": "689c72d8",
+      "at": [
+        "charlotte-prep:catalog.camps[12].desc"
+      ],
+      "t": "Un campo sportivo a giornata intera che si svolge due volte — $400 nella settimana di quattro giorni, $500 a luglio."
+    },
+    {
+      "text": "June 15–18 and July 13–17",
+      "of": "e37557c9",
+      "at": [
+        "charlotte-prep:catalog.camps[12].weeks"
+      ],
+      "t": "15–18 giugno e 13–17 luglio"
+    },
+    {
+      "text": "A full-day basketball camp.",
+      "of": "72f1282c",
+      "at": [
+        "charlotte-prep:catalog.camps[13].desc"
+      ],
+      "t": "Un campo di basket a giornata intera."
+    },
+    {
+      "text": "A full-day volleyball camp.",
+      "of": "6cc68f3b",
+      "at": [
+        "charlotte-prep:catalog.camps[14].desc"
+      ],
+      "t": "Un campo di pallavolo a giornata intera."
+    },
+    {
+      "text": "Run on campus by a third party, US Sports Camps, and registered on its own site, for ages 6–13. Lunch is not included.",
+      "of": "03148062",
+      "at": [
+        "charlotte-prep:catalog.camps[15].desc"
+      ],
+      "t": "Gestito nel campus da un soggetto esterno, US Sports Camps, con iscrizione sul suo sito, per bambini di 6–13 anni. Il pranzo non è incluso."
+    },
+    {
+      "text": "9:00–12:00 or 9:00–3:00",
+      "of": "1915c222",
+      "at": [
+        "charlotte-prep:catalog.camps[15].hours"
+      ],
+      "t": "9:00–12:00 o 9:00–3:00"
+    },
+    {
+      "text": "June 22–26 and July 27–31",
+      "of": "98f7b025",
+      "at": [
+        "charlotte-prep:catalog.camps[15].weeks"
+      ],
+      "t": "22–26 giugno e 27–31 luglio"
+    },
+    {
+      "text": "Summer 2026 priced by the week: $525 for a full day of Traditional Camp, $500 for the Early School camp, and $500–$600 for a specialty or sports week.",
+      "of": "07e1335f",
+      "at": [
+        "charlotte-prep:costPlanner.headline"
+      ],
+      "t": "L’estate 2026 aveva prezzi settimanali: $525 per una giornata intera di Traditional Camp, $500 per il campo della Early School e $500–$600 per una settimana specialistica o sportiva."
+    },
+    {
+      "text": "Lunch was included for full-day campers, and before- and after-care were sold by the week. Payment was due in full at registration.",
+      "of": "a9a4d8b6",
+      "at": [
+        "charlotte-prep:costPlanner.subhead"
+      ],
+      "t": "Il pranzo era incluso per chi frequentava la giornata intera, e l’accoglienza anticipata e l’assistenza post-campo erano vendute a settimana. Il pagamento era dovuto per intero all’iscrizione."
+    },
+    {
+      "text": "Traditional Camp, full day",
+      "of": "6fb37270",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[0].label"
+      ],
+      "t": "Traditional Camp, giornata intera"
+    },
+    {
+      "text": "Traditional Camp · 9:00 a.m.–4:00 p.m.",
+      "of": "3bb9a23f",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "Traditional Camp · 9:00 a.m.–4:00 p.m."
+    },
+    {
+      "text": "$420 in the four-day week of June 15–18.",
+      "of": "dd386fe9",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[0].detail"
+      ],
+      "t": "$420 nella settimana di quattro giorni del 15–18 giugno."
+    },
+    {
+      "text": "Traditional Camp, half day",
+      "of": "7ebbdbc8",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[1].label"
+      ],
+      "t": "Traditional Camp, mezza giornata"
+    },
+    {
+      "text": "Traditional Camp · half day",
+      "of": "9c4b036d",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "Traditional Camp · mezza giornata"
+    },
+    {
+      "text": "$175 in the four-day week.",
+      "of": "0622c843",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[1].detail"
+      ],
+      "t": "$175 nella settimana di quattro giorni."
+    },
+    {
+      "text": "Young Adventurers, full day",
+      "of": "72245bcb",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[2].label"
+      ],
+      "t": "Young Adventurers, giornata intera"
+    },
+    {
+      "text": "Young Adventurers (Primary & TK) · full day",
+      "of": "8b243ec8",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[2].panelLabel"
+      ],
+      "t": "Young Adventurers (Primary e TK) · giornata intera"
+    },
+    {
+      "text": "$400 in the four-day week.",
+      "of": "5956b9bc",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[2].detail"
+      ],
+      "t": "$400 nella settimana di quattro giorni."
+    },
+    {
+      "text": "Young Adventurers, half day",
+      "of": "8e5c0b27",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[3].label"
+      ],
+      "t": "Young Adventurers, mezza giornata"
+    },
+    {
+      "text": "Young Adventurers (Primary & TK) · half day",
+      "of": "e688edc0",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[3].panelLabel"
+      ],
+      "t": "Young Adventurers (Primary e TK) · mezza giornata"
+    },
+    {
+      "text": "$200 in the four-day week.",
+      "of": "515f2d2e",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[3].detail"
+      ],
+      "t": "$200 nella settimana di quattro giorni."
+    },
+    {
+      "text": "Specialty camp, $600 band",
+      "of": "53b15851",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[4].label"
+      ],
+      "t": "Campo specialistico, fascia $600"
+    },
+    {
+      "text": "Specialty camp · $600",
+      "of": "f2170069",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[4].panelLabel"
+      ],
+      "t": "Campo specialistico · $600"
+    },
+    {
+      "text": "Art Explorers Workshop and Junior Gourmet Cooking Lab.",
+      "of": "4bce6e41",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[4].detail"
+      ],
+      "t": "Art Explorers Workshop e Junior Gourmet Cooking Lab."
+    },
+    {
+      "text": "Specialty camp, $550 band",
+      "of": "85480f61",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[5].label"
+      ],
+      "t": "Campo specialistico, fascia $550"
+    },
+    {
+      "text": "Specialty camp · $550",
+      "of": "336faf55",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[5].panelLabel"
+      ],
+      "t": "Campo specialistico · $550"
+    },
+    {
+      "text": "Broadway Bound Juniors, GameMakers Coding, LEGO Engineering and Quantum Creators.",
+      "of": "255faa0c",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[5].detail"
+      ],
+      "t": "Broadway Bound Juniors, GameMakers Coding, LEGO Engineering e Quantum Creators."
+    },
+    {
+      "text": "Sports or music camp",
+      "of": "5636f07d",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[6].label"
+      ],
+      "t": "Campo sportivo o di musica"
+    },
+    {
+      "text": "Sports / Rhythm & Beats · $500",
+      "of": "1b6533da",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[6].panelLabel"
+      ],
+      "t": "Sport / Rhythm & Beats · $500"
+    },
+    {
+      "text": "Amazing Athletes, Basketball, Volleyball, Kidokinetics (July) and Rhythm & Beats.",
+      "of": "c1264c95",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[6].detail"
+      ],
+      "t": "Amazing Athletes, Basketball, Volleyball, Kidokinetics (luglio) e Rhythm & Beats."
+    },
+    {
+      "text": "Junior Counselor · rising or graduated 8th",
+      "of": "82ef65ef",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[7].panelLabel"
+      ],
+      "t": "Junior Counselor · 8ª in ingresso o appena terminata"
+    },
+    {
+      "text": "$300 every week, including the four-day week.",
+      "of": "71e11c48",
+      "at": [
+        "charlotte-prep:costPlanner.tiers[7].detail"
+      ],
+      "t": "$300 ogni settimana, compresa la settimana di quattro giorni."
+    },
+    {
+      "text": "Before Care 8:00–9:00 a.m.",
+      "of": "19030ab1",
+      "at": [
+        "charlotte-prep:costPlanner.addons[0].label"
+      ],
+      "t": "Accoglienza anticipata 8:00–9:00 a.m."
+    },
+    {
+      "text": "After Care 4:00–5:00 p.m.",
+      "of": "dc68e673",
+      "at": [
+        "charlotte-prep:costPlanner.addons[1].label"
+      ],
+      "t": "Assistenza post-campo 4:00–5:00 p.m."
+    },
+    {
+      "text": "Midsummer Tune-Up, one session",
+      "of": "93b8daec",
+      "at": [
+        "charlotte-prep:costPlanner.addons[2].label"
+      ],
+      "t": "Midsummer Tune-Up, una sessione"
+    },
+    {
+      "text": "**Before and After Care together are $110/week** — $10 less than the two toggles added up. In the four-day week each is $55, or $100 for both.",
+      "of": "89ddb387",
+      "at": [
+        "charlotte-prep:costPlanner.fees[0].label"
+      ],
+      "t": "**Accoglienza anticipata e assistenza post-campo insieme costano $110/settimana** — $10 in meno rispetto alle due voci sommate. Nella settimana di quattro giorni ciascuna costa $55, oppure $100 per entrambe."
+    },
+    {
+      "text": "**Midsummer Tune-Up tutoring is $60 per session per week, or $150 for all three** — the toggle prices one session.",
+      "of": "b7a39cd0",
+      "at": [
+        "charlotte-prep:costPlanner.fees[1].label"
+      ],
+      "t": "**Il tutoraggio Midsummer Tune-Up costa $60 per sessione a settimana, oppure $150 per tutte e tre** — la voce prezza una sola sessione."
+    },
+    {
+      "text": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.",
+      "of": "f73fc16c",
+      "at": [
+        "charlotte-prep:costPlanner.fees[2].label"
+      ],
+      "t": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** Il modulo di iscrizione mostrava diversi prezzi inferiori di $25 rispetto alla brochure, in linea con quel risparmio, ma due delle sue celle erano più alte della brochure, quindi qui la brochure è usata come listino dei prezzi regolari."
+    },
+    {
+      "text": "**Refunds:** \"Refunds are available up to two weeks before camp starts. A refund fee of $150 will apply per camper.\"",
+      "of": "4056517b",
+      "at": [
+        "charlotte-prep:costPlanner.fees[3].label"
+      ],
+      "t": "**Rimborsi:** \"Refunds are available up to two weeks before camp starts. A refund fee of $150 will apply per camper.\""
+    },
+    {
+      "text": "**Nike Soccer Camp is booked and paid separately** through US Sports Camps ($299 half day, $429 full day) and does not include lunch.",
+      "of": "3da51568",
+      "at": [
+        "charlotte-prep:costPlanner.fees[4].label"
+      ],
+      "t": "**Il Nike Soccer Camp si prenota e si paga a parte** tramite US Sports Camps ($299 mezza giornata, $429 giornata intera) e non include il pranzo."
+    },
+    {
+      "text": "Payment is due at registration.",
+      "of": "4324e6cb",
+      "at": [
+        "charlotte-prep:costPlanner.aside.title"
+      ],
+      "t": "Il pagamento è dovuto all’iscrizione."
+    },
+    {
+      "text": "Registration for summer 2026 ran on the school's own web form, paid by card, and closed Friday, May 29, 2026. Children in the school-year Extended-Day Program were not enrolled automatically — they had to be registered for camp like everyone else. No summer 2027 programme has been posted yet.",
+      "of": "e1863a91",
+      "at": [
+        "charlotte-prep:costPlanner.aside.text"
+      ],
+      "t": "Le iscrizioni per l’estate 2026 si facevano tramite il modulo web della scuola, con pagamento con carta, e si sono chiuse venerdì 29 maggio 2026. I bambini dell’Extended-Day Program dell’anno scolastico non venivano iscritti automaticamente — dovevano essere iscritti al campo come tutti gli altri. Nessun programma per l’estate 2027 è stato ancora pubblicato."
     }
   ]
 }

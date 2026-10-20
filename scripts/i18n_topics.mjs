@@ -29,6 +29,7 @@ export const SLUGS = [
   'carmel-christian', 'hickory-grove-christian',
   'gaston-day',
   'trinity-episcopal',
+  'charlotte-prep',
 ]
 
 /**
@@ -100,6 +101,7 @@ export const EXPORTS = {
   'hickory-grove-christian': 'hickoryGroveChristian',
   'gaston-day': 'gastonDay',
   'trinity-episcopal': 'trinityEpiscopal',
+  'charlotte-prep': 'charlottePrep',
 }
 
 /**

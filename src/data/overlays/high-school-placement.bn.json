@@ -55,7 +55,8 @@
       "t": "পরিচিতি",
       "of": "504443a0",
       "at": [
-        "trinity-episcopal:placement.steps[0].kind"
+        "trinity-episcopal:placement.steps[0].kind",
+        "charlotte-prep:placement.steps[2].kind"
       ]
     },
     {
@@ -125,14 +126,16 @@
       "t": "Charlotte এলাকার ইনডিপেনডেন্ট স্কুল",
       "of": "d9db0228",
       "at": [
-        "trinity-episcopal:destinations.categories[0].label"
+        "trinity-episcopal:destinations.categories[0].label",
+        "charlotte-prep:destinations.categories[0].label"
       ]
     },
     {
       "t": "পাবলিক, চার্টার ও ম্যাগনেট স্কুল",
       "of": "d37d2ef5",
       "at": [
-        "trinity-episcopal:destinations.categories[1].label"
+        "trinity-episcopal:destinations.categories[1].label",
+        "charlotte-prep:destinations.categories[1].label"
       ]
     },
     {
@@ -146,7 +149,8 @@
       "t": "Winston-Salem · আবাসিক আর্টস কনজারভেটরি",
       "of": "060e1432",
       "at": [
-        "trinity-episcopal:destinations.categories[1].notes.University of North Carolina School of the Arts"
+        "trinity-episcopal:destinations.categories[1].notes.University of North Carolina School of the Arts",
+        "charlotte-prep:destinations.categories[1].notes.University of North Carolina School of the Arts"
       ]
     },
     {
@@ -161,7 +165,8 @@
       "of": "14c97ec2",
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.Asheville School",
-        "trinity-episcopal:destinations.categories[2].notes.Christ School"
+        "trinity-episcopal:destinations.categories[2].notes.Christ School",
+        "charlotte-prep:destinations.categories[3].notes.Carolina Day School"
       ]
     },
     {
@@ -177,7 +182,8 @@
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.Blair Academy",
         "trinity-episcopal:destinations.categories[2].notes.Lawrenceville School",
-        "trinity-episcopal:destinations.categories[2].notes.Morristown High School"
+        "trinity-episcopal:destinations.categories[2].notes.Morristown High School",
+        "charlotte-prep:destinations.categories[2].notes.Peddie School"
       ]
     },
     {
@@ -198,7 +204,11 @@
         "trinity-episcopal:destinations.categories[2].notes.Episcopal High School",
         "trinity-episcopal:destinations.categories[2].notes.Hargrave Military Academy",
         "trinity-episcopal:destinations.categories[2].notes.Virginia Episcopal School",
-        "trinity-episcopal:destinations.categories[2].notes.Woodberry Forest School"
+        "trinity-episcopal:destinations.categories[2].notes.Woodberry Forest School",
+        "charlotte-prep:destinations.categories[2].notes.Chatham Hall",
+        "charlotte-prep:destinations.categories[2].notes.Episcopal High School",
+        "charlotte-prep:destinations.categories[2].notes.Woodberry Forest School",
+        "charlotte-prep:destinations.categories[3].notes.Carlisle School"
       ]
     },
     {
@@ -234,7 +244,8 @@
       "t": "Massachusetts",
       "of": "b08e6983",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.Nauset High School"
+        "trinity-episcopal:destinations.categories[2].notes.Nauset High School",
+        "charlotte-prep:destinations.categories[2].notes.Walnut Hill School for the Arts"
       ]
     },
     {
@@ -255,7 +266,9 @@
       "t": "Georgia",
       "of": "0bfef26f",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.Rabun Gap Nacoochee School"
+        "trinity-episcopal:destinations.categories[2].notes.Rabun Gap Nacoochee School",
+        "charlotte-prep:destinations.categories[2].notes.Riverside Military Academy",
+        "charlotte-prep:destinations.categories[3].notes.Wesleyan School"
       ]
     },
     {
@@ -312,28 +325,35 @@
       "of": "d3b4ab57",
       "at": [
         "trinity-episcopal:destinations.categories[2].notes.The Cate School",
-        "trinity-episcopal:destinations.categories[2].notes.The Thacher School"
+        "trinity-episcopal:destinations.categories[2].notes.The Thacher School",
+        "charlotte-prep:destinations.categories[1].notes.Campolindo High School"
       ]
     },
     {
       "t": "Tennessee",
       "of": "17011501",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.The McCallie School"
+        "trinity-episcopal:destinations.categories[2].notes.The McCallie School",
+        "charlotte-prep:destinations.categories[2].notes.Baylor School",
+        "charlotte-prep:destinations.categories[2].notes.Currey Ingram Academy",
+        "charlotte-prep:destinations.categories[2].notes.McCallie School"
       ]
     },
     {
       "t": "Connecticut",
       "of": "fbb40a80",
       "at": [
-        "trinity-episcopal:destinations.categories[2].notes.The Taft School"
+        "trinity-episcopal:destinations.categories[2].notes.The Taft School",
+        "charlotte-prep:destinations.categories[2].notes.Choate Rosemary Hall",
+        "charlotte-prep:destinations.categories[2].notes.Suffield Academy"
       ]
     },
     {
       "t": "এলাকার বাইরের ইনডিপেনডেন্ট স্কুল",
       "of": "e6df106c",
       "at": [
-        "trinity-episcopal:destinations.categories[3].label"
+        "trinity-episcopal:destinations.categories[3].label",
+        "charlotte-prep:destinations.categories[3].label"
       ]
     },
     {
@@ -383,6 +403,464 @@
       "of": "d2f610ec",
       "at": [
         "trinity-episcopal:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "2026 ব্যাচের 97% তাদের প্রথম দুই পছন্দের হাই স্কুলের একটিতে বা দুটিতেই ভর্তির সুযোগ পেয়েছে — আর 2023 থেকে প্রতিটি ব্যাচের জন্য Charlotte Prep এমন একটি হার প্রকাশ করে আসছে।",
+      "of": "4ff6a80d",
+      "at": [
+        "charlotte-prep:outcomes.headline"
+      ]
+    },
+    {
+      "t": "স্কুলের ভাষ্য অনুযায়ী, 2026 ব্যাচের পনেরোজন যেসব স্কুলে আবেদন করেছিল তার প্রতিটিতেই ভর্তির সুযোগ পেয়েছে।",
+      "of": "50e5f9f7",
+      "at": [
+        "charlotte-prep:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "97%",
+      "of": "6ac7e114",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "ব্যাচের তালিকায় নাম থাকা 39 জন গ্র্যাজুয়েট",
+      "of": "20db089c",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].denominator"
+      ]
+    },
+    {
+      "t": "2026 ব্যাচ · প্রথম দুই পছন্দের একটিতে বা দুটিতেই",
+      "of": "e237d0f7",
+      "at": [
+        "charlotte-prep:outcomes.stats[0].caption"
+      ]
+    },
+    {
+      "t": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].value",
+        "charlotte-prep:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "ব্যাচের তালিকায় নাম থাকা 27 জন গ্র্যাজুয়েট",
+      "of": "3037257f",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].denominator"
+      ]
+    },
+    {
+      "t": "2025 ব্যাচ · প্রথম দুই পছন্দের একটিতে বা দুটিতেই",
+      "of": "643feda4",
+      "at": [
+        "charlotte-prep:outcomes.stats[1].caption"
+      ]
+    },
+    {
+      "t": "100%",
+      "of": "2f97df3b",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "ব্যাচের তালিকায় নাম থাকা 29 জন গ্র্যাজুয়েট",
+      "of": "fbd8b055",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].denominator"
+      ]
+    },
+    {
+      "t": "2024 ব্যাচ · প্রথম দুই পছন্দের একটিতে বা দুটিতেই",
+      "of": "38fb1a4d",
+      "at": [
+        "charlotte-prep:outcomes.stats[2].caption"
+      ]
+    },
+    {
+      "t": "গত 10 বছরে, স্কুল যেভাবে বলে · আগের একটি পাতায় বলা ছিল 2015 থেকে 94%",
+      "of": "11646f79",
+      "at": [
+        "charlotte-prep:outcomes.stats[3].caption"
+      ]
+    },
+    {
+      "t": "Providence Day School · 2025 ব্যাচ · \"an exclusive four-year scholarship [that] includes a financial award and a personal mentorship with Grant Williams himself, NBA player and Providence Day alum\"",
+      "of": "6eb45320",
+      "at": [
+        "charlotte-prep:outcomes.scholarships[0].detail"
+      ]
+    },
+    {
+      "t": "The McCallie School · 2025 ব্যাচ · \"Over the past 16 years, Charlotte Prep has sent 11 graduates to McCallie, seven of whom earned the highly selective Michaels‑Dickson Merit Scholarship.\"",
+      "of": "aa0868a9",
+      "at": [
+        "charlotte-prep:outcomes.scholarships[1].detail"
+      ]
+    },
+    {
+      "t": "একটি নির্দিষ্ট প্লেসমেন্ট দল, 8th grade-এর আগেই শুরু হওয়া বারো ধাপের একটি পথ, আর শরতের একটি মেলা যা ভর্তি করাতে 40-টিরও বেশি হাই স্কুলকে ক্যাম্পাসে নিয়ে আসে।",
+      "of": "1179118a",
+      "at": [
+        "charlotte-prep:placement.headline"
+      ]
+    },
+    {
+      "t": "আবেদন চালান অভিভাবকেরা, কিন্তু বাকিটা স্কুল সামলায়: \"Our team manages all other aspects of the process to minimize stress and provide all necessary materials.\"",
+      "of": "133ab7e7",
+      "at": [
+        "charlotte-prep:placement.subhead"
+      ]
+    },
+    {
+      "t": "স্কুলের নির্দেশিকার ধাপ",
+      "of": "2ac0eb14",
+      "at": [
+        "charlotte-prep:placement.stats[0].denominator"
+      ]
+    },
+    {
+      "t": "পথের শুরু থেকে ভর্তির সুযোগ পর্যন্ত",
+      "of": "ae847b9f",
+      "at": [
+        "charlotte-prep:placement.stats[0].caption"
+      ]
+    },
+    {
+      "t": "প্রতি সেপ্টেম্বরে আমন্ত্রিত স্কুল",
+      "of": "6145efa5",
+      "at": [
+        "charlotte-prep:placement.stats[1].denominator"
+      ]
+    },
+    {
+      "t": "High School Fair ও Boarding School Fair-এ",
+      "of": "7caca540",
+      "at": [
+        "charlotte-prep:placement.stats[1].caption"
+      ]
+    },
+    {
+      "t": "গ্রেড 7-এ অনুশীলন → গ্রেড 8",
+      "of": "6cf589f3",
+      "at": [
+        "charlotte-prep:placement.stats[2].denominator"
+      ]
+    },
+    {
+      "t": "স্কুলের উল্লেখ করা একমাত্র ভর্তি-পরীক্ষা",
+      "of": "e0954993",
+      "at": [
+        "charlotte-prep:placement.stats[2].caption"
+      ]
+    },
+    {
+      "t": "7th grade-এর বসন্ত — Parent Coffee",
+      "of": "1088e488",
+      "at": [
+        "charlotte-prep:placement.steps[0].when"
+      ]
+    },
+    {
+      "t": "পরিচিতি",
+      "of": "c551d9c1",
+      "at": [
+        "charlotte-prep:placement.steps[0].kind"
+      ]
+    },
+    {
+      "t": "\"Each spring, rising 8th-grade parents attend a Parent Coffee to learn about the admissions process, events, deadlines, and other tips and information to prepare for the year ahead.\"",
+      "of": "ad41cc41",
+      "at": [
+        "charlotte-prep:placement.steps[0].text"
+      ]
+    },
+    {
+      "t": "গ্রেড 7 — একটি অনুশীলনী ISEE",
+      "of": "b517bb3b",
+      "at": [
+        "charlotte-prep:placement.steps[1].when"
+      ]
+    },
+    {
+      "t": "পরীক্ষা",
+      "of": "0535d93b",
+      "at": [
+        "charlotte-prep:placement.steps[1].kind"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীরা 7th grade-এ অনুশীলনের জন্য Independent School Entrance Exam দেয়, তারপর 8th grade-এ হাই স্কুল প্লেসমেন্টের জন্য, আর এর মাঝখানে স্কুল ISEE-র প্রস্তুতি দেয়: \"Students learn test-taking strategies and prepare for admissions testing to gain comfort and fine tune skills.\"",
+      "of": "d11f63fe",
+      "at": [
+        "charlotte-prep:placement.steps[1].text"
+      ]
+    },
+    {
+      "t": "8th grade-এর সেপ্টেম্বর — High School Fair",
+      "of": "15a25aa9",
+      "at": [
+        "charlotte-prep:placement.steps[2].when"
+      ]
+    },
+    {
+      "t": "\"In September, administrators from over 40 schools are invited to Charlotte Prep's High School Fair and Boarding School Fair to recruit our students.\" বোর্ডিং মেলায় একটি প্যানেল আলোচনাও থাকে — 2026-এর একটি পরিবার বোর্ডিং স্কুলে যাওয়ার সিদ্ধান্তের কৃতিত্ব এটিকেই দেয়।",
+      "of": "051f6498",
+      "at": [
+        "charlotte-prep:placement.steps[2].text"
+      ]
+    },
+    {
+      "t": "8th grade-এর শরৎ — বৈঠক ও স্কুল পরিদর্শন",
+      "of": "e1f51311",
+      "at": [
+        "charlotte-prep:placement.steps[3].when"
+      ]
+    },
+    {
+      "t": "মানানসই",
+      "of": "116f13cc",
+      "at": [
+        "charlotte-prep:placement.steps[3].kind"
+      ]
+    },
+    {
+      "t": "দলটি প্রত্যেক 8th grade শিক্ষার্থীর সঙ্গে আলাদাভাবে এবং প্রত্যেক শিক্ষার্থীর অভিভাবকদের সঙ্গে পৃথকভাবে বসে \"to discuss their plans, their objectives for their child, and appropriate placement opportunities.\"। পরিবারগুলোকে ওপেন হাউস ও ট্যুরে যেতে উৎসাহিত করা হয়, আর শিক্ষার্থীরা তাদের তালিকার স্কুলগুলোতে দিনভর পরিদর্শনে যায়।",
+      "of": "564e359c",
+      "at": [
+        "charlotte-prep:placement.steps[3].text"
+      ]
+    },
+    {
+      "t": "গ্রেড 8 — সাক্ষাৎকার",
+      "of": "b468c620",
+      "at": [
+        "charlotte-prep:placement.steps[4].when"
+      ]
+    },
+    {
+      "t": "প্রস্তুতি",
+      "of": "04b7937a",
+      "at": [
+        "charlotte-prep:placement.steps[4].kind"
+      ]
+    },
+    {
+      "t": "\"In Leadership class, students learn interview etiquette and conduct. They learn about proper dress, eye contact, handshake, and what to look for as they seek the school that fits them best.\" শিক্ষক ও প্রশাসকেরা মক ইন্টারভিউ নেন, আর ব্রোশিওর অনুযায়ী head of school-এর সঙ্গে একটি অনুশীলনী সাক্ষাৎকারও হয়।",
+      "of": "8443e3d1",
+      "at": [
+        "charlotte-prep:placement.steps[4].text"
+      ]
+    },
+    {
+      "t": "8th grade-এর শীতকাল — আবেদন ও পক্ষসমর্থন",
+      "of": "1cb9733a",
+      "at": [
+        "charlotte-prep:placement.steps[5].when"
+      ]
+    },
+    {
+      "t": "পক্ষসমর্থন",
+      "of": "879acf67",
+      "at": [
+        "charlotte-prep:placement.steps[5].kind"
+      ]
+    },
+    {
+      "t": "\"Charlotte Prep electronically delivers our students' complete transcripts and teacher recommendation packets to the schools prior to deadlines.\" এরপর দলটি প্রতিটি হাই স্কুলের সঙ্গে বসে \"for in-depth conversations about our student applicants and to provide further insight to ensure each student is well known.\"",
+      "of": "e3ee9883",
+      "at": [
+        "charlotte-prep:placement.steps[5].text"
+      ]
+    },
+    {
+      "t": "প্রত্যেক 8th grade শিক্ষার্থীর সঙ্গে একান্ত বৈঠক, আর তাদের অভিভাবকদের সঙ্গে আলাদা একটি",
+      "of": "e8e2ac5c",
+      "at": [
+        "charlotte-prep:placement.owns[0]"
+      ]
+    },
+    {
+      "t": "শিক্ষক, প্রশাসক ও head of school-এর সঙ্গে মক ইন্টারভিউ",
+      "of": "faef0b4f",
+      "at": [
+        "charlotte-prep:placement.owns[1]"
+      ]
+    },
+    {
+      "t": "7th grade-এ একটি অনুশীলনী ISEE-র পরে ISEE-র প্রস্তুতি",
+      "of": "b365cfab",
+      "at": [
+        "charlotte-prep:placement.owns[2]"
+      ]
+    },
+    {
+      "t": "প্রতিটি সময়সীমার আগে ইলেকট্রনিকভাবে পাঠানো ট্রান্সক্রিপ্ট ও শিক্ষকের সুপারিশপত্র",
+      "of": "612f8743",
+      "at": [
+        "charlotte-prep:placement.owns[3]"
+      ]
+    },
+    {
+      "t": "প্রতিটি হাই স্কুলের সঙ্গে তার Charlotte Prep আবেদনকারীদের নিয়ে একটি বৈঠক",
+      "of": "b3f85e89",
+      "at": [
+        "charlotte-prep:placement.owns[4]"
+      ]
+    },
+    {
+      "t": "Charlotte Prep-এর সব প্রাক্তন শিক্ষার্থী মিলিয়ে 60-টিরও বেশি হাই স্কুল — আর 2023 থেকে 2026 পর্যন্ত প্রতিটি ব্যাচের গ্র্যাজুয়েটরা ঠিক কোথায় যাচ্ছে।",
+      "of": "903a736a",
+      "at": [
+        "charlotte-prep:destinations.headline"
+      ]
+    },
+    {
+      "t": "একটি ব্যাচ বেছে নিন, দেখুন তার নাম-উল্লেখ করা প্রত্যেক গ্র্যাজুয়েট কোথায় যাচ্ছে। স্কুলগুলো সাজানো হয়েছে প্রতিটি আসলে কী ধরনের প্রতিষ্ঠান সেই অনুযায়ী।",
+      "of": "3a208d7f",
+      "at": [
+        "charlotte-prep:destinations.subhead"
+      ]
+    },
+    {
+      "t": "এখন Olympic High School",
+      "of": "240d01b0",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Olympic Community of Schools"
+      ]
+    },
+    {
+      "t": "Greenville, SC · আবাসিক আর্টস স্কুল",
+      "of": "f4dfd5af",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.South Carolina Governor's School for the Arts"
+      ]
+    },
+    {
+      "t": "জার্মানি",
+      "of": "263d0c7e",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Christian-von-Dohm Gymnasium"
+      ]
+    },
+    {
+      "t": "Maine · প্লেসমেন্ট নির্দেশিকায় বলা আছে South Portland High School",
+      "of": "112a57bf",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Portland High School"
+      ]
+    },
+    {
+      "t": "Virginia · এখন Washington-Liberty",
+      "of": "aa4bb759",
+      "at": [
+        "charlotte-prep:destinations.categories[1].notes.Washington-Lee High School"
+      ]
+    },
+    {
+      "t": "বোর্ডিং স্কুল",
+      "of": "9a4ca450",
+      "at": [
+        "charlotte-prep:destinations.categories[2].label"
+      ]
+    },
+    {
+      "t": "Michigan",
+      "of": "dce172db",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.Interlochen Arts Academy"
+      ]
+    },
+    {
+      "t": "Pennsylvania",
+      "of": "53054bf9",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.Mercersburg Academy"
+      ]
+    },
+    {
+      "t": "কোন St. Andrew’s, স্কুল তা জানায় না",
+      "of": "f4923032",
+      "at": [
+        "charlotte-prep:destinations.categories[2].notes.St. Andrew’s School"
+      ]
+    },
+    {
+      "t": "ইংল্যান্ড",
+      "of": "a2a8f2aa",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.American School in London",
+        "charlotte-prep:destinations.categories[3].notes.International Community School in London"
+      ]
+    },
+    {
+      "t": "মরক্কো",
+      "of": "01eb2899",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.American School of Marrakech"
+      ]
+    },
+    {
+      "t": "Washington, DC",
+      "of": "36b7a1d6",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.Georgetown Day School",
+        "charlotte-prep:destinations.categories[3].notes.Sidwell Friends School"
+      ]
+    },
+    {
+      "t": "ঘানা",
+      "of": "b0b5c104",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.Lincoln Community School"
+      ]
+    },
+    {
+      "t": "Arizona",
+      "of": "aa1a664f",
+      "at": [
+        "charlotte-prep:destinations.categories[3].notes.The Gregory School"
+      ]
+    },
+    {
+      "t": "সাম্প্রতিক প্রতিটি ব্যাচের জন্য প্রকাশিত প্লেসমেন্টের হার, প্রতিটির পেছনে নামের তালিকা, আর ধাপে ধাপে লিখে রাখা একটি প্রক্রিয়া।",
+      "of": "f1a9aa40",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ]
+    },
+    {
+      "t": "আজ প্লেসমেন্ট দলে কারা আছেন? 2022-এর নির্দেশিকায় তিনটি পদের নাম ছিল; বর্তমান নির্দেশিকা ও স্টাফ ডিরেক্টরিতে কোনোটিরই নাম নেই।",
+      "of": "ee554e04",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "ISEE-র প্রস্তুতি কি এখনো বিনামূল্যে, আর এটি কি একটি ক্লাস নাকি ব্যক্তিগত সহায়তা?",
+      "of": "823a5569",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "একটি সাধারণ পরিবার কতগুলো স্কুলে আবেদন করে, আর একজন শিক্ষার্থী সাধারণত কতগুলো সাক্ষাৎকার দেয়?",
+      "of": "8be13cf7",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "প্রতি বছর কতজন গ্র্যাজুয়েট তাদের হাই স্কুলে মেধাবৃত্তি নেয়?",
+      "of": "2e724873",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
       ]
     }
   ]

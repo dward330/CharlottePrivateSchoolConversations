@@ -39,8 +39,8 @@ import type {
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
   return (
     <p className="arts-lead">
-      <strong>{headline}</strong>
-      {subhead && <span className="text-muted"> {subhead}</span>}
+      <strong>{localizeMoneyText(headline)}</strong>
+      {subhead && <span className="text-muted"> {localizeMoneyText(subhead)}</span>}
     </p>
   )
 }

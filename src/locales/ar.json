@@ -223,7 +223,10 @@
     "welcomeCaption": "مقدّمة عن {{school}}، بكلمات المدرسة نفسها. اضغط على تشغيل للمشاهدة.",
     "welcomeFrom": "من المدرسة",
     "welcomeIframeTitle": "{{school}} — فيديو ترحيبي",
-    "welcomeVideo": "فيديو ترحيبي"
+    "welcomeVideo": "فيديو ترحيبي",
+    "classVideo": "إلى أين تتّجه دفعة ⁨{{year}}⁩",
+    "classVideoCaption": "فيديو {{school}} نفسها عن وجهات دفعة ⁨{{year}}⁩ في المرحلة الثانوية. اضغط على تشغيل للمشاهدة.",
+    "classVideoIframeTitle": "{{school}} — وجهات دفعة ⁨{{year}}⁩ في المرحلة الثانوية"
   },
   "sports": {
     "stateTitleMatrix_zero": "مصفوفة ألقاب الولاية، آخر {{count}} موسم",
@@ -262,6 +265,7 @@
     "sport": "الرياضة"
   },
   "afterSchool": {
+    "seeSummer": "اطّلع على البرامج الصيفية ←",
     "basisAnnual": "سنويًّا",
     "basisMonthly": "شهريًّا",
     "basisSemester": "لكل فصل دراسي",
@@ -461,6 +465,8 @@
     "the-arts.ladder@davidson-day": "سُلّم الفنون من الطفولة المبكرة حتى الصف 12",
     "the-arts.theatre@davidson-day": "المسرح والتقدير الخارجي",
     "student-clubs.affinity@charlotte-christian": "المجموعات العالمية والثقافية",
+    "student-clubs.honors@charlotte-prep": "المسابقات والقيادة الطلابية",
+    "student-clubs.honors@trinity-episcopal": "المسابقات والقيادة الطلابية",
     "summer-programs.catalog": "دليل المخيمات",
     "summer-programs.costPlanner": "مخطط تكاليف الصيف",
     "high-school-placement.outcomes": "إلى أين يذهب الخريجون",
@@ -488,7 +494,11 @@
     "international-travel.network@cannon": "World Affairs Council وModel UN وGlobal Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International وشركاء Winterim الإرساليون",
     "international-travel.credential@davidson-day": "Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR ومؤتمرات علم الآثار"
+    "international-travel.network@davidson-day": "AFAR ومؤتمرات علم الآثار",
+    "admissions.guide@covenant-day": "دليل التقديم حسب الصف — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "دليل التقديم حسب الصف — Early School وK · 1–8",
+    "the-arts.ladder@charlotte-prep": "سُلّم الفنون من PreK حتى الصف 8",
+    "the-arts.theatre@charlotte-prep": "المسرح وعروض الصفوف"
   },
   "cardLabels": {
     "afternoonRhythm": "إيقاع فترة بعد الظهر",
@@ -625,7 +635,17 @@
     "searchEmpty": "لا توجد مدرسة مطابقة لـ «{{query}}» — جرّب كلمة أقصر.",
     "statusClosed": "مغلقة نهائيًا الآن",
     "statusMerged": "مُدمجة في مدرسة أخرى",
-    "crossLinkLegend": "يشير إلى أنّ لدينا صفحة مخصّصة لهذه المدرسة على هذه البوابة — انقر على اسم المدرسة"
+    "crossLinkLegend": "يشير إلى أنّ لدينا صفحة مخصّصة لهذه المدرسة على هذه البوابة — انقر على اسم المدرسة",
+    "viewLabel": "عرض",
+    "viewAllAlumni": "جميع الخرّيجين",
+    "countLegend": "الرقم المجاور لكل مدرسة هو عدد خرّيجي دفعة ⁨{{year}}⁩ المتّجهين إليها — وهو عدُّنا نحن استنادًا إلى إعلان المدرسة نفسها عن الدفعة.",
+    "tallyClass": "دفعة ⁨{{year}}⁩",
+    "tallyListed_zero": "لا خرّيج في القائمة",
+    "tallyListed_one": "خرّيج واحد في القائمة",
+    "tallyListed_two": "خرّيجان في القائمة",
+    "tallyListed_few": "⁨{{count}}⁩ خرّيجين في القائمة",
+    "tallyListed_many": "⁨{{count}}⁩ خرّيجًا في القائمة",
+    "tallyListed_other": "⁨{{count}}⁩ خرّيج في القائمة"
   },
   "photoViewer": {
     "open": "تكبير الصورة: {{name}}",

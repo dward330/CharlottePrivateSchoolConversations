@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**12 schools × 11 research areas**, 446 ingested research documents.
+**13 schools × 11 research areas**, 466 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -41,6 +41,7 @@ automatically — and automatically gains a pre-rendered SEO page.
 | `charlotte-christian` | Charlotte Christian School |
 | `charlotte-country-day` | Charlotte Country Day School |
 | `charlotte-latin` | Charlotte Latin School |
+| `charlotte-prep` | Charlotte Preparatory School |
 | `covenant-day` | Covenant Day School |
 | `davidson-day` | Davidson Day School |
 | `gaston-day` | Gaston Day School |
@@ -54,19 +55,19 @@ Listed in the order they appear on a school page (`TOPIC_ORDER` in `src/lib/metr
 the count is ingested documents for that school × topic. A blank cell means no research
 exists yet and **the section does not render at all** for that school.
 
-| Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day | Trinity Episcopal |
-|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | — | — | 2 | 2 | 2 |
-| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
-| Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | 2 | — | — | 5 | — |
-| Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 | 4 |
-| The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 15 | 15 | 1 | 1 | 15 | 2 |
-| College Support | `college-support` | 11 | 3 | 2 | 12 | 10 | 12 | 9 | 11 | 2 | 2 | 11 | — |
-| High School Placement | `high-school-placement` | — | — | — | — | — | — | — | — | — | — | — | 3 |
-| After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 4 | 5 | 1 | 1 | 6 | 1 |
-| Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 | 1 | 1 | 2 |
-| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 | 4 |
+| Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Charlotte Preparatory | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day | Trinity Episcopal |
+|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 2 | 2 | 2 |
+| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
+| Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
+| Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
+| The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
+| Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
+| College Support | `college-support` | 11 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
+| High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
+| After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
+| Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
+| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 4 | 2 | 2 | 1 | 1 | 1 | 4 |
 
 ## 2. Research-area sections (prose layer)
 
@@ -83,113 +84,113 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Admissions Research Dossier (2026) | 7/12 | 9 |
+| `redesign-research` | Admissions Research Dossier (2026) | 8/13 | 10 |
 
 ### Course Offerings `course-offerings`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `curriculum` | Course Offerings | 12/12 | 9 |
+| `curriculum` | Course Offerings | 13/13 | 10 |
 
 ### Global Exposure `international-travel`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Global Exposure Research Dossier (2026) | 6/12 | 5 |
+| `redesign-research` | Global Exposure Research Dossier (2026) | 6/13 | 5 |
 
 ### Student Clubs `student-clubs`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `academic-clubs` | Academic & Competitive Clubs | 9/12 | 5 |
-| `honor-societies` | Honor Societies | 4/12 | 1 |
-| `signature` | Signature Programs & Traditions | 6/12 | 6 |
-| `media` | Publications & Media | 2/12 | 2 |
-| `affinity` | Affinity & Identity Groups | 5/12 | 3 |
-| `service` | Service & Civic Engagement | 6/12 | 4 |
-| `lower-middle` | Lower / Middle School Activities | 3/12 | 3 |
-| `catalog` | Club Catalog & Overview | 12/12 | 7 |
+| `academic-clubs` | Academic & Competitive Clubs | 9/13 | 5 |
+| `honor-societies` | Honor Societies | 4/13 | 1 |
+| `signature` | Signature Programs & Traditions | 6/13 | 6 |
+| `media` | Publications & Media | 2/13 | 2 |
+| `affinity` | Affinity & Identity Groups | 5/13 | 3 |
+| `service` | Service & Civic Engagement | 7/13 | 4 |
+| `lower-middle` | Lower / Middle School Activities | 3/13 | 3 |
+| `catalog` | Club Catalog & Overview | 13/13 | 8 |
 
 ### The Arts `the-arts`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `overview` | Program Overview | 8/12 | 2 |
-| `awards` | Awards & Recognition | 6/12 | 2 |
-| `performing-arts` | Performing Arts | 2/12 | 1 |
-| `visual-arts` | Visual Arts | 7/12 | 1 |
-| `facilities` | Facilities | 6/12 | 2 |
-| `in-depth-report` | In-Depth Report | 9/12 | 2 |
-| `courses` | Course Offerings | 1/12 | 1 |
-| `music` | Music | 5/12 | 1 |
-| `theatre` | Theatre & Drama | 5/12 | 4 |
-| `digital-arts` | Digital Arts | 1/12 | 1 |
+| `overview` | Program Overview | 9/13 | 2 |
+| `awards` | Awards & Recognition | 6/13 | 2 |
+| `performing-arts` | Performing Arts | 2/13 | 1 |
+| `visual-arts` | Visual Arts | 7/13 | 1 |
+| `facilities` | Facilities | 6/13 | 2 |
+| `in-depth-report` | In-Depth Report | 9/13 | 2 |
+| `courses` | Course Offerings | 1/13 | 1 |
+| `music` | Music | 5/13 | 1 |
+| `theatre` | Theatre & Drama | 6/13 | 5 |
+| `digital-arts` | Digital Arts | 1/13 | 1 |
 
 ### Sports `sports`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `awards` | Awards & Honors | 7/12 | 1 |
-| `championships` | Championships | 8/12 | 2 |
-| `coaches` | Coaches: Pedigree & Continuity | 8/12 | 3 |
-| `matriculation` | D1 / Top-College Matriculation | 7/12 | 3 |
-| `facilities` | Facilities & Infrastructure | 7/12 | 1 |
-| `nil` | NIL Landscape | 7/12 | 1 |
-| `national-profile` | National Profile | 7/12 | 4 |
-| `power-4` | Power 4 Offers | 7/12 | 1 |
-| `pros` | Professional Athletes | 7/12 | 1 |
-| `redesign-research` | Sports Research Dossier (2026) | 10/12 | 2 |
-| `sports-medicine` | Sports Medicine & Performance | 7/12 | 1 |
-| `sports-offered` | Sports Offered | 8/12 | 3 |
-| `recruiting` | Top-100 Recruiting Rankings | 7/12 | 1 |
-| `win-loss` | Win–Loss Records | 7/12 | 2 |
-| `podcast-episode-33-saleh-athletic-center` ⚠️ | Podcast Episode 33 Saleh Athletic Center | 1/12 | 1 |
+| `awards` | Awards & Honors | 7/13 | 1 |
+| `championships` | Championships | 8/13 | 2 |
+| `coaches` | Coaches: Pedigree & Continuity | 9/13 | 3 |
+| `matriculation` | D1 / Top-College Matriculation | 7/13 | 3 |
+| `facilities` | Facilities & Infrastructure | 7/13 | 1 |
+| `nil` | NIL Landscape | 7/13 | 1 |
+| `national-profile` | National Profile | 7/13 | 4 |
+| `power-4` | Power 4 Offers | 7/13 | 1 |
+| `pros` | Professional Athletes | 7/13 | 1 |
+| `redesign-research` | Sports Research Dossier (2026) | 10/13 | 2 |
+| `sports-medicine` | Sports Medicine & Performance | 7/13 | 1 |
+| `sports-offered` | Sports Offered | 9/13 | 3 |
+| `recruiting` | Top-100 Recruiting Rankings | 7/13 | 1 |
+| `win-loss` | Win–Loss Records | 7/13 | 2 |
+| `podcast-episode-33-saleh-athletic-center` ⚠️ | Podcast Episode 33 Saleh Athletic Center | 1/13 | 1 |
 
 ### College Support `college-support`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `academic-case` | Academic Case | 7/12 | 1 |
-| `outcomes` | Placement Outcomes | 11/12 | 7 |
-| `application-support` | Application Support | 7/12 | 1 |
-| `counseling-engine` | Counseling Engine | 7/12 | 1 |
-| `fit-rank` | Fit & Rank | 7/12 | 2 |
-| `institutional-leverage` | Institutional Leverage | 7/12 | 1 |
-| `redesign-research` | College Support Research Dossier (2026) | 8/12 | 1 |
-| `standing-out` | Standing Out | 7/12 | 1 |
-| `in-depth-report` | In-Depth Report | 3/12 | 1 |
+| `academic-case` | Academic Case | 7/13 | 1 |
+| `outcomes` | Placement Outcomes | 11/13 | 7 |
+| `application-support` | Application Support | 7/13 | 1 |
+| `counseling-engine` | Counseling Engine | 7/13 | 1 |
+| `fit-rank` | Fit & Rank | 7/13 | 2 |
+| `institutional-leverage` | Institutional Leverage | 7/13 | 1 |
+| `redesign-research` | College Support Research Dossier (2026) | 8/13 | 1 |
+| `standing-out` | Standing Out | 7/13 | 1 |
+| `in-depth-report` | In-Depth Report | 3/13 | 1 |
 
 ### High School Placement `high-school-placement`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `outcomes` | Placement Outcomes | 1/12 | 1 |
-| `placement` | The Placement Program | 1/12 | 1 |
-| `destinations` | Destinations | 1/12 | 1 |
+| `outcomes` | Placement Outcomes | 2/13 | 1 |
+| `placement` | The Placement Program | 2/13 | 1 |
+| `destinations` | Destinations | 2/13 | 1 |
 
 ### After School `after-school`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `overview` | Program Overview | 7/12 | 1 |
-| `details` | Program Details | 1/12 | 1 |
-| `enrichment` | Enrichment & Activities | 4/12 | 4 |
-| `aftercare` | Extended Day / Aftercare | 9/12 | 5 |
-| `in-depth-report` | In-Depth Report | 7/12 | 3 |
-| `redesign-research` | After School Research Dossier (2026) | 7/12 | 3 |
+| `overview` | Program Overview | 8/13 | 2 |
+| `details` | Program Details | 1/13 | 1 |
+| `enrichment` | Enrichment & Activities | 4/13 | 4 |
+| `aftercare` | Extended Day / Aftercare | 9/13 | 5 |
+| `in-depth-report` | In-Depth Report | 7/13 | 3 |
+| `redesign-research` | After School Research Dossier (2026) | 7/13 | 3 |
 
 ### Summer Programs `summer-programs`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Summer Programs Research Dossier (2026) | 11/12 | 5 |
+| `redesign-research` | Summer Programs Research Dossier (2026) | 12/13 | 7 |
 
 ### Financial Aid & Tuition `financial-aid-tuition`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `in-depth-report` | In-Depth Report | 12/12 | 8 |
-| `tuition-history` | Tuition History & Sources | 4/12 | 1 |
+| `in-depth-report` | In-Depth Report | 13/13 | 8 |
+| `tuition-history` | Tuition History & Sources | 5/13 | 1 |
 
 > ⚠️ **Unmatched subtopics.** These keys were not produced by a `RULES` entry — they
 > were slugified from a raw subtopic that matched no rule, so each is effectively an
@@ -197,7 +198,7 @@ research dossier folds in behind a structured card.
 > `src/lib/metrics.ts`, or get the new card approved. `npm run check:metrics` reports
 > the same finding.
 >
-> - `sports` :: `podcast-episode-33-saleh-athletic-center` — "Podcast Episode 33 Saleh Athletic Center" (1/12 schools)
+> - `sports` :: `podcast-episode-33-saleh-athletic-center` — "Podcast Episode 33 Saleh Athletic Center" (1/13 schools)
 
 ## 3. Structured cards (typed layer)
 
@@ -243,7 +244,7 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 | `facilities` | Facilities & Athlete Care | Topic 06 of 07 |
 | `national` | National Stage & NIL | Topic 07 of 07 |
 
-**Schools with data:** 12/12
+**Schools with data:** 13/13
 
 <details><summary>Types defined in <code>sportsProgram.ts</code> (31)</summary>
 
@@ -321,7 +322,7 @@ Root type `ArtsProgram` · registry `ARTS_CARDS` · `src/data/artsProgram.ts` ·
 | `visual` | Studio to Gallery | Topic 04 of 05 |
 | `verdict` | Verdict & Visit Checklist | Topic 05 of 05 |
 
-**Schools with data:** 12/12
+**Schools with data:** 13/13
 
 <details><summary>Types defined in <code>artsProgram.ts</code> (18)</summary>
 
@@ -396,7 +397,7 @@ a single file whose name matches an earlier `RULES` pattern (e.g. `/honor societ
 silently claims the whole topic and leaves the area rendering "No readable notes for
 this area yet". `check:metrics` cannot catch this: every subtopic DID match a rule.
 
-**Schools with data:** 12/12
+**Schools with data:** 13/13
 
 <details><summary>Types defined in <code>clubsProgram.ts</code> (12)</summary>
 
@@ -589,7 +590,7 @@ distributions sets `noPercentiles: true` on that `ScoreTable` — otherwise the
 a wrong low score. Card rule set 2026-08-16; the six-value percentile shape keeps the
 header, everything else suppresses it.
 
-**Schools with data:** 11/12 — absent: `trinity-episcopal`
+**Schools with data:** 11/13 — absent: `charlotte-prep`, `trinity-episcopal`
 
 <details><summary>Types defined in <code>collegeSupport.ts</code> (23)</summary>
 
@@ -652,7 +653,7 @@ Root type `AfterSchoolProgram` · registry `AFTER_SCHOOL_CARDS` · `src/data/aft
 | `dayInside` | A Day Inside + Enrichment | What does my kid actually do until pickup? |
 | `verdict` | Verdict & Visit Checklist | What do I probe on the tour? |
 
-**Schools with data:** 11/12 — absent: `charlotte-catholic`
+**Schools with data:** 12/13 — absent: `charlotte-catholic`
 
 <details><summary>Types defined in <code>afterSchool.ts</code> (15)</summary>
 
@@ -695,7 +696,7 @@ Root type `SummerProgram` · registry `SUMMER_CARDS` · `src/data/summerPrograms
 | `catalog` | The Camp Catalog | Which camps fit my child, and when do they run? |
 | `costPlanner` | The Summer Cost Planner | What does a whole summer actually cost? |
 
-**Schools with data:** 11/12 — absent: `davidson-day`
+**Schools with data:** 12/13 — absent: `davidson-day`
 
 <details><summary>Types defined in <code>summerPrograms.ts</code> (12)</summary>
 
@@ -731,7 +732,7 @@ Root type `AdmissionsProgram` · registry `ADMISSIONS_CARDS` · `src/data/admiss
 |---|---|---|
 | `guide` | Grade-by-Grade Application Guide — TK/K · 1–5 · 6–12 | Which steps, which deadlines, and which test for my child? |
 
-**Schools with data:** 7/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `davidson-day`, `gaston-day`
+**Schools with data:** 8/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `davidson-day`, `gaston-day`
 
 <details><summary>Types defined in <code>admissionsPrograms.ts</code> (11)</summary>
 
@@ -768,9 +769,9 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 | `destinations` | Where They Land | Which specific high schools do kids go to? |
 | `verdict` | Visit Checklist | What should I probe on the tour? |
 
-**Schools with data:** 1/12 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `providence-day`
+**Schools with data:** 2/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `providence-day`
 
-<details><summary>Types defined in <code>highSchoolPlacement.ts</code> (11)</summary>
+<details><summary>Types defined in <code>highSchoolPlacement.ts</code> (12)</summary>
 
 `HspStat` — `value`, `denominator?`, `caption`
 
@@ -782,6 +783,8 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 `Scholarship` — `name`, `detail`
 
+`ClassTally` — `year`, `listed`, `schools`
+
 `Outcomes` — `headline`, `subhead?`, `stats`, `classesTitle?`, `classes`, `tenYear?`, `scholarshipsTitle?`, `scholarships`, `flags`, `sources`
 
 `PlacementStep` — `when`, `kind?`, `text`
@@ -790,9 +793,9 @@ Root type `HighSchoolPlacementProgram` · registry `HIGH_SCHOOL_PLACEMENT_CARDS`
 
 `DestinationCategory` — `key`, `label`, `schools`, `notes?`
 
-`Destinations` — `headline`, `subhead?`, `categories`, `flags`, `sources`
+`Destinations` — `headline`, `subhead?`, `classTallies?`, `categories`, `flags`, `sources`
 
-`HighSchoolPlacementProgram` — `outcomes?`, `placement?`, `destinations?`, `verdict?`
+`HighSchoolPlacementProgram` — `outcomes?`, `placement?`, `destinations?`, `verdict?`, `classVideo?`
 
 </details>
 
@@ -812,7 +815,7 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 | `milestones` | Firsts & Milestones | — |
 | `verdict` | Verdict & Ask the School | — |
 
-**Schools with data:** 6/12 — absent: `carmel-christian`, `charlotte-catholic`, `covenant-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
+**Schools with data:** 6/13 — absent: `carmel-christian`, `charlotte-catholic`, `charlotte-prep`, `covenant-day`, `gaston-day`, `hickory-grove-christian`, `trinity-episcopal`
 
 <details><summary>Types defined in <code>internationalTravel.ts</code> (18)</summary>
 
@@ -868,77 +871,77 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `us-courses` | Upper School courses catalogued | 11/12 | Q |
-| `advanced-courses` | AP / advanced courses | 11/12 | Q |
-| `us-departments` | Upper School departments | 11/12 | Q |
+| `us-courses` | Upper School courses catalogued | 11/13 | Q |
+| `advanced-courses` | AP / advanced courses | 11/13 | Q |
+| `us-departments` | Upper School departments | 11/13 | Q |
 
 ### Student Clubs `student-clubs`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `us-organizations` | Upper School student organizations | 11/12 | Q |
-| `flagship-result` | Flagship result | 10/12 | – Q |
-| `participation` | Participation signal | 5/12 | Q |
+| `us-organizations` | Upper School student organizations | 11/13 | Q |
+| `flagship-result` | Flagship result | 10/13 | – Q |
+| `participation` | Participation signal | 5/13 | Q |
 
 ### The Arts `the-arts`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `program-span` | Program span | 11/12 | Q |
-| `signature-recognition` | Signature recognition | 10/12 | – Q |
-| `advanced-arts-coursework` | Advanced coursework | 8/12 | Q |
-| `ensembles` | Ensembles / offerings | 9/12 | Q |
+| `program-span` | Program span | 11/13 | Q |
+| `signature-recognition` | Signature recognition | 10/13 | – Q |
+| `advanced-arts-coursework` | Advanced coursework | 8/13 | Q |
+| `ensembles` | Ensembles / offerings | 9/13 | Q |
 
 ### Sports `sports`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `p4-commits-2426` | Power 4 commits | 10/12 | Q |
-| `d1-commits-2426` | Division I commits | 10/12 | Q |
+| `p4-commits-2426` | Power 4 commits | 10/13 | Q |
+| `d1-commits-2426` | Division I commits | 10/13 | Q |
 
 ### College Support `college-support`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `ap-performance` | AP scoring 3+ | 8/12 | Q |
-| `bucket-ivy` | Ivy League | 11/12 | Q |
-| `bucket-ivyplus` | “Ivy Plus” | 11/12 | Q |
-| `bucket-nu75` | Top-75 National Universities | 11/12 | Q |
-| `bucket-lac75` | Top-75 Liberal Arts | 11/12 | Q |
-| `bucket-p4` | Power Four | 11/12 | Q |
-| `nc-admit-unc-chapel-hill` | Admit rate — UNC-Chapel Hill | 11/12 | C sub |
-| `nc-admit-nc-state-university` | Admit rate — NC State University | 11/12 | C sub |
-| `nc-admit-unc-charlotte` | Admit rate — UNC Charlotte | 11/12 | C sub |
-| `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/12 | C sub |
-| `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/12 | C sub |
-| `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/12 | C sub |
-| `bucket-hbcu` | HBCUs | 11/12 | Q |
-| `counselor-caseload` | Seniors per counselor | 9/12 | ↓ Q |
+| `ap-performance` | AP scoring 3+ | 8/13 | Q |
+| `bucket-ivy` | Ivy League | 11/13 | Q |
+| `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q |
+| `bucket-nu75` | Top-75 National Universities | 11/13 | Q |
+| `bucket-lac75` | Top-75 Liberal Arts | 11/13 | Q |
+| `bucket-p4` | Power Four | 11/13 | Q |
+| `nc-admit-unc-chapel-hill` | Admit rate — UNC-Chapel Hill | 11/13 | C sub |
+| `nc-admit-nc-state-university` | Admit rate — NC State University | 11/13 | C sub |
+| `nc-admit-unc-charlotte` | Admit rate — UNC Charlotte | 11/13 | C sub |
+| `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/13 | C sub |
+| `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/13 | C sub |
+| `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/13 | C sub |
+| `bucket-hbcu` | HBCUs | 11/13 | Q |
+| `counselor-caseload` | Seniors per counselor | 9/13 | ↓ Q |
 
 ### After School `after-school`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `latest-pickup` | Latest pickup time | 10/12 | Q |
-| `aftercare-cost` | Cost of after-school care | 8/12 | – Q sub |
+| `latest-pickup` | Latest pickup time | 10/13 | Q |
+| `aftercare-cost` | Cost of after-school care | 8/13 | – Q sub |
 
 ### Summer Programs `summer-programs`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `summer-weeks` | Weeks of summer camp | 10/12 | Q |
-| `summer-camps` | Camps published | 10/12 | Q |
-| `summer-ages` | Ages served | 10/12 | Q |
-| `summer-care-span` | Wrap-around care | 7/12 | Q |
+| `summer-weeks` | Weeks of summer camp | 10/13 | Q |
+| `summer-camps` | Camps published | 10/13 | Q |
+| `summer-ages` | Ages served | 10/13 | Q |
+| `summer-care-span` | Wrap-around care | 7/13 | Q |
 
 ### Financial Aid & Tuition `financial-aid-tuition`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `top-tuition` | Top tuition | 11/12 | – Q |
-| `pct-aid` | % receiving aid | 7/12 | Q |
-| `aid-awarded` | Aid awarded / year | 3/12 | Q |
-| `avg-award` | Average award | 2/12 | Q |
+| `top-tuition` | Top tuition | 11/13 | – Q |
+| `pct-aid` | % receiving aid | 7/13 | Q |
+| `aid-awarded` | Aid awarded / year | 3/13 | Q |
+| `avg-award` | Average award | 2/13 | Q |
 
 **Total:** 36 Compare rows across 8 research areas.
 
@@ -1132,7 +1135,7 @@ the Compare topic list (`comparableTopics`, same file; it also drops the editori
 deferred `COMPARE_DEFERRED_TOPICS`, today International Travel) — and nothing else
 automatically. Every rule below is a research and authoring decision.
 
-**K-8 schools today (1):** `trinity-episcopal`
+**K-8 schools today (2):** `trinity-episcopal`, `charlotte-prep`
 
 ### What changes, and why
 
@@ -1178,6 +1181,24 @@ Two traps, both hit on the first occupant:
   different rate — otherwise the page states something false in ten languages.
 - **A cumulative split is not a per-class rate.** Trinity's 31/57/12 is across 1,060
   graduates since 2004. Label it that way or omit it.
+
+**A school with BOTH `outcomes` and `destinations` shows them as ONE card** (user,
+2026-10-19): the destination index renders inside Where Graduates Go and the separate
+Where They Land card is dropped — `hspCardsFor()` in `src/data/highSchoolPlacement.ts`.
+A school with only one of the two (Trinity) is unchanged. So such a school shows three
+cards, not four.
+
+**`destinations.classTallies`** carries per-class destination counts where the school
+publishes a NAMED list for each class (Charlotte Prep, 2023–2026). It adds a class
+picker above the filter chips. "All alumni" shows the cumulative list as published,
+and a class reshapes the same list, in the same categories and with the same ranks,
+to that class's schools, with the graduate count to the left of each row and a
+legend line explaining it. The count is ours, from the names. Every tally name must
+appear in `categories`. Normalise names to the master's canonical spelling, and keep
+the exact spellings in source-material. Where tallies are present, the ACCEPTANCE ≠
+MATRICULATION caveat is dropped, because those lists ARE matriculation. Check any
+"most graduates" headline against EVERY class: two of Charlotte Prep's four classes
+were ties at the top.
 
 ### Destination metadata lives in one master
 

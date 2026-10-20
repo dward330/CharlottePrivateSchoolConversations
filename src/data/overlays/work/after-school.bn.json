@@ -1203,7 +1203,8 @@
         "charlotte-country-day:coverage.summer.season",
         "cannon:coverage.summer.season",
         "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season"
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ],
       "t": "জুন–জুলাই"
     },
@@ -1653,7 +1654,8 @@
         "charlotte-country-day:dayInside.wordsTitle",
         "cannon:dayInside.wordsTitle",
         "carmel-christian:dayInside.wordsTitle",
-        "trinity-episcopal:dayInside.wordsTitle"
+        "trinity-episcopal:dayInside.wordsTitle",
+        "charlotte-prep:dayInside.wordsTitle"
       ],
       "t": "কর্মসূচিটি, স্কুলের নিজের ভাষায়"
     },
@@ -3130,7 +3132,8 @@
         "covenant-day:cost.fees[0].label",
         "carmel-christian:coverage.facts[3].label",
         "gaston-day:coverage.facts[0].label",
-        "trinity-episcopal:coverage.facts[1].label"
+        "trinity-episcopal:coverage.facts[1].label",
+        "charlotte-prep:coverage.facts[2].label"
       ],
       "t": "drop-in"
     },
@@ -3659,7 +3662,8 @@
       "text": "homework time",
       "of": "a3f22180",
       "at": [
-        "charlotte-country-day:dayInside.words[0]"
+        "charlotte-country-day:dayInside.words[0]",
+        "charlotte-prep:dayInside.words[1]"
       ],
       "t": "বাড়ির কাজের সময়"
     },
@@ -4415,7 +4419,8 @@
       "of": "5e92d4cb",
       "at": [
         "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[8].gradeLabel",
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
       ],
       "t": "K–2"
     },
@@ -4448,7 +4453,9 @@
       "text": "3–5",
       "of": "72b1a582",
       "at": [
-        "cannon:dayInside.classes[4].gradeLabel"
+        "cannon:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ],
       "t": "3–5"
     },
@@ -4488,7 +4495,8 @@
       "text": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel"
+        "cannon:dayInside.classes[7].gradeLabel",
+        "charlotte-prep:dayInside.classes[2].gradeLabel"
       ],
       "t": "3–8"
     },
@@ -4648,7 +4656,9 @@
       "text": "3–6",
       "of": "71b1a3ef",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
       ],
       "t": "3–6"
     },
@@ -4664,7 +4674,8 @@
       "text": "K–4",
       "of": "6492de3d",
       "at": [
-        "cannon:dayInside.classes[20].gradeLabel"
+        "cannon:dayInside.classes[20].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ],
       "t": "K–4"
     },
@@ -7672,7 +7683,8 @@
       "text": "begins at dismissal",
       "of": "25420411",
       "at": [
-        "trinity-episcopal:coverage.rows[0].dismissal"
+        "trinity-episcopal:coverage.rows[0].dismissal",
+        "charlotte-prep:coverage.rows[2].dismissal"
       ],
       "t": "ছুটির সঙ্গে সঙ্গে শুরু"
     },
@@ -7688,7 +7700,8 @@
       "text": "before school",
       "of": "bbb5f13e",
       "at": [
-        "trinity-episcopal:coverage.rows[1].dismissal"
+        "trinity-episcopal:coverage.rows[1].dismissal",
+        "charlotte-prep:coverage.rows[3].dismissal"
       ],
       "t": "স্কুলের আগে"
     },
@@ -7816,7 +7829,8 @@
       "text": "Staff",
       "of": "0d19a971",
       "at": [
-        "trinity-episcopal:coverage.facts[5].label"
+        "trinity-episcopal:coverage.facts[5].label",
+        "charlotte-prep:coverage.facts[3].label"
       ],
       "t": "কর্মী"
     },
@@ -8097,6 +8111,542 @@
         "trinity-episcopal:verdict.checklist[9]"
       ],
       "t": "স্কুলের আগে তত্ত্বাবধানে থাকার কোনো ব্যবস্থা আছে কি, অর্থ ছাড়াও — আর না থাকলে কর্মজীবী পরিবারগুলো সাধারণত কী করে?"
+    },
+    {
+      "text": "One K–8 After School Program from dismissal to 5:30 p.m. at a single annual price, a separate Extended Day for the Early School — and no morning care.",
+      "of": "1b1c88eb",
+      "at": [
+        "charlotte-prep:coverage.headline"
+      ],
+      "t": "ছুটির পর থেকে বিকেল 5:30 পর্যন্ত একটিই K–8 After School Program, এক বার্ষিক দামে; Early School-এর জন্য আলাদা Extended Day — আর সকালের কোনো সেবা নেই।"
+    },
+    {
+      "text": "Drop-off opens at 7:45 a.m. for Lower and Middle School and 8:00 a.m. for the Early School.",
+      "of": "fa7c092a",
+      "at": [
+        "charlotte-prep:coverage.subhead"
+      ],
+      "t": "Lower ও Middle School-এর জন্য ড্রপ-অফ শুরু হয় সকাল 7:45-এ, আর Early School-এর জন্য সকাল 8:00-এ।"
+    },
+    {
+      "text": "Prices on the bars are the **2026–27 annual** figures from the tuition page. The school does not price after-school care by days per week; occasional use is the **$20/hour** drop-in instead.",
+      "of": "57933404",
+      "at": [
+        "charlotte-prep:coverage.basisNote"
+      ],
+      "t": "বারগুলোতে দেখানো দাম টিউশন পাতার **2026–27 বার্ষিক** অঙ্ক। স্কুল সপ্তাহে কত দিন সেই হিসেবে after-school সেবার দাম ঠিক করে না; মাঝে মাঝে দরকার হলে এর বদলে **$20/hour** হারে drop-in।"
+    },
+    {
+      "text": "half-day program ends 12:00",
+      "of": "44fe5348",
+      "at": [
+        "charlotte-prep:coverage.rows[0].dismissal"
+      ],
+      "t": "অর্ধদিবস কর্মসূচি শেষ হয় 12:00-এ"
+    },
+    {
+      "text": "Extended Day · 12:00–5:30 · $5,900/yr",
+      "of": "1e712fe6",
+      "at": [
+        "charlotte-prep:coverage.rows[0].flatLabel"
+      ],
+      "t": "Extended Day · 12:00–5:30 · $5,900/বছর"
+    },
+    {
+      "text": "dismissal 2:30",
+      "of": "3bf3dddd",
+      "at": [
+        "charlotte-prep:coverage.rows[1].dismissal"
+      ],
+      "t": "ছুটি 2:30-এ"
+    },
+    {
+      "text": "TK Extended Day · 2:30–5:30 · $2,700/yr",
+      "of": "ed47ad14",
+      "at": [
+        "charlotte-prep:coverage.rows[1].flatLabel"
+      ],
+      "t": "TK Extended Day · 2:30–5:30 · $2,700/বছর"
+    },
+    {
+      "text": "After School Program · 3:00–5:30 · $4,500/yr",
+      "of": "d22681e6",
+      "at": [
+        "charlotte-prep:coverage.rows[2].flatLabel"
+      ],
+      "t": "After School Program · 3:00–5:30 · $4,500/বছর"
+    },
+    {
+      "text": "No before-school care — drop-off from 7:45 (8:00 Early School)",
+      "of": "62dd3216",
+      "at": [
+        "charlotte-prep:coverage.rows[3].flatLabel"
+      ],
+      "t": "স্কুলের আগে কোনো সেবা নেই — ড্রপ-অফ 7:45 থেকে (Early School 8:00)"
+    },
+    {
+      "text": "**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade, with Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m. at **$60/week** each.",
+      "of": "30029ab8",
+      "at": [
+        "charlotte-prep:coverage.summer.text"
+      ],
+      "t": "**Summer Adventures at Prep** 2026-এ চলেছে সাত সপ্তাহ, 8 জুন থেকে 31 জুলাই, Early School থেকে 8th grade পর্যন্ত ক্যাম্পারদের জন্য; সঙ্গে Before Care সকাল 8:00–9:00 এবং After Care বিকেল 4:00–5:00, প্রতিটি **$60/সপ্তাহ**।"
+    },
+    {
+      "text": "Age groups",
+      "of": "00d0937c",
+      "at": [
+        "charlotte-prep:coverage.facts[0].label"
+      ],
+      "t": "বয়সভিত্তিক দল"
+    },
+    {
+      "text": "\"kindergarteners, first and second graders, third and fourth graders, and then our middle school students\"",
+      "of": "1b8efb9d",
+      "at": [
+        "charlotte-prep:coverage.facts[0].text"
+      ],
+      "t": "\"kindergarteners, first and second graders, third and fourth graders, and then our middle school students\""
+    },
+    {
+      "text": "Siblings",
+      "of": "70b3463e",
+      "at": [
+        "charlotte-prep:coverage.facts[1].label"
+      ],
+      "t": "ভাইবোন"
+    },
+    {
+      "text": "\"We provide complimentary care for younger students who have siblings with a later dismissal time.\"",
+      "of": "0b44d9cd",
+      "at": [
+        "charlotte-prep:coverage.facts[1].text"
+      ],
+      "t": "\"We provide complimentary care for younger students who have siblings with a later dismissal time.\""
+    },
+    {
+      "text": "**$20/hour**, Montessori Kindergarten through 8th grade",
+      "of": "7e28b5fd",
+      "at": [
+        "charlotte-prep:coverage.facts[2].text"
+      ],
+      "t": "**$20/hour**, Montessori Kindergarten থেকে 8th grade পর্যন্ত"
+    },
+    {
+      "text": "**Justen Kirchner**, Director of Auxiliary Programs, oversees after school, extended day, studios and summer camp; the staff directory lists **14** After School Program Teachers",
+      "of": "81ada1bb",
+      "at": [
+        "charlotte-prep:coverage.facts[3].text"
+      ],
+      "t": "**Justen Kirchner**, Director of Auxiliary Programs, after school, extended day, studios ও summer camp দেখাশোনা করেন; স্টাফ ডিরেক্টরিতে **14** জন After School Program Teacher-এর নাম আছে"
+    },
+    {
+      "text": "One annual price — $4,500 for K–8 afternoons to 5:30 — with a $20-an-hour drop-in for families who only need care now and then.",
+      "of": "0ef39748",
+      "at": [
+        "charlotte-prep:cost.headline"
+      ],
+      "t": "একটিই বার্ষিক দাম — বিকেল 5:30 পর্যন্ত K–8-এর বিকেলের জন্য $4,500 — আর যেসব পরিবারের মাঝে মাঝে সেবা দরকার তাদের জন্য ঘণ্টায় $20-এর drop-in।"
+    },
+    {
+      "text": "The 2026–27 rates, from the school’s own tuition page. The Early School’s Extended Day is priced separately.",
+      "of": "99ab8b5b",
+      "at": [
+        "charlotte-prep:cost.subhead"
+      ],
+      "t": "2026–27-এর হার, স্কুলের নিজস্ব টিউশন পাতা থেকে। Early School-এর Extended Day-এর দাম আলাদা।"
+    },
+    {
+      "text": "annual price",
+      "of": "f046b46f",
+      "at": [
+        "charlotte-prep:cost.periodsLabel"
+      ],
+      "t": "বার্ষিক দাম"
+    },
+    {
+      "text": "K–Gr 8 · 3:00–5:30",
+      "of": "7910e4a5",
+      "at": [
+        "charlotte-prep:cost.rows[0].label"
+      ],
+      "t": "K–শ্রেণি 8 · 3:00–5:30"
+    },
+    {
+      "text": "Kindergarten–Grade 8 · 3:00–5:30 pm",
+      "of": "97e0bf29",
+      "at": [
+        "charlotte-prep:cost.rows[0].panelLabel"
+      ],
+      "t": "Kindergarten–শ্রেণি 8 · বিকেল 3:00–5:30"
+    },
+    {
+      "text": "TK Extended Day · 2:30–5:30",
+      "of": "797e0aee",
+      "at": [
+        "charlotte-prep:cost.rows[1].label"
+      ],
+      "t": "TK Extended Day · 2:30–5:30"
+    },
+    {
+      "text": "Transitional Kindergarten Extended Day · 2:30–5:30 pm",
+      "of": "58b4e67c",
+      "at": [
+        "charlotte-prep:cost.rows[1].panelLabel"
+      ],
+      "t": "Transitional Kindergarten Extended Day · বিকেল 2:30–5:30"
+    },
+    {
+      "text": "Pre-Primary/Primary Extended Day · 12:00–5:30",
+      "of": "28cc8aca",
+      "at": [
+        "charlotte-prep:cost.rows[2].label"
+      ],
+      "t": "Pre-Primary/Primary Extended Day · 12:00–5:30"
+    },
+    {
+      "text": "Pre-Primary/Primary Extended Day · 12:00–5:30 pm",
+      "of": "efd2c105",
+      "at": [
+        "charlotte-prep:cost.rows[2].panelLabel"
+      ],
+      "t": "Pre-Primary/Primary Extended Day · দুপুর 12:00–5:30"
+    },
+    {
+      "text": "Or drop in by the hour.",
+      "of": "a1c438c6",
+      "at": [
+        "charlotte-prep:cost.aside.title"
+      ],
+      "t": "অথবা ঘণ্টা হিসেবে drop-in।"
+    },
+    {
+      "text": "Drop-in care is **$20 an hour** for Montessori Kindergarten through 8th grade. A full afternoon to 5:30 is about **$50** on drop-in, against roughly **$25 an afternoon** on the annual plan over a 180-day year.",
+      "of": "5d37cc00",
+      "at": [
+        "charlotte-prep:cost.aside.text"
+      ],
+      "t": "Montessori Kindergarten থেকে 8th grade পর্যন্ত drop-in সেবার দাম **ঘণ্টায় $20**। বিকেল 5:30 পর্যন্ত পুরো একটি বিকেলে drop-in-এ খরচ প্রায় **$50**, অথচ 180 দিনের বছর ধরলে বার্ষিক প্ল্যানে মোটামুটি **বিকেলপ্রতি $25**।"
+    },
+    {
+      "text": "After School Program, K–8 (annual)",
+      "of": "ac412f57",
+      "at": [
+        "charlotte-prep:cost.fees[0].label"
+      ],
+      "t": "After School Program, K–8 (বার্ষিক)"
+    },
+    {
+      "text": "$4,500",
+      "of": "3274a76a",
+      "at": [
+        "charlotte-prep:cost.fees[0].value"
+      ],
+      "t": "$4,500"
+    },
+    {
+      "text": "Drop-in, Montessori K–8",
+      "of": "900cc507",
+      "at": [
+        "charlotte-prep:cost.fees[1].label"
+      ],
+      "t": "Drop-in, Montessori K–8"
+    },
+    {
+      "text": "$20 / hr",
+      "of": "2253fbf2",
+      "at": [
+        "charlotte-prep:cost.fees[1].value"
+      ],
+      "t": "$20 / ঘণ্টা"
+    },
+    {
+      "text": "Pre-Primary/Primary School Day, 12:00–2:30/3:00",
+      "of": "d4ef633b",
+      "at": [
+        "charlotte-prep:cost.fees[2].label"
+      ],
+      "t": "Pre-Primary/Primary School Day, 12:00–2:30/3:00"
+    },
+    {
+      "text": "$3,400",
+      "of": "ecf49030",
+      "at": [
+        "charlotte-prep:cost.fees[2].value"
+      ],
+      "t": "$3,400"
+    },
+    {
+      "text": "The **School Day** option is only \"for students with siblings enrolled at Prep in TK-8th grade.\" **After School Studios** carry a separate fee for each class, which the school does not state.",
+      "of": "b093f039",
+      "at": [
+        "charlotte-prep:cost.fees[3].label"
+      ],
+      "t": "**School Day** বিকল্পটি কেবল \"for students with siblings enrolled at Prep in TK-8th grade.\"। **After School Studios**-এর প্রতিটি ক্লাসের জন্য আলাদা ফি আছে, যার পরিমাণ স্কুল জানায় না।"
+    },
+    {
+      "text": "Snack, homework time, monthly themes, hands-on activities and free time — plus 12-week studios in language, drama, music, art and STEM.",
+      "of": "6e2367a1",
+      "at": [
+        "charlotte-prep:dayInside.headline"
+      ],
+      "t": "নাশতা, হোমওয়ার্কের সময়, মাসিক থিম, হাতে-কলমে কাজ আর অবসর সময় — সঙ্গে ভাষা, নাটক, সংগীত, চারুকলা ও STEM-এ 12 সপ্তাহের স্টুডিও।"
+    },
+    {
+      "text": "\"Classes are led by warm and enthusiastic teachers and include a healthy mix of age-appropriate activities, homework time, and free time.\"",
+      "of": "a9321611",
+      "at": [
+        "charlotte-prep:dayInside.subhead"
+      ],
+      "t": "\"Classes are led by warm and enthusiastic teachers and include a healthy mix of age-appropriate activities, homework time, and free time.\""
+    },
+    {
+      "text": "afternoon snack",
+      "of": "0b8f397d",
+      "at": [
+        "charlotte-prep:dayInside.words[0]"
+      ],
+      "t": "বিকেলের নাশতা"
+    },
+    {
+      "text": "monthly themes",
+      "of": "06b19e00",
+      "at": [
+        "charlotte-prep:dayInside.words[2]"
+      ],
+      "t": "মাসিক থিম"
+    },
+    {
+      "text": "hands-on activities",
+      "of": "11638716",
+      "at": [
+        "charlotte-prep:dayInside.words[3]"
+      ],
+      "t": "হাতে-কলমে কাজ"
+    },
+    {
+      "text": "free time",
+      "of": "01eed358",
+      "at": [
+        "charlotte-prep:dayInside.words[4]"
+      ],
+      "t": "অবসর সময়"
+    },
+    {
+      "text": "healthy routines",
+      "of": "41c1ce67",
+      "at": [
+        "charlotte-prep:dayInside.words[5]"
+      ],
+      "t": "স্বাস্থ্যকর রুটিন"
+    },
+    {
+      "text": "a loving and nurturing environment",
+      "of": "e28b382b",
+      "at": [
+        "charlotte-prep:dayInside.words[6]"
+      ],
+      "t": "স্নেহময় ও যত্নশীল পরিবেশ"
+    },
+    {
+      "text": "After School Studios — a sample",
+      "of": "752279f7",
+      "at": [
+        "charlotte-prep:dayInside.catalogTitle"
+      ],
+      "t": "After School Studios — একটি নমুনা"
+    },
+    {
+      "text": "\"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks.\" Studios run **45 minutes to an hour**, students are walked to them by their teacher, and \"there is a fee, separate from Charlotte Prep's annual tuition, associated with each class.\" The school lists these as **sample** offerings, not this term’s schedule.",
+      "of": "a057204d",
+      "at": [
+        "charlotte-prep:dayInside.catalogIntro"
+      ],
+      "t": "\"A new selection of studio choices is typically offered each fall and spring, and each session lasts approximately 12 weeks.\" স্টুডিওগুলো চলে **45 মিনিট থেকে এক ঘণ্টা**, শিক্ষার্থীদের তাদের শিক্ষক সেখানে হাঁটিয়ে নিয়ে যান, আর \"there is a fee, separate from Charlotte Prep's annual tuition, associated with each class.\" স্কুল এগুলোকে **নমুনা** হিসেবে তালিকাভুক্ত করেছে, এই টার্মের সূচি হিসেবে নয়।"
+    },
+    {
+      "text": "Weekly: speaking for younger students, writing for advanced students, and culture through art and crafts.",
+      "of": "58febb38",
+      "at": [
+        "charlotte-prep:dayInside.classes[0].desc"
+      ],
+      "t": "সাপ্তাহিক: ছোটদের জন্য কথা বলা, অগ্রসরদের জন্য লেখা, আর শিল্প ও হস্তশিল্পের মাধ্যমে সংস্কৃতি।"
+    },
+    {
+      "text": "Acting and communication, ending in an informal Reader’s Theatre performance.",
+      "of": "dab5dc57",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].desc"
+      ],
+      "t": "অভিনয় ও যোগাযোগ, শেষে একটি অনানুষ্ঠানিক Reader’s Theatre পরিবেশনা।"
+    },
+    {
+      "text": "Audition for and perform a one-act play.",
+      "of": "e1c0cf53",
+      "at": [
+        "charlotte-prep:dayInside.classes[2].desc"
+      ],
+      "t": "একটি এক-অঙ্ক নাটকের জন্য অডিশন দেওয়া ও তাতে অভিনয় করা।"
+    },
+    {
+      "text": "Chords and strumming.",
+      "of": "b9eaca1b",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].desc"
+      ],
+      "t": "কর্ড ও স্ট্রামিং।"
+    },
+    {
+      "text": "Tinker, design, build and test in the STEM Lab.",
+      "of": "256293b5",
+      "at": [
+        "charlotte-prep:dayInside.classes[4].desc"
+      ],
+      "t": "STEM Lab-এ টুকটাক কাজ, নকশা, নির্মাণ ও পরীক্ষা।"
+    },
+    {
+      "text": "In the Art Studio, 3:15–4:00.",
+      "of": "5b19d526",
+      "at": [
+        "charlotte-prep:dayInside.classes[5].desc"
+      ],
+      "t": "Art Studio-তে, 3:15–4:00।"
+    },
+    {
+      "text": "Linoleum, screen printing and collograph, 3:15–4:00.",
+      "of": "02946049",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].desc"
+      ],
+      "t": "লিনোলিয়াম, স্ক্রিন প্রিন্টিং ও কলোগ্রাফ, 3:15–4:00।"
+    },
+    {
+      "text": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "charlotte-prep:dayInside.classes[6].gradeLabel"
+      ],
+      "t": "6–8"
+    },
+    {
+      "text": "Includes off-campus singing at venues such as Knights Stadium and Bojangles Coliseum.",
+      "of": "42efe35a",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].desc"
+      ],
+      "t": "Knights Stadium ও Bojangles Coliseum-এর মতো জায়গায় ক্যাম্পাসের বাইরে গান গাওয়াও এর অন্তর্ভুক্ত।"
+    },
+    {
+      "text": "1–2",
+      "of": "ab9ea77d",
+      "at": [
+        "charlotte-prep:dayInside.classes[7].gradeLabel"
+      ],
+      "t": "1–2"
+    },
+    {
+      "text": "Meets before school, 7:15–8:00 a.m., in the Music Cottage — 3rd and 4th graders, plus 5th and 6th graders in Band.",
+      "of": "e84e428c",
+      "at": [
+        "charlotte-prep:dayInside.classes[8].desc"
+      ],
+      "t": "স্কুলের আগে, সকাল 7:15–8:00, Music Cottage-এ বসে — 3rd ও 4th grade-এর শিক্ষার্থীরা, সঙ্গে Band-এ থাকা 5th ও 6th grade-এর শিক্ষার্থীরা।"
+    },
+    {
+      "text": "A simple, clearly priced afternoon program: one annual fee for every grade K–8, an hourly fallback, and free care for a younger sibling waiting on an older one.",
+      "of": "81b24a49",
+      "at": [
+        "charlotte-prep:verdict.headline"
+      ],
+      "t": "সহজ, স্পষ্ট দামের একটি বিকেলের কর্মসূচি: K–8-এর প্রতিটি শ্রেণির জন্য এক বার্ষিক ফি, ঘণ্টাভিত্তিক বিকল্প, এবং বড় ভাইবোনের জন্য অপেক্ষারত ছোট ভাইবোনের বিনামূল্যে দেখভাল।"
+    },
+    {
+      "text": "**One clear annual price.** $4,500 covers K–8 afternoons to 5:30 p.m., and a $20 hourly drop-in covers occasional use.",
+      "of": "8f2a6aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[0]"
+      ],
+      "t": "**একটিই স্পষ্ট বার্ষিক দাম।** $4,500-এ বিকেল 5:30 পর্যন্ত K–8-এর বিকেল, আর মাঝে মাঝে দরকার হলে ঘণ্টায় $20-এর drop-in।"
+    },
+    {
+      "text": "**Free care for younger siblings** waiting for an older sibling’s later dismissal.",
+      "of": "e7156aa9",
+      "at": [
+        "charlotte-prep:verdict.strengths[1]"
+      ],
+      "t": "বড় ভাইবোনের দেরিতে ছুটির জন্য অপেক্ষারত **ছোট ভাইবোনদের বিনামূল্যে দেখভাল**।"
+    },
+    {
+      "text": "**Four age groups with homework time built in** — K, 1–2, 3–4 and Middle School — plus a snack and monthly themes.",
+      "of": "93d8aee8",
+      "at": [
+        "charlotte-prep:verdict.strengths[2]"
+      ],
+      "t": "**হোমওয়ার্কের সময়সহ চারটি বয়সভিত্তিক দল** — K, 1–2, 3–4 ও Middle School — সঙ্গে নাশতা ও মাসিক থিম।"
+    },
+    {
+      "text": "**Twelve-week studios** in language, drama, music, art and STEM each fall and spring.",
+      "of": "1eb5e0fa",
+      "at": [
+        "charlotte-prep:verdict.strengths[3]"
+      ],
+      "t": "প্রতি শরৎ ও বসন্তে ভাষা, নাটক, সংগীত, চারুকলা ও STEM-এ **বারো সপ্তাহের স্টুডিও**।"
+    },
+    {
+      "text": "**A dedicated director** runs after school, extended day, studios and summer camp together.",
+      "of": "ce5304c8",
+      "at": [
+        "charlotte-prep:verdict.strengths[4]"
+      ],
+      "t": "**একজন নির্দিষ্ট পরিচালক** after school, extended day, studios ও summer camp একসঙ্গে পরিচালনা করেন।"
+    },
+    {
+      "text": "Is after-school care offered on teacher workdays, holidays and early-dismissal days, and at what cost?",
+      "of": "45674143",
+      "at": [
+        "charlotte-prep:verdict.checklist[0]"
+      ],
+      "t": "শিক্ষকদের কর্মদিবস, ছুটির দিন ও আগে-ছুটির দিনে after-school সেবা কি দেওয়া হয়, আর তার খরচ কত?"
+    },
+    {
+      "text": "What is the late-pickup policy after 5:30 p.m.?",
+      "of": "454a80af",
+      "at": [
+        "charlotte-prep:verdict.checklist[1]"
+      ],
+      "t": "বিকেল 5:30-এর পরে দেরিতে নিতে আসার নীতি কী?"
+    },
+    {
+      "text": "Which studios run this term, on which days, and what does each cost?",
+      "of": "7cb6c90c",
+      "at": [
+        "charlotte-prep:verdict.checklist[2]"
+      ],
+      "t": "এই টার্মে কোন কোন স্টুডিও চলছে, কোন দিনে, আর প্রতিটির খরচ কত?"
+    },
+    {
+      "text": "Can a Montessori Kindergartner enroll in the annual After School Program, or only drop in?",
+      "of": "aacee27e",
+      "at": [
+        "charlotte-prep:verdict.checklist[3]"
+      ],
+      "t": "একজন Montessori Kindergarten শিক্ষার্থী কি বার্ষিক After School Program-এ ভর্তি হতে পারে, নাকি কেবল drop-in?"
+    },
+    {
+      "text": "Does the 3% sibling discount apply to after-school fees?",
+      "of": "ef1cfe82",
+      "at": [
+        "charlotte-prep:verdict.checklist[4]"
+      ],
+      "t": "ভাইবোনের 3% ছাড় কি after-school ফিতেও প্রযোজ্য?"
+    },
+    {
+      "text": "Is there any supervised option before 7:45 a.m.?",
+      "of": "95cebc68",
+      "at": [
+        "charlotte-prep:verdict.checklist[5]"
+      ],
+      "t": "সকাল 7:45-এর আগে তত্ত্বাবধানে থাকার কোনো ব্যবস্থা আছে কি?"
     }
   ]
 }

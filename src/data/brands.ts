@@ -241,6 +241,32 @@ export const BRANDS: Record<string, Brand> = {
     // restriction, and it renders fine in the app.
     welcomeVideoUrl: 'https://player.vimeo.com/video/1179403154',
   },
+  'charlotte-prep': {
+    // Tigers. The school's navy is #1d2e5e — seven fills in its own
+    // logo-large.svg, its mask-icon color, its most-used CSS color, and the
+    // dominant pixel of the rendered mark. That raw value sits 19–22 RGB units
+    // from Charlotte Latin #12294f, Hickory Grove #14396e and Carmel #13294b,
+    // the most crowded part of this palette. So, as with Trinity, it is graded
+    // along the school's OWN hue (224°) to #2b458c: 37.7 units from its nearest
+    // neighbour (Charlotte Christian #1e40af), 9.00:1 white-on-badge. The
+    // secondary light blue #42a7c6 (the monogram's "P") fails white-text
+    // contrast at 2.77:1, so it is not the badge color.
+    color: '#2b458c',
+    // The school's own CP monogram; no other badge uses CP.
+    initials: 'CP',
+    city: 'Charlotte',
+    homepageUrl: 'https://charlotteprep.org/',
+    // The CP monogram cut from the school's logo-large.svg — there is no shield
+    // or crest, and no tiger mark appears on the site.
+    logo: '/logos/charlotte-prep.png',
+    // PreK-8: no grades 9-12. Drives Compare exclusion — see the note above.
+    hasHighSchool: false,
+    // "Lower School at Charlotte Prep" (1:11, Dec 2025), the school's own Vimeo
+    // account. player.vimeo.com 401s a curl whatever the Referer — Vimeo
+    // bot-blocking, identical to Trinity's working embed; oEmbed returns a
+    // normal embed for it.
+    welcomeVideoUrl: 'https://player.vimeo.com/video/1145994566',
+  },
 }
 
 const FALLBACK_COLOR = '#5b6472'

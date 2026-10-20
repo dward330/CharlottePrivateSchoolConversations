@@ -285,6 +285,13 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<AdmissionsCardKey, string>>
   'trinity-episcopal': {
     guide: 'Grade-by-Grade Application Guide — K · 1–8',
   },
+  // Charlotte Prep is PreK–8 and its deadline calendar breaks once, at
+  // Kindergarten → Grade 1 — but its lower band starts at age 2 (Pre-Primary),
+  // so it is "Early School & K", not Trinity's bare "K". The testing boundaries
+  // (MK–1 / 2–4 / 5–8) are carried inside the Grades 1–8 band, not the title.
+  'charlotte-prep': {
+    guide: 'Grade-by-Grade Application Guide — Early School & K · 1–8',
+  },
 }
 
 /**
@@ -329,6 +336,7 @@ import { charlotteLatin } from './admissionsPrograms/charlotte-latin.ts'
 import { covenantDay } from './admissionsPrograms/covenant-day.ts'
 import { hickoryGroveChristian } from './admissionsPrograms/hickory-grove-christian.ts'
 import { trinityEpiscopal } from './admissionsPrograms/trinity-episcopal.ts'
+import { charlottePrep } from './admissionsPrograms/charlotte-prep.ts'
 
 /**
  * SEVEN schools, not twelve. **The other five are deliberately absent.**
@@ -354,6 +362,7 @@ const PROGRAMS: Record<string, AdmissionsProgram> = {
   'covenant-day': covenantDay,
   'hickory-grove-christian': hickoryGroveChristian,
   'trinity-episcopal': trinityEpiscopal,
+  'charlotte-prep': charlottePrep,
 }
 
 /* ---------------------------------------------------------- translations -- */

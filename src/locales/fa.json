@@ -179,7 +179,10 @@
     "welcomeCaption": "معرفی‌ای از {{school}}، به زبان خود مدرسه. برای تماشا پخش را بزنید.",
     "welcomeFrom": "از مدرسه",
     "welcomeIframeTitle": "{{school}} — ویدئوی خوش‌آمدگویی",
-    "welcomeVideo": "ویدئوی خوش‌آمدگویی"
+    "welcomeVideo": "ویدئوی خوش‌آمدگویی",
+    "classVideo": "مقصد دورهٔ ⁨{{year}}⁩ برای دبیرستان",
+    "classVideoCaption": "ویدئوی خود {{school}} از اینکه دورهٔ ⁨{{year}}⁩ آن برای دبیرستان به کجا می‌رود. برای تماشا پخش را بزنید.",
+    "classVideoIframeTitle": "{{school}} — مقصدهای دبیرستانی دورهٔ ⁨{{year}}⁩"
   },
   "sports": {
     "stateTitleMatrix_one": "ماتریس عنوان ایالتی، {{count}} فصل اخیر",
@@ -214,6 +217,7 @@
     "sport": "ورزش"
   },
   "afterSchool": {
+    "seeSummer": "برنامه‌های تابستانی را ببینید ←",
     "basisAnnual": "در سال",
     "basisMonthly": "ماهانه",
     "basisSemester": "در هر نیم‌سال",
@@ -393,6 +397,8 @@
     "the-arts.ladder@davidson-day": "نردبان هنرهای Early Childhood–12",
     "the-arts.theatre@davidson-day": "تئاتر و بازشناسی بیرونی",
     "student-clubs.affinity@charlotte-christian": "گروه‌های جهانی و فرهنگی",
+    "student-clubs.honors@charlotte-prep": "مسابقات و رهبری دانش‌آموزی",
+    "student-clubs.honors@trinity-episcopal": "مسابقات و رهبری دانش‌آموزی",
     "summer-programs.catalog": "فهرست اردوها",
     "summer-programs.costPlanner": "برنامه‌ریز هزینهٔ تابستان",
     "high-school-placement.outcomes": "فارغ‌التحصیلان کجا می‌روند",
@@ -420,7 +426,11 @@
     "international-travel.network@cannon": "World Affairs Council، Model UN و Global Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International و همکاران مأموریت مذهبی Winterim",
     "international-travel.credential@davidson-day": "Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR و همایش‌های باستان‌شناسی"
+    "international-travel.network@davidson-day": "AFAR و همایش‌های باستان‌شناسی",
+    "admissions.guide@covenant-day": "راهنمای درخواست به تفکیک پایه — JK/K · 1–5 · 6–11",
+    "admissions.guide@charlotte-prep": "راهنمای درخواست به تفکیک پایه — Early School و K · 1–8",
+    "the-arts.ladder@charlotte-prep": "نردبان هنرهای PreK–8",
+    "the-arts.theatre@charlotte-prep": "تئاتر و تولیدهای هر پایه"
   },
   "cardLabels": {
     "afternoonRhythm": "ریتم بعدازظهر",
@@ -541,7 +551,13 @@
     "searchEmpty": "هیچ مدرسه‌ای با «{{query}}» هم‌خوان نیست — واژهٔ کوتاه‌تری بیازمایید.",
     "statusClosed": "اکنون برای همیشه تعطیل",
     "statusMerged": "ادغام‌شده در مدرسه‌ای دیگر",
-    "crossLinkLegend": "نشان می‌دهد در این پورتال صفحه‌ای اختصاصی برای آن مدرسه داریم — روی نام مدرسه کلیک کنید"
+    "crossLinkLegend": "نشان می‌دهد در این پورتال صفحه‌ای اختصاصی برای آن مدرسه داریم — روی نام مدرسه کلیک کنید",
+    "viewLabel": "نمایش",
+    "viewAllAlumni": "همهٔ دانش‌آموختگان",
+    "countLegend": "عدد کنار نام هر مدرسه نشان می‌دهد چند نفر از فارغ‌التحصیلان دورهٔ ⁨{{year}}⁩ به آنجا می‌روند — شمارش ما از اطلاعیهٔ خود مدرسه دربارهٔ آن دوره.",
+    "tallyClass": "دورهٔ ⁨{{year}}⁩",
+    "tallyListed_one": "⁨{{count}}⁩ فارغ‌التحصیل در فهرست",
+    "tallyListed_other": "⁨{{count}}⁩ فارغ‌التحصیل در فهرست"
   },
   "photoViewer": {
     "open": "بزرگ‌نمایی عکس: {{name}}",
