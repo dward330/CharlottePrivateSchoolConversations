@@ -48,7 +48,7 @@ export const charlottePrep: SportsProgram = {
     headline:
       'Ten named middle school teams across three seasons, open from 5th grade — "one of the few schools that allow 5th Graders the opportunity to be a part of our sports program."',
     subhead:
-      'Every team is a single grades 5–8 squad in the Queen City Conference; no A/B or JV split is published. "Including others is sometimes more important than winning." Athletics fees have been folded into tuition since 2024–25.',
+      'Every team is a single grades 5–8 squad in the Queen City Conference; no A/B or JV split is published. "Including others is sometimes more important than winning."',
     stats: [
       { value: '10', label: 'teams named on the athletics page · Fast Facts says 11' },
       { value: '5–8', label: 'grades eligible to play' },
@@ -85,7 +85,7 @@ export const charlottePrep: SportsProgram = {
       },
     ],
     footnote:
-      'Selected results, all Queen City Conference play. GIRLS’ BASKETBALL, 2023–24: "They won the regular season conference for the first time in 10 years and the QCC Tournament Championship final for the first time in 14 years." GIRLS’ VOLLEYBALL, fall 2024: the 12-player team "won the QCC tournament championship". Girls Cheerleading is also offered, with no season given on the current page. For younger students, "various athletic studios are offered to students of all ages, from Pre-Primary to 8th Grade" — golf, tennis, martial arts, soccer and gymnastics among them. The campus field, developed in 2013 as Founders Field, held modular classrooms that have since been decommissioned; its restoration was due to begin in fall 2025. The gym doubles as the stage for school productions.',
+      'Selected results, all Queen City Conference play. GIRLS’ BASKETBALL, 2023–24: "They won the regular season conference for the first time in 10 years and the QCC Tournament Championship final for the first time in 14 years." GIRLS’ VOLLEYBALL, fall 2024: the 12-player team "won the QCC tournament championship". Girls Cheerleading is also offered. For younger students, "various athletic studios are offered to students of all ages, from Pre-Primary to 8th Grade" — golf, tennis, martial arts, soccer and gymnastics among them.',
     sources: [
       { label: 'charlotteprep.org — Athletics', url: ATHLETICS },
       { label: 'charlotteprep.org — Fast Facts (11 teams, 70+% participation)', url: FAST_FACTS },
