@@ -1097,6 +1097,20 @@ no school's file changed. No new strings.
   competition card. The research file is renamed "Recognition in Clubs and Activities", so
   it folds onto the catalog key, and Charlotte Prep has no `clubClusters.ts` entry.
 
+### Review change (user, 2026-10-19): Course Offerings redesigned onto division cards
+
+The single prose card (school model, daily schedule, testing, curriculum-review timeline)
+is replaced by a **`courseOfferings.ts` entry**, designed in Claude Design as "Charlotte Prep
+Course Offerings". It uses the same three division cards every school uses: **Montessori
+Early School** (stages, the three-year cycle, specials; 11 entries), **Lower School Courses**
+(core subjects, named programs, the six-day specials rotation; 13 entries) and **Middle School
+Courses** (core subjects, leadership, arts & PE; 13 entries). It follows the Trinity
+precedent of subjects and programs with a `notPublished` line, because no catalog exists.
+This **reverses the plan's "no OFFERINGS entry" decision**: the zero-items worry does not
+apply, since each division has real, named rows. Non-course material stays in
+source-material. The earlier source-chip label fix is now moot, because the prose card no
+longer renders.
+
 ### For Phase 2
 
 - New `en` chrome keys to translate (nine catalogs): `school.classVideo`,
@@ -1111,6 +1125,6 @@ no school's file changed. No new strings.
 ### Open for the user at review
 
 - ~~The Clubs `honors` title~~ — resolved: "Competitions & Student Leadership" (see above).
-- **Thinnest areas:** Sports (2 cards), Course Offerings (one prose card, no catalog).
+- **Thinnest area:** Sports (2 cards).
 - **The class video shows students' faces** (the school's own publication); the page adds
   no names. Worth one watch before it ships.
