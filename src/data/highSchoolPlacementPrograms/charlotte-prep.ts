@@ -182,7 +182,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
     headline:
       'More than 60 high schools across all of Charlotte Prep’s alumni — and, for each class from 2023 to 2026, exactly where its graduates are heading.',
     subhead:
-      '"All alumni" is the school’s own cumulative list — "Our graduates have attended the following schools" — from its website and placement guide, plus four schools that appear only on its 2023–2026 class lists. It gives no years and no counts, so a school there may have taken a single graduate many years ago; the school’s Fast Facts count 614 alumni, a figure not yet updated for the Class of 2026. Choose a class to see where each of its named graduates is heading. Schools are grouped by what each one actually is.',
+      'Choose a class to see where each of its named graduates is heading. Schools are grouped by what each one actually is.',
     /* Where each named class is heading (the class picker) — OUR count from the school's own
        class announcements (2023–2026). Names are normalised to the master's
        canonical spelling so each links: the school wrote "Charlotte Country
