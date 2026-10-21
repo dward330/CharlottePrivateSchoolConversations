@@ -66,7 +66,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       'Every service is fee-based under an annual contract. The school says its specialization does not extend to emotional and behavioral interventions, and no speech, occupational or physical therapy is listed on its site.',
   },
   stats: [
-    { value: 'K5–12', label: 'served by ESS', note: 'per the 2026–27 fee schedule' },
+    { value: 'K–12', label: 'served by ESS', note: 'kindergarten (K5) through 12th grade, per the 2026–27 fee schedule' },
     { value: '9', label: 'named Student Services staff', note: 'including two ESS teachers and two academic coaches' },
     { value: '$300+', label: 'per year, beyond tuition', note: 'case management alone; instruction runs up to $4,455' },
   ],
