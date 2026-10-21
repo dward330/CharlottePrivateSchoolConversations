@@ -96,7 +96,12 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
  * of `comparableTopics` (pills, home grid, Compare meta description) and gates
  * the dossier's "Compare on …" button. When Compare is wanted, delete the entry.
  */
-export const COMPARE_DEFERRED_TOPICS: ReadonlySet<string> = new Set(['international-travel'])
+// Learning Support & Student Services joined 2026-10-20 (Hickory Grove only),
+// deferred the same way: "lets not include the compare tool/button just yet".
+export const COMPARE_DEFERRED_TOPICS: ReadonlySet<string> = new Set([
+  'international-travel',
+  'learning-support',
+])
 
 /**
  * The topics the Compare page is allowed to offer — every research area that at

@@ -71,8 +71,19 @@ const DESC_MAX = 160
  * comma-only sample meant to be followed by "and more", so the conjunction is
  * left off — "a, b, c and more" rather than "a, b and c and more".
  */
-function topicList(n?: number, from: { name: string }[] = topics): string {
-  const names = from.slice(0, n ?? from.length).map((t) => t.name.toLowerCase())
+/**
+ * Shorter forms for area names too long for the 160-char description budget.
+ * "Learning Support & Student Services" (2026-10-20) pushed Hickory Grove's
+ * description to 180 chars; the page keeps the full name, the snippet the short.
+ */
+const SHORT_TOPIC_NAMES: Record<string, string> = {
+  'learning-support': 'student support',
+}
+
+function topicList(n?: number, from: { slug?: string; name: string }[] = topics): string {
+  const names = from
+    .slice(0, n ?? from.length)
+    .map((t) => (t.slug && SHORT_TOPIC_NAMES[t.slug]) || t.name.toLowerCase())
   if (names.length < 2) return names[0] ?? 'school research'
   if (n !== undefined) return names.join(', ')
   return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`

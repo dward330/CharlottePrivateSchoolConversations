@@ -148,6 +148,17 @@ import {
   InternationalTravelLead,
   InternationalTravelStatBand,
 } from '../components/InternationalTravel.tsx'
+import {
+  learningSupportProgram,
+  loadLearningSupportOverlay,
+  LEARNING_SUPPORT_CARDS,
+  WIDE_LEARNING_CARDS,
+} from '../data/learningSupport.ts'
+import {
+  LearningSupportCardBody,
+  LearningSupportLead,
+  LearningSupportStatBand,
+} from '../components/LearningSupport.tsx'
 import { WelcomeVideo, ClassVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
@@ -514,6 +525,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadFinancialAidReportOverlay(lang),
       loadAdmissionsOverlay(lang),
       loadInternationalTravelOverlay(lang),
+      loadLearningSupportOverlay(lang),
       /* The content overlay must be warmed BEFORE loadMetricGroups reads it —
          it resolves blocks synchronously off the cached index, so racing them
          would render English on first paint. */
@@ -531,8 +543,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
          into Object.fromEntries as if it were a [slug, groups] pair — which is
          what `tsc -b` caught when Summer Programs made it nine. Admissions
          made it ten. High School Placement made it eleven. International
-         Travel made it twelve. */
-    ]).then(([, , , , , , , , , , , , ...entries]) => {
+         Travel made it twelve. Learning Support made it thirteen. */
+    ]).then(([, , , , , , , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -972,6 +984,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const travel = itCardList.length > 0 ? itEntry : undefined
             const itCards = itCardList
+            /* Learning Support & Student Services: a full substitution like
+               International Travel — six structured cards replace the ingested
+               prose, folded onto one metric key by RULES['learning-support'].
+               Only Hickory Grove Christian is researched. Same present-but-empty
+               guard as the areas above. */
+            const lsEntry =
+              t.slug === 'learning-support' ? learningSupportProgram(slug, lang) : undefined
+            const lsCardList = lsEntry
+              ? LEARNING_SUPPORT_CARDS.filter((c) => lsEntry[c.key] != null)
+              : []
+            const learning = lsCardList.length > 0 ? lsEntry : undefined
+            const lsCards = lsCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
@@ -990,11 +1014,25 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             ? adCards.length
                             : travel
                               ? itCards.length
+                              : learning
+                              ? lsCards.length
                               : clubs
                               ? clubsCards.length + groups.length
                               : groups.length
             return (
-              <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
+              <section
+                key={t.slug}
+                id={`topic-${t.slug}`}
+                className={`topic-section${learning ? ' ls-section' : ''}`}
+                /* Learning Support takes the school's own colours (the handoff's
+                   navy + Vegas gold for Hickory Grove): --brand for ink and
+                   fills, --ls-gold for rules and badges only. */
+                style={
+                  learning
+                    ? ({ '--brand': learning.colors.brand, '--ls-gold': learning.colors.gold } as React.CSSProperties)
+                    : undefined
+                }
+              >
                 <div className="topic-section-head">
                   <span className="glyph"><TopicGlyph slug={t.slug} /></span>
                   <h2>{topicLabel(tr, t.slug, t.name)}</h2>
@@ -1087,6 +1125,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   <>
                     <InternationalTravelLead program={travel} />
                     <InternationalTravelStatBand program={travel} />
+                  </>
+                )}
+
+                {/* Learning Support: the lead line, then its stat band — the
+                    topic's own data, off Compare like the two areas above. */}
+                {ready && t.slug === 'learning-support' && learning && (
+                  <>
+                    <LearningSupportLead program={learning} />
+                    <LearningSupportStatBand program={learning} />
                   </>
                 )}
 
@@ -1421,6 +1468,36 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* Learning Support: six cards in the fixed order set by
+                    LEARNING_SUPPORT_CARDS. Eligibility, Services and Ask span
+                    the full row even when closed, as in the design; Therapy,
+                    Testing and Staff sit two-up. Titles are constant chrome. */}
+                {ready && t.slug === 'learning-support' && learning && (
+                  <div className="note-cards">
+                    {lsCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className={`note-card note-card-report note-card-ls${WIDE_LEARNING_CARDS.has(card.key) ? ' note-card-wide' : ''}`}
+                      >
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">
+                              {cardTitle(tr, 'learning-support', card.key, card.title)}
+                            </span>
+                            <span className="topic-teaser">
+                              {localizeMoneyText(learning[card.key]!.headline)}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <LearningSupportCardBody program={learning} cardKey={card.key} />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
                   {/* Student Clubs: the three redesigned cards, in the fixed
                       1a–1c order, ahead of the two prose cards that remain.
@@ -1465,7 +1542,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     (t.slug === 'after-school' && afterSchool) ||
                     (t.slug === 'summer-programs' && summer) ||
                     (t.slug === 'admissions' && admissions) ||
-                    (t.slug === 'international-travel' && travel)
+                    (t.slug === 'international-travel' && travel) ||
+                    (t.slug === 'learning-support' && learning)
                       ? []
                       : groups
                   ).map((g) => {

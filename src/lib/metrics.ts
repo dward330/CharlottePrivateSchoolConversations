@@ -106,6 +106,16 @@ const RULES: Record<string, Rule[]> = {
       label: 'Global Exposure Research Dossier (2026)',
     },
   ],
+  // Learning Support renders as six structured cards driven by
+  // data/learningSupport.ts — the same full substitution as International
+  // Travel. Every slice of the research folds onto one key.
+  'learning-support': [
+    {
+      match: /.*/,
+      key: 'redesign-research',
+      label: 'Learning Support Research (2026)',
+    },
+  ],
   'summer-programs': [
     // Summer Programs renders as two consolidated cards driven by
     // data/summerPrograms.ts, not by the ingested prose (the same full
@@ -342,6 +352,9 @@ const TOPIC_ORDER: string[] = [
   // Placed directly after Course Offerings at the user's request (2026-10-11).
   // Displayed as "Global Exposure" (renamed 2026-10-11); the slug is unchanged.
   'international-travel',
+  // Added 2026-10-20 from the Learning Support design handoff. The handoff set
+  // no position; it sits with the academic areas, after Global Exposure.
+  'learning-support',
   'student-clubs',
   'the-arts',
   'sports',

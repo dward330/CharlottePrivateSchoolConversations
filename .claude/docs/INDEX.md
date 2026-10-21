@@ -91,6 +91,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](international-travel/davidson-day.md) — 2 docs
 - [Providence Day School](international-travel/providence-day.md) — 5 docs
 
+### Learning Support & Student Services (`learning-support/`)
+
+- [Hickory Grove Christian School](learning-support/hickory-grove-christian.md) — 1 docs
+
 ### Sports (`sports/`)
 
 - [Cannon School](sports/cannon.md) — 15 docs
@@ -156,4 +160,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 466 documents across 11 topics and 13 schools.
+- `src/data/schools.json` — 467 documents across 12 topics and 13 schools.
