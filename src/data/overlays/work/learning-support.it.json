@@ -1,0 +1,849 @@
+{
+  "topic": "learning-support",
+  "lang": "it",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
+      "of": "f699e911",
+      "at": [
+        "hickory-grove-christian:lead.strong"
+      ],
+      "t": "Educational Support Services (ESS) è il quadro entro cui gli studenti ricevono supporti scolastici personalizzati: coaching scolastico, tutoraggio, misure di adattamento per l’apprendimento e supporto specializzato per gli studenti con disturbi dell’apprendimento accertati."
+    },
+    {
+      "text": "Every service is fee-based under an annual contract.",
+      "of": "658e692f",
+      "at": [
+        "hickory-grove-christian:lead.muted"
+      ],
+      "t": "Ogni servizio è a pagamento e richiede un contratto annuale."
+    },
+    {
+      "text": "served by ESS",
+      "of": "e51fef74",
+      "at": [
+        "hickory-grove-christian:stats[0].label"
+      ],
+      "t": "seguiti da ESS"
+    },
+    {
+      "text": "kindergarten (K5) through 12th grade, per the 2026–27 fee schedule",
+      "of": "b940b8e2",
+      "at": [
+        "hickory-grove-christian:stats[0].note"
+      ],
+      "t": "dalla scuola dell’infanzia (K5) al 12º anno, secondo il tariffario 2026–27"
+    },
+    {
+      "text": "named Student Services staff",
+      "of": "9c3c43e9",
+      "at": [
+        "hickory-grove-christian:stats[1].label"
+      ],
+      "t": "membri del personale di Student Services indicati per nome"
+    },
+    {
+      "text": "including two ESS teachers and two academic coaches",
+      "of": "739dff92",
+      "at": [
+        "hickory-grove-christian:stats[1].note"
+      ],
+      "t": "tra cui due docenti di ESS e due coach scolastici"
+    },
+    {
+      "text": "per year, beyond tuition",
+      "of": "c303f0f2",
+      "at": [
+        "hickory-grove-christian:stats[2].label"
+      ],
+      "t": "all’anno, oltre alla retta"
+    },
+    {
+      "text": "case management alone; instruction runs up to $4,455",
+      "of": "5f57a6da",
+      "at": [
+        "hickory-grove-christian:stats[2].note"
+      ],
+      "t": "solo per la gestione del caso; l’insegnamento arriva a $4,455"
+    },
+    {
+      "text": "ESS serves students with identified learning differences, including any student who arrives with a 504, an IEP or a prior school’s accommodations plan. Emotional and behavioral intervention is outside its scope.",
+      "of": "b3c87fe0",
+      "at": [
+        "hickory-grove-christian:eligibility.headline"
+      ],
+      "t": "ESS segue gli studenti con disturbi dell’apprendimento accertati, compreso ogni studente che arriva con un piano 504, un IEP o un piano di adattamenti di una scuola precedente. Gli interventi emotivi e comportamentali non rientrano nel suo ambito."
+    },
+    {
+      "text": "ESS is open to students with documented needs.",
+      "of": "a59703fa",
+      "at": [
+        "hickory-grove-christian:eligibility.intro.strong"
+      ],
+      "t": "ESS è aperto agli studenti con bisogni documentati."
+    },
+    {
+      "text": "Eligibility is often the fact that decides it for a family, so it comes first.",
+      "of": "b17b06ea",
+      "at": [
+        "hickory-grove-christian:eligibility.intro.muted"
+      ],
+      "t": "L’ammissibilità è spesso ciò che decide per una famiglia, quindi viene per prima."
+    },
+    {
+      "text": "Students with “identified learning differences.” Families are encouraged to share “any documents that describe their students’ learning needs or diagnoses” when they begin the admissions process. The school does not say what documentation it accepts or how recent it must be.",
+      "of": "82e5fecb",
+      "at": [
+        "hickory-grove-christian:eligibility.eligible"
+      ],
+      "t": "Gli studenti con “disturbi dell’apprendimento accertati”. Le famiglie sono invitate a fornire “qualsiasi documento che descriva i bisogni di apprendimento dei loro figli o diagnosi che possano incidere sull’apprendimento” quando iniziano la procedura di ammissione. La scuola non indica quale documentazione accetta né quanto recente debba essere."
+    },
+    {
+      "text": "“All students who enroll with a [[504|Section 504 Plan]], an [[iep|Individual Education Plan (IEP)]], or an academic accommodations plan from a previous school may be enrolled under the umbrella of Educational Support Services.”",
+      "of": "2d82d5b6",
+      "at": [
+        "hickory-grove-christian:eligibility.plan"
+      ],
+      "t": "“Tutti gli studenti che si iscrivono con un [[504|piano ai sensi della Section 504]], un [[iep|Individual Education Plan (IEP)]] o un piano di adattamenti scolastici di una scuola precedente possono essere iscritti nel quadro di Educational Support Services.”"
+    },
+    {
+      "text": "“Currently, our specialization does not extend to providing emotional and behavioral interventions, as our staff is best equipped to provide academic interventions.”",
+      "of": "3a359846",
+      "at": [
+        "hickory-grove-christian:eligibility.scope"
+      ],
+      "t": "“Attualmente la nostra specializzazione non si estende agli interventi emotivi e comportamentali, poiché il nostro personale è più preparato a offrire interventi didattici.”"
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it, with the published 2026–27 fee. Pick your child’s need to see what applies.",
+      "of": "7bd92a8c",
+      "at": [
+        "hickory-grove-christian:services.headline"
+      ],
+      "t": "Ogni servizio descritto sulle pagine della scuola, raggruppato e codificato secondo chi lo eroga, con la tariffa 2026–27 pubblicata. Scegliete il bisogno di vostro figlio per vedere cosa si applica."
+    },
+    {
+      "text": "Specialized teachers and paid 1:1 or small-group instruction. No reading method is named.",
+      "of": "5189ca57",
+      "at": [
+        "hickory-grove-christian:services.verdicts.read.head"
+      ],
+      "t": "Docenti specializzati e lezioni a pagamento 1:1 o in piccoli gruppi. Non viene indicato alcun metodo per la lettura."
+    },
+    {
+      "text": "ESS teachers “have specialized training”; K5–8 pull-out or push-in instruction is billed by sessions per week. Ask which reading approach ESS teachers use.",
+      "of": "01f62032",
+      "at": [
+        "hickory-grove-christian:services.verdicts.read.body"
+      ],
+      "t": "I docenti di ESS “hanno una formazione specializzata”; le lezioni fuori classe o in classe per K5–8 si pagano in base alle sedute settimanali. Chiedete quale approccio alla lettura usano i docenti di ESS."
+    },
+    {
+      "text": "Executive-function coaching and accommodations are offered.",
+      "of": "8a842f05",
+      "at": [
+        "hickory-grove-christian:services.verdicts.attn.head"
+      ],
+      "t": "Sono offerti coaching sulle funzioni esecutive e misure di adattamento."
+    },
+    {
+      "text": "ESS names organizational skills, self-advocacy and “other executive functioning skills,” and high school Academic Coaching runs up to 3 hours a week. Behavioral intervention is outside its scope.",
+      "of": "4655ce6b",
+      "at": [
+        "hickory-grove-christian:services.verdicts.attn.body"
+      ],
+      "t": "ESS cita le capacità organizzative, l’autodifesa dei propri bisogni e “altre abilità delle funzioni esecutive”, e l’Academic Coaching della scuola superiore arriva a 3 ore a settimana. Gli interventi comportamentali non rientrano nel suo ambito."
+    },
+    {
+      "text": "Specialized teachers and tutoring. No math-specific intervention is named.",
+      "of": "f0966774",
+      "at": [
+        "hickory-grove-christian:services.verdicts.math.head"
+      ],
+      "t": "Docenti specializzati e tutoraggio. Non viene indicato alcun intervento specifico per la matematica."
+    },
+    {
+      "text": "Math falls under ESS’s general academic support and 1:1 or small-group instruction. The school does not describe a math program of its own.",
+      "of": "e190883f",
+      "at": [
+        "hickory-grove-christian:services.verdicts.math.body"
+      ],
+      "t": "La matematica rientra nel supporto scolastico generale di ESS e nelle lezioni 1:1 o in piccoli gruppi. La scuola non descrive un proprio programma di matematica."
+    },
+    {
+      "text": "Not published. Plan on an outside provider.",
+      "of": "59549707",
+      "at": [
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ],
+      "t": "Non pubblicato. Prevedete un professionista esterno."
+    },
+    {
+      "text": "The school’s site lists no speech-language therapy.",
+      "of": "e4312a0f",
+      "at": [
+        "hickory-grove-christian:services.verdicts.speech.body"
+      ],
+      "t": "Il sito della scuola non indica alcuna logopedia."
+    },
+    {
+      "text": "Neither occupational nor physical therapy appears on the school’s site.",
+      "of": "97fecae0",
+      "at": [
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ],
+      "t": "Né la terapia occupazionale né la fisioterapia compaiono sul sito della scuola."
+    },
+    {
+      "text": "Faith-based counsel and peer support, but no emotional or behavioral intervention.",
+      "of": "4adc1c0d",
+      "at": [
+        "hickory-grove-christian:services.verdicts.social.head"
+      ],
+      "t": "Consulenza ispirata alla fede e sostegno tra pari, ma nessun intervento emotivo o comportamentale."
+    },
+    {
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups,” while ESS says its staff “is best equipped to provide academic interventions.”",
+      "of": "f19a7f55",
+      "at": [
+        "hickory-grove-christian:services.verdicts.social.body"
+      ],
+      "t": "Il team del benessere offre “consulenza biblica attraverso mentoring e discepolato, gruppi di sostegno tra pari”, mentre ESS afferma che il suo personale “è più preparato a offrire interventi didattici”."
+    },
+    {
+      "text": "Gifted students are named on the Student Services page.",
+      "of": "2e398401",
+      "at": [
+        "hickory-grove-christian:services.verdicts.gifted.head"
+      ],
+      "t": "La pagina di Student Services cita gli studenti plusdotati."
+    },
+    {
+      "text": "It describes support for “academically gifted students alongside students who require specialized academic support.” No program detail is published.",
+      "of": "6b8155eb",
+      "at": [
+        "hickory-grove-christian:services.verdicts.gifted.body"
+      ],
+      "t": "Descrive un sostegno per “studenti plusdotati dal punto di vista scolastico accanto a studenti che hanno bisogno di un supporto scolastico specializzato”. Non sono pubblicati dettagli sul programma."
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "Supporto scolastico e all’apprendimento"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "Docenti specializzati"
+    },
+    {
+      "text": "“ESS teachers and academic coaches/tutors have specialized training.” Two ESS teachers and two teacher assistants are named.",
+      "of": "bdb06ce6",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[0].detail"
+      ],
+      "t": "“I docenti e i coach/tutor scolastici di ESS hanno una formazione specializzata.” Sono indicati per nome due docenti di ESS e due assistenti didattici."
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "Intervento sulla lettura"
+    },
+    {
+      "text": "No named method (e.g., Orton-Gillingham, structured literacy).",
+      "of": "2f135778",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[1].detail"
+      ],
+      "t": "Nessun metodo indicato (ad es. Orton-Gillingham, alfabetizzazione strutturata)."
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "Intervento sulla matematica"
+    },
+    {
+      "text": "No math-specific intervention described.",
+      "of": "9c2ed21f",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[2].detail"
+      ],
+      "t": "Nessun intervento specifico per la matematica descritto."
+    },
+    {
+      "text": "1:1 / small-group instruction (K5–8)",
+      "of": "1f3a8845",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[3].service"
+      ],
+      "t": "Lezioni 1:1 / in piccoli gruppi (K5–8)"
+    },
+    {
+      "text": "Pull-out or push-in, 1 to 5 sessions a week: $1,892 to $4,414 a year, including case management and testing.",
+      "of": "366db7b2",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[3].detail"
+      ],
+      "t": "Fuori classe o in classe, da 1 a 5 sedute a settimana: da $1,892 a $4,414 all’anno, compresi gestione del caso e test."
+    },
+    {
+      "text": "Academic Flex sessions (9–12)",
+      "of": "9c704a8c",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[4].service"
+      ],
+      "t": "Sedute Academic Flex (9–12)"
+    },
+    {
+      "text": "1–2 sessions, up to 60 minutes weekly: $1,806 a year, or $903 a semester.",
+      "of": "f1efa0b7",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[4].detail"
+      ],
+      "t": "1–2 sedute, fino a 60 minuti a settimana: $1,806 all’anno, o $903 a semestre."
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "Coaching sulle funzioni esecutive"
+    },
+    {
+      "text": "ESS promotes “self-advocacy, organizational skills, personal responsibility, and other executive functioning skills.” High school Academic Coaching, up to 3 hours weekly: $2,227 a year, or $1,113 a semester.",
+      "of": "ce6686ad",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[5].detail"
+      ],
+      "t": "ESS promuove “l’autodifesa dei propri bisogni, le capacità organizzative, la responsabilità personale e altre abilità delle funzioni esecutive”. Academic Coaching alla scuola superiore, fino a 3 ore a settimana: $2,227 all’anno, o $1,113 a semestre."
+    },
+    {
+      "text": "HS Instructional Support Class",
+      "of": "c8d0679a",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[6].service"
+      ],
+      "t": "HS Instructional Support Class"
+    },
+    {
+      "text": "5 class periods weekly, scheduled per semester: $4,455 a year.",
+      "of": "b070b1ed",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[6].detail"
+      ],
+      "t": "5 ore di lezione a settimana, programmata per semestre: $4,455 all’anno."
+    },
+    {
+      "text": "Accommodations & case management",
+      "of": "cacf238d",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[7].service"
+      ],
+      "t": "Misure di adattamento e gestione del caso"
+    },
+    {
+      "text": "An HGCS Accommodations Plan built from educational testing or a prior 504/IEP, with an annual review with teachers and parents: $300 a year. Accommodations happen in the primary classroom.",
+      "of": "52557dca",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[7].detail"
+      ],
+      "t": "Un HGCS Accommodations Plan costruito a partire da test didattici o da un 504/IEP precedente, con una revisione annuale con docenti e genitori: $300 all’anno. Gli adattamenti avvengono nella classe principale."
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "Didattica appositamente progettata"
+    },
+    {
+      "text": "“Applied Interventions/Specially Designed Instruction,” added to a plan based on “professional diagnosis, teacher feedback, specialist observations”: $1,500 to $2,000 a year.",
+      "of": "36b0de5d",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[8].detail"
+      ],
+      "t": "“Applied Interventions/Specially Designed Instruction”, aggiunta a un piano sulla base di “diagnosi professionale, riscontri dei docenti, osservazioni di specialisti”: da $1,500 a $2,000 all’anno."
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "Programma autonomo / classe separata"
+    },
+    {
+      "text": "No separate classroom or program described.",
+      "of": "e2b3d57c",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[9].detail"
+      ],
+      "t": "Nessuna classe o programma separato descritto."
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "Plusdotati / livello avanzato"
+    },
+    {
+      "text": "Named on the Student Services page; no program detail.",
+      "of": "9fe62351",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[10].detail"
+      ],
+      "t": "Citato sulla pagina di Student Services; nessun dettaglio sul programma."
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "Documentazione per l’ammissibilità"
+    },
+    {
+      "text": "Admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable.",
+      "of": "2459db35",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[11].detail"
+      ],
+      "t": "Le liste dei documenti per l’ammissione chiedono “risultati di test didattici/diagnostici, IEP/504 in vigore”, se presenti."
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "Terapie e servizi correlati"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "Logopedia"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "Non indicata dalla scuola."
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "Terapia occupazionale"
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "Fisioterapia"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "Valutazione"
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "Misure di adattamento per le verifiche"
+    },
+    {
+      "text": "Approved pull-out or push-in testing: $370 a year for 1 subject, $760 for 2, $1,200 for 3 or more.",
+      "of": "abc72bd6",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[0].detail"
+      ],
+      "t": "Verifiche approvate fuori classe o in classe: $370 all’anno per 1 materia, $760 per 2, $1,200 per 3 o più."
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ],
+      "t": "Test d’ingresso"
+    },
+    {
+      "text": "Scheduled through the Student Services office once admissions has every required form.",
+      "of": "381205a8",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[1].detail"
+      ],
+      "t": "Programmati tramite l’ufficio di Student Services quando l’ufficio ammissioni ha ricevuto tutti i moduli richiesti."
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "Valutazione psicoeducativa"
+    },
+    {
+      "text": "“We assist families in connecting with educational testing providers, as needed.”",
+      "of": "fc7086aa",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[2].detail",
+        "hickory-grove-christian:testing.entries[0].text"
+      ],
+      "t": "“Aiutiamo le famiglie a mettersi in contatto con professionisti che svolgono test didattici, secondo necessità.”"
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "Benessere e salute"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "Consulenza e sostegno emotivo"
+    },
+    {
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling.",
+      "of": "e91e1968",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[0].detail"
+      ],
+      "t": "Il team del benessere offre “consulenza biblica attraverso mentoring e discepolato, gruppi di sostegno tra pari”. La scuola superiore ha una direzione del counseling (Director of Counseling)."
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "Interventi emotivi e comportamentali"
+    },
+    {
+      "text": "Outside ESS’s specialization, per the school.",
+      "of": "4c727284",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[1].detail"
+      ],
+      "t": "Fuori dalla specializzazione di ESS, secondo la scuola."
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "Risorse per le crisi"
+    },
+    {
+      "text": "A Mental Health & Crisis Resources page lists the 988 Suicide & Crisis Lifeline and the NC Peer Warmline.",
+      "of": "91495fc0",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[2].detail"
+      ],
+      "t": "Una pagina Mental Health & Crisis Resources indica la 988 Suicide & Crisis Lifeline e la NC Peer Warmline."
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "Psicologo/a scolastico/a"
+    },
+    {
+      "text": "None named.",
+      "of": "59c2d1bc",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ],
+      "t": "Nessuno indicato per nome."
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "Infermiere/a scolastico/a"
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "Lingua"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / supporto per l’inglese"
+    },
+    {
+      "text": "International applicants submit TOEFL Jr. or SLEP scores; no English-language support is described.",
+      "of": "ecd14f43",
+      "at": [
+        "hickory-grove-christian:services.groups[4].rows[0].detail"
+      ],
+      "t": "I candidati internazionali presentano punteggi TOEFL Jr. o SLEP; non è descritto alcun supporto per l’inglese."
+    },
+    {
+      "text": "The school’s site lists no speech-language, occupational or physical therapy during the school day.",
+      "of": "5d8ec697",
+      "at": [
+        "hickory-grove-christian:therapy.headline"
+      ],
+      "t": "Il sito della scuola non indica logopedia, terapia occupazionale né fisioterapia durante la giornata scolastica."
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "Logopedia"
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "Occupazionale"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "Fisioterapia"
+    },
+    {
+      "text": "The school’s Educational Support Services, Student Services and Wellness pages name no therapist on staff. Ask whether an outside therapist can see your child on campus.",
+      "of": "038bf604",
+      "at": [
+        "hickory-grove-christian:therapy.note"
+      ],
+      "t": "Le pagine Educational Support Services, Student Services e Wellness della scuola non indicano alcun terapista nel personale. Chiedete se un terapista esterno può seguire vostro figlio nel campus."
+    },
+    {
+      "text": "The school doesn’t run diagnostic testing in-house. It connects families with outside providers and asks for existing results at admission.",
+      "of": "7defa156",
+      "at": [
+        "hickory-grove-christian:testing.headline"
+      ],
+      "t": "La scuola non svolge valutazioni diagnostiche al proprio interno. Mette in contatto le famiglie con professionisti esterni e chiede i risultati già disponibili al momento dell’ammissione."
+    },
+    {
+      "text": "Referral to private testing",
+      "of": "3967ae1e",
+      "at": [
+        "hickory-grove-christian:testing.entries[0].title"
+      ],
+      "t": "Invio a valutazioni private"
+    },
+    {
+      "text": "The school does not name providers or say what age or type of testing it accepts.",
+      "of": "146be8b8",
+      "at": [
+        "hickory-grove-christian:testing.entries[0].muted"
+      ],
+      "t": "La scuola non indica professionisti né dice quanto recenti o di che tipo debbano essere i test che accetta."
+    },
+    {
+      "text": "Results at admission",
+      "of": "3a1f1e0b",
+      "at": [
+        "hickory-grove-christian:testing.entries[1].title"
+      ],
+      "t": "Risultati al momento dell’ammissione"
+    },
+    {
+      "text": "Both admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable, and the final decision includes a “Review of IEP/504/Psychoeducational Evaluation.”",
+      "of": "a2fb0e5c",
+      "at": [
+        "hickory-grove-christian:testing.entries[1].text"
+      ],
+      "t": "Entrambe le liste dei documenti per l’ammissione chiedono “risultati di test didattici/diagnostici, IEP/504 in vigore”, se presenti, e la decisione finale comprende un “esame di IEP/504/valutazione psicoeducativa”."
+    },
+    {
+      "text": "Testing for admission is scheduled through the Student Services office after the admissions office receives every required form.",
+      "of": "926d60f8",
+      "at": [
+        "hickory-grove-christian:testing.entries[2].text"
+      ],
+      "t": "I test per l’ammissione sono programmati tramite l’ufficio di Student Services dopo che l’ufficio ammissioni ha ricevuto tutti i moduli richiesti."
+    },
+    {
+      "text": "Nine named Student Services staff, led by an Administrator for Student Services and a Director of Educational Support Services.",
+      "of": "89d62a7a",
+      "at": [
+        "hickory-grove-christian:staff.headline"
+      ],
+      "t": "Nove membri del personale di Student Services indicati per nome, guidati dall’amministrazione di Student Services e dalla direzione di Educational Support Services."
+    },
+    {
+      "text": "Administrator for Student Services",
+      "of": "f747063e",
+      "at": [
+        "hickory-grove-christian:staff.people[0].role"
+      ],
+      "t": "Amministrazione di Student Services"
+    },
+    {
+      "text": "Director of Educational Support Services",
+      "of": "a5df40b2",
+      "at": [
+        "hickory-grove-christian:staff.people[1].role"
+      ],
+      "t": "Direzione di Educational Support Services"
+    },
+    {
+      "text": "Student Services Administrative Assistant",
+      "of": "6dec95ee",
+      "at": [
+        "hickory-grove-christian:staff.people[2].role"
+      ],
+      "t": "Assistenza amministrativa di Student Services"
+    },
+    {
+      "text": "Educational Support Services Teacher",
+      "of": "63a4e21b",
+      "at": [
+        "hickory-grove-christian:staff.people[3].role",
+        "hickory-grove-christian:staff.people[4].role"
+      ],
+      "t": "Docente di Educational Support Services"
+    },
+    {
+      "text": "Educational Support Services Teacher Assistant",
+      "of": "946aa7b3",
+      "at": [
+        "hickory-grove-christian:staff.people[5].role",
+        "hickory-grove-christian:staff.people[6].role"
+      ],
+      "t": "Assistente didattico/a di Educational Support Services"
+    },
+    {
+      "text": "Academic Coaching & Tutorial Support",
+      "of": "0f323a5f",
+      "at": [
+        "hickory-grove-christian:staff.people[7].role",
+        "hickory-grove-christian:staff.people[8].role"
+      ],
+      "t": "Coaching scolastico e tutoraggio"
+    },
+    {
+      "text": "Six questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, therapy and health staff.",
+      "of": "bea66fc4",
+      "at": [
+        "hickory-grove-christian:ask.headline"
+      ],
+      "t": "Sei domande da portare alla visita, su ciò che il sito della scuola lascia senza risposta: metodi, tariffe, documentazione, terapie e personale sanitario."
+    },
+    {
+      "text": "Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
+      "of": "34c7aff4",
+      "at": [
+        "hickory-grove-christian:ask.questions[0]"
+      ],
+      "t": "Quali metodi per la lettura e la matematica usano i docenti di ESS (ad es. Orton-Gillingham, Wilson, alfabetizzazione strutturata)?"
+    },
+    {
+      "text": "The 2026–27 fee schedule lists the HS Instructional Support Class at $4,455 a year and again at $2,227 “/year.” Is $2,227 the per-semester price?",
+      "of": "1e07d6f3",
+      "at": [
+        "hickory-grove-christian:ask.questions[1]"
+      ],
+      "t": "Il tariffario 2026–27 indica la HS Instructional Support Class a $4,455 all’anno e di nuovo a $2,227 “/year”. $2,227 è il prezzo a semestre?"
+    },
+    {
+      "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
+      "of": "d947979e",
+      "at": [
+        "hickory-grove-christian:ask.questions[2]"
+      ],
+      "t": "Quale documentazione vale come “disturbo dell’apprendimento accertato”, e quanto recenti devono essere i test?"
+    },
+    {
+      "text": "Can an outside speech or occupational therapist see my child on campus during the school day?",
+      "of": "8b9ea4ec",
+      "at": [
+        "hickory-grove-christian:ask.questions[3]"
+      ],
+      "t": "Un logopedista o un terapista occupazionale esterno può seguire mio figlio nel campus durante la giornata scolastica?"
+    },
+    {
+      "text": "Which interventions does the $1,500–$2,000 “Applied Interventions/Specially Designed Instruction” add-on cover, and who delivers them?",
+      "of": "55d99705",
+      "at": [
+        "hickory-grove-christian:ask.questions[4]"
+      ],
+      "t": "Quali interventi copre l’aggiunta “Applied Interventions/Specially Designed Instruction” da $1,500–$2,000, e chi li svolge?"
+    },
+    {
+      "text": "Is there a school nurse or school psychologist on staff?",
+      "of": "3adafb9c",
+      "at": [
+        "hickory-grove-christian:ask.questions[5]"
+      ],
+      "t": "C’è un infermiere o un’infermiera scolastica, o uno psicologo scolastico, nel personale?"
+    },
+    {
+      "text": "October 20, 2026",
+      "of": "4d0c56fd",
+      "at": [
+        "hickory-grove-christian:ask.asOf"
+      ],
+      "t": "20 ottobre 2026"
+    }
+  ]
+}

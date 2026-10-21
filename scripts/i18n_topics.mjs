@@ -65,6 +65,8 @@ export const TOPICS = {
   // given on high-school-placement above: an unregistered topic is never
   // extracted, so Phase 2 would report 100% while shipping it in English.
   'international-travel': 'internationalTravel',
+  // Hickory Grove only (2026-10-20). Registered from the start, same reason.
+  'learning-support': 'learningSupport',
   'course-offerings': null,   // single module + accessor, see ACCESSORS
   'financial-aid-report': null,
   'metric-values': null,

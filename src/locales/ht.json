@@ -41,7 +41,8 @@
     "summer-programs": "Pwogram Ete",
     "the-arts": "Atizay yo",
     "high-school-placement": "Plasman nan Lekòl Segondè",
-    "international-travel": "Ouvèti sou Mond lan"
+    "international-travel": "Ouvèti sou Mond lan",
+    "learning-support": "Sipò pou aprantisaj ak sèvis pou elèv"
   },
   "metrics": {
     "admissions.redesign-research": "Dosye Rechèch Admisyon (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "Istwa Frè Eskolè ak Sous",
     "visual-arts": "Atizay Vizyèl",
     "win-loss": "Dosye Viktwa–Defèt",
-    "international-travel.redesign-research": "Dosye Rechèch Ouvèti sou Mond lan (2026)"
+    "international-travel.redesign-research": "Dosye Rechèch Ouvèti sou Mond lan (2026)",
+    "learning-support.redesign-research": "Rechèch sou sipò pou aprantisaj (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "Gid aplikasyon klas pa klas — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "Gid aplikasyon klas pa klas — Early School ak K · 1–8",
     "the-arts.ladder@charlotte-prep": "Nechèl Atistik PreK–8 la",
-    "the-arts.theatre@charlotte-prep": "Teyat ak Pwodiksyon pa Nivo Ane"
+    "the-arts.theatre@charlotte-prep": "Teyat ak Pwodiksyon pa Nivo Ane",
+    "learning-support.eligibility": "Èske yo ka sèvi pitit mwen?",
+    "learning-support.services": "Sèvis yo an yon koudèy",
+    "learning-support.therapy": "Terapi ak sèvis ki gen rapò",
+    "learning-support.testing": "Tès ak evalyasyon",
+    "learning-support.staff": "Ak kiyès w ap travay",
+    "learning-support.ask": "Kesyon pou poze lekòl la"
   },
   "cardLabels": {
     "afternoonRhythm": "Ritm aprèmidi a",
@@ -566,6 +574,45 @@
     "next": "Foto apre a",
     "position": "{{current}} sou {{total}}",
     "dialogLabel": "Fenèt pou gade foto"
+  },
+  "learning": {
+    "eligible": "Kiyès ki kalifye",
+    "plan": "Rive ak yon plan",
+    "scope": "Andeyò travay li",
+    "needPrompt": "Kisa pitit ou bezwen?",
+    "needFilterLabel": "Filtre sèvis yo dapre bezwen",
+    "need": {
+      "all": "Tout sèvis",
+      "read": "Lekti / disleksi",
+      "attn": "Atansyon ak fonksyon egzekitif",
+      "math": "Matematik",
+      "speech": "Pale ak langaj",
+      "motor": "Mouvman / terapi okipasyonèl",
+      "social": "Sosyal ak emosyonèl",
+      "gifted": "Elèv ki gen don / avanse"
+    },
+    "code": {
+      "IH": "ANNDAN",
+      "IH_FEE": "ANNDAN · FRÈ",
+      "RF": "REFERANS",
+      "REQUIRED": "OBLIGATWA",
+      "NS": "PA ENDIKE",
+      "EXCLUDED": "EKSKLI"
+    },
+    "legend": {
+      "IH": "pèsonèl lekòl la",
+      "IH_FEE": "lekòl la bay li, ak frè anplis eskolarite",
+      "RF": "referans sèlman",
+      "NS": "pa sou sit lekòl la, sa pa vle di yo pa ofri l"
+    },
+    "tally": "{{published}} pibliye · {{notStated}} pa endike",
+    "relatedServicesNote": "Nan lwa sou edikasyon espesyal ([[idea|IDEA]]), terapi pou pale, terapi okipasyonèl, fizyoterapi ak konsèy rele “sèvis ki gen rapò”.",
+    "glossary": {
+      "504": "Yon plan 504 bay lis aranjman (plis tan, kote pou chita, elatriye) pou yon elèv ki gen yon andikap ki afekte aprantisaj li. Li soti nan lwa federal sou dwa sivil.",
+      "iep": "Individualized Education Program: yon dokiman lekòl piblik ki fikse sèvis ak objektif edikasyon espesyal dapre IDEA.",
+      "idea": "Individuals with Disabilities Education Act: lwa federal ki gouvène edikasyon espesyal nan lekòl piblik yo."
+    },
+    "asOf": "Rechèch la ajou depi {{date}}. Yon etikèt PA ENDIKE vle di nou pa t jwenn enfòmasyon an sou sit lekòl la pandan verifikasyon sa a; sa pa vle di lekòl la pa ofri sèvis la."
   },
   "travel": {
     "allDivisions": "Tout divizyon yo",

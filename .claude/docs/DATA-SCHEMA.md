@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 11 research areas**, 466 ingested research documents.
+**13 schools × 12 research areas**, 467 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -60,6 +60,7 @@ exists yet and **the section does not render at all** for that school.
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
+| Learning Support & Student Services | `learning-support` | — | — | — | — | — | — | — | — | — | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -97,6 +98,12 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `redesign-research` | Global Exposure Research Dossier (2026) | 6/13 | 5 |
+
+### Learning Support & Student Services `learning-support`
+
+| Card key | Label | Schools | Distinct subtopic phrasings |
+|---|---|--:|--:|
+| `redesign-research` | Learning Support Research (2026) | 1/13 | 1 |
 
 ### Student Clubs `student-clubs`
 
@@ -855,6 +862,47 @@ Root type `InternationalTravelProgram` · registry `INTERNATIONAL_TRAVEL_CARDS` 
 
 </details>
 
+### Learning Support & Student Services `learning-support`
+
+Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/data/learningSupport.ts` · per-school `src/data/learningSupport/<slug>.ts`
+
+| Card key | Title | Parent question / kicker |
+|---|---|---|
+| `eligibility` | Can They Serve My Child? | — |
+| `services` | Services at a Glance | — |
+| `therapy` | Therapy & Related Services | — |
+| `testing` | Testing & Evaluation | — |
+| `staff` | Who You'll Work With | — |
+| `ask` | Ask the School | — |
+
+**Schools with data:** 1/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `davidson-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
+
+<details><summary>Types defined in <code>learningSupport.ts</code> (13)</summary>
+
+`LearningLead` — `strong`
+
+`LearningStat` — `value`
+
+`LearningCode` *(union)* — `IH` \| `IH_FEE` \| `RF` \| `REQUIRED` \| `NS` \| `EXCLUDED`
+
+`EligibilityCard` — `headline`, `intro`, `eligible`, `plan`, `scope`, `note?`, `sources`
+
+`ServiceRow` — `service`, `code`, `detail`, `needs`
+
+`ServicesCard` — `headline`, `verdicts`, `groups`, `sources`
+
+`TherapyCard` — `headline`, `items`, `note?`, `sources`
+
+`TestingCard` — `headline`, `entries`, `sources`
+
+`StaffCard` — `headline`, `people`, `note?`, `sources`
+
+`AskCard` — `headline`, `questions`, `asOf`
+
+`LearningSupportProgram` — `colors`, `lead`, `stats`, `eligibility?`, `services?`, `therapy?`, `testing?`, `staff?`, `ask?`
+
+</details>
+
 ## 4. Compare rows (quantitative layer)
 
 `VALUE_METRICS` powers both the Compare table and the stat tiles on a school page (a
@@ -1141,7 +1189,7 @@ automatically. Every rule below is a research and authoring decision.
 
 | Layer | K-12 school | K-8 school |
 |---|---|---|
-| Research areas | up to 10 of 11 | **up to 10 of 11** — the same ceiling, but College Support swaps for High School Placement |
+| Research areas | up to 11 of 12 | **up to 11 of 12** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
 | Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. International Travel is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, 2026-10-11), not a data absence |
 | Sports cards | up to 7 | **up to 3** — the 4 college-bound ones do not apply |
@@ -1229,6 +1277,7 @@ sparser in the college-facing areas and no thinner anywhere else.
 | admissions | `guide` | 1/1 |
 | high-school-placement | `placement`, `destinations`, `verdict` | 3/4 |
 | international-travel | — | 0/9 |
+| learning-support | — | 0/6 |
 
 Read from `trinity-episcopal`'s own data files, so it tracks the real page rather than a
 plan. An area at 0 is not necessarily a failure — College Support is 0 by design.

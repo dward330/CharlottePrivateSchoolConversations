@@ -34,6 +34,7 @@ TOPIC_NAMES = {
     "admissions": "Admissions",
     "high-school-placement": "High School Placement",
     "international-travel": "Global Exposure",
+    "learning-support": "Learning Support & Student Services",
 }
 SCHOOL_NAMES = {
     "cannon": "Cannon School",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-20",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -83,6 +83,10 @@
     {
       "slug": "international-travel",
       "name": "Global Exposure"
+    },
+    {
+      "slug": "learning-support",
+      "name": "Learning Support & Student Services"
     },
     {
       "slug": "sports",
@@ -426,6 +430,11 @@
       "topic_slug": "international-travel",
       "school_slug": "providence-day",
       "doc_count": 5
+    },
+    {
+      "topic_slug": "learning-support",
+      "school_slug": "hickory-grove-christian",
+      "doc_count": 1
     },
     {
       "topic_slug": "sports",
@@ -5342,6 +5351,16 @@
       "subtopic": "Service and Civic Engagement",
       "source_file": "source-material/student-clubs/trinity-episcopal/Trinity Episcopal School - Student Clubs - Service and Civic Engagement.md",
       "note_file": ".claude/docs/student-clubs/trinity-episcopal.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "hickory-grove-christian",
+      "school": "Hickory Grove Christian School",
+      "topic_slug": "learning-support",
+      "topic": "Learning Support & Student Services",
+      "subtopic": "Official Site Research",
+      "source_file": "source-material/learning-support/hickory-grove-christian/Hickory Grove Christian - Learning Support - Official Site Research.md",
+      "note_file": ".claude/docs/learning-support/hickory-grove-christian.md",
       "type": "md"
     }
   ]

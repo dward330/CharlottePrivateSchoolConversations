@@ -533,6 +533,13 @@ main { flex: 1; }
 }
 .chip:hover { color: var(--text); border-color: var(--brand); }
 .chip.is-active { color: var(--ink); border-color: var(--brand); }
+/* A chip wider than a phone screen wraps rather than pushing the page sideways.
+   "Learning Support & Student Services" in Italian ("Supporto all'apprendimento e
+   servizi per gli studenti") made one chip 356px at 320px (2026-10-21). Chips
+   that fit stay on one line. */
+@media (max-width: 480px) {
+  .chip { max-width: 100%; white-space: normal; }
+}
 
 .back {
   display: inline-flex;
@@ -6136,6 +6143,10 @@ a.cs-college-name:focus-visible {
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-estimate-kicker,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-fees-kicker,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-filters-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-cell-title,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-group-name,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-code,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .lang-row-label,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .lang-soon {
   letter-spacing: 0;
@@ -7218,3 +7229,195 @@ a.cs-college-name:focus-visible {
 @media print {
   [data-scroll-left], [data-scroll-right] { -webkit-mask-image: none; mask-image: none; }
 }
+
+/* ═════════════════════════════════════════════════════════════════════════
+   Learning Support & Student Services — components/LearningSupport.tsx
+
+   From the Claude Design handoff (Learning Support Section Redesign), mapped
+   onto the app's tokens. The section takes the SCHOOL's colours: SchoolDetail
+   sets --brand and --ls-gold inline on the <section>, and everything below
+   derives from those two, so the next school only changes its data file.
+   Gold is for fills and rules (header rule, stat-tile rules, chip fills),
+   never text on the light ground. On the dark theme navy ink would vanish, so
+   --ls-ink swaps to a gold-on-dark tint. Grids are
+   repeat(auto-fit, minmax(min(100%, N), 1fr)); flex children carry
+   min-width: 0; properties are logical for fa/ar. Classes are `ls-`.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+.ls-section {
+  --ls-ink: var(--brand);
+  --ls-100: color-mix(in srgb, var(--ls-gold) 22%, var(--bg));
+  --ls-300: color-mix(in srgb, var(--ls-gold) 60%, var(--bg));
+  --ls-900: color-mix(in srgb, var(--brand) 82%, #000);
+  --ink: var(--ls-ink);
+  --accent: var(--ls-ink);
+  --accent-700: var(--ls-ink);
+  --accent-900: var(--ls-900);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .ls-section {
+    --ls-ink: color-mix(in srgb, var(--ls-gold) 75%, #e6e7e8);
+    --ls-100: color-mix(in srgb, var(--ls-gold) 14%, var(--bg));
+    --ls-300: color-mix(in srgb, var(--ls-gold) 45%, var(--bg));
+    --ls-900: var(--ls-ink);
+  }
+}
+:root[data-theme='dark'] .ls-section {
+  --ls-ink: color-mix(in srgb, var(--ls-gold) 75%, #e6e7e8);
+  --ls-100: color-mix(in srgb, var(--ls-gold) 14%, var(--bg));
+  --ls-300: color-mix(in srgb, var(--ls-gold) 45%, var(--bg));
+  --ls-900: var(--ls-ink);
+}
+
+/* The 2px gold rule under the header. */
+.ls-section .topic-section-head { border-bottom: 2px solid var(--ls-gold); }
+
+/* Structured layouts — never the two-column prose flow .note-card[open] sets. */
+.note-card-ls[open] .note-card-body { column-count: 1; }
+.note-card-ls .depttab { min-height: 40px; }
+
+.ls-section-lead { margin: 0 0 16px; font-size: 14.5px; line-height: 1.55; text-wrap: pretty; }
+.ls-lead { margin: 0 0 16px; font-size: 14.5px; line-height: 1.5; }
+.ls-body { font-size: 13.5px; line-height: 1.6; }
+.ls-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.ls-note { margin: 16px 0 0; font-size: 12.5px; line-height: 1.55; }
+.ls-note-top { margin: 0 0 16px; }
+.ls-note-staff { font-size: 13px; }
+.ls-abbr { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+
+/* Stat strip — 3px gold rule on each tile. */
+.ls-stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); margin-bottom: 20px; }
+.ls-stats .stat-tile {
+  box-shadow:
+    inset 0 3px 0 var(--ls-gold),
+    -1px 0 0 var(--border),
+    0 -1px 0 var(--border),
+    0 1px 0 var(--border);
+}
+.ls-stats .stat-tile-val { color: var(--ls-ink); }
+.ls-stat-label { font-size: 13px; font-weight: 600; margin-top: 2px; }
+.ls-stat-note { font-size: 12px; line-height: 1.45; }
+
+/* Divider-gap grids. */
+.ls-grid {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.ls-grid-eligibility { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.ls-grid-therapy { grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); }
+.ls-cell { background: var(--bg); padding: 14px; min-width: 0; }
+.ls-cell-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.ls-icon { color: var(--ls-ink); display: inline-flex; flex: none; }
+.ls-cell-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ls-cell-text { margin: 0; font-size: 13px; line-height: 1.55; }
+.ls-therapy-cell { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; }
+.ls-therapy-name { font-family: var(--heading); font-weight: 600; font-size: 17px; }
+
+/* Delivery-code chips. NOT STATED is always drawn — dashed, never blank. */
+.ls-code {
+  display: inline-block;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  padding: 1px 7px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.ls-code[data-tone='on'] { background: var(--ls-100); border-color: var(--ls-300); color: var(--ls-900); }
+.ls-code[data-tone='fee'] { border-color: var(--ls-ink); color: var(--ls-ink); }
+.ls-code[data-tone='ref'] {
+  background: color-mix(in srgb, var(--text) 12%, var(--bg));
+  border-color: color-mix(in srgb, var(--text) 22%, var(--bg));
+  color: var(--text);
+}
+.ls-code[data-tone='ns'] {
+  border-style: dashed;
+  border-color: color-mix(in srgb, var(--text) 45%, var(--bg));
+  color: color-mix(in srgb, var(--text) 75%, var(--bg));
+}
+
+/* Services at a Glance — need filter, verdict, legend, grouped rows. */
+.ls-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.ls-verdict {
+  border: 1px solid var(--ls-300);
+  background: var(--ls-100);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  color: var(--ls-900);
+}
+.ls-verdict-head { font-family: var(--heading); font-weight: 600; font-size: 18px; line-height: 1.25; }
+.ls-verdict-body { font-size: 13px; line-height: 1.55; margin-top: 4px; }
+.ls-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 12px; margin-bottom: 16px; }
+.ls-legend-item { display: inline-flex; gap: 6px; align-items: center; min-width: 0; }
+.ls-groups { display: flex; flex-direction: column; gap: 16px; }
+.ls-group-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  border-bottom: 1px solid var(--text);
+  padding-bottom: 4px;
+}
+.ls-group-name {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ls-group-tally { font-size: 12px; margin-inline-start: auto; }
+.ls-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  transition: opacity 0.15s;
+}
+.ls-row[data-match='false'] { opacity: 0.32; }
+.ls-row-service { flex: 0 1 230px; min-width: 0; font-family: var(--heading); font-weight: 600; font-size: 16px; line-height: 1.3; }
+.ls-row-code { flex: 0 0 104px; }
+.ls-row-detail { flex: 1 1 280px; min-width: 0; font-size: 13px; line-height: 1.5; }
+
+/* Testing entries. */
+.ls-entries { display: flex; flex-direction: column; gap: 16px; }
+.ls-entry { display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; }
+.ls-entry > .ls-code { flex: none; margin-top: 3px; }
+.ls-entry-main { flex: 1 1 260px; min-width: 0; }
+.ls-entry-title { font-family: var(--heading); font-weight: 600; font-size: 18px; line-height: 1.25; margin-bottom: 4px; }
+.ls-entry-text { font-size: 13.5px; line-height: 1.55; }
+
+/* Staff rows. */
+.ls-staff { display: flex; flex-direction: column; }
+.ls-person { display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 9px 0; border-bottom: 1px solid var(--border); }
+.ls-person-name { flex: 1 1 180px; min-width: 0; font-family: var(--heading); font-weight: 600; font-size: 17px; }
+.ls-person-role { flex: 1 1 200px; min-width: 0; font-size: 13px; }
+
+/* Ask the School. */
+.ls-questions { margin: 0; padding-inline-start: 22px; display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; line-height: 1.5; }
+.ls-asof { margin: 16px 0 0; font-size: 12px; line-height: 1.55; }
+
+.ls-src { margin-top: 16px; }

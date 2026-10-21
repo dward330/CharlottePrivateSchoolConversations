@@ -48,7 +48,8 @@
     "summer-programs": "Summer Programs",
     "the-arts": "The Arts",
     "high-school-placement": "High School Placement",
-    "international-travel": "Global Exposure"
+    "international-travel": "Global Exposure",
+    "learning-support": "Learning Support & Student Services"
   },
   "metrics": {
     "admissions.redesign-research": "Admissions Research Dossier (2026)",
@@ -98,7 +99,8 @@
     "tuition-history": "Tuition History & Sources",
     "visual-arts": "Visual Arts",
     "win-loss": "Win–Loss Records",
-    "international-travel.redesign-research": "Global Exposure Research Dossier (2026)"
+    "international-travel.redesign-research": "Global Exposure Research Dossier (2026)",
+    "learning-support.redesign-research": "Learning Support Research (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -437,7 +439,13 @@
     "international-travel.network@cannon": "The World Affairs Council, Model UN & the Global Education Badge",
     "international-travel.network@charlotte-christian": "SCORE International & the Winterim Mission Partners",
     "international-travel.credential@davidson-day": "The Global Studies Diploma Distinction",
-    "international-travel.network@davidson-day": "AFAR & the Archaeology Conferences"
+    "international-travel.network@davidson-day": "AFAR & the Archaeology Conferences",
+    "learning-support.eligibility": "Can They Serve My Child?",
+    "learning-support.services": "Services at a Glance",
+    "learning-support.therapy": "Therapy & Related Services",
+    "learning-support.testing": "Testing & Evaluation",
+    "learning-support.staff": "Who You'll Work With",
+    "learning-support.ask": "Ask the School"
   },
   "cardLabels": {
     "afternoonRhythm": "The afternoon rhythm",
@@ -566,6 +574,45 @@
     "next": "Next photo",
     "position": "{{current}} of {{total}}",
     "dialogLabel": "Photo viewer"
+  },
+  "learning": {
+    "eligible": "Who's eligible",
+    "plan": "Arriving with a plan",
+    "scope": "Outside scope",
+    "needPrompt": "What does your child need?",
+    "needFilterLabel": "Filter services by need",
+    "need": {
+      "all": "All services",
+      "read": "Reading / dyslexia",
+      "attn": "Attention & executive function",
+      "math": "Math",
+      "speech": "Speech & language",
+      "motor": "Motor / OT",
+      "social": "Social-emotional",
+      "gifted": "Gifted / advanced"
+    },
+    "code": {
+      "IH": "IH",
+      "IH_FEE": "IH · FEE",
+      "RF": "RF",
+      "REQUIRED": "REQUIRED",
+      "NS": "NOT STATED",
+      "EXCLUDED": "EXCLUDED"
+    },
+    "legend": {
+      "IH": "in-house staff",
+      "IH_FEE": "in-house, billed beyond tuition",
+      "RF": "referral only",
+      "NS": "not found on the school's site — not the same as not offered"
+    },
+    "tally": "{{published}} published · {{notStated}} not stated",
+    "relatedServicesNote": "In special-education law ([[idea|IDEA]]), speech, OT, PT and counseling are called “related services.”",
+    "glossary": {
+      "504": "A Section 504 plan lists accommodations (extra time, seating, etc.) for a student whose disability affects learning. It comes from federal civil-rights law.",
+      "iep": "Individualized Education Program: a public-school document setting out special-education services and goals under IDEA.",
+      "idea": "Individuals with Disabilities Education Act: the federal law governing special education in public schools."
+    },
+    "asOf": "Research current as of {{date}}. A NOT STATED chip means the item was not found on the school's own site during this pass; it does not mean the service is not offered."
   },
   "travel": {
     "allDivisions": "All divisions",

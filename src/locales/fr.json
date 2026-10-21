@@ -41,7 +41,8 @@
     "summer-programs": "Programmes d’été",
     "the-arts": "Les arts",
     "high-school-placement": "Orientation vers le secondaire",
-    "international-travel": "Ouverture internationale"
+    "international-travel": "Ouverture internationale",
+    "learning-support": "Soutien à l’apprentissage et services aux élèves"
   },
   "metrics": {
     "admissions.redesign-research": "Dossier de recherche sur les admissions (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "Historique des frais de scolarité et sources",
     "visual-arts": "Arts visuels",
     "win-loss": "Bilans victoires-défaites",
-    "international-travel.redesign-research": "Dossier de recherche sur l’ouverture internationale (2026)"
+    "international-travel.redesign-research": "Dossier de recherche sur l’ouverture internationale (2026)",
+    "learning-support.redesign-research": "Recherche sur le soutien à l’apprentissage (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "Guide de candidature niveau par niveau — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "Guide de candidature niveau par niveau — Early School et K · 1–8",
     "the-arts.ladder@charlotte-prep": "Le parcours artistique PreK–8",
-    "the-arts.theatre@charlotte-prep": "Le théâtre et les productions par niveau"
+    "the-arts.theatre@charlotte-prep": "Le théâtre et les productions par niveau",
+    "learning-support.eligibility": "Peuvent-ils accueillir mon enfant ?",
+    "learning-support.services": "Les services en un coup d’œil",
+    "learning-support.therapy": "Thérapies et services associés",
+    "learning-support.testing": "Évaluations et bilans",
+    "learning-support.staff": "Vos interlocuteurs",
+    "learning-support.ask": "Questions à poser à l’école"
   },
   "cardLabels": {
     "afternoonRhythm": "Le rythme de l’après-midi",
@@ -566,6 +574,45 @@
     "next": "Photo suivante",
     "position": "{{current}} sur {{total}}",
     "dialogLabel": "Visionneuse de photos"
+  },
+  "learning": {
+    "eligible": "Qui est admissible",
+    "plan": "Arriver avec un plan",
+    "scope": "Hors champ",
+    "needPrompt": "De quoi votre enfant a-t-il besoin ?",
+    "needFilterLabel": "Filtrer les services par besoin",
+    "need": {
+      "all": "Tous les services",
+      "read": "Lecture / dyslexie",
+      "attn": "Attention et fonctions exécutives",
+      "math": "Mathématiques",
+      "speech": "Parole et langage",
+      "motor": "Motricité / ergothérapie",
+      "social": "Socio-émotionnel",
+      "gifted": "Haut potentiel / avancé"
+    },
+    "code": {
+      "IH": "INTERNE",
+      "IH_FEE": "INTERNE · PAYANT",
+      "RF": "ORIENTATION",
+      "REQUIRED": "REQUIS",
+      "NS": "NON PRÉCISÉ",
+      "EXCLUDED": "EXCLU"
+    },
+    "legend": {
+      "IH": "personnel de l’école",
+      "IH_FEE": "par l’école, facturé en plus de la scolarité",
+      "RF": "orientation uniquement",
+      "NS": "absent du site de l’école, ce qui ne veut pas dire non proposé"
+    },
+    "tally": "{{published}} publiés · {{notStated}} non précisés",
+    "relatedServicesNote": "Dans la loi sur l’éducation spécialisée ([[idea|IDEA]]), l’orthophonie, l’ergothérapie, la kinésithérapie et l’accompagnement psychologique sont appelés « services associés ».",
+    "glossary": {
+      "504": "Un plan 504 énumère des aménagements (temps supplémentaire, place en classe, etc.) pour un élève dont le handicap affecte l’apprentissage. Il découle de la loi fédérale sur les droits civiques.",
+      "iep": "Individualized Education Program : document des écoles publiques qui fixe les services et objectifs d’éducation spécialisée prévus par l’IDEA.",
+      "idea": "Individuals with Disabilities Education Act : la loi fédérale qui régit l’éducation spécialisée dans les écoles publiques."
+    },
+    "asOf": "Recherche à jour au {{date}}. Une étiquette NON PRÉCISÉ signifie que l’élément n’a pas été trouvé sur le site de l’école lors de cette vérification ; cela ne veut pas dire que le service n’est pas proposé."
   },
   "travel": {
     "allDivisions": "Toutes les divisions",

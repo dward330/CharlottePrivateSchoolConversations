@@ -41,7 +41,8 @@
     "summer-programs": "برنامه‌های تابستانی",
     "the-arts": "هنرها",
     "high-school-placement": "جایابی دبیرستان",
-    "international-travel": "تجربهٔ جهانی"
+    "international-travel": "تجربهٔ جهانی",
+    "learning-support": "پشتیبانی یادگیری و خدمات دانش‌آموزی"
   },
   "metrics": {
     "admissions.redesign-research": "پروندهٔ پژوهش پذیرش (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "تاریخ شهریه و منابع",
     "visual-arts": "هنرهای تجسمی",
     "win-loss": "کارنامهٔ برد–باخت",
-    "international-travel.redesign-research": "پروندهٔ پژوهش تجربهٔ جهانی (2026)"
+    "international-travel.redesign-research": "پروندهٔ پژوهش تجربهٔ جهانی (2026)",
+    "learning-support.redesign-research": "پژوهش پشتیبانی یادگیری (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "راهنمای درخواست به تفکیک پایه — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "راهنمای درخواست به تفکیک پایه — Early School و K · 1–8",
     "the-arts.ladder@charlotte-prep": "نردبان هنرهای PreK–8",
-    "the-arts.theatre@charlotte-prep": "تئاتر و تولیدهای هر پایه"
+    "the-arts.theatre@charlotte-prep": "تئاتر و تولیدهای هر پایه",
+    "learning-support.eligibility": "آیا می‌توانند به فرزندم خدمت بدهند؟",
+    "learning-support.services": "خدمات در یک نگاه",
+    "learning-support.therapy": "درمان‌ها و خدمات وابسته",
+    "learning-support.testing": "آزمون و ارزیابی",
+    "learning-support.staff": "با چه کسانی کار خواهید کرد",
+    "learning-support.ask": "از مدرسه بپرسید"
   },
   "cardLabels": {
     "afternoonRhythm": "ریتم بعدازظهر",
@@ -566,6 +574,45 @@
     "next": "عکس بعدی",
     "position": "{{current}} از {{total}}",
     "dialogLabel": "نمایشگر عکس"
+  },
+  "learning": {
+    "eligible": "چه کسی واجد شرایط است",
+    "plan": "آمدن با یک برنامه",
+    "scope": "بیرون از حوزهٔ کار",
+    "needPrompt": "فرزند شما به چه چیزی نیاز دارد؟",
+    "needFilterLabel": "پالایش خدمات بر اساس نیاز",
+    "need": {
+      "all": "همهٔ خدمات",
+      "read": "خواندن / نارساخوانی",
+      "attn": "توجه و کارکردهای اجرایی",
+      "math": "ریاضی",
+      "speech": "گفتار و زبان",
+      "motor": "حرکتی / کاردرمانی",
+      "social": "اجتماعی-عاطفی",
+      "gifted": "تیزهوش / پیشرفته"
+    },
+    "code": {
+      "IH": "در مدرسه",
+      "IH_FEE": "در مدرسه · با هزینه",
+      "RF": "ارجاع",
+      "REQUIRED": "الزامی",
+      "NS": "ذکر نشده",
+      "EXCLUDED": "مستثنا"
+    },
+    "legend": {
+      "IH": "کارکنان خود مدرسه",
+      "IH_FEE": "از سوی مدرسه، با هزینه‌ای جدا از شهریه",
+      "RF": "فقط ارجاع",
+      "NS": "در سایت مدرسه یافت نشد، که به معنای ارائه نشدن نیست"
+    },
+    "tally": "{{published}} منتشرشده · {{notStated}} ذکرنشده",
+    "relatedServicesNote": "در قانون آموزش ویژه ([[idea|IDEA]])، گفتاردرمانی، کاردرمانی، فیزیوتراپی و مشاوره «خدمات وابسته» نامیده می‌شوند.",
+    "glossary": {
+      "504": "برنامهٔ 504 تسهیلاتی (وقت اضافه، جای نشستن و مانند آن) را برای دانش‌آموزی فهرست می‌کند که ناتوانی‌اش بر یادگیری اثر می‌گذارد. این برنامه از قانون فدرال حقوق مدنی آمریکا می‌آید.",
+      "iep": "Individualized Education Program: سندی در مدارس دولتی که خدمات و اهداف آموزش ویژه را طبق IDEA تعیین می‌کند.",
+      "idea": "Individuals with Disabilities Education Act: قانون فدرالی که آموزش ویژه را در مدارس دولتی آمریکا تنظیم می‌کند."
+    },
+    "asOf": "پژوهش به‌روز تا {{date}}. برچسب «ذکر نشده» یعنی این مورد در این بررسی در سایت خود مدرسه یافت نشد؛ به این معنا نیست که این خدمت ارائه نمی‌شود."
   },
   "travel": {
     "allDivisions": "همهٔ دوره‌ها",

@@ -41,7 +41,8 @@
     "summer-programs": "Programas de verano",
     "the-arts": "Artes",
     "high-school-placement": "Ubicación en secundaria",
-    "international-travel": "Experiencia internacional"
+    "international-travel": "Experiencia internacional",
+    "learning-support": "Apoyo al aprendizaje y servicios estudiantiles"
   },
   "metrics": {
     "admissions.redesign-research": "Informe de admisiones (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "Histórico de matrícula y fuentes",
     "visual-arts": "Artes visuales",
     "win-loss": "Récords de victorias y derrotas",
-    "international-travel.redesign-research": "Informe de experiencia internacional (2026)"
+    "international-travel.redesign-research": "Informe de experiencia internacional (2026)",
+    "learning-support.redesign-research": "Investigación sobre apoyo al aprendizaje (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "Guía de solicitud grado por grado — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "Guía de solicitud grado por grado — Early School y K · 1–8",
     "the-arts.ladder@charlotte-prep": "El itinerario de artes PreK–8",
-    "the-arts.theatre@charlotte-prep": "Teatro y producciones por nivel de grado"
+    "the-arts.theatre@charlotte-prep": "Teatro y producciones por nivel de grado",
+    "learning-support.eligibility": "¿Pueden atender a mi hijo?",
+    "learning-support.services": "Servicios de un vistazo",
+    "learning-support.therapy": "Terapias y servicios relacionados",
+    "learning-support.testing": "Pruebas y evaluación",
+    "learning-support.staff": "Con quién trabajará",
+    "learning-support.ask": "Pregunte a la escuela"
   },
   "cardLabels": {
     "afternoonRhythm": "El ritmo de la tarde",
@@ -567,6 +575,45 @@
     "next": "Foto siguiente",
     "position": "{{current}} de {{total}}",
     "dialogLabel": "Visor de fotos"
+  },
+  "learning": {
+    "eligible": "Quién es elegible",
+    "plan": "Si llega con un plan",
+    "scope": "Fuera de su alcance",
+    "needPrompt": "¿Qué necesita su hijo?",
+    "needFilterLabel": "Filtrar servicios por necesidad",
+    "need": {
+      "all": "Todos los servicios",
+      "read": "Lectura / dislexia",
+      "attn": "Atención y funciones ejecutivas",
+      "math": "Matemáticas",
+      "speech": "Habla y lenguaje",
+      "motor": "Motricidad / TO",
+      "social": "Socioemocional",
+      "gifted": "Dotados / avanzados"
+    },
+    "code": {
+      "IH": "INTERNO",
+      "IH_FEE": "INTERNO · PAGO",
+      "RF": "DERIVACIÓN",
+      "REQUIRED": "REQUERIDO",
+      "NS": "NO INDICADO",
+      "EXCLUDED": "EXCLUIDO"
+    },
+    "legend": {
+      "IH": "personal de la escuela",
+      "IH_FEE": "de la escuela, con costo además de la matrícula",
+      "RF": "solo derivación",
+      "NS": "no aparece en el sitio de la escuela, lo que no significa que no se ofrezca"
+    },
+    "tally": "{{published}} publicados · {{notStated}} no indicados",
+    "relatedServicesNote": "En la ley de educación especial ([[idea|IDEA]]), la terapia del habla, la terapia ocupacional, la fisioterapia y la consejería se llaman “servicios relacionados”.",
+    "glossary": {
+      "504": "Un plan 504 enumera adaptaciones (tiempo extra, ubicación en el aula, etc.) para un estudiante cuya discapacidad afecta el aprendizaje. Proviene de la ley federal de derechos civiles.",
+      "iep": "Programa de Educación Individualizado: un documento de las escuelas públicas que fija los servicios y objetivos de educación especial según la IDEA.",
+      "idea": "Ley de Educación para Personas con Discapacidades: la ley federal que rige la educación especial en las escuelas públicas."
+    },
+    "asOf": "Investigación actualizada al {{date}}. Una etiqueta NO INDICADO significa que el dato no se encontró en el sitio de la propia escuela durante esta revisión; no significa que el servicio no se ofrezca."
   },
   "travel": {
     "allDivisions": "Todas las divisiones",

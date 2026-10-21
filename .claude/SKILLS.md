@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**8 active** · 0 retired · Last updated **2026-10-13**
+**9 active** · 0 retired · Last updated **2026-10-21**
 
 ---
 
@@ -25,6 +25,7 @@
 | 🎓 | [`nc-admissions-data`](#nc-admissions-data) | Government admit rates per school | ✅ Data only | — |
 | 🎙️ | [`admissions-episode`](#admissions-episode) | One school's admissions → podcast | ❌ Generates files | Single |
 | 🌍 | [`global-exposure`](#global-exposure) | Deep-research prompt → verified Global Exposure plan | ❌ Never | — |
+| 🧩 | [`learning-support`](#learning-support) | Deep-research prompt → go/no-go → Learning Support plan | ❌ Never | — |
 
 ### The main road
 
@@ -37,9 +38,10 @@
                                                         single time
 ```
 
-Three skills feed research **into** that road at any point:
+Four skills feed research **into** that road at any point:
 `nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
-ending in a `/plan` handoff) and `ingest-source-material` (everything else).
+ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
+in a go/no-go and then a `/plan` handoff) and `ingest-source-material` (everything else).
 Two stand alone: `add-school-news` and `admissions-episode`.
 
 ---
@@ -353,6 +355,43 @@ the Source URLs file has not verified.
 ---
 
 <a id="retired-skills"></a>
+
+<a id="learning-support"></a>
+
+## 🧩 `learning-support`
+
+**Get a school's Learning Support & Student Services research from Claude deep research,
+decide whether it is enough for a healthy section, and hand a GO to `/plan`.**
+
+`.claude/skills/learning-support/SKILL.md` · added 2026-10-21 · supporting file:
+`prompt-template.md` (the deep-research prompt, with `{{PLACEHOLDERS}}`)
+
+Built with Hickory Grove Christian's section (plan `learningsupport`), which is the
+standard.
+
+| Step | Trigger | What it does |
+|---|---|---|
+| **1** | No PDF yet | Asks which school, fills the template, hands back the prompt in **one** copy-paste block. Writes nothing. |
+| **2** | The PDF is attached | Verifies every claim against the school's **own** live pages and PDFs (fee schedules rendered as images too), writes `Official Site Research.md`, scores the six cards and the services matrix, and gives a **GO / NO-GO** with counts. |
+| **3** | GO | Invokes `/plan` with the brief. |
+| **4** | — | The usual `/implement`. |
+
+> **🔒 Official school sources only** (user rule, 2026-10-20). No third-party page is
+> evidence of a school service, and no state-funding or public-district content renders.
+
+> **📏 The GO bar is computed from Hickory Grove's data file at run time:** a named
+> program page, ≥2 of 3 eligibility cells, ≥ half Hickory Grove's published service
+> rows, and a named staff member or a published fee. A deeper pass is offered before any
+> NO-GO.
+
+> **⚠️ Programs get renamed.** Hickory Grove's "SCA" URL 404ed because the program had
+> become "Educational Support Services". A 404 sends the skill to the site's own
+> navigation, never to a "not published" finding.
+
+**Deliberately cannot:** run the deep research itself, edit app code, use third-party
+evidence, or add a card without the user's approval.
+
+---
 
 ## 🪦 Retired skills
 

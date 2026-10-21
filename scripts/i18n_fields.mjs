@@ -760,6 +760,47 @@ export const PATH_OVERRIDES = new Map([
   // each tour question ("Starting grade.") — prose.
   ['verdict.ask[].topic', true],
   ['verdict.ask[].question', true],
+
+  /* ------------------------------------------------ learning support -- */
+
+  // Hickory Grove only (2026-10-20). Path-scoped like the travel block above.
+  // The eligibility cells and the per-need verdicts are prose; the
+  // `[[504|…]]` glossary markers inside them are kept verbatim by the
+  // translator (only the text after the bar moves).
+  ['eligibility.eligible', true],
+  ['eligibility.plan', true],
+  ['eligibility.scope', true],
+  ['services.verdicts.read.head', true],
+  ['services.verdicts.attn.head', true],
+  ['services.verdicts.math.head', true],
+  ['services.verdicts.speech.head', true],
+  ['services.verdicts.motor.head', true],
+  ['services.verdicts.social.head', true],
+  ['services.verdicts.gifted.head', true],
+  // Service names and group names are phrases ("Reading intervention",
+  // "Wellness & health") — prose, though `name` is a proper-noun skip by
+  // default. The same holds for the therapy strip's "Speech-language".
+  ['services.groups[].name', true],
+  ['services.groups[].rows[].service', true],
+  ['therapy.items[].name', true],
+  // Delivery codes and need ids are filter / chip values mapped to chrome
+  // (learning.code.*, learning.need.*). Skipped, or the filter breaks.
+  ['services.groups[].rows[].code', false],
+  ['services.groups[].rows[].needs[]', false],
+  ['therapy.items[].code', false],
+  ['testing.entries[].code', false],
+  ['testing.entries[].muted', true],
+  ['staff.note.strong', true],
+  ['staff.note.muted', true],
+  // A staff member's own name is kept, like every person's name in the app;
+  // the role is a job title phrase and moves.
+  ['staff.people[].name', false],
+  ['staff.people[].role', true],
+  // A date ("October 20, 2026") — extracted so it translates (check:dates).
+  ['ask.asOf', true],
+  // The section's colours — hex values.
+  ['colors.brand', false],
+  ['colors.gold', false],
 ])
 
 /**

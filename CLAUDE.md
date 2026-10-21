@@ -223,6 +223,26 @@ reads first.
 
 See [`.claude/skills/nc-admissions-data/SKILL.md`](.claude/skills/nc-admissions-data/SKILL.md).
 
+### Learning Support research area — `/learning-support`
+
+**Learning Support & Student Services** (slug `learning-support`) is a six-card research
+area added 2026-10-20 from a Claude Design handoff, with **Hickory Grove Christian** as its
+first school and its standard. `/learning-support` builds it for another school in four
+steps: a deep-research prompt for the user to run in Claude deep research → the PDF is
+verified against the school's **own** pages and scored **GO / NO-GO** against Hickory
+Grove → `/plan` → `/implement`.
+
+Four rules travel with the area. **Official school sources only**: no third-party page is
+evidence of a school service. **This school only**: no comparisons, no state-funding (ESA+
+/ Opportunity Scholarship) content, no public-district evaluation route. **An unpublished
+service is a dashed NOT STATED chip, never a blank**, because blank reads as "not
+offered". **It is off Compare** (`COMPARE_DEFERRED_TOPICS`) until the user asks for it. The
+section takes each school's own two colours from its data file (`colors.brand` /
+`colors.gold`).
+
+See [`.claude/skills/learning-support/SKILL.md`](.claude/skills/learning-support/SKILL.md)
+and [`src/data/learningSupport/README.md`](src/data/learningSupport/README.md).
+
 ## Podcast episode standard (required)
 
 Every NotebookLM prompt written for an episode of *Charlotte Private School Conversations*,

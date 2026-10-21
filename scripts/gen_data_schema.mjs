@@ -233,6 +233,8 @@ const STRUCTURED = [
   // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts); its stat
   // strip is the topic's own data, never VALUE_METRICS. Providence Day only.
   { topic: 'international-travel', file: 'internationalTravel.ts', reg: 'INTERNATIONAL_TRAVEL_CARDS', root: 'InternationalTravelProgram', dir: 'internationalTravel' },
+  // Also kept off Compare by COMPARE_DEFERRED_TOPICS; Hickory Grove only.
+  { topic: 'learning-support', file: 'learningSupport.ts', reg: 'LEARNING_SUPPORT_CARDS', root: 'LearningSupportProgram', dir: 'learningSupport' },
 ]
 
 for (const s of STRUCTURED) {
