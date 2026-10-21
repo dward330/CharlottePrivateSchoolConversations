@@ -43,10 +43,6 @@ const COUNSELING: Source = {
   label: 'hgchristian.org — College and Career Planning',
   url: 'https://www.hgchristian.org/academics/high-school/college-and-career-planning',
 }
-const CAREERS: Source = {
-  label: 'hgchristian.org — Employment Opportunities',
-  url: 'https://www.hgchristian.org/about-us/employment-opportunities',
-}
 const CHECKLIST_ES: Source = {
   label: 'hgchristian.org — Elementary admissions checklist (PDF)',
   url: 'https://www.hgchristian.org/fs/resource-manager/view/adf10069-819d-4420-83c4-ebba8281c071',
@@ -308,7 +304,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
   },
 
   staff: {
-    headline: 'Nine named Student Services staff, led by an Administrator for Student Services and a Director of Educational Support Services. The program is hiring.',
+    headline: 'Nine named Student Services staff, led by an Administrator for Student Services and a Director of Educational Support Services.',
     people: [
       { name: 'Dr. Mildred Similton', role: 'Administrator for Student Services' },
       { name: 'Rachel Vaughn', role: 'Director of Educational Support Services' },
@@ -320,11 +316,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       { name: 'Kim Staples', role: 'Academic Coaching & Tutorial Support' },
       { name: 'Belinda Jackson', role: 'Academic Coaching & Tutorial Support' },
     ],
-    note: {
-      strong: 'Hiring now.',
-      muted: 'The careers page lists a full-time Special Education Teacher reporting to the Director of Educational Support Services. The role asks for special education training or certification and MTSS experience; its listed start date, July 30, 2026, has passed.',
-    },
-    sources: [ESS, CAREERS],
+    sources: [ESS],
   },
 
   ask: {
