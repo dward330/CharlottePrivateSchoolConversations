@@ -88,8 +88,6 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       '“All students who enroll with a [[504|Section 504 Plan]], an [[iep|Individual Education Plan (IEP)]], or an academic accommodations plan from a previous school may be enrolled under the umbrella of Educational Support Services.”',
     scope:
       '“Currently, our specialization does not extend to providing emotional and behavioral interventions, as our staff is best equipped to provide academic interventions.”',
-    note:
-      'The Student Services page also describes a learning environment that “supports academically gifted students alongside students who require specialized academic support.”',
     sources: [ESS, HUB],
   },
 
