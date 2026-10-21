@@ -63,7 +63,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
     strong:
       'Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.',
     muted:
-      'Every service is fee-based under an annual contract. The school says its specialization does not extend to emotional and behavioral interventions, and no speech, occupational or physical therapy is listed on its site.',
+      'Every service is fee-based under an annual contract.',
   },
   stats: [
     { value: 'K–12', label: 'served by ESS', note: 'kindergarten (K5) through 12th grade, per the 2026–27 fee schedule' },
