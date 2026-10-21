@@ -1,0 +1,849 @@
+{
+  "topic": "learning-support",
+  "lang": "fa",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
+      "of": "f699e911",
+      "at": [
+        "hickory-grove-christian:lead.strong"
+      ],
+      "t": "Educational Support Services (ESS) چارچوبی است که دانش‌آموزان در آن پشتیبانی آموزشیِ فردی دریافت می‌کنند: مربی‌گری تحصیلی، تدریس خصوصی، تسهیلات یادگیری و پشتیبانی تخصصی برای دانش‌آموزانی که تفاوت‌های یادگیریِ شناسایی‌شده دارند."
+    },
+    {
+      "text": "Every service is fee-based under an annual contract.",
+      "of": "658e692f",
+      "at": [
+        "hickory-grove-christian:lead.muted"
+      ],
+      "t": "هر خدمت هزینهٔ جداگانه دارد و با قرارداد سالانه ارائه می‌شود."
+    },
+    {
+      "text": "served by ESS",
+      "of": "e51fef74",
+      "at": [
+        "hickory-grove-christian:stats[0].label"
+      ],
+      "t": "تحت پوشش ESS"
+    },
+    {
+      "text": "kindergarten (K5) through 12th grade, per the 2026–27 fee schedule",
+      "of": "b940b8e2",
+      "at": [
+        "hickory-grove-christian:stats[0].note"
+      ],
+      "t": "از کودکستان (K5) تا پایهٔ دوازدهم، طبق جدول هزینه‌های 2026–27"
+    },
+    {
+      "text": "named Student Services staff",
+      "of": "9c3c43e9",
+      "at": [
+        "hickory-grove-christian:stats[1].label"
+      ],
+      "t": "کارکنان نام‌برده‌شدهٔ Student Services"
+    },
+    {
+      "text": "including two ESS teachers and two academic coaches",
+      "of": "739dff92",
+      "at": [
+        "hickory-grove-christian:stats[1].note"
+      ],
+      "t": "از جمله دو معلم ESS و دو مربی تحصیلی"
+    },
+    {
+      "text": "per year, beyond tuition",
+      "of": "c303f0f2",
+      "at": [
+        "hickory-grove-christian:stats[2].label"
+      ],
+      "t": "در سال، علاوه بر شهریه"
+    },
+    {
+      "text": "case management alone; instruction runs up to $4,455",
+      "of": "5f57a6da",
+      "at": [
+        "hickory-grove-christian:stats[2].note"
+      ],
+      "t": "فقط برای مدیریت پرونده؛ هزینهٔ آموزش تا $4,455 می‌رسد"
+    },
+    {
+      "text": "ESS serves students with identified learning differences, including any student who arrives with a 504, an IEP or a prior school’s accommodations plan. Emotional and behavioral intervention is outside its scope.",
+      "of": "b3c87fe0",
+      "at": [
+        "hickory-grove-christian:eligibility.headline"
+      ],
+      "t": "ESS به دانش‌آموزانی که تفاوت‌های یادگیریِ شناسایی‌شده دارند خدمت می‌دهد، از جمله هر دانش‌آموزی که با برنامهٔ 504، یک IEP یا برنامهٔ تسهیلات مدرسهٔ قبلی می‌آید. مداخلهٔ عاطفی و رفتاری در حوزهٔ کار آن نیست."
+    },
+    {
+      "text": "ESS is open to students with documented needs.",
+      "of": "a59703fa",
+      "at": [
+        "hickory-grove-christian:eligibility.intro.strong"
+      ],
+      "t": "ESS برای دانش‌آموزانی است که نیازهایشان مستند شده است."
+    },
+    {
+      "text": "Eligibility is often the fact that decides it for a family, so it comes first.",
+      "of": "b17b06ea",
+      "at": [
+        "hickory-grove-christian:eligibility.intro.muted"
+      ],
+      "t": "واجد شرایط بودن اغلب همان چیزی است که تصمیم خانواده را تعیین می‌کند، پس اول می‌آید."
+    },
+    {
+      "text": "Students with “identified learning differences.” Families are encouraged to share “any documents that describe their students’ learning needs or diagnoses” when they begin the admissions process. The school does not say what documentation it accepts or how recent it must be.",
+      "of": "82e5fecb",
+      "at": [
+        "hickory-grove-christian:eligibility.eligible"
+      ],
+      "t": "دانش‌آموزانی با «تفاوت‌های یادگیریِ شناسایی‌شده». از خانواده‌ها خواسته می‌شود هنگام شروع فرایند پذیرش «هر مدرکی را که نیازهای یادگیری فرزندشان یا تشخیص‌هایی را که ممکن است بر یادگیری اثر بگذارد شرح می‌دهد» ارائه کنند. مدرسه نمی‌گوید چه مدارکی را می‌پذیرد یا این مدارک باید تا چه حد تازه باشند."
+    },
+    {
+      "text": "“All students who enroll with a [[504|Section 504 Plan]], an [[iep|Individual Education Plan (IEP)]], or an academic accommodations plan from a previous school may be enrolled under the umbrella of Educational Support Services.”",
+      "of": "2d82d5b6",
+      "at": [
+        "hickory-grove-christian:eligibility.plan"
+      ],
+      "t": "«همهٔ دانش‌آموزانی که با یک [[504|Section 504 Plan]]، یک [[iep|Individual Education Plan (IEP)]] یا برنامهٔ تسهیلات آموزشی از مدرسهٔ قبلی ثبت‌نام می‌کنند، می‌توانند زیر چتر Educational Support Services ثبت‌نام شوند.»"
+    },
+    {
+      "text": "“Currently, our specialization does not extend to providing emotional and behavioral interventions, as our staff is best equipped to provide academic interventions.”",
+      "of": "3a359846",
+      "at": [
+        "hickory-grove-christian:eligibility.scope"
+      ],
+      "t": "«در حال حاضر، تخصص ما به ارائهٔ مداخلات عاطفی و رفتاری نمی‌رسد، چون کارکنان ما برای ارائهٔ مداخلات آموزشی بهترین آمادگی را دارند.»"
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it, with the published 2026–27 fee. Pick your child’s need to see what applies.",
+      "of": "7bd92a8c",
+      "at": [
+        "hickory-grove-christian:services.headline"
+      ],
+      "t": "هر خدمتی که صفحه‌های مدرسه شرح می‌دهند، گروه‌بندی‌شده و کدگذاری‌شده بر اساس اینکه چه کسی آن را ارائه می‌دهد، همراه با هزینهٔ منتشرشدهٔ 2026–27. نیاز فرزندتان را انتخاب کنید تا ببینید چه چیزی مربوط است."
+    },
+    {
+      "text": "Specialized teachers and paid 1:1 or small-group instruction. No reading method is named.",
+      "of": "5189ca57",
+      "at": [
+        "hickory-grove-christian:services.verdicts.read.head"
+      ],
+      "t": "معلمان متخصص و آموزش پولیِ 1:1 یا گروه کوچک. هیچ روشی برای خواندن نام برده نشده است."
+    },
+    {
+      "text": "ESS teachers “have specialized training”; K5–8 pull-out or push-in instruction is billed by sessions per week. Ask which reading approach ESS teachers use.",
+      "of": "01f62032",
+      "at": [
+        "hickory-grove-christian:services.verdicts.read.body"
+      ],
+      "t": "معلمان ESS «آموزش تخصصی دیده‌اند»؛ آموزش بیرون از کلاس یا داخل کلاس برای K5–8 بر اساس تعداد جلسه‌ها در هفته محاسبه می‌شود. بپرسید معلمان ESS از چه رویکردی برای آموزش خواندن استفاده می‌کنند."
+    },
+    {
+      "text": "Executive-function coaching and accommodations are offered.",
+      "of": "8a842f05",
+      "at": [
+        "hickory-grove-christian:services.verdicts.attn.head"
+      ],
+      "t": "مربی‌گری کارکردهای اجرایی و تسهیلات ارائه می‌شود."
+    },
+    {
+      "text": "ESS names organizational skills, self-advocacy and “other executive functioning skills,” and high school Academic Coaching runs up to 3 hours a week. Behavioral intervention is outside its scope.",
+      "of": "4655ce6b",
+      "at": [
+        "hickory-grove-christian:services.verdicts.attn.body"
+      ],
+      "t": "ESS از مهارت‌های سازمان‌دهی، توانایی دفاع از نیازهای خود و «سایر مهارت‌های کارکرد اجرایی» نام می‌برد، و Academic Coaching دبیرستان تا 3 ساعت در هفته است. مداخلهٔ رفتاری در حوزهٔ کار آن نیست."
+    },
+    {
+      "text": "Specialized teachers and tutoring. No math-specific intervention is named.",
+      "of": "f0966774",
+      "at": [
+        "hickory-grove-christian:services.verdicts.math.head"
+      ],
+      "t": "معلمان متخصص و تدریس خصوصی. هیچ مداخلهٔ ویژهٔ ریاضی نام برده نشده است."
+    },
+    {
+      "text": "Math falls under ESS’s general academic support and 1:1 or small-group instruction. The school does not describe a math program of its own.",
+      "of": "e190883f",
+      "at": [
+        "hickory-grove-christian:services.verdicts.math.body"
+      ],
+      "t": "ریاضی زیر پشتیبانی آموزشی عمومی ESS و آموزش 1:1 یا گروه کوچک قرار می‌گیرد. مدرسه برنامهٔ ریاضی جداگانه‌ای شرح نمی‌دهد."
+    },
+    {
+      "text": "Not published. Plan on an outside provider.",
+      "of": "59549707",
+      "at": [
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ],
+      "t": "منتشر نشده است. روی یک ارائه‌دهندهٔ بیرونی حساب کنید."
+    },
+    {
+      "text": "The school’s site lists no speech-language therapy.",
+      "of": "e4312a0f",
+      "at": [
+        "hickory-grove-christian:services.verdicts.speech.body"
+      ],
+      "t": "سایت مدرسه هیچ گفتاردرمانی‌ای را ذکر نمی‌کند."
+    },
+    {
+      "text": "Neither occupational nor physical therapy appears on the school’s site.",
+      "of": "97fecae0",
+      "at": [
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ],
+      "t": "نه کاردرمانی و نه فیزیوتراپی در سایت مدرسه دیده نمی‌شود."
+    },
+    {
+      "text": "Faith-based counsel and peer support, but no emotional or behavioral intervention.",
+      "of": "4adc1c0d",
+      "at": [
+        "hickory-grove-christian:services.verdicts.social.head"
+      ],
+      "t": "مشاورهٔ مبتنی بر ایمان و حمایت همسالان، اما بدون مداخلهٔ عاطفی یا رفتاری."
+    },
+    {
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups,” while ESS says its staff “is best equipped to provide academic interventions.”",
+      "of": "f19a7f55",
+      "at": [
+        "hickory-grove-christian:services.verdicts.social.body"
+      ],
+      "t": "تیم سلامت روان «مشاورهٔ کتاب‌مقدسی از راه مربی‌گری و شاگردسازی، گروه‌های حمایت همسالان» ارائه می‌دهد، در حالی که ESS می‌گوید کارکنانش «برای ارائهٔ مداخلات آموزشی بهترین آمادگی را دارند»."
+    },
+    {
+      "text": "Gifted students are named on the Student Services page.",
+      "of": "2e398401",
+      "at": [
+        "hickory-grove-christian:services.verdicts.gifted.head"
+      ],
+      "t": "صفحهٔ Student Services از دانش‌آموزان تیزهوش نام می‌برد."
+    },
+    {
+      "text": "It describes support for “academically gifted students alongside students who require specialized academic support.” No program detail is published.",
+      "of": "6b8155eb",
+      "at": [
+        "hickory-grove-christian:services.verdicts.gifted.body"
+      ],
+      "t": "این صفحه از پشتیبانی «دانش‌آموزان تیزهوش در کنار دانش‌آموزانی که به پشتیبانی آموزشی تخصصی نیاز دارند» سخن می‌گوید. جزئیاتی از برنامه منتشر نشده است."
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "پشتیبانی یادگیری و تحصیلی"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "معلمان متخصص"
+    },
+    {
+      "text": "“ESS teachers and academic coaches/tutors have specialized training.” Two ESS teachers and two teacher assistants are named.",
+      "of": "bdb06ce6",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[0].detail"
+      ],
+      "t": "«معلمان ESS و مربیان/مدرسان تحصیلی آن آموزش تخصصی دیده‌اند.» نام دو معلم ESS و دو دستیار معلم آمده است."
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "مداخله در خواندن"
+    },
+    {
+      "text": "No named method (e.g., Orton-Gillingham, structured literacy).",
+      "of": "2f135778",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[1].detail"
+      ],
+      "t": "هیچ روشی نام برده نشده است (برای مثال Orton-Gillingham، سوادآموزی ساختارمند)."
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "مداخله در ریاضی"
+    },
+    {
+      "text": "No math-specific intervention described.",
+      "of": "9c2ed21f",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[2].detail"
+      ],
+      "t": "هیچ مداخلهٔ ویژهٔ ریاضی شرح داده نشده است."
+    },
+    {
+      "text": "1:1 / small-group instruction (K5–8)",
+      "of": "1f3a8845",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[3].service"
+      ],
+      "t": "آموزش 1:1 / گروه کوچک (K5–8)"
+    },
+    {
+      "text": "Pull-out or push-in, 1 to 5 sessions a week: $1,892 to $4,414 a year, including case management and testing.",
+      "of": "366db7b2",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[3].detail"
+      ],
+      "t": "بیرون از کلاس یا داخل کلاس، 1 تا 5 جلسه در هفته: سالانه $1,892 تا $4,414، شامل مدیریت پرونده و آزمون."
+    },
+    {
+      "text": "Academic Flex sessions (9–12)",
+      "of": "9c704a8c",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[4].service"
+      ],
+      "t": "جلسه‌های Academic Flex (9–12)"
+    },
+    {
+      "text": "1–2 sessions, up to 60 minutes weekly: $1,806 a year, or $903 a semester.",
+      "of": "f1efa0b7",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[4].detail"
+      ],
+      "t": "1 تا 2 جلسه، تا 60 دقیقه در هفته: سالانه $1,806، یا $903 برای هر نیم‌سال."
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "مربی‌گری کارکردهای اجرایی"
+    },
+    {
+      "text": "ESS promotes “self-advocacy, organizational skills, personal responsibility, and other executive functioning skills.” High school Academic Coaching, up to 3 hours weekly: $2,227 a year, or $1,113 a semester.",
+      "of": "ce6686ad",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[5].detail"
+      ],
+      "t": "ESS «توانایی دفاع از نیازهای خود، مهارت‌های سازمان‌دهی، مسئولیت‌پذیری فردی و سایر مهارت‌های کارکرد اجرایی» را تقویت می‌کند. Academic Coaching در دبیرستان، تا 3 ساعت در هفته: سالانه $2,227، یا $1,113 برای هر نیم‌سال."
+    },
+    {
+      "text": "HS Instructional Support Class",
+      "of": "c8d0679a",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[6].service"
+      ],
+      "t": "HS Instructional Support Class"
+    },
+    {
+      "text": "5 class periods weekly, scheduled per semester: $4,455 a year.",
+      "of": "b070b1ed",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[6].detail"
+      ],
+      "t": "5 جلسهٔ درسی در هفته، برنامه‌ریزی‌شده برای هر نیم‌سال: سالانه $4,455."
+    },
+    {
+      "text": "Accommodations & case management",
+      "of": "cacf238d",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[7].service"
+      ],
+      "t": "تسهیلات و مدیریت پرونده"
+    },
+    {
+      "text": "An HGCS Accommodations Plan built from educational testing or a prior 504/IEP, with an annual review with teachers and parents: $300 a year. Accommodations happen in the primary classroom.",
+      "of": "52557dca",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[7].detail"
+      ],
+      "t": "یک HGCS Accommodations Plan که بر پایهٔ آزمون‌های آموزشی یا 504/IEP قبلی تهیه می‌شود، همراه با بازبینی سالانه با معلمان و والدین: سالانه $300. تسهیلات در کلاس اصلی اجرا می‌شود."
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "آموزش ویژه‌طراحی‌شده"
+    },
+    {
+      "text": "“Applied Interventions/Specially Designed Instruction,” added to a plan based on “professional diagnosis, teacher feedback, specialist observations”: $1,500 to $2,000 a year.",
+      "of": "36b0de5d",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[8].detail"
+      ],
+      "t": "«Applied Interventions/Specially Designed Instruction» که بر پایهٔ «تشخیص حرفه‌ای، بازخورد معلمان، مشاهدات متخصصان» به برنامه افزوده می‌شود: سالانه $1,500 تا $2,000."
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "برنامهٔ مستقل / کلاس جداگانه"
+    },
+    {
+      "text": "No separate classroom or program described.",
+      "of": "e2b3d57c",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[9].detail"
+      ],
+      "t": "هیچ کلاس یا برنامهٔ جداگانه‌ای شرح داده نشده است."
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "تیزهوش / سطح پیشرفته"
+    },
+    {
+      "text": "Named on the Student Services page; no program detail.",
+      "of": "9fe62351",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[10].detail"
+      ],
+      "t": "در صفحهٔ Student Services نام برده شده است؛ جزئیاتی از برنامه نیست."
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "مدارک لازم برای واجد شرایط بودن"
+    },
+    {
+      "text": "Admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable.",
+      "of": "2459db35",
+      "at": [
+        "hickory-grove-christian:services.groups[0].rows[11].detail"
+      ],
+      "t": "فهرست‌های مدارک پذیرش در صورت لزوم «نتایج آزمون‌های آموزشی/تشخیصی، IEP/504 فعلی» را می‌خواهند."
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "درمان‌ها و خدمات وابسته"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "گفتاردرمانی"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "مدرسه آن را ذکر نکرده است."
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "کاردرمانی"
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "فیزیوتراپی"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "ارزیابی"
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "تسهیلات آزمون"
+    },
+    {
+      "text": "Approved pull-out or push-in testing: $370 a year for 1 subject, $760 for 2, $1,200 for 3 or more.",
+      "of": "abc72bd6",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[0].detail"
+      ],
+      "t": "آزمون‌های تأییدشده بیرون از کلاس یا داخل کلاس: سالانه $370 برای 1 درس، $760 برای 2، $1,200 برای 3 درس یا بیشتر."
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ],
+      "t": "آزمون ورودی"
+    },
+    {
+      "text": "Scheduled through the Student Services office once admissions has every required form.",
+      "of": "381205a8",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[1].detail"
+      ],
+      "t": "پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد، دفتر Student Services زمان آن را تعیین می‌کند."
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "ارزیابی روانی‌آموزشی"
+    },
+    {
+      "text": "“We assist families in connecting with educational testing providers, as needed.”",
+      "of": "fc7086aa",
+      "at": [
+        "hickory-grove-christian:services.groups[2].rows[2].detail",
+        "hickory-grove-christian:testing.entries[0].text"
+      ],
+      "t": "«در صورت نیاز، به خانواده‌ها کمک می‌کنیم با ارائه‌دهندگان آزمون‌های آموزشی ارتباط بگیرند.»"
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "سلامت روان و جسم"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "مشاوره و حمایت عاطفی"
+    },
+    {
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling.",
+      "of": "e91e1968",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[0].detail"
+      ],
+      "t": "تیم سلامت روان «مشاورهٔ کتاب‌مقدسی از راه مربی‌گری و شاگردسازی، گروه‌های حمایت همسالان» ارائه می‌دهد. دبیرستان یک مدیر مشاوره (Director of Counseling) دارد."
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "مداخلهٔ عاطفی و رفتاری"
+    },
+    {
+      "text": "Outside ESS’s specialization, per the school.",
+      "of": "4c727284",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[1].detail"
+      ],
+      "t": "به گفتهٔ مدرسه، بیرون از حوزهٔ تخصص ESS."
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "منابع کمک در بحران"
+    },
+    {
+      "text": "A Mental Health & Crisis Resources page lists the 988 Suicide & Crisis Lifeline and the NC Peer Warmline.",
+      "of": "91495fc0",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[2].detail"
+      ],
+      "t": "صفحهٔ Mental Health & Crisis Resources خط 988 Suicide & Crisis Lifeline و NC Peer Warmline را معرفی می‌کند."
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "روان‌شناس مدرسه"
+    },
+    {
+      "text": "None named.",
+      "of": "59c2d1bc",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ],
+      "t": "نام کسی ذکر نشده است."
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "پرستار مدرسه"
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "زبان"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / پشتیبانی زبان انگلیسی"
+    },
+    {
+      "text": "International applicants submit TOEFL Jr. or SLEP scores; no English-language support is described.",
+      "of": "ecd14f43",
+      "at": [
+        "hickory-grove-christian:services.groups[4].rows[0].detail"
+      ],
+      "t": "متقاضیان بین‌المللی نمرهٔ TOEFL Jr. یا SLEP ارائه می‌دهند؛ هیچ پشتیبانی زبان انگلیسی‌ای شرح داده نشده است."
+    },
+    {
+      "text": "The school’s site lists no speech-language, occupational or physical therapy during the school day.",
+      "of": "5d8ec697",
+      "at": [
+        "hickory-grove-christian:therapy.headline"
+      ],
+      "t": "سایت مدرسه هیچ گفتاردرمانی، کاردرمانی یا فیزیوتراپی‌ای را در طول ساعات مدرسه ذکر نمی‌کند."
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "گفتار و زبان"
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "کاردرمانی"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "فیزیوتراپی"
+    },
+    {
+      "text": "The school’s Educational Support Services, Student Services and Wellness pages name no therapist on staff. Ask whether an outside therapist can see your child on campus.",
+      "of": "038bf604",
+      "at": [
+        "hickory-grove-christian:therapy.note"
+      ],
+      "t": "صفحه‌های Educational Support Services، Student Services و Wellness مدرسه از هیچ درمانگری در میان کارکنان نام نمی‌برند. بپرسید آیا یک درمانگر بیرونی می‌تواند فرزندتان را در محوطهٔ مدرسه ببیند."
+    },
+    {
+      "text": "The school doesn’t run diagnostic testing in-house. It connects families with outside providers and asks for existing results at admission.",
+      "of": "7defa156",
+      "at": [
+        "hickory-grove-christian:testing.headline"
+      ],
+      "t": "مدرسه خودش آزمون تشخیصی انجام نمی‌دهد. خانواده‌ها را به ارائه‌دهندگان بیرونی وصل می‌کند و هنگام پذیرش نتایج موجود را می‌خواهد."
+    },
+    {
+      "text": "Referral to private testing",
+      "of": "3967ae1e",
+      "at": [
+        "hickory-grove-christian:testing.entries[0].title"
+      ],
+      "t": "ارجاع به آزمون خصوصی"
+    },
+    {
+      "text": "The school does not name providers or say what age or type of testing it accepts.",
+      "of": "146be8b8",
+      "at": [
+        "hickory-grove-christian:testing.entries[0].muted"
+      ],
+      "t": "مدرسه نام هیچ ارائه‌دهنده‌ای را نمی‌آورد و نمی‌گوید آزمون‌ها باید تا چه حد تازه یا از چه نوعی باشند."
+    },
+    {
+      "text": "Results at admission",
+      "of": "3a1f1e0b",
+      "at": [
+        "hickory-grove-christian:testing.entries[1].title"
+      ],
+      "t": "نتایج هنگام پذیرش"
+    },
+    {
+      "text": "Both admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable, and the final decision includes a “Review of IEP/504/Psychoeducational Evaluation.”",
+      "of": "a2fb0e5c",
+      "at": [
+        "hickory-grove-christian:testing.entries[1].text"
+      ],
+      "t": "هر دو فهرست مدارک پذیرش در صورت لزوم «نتایج آزمون‌های آموزشی/تشخیصی، IEP/504 فعلی» را می‌خواهند، و تصمیم نهایی شامل «بازبینی IEP/504/ارزیابی روانی‌آموزشی» است."
+    },
+    {
+      "text": "Testing for admission is scheduled through the Student Services office after the admissions office receives every required form.",
+      "of": "926d60f8",
+      "at": [
+        "hickory-grove-christian:testing.entries[2].text"
+      ],
+      "t": "پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد، دفتر Student Services زمان آزمون پذیرش را تعیین می‌کند."
+    },
+    {
+      "text": "Nine named Student Services staff, led by an Administrator for Student Services and a Director of Educational Support Services.",
+      "of": "89d62a7a",
+      "at": [
+        "hickory-grove-christian:staff.headline"
+      ],
+      "t": "نُه نفر از کارکنان نام‌برده‌شدهٔ Student Services، به سرپرستی مدیر اجرایی Student Services و مدیر Educational Support Services."
+    },
+    {
+      "text": "Administrator for Student Services",
+      "of": "f747063e",
+      "at": [
+        "hickory-grove-christian:staff.people[0].role"
+      ],
+      "t": "مدیر اجرایی Student Services"
+    },
+    {
+      "text": "Director of Educational Support Services",
+      "of": "a5df40b2",
+      "at": [
+        "hickory-grove-christian:staff.people[1].role"
+      ],
+      "t": "مدیر Educational Support Services"
+    },
+    {
+      "text": "Student Services Administrative Assistant",
+      "of": "6dec95ee",
+      "at": [
+        "hickory-grove-christian:staff.people[2].role"
+      ],
+      "t": "دستیار اداری Student Services"
+    },
+    {
+      "text": "Educational Support Services Teacher",
+      "of": "63a4e21b",
+      "at": [
+        "hickory-grove-christian:staff.people[3].role",
+        "hickory-grove-christian:staff.people[4].role"
+      ],
+      "t": "معلم Educational Support Services"
+    },
+    {
+      "text": "Educational Support Services Teacher Assistant",
+      "of": "946aa7b3",
+      "at": [
+        "hickory-grove-christian:staff.people[5].role",
+        "hickory-grove-christian:staff.people[6].role"
+      ],
+      "t": "دستیار معلم Educational Support Services"
+    },
+    {
+      "text": "Academic Coaching & Tutorial Support",
+      "of": "0f323a5f",
+      "at": [
+        "hickory-grove-christian:staff.people[7].role",
+        "hickory-grove-christian:staff.people[8].role"
+      ],
+      "t": "مربی‌گری تحصیلی و پشتیبانی تدریس خصوصی"
+    },
+    {
+      "text": "Six questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, therapy and health staff.",
+      "of": "bea66fc4",
+      "at": [
+        "hickory-grove-christian:ask.headline"
+      ],
+      "t": "شش پرسش برای بازدید از مدرسه، دربارهٔ آنچه سایت مدرسه بی‌پاسخ می‌گذارد: روش‌ها، هزینه‌ها، مدارک، درمان‌ها و کارکنان بهداشت."
+    },
+    {
+      "text": "Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
+      "of": "34c7aff4",
+      "at": [
+        "hickory-grove-christian:ask.questions[0]"
+      ],
+      "t": "معلمان ESS از چه روش‌هایی برای خواندن و ریاضی استفاده می‌کنند (برای مثال Orton-Gillingham، Wilson، سوادآموزی ساختارمند)؟"
+    },
+    {
+      "text": "The 2026–27 fee schedule lists the HS Instructional Support Class at $4,455 a year and again at $2,227 “/year.” Is $2,227 the per-semester price?",
+      "of": "1e07d6f3",
+      "at": [
+        "hickory-grove-christian:ask.questions[1]"
+      ],
+      "t": "جدول هزینه‌های 2026–27 هزینهٔ HS Instructional Support Class را سالانه $4,455 و بار دیگر $2,227 «/year» آورده است. آیا $2,227 قیمت هر نیم‌سال است؟"
+    },
+    {
+      "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
+      "of": "d947979e",
+      "at": [
+        "hickory-grove-christian:ask.questions[2]"
+      ],
+      "t": "چه مدارکی «تفاوت یادگیریِ شناسایی‌شده» به حساب می‌آید، و آزمون‌ها باید تا چه حد تازه باشند؟"
+    },
+    {
+      "text": "Can an outside speech or occupational therapist see my child on campus during the school day?",
+      "of": "8b9ea4ec",
+      "at": [
+        "hickory-grove-christian:ask.questions[3]"
+      ],
+      "t": "آیا یک گفتاردرمانگر یا کاردرمانگر بیرونی می‌تواند در طول ساعات مدرسه فرزندم را در محوطهٔ مدرسه ببیند؟"
+    },
+    {
+      "text": "Which interventions does the $1,500–$2,000 “Applied Interventions/Specially Designed Instruction” add-on cover, and who delivers them?",
+      "of": "55d99705",
+      "at": [
+        "hickory-grove-christian:ask.questions[4]"
+      ],
+      "t": "خدمت افزودهٔ «Applied Interventions/Specially Designed Instruction» به مبلغ $1,500 تا $2,000 چه مداخلاتی را پوشش می‌دهد، و چه کسی آن‌ها را ارائه می‌کند؟"
+    },
+    {
+      "text": "Is there a school nurse or school psychologist on staff?",
+      "of": "3adafb9c",
+      "at": [
+        "hickory-grove-christian:ask.questions[5]"
+      ],
+      "t": "آیا مدرسه پرستار یا روان‌شناس مدرسه در میان کارکنانش دارد؟"
+    },
+    {
+      "text": "October 20, 2026",
+      "of": "4d0c56fd",
+      "at": [
+        "hickory-grove-christian:ask.asOf"
+      ],
+      "t": "20 اکتبر 2026"
+    }
+  ]
+}

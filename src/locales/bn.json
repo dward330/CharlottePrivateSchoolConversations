@@ -41,7 +41,8 @@
     "summer-programs": "গ্রীষ্মকালীন কার্যক্রম",
     "the-arts": "আর্টস",
     "high-school-placement": "হাই স্কুল প্লেসমেন্ট",
-    "international-travel": "বৈশ্বিক অভিজ্ঞতা"
+    "international-travel": "বৈশ্বিক অভিজ্ঞতা",
+    "learning-support": "শেখায় সহায়তা ও শিক্ষার্থী সেবা"
   },
   "metrics": {
     "admissions.redesign-research": "ভর্তি বিষয়ক গবেষণা নথি (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "টিউশনের ইতিহাস ও উৎস",
     "visual-arts": "দৃশ্যকলা",
     "win-loss": "জয়–পরাজয়ের রেকর্ড",
-    "international-travel.redesign-research": "বৈশ্বিক অভিজ্ঞতা গবেষণা নথি (2026)"
+    "international-travel.redesign-research": "বৈশ্বিক অভিজ্ঞতা গবেষণা নথি (2026)",
+    "learning-support.redesign-research": "শেখায় সহায়তা বিষয়ক গবেষণা (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "শ্রেণিভিত্তিক আবেদন নির্দেশিকা — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "শ্রেণিভিত্তিক আবেদন নির্দেশিকা — Early School ও K · 1–8",
     "the-arts.ladder@charlotte-prep": "PreK–8 আর্টস ধাপ",
-    "the-arts.theatre@charlotte-prep": "থিয়েটার ও শ্রেণিভিত্তিক প্রযোজনা"
+    "the-arts.theatre@charlotte-prep": "থিয়েটার ও শ্রেণিভিত্তিক প্রযোজনা",
+    "learning-support.eligibility": "তারা কি আমার সন্তানকে সেবা দিতে পারবে?",
+    "learning-support.services": "এক নজরে সেবাসমূহ",
+    "learning-support.therapy": "থেরাপি ও সংশ্লিষ্ট সেবা",
+    "learning-support.testing": "টেস্টিং ও মূল্যায়ন",
+    "learning-support.staff": "আপনি কাদের সঙ্গে কাজ করবেন",
+    "learning-support.ask": "স্কুলকে জিজ্ঞাসা করুন"
   },
   "cardLabels": {
     "afternoonRhythm": "বিকেলের ছন্দ",
@@ -566,6 +574,45 @@
     "next": "পরের ছবি",
     "position": "{{total}}টির মধ্যে {{current}}",
     "dialogLabel": "ছবি দেখার জানালা"
+  },
+  "learning": {
+    "eligible": "কারা যোগ্য",
+    "plan": "পরিকল্পনা নিয়ে এলে",
+    "scope": "আওতার বাইরে",
+    "needPrompt": "আপনার সন্তানের কী প্রয়োজন?",
+    "needFilterLabel": "প্রয়োজন অনুযায়ী সেবা বাছাই করুন",
+    "need": {
+      "all": "সব সেবা",
+      "read": "পড়া / ডিসলেক্সিয়া",
+      "attn": "মনোযোগ ও এক্সিকিউটিভ ফাংশন",
+      "math": "গণিত",
+      "speech": "কথা বলা ও ভাষা",
+      "motor": "মোটর / অকুপেশনাল থেরাপি",
+      "social": "সামাজিক-আবেগগত",
+      "gifted": "মেধাবী / উচ্চতর"
+    },
+    "code": {
+      "IH": "স্কুলেই",
+      "IH_FEE": "স্কুলেই · ফি",
+      "RF": "রেফারেল",
+      "REQUIRED": "আবশ্যক",
+      "NS": "উল্লেখ নেই",
+      "EXCLUDED": "অন্তর্ভুক্ত নয়"
+    },
+    "legend": {
+      "IH": "স্কুলের নিজস্ব কর্মী",
+      "IH_FEE": "স্কুলের দেওয়া, টিউশনের বাইরে ফি",
+      "RF": "শুধু রেফারেল",
+      "NS": "স্কুলের সাইটে পাওয়া যায়নি, এর মানে এই নয় যে সেবাটি দেওয়া হয় না"
+    },
+    "tally": "{{published}}টি প্রকাশিত · {{notStated}}টির উল্লেখ নেই",
+    "relatedServicesNote": "বিশেষ শিক্ষা আইনে ([[idea|IDEA]]) স্পিচ থেরাপি, অকুপেশনাল থেরাপি, ফিজিক্যাল থেরাপি ও কাউন্সেলিংকে “সংশ্লিষ্ট সেবা” বলা হয়।",
+    "glossary": {
+      "504": "504 প্ল্যানে এমন শিক্ষার্থীর জন্য সুবিধা-ব্যবস্থা (বাড়তি সময়, বসার জায়গা ইত্যাদি) লেখা থাকে, যার প্রতিবন্ধিতা শেখায় প্রভাব ফেলে। এটি যুক্তরাষ্ট্রের কেন্দ্রীয় নাগরিক অধিকার আইন থেকে আসে।",
+      "iep": "Individualized Education Program: সরকারি স্কুলের একটি নথি, যা IDEA অনুযায়ী বিশেষ শিক্ষা সেবা ও লক্ষ্য নির্ধারণ করে।",
+      "idea": "Individuals with Disabilities Education Act: যুক্তরাষ্ট্রের কেন্দ্রীয় আইন, যা সরকারি স্কুলে বিশেষ শিক্ষা নিয়ন্ত্রণ করে।"
+    },
+    "asOf": "গবেষণা {{date}} পর্যন্ত হালনাগাদ। “উল্লেখ নেই” চিহ্নের মানে হলো এই যাচাইয়ে তথ্যটি স্কুলের নিজস্ব সাইটে পাওয়া যায়নি; এর মানে এই নয় যে সেবাটি দেওয়া হয় না।"
   },
   "travel": {
     "allDivisions": "সব বিভাগ",

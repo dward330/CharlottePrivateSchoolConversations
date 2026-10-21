@@ -3213,3 +3213,43 @@ an article, ht a trailing *la*), and "AFAR" stays Latin in the network title.
   0 existing `t` overwritten, 129 added, all under `davidson-day:*`, 0 empty, 0 bidi
   controls, 0 foreign-script. The bn count reads 50 until U+0964 (the danda) is excluded,
   then 0.
+
+## Learning Support & Student Services (`learningsupport`) — Phase 2, 2026-10-21
+
+New topic `learning-support`, Hickory Grove Christian only: 104 strings per locale,
+written as stamp→translation maps and applied by stamp. Work files were a fresh extract,
+since the topic had none to splice into.
+
+**Keeps (identical to English in all 9 locales, by decision).** `HS Instructional
+Support Class` is the fee schedule's own class name. Other searchable identifiers stay
+Latin inside translated prose: `Educational Support Services (ESS)`, `Student Services`,
+`HGCS Accommodations Plan`, `Academic Flex`, `Academic Coaching`,
+`Applied Interventions/Specially Designed Instruction` (a fee-schedule heading, kept in
+quotes), `Orton-Gillingham`, `Wilson`, `TOEFL Jr.`, `SLEP`, `988 Suicide & Crisis
+Lifeline`, `NC Peer Warmline`, `Mental Health & Crisis Resources` (a page name) and the
+quoted `“/year”` misprint. Staff names are skipped; job titles translate.
+
+**Glossary markers.** `[[504|…]]`, `[[iep|…]]` and `[[idea|…]]` were kept with the
+identical term ids in every locale, asserted at apply time. Only the visible text after
+the bar was translated, and most locales kept it as the English plan name.
+
+**Gender.** The staff titles are shared by several people, and no pronoun or gender
+was inferred from names. Gendered languages use neutral or slash forms: es
+`Director/a`, `Docente`; fr/it/ar the function noun (`Direction de…`,
+`Amministrazione di…`, `إدارة …`).
+
+**RTL range trap: fixed by wording, not isolates.** A bare `1–2` at the start of an
+fa/ar run rendered `2–1`, and `$1,500–$2,000` rendered `$2,000–$1,500`. Each `$`
+figure is isolated at render, but two isolates joined by an en dash still reorder.
+Every checker passed both. They were found in the browser and reworded to `1 تا 2` /
+`$1,500 تا $2,000` (fa) and `من 1 إلى 2` / `بين $1,500 و$2,000` (ar). `K5–8`, `(9–12)`
+and `2026–27` render correctly: the first two sit in Latin runs, and the year range
+gets the render-time isolate. **A new fa/ar figure range is a browser check, not a
+checker check.**
+
+**Danda trap re-hit.** The foreign-script scan flagged every bn string. Bangla's `।`
+(U+0964) sits in the Devanagari block; with U+0964/0965 excluded, bn is clean.
+
+**Chrome.** Delivery codes are translated as short words (es `INTERNO · PAGO`, hi
+`स्कूल में`). The `ls-h` / `ls-cell-title` / `ls-group-name` / `ls-code` classes were
+added to the non-Latin `letter-spacing: 0` list.

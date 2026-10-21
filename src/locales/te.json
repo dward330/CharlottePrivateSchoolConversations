@@ -41,7 +41,8 @@
     "summer-programs": "వేసవి కార్యక్రమాలు",
     "the-arts": "కళలు",
     "high-school-placement": "హైస్కూల్ ప్లేస్‌మెంట్",
-    "international-travel": "అంతర్జాతీయ అనుభవం"
+    "international-travel": "అంతర్జాతీయ అనుభవం",
+    "learning-support": "అభ్యసన సహాయం, విద్యార్థి సేవలు"
   },
   "metrics": {
     "admissions.redesign-research": "ప్రవేశాల పరిశోధన సంపుటి (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "ట్యూషన్ చరిత్ర మరియు ఆధారాలు",
     "visual-arts": "దృశ్య కళలు",
     "win-loss": "గెలుపు–ఓటమి రికార్డులు",
-    "international-travel.redesign-research": "అంతర్జాతీయ అనుభవ పరిశోధన సంపుటి (2026)"
+    "international-travel.redesign-research": "అంతర్జాతీయ అనుభవ పరిశోధన సంపుటి (2026)",
+    "learning-support.redesign-research": "అభ్యసన సహాయంపై పరిశోధన (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "తరగతుల వారీ దరఖాస్తు మార్గదర్శి — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "తరగతుల వారీ దరఖాస్తు మార్గదర్శి — Early School & K · 1–8",
     "the-arts.ladder@charlotte-prep": "PreK–8 కళల నిచ్చెన",
-    "the-arts.theatre@charlotte-prep": "రంగస్థలం మరియు తరగతి స్థాయి ప్రదర్శనలు"
+    "the-arts.theatre@charlotte-prep": "రంగస్థలం మరియు తరగతి స్థాయి ప్రదర్శనలు",
+    "learning-support.eligibility": "వారు నా పిల్లలకు సేవ అందించగలరా?",
+    "learning-support.services": "సేవలు ఒక్క చూపులో",
+    "learning-support.therapy": "థెరపీ, సంబంధిత సేవలు",
+    "learning-support.testing": "పరీక్షలు, మూల్యాంకనం",
+    "learning-support.staff": "మీరు ఎవరితో పని చేస్తారు",
+    "learning-support.ask": "పాఠశాలను అడగండి"
   },
   "cardLabels": {
     "afternoonRhythm": "మధ్యాహ్నపు సాగు",
@@ -566,6 +574,45 @@
     "next": "తదుపరి ఫోటో",
     "position": "{{total}}లో {{current}}",
     "dialogLabel": "ఫోటో వీక్షణ విండో"
+  },
+  "learning": {
+    "eligible": "ఎవరు అర్హులు",
+    "plan": "ప్రణాళికతో వస్తే",
+    "scope": "పరిధికి బయట",
+    "needPrompt": "మీ పిల్లలకు ఏం కావాలి?",
+    "needFilterLabel": "అవసరాన్ని బట్టి సేవలను వడపోయండి",
+    "need": {
+      "all": "అన్ని సేవలు",
+      "read": "చదవడం / డిస్లెక్సియా",
+      "attn": "శ్రద్ధ, ఎగ్జిక్యూటివ్ ఫంక్షన్",
+      "math": "గణితం",
+      "speech": "మాట, భాష",
+      "motor": "మోటార్ / ఆక్యుపేషనల్ థెరపీ",
+      "social": "సామాజిక-భావోద్వేగ",
+      "gifted": "ప్రతిభావంతులు / ఉన్నత స్థాయి"
+    },
+    "code": {
+      "IH": "పాఠశాలలోనే",
+      "IH_FEE": "పాఠశాలలోనే · రుసుము",
+      "RF": "రెఫరల్",
+      "REQUIRED": "తప్పనిసరి",
+      "NS": "పేర్కొనలేదు",
+      "EXCLUDED": "చేర్చలేదు"
+    },
+    "legend": {
+      "IH": "పాఠశాల సొంత సిబ్బంది",
+      "IH_FEE": "పాఠశాల అందిస్తుంది, ట్యూషన్‌కు అదనపు రుసుము",
+      "RF": "రెఫరల్ మాత్రమే",
+      "NS": "పాఠశాల సైట్‌లో కనిపించలేదు, అంటే సేవ లేదని కాదు"
+    },
+    "tally": "{{published}} ప్రచురించినవి · {{notStated}} పేర్కొననివి",
+    "relatedServicesNote": "ప్రత్యేక విద్యా చట్టంలో ([[idea|IDEA]]) స్పీచ్, ఆక్యుపేషనల్ థెరపీ, ఫిజికల్ థెరపీ, కౌన్సెలింగ్‌లను “సంబంధిత సేవలు” అంటారు.",
+    "glossary": {
+      "504": "వైకల్యం నేర్చుకోవడంపై ప్రభావం చూపే విద్యార్థి కోసం వెసులుబాట్లను (అదనపు సమయం, కూర్చునే స్థలం మొదలైనవి) 504 ప్లాన్ జాబితా చేస్తుంది. ఇది అమెరికా సమాఖ్య పౌర హక్కుల చట్టం నుంచి వస్తుంది.",
+      "iep": "Individualized Education Program: IDEA కింద ప్రత్యేక విద్యా సేవలు, లక్ష్యాలను నిర్దేశించే ప్రభుత్వ పాఠశాలల పత్రం.",
+      "idea": "Individuals with Disabilities Education Act: ప్రభుత్వ పాఠశాలల్లో ప్రత్యేక విద్యను నియంత్రించే అమెరికా సమాఖ్య చట్టం."
+    },
+    "asOf": "పరిశోధన {{date}} నాటికి తాజాగా ఉంది. “పేర్కొనలేదు” గుర్తు అంటే ఈ పరిశీలనలో ఆ సమాచారం పాఠశాల సొంత సైట్‌లో కనిపించలేదని అర్థం; సేవ అందించరని కాదు."
   },
   "travel": {
     "allDivisions": "అన్ని విభాగాలు",

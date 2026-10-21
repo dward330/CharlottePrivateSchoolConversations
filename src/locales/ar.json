@@ -49,7 +49,8 @@
     "summer-programs": "البرامج الصيفية",
     "the-arts": "الفنون",
     "high-school-placement": "الالتحاق بالمرحلة الثانوية",
-    "international-travel": "الانفتاح العالمي"
+    "international-travel": "الانفتاح العالمي",
+    "learning-support": "دعم التعلّم والخدمات الطلابية"
   },
   "metrics": {
     "admissions.redesign-research": "ملف بحثي عن القبول (2026)",
@@ -99,7 +100,8 @@
     "tuition-history": "تاريخ الرسوم ومصادرها",
     "visual-arts": "الفنون البصرية",
     "win-loss": "سجلّات الفوز والخسارة",
-    "international-travel.redesign-research": "ملف بحثي عن الانفتاح العالمي (2026)"
+    "international-travel.redesign-research": "ملف بحثي عن الانفتاح العالمي (2026)",
+    "learning-support.redesign-research": "بحث دعم التعلّم (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -498,7 +500,13 @@
     "admissions.guide@covenant-day": "دليل التقديم حسب الصف — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "دليل التقديم حسب الصف — Early School وK · 1–8",
     "the-arts.ladder@charlotte-prep": "سُلّم الفنون من PreK حتى الصف 8",
-    "the-arts.theatre@charlotte-prep": "المسرح وعروض الصفوف"
+    "the-arts.theatre@charlotte-prep": "المسرح وعروض الصفوف",
+    "learning-support.eligibility": "هل يمكنهم خدمة طفلي؟",
+    "learning-support.services": "الخدمات في لمحة",
+    "learning-support.therapy": "العلاجات والخدمات المرتبطة",
+    "learning-support.testing": "الاختبار والتقييم",
+    "learning-support.staff": "مع من ستتعامل",
+    "learning-support.ask": "اسأل المدرسة"
   },
   "cardLabels": {
     "afternoonRhythm": "إيقاع فترة بعد الظهر",
@@ -654,6 +662,45 @@
     "next": "الصورة التالية",
     "position": "{{current}} من {{total}}",
     "dialogLabel": "عارض الصور"
+  },
+  "learning": {
+    "eligible": "من المؤهَّل",
+    "plan": "القدوم بخطة",
+    "scope": "خارج النطاق",
+    "needPrompt": "ما الذي يحتاجه طفلك؟",
+    "needFilterLabel": "تصفية الخدمات بحسب الاحتياج",
+    "need": {
+      "all": "كل الخدمات",
+      "read": "القراءة / عسر القراءة",
+      "attn": "الانتباه والوظائف التنفيذية",
+      "math": "الرياضيات",
+      "speech": "النطق واللغة",
+      "motor": "الحركة / العلاج الوظيفي",
+      "social": "الجانب الاجتماعي والعاطفي",
+      "gifted": "الموهوبون / المتقدّمون"
+    },
+    "code": {
+      "IH": "داخل المدرسة",
+      "IH_FEE": "داخل المدرسة · برسوم",
+      "RF": "إحالة",
+      "REQUIRED": "مطلوب",
+      "NS": "غير مذكور",
+      "EXCLUDED": "مستبعد"
+    },
+    "legend": {
+      "IH": "كادر المدرسة نفسه",
+      "IH_FEE": "من المدرسة، برسوم إضافية على الرسوم الدراسية",
+      "RF": "إحالة فقط",
+      "NS": "لم يُعثر عليه في موقع المدرسة، وهذا لا يعني أنه غير متاح"
+    },
+    "tally": "منشور: {{published}} · غير مذكور: {{notStated}}",
+    "relatedServicesNote": "في قانون التربية الخاصة ([[idea|IDEA]])، يُسمّى علاج النطق والعلاج الوظيفي والعلاج الطبيعي والإرشاد «خدمات مرتبطة».",
+    "glossary": {
+      "504": "تسرد خطة 504 التسهيلات (وقت إضافي، ومكان الجلوس، وغير ذلك) لطالب تؤثر إعاقته في تعلّمه. وهي مستمدة من قانون الحقوق المدنية الفيدرالي الأمريكي.",
+      "iep": "Individualized Education Program: وثيقة في المدارس الحكومية تحدّد خدمات التربية الخاصة وأهدافها بموجب IDEA.",
+      "idea": "Individuals with Disabilities Education Act: القانون الفيدرالي الأمريكي الذي ينظّم التربية الخاصة في المدارس الحكومية."
+    },
+    "asOf": "البحث محدَّث حتى {{date}}. تعني علامة «غير مذكور» أن المعلومة لم يُعثر عليها في موقع المدرسة نفسه خلال هذه المراجعة؛ ولا تعني أن الخدمة غير متاحة."
   },
   "travel": {
     "allDivisions": "كل المراحل",

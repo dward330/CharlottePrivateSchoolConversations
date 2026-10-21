@@ -135,3 +135,42 @@ for one school is `--only <slug>`, not `--school`.
   book-open glyph. It was kept as designed and flagged to the user.
 - **Group letters dropped:** the design's "A · Learning & academic support" group
   letters are not rendered, in keeping with the no-kicker rule. Group names only.
+
+**Review edits before Phase 2 (2026-10-21, user-requested).** These removals were made:
+- the gifted-students note under the eligibility cells;
+- the "Hiring now" note, plus "The program is hiring" in the staff teaser and the careers
+  source;
+- "Private schools are not required to provide them." from the shared related-services
+  note;
+- the lead's second muted sentence (emotional/behavioral scope, no therapy), since both
+  facts remain in their own cards.
+
+The `K5–12` tile became `K–12`, with K5 explained in the note. The user then confirmed the
+English ("Everything else looks good").
+
+**Phase 2 (locales) built 2026-10-21.**
+- **Prose:** 104 strings per locale, as stamp→translation maps applied by stamp to a
+  fresh extract (the topic had no prior work files). The glossary markers are asserted
+  identical per string. Nine overlays are built.
+- **Chrome:** `topics`, `metrics`, six `cards.learning-support.*` and the `learning.*`
+  block are in all nine catalogs. Key sets are asserted equal to `en`, and the JSON
+  round-trip was verified byte-identical before inserting.
+- **CSS:** the four tracked `ls-` classes joined the non-Latin `letter-spacing: 0` list.
+- **Checks, all green:**
+  - `npm run build` (chains check:live / check:runtime / check:dates / check:moneytext /
+    check:seo …);
+  - `check:chrome`, `check:fr`, `check:bidi`, `check:fa`, `check:hi`;
+  - `check_figures` and `check:sepdrift` × 9;
+  - `i18n:leaks` × 9: no learning-support hits;
+  - a direct foreign-script scan: clean once the bn danda trap is excluded.
+- **Browser (Chrome):** es / fa / hi at 1280 and fa / ar at 390, every card open: all
+  translated, 0 English-word hits, 0 overflow, money localized.
+- **Deviation, found only in the browser:** fa/ar figure ranges reversed (`1–2` → `2–1`,
+  `$1,500–$2,000` → `$2,000–$1,500`). They were reworded as "1 to 2" / "between X and Y"
+  and re-verified in the browser. Recorded in `src/data/overlays/NOTES.md`.
+- **Deviation, a cross-locale render fix:** `audit:mobile` (Hickory Grove, 9 locales)
+  found a 320px page overflow in it (+36px) and fr (+10px). The cause was the dossier's
+  topic chip, not the section: "Supporto all'apprendimento e servizi per gli studenti"
+  made a 356px `nowrap` chip. At ≤480px `.chip` now takes `max-width: 100%;
+  white-space: normal`, so a chip that fits still sits on one line. After the fix,
+  en/fr/it/es show 0 overflow and 0 broken cards; the other six were already clean.

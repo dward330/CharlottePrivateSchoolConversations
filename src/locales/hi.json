@@ -41,7 +41,8 @@
     "summer-programs": "ग्रीष्मकालीन कार्यक्रम",
     "the-arts": "कला",
     "high-school-placement": "हाई स्कूल प्लेसमेंट",
-    "international-travel": "वैश्विक अनुभव"
+    "international-travel": "वैश्विक अनुभव",
+    "learning-support": "लर्निंग सपोर्ट और छात्र सेवाएँ"
   },
   "metrics": {
     "admissions.redesign-research": "प्रवेश पर शोध दस्तावेज़ (2026)",
@@ -91,7 +92,8 @@
     "tuition-history": "ट्यूशन का इतिहास और स्रोत",
     "visual-arts": "दृश्य कला",
     "win-loss": "जीत–हार रिकॉर्ड",
-    "international-travel.redesign-research": "वैश्विक अनुभव पर शोध दस्तावेज़ (2026)"
+    "international-travel.redesign-research": "वैश्विक अनुभव पर शोध दस्तावेज़ (2026)",
+    "learning-support.redesign-research": "लर्निंग सपोर्ट शोध (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -430,7 +432,13 @@
     "admissions.guide@covenant-day": "कक्षावार आवेदन मार्गदर्शिका — JK/K · 1–5 · 6–11",
     "admissions.guide@charlotte-prep": "कक्षावार आवेदन मार्गदर्शिका — Early School और K · 1–8",
     "the-arts.ladder@charlotte-prep": "PreK–8 कला की सीढ़ी",
-    "the-arts.theatre@charlotte-prep": "रंगमंच और कक्षा-स्तर की प्रस्तुतियाँ"
+    "the-arts.theatre@charlotte-prep": "रंगमंच और कक्षा-स्तर की प्रस्तुतियाँ",
+    "learning-support.eligibility": "क्या वे मेरे बच्चे की मदद कर सकते हैं?",
+    "learning-support.services": "सेवाएँ एक नज़र में",
+    "learning-support.therapy": "थेरेपी और संबंधित सेवाएँ",
+    "learning-support.testing": "टेस्टिंग और मूल्यांकन",
+    "learning-support.staff": "आप किनके साथ काम करेंगे",
+    "learning-support.ask": "स्कूल से पूछें"
   },
   "cardLabels": {
     "afternoonRhythm": "दोपहर की दिनचर्या",
@@ -566,6 +574,45 @@
     "next": "अगली फ़ोटो",
     "position": "{{total}} में से {{current}}",
     "dialogLabel": "फ़ोटो व्यूअर"
+  },
+  "learning": {
+    "eligible": "कौन पात्र है",
+    "plan": "प्लान के साथ आने पर",
+    "scope": "दायरे से बाहर",
+    "needPrompt": "आपके बच्चे को क्या चाहिए?",
+    "needFilterLabel": "ज़रूरत के अनुसार सेवाएँ छाँटें",
+    "need": {
+      "all": "सभी सेवाएँ",
+      "read": "पढ़ना / डिस्लेक्सिया",
+      "attn": "ध्यान और एग्ज़ीक्यूटिव फ़ंक्शन",
+      "math": "गणित",
+      "speech": "बोलना और भाषा",
+      "motor": "मोटर / ऑक्यूपेशनल थेरेपी",
+      "social": "सामाजिक-भावनात्मक",
+      "gifted": "प्रतिभाशाली / उन्नत"
+    },
+    "code": {
+      "IH": "स्कूल में",
+      "IH_FEE": "स्कूल में · शुल्क",
+      "RF": "रेफ़रल",
+      "REQUIRED": "ज़रूरी",
+      "NS": "उल्लेख नहीं",
+      "EXCLUDED": "शामिल नहीं"
+    },
+    "legend": {
+      "IH": "स्कूल के अपने कर्मचारी",
+      "IH_FEE": "स्कूल द्वारा, ट्यूशन के अलावा शुल्क",
+      "RF": "केवल रेफ़रल",
+      "NS": "स्कूल की साइट पर नहीं मिला, इसका मतलब यह नहीं कि सेवा नहीं दी जाती"
+    },
+    "tally": "{{published}} प्रकाशित · {{notStated}} उल्लेख नहीं",
+    "relatedServicesNote": "विशेष शिक्षा क़ानून ([[idea|IDEA]]) में स्पीच, ऑक्यूपेशनल थेरेपी, फ़िज़िकल थेरेपी और परामर्श को “संबंधित सेवाएँ” कहा जाता है।",
+    "glossary": {
+      "504": "504 प्लान में उस छात्र के लिए सुविधाएँ (अतिरिक्त समय, बैठने की जगह आदि) लिखी होती हैं जिसकी दिव्यांगता सीखने पर असर डालती है। यह संघीय नागरिक अधिकार क़ानून से आता है।",
+      "iep": "Individualized Education Program: सरकारी स्कूलों का एक दस्तावेज़ जो IDEA के तहत विशेष शिक्षा सेवाएँ और लक्ष्य तय करता है।",
+      "idea": "Individuals with Disabilities Education Act: वह संघीय क़ानून जो सरकारी स्कूलों में विशेष शिक्षा को नियंत्रित करता है।"
+    },
+    "asOf": "शोध {{date}} तक अद्यतन। “उल्लेख नहीं” लेबल का अर्थ है कि इस जाँच में यह जानकारी स्कूल की अपनी साइट पर नहीं मिली; इसका अर्थ यह नहीं कि सेवा नहीं दी जाती।"
   },
   "travel": {
     "allDivisions": "सभी डिवीज़न",

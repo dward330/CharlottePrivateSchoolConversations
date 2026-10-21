@@ -533,6 +533,13 @@ main { flex: 1; }
 }
 .chip:hover { color: var(--text); border-color: var(--brand); }
 .chip.is-active { color: var(--ink); border-color: var(--brand); }
+/* A chip wider than a phone screen wraps rather than pushing the page sideways.
+   "Learning Support & Student Services" in Italian ("Supporto all'apprendimento e
+   servizi per gli studenti") made one chip 356px at 320px (2026-10-21). Chips
+   that fit stay on one line. */
+@media (max-width: 480px) {
+  .chip { max-width: 100%; white-space: normal; }
+}
 
 .back {
   display: inline-flex;
@@ -6136,6 +6143,10 @@ a.cs-college-name:focus-visible {
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-estimate-kicker,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-fees-kicker,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-filters-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-cell-title,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-group-name,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .ls-code,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .lang-row-label,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .lang-soon {
   letter-spacing: 0;
