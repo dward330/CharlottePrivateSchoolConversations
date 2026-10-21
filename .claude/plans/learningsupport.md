@@ -1,11 +1,11 @@
 ---
 name: learningsupport
 title: Add a Learning Support & Student Services research area — six structured cards, Hickory Grove Christian populated from its own site; plus the /learning-support workflow
-status: english-shipped
+status: implemented
 phases: 2
 created: 2026-10-20
 branch: feat/learningsupport
-prs: []
+prs: [357]
 ---
 
 # Learning Support & Student Services research area
