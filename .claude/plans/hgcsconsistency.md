@@ -1,11 +1,11 @@
 ---
 name: hgcsconsistency
 title: Fix five consistency issues on Hickory Grove Christian's dossier — stale ESS text in College Support, the $2,227 fee question, ESS scope vs. the wellness team, the staff-list split, and TK vs. K5
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-23
 branch: fix/hgcsconsistency
-prs: []
+prs: [358]
 ---
 
 # Hickory Grove Christian — five consistency fixes
@@ -381,3 +381,22 @@ settled it, and what is left NOT STATED / TO VERIFY. Write it from the Decisions
 
 - **Should the TK question sit next to the fee question rather than last?** **Default:**
   last, to avoid shifting overlay paths. The user can ask to reorder at the Phase 1 review.
+
+## Implementation notes
+
+- **Step 11 count.** learning-support retired **5** stamps, not "about 6"; the plan's own
+  list names five. college-support retired 2 and added 2, as planned. The splice used
+  `scripts/i18n_splice_work.mjs` per locale × topic: 0 unexpected drops, all prior
+  translations kept.
+- **`check_work_integrity --base 3dc201c2`** reports 5 findings per locale (45 total). They
+  are exactly the two in-place College Support swaps plus Learning Support's growth from
+  104 to 108 entries. The checker compares by position and cannot validate a splice; this
+  is expected, not a defect.
+- **`check_figures.py`** has one pre-existing finding each in es and fa college-support
+  (a Charlotte Country Day note, and a generic "middle 50%" line). Neither entry is
+  touched here.
+- **Browser check trap.** `ask.headline` renders as the card's summary line, which is
+  `display:none` once a card opens, so an "every `<details>` open" `innerText` check can't
+  see it. It was verified with the card closed.
+- **Push.** The Phase 2 commit sat unpushed across a session because git could not
+  resolve github.com while `gh` and `curl` could. A reboot cleared it.
