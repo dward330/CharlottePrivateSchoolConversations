@@ -29,12 +29,12 @@
       "t": "ESS sèvi"
     },
     {
-      "text": "kindergarten (K5) through 12th grade, per the 2026–27 fee schedule",
-      "of": "b940b8e2",
+      "text": "K5 through 12th grade, per the 2026–27 fee schedule; ESS access for Transitional Kindergarten is not stated",
+      "of": "b054ff2e",
       "at": [
         "hickory-grove-christian:stats[0].note"
       ],
-      "t": "depi kindègadenn (K5) rive nan 12yèm ane, dapre lis frè 2026–27 la"
+      "t": "depi K5 rive nan 12yèm ane, dapre lis frè 2026–27 la; yo pa di si elèv Transitional Kindergarten yo gen aksè a ESS"
     },
     {
       "text": "named Student Services staff",
@@ -115,6 +115,14 @@
         "hickory-grove-christian:eligibility.scope"
       ],
       "t": "“Kounye a, espesyalite nou pa rive jiska bay entèvansyon pou emosyon ak konpòtman, paske pèsonèl nou pi byen prepare pou bay entèvansyon akademik.”"
+    },
+    {
+      "text": "That limit is on ESS’s academic services. A separate wellness team offers “biblical counsel through mentorship and discipleship, peer support groups”; the school does not describe that support as clinical or behavioral intervention.",
+      "of": "dccb05a3",
+      "at": [
+        "hickory-grove-christian:eligibility.note"
+      ],
+      "t": "Limit sa a konsène sèvis akademik ESS yo. Yon lòt ekip byennèt apa ofri “konsèy biblik atravè mantora ak disip, gwoup sipò ant kamarad”; lekòl la pa dekri sipò sa a kòm entèvansyon klinik oswa pou konpòtman."
     },
     {
       "text": "Every service the school’s pages describe, grouped and coded by who delivers it, with the published 2026–27 fee. Pick your child’s need to see what applies.",
@@ -546,12 +554,12 @@
       "t": "Konsèy ak sipò emosyonèl"
     },
     {
-      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling.",
-      "of": "e91e1968",
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling. This team is separate from ESS, and the school does not describe its support as clinical or behavioral intervention.",
+      "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
       ],
-      "t": "Ekip byennèt la ofri “konsèy biblik atravè mantora ak disip, gwoup sipò ant kamarad”. Lekòl segondè a gen yon direktè konsèy (Director of Counseling)."
+      "t": "Ekip byennèt la ofri “konsèy biblik atravè mantora ak disip, gwoup sipò ant kamarad”. Lekòl segondè a gen yon direktè konsèy (Director of Counseling). Ekip sa a separe ak ESS, epi lekòl la pa dekri sipò li kòm entèvansyon klinik oswa pou konpòtman."
     },
     {
       "text": "Emotional & behavioral intervention",
@@ -782,12 +790,28 @@
       "t": "Coaching akademik ak sipò leson patikilye"
     },
     {
-      "text": "Six questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, therapy and health staff.",
-      "of": "bea66fc4",
+      "text": "Tracey Bennett, the high school’s Director of Counseling, is not on this list.",
+      "of": "24ee3376",
+      "at": [
+        "hickory-grove-christian:staff.note.strong"
+      ],
+      "t": "Tracey Bennett, direktè konsèy (Director of Counseling) lekòl segondè a, pa sou lis sa a."
+    },
+    {
+      "text": "The school lists her on its College and Career Planning page rather than the Student Services staff list. College Support covers the counseling office, where the school profile pairs her with Dr. Similton.",
+      "of": "0651b7a0",
+      "at": [
+        "hickory-grove-christian:staff.note.muted"
+      ],
+      "t": "Lekòl la mete non li sou paj College and Career Planning li olye de lis pèsonèl Student Services la. Sipò pou Inivèsite pale de biwo konsèy la, kote pwofil lekòl la mete l ansanm ak Dr. Similton."
+    },
+    {
+      "text": "Seven questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, grade span, therapy and health staff.",
+      "of": "fe0917a6",
       "at": [
         "hickory-grove-christian:ask.headline"
       ],
-      "t": "Sis kesyon pou pote nan vizit la, sou sa sit lekòl la pa reponn: metòd, frè, dokiman, terapi ak pèsonèl sante."
+      "t": "Sèt kesyon pou pote nan vizit la, sou sa sit lekòl la pa reponn: metòd, frè, dokiman, nivo klas yo kouvri, terapi ak pèsonèl sante."
     },
     {
       "text": "Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
@@ -798,12 +822,12 @@
       "t": "Ki metòd lekti ak matematik pwofesè ESS yo itilize (pa egzanp, Orton-Gillingham, Wilson, ansèyman lekti estriktire)?"
     },
     {
-      "text": "The 2026–27 fee schedule lists the HS Instructional Support Class at $4,455 a year and again at $2,227 “/year.” Is $2,227 the per-semester price?",
-      "of": "1e07d6f3",
+      "text": "The 2026–27 fee schedule prints two figures for the HS Instructional Support Class: $4,455 a year and $2,227 “/year.” Is $2,227 the per-semester price?",
+      "of": "5cc1aea6",
       "at": [
         "hickory-grove-christian:ask.questions[1]"
       ],
-      "t": "Lis frè 2026–27 la bay HS Instructional Support Class la $4,455 pa ane, epi ankò $2,227 “/year”. Èske $2,227 se pri pou yon semès?"
+      "t": "Lis frè 2026–27 la enprime de chif pou HS Instructional Support Class la: $4,455 pa ane ak $2,227 “/year”. Èske $2,227 se pri pou yon semès?"
     },
     {
       "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
@@ -838,12 +862,20 @@
       "t": "Èske gen yon enfimyè lekòl oswa yon sikològ lekòl nan pèsonèl la?"
     },
     {
-      "text": "October 20, 2026",
-      "of": "4d0c56fd",
+      "text": "Can a Transitional Kindergarten (TK) student receive ESS services? Every line on the 2026–27 fee schedule starts at K5.",
+      "of": "38e33bee",
+      "at": [
+        "hickory-grove-christian:ask.questions[6]"
+      ],
+      "t": "Èske yon elèv Transitional Kindergarten (TK) ka resevwa sèvis ESS? Chak liy sou lis frè 2026–27 la kòmanse nan K5."
+    },
+    {
+      "text": "October 23, 2026",
+      "of": "146e5aa4",
       "at": [
         "hickory-grove-christian:ask.asOf"
       ],
-      "t": "20 oktòb 2026"
+      "t": "23 oktòb 2026"
     }
   ]
 }

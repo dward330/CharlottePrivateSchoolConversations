@@ -4677,6 +4677,11 @@ a.cs-college-name:focus-visible {
   font-size: 12px;
 }
 .cs-src .tag-outline { font-size: 10px; flex: none; }
+/* Whole Class → Learning Support cross-link. No nowrap: the translated label
+   is long and must wrap at 320px. */
+.cs-ls-link-row { margin: 8px 0 0; }
+.cs-ls-link { color: var(--brand); font-weight: 600; }
+.cs-ls-link:hover { text-decoration: underline; }
 
 /* The College Support cards are wide, structured layouts: never reflow them
    into the two-column prose columns .note-card[open] applies by default. */

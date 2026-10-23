@@ -1,7 +1,7 @@
 // Hickory Grove Christian — Learning Support & Student Services.
 //
 // Every fact is from the school's own pages and the PDFs they link, fetched
-// 2026-10-20. The full verbatim record, the fee schedule transcription and the
+// 2026-10-20, re-verified 2026-10-23. The full verbatim record, the fee schedule transcription and the
 // corrections this forced on the design copy are in
 // source-material/learning-support/hickory-grove-christian/
 //   Hickory Grove Christian - Learning Support - Official Site Research.md
@@ -66,7 +66,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       'Every service is fee-based under an annual contract.',
   },
   stats: [
-    { value: 'K–12', label: 'served by ESS', note: 'kindergarten (K5) through 12th grade, per the 2026–27 fee schedule' },
+    { value: 'K–12', label: 'served by ESS', note: 'K5 through 12th grade, per the 2026–27 fee schedule; ESS access for Transitional Kindergarten is not stated' },
     { value: '9', label: 'named Student Services staff', note: 'including two ESS teachers and two academic coaches' },
     { value: '$300+', label: 'per year, beyond tuition', note: 'case management alone; instruction runs up to $4,455' },
   ],
@@ -84,7 +84,8 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       '“All students who enroll with a [[504|Section 504 Plan]], an [[iep|Individual Education Plan (IEP)]], or an academic accommodations plan from a previous school may be enrolled under the umbrella of Educational Support Services.”',
     scope:
       '“Currently, our specialization does not extend to providing emotional and behavioral interventions, as our staff is best equipped to provide academic interventions.”',
-    sources: [ESS, HUB],
+    note: 'That limit is on ESS’s academic services. A separate wellness team offers “biblical counsel through mentorship and discipleship, peer support groups”; the school does not describe that support as clinical or behavioral intervention.',
+    sources: [ESS, HUB, WELLNESS],
   },
 
   services: {
@@ -235,7 +236,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
           {
             service: 'Counseling & emotional support',
             code: 'IH',
-            detail: 'The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling.',
+            detail: 'The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling. This team is separate from ESS, and the school does not describe its support as clinical or behavioral intervention.',
             needs: ['social'],
           },
           {
@@ -316,19 +317,24 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       { name: 'Kim Staples', role: 'Academic Coaching & Tutorial Support' },
       { name: 'Belinda Jackson', role: 'Academic Coaching & Tutorial Support' },
     ],
-    sources: [ESS],
+    note: {
+      strong: 'Tracey Bennett, the high school’s Director of Counseling, is not on this list.',
+      muted: 'The school lists her on its College and Career Planning page rather than the Student Services staff list. College Support covers the counseling office, where the school profile pairs her with Dr. Similton.',
+    },
+    sources: [ESS, COUNSELING],
   },
 
   ask: {
-    headline: 'Six questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, therapy and health staff.',
+    headline: 'Seven questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, grade span, therapy and health staff.',
     questions: [
       'Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?',
-      'The 2026–27 fee schedule lists the HS Instructional Support Class at $4,455 a year and again at $2,227 “/year.” Is $2,227 the per-semester price?',
+      'The 2026–27 fee schedule prints two figures for the HS Instructional Support Class: $4,455 a year and $2,227 “/year.” Is $2,227 the per-semester price?',
       'What documentation counts as an “identified learning difference,” and how recent must testing be?',
       'Can an outside speech or occupational therapist see my child on campus during the school day?',
       'Which interventions does the $1,500–$2,000 “Applied Interventions/Specially Designed Instruction” add-on cover, and who delivers them?',
       'Is there a school nurse or school psychologist on staff?',
+      'Can a Transitional Kindergarten (TK) student receive ESS services? Every line on the 2026–27 fee schedule starts at K5.',
     ],
-    asOf: 'October 20, 2026',
+    asOf: 'October 23, 2026',
   },
 }
