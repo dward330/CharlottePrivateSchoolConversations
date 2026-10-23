@@ -1,4 +1,4 @@
-var e=`hickory-grove-christian`,t=`learning-support`,n=13,r=[{subtopic:`Official Site Research`,source_file:`Hickory Grove Christian - Learning Support - Official Site Research.md`,preview:"# Hickory Grove Christian — Learning Support & Student Services — Official Site Research Christian School's own pages directly (`curl`, raw HTML) and the PDFs those pages link to. Per the user's instruction for this area, only official school sources are used: hgchristian.org and the Finalsite-hosted PDFs it links. No…",text:`# Hickory Grove Christian — Learning Support & Student Services — Official Site Research
+var e=`hickory-grove-christian`,t=`learning-support`,n=14,r=[{subtopic:`Official Site Research`,source_file:`Hickory Grove Christian - Learning Support - Official Site Research.md`,preview:"# Hickory Grove Christian — Learning Support & Student Services — Official Site Research Christian School's own pages directly (`curl`, raw HTML) and the PDFs those pages link to. Per the user's instruction for this area, only official school sources are used: hgchristian.org and the Finalsite-hosted PDFs it links. No…",text:`# Hickory Grove Christian — Learning Support & Student Services — Official Site Research
 
 Christian School's **own** pages directly (\`curl\`, raw HTML) and the PDFs those pages link
 to. Per the user's instruction for this area, **only official school sources** are used:
@@ -188,6 +188,84 @@ No ESL / EAL support class or service is described on any page fetched.`},{subto
 | "Director of Educational Support Services, a title not yet on the staff list" | Rachel Vaughn holds that title on the staff list (S2) |
 | Counseling / SEL: not stated | Wellness team offers biblical counsel, mentorship and peer support groups (S5); HS Director of Counseling (S7) |
 | Charlotte Speech and Hearing Center third-party note | **Dropped** — not an official school source (user rule) |
-| Eligibility: "documented learning differences" | Live wording: "specialized support for students with identified learning differences" (S2) |
+| Eligibility: "documented learning differences" | Live wording: "specialized support for students with identified learning differences" (S2) |`},{subtopic:"Re-verification 2026-10-23 (plan `hgcsconsistency`)",source_file:null,preview:"pages and the S3 PDF (`pdftotext -layout`), to settle five consistency questions on the dossier. Every page returned 200. Only official school sources were used. | # | URL | What it settled | |---|---|---| | S3 | https://www.hgchristian.org/fs/resource-manager/view/7dd54753-7033-45a4-8e4b-9f62e25bc311 | Fee…",text:`pages and the S3 PDF (\`pdftotext -layout\`), to settle five consistency questions on the
+dossier. Every page returned 200. Only official school sources were used.
 
----`}],i={school_slug:e,topic_slug:t,section_count:13,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+| # | URL | What it settled |
+|---|---|---|
+| S3 | https://www.hgchristian.org/fs/resource-manager/view/7dd54753-7033-45a4-8e4b-9f62e25bc311 | Fee attribution (Q1 below) |
+| S1 | https://www.hgchristian.org/academics/student-services | Which offices count as Student Services (Q2) |
+| S2 | https://www.hgchristian.org/academics/student-services/ess | SS Staff list unchanged, still nine names (Q2) |
+| S5 | https://www.hgchristian.org/academics/student-services/wellness | Wellness team still unnamed (Q3) |
+| S7 | https://www.hgchristian.org/academics/high-school/college-and-career-planning | Where Tracey Bennett is listed (Q2) |
+| S14 | https://www.hgchristian.org/academics/tk-or-k5 | **New.** "TK and K5" page, the school's Transitional Kindergarten program (Q4) |
+
+### Q1 — Which fee lines do $2227 and $1113 belong to? (S3)
+
+The PDF's 9th–12th column, as \`pdftotext -layout\` reads it (verbatim, spacing condensed):
+
+\`\`\`
+1-2 Academic Flex Sessions $1806/year*
+Up to 60 min. weekly $903/semester
+Academic Coaching $2227/year*
+Up to 3 hours weekly $1113/semester
+HS Instructional $4455/year*
+Support Class $2227/year
+5 class periods weekly
+\`\`\`
+
+**Settled: $2227/year* and $1113/semester are the Academic Coaching row.** Both figures sit
+on the two Academic Coaching lines, in the same position as Academic Flex's own year and
+semester pair. The HS Instructional Support Class row separately prints **$4455/year*** and
+then **$2227/year**. That second figure equals Academic Coaching's annual fee. It sits
+where the other rows give a per-semester figure, and the 2024-25 schedule (S4) printed
+"$2227/semester" for this class. The class's own second figure is therefore still the
+open question, not the coaching fee.
+
+Every other fee on the 2026–27 schedule was re-checked and is unchanged from the
+transcription above: $300; $370 / $760 / $1200; $1892 / $2522 / $3184 / $3787 / $4414;
+$1806 / $903; $1500-$2000. The page still reads "Revised 1/22/26".
+
+### Q2 — Where does Tracey Bennett sit? (S1, S2, S7)
+
+- **S2's "SS Staff" tab lists the same nine people as on 2026-10-20.** Tracey Bennett is
+ **not** among them. Dr. Mildred Similton (Administrator for Student Services) is first.
+- **S7** (under High School → College and Career Planning) lists "Tracey Bennett,
+ Director of Counseling traceybennett@hgchristian.org 704-531-4001". Her section reads:
+ "College Counseling · Career Guidance".
+- **S1** lists "College and Career Planning" among "Our Student Services include", next
+ to ESS, Standardized Testing & Assessments and Wellness Education.
+
+So the school files College and Career Planning under Student Services as a service, but
+Bennett is not on the Student Services staff list. The College Support research
+(Fall 2023 / Fall 2025 High School Profiles) names Bennett and Similton together as the
+counseling staff.
+
+### Q3 — ESS scope vs. the wellness team (S2, S5, S7)
+
+- S2 (ESS), verbatim: "Currently, our specialization does not extend to providing
+ emotional and behavioral interventions, as our staff is best equipped to provide
+ academic interventions." The sentence is about **ESS's** staff and specialization.
+- S5 (Wellness), verbatim: "Emotional Support: Our wellness team is committed to offering
+ biblical counsel through mentorship and discipleship, peer support groups, and resources
+ to help students manage stress, anxiety, and other emotional challenges."
+- S7, verbatim: "… whether we are offering academic, emotional, or social support."
+- **No page describes the wellness team's support as clinical treatment, therapy or
+ behavioral intervention.** No wellness-team member, licensed counselor or psychologist is
+ named (unchanged).
+
+### Q4 — Does ESS serve Transitional Kindergarten? (S3, S2, S14)
+
+- **The school enrolls TK.** S14, verbatim: "Our Transitional Kindergarten (TK) program has
+ traditionally served as year one of a two-year kindergarten program when a child tested
+ "not ready" for kindergarten. We later expanded that group to include children who turn
+ five between the cutoff date of October 16 and April 16."
+- **Every ESS fee line begins at K5** (S3): "K5-12th Case Management Only", "K5-12th Case
+ Management and Approved Pull-Out/Push-In Testing Services Only", "K5–8th Grade: …",
+ "K5-12th Grade: Applied Interventions/Specially Designed Instruction".
+- **S2 and S14 say nothing about ESS for TK students.** S14 does not mention ESS or Student
+ Services.
+
+**Settled: silent.** Whether ESS serves TK students is **NOT STATED**. Ask the school.
+
+---`}],i={school_slug:e,topic_slug:t,section_count:14,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
