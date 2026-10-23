@@ -531,7 +531,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     support: [
       {
         label: 'Educational Support Services',
-        text: 'Fee-based **Educational Support Services (ESS)**, under an annual contract, serve K5 through 12th grade: accommodations plans built from educational testing or a prior 504/IEP, approved testing accommodations, and high school Academic Coaching.',
+        text: 'Fee-based **Educational Support Services (ESS)**, under an annual contract, serve K through 12th grade: accommodations plans built from educational testing or a prior 504/IEP, approved testing accommodations, and high school Academic Coaching.',
       },
     ],
     middle: [

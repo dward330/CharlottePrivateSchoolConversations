@@ -94,7 +94,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
     verdicts: {
       read: {
         head: 'Specialized teachers and paid 1:1 or small-group instruction. No reading method is named.',
-        body: 'ESS teachers “have specialized training”; K5–8 pull-out or push-in instruction is billed by sessions per week. Ask which reading approach ESS teachers use.',
+        body: 'ESS teachers “have specialized training”; K–8 pull-out or push-in instruction is billed by sessions per week. Ask which reading approach ESS teachers use.',
       },
       attn: {
         head: 'Executive-function coaching and accommodations are offered.',
@@ -144,7 +144,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
             needs: ['math'],
           },
           {
-            service: '1:1 / small-group instruction (K5–8)',
+            service: '1:1 / small-group instruction (K–8)',
             code: 'IH_FEE',
             detail: 'Pull-out or push-in, 1 to 5 sessions a week: $1,892 to $4,414 a year, including case management and testing.',
             needs: ['read', 'attn', 'math'],
@@ -333,7 +333,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       'Can an outside speech or occupational therapist see my child on campus during the school day?',
       'Which interventions does the $1,500–$2,000 “Applied Interventions/Specially Designed Instruction” add-on cover, and who delivers them?',
       'Is there a school nurse or school psychologist on staff?',
-      'Can a Transitional Kindergarten (TK) student receive ESS services? Every line on the 2026–27 fee schedule starts at K5.',
+      'Can a Transitional Kindergarten (TK) student receive ESS services? Every line on the 2026–27 fee schedule starts at K.',
     ],
     asOf: 'October 23, 2026',
   },
