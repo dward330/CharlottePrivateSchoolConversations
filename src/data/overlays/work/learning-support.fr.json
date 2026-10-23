@@ -29,12 +29,12 @@
       "t": "accompagnés par ESS"
     },
     {
-      "text": "kindergarten (K5) through 12th grade, per the 2026–27 fee schedule",
-      "of": "b940b8e2",
+      "text": "K5 through 12th grade, per the 2026–27 fee schedule; ESS access for Transitional Kindergarten is not stated",
+      "of": "b054ff2e",
       "at": [
         "hickory-grove-christian:stats[0].note"
       ],
-      "t": "de la maternelle (K5) à la 12e année, selon la grille tarifaire 2026–27"
+      "t": "de la K5 à la 12e année, selon la grille tarifaire 2026–27 ; l’accès des élèves de Transitional Kindergarten à ESS n’est pas précisé"
     },
     {
       "text": "named Student Services staff",
@@ -115,6 +115,14 @@
         "hickory-grove-christian:eligibility.scope"
       ],
       "t": "« Actuellement, notre spécialisation ne s’étend pas aux interventions émotionnelles et comportementales, notre personnel étant surtout qualifié pour les interventions scolaires. »"
+    },
+    {
+      "text": "That limit is on ESS’s academic services. A separate wellness team offers “biblical counsel through mentorship and discipleship, peer support groups”; the school does not describe that support as clinical or behavioral intervention.",
+      "of": "dccb05a3",
+      "at": [
+        "hickory-grove-christian:eligibility.note"
+      ],
+      "t": "Cette limite porte sur les services scolaires d’ESS. Une équipe bien-être distincte propose « un conseil biblique par le mentorat et le discipulat, des groupes de soutien entre pairs » ; l’école ne décrit pas ce soutien comme une intervention clinique ou comportementale."
     },
     {
       "text": "Every service the school’s pages describe, grouped and coded by who delivers it, with the published 2026–27 fee. Pick your child’s need to see what applies.",
@@ -546,12 +554,12 @@
       "t": "Accompagnement et soutien émotionnel"
     },
     {
-      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling.",
-      "of": "e91e1968",
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling. This team is separate from ESS, and the school does not describe its support as clinical or behavioral intervention.",
+      "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
       ],
-      "t": "L’équipe bien-être propose « un conseil biblique par le mentorat et le discipulat, des groupes de soutien entre pairs ». Le lycée dispose d’une direction de l’orientation (Director of Counseling)."
+      "t": "L’équipe bien-être propose « un conseil biblique par le mentorat et le discipulat, des groupes de soutien entre pairs ». Le lycée dispose d’une direction de l’orientation (Director of Counseling). Cette équipe est distincte d’ESS, et l’école ne décrit pas son soutien comme une intervention clinique ou comportementale."
     },
     {
       "text": "Emotional & behavioral intervention",
@@ -782,12 +790,28 @@
       "t": "Coaching scolaire et tutorat"
     },
     {
-      "text": "Six questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, therapy and health staff.",
-      "of": "bea66fc4",
+      "text": "Tracey Bennett, the high school’s Director of Counseling, is not on this list.",
+      "of": "24ee3376",
+      "at": [
+        "hickory-grove-christian:staff.note.strong"
+      ],
+      "t": "Tracey Bennett, directrice de l’orientation (Director of Counseling) du lycée, ne figure pas sur cette liste."
+    },
+    {
+      "text": "The school lists her on its College and Career Planning page rather than the Student Services staff list. College Support covers the counseling office, where the school profile pairs her with Dr. Similton.",
+      "of": "0651b7a0",
+      "at": [
+        "hickory-grove-christian:staff.note.muted"
+      ],
+      "t": "L’école la mentionne sur sa page College and Career Planning plutôt que sur la liste du personnel de Student Services. La section Orientation universitaire présente le service d’orientation, où le profil de l’école l’associe au Dr Similton."
+    },
+    {
+      "text": "Seven questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, grade span, therapy and health staff.",
+      "of": "fe0917a6",
       "at": [
         "hickory-grove-christian:ask.headline"
       ],
-      "t": "Six questions à poser lors de la visite, sur ce que le site de l’école laisse sans réponse : méthodes, tarifs, justificatifs, thérapies et personnel de santé."
+      "t": "Sept questions à poser lors de la visite, sur ce que le site de l’école laisse sans réponse : méthodes, tarifs, justificatifs, niveaux couverts, thérapies et personnel de santé."
     },
     {
       "text": "Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
@@ -798,12 +822,12 @@
       "t": "Quelles méthodes de lecture et de mathématiques les enseignants d’ESS utilisent-ils (p. ex. Orton-Gillingham, Wilson, enseignement structuré de la lecture) ?"
     },
     {
-      "text": "The 2026–27 fee schedule lists the HS Instructional Support Class at $4,455 a year and again at $2,227 “/year.” Is $2,227 the per-semester price?",
-      "of": "1e07d6f3",
+      "text": "The 2026–27 fee schedule prints two figures for the HS Instructional Support Class: $4,455 a year and $2,227 “/year.” Is $2,227 the per-semester price?",
+      "of": "5cc1aea6",
       "at": [
         "hickory-grove-christian:ask.questions[1]"
       ],
-      "t": "La grille tarifaire 2026–27 indique la HS Instructional Support Class à $4,455 par an, puis à $2,227 « /year ». $2,227 est-il le prix par semestre ?"
+      "t": "La grille tarifaire 2026–27 affiche deux montants pour la HS Instructional Support Class : $4,455 par an et $2,227 « /year ». $2,227 est-il le prix par semestre ?"
     },
     {
       "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
@@ -838,12 +862,20 @@
       "t": "Y a-t-il un infirmier ou une infirmière scolaire, ou un psychologue scolaire, parmi le personnel ?"
     },
     {
-      "text": "October 20, 2026",
-      "of": "4d0c56fd",
+      "text": "Can a Transitional Kindergarten (TK) student receive ESS services? Every line on the 2026–27 fee schedule starts at K5.",
+      "of": "38e33bee",
+      "at": [
+        "hickory-grove-christian:ask.questions[6]"
+      ],
+      "t": "Un élève de Transitional Kindergarten (TK) peut-il bénéficier des services d’ESS ? Chaque ligne de la grille tarifaire 2026–27 commence à la K5."
+    },
+    {
+      "text": "October 23, 2026",
+      "of": "146e5aa4",
       "at": [
         "hickory-grove-christian:ask.asOf"
       ],
-      "t": "20 octobre 2026"
+      "t": "23 octobre 2026"
     }
   ]
 }

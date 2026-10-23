@@ -29,12 +29,12 @@
       "t": "ضمن خدمات ESS"
     },
     {
-      "text": "kindergarten (K5) through 12th grade, per the 2026–27 fee schedule",
-      "of": "b940b8e2",
+      "text": "K5 through 12th grade, per the 2026–27 fee schedule; ESS access for Transitional Kindergarten is not stated",
+      "of": "b054ff2e",
       "at": [
         "hickory-grove-christian:stats[0].note"
       ],
-      "t": "من الروضة (K5) حتى الصف الثاني عشر، وفق جدول رسوم 2026–27"
+      "t": "من K5 حتى الصف الثاني عشر، وفق جدول رسوم 2026–27؛ ولا يُذكر ما إذا كان طلاب الروضة الانتقالية يحصلون على خدمات ESS"
     },
     {
       "text": "named Student Services staff",
@@ -115,6 +115,14 @@
         "hickory-grove-christian:eligibility.scope"
       ],
       "t": "«حاليًا، لا يمتد تخصصنا إلى تقديم التدخلات العاطفية والسلوكية، إذ إن كوادرنا مؤهلة على أفضل وجه لتقديم التدخلات الأكاديمية.»"
+    },
+    {
+      "text": "That limit is on ESS’s academic services. A separate wellness team offers “biblical counsel through mentorship and discipleship, peer support groups”; the school does not describe that support as clinical or behavioral intervention.",
+      "of": "dccb05a3",
+      "at": [
+        "hickory-grove-christian:eligibility.note"
+      ],
+      "t": "يخصّ هذا الحدّ الخدمات الأكاديمية لـESS. ويقدّم فريق عافية منفصل «إرشادًا كتابيًا من خلال التوجيه والتلمذة، ومجموعات دعم الأقران»؛ ولا تصف المدرسة هذا الدعم بأنه تدخّل سريري أو سلوكي."
     },
     {
       "text": "Every service the school’s pages describe, grouped and coded by who delivers it, with the published 2026–27 fee. Pick your child’s need to see what applies.",
@@ -546,12 +554,12 @@
       "t": "الإرشاد والدعم العاطفي"
     },
     {
-      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling.",
-      "of": "e91e1968",
+      "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling. This team is separate from ESS, and the school does not describe its support as clinical or behavioral intervention.",
+      "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
       ],
-      "t": "يقدّم فريق العافية «إرشادًا كتابيًا من خلال التوجيه والتلمذة، ومجموعات دعم الأقران». ولدى المرحلة الثانوية مدير للإرشاد (Director of Counseling)."
+      "t": "يقدّم فريق العافية «إرشادًا كتابيًا من خلال التوجيه والتلمذة، ومجموعات دعم الأقران». ولدى المرحلة الثانوية مدير للإرشاد (Director of Counseling). هذا الفريق منفصل عن ESS، ولا تصف المدرسة دعمه بأنه تدخّل سريري أو سلوكي."
     },
     {
       "text": "Emotional & behavioral intervention",
@@ -782,12 +790,28 @@
       "t": "التدريب الأكاديمي ودعم الدروس الخصوصية"
     },
     {
-      "text": "Six questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, therapy and health staff.",
-      "of": "bea66fc4",
+      "text": "Tracey Bennett, the high school’s Director of Counseling, is not on this list.",
+      "of": "24ee3376",
+      "at": [
+        "hickory-grove-christian:staff.note.strong"
+      ],
+      "t": "Tracey Bennett، مديرة الإرشاد (Director of Counseling) في المرحلة الثانوية، ليست في هذه القائمة."
+    },
+    {
+      "text": "The school lists her on its College and Career Planning page rather than the Student Services staff list. College Support covers the counseling office, where the school profile pairs her with Dr. Similton.",
+      "of": "0651b7a0",
+      "at": [
+        "hickory-grove-christian:staff.note.muted"
+      ],
+      "t": "تذكرها المدرسة في صفحة College and Career Planning لا في قائمة موظفي Student Services. ويتناول قسم الدعم الجامعي مكتب الإرشاد، حيث يذكرها الملف التعريفي للمدرسة إلى جانب Dr. Similton."
+    },
+    {
+      "text": "Seven questions to take on the tour, covering what the school’s site leaves unanswered: methods, fees, documentation, grade span, therapy and health staff.",
+      "of": "fe0917a6",
       "at": [
         "hickory-grove-christian:ask.headline"
       ],
-      "t": "ستة أسئلة تحملها إلى الزيارة، حول ما يتركه موقع المدرسة دون إجابة: الطرق، والرسوم، والمستندات، والعلاجات، والكادر الصحي."
+      "t": "سبعة أسئلة تحملها إلى الزيارة، حول ما يتركه موقع المدرسة دون إجابة: الطرق، والرسوم، والمستندات، والصفوف المشمولة، والعلاجات، والكادر الصحي."
     },
     {
       "text": "Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
@@ -798,12 +822,12 @@
       "t": "ما الطرق التي يستخدمها معلّمو ESS في القراءة والرياضيات (مثل Orton-Gillingham أو Wilson أو تعليم القراءة المنظَّم)؟"
     },
     {
-      "text": "The 2026–27 fee schedule lists the HS Instructional Support Class at $4,455 a year and again at $2,227 “/year.” Is $2,227 the per-semester price?",
-      "of": "1e07d6f3",
+      "text": "The 2026–27 fee schedule prints two figures for the HS Instructional Support Class: $4,455 a year and $2,227 “/year.” Is $2,227 the per-semester price?",
+      "of": "5cc1aea6",
       "at": [
         "hickory-grove-christian:ask.questions[1]"
       ],
-      "t": "يذكر جدول رسوم 2026–27 أن HS Instructional Support Class تكلّف $4,455 سنويًا، ثم مرة أخرى $2,227 «/year». فهل $2,227 هو سعر الفصل الدراسي الواحد؟"
+      "t": "يطبع جدول رسوم 2026–27 رقمين لـHS Instructional Support Class: $4,455 سنويًا و$2,227 «/year». فهل $2,227 هو سعر الفصل الدراسي الواحد؟"
     },
     {
       "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
@@ -838,12 +862,20 @@
       "t": "هل يضم الكادر ممرضًا مدرسيًا أو أخصائيًا نفسيًا مدرسيًا؟"
     },
     {
-      "text": "October 20, 2026",
-      "of": "4d0c56fd",
+      "text": "Can a Transitional Kindergarten (TK) student receive ESS services? Every line on the 2026–27 fee schedule starts at K5.",
+      "of": "38e33bee",
+      "at": [
+        "hickory-grove-christian:ask.questions[6]"
+      ],
+      "t": "هل يمكن لطالب في الروضة الانتقالية (TK) أن يحصل على خدمات ESS؟ كل سطر في جدول رسوم 2026–27 يبدأ من K5."
+    },
+    {
+      "text": "October 23, 2026",
+      "of": "146e5aa4",
       "at": [
         "hickory-grove-christian:ask.asOf"
       ],
-      "t": "20 أكتوبر 2026"
+      "t": "23 أكتوبر 2026"
     }
   ]
 }

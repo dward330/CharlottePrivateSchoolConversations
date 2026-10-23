@@ -24,8 +24,8 @@
       ]
     },
     {
-      "t": "dalla scuola dell’infanzia (K5) al 12º anno, secondo il tariffario 2026–27",
-      "of": "b940b8e2",
+      "t": "dal K5 al 12º anno, secondo il tariffario 2026–27; non è indicato se gli studenti del Transitional Kindergarten abbiano accesso a ESS",
+      "of": "b054ff2e",
       "at": [
         "hickory-grove-christian:stats[0].note"
       ]
@@ -98,6 +98,13 @@
       "of": "3a359846",
       "at": [
         "hickory-grove-christian:eligibility.scope"
+      ]
+    },
+    {
+      "t": "Quel limite riguarda i servizi didattici di ESS. Un team del benessere separato offre “consulenza biblica attraverso mentoring e discepolato, gruppi di sostegno tra pari”; la scuola non descrive quel sostegno come intervento clinico o comportamentale.",
+      "of": "dccb05a3",
+      "at": [
+        "hickory-grove-christian:eligibility.note"
       ]
     },
     {
@@ -477,8 +484,8 @@
       ]
     },
     {
-      "t": "Il team del benessere offre “consulenza biblica attraverso mentoring e discepolato, gruppi di sostegno tra pari”. La scuola superiore ha una direzione del counseling (Director of Counseling).",
-      "of": "e91e1968",
+      "t": "Il team del benessere offre “consulenza biblica attraverso mentoring e discepolato, gruppi di sostegno tra pari”. La scuola superiore ha una direzione del counseling (Director of Counseling). Questo team è distinto da ESS, e la scuola non descrive il suo sostegno come intervento clinico o comportamentale.",
+      "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
       ]
@@ -684,8 +691,22 @@
       ]
     },
     {
-      "t": "Sei domande da portare alla visita, su ciò che il sito della scuola lascia senza risposta: metodi, tariffe, documentazione, terapie e personale sanitario.",
-      "of": "bea66fc4",
+      "t": "Tracey Bennett, direttrice del counseling (Director of Counseling) della scuola superiore, non compare in questo elenco.",
+      "of": "24ee3376",
+      "at": [
+        "hickory-grove-christian:staff.note.strong"
+      ]
+    },
+    {
+      "t": "La scuola la indica nella sua pagina College and Career Planning anziché nell’elenco del personale di Student Services. La sezione Orientamento universitario tratta l’ufficio di counseling, dove il profilo della scuola la affianca al Dr. Similton.",
+      "of": "0651b7a0",
+      "at": [
+        "hickory-grove-christian:staff.note.muted"
+      ]
+    },
+    {
+      "t": "Sette domande da portare alla visita, su ciò che il sito della scuola lascia senza risposta: metodi, tariffe, documentazione, classi coperte, terapie e personale sanitario.",
+      "of": "fe0917a6",
       "at": [
         "hickory-grove-christian:ask.headline"
       ]
@@ -698,8 +719,8 @@
       ]
     },
     {
-      "t": "Il tariffario 2026–27 indica la HS Instructional Support Class a $4,455 all’anno e di nuovo a $2,227 “/year”. $2,227 è il prezzo a semestre?",
-      "of": "1e07d6f3",
+      "t": "Il tariffario 2026–27 riporta due cifre per la HS Instructional Support Class: $4,455 all’anno e $2,227 “/year”. $2,227 è il prezzo a semestre?",
+      "of": "5cc1aea6",
       "at": [
         "hickory-grove-christian:ask.questions[1]"
       ]
@@ -733,8 +754,15 @@
       ]
     },
     {
-      "t": "20 ottobre 2026",
-      "of": "4d0c56fd",
+      "t": "Uno studente del Transitional Kindergarten (TK) può ricevere i servizi ESS? Ogni riga del tariffario 2026–27 parte dal K5.",
+      "of": "38e33bee",
+      "at": [
+        "hickory-grove-christian:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "23 ottobre 2026",
+      "of": "146e5aa4",
       "at": [
         "hickory-grove-christian:ask.asOf"
       ]
