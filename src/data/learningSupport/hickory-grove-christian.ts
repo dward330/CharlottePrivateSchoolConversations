@@ -66,7 +66,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
       'Every service is fee-based under an annual contract.',
   },
   stats: [
-    { value: 'K–12', label: 'served by ESS', note: 'K5 through 12th grade, per the 2026–27 fee schedule; ESS access for Transitional Kindergarten is not stated' },
+    { value: 'K–12', label: 'served by ESS', note: 'K through 12th grade, per the 2026–27 fee schedule; ESS access for Transitional Kindergarten is not stated' },
     { value: '9', label: 'named Student Services staff', note: 'including two ESS teachers and two academic coaches' },
     { value: '$300+', label: 'per year, beyond tuition', note: 'case management alone; instruction runs up to $4,455' },
   ],
