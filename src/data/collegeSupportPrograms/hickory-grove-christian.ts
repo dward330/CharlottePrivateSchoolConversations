@@ -531,7 +531,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     support: [
       {
         label: 'Educational Support Services',
-        text: 'The Student Services page names an Educational Support Services (ESS) channel alongside standardized-testing support and wellness, but publishes no learning-differences program detail, resource-room description, or accommodations figures.',
+        text: 'Fee-based **Educational Support Services (ESS)**, under an annual contract, serve K5 through 12th grade: accommodations plans built from educational testing or a prior 504/IEP, approved testing accommodations, and high school Academic Coaching.',
       },
     ],
     middle: [
@@ -588,7 +588,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       'How many seniors does each of the two counselors carry, and is there a college-only counselor at peak season?',
       'Which of the 17 AP courses actually run in 2025–26 — the profile names 14, the school advertises 17?',
       'The acceptance lists mark no enrollments — where did the Classes of 2024 and 2025 actually matriculate, and in what concentrations?',
-      'What does Educational Support Services (ESS) provide, and how are College Board / ACT accommodations documented?',
+      'How does the school document and support College Board and ACT testing accommodations for a student with an ESS accommodations plan?',
       'Only 20 students took the SAT and 85 the ACT — what share of the class tests, and how is test-optional handled?',
       'How does the College Admissions Boot Camp fit the application calendar, and is it open to all rising juniors and seniors?',
     ],

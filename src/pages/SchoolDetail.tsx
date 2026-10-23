@@ -273,9 +273,11 @@ function ClubsCardBody({
 function CollegeSupportCardBody({
   program,
   cardKey,
+  hasLearningSupport,
 }: {
   program: CollegeSupportProgram
   cardKey: (typeof COLLEGE_SUPPORT_CARDS)[number]['key']
+  hasLearningSupport: boolean
 }) {
   switch (cardKey) {
     case 'ncAdmissions':
@@ -289,7 +291,7 @@ function CollegeSupportCardBody({
     case 'edge':
       return <EdgeBody data={program.edge!} />
     case 'wholeClass':
-      return <WholeClassBody data={program.wholeClass!} />
+      return <WholeClassBody data={program.wholeClass!} hasLearningSupport={hasLearningSupport} />
     case 'verdict':
       return <CsVerdictBody data={program.verdict!} />
   }
@@ -1260,6 +1262,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <CollegeSupportCardBody
                             program={collegeSupport}
                             cardKey={card.key}
+                            hasLearningSupport={covered.some((c) => c.slug === 'learning-support')}
                           />
                         </div>
                       </details>

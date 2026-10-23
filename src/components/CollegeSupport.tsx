@@ -728,7 +728,13 @@ const PERCENTILE_COLS = [
   'tables.mean',
 ]
 
-export function WholeClassBody({ data }: { data: WholeClass }) {
+export function WholeClassBody({
+  data,
+  hasLearningSupport = false,
+}: {
+  data: WholeClass
+  hasLearningSupport?: boolean
+}) {
   const { t: tr } = useTranslation()
   const { t } = useTranslation()
   return (
@@ -811,6 +817,25 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
               {data.supportTitle ?? t('sections.learningDifferences')}
             </Heading>
             <Rows rows={data.support} />
+            {hasLearningSupport && (
+              <p className="cs-ls-link-row">
+                {/* A button-like anchor that scrolls in place: the hash router
+                    owns location.hash, so a raw "#topic-…" href would be read
+                    as a route (the same reason SchoolDetail's sidebar does this). */}
+                <a
+                  className="cs-ls-link"
+                  href="#topic-learning-support"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    document
+                      .getElementById('topic-learning-support')
+                      ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                  }}
+                >
+                  {t('collegeSupport.seeLearningSupport')}
+                </a>
+              </p>
+            )}
             {data.supportNote && <Note text={data.supportNote} />}
           </div>
         )}
