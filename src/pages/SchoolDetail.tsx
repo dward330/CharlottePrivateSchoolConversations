@@ -1103,6 +1103,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             This is the most visible element on every school page.
                             Caught by the Providence Day French print-out. */}
                         <div className="stat-tile-val">{localizeMoneyText(String(vm.values[slug]))}</div>
+                        {/* College Support tiles repeat Compare's second line — the
+                            acceptance window under a bucket fraction, the exam year
+                            under the AP rate — so the figure carries its span here
+                            too. Scoped to this area: other areas' `subs` (the
+                            annualized aftercare cost) were not asked for on tiles. */}
+                        {t.slug === 'college-support' && vm.subs?.[slug] && (
+                          <div className="stat-tile-sub">{localizeMoneyText(vm.subs[slug])}</div>
+                        )}
                         <div className="stat-tile-label">{vm.label}</div>
                       </div>
                     ))}

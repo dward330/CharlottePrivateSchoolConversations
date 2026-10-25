@@ -701,3 +701,10 @@ Phase 1 (English), 2026-10-25:
   reports them. Phase 2 must translate the new `subs` strings, chiefly
   `(years not published)`.
 - `check:live` now sits at 95 unresolvable entries per locale, all cleared by Phase 2.
+- **School-page College Support stat tiles show the same second line** (user request).
+  `SchoolDetail.tsx` renders `vm.subs[slug]` as `.stat-tile-sub` under the value. It is
+  **scoped to `college-support`**, so the After School aftercare-cost tile, the one other
+  tile row carrying `subs`, does not gain its annualized line unasked. Browser-checked on
+  Cannon (1400px and 360px, no overflow) and on Carmel Christian, which shows
+  `(years not published)`. Phase 2 has no new chrome keys: the strings are the
+  same `subs` data Compare uses.

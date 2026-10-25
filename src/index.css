@@ -1273,6 +1273,9 @@ main { flex: 1; }
 
 .stat-tile-val { font-family: var(--heading); font-weight: 600; font-size: 28px; line-height: 1.15; color: var(--ink); }
 .stat-tile-label { color: var(--muted); font-size: 12px; margin-top: 2px; }
+/* The span a tile's figure covers ("(2022–2026)") — Compare's .mark-sub, sized
+   for the tile. */
+.stat-tile-sub { font-family: var(--heading); font-weight: 500; font-size: 14px; line-height: 1.2; color: var(--muted); margin-top: 2px; }
 
 /* expandable research cards, two-up on wide screens */
 /* minmax(0, …), never a bare 1fr: a 1fr track can never be narrower than its
