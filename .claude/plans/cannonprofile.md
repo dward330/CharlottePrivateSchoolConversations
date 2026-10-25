@@ -708,3 +708,7 @@ Phase 1 (English), 2026-10-25:
   Cannon (1400px and 360px, no overflow) and on Carmel Christian, which shows
   `(years not published)`. Phase 2 has no new chrome keys: the strings are the
   same `subs` data Compare uses.
+- **Counseling card flags removed** (user request): the 28:1 verify flag and both
+  publication-gap flags (counselor tenure/rep visits; student-facing curriculum). The card
+  now has `flags: []`. The `~26:1` stat label still says it is computed. Phase 2 should
+  expect those three stamps to retire. All three went, so no remaining flag index shifts.

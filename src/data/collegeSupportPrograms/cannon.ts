@@ -634,20 +634,7 @@ export const cannon: CollegeSupportProgram = {
       'Second annual edition held **26 April 2026**, confirmed independently from a college’s own registration portal',
       'SCOIR · an annually refreshed School Profile · CEEB 340879',
     ],
-    flags: [
-      {
-        kind: 'verify',
-        text: 'The “28:1” ratio Cannon once marketed no longer appears on its College Counseling page (checked 2026-10-25), and it only ever worked as seniors per counselor. The figure above is computed: 105 Class of 2026 seniors ÷ 4 counselors ≈ 26:1. Measured across the 421-student Upper School it is about 105:1, and the school publishes no caseload figure of its own.',
-      },
-      {
-        kind: 'gap',
-        text: 'No counselor tenure, prior background, degrees or biographies are published — names and titles only, so director tenure is unknown. Neither rep-visit counts nor counselor campus-visit counts are published in any form. Note that Davidson Day’s published “80+ reps a year” belongs to Davidson Day, not Cannon.',
-      },
-      {
-        kind: 'gap',
-        text: 'The student-facing curriculum is unpublished: seminar cadence, one-on-one meeting counts, essay workshops and junior conference timing appear nowhere. Cannon publishes what it invites parents to, not what it does with students. A four-year self-exploration strand described in the 2024–25 profile was cut from later editions without explanation.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'cannonschool.org — College Counseling', url: COUNSELING },
       { label: '2026–27 School Profile (staffing, enrollment)', url: PROFILE_2627 },
