@@ -1,11 +1,11 @@
 ---
 name: cannonprofile
 title: Refresh Cannon School from its 2026–27 School Profile — new 2024–26 acceptance list (rescored buckets), Class of 2026 GPA/test bands, May 2026 AP stats, 0/1/5/6 load ceiling, Honors Accelerated +0.5, new counseling coordinator, NHS chapter; re-point every profile citation
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-25
 branch: feat/cannon-profile-2627
-prs: []
+prs: [363]
 ---
 
 # Refresh Cannon School from its 2026–27 School Profile
@@ -740,3 +740,27 @@ Phase 1 (English), 2026-10-25:
   addresses" section appended to an existing research file per school, so no new research
   section or card appears. `check:live` sits at 99 per locale, all in the College Support
   overlay.
+
+### Phase 2 (all nine prose locales), 2026-10-25 — PR #363
+
+- **Scope measured by stamp splice** (`i18n_splice_work.mjs`): 111 added / 108 dropped per
+  locale — college-support 55/65, metric-values 50/38, student-clubs 6/5; 0 kept
+  translations changed. The three Counseling flags, Charlotte Catholic's seven plain-text
+  addresses and the old Cannon prose retired as expected.
+- **54 strings per locale were digit swaps** of a same-template entry the locale had already
+  translated (bucket quals, `N / 75` values, `105`, `90%`, `Every acceptance, 2022–2026`).
+  This was only accepted where the translation carried the English digit tokens one-to-one. The
+  remaining 57 were hand-translated. Staff detail lines avoid gendered forms (fr/it/ar/es
+  reworded rather than inferring from a name).
+- **fa/ar ranges written as words** in prose: `3.76 تا 3.94`, `4.08 تا 4.28`, and in ar
+  `من … إلى` / `بين … و`. The browser check also caught the template-carried
+  `(1510–1560)` in the SAT note drawing reversed, and it was reworded the same way. In fa/ar,
+  `(2023 + 2025)` is written `(2023 و2025)`. Year ranges in Compare and on the tiles are isolated at
+  render and read correctly.
+- **`check_work_integrity --base`** fails only on string counts (the known refresh trap);
+  verified by stamp instead.
+- **Left alone, found during verification (pre-existing, outside this plan):**
+  1. GPA band tiles reverse in fa/ar for every school (`CollegeSupport.tsx:815` renders
+     `{q.gpa}` raw).
+  2. Four metric-values quals (`[6]`/`[7]` for charlotte-catholic and gaston-day) say "2026
+     tables" in all nine locales where the English says "2027".
