@@ -92,7 +92,11 @@ export type TestingCard = {
 
 export type StaffCard = {
   headline: string
-  people: { name: string; role: string }[]
+  /**
+   * `email` only where the school's own directory publishes it — never built
+   * from a name pattern. Rendered as a mailto link, never translated.
+   */
+  people: { name: string; role: string; email?: string }[]
   note?: LearningLead
   sources: Source[]
 }

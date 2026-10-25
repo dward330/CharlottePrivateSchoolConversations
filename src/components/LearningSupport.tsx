@@ -16,6 +16,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
+import { schoolInquiryMailto } from '../lib/contact.ts'
 import { SourceRow } from './SourceRow.tsx'
 import {
   LEARNING_NEEDS,
@@ -304,14 +305,19 @@ function TestingBody({ data }: { data: TestingCard }) {
   )
 }
 
-function StaffBody({ data }: { data: StaffCard }) {
+function StaffBody({ data, schoolName }: { data: StaffCard; schoolName: string }) {
   return (
     <div className="ls-body">
-      <div className="ls-staff">
+      <div className="ls-staff" data-email={data.people.some((p) => p.email) || undefined}>
         {data.people.map((p) => (
           <div key={p.name} className="ls-person">
             <span className="ls-person-name">{p.name}</span>
             <span className="text-muted ls-person-role">{p.role}</span>
+            {p.email && (
+              <a className="ls-person-email" href={schoolInquiryMailto(p.email, schoolName)}>
+                <bdi dir="ltr">{p.email}</bdi>
+              </a>
+            )}
           </div>
         ))}
       </div>
@@ -353,9 +359,12 @@ export function LearningSupportStatBand({ program }: { program: LearningSupportP
 export function LearningSupportCardBody({
   program,
   cardKey,
+  schoolName,
 }: {
   program: LearningSupportProgram
   cardKey: LearningSupportCardKey
+  /** For the staff card's mailto subject, "<School name> Inquiry". */
+  schoolName: string
 }) {
   switch (cardKey) {
     case 'eligibility':
@@ -367,7 +376,7 @@ export function LearningSupportCardBody({
     case 'testing':
       return <TestingBody data={program.testing!} />
     case 'staff':
-      return <StaffBody data={program.staff!} />
+      return <StaffBody data={program.staff!} schoolName={schoolName} />
     case 'ask':
       return <AskBody data={program.ask!} />
   }

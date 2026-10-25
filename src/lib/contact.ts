@@ -12,6 +12,15 @@ export const CONTACT_EMAIL = 'k12schoolResearcher@gmail.com'
  */
 export const CONTACT_SUBJECT = 'Charlotte School Insights — Inquiry'
 
+/**
+ * `mailto:` href for a school staff member, subject "<School name> Inquiry".
+ * English in every locale for the same reason as CONTACT_SUBJECT: the school
+ * reads it, and the name is a proper noun.
+ */
+export function schoolInquiryMailto(email: string, schoolName: string): string {
+  return `mailto:${email}?subject=${encodeURIComponent(`${schoolName} Inquiry`)}`
+}
+
 /** `mailto:` href with the subject URL-encoded. No body is pre-filled. */
 export function contactMailto(): string {
   return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(CONTACT_SUBJECT)}`

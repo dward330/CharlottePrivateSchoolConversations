@@ -189,6 +189,7 @@ export const PROSE_KEYS = new Set([
 export const SKIP_KEYS = new Map([
   ['url', 'link target'],
   ['sourceUrl', 'link target'],
+  ['email', 'email address — a mailto target, copied char-for-char'],
   ['status', 'render code — priced / range / unpriced, mapped to a glyph'],
   ['icon', 'render code — info / clock / book, mapped to an SVG path'],
   ['topic', 'topic slug — routing key, never displayed'],

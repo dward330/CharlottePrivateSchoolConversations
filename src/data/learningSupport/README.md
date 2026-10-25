@@ -39,5 +39,12 @@ The section renders on a school's page only when **both** exist:
   because there the gap is itself the finding.
 - **No adult staff member is omitted for privacy reasons**, but **no student is ever
   named.**
+- **Staff `email` only where the school's own directory publishes it.** Finalsite
+  directories encode the address in `FS.util.insertEmail(el, "<domain reversed>",
+  "<local reversed>")`, so reversing it is reading the published address. Never build
+  one from a name pattern. A profile with no email gets no `email`, and the person
+  still renders. Each address and its directory id is recorded in the school's research
+  file. The link's subject is "<School name> Inquiry" (`schoolInquiryMailto`), in
+  English in every locale.
 
 Build new schools through `/learning-support` → `/plan` → `/implement`.

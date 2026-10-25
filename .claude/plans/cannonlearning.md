@@ -580,3 +580,21 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
   in **all ten catalogs**. That was a pure deletion of the second sentence, so it needs no
   Phase 2 work. The Services legend's NS line ("not found on the school's site — not the
   same as not offered") still carries the same meaning.
+- **Review edit (2026-10-24): staff emails on Who You'll Work With, for every school with
+  the card (user request).** `StaffCard.people[]` gains an optional `email`, shown as a
+  mailto link with subject "<School name> Inquiry" (`schoolInquiryMailto` in
+  `src/lib/contact.ts`), in English in every locale like `CONTACT_SUBJECT`.
+  - **Sources.** Addresses come only from each school's own Finalsite directory: the
+    `FS.util.insertEmail` call with its reversed strings, which is the address the page
+    displays. None is built from a name pattern. **Cannon 7 of 12**: Amann, Ridenhour,
+    Vreeburg, E. Lewis and Rice publish none, and the Wade address matches the MS
+    handbook. **Hickory Grove 9 of 9.** Provenance tables are appended to both schools'
+    Official Site Research files and re-ingested. Hickory Grove's staff `sources` gains
+    `hgchristian.org — Our Staff`. The rule is in `learningSupport/README.md`.
+  - **Translation.** `email` is in `SKIP_KEYS` (`scripts/i18n_fields.mjs`), so no
+    address is extracted: 0 in a fresh learning-support extract. That means **no
+    Phase 2 work**, and Hickory Grove's overlays are unaffected.
+  - **Layout.** When any person in the card has an email, rows switch to a three-column
+    grid (`.ls-staff[data-email]`), so a row with no email keeps its role aligned. It
+    stacks below 640px. Verified in Chrome: 1280 light/dark, `fa` (mirrored) and 320,
+    plus `audit:mobile` for both schools.

@@ -616,6 +616,36 @@ published.
  the school's page attaches it to the Suicide and Crisis Lifeline line ("call 988 or
  text HOME to 741741"). Render as the school words it.
 
+## Staff email addresses (added 2026-10-24)
+
+Collected 2026-10-24 for the "Who You'll Work With" card. Each address is the one the
+school itself publishes on the person's **Faculty & Staff Directory profile** (S10). The
+profile popup is served by
+`https://www.cannonschool.org/fs/elements/6142?const_id=<id>&show_profile=true`, and it
+renders the address as a mailto link through Finalsite's
+`FS.util.insertEmail(<el>, "<domain reversed>", "<local part reversed>")`. Reversing the
+two strings gives the address the popup displays. **No address is built from a name
+pattern.** Where a profile publishes no email, none is given.
+
+Cross-check: Tracy Wade's address also appears in plain text in the Middle School
+Student-Parent Handbook 2025-2026 (S9, p. 10), "twade@cannonschool.org", and it matches
+the decoded profile.
+
+| Name | Directory const_id | Email as published |
+|---|---|---|
+| Rhiannon Bresalier | 16988 | rbresalier@cannonschool.org |
+| Sabrina Amann | 3029 | — (profile publishes no email) |
+| Tracy Wade | 2896 | twade@cannonschool.org |
+| Michelle Donah | 17017 | mdonah@cannonschool.org |
+| Jennifer Ridenhour | 2954 | — (profile publishes no email) |
+| Sarah Miller | 2949 | smiller@cannonschool.org |
+| Sophie Vreeburg | 14978 | — (profile publishes no email) |
+| Emily Lewis | 9544 | — (profile publishes no email) |
+| Thomas Underwood | 14987 | tunderwood@cannonschool.org |
+| Kimberly Stiffel | 22125 | kstiffel@cannonschool.org |
+| Anna Allred-McGee | 13364 | aallredmcgee@cannonschool.org |
+| Whitney Rice | 14365 | — (profile publishes no email) |
+
 
 ---
 
@@ -638,6 +668,7 @@ published.
 - https://www.cannonschool.org/cannon-life/school-counseling
 - https://www.cannonschool.org/cannon-school-news/details/~board/cannon-news-cougar-news-internal-sources/post/hudson-family-academic-resource-center-celebrates-new-chapter-in-upper-school
 - https://www.cannonschool.org/crisis-resources
+- https://www.cannonschool.org/fs/elements/6142?const_id=<id>&show_profile=true`
 - https://www.cannonschool.org/fs/resource-manager/view/7218833c-b7e7-48e5-b312-98b4016ccbae
 - https://www.cannonschool.org/international-student-program
 - https://www.cannonschool.org/news-and-stories/in-the-news-details/~board/cannon-news-cougar-news-internal-sources/post/strengthening-confidence-through-support-the-doviacademic-resource-center
