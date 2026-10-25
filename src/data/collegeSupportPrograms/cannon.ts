@@ -782,12 +782,7 @@ export const cannon: CollegeSupportProgram = {
         text: 'International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal and Western); service academies and the military (the Air Force, Naval and Coast Guard academies, The Citadel and VMI); technical institutes (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT and Embry-Riddle); HBCUs (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State and Winston-Salem State).',
       },
     ],
-    flags: [
-      {
-        kind: 'gap',
-        text: 'No gap-year statistic, policy or counselling service is described anywhere — and since 98% four-year plus 2% two-year accounts for the whole Class of 2026, the published outcomes leave no room for a gap-year cohort at all.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'cannonschool.org — 2026–27 School Profile (testing distribution, GPA bands)', url: PROFILE_2627 },
       { label: '2024–25 School Profile (the year test scores were withheld)', url: PROFILE_2425 },
