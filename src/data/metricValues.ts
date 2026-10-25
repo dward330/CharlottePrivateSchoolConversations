@@ -2022,7 +2022,8 @@ export function valueMetricsForTopic(topicSlug: string, lang = 'en'): ValueMetri
   // prefix. Localize the array itself so `walk` produces that index, then pick
   // the topic's rows back out. Filtering first and localizing each row would
   // renumber the indices and resolve nothing.
-  const all = localized(VALUE_METRICS, index, 'providence-day')
+  // No display transform: Compare parses these strings to rank and tint cells.
+  const all = localized(VALUE_METRICS, index, 'providence-day', false)
   return all.filter((m) => m.topic === topicSlug)
 }
 

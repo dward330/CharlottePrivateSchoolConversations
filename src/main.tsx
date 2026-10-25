@@ -4,6 +4,12 @@ import './index.css'
 import { ready } from './lib/i18n.ts'
 import { initAnalytics, pathForHash } from './lib/analytics.ts'
 import App from './App.tsx'
+import { setLeafTransform } from './lib/localizeData.ts'
+import { isolateFigures } from './lib/format.ts'
+
+// RTL only (isolateFigures is a no-op elsewhere): keep numeric ranges in data
+// text drawing in source order at every render site. See localizeData.ts.
+setLeafTransform(isolateFigures)
 
 // Wait for the saved/detected locale's catalog before the first paint, so a
 // returning Spanish reader doesn't get a frame of English. `ready` never
