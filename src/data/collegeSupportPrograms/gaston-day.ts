@@ -735,7 +735,7 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },
       { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and the ~18:1 senior caseload is among the lowest on this roster.' },
       { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the programme rather than left to the individual student.' },
-      { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 23 top-75 liberal arts colleges — wide range for classes of ~35.' },
+      { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },
     ],
     checklist: [

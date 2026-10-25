@@ -631,8 +631,9 @@ Phase 1 (English), 2026-10-25:
   The other schools' explanation lines are rewritten English, so Phase 2 translates them
   too: `check:live` sits at 88 unresolvable per locale, up from 72. A DATA-SCHEMA note
   records the rule.
-- Spotted, not fixed: Gaston Day's verdict prose says "23 top-75 liberal arts colleges"
-  against its own `24 / 75` LAC row. That predates this plan.
+- **Gaston Day verdict prose fixed (user's request).** "23 top-75 liberal arts
+  colleges" now reads **24**, matching its `24 / 75` LAC row. The mismatch predated this
+  plan. This adds one more English edit for Phase 2 (`check:live` goes to 89 per locale).
 - The plan's step-9 grep still hits `Clay Morrell` once. That is intentional: the
   coordinator `detail` the plan specified ("succeeding Clay Morrell").
 - Senior Capstone tile `105`: its source link stays the Upper School curriculum page (as
