@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 470 ingested research documents.
+**13 schools × 12 research areas**, 472 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -60,7 +60,7 @@ exists yet and **the section does not render at all** for that school.
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
-| Learning Support & Student Services | `learning-support` | 2 | — | — | — | — | — | — | — | — | — | 1 | — | — |
+| Learning Support & Student Services | `learning-support` | 2 | — | — | — | — | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -103,7 +103,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Learning Support Research (2026) | 2/13 | 2 |
+| `redesign-research` | Learning Support Research (2026) | 3/13 | 2 |
 
 ### Student Clubs `student-clubs`
 
@@ -927,9 +927,24 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 | `staff` | Who You'll Work With | — |
 | `ask` | Ask the School | — |
 
-**Schools with data:** 2/13 — absent: `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `davidson-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
+**`testing` is about how a learning need is identified, not admission.** Its entries
+cover screening, psychoeducational evaluation (in-house, referral or family-supplied),
+documentation asked for at admission (an existing IEP, 504 or evaluation), the intake
+that decides what support a child gets, and testing accommodations for a student with
+a plan (College Board / ACT). Entrance tests (ISEE, Gesell, readiness visits) go in the
+Services "Entrance testing" row, never on this card. When a school publishes nothing
+on identification, the card says so with `NS` entries rather than filling up with
+admission tests.
 
-<details><summary>Types defined in <code>learningSupport.ts</code> (13)</summary>
+**Every person a card names gets their published email.** Who You'll Work With
+(`staff.people`) and the Therapy card (`therapy.people`, for a pathologist or
+therapist the school names) render the same name / role / mailto row. The `email`
+comes only from the school's own directory, never from a name pattern. A person on
+the Therapy card goes in `therapy.people`, not only in `therapy.note`.
+
+**Schools with data:** 3/13 — absent: `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
+
+<details><summary>Types defined in <code>learningSupport.ts</code> (14)</summary>
 
 `LearningLead` — `strong`
 
@@ -943,9 +958,11 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 
 `ServicesCard` — `headline`, `verdicts`, `groups`, `sources`
 
-`TherapyCard` — `headline`, `items`, `note?`, `sources`
+`TherapyCard` — `headline`, `items`, `people?`, `note?`, `sources`
 
 `TestingCard` — `headline`, `entries`, `sources`
+
+`StaffPerson` — `name`, `role`, `email?`
 
 `StaffCard` — `headline`, `people`, `note?`, `sources`
 

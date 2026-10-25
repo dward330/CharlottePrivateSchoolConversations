@@ -94,6 +94,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 ### Learning Support & Student Services (`learning-support/`)
 
 - [Cannon School](learning-support/cannon.md) — 2 docs
+- [Davidson Day School](learning-support/davidson-day.md) — 2 docs
 - [Hickory Grove Christian School](learning-support/hickory-grove-christian.md) — 1 docs
 
 ### Sports (`sports/`)
@@ -161,4 +162,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 470 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 472 documents across 12 topics and 13 schools.

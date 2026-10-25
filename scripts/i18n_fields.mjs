@@ -797,6 +797,9 @@ export const PATH_OVERRIDES = new Map([
   // the role is a job title phrase and moves.
   ['staff.people[].name', false],
   ['staff.people[].role', true],
+  // Same rows on the Therapy card (`therapy.people`), same reading.
+  ['therapy.people[].name', false],
+  ['therapy.people[].role', true],
   // A date ("October 20, 2026") — extracted so it translates (check:dates).
   ['ask.asOf', true],
   // The section's colours — hex values.

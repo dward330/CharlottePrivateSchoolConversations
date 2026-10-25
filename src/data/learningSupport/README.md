@@ -2,7 +2,8 @@
 
 One file per school, `<slug>.ts`, exporting a `LearningSupportProgram` (types and the
 card registry are in [`../learningSupport.ts`](../learningSupport.ts)). Hickory Grove
-Christian was the first school; Cannon followed (2026-10-24).
+Christian was the first school; Cannon followed (2026-10-24), then Davidson Day
+(2026-10-25).
 
 ## Two gates
 
@@ -46,5 +47,21 @@ The section renders on a school's page only when **both** exist:
   still renders. Each address and its directory id is recorded in the school's research
   file. The link's subject is "<School name> Inquiry" (`schoolInquiryMailto`), in
   English in every locale.
+- **Testing & Evaluation is about how a learning need is identified, not admission**
+  (user rule, 2026-10-25). Its entries cover screening, psychoeducational evaluation
+  (in-house, referral or family-supplied), documentation asked for at admission (an
+  existing IEP, 504 or evaluation), the intake that decides what support a child gets,
+  and testing accommodations for a student with a plan (College Board / ACT). Entrance tests (ISEE, Gesell, readiness visits) belong in the Services
+  "Entrance testing" row, never as Testing entries. When the school publishes nothing on
+  identification, the card says so with NOT STATED entries rather than filling up with
+  admission tests.
+- **A person named on the Therapy card goes in `therapy.people`, never only in prose**
+  (user rule, 2026-10-25). It renders the same name / role / mailto row as Who You'll
+  Work With, under the same `email` rule above, so look up each therapist's or
+  pathologist's published address exactly as for the staff list. Don't name them in
+  `therapy.note` as well. Davidson Day's speech-language pathologist is the first case.
+  `role` is skipped by default, so `therapy.people[].role` is promoted in
+  `PATH_OVERRIDES` (`scripts/i18n_fields.mjs`) beside `staff.people[].role`. A new
+  people-bearing field needs the same, or its role ships English in every locale.
 
 Build new schools through `/learning-support` → `/plan` → `/implement`.

@@ -683,11 +683,11 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'Continuity',
-        text: 'Coverage runs from age two through grade twelve, so support does not stop at the Upper School door. Tutors work in partnership with families and classroom teachers to clarify learning weaknesses and strengthen executive functioning.',
+        text: 'Coverage runs from age two through grade twelve, so support does not stop at the Upper School door. Tutors work in partnership with families and classroom teachers, and one-on-one academic coaching builds executive-function skills.',
       },
       {
         label: 'Where it stops',
-        text: 'How the LEC documents approved accommodations so they carry over to College Board / ACT testing and to college disability services is described nowhere. The support is well documented; its hand-off into the application process is not.',
+        text: 'The school’s pages never say whether the LEC writes or manages accommodations, let alone how they would carry over to College Board / ACT testing and to college disability services. The services are well documented; any hand-off into the application process is not.',
       },
     ],
     middle: [
@@ -756,7 +756,7 @@ export const davidsonDay: CollegeSupportProgram = {
       'Which 35 colleges did the Class of 2025 actually enroll at, and which colleges take a Davidson Day student most years?',
       'Does someone read every application before it’s submitted? What’s your stance on binding Early Decision, and how do you handle teacher recommendations?',
       'Davidson College is one mile away — is there any dual-enrollment, course-access or partnership arrangement with them, or with UNC Charlotte?',
-      'If my child has accommodations through the Learning Enrichment Center, who gets those approved for College Board and ACT testing, and documented for college disability services?',
+      'Does the Learning Enrichment Center write or manage accommodations? If so, who gets them approved for College Board and ACT testing, and documented for college disability services?',
     ],
     flags: [],
     sources: [

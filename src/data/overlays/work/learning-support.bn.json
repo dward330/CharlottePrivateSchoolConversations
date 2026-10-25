@@ -72,7 +72,8 @@
       "text": "school counselors",
       "of": "83d116a4",
       "at": [
-        "cannon:stats[3].label"
+        "cannon:stats[3].label",
+        "davidson-day:stats[3].label"
       ],
       "t": "স্কুল কাউন্সেলর"
     },
@@ -252,6 +253,7 @@
       "of": "b050d84b",
       "at": [
         "cannon:services.groups[0].name",
+        "davidson-day:services.groups[0].name",
         "hickory-grove-christian:services.groups[0].name"
       ],
       "t": "শেখা ও একাডেমিক সহায়তা"
@@ -261,6 +263,7 @@
       "of": "04298f91",
       "at": [
         "cannon:services.groups[0].rows[0].service",
+        "davidson-day:services.groups[0].rows[0].service",
         "hickory-grove-christian:services.groups[0].rows[0].service"
       ],
       "t": "বিশেষায়িত শিক্ষক"
@@ -278,6 +281,7 @@
       "of": "18b7d3f0",
       "at": [
         "cannon:services.groups[0].rows[1].service",
+        "davidson-day:services.groups[0].rows[1].service",
         "hickory-grove-christian:services.groups[0].rows[1].service"
       ],
       "t": "পড়ায় হস্তক্ষেপ"
@@ -295,6 +299,7 @@
       "of": "9fc9f294",
       "at": [
         "cannon:services.groups[0].rows[2].service",
+        "davidson-day:services.groups[0].rows[2].service",
         "hickory-grove-christian:services.groups[0].rows[2].service"
       ],
       "t": "গণিতে হস্তক্ষেপ"
@@ -311,7 +316,8 @@
       "text": "1:1 / small-group instruction",
       "of": "c8ed8f2d",
       "at": [
-        "cannon:services.groups[0].rows[3].service"
+        "cannon:services.groups[0].rows[3].service",
+        "davidson-day:services.groups[0].rows[3].service"
       ],
       "t": "1:1 / ছোট দলে পাঠদান"
     },
@@ -344,6 +350,7 @@
       "of": "7e3c07fa",
       "at": [
         "cannon:services.groups[0].rows[5].service",
+        "davidson-day:services.groups[0].rows[5].service",
         "hickory-grove-christian:services.groups[0].rows[5].service"
       ],
       "t": "এক্সিকিউটিভ ফাংশন কোচিং"
@@ -360,7 +367,8 @@
       "text": "Learning-support class",
       "of": "fd470495",
       "at": [
-        "cannon:services.groups[0].rows[6].service"
+        "cannon:services.groups[0].rows[6].service",
+        "davidson-day:services.groups[0].rows[6].service"
       ],
       "t": "শেখার সহায়তার ক্লাস"
     },
@@ -376,7 +384,8 @@
       "text": "Accommodations & learning plan",
       "of": "c65478ab",
       "at": [
-        "cannon:services.groups[0].rows[7].service"
+        "cannon:services.groups[0].rows[7].service",
+        "davidson-day:services.groups[0].rows[7].service"
       ],
       "t": "সুবিধা-ব্যবস্থা ও শিখন-পরিকল্পনা"
     },
@@ -393,6 +402,7 @@
       "of": "0add9126",
       "at": [
         "cannon:services.groups[0].rows[8].service",
+        "davidson-day:services.groups[0].rows[8].service",
         "hickory-grove-christian:services.groups[0].rows[8].service"
       ],
       "t": "বিশেষভাবে পরিকল্পিত পাঠদান"
@@ -410,6 +420,7 @@
       "of": "2586e367",
       "at": [
         "cannon:services.groups[0].rows[9].service",
+        "davidson-day:services.groups[0].rows[9].service",
         "hickory-grove-christian:services.groups[0].rows[9].service"
       ],
       "t": "স্বতন্ত্র কর্মসূচি / আলাদা ক্লাস"
@@ -427,6 +438,7 @@
       "of": "2de5aed3",
       "at": [
         "cannon:services.groups[0].rows[10].service",
+        "davidson-day:services.groups[0].rows[10].service",
         "hickory-grove-christian:services.groups[0].rows[10].service"
       ],
       "t": "মেধাবী / উচ্চতর স্তর"
@@ -444,6 +456,7 @@
       "of": "4702441c",
       "at": [
         "cannon:services.groups[0].rows[11].service",
+        "davidson-day:services.groups[0].rows[11].service",
         "hickory-grove-christian:services.groups[0].rows[11].service"
       ],
       "t": "যোগ্যতার নথি"
@@ -461,6 +474,7 @@
       "of": "832d48e5",
       "at": [
         "cannon:services.groups[1].name",
+        "davidson-day:services.groups[1].name",
         "hickory-grove-christian:services.groups[1].name"
       ],
       "t": "থেরাপি ও সংশ্লিষ্ট সেবা"
@@ -470,6 +484,7 @@
       "of": "b37d3705",
       "at": [
         "cannon:services.groups[1].rows[0].service",
+        "davidson-day:services.groups[1].rows[0].service",
         "hickory-grove-christian:services.groups[1].rows[0].service"
       ],
       "t": "স্পিচ-ল্যাঙ্গুয়েজ থেরাপি"
@@ -487,6 +502,7 @@
       "of": "e216f28e",
       "at": [
         "cannon:services.groups[1].rows[1].service",
+        "davidson-day:services.groups[1].rows[1].service",
         "hickory-grove-christian:services.groups[1].rows[1].service"
       ],
       "t": "অকুপেশনাল থেরাপি"
@@ -497,6 +513,7 @@
       "at": [
         "cannon:services.groups[1].rows[1].detail",
         "cannon:services.groups[1].rows[2].detail",
+        "davidson-day:services.groups[1].rows[2].detail",
         "hickory-grove-christian:services.groups[1].rows[0].detail",
         "hickory-grove-christian:services.groups[1].rows[1].detail",
         "hickory-grove-christian:services.groups[1].rows[2].detail"
@@ -508,6 +525,7 @@
       "of": "2ab8c569",
       "at": [
         "cannon:services.groups[1].rows[2].service",
+        "davidson-day:services.groups[1].rows[2].service",
         "hickory-grove-christian:services.groups[1].rows[2].service"
       ],
       "t": "ফিজিক্যাল থেরাপি"
@@ -517,6 +535,7 @@
       "of": "7f464e4f",
       "at": [
         "cannon:services.groups[2].name",
+        "davidson-day:services.groups[2].name",
         "hickory-grove-christian:services.groups[2].name"
       ],
       "t": "মূল্যায়ন"
@@ -525,7 +544,8 @@
       "text": "Early identification (JK–2)",
       "of": "cfb1f75f",
       "at": [
-        "cannon:services.groups[2].rows[0].service"
+        "cannon:services.groups[2].rows[0].service",
+        "davidson-day:services.groups[2].rows[0].service"
       ],
       "t": "প্রাথমিক শনাক্তকরণ (JK–2)"
     },
@@ -542,6 +562,7 @@
       "of": "c0f1a794",
       "at": [
         "cannon:services.groups[2].rows[1].service",
+        "davidson-day:services.groups[2].rows[1].service",
         "hickory-grove-christian:services.groups[2].rows[0].service"
       ],
       "t": "পরীক্ষায় সুবিধা-ব্যবস্থা"
@@ -559,8 +580,8 @@
       "of": "3e1537ff",
       "at": [
         "cannon:services.groups[2].rows[2].service",
-        "hickory-grove-christian:services.groups[2].rows[1].service",
-        "hickory-grove-christian:testing.entries[2].title"
+        "davidson-day:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service"
       ],
       "t": "ভর্তি পরীক্ষা"
     },
@@ -577,6 +598,8 @@
       "of": "69f00356",
       "at": [
         "cannon:services.groups[2].rows[3].service",
+        "davidson-day:services.groups[2].rows[3].service",
+        "davidson-day:testing.entries[2].title",
         "hickory-grove-christian:services.groups[2].rows[2].service"
       ],
       "t": "সাইকোএডুকেশনাল মূল্যায়ন"
@@ -594,6 +617,7 @@
       "of": "92456e4a",
       "at": [
         "cannon:services.groups[3].name",
+        "davidson-day:services.groups[3].name",
         "hickory-grove-christian:services.groups[3].name"
       ],
       "t": "সুস্থতা ও স্বাস্থ্য"
@@ -603,6 +627,7 @@
       "of": "0613b801",
       "at": [
         "cannon:services.groups[3].rows[0].service",
+        "davidson-day:services.groups[3].rows[0].service",
         "hickory-grove-christian:services.groups[3].rows[0].service"
       ],
       "t": "পরামর্শ ও মানসিক সহায়তা"
@@ -620,6 +645,7 @@
       "of": "a9f79269",
       "at": [
         "cannon:services.groups[3].rows[1].service",
+        "davidson-day:services.groups[3].rows[2].service",
         "hickory-grove-christian:services.groups[3].rows[1].service"
       ],
       "t": "আবেগ ও আচরণগত হস্তক্ষেপ"
@@ -637,6 +663,7 @@
       "of": "e074ef65",
       "at": [
         "cannon:services.groups[3].rows[2].service",
+        "davidson-day:services.groups[3].rows[3].service",
         "hickory-grove-christian:services.groups[3].rows[2].service"
       ],
       "t": "সংকটকালীন সহায়তা"
@@ -654,6 +681,7 @@
       "of": "61585e81",
       "at": [
         "cannon:services.groups[3].rows[3].service",
+        "davidson-day:services.groups[3].rows[4].service",
         "hickory-grove-christian:services.groups[3].rows[3].service"
       ],
       "t": "স্কুল মনোবিজ্ঞানী"
@@ -663,6 +691,7 @@
       "of": "59c2d1bc",
       "at": [
         "cannon:services.groups[3].rows[3].detail",
+        "davidson-day:services.groups[3].rows[4].detail",
         "hickory-grove-christian:services.groups[3].rows[3].detail",
         "hickory-grove-christian:services.groups[3].rows[4].detail"
       ],
@@ -673,6 +702,7 @@
       "of": "cf02f710",
       "at": [
         "cannon:services.groups[3].rows[4].service",
+        "davidson-day:services.groups[3].rows[5].service",
         "hickory-grove-christian:services.groups[3].rows[4].service"
       ],
       "t": "স্কুল নার্স"
@@ -690,6 +720,7 @@
       "of": "9a73db9b",
       "at": [
         "cannon:services.groups[4].name",
+        "davidson-day:services.groups[4].name",
         "hickory-grove-christian:services.groups[4].name"
       ],
       "t": "ভাষা"
@@ -699,6 +730,7 @@
       "of": "ffd3df8c",
       "at": [
         "cannon:services.groups[4].rows[0].service",
+        "davidson-day:services.groups[4].rows[0].service",
         "hickory-grove-christian:services.groups[4].rows[0].service"
       ],
       "t": "ESL / ইংরেজি ভাষায় সহায়তা"
@@ -724,6 +756,7 @@
       "of": "d9f2c22c",
       "at": [
         "cannon:therapy.items[0].name",
+        "davidson-day:therapy.items[0].name",
         "hickory-grove-christian:therapy.items[0].name"
       ],
       "t": "স্পিচ-ল্যাঙ্গুয়েজ"
@@ -741,6 +774,7 @@
       "of": "a971a0b7",
       "at": [
         "cannon:therapy.items[1].name",
+        "davidson-day:therapy.items[1].name",
         "hickory-grove-christian:therapy.items[1].name"
       ],
       "t": "অকুপেশনাল"
@@ -750,6 +784,7 @@
       "of": "d7c1ee80",
       "at": [
         "cannon:therapy.items[2].name",
+        "davidson-day:therapy.items[2].name",
         "hickory-grove-christian:therapy.items[2].name"
       ],
       "t": "ফিজিক্যাল"
@@ -811,26 +846,10 @@
       "t": "Learning specialist “শিক্ষার্থীদের প্রয়োজন মূল্যায়ন, ভিন্নধর্মী পাঠদান এবং ক্লাসরুমে লক্ষ্যভিত্তিক কৌশল প্রয়োগের জন্য শিক্ষকদের সঙ্গে ঘনিষ্ঠভাবে কাজ করেন”।"
     },
     {
-      "text": "Entrance evaluations",
-      "of": "844d1d18",
-      "at": [
-        "cannon:testing.entries[2].title"
-      ],
-      "t": "ভর্তি মূল্যায়ন"
-    },
-    {
-      "text": "Admission decisions draw on “entrance testing results,” among other things; the checklist may include an Entrance Evaluation and a Readiness Evaluation.",
-      "of": "967ddbc0",
-      "at": [
-        "cannon:testing.entries[2].text"
-      ],
-      "t": "ভর্তির সিদ্ধান্ত অন্যান্য বিষয়ের পাশাপাশি “ভর্তি পরীক্ষার ফলাফলের” ওপর নির্ভর করে; চেকলিস্টে একটি Entrance Evaluation ও একটি Readiness Evaluation থাকতে পারে।"
-    },
-    {
       "text": "College Board and ACT accommodations",
       "of": "1c3e39b8",
       "at": [
-        "cannon:testing.entries[3].title"
+        "cannon:testing.entries[2].title"
       ],
       "t": "College Board ও ACT-তে বিশেষ সুবিধা"
     },
@@ -838,7 +857,7 @@
       "text": "For juniors and seniors, “additional guidance is offered to help navigate the process of requesting testing accommodations from the College Board and ACT,” once a Learning Plan has been in place for at least four months.",
       "of": "8f3c3cf5",
       "at": [
-        "cannon:testing.entries[3].text"
+        "cannon:testing.entries[2].text"
       ],
       "t": "Junior ও senior-দের জন্য “College Board ও ACT থেকে পরীক্ষায় বিশেষ সুবিধা চাওয়ার প্রক্রিয়ায় সাহায্য করতে বাড়তি পরামর্শ দেওয়া হয়”, যখন কোনো শিখন-পরিকল্পনা অন্তত চার মাস চালু থাকে।"
     },
@@ -1016,7 +1035,8 @@
       "text": "Is any English-language (ESL) support offered?",
       "of": "4d801524",
       "at": [
-        "cannon:ask.questions[7]"
+        "cannon:ask.questions[7]",
+        "davidson-day:ask.questions[8]"
       ],
       "t": "ইংরেজি ভাষার (ESL) কোনো সহায়তা কি দেওয়া হয়?"
     },
@@ -1027,6 +1047,758 @@
         "cannon:ask.asOf"
       ],
       "t": "24 অক্টোবর 2026"
+    },
+    {
+      "text": "Davidson Day’s Learning Enrichment Center “provides personalized, one-on-one instruction that supports students ages two through grade 12,” with tutoring, academic coaching, social skills groups, and speech and occupational therapy on campus.",
+      "of": "b395c82e",
+      "at": [
+        "davidson-day:lead.strong"
+      ],
+      "t": "Davidson Day-এর Learning Enrichment Center “দুই বছর বয়স থেকে 12তম শ্রেণি পর্যন্ত শিক্ষার্থীদের সহায়তায় ব্যক্তিগতকৃত, এক-এক পাঠদান দেয়”, সঙ্গে ক্যাম্পাসেই টিউটরিং, একাডেমিক কোচিং, সামাজিক দক্ষতার দল এবং স্পিচ ও অকুপেশনাল থেরাপি।"
+    },
+    {
+      "text": "Services are billed. The school publishes its summer rates, not its school-year rates.",
+      "of": "2222a64b",
+      "at": [
+        "davidson-day:lead.muted"
+      ],
+      "t": "সেবাগুলোর জন্য ফি নেওয়া হয়। স্কুল তার গ্রীষ্মকালীন ফি প্রকাশ করে, স্কুলবর্ষের ফি নয়।"
+    },
+    {
+      "text": "LEC services",
+      "of": "08e313a9",
+      "at": [
+        "davidson-day:stats[0].label"
+      ],
+      "t": "LEC-এর সেবা"
+    },
+    {
+      "text": "tutoring, academic coaching, social skills groups, speech-language therapy and occupational therapy",
+      "of": "372b1fd3",
+      "at": [
+        "davidson-day:stats[0].note"
+      ],
+      "t": "টিউটরিং, একাডেমিক কোচিং, সামাজিক দক্ষতার দল, স্পিচ-ল্যাঙ্গুয়েজ থেরাপি ও অকুপেশনাল থেরাপি"
+    },
+    {
+      "text": "Learning Enrichment Center staff",
+      "of": "2a14b99f",
+      "at": [
+        "davidson-day:stats[1].label"
+      ],
+      "t": "Learning Enrichment Center-এর কর্মী"
+    },
+    {
+      "text": "nine learning specialists, a director, a coordinator, a speech-language pathologist and a literacy coach",
+      "of": "535f6928",
+      "at": [
+        "davidson-day:stats[1].note"
+      ],
+      "t": "নয়জন শেখার বিশেষজ্ঞ, একজন পরিচালক, একজন সমন্বয়ক, একজন স্পিচ-ল্যাঙ্গুয়েজ প্যাথলজিস্ট ও একজন লিটারেসি কোচ"
+    },
+    {
+      "text": "a 30-minute summer tutoring session",
+      "of": "3422d899",
+      "at": [
+        "davidson-day:stats[2].label"
+      ],
+      "t": "গ্রীষ্মকালীন 30 মিনিটের একটি টিউটরিং সেশন"
+    },
+    {
+      "text": "summer 2026, billed to the family’s Patriot Account; school-year rates are not published",
+      "of": "29b520e9",
+      "at": [
+        "davidson-day:stats[2].note"
+      ],
+      "t": "গ্রীষ্ম 2026, পরিবারের Patriot Account-এ বিল করা হয়; স্কুলবর্ষের ফি প্রকাশিত নয়"
+    },
+    {
+      "text": "a Lower School Counselor and a Middle and Upper School Counselor, per the staff directory",
+      "of": "c6ca24f6",
+      "at": [
+        "davidson-day:stats[3].note"
+      ],
+      "t": "একজন Lower School কাউন্সেলর এবং একজন Middle ও Upper School কাউন্সেলর, কর্মী-তালিকা অনুযায়ী"
+    },
+    {
+      "text": "The Learning Enrichment Center is open to students at every grade, by request. The school publishes no eligibility criteria and does not mention 504 plans or IEPs.",
+      "of": "fcef74df",
+      "at": [
+        "davidson-day:eligibility.headline"
+      ],
+      "t": "Learning Enrichment Center অনুরোধের ভিত্তিতে সব শ্রেণির শিক্ষার্থীর জন্য খোলা। স্কুল যোগ্যতার কোনো মানদণ্ড প্রকাশ করে না এবং 504 প্ল্যান বা IEP-এর উল্লেখ করে না।"
+    },
+    {
+      "text": "Each LEC service is “available to students at all grade levels,” and the center supports “students ages two through grade 12.” Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs.” The 2026-2027 request form asks for no diagnosis, evaluation or other documentation.",
+      "of": "ffa9f240",
+      "at": [
+        "davidson-day:eligibility.eligible"
+      ],
+      "t": "LEC-এর প্রতিটি সেবা “সব শ্রেণির শিক্ষার্থীদের জন্য উপলব্ধ”, এবং কেন্দ্রটি “দুই বছর বয়স থেকে 12তম শ্রেণি পর্যন্ত শিক্ষার্থীদের” সহায়তা করে। পরিবারগুলো “আমাদের অনুরোধ ফর্ম জমা দেয়”, এবং শেখার সেবার পরিচালক “তারপর আপনাকে ফোন করে আলোচনা করবেন আপনার সন্তানের কী ধরনের একাডেমিক সহায়তা দরকার”। 2026-2027 অনুরোধ ফর্মে কোনো রোগনির্ণয়, মূল্যায়ন বা অন্য কোনো নথি চাওয়া হয় না।"
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans, IEPs or accommodations, and the LEC request form does not ask about them.",
+      "of": "cdb99699",
+      "at": [
+        "davidson-day:eligibility.plan"
+      ],
+      "t": "স্কুলের পেজে 504 প্ল্যান, IEP বা সুবিধা-ব্যবস্থার উল্লেখ নেই, আর LEC-এর অনুরোধ ফর্মেও এগুলো নিয়ে কিছু জিজ্ঞেস করা হয় না।"
+    },
+    {
+      "text": "The school’s pages do not say what the LEC does not provide. The one stated limit is on coaching: “Academic Coaching is more than ‘homework help’,” and “Students will likely have homework remaining after sessions.”",
+      "of": "75133422",
+      "at": [
+        "davidson-day:eligibility.scope"
+      ],
+      "t": "LEC কী দেয় না, স্কুলের পেজে তা বলা নেই। একমাত্র ঘোষিত সীমা কোচিং নিয়ে: “Academic Coaching ‘হোমওয়ার্কে সাহায্যের’ চেয়ে বেশি”, এবং “সেশনের পরেও শিক্ষার্থীদের সম্ভবত কিছু হোমওয়ার্ক বাকি থাকবে”।"
+    },
+    {
+      "text": "Admission asks for “current transcripts and teacher recommendations,” and the school says it “does not discriminate on the basis of” disability, among other categories.",
+      "of": "23e68444",
+      "at": [
+        "davidson-day:eligibility.note"
+      ],
+      "t": "ভর্তির জন্য “বর্তমান ট্রান্সক্রিপ্ট ও শিক্ষকদের সুপারিশপত্র” চাওয়া হয়, এবং স্কুল বলে যে সে অন্যান্য বিষয়ের পাশাপাশি প্রতিবন্ধিতার “ভিত্তিতে বৈষম্য করে না”।"
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. LEC services are billed; the school publishes its summer 2026 rates but not its school-year rates. Pick your child’s need to see what applies.",
+      "of": "37bff001",
+      "at": [
+        "davidson-day:services.headline"
+      ],
+      "t": "স্কুলের পেজে বর্ণিত প্রতিটি সেবা, কে দেয় সেই অনুযায়ী দলবদ্ধ ও কোড করা। LEC-এর সেবার জন্য ফি নেওয়া হয়; স্কুল গ্রীষ্ম 2026-এর ফি প্রকাশ করে, কিন্তু স্কুলবর্ষের ফি নয়। কী প্রযোজ্য দেখতে আপনার সন্তানের প্রয়োজনটি বেছে নিন।"
+    },
+    {
+      "text": "One-on-one tutoring for reading, plus a Lower School literacy coach and reading specialist. No reading method is named.",
+      "of": "a50298f5",
+      "at": [
+        "davidson-day:services.verdicts.read.head"
+      ],
+      "t": "পড়ার জন্য এক-এক টিউটরিং, সঙ্গে Lower School-এর একজন লিটারেসি কোচ ও একজন পড়ার বিশেষজ্ঞ। পড়ানোর কোনো পদ্ধতির নাম দেওয়া নেই।"
+    },
+    {
+      "text": "LEC tutoring can “address specific academic difficulties (reading fluency and comprehension or math skills).” Ask which reading approach the specialists use.",
+      "of": "f7bc891f",
+      "at": [
+        "davidson-day:services.verdicts.read.body"
+      ],
+      "t": "LEC-এর টিউটরিং “নির্দিষ্ট একাডেমিক অসুবিধা (পড়ার সাবলীলতা ও বোধগম্যতা বা গণিতের দক্ষতা) মোকাবিলা” করতে পারে। বিশেষজ্ঞরা পড়ানোর কোন পদ্ধতি ব্যবহার করেন, তা জিজ্ঞেস করুন।"
+    },
+    {
+      "text": "One-on-one academic coaching for executive function, at every grade.",
+      "of": "98813a61",
+      "at": [
+        "davidson-day:services.verdicts.attn.head"
+      ],
+      "t": "এক্সিকিউটিভ ফাংশনের জন্য এক-এক একাডেমিক কোচিং, সব শ্রেণিতে।"
+    },
+    {
+      "text": "Coaching helps students “develop organizational and time management skills, learning techniques, and self-advocacy,” and every Middle School student takes a study skills course each year.",
+      "of": "2512aa48",
+      "at": [
+        "davidson-day:services.verdicts.attn.body"
+      ],
+      "t": "কোচিং শিক্ষার্থীদের “সংগঠন ও সময় ব্যবস্থাপনার দক্ষতা, শেখার কৌশল এবং নিজের পক্ষে কথা বলার দক্ষতা গড়ে তুলতে” সাহায্য করে, আর Middle School-এর প্রত্যেক শিক্ষার্থী প্রতি বছর পড়াশোনার কৌশলের একটি কোর্স নেয়।"
+    },
+    {
+      "text": "One-on-one math tutoring, by request.",
+      "of": "55c671b2",
+      "at": [
+        "davidson-day:services.verdicts.math.head"
+      ],
+      "t": "অনুরোধের ভিত্তিতে গণিতে এক-এক টিউটরিং।"
+    },
+    {
+      "text": "LEC instructors give “review or remedial instruction” in subjects including Math, and tutoring “is often done during the school day, often during a study hall period.”",
+      "of": "7ae94c77",
+      "at": [
+        "davidson-day:services.verdicts.math.body"
+      ],
+      "t": "LEC-এর শিক্ষকেরা গণিতসহ বিভিন্ন বিষয়ে “পুনরালোচনা বা ঘাটতি পূরণের পাঠ” দেন, এবং টিউটরিং “প্রায়ই স্কুল চলাকালে হয়, প্রায়ই স্টাডি হলের পিরিয়ডে”।"
+    },
+    {
+      "text": "On campus during the school day, through a contracted provider.",
+      "of": "5e9adae9",
+      "at": [
+        "davidson-day:services.verdicts.speech.head"
+      ],
+      "t": "স্কুল চলাকালে ক্যাম্পাসেই, চুক্তিবদ্ধ একটি প্রতিষ্ঠানের মাধ্যমে।"
+    },
+    {
+      "text": "“Davidson Day School has a contract with Speech Techniques to provide speech-language services on campus during the school day,” with sessions “typically lasting 30-minutes.”",
+      "of": "387bbfef",
+      "at": [
+        "davidson-day:services.verdicts.speech.body"
+      ],
+      "t": "“স্কুল চলাকালে ক্যাম্পাসে স্পিচ-ল্যাঙ্গুয়েজ সেবা দিতে Davidson Day School-এর Speech Techniques-এর সঙ্গে চুক্তি আছে”, সেশনগুলো “সাধারণত 30 মিনিটের”।"
+    },
+    {
+      "text": "Occupational therapy on campus through a contracted provider. No physical therapy is listed.",
+      "of": "828a5512",
+      "at": [
+        "davidson-day:services.verdicts.motor.head"
+      ],
+      "t": "চুক্তিবদ্ধ একটি প্রতিষ্ঠানের মাধ্যমে ক্যাম্পাসে অকুপেশনাল থেরাপি। ফিজিক্যাল থেরাপির উল্লেখ নেই।"
+    },
+    {
+      "text": "Integrative Wellness provides OT “on campus during the school day as an additional service,” for “handwriting, visual-motor integration, sensory processing, social skills, and other fine motor skills.”",
+      "of": "65f433db",
+      "at": [
+        "davidson-day:services.verdicts.motor.body"
+      ],
+      "t": "Integrative Wellness “স্কুল চলাকালে ক্যাম্পাসে একটি অতিরিক্ত সেবা হিসেবে” অকুপেশনাল থেরাপি দেয়, “হাতের লেখা, দৃষ্টি-চলন সমন্বয়, সংবেদী প্রক্রিয়াকরণ, সামাজিক দক্ষতা এবং অন্যান্য সূক্ষ্ম চলন দক্ষতার” জন্য।"
+    },
+    {
+      "text": "Social skills groups led by an occupational therapist, and two school counselors.",
+      "of": "fb962c41",
+      "at": [
+        "davidson-day:services.verdicts.social.head"
+      ],
+      "t": "একজন অকুপেশনাল থেরাপিস্টের পরিচালনায় সামাজিক দক্ষতার দল, এবং দুজন স্কুল কাউন্সেলর।"
+    },
+    {
+      "text": "Groups of “3-4 students, grouped by age and goal areas” meet weekly for 30 minutes. The directory lists a Lower School Counselor and a Middle and Upper School Counselor.",
+      "of": "57c24541",
+      "at": [
+        "davidson-day:services.verdicts.social.body"
+      ],
+      "t": "“বয়স ও লক্ষ্যের ক্ষেত্র অনুযায়ী ভাগ করা 3-4 জন শিক্ষার্থীর” দল প্রতি সপ্তাহে 30 মিনিট বসে। কর্মী-তালিকায় একজন Lower School কাউন্সেলর এবং একজন Middle ও Upper School কাউন্সেলর আছেন।"
+    },
+    {
+      "text": "Upper School courses for ready Middle Schoolers, and an enrichment option in the LEC. No formal gifted program.",
+      "of": "f610d19d",
+      "at": [
+        "davidson-day:services.verdicts.gifted.head"
+      ],
+      "t": "প্রস্তুত Middle School শিক্ষার্থীদের জন্য Upper School-এর কোর্স, আর LEC-এ সমৃদ্ধিমূলক একটি বিকল্প। মেধাবীদের জন্য কোনো আনুষ্ঠানিক কর্মসূচি নেই।"
+    },
+    {
+      "text": "Middle Schoolers “ready to learn at the next level” can take world language and mathematics in the Upper School, and the LEC request form offers “Personalized Exploration (Enrichment) focused on student's passions and curiosities.”",
+      "of": "78c314b9",
+      "at": [
+        "davidson-day:services.verdicts.gifted.body"
+      ],
+      "t": "“পরের স্তরে শিখতে প্রস্তুত” Middle School শিক্ষার্থীরা Upper School-এ বিদেশি ভাষা ও গণিত পড়তে পারে, আর LEC-এর অনুরোধ ফর্মে “শিক্ষার্থীর আগ্রহ ও কৌতূহলকে কেন্দ্র করে Personalized Exploration (Enrichment)” দেওয়া আছে।"
+    },
+    {
+      "text": "Nine Learning Specialists, a Lower School Literacy Coach and a Director of Learning Services staff the LEC; the directory also lists a Lower School Reading Specialist.",
+      "of": "0dd1651c",
+      "at": [
+        "davidson-day:services.groups[0].rows[0].detail"
+      ],
+      "t": "নয়জন শেখার বিশেষজ্ঞ, Lower School-এর একজন লিটারেসি কোচ ও শেখার সেবার একজন পরিচালক নিয়ে LEC-এর কর্মীদল; কর্মী-তালিকায় Lower School-এর একজন পড়ার বিশেষজ্ঞও আছেন।"
+    },
+    {
+      "text": "One-on-one tutoring can “address specific academic difficulties (reading fluency and comprehension or math skills).” No method (e.g., Orton-Gillingham, structured literacy) is named.",
+      "of": "806b159d",
+      "at": [
+        "davidson-day:services.groups[0].rows[1].detail"
+      ],
+      "t": "এক-এক টিউটরিং “নির্দিষ্ট একাডেমিক অসুবিধা (পড়ার সাবলীলতা ও বোধগম্যতা বা গণিতের দক্ষতা) মোকাবিলা” করতে পারে। কোনো পদ্ধতির (যেমন Orton-Gillingham, কাঠামোবদ্ধ লিটারেসি) নাম দেওয়া নেই।"
+    },
+    {
+      "text": "One-on-one tutoring in “math skills,” as part of LEC tutoring.",
+      "of": "a8649a28",
+      "at": [
+        "davidson-day:services.groups[0].rows[2].detail"
+      ],
+      "t": "LEC-এর টিউটরিংয়ের অংশ হিসেবে “গণিতের দক্ষতায়” এক-এক টিউটরিং।"
+    },
+    {
+      "text": "LEC instructors “meet with students in a one-on-one setting for one or more sessions per week.” The only small groups are the social skills groups, of “3-4 students.”",
+      "of": "8e881b9d",
+      "at": [
+        "davidson-day:services.groups[0].rows[3].detail"
+      ],
+      "t": "LEC-এর শিক্ষকেরা “সপ্তাহে এক বা একাধিক সেশনে শিক্ষার্থীদের সঙ্গে এক-এক বসেন”। একমাত্র ছোট দল হলো সামাজিক দক্ষতার দলগুলো, “3-4 জন শিক্ষার্থীর”।"
+    },
+    {
+      "text": "Subject tutoring",
+      "of": "72507ea1",
+      "at": [
+        "davidson-day:services.groups[0].rows[4].service"
+      ],
+      "t": "বিষয়ভিত্তিক টিউটরিং"
+    },
+    {
+      "text": "Sessions provide “review or remedial instruction in a specific subject area (Language Arts, Math, Science, Social Studies, and/or Foreign Language),” often “during a study hall period.”",
+      "of": "08793cd9",
+      "at": [
+        "davidson-day:services.groups[0].rows[4].detail"
+      ],
+      "t": "সেশনগুলোতে “নির্দিষ্ট একটি বিষয়ে (Language Arts, Math, Science, Social Studies এবং/অথবা Foreign Language) পুনরালোচনা বা ঘাটতি পূরণের পাঠ” দেওয়া হয়, প্রায়ই “স্টাডি হলের পিরিয়ডে”।"
+    },
+    {
+      "text": "Academic coaching builds “organizational and time management skills, learning techniques, and self-advocacy.” It “is more than ‘homework help’.”",
+      "of": "440c6294",
+      "at": [
+        "davidson-day:services.groups[0].rows[5].detail"
+      ],
+      "t": "একাডেমিক কোচিং “সংগঠন ও সময় ব্যবস্থাপনার দক্ষতা, শেখার কৌশল এবং নিজের পক্ষে কথা বলার দক্ষতা” গড়ে তোলে। এটি “‘হোমওয়ার্কে সাহায্যের’ চেয়ে বেশি”।"
+    },
+    {
+      "text": "No learning-support class is described, but “every Middle School student takes a study skills course each year.”",
+      "of": "0c4efb51",
+      "at": [
+        "davidson-day:services.groups[0].rows[6].detail"
+      ],
+      "t": "শেখার সহায়তার কোনো ক্লাসের বর্ণনা নেই, তবে “Middle School-এর প্রত্যেক শিক্ষার্থী প্রতি বছর পড়াশোনার কৌশলের একটি কোর্স নেয়”।"
+    },
+    {
+      "text": "Not described. The LEC’s learning specialists “will have direct contact with the classroom teacher,” and families get a weekly email.",
+      "of": "12bb63a9",
+      "at": [
+        "davidson-day:services.groups[0].rows[7].detail"
+      ],
+      "t": "বর্ণনা নেই। LEC-এর শেখার বিশেষজ্ঞরা “শ্রেণিশিক্ষকের সঙ্গে সরাসরি যোগাযোগ রাখবেন”, আর পরিবারগুলো সাপ্তাহিক একটি ইমেইল পায়।"
+    },
+    {
+      "text": "Not described. LEC lesson plans are individualized tutoring, not a modified curriculum.",
+      "of": "61067604",
+      "at": [
+        "davidson-day:services.groups[0].rows[8].detail"
+      ],
+      "t": "বর্ণনা নেই। LEC-এর পাঠ-পরিকল্পনা হলো ব্যক্তিভিত্তিক টিউটরিং, পরিবর্তিত পাঠ্যক্রম নয়।"
+    },
+    {
+      "text": "No separate program described.",
+      "of": "049eeace",
+      "at": [
+        "davidson-day:services.groups[0].rows[9].detail"
+      ],
+      "t": "আলাদা কোনো কর্মসূচির বর্ণনা নেই।"
+    },
+    {
+      "text": "Middle Schoolers can take Upper School world language and math; the LEC request form offers “Personalized Exploration (Enrichment).” No formal gifted program.",
+      "of": "5099bff7",
+      "at": [
+        "davidson-day:services.groups[0].rows[10].detail"
+      ],
+      "t": "Middle School শিক্ষার্থীরা Upper School-এর বিদেশি ভাষা ও গণিত পড়তে পারে; LEC-এর অনুরোধ ফর্মে “Personalized Exploration (Enrichment)” দেওয়া আছে। মেধাবীদের জন্য কোনো আনুষ্ঠানিক কর্মসূচি নেই।"
+    },
+    {
+      "text": "None asked. The LEC request form asks for grade, services, goals and frequency; admission asks for “current transcripts and teacher recommendations.”",
+      "of": "03846ec3",
+      "at": [
+        "davidson-day:services.groups[0].rows[11].detail"
+      ],
+      "t": "কিছুই চাওয়া হয় না। LEC-এর অনুরোধ ফর্মে শ্রেণি, সেবা, লক্ষ্য ও কত ঘন ঘন জানতে চাওয়া হয়; ভর্তির জন্য “বর্তমান ট্রান্সক্রিপ্ট ও শিক্ষকদের সুপারিশপত্র” চাওয়া হয়।"
+    },
+    {
+      "text": "Summer tutoring & therapy",
+      "of": "e77f9ca7",
+      "at": [
+        "davidson-day:services.groups[0].rows[12].service"
+      ],
+      "t": "গ্রীষ্মকালীন টিউটরিং ও থেরাপি"
+    },
+    {
+      "text": "June 1 to July 30, 2026: tutoring $47 for 30 minutes, $63 for 40 and $78 for 50; occupational therapy $160 for a 60-minute session; speech therapy $80 for a 30-minute session, all “billed directly to your Patriot Account.”",
+      "of": "c0be7bec",
+      "at": [
+        "davidson-day:services.groups[0].rows[12].detail"
+      ],
+      "t": "1 জুন থেকে 30 জুলাই 2026: টিউটরিং 30 মিনিটে $47, 40 মিনিটে $63 ও 50 মিনিটে $78; অকুপেশনাল থেরাপি 60 মিনিটের সেশনে $160; স্পিচ থেরাপি 30 মিনিটের সেশনে $80, সবই “সরাসরি আপনার Patriot Account-এ বিল করা হয়”।"
+    },
+    {
+      "text": "Through a contract with Speech Techniques, “on campus during the school day,” one-on-one, with sessions “typically lasting 30-minutes.”",
+      "of": "7ce6d7bc",
+      "at": [
+        "davidson-day:services.groups[1].rows[0].detail"
+      ],
+      "t": "Speech Techniques-এর সঙ্গে চুক্তির মাধ্যমে, “স্কুল চলাকালে ক্যাম্পাসে”, এক-এক, সেশনগুলো “সাধারণত 30 মিনিটের”।"
+    },
+    {
+      "text": "Through a contract with Integrative Wellness, “on campus during the school day as an additional service,” one-on-one.",
+      "of": "9160e879",
+      "at": [
+        "davidson-day:services.groups[1].rows[1].detail"
+      ],
+      "t": "Integrative Wellness-এর সঙ্গে চুক্তির মাধ্যমে, “স্কুল চলাকালে ক্যাম্পাসে একটি অতিরিক্ত সেবা হিসেবে”, এক-এক।"
+    },
+    {
+      "text": "No screening is described. The Gesell Readiness Assessment is an admission test.",
+      "of": "ce5c29a4",
+      "at": [
+        "davidson-day:services.groups[2].rows[0].detail"
+      ],
+      "t": "কোনো স্ক্রিনিংয়ের বর্ণনা নেই। Gesell Readiness Assessment একটি ভর্তি পরীক্ষা।"
+    },
+    {
+      "text": "Not described, for the ISEE or school exams.",
+      "of": "00e762c6",
+      "at": [
+        "davidson-day:services.groups[2].rows[1].detail"
+      ],
+      "t": "বর্ণনা নেই, ISEE বা স্কুলের পরীক্ষা কোনোটির জন্যই।"
+    },
+    {
+      "text": "The Gesell Readiness Assessment (Junior Kindergarten–1st Grade), a reading assessment plus the at-home ISEE (2nd–4th Grade), and the ISEE (5th–12th Grade).",
+      "of": "e96a4805",
+      "at": [
+        "davidson-day:services.groups[2].rows[2].detail"
+      ],
+      "t": "Gesell Readiness Assessment (Junior Kindergarten থেকে 1ম শ্রেণি), পড়ার একটি মূল্যায়ন সঙ্গে বাড়িতে বসে ISEE (2য় থেকে 4র্থ শ্রেণি), এবং ISEE (5ম থেকে 12তম শ্রেণি)।"
+    },
+    {
+      "text": "Not described: neither in-house testing nor a referral list.",
+      "of": "3dcd8e6f",
+      "at": [
+        "davidson-day:services.groups[2].rows[3].detail"
+      ],
+      "t": "বর্ণনা নেই: স্কুলের নিজস্ব পরীক্ষাও নয়, রেফারেলের তালিকাও নয়।"
+    },
+    {
+      "text": "The directory lists a Lower School Counselor and a Middle and Upper School Counselor; “Social-emotional learning is a cornerstone of the Davidson Day Lower School experience.”",
+      "of": "435bf5f0",
+      "at": [
+        "davidson-day:services.groups[3].rows[0].detail"
+      ],
+      "t": "কর্মী-তালিকায় একজন Lower School কাউন্সেলর এবং একজন Middle ও Upper School কাউন্সেলর আছেন; “সামাজিক-আবেগীয় শিক্ষা Davidson Day Lower School অভিজ্ঞতার একটি ভিত্তিপ্রস্তর”।"
+    },
+    {
+      "text": "Social skills groups",
+      "of": "c66c34d4",
+      "at": [
+        "davidson-day:services.groups[3].rows[1].service"
+      ],
+      "t": "সামাজিক দক্ষতার দল"
+    },
+    {
+      "text": "Groups are “led and directed by an occupational therapist,” for “3-4 students, grouped by age and goal areas,” meeting weekly for 30 minutes.",
+      "of": "4ebdf7b1",
+      "at": [
+        "davidson-day:services.groups[3].rows[1].detail"
+      ],
+      "t": "দলগুলো “একজন অকুপেশনাল থেরাপিস্টের নেতৃত্বে ও পরিচালনায়” চলে, “বয়স ও লক্ষ্যের ক্ষেত্র অনুযায়ী ভাগ করা 3-4 জন শিক্ষার্থীর” জন্য, প্রতি সপ্তাহে 30 মিনিট।"
+    },
+    {
+      "text": "Not described beyond the social skills groups.",
+      "of": "43a08c62",
+      "at": [
+        "davidson-day:services.groups[3].rows[2].detail"
+      ],
+      "t": "সামাজিক দক্ষতার দলের বাইরে কোনো বর্ণনা নেই।"
+    },
+    {
+      "text": "No crisis resources are published.",
+      "of": "acd8987c",
+      "at": [
+        "davidson-day:services.groups[3].rows[3].detail"
+      ],
+      "t": "সংকটকালীন কোনো সহায়তার তথ্য প্রকাশিত নেই।"
+    },
+    {
+      "text": "A School Nurse is listed in the staff directory.",
+      "of": "9dd19015",
+      "at": [
+        "davidson-day:services.groups[3].rows[5].detail"
+      ],
+      "t": "কর্মী-তালিকায় একজন স্কুল নার্স আছেন।"
+    },
+    {
+      "text": "Not described.",
+      "of": "ebfa96a5",
+      "at": [
+        "davidson-day:services.groups[4].rows[0].detail"
+      ],
+      "t": "বর্ণনা নেই।"
+    },
+    {
+      "text": "Speech and occupational therapy are on campus during the school day through contracted providers, as billed LEC services. Physical therapy is not listed.",
+      "of": "18315155",
+      "at": [
+        "davidson-day:therapy.headline"
+      ],
+      "t": "স্পিচ ও অকুপেশনাল থেরাপি স্কুল চলাকালে ক্যাম্পাসে চুক্তিবদ্ধ প্রতিষ্ঠানের মাধ্যমে হয়, ফি-যুক্ত LEC সেবা হিসেবে। ফিজিক্যাল থেরাপির উল্লেখ নেই।"
+    },
+    {
+      "text": "Speech Techniques, on campus; sessions typically 30 minutes. Summer 2026: $80 a session.",
+      "of": "99c2c705",
+      "at": [
+        "davidson-day:therapy.items[0].detail"
+      ],
+      "t": "Speech Techniques, ক্যাম্পাসে; সেশন সাধারণত 30 মিনিটের। গ্রীষ্ম 2026: প্রতি সেশন $80।"
+    },
+    {
+      "text": "Integrative Wellness, on campus, “an additional service.” Summer 2026: $160 for a 60-minute session.",
+      "of": "75a8818b",
+      "at": [
+        "davidson-day:therapy.items[1].detail"
+      ],
+      "t": "Integrative Wellness, ক্যাম্পাসে, “একটি অতিরিক্ত সেবা”। গ্রীষ্ম 2026: 60 মিনিটের সেশনে $160।"
+    },
+    {
+      "text": "Speech/Language Pathologist",
+      "of": "85178320",
+      "at": [
+        "davidson-day:therapy.people[0].role",
+        "davidson-day:staff.people[6].role"
+      ],
+      "t": "স্পিচ/ল্যাঙ্গুয়েজ প্যাথলজিস্ট"
+    },
+    {
+      "text": "The speech-language pathologist is on the LEC staff list. School-year therapy rates are shared with families before school starts and are not published.",
+      "of": "07ddf29a",
+      "at": [
+        "davidson-day:therapy.note"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ প্যাথলজিস্ট LEC-এর কর্মী-তালিকায় আছেন। স্কুলবর্ষের থেরাপির ফি স্কুল শুরুর আগে পরিবারগুলোকে জানানো হয় এবং প্রকাশিত নয়।"
+    },
+    {
+      "text": "Davidson Day publishes no screening or evaluation for learning differences. A family asks for LEC support with a request form, and the Director of Learning Services follows up by phone.",
+      "of": "d175fef3",
+      "at": [
+        "davidson-day:testing.headline"
+      ],
+      "t": "Davidson Day শেখার পার্থক্যের জন্য কোনো স্ক্রিনিং বা মূল্যায়ন প্রকাশ করে না। পরিবার একটি অনুরোধ ফর্মের মাধ্যমে LEC-এর সহায়তা চায়, আর শেখার সেবার পরিচালক ফোনে যোগাযোগ করেন।"
+    },
+    {
+      "text": "Request and intake call",
+      "of": "8eacb147",
+      "at": [
+        "davidson-day:testing.entries[0].title"
+      ],
+      "t": "অনুরোধ ও প্রাথমিক ফোনালাপ"
+    },
+    {
+      "text": "Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs and what type of tutoring services are available.”",
+      "of": "1fbfbf01",
+      "at": [
+        "davidson-day:testing.entries[0].text"
+      ],
+      "t": "পরিবারগুলো “আমাদের অনুরোধ ফর্ম জমা দেয়”, এবং শেখার সেবার পরিচালক “তারপর আপনাকে ফোন করে আলোচনা করবেন আপনার সন্তানের কী ধরনের একাডেমিক সহায়তা দরকার এবং কোন ধরনের টিউটরিং সেবা পাওয়া যায়”।"
+    },
+    {
+      "text": "The 2026-2027 request form asks for no diagnosis, evaluation or other documentation.",
+      "of": "e77f70b3",
+      "at": [
+        "davidson-day:testing.entries[0].muted"
+      ],
+      "t": "2026-2027 অনুরোধ ফর্মে কোনো রোগনির্ণয়, মূল্যায়ন বা অন্য কোনো নথি চাওয়া হয় না।"
+    },
+    {
+      "text": "Screening for reading, math or attention",
+      "of": "2393a739",
+      "at": [
+        "davidson-day:testing.entries[1].title"
+      ],
+      "t": "পড়া, গণিত বা মনোযোগের স্ক্রিনিং"
+    },
+    {
+      "text": "The school does not describe any early identification or screening.",
+      "of": "78fb53eb",
+      "at": [
+        "davidson-day:testing.entries[1].text"
+      ],
+      "t": "স্কুল প্রাথমিক শনাক্তকরণ বা স্ক্রিনিংয়ের কোনো বর্ণনা দেয় না।"
+    },
+    {
+      "text": "The school does not say whether it tests for learning differences, asks for an outside evaluation, or names evaluators.",
+      "of": "689389bb",
+      "at": [
+        "davidson-day:testing.entries[2].text"
+      ],
+      "t": "স্কুল শেখার পার্থক্যের পরীক্ষা করে কি না, বাইরের মূল্যায়ন চায় কি না, বা মূল্যায়নকারীদের নাম দেয় কি না, তা বলে না।"
+    },
+    {
+      "text": "Seventeen named staff: the 13-person Learning Enrichment Center, a Lower School reading specialist, two school counselors and the school nurse.",
+      "of": "e3f7f2a3",
+      "at": [
+        "davidson-day:staff.headline"
+      ],
+      "t": "নাম-উল্লিখিত সতেরোজন কর্মী: Learning Enrichment Center-এর 13 জন, Lower School-এর একজন পড়ার বিশেষজ্ঞ, দুজন স্কুল কাউন্সেলর ও স্কুল নার্স।"
+    },
+    {
+      "text": "Learning Specialist",
+      "of": "ffb035a8",
+      "at": [
+        "davidson-day:staff.people[0].role",
+        "davidson-day:staff.people[1].role",
+        "davidson-day:staff.people[2].role",
+        "davidson-day:staff.people[3].role",
+        "davidson-day:staff.people[7].role",
+        "davidson-day:staff.people[8].role",
+        "davidson-day:staff.people[10].role",
+        "davidson-day:staff.people[12].role"
+      ],
+      "t": "শেখার বিশেষজ্ঞ"
+    },
+    {
+      "text": "Director of Learning Services",
+      "of": "a1e702c4",
+      "at": [
+        "davidson-day:staff.people[4].role"
+      ],
+      "t": "শেখার সেবার পরিচালক"
+    },
+    {
+      "text": "Learning Enrichment Center Coordinator",
+      "of": "404e56ff",
+      "at": [
+        "davidson-day:staff.people[5].role"
+      ],
+      "t": "Learning Enrichment Center-এর সমন্বয়ক"
+    },
+    {
+      "text": "Lower School Literacy Coach",
+      "of": "fb947be5",
+      "at": [
+        "davidson-day:staff.people[9].role"
+      ],
+      "t": "Lower School-এর লিটারেসি কোচ"
+    },
+    {
+      "text": "Upper School Science Teacher & Learning Specialist",
+      "of": "ecdda98c",
+      "at": [
+        "davidson-day:staff.people[11].role"
+      ],
+      "t": "Upper School-এর বিজ্ঞান শিক্ষক ও শেখার বিশেষজ্ঞ"
+    },
+    {
+      "text": "Lower School Reading Specialist",
+      "of": "e85b74db",
+      "at": [
+        "davidson-day:staff.people[13].role"
+      ],
+      "t": "Lower School-এর পড়ার বিশেষজ্ঞ"
+    },
+    {
+      "text": "Lower School Counselor",
+      "of": "cca1ced8",
+      "at": [
+        "davidson-day:staff.people[14].role"
+      ],
+      "t": "Lower School কাউন্সেলর"
+    },
+    {
+      "text": "Middle and Upper School Counselor",
+      "of": "1efb6691",
+      "at": [
+        "davidson-day:staff.people[15].role"
+      ],
+      "t": "Middle ও Upper School কাউন্সেলর"
+    },
+    {
+      "text": "School Nurse",
+      "of": "4019d170",
+      "at": [
+        "davidson-day:staff.people[16].role"
+      ],
+      "t": "স্কুল নার্স"
+    },
+    {
+      "text": "Requests go to Dr. Chuck LaRusso, Director of Learning Services.",
+      "of": "565a2b4e",
+      "at": [
+        "davidson-day:staff.note.strong"
+      ],
+      "t": "অনুরোধ যায় শেখার সেবার পরিচালক Dr. Chuck LaRusso-র কাছে।"
+    },
+    {
+      "text": "The school’s 2026 summer letter signs him “Director of Curriculum.”",
+      "of": "01b0caf8",
+      "at": [
+        "davidson-day:staff.note.muted"
+      ],
+      "t": "স্কুলের 2026 গ্রীষ্মকালীন চিঠিতে তাঁর স্বাক্ষরে পদবি “পাঠ্যক্রম পরিচালক”।"
+    },
+    {
+      "text": "Eleven questions to take on the tour, covering what the school’s site leaves unanswered: rates, prior plans, accommodations, methods, evaluation, therapy and staff.",
+      "of": "4859b0d4",
+      "at": [
+        "davidson-day:ask.headline"
+      ],
+      "t": "স্কুল পরিদর্শনে নিয়ে যাওয়ার জন্য এগারোটি প্রশ্ন, স্কুলের সাইট যেসব প্রশ্নের উত্তর দেয় না সেগুলো নিয়ে: ফি, আগের পরিকল্পনা, সুবিধা-ব্যবস্থা, পদ্ধতি, মূল্যায়ন, থেরাপি ও কর্মী।"
+    },
+    {
+      "text": "What are the 2026-27 rates for tutoring, academic coaching, social skills groups, speech and occupational therapy, and does financial aid cover any of them?",
+      "of": "7afecbac",
+      "at": [
+        "davidson-day:ask.questions[0]"
+      ],
+      "t": "টিউটরিং, একাডেমিক কোচিং, সামাজিক দক্ষতার দল, স্পিচ ও অকুপেশনাল থেরাপির 2026-27 ফি কত, আর আর্থিক সহায়তা কি এগুলোর কোনোটি কভার করে?"
+    },
+    {
+      "text": "How is a 504 plan, IEP or prior school’s accommodations plan handled when a student enrolls?",
+      "of": "d652a89f",
+      "at": [
+        "davidson-day:ask.questions[1]"
+      ],
+      "t": "শিক্ষার্থী ভর্তি হলে 504 প্ল্যান, IEP বা আগের স্কুলের সুবিধা-ব্যবস্থার পরিকল্পনা কীভাবে সামলানো হয়?"
+    },
+    {
+      "text": "Which classroom and testing accommodations do you provide, and do they apply to the ISEE and to school exams?",
+      "of": "bbb53d7f",
+      "at": [
+        "davidson-day:ask.questions[2]"
+      ],
+      "t": "ক্লাসরুমে ও পরীক্ষায় আপনারা কোন কোন সুবিধা দেন, আর সেগুলো কি ISEE ও স্কুলের পরীক্ষায় প্রযোজ্য?"
+    },
+    {
+      "text": "Which reading method do the Literacy Coach, Reading Specialist and Learning Specialists use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
+      "of": "0318fbe0",
+      "at": [
+        "davidson-day:ask.questions[3]"
+      ],
+      "t": "লিটারেসি কোচ, পড়ার বিশেষজ্ঞ ও শেখার বিশেষজ্ঞরা পড়ানোর কোন পদ্ধতি ব্যবহার করেন (যেমন Orton-Gillingham, Wilson, কাঠামোবদ্ধ লিটারেসি)?"
+    },
+    {
+      "text": "Do you ever modify the curriculum, or is LEC support always tutoring alongside it?",
+      "of": "8ca31bac",
+      "at": [
+        "davidson-day:ask.questions[4]"
+      ],
+      "t": "আপনারা কি কখনো পাঠ্যক্রম পরিবর্তন করেন, নাকি LEC-এর সহায়তা সবসময় পাঠ্যক্রমের পাশাপাশি টিউটরিং?"
+    },
+    {
+      "text": "Is there any screening for reading, math or attention, and who carries out psychoeducational evaluations? Do you keep a list of evaluators?",
+      "of": "55969e6e",
+      "at": [
+        "davidson-day:ask.questions[5]"
+      ],
+      "t": "পড়া, গণিত বা মনোযোগের কোনো স্ক্রিনিং আছে কি, আর সাইকোএডুকেশনাল মূল্যায়ন কারা করেন? মূল্যায়নকারীদের কোনো তালিকা কি আপনারা রাখেন?"
+    },
+    {
+      "text": "Is there a school psychologist, and what is the crisis protocol?",
+      "of": "997fa516",
+      "at": [
+        "davidson-day:ask.questions[6]"
+      ],
+      "t": "স্কুলে কি কোনো সাইকোলজিস্ট আছেন, আর সংকটকালীন প্রোটোকল কী?"
+    },
+    {
+      "text": "Is physical therapy available on campus?",
+      "of": "07fdfedb",
+      "at": [
+        "davidson-day:ask.questions[7]"
+      ],
+      "t": "ক্যাম্পাসে কি ফিজিক্যাল থেরাপি পাওয়া যায়?"
+    },
+    {
+      "text": "Do Speech Techniques and Integrative Wellness bill families through the Patriot Account or directly, and can therapy be billed to insurance?",
+      "of": "23a2b744",
+      "at": [
+        "davidson-day:ask.questions[9]"
+      ],
+      "t": "Speech Techniques ও Integrative Wellness কি Patriot Account-এর মাধ্যমে নাকি সরাসরি পরিবারকে বিল করে, আর থেরাপির খরচ কি বিমায় বিল করা যায়?"
+    },
+    {
+      "text": "Is Dr. LaRusso the Director of Learning Services or the Director of Curriculum, and who oversees the LEC?",
+      "of": "e10e1a49",
+      "at": [
+        "davidson-day:ask.questions[10]"
+      ],
+      "t": "Dr. LaRusso কি শেখার সেবার পরিচালক নাকি পাঠ্যক্রম পরিচালক, আর LEC-এর তত্ত্বাবধান কে করেন?"
+    },
+    {
+      "text": "October 25, 2026",
+      "of": "e4693a96",
+      "at": [
+        "davidson-day:ask.asOf"
+      ],
+      "t": "25 অক্টোবর 2026"
     },
     {
       "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
@@ -1484,14 +2256,6 @@
         "hickory-grove-christian:testing.entries[1].text"
       ],
       "t": "প্রযোজ্য হলে, দুটি ভর্তি চেকলিস্টেই “শিক্ষাগত/রোগনির্ণয়মূলক টেস্টিংয়ের ফল, বর্তমান IEP/504” চাওয়া হয়, এবং চূড়ান্ত সিদ্ধান্তে “IEP/504/সাইকোএডুকেশনাল মূল্যায়নের পর্যালোচনা” অন্তর্ভুক্ত থাকে।"
-    },
-    {
-      "text": "Testing for admission is scheduled through the Student Services office after the admissions office receives every required form.",
-      "of": "926d60f8",
-      "at": [
-        "hickory-grove-christian:testing.entries[2].text"
-      ],
-      "t": "ভর্তি অফিস সব প্রয়োজনীয় ফর্ম পাওয়ার পর Student Services অফিস ভর্তি পরীক্ষার সময় ঠিক করে।"
     },
     {
       "text": "Nine named Student Services staff, led by an Administrator for Student Services and a Director of Educational Support Services.",

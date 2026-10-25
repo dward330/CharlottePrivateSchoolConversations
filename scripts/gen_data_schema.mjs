@@ -669,6 +669,27 @@ for (const s of STRUCTURED) {
     w('this area yet". `check:metrics` cannot catch this: every subtopic DID match a rule.')
     w()
   }
+  if (s.topic === 'learning-support') {
+    // Standing rules set 2026-10-25 at the Davidson Day review (plan ddlearning),
+    // after three shipped schools had admission tests on their Testing card. They
+    // live here because this doc is what /add-school and a new-school build read
+    // first; the full wording is in src/data/learningSupport/README.md.
+    w('**`testing` is about how a learning need is identified, not admission.** Its entries')
+    w('cover screening, psychoeducational evaluation (in-house, referral or family-supplied),')
+    w('documentation asked for at admission (an existing IEP, 504 or evaluation), the intake')
+    w('that decides what support a child gets, and testing accommodations for a student with')
+    w('a plan (College Board / ACT). Entrance tests (ISEE, Gesell, readiness visits) go in the')
+    w('Services "Entrance testing" row, never on this card. When a school publishes nothing')
+    w('on identification, the card says so with `NS` entries rather than filling up with')
+    w('admission tests.')
+    w()
+    w('**Every person a card names gets their published email.** Who You\'ll Work With')
+    w('(`staff.people`) and the Therapy card (`therapy.people`, for a pathologist or')
+    w('therapist the school names) render the same name / role / mailto row. The `email`')
+    w('comes only from the school\'s own directory, never from a name pattern. A person on')
+    w('the Therapy card goes in `therapy.people`, not only in `therapy.note`.')
+    w()
+  }
   const missing = schools.map((x) => x.slug).filter((x) => !s.schools.includes(x))
   w(`**Schools with data:** ${s.schools.length}/${schools.length}` +
     (missing.length ? ` — absent: ${missing.map((m) => `\`${m}\``).join(', ')}` : ''))

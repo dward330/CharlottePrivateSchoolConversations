@@ -111,7 +111,10 @@ directory, then strip the HTML to text (WebFetch only if curl is blocked). Cover
 - the staff list, plus **each person's email as the school's own directory publishes it**.
   On Finalsite sites that is the `FS.util.insertEmail(el, "<domain reversed>",
   "<local reversed>")` call on the directory or profile popup. Never build an address
-  from a name pattern; record each one with its directory id (see the README rule);
+  from a name pattern; record each one with its directory id (see the README rule).
+  **The same applies to anyone the Therapy card would name** (a speech-language
+  pathologist, an OT on staff): find their published email too, because they render
+  in `therapy.people` with the same mailto row (user rule, 2026-10-25);
 - wellness / counseling pages; any crisis-resources page;
 - the admissions checklists (documentation asked for at admission);
 - the careers page (learning-support postings name reporting lines and frameworks);
@@ -144,7 +147,7 @@ beside percentages**:
 | Can They Serve My Child? | eligible / plan / scope cells verified: n of 3 | at standard / below / omitted |
 | Services at a Glance | **published rows** (any code except NS): n of N; NS rows: m | … |
 | Therapy & Related Services | always renders (the gap is the finding) | — |
-| Testing & Evaluation | entries: n | … |
+| Testing & Evaluation | entries about **identifying a need** (screening, evaluation, intake): n. Admission tests do not count | … |
 | Who You'll Work With | named staff: n | … |
 | Ask the School | questions: one per gap or inconsistency | — |
 

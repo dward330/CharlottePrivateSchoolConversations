@@ -246,6 +246,13 @@ offered". **It is off Compare** (`COMPARE_DEFERRED_TOPICS`) until the user asks 
 section takes each school's own two colours from its data file (`colors.brand` /
 `colors.gold`).
 
+Two more were set at the Davidson Day review (2026-10-25). **Testing & Evaluation is
+about how a learning need is identified, never admission**: entrance tests (ISEE, Gesell)
+go in the Services "Entrance testing" row. **Every person a card names gets their
+published email**, on Who You'll Work With and on the Therapy card (`therapy.people`)
+alike. Both are written into the generated `DATA-SCHEMA.md`, the area README and the
+deep-research prompt, so a new school picks them up.
+
 See [`.claude/skills/learning-support/SKILL.md`](.claude/skills/learning-support/SKILL.md)
 and [`src/data/learningSupport/README.md`](src/data/learningSupport/README.md).
 

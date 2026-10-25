@@ -79,24 +79,42 @@ export type TherapyCard = {
   headline: string
   /** Speech-language, occupational, physical — each with its own code. */
   items: { name: string; code: LearningCode; detail?: string }[]
+  /**
+   * People the school names for these services, rendered exactly like the staff
+   * card's rows (name, role, mailto). Same `email` rule as `StaffPerson`.
+   */
+  people?: StaffPerson[]
   /** Optional closing line under the strip. */
   note?: string
   sources: Source[]
 }
 
+/**
+ * How a learning need is identified: screening, psychoeducational evaluation,
+ * documentation asked for at admission (IEP / 504 / evaluation), the intake
+ * that decides support, and testing accommodations for a student with a plan.
+ * NEVER admission tests (ISEE, Gesell, readiness visits); those belong in the
+ * Services "Entrance testing" row. See learningSupport/README.md.
+ */
 export type TestingCard = {
   headline: string
   entries: { code: LearningCode; title: string; text: string; muted?: string }[]
   sources: Source[]
 }
 
+/**
+ * `email` only where the school's own directory publishes it — never built
+ * from a name pattern. Rendered as a mailto link, never translated.
+ */
+export type StaffPerson = {
+  name: string
+  role: string
+  email?: string
+}
+
 export type StaffCard = {
   headline: string
-  /**
-   * `email` only where the school's own directory publishes it — never built
-   * from a name pattern. Rendered as a mailto link, never translated.
-   */
-  people: { name: string; role: string; email?: string }[]
+  people: StaffPerson[]
   note?: LearningLead
   sources: Source[]
 }
@@ -157,9 +175,9 @@ export const WIDE_LEARNING_CARDS: ReadonlySet<LearningSupportCardKey> = new Set(
 
 /**
  * Per-school entries live in ./learningSupport/<slug>.ts. Hickory Grove
- * Christian and Cannon are researched; every other school is ABSENT rather
- * than present-and-empty, and with no source-material folder the section never
- * renders on its page.
+ * Christian, Cannon and Davidson Day are researched; every other school is
+ * ABSENT rather than present-and-empty, and with no source-material folder the
+ * section never renders on its page.
  */
 import {
   localized,
@@ -170,10 +188,12 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { cannon } from './learningSupport/cannon.ts'
+import { davidsonDay } from './learningSupport/davidson-day.ts'
 import { hickoryGroveChristian } from './learningSupport/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, LearningSupportProgram> = {
   cannon,
+  'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,
 }
 
