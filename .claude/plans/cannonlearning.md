@@ -557,3 +557,8 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
   optional (`intro?:`) and `LearningSupport.tsx` renders it only when present. Hickory
   Grove keeps its intro. The two intro strings are no longer in Cannon's English, so
   Phase 2 has nothing to translate for them.
+- **Review edit (2026-10-24): dropped the eligibility note's first sentence at the user's
+  request.** The removed sentence was "No admissions page asks for testing results, a 504
+  or an IEP; the policy makes the request for learning support after enrollment." The note
+  now carries only the case-by-case accommodations sentence. The research record keeps
+  the finding.

@@ -94,7 +94,7 @@ export const cannon: LearningSupportProgram = {
       'The school’s pages do not mention 504 plans or IEPs. Accommodations need documentation: “No accommodation will be provided unless a disclosure with appropriate documentation has been made to the school,” and “No official Learning Plan will be constructed without a complete psychological-educational evaluation.” The request form asks what accommodations the student has had in the past.',
     scope:
       '“Acceptance of a student into Cannon School does not imply that the school will assume the responsibility for all of the special learning needs of the child, especially when such needs may require a modification/alteration of the school’s curriculum or when the child’s needs are beyond Cannon’s present resources.”',
-    note: 'No admissions page asks for testing results, a 504 or an IEP; the policy makes the request for learning support after enrollment. For a hearing, speech/language or vision impairment without a full evaluation, accommodations “will be considered on a case-by-case basis.”',
+    note: 'For a hearing, speech/language or vision impairment without a full evaluation, accommodations “will be considered on a case-by-case basis.”',
     sources: [LSP, POLICY, MS_HANDBOOK, APPLY],
   },
 
