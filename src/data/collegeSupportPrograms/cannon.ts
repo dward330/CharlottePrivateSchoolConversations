@@ -645,9 +645,7 @@ export const cannon: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'Cannon publishes what most schools here do not — an actual matriculation list. 58 institutions enrolled a Class of 2023 graduate, including Stanford, Duke, Penn, UCLA and the Air Force Academy.',
-    subhead:
-      'Beside it, the acceptance list now spans 2022–2026 — the 2024–25 and 2026–27 profiles’ lists combined, 352 institutions including seven of the eight Ivies — with the Class of 2023 enrollments in bold.',
+      'Cannon’s college acceptance list spans the Classes of 2022 through 2026 — 352 colleges, with Class of 2023 enrollments in bold.',
     stats: [
       { value: '98%', label: 'of the Class of 2026 to four-year colleges · 2% to two-year' },
       { value: '58', label: 'institutions where a Class of 2023 student actually enrolled' },
