@@ -750,3 +750,42 @@ Two layers, two mechanisms:
     row counts are unchanged (27 / 25 / 23).
   - Overflow is 0 at every width. `audit:mobile --only charlotte-country-day`: 0 broken
     cards and 0 page overflow.
+
+### Phase 2 (locales) — 2026-10-25
+
+- **Splice counts:** 102 new learning-support strings per locale, 0 dropped. That is below
+  step 8's estimate of 130–160, because repeated role titles collapse to one stamp and some
+  CCD roles (e.g. "Lower School Counselor") already existed from Davidson Day or Cannon. The
+  102 × 9 translations were written as stamp→text maps in the scratchpad and applied by stamp.
+  The apply step refused unknown stamps and never overwrote an existing `t`.
+- **Ranges were not pre-worded in fa/ar.** PR #367 isolates ranges at render, so `1-2`,
+  `15-20`, `K–4`, `5–12` and the rest keep their figures. A glyph-x scan in Chrome found
+  0 of 9 ranges reversed in either locale, so `src/data/overlays/NOTES.md` is unchanged.
+- **Kept Latin on purpose:** `Educational Resource Program` (like Cannon's `Learning
+  Support Program`), `Confidential Academic Plan (CAP)`, `Reading Specialist`, `Literacy
+  Coach`, `Business Office`, `Health Services`, and the crisis-line names. The
+  `Confidential Academic Plan` entry title is therefore byte-identical in all nine
+  locales. That is the only new string identical to its English.
+- **Gendered roles:** es `/a`, fr `(rice)`/`(ère)`, it `Responsabile` plus `/a`, ar `/ة`;
+  hi/bn/te/fa/ht are neutral. A draft slip, "la Reading Specialist" in es, was corrected
+  to "el/la" before applying.
+- **Chrome key:** `learning.staffScroll` was added to all nine catalogs with each locale's
+  CLDR forms (es/fr/it `_many`; ar six forms, with `_two` = "شخصان" and no digit). Each key
+  was inserted after the `"learning": {` line without reordering. Counts 0/1/2/3/11/40
+  resolve through i18next to translated text in every locale.
+- **Verification:**
+  - `npm run build` exits 0. `check:live` and `check:runtime` resolve all 9 locales.
+  - sepdrift: 0 drift ×9. `check_figures`: intact ×9.
+  - Clean: `check:fr`, `bidi`, `fa`, `hi`, `script`, `dates`, `money`, `currency`.
+  - `i18n:leaks`: identical to the Phase 1 baseline ×9. A direct scan of the new strings
+    found no stray Latin in the non-Latin locales.
+  - `check_work_integrity --base 4711e6b5`: exactly 1 finding per locale, the splice
+    growth (289 → 391).
+  - Chrome (es/hi/fa/ar at 1280): 6 cards and 40 staff rows. The caption is translated
+    and resolves through `aria-labelledby`. The region clips at 510px of ~1850px, scrolls,
+    and shows its shadow gradient. There is no English prose, money is localized, and the
+    page has 0 overflow.
+  - `audit:mobile --only charlotte-country-day` at 320px ×9: 0 broken cards and 0 page
+    overflow.
+  - `audit:moneyrender`: only the CCD Latest News headline and preview (es/fr), never
+    translated by design.

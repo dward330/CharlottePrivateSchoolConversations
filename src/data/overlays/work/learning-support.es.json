@@ -5,6 +5,1257 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” with one-on-one learning support in the Lower and Middle Schools, academic coaching in the Upper School, and accommodations for students with a documented disability.",
+      "of": "d1a138ab",
+      "at": [
+        "charlotte-country-day:lead.strong"
+      ],
+      "t": "El Educational Resource Program de Country Day “atiende a estudiantes desde junior kindergarten hasta 12.º grado”, con apoyo de aprendizaje individual en Lower School y Middle School, coaching académico en Upper School y adaptaciones para estudiantes con una discapacidad documentada."
+    },
+    {
+      "text": "Sessions are billed to the student’s account: $82 for 45 minutes in the Lower School, $85 a session in the Middle and Upper Schools.",
+      "of": "d6d780e1",
+      "at": [
+        "charlotte-country-day:lead.muted"
+      ],
+      "t": "Las sesiones se cargan a la cuenta del estudiante: $82 por 45 minutos en Lower School y $85 por sesión en Middle School y Upper School."
+    },
+    {
+      "text": "a 45-minute Lower School session",
+      "of": "ed157a21",
+      "at": [
+        "charlotte-country-day:stats[0].label"
+      ],
+      "t": "una sesión de 45 minutos en Lower School"
+    },
+    {
+      "text": "grades JK–4, billed through the student’s account by the Business Office",
+      "of": "6d190b7f",
+      "at": [
+        "charlotte-country-day:stats[0].note"
+      ],
+      "t": "grados JK–4, facturada a la cuenta del estudiante por la Business Office"
+    },
+    {
+      "text": "a Middle or Upper School session",
+      "of": "10ce0e92",
+      "at": [
+        "charlotte-country-day:stats[1].label"
+      ],
+      "t": "una sesión en Middle School o Upper School"
+    },
+    {
+      "text": "Middle School learning support and Upper School academic coaching; the session length is not stated",
+      "of": "f237e329",
+      "at": [
+        "charlotte-country-day:stats[1].note"
+      ],
+      "t": "apoyo de aprendizaje en Middle School y coaching académico en Upper School; no se indica la duración de la sesión"
+    },
+    {
+      "text": "Educational Resource Program staff",
+      "of": "8f890e16",
+      "at": [
+        "charlotte-country-day:stats[2].label"
+      ],
+      "t": "personal del Educational Resource Program"
+    },
+    {
+      "text": "three division directors, 19 learning specialists and four academic coaches",
+      "of": "372507eb",
+      "at": [
+        "charlotte-country-day:stats[2].note"
+      ],
+      "t": "tres directores/as de división, diecinueve especialistas en aprendizaje y cuatro coaches académicos"
+    },
+    {
+      "text": "school counselors",
+      "of": "83d116a4",
+      "at": [
+        "charlotte-country-day:stats[3].label",
+        "cannon:stats[3].label",
+        "davidson-day:stats[3].label"
+      ],
+      "t": "consejeros escolares"
+    },
+    {
+      "text": "two in each division, alongside a Director of Health and Wellness",
+      "of": "c5c5d572",
+      "at": [
+        "charlotte-country-day:stats[3].note"
+      ],
+      "t": "dos en cada división, junto con un/a Director/a de Salud y Bienestar"
+    },
+    {
+      "text": "Country Day gives school-based accommodations to students with a documented disability, from its own approved list. Learning-support sessions need no testing.",
+      "of": "555f88f3",
+      "at": [
+        "charlotte-country-day:eligibility.headline"
+      ],
+      "t": "Country Day ofrece adaptaciones escolares, de su propia lista aprobada, a estudiantes con una discapacidad documentada. Las sesiones de apoyo de aprendizaje no requieren evaluación."
+    },
+    {
+      "text": "Accommodations are for “students with documented disabilities,” and “A licensed service provider must document disabilities through a full psychoeducational evaluation.” Learning-support sessions are different: in the Lower School “A psychoeducational evaluation is not required for services,” and Middle School support is open to students “both with and without formal testing.”",
+      "of": "e5f4ba3b",
+      "at": [
+        "charlotte-country-day:eligibility.eligible"
+      ],
+      "t": "Las adaptaciones son para “estudiantes con discapacidades documentadas”, y “un proveedor de servicios con licencia debe documentar las discapacidades mediante una evaluación psicoeducativa completa”. Las sesiones de apoyo de aprendizaje son distintas: en Lower School “no se requiere una evaluación psicoeducativa para los servicios”, y el apoyo de Middle School está abierto a estudiantes “con y sin evaluación formal”."
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans or IEPs. A full psychoeducational evaluation is the only evaluation accepted for formal accommodations: “A simple doctor’s note or medical diagnosis (e.g., ADHD or anxiety) does not provide enough information to justify accommodations.” Supports an outside provider suggests “are considered recommendations and are not mandated.”",
+      "of": "fa488486",
+      "at": [
+        "charlotte-country-day:eligibility.plan"
+      ],
+      "t": "Las páginas de la escuela no mencionan planes 504 ni IEP. Una evaluación psicoeducativa completa es la única evaluación aceptada para adaptaciones formales: “Una simple nota médica o un diagnóstico médico (p. ej., TDAH o ansiedad) no aporta suficiente información para justificar adaptaciones”. Los apoyos que sugiere un proveedor externo “se consideran recomendaciones y no son obligatorios”."
+    },
+    {
+      "text": "“Students are eligible only for Country Day-approved accommodations; accommodations outside this list are not granted.” The approved list covers classroom accommodations, Country Day tests and standardized-test requests.",
+      "of": "af13bd0a",
+      "at": [
+        "charlotte-country-day:eligibility.scope"
+      ],
+      "t": "“Los estudiantes solo pueden recibir adaptaciones aprobadas por Country Day; no se conceden adaptaciones fuera de esta lista”. La lista aprobada abarca adaptaciones en el aula, pruebas de Country Day y solicitudes para pruebas estandarizadas."
+    },
+    {
+      "text": "A speech-language, occupational therapy or auditory processing evaluation “may receive school approved accommodations for one year.”",
+      "of": "5c17775a",
+      "at": [
+        "charlotte-country-day:eligibility.note"
+      ],
+      "t": "Una evaluación del habla y el lenguaje, de terapia ocupacional o de procesamiento auditivo “puede recibir adaptaciones aprobadas por la escuela durante un año”."
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. Learning-support sessions and coaching are billed per session; speech and occupational therapy come from independent providers on campus. Pick your child’s need to see what applies.",
+      "of": "0e12b86d",
+      "at": [
+        "charlotte-country-day:services.headline"
+      ],
+      "t": "Cada servicio que describen las páginas de la escuela, agrupado y codificado según quién lo presta. Las sesiones de apoyo de aprendizaje y el coaching se facturan por sesión; la terapia del habla y la ocupacional las prestan proveedores independientes en el campus. Elija la necesidad de su hijo para ver lo que aplica."
+    },
+    {
+      "text": "One-on-one Orton-Gillingham-based support in the Lower School, and small reading groups in K–1.",
+      "of": "af9a7a8d",
+      "at": [
+        "charlotte-country-day:services.verdicts.read.head"
+      ],
+      "t": "Apoyo individual basado en Orton-Gillingham en Lower School, y pequeños grupos de lectura en K–1."
+    },
+    {
+      "text": "Lower School specialists “bring advanced training, including Orton-Gillingham,” and the Hochman Method (The Writing Revolution). “For K–1 students, the Reading Specialist provides small-group literacy instruction.”",
+      "of": "bb703f58",
+      "at": [
+        "charlotte-country-day:services.verdicts.read.body"
+      ],
+      "t": "Los especialistas de Lower School “aportan formación avanzada, incluido Orton-Gillingham”, y el Hochman Method (The Writing Revolution). “Para los estudiantes de K–1, el/la Reading Specialist imparte instrucción de lectoescritura en grupos pequeños”."
+    },
+    {
+      "text": "Academic coaching in the Upper School, and executive-skills support in the Middle School.",
+      "of": "1b0b8bb0",
+      "at": [
+        "charlotte-country-day:services.verdicts.attn.head"
+      ],
+      "t": "Coaching académico en Upper School y apoyo en funciones ejecutivas en Middle School."
+    },
+    {
+      "text": "Each coaching session “uses a student’s current coursework as the practice ground.” Upper School coaching is scheduled “on a first-come, first-served basis” and “begins after the first day of school as staffing allows.”",
+      "of": "6ca26dbc",
+      "at": [
+        "charlotte-country-day:services.verdicts.attn.body"
+      ],
+      "t": "Cada sesión de coaching “usa el trabajo de curso actual del estudiante como campo de práctica”. El coaching de Upper School se asigna “por orden de llegada” y “comienza después del primer día de clases según lo permita el personal”."
+    },
+    {
+      "text": "One-on-one multi-sensory math in the Lower School, and math support in the Middle School.",
+      "of": "379d29bd",
+      "at": [
+        "charlotte-country-day:services.verdicts.math.head"
+      ],
+      "t": "Matemáticas multisensoriales individuales en Lower School y apoyo en matemáticas en Middle School."
+    },
+    {
+      "text": "Lower School math is taught with “hands-on manipulatives, explicit language and multi-sensory engagement.” Middle School specialists help students strengthen “writing, math, and reading comprehension within the context of their coursework.”",
+      "of": "9c3cf3e9",
+      "at": [
+        "charlotte-country-day:services.verdicts.math.body"
+      ],
+      "t": "En Lower School las matemáticas se enseñan con “material manipulativo, lenguaje explícito y participación multisensorial”. Los especialistas de Middle School ayudan a los estudiantes a fortalecer “la escritura, las matemáticas y la comprensión lectora en el contexto de sus cursos”."
+    },
+    {
+      "text": "Screening and therapy on campus, through an independent provider the family pays directly.",
+      "of": "5277b464",
+      "at": [
+        "charlotte-country-day:services.verdicts.speech.head"
+      ],
+      "t": "Evaluación inicial y terapia en el campus, a través de un proveedor independiente al que la familia paga directamente."
+    },
+    {
+      "text": "TerrificTalkers’ speech-language pathologists screen on campus for $25.00 and “operate independently of this school and are not employees of the school.” Therapy is arranged and paid for with the provider.",
+      "of": "2e4d026e",
+      "at": [
+        "charlotte-country-day:services.verdicts.speech.body"
+      ],
+      "t": "Los patólogos del habla y el lenguaje de TerrificTalkers hacen evaluaciones iniciales en el campus por $25.00 y “operan de forma independiente de esta escuela y no son empleados de la escuela”. La terapia se acuerda y se paga con el proveedor."
+    },
+    {
+      "text": "Occupational therapy on campus through an independent provider. No physical therapy is listed.",
+      "of": "1bb32dbf",
+      "at": [
+        "charlotte-country-day:services.verdicts.motor.head"
+      ],
+      "t": "Terapia ocupacional en el campus a través de un proveedor independiente. No figura fisioterapia."
+    },
+    {
+      "text": "Southern Piedmont Pediatric Therapy screens for $25, and “OT’s are on campus 1-2 days per week.” If you schedule therapy, “all financial arrangements will be between you and Southern Piedmont Pediatric Therapy.”",
+      "of": "563b3fd6",
+      "at": [
+        "charlotte-country-day:services.verdicts.motor.body"
+      ],
+      "t": "Southern Piedmont Pediatric Therapy hace evaluaciones iniciales por $25, y “los terapeutas ocupacionales están en el campus 1-2 días por semana”. Si programa terapia, “todos los acuerdos económicos serán entre usted y Southern Piedmont Pediatric Therapy”."
+    },
+    {
+      "text": "Six school counselors, two in each division, and published crisis lines.",
+      "of": "3defd924",
+      "at": [
+        "charlotte-country-day:services.verdicts.social.head"
+      ],
+      "t": "Seis consejeros escolares, dos en cada división, y líneas de crisis publicadas."
+    },
+    {
+      "text": "Lower School counselors provide “short-term individual and/or family counseling if needed, and referral to outside experts when appropriate.” The Health Services page links 988, the Crisis Text Line and the NC Peer Warmline.",
+      "of": "06f844a2",
+      "at": [
+        "charlotte-country-day:services.verdicts.social.body"
+      ],
+      "t": "Los consejeros de Lower School ofrecen “orientación individual y/o familiar a corto plazo si es necesario, y derivación a expertos externos cuando corresponde”. La página de Health Services enlaza a 988, la Crisis Text Line y la NC Peer Warmline."
+    },
+    {
+      "text": "No gifted or advanced-learner program is described.",
+      "of": "e696db67",
+      "at": [
+        "charlotte-country-day:services.verdicts.gifted.head",
+        "charlotte-country-day:services.groups[0].rows[9].detail"
+      ],
+      "t": "No se describe ningún programa para estudiantes dotados o avanzados."
+    },
+    {
+      "text": "The school’s learning-support pages describe no gifted program. Ask what is available for advanced learners.",
+      "of": "37ea31b6",
+      "at": [
+        "charlotte-country-day:services.verdicts.gifted.body"
+      ],
+      "t": "Las páginas de apoyo de aprendizaje de la escuela no describen ningún programa para estudiantes dotados. Pregunte qué se ofrece a los estudiantes avanzados."
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "charlotte-country-day:services.groups[0].name",
+        "cannon:services.groups[0].name",
+        "davidson-day:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "Apoyo académico y de aprendizaje"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[0].service",
+        "cannon:services.groups[0].rows[0].service",
+        "davidson-day:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "Maestros especializados"
+    },
+    {
+      "text": "Nineteen learning specialists and four Upper School academic coaches, led by a director in each division, plus a Lower School Reading Specialist and Literacy Coach. Lower School specialists “bring advanced training, including Orton-Gillingham.”",
+      "of": "634d3c80",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[0].detail"
+      ],
+      "t": "Diecinueve especialistas en aprendizaje y cuatro coaches académicos de Upper School, dirigidos por un/a director/a en cada división, además de un/a Reading Specialist y Literacy Coach de Lower School. Los especialistas de Lower School “aportan formación avanzada, incluido Orton-Gillingham”."
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[1].service",
+        "cannon:services.groups[0].rows[1].service",
+        "davidson-day:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "Intervención en lectura"
+    },
+    {
+      "text": "Lower School specialists give one-on-one support in reading and writing, “typically twice per week,” drawing on Orton-Gillingham and the Hochman Method. K–1 students may also get “small-group literacy instruction” from the Reading Specialist; the school does not say whether those groups are billed.",
+      "of": "fcada4ba",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[1].detail"
+      ],
+      "t": "Los especialistas de Lower School dan apoyo individual en lectura y escritura, “normalmente dos veces por semana”, con base en Orton-Gillingham y el Hochman Method. Los estudiantes de K–1 también pueden recibir “instrucción de lectoescritura en grupos pequeños” del/de la Reading Specialist; la escuela no dice si esos grupos se facturan."
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[2].service",
+        "cannon:services.groups[0].rows[2].service",
+        "davidson-day:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "Intervención en matemáticas"
+    },
+    {
+      "text": "One-on-one “Multi-Sensory Math” in the Lower School, and math within Middle School learning support.",
+      "of": "ea4d6d31",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[2].detail"
+      ],
+      "t": "“Matemáticas multisensoriales” individuales en Lower School, y matemáticas dentro del apoyo de aprendizaje de Middle School."
+    },
+    {
+      "text": "1:1 / small-group instruction",
+      "of": "c8ed8f2d",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[3].service",
+        "cannon:services.groups[0].rows[3].service",
+        "davidson-day:services.groups[0].rows[3].service"
+      ],
+      "t": "Instrucción 1:1 / en grupos pequeños"
+    },
+    {
+      "text": "One-on-one in every division: Lower School sessions are “$82 per 45-minute session,” Middle School sessions “$85 per session.” Small groups are for K–1 literacy only.",
+      "of": "d2345e76",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[3].detail"
+      ],
+      "t": "Individual en todas las divisiones: las sesiones de Lower School cuestan “$82 por sesión de 45 minutos” y las de Middle School “$85 por sesión”. Los grupos pequeños son solo para lectoescritura en K–1."
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[4].service",
+        "cannon:services.groups[0].rows[5].service",
+        "davidson-day:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "Coaching de funciones ejecutivas"
+    },
+    {
+      "text": "Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers “Executive skills (organization, planning, study routines).”",
+      "of": "cc7a5ba5",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[4].detail"
+      ],
+      "t": "El coaching académico de Upper School se “factura a $85 por sesión”: un coach para las materias troncales en 9.º grado y, luego, coaching de Humanidades o STEM en los grados 10–12. El apoyo de Middle School abarca las “funciones ejecutivas (organización, planificación, rutinas de estudio)”."
+    },
+    {
+      "text": "Learning-support class",
+      "of": "fd470495",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[5].service",
+        "cannon:services.groups[0].rows[6].service",
+        "davidson-day:services.groups[0].rows[6].service"
+      ],
+      "t": "Clase de apoyo al aprendizaje"
+    },
+    {
+      "text": "No learning-support class is offered, but sessions “are a permanent part of student schedules” and are “treated as class periods,” held during study halls, special-area classes or lunch.",
+      "of": "f556a324",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[5].detail"
+      ],
+      "t": "No se ofrece una clase de apoyo de aprendizaje, pero las sesiones “son una parte permanente del horario del estudiante” y “se tratan como períodos de clase”, y se realizan durante las horas de estudio, las clases de áreas especiales o el almuerzo."
+    },
+    {
+      "text": "Accommodations & learning plan",
+      "of": "c65478ab",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[6].service",
+        "cannon:services.groups[0].rows[7].service",
+        "davidson-day:services.groups[0].rows[7].service"
+      ],
+      "t": "Adaptaciones y plan de aprendizaje"
+    },
+    {
+      "text": "Accommodations come only from the school’s approved list and are recorded in a “Confidential Academic Plan (CAP)” that every teacher can see. Middle and Upper School students with “a documented mental health diagnosis may receive temporary accommodations” while awaiting an evaluation.",
+      "of": "2ddc2b0a",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[6].detail"
+      ],
+      "t": "Las adaptaciones salen solo de la lista aprobada de la escuela y se registran en un “Confidential Academic Plan (CAP)” que todos los profesores pueden ver. Los estudiantes de Middle School y Upper School con “un diagnóstico documentado de salud mental pueden recibir adaptaciones temporales” mientras esperan una evaluación."
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[7].service",
+        "cannon:services.groups[0].rows[8].service",
+        "davidson-day:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "Instrucción especialmente diseñada"
+    },
+    {
+      "text": "Not described. The school says accommodations change “how a student accesses learning—not what they are expected to learn.”",
+      "of": "707e9ac0",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[7].detail"
+      ],
+      "t": "No se describe. La escuela dice que las adaptaciones cambian “cómo accede un estudiante al aprendizaje, no lo que se espera que aprenda”."
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[8].service",
+        "cannon:services.groups[0].rows[9].service",
+        "davidson-day:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "Programa independiente / aula separada"
+    },
+    {
+      "text": "No separate program described.",
+      "of": "049eeace",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[8].detail",
+        "davidson-day:services.groups[0].rows[9].detail"
+      ],
+      "t": "No se describe ningún programa separado."
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[9].service",
+        "cannon:services.groups[0].rows[10].service",
+        "davidson-day:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "Dotados / avanzados"
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[10].service",
+        "cannon:services.groups[0].rows[11].service",
+        "davidson-day:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "Documentación de elegibilidad"
+    },
+    {
+      "text": "Formal accommodations need a full psychoeducational evaluation, reviewed every three years in Lower and Middle School and every four in Upper School, and submitted through the ERP’s secure online form. Learning-support sessions need none.",
+      "of": "8c478713",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[10].detail"
+      ],
+      "t": "Las adaptaciones formales requieren una evaluación psicoeducativa completa, que se revisa cada tres años en Lower School y Middle School y cada cuatro en Upper School, y se envía mediante el formulario seguro en línea del ERP. Las sesiones de apoyo de aprendizaje no requieren ninguna."
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "charlotte-country-day:services.groups[1].name",
+        "cannon:services.groups[1].name",
+        "davidson-day:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "Terapias y servicios relacionados"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[0].service",
+        "cannon:services.groups[1].rows[0].service",
+        "davidson-day:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "Terapia del habla y lenguaje"
+    },
+    {
+      "text": "TerrificTalkers screens on campus for $25.00 and can provide therapy at school; the family pays the provider directly. The school calls them “contracted” therapists “who provide additional services during the school day.”",
+      "of": "cf769c71",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[0].detail"
+      ],
+      "t": "TerrificTalkers hace evaluaciones iniciales en el campus por $25.00 y puede prestar terapia en la escuela; la familia paga directamente al proveedor. La escuela los llama terapeutas “contratados” “que prestan servicios adicionales durante la jornada escolar”."
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[1].service",
+        "cannon:services.groups[1].rows[1].service",
+        "davidson-day:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "Terapia ocupacional"
+    },
+    {
+      "text": "Southern Piedmont Pediatric Therapy screens for $25 and is “on campus 1-2 days per week”; therapy is arranged and paid for with the provider.",
+      "of": "23617032",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[1].detail"
+      ],
+      "t": "Southern Piedmont Pediatric Therapy hace evaluaciones iniciales por $25 y está “en el campus 1-2 días por semana”; la terapia se acuerda y se paga con el proveedor."
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[2].service",
+        "cannon:services.groups[1].rows[2].service",
+        "davidson-day:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "Fisioterapia"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[2].detail",
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "davidson-day:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "La escuela no la menciona."
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "charlotte-country-day:services.groups[2].name",
+        "cannon:services.groups[2].name",
+        "davidson-day:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "Evaluación"
+    },
+    {
+      "text": "Early identification (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[0].service",
+        "cannon:services.groups[2].rows[0].service",
+        "davidson-day:services.groups[2].rows[0].service"
+      ],
+      "t": "Identificación temprana (JK–2)"
+    },
+    {
+      "text": "Lower School students are identified through “benchmark assessments given at the beginning, middle, and end of the school year,” and the school offers speech-language and occupational therapy screenings.",
+      "of": "4396d0b2",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[0].detail"
+      ],
+      "t": "Los estudiantes de Lower School se identifican mediante “evaluaciones de referencia aplicadas al inicio, a mitad y al final del año escolar”, y la escuela ofrece evaluaciones iniciales del habla y el lenguaje y de terapia ocupacional."
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[1].service",
+        "charlotte-country-day:testing.entries[5].title",
+        "cannon:services.groups[2].rows[1].service",
+        "davidson-day:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "Adaptaciones en las pruebas"
+    },
+    {
+      "text": "Approved accommodations include “Extended time (50% more)” on Country Day tests. The ERP submits College Board, ACT and IB requests, but “Country Day accommodations do not automatically transfer.”",
+      "of": "d4de8d65",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[1].detail"
+      ],
+      "t": "Las adaptaciones aprobadas incluyen “tiempo adicional (50% más)” en las pruebas de Country Day. El ERP presenta las solicitudes ante College Board, ACT e IB, pero “las adaptaciones de Country Day no se transfieren automáticamente”."
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[2].service",
+        "cannon:services.groups[2].rows[2].service",
+        "davidson-day:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service"
+      ],
+      "t": "Pruebas de ingreso"
+    },
+    {
+      "text": "A psychologist’s standardized screening for younger applicants, the ISEE for grades 5–12, and the TOEFL for international applicants.",
+      "of": "75577f81",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[2].detail"
+      ],
+      "t": "Una evaluación estandarizada a cargo de un psicólogo para los aspirantes más pequeños, el ISEE para los grados 5–12 y el TOEFL para los aspirantes internacionales."
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[3].service",
+        "charlotte-country-day:testing.entries[3].title",
+        "cannon:services.groups[2].rows[3].service",
+        "davidson-day:services.groups[2].rows[3].service",
+        "davidson-day:testing.entries[2].title",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "Evaluación psicoeducativa"
+    },
+    {
+      "text": "Done by outside providers at the family’s cost. The school publishes a list of preferred providers, updated January 2026, some accepting insurance, and “financial aid options are available for qualifying families.”",
+      "of": "ee36bb6a",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[3].detail"
+      ],
+      "t": "La realizan proveedores externos a cargo de la familia. La escuela publica una lista de proveedores preferidos, actualizada en enero de 2026, algunos de los cuales aceptan seguro, y “hay opciones de ayuda financiera para las familias que cumplan los requisitos”."
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "charlotte-country-day:services.groups[3].name",
+        "cannon:services.groups[3].name",
+        "davidson-day:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "Bienestar y salud"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[0].service",
+        "cannon:services.groups[3].rows[0].service",
+        "davidson-day:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "Consejería y apoyo emocional"
+    },
+    {
+      "text": "Six school counselors, two in each division; three hold the title Director of Counseling. Lower School counselors provide “short-term individual and/or family counseling if needed, and referral to outside experts when appropriate.”",
+      "of": "20e08860",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[0].detail"
+      ],
+      "t": "Seis consejeros escolares, dos en cada división; tres tienen el cargo de Director/a de Orientación. Los consejeros de Lower School ofrecen “orientación individual y/o familiar a corto plazo si es necesario, y derivación a expertos externos cuando corresponde”."
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[1].service",
+        "cannon:services.groups[3].rows[1].service",
+        "davidson-day:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "Intervención emocional y conductual"
+    },
+    {
+      "text": "No program is described beyond short-term counseling and referral.",
+      "of": "ade7c2ac",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[1].detail"
+      ],
+      "t": "No se describe ningún programa más allá de la orientación a corto plazo y la derivación."
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[2].service",
+        "cannon:services.groups[3].rows[2].service",
+        "davidson-day:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "Recursos para crisis"
+    },
+    {
+      "text": "The Health Services page links Crisis Service Lines: the 988 Suicide & Crisis Lifeline, the Crisis Text Line (text HOME to 741741) and the NC Peer Warmline (1-855-733-7762).",
+      "of": "3ad5896f",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[2].detail"
+      ],
+      "t": "La página de Health Services enlaza a líneas de crisis: la 988 Suicide & Crisis Lifeline, la Crisis Text Line (envíe HOME al 741741) y la NC Peer Warmline (1-855-733-7762)."
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[3].service",
+        "cannon:services.groups[3].rows[3].service",
+        "davidson-day:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "Psicólogo/a escolar"
+    },
+    {
+      "text": "None named. The Director of Health and Wellness, who started July 1, 2026, is “A licensed clinical psychologist.”",
+      "of": "53c3c840",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[3].detail"
+      ],
+      "t": "No se nombra ninguno. El/la Director/a de Salud y Bienestar, que comenzó el 1 de julio de 2026, es “psicólogo/a clínico/a con licencia”."
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[4].service",
+        "cannon:services.groups[3].rows[4].service",
+        "davidson-day:services.groups[3].rows[5].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "Enfermero/a escolar"
+    },
+    {
+      "text": "“Two full-time nurses on each campus.”",
+      "of": "275ef46e",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[4].detail"
+      ],
+      "t": "“Dos enfermeros/as a tiempo completo en cada campus”."
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "charlotte-country-day:services.groups[4].name",
+        "cannon:services.groups[4].name",
+        "davidson-day:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "Idioma"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "charlotte-country-day:services.groups[4].rows[0].service",
+        "cannon:services.groups[4].rows[0].service",
+        "davidson-day:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / apoyo en inglés"
+    },
+    {
+      "text": "The school has “a full-time English as a Second Language program,” and the directory lists an English and ESL Teacher in the Upper School.",
+      "of": "38cb0532",
+      "at": [
+        "charlotte-country-day:services.groups[4].rows[0].detail"
+      ],
+      "t": "La escuela tiene “un programa de inglés como segunda lengua a tiempo completo”, y el directorio incluye un/a profesor/a de inglés y ESL en Upper School."
+    },
+    {
+      "text": "Speech and occupational therapy are available on campus during the school day from independent providers, arranged and paid for directly by the family. Physical therapy is not listed.",
+      "of": "7ebd8aa6",
+      "at": [
+        "charlotte-country-day:therapy.headline"
+      ],
+      "t": "La terapia del habla y la ocupacional están disponibles en el campus durante la jornada escolar a través de proveedores independientes, y la familia las acuerda y paga directamente. No figura fisioterapia."
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "charlotte-country-day:therapy.items[0].name",
+        "cannon:therapy.items[0].name",
+        "davidson-day:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "Habla y lenguaje"
+    },
+    {
+      "text": "TerrificTalkers, on campus. Screening $25.00; therapy fees are set by the provider.",
+      "of": "acaee83c",
+      "at": [
+        "charlotte-country-day:therapy.items[0].detail"
+      ],
+      "t": "TerrificTalkers, en el campus. Evaluación inicial $25.00; las tarifas de terapia las fija el proveedor."
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "charlotte-country-day:therapy.items[1].name",
+        "cannon:therapy.items[1].name",
+        "davidson-day:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "Ocupacional"
+    },
+    {
+      "text": "Southern Piedmont Pediatric Therapy, on campus 1–2 days a week. Screening $25; therapy fees are set by the provider.",
+      "of": "883e8d76",
+      "at": [
+        "charlotte-country-day:therapy.items[1].detail"
+      ],
+      "t": "Southern Piedmont Pediatric Therapy, en el campus 1–2 días por semana. Evaluación inicial $25; las tarifas de terapia las fija el proveedor."
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "charlotte-country-day:therapy.items[2].name",
+        "cannon:therapy.items[2].name",
+        "davidson-day:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "Física"
+    },
+    {
+      "text": "Both providers “operate independently” of the school. Screening forms go home through the Lower School; the school does not say whether screening is offered in the Middle or Upper School.",
+      "of": "e13dedc8",
+      "at": [
+        "charlotte-country-day:therapy.note"
+      ],
+      "t": "Ambos proveedores “operan de forma independiente” de la escuela. Los formularios de evaluación inicial se envían a casa a través de Lower School; la escuela no dice si la evaluación se ofrece en Middle School o Upper School."
+    },
+    {
+      "text": "Lower School students are screened three times a year, and the Educational Resource Program tiers support from the results. Formal accommodations need a full psychoeducational evaluation from an outside provider.",
+      "of": "cac180ad",
+      "at": [
+        "charlotte-country-day:testing.headline"
+      ],
+      "t": "Los estudiantes de Lower School se evalúan tres veces al año, y el Educational Resource Program asigna niveles de apoyo según los resultados. Las adaptaciones formales requieren una evaluación psicoeducativa completa de un proveedor externo."
+    },
+    {
+      "text": "Benchmark screening (K–4)",
+      "of": "bb37ebad",
+      "at": [
+        "charlotte-country-day:testing.entries[0].title"
+      ],
+      "t": "Evaluación de referencia (K–4)"
+    },
+    {
+      "text": "“Students are identified for support based on benchmark assessments given at the beginning, middle, and end of the school year.”",
+      "of": "e6549c33",
+      "at": [
+        "charlotte-country-day:testing.entries[0].text"
+      ],
+      "t": "“Los estudiantes se identifican para recibir apoyo según evaluaciones de referencia aplicadas al inicio, a mitad y al final del año escolar”."
+    },
+    {
+      "text": "Data analysis meetings with the Literacy Leadership Team decide which of three tiers of support fits: classroom strategies, K–1 small groups, or one-on-one sessions.",
+      "of": "2fb2c4c1",
+      "at": [
+        "charlotte-country-day:testing.entries[0].muted"
+      ],
+      "t": "En reuniones de análisis de datos con el Literacy Leadership Team se decide cuál de tres niveles de apoyo corresponde: estrategias en el aula, grupos pequeños de K–1 o sesiones individuales."
+    },
+    {
+      "text": "Educational screening",
+      "of": "5261b444",
+      "at": [
+        "charlotte-country-day:testing.entries[1].title"
+      ],
+      "t": "Evaluación educativa inicial"
+    },
+    {
+      "text": "With a parent’s signed consent, the school does “an educational screening” to “identify individual educational needs in order to aid in individualizing instruction.”",
+      "of": "cf128fc1",
+      "at": [
+        "charlotte-country-day:testing.entries[1].text"
+      ],
+      "t": "Con el consentimiento firmado de un padre o madre, la escuela realiza “una evaluación educativa inicial” para “identificar necesidades educativas individuales a fin de ayudar a individualizar la enseñanza”."
+    },
+    {
+      "text": "Speech-language and occupational therapy screening",
+      "of": "52a043dc",
+      "at": [
+        "charlotte-country-day:testing.entries[2].title"
+      ],
+      "t": "Evaluación inicial del habla y el lenguaje y de terapia ocupacional"
+    },
+    {
+      "text": "Independent providers screen on campus for $25. OT screenings are “brief 15-20 minute clinical observations to determine if an OT evaluation is needed”; the speech screening “does not serve as a comprehensive speech/language evaluation.”",
+      "of": "0f92a997",
+      "at": [
+        "charlotte-country-day:testing.entries[2].text"
+      ],
+      "t": "Proveedores independientes hacen evaluaciones iniciales en el campus por $25. Las de terapia ocupacional son “breves observaciones clínicas de 15-20 minutos para determinar si se necesita una evaluación de terapia ocupacional”; la del habla “no sirve como evaluación integral del habla y el lenguaje”."
+    },
+    {
+      "text": "“A licensed service provider must document disabilities through a full psychoeducational evaluation,” at the family’s cost. The school publishes a preferred-provider list, updated January 2026.",
+      "of": "dba0e58a",
+      "at": [
+        "charlotte-country-day:testing.entries[3].text"
+      ],
+      "t": "“Un proveedor de servicios con licencia debe documentar las discapacidades mediante una evaluación psicoeducativa completa”, a cargo de la familia. La escuela publica una lista de proveedores preferidos, actualizada en enero de 2026."
+    },
+    {
+      "text": "The accommodations page says evaluations are reviewed every three years in Lower and Middle School and every four in Upper School; the linked policy says three years through grade 5 and four from grade 6.",
+      "of": "bea78274",
+      "at": [
+        "charlotte-country-day:testing.entries[3].muted"
+      ],
+      "t": "La página de adaptaciones dice que las evaluaciones se revisan cada tres años en Lower School y Middle School y cada cuatro en Upper School; la política enlazada dice tres años hasta el 5.º grado y cuatro a partir del 6.º."
+    },
+    {
+      "text": "Confidential Academic Plan",
+      "of": "d79ff665",
+      "at": [
+        "charlotte-country-day:testing.entries[4].title"
+      ],
+      "t": "Confidential Academic Plan"
+    },
+    {
+      "text": "“Teachers and Learning Support staff review each student’s psychoeducational profile and recommended accommodations,” and approved accommodations go into the student’s Confidential Academic Plan (CAP).",
+      "of": "4a0c07c2",
+      "at": [
+        "charlotte-country-day:testing.entries[4].text"
+      ],
+      "t": "“Los profesores y el personal de Learning Support revisan el perfil psicoeducativo de cada estudiante y las adaptaciones recomendadas”, y las adaptaciones aprobadas se incorporan al Confidential Academic Plan (CAP) del estudiante."
+    },
+    {
+      "text": "Middle and Upper School students with a documented mental health diagnosis may get temporary accommodations through the school counselor while awaiting an evaluation.",
+      "of": "2c1ba2f1",
+      "at": [
+        "charlotte-country-day:testing.entries[4].muted"
+      ],
+      "t": "Los estudiantes de Middle School y Upper School con un diagnóstico documentado de salud mental pueden recibir adaptaciones temporales a través del consejero escolar mientras esperan una evaluación."
+    },
+    {
+      "text": "Approved accommodations apply to “Daily coursework and quizzes” and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”",
+      "of": "4854f226",
+      "at": [
+        "charlotte-country-day:testing.entries[5].text"
+      ],
+      "t": "Las adaptaciones aprobadas se aplican a “las tareas diarias y los cuestionarios” y a “los exámenes administrados por Country Day, incluidos los parciales y finales”. Las adaptaciones para pruebas estandarizadas “deben ser aprobadas por separado por College Board o ACT”."
+    },
+    {
+      "text": "In grades 6–12, testing must reach the school at least seven business days before reading day to be used on exams.",
+      "of": "a6910986",
+      "at": [
+        "charlotte-country-day:testing.entries[5].muted"
+      ],
+      "t": "En los grados 6–12, la evaluación debe llegar a la escuela al menos siete días hábiles antes del día de lectura para usarse en los exámenes."
+    },
+    {
+      "text": "Forty named staff: the 26-person Educational Resource Program, the Lower School Reading Specialist, the Director of Health and Wellness, seven counselors, four nurses and an ESL teacher.",
+      "of": "1455a3a9",
+      "at": [
+        "charlotte-country-day:staff.headline"
+      ],
+      "t": "Cuarenta personas con nombre: los 26 integrantes del Educational Resource Program, el/la Reading Specialist de Lower School, el/la Director/a de Salud y Bienestar, siete consejeros, cuatro enfermeros/as y un/a profesor/a de ESL."
+    },
+    {
+      "text": "Director of Lower School ERP",
+      "of": "039f3920",
+      "at": [
+        "charlotte-country-day:staff.people[0].role"
+      ],
+      "t": "Director/a de ERP de Lower School"
+    },
+    {
+      "text": "Learning Specialist, Lower School",
+      "of": "0bbdb8d7",
+      "at": [
+        "charlotte-country-day:staff.people[1].role",
+        "charlotte-country-day:staff.people[2].role",
+        "charlotte-country-day:staff.people[3].role",
+        "charlotte-country-day:staff.people[4].role",
+        "charlotte-country-day:staff.people[5].role",
+        "charlotte-country-day:staff.people[6].role",
+        "charlotte-country-day:staff.people[7].role",
+        "charlotte-country-day:staff.people[8].role",
+        "charlotte-country-day:staff.people[9].role"
+      ],
+      "t": "Especialista en aprendizaje, Lower School"
+    },
+    {
+      "text": "Reading Specialist/Literacy Coach, Lower School",
+      "of": "dd1c0ec5",
+      "at": [
+        "charlotte-country-day:staff.people[10].role"
+      ],
+      "t": "Especialista en lectura/Coach de lectoescritura, Lower School"
+    },
+    {
+      "text": "Director of Middle School ERP",
+      "of": "4cf6ac68",
+      "at": [
+        "charlotte-country-day:staff.people[11].role"
+      ],
+      "t": "Director/a de ERP de Middle School"
+    },
+    {
+      "text": "Learning Specialist, Middle School",
+      "of": "768fd427",
+      "at": [
+        "charlotte-country-day:staff.people[12].role",
+        "charlotte-country-day:staff.people[13].role",
+        "charlotte-country-day:staff.people[14].role",
+        "charlotte-country-day:staff.people[15].role",
+        "charlotte-country-day:staff.people[16].role",
+        "charlotte-country-day:staff.people[17].role",
+        "charlotte-country-day:staff.people[18].role",
+        "charlotte-country-day:staff.people[19].role",
+        "charlotte-country-day:staff.people[20].role",
+        "charlotte-country-day:staff.people[21].role"
+      ],
+      "t": "Especialista en aprendizaje, Middle School"
+    },
+    {
+      "text": "Director of Upper School ERP",
+      "of": "370fce57",
+      "at": [
+        "charlotte-country-day:staff.people[22].role"
+      ],
+      "t": "Director/a de ERP de Upper School"
+    },
+    {
+      "text": "Academic Coach, Upper School",
+      "of": "39810a0c",
+      "at": [
+        "charlotte-country-day:staff.people[23].role",
+        "charlotte-country-day:staff.people[24].role",
+        "charlotte-country-day:staff.people[25].role",
+        "charlotte-country-day:staff.people[26].role"
+      ],
+      "t": "Coach académico/a, Upper School"
+    },
+    {
+      "text": "Director of Health and Wellness",
+      "of": "dc1c67ec",
+      "at": [
+        "charlotte-country-day:staff.people[27].role"
+      ],
+      "t": "Director/a de Salud y Bienestar"
+    },
+    {
+      "text": "Director of Lower School Counseling",
+      "of": "40aa7c76",
+      "at": [
+        "charlotte-country-day:staff.people[28].role"
+      ],
+      "t": "Director/a de Orientación de Lower School"
+    },
+    {
+      "text": "Lower School Counselor",
+      "of": "cca1ced8",
+      "at": [
+        "charlotte-country-day:staff.people[29].role",
+        "davidson-day:staff.people[14].role"
+      ],
+      "t": "Consejero/a de Lower School"
+    },
+    {
+      "text": "Director of Middle School Counseling",
+      "of": "f407e15e",
+      "at": [
+        "charlotte-country-day:staff.people[30].role"
+      ],
+      "t": "Director/a de Orientación de Middle School"
+    },
+    {
+      "text": "Middle School Counselor",
+      "of": "c1f784da",
+      "at": [
+        "charlotte-country-day:staff.people[31].role"
+      ],
+      "t": "Consejero/a de Middle School"
+    },
+    {
+      "text": "Director of Upper School Counseling",
+      "of": "ec9d7943",
+      "at": [
+        "charlotte-country-day:staff.people[32].role"
+      ],
+      "t": "Director/a de Orientación de Upper School"
+    },
+    {
+      "text": "Upper School Counselor",
+      "of": "9b93583f",
+      "at": [
+        "charlotte-country-day:staff.people[33].role",
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ],
+      "t": "Consejero/a de Upper School"
+    },
+    {
+      "text": "Assistant Director of Athletics, Student Health",
+      "of": "72a8f5fc",
+      "at": [
+        "charlotte-country-day:staff.people[34].role"
+      ],
+      "t": "Director/a adjunto/a de Atletismo, Salud estudiantil"
+    },
+    {
+      "text": "School Nurse, Cannon Campus",
+      "of": "4e112f4e",
+      "at": [
+        "charlotte-country-day:staff.people[35].role",
+        "charlotte-country-day:staff.people[36].role"
+      ],
+      "t": "Enfermero/a escolar, Cannon Campus"
+    },
+    {
+      "text": "School Nurse, Bissell Campus",
+      "of": "cdd96043",
+      "at": [
+        "charlotte-country-day:staff.people[37].role",
+        "charlotte-country-day:staff.people[38].role"
+      ],
+      "t": "Enfermero/a escolar, Bissell Campus"
+    },
+    {
+      "text": "English and ESL Teacher, Upper School",
+      "of": "a0b05568",
+      "at": [
+        "charlotte-country-day:staff.people[39].role"
+      ],
+      "t": "Profesor/a de inglés y ESL, Upper School"
+    },
+    {
+      "text": "Each division’s ERP director is the first contact for learning support and accommodations.",
+      "of": "e3de3b91",
+      "at": [
+        "charlotte-country-day:staff.note.strong"
+      ],
+      "t": "El/la director/a de ERP de cada división es el primer contacto para el apoyo de aprendizaje y las adaptaciones."
+    },
+    {
+      "text": "The school also lists a shared nurses’ inbox, nurses@charlottecountryday.org.",
+      "of": "5d253d49",
+      "at": [
+        "charlotte-country-day:staff.note.muted"
+      ],
+      "t": "La escuela también indica un buzón compartido de enfermería, nurses@charlottecountryday.org."
+    },
+    {
+      "text": "Thirteen questions to take on the tour, covering what the school’s site leaves unanswered or says two ways: prior plans, evaluation timing, fees, therapy, methods and staffing.",
+      "of": "37a37acc",
+      "at": [
+        "charlotte-country-day:ask.headline"
+      ],
+      "t": "Trece preguntas para llevar a la visita, sobre lo que el sitio de la escuela deja sin responder o dice de dos maneras: planes previos, plazos de evaluación, tarifas, terapia, métodos y personal."
+    },
+    {
+      "text": "How is a 504 plan, IEP or another school’s accommodations plan treated when a student enrolls? Is a new psychoeducational evaluation always required?",
+      "of": "5b8903f8",
+      "at": [
+        "charlotte-country-day:ask.questions[0]"
+      ],
+      "t": "¿Cómo se trata un plan 504, un IEP o el plan de adaptaciones de otra escuela cuando un estudiante se matricula? ¿Se requiere siempre una nueva evaluación psicoeducativa?"
+    },
+    {
+      "text": "Your accommodations page says evaluations are reviewed every three years in Lower and Middle School, but the evaluation policy says three years through grade 5 and four from grade 6. Which applies to grades 5–8?",
+      "of": "24bec79d",
+      "at": [
+        "charlotte-country-day:ask.questions[1]"
+      ],
+      "t": "Su página de adaptaciones dice que las evaluaciones se revisan cada tres años en Lower School y Middle School, pero la política de evaluación dice tres años hasta el 5.º grado y cuatro a partir del 6.º. ¿Cuál se aplica a los grados 5–8?"
+    },
+    {
+      "text": "How long is a Middle School or Upper School session at $85?",
+      "of": "9fc535cf",
+      "at": [
+        "charlotte-country-day:ask.questions[2]"
+      ],
+      "t": "¿Cuánto dura una sesión de Middle School o Upper School de $85?"
+    },
+    {
+      "text": "Are the K–1 small reading groups with the Reading Specialist billed, or included in tuition?",
+      "of": "8cc7f81b",
+      "at": [
+        "charlotte-country-day:ask.questions[3]"
+      ],
+      "t": "¿Los pequeños grupos de lectura de K–1 con el/la Reading Specialist se facturan o están incluidos en la matrícula?"
+    },
+    {
+      "text": "Does financial aid cover Educational Resource Program sessions or academic coaching?",
+      "of": "3892a2df",
+      "at": [
+        "charlotte-country-day:ask.questions[4]"
+      ],
+      "t": "¿La ayuda financiera cubre las sesiones del Educational Resource Program o el coaching académico?"
+    },
+    {
+      "text": "What do TerrificTalkers and Southern Piedmont Pediatric Therapy charge for therapy, and do they accept insurance?",
+      "of": "65516c38",
+      "at": [
+        "charlotte-country-day:ask.questions[5]"
+      ],
+      "t": "¿Cuánto cobran TerrificTalkers y Southern Piedmont Pediatric Therapy por la terapia, y aceptan seguro?"
+    },
+    {
+      "text": "Are speech-language and occupational therapy screenings available in the Middle and Upper Schools?",
+      "of": "554fb7a6",
+      "at": [
+        "charlotte-country-day:ask.questions[6]"
+      ],
+      "t": "¿Hay evaluaciones iniciales del habla y el lenguaje y de terapia ocupacional en Middle School y Upper School?"
+    },
+    {
+      "text": "Can physical therapy take place on campus during the school day?",
+      "of": "cb57b31c",
+      "at": [
+        "charlotte-country-day:ask.questions[7]"
+      ],
+      "t": "¿Puede hacerse fisioterapia en el campus durante la jornada escolar?"
+    },
+    {
+      "text": "Do you ever modify the curriculum, or is support always accommodations and one-on-one sessions?",
+      "of": "9d47ecb1",
+      "at": [
+        "charlotte-country-day:ask.questions[8]"
+      ],
+      "t": "¿Modifican alguna vez el currículo, o el apoyo consiste siempre en adaptaciones y sesiones individuales?"
+    },
+    {
+      "text": "What do you offer advanced or gifted learners?",
+      "of": "67332732",
+      "at": [
+        "charlotte-country-day:ask.questions[9]"
+      ],
+      "t": "¿Qué ofrecen a los estudiantes avanzados o dotados?"
+    },
+    {
+      "text": "Is there a school psychologist, and how does the Director of Health and Wellness work with the Educational Resource Program?",
+      "of": "3ebef730",
+      "at": [
+        "charlotte-country-day:ask.questions[10]"
+      ],
+      "t": "¿Hay un/a psicólogo/a escolar, y cómo colabora el/la Director/a de Salud y Bienestar con el Educational Resource Program?"
+    },
+    {
+      "text": "Upper School coaching is first-come, first-served and depends on staffing, and two academic coach positions are posted. How likely is a new student to get a coaching slot?",
+      "of": "87de2f0f",
+      "at": [
+        "charlotte-country-day:ask.questions[11]"
+      ],
+      "t": "El coaching de Upper School se asigna por orden de llegada y depende del personal, y hay dos puestos de coach académico publicados. ¿Qué probabilidad tiene un estudiante nuevo de conseguir un lugar de coaching?"
+    },
+    {
+      "text": "Is English-language (ESL) support offered below the Upper School, and is there a fee?",
+      "of": "6e7c51c4",
+      "at": [
+        "charlotte-country-day:ask.questions[12]"
+      ],
+      "t": "¿Se ofrece apoyo en inglés (ESL) por debajo de Upper School, y tiene costo?"
+    },
+    {
+      "text": "October 25, 2026",
+      "of": "e4693a96",
+      "at": [
+        "charlotte-country-day:ask.asOf",
+        "davidson-day:ask.asOf"
+      ],
+      "t": "25 de octubre de 2026"
+    },
+    {
       "text": "Cannon’s Learning Support Program “helps students with diagnosed learning differences become successful learners and confident self-advocates,” with a learning specialist in each division from Junior Kindergarten through 12th grade.",
       "of": "b6dea18a",
       "at": [
@@ -67,15 +1318,6 @@
         "cannon:stats[2].note"
       ],
       "t": "“el año pasado”, según la nota de la escuela sobre la inauguración del Hudson ARC el 31 de agosto"
-    },
-    {
-      "text": "school counselors",
-      "of": "83d116a4",
-      "at": [
-        "cannon:stats[3].label",
-        "davidson-day:stats[3].label"
-      ],
-      "t": "consejeros escolares"
     },
     {
       "text": "Junior Kindergarten through 12th grade, on the Student Support Team",
@@ -249,42 +1491,12 @@
       "t": "El especialista en intervención lectora “puede ofrecer enriquecimiento académico focalizado”; Upper School ofrece cursos Honors Accelerated, AP y AT y un Independent Study Program. No se describe ningún programa formal para estudiantes dotados."
     },
     {
-      "text": "Learning & academic support",
-      "of": "b050d84b",
-      "at": [
-        "cannon:services.groups[0].name",
-        "davidson-day:services.groups[0].name",
-        "hickory-grove-christian:services.groups[0].name"
-      ],
-      "t": "Apoyo académico y de aprendizaje"
-    },
-    {
-      "text": "Specialized teachers",
-      "of": "04298f91",
-      "at": [
-        "cannon:services.groups[0].rows[0].service",
-        "davidson-day:services.groups[0].rows[0].service",
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ],
-      "t": "Maestros especializados"
-    },
-    {
       "text": "“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.",
       "of": "135a601a",
       "at": [
         "cannon:services.groups[0].rows[0].detail"
       ],
       "t": "“Un especialista en aprendizaje dedicado para cada división: Lower School, Middle School y Upper School.” Se nombran cuatro, además de un especialista en intervención lectora de Lower School."
-    },
-    {
-      "text": "Reading intervention",
-      "of": "18b7d3f0",
-      "at": [
-        "cannon:services.groups[0].rows[1].service",
-        "davidson-day:services.groups[0].rows[1].service",
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ],
-      "t": "Intervención en lectura"
     },
     {
       "text": "Lower School small groups with the Reading Interventionist “designed to close specific skill gaps.” No method (e.g., Orton-Gillingham, structured literacy) is named.",
@@ -295,31 +1507,12 @@
       "t": "Grupos pequeños en Lower School con el especialista en intervención lectora, “diseñados para cerrar brechas de habilidades específicas”. No se nombra ningún método (p. ej., Orton-Gillingham, alfabetización estructurada)."
     },
     {
-      "text": "Math intervention",
-      "of": "9fc9f294",
-      "at": [
-        "cannon:services.groups[0].rows[2].service",
-        "davidson-day:services.groups[0].rows[2].service",
-        "hickory-grove-christian:services.groups[0].rows[2].service"
-      ],
-      "t": "Intervención en matemáticas"
-    },
-    {
       "text": "No math-specific intervention described; the Upper School Math Lab is peer tutoring.",
       "of": "3b048950",
       "at": [
         "cannon:services.groups[0].rows[2].detail"
       ],
       "t": "No se describe ninguna intervención específica de matemáticas; el Math Lab de Upper School es tutoría entre compañeros."
-    },
-    {
-      "text": "1:1 / small-group instruction",
-      "of": "c8ed8f2d",
-      "at": [
-        "cannon:services.groups[0].rows[3].service",
-        "davidson-day:services.groups[0].rows[3].service"
-      ],
-      "t": "Instrucción 1:1 / en grupos pequeños"
     },
     {
       "text": "Small-group reading in the Lower School; one-on-one coaching with the Middle and Upper School learning specialists.",
@@ -346,31 +1539,12 @@
       "t": "“Tutoría entre compañeros, facilitada por el profesorado, en escritura, matemáticas y ciencias”, además de un World Languages Lab, “disponible en horarios y lugares fijos durante la jornada escolar”. En Middle School, ayuda de los maestros: “No se cobra ninguna tarifa”."
     },
     {
-      "text": "Executive-function coaching",
-      "of": "7e3c07fa",
-      "at": [
-        "cannon:services.groups[0].rows[5].service",
-        "davidson-day:services.groups[0].rows[5].service",
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ],
-      "t": "Coaching de funciones ejecutivas"
-    },
-    {
       "text": "One-on-one academic coaching in the Middle School and, in the Upper School, Academic Coaches who build “executive functioning (EF) skills.”",
       "of": "b944a709",
       "at": [
         "cannon:services.groups[0].rows[5].detail"
       ],
       "t": "Coaching académico individual en Middle School y, en Upper School, Academic Coaches que desarrollan “habilidades de funcionamiento ejecutivo (EF)”."
-    },
-    {
-      "text": "Learning-support class",
-      "of": "fd470495",
-      "at": [
-        "cannon:services.groups[0].rows[6].service",
-        "davidson-day:services.groups[0].rows[6].service"
-      ],
-      "t": "Clase de apoyo al aprendizaje"
     },
     {
       "text": "No learning-support course appears in the 2026-2027 Upper School Course Catalog.",
@@ -381,31 +1555,12 @@
       "t": "Ningún curso de apoyo al aprendizaje aparece en el catálogo de cursos 2026-2027 de Upper School."
     },
     {
-      "text": "Accommodations & learning plan",
-      "of": "c65478ab",
-      "at": [
-        "cannon:services.groups[0].rows[7].service",
-        "davidson-day:services.groups[0].rows[7].service"
-      ],
-      "t": "Adaptaciones y plan de aprendizaje"
-    },
-    {
       "text": "The Learning Specialist writes a Learning Plan listing classroom and testing accommodations, such as “preferential seating, note-taking assistance, extended time for tests, alternate assessment location.”",
       "of": "94accb8c",
       "at": [
         "cannon:services.groups[0].rows[7].detail"
       ],
       "t": "El especialista en aprendizaje redacta un plan de aprendizaje con las adaptaciones en el aula y en las pruebas, como “asiento preferente, ayuda para tomar apuntes, tiempo adicional en los exámenes, lugar alternativo para la evaluación”."
-    },
-    {
-      "text": "Specially designed instruction",
-      "of": "0add9126",
-      "at": [
-        "cannon:services.groups[0].rows[8].service",
-        "davidson-day:services.groups[0].rows[8].service",
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ],
-      "t": "Instrucción especialmente diseñada"
     },
     {
       "text": "Not described. The policy says acceptance does not imply responsibility for needs that “may require a modification/alteration of the school’s curriculum.”",
@@ -416,32 +1571,12 @@
       "t": "No se describe. La política dice que la admisión no implica responsabilidad por necesidades que “puedan requerir una modificación/alteración del currículo de la escuela”."
     },
     {
-      "text": "Self-contained / separate program",
-      "of": "2586e367",
-      "at": [
-        "cannon:services.groups[0].rows[9].service",
-        "davidson-day:services.groups[0].rows[9].service",
-        "hickory-grove-christian:services.groups[0].rows[9].service"
-      ],
-      "t": "Programa independiente / aula separada"
-    },
-    {
       "text": "No separate program described; the Middle School ARC brings “neurodiverse and non-neurodiverse learners” together “side by side.”",
       "of": "e2111c64",
       "at": [
         "cannon:services.groups[0].rows[9].detail"
       ],
       "t": "No se describe ningún programa separado; el ARC de Middle School reúne a “estudiantes neurodiversos y no neurodiversos” “lado a lado”."
-    },
-    {
-      "text": "Gifted / advanced",
-      "of": "2de5aed3",
-      "at": [
-        "cannon:services.groups[0].rows[10].service",
-        "davidson-day:services.groups[0].rows[10].service",
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ],
-      "t": "Dotados / avanzados"
     },
     {
       "text": "Lower School reading enrichment; Upper School Honors Accelerated, AP and AT courses and an Independent Study Program. No formal gifted program.",
@@ -452,42 +1587,12 @@
       "t": "Enriquecimiento en lectura en Lower School; en Upper School, cursos Honors Accelerated, AP y AT y un Independent Study Program. No hay programa formal para estudiantes dotados."
     },
     {
-      "text": "Eligibility documentation",
-      "of": "4702441c",
-      "at": [
-        "cannon:services.groups[0].rows[11].service",
-        "davidson-day:services.groups[0].rows[11].service",
-        "hickory-grove-christian:services.groups[0].rows[11].service"
-      ],
-      "t": "Documentación de elegibilidad"
-    },
-    {
       "text": "A complete psychoeducational evaluation from the last 3 years, with “test results with subtest scores (standard or scaled scores)” and recommended accommodations.",
       "of": "48d33a03",
       "at": [
         "cannon:services.groups[0].rows[11].detail"
       ],
       "t": "Una evaluación psicoeducativa completa de los últimos 3 años, con “resultados de las pruebas con puntuaciones de subpruebas (puntuaciones estándar o escalares)” y las adaptaciones recomendadas."
-    },
-    {
-      "text": "Therapy & related services",
-      "of": "832d48e5",
-      "at": [
-        "cannon:services.groups[1].name",
-        "davidson-day:services.groups[1].name",
-        "hickory-grove-christian:services.groups[1].name"
-      ],
-      "t": "Terapias y servicios relacionados"
-    },
-    {
-      "text": "Speech-language therapy",
-      "of": "b37d3705",
-      "at": [
-        "cannon:services.groups[1].rows[0].service",
-        "davidson-day:services.groups[1].rows[0].service",
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ],
-      "t": "Terapia del habla y lenguaje"
     },
     {
       "text": "The Lower School Learning Specialist helps families “secure external resources, such as speech therapists.”",
@@ -498,74 +1603,12 @@
       "t": "El especialista en aprendizaje de Lower School ayuda a las familias a “conseguir recursos externos, como terapeutas del habla”."
     },
     {
-      "text": "Occupational therapy",
-      "of": "e216f28e",
-      "at": [
-        "cannon:services.groups[1].rows[1].service",
-        "davidson-day:services.groups[1].rows[1].service",
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ],
-      "t": "Terapia ocupacional"
-    },
-    {
-      "text": "Not listed by the school.",
-      "of": "6bbf4ac9",
-      "at": [
-        "cannon:services.groups[1].rows[1].detail",
-        "cannon:services.groups[1].rows[2].detail",
-        "davidson-day:services.groups[1].rows[2].detail",
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ],
-      "t": "La escuela no la menciona."
-    },
-    {
-      "text": "Physical therapy",
-      "of": "2ab8c569",
-      "at": [
-        "cannon:services.groups[1].rows[2].service",
-        "davidson-day:services.groups[1].rows[2].service",
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ],
-      "t": "Fisioterapia"
-    },
-    {
-      "text": "Assessment",
-      "of": "7f464e4f",
-      "at": [
-        "cannon:services.groups[2].name",
-        "davidson-day:services.groups[2].name",
-        "hickory-grove-christian:services.groups[2].name"
-      ],
-      "t": "Evaluación"
-    },
-    {
-      "text": "Early identification (JK–2)",
-      "of": "cfb1f75f",
-      "at": [
-        "cannon:services.groups[2].rows[0].service",
-        "davidson-day:services.groups[2].rows[0].service"
-      ],
-      "t": "Identificación temprana (JK–2)"
-    },
-    {
       "text": "Learning support in JK–2 “focuses on early identification and classroom-based interventions”; the Learning Specialist works with teachers “to assess student needs.”",
       "of": "b9164064",
       "at": [
         "cannon:services.groups[2].rows[0].detail"
       ],
       "t": "El apoyo al aprendizaje en JK–2 “se centra en la identificación temprana y en intervenciones dentro del aula”; el especialista en aprendizaje trabaja con los maestros “para evaluar las necesidades de los estudiantes”."
-    },
-    {
-      "text": "Testing accommodations",
-      "of": "c0f1a794",
-      "at": [
-        "cannon:services.groups[2].rows[1].service",
-        "davidson-day:services.groups[2].rows[1].service",
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ],
-      "t": "Adaptaciones en las pruebas"
     },
     {
       "text": "Testing accommodations are part of each Learning Plan. Once a plan has been in place “for at least four months,” the Learning Specialist may help families request College Board and ACT accommodations.",
@@ -576,33 +1619,12 @@
       "t": "Las adaptaciones en las pruebas forman parte de cada plan de aprendizaje. Una vez que un plan lleva vigente “al menos cuatro meses”, el especialista en aprendizaje puede ayudar a las familias a solicitar adaptaciones ante el College Board y el ACT."
     },
     {
-      "text": "Entrance testing",
-      "of": "3e1537ff",
-      "at": [
-        "cannon:services.groups[2].rows[2].service",
-        "davidson-day:services.groups[2].rows[2].service",
-        "hickory-grove-christian:services.groups[2].rows[1].service"
-      ],
-      "t": "Pruebas de ingreso"
-    },
-    {
       "text": "The admissions checklist “may include” an Entrance Evaluation and a Readiness Evaluation.",
       "of": "74877feb",
       "at": [
         "cannon:services.groups[2].rows[2].detail"
       ],
       "t": "La lista de admisión “puede incluir” una Entrance Evaluation y una Readiness Evaluation."
-    },
-    {
-      "text": "Psychoeducational evaluation",
-      "of": "69f00356",
-      "at": [
-        "cannon:services.groups[2].rows[3].service",
-        "davidson-day:services.groups[2].rows[3].service",
-        "davidson-day:testing.entries[2].title",
-        "hickory-grove-christian:services.groups[2].rows[2].service"
-      ],
-      "t": "Evaluación psicoeducativa"
     },
     {
       "text": "Families supply it, from “a licensed clinical psychologist.” The school does not say it tests in-house or name providers.",
@@ -613,42 +1635,12 @@
       "t": "La aportan las familias, de “un psicólogo clínico con licencia”. La escuela no dice que realice pruebas internamente ni nombra proveedores."
     },
     {
-      "text": "Wellness & health",
-      "of": "92456e4a",
-      "at": [
-        "cannon:services.groups[3].name",
-        "davidson-day:services.groups[3].name",
-        "hickory-grove-christian:services.groups[3].name"
-      ],
-      "t": "Bienestar y salud"
-    },
-    {
-      "text": "Counseling & emotional support",
-      "of": "0613b801",
-      "at": [
-        "cannon:services.groups[3].rows[0].service",
-        "davidson-day:services.groups[3].rows[0].service",
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ],
-      "t": "Consejería y apoyo emocional"
-    },
-    {
       "text": "Five school counselors offer wellness lessons, check-ins, “short-term individual counseling sessions” and small groups, working “in collaboration with Learning Specialists.”",
       "of": "8e6bc998",
       "at": [
         "cannon:services.groups[3].rows[0].detail"
       ],
       "t": "Cinco consejeros escolares ofrecen lecciones de bienestar, seguimientos, “sesiones de consejería individual a corto plazo” y grupos pequeños, trabajando “en colaboración con los especialistas en aprendizaje”."
-    },
-    {
-      "text": "Emotional & behavioral intervention",
-      "of": "a9f79269",
-      "at": [
-        "cannon:services.groups[3].rows[1].service",
-        "davidson-day:services.groups[3].rows[2].service",
-        "hickory-grove-christian:services.groups[3].rows[1].service"
-      ],
-      "t": "Intervención emocional y conductual"
     },
     {
       "text": "Longer-term help is by referral: counselors provide “community resource referrals (including longer-term therapy services).”",
@@ -659,32 +1651,12 @@
       "t": "La ayuda a más largo plazo es por derivación: los consejeros ofrecen “derivaciones a recursos comunitarios (incluidos servicios de terapia a más largo plazo)”."
     },
     {
-      "text": "Crisis resources",
-      "of": "e074ef65",
-      "at": [
-        "cannon:services.groups[3].rows[2].service",
-        "davidson-day:services.groups[3].rows[3].service",
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ],
-      "t": "Recursos para crisis"
-    },
-    {
       "text": "A Mental Health and Crisis Resources page lists the Suicide and Crisis Lifeline (“call 988 or text HOME to 741741”) and the NC Peer Warmline; Middle School counselors provide “support to students in crisis.”",
       "of": "e7218f6f",
       "at": [
         "cannon:services.groups[3].rows[2].detail"
       ],
       "t": "Una página de Mental Health and Crisis Resources menciona la Suicide and Crisis Lifeline (“llame al 988 o envíe HOME al 741741”) y la NC Peer Warmline; los consejeros de Middle School brindan “apoyo a los estudiantes en crisis”."
-    },
-    {
-      "text": "School psychologist",
-      "of": "61585e81",
-      "at": [
-        "cannon:services.groups[3].rows[3].service",
-        "davidson-day:services.groups[3].rows[4].service",
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ],
-      "t": "Psicólogo/a escolar"
     },
     {
       "text": "None named.",
@@ -698,42 +1670,12 @@
       "t": "No se nombra a nadie."
     },
     {
-      "text": "School nurse",
-      "of": "cf02f710",
-      "at": [
-        "cannon:services.groups[3].rows[4].service",
-        "davidson-day:services.groups[3].rows[5].service",
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ],
-      "t": "Enfermero/a escolar"
-    },
-    {
       "text": "A Lead School Nurse and a School Nurse are listed in the staff directory.",
       "of": "aed15d04",
       "at": [
         "cannon:services.groups[3].rows[4].detail"
       ],
       "t": "El directorio del personal incluye un/a enfermero/a escolar principal (Lead School Nurse) y un/a enfermero/a escolar (School Nurse)."
-    },
-    {
-      "text": "Language",
-      "of": "9a73db9b",
-      "at": [
-        "cannon:services.groups[4].name",
-        "davidson-day:services.groups[4].name",
-        "hickory-grove-christian:services.groups[4].name"
-      ],
-      "t": "Idioma"
-    },
-    {
-      "text": "ESL / English-language support",
-      "of": "ffd3df8c",
-      "at": [
-        "cannon:services.groups[4].rows[0].service",
-        "davidson-day:services.groups[4].rows[0].service",
-        "hickory-grove-christian:services.groups[4].rows[0].service"
-      ],
-      "t": "ESL / apoyo en inglés"
     },
     {
       "text": "International students enroll through an approved placement agency; no English-language support is described.",
@@ -752,42 +1694,12 @@
       "t": "La terapia del habla es por derivación. El sitio de la escuela no menciona terapia ocupacional ni fisioterapia."
     },
     {
-      "text": "Speech-language",
-      "of": "d9f2c22c",
-      "at": [
-        "cannon:therapy.items[0].name",
-        "davidson-day:therapy.items[0].name",
-        "hickory-grove-christian:therapy.items[0].name"
-      ],
-      "t": "Habla y lenguaje"
-    },
-    {
       "text": "The Learning Specialist helps families find an outside speech therapist.",
       "of": "2ed2d14a",
       "at": [
         "cannon:therapy.items[0].detail"
       ],
       "t": "El especialista en aprendizaje ayuda a las familias a encontrar un terapeuta del habla externo."
-    },
-    {
-      "text": "Occupational",
-      "of": "a971a0b7",
-      "at": [
-        "cannon:therapy.items[1].name",
-        "davidson-day:therapy.items[1].name",
-        "hickory-grove-christian:therapy.items[1].name"
-      ],
-      "t": "Ocupacional"
-    },
-    {
-      "text": "Physical",
-      "of": "d7c1ee80",
-      "at": [
-        "cannon:therapy.items[2].name",
-        "davidson-day:therapy.items[2].name",
-        "hickory-grove-christian:therapy.items[2].name"
-      ],
-      "t": "Física"
     },
     {
       "text": "No therapist appears in the school’s staff directory. Ask whether an outside therapist can see your child on campus during the school day.",
@@ -941,15 +1853,6 @@
         "cannon:staff.people[9].role"
       ],
       "t": "Consejero/a de Middle School, grados 6 - 8"
-    },
-    {
-      "text": "Upper School Counselor",
-      "of": "9b93583f",
-      "at": [
-        "cannon:staff.people[10].role",
-        "cannon:staff.people[11].role"
-      ],
-      "t": "Consejero/a de Upper School"
     },
     {
       "text": "No single head of learning support is named.",
@@ -1361,14 +2264,6 @@
       "t": "No se describe. Los planes de clase del LEC son tutorías individualizadas, no un currículo modificado."
     },
     {
-      "text": "No separate program described.",
-      "of": "049eeace",
-      "at": [
-        "davidson-day:services.groups[0].rows[9].detail"
-      ],
-      "t": "No se describe ningún programa separado."
-    },
-    {
       "text": "Middle Schoolers can take Upper School world language and math; the LEC request form offers “Personalized Exploration (Enrichment).” No formal gifted program.",
       "of": "5099bff7",
       "at": [
@@ -1665,14 +2560,6 @@
       "t": "Especialista en lectura de Lower School"
     },
     {
-      "text": "Lower School Counselor",
-      "of": "cca1ced8",
-      "at": [
-        "davidson-day:staff.people[14].role"
-      ],
-      "t": "Consejero/a de Lower School"
-    },
-    {
       "text": "Middle and Upper School Counselor",
       "of": "1efb6691",
       "at": [
@@ -1791,14 +2678,6 @@
         "davidson-day:ask.questions[10]"
       ],
       "t": "¿El Dr. LaRusso es director de servicios de aprendizaje o director de currículo, y quién supervisa el LEC?"
-    },
-    {
-      "text": "October 25, 2026",
-      "of": "e4693a96",
-      "at": [
-        "davidson-day:ask.asOf"
-      ],
-      "t": "25 de octubre de 2026"
     },
     {
       "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
