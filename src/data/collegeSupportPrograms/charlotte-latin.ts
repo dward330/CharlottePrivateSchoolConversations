@@ -550,21 +550,25 @@ export const charlotteLatin: CollegeSupportProgram = {
         role: 'Director',
         name: 'Jody Jennings',
         detail: 'Listed as Director in the 2017–18, 2019–20, 2020–21 and 2025–26 profiles — 9+ years documented.',
+        email: 'jody.jennings@charlottelatin.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Lucy Smith',
         detail: 'In the office since at least 2017–18.',
+        email: 'lucy.smith@charlottelatin.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Haley Cripps',
         detail: 'In the office since at least 2017–18.',
+        email: 'haley.cripps@charlottelatin.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Alex Segura',
         detail: 'Newer — appears in 2025–26 but not in the archived editions.',
+        email: 'alex.segura@charlottelatin.org',
       },
       {
         role: 'Essay specialists',
@@ -645,7 +649,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '5 / 8', note: '— all five matriculated; absent Columbia, Princeton, Penn' },
       { tier: '“Ivy Plus”', count: '12 / 17', note: '— absent Johns Hopkins and Caltech' },
-      { tier: 'Top-75 National Universities', count: '67 / 75' },
+      { tier: 'Top-75 National Universities', count: '68 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '42 / 75' },
       { tier: 'Power Four', count: '61 / 68', note: '— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12' },
       { tier: 'HBCUs', count: '7 / 107', note: '— Historically Black Colleges & Universities' },

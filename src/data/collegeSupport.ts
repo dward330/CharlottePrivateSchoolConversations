@@ -223,6 +223,12 @@ export type Counselor = {
   name: string
   /** Tenure, credentials, prior admissions-side experience. */
   detail?: string
+  /**
+   * Only where the school's own directory publishes it — never built from a name
+   * pattern. Rendered as a mailto link, never translated (same rule as the
+   * Learning Support staff card).
+   */
+  email?: string
 }
 
 /** One grade column of the four-year timeline. */

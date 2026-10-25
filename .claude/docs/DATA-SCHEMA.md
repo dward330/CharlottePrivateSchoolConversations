@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 469 ingested research documents.
+**13 schools × 12 research areas**, 470 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
-| College Support | `college-support` | 11 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -158,7 +158,7 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `academic-case` | Academic Case | 7/13 | 1 |
-| `outcomes` | Placement Outcomes | 11/13 | 7 |
+| `outcomes` | Placement Outcomes | 11/13 | 8 |
 | `application-support` | Application Support | 7/13 | 1 |
 | `counseling-engine` | Counseling Engine | 7/13 | 1 |
 | `fit-rank` | Fit & Rank | 7/13 | 2 |
@@ -564,14 +564,57 @@ HBCUs missing from the roster — the tags were right and the table was wrong. C
 which side is actually wrong before editing either; "fixing" the data would have
 deleted 12 correct tags and every check would then have reported clean.
 
-**The bucket counts are INSTITUTIONS, not tagged rows, and they live on three
+**The bucket counts are INSTITUTIONS, not tagged rows, and they live on four
 surfaces.** A school listing both Arizona State campuses has two rows and one
 institution, so counts derive through `canonicalMember()` (`p4`/`hbcu`) or
 `canonicalRanked()` (`nu75`/`lac75`). The same figure appears in
-the `buckets` row, sometimes a stat tile, and `src/data/metricValues.ts` for the
-Compare table; all three must move together. `check:memberships` gates all three —
-the third was found only by opening the page, which rendered `65 / 68` and `57 / 68`
-at once while every automated check passed.
+the `buckets` row, sometimes a stat tile, `src/data/metricValues.ts` for the
+Compare table, and the qual sentence that spells it out (`"61 of the 68 …"`); all
+four must move together. `check:memberships` gates all four — the Compare copy was
+found only by opening the page, which rendered `65 / 68` and `57 / 68` at once while
+every automated check passed, and the qual sentence was gated only on 2026-10-25,
+after six schools were found printing a stale `n of the 68` / `n of the 107`.
+
+**`CAMPUS_TAGS` are matched AFTER `normName()`**, so a tag must be written in
+normalized form: `normName` turns "College" into "coll", and a `'college park'`
+tag never matched — "University of Maryland-College Park" went uncounted as Power
+Four until it was rewritten `'coll park'` (2026-10-25).
+
+`canonicalRanked()` must resolve every spelling `rankLabelFor()` does, including the
+rank master’s `RANK_ALIAS` variants. Until 2026-10-25 it did not, so
+`Rensselaer Polytechnic Institute`, `University of the South` and `Washington & Lee`
+rendered a top-75 label and carried the tag while being left out of the printed
+count, which understated seven schools by one in a bucket.
+
+**Every bucket cell on Compare shows its acceptance window as a second line**
+(`ACCEPTANCE_WINDOWS` in `metricValues.ts`, e.g. `(2022–2026)`), because the
+schools’ windows differ. It mirrors the years in each school’s `collegesTitle`;
+`check:buckets` fails when they disagree, so changing a list’s window means
+changing both. A title with no years renders `(years not published)`. The same
+`subs` line renders under the **College Support stat tiles on each school page**
+(`SchoolDetail.tsx`, scoped to `college-support` so other areas' `subs` stay
+Compare-only). The **AP scoring 3+** row uses it for the exam session each figure
+covers (`(2026)`, `(2024–25)`) — exam years, not graduating classes, because that is
+how every school reports AP results.
+
+**The acceptance window is the widest the school's own lists genuinely support.**
+2023–2026 is the target, not a requirement: a pre-2023 block that cannot be split by
+class may be kept (Davidson Day 2021–2025, Gaston Day 2019–2025, Cannon 2022–2026).
+When a window combines two published lists, each institution appears ONCE, and where
+the lists spell one institution differently the row carries the institution's
+**official name** (Cannon: "University of North Carolina at Charlotte", "Penn State
+University Park"), with any `enrolling` marker carried onto it. A name with no
+counterpart on the other list keeps its printed spelling. Two distinct institutions
+that merely look alike stay separate (College of Charleston / University of
+Charleston; Columbia University / Columbia College).
+
+**`counseling.roster[].email` is the school's own published address, never a
+guess.** It comes from the counseling page, a staff pop-up or the school directory
+(Finalsite renders it through `FS.util.insertEmail(el, "<domain reversed>",
+"<local reversed>")`) and is checked to sit beside the named person; a profile that
+publishes none gets none. It renders as a `mailto:` link with the "<School> Inquiry"
+subject, is never translated, and its provenance goes in a section appended to an
+existing research file — a new file would ingest as a new research section.
 
 **⚠️ UPDATING THE US NEWS EDITION MOVES THE TOP-75 COUNTS — they are derived, and
 they are easy to forget.** A new edition rewrites `collegeRankings.ts`, which
@@ -582,6 +625,15 @@ landed with all 11 schools still printing their 2026 counts (Cannon `46 / 75` wh
 stat tile, the `metricValues.ts` Compare cell, and the qual sentence that spells
 the number out in prose (`"58 of the top 75 …"`), a number that drifts exactly as
 easily as one in a cell.
+
+**A school profile can overwrite its predecessor at the SAME URL — re-check every
+citation to it when a new edition lands.** Cannon’s 2026–27 profile was published
+at the same Finalsite asset id and filename as the 2025–26 edition (only the
+version segment changed), and both version URLs then served the new file. Every
+claim cited to "2025–26 School Profile" silently opened a document contradicting it
+(plan `cannonprofile`, 2026-10-25). When a new edition appears, a claim the new
+edition dropped is re-sourced to a live page or removed — never left citing a link
+that no longer supports it.
 
 Two rules the counts follow. They are **clamped at the published denominator**:
 ties put 79 National and 77 Liberal institutions inside the top-75 band, so a
@@ -619,7 +671,7 @@ header, everything else suppresses it.
 
 `Transcript` — `headline`, `subhead?`, `stats`, `meritTitle?`, `merit`, `meritNote?`, `depthTitle?`, `depth`, `trustTitle?`, `trust`, `flags`, `sources`
 
-`Counselor` — `role`, `name`, `detail?`
+`Counselor` — `role`, `name`, `detail?`, `email?`
 
 `TimelineYear` — `grade`, `intensity`, `items`, `note?`
 
@@ -951,19 +1003,19 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `ap-performance` | AP scoring 3+ | 8/13 | Q |
-| `bucket-ivy` | Ivy League | 11/13 | Q |
-| `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q |
-| `bucket-nu75` | Top-75 National Universities | 11/13 | Q |
-| `bucket-lac75` | Top-75 Liberal Arts | 11/13 | Q |
-| `bucket-p4` | Power Four | 11/13 | Q |
+| `ap-performance` | AP scoring 3+ | 8/13 | Q sub |
+| `bucket-ivy` | Ivy League | 11/13 | Q sub |
+| `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q sub |
+| `bucket-nu75` | Top-75 National Universities | 11/13 | Q sub |
+| `bucket-lac75` | Top-75 Liberal Arts | 11/13 | Q sub |
+| `bucket-p4` | Power Four | 11/13 | Q sub |
 | `nc-admit-unc-chapel-hill` | Admit rate — UNC-Chapel Hill | 11/13 | C sub |
 | `nc-admit-nc-state-university` | Admit rate — NC State University | 11/13 | C sub |
 | `nc-admit-unc-charlotte` | Admit rate — UNC Charlotte | 11/13 | C sub |
 | `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/13 | C sub |
 | `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/13 | C sub |
 | `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/13 | C sub |
-| `bucket-hbcu` | HBCUs | 11/13 | Q |
+| `bucket-hbcu` | HBCUs | 11/13 | Q sub |
 | `counselor-caseload` | Seniors per counselor | 9/13 | ↓ Q |
 
 ### After School `after-school`

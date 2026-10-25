@@ -313,3 +313,14 @@ Design, Savannah College of Art and Design, School of Visual Arts, Maryland Inst
 College of Art, School of the Art Institute of Chicago, Minneapolis College of Art and
 Design, American Musical and Dramatic Academy — specialty art/design/performing;
 Marion Military Institute, Montreat College, Brevard College — junior/regional.
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.gastonday.org/collegecounseling/. Each address is published on the College Counseling page, as `mailto:` links after each name and extension; capitalisation is as published. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Peter Gangemi | Pgangemi@gastonday.org |
+| Kristy Smith | Ksmith@gastonday.org |

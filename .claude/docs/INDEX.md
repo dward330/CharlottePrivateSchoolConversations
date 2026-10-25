@@ -33,7 +33,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### College Support (`college-support/`)
 
-- [Cannon School](college-support/cannon.md) — 11 docs
+- [Cannon School](college-support/cannon.md) — 12 docs
 - [Carmel Christian School](college-support/carmel-christian.md) — 3 docs
 - [Charlotte Catholic High School](college-support/charlotte-catholic.md) — 2 docs
 - [Charlotte Christian School](college-support/charlotte-christian.md) — 12 docs
@@ -161,4 +161,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 469 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 470 documents across 12 topics and 13 schools.

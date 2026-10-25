@@ -480,11 +480,13 @@ export const gastonDay: CollegeSupportProgram = {
         role: 'Director',
         name: 'Peter Gangemi',
         detail: 'Director of College Counseling · ext. 727',
+        email: 'Pgangemi@gastonday.org',
       },
       {
         role: 'Assistant',
         name: 'Kristy Smith',
         detail: 'College Counseling Assistant · ext. 208',
+        email: 'Ksmith@gastonday.org',
       },
     ],
     timelineTitle: 'The counseling sequence — it starts in eighth grade',
@@ -570,7 +572,7 @@ export const gastonDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Yale and Dartmouth' },
       { tier: '“Ivy Plus”', count: '6 / 17', note: '— adds Stanford, Duke, Johns Hopkins, Georgetown' },
-      { tier: 'Top-75 National Universities', count: '58 / 75' },
+      { tier: 'Top-75 National Universities', count: '59 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '24 / 75', note: '— incl. Swarthmore, Middlebury, Davidson, Colby, Bryn Mawr' },
       { tier: 'Power Four', count: '43 / 68' },
       { tier: 'HBCUs', count: '5 / 107', note: '— Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo' },
@@ -735,7 +737,7 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },
       { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and the ~18:1 senior caseload is among the lowest on this roster.' },
       { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the programme rather than left to the individual student.' },
-      { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 23 top-75 liberal arts colleges — wide range for classes of ~35.' },
+      { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },
     ],
     checklist: [

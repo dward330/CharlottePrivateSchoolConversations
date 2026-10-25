@@ -377,12 +377,14 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       {
         role: 'Director of Counseling',
         name: 'Tracey Bennett',
-        detail: 'Listed as "Guidance Counselor" on the Fall 2023 profile and "Director of Counseling" on Fall 2025 — the lead college-counseling contact (traceybennett@hgchristian.org).',
+        detail: 'Listed as "Guidance Counselor" on the Fall 2023 profile and "Director of Counseling" on Fall 2025 — the lead college-counseling contact.',
+        email: 'traceybennett@hgchristian.org',
       },
       {
         role: 'Administrator for Student Services',
         name: 'Dr. Mildred Similton',
-        detail: 'Oversees student services alongside the counseling office (mildredsimilton@hgchristian.org).',
+        detail: 'Oversees student services alongside the counseling office.',
+        email: 'mildredsimilton@hgchristian.org',
       },
     ],
     mechanicsTitle: 'What the guidance office publishes',
@@ -413,6 +415,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     sources: [
       { label: 'hgchristian.org — Fall 2025 High School Profile (counselor roster)', url: PROFILE_25 },
       { label: 'hgchristian.org — Guidance (program description)', url: GUIDANCE },
+      { label: 'Our Staff directory (counselor email addresses)', url: 'https://www.hgchristian.org/about-us/our-staff' },
     ],
   },
 
@@ -431,8 +434,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '0 / 8' },
       { tier: '“Ivy Plus”', count: '0 / 17' },
-      { tier: 'Top-75 National Universities', count: '20 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '8 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
+      { tier: 'Top-75 National Universities', count: '21 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '9 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
       { tier: 'Power Four', count: '25 / 68' },
       { tier: 'HBCUs', count: '20 / 107', note: '— incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk' },
     ],

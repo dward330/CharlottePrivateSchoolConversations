@@ -19,6 +19,7 @@
 
 import { useMemo, useState } from 'react'
 import { localizeMoneyText } from '../lib/format.ts'
+import { schoolInquiryMailto } from '../lib/contact.ts'
 import type {
   Counseling,
   CsFlag,
@@ -406,7 +407,14 @@ export function TranscriptBody({ data }: { data: Transcript }) {
 
 /* ------------------------------------ 1b · the counseling engine ---------- */
 
-export function CounselingBody({ data }: { data: Counseling }) {
+export function CounselingBody({
+  data,
+  schoolName,
+}: {
+  data: Counseling
+  /** For a roster email's mailto subject, "<School name> Inquiry". */
+  schoolName: string
+}) {
   const { t: tr } = useTranslation()
   const { t } = useTranslation()
   return (
@@ -432,6 +440,11 @@ export function CounselingBody({ data }: { data: Counseling }) {
                 <div className="cs-counselor-name">{c.name}</div>
                 {c.detail && (
                   <div className="cs-counselor-detail text-muted">{localizeMoneyText(c.detail)}</div>
+                )}
+                {c.email && (
+                  <a className="cs-counselor-email" href={schoolInquiryMailto(c.email, schoolName)}>
+                    <bdi dir="ltr">{c.email}</bdi>
+                  </a>
                 )}
               </div>
             ))}

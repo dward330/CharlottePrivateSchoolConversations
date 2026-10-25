@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — College Support
-> Distilled from 2 source document(s) in `source-material/college-support/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/college-support/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-25.
 **Documents:** School Profile 2025-2026, UNC System Admissions
 
 
@@ -67,7 +67,7 @@ carried into the app prose and the per-cell provenance.
 | Sandy Needham | Counselor (smneedham@charlottecatholic.org) |
 | Kara Fisher | Counselor (krfisher@charlottecatholic.org) |
 | Heather Nobary | Counselor (hrnobary@charlottecatholic.org) |
-| Jennifer Cramer | Registrar |
+| Jennifer Cramer | Registrar (jmcramer@charlottecatholic.org — from https://www.charlottecatholic.org/departments/counseling/meet-our-counselors, fetched 2026-10-25) |
 
 **Caseload:** **324 seniors in the Class of 2026** across **6 counselors** =
 **~54 seniors per counselor**. Across all four grades (~1,171 students) that is

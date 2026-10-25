@@ -1,5 +1,5 @@
 # Covenant Day School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-25.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, Outcomes, Redesign Research 2026, Standing Out, UNC System Admissions
 
 
@@ -196,6 +196,19 @@ A formal grade-by-grade (9th–12th) counseling timeline is **not published** �
 the junior/senior meeting cadence above. No college-counseling platform (Naviance /
 SCOIR) is named on the public site. A College Representatives page exists for
 visiting admissions officers.
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.covenantday.org/academics/college-guidance. Each address is published on the College Guidance page, as `mailto:` links in each staff panel. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Heather Mills | hmills@covenantday.org |
+| Kim Macurda | kmacurda@covenantday.org |
+| Emily Lee, MA, LMFT | elee@covenantday.org |
+| Kelly Turner | kturner@covenantday.org |
 
 
 ---

@@ -274,10 +274,13 @@ function CollegeSupportCardBody({
   program,
   cardKey,
   hasLearningSupport,
+  schoolName,
 }: {
   program: CollegeSupportProgram
   cardKey: (typeof COLLEGE_SUPPORT_CARDS)[number]['key']
   hasLearningSupport: boolean
+  /** For the counseling roster's mailto subject, "<School name> Inquiry". */
+  schoolName: string
 }) {
   switch (cardKey) {
     case 'ncAdmissions':
@@ -285,7 +288,7 @@ function CollegeSupportCardBody({
     case 'transcript':
       return <TranscriptBody data={program.transcript!} />
     case 'counseling':
-      return <CounselingBody data={program.counseling!} />
+      return <CounselingBody data={program.counseling!} schoolName={schoolName} />
     case 'outcomes':
       return <OutcomesBody data={program.outcomes!} />
     case 'edge':
@@ -1103,6 +1106,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             This is the most visible element on every school page.
                             Caught by the Providence Day French print-out. */}
                         <div className="stat-tile-val">{localizeMoneyText(String(vm.values[slug]))}</div>
+                        {/* College Support tiles repeat Compare's second line — the
+                            acceptance window under a bucket fraction, the exam year
+                            under the AP rate — so the figure carries its span here
+                            too. Scoped to this area: other areas' `subs` (the
+                            annualized aftercare cost) were not asked for on tiles. */}
+                        {t.slug === 'college-support' && vm.subs?.[slug] && (
+                          <div className="stat-tile-sub">{localizeMoneyText(vm.subs[slug])}</div>
+                        )}
                         <div className="stat-tile-label">{vm.label}</div>
                       </div>
                     ))}
@@ -1263,6 +1274,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             program={collegeSupport}
                             cardKey={card.key}
                             hasLearningSupport={covered.some((c) => c.slug === 'learning-support')}
+                            schoolName={school.name}
                           />
                         </div>
                       </details>

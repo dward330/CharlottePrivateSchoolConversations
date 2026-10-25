@@ -1273,6 +1273,9 @@ main { flex: 1; }
 
 .stat-tile-val { font-family: var(--heading); font-weight: 600; font-size: 28px; line-height: 1.15; color: var(--ink); }
 .stat-tile-label { color: var(--muted); font-size: 12px; margin-top: 2px; }
+/* The span a tile's figure covers ("(2022–2026)") — Compare's .mark-sub, sized
+   for the tile. */
+.stat-tile-sub { font-family: var(--heading); font-weight: 500; font-size: 14px; line-height: 1.2; color: var(--muted); margin-top: 2px; }
 
 /* expandable research cards, two-up on wide screens */
 /* minmax(0, …), never a bare 1fr: a 1fr track can never be narrower than its
@@ -4471,6 +4474,8 @@ a.cs-uni-link:focus-visible {
 }
 .cs-counselor-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
 .cs-counselor-detail { font-size: 12px; line-height: 1.4; margin-top: 2px; }
+/* A published address — the Learning Support staff card's mailto treatment. */
+.cs-counselor-email { display: block; font-size: 12px; line-height: 1.4; margin-top: 4px; overflow-wrap: anywhere; color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 .cs-year { background: var(--bg); padding: 14px; min-width: 0; overflow-wrap: anywhere; }
 .cs-year-head {

@@ -1,10 +1,11 @@
 // Cannon School — the six College Support cards.
 //
 // Every figure is transcribed from the school's OWN published materials —
-// chiefly the 2025–26 and 2024–25 School Profile PDFs, the College Counseling
-// pages, and named news coverage. See source-material/college-support/cannon/
-// Cannon School - College Support - Redesign Research 2026.md for the hard data,
-// source URLs, and gap notes.
+// chiefly the 2026–27 School Profile PDF (with the 2024–25 edition for the
+// grading scale), the College Counseling pages, and named news coverage. See
+// source-material/college-support/cannon/ — `Cannon School - College Support -
+// School Profile 2026-2027.md` for the current edition, and `Redesign Research
+// 2026.md` for the earlier hard data, source URLs, and gap notes.
 //
 // Cannon publishes noticeably less college-outcome data than the larger
 // Charlotte independents: there is no National Merit ledger, no AP Scholar
@@ -14,47 +15,60 @@
 //
 // Two structural notes that shape what renders below:
 //
-//  1. The 2025–26 profile DROPPED the acceptance list entirely, so the newest
-//     available list is a three-year rollup ending with the Class of 2024 —
-//     one full cycle stale. Since the `caveat` removal below, the card no
-//     longer states this; it survives only as a question for the school in the
-//     `questions` card.
-//  2. Cannon's bold "enrolled" markers did not survive PDF text extraction, so
-//     `enrolling` here is driven by something better: the school's separately
-//     published Class of 2023 MATRICULATION list, which is actual enrollment
-//     rather than acceptance. That provenance is no longer stated on the card —
-//     the "TO VERIFY" flag describing it was removed at the user's request
-//     (see .claude/plans/cannonUpdate.md), along with `bucketsNote` and
-//     `caveat`. It remains true of the data; it is simply not surfaced.
+//  1. The 2026–27 profile RESTORES an acceptance list — 2024–2026, 218
+//     institutions — after the 2025–26 edition dropped it. It is merged with the
+//     2024–25 profile's 2022–24 list into one 2022–2026 window (user decision
+//     2026-10-25, on the Davidson Day / Gaston Day precedent of pre-2023 blocks
+//     that cannot be split by class). Each institution appears once, under its
+//     official name where the two lists spelled it differently.
+//  2. The 2026–27 profile was published at the SAME Finalsite asset id and
+//     filename as the 2025–26 edition (only the version segment changed), and
+//     both version URLs now serve the 2026–27 file. Re-check every citation to
+//     a Cannon profile whenever a new edition lands. Neither profile marks
+//     enrollment; `enrolling` comes from the Class of 2023 matriculation list,
+//     which falls inside the 2022–2026 window.
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
-/* The 2022–2024 acceptance list (283 institutions), with the Class of 2023
-   matriculation list folded in and used to mark `enrolling`. Rank labels and
-   buckets are scored against the 2027 U.S. News tables. */
+/* The 2022–2026 acceptance window: the 2024–25 profile's 2022–24 list merged
+   with the 2026–27 profile's 2024–26 list, each institution once (352). Where the
+   two lists spell one institution differently, the row carries the institution's
+   official name. `enrolling` comes from the school's separately published Class
+   of 2023 MATRICULATION list (actual enrollment), which sits inside the window.
+   Rank labels and buckets are scored against the 2027 U.S. News tables. */
 const colleges = [
   { name: 'Agnes Scott College', cats: ['lac75'] },
+  { name: 'Alabama A&M University', cats: ['hbcu'] },
   { name: 'American University', cats: [], enrolling: true },
+  { name: 'Amherst College', cats: ['lac75'] },
   { name: 'Appalachian State University', cats: [], enrolling: true },
-  { name: 'Arizona State University (Tempe)', cats: ['p4'] },
+  { name: 'Arizona State University', cats: ['p4'], enrolling: true },
+  { name: 'Arizona State University (Downtown Phoenix)', cats: ['p4'] },
   { name: 'Auburn University', cats: ['p4'] },
   { name: 'Austin Peay State University', cats: [] },
   { name: 'Babson College', cats: [] },
+  { name: 'Bard College', cats: ['lac75'] },
+  { name: 'Barnard College', cats: ['lac75'] },
   { name: 'Barton College', cats: [] },
+  { name: 'Bates College', cats: ['lac75'] },
   { name: 'Baylor University', cats: ['p4'] },
   { name: 'Belmont Abbey College', cats: [], enrolling: true },
   { name: 'Belmont University', cats: [] },
+  { name: 'Beloit College', cats: [] },
   { name: 'Bentley University', cats: [] },
   { name: 'Boise State University', cats: [] },
   { name: 'Boston College', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Boston University', cats: ['nu75'] },
   { name: 'Bowdoin College', cats: ['lac75'] },
   { name: 'Brevard College', cats: [] },
+  { name: 'Bridgewater College', cats: [] },
+  { name: 'Brigham Young University', cats: ['p4'] },
   { name: 'Brown University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Bryn Mawr College', cats: ['lac75'] },
   { name: 'Bucknell University', cats: ['lac75'] },
   { name: 'Butler University', cats: [] },
-  { name: 'California Polytechnic State University (San Luis Obispo)', cats: [] },
+  { name: 'California Institute of Technology', cats: ['ivyplus', 'nu75'] },
+  { name: 'California Polytechnic State University, San Luis Obispo', cats: [] },
   { name: 'California State University (Bakersfield)', cats: [] },
   { name: 'Campbell University', cats: [] },
   { name: 'Cape Fear Community College', cats: [] },
@@ -64,27 +78,41 @@ const colleges = [
   { name: 'Catholic University of America', cats: [] },
   { name: 'Central Piedmont Community College', cats: [] },
   { name: 'Chapman University', cats: [] },
-  { name: 'Citadel Military College of South Carolina', cats: [] },
+  { name: 'Charleston Southern University', cats: [] },
+  { name: 'Christopher Newport University', cats: [] },
+  { name: 'Claremont McKenna College', cats: ['lac75'] },
+  { name: 'Clark Atlanta University', cats: ['hbcu'] },
   { name: 'Clemson University', cats: ['p4'], enrolling: true },
+  { name: 'Coastal Carolina University', cats: [] },
   { name: 'Coker University', cats: [], enrolling: true },
+  { name: 'Colby College', cats: ['lac75'] },
   { name: 'Colgate University', cats: ['lac75'] },
   { name: 'College of Charleston', cats: [], enrolling: true },
+  { name: 'College of the Holy Cross', cats: ['lac75'] },
   { name: 'Colorado School of Mines', cats: [], enrolling: true },
+  { name: 'Colorado State University', cats: [] },
   { name: 'Colorado State University (Fort Collins)', cats: [] },
   { name: 'Columbia College', cats: [] },
+  { name: 'Columbia University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Concord University', cats: [] },
   { name: 'Cornell University', cats: ['ivy', 'ivyplus', 'nu75'] },
+  { name: 'Creighton University', cats: [] },
+  { name: 'Dartmouth College', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Davidson College', cats: ['lac75'] },
+  { name: 'Davidson-Davie Community College', cats: [] },
   { name: 'Denison University', cats: ['lac75'] },
   { name: 'DePauw University', cats: ['lac75'] },
   { name: 'Drew University', cats: [] },
   { name: 'Drexel University', cats: [] },
   { name: 'Duke University', cats: ['ivyplus', 'nu75', 'p4'], enrolling: true },
+  { name: 'Duquesne University', cats: [] },
   { name: 'East Carolina University', cats: [], enrolling: true },
   { name: 'East Tennessee State University', cats: [] },
   { name: 'Eastern Michigan University', cats: [] },
   { name: 'Eckerd College', cats: [] },
+  { name: 'Elizabeth City State University', cats: ['hbcu'] },
   { name: 'Elon University', cats: [], enrolling: true },
+  { name: 'Embry-Riddle Aeronautical University (Daytona Beach)', cats: [] },
   { name: 'Emerson College', cats: [] },
   { name: 'Emory & Henry College', cats: [] },
   { name: 'Emory University', cats: ['nu75'] },
@@ -116,14 +144,20 @@ const colleges = [
   { name: 'High Point University', cats: [], enrolling: true },
   { name: 'Hofstra University', cats: [] },
   { name: 'Hollins University', cats: [] },
-  { name: 'Howard University', cats: ['hbcu', 'nu75'] },
+  { name: 'Howard University', cats: ['nu75', 'hbcu'] },
+  { name: 'Illinois Institute of Technology', cats: [] },
   { name: 'Indiana University (Bloomington)', cats: ['nu75', 'p4'] },
+  { name: 'Jacksonville University', cats: [] },
   { name: 'James Madison University', cats: [] },
   { name: 'Johns Hopkins University', cats: ['ivyplus', 'nu75'] },
+  { name: 'Johnson & Wales University (Charlotte)', cats: [] },
   { name: 'Johnson & Wales University (Providence)', cats: [] },
   { name: 'Juniata College', cats: [] },
   { name: 'Kansas State University', cats: ['p4'] },
+  { name: 'Kennesaw State University', cats: [] },
   { name: 'Kenyon College', cats: ['lac75'] },
+  { name: 'King\'s College London', cats: [] },
+  { name: 'La Salle University', cats: [] },
   { name: 'Lafayette College', cats: ['lac75'] },
   { name: 'Lehigh University', cats: ['nu75'] },
   { name: 'Lenoir-Rhyne University', cats: [] },
@@ -132,10 +166,13 @@ const colleges = [
   { name: 'Longwood University', cats: [] },
   { name: 'Louisiana State University', cats: ['p4'], enrolling: true },
   { name: 'Loyola Marymount University', cats: [] },
+  { name: 'Luther College', cats: [] },
   { name: 'Lynn University', cats: [] },
   { name: 'Macalester College', cats: ['lac75'] },
+  { name: 'Manhattan University', cats: [] },
   { name: 'Marist College', cats: [] },
   { name: 'Mars Hill University', cats: [] },
+  { name: 'Marymount University', cats: [] },
   { name: 'Massachusetts Institute of Technology', cats: ['ivyplus', 'nu75'] },
   { name: 'McGill University', cats: [] },
   { name: 'Merrimack College', cats: [] },
@@ -152,31 +189,39 @@ const colleges = [
   { name: 'Muhlenberg College', cats: ['lac75'] },
   { name: 'New Jersey Institute of Technology', cats: [] },
   { name: 'New York University', cats: ['nu75'] },
+  { name: 'Niagara University', cats: [] },
   { name: 'North Carolina A&T State University', cats: ['hbcu'] },
   { name: 'North Carolina Central University', cats: ['hbcu'] },
   { name: 'North Carolina State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'North Greenville University', cats: [] },
   { name: 'Northeastern University', cats: ['nu75'] },
+  { name: 'Northwestern University', cats: ['ivyplus', 'nu75', 'p4'] },
   { name: 'Nova Southeastern University', cats: [] },
   { name: 'Oberlin College', cats: ['lac75'] },
+  { name: 'Ohio University', cats: [] },
+  { name: 'Oklahoma State University', cats: ['p4'] },
   { name: 'Old Dominion University', cats: [] },
   { name: 'Oxford College of Emory University', cats: [] },
   { name: 'Palm Beach Atlantic University', cats: [] },
   { name: 'Parsons School of Design at The New School', cats: [] },
-  { name: 'Penn State University (University Park)', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Penn State University (Abington)', cats: [] },
   { name: 'Penn State University (World Campus)', cats: [] },
+  { name: 'Penn State University Park', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Pepperdine University', cats: [] },
   { name: 'Point Loma Nazarene University', cats: [] },
   { name: 'Point Park University', cats: [] },
   { name: 'Portland State University', cats: [] },
   { name: 'Pratt Institute', cats: [] },
   { name: 'Presbyterian College', cats: [] },
+  { name: 'Princeton University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Providence College', cats: [] },
   { name: 'Purdue University', cats: ['nu75', 'p4'] },
+  { name: 'Purdue University (Fort Wayne)', cats: [] },
   { name: 'Queens University of Charlotte', cats: [] },
   { name: 'Quinnipiac University', cats: [] },
   { name: 'Radford University', cats: [] },
   { name: 'Rensselaer Polytechnic Institute', cats: ['nu75'] },
+  { name: 'Rhodes College', cats: ['lac75'] },
   { name: 'Rice University', cats: ['nu75'] },
   { name: 'Ringling College of Art and Design', cats: [] },
   { name: 'Roanoke College', cats: [] },
@@ -184,46 +229,62 @@ const colleges = [
   { name: 'Rollins College', cats: [] },
   { name: 'Rose-Hulman Institute of Technology', cats: [] },
   { name: 'Rowan-Cabarrus Community College', cats: [], enrolling: true },
-  { name: 'Rutgers University (New Brunswick)', cats: ['nu75', 'p4'] },
+  { name: 'Rutgers University (Newark)', cats: ['nu75'] },
+  { name: 'Rutgers University–New Brunswick', cats: ['nu75', 'p4'] },
+  { name: 'Saint Joseph\'s University', cats: [] },
   { name: 'Saint Louis University', cats: [] },
   { name: 'Saint Mary\'s College of California', cats: [] },
   { name: 'Salisbury University', cats: [] },
   { name: 'Samford University', cats: [] },
   { name: 'San Diego State University', cats: [] },
   { name: 'Santa Clara University', cats: ['nu75'] },
+  { name: 'Sarah Lawrence College', cats: [] },
   { name: 'Savannah College of Art and Design', cats: [], enrolling: true },
   { name: 'School of the Art Institute of Chicago', cats: [] },
   { name: 'Seton Hall University', cats: [] },
   { name: 'Sewanee: The University of the South', cats: ['lac75'], enrolling: true },
+  { name: 'Skidmore College', cats: ['lac75'] },
+  { name: 'South Carolina State University', cats: ['hbcu'] },
   { name: 'Southern Methodist University', cats: ['p4'], enrolling: true },
+  { name: 'Southern University and A&M College', cats: ['hbcu'] },
   { name: 'Spelman College', cats: ['lac75', 'hbcu'] },
   { name: 'St. Bonaventure University', cats: [] },
   { name: 'St. John\'s University', cats: [] },
+  { name: 'St. Olaf College', cats: ['lac75'] },
   { name: 'Stanford University', cats: ['ivyplus', 'nu75', 'p4'], enrolling: true },
   { name: 'Stetson University', cats: [] },
   { name: 'Stevens Institute of Technology', cats: ['nu75'] },
   { name: 'Stony Brook University', cats: ['nu75'] },
+  { name: 'Suffolk University', cats: [] },
   { name: 'SUNY University at Buffalo', cats: [] },
+  { name: 'Swarthmore College', cats: ['lac75'] },
   { name: 'Syracuse University', cats: ['nu75', 'p4'] },
   { name: 'Temple University', cats: [] },
   { name: 'Tennessee Technological University', cats: [] },
   { name: 'Texas A&M University', cats: ['nu75', 'p4'] },
   { name: 'Texas Christian University', cats: ['p4'], enrolling: true },
+  { name: 'The American University of Paris', cats: [] },
+  { name: 'The Citadel', cats: [] },
   { name: 'The New School', cats: [], enrolling: true },
   { name: 'The Ohio State University', cats: ['nu75', 'p4'] },
   { name: 'The University of Alabama', cats: ['p4'] },
   { name: 'The University of Edinburgh', cats: [] },
+  { name: 'The University of Manchester', cats: [] },
   { name: 'The University of Montana', cats: [] },
   { name: 'The University of Tampa', cats: [], enrolling: true },
-  { name: 'The University of Tennessee (Knoxville)', cats: ['p4'], enrolling: true },
+  { name: 'The University of Tennessee, Knoxville', cats: ['p4'], enrolling: true },
   { name: 'The University of Virginia\'s College at Wise', cats: [] },
+  { name: 'Trinity College', cats: ['lac75'] },
+  { name: 'Trinity College Dublin', cats: [] },
+  { name: 'Trinity University', cats: ['lac75'] },
   { name: 'Tufts University', cats: ['nu75'] },
-  { name: 'Tulane University of Louisiana', cats: ['nu75'], enrolling: true },
+  { name: 'Tulane University', cats: ['nu75'], enrolling: true },
   { name: 'Union College', cats: ['lac75'] },
   { name: 'United States Air Force Academy', cats: ['lac75'], enrolling: true },
+  { name: 'United States Coast Guard Academy', cats: [] },
+  { name: 'United States Naval Academy', cats: ['lac75'] },
   { name: 'University College Dublin', cats: [] },
   { name: 'University of Aberdeen', cats: [], enrolling: true },
-  { name: 'University of Alabama', cats: ['p4'] },
   { name: 'University of Alabama at Birmingham', cats: [] },
   { name: 'University of Alabama in Huntsville', cats: [] },
   { name: 'University of Arizona', cats: ['p4'] },
@@ -234,9 +295,11 @@ const colleges = [
   { name: 'University of California (Los Angeles)', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of California (San Diego)', cats: ['nu75'] },
   { name: 'University of California (Santa Barbara)', cats: ['nu75'] },
+  { name: 'University of California (Santa Cruz)', cats: [] },
   { name: 'University of Central Florida', cats: ['p4'] },
   { name: 'University of Charleston', cats: [] },
   { name: 'University of Chicago', cats: ['ivyplus', 'nu75'] },
+  { name: 'University of Cincinnati', cats: ['p4'] },
   { name: 'University of Colorado (Colorado Springs)', cats: [] },
   { name: 'University of Colorado Boulder', cats: ['p4'] },
   { name: 'University of Connecticut', cats: ['nu75'] },
@@ -246,32 +309,37 @@ const colleges = [
   { name: 'University of Florida', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Georgia', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Hawaii at Manoa', cats: [] },
-  { name: 'University of Illinois at Chicago', cats: [] },
-  { name: 'University of Illinois at Urbana-Champaign', cats: ['nu75', 'p4'] },
+  { name: 'University of Idaho', cats: [] },
+  { name: 'University of Illinois Chicago', cats: [] },
+  { name: 'University of Illinois Urbana-Champaign', cats: ['nu75', 'p4'] },
+  { name: 'University of Iowa', cats: ['p4'] },
   { name: 'University of Kentucky', cats: ['p4'] },
   { name: 'University of Louisville', cats: ['p4'] },
   { name: 'University of Lynchburg', cats: [] },
   { name: 'University of Mary Washington', cats: [] },
-  { name: 'University of Maryland (College Park)', cats: ['nu75'] },
+  { name: 'University of Maryland, College Park', cats: ['nu75', 'p4'] },
   { name: 'University of Massachusetts (Amherst)', cats: ['nu75'] },
   { name: 'University of Miami', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Michigan', cats: ['nu75', 'p4'] },
   { name: 'University of Minnesota (Twin Cities)', cats: ['nu75', 'p4'] },
   { name: 'University of Mississippi', cats: ['p4'] },
+  { name: 'University of Montreal', cats: [] },
   { name: 'University of Nebraska (Lincoln)', cats: [] },
-  { name: 'University of New Hampshire (Main Campus)', cats: [] },
+  { name: 'University of New Hampshire', cats: [] },
+  { name: 'University of North Carolina (Pembroke)', cats: [] },
   { name: 'University of North Carolina at Asheville', cats: [], enrolling: true },
   { name: 'University of North Carolina at Chapel Hill', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of North Carolina at Charlotte', cats: [], enrolling: true },
   { name: 'University of North Carolina at Greensboro', cats: [], enrolling: true },
   { name: 'University of North Carolina School of the Arts', cats: [] },
-  { name: 'University of North Carolina at Wilmington', cats: [] },
+  { name: 'University of North Carolina Wilmington', cats: [], enrolling: true },
   { name: 'University of North Georgia', cats: [] },
   { name: 'University of North Texas', cats: [] },
+  { name: 'University of Notre Dame', cats: ['nu75', 'p4'] },
   { name: 'University of Oklahoma', cats: ['p4'] },
   { name: 'University of Oregon', cats: ['p4'] },
   { name: 'University of Pennsylvania', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
-  { name: 'University of Pittsburgh (Pittsburgh)', cats: ['nu75'] },
+  { name: 'University of Pittsburgh', cats: ['nu75', 'p4'] },
   { name: 'University of Puget Sound', cats: [] },
   { name: 'University of Rhode Island', cats: [] },
   { name: 'University of Richmond', cats: ['lac75'] },
@@ -279,16 +347,19 @@ const colleges = [
   { name: 'University of San Francisco', cats: [] },
   { name: 'University of South Carolina', cats: ['p4'], enrolling: true },
   { name: 'University of South Carolina (Aiken)', cats: [] },
-  { name: 'University of South Florida (Main Campus)', cats: [] },
+  { name: 'University of South Carolina (Beaufort)', cats: [] },
+  { name: 'University of South Florida', cats: [] },
   { name: 'University of Southern California', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of St Andrews', cats: [] },
-  { name: 'University of Tampa', cats: [] },
+  { name: 'University of Texas', cats: ['nu75'] },
+  { name: 'University of the Pacific', cats: [] },
   { name: 'University of Toronto', cats: [] },
   { name: 'University of Utah', cats: ['p4'] },
   { name: 'University of Vermont', cats: [], enrolling: true },
-  { name: 'University of Virginia (Main Campus)', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'University of Washington (Seattle Campus)', cats: ['nu75'], enrolling: true },
-  { name: 'University of Wisconsin (Madison)', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Virginia', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Washington', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Wisconsin–Madison', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Ursinus College', cats: [] },
   { name: 'Vanderbilt University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Vassar College', cats: ['lac75'], enrolling: true },
   { name: 'Villanova University', cats: ['nu75'], enrolling: true },
@@ -299,27 +370,29 @@ const colleges = [
   { name: 'Wake Forest University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Washington & Jefferson College', cats: [] },
   { name: 'Washington and Lee University', cats: ['lac75'] },
+  { name: 'Washington State University', cats: [] },
   { name: 'Washington University in St. Louis', cats: ['ivyplus', 'nu75'] },
   { name: 'Wentworth Institute of Technology', cats: [] },
   { name: 'Wesleyan University', cats: ['lac75'] },
+  { name: 'West Virginia State University', cats: ['hbcu'] },
   { name: 'West Virginia University', cats: ['p4'] },
   { name: 'Western Carolina University', cats: [] },
+  { name: 'Western University', cats: [] },
   { name: 'Wheaton College - IL', cats: ['lac75'] },
   { name: 'Wheaton College - MA', cats: [] },
-  { name: 'William & Mary', cats: ['nu75'] },
+  { name: 'William & Mary', cats: ['nu75'], enrolling: true },
+  { name: 'Williams College', cats: ['lac75'] },
   { name: 'Wingate University', cats: [] },
   { name: 'Winston-Salem State University', cats: ['hbcu'] },
   { name: 'Winthrop University', cats: [] },
   { name: 'Wofford College', cats: ['lac75'], enrolling: true },
   { name: 'Worcester Polytechnic Institute', cats: ['nu75'] },
   { name: 'Xavier University', cats: [] },
-  { name: 'Arizona State University (Main Campus)', cats: ['p4'], enrolling: true },
-  { name: 'The College of William and Mary', cats: ['nu75'], enrolling: true },
-  { name: 'University of North Carolina Wilmington', cats: [], enrolling: true },
+  { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'] },
 ]
 
-const PROFILE_2526 =
-  'https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1791909516/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf'
 const PROFILE_2425 =
   'https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf'
 const COUNSELING = 'https://www.cannonschool.org/academics/college-counseling'
@@ -445,13 +518,13 @@ export const cannon: CollegeSupportProgram = {
   },
   transcript: {
     headline:
-      'Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at eleven advanced courses and barring freshmen entirely.',
+      'Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at twelve advanced courses and barring freshmen entirely.',
     subhead:
-      'That ceiling is the key to reading a Cannon transcript: “most rigorous” here has a hard, published limit, and the 92% scoring 3+ comes from students who chose to sit an optional exam.',
+      'That ceiling is the key to reading a Cannon transcript: “most rigorous” here has a hard, published limit, and the 90% scoring 3+ comes from students who chose to sit an optional exam.',
     stats: [
-      { value: '21', label: 'advanced courses — 13 AP plus 8 school-designed Advanced Topics' },
-      { value: '92%', label: 'of AP exams scored 3+ (425 exams, 197 students, Class of 2025)' },
-      { value: '0 / 1 / 4 / 6', label: 'published max AP/AT courses in grades 9 / 10 / 11 / 12' },
+      { value: '27', label: 'advanced courses — AP plus school-designed Advanced Topics, the school’s own count' },
+      { value: '90%', label: 'of students scored 3+ (446 exams, 195 students, May 2026)' },
+      { value: '0 / 1 / 5 / 6', label: 'published max AP/AT courses in grades 9 / 10 / 11 / 12' },
       { value: 'No rank', label: '“Cannon School does not rank students”' },
     ],
     // No merit ledger: no National Merit counts are published in any year.
@@ -459,29 +532,33 @@ export const cannon: CollegeSupportProgram = {
     depth: [
       {
         label: 'Mathematics',
-        text: 'The ceiling is **AP Calculus BC / AP Statistics** — there is no published post-BC course, no multivariable calculus and no linear algebra. An “AT: Calculus with Applications” listed in 2024–25 has disappeared from the 2025–26 table.',
+        text: 'The ceiling is now **AT: Mathematics & Calculus**, which the 2026–27 Course Catalog describes as a seminar for students who have completed AP Calculus BC. AP Precalculus also appears. No multivariable calculus or linear algebra course is published by name.',
       },
       {
         label: 'Computer science',
-        text: '**AP Computer Science only**, with no post-AP course and no data structures — thin relative to the rest of the advanced catalogue.',
+        text: '**AP Computer Science plus AT: Principles of Computer Science & Coding**, still with no data-structures or post-AP course — thin relative to the rest of the advanced catalogue.',
       },
       {
         label: 'Advanced Topics',
-        text: 'Eight **school-designed AT courses** sit alongside the APs and carry the same 1.0 quality point, several with no corresponding College Board exam at all — for example AT: Design Thinking for Entrepreneurship.',
+        text: '**School-designed AT courses** sit alongside the APs and carry the same 1.0 quality point, several with no corresponding College Board exam at all — for example AT: Design Thinking for Entrepreneurship.',
       },
       {
         label: 'Beyond campus',
         text: 'No Global Online Academy membership and no dual-enrolment partnership is published — this was checked specifically.',
       },
+      {
+        label: 'Before and after the school year',
+        text: '**Zero Hour** runs Varsity Chorus and Varsity Orchestra, pass/fail, on Monday, Wednesday and Friday before school. **Summer Term** offers Geometry Acceleration pass/fail, and Honors Biology and Honors Chemistry for a grade; summer courses are designated as Summer Term on the transcript, and BIOREX is not offered in the summer section.',
+      },
     ],
     trust: [
       {
         label: 'Weighted narrowly, and deliberately',
-        text: 'AT and AP courses carry **1.0 quality point; Honors and Honors Accelerated are not weighted at all**. Both weighted and unweighted GPAs are calculated from Cannon coursework only.',
+        text: 'Three tiers: AT and AP courses carry **1.0 quality point**, **Honors Accelerated 0.5** (new for 2026–27), and Honors **none at all**. Both weighted and unweighted GPAs are calculated from Cannon coursework only.',
       },
       {
         label: 'No rank, and a modest ceiling',
-        text: 'No rank, no decile or quintile table — but the narrow weighting plus the eleven-course cap means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.',
+        text: 'No rank, no decile or quintile table — but the narrow weighting plus the twelve-course cap means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.',
       },
       {
         label: 'A per-discipline rigour key',
@@ -491,16 +568,16 @@ export const cannon: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'AP exams are OPTIONAL — “students in AT/AP classes have the option of sitting for the appropriate AP exam”. The 92.39% scoring 3+ therefore rests on a self-selected pool and is not directly comparable with schools that mandate the exam. The 197-student denominator is also undefined: it most likely means all Upper School exam takers rather than members of the 111-person graduating class.',
+        text: 'AP exams are OPTIONAL — “students in AT/AP classes have the option of sitting for the appropriate AP exam”. The 90.16% scoring 3+ therefore rests on a self-selected pool and is not directly comparable with schools that mandate the exam. The denominator is also undefined: the profile labels the figure “Students with Scores 3+” while giving both 195 students and 446 exams, so whether it is a share of students or of exams is not stated.',
       },
       {
         kind: 'gap',
-        text: 'No National Merit ledger of any kind is published — no Semifinalist, Finalist or Commended counts in any year, on either profile or in news posts. Repeated searches surfaced only a 2011 item naming a single Scholar. AP Scholar counts and the share scoring 4–5 are likewise unpublished; Cannon reports only the 3+ threshold.',
+        text: 'No National Merit ledger of any kind is published — no Semifinalist, Finalist or Commended counts in any year, on any profile or in news posts. Repeated searches surfaced only a 2011 item naming a single Scholar. AP Scholar counts and the share scoring 4–5 are likewise unpublished; Cannon reports only the 3+ threshold.',
       },
     ],
     sources: [
-      { label: 'cannonschool.org — 2025–26 School Profile (advanced-course counts, AP stats, load ceiling, no-rank policy)', url: PROFILE_2526 },
-      { label: '2024–25 School Profile (the grading scale the newer edition dropped)', url: PROFILE_2425 },
+      { label: 'cannonschool.org — 2026–27 School Profile (advanced-course counts, AP stats, load ceiling, weighting, no-rank policy)', url: PROFILE_2627 },
+      { label: '2024–25 School Profile (the grading scale the newer editions dropped)', url: PROFILE_2425 },
     ],
   },
 
@@ -508,19 +585,19 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Cannon promises something structural that most schools do not: a student keeps the same college counselor for all four years, rather than being handed off in junior year.',
     subhead:
-      'Five staff, zero turnover across two published profiles, and a co-director model — plus the regional case-studies programme it physically hosts.',
+      'Five staff, the same four directors across three published profiles, and a co-director model — plus the regional case-studies programme it physically hosts.',
     stats: [
-      { value: '28:1', label: 'the school’s published ratio — reachable only counting seniors' },
+      { value: '~26:1', label: 'seniors per counselor — computed, 105 seniors ÷ 4 (Class of 2026)' },
       { value: '5', label: 'staff — two co-directors, two associates, one coordinator' },
       { value: '4 years', label: 'the same counselor for a student’s whole Upper School career' },
       { value: 'SCOIR', label: 'platform, alongside an annually refreshed School Profile' },
     ],
     roster: [
-      { role: 'Co-Director', name: 'Courtney Brayboy', detail: 'Cannon runs an unusual shared top role rather than a single director.' },
-      { role: 'Co-Director', name: 'Heidi Waibel', detail: 'The roster is identical across the 2024–25 and 2025–26 profiles.' },
+      { role: 'Co-Director', name: 'Courtney Brayboy' },
+      { role: 'Co-Director', name: 'Heidi Waibel', detail: 'The four directors are unchanged across the 2024–25, 2025–26 and 2026–27 profiles.', email: 'hwaibel@cannonschool.org' },
       { role: 'Assoc. Director', name: 'Adrian LeFevre' },
       { role: 'Assoc. Director', name: 'Connie Stavrakas' },
-      { role: 'Coordinator', name: 'Clay Morrell', detail: 'Zero turnover across at least two years is itself a stability signal.' },
+      { role: 'Coordinator', name: 'Brittany Pasut', detail: 'Named on the 2026–27 profile, succeeding Clay Morrell.', email: 'bpasut@cannonschool.org' },
     ],
     timelineTitle: 'The published programme — parent-facing, by grade',
     timeline: [
@@ -557,61 +634,46 @@ export const cannon: CollegeSupportProgram = {
       'Second annual edition held **26 April 2026**, confirmed independently from a college’s own registration portal',
       'SCOIR · an annually refreshed School Profile · CEEB 340879',
     ],
-    flags: [
-      {
-        kind: 'verify',
-        text: 'The marketed “28:1 ratio” only works as seniors per counselor (111 ÷ 4). Measured across the 423-student Upper School it is nearer 106:1, and the school never states the denominator — so 28:1 should not be read as a whole-Upper-School caseload.',
-      },
-      {
-        kind: 'gap',
-        text: 'No counselor tenure, prior background, degrees or biographies are published — names and titles only, so director tenure is unknown. Neither rep-visit counts nor counselor campus-visit counts are published in any form. Note that Davidson Day’s published “80+ reps a year” belongs to Davidson Day, not Cannon.',
-      },
-      {
-        kind: 'gap',
-        text: 'The student-facing curriculum is unpublished: seminar cadence, one-on-one meeting counts, essay workshops and junior conference timing appear nowhere. Cannon publishes what it invites parents to, not what it does with students. A four-year self-exploration strand described in the 2024–25 profile was cut from the 2025–26 edition without explanation.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'cannonschool.org — College Counseling', url: COUNSELING },
-      { label: '2025–26 School Profile (staffing, enrollment)', url: PROFILE_2526 },
+      { label: '2026–27 School Profile (staffing, enrollment)', url: PROFILE_2627 },
+      { label: 'Faculty & Staff Directory (counselor email addresses)', url: 'https://www.cannonschool.org/about/faculty-staff-directory' },
       { label: 'Davidson Day — the co-hosted Lake Norman case-studies programme at Cannon', url: 'https://www.davidsonday.org/academics/college-counseling' },
     ],
   },
 
   outcomes: {
     headline:
-      'Cannon publishes what most schools here do not — an actual matriculation list. 58 institutions enrolled a Class of 2023 graduate, including Stanford, Duke, Penn, UCLA and the Air Force Academy.',
-    subhead:
-      'That list is far stronger evidence than the acceptance rollup beside it, which aggregates three graduating classes and has not been refreshed since the Class of 2024.',
+      'Cannon’s college acceptance list spans the Classes of 2022 through 2026 — 352 colleges, with Class of 2023 enrollments in bold.',
     stats: [
-      { value: '98%', label: 'of the Class of 2025 to four-year colleges · 2% to two-year' },
+      { value: '98%', label: 'of the Class of 2026 to four-year colleges · 2% to two-year' },
       { value: '58', label: 'institutions where a Class of 2023 student actually enrolled' },
-      { value: '111', label: 'graduating seniors — the second largest class in school history' },
-      { value: '3 of 8', label: 'Ivy League on the 2022–24 acceptance list' },
+      { value: '105', label: 'graduating seniors, Class of 2026' },
+      { value: '7 of 8', label: 'Ivy League on the 2022–26 acceptance list' },
     ],
     buckets: [
-      { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Penn; absent Harvard, Yale, Princeton, Dartmouth, Columbia' },
-      { tier: '“Ivy Plus”', count: '10 / 17' },
-      { tier: 'Top-75 National Universities', count: '66 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '30 / 75' },
-      { tier: 'Power Four', count: '52 / 68' },
-      { tier: 'HBCUs', count: '5 / 107', note: '— Historically Black Colleges & Universities' },
+      { tier: 'Ivy League', count: '7 / 8', note: '— Brown, Columbia, Cornell, Dartmouth, Penn, Princeton, Yale; absent Harvard' },
+      { tier: '“Ivy Plus”', count: '16 / 17' },
+      { tier: 'Top-75 National Universities', count: '75 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '45 / 75' },
+      { tier: 'Power Four', count: '61 / 68' },
+      { tier: 'HBCUs', count: '11 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    collegesTitle: 'Every acceptance, 2022–2024',
+    collegesTitle: 'Every acceptance, 2022–2026',
     colleges,
-    collegesTotal: '283 institutions · bold = a Class of 2023 student enrolled',
+    collegesTotal: '352 institutions · bold = a Class of 2023 student enrolled',
     scholarships: [
       'No merit-scholarship total published',
       'Morehead-Cain: a 2015 recipient, nothing current',
       'U.S. Air Force Academy enrollment (Class of 2023)',
-      'Cum Laude Society chapter since 2005',
+      'National Honor Society chapter awarded in 2025',
+      'U.S. Naval Academy and Coast Guard Academy acceptances (2024–26)',
     ],
-    scholarshipsNote:
-      'This is Cannon’s single largest outcome-data gap. No merit-scholarship dollar figure appears on either profile or in any news post, and no current Morehead-Cain, Park, QuestBridge or ROTC outcome is published. Cannon does publish $3,000,000 in tuition assistance to 24% of its students — but that is the school’s own inbound financial aid, not college merit money, and the two must not be conflated.',
     flags: [],
     sources: [
-      { label: 'cannonschool.org — 2024–25 School Profile (the 2022–24 acceptance list)', url: PROFILE_2425 },
-      { label: '2025–26 School Profile (Class of 2025 outcomes)', url: PROFILE_2526 },
+      { label: 'cannonschool.org — 2026–27 School Profile (the 2024–26 acceptance list, Class of 2026 outcomes)', url: PROFILE_2627 },
+      { label: '2024–25 School Profile (the 2022–24 acceptance list)', url: PROFILE_2425 },
       { label: 'College Counseling resources (Class of 2023 matriculation list)', url: 'https://www.cannonschool.org/college-counseling-resources-clone' },
       { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
@@ -642,14 +704,14 @@ export const cannon: CollegeSupportProgram = {
         items: [
           '**The profile publishes its own ceiling** — the maximum AP/AT load by grade, with a footnote that maths placement governs whether a student can reach it. Disclosing the cap protects students from being read against an unlimited-load norm they were never allowed to attempt.',
           '**Integrity signalling** — the office “reports out-of-school suspensions and expulsions through time of graduation to any colleges and universities that request this information”: a disclose-on-request posture consistent with current NACAC norms.',
-          '**Institutional memberships** — NACAC, SACAC and **ACCIS**, alongside a **Cum Laude Society** chapter awarded in 2005 and membership of the **Independent Curriculum Group**, which is what makes the school-designed AT tier and the optional-exam stance coherent rather than idiosyncratic.',
+          '**Institutional memberships** — **SAIS** accreditation; NAIS, NCAIS, CSEE, **ACCIS**, NACAC and SACAC; and a **National Honor Society** chapter awarded in 2025.',
           '**Hosting regional admissions traffic** — Cannon is the venue for the Lake Norman case-studies programme and fair, pulling visiting admissions officers onto its own campus at regional scale rather than only sending students out.',
         ],
       },
     ],
     flags: [],
     sources: [
-      { label: 'cannonschool.org — 2025–26 School Profile (signature experiences, memberships, discipline reporting)', url: PROFILE_2526 },
+      { label: 'cannonschool.org — 2026–27 School Profile (signature experiences, memberships, discipline reporting)', url: PROFILE_2627 },
       { label: 'Academics — Upper School curriculum', url: 'https://www.cannonschool.org/academics' },
       { label: 'College Counseling', url: COUNSELING },
     ],
@@ -659,37 +721,37 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Cannon publishes a top-10% band and a middle-50% band for both tests and both GPAs — a genuinely useful shape, reported in a format that is not percentiles.',
     subhead:
-      'The most informative figure is the unweighted middle 50% of 3.57–3.94: the median Cannon student sits in the high-B-plus to A-minus range before any weighting.',
+      'The most informative figure is the unweighted middle 50% of 3.76–3.94: the median Cannon student sits in the A-minus range before any weighting.',
     scoreTables: [
       {
         title: 'SAT score percentiles',
-        hint: '— Class of 2025 · number of testers not published',
-        rows: [{ label: 'SAT total', values: ['—', '1220', '—', '1380', '1470', '—'] }],
+        hint: '— Class of 2026 · number of testers not published',
+        rows: [{ label: 'SAT total', values: ['—', '1290', '—', '1410', '1510', '—'] }],
         note:
-          'Cannon publishes a middle-50% band and a top-10% band only. The middle-50% endpoints conventionally ARE the 25th and 75th percentiles, so those columns are real; the top-10% figure is shown in the 90th column as the floor of that band (1470–1590). No mean, median, section subscores, or tester counts are published for either test.',
+          'Cannon publishes a middle-50% band and a top-10% band only. The middle-50% endpoints conventionally ARE the 25th and 75th percentiles, so those columns are real; the top-10% figure is shown in the 90th column as the floor of that band (1510–1560). No mean, median, section subscores, or tester counts are published for either test.',
       },
       {
         title: 'ACT score percentiles',
-        hint: '— Class of 2025 · number of testers not published',
+        hint: '— Class of 2026 · number of testers not published',
         rows: [{ label: 'ACT composite', values: ['—', '25', '—', '31', '33', '—'] }],
         note:
-          'Same reporting format: the 90th column shows the floor of the published top-10% band (33–36). Without a tester count there is no way to tell what share of 111 seniors sat either exam, which materially limits how far these bands can be read.',
+          'Same reporting format: the 90th column shows the floor of the published top-10% band (33–36). Without a tester count there is no way to tell what share of 105 seniors sat either exam, which materially limits how far these bands can be read.',
       },
     ],
     gpaTitle: 'GPA distribution',
-    gpaHint: '— Class of 2025, cumulative through grade 11 · transfers excluded',
+    gpaHint: '— Class of 2026, cumulative through grade 11 · transfers excluded',
     quintiles: [
-      { label: 'Weighted · top 10%', gpa: '4.22–4.28', detail: 'a modest ceiling, by design' },
-      { label: 'Weighted · mid 50%', gpa: '3.67–4.11', detail: 'the middle of the class' },
-      { label: 'Unweighted · top 10%', gpa: '3.96–4.00', detail: 'effectively straight A’s' },
-      { label: 'Unweighted · mid 50%', gpa: '3.57–3.94', detail: 'high B+ to A− before weighting' },
+      { label: 'Weighted · top 10%', gpa: '4.08–4.28', detail: 'a modest ceiling, by design' },
+      { label: 'Weighted · mid 50%', gpa: '3.93–4.11', detail: 'the middle of the class' },
+      { label: 'Unweighted · top 10%', gpa: '3.85–4.0', detail: 'A-range' },
+      { label: 'Unweighted · mid 50%', gpa: '3.76–3.94', detail: 'A− range before weighting' },
     ],
     gpaNote:
-      'These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the eleven-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes.',
+      'These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the twelve-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11), and the profile does not explain the overlap.',
     support: [
       {
         label: 'Two named Upper School learning-support staff',
-        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 423 Upper School students, and among the best-documented learning support in this set.',
+        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 421 Upper School students, and among the best-documented learning support in this set.',
       },
       {
         label: 'The student owns the plan',
@@ -707,7 +769,7 @@ export const cannon: CollegeSupportProgram = {
     middle: [
       {
         label: 'The list is printed honestly',
-        text: 'The acceptance list runs from MIT, Stanford and Bowdoin down through Rowan-Cabarrus, Cape Fear and Central Piedmont community colleges, Brevard, Barton, Catawba, Mars Hill, Wingate, Limestone, Methodist, Gardner-Webb, Guilford, Lenoir-Rhyne and Coker. A school optimising for prestige would omit these; Cannon prints them, and discloses its 2% two-year figure rather than burying it.',
+        text: 'The acceptance list runs from MIT, Caltech, Stanford, Princeton and Yale down through Rowan-Cabarrus, Cape Fear, Central Piedmont and Davidson-Davie community colleges, Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke and USC Beaufort. A school optimising for prestige would omit these; Cannon prints them, and discloses its 2% two-year figure rather than burying it.',
       },
       {
         label: 'A design-weighted arts pathway',
@@ -715,21 +777,12 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Other non-traditional destinations',
-        text: 'International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, University College Dublin, McGill, Toronto); service academies and the military (Air Force Academy, The Citadel, VMI); technical institutes (Rose-Hulman, WPI, Stevens, Colorado School of Mines, RPI); HBCUs (Howard, Spelman, NC A&T, NC Central, Winston-Salem State).',
+        text: 'International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal and Western); service academies and the military (the Air Force, Naval and Coast Guard academies, The Citadel and VMI); technical institutes (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT and Embry-Riddle); HBCUs (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State and Winston-Salem State).',
       },
     ],
-    flags: [
-      {
-        kind: 'verify',
-        text: 'All four GPA bands are identical to the hundredth across the Class of 2024 and Class of 2025 tables. An exact four-band match across two different cohorts is statistically unlikely, so this may be carried-forward data rather than a genuinely stable distribution.',
-      },
-      {
-        kind: 'gap',
-        text: 'No gap-year statistic, policy or counselling service is described anywhere — and since 98% four-year plus 2% two-year accounts for the whole class, the published outcomes leave no room for a gap-year cohort at all.',
-      },
-    ],
+    flags: [],
     sources: [
-      { label: 'cannonschool.org — 2025–26 School Profile (testing distribution, GPA bands)', url: PROFILE_2526 },
+      { label: 'cannonschool.org — 2026–27 School Profile (testing distribution, GPA bands)', url: PROFILE_2627 },
       { label: '2024–25 School Profile (the year test scores were withheld)', url: PROFILE_2425 },
       { label: 'Academic support and learning specialists', url: 'https://www.cannonschool.org/academics' },
     ],
@@ -743,11 +796,11 @@ export const cannon: CollegeSupportProgram = {
     points: [
       {
         label: 'Four-year counselor continuity, stated in writing',
-        text: 'students keep the same college counselor for their whole Upper School career rather than being handed off in junior year — and the five-person roster shows zero turnover across two published profiles.',
+        text: 'students keep the same college counselor for their whole Upper School career rather than being handed off in junior year — and the roster shows the same four directors across three published profiles (only the coordinator changed).',
       },
       {
         label: 'The rigour ceiling is disclosed, not implied',
-        text: 'a published maximum of 0/1/4/6 AP or AT courses by grade caps a transcript at eleven, so colleges read “most rigorous” against a limit the school itself states.',
+        text: 'a published maximum of 0/1/5/6 AP or AT courses by grade caps a transcript at twelve, so colleges read “most rigorous” against a limit the school itself states.',
       },
       {
         label: 'Research experiences with real external judging',
@@ -755,7 +808,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'It publishes an actual matriculation list',
-        text: '58 institutions where a Class of 2023 graduate genuinely enrolled — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any acceptance rollup.',
+        text: '58 institutions where a Class of 2023 graduate genuinely enrolled — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any acceptance rollup — and the acceptance list beside it now runs 2022–2026.',
       },
       {
         label: 'Learning support is named and reaches the application',
@@ -763,23 +816,23 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Grades are not inflated',
-        text: 'Honors courses carry no weight at all and only AT/AP add a point, so the weighted top decile tops out near 4.28 rather than in the high 4s.',
+        text: 'Honors courses carry no weight, Honors Accelerated adds half a point and only AT/AP add a full point, so the weighted top decile tops out at 4.28.',
       },
     ],
     checklist: [
-      'The 2025–26 profile dropped the acceptance list entirely, so the newest is a 2022–24 rollup. Where did the Classes of 2025 and 2026 actually enroll?',
-      'Your 28:1 ratio only works counting seniors — what is the actual caseload per counselor across all four Upper School grades?',
+      'The newest acceptance list covers 2024–26, but the newest matriculation list is the Class of 2023. Where did the Classes of 2024–2026 actually enroll?',
+      'With 105 seniors and four counselors, what is the actual caseload per counselor across all four Upper School grades?',
       'Has Cannon had any National Merit Semifinalists, Finalists or Commended Students in recent years? Nothing is published in any year.',
-      'AP exams are optional here. What share of students in AP and AT courses actually sit the exam, and what share scored 4 or 5 rather than just 3+?',
+      'AP exams are optional here. What share of students in AP and AT courses actually sit the exam, what share scored 4 or 5 rather than just 3+ — and does the 90.16% count students or exams?',
       'What were the total merit-scholarship offers for the last graduating class? No dollar figure is published anywhere.',
       'Your 2024–25 profile declined to report Class of 2025 test scores on test-optional principle, then the 2025–26 profile published them for that same class. What changed?',
-      'The GPA bands are identical to the hundredth across two different classes — is that a genuinely stable distribution, or carried-forward data?',
+      'As printed, the Class of 2026 weighted top-10% band (4.08–4.28) overlaps the middle 50% (3.93–4.11). How is the top 10% defined?',
       'What does the student-facing counseling curriculum look like grade by grade — how many one-on-one meetings, and when do essays start?',
     ],
     flags: [],
     sources: [
       { label: 'cannonschool.org — College Counseling', url: COUNSELING },
-      { label: '2025–26 School Profile', url: PROFILE_2526 },
+      { label: '2026–27 School Profile', url: PROFILE_2627 },
       { label: 'Verdict synthesised by the researcher from the sources cited on the cards above', },
     ],
   },

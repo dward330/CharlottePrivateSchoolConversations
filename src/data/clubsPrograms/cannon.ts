@@ -29,7 +29,7 @@
 //     appears only in third-party review-site paraphrase, nowhere on
 //     cannonschool.org. Excluded entirely.
 //
-// Cannon's 1c is the strongest in the set — eleven societies, two with locally
+// Cannon's 1c is the strongest in the set — twelve societies, two with locally
 // named chapters (Maggie Coleman, Golden Quill) that are preserved verbatim.
 
 import type { ClubsProgram } from '../clubsProgram.ts'
@@ -42,8 +42,8 @@ const CURRICULUM = 'https://www.cannonschool.org/academics/upper-school/curricul
 const WINTERM = 'https://www.cannonschool.org/academics/upper-school/winterm'
 const MS_STUDENT_LIFE =
   'https://www.cannonschool.org/cannon-life/student-life/middle-school-student-life'
-const PROFILE_2526 =
-  'https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1791909516/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf'
 
 export const cannon: ClubsProgram = {
   affinity: {
@@ -96,7 +96,7 @@ export const cannon: ClubsProgram = {
         source: { label: 'Upper School', url: UPPER_SCHOOL },
       },
       {
-        value: '111',
+        value: '105',
         valueLabel: 'seniors · every one completes it',
         name: 'Senior Capstone',
         detail:
@@ -122,26 +122,26 @@ export const cannon: ClubsProgram = {
       },
       {
         kind: 'gap',
-        text: 'The hours figure is unstable across the school’s own publications. An earlier 2024-25 profile said around 15,000; the current Upper School page says almost 10,000; the 2025-26 profile drops the statistic altogether. We show the current published figure and scope it to the Upper School, since that is the page carrying it.',
+        text: 'The hours figure is unstable across the school’s own publications. An earlier 2024-25 profile said around 15,000; the current Upper School page says almost 10,000; the 2025–26 and 2026–27 profiles drop the statistic altogether. We show the current published figure and scope it to the Upper School, since that is the page carrying it.',
       },
     ],
     sources: [
       { label: 'cannonschool.org — Upper School (current hours figure)', url: UPPER_SCHOOL },
-      { label: '2025-26 Student Profile', url: PROFILE_2526 },
+      { label: '2026–27 Student Profile', url: PROFILE_2627 },
       { label: 'Middle School Student Life (service learning)', url: MS_STUDENT_LIFE },
     ],
   },
 
   honors: {
     headline:
-      'Eleven honor societies — the widest span in this comparison, reaching social studies, mathematics, English, journalism, three arts and three world languages.',
+      'Twelve honor societies — the widest span in this comparison, reaching social studies, mathematics, English, journalism, three arts and three world languages.',
     subhead:
       'These are outcomes of achievement elsewhere in the program — a student earns their way in; nobody signs up.',
     societies: [
       {
         name: 'Cum Laude Society',
         division: 'Upper School',
-        recognizes: 'Overall academic excellence · chapter awarded in 2005',
+        recognizes: 'Overall academic excellence',
         feedsFrom: 'the classroom',
       },
       {
@@ -205,6 +205,12 @@ export const cannon: ClubsProgram = {
         recognizes: 'Spanish language achievement',
         feedsFrom: 'world languages',
       },
+      {
+        name: 'National Honor Society',
+        division: 'Upper School',
+        recognizes: 'The national high-school honor society · chapter awarded in 2025',
+        feedsFrom: 'the classroom',
+      },
     ],
     flags: [
       {
@@ -213,12 +219,12 @@ export const cannon: ClubsProgram = {
       },
       {
         kind: 'gap',
-        text: 'Cannon has no National Honor Society chapter — unusual for this set, and worth noting because Cum Laude appears to serve that role. No National Junior Honor Society or Science National Honor Society either.',
+        text: 'The National Honor Society chapter, awarded in 2025, appears on the 2026–27 profile but not yet on the Upper School page’s honor-society roster. No National Junior Honor Society or Science National Honor Society chapter is published.',
       },
     ],
     sources: [
-      { label: 'cannonschool.org — Upper School (the eleven-society roster)', url: UPPER_SCHOOL },
-      { label: '2025-26 Student Profile (Cum Laude chapter, 2005)', url: PROFILE_2526 },
+      { label: 'cannonschool.org — Upper School (eleven of the twelve societies, incl. Cum Laude)', url: UPPER_SCHOOL },
+      { label: '2026–27 Student Profile (National Honor Society chapter, 2025)', url: PROFILE_2627 },
     ],
   },
 }

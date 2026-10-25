@@ -133,3 +133,16 @@ Grade-by-grade **College Planning Timeline** + a formal framework:
 - **TO VERIFY:** current-year profile PDF (SAT/ACT/GPA are Class of 2022); AP Honor Roll year
   (likely 2023); Xavier OH-vs-LA for the HBCU bucket; each ranked-bucket college against live
   US News.
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487268&type=d. Each address is published on the Guidance Staff page, as `mailto:` links beside each name. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Marsha Berry | berrym@carmelchristian.org |
+| Dan Gwilt | gwiltd@carmelchristian.org |
+| Clay Kessler | kesslerc@carmelchristian.org |
+| Logan Campbell | campbelll@carmelchristian.org |

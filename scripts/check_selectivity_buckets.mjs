@@ -113,6 +113,9 @@ const under = []
 const counts = []
 /** slug -> { nu75, lac75 } distinct-institution tallies. */
 const institutions = {}
+/** slug -> the years in `outcomes.collegesTitle` ("2023–2026"), or null if none. */
+const windows = {}
+const windowsDrift = []
 let entries = 0
 
 for (const file of files) {
@@ -148,6 +151,8 @@ for (const file of files) {
   }
 
   institutions[slug] = { nu75: distinct.nu75.size, lac75: distinct.lac75.size }
+  const yrs = String(program?.outcomes?.collegesTitle ?? '').match(/\d{4}(?:\s*[–+-]\s*\d{4})?/)
+  windows[slug] = yrs ? yrs[0] : null
 
   // Surfaces 1 and 2: the `buckets` row and any stat tile on the school page.
   // Ties make the band hold more than 75 institutions, so a saturated school
@@ -185,6 +190,18 @@ try {
     process.exit(2)
   }
   const KEYED = { 'bucket-nu75': 'nu75', 'bucket-lac75': 'lac75' }
+  // Every bucket row's second line names the acceptance window it counts, and
+  // must agree with the years on the school's own list title — or say none are
+  // published when the title carries no years.
+  for (const row of VALUE_METRICS) {
+    if (!String(row?.key ?? '').startsWith('bucket-')) continue
+    for (const slug of Object.keys(row?.values ?? {})) {
+      if (!(slug in windows) || row.values[slug] == null) continue
+      const sub = row?.subs?.[slug]
+      const want = windows[slug] ? `(${windows[slug]})` : '(years not published)'
+      if (sub !== want) windowsDrift.push({ slug, key: row.key, sub, want })
+    }
+  }
   for (const row of VALUE_METRICS) {
     const bucket = KEYED[row?.key]
     if (!bucket) continue
@@ -250,9 +267,16 @@ if (counts.length) {
   )
 }
 
-if (over.length || under.length || counts.length) {
+if (windowsDrift.length) {
+  console.log(`STALE WINDOW LABEL — a bucket cell's year line disagrees with the list title (${windowsDrift.length}):`)
+  for (const w of windowsDrift)
+    console.log(`  ✗ ${w.slug} · metricValues.ts ${w.key} subs reads ${JSON.stringify(w.sub ?? null)} but the list title gives ${w.want}`)
+  console.log('')
+}
+
+if (over.length || under.length || counts.length || windowsDrift.length) {
   console.log(
-    `check:buckets — ${over.length + under.length + counts.length} disagreement(s) across ` +
+    `check:buckets — ${over.length + under.length + counts.length + windowsDrift.length} disagreement(s) across ` +
       `${entries} colleges in ${files.length} schools.\n` +
       'The master collegeRankings.ts is authoritative: fix the `cats` array in\n' +
       'src/data/collegeSupportPrograms/<slug>.ts, never a rank in the master.',

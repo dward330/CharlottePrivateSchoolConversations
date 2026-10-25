@@ -176,6 +176,18 @@ try {
         counts.push({ slug, tier: row.label ?? row.key ?? 'Compare row', got: Number(m[1]), want,
           denom: m[2], where: 'metricValues.ts' })
     }
+    // The qual prose repeats the figure ("61 of the 68 Power Four …"). It drifted
+    // ungated on six schools until 2026-10-25 — the same lesson check:buckets
+    // learned for the Top-75 quals.
+    for (const [slug, q] of Object.entries(row?.quals ?? {})) {
+      const m = /(\d+) of the (68|107)\b/.exec(String(q?.text ?? ''))
+      if (!m) continue
+      const want = institutions[slug]?.[m[2] === '68' ? 'p4' : 'hbcu']
+      if (want === undefined) continue
+      if (Number(m[1]) !== want)
+        counts.push({ slug, tier: `${row.label ?? row.key ?? 'Compare row'} (qual prose)`,
+          got: Number(m[1]), want, denom: m[2], where: 'metricValues.ts' })
+    }
   }
 } catch (e) {
   console.error(`check:memberships — cannot import metricValues.ts: ${e.message}`)

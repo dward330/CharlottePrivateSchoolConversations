@@ -285,3 +285,14 @@ No percentile bands (25th/50th/75th) are published anywhere on either profile.
 - **Ranked-bucket colleges must carry US News rankLabels** (2023 list has Bowdoin, Claremont
   McKenna, Colgate, Grinnell, Oberlin, Pomona, Wake Forest, Washington & Lee, etc.) — copy from
   `_shared` table at ingest, never re-type; `check:ranks` enforces.
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.hgchristian.org/about-us/our-staff. Each address is published on the Our Staff directory, searched by surname (`?const_search_keyword=<surname>`), rendered by `FS.util.insertEmail` and decoded by reversing the two strings. Dr. Mildred Similton is listed there as "Administrator of Educational Student Services"; the other Similton in the directory (Dale, Physical Education) is a different person. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Tracey Bennett | traceybennett@hgchristian.org |
+| Dr. Mildred Similton | mildredsimilton@hgchristian.org |
