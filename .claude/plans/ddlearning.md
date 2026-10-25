@@ -665,6 +665,25 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
     - NS: "Psychoeducational evaluation".
   - Its sources are `[LEC, FORM]`, and the headline was rewritten.
   - The rule is in the README, the skill's scoring table and `SKILLS.md`.
-  - **Open:** Cannon's Testing card still has an "Entrance evaluations" entry, which
-    breaks the new rule. It is out of this plan's scope and has been raised with the
-    user.
+  - **Applied to every shipped school (user request, 2026-10-25).** This goes beyond the
+    plan's "no change to Hickory Grove's or Cannon's file".
+    - **Cannon:** removed "Entrance evaluations" (`entries[2]`) and dropped `APPLY` from
+      `testing.sources`. College Board / ACT accommodations stays, because it serves
+      students who have a Learning Plan.
+    - **Hickory Grove:** removed "Entrance testing" (`entries[2]`, its last entry).
+      "Results at admission" stays, because it asks for an existing IEP, 504 or
+      evaluation.
+    - Both schools' Services "Entrance testing" rows already hold the same facts.
+  - **Overlay surgery, no new translation.** In all nine
+    `work/learning-support.<lang>.json` files:
+    - the four removed `at` paths were dropped, removing three entries; Hickory Grove's
+      "Entrance testing" title survives because its Services row shares it;
+    - Cannon's `testing.entries[3].*` was re-pathed to `[2]` (memory
+      `overlay-at-paths-go-stale-on-row-delete`);
+    - the files were confirmed to round-trip byte-identically first, and 0 duplicate
+      `at` paths remain.
+
+    The overlays were rebuilt with `i18n:build`. `check:live` shows no learning-support
+    finding, and `check:runtime` and `check:sepdrift` (es/fa/hi) are clean. In Chrome,
+    Cannon and Hickory Grove in en/es/fa/hi render the remaining entries translated, in
+    order.

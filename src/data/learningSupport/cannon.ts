@@ -323,16 +323,11 @@ export const cannon: LearningSupportProgram = {
       },
       {
         code: 'IH',
-        title: 'Entrance evaluations',
-        text: 'Admission decisions draw on “entrance testing results,” among other things; the checklist may include an Entrance Evaluation and a Readiness Evaluation.',
-      },
-      {
-        code: 'IH',
         title: 'College Board and ACT accommodations',
         text: 'For juniors and seniors, “additional guidance is offered to help navigate the process of requesting testing accommodations from the College Board and ACT,” once a Learning Plan has been in place for at least four months.',
       },
     ],
-    sources: [POLICY, LSP, APPLY],
+    sources: [POLICY, LSP],
   },
 
   staff: {

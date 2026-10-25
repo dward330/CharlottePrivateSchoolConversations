@@ -299,11 +299,6 @@ export const hickoryGroveChristian: LearningSupportProgram = {
         title: 'Results at admission',
         text: 'Both admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable, and the final decision includes a “Review of IEP/504/Psychoeducational Evaluation.”',
       },
-      {
-        code: 'IH',
-        title: 'Entrance testing',
-        text: 'Testing for admission is scheduled through the Student Services office after the admissions office receives every required form.',
-      },
     ],
     sources: [ESS, CHECKLIST_ES, CHECKLIST_MHS],
   },
