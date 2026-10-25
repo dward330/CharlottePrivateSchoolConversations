@@ -3253,3 +3253,32 @@ checker check.**
 **Chrome.** Delivery codes are translated as short words (es `INTERNO · PAGO`, hi
 `स्कूल में`). The `ls-h` / `ls-cell-title` / `ls-group-name` / `ls-code` classes were
 added to the non-Latin `letter-spacing: 0` list.
+
+## Learning Support — Davidson Day (`ddlearning`) — Phase 2, 2026-10-25
+
+Third Learning Support school. 93 new learning-support strings plus 3 swapped
+college-support strings per locale were spliced in (`i18n_splice_work.mjs`, 0
+learning-support dropped, 3 college-support retired), then written as stamp→translation
+maps and applied by stamp.
+
+**fa/ar ranges are worded in advance, not after a browser finding.** `3-4 students` is
+`3 تا 4` (fa) and `3 إلى 4` / `من 3 إلى 4` (ar). The admission grade bands
+`2nd–4th Grade` / `5th–12th Grade` / `Junior Kindergarten–1st Grade` are ordinal words
+(fa `پایه‌های دوم تا چهارم`, ar `من الصف الثاني حتى الرابع`). The summer date range is
+`از 1 ژوئن تا 30 ژوئیهٔ 2026` / `من 1 يونيو حتى 30 يوليو 2026`. `2026-2027` and `2026-27`
+stay as figures because the year range gets the render-time isolate. Glyph x-positions in
+Chrome showed every learning-support range drawn in order, in both locales. Three reversed
+ranges do show in Davidson Day's College Support area (`93–100`, `25-26`, `2021–2025`).
+They are older strings this pass did not touch, so they were left as they were.
+
+**Kept Latin:** `Learning Enrichment Center`, `LEC`, `Patriot Account`,
+`Speech Techniques`, `Integrative Wellness`, `Gesell Readiness Assessment`, `ISEE`,
+`Personalized Exploration (Enrichment)`, `Academic Coaching` (the page's own capitalised
+programme name, inside a quote), the subject list `Language Arts, Math, Science, Social
+Studies, and/or Foreign Language` (the school's own course names, inside a quote),
+`Orton-Gillingham` and `Wilson`. Job titles translate, including `Director of Learning
+Services` and the quoted `Director of Curriculum`.
+
+**Gender.** Staff roles use slash or neutral forms (es `Director/a`, fr `Directeur(rice)`,
+it `Responsabile`, ar `مدير/ة`). The one gendered form follows the English: the staff note
+says the summer letter "signs him", so that sentence uses a masculine pronoun.

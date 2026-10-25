@@ -72,7 +72,8 @@
       "text": "school counselors",
       "of": "83d116a4",
       "at": [
-        "cannon:stats[3].label"
+        "cannon:stats[3].label",
+        "davidson-day:stats[3].label"
       ],
       "t": "مرشدون مدرسيون"
     },
@@ -252,6 +253,7 @@
       "of": "b050d84b",
       "at": [
         "cannon:services.groups[0].name",
+        "davidson-day:services.groups[0].name",
         "hickory-grove-christian:services.groups[0].name"
       ],
       "t": "الدعم الأكاديمي ودعم التعلّم"
@@ -261,6 +263,7 @@
       "of": "04298f91",
       "at": [
         "cannon:services.groups[0].rows[0].service",
+        "davidson-day:services.groups[0].rows[0].service",
         "hickory-grove-christian:services.groups[0].rows[0].service"
       ],
       "t": "معلمون متخصصون"
@@ -278,6 +281,7 @@
       "of": "18b7d3f0",
       "at": [
         "cannon:services.groups[0].rows[1].service",
+        "davidson-day:services.groups[0].rows[1].service",
         "hickory-grove-christian:services.groups[0].rows[1].service"
       ],
       "t": "التدخّل في القراءة"
@@ -295,6 +299,7 @@
       "of": "9fc9f294",
       "at": [
         "cannon:services.groups[0].rows[2].service",
+        "davidson-day:services.groups[0].rows[2].service",
         "hickory-grove-christian:services.groups[0].rows[2].service"
       ],
       "t": "التدخّل في الرياضيات"
@@ -311,7 +316,8 @@
       "text": "1:1 / small-group instruction",
       "of": "c8ed8f2d",
       "at": [
-        "cannon:services.groups[0].rows[3].service"
+        "cannon:services.groups[0].rows[3].service",
+        "davidson-day:services.groups[0].rows[3].service"
       ],
       "t": "تعليم 1:1 / في مجموعات صغيرة"
     },
@@ -344,6 +350,7 @@
       "of": "7e3c07fa",
       "at": [
         "cannon:services.groups[0].rows[5].service",
+        "davidson-day:services.groups[0].rows[5].service",
         "hickory-grove-christian:services.groups[0].rows[5].service"
       ],
       "t": "التدريب على الوظائف التنفيذية"
@@ -360,7 +367,8 @@
       "text": "Learning-support class",
       "of": "fd470495",
       "at": [
-        "cannon:services.groups[0].rows[6].service"
+        "cannon:services.groups[0].rows[6].service",
+        "davidson-day:services.groups[0].rows[6].service"
       ],
       "t": "صف لدعم التعلّم"
     },
@@ -376,7 +384,8 @@
       "text": "Accommodations & learning plan",
       "of": "c65478ab",
       "at": [
-        "cannon:services.groups[0].rows[7].service"
+        "cannon:services.groups[0].rows[7].service",
+        "davidson-day:services.groups[0].rows[7].service"
       ],
       "t": "التيسيرات وخطة التعلّم"
     },
@@ -393,6 +402,7 @@
       "of": "0add9126",
       "at": [
         "cannon:services.groups[0].rows[8].service",
+        "davidson-day:services.groups[0].rows[8].service",
         "hickory-grove-christian:services.groups[0].rows[8].service"
       ],
       "t": "تعليم مصمَّم خصيصًا"
@@ -410,6 +420,7 @@
       "of": "2586e367",
       "at": [
         "cannon:services.groups[0].rows[9].service",
+        "davidson-day:services.groups[0].rows[9].service",
         "hickory-grove-christian:services.groups[0].rows[9].service"
       ],
       "t": "برنامج مستقل / صف منفصل"
@@ -427,6 +438,7 @@
       "of": "2de5aed3",
       "at": [
         "cannon:services.groups[0].rows[10].service",
+        "davidson-day:services.groups[0].rows[10].service",
         "hickory-grove-christian:services.groups[0].rows[10].service"
       ],
       "t": "الموهوبون / المستوى المتقدّم"
@@ -444,6 +456,7 @@
       "of": "4702441c",
       "at": [
         "cannon:services.groups[0].rows[11].service",
+        "davidson-day:services.groups[0].rows[11].service",
         "hickory-grove-christian:services.groups[0].rows[11].service"
       ],
       "t": "مستندات الأهلية"
@@ -461,6 +474,7 @@
       "of": "832d48e5",
       "at": [
         "cannon:services.groups[1].name",
+        "davidson-day:services.groups[1].name",
         "hickory-grove-christian:services.groups[1].name"
       ],
       "t": "العلاجات والخدمات المرتبطة"
@@ -470,6 +484,7 @@
       "of": "b37d3705",
       "at": [
         "cannon:services.groups[1].rows[0].service",
+        "davidson-day:services.groups[1].rows[0].service",
         "hickory-grove-christian:services.groups[1].rows[0].service"
       ],
       "t": "علاج النطق واللغة"
@@ -487,6 +502,7 @@
       "of": "e216f28e",
       "at": [
         "cannon:services.groups[1].rows[1].service",
+        "davidson-day:services.groups[1].rows[1].service",
         "hickory-grove-christian:services.groups[1].rows[1].service"
       ],
       "t": "العلاج الوظيفي"
@@ -497,6 +513,7 @@
       "at": [
         "cannon:services.groups[1].rows[1].detail",
         "cannon:services.groups[1].rows[2].detail",
+        "davidson-day:services.groups[1].rows[2].detail",
         "hickory-grove-christian:services.groups[1].rows[0].detail",
         "hickory-grove-christian:services.groups[1].rows[1].detail",
         "hickory-grove-christian:services.groups[1].rows[2].detail"
@@ -508,6 +525,7 @@
       "of": "2ab8c569",
       "at": [
         "cannon:services.groups[1].rows[2].service",
+        "davidson-day:services.groups[1].rows[2].service",
         "hickory-grove-christian:services.groups[1].rows[2].service"
       ],
       "t": "العلاج الطبيعي"
@@ -517,6 +535,7 @@
       "of": "7f464e4f",
       "at": [
         "cannon:services.groups[2].name",
+        "davidson-day:services.groups[2].name",
         "hickory-grove-christian:services.groups[2].name"
       ],
       "t": "التقييم"
@@ -525,7 +544,8 @@
       "text": "Early identification (JK–2)",
       "of": "cfb1f75f",
       "at": [
-        "cannon:services.groups[2].rows[0].service"
+        "cannon:services.groups[2].rows[0].service",
+        "davidson-day:services.groups[2].rows[0].service"
       ],
       "t": "الاكتشاف المبكر (JK–2)"
     },
@@ -542,6 +562,7 @@
       "of": "c0f1a794",
       "at": [
         "cannon:services.groups[2].rows[1].service",
+        "davidson-day:services.groups[2].rows[1].service",
         "hickory-grove-christian:services.groups[2].rows[0].service"
       ],
       "t": "تسهيلات الاختبارات"
@@ -559,6 +580,7 @@
       "of": "3e1537ff",
       "at": [
         "cannon:services.groups[2].rows[2].service",
+        "davidson-day:services.groups[2].rows[2].service",
         "hickory-grove-christian:services.groups[2].rows[1].service"
       ],
       "t": "اختبارات القبول"
@@ -576,6 +598,8 @@
       "of": "69f00356",
       "at": [
         "cannon:services.groups[2].rows[3].service",
+        "davidson-day:services.groups[2].rows[3].service",
+        "davidson-day:testing.entries[2].title",
         "hickory-grove-christian:services.groups[2].rows[2].service"
       ],
       "t": "التقييم النفسي التربوي"
@@ -593,6 +617,7 @@
       "of": "92456e4a",
       "at": [
         "cannon:services.groups[3].name",
+        "davidson-day:services.groups[3].name",
         "hickory-grove-christian:services.groups[3].name"
       ],
       "t": "العافية والصحة"
@@ -602,6 +627,7 @@
       "of": "0613b801",
       "at": [
         "cannon:services.groups[3].rows[0].service",
+        "davidson-day:services.groups[3].rows[0].service",
         "hickory-grove-christian:services.groups[3].rows[0].service"
       ],
       "t": "الإرشاد والدعم العاطفي"
@@ -619,6 +645,7 @@
       "of": "a9f79269",
       "at": [
         "cannon:services.groups[3].rows[1].service",
+        "davidson-day:services.groups[3].rows[2].service",
         "hickory-grove-christian:services.groups[3].rows[1].service"
       ],
       "t": "التدخّل العاطفي والسلوكي"
@@ -636,6 +663,7 @@
       "of": "e074ef65",
       "at": [
         "cannon:services.groups[3].rows[2].service",
+        "davidson-day:services.groups[3].rows[3].service",
         "hickory-grove-christian:services.groups[3].rows[2].service"
       ],
       "t": "موارد الأزمات"
@@ -653,6 +681,7 @@
       "of": "61585e81",
       "at": [
         "cannon:services.groups[3].rows[3].service",
+        "davidson-day:services.groups[3].rows[4].service",
         "hickory-grove-christian:services.groups[3].rows[3].service"
       ],
       "t": "أخصائي نفسي مدرسي"
@@ -662,6 +691,7 @@
       "of": "59c2d1bc",
       "at": [
         "cannon:services.groups[3].rows[3].detail",
+        "davidson-day:services.groups[3].rows[4].detail",
         "hickory-grove-christian:services.groups[3].rows[3].detail",
         "hickory-grove-christian:services.groups[3].rows[4].detail"
       ],
@@ -672,6 +702,7 @@
       "of": "cf02f710",
       "at": [
         "cannon:services.groups[3].rows[4].service",
+        "davidson-day:services.groups[3].rows[5].service",
         "hickory-grove-christian:services.groups[3].rows[4].service"
       ],
       "t": "ممرّض مدرسي"
@@ -689,6 +720,7 @@
       "of": "9a73db9b",
       "at": [
         "cannon:services.groups[4].name",
+        "davidson-day:services.groups[4].name",
         "hickory-grove-christian:services.groups[4].name"
       ],
       "t": "اللغة"
@@ -698,6 +730,7 @@
       "of": "ffd3df8c",
       "at": [
         "cannon:services.groups[4].rows[0].service",
+        "davidson-day:services.groups[4].rows[0].service",
         "hickory-grove-christian:services.groups[4].rows[0].service"
       ],
       "t": "ESL / دعم اللغة الإنجليزية"
@@ -723,6 +756,7 @@
       "of": "d9f2c22c",
       "at": [
         "cannon:therapy.items[0].name",
+        "davidson-day:therapy.items[0].name",
         "hickory-grove-christian:therapy.items[0].name"
       ],
       "t": "النطق واللغة"
@@ -740,6 +774,7 @@
       "of": "a971a0b7",
       "at": [
         "cannon:therapy.items[1].name",
+        "davidson-day:therapy.items[1].name",
         "hickory-grove-christian:therapy.items[1].name"
       ],
       "t": "الوظيفي"
@@ -749,6 +784,7 @@
       "of": "d7c1ee80",
       "at": [
         "cannon:therapy.items[2].name",
+        "davidson-day:therapy.items[2].name",
         "hickory-grove-christian:therapy.items[2].name"
       ],
       "t": "الطبيعي"
@@ -999,7 +1035,8 @@
       "text": "Is any English-language (ESL) support offered?",
       "of": "4d801524",
       "at": [
-        "cannon:ask.questions[7]"
+        "cannon:ask.questions[7]",
+        "davidson-day:ask.questions[8]"
       ],
       "t": "هل يُقدَّم أي دعم في اللغة الإنجليزية (ESL)؟"
     },
@@ -1010,6 +1047,758 @@
         "cannon:ask.asOf"
       ],
       "t": "24 أكتوبر 2026"
+    },
+    {
+      "text": "Davidson Day’s Learning Enrichment Center “provides personalized, one-on-one instruction that supports students ages two through grade 12,” with tutoring, academic coaching, social skills groups, and speech and occupational therapy on campus.",
+      "of": "b395c82e",
+      "at": [
+        "davidson-day:lead.strong"
+      ],
+      "t": "يقدّم Learning Enrichment Center في Davidson Day «تعليمًا فرديًا مخصّصًا يدعم الطلاب من عمر سنتين حتى الصف 12»، مع دروس خصوصية وتدريب أكاديمي ومجموعات للمهارات الاجتماعية وعلاج النطق والعلاج الوظيفي داخل الحرم المدرسي."
+    },
+    {
+      "text": "Services are billed. The school publishes its summer rates, not its school-year rates.",
+      "of": "2222a64b",
+      "at": [
+        "davidson-day:lead.muted"
+      ],
+      "t": "هذه الخدمات مدفوعة. تنشر المدرسة أسعارها الصيفية، لا أسعار العام الدراسي."
+    },
+    {
+      "text": "LEC services",
+      "of": "08e313a9",
+      "at": [
+        "davidson-day:stats[0].label"
+      ],
+      "t": "خدمات LEC"
+    },
+    {
+      "text": "tutoring, academic coaching, social skills groups, speech-language therapy and occupational therapy",
+      "of": "372b1fd3",
+      "at": [
+        "davidson-day:stats[0].note"
+      ],
+      "t": "الدروس الخصوصية والتدريب الأكاديمي ومجموعات المهارات الاجتماعية وعلاج النطق واللغة والعلاج الوظيفي"
+    },
+    {
+      "text": "Learning Enrichment Center staff",
+      "of": "2a14b99f",
+      "at": [
+        "davidson-day:stats[1].label"
+      ],
+      "t": "من موظفي Learning Enrichment Center"
+    },
+    {
+      "text": "nine learning specialists, a director, a coordinator, a speech-language pathologist and a literacy coach",
+      "of": "535f6928",
+      "at": [
+        "davidson-day:stats[1].note"
+      ],
+      "t": "تسعة أخصائيي تعلّم، ومدير/ة، ومنسّق/ة، وأخصائي/ة أمراض النطق واللغة، ومدرّب/ة للقراءة والكتابة"
+    },
+    {
+      "text": "a 30-minute summer tutoring session",
+      "of": "3422d899",
+      "at": [
+        "davidson-day:stats[2].label"
+      ],
+      "t": "حصة دروس خصوصية صيفية مدتها 30 دقيقة"
+    },
+    {
+      "text": "summer 2026, billed to the family’s Patriot Account; school-year rates are not published",
+      "of": "29b520e9",
+      "at": [
+        "davidson-day:stats[2].note"
+      ],
+      "t": "صيف 2026، تُقيَّد على Patriot Account الخاص بالأسرة؛ أسعار العام الدراسي غير منشورة"
+    },
+    {
+      "text": "a Lower School Counselor and a Middle and Upper School Counselor, per the staff directory",
+      "of": "c6ca24f6",
+      "at": [
+        "davidson-day:stats[3].note"
+      ],
+      "t": "مرشد/ة في Lower School ومرشد/ة في Middle School وUpper School، بحسب دليل الموظفين"
+    },
+    {
+      "text": "The Learning Enrichment Center is open to students at every grade, by request. The school publishes no eligibility criteria and does not mention 504 plans or IEPs.",
+      "of": "fcef74df",
+      "at": [
+        "davidson-day:eligibility.headline"
+      ],
+      "t": "Learning Enrichment Center متاح لطلاب جميع الصفوف، بناءً على طلب. لا تنشر المدرسة أي معايير للأهلية ولا تذكر خطط 504 أو IEP."
+    },
+    {
+      "text": "Each LEC service is “available to students at all grade levels,” and the center supports “students ages two through grade 12.” Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs.” The 2026-2027 request form asks for no diagnosis, evaluation or other documentation.",
+      "of": "ffa9f240",
+      "at": [
+        "davidson-day:eligibility.eligible"
+      ],
+      "t": "كل خدمة من خدمات LEC «متاحة للطلاب في جميع المراحل الدراسية»، ويدعم المركز «الطلاب من عمر سنتين حتى الصف 12». تقوم الأسر «بإرسال نموذج الطلب الخاص بنا»، ثم «سيتصل بكم» مدير/ة خدمات التعلّم «لمناقشة نوع الدعم الأكاديمي الذي يحتاجه طفلكم». لا يطلب نموذج الطلب لعام 2026-2027 أي تشخيص أو تقييم أو مستندات أخرى."
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans, IEPs or accommodations, and the LEC request form does not ask about them.",
+      "of": "cdb99699",
+      "at": [
+        "davidson-day:eligibility.plan"
+      ],
+      "t": "لا تذكر صفحات المدرسة خطط 504 أو IEP أو التيسيرات، ولا يسأل نموذج طلب LEC عنها."
+    },
+    {
+      "text": "The school’s pages do not say what the LEC does not provide. The one stated limit is on coaching: “Academic Coaching is more than ‘homework help’,” and “Students will likely have homework remaining after sessions.”",
+      "of": "75133422",
+      "at": [
+        "davidson-day:eligibility.scope"
+      ],
+      "t": "لا تقول صفحات المدرسة ما الذي لا يقدّمه LEC. الحدّ الوحيد المذكور يخصّ التدريب: «Academic Coaching أكثر من ”مساعدة في الواجبات“»، و«من المرجّح أن تبقى لدى الطلاب واجبات بعد الحصص»."
+    },
+    {
+      "text": "Admission asks for “current transcripts and teacher recommendations,” and the school says it “does not discriminate on the basis of” disability, among other categories.",
+      "of": "23e68444",
+      "at": [
+        "davidson-day:eligibility.note"
+      ],
+      "t": "يطلب القبول «كشوف الدرجات الحالية وتوصيات المعلّمين»، وتقول المدرسة إنها «لا تميّز على أساس» الإعاقة، ضمن فئات أخرى."
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. LEC services are billed; the school publishes its summer 2026 rates but not its school-year rates. Pick your child’s need to see what applies.",
+      "of": "37bff001",
+      "at": [
+        "davidson-day:services.headline"
+      ],
+      "t": "كل خدمة تصفها صفحات المدرسة، مجمّعة ومرمّزة بحسب الجهة التي تقدّمها. خدمات LEC مدفوعة؛ تنشر المدرسة أسعار صيف 2026 لكنها لا تنشر أسعار العام الدراسي. اختاروا احتياج طفلكم لرؤية ما ينطبق."
+    },
+    {
+      "text": "One-on-one tutoring for reading, plus a Lower School literacy coach and reading specialist. No reading method is named.",
+      "of": "a50298f5",
+      "at": [
+        "davidson-day:services.verdicts.read.head"
+      ],
+      "t": "دروس خصوصية فردية في القراءة، إضافة إلى مدرّب/ة للقراءة والكتابة وأخصائي/ة قراءة في Lower School. لا تُذكر أي طريقة لتعليم القراءة."
+    },
+    {
+      "text": "LEC tutoring can “address specific academic difficulties (reading fluency and comprehension or math skills).” Ask which reading approach the specialists use.",
+      "of": "f7bc891f",
+      "at": [
+        "davidson-day:services.verdicts.read.body"
+      ],
+      "t": "يمكن لدروس LEC الخصوصية «معالجة صعوبات أكاديمية محددة (طلاقة القراءة والفهم أو مهارات الرياضيات)». اسألوا عن نهج القراءة الذي يستخدمه الأخصائيون."
+    },
+    {
+      "text": "One-on-one academic coaching for executive function, at every grade.",
+      "of": "98813a61",
+      "at": [
+        "davidson-day:services.verdicts.attn.head"
+      ],
+      "t": "تدريب أكاديمي فردي على الوظائف التنفيذية، في جميع الصفوف."
+    },
+    {
+      "text": "Coaching helps students “develop organizational and time management skills, learning techniques, and self-advocacy,” and every Middle School student takes a study skills course each year.",
+      "of": "2512aa48",
+      "at": [
+        "davidson-day:services.verdicts.attn.body"
+      ],
+      "t": "يساعد التدريب الطلاب على «تطوير مهارات التنظيم وإدارة الوقت وأساليب التعلّم والدفاع عن الذات»، ويدرس كل طالب في Middle School مقررًا في مهارات الدراسة كل عام."
+    },
+    {
+      "text": "One-on-one math tutoring, by request.",
+      "of": "55c671b2",
+      "at": [
+        "davidson-day:services.verdicts.math.head"
+      ],
+      "t": "دروس خصوصية فردية في الرياضيات، بناءً على طلب."
+    },
+    {
+      "text": "LEC instructors give “review or remedial instruction” in subjects including Math, and tutoring “is often done during the school day, often during a study hall period.”",
+      "of": "7ae94c77",
+      "at": [
+        "davidson-day:services.verdicts.math.body"
+      ],
+      "t": "يقدّم مدرّسو LEC «تعليم مراجعة أو تعليمًا علاجيًا» في مواد منها الرياضيات، وتُقدَّم الدروس الخصوصية «غالبًا خلال اليوم الدراسي، وغالبًا في حصة دراسة»."
+    },
+    {
+      "text": "On campus during the school day, through a contracted provider.",
+      "of": "5e9adae9",
+      "at": [
+        "davidson-day:services.verdicts.speech.head"
+      ],
+      "t": "داخل الحرم المدرسي خلال اليوم الدراسي، عبر مقدّم خدمة متعاقد."
+    },
+    {
+      "text": "“Davidson Day School has a contract with Speech Techniques to provide speech-language services on campus during the school day,” with sessions “typically lasting 30-minutes.”",
+      "of": "387bbfef",
+      "at": [
+        "davidson-day:services.verdicts.speech.body"
+      ],
+      "t": "«لدى Davidson Day School عقد مع Speech Techniques لتقديم خدمات النطق واللغة داخل الحرم المدرسي خلال اليوم الدراسي»، بحصص «تستغرق عادةً 30 دقيقة»."
+    },
+    {
+      "text": "Occupational therapy on campus through a contracted provider. No physical therapy is listed.",
+      "of": "828a5512",
+      "at": [
+        "davidson-day:services.verdicts.motor.head"
+      ],
+      "t": "علاج وظيفي داخل الحرم المدرسي عبر مقدّم خدمة متعاقد. العلاج الطبيعي غير مدرج."
+    },
+    {
+      "text": "Integrative Wellness provides OT “on campus during the school day as an additional service,” for “handwriting, visual-motor integration, sensory processing, social skills, and other fine motor skills.”",
+      "of": "65f433db",
+      "at": [
+        "davidson-day:services.verdicts.motor.body"
+      ],
+      "t": "تقدّم Integrative Wellness العلاج الوظيفي «داخل الحرم المدرسي خلال اليوم الدراسي كخدمة إضافية»، من أجل «الكتابة اليدوية والتكامل البصري الحركي والمعالجة الحسية والمهارات الاجتماعية وغيرها من المهارات الحركية الدقيقة»."
+    },
+    {
+      "text": "Social skills groups led by an occupational therapist, and two school counselors.",
+      "of": "fb962c41",
+      "at": [
+        "davidson-day:services.verdicts.social.head"
+      ],
+      "t": "مجموعات للمهارات الاجتماعية يقودها/تقودها أخصائي/ة علاج وظيفي، ومرشدان/مرشدتان في المدرسة."
+    },
+    {
+      "text": "Groups of “3-4 students, grouped by age and goal areas” meet weekly for 30 minutes. The directory lists a Lower School Counselor and a Middle and Upper School Counselor.",
+      "of": "57c24541",
+      "at": [
+        "davidson-day:services.verdicts.social.body"
+      ],
+      "t": "تجتمع مجموعات من «3 إلى 4 طلاب، مقسّمين بحسب العمر ومجالات الأهداف» أسبوعيًا لمدة 30 دقيقة. يذكر الدليل مرشد/ة في Lower School ومرشد/ة في Middle School وUpper School."
+    },
+    {
+      "text": "Upper School courses for ready Middle Schoolers, and an enrichment option in the LEC. No formal gifted program.",
+      "of": "f610d19d",
+      "at": [
+        "davidson-day:services.verdicts.gifted.head"
+      ],
+      "t": "مقررات من Upper School لطلاب Middle School المستعدّين، وخيار إثرائي في LEC. لا يوجد برنامج رسمي للموهوبين."
+    },
+    {
+      "text": "Middle Schoolers “ready to learn at the next level” can take world language and mathematics in the Upper School, and the LEC request form offers “Personalized Exploration (Enrichment) focused on student's passions and curiosities.”",
+      "of": "78c314b9",
+      "at": [
+        "davidson-day:services.verdicts.gifted.body"
+      ],
+      "t": "يمكن لطلاب Middle School «المستعدّين للتعلّم في المستوى التالي» دراسة اللغات الأجنبية والرياضيات في Upper School، ويقدّم نموذج طلب LEC «Personalized Exploration (Enrichment) تركّز على شغف الطالب وفضوله»."
+    },
+    {
+      "text": "Nine Learning Specialists, a Lower School Literacy Coach and a Director of Learning Services staff the LEC; the directory also lists a Lower School Reading Specialist.",
+      "of": "0dd1651c",
+      "at": [
+        "davidson-day:services.groups[0].rows[0].detail"
+      ],
+      "t": "يتكوّن طاقم LEC من تسعة أخصائيي تعلّم ومدرّب/ة للقراءة والكتابة في Lower School ومدير/ة لخدمات التعلّم؛ ويذكر الدليل أيضًا أخصائي/ة قراءة في Lower School."
+    },
+    {
+      "text": "One-on-one tutoring can “address specific academic difficulties (reading fluency and comprehension or math skills).” No method (e.g., Orton-Gillingham, structured literacy) is named.",
+      "of": "806b159d",
+      "at": [
+        "davidson-day:services.groups[0].rows[1].detail"
+      ],
+      "t": "يمكن للدروس الخصوصية الفردية «معالجة صعوبات أكاديمية محددة (طلاقة القراءة والفهم أو مهارات الرياضيات)». لا تُذكر أي طريقة (مثل Orton-Gillingham أو تعليم القراءة المنظّم)."
+    },
+    {
+      "text": "One-on-one tutoring in “math skills,” as part of LEC tutoring.",
+      "of": "a8649a28",
+      "at": [
+        "davidson-day:services.groups[0].rows[2].detail"
+      ],
+      "t": "دروس خصوصية فردية في «مهارات الرياضيات»، ضمن دروس LEC الخصوصية."
+    },
+    {
+      "text": "LEC instructors “meet with students in a one-on-one setting for one or more sessions per week.” The only small groups are the social skills groups, of “3-4 students.”",
+      "of": "8e881b9d",
+      "at": [
+        "davidson-day:services.groups[0].rows[3].detail"
+      ],
+      "t": "يلتقي مدرّسو LEC «بالطلاب بشكل فردي في حصة واحدة أو أكثر أسبوعيًا». المجموعات الصغيرة الوحيدة هي مجموعات المهارات الاجتماعية، من «3 إلى 4 طلاب»."
+    },
+    {
+      "text": "Subject tutoring",
+      "of": "72507ea1",
+      "at": [
+        "davidson-day:services.groups[0].rows[4].service"
+      ],
+      "t": "دروس خصوصية في المواد"
+    },
+    {
+      "text": "Sessions provide “review or remedial instruction in a specific subject area (Language Arts, Math, Science, Social Studies, and/or Foreign Language),” often “during a study hall period.”",
+      "of": "08793cd9",
+      "at": [
+        "davidson-day:services.groups[0].rows[4].detail"
+      ],
+      "t": "تقدّم الحصص «تعليم مراجعة أو تعليمًا علاجيًا في مادة محددة (Language Arts أو Math أو Science أو Social Studies و/أو Foreign Language)»، وغالبًا «خلال حصة دراسة»."
+    },
+    {
+      "text": "Academic coaching builds “organizational and time management skills, learning techniques, and self-advocacy.” It “is more than ‘homework help’.”",
+      "of": "440c6294",
+      "at": [
+        "davidson-day:services.groups[0].rows[5].detail"
+      ],
+      "t": "يبني التدريب الأكاديمي «مهارات التنظيم وإدارة الوقت وأساليب التعلّم والدفاع عن الذات». وهو «أكثر من ”مساعدة في الواجبات“»."
+    },
+    {
+      "text": "No learning-support class is described, but “every Middle School student takes a study skills course each year.”",
+      "of": "0c4efb51",
+      "at": [
+        "davidson-day:services.groups[0].rows[6].detail"
+      ],
+      "t": "لا يوصف أي صف لدعم التعلّم، لكن «كل طالب في Middle School يدرس مقررًا في مهارات الدراسة كل عام»."
+    },
+    {
+      "text": "Not described. The LEC’s learning specialists “will have direct contact with the classroom teacher,” and families get a weekly email.",
+      "of": "12bb63a9",
+      "at": [
+        "davidson-day:services.groups[0].rows[7].detail"
+      ],
+      "t": "غير موصوف. سيكون أخصائيو التعلّم في LEC «على تواصل مباشر مع معلّم الصف»، وتتلقى الأسر بريدًا إلكترونيًا أسبوعيًا."
+    },
+    {
+      "text": "Not described. LEC lesson plans are individualized tutoring, not a modified curriculum.",
+      "of": "61067604",
+      "at": [
+        "davidson-day:services.groups[0].rows[8].detail"
+      ],
+      "t": "غير موصوف. خطط حصص LEC هي دروس خصوصية فردية، لا منهج معدّل."
+    },
+    {
+      "text": "No separate program described.",
+      "of": "049eeace",
+      "at": [
+        "davidson-day:services.groups[0].rows[9].detail"
+      ],
+      "t": "لا يوصف أي برنامج منفصل."
+    },
+    {
+      "text": "Middle Schoolers can take Upper School world language and math; the LEC request form offers “Personalized Exploration (Enrichment).” No formal gifted program.",
+      "of": "5099bff7",
+      "at": [
+        "davidson-day:services.groups[0].rows[10].detail"
+      ],
+      "t": "يمكن لطلاب Middle School دراسة اللغات الأجنبية والرياضيات في Upper School؛ ويقدّم نموذج طلب LEC «Personalized Exploration (Enrichment)». لا يوجد برنامج رسمي للموهوبين."
+    },
+    {
+      "text": "None asked. The LEC request form asks for grade, services, goals and frequency; admission asks for “current transcripts and teacher recommendations.”",
+      "of": "03846ec3",
+      "at": [
+        "davidson-day:services.groups[0].rows[11].detail"
+      ],
+      "t": "لا يُطلب شيء. يسأل نموذج طلب LEC عن الصف والخدمات والأهداف وعدد المرات؛ ويطلب القبول «كشوف الدرجات الحالية وتوصيات المعلّمين»."
+    },
+    {
+      "text": "Summer tutoring & therapy",
+      "of": "e77f9ca7",
+      "at": [
+        "davidson-day:services.groups[0].rows[12].service"
+      ],
+      "t": "الدروس الخصوصية والعلاج في الصيف"
+    },
+    {
+      "text": "June 1 to July 30, 2026: tutoring $47 for 30 minutes, $63 for 40 and $78 for 50; occupational therapy $160 for a 60-minute session; speech therapy $80 for a 30-minute session, all “billed directly to your Patriot Account.”",
+      "of": "c0be7bec",
+      "at": [
+        "davidson-day:services.groups[0].rows[12].detail"
+      ],
+      "t": "من 1 يونيو حتى 30 يوليو 2026: الدروس الخصوصية بـ$47 مقابل 30 دقيقة، و$63 مقابل 40، و$78 مقابل 50؛ العلاج الوظيفي بـ$160 لحصة مدتها 60 دقيقة؛ علاج النطق بـ$80 لحصة مدتها 30 دقيقة، وكلها «تُقيَّد مباشرةً على Patriot Account الخاص بكم»."
+    },
+    {
+      "text": "Through a contract with Speech Techniques, “on campus during the school day,” one-on-one, with sessions “typically lasting 30-minutes.”",
+      "of": "7ce6d7bc",
+      "at": [
+        "davidson-day:services.groups[1].rows[0].detail"
+      ],
+      "t": "عبر عقد مع Speech Techniques، «داخل الحرم المدرسي خلال اليوم الدراسي»، بشكل فردي، بحصص «تستغرق عادةً 30 دقيقة»."
+    },
+    {
+      "text": "Through a contract with Integrative Wellness, “on campus during the school day as an additional service,” one-on-one.",
+      "of": "9160e879",
+      "at": [
+        "davidson-day:services.groups[1].rows[1].detail"
+      ],
+      "t": "عبر عقد مع Integrative Wellness، «داخل الحرم المدرسي خلال اليوم الدراسي كخدمة إضافية»، بشكل فردي."
+    },
+    {
+      "text": "No screening is described. The Gesell Readiness Assessment is an admission test.",
+      "of": "ce5c29a4",
+      "at": [
+        "davidson-day:services.groups[2].rows[0].detail"
+      ],
+      "t": "لا يوصف أي فحص مبكر. Gesell Readiness Assessment اختبار قبول."
+    },
+    {
+      "text": "Not described, for the ISEE or school exams.",
+      "of": "00e762c6",
+      "at": [
+        "davidson-day:services.groups[2].rows[1].detail"
+      ],
+      "t": "غير موصوفة، لا لاختبار ISEE ولا لامتحانات المدرسة."
+    },
+    {
+      "text": "The Gesell Readiness Assessment (Junior Kindergarten–1st Grade), a reading assessment plus the at-home ISEE (2nd–4th Grade), and the ISEE (5th–12th Grade).",
+      "of": "e96a4805",
+      "at": [
+        "davidson-day:services.groups[2].rows[2].detail"
+      ],
+      "t": "Gesell Readiness Assessment (من Junior Kindergarten حتى الصف الأول)، وتقييم للقراءة إضافة إلى ISEE في المنزل (من الصف الثاني حتى الرابع)، وISEE (من الصف الخامس حتى الثاني عشر)."
+    },
+    {
+      "text": "Not described: neither in-house testing nor a referral list.",
+      "of": "3dcd8e6f",
+      "at": [
+        "davidson-day:services.groups[2].rows[3].detail"
+      ],
+      "t": "غير موصوف: لا اختبارات داخل المدرسة ولا قائمة إحالة."
+    },
+    {
+      "text": "The directory lists a Lower School Counselor and a Middle and Upper School Counselor; “Social-emotional learning is a cornerstone of the Davidson Day Lower School experience.”",
+      "of": "435bf5f0",
+      "at": [
+        "davidson-day:services.groups[3].rows[0].detail"
+      ],
+      "t": "يذكر الدليل مرشد/ة في Lower School ومرشد/ة في Middle School وUpper School؛ «التعلّم الاجتماعي العاطفي حجر الزاوية في تجربة Lower School في Davidson Day»."
+    },
+    {
+      "text": "Social skills groups",
+      "of": "c66c34d4",
+      "at": [
+        "davidson-day:services.groups[3].rows[1].service"
+      ],
+      "t": "مجموعات المهارات الاجتماعية"
+    },
+    {
+      "text": "Groups are “led and directed by an occupational therapist,” for “3-4 students, grouped by age and goal areas,” meeting weekly for 30 minutes.",
+      "of": "4ebdf7b1",
+      "at": [
+        "davidson-day:services.groups[3].rows[1].detail"
+      ],
+      "t": "المجموعات «يقودها ويديرها معالج وظيفي»، وهي لـ«3 إلى 4 طلاب، مقسّمين بحسب العمر ومجالات الأهداف»، وتجتمع أسبوعيًا لمدة 30 دقيقة."
+    },
+    {
+      "text": "Not described beyond the social skills groups.",
+      "of": "43a08c62",
+      "at": [
+        "davidson-day:services.groups[3].rows[2].detail"
+      ],
+      "t": "غير موصوف بخلاف مجموعات المهارات الاجتماعية."
+    },
+    {
+      "text": "No crisis resources are published.",
+      "of": "acd8987c",
+      "at": [
+        "davidson-day:services.groups[3].rows[3].detail"
+      ],
+      "t": "لا توجد موارد منشورة للأزمات."
+    },
+    {
+      "text": "A School Nurse is listed in the staff directory.",
+      "of": "9dd19015",
+      "at": [
+        "davidson-day:services.groups[3].rows[5].detail"
+      ],
+      "t": "يُدرج دليل الموظفين ممرّض/ة للمدرسة."
+    },
+    {
+      "text": "Not described.",
+      "of": "ebfa96a5",
+      "at": [
+        "davidson-day:services.groups[4].rows[0].detail"
+      ],
+      "t": "غير موصوف."
+    },
+    {
+      "text": "Speech and occupational therapy are on campus during the school day through contracted providers, as billed LEC services. Physical therapy is not listed.",
+      "of": "18315155",
+      "at": [
+        "davidson-day:therapy.headline"
+      ],
+      "t": "يُقدَّم علاج النطق والعلاج الوظيفي داخل الحرم المدرسي خلال اليوم الدراسي عبر مقدّمي خدمة متعاقدين، كخدمات مدفوعة من LEC. العلاج الطبيعي غير مدرج."
+    },
+    {
+      "text": "Speech Techniques, on campus; sessions typically 30 minutes. Summer 2026: $80 a session.",
+      "of": "99c2c705",
+      "at": [
+        "davidson-day:therapy.items[0].detail"
+      ],
+      "t": "Speech Techniques، داخل الحرم المدرسي؛ الحصص عادةً 30 دقيقة. صيف 2026: $80 للحصة."
+    },
+    {
+      "text": "Integrative Wellness, on campus, “an additional service.” Summer 2026: $160 for a 60-minute session.",
+      "of": "75a8818b",
+      "at": [
+        "davidson-day:therapy.items[1].detail"
+      ],
+      "t": "Integrative Wellness، داخل الحرم المدرسي، «خدمة إضافية». صيف 2026: $160 لحصة مدتها 60 دقيقة."
+    },
+    {
+      "text": "Speech/Language Pathologist",
+      "of": "85178320",
+      "at": [
+        "davidson-day:therapy.people[0].role",
+        "davidson-day:staff.people[6].role"
+      ],
+      "t": "أخصائي/ة أمراض النطق واللغة"
+    },
+    {
+      "text": "The speech-language pathologist is on the LEC staff list. School-year therapy rates are shared with families before school starts and are not published.",
+      "of": "07ddf29a",
+      "at": [
+        "davidson-day:therapy.note"
+      ],
+      "t": "أخصائي/ة أمراض النطق واللغة مُدرج/ة في قائمة موظفي LEC. تُبلَّغ الأسر بأسعار العلاج للعام الدراسي قبل بدء الدراسة، وهي غير منشورة."
+    },
+    {
+      "text": "Davidson Day publishes no screening or evaluation for learning differences. A family asks for LEC support with a request form, and the Director of Learning Services follows up by phone.",
+      "of": "d175fef3",
+      "at": [
+        "davidson-day:testing.headline"
+      ],
+      "t": "لا تنشر Davidson Day أي فحص أو تقييم لفروق التعلّم. تطلب الأسرة دعم LEC عبر نموذج طلب، ويتابع مدير/ة خدمات التعلّم هاتفيًا."
+    },
+    {
+      "text": "Request and intake call",
+      "of": "8eacb147",
+      "at": [
+        "davidson-day:testing.entries[0].title"
+      ],
+      "t": "الطلب والمكالمة الأولى"
+    },
+    {
+      "text": "Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs and what type of tutoring services are available.”",
+      "of": "1fbfbf01",
+      "at": [
+        "davidson-day:testing.entries[0].text"
+      ],
+      "t": "تقوم الأسر «بإرسال نموذج الطلب الخاص بنا»، ثم «سيتصل بكم» مدير/ة خدمات التعلّم «لمناقشة نوع الدعم الأكاديمي الذي يحتاجه طفلكم وأنواع خدمات الدروس الخصوصية المتاحة»."
+    },
+    {
+      "text": "The 2026-2027 request form asks for no diagnosis, evaluation or other documentation.",
+      "of": "e77f70b3",
+      "at": [
+        "davidson-day:testing.entries[0].muted"
+      ],
+      "t": "لا يطلب نموذج الطلب لعام 2026-2027 أي تشخيص أو تقييم أو مستندات أخرى."
+    },
+    {
+      "text": "Screening for reading, math or attention",
+      "of": "2393a739",
+      "at": [
+        "davidson-day:testing.entries[1].title"
+      ],
+      "t": "الفحص في القراءة أو الرياضيات أو الانتباه"
+    },
+    {
+      "text": "The school does not describe any early identification or screening.",
+      "of": "78fb53eb",
+      "at": [
+        "davidson-day:testing.entries[1].text"
+      ],
+      "t": "لا تصف المدرسة أي اكتشاف مبكر أو فحص."
+    },
+    {
+      "text": "The school does not say whether it tests for learning differences, asks for an outside evaluation, or names evaluators.",
+      "of": "689389bb",
+      "at": [
+        "davidson-day:testing.entries[2].text"
+      ],
+      "t": "لا تقول المدرسة ما إذا كانت تختبر فروق التعلّم، أو تطلب تقييمًا خارجيًا، أو تسمّي مقيّمين."
+    },
+    {
+      "text": "Seventeen named staff: the 13-person Learning Enrichment Center, a Lower School reading specialist, two school counselors and the school nurse.",
+      "of": "e3f7f2a3",
+      "at": [
+        "davidson-day:staff.headline"
+      ],
+      "t": "سبعة عشر موظفًا بالاسم: طاقم Learning Enrichment Center المؤلف من 13 شخصًا، وأخصائي/ة قراءة في Lower School، ومرشدان/مرشدتان في المدرسة، وممرّض/ة المدرسة."
+    },
+    {
+      "text": "Learning Specialist",
+      "of": "ffb035a8",
+      "at": [
+        "davidson-day:staff.people[0].role",
+        "davidson-day:staff.people[1].role",
+        "davidson-day:staff.people[2].role",
+        "davidson-day:staff.people[3].role",
+        "davidson-day:staff.people[7].role",
+        "davidson-day:staff.people[8].role",
+        "davidson-day:staff.people[10].role",
+        "davidson-day:staff.people[12].role"
+      ],
+      "t": "أخصائي/ة تعلّم"
+    },
+    {
+      "text": "Director of Learning Services",
+      "of": "a1e702c4",
+      "at": [
+        "davidson-day:staff.people[4].role"
+      ],
+      "t": "مدير/ة خدمات التعلّم"
+    },
+    {
+      "text": "Learning Enrichment Center Coordinator",
+      "of": "404e56ff",
+      "at": [
+        "davidson-day:staff.people[5].role"
+      ],
+      "t": "منسّق/ة Learning Enrichment Center"
+    },
+    {
+      "text": "Lower School Literacy Coach",
+      "of": "fb947be5",
+      "at": [
+        "davidson-day:staff.people[9].role"
+      ],
+      "t": "مدرّب/ة القراءة والكتابة في Lower School"
+    },
+    {
+      "text": "Upper School Science Teacher & Learning Specialist",
+      "of": "ecdda98c",
+      "at": [
+        "davidson-day:staff.people[11].role"
+      ],
+      "t": "معلّم/ة العلوم في Upper School وأخصائي/ة تعلّم"
+    },
+    {
+      "text": "Lower School Reading Specialist",
+      "of": "e85b74db",
+      "at": [
+        "davidson-day:staff.people[13].role"
+      ],
+      "t": "أخصائي/ة القراءة في Lower School"
+    },
+    {
+      "text": "Lower School Counselor",
+      "of": "cca1ced8",
+      "at": [
+        "davidson-day:staff.people[14].role"
+      ],
+      "t": "مرشد/ة Lower School"
+    },
+    {
+      "text": "Middle and Upper School Counselor",
+      "of": "1efb6691",
+      "at": [
+        "davidson-day:staff.people[15].role"
+      ],
+      "t": "مرشد/ة Middle School وUpper School"
+    },
+    {
+      "text": "School Nurse",
+      "of": "4019d170",
+      "at": [
+        "davidson-day:staff.people[16].role"
+      ],
+      "t": "ممرّض/ة المدرسة"
+    },
+    {
+      "text": "Requests go to Dr. Chuck LaRusso, Director of Learning Services.",
+      "of": "565a2b4e",
+      "at": [
+        "davidson-day:staff.note.strong"
+      ],
+      "t": "تُوجَّه الطلبات إلى Dr. Chuck LaRusso، مدير خدمات التعلّم."
+    },
+    {
+      "text": "The school’s 2026 summer letter signs him “Director of Curriculum.”",
+      "of": "01b0caf8",
+      "at": [
+        "davidson-day:staff.note.muted"
+      ],
+      "t": "يرد توقيعه في رسالة المدرسة الصيفية لعام 2026 بصفة «مدير المناهج»."
+    },
+    {
+      "text": "Eleven questions to take on the tour, covering what the school’s site leaves unanswered: rates, prior plans, accommodations, methods, evaluation, therapy and staff.",
+      "of": "4859b0d4",
+      "at": [
+        "davidson-day:ask.headline"
+      ],
+      "t": "أحد عشر سؤالًا لطرحها خلال الزيارة، حول ما يتركه موقع المدرسة بلا إجابة: الأسعار، والخطط السابقة، والتيسيرات، والأساليب، والتقييم، والعلاج، والموظفون."
+    },
+    {
+      "text": "What are the 2026-27 rates for tutoring, academic coaching, social skills groups, speech and occupational therapy, and does financial aid cover any of them?",
+      "of": "7afecbac",
+      "at": [
+        "davidson-day:ask.questions[0]"
+      ],
+      "t": "ما أسعار 2026-27 للدروس الخصوصية والتدريب الأكاديمي ومجموعات المهارات الاجتماعية وعلاج النطق والعلاج الوظيفي، وهل تغطي المساعدة المالية أيًا منها؟"
+    },
+    {
+      "text": "How is a 504 plan, IEP or prior school’s accommodations plan handled when a student enrolls?",
+      "of": "d652a89f",
+      "at": [
+        "davidson-day:ask.questions[1]"
+      ],
+      "t": "كيف يُتعامل مع خطة 504 أو IEP أو خطة تيسيرات من مدرسة سابقة عند تسجيل الطالب؟"
+    },
+    {
+      "text": "Which classroom and testing accommodations do you provide, and do they apply to the ISEE and to school exams?",
+      "of": "bbb53d7f",
+      "at": [
+        "davidson-day:ask.questions[2]"
+      ],
+      "t": "ما التيسيرات التي تقدّمونها في الصف وفي الاختبارات، وهل تنطبق على ISEE وعلى امتحانات المدرسة؟"
+    },
+    {
+      "text": "Which reading method do the Literacy Coach, Reading Specialist and Learning Specialists use (e.g., Orton-Gillingham, Wilson, structured literacy)?",
+      "of": "0318fbe0",
+      "at": [
+        "davidson-day:ask.questions[3]"
+      ],
+      "t": "ما طريقة تعليم القراءة التي يستخدمها مدرّب/ة القراءة والكتابة وأخصائي/ة القراءة وأخصائيو التعلّم (مثل Orton-Gillingham أو Wilson أو تعليم القراءة المنظّم)؟"
+    },
+    {
+      "text": "Do you ever modify the curriculum, or is LEC support always tutoring alongside it?",
+      "of": "8ca31bac",
+      "at": [
+        "davidson-day:ask.questions[4]"
+      ],
+      "t": "هل تعدّلون المنهج أحيانًا، أم أن دعم LEC يكون دائمًا دروسًا خصوصية إلى جانبه؟"
+    },
+    {
+      "text": "Is there any screening for reading, math or attention, and who carries out psychoeducational evaluations? Do you keep a list of evaluators?",
+      "of": "55969e6e",
+      "at": [
+        "davidson-day:ask.questions[5]"
+      ],
+      "t": "هل يوجد أي فحص في القراءة أو الرياضيات أو الانتباه، ومن يُجري التقييمات النفسية التربوية؟ هل لديكم قائمة بالمقيّمين؟"
+    },
+    {
+      "text": "Is there a school psychologist, and what is the crisis protocol?",
+      "of": "997fa516",
+      "at": [
+        "davidson-day:ask.questions[6]"
+      ],
+      "t": "هل يوجد أخصائي/ة نفسي/ة في المدرسة، وما بروتوكول الأزمات؟"
+    },
+    {
+      "text": "Is physical therapy available on campus?",
+      "of": "07fdfedb",
+      "at": [
+        "davidson-day:ask.questions[7]"
+      ],
+      "t": "هل يتوفر العلاج الطبيعي داخل الحرم المدرسي؟"
+    },
+    {
+      "text": "Do Speech Techniques and Integrative Wellness bill families through the Patriot Account or directly, and can therapy be billed to insurance?",
+      "of": "23a2b744",
+      "at": [
+        "davidson-day:ask.questions[9]"
+      ],
+      "t": "هل تحاسب Speech Techniques وIntegrative Wellness الأسر عبر Patriot Account أم مباشرةً، وهل يمكن تحميل تكلفة العلاج على التأمين؟"
+    },
+    {
+      "text": "Is Dr. LaRusso the Director of Learning Services or the Director of Curriculum, and who oversees the LEC?",
+      "of": "e10e1a49",
+      "at": [
+        "davidson-day:ask.questions[10]"
+      ],
+      "t": "هل Dr. LaRusso مدير خدمات التعلّم أم مدير المناهج، ومن يشرف على LEC؟"
+    },
+    {
+      "text": "October 25, 2026",
+      "of": "e4693a96",
+      "at": [
+        "davidson-day:ask.asOf"
+      ],
+      "t": "25 أكتوبر 2026"
     },
     {
       "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
