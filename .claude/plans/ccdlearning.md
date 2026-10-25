@@ -158,9 +158,10 @@ Written during `/learning-support`, **uncommitted**, and committed by step 1:
 
 - Compare (the area stays in `COMPARE_DEFERRED_TOPICS`).
 - Any change to Cannon's, Hickory Grove's or Davidson Day's data files.
-- Changing the `/learning-support` skill's depth reference. Cannon stays the reference by
-  the user's 2026-10-24 decision, even though CCD is now richer. The GO bar is computed
-  from the thinnest school, so it is unaffected.
+- Changing the `/learning-support` skill's depth reference **in this PR**. The user
+  decided on 2026-10-25, after Phase 1, that CCD replaces Cannon as the reference. That
+  change ships as a **separate docs-only PR after this one merges** (step 13). The GO bar
+  is computed from the thinnest school, so it is unaffected.
 - Re-checking CCD's other research areas against these findings. If a contradiction
   surfaces (e.g. College Support citing the stale ERP wording), note it at the Phase 1
   stop and do not fix it here.
@@ -564,6 +565,31 @@ Two layers, two mechanisms:
     - add `## Implementation notes` for any deviation, and write the memory note.
 
     **Do not deploy.** End with "merged — ready to deploy whenever you want it".
+
+13. **Then switch the area's reference school: a separate, docs-only PR** (user decision,
+    2026-10-25, given after Phase 1). Branch `docs/ccdreference` from the freshly pulled
+    `main`. The new split:
+    - **Charlotte Country Day** is the **depth reference**. It is also the **fee-row
+      reference**, because its per-session rates ($82 for 45 minutes, $85 a session) are
+      published.
+    - **Hickory Grove** stays the reference **only for 504/IEP glossary markers**. CCD uses
+      neither term.
+    - Cannon is no longer a reference.
+    - **The GO/NO-GO bar is unchanged**: it is computed from the thinnest shipped school.
+    - Add a caveat everywhere the reference is named: CCD's 40 staff and 6 Testing entries
+      reflect how much that school publishes. The rule is "fill every field the school
+      publishes", never "match CCD's counts".
+
+    Update every place the reference is named:
+    - the "Learning Support research area" section of `CLAUDE.md`;
+    - `.claude/skills/learning-support/SKILL.md`;
+    - `.claude/SKILLS.md` (bump its `updated` date);
+    - `src/data/learningSupport/README.md`, if it names a reference;
+    - the memory note `learning-support-standard-split`.
+
+    `grep -rn "depth reference\|Cannon" ` over those files first. Then open the PR with
+    `--body-file`, squash-merge it, and pull `main`. No app code changes, nothing is
+    translated, and nothing is deployed.
 
 ## Files touched
 
