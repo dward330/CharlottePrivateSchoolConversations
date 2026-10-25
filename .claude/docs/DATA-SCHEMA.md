@@ -564,14 +564,21 @@ HBCUs missing from the roster — the tags were right and the table was wrong. C
 which side is actually wrong before editing either; "fixing" the data would have
 deleted 12 correct tags and every check would then have reported clean.
 
-**The bucket counts are INSTITUTIONS, not tagged rows, and they live on three
+**The bucket counts are INSTITUTIONS, not tagged rows, and they live on four
 surfaces.** A school listing both Arizona State campuses has two rows and one
 institution, so counts derive through `canonicalMember()` (`p4`/`hbcu`) or
 `canonicalRanked()` (`nu75`/`lac75`). The same figure appears in
-the `buckets` row, sometimes a stat tile, and `src/data/metricValues.ts` for the
-Compare table; all three must move together. `check:memberships` gates all three —
-the third was found only by opening the page, which rendered `65 / 68` and `57 / 68`
-at once while every automated check passed.
+the `buckets` row, sometimes a stat tile, `src/data/metricValues.ts` for the
+Compare table, and the qual sentence that spells it out (`"61 of the 68 …"`); all
+four must move together. `check:memberships` gates all four — the Compare copy was
+found only by opening the page, which rendered `65 / 68` and `57 / 68` at once while
+every automated check passed, and the qual sentence was gated only on 2026-10-25,
+after six schools were found printing a stale `n of the 68` / `n of the 107`.
+
+**`CAMPUS_TAGS` are matched AFTER `normName()`**, so a tag must be written in
+normalized form: `normName` turns "College" into "coll", and a `'college park'`
+tag never matched — "University of Maryland-College Park" went uncounted as Power
+Four until it was rewritten `'coll park'` (2026-10-25).
 
 `canonicalRanked()` must resolve every spelling `rankLabelFor()` does, including the
 rank master’s `RANK_ALIAS` variants. Until 2026-10-25 it did not, so
@@ -583,7 +590,31 @@ count, which understated seven schools by one in a bucket.
 (`ACCEPTANCE_WINDOWS` in `metricValues.ts`, e.g. `(2022–2026)`), because the
 schools’ windows differ. It mirrors the years in each school’s `collegesTitle`;
 `check:buckets` fails when they disagree, so changing a list’s window means
-changing both. A title with no years renders `(years not published)`.
+changing both. A title with no years renders `(years not published)`. The same
+`subs` line renders under the **College Support stat tiles on each school page**
+(`SchoolDetail.tsx`, scoped to `college-support` so other areas' `subs` stay
+Compare-only). The **AP scoring 3+** row uses it for the exam session each figure
+covers (`(2026)`, `(2024–25)`) — exam years, not graduating classes, because that is
+how every school reports AP results.
+
+**The acceptance window is the widest the school's own lists genuinely support.**
+2023–2026 is the target, not a requirement: a pre-2023 block that cannot be split by
+class may be kept (Davidson Day 2021–2025, Gaston Day 2019–2025, Cannon 2022–2026).
+When a window combines two published lists, each institution appears ONCE, and where
+the lists spell one institution differently the row carries the institution's
+**official name** (Cannon: "University of North Carolina at Charlotte", "Penn State
+University Park"), with any `enrolling` marker carried onto it. A name with no
+counterpart on the other list keeps its printed spelling. Two distinct institutions
+that merely look alike stay separate (College of Charleston / University of
+Charleston; Columbia University / Columbia College).
+
+**`counseling.roster[].email` is the school's own published address, never a
+guess.** It comes from the counseling page, a staff pop-up or the school directory
+(Finalsite renders it through `FS.util.insertEmail(el, "<domain reversed>",
+"<local reversed>")`) and is checked to sit beside the named person; a profile that
+publishes none gets none. It renders as a `mailto:` link with the "<School> Inquiry"
+subject, is never translated, and its provenance goes in a section appended to an
+existing research file — a new file would ingest as a new research section.
 
 **⚠️ UPDATING THE US NEWS EDITION MOVES THE TOP-75 COUNTS — they are derived, and
 they are easy to forget.** A new edition rewrites `collegeRankings.ts`, which
