@@ -712,3 +712,14 @@ Phase 1 (English), 2026-10-25:
   publication-gap flags (counselor tenure/rep visits; student-facing curriculum). The card
   now has `flags: []`. The `~26:1` stat label still says it is computed. Phase 2 should
   expect those three stamps to retire. All three went, so no remaining flag index shifts.
+- **Counselor emails on the "Who's in the room" roster** (user request). `Counselor` gained
+  an optional `email`, rendered as a mailto link with the "<School> Inquiry" subject (the
+  Learning Support staff-card treatment), and `CounselingBody` now takes `schoolName`.
+  Cannon's directory publishes addresses for only **Heidi Waibel**
+  (hwaibel@cannonschool.org) and **Brittany Pasut** (bpasut@cannonschool.org), decoded from
+  each profile's `FS.util.insertEmail` call. Brayboy, LeFevre and Stavrakas profiles carry
+  bios but no email, so none is shown. Provenance is in the School Profile 2026-2027
+  source file. The card gained a Faculty & Staff Directory source line, which Phase 2
+  translates. `email` is already globally skipped by the extractor. Charlotte Catholic's
+  roster still carries its addresses as plain `detail` text. That was not changed here; it
+  could move to `email` in a later pass.

@@ -4474,6 +4474,8 @@ a.cs-uni-link:focus-visible {
 }
 .cs-counselor-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
 .cs-counselor-detail { font-size: 12px; line-height: 1.4; margin-top: 2px; }
+/* A published address — the Learning Support staff card's mailto treatment. */
+.cs-counselor-email { display: block; font-size: 12px; line-height: 1.4; margin-top: 4px; overflow-wrap: anywhere; color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 .cs-year { background: var(--bg); padding: 14px; min-width: 0; overflow-wrap: anywhere; }
 .cs-year-head {

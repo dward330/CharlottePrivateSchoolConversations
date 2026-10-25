@@ -274,10 +274,13 @@ function CollegeSupportCardBody({
   program,
   cardKey,
   hasLearningSupport,
+  schoolName,
 }: {
   program: CollegeSupportProgram
   cardKey: (typeof COLLEGE_SUPPORT_CARDS)[number]['key']
   hasLearningSupport: boolean
+  /** For the counseling roster's mailto subject, "<School name> Inquiry". */
+  schoolName: string
 }) {
   switch (cardKey) {
     case 'ncAdmissions':
@@ -285,7 +288,7 @@ function CollegeSupportCardBody({
     case 'transcript':
       return <TranscriptBody data={program.transcript!} />
     case 'counseling':
-      return <CounselingBody data={program.counseling!} />
+      return <CounselingBody data={program.counseling!} schoolName={schoolName} />
     case 'outcomes':
       return <OutcomesBody data={program.outcomes!} />
     case 'edge':
@@ -1271,6 +1274,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             program={collegeSupport}
                             cardKey={card.key}
                             hasLearningSupport={covered.some((c) => c.slug === 'learning-support')}
+                            schoolName={school.name}
                           />
                         </div>
                       </details>

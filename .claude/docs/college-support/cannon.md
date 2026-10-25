@@ -75,8 +75,9 @@ Cannon School — College Support Series Page 2
 
 > **Superseded 2026-10-25.** Cannon's **2026–27 School Profile** (created 2026-09-11)
 > restores a full **2024–2026** acceptance list (218 rows), so the findings below — that
-> nothing newer than 2022–24 is published — no longer hold. The app now uses the 2024–26
-> list. The new profile was published at the same Finalsite asset as the 2025–26 edition,
+> nothing newer than 2022–24 is published — no longer hold. The app now merges the 2022–24
+> and 2024–26 lists into one **2022–2026** window (user decision 2026-10-25, on the Davidson
+> Day / Gaston Day precedent), each institution once under its official name. The new profile was published at the same Finalsite asset as the 2025–26 edition,
 > so the 2025–26 URL cited below now serves the 2026–27 document. See
 > `Cannon School - College Support - School Profile 2026-2027.md` in this folder.
 
@@ -1614,6 +1615,29 @@ authority.
 - 20 names resolve no homepage URL. A missing URL is a legitimate confirmed-null, so never
  guess one.
 
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster. Each address is one the
+school publishes on the person's **Faculty & Staff Directory profile**
+(https://www.cannonschool.org/about/faculty-staff-directory). The profile popup is served by
+`https://www.cannonschool.org/fs/elements/6142?const_id=<id>&show_profile=true` and
+renders the address through Finalsite's
+`FS.util.insertEmail(<el>, "<domain reversed>", "<local part reversed>")`. Reversing the
+two strings gives the displayed address. This is the same method as the Learning Support
+staff emails (see `source-material/learning-support/cannon/`). **No address is built
+from a name pattern.** Where a profile publishes no email, none is given. Profile IDs were
+found with the directory search
+(`?const_search_keyword=<surname>` → `data-constituent-id`). The College Counseling page
+itself publishes no addresses.
+
+| Name | Directory const_id | Title on the profile | Email as published |
+|---|---|---|---|
+| Courtney Brayboy | 8923 | Co-Director of College Counseling | — (profile carries a bio, no email) |
+| Heidi Waibel | 8921 | Co-Director of College Counseling | hwaibel@cannonschool.org (`insertEmail(…, "gro.loohcsnonnac", "lebiawh")`) |
+| Adrian LeFevre | 13368 | Associate Director of College Counseling | — (profile carries a bio, no email) |
+| Connie Stavrakas | 2938 | Associate Director of College Counseling | — (profile carries a bio, no email) |
+| Brittany Pasut | 23405 | College Counseling & MS Academic Program Coordinator | bpasut@cannonschool.org (`insertEmail(…, "gro.loohcsnonnac", "tusapb")`) |
+
 
 ---
 
@@ -1811,11 +1835,13 @@ scrape was smoke-tested first against the method file's reference table (Cannon 
 - https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf
 - https://resources.finalsite.net/images/v1791909516/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf
 - https://www.cannonschool.org/News-Detail?fromId=186341&pk=780939
+- https://www.cannonschool.org/about/faculty-staff-directory
 - https://www.cannonschool.org/academics/college-counseling
 - https://www.cannonschool.org/academics/college-counseling/college-counseling-resources
 - https://www.cannonschool.org/academics/international-programs
 - https://www.cannonschool.org/academics/upper-school/curriculum
 - https://www.cannonschool.org/college-counseling-resources-clone
+- https://www.cannonschool.org/fs/elements/6142?const_id=<id>&show_profile=true`
 - https://www.cannonschool.org/news-and-stories/in-the-news-details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-celebrates-its-27th-commencement-ceremony
 - https://www.cannonschool.org/news-and-stories/in-the-news-details/~board/cannon-news-cougar-news-internal-sources/post/laura-huffman-recognized-as-morehead-cain-impact-educator
 - https://www.davidsonday.org/academics/college-counseling

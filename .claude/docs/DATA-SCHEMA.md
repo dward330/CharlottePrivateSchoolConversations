@@ -640,7 +640,7 @@ header, everything else suppresses it.
 
 `Transcript` — `headline`, `subhead?`, `stats`, `meritTitle?`, `merit`, `meritNote?`, `depthTitle?`, `depth`, `trustTitle?`, `trust`, `flags`, `sources`
 
-`Counselor` — `role`, `name`, `detail?`
+`Counselor` — `role`, `name`, `detail?`, `email?`
 
 `TimelineYear` — `grade`, `intensity`, `items`, `note?`
 

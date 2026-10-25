@@ -493,3 +493,27 @@ authority.
   Winston-Salem State, and possibly others.
 - 20 names resolve no homepage URL. A missing URL is a legitimate confirmed-null, so never
   guess one.
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster. Each address is one the
+school publishes on the person's **Faculty & Staff Directory profile**
+(https://www.cannonschool.org/about/faculty-staff-directory). The profile popup is served by
+`https://www.cannonschool.org/fs/elements/6142?const_id=<id>&show_profile=true` and
+renders the address through Finalsite's
+`FS.util.insertEmail(<el>, "<domain reversed>", "<local part reversed>")`. Reversing the
+two strings gives the displayed address. This is the same method as the Learning Support
+staff emails (see `source-material/learning-support/cannon/`). **No address is built
+from a name pattern.** Where a profile publishes no email, none is given. Profile IDs were
+found with the directory search
+(`?const_search_keyword=<surname>` → `data-constituent-id`). The College Counseling page
+itself publishes no addresses.
+
+| Name | Directory const_id | Title on the profile | Email as published |
+|---|---|---|---|
+| Courtney Brayboy | 8923 | Co-Director of College Counseling | — (profile carries a bio, no email) |
+| Heidi Waibel | 8921 | Co-Director of College Counseling | hwaibel@cannonschool.org (`insertEmail(…, "gro.loohcsnonnac", "lebiawh")`) |
+| Adrian LeFevre | 13368 | Associate Director of College Counseling | — (profile carries a bio, no email) |
+| Connie Stavrakas | 2938 | Associate Director of College Counseling | — (profile carries a bio, no email) |
+| Brittany Pasut | 23405 | College Counseling & MS Academic Program Coordinator | bpasut@cannonschool.org (`insertEmail(…, "gro.loohcsnonnac", "tusapb")`) |
+

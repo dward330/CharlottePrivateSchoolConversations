@@ -594,10 +594,10 @@ export const cannon: CollegeSupportProgram = {
     ],
     roster: [
       { role: 'Co-Director', name: 'Courtney Brayboy' },
-      { role: 'Co-Director', name: 'Heidi Waibel', detail: 'The four directors are unchanged across the 2024–25, 2025–26 and 2026–27 profiles.' },
+      { role: 'Co-Director', name: 'Heidi Waibel', detail: 'The four directors are unchanged across the 2024–25, 2025–26 and 2026–27 profiles.', email: 'hwaibel@cannonschool.org' },
       { role: 'Assoc. Director', name: 'Adrian LeFevre' },
       { role: 'Assoc. Director', name: 'Connie Stavrakas' },
-      { role: 'Coordinator', name: 'Brittany Pasut', detail: 'Named on the 2026–27 profile, succeeding Clay Morrell.' },
+      { role: 'Coordinator', name: 'Brittany Pasut', detail: 'Named on the 2026–27 profile, succeeding Clay Morrell.', email: 'bpasut@cannonschool.org' },
     ],
     timelineTitle: 'The published programme — parent-facing, by grade',
     timeline: [
@@ -638,6 +638,7 @@ export const cannon: CollegeSupportProgram = {
     sources: [
       { label: 'cannonschool.org — College Counseling', url: COUNSELING },
       { label: '2026–27 School Profile (staffing, enrollment)', url: PROFILE_2627 },
+      { label: 'Faculty & Staff Directory (counselor email addresses)', url: 'https://www.cannonschool.org/about/faculty-staff-directory' },
       { label: 'Davidson Day — the co-hosted Lake Norman case-studies programme at Cannon', url: 'https://www.davidsonday.org/academics/college-counseling' },
     ],
   },
