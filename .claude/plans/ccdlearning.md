@@ -1,11 +1,11 @@
 ---
 name: ccdlearning
 title: Add Charlotte Country Day School to Learning Support & Student Services (plus a scrollable staff list)
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-25
 branch: feat/ccdlearning
-prs: []
+prs: [368]
 ---
 
 # Add Charlotte Country Day School to Learning Support & Student Services
