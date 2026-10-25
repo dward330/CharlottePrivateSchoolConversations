@@ -1,11 +1,11 @@
 ---
 name: hidedistilledcounts
 title: Show the "N documents distilled" counts on the school header and home school cards in development only
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-10-25
 branch: feat/hide-distilled-counts
-prs: []
+prs: [371]
 ---
 
 # Show the "N documents distilled" counts in development only
@@ -195,3 +195,12 @@ Single-phase. Adds no user-facing text.
 - Should the home hero's **site-wide** total (lede sentence + third stat tile) also go
   dev-only? **Default:** no, leave it. It was not requested. Removing a stat tile and
   rewording the lede would be a UX change, and a rewording would make it two-phase.
+
+## Implementation notes
+
+- Built as planned. The only deviation is in step 6: the status flip landed on the same
+  branch, before the merge, rather than in a follow-up PR. Either way it never touches
+  `main` directly, and one PR is simpler.
+- Verified the Arabic home card renders `10 موضوعات` in prod, and every catalog carries
+  `school.topics_one`. No shipped school has a single area, so the singular form was
+  confirmed by key presence only.
