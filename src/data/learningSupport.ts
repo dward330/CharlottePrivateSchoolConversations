@@ -48,7 +48,8 @@ export type LearningNeed = (typeof LEARNING_NEEDS)[number]
 
 export type EligibilityCard = {
   headline: string
-  intro: LearningLead
+  /** Optional bold lead above the cells; omit it and the cells start the card. */
+  intro?: LearningLead
   /** The three cells, in order: who's eligible, arriving with a plan, outside scope. */
   eligible: string
   plan: string

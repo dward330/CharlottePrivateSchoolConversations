@@ -146,7 +146,7 @@ function EligibilityBody({ data }: { data: EligibilityCard }) {
   ] as const
   return (
     <div className="ls-body">
-      <Lead lead={data.intro} />
+      {data.intro && <Lead lead={data.intro} />}
       <div className="ls-grid ls-grid-eligibility">
         {cells.map((c) => (
           <div key={c.key} className="ls-cell">

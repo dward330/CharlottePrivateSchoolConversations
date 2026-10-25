@@ -88,10 +88,6 @@ export const cannon: LearningSupportProgram = {
   eligibility: {
     headline:
       'Learning support is for enrolled Cannon students with a diagnosed learning difference, documented by a recent psychoeducational evaluation. The school does not promise to meet every need.',
-    intro: {
-      strong: 'Eligibility is set out in a written policy.',
-      muted: 'It decides most families’ answer, so it comes first.',
-    },
     eligible:
       'The policy requires that the student “must be a current student enrolled at Cannon School,” that parents “complete a request for Learning Support Services,” a “history of academic difficulty,” and a learning difference “diagnosed and documented by a certified professional in a recent (last 3 years) formal psycho-educational evaluation” done “by a licensed clinical psychologist.”',
     plan:

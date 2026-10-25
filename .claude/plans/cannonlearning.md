@@ -551,3 +551,9 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
 - `npm run build` exits 1 on `check:live` only: 3 retired college-support stamps × 9
   locales (`b0f2f818`, `cb0ae2f4`, `f0de862a`), exactly the two swapped strings plus the
   label. Every other chained check was run and passes.
+- **Review edit (2026-10-24): Cannon's eligibility intro was removed at the user's
+  request.** The removed text was "Eligibility is set out in a written policy. It decides
+  most families' answer, so it comes first." To allow this, `EligibilityCard.intro` is now
+  optional (`intro?:`) and `LearningSupport.tsx` renders it only when present. Hickory
+  Grove keeps its intro. The two intro strings are no longer in Cannon's English, so
+  Phase 2 has nothing to translate for them.

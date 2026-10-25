@@ -885,7 +885,7 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 
 `LearningCode` *(union)* — `IH` \| `IH_FEE` \| `RF` \| `REQUIRED` \| `NS` \| `EXCLUDED`
 
-`EligibilityCard` — `headline`, `intro`, `eligible`, `plan`, `scope`, `note?`, `sources`
+`EligibilityCard` — `headline`, `intro?`, `eligible`, `plan`, `scope`, `note?`, `sources`
 
 `ServiceRow` — `service`, `code`, `detail`, `needs`
 
