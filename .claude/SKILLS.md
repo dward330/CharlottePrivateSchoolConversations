@@ -366,9 +366,10 @@ decide whether it is enough for a healthy section, and hand a GO to `/plan`.**
 `.claude/skills/learning-support/SKILL.md` · added 2026-10-21 · updated 2026-10-25 · supporting file:
 `prompt-template.md` (the deep-research prompt, with `{{PLACEHOLDERS}}`)
 
-First built with Hickory Grove Christian's section (plan `learningsupport`). **Cannon
-School is now the depth reference** (since #361). Hickory Grove stays the reference for
-fee rows and 504/IEP glossary markers, which Cannon lacks.
+First built with Hickory Grove Christian's section (plan `learningsupport`). **Charlotte
+Country Day is now the depth and fee-row reference** (since #368, replacing Cannon). Hickory
+Grove stays the reference only for 504/IEP glossary markers, which CCD lacks. Fill every
+field a school publishes; never match CCD's counts (40 staff, 6 Testing entries).
 
 | Step | Trigger | What it does |
 |---|---|---|

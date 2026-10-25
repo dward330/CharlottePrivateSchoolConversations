@@ -10,8 +10,8 @@ description: >
   STEP 3 — on a go, hand off to /plan. STEP 4 is the usual /implement. Use when the user
   types /learning-support, or asks for "the learning support deep research prompt for
   <school>", "a learning support section for <school>", or attaches a learning-support /
-  student-services research PDF for a school. Cannon School is the depth reference; the
-  go/no-go bar is computed from the thinnest school already shipped.
+  student-services research PDF for a school. Charlotte Country Day is the depth
+  reference; the go/no-go bar is computed from the thinnest school already shipped.
   This skill writes ONLY source-material and the plan (via /plan), never app code.
 ---
 
@@ -21,18 +21,23 @@ The repeatable version of what built Hickory Grove Christian's section
 (`.claude/plans/learningsupport.md`, 2026-10-20). The flow is **prompt → user runs Claude
 deep research → PDF → verified research file + go/no-go → `/plan` → `/implement`**.
 
-**Two references, each for what it shows best** (user decision, 2026-10-24; in force
-since Cannon shipped in PR #361). Their shape, tone and depth are the model; their facts
-are not.
+**Two references, each for what it shows best** (user decision, 2026-10-25; in force
+since Charlotte Country Day shipped in PR #368, replacing the 2026-10-24 Cannon split).
+Their shape, tone and depth are the model; their facts are not.
 
-- **Cannon School (`src/data/learningSupport/cannon.ts`) is the depth reference**, the
-  section a new build should match. It has the fuller section: more rendered and
-  published service rows, four stat tiles, four testing entries, twelve staff (with their
-  published emails) and a written eligibility policy quoted in all three cells.
+- **Charlotte Country Day (`src/data/learningSupport/charlotte-country-day.ts`) is the
+  depth reference**, the section a new build should match. It is the fullest section:
+  24 rendered service rows (18 published), four stat tiles, six testing entries, 40 staff
+  with directory emails, 13 questions, and a written eligibility policy quoted in all
+  three cells. **It is also the fee-row reference**: `IH_FEE` rows built from published
+  per-session rates ($82 for a 45-minute Lower School session, $85 a session above).
+  **Caveat:** its counts reflect how much that school publishes. The rule is *fill every
+  field the school publishes*, never "match CCD's counts"; a school with 9 published staff
+  lists 9.
 - **Hickory Grove Christian (`src/data/learningSupport/hickory-grove-christian.ts`) is
-  the reference for two patterns Cannon lacks**: `IH_FEE` rows built from a published
-  fee schedule, and the `[[504|…]]` / `[[iep|…]]` glossary markers for a school that
-  names those plans. Copy those from Hickory Grove when the new school has them.
+  the reference for one pattern CCD lacks**: the `[[504|…]]` / `[[iep|…]]` glossary
+  markers for a school that names those plans (CCD's pages use neither term). Copy those
+  from Hickory Grove when the new school has them.
 - **The GO/NO-GO bar is neither of them by name.** It is computed from the *thinnest*
   shipped school (2c), the same way `/add-school` calibrates its floor. Build to the
   richest school and gate on the thinnest.
@@ -89,8 +94,8 @@ are not.
   `LearningCode`, `LEARNING_NEEDS`. Never list cards from memory.
 - `src/data/learningSupport/README.md`: the data rules.
 - **Every file in `src/data/learningSupport/`** (the shipped schools, keyed in
-  `PROGRAMS`): Cannon for depth and the fullest service-row set, Hickory Grove for fee
-  rows and glossary markers. Both use source labels in the form `'<domain> — <page>'`.
+  `PROGRAMS`): Charlotte Country Day for depth, fee rows and the standard service-row
+  set, Hickory Grove for glossary markers. Both use source labels in the form `'<domain> — <page>'`.
 - `src/locales/en.json` → `cards.learning-support.*` and `learning.*`: look for chrome
   that names one school. It must stay neutral.
 - `.claude/plans/INDEX.md`: is there already a plan for this school?
@@ -121,7 +126,7 @@ directory, then strip the HTML to text (WebFetch only if curl is blocked). Cover
 - any international-student page (English-language requirements, ESL).
 
 Write `source-material/learning-support/<slug>/<School> - Learning Support - Official Site Research.md`,
-modelled on Cannon's file (Hickory Grove's for a fee-schedule transcription):
+modelled on Charlotte Country Day's file (it holds the fee table, the staff table and the corrections list):
 - a provenance header (who / when / how, official sources only);
 - a **Source URLs table** (S1, S2, …) with status (fetched / Wayback / 404);
 - **verbatim excerpts** per page, the full fee-schedule transcription, and the staff
@@ -138,7 +143,7 @@ AI-generated lead sheet, not a source. No student names.
 ### 2c. Score the coverage — the go / no-go
 
 Map the verified facts onto the six cards and the Services-at-a-Glance rows (start from
-Cannon's row set, which is Hickory Grove's plus "Early identification (JK–2)"; add a row
+Charlotte Country Day's 24-row set, which is Hickory Grove's plus "Early identification (JK–2)"; Cannon's extra "Academic Labs (9–12)" is a program only it runs. Add a row
 only for a service the school genuinely offers that none of the shipped files names). Then print this table in the conversation, **always with counts
 beside percentages**:
 
@@ -155,8 +160,8 @@ beside percentages**:
 time, count the published service rows (any rendered code except `NS`; `EXCLUDED` is not
 rendered) in **every** file in `src/data/learningSupport/`, and take the **lowest**. Name
 that school in the verdict. Do not trust a number written here. As of 2026-10-25 the
-thinnest is Hickory Grove, 14 published of 23 rendered rows (+1 EXCLUDED), 9 staff; Cannon
-is 17 of 25, 12 staff. So test 3 needs 7. The bar does not rise just because a richer
+thinnest is Hickory Grove, 14 published of 23 rendered rows (+1 EXCLUDED), 9 staff; the
+richest is Charlotte Country Day, 18 of 24, 40 staff. So test 3 needs 7. The bar does not rise just because a richer
 school ships, and it falls if a thinner one does.
 The verdict:
 

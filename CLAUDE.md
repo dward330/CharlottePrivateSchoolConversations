@@ -231,12 +231,15 @@ first school. `/learning-support` builds it for another school in four steps: a
 deep-research prompt for the user to run in Claude deep research → the PDF is verified
 against the school's **own** pages and scored **GO / NO-GO** → `/plan` → `/implement`.
 
-**Two references, split by job** (user decision 2026-10-24, in force since Cannon shipped
-in #361). **Cannon** is the depth reference that a new build should match. **Hickory
-Grove** is the reference for fee rows (`IH_FEE`, from a published schedule) and 504/IEP
-glossary markers, which Cannon lacks. The **GO/NO-GO bar is computed from the thinnest
-shipped school**, never pinned to one by name: build to the richest school and gate on
-the thinnest, the same split as `/add-school`.
+**Two references, split by job** (user decision 2026-10-25, in force since Charlotte
+Country Day shipped in #368; it replaces the Cannon split of 2026-10-24). **Charlotte
+Country Day** is the depth reference that a new build should match, and also the fee-row
+reference (`IH_FEE` from published per-session rates). **Hickory Grove** stays the
+reference only for 504/IEP glossary markers, which CCD's pages never use. CCD's 40 staff
+and 6 Testing entries reflect how much that school publishes: the rule is **fill every
+field the school publishes**, never "match CCD's counts". The **GO/NO-GO bar is computed
+from the thinnest shipped school**, never pinned to one by name: build to the richest
+school and gate on the thinnest, the same split as `/add-school`.
 
 Four rules travel with the area. **Official school sources only**: no third-party page is
 evidence of a school service. **This school only**: no comparisons, no state-funding (ESA+
