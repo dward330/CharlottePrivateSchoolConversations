@@ -1,7 +1,7 @@
 ---
 name: ddlearning
 title: Add Davidson Day School to Learning Support & Student Services — six cards from the school's own pages (Learning Enrichment Center, its 2026-27 request form, the 2026 Summer LEC rate letter, the directory); 27 service rows, 15 published; 17 staff; navy/red; GO/NO-GO test 2 overridden by the user; correct two College Support presumptions about LEC accommodations
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-25
 branch: feat/ddlearning
@@ -593,3 +593,48 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
   17. The user can trim at the Phase 1 review.
 - **Should the summer row be split into tutoring and therapy rows?** **Default:** one
   row. All of its figures come from one letter on one billing basis.
+
+## Implementation notes
+
+### Phase 1 (English) — 2026-10-25
+
+- **Two quotes reworded to keep them exact.** Both fragments are lower case on the page,
+  and a case-sensitive check of every `“…”` against the research file caught them:
+  - Subject tutoring now reads "Sessions provide “review or remedial instruction in a
+    specific subject area (…)”". The plan had a capital "Review".
+  - Social skills groups now reads "Groups are “led and directed by an occupational
+    therapist,” …". The plan's note asked for the lower-case quote, but its suggested
+    detail opened with a capital "Led".
+- **`TUITION` added to `services.sources`.** The plan defined the constant but put it on
+  no card, so it would have been unused. The tuition page carries no LEC line, which is
+  the evidence for "school-year rates are not published".
+- **NOT STATED in the DOM: 14 data chips plus 2 legend samples.** The data chips are 12 in
+  Services, 1 in therapy and 1 in Testing, as planned. The Services legend shows
+  IH | IH · FEE | RF | NOT STATED; the Testing legend shows IH | NOT STATED.
+- **Ingest re-stamped Cannon's and Hickory Grove's note dates.** Both one-line changes
+  were reverted.
+- `npm run build` exits 1 on `check:live` only. The failures are 3 retired
+  college-support stamps × 9 locales (`68da65a1`, `56c68e67`, `660d65b7`), exactly the
+  three swaps. Every check chained after it was run separately and passes: `check:chrome`,
+  `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:news` and
+  `check:photos`.
+  - `check:spans` prints a notice about a changed `bucket-nu75` Compare leader. That row
+    is not touched here; it is from an earlier PR.
+- The meta description is now 153 characters ("9 areas … student support and more").
+- **Browser check in Chrome:** 1280 light and dark, plus 390. It confirmed:
+  - 6 cards with no kickers, 4 tiles, `$47` rendering as `$47`, 27 rows and 0 blank code
+    cells;
+  - the Motor/OT filter shows the OT verdict;
+  - 17 staff in order, with 15 mailto links using the subject "Davidson Day School
+    Inquiry";
+  - 11 questions;
+  - the summer PDF and the request form listed under the Services sources;
+  - all three College Support swaps rendering, and the link landing at 80px on the first
+    click;
+  - overflow 0 at every width;
+  - Cannon (25 rows, 12 staff) and Hickory Grove (23, 9) unchanged.
+
+  `audit:mobile --only davidson-day`: 0 broken cards and 0 page overflow.
+- **For the review:** the need-filter verdict panel is tinted with the accent (22% red
+  over the page ground), and its text is navy. That is the same mechanism that gives
+  Cannon a gold-tinted panel, so it shows a pink panel here.
