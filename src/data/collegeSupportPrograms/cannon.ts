@@ -672,8 +672,6 @@ export const cannon: CollegeSupportProgram = {
       'National Honor Society chapter awarded in 2025',
       'U.S. Naval Academy and Coast Guard Academy acceptances (2024–26)',
     ],
-    scholarshipsNote:
-      'This is Cannon’s single largest outcome-data gap. No merit-scholarship dollar figure appears on any of the three published profiles or in any news post, and no current Morehead-Cain, Park, QuestBridge or ROTC outcome is published. Cannon does publish $3,000,000 in tuition assistance to 24% of its students — but that is the school’s own inbound financial aid, not college merit money, and the two must not be conflated.',
     flags: [],
     sources: [
       { label: 'cannonschool.org — 2026–27 School Profile (the 2024–26 acceptance list, Class of 2026 outcomes)', url: PROFILE_2627 },
