@@ -3294,3 +3294,33 @@ Services` and the quoted `Director of Curriculum`.
 **Gender.** Staff roles use slash or neutral forms (es `Director/a`, fr `Directeur(rice)`,
 it `Responsabile`, ar `مدير/ة`). The one gendered form follows the English: the staff note
 says the summer letter "signs him", so that sentence uses a masculine pronoun.
+
+## RTL ranges fixed site-wide at render (`fix/rtl-short-ranges`) — 2026-10-25
+
+This closes the "**Not changed, site-wide:** un-isolated grade ranges" entry under Charlotte
+Christian above. A whole-page glyph scan on the fa and ar pages of all 13 schools found
+about 2,000 reversed ranges out of about 6,900. They were grade bands, scales, scores,
+clock times and phone numbers, spread over about 50 render sites that print data text raw.
+
+**Fix, in two places, and no stored string changed:**
+- `isolateFigures()` (`src/lib/format.ts`, formerly `isolateNeutralFigures`) now
+  isolates any numeric range, chains included (`10–12`, `3 - 5`, `9:30–11:00`,
+  `704-366-5657`). Before, it isolated only `\d{4}[–-]\d{2,4}`. A range glued to a letter
+  or a `$`/`-`/`/`/`_` (`K5–8`, `$25-30`, `handbook-2025-2026.pdf`) is skipped.
+- `localized()` (`src/lib/localizeData.ts`) applies a registered leaf transform to
+  every string it walks. `src/main.tsx` registers `isolateFigures`, which is a no-op
+  outside RTL. Node checkers never register it. Keys named url/href/src/link/email/
+  photo/image/video/poster/slug/id/key, and values starting `http`/`mailto:`/`tel:`/`/`/`#`,
+  are skipped. **Compare's `metricValues` opts out** (`localized(…, false)`), because
+  Compare parses those strings to rank and tint cells.
+- `ProseContent` table headers now go through `localizeMoneyText`.
+
+**Verified in Chrome:**
+- 0 reversed ranges on all 26 fa/ar school pages (range fully on one line).
+- 0 hrefs changed, out of about 3,800 per locale.
+- en/es pages carry no isolate.
+- after-school and summer filter row counts are identical to English.
+- Compare leader cells are identical in en/fa/ar.
+
+The `1 تا 2`-style rewording done before this still reads correctly. A future fa/ar
+range no longer needs rewording.

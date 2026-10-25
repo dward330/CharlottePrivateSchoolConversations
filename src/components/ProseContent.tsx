@@ -142,7 +142,7 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
                         $28,500" instead of reading a bare number: col headers
                         label their column, and the first cell of each row (below)
                         labels its row. */}
-                    <tr>{b.header.map((h, j) => <th key={j} scope="col">{h}</th>)}</tr>
+                    <tr>{b.header.map((h, j) => <th key={j} scope="col">{localizeMoneyText(h)}</th>)}</tr>
                   </thead>
                   <tbody>
                     {b.rows.map((row, j) => (

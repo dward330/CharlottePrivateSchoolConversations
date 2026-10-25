@@ -107,17 +107,26 @@ function stripIsolate(s: string): string {
  * "+250" in fa/ar prose, beside a stat tile showing "500+" correctly (the tile has
  * no Arabic letter in front of it). Measured by glyph x-position in Chrome.
  *
+ * Short ranges joined the list 2026-10-25. The comment above names only year
+ * ranges, but "10–12" fails the same way ("12–10" left to right). A whole-page
+ * glyph scan found about half of every fa/ar school page's ranges reversed:
+ * grade bands, scales and clock times. Before this, it was patched by rewording
+ * strings ("1 تا 2").
+ *
  * Deliberately narrow. It matches only the shapes proven to break, so it
  * cannot disturb prose it was not aimed at, and it is a no-op outside RTL.
  */
-function isolateNeutralFigures(text: string): string {
+export function isolateFigures(text: string): string {
   if (!isRtl()) return text
   return text.replace(
-    // A year range joined by en-dash/hyphen ("2025–26", "2024–2025"), a
-    // percentage, a slash-joined fraction ("58 / 75", "8 / 8"), or a count with a
-    // trailing plus ("250+", "1,000+"). All anchored on digits so bare
-    // punctuation never matches.
-    /\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+|\d+(?:,\d{3})*(?:\.\d+)?\+/g,
+    // Any numeric range joined by en-dash/hyphen, spaced or not: years
+    // ("2025–26"), grade bands ("10–12", "3 - 5"), scales ("93–100"), clock
+    // times ("9:30–11:00") and chained dates. A range glued to a preceding
+    // letter or digit-group ("K5–8", "JK–2") is skipped: it already sits in a
+    // strong-L run. Then a percentage, a slash-joined fraction ("58 / 75",
+    // "8 / 8"), or a count with a trailing plus ("250+", "1,000+"). All
+    // anchored on digits so bare punctuation never matches.
+    /(?<![A-Za-z\d.,:/_$≈⁦\-–])\d+(?:[.,:]\d+)*(?:\s?[–-]\s?\d+(?:[.,:]\d+)*)+|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+|\d+(?:,\d{3})*(?:\.\d+)?\+/g,
     (m) => `${LRI}${m}${PDI}`,
   )
 }
@@ -271,12 +280,12 @@ function localizeUnits(text: string): string {
  * Per-unit suffixes ("/class", "/mo") are localized in the same pass.
  *
  * In an RTL locale it ALSO isolates the figures it does not otherwise rewrite —
- * see isolateNeutralFigures(). That is why the "no $ sign" fast path below
+ * see isolateFigures(). That is why the "no $ sign" fast path below
  * still has to run: a sentence containing only "2025–26" needs the isolate even
  * though it contains no money at all.
  */
 export function localizeMoneyText(text: string): string {
-  if (!text.includes('$')) return isolateNeutralFigures(localizeUnits(text))
+  if (!text.includes('$')) return isolateFigures(localizeUnits(text))
   // The optional leading ≈ is captured so it travels INSIDE the bidi isolate.
   // Left outside, it is a neutral character that RTL reorders to the far edge —
   // "≈$378/mo" rendered "$378/ماه≈" in Farsi, reading as a trailing symbol
@@ -308,5 +317,5 @@ export function localizeMoneyText(text: string): string {
     }
     return near || more ? bidiIsolate(`${near}${stripIsolate(money(n, fd))}${more}`) : money(n, fd)
   })
-  return isolateNeutralFigures(localizeUnits(withMoney))
+  return isolateFigures(localizeUnits(withMoney))
 }

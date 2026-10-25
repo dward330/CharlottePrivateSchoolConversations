@@ -108,6 +108,30 @@ export function hasOverlay(topic: string, lang: string): boolean {
 }
 
 /**
+ * An optional display transform applied to EVERY string leaf `localized()` walks,
+ * translated or not. The browser registers one at startup (src/main.tsx): in
+ * RTL locales it wraps numeric ranges in a bidi isolate (`isolateFigures()` in
+ * format.ts), because about 50 render sites print data text raw and "10–12"
+ * drew "12–10" at all of them. Registered rather than imported, because this
+ * module must stay loadable under plain Node, where the checkers never set it.
+ */
+let leafTransform: ((s: string) => string) | undefined
+
+export function setLeafTransform(fn: ((s: string) => string) | undefined): void {
+  leafTransform = fn
+}
+
+/* Leaves that are addresses or identifiers, never display text: an isolate
+   inside a URL or an email would break the link. */
+const NO_TRANSFORM_KEY = /(?:^|[.:])(?:url|href|src|link|email|photo|image|video|poster|slug|id|key)(?:\[\d+\])*$/i
+const NO_TRANSFORM_VALUE = /^(?:https?:|mailto:|tel:|\/|#)/
+
+function transformLeaf(s: string, path: string): string {
+  if (!leafTransform || NO_TRANSFORM_KEY.test(path) || NO_TRANSFORM_VALUE.test(s)) return s
+  return leafTransform(s)
+}
+
+/**
  * Returns `en` with every field the overlay covers replaced by its translation.
  *
  * `prefix` is the school slug, so overlay keys read `cannon:affinity.headline`
@@ -116,12 +140,12 @@ export function hasOverlay(topic: string, lang: string): boolean {
  * Returns `en` BY REFERENCE when nothing applies — see the identity requirement
  * above. That is the common path: it is what every English reader hits.
  */
-export function localized<T>(en: T, index: OverlayIndex | undefined, prefix: string): T {
+export function localized<T>(en: T, index: OverlayIndex | undefined, prefix: string, transform = true): T {
   if (!index || en == null) return en
   // Keys are `<school>:<path>` — the separator is a colon, so the school prefix
   // is passed as `<school>:` and `walk` appends the first path segment directly
   // rather than joining it with a dot.
-  return walk(en, index, `${prefix}:`) as T
+  return walk(en, index, `${prefix}:`, transform) as T
 }
 
 /**
@@ -129,19 +153,19 @@ export function localized<T>(en: T, index: OverlayIndex | undefined, prefix: str
  * changed, so untranslated subtrees keep their original object identity and
  * React sees no change.
  */
-function walk(node: unknown, index: OverlayIndex, path: string): unknown {
+function walk(node: unknown, index: OverlayIndex, path: string, transform: boolean): unknown {
   if (typeof node === 'string') {
     const hit = index.get(path)
     // Hash mismatch = the English was rewritten after translation. Ignore the
     // overlay and render English rather than stale Spanish.
-    if (!hit || hit.of !== stampFor(node)) return node
-    return hit.t
+    const out = !hit || hit.of !== stampFor(node) ? node : hit.t
+    return transform ? transformLeaf(out, path) : out
   }
 
   if (Array.isArray(node)) {
     let changed = false
     const out = node.map((v, i) => {
-      const next = walk(v, index, `${path}[${i}]`)
+      const next = walk(v, index, `${path}[${i}]`, transform)
       if (next !== v) changed = true
       return next
     })
@@ -154,7 +178,7 @@ function walk(node: unknown, index: OverlayIndex, path: string): unknown {
     for (const [k, v] of Object.entries(node)) {
       // `path` ends with ':' at the root (the `<school>:` prefix), so the first
       // segment attaches directly and only nested keys take a dot.
-      const next = walk(v, index, path.endsWith(':') ? `${path}${k}` : `${path}.${k}`)
+      const next = walk(v, index, path.endsWith(':') ? `${path}${k}` : `${path}.${k}`, transform)
       if (next !== v) changed = true
       out[k] = next
     }
