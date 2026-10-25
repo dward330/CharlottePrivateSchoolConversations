@@ -175,8 +175,8 @@ export const WIDE_LEARNING_CARDS: ReadonlySet<LearningSupportCardKey> = new Set(
 
 /**
  * Per-school entries live in ./learningSupport/<slug>.ts. Hickory Grove
- * Christian, Cannon and Davidson Day are researched; every other school is
- * ABSENT rather than present-and-empty, and with no source-material folder the
+ * Christian, Cannon, Charlotte Country Day and Davidson Day are researched;
+ * every other school is ABSENT rather than present-and-empty, and with no source-material folder the
  * section never renders on its page.
  */
 import {
@@ -188,11 +188,13 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { cannon } from './learningSupport/cannon.ts'
+import { charlotteCountryDay } from './learningSupport/charlotte-country-day.ts'
 import { davidsonDay } from './learningSupport/davidson-day.ts'
 import { hickoryGroveChristian } from './learningSupport/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, LearningSupportProgram> = {
   cannon,
+  'charlotte-country-day': charlotteCountryDay,
   'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,
 }

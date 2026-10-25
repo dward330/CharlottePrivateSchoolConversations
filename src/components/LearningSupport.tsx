@@ -13,7 +13,7 @@
 //  - EXCLUDED rows never render in the matrix; the exclusion is shown once, in
 //    the eligibility card's "Outside scope" cell.
 
-import { useState } from 'react'
+import { useId, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
 import { schoolInquiryMailto } from '../lib/contact.ts'
@@ -309,10 +309,29 @@ function TestingBody({ data }: { data: TestingCard }) {
   )
 }
 
+/** Staff lists longer than this scroll in place; HG 9, Cannon 12 and DD 17 stay inline. */
+const STAFF_SCROLL_MIN = 20
+
 /** Name / role / mailto rows — the staff card's, reused wherever a card names people. */
-function PeopleList({ people, schoolName, className = 'ls-staff' }: { people: StaffPerson[]; schoolName: string; className?: string }) {
-  return (
-    <div className={className} data-email={people.some((p) => p.email) || undefined}>
+function PeopleList({
+  people,
+  schoolName,
+  className = 'ls-staff',
+  scrollable = false,
+}: {
+  people: StaffPerson[]
+  schoolName: string
+  className?: string
+  scrollable?: boolean
+}) {
+  const { t } = useTranslation()
+  const captionId = useId()
+  const list = (
+    <div
+      className={scrollable ? `${className} ls-staff-scroll` : className}
+      data-email={people.some((p) => p.email) || undefined}
+      {...(scrollable && { role: 'region', tabIndex: 0, 'aria-labelledby': captionId })}
+    >
       {people.map((p) => (
         <div key={p.name} className="ls-person">
           <span className="ls-person-name">{p.name}</span>
@@ -326,12 +345,21 @@ function PeopleList({ people, schoolName, className = 'ls-staff' }: { people: St
       ))}
     </div>
   )
+  if (!scrollable) return list
+  return (
+    <>
+      <p className="text-muted ls-staff-count" id={captionId}>
+        {t('learning.staffScroll', { count: people.length })}
+      </p>
+      {list}
+    </>
+  )
 }
 
 function StaffBody({ data, schoolName }: { data: StaffCard; schoolName: string }) {
   return (
     <div className="ls-body">
-      <PeopleList people={data.people} schoolName={schoolName} />
+      <PeopleList people={data.people} schoolName={schoolName} scrollable={data.people.length > STAFF_SCROLL_MIN} />
       {data.note && <Lead lead={data.note} className="ls-note ls-note-staff" />}
       <SourceRow sources={data.sources} className="ls-src" />
     </div>
