@@ -575,3 +575,8 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
   (`es bn ht te fr fa it hi ar`). `check:chrome` reports it as awaiting translation
   (exit 0) until then. Verified in Chrome at 1280 light/dark, plus `audit:mobile` for both
   schools.
+- **Review edit (2026-10-24): the Ask the School as-of line lost its NOT STATED
+  disclaimer, for every school (user request).** `learning.asOf` now ends after the date
+  in **all ten catalogs**. That was a pure deletion of the second sentence, so it needs no
+  Phase 2 work. The Services legend's NS line ("not found on the school's site — not the
+  same as not offered") still carries the same meaning.
