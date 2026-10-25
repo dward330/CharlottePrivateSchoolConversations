@@ -812,7 +812,10 @@ export function WholeClassBody({
             {data.quintiles.map((q) => (
               <div key={q.label} className="cs-quintile">
                 <div className="cs-quintile-label text-muted">{q.label}</div>
-                <div className="cs-quintile-gpa">{q.gpa}</div>
+                {/* A GPA band ("4.08–4.28") is digit–dash–digit, which an RTL
+                    paragraph lays out reversed ("4.28–4.08"). It is a figure,
+                    never prose, so it is always isolated left-to-right. */}
+                <div className="cs-quintile-gpa"><bdi dir="ltr">{q.gpa}</bdi></div>
                 {q.detail && (
                   <div className="cs-quintile-detail text-muted">{q.detail}</div>
                 )}
