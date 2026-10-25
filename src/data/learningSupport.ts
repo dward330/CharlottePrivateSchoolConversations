@@ -79,6 +79,11 @@ export type TherapyCard = {
   headline: string
   /** Speech-language, occupational, physical — each with its own code. */
   items: { name: string; code: LearningCode; detail?: string }[]
+  /**
+   * People the school names for these services, rendered exactly like the staff
+   * card's rows (name, role, mailto). Same `email` rule as `StaffPerson`.
+   */
+  people?: StaffPerson[]
   /** Optional closing line under the strip. */
   note?: string
   sources: Source[]
@@ -90,13 +95,19 @@ export type TestingCard = {
   sources: Source[]
 }
 
+/**
+ * `email` only where the school's own directory publishes it — never built
+ * from a name pattern. Rendered as a mailto link, never translated.
+ */
+export type StaffPerson = {
+  name: string
+  role: string
+  email?: string
+}
+
 export type StaffCard = {
   headline: string
-  /**
-   * `email` only where the school's own directory publishes it — never built
-   * from a name pattern. Rendered as a mailto link, never translated.
-   */
-  people: { name: string; role: string; email?: string }[]
+  people: StaffPerson[]
   note?: LearningLead
   sources: Source[]
 }

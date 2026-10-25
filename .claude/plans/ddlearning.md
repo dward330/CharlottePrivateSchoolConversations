@@ -638,3 +638,33 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
 - **For the review:** the need-filter verdict panel is tinted with the accent (22% red
   over the page ground), and its text is navy. That is the same mechanism that gives
   Cannon a gold-tinted panel, so it shows a pink panel here.
+- **Review edit (2026-10-25): people on the Therapy card get the staff card's email row,
+  for every school (user request, a standing rule).**
+  - `TherapyCard` gains an optional `people?: StaffPerson[]`. `StaffPerson` is now a
+    named type shared with `StaffCard`.
+  - `LearningSupport.tsx` pulls the staff rows out into a shared `PeopleList`, rendered
+    under the therapy grid (`.ls-staff-therapy`, 12px top margin). `TherapyBody` now
+    receives `schoolName`, which the mailto subject needs.
+  - Davidson Day's therapy card lists Rebecca Miller, Speech/Language Pathologist, with
+    `rmiller@davidsonday.org`. Her name came out of `therapy.note`, which now reads "The
+    speech-language pathologist is on the LEC staff list. …".
+  - **i18n:** `role` is a skip key, so `therapy.people[].name` (false) and
+    `therapy.people[].role` (true) were added to `PATH_OVERRIDES`. Without them the role
+    would have shipped English in every locale. A fresh extract confirms the role now
+    carries both `at` paths, with no name or email extracted.
+  - The rule is recorded in `learningSupport/README.md`, the skill's step 2 and
+    `SKILLS.md`. Cannon and Hickory Grove name no therapist, so neither changes.
+- **Review edit (2026-10-25): Testing & Evaluation is about identifying a need, not
+  admission (user correction, a standing rule).**
+  - Davidson Day's four admission-assessment entries were removed. Its entrance tests
+    remain in the Services "Entrance testing" row.
+  - The card now holds three entries:
+    - IH: "Request and intake call", quoting the LEC FAQ, with the form's
+      no-documentation finding as the muted line;
+    - NS: "Screening for reading, math or attention";
+    - NS: "Psychoeducational evaluation".
+  - Its sources are `[LEC, FORM]`, and the headline was rewritten.
+  - The rule is in the README, the skill's scoring table and `SKILLS.md`.
+  - **Open:** Cannon's Testing card still has an "Entrance evaluations" entry, which
+    breaks the new rule. It is out of this plan's scope and has been raised with the
+    user.

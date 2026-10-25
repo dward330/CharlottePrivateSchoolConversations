@@ -929,7 +929,7 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 
 **Schools with data:** 3/13 — absent: `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
 
-<details><summary>Types defined in <code>learningSupport.ts</code> (13)</summary>
+<details><summary>Types defined in <code>learningSupport.ts</code> (14)</summary>
 
 `LearningLead` — `strong`
 
@@ -943,9 +943,11 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 
 `ServicesCard` — `headline`, `verdicts`, `groups`, `sources`
 
-`TherapyCard` — `headline`, `items`, `note?`, `sources`
+`TherapyCard` — `headline`, `items`, `people?`, `note?`, `sources`
 
 `TestingCard` — `headline`, `entries`, `sources`
+
+`StaffPerson` — `name`, `role`, `email?`
 
 `StaffCard` — `headline`, `people`, `note?`, `sources`
 

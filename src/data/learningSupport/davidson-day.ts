@@ -291,33 +291,25 @@ export const davidsonDay: LearningSupportProgram = {
       { name: 'Occupational', code: 'IH_FEE', detail: 'Integrative Wellness, on campus, “an additional service.” Summer 2026: $160 for a 60-minute session.' },
       { name: 'Physical', code: 'NS' },
     ],
-    note: 'Rebecca Miller, Speech/Language Pathologist, is on the LEC staff list. School-year therapy rates are shared with families before school starts and are not published.',
+    people: [{ name: 'Rebecca Miller', role: 'Speech/Language Pathologist', email: 'rmiller@davidsonday.org' }],
+    note: 'The speech-language pathologist is on the LEC staff list. School-year therapy rates are shared with families before school starts and are not published.',
     sources: [LEC, SUMMER, DIRECTORY],
   },
 
   testing: {
     headline:
-      'Davidson Day publishes its admission assessments by grade. It does not say whether it evaluates learning differences, or who does.',
+      'Davidson Day publishes no screening or evaluation for learning differences. A family asks for LEC support with a request form, and the Director of Learning Services follows up by phone.',
     entries: [
       {
         code: 'IH',
-        title: 'Early Preschool and Preschool',
-        text: 'Children join a classroom, “with teachers observing to assess fine and gross motor skills, collaboration, and areas of individual interest.”',
+        title: 'Request and intake call',
+        text: 'Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs and what type of tutoring services are available.”',
+        muted: 'The 2026-2027 request form asks for no diagnosis, evaluation or other documentation.',
       },
       {
-        code: 'IH',
-        title: 'Junior Kindergarten–1st Grade',
-        text: 'Students “will take the Gesell Readiness Assessment during their shadow visit.”',
-      },
-      {
-        code: 'IH',
-        title: '2nd–4th Grade',
-        text: 'A reading assessment during the shadow visit, and the Independent School Entrance Exam (ISEE) “at home.”',
-      },
-      {
-        code: 'IH',
-        title: '5th–12th Grade',
-        text: 'Students “will take the Independent School Entrance Exam (ISEE).”',
+        code: 'NS',
+        title: 'Screening for reading, math or attention',
+        text: 'The school does not describe any early identification or screening.',
       },
       {
         code: 'NS',
@@ -325,7 +317,7 @@ export const davidsonDay: LearningSupportProgram = {
         text: 'The school does not say whether it tests for learning differences, asks for an outside evaluation, or names evaluators.',
       },
     ],
-    sources: [ADMISSION],
+    sources: [LEC, FORM],
   },
 
   staff: {

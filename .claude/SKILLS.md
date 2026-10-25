@@ -386,6 +386,13 @@ fee rows and 504/IEP glossary markers, which Cannon lacks.
 > fee. Build to the richest school, gate on the thinnest. A deeper pass is offered
 > before any NO-GO.
 
+> **📧 Every named person gets their published email** (2026-10-25): on Who You'll Work
+> With and on the Therapy card (`therapy.people`), read from the school's own
+> directory and never built from a name pattern.
+
+> **🔎 Testing & Evaluation means identifying a need, not admission** (2026-10-25).
+> Entrance tests go in the Services "Entrance testing" row.
+
 > **⚠️ Programs get renamed.** Hickory Grove's "SCA" URL 404ed because the program had
 > become "Educational Support Services". A 404 sends the skill to the site's own
 > navigation, never to a "not published" finding.

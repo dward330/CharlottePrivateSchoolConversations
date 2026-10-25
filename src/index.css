@@ -7422,6 +7422,7 @@ a.cs-college-name:focus-visible {
 
 /* Staff rows. */
 .ls-staff { display: flex; flex-direction: column; }
+.ls-staff-therapy { margin-top: 12px; }
 .ls-person { display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 9px 0; border-bottom: 1px solid var(--border); }
 .ls-person-name { flex: 1 1 180px; min-width: 0; font-family: var(--heading); font-weight: 600; font-size: 17px; }
 .ls-person-role { flex: 1 1 200px; min-width: 0; font-size: 13px; }

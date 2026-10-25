@@ -30,6 +30,7 @@ import {
   type LearningSupportProgram,
   type ServicesCard,
   type StaffCard,
+  type StaffPerson,
   type TestingCard,
   type TherapyCard,
 } from '../data/learningSupport.ts'
@@ -251,7 +252,7 @@ function ServicesBody({ data }: { data: ServicesCard }) {
   )
 }
 
-function TherapyBody({ data }: { data: TherapyCard }) {
+function TherapyBody({ data, schoolName }: { data: TherapyCard; schoolName: string }) {
   const { t } = useTranslation()
   return (
     <div className="ls-body">
@@ -267,6 +268,9 @@ function TherapyBody({ data }: { data: TherapyCard }) {
           </div>
         ))}
       </div>
+      {data.people && data.people.length > 0 && (
+        <PeopleList people={data.people} schoolName={schoolName} className="ls-staff ls-staff-therapy" />
+      )}
       {data.note && <p className="ls-note"><RichText text={data.note} /></p>}
       <SourceRow sources={data.sources} className="ls-src" />
     </div>
@@ -305,22 +309,29 @@ function TestingBody({ data }: { data: TestingCard }) {
   )
 }
 
+/** Name / role / mailto rows — the staff card's, reused wherever a card names people. */
+function PeopleList({ people, schoolName, className = 'ls-staff' }: { people: StaffPerson[]; schoolName: string; className?: string }) {
+  return (
+    <div className={className} data-email={people.some((p) => p.email) || undefined}>
+      {people.map((p) => (
+        <div key={p.name} className="ls-person">
+          <span className="ls-person-name">{p.name}</span>
+          <span className="text-muted ls-person-role">{p.role}</span>
+          {p.email && (
+            <a className="ls-person-email" href={schoolInquiryMailto(p.email, schoolName)}>
+              <bdi dir="ltr">{p.email}</bdi>
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  )
+}
+
 function StaffBody({ data, schoolName }: { data: StaffCard; schoolName: string }) {
   return (
     <div className="ls-body">
-      <div className="ls-staff" data-email={data.people.some((p) => p.email) || undefined}>
-        {data.people.map((p) => (
-          <div key={p.name} className="ls-person">
-            <span className="ls-person-name">{p.name}</span>
-            <span className="text-muted ls-person-role">{p.role}</span>
-            {p.email && (
-              <a className="ls-person-email" href={schoolInquiryMailto(p.email, schoolName)}>
-                <bdi dir="ltr">{p.email}</bdi>
-              </a>
-            )}
-          </div>
-        ))}
-      </div>
+      <PeopleList people={data.people} schoolName={schoolName} />
       {data.note && <Lead lead={data.note} className="ls-note ls-note-staff" />}
       <SourceRow sources={data.sources} className="ls-src" />
     </div>
@@ -372,7 +383,7 @@ export function LearningSupportCardBody({
     case 'services':
       return <ServicesBody data={program.services!} />
     case 'therapy':
-      return <TherapyBody data={program.therapy!} />
+      return <TherapyBody data={program.therapy!} schoolName={schoolName} />
     case 'testing':
       return <TestingBody data={program.testing!} />
     case 'staff':
