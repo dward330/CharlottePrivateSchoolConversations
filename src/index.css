@@ -7433,6 +7433,26 @@ a.cs-college-name:focus-visible {
 @media (max-width: 640px) {
   .ls-staff[data-email] .ls-person { grid-template-columns: minmax(0, 1fr); }
 }
+/* A long staff list (more than STAFF_SCROLL_MIN people) scrolls in place.
+   Scroll shadows (background-attachment: local) show more rows above/below:
+   pure CSS, so identical in RTL. Printing shows every row. */
+.ls-staff-count { margin: 0 0 6px; font-size: 12px; }
+.ls-staff-scroll {
+  max-height: min(32rem, 70vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-block: 1px solid var(--border);
+  background:
+    linear-gradient(var(--bg) 30%, transparent) top / 100% 32px no-repeat local,
+    linear-gradient(transparent, var(--bg) 70%) bottom / 100% 32px no-repeat local,
+    radial-gradient(farthest-side at 50% 0, color-mix(in srgb, var(--text) 18%, transparent), transparent) top / 100% 10px no-repeat scroll,
+    radial-gradient(farthest-side at 50% 100%, color-mix(in srgb, var(--text) 18%, transparent), transparent) bottom / 100% 10px no-repeat scroll;
+}
+.ls-staff-scroll:focus-visible { outline: 2px solid var(--ls-ink); outline-offset: 2px; }
+@media print {
+  .ls-staff-scroll { max-height: none; overflow: visible; border-block: 0; background: none; }
+  .ls-staff-count { display: none; }
+}
 
 /* Ask the School. */
 .ls-questions { margin: 0; padding-inline-start: 22px; display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; line-height: 1.5; }

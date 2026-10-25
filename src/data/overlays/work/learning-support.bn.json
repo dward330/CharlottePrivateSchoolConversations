@@ -5,6 +5,1257 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” with one-on-one learning support in the Lower and Middle Schools, academic coaching in the Upper School, and accommodations for students with a documented disability.",
+      "of": "d1a138ab",
+      "at": [
+        "charlotte-country-day:lead.strong"
+      ],
+      "t": "Country Day-এর Educational Resource Program “junior kindergarten থেকে 12তম শ্রেণি পর্যন্ত শিক্ষার্থীদের সহায়তা করে”, Lower School ও Middle School-এ একক (ওয়ান-অন-ওয়ান) শেখার সহায়তা, Upper School-এ একাডেমিক কোচিং এবং নথিভুক্ত প্রতিবন্ধকতা থাকা শিক্ষার্থীদের জন্য সুবিধা-ব্যবস্থা দিয়ে।"
+    },
+    {
+      "text": "Sessions are billed to the student’s account: $82 for 45 minutes in the Lower School, $85 a session in the Middle and Upper Schools.",
+      "of": "d6d780e1",
+      "at": [
+        "charlotte-country-day:lead.muted"
+      ],
+      "t": "সেশনের খরচ শিক্ষার্থীর অ্যাকাউন্টে বিল করা হয়: Lower School-এ 45 মিনিটের জন্য $82, Middle School ও Upper School-এ প্রতি সেশন $85।"
+    },
+    {
+      "text": "a 45-minute Lower School session",
+      "of": "ed157a21",
+      "at": [
+        "charlotte-country-day:stats[0].label"
+      ],
+      "t": "Lower School-এর একটি 45 মিনিটের সেশন"
+    },
+    {
+      "text": "grades JK–4, billed through the student’s account by the Business Office",
+      "of": "6d190b7f",
+      "at": [
+        "charlotte-country-day:stats[0].note"
+      ],
+      "t": "JK–4 শ্রেণি, Business Office শিক্ষার্থীর অ্যাকাউন্টে বিল করে"
+    },
+    {
+      "text": "a Middle or Upper School session",
+      "of": "10ce0e92",
+      "at": [
+        "charlotte-country-day:stats[1].label"
+      ],
+      "t": "Middle School বা Upper School-এর একটি সেশন"
+    },
+    {
+      "text": "Middle School learning support and Upper School academic coaching; the session length is not stated",
+      "of": "f237e329",
+      "at": [
+        "charlotte-country-day:stats[1].note"
+      ],
+      "t": "Middle School-এর শেখার সহায়তা ও Upper School-এর একাডেমিক কোচিং; সেশনের দৈর্ঘ্য উল্লেখ নেই"
+    },
+    {
+      "text": "Educational Resource Program staff",
+      "of": "8f890e16",
+      "at": [
+        "charlotte-country-day:stats[2].label"
+      ],
+      "t": "Educational Resource Program-এর কর্মী"
+    },
+    {
+      "text": "three division directors, 19 learning specialists and four academic coaches",
+      "of": "372507eb",
+      "at": [
+        "charlotte-country-day:stats[2].note"
+      ],
+      "t": "তিনজন বিভাগীয় পরিচালক, উনিশজন শেখার বিশেষজ্ঞ এবং চারজন একাডেমিক কোচ"
+    },
+    {
+      "text": "school counselors",
+      "of": "83d116a4",
+      "at": [
+        "charlotte-country-day:stats[3].label",
+        "cannon:stats[3].label",
+        "davidson-day:stats[3].label"
+      ],
+      "t": "স্কুল কাউন্সেলর"
+    },
+    {
+      "text": "two in each division, alongside a Director of Health and Wellness",
+      "of": "c5c5d572",
+      "at": [
+        "charlotte-country-day:stats[3].note"
+      ],
+      "t": "প্রতিটি বিভাগে দুজন, সঙ্গে একজন স্বাস্থ্য ও সুস্থতা পরিচালক"
+    },
+    {
+      "text": "Country Day gives school-based accommodations to students with a documented disability, from its own approved list. Learning-support sessions need no testing.",
+      "of": "555f88f3",
+      "at": [
+        "charlotte-country-day:eligibility.headline"
+      ],
+      "t": "Country Day নথিভুক্ত প্রতিবন্ধকতা থাকা শিক্ষার্থীদের নিজস্ব অনুমোদিত তালিকা থেকে স্কুলভিত্তিক সুবিধা-ব্যবস্থা দেয়। শেখার সহায়তার সেশনের জন্য কোনো পরীক্ষার দরকার নেই।"
+    },
+    {
+      "text": "Accommodations are for “students with documented disabilities,” and “A licensed service provider must document disabilities through a full psychoeducational evaluation.” Learning-support sessions are different: in the Lower School “A psychoeducational evaluation is not required for services,” and Middle School support is open to students “both with and without formal testing.”",
+      "of": "e5f4ba3b",
+      "at": [
+        "charlotte-country-day:eligibility.eligible"
+      ],
+      "t": "সুবিধা-ব্যবস্থা “নথিভুক্ত প্রতিবন্ধকতা থাকা শিক্ষার্থীদের” জন্য, এবং “একজন লাইসেন্সপ্রাপ্ত সেবাদাতাকে পূর্ণাঙ্গ মনো-শিক্ষাগত মূল্যায়নের মাধ্যমে প্রতিবন্ধকতা নথিভুক্ত করতে হবে।” শেখার সহায়তার সেশন আলাদা: Lower School-এ “সেবার জন্য মনো-শিক্ষাগত মূল্যায়ন প্রয়োজন নেই”, এবং Middle School-এর সহায়তা খোলা “আনুষ্ঠানিক পরীক্ষা থাকা ও না থাকা উভয় শিক্ষার্থীর জন্য।”"
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans or IEPs. A full psychoeducational evaluation is the only evaluation accepted for formal accommodations: “A simple doctor’s note or medical diagnosis (e.g., ADHD or anxiety) does not provide enough information to justify accommodations.” Supports an outside provider suggests “are considered recommendations and are not mandated.”",
+      "of": "fa488486",
+      "at": [
+        "charlotte-country-day:eligibility.plan"
+      ],
+      "t": "স্কুলের পাতাগুলোতে 504 প্ল্যান বা IEP-এর উল্লেখ নেই। আনুষ্ঠানিক সুবিধা-ব্যবস্থার জন্য পূর্ণাঙ্গ মনো-শিক্ষাগত মূল্যায়নই একমাত্র গ্রহণযোগ্য মূল্যায়ন: “ডাক্তারের একটি সাধারণ নোট বা চিকিৎসাগত রোগনির্ণয় (যেমন ADHD বা উদ্বেগ) সুবিধা-ব্যবস্থার যৌক্তিকতা প্রমাণে যথেষ্ট তথ্য দেয় না।” বাইরের সেবাদাতার প্রস্তাবিত সহায়তা “সুপারিশ হিসেবে গণ্য হয় এবং বাধ্যতামূলক নয়।”"
+    },
+    {
+      "text": "“Students are eligible only for Country Day-approved accommodations; accommodations outside this list are not granted.” The approved list covers classroom accommodations, Country Day tests and standardized-test requests.",
+      "of": "af13bd0a",
+      "at": [
+        "charlotte-country-day:eligibility.scope"
+      ],
+      "t": "“শিক্ষার্থীরা কেবল Country Day-অনুমোদিত সুবিধা-ব্যবস্থার জন্য যোগ্য; এই তালিকার বাইরের সুবিধা-ব্যবস্থা দেওয়া হয় না।” অনুমোদিত তালিকায় শ্রেণিকক্ষের সুবিধা-ব্যবস্থা, Country Day-এর পরীক্ষা এবং মানসম্মত পরীক্ষার অনুরোধ অন্তর্ভুক্ত।"
+    },
+    {
+      "text": "A speech-language, occupational therapy or auditory processing evaluation “may receive school approved accommodations for one year.”",
+      "of": "5c17775a",
+      "at": [
+        "charlotte-country-day:eligibility.note"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ, অকুপেশনাল থেরাপি বা শ্রবণ প্রক্রিয়াকরণ মূল্যায়নের ভিত্তিতে “এক বছরের জন্য স্কুল-অনুমোদিত সুবিধা-ব্যবস্থা পাওয়া যেতে পারে।”"
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. Learning-support sessions and coaching are billed per session; speech and occupational therapy come from independent providers on campus. Pick your child’s need to see what applies.",
+      "of": "0e12b86d",
+      "at": [
+        "charlotte-country-day:services.headline"
+      ],
+      "t": "স্কুলের পাতায় বর্ণিত প্রতিটি সেবা, কে তা দেয় সেই অনুযায়ী দলবদ্ধ ও কোড করা। শেখার সহায়তার সেশন ও কোচিং প্রতি সেশন হিসেবে বিল হয়; স্পিচ ও অকুপেশনাল থেরাপি ক্যাম্পাসে স্বাধীন সেবাদাতাদের কাছ থেকে আসে। কী প্রযোজ্য তা দেখতে আপনার সন্তানের প্রয়োজন বেছে নিন।"
+    },
+    {
+      "text": "One-on-one Orton-Gillingham-based support in the Lower School, and small reading groups in K–1.",
+      "of": "af9a7a8d",
+      "at": [
+        "charlotte-country-day:services.verdicts.read.head"
+      ],
+      "t": "Lower School-এ Orton-Gillingham-ভিত্তিক একক সহায়তা, এবং K–1-এ ছোট পঠন দল।"
+    },
+    {
+      "text": "Lower School specialists “bring advanced training, including Orton-Gillingham,” and the Hochman Method (The Writing Revolution). “For K–1 students, the Reading Specialist provides small-group literacy instruction.”",
+      "of": "bb703f58",
+      "at": [
+        "charlotte-country-day:services.verdicts.read.body"
+      ],
+      "t": "Lower School-এর বিশেষজ্ঞরা “Orton-Gillingham সহ উন্নত প্রশিক্ষণ নিয়ে আসেন”, সঙ্গে Hochman Method (The Writing Revolution)। “K–1 শিক্ষার্থীদের জন্য, Reading Specialist ছোট দলে সাক্ষরতা শিক্ষা দেন।”"
+    },
+    {
+      "text": "Academic coaching in the Upper School, and executive-skills support in the Middle School.",
+      "of": "1b0b8bb0",
+      "at": [
+        "charlotte-country-day:services.verdicts.attn.head"
+      ],
+      "t": "Upper School-এ একাডেমিক কোচিং, এবং Middle School-এ নির্বাহী দক্ষতার সহায়তা।"
+    },
+    {
+      "text": "Each coaching session “uses a student’s current coursework as the practice ground.” Upper School coaching is scheduled “on a first-come, first-served basis” and “begins after the first day of school as staffing allows.”",
+      "of": "6ca26dbc",
+      "at": [
+        "charlotte-country-day:services.verdicts.attn.body"
+      ],
+      "t": "প্রতিটি কোচিং সেশন “শিক্ষার্থীর বর্তমান কোর্সওয়ার্ককে অনুশীলনের ক্ষেত্র হিসেবে ব্যবহার করে।” Upper School-এর কোচিং নির্ধারিত হয় “আগে এলে আগে পাবেন ভিত্তিতে” এবং “কর্মী-সংখ্যা অনুযায়ী স্কুলের প্রথম দিনের পরে শুরু হয়।”"
+    },
+    {
+      "text": "One-on-one multi-sensory math in the Lower School, and math support in the Middle School.",
+      "of": "379d29bd",
+      "at": [
+        "charlotte-country-day:services.verdicts.math.head"
+      ],
+      "t": "Lower School-এ একক বহু-ইন্দ্রিয়ভিত্তিক গণিত, এবং Middle School-এ গণিত সহায়তা।"
+    },
+    {
+      "text": "Lower School math is taught with “hands-on manipulatives, explicit language and multi-sensory engagement.” Middle School specialists help students strengthen “writing, math, and reading comprehension within the context of their coursework.”",
+      "of": "9c3cf3e9",
+      "at": [
+        "charlotte-country-day:services.verdicts.math.body"
+      ],
+      "t": "Lower School-এ গণিত শেখানো হয় “হাতে-কলমে উপকরণ, স্পষ্ট ভাষা ও বহু-ইন্দ্রিয়ভিত্তিক সম্পৃক্ততা” দিয়ে। Middle School-এর বিশেষজ্ঞরা শিক্ষার্থীদের “তাদের কোর্সওয়ার্কের প্রেক্ষিতে লেখা, গণিত ও পঠন-বোধ” মজবুত করতে সাহায্য করেন।"
+    },
+    {
+      "text": "Screening and therapy on campus, through an independent provider the family pays directly.",
+      "of": "5277b464",
+      "at": [
+        "charlotte-country-day:services.verdicts.speech.head"
+      ],
+      "t": "ক্যাম্পাসে স্ক্রিনিং ও থেরাপি, একটি স্বাধীন সেবাদাতার মাধ্যমে যাকে পরিবার সরাসরি অর্থ দেয়।"
+    },
+    {
+      "text": "TerrificTalkers’ speech-language pathologists screen on campus for $25.00 and “operate independently of this school and are not employees of the school.” Therapy is arranged and paid for with the provider.",
+      "of": "2e4d026e",
+      "at": [
+        "charlotte-country-day:services.verdicts.speech.body"
+      ],
+      "t": "TerrificTalkers-এর স্পিচ-ল্যাঙ্গুয়েজ প্যাথলজিস্টরা ক্যাম্পাসে $25.00-এ স্ক্রিনিং করেন এবং “এই স্কুল থেকে স্বাধীনভাবে কাজ করেন ও স্কুলের কর্মচারী নন।” থেরাপির ব্যবস্থা ও অর্থ পরিশোধ সেবাদাতার সঙ্গে হয়।"
+    },
+    {
+      "text": "Occupational therapy on campus through an independent provider. No physical therapy is listed.",
+      "of": "1bb32dbf",
+      "at": [
+        "charlotte-country-day:services.verdicts.motor.head"
+      ],
+      "t": "একটি স্বাধীন সেবাদাতার মাধ্যমে ক্যাম্পাসে অকুপেশনাল থেরাপি। ফিজিক্যাল থেরাপির উল্লেখ নেই।"
+    },
+    {
+      "text": "Southern Piedmont Pediatric Therapy screens for $25, and “OT’s are on campus 1-2 days per week.” If you schedule therapy, “all financial arrangements will be between you and Southern Piedmont Pediatric Therapy.”",
+      "of": "563b3fd6",
+      "at": [
+        "charlotte-country-day:services.verdicts.motor.body"
+      ],
+      "t": "Southern Piedmont Pediatric Therapy $25-এ স্ক্রিনিং করে, এবং “OT-রা সপ্তাহে 1-2 দিন ক্যাম্পাসে থাকেন।” আপনি থেরাপি নির্ধারণ করলে, “সমস্ত আর্থিক ব্যবস্থা হবে আপনার এবং Southern Piedmont Pediatric Therapy-এর মধ্যে।”"
+    },
+    {
+      "text": "Six school counselors, two in each division, and published crisis lines.",
+      "of": "3defd924",
+      "at": [
+        "charlotte-country-day:services.verdicts.social.head"
+      ],
+      "t": "ছয়জন স্কুল কাউন্সেলর, প্রতিটি বিভাগে দুজন, এবং প্রকাশিত সংকট হেল্পলাইন।"
+    },
+    {
+      "text": "Lower School counselors provide “short-term individual and/or family counseling if needed, and referral to outside experts when appropriate.” The Health Services page links 988, the Crisis Text Line and the NC Peer Warmline.",
+      "of": "06f844a2",
+      "at": [
+        "charlotte-country-day:services.verdicts.social.body"
+      ],
+      "t": "Lower School-এর কাউন্সেলররা দেন “প্রয়োজনে স্বল্পমেয়াদি ব্যক্তিগত এবং/অথবা পারিবারিক কাউন্সেলিং, এবং উপযুক্ত ক্ষেত্রে বাইরের বিশেষজ্ঞের কাছে রেফারাল।” Health Services পাতায় 988, Crisis Text Line এবং NC Peer Warmline-এর লিংক আছে।"
+    },
+    {
+      "text": "No gifted or advanced-learner program is described.",
+      "of": "e696db67",
+      "at": [
+        "charlotte-country-day:services.verdicts.gifted.head",
+        "charlotte-country-day:services.groups[0].rows[9].detail"
+      ],
+      "t": "মেধাবী বা অগ্রসর শিক্ষার্থীদের জন্য কোনো প্রোগ্রামের বর্ণনা নেই।"
+    },
+    {
+      "text": "The school’s learning-support pages describe no gifted program. Ask what is available for advanced learners.",
+      "of": "37ea31b6",
+      "at": [
+        "charlotte-country-day:services.verdicts.gifted.body"
+      ],
+      "t": "স্কুলের শেখার সহায়তার পাতাগুলো কোনো মেধাবী-শিক্ষার্থী প্রোগ্রামের বর্ণনা দেয় না। অগ্রসর শিক্ষার্থীদের জন্য কী আছে তা জিজ্ঞেস করুন।"
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "charlotte-country-day:services.groups[0].name",
+        "cannon:services.groups[0].name",
+        "davidson-day:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "শেখা ও একাডেমিক সহায়তা"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[0].service",
+        "cannon:services.groups[0].rows[0].service",
+        "davidson-day:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "বিশেষায়িত শিক্ষক"
+    },
+    {
+      "text": "Nineteen learning specialists and four Upper School academic coaches, led by a director in each division, plus a Lower School Reading Specialist and Literacy Coach. Lower School specialists “bring advanced training, including Orton-Gillingham.”",
+      "of": "634d3c80",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[0].detail"
+      ],
+      "t": "উনিশজন শেখার বিশেষজ্ঞ এবং Upper School-এর চারজন একাডেমিক কোচ, প্রতিটি বিভাগে একজন পরিচালকের নেতৃত্বে, সঙ্গে Lower School-এ একজন Reading Specialist ও Literacy Coach। Lower School-এর বিশেষজ্ঞরা “Orton-Gillingham সহ উন্নত প্রশিক্ষণ নিয়ে আসেন।”"
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[1].service",
+        "cannon:services.groups[0].rows[1].service",
+        "davidson-day:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "পড়ায় হস্তক্ষেপ"
+    },
+    {
+      "text": "Lower School specialists give one-on-one support in reading and writing, “typically twice per week,” drawing on Orton-Gillingham and the Hochman Method. K–1 students may also get “small-group literacy instruction” from the Reading Specialist; the school does not say whether those groups are billed.",
+      "of": "fcada4ba",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[1].detail"
+      ],
+      "t": "Lower School-এর বিশেষজ্ঞরা পড়া ও লেখায় একক সহায়তা দেন, “সাধারণত সপ্তাহে দুবার”, Orton-Gillingham ও Hochman Method-এর ভিত্তিতে। K–1 শিক্ষার্থীরা Reading Specialist-এর কাছ থেকে “ছোট দলে সাক্ষরতা শিক্ষা”ও পেতে পারে; এই দলগুলোর জন্য বিল হয় কি না, স্কুল তা বলে না।"
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[2].service",
+        "cannon:services.groups[0].rows[2].service",
+        "davidson-day:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "গণিতে হস্তক্ষেপ"
+    },
+    {
+      "text": "One-on-one “Multi-Sensory Math” in the Lower School, and math within Middle School learning support.",
+      "of": "ea4d6d31",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[2].detail"
+      ],
+      "t": "Lower School-এ একক “বহু-ইন্দ্রিয়ভিত্তিক গণিত”, এবং Middle School-এর শেখার সহায়তার মধ্যে গণিত।"
+    },
+    {
+      "text": "1:1 / small-group instruction",
+      "of": "c8ed8f2d",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[3].service",
+        "cannon:services.groups[0].rows[3].service",
+        "davidson-day:services.groups[0].rows[3].service"
+      ],
+      "t": "1:1 / ছোট দলে পাঠদান"
+    },
+    {
+      "text": "One-on-one in every division: Lower School sessions are “$82 per 45-minute session,” Middle School sessions “$85 per session.” Small groups are for K–1 literacy only.",
+      "of": "d2345e76",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[3].detail"
+      ],
+      "t": "প্রতিটি বিভাগে একক: Lower School-এর সেশন “45 মিনিটের প্রতি সেশন $82”, Middle School-এর সেশন “প্রতি সেশন $85।” ছোট দল কেবল K–1 সাক্ষরতার জন্য।"
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[4].service",
+        "cannon:services.groups[0].rows[5].service",
+        "davidson-day:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "এক্সিকিউটিভ ফাংশন কোচিং"
+    },
+    {
+      "text": "Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers “Executive skills (organization, planning, study routines).”",
+      "of": "cc7a5ba5",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[4].detail"
+      ],
+      "t": "Upper School-এর একাডেমিক কোচিং “প্রতি সেশন $85 হারে বিল করা হয়”: 9ম শ্রেণিতে মূল বিষয়গুলোর জন্য একজন কোচ, তারপর 10–12 শ্রেণিতে মানবিক বা STEM কোচিং। Middle School-এর সহায়তায় রয়েছে “নির্বাহী দক্ষতা (সংগঠন, পরিকল্পনা, পড়ার রুটিন)।”"
+    },
+    {
+      "text": "Learning-support class",
+      "of": "fd470495",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[5].service",
+        "cannon:services.groups[0].rows[6].service",
+        "davidson-day:services.groups[0].rows[6].service"
+      ],
+      "t": "শেখার সহায়তার ক্লাস"
+    },
+    {
+      "text": "No learning-support class is offered, but sessions “are a permanent part of student schedules” and are “treated as class periods,” held during study halls, special-area classes or lunch.",
+      "of": "f556a324",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[5].detail"
+      ],
+      "t": "শেখার সহায়তার আলাদা কোনো ক্লাস নেই, তবে সেশনগুলো “শিক্ষার্থীর রুটিনের স্থায়ী অংশ” এবং “ক্লাস পিরিয়ড হিসেবে গণ্য”, যা স্টাডি হল, বিশেষ-বিষয়ের ক্লাস বা দুপুরের খাবারের সময় হয়।"
+    },
+    {
+      "text": "Accommodations & learning plan",
+      "of": "c65478ab",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[6].service",
+        "cannon:services.groups[0].rows[7].service",
+        "davidson-day:services.groups[0].rows[7].service"
+      ],
+      "t": "সুবিধা-ব্যবস্থা ও শিখন-পরিকল্পনা"
+    },
+    {
+      "text": "Accommodations come only from the school’s approved list and are recorded in a “Confidential Academic Plan (CAP)” that every teacher can see. Middle and Upper School students with “a documented mental health diagnosis may receive temporary accommodations” while awaiting an evaluation.",
+      "of": "2ddc2b0a",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[6].detail"
+      ],
+      "t": "সুবিধা-ব্যবস্থা কেবল স্কুলের অনুমোদিত তালিকা থেকে আসে এবং একটি “Confidential Academic Plan (CAP)”-এ লিপিবদ্ধ হয়, যা প্রত্যেক শিক্ষক দেখতে পারেন। Middle School ও Upper School-এর যেসব শিক্ষার্থীর “নথিভুক্ত মানসিক স্বাস্থ্য রোগনির্ণয় আছে, তারা অস্থায়ী সুবিধা-ব্যবস্থা পেতে পারে” মূল্যায়নের অপেক্ষার সময়।"
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[7].service",
+        "cannon:services.groups[0].rows[8].service",
+        "davidson-day:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "বিশেষভাবে পরিকল্পিত পাঠদান"
+    },
+    {
+      "text": "Not described. The school says accommodations change “how a student accesses learning—not what they are expected to learn.”",
+      "of": "707e9ac0",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[7].detail"
+      ],
+      "t": "বর্ণনা নেই। স্কুল বলে, সুবিধা-ব্যবস্থা বদলায় “একজন শিক্ষার্থী কীভাবে শেখায় প্রবেশ করে—তার কাছে কী শেখার প্রত্যাশা, তা নয়।”"
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[8].service",
+        "cannon:services.groups[0].rows[9].service",
+        "davidson-day:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "স্বতন্ত্র কর্মসূচি / আলাদা ক্লাস"
+    },
+    {
+      "text": "No separate program described.",
+      "of": "049eeace",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[8].detail",
+        "davidson-day:services.groups[0].rows[9].detail"
+      ],
+      "t": "আলাদা কোনো কর্মসূচির বর্ণনা নেই।"
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[9].service",
+        "cannon:services.groups[0].rows[10].service",
+        "davidson-day:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "মেধাবী / উচ্চতর স্তর"
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[10].service",
+        "cannon:services.groups[0].rows[11].service",
+        "davidson-day:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "যোগ্যতার নথি"
+    },
+    {
+      "text": "Formal accommodations need a full psychoeducational evaluation, reviewed every three years in Lower and Middle School and every four in Upper School, and submitted through the ERP’s secure online form. Learning-support sessions need none.",
+      "of": "8c478713",
+      "at": [
+        "charlotte-country-day:services.groups[0].rows[10].detail"
+      ],
+      "t": "আনুষ্ঠানিক সুবিধা-ব্যবস্থার জন্য পূর্ণাঙ্গ মনো-শিক্ষাগত মূল্যায়ন লাগে, যা Lower School ও Middle School-এ প্রতি তিন বছরে এবং Upper School-এ প্রতি চার বছরে পর্যালোচনা করা হয়, এবং ERP-এর সুরক্ষিত অনলাইন ফর্মের মাধ্যমে জমা দেওয়া হয়। শেখার সহায়তার সেশনে এর কোনোটিই লাগে না।"
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "charlotte-country-day:services.groups[1].name",
+        "cannon:services.groups[1].name",
+        "davidson-day:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "থেরাপি ও সংশ্লিষ্ট সেবা"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[0].service",
+        "cannon:services.groups[1].rows[0].service",
+        "davidson-day:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ থেরাপি"
+    },
+    {
+      "text": "TerrificTalkers screens on campus for $25.00 and can provide therapy at school; the family pays the provider directly. The school calls them “contracted” therapists “who provide additional services during the school day.”",
+      "of": "cf769c71",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[0].detail"
+      ],
+      "t": "TerrificTalkers ক্যাম্পাসে $25.00-এ স্ক্রিনিং করে এবং স্কুলেই থেরাপি দিতে পারে; পরিবার সরাসরি সেবাদাতাকে অর্থ দেয়। স্কুল তাদের বলে “চুক্তিবদ্ধ” থেরাপিস্ট “যারা স্কুল চলাকালীন অতিরিক্ত সেবা দেন।”"
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[1].service",
+        "cannon:services.groups[1].rows[1].service",
+        "davidson-day:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "অকুপেশনাল থেরাপি"
+    },
+    {
+      "text": "Southern Piedmont Pediatric Therapy screens for $25 and is “on campus 1-2 days per week”; therapy is arranged and paid for with the provider.",
+      "of": "23617032",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[1].detail"
+      ],
+      "t": "Southern Piedmont Pediatric Therapy $25-এ স্ক্রিনিং করে এবং “সপ্তাহে 1-2 দিন ক্যাম্পাসে” থাকে; থেরাপির ব্যবস্থা ও অর্থ পরিশোধ সেবাদাতার সঙ্গে হয়।"
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[2].service",
+        "cannon:services.groups[1].rows[2].service",
+        "davidson-day:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "ফিজিক্যাল থেরাপি"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "charlotte-country-day:services.groups[1].rows[2].detail",
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "davidson-day:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "স্কুল এর উল্লেখ করেনি।"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "charlotte-country-day:services.groups[2].name",
+        "cannon:services.groups[2].name",
+        "davidson-day:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "মূল্যায়ন"
+    },
+    {
+      "text": "Early identification (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[0].service",
+        "cannon:services.groups[2].rows[0].service",
+        "davidson-day:services.groups[2].rows[0].service"
+      ],
+      "t": "প্রাথমিক শনাক্তকরণ (JK–2)"
+    },
+    {
+      "text": "Lower School students are identified through “benchmark assessments given at the beginning, middle, and end of the school year,” and the school offers speech-language and occupational therapy screenings.",
+      "of": "4396d0b2",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[0].detail"
+      ],
+      "t": "Lower School-এর শিক্ষার্থীদের চিহ্নিত করা হয় “শিক্ষাবর্ষের শুরু, মাঝামাঝি ও শেষে নেওয়া বেঞ্চমার্ক মূল্যায়নের” মাধ্যমে, এবং স্কুল স্পিচ-ল্যাঙ্গুয়েজ ও অকুপেশনাল থেরাপি স্ক্রিনিং দেয়।"
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[1].service",
+        "charlotte-country-day:testing.entries[5].title",
+        "cannon:services.groups[2].rows[1].service",
+        "davidson-day:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "পরীক্ষায় সুবিধা-ব্যবস্থা"
+    },
+    {
+      "text": "Approved accommodations include “Extended time (50% more)” on Country Day tests. The ERP submits College Board, ACT and IB requests, but “Country Day accommodations do not automatically transfer.”",
+      "of": "d4de8d65",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[1].detail"
+      ],
+      "t": "অনুমোদিত সুবিধা-ব্যবস্থার মধ্যে Country Day-এর পরীক্ষায় “অতিরিক্ত সময় (50% বেশি)” রয়েছে। ERP College Board, ACT ও IB-এর অনুরোধ জমা দেয়, কিন্তু “Country Day-এর সুবিধা-ব্যবস্থা স্বয়ংক্রিয়ভাবে স্থানান্তরিত হয় না।”"
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[2].service",
+        "cannon:services.groups[2].rows[2].service",
+        "davidson-day:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service"
+      ],
+      "t": "ভর্তি পরীক্ষা"
+    },
+    {
+      "text": "A psychologist’s standardized screening for younger applicants, the ISEE for grades 5–12, and the TOEFL for international applicants.",
+      "of": "75577f81",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[2].detail"
+      ],
+      "t": "ছোট আবেদনকারীদের জন্য একজন মনোবিজ্ঞানীর মানসম্মত স্ক্রিনিং, 5–12 শ্রেণির জন্য ISEE, এবং আন্তর্জাতিক আবেদনকারীদের জন্য TOEFL।"
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[3].service",
+        "charlotte-country-day:testing.entries[3].title",
+        "cannon:services.groups[2].rows[3].service",
+        "davidson-day:services.groups[2].rows[3].service",
+        "davidson-day:testing.entries[2].title",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "সাইকোএডুকেশনাল মূল্যায়ন"
+    },
+    {
+      "text": "Done by outside providers at the family’s cost. The school publishes a list of preferred providers, updated January 2026, some accepting insurance, and “financial aid options are available for qualifying families.”",
+      "of": "ee36bb6a",
+      "at": [
+        "charlotte-country-day:services.groups[2].rows[3].detail"
+      ],
+      "t": "বাইরের সেবাদাতারা পরিবারের খরচে করেন। স্কুল পছন্দের সেবাদাতাদের একটি তালিকা প্রকাশ করে, জানুয়ারি 2026-এ হালনাগাদ, যাদের কেউ কেউ বিমা গ্রহণ করেন, এবং “যোগ্য পরিবারগুলোর জন্য আর্থিক সহায়তার বিকল্প রয়েছে।”"
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "charlotte-country-day:services.groups[3].name",
+        "cannon:services.groups[3].name",
+        "davidson-day:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "সুস্থতা ও স্বাস্থ্য"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[0].service",
+        "cannon:services.groups[3].rows[0].service",
+        "davidson-day:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "পরামর্শ ও মানসিক সহায়তা"
+    },
+    {
+      "text": "Six school counselors, two in each division; three hold the title Director of Counseling. Lower School counselors provide “short-term individual and/or family counseling if needed, and referral to outside experts when appropriate.”",
+      "of": "20e08860",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[0].detail"
+      ],
+      "t": "ছয়জন স্কুল কাউন্সেলর, প্রতিটি বিভাগে দুজন; তিনজনের পদবি কাউন্সেলিং পরিচালক। Lower School-এর কাউন্সেলররা দেন “প্রয়োজনে স্বল্পমেয়াদি ব্যক্তিগত এবং/অথবা পারিবারিক কাউন্সেলিং, এবং উপযুক্ত ক্ষেত্রে বাইরের বিশেষজ্ঞের কাছে রেফারাল।”"
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[1].service",
+        "cannon:services.groups[3].rows[1].service",
+        "davidson-day:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "আবেগ ও আচরণগত হস্তক্ষেপ"
+    },
+    {
+      "text": "No program is described beyond short-term counseling and referral.",
+      "of": "ade7c2ac",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[1].detail"
+      ],
+      "t": "স্বল্পমেয়াদি কাউন্সেলিং ও রেফারালের বাইরে কোনো প্রোগ্রামের বর্ণনা নেই।"
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[2].service",
+        "cannon:services.groups[3].rows[2].service",
+        "davidson-day:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "সংকটকালীন সহায়তা"
+    },
+    {
+      "text": "The Health Services page links Crisis Service Lines: the 988 Suicide & Crisis Lifeline, the Crisis Text Line (text HOME to 741741) and the NC Peer Warmline (1-855-733-7762).",
+      "of": "3ad5896f",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[2].detail"
+      ],
+      "t": "Health Services পাতায় সংকট হেল্পলাইনের লিংক আছে: 988 Suicide & Crisis Lifeline, Crisis Text Line (741741-এ HOME লিখে পাঠান) এবং NC Peer Warmline (1-855-733-7762)।"
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[3].service",
+        "cannon:services.groups[3].rows[3].service",
+        "davidson-day:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "স্কুল মনোবিজ্ঞানী"
+    },
+    {
+      "text": "None named. The Director of Health and Wellness, who started July 1, 2026, is “A licensed clinical psychologist.”",
+      "of": "53c3c840",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[3].detail"
+      ],
+      "t": "কারও নাম দেওয়া নেই। স্বাস্থ্য ও সুস্থতা পরিচালক, যিনি 1 জুলাই 2026-এ যোগ দিয়েছেন, “একজন লাইসেন্সপ্রাপ্ত ক্লিনিক্যাল মনোবিজ্ঞানী।”"
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[4].service",
+        "cannon:services.groups[3].rows[4].service",
+        "davidson-day:services.groups[3].rows[5].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "স্কুল নার্স"
+    },
+    {
+      "text": "“Two full-time nurses on each campus.”",
+      "of": "275ef46e",
+      "at": [
+        "charlotte-country-day:services.groups[3].rows[4].detail"
+      ],
+      "t": "“প্রতিটি ক্যাম্পাসে দুজন পূর্ণকালীন নার্স।”"
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "charlotte-country-day:services.groups[4].name",
+        "cannon:services.groups[4].name",
+        "davidson-day:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "ভাষা"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "charlotte-country-day:services.groups[4].rows[0].service",
+        "cannon:services.groups[4].rows[0].service",
+        "davidson-day:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / ইংরেজি ভাষায় সহায়তা"
+    },
+    {
+      "text": "The school has “a full-time English as a Second Language program,” and the directory lists an English and ESL Teacher in the Upper School.",
+      "of": "38cb0532",
+      "at": [
+        "charlotte-country-day:services.groups[4].rows[0].detail"
+      ],
+      "t": "স্কুলে “একটি পূর্ণকালীন দ্বিতীয় ভাষা হিসেবে ইংরেজি (ESL) প্রোগ্রাম” আছে, এবং ডিরেক্টরিতে Upper School-এর একজন ইংরেজি ও ESL শিক্ষকের নাম আছে।"
+    },
+    {
+      "text": "Speech and occupational therapy are available on campus during the school day from independent providers, arranged and paid for directly by the family. Physical therapy is not listed.",
+      "of": "7ebd8aa6",
+      "at": [
+        "charlotte-country-day:therapy.headline"
+      ],
+      "t": "স্পিচ ও অকুপেশনাল থেরাপি স্কুল চলাকালীন ক্যাম্পাসে স্বাধীন সেবাদাতাদের কাছ থেকে পাওয়া যায়, যার ব্যবস্থা ও অর্থ পরিশোধ পরিবার সরাসরি করে। ফিজিক্যাল থেরাপির উল্লেখ নেই।"
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "charlotte-country-day:therapy.items[0].name",
+        "cannon:therapy.items[0].name",
+        "davidson-day:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ"
+    },
+    {
+      "text": "TerrificTalkers, on campus. Screening $25.00; therapy fees are set by the provider.",
+      "of": "acaee83c",
+      "at": [
+        "charlotte-country-day:therapy.items[0].detail"
+      ],
+      "t": "TerrificTalkers, ক্যাম্পাসে। স্ক্রিনিং $25.00; থেরাপির ফি সেবাদাতা নির্ধারণ করে।"
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "charlotte-country-day:therapy.items[1].name",
+        "cannon:therapy.items[1].name",
+        "davidson-day:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "অকুপেশনাল"
+    },
+    {
+      "text": "Southern Piedmont Pediatric Therapy, on campus 1–2 days a week. Screening $25; therapy fees are set by the provider.",
+      "of": "883e8d76",
+      "at": [
+        "charlotte-country-day:therapy.items[1].detail"
+      ],
+      "t": "Southern Piedmont Pediatric Therapy, সপ্তাহে 1–2 দিন ক্যাম্পাসে। স্ক্রিনিং $25; থেরাপির ফি সেবাদাতা নির্ধারণ করে।"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "charlotte-country-day:therapy.items[2].name",
+        "cannon:therapy.items[2].name",
+        "davidson-day:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "ফিজিক্যাল"
+    },
+    {
+      "text": "Both providers “operate independently” of the school. Screening forms go home through the Lower School; the school does not say whether screening is offered in the Middle or Upper School.",
+      "of": "e13dedc8",
+      "at": [
+        "charlotte-country-day:therapy.note"
+      ],
+      "t": "দুই সেবাদাতাই স্কুল থেকে “স্বাধীনভাবে কাজ করে।” স্ক্রিনিং ফর্ম Lower School-এর মাধ্যমে বাড়িতে পাঠানো হয়; Middle School বা Upper School-এ স্ক্রিনিং হয় কি না, স্কুল তা বলে না।"
+    },
+    {
+      "text": "Lower School students are screened three times a year, and the Educational Resource Program tiers support from the results. Formal accommodations need a full psychoeducational evaluation from an outside provider.",
+      "of": "cac180ad",
+      "at": [
+        "charlotte-country-day:testing.headline"
+      ],
+      "t": "Lower School-এর শিক্ষার্থীদের বছরে তিনবার স্ক্রিনিং হয়, এবং ফলাফলের ভিত্তিতে Educational Resource Program সহায়তার স্তর নির্ধারণ করে। আনুষ্ঠানিক সুবিধা-ব্যবস্থার জন্য বাইরের সেবাদাতার পূর্ণাঙ্গ মনো-শিক্ষাগত মূল্যায়ন লাগে।"
+    },
+    {
+      "text": "Benchmark screening (K–4)",
+      "of": "bb37ebad",
+      "at": [
+        "charlotte-country-day:testing.entries[0].title"
+      ],
+      "t": "বেঞ্চমার্ক স্ক্রিনিং (K–4)"
+    },
+    {
+      "text": "“Students are identified for support based on benchmark assessments given at the beginning, middle, and end of the school year.”",
+      "of": "e6549c33",
+      "at": [
+        "charlotte-country-day:testing.entries[0].text"
+      ],
+      "t": "“শিক্ষাবর্ষের শুরু, মাঝামাঝি ও শেষে নেওয়া বেঞ্চমার্ক মূল্যায়নের ভিত্তিতে শিক্ষার্থীদের সহায়তার জন্য চিহ্নিত করা হয়।”"
+    },
+    {
+      "text": "Data analysis meetings with the Literacy Leadership Team decide which of three tiers of support fits: classroom strategies, K–1 small groups, or one-on-one sessions.",
+      "of": "2fb2c4c1",
+      "at": [
+        "charlotte-country-day:testing.entries[0].muted"
+      ],
+      "t": "Literacy Leadership Team-এর সঙ্গে তথ্য-বিশ্লেষণ সভায় ঠিক হয় সহায়তার তিনটি স্তরের কোনটি উপযুক্ত: শ্রেণিকক্ষের কৌশল, K–1-এর ছোট দল, নাকি একক সেশন।"
+    },
+    {
+      "text": "Educational screening",
+      "of": "5261b444",
+      "at": [
+        "charlotte-country-day:testing.entries[1].title"
+      ],
+      "t": "শিক্ষাগত স্ক্রিনিং"
+    },
+    {
+      "text": "With a parent’s signed consent, the school does “an educational screening” to “identify individual educational needs in order to aid in individualizing instruction.”",
+      "of": "cf128fc1",
+      "at": [
+        "charlotte-country-day:testing.entries[1].text"
+      ],
+      "t": "অভিভাবকের স্বাক্ষরিত সম্মতিতে, স্কুল “একটি শিক্ষাগত স্ক্রিনিং” করে “শিক্ষাদানকে ব্যক্তিকেন্দ্রিক করতে সহায়তার জন্য ব্যক্তিগত শিক্ষাগত প্রয়োজন চিহ্নিত করতে।”"
+    },
+    {
+      "text": "Speech-language and occupational therapy screening",
+      "of": "52a043dc",
+      "at": [
+        "charlotte-country-day:testing.entries[2].title"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ ও অকুপেশনাল থেরাপি স্ক্রিনিং"
+    },
+    {
+      "text": "Independent providers screen on campus for $25. OT screenings are “brief 15-20 minute clinical observations to determine if an OT evaluation is needed”; the speech screening “does not serve as a comprehensive speech/language evaluation.”",
+      "of": "0f92a997",
+      "at": [
+        "charlotte-country-day:testing.entries[2].text"
+      ],
+      "t": "স্বাধীন সেবাদাতারা ক্যাম্পাসে $25-এ স্ক্রিনিং করেন। OT স্ক্রিনিং হলো “OT মূল্যায়ন দরকার কি না তা নির্ধারণে 15-20 মিনিটের সংক্ষিপ্ত ক্লিনিক্যাল পর্যবেক্ষণ”; স্পিচ স্ক্রিনিং “পূর্ণাঙ্গ স্পিচ/ল্যাঙ্গুয়েজ মূল্যায়ন হিসেবে কাজ করে না।”"
+    },
+    {
+      "text": "“A licensed service provider must document disabilities through a full psychoeducational evaluation,” at the family’s cost. The school publishes a preferred-provider list, updated January 2026.",
+      "of": "dba0e58a",
+      "at": [
+        "charlotte-country-day:testing.entries[3].text"
+      ],
+      "t": "“একজন লাইসেন্সপ্রাপ্ত সেবাদাতাকে পূর্ণাঙ্গ মনো-শিক্ষাগত মূল্যায়নের মাধ্যমে প্রতিবন্ধকতা নথিভুক্ত করতে হবে”, পরিবারের খরচে। স্কুল পছন্দের সেবাদাতাদের একটি তালিকা প্রকাশ করে, জানুয়ারি 2026-এ হালনাগাদ।"
+    },
+    {
+      "text": "The accommodations page says evaluations are reviewed every three years in Lower and Middle School and every four in Upper School; the linked policy says three years through grade 5 and four from grade 6.",
+      "of": "bea78274",
+      "at": [
+        "charlotte-country-day:testing.entries[3].muted"
+      ],
+      "t": "সুবিধা-ব্যবস্থার পাতা বলে, মূল্যায়ন Lower School ও Middle School-এ প্রতি তিন বছরে এবং Upper School-এ প্রতি চার বছরে পর্যালোচনা হয়; লিংক করা নীতি বলে 5ম শ্রেণি পর্যন্ত তিন বছর এবং 6ষ্ঠ শ্রেণি থেকে চার বছর।"
+    },
+    {
+      "text": "Confidential Academic Plan",
+      "of": "d79ff665",
+      "at": [
+        "charlotte-country-day:testing.entries[4].title"
+      ],
+      "t": "Confidential Academic Plan"
+    },
+    {
+      "text": "“Teachers and Learning Support staff review each student’s psychoeducational profile and recommended accommodations,” and approved accommodations go into the student’s Confidential Academic Plan (CAP).",
+      "of": "4a0c07c2",
+      "at": [
+        "charlotte-country-day:testing.entries[4].text"
+      ],
+      "t": "“শিক্ষক ও Learning Support কর্মীরা প্রত্যেক শিক্ষার্থীর মনো-শিক্ষাগত প্রোফাইল ও সুপারিশকৃত সুবিধা-ব্যবস্থা পর্যালোচনা করেন”, এবং অনুমোদিত সুবিধা-ব্যবস্থা শিক্ষার্থীর Confidential Academic Plan (CAP)-এ যুক্ত হয়।"
+    },
+    {
+      "text": "Middle and Upper School students with a documented mental health diagnosis may get temporary accommodations through the school counselor while awaiting an evaluation.",
+      "of": "2c1ba2f1",
+      "at": [
+        "charlotte-country-day:testing.entries[4].muted"
+      ],
+      "t": "Middle School ও Upper School-এর যেসব শিক্ষার্থীর নথিভুক্ত মানসিক স্বাস্থ্য রোগনির্ণয় আছে, তারা মূল্যায়নের অপেক্ষার সময় স্কুল কাউন্সেলরের মাধ্যমে অস্থায়ী সুবিধা-ব্যবস্থা পেতে পারে।"
+    },
+    {
+      "text": "Approved accommodations apply to “Daily coursework and quizzes” and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”",
+      "of": "4854f226",
+      "at": [
+        "charlotte-country-day:testing.entries[5].text"
+      ],
+      "t": "অনুমোদিত সুবিধা-ব্যবস্থা প্রযোজ্য “দৈনিক কোর্সওয়ার্ক ও কুইজে” এবং “মিডটার্ম ও ফাইনালসহ Country Day-পরিচালিত পরীক্ষায়।” মানসম্মত পরীক্ষার সুবিধা-ব্যবস্থা “College Board বা ACT-কে আলাদাভাবে অনুমোদন করতে হবে।”"
+    },
+    {
+      "text": "In grades 6–12, testing must reach the school at least seven business days before reading day to be used on exams.",
+      "of": "a6910986",
+      "at": [
+        "charlotte-country-day:testing.entries[5].muted"
+      ],
+      "t": "6–12 শ্রেণিতে, পরীক্ষায় ব্যবহারের জন্য টেস্টিং রিপোর্ট রিডিং ডে-র অন্তত সাত কর্মদিবস আগে স্কুলে পৌঁছাতে হবে।"
+    },
+    {
+      "text": "Forty named staff: the 26-person Educational Resource Program, the Lower School Reading Specialist, the Director of Health and Wellness, seven counselors, four nurses and an ESL teacher.",
+      "of": "1455a3a9",
+      "at": [
+        "charlotte-country-day:staff.headline"
+      ],
+      "t": "নামসহ চল্লিশজন কর্মী: 26 জনের Educational Resource Program, Lower School-এর Reading Specialist, স্বাস্থ্য ও সুস্থতা পরিচালক, সাতজন কাউন্সেলর, চারজন নার্স এবং একজন ESL শিক্ষক।"
+    },
+    {
+      "text": "Director of Lower School ERP",
+      "of": "039f3920",
+      "at": [
+        "charlotte-country-day:staff.people[0].role"
+      ],
+      "t": "Lower School ERP-এর পরিচালক"
+    },
+    {
+      "text": "Learning Specialist, Lower School",
+      "of": "0bbdb8d7",
+      "at": [
+        "charlotte-country-day:staff.people[1].role",
+        "charlotte-country-day:staff.people[2].role",
+        "charlotte-country-day:staff.people[3].role",
+        "charlotte-country-day:staff.people[4].role",
+        "charlotte-country-day:staff.people[5].role",
+        "charlotte-country-day:staff.people[6].role",
+        "charlotte-country-day:staff.people[7].role",
+        "charlotte-country-day:staff.people[8].role",
+        "charlotte-country-day:staff.people[9].role"
+      ],
+      "t": "শেখার বিশেষজ্ঞ, Lower School"
+    },
+    {
+      "text": "Reading Specialist/Literacy Coach, Lower School",
+      "of": "dd1c0ec5",
+      "at": [
+        "charlotte-country-day:staff.people[10].role"
+      ],
+      "t": "পঠন বিশেষজ্ঞ/সাক্ষরতা কোচ, Lower School"
+    },
+    {
+      "text": "Director of Middle School ERP",
+      "of": "4cf6ac68",
+      "at": [
+        "charlotte-country-day:staff.people[11].role"
+      ],
+      "t": "Middle School ERP-এর পরিচালক"
+    },
+    {
+      "text": "Learning Specialist, Middle School",
+      "of": "768fd427",
+      "at": [
+        "charlotte-country-day:staff.people[12].role",
+        "charlotte-country-day:staff.people[13].role",
+        "charlotte-country-day:staff.people[14].role",
+        "charlotte-country-day:staff.people[15].role",
+        "charlotte-country-day:staff.people[16].role",
+        "charlotte-country-day:staff.people[17].role",
+        "charlotte-country-day:staff.people[18].role",
+        "charlotte-country-day:staff.people[19].role",
+        "charlotte-country-day:staff.people[20].role",
+        "charlotte-country-day:staff.people[21].role"
+      ],
+      "t": "শেখার বিশেষজ্ঞ, Middle School"
+    },
+    {
+      "text": "Director of Upper School ERP",
+      "of": "370fce57",
+      "at": [
+        "charlotte-country-day:staff.people[22].role"
+      ],
+      "t": "Upper School ERP-এর পরিচালক"
+    },
+    {
+      "text": "Academic Coach, Upper School",
+      "of": "39810a0c",
+      "at": [
+        "charlotte-country-day:staff.people[23].role",
+        "charlotte-country-day:staff.people[24].role",
+        "charlotte-country-day:staff.people[25].role",
+        "charlotte-country-day:staff.people[26].role"
+      ],
+      "t": "একাডেমিক কোচ, Upper School"
+    },
+    {
+      "text": "Director of Health and Wellness",
+      "of": "dc1c67ec",
+      "at": [
+        "charlotte-country-day:staff.people[27].role"
+      ],
+      "t": "স্বাস্থ্য ও সুস্থতা পরিচালক"
+    },
+    {
+      "text": "Director of Lower School Counseling",
+      "of": "40aa7c76",
+      "at": [
+        "charlotte-country-day:staff.people[28].role"
+      ],
+      "t": "Lower School কাউন্সেলিং পরিচালক"
+    },
+    {
+      "text": "Lower School Counselor",
+      "of": "cca1ced8",
+      "at": [
+        "charlotte-country-day:staff.people[29].role",
+        "davidson-day:staff.people[14].role"
+      ],
+      "t": "Lower School কাউন্সেলর"
+    },
+    {
+      "text": "Director of Middle School Counseling",
+      "of": "f407e15e",
+      "at": [
+        "charlotte-country-day:staff.people[30].role"
+      ],
+      "t": "Middle School কাউন্সেলিং পরিচালক"
+    },
+    {
+      "text": "Middle School Counselor",
+      "of": "c1f784da",
+      "at": [
+        "charlotte-country-day:staff.people[31].role"
+      ],
+      "t": "Middle School কাউন্সেলর"
+    },
+    {
+      "text": "Director of Upper School Counseling",
+      "of": "ec9d7943",
+      "at": [
+        "charlotte-country-day:staff.people[32].role"
+      ],
+      "t": "Upper School কাউন্সেলিং পরিচালক"
+    },
+    {
+      "text": "Upper School Counselor",
+      "of": "9b93583f",
+      "at": [
+        "charlotte-country-day:staff.people[33].role",
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ],
+      "t": "Upper School কাউন্সেলর"
+    },
+    {
+      "text": "Assistant Director of Athletics, Student Health",
+      "of": "72a8f5fc",
+      "at": [
+        "charlotte-country-day:staff.people[34].role"
+      ],
+      "t": "অ্যাথলেটিক্সের সহকারী পরিচালক, শিক্ষার্থী স্বাস্থ্য"
+    },
+    {
+      "text": "School Nurse, Cannon Campus",
+      "of": "4e112f4e",
+      "at": [
+        "charlotte-country-day:staff.people[35].role",
+        "charlotte-country-day:staff.people[36].role"
+      ],
+      "t": "স্কুল নার্স, Cannon Campus"
+    },
+    {
+      "text": "School Nurse, Bissell Campus",
+      "of": "cdd96043",
+      "at": [
+        "charlotte-country-day:staff.people[37].role",
+        "charlotte-country-day:staff.people[38].role"
+      ],
+      "t": "স্কুল নার্স, Bissell Campus"
+    },
+    {
+      "text": "English and ESL Teacher, Upper School",
+      "of": "a0b05568",
+      "at": [
+        "charlotte-country-day:staff.people[39].role"
+      ],
+      "t": "ইংরেজি ও ESL শিক্ষক, Upper School"
+    },
+    {
+      "text": "Each division’s ERP director is the first contact for learning support and accommodations.",
+      "of": "e3de3b91",
+      "at": [
+        "charlotte-country-day:staff.note.strong"
+      ],
+      "t": "শেখার সহায়তা ও সুবিধা-ব্যবস্থার জন্য প্রতিটি বিভাগের ERP পরিচালকই প্রথম যোগাযোগ।"
+    },
+    {
+      "text": "The school also lists a shared nurses’ inbox, nurses@charlottecountryday.org.",
+      "of": "5d253d49",
+      "at": [
+        "charlotte-country-day:staff.note.muted"
+      ],
+      "t": "স্কুল নার্সদের একটি যৌথ ইনবক্সও দেয়, nurses@charlottecountryday.org।"
+    },
+    {
+      "text": "Thirteen questions to take on the tour, covering what the school’s site leaves unanswered or says two ways: prior plans, evaluation timing, fees, therapy, methods and staffing.",
+      "of": "37a37acc",
+      "at": [
+        "charlotte-country-day:ask.headline"
+      ],
+      "t": "স্কুল পরিদর্শনে নিয়ে যাওয়ার জন্য তেরোটি প্রশ্ন, স্কুলের সাইট যা অমীমাংসিত রাখে বা দুভাবে বলে সেসব নিয়ে: আগের পরিকল্পনা, মূল্যায়নের সময়, ফি, থেরাপি, পদ্ধতি ও কর্মী।"
+    },
+    {
+      "text": "How is a 504 plan, IEP or another school’s accommodations plan treated when a student enrolls? Is a new psychoeducational evaluation always required?",
+      "of": "5b8903f8",
+      "at": [
+        "charlotte-country-day:ask.questions[0]"
+      ],
+      "t": "কোনো শিক্ষার্থী ভর্তি হলে 504 প্ল্যান, IEP বা অন্য স্কুলের সুবিধা-ব্যবস্থার পরিকল্পনাকে কীভাবে বিবেচনা করা হয়? সবসময়ই কি নতুন মনো-শিক্ষাগত মূল্যায়ন লাগে?"
+    },
+    {
+      "text": "Your accommodations page says evaluations are reviewed every three years in Lower and Middle School, but the evaluation policy says three years through grade 5 and four from grade 6. Which applies to grades 5–8?",
+      "of": "24bec79d",
+      "at": [
+        "charlotte-country-day:ask.questions[1]"
+      ],
+      "t": "আপনাদের সুবিধা-ব্যবস্থার পাতা বলে মূল্যায়ন Lower School ও Middle School-এ প্রতি তিন বছরে পর্যালোচনা হয়, কিন্তু মূল্যায়ন নীতি বলে 5ম শ্রেণি পর্যন্ত তিন বছর এবং 6ষ্ঠ শ্রেণি থেকে চার বছর। 5–8 শ্রেণির জন্য কোনটি প্রযোজ্য?"
+    },
+    {
+      "text": "How long is a Middle School or Upper School session at $85?",
+      "of": "9fc535cf",
+      "at": [
+        "charlotte-country-day:ask.questions[2]"
+      ],
+      "t": "$85-এর একটি Middle School বা Upper School সেশন কত দীর্ঘ?"
+    },
+    {
+      "text": "Are the K–1 small reading groups with the Reading Specialist billed, or included in tuition?",
+      "of": "8cc7f81b",
+      "at": [
+        "charlotte-country-day:ask.questions[3]"
+      ],
+      "t": "Reading Specialist-এর সঙ্গে K–1-এর ছোট পঠন দলগুলোর জন্য কি আলাদা বিল হয়, নাকি তা টিউশনের অন্তর্ভুক্ত?"
+    },
+    {
+      "text": "Does financial aid cover Educational Resource Program sessions or academic coaching?",
+      "of": "3892a2df",
+      "at": [
+        "charlotte-country-day:ask.questions[4]"
+      ],
+      "t": "আর্থিক সহায়তা কি Educational Resource Program-এর সেশন বা একাডেমিক কোচিং কভার করে?"
+    },
+    {
+      "text": "What do TerrificTalkers and Southern Piedmont Pediatric Therapy charge for therapy, and do they accept insurance?",
+      "of": "65516c38",
+      "at": [
+        "charlotte-country-day:ask.questions[5]"
+      ],
+      "t": "TerrificTalkers ও Southern Piedmont Pediatric Therapy থেরাপির জন্য কত নেয়, এবং তারা কি বিমা গ্রহণ করে?"
+    },
+    {
+      "text": "Are speech-language and occupational therapy screenings available in the Middle and Upper Schools?",
+      "of": "554fb7a6",
+      "at": [
+        "charlotte-country-day:ask.questions[6]"
+      ],
+      "t": "Middle School ও Upper School-এ কি স্পিচ-ল্যাঙ্গুয়েজ ও অকুপেশনাল থেরাপি স্ক্রিনিং পাওয়া যায়?"
+    },
+    {
+      "text": "Can physical therapy take place on campus during the school day?",
+      "of": "cb57b31c",
+      "at": [
+        "charlotte-country-day:ask.questions[7]"
+      ],
+      "t": "স্কুল চলাকালীন কি ক্যাম্পাসে ফিজিক্যাল থেরাপি হতে পারে?"
+    },
+    {
+      "text": "Do you ever modify the curriculum, or is support always accommodations and one-on-one sessions?",
+      "of": "9d47ecb1",
+      "at": [
+        "charlotte-country-day:ask.questions[8]"
+      ],
+      "t": "আপনারা কি কখনো পাঠ্যক্রম পরিবর্তন করেন, নাকি সহায়তা সবসময় সুবিধা-ব্যবস্থা ও একক সেশনেই সীমিত?"
+    },
+    {
+      "text": "What do you offer advanced or gifted learners?",
+      "of": "67332732",
+      "at": [
+        "charlotte-country-day:ask.questions[9]"
+      ],
+      "t": "অগ্রসর বা মেধাবী শিক্ষার্থীদের জন্য আপনারা কী দেন?"
+    },
+    {
+      "text": "Is there a school psychologist, and how does the Director of Health and Wellness work with the Educational Resource Program?",
+      "of": "3ebef730",
+      "at": [
+        "charlotte-country-day:ask.questions[10]"
+      ],
+      "t": "কোনো স্কুল মনোবিজ্ঞানী আছেন কি, এবং স্বাস্থ্য ও সুস্থতা পরিচালক Educational Resource Program-এর সঙ্গে কীভাবে কাজ করেন?"
+    },
+    {
+      "text": "Upper School coaching is first-come, first-served and depends on staffing, and two academic coach positions are posted. How likely is a new student to get a coaching slot?",
+      "of": "87de2f0f",
+      "at": [
+        "charlotte-country-day:ask.questions[11]"
+      ],
+      "t": "Upper School-এর কোচিং আগে এলে আগে পাবেন ভিত্তিতে এবং কর্মী-সংখ্যার ওপর নির্ভরশীল, আর একাডেমিক কোচের দুটি পদ বিজ্ঞাপিত। একজন নতুন শিক্ষার্থীর কোচিংয়ে জায়গা পাওয়ার সম্ভাবনা কতটা?"
+    },
+    {
+      "text": "Is English-language (ESL) support offered below the Upper School, and is there a fee?",
+      "of": "6e7c51c4",
+      "at": [
+        "charlotte-country-day:ask.questions[12]"
+      ],
+      "t": "Upper School-এর নিচে কি ইংরেজি-ভাষা (ESL) সহায়তা দেওয়া হয়, এবং এর কি কোনো ফি আছে?"
+    },
+    {
+      "text": "October 25, 2026",
+      "of": "e4693a96",
+      "at": [
+        "charlotte-country-day:ask.asOf",
+        "davidson-day:ask.asOf"
+      ],
+      "t": "25 অক্টোবর 2026"
+    },
+    {
       "text": "Cannon’s Learning Support Program “helps students with diagnosed learning differences become successful learners and confident self-advocates,” with a learning specialist in each division from Junior Kindergarten through 12th grade.",
       "of": "b6dea18a",
       "at": [
@@ -67,15 +1318,6 @@
         "cannon:stats[2].note"
       ],
       "t": "“গত বছর”, 31 আগস্ট Hudson ARC-এর উদ্বোধন নিয়ে স্কুলের প্রতিবেদন অনুযায়ী"
-    },
-    {
-      "text": "school counselors",
-      "of": "83d116a4",
-      "at": [
-        "cannon:stats[3].label",
-        "davidson-day:stats[3].label"
-      ],
-      "t": "স্কুল কাউন্সেলর"
     },
     {
       "text": "Junior Kindergarten through 12th grade, on the Student Support Team",
@@ -249,42 +1491,12 @@
       "t": "Reading interventionist “লক্ষ্যভিত্তিক শিক্ষাগত সমৃদ্ধকরণ দিতে পারেন”; Upper School-এ Honors Accelerated, AP ও AT কোর্স এবং একটি Independent Study Program আছে। মেধাবীদের জন্য কোনো আনুষ্ঠানিক প্রোগ্রামের বর্ণনা নেই।"
     },
     {
-      "text": "Learning & academic support",
-      "of": "b050d84b",
-      "at": [
-        "cannon:services.groups[0].name",
-        "davidson-day:services.groups[0].name",
-        "hickory-grove-christian:services.groups[0].name"
-      ],
-      "t": "শেখা ও একাডেমিক সহায়তা"
-    },
-    {
-      "text": "Specialized teachers",
-      "of": "04298f91",
-      "at": [
-        "cannon:services.groups[0].rows[0].service",
-        "davidson-day:services.groups[0].rows[0].service",
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ],
-      "t": "বিশেষায়িত শিক্ষক"
-    },
-    {
       "text": "“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.",
       "of": "135a601a",
       "at": [
         "cannon:services.groups[0].rows[0].detail"
       ],
       "t": "“প্রতিটি বিভাগ—Lower School, Middle School ও Upper School—এর জন্য একজন নিবেদিত learning specialist।” চারজনের নাম দেওয়া আছে, সঙ্গে Lower School-এর একজন reading interventionist।"
-    },
-    {
-      "text": "Reading intervention",
-      "of": "18b7d3f0",
-      "at": [
-        "cannon:services.groups[0].rows[1].service",
-        "davidson-day:services.groups[0].rows[1].service",
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ],
-      "t": "পড়ায় হস্তক্ষেপ"
     },
     {
       "text": "Lower School small groups with the Reading Interventionist “designed to close specific skill gaps.” No method (e.g., Orton-Gillingham, structured literacy) is named.",
@@ -295,31 +1507,12 @@
       "t": "Lower School-এ reading interventionist-এর সঙ্গে ছোট দল, “নির্দিষ্ট দক্ষতার ঘাটতি পূরণের জন্য তৈরি”। কোনো পদ্ধতির নাম নেই (যেমন Orton-Gillingham, কাঠামোবদ্ধ সাক্ষরতা)।"
     },
     {
-      "text": "Math intervention",
-      "of": "9fc9f294",
-      "at": [
-        "cannon:services.groups[0].rows[2].service",
-        "davidson-day:services.groups[0].rows[2].service",
-        "hickory-grove-christian:services.groups[0].rows[2].service"
-      ],
-      "t": "গণিতে হস্তক্ষেপ"
-    },
-    {
       "text": "No math-specific intervention described; the Upper School Math Lab is peer tutoring.",
       "of": "3b048950",
       "at": [
         "cannon:services.groups[0].rows[2].detail"
       ],
       "t": "গণিতের জন্য নির্দিষ্ট কোনো হস্তক্ষেপের বর্ণনা নেই; Upper School-এর Math Lab হলো সহপাঠীদের টিউটরিং।"
-    },
-    {
-      "text": "1:1 / small-group instruction",
-      "of": "c8ed8f2d",
-      "at": [
-        "cannon:services.groups[0].rows[3].service",
-        "davidson-day:services.groups[0].rows[3].service"
-      ],
-      "t": "1:1 / ছোট দলে পাঠদান"
     },
     {
       "text": "Small-group reading in the Lower School; one-on-one coaching with the Middle and Upper School learning specialists.",
@@ -346,31 +1539,12 @@
       "t": "“শিক্ষকদের তত্ত্বাবধানে সহপাঠী-পরিচালিত লেখা, গণিত ও বিজ্ঞানের টিউটরিং”, সঙ্গে একটি World Languages Lab, “স্কুলের দিনে নির্দিষ্ট সময় ও স্থানে পাওয়া যায়”। Middle School-এ শিক্ষকদের সাহায্য: “কোনো ফি নেওয়া হয় না।”"
     },
     {
-      "text": "Executive-function coaching",
-      "of": "7e3c07fa",
-      "at": [
-        "cannon:services.groups[0].rows[5].service",
-        "davidson-day:services.groups[0].rows[5].service",
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ],
-      "t": "এক্সিকিউটিভ ফাংশন কোচিং"
-    },
-    {
       "text": "One-on-one academic coaching in the Middle School and, in the Upper School, Academic Coaches who build “executive functioning (EF) skills.”",
       "of": "b944a709",
       "at": [
         "cannon:services.groups[0].rows[5].detail"
       ],
       "t": "Middle School-এ একান্ত একাডেমিক কোচিং, আর Upper School-এ Academic Coach-রা “এক্সিকিউটিভ ফাংশনিং (EF) দক্ষতা” গড়ে তোলেন।"
-    },
-    {
-      "text": "Learning-support class",
-      "of": "fd470495",
-      "at": [
-        "cannon:services.groups[0].rows[6].service",
-        "davidson-day:services.groups[0].rows[6].service"
-      ],
-      "t": "শেখার সহায়তার ক্লাস"
     },
     {
       "text": "No learning-support course appears in the 2026-2027 Upper School Course Catalog.",
@@ -381,31 +1555,12 @@
       "t": "2026-2027 সালের Upper School কোর্স ক্যাটালগে শেখার সহায়তার কোনো কোর্স নেই।"
     },
     {
-      "text": "Accommodations & learning plan",
-      "of": "c65478ab",
-      "at": [
-        "cannon:services.groups[0].rows[7].service",
-        "davidson-day:services.groups[0].rows[7].service"
-      ],
-      "t": "সুবিধা-ব্যবস্থা ও শিখন-পরিকল্পনা"
-    },
-    {
       "text": "The Learning Specialist writes a Learning Plan listing classroom and testing accommodations, such as “preferential seating, note-taking assistance, extended time for tests, alternate assessment location.”",
       "of": "94accb8c",
       "at": [
         "cannon:services.groups[0].rows[7].detail"
       ],
       "t": "Learning specialist একটি শিখন-পরিকল্পনা লেখেন, যাতে ক্লাসরুম ও পরীক্ষার সুবিধা-ব্যবস্থা থাকে, যেমন “পছন্দসই আসন, নোট নিতে সহায়তা, পরীক্ষায় বাড়তি সময়, ভিন্ন স্থানে মূল্যায়ন”।"
-    },
-    {
-      "text": "Specially designed instruction",
-      "of": "0add9126",
-      "at": [
-        "cannon:services.groups[0].rows[8].service",
-        "davidson-day:services.groups[0].rows[8].service",
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ],
-      "t": "বিশেষভাবে পরিকল্পিত পাঠদান"
     },
     {
       "text": "Not described. The policy says acceptance does not imply responsibility for needs that “may require a modification/alteration of the school’s curriculum.”",
@@ -416,32 +1571,12 @@
       "t": "বর্ণনা নেই। নীতিমালা বলে, ভর্তির মানে এমন প্রয়োজনের দায়িত্ব নেওয়া নয়, যা “স্কুলের পাঠ্যক্রমে পরিবর্তন/রদবদল দাবি করতে পারে”।"
     },
     {
-      "text": "Self-contained / separate program",
-      "of": "2586e367",
-      "at": [
-        "cannon:services.groups[0].rows[9].service",
-        "davidson-day:services.groups[0].rows[9].service",
-        "hickory-grove-christian:services.groups[0].rows[9].service"
-      ],
-      "t": "স্বতন্ত্র কর্মসূচি / আলাদা ক্লাস"
-    },
-    {
       "text": "No separate program described; the Middle School ARC brings “neurodiverse and non-neurodiverse learners” together “side by side.”",
       "of": "e2111c64",
       "at": [
         "cannon:services.groups[0].rows[9].detail"
       ],
       "t": "আলাদা কোনো প্রোগ্রামের বর্ণনা নেই; Middle School-এর ARC “নিউরোডাইভার্স ও নন-নিউরোডাইভার্স শিক্ষার্থীদের” “পাশাপাশি” একত্র করে।"
-    },
-    {
-      "text": "Gifted / advanced",
-      "of": "2de5aed3",
-      "at": [
-        "cannon:services.groups[0].rows[10].service",
-        "davidson-day:services.groups[0].rows[10].service",
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ],
-      "t": "মেধাবী / উচ্চতর স্তর"
     },
     {
       "text": "Lower School reading enrichment; Upper School Honors Accelerated, AP and AT courses and an Independent Study Program. No formal gifted program.",
@@ -452,42 +1587,12 @@
       "t": "Lower School-এ পড়ায় সমৃদ্ধকরণ; Upper School-এ Honors Accelerated, AP ও AT কোর্স এবং একটি Independent Study Program। মেধাবীদের জন্য কোনো আনুষ্ঠানিক প্রোগ্রাম নেই।"
     },
     {
-      "text": "Eligibility documentation",
-      "of": "4702441c",
-      "at": [
-        "cannon:services.groups[0].rows[11].service",
-        "davidson-day:services.groups[0].rows[11].service",
-        "hickory-grove-christian:services.groups[0].rows[11].service"
-      ],
-      "t": "যোগ্যতার নথি"
-    },
-    {
       "text": "A complete psychoeducational evaluation from the last 3 years, with “test results with subtest scores (standard or scaled scores)” and recommended accommodations.",
       "of": "48d33a03",
       "at": [
         "cannon:services.groups[0].rows[11].detail"
       ],
       "t": "গত 3 বছরের মধ্যে করা একটি সম্পূর্ণ সাইকোএডুকেশনাল মূল্যায়ন, যাতে “সাবটেস্ট স্কোরসহ (স্ট্যান্ডার্ড বা স্কেলড স্কোর) পরীক্ষার ফলাফল” এবং সুপারিশকৃত সুবিধা-ব্যবস্থা থাকে।"
-    },
-    {
-      "text": "Therapy & related services",
-      "of": "832d48e5",
-      "at": [
-        "cannon:services.groups[1].name",
-        "davidson-day:services.groups[1].name",
-        "hickory-grove-christian:services.groups[1].name"
-      ],
-      "t": "থেরাপি ও সংশ্লিষ্ট সেবা"
-    },
-    {
-      "text": "Speech-language therapy",
-      "of": "b37d3705",
-      "at": [
-        "cannon:services.groups[1].rows[0].service",
-        "davidson-day:services.groups[1].rows[0].service",
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ],
-      "t": "স্পিচ-ল্যাঙ্গুয়েজ থেরাপি"
     },
     {
       "text": "The Lower School Learning Specialist helps families “secure external resources, such as speech therapists.”",
@@ -498,74 +1603,12 @@
       "t": "Lower School-এর learning specialist পরিবারগুলোকে “বাইরের সহায়তা, যেমন স্পিচ থেরাপিস্ট, খুঁজে পেতে” সাহায্য করেন।"
     },
     {
-      "text": "Occupational therapy",
-      "of": "e216f28e",
-      "at": [
-        "cannon:services.groups[1].rows[1].service",
-        "davidson-day:services.groups[1].rows[1].service",
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ],
-      "t": "অকুপেশনাল থেরাপি"
-    },
-    {
-      "text": "Not listed by the school.",
-      "of": "6bbf4ac9",
-      "at": [
-        "cannon:services.groups[1].rows[1].detail",
-        "cannon:services.groups[1].rows[2].detail",
-        "davidson-day:services.groups[1].rows[2].detail",
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ],
-      "t": "স্কুল এর উল্লেখ করেনি।"
-    },
-    {
-      "text": "Physical therapy",
-      "of": "2ab8c569",
-      "at": [
-        "cannon:services.groups[1].rows[2].service",
-        "davidson-day:services.groups[1].rows[2].service",
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ],
-      "t": "ফিজিক্যাল থেরাপি"
-    },
-    {
-      "text": "Assessment",
-      "of": "7f464e4f",
-      "at": [
-        "cannon:services.groups[2].name",
-        "davidson-day:services.groups[2].name",
-        "hickory-grove-christian:services.groups[2].name"
-      ],
-      "t": "মূল্যায়ন"
-    },
-    {
-      "text": "Early identification (JK–2)",
-      "of": "cfb1f75f",
-      "at": [
-        "cannon:services.groups[2].rows[0].service",
-        "davidson-day:services.groups[2].rows[0].service"
-      ],
-      "t": "প্রাথমিক শনাক্তকরণ (JK–2)"
-    },
-    {
       "text": "Learning support in JK–2 “focuses on early identification and classroom-based interventions”; the Learning Specialist works with teachers “to assess student needs.”",
       "of": "b9164064",
       "at": [
         "cannon:services.groups[2].rows[0].detail"
       ],
       "t": "JK–2-এ শেখার সহায়তা “প্রাথমিক শনাক্তকরণ ও ক্লাসরুমভিত্তিক হস্তক্ষেপে মনোযোগ দেয়”; learning specialist শিক্ষকদের সঙ্গে কাজ করেন “শিক্ষার্থীদের প্রয়োজন মূল্যায়ন করতে”।"
-    },
-    {
-      "text": "Testing accommodations",
-      "of": "c0f1a794",
-      "at": [
-        "cannon:services.groups[2].rows[1].service",
-        "davidson-day:services.groups[2].rows[1].service",
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ],
-      "t": "পরীক্ষায় সুবিধা-ব্যবস্থা"
     },
     {
       "text": "Testing accommodations are part of each Learning Plan. Once a plan has been in place “for at least four months,” the Learning Specialist may help families request College Board and ACT accommodations.",
@@ -576,33 +1619,12 @@
       "t": "পরীক্ষায় সুবিধা-ব্যবস্থা প্রতিটি শিখন-পরিকল্পনার অংশ। কোনো পরিকল্পনা “অন্তত চার মাস” চালু থাকলে learning specialist পরিবারগুলোকে College Board ও ACT-তে বিশেষ সুবিধার আবেদন করতে সাহায্য করতে পারেন।"
     },
     {
-      "text": "Entrance testing",
-      "of": "3e1537ff",
-      "at": [
-        "cannon:services.groups[2].rows[2].service",
-        "davidson-day:services.groups[2].rows[2].service",
-        "hickory-grove-christian:services.groups[2].rows[1].service"
-      ],
-      "t": "ভর্তি পরীক্ষা"
-    },
-    {
       "text": "The admissions checklist “may include” an Entrance Evaluation and a Readiness Evaluation.",
       "of": "74877feb",
       "at": [
         "cannon:services.groups[2].rows[2].detail"
       ],
       "t": "ভর্তির চেকলিস্টে একটি Entrance Evaluation ও একটি Readiness Evaluation “থাকতে পারে”।"
-    },
-    {
-      "text": "Psychoeducational evaluation",
-      "of": "69f00356",
-      "at": [
-        "cannon:services.groups[2].rows[3].service",
-        "davidson-day:services.groups[2].rows[3].service",
-        "davidson-day:testing.entries[2].title",
-        "hickory-grove-christian:services.groups[2].rows[2].service"
-      ],
-      "t": "সাইকোএডুকেশনাল মূল্যায়ন"
     },
     {
       "text": "Families supply it, from “a licensed clinical psychologist.” The school does not say it tests in-house or name providers.",
@@ -613,42 +1635,12 @@
       "t": "পরিবারকেই এটি জমা দিতে হয়, “একজন লাইসেন্সপ্রাপ্ত ক্লিনিক্যাল সাইকোলজিস্টের” করা। স্কুল নিজে পরীক্ষা করে বলে জানায় না, কোনো সেবাদাতার নামও দেয় না।"
     },
     {
-      "text": "Wellness & health",
-      "of": "92456e4a",
-      "at": [
-        "cannon:services.groups[3].name",
-        "davidson-day:services.groups[3].name",
-        "hickory-grove-christian:services.groups[3].name"
-      ],
-      "t": "সুস্থতা ও স্বাস্থ্য"
-    },
-    {
-      "text": "Counseling & emotional support",
-      "of": "0613b801",
-      "at": [
-        "cannon:services.groups[3].rows[0].service",
-        "davidson-day:services.groups[3].rows[0].service",
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ],
-      "t": "পরামর্শ ও মানসিক সহায়তা"
-    },
-    {
       "text": "Five school counselors offer wellness lessons, check-ins, “short-term individual counseling sessions” and small groups, working “in collaboration with Learning Specialists.”",
       "of": "8e6bc998",
       "at": [
         "cannon:services.groups[3].rows[0].detail"
       ],
       "t": "পাঁচজন স্কুল কাউন্সেলর সুস্থতা বিষয়ক পাঠ, নিয়মিত খোঁজখবর, “স্বল্পমেয়াদি একক কাউন্সেলিং সেশন” ও ছোট দলের সেশন দেন, কাজ করেন “learning specialist-দের সঙ্গে সহযোগিতায়”।"
-    },
-    {
-      "text": "Emotional & behavioral intervention",
-      "of": "a9f79269",
-      "at": [
-        "cannon:services.groups[3].rows[1].service",
-        "davidson-day:services.groups[3].rows[2].service",
-        "hickory-grove-christian:services.groups[3].rows[1].service"
-      ],
-      "t": "আবেগ ও আচরণগত হস্তক্ষেপ"
     },
     {
       "text": "Longer-term help is by referral: counselors provide “community resource referrals (including longer-term therapy services).”",
@@ -659,32 +1651,12 @@
       "t": "দীর্ঘমেয়াদি সাহায্য রেফারেলের মাধ্যমে: কাউন্সেলররা “স্থানীয় সহায়তার জন্য রেফারেল (দীর্ঘমেয়াদি থেরাপি সেবাসহ)” দেন।"
     },
     {
-      "text": "Crisis resources",
-      "of": "e074ef65",
-      "at": [
-        "cannon:services.groups[3].rows[2].service",
-        "davidson-day:services.groups[3].rows[3].service",
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ],
-      "t": "সংকটকালীন সহায়তা"
-    },
-    {
       "text": "A Mental Health and Crisis Resources page lists the Suicide and Crisis Lifeline (“call 988 or text HOME to 741741”) and the NC Peer Warmline; Middle School counselors provide “support to students in crisis.”",
       "of": "e7218f6f",
       "at": [
         "cannon:services.groups[3].rows[2].detail"
       ],
       "t": "একটি Mental Health and Crisis Resources পেজে Suicide and Crisis Lifeline (“988-এ কল করুন বা 741741-এ HOME লিখে টেক্সট করুন”) এবং NC Peer Warmline দেওয়া আছে; Middle School-এর কাউন্সেলররা “সংকটে থাকা শিক্ষার্থীদের সহায়তা” দেন।"
-    },
-    {
-      "text": "School psychologist",
-      "of": "61585e81",
-      "at": [
-        "cannon:services.groups[3].rows[3].service",
-        "davidson-day:services.groups[3].rows[4].service",
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ],
-      "t": "স্কুল মনোবিজ্ঞানী"
     },
     {
       "text": "None named.",
@@ -698,42 +1670,12 @@
       "t": "কারও নাম দেওয়া নেই।"
     },
     {
-      "text": "School nurse",
-      "of": "cf02f710",
-      "at": [
-        "cannon:services.groups[3].rows[4].service",
-        "davidson-day:services.groups[3].rows[5].service",
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ],
-      "t": "স্কুল নার্স"
-    },
-    {
       "text": "A Lead School Nurse and a School Nurse are listed in the staff directory.",
       "of": "aed15d04",
       "at": [
         "cannon:services.groups[3].rows[4].detail"
       ],
       "t": "কর্মী তালিকায় একজন Lead School Nurse ও একজন School Nurse আছেন।"
-    },
-    {
-      "text": "Language",
-      "of": "9a73db9b",
-      "at": [
-        "cannon:services.groups[4].name",
-        "davidson-day:services.groups[4].name",
-        "hickory-grove-christian:services.groups[4].name"
-      ],
-      "t": "ভাষা"
-    },
-    {
-      "text": "ESL / English-language support",
-      "of": "ffd3df8c",
-      "at": [
-        "cannon:services.groups[4].rows[0].service",
-        "davidson-day:services.groups[4].rows[0].service",
-        "hickory-grove-christian:services.groups[4].rows[0].service"
-      ],
-      "t": "ESL / ইংরেজি ভাষায় সহায়তা"
     },
     {
       "text": "International students enroll through an approved placement agency; no English-language support is described.",
@@ -752,42 +1694,12 @@
       "t": "স্পিচ থেরাপি রেফারেলের মাধ্যমে। স্কুলের সাইটে অকুপেশনাল বা ফিজিক্যাল থেরাপির উল্লেখ নেই।"
     },
     {
-      "text": "Speech-language",
-      "of": "d9f2c22c",
-      "at": [
-        "cannon:therapy.items[0].name",
-        "davidson-day:therapy.items[0].name",
-        "hickory-grove-christian:therapy.items[0].name"
-      ],
-      "t": "স্পিচ-ল্যাঙ্গুয়েজ"
-    },
-    {
       "text": "The Learning Specialist helps families find an outside speech therapist.",
       "of": "2ed2d14a",
       "at": [
         "cannon:therapy.items[0].detail"
       ],
       "t": "Learning specialist পরিবারগুলোকে বাইরের একজন স্পিচ থেরাপিস্ট খুঁজে পেতে সাহায্য করেন।"
-    },
-    {
-      "text": "Occupational",
-      "of": "a971a0b7",
-      "at": [
-        "cannon:therapy.items[1].name",
-        "davidson-day:therapy.items[1].name",
-        "hickory-grove-christian:therapy.items[1].name"
-      ],
-      "t": "অকুপেশনাল"
-    },
-    {
-      "text": "Physical",
-      "of": "d7c1ee80",
-      "at": [
-        "cannon:therapy.items[2].name",
-        "davidson-day:therapy.items[2].name",
-        "hickory-grove-christian:therapy.items[2].name"
-      ],
-      "t": "ফিজিক্যাল"
     },
     {
       "text": "No therapist appears in the school’s staff directory. Ask whether an outside therapist can see your child on campus during the school day.",
@@ -941,15 +1853,6 @@
         "cannon:staff.people[9].role"
       ],
       "t": "Middle School কাউন্সেলর, শ্রেণি 6 - 8"
-    },
-    {
-      "text": "Upper School Counselor",
-      "of": "9b93583f",
-      "at": [
-        "cannon:staff.people[10].role",
-        "cannon:staff.people[11].role"
-      ],
-      "t": "Upper School কাউন্সেলর"
     },
     {
       "text": "No single head of learning support is named.",
@@ -1361,14 +2264,6 @@
       "t": "বর্ণনা নেই। LEC-এর পাঠ-পরিকল্পনা হলো ব্যক্তিভিত্তিক টিউটরিং, পরিবর্তিত পাঠ্যক্রম নয়।"
     },
     {
-      "text": "No separate program described.",
-      "of": "049eeace",
-      "at": [
-        "davidson-day:services.groups[0].rows[9].detail"
-      ],
-      "t": "আলাদা কোনো কর্মসূচির বর্ণনা নেই।"
-    },
-    {
       "text": "Middle Schoolers can take Upper School world language and math; the LEC request form offers “Personalized Exploration (Enrichment).” No formal gifted program.",
       "of": "5099bff7",
       "at": [
@@ -1665,14 +2560,6 @@
       "t": "Lower School-এর পড়ার বিশেষজ্ঞ"
     },
     {
-      "text": "Lower School Counselor",
-      "of": "cca1ced8",
-      "at": [
-        "davidson-day:staff.people[14].role"
-      ],
-      "t": "Lower School কাউন্সেলর"
-    },
-    {
       "text": "Middle and Upper School Counselor",
       "of": "1efb6691",
       "at": [
@@ -1791,14 +2678,6 @@
         "davidson-day:ask.questions[10]"
       ],
       "t": "Dr. LaRusso কি শেখার সেবার পরিচালক নাকি পাঠ্যক্রম পরিচালক, আর LEC-এর তত্ত্বাবধান কে করেন?"
-    },
-    {
-      "text": "October 25, 2026",
-      "of": "e4693a96",
-      "at": [
-        "davidson-day:ask.asOf"
-      ],
-      "t": "25 অক্টোবর 2026"
     },
     {
       "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",

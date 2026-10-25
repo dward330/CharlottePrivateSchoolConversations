@@ -3,7 +3,7 @@
 One file per school, `<slug>.ts`, exporting a `LearningSupportProgram` (types and the
 card registry are in [`../learningSupport.ts`](../learningSupport.ts)). Hickory Grove
 Christian was the first school; Cannon followed (2026-10-24), then Davidson Day
-(2026-10-25).
+(2026-10-25) and Charlotte Country Day (2026-10-25).
 
 ## Two gates
 
@@ -63,5 +63,8 @@ The section renders on a school's page only when **both** exist:
   `role` is skipped by default, so `therapy.people[].role` is promoted in
   `PATH_OVERRIDES` (`scripts/i18n_fields.mjs`) beside `staff.people[].role`. A new
   people-bearing field needs the same, or its role ships English in every locale.
+- **Long staff lists scroll.** Above 20 people the Who You'll Work With list becomes a
+  keyboard-focusable scroll region with a count caption; it prints in full. The Therapy
+  card's people never scroll.
 
 Build new schools through `/learning-support` → `/plan` → `/implement`.
