@@ -562,3 +562,6 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
   or an IEP; the policy makes the request for learning support after enrollment." The note
   now carries only the case-by-case accommodations sentence. The research record keeps
   the finding.
+- **Review edit (2026-10-24): dropped "The school does not promise to meet every need."
+  from the eligibility headline at the user's request.** The policy's own disclaimer
+  still sits in the Outside scope cell, quoted in full.
