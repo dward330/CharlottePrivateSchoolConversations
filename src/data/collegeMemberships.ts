@@ -208,6 +208,7 @@ const ALIAS: Record<string, string> = {
   'univ of illinois at urbana champaign': 'University of Illinois Urbana-Champaign',
   'indiana univ at bloomington': 'Indiana University',
   'pennsylvania state univ': 'Penn State University',
+  'penn state univ park': 'Penn State University',
   'univ of alabama tuscaloosa': 'The University of Alabama',
   'univ of nc at chapel hill': 'University of North Carolina at Chapel Hill',
   'univ of north carolina chapel hill': 'University of North Carolina at Chapel Hill',
@@ -253,7 +254,7 @@ const CAMPUS_TAGS = [
   'chapel hill',
   'berkeley',
   'los angeles',
-  'college park',
+  'coll park', // normName turns "College" into "coll", so 'college park' never matched
 ]
 
 

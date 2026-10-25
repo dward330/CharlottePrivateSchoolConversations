@@ -329,12 +329,10 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "University of Georgia": "National Rank #52",
   "University of Hartford": "National Rank #288",
   "University of Hawaii": "National Rank #186",
-  "University of Hawaii (Manoa)": "National Rank #186",
   "University of Hawaii at Manoa": "National Rank #186",
   "University of Houston": "National Rank #137",
   "University of Idaho": "National Rank #208",
   "University of Illinois": "National Rank #34",
-  "University of Illinois (Chicago)": "National Rank #95",
   "University of Illinois (Urbana-Champaign)": "National Rank #34",
   "University of Illinois at Chicago": "National Rank #95",
   "University of Illinois at Urbana-Champaign": "National Rank #34",
@@ -506,6 +504,8 @@ export const RANK_ALIAS: Record<string, string> = {
   'washington & lee': 'Washington and Lee University',
   'pennsylvania state univ at university park': 'Penn State University, University Park',
   'penn state univ': 'Penn State University (University Park)',
+  // Penn State's own name for its flagship campus (Cannon's merged 2022–2026 list).
+  'penn state univ park': 'Penn State University (University Park)',
   'purdue univ main campus': 'Purdue University',
   // Sewanee appears with the "Sewanee" tag before, after, or absent — all one school.
   'univ of south': 'Sewanee: The University of the South',

@@ -643,3 +643,61 @@ Phase 1 (English), 2026-10-25:
 - Verdict checklist[5] still asks why the 2025–26 profile published Class of 2025 scores.
   That edition is no longer retrievable. The plan left the question alone, and it remains
   a fair question for the school.
+
+### Revisions after the Phase 1 review (user decisions, 2026-10-25)
+
+- **Window is now 2022–2026, not 2024–2026.** This reverses two Decisions above: "replace
+  the list wholesale" and "drop all `enrolling` markers". The reason: Davidson Day
+  (2021–2025) and Gaston Day (2019–2025) already show pre-2023 blocks that cannot be split
+  by class, so Cannon may too. The 2022–24 list (2024–25 profile) and the 2024–26 list
+  (2026–27 profile) are merged, each institution once: **352 rows**.
+  - The **58 Class of 2023 matriculation bold markers return**, since that class sits
+    inside the window: `collegesTotal` reads "352 institutions · bold = a Class of 2023
+    student enrolled". The 2024–25 profile is cited again as the source of the 2022–24
+    list.
+  - **Where the two lists spell one institution differently, the row uses the
+    institution's official name** (29 groups, e.g. "University of North Carolina at
+    Charlotte", "Penn State University Park", "University of Wisconsin–Madison", "William
+    & Mary"). The bold marker carries to that row.
+  - The bare "Wheaton College" row was dropped, because both Wheaton IL and Wheaton MA
+    are on the 2022–24 list. "University of Charleston" (WV) is a different institution
+    from the College of Charleston, and both stay.
+  - New counts:
+    - Ivy 7/8
+    - Ivy Plus 16/17
+    - Top-75 National 75/75 (clamped)
+    - Top-75 Liberal Arts 45/75
+    - Power Four 61/68
+    - HBCU 11/107
+  - The arts example restores its original wording (Pratt, Parsons, …). The honest-list
+    and non-traditional examples draw on both lists.
+  - Masters:
+    - The 23 homepage rows removed earlier were restored, except the ASU and UNH "(Main
+      Campus)" spellings, which the merge maps to official names.
+    - "Cal Poly" and "University of Hawaii (Manoa)" URL rows were removed, and the UIC
+      and Hawaii parenthetical rank rows too, because no list uses those spellings now.
+    - Penn State University Park got a rank alias, a membership alias and a homepage row.
+- **Second latent count bug fixed.** `CAMPUS_TAGS` held `'college park'`, which can never
+  match: `normName` turns "College" into "coll". So "University of Maryland-College Park"
+  was never counted as Power Four. Charlotte Christian gained `p4` on it and moved
+  **40 → 41 / 68**.
+- **Six stale Power Four / HBCU explanation lines fixed**; the cells were right and the
+  sentences had drifted:
+  - Country Day 53→61
+  - Davidson Day 42→45
+  - Hickory Grove 24→25
+  - Gaston Day 36→43
+  - Providence Day 57→65
+  - Latin HBCU 6→7
+
+  `check:memberships` now also gates the "n of the 68 / 107" explanation lines; a
+  negative test confirmed it.
+- **Compare shows the window under every bucket fraction** (user request). Each of the
+  six bucket rows carries `subs: ACCEPTANCE_WINDOWS`, e.g. `(2022–2026)`;
+  Carmel Christian shows `(years not published)`. `check:buckets` fails if a label
+  disagrees with that school's `collegesTitle` years (negative-tested). The **AP scoring
+  3+** row shows the exam session each figure covers: `(2026)`, `(2024–25)`, and so on.
+  These figures are by exam year, not graduating class, because that is how every school
+  reports them. Phase 2 must translate the new `subs` strings, chiefly
+  `(years not published)`.
+- `check:live` now sits at 95 unresolvable entries per locale, all cleared by Phase 2.

@@ -81,9 +81,7 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | SUNY College of Environmental Science and Forestry | National Rank #158 | no National/LAC rank — Regional Universities North |
 | University of Alabama (Birmingham) | National Rank #137 | User's 2026-09-22 PDF print-out (via alias — Cannon's spelling of University of Alabama at Birmingham) |
 | University of Charleston | National Rank #395-434 | no National/LAC rank — Regional Universities South (tie) |
-| University of Hawaii (Manoa) | National Rank #186 | User's 2026-09-22 PDF print-out (via alias — Cannon's spelling of University of Hawaii at Manoa) |
 | University of Idaho | National Rank #208 | National PDF harvest 2026-09-22 — "University of Idaho" #208 (cannonprofile, 2026-10-25) |
-| University of Illinois (Chicago) | National Rank #95 | User's 2026-09-22 PDF print-out (via alias — Cannon's spelling of University of Illinois at Chicago) |
 | University of Maryland Eastern Shore | National Rank #395-434 | no National/LAC rank — Regional Universities North (tie) |
 | University of the Pacific | National Rank #121 | National PDF harvest 2026-09-22 — "University of the Pacific" #121 (cannonprofile, 2026-10-25) |
 | Ursinus College | Liberal Rank #91 | Route A — profile page ursinus-3385, verbatim "In the 2027 edition…" (cannonprofile, 2026-10-25) |

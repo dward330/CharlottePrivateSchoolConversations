@@ -579,6 +579,12 @@ rank master’s `RANK_ALIAS` variants. Until 2026-10-25 it did not, so
 rendered a top-75 label and carried the tag while being left out of the printed
 count, which understated seven schools by one in a bucket.
 
+**Every bucket cell on Compare shows its acceptance window as a second line**
+(`ACCEPTANCE_WINDOWS` in `metricValues.ts`, e.g. `(2022–2026)`), because the
+schools’ windows differ. It mirrors the years in each school’s `collegesTitle`;
+`check:buckets` fails when they disagree, so changing a list’s window means
+changing both. A title with no years renders `(years not published)`.
+
 **⚠️ UPDATING THE US NEWS EDITION MOVES THE TOP-75 COUNTS — they are derived, and
 they are easy to forget.** A new edition rewrites `collegeRankings.ts`, which
 silently changes how many institutions fall inside `nu75`/`lac75` for every school.
@@ -966,19 +972,19 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `ap-performance` | AP scoring 3+ | 8/13 | Q |
-| `bucket-ivy` | Ivy League | 11/13 | Q |
-| `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q |
-| `bucket-nu75` | Top-75 National Universities | 11/13 | Q |
-| `bucket-lac75` | Top-75 Liberal Arts | 11/13 | Q |
-| `bucket-p4` | Power Four | 11/13 | Q |
+| `ap-performance` | AP scoring 3+ | 8/13 | Q sub |
+| `bucket-ivy` | Ivy League | 11/13 | Q sub |
+| `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q sub |
+| `bucket-nu75` | Top-75 National Universities | 11/13 | Q sub |
+| `bucket-lac75` | Top-75 Liberal Arts | 11/13 | Q sub |
+| `bucket-p4` | Power Four | 11/13 | Q sub |
 | `nc-admit-unc-chapel-hill` | Admit rate — UNC-Chapel Hill | 11/13 | C sub |
 | `nc-admit-nc-state-university` | Admit rate — NC State University | 11/13 | C sub |
 | `nc-admit-unc-charlotte` | Admit rate — UNC Charlotte | 11/13 | C sub |
 | `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/13 | C sub |
 | `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/13 | C sub |
 | `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/13 | C sub |
-| `bucket-hbcu` | HBCUs | 11/13 | Q |
+| `bucket-hbcu` | HBCUs | 11/13 | Q sub |
 | `counselor-caseload` | Seniors per counselor | 9/13 | ↓ Q |
 
 ### After School `after-school`
