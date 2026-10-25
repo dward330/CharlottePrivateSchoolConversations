@@ -22,7 +22,7 @@
 // normalization the rank labels use — so `Penn State University` and
 // `Penn State University (University Park)` resolve to one member.
 
-import { COLLEGE_RANKINGS, normName, rankLabelFor } from './collegeRankings.ts'
+import { COLLEGE_RANKINGS, RANK_ALIAS, normName, rankLabelFor } from './collegeRankings.ts'
 
 /**
  * Power Four member institutions — 68, per the committed membership file.
@@ -328,6 +328,15 @@ for (const name of Object.keys(COLLEGE_RANKINGS)) {
   // every alias of one school collapses to the same member.
   const cur = RANKED75_BY_NORM.get(n)
   if (!cur || name.length < cur.length) RANKED75_BY_NORM.set(n, name)
+}
+// The rank master's own ALIAS spellings resolve to a label through
+// rankLabelFor(), so they must resolve to the same institution here too —
+// otherwise a row renders a top-75 label and carries the tag yet is left out of
+// the printed count ("Rensselaer Polytechnic Institute" → "Rensselaer
+// Polytechnic Inst.", found 2026-10-25 by plan cannonprofile).
+for (const [variant, target] of Object.entries(RANK_ALIAS)) {
+  const member = RANKED75_BY_NORM.get(normName(target))
+  if (member && !RANKED75_BY_NORM.has(normName(variant))) RANKED75_BY_NORM.set(normName(variant), member)
 }
 
 /**

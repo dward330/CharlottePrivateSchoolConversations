@@ -431,8 +431,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '0 / 8' },
       { tier: '“Ivy Plus”', count: '0 / 17' },
-      { tier: 'Top-75 National Universities', count: '20 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '8 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
+      { tier: 'Top-75 National Universities', count: '21 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '9 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
       { tier: 'Power Four', count: '25 / 68' },
       { tier: 'HBCUs', count: '20 / 107', note: '— incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk' },
     ],

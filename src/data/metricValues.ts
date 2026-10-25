@@ -401,16 +401,16 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '62 / 75', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '39 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      cannon: '63 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '40 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '36 / 75', // scored against the 2027 US News National Universities table, Classes 2023-2025 matriculation list
-      'charlotte-country-day': '70 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '67 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'charlotte-country-day': '71 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '68 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '36 / 75', // worked classification in the Redesign Research 2026 dossier
       'carmel-christian': '30 / 75', // counted from the cats list in collegeSupportPrograms/carmel-christian.ts; the dossier's "~25-29" was a pre-ingest estimate
-      'davidson-day': '48 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '20 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
-      'gaston-day': '58 / 75', // scored against the 2027 US News National Universities table, 2019-2025 list
+      'davidson-day': '49 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '21 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
+      'gaston-day': '59 / 75', // scored against the 2027 US News National Universities table, 2019-2025 list
       'providence-day': '75 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -423,12 +423,12 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'U.S. News Top-75 National Universities named on the 2019–2025 acceptance list, scored against the 2027 tables. A seven-year cumulative count, not one class.',
       },
-      cannon: { kind: 'scope', text: '62 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '39 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '70 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '67 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '63 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '40 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '71 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '68 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '36 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '48 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '49 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '75 of the top 75 National Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'minimum',
@@ -436,7 +436,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '20 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
+        text: '21 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -450,15 +450,15 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '28 / 75', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '9 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      cannon: '29 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '10 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '17 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
-      'charlotte-country-day': '43 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-country-day': '44 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '42 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '10 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
       'carmel-christian': '11 / 75', // counted from the cats list; the dossier enumerates all ten, so the earlier 7 undercounted
       'davidson-day': '28 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '8 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
+      'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
       'gaston-day': '24 / 75', // scored against the 2027 US News National Liberal Arts table, 2019-2025 list
       'providence-day': '51 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -472,9 +472,9 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'U.S. News Top-75 National Liberal Arts Colleges on the 2019–2025 list, scored against the 2027 tables. Includes Swarthmore, Middlebury, Davidson, Colby and Bryn Mawr.',
       },
-      cannon: { kind: 'scope', text: '28 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '9 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '43 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '29 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '10 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '44 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '42 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '10 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '28 of the top 75 Liberal Arts Colleges appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -485,7 +485,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '8 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.',
+        text: '9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.',
       },
     },
   },

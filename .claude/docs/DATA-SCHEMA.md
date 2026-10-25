@@ -573,6 +573,12 @@ Compare table; all three must move together. `check:memberships` gates all three
 the third was found only by opening the page, which rendered `65 / 68` and `57 / 68`
 at once while every automated check passed.
 
+`canonicalRanked()` must resolve every spelling `rankLabelFor()` does, including the
+rank master’s `RANK_ALIAS` variants. Until 2026-10-25 it did not, so
+`Rensselaer Polytechnic Institute`, `University of the South` and `Washington & Lee`
+rendered a top-75 label and carried the tag while being left out of the printed
+count, which understated seven schools by one in a bucket.
+
 **⚠️ UPDATING THE US NEWS EDITION MOVES THE TOP-75 COUNTS — they are derived, and
 they are easy to forget.** A new edition rewrites `collegeRankings.ts`, which
 silently changes how many institutions fall inside `nu75`/`lac75` for every school.

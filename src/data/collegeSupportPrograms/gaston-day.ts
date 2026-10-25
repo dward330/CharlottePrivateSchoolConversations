@@ -570,7 +570,7 @@ export const gastonDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Yale and Dartmouth' },
       { tier: '“Ivy Plus”', count: '6 / 17', note: '— adds Stanford, Duke, Johns Hopkins, Georgetown' },
-      { tier: 'Top-75 National Universities', count: '58 / 75' },
+      { tier: 'Top-75 National Universities', count: '59 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '24 / 75', note: '— incl. Swarthmore, Middlebury, Davidson, Colby, Bryn Mawr' },
       { tier: 'Power Four', count: '43 / 68' },
       { tier: 'HBCUs', count: '5 / 107', note: '— Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo' },

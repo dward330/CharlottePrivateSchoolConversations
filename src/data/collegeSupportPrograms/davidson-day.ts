@@ -585,7 +585,7 @@ export const davidsonDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Dartmouth' },
       { tier: '“Ivy Plus”', count: '8 / 17', note: '— absent MIT, Stanford, Johns Hopkins, Caltech' },
-      { tier: 'Top-75 National Universities', count: '48 / 75' },
+      { tier: 'Top-75 National Universities', count: '49 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '28 / 75', note: '— includes 2 service academies' },
       { tier: 'Power Four', count: '45 / 68' },
       { tier: 'HBCUs', count: '3 / 107', note: '— Historically Black Colleges & Universities' },

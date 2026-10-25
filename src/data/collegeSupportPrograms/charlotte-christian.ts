@@ -509,8 +509,8 @@ export const charlotteChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Cornell and Dartmouth; Yale appears only on the older list' },
       { tier: '“Ivy Plus”', count: '4 / 17' },
-      { tier: 'Top-75 National Universities', count: '39 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '9 / 75' },
+      { tier: 'Top-75 National Universities', count: '40 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '10 / 75' },
       { tier: 'Power Four', count: '40 / 68' },
       { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
     ],

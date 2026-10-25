@@ -663,8 +663,8 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across the 2023–2026 list' },
       { tier: '“Ivy Plus”', count: '13 / 17', note: '— Stanford and Duke enrolling' },
-      { tier: 'Top-75 National Universities', count: '70 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '43 / 75', note: '— includes all three federal service academies' },
+      { tier: 'Top-75 National Universities', count: '71 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '44 / 75', note: '— includes all three federal service academies' },
       { tier: 'Power Four', count: '61 / 68' },
       { tier: 'HBCUs', count: '18 / 107', note: '— Historically Black Colleges & Universities' },
     ],

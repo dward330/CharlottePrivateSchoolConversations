@@ -530,8 +530,8 @@ export const cannon: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: '— Brown, Columbia, Cornell, Dartmouth, Penn, Princeton, Yale; absent Harvard' },
       { tier: '“Ivy Plus”', count: '14 / 17' },
-      { tier: 'Top-75 National Universities', count: '62 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '28 / 75' },
+      { tier: 'Top-75 National Universities', count: '63 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '29 / 75' },
       { tier: 'Power Four', count: '55 / 68' },
       { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
     ],

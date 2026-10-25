@@ -612,13 +612,27 @@ Phase 1 (English), 2026-10-25:
   These are names only the old 2022–24 Cannon list used; `check:collegeurls` fails on
   orphans. `check:ranks` reports one orphan (Washington & Jefferson) as a notice only, and
   it was left.
-- **Pre-existing resolver gap (not fixed, out of scope):** `canonicalRanked()` does not
-  apply `collegeRankings.ts`'s `ALIAS` map. So `Rensselaer Polytechnic Institute` and
-  `University of the South` render a top-75 label and carry the `nu75` / `lac75` tag, but
-  are **not counted** in any school's printed bucket total (7 schools list RPI under that
-  spelling). Cannon's honest count would be 63/75 and 29/75; 62 and 28 ship because they
-  agree with the gate and with every other school's method. Fixing this re-scores several
-  schools, so it needs its own plan.
+- **Resolver gap FIXED (added at the user's request after the Phase 1 review).**
+  `canonicalRanked()` did not apply `collegeRankings.ts`'s alias map (now exported as
+  `RANK_ALIAS`). So `Rensselaer Polytechnic Institute`, `University of the South` and
+  `Washington & Lee` rendered a top-75 label and carried the tag, yet were left out of
+  the printed count. Fixing it moved 11 bucket figures across 7 schools by +1 each:
+  - Cannon 63/75 · 29/75
+  - Charlotte Christian 40 · 10
+  - Country Day 71 · 44
+  - Latin 68
+  - Davidson Day 49
+  - Gaston Day 59
+  - Hickory Grove 21 · 9
+
+  Each figure moved on its buckets row, Compare cell and explanation line. Each +1 was
+  checked as a distinct new institution, not a double count. A side effect: Hickory
+  Grove's stat tile already read 9 Top-75 LAC while its row said 8, and the two now agree.
+  The other schools' explanation lines are rewritten English, so Phase 2 translates them
+  too: `check:live` sits at 88 unresolvable per locale, up from 72. A DATA-SCHEMA note
+  records the rule.
+- Spotted, not fixed: Gaston Day's verdict prose says "23 top-75 liberal arts colleges"
+  against its own `24 / 75` LAC row. That predates this plan.
 - The plan's step-9 grep still hits `Clay Morrell` once. That is intentional: the
   coordinator `detail` the plan specified ("succeeding Clay Morrell").
 - Senior Capstone tile `105`: its source link stays the Upper School curriculum page (as

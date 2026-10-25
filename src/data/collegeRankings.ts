@@ -491,7 +491,7 @@ const BY_NORM: Map<string, string> = new Map(
 // may use, mapped to the canonical institution already in the table. Branch
 // campuses that are their OWN (unranked/Regional) institution are deliberately
 // NOT aliased — e.g. University of Pittsburgh (Bradford) stays unlabeled.
-const ALIAS: Record<string, string> = {
+export const RANK_ALIAS: Record<string, string> = {
   'univ of illinois': 'University of Illinois Urbana-Champaign',
   'univ of massachusetts': 'University of Massachusetts Amherst',
   'univ of hawaii': 'University of Hawaii at Manoa',
@@ -525,7 +525,7 @@ const ALIAS: Record<string, string> = {
   'saint marys coll': "Saint Mary's College (Indiana)",
   'arizona state univ downtown phoenix': 'Arizona State University',
 }
-for (const [variant, canon] of Object.entries(ALIAS)) {
+for (const [variant, canon] of Object.entries(RANK_ALIAS)) {
   const label = BY_NORM.get(normName(canon))
   if (label) BY_NORM.set(normName(variant), label)
 }

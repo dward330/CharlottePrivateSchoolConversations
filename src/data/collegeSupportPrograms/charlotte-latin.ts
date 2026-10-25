@@ -645,7 +645,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '5 / 8', note: '— all five matriculated; absent Columbia, Princeton, Penn' },
       { tier: '“Ivy Plus”', count: '12 / 17', note: '— absent Johns Hopkins and Caltech' },
-      { tier: 'Top-75 National Universities', count: '67 / 75' },
+      { tier: 'Top-75 National Universities', count: '68 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '42 / 75' },
       { tier: 'Power Four', count: '61 / 68', note: '— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12' },
       { tier: 'HBCUs', count: '7 / 107', note: '— Historically Black Colleges & Universities' },
