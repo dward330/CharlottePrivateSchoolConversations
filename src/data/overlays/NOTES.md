@@ -3267,9 +3267,21 @@ maps and applied by stamp.
 (fa `پایه‌های دوم تا چهارم`, ar `من الصف الثاني حتى الرابع`). The summer date range is
 `از 1 ژوئن تا 30 ژوئیهٔ 2026` / `من 1 يونيو حتى 30 يوليو 2026`. `2026-2027` and `2026-27`
 stay as figures because the year range gets the render-time isolate. Glyph x-positions in
-Chrome showed every learning-support range drawn in order, in both locales. Three reversed
-ranges do show in Davidson Day's College Support area (`93–100`, `25-26`, `2021–2025`).
-They are older strings this pass did not touch, so they were left as they were.
+Chrome showed every learning-support range drawn in order, in both locales.
+
+**Follow-up the same day (`fix/dd-rtl-ranges`).** Three ranges in Davidson Day's College
+Support area drew reversed, for two different reasons:
+- `Every acceptance, 2021–2025` is a **render-site bug**. The `Heading` (`.cs-h`) in
+  `CollegeSupport.tsx` and `HighSchoolPlacement.tsx` printed its children raw, so the
+  year range never got its render-time isolate. String children and `hint` now go
+  through `localizeMoneyText`, the same fix as #350. That fixes the heading for every
+  school: in Chrome, every `.cs-h` range draws in order on all 13 schools in fa and ar.
+- `93–100` and `25-26` are members of the **site-wide un-isolated short-range class**
+  recorded under Charlotte Christian above. Only these two were reworded, at the user's
+  request: fa `93 تا 100` / `«در سال 25 تا 26 …»`, ar `من 93 إلى 100` /
+  `"… في العام 25 إلى 26"`. A whole-page glyph scan finds that class on every school,
+  roughly half of each page's ranges in fa/ar (grade bands, stat tiles, hours). That is
+  still an open render-layer decision.
 
 **Kept Latin:** `Learning Enrichment Center`, `LEC`, `Patriot Account`,
 `Speech Techniques`, `Integrative Wellness`, `Gesell Readiness Assessment`, `ISEE`,

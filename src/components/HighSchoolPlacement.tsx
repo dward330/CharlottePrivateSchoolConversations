@@ -108,8 +108,8 @@ function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
 function Heading({ children, hint }: { children: React.ReactNode; hint?: string }) {
   return (
     <div className="cs-h">
-      {children}
-      {hint && <span className="cs-h-hint text-muted"> {hint}</span>}
+      {typeof children === 'string' ? localizeMoneyText(children) : children}
+      {hint && <span className="cs-h-hint text-muted"> {localizeMoneyText(hint)}</span>}
     </div>
   )
 }
