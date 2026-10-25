@@ -10,7 +10,8 @@ description: >
   STEP 3 — on a go, hand off to /plan. STEP 4 is the usual /implement. Use when the user
   types /learning-support, or asks for "the learning support deep research prompt for
   <school>", "a learning support section for <school>", or attaches a learning-support /
-  student-services research PDF for a school. Hickory Grove Christian is the standard.
+  student-services research PDF for a school. Cannon School is the depth reference; the
+  go/no-go bar is computed from the thinnest school already shipped.
   This skill writes ONLY source-material and the plan (via /plan), never app code.
 ---
 
@@ -20,8 +21,21 @@ The repeatable version of what built Hickory Grove Christian's section
 (`.claude/plans/learningsupport.md`, 2026-10-20). The flow is **prompt → user runs Claude
 deep research → PDF → verified research file + go/no-go → `/plan` → `/implement`**.
 
-Hickory Grove's section (`src/data/learningSupport/hickory-grove-christian.ts`) is the
-standard. Its shape, tone and depth are the model; its facts are not.
+**Two references, each for what it shows best** (user decision, 2026-10-24; in force
+since Cannon shipped in PR #361). Their shape, tone and depth are the model; their facts
+are not.
+
+- **Cannon School (`src/data/learningSupport/cannon.ts`) is the depth reference**, the
+  section a new build should match. It has the fuller section: more rendered and
+  published service rows, four stat tiles, four testing entries, twelve staff (with their
+  published emails) and a written eligibility policy quoted in all three cells.
+- **Hickory Grove Christian (`src/data/learningSupport/hickory-grove-christian.ts`) is
+  the reference for two patterns Cannon lacks**: `IH_FEE` rows built from a published
+  fee schedule, and the `[[504|…]]` / `[[iep|…]]` glossary markers for a school that
+  names those plans. Copy those from Hickory Grove when the new school has them.
+- **The GO/NO-GO bar is neither of them by name.** It is computed from the *thinnest*
+  shipped school (2c), the same way `/add-school` calibrates its floor. Build to the
+  richest school and gate on the thinnest.
 
 ## Hard constraints
 
@@ -74,8 +88,9 @@ standard. Its shape, tone and depth are the model; its facts are not.
 - `src/data/learningSupport.ts`: the **live** `LEARNING_SUPPORT_CARDS`, the types,
   `LearningCode`, `LEARNING_NEEDS`. Never list cards from memory.
 - `src/data/learningSupport/README.md`: the data rules.
-- `src/data/learningSupport/hickory-grove-christian.ts`: the standard's shape, its
-  service-row set, and its source labels (`'<domain> — <page>'`).
+- **Every file in `src/data/learningSupport/`** (the shipped schools, keyed in
+  `PROGRAMS`): Cannon for depth and the fullest service-row set, Hickory Grove for fee
+  rows and glossary markers. Both use source labels in the form `'<domain> — <page>'`.
 - `src/locales/en.json` → `cards.learning-support.*` and `learning.*`: look for chrome
   that names one school. It must stay neutral.
 - `.claude/plans/INDEX.md`: is there already a plan for this school?
@@ -93,13 +108,17 @@ directory, then strip the HTML to text (WebFetch only if curl is blocked). Cover
   it, *and* render it (`pdftoppm -png`) and look at it. Table layouts garble in text
   mode, and Hickory Grove's schedule carried a likely misprint ("$2227/year" where a
   per-semester price belonged) that only the image made clear;
-- the staff list; wellness / counseling pages; any crisis-resources page;
+- the staff list, plus **each person's email as the school's own directory publishes it**.
+  On Finalsite sites that is the `FS.util.insertEmail(el, "<domain reversed>",
+  "<local reversed>")` call on the directory or profile popup. Never build an address
+  from a name pattern; record each one with its directory id (see the README rule);
+- wellness / counseling pages; any crisis-resources page;
 - the admissions checklists (documentation asked for at admission);
 - the careers page (learning-support postings name reporting lines and frameworks);
 - any international-student page (English-language requirements, ESL).
 
 Write `source-material/learning-support/<slug>/<School> - Learning Support - Official Site Research.md`,
-modelled on Hickory Grove's file:
+modelled on Cannon's file (Hickory Grove's for a fee-schedule transcription):
 - a provenance header (who / when / how, official sources only);
 - a **Source URLs table** (S1, S2, …) with status (fetched / Wayback / 404);
 - **verbatim excerpts** per page, the full fee-schedule transcription, and the staff
@@ -115,9 +134,9 @@ AI-generated lead sheet, not a source. No student names.
 
 ### 2c. Score the coverage — the go / no-go
 
-Map the verified facts onto the six cards and the Services-at-a-Glance rows (the row set
-in Hickory Grove's file; add a row only for a service the school genuinely offers that
-none of them names). Then print this table in the conversation, **always with counts
+Map the verified facts onto the six cards and the Services-at-a-Glance rows (start from
+Cannon's row set, which is Hickory Grove's plus "Early identification (JK–2)"; add a row
+only for a service the school genuinely offers that none of the shipped files names). Then print this table in the conversation, **always with counts
 beside percentages**:
 
 | Card | What this school can fill (verified only) | Status |
@@ -129,17 +148,21 @@ beside percentages**:
 | Who You'll Work With | named staff: n | … |
 | Ask the School | questions: one per gap or inconsistency | — |
 
-**The bar is Hickory Grove, computed rather than remembered.** Count Hickory Grove's
-published rows from its data file at run time; do not trust a number written here (as of
-2026-10-20 it is 14 published of 23 rendered rows, plus 1 EXCLUDED, with 3 of 3
-eligibility cells and 9 staff).
+**The bar is the thinnest shipped school, computed rather than remembered.** At run
+time, count the published service rows (any rendered code except `NS`; `EXCLUDED` is not
+rendered) in **every** file in `src/data/learningSupport/`, and take the **lowest**. Name
+that school in the verdict. Do not trust a number written here. As of 2026-10-25 the
+thinnest is Hickory Grove, 14 published of 23 rendered rows (+1 EXCLUDED), 9 staff; Cannon
+is 17 of 25, 12 staff. So test 3 needs 7. The bar does not rise just because a richer
+school ships, and it falls if a thinner one does.
 The verdict:
 
 - **GO** when *all four* hold:
   1. the school has an official page naming a learning-support program or service;
   2. at least **2 of the 3** eligibility cells are verified, one of them being who is
      eligible or how a 504/IEP is handled;
-  3. published service rows are **at least half of Hickory Grove's count** (rounded up);
+  3. published service rows are **at least half of the thinnest shipped school's count**
+     (rounded up);
   4. at least **one named staff member** or one published fee.
 - **NO-GO** otherwise. Say which test failed, with counts. A thin section would be a
   page of NOT STATED chips, and that is worse than no section.

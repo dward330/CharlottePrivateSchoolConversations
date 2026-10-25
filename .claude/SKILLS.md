@@ -363,11 +363,12 @@ the Source URLs file has not verified.
 **Get a school's Learning Support & Student Services research from Claude deep research,
 decide whether it is enough for a healthy section, and hand a GO to `/plan`.**
 
-`.claude/skills/learning-support/SKILL.md` · added 2026-10-21 · supporting file:
+`.claude/skills/learning-support/SKILL.md` · added 2026-10-21 · updated 2026-10-25 · supporting file:
 `prompt-template.md` (the deep-research prompt, with `{{PLACEHOLDERS}}`)
 
-Built with Hickory Grove Christian's section (plan `learningsupport`), which is the
-standard.
+First built with Hickory Grove Christian's section (plan `learningsupport`). **Cannon
+School is now the depth reference** (since #361). Hickory Grove stays the reference for
+fee rows and 504/IEP glossary markers, which Cannon lacks.
 
 | Step | Trigger | What it does |
 |---|---|---|
@@ -379,10 +380,11 @@ standard.
 > **🔒 Official school sources only** (user rule, 2026-10-20). No third-party page is
 > evidence of a school service, and no state-funding or public-district content renders.
 
-> **📏 The GO bar is computed from Hickory Grove's data file at run time:** a named
-> program page, ≥2 of 3 eligibility cells, ≥ half Hickory Grove's published service
-> rows, and a named staff member or a published fee. A deeper pass is offered before any
-> NO-GO.
+> **📏 The GO bar is computed at run time from the THINNEST shipped school** (Hickory
+> Grove today, 14 published rows): a named program page, ≥2 of 3 eligibility cells,
+> ≥ half that school's published service rows, and a named staff member or a published
+> fee. Build to the richest school, gate on the thinnest. A deeper pass is offered
+> before any NO-GO.
 
 > **⚠️ Programs get renamed.** Hickory Grove's "SCA" URL 404ed because the program had
 > become "Educational Support Services". A 404 sends the skill to the site's own

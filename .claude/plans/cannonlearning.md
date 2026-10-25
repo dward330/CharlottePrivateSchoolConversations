@@ -621,6 +621,12 @@ Files: `.claude/skills/learning-support/SKILL.md`, its row and `updated` date in
 `.claude/SKILLS.md` (same PR), and the Learning Support paragraph in `CLAUDE.md` ("with
 Hickory Grove Christian as its first school and its standard").
 
+**Done 2026-10-25** on branch `chore/learning-support-standard`, a separate PR after #361.
+Counts were re-computed at that point: Cannon 17 of 25 published with 12 staff, Hickory
+Grove 14 of 23 with 9 staff. The thinnest is Hickory Grove, so test 3 stays at 7. Also
+added to the skill's step 2b: collect each staff email as the school's directory
+publishes it (the `insertEmail` rule from Phase 1).
+
 ### Phase 2 (locales) — 2026-10-25
 
 - **Scope matched step 8 exactly:** learning-support +91 / 0 dropped, college-support
