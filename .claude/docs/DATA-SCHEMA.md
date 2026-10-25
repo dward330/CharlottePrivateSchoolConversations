@@ -927,6 +927,21 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 | `staff` | Who You'll Work With | — |
 | `ask` | Ask the School | — |
 
+**`testing` is about how a learning need is identified, not admission.** Its entries
+cover screening, psychoeducational evaluation (in-house, referral or family-supplied),
+documentation asked for at admission (an existing IEP, 504 or evaluation), the intake
+that decides what support a child gets, and testing accommodations for a student with
+a plan (College Board / ACT). Entrance tests (ISEE, Gesell, readiness visits) go in the
+Services "Entrance testing" row, never on this card. When a school publishes nothing
+on identification, the card says so with `NS` entries rather than filling up with
+admission tests.
+
+**Every person a card names gets their published email.** Who You'll Work With
+(`staff.people`) and the Therapy card (`therapy.people`, for a pathologist or
+therapist the school names) render the same name / role / mailto row. The `email`
+comes only from the school's own directory, never from a name pattern. A person on
+the Therapy card goes in `therapy.people`, not only in `therapy.note`.
+
 **Schools with data:** 3/13 — absent: `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
 
 <details><summary>Types defined in <code>learningSupport.ts</code> (14)</summary>

@@ -101,14 +101,22 @@ does not do, what it costs, and the biggest gaps.
 
 4. Therapy & related services: anything the school says about speech, OT, PT
    or counseling during the school day, on-campus outside providers, or
-   referral. If nothing, say NOT STATED for each.
+   referral. Name any therapist or pathologist the school lists, with their
+   exact title and their email if the school publishes one. If nothing, say
+   NOT STATED for each.
 
-5. Testing & evaluation: who tests (in-house or referral), what the school asks
-   families to bring, how entrance/placement testing is scheduled, and any
-   named testing providers.
+5. Testing & evaluation, meaning how a learning need is identified (not
+   admission testing): any screening or early identification; who carries out
+   psychoeducational evaluations (in-house or referral) and any named
+   providers; what evaluation, IEP or 504 documentation the school asks
+   families to bring; how a family requests support and who decides what the
+   child gets; and testing accommodations (school exams, College Board, ACT).
+   Report entrance or placement tests (ISEE, readiness visits) separately, as
+   admission facts only.
 
 6. People: every named learning-support / student-services staff member with
-   the exact title the school gives, in the school's order; the program's
+   the exact title the school gives and their email where the school's own
+   directory publishes one, in the school's order; the program's
    leader; counseling staff; any open learning-support job postings (title,
    start date, reporting line, required credentials, frameworks such as MTSS).
 

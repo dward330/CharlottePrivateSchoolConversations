@@ -89,6 +89,13 @@ export type TherapyCard = {
   sources: Source[]
 }
 
+/**
+ * How a learning need is identified: screening, psychoeducational evaluation,
+ * documentation asked for at admission (IEP / 504 / evaluation), the intake
+ * that decides support, and testing accommodations for a student with a plan.
+ * NEVER admission tests (ISEE, Gesell, readiness visits); those belong in the
+ * Services "Entrance testing" row. See learningSupport/README.md.
+ */
 export type TestingCard = {
   headline: string
   entries: { code: LearningCode; title: string; text: string; muted?: string }[]
