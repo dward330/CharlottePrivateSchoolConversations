@@ -598,3 +598,25 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
     grid (`.ls-staff[data-email]`), so a row with no email keeps its role aligned. It
     stacks below 640px. Verified in Chrome: 1280 light/dark, `fa` (mirrored) and 320,
     plus `audit:mobile` for both schools.
+
+## Follow-up — after this PR merges (decided 2026-10-24)
+
+The user approved splitting the `/learning-support` "standard" into two roles. **Do this
+after Phase 2 merges, as its own branch and PR. It is not part of this plan's diff.**
+
+1. **Cannon is the depth reference.** The skill's "shape, tone and depth are the model"
+   line points at `src/data/learningSupport/cannon.ts`. Cannon is ahead on rows shown (25
+   vs 23), published rows (17 vs 14), stats (4 vs 3), testing entries (4 vs 3), staff (12
+   vs 9) and questions (8 vs 7), and it has a written eligibility policy.
+2. **The GO/NO-GO bar is computed from the thinnest shipped Learning Support school**, at
+   run time, across every file in `PROGRAMS`. It is not pinned to one named school. Today
+   that is still Hickory Grove (14 published), so rule 3 stays at "at least half,
+   rounded up" = 7. This mirrors `/add-school`, whose floor is the thinnest shipped
+   school.
+3. **Hickory Grove stays the reference for two patterns Cannon lacks:** IH_FEE rows from
+   a published fee schedule, and `[[504|…]]` / `[[iep|…]]` glossary markers. The skill
+   names both schools and says what each is the model for.
+
+Files: `.claude/skills/learning-support/SKILL.md`, its row and `updated` date in
+`.claude/SKILLS.md` (same PR), and the Learning Support paragraph in `CLAUDE.md` ("with
+Hickory Grove Christian as its first school and its standard").
