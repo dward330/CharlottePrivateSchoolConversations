@@ -593,7 +593,7 @@ export const cannon: CollegeSupportProgram = {
       { value: 'SCOIR', label: 'platform, alongside an annually refreshed School Profile' },
     ],
     roster: [
-      { role: 'Co-Director', name: 'Courtney Brayboy', detail: 'Cannon runs an unusual shared top role rather than a single director.' },
+      { role: 'Co-Director', name: 'Courtney Brayboy' },
       { role: 'Co-Director', name: 'Heidi Waibel', detail: 'The four directors are unchanged across the 2024–25, 2025–26 and 2026–27 profiles.' },
       { role: 'Assoc. Director', name: 'Adrian LeFevre' },
       { role: 'Assoc. Director', name: 'Connie Stavrakas' },
