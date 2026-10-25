@@ -1,4 +1,4 @@
-var e=`hickory-grove-christian`,t=`learning-support`,n=14,r=[{subtopic:`Official Site Research`,source_file:`Hickory Grove Christian - Learning Support - Official Site Research.md`,preview:"# Hickory Grove Christian — Learning Support & Student Services — Official Site Research Christian School's own pages directly (`curl`, raw HTML) and the PDFs those pages link to. Per the user's instruction for this area, only official school sources are used: hgchristian.org and the Finalsite-hosted PDFs it links. No…",text:`# Hickory Grove Christian — Learning Support & Student Services — Official Site Research
+var e=`hickory-grove-christian`,t=`learning-support`,n=15,r=[{subtopic:`Official Site Research`,source_file:`Hickory Grove Christian - Learning Support - Official Site Research.md`,preview:"# Hickory Grove Christian — Learning Support & Student Services — Official Site Research Christian School's own pages directly (`curl`, raw HTML) and the PDFs those pages link to. Per the user's instruction for this area, only official school sources are used: hgchristian.org and the Finalsite-hosted PDFs it links. No…",text:`# Hickory Grove Christian — Learning Support & Student Services — Official Site Research
 
 Christian School's **own** pages directly (\`curl\`, raw HTML) and the PDFs those pages link
 to. Per the user's instruction for this area, **only official school sources** are used:
@@ -266,6 +266,27 @@ counseling staff.
 - **S2 and S14 say nothing about ESS for TK students.** S14 does not mention ESS or Student
  Services.
 
-**Settled: silent.** Whether ESS serves TK students is **NOT STATED**. Ask the school.
+**Settled: silent.** Whether ESS serves TK students is **NOT STATED**. Ask the school.`},{subtopic:`Staff email addresses (added 2026-10-24)`,source_file:null,preview:`Collected 2026-10-24 for the "Who You'll Work With" card, from the school's Our Staff directory, https://www.hgchristian.org/about-us/our-staff. Its Finalsite element is queried as \`https://www.hgchristian.org/fs/elements/2573?const_search_keyword=<surname>\`, and each listing renders its address as a mailto link…`,text:`Collected 2026-10-24 for the "Who You'll Work With" card, from the school's **Our Staff
+directory**, https://www.hgchristian.org/about-us/our-staff. Its Finalsite element is
+queried as \`https://www.hgchristian.org/fs/elements/2573?const_search_keyword=<surname>\`,
+and each listing renders its address as a mailto link through
+\`FS.util.insertEmail(<el>, "<domain reversed>", "<local part reversed>")\`. Reversing the
+two strings gives the address the directory displays. **No address is built from a name
+pattern.**
 
----`}],i={school_slug:e,topic_slug:t,section_count:14,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+| Name on the card | Name / title in the directory | Email as published |
+|---|---|---|
+| Dr. Mildred Similton | Dr. Mildred Similton — Administrator of Educational Student Services | mildredsimilton@hgchristian.org |
+| Rachel Vaughn | Rachel Vaughn — Director of Educational Support Services | rachelvaughn@hgchristian.org |
+| Jacqui Williams | Jacqui Williams — Student Services Administrative Assistant | jacquiwilliams@hgchristian.org |
+| Kim Williams | Kimberly Williams — Educational Support Services Teacher | kimberlywilliams@hgchristian.org |
+| Lori Townsend | Lori Townsend — Educational Support Services Teacher | loritownsend@hgchristian.org |
+| Beth Jeu De Vine | Beth Jeu De Vine — Educational Support Services Teacher Assistant | elizabethjeudevine@hgchristian.org |
+| Carolyn Raney | Carolyn Raney — Educational Support Services Teacher Assistant | carolynraney@hgchristian.org |
+| Kim Staples | Kimberly Staples — Academic Coaching & Tutorial Support | kimstaples@hgchristian.org |
+| Belinda Jackson | Belinda Jackson — After School Program Director, Academic Coaching & Tutorial Support | belindajackson@hgchristian.org |
+
+Not on the card, recorded for completeness: Tracey Bennett, Director of Counseling,
+traceybennett@hgchristian.org.
+
+---`}],i={school_slug:e,topic_slug:t,section_count:15,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
