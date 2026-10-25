@@ -622,8 +622,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
             )}
           </h1>
           <p className="school-sub">
-            {tr('school.subAreas', { count: covered.length })} ·{' '}
-            {tr('school.subDocs', { count: totalDocs })}
+            {tr('school.subAreas', { count: covered.length })}
+            {/* Local-testing-only corpus statistic, the same as the sidebar
+                per-topic counts below: it describes our research, not the
+                school, so it NEVER ships to production (or the pre-render
+                pass). The ` · ` separator sits inside the guard so production
+                renders no trailing dot. Do not remove the DEV guard or
+                `totalDocs` — both are still live in dev. */}
+            {import.meta.env.DEV && <> · {tr('school.subDocs', { count: totalDocs })}</>}
           </p>
           <div className="school-header-topics">
             {brand.welcomeVideoUrl && (
