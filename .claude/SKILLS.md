@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**9 active** · 0 retired · Last updated **2026-10-21**
+**10 active** · 0 retired · Last updated **2026-10-25**
 
 ---
 
@@ -26,6 +26,7 @@
 | 🎙️ | [`admissions-episode`](#admissions-episode) | One school's admissions → podcast | ❌ Generates files | Single |
 | 🌍 | [`global-exposure`](#global-exposure) | Deep-research prompt → verified Global Exposure plan | ❌ Never | — |
 | 🧩 | [`learning-support`](#learning-support) | Deep-research prompt → go/no-go → Learning Support plan | ❌ Never | — |
+| 🎧 | [`learning-support-episode`](#learning-support-episode) | One school's Learning Support → podcast | ❌ Generates files | Single |
 
 ### The main road
 
@@ -42,7 +43,7 @@ Four skills feed research **into** that road at any point:
 `nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
 ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
 in a go/no-go and then a `/plan` handoff) and `ingest-source-material` (everything else).
-Two stand alone: `add-school-news` and `admissions-episode`.
+Three stand alone: `add-school-news`, `admissions-episode` and `learning-support-episode`.
 
 ---
 
@@ -354,8 +355,6 @@ the Source URLs file has not verified.
 
 ---
 
-<a id="retired-skills"></a>
-
 <a id="learning-support"></a>
 
 ## 🧩 `learning-support`
@@ -402,6 +401,47 @@ field a school publishes; never match CCD's counts (40 staff, 6 Testing entries)
 evidence, or add a card without the user's approval.
 
 ---
+
+<a id="learning-support-episode"></a>
+
+## 🎧 `learning-support-episode`
+
+**Turn one school's Learning Support & Student Services area into a podcast episode.**
+
+`.claude/skills/learning-support-episode/SKILL.md` · added 2026-10-25 · generator:
+`scripts/gen_learning_episode.mjs` (`npm run report:learning`)
+
+The repeatable form of the hand-built Global Exposure episodes, for schools whose Learning
+Support area has already shipped. It produces the NotebookLM source PDF and the talk-show
+prompt in `reports/learning-support/` (gitignored), then judges the takes the user brings back.
+
+1. Lists the eligible schools, computed from `src/data/learningSupport/*.ts`
+2. **Freshness check** against the school's own live pages; differences go in an overrides
+   file with their provenance
+3. **Rewrite for audio.** The generator exits 3 until every fee amount, email, phone number
+   and staff name is rewritten (`--skeleton` writes a starter file)
+4. School notes (pronunciations, 2–4 must-land lines), then the build, under the 4,900-char prompt budget
+5. Hands over the files, the NotebookLM steps and the traps to listen for
+6. Judges each transcript against the PDF text and writes `Prompt v2`, v3… by hand
+
+> **🧭 The episode follows a parent's questions, not the card order:** big picture → can
+> they serve my child → how a need gets noticed → day-to-day support → therapy → wellness
+> & health → the team → what the school doesn't say → close (user, 2026-10-25).
+
+> **🔒 What the hosts must not say is kept out of the PDF**, not just banned in the
+> prompt: no person's name (roles with counts instead), no fee amount (only "at an extra
+> cost"), no Ask the School questions, no entrance-testing row. A prompt rule loses to
+> source text pulling the other way.
+
+> **⚠️ Gaps are spoken as gaps.** NOT STATED renders under "What the school's pages do not
+> say", which explains that it is not the same as "not offered".
+
+**Deliberately cannot:** edit app code or research data, or deploy. Adding the published
+episode to `podcastEpisodes.ts` is a separate PR.
+
+---
+
+<a id="retired-skills"></a>
 
 ## 🪦 Retired skills
 
