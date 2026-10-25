@@ -72,10 +72,21 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 
 | Institution | 2026 label | 2027 finding |
 |---|---|---|
+| Illinois Institute of Technology | National Rank #121 | National PDF harvest 2026-09-22 — "Illinois Institute of Technology" #121 (cannonprofile, 2026-10-25) |
+| La Salle University | National Rank #250 | National PDF harvest 2026-09-22 — "La Salle University" #250 (cannonprofile, 2026-10-25) |
+| Luther College | Liberal Rank #111 | Route A — profile page luther-college-1874, verbatim "In the 2027 edition…" (cannonprofile, 2026-10-25) |
 | Middle Tennessee State University | National Rank #257 | no National/LAC rank — Regional Universities South (tie) |
+| Rutgers University (Newark) | National Rank #73 | National PDF harvest 2026-09-22 — "Rutgers University--Newark" #73 (cannonprofile, 2026-10-25) |
+| Southern University and A&M College | National Rank #382-422 | Route A — profile page southern-university-and-am-college-9636, verbatim "In the 2027 edition…" (cannonprofile, 2026-10-25) |
 | SUNY College of Environmental Science and Forestry | National Rank #158 | no National/LAC rank — Regional Universities North |
+| University of Alabama (Birmingham) | National Rank #137 | User's 2026-09-22 PDF print-out (via alias — Cannon's spelling of University of Alabama at Birmingham) |
 | University of Charleston | National Rank #395-434 | no National/LAC rank — Regional Universities South (tie) |
+| University of Hawaii (Manoa) | National Rank #186 | User's 2026-09-22 PDF print-out (via alias — Cannon's spelling of University of Hawaii at Manoa) |
+| University of Idaho | National Rank #208 | National PDF harvest 2026-09-22 — "University of Idaho" #208 (cannonprofile, 2026-10-25) |
+| University of Illinois (Chicago) | National Rank #95 | User's 2026-09-22 PDF print-out (via alias — Cannon's spelling of University of Illinois at Chicago) |
 | University of Maryland Eastern Shore | National Rank #395-434 | no National/LAC rank — Regional Universities North (tie) |
+| University of the Pacific | National Rank #121 | National PDF harvest 2026-09-22 — "University of the Pacific" #121 (cannonprofile, 2026-10-25) |
+| Ursinus College | Liberal Rank #91 | Route A — profile page ursinus-3385, verbatim "In the 2027 edition…" (cannonprofile, 2026-10-25) |
 | Valparaiso University | National Rank #198 | no National/LAC rank — Regional Universities Midwest (tie) |
 | Western Carolina University | National Rank #257 | no National/LAC rank — Regional Universities South (tie) |
 | Western Kentucky University | National Rank #363 | no National/LAC rank — Regional Universities South |

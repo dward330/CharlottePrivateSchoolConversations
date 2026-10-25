@@ -1,5 +1,13 @@
 # Cannon School — College Support — Acceptance-Window Research (2023–2026 harmonization)
 
+
+> **Superseded 2026-10-25.** Cannon's **2026–27 School Profile** (created 2026-09-11)
+> restores a full **2024–2026** acceptance list (218 rows), so the findings below — that
+> nothing newer than 2022–24 is published — no longer hold. The app now uses the 2024–26
+> list. The new profile was published at the same Finalsite asset as the 2025–26 edition,
+> so the 2025–26 URL cited below now serves the 2026–27 document. See
+> `Cannon School - College Support - School Profile 2026-2027.md` in this folder.
+
 **Provenance:** Researched by Claude via web research, 2026-08-04, for the `acceptance-years`
 plan (harmonize the "Where Graduates Go" window to a 2023 floor).
 **School:** Cannon School, 5801 Poplar Tent Road, Concord, NC 28027 | CEEB 340879.

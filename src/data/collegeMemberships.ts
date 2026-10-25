@@ -165,6 +165,10 @@ export const HBCUS: readonly string[] = [
   'Voorhees University',
   "Saint Augustine's University",
   'Tougaloo College',
+  // Added 2026-10-25 for Cannon's 2026–27 profile list (plan cannonprofile).
+  // Both are on the DoE-designated roster cited in the source .md.
+  'Southern University and A&M College', // the Baton Rouge flagship — not Georgia/Charleston Southern
+  'West Virginia State University',
 ]
 
 /**

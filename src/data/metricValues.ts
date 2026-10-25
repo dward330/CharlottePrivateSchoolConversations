@@ -185,7 +185,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // so 2318 and 1413 outranked every school publishing one plain number.
     compareAs: 'sum',
     values: {
-      cannon: '14 AP + 13 AT', // 2026-27 catalog count; the 2025-26 profile stated 13 AP / 8 AT before the AT program expanded
+      cannon: '14 AP + 13 AT', // 2026-27 catalog count; the 2026-27 profile gives the same 27 split 15 AP + 12 AT
       'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
       'charlotte-catholic': '24 AP', // 24 AP + 43 Honors + 18 Advanced = 85 advanced entries, counted from the 2026-2027 guide; AP entry is competitive and requires a per-course application
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
@@ -205,7 +205,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'scope',
-        text: 'From the 2026–27 catalog. The 2025–26 profile stated 13 AP / 8 AT before the Advanced Topics program expanded; the AT courses carry the same weight as an AP.',
+        text: 'From the 2026–27 catalog. The 2026–27 School Profile gives the same total of 27 but splits it 15 AP + 12 AT, because it labels the business course AP and omits AT: English Seminar and Inquiry. The AT courses carry the same weight as an AP.',
       },
       'charlotte-country-day': {
         kind: 'scope',
@@ -264,7 +264,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'AP scoring 3+',
     note: 'Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin, Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.',
     values: {
-      cannon: '92%', // 92.39% of exams scored 3+
+      cannon: '90%', // 90.16% "Students with Scores 3+", May 2026 (446 exams, 195 students)
       'charlotte-christian': '89%', // 2024: 265/298 (89%)
       'charlotte-catholic': '94%', // % of AP scores at 3+, 2024-25 — 1,064 exams, 23 subjects, 345 students. AP exams are MANDATORY in each AP course, so this is a whole-cohort figure
       'charlotte-country-day': '93%', // 2025 overall 93%
@@ -282,7 +282,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text:
           '94% of 1,064 AP exams scored 3 or above in 2024-25 (23 subjects, 345 students); 72% scored 4 or 5. AP exams are mandatory in every AP course at CCHS, so this is a whole-cohort rate and cannot be flattered by weaker candidates skipping the exam.',
       },
-      cannon: { kind: 'scope', text: 'About 92% of AP exams scored 3 or higher (the school reports 92.39%). A score of 3+ is the level most colleges treat as a passing result.' },
+      cannon: { kind: 'scope', text: 'About 90% scored 3 or higher in May 2026 (the school reports 90.16% of students with scores 3+; 195 students, 446 exams). A score of 3+ is the level most colleges treat as a passing result.' },
       'covenant-day': { kind: 'scope', text: '96% of AP exams scored 3 or higher in 2026 (179 students took 401 exams; every AP student must sit the exam). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-christian': { kind: 'scope', text: '89% of AP exams scored 3 or higher in 2024 (265 of 298). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-country-day': { kind: 'scope', text: '93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.' },
@@ -303,7 +303,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '3 / 8', // buckets, collegeSupportPrograms/cannon.ts
+      cannon: '7 / 8', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '2 / 8', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '6 / 8', // Cornell, Dartmouth, Harvard, Penn, Princeton, Yale — no Brown, no Columbia. MATRICULATIONS, not acceptances
       'charlotte-country-day': '7 / 8', // buckets, collegeSupportPrograms/charlotte-country-day.ts
@@ -325,7 +325,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Yale and Dartmouth, scored across the whole 2019–2025 acceptance window rather than a single class. The denominator is the eight Ivy League institutions.',
       },
-      cannon: { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '5 of the 8 Ivy League universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -352,7 +352,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '10 / 17', // buckets, collegeSupportPrograms/cannon.ts
+      cannon: '14 / 17', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '4 / 17', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '9 / 17', // the 6 Ivies + Duke, Georgetown, Northwestern
       'charlotte-country-day': '13 / 17', // buckets, collegeSupportPrograms/charlotte-country-day.ts
@@ -374,7 +374,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Six of the seventeen “Ivy Plus” institutions — Yale and Dartmouth plus Stanford, Duke, Johns Hopkins and Georgetown — appear across the 2019–2025 acceptance window rather than in any single class.',
       },
-      cannon: { kind: 'scope', text: '10 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '14 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '4 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '13 of the 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '12 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -401,7 +401,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '66 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      cannon: '62 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '39 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '36 / 75', // scored against the 2027 US News National Universities table, Classes 2023-2025 matriculation list
       'charlotte-country-day': '70 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
@@ -423,7 +423,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'U.S. News Top-75 National Universities named on the 2019–2025 acceptance list, scored against the 2027 tables. A seven-year cumulative count, not one class.',
       },
-      cannon: { kind: 'scope', text: '66 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '62 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '39 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '70 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '67 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -450,7 +450,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '30 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      cannon: '28 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '9 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '17 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
       'charlotte-country-day': '43 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
@@ -472,7 +472,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'U.S. News Top-75 National Liberal Arts Colleges on the 2019–2025 list, scored against the 2027 tables. Includes Swarthmore, Middlebury, Davidson, Colby and Bryn Mawr.',
       },
-      cannon: { kind: 'scope', text: '30 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '28 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '9 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '43 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '42 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -499,7 +499,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '52 / 68', // buckets, collegeSupportPrograms/cannon.ts
+      cannon: '55 / 68', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '40 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '39 / 68', // against the 68-member Power Four roster in _shared/; 40 list rows carry the tag but the two Arizona State campuses are one institution
       'charlotte-country-day': '61 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
@@ -521,7 +521,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '36 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.',
       },
-      cannon: { kind: 'scope', text: '43 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '55 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '34 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '53 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': {
@@ -769,7 +769,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '5 / 107', // buckets, collegeSupportPrograms/cannon.ts
+      cannon: '10 / 107', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '10 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '2 / 107', // Hampton University, Benedict College
       'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
@@ -791,7 +791,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
       },
-      cannon: { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -817,7 +817,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // student, as every one of this row's tooltips says.
     lowerIsBetter: true,
     values: {
-      cannon: '28:1', // 111 seniors ÷ 4 counselors
+      cannon: '~26:1', // 105 seniors (Class of 2026) ÷ 4 counselors
       'charlotte-christian': '~47:1', // effective caseload ~47 seniors/counselor
       'charlotte-catholic': '~54:1', // COMPUTED, not published — 324 seniors in the Class of 2026 over 6 counselors incl. the Director; ~195:1 across all four grades
       'charlotte-country-day': '~34:1', // ~34–35 seniors/counselor
@@ -839,7 +839,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'COMPUTED, not published — the school states neither a caseload nor a ratio. 35 seniors in the Class of 2026 over two college-counseling staff (Peter Gangemi, Director; Kristy Smith, Assistant) gives ~18:1; counted against the Director alone it would be 35:1.',
       },
-      cannon: { kind: 'scope', text: 'About 28 seniors per dedicated college counselor at peak application season — 111 seniors across 4 counselors. A lower ratio means more counselor time per student.' },
+      cannon: { kind: 'scope', text: 'About 26 seniors per dedicated college counselor at peak application season — 105 seniors across 4 counselors. A lower ratio means more counselor time per student.' },
       'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 47 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
       'charlotte-country-day': { kind: 'scope', text: 'About 34–35 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
       'charlotte-latin': { kind: 'scope', text: 'About 36–37 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
@@ -894,7 +894,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: '% receiving aid',
     note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Davidson Day & Hickory Grove Christian do not publish this.',
     values: {
-      cannon: '24%', // 24% of students, 2025–26
+      cannon: '24%', // 24% of students, 2025–26 · restated, undated, in the 2026–27 profile
       'charlotte-christian': null, // share receiving aid not published
       'charlotte-catholic': null, // MACS publishes aid diocese-wide only, never per school. No Form 990 exists either — EIN 56-1779865 is IRS-exempt as a religious organization. Permanent
       'charlotte-country-day': '~20%', // ~20% of student body (undated)
@@ -935,7 +935,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Aid awarded / year',
     note: 'Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.',
     values: {
-      cannon: '$3.0M', // $3,000,000 in 2025–26
+      cannon: '$3.0M', // $3,000,000 in 2025–26 · restated, undated, in the 2026–27 profile
       'charlotte-christian': null, // total awarded not published
       'charlotte-catholic': null, // diocese-wide only; see pct-aid — MACS is 990-exempt as a religious organization
       'charlotte-country-day': null, // four conflicting undated totals — omitted to avoid a guess
@@ -1256,7 +1256,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // range on its midpoint so it competes as the count it represents.
     compareAs: 'range-mid',
     values: {
-      cannon: '≥19', // 8 named US orgs + 11 US honor societies; no chartered directory published
+      cannon: '≥20', // 8 named US orgs + 12 US honor societies (NHS chapter 2025); no chartered directory published
       'charlotte-christian': '23', // 23 named US orgs (part of 35 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
       'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
@@ -1276,7 +1276,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'minimum',
-        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 11 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.',
+        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.',
       },
       'charlotte-christian': {
         kind: 'scope',

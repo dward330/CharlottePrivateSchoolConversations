@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 469 ingested research documents.
+**13 schools × 12 research areas**, 470 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
-| College Support | `college-support` | 11 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -158,7 +158,7 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `academic-case` | Academic Case | 7/13 | 1 |
-| `outcomes` | Placement Outcomes | 11/13 | 7 |
+| `outcomes` | Placement Outcomes | 11/13 | 8 |
 | `application-support` | Application Support | 7/13 | 1 |
 | `counseling-engine` | Counseling Engine | 7/13 | 1 |
 | `fit-rank` | Fit & Rank | 7/13 | 2 |
@@ -582,6 +582,15 @@ landed with all 11 schools still printing their 2026 counts (Cannon `46 / 75` wh
 stat tile, the `metricValues.ts` Compare cell, and the qual sentence that spells
 the number out in prose (`"58 of the top 75 …"`), a number that drifts exactly as
 easily as one in a cell.
+
+**A school profile can overwrite its predecessor at the SAME URL — re-check every
+citation to it when a new edition lands.** Cannon’s 2026–27 profile was published
+at the same Finalsite asset id and filename as the 2025–26 edition (only the
+version segment changed), and both version URLs then served the new file. Every
+claim cited to "2025–26 School Profile" silently opened a document contradicting it
+(plan `cannonprofile`, 2026-10-25). When a new edition appears, a claim the new
+edition dropped is re-sourced to a live page or removed — never left citing a link
+that no longer supports it.
 
 Two rules the counts follow. They are **clamped at the published denominator**:
 ties put 79 National and 77 Liberal institutions inside the top-75 band, so a

@@ -104,6 +104,19 @@ reports a violation is asking a question, not delivering a verdict. Confirm whic
 wrong before editing either. Removing these seven tags would have been a silent
 data-quality regression that every check would then have reported as clean.
 
+### Roster additions, 2026-10-25
+
+Added for Cannon School's 2026–27 School Profile acceptance list (plan `cannonprofile`),
+the first list to name either institution. Both confirmed on 2026-10-25 against the
+DoE-designated roster at https://hbculifestyle.com/hbcu-colleges-list/, which lists
+"Southern University and A&M College / Public, 4 Year / Baton Rouge, LA" and "West
+Virginia State University / Public, 4 Year / Institute, WV". 107 is unchanged.
+
+| Institution | Notes |
+|---|---|
+| Southern University and A&M College | Baton Rouge, LA — the Southern University System flagship. Not to be confused with Georgia Southern or Charleston Southern (below) |
+| West Virginia State University | Institute, WV |
+
 ### Explicitly NOT HBCUs (guard against substring false-positives)
 
 These appear on the lists and superficially resemble an HBCU name but are **not**

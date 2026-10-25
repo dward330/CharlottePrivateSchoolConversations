@@ -71,7 +71,7 @@
 > school writes the institution as "Queens University of Charlotte", and
 > Providence Day lists "Queens University Belfast" separately.
 
-## Linked (938)
+## Linked (935)
 
 | College (as the school lists write it) | Homepage | Verification |
 |---|---|---|
@@ -92,7 +92,6 @@
 | Arcadia University | https://www.arcadia.edu | 200 |
 | Arizona State University | https://www.asu.edu | 200 |
 | Arizona State University (Downtown Phoenix) | https://www.asu.edu | 200 |
-| Arizona State University (Main Campus) | https://www.asu.edu | 200 |
 | Arizona State University (Tempe) | https://www.asu.edu | 200 |
 | Arizona State University-Tempe | https://www.asu.edu | 200 |
 | Art Center College of Design | https://www.artcenter.edu | 200 |
@@ -102,7 +101,6 @@
 | Auburn University | https://www.auburn.edu | 200 |
 | Augusta University | https://www.augusta.edu | 200 |
 | Augustana College | https://www.augustana.edu | 200 |
-| Austin Peay State University | https://www.apsu.edu | 200 |
 | Ave Maria University | https://www.avemaria.edu | 200 |
 | Averett University | https://www.averett.edu | 200 |
 | Babson College | https://www.babson.edu | 200 |
@@ -132,7 +130,6 @@
 | Blue Mountain College | https://www.bmc.edu | 200 |
 | Bluefield College | https://www.bluefield.edu | 200 |
 | Bob Jones University | https://www.bju.edu | 200 (bot-blocked in curl, confirmed live; well-known institution) |
-| Boise State University | https://www.boisestate.edu | 200 |
 | Boston College | https://www.bc.edu | 200 |
 | Boston Conservatory at Berklee | https://bostonconservatory.berklee.edu | 200; the conservatory's own site, not the Berklee parent root — collision fix, matches 'The Boston Conservatory at Berklee' |
 | Boston University | https://www.bu.edu | 200 |
@@ -154,11 +151,11 @@
 | Bucknell University | https://www.bucknell.edu | 200 |
 | Butler University | https://www.butler.edu | 200 |
 | Cairn University | https://cairn.edu | 200 via redirect from www.cairn.edu |
+| Cal Poly | https://www.calpoly.edu | 200 (Cannon's 2026–27 profile spelling; calpoly.edu is California Polytechnic State University, San Luis Obispo — the same URL as its spelled-out rows) |
 | California Baptist University | https://calbaptist.edu | 200 via redirect from www.calbaptist.edu |
 | California Institute of Technology | https://www.caltech.edu | 200 |
 | California Polytechnic State University | https://www.calpoly.edu | 200 |
 | California Polytechnic State University (San Luis Obispo) | https://www.calpoly.edu | 200 |
-| California State University (Bakersfield) | https://www.csub.edu | 200 |
 | California State University Long Beach | https://www.csulb.edu | 200 |
 | California State University–Fresno | https://www.fresnostate.edu | 200 |
 | Calvin University | https://calvin.edu | 200 via redirect from www.calvin.edu |
@@ -209,7 +206,6 @@
 | Colorado College | https://www.coloradocollege.edu | 200 |
 | Colorado School of Mines | https://www.mines.edu | 200 |
 | Colorado State University | https://www.colostate.edu | 200 |
-| Colorado State University (Fort Collins) | https://www.colostate.edu | 200 |
 | Columbia College (Chicago) | https://www.colum.edu | 200 |
 | Columbia College Chicago | https://www.colum.edu | 200 |
 | Columbia College Chicago (NOT Columbia University) | https://www.colum.edu | 200 |
@@ -228,6 +224,7 @@
 | Dartmouth College | https://home.dartmouth.edu | 200 via redirect from www.dartmouth.edu |
 | Davenport University | https://www.davenport.edu | 200 |
 | Davidson College | https://www.davidson.edu | 200 |
+| Davidson-Davie Community College | https://www.davidsondavie.edu | 200 |
 | Daytona State College | https://www.daytonastate.edu | 200 |
 | DePaul University | https://www.depaul.edu | 200 |
 | DePauw University | https://www.depauw.edu | 200 |
@@ -250,7 +247,6 @@
 | East Tennessee State University | https://www.etsu.edu | 200 |
 | East Texas A&M University | https://www.etamu.edu | 200 |
 | Eastern Mennonite University | https://emu.edu | 200 |
-| Eastern Michigan University | https://www.emich.edu | 403 (bot-blocked; confirmed live via search) |
 | Eckerd College | https://www.eckerd.edu | 200 |
 | Edgewood University | https://www.edgewood.edu | 200 |
 | Elizabeth City State University | https://ecsu.edu | 200 via redirect (www dropped) |
@@ -272,8 +268,6 @@
 | Erskine College | https://www.erskine.edu | 200 |
 | Fairfield University | https://www.fairfield.edu | 200 |
 | Fairmont State University | https://www.fairmontstate.edu | 200 |
-| Fashion Institute of Design & Merchandising | https://asufidm.asu.edu | 200; FIDM closed as independent school 2025, absorbed into ASU as ASU FIDM |
-| Fashion Institute of Technology | https://www.fitnyc.edu | 200 |
 | Fayetteville State University | https://www.uncfsu.edu | 200 |
 | Fisher College | https://www.fisher.edu | 200 |
 | Fisk University | https://www.fisk.edu | 200 |
@@ -312,7 +306,6 @@
 | Gonzaga University | https://www.gonzaga.edu | 403 (bot-blocked; confirmed live via search) |
 | Gordon College | https://www.gordon.edu | 200 |
 | Goucher College | https://www.goucher.edu | 200 |
-| Grace College | https://www.grace.edu | 200 |
 | Grand Canyon University | https://www.gcu.edu | 200 |
 | Greensboro College | https://www.greensboro.edu | 200 |
 | Greenville University | https://www.greenville.edu | 200 |
@@ -326,7 +319,6 @@
 | Hampton University | https://www.hamptonu.edu | 200 via redirect to home.hamptonu.edu |
 | Harding University | https://www.harding.edu | 200 |
 | Harvard University | https://www.harvard.edu | 200 |
-| Harvey Mudd College | https://www.hmc.edu | 200 |
 | Haverford College | https://www.haverford.edu | 403 (bot-blocked WAF, domain confirmed correct) |
 | Hawai'i Pacific University | https://www.hpu.edu | 200 OK |
 | Hawaii Pacific University | https://www.hpu.edu | 200 |
@@ -342,6 +334,7 @@
 | Houston Baptist University | https://hc.edu | 200 via redirect; institution renamed Houston Christian University in 2023 |
 | Howard University | https://howard.edu | 200 |
 | Husson University | https://www.husson.edu | 200 |
+| Illinois Institute of Technology | https://www.iit.edu | 200 |
 | Immaculata University | https://www.immaculata.edu | 200 |
 | Imperial College London | https://www.imperial.ac.uk | 200 (403 under default curl UA; bot-blocked, 200 with browser UA) |
 | Indiana University | https://bloomington.iu.edu | 301->200; redirects from www.indiana.edu to bloomington.iu.edu (final host) |
@@ -359,6 +352,7 @@
 | John Cabot University (Italy) | https://www.johncabot.edu | 200; same institution, Rome campus |
 | Johns Hopkins University | https://www.jhu.edu | 403 (bot-blocked WAF, domain confirmed correct) |
 | Johnson & Wales University | https://www.jwu.edu | 200 |
+| Johnson & Wales University (Charlotte) | https://www.jwu.edu | 200 (the Charlotte campus has no distinct root domain; same URL as the Providence row) |
 | Johnson & Wales University (Providence) | https://www.jwu.edu | 200; Providence is JWU's main/founding campus, uses institution root |
 | Johnson C Smith University | https://www.jcsu.edu | 200 |
 | Johnson C. Smith University | https://www.jcsu.edu | 200; same institution |
@@ -373,6 +367,7 @@
 | King’s College London | https://www.kcl.ac.uk | 200 |
 | Kutztown University of Pennsylvania | https://www.kutztown.edu | 200 |
 | LIM College | https://www.limcollege.edu | 200 |
+| La Salle University | https://www.lasalle.edu | 200 |
 | Lafayette College | https://www.lafayette.edu | 200 |
 | Lake Forest College | https://www.lakeforest.edu | 200 |
 | Lakeland University | https://www.lakeland.edu | 200 via redirect (no www) |
@@ -405,6 +400,7 @@
 | Loyola University Chicago | https://www.luc.edu | 200 |
 | Loyola University Maryland | https://www.loyola.edu | 200 |
 | Loyola University New Orleans | https://www.loyno.edu | 200 |
+| Luther College | https://www.luther.edu | 200 |
 | Lynchburg College | https://www.lynchburg.edu | 200 |
 | Lynn University | https://www.lynn.edu | 403 to curl (bot-protection); verified real domain via search |
 | Macalester College | https://www.macalester.edu | 200 |
@@ -412,7 +408,6 @@
 | Manhattan School of Music | https://www.msmnyc.edu | 200 |
 | Manhattan University | https://manhattan.edu | 200 OK after redirect to https://manhattan.edu/; formerly Manhattan College, Riverdale NY, renamed 2024 |
 | Marion Military Institute | https://www.marionmilitary.edu | 200 (redirects to non-www) |
-| Marist College | https://www.marist.edu | 200 |
 | Marist University | https://www.marist.edu | 200 |
 | Marquette University | https://www.marquette.edu | 200 |
 | Mars Hill University | https://www.mhu.edu | 200 |
@@ -439,7 +434,6 @@
 | Miami University-Oxford | https://www.miamioh.edu | 200 (redirects to non-www) |
 | Miami University–OH | https://www.miamioh.edu | 200 (redirects to non-www) |
 | Michigan State University | https://www.msu.edu | 200 (redirects to non-www) |
-| Michigan Technological University | https://www.mtu.edu | 200 |
 | Middle Tennessee State University | https://www.mtsu.edu | 200 |
 | Middlebury College | https://www.middlebury.edu | 200 |
 | Midland University | https://www.midlandu.edu | 403 to curl (bot-protection); verified real domain via search |
@@ -452,7 +446,6 @@
 | Missouri State University | https://www.missouristate.edu | 200 |
 | Missouri University of Science and Technology | https://www.mst.edu | 200 |
 | Molloy University | https://www.molloy.edu | 200 |
-| Monmouth University | https://www.monmouth.edu | 200 |
 | Montana State University | https://www.montana.edu | 200 |
 | Montclair State University | https://www.montclair.edu | 200 |
 | Montreat College | https://www.montreat.edu | 200 |
@@ -475,6 +468,7 @@
 | New York University | https://www.nyu.edu | 200 |
 | Newberry College | https://www.newberry.edu | 200 |
 | Newcastle University | https://www.ncl.ac.uk | 200 |
+| Niagara University | https://www.niagara.edu | 200 |
 | Norfolk State University | https://www.nsu.edu | 200 |
 | Norland College | https://www.norland.ac.uk | 200 |
 | North Carolina A & T State University | https://www.ncat.edu | 200 (browser UA; plain curl bot-blocked 403) |
@@ -517,6 +511,7 @@
 | Pellissippi State Community College | https://www.pstcc.edu | 200 |
 | Penn State Berks | https://berks.psu.edu | 200 via redirect from www.bk.psu.edu (confirmed live/official via search; plain curl bot-blocked 403) |
 | Penn State University | https://www.psu.edu | 200 |
+| Penn State University (Abington) | https://www.abington.psu.edu | 403 to plain curl (bot-blocked, as Penn State Berks); the official Penn State Abington campus domain, reached via redirect from abington.psu.edu |
 | Penn State University (University Park) | https://www.psu.edu | 200 |
 | Penn State University (World Campus) | https://www.worldcampus.psu.edu | 200 |
 | Penn State University, Brandywine | https://www.brandywine.psu.edu | 403 on every attempt (multiple UAs, headers, retries) despite the URL being the confirmed official Penn State Brandywine campus domain per Penn State's own site map; likely Akamai bot-blocking on this subdomain specifically (root psu.edu returns 200) — recorded as the correct URL despite the verification failure |
@@ -530,7 +525,6 @@
 | Point Loma Nazarene University | https://www.pointloma.edu | 200 |
 | Point Park University | https://www.pointpark.edu | 200 |
 | Pomona College | https://www.pomona.edu | 200 |
-| Portland State University | https://www.pdx.edu | 200 |
 | Pratt Institute | https://www.pratt.edu | 200 |
 | Pratt Institute (art & design) | https://www.pratt.edu | 200 |
 | Presbyterian College | https://www.presby.edu | 200 |
@@ -538,6 +532,7 @@
 | Providence College | https://www.providence.edu | 200 |
 | Purchase College-SUNY | https://www.purchase.edu | 200 |
 | Purdue University | https://www.purdue.edu | 200 |
+| Purdue University (Fort Wayne) | https://www.pfw.edu | 200 |
 | Purdue University (Main Campus) | https://www.purdue.edu | 200 |
 | Purdue University-Main Campus | https://www.purdue.edu | 200 |
 | Queens University | https://www.queens.edu | 200; OVERRIDE of research pass: Queens University of Charlotte. Charlotte Latin's list is Charlotte-local, the row is enrolling:true, every other school in the roster writes this institution as 'Queens University of Charlotte', and Providence Day lists 'Queens University Belfast' separately. The research pass resolved the bare name to Queen's University Kingston, Ontario by national convention. |
@@ -568,11 +563,11 @@
 | Rutgers University | https://www.rutgers.edu | 200 |
 | Rutgers University (Camden) | https://camden.rutgers.edu | 200 via redirect from www.camden.rutgers.edu |
 | Rutgers University (New Brunswick) | https://newbrunswick.rutgers.edu | 200 via redirect from www.newbrunswick.rutgers.edu |
+| Rutgers University (Newark) | https://www.newark.rutgers.edu | 200 via redirect from newark.rutgers.edu |
 | Rutgers University, New Brunswick | https://newbrunswick.rutgers.edu | 403 Akamai bot-challenge on the campus subdomain (loads in a real browser); the New Brunswick campus site, matching the other two spellings of this row — collision fix |
 | Rutgers University-New Brunswick | https://newbrunswick.rutgers.edu | 200 via redirect from www.newbrunswick.rutgers.edu |
 | SUNY Buffalo | https://www.buffalo.edu | 200 |
 | SUNY College of Environmental Science and Forestry | https://www.esf.edu | 200 |
-| SUNY University at Buffalo | https://www.buffalo.edu | 200 |
 | SUNY at Binghamton | https://www.binghamton.edu | 200 |
 | SUNY at New Paltz | https://www.newpaltz.edu | 200 |
 | Saint Augustine's University | https://www.st-aug.edu | 200 OK; Raleigh, NC HBCU. Note: filed Chapter 11 bankruptcy April 2026 and cancelled Fall 2026 classes, but the institution has not closed and its official site remains live |
@@ -584,7 +579,6 @@
 | Saint Louis University, Madrid | https://www.slu.edu/madrid | 200 |
 | Saint Mary's College | https://www.saintmarys.edu | 200 OK; bare name resolved to Saint Mary's College, Notre Dame, Indiana — its unqualified legal/official name, distinct from "Saint Mary's College of California" which carries its own qualifier; see also row 19 which explicitly disambiguates Indiana |
 | Saint Mary's College (Indiana) | https://www.saintmarys.edu | 200 OK; Notre Dame, Indiana women's college |
-| Saint Mary's College of California | https://www.stmarys-ca.edu | 200 OK after redirect to https://www.stmarys-ca.edu/; Moraga, CA institution |
 | Salem College | https://www.salem.edu | 200 |
 | Salisbury University | https://www.salisbury.edu | 200 |
 | Salve Regina University | https://salve.edu | 200 via redirect from www.salve.edu |
@@ -618,6 +612,7 @@
 | Southeastern University | https://www.seu.edu | 403 Cloudflare bot-block (domain confirmed live) |
 | Southern Connecticut State University | https://www.southernct.edu | 200 |
 | Southern Methodist University | https://www.smu.edu | 200 |
+| Southern University and A&M College | https://www.subr.edu | 403 to plain curl (bot-blocked); subr.edu is the Baton Rouge flagship's official domain |
 | Southern Wesleyan University | https://www.swu.edu | 200 |
 | Southwest Minnesota State University | https://www.smsu.edu | 200 |
 | Southwestern University | https://www.southwestern.edu | 200 OK; Georgetown, TX institution chosen as the standard/most prominent national reading of the bare name (no Carolinas reading applies) |
@@ -625,7 +620,6 @@
 | Spelman College | https://www.spelman.edu | 200 |
 | Springfield College | https://springfield.edu | 200 via redirect from www.springfield.edu |
 | St. Bonaventure University | https://www.sbu.edu | 200 |
-| St. John's University | https://www.stjohns.edu | 200 OK; Queens, NY institution (national/well-known reading; no Carolinas reading applies) |
 | St. John's University-New York | https://www.stjohns.edu | 200 OK; same institution as above, Queens, NY |
 | St. John's University-Queens Campus | https://www.stjohns.edu | 200 OK; same institution as above, Queens, NY campus |
 | St. Joseph's University | https://www.sju.edu | 200 OK; same institution as "Saint Joseph's University" row above, Philadelphia, PA |
@@ -676,6 +670,7 @@
 | The University of Edinburgh | https://www.ed.ac.uk | 200 |
 | The University of Edinburgh (UK) | https://www.ed.ac.uk | 200 |
 | The University of Iowa | https://uiowa.edu | 200 via redirect from www.uiowa.edu |
+| The University of Manchester | https://www.manchester.ac.uk | 200 |
 | The University of Manchester (UK) | https://www.manchester.ac.uk | 200 |
 | The University of Montana | https://www.umt.edu | 200 |
 | The University of Oklahoma | https://www.ou.edu | 200 |
@@ -690,7 +685,6 @@
 | The University of Tennessee-Knoxville | https://www.utk.edu | 200 |
 | The University of Texas | https://www.utexas.edu | 200 |
 | The University of Texas at Dallas | https://www.utdallas.edu | 200 |
-| The University of Virginia's College at Wise | https://www.uvawise.edu | 200 OK; Wise, VA branch campus with its own distinct site |
 | The University of the South | https://www.sewanee.edu | 200 via redirect to new.sewanee.edu |
 | Thomas Jefferson University | https://www.jefferson.edu | 200 |
 | Tougaloo College | https://www.tougaloo.edu | 200 |
@@ -728,7 +722,6 @@
 | University of Alabama | https://www.ua.edu | 200 |
 | University of Alabama (Birmingham) | https://www.uab.edu | 200 |
 | University of Alabama at Birmingham | https://www.uab.edu | 200 |
-| University of Alabama in Huntsville | https://www.uah.edu | 200 |
 | University of Alabama–Birmingham | https://www.uab.edu | 200 |
 | University of Alaska | https://www.alaska.edu | 200 (system office; redirects to /alaska/ subpage) |
 | University of Albany | https://www.albany.edu | 200 OK; SUNY institution, formally "University at Albany, SUNY" |
@@ -772,7 +765,6 @@
 | University of Cincinnati | https://www.uc.edu | 200 |
 | University of Colorado | https://www.colorado.edu | 200 (system name resolves to Boulder flagship) |
 | University of Colorado (Boulder) | https://www.colorado.edu | 200 |
-| University of Colorado (Colorado Springs) | https://www.uccs.edu | 200 |
 | University of Colorado Boulder | https://www.colorado.edu | 200 |
 | University of Colorado Denver | https://www.cudenver.edu | 301->200 via redirect from ucdenver.edu |
 | University of Colorado-Boulder | https://www.colorado.edu | 200 |
@@ -794,9 +786,12 @@
 | University of Gloucestershire | https://www.glos.ac.uk | 403 (bot-blocked WAF; domain confirmed correct via search corroboration) |
 | University of Hartford | https://www.hartford.edu | 200 |
 | University of Hawaii | https://www.hawaii.edu | 200 |
+| University of Hawaii (Manoa) | https://manoa.hawaii.edu | 200 |
 | University of Hawaii at Manoa | https://manoa.hawaii.edu | 200 |
 | University of Houston | https://www.uh.edu | 200 |
+| University of Idaho | https://www.uidaho.edu | 200 |
 | University of Illinois | https://illinois.edu | 200 (flagship UIUC; bare name conventionally refers to Urbana-Champaign) |
+| University of Illinois (Chicago) | https://www.uic.edu | 200 |
 | University of Illinois (Urbana-Champaign) | https://illinois.edu | 200 |
 | University of Illinois at Chicago | https://www.uic.edu | 200 |
 | University of Illinois at Urbana-Champaign | https://illinois.edu | 200 |
@@ -836,6 +831,7 @@
 | University of Missouri | https://missouri.edu | 200 |
 | University of Missouri (Kansas City) | https://www.umkc.edu | 200 |
 | University of Montana | https://www.umt.edu | 200 |
+| University of Montreal | https://www.umontreal.ca | 200 |
 | University of NC at Asheville | https://www.unca.edu | 200 |
 | University of NC at Chapel Hill | https://www.unc.edu | 200 (browser UA; curl default UA got 403) |
 | University of NC at Charlotte | https://www.charlotte.edu | 200 |
@@ -848,7 +844,6 @@
 | University of Nevada-Reno | https://www.unr.edu | 200 |
 | University of New England | https://www.une.edu | 200 |
 | University of New Hampshire | https://www.unh.edu | 200 |
-| University of New Hampshire (Main Campus) | https://www.unh.edu | 200 |
 | University of North Alabama | https://www.una.edu | 200 |
 | University of North Carolina (Asheville) | https://www.unca.edu | 200 |
 | University of North Carolina (Chapel Hill) | https://www.unc.edu | 200 (browser UA; curl default UA got 403) |
@@ -896,7 +891,6 @@
 | University of Pittsburgh (Main Campus) | https://www.pitt.edu | 200 |
 | University of Pittsburgh (Pittsburgh) | https://www.pitt.edu | 200 |
 | University of Pittsburgh-Pittsburgh | https://www.pitt.edu | 200 |
-| University of Puget Sound | https://www.pugetsound.edu | 200 |
 | University of Redlands | https://www.redlands.edu | 200 |
 | University of Rhode Island | https://www.uri.edu | 200 |
 | University of Richmond | https://www.richmond.edu | 200 |
@@ -945,7 +939,9 @@
 | University of Wyoming | https://www.uwyo.edu | 200 |
 | University of York | https://www.york.ac.uk | 200 |
 | University of the Cumberlands | https://www.ucumberlands.edu | 200 |
+| University of the Pacific | https://www.pacific.edu | 200 |
 | University of the South (Sewanee) | https://new.sewanee.edu | 200 via redirect from www.sewanee.edu (institution's current live root) |
+| Ursinus College | https://www.ursinus.edu | 200 |
 | Utah State University | https://www.usu.edu | 200 |
 | Utah Valley University | https://www.uvu.edu | 200 |
 | Valparaiso University | https://www.valpo.edu | 403 (Cloudflare bot-challenge; verified live via WHOIS/known-domain, not defunct) |
@@ -967,7 +963,6 @@
 | Walters State Community College | https://ws.edu | 200 OK; Morristown, TN institution |
 | Warren Wilson College | https://www.warren-wilson.edu | 200 |
 | Wartburg College | https://www.wartburg.edu | 200 |
-| Washington & Jefferson College | https://www.washjeff.edu | 200 (200 with browser UA; 403 w/o) |
 | Washington & Lee | https://www.wlu.edu | 200 |
 | Washington & Lee University | https://www.wlu.edu | 200 |
 | Washington College | https://www.washcoll.edu | 200 |
@@ -979,6 +974,7 @@
 | Wentworth Institute of Technology | https://wit.edu | 200 via redirect from www.wit.edu |
 | Wesleyan College | https://www.wesleyancollege.edu | 200 |
 | Wesleyan University | https://www.wesleyan.edu | 200 |
+| West Virginia State University | https://wvstateu.edu | 200 via redirect from www.wvstateu.edu |
 | West Virginia University | https://www.wvu.edu | 200 (200 with browser UA; 403 w/o) |
 | West Virginia Wesleyan College | https://www.wvwc.edu | 200 |
 | Western Carolina University | https://www.wcu.edu | 200 |
@@ -986,6 +982,7 @@
 | Western Kentucky University | https://www.wku.edu | 200 |
 | Western Michigan University | https://wmich.edu | 200 via redirect from www.wmich.edu |
 | Western New England University | https://www.wne.edu | 200 |
+| Western University | https://www.uwo.ca | 200 (Western University, London, Ontario — the only institution of that exact name admitting undergraduates; Western University of Health Sciences is graduate-only) |
 | Westmont College | https://www.westmont.edu | 200 |
 | Wheaton College | https://www.wheaton.edu | 403 (Cloudflare bot-challenge; verified live known-domain, Wheaton College IL, not defunct) |
 | Wheaton College (MA) | https://wheatoncollege.edu | 200 |
