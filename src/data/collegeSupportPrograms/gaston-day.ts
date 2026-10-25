@@ -480,11 +480,13 @@ export const gastonDay: CollegeSupportProgram = {
         role: 'Director',
         name: 'Peter Gangemi',
         detail: 'Director of College Counseling · ext. 727',
+        email: 'Pgangemi@gastonday.org',
       },
       {
         role: 'Assistant',
         name: 'Kristy Smith',
         detail: 'College Counseling Assistant · ext. 208',
+        email: 'Ksmith@gastonday.org',
       },
     ],
     timelineTitle: 'The counseling sequence — it starts in eighth grade',

@@ -1016,3 +1016,17 @@ from other schools.**
 | 7 | AP 4s/5s rate | **77%** (official profile) | **73%** (Grokipedia aggregator, via prior research) | Official **77%** preferred; 73% is not school-published. |
 | 8 | AP courses offered | **30** (search snippet / aggregators) | **31 distinct AP subjects** in the profile's exam table | Likely a counting difference; both noted. |
 | 9 | Class of 2025 size | **176 graduates** (profile) | **178 seniors** enrolled 2025–26 (profile) | 178 is the Class of **2026** cohort in-year; 176 graduated in each of 2025 and 2026. |
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.providenceday.org/upper-school/college-guidance. Each address is published on the College Guidance page, as `mailto:` links. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Jack Whelan | jack.whelan@providenceday.org |
+| Laura Clark | laura.clark@providenceday.org |
+| Abby Jones | abby.jones@providenceday.org |
+| Gina Hubbard | gina.hubbard@providenceday.org |
+| Darren Morgan | darren.morgan@providenceday.org |

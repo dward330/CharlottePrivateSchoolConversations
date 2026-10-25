@@ -723,3 +723,20 @@ Phase 1 (English), 2026-10-25:
   translates. `email` is already globally skipped by the extractor. Charlotte Catholic's
   roster still carries its addresses as plain `detail` text. That was not changed here; it
   could move to `email` in a later pass.
+- **Counselor emails extended to every school** (user request). Each address was found
+  on the school's own site and checked to sit beside the named person, never built from a
+  name pattern:
+  - Carmel Christian 4/4, Charlotte Christian 3/3, Country Day 5/5, Covenant Day 4/4,
+    Gaston Day 2/2 and Providence Day 5/5, from their counseling pages' `mailto:` links.
+  - Charlotte Latin 4/4, from each counselor's Finalsite pop-up. The essay-specialists
+    row is a combined row and gets no address.
+  - Davidson Day 3/3. The registrar's address came from the directory search.
+  - Hickory Grove 2/2, from the Our Staff directory via `insertEmail`.
+  - Charlotte Catholic 7/7. Its addresses moved from plain `detail` text to `email`, so
+    they are now clickable.
+
+  Hickory Grove's two notes no longer repeat the address in parentheses. Davidson Day and
+  Hickory Grove each gained a directory source line. Provenance is a "Counselor email
+  addresses" section appended to an existing research file per school, so no new research
+  section or card appears. `check:live` sits at 99 per locale, all in the College Support
+  overlay.

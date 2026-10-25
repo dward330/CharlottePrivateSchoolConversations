@@ -1338,3 +1338,15 @@ grads / 238 acceptances / 101 colleges / 41% in-state**.
 
 - https://www.davidsonacademy.unr.edu/news/30-davidson-academy-students-named-2026-national-merit-semifinalists/
 - https://www.nationalmerit.org/s/1758/blog.aspx?pgid=2089&gid=2&cid=1381
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.davidsonday.org/academics/college-counseling. Each address is published on the College Counseling page (Hill, Barndt) and the directory search https://www.davidsonday.org/directory?const_search_keyword=Noe (Noe, title "Registrar"), each rendered by Finalsite's `FS.util.insertEmail(<el>, "<domain reversed>", "<local part reversed>")`, decoded by reversing the two strings. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Tia Hill | thill@davidsonday.org |
+| Caitlin Barndt | cbarndt@davidsonday.org |
+| Vanessa Noe | vnoe@davidsonday.org |

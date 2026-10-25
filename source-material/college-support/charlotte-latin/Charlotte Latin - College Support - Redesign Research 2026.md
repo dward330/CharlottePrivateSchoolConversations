@@ -1198,3 +1198,16 @@ applications, and portfolios or auditions?** None of these appear in your publis
   https://web.archive.org/web/20220708072524/https://www.charlottelatin.org/learning-resources-guidelines
 - Cum Laude Society induction (Edward J. Fox Chapter):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-students-inducted-into-cum-laude-society
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.charlottelatin.org/academics/college-counseling. Each address is published on each counselor's "Meet the College Counseling Team" pop-up, served by `https://www.charlottelatin.org/fs/elements/38875?is_popup=true&post_id=<id>&show_post=true` (posts 4871 Jennings, 4872 Cripps, 4873 Smith, 4874 Segura); the page itself shows only the registrar's and the office address. The three essay specialists share one roster row and carry no address. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Jody Jennings | jody.jennings@charlottelatin.org |
+| Lucy Smith | lucy.smith@charlottelatin.org |
+| Haley Cripps | haley.cripps@charlottelatin.org |
+| Alex Segura | alex.segura@charlottelatin.org |

@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — College Support
-> Distilled from 2 source document(s) in `source-material/college-support/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/college-support/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-25.
 **Documents:** School Profile, UNC System Admissions
 
 
@@ -297,6 +297,17 @@ No percentile bands (25th/50th/75th) are published anywhere on either profile.
  McKenna, Colgate, Grinnell, Oberlin, Pomona, Wake Forest, Washington & Lee, etc.) — copy from
  `_shared` table at ingest, never re-type; `check:ranks` enforces.
 
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.hgchristian.org/about-us/our-staff. Each address is published on the Our Staff directory, searched by surname (`?const_search_keyword=<surname>`), rendered by `FS.util.insertEmail` and decoded by reversing the two strings. Dr. Mildred Similton is listed there as "Administrator of Educational Student Services"; the other Similton in the directory (Dale, Physical Education) is a different person. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Tracey Bennett | traceybennett@hgchristian.org |
+| Dr. Mildred Similton | mildredsimilton@hgchristian.org |
+
 
 ---
 
@@ -452,6 +463,7 @@ scrape was smoke-tested first against the method file's reference table (Cannon 
 - https://insight.northcarolina.edu/t/Public/views/db_freshmen/AppliedAdmittedEnrolled?:embed=y&:isGuestRedirectFromVizportal=y
 - https://resources.finalsite.net/images/v1699879706/hgchristianorg/obmpbhs6ludijizshc8k/HGCSHSProfileFall23.pdf
 - https://resources.finalsite.net/images/v1759254561/hgchristianorg/zymp8lu0k9m6ndgumpgi/HGCSHSProfileFall25.pdf
+- https://www.hgchristian.org/about-us/our-staff
 - https://www.hgchristian.org/academics/guidance
 - https://www.hgchristian.org/academics/high-school
 - https://www.hgchristian.org/academics/student-services

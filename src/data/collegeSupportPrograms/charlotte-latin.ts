@@ -550,21 +550,25 @@ export const charlotteLatin: CollegeSupportProgram = {
         role: 'Director',
         name: 'Jody Jennings',
         detail: 'Listed as Director in the 2017–18, 2019–20, 2020–21 and 2025–26 profiles — 9+ years documented.',
+        email: 'jody.jennings@charlottelatin.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Lucy Smith',
         detail: 'In the office since at least 2017–18.',
+        email: 'lucy.smith@charlottelatin.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Haley Cripps',
         detail: 'In the office since at least 2017–18.',
+        email: 'haley.cripps@charlottelatin.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Alex Segura',
         detail: 'Newer — appears in 2025–26 but not in the archived editions.',
+        email: 'alex.segura@charlottelatin.org',
       },
       {
         role: 'Essay specialists',

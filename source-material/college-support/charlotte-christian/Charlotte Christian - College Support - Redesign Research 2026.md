@@ -1074,3 +1074,15 @@ structural rather than rhetorical:
 - "Most rigorous" course-load norms / counselor rigor rubric
 - Gap-year policy; unweighted GPA distribution
 - ACCIS membership
+
+## Counselor email addresses (added 2026-10-25)
+
+Collected for the Counseling card's "Who's in the room" roster, from the school's own site:
+https://www.charlottechristian.com/academics/college-counseling. Each address is published on the College Counseling page, as `mailto:` links. Each was checked to sit beside the named person.
+**No address is built from a name pattern.**
+
+| Name | Email as published |
+|---|---|
+| Jodi Foxx | jodi.foxx@charchrist.com |
+| Lauren Miller | lauren.miller@charchrist.com |
+| Kirsten Mayers | kirsten.mayers@charchrist.com |

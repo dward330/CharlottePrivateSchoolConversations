@@ -499,16 +499,19 @@ export const davidsonDay: CollegeSupportProgram = {
         role: 'Director',
         name: 'Tia Hill',
         detail: 'Prior roles at Furman University per LinkedIn; M.Ed. Counselor Education, Clemson. Tenure at Davidson Day is not published.',
+        email: 'thill@davidsonday.org',
       },
       {
         role: 'Assoc. Director',
         name: 'Caitlin Barndt',
         detail: 'Previously listed as College Counseling and Admission Associate. Named contact for scheduling college rep visits.',
+        email: 'cbarndt@davidsonday.org',
       },
       {
         role: 'Registrar',
         name: 'Vanessa Noe',
         detail: 'Owns the transcript function.',
+        email: 'vnoe@davidsonday.org',
       },
     ],
     timelineTitle: 'The published event slate — the office runs a predictable annual calendar',
@@ -564,6 +567,7 @@ export const davidsonDay: CollegeSupportProgram = {
     sources: [
       { label: 'davidsonday.org — College Counseling', url: COUNSELING },
       { label: 'School Profile 2025–26 (staff, enrollment, memberships)', url: PROFILE },
+      { label: 'Faculty & Staff Directory (registrar email address)', url: 'https://www.davidsonday.org/directory' },
       // Not a citation: a methodology note. Aggregated professional profiles are
       // self-reported and are not cited as an authority, so there is deliberately
       // no URL here — see the `citeurls` plan, step 4.

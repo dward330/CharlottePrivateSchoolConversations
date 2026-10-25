@@ -377,12 +377,14 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       {
         role: 'Director of Counseling',
         name: 'Tracey Bennett',
-        detail: 'Listed as "Guidance Counselor" on the Fall 2023 profile and "Director of Counseling" on Fall 2025 — the lead college-counseling contact (traceybennett@hgchristian.org).',
+        detail: 'Listed as "Guidance Counselor" on the Fall 2023 profile and "Director of Counseling" on Fall 2025 — the lead college-counseling contact.',
+        email: 'traceybennett@hgchristian.org',
       },
       {
         role: 'Administrator for Student Services',
         name: 'Dr. Mildred Similton',
-        detail: 'Oversees student services alongside the counseling office (mildredsimilton@hgchristian.org).',
+        detail: 'Oversees student services alongside the counseling office.',
+        email: 'mildredsimilton@hgchristian.org',
       },
     ],
     mechanicsTitle: 'What the guidance office publishes',
@@ -413,6 +415,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     sources: [
       { label: 'hgchristian.org — Fall 2025 High School Profile (counselor roster)', url: PROFILE_25 },
       { label: 'hgchristian.org — Guidance (program description)', url: GUIDANCE },
+      { label: 'Our Staff directory (counselor email addresses)', url: 'https://www.hgchristian.org/about-us/our-staff' },
     ],
   },
 

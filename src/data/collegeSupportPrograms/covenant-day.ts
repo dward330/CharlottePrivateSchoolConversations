@@ -208,21 +208,25 @@ export const covenantDay: CollegeSupportProgram = {
         name: 'Heather Mills',
         detail:
           'Director of Guidance and College Counseling since 2003; thirty years in guidance and college counseling; BA Oklahoma Wesleyan, MA Winthrop; named a NACCAP K-12 Professional of the Year.',
-      },
+          email: 'hmills@covenantday.org',
+        },
       {
         role: 'Counselor',
         name: 'Kim Macurda',
         detail: 'Guidance Counselor since 2016. BA UNC Chapel Hill; MA Georgia State; former Reformed Theological Seminary registrar.',
+        email: 'kmacurda@covenantday.org',
       },
       {
         role: 'Personal',
         name: 'Emily Lee, MA, LMFT',
         detail: 'Licensed Marriage and Family Therapist, since 2021 — the clinical role, distinct from the college office.',
+        email: 'elee@covenantday.org',
       },
       {
         role: 'Assistant',
         name: 'Kelly Turner',
         detail: 'Guidance Assistant since 2012.',
+        email: 'kturner@covenantday.org',
       },
     ],
     timelineTitle: 'The published cadence',
