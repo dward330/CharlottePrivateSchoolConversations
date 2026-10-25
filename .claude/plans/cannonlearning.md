@@ -565,3 +565,13 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
 - **Review edit (2026-10-24): dropped "The school does not promise to meet every need."
   from the eligibility headline at the user's request.** The policy's own disclaimer
   still sits in the Outside scope cell, quoted in full.
+- **Review edit (2026-10-24): Testing & Evaluation gains a code legend, for every school
+  (user request).** The Services legend markup is now a shared `CodeLegend` component in
+  `LearningSupport.tsx`. Services still passes its fixed four codes. Testing shows only
+  the codes its entries use, in the order IH, IH_FEE, RF, REQUIRED, NS: Hickory Grove
+  renders IH / RF / REQUIRED and Cannon renders IH / REQUIRED. This adds **one chrome
+  key**, `learning.legend.REQUIRED` = "the family supplies it", in `en.json` only.
+  **Phase 2 must now also add that key to the nine other catalogs in `TRANSLATED`**
+  (`es bn ht te fr fa it hi ar`). `check:chrome` reports it as awaiting translation
+  (exit 0) until then. Verified in Chrome at 1280 light/dark, plus `audit:mobile` for both
+  schools.

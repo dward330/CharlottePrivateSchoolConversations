@@ -91,6 +91,21 @@ function CodeChip({ code }: { code: LearningCode }) {
   )
 }
 
+/** The code key: each chip beside what it means (`learning.legend.<code>`). */
+function CodeLegend({ codes }: { codes: LearningCode[] }) {
+  const { t } = useTranslation()
+  return (
+    <div className="ls-legend">
+      {codes.map((c) => (
+        <span key={c} className="ls-legend-item">
+          <CodeChip code={c} />
+          {t(`learning.legend.${c}`)}
+        </span>
+      ))}
+    </div>
+  )
+}
+
 function StatStrip({ stats }: { stats: LearningStat[] }) {
   if (stats.length === 0) return null
   return (
@@ -204,14 +219,7 @@ function ServicesBody({ data }: { data: ServicesCard }) {
           </div>
         )}
       </div>
-      <div className="ls-legend">
-        {legend.map((c) => (
-          <span key={c} className="ls-legend-item">
-            <CodeChip code={c} />
-            {t(`learning.legend.${c}`)}
-          </span>
-        ))}
-      </div>
+      <CodeLegend codes={legend} />
       <div className="ls-groups">
         {groups.map((g) => {
           const notStated = g.rows.filter((r) => r.code === 'NS').length
@@ -264,9 +272,14 @@ function TherapyBody({ data }: { data: TherapyCard }) {
   )
 }
 
+/** Legend order for the testing card: only the codes its entries use. */
+const TESTING_LEGEND_ORDER: LearningCode[] = ['IH', 'IH_FEE', 'RF', 'REQUIRED', 'NS']
+
 function TestingBody({ data }: { data: TestingCard }) {
+  const used = TESTING_LEGEND_ORDER.filter((c) => data.entries.some((e) => e.code === c))
   return (
     <div className="ls-body">
+      <CodeLegend codes={used} />
       <div className="ls-entries">
         {data.entries.map((e) => (
           <div key={e.title} className="ls-entry">
