@@ -1,11 +1,11 @@
 ---
 name: cannonlearning
 title: Add Cannon School to Learning Support & Student Services — six cards from Cannon's own pages (Learning Support Program + 2025 policy PDF; 25 service rows, 17 published; 12 staff); fix the stale Hurtado line in College Support
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-24
 branch: feat/cannonlearning
-prs: []
+prs: [361]
 ---
 
 # Cannon School — Learning Support & Student Services
@@ -620,3 +620,24 @@ after Phase 2 merges, as its own branch and PR. It is not part of this plan's di
 Files: `.claude/skills/learning-support/SKILL.md`, its row and `updated` date in
 `.claude/SKILLS.md` (same PR), and the Learning Support paragraph in `CLAUDE.md` ("with
 Hickory Grove Christian as its first school and its standard").
+
+### Phase 2 (locales) — 2026-10-25
+
+- **Scope matched step 8 exactly:** learning-support +91 / 0 dropped, college-support
+  3 swapped. 94 strings were translated per locale, and all 108 prior learning-support
+  translations are byte-identical by stamp.
+- **Chrome:** `learning.legend.REQUIRED` was added to the nine non-English catalogs,
+  placed before `NS` to match `en.json`.
+- **RTL:** fa/ar write the counselor grade ranges as words (`3 تا 5`, `من 3 إلى 5`, and
+  the same for `JrK`). `JK–2` and `Academic Labs (9–12)` sit in a Latin run and were kept.
+  All were verified in real Chrome.
+- **Gender:** no staff member's gender is inferred from their name. In prose, es, fr and
+  it use the role-referent form, and their labels use `/a` or `(ne)`. Arabic uses `/ة`.
+  Ridenhour's title is given as "responsable … (Dean of Academic Support)".
+- **The leak triage earned its place.** The first `i18n:leaks` pass found 9 genuine
+  leaks: three role labels plus `Academic Labs (9–12)` left English in bn/hi, and the
+  Labs row in te. They were fixed to the Hickory Grove precedent
+  (`Academic Flex সেশন (9–12)`). After the fix, all nine locales are byte-identical to
+  the `main` baseline.
+- Work-integrity findings were limited to the expected shape: 7 per locale (splice
+  growth plus the 3 College Support swaps).
