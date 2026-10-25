@@ -1,11 +1,11 @@
 ---
 name: ddlearning
 title: Add Davidson Day School to Learning Support & Student Services — six cards from the school's own pages (Learning Enrichment Center, its 2026-27 request form, the 2026 Summer LEC rate letter, the directory); 27 service rows, 15 published; 17 staff; navy/red; GO/NO-GO test 2 overridden by the user; correct two College Support presumptions about LEC accommodations
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-25
 branch: feat/ddlearning
-prs: []
+prs: [365]
 ---
 
 # Davidson Day School — Learning Support & Student Services
@@ -687,3 +687,23 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
     finding, and `check:runtime` and `check:sepdrift` (es/fa/hi) are clean. In Chrome,
     Cannon and Hickory Grove in en/es/fa/hi render the remaining entries translated, in
     order.
+
+### Phase 2 (locales): 2026-10-25
+
+- **Splice counts matched step 8.** Each locale got 93 new learning-support strings with
+  0 dropped, plus 3 retired and 3 new college-support strings. The number is 93 rather
+  than "about 100+" because the review edits removed Davidson Day's admission entries from
+  Testing. The 96 strings per locale were written as stamp→translation maps in the
+  scratchpad, then applied by stamp, with no existing `t` overwritten.
+- **fa/ar ranges were worded before the browser check, not after it.** `3-4` and the
+  ordinal grade bands are written as words, and the summer date range uses تا / حتى.
+  Glyph x-positions in Chrome show every learning-support range drawn in order. This is
+  recorded in `src/data/overlays/NOTES.md`.
+- **Found, not fixed:** in fa and ar, three ranges in Davidson Day's *College Support*
+  area draw reversed (`93–100`, `25-26`, `2021–2025`). They are older strings this pass
+  did not touch, so they are out of scope.
+- `audit:moneyrender` gives one fr finding: a Charlotte Country Day Latest News headline.
+  That section is never translated, by design, so it was not changed.
+- `check_work_integrity.mjs --base 13b613d4` gives 7 findings per locale. All of them
+  come from the splice adding strings and from the three in-place College Support swaps,
+  as the plan expected.
