@@ -13,6 +13,7 @@
     "lint": "oxlint",
     "schema": "node scripts/gen_data_schema.mjs",
     "report:admissions": "node scripts/gen_admissions_report.mjs",
+    "report:learning": "node scripts/gen_learning_episode.mjs",
     "check:ranks": "node scripts/check_rank_labels.mjs",
     "check:collegeurls": "node scripts/check_college_urls.mjs",
     "check:schoolurls": "node scripts/check_schoolurls.mjs",
