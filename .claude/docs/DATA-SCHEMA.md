@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 467 ingested research documents.
+**13 schools × 12 research areas**, 469 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -60,7 +60,7 @@ exists yet and **the section does not render at all** for that school.
 | Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 2 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
-| Learning Support & Student Services | `learning-support` | — | — | — | — | — | — | — | — | — | — | 1 | — | — |
+| Learning Support & Student Services | `learning-support` | 2 | — | — | — | — | — | — | — | — | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
@@ -103,7 +103,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Learning Support Research (2026) | 1/13 | 1 |
+| `redesign-research` | Learning Support Research (2026) | 2/13 | 2 |
 
 ### Student Clubs `student-clubs`
 
@@ -875,7 +875,7 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 | `staff` | Who You'll Work With | — |
 | `ask` | Ask the School | — |
 
-**Schools with data:** 1/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `davidson-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
+**Schools with data:** 2/13 — absent: `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `davidson-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
 
 <details><summary>Types defined in <code>learningSupport.ts</code> (13)</summary>
 

@@ -2,7 +2,7 @@
 
 One file per school, `<slug>.ts`, exporting a `LearningSupportProgram` (types and the
 card registry are in [`../learningSupport.ts`](../learningSupport.ts)). Hickory Grove
-Christian is the first and, so far, only school.
+Christian was the first school; Cannon followed (2026-10-24).
 
 ## Two gates
 

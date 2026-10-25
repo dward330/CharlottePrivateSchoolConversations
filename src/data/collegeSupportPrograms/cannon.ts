@@ -688,8 +688,8 @@ export const cannon: CollegeSupportProgram = {
       'These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the eleven-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes.',
     support: [
       {
-        label: 'Three named Upper School specialists',
-        text: '**Michelle Donah**, **Tere Hurtado** and **Jennifer Ridenhour** — substantial staffing for 423 Upper School students, and among the best-documented learning support in this set.',
+        label: 'Two named Upper School learning-support staff',
+        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 423 Upper School students, and among the best-documented learning support in this set.',
       },
       {
         label: 'The student owns the plan',
@@ -759,7 +759,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Learning support is named and reaches the application',
-        text: 'three named Upper School learning specialists, student-authored personalised learning plans, and explicit guidance for juniors and seniors on requesting College Board and ACT accommodations.',
+        text: 'two named Upper School learning-support staff, student-authored personalised learning plans, and explicit guidance for juniors and seniors on requesting College Board and ACT accommodations.',
       },
       {
         label: 'Grades are not inflated',

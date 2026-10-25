@@ -1,7 +1,7 @@
 ---
 name: cannonlearning
 title: Add Cannon School to Learning Support & Student Services — six cards from Cannon's own pages (Learning Support Program + 2025 policy PDF; 25 service rows, 17 published; 12 staff); fix the stale Hurtado line in College Support
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-24
 branch: feat/cannonlearning
@@ -527,3 +527,27 @@ No skill or command changes, so `.claude/SKILLS.md` is untouched.
 - **Should the two nurses be named in the School nurse row?** **Default:** no. The row
   says a Lead School Nurse and a School Nurse are listed, per the user's staff-card
   decision. Name them only if the user asks.
+
+## Implementation notes
+
+### Phase 1 (English) — 2026-10-24
+
+- **Two source-list additions beyond the plan.** The plan's `HUDSON` constant appeared on
+  no card's `sources`, which left the `~240` ARC figure uncited and the constant unused.
+  `HUDSON` was added to `services.sources` (it describes the ARC's coaching and labs, and
+  the figure). `DOVI` was added to `staff.sources`, because the staff note's "Tracy Wade
+  leads the Middle School's Dovi Academic Resource Center" comes from it.
+- **NOT STATED count is 11 in the DOM, not 10.** That is 8 rows plus 2 therapy chips (as
+  planned) plus the legend's NS sample chip, which every school renders.
+- **Ingest also re-stamped Hickory Grove's note date.** That one-line change was reverted
+  to keep the diff to Cannon.
+- **Pre-existing, not fixed (out of scope):** on `/school/cannon/` the first click on
+  College Support's "See Learning Support & Student Services →" lands 383px short. Content
+  above the section (Course Offerings / Global Exposure) grows while the scroll is running;
+  page height goes from 15,601 to 15,984. A second click lands correctly at 80px. Hickory
+  Grove has no Global Exposure section and lands correctly first time. This is the link's
+  existing behaviour on any school with lazy content above Learning Support, so it is
+  raised rather than fixed here.
+- `npm run build` exits 1 on `check:live` only: 3 retired college-support stamps × 9
+  locales (`b0f2f818`, `cb0ae2f4`, `f0de862a`), exactly the two swapped strings plus the
+  label. Every other chained check was run and passes.
