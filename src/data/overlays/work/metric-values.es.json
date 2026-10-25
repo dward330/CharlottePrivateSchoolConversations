@@ -270,12 +270,12 @@
       "t": "La celda muestra las 24 asignaturas AP; la guía enumera además 43 asignaturas Honors y 18 Advanced, 85 entradas avanzadas en total. Aquí AP no es de matrícula abierta — el alumnado presenta una solicitud para cada asignatura AP."
     },
     {
-      "text": "From the 2026–27 catalog. The 2025–26 profile stated 13 AP / 8 AT before the Advanced Topics program expanded; the AT courses carry the same weight as an AP.",
-      "of": "6270e7bd",
+      "text": "From the 2026–27 catalog. The 2026–27 School Profile gives the same total of 27 but splits it 15 AP + 12 AT, because it labels the business course AP and omits AT: English Seminar and Inquiry. The AT courses carry the same weight as an AP.",
+      "of": "1f6db755",
       "at": [
         "providence-day:[1].quals.cannon.text"
       ],
-      "t": "Del catálogo 2026–27. El perfil 2025–26 indicaba 13 AP / 8 AT antes de que se ampliara el programa Advanced Topics; los cursos AT tienen el mismo peso que un AP."
+      "t": "Del catálogo 2026–27. El School Profile 2026–27 da el mismo total de 27, pero lo divide en 15 AP + 12 AT, porque etiqueta como AP el curso de empresa y omite AT: English Seminar and Inquiry. Los cursos AT tienen el mismo peso que un AP."
     },
     {
       "text": "The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS.",
@@ -413,14 +413,12 @@
       "t": "Porcentaje de exámenes AP con puntuación de 3 o superior, en el último año declarado. Charlotte Latin, Davidson Day y Hickory Grove Christian no publican una tasa de aprobados por examen."
     },
     {
-      "text": "92%",
-      "of": "decf5375",
+      "text": "90%",
+      "of": "cacab6cb",
       "at": [
-        "providence-day:[3].values.cannon",
-        "providence-day:[12].values.providence-day",
-        "providence-day:[14].values.charlotte-country-day"
+        "providence-day:[3].values.cannon"
       ],
-      "t": "92%"
+      "t": "90%"
     },
     {
       "text": "89%",
@@ -477,6 +475,49 @@
       "t": "95%"
     },
     {
+      "text": "(2026)",
+      "of": "e87d5028",
+      "at": [
+        "providence-day:[3].subs.cannon",
+        "providence-day:[3].subs.covenant-day"
+      ],
+      "t": "(2026)"
+    },
+    {
+      "text": "(2024)",
+      "of": "4c77dd66",
+      "at": [
+        "providence-day:[3].subs.charlotte-christian"
+      ],
+      "t": "(2024)"
+    },
+    {
+      "text": "(2024–25)",
+      "of": "1a36b5f8",
+      "at": [
+        "providence-day:[3].subs.charlotte-catholic"
+      ],
+      "t": "(2024–25)"
+    },
+    {
+      "text": "(2025)",
+      "of": "6875cae3",
+      "at": [
+        "providence-day:[3].subs.charlotte-country-day",
+        "providence-day:[3].subs.gaston-day",
+        "providence-day:[3].subs.providence-day"
+      ],
+      "t": "(2025)"
+    },
+    {
+      "text": "(2023)",
+      "of": "4c84a959",
+      "at": [
+        "providence-day:[3].subs.carmel-christian"
+      ],
+      "t": "(2023)"
+    },
+    {
       "text": "94% of 1,064 AP exams scored 3 or above in 2024-25 (23 subjects, 345 students); 72% scored 4 or 5. AP exams are mandatory in every AP course at CCHS, so this is a whole-cohort rate and cannot be flattered by weaker candidates skipping the exam.",
       "of": "35f08a33",
       "at": [
@@ -485,12 +526,12 @@
       "t": "El 94% de los 1,064 exámenes AP obtuvo 3 o más en 2024-25 (23 materias, 345 alumnos); el 72% obtuvo 4 o 5. Los exámenes AP son obligatorios en todas las asignaturas AP de CCHS, así que esta es una tasa de toda la cohorte y no puede maquillarse dejando que los candidatos más flojos se salten el examen."
     },
     {
-      "text": "About 92% of AP exams scored 3 or higher (the school reports 92.39%). A score of 3+ is the level most colleges treat as a passing result.",
-      "of": "fa8fb08f",
+      "text": "About 90% scored 3 or higher in May 2026 (the school reports 90.16% of students with scores 3+; 195 students, 446 exams). A score of 3+ is the level most colleges treat as a passing result.",
+      "of": "f2f4c358",
       "at": [
         "providence-day:[3].quals.cannon.text"
       ],
-      "t": "Alrededor del 92% de los exámenes AP obtuvieron una puntuación de 3 o más (la escuela informa 92.39%). Una puntuación de 3+ es el nivel que la mayoría de las universidades consideran aprobatorio."
+      "t": "Alrededor del 90% obtuvo una puntuación de 3 o más en mayo de 2026 (la escuela informa un 90.16% de estudiantes con puntuaciones de 3+; 195 estudiantes, 446 exámenes). Una puntuación de 3+ es el nivel que la mayoría de las universidades consideran aprobatorio."
     },
     {
       "text": "96% of AP exams scored 3 or higher in 2026 (179 students took 401 exams; every AP student must sit the exam). A score of 3+ is the level most colleges treat as a passing result.",
@@ -549,13 +590,129 @@
       "t": "De las 8 universidades de la Ivy League, cuántas aparecen en la lista de admisiones publicada del colegio. Análisis derivado contrastado con las tablas de U.S. News de 2027 — no una cifra declarada por el colegio."
     },
     {
-      "text": "3 / 8",
-      "of": "cf76ffeb",
+      "text": "(2022–2026)",
+      "of": "f8bcfc53",
+      "at": [
+        "providence-day:[4].subs.cannon",
+        "providence-day:[5].subs.cannon",
+        "providence-day:[6].subs.cannon",
+        "providence-day:[7].subs.cannon",
+        "providence-day:[8].subs.cannon",
+        "providence-day:[15].subs.cannon"
+      ],
+      "t": "(2022–2026)"
+    },
+    {
+      "text": "(years not published)",
+      "of": "958a59b3",
+      "at": [
+        "providence-day:[4].subs.carmel-christian",
+        "providence-day:[5].subs.carmel-christian",
+        "providence-day:[6].subs.carmel-christian",
+        "providence-day:[7].subs.carmel-christian",
+        "providence-day:[8].subs.carmel-christian",
+        "providence-day:[15].subs.carmel-christian"
+      ],
+      "t": "(años no publicados)"
+    },
+    {
+      "text": "(2023–2025)",
+      "of": "f86cd907",
+      "at": [
+        "providence-day:[4].subs.charlotte-catholic",
+        "providence-day:[4].subs.charlotte-christian",
+        "providence-day:[4].subs.charlotte-latin",
+        "providence-day:[5].subs.charlotte-catholic",
+        "providence-day:[5].subs.charlotte-christian",
+        "providence-day:[5].subs.charlotte-latin",
+        "providence-day:[6].subs.charlotte-catholic",
+        "providence-day:[6].subs.charlotte-christian",
+        "providence-day:[6].subs.charlotte-latin",
+        "providence-day:[7].subs.charlotte-catholic",
+        "providence-day:[7].subs.charlotte-christian",
+        "providence-day:[7].subs.charlotte-latin",
+        "providence-day:[8].subs.charlotte-catholic",
+        "providence-day:[8].subs.charlotte-christian",
+        "providence-day:[8].subs.charlotte-latin",
+        "providence-day:[15].subs.charlotte-catholic",
+        "providence-day:[15].subs.charlotte-christian",
+        "providence-day:[15].subs.charlotte-latin"
+      ],
+      "t": "(2023–2025)"
+    },
+    {
+      "text": "(2023–2026)",
+      "of": "58742bec",
+      "at": [
+        "providence-day:[4].subs.charlotte-country-day",
+        "providence-day:[4].subs.covenant-day",
+        "providence-day:[4].subs.providence-day",
+        "providence-day:[5].subs.charlotte-country-day",
+        "providence-day:[5].subs.covenant-day",
+        "providence-day:[5].subs.providence-day",
+        "providence-day:[6].subs.charlotte-country-day",
+        "providence-day:[6].subs.covenant-day",
+        "providence-day:[6].subs.providence-day",
+        "providence-day:[7].subs.charlotte-country-day",
+        "providence-day:[7].subs.covenant-day",
+        "providence-day:[7].subs.providence-day",
+        "providence-day:[8].subs.charlotte-country-day",
+        "providence-day:[8].subs.covenant-day",
+        "providence-day:[8].subs.providence-day",
+        "providence-day:[15].subs.charlotte-country-day",
+        "providence-day:[15].subs.covenant-day",
+        "providence-day:[15].subs.providence-day"
+      ],
+      "t": "(2023–2026)"
+    },
+    {
+      "text": "(2021–2025)",
+      "of": "5f43c18d",
+      "at": [
+        "providence-day:[4].subs.davidson-day",
+        "providence-day:[5].subs.davidson-day",
+        "providence-day:[6].subs.davidson-day",
+        "providence-day:[7].subs.davidson-day",
+        "providence-day:[8].subs.davidson-day",
+        "providence-day:[15].subs.davidson-day"
+      ],
+      "t": "(2021–2025)"
+    },
+    {
+      "text": "(2019–2025)",
+      "of": "b2c996ce",
+      "at": [
+        "providence-day:[4].subs.gaston-day",
+        "providence-day:[5].subs.gaston-day",
+        "providence-day:[6].subs.gaston-day",
+        "providence-day:[7].subs.gaston-day",
+        "providence-day:[8].subs.gaston-day",
+        "providence-day:[15].subs.gaston-day"
+      ],
+      "t": "(2019–2025)"
+    },
+    {
+      "text": "(2023 + 2025)",
+      "of": "19949955",
+      "at": [
+        "providence-day:[4].subs.hickory-grove-christian",
+        "providence-day:[5].subs.hickory-grove-christian",
+        "providence-day:[6].subs.hickory-grove-christian",
+        "providence-day:[7].subs.hickory-grove-christian",
+        "providence-day:[8].subs.hickory-grove-christian",
+        "providence-day:[15].subs.hickory-grove-christian"
+      ],
+      "t": "(2023 + 2025)"
+    },
+    {
+      "text": "7 / 8",
+      "of": "66b449f7",
       "at": [
         "providence-day:[4].values.cannon",
-        "providence-day:[4].values.davidson-day"
+        "providence-day:[4].values.charlotte-country-day",
+        "providence-day:[13].subs.hickory-grove-christian"
       ],
-      "t": "3 / 8"
+      "t": "7 / 8"
     },
     {
       "text": "2 / 8",
@@ -577,15 +734,6 @@
       "t": "6 / 8"
     },
     {
-      "text": "7 / 8",
-      "of": "66b449f7",
-      "at": [
-        "providence-day:[4].values.charlotte-country-day",
-        "providence-day:[13].subs.hickory-grove-christian"
-      ],
-      "t": "7 / 8"
-    },
-    {
       "text": "5 / 8",
       "of": "99bd1e9d",
       "at": [
@@ -600,6 +748,14 @@
         "providence-day:[4].values.carmel-christian"
       ],
       "t": "1 / 8"
+    },
+    {
+      "text": "3 / 8",
+      "of": "cf76ffeb",
+      "at": [
+        "providence-day:[4].values.davidson-day"
+      ],
+      "t": "3 / 8"
     },
     {
       "text": "0 / 8",
@@ -636,12 +792,12 @@
       "t": "Yale y Dartmouth, contabilizados a lo largo de toda la ventana de admisiones 2019–2025 y no de una sola promoción. El denominador son las ocho instituciones de la Ivy League."
     },
     {
-      "text": "3 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "b24fcaf7",
+      "text": "7 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "f640b053",
       "at": [
         "providence-day:[4].quals.cannon.text"
       ],
-      "t": "3 de las 8 universidades de la Ivy League aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "7 de las 8 universidades de la Ivy League aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "2 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -724,13 +880,13 @@
       "t": "De las 17 instituciones “Ivy Plus” — las ocho Ivies más Stanford, MIT, Chicago, Duke, Caltech y afines — cuántas aparecen en la lista de admisiones del colegio."
     },
     {
-      "text": "10 / 17",
-      "of": "0d57c08b",
+      "text": "16 / 17",
+      "of": "846cc9c9",
       "at": [
         "providence-day:[5].values.cannon",
-        "providence-day:[13].subs.charlotte-country-day"
+        "providence-day:[14].subs.charlotte-catholic"
       ],
-      "t": "10 / 17"
+      "t": "16 / 17"
     },
     {
       "text": "4 / 17",
@@ -830,12 +986,12 @@
       "t": "Seis de las diecisiete instituciones “Ivy Plus” — Yale y Dartmouth, más Stanford, Duke, Johns Hopkins y Georgetown — aparecen a lo largo de la ventana de admisiones 2019–2025, y no en una sola promoción."
     },
     {
-      "text": "10 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "e1eb4dfc",
+      "text": "16 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "2e2cd722",
       "at": [
         "providence-day:[5].quals.cannon.text"
       ],
-      "t": "10 de las 17 instituciones «Ivy Plus» aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "16 de las 17 instituciones «Ivy Plus» aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "4 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -918,20 +1074,21 @@
       "t": "De las 75 mejores universidades nacionales de la tabla de U.S. News de 2027, cuántas aparecen en la lista de admisiones del colegio."
     },
     {
-      "text": "66 / 75",
-      "of": "2ecfc438",
+      "text": "75 / 75",
+      "of": "9cd15264",
       "at": [
-        "providence-day:[6].values.cannon"
+        "providence-day:[6].values.cannon",
+        "providence-day:[6].values.providence-day"
       ],
-      "t": "66 / 75"
+      "t": "75 / 75"
     },
     {
-      "text": "39 / 75",
-      "of": "6b82e66c",
+      "text": "40 / 75",
+      "of": "7e1b96b4",
       "at": [
         "providence-day:[6].values.charlotte-christian"
       ],
-      "t": "39 / 75"
+      "t": "40 / 75"
     },
     {
       "text": "36 / 75",
@@ -943,61 +1100,52 @@
       "t": "36 / 75"
     },
     {
-      "text": "70 / 75",
-      "of": "80de3e55",
+      "text": "71 / 75",
+      "of": "79f0f150",
       "at": [
         "providence-day:[6].values.charlotte-country-day"
       ],
-      "t": "70 / 75"
+      "t": "71 / 75"
     },
     {
-      "text": "67 / 75",
-      "of": "098d3edd",
+      "text": "68 / 75",
+      "of": "87f034c2",
       "at": [
         "providence-day:[6].values.charlotte-latin"
       ],
-      "t": "67 / 75"
+      "t": "68 / 75"
     },
     {
       "text": "30 / 75",
       "of": "afc0b7e9",
       "at": [
-        "providence-day:[6].values.carmel-christian",
-        "providence-day:[7].values.cannon"
+        "providence-day:[6].values.carmel-christian"
       ],
       "t": "30 / 75"
     },
     {
-      "text": "48 / 75",
-      "of": "ed11540c",
+      "text": "49 / 75",
+      "of": "042bcfe1",
       "at": [
         "providence-day:[6].values.davidson-day"
       ],
-      "t": "48 / 75"
+      "t": "49 / 75"
     },
     {
-      "text": "20 / 75",
-      "of": "7cf3847e",
+      "text": "21 / 75",
+      "of": "0e55f8ab",
       "at": [
         "providence-day:[6].values.hickory-grove-christian"
       ],
-      "t": "20 / 75"
+      "t": "21 / 75"
     },
     {
-      "text": "58 / 75",
-      "of": "e742a4f7",
+      "text": "59 / 75",
+      "of": "ae7c45aa",
       "at": [
         "providence-day:[6].values.gaston-day"
       ],
-      "t": "58 / 75"
-    },
-    {
-      "text": "75 / 75",
-      "of": "9cd15264",
-      "at": [
-        "providence-day:[6].values.providence-day"
-      ],
-      "t": "75 / 75"
+      "t": "59 / 75"
     },
     {
       "text": "Scored against the 2027 US News National Universities table over the Classes of 2023-2025 matriculation list. Not comparable like-for-like with schools on this table that publish acceptance lists.",
@@ -1016,36 +1164,36 @@
       "t": "Universidades nacionales del Top-75 de U.S. News mencionadas en la lista de admisiones 2019–2025, contrastadas con las tablas de 2026. Es un recuento acumulado de siete años, no de una promoción."
     },
     {
-      "text": "66 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "6d4cc76a",
+      "text": "75 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "2e79cbae",
       "at": [
         "providence-day:[6].quals.cannon.text"
       ],
-      "t": "66 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "75 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "39 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "cd5e411c",
+      "text": "40 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "9596f3b4",
       "at": [
         "providence-day:[6].quals.charlotte-christian.text"
       ],
-      "t": "39 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Charlotte Christian, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "40 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Charlotte Christian, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "70 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "4cfa3efc",
+      "text": "71 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "333009dd",
       "at": [
         "providence-day:[6].quals.charlotte-country-day.text"
       ],
-      "t": "70 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "71 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "67 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "f285f5a2",
+      "text": "68 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "80534a61",
       "at": [
         "providence-day:[6].quals.charlotte-latin.text"
       ],
-      "t": "67 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Charlotte Latin, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "68 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Charlotte Latin, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "36 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1056,12 +1204,12 @@
       "t": "36 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de 2023–2026 de Covenant Day, cotejada con las tablas de U.S. News de 2027 — no una cifra que el colegio declare por sí mismo."
     },
     {
-      "text": "48 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "5ee811a9",
+      "text": "49 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "78754cee",
       "at": [
         "providence-day:[6].quals.davidson-day.text"
       ],
-      "t": "48 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Davidson Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "49 de las 75 mejores National Universities aparecen en la lista de admisiones publicada de Davidson Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "75 of the top 75 National Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1080,12 +1228,12 @@
       "t": "Recuento de las Top-75 universidades nacionales de US News que figuran en la lista de admisiones acumulada del colegio, que no indica ningún periodo. Varias instituciones se sitúan cerca del corte de la clasificación del año en curso."
     },
     {
-      "text": "20 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "e136641a",
+      "text": "21 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "c750a6f1",
       "at": [
         "providence-day:[6].quals.hickory-grove-christian.text"
       ],
-      "t": "20 de las 75 primeras universidades nacionales aparecen en las listas de admisiones publicadas de 2023 y 2025 de Hickory Grove Christian, cotejadas con las tablas de 2027 de U.S. News; no es una cifra que el colegio informe por sí mismo."
+      "t": "21 de las 75 primeras universidades nacionales aparecen en las listas de admisiones publicadas de 2023 y 2025 de Hickory Grove Christian, cotejadas con las tablas de 2027 de U.S. News; no es una cifra que el colegio informe por sí mismo."
     },
     {
       "text": "Top-75 Liberal Arts",
@@ -1104,12 +1252,21 @@
       "t": "De los 75 mejores liberal arts colleges de la tabla de U.S. News de 2027, cuántos aparecen en la lista de admisiones del colegio."
     },
     {
-      "text": "9 / 75",
-      "of": "fff53af3",
+      "text": "45 / 75",
+      "of": "e0ea84a5",
       "at": [
-        "providence-day:[7].values.charlotte-christian"
+        "providence-day:[7].values.cannon"
       ],
-      "t": "9 / 75"
+      "t": "45 / 75"
+    },
+    {
+      "text": "10 / 75",
+      "of": "7b5ceae3",
+      "at": [
+        "providence-day:[7].values.charlotte-christian",
+        "providence-day:[7].values.covenant-day"
+      ],
+      "t": "10 / 75"
     },
     {
       "text": "17 / 75",
@@ -1120,12 +1277,12 @@
       "t": "17 / 75"
     },
     {
-      "text": "43 / 75",
-      "of": "8a888d0f",
+      "text": "44 / 75",
+      "of": "478803e0",
       "at": [
         "providence-day:[7].values.charlotte-country-day"
       ],
-      "t": "43 / 75"
+      "t": "44 / 75"
     },
     {
       "text": "42 / 75",
@@ -1134,14 +1291,6 @@
         "providence-day:[7].values.charlotte-latin"
       ],
       "t": "42 / 75"
-    },
-    {
-      "text": "10 / 75",
-      "of": "7b5ceae3",
-      "at": [
-        "providence-day:[7].values.covenant-day"
-      ],
-      "t": "10 / 75"
     },
     {
       "text": "11 / 75",
@@ -1160,12 +1309,12 @@
       "t": "28 / 75"
     },
     {
-      "text": "8 / 75",
-      "of": "523dd666",
+      "text": "9 / 75",
+      "of": "fff53af3",
       "at": [
         "providence-day:[7].values.hickory-grove-christian"
       ],
-      "t": "8 / 75"
+      "t": "9 / 75"
     },
     {
       "text": "24 / 75",
@@ -1200,28 +1349,28 @@
       "t": "Liberal Arts Colleges nacionales del Top-75 de U.S. News en la lista 2019–2025, contrastados con las tablas de 2026. Incluye Swarthmore, Middlebury, Davidson, Colby y Bryn Mawr."
     },
     {
-      "text": "30 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "4a54a6d2",
+      "text": "45 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "072e33fe",
       "at": [
         "providence-day:[7].quals.cannon.text"
       ],
-      "t": "30 de los 75 mejores Liberal Arts Colleges aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "45 de los 75 mejores Liberal Arts Colleges aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "9 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "6e67bafe",
+      "text": "10 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "e982dc8e",
       "at": [
         "providence-day:[7].quals.charlotte-christian.text"
       ],
-      "t": "9 de los 75 mejores Liberal Arts Colleges aparecen en la lista de admisiones publicada de Charlotte Christian, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "10 de los 75 mejores Liberal Arts Colleges aparecen en la lista de admisiones publicada de Charlotte Christian, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "43 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "05ab5917",
+      "text": "44 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "65b28f34",
       "at": [
         "providence-day:[7].quals.charlotte-country-day.text"
       ],
-      "t": "43 de los 75 mejores Liberal Arts Colleges aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "44 de los 75 mejores Liberal Arts Colleges aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "42 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1264,12 +1413,12 @@
       "t": "Top-75 liberal arts colleges de US News que figuran en la lista de admisiones acumulada; un par se sitúan cerca del corte de la clasificación."
     },
     {
-      "text": "8 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.",
-      "of": "93ab1463",
+      "text": "9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.",
+      "of": "2a863d96",
       "at": [
         "providence-day:[7].quals.hickory-grove-christian.text"
       ],
-      "t": "8 de los 75 primeros liberal arts colleges aparecen en las listas de admisiones publicadas de 2023 y 2025 de Hickory Grove Christian (entre ellos Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), cotejadas con las tablas de 2027 de U.S. News."
+      "t": "9 de los 75 primeros liberal arts colleges aparecen en las listas de admisiones publicadas de 2023 y 2025 de Hickory Grove Christian (entre ellos Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), cotejadas con las tablas de 2027 de U.S. News."
     },
     {
       "text": "Power Four",
@@ -1288,20 +1437,22 @@
       "t": "De las 68 universidades de las conferencias deportivas Power Four (ACC, Big Ten, Big 12, SEC — incluida Notre Dame), cuántas aparecen en la lista de admisiones del colegio."
     },
     {
-      "text": "52 / 68",
-      "of": "338dc243",
+      "text": "61 / 68",
+      "of": "825c5399",
       "at": [
-        "providence-day:[8].values.cannon"
+        "providence-day:[8].values.cannon",
+        "providence-day:[8].values.charlotte-country-day",
+        "providence-day:[8].values.charlotte-latin"
       ],
-      "t": "52 / 68"
+      "t": "61 / 68"
     },
     {
-      "text": "40 / 68",
-      "of": "fd188d0a",
+      "text": "41 / 68",
+      "of": "c871b7b3",
       "at": [
         "providence-day:[8].values.charlotte-christian"
       ],
-      "t": "40 / 68"
+      "t": "41 / 68"
     },
     {
       "text": "39 / 68",
@@ -1310,15 +1461,6 @@
         "providence-day:[8].values.charlotte-catholic"
       ],
       "t": "39 / 68"
-    },
-    {
-      "text": "61 / 68",
-      "of": "825c5399",
-      "at": [
-        "providence-day:[8].values.charlotte-country-day",
-        "providence-day:[8].values.charlotte-latin"
-      ],
-      "t": "61 / 68"
     },
     {
       "text": "46 / 68",
@@ -1377,36 +1519,36 @@
       "t": "39 instituciones distintas de la Power Four, aunque 40 filas de la lista de universidades llevan la etiqueta: Arizona State aparece dos veces (campus de Downtown Phoenix y de Tempe) y es una sola universidad. Valorado sobre la lista de matriculaciones."
     },
     {
-      "text": "36 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.",
-      "of": "96c0f595",
+      "text": "43 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.",
+      "of": "4845b079",
       "at": [
         "providence-day:[8].quals.gaston-day.text"
       ],
-      "t": "36 de las 68 instituciones miembro de la Power Four aparecen en algún punto de la lista de admisiones 2019–2025. Contabilizadas sobre el listado de 68 miembros (que incluye a Notre Dame), no sobre los 67 que compiten en fútbol americano."
+      "t": "43 de las 68 instituciones miembro de la Power Four aparecen en algún punto de la lista de admisiones 2019–2025. Contabilizadas sobre el listado de 68 miembros (que incluye a Notre Dame), no sobre los 67 que compiten en fútbol americano."
     },
     {
-      "text": "43 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "b58eb501",
+      "text": "61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "3cc396b9",
       "at": [
         "providence-day:[8].quals.cannon.text"
       ],
-      "t": "43 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "61 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "34 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "9447e4db",
+      "text": "41 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "bf63dae7",
       "at": [
         "providence-day:[8].quals.charlotte-christian.text"
       ],
-      "t": "34 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Charlotte Christian, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "41 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Charlotte Christian, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "53 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "163bc315",
+      "text": "61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "fc28754c",
       "at": [
         "providence-day:[8].quals.charlotte-country-day.text"
       ],
-      "t": "53 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "61 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "Counted from the school’s published acceptance list against the Power Four conferences. The researcher’s own tally reached 62; the figure shown, 53, is the conservative count reflected in this table.",
@@ -1425,20 +1567,20 @@
       "t": "46 de las 68 universidades de la Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de 2023–2026 de Covenant Day — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. No una cifra que el colegio declare por sí mismo."
     },
     {
-      "text": "42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "9feb4683",
+      "text": "45 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "cc6e4398",
       "at": [
         "providence-day:[8].quals.davidson-day.text"
       ],
-      "t": "42 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Davidson Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "45 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Davidson Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "57 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "368e8060",
+      "text": "65 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "791a9ee7",
       "at": [
         "providence-day:[8].quals.providence-day.text"
       ],
-      "t": "57 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Providence Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "65 de las 68 universidades Power Four (ACC, Big Ten, Big 12, SEC, más Notre Dame) aparecen en la lista de admisiones publicada de Providence Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.",
@@ -1449,12 +1591,12 @@
       "t": "Miembros de la Power Four (de 68, incluida Notre Dame) que figuran en la lista de admisiones acumulada. La lista no indica ningún periodo y no señala ninguna matriculación."
     },
     {
-      "text": "24 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.",
-      "of": "0ac96ff3",
+      "text": "25 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.",
+      "of": "52a85b2a",
       "at": [
         "providence-day:[8].quals.hickory-grove-christian.text"
       ],
-      "t": "24 de las 68 universidades de la Power Four aparecen en las listas de admisiones publicadas de 2023 y 2025 de Hickory Grove Christian (UConn es de la Big East, no de la Power Four, por lo que queda excluida). No es una cifra que el colegio informe por sí mismo."
+      "t": "25 de las 68 universidades de la Power Four aparecen en las listas de admisiones publicadas de 2023 y 2025 de Hickory Grove Christian (UConn es de la Big East, no de la Power Four, por lo que queda excluida). No es una cifra que el colegio informe por sí mismo."
     },
     {
       "text": "Admit rate — UNC-Chapel Hill",
@@ -1991,6 +2133,15 @@
       "t": "98%"
     },
     {
+      "text": "92%",
+      "of": "decf5375",
+      "at": [
+        "providence-day:[12].values.providence-day",
+        "providence-day:[14].values.charlotte-country-day"
+      ],
+      "t": "92%"
+    },
+    {
       "text": "12 / 12",
       "of": "9c2d3c7e",
       "at": [
@@ -2153,6 +2304,14 @@
       "t": "62 / 91"
     },
     {
+      "text": "10 / 17",
+      "of": "0d57c08b",
+      "at": [
+        "providence-day:[13].subs.charlotte-country-day"
+      ],
+      "t": "10 / 17"
+    },
+    {
       "text": "13 / 25",
       "of": "c7a6f401",
       "at": [
@@ -2200,14 +2359,6 @@
         "providence-day:[14].subs.davidson-day"
       ],
       "t": "3 / 3"
-    },
-    {
-      "text": "16 / 17",
-      "of": "846cc9c9",
-      "at": [
-        "providence-day:[14].subs.charlotte-catholic"
-      ],
-      "t": "16 / 17"
     },
     {
       "text": "11 / 12",
@@ -2258,13 +2409,12 @@
       "t": "De las 107 Historically Black Colleges & Universities, cuántas aparecen en la lista de admisiones del colegio."
     },
     {
-      "text": "5 / 107",
-      "of": "4ecefe03",
+      "text": "11 / 107",
+      "of": "62d3b03c",
       "at": [
-        "providence-day:[15].values.cannon",
-        "providence-day:[15].values.gaston-day"
+        "providence-day:[15].values.cannon"
       ],
-      "t": "5 / 107"
+      "t": "11 / 107"
     },
     {
       "text": "10 / 107",
@@ -2324,6 +2474,14 @@
       "t": "20 / 107"
     },
     {
+      "text": "5 / 107",
+      "of": "4ecefe03",
+      "at": [
+        "providence-day:[15].values.gaston-day"
+      ],
+      "t": "5 / 107"
+    },
+    {
       "text": "14 / 107",
       "of": "6d19cd5b",
       "at": [
@@ -2348,12 +2506,12 @@
       "t": "Universidades y colleges históricamente negros (HBCU) en la lista de admisiones 2019–2025, sobre el registro federal de 107: Hampton, NC A&T, NC Central, Winston-Salem State y Tougaloo. Tougaloo también ocupa un puesto en el ranking de Liberal Arts de 2026 (#180), por lo que puntúa en dos categorías."
     },
     {
-      "text": "5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "3741175e",
+      "text": "11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "c26d8685",
       "at": [
         "providence-day:[15].quals.cannon.text"
       ],
-      "t": "5 de las 107 Historically Black Colleges & Universities aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "11 de las 107 Historically Black Colleges & Universities aparecen en la lista de admisiones publicada de Cannon, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -2372,12 +2530,12 @@
       "t": "18 de las 107 Historically Black Colleges & Universities aparecen en la lista de admisiones publicada de Charlotte Country Day, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
-      "text": "6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "2929cca4",
+      "text": "7 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "fe26063d",
       "at": [
         "providence-day:[15].quals.charlotte-latin.text"
       ],
-      "t": "6 de las 107 Historically Black Colleges & Universities aparecen en la lista de admisiones publicada de Charlotte Latin, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
+      "t": "7 de las 107 Historically Black Colleges & Universities aparecen en la lista de admisiones publicada de Charlotte Latin, cotejada con las tablas de 2027 de U.S. News; no es una cifra que la escuela informe por sí misma."
     },
     {
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.",
@@ -2436,12 +2594,12 @@
       "t": "Número aproximado de alumnos de último curso por orientador universitario dedicado en el momento de mayor carga de solicitudes, según la nota de cada colegio."
     },
     {
-      "text": "28:1",
-      "of": "2d11b212",
+      "text": "~26:1",
+      "of": "c381bb6c",
       "at": [
         "providence-day:[16].values.cannon"
       ],
-      "t": "28:1"
+      "t": "~26:1"
     },
     {
       "text": "~47:1",
@@ -2524,12 +2682,12 @@
       "t": "CALCULADO, no publicado — el centro no indica ni una carga de casos ni una ratio. 35 alumnos de último curso en la promoción de 2026 repartidos entre dos profesionales de orientación universitaria (Peter Gangemi, director; Kristy Smith, adjunta) da ~18:1; contabilizado solo sobre el director, sería 35:1."
     },
     {
-      "text": "About 28 seniors per dedicated college counselor at peak application season — 111 seniors across 4 counselors. A lower ratio means more counselor time per student.",
-      "of": "b4c9954a",
+      "text": "About 26 seniors per dedicated college counselor at peak application season — 105 seniors across 4 counselors. A lower ratio means more counselor time per student.",
+      "of": "fcb783e1",
       "at": [
         "providence-day:[16].quals.cannon.text"
       ],
-      "t": "Alrededor de 28 estudiantes de último año por cada consejero universitario dedicado en la temporada alta de solicitudes: 111 estudiantes de último año entre 4 consejeros. Una proporción más baja significa más tiempo de consejero por estudiante."
+      "t": "Alrededor de 26 estudiantes de último año por cada consejero universitario dedicado en la temporada alta de solicitudes: 105 estudiantes de último año entre 4 consejeros. Una proporción más baja significa más tiempo de consejero por estudiante."
     },
     {
       "text": "An effective caseload of about 47 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
@@ -3523,12 +3681,12 @@
       "t": "Clubes, sociedades de honor y organizaciones dirigidas por estudiantes en la Upper School. Cada escuela cuenta de forma diferente: pasa el cursor sobre una cifra para ver qué incluye."
     },
     {
-      "text": "≥19",
-      "of": "d4042e4e",
+      "text": "≥20",
+      "of": "d3066b52",
       "at": [
         "providence-day:[25].values.cannon"
       ],
-      "t": "≥19"
+      "t": "≥20"
     },
     {
       "text": "23",
@@ -3621,12 +3779,12 @@
       "t": "Contados a partir del HTML del directorio de clubes en sus seis categorías — Educación 16, Servicio 23, Comunidad 9, Cultura 4, Deportes 15, Interés general 9. El perfil del centro habla por separado de “más de 50 oportunidades de club”, una cifra redonda en prosa más que un recuento."
     },
     {
-      "text": "Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 11 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.",
-      "of": "5ef8dd83",
+      "text": "Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.",
+      "of": "4bfc21de",
       "at": [
         "providence-day:[25].quals.cannon.text"
       ],
-      "t": "Cannon no publica un directorio de clubes autorizados, así que este es un mínimo documentado: 8 organizaciones nombradas de Upper School más sus 11 sociedades de honor de Upper School. La lista vigente cambia de un año a otro y no se divulga por completo."
+      "t": "Cannon no publica un directorio de clubes autorizados, así que este es un mínimo documentado: 8 organizaciones nombradas de Upper School más sus 12 sociedades de honor de Upper School. La lista vigente cambia de un año a otro y no se divulga por completo."
     },
     {
       "text": "Counts the 23 named organizations in the Upper School across four categories. The school also reports 35 across JK–12; only the Upper School band is used here for a like-for-like comparison.",

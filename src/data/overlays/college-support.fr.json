@@ -4222,13 +4222,6 @@
       ]
     },
     {
-      "t": "sesovchen@charlottecatholic.org",
-      "of": "b3073910",
-      "at": [
-        "charlotte-catholic:counseling.roster[0].detail"
-      ]
-    },
-    {
       "t": "Conseillère",
       "of": "be7455dd",
       "at": [
@@ -4238,48 +4231,6 @@
         "charlotte-catholic:counseling.roster[4].role",
         "charlotte-catholic:counseling.roster[5].role",
         "covenant-day:counseling.roster[1].role"
-      ]
-    },
-    {
-      "t": "clparks@charlottecatholic.org",
-      "of": "c4416a58",
-      "at": [
-        "charlotte-catholic:counseling.roster[1].detail"
-      ]
-    },
-    {
-      "t": "meclementi@charlottecatholic.org",
-      "of": "fed6ec31",
-      "at": [
-        "charlotte-catholic:counseling.roster[2].detail"
-      ]
-    },
-    {
-      "t": "smneedham@charlottecatholic.org",
-      "of": "6738e88a",
-      "at": [
-        "charlotte-catholic:counseling.roster[3].detail"
-      ]
-    },
-    {
-      "t": "krfisher@charlottecatholic.org",
-      "of": "12101ea2",
-      "at": [
-        "charlotte-catholic:counseling.roster[4].detail"
-      ]
-    },
-    {
-      "t": "hrnobary@charlottecatholic.org",
-      "of": "86882403",
-      "at": [
-        "charlotte-catholic:counseling.roster[5].detail"
-      ]
-    },
-    {
-      "t": "jmcramer@charlottecatholic.org",
-      "of": "fe8c36cf",
-      "at": [
-        "charlotte-catholic:counseling.roster[6].detail"
       ]
     },
     {
@@ -6362,51 +6313,50 @@
       ]
     },
     {
-      "t": "Cannon publie une information que presque aucune école comparable ne donne — une charge maximale explicite de cours AP/AT par niveau, plafonnant un relevé de notes de quatre ans à onze cours avancés et excluant totalement les élèves de première année.",
-      "of": "bce93f90",
+      "t": "Cannon publie une information que presque aucune école comparable ne donne — une charge maximale explicite de cours AP/AT par niveau, plafonnant un relevé de notes de quatre ans à douze cours avancés et excluant totalement les élèves de première année.",
+      "of": "e74ae7dc",
       "at": [
         "cannon:transcript.headline"
       ]
     },
     {
-      "t": "Ce plafond est la clé de lecture d’un relevé de notes Cannon : « most rigorous » a ici une limite stricte et publiée, et les 92% de scores de 3+ proviennent d’élèves ayant choisi de passer un examen facultatif.",
-      "of": "cdc8a9e0",
+      "t": "Ce plafond est la clé de lecture d’un relevé de notes Cannon : « most rigorous » a ici une limite stricte et publiée, et les 90% de scores de 3+ proviennent d’élèves ayant choisi de passer un examen facultatif.",
+      "of": "ce6bd446",
       "at": [
         "cannon:transcript.subhead"
       ]
     },
     {
-      "t": "21",
-      "of": "8cf297ec",
+      "t": "27",
+      "of": "8af294c6",
       "at": [
-        "cannon:transcript.stats[0].value",
-        "davidson-day:transcript.stats[0].value"
+        "cannon:transcript.stats[0].value"
       ]
     },
     {
-      "t": "cours avancés — 13 AP plus 8 Advanced Topics conçus par l’école",
-      "of": "2d6ed55a",
+      "t": "cours avancés — AP plus Advanced Topics conçus par l’école, selon le décompte de l’école",
+      "of": "2e22730a",
       "at": [
         "cannon:transcript.stats[0].label"
       ]
     },
     {
-      "t": "92%",
-      "of": "decf5375",
+      "t": "90%",
+      "of": "cacab6cb",
       "at": [
         "cannon:transcript.stats[1].value"
       ]
     },
     {
-      "t": "des examens AP ont obtenu 3+ (425 examens, 197 élèves, promotion 2025)",
-      "of": "ccae58b8",
+      "t": "des élèves ont obtenu 3+ (446 examens, 195 élèves, mai 2026)",
+      "of": "50a5f677",
       "at": [
         "cannon:transcript.stats[1].label"
       ]
     },
     {
-      "t": "0 / 1 / 4 / 6",
-      "of": "4a8cf813",
+      "t": "0 / 1 / 5 / 6",
+      "of": "803f3ff0",
       "at": [
         "cannon:transcript.stats[2].value"
       ]
@@ -6426,15 +6376,15 @@
       ]
     },
     {
-      "t": "Le plafond est **AP Calculus BC / AP Statistics** — aucun cours post-BC n’est publié, ni calcul à plusieurs variables ni algèbre linéaire. Un « AT: Calculus with Applications » figurant en 2024–25 a disparu du tableau 2025–26.",
-      "of": "cc9c72a4",
+      "t": "Le plafond est désormais **AT: Mathematics & Calculus**, que le Course Catalog 2026–27 décrit comme un séminaire destiné aux élèves ayant terminé AP Calculus BC. AP Precalculus figure également. Aucun cours de calcul à plusieurs variables ni d’algèbre linéaire n’est publié sous ce nom.",
+      "of": "b91bd594",
       "at": [
         "cannon:transcript.depth[0].text"
       ]
     },
     {
-      "t": "**AP Computer Science uniquement**, sans cours post-AP ni structures de données — maigre par rapport au reste du catalogue avancé.",
-      "of": "5864a8f7",
+      "t": "**AP Computer Science plus AT: Principles of Computer Science & Coding**, toujours sans cours de structures de données ni cours post-AP — maigre par rapport au reste du catalogue avancé.",
+      "of": "c6595043",
       "at": [
         "cannon:transcript.depth[1].text"
       ]
@@ -6447,8 +6397,8 @@
       ]
     },
     {
-      "t": "Huit **cours AT conçus par l’école** figurent aux côtés des AP et portent le même bonus de 1.0 quality point, plusieurs sans aucun examen College Board correspondant — par exemple AT: Design Thinking for Entrepreneurship.",
-      "of": "e16357db",
+      "t": "Les **cours AT conçus par l’école** figurent aux côtés des AP et portent le même bonus de 1.0 quality point, plusieurs sans aucun examen College Board correspondant — par exemple AT: Design Thinking for Entrepreneurship.",
+      "of": "4b448316",
       "at": [
         "cannon:transcript.depth[2].text"
       ]
@@ -6461,6 +6411,20 @@
       ]
     },
     {
+      "t": "Avant et après l’année scolaire",
+      "of": "f5819c53",
+      "at": [
+        "cannon:transcript.depth[4].label"
+      ]
+    },
+    {
+      "t": "La **Zero Hour** accueille Varsity Chorus et Varsity Orchestra, notés réussite/échec, les lundi, mercredi et vendredi avant les cours. Le **Summer Term** propose Geometry Acceleration en réussite/échec, ainsi que Honors Biology et Honors Chemistry avec note ; les cours d’été sont désignés comme Summer Term sur le relevé de notes, et BIOREX n’est pas proposé dans la session d’été.",
+      "of": "36a1abca",
+      "at": [
+        "cannon:transcript.depth[4].text"
+      ]
+    },
+    {
       "t": "Une pondération étroite, et délibérée",
       "of": "2bdd2a2f",
       "at": [
@@ -6468,8 +6432,8 @@
       ]
     },
     {
-      "t": "Les cours AT et AP portent **1.0 quality point ; Honors et Honors Accelerated ne sont pas pondérés du tout**. Les GPA pondérés comme non pondérés sont calculés uniquement à partir des cours suivis à Cannon.",
-      "of": "820bd3ed",
+      "t": "Trois niveaux : les cours AT et AP portent **1.0 quality point**, **Honors Accelerated 0.5** (nouveau en 2026–27), et Honors **aucun**. Les GPA pondérés comme non pondérés sont calculés uniquement à partir des cours suivis à Cannon.",
+      "of": "bc253d9a",
       "at": [
         "cannon:transcript.trust[0].text"
       ]
@@ -6482,8 +6446,8 @@
       ]
     },
     {
-      "t": "Pas de classement, pas de tableau de déciles ou de quintiles — mais la pondération étroite associée au plafond de onze cours fait que le décile supérieur pondéré culmine autour de **4.28**. Cannon ne produit pas de GPA gonflés à 4.9, ce qui exige une mise en contexte pour des lecteurs habitués à des barèmes plus généreux.",
-      "of": "ea6b9a84",
+      "t": "Pas de classement, pas de tableau de déciles ou de quintiles — mais la pondération étroite associée au plafond de douze cours fait que le décile supérieur pondéré culmine autour de **4.28**. Cannon ne produit pas de GPA gonflés à 4.9, ce qui exige une mise en contexte pour des lecteurs habitués à des barèmes plus généreux.",
+      "of": "e56f3690",
       "at": [
         "cannon:transcript.trust[1].text"
       ]
@@ -6503,15 +6467,15 @@
       ]
     },
     {
-      "t": "Les examens AP sont FACULTATIFS — « students in AT/AP classes have the option of sitting for the appropriate AP exam ». Les 92.39% de scores de 3+ reposent donc sur un vivier auto-sélectionné et ne sont pas directement comparables à ceux d’écoles qui imposent l’examen. Le dénominateur de 197 élèves n’est pas non plus défini : il désigne très probablement l’ensemble des candidats de l’Upper School plutôt que les membres de la promotion sortante de 111 élèves.",
-      "of": "8ca091b6",
+      "t": "Les examens AP sont FACULTATIFS — « students in AT/AP classes have the option of sitting for the appropriate AP exam ». Les 90.16% de scores de 3+ reposent donc sur un vivier auto-sélectionné et ne sont pas directement comparables à ceux d’écoles qui imposent l’examen. Le dénominateur n’est pas non plus défini : le profil intitule le chiffre « Students with Scores 3+ » tout en donnant à la fois 195 élèves et 446 examens, sans préciser s’il s’agit d’une part d’élèves ou d’examens.",
+      "of": "79cf33d6",
       "at": [
         "cannon:transcript.flags[0].text"
       ]
     },
     {
-      "t": "Aucun relevé National Merit d’aucune sorte n’est publié — aucun décompte de Semifinalist, de Finalist ou de Commended pour quelque année que ce soit, ni sur les profils ni dans les actualités. Des recherches répétées n’ont fait apparaître qu’un article de 2011 nommant un seul Scholar. Les décomptes d’AP Scholar et la part de scores 4–5 sont eux aussi non publiés ; Cannon ne rapporte que le seuil de 3+.",
-      "of": "6229f48a",
+      "t": "Aucun relevé National Merit d’aucune sorte n’est publié — aucun décompte de Semifinalist, de Finalist ou de Commended pour quelque année que ce soit, sur aucun profil ni dans les actualités. Des recherches répétées n’ont fait apparaître qu’un article de 2011 nommant un seul Scholar. Les décomptes d’AP Scholar et la part de scores 4–5 sont eux aussi non publiés ; Cannon ne rapporte que le seuil de 3+.",
+      "of": "9be392cf",
       "at": [
         "cannon:transcript.flags[1].text"
       ]
@@ -6524,22 +6488,22 @@
       ]
     },
     {
-      "t": "Cinq personnes, aucun renouvellement d’effectif sur deux profils publiés, et un modèle de co-direction — plus le programme régional d’études de cas qu’elle accueille physiquement.",
-      "of": "11d06341",
+      "t": "Cinq personnes, les quatre mêmes directeurs sur trois profils publiés, et un modèle de co-direction — plus le programme régional d’études de cas qu’elle accueille physiquement.",
+      "of": "2916cd3e",
       "at": [
         "cannon:counseling.subhead"
       ]
     },
     {
-      "t": "28:1",
-      "of": "2d11b212",
+      "t": "~26:1",
+      "of": "c381bb6c",
       "at": [
         "cannon:counseling.stats[0].value"
       ]
     },
     {
-      "t": "le ratio publié par l’école — atteignable uniquement en ne comptant que les élèves de dernière année",
-      "of": "730f391c",
+      "t": "élèves de dernière année par conseiller — calculé, 105 élèves ÷ 4 (promotion 2026)",
+      "of": "4760b9f6",
       "at": [
         "cannon:counseling.stats[0].label"
       ]
@@ -6581,15 +6545,8 @@
       ]
     },
     {
-      "t": "Cannon fonctionne avec un poste de direction partagé, inhabituel, plutôt qu’avec un directeur unique.",
-      "of": "baaf1b88",
-      "at": [
-        "cannon:counseling.roster[0].detail"
-      ]
-    },
-    {
-      "t": "L’effectif est identique dans les profils 2024–25 et 2025–26.",
-      "of": "f13e1905",
+      "t": "Les quatre directeurs sont les mêmes dans les profils 2024–25, 2025–26 et 2026–27.",
+      "of": "d02a421d",
       "at": [
         "cannon:counseling.roster[1].detail"
       ]
@@ -6602,8 +6559,8 @@
       ]
     },
     {
-      "t": "Aucun renouvellement d’effectif sur au moins deux ans constitue en soi un signal de stabilité.",
-      "of": "83b18546",
+      "t": "Figure sur le profil 2026–27, à la suite de Clay Morrell.",
+      "of": "3a89d2b9",
       "at": [
         "cannon:counseling.roster[4].detail"
       ]
@@ -6722,38 +6679,10 @@
       ]
     },
     {
-      "t": "Le « 28:1 ratio » mis en avant ne tient que si l’on compte les élèves de dernière année par conseiller (111 ÷ 4). Rapporté aux 423 élèves de l’Upper School, il est plutôt de 106:1, et l’école n’indique jamais le dénominateur — 28:1 ne doit donc pas se lire comme une charge portant sur l’ensemble de l’Upper School.",
-      "of": "875f62ab",
-      "at": [
-        "cannon:counseling.flags[0].text"
-      ]
-    },
-    {
-      "t": "Aucune ancienneté, expérience antérieure, diplôme ou biographie des conseillers n’est publié — uniquement les noms et les titres, si bien que l’ancienneté du directeur est inconnue. Ni le nombre de visites de représentants d’universités ni le nombre de visites de campus par les conseillers ne sont publiés sous quelque forme que ce soit. À noter que les « 80+ reps a year » publiés par Davidson Day relèvent de Davidson Day et non de Cannon.",
-      "of": "ffff1c52",
-      "at": [
-        "cannon:counseling.flags[1].text"
-      ]
-    },
-    {
-      "t": "Le programme destiné aux élèves n’est pas publié : la fréquence des séminaires, le nombre d’entretiens individuels, les ateliers de rédaction et le calendrier de l’entretien d’avant-dernière année n’apparaissent nulle part. Cannon publie ce à quoi elle convie les parents, non ce qu’elle fait avec les élèves. Un volet d’exploration de soi sur quatre ans décrit dans le profil 2024–25 a été retiré de l’édition 2025–26 sans explication.",
-      "of": "e467f352",
-      "at": [
-        "cannon:counseling.flags[2].text"
-      ]
-    },
-    {
-      "t": "Cannon publie ce que la plupart des écoles présentées ici ne publient pas — une véritable liste d’inscriptions effectives. 58 établissements ont accueilli un diplômé de la promotion 2023, dont Stanford, Duke, Penn, UCLA et l’Air Force Academy.",
-      "of": "7f0c0b3b",
+      "t": "La liste d’admissions universitaires de Cannon couvre les promotions 2022 à 2026 — 352 établissements, les inscriptions de la promotion 2023 étant en gras.",
+      "of": "c8eb6a21",
       "at": [
         "cannon:outcomes.headline"
-      ]
-    },
-    {
-      "t": "Cette liste constitue une preuve bien plus solide que la compilation d’admissions qui l’accompagne, laquelle agrège trois promotions sortantes et n’a pas été actualisée depuis la promotion 2024.",
-      "of": "16b5926b",
-      "at": [
-        "cannon:outcomes.subhead"
       ]
     },
     {
@@ -6764,8 +6693,8 @@
       ]
     },
     {
-      "t": "de la promotion 2025 vers des universités de quatre ans · 2% vers des cursus de deux ans",
-      "of": "0b4d5f9d",
+      "t": "de la promotion 2026 vers des universités de quatre ans · 2% vers des cursus de deux ans",
+      "of": "ca5034fe",
       "at": [
         "cannon:outcomes.stats[0].label"
       ]
@@ -6785,51 +6714,50 @@
       ]
     },
     {
-      "t": "111",
-      "of": "6c361b12",
+      "t": "105",
+      "of": "6433cfe3",
       "at": [
         "cannon:outcomes.stats[2].value"
       ]
     },
     {
-      "t": "diplômés de dernière année — la deuxième promotion la plus nombreuse de l’histoire de l’école",
-      "of": "6fed819a",
+      "t": "élèves de dernière année diplômés, promotion 2026",
+      "of": "d753719f",
       "at": [
         "cannon:outcomes.stats[2].label"
       ]
     },
     {
-      "t": "3 sur 8",
-      "of": "7871e757",
+      "t": "7 sur 8",
+      "of": "1f5e1f33",
       "at": [
-        "cannon:outcomes.stats[3].value",
-        "davidson-day:outcomes.stats[2].value"
+        "cannon:outcomes.stats[3].value"
       ]
     },
     {
-      "t": "Ivy League sur la liste d’admissions 2022–24",
-      "of": "95cf5b88",
+      "t": "Ivy League sur la liste d’admissions 2022–26",
+      "of": "21cf5466",
       "at": [
         "cannon:outcomes.stats[3].label"
       ]
     },
     {
-      "t": "— Brown, Cornell, Penn ; absentes : Harvard, Yale, Princeton, Dartmouth, Columbia",
-      "of": "df664fde",
+      "t": "— Brown, Columbia, Cornell, Dartmouth, Penn, Princeton, Yale ; absente : Harvard",
+      "of": "d866c60c",
       "at": [
         "cannon:outcomes.buckets[0].note"
       ]
     },
     {
-      "t": "Toutes les admissions, 2022–2024",
-      "of": "282170e2",
+      "t": "Toutes les admissions, 2022–2026",
+      "of": "26216dbc",
       "at": [
         "cannon:outcomes.collegesTitle"
       ]
     },
     {
-      "t": "283 établissements · gras = un élève de la promotion 2023 s’y est inscrit",
-      "of": "c66168f9",
+      "t": "352 établissements · gras = un élève de la promotion 2023 s’y est inscrit",
+      "of": "1448a3f2",
       "at": [
         "cannon:outcomes.collegesTotal"
       ]
@@ -6856,17 +6784,17 @@
       ]
     },
     {
-      "t": "Chapitre de la Cum Laude Society depuis 2005",
-      "of": "2a9be9e5",
+      "t": "Chapitre de la National Honor Society attribué en 2025",
+      "of": "78db0336",
       "at": [
         "cannon:outcomes.scholarships[3]"
       ]
     },
     {
-      "t": "C’est la plus importante lacune de données de résultats chez Cannon. Aucun montant en dollars de bourses au mérite ne figure sur l’un ou l’autre profil ni dans aucune actualité, et aucun résultat actuel Morehead-Cain, Park, QuestBridge ou ROTC n’est publié. Cannon publie bien $3,000,000 d’aide aux frais de scolarité versée à 24% de ses élèves — mais il s’agit de l’aide financière entrante de l’école elle-même, et non de bourses au mérite universitaires, et les deux ne doivent pas être confondues.",
-      "of": "58da0157",
+      "t": "Admissions à la U.S. Naval Academy et à la Coast Guard Academy (2024–26)",
+      "of": "ba9a3bc1",
       "at": [
-        "cannon:outcomes.scholarshipsNote"
+        "cannon:outcomes.scholarships[4]"
       ]
     },
     {
@@ -6940,8 +6868,8 @@
       ]
     },
     {
-      "t": "**Adhésions institutionnelles** — NACAC, SACAC et **ACCIS**, aux côtés d’un chapitre de la **Cum Laude Society** attribué en 2005 et de l’adhésion à l’**Independent Curriculum Group**, ce qui rend cohérents, plutôt qu’idiosyncrasiques, le niveau AT conçu par l’école et le parti pris de l’examen facultatif.",
-      "of": "0d4b554d",
+      "t": "**Adhésions institutionnelles** — accréditation **SAIS** ; NAIS, NCAIS, CSEE, **ACCIS**, NACAC et SACAC ; et un chapitre de la **National Honor Society** attribué en 2025.",
+      "of": "d1d52762",
       "at": [
         "cannon:edge.levers[1].items[2]"
       ]
@@ -6961,30 +6889,30 @@
       ]
     },
     {
-      "t": "Le chiffre le plus instructif est la fourchette médiane à 50% non pondérée de 3.57–3.94 : l’élève médian de Cannon se situe dans la zone du B-plus élevé au A-moins avant toute pondération.",
-      "of": "e5db129f",
+      "t": "Le chiffre le plus instructif est la fourchette médiane à 50% non pondérée de 3.76–3.94 : l’élève médian de Cannon se situe dans la zone du A-moins avant toute pondération.",
+      "of": "3d52e969",
       "at": [
         "cannon:wholeClass.subhead"
       ]
     },
     {
-      "t": "— promotion 2025 · nombre de candidats testés non publié",
-      "of": "306a6ea7",
+      "t": "— promotion 2026 · nombre de candidats testés non publié",
+      "of": "581b5982",
       "at": [
         "cannon:wholeClass.scoreTables[0].hint",
         "cannon:wholeClass.scoreTables[1].hint"
       ]
     },
     {
-      "t": "Cannon ne publie qu’une fourchette médiane à 50% et une tranche des 10% supérieurs. Les bornes de la fourchette médiane à 50% SONT, par convention, les 25e et 75e centiles, ces colonnes sont donc réelles ; le chiffre des 10% supérieurs est affiché dans la colonne du 90e comme le plancher de cette tranche (1470–1590). Aucune moyenne, médiane, sous-score par section ou décompte de candidats testés n’est publié pour l’un ou l’autre test.",
-      "of": "e702ee38",
+      "t": "Cannon ne publie qu’une fourchette médiane à 50% et une tranche des 10% supérieurs. Les bornes de la fourchette médiane à 50% SONT, par convention, les 25e et 75e centiles, ces colonnes sont donc réelles ; le chiffre des 10% supérieurs est affiché dans la colonne du 90e comme le plancher de cette tranche (1510–1560). Aucune moyenne, médiane, sous-score par section ou décompte de candidats testés n’est publié pour l’un ou l’autre test.",
+      "of": "e7c7d080",
       "at": [
         "cannon:wholeClass.scoreTables[0].note"
       ]
     },
     {
-      "t": "Même format de restitution : la colonne du 90e affiche le plancher de la tranche publiée des 10% supérieurs (33–36). Faute d’un décompte des candidats testés, il est impossible de savoir quelle part des 111 élèves de dernière année a passé l’un ou l’autre examen, ce qui limite matériellement la portée de lecture de ces fourchettes.",
-      "of": "231e50b4",
+      "t": "Même format de restitution : la colonne du 90e affiche le plancher de la tranche publiée des 10% supérieurs (33–36). Faute d’un décompte des candidats testés, il est impossible de savoir quelle part des 105 élèves de dernière année a passé l’un ou l’autre examen, ce qui limite matériellement la portée de lecture de ces fourchettes.",
+      "of": "70f8b4f5",
       "at": [
         "cannon:wholeClass.scoreTables[1].note"
       ]
@@ -6998,8 +6926,8 @@
       ]
     },
     {
-      "t": "— promotion 2025, cumul jusqu’au niveau 11 · transferts exclus",
-      "of": "0b5cfa59",
+      "t": "— promotion 2026, cumul jusqu’au niveau 11 · transferts exclus",
+      "of": "09b4ce54",
       "at": [
         "cannon:wholeClass.gpaHint"
       ]
@@ -7040,8 +6968,8 @@
       ]
     },
     {
-      "t": "pratiquement que des A",
-      "of": "03d41f42",
+      "t": "zone des A",
+      "of": "f7a03e08",
       "at": [
         "cannon:wholeClass.quintiles[2].detail"
       ]
@@ -7054,15 +6982,15 @@
       ]
     },
     {
-      "t": "de B+ élevé à A− avant pondération",
-      "of": "17d6a84b",
+      "t": "zone du A− avant pondération",
+      "of": "2d6cb28a",
       "at": [
         "cannon:wholeClass.quintiles[3].detail"
       ]
     },
     {
-      "t": "Il s’agit de tranches, non d’un tableau de quintiles — aucune répartition complète par quintile ou décile, aucune GPA médiane, ni aucun effectif d’élèves par tranche n’est publié. Le plafond pondéré modeste découle directement du plafond de 1.0 point de qualité et du maximum de onze cours AP/AT, ce qui constitue un point de transparence en faveur de Cannon mais demande à être remis en contexte pour des lecteurs habitués à des systèmes de pondération plus généreux.",
-      "of": "fbfbb7cb",
+      "t": "Il s’agit de tranches, non d’un tableau de quintiles — aucune répartition complète par quintile ou décile, aucune GPA médiane, ni aucun effectif d’élèves par tranche n’est publié. Le plafond pondéré modeste découle directement du plafond de 1.0 point de qualité et du maximum de douze cours AP/AT, ce qui constitue un point de transparence en faveur de Cannon mais demande à être remis en contexte pour des lecteurs habitués à des systèmes de pondération plus généreux. Telle qu’imprimée, la tranche pondérée des 10% supérieurs (à partir de 4.08) commence sous le haut de la fourchette médiane à 50% (4.11), et le profil n’explique pas ce chevauchement.",
+      "of": "6a51904a",
       "at": [
         "cannon:wholeClass.gpaNote"
       ]
@@ -7075,8 +7003,8 @@
       ]
     },
     {
-      "t": "**Michelle Donah**, spécialiste de l’apprentissage au Upper School, et **Jennifer Ridenhour**, responsable du soutien scolaire (Dean of Academic Support) au Upper School — un effectif substantiel pour 423 élèves du Upper School, et l’un des dispositifs de soutien à l’apprentissage les mieux documentés de cet ensemble.",
-      "of": "67f48bf3",
+      "t": "**Michelle Donah**, spécialiste de l’apprentissage au Upper School, et **Jennifer Ridenhour**, responsable du soutien scolaire (Dean of Academic Support) au Upper School — un effectif substantiel pour 421 élèves du Upper School, et l’un des dispositifs de soutien à l’apprentissage les mieux documentés de cet ensemble.",
+      "of": "9418d3e1",
       "at": [
         "cannon:wholeClass.support[0].text"
       ]
@@ -7124,8 +7052,8 @@
       ]
     },
     {
-      "t": "La liste d’admissions va de MIT, Stanford et Bowdoin jusqu’aux community colleges Rowan-Cabarrus, Cape Fear et Central Piedmont, en passant par Brevard, Barton, Catawba, Mars Hill, Wingate, Limestone, Methodist, Gardner-Webb, Guilford, Lenoir-Rhyne et Coker. Une école cherchant à optimiser son prestige les omettrait ; Cannon les publie, et divulgue son chiffre de 2% en cursus de deux ans plutôt que de l’enfouir.",
-      "of": "3c021e49",
+      "t": "La liste d’admissions va de MIT, Caltech, Stanford, Princeton et Yale jusqu’aux community colleges Rowan-Cabarrus, Cape Fear, Central Piedmont et Davidson-Davie, en passant par Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke et USC Beaufort. Une école cherchant à optimiser son prestige les omettrait ; Cannon les publie, et divulgue son chiffre de 2% en cursus de deux ans plutôt que de l’enfouir.",
+      "of": "b0bc2d40",
       "at": [
         "cannon:wholeClass.middle[0].text"
       ]
@@ -7152,24 +7080,10 @@
       ]
     },
     {
-      "t": "Universités internationales (St Andrews, Edinburgh, Aberdeen — une inscription confirmée en 2023, University College Dublin, McGill, Toronto) ; académies militaires et armée (Air Force Academy, The Citadel, VMI) ; instituts techniques (Rose-Hulman, WPI, Stevens, Colorado School of Mines, RPI) ; HBCUs (Howard, Spelman, NC A&T, NC Central, Winston-Salem State).",
-      "of": "95c88b8f",
+      "t": "Universités internationales (St Andrews, Edinburgh, Aberdeen — une inscription confirmée en 2023, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal et Western) ; académies militaires et armée (les académies de l’Air Force, de la Navy et de la Coast Guard, The Citadel et VMI) ; instituts techniques (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT et Embry-Riddle) ; HBCUs (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State et Winston-Salem State).",
+      "of": "e00702d5",
       "at": [
         "cannon:wholeClass.middle[2].text"
-      ]
-    },
-    {
-      "t": "Les quatre tranches de GPA sont identiques au centième entre les tableaux de la Class of 2024 et de la Class of 2025. Une correspondance exacte des quatre tranches sur deux cohortes différentes est statistiquement improbable ; il pourrait donc s’agir de données reportées d’une année sur l’autre plutôt que d’une distribution réellement stable.",
-      "of": "c2eb7795",
-      "at": [
-        "cannon:wholeClass.flags[0].text"
-      ]
-    },
-    {
-      "t": "Aucune statistique, politique ou service d’accompagnement concernant l’année de césure n’est décrit nulle part — et puisque 98% en cursus de quatre ans plus 2% en cursus de deux ans couvre l’ensemble de la promotion, les résultats publiés ne laissent aucune place à un groupe en année de césure.",
-      "of": "ce6f345e",
-      "at": [
-        "cannon:wholeClass.flags[1].text"
       ]
     },
     {
@@ -7194,8 +7108,8 @@
       ]
     },
     {
-      "t": "les élèves conservent le même conseiller d’orientation universitaire pendant toute leur scolarité au Upper School au lieu d’être transférés en avant-dernière année — et l’équipe de cinq personnes n’affiche aucun renouvellement sur deux profils publiés.",
-      "of": "f5a523a3",
+      "t": "les élèves conservent le même conseiller d’orientation universitaire pendant toute leur scolarité au Upper School au lieu d’être transférés en avant-dernière année — et l’équipe affiche les quatre mêmes directeurs sur trois profils publiés (seul le poste de coordination a changé).",
+      "of": "839853dc",
       "at": [
         "cannon:verdict.points[0].text"
       ]
@@ -7208,8 +7122,8 @@
       ]
     },
     {
-      "t": "un maximum publié de 0/1/4/6 cours AP ou AT selon le niveau plafonne un relevé de notes à onze, de sorte que les universités interprètent « most rigorous » par rapport à une limite que l’école énonce elle-même.",
-      "of": "81be17f7",
+      "t": "un maximum publié de 0/1/5/6 cours AP ou AT selon le niveau plafonne un relevé de notes à douze, de sorte que les universités interprètent « most rigorous » par rapport à une limite que l’école énonce elle-même.",
+      "of": "69d961d4",
       "at": [
         "cannon:verdict.points[1].text"
       ]
@@ -7236,8 +7150,8 @@
       ]
     },
     {
-      "t": "58 établissements où un diplômé de la Class of 2023 s’est réellement inscrit — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary et l’Air Force Academy. C’est une preuve plus solide que n’importe quel récapitulatif d’admissions.",
-      "of": "ef683f5b",
+      "t": "58 établissements où un diplômé de la Class of 2023 s’est réellement inscrit — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary et l’Air Force Academy. C’est une preuve plus solide que n’importe quel récapitulatif d’admissions — et la liste d’admissions qui l’accompagne couvre désormais 2022–2026.",
+      "of": "0eb78f24",
       "at": [
         "cannon:verdict.points[3].text"
       ]
@@ -7264,22 +7178,22 @@
       ]
     },
     {
-      "t": "Les cours Honors ne comptent pour aucune pondération et seuls les AT/AP ajoutent un point, si bien que le décile supérieur pondéré plafonne aux alentours de 4.28 plutôt que dans le haut des 4.",
-      "of": "c4a346e1",
+      "t": "Les cours Honors ne sont pas pondérés, Honors Accelerated ajoute un demi-point et seuls les AT/AP ajoutent un point entier, si bien que le décile supérieur pondéré plafonne à 4.28.",
+      "of": "ba434a07",
       "at": [
         "cannon:verdict.points[5].text"
       ]
     },
     {
-      "t": "Le profil 2025–26 a entièrement supprimé la liste d’admissions ; la plus récente est donc un récapitulatif 2022–24. Où les promotions 2025 et 2026 se sont-elles réellement inscrites ?",
-      "of": "c563e01e",
+      "t": "La liste d’admissions la plus récente couvre 2024–26, mais la liste d’inscriptions la plus récente est celle de la promotion 2023. Où les promotions 2024 à 2026 se sont-elles réellement inscrites ?",
+      "of": "7cfe9e1e",
       "at": [
         "cannon:verdict.checklist[0]"
       ]
     },
     {
-      "t": "Votre ratio de 28:1 ne tient qu’en comptant les élèves de dernière année — quel est le nombre réel d’élèves suivis par conseiller sur les quatre niveaux du Upper School ?",
-      "of": "7303878b",
+      "t": "Avec 105 élèves de dernière année et quatre conseillers, quel est le nombre réel d’élèves suivis par conseiller sur les quatre niveaux du Upper School ?",
+      "of": "7ce30b93",
       "at": [
         "cannon:verdict.checklist[1]"
       ]
@@ -7292,8 +7206,8 @@
       ]
     },
     {
-      "t": "Les examens AP sont facultatifs ici. Quelle proportion des élèves inscrits en cours AP et AT passent effectivement l’examen, et quelle proportion a obtenu 4 ou 5 plutôt que simplement 3+ ?",
-      "of": "6053963b",
+      "t": "Les examens AP sont facultatifs ici. Quelle proportion des élèves inscrits en cours AP et AT passent effectivement l’examen, quelle proportion a obtenu 4 ou 5 plutôt que simplement 3+ — et les 90.16% comptent-ils des élèves ou des examens ?",
+      "of": "6b1c8dae",
       "at": [
         "cannon:verdict.checklist[3]"
       ]
@@ -7313,8 +7227,8 @@
       ]
     },
     {
-      "t": "Les tranches de GPA sont identiques au centième pour deux promotions différentes — s’agit-il d’une distribution réellement stable, ou de données reportées ?",
-      "of": "fd653db2",
+      "t": "Telle qu’imprimée, la tranche pondérée des 10% supérieurs de la promotion 2026 (4.08–4.28) chevauche la fourchette médiane à 50% (3.93–4.11). Comment les 10% supérieurs sont-ils définis ?",
+      "of": "1891b25c",
       "at": [
         "cannon:verdict.checklist[6]"
       ]
@@ -8454,6 +8368,13 @@
       ]
     },
     {
+      "t": "21",
+      "of": "8cf297ec",
+      "at": [
+        "davidson-day:transcript.stats[0].value"
+      ]
+    },
+    {
       "t": "Cours AP proposés en 2025–26 (décompte dérivé — l’école ne publie aucun total)",
       "of": "98954270",
       "at": [
@@ -8871,6 +8792,13 @@
       "of": "883359f7",
       "at": [
         "davidson-day:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "3 sur 8",
+      "of": "7871e757",
+      "at": [
+        "davidson-day:outcomes.stats[2].value"
       ]
     },
     {
@@ -10641,8 +10569,8 @@
       ]
     },
     {
-      "t": "Mentionnée comme « Guidance Counselor » sur le profil de l’automne 2023 et comme « Director of Counseling » sur celui de l’automne 2025 — la principale interlocutrice pour l’orientation universitaire (traceybennett@hgchristian.org).",
-      "of": "3e360dfa",
+      "t": "Mentionnée comme « Guidance Counselor » sur le profil de l’automne 2023 et comme « Director of Counseling » sur celui de l’automne 2025 — la principale interlocutrice pour l’orientation universitaire.",
+      "of": "583563e3",
       "at": [
         "hickory-grove-christian:counseling.roster[0].detail"
       ]
@@ -10655,8 +10583,8 @@
       ]
     },
     {
-      "t": "Supervise les services aux élèves aux côtés du service de counseling (mildredsimilton@hgchristian.org).",
-      "of": "065e8a9f",
+      "t": "Supervise les services aux élèves aux côtés du service de counseling.",
+      "of": "2301f1f8",
       "at": [
         "hickory-grove-christian:counseling.roster[1].detail"
       ]
@@ -12427,8 +12355,8 @@
       ]
     },
     {
-      "t": "**231 établissements**, dont Yale, Stanford, Dartmouth, Duke, Johns Hopkins et Georgetown, plus 23 liberal arts colleges du top 75 — un éventail large pour des promotions d’environ 35 élèves.",
-      "of": "05ffeafc",
+      "t": "**231 établissements**, dont Yale, Stanford, Dartmouth, Duke, Johns Hopkins et Georgetown, plus 24 liberal arts colleges du top 75 — un éventail large pour des promotions d’environ 35 élèves.",
+      "of": "62411d69",
       "at": [
         "gaston-day:verdict.points[4].text"
       ]

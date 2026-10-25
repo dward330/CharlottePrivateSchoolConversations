@@ -352,6 +352,7 @@
         "charlotte-catholic:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
+        "cannon:honors.societies[11].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[3].feedsFrom",
         "hickory-grove-christian:honors.societies[0].feedsFrom",
@@ -5037,12 +5038,12 @@
       "t": "«با آنکه خدمت اجتماعی در Cannon یکی از الزامات فارغ‌التحصیلی نیست، حس عمیق تعهد و مسئولیت شخصی دانش‌آموزان در انجام جمعی نزدیک به 10,000 ساعت خدمت در هر سال، از راه پروژه‌های سراسر مدرسه و تلاش‌های فردی، نمایان است.»"
     },
     {
-      "text": "111",
-      "of": "6c361b12",
+      "text": "105",
+      "of": "6433cfe3",
       "at": [
         "cannon:service.programs[1].value"
       ],
-      "t": "111"
+      "t": "105"
     },
     {
       "text": "seniors · every one completes it",
@@ -5101,28 +5102,28 @@
       "t": "Senior Capstone پروژه‌ای فردی در مسیر فارغ‌التحصیلی است و Winterm برنامه‌ای درسی — هیچ‌یک باشگاه نیست. چون خدمت الزامی نیست، آن حدود 10,000 ساعت صراحتاً تلاش‌های فردی را نیز در بر می‌گیرد و نه فقط عضویت در باشگاه. Habitat Club استثناست: تنها باشگاه خدماتی نام‌برده است."
     },
     {
-      "text": "The hours figure is unstable across the school’s own publications. An earlier 2024-25 profile said around 15,000; the current Upper School page says almost 10,000; the 2025-26 profile drops the statistic altogether. We show the current published figure and scope it to the Upper School, since that is the page carrying it.",
-      "of": "ca5fd79c",
+      "text": "The hours figure is unstable across the school’s own publications. An earlier 2024-25 profile said around 15,000; the current Upper School page says almost 10,000; the 2025–26 and 2026–27 profiles drop the statistic altogether. We show the current published figure and scope it to the Upper School, since that is the page carrying it.",
+      "of": "21169f05",
       "at": [
         "cannon:service.flags[1].text"
       ],
-      "t": "رقم ساعات در نشریات خود مدرسه ناپایدار است. یکی از نمایه‌های پیشین 2024-25 حدود 15,000 را گفته بود؛ صفحهٔ فعلی Upper School نزدیک به 10,000 می‌گوید؛ و نمایهٔ 2025-26 این آمار را به‌کلی حذف می‌کند. ما رقم منتشرشدهٔ فعلی را نشان می‌دهیم و آن را به Upper School محدود می‌کنیم، چون صفحه‌ای که آن را دارد همان است."
+      "t": "رقم ساعات در نشریات خود مدرسه ناپایدار است. یکی از نمایه‌های پیشین 2024-25 حدود 15,000 را گفته بود؛ صفحهٔ فعلی Upper School نزدیک به 10,000 می‌گوید؛ و نمایه‌های 2025–26 و 2026–27 این آمار را به‌کلی حذف می‌کنند. ما رقم منتشرشدهٔ فعلی را نشان می‌دهیم و آن را به Upper School محدود می‌کنیم، چون صفحه‌ای که آن را دارد همان است."
     },
     {
-      "text": "Eleven honor societies — the widest span in this comparison, reaching social studies, mathematics, English, journalism, three arts and three world languages.",
-      "of": "525d2670",
+      "text": "Twelve honor societies — the widest span in this comparison, reaching social studies, mathematics, English, journalism, three arts and three world languages.",
+      "of": "de858104",
       "at": [
         "cannon:honors.headline"
       ],
-      "t": "یازده انجمن افتخار — گسترده‌ترین دامنه در این مقایسه، که مطالعات اجتماعی، ریاضیات، انگلیسی، روزنامه‌نگاری، سه هنر و سه زبان جهانی را در بر می‌گیرد."
+      "t": "دوازده انجمن افتخار — گسترده‌ترین دامنه در این مقایسه، که مطالعات اجتماعی، ریاضیات، انگلیسی، روزنامه‌نگاری، سه هنر و سه زبان جهانی را در بر می‌گیرد."
     },
     {
-      "text": "Overall academic excellence · chapter awarded in 2005",
-      "of": "9ca98395",
+      "text": "Overall academic excellence",
+      "of": "5c2dd27d",
       "at": [
         "cannon:honors.societies[0].recognizes"
       ],
-      "t": "برتری تحصیلی کلی · شعبه در 2005 اعطا شد"
+      "t": "برتری تحصیلی کلی"
     },
     {
       "text": "Social studies achievement — the national social studies society",
@@ -5222,6 +5223,14 @@
       "t": "دستاورد در زبان اسپانیایی"
     },
     {
+      "text": "The national high-school honor society · chapter awarded in 2025",
+      "of": "9f7ec085",
+      "at": [
+        "cannon:honors.societies[11].recognizes"
+      ],
+      "t": "انجمن افتخار ملی دبیرستان‌ها · شعبه در 2025 اعطا شد"
+    },
+    {
       "text": "No induction criteria are readable. The page invites you to \"click on icon for details and eligibility criteria,\" but those descriptions load dynamically and are not retrievable — the underlying list carries titles and images with no body text. No annual induction counts, chapter activity, advisors or membership numbers are published anywhere, and there are no Middle School honor societies.",
       "of": "4444eb19",
       "at": [
@@ -5230,12 +5239,12 @@
       "t": "هیچ معیار پذیرشی خواندنی نیست. صفحه از شما می‌خواهد «برای دیدن جزئیات و شرایط احراز روی نماد کلیک کنید»، اما آن توصیف‌ها به‌صورت پویا بارگذاری می‌شوند و قابل بازیابی نیستند — فهرست زیرین تنها عنوان و تصویر دارد و هیچ متنی ندارد. هیچ شمار سالانهٔ پذیرش، فعالیت شعبه، مسئول یا شمار عضویتی در هیچ‌جا منتشر نشده است، و هیچ انجمن افتخاری در Middle School وجود ندارد."
     },
     {
-      "text": "Cannon has no National Honor Society chapter — unusual for this set, and worth noting because Cum Laude appears to serve that role. No National Junior Honor Society or Science National Honor Society either.",
-      "of": "8363d295",
+      "text": "The National Honor Society chapter, awarded in 2025, appears on the 2026–27 profile but not yet on the Upper School page’s honor-society roster. No National Junior Honor Society or Science National Honor Society chapter is published.",
+      "of": "044b6fcd",
       "at": [
         "cannon:honors.flags[1].text"
       ],
-      "t": "Cannon هیچ شعبهٔ National Honor Society ندارد — که برای این مجموعه غیرعادی است و ارزش اشاره دارد، چون به نظر می‌رسد Cum Laude آن نقش را ایفا می‌کند. همچنین هیچ National Junior Honor Society یا Science National Honor Society ندارد."
+      "t": "شعبهٔ National Honor Society که در 2025 اعطا شد، در نمایهٔ 2026–27 آمده است اما هنوز در فهرست انجمن‌های افتخار صفحهٔ Upper School نیست. هیچ شعبه‌ای از National Junior Honor Society یا Science National Honor Society منتشر نشده است."
     },
     {
       "text": "A robotics-led slate; the Brainy Yaks reached the FLL World top 100.",

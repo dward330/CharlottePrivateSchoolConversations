@@ -4782,14 +4782,6 @@
       "t": "Director of Counseling Services"
     },
     {
-      "text": "sesovchen@charlottecatholic.org",
-      "of": "b3073910",
-      "at": [
-        "charlotte-catholic:counseling.roster[0].detail"
-      ],
-      "t": "sesovchen@charlottecatholic.org"
-    },
-    {
       "text": "Counselor",
       "of": "be7455dd",
       "at": [
@@ -4801,54 +4793,6 @@
         "covenant-day:counseling.roster[1].role"
       ],
       "t": "কাউন্সেলর"
-    },
-    {
-      "text": "clparks@charlottecatholic.org",
-      "of": "c4416a58",
-      "at": [
-        "charlotte-catholic:counseling.roster[1].detail"
-      ],
-      "t": "clparks@charlottecatholic.org"
-    },
-    {
-      "text": "meclementi@charlottecatholic.org",
-      "of": "fed6ec31",
-      "at": [
-        "charlotte-catholic:counseling.roster[2].detail"
-      ],
-      "t": "meclementi@charlottecatholic.org"
-    },
-    {
-      "text": "smneedham@charlottecatholic.org",
-      "of": "6738e88a",
-      "at": [
-        "charlotte-catholic:counseling.roster[3].detail"
-      ],
-      "t": "smneedham@charlottecatholic.org"
-    },
-    {
-      "text": "krfisher@charlottecatholic.org",
-      "of": "12101ea2",
-      "at": [
-        "charlotte-catholic:counseling.roster[4].detail"
-      ],
-      "t": "krfisher@charlottecatholic.org"
-    },
-    {
-      "text": "hrnobary@charlottecatholic.org",
-      "of": "86882403",
-      "at": [
-        "charlotte-catholic:counseling.roster[5].detail"
-      ],
-      "t": "hrnobary@charlottecatholic.org"
-    },
-    {
-      "text": "jmcramer@charlottecatholic.org",
-      "of": "fe8c36cf",
-      "at": [
-        "charlotte-catholic:counseling.roster[6].detail"
-      ],
-      "t": "jmcramer@charlottecatholic.org"
     },
     {
       "text": "The four-year timeline the counseling office publishes",
@@ -7226,61 +7170,60 @@
       "t": "নিজ শহরের ক্যাম্পাস · ছয়টির মধ্যে সর্বোচ্চ ভর্তির হার"
     },
     {
-      "text": "Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at eleven advanced courses and barring freshmen entirely.",
-      "of": "bce93f90",
+      "text": "Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at twelve advanced courses and barring freshmen entirely.",
+      "of": "e74ae7dc",
       "at": [
         "cannon:transcript.headline"
       ],
-      "t": "সমমানের প্রায় কোনো স্কুলই যা করে না, Cannon তা প্রকাশ করে — শ্রেণি ধরে ধরে AP/AT-র সর্বোচ্চ সীমা, যা চার বছরের একটি ট্রান্সক্রিপ্টকে এগারোটি উচ্চতর কোর্সে বেঁধে রাখে এবং freshman-দের পুরোপুরি বাদ দেয়।"
+      "t": "সমমানের প্রায় কোনো স্কুলই যা করে না, Cannon তা প্রকাশ করে — শ্রেণি ধরে ধরে AP/AT-র সর্বোচ্চ সীমা, যা চার বছরের একটি ট্রান্সক্রিপ্টকে বারোটি উচ্চতর কোর্সে বেঁধে রাখে এবং freshman-দের পুরোপুরি বাদ দেয়।"
     },
     {
-      "text": "That ceiling is the key to reading a Cannon transcript: “most rigorous” here has a hard, published limit, and the 92% scoring 3+ comes from students who chose to sit an optional exam.",
-      "of": "cdc8a9e0",
+      "text": "That ceiling is the key to reading a Cannon transcript: “most rigorous” here has a hard, published limit, and the 90% scoring 3+ comes from students who chose to sit an optional exam.",
+      "of": "ce6bd446",
       "at": [
         "cannon:transcript.subhead"
       ],
-      "t": "Cannon-এর ট্রান্সক্রিপ্ট পড়ার চাবিকাঠি ওই সীমাটিই: এখানে “most rigorous”-এর একটি কঠিন, প্রকাশিত সীমা আছে, আর 3+ পাওয়া 92% এসেছে এমন শিক্ষার্থীদের কাছ থেকে, যাঁরা নিজেরা বেছে একটি ঐচ্ছিক পরীক্ষায় বসেছিলেন।"
+      "t": "Cannon-এর ট্রান্সক্রিপ্ট পড়ার চাবিকাঠি ওই সীমাটিই: এখানে “most rigorous”-এর একটি কঠিন, প্রকাশিত সীমা আছে, আর 3+ পাওয়া 90% এসেছে এমন শিক্ষার্থীদের কাছ থেকে, যাঁরা নিজেরা বেছে একটি ঐচ্ছিক পরীক্ষায় বসেছিলেন।"
     },
     {
-      "text": "21",
-      "of": "8cf297ec",
+      "text": "27",
+      "of": "8af294c6",
       "at": [
-        "cannon:transcript.stats[0].value",
-        "davidson-day:transcript.stats[0].value"
+        "cannon:transcript.stats[0].value"
       ],
-      "t": "21"
+      "t": "27"
     },
     {
-      "text": "advanced courses — 13 AP plus 8 school-designed Advanced Topics",
-      "of": "2d6ed55a",
+      "text": "advanced courses — AP plus school-designed Advanced Topics, the school’s own count",
+      "of": "2e22730a",
       "at": [
         "cannon:transcript.stats[0].label"
       ],
-      "t": "উচ্চতর কোর্স — 13টি AP, সঙ্গে স্কুলের নিজের বানানো 8টি Advanced Topics"
+      "t": "উচ্চতর কোর্স — AP, সঙ্গে স্কুলের নিজের বানানো Advanced Topics, স্কুলের নিজের গণনা"
     },
     {
-      "text": "92%",
-      "of": "decf5375",
+      "text": "90%",
+      "of": "cacab6cb",
       "at": [
         "cannon:transcript.stats[1].value"
       ],
-      "t": "92%"
+      "t": "90%"
     },
     {
-      "text": "of AP exams scored 3+ (425 exams, 197 students, Class of 2025)",
-      "of": "ccae58b8",
+      "text": "of students scored 3+ (446 exams, 195 students, May 2026)",
+      "of": "50a5f677",
       "at": [
         "cannon:transcript.stats[1].label"
       ],
-      "t": "AP পরীক্ষার এই অংশে স্কোর 3+ (425টি পরীক্ষা, 197 জন শিক্ষার্থী, Class of 2025)"
+      "t": "শিক্ষার্থী স্কোর 3+ পেয়েছেন (446টি পরীক্ষা, 195 জন শিক্ষার্থী, মে 2026)"
     },
     {
-      "text": "0 / 1 / 4 / 6",
-      "of": "4a8cf813",
+      "text": "0 / 1 / 5 / 6",
+      "of": "803f3ff0",
       "at": [
         "cannon:transcript.stats[2].value"
       ],
-      "t": "0 / 1 / 4 / 6"
+      "t": "0 / 1 / 5 / 6"
     },
     {
       "text": "published max AP/AT courses in grades 9 / 10 / 11 / 12",
@@ -7299,20 +7242,20 @@
       "t": "“Cannon School শিক্ষার্থীদের র‍্যাঙ্ক করে না”"
     },
     {
-      "text": "The ceiling is **AP Calculus BC / AP Statistics** — there is no published post-BC course, no multivariable calculus and no linear algebra. An “AT: Calculus with Applications” listed in 2024–25 has disappeared from the 2025–26 table.",
-      "of": "cc9c72a4",
+      "text": "The ceiling is now **AT: Mathematics & Calculus**, which the 2026–27 Course Catalog describes as a seminar for students who have completed AP Calculus BC. AP Precalculus also appears. No multivariable calculus or linear algebra course is published by name.",
+      "of": "b91bd594",
       "at": [
         "cannon:transcript.depth[0].text"
       ],
-      "t": "সর্বোচ্চ ধাপ **AP Calculus BC / AP Statistics** — BC-র পরে প্রকাশিত কোনো কোর্স নেই, multivariable calculus নেই, linear algebra-ও নেই। 2024–25-এ তালিকাভুক্ত একটি “AT: Calculus with Applications” 2025–26-এর তালিকা থেকে উধাও।"
+      "t": "সর্বোচ্চ ধাপ এখন **AT: Mathematics & Calculus**, যাকে 2026–27 Course Catalog বর্ণনা করে AP Calculus BC শেষ করা শিক্ষার্থীদের জন্য একটি সেমিনার হিসেবে। AP Precalculus-ও আছে। multivariable calculus বা linear algebra-র কোনো কোর্স নাম ধরে প্রকাশিত নয়।"
     },
     {
-      "text": "**AP Computer Science only**, with no post-AP course and no data structures — thin relative to the rest of the advanced catalogue.",
-      "of": "5864a8f7",
+      "text": "**AP Computer Science plus AT: Principles of Computer Science & Coding**, still with no data-structures or post-AP course — thin relative to the rest of the advanced catalogue.",
+      "of": "c6595043",
       "at": [
         "cannon:transcript.depth[1].text"
       ],
-      "t": "**কেবল AP Computer Science**, post-AP কোনো কোর্স নেই, data structures-ও নেই — বাকি উচ্চতর কোর্স-তালিকার তুলনায় দুর্বল।"
+      "t": "**AP Computer Science, সঙ্গে AT: Principles of Computer Science & Coding**, এখনও data-structures বা post-AP কোনো কোর্স নেই — বাকি উচ্চতর কোর্স-তালিকার তুলনায় দুর্বল।"
     },
     {
       "text": "Advanced Topics",
@@ -7323,12 +7266,12 @@
       "t": "Advanced Topics"
     },
     {
-      "text": "Eight **school-designed AT courses** sit alongside the APs and carry the same 1.0 quality point, several with no corresponding College Board exam at all — for example AT: Design Thinking for Entrepreneurship.",
-      "of": "e16357db",
+      "text": "**School-designed AT courses** sit alongside the APs and carry the same 1.0 quality point, several with no corresponding College Board exam at all — for example AT: Design Thinking for Entrepreneurship.",
+      "of": "4b448316",
       "at": [
         "cannon:transcript.depth[2].text"
       ],
-      "t": "AP-গুলোর পাশাপাশি আছে **স্কুলের নিজের বানানো আটটি AT কোর্স**, যেগুলোতেও একই 1.0 quality point যোগ হয়, আর কয়েকটির তো College Board-এর কোনো সংশ্লিষ্ট পরীক্ষাই নেই — যেমন AT: Design Thinking for Entrepreneurship।"
+      "t": "AP-গুলোর পাশাপাশি আছে **স্কুলের নিজের বানানো AT কোর্স**, যেগুলোতেও একই 1.0 quality point যোগ হয়, আর কয়েকটির তো College Board-এর কোনো সংশ্লিষ্ট পরীক্ষাই নেই — যেমন AT: Design Thinking for Entrepreneurship।"
     },
     {
       "text": "No Global Online Academy membership and no dual-enrolment partnership is published — this was checked specifically.",
@@ -7339,6 +7282,22 @@
       "t": "Global Online Academy-র কোনো সদস্যপদ বা dual-enrolment অংশীদারিত্বের কথা প্রকাশিত নয় — এটি আলাদা করে যাচাই করা হয়েছে।"
     },
     {
+      "text": "Before and after the school year",
+      "of": "f5819c53",
+      "at": [
+        "cannon:transcript.depth[4].label"
+      ],
+      "t": "শিক্ষাবর্ষের আগে ও পরে"
+    },
+    {
+      "text": "**Zero Hour** runs Varsity Chorus and Varsity Orchestra, pass/fail, on Monday, Wednesday and Friday before school. **Summer Term** offers Geometry Acceleration pass/fail, and Honors Biology and Honors Chemistry for a grade; summer courses are designated as Summer Term on the transcript, and BIOREX is not offered in the summer section.",
+      "of": "36a1abca",
+      "at": [
+        "cannon:transcript.depth[4].text"
+      ],
+      "t": "**Zero Hour**-এ Varsity Chorus ও Varsity Orchestra চলে, pass/fail ভিত্তিতে, সোমবার, বুধবার ও শুক্রবার স্কুল শুরুর আগে। **Summer Term**-এ আছে pass/fail ভিত্তিতে Geometry Acceleration, আর গ্রেডসহ Honors Biology ও Honors Chemistry; গ্রীষ্মের কোর্সগুলো ট্রান্সক্রিপ্টে Summer Term হিসেবে চিহ্নিত হয়, এবং গ্রীষ্মের সেকশনে BIOREX দেওয়া হয় না।"
+    },
+    {
       "text": "Weighted narrowly, and deliberately",
       "of": "2bdd2a2f",
       "at": [
@@ -7347,12 +7306,12 @@
       "t": "সরু হারে ওয়েটেড, এবং তা ইচ্ছাকৃত"
     },
     {
-      "text": "AT and AP courses carry **1.0 quality point; Honors and Honors Accelerated are not weighted at all**. Both weighted and unweighted GPAs are calculated from Cannon coursework only.",
-      "of": "820bd3ed",
+      "text": "Three tiers: AT and AP courses carry **1.0 quality point**, **Honors Accelerated 0.5** (new for 2026–27), and Honors **none at all**. Both weighted and unweighted GPAs are calculated from Cannon coursework only.",
+      "of": "bc253d9a",
       "at": [
         "cannon:transcript.trust[0].text"
       ],
-      "t": "AT ও AP কোর্সে যোগ হয় **1.0 quality point; Honors ও Honors Accelerated-এ কোনো ওয়েটিংই নেই**। ওয়েটেড ও আনওয়েটেড দুটি GPA-ই কেবল Cannon-এ করা কোর্সের ভিত্তিতে হিসাব করা হয়।"
+      "t": "তিনটি স্তর: AT ও AP কোর্সে যোগ হয় **1.0 quality point**, **Honors Accelerated-এ 0.5** (2026–27 থেকে নতুন), আর Honors-এ **কিছুই নয়**। ওয়েটেড ও আনওয়েটেড দুটি GPA-ই কেবল Cannon-এ করা কোর্সের ভিত্তিতে হিসাব করা হয়।"
     },
     {
       "text": "No rank, and a modest ceiling",
@@ -7363,12 +7322,12 @@
       "t": "র‍্যাঙ্ক নেই, আর সর্বোচ্চ সীমাও মাঝারি"
     },
     {
-      "text": "No rank, no decile or quintile table — but the narrow weighting plus the eleven-course cap means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.",
-      "of": "ea6b9a84",
+      "text": "No rank, no decile or quintile table — but the narrow weighting plus the twelve-course cap means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.",
+      "of": "e56f3690",
       "at": [
         "cannon:transcript.trust[1].text"
       ],
-      "t": "র‍্যাঙ্ক নেই, decile বা quintile কোনো তালিকাও নেই — তবে সরু ওয়েটিং আর এগারো কোর্সের সীমা মিলিয়ে ওয়েটেড শীর্ষ দশমাংশ থামে মোটামুটি **4.28**-এ। Cannon স্ফীত 4.9 GPA তৈরি করে না, আর ভারী ওয়েটিং-ব্যবস্থায় অভ্যস্ত পাঠকের জন্য এই প্রেক্ষাপটটি দরকার।"
+      "t": "র‍্যাঙ্ক নেই, decile বা quintile কোনো তালিকাও নেই — তবে সরু ওয়েটিং আর বারো কোর্সের সীমা মিলিয়ে ওয়েটেড শীর্ষ দশমাংশ থামে মোটামুটি **4.28**-এ। Cannon স্ফীত 4.9 GPA তৈরি করে না, আর ভারী ওয়েটিং-ব্যবস্থায় অভ্যস্ত পাঠকের জন্য এই প্রেক্ষাপটটি দরকার।"
     },
     {
       "text": "A per-discipline rigour key",
@@ -7387,20 +7346,20 @@
       "t": "প্রোফাইলের কোর্স-তালিকায় মোটা হরফের এন্ট্রিগুলো “ওই বিষয়ে উপযুক্ত শ্রেণি-স্তর অনুযায়ী সবচেয়ে কঠিন কোর্স” বোঝায়, ফলে পাঠক আন্দাজ না করে বিষয় ধরে ধরে সর্বোচ্চ ধাপটি দেখতে পান।"
     },
     {
-      "text": "AP exams are OPTIONAL — “students in AT/AP classes have the option of sitting for the appropriate AP exam”. The 92.39% scoring 3+ therefore rests on a self-selected pool and is not directly comparable with schools that mandate the exam. The 197-student denominator is also undefined: it most likely means all Upper School exam takers rather than members of the 111-person graduating class.",
-      "of": "8ca091b6",
+      "text": "AP exams are OPTIONAL — “students in AT/AP classes have the option of sitting for the appropriate AP exam”. The 90.16% scoring 3+ therefore rests on a self-selected pool and is not directly comparable with schools that mandate the exam. The denominator is also undefined: the profile labels the figure “Students with Scores 3+” while giving both 195 students and 446 exams, so whether it is a share of students or of exams is not stated.",
+      "of": "79cf33d6",
       "at": [
         "cannon:transcript.flags[0].text"
       ],
-      "t": "AP পরীক্ষা ঐচ্ছিক — “AT/AP ক্লাসের শিক্ষার্থীরা সংশ্লিষ্ট AP পরীক্ষায় বসার সুযোগ পান”। তাই 3+ পাওয়া 92.39% দাঁড়িয়ে আছে এমন একটি দলের ওপর, যাঁরা নিজেরা বেছে বসেছেন; যেসব স্কুলে পরীক্ষা বাধ্যতামূলক, তাদের সঙ্গে এটি সরাসরি তুলনীয় নয়। 197 জনের ভিত্তিটিরও সংজ্ঞা নেই: সম্ভবত এর মানে Upper School-এর সব পরীক্ষার্থী, 111 জনের স্নাতক ব্যাচের সদস্যরা নন।"
+      "t": "AP পরীক্ষা ঐচ্ছিক — “AT/AP ক্লাসের শিক্ষার্থীরা সংশ্লিষ্ট AP পরীক্ষায় বসার সুযোগ পান”। তাই 3+ পাওয়া 90.16% দাঁড়িয়ে আছে এমন একটি দলের ওপর, যাঁরা নিজেরা বেছে বসেছেন; যেসব স্কুলে পরীক্ষা বাধ্যতামূলক, তাদের সঙ্গে এটি সরাসরি তুলনীয় নয়। ভিত্তিটিরও সংজ্ঞা নেই: প্রোফাইল সংখ্যাটির নাম দেয় “Students with Scores 3+”, অথচ একই সঙ্গে 195 জন শিক্ষার্থী ও 446টি পরীক্ষা দুটিই দেয়, তাই এটি শিক্ষার্থীর অংশ নাকি পরীক্ষার অংশ, তা বলা নেই।"
     },
     {
-      "text": "No National Merit ledger of any kind is published — no Semifinalist, Finalist or Commended counts in any year, on either profile or in news posts. Repeated searches surfaced only a 2011 item naming a single Scholar. AP Scholar counts and the share scoring 4–5 are likewise unpublished; Cannon reports only the 3+ threshold.",
-      "of": "6229f48a",
+      "text": "No National Merit ledger of any kind is published — no Semifinalist, Finalist or Commended counts in any year, on any profile or in news posts. Repeated searches surfaced only a 2011 item naming a single Scholar. AP Scholar counts and the share scoring 4–5 are likewise unpublished; Cannon reports only the 3+ threshold.",
+      "of": "9be392cf",
       "at": [
         "cannon:transcript.flags[1].text"
       ],
-      "t": "কোনো ধরনের National Merit হিসাবই প্রকাশ করা হয় না — কোনো বছরেই Semifinalist, Finalist বা Commended-এর সংখ্যা নেই, প্রোফাইলেও নয়, সংবাদ-পোস্টেও নয়। বারবার খুঁজে কেবল 2011 সালের একটি খবর মিলেছে, যেখানে একজন Scholar-এর নাম আছে। AP Scholar-এর সংখ্যা এবং 4–5 পাওয়ার অংশও একইভাবে অপ্রকাশিত; Cannon কেবল 3+ সীমাটিই জানায়।"
+      "t": "কোনো ধরনের National Merit হিসাবই প্রকাশ করা হয় না — কোনো বছরেই Semifinalist, Finalist বা Commended-এর সংখ্যা নেই, কোনো প্রোফাইলেও নয়, সংবাদ-পোস্টেও নয়। বারবার খুঁজে কেবল 2011 সালের একটি খবর মিলেছে, যেখানে একজন Scholar-এর নাম আছে। AP Scholar-এর সংখ্যা এবং 4–5 পাওয়ার অংশও একইভাবে অপ্রকাশিত; Cannon কেবল 3+ সীমাটিই জানায়।"
     },
     {
       "text": "Cannon promises something structural that most schools do not: a student keeps the same college counselor for all four years, rather than being handed off in junior year.",
@@ -7411,28 +7370,28 @@
       "t": "বেশির ভাগ স্কুল যা দেয় না, Cannon কাঠামোগতভাবে তেমন একটি প্রতিশ্রুতি দেয়: junior বর্ষে হাতবদল না হয়ে একজন শিক্ষার্থী চার বছরই একই কলেজ কাউন্সেলর পান।"
     },
     {
-      "text": "Five staff, zero turnover across two published profiles, and a co-director model — plus the regional case-studies programme it physically hosts.",
-      "of": "11d06341",
+      "text": "Five staff, the same four directors across three published profiles, and a co-director model — plus the regional case-studies programme it physically hosts.",
+      "of": "2916cd3e",
       "at": [
         "cannon:counseling.subhead"
       ],
-      "t": "পাঁচজন কর্মী, প্রকাশিত দুটি প্রোফাইল জুড়ে কারও বদল হয়নি, আর আছে যুগ্ম-পরিচালকের ব্যবস্থা — সেই সঙ্গে আঞ্চলিক case-studies কর্মসূচি, যার আয়োজন হয় এই স্কুলেই।"
+      "t": "পাঁচজন কর্মী, প্রকাশিত তিনটি প্রোফাইল জুড়ে একই চারজন পরিচালক, আর আছে যুগ্ম-পরিচালকের ব্যবস্থা — সেই সঙ্গে আঞ্চলিক case-studies কর্মসূচি, যার আয়োজন হয় এই স্কুলেই।"
     },
     {
-      "text": "28:1",
-      "of": "2d11b212",
+      "text": "~26:1",
+      "of": "c381bb6c",
       "at": [
         "cannon:counseling.stats[0].value"
       ],
-      "t": "28:1"
+      "t": "~26:1"
     },
     {
-      "text": "the school’s published ratio — reachable only counting seniors",
-      "of": "730f391c",
+      "text": "seniors per counselor — computed, 105 seniors ÷ 4 (Class of 2026)",
+      "of": "4760b9f6",
       "at": [
         "cannon:counseling.stats[0].label"
       ],
-      "t": "স্কুলের প্রকাশিত অনুপাত — কেবল senior গুনলেই যা মেলে"
+      "t": "প্রতি কাউন্সেলরে senior — হিসাব করা, 105 জন senior ÷ 4 (Class of 2026)"
     },
     {
       "text": "staff — two co-directors, two associates, one coordinator",
@@ -7476,20 +7435,12 @@
       "t": "Co-Director"
     },
     {
-      "text": "Cannon runs an unusual shared top role rather than a single director.",
-      "of": "baaf1b88",
-      "at": [
-        "cannon:counseling.roster[0].detail"
-      ],
-      "t": "Cannon একজন পরিচালকের বদলে অস্বাভাবিকভাবে শীর্ষ পদটি ভাগ করে নেওয়ার ব্যবস্থা চালায়।"
-    },
-    {
-      "text": "The roster is identical across the 2024–25 and 2025–26 profiles.",
-      "of": "f13e1905",
+      "text": "The four directors are unchanged across the 2024–25, 2025–26 and 2026–27 profiles.",
+      "of": "d02a421d",
       "at": [
         "cannon:counseling.roster[1].detail"
       ],
-      "t": "2024–25 ও 2025–26 প্রোফাইলে কর্মীদের তালিকা হুবহু একই।"
+      "t": "2024–25, 2025–26 ও 2026–27 প্রোফাইলে চারজন পরিচালক অপরিবর্তিত।"
     },
     {
       "text": "Coordinator",
@@ -7500,12 +7451,12 @@
       "t": "Coordinator"
     },
     {
-      "text": "Zero turnover across at least two years is itself a stability signal.",
-      "of": "83b18546",
+      "text": "Named on the 2026–27 profile, succeeding Clay Morrell.",
+      "of": "3a89d2b9",
       "at": [
         "cannon:counseling.roster[4].detail"
       ],
-      "t": "অন্তত দুই বছর ধরে কারও বদল না হওয়া নিজেই স্থিতিশীলতার একটি ইঙ্গিত।"
+      "t": "2026–27 প্রোফাইলে নাম আছে, Clay Morrell-এর স্থলাভিষিক্ত।"
     },
     {
       "text": "The published programme — parent-facing, by grade",
@@ -7637,44 +7588,12 @@
       "t": "SCOIR · প্রতি বছর হালনাগাদ হওয়া একটি School Profile · CEEB 340879"
     },
     {
-      "text": "The marketed “28:1 ratio” only works as seniors per counselor (111 ÷ 4). Measured across the 423-student Upper School it is nearer 106:1, and the school never states the denominator — so 28:1 should not be read as a whole-Upper-School caseload.",
-      "of": "875f62ab",
-      "at": [
-        "cannon:counseling.flags[0].text"
-      ],
-      "t": "প্রচারিত “28:1 অনুপাত” কেবল তখনই মেলে, যখন কাউন্সেলরপ্রতি senior ধরা হয় (111 ÷ 4)। 423 জনের গোটা Upper School ধরে মাপলে এটি বরং 106:1-এর কাছাকাছি, আর স্কুল কখনও ভিত্তিটি কী তা বলে না — তাই 28:1-কে গোটা Upper School-এর কাজের চাপ হিসেবে পড়া উচিত নয়।"
-    },
-    {
-      "text": "No counselor tenure, prior background, degrees or biographies are published — names and titles only, so director tenure is unknown. Neither rep-visit counts nor counselor campus-visit counts are published in any form. Note that Davidson Day’s published “80+ reps a year” belongs to Davidson Day, not Cannon.",
-      "of": "ffff1c52",
-      "at": [
-        "cannon:counseling.flags[1].text"
-      ],
-      "t": "কোনো কাউন্সেলরের কর্মকাল, আগের পটভূমি, ডিগ্রি বা পরিচিতি প্রকাশিত নয় — কেবল নাম আর পদবি, ফলে পরিচালকের কর্মকাল অজানা। প্রতিনিধিদের আসার সংখ্যা বা কাউন্সেলরদের ক্যাম্পাস পরিদর্শনের সংখ্যাও কোনোভাবেই প্রকাশিত নয়। লক্ষণীয়, Davidson Day-র প্রকাশিত “বছরে 80+ প্রতিনিধি” সংখ্যাটি Davidson Day-র, Cannon-এর নয়।"
-    },
-    {
-      "text": "The student-facing curriculum is unpublished: seminar cadence, one-on-one meeting counts, essay workshops and junior conference timing appear nowhere. Cannon publishes what it invites parents to, not what it does with students. A four-year self-exploration strand described in the 2024–25 profile was cut from the 2025–26 edition without explanation.",
-      "of": "e467f352",
-      "at": [
-        "cannon:counseling.flags[2].text"
-      ],
-      "t": "শিক্ষার্থীমুখী পাঠক্রমটি অপ্রকাশিত: সেমিনারের ছন্দ, এক-এক বৈঠকের সংখ্যা, প্রবন্ধ-কর্মশালা ও junior সম্মেলনের সময় — কোথাও কিছুই নেই। Cannon প্রকাশ করে অভিভাবকদের কীসে আমন্ত্রণ জানানো হয়, শিক্ষার্থীদের সঙ্গে তারা আসলে কী করে তা নয়। 2024–25 প্রোফাইলে বর্ণিত চার বছরের একটি আত্ম-অন্বেষণ ধারা 2025–26 সংস্করণ থেকে কোনো ব্যাখ্যা ছাড়াই বাদ দেওয়া হয়েছে।"
-    },
-    {
-      "text": "Cannon publishes what most schools here do not — an actual matriculation list. 58 institutions enrolled a Class of 2023 graduate, including Stanford, Duke, Penn, UCLA and the Air Force Academy.",
-      "of": "7f0c0b3b",
+      "text": "Cannon’s college acceptance list spans the Classes of 2022 through 2026 — 352 colleges, with Class of 2023 enrollments in bold.",
+      "of": "c8eb6a21",
       "at": [
         "cannon:outcomes.headline"
       ],
-      "t": "এখানকার বেশির ভাগ স্কুল যা করে না, Cannon তা প্রকাশ করে — প্রকৃত ভর্তির একটি তালিকা। 58টি প্রতিষ্ঠানে Class of 2023-এর গ্র্যাজুয়েট ভর্তি হয়েছেন, যার মধ্যে আছে Stanford, Duke, Penn, UCLA ও Air Force Academy।"
-    },
-    {
-      "text": "That list is far stronger evidence than the acceptance rollup beside it, which aggregates three graduating classes and has not been refreshed since the Class of 2024.",
-      "of": "16b5926b",
-      "at": [
-        "cannon:outcomes.subhead"
-      ],
-      "t": "পাশের ভর্তি-সুযোগের সংকলনটির চেয়ে ওই তালিকাটি অনেক বেশি শক্ত সাক্ষ্য; কারণ সংকলনটি তিনটি স্নাতক ব্যাচ একসঙ্গে জড়ো করে, আর Class of 2024-এর পর তা আর হালনাগাদ হয়নি।"
+      "t": "Cannon-এর কলেজ ভর্তি-সুযোগের তালিকা Class of 2022 থেকে 2026 পর্যন্ত বিস্তৃত — 352টি কলেজ, Class of 2023-এর ভর্তিগুলো bold-এ।"
     },
     {
       "text": "98%",
@@ -7685,12 +7604,12 @@
       "t": "98%"
     },
     {
-      "text": "of the Class of 2025 to four-year colleges · 2% to two-year",
-      "of": "0b4d5f9d",
+      "text": "of the Class of 2026 to four-year colleges · 2% to two-year",
+      "of": "ca5034fe",
       "at": [
         "cannon:outcomes.stats[0].label"
       ],
-      "t": "Class of 2025-এর এই অংশ চার বছরের কলেজে · 2% দুই বছরের কলেজে"
+      "t": "Class of 2026-এর এই অংশ চার বছরের কলেজে · 2% দুই বছরের কলেজে"
     },
     {
       "text": "58",
@@ -7709,61 +7628,60 @@
       "t": "যত প্রতিষ্ঠানে Class of 2023-এর শিক্ষার্থী সত্যিই ভর্তি হয়েছেন"
     },
     {
-      "text": "111",
-      "of": "6c361b12",
+      "text": "105",
+      "of": "6433cfe3",
       "at": [
         "cannon:outcomes.stats[2].value"
       ],
-      "t": "111"
+      "t": "105"
     },
     {
-      "text": "graduating seniors — the second largest class in school history",
-      "of": "6fed819a",
+      "text": "graduating seniors, Class of 2026",
+      "of": "d753719f",
       "at": [
         "cannon:outcomes.stats[2].label"
       ],
-      "t": "স্নাতক হওয়া senior — স্কুলের ইতিহাসে দ্বিতীয় বৃহত্তম ব্যাচ"
+      "t": "স্নাতক হওয়া senior, Class of 2026"
     },
     {
-      "text": "3 of 8",
-      "of": "7871e757",
+      "text": "7 of 8",
+      "of": "1f5e1f33",
       "at": [
-        "cannon:outcomes.stats[3].value",
-        "davidson-day:outcomes.stats[2].value"
+        "cannon:outcomes.stats[3].value"
       ],
-      "t": "8-এ 3"
+      "t": "7-এ 8"
     },
     {
-      "text": "Ivy League on the 2022–24 acceptance list",
-      "of": "95cf5b88",
+      "text": "Ivy League on the 2022–26 acceptance list",
+      "of": "21cf5466",
       "at": [
         "cannon:outcomes.stats[3].label"
       ],
-      "t": "2022–24 ভর্তি-তালিকায় থাকা Ivy League"
+      "t": "2022–26 ভর্তি-তালিকায় থাকা Ivy League"
     },
     {
-      "text": "— Brown, Cornell, Penn; absent Harvard, Yale, Princeton, Dartmouth, Columbia",
-      "of": "df664fde",
+      "text": "— Brown, Columbia, Cornell, Dartmouth, Penn, Princeton, Yale; absent Harvard",
+      "of": "d866c60c",
       "at": [
         "cannon:outcomes.buckets[0].note"
       ],
-      "t": "— Brown, Cornell, Penn; নেই Harvard, Yale, Princeton, Dartmouth, Columbia"
+      "t": "— Brown, Columbia, Cornell, Dartmouth, Penn, Princeton, Yale; নেই Harvard"
     },
     {
-      "text": "Every acceptance, 2022–2024",
-      "of": "282170e2",
+      "text": "Every acceptance, 2022–2026",
+      "of": "26216dbc",
       "at": [
         "cannon:outcomes.collegesTitle"
       ],
-      "t": "প্রতিটি ভর্তির সুযোগ, 2022–2024"
+      "t": "প্রতিটি ভর্তির সুযোগ, 2022–2026"
     },
     {
-      "text": "283 institutions · bold = a Class of 2023 student enrolled",
-      "of": "c66168f9",
+      "text": "352 institutions · bold = a Class of 2023 student enrolled",
+      "of": "1448a3f2",
       "at": [
         "cannon:outcomes.collegesTotal"
       ],
-      "t": "283টি প্রতিষ্ঠান · মোটা হরফ = Class of 2023-এর শিক্ষার্থী ভর্তি হয়েছেন"
+      "t": "352টি প্রতিষ্ঠান · মোটা হরফ = Class of 2023-এর শিক্ষার্থী ভর্তি হয়েছেন"
     },
     {
       "text": "No merit-scholarship total published",
@@ -7790,20 +7708,20 @@
       "t": "U.S. Air Force Academy-তে ভর্তি (Class of 2023)"
     },
     {
-      "text": "Cum Laude Society chapter since 2005",
-      "of": "2a9be9e5",
+      "text": "National Honor Society chapter awarded in 2025",
+      "of": "78db0336",
       "at": [
         "cannon:outcomes.scholarships[3]"
       ],
-      "t": "2005 সাল থেকে Cum Laude Society-র শাখা"
+      "t": "2025 সালে অনুমোদিত National Honor Society-র শাখা"
     },
     {
-      "text": "This is Cannon’s single largest outcome-data gap. No merit-scholarship dollar figure appears on either profile or in any news post, and no current Morehead-Cain, Park, QuestBridge or ROTC outcome is published. Cannon does publish $3,000,000 in tuition assistance to 24% of its students — but that is the school’s own inbound financial aid, not college merit money, and the two must not be conflated.",
-      "of": "58da0157",
+      "text": "U.S. Naval Academy and Coast Guard Academy acceptances (2024–26)",
+      "of": "ba9a3bc1",
       "at": [
-        "cannon:outcomes.scholarshipsNote"
+        "cannon:outcomes.scholarships[4]"
       ],
-      "t": "ফলাফলের তথ্যে Cannon-এর সবচেয়ে বড় ফাঁক এটিই। কোনো প্রোফাইলে বা কোনো সংবাদ-পোস্টে মেধাবৃত্তির ডলার-অঙ্ক নেই, আর Morehead-Cain, Park, QuestBridge বা ROTC-র কোনো বর্তমান ফলও প্রকাশিত নয়। Cannon অবশ্য জানায় যে তারা নিজেদের 24% শিক্ষার্থীকে $3,000,000 টিউশন-সহায়তা দেয় — কিন্তু সেটি স্কুলের নিজের দেওয়া আর্থিক সহায়তা, কলেজের মেধা-অর্থ নয়, আর দুটিকে মিলিয়ে ফেলা চলবে না।"
+      "t": "U.S. Naval Academy ও Coast Guard Academy-তে ভর্তি-সুযোগ (2024–26)"
     },
     {
       "text": "Cannon’s differentiator is a set of course-embedded research experiences that end in a public defence — including one judged by an external committee of science professionals and business leaders.",
@@ -7886,12 +7804,12 @@
       "t": "**সততার ইঙ্গিত** — দপ্তর “যেসব কলেজ ও বিশ্ববিদ্যালয় এই তথ্য চায়, তাদের স্নাতক হওয়া পর্যন্ত স্কুল-বহির্ভূত suspension ও expulsion জানায়”: চাইলে-জানাব ধরনের এই অবস্থান বর্তমান NACAC রীতির সঙ্গে সংগতিপূর্ণ।"
     },
     {
-      "text": "**Institutional memberships** — NACAC, SACAC and **ACCIS**, alongside a **Cum Laude Society** chapter awarded in 2005 and membership of the **Independent Curriculum Group**, which is what makes the school-designed AT tier and the optional-exam stance coherent rather than idiosyncratic.",
-      "of": "0d4b554d",
+      "text": "**Institutional memberships** — **SAIS** accreditation; NAIS, NCAIS, CSEE, **ACCIS**, NACAC and SACAC; and a **National Honor Society** chapter awarded in 2025.",
+      "of": "d1d52762",
       "at": [
         "cannon:edge.levers[1].items[2]"
       ],
-      "t": "**প্রাতিষ্ঠানিক সদস্যপদ** — NACAC, SACAC ও **ACCIS**, সঙ্গে 2005 সালে পাওয়া একটি **Cum Laude Society** শাখা এবং **Independent Curriculum Group**-এর সদস্যপদ; এই শেষেরটিই স্কুলের নিজের বানানো AT স্তর ও পরীক্ষা ঐচ্ছিক রাখার অবস্থানকে খেয়ালখুশি নয়, বরং সংগতিপূর্ণ করে তোলে।"
+      "t": "**প্রাতিষ্ঠানিক সদস্যপদ** — **SAIS** স্বীকৃতি; NAIS, NCAIS, CSEE, **ACCIS**, NACAC ও SACAC; এবং 2025 সালে অনুমোদিত একটি **National Honor Society** শাখা।"
     },
     {
       "text": "**Hosting regional admissions traffic** — Cannon is the venue for the Lake Norman case-studies programme and fair, pulling visiting admissions officers onto its own campus at regional scale rather than only sending students out.",
@@ -7910,37 +7828,37 @@
       "t": "Cannon দুটি পরীক্ষা ও দুটি GPA — চারটিরই শীর্ষ-10% ও মধ্যবর্তী-50% পরিসর প্রকাশ করে, যা সত্যিই কাজের একটি চিত্র দেয়, তবে তা পার্সেন্টাইলের আকারে নয়।"
     },
     {
-      "text": "The most informative figure is the unweighted middle 50% of 3.57–3.94: the median Cannon student sits in the high-B-plus to A-minus range before any weighting.",
-      "of": "e5db129f",
+      "text": "The most informative figure is the unweighted middle 50% of 3.76–3.94: the median Cannon student sits in the A-minus range before any weighting.",
+      "of": "3d52e969",
       "at": [
         "cannon:wholeClass.subhead"
       ],
-      "t": "সবচেয়ে তথ্যবহুল সংখ্যাটি হলো আনওয়েটেড মধ্যবর্তী 50%: 3.57–3.94 — অর্থাৎ কোনো ওয়েটিংয়ের আগেই Cannon-এর মধ্যমমানের শিক্ষার্থী আছেন উঁচু B-প্লাস থেকে A-মাইনাসের ঘরে।"
+      "t": "সবচেয়ে তথ্যবহুল সংখ্যাটি হলো আনওয়েটেড মধ্যবর্তী 50%: 3.76–3.94 — অর্থাৎ কোনো ওয়েটিংয়ের আগেই Cannon-এর মধ্যমমানের শিক্ষার্থী আছেন A-মাইনাসের ঘরে।"
     },
     {
-      "text": "— Class of 2025 · number of testers not published",
-      "of": "306a6ea7",
+      "text": "— Class of 2026 · number of testers not published",
+      "of": "581b5982",
       "at": [
         "cannon:wholeClass.scoreTables[0].hint",
         "cannon:wholeClass.scoreTables[1].hint"
       ],
-      "t": "— Class of 2025 · পরীক্ষার্থীর সংখ্যা প্রকাশিত নয়"
+      "t": "— Class of 2026 · পরীক্ষার্থীর সংখ্যা প্রকাশিত নয়"
     },
     {
-      "text": "Cannon publishes a middle-50% band and a top-10% band only. The middle-50% endpoints conventionally ARE the 25th and 75th percentiles, so those columns are real; the top-10% figure is shown in the 90th column as the floor of that band (1470–1590). No mean, median, section subscores, or tester counts are published for either test.",
-      "of": "e702ee38",
+      "text": "Cannon publishes a middle-50% band and a top-10% band only. The middle-50% endpoints conventionally ARE the 25th and 75th percentiles, so those columns are real; the top-10% figure is shown in the 90th column as the floor of that band (1510–1560). No mean, median, section subscores, or tester counts are published for either test.",
+      "of": "e7c7d080",
       "at": [
         "cannon:wholeClass.scoreTables[0].note"
       ],
-      "t": "Cannon কেবল একটি মধ্যবর্তী-50% ও একটি শীর্ষ-10% পরিসর প্রকাশ করে। মধ্যবর্তী 50%-এর দুই প্রান্ত প্রচলিতভাবে আসলে 25তম ও 75তম পার্সেন্টাইল, তাই ওই কলামগুলো সত্যিকারের; শীর্ষ-10% সংখ্যাটি 90তম কলামে ওই পরিসরের সর্বনিম্ন মান হিসেবে দেখানো হয়েছে (1470–1590)। কোনো পরীক্ষার জন্যই গড়, মধ্যক, অংশভিত্তিক স্কোর বা পরীক্ষার্থীর সংখ্যা প্রকাশিত নয়।"
+      "t": "Cannon কেবল একটি মধ্যবর্তী-50% ও একটি শীর্ষ-10% পরিসর প্রকাশ করে। মধ্যবর্তী 50%-এর দুই প্রান্ত প্রচলিতভাবে আসলে 25তম ও 75তম পার্সেন্টাইল, তাই ওই কলামগুলো সত্যিকারের; শীর্ষ-10% সংখ্যাটি 90তম কলামে ওই পরিসরের সর্বনিম্ন মান হিসেবে দেখানো হয়েছে (1510–1560)। কোনো পরীক্ষার জন্যই গড়, মধ্যক, অংশভিত্তিক স্কোর বা পরীক্ষার্থীর সংখ্যা প্রকাশিত নয়।"
     },
     {
-      "text": "Same reporting format: the 90th column shows the floor of the published top-10% band (33–36). Without a tester count there is no way to tell what share of 111 seniors sat either exam, which materially limits how far these bands can be read.",
-      "of": "231e50b4",
+      "text": "Same reporting format: the 90th column shows the floor of the published top-10% band (33–36). Without a tester count there is no way to tell what share of 105 seniors sat either exam, which materially limits how far these bands can be read.",
+      "of": "70f8b4f5",
       "at": [
         "cannon:wholeClass.scoreTables[1].note"
       ],
-      "t": "একই প্রকাশ-পদ্ধতি: 90তম কলামে দেখানো হয়েছে প্রকাশিত শীর্ষ-10% পরিসরের সর্বনিম্ন মান (33–36)। পরীক্ষার্থীর সংখ্যা ছাড়া 111 জন senior-এর কত অংশ কোন পরীক্ষায় বসেছেন তা বোঝার উপায় নেই, যা এই পরিসরগুলো কতদূর পড়া যায় তার ওপর বড় সীমা টেনে দেয়।"
+      "t": "একই প্রকাশ-পদ্ধতি: 90তম কলামে দেখানো হয়েছে প্রকাশিত শীর্ষ-10% পরিসরের সর্বনিম্ন মান (33–36)। পরীক্ষার্থীর সংখ্যা ছাড়া 105 জন senior-এর কত অংশ কোন পরীক্ষায় বসেছেন তা বোঝার উপায় নেই, যা এই পরিসরগুলো কতদূর পড়া যায় তার ওপর বড় সীমা টেনে দেয়।"
     },
     {
       "text": "GPA distribution",
@@ -7952,12 +7870,12 @@
       "t": "GPA-র বণ্টন"
     },
     {
-      "text": "— Class of 2025, cumulative through grade 11 · transfers excluded",
-      "of": "0b5cfa59",
+      "text": "— Class of 2026, cumulative through grade 11 · transfers excluded",
+      "of": "09b4ce54",
       "at": [
         "cannon:wholeClass.gpaHint"
       ],
-      "t": "— Class of 2025, গ্রেড 11 পর্যন্ত ক্রমযোজিত · অন্য স্কুল থেকে আসা শিক্ষার্থীরা বাদ"
+      "t": "— Class of 2026, গ্রেড 11 পর্যন্ত ক্রমযোজিত · অন্য স্কুল থেকে আসা শিক্ষার্থীরা বাদ"
     },
     {
       "text": "Weighted · top 10%",
@@ -8000,12 +7918,12 @@
       "t": "আনওয়েটেড · শীর্ষ 10%"
     },
     {
-      "text": "effectively straight A’s",
-      "of": "03d41f42",
+      "text": "A-range",
+      "of": "f7a03e08",
       "at": [
         "cannon:wholeClass.quintiles[2].detail"
       ],
-      "t": "কার্যত সবগুলোই A"
+      "t": "A-র ঘর"
     },
     {
       "text": "Unweighted · mid 50%",
@@ -8016,20 +7934,20 @@
       "t": "আনওয়েটেড · মধ্যবর্তী 50%"
     },
     {
-      "text": "high B+ to A− before weighting",
-      "of": "17d6a84b",
+      "text": "A− range before weighting",
+      "of": "2d6cb28a",
       "at": [
         "cannon:wholeClass.quintiles[3].detail"
       ],
-      "t": "ওয়েটিংয়ের আগে উঁচু B+ থেকে A−"
+      "t": "ওয়েটিংয়ের আগে A−-এর ঘর"
     },
     {
-      "text": "These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the eleven-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes.",
-      "of": "fbfbb7cb",
+      "text": "These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the twelve-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11), and the profile does not explain the overlap.",
+      "of": "6a51904a",
       "at": [
         "cannon:wholeClass.gpaNote"
       ],
-      "t": "এগুলো পরিসর, quintile তালিকা নয় — পূর্ণ কোনো quintile বা decile বিভাজন, মধ্যক GPA, কিংবা প্রতিটি ধাপে কতজন শিক্ষার্থী তা প্রকাশিত নয়। ওয়েটেড সর্বোচ্চ সীমাটি মাঝারি হওয়ার কারণ সরাসরি 1.0 quality point-এর সীমা এবং এগারো কোর্সের AP/AT সর্বোচ্চ সংখ্যা — যা Cannon-এর পক্ষে স্বচ্ছতার একটি দিক, তবে ভারী ওয়েটিং-ব্যবস্থায় অভ্যস্ত পাঠকের জন্য এর প্রেক্ষাপট দরকার।"
+      "t": "এগুলো পরিসর, quintile তালিকা নয় — পূর্ণ কোনো quintile বা decile বিভাজন, মধ্যক GPA, কিংবা প্রতিটি ধাপে কতজন শিক্ষার্থী তা প্রকাশিত নয়। ওয়েটেড সর্বোচ্চ সীমাটি মাঝারি হওয়ার কারণ সরাসরি 1.0 quality point-এর সীমা এবং বারো কোর্সের AP/AT সর্বোচ্চ সংখ্যা — যা Cannon-এর পক্ষে স্বচ্ছতার একটি দিক, তবে ভারী ওয়েটিং-ব্যবস্থায় অভ্যস্ত পাঠকের জন্য এর প্রেক্ষাপট দরকার। ছাপা অবস্থায়, ওয়েটেড শীর্ষ-10% পরিসর (4.08 থেকে) মধ্যবর্তী 50%-এর ওপরের প্রান্তের (4.11) নিচে শুরু হয়, আর প্রোফাইল এই অধিক্রমণের ব্যাখ্যা দেয় না।"
     },
     {
       "text": "Two named Upper School learning-support staff",
@@ -8040,12 +7958,12 @@
       "t": "Upper School-এ নাম উল্লেখ করা দুজন শেখার সহায়তা কর্মী"
     },
     {
-      "text": "**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 423 Upper School students, and among the best-documented learning support in this set.",
-      "of": "67f48bf3",
+      "text": "**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 421 Upper School students, and among the best-documented learning support in this set.",
+      "of": "9418d3e1",
       "at": [
         "cannon:wholeClass.support[0].text"
       ],
-      "t": "**Michelle Donah**, Upper School-এর learning specialist, এবং **Jennifer Ridenhour**, Upper School-এর Dean of Academic Support — 423 জন Upper School শিক্ষার্থীর জন্য উল্লেখযোগ্য জনবল, আর এই দলের মধ্যে শেখার সহায়তার সবচেয়ে ভালোভাবে নথিভুক্ত ব্যবস্থাগুলোর একটি।"
+      "t": "**Michelle Donah**, Upper School-এর learning specialist, এবং **Jennifer Ridenhour**, Upper School-এর Dean of Academic Support — 421 জন Upper School শিক্ষার্থীর জন্য উল্লেখযোগ্য জনবল, আর এই দলের মধ্যে শেখার সহায়তার সবচেয়ে ভালোভাবে নথিভুক্ত ব্যবস্থাগুলোর একটি।"
     },
     {
       "text": "The student owns the plan",
@@ -8096,12 +8014,12 @@
       "t": "তালিকাটি সততার সঙ্গেই ছাপা হয়েছে"
     },
     {
-      "text": "The acceptance list runs from MIT, Stanford and Bowdoin down through Rowan-Cabarrus, Cape Fear and Central Piedmont community colleges, Brevard, Barton, Catawba, Mars Hill, Wingate, Limestone, Methodist, Gardner-Webb, Guilford, Lenoir-Rhyne and Coker. A school optimising for prestige would omit these; Cannon prints them, and discloses its 2% two-year figure rather than burying it.",
-      "of": "3c021e49",
+      "text": "The acceptance list runs from MIT, Caltech, Stanford, Princeton and Yale down through Rowan-Cabarrus, Cape Fear, Central Piedmont and Davidson-Davie community colleges, Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke and USC Beaufort. A school optimising for prestige would omit these; Cannon prints them, and discloses its 2% two-year figure rather than burying it.",
+      "of": "b0bc2d40",
       "at": [
         "cannon:wholeClass.middle[0].text"
       ],
-      "t": "ভর্তি-তালিকাটি MIT, Stanford ও Bowdoin থেকে নেমে Rowan-Cabarrus, Cape Fear ও Central Piedmont কমিউনিটি কলেজ, Brevard, Barton, Catawba, Mars Hill, Wingate, Limestone, Methodist, Gardner-Webb, Guilford, Lenoir-Rhyne ও Coker পর্যন্ত যায়। খ্যাতির হিসাব কষা কোনো স্কুল এগুলো বাদ দিত; Cannon ছাপে, আর 2% দুই বছরের কলেজের সংখ্যাটিও চেপে না রেখে জানিয়ে দেয়।"
+      "t": "ভর্তি-তালিকাটি MIT, Caltech, Stanford, Princeton ও Yale থেকে নেমে Rowan-Cabarrus, Cape Fear, Central Piedmont ও Davidson-Davie কমিউনিটি কলেজ, Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke ও USC Beaufort পর্যন্ত যায়। খ্যাতির হিসাব কষা কোনো স্কুল এগুলো বাদ দিত; Cannon ছাপে, আর 2% দুই বছরের কলেজের সংখ্যাটিও চেপে না রেখে জানিয়ে দেয়।"
     },
     {
       "text": "A design-weighted arts pathway",
@@ -8128,28 +8046,12 @@
       "t": "প্রচলিত ধারার বাইরের অন্যান্য গন্তব্য"
     },
     {
-      "text": "International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, University College Dublin, McGill, Toronto); service academies and the military (Air Force Academy, The Citadel, VMI); technical institutes (Rose-Hulman, WPI, Stevens, Colorado School of Mines, RPI); HBCUs (Howard, Spelman, NC A&T, NC Central, Winston-Salem State).",
-      "of": "95c88b8f",
+      "text": "International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal and Western); service academies and the military (the Air Force, Naval and Coast Guard academies, The Citadel and VMI); technical institutes (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT and Embry-Riddle); HBCUs (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State and Winston-Salem State).",
+      "of": "e00702d5",
       "at": [
         "cannon:wholeClass.middle[2].text"
       ],
-      "t": "আন্তর্জাতিক বিশ্ববিদ্যালয় (St Andrews, Edinburgh, Aberdeen — 2023-এ একটি ভর্তি নিশ্চিত, University College Dublin, McGill, Toronto); সার্ভিস অ্যাকাডেমি ও সামরিক প্রতিষ্ঠান (Air Force Academy, The Citadel, VMI); কারিগরি প্রতিষ্ঠান (Rose-Hulman, WPI, Stevens, Colorado School of Mines, RPI); HBCU (Howard, Spelman, NC A&T, NC Central, Winston-Salem State)।"
-    },
-    {
-      "text": "All four GPA bands are identical to the hundredth across the Class of 2024 and Class of 2025 tables. An exact four-band match across two different cohorts is statistically unlikely, so this may be carried-forward data rather than a genuinely stable distribution.",
-      "of": "c2eb7795",
-      "at": [
-        "cannon:wholeClass.flags[0].text"
-      ],
-      "t": "Class of 2024 ও Class of 2025-এর তালিকায় চারটি GPA পরিসরই শতাংশের ঘর পর্যন্ত হুবহু এক। দুটি আলাদা দলের ক্ষেত্রে চারটি পরিসরেরই নিখুঁত মিল পরিসংখ্যানগতভাবে অসম্ভবপ্রায়, তাই এটি সত্যিকারের স্থিতিশীল বণ্টন না হয়ে আগের তথ্য টেনে আনার ফলও হতে পারে।"
-    },
-    {
-      "text": "No gap-year statistic, policy or counselling service is described anywhere — and since 98% four-year plus 2% two-year accounts for the whole class, the published outcomes leave no room for a gap-year cohort at all.",
-      "of": "ce6f345e",
-      "at": [
-        "cannon:wholeClass.flags[1].text"
-      ],
-      "t": "gap year নিয়ে কোনো পরিসংখ্যান, নীতি বা পরামর্শসেবার বর্ণনা কোথাও নেই — আর যেহেতু 98% চার বছরের ও 2% দুই বছরের কলেজ মিলিয়ে গোটা ব্যাচেরই হিসাব হয়ে যায়, প্রকাশিত ফলাফলে gap year নেওয়া কোনো দলের জন্য জায়গাই থাকে না।"
+      "t": "আন্তর্জাতিক বিশ্ববিদ্যালয় (St Andrews, Edinburgh, Aberdeen — 2023-এ একটি ভর্তি নিশ্চিত, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal ও Western); সার্ভিস অ্যাকাডেমি ও সামরিক প্রতিষ্ঠান (Air Force, Naval ও Coast Guard অ্যাকাডেমি, The Citadel ও VMI); কারিগরি প্রতিষ্ঠান (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT ও Embry-Riddle); HBCU (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State ও Winston-Salem State)।"
     },
     {
       "text": "A stable, structurally honest programme — four-year counselor continuity, a published load ceiling, real research defences, and a genuine matriculation list — wrapped in thinner outcome disclosure than its larger peers.",
@@ -8176,12 +8078,12 @@
       "t": "চার বছর একই কাউন্সেলর, লিখিতভাবে বলা"
     },
     {
-      "text": "students keep the same college counselor for their whole Upper School career rather than being handed off in junior year — and the five-person roster shows zero turnover across two published profiles.",
-      "of": "f5a523a3",
+      "text": "students keep the same college counselor for their whole Upper School career rather than being handed off in junior year — and the roster shows the same four directors across three published profiles (only the coordinator changed).",
+      "of": "839853dc",
       "at": [
         "cannon:verdict.points[0].text"
       ],
-      "t": "junior বর্ষে হাতবদল না হয়ে শিক্ষার্থীরা Upper School-এর গোটা সময়টায় একই কলেজ কাউন্সেলর পান — আর প্রকাশিত দুটি প্রোফাইল জুড়ে পাঁচজনের দলে কারও বদল হয়নি।"
+      "t": "junior বর্ষে হাতবদল না হয়ে শিক্ষার্থীরা Upper School-এর গোটা সময়টায় একই কলেজ কাউন্সেলর পান — আর প্রকাশিত তিনটি প্রোফাইল জুড়ে দলে একই চারজন পরিচালক (কেবল সমন্বয়কারী বদলেছেন)।"
     },
     {
       "text": "The rigour ceiling is disclosed, not implied",
@@ -8192,12 +8094,12 @@
       "t": "কঠোরতার সীমাটি ইঙ্গিতে নয়, প্রকাশ করে বলা"
     },
     {
-      "text": "a published maximum of 0/1/4/6 AP or AT courses by grade caps a transcript at eleven, so colleges read “most rigorous” against a limit the school itself states.",
-      "of": "81be17f7",
+      "text": "a published maximum of 0/1/5/6 AP or AT courses by grade caps a transcript at twelve, so colleges read “most rigorous” against a limit the school itself states.",
+      "of": "69d961d4",
       "at": [
         "cannon:verdict.points[1].text"
       ],
-      "t": "শ্রেণি ধরে ধরে প্রকাশিত সর্বোচ্চ 0/1/4/6টি AP বা AT কোর্স একটি ট্রান্সক্রিপ্টকে এগারোতে বেঁধে রাখে, ফলে কলেজগুলো “most rigorous”-কে স্কুলের নিজের বলা সীমার সাপেক্ষেই পড়ে।"
+      "t": "শ্রেণি ধরে ধরে প্রকাশিত সর্বোচ্চ 0/1/5/6টি AP বা AT কোর্স একটি ট্রান্সক্রিপ্টকে বারোতে বেঁধে রাখে, ফলে কলেজগুলো “most rigorous”-কে স্কুলের নিজের বলা সীমার সাপেক্ষেই পড়ে।"
     },
     {
       "text": "Research experiences with real external judging",
@@ -8224,12 +8126,12 @@
       "t": "এটি প্রকৃত ভর্তির একটি তালিকা প্রকাশ করে"
     },
     {
-      "text": "58 institutions where a Class of 2023 graduate genuinely enrolled — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any acceptance rollup.",
-      "of": "ef683f5b",
+      "text": "58 institutions where a Class of 2023 graduate genuinely enrolled — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any acceptance rollup — and the acceptance list beside it now runs 2022–2026.",
+      "of": "0eb78f24",
       "at": [
         "cannon:verdict.points[3].text"
       ],
-      "t": "58টি প্রতিষ্ঠান, যেখানে Class of 2023-এর গ্র্যাজুয়েট সত্যিই ভর্তি হয়েছেন — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary ও Air Force Academy। ভর্তি-সুযোগের যেকোনো সংকলনের চেয়ে এটি শক্ত সাক্ষ্য।"
+      "t": "58টি প্রতিষ্ঠান, যেখানে Class of 2023-এর গ্র্যাজুয়েট সত্যিই ভর্তি হয়েছেন — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary ও Air Force Academy। ভর্তি-সুযোগের যেকোনো সংকলনের চেয়ে এটি শক্ত সাক্ষ্য — আর পাশের ভর্তি-সুযোগের তালিকাটি এখন 2022–2026 জুড়ে।"
     },
     {
       "text": "Learning support is named and reaches the application",
@@ -8256,28 +8158,28 @@
       "t": "গ্রেড স্ফীত করা হয় না"
     },
     {
-      "text": "Honors courses carry no weight at all and only AT/AP add a point, so the weighted top decile tops out near 4.28 rather than in the high 4s.",
-      "of": "c4a346e1",
+      "text": "Honors courses carry no weight, Honors Accelerated adds half a point and only AT/AP add a full point, so the weighted top decile tops out at 4.28.",
+      "of": "ba434a07",
       "at": [
         "cannon:verdict.points[5].text"
       ],
-      "t": "Honors কোর্সে কোনো ওয়েটিংই নেই, কেবল AT/AP একটি পয়েন্ট যোগ করে, ফলে ওয়েটেড শীর্ষ দশমাংশ 4-এর ঘরের ওপরের দিকে না উঠে থামে 4.28-এর কাছাকাছি।"
+      "t": "Honors কোর্সে কোনো ওয়েটিং নেই, Honors Accelerated আধা পয়েন্ট যোগ করে আর কেবল AT/AP পূর্ণ একটি পয়েন্ট যোগ করে, ফলে ওয়েটেড শীর্ষ দশমাংশ থামে 4.28-এ।"
     },
     {
-      "text": "The 2025–26 profile dropped the acceptance list entirely, so the newest is a 2022–24 rollup. Where did the Classes of 2025 and 2026 actually enroll?",
-      "of": "c563e01e",
+      "text": "The newest acceptance list covers 2024–26, but the newest matriculation list is the Class of 2023. Where did the Classes of 2024–2026 actually enroll?",
+      "of": "7cfe9e1e",
       "at": [
         "cannon:verdict.checklist[0]"
       ],
-      "t": "2025–26 প্রোফাইল ভর্তি-সুযোগের তালিকাটি পুরোপুরি বাদ দিয়েছে, তাই সবচেয়ে নতুন যা আছে তা 2022–24-এর একটি সংকলন। Classes of 2025 ও 2026 আসলে কোথায় ভর্তি হয়েছেন?"
+      "t": "সবচেয়ে নতুন ভর্তি-সুযোগের তালিকা 2024–26-এর, কিন্তু সবচেয়ে নতুন ভর্তির তালিকা Class of 2023-এর। Classes of 2024 থেকে 2026 আসলে কোথায় ভর্তি হয়েছেন?"
     },
     {
-      "text": "Your 28:1 ratio only works counting seniors — what is the actual caseload per counselor across all four Upper School grades?",
-      "of": "7303878b",
+      "text": "With 105 seniors and four counselors, what is the actual caseload per counselor across all four Upper School grades?",
+      "of": "7ce30b93",
       "at": [
         "cannon:verdict.checklist[1]"
       ],
-      "t": "আপনাদের 28:1 অনুপাত কেবল senior গুনলেই মেলে — Upper School-এর চারটি শ্রেণি মিলিয়ে প্রতি কাউন্সেলরের প্রকৃত দায়িত্ব কতজনের?"
+      "t": "105 জন senior আর চারজন কাউন্সেলর নিয়ে, Upper School-এর চারটি শ্রেণি মিলিয়ে প্রতি কাউন্সেলরের প্রকৃত দায়িত্ব কতজনের?"
     },
     {
       "text": "Has Cannon had any National Merit Semifinalists, Finalists or Commended Students in recent years? Nothing is published in any year.",
@@ -8288,12 +8190,12 @@
       "t": "সাম্প্রতিক বছরগুলোতে Cannon-এ কি কোনো National Merit Semifinalist, Finalist বা Commended Student ছিলেন? কোনো বছরেরই কিছু প্রকাশিত নয়।"
     },
     {
-      "text": "AP exams are optional here. What share of students in AP and AT courses actually sit the exam, and what share scored 4 or 5 rather than just 3+?",
-      "of": "6053963b",
+      "text": "AP exams are optional here. What share of students in AP and AT courses actually sit the exam, what share scored 4 or 5 rather than just 3+ — and does the 90.16% count students or exams?",
+      "of": "6b1c8dae",
       "at": [
         "cannon:verdict.checklist[3]"
       ],
-      "t": "এখানে AP পরীক্ষা ঐচ্ছিক। AP ও AT কোর্সের কত অংশ শিক্ষার্থী আসলে পরীক্ষায় বসেন, আর কেবল 3+ নয়, কত অংশ 4 বা 5 পেয়েছেন?"
+      "t": "এখানে AP পরীক্ষা ঐচ্ছিক। AP ও AT কোর্সের কত অংশ শিক্ষার্থী আসলে পরীক্ষায় বসেন, কেবল 3+ নয়, কত অংশ 4 বা 5 পেয়েছেন — আর 90.16% কি শিক্ষার্থী গোনে, নাকি পরীক্ষা?"
     },
     {
       "text": "What were the total merit-scholarship offers for the last graduating class? No dollar figure is published anywhere.",
@@ -8312,12 +8214,12 @@
       "t": "আপনাদের 2024–25 প্রোফাইল test-optional নীতির কারণে Class of 2025-এর পরীক্ষার স্কোর জানাতে চায়নি, অথচ 2025–26 প্রোফাইল সেই একই ব্যাচের স্কোর প্রকাশ করেছে। কী বদলাল?"
     },
     {
-      "text": "The GPA bands are identical to the hundredth across two different classes — is that a genuinely stable distribution, or carried-forward data?",
-      "of": "fd653db2",
+      "text": "As printed, the Class of 2026 weighted top-10% band (4.08–4.28) overlaps the middle 50% (3.93–4.11). How is the top 10% defined?",
+      "of": "1891b25c",
       "at": [
         "cannon:verdict.checklist[6]"
       ],
-      "t": "দুটি আলাদা ব্যাচে GPA-র পরিসরগুলো শতাংশের ঘর পর্যন্ত হুবহু এক — এটি কি সত্যিই স্থিতিশীল একটি বণ্টন, নাকি আগের তথ্য টেনে আনা?"
+      "t": "ছাপা অবস্থায়, Class of 2026-এর ওয়েটেড শীর্ষ-10% পরিসর (4.08–4.28) মধ্যবর্তী 50%-এর (3.93–4.11) সঙ্গে অধিক্রমণ করে। শীর্ষ 10%-এর সংজ্ঞা কী?"
     },
     {
       "text": "What does the student-facing counseling curriculum look like grade by grade — how many one-on-one meetings, and when do essays start?",
@@ -9615,6 +9517,14 @@
       "t": "পরীক্ষার স্কোর যে কাজটি করত, School Profile সেটিই করে: পূর্ণ quality-point তালিকা, Honors-এ +0.5 / AP-তে +1.0, র‍্যাঙ্ক না দেওয়ার ঘোষিত নীতি, এবং তিন-বিন্দুর একটি GPA বণ্টন, যা 2.49-এর সর্বনিম্ন মানটিও জানিয়ে দেয়।"
     },
     {
+      "text": "21",
+      "of": "8cf297ec",
+      "at": [
+        "davidson-day:transcript.stats[0].value"
+      ],
+      "t": "21"
+    },
+    {
       "text": "AP courses offered in 2025–26 (derived count — the school publishes no total)",
       "of": "98954270",
       "at": [
@@ -10093,6 +10003,14 @@
         "davidson-day:outcomes.stats[1].label"
       ],
       "t": "53 জন গ্র্যাজুয়েটের জন্য ভর্তির সুযোগ · 35টি আলাদা কলেজ বেছে নেওয়া হয়েছে"
+    },
+    {
+      "text": "3 of 8",
+      "of": "7871e757",
+      "at": [
+        "davidson-day:outcomes.stats[2].value"
+      ],
+      "t": "8-এ 3"
     },
     {
       "text": "Ivy League on the five-year list — absent Columbia, Harvard, Penn, Princeton, Yale",
@@ -12113,12 +12031,12 @@
       "t": "Director of Counseling"
     },
     {
-      "text": "Listed as \"Guidance Counselor\" on the Fall 2023 profile and \"Director of Counseling\" on Fall 2025 — the lead college-counseling contact (traceybennett@hgchristian.org).",
-      "of": "3e360dfa",
+      "text": "Listed as \"Guidance Counselor\" on the Fall 2023 profile and \"Director of Counseling\" on Fall 2025 — the lead college-counseling contact.",
+      "of": "583563e3",
       "at": [
         "hickory-grove-christian:counseling.roster[0].detail"
       ],
-      "t": "Fall 2023 প্রোফাইলে \"Guidance Counselor\" এবং Fall 2025-এ \"Director of Counseling\" হিসেবে উল্লেখ — কলেজ-counseling-এর প্রধান যোগাযোগ (traceybennett@hgchristian.org)।"
+      "t": "Fall 2023 প্রোফাইলে \"Guidance Counselor\" এবং Fall 2025-এ \"Director of Counseling\" হিসেবে উল্লেখ — কলেজ-counseling-এর প্রধান যোগাযোগ।"
     },
     {
       "text": "Administrator for Student Services",
@@ -12129,12 +12047,12 @@
       "t": "Administrator for Student Services"
     },
     {
-      "text": "Oversees student services alongside the counseling office (mildredsimilton@hgchristian.org).",
-      "of": "065e8a9f",
+      "text": "Oversees student services alongside the counseling office.",
+      "of": "2301f1f8",
       "at": [
         "hickory-grove-christian:counseling.roster[1].detail"
       ],
-      "t": "counseling দপ্তরের পাশাপাশি student services তদারক করেন (mildredsimilton@hgchristian.org)।"
+      "t": "counseling দপ্তরের পাশাপাশি student services তদারক করেন।"
     },
     {
       "text": "What the guidance office publishes",
@@ -14154,12 +14072,12 @@
       "t": "ভর্তির-সুযোগের বিস্তারটি সত্যিকারের"
     },
     {
-      "text": "**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 23 top-75 liberal arts colleges — wide range for classes of ~35.",
-      "of": "05ffeafc",
+      "text": "**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.",
+      "of": "62411d69",
       "at": [
         "gaston-day:verdict.points[4].text"
       ],
-      "t": "**231টি প্রতিষ্ঠান**, যার মধ্যে আছে Yale, Stanford, Dartmouth, Duke, Johns Hopkins ও Georgetown, সঙ্গে top-75-এর 23টি liberal arts কলেজ — ~35 জনের ব্যাচের তুলনায় বিস্তৃত পরিসর।"
+      "t": "**231টি প্রতিষ্ঠান**, যার মধ্যে আছে Yale, Stanford, Dartmouth, Duke, Johns Hopkins ও Georgetown, সঙ্গে top-75-এর 24টি liberal arts কলেজ — ~35 জনের ব্যাচের তুলনায় বিস্তৃত পরিসর।"
     },
     {
       "text": "The money is disclosed",
