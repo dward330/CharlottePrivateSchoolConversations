@@ -3,6 +3,907 @@
   "lang": "fa",
   "strings": [
     {
+      "t": "Learning Support Program مدرسهٔ Cannon «به دانش‌آموزانی که تفاوت‌های یادگیریِ تشخیص‌داده‌شده دارند کمک می‌کند یادگیرندگانی موفق و مدافعانی مطمئن برای نیازهای خود شوند»، و از Junior Kindergarten تا پایهٔ دوازدهم در هر بخش یک متخصص یادگیری دارد.",
+      "of": "b6dea18a",
+      "at": [
+        "cannon:lead.strong"
+      ]
+    },
+    {
+      "t": "مدرسه هیچ هزینه‌ای برای پشتیبانی یادگیری منتشر نمی‌کند.",
+      "of": "70699aac",
+      "at": [
+        "cannon:lead.muted"
+      ]
+    },
+    {
+      "t": "تحت پوشش برنامه",
+      "of": "1cbb93d6",
+      "at": [
+        "cannon:stats[0].label"
+      ]
+    },
+    {
+      "t": "از Junior Kindergarten تا پایهٔ دوازدهم، در Lower School، Middle School و Upper School",
+      "of": "1d6d8339",
+      "at": [
+        "cannon:stats[0].note"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری و رئیس بخش",
+      "of": "e2a0d2a5",
+      "at": [
+        "cannon:stats[1].label"
+      ]
+    },
+    {
+      "t": "یکی در Lower School، یکی در Middle School، دو نفر در Upper School",
+      "of": "77e7210b",
+      "at": [
+        "cannon:stats[1].note"
+      ]
+    },
+    {
+      "t": "دانش‌آموز Upper School از ARC استفاده کردند",
+      "of": "bc17bed3",
+      "at": [
+        "cannon:stats[2].label"
+      ]
+    },
+    {
+      "t": "«سال گذشته»، به گفتهٔ گزارش مدرسه دربارهٔ افتتاح Hudson ARC در 31 اوت",
+      "of": "cf0d9078",
+      "at": [
+        "cannon:stats[2].note"
+      ]
+    },
+    {
+      "t": "مشاور مدرسه",
+      "of": "83d116a4",
+      "at": [
+        "cannon:stats[3].label"
+      ]
+    },
+    {
+      "t": "از Junior Kindergarten تا پایهٔ دوازدهم، در Student Support Team",
+      "of": "cdc6b432",
+      "at": [
+        "cannon:stats[3].note"
+      ]
+    },
+    {
+      "t": "پشتیبانی یادگیری برای دانش‌آموزان ثبت‌نام‌شدهٔ Cannon است که تفاوت یادگیریِ تشخیص‌داده‌شده‌ای دارند و یک ارزیابی روانی‌آموزشیِ تازه آن را مستند کرده است.",
+      "of": "a70169ad",
+      "at": [
+        "cannon:eligibility.headline"
+      ]
+    },
+    {
+      "t": "این سیاست الزام می‌کند که دانش‌آموز «باید دانش‌آموز فعلیِ ثبت‌نام‌شده در Cannon School باشد»، والدین «درخواستی برای خدمات Learning Support تکمیل کنند»، «سابقهٔ دشواری تحصیلی» وجود داشته باشد، و تفاوت یادگیری «در یک ارزیابی رسمی روانی‌آموزشیِ تازه (در 3 سال اخیر) توسط یک متخصص دارای گواهی تشخیص داده و مستند شده باشد» که «توسط یک روان‌شناس بالینی دارای مجوز» انجام شده باشد.",
+      "of": "adfe40d1",
+      "at": [
+        "cannon:eligibility.eligible"
+      ]
+    },
+    {
+      "t": "صفحه‌های مدرسه به برنامه‌های 504 یا IEP اشاره نمی‌کنند. تسهیلات به مدرک نیاز دارند: «هیچ تسهیلاتی ارائه نخواهد شد مگر اینکه اطلاع‌رسانی همراه با مدارک مناسب به مدرسه انجام شده باشد»، و «هیچ برنامهٔ یادگیری رسمی بدون یک ارزیابی کامل روانی‌آموزشی تدوین نخواهد شد». فرم درخواست می‌پرسد دانش‌آموز در گذشته چه تسهیلاتی داشته است.",
+      "of": "d83454dd",
+      "at": [
+        "cannon:eligibility.plan"
+      ]
+    },
+    {
+      "t": "«پذیرش یک دانش‌آموز در Cannon School به این معنا نیست که مدرسه مسئولیت همهٔ نیازهای ویژهٔ یادگیری کودک را بر عهده می‌گیرد، به‌ویژه هنگامی که چنین نیازهایی ممکن است مستلزم اصلاح/تغییر برنامهٔ درسی مدرسه باشند یا هنگامی که نیازهای کودک فراتر از منابع کنونی Cannon باشد.»",
+      "of": "907c47b3",
+      "at": [
+        "cannon:eligibility.scope"
+      ]
+    },
+    {
+      "t": "برای آسیب شنوایی، گفتار/زبان یا بینایی بدون ارزیابی کامل، تسهیلات «به‌صورت موردی بررسی خواهد شد».",
+      "of": "5a871f3d",
+      "at": [
+        "cannon:eligibility.note"
+      ]
+    },
+    {
+      "t": "هر خدمتی که صفحه‌های مدرسه شرح می‌دهند، گروه‌بندی‌شده و کدگذاری‌شده بر اساس اینکه چه کسی آن را ارائه می‌دهد. Cannon برای هیچ‌یک هزینه‌ای منتشر نمی‌کند. نیاز فرزندتان را انتخاب کنید تا ببینید چه چیزی مربوط است.",
+      "of": "e7c96dbc",
+      "at": [
+        "cannon:services.headline"
+      ]
+    },
+    {
+      "t": "یک متخصص مداخلهٔ خواندن در Lower School و برنامه‌های یادگیری که متخصصان تدوین می‌کنند. هیچ روش خواندنی نام برده نشده است.",
+      "of": "2ac70f56",
+      "at": [
+        "cannon:services.verdicts.read.head"
+      ]
+    },
+    {
+      "t": "متخصص مداخلهٔ خواندن «ممکن است آموزش در گروه‌های کوچک ارائه دهد که برای جبران کمبودهای مهارتیِ مشخص طراحی شده است». بپرسید از چه رویکردی برای خواندن استفاده می‌شود و پشتیبانی خواندن پس از پایهٔ چهارم چگونه است.",
+      "of": "6b94c6ee",
+      "at": [
+        "cannon:services.verdicts.read.body"
+      ]
+    },
+    {
+      "t": "مربی‌گری فردی کارکردهای اجرایی در Middle School و Upper School.",
+      "of": "0e7ab250",
+      "at": [
+        "cannon:services.verdicts.attn.head"
+      ]
+    },
+    {
+      "t": "Academic Coaches در Upper School «در یک محیط رابطه‌محورِ یک‌به‌یک» روی «برنامه‌ریزی، سازمان‌دهی، شروع کار، انعطاف‌پذیری، توجه، خویشتن‌داری، فراشناخت و موارد دیگر» کار می‌کنند.",
+      "of": "02ee6371",
+      "at": [
+        "cannon:services.verdicts.attn.body"
+      ]
+    },
+    {
+      "t": "Math Lab با هدایت همسالان در Upper School. هیچ مداخلهٔ ویژهٔ ریاضی نام برده نشده است.",
+      "of": "2574b402",
+      "at": [
+        "cannon:services.verdicts.math.head"
+      ]
+    },
+    {
+      "t": "در Math Lab، «مربیان و معلمان همراه با یادگیرندگان مفاهیم دشوار را جزءبه‌جزء باز می‌کنند». مدرسه مداخله‌ای در ریاضی پیش از Upper School شرح نمی‌دهد.",
+      "of": "282fc3de",
+      "at": [
+        "cannon:services.verdicts.math.body"
+      ]
+    },
+    {
+      "t": "از طریق ارجاع. روی یک ارائه‌دهندهٔ بیرونی حساب کنید.",
+      "of": "c1e67792",
+      "at": [
+        "cannon:services.verdicts.speech.head"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری Lower School «به خانواده‌ها راهنمایی می‌کند تا منابع بیرونی، مانند گفتاردرمانگر یا معلم خصوصی، پیدا کنند».",
+      "of": "31cae7e2",
+      "at": [
+        "cannon:services.verdicts.speech.body"
+      ]
+    },
+    {
+      "t": "منتشر نشده است. روی یک ارائه‌دهندهٔ بیرونی حساب کنید.",
+      "of": "59549707",
+      "at": [
+        "cannon:services.verdicts.motor.head",
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ]
+    },
+    {
+      "t": "نه کاردرمانی و نه فیزیوتراپی در سایت مدرسه دیده نمی‌شود.",
+      "of": "97fecae0",
+      "at": [
+        "cannon:services.verdicts.motor.body",
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ]
+    },
+    {
+      "t": "پنج مشاور، مشاورهٔ کوتاه‌مدت ارائه می‌دهند و برای درمان بلندمدت به بیرون ارجاع می‌دهند.",
+      "of": "e493d5a1",
+      "at": [
+        "cannon:services.verdicts.social.head"
+      ]
+    },
+    {
+      "t": "مشاوران Lower School «جلسه‌های مشاورهٔ فردیِ کوتاه‌مدت» و «ارجاع به منابع محلی (از جمله خدمات درمانی بلندمدت)» ارائه می‌دهند.",
+      "of": "5ec707f7",
+      "at": [
+        "cannon:services.verdicts.social.body"
+      ]
+    },
+    {
+      "t": "غنی‌سازی خواندن در Lower School و مسیری از درس‌های پیشرفته در Upper School.",
+      "of": "0f0379a9",
+      "at": [
+        "cannon:services.verdicts.gifted.head"
+      ]
+    },
+    {
+      "t": "متخصص مداخلهٔ خواندن «ممکن است غنی‌سازی تحصیلیِ هدفمند ارائه دهد»؛ Upper School درس‌های Honors Accelerated، AP و AT و یک Independent Study Program ارائه می‌دهد. هیچ برنامهٔ رسمی برای دانش‌آموزان تیزهوش شرح داده نشده است.",
+      "of": "3b6931be",
+      "at": [
+        "cannon:services.verdicts.gifted.body"
+      ]
+    },
+    {
+      "t": "پشتیبانی یادگیری و تحصیلی",
+      "of": "b050d84b",
+      "at": [
+        "cannon:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ]
+    },
+    {
+      "t": "معلمان متخصص",
+      "of": "04298f91",
+      "at": [
+        "cannon:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ]
+    },
+    {
+      "t": "«یک متخصص یادگیریِ اختصاصی برای هر بخش: Lower School، Middle School و Upper School.» نام چهار نفر آمده است، به‌اضافهٔ یک متخصص مداخلهٔ خواندن در Lower School.",
+      "of": "135a601a",
+      "at": [
+        "cannon:services.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "مداخله در خواندن",
+      "of": "18b7d3f0",
+      "at": [
+        "cannon:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ]
+    },
+    {
+      "t": "گروه‌های کوچک در Lower School با متخصص مداخلهٔ خواندن، «طراحی‌شده برای جبران کمبودهای مهارتیِ مشخص». هیچ روشی نام برده نشده است (برای مثال Orton-Gillingham، سوادآموزی ساختارمند).",
+      "of": "8dd7a217",
+      "at": [
+        "cannon:services.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "مداخله در ریاضی",
+      "of": "9fc9f294",
+      "at": [
+        "cannon:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ]
+    },
+    {
+      "t": "هیچ مداخلهٔ ویژهٔ ریاضی شرح داده نشده است؛ Math Lab در Upper School تدریس همسالان است.",
+      "of": "3b048950",
+      "at": [
+        "cannon:services.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "آموزش 1:1 / گروه کوچک",
+      "of": "c8ed8f2d",
+      "at": [
+        "cannon:services.groups[0].rows[3].service"
+      ]
+    },
+    {
+      "t": "خواندن در گروه‌های کوچک در Lower School؛ مربی‌گری فردی با متخصصان یادگیری Middle School و Upper School.",
+      "of": "66f4289e",
+      "at": [
+        "cannon:services.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "جلسه‌های Academic Labs (9–12)",
+      "of": "736b950c",
+      "at": [
+        "cannon:services.groups[0].rows[4].service"
+      ]
+    },
+    {
+      "t": "«تدریس همسالان با تسهیل‌گری معلمان در نگارش، ریاضی و علوم»، به‌اضافهٔ یک World Languages Lab، «که در ساعت‌ها و مکان‌های ثابت در طول روز مدرسه در دسترس است». در Middle School، کمک معلمان: «هیچ هزینه‌ای دریافت نمی‌شود.»",
+      "of": "757034b7",
+      "at": [
+        "cannon:services.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "مربی‌گری کارکردهای اجرایی",
+      "of": "7e3c07fa",
+      "at": [
+        "cannon:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ]
+    },
+    {
+      "t": "مربی‌گری تحصیلی فردی در Middle School و، در Upper School، Academic Coaches که «مهارت‌های کارکردهای اجرایی (EF)» را پرورش می‌دهند.",
+      "of": "b944a709",
+      "at": [
+        "cannon:services.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "کلاس پشتیبانی یادگیری",
+      "of": "fd470495",
+      "at": [
+        "cannon:services.groups[0].rows[6].service"
+      ]
+    },
+    {
+      "t": "هیچ درس پشتیبانی یادگیری در فهرست درس‌های 2026-2027 Upper School دیده نمی‌شود.",
+      "of": "29a87cfd",
+      "at": [
+        "cannon:services.groups[0].rows[6].detail"
+      ]
+    },
+    {
+      "t": "تسهیلات و برنامهٔ یادگیری",
+      "of": "c65478ab",
+      "at": [
+        "cannon:services.groups[0].rows[7].service"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری یک برنامهٔ یادگیری می‌نویسد که تسهیلات کلاس و آزمون را فهرست می‌کند، مانند «نشستن در جای ترجیحی، کمک در یادداشت‌برداری، وقت اضافه برای آزمون‌ها، مکان جایگزین برای ارزشیابی».",
+      "of": "94accb8c",
+      "at": [
+        "cannon:services.groups[0].rows[7].detail"
+      ]
+    },
+    {
+      "t": "آموزش ویژه‌طراحی‌شده",
+      "of": "0add9126",
+      "at": [
+        "cannon:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ]
+    },
+    {
+      "t": "شرح داده نشده است. این سیاست می‌گوید پذیرش به معنای مسئولیت در قبال نیازهایی نیست که «ممکن است مستلزم اصلاح/تغییر برنامهٔ درسی مدرسه باشند».",
+      "of": "4bf311f2",
+      "at": [
+        "cannon:services.groups[0].rows[8].detail"
+      ]
+    },
+    {
+      "t": "برنامهٔ مستقل / کلاس جداگانه",
+      "of": "2586e367",
+      "at": [
+        "cannon:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ]
+    },
+    {
+      "t": "هیچ برنامهٔ جداگانه‌ای شرح داده نشده است؛ ARC در Middle School «یادگیرندگان دارای تنوع عصبی و بدون آن» را «کنار هم» گرد می‌آورد.",
+      "of": "e2111c64",
+      "at": [
+        "cannon:services.groups[0].rows[9].detail"
+      ]
+    },
+    {
+      "t": "تیزهوش / سطح پیشرفته",
+      "of": "2de5aed3",
+      "at": [
+        "cannon:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ]
+    },
+    {
+      "t": "غنی‌سازی خواندن در Lower School؛ در Upper School، درس‌های Honors Accelerated، AP و AT و یک Independent Study Program. هیچ برنامهٔ رسمی برای تیزهوشان وجود ندارد.",
+      "of": "cb785b1f",
+      "at": [
+        "cannon:services.groups[0].rows[10].detail"
+      ]
+    },
+    {
+      "t": "مدارک لازم برای واجد شرایط بودن",
+      "of": "4702441c",
+      "at": [
+        "cannon:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ]
+    },
+    {
+      "t": "یک ارزیابی کامل روانی‌آموزشی از 3 سال اخیر، با «نتایج آزمون همراه با نمره‌های خرده‌آزمون‌ها (نمرهٔ استاندارد یا مقیاس‌شده)» و تسهیلات پیشنهادی.",
+      "of": "48d33a03",
+      "at": [
+        "cannon:services.groups[0].rows[11].detail"
+      ]
+    },
+    {
+      "t": "درمان‌ها و خدمات وابسته",
+      "of": "832d48e5",
+      "at": [
+        "cannon:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ]
+    },
+    {
+      "t": "گفتاردرمانی",
+      "of": "b37d3705",
+      "at": [
+        "cannon:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری Lower School به خانواده‌ها کمک می‌کند «منابع بیرونی، مانند گفتاردرمانگر، پیدا کنند».",
+      "of": "732b1c0e",
+      "at": [
+        "cannon:services.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "کاردرمانی",
+      "of": "e216f28e",
+      "at": [
+        "cannon:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ]
+    },
+    {
+      "t": "مدرسه آن را ذکر نکرده است.",
+      "of": "6bbf4ac9",
+      "at": [
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "فیزیوتراپی",
+      "of": "2ab8c569",
+      "at": [
+        "cannon:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ]
+    },
+    {
+      "t": "ارزیابی",
+      "of": "7f464e4f",
+      "at": [
+        "cannon:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ]
+    },
+    {
+      "t": "شناسایی زودهنگام (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "cannon:services.groups[2].rows[0].service"
+      ]
+    },
+    {
+      "t": "پشتیبانی یادگیری در JK–2 «بر شناسایی زودهنگام و مداخله‌های درون کلاس تمرکز دارد»؛ متخصص یادگیری با معلمان کار می‌کند «تا نیازهای دانش‌آموزان را ارزیابی کند».",
+      "of": "b9164064",
+      "at": [
+        "cannon:services.groups[2].rows[0].detail"
+      ]
+    },
+    {
+      "t": "تسهیلات آزمون",
+      "of": "c0f1a794",
+      "at": [
+        "cannon:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ]
+    },
+    {
+      "t": "تسهیلات آزمون بخشی از هر برنامهٔ یادگیری است. وقتی یک برنامه «دست‌کم چهار ماه» برقرار بوده باشد، متخصص یادگیری می‌تواند به خانواده‌ها در درخواست تسهیلات College Board و ACT کمک کند.",
+      "of": "066d918c",
+      "at": [
+        "cannon:services.groups[2].rows[1].detail"
+      ]
+    },
+    {
+      "t": "آزمون ورودی",
+      "of": "3e1537ff",
+      "at": [
+        "cannon:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ]
+    },
+    {
+      "t": "فهرست مدارک پذیرش «ممکن است شامل» یک Entrance Evaluation و یک Readiness Evaluation باشد.",
+      "of": "74877feb",
+      "at": [
+        "cannon:services.groups[2].rows[2].detail"
+      ]
+    },
+    {
+      "t": "ارزیابی روانی‌آموزشی",
+      "of": "69f00356",
+      "at": [
+        "cannon:services.groups[2].rows[3].service",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ]
+    },
+    {
+      "t": "خانواده‌ها آن را ارائه می‌دهند، از «یک روان‌شناس بالینی دارای مجوز». مدرسه نمی‌گوید خودش آزمون می‌گیرد و ارائه‌دهنده‌ای را نام نمی‌برد.",
+      "of": "d50808ad",
+      "at": [
+        "cannon:services.groups[2].rows[3].detail"
+      ]
+    },
+    {
+      "t": "سلامت روان و جسم",
+      "of": "92456e4a",
+      "at": [
+        "cannon:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ]
+    },
+    {
+      "t": "مشاوره و حمایت عاطفی",
+      "of": "0613b801",
+      "at": [
+        "cannon:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ]
+    },
+    {
+      "t": "پنج مشاور مدرسه درس‌های سلامت روان، پیگیری‌های منظم، «جلسه‌های مشاورهٔ فردیِ کوتاه‌مدت» و گروه‌های کوچک ارائه می‌دهند و «با همکاری متخصصان یادگیری» کار می‌کنند.",
+      "of": "8e6bc998",
+      "at": [
+        "cannon:services.groups[3].rows[0].detail"
+      ]
+    },
+    {
+      "t": "مداخلهٔ عاطفی و رفتاری",
+      "of": "a9f79269",
+      "at": [
+        "cannon:services.groups[3].rows[1].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ]
+    },
+    {
+      "t": "کمک بلندمدت از طریق ارجاع است: مشاوران «ارجاع به منابع محلی (از جمله خدمات درمانی بلندمدت)» ارائه می‌دهند.",
+      "of": "2a783fab",
+      "at": [
+        "cannon:services.groups[3].rows[1].detail"
+      ]
+    },
+    {
+      "t": "منابع کمک در بحران",
+      "of": "e074ef65",
+      "at": [
+        "cannon:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ]
+    },
+    {
+      "t": "صفحهٔ Mental Health and Crisis Resources خط Suicide and Crisis Lifeline («با 988 تماس بگیرید یا HOME را به 741741 پیامک کنید») و NC Peer Warmline را معرفی می‌کند؛ مشاوران Middle School «به دانش‌آموزانِ در بحران پشتیبانی» می‌دهند.",
+      "of": "e7218f6f",
+      "at": [
+        "cannon:services.groups[3].rows[2].detail"
+      ]
+    },
+    {
+      "t": "روان‌شناس مدرسه",
+      "of": "61585e81",
+      "at": [
+        "cannon:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ]
+    },
+    {
+      "t": "نام کسی ذکر نشده است.",
+      "of": "59c2d1bc",
+      "at": [
+        "cannon:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ]
+    },
+    {
+      "t": "پرستار مدرسه",
+      "of": "cf02f710",
+      "at": [
+        "cannon:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ]
+    },
+    {
+      "t": "در فهرست کارکنان یک Lead School Nurse و یک School Nurse آمده است.",
+      "of": "aed15d04",
+      "at": [
+        "cannon:services.groups[3].rows[4].detail"
+      ]
+    },
+    {
+      "t": "زبان",
+      "of": "9a73db9b",
+      "at": [
+        "cannon:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ]
+    },
+    {
+      "t": "ESL / پشتیبانی زبان انگلیسی",
+      "of": "ffd3df8c",
+      "at": [
+        "cannon:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان بین‌المللی از طریق یک آژانس معرفیِ تأییدشده ثبت‌نام می‌کنند؛ هیچ پشتیبانی زبان انگلیسی شرح داده نشده است.",
+      "of": "b2806197",
+      "at": [
+        "cannon:services.groups[4].rows[0].detail"
+      ]
+    },
+    {
+      "t": "گفتاردرمانی از طریق ارجاع است. سایت مدرسه هیچ کاردرمانی یا فیزیوتراپی را ذکر نمی‌کند.",
+      "of": "55cb993b",
+      "at": [
+        "cannon:therapy.headline"
+      ]
+    },
+    {
+      "t": "گفتار و زبان",
+      "of": "d9f2c22c",
+      "at": [
+        "cannon:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری به خانواده‌ها کمک می‌کند یک گفتاردرمانگر بیرونی پیدا کنند.",
+      "of": "2ed2d14a",
+      "at": [
+        "cannon:therapy.items[0].detail"
+      ]
+    },
+    {
+      "t": "کاردرمانی",
+      "of": "a971a0b7",
+      "at": [
+        "cannon:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ]
+    },
+    {
+      "t": "فیزیوتراپی",
+      "of": "d7c1ee80",
+      "at": [
+        "cannon:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ]
+    },
+    {
+      "t": "هیچ درمانگری در فهرست کارکنان مدرسه دیده نمی‌شود. بپرسید آیا یک درمانگر بیرونی می‌تواند در طول ساعات مدرسه فرزندتان را در محوطهٔ مدرسه ببیند.",
+      "of": "0a5b1bb9",
+      "at": [
+        "cannon:therapy.note"
+      ]
+    },
+    {
+      "t": "Cannon خودش آزمون تشخیصی انجام نمی‌دهد. خانواده‌ها ارزیابی تازه‌ای از یک روان‌شناس می‌آورند، و مدرسه نیازهای اولیه را در کلاس شناسایی می‌کند.",
+      "of": "842d7050",
+      "at": [
+        "cannon:testing.headline"
+      ]
+    },
+    {
+      "t": "یک ارزیابی روانی‌آموزشیِ تازه",
+      "of": "5a57c05e",
+      "at": [
+        "cannon:testing.entries[0].title"
+      ]
+    },
+    {
+      "t": "ارزیابی باید مربوط به دوره‌ای «تازه (در 3 سال اخیر)» باشد و «توسط یک روان‌شناس بالینی دارای مجوز» انجام شده باشد، همراه با «سنجش جامع شناختی و تحصیلی».",
+      "of": "785e47f3",
+      "at": [
+        "cannon:testing.entries[0].text"
+      ]
+    },
+    {
+      "t": "مدرسه خودش آزمون نمی‌گیرد و ارائه‌دهنده‌ای را نام نمی‌برد.",
+      "of": "8be27782",
+      "at": [
+        "cannon:testing.entries[0].muted"
+      ]
+    },
+    {
+      "t": "شناسایی در کلاس، JK–2",
+      "of": "5b17498c",
+      "at": [
+        "cannon:testing.entries[1].title"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری «از نزدیک با معلمان همکاری می‌کند تا نیازهای دانش‌آموزان را ارزیابی کند، آموزش را متمایز کند و راهبردهای هدفمند را در کلاس اجرا کند».",
+      "of": "888e798a",
+      "at": [
+        "cannon:testing.entries[1].text"
+      ]
+    },
+    {
+      "t": "ارزیابی‌های ورودی",
+      "of": "844d1d18",
+      "at": [
+        "cannon:testing.entries[2].title"
+      ]
+    },
+    {
+      "t": "تصمیم‌های پذیرش، در کنار عوامل دیگر، بر «نتایج آزمون ورودی» تکیه دارند؛ فهرست مدارک ممکن است شامل یک Entrance Evaluation و یک Readiness Evaluation باشد.",
+      "of": "967ddbc0",
+      "at": [
+        "cannon:testing.entries[2].text"
+      ]
+    },
+    {
+      "t": "تسهیلات College Board و ACT",
+      "of": "1c3e39b8",
+      "at": [
+        "cannon:testing.entries[3].title"
+      ]
+    },
+    {
+      "t": "برای دانش‌آموزان سال سوم و چهارم، «راهنمایی بیشتری ارائه می‌شود تا در فرایند درخواست تسهیلات آزمون از College Board و ACT کمک کند»، پس از آنکه یک برنامهٔ یادگیری دست‌کم چهار ماه برقرار بوده باشد.",
+      "of": "8f3c3cf5",
+      "at": [
+        "cannon:testing.entries[3].text"
+      ]
+    },
+    {
+      "t": "دوازده کارمند نام‌برده: چهار متخصص یادگیری و رئیس بخش، یک متخصص مداخلهٔ خواندن، دو معلم ARC و پنج مشاور مدرسه.",
+      "of": "4554553b",
+      "at": [
+        "cannon:staff.headline"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری Lower School",
+      "of": "28342de9",
+      "at": [
+        "cannon:staff.people[0].role"
+      ]
+    },
+    {
+      "t": "متخصص مداخلهٔ خواندن Lower School",
+      "of": "b69d4dbd",
+      "at": [
+        "cannon:staff.people[1].role"
+      ]
+    },
+    {
+      "t": "رئیس پشتیبانی تحصیلی Middle School",
+      "of": "8fef66e3",
+      "at": [
+        "cannon:staff.people[2].role"
+      ]
+    },
+    {
+      "t": "متخصص یادگیری Upper School",
+      "of": "3464be0e",
+      "at": [
+        "cannon:staff.people[3].role"
+      ]
+    },
+    {
+      "t": "رئیس پشتیبانی تحصیلی Upper School",
+      "of": "0f3c5974",
+      "at": [
+        "cannon:staff.people[4].role"
+      ]
+    },
+    {
+      "t": "معلم Upper School، Academic Resource Center",
+      "of": "09b0748f",
+      "at": [
+        "cannon:staff.people[5].role",
+        "cannon:staff.people[6].role"
+      ]
+    },
+    {
+      "t": "مشاور Lower School، پایه‌های JrK تا 2",
+      "of": "05b4c790",
+      "at": [
+        "cannon:staff.people[7].role"
+      ]
+    },
+    {
+      "t": "مشاور Lower School و Middle School، پایه‌های 3 تا 5",
+      "of": "a38d132c",
+      "at": [
+        "cannon:staff.people[8].role"
+      ]
+    },
+    {
+      "t": "مشاور Middle School، پایه‌های 6 تا 8",
+      "of": "25ada6f3",
+      "at": [
+        "cannon:staff.people[9].role"
+      ]
+    },
+    {
+      "t": "مشاور Upper School",
+      "of": "9b93583f",
+      "at": [
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ]
+    },
+    {
+      "t": "هیچ مسئول واحدی برای پشتیبانی یادگیری نام برده نشده است.",
+      "of": "44ceaf4f",
+      "at": [
+        "cannon:staff.note.strong"
+      ]
+    },
+    {
+      "t": "Tracy Wade مدیریت Dovi Academic Resource Center در Middle School را بر عهده دارد؛ Jennifer Ridenhour مدیریت مرکز Upper School را.",
+      "of": "f4cb36c2",
+      "at": [
+        "cannon:staff.note.muted"
+      ]
+    },
+    {
+      "t": "هشت پرسش برای بازدید از مدرسه، دربارهٔ آنچه سایت مدرسه بی‌پاسخ می‌گذارد: هزینه‌ها، برنامه‌های قبلی، روش‌ها، درمان، کارکنان و زمان‌بندی.",
+      "of": "5adf038b",
+      "at": [
+        "cannon:ask.headline"
+      ]
+    },
+    {
+      "t": "آیا برای Learning Support، مربی‌گری تحصیلی Upper School یا مربی‌گری Middle School هزینه‌ای وجود دارد، و آیا کمک مالی آن را پوشش می‌دهد؟",
+      "of": "0f8bfb6d",
+      "at": [
+        "cannon:ask.questions[0]"
+      ]
+    },
+    {
+      "t": "پیش از نوشتن برنامهٔ یادگیری، با برنامهٔ 504، IEP یا برنامهٔ تسهیلات مدرسهٔ قبلی چگونه برخورد می‌شود؟",
+      "of": "9888806f",
+      "at": [
+        "cannon:ask.questions[1]"
+      ]
+    },
+    {
+      "t": "متخصص مداخلهٔ خواندن Lower School از کدام روش خواندن استفاده می‌کند (برای مثال Orton-Gillingham، Wilson، سوادآموزی ساختارمند)، و گروه‌ها چقدر بزرگ‌اند؟",
+      "of": "600a8c60",
+      "at": [
+        "cannon:ask.questions[2]"
+      ]
+    },
+    {
+      "t": "آیا پیش از Upper School مداخلهٔ ریاضی وجود دارد؟",
+      "of": "25d6aa2b",
+      "at": [
+        "cannon:ask.questions[3]"
+      ]
+    },
+    {
+      "t": "آیا یک گفتاردرمانگر، کاردرمانگر یا فیزیوتراپیست بیرونی می‌تواند در طول ساعات مدرسه فرزندم را در محوطهٔ مدرسه ببیند؟",
+      "of": "948abab1",
+      "at": [
+        "cannon:ask.questions[4]"
+      ]
+    },
+    {
+      "t": "آیا مدرسه روان‌شناس دارد، و آیا فهرستی از ارزیابان نگه می‌دارید؟",
+      "of": "249259e1",
+      "at": [
+        "cannon:ask.questions[5]"
+      ]
+    },
+    {
+      "t": "این سیاست فقط دانش‌آموزان فعلی را پوشش می‌دهد. آیا خانواده‌ای می‌تواند پیش از ثبت‌نام ارزیابی‌ای را به اشتراک بگذارد، یا برای پشتیبانی برنامه‌ریزی کند؟",
+      "of": "967d5f9e",
+      "at": [
+        "cannon:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "آیا هیچ پشتیبانی زبان انگلیسی (ESL) ارائه می‌شود؟",
+      "of": "4d801524",
+      "at": [
+        "cannon:ask.questions[7]"
+      ]
+    },
+    {
+      "t": "24 اکتبر 2026",
+      "of": "9a6ab731",
+      "at": [
+        "cannon:ask.asOf"
+      ]
+    },
+    {
       "t": "Educational Support Services (ESS) چارچوبی است که دانش‌آموزان در آن پشتیبانی آموزشیِ فردی دریافت می‌کنند: مربی‌گری تحصیلی، تدریس خصوصی، تسهیلات یادگیری و پشتیبانی تخصصی برای دانش‌آموزانی که تفاوت‌های یادگیریِ شناسایی‌شده دارند.",
       "of": "f699e911",
       "at": [
@@ -157,25 +1058,10 @@
       ]
     },
     {
-      "t": "منتشر نشده است. روی یک ارائه‌دهندهٔ بیرونی حساب کنید.",
-      "of": "59549707",
-      "at": [
-        "hickory-grove-christian:services.verdicts.speech.head",
-        "hickory-grove-christian:services.verdicts.motor.head"
-      ]
-    },
-    {
       "t": "سایت مدرسه هیچ گفتاردرمانی‌ای را ذکر نمی‌کند.",
       "of": "e4312a0f",
       "at": [
         "hickory-grove-christian:services.verdicts.speech.body"
-      ]
-    },
-    {
-      "t": "نه کاردرمانی و نه فیزیوتراپی در سایت مدرسه دیده نمی‌شود.",
-      "of": "97fecae0",
-      "at": [
-        "hickory-grove-christian:services.verdicts.motor.body"
       ]
     },
     {
@@ -207,20 +1093,6 @@
       ]
     },
     {
-      "t": "پشتیبانی یادگیری و تحصیلی",
-      "of": "b050d84b",
-      "at": [
-        "hickory-grove-christian:services.groups[0].name"
-      ]
-    },
-    {
-      "t": "معلمان متخصص",
-      "of": "04298f91",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ]
-    },
-    {
       "t": "«معلمان ESS و مربیان/مدرسان تحصیلی آن آموزش تخصصی دیده‌اند.» نام دو معلم ESS و دو دستیار معلم آمده است.",
       "of": "bdb06ce6",
       "at": [
@@ -228,24 +1100,10 @@
       ]
     },
     {
-      "t": "مداخله در خواندن",
-      "of": "18b7d3f0",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ]
-    },
-    {
       "t": "هیچ روشی نام برده نشده است (برای مثال Orton-Gillingham، سوادآموزی ساختارمند).",
       "of": "2f135778",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[1].detail"
-      ]
-    },
-    {
-      "t": "مداخله در ریاضی",
-      "of": "9fc9f294",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[2].service"
       ]
     },
     {
@@ -284,13 +1142,6 @@
       ]
     },
     {
-      "t": "مربی‌گری کارکردهای اجرایی",
-      "of": "7e3c07fa",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ]
-    },
-    {
       "t": "ESS «توانایی دفاع از نیازهای خود، مهارت‌های سازمان‌دهی، مسئولیت‌پذیری فردی و سایر مهارت‌های کارکرد اجرایی» را تقویت می‌کند. Academic Coaching در دبیرستان، تا 3 ساعت در هفته: سالانه $2,227، یا $1,113 برای هر نیم‌سال.",
       "of": "ce6686ad",
       "at": [
@@ -326,24 +1177,10 @@
       ]
     },
     {
-      "t": "آموزش ویژه‌طراحی‌شده",
-      "of": "0add9126",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ]
-    },
-    {
       "t": "«Applied Interventions/Specially Designed Instruction» که بر پایهٔ «تشخیص حرفه‌ای، بازخورد معلمان، مشاهدات متخصصان» به برنامه افزوده می‌شود: سالانه $1,500 تا $2,000.",
       "of": "36b0de5d",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[8].detail"
-      ]
-    },
-    {
-      "t": "برنامهٔ مستقل / کلاس جداگانه",
-      "of": "2586e367",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[9].service"
       ]
     },
     {
@@ -354,24 +1191,10 @@
       ]
     },
     {
-      "t": "تیزهوش / سطح پیشرفته",
-      "of": "2de5aed3",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ]
-    },
-    {
       "t": "در صفحهٔ Student Services نام برده شده است؛ جزئیاتی از برنامه نیست.",
       "of": "9fe62351",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[10].detail"
-      ]
-    },
-    {
-      "t": "مدارک لازم برای واجد شرایط بودن",
-      "of": "4702441c",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[11].service"
       ]
     },
     {
@@ -382,57 +1205,6 @@
       ]
     },
     {
-      "t": "درمان‌ها و خدمات وابسته",
-      "of": "832d48e5",
-      "at": [
-        "hickory-grove-christian:services.groups[1].name"
-      ]
-    },
-    {
-      "t": "گفتاردرمانی",
-      "of": "b37d3705",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ]
-    },
-    {
-      "t": "مدرسه آن را ذکر نکرده است.",
-      "of": "6bbf4ac9",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ]
-    },
-    {
-      "t": "کاردرمانی",
-      "of": "e216f28e",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ]
-    },
-    {
-      "t": "فیزیوتراپی",
-      "of": "2ab8c569",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ]
-    },
-    {
-      "t": "ارزیابی",
-      "of": "7f464e4f",
-      "at": [
-        "hickory-grove-christian:services.groups[2].name"
-      ]
-    },
-    {
-      "t": "تسهیلات آزمون",
-      "of": "c0f1a794",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ]
-    },
-    {
       "t": "آزمون‌های تأییدشده بیرون از کلاس یا داخل کلاس: سالانه $370 برای 1 درس، $760 برای 2، $1,200 برای 3 درس یا بیشتر.",
       "of": "abc72bd6",
       "at": [
@@ -440,25 +1212,10 @@
       ]
     },
     {
-      "t": "آزمون ورودی",
-      "of": "3e1537ff",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[1].service",
-        "hickory-grove-christian:testing.entries[2].title"
-      ]
-    },
-    {
       "t": "پس از آنکه دفتر پذیرش همهٔ فرم‌های لازم را دریافت کرد، دفتر Student Services زمان آن را تعیین می‌کند.",
       "of": "381205a8",
       "at": [
         "hickory-grove-christian:services.groups[2].rows[1].detail"
-      ]
-    },
-    {
-      "t": "ارزیابی روانی‌آموزشی",
-      "of": "69f00356",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[2].service"
       ]
     },
     {
@@ -470,31 +1227,10 @@
       ]
     },
     {
-      "t": "سلامت روان و جسم",
-      "of": "92456e4a",
-      "at": [
-        "hickory-grove-christian:services.groups[3].name"
-      ]
-    },
-    {
-      "t": "مشاوره و حمایت عاطفی",
-      "of": "0613b801",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ]
-    },
-    {
       "t": "تیم سلامت روان «مشاورهٔ کتاب‌مقدسی از راه مربی‌گری و شاگردسازی، گروه‌های حمایت همسالان» ارائه می‌دهد. دبیرستان یک مدیر مشاوره (Director of Counseling) دارد. این تیم از ESS جداست، و مدرسه پشتیبانی آن را مداخلهٔ بالینی یا رفتاری توصیف نمی‌کند.",
       "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
-      ]
-    },
-    {
-      "t": "مداخلهٔ عاطفی و رفتاری",
-      "of": "a9f79269",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[1].service"
       ]
     },
     {
@@ -505,53 +1241,10 @@
       ]
     },
     {
-      "t": "منابع کمک در بحران",
-      "of": "e074ef65",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ]
-    },
-    {
       "t": "صفحهٔ Mental Health & Crisis Resources خط 988 Suicide & Crisis Lifeline و NC Peer Warmline را معرفی می‌کند.",
       "of": "91495fc0",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[2].detail"
-      ]
-    },
-    {
-      "t": "روان‌شناس مدرسه",
-      "of": "61585e81",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ]
-    },
-    {
-      "t": "نام کسی ذکر نشده است.",
-      "of": "59c2d1bc",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ]
-    },
-    {
-      "t": "پرستار مدرسه",
-      "of": "cf02f710",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ]
-    },
-    {
-      "t": "زبان",
-      "of": "9a73db9b",
-      "at": [
-        "hickory-grove-christian:services.groups[4].name"
-      ]
-    },
-    {
-      "t": "ESL / پشتیبانی زبان انگلیسی",
-      "of": "ffd3df8c",
-      "at": [
-        "hickory-grove-christian:services.groups[4].rows[0].service"
       ]
     },
     {
@@ -566,27 +1259,6 @@
       "of": "5d8ec697",
       "at": [
         "hickory-grove-christian:therapy.headline"
-      ]
-    },
-    {
-      "t": "گفتار و زبان",
-      "of": "d9f2c22c",
-      "at": [
-        "hickory-grove-christian:therapy.items[0].name"
-      ]
-    },
-    {
-      "t": "کاردرمانی",
-      "of": "a971a0b7",
-      "at": [
-        "hickory-grove-christian:therapy.items[1].name"
-      ]
-    },
-    {
-      "t": "فیزیوتراپی",
-      "of": "d7c1ee80",
-      "at": [
-        "hickory-grove-christian:therapy.items[2].name"
       ]
     },
     {

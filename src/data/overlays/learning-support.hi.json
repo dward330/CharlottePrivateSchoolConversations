@@ -3,6 +3,907 @@
   "lang": "hi",
   "strings": [
     {
+      "t": "Cannon का Learning Support Program “निदान किए गए सीखने के अंतर वाले छात्रों को सफल शिक्षार्थी और अपनी बात आत्मविश्वास से रखने वाले बनने में मदद करता है,” और Junior Kindergarten से 12वीं कक्षा तक हर विभाग में एक learning specialist है।",
+      "of": "b6dea18a",
+      "at": [
+        "cannon:lead.strong"
+      ]
+    },
+    {
+      "t": "स्कूल अधिगम-सहायता के लिए कोई शुल्क प्रकाशित नहीं करता।",
+      "of": "70699aac",
+      "at": [
+        "cannon:lead.muted"
+      ]
+    },
+    {
+      "t": "कार्यक्रम के दायरे में",
+      "of": "1cbb93d6",
+      "at": [
+        "cannon:stats[0].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten से 12वीं कक्षा तक, Lower, Middle और Upper Schools में",
+      "of": "1d6d8339",
+      "at": [
+        "cannon:stats[0].note"
+      ]
+    },
+    {
+      "t": "learning specialist और dean",
+      "of": "e2a0d2a5",
+      "at": [
+        "cannon:stats[1].label"
+      ]
+    },
+    {
+      "t": "Lower School में एक, Middle School में एक, Upper School में दो",
+      "of": "77e7210b",
+      "at": [
+        "cannon:stats[1].note"
+      ]
+    },
+    {
+      "t": "Upper School छात्रों ने ARC का उपयोग किया",
+      "of": "bc17bed3",
+      "at": [
+        "cannon:stats[2].label"
+      ]
+    },
+    {
+      "t": "“पिछले साल,” 31 अगस्त को Hudson ARC के उद्घाटन पर स्कूल के लेख के अनुसार",
+      "of": "cf0d9078",
+      "at": [
+        "cannon:stats[2].note"
+      ]
+    },
+    {
+      "t": "स्कूल काउंसलर",
+      "of": "83d116a4",
+      "at": [
+        "cannon:stats[3].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten से 12वीं कक्षा तक, Student Support Team में",
+      "of": "cdc6b432",
+      "at": [
+        "cannon:stats[3].note"
+      ]
+    },
+    {
+      "t": "अधिगम-सहायता Cannon में नामांकित उन छात्रों के लिए है जिनके सीखने के अंतर का निदान हुआ है और जो हाल के किसी साइकोएजुकेशनल मूल्यांकन में दर्ज है।",
+      "of": "a70169ad",
+      "at": [
+        "cannon:eligibility.headline"
+      ]
+    },
+    {
+      "t": "नीति के अनुसार छात्र “Cannon School में वर्तमान में नामांकित छात्र होना चाहिए,” माता-पिता “Learning Support सेवाओं के लिए अनुरोध भरें,” “पढ़ाई में कठिनाई का इतिहास” हो, और सीखने का अंतर “किसी प्रमाणित पेशेवर द्वारा हाल के (पिछले 3 वर्षों के) औपचारिक साइकोएजुकेशनल मूल्यांकन में निदान और दर्ज” हो, जो “किसी लाइसेंस प्राप्त क्लिनिकल साइकोलॉजिस्ट द्वारा” किया गया हो।",
+      "of": "adfe40d1",
+      "at": [
+        "cannon:eligibility.eligible"
+      ]
+    },
+    {
+      "t": "स्कूल के पेजों में 504 प्लान या IEP का उल्लेख नहीं है। सुविधाओं के लिए दस्तावेज़ चाहिए: “जब तक स्कूल को उचित दस्तावेज़ों के साथ जानकारी नहीं दी जाती, कोई सुविधा नहीं दी जाएगी,” और “पूर्ण साइकोएजुकेशनल मूल्यांकन के बिना कोई आधिकारिक अधिगम-योजना नहीं बनाई जाएगी।” अनुरोध फ़ॉर्म पूछता है कि छात्र को पहले कौन-सी सुविधाएँ मिली हैं।",
+      "of": "d83454dd",
+      "at": [
+        "cannon:eligibility.plan"
+      ]
+    },
+    {
+      "t": "“Cannon School में किसी छात्र को प्रवेश देने का अर्थ यह नहीं है कि स्कूल बच्चे की सभी विशेष अधिगम-ज़रूरतों की ज़िम्मेदारी लेगा, ख़ासकर जब ऐसी ज़रूरतों के लिए स्कूल के पाठ्यक्रम में संशोधन/बदलाव की ज़रूरत हो सकती है या जब बच्चे की ज़रूरतें Cannon के मौजूदा संसाधनों से परे हों।”",
+      "of": "907c47b3",
+      "at": [
+        "cannon:eligibility.scope"
+      ]
+    },
+    {
+      "t": "पूर्ण मूल्यांकन के बिना सुनने, बोलने/भाषा या देखने की अक्षमता के लिए सुविधाओं पर “हर मामले को अलग से देखकर विचार किया जाएगा।”",
+      "of": "5a871f3d",
+      "at": [
+        "cannon:eligibility.note"
+      ]
+    },
+    {
+      "t": "स्कूल के पेजों में बताई गई हर सेवा, इस आधार पर समूहबद्ध और कोड की गई कि उसे कौन देता है। Cannon इनमें से किसी का शुल्क प्रकाशित नहीं करता। अपने बच्चे की ज़रूरत चुनें और देखें कि क्या लागू होता है।",
+      "of": "e7c96dbc",
+      "at": [
+        "cannon:services.headline"
+      ]
+    },
+    {
+      "t": "Lower School में एक reading interventionist और विशेषज्ञों की बनाई अधिगम-योजनाएँ। किसी पढ़ाने की पद्धति का नाम नहीं।",
+      "of": "2ac70f56",
+      "at": [
+        "cannon:services.verdicts.read.head"
+      ]
+    },
+    {
+      "t": "Reading interventionist “विशिष्ट कौशल की कमियाँ दूर करने के लिए बनाई गई छोटे समूह की पढ़ाई दे सकते हैं।” पूछें कि पढ़ाने का कौन-सा तरीका अपनाया जाता है, और चौथी कक्षा के बाद पढ़ने में सहायता कैसी होती है।",
+      "of": "6b94c6ee",
+      "at": [
+        "cannon:services.verdicts.read.body"
+      ]
+    },
+    {
+      "t": "Middle और Upper Schools में व्यक्तिगत एग्ज़ीक्यूटिव फ़ंक्शन कोचिंग।",
+      "of": "0e7ab250",
+      "at": [
+        "cannon:services.verdicts.attn.head"
+      ]
+    },
+    {
+      "t": "Upper School के Academic Coaches “रिश्तों पर आधारित 1:1 माहौल में” “योजना, संगठन, काम शुरू करना, लचीलापन, ध्यान, आत्म-नियंत्रण, मेटाकॉग्निशन और भी बहुत कुछ” पर काम करते हैं।",
+      "of": "02ee6371",
+      "at": [
+        "cannon:services.verdicts.attn.body"
+      ]
+    },
+    {
+      "t": "Upper School में साथी-छात्रों द्वारा चलाई जाने वाली Math Lab। गणित के लिए किसी विशेष हस्तक्षेप का नाम नहीं।",
+      "of": "2574b402",
+      "at": [
+        "cannon:services.verdicts.math.head"
+      ]
+    },
+    {
+      "t": "Math Lab में “ट्यूटर और शिक्षक छात्रों के साथ मिलकर कठिन अवधारणाओं को सरल हिस्सों में समझाते हैं।” स्कूल Upper School से नीचे गणित में किसी हस्तक्षेप का वर्णन नहीं करता।",
+      "of": "282fc3de",
+      "at": [
+        "cannon:services.verdicts.math.body"
+      ]
+    },
+    {
+      "t": "रेफ़रल से। किसी बाहरी सेवा-प्रदाता की योजना बनाएँ।",
+      "of": "c1e67792",
+      "at": [
+        "cannon:services.verdicts.speech.head"
+      ]
+    },
+    {
+      "t": "Lower School के learning specialist “परिवारों को स्पीच थेरेपिस्ट या ट्यूटर जैसे बाहरी संसाधन पाने के लिए मार्गदर्शन” देते हैं।",
+      "of": "31cae7e2",
+      "at": [
+        "cannon:services.verdicts.speech.body"
+      ]
+    },
+    {
+      "t": "प्रकाशित नहीं। किसी बाहरी सेवा-प्रदाता की योजना बनाएँ।",
+      "of": "59549707",
+      "at": [
+        "cannon:services.verdicts.motor.head",
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ]
+    },
+    {
+      "t": "स्कूल की साइट पर न ऑक्यूपेशनल थेरेपी है, न फ़िज़िकल थेरेपी।",
+      "of": "97fecae0",
+      "at": [
+        "cannon:services.verdicts.motor.body",
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ]
+    },
+    {
+      "t": "पाँच काउंसलर अल्पकालिक काउंसलिंग देते हैं और लंबी अवधि की थेरेपी के लिए बाहर रेफ़र करते हैं।",
+      "of": "e493d5a1",
+      "at": [
+        "cannon:services.verdicts.social.head"
+      ]
+    },
+    {
+      "t": "Lower School के काउंसलर “अल्पकालिक व्यक्तिगत काउंसलिंग सत्र” और “सामुदायिक संसाधनों के लिए रेफ़रल (लंबी अवधि की थेरेपी सेवाओं सहित)” देते हैं।",
+      "of": "5ec707f7",
+      "at": [
+        "cannon:services.verdicts.social.body"
+      ]
+    },
+    {
+      "t": "Lower School में पढ़ने का संवर्धन और Upper School में उन्नत पाठ्यक्रमों की एक धारा।",
+      "of": "0f0379a9",
+      "at": [
+        "cannon:services.verdicts.gifted.head"
+      ]
+    },
+    {
+      "t": "Reading interventionist “लक्षित शैक्षणिक संवर्धन दे सकते हैं”; Upper School में Honors Accelerated, AP और AT पाठ्यक्रम और एक Independent Study Program है। प्रतिभाशाली छात्रों के लिए किसी औपचारिक कार्यक्रम का वर्णन नहीं है।",
+      "of": "3b6931be",
+      "at": [
+        "cannon:services.verdicts.gifted.body"
+      ]
+    },
+    {
+      "t": "सीखने और पढ़ाई में सहायता",
+      "of": "b050d84b",
+      "at": [
+        "cannon:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ]
+    },
+    {
+      "t": "विशेष शिक्षक",
+      "of": "04298f91",
+      "at": [
+        "cannon:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ]
+    },
+    {
+      "t": "“हर विभाग, Lower School, Middle School और Upper School, के लिए एक समर्पित learning specialist।” चार के नाम दिए गए हैं, साथ में Lower School के एक reading interventionist।",
+      "of": "135a601a",
+      "at": [
+        "cannon:services.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "पढ़ने में हस्तक्षेप",
+      "of": "18b7d3f0",
+      "at": [
+        "cannon:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ]
+    },
+    {
+      "t": "Lower School में reading interventionist के साथ छोटे समूह, “विशिष्ट कौशल की कमियाँ दूर करने के लिए बनाए गए।” किसी पद्धति का नाम नहीं (जैसे Orton-Gillingham, संरचित साक्षरता)।",
+      "of": "8dd7a217",
+      "at": [
+        "cannon:services.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "गणित में हस्तक्षेप",
+      "of": "9fc9f294",
+      "at": [
+        "cannon:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ]
+    },
+    {
+      "t": "गणित के लिए किसी विशेष हस्तक्षेप का वर्णन नहीं; Upper School की Math Lab साथी-छात्रों की ट्यूशन है।",
+      "of": "3b048950",
+      "at": [
+        "cannon:services.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "1:1 / छोटे समूह की पढ़ाई",
+      "of": "c8ed8f2d",
+      "at": [
+        "cannon:services.groups[0].rows[3].service"
+      ]
+    },
+    {
+      "t": "Lower School में छोटे समूह में पढ़ना; Middle और Upper School के learning specialists के साथ व्यक्तिगत कोचिंग।",
+      "of": "66f4289e",
+      "at": [
+        "cannon:services.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Academic Labs सत्र (9–12)",
+      "of": "736b950c",
+      "at": [
+        "cannon:services.groups[0].rows[4].service"
+      ]
+    },
+    {
+      "t": "“शिक्षकों के मार्गदर्शन में साथी-छात्रों द्वारा लेखन, गणित और विज्ञान की ट्यूशन,” साथ में एक World Languages Lab, “जो स्कूल के समय में तय समय और जगहों पर उपलब्ध है।” Middle School में शिक्षकों की मदद: “कोई शुल्क नहीं लिया जाता।”",
+      "of": "757034b7",
+      "at": [
+        "cannon:services.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "एग्ज़ीक्यूटिव फ़ंक्शन कोचिंग",
+      "of": "7e3c07fa",
+      "at": [
+        "cannon:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ]
+    },
+    {
+      "t": "Middle School में व्यक्तिगत शैक्षणिक कोचिंग और, Upper School में, Academic Coaches जो “एग्ज़ीक्यूटिव फ़ंक्शनिंग (EF) कौशल” विकसित करते हैं।",
+      "of": "b944a709",
+      "at": [
+        "cannon:services.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "अधिगम-सहायता कक्षा",
+      "of": "fd470495",
+      "at": [
+        "cannon:services.groups[0].rows[6].service"
+      ]
+    },
+    {
+      "t": "2026-2027 के Upper School पाठ्यक्रम कैटलॉग में अधिगम-सहायता का कोई पाठ्यक्रम नहीं है।",
+      "of": "29a87cfd",
+      "at": [
+        "cannon:services.groups[0].rows[6].detail"
+      ]
+    },
+    {
+      "t": "सुविधाएँ और अधिगम-योजना",
+      "of": "c65478ab",
+      "at": [
+        "cannon:services.groups[0].rows[7].service"
+      ]
+    },
+    {
+      "t": "Learning specialist एक अधिगम-योजना लिखते हैं जिसमें कक्षा और टेस्ट की सुविधाएँ होती हैं, जैसे “पसंदीदा सीट, नोट्स लेने में मदद, टेस्ट के लिए अतिरिक्त समय, मूल्यांकन के लिए अलग स्थान।”",
+      "of": "94accb8c",
+      "at": [
+        "cannon:services.groups[0].rows[7].detail"
+      ]
+    },
+    {
+      "t": "विशेष रूप से तैयार की गई पढ़ाई",
+      "of": "0add9126",
+      "at": [
+        "cannon:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ]
+    },
+    {
+      "t": "वर्णन नहीं। नीति कहती है कि प्रवेश का अर्थ उन ज़रूरतों की ज़िम्मेदारी नहीं है जिनके लिए “स्कूल के पाठ्यक्रम में संशोधन/बदलाव की ज़रूरत हो सकती है।”",
+      "of": "4bf311f2",
+      "at": [
+        "cannon:services.groups[0].rows[8].detail"
+      ]
+    },
+    {
+      "t": "अलग कार्यक्रम / अलग कक्षा",
+      "of": "2586e367",
+      "at": [
+        "cannon:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ]
+    },
+    {
+      "t": "कोई अलग कार्यक्रम वर्णित नहीं; Middle School का ARC “न्यूरोडाइवर्स और गैर-न्यूरोडाइवर्स शिक्षार्थियों” को “साथ-साथ” लाता है।",
+      "of": "e2111c64",
+      "at": [
+        "cannon:services.groups[0].rows[9].detail"
+      ]
+    },
+    {
+      "t": "प्रतिभाशाली / उन्नत",
+      "of": "2de5aed3",
+      "at": [
+        "cannon:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ]
+    },
+    {
+      "t": "Lower School में पढ़ने का संवर्धन; Upper School में Honors Accelerated, AP और AT पाठ्यक्रम और एक Independent Study Program। प्रतिभाशाली छात्रों के लिए कोई औपचारिक कार्यक्रम नहीं।",
+      "of": "cb785b1f",
+      "at": [
+        "cannon:services.groups[0].rows[10].detail"
+      ]
+    },
+    {
+      "t": "पात्रता के दस्तावेज़",
+      "of": "4702441c",
+      "at": [
+        "cannon:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ]
+    },
+    {
+      "t": "पिछले 3 वर्षों का एक पूर्ण साइकोएजुकेशनल मूल्यांकन, जिसमें “सबटेस्ट स्कोर (स्टैंडर्ड या स्केल्ड स्कोर) सहित टेस्ट के नतीजे” और सुझाई गई सुविधाएँ हों।",
+      "of": "48d33a03",
+      "at": [
+        "cannon:services.groups[0].rows[11].detail"
+      ]
+    },
+    {
+      "t": "थेरेपी और संबंधित सेवाएँ",
+      "of": "832d48e5",
+      "at": [
+        "cannon:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ]
+    },
+    {
+      "t": "स्पीच-लैंग्वेज थेरेपी",
+      "of": "b37d3705",
+      "at": [
+        "cannon:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ]
+    },
+    {
+      "t": "Lower School के learning specialist परिवारों को “स्पीच थेरेपिस्ट जैसे बाहरी संसाधन पाने” में मदद करते हैं।",
+      "of": "732b1c0e",
+      "at": [
+        "cannon:services.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "ऑक्यूपेशनल थेरेपी",
+      "of": "e216f28e",
+      "at": [
+        "cannon:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ]
+    },
+    {
+      "t": "स्कूल ने इसका उल्लेख नहीं किया है।",
+      "of": "6bbf4ac9",
+      "at": [
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "फ़िज़िकल थेरेपी",
+      "of": "2ab8c569",
+      "at": [
+        "cannon:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ]
+    },
+    {
+      "t": "आकलन",
+      "of": "7f464e4f",
+      "at": [
+        "cannon:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ]
+    },
+    {
+      "t": "शुरुआती पहचान (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "cannon:services.groups[2].rows[0].service"
+      ]
+    },
+    {
+      "t": "JK–2 में अधिगम-सहायता “शुरुआती पहचान और कक्षा-आधारित हस्तक्षेपों पर केंद्रित है”; learning specialist शिक्षकों के साथ “छात्रों की ज़रूरतों का आकलन करने के लिए” काम करते हैं।",
+      "of": "b9164064",
+      "at": [
+        "cannon:services.groups[2].rows[0].detail"
+      ]
+    },
+    {
+      "t": "टेस्ट में सुविधाएँ",
+      "of": "c0f1a794",
+      "at": [
+        "cannon:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ]
+    },
+    {
+      "t": "टेस्ट में सुविधाएँ हर अधिगम-योजना का हिस्सा हैं। कोई योजना “कम से कम चार महीने” लागू रहने के बाद, learning specialist परिवारों को College Board और ACT की सुविधाएँ माँगने में मदद कर सकते हैं।",
+      "of": "066d918c",
+      "at": [
+        "cannon:services.groups[2].rows[1].detail"
+      ]
+    },
+    {
+      "t": "प्रवेश परीक्षा",
+      "of": "3e1537ff",
+      "at": [
+        "cannon:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ]
+    },
+    {
+      "t": "प्रवेश चेकलिस्ट में एक Entrance Evaluation और एक Readiness Evaluation “शामिल हो सकते हैं।”",
+      "of": "74877feb",
+      "at": [
+        "cannon:services.groups[2].rows[2].detail"
+      ]
+    },
+    {
+      "t": "साइकोएजुकेशनल मूल्यांकन",
+      "of": "69f00356",
+      "at": [
+        "cannon:services.groups[2].rows[3].service",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ]
+    },
+    {
+      "t": "परिवार इसे देते हैं, “किसी लाइसेंस प्राप्त क्लिनिकल साइकोलॉजिस्ट” से करवाकर। स्कूल यह नहीं कहता कि वह ख़ुद टेस्ट करता है, न ही सेवा-प्रदाताओं के नाम देता है।",
+      "of": "d50808ad",
+      "at": [
+        "cannon:services.groups[2].rows[3].detail"
+      ]
+    },
+    {
+      "t": "वेलनेस और स्वास्थ्य",
+      "of": "92456e4a",
+      "at": [
+        "cannon:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ]
+    },
+    {
+      "t": "परामर्श और भावनात्मक सहायता",
+      "of": "0613b801",
+      "at": [
+        "cannon:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ]
+    },
+    {
+      "t": "पाँच स्कूल काउंसलर वेलनेस पाठ, नियमित हालचाल, “अल्पकालिक व्यक्तिगत काउंसलिंग सत्र” और छोटे समूह चलाते हैं, और “learning specialists के सहयोग से” काम करते हैं।",
+      "of": "8e6bc998",
+      "at": [
+        "cannon:services.groups[3].rows[0].detail"
+      ]
+    },
+    {
+      "t": "भावनात्मक और व्यवहार संबंधी हस्तक्षेप",
+      "of": "a9f79269",
+      "at": [
+        "cannon:services.groups[3].rows[1].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ]
+    },
+    {
+      "t": "लंबी अवधि की मदद रेफ़रल से मिलती है: काउंसलर “सामुदायिक संसाधनों के लिए रेफ़रल (लंबी अवधि की थेरेपी सेवाओं सहित)” देते हैं।",
+      "of": "2a783fab",
+      "at": [
+        "cannon:services.groups[3].rows[1].detail"
+      ]
+    },
+    {
+      "t": "संकट के समय के संसाधन",
+      "of": "e074ef65",
+      "at": [
+        "cannon:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ]
+    },
+    {
+      "t": "एक Mental Health and Crisis Resources पेज पर Suicide and Crisis Lifeline (“988 पर कॉल करें या 741741 पर HOME टेक्स्ट करें”) और NC Peer Warmline दी गई हैं; Middle School के काउंसलर “संकट में छात्रों को सहायता” देते हैं।",
+      "of": "e7218f6f",
+      "at": [
+        "cannon:services.groups[3].rows[2].detail"
+      ]
+    },
+    {
+      "t": "स्कूल मनोवैज्ञानिक",
+      "of": "61585e81",
+      "at": [
+        "cannon:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ]
+    },
+    {
+      "t": "किसी का नाम नहीं दिया गया।",
+      "of": "59c2d1bc",
+      "at": [
+        "cannon:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ]
+    },
+    {
+      "t": "स्कूल नर्स",
+      "of": "cf02f710",
+      "at": [
+        "cannon:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ]
+    },
+    {
+      "t": "स्टाफ़ डायरेक्टरी में एक Lead School Nurse और एक School Nurse दर्ज हैं।",
+      "of": "aed15d04",
+      "at": [
+        "cannon:services.groups[3].rows[4].detail"
+      ]
+    },
+    {
+      "t": "भाषा",
+      "of": "9a73db9b",
+      "at": [
+        "cannon:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ]
+    },
+    {
+      "t": "ESL / अंग्रेज़ी भाषा में सहायता",
+      "of": "ffd3df8c",
+      "at": [
+        "cannon:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ]
+    },
+    {
+      "t": "अंतरराष्ट्रीय छात्र एक स्वीकृत प्लेसमेंट एजेंसी के ज़रिए नामांकन करते हैं; अंग्रेज़ी भाषा की किसी सहायता का वर्णन नहीं है।",
+      "of": "b2806197",
+      "at": [
+        "cannon:services.groups[4].rows[0].detail"
+      ]
+    },
+    {
+      "t": "स्पीच थेरेपी रेफ़रल से। स्कूल की साइट पर ऑक्यूपेशनल या फ़िज़िकल थेरेपी का उल्लेख नहीं है।",
+      "of": "55cb993b",
+      "at": [
+        "cannon:therapy.headline"
+      ]
+    },
+    {
+      "t": "स्पीच-लैंग्वेज",
+      "of": "d9f2c22c",
+      "at": [
+        "cannon:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ]
+    },
+    {
+      "t": "Learning specialist परिवारों को कोई बाहरी स्पीच थेरेपिस्ट ढूँढ़ने में मदद करते हैं।",
+      "of": "2ed2d14a",
+      "at": [
+        "cannon:therapy.items[0].detail"
+      ]
+    },
+    {
+      "t": "ऑक्यूपेशनल",
+      "of": "a971a0b7",
+      "at": [
+        "cannon:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ]
+    },
+    {
+      "t": "फ़िज़िकल",
+      "of": "d7c1ee80",
+      "at": [
+        "cannon:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ]
+    },
+    {
+      "t": "स्कूल की स्टाफ़ डायरेक्टरी में कोई थेरेपिस्ट नहीं है। पूछें कि क्या कोई बाहरी थेरेपिस्ट स्कूल के समय में कैंपस पर आपके बच्चे को देख सकता है।",
+      "of": "0a5b1bb9",
+      "at": [
+        "cannon:therapy.note"
+      ]
+    },
+    {
+      "t": "Cannon ख़ुद नैदानिक टेस्ट नहीं करता। परिवार किसी साइकोलॉजिस्ट का हाल का मूल्यांकन लाते हैं, और स्कूल कक्षा में शुरुआती ज़रूरतों की पहचान करता है।",
+      "of": "842d7050",
+      "at": [
+        "cannon:testing.headline"
+      ]
+    },
+    {
+      "t": "हाल का एक साइकोएजुकेशनल मूल्यांकन",
+      "of": "5a57c05e",
+      "at": [
+        "cannon:testing.entries[0].title"
+      ]
+    },
+    {
+      "t": "मूल्यांकन “हाल की (पिछले 3 वर्षों की)” अवधि का होना चाहिए और “किसी लाइसेंस प्राप्त क्लिनिकल साइकोलॉजिस्ट द्वारा” किया गया हो, जिसमें “व्यापक संज्ञानात्मक और शैक्षणिक आकलन” हो।",
+      "of": "785e47f3",
+      "at": [
+        "cannon:testing.entries[0].text"
+      ]
+    },
+    {
+      "t": "स्कूल ख़ुद टेस्ट नहीं करता, न ही सेवा-प्रदाताओं के नाम देता है।",
+      "of": "8be27782",
+      "at": [
+        "cannon:testing.entries[0].muted"
+      ]
+    },
+    {
+      "t": "कक्षा में पहचान, JK–2",
+      "of": "5b17498c",
+      "at": [
+        "cannon:testing.entries[1].title"
+      ]
+    },
+    {
+      "t": "Learning specialist “छात्रों की ज़रूरतों का आकलन करने, पढ़ाई को अलग-अलग ज़रूरतों के अनुसार ढालने और कक्षा में लक्षित रणनीतियाँ लागू करने के लिए शिक्षकों के साथ मिलकर काम करते हैं।”",
+      "of": "888e798a",
+      "at": [
+        "cannon:testing.entries[1].text"
+      ]
+    },
+    {
+      "t": "प्रवेश मूल्यांकन",
+      "of": "844d1d18",
+      "at": [
+        "cannon:testing.entries[2].title"
+      ]
+    },
+    {
+      "t": "प्रवेश के निर्णय अन्य बातों के साथ “प्रवेश परीक्षा के नतीजों” पर आधारित होते हैं; चेकलिस्ट में एक Entrance Evaluation और एक Readiness Evaluation शामिल हो सकते हैं।",
+      "of": "967ddbc0",
+      "at": [
+        "cannon:testing.entries[2].text"
+      ]
+    },
+    {
+      "t": "College Board और ACT की सुविधाएँ",
+      "of": "1c3e39b8",
+      "at": [
+        "cannon:testing.entries[3].title"
+      ]
+    },
+    {
+      "t": "Junior और senior छात्रों के लिए, “College Board और ACT से टेस्ट की सुविधाएँ माँगने की प्रक्रिया में मदद के लिए अतिरिक्त मार्गदर्शन दिया जाता है,” जब कोई अधिगम-योजना कम से कम चार महीने से लागू हो।",
+      "of": "8f3c3cf5",
+      "at": [
+        "cannon:testing.entries[3].text"
+      ]
+    },
+    {
+      "t": "बारह नामित कर्मचारी: चार learning specialist और dean, एक reading interventionist, ARC के दो शिक्षक और पाँच स्कूल काउंसलर।",
+      "of": "4554553b",
+      "at": [
+        "cannon:staff.headline"
+      ]
+    },
+    {
+      "t": "Lower School अधिगम विशेषज्ञ",
+      "of": "28342de9",
+      "at": [
+        "cannon:staff.people[0].role"
+      ]
+    },
+    {
+      "t": "Lower School रीडिंग इंटरवेंशनिस्ट",
+      "of": "b69d4dbd",
+      "at": [
+        "cannon:staff.people[1].role"
+      ]
+    },
+    {
+      "t": "Middle School के Dean of Academic Support",
+      "of": "8fef66e3",
+      "at": [
+        "cannon:staff.people[2].role"
+      ]
+    },
+    {
+      "t": "Upper School अधिगम विशेषज्ञ",
+      "of": "3464be0e",
+      "at": [
+        "cannon:staff.people[3].role"
+      ]
+    },
+    {
+      "t": "Upper School के Dean of Academic Support",
+      "of": "0f3c5974",
+      "at": [
+        "cannon:staff.people[4].role"
+      ]
+    },
+    {
+      "t": "Upper School शिक्षक, Academic Resource Center",
+      "of": "09b0748f",
+      "at": [
+        "cannon:staff.people[5].role",
+        "cannon:staff.people[6].role"
+      ]
+    },
+    {
+      "t": "Lower School काउंसलर, कक्षा JrK - 2",
+      "of": "05b4c790",
+      "at": [
+        "cannon:staff.people[7].role"
+      ]
+    },
+    {
+      "t": "Lower और Middle School काउंसलर, कक्षा 3 - 5",
+      "of": "a38d132c",
+      "at": [
+        "cannon:staff.people[8].role"
+      ]
+    },
+    {
+      "t": "Middle School काउंसलर, कक्षा 6 - 8",
+      "of": "25ada6f3",
+      "at": [
+        "cannon:staff.people[9].role"
+      ]
+    },
+    {
+      "t": "Upper School काउंसलर",
+      "of": "9b93583f",
+      "at": [
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ]
+    },
+    {
+      "t": "अधिगम-सहायता के किसी एक प्रमुख का नाम नहीं दिया गया है।",
+      "of": "44ceaf4f",
+      "at": [
+        "cannon:staff.note.strong"
+      ]
+    },
+    {
+      "t": "Tracy Wade Middle School के Dovi Academic Resource Center का नेतृत्व करते हैं; Jennifer Ridenhour Upper School वाले का।",
+      "of": "f4cb36c2",
+      "at": [
+        "cannon:staff.note.muted"
+      ]
+    },
+    {
+      "t": "स्कूल विज़िट पर ले जाने के लिए आठ सवाल, उन बातों पर जिनका जवाब स्कूल की साइट नहीं देती: शुल्क, पिछली योजनाएँ, पद्धतियाँ, थेरेपी, स्टाफ़ और समय।",
+      "of": "5adf038b",
+      "at": [
+        "cannon:ask.headline"
+      ]
+    },
+    {
+      "t": "क्या Learning Support, Upper School की शैक्षणिक कोचिंग या Middle School की कोचिंग के लिए कोई शुल्क है, और क्या वित्तीय सहायता उसे कवर करती है?",
+      "of": "0f8bfb6d",
+      "at": [
+        "cannon:ask.questions[0]"
+      ]
+    },
+    {
+      "t": "अधिगम-योजना लिखे जाने से पहले 504 प्लान, IEP या पिछले स्कूल की सुविधा योजना को कैसे देखा जाता है?",
+      "of": "9888806f",
+      "at": [
+        "cannon:ask.questions[1]"
+      ]
+    },
+    {
+      "t": "Lower School के reading interventionist पढ़ाने की कौन-सी पद्धति अपनाते हैं (जैसे Orton-Gillingham, Wilson, संरचित साक्षरता), और समूह कितने बड़े होते हैं?",
+      "of": "600a8c60",
+      "at": [
+        "cannon:ask.questions[2]"
+      ]
+    },
+    {
+      "t": "क्या Upper School से नीचे गणित में हस्तक्षेप है?",
+      "of": "25d6aa2b",
+      "at": [
+        "cannon:ask.questions[3]"
+      ]
+    },
+    {
+      "t": "क्या कोई बाहरी स्पीच, ऑक्यूपेशनल या फ़िज़िकल थेरेपिस्ट स्कूल के समय में कैंपस पर मेरे बच्चे को देख सकता है?",
+      "of": "948abab1",
+      "at": [
+        "cannon:ask.questions[4]"
+      ]
+    },
+    {
+      "t": "क्या स्कूल में कोई साइकोलॉजिस्ट है, और क्या आपके पास मूल्यांकन करने वालों की कोई सूची है?",
+      "of": "249259e1",
+      "at": [
+        "cannon:ask.questions[5]"
+      ]
+    },
+    {
+      "t": "नीति केवल वर्तमान छात्रों पर लागू होती है। क्या कोई परिवार नामांकन से पहले मूल्यांकन साझा कर सकता है, या सहायता की योजना बना सकता है?",
+      "of": "967d5f9e",
+      "at": [
+        "cannon:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "क्या अंग्रेज़ी भाषा (ESL) की कोई सहायता दी जाती है?",
+      "of": "4d801524",
+      "at": [
+        "cannon:ask.questions[7]"
+      ]
+    },
+    {
+      "t": "24 अक्टूबर 2026",
+      "of": "9a6ab731",
+      "at": [
+        "cannon:ask.asOf"
+      ]
+    },
+    {
       "t": "Educational Support Services (ESS) वह व्यवस्था है जिसके तहत छात्रों को व्यक्तिगत शैक्षणिक सहायता मिलती है: शैक्षणिक कोचिंग, ट्यूशन, सीखने से जुड़ी सुविधाएँ (accommodations), और पहचाने गए सीखने के अंतर वाले छात्रों के लिए विशेष सहायता।",
       "of": "f699e911",
       "at": [
@@ -157,25 +1058,10 @@
       ]
     },
     {
-      "t": "प्रकाशित नहीं। किसी बाहरी सेवा-प्रदाता की योजना बनाएँ।",
-      "of": "59549707",
-      "at": [
-        "hickory-grove-christian:services.verdicts.speech.head",
-        "hickory-grove-christian:services.verdicts.motor.head"
-      ]
-    },
-    {
       "t": "स्कूल की साइट पर स्पीच-लैंग्वेज थेरेपी का कोई उल्लेख नहीं है।",
       "of": "e4312a0f",
       "at": [
         "hickory-grove-christian:services.verdicts.speech.body"
-      ]
-    },
-    {
-      "t": "स्कूल की साइट पर न ऑक्यूपेशनल थेरेपी है, न फ़िज़िकल थेरेपी।",
-      "of": "97fecae0",
-      "at": [
-        "hickory-grove-christian:services.verdicts.motor.body"
       ]
     },
     {
@@ -207,20 +1093,6 @@
       ]
     },
     {
-      "t": "सीखने और पढ़ाई में सहायता",
-      "of": "b050d84b",
-      "at": [
-        "hickory-grove-christian:services.groups[0].name"
-      ]
-    },
-    {
-      "t": "विशेष शिक्षक",
-      "of": "04298f91",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ]
-    },
-    {
       "t": "“ESS शिक्षकों और शैक्षणिक कोच/ट्यूटरों के पास विशेष प्रशिक्षण है।” ESS के दो शिक्षकों और दो शिक्षक सहायकों के नाम दिए गए हैं।",
       "of": "bdb06ce6",
       "at": [
@@ -228,24 +1100,10 @@
       ]
     },
     {
-      "t": "पढ़ने में हस्तक्षेप",
-      "of": "18b7d3f0",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ]
-    },
-    {
       "t": "किसी पद्धति का नाम नहीं (जैसे Orton-Gillingham, संरचित साक्षरता)।",
       "of": "2f135778",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[1].detail"
-      ]
-    },
-    {
-      "t": "गणित में हस्तक्षेप",
-      "of": "9fc9f294",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[2].service"
       ]
     },
     {
@@ -284,13 +1142,6 @@
       ]
     },
     {
-      "t": "एग्ज़ीक्यूटिव फ़ंक्शन कोचिंग",
-      "of": "7e3c07fa",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ]
-    },
-    {
       "t": "ESS “अपनी बात ख़ुद रखने, संगठन कौशल, निजी ज़िम्मेदारी और अन्य एग्ज़ीक्यूटिव फ़ंक्शनिंग कौशल” को बढ़ावा देता है। हाई स्कूल में Academic Coaching, हफ़्ते में 3 घंटे तक: $2,227 प्रति वर्ष, या $1,113 प्रति सेमेस्टर।",
       "of": "ce6686ad",
       "at": [
@@ -326,24 +1177,10 @@
       ]
     },
     {
-      "t": "विशेष रूप से तैयार की गई पढ़ाई",
-      "of": "0add9126",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ]
-    },
-    {
       "t": "“Applied Interventions/Specially Designed Instruction”, जिसे “पेशेवर निदान, शिक्षकों की प्रतिक्रिया, विशेषज्ञों के अवलोकन” के आधार पर योजना में जोड़ा जाता है: $1,500 से $2,000 प्रति वर्ष।",
       "of": "36b0de5d",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[8].detail"
-      ]
-    },
-    {
-      "t": "अलग कार्यक्रम / अलग कक्षा",
-      "of": "2586e367",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[9].service"
       ]
     },
     {
@@ -354,24 +1191,10 @@
       ]
     },
     {
-      "t": "प्रतिभाशाली / उन्नत",
-      "of": "2de5aed3",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ]
-    },
-    {
       "t": "Student Services पेज पर उल्लेख है; कार्यक्रम का कोई विवरण नहीं।",
       "of": "9fe62351",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[10].detail"
-      ]
-    },
-    {
-      "t": "पात्रता के दस्तावेज़",
-      "of": "4702441c",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[11].service"
       ]
     },
     {
@@ -382,57 +1205,6 @@
       ]
     },
     {
-      "t": "थेरेपी और संबंधित सेवाएँ",
-      "of": "832d48e5",
-      "at": [
-        "hickory-grove-christian:services.groups[1].name"
-      ]
-    },
-    {
-      "t": "स्पीच-लैंग्वेज थेरेपी",
-      "of": "b37d3705",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ]
-    },
-    {
-      "t": "स्कूल ने इसका उल्लेख नहीं किया है।",
-      "of": "6bbf4ac9",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ]
-    },
-    {
-      "t": "ऑक्यूपेशनल थेरेपी",
-      "of": "e216f28e",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ]
-    },
-    {
-      "t": "फ़िज़िकल थेरेपी",
-      "of": "2ab8c569",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ]
-    },
-    {
-      "t": "आकलन",
-      "of": "7f464e4f",
-      "at": [
-        "hickory-grove-christian:services.groups[2].name"
-      ]
-    },
-    {
-      "t": "टेस्ट में सुविधाएँ",
-      "of": "c0f1a794",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ]
-    },
-    {
       "t": "मंज़ूर की गई कक्षा से बाहर या कक्षा के भीतर टेस्टिंग: 1 विषय के लिए $370 प्रति वर्ष, 2 के लिए $760, 3 या ज़्यादा के लिए $1,200।",
       "of": "abc72bd6",
       "at": [
@@ -440,25 +1212,10 @@
       ]
     },
     {
-      "t": "प्रवेश परीक्षा",
-      "of": "3e1537ff",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[1].service",
-        "hickory-grove-christian:testing.entries[2].title"
-      ]
-    },
-    {
       "t": "प्रवेश कार्यालय को सभी ज़रूरी फ़ॉर्म मिल जाने के बाद Student Services कार्यालय इसे तय करता है।",
       "of": "381205a8",
       "at": [
         "hickory-grove-christian:services.groups[2].rows[1].detail"
-      ]
-    },
-    {
-      "t": "साइकोएजुकेशनल मूल्यांकन",
-      "of": "69f00356",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[2].service"
       ]
     },
     {
@@ -470,31 +1227,10 @@
       ]
     },
     {
-      "t": "वेलनेस और स्वास्थ्य",
-      "of": "92456e4a",
-      "at": [
-        "hickory-grove-christian:services.groups[3].name"
-      ]
-    },
-    {
-      "t": "परामर्श और भावनात्मक सहायता",
-      "of": "0613b801",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ]
-    },
-    {
       "t": "वेलनेस टीम “मेंटरशिप और शिष्यत्व के ज़रिए बाइबल-आधारित परामर्श, साथियों के सहायता समूह” देती है। हाई स्कूल में परामर्श के निदेशक (Director of Counseling) हैं। यह टीम ESS से अलग है, और स्कूल इसकी सहायता को क्लिनिकल या व्यवहार संबंधी हस्तक्षेप के रूप में नहीं बताता।",
       "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
-      ]
-    },
-    {
-      "t": "भावनात्मक और व्यवहार संबंधी हस्तक्षेप",
-      "of": "a9f79269",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[1].service"
       ]
     },
     {
@@ -505,53 +1241,10 @@
       ]
     },
     {
-      "t": "संकट के समय के संसाधन",
-      "of": "e074ef65",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ]
-    },
-    {
       "t": "Mental Health & Crisis Resources पेज पर 988 Suicide & Crisis Lifeline और NC Peer Warmline दी गई हैं।",
       "of": "91495fc0",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[2].detail"
-      ]
-    },
-    {
-      "t": "स्कूल मनोवैज्ञानिक",
-      "of": "61585e81",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ]
-    },
-    {
-      "t": "किसी का नाम नहीं दिया गया।",
-      "of": "59c2d1bc",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ]
-    },
-    {
-      "t": "स्कूल नर्स",
-      "of": "cf02f710",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ]
-    },
-    {
-      "t": "भाषा",
-      "of": "9a73db9b",
-      "at": [
-        "hickory-grove-christian:services.groups[4].name"
-      ]
-    },
-    {
-      "t": "ESL / अंग्रेज़ी भाषा में सहायता",
-      "of": "ffd3df8c",
-      "at": [
-        "hickory-grove-christian:services.groups[4].rows[0].service"
       ]
     },
     {
@@ -566,27 +1259,6 @@
       "of": "5d8ec697",
       "at": [
         "hickory-grove-christian:therapy.headline"
-      ]
-    },
-    {
-      "t": "स्पीच-लैंग्वेज",
-      "of": "d9f2c22c",
-      "at": [
-        "hickory-grove-christian:therapy.items[0].name"
-      ]
-    },
-    {
-      "t": "ऑक्यूपेशनल",
-      "of": "a971a0b7",
-      "at": [
-        "hickory-grove-christian:therapy.items[1].name"
-      ]
-    },
-    {
-      "t": "फ़िज़िकल",
-      "of": "d7c1ee80",
-      "at": [
-        "hickory-grove-christian:therapy.items[2].name"
       ]
     },
     {

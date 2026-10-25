@@ -5,6 +5,1030 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Cannon’s Learning Support Program “helps students with diagnosed learning differences become successful learners and confident self-advocates,” with a learning specialist in each division from Junior Kindergarten through 12th grade.",
+      "of": "b6dea18a",
+      "at": [
+        "cannon:lead.strong"
+      ],
+      "t": "Learning Support Program Cannon an “ede elèv ki gen diferans nan fason yo aprann ki dyagnostike vin elèv ki reyisi ak moun ki gen konfyans pou defann pwòp bezwen yo”, ak yon espesyalis aprantisaj nan chak divizyon depi Junior Kindergarten rive nan 12yèm ane."
+    },
+    {
+      "text": "The school publishes no fee for learning support.",
+      "of": "70699aac",
+      "at": [
+        "cannon:lead.muted"
+      ],
+      "t": "Lekòl la pa pibliye okenn frè pou sipò aprantisaj."
+    },
+    {
+      "text": "served by the program",
+      "of": "1cbb93d6",
+      "at": [
+        "cannon:stats[0].label"
+      ],
+      "t": "pwogram nan sèvi"
+    },
+    {
+      "text": "Junior Kindergarten through 12th grade, across the Lower, Middle and Upper Schools",
+      "of": "1d6d8339",
+      "at": [
+        "cannon:stats[0].note"
+      ],
+      "t": "depi Junior Kindergarten rive nan 12yèm ane, nan Lower School, Middle School ak Upper School"
+    },
+    {
+      "text": "learning specialists and deans",
+      "of": "e2a0d2a5",
+      "at": [
+        "cannon:stats[1].label"
+      ],
+      "t": "espesyalis aprantisaj ak dwayen"
+    },
+    {
+      "text": "one in the Lower School, one in the Middle School, two in the Upper School",
+      "of": "77e7210b",
+      "at": [
+        "cannon:stats[1].note"
+      ],
+      "t": "youn nan Lower School, youn nan Middle School, de nan Upper School"
+    },
+    {
+      "text": "Upper School students used the ARC",
+      "of": "bc17bed3",
+      "at": [
+        "cannon:stats[2].label"
+      ],
+      "t": "elèv Upper School te itilize ARC la"
+    },
+    {
+      "text": "“last year,” per the school’s story on the Hudson ARC’s Aug. 31 opening",
+      "of": "cf0d9078",
+      "at": [
+        "cannon:stats[2].note"
+      ],
+      "t": "“ane pase”, dapre atik lekòl la sou ouvèti Hudson ARC la 31 out"
+    },
+    {
+      "text": "school counselors",
+      "of": "83d116a4",
+      "at": [
+        "cannon:stats[3].label"
+      ],
+      "t": "konseye lekòl"
+    },
+    {
+      "text": "Junior Kindergarten through 12th grade, on the Student Support Team",
+      "of": "cdc6b432",
+      "at": [
+        "cannon:stats[3].note"
+      ],
+      "t": "depi Junior Kindergarten rive nan 12yèm ane, nan Student Support Team lan"
+    },
+    {
+      "text": "Learning support is for enrolled Cannon students with a diagnosed learning difference, documented by a recent psychoeducational evaluation.",
+      "of": "a70169ad",
+      "at": [
+        "cannon:eligibility.headline"
+      ],
+      "t": "Sipò aprantisaj la se pou elèv ki enskri nan Cannon ki gen yon diferans nan fason yo aprann ki dyagnostike, dokimante pa yon evalyasyon psikoedikasyonèl resan."
+    },
+    {
+      "text": "The policy requires that the student “must be a current student enrolled at Cannon School,” that parents “complete a request for Learning Support Services,” a “history of academic difficulty,” and a learning difference “diagnosed and documented by a certified professional in a recent (last 3 years) formal psycho-educational evaluation” done “by a licensed clinical psychologist.”",
+      "of": "adfe40d1",
+      "at": [
+        "cannon:eligibility.eligible"
+      ],
+      "t": "Règleman an egzije elèv la “dwe yon elèv ki enskri kounye a nan Cannon School”, paran yo “ranpli yon demann pou sèvis Learning Support”, yon “istwa difikilte akademik”, ak yon diferans nan fason elèv la aprann “ki dyagnostike epi dokimante pa yon pwofesyonèl sètifye nan yon evalyasyon psikoedikasyonèl fòmèl resan (3 dènye ane yo)” ki fèt “pa yon sikològ klinik ki gen lisans”."
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans or IEPs. Accommodations need documentation: “No accommodation will be provided unless a disclosure with appropriate documentation has been made to the school,” and “No official Learning Plan will be constructed without a complete psychological-educational evaluation.” The request form asks what accommodations the student has had in the past.",
+      "of": "d83454dd",
+      "at": [
+        "cannon:eligibility.plan"
+      ],
+      "t": "Paj lekòl la pa mansyone plan 504 ni IEP. Akomodasyon yo bezwen dokiman: “Okenn akomodasyon p ap bay si yo pa fè lekòl la yon divilgasyon ak dokiman ki apwopriye”, epi “Okenn Learning Plan ofisyèl p ap fèt san yon evalyasyon psikoedikasyonèl konplè”. Fòm demann lan mande ki akomodasyon elèv la te genyen nan tan pase."
+    },
+    {
+      "text": "“Acceptance of a student into Cannon School does not imply that the school will assume the responsibility for all of the special learning needs of the child, especially when such needs may require a modification/alteration of the school’s curriculum or when the child’s needs are beyond Cannon’s present resources.”",
+      "of": "907c47b3",
+      "at": [
+        "cannon:eligibility.scope"
+      ],
+      "t": "“Lè Cannon School aksepte yon elèv, sa pa vle di lekòl la ap pran responsablite pou tout bezwen aprantisaj espesyal timoun nan, sitou lè bezwen sa yo ka mande yon modifikasyon/chanjman nan kourikoulòm lekòl la oswa lè bezwen timoun nan depase resous Cannon genyen kounye a.”"
+    },
+    {
+      "text": "For a hearing, speech/language or vision impairment without a full evaluation, accommodations “will be considered on a case-by-case basis.”",
+      "of": "5a871f3d",
+      "at": [
+        "cannon:eligibility.note"
+      ],
+      "t": "Pou yon pwoblèm tande, pale/langaj oswa wè san yon evalyasyon konplè, akomodasyon yo “ap konsidere ka pa ka”."
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. Cannon publishes no fee for any of them. Pick your child’s need to see what applies.",
+      "of": "e7c96dbc",
+      "at": [
+        "cannon:services.headline"
+      ],
+      "t": "Chak sèvis paj lekòl la dekri, ranje an gwoup e make dapre kiyès ki bay li. Cannon pa pibliye okenn frè pou yonn nan yo. Chwazi bezwen pitit ou pou wè sa ki aplike."
+    },
+    {
+      "text": "A Lower School reading interventionist and specialist-built learning plans. No reading method is named.",
+      "of": "2ac70f56",
+      "at": [
+        "cannon:services.verdicts.read.head"
+      ],
+      "t": "Yon espesyalis entèvansyon nan lekti nan Lower School ak plan aprantisaj espesyalis yo fè. Yo pa nonmen okenn metòd lekti."
+    },
+    {
+      "text": "The Reading Interventionist “may provide small-group instruction designed to close specific skill gaps.” Ask which reading approach is used, and what reading support looks like after 4th grade.",
+      "of": "6b94c6ee",
+      "at": [
+        "cannon:services.verdicts.read.body"
+      ],
+      "t": "Espesyalis entèvansyon nan lekti a “ka bay ansèyman an ti gwoup ki fèt pou ranpli twou nan konpetans espesifik”. Mande ki apwòch lekti yo itilize, ak kijan sipò lekti a ye apre 4yèm ane."
+    },
+    {
+      "text": "One-on-one executive-function coaching in the Middle and Upper Schools.",
+      "of": "0e7ab250",
+      "at": [
+        "cannon:services.verdicts.attn.head"
+      ],
+      "t": "Coaching fonksyon egzekitif youn-a-youn nan Middle School ak Upper School."
+    },
+    {
+      "text": "Upper School Academic Coaches work “in a relational 1:1 environment” on “planning, organization, task initiation, flexibility, attention, self-control, metacognition, and more.”",
+      "of": "02ee6371",
+      "at": [
+        "cannon:services.verdicts.attn.body"
+      ],
+      "t": "Academic Coaches Upper School yo travay “nan yon anviwònman relasyonèl 1:1” sou “planifikasyon, òganizasyon, kòmanse travay, fleksibilite, atansyon, kontwòl tèt ou, metakognisyon, ak plis ankò”."
+    },
+    {
+      "text": "Peer-led Math Lab in the Upper School. No math-specific intervention is named.",
+      "of": "2574b402",
+      "at": [
+        "cannon:services.verdicts.math.head"
+      ],
+      "t": "Yon Math Lab elèv yo dirije nan Upper School. Yo pa nonmen okenn entèvansyon espesyal pou matematik."
+    },
+    {
+      "text": "In the Math Lab, “Tutors and teachers partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.",
+      "of": "282fc3de",
+      "at": [
+        "cannon:services.verdicts.math.body"
+      ],
+      "t": "Nan Math Lab la, “titè ak pwofesè travay ansanm ak elèv yo pou dekoupe konsèp ki difisil yo”. Lekòl la pa dekri okenn entèvansyon nan matematik anvan Upper School."
+    },
+    {
+      "text": "By referral. Plan on an outside provider.",
+      "of": "c1e67792",
+      "at": [
+        "cannon:services.verdicts.speech.head"
+      ],
+      "t": "Pa referans. Planifye ak yon founisè deyò."
+    },
+    {
+      "text": "The Lower School Learning Specialist gives “guidance for families to secure external resources, such as speech therapists or tutors.”",
+      "of": "31cae7e2",
+      "at": [
+        "cannon:services.verdicts.speech.body"
+      ],
+      "t": "Espesyalis aprantisaj Lower School la bay “konsèy pou fanmi yo jwenn resous deyò, tankou terapis lapawòl oswa titè”."
+    },
+    {
+      "text": "Not published. Plan on an outside provider.",
+      "of": "59549707",
+      "at": [
+        "cannon:services.verdicts.motor.head",
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ],
+      "t": "Pa pibliye. Planifye ak yon founisè deyò."
+    },
+    {
+      "text": "Neither occupational nor physical therapy appears on the school’s site.",
+      "of": "97fecae0",
+      "at": [
+        "cannon:services.verdicts.motor.body",
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ],
+      "t": "Ni terapi okipasyonèl ni fizyoterapi pa parèt sou sit lekòl la."
+    },
+    {
+      "text": "Five counselors offer short-term counseling and refer out for longer-term therapy.",
+      "of": "e493d5a1",
+      "at": [
+        "cannon:services.verdicts.social.head"
+      ],
+      "t": "Senk konseye ofri konsèy kout tèm epi refere pou terapi pi long tèm."
+    },
+    {
+      "text": "Lower School counselors provide “short-term individual counseling sessions” and “community resource referrals (including longer-term therapy services).”",
+      "of": "5ec707f7",
+      "at": [
+        "cannon:services.verdicts.social.body"
+      ],
+      "t": "Konseye Lower School yo bay “sesyon konsèy endividyèl kout tèm” ak “referans pou resous nan kominote a (ladan l sèvis terapi pi long tèm)”."
+    },
+    {
+      "text": "Reading enrichment in the Lower School and an advanced course track in the Upper School.",
+      "of": "0f0379a9",
+      "at": [
+        "cannon:services.verdicts.gifted.head"
+      ],
+      "t": "Anrichisman nan lekti nan Lower School ak yon chemen kou avanse nan Upper School."
+    },
+    {
+      "text": "The Reading Interventionist “may offer targeted academic enrichment”; the Upper School offers Honors Accelerated, AP and AT courses and an Independent Study Program. No formal gifted program is described.",
+      "of": "3b6931be",
+      "at": [
+        "cannon:services.verdicts.gifted.body"
+      ],
+      "t": "Espesyalis entèvansyon nan lekti a “ka ofri anrichisman akademik ki vize”; Upper School ofri kou Honors Accelerated, AP ak AT ak yon Independent Study Program. Yo pa dekri okenn pwogram fòmèl pou elèv ki gen don."
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "cannon:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "Sipò pou aprantisaj ak etid"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "cannon:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "Pwofesè espesyalize"
+    },
+    {
+      "text": "“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.",
+      "of": "135a601a",
+      "at": [
+        "cannon:services.groups[0].rows[0].detail"
+      ],
+      "t": "“Yon espesyalis aprantisaj espesyalman pou chak divizyon, Lower School, Middle School ak Upper School.” Yo nonmen kat, plis yon espesyalis entèvansyon nan lekti nan Lower School."
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "cannon:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "Entèvansyon nan lekti"
+    },
+    {
+      "text": "Lower School small groups with the Reading Interventionist “designed to close specific skill gaps.” No method (e.g., Orton-Gillingham, structured literacy) is named.",
+      "of": "8dd7a217",
+      "at": [
+        "cannon:services.groups[0].rows[1].detail"
+      ],
+      "t": "Ti gwoup nan Lower School ak espesyalis entèvansyon nan lekti a, “ki fèt pou ranpli twou nan konpetans espesifik”. Yo pa nonmen okenn metòd (pa egzanp, Orton-Gillingham, alfabetizasyon estriktire)."
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "cannon:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "Entèvansyon nan matematik"
+    },
+    {
+      "text": "No math-specific intervention described; the Upper School Math Lab is peer tutoring.",
+      "of": "3b048950",
+      "at": [
+        "cannon:services.groups[0].rows[2].detail"
+      ],
+      "t": "Yo pa dekri okenn entèvansyon espesyal pou matematik; Math Lab Upper School la se titora ant elèv."
+    },
+    {
+      "text": "1:1 / small-group instruction",
+      "of": "c8ed8f2d",
+      "at": [
+        "cannon:services.groups[0].rows[3].service"
+      ],
+      "t": "Ansèyman 1:1 / an ti gwoup"
+    },
+    {
+      "text": "Small-group reading in the Lower School; one-on-one coaching with the Middle and Upper School learning specialists.",
+      "of": "66f4289e",
+      "at": [
+        "cannon:services.groups[0].rows[3].detail"
+      ],
+      "t": "Lekti an ti gwoup nan Lower School; coaching youn-a-youn ak espesyalis aprantisaj Middle School ak Upper School yo."
+    },
+    {
+      "text": "Academic Labs (9–12)",
+      "of": "736b950c",
+      "at": [
+        "cannon:services.groups[0].rows[4].service"
+      ],
+      "t": "Laboratwa akademik (9–12)"
+    },
+    {
+      "text": "“Faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, “available at consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”",
+      "of": "757034b7",
+      "at": [
+        "cannon:services.groups[0].rows[4].detail"
+      ],
+      "t": "“Titora ant elèv, pwofesè yo fasilite, nan ekriti, matematik ak syans”, plis yon World Languages Lab, “ki disponib nan lè ak kote ki fiks pandan jounen lekòl la”. Nan Middle School, èd pwofesè yo: “Yo pa mande okenn frè.”"
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "cannon:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "Coaching pou fonksyon egzekitif"
+    },
+    {
+      "text": "One-on-one academic coaching in the Middle School and, in the Upper School, Academic Coaches who build “executive functioning (EF) skills.”",
+      "of": "b944a709",
+      "at": [
+        "cannon:services.groups[0].rows[5].detail"
+      ],
+      "t": "Coaching akademik youn-a-youn nan Middle School epi, nan Upper School, Academic Coaches ki devlope “konpetans fonksyon egzekitif (EF)”."
+    },
+    {
+      "text": "Learning-support class",
+      "of": "fd470495",
+      "at": [
+        "cannon:services.groups[0].rows[6].service"
+      ],
+      "t": "Kou sipò aprantisaj"
+    },
+    {
+      "text": "No learning-support course appears in the 2026-2027 Upper School Course Catalog.",
+      "of": "29a87cfd",
+      "at": [
+        "cannon:services.groups[0].rows[6].detail"
+      ],
+      "t": "Okenn kou sipò aprantisaj pa parèt nan katalòg kou 2026-2027 Upper School la."
+    },
+    {
+      "text": "Accommodations & learning plan",
+      "of": "c65478ab",
+      "at": [
+        "cannon:services.groups[0].rows[7].service"
+      ],
+      "t": "Akomodasyon ak plan aprantisaj"
+    },
+    {
+      "text": "The Learning Specialist writes a Learning Plan listing classroom and testing accommodations, such as “preferential seating, note-taking assistance, extended time for tests, alternate assessment location.”",
+      "of": "94accb8c",
+      "at": [
+        "cannon:services.groups[0].rows[7].detail"
+      ],
+      "t": "Espesyalis aprantisaj la ekri yon Learning Plan ki bay lis akomodasyon nan klas ak pou tès, tankou “plas preferansyèl, èd pou pran nòt, plis tan pou egzamen, lòt kote pou evalyasyon”."
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "cannon:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "Ansèyman ki fèt espesyalman"
+    },
+    {
+      "text": "Not described. The policy says acceptance does not imply responsibility for needs that “may require a modification/alteration of the school’s curriculum.”",
+      "of": "4bf311f2",
+      "at": [
+        "cannon:services.groups[0].rows[8].detail"
+      ],
+      "t": "Pa dekri. Règleman an di admisyon pa vle di lekòl la responsab bezwen ki “ka mande yon modifikasyon/chanjman nan kourikoulòm lekòl la”."
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "cannon:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "Pwogram apa / klas separe"
+    },
+    {
+      "text": "No separate program described; the Middle School ARC brings “neurodiverse and non-neurodiverse learners” together “side by side.”",
+      "of": "e2111c64",
+      "at": [
+        "cannon:services.groups[0].rows[9].detail"
+      ],
+      "t": "Yo pa dekri okenn pwogram apa; ARC Middle School la mete “elèv newodivès ak elèv ki pa newodivès” ansanm “kòt a kòt”."
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "cannon:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "Elèv ki gen don / nivo avanse"
+    },
+    {
+      "text": "Lower School reading enrichment; Upper School Honors Accelerated, AP and AT courses and an Independent Study Program. No formal gifted program.",
+      "of": "cb785b1f",
+      "at": [
+        "cannon:services.groups[0].rows[10].detail"
+      ],
+      "t": "Anrichisman nan lekti nan Lower School; nan Upper School, kou Honors Accelerated, AP ak AT ak yon Independent Study Program. Pa gen pwogram fòmèl pou elèv ki gen don."
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "cannon:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "Dokiman pou kalifye"
+    },
+    {
+      "text": "A complete psychoeducational evaluation from the last 3 years, with “test results with subtest scores (standard or scaled scores)” and recommended accommodations.",
+      "of": "48d33a03",
+      "at": [
+        "cannon:services.groups[0].rows[11].detail"
+      ],
+      "t": "Yon evalyasyon psikoedikasyonèl konplè ki fèt nan 3 dènye ane yo, ak “rezilta tès ak nòt pou chak sou-tès (nòt estanda oswa nòt ajiste)” ak akomodasyon yo rekòmande."
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "cannon:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "Terapi ak sèvis ki gen rapò"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "cannon:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "Terapi pou pale ak langaj"
+    },
+    {
+      "text": "The Lower School Learning Specialist helps families “secure external resources, such as speech therapists.”",
+      "of": "732b1c0e",
+      "at": [
+        "cannon:services.groups[1].rows[0].detail"
+      ],
+      "t": "Espesyalis aprantisaj Lower School la ede fanmi yo “jwenn resous deyò, tankou terapis lapawòl”."
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "cannon:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "Terapi okipasyonèl"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "Lekòl la pa mansyone l."
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "cannon:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "Fizyoterapi"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "cannon:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "Evalyasyon"
+    },
+    {
+      "text": "Early identification (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "cannon:services.groups[2].rows[0].service"
+      ],
+      "t": "Idantifikasyon bonè (JK–2)"
+    },
+    {
+      "text": "Learning support in JK–2 “focuses on early identification and classroom-based interventions”; the Learning Specialist works with teachers “to assess student needs.”",
+      "of": "b9164064",
+      "at": [
+        "cannon:services.groups[2].rows[0].detail"
+      ],
+      "t": "Sipò aprantisaj nan JK–2 “konsantre sou idantifikasyon bonè ak entèvansyon nan klas la”; espesyalis aprantisaj la travay ak pwofesè yo “pou evalye bezwen elèv yo”."
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "cannon:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "Aranjman pou tès"
+    },
+    {
+      "text": "Testing accommodations are part of each Learning Plan. Once a plan has been in place “for at least four months,” the Learning Specialist may help families request College Board and ACT accommodations.",
+      "of": "066d918c",
+      "at": [
+        "cannon:services.groups[2].rows[1].detail"
+      ],
+      "t": "Akomodasyon pou tès fè pati chak Learning Plan. Lè yon plan an plas “pou omwen kat mwa”, espesyalis aprantisaj la ka ede fanmi yo mande akomodasyon College Board ak ACT."
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "cannon:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ],
+      "t": "Tès antre"
+    },
+    {
+      "text": "The admissions checklist “may include” an Entrance Evaluation and a Readiness Evaluation.",
+      "of": "74877feb",
+      "at": [
+        "cannon:services.groups[2].rows[2].detail"
+      ],
+      "t": "Lis admisyon an “ka gen ladan l” yon Entrance Evaluation ak yon Readiness Evaluation."
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "cannon:services.groups[2].rows[3].service",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "Evalyasyon psikoedikasyonèl"
+    },
+    {
+      "text": "Families supply it, from “a licensed clinical psychologist.” The school does not say it tests in-house or name providers.",
+      "of": "d50808ad",
+      "at": [
+        "cannon:services.groups[2].rows[3].detail"
+      ],
+      "t": "Se fanmi yo ki bay li, nan men “yon sikològ klinik ki gen lisans”. Lekòl la pa di li fè tès anndan l, ni li pa nonmen founisè."
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "cannon:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "Byennèt ak sante"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "cannon:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "Konsèy ak sipò emosyonèl"
+    },
+    {
+      "text": "Five school counselors offer wellness lessons, check-ins, “short-term individual counseling sessions” and small groups, working “in collaboration with Learning Specialists.”",
+      "of": "8e6bc998",
+      "at": [
+        "cannon:services.groups[3].rows[0].detail"
+      ],
+      "t": "Senk konseye lekòl ofri leson sou byennèt, ti chèk-in, “sesyon konsèy endividyèl kout tèm” ak ti gwoup, yo travay “an kolaborasyon ak espesyalis aprantisaj yo”."
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "cannon:services.groups[3].rows[1].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "Entèvansyon pou emosyon ak konpòtman"
+    },
+    {
+      "text": "Longer-term help is by referral: counselors provide “community resource referrals (including longer-term therapy services).”",
+      "of": "2a783fab",
+      "at": [
+        "cannon:services.groups[3].rows[1].detail"
+      ],
+      "t": "Èd pi long tèm se pa referans: konseye yo bay “referans pou resous nan kominote a (ladan l sèvis terapi pi long tèm)”."
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "cannon:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "Resous pou kriz"
+    },
+    {
+      "text": "A Mental Health and Crisis Resources page lists the Suicide and Crisis Lifeline (“call 988 or text HOME to 741741”) and the NC Peer Warmline; Middle School counselors provide “support to students in crisis.”",
+      "of": "e7218f6f",
+      "at": [
+        "cannon:services.groups[3].rows[2].detail"
+      ],
+      "t": "Yon paj Mental Health and Crisis Resources bay Suicide and Crisis Lifeline (“rele 988 oswa voye HOME pa tèks nan 741741”) ak NC Peer Warmline; konseye Middle School yo bay “sipò pou elèv ki nan kriz”."
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "cannon:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "Sikològ lekòl"
+    },
+    {
+      "text": "None named.",
+      "of": "59c2d1bc",
+      "at": [
+        "cannon:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ],
+      "t": "Pa gen non ki bay."
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "cannon:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "Enfimyè lekòl"
+    },
+    {
+      "text": "A Lead School Nurse and a School Nurse are listed in the staff directory.",
+      "of": "aed15d04",
+      "at": [
+        "cannon:services.groups[3].rows[4].detail"
+      ],
+      "t": "Lis estaf la gen yon Lead School Nurse (enfimyè prensipal lekòl) ak yon School Nurse (enfimyè lekòl)."
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "cannon:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "Lang"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "cannon:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / sipò nan angle"
+    },
+    {
+      "text": "International students enroll through an approved placement agency; no English-language support is described.",
+      "of": "b2806197",
+      "at": [
+        "cannon:services.groups[4].rows[0].detail"
+      ],
+      "t": "Elèv entènasyonal yo enskri atravè yon ajans plasman ki apwouve; yo pa dekri okenn sipò nan lang angle."
+    },
+    {
+      "text": "Speech therapy is by referral. The school’s site lists no occupational or physical therapy.",
+      "of": "55cb993b",
+      "at": [
+        "cannon:therapy.headline"
+      ],
+      "t": "Terapi lapawòl se pa referans. Sit lekòl la pa mansyone terapi okipasyonèl ni fizyoterapi."
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "cannon:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "Pale ak langaj"
+    },
+    {
+      "text": "The Learning Specialist helps families find an outside speech therapist.",
+      "of": "2ed2d14a",
+      "at": [
+        "cannon:therapy.items[0].detail"
+      ],
+      "t": "Espesyalis aprantisaj la ede fanmi yo jwenn yon terapis lapawòl deyò."
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "cannon:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "Okipasyonèl"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "cannon:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "Fizik"
+    },
+    {
+      "text": "No therapist appears in the school’s staff directory. Ask whether an outside therapist can see your child on campus during the school day.",
+      "of": "0a5b1bb9",
+      "at": [
+        "cannon:therapy.note"
+      ],
+      "t": "Okenn terapis pa parèt nan lis estaf lekòl la. Mande si yon terapis deyò ka wè pitit ou sou kanpis la pandan jounen lekòl la."
+    },
+    {
+      "text": "Cannon doesn’t run diagnostic testing itself. Families bring a recent psychologist’s evaluation, and the school identifies early needs in the classroom.",
+      "of": "842d7050",
+      "at": [
+        "cannon:testing.headline"
+      ],
+      "t": "Cannon pa fè tès dyagnostik li menm. Fanmi yo pote yon evalyasyon resan yon sikològ fè, epi lekòl la idantifye bezwen bonè yo nan klas la."
+    },
+    {
+      "text": "A recent psychoeducational evaluation",
+      "of": "5a57c05e",
+      "at": [
+        "cannon:testing.entries[0].title"
+      ],
+      "t": "Yon evalyasyon psikoedikasyonèl resan"
+    },
+    {
+      "text": "The evaluation must be from “a recent (last 3 years)” period and done “by a licensed clinical psychologist,” with “comprehensive cognitive and academic assessment.”",
+      "of": "785e47f3",
+      "at": [
+        "cannon:testing.entries[0].text"
+      ],
+      "t": "Evalyasyon an dwe soti nan yon peryòd “resan (3 dènye ane yo)” epi fèt “pa yon sikològ klinik ki gen lisans”, ak “yon evalyasyon kognitif ak akademik konplè”."
+    },
+    {
+      "text": "The school does not test in-house or name providers.",
+      "of": "8be27782",
+      "at": [
+        "cannon:testing.entries[0].muted"
+      ],
+      "t": "Lekòl la pa fè tès anndan l, ni li pa nonmen founisè."
+    },
+    {
+      "text": "Classroom identification, JK–2",
+      "of": "5b17498c",
+      "at": [
+        "cannon:testing.entries[1].title"
+      ],
+      "t": "Idantifikasyon nan klas, JK–2"
+    },
+    {
+      "text": "The Learning Specialist “collaborates closely with teachers to assess student needs, differentiate instruction, and implement targeted strategies within the classroom.”",
+      "of": "888e798a",
+      "at": [
+        "cannon:testing.entries[1].text"
+      ],
+      "t": "Espesyalis aprantisaj la “travay kole kole ak pwofesè yo pou evalye bezwen elèv yo, adapte ansèyman an, epi aplike estrateji ki vize nan klas la”."
+    },
+    {
+      "text": "Entrance evaluations",
+      "of": "844d1d18",
+      "at": [
+        "cannon:testing.entries[2].title"
+      ],
+      "t": "Evalyasyon pou antre"
+    },
+    {
+      "text": "Admission decisions draw on “entrance testing results,” among other things; the checklist may include an Entrance Evaluation and a Readiness Evaluation.",
+      "of": "967ddbc0",
+      "at": [
+        "cannon:testing.entries[2].text"
+      ],
+      "t": "Desizyon admisyon yo baze, pami lòt bagay, sou “rezilta tès antre yo”; lis la ka gen ladan l yon Entrance Evaluation ak yon Readiness Evaluation."
+    },
+    {
+      "text": "College Board and ACT accommodations",
+      "of": "1c3e39b8",
+      "at": [
+        "cannon:testing.entries[3].title"
+      ],
+      "t": "Akomodasyon College Board ak ACT"
+    },
+    {
+      "text": "For juniors and seniors, “additional guidance is offered to help navigate the process of requesting testing accommodations from the College Board and ACT,” once a Learning Plan has been in place for at least four months.",
+      "of": "8f3c3cf5",
+      "at": [
+        "cannon:testing.entries[3].text"
+      ],
+      "t": "Pou elèv twazyèm ak dènye ane yo, “yo ofri plis konsèy pou ede yo navige pwosesis pou mande akomodasyon pou tès nan College Board ak ACT”, lè yon Learning Plan an plas pou omwen kat mwa."
+    },
+    {
+      "text": "Twelve named staff: four learning specialists and deans, a reading interventionist, two ARC faculty and five school counselors.",
+      "of": "4554553b",
+      "at": [
+        "cannon:staff.headline"
+      ],
+      "t": "Douz manm estaf ki gen non: kat espesyalis aprantisaj ak dwayen, yon espesyalis entèvansyon nan lekti, de pwofesè ARC ak senk konseye lekòl."
+    },
+    {
+      "text": "Lower School Learning Specialist",
+      "of": "28342de9",
+      "at": [
+        "cannon:staff.people[0].role"
+      ],
+      "t": "Espesyalis aprantisaj Lower School"
+    },
+    {
+      "text": "Lower School Reading Interventionist",
+      "of": "b69d4dbd",
+      "at": [
+        "cannon:staff.people[1].role"
+      ],
+      "t": "Espesyalis entèvansyon nan lekti Lower School"
+    },
+    {
+      "text": "Middle School Dean of Academic Support",
+      "of": "8fef66e3",
+      "at": [
+        "cannon:staff.people[2].role"
+      ],
+      "t": "Dwayen sipò akademik Middle School"
+    },
+    {
+      "text": "Upper School Learning Specialist",
+      "of": "3464be0e",
+      "at": [
+        "cannon:staff.people[3].role"
+      ],
+      "t": "Espesyalis aprantisaj Upper School"
+    },
+    {
+      "text": "Upper School Dean of Academic Support",
+      "of": "0f3c5974",
+      "at": [
+        "cannon:staff.people[4].role"
+      ],
+      "t": "Dwayen sipò akademik Upper School"
+    },
+    {
+      "text": "Upper School Faculty, Academic Resource Center",
+      "of": "09b0748f",
+      "at": [
+        "cannon:staff.people[5].role",
+        "cannon:staff.people[6].role"
+      ],
+      "t": "Pwofesè Upper School, Academic Resource Center"
+    },
+    {
+      "text": "Lower School Counselor, Grades JrK - 2",
+      "of": "05b4c790",
+      "at": [
+        "cannon:staff.people[7].role"
+      ],
+      "t": "Konseye Lower School, klas JrK - 2"
+    },
+    {
+      "text": "Lower & Middle School Counselor, Grades 3 - 5",
+      "of": "a38d132c",
+      "at": [
+        "cannon:staff.people[8].role"
+      ],
+      "t": "Konseye Lower School ak Middle School, klas 3 - 5"
+    },
+    {
+      "text": "Middle School Counselor, Grades 6 - 8",
+      "of": "25ada6f3",
+      "at": [
+        "cannon:staff.people[9].role"
+      ],
+      "t": "Konseye Middle School, klas 6 - 8"
+    },
+    {
+      "text": "Upper School Counselor",
+      "of": "9b93583f",
+      "at": [
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ],
+      "t": "Konseye Upper School"
+    },
+    {
+      "text": "No single head of learning support is named.",
+      "of": "44ceaf4f",
+      "at": [
+        "cannon:staff.note.strong"
+      ],
+      "t": "Yo pa nonmen yon sèl responsab pou sipò aprantisaj."
+    },
+    {
+      "text": "Tracy Wade leads the Middle School’s Dovi Academic Resource Center; Jennifer Ridenhour leads the Upper School’s.",
+      "of": "f4cb36c2",
+      "at": [
+        "cannon:staff.note.muted"
+      ],
+      "t": "Tracy Wade dirije Dovi Academic Resource Center Middle School la; Jennifer Ridenhour dirije pa Upper School la."
+    },
+    {
+      "text": "Eight questions to take on the tour, covering what the school’s site leaves unanswered: fees, prior plans, methods, therapy, staff and timing.",
+      "of": "5adf038b",
+      "at": [
+        "cannon:ask.headline"
+      ],
+      "t": "Uit kesyon pou pote pandan vizit la, sou sa sit lekòl la pa reponn: frè, plan anvan, metòd, terapi, estaf ak delè."
+    },
+    {
+      "text": "Is there a fee for Learning Support, Upper School academic coaching or Middle School coaching, and does financial aid cover it?",
+      "of": "0f8bfb6d",
+      "at": [
+        "cannon:ask.questions[0]"
+      ],
+      "t": "Èske gen yon frè pou Learning Support, coaching akademik Upper School oswa coaching Middle School, epi èske èd finansye kouvri l?"
+    },
+    {
+      "text": "How is a 504 plan, IEP or prior school’s accommodations plan treated before the Learning Plan is written?",
+      "of": "9888806f",
+      "at": [
+        "cannon:ask.questions[1]"
+      ],
+      "t": "Kijan yo trete yon plan 504, yon IEP oswa plan akomodasyon yon ansyen lekòl anvan yo ekri Learning Plan lan?"
+    },
+    {
+      "text": "Which reading method does the Lower School Reading Interventionist use (e.g., Orton-Gillingham, Wilson, structured literacy), and how large are the groups?",
+      "of": "600a8c60",
+      "at": [
+        "cannon:ask.questions[2]"
+      ],
+      "t": "Ki metòd lekti espesyalis entèvansyon nan lekti Lower School la itilize (pa egzanp, Orton-Gillingham, Wilson, alfabetizasyon estriktire), epi ki gwosè gwoup yo?"
+    },
+    {
+      "text": "Is there math intervention below the Upper School?",
+      "of": "25d6aa2b",
+      "at": [
+        "cannon:ask.questions[3]"
+      ],
+      "t": "Èske gen entèvansyon nan matematik anvan Upper School?"
+    },
+    {
+      "text": "Can an outside speech, occupational or physical therapist see my child on campus during the school day?",
+      "of": "948abab1",
+      "at": [
+        "cannon:ask.questions[4]"
+      ],
+      "t": "Èske yon terapis lapawòl, okipasyonèl oswa fizik ki soti deyò ka wè pitit mwen sou kanpis la pandan jounen lekòl la?"
+    },
+    {
+      "text": "Is there a school psychologist, and do you keep a list of evaluators?",
+      "of": "249259e1",
+      "at": [
+        "cannon:ask.questions[5]"
+      ],
+      "t": "Èske gen yon sikològ lekòl, epi èske nou gen yon lis evalyatè?"
+    },
+    {
+      "text": "The policy covers current students only. Can a family share an evaluation, or plan for support, before enrollment?",
+      "of": "967d5f9e",
+      "at": [
+        "cannon:ask.questions[6]"
+      ],
+      "t": "Règleman an kouvri sèlman elèv ki la kounye a. Èske yon fanmi ka pataje yon evalyasyon, oswa planifye sipò, anvan enskripsyon?"
+    },
+    {
+      "text": "Is any English-language (ESL) support offered?",
+      "of": "4d801524",
+      "at": [
+        "cannon:ask.questions[7]"
+      ],
+      "t": "Èske yo ofri okenn sipò nan lang angle (ESL)?"
+    },
+    {
+      "text": "October 24, 2026",
+      "of": "9a6ab731",
+      "at": [
+        "cannon:ask.asOf"
+      ],
+      "t": "24 oktòb 2026"
+    },
+    {
       "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
       "of": "f699e911",
       "at": [
@@ -181,29 +1205,12 @@
       "t": "Matematik tonbe anba sipò akademik jeneral ESS ak leson 1:1 oswa an ti gwoup. Lekòl la pa dekri yon pwogram matematik pa li."
     },
     {
-      "text": "Not published. Plan on an outside provider.",
-      "of": "59549707",
-      "at": [
-        "hickory-grove-christian:services.verdicts.speech.head",
-        "hickory-grove-christian:services.verdicts.motor.head"
-      ],
-      "t": "Pa pibliye. Planifye ak yon founisè deyò."
-    },
-    {
       "text": "The school’s site lists no speech-language therapy.",
       "of": "e4312a0f",
       "at": [
         "hickory-grove-christian:services.verdicts.speech.body"
       ],
       "t": "Sit lekòl la pa mansyone okenn terapi pou pale ak langaj."
-    },
-    {
-      "text": "Neither occupational nor physical therapy appears on the school’s site.",
-      "of": "97fecae0",
-      "at": [
-        "hickory-grove-christian:services.verdicts.motor.body"
-      ],
-      "t": "Ni terapi okipasyonèl ni fizyoterapi pa parèt sou sit lekòl la."
     },
     {
       "text": "Faith-based counsel and peer support, but no emotional or behavioral intervention.",
@@ -238,22 +1245,6 @@
       "t": "Li dekri sipò pou “elèv ki gen don akademik ansanm ak elèv ki bezwen sipò akademik espesyalize”. Pa gen detay sou pwogram nan ki pibliye."
     },
     {
-      "text": "Learning & academic support",
-      "of": "b050d84b",
-      "at": [
-        "hickory-grove-christian:services.groups[0].name"
-      ],
-      "t": "Sipò pou aprantisaj ak etid"
-    },
-    {
-      "text": "Specialized teachers",
-      "of": "04298f91",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ],
-      "t": "Pwofesè espesyalize"
-    },
-    {
       "text": "“ESS teachers and academic coaches/tutors have specialized training.” Two ESS teachers and two teacher assistants are named.",
       "of": "bdb06ce6",
       "at": [
@@ -262,28 +1253,12 @@
       "t": "“Pwofesè ESS yo ak coach/tit akademik yo gen fòmasyon espesyalize.” Yo nonmen de pwofesè ESS ak de asistan pwofesè."
     },
     {
-      "text": "Reading intervention",
-      "of": "18b7d3f0",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ],
-      "t": "Entèvansyon nan lekti"
-    },
-    {
       "text": "No named method (e.g., Orton-Gillingham, structured literacy).",
       "of": "2f135778",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[1].detail"
       ],
       "t": "Pa gen metòd ki nonmen (pa egzanp, Orton-Gillingham, ansèyman lekti estriktire)."
-    },
-    {
-      "text": "Math intervention",
-      "of": "9fc9f294",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[2].service"
-      ],
-      "t": "Entèvansyon nan matematik"
     },
     {
       "text": "No math-specific intervention described.",
@@ -326,14 +1301,6 @@
       "t": "1–2 seyans, jiska 60 minit pa semèn: $1,806 pa ane, oswa $903 pa semès."
     },
     {
-      "text": "Executive-function coaching",
-      "of": "7e3c07fa",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ],
-      "t": "Coaching pou fonksyon egzekitif"
-    },
-    {
       "text": "ESS promotes “self-advocacy, organizational skills, personal responsibility, and other executive functioning skills.” High school Academic Coaching, up to 3 hours weekly: $2,227 a year, or $1,113 a semester.",
       "of": "ce6686ad",
       "at": [
@@ -374,28 +1341,12 @@
       "t": "Yon HGCS Accommodations Plan yo bati apati tès edikasyon oswa yon 504/IEP anvan, ak yon revizyon chak ane avèk pwofesè ak paran: $300 pa ane. Aranjman yo fèt nan klas prensipal la."
     },
     {
-      "text": "Specially designed instruction",
-      "of": "0add9126",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ],
-      "t": "Ansèyman ki fèt espesyalman"
-    },
-    {
       "text": "“Applied Interventions/Specially Designed Instruction,” added to a plan based on “professional diagnosis, teacher feedback, specialist observations”: $1,500 to $2,000 a year.",
       "of": "36b0de5d",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[8].detail"
       ],
       "t": "“Applied Interventions/Specially Designed Instruction”, yo ajoute l nan yon plan dapre “dyagnostik pwofesyonèl, kòmantè pwofesè, obsèvasyon espesyalis”: $1,500 rive $2,000 pa ane."
-    },
-    {
-      "text": "Self-contained / separate program",
-      "of": "2586e367",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[9].service"
-      ],
-      "t": "Pwogram apa / klas separe"
     },
     {
       "text": "No separate classroom or program described.",
@@ -406,28 +1357,12 @@
       "t": "Pa gen klas oswa pwogram separe ki dekri."
     },
     {
-      "text": "Gifted / advanced",
-      "of": "2de5aed3",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ],
-      "t": "Elèv ki gen don / nivo avanse"
-    },
-    {
       "text": "Named on the Student Services page; no program detail.",
       "of": "9fe62351",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[10].detail"
       ],
       "t": "Yo nonmen l sou paj Student Services la; pa gen detay sou pwogram nan."
-    },
-    {
-      "text": "Eligibility documentation",
-      "of": "4702441c",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[11].service"
-      ],
-      "t": "Dokiman pou kalifye"
     },
     {
       "text": "Admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable.",
@@ -438,64 +1373,6 @@
       "t": "Lis admisyon yo mande “rezilta tès edikasyon/dyagnostik, IEP/504 aktyèl” si genyen."
     },
     {
-      "text": "Therapy & related services",
-      "of": "832d48e5",
-      "at": [
-        "hickory-grove-christian:services.groups[1].name"
-      ],
-      "t": "Terapi ak sèvis ki gen rapò"
-    },
-    {
-      "text": "Speech-language therapy",
-      "of": "b37d3705",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ],
-      "t": "Terapi pou pale ak langaj"
-    },
-    {
-      "text": "Not listed by the school.",
-      "of": "6bbf4ac9",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ],
-      "t": "Lekòl la pa mansyone l."
-    },
-    {
-      "text": "Occupational therapy",
-      "of": "e216f28e",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ],
-      "t": "Terapi okipasyonèl"
-    },
-    {
-      "text": "Physical therapy",
-      "of": "2ab8c569",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ],
-      "t": "Fizyoterapi"
-    },
-    {
-      "text": "Assessment",
-      "of": "7f464e4f",
-      "at": [
-        "hickory-grove-christian:services.groups[2].name"
-      ],
-      "t": "Evalyasyon"
-    },
-    {
-      "text": "Testing accommodations",
-      "of": "c0f1a794",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ],
-      "t": "Aranjman pou tès"
-    },
-    {
       "text": "Approved pull-out or push-in testing: $370 a year for 1 subject, $760 for 2, $1,200 for 3 or more.",
       "of": "abc72bd6",
       "at": [
@@ -504,29 +1381,12 @@
       "t": "Tès apwouve andeyò klas oswa nan klas: $370 pa ane pou 1 matyè, $760 pou 2, $1,200 pou 3 oswa plis."
     },
     {
-      "text": "Entrance testing",
-      "of": "3e1537ff",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[1].service",
-        "hickory-grove-christian:testing.entries[2].title"
-      ],
-      "t": "Tès antre"
-    },
-    {
       "text": "Scheduled through the Student Services office once admissions has every required form.",
       "of": "381205a8",
       "at": [
         "hickory-grove-christian:services.groups[2].rows[1].detail"
       ],
       "t": "Biwo Student Services la planifye yo lè admisyon resevwa tout fòm ki obligatwa yo."
-    },
-    {
-      "text": "Psychoeducational evaluation",
-      "of": "69f00356",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[2].service"
-      ],
-      "t": "Evalyasyon psikoedikasyonèl"
     },
     {
       "text": "“We assist families in connecting with educational testing providers, as needed.”",
@@ -538,36 +1398,12 @@
       "t": "“Nou ede fanmi yo jwenn founisè tès edikasyon, lè sa nesesè.”"
     },
     {
-      "text": "Wellness & health",
-      "of": "92456e4a",
-      "at": [
-        "hickory-grove-christian:services.groups[3].name"
-      ],
-      "t": "Byennèt ak sante"
-    },
-    {
-      "text": "Counseling & emotional support",
-      "of": "0613b801",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ],
-      "t": "Konsèy ak sipò emosyonèl"
-    },
-    {
       "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling. This team is separate from ESS, and the school does not describe its support as clinical or behavioral intervention.",
       "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
       ],
       "t": "Ekip byennèt la ofri “konsèy biblik atravè mantora ak disip, gwoup sipò ant kamarad”. Lekòl segondè a gen yon direktè konsèy (Director of Counseling). Ekip sa a separe ak ESS, epi lekòl la pa dekri sipò li kòm entèvansyon klinik oswa pou konpòtman."
-    },
-    {
-      "text": "Emotional & behavioral intervention",
-      "of": "a9f79269",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[1].service"
-      ],
-      "t": "Entèvansyon pou emosyon ak konpòtman"
     },
     {
       "text": "Outside ESS’s specialization, per the school.",
@@ -578,61 +1414,12 @@
       "t": "Andeyò espesyalite ESS, dapre lekòl la."
     },
     {
-      "text": "Crisis resources",
-      "of": "e074ef65",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ],
-      "t": "Resous pou kriz"
-    },
-    {
       "text": "A Mental Health & Crisis Resources page lists the 988 Suicide & Crisis Lifeline and the NC Peer Warmline.",
       "of": "91495fc0",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[2].detail"
       ],
       "t": "Yon paj Mental Health & Crisis Resources bay 988 Suicide & Crisis Lifeline ak NC Peer Warmline."
-    },
-    {
-      "text": "School psychologist",
-      "of": "61585e81",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ],
-      "t": "Sikològ lekòl"
-    },
-    {
-      "text": "None named.",
-      "of": "59c2d1bc",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ],
-      "t": "Pa gen non ki bay."
-    },
-    {
-      "text": "School nurse",
-      "of": "cf02f710",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ],
-      "t": "Enfimyè lekòl"
-    },
-    {
-      "text": "Language",
-      "of": "9a73db9b",
-      "at": [
-        "hickory-grove-christian:services.groups[4].name"
-      ],
-      "t": "Lang"
-    },
-    {
-      "text": "ESL / English-language support",
-      "of": "ffd3df8c",
-      "at": [
-        "hickory-grove-christian:services.groups[4].rows[0].service"
-      ],
-      "t": "ESL / sipò nan angle"
     },
     {
       "text": "International applicants submit TOEFL Jr. or SLEP scores; no English-language support is described.",
@@ -649,30 +1436,6 @@
         "hickory-grove-christian:therapy.headline"
       ],
       "t": "Sit lekòl la pa mansyone terapi pou pale ak langaj, terapi okipasyonèl ni fizyoterapi pandan jounen lekòl la."
-    },
-    {
-      "text": "Speech-language",
-      "of": "d9f2c22c",
-      "at": [
-        "hickory-grove-christian:therapy.items[0].name"
-      ],
-      "t": "Pale ak langaj"
-    },
-    {
-      "text": "Occupational",
-      "of": "a971a0b7",
-      "at": [
-        "hickory-grove-christian:therapy.items[1].name"
-      ],
-      "t": "Okipasyonèl"
-    },
-    {
-      "text": "Physical",
-      "of": "d7c1ee80",
-      "at": [
-        "hickory-grove-christian:therapy.items[2].name"
-      ],
-      "t": "Fizik"
     },
     {
       "text": "The school’s Educational Support Services, Student Services and Wellness pages name no therapist on staff. Ask whether an outside therapist can see your child on campus.",

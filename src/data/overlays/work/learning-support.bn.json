@@ -5,6 +5,1030 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Cannon’s Learning Support Program “helps students with diagnosed learning differences become successful learners and confident self-advocates,” with a learning specialist in each division from Junior Kindergarten through 12th grade.",
+      "of": "b6dea18a",
+      "at": [
+        "cannon:lead.strong"
+      ],
+      "t": "Cannon-এর Learning Support Program “রোগনির্ণয় করা শেখার পার্থক্য থাকা শিক্ষার্থীদের সফল শিক্ষার্থী এবং আত্মবিশ্বাসী আত্মপক্ষ-সমর্থক হয়ে উঠতে সাহায্য করে”, Junior Kindergarten থেকে 12তম শ্রেণি পর্যন্ত প্রতিটি বিভাগে একজন করে learning specialist রয়েছেন।"
+    },
+    {
+      "text": "The school publishes no fee for learning support.",
+      "of": "70699aac",
+      "at": [
+        "cannon:lead.muted"
+      ],
+      "t": "শেখার সহায়তার জন্য স্কুল কোনো ফি প্রকাশ করে না।"
+    },
+    {
+      "text": "served by the program",
+      "of": "1cbb93d6",
+      "at": [
+        "cannon:stats[0].label"
+      ],
+      "t": "প্রোগ্রামের আওতায়"
+    },
+    {
+      "text": "Junior Kindergarten through 12th grade, across the Lower, Middle and Upper Schools",
+      "of": "1d6d8339",
+      "at": [
+        "cannon:stats[0].note"
+      ],
+      "t": "Junior Kindergarten থেকে 12তম শ্রেণি পর্যন্ত, Lower School, Middle School ও Upper School জুড়ে"
+    },
+    {
+      "text": "learning specialists and deans",
+      "of": "e2a0d2a5",
+      "at": [
+        "cannon:stats[1].label"
+      ],
+      "t": "learning specialist ও dean"
+    },
+    {
+      "text": "one in the Lower School, one in the Middle School, two in the Upper School",
+      "of": "77e7210b",
+      "at": [
+        "cannon:stats[1].note"
+      ],
+      "t": "Lower School-এ একজন, Middle School-এ একজন, Upper School-এ দুজন"
+    },
+    {
+      "text": "Upper School students used the ARC",
+      "of": "bc17bed3",
+      "at": [
+        "cannon:stats[2].label"
+      ],
+      "t": "জন Upper School শিক্ষার্থী ARC ব্যবহার করেছে"
+    },
+    {
+      "text": "“last year,” per the school’s story on the Hudson ARC’s Aug. 31 opening",
+      "of": "cf0d9078",
+      "at": [
+        "cannon:stats[2].note"
+      ],
+      "t": "“গত বছর”, 31 আগস্ট Hudson ARC-এর উদ্বোধন নিয়ে স্কুলের প্রতিবেদন অনুযায়ী"
+    },
+    {
+      "text": "school counselors",
+      "of": "83d116a4",
+      "at": [
+        "cannon:stats[3].label"
+      ],
+      "t": "স্কুল কাউন্সেলর"
+    },
+    {
+      "text": "Junior Kindergarten through 12th grade, on the Student Support Team",
+      "of": "cdc6b432",
+      "at": [
+        "cannon:stats[3].note"
+      ],
+      "t": "Junior Kindergarten থেকে 12তম শ্রেণি পর্যন্ত, Student Support Team-এ"
+    },
+    {
+      "text": "Learning support is for enrolled Cannon students with a diagnosed learning difference, documented by a recent psychoeducational evaluation.",
+      "of": "a70169ad",
+      "at": [
+        "cannon:eligibility.headline"
+      ],
+      "t": "শেখার সহায়তা Cannon-এ ভর্তি থাকা সেইসব শিক্ষার্থীর জন্য, যাদের রোগনির্ণয় করা শেখার পার্থক্য সাম্প্রতিক একটি সাইকোএডুকেশনাল মূল্যায়নে নথিভুক্ত।"
+    },
+    {
+      "text": "The policy requires that the student “must be a current student enrolled at Cannon School,” that parents “complete a request for Learning Support Services,” a “history of academic difficulty,” and a learning difference “diagnosed and documented by a certified professional in a recent (last 3 years) formal psycho-educational evaluation” done “by a licensed clinical psychologist.”",
+      "of": "adfe40d1",
+      "at": [
+        "cannon:eligibility.eligible"
+      ],
+      "t": "নীতিমালা অনুযায়ী শিক্ষার্থীকে “অবশ্যই Cannon School-এ বর্তমানে ভর্তি থাকা শিক্ষার্থী হতে হবে”, অভিভাবকদের “Learning Support সেবার জন্য একটি আবেদন পূরণ করতে হবে”, “পড়াশোনায় অসুবিধার ইতিহাস” থাকতে হবে, এবং শেখার পার্থক্যটি “একজন সনদপ্রাপ্ত পেশাদারের দ্বারা সাম্প্রতিক (গত 3 বছরের) আনুষ্ঠানিক সাইকোএডুকেশনাল মূল্যায়নে রোগনির্ণয় ও নথিভুক্ত” হতে হবে, যা “একজন লাইসেন্সপ্রাপ্ত ক্লিনিক্যাল সাইকোলজিস্টের দ্বারা” করা।"
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans or IEPs. Accommodations need documentation: “No accommodation will be provided unless a disclosure with appropriate documentation has been made to the school,” and “No official Learning Plan will be constructed without a complete psychological-educational evaluation.” The request form asks what accommodations the student has had in the past.",
+      "of": "d83454dd",
+      "at": [
+        "cannon:eligibility.plan"
+      ],
+      "t": "স্কুলের পেজে 504 প্ল্যান বা IEP-এর উল্লেখ নেই। সুবিধা-ব্যবস্থার জন্য নথি লাগে: “স্কুলকে উপযুক্ত নথিসহ তথ্য না জানালে কোনো সুবিধা-ব্যবস্থা দেওয়া হবে না”, এবং “সম্পূর্ণ সাইকোএডুকেশনাল মূল্যায়ন ছাড়া কোনো আনুষ্ঠানিক শিখন-পরিকল্পনা তৈরি করা হবে না”। আবেদনপত্রে জানতে চাওয়া হয়, শিক্ষার্থী অতীতে কোন কোন সুবিধা-ব্যবস্থা পেয়েছে।"
+    },
+    {
+      "text": "“Acceptance of a student into Cannon School does not imply that the school will assume the responsibility for all of the special learning needs of the child, especially when such needs may require a modification/alteration of the school’s curriculum or when the child’s needs are beyond Cannon’s present resources.”",
+      "of": "907c47b3",
+      "at": [
+        "cannon:eligibility.scope"
+      ],
+      "t": "“Cannon School-এ কোনো শিক্ষার্থীকে গ্রহণ করার মানে এই নয় যে স্কুল শিশুটির সব বিশেষ শিক্ষাগত প্রয়োজনের দায়িত্ব নেবে, বিশেষ করে যখন সেই প্রয়োজনে স্কুলের পাঠ্যক্রমে পরিবর্তন/রদবদল লাগতে পারে বা যখন শিশুটির প্রয়োজন Cannon-এর বর্তমান সামর্থ্যের বাইরে।”"
+    },
+    {
+      "text": "For a hearing, speech/language or vision impairment without a full evaluation, accommodations “will be considered on a case-by-case basis.”",
+      "of": "5a871f3d",
+      "at": [
+        "cannon:eligibility.note"
+      ],
+      "t": "সম্পূর্ণ মূল্যায়ন ছাড়া শ্রবণ, বাক/ভাষা বা দৃষ্টি প্রতিবন্ধকতার ক্ষেত্রে সুবিধা-ব্যবস্থা “প্রতিটি ক্ষেত্র আলাদাভাবে বিবেচনা করা হবে”।"
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. Cannon publishes no fee for any of them. Pick your child’s need to see what applies.",
+      "of": "e7c96dbc",
+      "at": [
+        "cannon:services.headline"
+      ],
+      "t": "স্কুলের পেজে বর্ণিত প্রতিটি সেবা, কে দেয় সেই অনুযায়ী দলে ভাগ করে চিহ্নিত। Cannon এগুলোর কোনোটির ফি প্রকাশ করে না। কী প্রযোজ্য তা দেখতে আপনার সন্তানের প্রয়োজনটি বেছে নিন।"
+    },
+    {
+      "text": "A Lower School reading interventionist and specialist-built learning plans. No reading method is named.",
+      "of": "2ac70f56",
+      "at": [
+        "cannon:services.verdicts.read.head"
+      ],
+      "t": "Lower School-এ একজন reading interventionist এবং বিশেষজ্ঞদের তৈরি শিখন-পরিকল্পনা। কোনো পড়ানোর পদ্ধতির নাম নেই।"
+    },
+    {
+      "text": "The Reading Interventionist “may provide small-group instruction designed to close specific skill gaps.” Ask which reading approach is used, and what reading support looks like after 4th grade.",
+      "of": "6b94c6ee",
+      "at": [
+        "cannon:services.verdicts.read.body"
+      ],
+      "t": "Reading interventionist “নির্দিষ্ট দক্ষতার ঘাটতি পূরণের জন্য তৈরি ছোট দলে পাঠদান দিতে পারেন”। কোন পড়ানোর পদ্ধতি ব্যবহার হয়, আর 4র্থ শ্রেণির পরে পড়ার সহায়তা কেমন, জিজ্ঞেস করুন।"
+    },
+    {
+      "text": "One-on-one executive-function coaching in the Middle and Upper Schools.",
+      "of": "0e7ab250",
+      "at": [
+        "cannon:services.verdicts.attn.head"
+      ],
+      "t": "Middle School ও Upper School-এ একান্ত এক্সিকিউটিভ ফাংশন কোচিং।"
+    },
+    {
+      "text": "Upper School Academic Coaches work “in a relational 1:1 environment” on “planning, organization, task initiation, flexibility, attention, self-control, metacognition, and more.”",
+      "of": "02ee6371",
+      "at": [
+        "cannon:services.verdicts.attn.body"
+      ],
+      "t": "Upper School-এর Academic Coach-রা “সম্পর্কভিত্তিক 1:1 পরিবেশে” কাজ করেন “পরিকল্পনা, সংগঠন, কাজ শুরু করা, নমনীয়তা, মনোযোগ, আত্মনিয়ন্ত্রণ, মেটাকগনিশন এবং আরও অনেক কিছু” নিয়ে।"
+    },
+    {
+      "text": "Peer-led Math Lab in the Upper School. No math-specific intervention is named.",
+      "of": "2574b402",
+      "at": [
+        "cannon:services.verdicts.math.head"
+      ],
+      "t": "Upper School-এ সহপাঠী-পরিচালিত Math Lab। গণিতের জন্য নির্দিষ্ট কোনো হস্তক্ষেপের নাম নেই।"
+    },
+    {
+      "text": "In the Math Lab, “Tutors and teachers partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.",
+      "of": "282fc3de",
+      "at": [
+        "cannon:services.verdicts.math.body"
+      ],
+      "t": "Math Lab-এ “টিউটর ও শিক্ষকেরা শিক্ষার্থীদের সঙ্গে মিলে কঠিন ধারণাগুলো ভেঙে বুঝিয়ে দেন”। Upper School-এর নিচের স্তরে গণিতে হস্তক্ষেপের কোনো বর্ণনা স্কুল দেয় না।"
+    },
+    {
+      "text": "By referral. Plan on an outside provider.",
+      "of": "c1e67792",
+      "at": [
+        "cannon:services.verdicts.speech.head"
+      ],
+      "t": "রেফারেলের মাধ্যমে। বাইরের কোনো সেবাদাতার পরিকল্পনা করুন।"
+    },
+    {
+      "text": "The Lower School Learning Specialist gives “guidance for families to secure external resources, such as speech therapists or tutors.”",
+      "of": "31cae7e2",
+      "at": [
+        "cannon:services.verdicts.speech.body"
+      ],
+      "t": "Lower School-এর learning specialist “পরিবারগুলোকে বাইরের সহায়তা, যেমন স্পিচ থেরাপিস্ট বা টিউটর, খুঁজে পেতে পরামর্শ” দেন।"
+    },
+    {
+      "text": "Not published. Plan on an outside provider.",
+      "of": "59549707",
+      "at": [
+        "cannon:services.verdicts.motor.head",
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ],
+      "t": "প্রকাশিত নয়। বাইরের কোনো সেবাদাতার পরিকল্পনা করুন।"
+    },
+    {
+      "text": "Neither occupational nor physical therapy appears on the school’s site.",
+      "of": "97fecae0",
+      "at": [
+        "cannon:services.verdicts.motor.body",
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ],
+      "t": "স্কুলের সাইটে অকুপেশনাল থেরাপি বা ফিজিক্যাল থেরাপি কোনোটিই নেই।"
+    },
+    {
+      "text": "Five counselors offer short-term counseling and refer out for longer-term therapy.",
+      "of": "e493d5a1",
+      "at": [
+        "cannon:services.verdicts.social.head"
+      ],
+      "t": "পাঁচজন কাউন্সেলর স্বল্পমেয়াদি কাউন্সেলিং দেন এবং দীর্ঘমেয়াদি থেরাপির জন্য বাইরে রেফার করেন।"
+    },
+    {
+      "text": "Lower School counselors provide “short-term individual counseling sessions” and “community resource referrals (including longer-term therapy services).”",
+      "of": "5ec707f7",
+      "at": [
+        "cannon:services.verdicts.social.body"
+      ],
+      "t": "Lower School-এর কাউন্সেলররা “স্বল্পমেয়াদি একক কাউন্সেলিং সেশন” এবং “স্থানীয় সহায়তার জন্য রেফারেল (দীর্ঘমেয়াদি থেরাপি সেবাসহ)” দেন।"
+    },
+    {
+      "text": "Reading enrichment in the Lower School and an advanced course track in the Upper School.",
+      "of": "0f0379a9",
+      "at": [
+        "cannon:services.verdicts.gifted.head"
+      ],
+      "t": "Lower School-এ পড়ায় সমৃদ্ধকরণ এবং Upper School-এ উন্নত কোর্সের একটি ধারা।"
+    },
+    {
+      "text": "The Reading Interventionist “may offer targeted academic enrichment”; the Upper School offers Honors Accelerated, AP and AT courses and an Independent Study Program. No formal gifted program is described.",
+      "of": "3b6931be",
+      "at": [
+        "cannon:services.verdicts.gifted.body"
+      ],
+      "t": "Reading interventionist “লক্ষ্যভিত্তিক শিক্ষাগত সমৃদ্ধকরণ দিতে পারেন”; Upper School-এ Honors Accelerated, AP ও AT কোর্স এবং একটি Independent Study Program আছে। মেধাবীদের জন্য কোনো আনুষ্ঠানিক প্রোগ্রামের বর্ণনা নেই।"
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "cannon:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "শেখা ও একাডেমিক সহায়তা"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "cannon:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "বিশেষায়িত শিক্ষক"
+    },
+    {
+      "text": "“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.",
+      "of": "135a601a",
+      "at": [
+        "cannon:services.groups[0].rows[0].detail"
+      ],
+      "t": "“প্রতিটি বিভাগ—Lower School, Middle School ও Upper School—এর জন্য একজন নিবেদিত learning specialist।” চারজনের নাম দেওয়া আছে, সঙ্গে Lower School-এর একজন reading interventionist।"
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "cannon:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "পড়ায় হস্তক্ষেপ"
+    },
+    {
+      "text": "Lower School small groups with the Reading Interventionist “designed to close specific skill gaps.” No method (e.g., Orton-Gillingham, structured literacy) is named.",
+      "of": "8dd7a217",
+      "at": [
+        "cannon:services.groups[0].rows[1].detail"
+      ],
+      "t": "Lower School-এ reading interventionist-এর সঙ্গে ছোট দল, “নির্দিষ্ট দক্ষতার ঘাটতি পূরণের জন্য তৈরি”। কোনো পদ্ধতির নাম নেই (যেমন Orton-Gillingham, কাঠামোবদ্ধ সাক্ষরতা)।"
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "cannon:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "গণিতে হস্তক্ষেপ"
+    },
+    {
+      "text": "No math-specific intervention described; the Upper School Math Lab is peer tutoring.",
+      "of": "3b048950",
+      "at": [
+        "cannon:services.groups[0].rows[2].detail"
+      ],
+      "t": "গণিতের জন্য নির্দিষ্ট কোনো হস্তক্ষেপের বর্ণনা নেই; Upper School-এর Math Lab হলো সহপাঠীদের টিউটরিং।"
+    },
+    {
+      "text": "1:1 / small-group instruction",
+      "of": "c8ed8f2d",
+      "at": [
+        "cannon:services.groups[0].rows[3].service"
+      ],
+      "t": "1:1 / ছোট দলে পাঠদান"
+    },
+    {
+      "text": "Small-group reading in the Lower School; one-on-one coaching with the Middle and Upper School learning specialists.",
+      "of": "66f4289e",
+      "at": [
+        "cannon:services.groups[0].rows[3].detail"
+      ],
+      "t": "Lower School-এ ছোট দলে পড়া; Middle School ও Upper School-এর learning specialist-দের সঙ্গে একান্ত কোচিং।"
+    },
+    {
+      "text": "Academic Labs (9–12)",
+      "of": "736b950c",
+      "at": [
+        "cannon:services.groups[0].rows[4].service"
+      ],
+      "t": "Academic Labs সেশন (9–12)"
+    },
+    {
+      "text": "“Faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, “available at consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”",
+      "of": "757034b7",
+      "at": [
+        "cannon:services.groups[0].rows[4].detail"
+      ],
+      "t": "“শিক্ষকদের তত্ত্বাবধানে সহপাঠী-পরিচালিত লেখা, গণিত ও বিজ্ঞানের টিউটরিং”, সঙ্গে একটি World Languages Lab, “স্কুলের দিনে নির্দিষ্ট সময় ও স্থানে পাওয়া যায়”। Middle School-এ শিক্ষকদের সাহায্য: “কোনো ফি নেওয়া হয় না।”"
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "cannon:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "এক্সিকিউটিভ ফাংশন কোচিং"
+    },
+    {
+      "text": "One-on-one academic coaching in the Middle School and, in the Upper School, Academic Coaches who build “executive functioning (EF) skills.”",
+      "of": "b944a709",
+      "at": [
+        "cannon:services.groups[0].rows[5].detail"
+      ],
+      "t": "Middle School-এ একান্ত একাডেমিক কোচিং, আর Upper School-এ Academic Coach-রা “এক্সিকিউটিভ ফাংশনিং (EF) দক্ষতা” গড়ে তোলেন।"
+    },
+    {
+      "text": "Learning-support class",
+      "of": "fd470495",
+      "at": [
+        "cannon:services.groups[0].rows[6].service"
+      ],
+      "t": "শেখার সহায়তার ক্লাস"
+    },
+    {
+      "text": "No learning-support course appears in the 2026-2027 Upper School Course Catalog.",
+      "of": "29a87cfd",
+      "at": [
+        "cannon:services.groups[0].rows[6].detail"
+      ],
+      "t": "2026-2027 সালের Upper School কোর্স ক্যাটালগে শেখার সহায়তার কোনো কোর্স নেই।"
+    },
+    {
+      "text": "Accommodations & learning plan",
+      "of": "c65478ab",
+      "at": [
+        "cannon:services.groups[0].rows[7].service"
+      ],
+      "t": "সুবিধা-ব্যবস্থা ও শিখন-পরিকল্পনা"
+    },
+    {
+      "text": "The Learning Specialist writes a Learning Plan listing classroom and testing accommodations, such as “preferential seating, note-taking assistance, extended time for tests, alternate assessment location.”",
+      "of": "94accb8c",
+      "at": [
+        "cannon:services.groups[0].rows[7].detail"
+      ],
+      "t": "Learning specialist একটি শিখন-পরিকল্পনা লেখেন, যাতে ক্লাসরুম ও পরীক্ষার সুবিধা-ব্যবস্থা থাকে, যেমন “পছন্দসই আসন, নোট নিতে সহায়তা, পরীক্ষায় বাড়তি সময়, ভিন্ন স্থানে মূল্যায়ন”।"
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "cannon:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "বিশেষভাবে পরিকল্পিত পাঠদান"
+    },
+    {
+      "text": "Not described. The policy says acceptance does not imply responsibility for needs that “may require a modification/alteration of the school’s curriculum.”",
+      "of": "4bf311f2",
+      "at": [
+        "cannon:services.groups[0].rows[8].detail"
+      ],
+      "t": "বর্ণনা নেই। নীতিমালা বলে, ভর্তির মানে এমন প্রয়োজনের দায়িত্ব নেওয়া নয়, যা “স্কুলের পাঠ্যক্রমে পরিবর্তন/রদবদল দাবি করতে পারে”।"
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "cannon:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "স্বতন্ত্র কর্মসূচি / আলাদা ক্লাস"
+    },
+    {
+      "text": "No separate program described; the Middle School ARC brings “neurodiverse and non-neurodiverse learners” together “side by side.”",
+      "of": "e2111c64",
+      "at": [
+        "cannon:services.groups[0].rows[9].detail"
+      ],
+      "t": "আলাদা কোনো প্রোগ্রামের বর্ণনা নেই; Middle School-এর ARC “নিউরোডাইভার্স ও নন-নিউরোডাইভার্স শিক্ষার্থীদের” “পাশাপাশি” একত্র করে।"
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "cannon:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "মেধাবী / উচ্চতর স্তর"
+    },
+    {
+      "text": "Lower School reading enrichment; Upper School Honors Accelerated, AP and AT courses and an Independent Study Program. No formal gifted program.",
+      "of": "cb785b1f",
+      "at": [
+        "cannon:services.groups[0].rows[10].detail"
+      ],
+      "t": "Lower School-এ পড়ায় সমৃদ্ধকরণ; Upper School-এ Honors Accelerated, AP ও AT কোর্স এবং একটি Independent Study Program। মেধাবীদের জন্য কোনো আনুষ্ঠানিক প্রোগ্রাম নেই।"
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "cannon:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "যোগ্যতার নথি"
+    },
+    {
+      "text": "A complete psychoeducational evaluation from the last 3 years, with “test results with subtest scores (standard or scaled scores)” and recommended accommodations.",
+      "of": "48d33a03",
+      "at": [
+        "cannon:services.groups[0].rows[11].detail"
+      ],
+      "t": "গত 3 বছরের মধ্যে করা একটি সম্পূর্ণ সাইকোএডুকেশনাল মূল্যায়ন, যাতে “সাবটেস্ট স্কোরসহ (স্ট্যান্ডার্ড বা স্কেলড স্কোর) পরীক্ষার ফলাফল” এবং সুপারিশকৃত সুবিধা-ব্যবস্থা থাকে।"
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "cannon:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "থেরাপি ও সংশ্লিষ্ট সেবা"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "cannon:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ থেরাপি"
+    },
+    {
+      "text": "The Lower School Learning Specialist helps families “secure external resources, such as speech therapists.”",
+      "of": "732b1c0e",
+      "at": [
+        "cannon:services.groups[1].rows[0].detail"
+      ],
+      "t": "Lower School-এর learning specialist পরিবারগুলোকে “বাইরের সহায়তা, যেমন স্পিচ থেরাপিস্ট, খুঁজে পেতে” সাহায্য করেন।"
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "cannon:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "অকুপেশনাল থেরাপি"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "স্কুল এর উল্লেখ করেনি।"
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "cannon:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "ফিজিক্যাল থেরাপি"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "cannon:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "মূল্যায়ন"
+    },
+    {
+      "text": "Early identification (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "cannon:services.groups[2].rows[0].service"
+      ],
+      "t": "প্রাথমিক শনাক্তকরণ (JK–2)"
+    },
+    {
+      "text": "Learning support in JK–2 “focuses on early identification and classroom-based interventions”; the Learning Specialist works with teachers “to assess student needs.”",
+      "of": "b9164064",
+      "at": [
+        "cannon:services.groups[2].rows[0].detail"
+      ],
+      "t": "JK–2-এ শেখার সহায়তা “প্রাথমিক শনাক্তকরণ ও ক্লাসরুমভিত্তিক হস্তক্ষেপে মনোযোগ দেয়”; learning specialist শিক্ষকদের সঙ্গে কাজ করেন “শিক্ষার্থীদের প্রয়োজন মূল্যায়ন করতে”।"
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "cannon:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "পরীক্ষায় সুবিধা-ব্যবস্থা"
+    },
+    {
+      "text": "Testing accommodations are part of each Learning Plan. Once a plan has been in place “for at least four months,” the Learning Specialist may help families request College Board and ACT accommodations.",
+      "of": "066d918c",
+      "at": [
+        "cannon:services.groups[2].rows[1].detail"
+      ],
+      "t": "পরীক্ষায় সুবিধা-ব্যবস্থা প্রতিটি শিখন-পরিকল্পনার অংশ। কোনো পরিকল্পনা “অন্তত চার মাস” চালু থাকলে learning specialist পরিবারগুলোকে College Board ও ACT-তে বিশেষ সুবিধার আবেদন করতে সাহায্য করতে পারেন।"
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "cannon:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ],
+      "t": "ভর্তি পরীক্ষা"
+    },
+    {
+      "text": "The admissions checklist “may include” an Entrance Evaluation and a Readiness Evaluation.",
+      "of": "74877feb",
+      "at": [
+        "cannon:services.groups[2].rows[2].detail"
+      ],
+      "t": "ভর্তির চেকলিস্টে একটি Entrance Evaluation ও একটি Readiness Evaluation “থাকতে পারে”।"
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "cannon:services.groups[2].rows[3].service",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "সাইকোএডুকেশনাল মূল্যায়ন"
+    },
+    {
+      "text": "Families supply it, from “a licensed clinical psychologist.” The school does not say it tests in-house or name providers.",
+      "of": "d50808ad",
+      "at": [
+        "cannon:services.groups[2].rows[3].detail"
+      ],
+      "t": "পরিবারকেই এটি জমা দিতে হয়, “একজন লাইসেন্সপ্রাপ্ত ক্লিনিক্যাল সাইকোলজিস্টের” করা। স্কুল নিজে পরীক্ষা করে বলে জানায় না, কোনো সেবাদাতার নামও দেয় না।"
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "cannon:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "সুস্থতা ও স্বাস্থ্য"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "cannon:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "পরামর্শ ও মানসিক সহায়তা"
+    },
+    {
+      "text": "Five school counselors offer wellness lessons, check-ins, “short-term individual counseling sessions” and small groups, working “in collaboration with Learning Specialists.”",
+      "of": "8e6bc998",
+      "at": [
+        "cannon:services.groups[3].rows[0].detail"
+      ],
+      "t": "পাঁচজন স্কুল কাউন্সেলর সুস্থতা বিষয়ক পাঠ, নিয়মিত খোঁজখবর, “স্বল্পমেয়াদি একক কাউন্সেলিং সেশন” ও ছোট দলের সেশন দেন, কাজ করেন “learning specialist-দের সঙ্গে সহযোগিতায়”।"
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "cannon:services.groups[3].rows[1].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "আবেগ ও আচরণগত হস্তক্ষেপ"
+    },
+    {
+      "text": "Longer-term help is by referral: counselors provide “community resource referrals (including longer-term therapy services).”",
+      "of": "2a783fab",
+      "at": [
+        "cannon:services.groups[3].rows[1].detail"
+      ],
+      "t": "দীর্ঘমেয়াদি সাহায্য রেফারেলের মাধ্যমে: কাউন্সেলররা “স্থানীয় সহায়তার জন্য রেফারেল (দীর্ঘমেয়াদি থেরাপি সেবাসহ)” দেন।"
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "cannon:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "সংকটকালীন সহায়তা"
+    },
+    {
+      "text": "A Mental Health and Crisis Resources page lists the Suicide and Crisis Lifeline (“call 988 or text HOME to 741741”) and the NC Peer Warmline; Middle School counselors provide “support to students in crisis.”",
+      "of": "e7218f6f",
+      "at": [
+        "cannon:services.groups[3].rows[2].detail"
+      ],
+      "t": "একটি Mental Health and Crisis Resources পেজে Suicide and Crisis Lifeline (“988-এ কল করুন বা 741741-এ HOME লিখে টেক্সট করুন”) এবং NC Peer Warmline দেওয়া আছে; Middle School-এর কাউন্সেলররা “সংকটে থাকা শিক্ষার্থীদের সহায়তা” দেন।"
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "cannon:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "স্কুল মনোবিজ্ঞানী"
+    },
+    {
+      "text": "None named.",
+      "of": "59c2d1bc",
+      "at": [
+        "cannon:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ],
+      "t": "কারও নাম দেওয়া নেই।"
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "cannon:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "স্কুল নার্স"
+    },
+    {
+      "text": "A Lead School Nurse and a School Nurse are listed in the staff directory.",
+      "of": "aed15d04",
+      "at": [
+        "cannon:services.groups[3].rows[4].detail"
+      ],
+      "t": "কর্মী তালিকায় একজন Lead School Nurse ও একজন School Nurse আছেন।"
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "cannon:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "ভাষা"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "cannon:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / ইংরেজি ভাষায় সহায়তা"
+    },
+    {
+      "text": "International students enroll through an approved placement agency; no English-language support is described.",
+      "of": "b2806197",
+      "at": [
+        "cannon:services.groups[4].rows[0].detail"
+      ],
+      "t": "আন্তর্জাতিক শিক্ষার্থীরা অনুমোদিত প্লেসমেন্ট এজেন্সির মাধ্যমে ভর্তি হয়; ইংরেজি ভাষার কোনো সহায়তার বর্ণনা নেই।"
+    },
+    {
+      "text": "Speech therapy is by referral. The school’s site lists no occupational or physical therapy.",
+      "of": "55cb993b",
+      "at": [
+        "cannon:therapy.headline"
+      ],
+      "t": "স্পিচ থেরাপি রেফারেলের মাধ্যমে। স্কুলের সাইটে অকুপেশনাল বা ফিজিক্যাল থেরাপির উল্লেখ নেই।"
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "cannon:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "স্পিচ-ল্যাঙ্গুয়েজ"
+    },
+    {
+      "text": "The Learning Specialist helps families find an outside speech therapist.",
+      "of": "2ed2d14a",
+      "at": [
+        "cannon:therapy.items[0].detail"
+      ],
+      "t": "Learning specialist পরিবারগুলোকে বাইরের একজন স্পিচ থেরাপিস্ট খুঁজে পেতে সাহায্য করেন।"
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "cannon:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "অকুপেশনাল"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "cannon:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "ফিজিক্যাল"
+    },
+    {
+      "text": "No therapist appears in the school’s staff directory. Ask whether an outside therapist can see your child on campus during the school day.",
+      "of": "0a5b1bb9",
+      "at": [
+        "cannon:therapy.note"
+      ],
+      "t": "স্কুলের কর্মী তালিকায় কোনো থেরাপিস্ট নেই। স্কুল চলাকালীন বাইরের কোনো থেরাপিস্ট ক্যাম্পাসে আপনার সন্তানকে দেখতে পারবেন কি না, জিজ্ঞেস করুন।"
+    },
+    {
+      "text": "Cannon doesn’t run diagnostic testing itself. Families bring a recent psychologist’s evaluation, and the school identifies early needs in the classroom.",
+      "of": "842d7050",
+      "at": [
+        "cannon:testing.headline"
+      ],
+      "t": "Cannon নিজে রোগনির্ণয়মূলক পরীক্ষা করে না। পরিবারগুলো একজন সাইকোলজিস্টের সাম্প্রতিক মূল্যায়ন নিয়ে আসে, আর স্কুল ক্লাসরুমে প্রাথমিক প্রয়োজনগুলো শনাক্ত করে।"
+    },
+    {
+      "text": "A recent psychoeducational evaluation",
+      "of": "5a57c05e",
+      "at": [
+        "cannon:testing.entries[0].title"
+      ],
+      "t": "সাম্প্রতিক একটি সাইকোএডুকেশনাল মূল্যায়ন"
+    },
+    {
+      "text": "The evaluation must be from “a recent (last 3 years)” period and done “by a licensed clinical psychologist,” with “comprehensive cognitive and academic assessment.”",
+      "of": "785e47f3",
+      "at": [
+        "cannon:testing.entries[0].text"
+      ],
+      "t": "মূল্যায়নটি “সাম্প্রতিক (গত 3 বছরের)” সময়ের হতে হবে এবং “একজন লাইসেন্সপ্রাপ্ত ক্লিনিক্যাল সাইকোলজিস্টের দ্বারা” করা হতে হবে, “পূর্ণাঙ্গ জ্ঞানীয় ও একাডেমিক মূল্যায়নসহ”।"
+    },
+    {
+      "text": "The school does not test in-house or name providers.",
+      "of": "8be27782",
+      "at": [
+        "cannon:testing.entries[0].muted"
+      ],
+      "t": "স্কুল নিজে পরীক্ষা করে না, কোনো সেবাদাতার নামও দেয় না।"
+    },
+    {
+      "text": "Classroom identification, JK–2",
+      "of": "5b17498c",
+      "at": [
+        "cannon:testing.entries[1].title"
+      ],
+      "t": "ক্লাসরুমে শনাক্তকরণ, JK–2"
+    },
+    {
+      "text": "The Learning Specialist “collaborates closely with teachers to assess student needs, differentiate instruction, and implement targeted strategies within the classroom.”",
+      "of": "888e798a",
+      "at": [
+        "cannon:testing.entries[1].text"
+      ],
+      "t": "Learning specialist “শিক্ষার্থীদের প্রয়োজন মূল্যায়ন, ভিন্নধর্মী পাঠদান এবং ক্লাসরুমে লক্ষ্যভিত্তিক কৌশল প্রয়োগের জন্য শিক্ষকদের সঙ্গে ঘনিষ্ঠভাবে কাজ করেন”।"
+    },
+    {
+      "text": "Entrance evaluations",
+      "of": "844d1d18",
+      "at": [
+        "cannon:testing.entries[2].title"
+      ],
+      "t": "ভর্তি মূল্যায়ন"
+    },
+    {
+      "text": "Admission decisions draw on “entrance testing results,” among other things; the checklist may include an Entrance Evaluation and a Readiness Evaluation.",
+      "of": "967ddbc0",
+      "at": [
+        "cannon:testing.entries[2].text"
+      ],
+      "t": "ভর্তির সিদ্ধান্ত অন্যান্য বিষয়ের পাশাপাশি “ভর্তি পরীক্ষার ফলাফলের” ওপর নির্ভর করে; চেকলিস্টে একটি Entrance Evaluation ও একটি Readiness Evaluation থাকতে পারে।"
+    },
+    {
+      "text": "College Board and ACT accommodations",
+      "of": "1c3e39b8",
+      "at": [
+        "cannon:testing.entries[3].title"
+      ],
+      "t": "College Board ও ACT-তে বিশেষ সুবিধা"
+    },
+    {
+      "text": "For juniors and seniors, “additional guidance is offered to help navigate the process of requesting testing accommodations from the College Board and ACT,” once a Learning Plan has been in place for at least four months.",
+      "of": "8f3c3cf5",
+      "at": [
+        "cannon:testing.entries[3].text"
+      ],
+      "t": "Junior ও senior-দের জন্য “College Board ও ACT থেকে পরীক্ষায় বিশেষ সুবিধা চাওয়ার প্রক্রিয়ায় সাহায্য করতে বাড়তি পরামর্শ দেওয়া হয়”, যখন কোনো শিখন-পরিকল্পনা অন্তত চার মাস চালু থাকে।"
+    },
+    {
+      "text": "Twelve named staff: four learning specialists and deans, a reading interventionist, two ARC faculty and five school counselors.",
+      "of": "4554553b",
+      "at": [
+        "cannon:staff.headline"
+      ],
+      "t": "নাম উল্লেখ করা বারোজন কর্মী: চারজন learning specialist ও dean, একজন reading interventionist, দুজন ARC শিক্ষক এবং পাঁচজন স্কুল কাউন্সেলর।"
+    },
+    {
+      "text": "Lower School Learning Specialist",
+      "of": "28342de9",
+      "at": [
+        "cannon:staff.people[0].role"
+      ],
+      "t": "Lower School-এর শেখার বিশেষজ্ঞ"
+    },
+    {
+      "text": "Lower School Reading Interventionist",
+      "of": "b69d4dbd",
+      "at": [
+        "cannon:staff.people[1].role"
+      ],
+      "t": "Lower School-এর পড়ার হস্তক্ষেপ বিশেষজ্ঞ"
+    },
+    {
+      "text": "Middle School Dean of Academic Support",
+      "of": "8fef66e3",
+      "at": [
+        "cannon:staff.people[2].role"
+      ],
+      "t": "Middle School-এর Dean of Academic Support"
+    },
+    {
+      "text": "Upper School Learning Specialist",
+      "of": "3464be0e",
+      "at": [
+        "cannon:staff.people[3].role"
+      ],
+      "t": "Upper School-এর শেখার বিশেষজ্ঞ"
+    },
+    {
+      "text": "Upper School Dean of Academic Support",
+      "of": "0f3c5974",
+      "at": [
+        "cannon:staff.people[4].role"
+      ],
+      "t": "Upper School-এর Dean of Academic Support"
+    },
+    {
+      "text": "Upper School Faculty, Academic Resource Center",
+      "of": "09b0748f",
+      "at": [
+        "cannon:staff.people[5].role",
+        "cannon:staff.people[6].role"
+      ],
+      "t": "Upper School শিক্ষক, Academic Resource Center"
+    },
+    {
+      "text": "Lower School Counselor, Grades JrK - 2",
+      "of": "05b4c790",
+      "at": [
+        "cannon:staff.people[7].role"
+      ],
+      "t": "Lower School কাউন্সেলর, শ্রেণি JrK - 2"
+    },
+    {
+      "text": "Lower & Middle School Counselor, Grades 3 - 5",
+      "of": "a38d132c",
+      "at": [
+        "cannon:staff.people[8].role"
+      ],
+      "t": "Lower ও Middle School কাউন্সেলর, শ্রেণি 3 - 5"
+    },
+    {
+      "text": "Middle School Counselor, Grades 6 - 8",
+      "of": "25ada6f3",
+      "at": [
+        "cannon:staff.people[9].role"
+      ],
+      "t": "Middle School কাউন্সেলর, শ্রেণি 6 - 8"
+    },
+    {
+      "text": "Upper School Counselor",
+      "of": "9b93583f",
+      "at": [
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ],
+      "t": "Upper School কাউন্সেলর"
+    },
+    {
+      "text": "No single head of learning support is named.",
+      "of": "44ceaf4f",
+      "at": [
+        "cannon:staff.note.strong"
+      ],
+      "t": "শেখার সহায়তার একক কোনো প্রধানের নাম নেই।"
+    },
+    {
+      "text": "Tracy Wade leads the Middle School’s Dovi Academic Resource Center; Jennifer Ridenhour leads the Upper School’s.",
+      "of": "f4cb36c2",
+      "at": [
+        "cannon:staff.note.muted"
+      ],
+      "t": "Tracy Wade Middle School-এর Dovi Academic Resource Center পরিচালনা করেন; Jennifer Ridenhour পরিচালনা করেন Upper School-এরটি।"
+    },
+    {
+      "text": "Eight questions to take on the tour, covering what the school’s site leaves unanswered: fees, prior plans, methods, therapy, staff and timing.",
+      "of": "5adf038b",
+      "at": [
+        "cannon:ask.headline"
+      ],
+      "t": "স্কুল পরিদর্শনে নিয়ে যাওয়ার জন্য আটটি প্রশ্ন, স্কুলের সাইট যেসব বিষয়ের উত্তর দেয় না সেগুলো নিয়ে: ফি, আগের পরিকল্পনা, পদ্ধতি, থেরাপি, কর্মী ও সময়।"
+    },
+    {
+      "text": "Is there a fee for Learning Support, Upper School academic coaching or Middle School coaching, and does financial aid cover it?",
+      "of": "0f8bfb6d",
+      "at": [
+        "cannon:ask.questions[0]"
+      ],
+      "t": "Learning Support, Upper School-এর একাডেমিক কোচিং বা Middle School-এর কোচিংয়ের জন্য কি কোনো ফি আছে, আর আর্থিক সহায়তা কি তা কভার করে?"
+    },
+    {
+      "text": "How is a 504 plan, IEP or prior school’s accommodations plan treated before the Learning Plan is written?",
+      "of": "9888806f",
+      "at": [
+        "cannon:ask.questions[1]"
+      ],
+      "t": "শিখন-পরিকল্পনা লেখার আগে 504 প্ল্যান, IEP বা আগের স্কুলের সুবিধা-ব্যবস্থার পরিকল্পনা কীভাবে বিবেচনা করা হয়?"
+    },
+    {
+      "text": "Which reading method does the Lower School Reading Interventionist use (e.g., Orton-Gillingham, Wilson, structured literacy), and how large are the groups?",
+      "of": "600a8c60",
+      "at": [
+        "cannon:ask.questions[2]"
+      ],
+      "t": "Lower School-এর reading interventionist কোন পড়ানোর পদ্ধতি ব্যবহার করেন (যেমন Orton-Gillingham, Wilson, কাঠামোবদ্ধ সাক্ষরতা), আর দলগুলো কত বড়?"
+    },
+    {
+      "text": "Is there math intervention below the Upper School?",
+      "of": "25d6aa2b",
+      "at": [
+        "cannon:ask.questions[3]"
+      ],
+      "t": "Upper School-এর নিচের স্তরে কি গণিতে হস্তক্ষেপ আছে?"
+    },
+    {
+      "text": "Can an outside speech, occupational or physical therapist see my child on campus during the school day?",
+      "of": "948abab1",
+      "at": [
+        "cannon:ask.questions[4]"
+      ],
+      "t": "বাইরের কোনো স্পিচ, অকুপেশনাল বা ফিজিক্যাল থেরাপিস্ট কি স্কুল চলাকালীন ক্যাম্পাসে আমার সন্তানকে দেখতে পারবেন?"
+    },
+    {
+      "text": "Is there a school psychologist, and do you keep a list of evaluators?",
+      "of": "249259e1",
+      "at": [
+        "cannon:ask.questions[5]"
+      ],
+      "t": "স্কুলে কি কোনো সাইকোলজিস্ট আছেন, আর আপনাদের কাছে কি মূল্যায়নকারীদের কোনো তালিকা আছে?"
+    },
+    {
+      "text": "The policy covers current students only. Can a family share an evaluation, or plan for support, before enrollment?",
+      "of": "967d5f9e",
+      "at": [
+        "cannon:ask.questions[6]"
+      ],
+      "t": "নীতিমালা শুধু বর্তমান শিক্ষার্থীদের জন্য। ভর্তির আগে কি কোনো পরিবার মূল্যায়ন জমা দিতে বা সহায়তার পরিকল্পনা করতে পারে?"
+    },
+    {
+      "text": "Is any English-language (ESL) support offered?",
+      "of": "4d801524",
+      "at": [
+        "cannon:ask.questions[7]"
+      ],
+      "t": "ইংরেজি ভাষার (ESL) কোনো সহায়তা কি দেওয়া হয়?"
+    },
+    {
+      "text": "October 24, 2026",
+      "of": "9a6ab731",
+      "at": [
+        "cannon:ask.asOf"
+      ],
+      "t": "24 অক্টোবর 2026"
+    },
+    {
       "text": "Educational Support Services (ESS) is the umbrella under which students receive individualized academic supports: academic coaching, tutoring, learning accommodations and specialized support for students with identified learning differences.",
       "of": "f699e911",
       "at": [
@@ -181,29 +1205,12 @@
       "t": "গণিত ESS-এর সাধারণ একাডেমিক সহায়তা এবং 1:1 বা ছোট দলে পাঠদানের মধ্যে পড়ে। স্কুল গণিতের নিজস্ব কোনো কর্মসূচির বর্ণনা দেয় না।"
     },
     {
-      "text": "Not published. Plan on an outside provider.",
-      "of": "59549707",
-      "at": [
-        "hickory-grove-christian:services.verdicts.speech.head",
-        "hickory-grove-christian:services.verdicts.motor.head"
-      ],
-      "t": "প্রকাশিত নয়। বাইরের কোনো সেবাদাতার পরিকল্পনা করুন।"
-    },
-    {
       "text": "The school’s site lists no speech-language therapy.",
       "of": "e4312a0f",
       "at": [
         "hickory-grove-christian:services.verdicts.speech.body"
       ],
       "t": "স্কুলের সাইটে স্পিচ-ল্যাঙ্গুয়েজ থেরাপির কোনো উল্লেখ নেই।"
-    },
-    {
-      "text": "Neither occupational nor physical therapy appears on the school’s site.",
-      "of": "97fecae0",
-      "at": [
-        "hickory-grove-christian:services.verdicts.motor.body"
-      ],
-      "t": "স্কুলের সাইটে অকুপেশনাল থেরাপি বা ফিজিক্যাল থেরাপি কোনোটিই নেই।"
     },
     {
       "text": "Faith-based counsel and peer support, but no emotional or behavioral intervention.",
@@ -238,22 +1245,6 @@
       "t": "এতে “একাডেমিকভাবে মেধাবী শিক্ষার্থীদের পাশাপাশি বিশেষায়িত একাডেমিক সহায়তা প্রয়োজন এমন শিক্ষার্থীদের” জন্য সহায়তার বর্ণনা আছে। কর্মসূচির কোনো বিস্তারিত প্রকাশিত নয়।"
     },
     {
-      "text": "Learning & academic support",
-      "of": "b050d84b",
-      "at": [
-        "hickory-grove-christian:services.groups[0].name"
-      ],
-      "t": "শেখা ও একাডেমিক সহায়তা"
-    },
-    {
-      "text": "Specialized teachers",
-      "of": "04298f91",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ],
-      "t": "বিশেষায়িত শিক্ষক"
-    },
-    {
       "text": "“ESS teachers and academic coaches/tutors have specialized training.” Two ESS teachers and two teacher assistants are named.",
       "of": "bdb06ce6",
       "at": [
@@ -262,28 +1253,12 @@
       "t": "“ESS শিক্ষক ও একাডেমিক কোচ/টিউটরদের বিশেষ প্রশিক্ষণ আছে।” ESS-এর দুজন শিক্ষক ও দুজন শিক্ষক সহকারীর নাম দেওয়া আছে।"
     },
     {
-      "text": "Reading intervention",
-      "of": "18b7d3f0",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ],
-      "t": "পড়ায় হস্তক্ষেপ"
-    },
-    {
       "text": "No named method (e.g., Orton-Gillingham, structured literacy).",
       "of": "2f135778",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[1].detail"
       ],
       "t": "কোনো পদ্ধতির নাম নেই (যেমন Orton-Gillingham, কাঠামোবদ্ধ সাক্ষরতা)।"
-    },
-    {
-      "text": "Math intervention",
-      "of": "9fc9f294",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[2].service"
-      ],
-      "t": "গণিতে হস্তক্ষেপ"
     },
     {
       "text": "No math-specific intervention described.",
@@ -326,14 +1301,6 @@
       "t": "1–2টি সেশন, সপ্তাহে 60 মিনিট পর্যন্ত: প্রতি বছর $1,806, বা প্রতি সেমিস্টারে $903।"
     },
     {
-      "text": "Executive-function coaching",
-      "of": "7e3c07fa",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ],
-      "t": "এক্সিকিউটিভ ফাংশন কোচিং"
-    },
-    {
       "text": "ESS promotes “self-advocacy, organizational skills, personal responsibility, and other executive functioning skills.” High school Academic Coaching, up to 3 hours weekly: $2,227 a year, or $1,113 a semester.",
       "of": "ce6686ad",
       "at": [
@@ -374,28 +1341,12 @@
       "t": "শিক্ষাগত টেস্টিং বা আগের 504/IEP থেকে তৈরি একটি HGCS Accommodations Plan, শিক্ষক ও অভিভাবকদের সঙ্গে বার্ষিক পর্যালোচনাসহ: প্রতি বছর $300। সুবিধা-ব্যবস্থাগুলো মূল ক্লাসরুমেই দেওয়া হয়।"
     },
     {
-      "text": "Specially designed instruction",
-      "of": "0add9126",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ],
-      "t": "বিশেষভাবে পরিকল্পিত পাঠদান"
-    },
-    {
       "text": "“Applied Interventions/Specially Designed Instruction,” added to a plan based on “professional diagnosis, teacher feedback, specialist observations”: $1,500 to $2,000 a year.",
       "of": "36b0de5d",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[8].detail"
       ],
       "t": "“Applied Interventions/Specially Designed Instruction”, যা “পেশাদার রোগনির্ণয়, শিক্ষকদের মতামত, বিশেষজ্ঞদের পর্যবেক্ষণ”-এর ভিত্তিতে পরিকল্পনায় যোগ করা হয়: প্রতি বছর $1,500 থেকে $2,000।"
-    },
-    {
-      "text": "Self-contained / separate program",
-      "of": "2586e367",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[9].service"
-      ],
-      "t": "স্বতন্ত্র কর্মসূচি / আলাদা ক্লাস"
     },
     {
       "text": "No separate classroom or program described.",
@@ -406,28 +1357,12 @@
       "t": "আলাদা কোনো ক্লাস বা কর্মসূচির বর্ণনা নেই।"
     },
     {
-      "text": "Gifted / advanced",
-      "of": "2de5aed3",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ],
-      "t": "মেধাবী / উচ্চতর স্তর"
-    },
-    {
       "text": "Named on the Student Services page; no program detail.",
       "of": "9fe62351",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[10].detail"
       ],
       "t": "Student Services পেজে উল্লেখ আছে; কর্মসূচির কোনো বিস্তারিত নেই।"
-    },
-    {
-      "text": "Eligibility documentation",
-      "of": "4702441c",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[11].service"
-      ],
-      "t": "যোগ্যতার নথি"
     },
     {
       "text": "Admissions checklists ask for “Educational/diagnostic testing results, current IEP/504” if applicable.",
@@ -438,64 +1373,6 @@
       "t": "প্রযোজ্য হলে, ভর্তির চেকলিস্টে “শিক্ষাগত/রোগনির্ণয়মূলক টেস্টিংয়ের ফল, বর্তমান IEP/504” চাওয়া হয়।"
     },
     {
-      "text": "Therapy & related services",
-      "of": "832d48e5",
-      "at": [
-        "hickory-grove-christian:services.groups[1].name"
-      ],
-      "t": "থেরাপি ও সংশ্লিষ্ট সেবা"
-    },
-    {
-      "text": "Speech-language therapy",
-      "of": "b37d3705",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ],
-      "t": "স্পিচ-ল্যাঙ্গুয়েজ থেরাপি"
-    },
-    {
-      "text": "Not listed by the school.",
-      "of": "6bbf4ac9",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ],
-      "t": "স্কুল এর উল্লেখ করেনি।"
-    },
-    {
-      "text": "Occupational therapy",
-      "of": "e216f28e",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ],
-      "t": "অকুপেশনাল থেরাপি"
-    },
-    {
-      "text": "Physical therapy",
-      "of": "2ab8c569",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ],
-      "t": "ফিজিক্যাল থেরাপি"
-    },
-    {
-      "text": "Assessment",
-      "of": "7f464e4f",
-      "at": [
-        "hickory-grove-christian:services.groups[2].name"
-      ],
-      "t": "মূল্যায়ন"
-    },
-    {
-      "text": "Testing accommodations",
-      "of": "c0f1a794",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ],
-      "t": "পরীক্ষায় সুবিধা-ব্যবস্থা"
-    },
-    {
       "text": "Approved pull-out or push-in testing: $370 a year for 1 subject, $760 for 2, $1,200 for 3 or more.",
       "of": "abc72bd6",
       "at": [
@@ -504,29 +1381,12 @@
       "t": "অনুমোদিত ক্লাসের বাইরে বা ক্লাসের ভেতরে টেস্টিং: 1টি বিষয়ের জন্য প্রতি বছর $370, 2টির জন্য $760, 3টি বা তার বেশির জন্য $1,200।"
     },
     {
-      "text": "Entrance testing",
-      "of": "3e1537ff",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[1].service",
-        "hickory-grove-christian:testing.entries[2].title"
-      ],
-      "t": "ভর্তি পরীক্ষা"
-    },
-    {
       "text": "Scheduled through the Student Services office once admissions has every required form.",
       "of": "381205a8",
       "at": [
         "hickory-grove-christian:services.groups[2].rows[1].detail"
       ],
       "t": "ভর্তি অফিস সব প্রয়োজনীয় ফর্ম পাওয়ার পর Student Services অফিস এর সময় ঠিক করে।"
-    },
-    {
-      "text": "Psychoeducational evaluation",
-      "of": "69f00356",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[2].service"
-      ],
-      "t": "সাইকোএডুকেশনাল মূল্যায়ন"
     },
     {
       "text": "“We assist families in connecting with educational testing providers, as needed.”",
@@ -538,36 +1398,12 @@
       "t": "“প্রয়োজন অনুযায়ী, আমরা পরিবারগুলোকে শিক্ষাগত টেস্টিংয়ের সেবাদাতাদের সঙ্গে যোগাযোগ করতে সাহায্য করি।”"
     },
     {
-      "text": "Wellness & health",
-      "of": "92456e4a",
-      "at": [
-        "hickory-grove-christian:services.groups[3].name"
-      ],
-      "t": "সুস্থতা ও স্বাস্থ্য"
-    },
-    {
-      "text": "Counseling & emotional support",
-      "of": "0613b801",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ],
-      "t": "পরামর্শ ও মানসিক সহায়তা"
-    },
-    {
       "text": "The wellness team offers “biblical counsel through mentorship and discipleship, peer support groups.” The high school has a Director of Counseling. This team is separate from ESS, and the school does not describe its support as clinical or behavioral intervention.",
       "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
       ],
       "t": "ওয়েলনেস দল “মেন্টরশিপ ও শিষ্যত্বের মাধ্যমে বাইবেলভিত্তিক পরামর্শ, সহপাঠী সহায়তা দল” দেয়। হাই স্কুলে একজন কাউন্সেলিং পরিচালক (Director of Counseling) আছেন। এই দলটি ESS থেকে আলাদা, এবং স্কুল এর সহায়তাকে ক্লিনিক্যাল বা আচরণগত হস্তক্ষেপ হিসেবে বর্ণনা করে না।"
-    },
-    {
-      "text": "Emotional & behavioral intervention",
-      "of": "a9f79269",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[1].service"
-      ],
-      "t": "আবেগ ও আচরণগত হস্তক্ষেপ"
     },
     {
       "text": "Outside ESS’s specialization, per the school.",
@@ -578,61 +1414,12 @@
       "t": "স্কুলের ভাষ্যমতে, ESS-এর বিশেষজ্ঞতার বাইরে।"
     },
     {
-      "text": "Crisis resources",
-      "of": "e074ef65",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ],
-      "t": "সংকটকালীন সহায়তা"
-    },
-    {
       "text": "A Mental Health & Crisis Resources page lists the 988 Suicide & Crisis Lifeline and the NC Peer Warmline.",
       "of": "91495fc0",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[2].detail"
       ],
       "t": "Mental Health & Crisis Resources পেজে 988 Suicide & Crisis Lifeline এবং NC Peer Warmline দেওয়া আছে।"
-    },
-    {
-      "text": "School psychologist",
-      "of": "61585e81",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ],
-      "t": "স্কুল মনোবিজ্ঞানী"
-    },
-    {
-      "text": "None named.",
-      "of": "59c2d1bc",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ],
-      "t": "কারও নাম দেওয়া নেই।"
-    },
-    {
-      "text": "School nurse",
-      "of": "cf02f710",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ],
-      "t": "স্কুল নার্স"
-    },
-    {
-      "text": "Language",
-      "of": "9a73db9b",
-      "at": [
-        "hickory-grove-christian:services.groups[4].name"
-      ],
-      "t": "ভাষা"
-    },
-    {
-      "text": "ESL / English-language support",
-      "of": "ffd3df8c",
-      "at": [
-        "hickory-grove-christian:services.groups[4].rows[0].service"
-      ],
-      "t": "ESL / ইংরেজি ভাষায় সহায়তা"
     },
     {
       "text": "International applicants submit TOEFL Jr. or SLEP scores; no English-language support is described.",
@@ -649,30 +1436,6 @@
         "hickory-grove-christian:therapy.headline"
       ],
       "t": "স্কুলের সাইটে স্কুল চলাকালীন স্পিচ-ল্যাঙ্গুয়েজ, অকুপেশনাল বা ফিজিক্যাল থেরাপির কোনো উল্লেখ নেই।"
-    },
-    {
-      "text": "Speech-language",
-      "of": "d9f2c22c",
-      "at": [
-        "hickory-grove-christian:therapy.items[0].name"
-      ],
-      "t": "স্পিচ-ল্যাঙ্গুয়েজ"
-    },
-    {
-      "text": "Occupational",
-      "of": "a971a0b7",
-      "at": [
-        "hickory-grove-christian:therapy.items[1].name"
-      ],
-      "t": "অকুপেশনাল"
-    },
-    {
-      "text": "Physical",
-      "of": "d7c1ee80",
-      "at": [
-        "hickory-grove-christian:therapy.items[2].name"
-      ],
-      "t": "ফিজিক্যাল"
     },
     {
       "text": "The school’s Educational Support Services, Student Services and Wellness pages name no therapist on staff. Ask whether an outside therapist can see your child on campus.",

@@ -3,6 +3,907 @@
   "lang": "es",
   "strings": [
     {
+      "t": "El Learning Support Program de Cannon “ayuda a los estudiantes con diferencias de aprendizaje diagnosticadas a convertirse en aprendices exitosos y en defensores seguros de sí mismos”, con un especialista en aprendizaje en cada división, desde Junior Kindergarten hasta 12.º grado.",
+      "of": "b6dea18a",
+      "at": [
+        "cannon:lead.strong"
+      ]
+    },
+    {
+      "t": "La escuela no publica ninguna tarifa por el apoyo al aprendizaje.",
+      "of": "70699aac",
+      "at": [
+        "cannon:lead.muted"
+      ]
+    },
+    {
+      "t": "atendidos por el programa",
+      "of": "1cbb93d6",
+      "at": [
+        "cannon:stats[0].label"
+      ]
+    },
+    {
+      "t": "desde Junior Kindergarten hasta 12.º grado, en Lower School, Middle School y Upper School",
+      "of": "1d6d8339",
+      "at": [
+        "cannon:stats[0].note"
+      ]
+    },
+    {
+      "t": "especialistas en aprendizaje y decanos",
+      "of": "e2a0d2a5",
+      "at": [
+        "cannon:stats[1].label"
+      ]
+    },
+    {
+      "t": "uno en Lower School, uno en Middle School y dos en Upper School",
+      "of": "77e7210b",
+      "at": [
+        "cannon:stats[1].note"
+      ]
+    },
+    {
+      "t": "estudiantes de Upper School usaron el ARC",
+      "of": "bc17bed3",
+      "at": [
+        "cannon:stats[2].label"
+      ]
+    },
+    {
+      "t": "“el año pasado”, según la nota de la escuela sobre la inauguración del Hudson ARC el 31 de agosto",
+      "of": "cf0d9078",
+      "at": [
+        "cannon:stats[2].note"
+      ]
+    },
+    {
+      "t": "consejeros escolares",
+      "of": "83d116a4",
+      "at": [
+        "cannon:stats[3].label"
+      ]
+    },
+    {
+      "t": "desde Junior Kindergarten hasta 12.º grado, en el Student Support Team",
+      "of": "cdc6b432",
+      "at": [
+        "cannon:stats[3].note"
+      ]
+    },
+    {
+      "t": "El apoyo al aprendizaje es para estudiantes inscritos en Cannon con una diferencia de aprendizaje diagnosticada y documentada mediante una evaluación psicoeducativa reciente.",
+      "of": "a70169ad",
+      "at": [
+        "cannon:eligibility.headline"
+      ]
+    },
+    {
+      "t": "La política exige que el estudiante “debe ser un estudiante actual inscrito en Cannon School”, que los padres “completen una solicitud de servicios de Learning Support”, un “historial de dificultades académicas” y una diferencia de aprendizaje “diagnosticada y documentada por un profesional certificado en una evaluación psicoeducativa formal reciente (de los últimos 3 años)” realizada “por un psicólogo clínico con licencia”.",
+      "of": "adfe40d1",
+      "at": [
+        "cannon:eligibility.eligible"
+      ]
+    },
+    {
+      "t": "Las páginas de la escuela no mencionan los planes 504 ni los IEP. Las adaptaciones requieren documentación: “No se proporcionará ninguna adaptación a menos que se haya entregado a la escuela una declaración con la documentación adecuada” y “No se elaborará ningún plan de aprendizaje oficial sin una evaluación psicoeducativa completa”. El formulario de solicitud pregunta qué adaptaciones ha tenido el estudiante en el pasado.",
+      "of": "d83454dd",
+      "at": [
+        "cannon:eligibility.plan"
+      ]
+    },
+    {
+      "t": "“La admisión de un estudiante en Cannon School no implica que la escuela asumirá la responsabilidad de todas las necesidades especiales de aprendizaje del niño, especialmente cuando dichas necesidades puedan requerir una modificación/alteración del currículo de la escuela o cuando las necesidades del niño superen los recursos actuales de Cannon.”",
+      "of": "907c47b3",
+      "at": [
+        "cannon:eligibility.scope"
+      ]
+    },
+    {
+      "t": "Para una discapacidad auditiva, del habla/lenguaje o visual sin una evaluación completa, las adaptaciones “se considerarán caso por caso”.",
+      "of": "5a871f3d",
+      "at": [
+        "cannon:eligibility.note"
+      ]
+    },
+    {
+      "t": "Cada servicio que describen las páginas de la escuela, agrupado y codificado según quién lo presta. Cannon no publica ninguna tarifa para ninguno de ellos. Elija la necesidad de su hijo para ver qué aplica.",
+      "of": "e7c96dbc",
+      "at": [
+        "cannon:services.headline"
+      ]
+    },
+    {
+      "t": "Una especialista en intervención lectora en Lower School y planes de aprendizaje elaborados por especialistas. No se nombra ningún método de lectura.",
+      "of": "2ac70f56",
+      "at": [
+        "cannon:services.verdicts.read.head"
+      ]
+    },
+    {
+      "t": "El especialista en intervención lectora “puede impartir instrucción en grupos pequeños diseñada para cerrar brechas de habilidades específicas”. Pregunte qué enfoque de lectura se usa y cómo es el apoyo en lectura después de 4.º grado.",
+      "of": "6b94c6ee",
+      "at": [
+        "cannon:services.verdicts.read.body"
+      ]
+    },
+    {
+      "t": "Coaching individual de funciones ejecutivas en Middle School y Upper School.",
+      "of": "0e7ab250",
+      "at": [
+        "cannon:services.verdicts.attn.head"
+      ]
+    },
+    {
+      "t": "Los Academic Coaches de Upper School trabajan “en un entorno relacional 1:1” en “planificación, organización, inicio de tareas, flexibilidad, atención, autocontrol, metacognición y más”.",
+      "of": "02ee6371",
+      "at": [
+        "cannon:services.verdicts.attn.body"
+      ]
+    },
+    {
+      "t": "Math Lab dirigido por compañeros en Upper School. No se nombra ninguna intervención específica de matemáticas.",
+      "of": "2574b402",
+      "at": [
+        "cannon:services.verdicts.math.head"
+      ]
+    },
+    {
+      "t": "En el Math Lab, “tutores y maestros colaboran con los estudiantes para desglosar conceptos difíciles”. La escuela no describe intervención en matemáticas antes de Upper School.",
+      "of": "282fc3de",
+      "at": [
+        "cannon:services.verdicts.math.body"
+      ]
+    },
+    {
+      "t": "Por derivación. Cuente con un proveedor externo.",
+      "of": "c1e67792",
+      "at": [
+        "cannon:services.verdicts.speech.head"
+      ]
+    },
+    {
+      "t": "El especialista en aprendizaje de Lower School ofrece “orientación a las familias para conseguir recursos externos, como terapeutas del habla o tutores”.",
+      "of": "31cae7e2",
+      "at": [
+        "cannon:services.verdicts.speech.body"
+      ]
+    },
+    {
+      "t": "No publicado. Cuente con un proveedor externo.",
+      "of": "59549707",
+      "at": [
+        "cannon:services.verdicts.motor.head",
+        "hickory-grove-christian:services.verdicts.speech.head",
+        "hickory-grove-christian:services.verdicts.motor.head"
+      ]
+    },
+    {
+      "t": "Ni la terapia ocupacional ni la fisioterapia aparecen en el sitio de la escuela.",
+      "of": "97fecae0",
+      "at": [
+        "cannon:services.verdicts.motor.body",
+        "hickory-grove-christian:services.verdicts.motor.body"
+      ]
+    },
+    {
+      "t": "Cinco consejeros ofrecen consejería a corto plazo y derivan a terapia a más largo plazo.",
+      "of": "e493d5a1",
+      "at": [
+        "cannon:services.verdicts.social.head"
+      ]
+    },
+    {
+      "t": "Los consejeros de Lower School ofrecen “sesiones de consejería individual a corto plazo” y “derivaciones a recursos comunitarios (incluidos servicios de terapia a más largo plazo)”.",
+      "of": "5ec707f7",
+      "at": [
+        "cannon:services.verdicts.social.body"
+      ]
+    },
+    {
+      "t": "Enriquecimiento en lectura en Lower School y una vía de cursos avanzados en Upper School.",
+      "of": "0f0379a9",
+      "at": [
+        "cannon:services.verdicts.gifted.head"
+      ]
+    },
+    {
+      "t": "El especialista en intervención lectora “puede ofrecer enriquecimiento académico focalizado”; Upper School ofrece cursos Honors Accelerated, AP y AT y un Independent Study Program. No se describe ningún programa formal para estudiantes dotados.",
+      "of": "3b6931be",
+      "at": [
+        "cannon:services.verdicts.gifted.body"
+      ]
+    },
+    {
+      "t": "Apoyo académico y de aprendizaje",
+      "of": "b050d84b",
+      "at": [
+        "cannon:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ]
+    },
+    {
+      "t": "Maestros especializados",
+      "of": "04298f91",
+      "at": [
+        "cannon:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ]
+    },
+    {
+      "t": "“Un especialista en aprendizaje dedicado para cada división: Lower School, Middle School y Upper School.” Se nombran cuatro, además de un especialista en intervención lectora de Lower School.",
+      "of": "135a601a",
+      "at": [
+        "cannon:services.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Intervención en lectura",
+      "of": "18b7d3f0",
+      "at": [
+        "cannon:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ]
+    },
+    {
+      "t": "Grupos pequeños en Lower School con el especialista en intervención lectora, “diseñados para cerrar brechas de habilidades específicas”. No se nombra ningún método (p. ej., Orton-Gillingham, alfabetización estructurada).",
+      "of": "8dd7a217",
+      "at": [
+        "cannon:services.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Intervención en matemáticas",
+      "of": "9fc9f294",
+      "at": [
+        "cannon:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ]
+    },
+    {
+      "t": "No se describe ninguna intervención específica de matemáticas; el Math Lab de Upper School es tutoría entre compañeros.",
+      "of": "3b048950",
+      "at": [
+        "cannon:services.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Instrucción 1:1 / en grupos pequeños",
+      "of": "c8ed8f2d",
+      "at": [
+        "cannon:services.groups[0].rows[3].service"
+      ]
+    },
+    {
+      "t": "Lectura en grupos pequeños en Lower School; coaching individual con los especialistas en aprendizaje de Middle School y Upper School.",
+      "of": "66f4289e",
+      "at": [
+        "cannon:services.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Laboratorios académicos (9–12)",
+      "of": "736b950c",
+      "at": [
+        "cannon:services.groups[0].rows[4].service"
+      ]
+    },
+    {
+      "t": "“Tutoría entre compañeros, facilitada por el profesorado, en escritura, matemáticas y ciencias”, además de un World Languages Lab, “disponible en horarios y lugares fijos durante la jornada escolar”. En Middle School, ayuda de los maestros: “No se cobra ninguna tarifa”.",
+      "of": "757034b7",
+      "at": [
+        "cannon:services.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Coaching de funciones ejecutivas",
+      "of": "7e3c07fa",
+      "at": [
+        "cannon:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ]
+    },
+    {
+      "t": "Coaching académico individual en Middle School y, en Upper School, Academic Coaches que desarrollan “habilidades de funcionamiento ejecutivo (EF)”.",
+      "of": "b944a709",
+      "at": [
+        "cannon:services.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "Clase de apoyo al aprendizaje",
+      "of": "fd470495",
+      "at": [
+        "cannon:services.groups[0].rows[6].service"
+      ]
+    },
+    {
+      "t": "Ningún curso de apoyo al aprendizaje aparece en el catálogo de cursos 2026-2027 de Upper School.",
+      "of": "29a87cfd",
+      "at": [
+        "cannon:services.groups[0].rows[6].detail"
+      ]
+    },
+    {
+      "t": "Adaptaciones y plan de aprendizaje",
+      "of": "c65478ab",
+      "at": [
+        "cannon:services.groups[0].rows[7].service"
+      ]
+    },
+    {
+      "t": "El especialista en aprendizaje redacta un plan de aprendizaje con las adaptaciones en el aula y en las pruebas, como “asiento preferente, ayuda para tomar apuntes, tiempo adicional en los exámenes, lugar alternativo para la evaluación”.",
+      "of": "94accb8c",
+      "at": [
+        "cannon:services.groups[0].rows[7].detail"
+      ]
+    },
+    {
+      "t": "Instrucción especialmente diseñada",
+      "of": "0add9126",
+      "at": [
+        "cannon:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ]
+    },
+    {
+      "t": "No se describe. La política dice que la admisión no implica responsabilidad por necesidades que “puedan requerir una modificación/alteración del currículo de la escuela”.",
+      "of": "4bf311f2",
+      "at": [
+        "cannon:services.groups[0].rows[8].detail"
+      ]
+    },
+    {
+      "t": "Programa independiente / aula separada",
+      "of": "2586e367",
+      "at": [
+        "cannon:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ]
+    },
+    {
+      "t": "No se describe ningún programa separado; el ARC de Middle School reúne a “estudiantes neurodiversos y no neurodiversos” “lado a lado”.",
+      "of": "e2111c64",
+      "at": [
+        "cannon:services.groups[0].rows[9].detail"
+      ]
+    },
+    {
+      "t": "Dotados / avanzados",
+      "of": "2de5aed3",
+      "at": [
+        "cannon:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ]
+    },
+    {
+      "t": "Enriquecimiento en lectura en Lower School; en Upper School, cursos Honors Accelerated, AP y AT y un Independent Study Program. No hay programa formal para estudiantes dotados.",
+      "of": "cb785b1f",
+      "at": [
+        "cannon:services.groups[0].rows[10].detail"
+      ]
+    },
+    {
+      "t": "Documentación de elegibilidad",
+      "of": "4702441c",
+      "at": [
+        "cannon:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ]
+    },
+    {
+      "t": "Una evaluación psicoeducativa completa de los últimos 3 años, con “resultados de las pruebas con puntuaciones de subpruebas (puntuaciones estándar o escalares)” y las adaptaciones recomendadas.",
+      "of": "48d33a03",
+      "at": [
+        "cannon:services.groups[0].rows[11].detail"
+      ]
+    },
+    {
+      "t": "Terapias y servicios relacionados",
+      "of": "832d48e5",
+      "at": [
+        "cannon:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ]
+    },
+    {
+      "t": "Terapia del habla y lenguaje",
+      "of": "b37d3705",
+      "at": [
+        "cannon:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ]
+    },
+    {
+      "t": "El especialista en aprendizaje de Lower School ayuda a las familias a “conseguir recursos externos, como terapeutas del habla”.",
+      "of": "732b1c0e",
+      "at": [
+        "cannon:services.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Terapia ocupacional",
+      "of": "e216f28e",
+      "at": [
+        "cannon:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ]
+    },
+    {
+      "t": "La escuela no la menciona.",
+      "of": "6bbf4ac9",
+      "at": [
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Fisioterapia",
+      "of": "2ab8c569",
+      "at": [
+        "cannon:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ]
+    },
+    {
+      "t": "Evaluación",
+      "of": "7f464e4f",
+      "at": [
+        "cannon:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ]
+    },
+    {
+      "t": "Identificación temprana (JK–2)",
+      "of": "cfb1f75f",
+      "at": [
+        "cannon:services.groups[2].rows[0].service"
+      ]
+    },
+    {
+      "t": "El apoyo al aprendizaje en JK–2 “se centra en la identificación temprana y en intervenciones dentro del aula”; el especialista en aprendizaje trabaja con los maestros “para evaluar las necesidades de los estudiantes”.",
+      "of": "b9164064",
+      "at": [
+        "cannon:services.groups[2].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Adaptaciones en las pruebas",
+      "of": "c0f1a794",
+      "at": [
+        "cannon:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ]
+    },
+    {
+      "t": "Las adaptaciones en las pruebas forman parte de cada plan de aprendizaje. Una vez que un plan lleva vigente “al menos cuatro meses”, el especialista en aprendizaje puede ayudar a las familias a solicitar adaptaciones ante el College Board y el ACT.",
+      "of": "066d918c",
+      "at": [
+        "cannon:services.groups[2].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Pruebas de ingreso",
+      "of": "3e1537ff",
+      "at": [
+        "cannon:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service",
+        "hickory-grove-christian:testing.entries[2].title"
+      ]
+    },
+    {
+      "t": "La lista de admisión “puede incluir” una Entrance Evaluation y una Readiness Evaluation.",
+      "of": "74877feb",
+      "at": [
+        "cannon:services.groups[2].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Evaluación psicoeducativa",
+      "of": "69f00356",
+      "at": [
+        "cannon:services.groups[2].rows[3].service",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ]
+    },
+    {
+      "t": "La aportan las familias, de “un psicólogo clínico con licencia”. La escuela no dice que realice pruebas internamente ni nombra proveedores.",
+      "of": "d50808ad",
+      "at": [
+        "cannon:services.groups[2].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Bienestar y salud",
+      "of": "92456e4a",
+      "at": [
+        "cannon:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ]
+    },
+    {
+      "t": "Consejería y apoyo emocional",
+      "of": "0613b801",
+      "at": [
+        "cannon:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ]
+    },
+    {
+      "t": "Cinco consejeros escolares ofrecen lecciones de bienestar, seguimientos, “sesiones de consejería individual a corto plazo” y grupos pequeños, trabajando “en colaboración con los especialistas en aprendizaje”.",
+      "of": "8e6bc998",
+      "at": [
+        "cannon:services.groups[3].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Intervención emocional y conductual",
+      "of": "a9f79269",
+      "at": [
+        "cannon:services.groups[3].rows[1].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ]
+    },
+    {
+      "t": "La ayuda a más largo plazo es por derivación: los consejeros ofrecen “derivaciones a recursos comunitarios (incluidos servicios de terapia a más largo plazo)”.",
+      "of": "2a783fab",
+      "at": [
+        "cannon:services.groups[3].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Recursos para crisis",
+      "of": "e074ef65",
+      "at": [
+        "cannon:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ]
+    },
+    {
+      "t": "Una página de Mental Health and Crisis Resources menciona la Suicide and Crisis Lifeline (“llame al 988 o envíe HOME al 741741”) y la NC Peer Warmline; los consejeros de Middle School brindan “apoyo a los estudiantes en crisis”.",
+      "of": "e7218f6f",
+      "at": [
+        "cannon:services.groups[3].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Psicólogo/a escolar",
+      "of": "61585e81",
+      "at": [
+        "cannon:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ]
+    },
+    {
+      "t": "No se nombra a nadie.",
+      "of": "59c2d1bc",
+      "at": [
+        "cannon:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Enfermero/a escolar",
+      "of": "cf02f710",
+      "at": [
+        "cannon:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ]
+    },
+    {
+      "t": "El directorio del personal incluye un/a enfermero/a escolar principal (Lead School Nurse) y un/a enfermero/a escolar (School Nurse).",
+      "of": "aed15d04",
+      "at": [
+        "cannon:services.groups[3].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Idioma",
+      "of": "9a73db9b",
+      "at": [
+        "cannon:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ]
+    },
+    {
+      "t": "ESL / apoyo en inglés",
+      "of": "ffd3df8c",
+      "at": [
+        "cannon:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ]
+    },
+    {
+      "t": "Los estudiantes internacionales se inscriben a través de una agencia de colocación aprobada; no se describe ningún apoyo en inglés.",
+      "of": "b2806197",
+      "at": [
+        "cannon:services.groups[4].rows[0].detail"
+      ]
+    },
+    {
+      "t": "La terapia del habla es por derivación. El sitio de la escuela no menciona terapia ocupacional ni fisioterapia.",
+      "of": "55cb993b",
+      "at": [
+        "cannon:therapy.headline"
+      ]
+    },
+    {
+      "t": "Habla y lenguaje",
+      "of": "d9f2c22c",
+      "at": [
+        "cannon:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ]
+    },
+    {
+      "t": "El especialista en aprendizaje ayuda a las familias a encontrar un terapeuta del habla externo.",
+      "of": "2ed2d14a",
+      "at": [
+        "cannon:therapy.items[0].detail"
+      ]
+    },
+    {
+      "t": "Ocupacional",
+      "of": "a971a0b7",
+      "at": [
+        "cannon:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ]
+    },
+    {
+      "t": "Física",
+      "of": "d7c1ee80",
+      "at": [
+        "cannon:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ]
+    },
+    {
+      "t": "Ningún terapeuta aparece en el directorio del personal de la escuela. Pregunte si un terapeuta externo puede atender a su hijo en el campus durante la jornada escolar.",
+      "of": "0a5b1bb9",
+      "at": [
+        "cannon:therapy.note"
+      ]
+    },
+    {
+      "t": "Cannon no realiza pruebas diagnósticas por su cuenta. Las familias aportan una evaluación reciente de un psicólogo, y la escuela identifica las necesidades tempranas en el aula.",
+      "of": "842d7050",
+      "at": [
+        "cannon:testing.headline"
+      ]
+    },
+    {
+      "t": "Una evaluación psicoeducativa reciente",
+      "of": "5a57c05e",
+      "at": [
+        "cannon:testing.entries[0].title"
+      ]
+    },
+    {
+      "t": "La evaluación debe ser de un período “reciente (de los últimos 3 años)” y realizada “por un psicólogo clínico con licencia”, con una “evaluación cognitiva y académica integral”.",
+      "of": "785e47f3",
+      "at": [
+        "cannon:testing.entries[0].text"
+      ]
+    },
+    {
+      "t": "La escuela no realiza pruebas internamente ni nombra proveedores.",
+      "of": "8be27782",
+      "at": [
+        "cannon:testing.entries[0].muted"
+      ]
+    },
+    {
+      "t": "Identificación en el aula, JK–2",
+      "of": "5b17498c",
+      "at": [
+        "cannon:testing.entries[1].title"
+      ]
+    },
+    {
+      "t": "El especialista en aprendizaje “colabora estrechamente con los maestros para evaluar las necesidades de los estudiantes, diferenciar la instrucción e implementar estrategias focalizadas dentro del aula”.",
+      "of": "888e798a",
+      "at": [
+        "cannon:testing.entries[1].text"
+      ]
+    },
+    {
+      "t": "Evaluaciones de ingreso",
+      "of": "844d1d18",
+      "at": [
+        "cannon:testing.entries[2].title"
+      ]
+    },
+    {
+      "t": "Las decisiones de admisión se basan, entre otras cosas, en los “resultados de las pruebas de ingreso”; la lista puede incluir una Entrance Evaluation y una Readiness Evaluation.",
+      "of": "967ddbc0",
+      "at": [
+        "cannon:testing.entries[2].text"
+      ]
+    },
+    {
+      "t": "Adaptaciones ante el College Board y el ACT",
+      "of": "1c3e39b8",
+      "at": [
+        "cannon:testing.entries[3].title"
+      ]
+    },
+    {
+      "t": "Para los estudiantes de tercer y último curso, “se ofrece orientación adicional para ayudar a gestionar el proceso de solicitud de adaptaciones en las pruebas ante el College Board y el ACT”, una vez que un plan de aprendizaje lleva vigente al menos cuatro meses.",
+      "of": "8f3c3cf5",
+      "at": [
+        "cannon:testing.entries[3].text"
+      ]
+    },
+    {
+      "t": "Doce miembros del personal con nombre: cuatro especialistas en aprendizaje y decanos, un especialista en intervención lectora, dos docentes del ARC y cinco consejeros escolares.",
+      "of": "4554553b",
+      "at": [
+        "cannon:staff.headline"
+      ]
+    },
+    {
+      "t": "Especialista en aprendizaje de Lower School",
+      "of": "28342de9",
+      "at": [
+        "cannon:staff.people[0].role"
+      ]
+    },
+    {
+      "t": "Especialista en intervención lectora de Lower School",
+      "of": "b69d4dbd",
+      "at": [
+        "cannon:staff.people[1].role"
+      ]
+    },
+    {
+      "t": "Decano/a de apoyo académico de Middle School",
+      "of": "8fef66e3",
+      "at": [
+        "cannon:staff.people[2].role"
+      ]
+    },
+    {
+      "t": "Especialista en aprendizaje de Upper School",
+      "of": "3464be0e",
+      "at": [
+        "cannon:staff.people[3].role"
+      ]
+    },
+    {
+      "t": "Decano/a de apoyo académico de Upper School",
+      "of": "0f3c5974",
+      "at": [
+        "cannon:staff.people[4].role"
+      ]
+    },
+    {
+      "t": "Docente de Upper School, Academic Resource Center",
+      "of": "09b0748f",
+      "at": [
+        "cannon:staff.people[5].role",
+        "cannon:staff.people[6].role"
+      ]
+    },
+    {
+      "t": "Consejero/a de Lower School, grados JrK - 2",
+      "of": "05b4c790",
+      "at": [
+        "cannon:staff.people[7].role"
+      ]
+    },
+    {
+      "t": "Consejero/a de Lower School y Middle School, grados 3 - 5",
+      "of": "a38d132c",
+      "at": [
+        "cannon:staff.people[8].role"
+      ]
+    },
+    {
+      "t": "Consejero/a de Middle School, grados 6 - 8",
+      "of": "25ada6f3",
+      "at": [
+        "cannon:staff.people[9].role"
+      ]
+    },
+    {
+      "t": "Consejero/a de Upper School",
+      "of": "9b93583f",
+      "at": [
+        "cannon:staff.people[10].role",
+        "cannon:staff.people[11].role"
+      ]
+    },
+    {
+      "t": "No se nombra a una única persona al frente del apoyo al aprendizaje.",
+      "of": "44ceaf4f",
+      "at": [
+        "cannon:staff.note.strong"
+      ]
+    },
+    {
+      "t": "Tracy Wade dirige el Dovi Academic Resource Center de Middle School; Jennifer Ridenhour dirige el de Upper School.",
+      "of": "f4cb36c2",
+      "at": [
+        "cannon:staff.note.muted"
+      ]
+    },
+    {
+      "t": "Ocho preguntas para llevar a la visita, sobre lo que el sitio de la escuela deja sin responder: tarifas, planes previos, métodos, terapias, personal y plazos.",
+      "of": "5adf038b",
+      "at": [
+        "cannon:ask.headline"
+      ]
+    },
+    {
+      "t": "¿Hay una tarifa por Learning Support, por el coaching académico de Upper School o por el coaching de Middle School, y la ayuda financiera la cubre?",
+      "of": "0f8bfb6d",
+      "at": [
+        "cannon:ask.questions[0]"
+      ]
+    },
+    {
+      "t": "¿Cómo se trata un plan 504, un IEP o el plan de adaptaciones de una escuela anterior antes de redactar el plan de aprendizaje?",
+      "of": "9888806f",
+      "at": [
+        "cannon:ask.questions[1]"
+      ]
+    },
+    {
+      "t": "¿Qué método de lectura usa el especialista en intervención lectora de Lower School (p. ej., Orton-Gillingham, Wilson, alfabetización estructurada) y de qué tamaño son los grupos?",
+      "of": "600a8c60",
+      "at": [
+        "cannon:ask.questions[2]"
+      ]
+    },
+    {
+      "t": "¿Hay intervención en matemáticas antes de Upper School?",
+      "of": "25d6aa2b",
+      "at": [
+        "cannon:ask.questions[3]"
+      ]
+    },
+    {
+      "t": "¿Puede un terapeuta externo del habla, ocupacional o fisioterapeuta atender a mi hijo en el campus durante la jornada escolar?",
+      "of": "948abab1",
+      "at": [
+        "cannon:ask.questions[4]"
+      ]
+    },
+    {
+      "t": "¿Hay un/a psicólogo/a escolar, y tienen una lista de evaluadores?",
+      "of": "249259e1",
+      "at": [
+        "cannon:ask.questions[5]"
+      ]
+    },
+    {
+      "t": "La política solo cubre a los estudiantes actuales. ¿Puede una familia compartir una evaluación, o planificar el apoyo, antes de la inscripción?",
+      "of": "967d5f9e",
+      "at": [
+        "cannon:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "¿Se ofrece algún apoyo en inglés (ESL)?",
+      "of": "4d801524",
+      "at": [
+        "cannon:ask.questions[7]"
+      ]
+    },
+    {
+      "t": "24 de octubre de 2026",
+      "of": "9a6ab731",
+      "at": [
+        "cannon:ask.asOf"
+      ]
+    },
+    {
       "t": "Educational Support Services (ESS) es el marco bajo el cual los estudiantes reciben apoyos académicos individualizados: coaching académico, tutorías, adaptaciones para el aprendizaje y apoyo especializado para estudiantes con diferencias de aprendizaje identificadas.",
       "of": "f699e911",
       "at": [
@@ -157,25 +1058,10 @@
       ]
     },
     {
-      "t": "No publicado. Cuente con un proveedor externo.",
-      "of": "59549707",
-      "at": [
-        "hickory-grove-christian:services.verdicts.speech.head",
-        "hickory-grove-christian:services.verdicts.motor.head"
-      ]
-    },
-    {
       "t": "El sitio de la escuela no menciona terapia del habla y lenguaje.",
       "of": "e4312a0f",
       "at": [
         "hickory-grove-christian:services.verdicts.speech.body"
-      ]
-    },
-    {
-      "t": "Ni la terapia ocupacional ni la fisioterapia aparecen en el sitio de la escuela.",
-      "of": "97fecae0",
-      "at": [
-        "hickory-grove-christian:services.verdicts.motor.body"
       ]
     },
     {
@@ -207,20 +1093,6 @@
       ]
     },
     {
-      "t": "Apoyo académico y de aprendizaje",
-      "of": "b050d84b",
-      "at": [
-        "hickory-grove-christian:services.groups[0].name"
-      ]
-    },
-    {
-      "t": "Maestros especializados",
-      "of": "04298f91",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ]
-    },
-    {
       "t": "“Los maestros y coaches/tutores académicos de ESS tienen formación especializada.” Se nombran dos docentes de ESS y dos asistentes docentes.",
       "of": "bdb06ce6",
       "at": [
@@ -228,24 +1100,10 @@
       ]
     },
     {
-      "t": "Intervención en lectura",
-      "of": "18b7d3f0",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ]
-    },
-    {
       "t": "Ningún método nombrado (p. ej., Orton-Gillingham, alfabetización estructurada).",
       "of": "2f135778",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[1].detail"
-      ]
-    },
-    {
-      "t": "Intervención en matemáticas",
-      "of": "9fc9f294",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[2].service"
       ]
     },
     {
@@ -284,13 +1142,6 @@
       ]
     },
     {
-      "t": "Coaching de funciones ejecutivas",
-      "of": "7e3c07fa",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ]
-    },
-    {
       "t": "ESS promueve “la autodefensa, las habilidades de organización, la responsabilidad personal y otras habilidades de funcionamiento ejecutivo”. Academic Coaching de la escuela secundaria, hasta 3 horas por semana: $2,227 al año, o $1,113 por semestre.",
       "of": "ce6686ad",
       "at": [
@@ -326,24 +1177,10 @@
       ]
     },
     {
-      "t": "Instrucción especialmente diseñada",
-      "of": "0add9126",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ]
-    },
-    {
       "t": "“Applied Interventions/Specially Designed Instruction”, añadida a un plan según el “diagnóstico profesional, los comentarios de los maestros y las observaciones de especialistas”: de $1,500 a $2,000 al año.",
       "of": "36b0de5d",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[8].detail"
-      ]
-    },
-    {
-      "t": "Programa independiente / aula separada",
-      "of": "2586e367",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[9].service"
       ]
     },
     {
@@ -354,24 +1191,10 @@
       ]
     },
     {
-      "t": "Dotados / avanzados",
-      "of": "2de5aed3",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ]
-    },
-    {
       "t": "Mencionado en la página de Student Services; sin detalles del programa.",
       "of": "9fe62351",
       "at": [
         "hickory-grove-christian:services.groups[0].rows[10].detail"
-      ]
-    },
-    {
-      "t": "Documentación de elegibilidad",
-      "of": "4702441c",
-      "at": [
-        "hickory-grove-christian:services.groups[0].rows[11].service"
       ]
     },
     {
@@ -382,57 +1205,6 @@
       ]
     },
     {
-      "t": "Terapias y servicios relacionados",
-      "of": "832d48e5",
-      "at": [
-        "hickory-grove-christian:services.groups[1].name"
-      ]
-    },
-    {
-      "t": "Terapia del habla y lenguaje",
-      "of": "b37d3705",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ]
-    },
-    {
-      "t": "La escuela no la menciona.",
-      "of": "6bbf4ac9",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ]
-    },
-    {
-      "t": "Terapia ocupacional",
-      "of": "e216f28e",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ]
-    },
-    {
-      "t": "Fisioterapia",
-      "of": "2ab8c569",
-      "at": [
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ]
-    },
-    {
-      "t": "Evaluación",
-      "of": "7f464e4f",
-      "at": [
-        "hickory-grove-christian:services.groups[2].name"
-      ]
-    },
-    {
-      "t": "Adaptaciones en las pruebas",
-      "of": "c0f1a794",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ]
-    },
-    {
       "t": "Pruebas aprobadas fuera del aula o dentro del aula: $370 al año por 1 materia, $760 por 2, $1,200 por 3 o más.",
       "of": "abc72bd6",
       "at": [
@@ -440,25 +1212,10 @@
       ]
     },
     {
-      "t": "Pruebas de ingreso",
-      "of": "3e1537ff",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[1].service",
-        "hickory-grove-christian:testing.entries[2].title"
-      ]
-    },
-    {
       "t": "Se programan a través de la oficina de Student Services una vez que admisiones tiene todos los formularios requeridos.",
       "of": "381205a8",
       "at": [
         "hickory-grove-christian:services.groups[2].rows[1].detail"
-      ]
-    },
-    {
-      "t": "Evaluación psicoeducativa",
-      "of": "69f00356",
-      "at": [
-        "hickory-grove-christian:services.groups[2].rows[2].service"
       ]
     },
     {
@@ -470,31 +1227,10 @@
       ]
     },
     {
-      "t": "Bienestar y salud",
-      "of": "92456e4a",
-      "at": [
-        "hickory-grove-christian:services.groups[3].name"
-      ]
-    },
-    {
-      "t": "Consejería y apoyo emocional",
-      "of": "0613b801",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ]
-    },
-    {
       "t": "El equipo de bienestar ofrece “consejería bíblica mediante mentoría y discipulado, grupos de apoyo entre compañeros”. La escuela secundaria tiene una dirección de consejería (Director of Counseling). Este equipo es independiente de ESS, y la escuela no describe su apoyo como intervención clínica ni conductual.",
       "of": "ceaad15f",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[0].detail"
-      ]
-    },
-    {
-      "t": "Intervención emocional y conductual",
-      "of": "a9f79269",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[1].service"
       ]
     },
     {
@@ -505,53 +1241,10 @@
       ]
     },
     {
-      "t": "Recursos para crisis",
-      "of": "e074ef65",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ]
-    },
-    {
       "t": "Una página de Mental Health & Crisis Resources menciona la 988 Suicide & Crisis Lifeline y la NC Peer Warmline.",
       "of": "91495fc0",
       "at": [
         "hickory-grove-christian:services.groups[3].rows[2].detail"
-      ]
-    },
-    {
-      "t": "Psicólogo/a escolar",
-      "of": "61585e81",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ]
-    },
-    {
-      "t": "No se nombra a nadie.",
-      "of": "59c2d1bc",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ]
-    },
-    {
-      "t": "Enfermero/a escolar",
-      "of": "cf02f710",
-      "at": [
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ]
-    },
-    {
-      "t": "Idioma",
-      "of": "9a73db9b",
-      "at": [
-        "hickory-grove-christian:services.groups[4].name"
-      ]
-    },
-    {
-      "t": "ESL / apoyo en inglés",
-      "of": "ffd3df8c",
-      "at": [
-        "hickory-grove-christian:services.groups[4].rows[0].service"
       ]
     },
     {
@@ -566,27 +1259,6 @@
       "of": "5d8ec697",
       "at": [
         "hickory-grove-christian:therapy.headline"
-      ]
-    },
-    {
-      "t": "Habla y lenguaje",
-      "of": "d9f2c22c",
-      "at": [
-        "hickory-grove-christian:therapy.items[0].name"
-      ]
-    },
-    {
-      "t": "Ocupacional",
-      "of": "a971a0b7",
-      "at": [
-        "hickory-grove-christian:therapy.items[1].name"
-      ]
-    },
-    {
-      "t": "Física",
-      "of": "d7c1ee80",
-      "at": [
-        "hickory-grove-christian:therapy.items[2].name"
       ]
     },
     {
