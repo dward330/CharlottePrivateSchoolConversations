@@ -16,6 +16,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
+import { schoolInquiryMailto } from '../lib/contact.ts'
 import { SourceRow } from './SourceRow.tsx'
 import {
   LEARNING_NEEDS,
@@ -91,6 +92,21 @@ function CodeChip({ code }: { code: LearningCode }) {
   )
 }
 
+/** The code key: each chip beside what it means (`learning.legend.<code>`). */
+function CodeLegend({ codes }: { codes: LearningCode[] }) {
+  const { t } = useTranslation()
+  return (
+    <div className="ls-legend">
+      {codes.map((c) => (
+        <span key={c} className="ls-legend-item">
+          <CodeChip code={c} />
+          {t(`learning.legend.${c}`)}
+        </span>
+      ))}
+    </div>
+  )
+}
+
 function StatStrip({ stats }: { stats: LearningStat[] }) {
   if (stats.length === 0) return null
   return (
@@ -146,7 +162,7 @@ function EligibilityBody({ data }: { data: EligibilityCard }) {
   ] as const
   return (
     <div className="ls-body">
-      <Lead lead={data.intro} />
+      {data.intro && <Lead lead={data.intro} />}
       <div className="ls-grid ls-grid-eligibility">
         {cells.map((c) => (
           <div key={c.key} className="ls-cell">
@@ -204,14 +220,7 @@ function ServicesBody({ data }: { data: ServicesCard }) {
           </div>
         )}
       </div>
-      <div className="ls-legend">
-        {legend.map((c) => (
-          <span key={c} className="ls-legend-item">
-            <CodeChip code={c} />
-            {t(`learning.legend.${c}`)}
-          </span>
-        ))}
-      </div>
+      <CodeLegend codes={legend} />
       <div className="ls-groups">
         {groups.map((g) => {
           const notStated = g.rows.filter((r) => r.code === 'NS').length
@@ -264,9 +273,14 @@ function TherapyBody({ data }: { data: TherapyCard }) {
   )
 }
 
+/** Legend order for the testing card: only the codes its entries use. */
+const TESTING_LEGEND_ORDER: LearningCode[] = ['IH', 'IH_FEE', 'RF', 'REQUIRED', 'NS']
+
 function TestingBody({ data }: { data: TestingCard }) {
+  const used = TESTING_LEGEND_ORDER.filter((c) => data.entries.some((e) => e.code === c))
   return (
     <div className="ls-body">
+      <CodeLegend codes={used} />
       <div className="ls-entries">
         {data.entries.map((e) => (
           <div key={e.title} className="ls-entry">
@@ -291,14 +305,19 @@ function TestingBody({ data }: { data: TestingCard }) {
   )
 }
 
-function StaffBody({ data }: { data: StaffCard }) {
+function StaffBody({ data, schoolName }: { data: StaffCard; schoolName: string }) {
   return (
     <div className="ls-body">
-      <div className="ls-staff">
+      <div className="ls-staff" data-email={data.people.some((p) => p.email) || undefined}>
         {data.people.map((p) => (
           <div key={p.name} className="ls-person">
             <span className="ls-person-name">{p.name}</span>
             <span className="text-muted ls-person-role">{p.role}</span>
+            {p.email && (
+              <a className="ls-person-email" href={schoolInquiryMailto(p.email, schoolName)}>
+                <bdi dir="ltr">{p.email}</bdi>
+              </a>
+            )}
           </div>
         ))}
       </div>
@@ -340,9 +359,12 @@ export function LearningSupportStatBand({ program }: { program: LearningSupportP
 export function LearningSupportCardBody({
   program,
   cardKey,
+  schoolName,
 }: {
   program: LearningSupportProgram
   cardKey: LearningSupportCardKey
+  /** For the staff card's mailto subject, "<School name> Inquiry". */
+  schoolName: string
 }) {
   switch (cardKey) {
     case 'eligibility':
@@ -354,7 +376,7 @@ export function LearningSupportCardBody({
     case 'testing':
       return <TestingBody data={program.testing!} />
     case 'staff':
-      return <StaffBody data={program.staff!} />
+      return <StaffBody data={program.staff!} schoolName={schoolName} />
     case 'ask':
       return <AskBody data={program.ask!} />
   }

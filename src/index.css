@@ -7420,6 +7420,13 @@ a.cs-college-name:focus-visible {
 .ls-person { display: flex; flex-wrap: wrap; gap: 2px 16px; padding: 9px 0; border-bottom: 1px solid var(--border); }
 .ls-person-name { flex: 1 1 180px; min-width: 0; font-family: var(--heading); font-weight: 600; font-size: 17px; }
 .ls-person-role { flex: 1 1 200px; min-width: 0; font-size: 13px; }
+.ls-person-email { flex: 1 1 220px; min-width: 0; font-size: 13px; color: var(--ls-ink); overflow-wrap: anywhere; }
+/* With any email in the card, three fixed columns, so a row without one keeps
+   its role aligned with the rows that have one. Stacks on a phone. */
+.ls-staff[data-email] .ls-person { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); align-items: baseline; }
+@media (max-width: 640px) {
+  .ls-staff[data-email] .ls-person { grid-template-columns: minmax(0, 1fr); }
+}
 
 /* Ask the School. */
 .ls-questions { margin: 0; padding-inline-start: 22px; display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; line-height: 1.5; }

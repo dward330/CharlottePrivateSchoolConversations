@@ -48,7 +48,8 @@ export type LearningNeed = (typeof LEARNING_NEEDS)[number]
 
 export type EligibilityCard = {
   headline: string
-  intro: LearningLead
+  /** Optional bold lead above the cells; omit it and the cells start the card. */
+  intro?: LearningLead
   /** The three cells, in order: who's eligible, arriving with a plan, outside scope. */
   eligible: string
   plan: string
@@ -91,7 +92,11 @@ export type TestingCard = {
 
 export type StaffCard = {
   headline: string
-  people: { name: string; role: string }[]
+  /**
+   * `email` only where the school's own directory publishes it — never built
+   * from a name pattern. Rendered as a mailto link, never translated.
+   */
+  people: { name: string; role: string; email?: string }[]
   note?: LearningLead
   sources: Source[]
 }
@@ -152,7 +157,7 @@ export const WIDE_LEARNING_CARDS: ReadonlySet<LearningSupportCardKey> = new Set(
 
 /**
  * Per-school entries live in ./learningSupport/<slug>.ts. Hickory Grove
- * Christian is the only school researched; every other school is ABSENT rather
+ * Christian and Cannon are researched; every other school is ABSENT rather
  * than present-and-empty, and with no source-material folder the section never
  * renders on its page.
  */
@@ -164,9 +169,11 @@ import {
   hasOverlay,
   type OverlayFile,
 } from '../lib/localizeData.ts'
+import { cannon } from './learningSupport/cannon.ts'
 import { hickoryGroveChristian } from './learningSupport/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, LearningSupportProgram> = {
+  cannon,
   'hickory-grove-christian': hickoryGroveChristian,
 }
 

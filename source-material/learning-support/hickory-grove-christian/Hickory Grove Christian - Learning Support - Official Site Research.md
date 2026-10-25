@@ -321,3 +321,28 @@ counseling staff.
   Services.
 
 **Settled: silent.** Whether ESS serves TK students is **NOT STATED**. Ask the school.
+
+## Staff email addresses (added 2026-10-24)
+
+Collected 2026-10-24 for the "Who You'll Work With" card, from the school's **Our Staff
+directory**, https://www.hgchristian.org/about-us/our-staff. Its Finalsite element is
+queried as `https://www.hgchristian.org/fs/elements/2573?const_search_keyword=<surname>`,
+and each listing renders its address as a mailto link through
+`FS.util.insertEmail(<el>, "<domain reversed>", "<local part reversed>")`. Reversing the
+two strings gives the address the directory displays. **No address is built from a name
+pattern.**
+
+| Name on the card | Name / title in the directory | Email as published |
+|---|---|---|
+| Dr. Mildred Similton | Dr. Mildred Similton — Administrator of Educational Student Services | mildredsimilton@hgchristian.org |
+| Rachel Vaughn | Rachel Vaughn — Director of Educational Support Services | rachelvaughn@hgchristian.org |
+| Jacqui Williams | Jacqui Williams — Student Services Administrative Assistant | jacquiwilliams@hgchristian.org |
+| Kim Williams | Kimberly Williams — Educational Support Services Teacher | kimberlywilliams@hgchristian.org |
+| Lori Townsend | Lori Townsend — Educational Support Services Teacher | loritownsend@hgchristian.org |
+| Beth Jeu De Vine | Beth Jeu De Vine — Educational Support Services Teacher Assistant | elizabethjeudevine@hgchristian.org |
+| Carolyn Raney | Carolyn Raney — Educational Support Services Teacher Assistant | carolynraney@hgchristian.org |
+| Kim Staples | Kimberly Staples — Academic Coaching & Tutorial Support | kimstaples@hgchristian.org |
+| Belinda Jackson | Belinda Jackson — After School Program Director, Academic Coaching & Tutorial Support | belindajackson@hgchristian.org |
+
+Not on the card, recorded for completeness: Tracey Bennett, Director of Counseling,
+traceybennett@hgchristian.org.

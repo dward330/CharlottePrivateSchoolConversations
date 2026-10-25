@@ -43,6 +43,10 @@ const COUNSELING: Source = {
   label: 'hgchristian.org — College and Career Planning',
   url: 'https://www.hgchristian.org/academics/high-school/college-and-career-planning',
 }
+const STAFF_DIR: Source = {
+  label: 'hgchristian.org — Our Staff',
+  url: 'https://www.hgchristian.org/about-us/our-staff',
+}
 const CHECKLIST_ES: Source = {
   label: 'hgchristian.org — Elementary admissions checklist (PDF)',
   url: 'https://www.hgchristian.org/fs/resource-manager/view/adf10069-819d-4420-83c4-ebba8281c071',
@@ -307,21 +311,21 @@ export const hickoryGroveChristian: LearningSupportProgram = {
   staff: {
     headline: 'Nine named Student Services staff, led by an Administrator for Student Services and a Director of Educational Support Services.',
     people: [
-      { name: 'Dr. Mildred Similton', role: 'Administrator for Student Services' },
-      { name: 'Rachel Vaughn', role: 'Director of Educational Support Services' },
-      { name: 'Jacqui Williams', role: 'Student Services Administrative Assistant' },
-      { name: 'Kim Williams', role: 'Educational Support Services Teacher' },
-      { name: 'Lori Townsend', role: 'Educational Support Services Teacher' },
-      { name: 'Beth Jeu De Vine', role: 'Educational Support Services Teacher Assistant' },
-      { name: 'Carolyn Raney', role: 'Educational Support Services Teacher Assistant' },
-      { name: 'Kim Staples', role: 'Academic Coaching & Tutorial Support' },
-      { name: 'Belinda Jackson', role: 'Academic Coaching & Tutorial Support' },
+      { name: 'Dr. Mildred Similton', role: 'Administrator for Student Services', email: 'mildredsimilton@hgchristian.org' },
+      { name: 'Rachel Vaughn', role: 'Director of Educational Support Services', email: 'rachelvaughn@hgchristian.org' },
+      { name: 'Jacqui Williams', role: 'Student Services Administrative Assistant', email: 'jacquiwilliams@hgchristian.org' },
+      { name: 'Kim Williams', role: 'Educational Support Services Teacher', email: 'kimberlywilliams@hgchristian.org' },
+      { name: 'Lori Townsend', role: 'Educational Support Services Teacher', email: 'loritownsend@hgchristian.org' },
+      { name: 'Beth Jeu De Vine', role: 'Educational Support Services Teacher Assistant', email: 'elizabethjeudevine@hgchristian.org' },
+      { name: 'Carolyn Raney', role: 'Educational Support Services Teacher Assistant', email: 'carolynraney@hgchristian.org' },
+      { name: 'Kim Staples', role: 'Academic Coaching & Tutorial Support', email: 'kimstaples@hgchristian.org' },
+      { name: 'Belinda Jackson', role: 'Academic Coaching & Tutorial Support', email: 'belindajackson@hgchristian.org' },
     ],
     note: {
       strong: 'Tracey Bennett, the high school’s Director of Counseling, is not on this list.',
       muted: 'The school lists her on its College and Career Planning page rather than the Student Services staff list. College Support covers the counseling office, where the school profile pairs her with Dr. Similton.',
     },
-    sources: [ESS, COUNSELING],
+    sources: [ESS, COUNSELING, STAFF_DIR],
   },
 
   ask: {

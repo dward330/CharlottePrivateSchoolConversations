@@ -1494,7 +1494,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="plusmark"><PlusIcon /></span>
                         </summary>
                         <div className="note-card-body">
-                          <LearningSupportCardBody program={learning} cardKey={card.key} />
+                          <LearningSupportCardBody program={learning} cardKey={card.key} schoolName={school.name} />
                         </div>
                       </details>
                     ))}
