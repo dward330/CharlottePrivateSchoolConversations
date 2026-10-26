@@ -1,6 +1,62 @@
 # Cannon School — Sports
-> Distilled from 15 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records
+> Distilled from 16 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-26.
+**Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records
+
+
+---
+
+## 247Sports Recruiting Rankings
+
+*Source file: `Cannon - Sports - 247Sports Recruiting Rankings.md`*
+
+# Cannon — Sports — 247Sports Recruiting Rankings
+
+**Provenance.** Captured 2026-10-26 during `/plan recruitranks` by fetching 247Sports' public
+North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
+position and state rank, stars, composite score, listed high school and commitment per row).
+Every football and basketball athlete on this school's College Pipeline roster
+(`src/data/sportsPrograms/cannon.ts`, `pipeline.roster`) was matched by normalised name
+(suffixes Jr./III dropped, punctuation stripped) AND graduating class, then accepted only if
+247's listed high school is this school. **The app shows the 247Sports Composite** (user
+decision 2026-10-26); the 247Sports in-house figures are recorded alongside for audit only.
+Classes 2024–2026 are final (all signed and enrolled), so these ranks no longer move.
+
+"NA" national rank = 247 publishes a state rank but no national rank for that player.
+Sports other than football and basketball are not ranked by 247Sports and are out of scope.
+
+## Recruiting rankings — matched athletes (247Sports Composite)
+
+None. No football or basketball athlete on this roster appears on a 247Sports NC state list for their class.
+
+## Recruiting rankings — not on a 247Sports NC list (unrated)
+
+Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball).
+Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and
+girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash.
+
+- '25 Maya McCorkle — Girls Basketball → East Tennessee State (D1)
+- '25 Khloe Thompson — Girls Basketball → Winston-Salem State (D2)
+- '27 Brooke Busby — Girls Basketball → Princeton (D1)
+
+## Recruiting rankings — ranked at this school but NOT on our roster
+
+Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but
+no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a
+247 commit is not proof of enrollment, so confirm against the school's own signing coverage first.
+
+- '24 Austin Swartz — basketball, SG, 4★ 0.9807; Composite NC #5, national 50; 247 commit: Miami. https://247sports.com/player/austin-swartz-46133263/
+- '24 Sean Birmingham — basketball, SF, 3★ 0.8500; Composite NC #15, national 308; 247 commit: UNC Greensboro. https://247sports.com/player/sean-birmingham-46137506/
+
+## Recruiting rankings — list sources
+
+Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group:
+
+- https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
+- https://247sports.com/season/<year>-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
+- https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
+- https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
+- https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
+- https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
 
 
 ---
@@ -1258,6 +1314,14 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 
 - https://247sports.com/college/cincinnati/Institution/Cannon-School-Concord-NC-3910/
 - https://247sports.com/college/cornell/Sport/Basketball/AllTimeRecruits/
+- https://247sports.com/player/austin-swartz-46133263/
+- https://247sports.com/player/sean-birmingham-46137506/
+- https://247sports.com/season/<year>-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://alumni.cannonschool.org/page/hall-of-fame
 - https://alumni.cannonschool.org/page/hall-of-fame-2020-inductees
 - https://athletics.cannonschool.org/

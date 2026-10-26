@@ -245,7 +245,8 @@ export const charlotteCountryDay: SportsProgram = {
       { cls: "'25", name: 'Connor Wickerham', sport: 'Swimming', college: 'Brown', conf: 'Ivy', level: 'D1' },
       { cls: "'25", name: 'Abby Kerrins', sport: 'Track / XC', college: 'Dartmouth', conf: 'Ivy', level: 'D1' },
       { cls: "'25", name: 'Lindsey Kerrins', sport: 'Track / XC', college: 'Dartmouth', conf: 'Ivy', level: 'D1' },
-      { cls: "'25", name: 'Khalel Wright', sport: 'Football', college: 'Ball State', conf: 'MAC', level: 'D1' },
+      { cls: "'25", name: 'Khalel Wright', sport: 'Football', college: 'Ball State', conf: 'MAC', level: 'D1',
+        rank247: { state: 56, url: 'https://247sports.com/player/khalel-wright-46139520/' } },
       { cls: "'25", name: 'Grayson Anne McCurdy', sport: 'Girls Lacrosse', college: 'James Madison', conf: 'Sun Belt', level: 'D1' },
       { cls: "'25", name: 'Gabbie Baskett', sport: 'Tennis', college: 'Delaware State', conf: 'MEAC', level: 'D1' },
       { cls: "'25", name: 'Jada Erwin', sport: 'Track / XC', college: 'Western Carolina', conf: 'Southern', level: 'D1' },
@@ -281,6 +282,10 @@ export const charlotteCountryDay: SportsProgram = {
         url: 'https://www.charlottecountryday.org/cd-experience/athletics/collegiate-athletics',
       },
       { label: 'charlottecountryday.org — Awards & Honors', url: AWARDS },
+      {
+        label: '247Sports Composite — 2025 North Carolina football rankings',
+        url: 'https://247sports.com/season/2025-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
+      },
     ],
   },
 

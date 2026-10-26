@@ -166,6 +166,16 @@ export type Commit = {
   /** Athletic conference, or "—" for D3/non-conference. */
   conf: string
   level: CommitLevel
+  /** 247Sports Composite rank in the athlete's recruiting class (football and
+   *  basketball only). Omit when 247 published none — never a placeholder. */
+  rank247?: {
+    /** National rank; omit when 247 shows "NA". */
+    national?: number
+    /** State rank (the state's list the school sits in — NC today). */
+    state: number
+    /** The athlete's 247Sports profile — the citation for both numbers. */
+    url: string
+  }
 }
 
 /** One stage of the commitment funnel. */

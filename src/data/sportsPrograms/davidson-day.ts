@@ -243,9 +243,12 @@ export const davidsonDay: SportsProgram = {
     rankedRecruits:
       'Three four-star basketball recruits in consecutive classes. Cody Peck ’26 is ranked No. 82 nationally by 247Sports and No. 99 by ESPN — he transferred in from IMG Academy for his senior year and chose Dayton over Creighton, Tennessee and Miami. Isaiah Denis ’25 was No. 56 in the On3 Industry ranking and the No. 1 recruit in North Carolina before signing with UNC. Will Stevens ’26, a 6-foot-10 center, was No. 1 in NC per On3 and committed to Clemson over Vanderbilt and South Carolina.',
     roster: [
-      { cls: "'26", name: 'Will Stevens', sport: 'Boys Basketball', college: 'Clemson', conf: 'ACC', level: 'P4' },
-      { cls: "'26", name: 'Cody Peck', sport: 'Boys Basketball', college: 'Dayton', conf: 'Atlantic 10', level: 'D1' },
-      { cls: "'25", name: 'Isaiah Denis', sport: 'Boys Basketball', college: 'North Carolina', conf: 'ACC', level: 'P4' },
+      { cls: "'26", name: 'Will Stevens', sport: 'Boys Basketball', college: 'Clemson', conf: 'ACC', level: 'P4',
+        rank247: { national: 186, state: 4, url: 'https://247sports.com/player/will-stevens-46149054/' } },
+      { cls: "'26", name: 'Cody Peck', sport: 'Boys Basketball', college: 'Dayton', conf: 'Atlantic 10', level: 'D1',
+        rank247: { national: 120, state: 2, url: 'https://247sports.com/player/cody-peck-46150042/' } },
+      { cls: "'25", name: 'Isaiah Denis', sport: 'Boys Basketball', college: 'North Carolina', conf: 'ACC', level: 'P4',
+        rank247: { national: 79, state: 4, url: 'https://247sports.com/player/isaiah-denis-46142390/' } },
       { cls: "'25", name: 'Abbie Gordon', sport: 'Equestrian', college: 'Georgia', conf: 'SEC', level: 'P4' },
       { cls: "'25", name: 'Matthew Doty', sport: 'Swimming', college: 'Air Force', conf: 'Mountain West', level: 'D1' },
       { cls: "'25", name: 'Jordin Glass', sport: 'Volleyball', college: 'UT Chattanooga', conf: 'Southern', level: 'D1' },
@@ -267,6 +270,10 @@ export const davidsonDay: SportsProgram = {
         url: 'https://www.on3.com/news/north-carolina-basketball-isaiah-denis-commits-to-tar-heels-hubert-davis/',
       },
       { label: 'On3 — Will Stevens commits to Clemson', url: 'https://www.on3.com/rivals/news/4-star-pf-will-stevens-commits-to-clemson/' },
+      {
+        label: '247Sports Composite — 2025 North Carolina boys basketball rankings',
+        url: 'https://247sports.com/season/2025-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
+      },
     ],
   },
 

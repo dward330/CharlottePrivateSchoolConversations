@@ -1,5 +1,5 @@
 # Trinity Episcopal School — Sports
-> Distilled from 2 source document(s) in `source-material/sports/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/sports/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-26.
 **Documents:** Selected Results and Coaching, Sports Offered and Participation
 
 

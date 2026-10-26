@@ -3163,6 +3163,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   grid-template-columns: 46px 1fr 120px 180px 100px 58px;
   font-size: 12.5px;
 }
+/* 247Sports rank columns, shown only when some roster row carries a rank. */
+.sports-roster.has-ranks { grid-template-columns: 46px 1fr 120px 180px 100px 64px 64px 58px; }
+.sports-rank { color: inherit; text-decoration: none; font-variant-numeric: tabular-nums; }
+.sports-rank:hover,
+.sports-rank:focus-visible { text-decoration: underline; }
 .sports-td {
   padding: 7px 10px;
   border-bottom: 1px solid var(--border);
@@ -3536,6 +3541,7 @@ html.photo-viewer-open { overflow: hidden; }
   .sports-scroll { overflow-x: auto; }
   .sports-matrix { min-width: 640px; }
   .sports-roster { min-width: 620px; }
+  .sports-roster.has-ranks { min-width: 760px; }
   .sports-bar-row,
   .sports-funnel-row { grid-template-columns: 120px 1fr 70px; }
   .sports-honor { grid-template-columns: minmax(0, 1fr); gap: 4px; }
