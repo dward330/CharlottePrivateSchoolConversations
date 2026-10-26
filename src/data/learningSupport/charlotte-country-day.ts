@@ -121,7 +121,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
     headline:
       'Country Day gives school-based accommodations to students with a documented disability, from its own approved list. Learning-support sessions need no testing.',
     eligible:
-      'Accommodations are for “students with documented disabilities,” and “A licensed service provider must document disabilities through a full psychoeducational evaluation.” Learning-support sessions are different: in the Lower School “A psychoeducational evaluation is not required for services,” and Middle School support is open to students “both with and without formal testing.”',
+      'Accommodations are for “students with documented disabilities,” which a licensed service provider must document “through a full psychoeducational evaluation.” Learning-support sessions are different: the Lower School says a psychoeducational evaluation “is not required for services,” and Middle School support is open to students “both with and without formal testing.”',
     plan:
       'The school’s pages do not mention 504 plans or IEPs. A full psychoeducational evaluation is the only evaluation accepted for formal accommodations: “A simple doctor’s note or medical diagnosis (e.g., ADHD or anxiety) does not provide enough information to justify accommodations.” Supports an outside provider suggests “are considered recommendations and are not mandated.”',
     scope:
@@ -194,7 +194,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
           {
             service: 'Executive-function coaching',
             code: 'IH_FEE',
-            detail: 'Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers “Executive skills (organization, planning, study routines).”',
+            detail: 'Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers executive skills: “organization, planning, study routines.”',
             needs: ['attn'],
           },
           {
@@ -306,7 +306,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
           {
             service: 'School psychologist',
             code: 'NS',
-            detail: 'None named. The Director of Health and Wellness, who started July 1, 2026, is “A licensed clinical psychologist.”',
+            detail: 'None named. The Director of Health and Wellness, who started July 1, 2026, is described by the school as a licensed clinical psychologist.',
             needs: ['social'],
           },
           { service: 'School nurse', code: 'IH', detail: '“Two full-time nurses on each campus.”', needs: [] },
@@ -374,7 +374,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
       {
         code: 'IH',
         title: 'Testing accommodations',
-        text: 'Approved accommodations apply to “Daily coursework and quizzes” and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”',
+        text: 'Approved accommodations apply to daily coursework and quizzes and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”',
         muted: 'In grades 6–12, testing must reach the school at least seven business days before reading day to be used on exams.',
       },
     ],

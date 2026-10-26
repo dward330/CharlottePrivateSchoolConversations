@@ -110,12 +110,14 @@ export function Home() {
                       {/* The distilled-document count is a local-testing-only
                           corpus statistic, not information about the school, so
                           it NEVER ships to production. Dev keeps the combined
-                          key; production shows only the area count through the
-                          already-translated `school.topics` plural key. Do not
-                          remove the DEV guard or `docs` — both are live in dev. */}
+                          key; production shows only the area count through
+                          `home.schoolCardAreas` ("9 Research Areas"). Not
+                          `school.topics`: that key counts the cards inside one
+                          area on the school page, and said "9 topics" here. Do
+                          not remove the DEV guard or `docs` — both are live in dev. */}
                       {import.meta.env.DEV
                         ? t('home.schoolCardMeta', { topics: covered.length, documents: docs })
-                        : t('school.topics', { count: covered.length })}
+                        : t('home.schoolCardAreas', { count: covered.length })}
                     </span>
                   </div>
                 </div>

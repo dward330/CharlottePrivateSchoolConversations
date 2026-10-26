@@ -135,12 +135,17 @@ export function metaForRoute(route: Route): PageMeta {
     // schools' descriptions from "9 areas" to "10" — advertising an area those
     // pages do not have. A school's own manifest topics are the honest figure,
     // and they are what `topicsForSchool()` already computes for the page itself.
+    //
+    // Composed to fit: the three-topic sample drops to two only when the long
+    // form would pass DESC_MAX. Charlotte Catholic's long name plus "student
+    // support" entering its sample (2026-10-26) made it 162 characters.
     const own = topicsForSchool(school.slug)
     const areaCount = own.length || topics.length
-    const description = describe(
+    const compose = (n: number) =>
       `${school.name}: independent research across ${areaCount} areas — ` +
-        `${topicList(3, own.length ? own : topics)} and more. Every figure cited to its source.`,
-    )
+      `${topicList(n, own.length ? own : topics)} and more. Every figure cited to its source.`
+    const long = compose(3)
+    const description = describe(long.length > DESC_MAX ? compose(2) : long)
     const logo = BRANDS[school.slug]?.logo
     const city = BRANDS[school.slug]?.city
     return {

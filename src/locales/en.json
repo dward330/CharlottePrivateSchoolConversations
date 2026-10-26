@@ -116,17 +116,19 @@
     "ctaBrowse": "Browse a school",
     "freshness": "Research current as of {{date}}.",
     "stats": {
-      "schools_one": "school researched",
-      "schools_other": "schools researched",
-      "topics_one": "research area",
-      "topics_other": "research areas",
-      "documents_one": "source document distilled",
-      "documents_other": "source documents distilled"
+      "schools_one": "School researched",
+      "schools_other": "Schools researched",
+      "topics_one": "Research area",
+      "topics_other": "Research areas",
+      "documents_one": "Source document distilled",
+      "documents_other": "Source documents distilled"
     },
     "topicsHeading": "What you can compare",
     "compareAll": "Compare all →",
     "schoolsHeading": "The schools",
-    "schoolCardMeta": "{{topics}} topics · {{documents}} documents distilled"
+    "schoolCardAreas_one": "{{count}} Research area",
+    "schoolCardAreas_other": "{{count}} Research areas",
+    "schoolCardMeta": "{{topics}} Research areas · {{documents}} documents distilled"
   },
   "compare": {
     "backHome": "← Home",

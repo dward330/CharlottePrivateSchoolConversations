@@ -1490,9 +1490,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 )}
 
                 {/* Learning Support: six cards in the fixed order set by
-                    LEARNING_SUPPORT_CARDS. Eligibility, Services and Ask span
-                    the full row even when closed, as in the design; Therapy,
-                    Testing and Staff sit two-up. Titles are constant chrome. */}
+                    LEARNING_SUPPORT_CARDS. Testing, Eligibility, Services and Ask
+                    span the full row even when closed; Therapy and Staff sit
+                    two-up. Titles are constant chrome. */}
                 {ready && t.slug === 'learning-support' && learning && (
                   <div className="note-cards">
                     {lsCards.map((card) => (

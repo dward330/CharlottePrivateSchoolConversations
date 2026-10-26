@@ -5,6 +5,1211 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Charlotte Catholic runs two programs: the Academic Achievement Program, formerly the Learning Support Program, for students with a psychologist’s DSM diagnosis, and the Options/Pathways Program, “tailored specifically for students with developmental disabilities.”",
+      "of": "4bfa9727",
+      "at": [
+        "charlotte-catholic:lead.strong"
+      ],
+      "t": "Charlotte Catholic రెండు ప్రోగ్రామ్‌లు నడుపుతుంది: సైకాలజిస్టు ఇచ్చిన DSM నిర్ధారణ ఉన్న విద్యార్థుల కోసం Academic Achievement Program (గతంలో Learning Support Program), అలాగే “ప్రత్యేకంగా అభివృద్ధి వైకల్యాలు ఉన్న విద్యార్థుల కోసం రూపొందించిన” Options/Pathways Program."
+    },
+    {
+      "text": "Academic Achievement has no published fee. The Options Program has its own 2026-27 tuition rate.",
+      "of": "921c2c6d",
+      "at": [
+        "charlotte-catholic:lead.muted"
+      ],
+      "t": "Academic Achievementకు ప్రచురించిన రుసుము లేదు. Options Programకు 2026-27కి సొంత ట్యూషన్ రేటు ఉంది."
+    },
+    {
+      "text": "Options Program tuition, 2026-27",
+      "of": "e2740029",
+      "at": [
+        "charlotte-catholic:stats[0].label"
+      ],
+      "t": "Options Program ట్యూషన్, 2026-27"
+    },
+    {
+      "text": "Community rate; $18,345 for Participating Catholic families, in place of the standard $21,562 and $15,041",
+      "of": "272a761a",
+      "at": [
+        "charlotte-catholic:stats[0].note"
+      ],
+      "t": "community రేటు; భాగస్వామ్యం ఉన్న కాథలిక్ కుటుంబాలకు $18,345, సాధారణ $21,562, $15,041 స్థానంలో"
+    },
+    {
+      "text": "Academic Achievement staff",
+      "of": "2cf94d1b",
+      "at": [
+        "charlotte-catholic:stats[1].label"
+      ],
+      "t": "Academic Achievement సిబ్బంది"
+    },
+    {
+      "text": "three program teachers by grade, a test coordinator and a testing proctor",
+      "of": "de4b8574",
+      "at": [
+        "charlotte-catholic:stats[1].note"
+      ],
+      "t": "తరగతికి ఒకరు చొప్పున ముగ్గురు ప్రోగ్రామ్ ఉపాధ్యాయులు, ఒక టెస్ట్ కోఆర్డినేటర్, ఒక టెస్టింగ్ ప్రాక్టర్"
+    },
+    {
+      "text": "school counselors",
+      "of": "83d116a4",
+      "at": [
+        "charlotte-catholic:stats[2].label",
+        "charlotte-country-day:stats[3].label",
+        "cannon:stats[3].label",
+        "davidson-day:stats[3].label"
+      ],
+      "t": "పాఠశాల కౌన్సెలర్లు"
+    },
+    {
+      "text": "plus a Mental Health Intervention Counselor",
+      "of": "0480ad06",
+      "at": [
+        "charlotte-catholic:stats[2].note"
+      ],
+      "t": "అదనంగా ఒక మానసిక ఆరోగ్య ఇంటర్వెన్షన్ కౌన్సెలర్"
+    },
+    {
+      "text": "years: the oldest testing reviewed for eligibility",
+      "of": "ec8eaa58",
+      "at": [
+        "charlotte-catholic:stats[3].label"
+      ],
+      "t": "సంవత్సరాలు: అర్హత కోసం పరిశీలించే పరీక్షల గరిష్ఠ వయస్సు"
+    },
+    {
+      "text": "a Psychoeducational or Neurological Assessment",
+      "of": "b15453a4",
+      "at": [
+        "charlotte-catholic:stats[3].note"
+      ],
+      "t": "సైకోఎడ్యుకేషనల్ లేదా న్యూరలాజికల్ మూల్యాంకనం"
+    },
+    {
+      "text": "The Academic Achievement Program serves students with a diagnosis and recent testing; the Options/Pathways Program serves students with developmental disabilities.",
+      "of": "b53241d4",
+      "at": [
+        "charlotte-catholic:eligibility.headline"
+      ],
+      "t": "Academic Achievement Program నిర్ధారణ, ఇటీవలి పరీక్షలు ఉన్న విద్యార్థులకు సేవలు అందిస్తుంది; Options/Pathways Program అభివృద్ధి వైకల్యాలు ఉన్న విద్యార్థులకు సేవలు అందిస్తుంది."
+    },
+    {
+      "text": "Students are eligible for Academic Achievement “if they have completed Psychoeducational Assessment and have received a DSM diagnosis from a psychologist,” with testing dated “within the last 3 years.” The Options/Pathways Program is “tailored specifically for students with developmental disabilities.”",
+      "of": "7868f4df",
+      "at": [
+        "charlotte-catholic:eligibility.eligible"
+      ],
+      "t": "విద్యార్థులు Academic Achievementకు అర్హులు “వారు సైకోఎడ్యుకేషనల్ మూల్యాంకనం పూర్తి చేసి, సైకాలజిస్టు నుంచి DSM నిర్ధారణ పొందితే,” పరీక్షలు “గత 3 సంవత్సరాలలో” జరిగి ఉండాలి. Options/Pathways Program “ప్రత్యేకంగా అభివృద్ధి వైకల్యాలు ఉన్న విద్యార్థుల కోసం రూపొందించారు.”"
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans or IEPs. Eligibility rests on a Psychoeducational or Neurological Assessment; with another type of assessment, “more documentation may be requested and required.” Approved accommodations are recorded in a “Student Accommodation Plan.”",
+      "of": "5f94b9a5",
+      "at": [
+        "charlotte-catholic:eligibility.plan"
+      ],
+      "t": "పాఠశాల పేజీలు 504 ప్రణాళికలను లేదా IEPలను ప్రస్తావించవు. అర్హత సైకోఎడ్యుకేషనల్ లేదా న్యూరలాజికల్ మూల్యాంకనంపై ఆధారపడుతుంది; వేరే రకం మూల్యాంకనం అయితే “మరిన్ని పత్రాలు అడగవచ్చు, తప్పనిసరి చేయవచ్చు.” ఆమోదించిన వెసులుబాట్లను “Student Accommodation Plan”లో నమోదు చేస్తారు."
+    },
+    {
+      "text": "“Students who are disabled in any way will be accepted if the school program and educational facilities are able to effectively meet the needs of the student.” The program’s last goal is “To provide parents with information regarding other educational opportunities should we be unable to meet the needs of a student.”",
+      "of": "1bf63bf1",
+      "at": [
+        "charlotte-catholic:eligibility.scope"
+      ],
+      "t": "“పాఠశాల ప్రోగ్రామ్, విద్యా సదుపాయాలు విద్యార్థి అవసరాలను సమర్థంగా తీర్చగలిగితే, ఏ విధమైన వైకల్యం ఉన్న విద్యార్థులనైనా చేర్చుకుంటారు.” ప్రోగ్రామ్ చివరి లక్ష్యం “ఒక విద్యార్థి అవసరాలను మేము తీర్చలేకపోతే, ఇతర విద్యా అవకాశాల గురించి తల్లిదండ్రులకు సమాచారం ఇవ్వడం.”"
+    },
+    {
+      "text": "College Board and ACT accommodations are “an external process”: “Decisions on these accommodations ARE NOT made by Charlotte Catholic High School staff.”",
+      "of": "4c881905",
+      "at": [
+        "charlotte-catholic:eligibility.note"
+      ],
+      "t": "College Board, ACT వెసులుబాట్లు “బయటి ప్రక్రియ”: “ఈ వెసులుబాట్లపై నిర్ణయాలను Charlotte Catholic High School సిబ్బంది తీసుకోరు.”"
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. Academic Achievement support is included in tuition; the Options Program has its own tuition rate. Pick your child’s need to see what applies.",
+      "of": "98b4cc21",
+      "at": [
+        "charlotte-catholic:services.headline"
+      ],
+      "t": "పాఠశాల పేజీలు వివరించే ప్రతి సేవ, దాన్ని ఎవరు అందిస్తారనే దాని ప్రకారం సమూహం చేసి కోడ్ ఇచ్చింది. Academic Achievement సహాయం ట్యూషన్‌లోనే ఉంటుంది; Options Programకు సొంత ట్యూషన్ రేటు ఉంది. ఏది వర్తిస్తుందో చూడటానికి మీ పిల్లల అవసరాన్ని ఎంచుకోండి."
+    },
+    {
+      "text": "Accommodations and small-group support, but no named reading method.",
+      "of": "80985a2d",
+      "at": [
+        "charlotte-catholic:services.verdicts.read.head"
+      ],
+      "t": "వెసులుబాట్లు, చిన్న బృందాల్లో సహాయం ఉన్నాయి, కానీ పేరున్న రీడింగ్ పద్ధతి లేదు."
+    },
+    {
+      "text": "Program teachers provide “individual, small group, and/or push-in support.” No reading-intervention method is named for Academic Achievement students; Options Program students take “Specialized English and Mathematics courses.”",
+      "of": "2cb32272",
+      "at": [
+        "charlotte-catholic:services.verdicts.read.body"
+      ],
+      "t": "ప్రోగ్రామ్ ఉపాధ్యాయులు “వ్యక్తిగత, చిన్న బృంద, మరియు/లేదా తరగతి లోపలి సహాయం” అందిస్తారు. Academic Achievement విద్యార్థులకు ఏ రీడింగ్-ఇంటర్వెన్షన్ పద్ధతి పేరూ ఇవ్వలేదు; Options Program విద్యార్థులు “ఇంగ్లీష్, గణితాల ప్రత్యేక కోర్సులు” చదువుతారు."
+    },
+    {
+      "text": "A one-semester Academic Skills course in executive function, then Guided Academic Support.",
+      "of": "387cf277",
+      "at": [
+        "charlotte-catholic:services.verdicts.attn.head"
+      ],
+      "t": "కార్యనిర్వాహక నైపుణ్యాలపై ఒక సెమిస్టర్ Academic Skills కోర్సు, తర్వాత Guided Academic Support."
+    },
+    {
+      "text": "Academic Skills (508, 509) teaches “executive function strategies and self-advocacy.” Guided Academic Support (511) follows in grades 10–12 for Academic Achievement students “with a GPA 2.9 or below.”",
+      "of": "08e8e739",
+      "at": [
+        "charlotte-catholic:services.verdicts.attn.body"
+      ],
+      "t": "Academic Skills (508, 509) “కార్యనిర్వాహక నైపుణ్యాల వ్యూహాలు, స్వీయ-వాదన” నేర్పుతుంది. తర్వాత 10–12 తరగతుల్లో Guided Academic Support (511) “GPA 2.9 లేదా అంతకంటే తక్కువ ఉన్న” Academic Achievement విద్యార్థుల కోసం."
+    },
+    {
+      "text": "No math intervention for Academic Achievement students; life-skills math in the Options Program.",
+      "of": "ee855992",
+      "at": [
+        "charlotte-catholic:services.verdicts.math.head"
+      ],
+      "t": "Academic Achievement విద్యార్థులకు గణిత జోక్యం లేదు; Options Programలో దైనందిన జీవిత గణితం."
+    },
+    {
+      "text": "Options Program students take Math Life 1 and 2 as part of a “Life Skills Curriculum.” Academic Achievement students get accommodations and support across subjects.",
+      "of": "6245dd14",
+      "at": [
+        "charlotte-catholic:services.verdicts.math.body"
+      ],
+      "t": "Options Program విద్యార్థులు “జీవన నైపుణ్యాల పాఠ్యప్రణాళిక”లో భాగంగా Math Life 1, 2 చదువుతారు. Academic Achievement విద్యార్థులకు అన్ని సబ్జెక్టుల్లో వెసులుబాట్లు, సహాయం అందుతాయి."
+    },
+    {
+      "text": "No speech-language therapy is listed.",
+      "of": "005df5cd",
+      "at": [
+        "charlotte-catholic:services.verdicts.speech.head"
+      ],
+      "t": "స్పీచ్-లాంగ్వేజ్ థెరపీ జాబితాలో లేదు."
+    },
+    {
+      "text": "Speech therapy is not mentioned on the school’s pages. Ask whether an outside therapist can work with your child on campus.",
+      "of": "46d217b4",
+      "at": [
+        "charlotte-catholic:services.verdicts.speech.body"
+      ],
+      "t": "పాఠశాల పేజీల్లో స్పీచ్ థెరపీ ప్రస్తావన లేదు. బయటి థెరపిస్టు క్యాంపస్‌లో మీ పిల్లలతో పనిచేయవచ్చా అని అడగండి."
+    },
+    {
+      "text": "No occupational or physical therapy is listed.",
+      "of": "0619e32c",
+      "at": [
+        "charlotte-catholic:services.verdicts.motor.head"
+      ],
+      "t": "ఆక్యుపేషనల్ లేదా ఫిజికల్ థెరపీ జాబితాలో లేదు."
+    },
+    {
+      "text": "The Academic Achievement page defines occupational and physical therapy in its glossary but does not say either is offered.",
+      "of": "6bc27b9d",
+      "at": [
+        "charlotte-catholic:services.verdicts.motor.body"
+      ],
+      "t": "Academic Achievement పేజీ తన పదకోశంలో ఆక్యుపేషనల్, ఫిజికల్ థెరపీలను నిర్వచిస్తుంది, కానీ వాటిలో ఏదైనా అందిస్తున్నట్లు చెప్పదు."
+    },
+    {
+      "text": "Six school counselors, a Mental Health Intervention Counselor and a crisis-resources page.",
+      "of": "aae1590f",
+      "at": [
+        "charlotte-catholic:services.verdicts.social.head"
+      ],
+      "t": "ఆరుగురు పాఠశాల కౌన్సెలర్లు, ఒక మానసిక ఆరోగ్య ఇంటర్వెన్షన్ కౌన్సెలర్, సంక్షోభ వనరుల పేజీ."
+    },
+    {
+      "text": "The Mental Health Interventionist “works with students referred by the School Counselors to assess and provide in-depth short-term counseling.” The crisis page lists the 988 Suicide & Crisis Lifeline and the North Carolina Peer Warmline.",
+      "of": "7448e8f1",
+      "at": [
+        "charlotte-catholic:services.verdicts.social.body"
+      ],
+      "t": "మానసిక ఆరోగ్య ఇంటర్వెన్షనిస్టు “School Counselors సూచించిన విద్యార్థులతో కలిసి అంచనా వేసి, లోతైన స్వల్పకాలిక కౌన్సెలింగ్ అందిస్తారు.” సంక్షోభ పేజీలో 988 Suicide & Crisis Lifeline, North Carolina Peer Warmline ఉన్నాయి."
+    },
+    {
+      "text": "No gifted program, but an honors pathway.",
+      "of": "caee41a8",
+      "at": [
+        "charlotte-catholic:services.verdicts.gifted.head"
+      ],
+      "t": "ప్రతిభావంతుల ప్రోగ్రామ్ లేదు, కానీ ఒక ఆనర్స్ మార్గం ఉంది."
+    },
+    {
+      "text": "The St. Augustine Scholars Program is a “four-year honors pathway.” No gifted identification or services are described.",
+      "of": "657ad6d4",
+      "at": [
+        "charlotte-catholic:services.verdicts.gifted.body"
+      ],
+      "t": "St. Augustine Scholars Program “నాలుగేళ్ల ఆనర్స్ మార్గం.” ప్రతిభావంతుల గుర్తింపు గానీ సేవలు గానీ వివరించలేదు."
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "charlotte-catholic:services.groups[0].name",
+        "charlotte-country-day:services.groups[0].name",
+        "cannon:services.groups[0].name",
+        "davidson-day:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "అభ్యసన, అకడమిక్ సహాయం"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[0].service",
+        "charlotte-country-day:services.groups[0].rows[0].service",
+        "cannon:services.groups[0].rows[0].service",
+        "davidson-day:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "ప్రత్యేక ఉపాధ్యాయులు"
+    },
+    {
+      "text": "Three Academic Achievement Program teachers, one each for 9th grade, 10th grade, and 11th and 12th grade, plus a test coordinator and a testing proctor. The Options/Pathways Program has its own co-directors and staff.",
+      "of": "4ea05c70",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[0].detail"
+      ],
+      "t": "Academic Achievement Program ఉపాధ్యాయులు ముగ్గురు, 9వ తరగతికి ఒకరు, 10వ తరగతికి ఒకరు, 11, 12వ తరగతులకు ఒకరు, అదనంగా ఒక టెస్ట్ కోఆర్డినేటర్, ఒక టెస్టింగ్ ప్రాక్టర్. Options/Pathways Programకు సొంత సహ-డైరెక్టర్లు, సిబ్బంది ఉన్నారు."
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[1].service",
+        "charlotte-country-day:services.groups[0].rows[1].service",
+        "cannon:services.groups[0].rows[1].service",
+        "davidson-day:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "చదవడంలో జోక్యం"
+    },
+    {
+      "text": "No reading-intervention method is named for Academic Achievement students.",
+      "of": "975b4499",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[1].detail"
+      ],
+      "t": "Academic Achievement విద్యార్థులకు ఏ రీడింగ్-ఇంటర్వెన్షన్ పద్ధతి పేరూ ఇవ్వలేదు."
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[2].service",
+        "charlotte-country-day:services.groups[0].rows[2].service",
+        "cannon:services.groups[0].rows[2].service",
+        "davidson-day:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "గణితంలో జోక్యం"
+    },
+    {
+      "text": "No math intervention is described for Academic Achievement students. Options Program students take life-skills math courses.",
+      "of": "88154ecb",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[2].detail"
+      ],
+      "t": "Academic Achievement విద్యార్థులకు గణిత జోక్యం వివరించలేదు. Options Program విద్యార్థులు దైనందిన జీవిత గణిత కోర్సులు చదువుతారు."
+    },
+    {
+      "text": "1:1 / small-group instruction",
+      "of": "c8ed8f2d",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[3].service",
+        "charlotte-country-day:services.groups[0].rows[3].service",
+        "cannon:services.groups[0].rows[3].service",
+        "davidson-day:services.groups[0].rows[3].service"
+      ],
+      "t": "1:1 / చిన్న బృంద బోధన"
+    },
+    {
+      "text": "Program teachers provide “individual, small group, and/or push-in support” for students who need the most help.",
+      "of": "7a34c7b5",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[3].detail"
+      ],
+      "t": "ఎక్కువ సహాయం అవసరమైన విద్యార్థులకు ప్రోగ్రామ్ ఉపాధ్యాయులు “వ్యక్తిగత, చిన్న బృంద, మరియు/లేదా తరగతి లోపలి సహాయం” అందిస్తారు."
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[4].service",
+        "charlotte-country-day:services.groups[0].rows[4].service",
+        "cannon:services.groups[0].rows[5].service",
+        "davidson-day:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "ఎగ్జిక్యూటివ్ ఫంక్షన్ కోచింగ్"
+    },
+    {
+      "text": "The Academic Skills course teaches “executive function strategies and self-advocacy alongside lessons that develop independent work habits and effective time management and organizational skills.”",
+      "of": "f75783e1",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[4].detail"
+      ],
+      "t": "Academic Skills కోర్సు “కార్యనిర్వాహక నైపుణ్యాల వ్యూహాలు, స్వీయ-వాదనతో పాటు స్వతంత్రంగా పనిచేసే అలవాట్లు, సమర్థమైన సమయ నిర్వహణ, వ్యవస్థీకరణ నైపుణ్యాలను పెంచే పాఠాలు” నేర్పుతుంది."
+    },
+    {
+      "text": "Learning-support class",
+      "of": "fd470495",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[5].service",
+        "charlotte-country-day:services.groups[0].rows[5].service",
+        "cannon:services.groups[0].rows[6].service",
+        "davidson-day:services.groups[0].rows[6].service"
+      ],
+      "t": "అభ్యసన మద్దతు తరగతి"
+    },
+    {
+      "text": "Academic Skills (508 for grades 9–10, 509 for grades 11–12) is a one-semester elective, weighted A = 4. Guided Academic Support (511) follows in grades 10–12 and is not weighted into the GPA.",
+      "of": "86db5ed1",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[5].detail"
+      ],
+      "t": "Academic Skills (9–10 తరగతులకు 508, 11–12 తరగతులకు 509) ఒక సెమిస్టర్ ఐచ్ఛిక కోర్సు, వెయిటింగ్ A = 4. తర్వాత 10–12 తరగతుల్లో Guided Academic Support (511) ఉంటుంది, దాన్ని GPAలో లెక్కించరు."
+    },
+    {
+      "text": "Accommodations & learning plan",
+      "of": "c65478ab",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[6].service",
+        "charlotte-country-day:services.groups[0].rows[6].service",
+        "cannon:services.groups[0].rows[7].service",
+        "davidson-day:services.groups[0].rows[7].service"
+      ],
+      "t": "వెసులుబాట్లు, అభ్యసన ప్రణాళిక"
+    },
+    {
+      "text": "The program’s goals include “Identify, provide, and assess accommodations and interventions,” and approved accommodations are recorded in a “Student Accommodation Plan.”",
+      "of": "f74d7515",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[6].detail"
+      ],
+      "t": "ప్రోగ్రామ్ లక్ష్యాల్లో “వెసులుబాట్లు, జోక్యాలను గుర్తించడం, అందించడం, అంచనా వేయడం” ఉంది, ఆమోదించిన వెసులుబాట్లను “Student Accommodation Plan”లో నమోదు చేస్తారు."
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[7].service",
+        "charlotte-country-day:services.groups[0].rows[7].service",
+        "cannon:services.groups[0].rows[8].service",
+        "davidson-day:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "ప్రత్యేకంగా రూపొందించిన బోధన"
+    },
+    {
+      "text": "Options Program only: a “Life Skills Curriculum” of “Specialized English and Mathematics courses,” alongside classes with peers.",
+      "of": "07222197",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[7].detail"
+      ],
+      "t": "Options Programకు మాత్రమే: “ఇంగ్లీష్, గణితాల ప్రత్యేక కోర్సుల”తో కూడిన “జీవన నైపుణ్యాల పాఠ్యప్రణాళిక,” తోటి విద్యార్థులతో కలిసి తరగతులతో పాటు."
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[8].service",
+        "charlotte-country-day:services.groups[0].rows[8].service",
+        "cannon:services.groups[0].rows[9].service",
+        "davidson-day:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "ప్రత్యేక కార్యక్రమం / వేరే తరగతి"
+    },
+    {
+      "text": "Options Program only, for students with developmental disabilities. 2026-27 tuition is $24,077 at the Community rate and $18,345 at the Participating Catholic rate, in place of the standard $21,562 and $15,041. Graduates receive a Certificate of Achievement, and the Pathways Program extends support two years beyond high school.",
+      "of": "ddf2071f",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[8].detail"
+      ],
+      "t": "Options Programకు మాత్రమే, అభివృద్ధి వైకల్యాలు ఉన్న విద్యార్థుల కోసం. 2026-27 ట్యూషన్ community రేటులో $24,077, భాగస్వామ్యం ఉన్న కాథలిక్ రేటులో $18,345, సాధారణ $21,562, $15,041 స్థానంలో. గ్రాడ్యుయేట్లకు Certificate of Achievement ఇస్తారు, Pathways Program హైస్కూల్ తర్వాత మరో రెండేళ్లు సహాయం కొనసాగిస్తుంది."
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[9].service",
+        "charlotte-country-day:services.groups[0].rows[9].service",
+        "cannon:services.groups[0].rows[10].service",
+        "davidson-day:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "ప్రతిభావంతులు / ఉన్నత స్థాయి"
+    },
+    {
+      "text": "No gifted program is described. The St. Augustine Scholars Program is a “four-year honors pathway.”",
+      "of": "ee452c89",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[9].detail"
+      ],
+      "t": "ప్రతిభావంతుల ప్రోగ్రామ్ ఏదీ వివరించలేదు. St. Augustine Scholars Program “నాలుగేళ్ల ఆనర్స్ మార్గం.”"
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[10].service",
+        "charlotte-country-day:services.groups[0].rows[10].service",
+        "cannon:services.groups[0].rows[11].service",
+        "davidson-day:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "అర్హత పత్రాలు"
+    },
+    {
+      "text": "A Psychoeducational or Neurological Assessment dated within the last three years, and a DSM diagnosis from a psychologist, submitted with the program application.",
+      "of": "4638048e",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[10].detail"
+      ],
+      "t": "గత మూడేళ్లలోపు జరిగిన సైకోఎడ్యుకేషనల్ లేదా న్యూరలాజికల్ మూల్యాంకనం, సైకాలజిస్టు ఇచ్చిన DSM నిర్ధారణ, ప్రోగ్రామ్ దరఖాస్తుతో పాటు సమర్పించాలి."
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "charlotte-catholic:services.groups[1].name",
+        "charlotte-country-day:services.groups[1].name",
+        "cannon:services.groups[1].name",
+        "davidson-day:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "థెరపీ, సంబంధిత సేవలు"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[0].service",
+        "charlotte-country-day:services.groups[1].rows[0].service",
+        "cannon:services.groups[1].rows[0].service",
+        "davidson-day:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "స్పీచ్-లాంగ్వేజ్ థెరపీ"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[0].detail",
+        "charlotte-catholic:services.groups[1].rows[1].detail",
+        "charlotte-catholic:services.groups[1].rows[2].detail",
+        "charlotte-country-day:services.groups[1].rows[2].detail",
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "davidson-day:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "పాఠశాల ప్రస్తావించలేదు."
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[1].service",
+        "charlotte-country-day:services.groups[1].rows[1].service",
+        "cannon:services.groups[1].rows[1].service",
+        "davidson-day:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "ఆక్యుపేషనల్ థెరపీ"
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[2].service",
+        "charlotte-country-day:services.groups[1].rows[2].service",
+        "cannon:services.groups[1].rows[2].service",
+        "davidson-day:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "ఫిజికల్ థెరపీ"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "charlotte-catholic:services.groups[2].name",
+        "charlotte-country-day:services.groups[2].name",
+        "cannon:services.groups[2].name",
+        "davidson-day:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "మూల్యాంకనం"
+    },
+    {
+      "text": "Screening & identification",
+      "of": "7f2edf65",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[0].service"
+      ],
+      "t": "స్క్రీనింగ్, గుర్తింపు"
+    },
+    {
+      "text": "No screening process is described.",
+      "of": "4b349234",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[0].detail"
+      ],
+      "t": "స్క్రీనింగ్ ప్రక్రియ ఏదీ వివరించలేదు."
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[1].service",
+        "charlotte-country-day:services.groups[2].rows[1].service",
+        "charlotte-country-day:testing.entries[5].title",
+        "cannon:services.groups[2].rows[1].service",
+        "davidson-day:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "పరీక్షలలో వెసులుబాట్లు"
+    },
+    {
+      "text": "SAT and ACT Special Testing is “directly administered through Academic Achievement.” The school is a national test center for the SAT but not the ACT.",
+      "of": "6b7967fa",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[1].detail"
+      ],
+      "t": "SAT, ACT Special Testing “నేరుగా Academic Achievement ద్వారా నిర్వహిస్తారు.” పాఠశాల SATకి జాతీయ పరీక్ష కేంద్రం, కానీ ACTకి కాదు."
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[2].service",
+        "charlotte-country-day:services.groups[2].rows[2].service",
+        "cannon:services.groups[2].rows[2].service",
+        "davidson-day:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service"
+      ],
+      "t": "ప్రవేశ పరీక్ష"
+    },
+    {
+      "text": "Course placement for 9th graders uses High School Placement Test results, with middle school grades and records.",
+      "of": "bb4446c4",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[2].detail"
+      ],
+      "t": "9వ తరగతి విద్యార్థుల కోర్సు ప్లేస్‌మెంట్‌కు High School Placement Test ఫలితాలు, మిడిల్ స్కూల్ గ్రేడ్‌లు, రికార్డులను ఉపయోగిస్తారు."
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[3].service",
+        "charlotte-catholic:testing.entries[1].title",
+        "charlotte-country-day:services.groups[2].rows[3].service",
+        "charlotte-country-day:testing.entries[3].title",
+        "cannon:services.groups[2].rows[3].service",
+        "davidson-day:services.groups[2].rows[3].service",
+        "davidson-day:testing.entries[2].title",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "సైకోఎడ్యుకేషనల్ మూల్యాంకనం"
+    },
+    {
+      "text": "Done outside the school. The school lists 12 evaluators for families but does not endorse them.",
+      "of": "f54fc9ec",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[3].detail"
+      ],
+      "t": "పాఠశాల బయట జరుగుతుంది. పాఠశాల కుటుంబాల కోసం 12 మంది మూల్యాంకనదారుల జాబితా ఇస్తుంది, కానీ వారిని సమర్థించదు."
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "charlotte-catholic:services.groups[3].name",
+        "charlotte-country-day:services.groups[3].name",
+        "cannon:services.groups[3].name",
+        "davidson-day:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "వెల్‌నెస్, ఆరోగ్యం"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[0].service",
+        "charlotte-country-day:services.groups[3].rows[0].service",
+        "cannon:services.groups[3].rows[0].service",
+        "davidson-day:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "సలహా, భావోద్వేగ సహాయం"
+    },
+    {
+      "text": "Six school counselors, assigned by last name and kept for all four years, help with “personal, emotional, or social concerns.”",
+      "of": "fea25206",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[0].detail"
+      ],
+      "t": "ఇంటిపేరు ఆధారంగా కేటాయించి, నాలుగేళ్లూ మారని ఆరుగురు పాఠశాల కౌన్సెలర్లు “వ్యక్తిగత, భావోద్వేగ, లేదా సామాజిక సమస్యల”లో సహాయపడతారు."
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[1].service",
+        "charlotte-country-day:services.groups[3].rows[1].service",
+        "cannon:services.groups[3].rows[1].service",
+        "davidson-day:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "భావోద్వేగ, ప్రవర్తనా జోక్యం"
+    },
+    {
+      "text": "A Mental Health Interventionist provides “in-depth short-term counseling” to students referred by their counselors.",
+      "of": "1fcc9f4c",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[1].detail"
+      ],
+      "t": "కౌన్సెలర్లు సూచించిన విద్యార్థులకు ఒక మానసిక ఆరోగ్య ఇంటర్వెన్షనిస్టు “లోతైన స్వల్పకాలిక కౌన్సెలింగ్” అందిస్తారు."
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[2].service",
+        "charlotte-country-day:services.groups[3].rows[2].service",
+        "cannon:services.groups[3].rows[2].service",
+        "davidson-day:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "సంక్షోభ సమయ వనరులు"
+    },
+    {
+      "text": "The school’s crisis page lists the 988 Suicide & Crisis Lifeline and the North Carolina Peer Warmline (855-733-7762).",
+      "of": "01e0421f",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[2].detail"
+      ],
+      "t": "పాఠశాల సంక్షోభ పేజీలో 988 Suicide & Crisis Lifeline, North Carolina Peer Warmline (855-733-7762) ఉన్నాయి."
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[3].service",
+        "charlotte-country-day:services.groups[3].rows[3].service",
+        "cannon:services.groups[3].rows[3].service",
+        "davidson-day:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "పాఠశాల మనస్తత్వవేత్త"
+    },
+    {
+      "text": "None named.",
+      "of": "59c2d1bc",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[3].detail",
+        "cannon:services.groups[3].rows[3].detail",
+        "davidson-day:services.groups[3].rows[4].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ],
+      "t": "ఎవరి పేరూ ఇవ్వలేదు."
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[4].service",
+        "charlotte-country-day:services.groups[3].rows[4].service",
+        "cannon:services.groups[3].rows[4].service",
+        "davidson-day:services.groups[3].rows[5].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "పాఠశాల నర్సు"
+    },
+    {
+      "text": "A lead nurse, who directs student health services for the MACS schools, and two health staff.",
+      "of": "25ca0994",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[4].detail"
+      ],
+      "t": "MACS పాఠశాలల విద్యార్థి ఆరోగ్య సేవలను నిర్వహించే ఒక ప్రధాన నర్స్, ఇద్దరు ఆరోగ్య సిబ్బంది."
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "charlotte-catholic:services.groups[4].name",
+        "charlotte-country-day:services.groups[4].name",
+        "cannon:services.groups[4].name",
+        "davidson-day:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "భాష"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "charlotte-catholic:services.groups[4].rows[0].service",
+        "charlotte-country-day:services.groups[4].rows[0].service",
+        "cannon:services.groups[4].rows[0].service",
+        "davidson-day:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / ఇంగ్లీష్ భాషా సహాయం"
+    },
+    {
+      "text": "Not described on the school’s pages.",
+      "of": "8920b8b7",
+      "at": [
+        "charlotte-catholic:services.groups[4].rows[0].detail"
+      ],
+      "t": "పాఠశాల పేజీల్లో వివరించలేదు."
+    },
+    {
+      "text": "The school’s pages list no speech-language, occupational or physical therapy. Occupational and physical therapy appear only as terms in the Academic Achievement glossary.",
+      "of": "95e3407e",
+      "at": [
+        "charlotte-catholic:therapy.headline"
+      ],
+      "t": "పాఠశాల పేజీల్లో స్పీచ్-లాంగ్వేజ్, ఆక్యుపేషనల్, ఫిజికల్ థెరపీ ఏదీ జాబితాలో లేదు. ఆక్యుపేషనల్, ఫిజికల్ థెరపీలు Academic Achievement పదకోశంలో పదాలుగా మాత్రమే కనిపిస్తాయి."
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "charlotte-catholic:therapy.items[0].name",
+        "charlotte-country-day:therapy.items[0].name",
+        "cannon:therapy.items[0].name",
+        "davidson-day:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "స్పీచ్-లాంగ్వేజ్"
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "charlotte-catholic:therapy.items[1].name",
+        "charlotte-country-day:therapy.items[1].name",
+        "cannon:therapy.items[1].name",
+        "davidson-day:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "ఆక్యుపేషనల్"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "charlotte-catholic:therapy.items[2].name",
+        "charlotte-country-day:therapy.items[2].name",
+        "cannon:therapy.items[2].name",
+        "davidson-day:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "ఫిజికల్"
+    },
+    {
+      "text": "When necessary, school counselors “refer students to other professionals for assistance in meeting their personal and academic needs.”",
+      "of": "34e8f397",
+      "at": [
+        "charlotte-catholic:therapy.note"
+      ],
+      "t": "అవసరమైనప్పుడు, పాఠశాల కౌన్సెలర్లు “విద్యార్థుల వ్యక్తిగత, అకడమిక్ అవసరాలు తీర్చుకోవడంలో సహాయం కోసం వారిని ఇతర నిపుణుల దగ్గరకు పంపుతారు.”"
+    },
+    {
+      "text": "A family applies with recent outside testing, and the Academic Achievement team reviews it for eligibility. The school publishes no screening process of its own.",
+      "of": "da0ec23a",
+      "at": [
+        "charlotte-catholic:testing.headline"
+      ],
+      "t": "కుటుంబం ఇటీవలి బయటి పరీక్షలతో దరఖాస్తు చేస్తుంది, Academic Achievement బృందం అర్హత కోసం వాటిని పరిశీలిస్తుంది. పాఠశాల సొంత స్క్రీనింగ్ ప్రక్రియను ప్రచురించదు."
+    },
+    {
+      "text": "Application and eligibility review",
+      "of": "4e59014b",
+      "at": [
+        "charlotte-catholic:testing.entries[0].title"
+      ],
+      "t": "దరఖాస్తు, అర్హత పరిశీలన"
+    },
+    {
+      "text": "Families start with the Academic Achievement Program Application. A Psychoeducational or Neurological Assessment “will be reviewed for eligibility” if it is dated within the last three years.",
+      "of": "3fff1680",
+      "at": [
+        "charlotte-catholic:testing.entries[0].text"
+      ],
+      "t": "కుటుంబాలు Academic Achievement Program Applicationతో మొదలుపెడతాయి. సైకోఎడ్యుకేషనల్ లేదా న్యూరలాజికల్ మూల్యాంకనం గత మూడేళ్లలోపుదైతే “అర్హత కోసం పరిశీలిస్తారు.”"
+    },
+    {
+      "text": "Who makes the final decision is not stated. The Academic Skills course lists its prerequisite as “Recommendation from an Academic Achievement teacher and grade evaluation.”",
+      "of": "460ec1ea",
+      "at": [
+        "charlotte-catholic:testing.entries[0].muted"
+      ],
+      "t": "తుది నిర్ణయం ఎవరు తీసుకుంటారో చెప్పలేదు. Academic Skills కోర్సు ముందస్తు అర్హతగా “Academic Achievement ఉపాధ్యాయుల సిఫార్సు, గ్రేడ్ మూల్యాంకనం” అని పేర్కొంటుంది."
+    },
+    {
+      "text": "Done by outside providers. The Assessments page lists 12 psychoeducational evaluators, and the school states: “WE DO NOT ENDORSE, RECOMMEND, OR GUARANTEE” them.",
+      "of": "ab744549",
+      "at": [
+        "charlotte-catholic:testing.entries[1].text"
+      ],
+      "t": "బయటి ప్రదాతలు చేస్తారు. Assessments పేజీలో 12 మంది సైకోఎడ్యుకేషనల్ మూల్యాంకనదారుల జాబితా ఉంది, పాఠశాల ఇలా చెబుతుంది: “మేము సమర్థించము, సిఫార్సు చేయము, హామీ ఇవ్వము” వారిలో ఎవరినీ."
+    },
+    {
+      "text": "The Handbook refers families to a parent support policy for testing and evaluations; that policy is not published.",
+      "of": "8faa39f2",
+      "at": [
+        "charlotte-catholic:testing.entries[1].muted"
+      ],
+      "t": "Handbook పరీక్షలు, మూల్యాంకనాలకు సంబంధించిన తల్లిదండ్రుల సహాయ విధానాన్ని చూడమని కుటుంబాలకు సూచిస్తుంది; ఆ విధానాన్ని ప్రచురించలేదు."
+    },
+    {
+      "text": "Student Accommodation Plan",
+      "of": "60abac83",
+      "at": [
+        "charlotte-catholic:testing.entries[2].title"
+      ],
+      "t": "Student Accommodation Plan"
+    },
+    {
+      "text": "Approved accommodations are recorded in a “Student Accommodation Plan.” Ending support needs a signed consent form, and “reinstatement of special needs support services is not automatic.”",
+      "of": "56bcd693",
+      "at": [
+        "charlotte-catholic:testing.entries[2].text"
+      ],
+      "t": "ఆమోదించిన వెసులుబాట్లను “Student Accommodation Plan”లో నమోదు చేస్తారు. సహాయాన్ని ముగించాలంటే సంతకం చేసిన సమ్మతి పత్రం కావాలి, “ప్రత్యేక అవసరాల సహాయ సేవల పునరుద్ధరణ ఆటోమేటిక్ కాదు.”"
+    },
+    {
+      "text": "SAT and ACT Special Testing",
+      "of": "d763eb91",
+      "at": [
+        "charlotte-catholic:testing.entries[3].title"
+      ],
+      "t": "SAT, ACT Special Testing"
+    },
+    {
+      "text": "For students whose College Board or ACT accommodations require Special Testing, the test “will be directly administered through Academic Achievement.” A school coordinator submits SAT requests, and ACT needs the school’s consent form on file.",
+      "of": "081f254c",
+      "at": [
+        "charlotte-catholic:testing.entries[3].text"
+      ],
+      "t": "College Board లేదా ACT వెసులుబాట్లకు Special Testing అవసరమైన విద్యార్థులకు, పరీక్షను “నేరుగా Academic Achievement ద్వారా నిర్వహిస్తారు.” పాఠశాల కోఆర్డినేటర్ SAT అభ్యర్థనలు సమర్పిస్తారు, ACTకి పాఠశాల సమ్మతి పత్రం రికార్డులో ఉండాలి."
+    },
+    {
+      "text": "Accommodation decisions “ARE NOT made by Charlotte Catholic High School staff.” Special Testing dates for this year are listed as TBA.",
+      "of": "a03c7227",
+      "at": [
+        "charlotte-catholic:testing.entries[3].muted"
+      ],
+      "t": "వెసులుబాట్లపై నిర్ణయాలను “Charlotte Catholic High School సిబ్బంది తీసుకోరు.” ఈ ఏడాది Special Testing తేదీలను TBAగా పేర్కొన్నారు."
+    },
+    {
+      "text": "Screening",
+      "of": "162b322f",
+      "at": [
+        "charlotte-catholic:testing.entries[4].title"
+      ],
+      "t": "స్క్రీనింగ్"
+    },
+    {
+      "text": "No screening process is described. One program goal is “To assist the school community in identifying students needing additional educational support.”",
+      "of": "391104a8",
+      "at": [
+        "charlotte-catholic:testing.entries[4].text"
+      ],
+      "t": "స్క్రీనింగ్ ప్రక్రియ ఏదీ వివరించలేదు. ప్రోగ్రామ్ లక్ష్యాల్లో ఒకటి “అదనపు విద్యా సహాయం అవసరమైన విద్యార్థులను గుర్తించడంలో పాఠశాల సమాజానికి సహాయపడటం.”"
+    },
+    {
+      "text": "Twenty-one named staff: the Academic Achievement team, the Options/Pathways team, the assistant principal over both, six school counselors, the Mental Health Intervention Counselor and three health staff.",
+      "of": "d6533cd5",
+      "at": [
+        "charlotte-catholic:staff.headline"
+      ],
+      "t": "పేర్లు ఇచ్చిన ఇరవై ఒక్క మంది సిబ్బంది: Academic Achievement బృందం, Options/Pathways బృందం, రెండింటినీ పర్యవేక్షించే అసిస్టెంట్ ప్రిన్సిపల్, ఆరుగురు పాఠశాల కౌన్సెలర్లు, మానసిక ఆరోగ్య ఇంటర్వెన్షన్ కౌన్సెలర్, ముగ్గురు ఆరోగ్య సిబ్బంది."
+    },
+    {
+      "text": "Assistant Principal; Academic Achievement, Options & Pathways",
+      "of": "1ad784c5",
+      "at": [
+        "charlotte-catholic:staff.people[0].role"
+      ],
+      "t": "అసిస్టెంట్ ప్రిన్సిపల్; Academic Achievement, Options, Pathways"
+    },
+    {
+      "text": "Academic Achievement, 11th and 12th Grade",
+      "of": "4a3b020a",
+      "at": [
+        "charlotte-catholic:staff.people[1].role"
+      ],
+      "t": "Academic Achievement, 11, 12వ తరగతులు"
+    },
+    {
+      "text": "Academic Achievement Program Teacher, 9th Grade",
+      "of": "bc8620a1",
+      "at": [
+        "charlotte-catholic:staff.people[2].role"
+      ],
+      "t": "Academic Achievement Program ఉపాధ్యాయులు, 9వ తరగతి"
+    },
+    {
+      "text": "Academic Achievement Program Teacher, 10th Grade",
+      "of": "9f1433f5",
+      "at": [
+        "charlotte-catholic:staff.people[3].role"
+      ],
+      "t": "Academic Achievement Program ఉపాధ్యాయులు, 10వ తరగతి"
+    },
+    {
+      "text": "Academic Achievement Test Coordinator",
+      "of": "a6825945",
+      "at": [
+        "charlotte-catholic:staff.people[4].role"
+      ],
+      "t": "Academic Achievement టెస్ట్ కోఆర్డినేటర్"
+    },
+    {
+      "text": "Testing Proctor, Academic Achievement",
+      "of": "f8838746",
+      "at": [
+        "charlotte-catholic:staff.people[5].role"
+      ],
+      "t": "టెస్టింగ్ ప్రాక్టర్, Academic Achievement"
+    },
+    {
+      "text": "Co-Director/Options Teacher",
+      "of": "3691c425",
+      "at": [
+        "charlotte-catholic:staff.people[6].role",
+        "charlotte-catholic:staff.people[7].role"
+      ],
+      "t": "సహ-డైరెక్టర్/Options ఉపాధ్యాయులు"
+    },
+    {
+      "text": "Options Teacher Assistant",
+      "of": "c8850f73",
+      "at": [
+        "charlotte-catholic:staff.people[8].role"
+      ],
+      "t": "Options ఉపాధ్యాయ సహాయకులు"
+    },
+    {
+      "text": "Options/Pathways Instructional Job Coach",
+      "of": "21d76b3d",
+      "at": [
+        "charlotte-catholic:staff.people[9].role"
+      ],
+      "t": "Options/Pathways ఇన్‌స్ట్రక్షనల్ జాబ్ కోచ్"
+    },
+    {
+      "text": "Options/Pathways Program",
+      "of": "4136e7f1",
+      "at": [
+        "charlotte-catholic:staff.people[10].role"
+      ],
+      "t": "Options/Pathways Program"
+    },
+    {
+      "text": "Director of Counseling",
+      "of": "017bfeab",
+      "at": [
+        "charlotte-catholic:staff.people[11].role"
+      ],
+      "t": "కౌన్సెలింగ్ డైరెక్టర్"
+    },
+    {
+      "text": "School Counselor",
+      "of": "b6e4d0bf",
+      "at": [
+        "charlotte-catholic:staff.people[12].role",
+        "charlotte-catholic:staff.people[13].role",
+        "charlotte-catholic:staff.people[14].role",
+        "charlotte-catholic:staff.people[15].role",
+        "charlotte-catholic:staff.people[16].role"
+      ],
+      "t": "పాఠశాల కౌన్సెలర్"
+    },
+    {
+      "text": "Mental Health Intervention Counselor",
+      "of": "f7d46c11",
+      "at": [
+        "charlotte-catholic:staff.people[17].role"
+      ],
+      "t": "మానసిక ఆరోగ్య ఇంటర్వెన్షన్ కౌన్సెలర్"
+    },
+    {
+      "text": "Director of Student Health Services (MACS) and Lead Nurse",
+      "of": "5854540a",
+      "at": [
+        "charlotte-catholic:staff.people[18].role"
+      ],
+      "t": "విద్యార్థి ఆరోగ్య సేవల డైరెక్టర్ (MACS), ప్రధాన నర్స్"
+    },
+    {
+      "text": "Health Staff",
+      "of": "08ee4e19",
+      "at": [
+        "charlotte-catholic:staff.people[19].role",
+        "charlotte-catholic:staff.people[20].role"
+      ],
+      "t": "ఆరోగ్య సిబ్బంది"
+    },
+    {
+      "text": "To begin, contact an Academic Achievement Specialist or complete the program application.",
+      "of": "3ef8838c",
+      "at": [
+        "charlotte-catholic:staff.note.strong"
+      ],
+      "t": "మొదలుపెట్టడానికి, Academic Achievement Specialistను సంప్రదించండి లేదా ప్రోగ్రామ్ దరఖాస్తు పూరించండి."
+    },
+    {
+      "text": "Counselors are assigned by last name (A–De, Di–Ho, Hu–Mi, Mo–She, Shi–Z) and stay the same for all four years; the Director of Counseling counsels students new to the school in grades 10–12.",
+      "of": "074ba52a",
+      "at": [
+        "charlotte-catholic:staff.note.muted"
+      ],
+      "t": "కౌన్సెలర్లను ఇంటిపేరు ఆధారంగా కేటాయిస్తారు (A–De, Di–Ho, Hu–Mi, Mo–She, Shi–Z), నాలుగేళ్లూ వారే ఉంటారు; 10–12 తరగతుల్లో పాఠశాలకు కొత్తగా వచ్చిన విద్యార్థులకు కౌన్సెలింగ్ డైరెక్టర్ కౌన్సెలింగ్ ఇస్తారు."
+    },
+    {
+      "text": "Thirteen questions to take on the tour, covering what the school’s site leaves unanswered: fees, prior plans, who decides, therapy, intervention methods and testing dates.",
+      "of": "8783884e",
+      "at": [
+        "charlotte-catholic:ask.headline"
+      ],
+      "t": "పాఠశాల సందర్శనకు తీసుకెళ్లాల్సిన పదమూడు ప్రశ్నలు, పాఠశాల సైట్ జవాబివ్వని విషయాలపై: రుసుములు, మునుపటి ప్రణాళికలు, ఎవరు నిర్ణయిస్తారు, థెరపీ, జోక్య పద్ధతులు, పరీక్ష తేదీలు."
+    },
+    {
+      "text": "Is there a fee for the Academic Achievement Program, or is it included in tuition?",
+      "of": "95949ce4",
+      "at": [
+        "charlotte-catholic:ask.questions[0]"
+      ],
+      "t": "Academic Achievement Programకు రుసుము ఉందా, లేక అది ట్యూషన్‌లోనే ఉందా?"
+    },
+    {
+      "text": "Options Program tuition does not include the $1,995 family capital fee or enrollment fees. Are there other Options costs?",
+      "of": "8936fb67",
+      "at": [
+        "charlotte-catholic:ask.questions[1]"
+      ],
+      "t": "Options Program ట్యూషన్‌లో కుటుంబానికి $1,995 క్యాపిటల్ ఫీజు గానీ, నమోదు రుసుములు గానీ లేవు. Optionsకు ఇంకా వేరే ఖర్చులు ఉన్నాయా?"
+    },
+    {
+      "text": "How do you treat a 504 plan or IEP from a previous school? Is new testing always needed?",
+      "of": "4b26d9bf",
+      "at": [
+        "charlotte-catholic:ask.questions[2]"
+      ],
+      "t": "మునుపటి పాఠశాల నుంచి వచ్చిన 504 ప్రణాళిక లేదా IEPని మీరు ఎలా పరిగణిస్తారు? కొత్త పరీక్షలు ఎప్పుడూ అవసరమా?"
+    },
+    {
+      "text": "Is there a deadline for the Academic Achievement application, and should we apply before or after admission?",
+      "of": "d66a0a9e",
+      "at": [
+        "charlotte-catholic:ask.questions[3]"
+      ],
+      "t": "Academic Achievement దరఖాస్తుకు గడువు ఉందా, ప్రవేశానికి ముందు దరఖాస్తు చేయాలా తర్వాతనా?"
+    },
+    {
+      "text": "Who decides whether a student is eligible, and what support they receive?",
+      "of": "65e03eb4",
+      "at": [
+        "charlotte-catholic:ask.questions[4]"
+      ],
+      "t": "విద్యార్థి అర్హులో కాదో, వారికి ఏ సహాయం అందుతుందో ఎవరు నిర్ణయిస్తారు?"
+    },
+    {
+      "text": "Is any structured reading or math intervention available to Academic Achievement students?",
+      "of": "7f2a1a05",
+      "at": [
+        "charlotte-catholic:ask.questions[5]"
+      ],
+      "t": "Academic Achievement విద్యార్థులకు నిర్మాణాత్మక రీడింగ్ లేదా గణిత జోక్యం ఏదైనా అందుబాటులో ఉందా?"
+    },
+    {
+      "text": "Can speech-language, occupational or physical therapy take place on campus during the school day?",
+      "of": "3b15011c",
+      "at": [
+        "charlotte-catholic:ask.questions[6]"
+      ],
+      "t": "పాఠశాల సమయంలో క్యాంపస్‌లో స్పీచ్-లాంగ్వేజ్, ఆక్యుపేషనల్ లేదా ఫిజికల్ థెరపీ జరగవచ్చా?"
+    },
+    {
+      "text": "Is there a school psychologist?",
+      "of": "1f66e227",
+      "at": [
+        "charlotte-catholic:ask.questions[7]"
+      ],
+      "t": "పాఠశాల సైకాలజిస్టు ఉన్నారా?"
+    },
+    {
+      "text": "Is there a screening process for a student who is struggling but has no diagnosis?",
+      "of": "ca7c90fa",
+      "at": [
+        "charlotte-catholic:ask.questions[8]"
+      ],
+      "t": "ఇబ్బంది పడుతున్నా నిర్ధారణ లేని విద్యార్థి కోసం స్క్రీనింగ్ ప్రక్రియ ఉందా?"
+    },
+    {
+      "text": "What is the parent support policy for testing and evaluations that the Handbook mentions?",
+      "of": "ffeb35ce",
+      "at": [
+        "charlotte-catholic:ask.questions[9]"
+      ],
+      "t": "Handbook ప్రస్తావించే పరీక్షలు, మూల్యాంకనాలకు సంబంధించిన తల్లిదండ్రుల సహాయ విధానం ఏమిటి?"
+    },
+    {
+      "text": "When are this year’s SAT and ACT Special Testing dates? Both are listed as TBA.",
+      "of": "480f07ad",
+      "at": [
+        "charlotte-catholic:ask.questions[10]"
+      ],
+      "t": "ఈ ఏడాది SAT, ACT Special Testing తేదీలు ఎప్పుడు? రెండూ TBAగా ఉన్నాయి."
+    },
+    {
+      "text": "Is any English-language (ESL) support offered?",
+      "of": "4d801524",
+      "at": [
+        "charlotte-catholic:ask.questions[11]",
+        "cannon:ask.questions[7]",
+        "davidson-day:ask.questions[8]"
+      ],
+      "t": "ఆంగ్ల భాషా (ESL) మద్దతు ఏదైనా అందిస్తారా?"
+    },
+    {
+      "text": "Beyond Honors, AP and the St. Augustine Scholars Program, is there support for gifted learners?",
+      "of": "a978e5f9",
+      "at": [
+        "charlotte-catholic:ask.questions[12]"
+      ],
+      "t": "Honors, AP, St. Augustine Scholars Program కాకుండా, ప్రతిభావంతులైన విద్యార్థులకు ఏదైనా సహాయం ఉందా?"
+    },
+    {
+      "text": "October 26, 2026",
+      "of": "b74f25eb",
+      "at": [
+        "charlotte-catholic:ask.asOf"
+      ],
+      "t": "అక్టోబర్ 26, 2026"
+    },
+    {
       "text": "Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” with one-on-one learning support in the Lower and Middle Schools, academic coaching in the Upper School, and accommodations for students with a documented disability.",
       "of": "d1a138ab",
       "at": [
@@ -69,16 +1274,6 @@
       "t": "ముగ్గురు విభాగ డైరెక్టర్లు, పంతొమ్మిది మంది అభ్యసన నిపుణులు, నలుగురు అకడమిక్ కోచ్‌లు"
     },
     {
-      "text": "school counselors",
-      "of": "83d116a4",
-      "at": [
-        "charlotte-country-day:stats[3].label",
-        "cannon:stats[3].label",
-        "davidson-day:stats[3].label"
-      ],
-      "t": "పాఠశాల కౌన్సెలర్లు"
-    },
-    {
       "text": "two in each division, alongside a Director of Health and Wellness",
       "of": "c5c5d572",
       "at": [
@@ -95,12 +1290,12 @@
       "t": "ధ్రువీకరించిన వైకల్యం ఉన్న విద్యార్థులకు Country Day తన సొంత ఆమోదిత జాబితా నుంచి పాఠశాల వెసులుబాట్లు ఇస్తుంది. అభ్యసన సహాయ సెషన్లకు ఎలాంటి పరీక్ష అవసరం లేదు."
     },
     {
-      "text": "Accommodations are for “students with documented disabilities,” and “A licensed service provider must document disabilities through a full psychoeducational evaluation.” Learning-support sessions are different: in the Lower School “A psychoeducational evaluation is not required for services,” and Middle School support is open to students “both with and without formal testing.”",
-      "of": "e5f4ba3b",
+      "text": "Accommodations are for “students with documented disabilities,” which a licensed service provider must document “through a full psychoeducational evaluation.” Learning-support sessions are different: the Lower School says a psychoeducational evaluation “is not required for services,” and Middle School support is open to students “both with and without formal testing.”",
+      "of": "388494ec",
       "at": [
         "charlotte-country-day:eligibility.eligible"
       ],
-      "t": "వెసులుబాట్లు “ధ్రువీకరించిన వైకల్యాలు ఉన్న విద్యార్థుల” కోసం, అలాగే “లైసెన్స్ ఉన్న సేవా ప్రదాత పూర్తి సైకో-ఎడ్యుకేషనల్ మూల్యాంకనం ద్వారా వైకల్యాలను ధ్రువీకరించాలి.” అభ్యసన సహాయ సెషన్లు వేరు: Lower Schoolలో “సేవలకు సైకో-ఎడ్యుకేషనల్ మూల్యాంకనం అవసరం లేదు,” Middle School సహాయం “అధికారిక పరీక్ష ఉన్నవారికీ లేనివారికీ” అందుబాటులో ఉంది."
+      "t": "వెసులుబాట్లు “ధ్రువీకరించిన వైకల్యాలు ఉన్న విద్యార్థుల” కోసం, వాటిని లైసెన్స్ ఉన్న సేవా ప్రదాత “పూర్తి సైకో-ఎడ్యుకేషనల్ మూల్యాంకనం ద్వారా” ధ్రువీకరించాలి. అభ్యసన సహాయ సెషన్లు వేరు: సైకో-ఎడ్యుకేషనల్ మూల్యాంకనం “సేవలకు అవసరం లేదు” అని Lower School చెబుతుంది, Middle School సహాయం “అధికారిక పరీక్ష ఉన్నవారికీ లేనివారికీ” అందుబాటులో ఉంది."
     },
     {
       "text": "The school’s pages do not mention 504 plans or IEPs. A full psychoeducational evaluation is the only evaluation accepted for formal accommodations: “A simple doctor’s note or medical diagnosis (e.g., ADHD or anxiety) does not provide enough information to justify accommodations.” Supports an outside provider suggests “are considered recommendations and are not mandated.”",
@@ -248,45 +1443,12 @@
       "t": "పాఠశాల అభ్యసన సహాయ పేజీలు ప్రతిభావంతుల కార్యక్రమాన్ని వివరించవు. ముందంజలో ఉన్న విద్యార్థులకు ఏమి అందుబాటులో ఉందో అడగండి."
     },
     {
-      "text": "Learning & academic support",
-      "of": "b050d84b",
-      "at": [
-        "charlotte-country-day:services.groups[0].name",
-        "cannon:services.groups[0].name",
-        "davidson-day:services.groups[0].name",
-        "hickory-grove-christian:services.groups[0].name"
-      ],
-      "t": "అభ్యసన, అకడమిక్ సహాయం"
-    },
-    {
-      "text": "Specialized teachers",
-      "of": "04298f91",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[0].service",
-        "cannon:services.groups[0].rows[0].service",
-        "davidson-day:services.groups[0].rows[0].service",
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ],
-      "t": "ప్రత్యేక ఉపాధ్యాయులు"
-    },
-    {
       "text": "Nineteen learning specialists and four Upper School academic coaches, led by a director in each division, plus a Lower School Reading Specialist and Literacy Coach. Lower School specialists “bring advanced training, including Orton-Gillingham.”",
       "of": "634d3c80",
       "at": [
         "charlotte-country-day:services.groups[0].rows[0].detail"
       ],
       "t": "పంతొమ్మిది మంది అభ్యసన నిపుణులు, నలుగురు Upper School అకడమిక్ కోచ్‌లు, ప్రతి విభాగంలో ఒక డైరెక్టర్ నేతృత్వంలో, వీరితో పాటు Lower Schoolలో ఒక Reading Specialist, Literacy Coach. Lower School నిపుణులు “Orton-Gillinghamతో సహా అధునాతన శిక్షణను తీసుకొస్తారు.”"
-    },
-    {
-      "text": "Reading intervention",
-      "of": "18b7d3f0",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[1].service",
-        "cannon:services.groups[0].rows[1].service",
-        "davidson-day:services.groups[0].rows[1].service",
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ],
-      "t": "చదవడంలో జోక్యం"
     },
     {
       "text": "Lower School specialists give one-on-one support in reading and writing, “typically twice per week,” drawing on Orton-Gillingham and the Hochman Method. K–1 students may also get “small-group literacy instruction” from the Reading Specialist; the school does not say whether those groups are billed.",
@@ -297,33 +1459,12 @@
       "t": "Lower School నిపుణులు చదవడం, రాయడంలో ఒకరికొకరు సహాయం అందిస్తారు, “సాధారణంగా వారానికి రెండుసార్లు,” Orton-Gillingham, Hochman Method ఆధారంగా. K–1 విద్యార్థులు Reading Specialist నుంచి “చిన్న బృందాల్లో అక్షరాస్యత బోధన” కూడా పొందవచ్చు; ఆ బృందాలకు బిల్ చేస్తారో లేదో పాఠశాల చెప్పదు."
     },
     {
-      "text": "Math intervention",
-      "of": "9fc9f294",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[2].service",
-        "cannon:services.groups[0].rows[2].service",
-        "davidson-day:services.groups[0].rows[2].service",
-        "hickory-grove-christian:services.groups[0].rows[2].service"
-      ],
-      "t": "గణితంలో జోక్యం"
-    },
-    {
       "text": "One-on-one “Multi-Sensory Math” in the Lower School, and math within Middle School learning support.",
       "of": "ea4d6d31",
       "at": [
         "charlotte-country-day:services.groups[0].rows[2].detail"
       ],
       "t": "Lower Schoolలో ఒకరికొకరు “బహుళ-ఇంద్రియ గణితం”, Middle School అభ్యసన సహాయంలో భాగంగా గణితం."
-    },
-    {
-      "text": "1:1 / small-group instruction",
-      "of": "c8ed8f2d",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[3].service",
-        "cannon:services.groups[0].rows[3].service",
-        "davidson-day:services.groups[0].rows[3].service"
-      ],
-      "t": "1:1 / చిన్న బృంద బోధన"
     },
     {
       "text": "One-on-one in every division: Lower School sessions are “$82 per 45-minute session,” Middle School sessions “$85 per session.” Small groups are for K–1 literacy only.",
@@ -334,33 +1475,12 @@
       "t": "ప్రతి విభాగంలో ఒకరికొకరు: Lower School సెషన్లు “45 నిమిషాల సెషన్‌కు $82,” Middle School సెషన్లు “ఒక్కో సెషన్‌కు $85.” చిన్న బృందాలు K–1 అక్షరాస్యతకు మాత్రమే."
     },
     {
-      "text": "Executive-function coaching",
-      "of": "7e3c07fa",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[4].service",
-        "cannon:services.groups[0].rows[5].service",
-        "davidson-day:services.groups[0].rows[5].service",
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ],
-      "t": "ఎగ్జిక్యూటివ్ ఫంక్షన్ కోచింగ్"
-    },
-    {
-      "text": "Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers “Executive skills (organization, planning, study routines).”",
-      "of": "cc7a5ba5",
+      "text": "Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers executive skills: “organization, planning, study routines.”",
+      "of": "741dd6e2",
       "at": [
         "charlotte-country-day:services.groups[0].rows[4].detail"
       ],
-      "t": "Upper School అకడమిక్ కోచింగ్ “ఒక్కో సెషన్‌కు $85 చొప్పున బిల్ చేస్తారు”: 9వ తరగతిలో ప్రధాన సబ్జెక్టులకు ఒక కోచ్, తర్వాత 10–12 తరగతుల్లో Humanities లేదా STEM కోచింగ్. Middle School సహాయంలో “కార్యనిర్వాహక నైపుణ్యాలు (వ్యవస్థీకరణ, ప్రణాళిక, చదువు అలవాట్లు)” ఉంటాయి."
-    },
-    {
-      "text": "Learning-support class",
-      "of": "fd470495",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[5].service",
-        "cannon:services.groups[0].rows[6].service",
-        "davidson-day:services.groups[0].rows[6].service"
-      ],
-      "t": "అభ్యసన మద్దతు తరగతి"
+      "t": "Upper School అకడమిక్ కోచింగ్ “ఒక్కో సెషన్‌కు $85 చొప్పున బిల్ చేస్తారు”: 9వ తరగతిలో ప్రధాన సబ్జెక్టులకు ఒక కోచ్, తర్వాత 10–12 తరగతుల్లో Humanities లేదా STEM కోచింగ్. Middle School సహాయంలో కార్యనిర్వాహక నైపుణ్యాలు ఉంటాయి: “వ్యవస్థీకరణ, ప్రణాళిక, చదువు అలవాట్లు.”"
     },
     {
       "text": "No learning-support class is offered, but sessions “are a permanent part of student schedules” and are “treated as class periods,” held during study halls, special-area classes or lunch.",
@@ -371,16 +1491,6 @@
       "t": "ప్రత్యేక అభ్యసన సహాయ తరగతి లేదు, కానీ సెషన్లు “విద్యార్థుల టైమ్‌టేబుల్‌లో శాశ్వత భాగం,” వాటిని “తరగతి పీరియడ్లుగా పరిగణిస్తారు,” స్టడీ హాల్, ప్రత్యేక-విషయ తరగతులు లేదా భోజన సమయంలో జరుగుతాయి."
     },
     {
-      "text": "Accommodations & learning plan",
-      "of": "c65478ab",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[6].service",
-        "cannon:services.groups[0].rows[7].service",
-        "davidson-day:services.groups[0].rows[7].service"
-      ],
-      "t": "వెసులుబాట్లు, అభ్యసన ప్రణాళిక"
-    },
-    {
       "text": "Accommodations come only from the school’s approved list and are recorded in a “Confidential Academic Plan (CAP)” that every teacher can see. Middle and Upper School students with “a documented mental health diagnosis may receive temporary accommodations” while awaiting an evaluation.",
       "of": "2ddc2b0a",
       "at": [
@@ -389,34 +1499,12 @@
       "t": "వెసులుబాట్లు పాఠశాల ఆమోదిత జాబితా నుంచి మాత్రమే వస్తాయి, ప్రతి ఉపాధ్యాయులూ చూడగలిగే “Confidential Academic Plan (CAP)”లో నమోదవుతాయి. Middle School, Upper Schoolలో “ధ్రువీకరించిన మానసిక ఆరోగ్య నిర్ధారణ ఉన్న విద్యార్థులు తాత్కాలిక వెసులుబాట్లు పొందవచ్చు,” మూల్యాంకనం కోసం ఎదురుచూస్తున్నంత కాలం."
     },
     {
-      "text": "Specially designed instruction",
-      "of": "0add9126",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[7].service",
-        "cannon:services.groups[0].rows[8].service",
-        "davidson-day:services.groups[0].rows[8].service",
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ],
-      "t": "ప్రత్యేకంగా రూపొందించిన బోధన"
-    },
-    {
       "text": "Not described. The school says accommodations change “how a student accesses learning—not what they are expected to learn.”",
       "of": "707e9ac0",
       "at": [
         "charlotte-country-day:services.groups[0].rows[7].detail"
       ],
       "t": "వివరించలేదు. వెసులుబాట్లు మార్చేది “విద్యార్థి అభ్యసనాన్ని ఎలా అందుకుంటారనేది—వారు ఏమి నేర్చుకోవాలని ఆశిస్తారనేది కాదు” అని పాఠశాల చెబుతుంది."
-    },
-    {
-      "text": "Self-contained / separate program",
-      "of": "2586e367",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[8].service",
-        "cannon:services.groups[0].rows[9].service",
-        "davidson-day:services.groups[0].rows[9].service",
-        "hickory-grove-christian:services.groups[0].rows[9].service"
-      ],
-      "t": "ప్రత్యేక కార్యక్రమం / వేరే తరగతి"
     },
     {
       "text": "No separate program described.",
@@ -428,56 +1516,12 @@
       "t": "వేరే కార్యక్రమం ఏదీ వివరించలేదు."
     },
     {
-      "text": "Gifted / advanced",
-      "of": "2de5aed3",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[9].service",
-        "cannon:services.groups[0].rows[10].service",
-        "davidson-day:services.groups[0].rows[10].service",
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ],
-      "t": "ప్రతిభావంతులు / ఉన్నత స్థాయి"
-    },
-    {
-      "text": "Eligibility documentation",
-      "of": "4702441c",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[10].service",
-        "cannon:services.groups[0].rows[11].service",
-        "davidson-day:services.groups[0].rows[11].service",
-        "hickory-grove-christian:services.groups[0].rows[11].service"
-      ],
-      "t": "అర్హత పత్రాలు"
-    },
-    {
       "text": "Formal accommodations need a full psychoeducational evaluation, reviewed every three years in Lower and Middle School and every four in Upper School, and submitted through the ERP’s secure online form. Learning-support sessions need none.",
       "of": "8c478713",
       "at": [
         "charlotte-country-day:services.groups[0].rows[10].detail"
       ],
       "t": "అధికారిక వెసులుబాట్లకు పూర్తి సైకో-ఎడ్యుకేషనల్ మూల్యాంకనం అవసరం, దాన్ని Lower School, Middle Schoolలో ప్రతి మూడేళ్లకు, Upper Schoolలో ప్రతి నాలుగేళ్లకు సమీక్షిస్తారు, ERP సురక్షిత ఆన్‌లైన్ ఫారం ద్వారా సమర్పిస్తారు. అభ్యసన సహాయ సెషన్లకు ఏదీ అవసరం లేదు."
-    },
-    {
-      "text": "Therapy & related services",
-      "of": "832d48e5",
-      "at": [
-        "charlotte-country-day:services.groups[1].name",
-        "cannon:services.groups[1].name",
-        "davidson-day:services.groups[1].name",
-        "hickory-grove-christian:services.groups[1].name"
-      ],
-      "t": "థెరపీ, సంబంధిత సేవలు"
-    },
-    {
-      "text": "Speech-language therapy",
-      "of": "b37d3705",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[0].service",
-        "cannon:services.groups[1].rows[0].service",
-        "davidson-day:services.groups[1].rows[0].service",
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ],
-      "t": "స్పీచ్-లాంగ్వేజ్ థెరపీ"
     },
     {
       "text": "TerrificTalkers screens on campus for $25.00 and can provide therapy at school; the family pays the provider directly. The school calls them “contracted” therapists “who provide additional services during the school day.”",
@@ -488,59 +1532,12 @@
       "t": "TerrificTalkers క్యాంపస్‌లో $25.00కు స్క్రీనింగ్ చేస్తుంది, పాఠశాలలోనే థెరపీ అందించగలదు; కుటుంబం నేరుగా ప్రదాతకు చెల్లిస్తుంది. పాఠశాల వారిని “ఒప్పంద” థెరపిస్టులు అని, “పాఠశాల సమయంలో అదనపు సేవలు అందించేవారు” అని పేర్కొంటుంది."
     },
     {
-      "text": "Occupational therapy",
-      "of": "e216f28e",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[1].service",
-        "cannon:services.groups[1].rows[1].service",
-        "davidson-day:services.groups[1].rows[1].service",
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ],
-      "t": "ఆక్యుపేషనల్ థెరపీ"
-    },
-    {
       "text": "Southern Piedmont Pediatric Therapy screens for $25 and is “on campus 1-2 days per week”; therapy is arranged and paid for with the provider.",
       "of": "23617032",
       "at": [
         "charlotte-country-day:services.groups[1].rows[1].detail"
       ],
       "t": "Southern Piedmont Pediatric Therapy $25కు స్క్రీనింగ్ చేస్తుంది, “వారానికి 1-2 రోజులు క్యాంపస్‌లో” ఉంటుంది; థెరపీ ఏర్పాటు, చెల్లింపు ప్రదాతతోనే."
-    },
-    {
-      "text": "Physical therapy",
-      "of": "2ab8c569",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[2].service",
-        "cannon:services.groups[1].rows[2].service",
-        "davidson-day:services.groups[1].rows[2].service",
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ],
-      "t": "ఫిజికల్ థెరపీ"
-    },
-    {
-      "text": "Not listed by the school.",
-      "of": "6bbf4ac9",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[2].detail",
-        "cannon:services.groups[1].rows[1].detail",
-        "cannon:services.groups[1].rows[2].detail",
-        "davidson-day:services.groups[1].rows[2].detail",
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ],
-      "t": "పాఠశాల ప్రస్తావించలేదు."
-    },
-    {
-      "text": "Assessment",
-      "of": "7f464e4f",
-      "at": [
-        "charlotte-country-day:services.groups[2].name",
-        "cannon:services.groups[2].name",
-        "davidson-day:services.groups[2].name",
-        "hickory-grove-christian:services.groups[2].name"
-      ],
-      "t": "మూల్యాంకనం"
     },
     {
       "text": "Early identification (JK–2)",
@@ -561,35 +1558,12 @@
       "t": "Lower School విద్యార్థులను “విద్యా సంవత్సరం ప్రారంభం, మధ్య, చివరలో నిర్వహించే బెంచ్‌మార్క్ అంచనాల” ద్వారా గుర్తిస్తారు, పాఠశాల స్పీచ్-లాంగ్వేజ్, ఆక్యుపేషనల్ థెరపీ స్క్రీనింగ్‌లు అందిస్తుంది."
     },
     {
-      "text": "Testing accommodations",
-      "of": "c0f1a794",
-      "at": [
-        "charlotte-country-day:services.groups[2].rows[1].service",
-        "charlotte-country-day:testing.entries[5].title",
-        "cannon:services.groups[2].rows[1].service",
-        "davidson-day:services.groups[2].rows[1].service",
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ],
-      "t": "పరీక్షలలో వెసులుబాట్లు"
-    },
-    {
       "text": "Approved accommodations include “Extended time (50% more)” on Country Day tests. The ERP submits College Board, ACT and IB requests, but “Country Day accommodations do not automatically transfer.”",
       "of": "d4de8d65",
       "at": [
         "charlotte-country-day:services.groups[2].rows[1].detail"
       ],
       "t": "ఆమోదిత వెసులుబాట్లలో Country Day పరీక్షల్లో “అదనపు సమయం (50% ఎక్కువ)” ఉంది. ERP College Board, ACT, IB అభ్యర్థనలను సమర్పిస్తుంది, కానీ “Country Day వెసులుబాట్లు ఆటోమేటిక్‌గా బదిలీ కావు.”"
-    },
-    {
-      "text": "Entrance testing",
-      "of": "3e1537ff",
-      "at": [
-        "charlotte-country-day:services.groups[2].rows[2].service",
-        "cannon:services.groups[2].rows[2].service",
-        "davidson-day:services.groups[2].rows[2].service",
-        "hickory-grove-christian:services.groups[2].rows[1].service"
-      ],
-      "t": "ప్రవేశ పరీక్ష"
     },
     {
       "text": "A psychologist’s standardized screening for younger applicants, the ISEE for grades 5–12, and the TOEFL for international applicants.",
@@ -600,47 +1574,12 @@
       "t": "చిన్న దరఖాస్తుదారులకు ఒక సైకాలజిస్ట్ చేసే ప్రామాణిక స్క్రీనింగ్, 5–12 తరగతులకు ISEE, అంతర్జాతీయ దరఖాస్తుదారులకు TOEFL."
     },
     {
-      "text": "Psychoeducational evaluation",
-      "of": "69f00356",
-      "at": [
-        "charlotte-country-day:services.groups[2].rows[3].service",
-        "charlotte-country-day:testing.entries[3].title",
-        "cannon:services.groups[2].rows[3].service",
-        "davidson-day:services.groups[2].rows[3].service",
-        "davidson-day:testing.entries[2].title",
-        "hickory-grove-christian:services.groups[2].rows[2].service"
-      ],
-      "t": "సైకోఎడ్యుకేషనల్ మూల్యాంకనం"
-    },
-    {
       "text": "Done by outside providers at the family’s cost. The school publishes a list of preferred providers, updated January 2026, some accepting insurance, and “financial aid options are available for qualifying families.”",
       "of": "ee36bb6a",
       "at": [
         "charlotte-country-day:services.groups[2].rows[3].detail"
       ],
       "t": "బయటి ప్రదాతలు కుటుంబ ఖర్చుతో చేస్తారు. పాఠశాల ప్రాధాన్య ప్రదాతల జాబితాను ప్రచురిస్తుంది, జనవరి 2026లో నవీకరించింది, వారిలో కొందరు బీమా అంగీకరిస్తారు, “అర్హత ఉన్న కుటుంబాలకు ఆర్థిక సహాయ ఎంపికలు అందుబాటులో ఉన్నాయి.”"
-    },
-    {
-      "text": "Wellness & health",
-      "of": "92456e4a",
-      "at": [
-        "charlotte-country-day:services.groups[3].name",
-        "cannon:services.groups[3].name",
-        "davidson-day:services.groups[3].name",
-        "hickory-grove-christian:services.groups[3].name"
-      ],
-      "t": "వెల్‌నెస్, ఆరోగ్యం"
-    },
-    {
-      "text": "Counseling & emotional support",
-      "of": "0613b801",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[0].service",
-        "cannon:services.groups[3].rows[0].service",
-        "davidson-day:services.groups[3].rows[0].service",
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ],
-      "t": "సలహా, భావోద్వేగ సహాయం"
     },
     {
       "text": "Six school counselors, two in each division; three hold the title Director of Counseling. Lower School counselors provide “short-term individual and/or family counseling if needed, and referral to outside experts when appropriate.”",
@@ -651,34 +1590,12 @@
       "t": "ఆరుగురు పాఠశాల కౌన్సెలర్లు, ప్రతి విభాగంలో ఇద్దరు; ముగ్గురికి కౌన్సెలింగ్ డైరెక్టర్ హోదా ఉంది. Lower School కౌన్సెలర్లు “అవసరమైతే స్వల్పకాలిక వ్యక్తిగత మరియు/లేదా కుటుంబ కౌన్సెలింగ్, తగిన సందర్భాల్లో బయటి నిపుణులకు రెఫరల్” అందిస్తారు."
     },
     {
-      "text": "Emotional & behavioral intervention",
-      "of": "a9f79269",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[1].service",
-        "cannon:services.groups[3].rows[1].service",
-        "davidson-day:services.groups[3].rows[2].service",
-        "hickory-grove-christian:services.groups[3].rows[1].service"
-      ],
-      "t": "భావోద్వేగ, ప్రవర్తనా జోక్యం"
-    },
-    {
       "text": "No program is described beyond short-term counseling and referral.",
       "of": "ade7c2ac",
       "at": [
         "charlotte-country-day:services.groups[3].rows[1].detail"
       ],
       "t": "స్వల్పకాలిక కౌన్సెలింగ్, రెఫరల్‌కు మించి ఏ కార్యక్రమాన్నీ వివరించలేదు."
-    },
-    {
-      "text": "Crisis resources",
-      "of": "e074ef65",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[2].service",
-        "cannon:services.groups[3].rows[2].service",
-        "davidson-day:services.groups[3].rows[3].service",
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ],
-      "t": "సంక్షోభ సమయ వనరులు"
     },
     {
       "text": "The Health Services page links Crisis Service Lines: the 988 Suicide & Crisis Lifeline, the Crisis Text Line (text HOME to 741741) and the NC Peer Warmline (1-855-733-7762).",
@@ -689,34 +1606,12 @@
       "t": "Health Services పేజీలో సంక్షోభ హెల్ప్‌లైన్ల లింకులు ఉన్నాయి: 988 Suicide & Crisis Lifeline, Crisis Text Line (741741కు HOME అని టెక్స్ట్ చేయండి), NC Peer Warmline (1-855-733-7762)."
     },
     {
-      "text": "School psychologist",
-      "of": "61585e81",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[3].service",
-        "cannon:services.groups[3].rows[3].service",
-        "davidson-day:services.groups[3].rows[4].service",
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ],
-      "t": "పాఠశాల మనస్తత్వవేత్త"
-    },
-    {
-      "text": "None named. The Director of Health and Wellness, who started July 1, 2026, is “A licensed clinical psychologist.”",
-      "of": "53c3c840",
+      "text": "None named. The Director of Health and Wellness, who started July 1, 2026, is described by the school as a licensed clinical psychologist.",
+      "of": "8b7887c2",
       "at": [
         "charlotte-country-day:services.groups[3].rows[3].detail"
       ],
-      "t": "ఎవరి పేరూ ఇవ్వలేదు. జూలై 1, 2026న బాధ్యతలు స్వీకరించిన ఆరోగ్య, శ్రేయస్సు డైరెక్టర్ “లైసెన్స్ ఉన్న క్లినికల్ సైకాలజిస్ట్.”"
-    },
-    {
-      "text": "School nurse",
-      "of": "cf02f710",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[4].service",
-        "cannon:services.groups[3].rows[4].service",
-        "davidson-day:services.groups[3].rows[5].service",
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ],
-      "t": "పాఠశాల నర్సు"
+      "t": "ఎవరి పేరూ ఇవ్వలేదు. జూలై 1, 2026న బాధ్యతలు స్వీకరించిన ఆరోగ్య, శ్రేయస్సు డైరెక్టర్‌ను పాఠశాల లైసెన్స్ ఉన్న క్లినికల్ సైకాలజిస్టుగా వర్ణిస్తుంది."
     },
     {
       "text": "“Two full-time nurses on each campus.”",
@@ -725,28 +1620,6 @@
         "charlotte-country-day:services.groups[3].rows[4].detail"
       ],
       "t": "“ప్రతి క్యాంపస్‌లో ఇద్దరు పూర్తికాల నర్సులు.”"
-    },
-    {
-      "text": "Language",
-      "of": "9a73db9b",
-      "at": [
-        "charlotte-country-day:services.groups[4].name",
-        "cannon:services.groups[4].name",
-        "davidson-day:services.groups[4].name",
-        "hickory-grove-christian:services.groups[4].name"
-      ],
-      "t": "భాష"
-    },
-    {
-      "text": "ESL / English-language support",
-      "of": "ffd3df8c",
-      "at": [
-        "charlotte-country-day:services.groups[4].rows[0].service",
-        "cannon:services.groups[4].rows[0].service",
-        "davidson-day:services.groups[4].rows[0].service",
-        "hickory-grove-christian:services.groups[4].rows[0].service"
-      ],
-      "t": "ESL / ఇంగ్లీష్ భాషా సహాయం"
     },
     {
       "text": "The school has “a full-time English as a Second Language program,” and the directory lists an English and ESL Teacher in the Upper School.",
@@ -765,17 +1638,6 @@
       "t": "స్పీచ్, ఆక్యుపేషనల్ థెరపీ పాఠశాల సమయంలో క్యాంపస్‌లో స్వతంత్ర ప్రదాతల నుంచి అందుబాటులో ఉన్నాయి, కుటుంబమే నేరుగా ఏర్పాటు చేసి చెల్లిస్తుంది. ఫిజికల్ థెరపీ జాబితాలో లేదు."
     },
     {
-      "text": "Speech-language",
-      "of": "d9f2c22c",
-      "at": [
-        "charlotte-country-day:therapy.items[0].name",
-        "cannon:therapy.items[0].name",
-        "davidson-day:therapy.items[0].name",
-        "hickory-grove-christian:therapy.items[0].name"
-      ],
-      "t": "స్పీచ్-లాంగ్వేజ్"
-    },
-    {
       "text": "TerrificTalkers, on campus. Screening $25.00; therapy fees are set by the provider.",
       "of": "acaee83c",
       "at": [
@@ -784,34 +1646,12 @@
       "t": "TerrificTalkers, క్యాంపస్‌లో. స్క్రీనింగ్ $25.00; థెరపీ రుసుములను ప్రదాత నిర్ణయిస్తారు."
     },
     {
-      "text": "Occupational",
-      "of": "a971a0b7",
-      "at": [
-        "charlotte-country-day:therapy.items[1].name",
-        "cannon:therapy.items[1].name",
-        "davidson-day:therapy.items[1].name",
-        "hickory-grove-christian:therapy.items[1].name"
-      ],
-      "t": "ఆక్యుపేషనల్"
-    },
-    {
       "text": "Southern Piedmont Pediatric Therapy, on campus 1–2 days a week. Screening $25; therapy fees are set by the provider.",
       "of": "883e8d76",
       "at": [
         "charlotte-country-day:therapy.items[1].detail"
       ],
       "t": "Southern Piedmont Pediatric Therapy, వారానికి 1–2 రోజులు క్యాంపస్‌లో. స్క్రీనింగ్ $25; థెరపీ రుసుములను ప్రదాత నిర్ణయిస్తారు."
-    },
-    {
-      "text": "Physical",
-      "of": "d7c1ee80",
-      "at": [
-        "charlotte-country-day:therapy.items[2].name",
-        "cannon:therapy.items[2].name",
-        "davidson-day:therapy.items[2].name",
-        "hickory-grove-christian:therapy.items[2].name"
-      ],
-      "t": "ఫిజికల్"
     },
     {
       "text": "Both providers “operate independently” of the school. Screening forms go home through the Lower School; the school does not say whether screening is offered in the Middle or Upper School.",
@@ -926,12 +1766,12 @@
       "t": "ధ్రువీకరించిన మానసిక ఆరోగ్య నిర్ధారణ ఉన్న Middle School, Upper School విద్యార్థులు మూల్యాంకనం కోసం ఎదురుచూస్తున్నప్పుడు పాఠశాల కౌన్సెలర్ ద్వారా తాత్కాలిక వెసులుబాట్లు పొందవచ్చు."
     },
     {
-      "text": "Approved accommodations apply to “Daily coursework and quizzes” and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”",
-      "of": "4854f226",
+      "text": "Approved accommodations apply to daily coursework and quizzes and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”",
+      "of": "2a3523cf",
       "at": [
         "charlotte-country-day:testing.entries[5].text"
       ],
-      "t": "ఆమోదిత వెసులుబాట్లు “రోజువారీ కోర్స్‌వర్క్, క్విజ్‌లకు,” “మిడ్‌టర్మ్‌లు, ఫైనల్స్‌తో సహా Country Day నిర్వహించే పరీక్షలకు” వర్తిస్తాయి. ప్రామాణిక పరీక్షల వెసులుబాట్లను “College Board లేదా ACT విడిగా ఆమోదించాలి.”"
+      "t": "ఆమోదిత వెసులుబాట్లు రోజువారీ కోర్స్‌వర్క్, క్విజ్‌లకు, “మిడ్‌టర్మ్‌లు, ఫైనల్స్‌తో సహా Country Day నిర్వహించే పరీక్షలకు” వర్తిస్తాయి. ప్రామాణిక పరీక్షల వెసులుబాట్లను “College Board లేదా ACT విడిగా ఆమోదించాలి.”"
     },
     {
       "text": "In grades 6–12, testing must reach the school at least seven business days before reading day to be used on exams.",
@@ -1416,12 +2256,12 @@
       "t": "Upper Schoolలో తోటి విద్యార్థులు నడిపే Math Lab. గణితానికి ప్రత్యేకమైన జోక్యం పేరు లేదు."
     },
     {
-      "text": "In the Math Lab, “Tutors and teachers partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.",
-      "of": "282fc3de",
+      "text": "In the Math Lab, tutors and teachers “partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.",
+      "of": "7e384d20",
       "at": [
         "cannon:services.verdicts.math.body"
       ],
-      "t": "Math Labలో “ట్యూటర్లు, ఉపాధ్యాయులు విద్యార్థులతో కలిసి కష్టమైన భావనలను విడమరిచి చెబుతారు.” Upper School కంటే కింది స్థాయిలో గణిత జోక్యాన్ని పాఠశాల వివరించదు."
+      "t": "Math Labలో ట్యూటర్లు, ఉపాధ్యాయులు “విద్యార్థులతో కలిసి కష్టమైన భావనలను విడమరిచి చెబుతారు.” Upper School కంటే కింది స్థాయిలో గణిత జోక్యాన్ని పాఠశాల వివరించదు."
     },
     {
       "text": "By referral. Plan on an outside provider.",
@@ -1491,12 +2331,12 @@
       "t": "రీడింగ్ ఇంటర్వెన్షనిస్టు “లక్ష్యిత విద్యా సుసంపన్నత అందించవచ్చు”; Upper School Honors Accelerated, AP, AT కోర్సులు, ఒక Independent Study Program అందిస్తుంది. ప్రతిభావంతుల కోసం అధికారిక కార్యక్రమాన్ని వివరించలేదు."
     },
     {
-      "text": "“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.",
-      "of": "135a601a",
+      "text": "A dedicated learning specialist for each division: Lower, Middle and Upper School. Four are named, plus a Lower School Reading Interventionist.",
+      "of": "980a2b3c",
       "at": [
         "cannon:services.groups[0].rows[0].detail"
       ],
-      "t": "“Lower School, Middle School, Upper School అనే ప్రతి విభాగానికి ఒక ప్రత్యేక అభ్యసన నిపుణులు.” నలుగురి పేర్లు ఇచ్చారు, అదనంగా ఒక Lower School రీడింగ్ ఇంటర్వెన్షనిస్టు."
+      "t": "ప్రతి విభాగానికి ఒక ప్రత్యేక అభ్యసన నిపుణులు: Lower School, Middle School, Upper School. నలుగురి పేర్లు ఇచ్చారు, అదనంగా ఒక Lower School రీడింగ్ ఇంటర్వెన్షనిస్టు."
     },
     {
       "text": "Lower School small groups with the Reading Interventionist “designed to close specific skill gaps.” No method (e.g., Orton-Gillingham, structured literacy) is named.",
@@ -1531,12 +2371,12 @@
       "t": "Academic Labs సెషన్లు (9–12)"
     },
     {
-      "text": "“Faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, “available at consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”",
-      "of": "757034b7",
+      "text": "The Upper School’s Academic Labs offer “faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, open at “consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”",
+      "of": "e758576c",
       "at": [
         "cannon:services.groups[0].rows[4].detail"
       ],
-      "t": "“అధ్యాపకులు సమన్వయం చేసే, తోటి విద్యార్థులు నడిపే రచన, గణితం, సైన్స్ ట్యూటరింగ్,” అదనంగా ఒక World Languages Lab, “పాఠశాల సమయంలో స్థిరమైన వేళల్లో, స్థలాల్లో అందుబాటులో ఉంటుంది.” Middle Schoolలో ఉపాధ్యాయుల సహాయం: “ఎలాంటి రుసుమూ వసూలు చేయరు.”"
+      "t": "Upper School Academic Labs “అధ్యాపకులు సమన్వయం చేసే, తోటి విద్యార్థులు నడిపే రచన, గణితం, సైన్స్ ట్యూటరింగ్” అందిస్తాయి, అదనంగా ఒక World Languages Lab, ఇవి “పాఠశాల సమయంలో స్థిరమైన వేళల్లో, స్థలాల్లో” తెరిచి ఉంటాయి. Middle Schoolలో ఉపాధ్యాయుల సహాయం: “ఎలాంటి రుసుమూ వసూలు చేయరు.”"
     },
     {
       "text": "One-on-one academic coaching in the Middle School and, in the Upper School, Academic Coaches who build “executive functioning (EF) skills.”",
@@ -1657,17 +2497,6 @@
         "cannon:services.groups[3].rows[2].detail"
       ],
       "t": "Mental Health and Crisis Resources పేజీలో Suicide and Crisis Lifeline (“988కి కాల్ చేయండి లేదా 741741కి HOME అని టెక్స్ట్ చేయండి”), NC Peer Warmline ఇచ్చారు; Middle School కౌన్సెలర్లు “సంక్షోభంలో ఉన్న విద్యార్థులకు మద్దతు” అందిస్తారు."
-    },
-    {
-      "text": "None named.",
-      "of": "59c2d1bc",
-      "at": [
-        "cannon:services.groups[3].rows[3].detail",
-        "davidson-day:services.groups[3].rows[4].detail",
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ],
-      "t": "ఎవరి పేరూ ఇవ్వలేదు."
     },
     {
       "text": "A Lead School Nurse and a School Nurse are listed in the staff directory.",
@@ -1933,15 +2762,6 @@
         "cannon:ask.questions[6]"
       ],
       "t": "విధానం ప్రస్తుత విద్యార్థులకు మాత్రమే వర్తిస్తుంది. చేరడానికి ముందే ఒక కుటుంబం మూల్యాంకనాన్ని పంచుకోవచ్చా, లేదా మద్దతు కోసం ప్రణాళిక వేసుకోవచ్చా?"
-    },
-    {
-      "text": "Is any English-language (ESL) support offered?",
-      "of": "4d801524",
-      "at": [
-        "cannon:ask.questions[7]",
-        "davidson-day:ask.questions[8]"
-      ],
-      "t": "ఆంగ్ల భాషా (ESL) మద్దతు ఏదైనా అందిస్తారా?"
     },
     {
       "text": "October 24, 2026",
@@ -3236,12 +4056,12 @@
       "t": "2026–27 రుసుముల పట్టికలో HS Instructional Support Class కోసం రెండు సంఖ్యలు ముద్రించి ఉన్నాయి: సంవత్సరానికి $4,455, మరియు $2,227 “/year”. $2,227 సెమిస్టర్ ధరా?"
     },
     {
-      "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
-      "of": "d947979e",
+      "text": "What documentation shows the “identified learning differences” the school serves, and how recent must testing be?",
+      "of": "d0a10244",
       "at": [
         "hickory-grove-christian:ask.questions[2]"
       ],
-      "t": "ఏ పత్రాలను “గుర్తించిన అభ్యసన తేడా”గా పరిగణిస్తారు, పరీక్షలు ఎంత ఇటీవలివి కావాలి?"
+      "t": "పాఠశాల సేవలు అందించే “గుర్తించిన అభ్యసన తేడాల”ను ఏ పత్రాలు చూపిస్తాయి, పరీక్షలు ఎంత ఇటీవలివి కావాలి?"
     },
     {
       "text": "Can an outside speech or occupational therapist see my child on campus during the school day?",

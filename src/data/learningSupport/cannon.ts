@@ -112,7 +112,7 @@ export const cannon: LearningSupportProgram = {
       },
       math: {
         head: 'Peer-led Math Lab in the Upper School. No math-specific intervention is named.',
-        body: 'In the Math Lab, “Tutors and teachers partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.',
+        body: 'In the Math Lab, tutors and teachers “partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.',
       },
       speech: {
         head: 'By referral. Plan on an outside provider.',
@@ -138,7 +138,7 @@ export const cannon: LearningSupportProgram = {
           {
             service: 'Specialized teachers',
             code: 'IH',
-            detail: '“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.',
+            detail: 'A dedicated learning specialist for each division: Lower, Middle and Upper School. Four are named, plus a Lower School Reading Interventionist.',
             needs: ['read', 'attn', 'math'],
           },
           {
@@ -162,7 +162,7 @@ export const cannon: LearningSupportProgram = {
           {
             service: 'Academic Labs (9–12)',
             code: 'IH',
-            detail: '“Faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, “available at consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”',
+            detail: 'The Upper School’s Academic Labs offer “faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, open at “consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”',
             needs: ['read', 'math'],
           },
           {

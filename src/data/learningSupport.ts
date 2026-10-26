@@ -1,7 +1,9 @@
 // Structured data for the "Learning Support & Student Services" research area —
 // six cards in a fixed parent-priority order: can the school serve my child,
-// the services at a glance (with a need filter), therapy, testing, the people,
-// and the questions to ask on the tour. Every card is optional per school.
+// testing and evaluation (how a need is identified; second since 2026-10-26, the
+// order the Learning Support episodes also follow), the services at a glance
+// (with a need filter), therapy, the people, and the questions to ask on the
+// tour. Every card is optional per school.
 //
 // From the Claude Design handoff "Learning Support Section Redesign"
 // (2026-10-20), built first for Hickory Grove Christian. Kept OFF Compare — see
@@ -152,9 +154,9 @@ export type LearningSupportProgram = {
  */
 export const LEARNING_SUPPORT_CARDS = [
   { key: 'eligibility', title: 'Can They Serve My Child?' },
+  { key: 'testing', title: 'Testing & Evaluation' },
   { key: 'services', title: 'Services at a Glance' },
   { key: 'therapy', title: 'Therapy & Related Services' },
-  { key: 'testing', title: 'Testing & Evaluation' },
   { key: 'staff', title: "Who You'll Work With" },
   { key: 'ask', title: 'Ask the School' },
 ] as const satisfies readonly {
@@ -164,8 +166,13 @@ export const LEARNING_SUPPORT_CARDS = [
 
 export type LearningSupportCardKey = (typeof LEARNING_SUPPORT_CARDS)[number]['key']
 
-/** Cards that span the full grid row even when closed, as in the design. */
+/**
+ * Cards that span the full grid row even when closed, as in the design.
+ * Testing joined when it moved up (2026-10-26): wide, it leaves Therapy and
+ * Staff paired with no empty half-row anywhere in the section.
+ */
 export const WIDE_LEARNING_CARDS: ReadonlySet<LearningSupportCardKey> = new Set([
+  'testing',
   'eligibility',
   'services',
   'ask',
@@ -188,12 +195,14 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { cannon } from './learningSupport/cannon.ts'
+import { charlotteCatholic } from './learningSupport/charlotte-catholic.ts'
 import { charlotteCountryDay } from './learningSupport/charlotte-country-day.ts'
 import { davidsonDay } from './learningSupport/davidson-day.ts'
 import { hickoryGroveChristian } from './learningSupport/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, LearningSupportProgram> = {
   cannon,
+  'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
   'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,

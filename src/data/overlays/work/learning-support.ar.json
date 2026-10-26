@@ -5,6 +5,1211 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Charlotte Catholic runs two programs: the Academic Achievement Program, formerly the Learning Support Program, for students with a psychologist’s DSM diagnosis, and the Options/Pathways Program, “tailored specifically for students with developmental disabilities.”",
+      "of": "4bfa9727",
+      "at": [
+        "charlotte-catholic:lead.strong"
+      ],
+      "t": "تدير Charlotte Catholic برنامجين: Academic Achievement Program، المعروف سابقًا باسم Learning Support Program، للطلاب الحاصلين على تشخيص وفق DSM من أخصائي نفسي، وOptions/Pathways Program، «المصمَّم خصيصًا للطلاب ذوي الإعاقات النمائية»."
+    },
+    {
+      "text": "Academic Achievement has no published fee. The Options Program has its own 2026-27 tuition rate.",
+      "of": "921c2c6d",
+      "at": [
+        "charlotte-catholic:lead.muted"
+      ],
+      "t": "لا توجد رسوم منشورة لـ Academic Achievement. ولـ Options Program سعر رسوم دراسية خاص به لعام 2026-27."
+    },
+    {
+      "text": "Options Program tuition, 2026-27",
+      "of": "e2740029",
+      "at": [
+        "charlotte-catholic:stats[0].label"
+      ],
+      "t": "الرسوم الدراسية لـ Options Program، 2026-27"
+    },
+    {
+      "text": "Community rate; $18,345 for Participating Catholic families, in place of the standard $21,562 and $15,041",
+      "of": "272a761a",
+      "at": [
+        "charlotte-catholic:stats[0].note"
+      ],
+      "t": "السعر المجتمعي؛ و$18,345 للأسر الكاثوليكية المشارِكة، بدلًا من السعرين القياسيين $21,562 و$15,041"
+    },
+    {
+      "text": "Academic Achievement staff",
+      "of": "2cf94d1b",
+      "at": [
+        "charlotte-catholic:stats[1].label"
+      ],
+      "t": "موظفو Academic Achievement"
+    },
+    {
+      "text": "three program teachers by grade, a test coordinator and a testing proctor",
+      "of": "de4b8574",
+      "at": [
+        "charlotte-catholic:stats[1].note"
+      ],
+      "t": "ثلاثة معلّمين/معلّمات للبرنامج بحسب الصف، ومنسّق/ة اختبارات، ومراقب/ة اختبارات"
+    },
+    {
+      "text": "school counselors",
+      "of": "83d116a4",
+      "at": [
+        "charlotte-catholic:stats[2].label",
+        "charlotte-country-day:stats[3].label",
+        "cannon:stats[3].label",
+        "davidson-day:stats[3].label"
+      ],
+      "t": "مرشدون مدرسيون"
+    },
+    {
+      "text": "plus a Mental Health Intervention Counselor",
+      "of": "0480ad06",
+      "at": [
+        "charlotte-catholic:stats[2].note"
+      ],
+      "t": "إضافة إلى مرشد/ة للتدخّل في الصحة النفسية"
+    },
+    {
+      "text": "years: the oldest testing reviewed for eligibility",
+      "of": "ec8eaa58",
+      "at": [
+        "charlotte-catholic:stats[3].label"
+      ],
+      "t": "سنوات: أقصى عمر للاختبارات التي تُراجَع لتحديد الأهلية"
+    },
+    {
+      "text": "a Psychoeducational or Neurological Assessment",
+      "of": "b15453a4",
+      "at": [
+        "charlotte-catholic:stats[3].note"
+      ],
+      "t": "تقييم نفسي تربوي أو عصبي"
+    },
+    {
+      "text": "The Academic Achievement Program serves students with a diagnosis and recent testing; the Options/Pathways Program serves students with developmental disabilities.",
+      "of": "b53241d4",
+      "at": [
+        "charlotte-catholic:eligibility.headline"
+      ],
+      "t": "يخدم Academic Achievement Program الطلاب الذين لديهم تشخيص واختبارات حديثة؛ ويخدم Options/Pathways Program الطلاب ذوي الإعاقات النمائية."
+    },
+    {
+      "text": "Students are eligible for Academic Achievement “if they have completed Psychoeducational Assessment and have received a DSM diagnosis from a psychologist,” with testing dated “within the last 3 years.” The Options/Pathways Program is “tailored specifically for students with developmental disabilities.”",
+      "of": "7868f4df",
+      "at": [
+        "charlotte-catholic:eligibility.eligible"
+      ],
+      "t": "يكون الطلاب مؤهّلين لـ Academic Achievement «إذا أكملوا تقييمًا نفسيًا تربويًا وحصلوا على تشخيص وفق DSM من أخصائي نفسي»، على أن تكون الاختبارات «خلال السنوات الـ3 الأخيرة». أما Options/Pathways Program فهو «مصمَّم خصيصًا للطلاب ذوي الإعاقات النمائية»."
+    },
+    {
+      "text": "The school’s pages do not mention 504 plans or IEPs. Eligibility rests on a Psychoeducational or Neurological Assessment; with another type of assessment, “more documentation may be requested and required.” Approved accommodations are recorded in a “Student Accommodation Plan.”",
+      "of": "5f94b9a5",
+      "at": [
+        "charlotte-catholic:eligibility.plan"
+      ],
+      "t": "لا تذكر صفحات المدرسة خطط 504 ولا IEP. تستند الأهلية إلى تقييم نفسي تربوي أو عصبي؛ ومع نوع آخر من التقييم «قد تُطلب وثائق إضافية وتصبح مطلوبة». وتُسجَّل التيسيرات المعتمدة في «Student Accommodation Plan»."
+    },
+    {
+      "text": "“Students who are disabled in any way will be accepted if the school program and educational facilities are able to effectively meet the needs of the student.” The program’s last goal is “To provide parents with information regarding other educational opportunities should we be unable to meet the needs of a student.”",
+      "of": "1bf63bf1",
+      "at": [
+        "charlotte-catholic:eligibility.scope"
+      ],
+      "t": "«سيُقبَل الطلاب ذوو الإعاقة بأي شكل كانت إذا كان برنامج المدرسة ومرافقها التعليمية قادرين على تلبية احتياجات الطالب بفاعلية.» والهدف الأخير للبرنامج هو «تزويد الأهل بمعلومات عن فرص تعليمية أخرى إذا لم نتمكّن من تلبية احتياجات أحد الطلاب»."
+    },
+    {
+      "text": "College Board and ACT accommodations are “an external process”: “Decisions on these accommodations ARE NOT made by Charlotte Catholic High School staff.”",
+      "of": "4c881905",
+      "at": [
+        "charlotte-catholic:eligibility.note"
+      ],
+      "t": "تيسيرات College Board وACT «عملية خارجية»: «القرارات المتعلقة بهذه التيسيرات لا يتّخذها موظفو Charlotte Catholic High School»."
+    },
+    {
+      "text": "Every service the school’s pages describe, grouped and coded by who delivers it. Academic Achievement support is included in tuition; the Options Program has its own tuition rate. Pick your child’s need to see what applies.",
+      "of": "98b4cc21",
+      "at": [
+        "charlotte-catholic:services.headline"
+      ],
+      "t": "كل خدمة تصفها صفحات المدرسة، مجمّعة ومرمّزة بحسب الجهة التي تقدّمها. دعم Academic Achievement مشمول في الرسوم الدراسية؛ ولـ Options Program سعر رسوم دراسية خاص به. اختر حاجة طفلك لترى ما ينطبق عليه."
+    },
+    {
+      "text": "Accommodations and small-group support, but no named reading method.",
+      "of": "80985a2d",
+      "at": [
+        "charlotte-catholic:services.verdicts.read.head"
+      ],
+      "t": "تيسيرات ودعم في مجموعات صغيرة، ولكن دون طريقة قراءة مسمّاة."
+    },
+    {
+      "text": "Program teachers provide “individual, small group, and/or push-in support.” No reading-intervention method is named for Academic Achievement students; Options Program students take “Specialized English and Mathematics courses.”",
+      "of": "2cb32272",
+      "at": [
+        "charlotte-catholic:services.verdicts.read.body"
+      ],
+      "t": "يقدّم معلّمو البرنامج «دعمًا فرديًا، وفي مجموعات صغيرة، و/أو داخل الصف». ولا تُذكر أي طريقة للتدخّل في القراءة لطلاب Academic Achievement؛ ويدرس طلاب Options Program «مقرّرات متخصصة في الإنجليزية والرياضيات»."
+    },
+    {
+      "text": "A one-semester Academic Skills course in executive function, then Guided Academic Support.",
+      "of": "387cf277",
+      "at": [
+        "charlotte-catholic:services.verdicts.attn.head"
+      ],
+      "t": "مقرّر Academic Skills لفصل دراسي واحد في الوظائف التنفيذية، ثم Guided Academic Support."
+    },
+    {
+      "text": "Academic Skills (508, 509) teaches “executive function strategies and self-advocacy.” Guided Academic Support (511) follows in grades 10–12 for Academic Achievement students “with a GPA 2.9 or below.”",
+      "of": "08e8e739",
+      "at": [
+        "charlotte-catholic:services.verdicts.attn.body"
+      ],
+      "t": "يعلّم Academic Skills (508، 509) «استراتيجيات الوظائف التنفيذية والدفاع عن الذات». ثم يأتي Guided Academic Support (511) في الصفوف 10–12 لطلاب Academic Achievement «الذين يبلغ GPA لديهم 2.9 أو أقل»."
+    },
+    {
+      "text": "No math intervention for Academic Achievement students; life-skills math in the Options Program.",
+      "of": "ee855992",
+      "at": [
+        "charlotte-catholic:services.verdicts.math.head"
+      ],
+      "t": "لا تدخّل في الرياضيات لطلاب Academic Achievement؛ ورياضيات الحياة اليومية في Options Program."
+    },
+    {
+      "text": "Options Program students take Math Life 1 and 2 as part of a “Life Skills Curriculum.” Academic Achievement students get accommodations and support across subjects.",
+      "of": "6245dd14",
+      "at": [
+        "charlotte-catholic:services.verdicts.math.body"
+      ],
+      "t": "يدرس طلاب Options Program مقرّرَي Math Life 1 و2 ضمن «منهج المهارات الحياتية». ويحصل طلاب Academic Achievement على تيسيرات ودعم في جميع المواد."
+    },
+    {
+      "text": "No speech-language therapy is listed.",
+      "of": "005df5cd",
+      "at": [
+        "charlotte-catholic:services.verdicts.speech.head"
+      ],
+      "t": "لا يُدرج علاج للنطق واللغة."
+    },
+    {
+      "text": "Speech therapy is not mentioned on the school’s pages. Ask whether an outside therapist can work with your child on campus.",
+      "of": "46d217b4",
+      "at": [
+        "charlotte-catholic:services.verdicts.speech.body"
+      ],
+      "t": "لا تذكر صفحات المدرسة علاج النطق. اسأل عمّا إذا كان بإمكان معالج من خارج المدرسة العمل مع طفلك داخل الحرم المدرسي."
+    },
+    {
+      "text": "No occupational or physical therapy is listed.",
+      "of": "0619e32c",
+      "at": [
+        "charlotte-catholic:services.verdicts.motor.head"
+      ],
+      "t": "لا يُدرج علاج وظيفي ولا علاج طبيعي."
+    },
+    {
+      "text": "The Academic Achievement page defines occupational and physical therapy in its glossary but does not say either is offered.",
+      "of": "6bc27b9d",
+      "at": [
+        "charlotte-catholic:services.verdicts.motor.body"
+      ],
+      "t": "تعرّف صفحة Academic Achievement العلاج الوظيفي والعلاج الطبيعي في مسرد مصطلحاتها، لكنها لا تقول إن أيًّا منهما متاح."
+    },
+    {
+      "text": "Six school counselors, a Mental Health Intervention Counselor and a crisis-resources page.",
+      "of": "aae1590f",
+      "at": [
+        "charlotte-catholic:services.verdicts.social.head"
+      ],
+      "t": "ستة مرشدين/مرشدات مدرسيين، ومرشد/ة للتدخّل في الصحة النفسية، وصفحة لموارد الأزمات."
+    },
+    {
+      "text": "The Mental Health Interventionist “works with students referred by the School Counselors to assess and provide in-depth short-term counseling.” The crisis page lists the 988 Suicide & Crisis Lifeline and the North Carolina Peer Warmline.",
+      "of": "7448e8f1",
+      "at": [
+        "charlotte-catholic:services.verdicts.social.body"
+      ],
+      "t": "يعمل أخصائي/ة التدخّل في الصحة النفسية «مع الطلاب المحالين من School Counselors لتقييمهم وتقديم إرشاد معمّق قصير الأمد». وتذكر صفحة الأزمات 988 Suicide & Crisis Lifeline وNorth Carolina Peer Warmline."
+    },
+    {
+      "text": "No gifted program, but an honors pathway.",
+      "of": "caee41a8",
+      "at": [
+        "charlotte-catholic:services.verdicts.gifted.head"
+      ],
+      "t": "لا يوجد برنامج للموهوبين، ولكن يوجد مسار للتميّز (honors)."
+    },
+    {
+      "text": "The St. Augustine Scholars Program is a “four-year honors pathway.” No gifted identification or services are described.",
+      "of": "657ad6d4",
+      "at": [
+        "charlotte-catholic:services.verdicts.gifted.body"
+      ],
+      "t": "St. Augustine Scholars Program هو «مسار للتميّز مدته أربع سنوات». ولا يُوصف أي تحديد أو خدمات للطلاب الموهوبين."
+    },
+    {
+      "text": "Learning & academic support",
+      "of": "b050d84b",
+      "at": [
+        "charlotte-catholic:services.groups[0].name",
+        "charlotte-country-day:services.groups[0].name",
+        "cannon:services.groups[0].name",
+        "davidson-day:services.groups[0].name",
+        "hickory-grove-christian:services.groups[0].name"
+      ],
+      "t": "الدعم الأكاديمي ودعم التعلّم"
+    },
+    {
+      "text": "Specialized teachers",
+      "of": "04298f91",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[0].service",
+        "charlotte-country-day:services.groups[0].rows[0].service",
+        "cannon:services.groups[0].rows[0].service",
+        "davidson-day:services.groups[0].rows[0].service",
+        "hickory-grove-christian:services.groups[0].rows[0].service"
+      ],
+      "t": "معلمون متخصصون"
+    },
+    {
+      "text": "Three Academic Achievement Program teachers, one each for 9th grade, 10th grade, and 11th and 12th grade, plus a test coordinator and a testing proctor. The Options/Pathways Program has its own co-directors and staff.",
+      "of": "4ea05c70",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[0].detail"
+      ],
+      "t": "ثلاثة معلّمين/معلّمات في Academic Achievement Program، واحد/ة للصف التاسع، وواحد/ة للصف العاشر، وواحد/ة للصفين الحادي عشر والثاني عشر، إضافة إلى منسّق/ة اختبارات ومراقب/ة اختبارات. ولـ Options/Pathways Program مديرون مشاركون وموظفون خاصون به."
+    },
+    {
+      "text": "Reading intervention",
+      "of": "18b7d3f0",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[1].service",
+        "charlotte-country-day:services.groups[0].rows[1].service",
+        "cannon:services.groups[0].rows[1].service",
+        "davidson-day:services.groups[0].rows[1].service",
+        "hickory-grove-christian:services.groups[0].rows[1].service"
+      ],
+      "t": "التدخّل في القراءة"
+    },
+    {
+      "text": "No reading-intervention method is named for Academic Achievement students.",
+      "of": "975b4499",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[1].detail"
+      ],
+      "t": "لا تُذكر أي طريقة للتدخّل في القراءة لطلاب Academic Achievement."
+    },
+    {
+      "text": "Math intervention",
+      "of": "9fc9f294",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[2].service",
+        "charlotte-country-day:services.groups[0].rows[2].service",
+        "cannon:services.groups[0].rows[2].service",
+        "davidson-day:services.groups[0].rows[2].service",
+        "hickory-grove-christian:services.groups[0].rows[2].service"
+      ],
+      "t": "التدخّل في الرياضيات"
+    },
+    {
+      "text": "No math intervention is described for Academic Achievement students. Options Program students take life-skills math courses.",
+      "of": "88154ecb",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[2].detail"
+      ],
+      "t": "لا يُوصف أي تدخّل في الرياضيات لطلاب Academic Achievement. ويدرس طلاب Options Program مقرّرات في رياضيات الحياة اليومية."
+    },
+    {
+      "text": "1:1 / small-group instruction",
+      "of": "c8ed8f2d",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[3].service",
+        "charlotte-country-day:services.groups[0].rows[3].service",
+        "cannon:services.groups[0].rows[3].service",
+        "davidson-day:services.groups[0].rows[3].service"
+      ],
+      "t": "تعليم 1:1 / في مجموعات صغيرة"
+    },
+    {
+      "text": "Program teachers provide “individual, small group, and/or push-in support” for students who need the most help.",
+      "of": "7a34c7b5",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[3].detail"
+      ],
+      "t": "يقدّم معلّمو البرنامج «دعمًا فرديًا، وفي مجموعات صغيرة، و/أو داخل الصف» للطلاب الأكثر حاجة إلى المساعدة."
+    },
+    {
+      "text": "Executive-function coaching",
+      "of": "7e3c07fa",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[4].service",
+        "charlotte-country-day:services.groups[0].rows[4].service",
+        "cannon:services.groups[0].rows[5].service",
+        "davidson-day:services.groups[0].rows[5].service",
+        "hickory-grove-christian:services.groups[0].rows[5].service"
+      ],
+      "t": "التدريب على الوظائف التنفيذية"
+    },
+    {
+      "text": "The Academic Skills course teaches “executive function strategies and self-advocacy alongside lessons that develop independent work habits and effective time management and organizational skills.”",
+      "of": "f75783e1",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[4].detail"
+      ],
+      "t": "يعلّم مقرّر Academic Skills «استراتيجيات الوظائف التنفيذية والدفاع عن الذات إلى جانب دروس تنمّي عادات العمل المستقل والإدارة الفعّالة للوقت ومهارات التنظيم»."
+    },
+    {
+      "text": "Learning-support class",
+      "of": "fd470495",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[5].service",
+        "charlotte-country-day:services.groups[0].rows[5].service",
+        "cannon:services.groups[0].rows[6].service",
+        "davidson-day:services.groups[0].rows[6].service"
+      ],
+      "t": "صف لدعم التعلّم"
+    },
+    {
+      "text": "Academic Skills (508 for grades 9–10, 509 for grades 11–12) is a one-semester elective, weighted A = 4. Guided Academic Support (511) follows in grades 10–12 and is not weighted into the GPA.",
+      "of": "86db5ed1",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[5].detail"
+      ],
+      "t": "Academic Skills (508 للصفين 9–10، و509 للصفين 11–12) مقرّر اختياري لفصل دراسي واحد، بوزن A = 4. ثم يأتي Guided Academic Support (511) في الصفوف 10–12، ولا يُحتسب في GPA."
+    },
+    {
+      "text": "Accommodations & learning plan",
+      "of": "c65478ab",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[6].service",
+        "charlotte-country-day:services.groups[0].rows[6].service",
+        "cannon:services.groups[0].rows[7].service",
+        "davidson-day:services.groups[0].rows[7].service"
+      ],
+      "t": "التيسيرات وخطة التعلّم"
+    },
+    {
+      "text": "The program’s goals include “Identify, provide, and assess accommodations and interventions,” and approved accommodations are recorded in a “Student Accommodation Plan.”",
+      "of": "f74d7515",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[6].detail"
+      ],
+      "t": "من أهداف البرنامج «تحديد التيسيرات والتدخّلات وتقديمها وتقييمها»، وتُسجَّل التيسيرات المعتمدة في «Student Accommodation Plan»."
+    },
+    {
+      "text": "Specially designed instruction",
+      "of": "0add9126",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[7].service",
+        "charlotte-country-day:services.groups[0].rows[7].service",
+        "cannon:services.groups[0].rows[8].service",
+        "davidson-day:services.groups[0].rows[8].service",
+        "hickory-grove-christian:services.groups[0].rows[8].service"
+      ],
+      "t": "تعليم مصمَّم خصيصًا"
+    },
+    {
+      "text": "Options Program only: a “Life Skills Curriculum” of “Specialized English and Mathematics courses,” alongside classes with peers.",
+      "of": "07222197",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[7].detail"
+      ],
+      "t": "في Options Program فقط: «منهج المهارات الحياتية» القائم على «مقرّرات متخصصة في الإنجليزية والرياضيات»، إلى جانب حصص مع الأقران."
+    },
+    {
+      "text": "Self-contained / separate program",
+      "of": "2586e367",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[8].service",
+        "charlotte-country-day:services.groups[0].rows[8].service",
+        "cannon:services.groups[0].rows[9].service",
+        "davidson-day:services.groups[0].rows[9].service",
+        "hickory-grove-christian:services.groups[0].rows[9].service"
+      ],
+      "t": "برنامج مستقل / صف منفصل"
+    },
+    {
+      "text": "Options Program only, for students with developmental disabilities. 2026-27 tuition is $24,077 at the Community rate and $18,345 at the Participating Catholic rate, in place of the standard $21,562 and $15,041. Graduates receive a Certificate of Achievement, and the Pathways Program extends support two years beyond high school.",
+      "of": "ddf2071f",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[8].detail"
+      ],
+      "t": "في Options Program فقط، للطلاب ذوي الإعاقات النمائية. تبلغ الرسوم الدراسية لعام 2026-27 مبلغ $24,077 بالسعر المجتمعي و$18,345 بسعر الكاثوليك المشارِكين، بدلًا من السعرين القياسيين $21,562 و$15,041. ويحصل الخرّيجون على Certificate of Achievement، ويمدّ Pathways Program الدعم سنتين بعد المرحلة الثانوية."
+    },
+    {
+      "text": "Gifted / advanced",
+      "of": "2de5aed3",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[9].service",
+        "charlotte-country-day:services.groups[0].rows[9].service",
+        "cannon:services.groups[0].rows[10].service",
+        "davidson-day:services.groups[0].rows[10].service",
+        "hickory-grove-christian:services.groups[0].rows[10].service"
+      ],
+      "t": "الموهوبون / المستوى المتقدّم"
+    },
+    {
+      "text": "No gifted program is described. The St. Augustine Scholars Program is a “four-year honors pathway.”",
+      "of": "ee452c89",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[9].detail"
+      ],
+      "t": "لا يُوصف أي برنامج للموهوبين. St. Augustine Scholars Program هو «مسار للتميّز مدته أربع سنوات»."
+    },
+    {
+      "text": "Eligibility documentation",
+      "of": "4702441c",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[10].service",
+        "charlotte-country-day:services.groups[0].rows[10].service",
+        "cannon:services.groups[0].rows[11].service",
+        "davidson-day:services.groups[0].rows[11].service",
+        "hickory-grove-christian:services.groups[0].rows[11].service"
+      ],
+      "t": "مستندات الأهلية"
+    },
+    {
+      "text": "A Psychoeducational or Neurological Assessment dated within the last three years, and a DSM diagnosis from a psychologist, submitted with the program application.",
+      "of": "4638048e",
+      "at": [
+        "charlotte-catholic:services.groups[0].rows[10].detail"
+      ],
+      "t": "تقييم نفسي تربوي أو عصبي لا يزيد عمره على ثلاث سنوات، وتشخيص وفق DSM من أخصائي نفسي، يُقدَّمان مع طلب الالتحاق بالبرنامج."
+    },
+    {
+      "text": "Therapy & related services",
+      "of": "832d48e5",
+      "at": [
+        "charlotte-catholic:services.groups[1].name",
+        "charlotte-country-day:services.groups[1].name",
+        "cannon:services.groups[1].name",
+        "davidson-day:services.groups[1].name",
+        "hickory-grove-christian:services.groups[1].name"
+      ],
+      "t": "العلاجات والخدمات المرتبطة"
+    },
+    {
+      "text": "Speech-language therapy",
+      "of": "b37d3705",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[0].service",
+        "charlotte-country-day:services.groups[1].rows[0].service",
+        "cannon:services.groups[1].rows[0].service",
+        "davidson-day:services.groups[1].rows[0].service",
+        "hickory-grove-christian:services.groups[1].rows[0].service"
+      ],
+      "t": "علاج النطق واللغة"
+    },
+    {
+      "text": "Not listed by the school.",
+      "of": "6bbf4ac9",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[0].detail",
+        "charlotte-catholic:services.groups[1].rows[1].detail",
+        "charlotte-catholic:services.groups[1].rows[2].detail",
+        "charlotte-country-day:services.groups[1].rows[2].detail",
+        "cannon:services.groups[1].rows[1].detail",
+        "cannon:services.groups[1].rows[2].detail",
+        "davidson-day:services.groups[1].rows[2].detail",
+        "hickory-grove-christian:services.groups[1].rows[0].detail",
+        "hickory-grove-christian:services.groups[1].rows[1].detail",
+        "hickory-grove-christian:services.groups[1].rows[2].detail"
+      ],
+      "t": "لم تذكره المدرسة."
+    },
+    {
+      "text": "Occupational therapy",
+      "of": "e216f28e",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[1].service",
+        "charlotte-country-day:services.groups[1].rows[1].service",
+        "cannon:services.groups[1].rows[1].service",
+        "davidson-day:services.groups[1].rows[1].service",
+        "hickory-grove-christian:services.groups[1].rows[1].service"
+      ],
+      "t": "العلاج الوظيفي"
+    },
+    {
+      "text": "Physical therapy",
+      "of": "2ab8c569",
+      "at": [
+        "charlotte-catholic:services.groups[1].rows[2].service",
+        "charlotte-country-day:services.groups[1].rows[2].service",
+        "cannon:services.groups[1].rows[2].service",
+        "davidson-day:services.groups[1].rows[2].service",
+        "hickory-grove-christian:services.groups[1].rows[2].service"
+      ],
+      "t": "العلاج الطبيعي"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "charlotte-catholic:services.groups[2].name",
+        "charlotte-country-day:services.groups[2].name",
+        "cannon:services.groups[2].name",
+        "davidson-day:services.groups[2].name",
+        "hickory-grove-christian:services.groups[2].name"
+      ],
+      "t": "التقييم"
+    },
+    {
+      "text": "Screening & identification",
+      "of": "7f2edf65",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[0].service"
+      ],
+      "t": "الفحص المبدئي والتحديد"
+    },
+    {
+      "text": "No screening process is described.",
+      "of": "4b349234",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[0].detail"
+      ],
+      "t": "لا تُوصف أي عملية للفحص المبدئي."
+    },
+    {
+      "text": "Testing accommodations",
+      "of": "c0f1a794",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[1].service",
+        "charlotte-country-day:services.groups[2].rows[1].service",
+        "charlotte-country-day:testing.entries[5].title",
+        "cannon:services.groups[2].rows[1].service",
+        "davidson-day:services.groups[2].rows[1].service",
+        "hickory-grove-christian:services.groups[2].rows[0].service"
+      ],
+      "t": "تسهيلات الاختبارات"
+    },
+    {
+      "text": "SAT and ACT Special Testing is “directly administered through Academic Achievement.” The school is a national test center for the SAT but not the ACT.",
+      "of": "6b7967fa",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[1].detail"
+      ],
+      "t": "تُدار Special Testing لاختباري SAT وACT «مباشرةً من خلال Academic Achievement». والمدرسة مركز وطني لاختبار SAT، لكنها ليست مركزًا لـ ACT."
+    },
+    {
+      "text": "Entrance testing",
+      "of": "3e1537ff",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[2].service",
+        "charlotte-country-day:services.groups[2].rows[2].service",
+        "cannon:services.groups[2].rows[2].service",
+        "davidson-day:services.groups[2].rows[2].service",
+        "hickory-grove-christian:services.groups[2].rows[1].service"
+      ],
+      "t": "اختبارات القبول"
+    },
+    {
+      "text": "Course placement for 9th graders uses High School Placement Test results, with middle school grades and records.",
+      "of": "bb4446c4",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[2].detail"
+      ],
+      "t": "يعتمد توزيع طلاب الصف التاسع على المقرّرات على نتائج High School Placement Test، إلى جانب درجات المرحلة المتوسطة وسجلاتها."
+    },
+    {
+      "text": "Psychoeducational evaluation",
+      "of": "69f00356",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[3].service",
+        "charlotte-catholic:testing.entries[1].title",
+        "charlotte-country-day:services.groups[2].rows[3].service",
+        "charlotte-country-day:testing.entries[3].title",
+        "cannon:services.groups[2].rows[3].service",
+        "davidson-day:services.groups[2].rows[3].service",
+        "davidson-day:testing.entries[2].title",
+        "hickory-grove-christian:services.groups[2].rows[2].service"
+      ],
+      "t": "التقييم النفسي التربوي"
+    },
+    {
+      "text": "Done outside the school. The school lists 12 evaluators for families but does not endorse them.",
+      "of": "f54fc9ec",
+      "at": [
+        "charlotte-catholic:services.groups[2].rows[3].detail"
+      ],
+      "t": "يُجرى خارج المدرسة. تقدّم المدرسة للأسر قائمة تضمّ 12 مقيّمًا، لكنها لا تزكّيهم."
+    },
+    {
+      "text": "Wellness & health",
+      "of": "92456e4a",
+      "at": [
+        "charlotte-catholic:services.groups[3].name",
+        "charlotte-country-day:services.groups[3].name",
+        "cannon:services.groups[3].name",
+        "davidson-day:services.groups[3].name",
+        "hickory-grove-christian:services.groups[3].name"
+      ],
+      "t": "العافية والصحة"
+    },
+    {
+      "text": "Counseling & emotional support",
+      "of": "0613b801",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[0].service",
+        "charlotte-country-day:services.groups[3].rows[0].service",
+        "cannon:services.groups[3].rows[0].service",
+        "davidson-day:services.groups[3].rows[0].service",
+        "hickory-grove-christian:services.groups[3].rows[0].service"
+      ],
+      "t": "الإرشاد والدعم العاطفي"
+    },
+    {
+      "text": "Six school counselors, assigned by last name and kept for all four years, help with “personal, emotional, or social concerns.”",
+      "of": "fea25206",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[0].detail"
+      ],
+      "t": "ستة مرشدين/مرشدات مدرسيين، يُعيَّنون بحسب اسم العائلة ويبقون أنفسهم طوال السنوات الأربع، يساعدون في «المخاوف الشخصية أو العاطفية أو الاجتماعية»."
+    },
+    {
+      "text": "Emotional & behavioral intervention",
+      "of": "a9f79269",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[1].service",
+        "charlotte-country-day:services.groups[3].rows[1].service",
+        "cannon:services.groups[3].rows[1].service",
+        "davidson-day:services.groups[3].rows[2].service",
+        "hickory-grove-christian:services.groups[3].rows[1].service"
+      ],
+      "t": "التدخّل العاطفي والسلوكي"
+    },
+    {
+      "text": "A Mental Health Interventionist provides “in-depth short-term counseling” to students referred by their counselors.",
+      "of": "1fcc9f4c",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[1].detail"
+      ],
+      "t": "يقدّم أخصائي/ة للتدخّل في الصحة النفسية «إرشادًا معمّقًا قصير الأمد» للطلاب الذين يحيلهم مرشدوهم."
+    },
+    {
+      "text": "Crisis resources",
+      "of": "e074ef65",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[2].service",
+        "charlotte-country-day:services.groups[3].rows[2].service",
+        "cannon:services.groups[3].rows[2].service",
+        "davidson-day:services.groups[3].rows[3].service",
+        "hickory-grove-christian:services.groups[3].rows[2].service"
+      ],
+      "t": "موارد الأزمات"
+    },
+    {
+      "text": "The school’s crisis page lists the 988 Suicide & Crisis Lifeline and the North Carolina Peer Warmline (855-733-7762).",
+      "of": "01e0421f",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[2].detail"
+      ],
+      "t": "تذكر صفحة الأزمات في المدرسة 988 Suicide & Crisis Lifeline وNorth Carolina Peer Warmline (855-733-7762)."
+    },
+    {
+      "text": "School psychologist",
+      "of": "61585e81",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[3].service",
+        "charlotte-country-day:services.groups[3].rows[3].service",
+        "cannon:services.groups[3].rows[3].service",
+        "davidson-day:services.groups[3].rows[4].service",
+        "hickory-grove-christian:services.groups[3].rows[3].service"
+      ],
+      "t": "أخصائي نفسي مدرسي"
+    },
+    {
+      "text": "None named.",
+      "of": "59c2d1bc",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[3].detail",
+        "cannon:services.groups[3].rows[3].detail",
+        "davidson-day:services.groups[3].rows[4].detail",
+        "hickory-grove-christian:services.groups[3].rows[3].detail",
+        "hickory-grove-christian:services.groups[3].rows[4].detail"
+      ],
+      "t": "لم يُذكر أحد بالاسم."
+    },
+    {
+      "text": "School nurse",
+      "of": "cf02f710",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[4].service",
+        "charlotte-country-day:services.groups[3].rows[4].service",
+        "cannon:services.groups[3].rows[4].service",
+        "davidson-day:services.groups[3].rows[5].service",
+        "hickory-grove-christian:services.groups[3].rows[4].service"
+      ],
+      "t": "ممرّض مدرسي"
+    },
+    {
+      "text": "A lead nurse, who directs student health services for the MACS schools, and two health staff.",
+      "of": "25ca0994",
+      "at": [
+        "charlotte-catholic:services.groups[3].rows[4].detail"
+      ],
+      "t": "ممرّض/ة رئيسي/ة يدير/تدير الخدمات الصحية للطلاب في مدارس MACS، واثنان من الطاقم الصحي."
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "charlotte-catholic:services.groups[4].name",
+        "charlotte-country-day:services.groups[4].name",
+        "cannon:services.groups[4].name",
+        "davidson-day:services.groups[4].name",
+        "hickory-grove-christian:services.groups[4].name"
+      ],
+      "t": "اللغة"
+    },
+    {
+      "text": "ESL / English-language support",
+      "of": "ffd3df8c",
+      "at": [
+        "charlotte-catholic:services.groups[4].rows[0].service",
+        "charlotte-country-day:services.groups[4].rows[0].service",
+        "cannon:services.groups[4].rows[0].service",
+        "davidson-day:services.groups[4].rows[0].service",
+        "hickory-grove-christian:services.groups[4].rows[0].service"
+      ],
+      "t": "ESL / دعم اللغة الإنجليزية"
+    },
+    {
+      "text": "Not described on the school’s pages.",
+      "of": "8920b8b7",
+      "at": [
+        "charlotte-catholic:services.groups[4].rows[0].detail"
+      ],
+      "t": "غير موصوف في صفحات المدرسة."
+    },
+    {
+      "text": "The school’s pages list no speech-language, occupational or physical therapy. Occupational and physical therapy appear only as terms in the Academic Achievement glossary.",
+      "of": "95e3407e",
+      "at": [
+        "charlotte-catholic:therapy.headline"
+      ],
+      "t": "لا تُدرج صفحات المدرسة أي علاج للنطق واللغة أو علاج وظيفي أو علاج طبيعي. ولا يرد العلاج الوظيفي والعلاج الطبيعي إلا كمصطلحين في مسرد Academic Achievement."
+    },
+    {
+      "text": "Speech-language",
+      "of": "d9f2c22c",
+      "at": [
+        "charlotte-catholic:therapy.items[0].name",
+        "charlotte-country-day:therapy.items[0].name",
+        "cannon:therapy.items[0].name",
+        "davidson-day:therapy.items[0].name",
+        "hickory-grove-christian:therapy.items[0].name"
+      ],
+      "t": "النطق واللغة"
+    },
+    {
+      "text": "Occupational",
+      "of": "a971a0b7",
+      "at": [
+        "charlotte-catholic:therapy.items[1].name",
+        "charlotte-country-day:therapy.items[1].name",
+        "cannon:therapy.items[1].name",
+        "davidson-day:therapy.items[1].name",
+        "hickory-grove-christian:therapy.items[1].name"
+      ],
+      "t": "الوظيفي"
+    },
+    {
+      "text": "Physical",
+      "of": "d7c1ee80",
+      "at": [
+        "charlotte-catholic:therapy.items[2].name",
+        "charlotte-country-day:therapy.items[2].name",
+        "cannon:therapy.items[2].name",
+        "davidson-day:therapy.items[2].name",
+        "hickory-grove-christian:therapy.items[2].name"
+      ],
+      "t": "الطبيعي"
+    },
+    {
+      "text": "When necessary, school counselors “refer students to other professionals for assistance in meeting their personal and academic needs.”",
+      "of": "34e8f397",
+      "at": [
+        "charlotte-catholic:therapy.note"
+      ],
+      "t": "عند الضرورة، يقوم المرشدون المدرسيون بـ«إحالة الطلاب إلى مختصين آخرين لمساعدتهم على تلبية احتياجاتهم الشخصية والأكاديمية»."
+    },
+    {
+      "text": "A family applies with recent outside testing, and the Academic Achievement team reviews it for eligibility. The school publishes no screening process of its own.",
+      "of": "da0ec23a",
+      "at": [
+        "charlotte-catholic:testing.headline"
+      ],
+      "t": "تتقدّم الأسرة بطلب مرفق باختبارات خارجية حديثة، ويراجعها فريق Academic Achievement لتحديد الأهلية. ولا تنشر المدرسة عملية فحص مبدئي خاصة بها."
+    },
+    {
+      "text": "Application and eligibility review",
+      "of": "4e59014b",
+      "at": [
+        "charlotte-catholic:testing.entries[0].title"
+      ],
+      "t": "الطلب ومراجعة الأهلية"
+    },
+    {
+      "text": "Families start with the Academic Achievement Program Application. A Psychoeducational or Neurological Assessment “will be reviewed for eligibility” if it is dated within the last three years.",
+      "of": "3fff1680",
+      "at": [
+        "charlotte-catholic:testing.entries[0].text"
+      ],
+      "t": "تبدأ الأسر بـ Academic Achievement Program Application. والتقييم النفسي التربوي أو العصبي «ستتم مراجعته لتحديد الأهلية» إذا لم يزد عمره على ثلاث سنوات."
+    },
+    {
+      "text": "Who makes the final decision is not stated. The Academic Skills course lists its prerequisite as “Recommendation from an Academic Achievement teacher and grade evaluation.”",
+      "of": "460ec1ea",
+      "at": [
+        "charlotte-catholic:testing.entries[0].muted"
+      ],
+      "t": "لم يُذكر من يتخذ القرار النهائي. ويذكر مقرّر Academic Skills متطلّبه المسبق: «توصية من معلّم في Academic Achievement وتقييم للدرجات»."
+    },
+    {
+      "text": "Done by outside providers. The Assessments page lists 12 psychoeducational evaluators, and the school states: “WE DO NOT ENDORSE, RECOMMEND, OR GUARANTEE” them.",
+      "of": "ab744549",
+      "at": [
+        "charlotte-catholic:testing.entries[1].text"
+      ],
+      "t": "يُجريه مقدّمو خدمات خارجيون. تضمّ صفحة Assessments قائمة بـ 12 مقيّمًا نفسيًا تربويًا، وتصرّح المدرسة: «نحن لا نزكّي ولا نوصي ولا نضمن» أيًّا منهم."
+    },
+    {
+      "text": "The Handbook refers families to a parent support policy for testing and evaluations; that policy is not published.",
+      "of": "8faa39f2",
+      "at": [
+        "charlotte-catholic:testing.entries[1].muted"
+      ],
+      "t": "يحيل Handbook الأسر إلى سياسة لدعم الأهل بشأن الاختبارات والتقييمات؛ وهذه السياسة غير منشورة."
+    },
+    {
+      "text": "Student Accommodation Plan",
+      "of": "60abac83",
+      "at": [
+        "charlotte-catholic:testing.entries[2].title"
+      ],
+      "t": "Student Accommodation Plan"
+    },
+    {
+      "text": "Approved accommodations are recorded in a “Student Accommodation Plan.” Ending support needs a signed consent form, and “reinstatement of special needs support services is not automatic.”",
+      "of": "56bcd693",
+      "at": [
+        "charlotte-catholic:testing.entries[2].text"
+      ],
+      "t": "تُسجَّل التيسيرات المعتمدة في «Student Accommodation Plan». ويتطلّب إنهاء الدعم نموذج موافقة موقّعًا، و«إعادة خدمات دعم الاحتياجات الخاصة ليست تلقائية»."
+    },
+    {
+      "text": "SAT and ACT Special Testing",
+      "of": "d763eb91",
+      "at": [
+        "charlotte-catholic:testing.entries[3].title"
+      ],
+      "t": "Special Testing لاختباري SAT وACT"
+    },
+    {
+      "text": "For students whose College Board or ACT accommodations require Special Testing, the test “will be directly administered through Academic Achievement.” A school coordinator submits SAT requests, and ACT needs the school’s consent form on file.",
+      "of": "081f254c",
+      "at": [
+        "charlotte-catholic:testing.entries[3].text"
+      ],
+      "t": "للطلاب الذين تتطلّب تيسيراتهم من College Board أو ACT إجراء Special Testing، فإن الاختبار «سيُدار مباشرةً من خلال Academic Achievement». ويقدّم منسّق/ة في المدرسة طلبات SAT، أما ACT فيتطلّب وجود نموذج موافقة المدرسة في الملف."
+    },
+    {
+      "text": "Accommodation decisions “ARE NOT made by Charlotte Catholic High School staff.” Special Testing dates for this year are listed as TBA.",
+      "of": "a03c7227",
+      "at": [
+        "charlotte-catholic:testing.entries[3].muted"
+      ],
+      "t": "قرارات التيسيرات «لا يتّخذها موظفو Charlotte Catholic High School». ومواعيد Special Testing لهذا العام مدرجة على أنها TBA."
+    },
+    {
+      "text": "Screening",
+      "of": "162b322f",
+      "at": [
+        "charlotte-catholic:testing.entries[4].title"
+      ],
+      "t": "الفحص المبدئي"
+    },
+    {
+      "text": "No screening process is described. One program goal is “To assist the school community in identifying students needing additional educational support.”",
+      "of": "391104a8",
+      "at": [
+        "charlotte-catholic:testing.entries[4].text"
+      ],
+      "t": "لا تُوصف أي عملية للفحص المبدئي. ومن أهداف البرنامج «مساعدة المجتمع المدرسي في تحديد الطلاب الذين يحتاجون إلى دعم تعليمي إضافي»."
+    },
+    {
+      "text": "Twenty-one named staff: the Academic Achievement team, the Options/Pathways team, the assistant principal over both, six school counselors, the Mental Health Intervention Counselor and three health staff.",
+      "of": "d6533cd5",
+      "at": [
+        "charlotte-catholic:staff.headline"
+      ],
+      "t": "واحد وعشرون موظفًا بالاسم: فريق Academic Achievement، وفريق Options/Pathways، ونائب/ة المدير المشرف/ة على الاثنين، وستة مرشدين/مرشدات مدرسيين، ومرشد/ة التدخّل في الصحة النفسية، وثلاثة من الطاقم الصحي."
+    },
+    {
+      "text": "Assistant Principal; Academic Achievement, Options & Pathways",
+      "of": "1ad784c5",
+      "at": [
+        "charlotte-catholic:staff.people[0].role"
+      ],
+      "t": "نائب/ة المدير؛ Academic Achievement وOptions وPathways"
+    },
+    {
+      "text": "Academic Achievement, 11th and 12th Grade",
+      "of": "4a3b020a",
+      "at": [
+        "charlotte-catholic:staff.people[1].role"
+      ],
+      "t": "Academic Achievement، الصفان الحادي عشر والثاني عشر"
+    },
+    {
+      "text": "Academic Achievement Program Teacher, 9th Grade",
+      "of": "bc8620a1",
+      "at": [
+        "charlotte-catholic:staff.people[2].role"
+      ],
+      "t": "معلّم/ة في Academic Achievement Program، الصف التاسع"
+    },
+    {
+      "text": "Academic Achievement Program Teacher, 10th Grade",
+      "of": "9f1433f5",
+      "at": [
+        "charlotte-catholic:staff.people[3].role"
+      ],
+      "t": "معلّم/ة في Academic Achievement Program، الصف العاشر"
+    },
+    {
+      "text": "Academic Achievement Test Coordinator",
+      "of": "a6825945",
+      "at": [
+        "charlotte-catholic:staff.people[4].role"
+      ],
+      "t": "منسّق/ة اختبارات Academic Achievement"
+    },
+    {
+      "text": "Testing Proctor, Academic Achievement",
+      "of": "f8838746",
+      "at": [
+        "charlotte-catholic:staff.people[5].role"
+      ],
+      "t": "مراقب/ة اختبارات، Academic Achievement"
+    },
+    {
+      "text": "Co-Director/Options Teacher",
+      "of": "3691c425",
+      "at": [
+        "charlotte-catholic:staff.people[6].role",
+        "charlotte-catholic:staff.people[7].role"
+      ],
+      "t": "مدير/ة مشارك/ة/معلّم/ة Options"
+    },
+    {
+      "text": "Options Teacher Assistant",
+      "of": "c8850f73",
+      "at": [
+        "charlotte-catholic:staff.people[8].role"
+      ],
+      "t": "مساعد/ة معلّم Options"
+    },
+    {
+      "text": "Options/Pathways Instructional Job Coach",
+      "of": "21d76b3d",
+      "at": [
+        "charlotte-catholic:staff.people[9].role"
+      ],
+      "t": "مدرّب/ة وظيفي/ة تعليمي/ة في Options/Pathways"
+    },
+    {
+      "text": "Options/Pathways Program",
+      "of": "4136e7f1",
+      "at": [
+        "charlotte-catholic:staff.people[10].role"
+      ],
+      "t": "Options/Pathways Program"
+    },
+    {
+      "text": "Director of Counseling",
+      "of": "017bfeab",
+      "at": [
+        "charlotte-catholic:staff.people[11].role"
+      ],
+      "t": "مدير/ة الإرشاد"
+    },
+    {
+      "text": "School Counselor",
+      "of": "b6e4d0bf",
+      "at": [
+        "charlotte-catholic:staff.people[12].role",
+        "charlotte-catholic:staff.people[13].role",
+        "charlotte-catholic:staff.people[14].role",
+        "charlotte-catholic:staff.people[15].role",
+        "charlotte-catholic:staff.people[16].role"
+      ],
+      "t": "مرشد/ة مدرسي/ة"
+    },
+    {
+      "text": "Mental Health Intervention Counselor",
+      "of": "f7d46c11",
+      "at": [
+        "charlotte-catholic:staff.people[17].role"
+      ],
+      "t": "مرشد/ة التدخّل في الصحة النفسية"
+    },
+    {
+      "text": "Director of Student Health Services (MACS) and Lead Nurse",
+      "of": "5854540a",
+      "at": [
+        "charlotte-catholic:staff.people[18].role"
+      ],
+      "t": "مدير/ة الخدمات الصحية للطلاب (MACS) وممرّض/ة رئيسي/ة"
+    },
+    {
+      "text": "Health Staff",
+      "of": "08ee4e19",
+      "at": [
+        "charlotte-catholic:staff.people[19].role",
+        "charlotte-catholic:staff.people[20].role"
+      ],
+      "t": "الطاقم الصحي"
+    },
+    {
+      "text": "To begin, contact an Academic Achievement Specialist or complete the program application.",
+      "of": "3ef8838c",
+      "at": [
+        "charlotte-catholic:staff.note.strong"
+      ],
+      "t": "للبدء، تواصل مع Academic Achievement Specialist أو املأ طلب الالتحاق بالبرنامج."
+    },
+    {
+      "text": "Counselors are assigned by last name (A–De, Di–Ho, Hu–Mi, Mo–She, Shi–Z) and stay the same for all four years; the Director of Counseling counsels students new to the school in grades 10–12.",
+      "of": "074ba52a",
+      "at": [
+        "charlotte-catholic:staff.note.muted"
+      ],
+      "t": "يُعيَّن المرشدون بحسب اسم العائلة (A–De، Di–Ho، Hu–Mi، Mo–She، Shi–Z) ويبقون أنفسهم طوال السنوات الأربع؛ ويتولّى مدير/ة الإرشاد إرشاد الطلاب الجدد في المدرسة في الصفوف 10–12."
+    },
+    {
+      "text": "Thirteen questions to take on the tour, covering what the school’s site leaves unanswered: fees, prior plans, who decides, therapy, intervention methods and testing dates.",
+      "of": "8783884e",
+      "at": [
+        "charlotte-catholic:ask.headline"
+      ],
+      "t": "ثلاثة عشر سؤالًا لطرحها خلال الزيارة، حول ما يتركه موقع المدرسة بلا إجابة: الرسوم، والخطط السابقة، ومن يقرّر، والعلاج، وأساليب التدخّل، ومواعيد الاختبارات."
+    },
+    {
+      "text": "Is there a fee for the Academic Achievement Program, or is it included in tuition?",
+      "of": "95949ce4",
+      "at": [
+        "charlotte-catholic:ask.questions[0]"
+      ],
+      "t": "هل توجد رسوم لـ Academic Achievement Program، أم أنه مشمول في الرسوم الدراسية؟"
+    },
+    {
+      "text": "Options Program tuition does not include the $1,995 family capital fee or enrollment fees. Are there other Options costs?",
+      "of": "8936fb67",
+      "at": [
+        "charlotte-catholic:ask.questions[1]"
+      ],
+      "t": "لا تشمل الرسوم الدراسية لـ Options Program رسم رأس المال البالغ $1,995 لكل أسرة ولا رسوم التسجيل. هل توجد تكاليف أخرى لـ Options؟"
+    },
+    {
+      "text": "How do you treat a 504 plan or IEP from a previous school? Is new testing always needed?",
+      "of": "4b26d9bf",
+      "at": [
+        "charlotte-catholic:ask.questions[2]"
+      ],
+      "t": "كيف تتعاملون مع خطة 504 أو IEP من مدرسة سابقة؟ وهل تلزم اختبارات جديدة دائمًا؟"
+    },
+    {
+      "text": "Is there a deadline for the Academic Achievement application, and should we apply before or after admission?",
+      "of": "d66a0a9e",
+      "at": [
+        "charlotte-catholic:ask.questions[3]"
+      ],
+      "t": "هل يوجد موعد نهائي لطلب Academic Achievement، وهل ينبغي التقديم قبل القبول أم بعده؟"
+    },
+    {
+      "text": "Who decides whether a student is eligible, and what support they receive?",
+      "of": "65e03eb4",
+      "at": [
+        "charlotte-catholic:ask.questions[4]"
+      ],
+      "t": "من يقرّر أهلية الطالب، وما الدعم الذي يحصل عليه؟"
+    },
+    {
+      "text": "Is any structured reading or math intervention available to Academic Achievement students?",
+      "of": "7f2a1a05",
+      "at": [
+        "charlotte-catholic:ask.questions[5]"
+      ],
+      "t": "هل يتوفّر أي تدخّل منظَّم في القراءة أو الرياضيات لطلاب Academic Achievement؟"
+    },
+    {
+      "text": "Can speech-language, occupational or physical therapy take place on campus during the school day?",
+      "of": "3b15011c",
+      "at": [
+        "charlotte-catholic:ask.questions[6]"
+      ],
+      "t": "هل يمكن إجراء علاج النطق واللغة أو العلاج الوظيفي أو العلاج الطبيعي داخل الحرم خلال اليوم الدراسي؟"
+    },
+    {
+      "text": "Is there a school psychologist?",
+      "of": "1f66e227",
+      "at": [
+        "charlotte-catholic:ask.questions[7]"
+      ],
+      "t": "هل يوجد أخصائي نفسي في المدرسة؟"
+    },
+    {
+      "text": "Is there a screening process for a student who is struggling but has no diagnosis?",
+      "of": "ca7c90fa",
+      "at": [
+        "charlotte-catholic:ask.questions[8]"
+      ],
+      "t": "هل توجد عملية فحص مبدئي لطالب يواجه صعوبات لكن ليس لديه تشخيص؟"
+    },
+    {
+      "text": "What is the parent support policy for testing and evaluations that the Handbook mentions?",
+      "of": "ffeb35ce",
+      "at": [
+        "charlotte-catholic:ask.questions[9]"
+      ],
+      "t": "ما سياسة دعم الأهل بشأن الاختبارات والتقييمات التي يذكرها Handbook؟"
+    },
+    {
+      "text": "When are this year’s SAT and ACT Special Testing dates? Both are listed as TBA.",
+      "of": "480f07ad",
+      "at": [
+        "charlotte-catholic:ask.questions[10]"
+      ],
+      "t": "متى مواعيد Special Testing لاختباري SAT وACT هذا العام؟ كلاهما مدرج على أنه TBA."
+    },
+    {
+      "text": "Is any English-language (ESL) support offered?",
+      "of": "4d801524",
+      "at": [
+        "charlotte-catholic:ask.questions[11]",
+        "cannon:ask.questions[7]",
+        "davidson-day:ask.questions[8]"
+      ],
+      "t": "هل يُقدَّم أي دعم في اللغة الإنجليزية (ESL)؟"
+    },
+    {
+      "text": "Beyond Honors, AP and the St. Augustine Scholars Program, is there support for gifted learners?",
+      "of": "a978e5f9",
+      "at": [
+        "charlotte-catholic:ask.questions[12]"
+      ],
+      "t": "إلى جانب Honors وAP وSt. Augustine Scholars Program، هل يوجد دعم للطلاب الموهوبين؟"
+    },
+    {
+      "text": "October 26, 2026",
+      "of": "b74f25eb",
+      "at": [
+        "charlotte-catholic:ask.asOf"
+      ],
+      "t": "26 أكتوبر 2026"
+    },
+    {
       "text": "Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” with one-on-one learning support in the Lower and Middle Schools, academic coaching in the Upper School, and accommodations for students with a documented disability.",
       "of": "d1a138ab",
       "at": [
@@ -69,16 +1274,6 @@
       "t": "ثلاثة مديرين/مديرات للأقسام، وتسعة عشر أخصائي/ة تعلّم، وأربعة مدرّبين/مدرّبات أكاديميين"
     },
     {
-      "text": "school counselors",
-      "of": "83d116a4",
-      "at": [
-        "charlotte-country-day:stats[3].label",
-        "cannon:stats[3].label",
-        "davidson-day:stats[3].label"
-      ],
-      "t": "مرشدون مدرسيون"
-    },
-    {
       "text": "two in each division, alongside a Director of Health and Wellness",
       "of": "c5c5d572",
       "at": [
@@ -95,12 +1290,12 @@
       "t": "تمنح Country Day الطلاب ذوي الإعاقة الموثّقة تيسيرات مدرسية من قائمتها المعتمدة. ولا تتطلب جلسات دعم التعلّم أي اختبار."
     },
     {
-      "text": "Accommodations are for “students with documented disabilities,” and “A licensed service provider must document disabilities through a full psychoeducational evaluation.” Learning-support sessions are different: in the Lower School “A psychoeducational evaluation is not required for services,” and Middle School support is open to students “both with and without formal testing.”",
-      "of": "e5f4ba3b",
+      "text": "Accommodations are for “students with documented disabilities,” which a licensed service provider must document “through a full psychoeducational evaluation.” Learning-support sessions are different: the Lower School says a psychoeducational evaluation “is not required for services,” and Middle School support is open to students “both with and without formal testing.”",
+      "of": "388494ec",
       "at": [
         "charlotte-country-day:eligibility.eligible"
       ],
-      "t": "التيسيرات مخصصة «للطلاب ذوي الإعاقات الموثّقة»، و«يجب على مقدّم خدمة مرخّص توثيق الإعاقات من خلال تقييم نفسي تربوي كامل». أما جلسات دعم التعلّم فمختلفة: ففي Lower School «لا يُشترط تقييم نفسي تربوي للحصول على الخدمات»، ودعم Middle School متاح للطلاب «سواء خضعوا لاختبار رسمي أم لا»."
+      "t": "التيسيرات مخصصة «للطلاب ذوي الإعاقات الموثّقة»، التي يجب على مقدّم خدمة مرخّص توثيقها «من خلال تقييم نفسي تربوي كامل». أما جلسات دعم التعلّم فمختلفة: إذ تقول Lower School إن التقييم النفسي التربوي «لا يُشترط للحصول على الخدمات»، ودعم Middle School متاح للطلاب «سواء خضعوا لاختبار رسمي أم لا»."
     },
     {
       "text": "The school’s pages do not mention 504 plans or IEPs. A full psychoeducational evaluation is the only evaluation accepted for formal accommodations: “A simple doctor’s note or medical diagnosis (e.g., ADHD or anxiety) does not provide enough information to justify accommodations.” Supports an outside provider suggests “are considered recommendations and are not mandated.”",
@@ -248,45 +1443,12 @@
       "t": "لا تصف صفحات دعم التعلّم في المدرسة أي برنامج للموهوبين. اسأل عمّا هو متاح للمتعلّمين المتقدّمين."
     },
     {
-      "text": "Learning & academic support",
-      "of": "b050d84b",
-      "at": [
-        "charlotte-country-day:services.groups[0].name",
-        "cannon:services.groups[0].name",
-        "davidson-day:services.groups[0].name",
-        "hickory-grove-christian:services.groups[0].name"
-      ],
-      "t": "الدعم الأكاديمي ودعم التعلّم"
-    },
-    {
-      "text": "Specialized teachers",
-      "of": "04298f91",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[0].service",
-        "cannon:services.groups[0].rows[0].service",
-        "davidson-day:services.groups[0].rows[0].service",
-        "hickory-grove-christian:services.groups[0].rows[0].service"
-      ],
-      "t": "معلمون متخصصون"
-    },
-    {
       "text": "Nineteen learning specialists and four Upper School academic coaches, led by a director in each division, plus a Lower School Reading Specialist and Literacy Coach. Lower School specialists “bring advanced training, including Orton-Gillingham.”",
       "of": "634d3c80",
       "at": [
         "charlotte-country-day:services.groups[0].rows[0].detail"
       ],
       "t": "تسعة عشر أخصائي/ة تعلّم وأربعة مدرّبين/مدرّبات أكاديميين في Upper School، يقودهم مدير/ة في كل قسم، إضافة إلى Reading Specialist وLiteracy Coach في Lower School. يقول أخصائيو Lower School إنهم «يأتون بتدريب متقدّم، بما في ذلك Orton-Gillingham»."
-    },
-    {
-      "text": "Reading intervention",
-      "of": "18b7d3f0",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[1].service",
-        "cannon:services.groups[0].rows[1].service",
-        "davidson-day:services.groups[0].rows[1].service",
-        "hickory-grove-christian:services.groups[0].rows[1].service"
-      ],
-      "t": "التدخّل في القراءة"
     },
     {
       "text": "Lower School specialists give one-on-one support in reading and writing, “typically twice per week,” drawing on Orton-Gillingham and the Hochman Method. K–1 students may also get “small-group literacy instruction” from the Reading Specialist; the school does not say whether those groups are billed.",
@@ -297,33 +1459,12 @@
       "t": "يقدّم أخصائيو Lower School دعمًا فرديًا في القراءة والكتابة، «عادةً مرتين في الأسبوع»، بالاستناد إلى Orton-Gillingham وHochman Method. وقد يحصل طلاب K–1 أيضًا على «تعليم القراءة والكتابة في مجموعات صغيرة» من Reading Specialist؛ ولا تذكر المدرسة ما إذا كانت هذه المجموعات تُحتسب برسوم."
     },
     {
-      "text": "Math intervention",
-      "of": "9fc9f294",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[2].service",
-        "cannon:services.groups[0].rows[2].service",
-        "davidson-day:services.groups[0].rows[2].service",
-        "hickory-grove-christian:services.groups[0].rows[2].service"
-      ],
-      "t": "التدخّل في الرياضيات"
-    },
-    {
       "text": "One-on-one “Multi-Sensory Math” in the Lower School, and math within Middle School learning support.",
       "of": "ea4d6d31",
       "at": [
         "charlotte-country-day:services.groups[0].rows[2].detail"
       ],
       "t": "«رياضيات متعددة الحواس» بشكل فردي في Lower School، والرياضيات ضمن دعم التعلّم في Middle School."
-    },
-    {
-      "text": "1:1 / small-group instruction",
-      "of": "c8ed8f2d",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[3].service",
-        "cannon:services.groups[0].rows[3].service",
-        "davidson-day:services.groups[0].rows[3].service"
-      ],
-      "t": "تعليم 1:1 / في مجموعات صغيرة"
     },
     {
       "text": "One-on-one in every division: Lower School sessions are “$82 per 45-minute session,” Middle School sessions “$85 per session.” Small groups are for K–1 literacy only.",
@@ -334,33 +1475,12 @@
       "t": "فردي في كل قسم: جلسات Lower School بسعر «$82 لكل جلسة مدتها 45 دقيقة»، وجلسات Middle School بسعر «$85 للجلسة». أما المجموعات الصغيرة فلتعليم القراءة والكتابة في K–1 فقط."
     },
     {
-      "text": "Executive-function coaching",
-      "of": "7e3c07fa",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[4].service",
-        "cannon:services.groups[0].rows[5].service",
-        "davidson-day:services.groups[0].rows[5].service",
-        "hickory-grove-christian:services.groups[0].rows[5].service"
-      ],
-      "t": "التدريب على الوظائف التنفيذية"
-    },
-    {
-      "text": "Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers “Executive skills (organization, planning, study routines).”",
-      "of": "cc7a5ba5",
+      "text": "Upper School academic coaching is “billed at $85 per session”: one coach across core classes in 9th grade, then Humanities or STEM coaching in grades 10–12. Middle School support covers executive skills: “organization, planning, study routines.”",
+      "of": "741dd6e2",
       "at": [
         "charlotte-country-day:services.groups[0].rows[4].detail"
       ],
-      "t": "يُحتسب التدريب الأكاديمي في Upper School «بسعر $85 للجلسة»: مدرّب/ة واحد/ة للمواد الأساسية في الصف التاسع، ثم تدريب في العلوم الإنسانية أو STEM في الصفوف 10–12. ويشمل دعم Middle School «المهارات التنفيذية (التنظيم، والتخطيط، وروتين الدراسة)»."
-    },
-    {
-      "text": "Learning-support class",
-      "of": "fd470495",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[5].service",
-        "cannon:services.groups[0].rows[6].service",
-        "davidson-day:services.groups[0].rows[6].service"
-      ],
-      "t": "صف لدعم التعلّم"
+      "t": "يُحتسب التدريب الأكاديمي في Upper School «بسعر $85 للجلسة»: مدرّب/ة واحد/ة للمواد الأساسية في الصف التاسع، ثم تدريب في العلوم الإنسانية أو STEM في الصفوف 10–12. ويشمل دعم Middle School المهارات التنفيذية: «التنظيم، والتخطيط، وروتين الدراسة»."
     },
     {
       "text": "No learning-support class is offered, but sessions “are a permanent part of student schedules” and are “treated as class periods,” held during study halls, special-area classes or lunch.",
@@ -371,16 +1491,6 @@
       "t": "لا يوجد فصل لدعم التعلّم، لكن الجلسات «جزء دائم من جداول الطلاب» و«تُعامَل كحصص دراسية»، وتُعقد خلال حصص الدراسة الحرة أو حصص المواد الخاصة أو الغداء."
     },
     {
-      "text": "Accommodations & learning plan",
-      "of": "c65478ab",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[6].service",
-        "cannon:services.groups[0].rows[7].service",
-        "davidson-day:services.groups[0].rows[7].service"
-      ],
-      "t": "التيسيرات وخطة التعلّم"
-    },
-    {
       "text": "Accommodations come only from the school’s approved list and are recorded in a “Confidential Academic Plan (CAP)” that every teacher can see. Middle and Upper School students with “a documented mental health diagnosis may receive temporary accommodations” while awaiting an evaluation.",
       "of": "2ddc2b0a",
       "at": [
@@ -389,34 +1499,12 @@
       "t": "لا تأتي التيسيرات إلا من القائمة المعتمدة للمدرسة، وتُسجَّل في «Confidential Academic Plan (CAP)» يطّلع عليه جميع المعلمين. ويجوز لطلاب Middle School وUpper School الذين لديهم «تشخيص موثّق في الصحة النفسية الحصول على تيسيرات مؤقتة» ريثما يُجرى التقييم."
     },
     {
-      "text": "Specially designed instruction",
-      "of": "0add9126",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[7].service",
-        "cannon:services.groups[0].rows[8].service",
-        "davidson-day:services.groups[0].rows[8].service",
-        "hickory-grove-christian:services.groups[0].rows[8].service"
-      ],
-      "t": "تعليم مصمَّم خصيصًا"
-    },
-    {
       "text": "Not described. The school says accommodations change “how a student accesses learning—not what they are expected to learn.”",
       "of": "707e9ac0",
       "at": [
         "charlotte-country-day:services.groups[0].rows[7].detail"
       ],
       "t": "غير موصوف. تقول المدرسة إن التيسيرات تغيّر «طريقة وصول الطالب إلى التعلّم، لا ما يُتوقع منه أن يتعلّمه»."
-    },
-    {
-      "text": "Self-contained / separate program",
-      "of": "2586e367",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[8].service",
-        "cannon:services.groups[0].rows[9].service",
-        "davidson-day:services.groups[0].rows[9].service",
-        "hickory-grove-christian:services.groups[0].rows[9].service"
-      ],
-      "t": "برنامج مستقل / صف منفصل"
     },
     {
       "text": "No separate program described.",
@@ -428,56 +1516,12 @@
       "t": "لا يوصف أي برنامج منفصل."
     },
     {
-      "text": "Gifted / advanced",
-      "of": "2de5aed3",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[9].service",
-        "cannon:services.groups[0].rows[10].service",
-        "davidson-day:services.groups[0].rows[10].service",
-        "hickory-grove-christian:services.groups[0].rows[10].service"
-      ],
-      "t": "الموهوبون / المستوى المتقدّم"
-    },
-    {
-      "text": "Eligibility documentation",
-      "of": "4702441c",
-      "at": [
-        "charlotte-country-day:services.groups[0].rows[10].service",
-        "cannon:services.groups[0].rows[11].service",
-        "davidson-day:services.groups[0].rows[11].service",
-        "hickory-grove-christian:services.groups[0].rows[11].service"
-      ],
-      "t": "مستندات الأهلية"
-    },
-    {
       "text": "Formal accommodations need a full psychoeducational evaluation, reviewed every three years in Lower and Middle School and every four in Upper School, and submitted through the ERP’s secure online form. Learning-support sessions need none.",
       "of": "8c478713",
       "at": [
         "charlotte-country-day:services.groups[0].rows[10].detail"
       ],
       "t": "تتطلب التيسيرات الرسمية تقييمًا نفسيًا تربويًا كاملًا، يُراجَع كل ثلاث سنوات في Lower School وMiddle School وكل أربع سنوات في Upper School، ويُقدَّم عبر النموذج الإلكتروني الآمن الخاص بـERP. ولا تتطلب جلسات دعم التعلّم أيًا منه."
-    },
-    {
-      "text": "Therapy & related services",
-      "of": "832d48e5",
-      "at": [
-        "charlotte-country-day:services.groups[1].name",
-        "cannon:services.groups[1].name",
-        "davidson-day:services.groups[1].name",
-        "hickory-grove-christian:services.groups[1].name"
-      ],
-      "t": "العلاجات والخدمات المرتبطة"
-    },
-    {
-      "text": "Speech-language therapy",
-      "of": "b37d3705",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[0].service",
-        "cannon:services.groups[1].rows[0].service",
-        "davidson-day:services.groups[1].rows[0].service",
-        "hickory-grove-christian:services.groups[1].rows[0].service"
-      ],
-      "t": "علاج النطق واللغة"
     },
     {
       "text": "TerrificTalkers screens on campus for $25.00 and can provide therapy at school; the family pays the provider directly. The school calls them “contracted” therapists “who provide additional services during the school day.”",
@@ -488,59 +1532,12 @@
       "t": "تُجري TerrificTalkers فحصًا أوليًا داخل الحرم مقابل $25.00 ويمكنها تقديم العلاج في المدرسة؛ وتدفع الأسرة لمقدّم الخدمة مباشرة. وتصفهم المدرسة بأنهم معالجون «متعاقدون» «يقدّمون خدمات إضافية خلال اليوم الدراسي»."
     },
     {
-      "text": "Occupational therapy",
-      "of": "e216f28e",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[1].service",
-        "cannon:services.groups[1].rows[1].service",
-        "davidson-day:services.groups[1].rows[1].service",
-        "hickory-grove-christian:services.groups[1].rows[1].service"
-      ],
-      "t": "العلاج الوظيفي"
-    },
-    {
       "text": "Southern Piedmont Pediatric Therapy screens for $25 and is “on campus 1-2 days per week”; therapy is arranged and paid for with the provider.",
       "of": "23617032",
       "at": [
         "charlotte-country-day:services.groups[1].rows[1].detail"
       ],
       "t": "تُجري Southern Piedmont Pediatric Therapy فحصًا أوليًا مقابل $25 وتوجد «في الحرم 1-2 يوم في الأسبوع»؛ ويُرتَّب العلاج ويُدفع مع مقدّم الخدمة."
-    },
-    {
-      "text": "Physical therapy",
-      "of": "2ab8c569",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[2].service",
-        "cannon:services.groups[1].rows[2].service",
-        "davidson-day:services.groups[1].rows[2].service",
-        "hickory-grove-christian:services.groups[1].rows[2].service"
-      ],
-      "t": "العلاج الطبيعي"
-    },
-    {
-      "text": "Not listed by the school.",
-      "of": "6bbf4ac9",
-      "at": [
-        "charlotte-country-day:services.groups[1].rows[2].detail",
-        "cannon:services.groups[1].rows[1].detail",
-        "cannon:services.groups[1].rows[2].detail",
-        "davidson-day:services.groups[1].rows[2].detail",
-        "hickory-grove-christian:services.groups[1].rows[0].detail",
-        "hickory-grove-christian:services.groups[1].rows[1].detail",
-        "hickory-grove-christian:services.groups[1].rows[2].detail"
-      ],
-      "t": "لم تذكره المدرسة."
-    },
-    {
-      "text": "Assessment",
-      "of": "7f464e4f",
-      "at": [
-        "charlotte-country-day:services.groups[2].name",
-        "cannon:services.groups[2].name",
-        "davidson-day:services.groups[2].name",
-        "hickory-grove-christian:services.groups[2].name"
-      ],
-      "t": "التقييم"
     },
     {
       "text": "Early identification (JK–2)",
@@ -561,35 +1558,12 @@
       "t": "يُحدَّد طلاب Lower School من خلال «تقييمات مرجعية تُجرى في بداية العام الدراسي ومنتصفه ونهايته»، وتقدّم المدرسة فحوصًا أولية للنطق واللغة وللعلاج الوظيفي."
     },
     {
-      "text": "Testing accommodations",
-      "of": "c0f1a794",
-      "at": [
-        "charlotte-country-day:services.groups[2].rows[1].service",
-        "charlotte-country-day:testing.entries[5].title",
-        "cannon:services.groups[2].rows[1].service",
-        "davidson-day:services.groups[2].rows[1].service",
-        "hickory-grove-christian:services.groups[2].rows[0].service"
-      ],
-      "t": "تسهيلات الاختبارات"
-    },
-    {
       "text": "Approved accommodations include “Extended time (50% more)” on Country Day tests. The ERP submits College Board, ACT and IB requests, but “Country Day accommodations do not automatically transfer.”",
       "of": "d4de8d65",
       "at": [
         "charlotte-country-day:services.groups[2].rows[1].detail"
       ],
       "t": "تشمل التيسيرات المعتمدة «وقتًا إضافيًا (50% زيادة)» في اختبارات Country Day. ويقدّم ERP الطلبات إلى College Board وACT وIB، لكن «تيسيرات Country Day لا تنتقل تلقائيًا»."
-    },
-    {
-      "text": "Entrance testing",
-      "of": "3e1537ff",
-      "at": [
-        "charlotte-country-day:services.groups[2].rows[2].service",
-        "cannon:services.groups[2].rows[2].service",
-        "davidson-day:services.groups[2].rows[2].service",
-        "hickory-grove-christian:services.groups[2].rows[1].service"
-      ],
-      "t": "اختبارات القبول"
     },
     {
       "text": "A psychologist’s standardized screening for younger applicants, the ISEE for grades 5–12, and the TOEFL for international applicants.",
@@ -600,47 +1574,12 @@
       "t": "فحص معياري يجريه أخصائي/ة نفسي/ة للمتقدّمين الأصغر سنًا، وISEE للصفوف 5–12، وTOEFL للمتقدّمين الدوليين."
     },
     {
-      "text": "Psychoeducational evaluation",
-      "of": "69f00356",
-      "at": [
-        "charlotte-country-day:services.groups[2].rows[3].service",
-        "charlotte-country-day:testing.entries[3].title",
-        "cannon:services.groups[2].rows[3].service",
-        "davidson-day:services.groups[2].rows[3].service",
-        "davidson-day:testing.entries[2].title",
-        "hickory-grove-christian:services.groups[2].rows[2].service"
-      ],
-      "t": "التقييم النفسي التربوي"
-    },
-    {
       "text": "Done by outside providers at the family’s cost. The school publishes a list of preferred providers, updated January 2026, some accepting insurance, and “financial aid options are available for qualifying families.”",
       "of": "ee36bb6a",
       "at": [
         "charlotte-country-day:services.groups[2].rows[3].detail"
       ],
       "t": "يُجريه مقدّمو خدمات خارجيون على نفقة الأسرة. وتنشر المدرسة قائمة بمقدّمي الخدمات المفضّلين، حُدّثت في يناير 2026، يقبل بعضهم التأمين، و«تتوفر خيارات مساعدة مالية للأسر المؤهلة»."
-    },
-    {
-      "text": "Wellness & health",
-      "of": "92456e4a",
-      "at": [
-        "charlotte-country-day:services.groups[3].name",
-        "cannon:services.groups[3].name",
-        "davidson-day:services.groups[3].name",
-        "hickory-grove-christian:services.groups[3].name"
-      ],
-      "t": "العافية والصحة"
-    },
-    {
-      "text": "Counseling & emotional support",
-      "of": "0613b801",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[0].service",
-        "cannon:services.groups[3].rows[0].service",
-        "davidson-day:services.groups[3].rows[0].service",
-        "hickory-grove-christian:services.groups[3].rows[0].service"
-      ],
-      "t": "الإرشاد والدعم العاطفي"
     },
     {
       "text": "Six school counselors, two in each division; three hold the title Director of Counseling. Lower School counselors provide “short-term individual and/or family counseling if needed, and referral to outside experts when appropriate.”",
@@ -651,34 +1590,12 @@
       "t": "ستة مرشدين/مرشدات في المدرسة، اثنان في كل قسم؛ ويحمل ثلاثة منهم لقب مدير/ة الإرشاد. يقدّم مرشدو Lower School «إرشادًا فرديًا و/أو أسريًا قصير المدى عند الحاجة، وإحالة إلى خبراء خارجيين عند الاقتضاء»."
     },
     {
-      "text": "Emotional & behavioral intervention",
-      "of": "a9f79269",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[1].service",
-        "cannon:services.groups[3].rows[1].service",
-        "davidson-day:services.groups[3].rows[2].service",
-        "hickory-grove-christian:services.groups[3].rows[1].service"
-      ],
-      "t": "التدخّل العاطفي والسلوكي"
-    },
-    {
       "text": "No program is described beyond short-term counseling and referral.",
       "of": "ade7c2ac",
       "at": [
         "charlotte-country-day:services.groups[3].rows[1].detail"
       ],
       "t": "لا يوصف أي برنامج يتجاوز الإرشاد قصير المدى والإحالة."
-    },
-    {
-      "text": "Crisis resources",
-      "of": "e074ef65",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[2].service",
-        "cannon:services.groups[3].rows[2].service",
-        "davidson-day:services.groups[3].rows[3].service",
-        "hickory-grove-christian:services.groups[3].rows[2].service"
-      ],
-      "t": "موارد الأزمات"
     },
     {
       "text": "The Health Services page links Crisis Service Lines: the 988 Suicide & Crisis Lifeline, the Crisis Text Line (text HOME to 741741) and the NC Peer Warmline (1-855-733-7762).",
@@ -689,34 +1606,12 @@
       "t": "تربط صفحة Health Services بخطوط الأزمات: 988 Suicide & Crisis Lifeline، وCrisis Text Line (أرسل HOME إلى 741741)، وNC Peer Warmline (1-855-733-7762)."
     },
     {
-      "text": "School psychologist",
-      "of": "61585e81",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[3].service",
-        "cannon:services.groups[3].rows[3].service",
-        "davidson-day:services.groups[3].rows[4].service",
-        "hickory-grove-christian:services.groups[3].rows[3].service"
-      ],
-      "t": "أخصائي نفسي مدرسي"
-    },
-    {
-      "text": "None named. The Director of Health and Wellness, who started July 1, 2026, is “A licensed clinical psychologist.”",
-      "of": "53c3c840",
+      "text": "None named. The Director of Health and Wellness, who started July 1, 2026, is described by the school as a licensed clinical psychologist.",
+      "of": "8b7887c2",
       "at": [
         "charlotte-country-day:services.groups[3].rows[3].detail"
       ],
-      "t": "لم يُسمَّ أحد. ومدير/ة الصحة والرفاه، الذي/التي بدأ/ت العمل في 1 يوليو 2026، «أخصائي/ة نفسي/ة إكلينيكي/ة مرخّص/ة»."
-    },
-    {
-      "text": "School nurse",
-      "of": "cf02f710",
-      "at": [
-        "charlotte-country-day:services.groups[3].rows[4].service",
-        "cannon:services.groups[3].rows[4].service",
-        "davidson-day:services.groups[3].rows[5].service",
-        "hickory-grove-christian:services.groups[3].rows[4].service"
-      ],
-      "t": "ممرّض مدرسي"
+      "t": "لم يُسمَّ أحد. وتصف المدرسة مدير/ة الصحة والرفاه، الذي/التي بدأ/ت العمل في 1 يوليو 2026، بأنه/ا أخصائي/ة نفسي/ة إكلينيكي/ة مرخّص/ة."
     },
     {
       "text": "“Two full-time nurses on each campus.”",
@@ -725,28 +1620,6 @@
         "charlotte-country-day:services.groups[3].rows[4].detail"
       ],
       "t": "«ممرّضان/ممرّضتان بدوام كامل في كل حرم»."
-    },
-    {
-      "text": "Language",
-      "of": "9a73db9b",
-      "at": [
-        "charlotte-country-day:services.groups[4].name",
-        "cannon:services.groups[4].name",
-        "davidson-day:services.groups[4].name",
-        "hickory-grove-christian:services.groups[4].name"
-      ],
-      "t": "اللغة"
-    },
-    {
-      "text": "ESL / English-language support",
-      "of": "ffd3df8c",
-      "at": [
-        "charlotte-country-day:services.groups[4].rows[0].service",
-        "cannon:services.groups[4].rows[0].service",
-        "davidson-day:services.groups[4].rows[0].service",
-        "hickory-grove-christian:services.groups[4].rows[0].service"
-      ],
-      "t": "ESL / دعم اللغة الإنجليزية"
     },
     {
       "text": "The school has “a full-time English as a Second Language program,” and the directory lists an English and ESL Teacher in the Upper School.",
@@ -765,17 +1638,6 @@
       "t": "يتوفر علاج النطق والعلاج الوظيفي داخل الحرم خلال اليوم الدراسي من مقدّمي خدمات مستقلين، وترتّبه الأسرة وتدفع ثمنه مباشرة. ولا يُذكر العلاج الطبيعي."
     },
     {
-      "text": "Speech-language",
-      "of": "d9f2c22c",
-      "at": [
-        "charlotte-country-day:therapy.items[0].name",
-        "cannon:therapy.items[0].name",
-        "davidson-day:therapy.items[0].name",
-        "hickory-grove-christian:therapy.items[0].name"
-      ],
-      "t": "النطق واللغة"
-    },
-    {
       "text": "TerrificTalkers, on campus. Screening $25.00; therapy fees are set by the provider.",
       "of": "acaee83c",
       "at": [
@@ -784,34 +1646,12 @@
       "t": "TerrificTalkers، داخل الحرم. الفحص الأولي $25.00؛ ويحدّد مقدّم الخدمة رسوم العلاج."
     },
     {
-      "text": "Occupational",
-      "of": "a971a0b7",
-      "at": [
-        "charlotte-country-day:therapy.items[1].name",
-        "cannon:therapy.items[1].name",
-        "davidson-day:therapy.items[1].name",
-        "hickory-grove-christian:therapy.items[1].name"
-      ],
-      "t": "الوظيفي"
-    },
-    {
       "text": "Southern Piedmont Pediatric Therapy, on campus 1–2 days a week. Screening $25; therapy fees are set by the provider.",
       "of": "883e8d76",
       "at": [
         "charlotte-country-day:therapy.items[1].detail"
       ],
       "t": "Southern Piedmont Pediatric Therapy، داخل الحرم 1–2 يوم في الأسبوع. الفحص الأولي $25؛ ويحدّد مقدّم الخدمة رسوم العلاج."
-    },
-    {
-      "text": "Physical",
-      "of": "d7c1ee80",
-      "at": [
-        "charlotte-country-day:therapy.items[2].name",
-        "cannon:therapy.items[2].name",
-        "davidson-day:therapy.items[2].name",
-        "hickory-grove-christian:therapy.items[2].name"
-      ],
-      "t": "الطبيعي"
     },
     {
       "text": "Both providers “operate independently” of the school. Screening forms go home through the Lower School; the school does not say whether screening is offered in the Middle or Upper School.",
@@ -926,12 +1766,12 @@
       "t": "يجوز لطلاب Middle School وUpper School الذين لديهم تشخيص موثّق في الصحة النفسية الحصول على تيسيرات مؤقتة عبر المرشد/ة المدرسي/ة ريثما يُجرى التقييم."
     },
     {
-      "text": "Approved accommodations apply to “Daily coursework and quizzes” and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”",
-      "of": "4854f226",
+      "text": "Approved accommodations apply to daily coursework and quizzes and to “Country Day-administered exams, including midterms and finals.” Standardized-test accommodations “must be approved separately by the College Board or ACT.”",
+      "of": "2a3523cf",
       "at": [
         "charlotte-country-day:testing.entries[5].text"
       ],
-      "t": "تنطبق التيسيرات المعتمدة على «الواجبات اليومية والاختبارات القصيرة» وعلى «الامتحانات التي تديرها Country Day، بما فيها امتحانات منتصف الفصل والامتحانات النهائية». أما تيسيرات الاختبارات المعيارية «فيجب أن يعتمدها College Board أو ACT بشكل منفصل»."
+      "t": "تنطبق التيسيرات المعتمدة على الواجبات اليومية والاختبارات القصيرة وعلى «الامتحانات التي تديرها Country Day، بما فيها امتحانات منتصف الفصل والامتحانات النهائية». أما تيسيرات الاختبارات المعيارية «فيجب أن يعتمدها College Board أو ACT بشكل منفصل»."
     },
     {
       "text": "In grades 6–12, testing must reach the school at least seven business days before reading day to be used on exams.",
@@ -1416,12 +2256,12 @@
       "t": "Math Lab يقوده الأقران في Upper School. لا يُذكر أي تدخّل خاص بالرياضيات."
     },
     {
-      "text": "In the Math Lab, “Tutors and teachers partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.",
-      "of": "282fc3de",
+      "text": "In the Math Lab, tutors and teachers “partner with learners to break down challenging concepts.” The school does not describe math intervention below the Upper School.",
+      "of": "7e384d20",
       "at": [
         "cannon:services.verdicts.math.body"
       ],
-      "t": "في Math Lab، «يتشارك المدرّسون الخصوصيون والمعلّمون مع المتعلّمين لتفكيك المفاهيم الصعبة». ولا تصف المدرسة أي تدخّل في الرياضيات قبل Upper School."
+      "t": "في Math Lab، المدرّسون الخصوصيون والمعلّمون «يتشاركون مع المتعلّمين لتفكيك المفاهيم الصعبة». ولا تصف المدرسة أي تدخّل في الرياضيات قبل Upper School."
     },
     {
       "text": "By referral. Plan on an outside provider.",
@@ -1491,12 +2331,12 @@
       "t": "أخصائي التدخّل في القراءة «قد يقدّم إثراءً أكاديميًا موجّهًا»؛ ويقدّم Upper School مقررات Honors Accelerated وAP وAT وIndependent Study Program. لا يُوصف أي برنامج رسمي للموهوبين."
     },
     {
-      "text": "“A dedicated learning specialist for each of division, Lower School, Middle School, and Upper School.” Four are named, plus a Lower School Reading Interventionist.",
-      "of": "135a601a",
+      "text": "A dedicated learning specialist for each division: Lower, Middle and Upper School. Four are named, plus a Lower School Reading Interventionist.",
+      "of": "980a2b3c",
       "at": [
         "cannon:services.groups[0].rows[0].detail"
       ],
-      "t": "«أخصائي تعلّم مخصّص لكل قسم: Lower School وMiddle School وUpper School.» ذُكرت أسماء أربعة، إضافة إلى أخصائي تدخّل في القراءة في Lower School."
+      "t": "أخصائي تعلّم مخصّص لكل قسم: Lower School وMiddle School وUpper School. ذُكرت أسماء أربعة، إضافة إلى أخصائي تدخّل في القراءة في Lower School."
     },
     {
       "text": "Lower School small groups with the Reading Interventionist “designed to close specific skill gaps.” No method (e.g., Orton-Gillingham, structured literacy) is named.",
@@ -1531,12 +2371,12 @@
       "t": "حصص Academic Labs (9–12)"
     },
     {
-      "text": "“Faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, “available at consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”",
-      "of": "757034b7",
+      "text": "The Upper School’s Academic Labs offer “faculty-facilitated, peer-led tutoring in writing, math, and science,” plus a World Languages Lab, open at “consistent times and locations during the school day.” In the Middle School, help from teachers: “No fee is charged.”",
+      "of": "e758576c",
       "at": [
         "cannon:services.groups[0].rows[4].detail"
       ],
-      "t": "«تدريس بين الأقران يُيسّره المعلّمون في الكتابة والرياضيات والعلوم»، إضافة إلى World Languages Lab، «متاح في أوقات وأماكن ثابتة خلال اليوم الدراسي». وفي Middle School، مساعدة من المعلّمين: «لا تُفرض أي رسوم»."
+      "t": "تقدّم Academic Labs في Upper School «تدريسًا بين الأقران يُيسّره المعلّمون في الكتابة والرياضيات والعلوم»، إضافة إلى World Languages Lab، وهي مفتوحة «في أوقات وأماكن ثابتة خلال اليوم الدراسي». وفي Middle School، مساعدة من المعلّمين: «لا تُفرض أي رسوم»."
     },
     {
       "text": "One-on-one academic coaching in the Middle School and, in the Upper School, Academic Coaches who build “executive functioning (EF) skills.”",
@@ -1657,17 +2497,6 @@
         "cannon:services.groups[3].rows[2].detail"
       ],
       "t": "تعرض صفحة Mental Health and Crisis Resources خط Suicide and Crisis Lifeline («اتصل بـ 988 أو أرسل HOME برسالة نصية إلى 741741») وخط NC Peer Warmline؛ ويقدّم مرشدو Middle School «الدعم للطلاب في الأزمات»."
-    },
-    {
-      "text": "None named.",
-      "of": "59c2d1bc",
-      "at": [
-        "cannon:services.groups[3].rows[3].detail",
-        "davidson-day:services.groups[3].rows[4].detail",
-        "hickory-grove-christian:services.groups[3].rows[3].detail",
-        "hickory-grove-christian:services.groups[3].rows[4].detail"
-      ],
-      "t": "لم يُذكر أحد بالاسم."
     },
     {
       "text": "A Lead School Nurse and a School Nurse are listed in the staff directory.",
@@ -1933,15 +2762,6 @@
         "cannon:ask.questions[6]"
       ],
       "t": "تشمل السياسة الطلاب الحاليين فقط. هل يمكن لأسرة أن تشارك تقييمًا، أو تخطّط للدعم، قبل التسجيل؟"
-    },
-    {
-      "text": "Is any English-language (ESL) support offered?",
-      "of": "4d801524",
-      "at": [
-        "cannon:ask.questions[7]",
-        "davidson-day:ask.questions[8]"
-      ],
-      "t": "هل يُقدَّم أي دعم في اللغة الإنجليزية (ESL)؟"
     },
     {
       "text": "October 24, 2026",
@@ -3236,12 +4056,12 @@
       "t": "يطبع جدول رسوم 2026–27 رقمين لـHS Instructional Support Class: $4,455 سنويًا و$2,227 «/year». فهل $2,227 هو سعر الفصل الدراسي الواحد؟"
     },
     {
-      "text": "What documentation counts as an “identified learning difference,” and how recent must testing be?",
-      "of": "d947979e",
+      "text": "What documentation shows the “identified learning differences” the school serves, and how recent must testing be?",
+      "of": "d0a10244",
       "at": [
         "hickory-grove-christian:ask.questions[2]"
       ],
-      "t": "ما المستندات التي تُعدّ إثباتًا لـ«فرق تعلّم مشخّص»، وما مدى حداثة الاختبارات المطلوبة؟"
+      "t": "ما المستندات التي تثبت «فروق التعلّم المشخّصة» التي تخدمها المدرسة، وما مدى حداثة الاختبارات المطلوبة؟"
     },
     {
       "text": "Can an outside speech or occupational therapist see my child on campus during the school day?",

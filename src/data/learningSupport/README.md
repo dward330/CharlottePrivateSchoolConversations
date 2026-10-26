@@ -3,7 +3,8 @@
 One file per school, `<slug>.ts`, exporting a `LearningSupportProgram` (types and the
 card registry are in [`../learningSupport.ts`](../learningSupport.ts)). Hickory Grove
 Christian was the first school; Cannon followed (2026-10-24), then Davidson Day
-(2026-10-25) and Charlotte Country Day (2026-10-25).
+(2026-10-25) and Charlotte Country Day (2026-10-25), then Charlotte Catholic
+(2026-10-26).
 
 ## Two gates
 

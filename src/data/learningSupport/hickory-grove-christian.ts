@@ -328,7 +328,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
     questions: [
       'Which reading and math methods do ESS teachers use (e.g., Orton-Gillingham, Wilson, structured literacy)?',
       'The 2026–27 fee schedule prints two figures for the HS Instructional Support Class: $4,455 a year and $2,227 “/year.” Is $2,227 the per-semester price?',
-      'What documentation counts as an “identified learning difference,” and how recent must testing be?',
+      'What documentation shows the “identified learning differences” the school serves, and how recent must testing be?',
       'Can an outside speech or occupational therapist see my child on campus during the school day?',
       'Which interventions does the $1,500–$2,000 “Applied Interventions/Specially Designed Instruction” add-on cover, and who delivers them?',
       'Is there a school nurse or school psychologist on staff?',
