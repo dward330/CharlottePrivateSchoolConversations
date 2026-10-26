@@ -711,3 +711,11 @@ ccdlearning and ddlearning.
   - overflow 0 at 1280 light, 1280 dark and 390; dark verdict ink (red mixed toward grey,
     the shared design) is ~4.3:1 against the ground.
   - `audit:mobile --only charlotte-catholic`: 0 broken cards, 0 page overflow.
+- **Quote review (user request, 2026-10-26).** All 36 `“…”` fragments re-read in context;
+  each is a deliberate, verbatim quote. Three framings changed, quotes untouched:
+  - Accommodations row: "The program will “Identify…”" → "The program’s goals include
+    “Identify…”", so the quoted list item's capital no longer sits mid-sentence.
+  - Testing entry 1 muted: "needs a “Recommendation from…”" → "lists its prerequisite as
+    “Recommendation from…”", for the same reason (it is the course's prerequisite field).
+  - Therapy note: "When needed" → "When necessary", so the lead-in matches the Handbook
+    sentence the quote comes from rather than the counseling page's wording.

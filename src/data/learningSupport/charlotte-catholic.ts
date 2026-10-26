@@ -215,7 +215,7 @@ export const charlotteCatholic: LearningSupportProgram = {
           {
             service: 'Accommodations & learning plan',
             code: 'IH',
-            detail: 'The program will “Identify, provide, and assess accommodations and interventions,” and approved accommodations are recorded in a “Student Accommodation Plan.”',
+            detail: 'The program’s goals include “Identify, provide, and assess accommodations and interventions,” and approved accommodations are recorded in a “Student Accommodation Plan.”',
             needs: ['read', 'attn', 'math'],
           },
           {
@@ -334,7 +334,7 @@ export const charlotteCatholic: LearningSupportProgram = {
       { name: 'Occupational', code: 'NS' },
       { name: 'Physical', code: 'NS' },
     ],
-    note: 'When needed, school counselors “refer students to other professionals for assistance in meeting their personal and academic needs.”',
+    note: 'When necessary, school counselors “refer students to other professionals for assistance in meeting their personal and academic needs.”',
     sources: [AA, HANDBOOK],
   },
 
@@ -346,7 +346,7 @@ export const charlotteCatholic: LearningSupportProgram = {
         code: 'IH',
         title: 'Application and eligibility review',
         text: 'Families start with the Academic Achievement Program Application. A Psychoeducational or Neurological Assessment “will be reviewed for eligibility” if it is dated within the last three years.',
-        muted: 'Who makes the final decision is not stated. The Academic Skills course needs a “Recommendation from an Academic Achievement teacher and grade evaluation.”',
+        muted: 'Who makes the final decision is not stated. The Academic Skills course lists its prerequisite as “Recommendation from an Academic Achievement teacher and grade evaluation.”',
       },
       {
         code: 'RF',
