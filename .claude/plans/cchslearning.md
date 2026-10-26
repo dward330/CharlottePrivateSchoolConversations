@@ -468,8 +468,19 @@ message should include:
 
 ### Phase 2 — Every other locale
 
-Prose only. There are **no chrome changes**: every key, including
-`learning.staffScroll`, already exists in all ten catalogs.
+Everything Phase 2 must carry, as of the end of the Phase 1 review (2026-10-26):
+
+| What | Layer | Step |
+|---|---|---|
+| Charlotte Catholic's new Learning Support strings | prose overlay `learning-support` | 8–10 |
+| 8 quote-fix rewordings in Cannon, Hickory Grove and Charlotte Country Day | prose overlay `learning-support` | 8–10 |
+| College Support: 3 retired, 2 new (CCHS) | prose overlay `college-support` | 8–10 |
+| `home.schoolCardAreas` (new) and `home.schoolCardMeta` (dev-only wording) | chrome, 9 catalogs | 9b |
+
+Needing **no** translation: the card reorder (titles are unchanged keys), the
+`head.ts` meta description (English `<head>` metadata), and the `home.stats.*`
+capitalisation (an English convention). `learning.staffScroll` already exists in all ten
+catalogs.
 
 The scope is `PROSE_TRANSLATED` (`es, bn, ht, te, fr, fa, it, hi, ar`; confirm in
 `src/lib/i18n.ts`), for topics `learning-support` and `college-support`. The mechanism is
@@ -480,7 +491,9 @@ ccdlearning and ddlearning.
 8. **Measure scope from a fresh extract.** For each topic, run
    `node scripts/i18n_extract.mjs --topic <topic> --lang __verify --out <scratch>` and diff
    its stamps against `src/data/overlays/work/<topic>.es.json`. Expected:
-   - `learning-support`: roughly 90–110 **added** and **0 dropped**. Shared strings only
+   - `learning-support`: roughly 90–110 **added** (CCHS) plus the 8 quote-fix
+     replacements, and **exactly 8 dropped** (the quote-fix retirements listed below,
+     none other). Shared strings only
      gain `at` paths, for example:
      - `'Not listed by the school.'`, `'None named.'`;
      - `'Speech-language'`, `'Occupational'`, `'Physical'`;
@@ -543,8 +556,14 @@ ccdlearning and ddlearning.
    locale's own `school.subAreas_*` plural forms copied verbatim** (same meaning,
    "{{count}} research areas", already reviewed), keeping every CLDR form the locale has
    (ar six, es/fr/it `_many`). No new translation is needed. Insert after
-   `schoolsHeading` without reordering. The `home.stats.*` capitalisation change is English-only; leave the
-   other locales' stat labels as they are.
+   `schoolsHeading` without reordering. Also update the dev-only `home.schoolCardMeta`
+   in each catalog: replace its word for "topics" with the research-areas noun from that
+   locale's own `school.subAreas_other` (e.g. es `{{topics}} temas · …` →
+   `{{topics}} áreas de investigación · …`, fr `sujets` → `domaines de recherche`),
+   leaving the documents half untouched. The `home.stats.*` capitalisation change is
+   English-only; leave the other locales' stat labels as they are. Verify:
+   `check:chrome` shows no key awaiting translation, and the built home page in es/hi/ar
+   shows the cards in-language.
 
 10. **Rebuild overlays:** `npm run i18n:build -- --topic <topic> --lang <code>` × 9 × 2.
 
