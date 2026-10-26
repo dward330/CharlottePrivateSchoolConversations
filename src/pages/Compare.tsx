@@ -25,6 +25,7 @@ import {
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { CellQual } from '../components/CellQual.tsx'
 import { TopLayerTip } from '../components/TopLayerTip.tsx'
+import { useDragPan } from '../lib/useDragPan.ts'
 import { collegeSupportProgram } from '../data/collegeSupport.ts'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
 import {
@@ -388,6 +389,9 @@ export function Compare({ topic, schools }: Props) {
     return () => wrap.removeEventListener('scroll', sync)
   }, [hasCols])
 
+  // Click-and-drag sideways panning (mouse only); the pinned copy follows via sync above.
+  useDragPan(wrapRef, hasCols)
+
   /* Show the copy once the real header has passed under the nav, and hide it
      again before it would hang past the last row over the footnote. */
   useEffect(() => {
@@ -489,7 +493,7 @@ export function Compare({ topic, schools }: Props) {
               </table>
             </div>
           </div>
-          <div className="table-wrap" ref={wrapRef} role="region" aria-label={t('compare.tableAria')} tabIndex={0}>
+          <div className="table-wrap compare-pan" ref={wrapRef} role="region" aria-label={t('compare.tableAria')} tabIndex={0}>
             <table className="compare">
               <CompareHead cols={cols} activeTopic={activeTopic} theadRef={realTheadRef} />
               {valueMetrics.length > 0 && (
