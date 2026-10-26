@@ -28,9 +28,9 @@ It is also the first to render a **third-party figure on a trip row**: AFAR's gr
 and group sizes on the 2026–27 rows, from goafar.org and worded "per AFAR" (user
 decision, 2026-10-18), with `goafar.org` cited only in `trips.sources`. A card a school cannot fill is omitted,
 never padded toward Country Day's depth. The area sits directly after Course Offerings
-and is **deliberately off Compare** (`COMPARE_DEFERRED_TOPICS` in
-`src/lib/manifest.ts`). Its stat strip is therefore the school's own `stats`, never
-`metricValues.ts` rows, which would feed Compare's Key Stats.
+and has been **on Compare since 2026-10-26** (plan `globalcompare`), through five
+`compareOnly` `travel-*` rows in `src/data/metricValues.ts`. Its stat strip is still the
+school's own `stats`, never `metricValues.ts` rows.
 
 **The model for a new school is `charlotte-country-day.ts`** (the `/global-exposure`
 standard since 2026-10-13): its header comment, URL constants at the top,
@@ -47,6 +47,15 @@ school with neither simply has no chip, rail item or section. There is no "not y
 researched" shell.
 
 ## The rules every school file follows
+
+- **A ledger change moves the Compare rows.** Adding or removing a trip, a homestay or a
+  credential changes the five `travel-*` cells in `src/data/metricValues.ts` (trips abroad
+  this school year, youngest division, host-family stays, credential, countries), and
+  `npm run check:travelrows` fails the build until those cells follow — value, sub-line
+  **and** tooltip text (the check verifies the figures; the tooltip prose naming places is
+  yours to update). A new destination must also be classified in that script's `KNOWN` or
+  `DOMESTIC` set. When the next school year's trips are published, bump `TRAVEL_YEAR` there
+  and the `travel-trips` label together.
 
 - **A live-page URL for every fact.** Each card's `sources` lists the specific pages
   behind that card's facts. A fact with no URL is not rendered. The per-fact map lives

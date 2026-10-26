@@ -80,6 +80,9 @@ const EXPECTED = {
      arrived in PR #143 with 20/107 and overtook it. The checker reported that correct
      tint as a failure until PR #173 — the staleness this table's `min` now prevents. */
   'bucket-hbcu': { slugs: ['hickory-grove-christian'], min: 20 / 107 },
+  /* Global Exposure, plan `globalcompare` (2026-10-26): Latin 7/21 over Country
+     Day 5/20 and Providence Day 4/19. A ledger change moves it — check:travelrows. */
+  'travel-homestays': { slugs: ['charlotte-latin'], min: 7 / 21 },
 }
 
 /* Mirrors of Compare.tsx's parsers. Kept as copies deliberately: this check

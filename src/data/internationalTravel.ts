@@ -5,9 +5,10 @@
 // questions to ask on the tour). Every card is optional per school.
 //
 // Placed directly after Course Offerings in TOPIC_ORDER at the user's request
-// (2026-10-11), and deliberately kept OFF Compare — see COMPARE_DEFERRED_TOPICS
-// in src/lib/manifest.ts. The four headline numbers are therefore the topic's
-// own `stats`, never VALUE_METRICS rows, which would feed Compare's Key Stats.
+// (2026-10-11). On Compare since 2026-10-26 (plan `globalcompare`) through five
+// `compareOnly` `travel-*` rows in src/data/metricValues.ts, derived from each
+// ledger and re-derived by `npm run check:travelrows`. The section's four
+// headline numbers are still the topic's own `stats`, never VALUE_METRICS rows.
 //
 // Two rules shape every type below (see ./internationalTravel/README.md):
 //

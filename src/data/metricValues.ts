@@ -1969,6 +1969,269 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
     },
   },
+
+  /* ------------------------------------------------ Global Exposure -- */
+  // Global Exposure rows, user-approved 2026-10-26 (plan `globalcompare`).
+  // Every cell is DERIVED from that school's src/data/internationalTravel/<slug>.ts
+  // trip ledger and re-derived by `npm run check:travelrows` (chained into the
+  // build), so a ledger change fails the build until these cells — value, sub
+  // and tooltip text — follow. Each trip is cited in
+  // source-material/international-travel/<slug>/<School> - International Travel - Source URLs.md.
+  // All five are `compareOnly`: the section's own stat strip is the program's
+  // `stats`, never VALUE_METRICS. Counting rules: England, Scotland and the
+  // United Kingdom are one country; domestic destinations (Latin's 2025–26 New
+  // Mexico) are excluded from rows 2, 3 and 5. These rows are APPENDED LAST so
+  // no overlay `[N]` path shifts; check:travelrows asserts they stay there.
+  {
+    topic: 'international-travel',
+    key: 'travel-trips',
+    label: 'Trips abroad, 2026–27',
+    note: 'Each school’s trips and exchanges abroad listed for the 2026–27 school year. Beneath, how many are Upper School and how many Middle School.',
+    compareOnly: true,
+    values: {
+      cannon: null, // latest ledger year is 2025–26; no 2026–27 trips published
+      'charlotte-christian': '7',
+      'charlotte-catholic': null,
+      'charlotte-country-day': '10',
+      'charlotte-latin': '8',
+      'covenant-day': null,
+      'carmel-christian': null,
+      'davidson-day': '3',
+      'hickory-grove-christian': null,
+      'gaston-day': null,
+      'providence-day': '4',
+    },
+    subs: {
+      'charlotte-christian': '7 Upper School',
+      'charlotte-country-day': '4 Upper School · 6 Middle School',
+      'charlotte-latin': '6 Upper School · 2 Middle School',
+      'davidson-day': '3 Upper School',
+      'providence-day': '3 Upper School · 1 Middle School',
+    },
+    quals: {
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Trips offered in the Winterim 2027 packet: Brazil, Canada, Dominican Republic, Iceland, Italy, Mexico and Portugal. The school sets final trips by registration.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Middle School: Québec City, Arequipa (Peru), Southampton, Monteverde (Costa Rica), France and Italy. Upper School: Rwanda, Greece, China and Argentina.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Upper School: Argentina, France, Italy, Spain and two South Africa programs. Middle School: Southern England and Montreal + Québec City. All in summer 2027.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'AFAR archaeology digs in Spain, Portugal and Belize, summer 2027.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Japan, Iceland and France (a Montpellier exchange week) for grades 9–11, and Switzerland for grades 6–8, all planned for summer 2027.',
+      },
+    },
+  },
+  {
+    topic: 'international-travel',
+    key: 'travel-youngest-division',
+    label: 'Youngest division that travels abroad',
+    note: 'The youngest school division with a trip abroad on the school’s trip record. Beneath, the grades where the school states them.',
+    noLead: true,
+    compareOnly: true,
+    values: {
+      cannon: 'Middle School',
+      'charlotte-christian': 'Upper School',
+      'charlotte-catholic': null,
+      'charlotte-country-day': 'Middle School',
+      'charlotte-latin': 'Middle School',
+      'covenant-day': null,
+      'carmel-christian': null,
+      'davidson-day': 'Upper School',
+      'hickory-grove-christian': null,
+      'gaston-day': null,
+      'providence-day': 'Middle School',
+    },
+    subs: {
+      'charlotte-christian': 'from 9th grade',
+      'charlotte-country-day': 'from 6th grade',
+      'charlotte-latin': 'rising 7th–9th graders',
+      'providence-day': 'grades 6–8',
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'A Middle School trip to Costa Rica in summer 2026.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Every Winterim trip abroad is Upper School. Some are open from 9th grade.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Six Middle School experiences in 2026–27, starting with a 6th-grade sister-school exchange to Québec City.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Two Middle School programs in summer 2027: Southern England and Montreal + Québec City.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Every trip on record is an AFAR archaeology dig listed under the Upper School. AFAR opens its Spain dig to 8th–12th graders, per AFAR.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'A Middle School trip to Switzerland for grades 6–8 is planned for summer 2027. Middle School students also went to Greece in 2023–24 and to England and Ecuador in 2024–25.',
+      },
+    },
+  },
+  {
+    topic: 'international-travel',
+    key: 'travel-homestays',
+    label: 'Trips with a host-family stay',
+    note: 'Of the trips abroad on each school’s trip record, how many include living with a host family, usually on a sister-school exchange. Our count; beneath, the years each record covers.',
+    compareAs: 'fraction',
+    compareOnly: true,
+    values: {
+      cannon: '0 / 5',
+      'charlotte-christian': '0 / 35',
+      'charlotte-catholic': null,
+      'charlotte-country-day': '5 / 20',
+      'charlotte-latin': '7 / 21',
+      'covenant-day': null,
+      'carmel-christian': null,
+      'davidson-day': '0 / 9',
+      'hickory-grove-christian': null,
+      'gaston-day': null,
+      'providence-day': '4 / 19',
+    },
+    subs: {
+      cannon: '2 school years, 2024–26',
+      'charlotte-christian': '5 school years, 2022–27',
+      'charlotte-country-day': '3 school years, 2022–27',
+      'charlotte-latin': '4 school years, 2022–27',
+      'davidson-day': '3 school years, 2023–27',
+      'providence-day': '5 school years, 2022–27',
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'None of the trips on record includes a host-family stay.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'None of the Winterim trips offered on record includes a host-family stay.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Host families in Québec City, Arequipa, Southampton and Monteverde (2026–27), and Seville (2023–24).',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Host families in Buenos Aires (2022–23 and 2026–27), Bordeaux (2024–25 and 2026–27), and Guastalla, Pietermaritzburg and Cádiz (2026–27).',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'None of the trips on record includes a host-family stay.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Host families in Montpellier (2022–23 and 2026–27), Seville (2022–23) and Bogotá (2024–25).',
+      },
+    },
+  },
+  {
+    topic: 'international-travel',
+    key: 'travel-credential',
+    label: 'Global diploma or certificate',
+    note: 'A global-studies credential a student can earn by graduation, as the school names it.',
+    noLead: true,
+    compareOnly: true,
+    values: {
+      cannon: 'Global Studies Certificate',
+      'charlotte-christian': null, // no global credential published
+      'charlotte-catholic': null,
+      'charlotte-country-day': null, // IB Diploma is not a global-studies credential
+      'charlotte-latin': null, // no global credential published
+      'covenant-day': null,
+      'carmel-christian': null,
+      'davidson-day': 'Global Studies Diploma Distinction',
+      'hickory-grove-christian': null,
+      'gaston-day': null,
+      'providence-day': 'Global Studies Diploma',
+    },
+    subs: {
+      'davidson-day': 'since 2021',
+      'providence-day': 'since 2007',
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'Awarded at Senior Night: a required senior course with a capstone, four Mastery Credit strands, and global experiences beyond the classroom.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'An Upper School distinction: Honors Anthropology, four global APs, a language, a 100-hour practicum and two years of original research.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'An optional second diploma, grades 9–12: global coursework, four years of one language, travel or hosting, and a Global Leadership course. About 20 students earn it in a typical class.',
+      },
+    },
+  },
+  {
+    topic: 'international-travel',
+    key: 'travel-countries',
+    label: 'Countries reached by trips',
+    note: 'Our count of the different countries on each school’s trip record, with England and Scotland counted as the United Kingdom. The records cover different years at different schools (beneath), so a longer record can reach more countries.',
+    compareOnly: true,
+    values: {
+      cannon: '4',
+      'charlotte-christian': '17',
+      'charlotte-catholic': null,
+      'charlotte-country-day': '21',
+      'charlotte-latin': '10',
+      'covenant-day': null,
+      'carmel-christian': null,
+      'davidson-day': '3',
+      'hickory-grove-christian': null,
+      'gaston-day': null,
+      'providence-day': '16',
+    },
+    subs: {
+      cannon: '2 school years, 2024–26',
+      'charlotte-christian': '5 school years, 2022–27',
+      'charlotte-country-day': '3 school years, 2022–27',
+      'charlotte-latin': '4 school years, 2022–27',
+      'davidson-day': '3 school years, 2023–27',
+      'providence-day': '5 school years, 2022–27',
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'China, Costa Rica, the Dominican Republic and Germany.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'From Winterim trips offered: Austria, Brazil, Canada, Costa Rica, Cuba, the Dominican Republic, Ecuador, France, Germany, Greece, Iceland, Ireland, Italy, Mexico, Panama, Portugal and the United Kingdom.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Argentina, Canada, China, Costa Rica, Denmark, France, Germany, Greece, Iceland, Italy, Japan, Morocco, New Zealand, Oman, Peru, Poland, Rwanda, Spain, Sweden, the United Arab Emirates and the United Kingdom. The school’s own count is 27 countries since 2015.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Argentina, Belgium, Canada, France, Germany, Italy, the Netherlands, South Africa, Spain and the United Kingdom.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Belize, Portugal and Spain.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Colombia, Denmark, Ecuador, France, Greece, Iceland, Japan, Kenya, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, the United Arab Emirates and the United Kingdom.',
+      },
+    },
+  },
 ]
 
 /* ---------------------------------------------------------- translations -- */
