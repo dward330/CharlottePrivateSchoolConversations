@@ -773,12 +773,12 @@ ccdlearning and ddlearning.
   with 0 overflow.
 - **Home page wording (user request, 2026-10-26).** The school cards said "9 topics"
   through `school.topics`, a key that on the school page counts the cards inside one area.
-  Home now uses a new key `home.schoolCardAreas`, "{{count}} Research Areas", so the home
+  Home now uses a new key `home.schoolCardAreas`, "{{count}} Research areas", so the home
   page and `school.topics`' dev-only card count no longer share a key. The three hero stat
   labels went to Title Case, then on review to **sentence case with a capital first
   word**, matching the site's headings: "Schools researched", "Research areas", "Source
-  documents distilled" (singulars too). The school-card key stays "N Research Areas" as
-  the user asked. The dev-only `home.schoolCardMeta` says "Research
-  Areas" in en. Chrome on the built home page (Title Case pass): all 13 cards "N Research Areas", 0 overflow.
+  documents distilled" (singulars too). The school-card key is "N Research areas" (user
+  choice: capital first word only). The dev-only `home.schoolCardMeta` says "Research
+  areas" in en. Chrome on the built home page (Title Case pass): all 13 cards "N Research Areas", 0 overflow.
   The other 9 catalogs get the new key in Phase 2 (step 9b); until then they fall back to
   English on the home cards.
