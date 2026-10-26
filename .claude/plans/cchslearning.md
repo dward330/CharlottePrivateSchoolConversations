@@ -1,7 +1,7 @@
 ---
 name: cchslearning
 title: Add Charlotte Catholic High School to Learning Support & Student Services
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-26
 branch: feat/cchslearning
@@ -810,3 +810,47 @@ ccdlearning and ddlearning.
   also the order the Learning Support episodes follow. Testing stays in
   `WIDE_LEARNING_CARDS`, so the grid still has no gaps. Supersedes the "first card" note
   above.
+
+### Phase 2 (locales) — 2026-10-26
+
+- **Scope matched the plan exactly, in all nine locales.** Fresh extract vs the work
+  files: learning-support 105 added and exactly the 8 quote-review stamps dropped
+  (383 kept → 488); college-support 2 added and exactly the 3 expected dropped
+  (1722 kept → 1724). No other drop.
+- **Done inline, not by parallel agents:** 107 strings × 9 locales written as one
+  stamp→text map per locale and applied by stamp to blank `t` only. All 18,945 prior
+  entries are byte-identical to the Phase 1 head. The 8 quote-fix replacements reuse each
+  locale's existing rendering of the unchanged quote.
+- **One stamp is shared across topics:** "Director of Counseling" (`017bfeab`) is new in
+  learning-support (translated, as roles are) but already exists in college-support's
+  Hickory Grove roster, where it is kept English. Both left as they are.
+- **No RTL rewording was needed.** The staff note's letter ranges (`A–De` … `Shi–Z`) and
+  every numeric range draw correctly: glyph-x scan in real Chrome, 0 of 12 same-line
+  ranges reversed in fa and in ar. `NOTES.md` untouched.
+- **fa/ar ordinal grades are words** (پایهٔ نهم / الصف التاسع for "9th grade"), the same
+  convention as CCD's existing entry `cc7a5ba5`; `check_figures` does not flag them.
+- **Gender never inferred:** a first Hindi draft gave the lead nurse a feminine verb;
+  corrected to the neutral honorific plural before applying.
+- **`it` "Screening"** (Testing title) was first left identical to the English and
+  `i18n:leaks` flagged it (8 locales translated it); now "Procedura di screening".
+- **Chrome (step 9b):** `home.schoolCardAreas_*` copies each catalog's own
+  `school.subAreas_*` forms verbatim (ar all six). `home.schoolCardMeta` now uses the
+  research-areas noun from `subAreas_other`. **Deviation: in `ar` it uses the `_few` noun
+  `مجالات بحثية`**, because `_other` is singular (`مجال بحثي`) while the word it replaced
+  (`موضوعات`) was plural and real counts (8–12) fall in `few`/`many`.
+  **Flag, not changed:** ar `school.subAreas_two` (and so `schoolCardAreas_two`) carries
+  `{{count}}` (`2 مجالان بحثيّان`), against the "dual absorbs the numeral" rule. Copied
+  verbatim as the plan says; a count of 2 cannot occur on a home card.
+- **Verification:** `npm run build` exits 0 (`check:live` green, `check:runtime` all 9);
+  `check:sepdrift` 0 drifted ×9; `check_figures` ×9 × 2 topics, findings identical to
+  `main` (pre-existing es/fa College Support entries from other schools only);
+  `check:fr/bidi/fa/hi/script/dates/money/moneytext/currency` clean; `check_work_integrity
+  --base 20ff1c03` reports only the splice growth (391→488) and College Support swaps
+  (1725→1724) per locale, plus a stopword census confirming each Latin-script file holds its
+  own language; `i18n:leaks` ×9 identical to `main`; i18next resolves
+  `home.schoolCardAreas` for counts 1/2/9 in all 10 catalogs. Real Chrome at 1280,
+  every `<details>` open, es/hi/fa/ar: 0 English text nodes in Learning Support or College
+  Support, both reworded College Support questions render, the removed flag is gone,
+  es money `24.077 US$`, hi/fa keep a leading `$` exactly as CCD does. Home cards in-language
+  in es/hi/ar. `audit:mobile --only charlotte-catholic --widths 320` ×9: 0 overflow, 0 broken.
+  `audit:moneyrender`: es clean; fr's only finding is a CCD Latest News headline (by design).
