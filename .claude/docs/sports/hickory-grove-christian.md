@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Sports
-> Distilled from 1 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 1 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-26.
 **Documents:** Redesign Research 2026
 
 

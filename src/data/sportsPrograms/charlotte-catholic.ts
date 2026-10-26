@@ -232,7 +232,8 @@ export const charlotteCatholic: SportsProgram = {
       { cls: '2025', name: 'Matt McKnight', sport: 'Baseball', college: 'North Carolina', conf: 'ACC', level: 'P4' },
       { cls: '2025', name: 'Cannon Ridinger', sport: 'Lacrosse', college: 'Providence College', conf: 'Big East', level: 'D1' },
       { cls: '2025', name: 'Max Sovie', sport: 'Lacrosse', college: 'Mercer University', conf: 'SoCon', level: 'D1' },
-      { cls: '2026', name: 'Dominic Basrawala', sport: 'Football', college: 'Air Force Academy', conf: 'Mountain West', level: 'D1' },
+      { cls: '2026', name: 'Dominic Basrawala', sport: 'Football', college: 'Air Force Academy', conf: 'Mountain West', level: 'D1',
+        rank247: { state: 82, url: 'https://247sports.com/player/dominic-basrawala-46150298/' } },
       { cls: '2026', name: 'Zach Deblitz', sport: 'Soccer', college: 'Hampden-Sydney College', conf: 'ODAC', level: 'D3' },
       { cls: '2026', name: 'Carter Garnett', sport: 'Football', college: 'Johns Hopkins University', conf: 'Centennial', level: 'D3' },
       { cls: '2026', name: 'Lukas Lupinski', sport: 'Football', college: 'Columbia University', conf: 'Ivy', level: 'D1' },
@@ -249,6 +250,10 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Charlotte Observer — National Signing Day roundup (Nov 2024, Class of 2025)', url: SIGN25 },
       { label: 'catholicnewsherald.com — College Signing Day (Feb 2026, Class of 2026)', url: SIGN26 },
       { label: 'goduke.com — Duke baseball roster (Hedrick corroboration)', url: 'https://goduke.com/sports/baseball/roster' },
+      {
+        label: '247Sports Composite — 2026 North Carolina football rankings',
+        url: 'https://247sports.com/season/2026-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
+      },
     ],
   },
 

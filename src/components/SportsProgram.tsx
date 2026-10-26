@@ -297,7 +297,30 @@ const LEVEL_TAG: Record<CommitLevel, string> = {
   NAIA: 'tag-neutral',
 }
 
-function RosterRow({ row, q }: { row: CollegePipeline['roster'][number]; q: string }) {
+/** A 247Sports rank cell: the number links to the athlete's 247 profile; a dash when unranked. */
+function RankCell({ n, url }: { n?: number; url?: string }) {
+  return (
+    <span className="sports-td sports-th-c">
+      {n != null && url ? (
+        <a className="sports-rank" href={url} target="_blank" rel="noopener noreferrer">
+          {n}
+        </a>
+      ) : (
+        <span className="text-muted">—</span>
+      )}
+    </span>
+  )
+}
+
+function RosterRow({
+  row,
+  q,
+  hasRanks,
+}: {
+  row: CollegePipeline['roster'][number]
+  q: string
+  hasRanks: boolean
+}) {
   return (
     <>
       <span className="sports-td text-muted">{row.cls}</span>
@@ -313,6 +336,12 @@ function RosterRow({ row, q }: { row: CollegePipeline['roster'][number]; q: stri
       <span className="sports-td">
         <Hl text={row.conf} q={q} />
       </span>
+      {hasRanks && (
+        <>
+          <RankCell n={row.rank247?.national} url={row.rank247?.url} />
+          <RankCell n={row.rank247?.state} url={row.rank247?.url} />
+        </>
+      )}
       <span className="sports-td sports-th-c">
         <span className={`${LEVEL_TAG[row.level]} sports-level`}>{row.level}</span>
       </span>
@@ -342,6 +371,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
     return () => details.removeEventListener('toggle', onToggle)
   }, [])
 
+  const hasRanks = data.roster.some((r) => r.rank247)
   const q = query.trim().toLowerCase()
   const rows = useMemo(
     () =>
@@ -454,15 +484,25 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
       </div>
 
       <div className="sports-scroll">
-        <div className="sports-roster">
+        <div className={hasRanks ? 'sports-roster has-ranks' : 'sports-roster'}>
           <div className="sports-th">{t('sports.classLabel')}</div>
           <div className="sports-th">{t('sports.athlete')}</div>
           <div className="sports-th">{t('sports.sport')}</div>
           <div className="sports-th">{t('sports.college')}</div>
           <div className="sports-th">{t('sports.conference')}</div>
+          {hasRanks && (
+            <>
+              <div className="sports-th sports-th-c" title={t('sports.rank247Title')}>
+                {t('sports.rankNational')}
+              </div>
+              <div className="sports-th sports-th-c" title={t('sports.rank247Title')}>
+                {t('sports.rankState')}
+              </div>
+            </>
+          )}
           <div className="sports-th sports-th-c">{t('sports.level')}</div>
           {rows.map((r, i) => (
-            <RosterRow key={`${r.name}-${i}`} row={r} q={q} />
+            <RosterRow key={`${r.name}-${i}`} row={r} q={q} hasRanks={hasRanks} />
           ))}
         </div>
         {rows.length === 0 && (
@@ -472,6 +512,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
         )}
       </div>
 
+      {hasRanks && <p className="sports-note text-muted">{t('sports.rank247Note')}</p>}
       {data.rosterNote && <p className="sports-note text-muted">{localizeMoneyText(data.rosterNote)}</p>}
       <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>

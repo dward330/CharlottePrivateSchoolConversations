@@ -426,6 +426,29 @@ for (const s of STRUCTURED) {
   w('|---|---|---|')
   for (const c of s.cards) w(`| \`${c.key}\` | ${esc(c.title)} | ${esc(c.kicker ?? '—')} |`)
   w()
+  if (s.topic === 'sports') {
+    // Standing rule set 2026-10-26 with the 247 rank columns (plan recruitranks).
+    // Lives here so a new school's /add-school pass knows the field exists and
+    // how it is matched — a name + class match alone attached a rank to the
+    // wrong school once (Carmel Christian's Bryce Slay).
+    w('**`pipeline.roster[].rank247` holds the 247Sports Composite rank, and nothing else.**')
+    w('It renders as the 247 Nat\'l / 247 State columns of the commitment roster; the columns')
+    w('appear only when at least one roster row carries a rank. Five rules travel with it:')
+    w()
+    w('- **Composite only** — never the 247 in-house rating, which the source file records for')
+    w('  audit and the app never renders.')
+    w('- **A rank is set only when name + class + 247\'s listed high school all match.** A')
+    w('  name + class match at another school is held back and recorded in the source file,')
+    w('  not shipped.')
+    w('- **Football and basketball only** — 247 ranks no other sport.')
+    w('- **No rank means the field is omitted**, never a placeholder; `national` alone is')
+    w('  omitted when 247 shows "NA".')
+    w('- **Fetch it with `npm run fetch:247 -- --slug <slug>`** and persist the result to')
+    w('  `source-material/sports/<slug>/<School> - Sports - 247Sports Recruiting Rankings.md`,')
+    w('  with every `##` heading containing "Recruiting" so it folds onto `sports :: recruiting`')
+    w('  rather than slugifying into a new card.')
+    w()
+  }
   if (s.topic === 'college-support') {
     // Standing rule set 2026-08-19 with the ncAdmissions card. Lives here
     // because this doc is what /add-school reads first: a new school needs to

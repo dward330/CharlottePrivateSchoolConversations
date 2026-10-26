@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 476 ingested research documents.
+**13 schools × 12 research areas**, 485 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 15 | 1 | 1 | 16 | 15 | 15 | 2 | 15 | 15 | 1 | 1 | 15 | 2 |
+| Sports | `sports` | 16 | 2 | 2 | 17 | 16 | 16 | 2 | 16 | 16 | 1 | 1 | 16 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -137,6 +137,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
+| `recruiting` | Top-100 Recruiting Rankings | 9/13 | 2 |
 | `awards` | Awards & Honors | 7/13 | 1 |
 | `championships` | Championships | 8/13 | 2 |
 | `coaches` | Coaches: Pedigree & Continuity | 9/13 | 3 |
@@ -149,7 +150,6 @@ research dossier folds in behind a structured card.
 | `redesign-research` | Sports Research Dossier (2026) | 10/13 | 2 |
 | `sports-medicine` | Sports Medicine & Performance | 7/13 | 1 |
 | `sports-offered` | Sports Offered | 9/13 | 3 |
-| `recruiting` | Top-100 Recruiting Rankings | 7/13 | 1 |
 | `win-loss` | Win–Loss Records | 7/13 | 2 |
 | `podcast-episode-33-saleh-athletic-center` ⚠️ | Podcast Episode 33 Saleh Athletic Center | 1/13 | 1 |
 
@@ -251,6 +251,23 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 | `facilities` | Facilities & Athlete Care | Topic 06 of 07 |
 | `national` | National Stage & NIL | Topic 07 of 07 |
 
+**`pipeline.roster[].rank247` holds the 247Sports Composite rank, and nothing else.**
+It renders as the 247 Nat'l / 247 State columns of the commitment roster; the columns
+appear only when at least one roster row carries a rank. Five rules travel with it:
+
+- **Composite only** — never the 247 in-house rating, which the source file records for
+  audit and the app never renders.
+- **A rank is set only when name + class + 247's listed high school all match.** A
+  name + class match at another school is held back and recorded in the source file,
+  not shipped.
+- **Football and basketball only** — 247 ranks no other sport.
+- **No rank means the field is omitted**, never a placeholder; `national` alone is
+  omitted when 247 shows "NA".
+- **Fetch it with `npm run fetch:247 -- --slug <slug>`** and persist the result to
+  `source-material/sports/<slug>/<School> - Sports - 247Sports Recruiting Rankings.md`,
+  with every `##` heading containing "Recruiting" so it folds onto `sports :: recruiting`
+  rather than slugifying into a new card.
+
 **Schools with data:** 13/13
 
 <details><summary>Types defined in <code>sportsProgram.ts</code> (31)</summary>
@@ -277,7 +294,7 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 
 `CommitLevel` *(union)* — `P4` \| `D1` \| `D2` \| `D3` \| `NAIA`
 
-`Commit` — `cls`, `name`, `sport`, `college`, `conf`, `level`
+`Commit` — `cls`, `name`, `sport`, `college`, `conf`, `level`, `rank247?`
 
 `FunnelStage` — `label`, `hint?`, `count`, `width`, `shade`, `toVerify?`
 

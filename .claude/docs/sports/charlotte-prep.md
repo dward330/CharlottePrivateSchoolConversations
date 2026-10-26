@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — Sports
-> Distilled from 2 source document(s) in `source-material/sports/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-19.
+> Distilled from 2 source document(s) in `source-material/sports/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-26.
 **Documents:** Selected Results and Coaching, Sports Offered and Participation
 
 
