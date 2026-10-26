@@ -2430,6 +2430,9 @@ table.compare-pin-table thead th { position: static; }   /* keep .corner's left-
   color: var(--brand);
   white-space: nowrap;
 }
+/* A row of phrases (metricValues `textValues`) — at 26px a phrase outweighs a
+   figure and reads as a bigger font, so it steps down a size. */
+.cell.val-text .mark-val { font-size: 20px; }
 .cell.val.lead { background: color-mix(in srgb, var(--brand) 10%, transparent); }
 /* Secondary line under a figure — the same money in the other billing period.
    Quieter than .mark-val so the cell still reads as one number with a gloss. */
