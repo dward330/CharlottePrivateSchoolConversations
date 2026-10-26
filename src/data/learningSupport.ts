@@ -188,12 +188,14 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { cannon } from './learningSupport/cannon.ts'
+import { charlotteCatholic } from './learningSupport/charlotte-catholic.ts'
 import { charlotteCountryDay } from './learningSupport/charlotte-country-day.ts'
 import { davidsonDay } from './learningSupport/davidson-day.ts'
 import { hickoryGroveChristian } from './learningSupport/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, LearningSupportProgram> = {
   cannon,
+  'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
   'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,

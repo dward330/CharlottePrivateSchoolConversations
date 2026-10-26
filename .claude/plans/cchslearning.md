@@ -1,7 +1,7 @@
 ---
 name: cchslearning
 title: Add Charlotte Catholic High School to Learning Support & Student Services
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-26
 branch: feat/cchslearning
@@ -656,3 +656,58 @@ ccdlearning and ddlearning.
   **Default:** as listed in step 3; the user can reorder at review.
 - **The fourth tile ("3 years")** could instead be "12 outside evaluators listed".
   **Default:** 3 years. Raise it at the Phase 1 stop.
+
+## Implementation notes
+
+### Phase 1 (English) — 2026-10-26
+
+- **Built as planned; no data deviations.** 24 service rows
+  `{ IH: 11, IH_FEE: 1, RF: 2, REQUIRED: 1, NS: 9 }`, 15 published. All 36 `“…”`
+  fragments match the research file case-sensitively (blockquote prefixes and `**`
+  stripped, whitespace collapsed), 0 misses. All 21 emails appear verbatim in the research
+  file. `$1,995` confirmed against the S21 table.
+- **Header comment reworded so the negative grep is strictly 0.** The plan asked the
+  header to name the unused 2025-26 wording and to say why Leahy is not named, but also
+  asked for 0 hits on `Leahy|Orton|iReady|iXL|537|physician|1,795` in the file. The
+  comment now describes them ("older course numbers, a looser diagnosis rule and named
+  intervention products"; "the former program director named in older pages") and points
+  to the research file's corrections, so both hold.
+- **No comment above `PROGRAMS` exists to update**; the plan assumed one. Only the import
+  and the entry were added.
+- **Ingest swept in `providence-day/`** (the user's untracked parallel work): its note,
+  its content JSON, its manifest rows and its INDEX line were all removed, and the ingest's
+  re-stamps of the other four schools' note dates were reverted. Only CCHS outputs remain.
+- **Deviation: `src/lib/head.ts` — the meta description now composes to fit.** With
+  `learning-support` added, "student support" entered CCHS's three-topic sample and its
+  description reached **162 characters**, failing `check:seo` (the plan expected ≤160).
+  `metaForRoute` now drops the sample to two topics only when the three-topic form would
+  pass `DESC_MAX`, which the file's own comment already describes as the intent ("we
+  compose to fit instead of chopping"). Only CCHS changes: "…across 8 areas — course
+  offerings, student support and more. …" (147 characters). Every other school's
+  description is byte-identical.
+- `npm run build` exits 1 on `check:live` only: the 3 retired college-support stamps
+  (`223e484f`, `a10ec34e`, `5ccfd764`) × 9 locales, no other finding. Run separately and
+  passing: `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`,
+  `check:spans` (the earlier `bucket-nu75` notice only), `check:news`, `check:photos`,
+  `check:seo`, `check:schema`. `npx tsc -b` clean. The schema diff is the CCHS
+  learning-support cells and the document count only.
+- **Browser check (real Chrome, Playwright, every `<details>` open):**
+  - 6 cards, no kickers, no Compare button; tiles `$24,077 / 5 / 6 / 3`; `--brand`
+    `#3a759e`, red on the rules and badges;
+  - 24 rows, 0 blank code cells; NOT STATED data chips 9 Services + 3 therapy + 1
+    Testing = 13, plus 2 legend samples;
+  - the IH_FEE row shows all four rates; the Speech and Motor filters show their NS
+    verdicts; 5 Testing entries, none the placement test;
+  - staff caption "21 people. Scroll the list to see everyone.", `aria-labelledby`
+    resolves to it, region clips 510 of 1028px; 21 mailto links, all with subject
+    "Charlotte Catholic High School Inquiry"; Kunert's is `afkunert@`; no "Leahy" anywhere
+    in the section;
+  - print media: `max-height: none`, `overflow: visible`, 21 of 21 rows inside the box;
+  - 13 questions and "October 26, 2026"; every card's headline shows on the closed card;
+  - College Support Whole Class: one flag left, the link present and landing the section
+    at 80px (same as Davidson Day), both rewordings render, the roster (with Needham)
+    unchanged;
+  - other schools' rows unchanged: HG 23, Cannon 25, DD 27, CCD 24;
+  - overflow 0 at 1280 light, 1280 dark and 390; dark verdict ink (red mixed toward grey,
+    the shared design) is ~4.3:1 against the ground.
+  - `audit:mobile --only charlotte-catholic`: 0 broken cards, 0 page overflow.

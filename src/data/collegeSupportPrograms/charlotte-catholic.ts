@@ -635,10 +635,6 @@ export const charlotteCatholic: CollegeSupportProgram = {
         kind: 'gap',
         text: 'No mean or median SAT/ACT is published, so this school cannot be placed on an averages-based comparison with schools that publish one. The mid-50% range is what exists.',
       },
-      {
-        kind: 'gap',
-        text: 'No learning-difference or accommodations disclosure exists beyond the course names in the curriculum guide.',
-      },
     ],
     sources: [
       { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
@@ -663,8 +659,8 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'What did Family Individualized Tuition actually award families like ours last year? The diocese publishes no per-school aid figures.',
       'My child wants AP courses — what does the application for each course weigh, and how many applicants are turned away?',
       'AP exams are mandatory here. What happens to a student who takes an AP course and does poorly on the exam?',
-      'How does the counseling office split 324 seniors six ways — is a counselor assigned by alphabet, by grade, or followed through four years?',
-      'What does the Options Program actually provide day to day, and who staffs the support behind those courses?',
+      'Counselors are assigned by last name and stay with a student all four years. How does each one balance about 54 seniors through application season?',
+      'What does a typical Options Program student’s day look like, and how much of it is spent in classes alongside peers?',
       'The band performs in Dublin every four years — what does a family pay for that, and when is the next one?',
       'Which sports hold separate fall and spring signing days, and where are those results published?',
     ],
