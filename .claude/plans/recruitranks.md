@@ -377,6 +377,14 @@ Phase 1 (English) built 2026-10-26 on `feat/recruitranks`.
   Christian Academy (national 328, NC 16), so he stays held back. The reverse-sweep leads
   in the source files are also still listed (Jamal Rule, Jack Larsen, Nick Segarra, Charlie
   Smith). Nothing on 247 has changed since planning.
+- **The full sweep was then re-run by hand in the same real-Chrome setup.** It loaded
+  every NC Composite list for 2023–2027 × football, basketball and women's basketball
+  (15 lists, 435 rows, every page HTTP 200; women's basketball has 0–2 rows per class).
+  Each row was matched by normalised **name + class** against **all 312 roster rows at
+  every school**, whatever school 247 lists the athlete at. Result: **exactly 21
+  matches**, the 20 shipped (all values identical) plus Bryce Slay at United Faith (held
+  back). No other roster athlete has a 247 Composite rank, so the dashes on the page are
+  confirmed as well as the numbers.
 - **`check:chrome` does not list new keys as "awaiting translation".** It audits
   skip-field promises, not catalog parity for new keys. It passed, but it never reported
   the four `sports.rank*` keys. Phase 2 needs a different completeness check, such as
