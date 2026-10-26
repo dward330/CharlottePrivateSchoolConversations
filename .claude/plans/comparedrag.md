@@ -1,11 +1,11 @@
 ---
 name: comparedrag
 title: Drag-to-pan on the Compare table — a grab cursor on non-interactive areas, and click-and-drag scrolls the table sideways
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-26
 branch: feat/comparedrag
-prs: []
+prs: [377]
 ---
 
 # Drag-to-pan on the Compare table
@@ -195,3 +195,14 @@ Single-phase. It adds no user-facing text: no locale keys, and no overlay change
   passes.
 - [ ] **No leak to school pages:** on `/school/providence-day/`, the Admissions table's
   `.table-wrap` has no `can-pan` class and a default cursor.
+
+## Implementation notes
+
+- The plan's single rule `:is(a, button, .qual) { cursor: pointer }` would have overridden `.qual`'s
+  existing `cursor: help`. It was split into `:is(a, button) { cursor: pointer }` and
+  `.qual { cursor: help }`, following the plan's own "keep an existing cursor" instruction.
+- `pointermove` also ends the press when no button is held (`(e.buttons & 1) === 0`). A
+  sub-threshold press released outside the table has no pointer capture yet, so its `pointerup`
+  never reaches the wrapper.
+- On College Support, every value cell in the middle columns holds a `.qual` button. Those cells
+  still pan from their padding, and the link-release test grabbed there.
