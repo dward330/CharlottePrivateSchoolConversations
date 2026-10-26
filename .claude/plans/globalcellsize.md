@@ -1,11 +1,11 @@
 ---
 name: globalcellsize
 title: Global Exposure Compare — shrink the coloured value on the two word-valued rows so phrases stop looking bigger than figures
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-26
 branch: fix/globalcellsize
-prs: []
+prs: [379]
 ---
 
 # Global Exposure Compare: smaller coloured values on word rows
@@ -163,3 +163,12 @@ Single-phase: the plan adds no user-facing text.
 |---|---|
 | The user wanted a different size than 20px | It is one CSS value. Adjust it in review before merging if asked |
 | A future word-valued row on another topic still looks large | It opts in with `textValues: true`. The JSDoc says when to use it |
+
+## Implementation notes
+
+- **`DATA-SCHEMA.md` did change**, contrary to the Verification expectation: the generator
+  lists every `ValueMetric` field, so `textValues` added one row to that table. It was
+  regenerated with `npm run schema` and committed, as the fallback in Verification allows.
+- Otherwise built as planned. In the browser check at 1400px and 390px, both word rows are
+  20px, the number rows are 26px, and `student-clubs` and `college-support` are 26px
+  throughout. The tooltip and its underline are intact and nothing is clipped.
