@@ -494,6 +494,12 @@ Italian has no rollout doc, so follow Telugu's or Bangla's method.
   `TRAVEL_DIR=<dir>`, and a scratch copy of the ledgers with a fake `Hawaii` trip failed
   with "classify "Hawaii" as a country (KNOWN) or domestic (DOMESTIC)" plus the four
   derived-figure mismatches it causes.
+- **Row 3 shows the homestay count only, no denominator** (user decision at the Phase 1
+  review, 2026-10-26). `7 / 21` read as "7 of this year's trips" beside row 1's
+  2026–27 count. Cells are now `7`, `5`, `4`, `0`; the years sub-line stays so a longer
+  record's advantage is visible; `compareAs: 'fraction'` and its `check:spans` entry are
+  gone, and the default max tint still picks Latin. The plan's step-3 row-3 table above
+  shows the original fractions.
 - The splice added **63** units per locale, 0 dropped. `Middle School` / `Upper School`
   were new to `metric-values` (they live in the `international-travel` overlay today), so
   Phase 2 should reuse those renderings.

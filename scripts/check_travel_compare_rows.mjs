@@ -31,8 +31,8 @@
  *     omitted), or null with no sub when the ledger has no such year;
  *   - travel-youngest-division: the youngest division over trips abroad (the
  *     grade sub-line is hand-written from the school's wording, not derived);
- *   - travel-homestays: "<homestays> / <trips>" over trips abroad, and the
- *     window sub-line;
+ *   - travel-homestays: the count of trips abroad with a homestay (no
+ *     denominator, user decision 2026-10-26), and the window sub-line;
  *   - travel-credential: non-null iff the program has a `credential`;
  *   - travel-countries: the distinct-country count, and the window sub-line;
  *   - every non-null cell carries a `quals` tooltip.
@@ -133,7 +133,7 @@ function derive(p) {
   return {
     'travel-trips': { value: trips, sub: tripsSub },
     'travel-youngest-division': { value: youngest ? DIV_NAME[youngest] : null },
-    'travel-homestays': { value: abroad.length ? `${homestays} / ${abroad.length}` : null, sub: window },
+    'travel-homestays': { value: abroad.length ? String(homestays) : null, sub: window },
     'travel-credential': { present: Boolean(p.credential) },
     'travel-countries': { value: countries.size ? String(countries.size) : null, sub: window },
   }
