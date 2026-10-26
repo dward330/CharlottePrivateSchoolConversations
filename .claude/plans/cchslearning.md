@@ -561,9 +561,12 @@ ccdlearning and ddlearning.
    locale's own `school.subAreas_other` (e.g. es `{{topics}} temas · …` →
    `{{topics}} áreas de investigación · …`, fr `sujets` → `domaines de recherche`),
    leaving the documents half untouched. The `home.stats.*` capitalisation change is
-   English-only; leave the other locales' stat labels as they are. Verify:
-   `check:chrome` shows no key awaiting translation, and the built home page in es/hi/ar
-   shows the cards in-language.
+   English-only; leave the other locales' stat labels as they are. Verify directly, not
+   with `check:chrome` (it audits skip-field promises and does not catch a new key
+   missing from a catalog; memory `chrome-check-is-not-a-new-key-gate`): a node one-liner
+   asserting `home.schoolCardAreas_other` exists in all 10 catalogs, plus counts 1/2/9
+   resolving through i18next per locale, and the built home page in es/hi/ar showing the
+   cards in-language.
 
 10. **Rebuild overlays:** `npm run i18n:build -- --topic <topic> --lang <code>` × 9 × 2.
 
