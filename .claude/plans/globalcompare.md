@@ -505,3 +505,21 @@ Italian has no rollout doc, so follow Telugu's or Bangla's method.
   Phase 2 should reuse those renderings.
 - **English approved by the user, 2026-10-26** (after the row-3 count change). Phase 2
   may run without re-asking.
+- **Phase 2 (2026-10-26): 57 units per locale translated** in all nine prose locales,
+  applied by `of` stamp and never by position (66 strings on the page per locale, because a few
+  units cover more than one cell). `Upper School` / `Middle School` stay Latin, as in the
+  Global Exposure overlay. Credential names, `AFAR`, `Winterim`, `Mastery Credit`,
+  `Global Leadership` and `Honors Anthropology` are kept as written. Arabic's two-year sub
+  uses the dual with no numeral (`عامان دراسيان، 2024–26`), following the repo's Arabic-dual
+  rule. Arabic grade ordinals (`الصف التاسع`) follow its existing Global Exposure overlay.
+- **`i18n:leaks` caught one real miss:** Kreyòl's five row-1 division sub-lines had been
+  left identical to the English, while all eight other locales translated them. They now
+  read `7 nan Upper School`, etc. Telugu's were reworded to `Upper School లో 7` in the same
+  pass.
+- **A render fix the plan did not list: `src/pages/Compare.tsx` now wraps the row label and
+  row note in `isolateFigures()`.** The browser check found `2026–27` reversed in the
+  row-1 label and note in `fa` and `ar` (glyph x-scan). Cells and tooltips already went
+  through `localizeMoneyText()` → `isolateFigures()`, but row headers rendered raw, and
+  these are the first Compare row headers to contain a year range. `isolateFigures` does
+  nothing outside RTL locales, so no other locale changes. After the fix, every year range
+  on the page in fa/ar measures in order.

@@ -1,4 +1,4 @@
-import { localizeMoneyText } from '../lib/format.ts'
+import { isolateFigures, localizeMoneyText } from '../lib/format.ts'
 import { useEffect, useLayoutEffect, useRef, useState, type Ref } from 'react'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel } from '../lib/labels.ts'
@@ -536,9 +536,9 @@ export function Compare({ topic, schools }: Props) {
                               <span className="tip-body">{t('compare.ncAdmitTip', tip)}</span>
                             </TopLayerTip>
                           ) : (
-                            <span className="row-metric-label">{vm.label}</span>
+                            <span className="row-metric-label">{isolateFigures(vm.label)}</span>
                           )}
-                          {vm.note && <span className="row-metric-note">{vm.note}</span>}
+                          {vm.note && <span className="row-metric-note">{isolateFigures(vm.note)}</span>}
                         </th>
                         {cols.map((s, i) => {
                           const v = vm.values[s.slug] ?? null
