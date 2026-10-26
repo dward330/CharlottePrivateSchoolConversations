@@ -488,6 +488,14 @@ ccdlearning and ddlearning.
      - roles that already exist, such as `'School Counselor'` if present.
    - `college-support`: 3 retired (the removed flag and the two old questions) and 2 new.
 
+   - **Plus the quote-review edits (user request, 2026-10-26, after Phase 1):** 8
+     learning-support strings in Cannon, Hickory Grove and Charlotte Country Day were
+     reworded in English, so expect **8 retired** learning-support stamps (`135a601a`,
+     `282fc3de`, `4854f226`, `53c3c840`, `757034b7`, `cc7a5ba5`, `d947979e`, `e5f4ba3b`)
+     and their 8 replacements among the added strings. Translate each replacement from its
+     new English, reusing the retired entry's translation of the unchanged quote; see
+     Implementation notes, "Quote review across all schools".
+
    Investigate any other drop before writing.
 
 9. **Splice** with `node scripts/i18n_splice_work.mjs --lang <code> --topic <topic>`
@@ -617,7 +625,7 @@ ccdlearning and ddlearning.
 ### Phase 2 — Locales
 
 - [ ] `npm run build` exits **0**: `check:live` green, `check:runtime` resolves all nine.
-- [ ] The splice reports **0 dropped** for learning-support, and exactly the 3 expected
+- [ ] The splice reports exactly the **8 quote-review retirements** for learning-support (no other drop), and exactly the 3 expected
       retirements for college-support.
 - [ ] `npm run check:sepdrift -- --lang <code>` ×9: 0 drifted.
 - [ ] `check_figures.py --topic learning-support` and `--topic college-support` ×9: no new
@@ -719,3 +727,29 @@ ccdlearning and ddlearning.
     “Recommendation from…”", for the same reason (it is the course's prerequisite field).
   - Therapy note: "When needed" → "When necessary", so the lead-in matches the Handbook
     sentence the quote comes from rather than the counseling page's wording.
+- **Quote review across all schools (user request, 2026-10-26: "fix all").** All 167
+  quotes in the other four schools' learning-support files were checked against their
+  research files: verbatim match, plus a new check that no quote cuts a word at its edge.
+  Nine fixes in 8 strings; every quoted word is still verbatim:
+  - **Cannon** Academic Labs row: the quotes had changed two capitals ("Faculty",
+    "available"). Now "The Upper School’s Academic Labs offer “faculty-facilitated, …” …
+    open at “consistent times and locations during the school day.”"
+  - **Cannon** Specialized teachers row: the quote cut a sentence mid-way and presented it
+    as complete, including the school's typo "each of division". Now paraphrased without
+    quotes: "A dedicated learning specialist for each division: Lower, Middle and Upper
+    School."
+  - **Cannon** math verdict: "tutors and teachers “partner with learners…”" (no mid-sentence
+    capital).
+  - **Hickory Grove** Ask question: the quote had dropped the plural. Now quotes
+    “identified learning differences”.
+  - **Charlotte Country Day**, eligibility `eligible` (two fixes in one string), the
+    executive-function row, the school-psychologist row and Testing's last entry: capital
+    letters mid-sentence removed by reframing. The psychologist line is now a paraphrase
+    ("described by the school as a licensed clinical psychologist"), because the quote also
+    cut a longer sentence short.
+  - Left as is, on purpose: Hickory Grove's `$2,227 “/year.”` (quotes the fee schedule's
+    own printing), Davidson Day's straight apostrophe in “student's passions” (the
+    school's form), Hickory Grove's glossary markers inside a verbatim sentence.
+  - `check:live` now also lists these 8 retired learning-support stamps × 9 locales; the
+    edited strings show in English on translated pages until Phase 2 translates the
+    replacements. `check:runtime` still resolves all 9 locales. `tsc -b` clean.
