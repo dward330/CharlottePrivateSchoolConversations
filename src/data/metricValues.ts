@@ -64,6 +64,15 @@ export type ValueMetric = {
    */
   lowerIsBetter?: boolean
   /**
+   * Render this row's coloured values at a smaller size than a figure.
+   *
+   * For a row whose values are PHRASES ('Middle School', 'Global Studies
+   * Diploma Distinction') rather than numbers. At the figure size a phrase
+   * carries far more ink than a '7' and reads as a larger font. Display only;
+   * the leader tint and every checker are unaffected.
+   */
+  textValues?: boolean
+  /**
    * How this row's display strings become the numbers the leader tint ranks.
    * Omitted means the default: read the leading number off the string.
    *
@@ -2037,6 +2046,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Youngest division that travels abroad',
     note: 'The youngest school division with a trip abroad on the school’s trip record. Beneath, the grades where the school states them.',
     noLead: true,
+    textValues: true,
     compareOnly: true,
     values: {
       cannon: 'Middle School',
@@ -2144,6 +2154,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Global diploma or certificate',
     note: 'A global-studies credential a student can earn by graduation, as the school names it.',
     noLead: true,
+    textValues: true,
     compareOnly: true,
     values: {
       cannon: 'Global Studies Certificate',

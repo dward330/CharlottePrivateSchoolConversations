@@ -552,7 +552,7 @@ export function Compare({ topic, schools }: Props) {
                           return (
                             <td
                               key={s.slug}
-                              className={v != null ? `cell val${lead ? ' lead' : ''}` : 'cell no'}
+                              className={v != null ? `cell val${lead ? ' lead' : ''}${vm.textValues ? ' val-text' : ''}` : 'cell no'}
                               style={{ ['--brand' as string]: brandOf(s.slug).color }}
                             >
                               {v != null ? (
