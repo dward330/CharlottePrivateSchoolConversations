@@ -1,4 +1,36 @@
-var e=`charlotte-christian`,t=`sports`,n=33,r=[{subtopic:`Awards and Honors`,source_file:`Charlotte Christian - Sports - Awards and Honors.pdf`,preview:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Individual Awards & Honors Research Area — Player and coach honors beyond team titles Headlined by Stephen Curry's retired jersey and decorated coaches; the program's depth shows in 35+ pro alumni and titles in seven sports. AT A GLANCE Most…`,text:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
+var e=`charlotte-christian`,t=`sports`,n=38,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
+
+North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
+position and state rank, stars, composite score, listed high school and commitment per row).
+Every football and basketball athlete on this school's College Pipeline roster
+(\`src/data/sportsPrograms/charlotte-christian.ts\`, \`pipeline.roster\`) was matched by normalised name
+(suffixes Jr./III dropped, punctuation stripped) AND graduating class, then accepted only if
+247's listed high school is this school. **The app shows the 247Sports Composite** (user
+decision 2026-10-26); the 247Sports in-house figures are recorded alongside for audit only.
+Classes 2024–2026 are final (all signed and enrolled), so these ranks no longer move.
+
+"NA" national rank = 247 publishes a state rank but no national rank for that player.
+Sports other than football and basketball are not ranked by 247Sports and are out of scope.`},{subtopic:`Recruiting rankings — matched athletes (247Sports Composite)`,source_file:null,preview:`| Class | Athlete | Sport | Pos | Stars | Composite score | Composite national | Composite NC state | Composite position | 247 in-house national | 247 in-house NC state | 247 listed school | 247 profile | |---|---|---|---|---|---|---|---|---|---|---|---|---| | '24 | Tripp Woody | Football | K | 2 | 0.7800 | NA | 67 |…`,text:`| Class | Athlete | Sport | Pos | Stars | Composite score | Composite national | Composite NC state | Composite position | 247 in-house national | 247 in-house NC state | 247 listed school | 247 profile |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| '24 | Tripp Woody | Football | K | 2 | 0.7800 | NA | 67 | 20 | NA | 67 | Charlotte Christian (Charlotte, NC) | https://247sports.com/player/tripp-woody-46146089/ |
+| '24 | Micah Gilbert | Football | WR | 4 | 0.9140 | 245 | 8 | 41 | NA | 10 | Charlotte Christian (Charlotte, NC) | https://247sports.com/player/micah-gilbert-46128048/ |
+| '24 | Bryce Young | Football | DL | 4 | 0.9646 | 73 | 2 | 11 | 24 | 1 | Charlotte Christian (Charlotte, NC) | https://247sports.com/player/bryce-young-46130942/ |`},{subtopic:`Recruiting rankings — not on a 247Sports NC list (unrated)`,source_file:null,preview:`Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball). Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash. - '25 Owen Farrell — Football →…`,text:`Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball).
+Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and
+girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash.
+
+- '25 Owen Farrell — Football → Charleston Southern (D1)
+- '25 Corban Hall — Football → Dartmouth (D1)
+- '25 Brandon Hettwer — Football → Marshall (D1)
+- '24 Ryan Henley — Football → Wake Forest (P4)
+- '24 Zach Zinger — Football → Wake Forest (P4)
+- '24 Gavin Major — Football → Wofford (D1)
+- '24 Christian Vann — Football → Gardner-Webb (D1)
+- '24 Cross Killen — Football → Limestone (D2)
+- '24 Kayla Lee — Girls Basketball → Roanoke (D3)`},{subtopic:`Recruiting rankings — ranked at this school but NOT on our roster`,source_file:null,preview:`Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a 247 commit is not proof of enrollment, so confirm against the school's own signing coverage first. - '26 Jamal Rule — football, RB, 3★…`,text:`Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but
+no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a
+247 commit is not proof of enrollment, so confirm against the school's own signing coverage first.
+
+- '26 Jamal Rule — football, RB, 3★ 0.8767; Composite NC #31, national 835; 247 commit: Nebraska. https://247sports.com/player/jamal-rule-46147357/`},{subtopic:`Recruiting rankings — list sources`,source_file:null,preview:"Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group: - https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+) -…",text:"Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group:\n\n- https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n\n---"},{subtopic:`Awards and Honors`,source_file:`Charlotte Christian - Sports - Awards and Honors.pdf`,preview:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Individual Awards & Honors Research Area — Player and coach honors beyond team titles Headlined by Stephen Curry's retired jersey and decorated coaches; the program's depth shows in 35+ pro alumni and titles in seven sports. AT A GLANCE Most…`,text:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Individual Awards & Honors
 Research Area — Player and coach honors beyond team titles
 Headlined by Stephen Curry's retired jersey and decorated coaches; the program's depth shows in 35+ pro alumni and titles
@@ -1208,4 +1240,4 @@ https://www.charlottechristian.com/athletics/knights-accolades
 https://www.si.com/high-school/north-carolina/charlotte-christian-school-sets-2025-football-schedule-01jtghjdregp
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:33,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:38,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

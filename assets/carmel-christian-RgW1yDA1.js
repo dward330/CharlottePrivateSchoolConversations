@@ -1,4 +1,32 @@
-var e=`carmel-christian`,t=`sports`,n=11,r=[{subtopic:`Redesign Research 2026`,source_file:`Carmel Christian - Sports - Redesign Research 2026.md`,preview:`# Carmel Christian School — Sports (Redesign Research 2026) - School: Carmel Christian School, 1145 Pineville Matthews Road, Matthews, NC 28105. NCISAA 4A (was 3A through ~2019). Mascot Cougars. AD Grant Coffey, BEd, CAA. Three brief-supplied "known facts" were CORRECTED by primary sources: 1. Cody Peck is NOT a…`,text:`# Carmel Christian School — Sports (Redesign Research 2026)
+var e=`carmel-christian`,t=`sports`,n=17,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Carmel Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Carmel Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Carmel Christian — Sports — 247Sports Recruiting Rankings
+
+North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
+position and state rank, stars, composite score, listed high school and commitment per row).
+Every football and basketball athlete on this school's College Pipeline roster
+(\`src/data/sportsPrograms/carmel-christian.ts\`, \`pipeline.roster\`) was matched by normalised name
+(suffixes Jr./III dropped, punctuation stripped) AND graduating class, then accepted only if
+247's listed high school is this school. **The app shows the 247Sports Composite** (user
+decision 2026-10-26); the 247Sports in-house figures are recorded alongside for audit only.
+Classes 2024–2026 are final (all signed and enrolled), so these ranks no longer move.
+
+"NA" national rank = 247 publishes a state rank but no national rank for that player.
+Sports other than football and basketball are not ranked by 247Sports and are out of scope.`},{subtopic:`Recruiting rankings — matched athletes (247Sports Composite)`,source_file:null,preview:`None. No football or basketball athlete on this roster appears on a 247Sports NC state list for their class.`,text:`None. No football or basketball athlete on this roster appears on a 247Sports NC state list for their class.`},{subtopic:`Recruiting rankings — held back (listed school does not match)`,source_file:null,preview:`Name and class match a 247 NC list row, but 247 lists a different high school. NOT shown in the app until the roster attribution is confirmed (see the plan's Decisions). - Bryce Slay ('25, Basketball → Marshall): Composite NC #16, national 328, 3★ 0.8700; 247 lists United Faith Christian Academy (Charlotte, NC),…`,text:`Name and class match a 247 NC list row, but 247 lists a different high school. NOT shown in the
+app until the roster attribution is confirmed (see the plan's Decisions).
+
+- Bryce Slay ('25, Basketball → Marshall): Composite NC #16, national 328, 3★ 0.8700; 247 lists **United Faith Christian Academy (Charlotte, NC)**, commit Marshall. https://247sports.com/player/bryce-slay-46144139/`},{subtopic:`Recruiting rankings — not on a 247Sports NC list (unrated)`,source_file:null,preview:`Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball). Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash. - '26 Jordan Buzzard — Basketball →…`,text:`Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball).
+Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and
+girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash.
+
+- '26 Jordan Buzzard — Basketball → Coastal Carolina (D1)
+- '26 Logan Johnson — Basketball → UNC Asheville (D1)
+- '25 Braylen Bowman — Basketball → UNC Greensboro (D1)
+- '24 Kam Taylor — Basketball → UNC Asheville (D1)
+- '25 Chandler Kennedy — Basketball → Fayetteville State (D2)
+- '25 Miles Leaks — Basketball → Johnson & Wales (D3)`},{subtopic:`Recruiting rankings — ranked at this school but NOT on our roster`,source_file:null,preview:`Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a 247 commit is not proof of enrollment, so confirm against the school's own signing coverage first. - (none)`,text:`Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but
+no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a
+247 commit is not proof of enrollment, so confirm against the school's own signing coverage first.
+
+- (none)`},{subtopic:`Recruiting rankings — list sources`,source_file:null,preview:"Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group: - https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+) -…",text:"Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group:\n\n- https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n\n---"},{subtopic:`Redesign Research 2026`,source_file:`Carmel Christian - Sports - Redesign Research 2026.md`,preview:`# Carmel Christian School — Sports (Redesign Research 2026) - School: Carmel Christian School, 1145 Pineville Matthews Road, Matthews, NC 28105. NCISAA 4A (was 3A through ~2019). Mascot Cougars. AD Grant Coffey, BEd, CAA. Three brief-supplied "known facts" were CORRECTED by primary sources: 1. Cody Peck is NOT a…`,text:`# Carmel Christian School — Sports (Redesign Research 2026)
 
 - **School:** Carmel Christian School, 1145 Pineville Matthews Road, Matthews, NC 28105.
  NCISAA 4A (was 3A through ~2019). Mascot Cougars. AD Grant Coffey, BEd, CAA.
@@ -96,4 +124,4 @@ named. Thin card — TO VERIFY (capital-campaign pages, campus map, Form 990).`}
  cards 5 and 6.
 - Pro alumni: none confirmed (Cade Tyson is a draft prospect, not yet pro).
 
----`}],i={school_slug:e,topic_slug:t,section_count:11,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:17,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

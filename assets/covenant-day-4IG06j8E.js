@@ -1,4 +1,29 @@
-var e=`covenant-day`,t=`sports`,n=15,r=[{subtopic:`Awards and Honors`,source_file:`Covenant Day School - Sports - Awards and Honors.md`,preview:`# Covenant Day School — Sports — Awards and Honors ### Sources - 2026 Spring Sports Highlights: https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2026-spring-sports-highlights-1781042195259 - 2025 Fall Sports Highlights:…`,text:`# Covenant Day School — Sports — Awards and Honors
+var e=`covenant-day`,t=`sports`,n=20,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Covenant Day School - Sports - 247Sports Recruiting Rankings.md`,preview:`# Covenant Day School — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Covenant Day School — Sports — 247Sports Recruiting Rankings
+
+North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
+position and state rank, stars, composite score, listed high school and commitment per row).
+Every football and basketball athlete on this school's College Pipeline roster
+(\`src/data/sportsPrograms/covenant-day.ts\`, \`pipeline.roster\`) was matched by normalised name
+(suffixes Jr./III dropped, punctuation stripped) AND graduating class, then accepted only if
+247's listed high school is this school. **The app shows the 247Sports Composite** (user
+decision 2026-10-26); the 247Sports in-house figures are recorded alongside for audit only.
+Classes 2024–2026 are final (all signed and enrolled), so these ranks no longer move.
+
+"NA" national rank = 247 publishes a state rank but no national rank for that player.
+Sports other than football and basketball are not ranked by 247Sports and are out of scope.`},{subtopic:`Recruiting rankings — matched athletes (247Sports Composite)`,source_file:null,preview:`None. No football or basketball athlete on this roster appears on a 247Sports NC state list for their class.`,text:`None. No football or basketball athlete on this roster appears on a 247Sports NC state list for their class.`},{subtopic:`Recruiting rankings — not on a 247Sports NC list (unrated)`,source_file:null,preview:`Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball). Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash. - '24 Michael Marcus Jr — Basketball →…`,text:`Searched by name across the NC lists for 2023–2027 (football, basketball, women's basketball).
+Absence means 247 published no rating for the player (typical for walk-ons, D2/D3 commits and
+girls' basketball, where 247 ranks only 0–2 NC players per class); the app shows a dash.
+
+- '24 Michael Marcus Jr — Basketball → Appalachian State (D1)
+- '25 Tyler Dennison — Football → Grove City (D3)
+- '25 Chris Rivens — Basketball → Guilford (D3)
+- '25 Tyree White — Basketball → Hampden-Sydney (D3)
+- '26 Douglas Smith — Basketball → Grove City (D3)
+- '26 Luke Thompson — Basketball → Macalester (D3)`},{subtopic:`Recruiting rankings — ranked at this school but NOT on our roster`,source_file:null,preview:`Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a 247 commit is not proof of enrollment, so confirm against the school's own signing coverage first. - (none)`,text:`Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at this school, but
+no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a
+247 commit is not proof of enrollment, so confirm against the school's own signing coverage first.
+
+- (none)`},{subtopic:`Recruiting rankings — list sources`,source_file:null,preview:"Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group: - https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+) -…",text:"Composite (shown in the app) and 247Sports in-house lists, NC, high-school institution group:\n\n- https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n- https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)\n\n---"},{subtopic:`Awards and Honors`,source_file:`Covenant Day School - Sports - Awards and Honors.md`,preview:`# Covenant Day School — Sports — Awards and Honors ### Sources - 2026 Spring Sports Highlights: https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2026-spring-sports-highlights-1781042195259 - 2025 Fall Sports Highlights:…`,text:`# Covenant Day School — Sports — Awards and Honors
 
 ### Sources
 
@@ -621,4 +646,4 @@ The school publishes narrative season highlights with seeds, streaks, and playof
 results rather than complete win-loss tables; full records live on MaxPreps
 (https://www.maxpreps.com/nc/matthews/covenant-day-lions/) season by season.
 
----`}],i={school_slug:e,topic_slug:t,section_count:15,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:20,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
