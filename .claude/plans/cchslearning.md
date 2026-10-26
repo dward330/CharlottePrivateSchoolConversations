@@ -543,8 +543,8 @@ ccdlearning and ddlearning.
    locale's own `school.subAreas_*` plural forms copied verbatim** (same meaning,
    "{{count}} research areas", already reviewed), keeping every CLDR form the locale has
    (ar six, es/fr/it `_many`). No new translation is needed. Insert after
-   `schoolsHeading` without reordering. The Title Case of `home.stats.*` is an English
-   convention only; leave the other locales' stat labels as they are.
+   `schoolsHeading` without reordering. The `home.stats.*` capitalisation change is English-only; leave the
+   other locales' stat labels as they are.
 
 10. **Rebuild overlays:** `npm run i18n:build -- --topic <topic> --lang <code>` × 9 × 2.
 
@@ -775,9 +775,10 @@ ccdlearning and ddlearning.
   through `school.topics`, a key that on the school page counts the cards inside one area.
   Home now uses a new key `home.schoolCardAreas`, "{{count}} Research Areas", so the home
   page and `school.topics`' dev-only card count no longer share a key. The three hero stat
-  labels are now Title Case in en: "Schools Researched", "Research Areas", "Source
-  Documents Distilled" (singulars too). The dev-only `home.schoolCardMeta` says "Research
-  Areas" in en. Chrome on the built home page: tiles "13 Schools Researched / 12 Research
-  Areas / 476 Source Documents Distilled", all 13 cards "N Research Areas", 0 overflow.
+  labels went to Title Case, then on review to **sentence case with a capital first
+  word**, matching the site's headings: "Schools researched", "Research areas", "Source
+  documents distilled" (singulars too). The school-card key stays "N Research Areas" as
+  the user asked. The dev-only `home.schoolCardMeta` says "Research
+  Areas" in en. Chrome on the built home page (Title Case pass): all 13 cards "N Research Areas", 0 overflow.
   The other 9 catalogs get the new key in Phase 2 (step 9b); until then they fall back to
   English on the home cards.
