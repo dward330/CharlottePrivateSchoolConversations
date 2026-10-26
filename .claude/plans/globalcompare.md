@@ -503,3 +503,5 @@ Italian has no rollout doc, so follow Telugu's or Bangla's method.
 - The splice added **63** units per locale, 0 dropped. `Middle School` / `Upper School`
   were new to `metric-values` (they live in the `international-travel` overlay today), so
   Phase 2 should reuse those renderings.
+- **English approved by the user, 2026-10-26** (after the row-3 count change). Phase 2
+  may run without re-asking.
