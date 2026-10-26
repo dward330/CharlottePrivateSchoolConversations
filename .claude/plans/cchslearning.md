@@ -753,3 +753,13 @@ ccdlearning and ddlearning.
   - `check:live` now also lists these 8 retired learning-support stamps × 9 locales; the
     edited strings show in English on translated pages until Phase 2 translates the
     replacements. `check:runtime` still resolves all 9 locales. `tsc -b` clean.
+- **Testing & Evaluation moved to the first card, for every school (user request,
+  2026-10-26).** `LEARNING_SUPPORT_CARDS` order is now testing → eligibility → services →
+  therapy → staff → ask. `testing` also joined `WIDE_LEARNING_CARDS`: left two-up, it would
+  sit alone at the top beside an empty half-row, and full-width it leaves Therapy and Staff
+  paired, which also closes the half-row gap the old order had beside Staff. The direct
+  request is the UX approval. No strings changed, so nothing to translate; the episode
+  generator's order is deliberately independent of card order and is unchanged. Comments in
+  `learningSupport.ts` and `SchoolDetail.tsx` updated, `DATA-SCHEMA.md` regenerated. In
+  Chrome at 1280 and 390, closed and open, all five schools show Testing first, full-width,
+  with 0 overflow.
