@@ -1,11 +1,11 @@
 ---
 name: globalcompare
 title: Put Global Exposure on Compare — five Key-stats rows with per-cell tooltips, and the "Compare on Global Exposure" button on school pages
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-26
 branch: feat/globalcompare
-prs: []
+prs: [376]
 ---
 
 # Global Exposure on the Compare tool
