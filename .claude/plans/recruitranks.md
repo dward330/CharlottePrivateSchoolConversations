@@ -1,11 +1,11 @@
 ---
 name: recruitranks
 title: 247Sports Composite national + state rank columns on the College Pipeline roster
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-26
 branch: feat/recruitranks
-prs: []
+prs: [373]
 ---
 
 # 247Sports Composite rank columns on the College Pipeline roster
@@ -399,3 +399,16 @@ Phase 1 (English) built 2026-10-26 on `feat/recruitranks`.
 - Ingest was run narrowly (`build_docs.py sports`). It added nine documents, all on
   `sports :: recruiting`, which went from 7 to 9 schools. Sports has a structured program,
   so its prose groups do not render and no card appeared.
+- **Phase 2 (2026-10-26).** The four keys were inserted as text after `"level"` in each of the
+  nine catalogs, not by re-serialising the JSON, so key order and the `ar` plural forms are
+  untouched. Parity was confirmed with a script, since `check:chrome` cannot see new keys.
+  Headers: es `247 Nac.`/`247 Estatal`, fr `247 Nat.`/`247 État`, it `247 Naz.`/`247 Stato`,
+  ht `247 Nas.`/`247 Eta`, bn `247 জাতীয়`/`247 রাজ্য`, te `247 జాతీయ`/`247 రాష్ట్ర`,
+  hi `247 राष्ट्रीय`/`247 राज्य`, fa `247 ملی`/`247 ایالتی`, ar `247 وطني`/`247 الولاية`.
+  All fit the 64px columns on one line in real Chrome (`ar`, `hi`, `fa` checked), so no
+  per-locale column widening was needed. `audit:mobile` at 320px in es/te/hi/ar showed no
+  page overflow.
+- **Phase 2 commit pushed through the GitHub API.** `git push` hit the git-only "Could not
+  resolve host" failure, while `gh` worked. The locale, plan and index changes reached the
+  PR branch as a commit created with `gh api`.
+
