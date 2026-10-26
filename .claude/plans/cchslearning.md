@@ -782,3 +782,9 @@ ccdlearning and ddlearning.
   areas" in en. Chrome on the built home page (Title Case pass): all 13 cards "N Research Areas", 0 overflow.
   The other 9 catalogs get the new key in Phase 2 (step 9b); until then they fall back to
   English on the home cards.
+- **Testing & Evaluation moved again, to second (user decision on review, 2026-10-26).**
+  Order: eligibility → testing → services → therapy → staff → ask. "Can They Serve My
+  Child?" is the gate a parent asks first; how a need is identified comes next, which is
+  also the order the Learning Support episodes follow. Testing stays in
+  `WIDE_LEARNING_CARDS`, so the grid still has no gaps. Supersedes the "first card" note
+  above.

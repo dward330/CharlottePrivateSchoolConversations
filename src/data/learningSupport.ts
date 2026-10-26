@@ -1,8 +1,9 @@
 // Structured data for the "Learning Support & Student Services" research area —
-// six cards in a fixed order: testing and evaluation (how a need is identified;
-// first at the user's request, 2026-10-26), can the school serve my child, the
-// services at a glance (with a need filter), therapy, the people, and the
-// questions to ask on the tour. Every card is optional per school.
+// six cards in a fixed parent-priority order: can the school serve my child,
+// testing and evaluation (how a need is identified; second since 2026-10-26, the
+// order the Learning Support episodes also follow), the services at a glance
+// (with a need filter), therapy, the people, and the questions to ask on the
+// tour. Every card is optional per school.
 //
 // From the Claude Design handoff "Learning Support Section Redesign"
 // (2026-10-20), built first for Hickory Grove Christian. Kept OFF Compare — see
@@ -152,8 +153,8 @@ export type LearningSupportProgram = {
  * (`cards.learning-support.<key>`).
  */
 export const LEARNING_SUPPORT_CARDS = [
-  { key: 'testing', title: 'Testing & Evaluation' },
   { key: 'eligibility', title: 'Can They Serve My Child?' },
+  { key: 'testing', title: 'Testing & Evaluation' },
   { key: 'services', title: 'Services at a Glance' },
   { key: 'therapy', title: 'Therapy & Related Services' },
   { key: 'staff', title: "Who You'll Work With" },
@@ -167,9 +168,8 @@ export type LearningSupportCardKey = (typeof LEARNING_SUPPORT_CARDS)[number]['ke
 
 /**
  * Cards that span the full grid row even when closed, as in the design.
- * Testing joined when it moved first (2026-10-26): two-up, it would sit alone
- * at the top beside an empty half-row, and wide it leaves Therapy and Staff
- * paired with no gap anywhere in the section.
+ * Testing joined when it moved up (2026-10-26): wide, it leaves Therapy and
+ * Staff paired with no empty half-row anywhere in the section.
  */
 export const WIDE_LEARNING_CARDS: ReadonlySet<LearningSupportCardKey> = new Set([
   'testing',

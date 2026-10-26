@@ -920,8 +920,8 @@ Root type `LearningSupportProgram` · registry `LEARNING_SUPPORT_CARDS` · `src/
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
-| `testing` | Testing & Evaluation | — |
 | `eligibility` | Can They Serve My Child? | — |
+| `testing` | Testing & Evaluation | — |
 | `services` | Services at a Glance | — |
 | `therapy` | Therapy & Related Services | — |
 | `staff` | Who You'll Work With | — |
