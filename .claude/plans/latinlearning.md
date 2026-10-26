@@ -1,7 +1,7 @@
 ---
 name: latinlearning
 title: Add Charlotte Latin School to Learning Support & Student Services
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-10-26
 branch: feat/latinlearning
@@ -584,3 +584,58 @@ Implementation notes of `.claude/plans/cchslearning.md`.
   the user can trim at review.
 - **Division heads' order.** **Default:** King, then Lower, Middle and Upper. The user can
   reorder at review.
+
+## Implementation notes
+
+### Phase 1 (English) — 2026-10-26
+
+- **Built as planned; no data deviations.** 25 service rows
+  `{ IH: 6, IH_FEE: 5, REQUIRED: 3, RF: 1, NS: 10 }`, 15 published. All 54 `“…”`
+  fragments match the research file case-sensitively (blockquote prefixes and `**`
+  stripped, whitespace collapsed, `[[504|X]]` reduced to `X`), 0 misses. The negative
+  greps are clean, and there is no `email` field.
+- **Quotes framed so none puts a capital mid-sentence** (the CCHS quote-review defect
+  class). The ones affected: "Evaluations must be current (within three years)" became
+  "the evaluation must be current, “within three years.”"; "Instituted in 1985" became
+  "The program began in 1985" (unquoted); the Testing "Deciding the level of support"
+  entry quotes the lowercase "recommendations by the psychologist…" after "After a
+  diagnosis,". The Math row needed no ellipsis: the whole MS sentence tail is quoted.
+- **Gorelick Endowment added to the 1:1 / small-group row** ("covers expenses for families
+  receiving financial aid"). The plan listed `ENDOW` among the Services sources but gave
+  no row that used it.
+- **Eligibility `plan` paraphrases the pre-enrollment instruction** rather than quoting S7
+  a second time; the full quote is in Testing entry 3.
+- **Upper School tutoring rule written as "C- average"**, the source's hyphen (S3), not
+  the plan's `C–`. Phase 2 should copy `C-`.
+- **Ingest swept in `providence-day/`** as expected: its note, content JSON, manifest rows
+  and INDEX line were removed, and the other four schools' re-stamped note dates were
+  reverted. The single-topic rebuild also re-ordered `schools.json`, so the manifest was
+  rebuilt from `HEAD` with only Latin's matrix row and two document rows inserted
+  (+25 lines).
+- **Verification.**
+  - `npx tsc -b` is clean.
+  - `npm run build` exits 1 on `check:live` only: the retired college-support stamp
+    `a57ae75d` × 9 locales.
+  - Run separately, each of these passes: `check:chrome`, `check:runtime` (all 9),
+    `check:moneytext`, `check:dates`, `check:spans` (the pre-existing `bucket-nu75`
+    notice only), `check:news`, `check:photos`, `check:seo` and `check:schema`. Latin's
+    meta description is 152 characters.
+  - The schema diff is only Latin's learning-support cells and the document count.
+- **Browser check** (real Chrome via Playwright, `domcontentloaded`, every `<details>`
+  open):
+  - The section has 6 cards in order, with no kickers, no Compare button and `--brand`
+    `#003764`. The tiles are `1985 / 3 years / 50% / 3`.
+  - There are 25 rows and 0 blank code cells. The NOT STATED chips are 10 in Services
+    plus 3 in the therapy strip (13), plus 1 legend sample.
+  - `504 Educational Plan` renders as an `<abbr>` three times with the glossary
+    definition.
+  - The Speech, Motor and Gifted filters show their NS verdicts.
+  - Testing has 6 entries, none of them admission tests.
+  - Staff shows 4 rows, 0 mailto links, no scroll region, and the director note.
+  - Ask has 14 questions and "October 26, 2026". Every headline shows on the closed card.
+  - In College Support, the link is present and lands the section at 80px (the same as
+    CCHS), the reworded question renders and the old wording is gone.
+  - The other schools' row counts are unchanged: HG 23, Cannon 25, DD 27, CCD 24,
+    CCHS 24.
+  - Overflow is 0 at 1280 light, 1280 dark and 390.
+  - `audit:mobile --only charlotte-latin` reports 0 broken cards and 0 page overflow.

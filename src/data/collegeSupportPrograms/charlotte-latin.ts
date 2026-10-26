@@ -20,10 +20,12 @@
 //
 //  1. The testing data disappeared between the 2017–18 and 2019–20 editions —
 //     a long-standing posture, NOT a recent test-optional-era change.
-//  2. The Learning Resources programme is real (founded 1985) but effectively
-//     unpublished: every descriptive page 404s and the live tile is an href="#"
-//     anchor with no body copy. That gap between capability and disclosure is
-//     itself the finding, so it renders rather than being quietly omitted.
+//  2. The Learning Resources programme is real (founded 1985) but thinly
+//     published: its program pages were removed (the last Wayback copy is
+//     2025-05), and the live tile opens a one-paragraph goal statement. That gap
+//     between capability and disclosure is itself the finding, so it renders
+//     rather than being quietly omitted. The detail now lives in the Learning
+//     Support & Student Services section (src/data/learningSupport/charlotte-latin.ts).
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
@@ -815,7 +817,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       'The current profile no longer states your grading scale, your weighting, or whether you report class rank. Do AP and Honors still carry one additional quality point, and do you rank?',
       'Is there a GPA distribution — quintiles or deciles — that you share with colleges even though it is not in the published profile?',
       'Who is the current Director of Learning Resources, how many LR staff work with Upper School students, and what does a session cost, since it is billed outside tuition?',
-      'Every Learning Resources page on your website 404s and the tile links nowhere. Where should a family with a diagnosed learning difference actually go for information?',
+      'Your Learning Resources pages were removed from the website in 2025, and the Student Support & Wellness tile now holds a one-paragraph summary. Where should a family with a diagnosed learning difference find the program’s current policy, staff and rates?',
       'Your published profile contains an unremoved internal editorial note. Who reviews that document before it goes to colleges, and when is it next refreshed?',
       'Columbia, Princeton and Penn do not appear anywhere on the 2023–25 acceptance list. Is that accurate, and how do you read it?',
       'You stopped publishing merit-scholarship totals after the Class of 2023. What did the last three classes receive?',

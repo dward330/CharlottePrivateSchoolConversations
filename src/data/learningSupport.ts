@@ -182,7 +182,8 @@ export const WIDE_LEARNING_CARDS: ReadonlySet<LearningSupportCardKey> = new Set(
 
 /**
  * Per-school entries live in ./learningSupport/<slug>.ts. Hickory Grove
- * Christian, Cannon, Charlotte Country Day and Davidson Day are researched;
+ * Christian, Cannon, Davidson Day, Charlotte Country Day, Charlotte Catholic
+ * and Charlotte Latin are researched;
  * every other school is ABSENT rather than present-and-empty, and with no source-material folder the
  * section never renders on its page.
  */
@@ -197,6 +198,7 @@ import {
 import { cannon } from './learningSupport/cannon.ts'
 import { charlotteCatholic } from './learningSupport/charlotte-catholic.ts'
 import { charlotteCountryDay } from './learningSupport/charlotte-country-day.ts'
+import { charlotteLatin } from './learningSupport/charlotte-latin.ts'
 import { davidsonDay } from './learningSupport/davidson-day.ts'
 import { hickoryGroveChristian } from './learningSupport/hickory-grove-christian.ts'
 
@@ -204,6 +206,7 @@ const PROGRAMS: Record<string, LearningSupportProgram> = {
   cannon,
   'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
+  'charlotte-latin': charlotteLatin,
   'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,
 }
