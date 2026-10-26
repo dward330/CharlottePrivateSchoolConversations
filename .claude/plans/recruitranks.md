@@ -368,6 +368,15 @@ Phase 1 (English) built 2026-10-26 on `feat/recruitranks`.
   `rank247` values were then applied from the source files by script, not retyped, and
   they match this plan's step-6 table. **`npm run fetch:247` as written does not work
   until the 406 is resolved.** That is a user decision.
+- **Step 4 was then done by hand in real Chrome (2026-10-26), at the user's request.**
+  Playwright drove the installed Google Chrome in a visible window through eight NC
+  Composite list pages: 2024, 2025 and 2026 football (pages 1–2 each) and 2025 and 2026
+  basketball (page 1 each). Every page returned HTTP 200. **All 20 shipped ranks match
+  exactly**, national and state, and so do all 20 profile URLs once the
+  `high-school-<id>/` suffix is removed. Bryce Slay is still listed at United Faith
+  Christian Academy (national 328, NC 16), so he stays held back. The reverse-sweep leads
+  in the source files are also still listed (Jamal Rule, Jack Larsen, Nick Segarra, Charlie
+  Smith). Nothing on 247 has changed since planning.
 - **`check:chrome` does not list new keys as "awaiting translation".** It audits
   skip-field promises, not catalog parity for new keys. It passed, but it never reported
   the four `sports.rank*` keys. Phase 2 needs a different completeness check, such as
