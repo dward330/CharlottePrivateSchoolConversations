@@ -203,7 +203,8 @@
       "t": "16",
       "of": "19eb271e",
       "at": [
-        "providence-day:[1].values.carmel-christian"
+        "providence-day:[1].values.carmel-christian",
+        "providence-day:[40].values.providence-day"
       ]
     },
     {
@@ -300,7 +301,8 @@
         "providence-day:[30].values.covenant-day",
         "providence-day:[30].values.hickory-grove-christian",
         "providence-day:[30].values.gaston-day",
-        "providence-day:[34].values.charlotte-christian"
+        "providence-day:[34].values.charlotte-christian",
+        "providence-day:[36].values.charlotte-latin"
       ]
     },
     {
@@ -3030,7 +3032,9 @@
         "providence-day:[34].values.charlotte-latin",
         "providence-day:[34].values.davidson-day",
         "providence-day:[35].values.cannon",
-        "providence-day:[35].values.hickory-grove-christian"
+        "providence-day:[35].values.hickory-grove-christian",
+        "providence-day:[36].values.davidson-day",
+        "providence-day:[40].values.davidson-day"
       ]
     },
     {
@@ -3910,7 +3914,9 @@
       "of": "320ca3f6",
       "at": [
         "providence-day:[30].values.cannon",
-        "providence-day:[30].values.charlotte-latin"
+        "providence-day:[30].values.charlotte-latin",
+        "providence-day:[36].values.charlotte-christian",
+        "providence-day:[38].values.charlotte-latin"
       ]
     },
     {
@@ -3926,7 +3932,10 @@
       "of": "310ca263",
       "at": [
         "providence-day:[30].values.charlotte-catholic",
-        "providence-day:[31].values.charlotte-catholic"
+        "providence-day:[31].values.charlotte-catholic",
+        "providence-day:[36].values.providence-day",
+        "providence-day:[38].values.providence-day",
+        "providence-day:[40].values.cannon"
       ]
     },
     {
@@ -4025,7 +4034,8 @@
       "of": "1aeb28b1",
       "at": [
         "providence-day:[31].values.hickory-grove-christian",
-        "providence-day:[34].values.providence-day"
+        "providence-day:[34].values.providence-day",
+        "providence-day:[40].values.charlotte-christian"
       ]
     },
     {
@@ -4373,7 +4383,9 @@
       "t": "10",
       "of": "1beb2a44",
       "at": [
-        "providence-day:[34].values.charlotte-catholic"
+        "providence-day:[34].values.charlotte-catholic",
+        "providence-day:[36].values.charlotte-country-day",
+        "providence-day:[40].values.charlotte-latin"
       ]
     },
     {
@@ -4381,7 +4393,10 @@
       "of": "350ca8af",
       "at": [
         "providence-day:[34].values.carmel-christian",
-        "providence-day:[34].values.hickory-grove-christian"
+        "providence-day:[34].values.hickory-grove-christian",
+        "providence-day:[38].values.cannon",
+        "providence-day:[38].values.charlotte-christian",
+        "providence-day:[38].values.davidson-day"
       ]
     },
     {
@@ -4462,7 +4477,8 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "providence-day:[35].values.carmel-christian"
+        "providence-day:[35].values.carmel-christian",
+        "providence-day:[38].values.charlotte-country-day"
       ]
     },
     {
@@ -4491,6 +4507,417 @@
       "of": "fdfe26b8",
       "at": [
         "providence-day:[35].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
+      "t": "Viajes al extranjero, 2026–27",
+      "of": "dab25fa4",
+      "at": [
+        "providence-day:[36].label"
+      ]
+    },
+    {
+      "t": "Los viajes e intercambios al extranjero que cada colegio tiene previstos para el curso 2026–27. Debajo, cuántos son de Upper School y cuántos de Middle School.",
+      "of": "6a4fe5a7",
+      "at": [
+        "providence-day:[36].note"
+      ]
+    },
+    {
+      "t": "7 de Upper School",
+      "of": "6b3b55ce",
+      "at": [
+        "providence-day:[36].subs.charlotte-christian"
+      ]
+    },
+    {
+      "t": "4 de Upper School · 6 de Middle School",
+      "of": "b5eb628d",
+      "at": [
+        "providence-day:[36].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "6 de Upper School · 2 de Middle School",
+      "of": "aecc0b1f",
+      "at": [
+        "providence-day:[36].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "3 de Upper School",
+      "of": "c92b43ba",
+      "at": [
+        "providence-day:[36].subs.davidson-day"
+      ]
+    },
+    {
+      "t": "3 de Upper School · 1 de Middle School",
+      "of": "8422d19b",
+      "at": [
+        "providence-day:[36].subs.providence-day"
+      ]
+    },
+    {
+      "t": "Viajes ofrecidos en el dosier del Winterim 2027: Brasil, Canadá, República Dominicana, Islandia, Italia, México y Portugal. El colegio decide los viajes definitivos según las inscripciones.",
+      "of": "27bd6da5",
+      "at": [
+        "providence-day:[36].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Middle School: ciudad de Quebec, Arequipa (Perú), Southampton, Monteverde (Costa Rica), Francia e Italia. Upper School: Ruanda, Grecia, China y Argentina.",
+      "of": "165df950",
+      "at": [
+        "providence-day:[36].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Upper School: Argentina, Francia, Italia, España y dos programas en Sudáfrica. Middle School: el sur de Inglaterra y Montreal + ciudad de Quebec. Todos en el verano de 2027.",
+      "of": "fb07ea58",
+      "at": [
+        "providence-day:[36].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Excavaciones arqueológicas de AFAR en España, Portugal y Belice, verano de 2027.",
+      "of": "932541b4",
+      "at": [
+        "providence-day:[36].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Japón, Islandia y Francia (una semana de intercambio en Montpellier) para los grados 9–11, y Suiza para los grados 6–8, todos previstos para el verano de 2027.",
+      "of": "f7d842f0",
+      "at": [
+        "providence-day:[36].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "División más joven que viaja al extranjero",
+      "of": "c2f90f0d",
+      "at": [
+        "providence-day:[37].label"
+      ]
+    },
+    {
+      "t": "La división más joven del colegio con un viaje al extranjero en el registro de viajes del colegio. Debajo, los grados, cuando el colegio los indica.",
+      "of": "8db95f52",
+      "at": [
+        "providence-day:[37].note"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "providence-day:[37].values.cannon",
+        "providence-day:[37].values.charlotte-country-day",
+        "providence-day:[37].values.charlotte-latin",
+        "providence-day:[37].values.providence-day"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "providence-day:[37].values.charlotte-christian",
+        "providence-day:[37].values.davidson-day"
+      ]
+    },
+    {
+      "t": "desde 9.º grado",
+      "of": "a0b7339d",
+      "at": [
+        "providence-day:[37].subs.charlotte-christian"
+      ]
+    },
+    {
+      "t": "desde 6.º grado",
+      "of": "1cac88bc",
+      "at": [
+        "providence-day:[37].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "estudiantes que pasan a 7.º–9.º grado",
+      "of": "74ce8362",
+      "at": [
+        "providence-day:[37].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "grados 6–8",
+      "of": "943db2f0",
+      "at": [
+        "providence-day:[37].subs.providence-day"
+      ]
+    },
+    {
+      "t": "Un viaje de Middle School a Costa Rica en el verano de 2026.",
+      "of": "0392da74",
+      "at": [
+        "providence-day:[37].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Todos los viajes al extranjero del Winterim son de Upper School. Algunos están abiertos desde 9.º grado.",
+      "of": "734ae1f3",
+      "at": [
+        "providence-day:[37].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Seis experiencias de Middle School en 2026–27, empezando por un intercambio de 6.º grado con un colegio hermano en la ciudad de Quebec.",
+      "of": "bbbd8454",
+      "at": [
+        "providence-day:[37].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Dos programas de Middle School en el verano de 2027: el sur de Inglaterra y Montreal + ciudad de Quebec.",
+      "of": "88415379",
+      "at": [
+        "providence-day:[37].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Todos los viajes registrados son excavaciones arqueológicas de AFAR que figuran en Upper School. AFAR abre su excavación en España a estudiantes de 8.º a 12.º grado, según AFAR.",
+      "of": "ce8c4812",
+      "at": [
+        "providence-day:[37].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Hay previsto un viaje de Middle School a Suiza para los grados 6–8 en el verano de 2027. Estudiantes de Middle School también fueron a Grecia en 2023–24 y a Inglaterra y Ecuador en 2024–25.",
+      "of": "6a242b3e",
+      "at": [
+        "providence-day:[37].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Viajes con estancia en familia anfitriona",
+      "of": "b6482870",
+      "at": [
+        "providence-day:[38].label"
+      ]
+    },
+    {
+      "t": "Cuántos de los viajes al extranjero del registro de cada colegio incluyen convivir con una familia anfitriona, normalmente en un intercambio con un colegio hermano. Recuento nuestro; debajo, los cursos que abarca cada registro, porque un registro más largo puede sumar más.",
+      "of": "7c574079",
+      "at": [
+        "providence-day:[38].note"
+      ]
+    },
+    {
+      "t": "2 cursos, 2024–26",
+      "of": "b71fbc5e",
+      "at": [
+        "providence-day:[38].subs.cannon",
+        "providence-day:[40].subs.cannon"
+      ]
+    },
+    {
+      "t": "5 cursos, 2022–27",
+      "of": "9c2fa3ba",
+      "at": [
+        "providence-day:[38].subs.charlotte-christian",
+        "providence-day:[38].subs.providence-day",
+        "providence-day:[40].subs.charlotte-christian",
+        "providence-day:[40].subs.providence-day"
+      ]
+    },
+    {
+      "t": "3 cursos, 2022–27",
+      "of": "65e4c9a4",
+      "at": [
+        "providence-day:[38].subs.charlotte-country-day",
+        "providence-day:[40].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "4 cursos, 2022–27",
+      "of": "a125efe5",
+      "at": [
+        "providence-day:[38].subs.charlotte-latin",
+        "providence-day:[40].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "3 cursos, 2023–27",
+      "of": "15c75f7d",
+      "at": [
+        "providence-day:[38].subs.davidson-day",
+        "providence-day:[40].subs.davidson-day"
+      ]
+    },
+    {
+      "t": "Ninguno de los viajes registrados incluye estancia en familia anfitriona.",
+      "of": "00d3236d",
+      "at": [
+        "providence-day:[38].quals.cannon.text",
+        "providence-day:[38].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Ninguno de los viajes del Winterim ofrecidos que constan incluye estancia en familia anfitriona.",
+      "of": "8f60c5a3",
+      "at": [
+        "providence-day:[38].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Familias anfitrionas en la ciudad de Quebec, Arequipa, Southampton y Monteverde (2026–27), y en Sevilla (2023–24).",
+      "of": "a7d4d0bb",
+      "at": [
+        "providence-day:[38].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Familias anfitrionas en Buenos Aires (2022–23 y 2026–27), Burdeos (2024–25 y 2026–27), y Guastalla, Pietermaritzburg y Cádiz (2026–27).",
+      "of": "66006648",
+      "at": [
+        "providence-day:[38].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Familias anfitrionas en Montpellier (2022–23 y 2026–27), Sevilla (2022–23) y Bogotá (2024–25).",
+      "of": "84a19fee",
+      "at": [
+        "providence-day:[38].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Diploma o certificado global",
+      "of": "253525be",
+      "at": [
+        "providence-day:[39].label"
+      ]
+    },
+    {
+      "t": "Una acreditación en estudios globales que un estudiante puede obtener al graduarse, con el nombre que le da el colegio.",
+      "of": "598cb939",
+      "at": [
+        "providence-day:[39].note"
+      ]
+    },
+    {
+      "t": "Global Studies Certificate",
+      "of": "c52e8ef8",
+      "at": [
+        "providence-day:[39].values.cannon"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction",
+      "of": "56372f97",
+      "at": [
+        "providence-day:[39].values.davidson-day"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma",
+      "of": "e821fd65",
+      "at": [
+        "providence-day:[39].values.providence-day"
+      ]
+    },
+    {
+      "t": "desde 2021",
+      "of": "6f05a414",
+      "at": [
+        "providence-day:[39].subs.davidson-day"
+      ]
+    },
+    {
+      "t": "desde 2007",
+      "of": "5d010a90",
+      "at": [
+        "providence-day:[39].subs.providence-day"
+      ]
+    },
+    {
+      "t": "Se entrega en la Senior Night: un curso obligatorio de último año con un proyecto final, cuatro ejes de Mastery Credit y experiencias globales fuera del aula.",
+      "of": "857128f6",
+      "at": [
+        "providence-day:[39].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Una distinción de Upper School: Honors Anthropology, cuatro AP de temática global, un idioma, 100 horas de prácticas y dos años de investigación original.",
+      "of": "8c82cc3c",
+      "at": [
+        "providence-day:[39].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Un segundo diploma opcional para los grados 9–12: asignaturas globales, cuatro años de un mismo idioma, viajar o acoger, y un curso de Global Leadership. Unos 20 estudiantes lo obtienen en una promoción típica.",
+      "of": "a95b6893",
+      "at": [
+        "providence-day:[39].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Países visitados en los viajes",
+      "of": "a14a9e74",
+      "at": [
+        "providence-day:[40].label"
+      ]
+    },
+    {
+      "t": "Nuestro recuento de los distintos países del registro de viajes de cada colegio, contando Inglaterra y Escocia como el Reino Unido. Los registros abarcan años distintos en cada colegio (debajo), así que un registro más largo puede llegar a más países.",
+      "of": "f27a4953",
+      "at": [
+        "providence-day:[40].note"
+      ]
+    },
+    {
+      "t": "21",
+      "of": "8cf297ec",
+      "at": [
+        "providence-day:[40].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "China, Costa Rica, la República Dominicana y Alemania.",
+      "of": "0a1e7462",
+      "at": [
+        "providence-day:[40].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "De los viajes ofrecidos en el Winterim: Austria, Brasil, Canadá, Costa Rica, Cuba, la República Dominicana, Ecuador, Francia, Alemania, Grecia, Islandia, Irlanda, Italia, México, Panamá, Portugal y el Reino Unido.",
+      "of": "ab7b7f6e",
+      "at": [
+        "providence-day:[40].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Argentina, Canadá, China, Costa Rica, Dinamarca, Francia, Alemania, Grecia, Islandia, Italia, Japón, Marruecos, Nueva Zelanda, Omán, Perú, Polonia, Ruanda, España, Suecia, los Emiratos Árabes Unidos y el Reino Unido. El recuento propio del colegio es de 27 países desde 2015.",
+      "of": "220203e9",
+      "at": [
+        "providence-day:[40].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Argentina, Bélgica, Canadá, Francia, Alemania, Italia, los Países Bajos, Sudáfrica, España y el Reino Unido.",
+      "of": "c959938b",
+      "at": [
+        "providence-day:[40].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Belice, Portugal y España.",
+      "of": "13e3b282",
+      "at": [
+        "providence-day:[40].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Colombia, Dinamarca, Ecuador, Francia, Grecia, Islandia, Japón, Kenia, Sudáfrica, Corea del Sur, España, Suecia, Suiza, Tailandia, los Emiratos Árabes Unidos y el Reino Unido.",
+      "of": "9ffc5f69",
+      "at": [
+        "providence-day:[40].quals.providence-day.text"
       ]
     }
   ]

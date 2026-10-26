@@ -271,7 +271,9 @@ outcome, so the floor is "at least as good as our thinnest shipped school," not 
 round number. `npm run coverage:floor` recomputes it — **run it, do not transcribe these
 numbers.** The area denominator moved from 8 to 9 when Admissions shipped, and it will move
 again; the script reads the live data, this paragraph does not. The Compare-row total
-moves the same way (30 → 36 on 2026-10-05).
+moves the same way (30 → 36 on 2026-10-05). The five Global Exposure Compare rows
+(2026-10-26) are excluded from the floor by `FLOOR_EXCLUDED_TOPICS` in
+`coverage_floor.mjs`. A candidate is never gated on Global Exposure research.
 
 **The six Top 6 NC admit-rate rows exist only for NC high schools.** They come from the UNC
 System dashboard, which covers NC schools alone, so an out-of-state candidate (Fort Mill,

@@ -44,11 +44,21 @@ function readManifest() {
   return { schools, topics, docs }
 }
 
-/** Pull each VALUE_METRICS row's `values:{…}` block by brace-matching. */
+/**
+ * Compare-row topics left out of the floor. The user decided 2026-10-26 (plan
+ * `globalcompare`) that the five Global Exposure rows do not count toward the
+ * /add-school bar: the area is built by its own /global-exposure skill, and
+ * counting it would make Hickory Grove 27/41 the floor and gate every candidate
+ * on Global Exposure research.
+ */
+const FLOOR_EXCLUDED_TOPICS = new Set(['international-travel'])
+
+/** Pull each VALUE_METRICS row's `values:{…}` block by brace-matching. Every row
+ *  writes `topic: '…'` immediately before `key: '…'`. */
 function readMetricRows() {
   const src = readFileSync(join(ROOT, 'src/data/metricValues.ts'), 'utf8')
   const rows = []
-  for (const m of src.matchAll(/key:\s*'([^']+)'/g)) {
+  for (const m of src.matchAll(/topic:\s*'([^']+)',\s*key:\s*'([^']+)'/g)) {
     const after = src.slice(m.index)
     const vm = /values:\s*\{/.exec(after)
     if (!vm) continue
@@ -57,7 +67,7 @@ function readMetricRows() {
     for (let i = start; i < src.length; i++) {
       if (src[i] === '{') depth++
       else if (src[i] === '}') {
-        if (--depth === 0) { rows.push({ key: m[1], body: src.slice(start, i + 1) }); break }
+        if (--depth === 0) { rows.push({ topic: m[1], key: m[2], body: src.slice(start, i + 1) }); break }
       }
     }
   }
@@ -65,7 +75,9 @@ function readMetricRows() {
 }
 
 const { schools, topics, docs } = readManifest()
-const rows = readMetricRows()
+const allRows = readMetricRows()
+const floorExcluded = allRows.filter((r) => FLOOR_EXCLUDED_TOPICS.has(r.topic))
+const rows = allRows.filter((r) => !FLOOR_EXCLUDED_TOPICS.has(r.topic))
 if (!rows.length) { console.error('coverage_floor: parsed 0 Compare rows — metricValues.ts shape changed?'); process.exit(1) }
 
 const report = schools.map(({ slug, name }) => {
@@ -118,6 +130,9 @@ if (asJson) {
   console.log(`\nThe /add-school bar (inclusive): a candidate needs >= ${floor.value}/${floor.rows} Compare rows`)
   console.log(`and >= ${floor.areas}/${floor.topics} research areas to match our thinnest shipped school.`)
   console.log(`\nCount in ROWS, not percentages — each row moves the figure ~${(100 / rows.length).toFixed(1)} points.`)
+  if (floorExcluded.length) {
+    console.log(`\nNot counted (FLOOR_EXCLUDED_TOPICS): ${floorExcluded.length} ${[...FLOOR_EXCLUDED_TOPICS].join(', ')} rows — ${floorExcluded.map((r) => r.key).join(', ')}.`)
+  }
   if (excluded.length) {
     console.log(`\nExcluded from the floor: ${excluded.map((r) => `${r.name} (${r.areas}/${r.topics} areas)`).join(', ')}`)
     console.log(`— no grades 9-12, so no Compare rows are expected. For these schools the gate is`)

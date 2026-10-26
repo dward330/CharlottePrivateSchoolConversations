@@ -1009,6 +1009,16 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `advanced-courses` | AP / advanced courses | 11/13 | Q |
 | `us-departments` | Upper School departments | 11/13 | Q |
 
+### Global Exposure `international-travel`
+
+| Row key | Label | Coverage | Flags |
+|---|---|--:|---|
+| `travel-trips` | Trips abroad, 2026–27 | 5/13 | Q C sub |
+| `travel-youngest-division` | Youngest division that travels abroad | 6/13 | – Q C sub |
+| `travel-homestays` | Trips with a host-family stay | 6/13 | Q C sub |
+| `travel-credential` | Global diploma or certificate | 3/13 | – Q C sub |
+| `travel-countries` | Countries reached by trips | 6/13 | Q C sub |
+
 ### Student Clubs `student-clubs`
 
 | Row key | Label | Coverage | Flags |
@@ -1077,7 +1087,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `aid-awarded` | Aid awarded / year | 3/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 36 Compare rows across 8 research areas.
+**Total:** 41 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 
@@ -1266,7 +1276,7 @@ counted as gaps in its coverage.
 **The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the
 Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,
 the Compare topic list (`comparableTopics`, same file; it also drops the editorially
-deferred `COMPARE_DEFERRED_TOPICS`, today International Travel) — and nothing else
+deferred `COMPARE_DEFERRED_TOPICS`, today only Learning Support) — and nothing else
 automatically. Every rule below is a research and authoring decision.
 
 **K-8 schools today (2):** `trinity-episcopal`, `charlotte-prep`
@@ -1277,7 +1287,7 @@ automatically. Every rule below is a research and authoring decision.
 |---|---|---|
 | Research areas | up to 11 of 12 | **up to 11 of 12** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
-| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. International Travel is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, 2026-10-11), not a data absence |
+| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, the only entry since International Travel joined Compare 2026-10-26), not a data absence |
 | Sports cards | up to 7 | **up to 3** — the 4 college-bound ones do not apply |
 | College Support | 7 cards | **none** |
 | High School Placement | none | **up to 4 cards** |

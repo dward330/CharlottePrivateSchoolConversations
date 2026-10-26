@@ -316,7 +316,7 @@ School Conversations* that walks a parent through **how to actually apply** to o
 
 **Get a school's Global Exposure research from Claude deep research into a verified `/plan`.**
 
-`.claude/skills/global-exposure/SKILL.md` · added 2026-10-12 · updated 2026-10-13 · supporting file:
+`.claude/skills/global-exposure/SKILL.md` · added 2026-10-12 · updated 2026-10-26 · supporting file:
 `prompt-template.md` (the deep-research prompt, with `{{PLACEHOLDERS}}`)
 
 The repeatable form of how Charlotte Country Day's section was planned (`ccdglobal`).
@@ -337,6 +337,10 @@ with the user's approval.
 > **⚠️ "Could not load" from deep research is a reason to retry, never a finding.**
 > Country Day's Middle School travel page was reported unloadable. It loaded at once and
 > held the area's richest data.
+
+> **📊 A new school fills five Compare cells too** (since 2026-10-26). The `/plan` brief
+> requires its `travel-*` rows in `metricValues.ts`, each with a tooltip; `check:travelrows`
+> re-derives them from the ledger and fails the build until they match.
 
 > **📏 The bar is Country Day's depth.** Every trip carries grade, group size, selection,
 > season and homestay where the school publishes them; `community` needs ≥3 verified cells

@@ -101,7 +101,9 @@ The row total moves too (30 → 36 when the six Top 6 NC admit-rate rows shipped
 2026-10-05), so read it from the script like the area count. Those six rows exist only for
 NC high schools — the UNC System dashboard covers no other state — so an out-of-state
 candidate (a Fort Mill, SC school, say) scores 0/6 on them and should be judged against
-the other 30.
+the other 30. The five Global Exposure Compare rows (2026-10-26) are excluded from the
+floor by `FLOOR_EXCLUDED_TOPICS` in `coverage_floor.mjs`. A candidate is never gated on
+Global Exposure research.
 
 **Never transcribe the area denominator into this file or the skill — read it from the
 script.** It has moved twice and both documents went quietly stale both times: Admissions

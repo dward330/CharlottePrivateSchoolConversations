@@ -203,7 +203,8 @@
       "t": "16",
       "of": "19eb271e",
       "at": [
-        "providence-day:[1].values.carmel-christian"
+        "providence-day:[1].values.carmel-christian",
+        "providence-day:[40].values.providence-day"
       ]
     },
     {
@@ -300,7 +301,8 @@
         "providence-day:[30].values.covenant-day",
         "providence-day:[30].values.hickory-grove-christian",
         "providence-day:[30].values.gaston-day",
-        "providence-day:[34].values.charlotte-christian"
+        "providence-day:[34].values.charlotte-christian",
+        "providence-day:[36].values.charlotte-latin"
       ]
     },
     {
@@ -3030,7 +3032,9 @@
         "providence-day:[34].values.charlotte-latin",
         "providence-day:[34].values.davidson-day",
         "providence-day:[35].values.cannon",
-        "providence-day:[35].values.hickory-grove-christian"
+        "providence-day:[35].values.hickory-grove-christian",
+        "providence-day:[36].values.davidson-day",
+        "providence-day:[40].values.davidson-day"
       ]
     },
     {
@@ -3910,7 +3914,9 @@
       "of": "320ca3f6",
       "at": [
         "providence-day:[30].values.cannon",
-        "providence-day:[30].values.charlotte-latin"
+        "providence-day:[30].values.charlotte-latin",
+        "providence-day:[36].values.charlotte-christian",
+        "providence-day:[38].values.charlotte-latin"
       ]
     },
     {
@@ -3926,7 +3932,10 @@
       "of": "310ca263",
       "at": [
         "providence-day:[30].values.charlotte-catholic",
-        "providence-day:[31].values.charlotte-catholic"
+        "providence-day:[31].values.charlotte-catholic",
+        "providence-day:[36].values.providence-day",
+        "providence-day:[38].values.providence-day",
+        "providence-day:[40].values.cannon"
       ]
     },
     {
@@ -4025,7 +4034,8 @@
       "of": "1aeb28b1",
       "at": [
         "providence-day:[31].values.hickory-grove-christian",
-        "providence-day:[34].values.providence-day"
+        "providence-day:[34].values.providence-day",
+        "providence-day:[40].values.charlotte-christian"
       ]
     },
     {
@@ -4373,7 +4383,9 @@
       "t": "10",
       "of": "1beb2a44",
       "at": [
-        "providence-day:[34].values.charlotte-catholic"
+        "providence-day:[34].values.charlotte-catholic",
+        "providence-day:[36].values.charlotte-country-day",
+        "providence-day:[40].values.charlotte-latin"
       ]
     },
     {
@@ -4381,7 +4393,10 @@
       "of": "350ca8af",
       "at": [
         "providence-day:[34].values.carmel-christian",
-        "providence-day:[34].values.hickory-grove-christian"
+        "providence-day:[34].values.hickory-grove-christian",
+        "providence-day:[38].values.cannon",
+        "providence-day:[38].values.charlotte-christian",
+        "providence-day:[38].values.davidson-day"
       ]
     },
     {
@@ -4462,7 +4477,8 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "providence-day:[35].values.carmel-christian"
+        "providence-day:[35].values.carmel-christian",
+        "providence-day:[38].values.charlotte-country-day"
       ]
     },
     {
@@ -4491,6 +4507,417 @@
       "of": "fdfe26b8",
       "at": [
         "providence-day:[35].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
+      "t": "الرحلات إلى الخارج، 2026–27",
+      "of": "dab25fa4",
+      "at": [
+        "providence-day:[36].label"
+      ]
+    },
+    {
+      "t": "رحلات كل مدرسة وتبادلاتها في الخارج المدرجة للعام الدراسي 2026–27. في الأسفل، عدد ما يخص Upper School وعدد ما يخص Middle School.",
+      "of": "6a4fe5a7",
+      "at": [
+        "providence-day:[36].note"
+      ]
+    },
+    {
+      "t": "7 في Upper School",
+      "of": "6b3b55ce",
+      "at": [
+        "providence-day:[36].subs.charlotte-christian"
+      ]
+    },
+    {
+      "t": "4 في Upper School · 6 في Middle School",
+      "of": "b5eb628d",
+      "at": [
+        "providence-day:[36].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "6 في Upper School · 2 في Middle School",
+      "of": "aecc0b1f",
+      "at": [
+        "providence-day:[36].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "3 في Upper School",
+      "of": "c92b43ba",
+      "at": [
+        "providence-day:[36].subs.davidson-day"
+      ]
+    },
+    {
+      "t": "3 في Upper School · 1 في Middle School",
+      "of": "8422d19b",
+      "at": [
+        "providence-day:[36].subs.providence-day"
+      ]
+    },
+    {
+      "t": "الرحلات المعروضة في كتيّب Winterim 2027: البرازيل وكندا وجمهورية الدومينيكان وآيسلندا وإيطاليا والمكسيك والبرتغال. تحدّد المدرسة الرحلات النهائية بحسب التسجيل.",
+      "of": "27bd6da5",
+      "at": [
+        "providence-day:[36].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Middle School: مدينة كيبيك، وأريكيبا (بيرو)، وساوثهامبتون، ومونتيفيردي (كوستاريكا)، وفرنسا وإيطاليا. Upper School: رواندا واليونان والصين والأرجنتين.",
+      "of": "165df950",
+      "at": [
+        "providence-day:[36].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Upper School: الأرجنتين وفرنسا وإيطاليا وإسبانيا وبرنامجان في جنوب أفريقيا. Middle School: جنوب إنجلترا ومونتريال + مدينة كيبيك. جميعها في صيف 2027.",
+      "of": "fb07ea58",
+      "at": [
+        "providence-day:[36].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "عمليات تنقيب أثري مع AFAR في إسبانيا والبرتغال وبليز، صيف 2027.",
+      "of": "932541b4",
+      "at": [
+        "providence-day:[36].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "اليابان وآيسلندا وفرنسا (أسبوع تبادل في مونبلييه) للصفوف 9–11، وسويسرا للصفوف 6–8، وجميعها مخطَّط لها في صيف 2027.",
+      "of": "f7d842f0",
+      "at": [
+        "providence-day:[36].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "أصغر قسم يسافر إلى الخارج",
+      "of": "c2f90f0d",
+      "at": [
+        "providence-day:[37].label"
+      ]
+    },
+    {
+      "t": "أصغر أقسام المدرسة الذي لديه رحلة إلى الخارج في سجل رحلات المدرسة. في الأسفل، الصفوف حيث تذكرها المدرسة.",
+      "of": "8db95f52",
+      "at": [
+        "providence-day:[37].note"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "providence-day:[37].values.cannon",
+        "providence-day:[37].values.charlotte-country-day",
+        "providence-day:[37].values.charlotte-latin",
+        "providence-day:[37].values.providence-day"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "providence-day:[37].values.charlotte-christian",
+        "providence-day:[37].values.davidson-day"
+      ]
+    },
+    {
+      "t": "بدءًا من الصف التاسع",
+      "of": "a0b7339d",
+      "at": [
+        "providence-day:[37].subs.charlotte-christian"
+      ]
+    },
+    {
+      "t": "بدءًا من الصف السادس",
+      "of": "1cac88bc",
+      "at": [
+        "providence-day:[37].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "الطلاب المنتقلون إلى الصفوف 7–9",
+      "of": "74ce8362",
+      "at": [
+        "providence-day:[37].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "الصفوف 6–8",
+      "of": "943db2f0",
+      "at": [
+        "providence-day:[37].subs.providence-day"
+      ]
+    },
+    {
+      "t": "رحلة لـMiddle School إلى كوستاريكا في صيف 2026.",
+      "of": "0392da74",
+      "at": [
+        "providence-day:[37].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "جميع رحلات Winterim إلى الخارج تخص Upper School. بعضها متاح بدءًا من الصف التاسع.",
+      "of": "734ae1f3",
+      "at": [
+        "providence-day:[37].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "ست تجارب لـMiddle School في 2026–27، أولها تبادل للصف السادس مع مدرسة شقيقة في مدينة كيبيك.",
+      "of": "bbbd8454",
+      "at": [
+        "providence-day:[37].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "برنامجان لـMiddle School في صيف 2027: جنوب إنجلترا ومونتريال + مدينة كيبيك.",
+      "of": "88415379",
+      "at": [
+        "providence-day:[37].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "كل الرحلات المسجّلة عمليات تنقيب أثري مع AFAR مدرجة ضمن Upper School. وتفتح AFAR تنقيبها في إسبانيا لطلاب الصفوف 8–12، بحسب AFAR.",
+      "of": "ce8c4812",
+      "at": [
+        "providence-day:[37].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "رحلة لـMiddle School إلى سويسرا للصفوف 6–8 مخطَّط لها في صيف 2027. كما سافر طلاب Middle School إلى اليونان في 2023–24 وإلى إنجلترا والإكوادور في 2024–25.",
+      "of": "6a242b3e",
+      "at": [
+        "providence-day:[37].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "رحلات تتضمن الإقامة لدى أسرة مضيفة",
+      "of": "b6482870",
+      "at": [
+        "providence-day:[38].label"
+      ]
+    },
+    {
+      "t": "كم من الرحلات إلى الخارج في سجل كل مدرسة يتضمن العيش لدى أسرة مضيفة، وغالبًا في تبادل مع مدرسة شقيقة. هذا عدّنا؛ وفي الأسفل السنوات التي يغطيها كل سجل، لأن السجل الأطول قد يحصي أكثر.",
+      "of": "7c574079",
+      "at": [
+        "providence-day:[38].note"
+      ]
+    },
+    {
+      "t": "عامان دراسيان، 2024–26",
+      "of": "b71fbc5e",
+      "at": [
+        "providence-day:[38].subs.cannon",
+        "providence-day:[40].subs.cannon"
+      ]
+    },
+    {
+      "t": "5 أعوام دراسية، 2022–27",
+      "of": "9c2fa3ba",
+      "at": [
+        "providence-day:[38].subs.charlotte-christian",
+        "providence-day:[38].subs.providence-day",
+        "providence-day:[40].subs.charlotte-christian",
+        "providence-day:[40].subs.providence-day"
+      ]
+    },
+    {
+      "t": "3 أعوام دراسية، 2022–27",
+      "of": "65e4c9a4",
+      "at": [
+        "providence-day:[38].subs.charlotte-country-day",
+        "providence-day:[40].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "4 أعوام دراسية، 2022–27",
+      "of": "a125efe5",
+      "at": [
+        "providence-day:[38].subs.charlotte-latin",
+        "providence-day:[40].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "3 أعوام دراسية، 2023–27",
+      "of": "15c75f7d",
+      "at": [
+        "providence-day:[38].subs.davidson-day",
+        "providence-day:[40].subs.davidson-day"
+      ]
+    },
+    {
+      "t": "لا تتضمن أي من الرحلات المسجّلة إقامة لدى أسرة مضيفة.",
+      "of": "00d3236d",
+      "at": [
+        "providence-day:[38].quals.cannon.text",
+        "providence-day:[38].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "لا تتضمن أي من رحلات Winterim المعروضة في السجل إقامة لدى أسرة مضيفة.",
+      "of": "8f60c5a3",
+      "at": [
+        "providence-day:[38].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "أسر مضيفة في مدينة كيبيك وأريكيبا وساوثهامبتون ومونتيفيردي (2026–27)، وفي إشبيلية (2023–24).",
+      "of": "a7d4d0bb",
+      "at": [
+        "providence-day:[38].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "أسر مضيفة في بوينس آيرس (2022–23 و2026–27)، وبوردو (2024–25 و2026–27)، وغواستالا وبيترماريتسبورغ وقادس (2026–27).",
+      "of": "66006648",
+      "at": [
+        "providence-day:[38].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "أسر مضيفة في مونبلييه (2022–23 و2026–27)، وإشبيلية (2022–23)، وبوغوتا (2024–25).",
+      "of": "84a19fee",
+      "at": [
+        "providence-day:[38].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "شهادة أو دبلوم عالمي",
+      "of": "253525be",
+      "at": [
+        "providence-day:[39].label"
+      ]
+    },
+    {
+      "t": "مؤهل في الدراسات العالمية يمكن للطالب نيله بحلول التخرج، بالاسم الذي تطلقه عليه المدرسة.",
+      "of": "598cb939",
+      "at": [
+        "providence-day:[39].note"
+      ]
+    },
+    {
+      "t": "Global Studies Certificate",
+      "of": "c52e8ef8",
+      "at": [
+        "providence-day:[39].values.cannon"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma Distinction",
+      "of": "56372f97",
+      "at": [
+        "providence-day:[39].values.davidson-day"
+      ]
+    },
+    {
+      "t": "Global Studies Diploma",
+      "of": "e821fd65",
+      "at": [
+        "providence-day:[39].values.providence-day"
+      ]
+    },
+    {
+      "t": "منذ 2021",
+      "of": "6f05a414",
+      "at": [
+        "providence-day:[39].subs.davidson-day"
+      ]
+    },
+    {
+      "t": "منذ 2007",
+      "of": "5d010a90",
+      "at": [
+        "providence-day:[39].subs.providence-day"
+      ]
+    },
+    {
+      "t": "تُمنح في Senior Night: مقرّر إلزامي في السنة الأخيرة مع مشروع ختامي، وأربعة مسارات في Mastery Credit، وتجارب عالمية خارج الفصل الدراسي.",
+      "of": "857128f6",
+      "at": [
+        "providence-day:[39].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "تميّز في Upper School: Honors Anthropology، وأربعة مقرّرات AP ذات طابع عالمي، ولغة، وتدريب عملي من 100 ساعة، وعامان من البحث الأصيل.",
+      "of": "8c82cc3c",
+      "at": [
+        "providence-day:[39].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "شهادة ثانية اختيارية للصفوف 9–12: مقرّرات ذات طابع عالمي، وأربع سنوات من لغة واحدة، والسفر أو الاستضافة، ومقرّر Global Leadership. ينالها نحو 20 طالبًا في الدفعة المعتادة.",
+      "of": "a95b6893",
+      "at": [
+        "providence-day:[39].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "الدول التي وصلت إليها الرحلات",
+      "of": "a14a9e74",
+      "at": [
+        "providence-day:[40].label"
+      ]
+    },
+    {
+      "t": "عدّنا للدول المختلفة في سجل رحلات كل مدرسة، مع احتساب إنجلترا واسكتلندا على أنهما المملكة المتحدة. تغطي السجلات سنوات مختلفة في المدارس المختلفة (في الأسفل)، لذا قد يصل السجل الأطول إلى دول أكثر.",
+      "of": "f27a4953",
+      "at": [
+        "providence-day:[40].note"
+      ]
+    },
+    {
+      "t": "21",
+      "of": "8cf297ec",
+      "at": [
+        "providence-day:[40].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "الصين وكوستاريكا وجمهورية الدومينيكان وألمانيا.",
+      "of": "0a1e7462",
+      "at": [
+        "providence-day:[40].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "من رحلات Winterim المعروضة: النمسا والبرازيل وكندا وكوستاريكا وكوبا وجمهورية الدومينيكان والإكوادور وفرنسا وألمانيا واليونان وآيسلندا وأيرلندا وإيطاليا والمكسيك وبنما والبرتغال والمملكة المتحدة.",
+      "of": "ab7b7f6e",
+      "at": [
+        "providence-day:[40].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "الأرجنتين وكندا والصين وكوستاريكا والدنمارك وفرنسا وألمانيا واليونان وآيسلندا وإيطاليا واليابان والمغرب ونيوزيلندا وعُمان وبيرو وبولندا ورواندا وإسبانيا والسويد والإمارات العربية المتحدة والمملكة المتحدة. أما عدّ المدرسة نفسها فهو 27 دولة منذ 2015.",
+      "of": "220203e9",
+      "at": [
+        "providence-day:[40].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "الأرجنتين وبلجيكا وكندا وفرنسا وألمانيا وإيطاليا وهولندا وجنوب أفريقيا وإسبانيا والمملكة المتحدة.",
+      "of": "c959938b",
+      "at": [
+        "providence-day:[40].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "بليز والبرتغال وإسبانيا.",
+      "of": "13e3b282",
+      "at": [
+        "providence-day:[40].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "كولومبيا والدنمارك والإكوادور وفرنسا واليونان وآيسلندا واليابان وكينيا وجنوب أفريقيا وكوريا الجنوبية وإسبانيا والسويد وسويسرا وتايلاند والإمارات العربية المتحدة والمملكة المتحدة.",
+      "of": "9ffc5f69",
+      "at": [
+        "providence-day:[40].quals.providence-day.text"
       ]
     }
   ]

@@ -90,16 +90,15 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
 /**
  * Research areas deliberately kept OFF Compare even though a comparable school
  * holds them — an EDITORIAL deferral, distinct from the derived PreK-8
- * exclusion below. International Travel was added 2026-10-11 with only
- * Providence Day researched, and the user deferred Compare for it ("We don't
- * need to add international travel as a compare topic yet"). It is filtered out
- * of `comparableTopics` (pills, home grid, Compare meta description) and gates
- * the dossier's "Compare on …" button. When Compare is wanted, delete the entry.
+ * exclusion below. Learning Support & Student Services joined 2026-10-20
+ * (Hickory Grove only) and the user deferred Compare for it ("lets not include
+ * the compare tool/button just yet"). It is filtered out of `comparableTopics`
+ * (pills, home grid, Compare meta description) and gates the dossier's
+ * "Compare on …" button. When Compare is wanted, delete the entry.
  */
-// Learning Support & Student Services joined 2026-10-20 (Hickory Grove only),
-// deferred the same way: "lets not include the compare tool/button just yet".
+// International Travel was deferred the same way 2026-10-11 and moved onto
+// Compare 2026-10-26 (plan `globalcompare`).
 export const COMPARE_DEFERRED_TOPICS: ReadonlySet<string> = new Set([
-  'international-travel',
   'learning-support',
 ])
 

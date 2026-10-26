@@ -227,6 +227,14 @@ The plan must be **two-phase** (English first, then the nine locales), and must 
 work files for the new school rather than re-extracting
 (memory `splice-not-reextract-for-new-school`).
 
+The area is on Compare (since 2026-10-26, plan `globalcompare`), so the brief must also say:
+the plan **must fill the school's five `travel-*` Compare cells in
+`src/data/metricValues.ts`, each with a `quals` tooltip** (trips abroad this school year,
+youngest division, host-family stays, credential, countries reached). `npm run
+check:travelrows` derives every figure from the ledger and fails the build until they
+match, and fails on any destination not yet classified as a country or domestic. Its Phase
+2 therefore also touches the `metric-values` overlays, not only `international-travel`.
+
 `/plan` asks for the plan name and ends with the `/implement <name>` handoff. This skill
 ends there too. **Do not commit** the source files; `/implement` commits them on its
 branch.
