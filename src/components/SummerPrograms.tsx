@@ -28,6 +28,7 @@
 
 import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
+import { visibleFlags } from '../lib/toVerify.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 import { PhotoViewer, PhotoZoomButton } from './PhotoViewer.tsx'
@@ -86,16 +87,18 @@ const FLAG_LABEL_KEY: Record<SuFlagKind, string> = {
 /**
  * Evidence qualifiers: TO VERIFY / EST. / PUBLICATION GAP / STALE.
  *
- * All of these render. In this area the qualifier IS parent-facing content:
+ * All of these render except TO VERIFY, which is dev-only (see
+ * `lib/toVerify.ts`). In this area the qualifier IS parent-facing content:
  * "this school does not publish its camp rates" is decision-relevant on its own,
  * and summer pricing is published far less consistently than tuition.
  */
 function Flags({ flags }: { flags: SuFlag[] }) {
   const { t } = useTranslation()
-  if (flags.length === 0) return null
+  const shown = visibleFlags(flags)
+  if (shown.length === 0) return null
   return (
     <>
-      {flags.map((f) => (
+      {shown.map((f) => (
         <p key={f.text} className="as-flag text-muted">
           <span className="as-flag-tag tag-neutral">
             {f.label ?? t(FLAG_LABEL_KEY[f.kind])}

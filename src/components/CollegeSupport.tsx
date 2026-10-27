@@ -19,6 +19,7 @@
 
 import { useMemo, useState } from 'react'
 import { localizeMoneyText } from '../lib/format.ts'
+import { SHOW_TO_VERIFY, visibleFlags } from '../lib/toVerify.ts'
 import { schoolInquiryMailto } from '../lib/contact.ts'
 import type {
   Counseling,
@@ -66,7 +67,8 @@ const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
  * Evidence qualifiers: TO VERIFY / DISCREPANCY / PUBLICATION GAP.
  *
  * Unlike the Student Clubs cards — where GAP and COUNT flags are filtered out at
- * render as research bookkeeping — these all render. In College Support the
+ * render as research bookkeeping — these render, except TO VERIFY, which is
+ * dev-only (see `lib/toVerify.ts`). In College Support the
  * qualifier IS the parent-facing content: whether a school publishes its
  * counseling guarantees, and whether its own sources agree on a National Merit
  * count, is exactly the kind of thing a parent is deciding on. The handoff makes
@@ -75,10 +77,11 @@ const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
  */
 function Flags({ flags }: { flags: CsFlag[] }) {
   const { t } = useTranslation()
-  if (flags.length === 0) return null
+  const shown = visibleFlags(flags)
+  if (shown.length === 0) return null
   return (
     <>
-      {flags.map((f, i) => (
+      {shown.map((f, i) => (
         <div key={i} className="cs-flag">
           <span className="tag-neutral cs-flag-tag">
             {f.label ?? t(FLAG_LABEL_KEY[f.kind])}
@@ -357,7 +360,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                       <td className="cs-td cs-td-year">{m.year}</td>
                       <td className="cs-td">
                         <RichText text={m.detail} />
-                        {m.unconfirmed && (
+                        {m.unconfirmed && SHOW_TO_VERIFY && (
                           <span className="tag-neutral cs-inline-tag">{tr('cardLabels.toVerify')}</span>
                         )}
                       </td>

@@ -35,6 +35,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
+import { visibleFlags } from '../lib/toVerify.ts'
 import type {
   CsFlag,
   CsFlagKind,
@@ -77,10 +78,11 @@ const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
 
 function Flags({ flags }: { flags: CsFlag[] }) {
   const { t } = useTranslation()
-  if (flags.length === 0) return null
+  const shown = visibleFlags(flags)
+  if (shown.length === 0) return null
   return (
     <>
-      {flags.map((f, i) => (
+      {shown.map((f, i) => (
         <div key={i} className="cs-flag">
           <span className="tag-neutral cs-flag-tag">
             {f.label ?? t(FLAG_LABEL_KEY[f.kind])}
