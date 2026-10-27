@@ -3696,20 +3696,20 @@
       "t": "দলের কারও কর্মকাল, আগের কর্মস্থল বা পেশাগত পটভূমি প্রকাশ করা হয় না, আর কলেজ কাউন্সেলিং পাতায় কারও পরিচিতিও নেই। প্রতিনিধিদের আসার সংখ্যা বা কাউন্সেলরদের ক্যাম্পাস পরিদর্শনের সংখ্যা — কোনোটিই প্রকাশিত নয়।"
     },
     {
-      "text": "409 acceptances for 94 graduates, and 99% of graduates go on to a four-year college — but only about a sixth of the accepting institutions actually enrolled anyone.",
-      "of": "fd604a93",
+      "text": "409 acceptances for 94 graduates, and 99% of graduates go on to a four-year college.",
+      "of": "b397ce13",
       "at": [
         "charlotte-christian:outcomes.headline"
       ],
-      "t": "94 জন গ্র্যাজুয়েটের জন্য 409টি ভর্তির সুযোগ, আর 99% গ্র্যাজুয়েট চার বছরের কলেজে যান — তবে সুযোগ দেওয়া প্রতিষ্ঠানগুলোর মাত্র ছয় ভাগের এক ভাগে আসলে কেউ ভর্তি হয়েছেন।"
+      "t": "94 জন গ্র্যাজুয়েটের জন্য 409টি ভর্তির সুযোগ, আর 99% গ্র্যাজুয়েট চার বছরের কলেজে যান।"
     },
     {
-      "text": "Charlotte Christian is the only school here that gives Christian colleges and HBCUs their own named tiers, and 14% of recent graduates attend a Christian college.",
-      "of": "c20561b5",
+      "text": "14% of recent graduates attend a Christian college.",
+      "of": "9ae8c63c",
       "at": [
         "charlotte-christian:outcomes.subhead"
       ],
-      "t": "এখানে একমাত্র Charlotte Christian-ই খ্রিষ্টীয় কলেজ ও HBCU-কে নিজস্ব আলাদা স্তর হিসেবে নাম দিয়ে দেখায়, আর সাম্প্রতিক গ্র্যাজুয়েটদের 14% খ্রিষ্টীয় কলেজে পড়েন।"
+      "t": "সাম্প্রতিক গ্র্যাজুয়েটদের 14% খ্রিষ্টীয় কলেজে পড়েন।"
     },
     {
       "text": "99%",
@@ -3831,14 +3831,6 @@
         "charlotte-christian:outcomes.scholarships[4]"
       ],
       "t": "Florida State, Wake Forest, Kentucky-তে ক্রীড়া পুরস্কার"
-    },
-    {
-      "text": "The Class of 2025 total is printed in the school’s own Celebrating Seniors booklet as “$6,400,00” — a digit is missing, and the school’s website renders the same figure as “more than $6.4 million”, which is used here. Publishing roughly ninety individually named awards is unusually granular. Morehead-Cain, QuestBridge and ROTC outcomes are not published, and no federal service academy appears on either list.",
-      "of": "dadd8b4c",
-      "at": [
-        "charlotte-christian:outcomes.scholarshipsNote"
-      ],
-      "t": "Class of 2025-এর মোট অঙ্কটি স্কুলের নিজের Celebrating Seniors পুস্তিকায় ছাপা হয়েছে “$6,400,00” হিসেবে — একটি অঙ্ক বাদ পড়েছে; আর স্কুলের ওয়েবসাইটে একই সংখ্যা লেখা আছে “$6.4 মিলিয়নের বেশি”, এখানে সেটিই ব্যবহার করা হয়েছে। একটিমাত্র ব্যাচের জন্য নাম ধরে ধরে প্রায় নব্বইটি পুরস্কার প্রকাশ করা অস্বাভাবিক রকমের বিস্তারিত। Morehead-Cain, QuestBridge ও ROTC-র ফল প্রকাশ করা হয় না, আর কোনো তালিকাতেই কোনো ফেডারেল সার্ভিস অ্যাকাডেমি নেই।"
     },
     {
       "text": "The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each January.",
@@ -6614,14 +6606,6 @@
         "charlotte-country-day:outcomes.scholarshipsNote"
       ],
       "t": "“34 জন Morehead-Cain প্রাপক” সংখ্যাটি সাবধানে পড়ুন: College Counseling-এর মূল পাতায় এটি Class of 2026-এর পরিসংখ্যানের পাশেই দেখানো হয়, অথচ Class of 2026 থেকে Morehead-Cain Scholar হয়েছেন ঠিক একজন। 34 আসলে সর্বকালের ক্রমযোজিত হিসাব, যার সময়সীমা স্কুল কখনও বলে না। Robertson Scholars ও NC State Park Scholars আছে কেবল 2015–16 প্রোফাইলে, তাই এগুলোকে বর্তমান সংযোগপথ হিসেবে উপস্থাপন করা উচিত নয়।"
-    },
-    {
-      "text": "The enrolling markers were recovered from the acceptance PDF’s embedded font runs, because bold is lost in plain-text extraction. That returned 69 names against the school’s own count of 70 — treat 70 as authoritative and this list as about 97% complete.",
-      "of": "b193be2b",
-      "at": [
-        "charlotte-country-day:outcomes.flags[0].text"
-      ],
-      "t": "ভর্তির চিহ্নগুলো উদ্ধার করা হয়েছে ভর্তি-তালিকার PDF-এ থাকা ফন্টের ধারা থেকে, কারণ সাধারণ টেক্সট আকারে বার করলে মোটা হরফ হারিয়ে যায়। তাতে পাওয়া গেছে 69টি নাম, স্কুলের নিজের হিসাব 70-এর বিপরীতে — 70-কেই চূড়ান্ত ধরুন, আর এই তালিকাটিকে প্রায় 97% সম্পূর্ণ।"
     },
     {
       "text": "The IB Diploma is the structural differentiator — a second route to maximum rigour — and the Senior Externship turns 175+ local employers into a network only this school has.",
