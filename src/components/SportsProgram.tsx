@@ -13,6 +13,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { winPct, localizeMoneyText } from '../lib/format.ts'
+import { SHOW_TO_VERIFY } from '../lib/toVerify.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
@@ -65,8 +66,10 @@ function Heading({ children }: { children: React.ReactNode }) {
   return <div className="sports-h">{children}</div>
 }
 
+/** Dev-only: hidden on the production site (see `lib/toVerify.ts`). */
 function ToVerify() {
   const { t } = useTranslation()
+  if (!SHOW_TO_VERIFY) return null
   return <span className="tag-neutral sports-verify">{t('sports.toVerify')}</span>
 }
 
@@ -159,7 +162,7 @@ function ResultCell({ cell }: { cell: TitleCell }) {
   return (
     <div className="sports-cell">
       {chip}
-      {cell.toVerify ? (
+      {cell.toVerify && SHOW_TO_VERIFY ? (
         <div className="sports-cell-sub">
           <ToVerify />
         </div>
