@@ -500,9 +500,9 @@ export const charlotteChristian: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      '409 acceptances for 94 graduates, and 99% of graduates go on to a four-year college — but only about a sixth of the accepting institutions actually enrolled anyone.',
+      '409 acceptances for 94 graduates, and 99% of graduates go on to a four-year college.',
     subhead:
-      'Charlotte Christian is the only school here that gives Christian colleges and HBCUs their own named tiers, and 14% of recent graduates attend a Christian college.',
+      '14% of recent graduates attend a Christian college.',
     stats: [
       { value: '99%', label: 'of graduates attend a four-year college (100% offered admission)' },
       { value: '409', label: 'acceptances for 94 graduates — about 4.4 each' },
@@ -527,8 +527,6 @@ export const charlotteChristian: CollegeSupportProgram = {
       '~90 individually named awards published',
       'Athletic awards at Florida State, Wake Forest, Kentucky',
     ],
-    scholarshipsNote:
-      'The Class of 2025 total is printed in the school’s own Celebrating Seniors booklet as “$6,400,00” — a digit is missing, and the school’s website renders the same figure as “more than $6.4 million”, which is used here. Publishing roughly ninety individually named awards is unusually granular. Morehead-Cain, QuestBridge and ROTC outcomes are not published, and no federal service academy appears on either list.',
     flags: [],
     sources: [
       { label: 'charlottechristian.com — College Counseling (School Profile, acceptance list)', url: COUNSELING },

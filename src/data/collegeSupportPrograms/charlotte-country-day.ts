@@ -685,12 +685,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'Treat the “34 Morehead-Cain recipients” figure carefully: the College Counseling landing page shows it beside Class of 2026 statistics, but the Class of 2026 produced exactly one Morehead-Cain Scholar. The 34 is a cumulative, all-time count whose window the school never states. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile and should not be presented as current pipelines.',
-    flags: [
-      {
-        kind: 'verify',
-        text: 'The enrolling markers were recovered from the acceptance PDF’s embedded font runs, because bold is lost in plain-text extraction. That returned 69 names against the school’s own count of 70 — treat 70 as authoritative and this list as about 97% complete.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'charlottecountryday.org — College Acceptances 2023–2026 (PDF)', url: ACCEPTANCES },
       { label: 'News — Class of 2026 college admissions outcomes', url: CLASS_2026 },
