@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-10-27
 branch: fix/christianlede
-prs: []
+prs: [382]
 ---
 
 # Trim Charlotte Christian's "Where Graduates Go" lead and scholarships note
