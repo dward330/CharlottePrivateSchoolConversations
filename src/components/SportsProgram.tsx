@@ -503,7 +503,7 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       <StatStrip stats={tiles} />
 
       <Heading>
-        {t('sports.cup.tableTitle', { count: CUP_SEASONS.length, classification })}
+        {t('sports.cup.tableTitle', { count: CUP_SEASONS.length, association, classification })}
       </Heading>
       <CupTable slug={slug} />
 

@@ -17,6 +17,7 @@
  *   - every pointSources entry is a sport in CUP_SPORTS for that season;
  *   - every CUP_SPORTS key has a `sports.cup.sport_<key>` string in en.json;
  *   - divisionRows never mixes associations;
+ *   - a card's table holds its whole division, because its heading says "every";
  *   - Providence Day's card reads the figures verified from the official tables;
  *   - the inline fixtures compute what they should.
  *
@@ -93,6 +94,19 @@ for (const file of readdirSync(programs).filter((f) => f.endsWith('.ts'))) {
       )
       if (!hit) fail(`pointSources entry not in CUP_SPORTS: ${slug} ${s.gender} ${s.sport} (${s.season})`)
     }
+    // Tied and duplicated places mean a count can exceed the last place, never trail it.
+    for (const own of cup.recordsFor(slug)) {
+      const field = CUP_RECORDS.filter(
+        (r) =>
+          r.season === own.season &&
+          r.association === own.association &&
+          r.classification === own.classification,
+      )
+      const last = Math.max(...field.map((r) => r.place))
+      if (field.length < last) {
+        fail(`division incomplete: ${slug} ${own.classification} ${own.season} lists ${field.length} schools, last place ${last}`)
+      }
+    }
   }
 }
 
@@ -126,7 +140,8 @@ eq('PD margin', pd.latestMargin?.value, 2.5)
 eq('PD best season', pd.bestSeason, { term: 'spring', points: 270 })
 eq('PD lead row', cup.leadRow('providence-day'), [25, null, 170, 67.5, 10, 2.5])
 eq('PD comeback', cup.isComeback('providence-day'), true)
-eq('PD table', cup.divisionRows('providence-day').length, 7)
+eq('PD table', cup.divisionRows('providence-day').length, 19)
+eq('PD table ends with the schools that left 4A', cup.divisionRows('providence-day').slice(-2), ['greensboro-day', 'wake-christian'])
 
 /* -------------------------------------------------------------- fixtures -- */
 
@@ -175,10 +190,25 @@ const lead = (school, season, place, points, extra = {}) => ({
 
 // A missing year: an em dash, and the streak counts only records.
 {
-  const L = fx([rec('x', 'A', 1, 100), rec('x', 'C', 1, 120), rec('y', 'A', 2, 90), rec('y', 'B', 1, 95), rec('y', 'C', 2, 80)])
+  const L = fx(
+    [rec('x', 'A', 1, 100), rec('x', 'C', 1, 120), rec('y', 'A', 2, 90), rec('y', 'B', 1, 95), rec('y', 'C', 2, 80)],
+    [lead('y', 'A', 2, 90), lead('y', 'C', 2, 80)],
+  )
   eq('missing year: cell', cup.cell('x', 'B', 'x', L), null)
   eq('missing year: total', cup.headlineStats('x', L).seasonsTotal, 2)
   eq('missing year: lead row', cup.leadRow('x', L), [10, null, 40])
+}
+
+// A school that left the division sorts below it, whatever its place elsewhere.
+{
+  const L = fx([
+    rec('x', 'A', 5, 100),
+    rec('x', 'C', 5, 100),
+    rec('left', 'A', 9, 90),
+    rec('left', 'C', 1, 300, { classification: '2A' }),
+    rec('stayed', 'C', 7, 80),
+  ])
+  eq('sort: left the division', cup.divisionRows('x', L), ['x', 'stayed', 'left'])
 }
 
 // "In 3A": a table school in another class that season.

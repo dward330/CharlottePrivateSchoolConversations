@@ -2,13 +2,13 @@
 
 ## Method
 
-Retrieved 2026-10-31 with curl from the NCISAA's own Wells Fargo Cup pages, for the planned Wells Fargo Cup card (plan `wellsfargocup`). Rows below are transcribed from the published tables and machine-checked: fall + winter + spring equals the published total for all 60 tracked-school rows. No figure here is an estimate, so `isEstimate` is false on every row.
+Retrieved 2026-10-31 with curl from the NCISAA's own Wells Fargo Cup pages, for the planned Wells Fargo Cup card (plan `wellsfargocup`). Rows below are transcribed from the published tables and machine-checked: fall + winter + spring equals the published total for all 132 school rows here (the 60 roster rows and the 72 for the rest of the 4A field). Two rows in other divisions do not sum as published: 2021–22 1A Victory Christian Center and 2021–22 2A Westminster Catawba Christian. Neither school is in this file. No figure here is an estimate, so `isEstimate` is false on every row.
 
 **This file supersedes the Gemini report** (`charlotte_schools_wells_fargo_cup_comprehensive_report.md`, supplied by the user 2026-10-31). Against the official tables its matrix matched 10 of 60 school-season cells on classification + place + points: all ten 2025–26 cells, and none of the 50 cells for 2020–21 through 2024–25. Consequences: Providence Day is 5 of 6, not 6 of 6 (Charlotte Country Day won 4A in 2021–22 with 682.5; PD finished 3rd with 627.5); PD's peak is 782.5 in 2022–23, not 772.5 in 2023–24; Gaston Day won 2A in 2021–22 (the report says no titles); Carmel Christian stayed in 4A in 2024–25 (the report says 3A, 3rd); Hickory Grove Christian was 3A in all six years (the report says 4A in 2024–25). Every `~` in the report is resolved by a published figure.
 
 Other report claims that failed: Conference Cup points do NOT feed the NCHSAA State Cup (NCHSAA: "State Cup points are determined totally separately from Conference Cup points"); cheerleading is not on the NCISAA's sport list; PD football was the 2025 state CHAMPION, not a finalist (WBTV; 13-0); PD girls lacrosse titles are 2025 and 2026, not 2022 and 2023; PD girls soccer titles are 2024-2026, not 2022-2024. The title years used below come from the repo's already-vetted Winning Record data for PD. "Came down to the final event" could not be confirmed and is not used; the 2.5-point margin is published.
 
-Published oddities are copied as published: in 2022–23 4A Carmel Christian is listed 14th with 142.5, below Wesleyan's 14th with 147.5; in 2024–25 3A the list runs T7, T7, 8 and Hickory Grove sits at 12. 2019–20 is left out because the season was cut short (spring is DNF). PD's school-stated count of 12 Cups through 2024–25, "4th Cup Title in five years", agrees with these tables. Local-school rows follow the app's roster, so Metrolina Christian, a Charlotte 4A school outside the roster, has no row.
+Published oddities are copied as published: in 2022–23 4A Carmel Christian is listed 14th with 142.5, below Wesleyan's 14th with 147.5; in 2024–25 3A the list runs T7, T7, 8 and Hickory Grove sits at 12. 2019–20 is left out because the season was cut short (spring is DNF). PD's school-stated count of 12 Cups through 2024–25, "4th Cup Title in five years", agrees with these tables. The results table holds the app's roster; the following table holds the rest of the 4A field, so Providence Day's table shows the whole division, including Metrolina Christian, a Charlotte 4A school outside the roster.
 
 Sources:
 
@@ -92,6 +92,85 @@ Sources:
 | Charlotte Catholic | NCHSAA | 6A | 2025–26 | 1 | — | — | — | 655 |
 
 Charlotte Catholic beat Watauga (580) and East Chapel Hill (515) for the 2025–26 NCHSAA 6A Cup. Its earlier seasons are not verified here and stay out of the ledger until that school's card is built.
+
+## Wells Fargo Cup results for the rest of the 4A field
+
+Every school outside the app's roster that competed in NCISAA 4A in any of these six seasons, with all six seasons shown. Forsyth Country Day moved up to 4A in 2024–25; Greensboro Day and Wake Christian moved down to 3A in 2022–23.
+
+| School | Class | Season | Place | Fall | Winter | Spring | Total |
+|---|---|---|---|---|---|---|---|
+| Cary Academy | 4A | 2020–21 | 6 | 172.5 | 95 | 145 | 412.5 |
+| Cary Academy | 4A | 2021–22 | 6 | 155 | 130 | 115 | 400 |
+| Cary Academy | 4A | 2022–23 | 7 | 167.5 | 120 | 72.5 | 360 |
+| Cary Academy | 4A | 2023–24 | 8 | 110 | 102.5 | 130 | 342.5 |
+| Cary Academy | 4A | 2024–25 | 9 | 162.5 | 80 | 82.5 | 325 |
+| Cary Academy | 4A | 2025–26 | 7 | 150 | 112.5 | 110 | 372.5 |
+| Christ School | 4A | 2020–21 | 11 | 75 | 20 | 125 | 220 |
+| Christ School | 4A | 2021–22 | 12 | 50 | 42.5 | 120 | 212.5 |
+| Christ School | 4A | 2022–23 | 10 | 87.5 | 50 | 145 | 282.5 |
+| Christ School | 4A | 2023–24 | 12 | 100 | 50 | 117.5 | 267.5 |
+| Christ School | 4A | 2024–25 | 13 | 60 | 50 | 110 | 220 |
+| Christ School | 4A | 2025–26 | 10 | 122.5 | 0 | 135 | 257.5 |
+| Durham Academy | 4A | 2020–21 | 5 | 240 | 37.5 | 185 | 462.5 |
+| Durham Academy | 4A | 2021–22 | 4 | 245 | 65 | 197.5 | 507.5 |
+| Durham Academy | 4A | 2022–23 | 4 | 227.5 | 70 | 240 | 537.5 |
+| Durham Academy | 4A | 2023–24 | 7 | 182.5 | 50 | 122.5 | 355 |
+| Durham Academy | 4A | 2024–25 | 4 | 192.5 | 65 | 207.5 | 465 |
+| Durham Academy | 4A | 2025–26 | 4 | 217.5 | 50 | 220 | 487.5 |
+| Forsyth Country Day | 3A | 2020–21 | 1 | 112.5 | 117.5 | 352.5 | 582.5 |
+| Forsyth Country Day | 3A | 2021–22 | 1 | 150 | 155 | 300 | 605 |
+| Forsyth Country Day | 3A | 2022–23 | 1 | 170 | 135 | 287.5 | 592.5 |
+| Forsyth Country Day | 3A | 2023–24 | 1 | 180 | 167.5 | 287.5 | 635 |
+| Forsyth Country Day | 4A | 2024–25 | 7 | 107.5 | 90 | 177.5 | 375 |
+| Forsyth Country Day | 4A | 2025–26 | 6 | 115 | 87.5 | 190 | 392.5 |
+| Greensboro Day | 4A | 2020–21 | 12 | 15 | 100 | 82.5 | 197.5 |
+| Greensboro Day | 4A | 2021–22 | 13 | 62.5 | 45 | 100 | 207.5 |
+| Greensboro Day | 3A | 2022–23 | 2 | 142.5 | 132.5 | 232.5 | 507.5 |
+| Greensboro Day | 3A | 2023–24 | 4 | 60 | 115 | 210 | 385 |
+| Greensboro Day | 3A | 2024–25 | 1 | 82.5 | 167.5 | 207.5 | 457.5 |
+| Greensboro Day | 3A | 2025–26 | 2 | 115 | 117.5 | 187.5 | 420 |
+| Metrolina Christian | 4A | 2020–21 | 16 | 15 | 25 | 82.5 | 122.5 |
+| Metrolina Christian | 4A | 2021–22 | T14 | 37.5 | 70 | 97.5 | 205 |
+| Metrolina Christian | 4A | 2022–23 | 13 | 30 | 62.5 | 110 | 202.5 |
+| Metrolina Christian | 4A | 2023–24 | 14 | 82.5 | 45 | 105 | 232.5 |
+| Metrolina Christian | 4A | 2024–25 | 8 | 125 | 70 | 167.5 | 362.5 |
+| Metrolina Christian | 4A | 2025–26 | 11 | 55 | 35 | 137.5 | 227.5 |
+| North Raleigh Christian | 4A | 2020–21 | 8 | 100 | 75 | 180 | 355 |
+| North Raleigh Christian | 4A | 2021–22 | 9 | 100 | 60 | 85 | 245 |
+| North Raleigh Christian | 4A | 2022–23 | 12 | 95 | 37.5 | 110 | 242.5 |
+| North Raleigh Christian | 4A | 2023–24 | 11 | 112.5 | 22.5 | 155 | 290 |
+| North Raleigh Christian | 4A | 2024–25 | 16 | 95 | 0 | 60 | 155 |
+| North Raleigh Christian | 4A | 2025–26 | 12 | 95 | 57.5 | 67.5 | 220 |
+| Rabun Gap | 4A | 2020–21 | 13 | 120 | 20 | 37.5 | 177.5 |
+| Rabun Gap | 4A | 2021–22 | 10 | 130 | 70 | 37.5 | 237.5 |
+| Rabun Gap | 4A | 2022–23 | 11 | 87.5 | 107.5 | 67.5 | 262.5 |
+| Rabun Gap | 4A | 2023–24 | 13 | 95 | 62.5 | 90 | 247.5 |
+| Rabun Gap | 4A | 2024–25 | 14 | 100 | 52.5 | 60 | 212.5 |
+| Rabun Gap | 4A | 2025–26 | 9 | 122.5 | 60 | 85 | 267.5 |
+| Ravenscroft | 4A | 2020–21 | 7 | 107.5 | 135 | 122.5 | 365 |
+| Ravenscroft | 4A | 2021–22 | 8 | 45 | 80 | 142.5 | 267.5 |
+| Ravenscroft | 4A | 2022–23 | 6 | 120 | 122.5 | 135 | 377.5 |
+| Ravenscroft | 4A | 2023–24 | 6 | 130 | 145 | 82.5 | 357.5 |
+| Ravenscroft | 4A | 2024–25 | 12 | 57.5 | 95 | 72.5 | 225 |
+| Ravenscroft | 4A | 2025–26 | 14 | 85 | 55 | 52.5 | 192.5 |
+| Saint Mary’s | 4A | 2020–21 | 18 | 0 | 0 | 22.5 | 22.5 |
+| Saint Mary’s | 4A | 2021–22 | 17 | 85 | 0 | 22.5 | 107.5 |
+| Saint Mary’s | 4A | 2022–23 | 15 | 85 | 0 | 22.5 | 107.5 |
+| Saint Mary’s | 4A | 2023–24 | 16 | 62.5 | 0 | 37.5 | 100 |
+| Saint Mary’s | 4A | 2024–25 | 17 | 0 | 0 | 22.5 | 22.5 |
+| Saint Mary’s | 4A | 2025–26 | 17 | 0 | 0 | 22.5 | 22.5 |
+| Wake Christian | 4A | 2020–21 | 17 | 22.5 | 0 | 22.5 | 45 |
+| Wake Christian | 4A | 2021–22 | 18 | 37.5 | 0 | 0 | 37.5 |
+| Wake Christian | 3A | 2022–23 | 10 | 107.5 | 0 | 110 | 217.5 |
+| Wake Christian | 3A | 2023–24 | 14 | 60 | 0 | 120 | 180 |
+| Wake Christian | 3A | 2024–25 | 18 | 37.5 | 0 | 65 | 102.5 |
+| Wake Christian | 3A | 2025–26 | 9 | 90 | 30 | 145 | 265 |
+| Wesleyan Christian | 4A | 2020–21 | 10 | 122.5 | 45 | 105 | 272.5 |
+| Wesleyan Christian | 4A | 2021–22 | 16 | 37.5 | 37.5 | 45 | 120 |
+| Wesleyan Christian | 4A | 2022–23 | 14 | 37.5 | 37.5 | 72.5 | 147.5 |
+| Wesleyan Christian | 4A | 2023–24 | 9 | 82.5 | 75 | 152.5 | 310 |
+| Wesleyan Christian | 4A | 2024–25 | 11 | 60 | 97.5 | 87.5 | 245 |
+| Wesleyan Christian | 4A | 2025–26 | 13 | 75 | 70 | 60 | 205 |
 
 ## Wells Fargo Cup division leaders
 

@@ -16,7 +16,7 @@ export type CupAssociation = 'NCISAA' | 'NCHSAA'
 
 /** One school's published result for one season. */
 export type CupRecord = {
-  /** App slug. */
+  /** App slug, or a stable key for a school outside the roster. */
   school: string
   association: CupAssociation
   /** '2A' | '3A' | '4A' | '6A' … */
@@ -64,9 +64,26 @@ export const CUP_SHORT_NAMES: Record<string, string> = {
   'gaston-day': 'Gaston Day',
   'hickory-grove-christian': 'Hickory Grove Christian',
   'charlotte-catholic': 'Charlotte Catholic',
+  // Outside the roster, listed because the 4A table shows the whole division.
+  'cary-academy': 'Cary Academy',
+  'christ-school': 'Christ School',
+  'durham-academy': 'Durham Academy',
+  'forsyth-country-day': 'Forsyth Country Day',
+  'greensboro-day': 'Greensboro Day',
+  'metrolina-christian': 'Metrolina Christian',
+  'north-raleigh-christian': 'North Raleigh Christian',
+  'rabun-gap': 'Rabun Gap',
+  ravenscroft: 'Ravenscroft',
+  'saint-marys': 'Saint Mary’s',
+  'wake-christian': 'Wake Christian',
+  'wesleyan-christian': 'Wesleyan Christian',
 }
 
-/** Tracked-school rows, in the source file's order. */
+/**
+ * Every school in a division a Cup card shows, in the source file's order. A
+ * card's table claims the whole division, so a card needs every school in it:
+ * today that is all of 4A, plus the 3A seasons of schools that moved.
+ */
 export const CUP_RECORDS: CupRecord[] = [
   { school: 'providence-day', association: 'NCISAA', classification: '4A', season: '2020–21', place: 1, points: 670, isEstimate: false, fall: 267.5, winter: 157.5, spring: 245 },
   { school: 'providence-day', association: 'NCISAA', classification: '4A', season: '2021–22', place: 3, points: 627.5, isEstimate: false, fall: 192.5, winter: 165, spring: 270 },
@@ -129,6 +146,79 @@ export const CUP_RECORDS: CupRecord[] = [
   { school: 'hickory-grove-christian', association: 'NCISAA', classification: '3A', season: '2024–25', place: 12, points: 155, isEstimate: false, fall: 67.5, winter: 0, spring: 87.5 },
   { school: 'hickory-grove-christian', association: 'NCISAA', classification: '3A', season: '2025–26', place: 18, points: 110, isEstimate: false, fall: 25, winter: 22.5, spring: 62.5 },
   { school: 'charlotte-catholic', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 1, points: 655, isEstimate: false },
+  // The rest of the 4A field, outside the roster.
+  { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2020–21', place: 6, points: 412.5, isEstimate: false, fall: 172.5, winter: 95, spring: 145 },
+  { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2021–22', place: 6, points: 400, isEstimate: false, fall: 155, winter: 130, spring: 115 },
+  { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2022–23', place: 7, points: 360, isEstimate: false, fall: 167.5, winter: 120, spring: 72.5 },
+  { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2023–24', place: 8, points: 342.5, isEstimate: false, fall: 110, winter: 102.5, spring: 130 },
+  { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2024–25', place: 9, points: 325, isEstimate: false, fall: 162.5, winter: 80, spring: 82.5 },
+  { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2025–26', place: 7, points: 372.5, isEstimate: false, fall: 150, winter: 112.5, spring: 110 },
+  { school: 'christ-school', association: 'NCISAA', classification: '4A', season: '2020–21', place: 11, points: 220, isEstimate: false, fall: 75, winter: 20, spring: 125 },
+  { school: 'christ-school', association: 'NCISAA', classification: '4A', season: '2021–22', place: 12, points: 212.5, isEstimate: false, fall: 50, winter: 42.5, spring: 120 },
+  { school: 'christ-school', association: 'NCISAA', classification: '4A', season: '2022–23', place: 10, points: 282.5, isEstimate: false, fall: 87.5, winter: 50, spring: 145 },
+  { school: 'christ-school', association: 'NCISAA', classification: '4A', season: '2023–24', place: 12, points: 267.5, isEstimate: false, fall: 100, winter: 50, spring: 117.5 },
+  { school: 'christ-school', association: 'NCISAA', classification: '4A', season: '2024–25', place: 13, points: 220, isEstimate: false, fall: 60, winter: 50, spring: 110 },
+  { school: 'christ-school', association: 'NCISAA', classification: '4A', season: '2025–26', place: 10, points: 257.5, isEstimate: false, fall: 122.5, winter: 0, spring: 135 },
+  { school: 'durham-academy', association: 'NCISAA', classification: '4A', season: '2020–21', place: 5, points: 462.5, isEstimate: false, fall: 240, winter: 37.5, spring: 185 },
+  { school: 'durham-academy', association: 'NCISAA', classification: '4A', season: '2021–22', place: 4, points: 507.5, isEstimate: false, fall: 245, winter: 65, spring: 197.5 },
+  { school: 'durham-academy', association: 'NCISAA', classification: '4A', season: '2022–23', place: 4, points: 537.5, isEstimate: false, fall: 227.5, winter: 70, spring: 240 },
+  { school: 'durham-academy', association: 'NCISAA', classification: '4A', season: '2023–24', place: 7, points: 355, isEstimate: false, fall: 182.5, winter: 50, spring: 122.5 },
+  { school: 'durham-academy', association: 'NCISAA', classification: '4A', season: '2024–25', place: 4, points: 465, isEstimate: false, fall: 192.5, winter: 65, spring: 207.5 },
+  { school: 'durham-academy', association: 'NCISAA', classification: '4A', season: '2025–26', place: 4, points: 487.5, isEstimate: false, fall: 217.5, winter: 50, spring: 220 },
+  { school: 'forsyth-country-day', association: 'NCISAA', classification: '3A', season: '2020–21', place: 1, points: 582.5, isEstimate: false, fall: 112.5, winter: 117.5, spring: 352.5 },
+  { school: 'forsyth-country-day', association: 'NCISAA', classification: '3A', season: '2021–22', place: 1, points: 605, isEstimate: false, fall: 150, winter: 155, spring: 300 },
+  { school: 'forsyth-country-day', association: 'NCISAA', classification: '3A', season: '2022–23', place: 1, points: 592.5, isEstimate: false, fall: 170, winter: 135, spring: 287.5 },
+  { school: 'forsyth-country-day', association: 'NCISAA', classification: '3A', season: '2023–24', place: 1, points: 635, isEstimate: false, fall: 180, winter: 167.5, spring: 287.5 },
+  { school: 'forsyth-country-day', association: 'NCISAA', classification: '4A', season: '2024–25', place: 7, points: 375, isEstimate: false, fall: 107.5, winter: 90, spring: 177.5 },
+  { school: 'forsyth-country-day', association: 'NCISAA', classification: '4A', season: '2025–26', place: 6, points: 392.5, isEstimate: false, fall: 115, winter: 87.5, spring: 190 },
+  { school: 'greensboro-day', association: 'NCISAA', classification: '4A', season: '2020–21', place: 12, points: 197.5, isEstimate: false, fall: 15, winter: 100, spring: 82.5 },
+  { school: 'greensboro-day', association: 'NCISAA', classification: '4A', season: '2021–22', place: 13, points: 207.5, isEstimate: false, fall: 62.5, winter: 45, spring: 100 },
+  { school: 'greensboro-day', association: 'NCISAA', classification: '3A', season: '2022–23', place: 2, points: 507.5, isEstimate: false, fall: 142.5, winter: 132.5, spring: 232.5 },
+  { school: 'greensboro-day', association: 'NCISAA', classification: '3A', season: '2023–24', place: 4, points: 385, isEstimate: false, fall: 60, winter: 115, spring: 210 },
+  { school: 'greensboro-day', association: 'NCISAA', classification: '3A', season: '2024–25', place: 1, points: 457.5, isEstimate: false, fall: 82.5, winter: 167.5, spring: 207.5 },
+  { school: 'greensboro-day', association: 'NCISAA', classification: '3A', season: '2025–26', place: 2, points: 420, isEstimate: false, fall: 115, winter: 117.5, spring: 187.5 },
+  { school: 'metrolina-christian', association: 'NCISAA', classification: '4A', season: '2020–21', place: 16, points: 122.5, isEstimate: false, fall: 15, winter: 25, spring: 82.5 },
+  { school: 'metrolina-christian', association: 'NCISAA', classification: '4A', season: '2021–22', place: 14, tied: true, points: 205, isEstimate: false, fall: 37.5, winter: 70, spring: 97.5 },
+  { school: 'metrolina-christian', association: 'NCISAA', classification: '4A', season: '2022–23', place: 13, points: 202.5, isEstimate: false, fall: 30, winter: 62.5, spring: 110 },
+  { school: 'metrolina-christian', association: 'NCISAA', classification: '4A', season: '2023–24', place: 14, points: 232.5, isEstimate: false, fall: 82.5, winter: 45, spring: 105 },
+  { school: 'metrolina-christian', association: 'NCISAA', classification: '4A', season: '2024–25', place: 8, points: 362.5, isEstimate: false, fall: 125, winter: 70, spring: 167.5 },
+  { school: 'metrolina-christian', association: 'NCISAA', classification: '4A', season: '2025–26', place: 11, points: 227.5, isEstimate: false, fall: 55, winter: 35, spring: 137.5 },
+  { school: 'north-raleigh-christian', association: 'NCISAA', classification: '4A', season: '2020–21', place: 8, points: 355, isEstimate: false, fall: 100, winter: 75, spring: 180 },
+  { school: 'north-raleigh-christian', association: 'NCISAA', classification: '4A', season: '2021–22', place: 9, points: 245, isEstimate: false, fall: 100, winter: 60, spring: 85 },
+  { school: 'north-raleigh-christian', association: 'NCISAA', classification: '4A', season: '2022–23', place: 12, points: 242.5, isEstimate: false, fall: 95, winter: 37.5, spring: 110 },
+  { school: 'north-raleigh-christian', association: 'NCISAA', classification: '4A', season: '2023–24', place: 11, points: 290, isEstimate: false, fall: 112.5, winter: 22.5, spring: 155 },
+  { school: 'north-raleigh-christian', association: 'NCISAA', classification: '4A', season: '2024–25', place: 16, points: 155, isEstimate: false, fall: 95, winter: 0, spring: 60 },
+  { school: 'north-raleigh-christian', association: 'NCISAA', classification: '4A', season: '2025–26', place: 12, points: 220, isEstimate: false, fall: 95, winter: 57.5, spring: 67.5 },
+  { school: 'rabun-gap', association: 'NCISAA', classification: '4A', season: '2020–21', place: 13, points: 177.5, isEstimate: false, fall: 120, winter: 20, spring: 37.5 },
+  { school: 'rabun-gap', association: 'NCISAA', classification: '4A', season: '2021–22', place: 10, points: 237.5, isEstimate: false, fall: 130, winter: 70, spring: 37.5 },
+  { school: 'rabun-gap', association: 'NCISAA', classification: '4A', season: '2022–23', place: 11, points: 262.5, isEstimate: false, fall: 87.5, winter: 107.5, spring: 67.5 },
+  { school: 'rabun-gap', association: 'NCISAA', classification: '4A', season: '2023–24', place: 13, points: 247.5, isEstimate: false, fall: 95, winter: 62.5, spring: 90 },
+  { school: 'rabun-gap', association: 'NCISAA', classification: '4A', season: '2024–25', place: 14, points: 212.5, isEstimate: false, fall: 100, winter: 52.5, spring: 60 },
+  { school: 'rabun-gap', association: 'NCISAA', classification: '4A', season: '2025–26', place: 9, points: 267.5, isEstimate: false, fall: 122.5, winter: 60, spring: 85 },
+  { school: 'ravenscroft', association: 'NCISAA', classification: '4A', season: '2020–21', place: 7, points: 365, isEstimate: false, fall: 107.5, winter: 135, spring: 122.5 },
+  { school: 'ravenscroft', association: 'NCISAA', classification: '4A', season: '2021–22', place: 8, points: 267.5, isEstimate: false, fall: 45, winter: 80, spring: 142.5 },
+  { school: 'ravenscroft', association: 'NCISAA', classification: '4A', season: '2022–23', place: 6, points: 377.5, isEstimate: false, fall: 120, winter: 122.5, spring: 135 },
+  { school: 'ravenscroft', association: 'NCISAA', classification: '4A', season: '2023–24', place: 6, points: 357.5, isEstimate: false, fall: 130, winter: 145, spring: 82.5 },
+  { school: 'ravenscroft', association: 'NCISAA', classification: '4A', season: '2024–25', place: 12, points: 225, isEstimate: false, fall: 57.5, winter: 95, spring: 72.5 },
+  { school: 'ravenscroft', association: 'NCISAA', classification: '4A', season: '2025–26', place: 14, points: 192.5, isEstimate: false, fall: 85, winter: 55, spring: 52.5 },
+  { school: 'saint-marys', association: 'NCISAA', classification: '4A', season: '2020–21', place: 18, points: 22.5, isEstimate: false, fall: 0, winter: 0, spring: 22.5 },
+  { school: 'saint-marys', association: 'NCISAA', classification: '4A', season: '2021–22', place: 17, points: 107.5, isEstimate: false, fall: 85, winter: 0, spring: 22.5 },
+  { school: 'saint-marys', association: 'NCISAA', classification: '4A', season: '2022–23', place: 15, points: 107.5, isEstimate: false, fall: 85, winter: 0, spring: 22.5 },
+  { school: 'saint-marys', association: 'NCISAA', classification: '4A', season: '2023–24', place: 16, points: 100, isEstimate: false, fall: 62.5, winter: 0, spring: 37.5 },
+  { school: 'saint-marys', association: 'NCISAA', classification: '4A', season: '2024–25', place: 17, points: 22.5, isEstimate: false, fall: 0, winter: 0, spring: 22.5 },
+  { school: 'saint-marys', association: 'NCISAA', classification: '4A', season: '2025–26', place: 17, points: 22.5, isEstimate: false, fall: 0, winter: 0, spring: 22.5 },
+  { school: 'wake-christian', association: 'NCISAA', classification: '4A', season: '2020–21', place: 17, points: 45, isEstimate: false, fall: 22.5, winter: 0, spring: 22.5 },
+  { school: 'wake-christian', association: 'NCISAA', classification: '4A', season: '2021–22', place: 18, points: 37.5, isEstimate: false, fall: 37.5, winter: 0, spring: 0 },
+  { school: 'wake-christian', association: 'NCISAA', classification: '3A', season: '2022–23', place: 10, points: 217.5, isEstimate: false, fall: 107.5, winter: 0, spring: 110 },
+  { school: 'wake-christian', association: 'NCISAA', classification: '3A', season: '2023–24', place: 14, points: 180, isEstimate: false, fall: 60, winter: 0, spring: 120 },
+  { school: 'wake-christian', association: 'NCISAA', classification: '3A', season: '2024–25', place: 18, points: 102.5, isEstimate: false, fall: 37.5, winter: 0, spring: 65 },
+  { school: 'wake-christian', association: 'NCISAA', classification: '3A', season: '2025–26', place: 9, points: 265, isEstimate: false, fall: 90, winter: 30, spring: 145 },
+  { school: 'wesleyan-christian', association: 'NCISAA', classification: '4A', season: '2020–21', place: 10, points: 272.5, isEstimate: false, fall: 122.5, winter: 45, spring: 105 },
+  { school: 'wesleyan-christian', association: 'NCISAA', classification: '4A', season: '2021–22', place: 16, points: 120, isEstimate: false, fall: 37.5, winter: 37.5, spring: 45 },
+  { school: 'wesleyan-christian', association: 'NCISAA', classification: '4A', season: '2022–23', place: 14, points: 147.5, isEstimate: false, fall: 37.5, winter: 37.5, spring: 72.5 },
+  { school: 'wesleyan-christian', association: 'NCISAA', classification: '4A', season: '2023–24', place: 9, points: 310, isEstimate: false, fall: 82.5, winter: 75, spring: 152.5 },
+  { school: 'wesleyan-christian', association: 'NCISAA', classification: '4A', season: '2024–25', place: 11, points: 245, isEstimate: false, fall: 60, winter: 97.5, spring: 87.5 },
+  { school: 'wesleyan-christian', association: 'NCISAA', classification: '4A', season: '2025–26', place: 13, points: 205, isEstimate: false, fall: 75, winter: 70, spring: 60 },
 ]
 
 /** Places 1 and 2 in 2A, 3A and 4A for every season, on or off the roster. */

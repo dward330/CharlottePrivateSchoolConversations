@@ -256,13 +256,16 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 Results live in `src/data/wellsFargoCup.ts`, because one school's table needs other
 schools' rows. The `cup` key in a school's module holds its point sources and citations,
 and its presence is what renders the card, always second, after `offered`. Add a school
-with `/wells-fargo-cup`. Nine rules travel with it:
+with `/wells-fargo-cup`. Ten rules travel with it:
 
 - **Official association tables only.** An AI report is a lead to check, never a source.
 - **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come
   from `src/lib/wellsFargoCup.ts`.
 - **Same-division rows only.** A school sharing the association and class in at least
   one season gets a row; a year in another class reads "In 3A".
+- **A card's table holds its whole division,** on or off the roster, because its heading
+  says "every". `check:cup` fails on a gap, so a school in a new division brings that
+  division's field into `CUP_RECORDS`.
 - **NCHSAA schools never appear in an NCISAA table.** Their scores are not comparable.
 - **A non-roster rival goes in `CUP_DIVISION_LEADERS`,** which holds places 1–2 in every
   division for every season.

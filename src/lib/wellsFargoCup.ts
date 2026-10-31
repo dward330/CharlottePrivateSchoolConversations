@@ -59,22 +59,30 @@ export function classLabel(slug: string, ledger: CupLedger = CUP_LEDGER): string
 
 /**
  * The slugs on a school's table: every school in the same association and
- * classification in at least one season, sorted by latest-season place. NCHSAA
+ * classification in at least one season. Sorted by the latest season each one
+ * shared with the selected school, then place, so a school that left the
+ * division sits below it and a high place in another class cannot rank. NCHSAA
  * rows can never enter an NCISAA table, because their scores are not comparable.
  */
 export function divisionRows(slug: string, ledger: CupLedger = CUP_LEDGER): string[] {
   const own = recordsFor(slug, ledger)
   if (own.length === 0) return []
-  const latestSeason = ledger.seasons.at(-1) ?? ''
-  const shares = (school: string) =>
-    own.some((r) => {
+  const lastShared = (school: string) =>
+    own.findLast((r) => {
       const other = recordOf(school, r.season, ledger)
       return other?.association === r.association && other.classification === r.classification
     })
-  const place = (school: string) => recordOf(school, latestSeason, ledger)?.place ?? Infinity
+  const rank = (school: string) => {
+    const shared = lastShared(school)
+    if (!shared) return { season: -1, place: Infinity }
+    return {
+      season: ledger.seasons.indexOf(shared.season),
+      place: recordOf(school, shared.season, ledger)?.place ?? Infinity,
+    }
+  }
   return [...new Set(ledger.records.map((r) => r.school))]
-    .filter(shares)
-    .sort((a, b) => place(a) - place(b))
+    .filter((school) => lastShared(school) != null)
+    .sort((a, b) => rank(b).season - rank(a).season || rank(a).place - rank(b).place)
 }
 
 export type CupCell = { result: CupRecord } | { otherClass: string } | null
@@ -100,27 +108,6 @@ export function cell(
     : { otherClass: rec.classification }
 }
 
-/**
- * Per season: the selected school's points minus the best other local school in
- * that division. Null when it did not finish 1st, or has no local rival there.
- */
-export function leadRow(slug: string, ledger: CupLedger = CUP_LEDGER): (number | null)[] {
-  return ledger.seasons.map((season) => {
-    const own = recordOf(slug, season, ledger)
-    if (!own || own.place !== 1) return null
-    const others = ledger.records
-      .filter(
-        (r) =>
-          r.season === season &&
-          r.school !== slug &&
-          r.association === own.association &&
-          r.classification === own.classification,
-      )
-      .map((r) => r.points)
-    return others.length > 0 ? own.points - Math.max(...others) : null
-  })
-}
-
 function leaderAt(own: CupRecord, place: number, ledger: CupLedger) {
   return ledger.leaders.find(
     (l) =>
@@ -129,6 +116,19 @@ function leaderAt(own: CupRecord, place: number, ledger: CupLedger) {
       l.season === own.season &&
       l.place === place,
   )
+}
+
+/**
+ * Per season: the selected school's points minus 2nd place. Null when it did
+ * not finish 1st. Comes from the leaders table, so it holds in any division.
+ */
+export function leadRow(slug: string, ledger: CupLedger = CUP_LEDGER): (number | null)[] {
+  return ledger.seasons.map((season) => {
+    const own = recordOf(slug, season, ledger)
+    if (!own || own.place !== 1) return null
+    const second = leaderAt(own, 2, ledger)
+    return second ? own.points - second.points : null
+  })
 }
 
 /** Per season: the winner's points minus the selected school's. Null when it won. */

@@ -17,8 +17,8 @@ The repeatable version of what built Providence Day's card
 (`.claude/plans/wellsfargocup.md`, 2026-10-31). The flow is **school → ledger re-verified
 → point sources confirmed → GO / NO-GO → source-material → `/plan` → `/implement`**.
 
-The ledger (`src/data/wellsFargoCup.ts`) already holds rows for every covered school, and
-the card computes everything from it. So a new school normally needs **data, not component
+The ledger (`src/data/wellsFargoCup.ts`) already holds rows for every covered school and the
+whole 4A field, and the card computes everything from it. So a new school normally needs **data, not component
 changes**: a `cup` block in its module, plus any ledger corrections this skill finds.
 
 ## Hard constraints
@@ -73,6 +73,13 @@ needs its new path found from the site's navigation.
 - A `T` place is a tie: `tied: true`.
 - Assert fall + winter + spring equals the total on every row you read. If it does not,
   you have misread the table.
+
+**The table claims the whole division.** Its heading says "every NCISAA 3A school", and
+`check:cup` fails on a gap. So a school outside 4A brings every school in its division, for
+every season it played there, into the brief, on or off the roster. A school that moved
+class needs its rows in the other class too, or those cells read as an em dash rather than
+"In 3A". Two rows elsewhere do not sum as published (2021–22 1A Victory Christian Center
+and 2A Westminster Catawba Christian); copy them as published and record it.
 
 If a newer season has been published, add it to the brief. It changes `CUP_SEASONS`, and so
 every school's table.
@@ -130,7 +137,7 @@ Leave it uningested. `/implement` runs the ingest on a branch.
 
 Invoke `/plan` with the name `<slug>cup` and this scope:
 
-- ledger corrections, if any;
+- ledger corrections, if any, and the rest of the school's division;
 - the `cup` block in `src/data/sportsPrograms/<slug>.ts`;
 - new `sports.cup.*` keys only if a sport or string is new.
 
