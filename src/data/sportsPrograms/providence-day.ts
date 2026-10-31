@@ -6,8 +6,12 @@
 // research could not confirm carry `toVerify` and render a TO VERIFY tag rather
 // than being guessed at.
 //
-// All seven cards render for PD — it is the only school in the set with a
+// All eight cards render for PD — it is the only school in the set with a
 // documented NIL story tied to a named athlete.
+//
+// The Cup card's results come from the shared ledger (data/wellsFargoCup.ts);
+// only its point sources and citations live here, traceable to
+// source-material/sports/providence-day/Providence Day - Sports - Wells Fargo Cup Standings 2020-2026.md.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
@@ -15,6 +19,7 @@ const PDS = 'https://www.pdschargers.com/more/about-pds-athletics/'
 const CHAMPS =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
 const NEXT_LEVEL = 'https://www.pdschargers.com/more/honors-hall-of-fame-wells-fargo-cup/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
 
 export const providenceDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -87,7 +92,31 @@ export const providenceDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'football11', gender: 'boys', season: 'fall', titleYears: [2021, 2022, 2023, 2025], runnerUpYears: [2024] },
+      { sport: 'soccer', gender: 'girls', season: 'spring', titleYears: [2024, 2025, 2026] },
+      { sport: 'lacrosse', gender: 'girls', season: 'spring', titleYears: [2025, 2026] },
+      { sport: 'swimming', gender: 'girls', season: 'winter', titleYears: [2026] },
+      { sport: 'basketball', gender: 'boys', season: 'winter', titleYears: [], runnerUpYears: [2024, 2026] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'High School OT — 2025–26 NCISAA champions in every sport', url: CHAMPS },
+      { label: 'WBTV — 2025 football state final', url: 'https://www.wbtv.com/2025/11/22/providence-day-tops-christian-42-6-ncisaa-division-i-state-championship/' },
+      { label: 'VarsityNC — NCHSAA 2025–26 Wells Fargo Cup winners', url: 'https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026' },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Four NCISAA 4A state titles in 2025–26 — the most of any 4A school in North Carolina that year.',
@@ -193,7 +222,7 @@ export const providenceDay: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       '~39 Division I commits across the classes of 2024–26, 17 of them Power 4 — and an honest map of which sports feed which level.',
@@ -348,7 +377,7 @@ export const providenceDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'Four verified pros — an NFL top-10 pick, two NBA players and a Team USA Olympian — atop an NC-record run of Gatorade Players of the Year.',
@@ -424,7 +453,7 @@ export const providenceDay: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'A marquee external hire (Grier), a homegrown Hall-of-Famer (Hovis), and an NBA champion volunteering on the bench (Battier).',
@@ -479,7 +508,7 @@ export const providenceDay: SportsProgram = {
     ],
   },
 
-  /* ------------------------------------------------------- 1f facilities -- */
+  /* ------------------------------------------------------- 1g facilities -- */
   facilities: {
     headline:
       'Two weight rooms the program calls "two of the very best in the nation," a 2012 stadium, and an in-house medical staff of three certified trainers plus a team physician.',
@@ -558,7 +587,7 @@ export const providenceDay: SportsProgram = {
     ],
   },
 
-  /* -------------------------------------------------------- 1g national -- */
+  /* -------------------------------------------------------- 1h national -- */
   national: {
     headline:
       'MaxPreps ranked PD #1 in North Carolina across all classifications — and for a full year its athletes could sign NIL deals while public-school rivals legally could not.',

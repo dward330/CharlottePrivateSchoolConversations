@@ -1,4 +1,4 @@
-// The "Sports" research area — seven consolidated cards per school, replacing
+// The "Sports" research area — eight consolidated cards per school, replacing
 // the thirteen prose sub-sections the ingest pipeline produces (see
 // components/SportsProgram.tsx).
 //
@@ -10,12 +10,13 @@
 // makes each card deeper instead of the set wider.
 //
 //   1a Sports Offered          — season board with V / JV / MS depth chips
-//   1b Winning Record          — state-title matrix + win% bars
-//   1c The College Pipeline    — funnel, by-sport bars, searchable roster
-//   1d Honors & Pro Alumni     — pro path cards + honors ledger
-//   1e Coaching                — pedigree + continuity cards, tenure ledger
-//   1f Facilities & Athlete Care — photo strip, venue ledger, care model
-//   1g National Stage & NIL    — rankings strip, schedule ledger, NIL timeline
+//   1b Wells Fargo Cup         — all-sports award: explainer + six-year table
+//   1c Winning Record          — state-title matrix + win% bars
+//   1d The College Pipeline    — funnel, by-sport bars, searchable roster
+//   1e Honors & Pro Alumni     — pro path cards + honors ledger
+//   1f Coaching                — pedigree + continuity cards, tenure ledger
+//   1g Facilities & Athlete Care — photo strip, venue ledger, care model
+//   1h National Stage & NIL    — rankings strip, schedule ledger, NIL timeline
 //
 // Every figure here is transcribed from that school's OWN published athletics
 // pages, NCISAA/MaxPreps records, or named news coverage — see the committed
@@ -24,7 +25,7 @@
 // carried across schools.
 //
 // Cards are OPTIONAL by design. A school with no verified pro alumni gets no
-// 1d; a school with no NIL story gets no 1g. Rendering a thin card would imply
+// 1e; a school with no NIL story gets no 1h. Rendering a thin card would imply
 // the research found nothing when the truth is the school has nothing — see
 // the `SportsProgram` fields, all of which may be undefined. Card order and
 // numbering stay fixed across schools for the cards that do render.
@@ -85,7 +86,31 @@ export type SportsOffered = {
   sources: SportsSource[]
 }
 
-/* ------------------------------------------------------ 1b winning record -- */
+/* ----------------------------------------------------- 1b wells fargo cup -- */
+
+/**
+ * A sport that feeds a school's Cup total. `sport` is a key in CUP_SPORTS, and
+ * every title or runner-up year is confirmed on a citable page.
+ */
+export type CupPointSource = {
+  sport: string
+  gender: 'boys' | 'girls'
+  season: 'fall' | 'winter' | 'spring'
+  titleYears: number[]
+  runnerUpYears?: number[]
+}
+
+/**
+ * One school's Cup card. Its presence turns the card on. Results are not here:
+ * they live in the shared ledger (data/wellsFargoCup.ts), because a school's
+ * table needs other schools' rows.
+ */
+export type CupProgram = {
+  pointSources: CupPointSource[]
+  sources: SportsSource[]
+}
+
+/* ------------------------------------------------------ 1c winning record -- */
 
 /** Outcome of one program's season, rendered as a chip in the title matrix. */
 export type TitleResult =
@@ -151,7 +176,7 @@ export type WinningRecord = {
   sources: SportsSource[]
 }
 
-/* ----------------------------------------------------- 1c college pipeline -- */
+/* ----------------------------------------------------- 1d college pipeline -- */
 
 /** Recruiting level, driving both the roster filter tabs and the row tag. */
 export type CommitLevel = 'P4' | 'D1' | 'D2' | 'D3' | 'NAIA'
@@ -221,7 +246,7 @@ export type CollegePipeline = {
   sources: SportsSource[]
 }
 
-/* --------------------------------------------------- 1d honors & pro alumni -- */
+/* --------------------------------------------------- 1e honors & pro alumni -- */
 
 /** One professional-athlete card. */
 export type ProAlum = {
@@ -255,7 +280,7 @@ export type HonorsAndPros = {
   sources: SportsSource[]
 }
 
-/* -------------------------------------------------------------- 1e coaching -- */
+/* -------------------------------------------------------------- 1f coaching -- */
 
 /** A headline stat on a featured-coach card. */
 export type CoachStat = {
@@ -299,7 +324,7 @@ export type Coaching = {
   sources: SportsSource[]
 }
 
-/* ------------------------------------------ 1f facilities & athlete care -- */
+/* ------------------------------------------ 1g facilities & athlete care -- */
 
 /** One photo in the facilities strip. */
 export type FacilityPhoto = {
@@ -347,7 +372,7 @@ export type Facilities = {
   sources: SportsSource[]
 }
 
-/* ------------------------------------------------- 1g national stage & NIL -- */
+/* ------------------------------------------------- 1h national stage & NIL -- */
 
 /** One opponent on the national-caliber schedule ledger. */
 export type ScheduleRow = {
@@ -392,6 +417,7 @@ export type NationalStage = {
  */
 export type SportsProgram = {
   offered?: SportsOffered
+  cup?: CupProgram
   record?: WinningRecord
   pipeline?: CollegePipeline
   honors?: HonorsAndPros
@@ -402,13 +428,14 @@ export type SportsProgram = {
 
 /** Per-card metadata: the number badge, title, and kicker shown on each card. */
 export const SPORTS_CARDS = [
-  { key: 'offered', num: '1a', title: 'Sports Offered', kicker: 'Topic 01 of 07' },
-  { key: 'record', num: '1b', title: 'Winning Record', kicker: 'Topic 02 of 07' },
-  { key: 'pipeline', num: '1c', title: 'The College Pipeline', kicker: 'Topic 03 of 07' },
-  { key: 'honors', num: '1d', title: 'Honors & Pro Alumni', kicker: 'Topic 04 of 07' },
-  { key: 'coaching', num: '1e', title: 'Coaching: Pedigree & Continuity', kicker: 'Topic 05 of 07' },
-  { key: 'facilities', num: '1f', title: 'Facilities & Athlete Care', kicker: 'Topic 06 of 07' },
-  { key: 'national', num: '1g', title: 'National Stage & NIL', kicker: 'Topic 07 of 07' },
+  { key: 'offered', num: '1a', title: 'Sports Offered', kicker: 'Topic 01 of 08' },
+  { key: 'cup', num: '1b', title: 'Wells Fargo Cup', kicker: 'Topic 02 of 08' },
+  { key: 'record', num: '1c', title: 'Winning Record', kicker: 'Topic 03 of 08' },
+  { key: 'pipeline', num: '1d', title: 'The College Pipeline', kicker: 'Topic 04 of 08' },
+  { key: 'honors', num: '1e', title: 'Honors & Pro Alumni', kicker: 'Topic 05 of 08' },
+  { key: 'coaching', num: '1f', title: 'Coaching: Pedigree & Continuity', kicker: 'Topic 06 of 08' },
+  { key: 'facilities', num: '1g', title: 'Facilities & Athlete Care', kicker: 'Topic 07 of 08' },
+  { key: 'national', num: '1h', title: 'National Stage & NIL', kicker: 'Topic 08 of 08' },
 ] as const satisfies readonly {
   key: keyof SportsProgram
   num: string

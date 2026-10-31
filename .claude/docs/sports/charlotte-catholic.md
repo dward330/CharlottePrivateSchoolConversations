@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Sports
-> Distilled from 2 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-26.
+> Distilled from 2 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-31.
 **Documents:** 247Sports Recruiting Rankings, Program Championships and College Commitments
 
 

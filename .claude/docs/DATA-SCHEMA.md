@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 485 ingested research documents.
+**13 schools × 12 research areas**, 486 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 16 | 2 | 2 | 17 | 16 | 16 | 2 | 16 | 16 | 1 | 1 | 16 | 2 |
+| Sports | `sports` | 16 | 2 | 2 | 17 | 16 | 16 | 2 | 16 | 16 | 1 | 1 | 17 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -147,7 +147,7 @@ research dossier folds in behind a structured card.
 | `national-profile` | National Profile | 7/13 | 4 |
 | `power-4` | Power 4 Offers | 7/13 | 1 |
 | `pros` | Professional Athletes | 7/13 | 1 |
-| `redesign-research` | Sports Research Dossier (2026) | 10/13 | 2 |
+| `redesign-research` | Sports Research Dossier (2026) | 10/13 | 3 |
 | `sports-medicine` | Sports Medicine & Performance | 7/13 | 1 |
 | `sports-offered` | Sports Offered | 9/13 | 3 |
 | `win-loss` | Win–Loss Records | 7/13 | 2 |
@@ -243,13 +243,35 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
-| `offered` | Sports Offered | Topic 01 of 07 |
-| `record` | Winning Record | Topic 02 of 07 |
-| `pipeline` | The College Pipeline | Topic 03 of 07 |
-| `honors` | Honors & Pro Alumni | Topic 04 of 07 |
-| `coaching` | Coaching: Pedigree & Continuity | Topic 05 of 07 |
-| `facilities` | Facilities & Athlete Care | Topic 06 of 07 |
-| `national` | National Stage & NIL | Topic 07 of 07 |
+| `offered` | Sports Offered | Topic 01 of 08 |
+| `cup` | Wells Fargo Cup | Topic 02 of 08 |
+| `record` | Winning Record | Topic 03 of 08 |
+| `pipeline` | The College Pipeline | Topic 04 of 08 |
+| `honors` | Honors & Pro Alumni | Topic 05 of 08 |
+| `coaching` | Coaching: Pedigree & Continuity | Topic 06 of 08 |
+| `facilities` | Facilities & Athlete Care | Topic 07 of 08 |
+| `national` | National Stage & NIL | Topic 08 of 08 |
+
+**`cup` is a data-driven card: the ledger is shared, and `cup` only switches it on.**
+Results live in `src/data/wellsFargoCup.ts`, because one school's table needs other
+schools' rows. The `cup` key in a school's module holds its point sources and citations,
+and its presence is what renders the card, always second, after `offered`. Add a school
+with `/wells-fargo-cup`. Nine rules travel with it:
+
+- **Official association tables only.** An AI report is a lead to check, never a source.
+- **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come
+  from `src/lib/wellsFargoCup.ts`.
+- **Same-division rows only.** A school sharing the association and class in at least
+  one season gets a row; a year in another class reads "In 3A".
+- **NCHSAA schools never appear in an NCISAA table.** Their scores are not comparable.
+- **A non-roster rival goes in `CUP_DIVISION_LEADERS`,** which holds places 1–2 in every
+  division for every season.
+- **A missing year is an em dash,** never an estimate of what the school scored.
+- **Every `~` wears TO VERIFY.** `isEstimate` prints the `~`, and the tag follows it.
+- **Places are copied as published,** including out-of-order rows; `tied: true` prints
+  `T14th`.
+- **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a
+  list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.
 
 **`pipeline.roster[].rank247` holds the 247Sports Composite rank, and nothing else.**
 It renders as the 247 Nat'l / 247 State columns of the commitment roster; the columns
@@ -270,7 +292,7 @@ appear only when at least one roster row carries a rank. Five rules travel with 
 
 **Schools with data:** 13/13
 
-<details><summary>Types defined in <code>sportsProgram.ts</code> (31)</summary>
+<details><summary>Types defined in <code>sportsProgram.ts</code> (33)</summary>
 
 `SportsSource` — `label`, `url?`
 
@@ -283,6 +305,10 @@ appear only when at least one roster row carries a rank. Five rules travel with 
 `StatTile` — `value`, `label`
 
 `SportsOffered` — `headline`, `subhead?`, `stats`, `seasons`, `footnote?`, `sources`
+
+`CupPointSource` — `sport`, `gender`, `season`, `titleYears`, `runnerUpYears?`
+
+`CupProgram` — `pointSources`, `sources`
 
 `TitleCell` — `result`, `record?`, `toVerify?`
 
@@ -330,7 +356,7 @@ appear only when at least one roster row carries a rank. Five rules travel with 
 
 `NationalStage` — `headline`, `subhead?`, `stats`, `scheduleTitle?`, `schedule`, `scheduleNote?`, `nilTitle?`, `nil`, `sources`
 
-`SportsProgram` — `offered?`, `record?`, `pipeline?`, `honors?`, `coaching?`, `facilities?`, `national?`
+`SportsProgram` — `offered?`, `cup?`, `record?`, `pipeline?`, `honors?`, `coaching?`, `facilities?`, `national?`
 
 </details>
 
@@ -1208,6 +1234,30 @@ Supporting types: `ClubEvidence`, `ClubRow`
 
 Allowed `ClubEvidence` values: `verified`, `reported`
 
+### Wells Fargo Cup ledger
+
+`src/data/wellsFargoCup.ts` · root type `CupRecord`
+
+Official association standings shared by every Cup card, because one school’s table needs other schools’ rows. `CUP_DIVISION_LEADERS` holds places 1–2 in every division, on or off the roster.
+
+| Field | Type | Required |
+|---|---|---|
+| `school` | `string` | yes |
+| `association` | `CupAssociation` | yes |
+| `classification` | `string` | yes |
+| `season` | `string` | yes |
+| `place` | `number` | yes |
+| `tied` | `boolean` |  |
+| `points` | `number` | yes |
+| `isEstimate` | `boolean` | yes |
+| `fall` | `number` |  |
+| `winter` | `number` |  |
+| `spring` | `number` |  |
+
+Supporting types: `CupAssociation`, `CupDivisionLeader`, `CupSport`
+
+Allowed `CupAssociation` values: `NCISAA`, `NCHSAA`
+
 ### Podcast episodes
 
 `src/data/podcastEpisodes.ts` · root type `PodcastEpisode`
@@ -1289,7 +1339,7 @@ automatically. Every rule below is a research and authoring decision.
 | Research areas | up to 11 of 12 | **up to 11 of 12** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
 | Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, the only entry since International Travel joined Compare 2026-10-26), not a data absence |
-| Sports cards | up to 7 | **up to 3** — the 4 college-bound ones do not apply |
+| Sports cards | up to 8 | **up to 3** — the 5 college-bound ones do not apply |
 | College Support | 7 cards | **none** |
 | High School Placement | none | **up to 4 cards** |
 
@@ -1304,9 +1354,9 @@ Crediting the K-8 school with that outcome is the same error as reading a cumula
 placement split as a per-class rate. The list stays in `source-material/` and renders
 nowhere. Do not re-raise this as a fifth High School Placement card.
 
-### Sports — the four cards that do not apply
+### Sports — the 5 cards that do not apply
 
-`pipeline`, `honors`, `facilities`, `national` are college-recruiting and
+`cup`, `pipeline`, `honors`, `facilities`, `national` are college-recruiting and
 state-championship surfaces. A middle-school programme has no analogue, so their
 absence is **a property of the school, not a research gap**. `record` needs its own
 judgment: the `TitleResult` vocabulary is NCISAA STATE titles, so marking a
@@ -1365,7 +1415,7 @@ sparser in the college-facing areas and no thinner anywhere else.
 
 | Area | Cards shipped | Of possible |
 |---|---|--:|
-| sports | `offered`, `coaching` | 2/7 |
+| sports | `offered`, `coaching` | 2/8 |
 | the-arts | `ladder`, `theatre`, `music`, `visual`, `verdict` | 5/5 |
 | student-clubs | `affinity`, `service`, `honors` | 3/3 |
 | college-support | — | 0/7 |

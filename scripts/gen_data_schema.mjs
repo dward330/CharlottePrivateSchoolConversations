@@ -263,6 +263,7 @@ const STANDALONE = [
   { file: 'financialAidReports.ts', root: 'FinancialAidReport', title: 'Financial-aid deep-dive report', note: 'The structured tuition/aid card. Requires BOTH an `in-depth-report` metric key and a REPORTS entry.' },
   { file: 'clubCatalog.ts', root: 'ClubCatalog', title: 'Club catalog', note: 'The full expandable club list behind the Student Clubs cards.' },
   { file: 'clubClusters.ts', root: 'ClubClusters', title: 'Club clusters', note: 'Hand-maintained rows for the Academic & Competitive Clubs card.' },
+  { file: 'wellsFargoCup.ts', root: 'CupRecord', title: 'Wells Fargo Cup ledger', note: 'Official association standings shared by every Cup card, because one school’s table needs other schools’ rows. `CUP_DIVISION_LEADERS` holds places 1–2 in every division, on or off the roster.' },
   { file: 'podcastEpisodes.ts', root: 'PodcastEpisode', title: 'Podcast episodes', note: 'One episode per school × topic; the episode table is the single source of truth.' },
   { file: 'brands.ts', root: 'Brand', title: 'School brands', note: 'Per-school colors and marks used by the page chrome.' },
 ]
@@ -427,6 +428,30 @@ for (const s of STRUCTURED) {
   for (const c of s.cards) w(`| \`${c.key}\` | ${esc(c.title)} | ${esc(c.kicker ?? '—')} |`)
   w()
   if (s.topic === 'sports') {
+    // Standing rules set 2026-10-31 with the Cup card (plan wellsfargocup). The
+    // design's figures came from an AI report that matched 10 of 60 official
+    // cells, so a new school's /wells-fargo-cup pass needs these up front.
+    w('**`cup` is a data-driven card: the ledger is shared, and `cup` only switches it on.**')
+    w('Results live in `src/data/wellsFargoCup.ts`, because one school\'s table needs other')
+    w('schools\' rows. The `cup` key in a school\'s module holds its point sources and citations,')
+    w('and its presence is what renders the card, always second, after `offered`. Add a school')
+    w('with `/wells-fargo-cup`. Nine rules travel with it:')
+    w()
+    w('- **Official association tables only.** An AI report is a lead to check, never a source.')
+    w('- **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come')
+    w('  from `src/lib/wellsFargoCup.ts`.')
+    w('- **Same-division rows only.** A school sharing the association and class in at least')
+    w('  one season gets a row; a year in another class reads "In 3A".')
+    w('- **NCHSAA schools never appear in an NCISAA table.** Their scores are not comparable.')
+    w('- **A non-roster rival goes in `CUP_DIVISION_LEADERS`,** which holds places 1–2 in every')
+    w('  division for every season.')
+    w('- **A missing year is an em dash,** never an estimate of what the school scored.')
+    w('- **Every `~` wears TO VERIFY.** `isEstimate` prints the `~`, and the tag follows it.')
+    w('- **Places are copied as published,** including out-of-order rows; `tied: true` prints')
+    w('  `T14th`.')
+    w('- **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a')
+    w('  list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.')
+    w()
     // Standing rule set 2026-10-26 with the 247 rank columns (plan recruitranks).
     // Lives here so a new school's /add-school pass knows the field exists and
     // how it is matched — a name + class match alone attached a rank to the
@@ -909,7 +934,7 @@ w()
   // Card counts come from the live registries, so a renamed or added card
   // cannot leave this table quietly wrong.
   const nCards = (topic) => (STRUCTURED.find((x) => x.topic === topic)?.cards ?? []).length
-  const K8_SPORTS_DROPPED = ['pipeline', 'honors', 'facilities', 'national']
+  const K8_SPORTS_DROPPED = ['cup', 'pipeline', 'honors', 'facilities', 'national']
   const sportsAll = nCards('sports')
   w('| Layer | K-12 school | K-8 school |')
   w('|---|---|---|')
@@ -931,7 +956,7 @@ w()
   w('placement split as a per-class rate. The list stays in `source-material/` and renders')
   w('nowhere. Do not re-raise this as a fifth High School Placement card.')
   w()
-  w('### Sports — the four cards that do not apply')
+  w(`### Sports — the ${K8_SPORTS_DROPPED.length} cards that do not apply`)
   w()
   w(`${K8_SPORTS_DROPPED.map((k) => `\`${k}\``).join(', ')} are college-recruiting and`)
   w('state-championship surfaces. A middle-school programme has no analogue, so their')

@@ -3128,7 +3128,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-funnel-fill.is-full { background: var(--accent); }
 .sports-funnel-count { font-family: var(--heading); font-size: 18px; }
 
-/* Two-column split used by 1c, 1f and 1g. */
+/* Two-column split used by 1d, 1g and 1h. */
 .sports-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -3533,6 +3533,157 @@ html.photo-viewer-open { overflow: hidden; }
 }
 .sports-src .tag-outline { font-size: 10px; flex: none; }
 
+/* -- 1b · Wells Fargo Cup -------------------------------------------------- */
+
+.cup-explain {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.cup-hint { font-size: 12.5px; line-height: 1.5; margin-bottom: 8px; }
+.cup-tie-rule { margin: 8px 0 0; font-size: 12px; }
+
+.cup-points {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid var(--border);
+  font-size: 13px;
+}
+.cup-points-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px 10px;
+}
+.cup-points-row:nth-child(n + 3) { border-top: 1px solid var(--border); }
+.cup-points-val { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+
+.cup-sports {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  font-size: 12.5px;
+  margin-bottom: 20px;
+}
+.cup-sports-season {
+  background: var(--bg);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cup-sports-head { font-family: var(--heading); font-weight: 600; font-size: 17px; }
+.cup-sports-group { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 8px; }
+.cup-sports-gender {
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+.cup-sports-chips { display: flex; flex-wrap: wrap; gap: 4px 6px; }
+.cup-sport { padding: 1px 6px; border: 1px solid var(--border); }
+.cup-sport.is-source {
+  border: 1px solid var(--accent);
+  color: var(--accent-700);
+  font-weight: 600;
+}
+
+/* The table scrolls sideways only; its rows are never cut off vertically. */
+.cup-scroll { max-height: none; overflow-y: visible; overflow-x: auto; }
+.cup-table {
+  display: grid;
+  grid-template-columns: 180px repeat(6, minmax(0, 1fr));
+  font-size: 13px;
+}
+.cup-row { display: contents; }
+.cup-school,
+.cup-cell,
+.cup-summary-label,
+.cup-summary {
+  padding: 8px 10px;
+  border-top: 1px solid var(--border);
+}
+.cup-table .sports-th { border-bottom: none; position: static; }
+.cup-school { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.cup-cell {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+}
+.cup-school.is-selected,
+.cup-cell.is-selected { background: var(--accent); color: var(--bg); }
+.cup-place { font-family: var(--heading); font-weight: 600; font-size: 17px; }
+.cup-pts { font-size: 12px; }
+.cup-other { font-size: 11.5px; }
+.cup-summary-label,
+.cup-summary { border-top: 1px solid var(--text); }
+.cup-summary-label { font-family: var(--heading); font-weight: 600; font-size: 14px; }
+.cup-summary {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--accent-700);
+}
+
+.cup-panels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 14px;
+}
+.cup-panels.is-single { grid-template-columns: minmax(0, 1fr); }
+.cup-panel { background: var(--bg); padding: 14px; }
+.cup-panel-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+.cup-panel-note { margin: 10px 0 0; font-size: 12px; line-height: 1.5; }
+.cup-race { display: flex; flex-direction: column; gap: 10px; font-size: 12.5px; }
+.cup-race-term {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+}
+.cup-race-name { font-family: var(--heading); font-weight: 600; font-size: 14px; }
+/* One shared bar column, so the two schools' bars stay to the same scale. */
+.cup-race-bars {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3px 6px;
+  align-items: center;
+}
+.cup-race-track { display: block; min-width: 0; }
+.cup-race-bar {
+  display: block;
+  height: 8px;
+  border: 1px solid var(--muted);
+  box-sizing: border-box;
+}
+.cup-race-bar.is-own { height: 10px; background: var(--accent); border: none; }
+.cup-sources { display: flex; flex-direction: column; font-size: 12.5px; }
+.cup-source {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px 0;
+}
+.cup-source + .cup-source { border-top: 1px solid var(--border); }
+.cup-source-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+
 /* The Sports cards are wide, structured layouts: never reflow them into the
    two-column prose columns .note-card[open] applies by default. */
 .note-card-sports[open] .note-card-body { column-count: 1; }
@@ -3540,6 +3691,9 @@ html.photo-viewer-open { overflow: hidden; }
 @media (max-width: 900px) {
   .sports-board,
   .sports-split,
+  .cup-explain,
+  .cup-sports,
+  .cup-panels,
   .sports-coaches { grid-template-columns: minmax(0, 1fr); }
   .sports-panel { border-left: none; padding-left: 0; }
   /* minmax(0, …): a bare 1fr track grows to its widest stat, and a value
@@ -3551,6 +3705,7 @@ html.photo-viewer-open { overflow: hidden; }
      rather than crushing — the scroller owns the overflow. */
   .sports-scroll { overflow-x: auto; }
   .sports-matrix { min-width: 640px; }
+  .cup-table { min-width: 760px; }
   .sports-roster { min-width: 620px; }
   .sports-roster.has-ranks { min-width: 760px; }
   .sports-bar-row,

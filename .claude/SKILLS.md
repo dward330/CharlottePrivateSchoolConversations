@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**10 active** · 0 retired · Last updated **2026-10-25**
+**11 active** · 0 retired · Last updated **2026-10-31**
 
 ---
 
@@ -27,6 +27,7 @@
 | 🌍 | [`global-exposure`](#global-exposure) | Deep-research prompt → verified Global Exposure plan | ❌ Never | — |
 | 🧩 | [`learning-support`](#learning-support) | Deep-research prompt → go/no-go → Learning Support plan | ❌ Never | — |
 | 🎧 | [`learning-support-episode`](#learning-support-episode) | One school's Learning Support → podcast | ❌ Generates files | Single |
+| 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
 
 ### The main road
 
@@ -39,10 +40,11 @@
                                                         single time
 ```
 
-Four skills feed research **into** that road at any point:
+Five skills feed research **into** that road at any point:
 `nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
 ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
-in a go/no-go and then a `/plan` handoff) and `ingest-source-material` (everything else).
+in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's Cup card,
+ending the same way) and `ingest-source-material` (everything else).
 Three stand alone: `add-school-news`, `admissions-episode` and `learning-support-episode`.
 
 ---
@@ -442,6 +444,41 @@ prompt in `reports/learning-support/` (gitignored), then judges the takes the us
 
 **Deliberately cannot:** edit app code or research data, or deploy. Adding the published
 episode to `podcastEpisodes.ts` is a separate PR.
+
+---
+
+<a id="wells-fargo-cup"></a>
+
+## 🏆 `wells-fargo-cup`
+
+**Add the next school to the Sports area's Wells Fargo Cup card: re-verify its ledger rows
+against the association's own tables, confirm its point sources, and hand a GO to `/plan`.**
+
+`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31
+
+The card is data-driven, with a shared ledger in `src/data/wellsFargoCup.ts` and everything
+computed in `src/lib/wellsFargoCup.ts`. So a new school normally needs a `cup` block and no
+component change. Providence Day is the shipped model.
+
+**Use it when** a school should get the Cup card: `/wells-fargo-cup`, "add the Wells Fargo
+Cup for <school>", "add the next school to the Cup card".
+
+| Step | What it does |
+|---|---|
+| **1** | Asks which school; stops on a K-8 school, one that already has `cup`, or one not in `schools.json`. |
+| **2** | Fetches every season's official table and compares that school's rows and its divisions' leaders. |
+| **3** | Confirms each point-source year against a citable page and drops the rest. |
+| **4** | Reports **GO / NO-GO**, with the computed headline, tiles and table rows. GO needs one verified season. |
+| **5–6** | Saves the record to `source-material/sports/<slug>/` and invokes `/plan` as `<slug>cup`. |
+
+> **🔒 Official association tables only.** An AI report is a lead to check, never a source:
+> the report behind the design matched 10 of 60 official cells.
+
+> **🧮 Computed figures are never typed.** A component change for one school means the
+> shared logic has a gap, and the skill says so.
+
+**Deliberately cannot:** edit app code, use an estimate for an unverified season, list a
+"recurring point source" with no confirmed year, or deploy.
 
 ---
 

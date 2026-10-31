@@ -112,7 +112,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](sports/davidson-day.md) — 16 docs
 - [Gaston Day School](sports/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](sports/hickory-grove-christian.md) — 1 docs
-- [Providence Day School](sports/providence-day.md) — 16 docs
+- [Providence Day School](sports/providence-day.md) — 17 docs
 - [Trinity Episcopal School](sports/trinity-episcopal.md) — 2 docs
 
 ### Student Clubs (`student-clubs/`)
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 485 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 486 documents across 12 topics and 13 schools.

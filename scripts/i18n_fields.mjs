@@ -204,6 +204,7 @@ export const SKIP_KEYS = new Map([
   ['cls', 'class year — "\'26"'],
   ['cats', 'internal category code (lac75)'],
   ['sport', 'sport name — matched against English data elsewhere'],
+  ['gender', 'render code — boys / girls / both, mapped to a locale key'],
   ['program', 'sport/program name'],
   ['record', 'win–loss figure — "12–1"'],
   ['value', 'numeric stat figure'],
@@ -281,7 +282,7 @@ export const SKIP_KEYS = new Map([
  *                                             every other work title in this corpus
  */
 export const REVIEWED_SKIPS = new Set([
-  'basis', 'cats', 'defaultRow', 'fee', 'grades', 'path',
+  'basis', 'cats', 'defaultRow', 'fee', 'gender', 'grades', 'path',
   'price', 'record', 'shade', 'show', 'src', 'tagStyle',
 ])
 
@@ -321,6 +322,10 @@ export const PATH_OVERRIDES = new Map([
   // parent-facing content. Coverage read 100% throughout — only a runtime
   // resolution test sees it.
   ['*.flags[].kind', false],
+
+  // `pointSources[].season` is an enum (fall / winter / spring) that keys the
+  // Cup card's outlines, while the leaf `season` is prose for season names.
+  ['*.cup.pointSources[].season', false],
 
   // Citation labels are publisher + page name: "providenceday.org — Arts overview".
   // Half proper noun, half descriptive. Left English so a citation always matches
