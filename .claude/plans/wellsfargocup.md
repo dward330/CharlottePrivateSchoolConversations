@@ -288,3 +288,7 @@ Phase 2 deviations from the plan:
 - **`ht` lists every ordinal category.** ICU has no `ht` data, so `Intl.PluralRules` resolves it to the browser's default locale, and any category left out would render the English ordinal.
 - **Two CSS fixes the translations exposed.** `.cup-cell` now wraps, because a long tie label ran into the next column, and the gender column is `minmax(44px, max-content)`, because `FEMMINILE` did not fit 44px. `.cup-sports-gender` and `.cup-panel-h` joined the non-Latin caps-tracking reset.
 - **The six-year table scrolls (user, 2026-10-31).** `.cup-scroll` is `max-height: 365px`, which opens at six schools in English, with the header and lead row pinned. Translated rows can run taller, so Arabic shows fewer. In print it drops the limit and shows all 19 rows. The print rule uses doubled selectors because the later screen rules would otherwise win.
+
+After release:
+
+- **Latest year first (user, 2026-10-31).** The six-year table runs newest to oldest from the reading edge, so `2025–26` is the first column. Only the display order changed: `CUP_SEASONS` and every rule stay oldest first, and `CupTable` reverses the seasons and summary values together.
