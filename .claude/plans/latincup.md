@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-10-31
 branch: feat/latincup
-prs: []
+prs: [386]
 ---
 
 # Charlotte Latin Wells Fargo Cup card
