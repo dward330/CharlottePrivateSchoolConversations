@@ -454,7 +454,7 @@ episode to `podcastEpisodes.ts` is a separate PR.
 **Add the next school to the Sports area's Wells Fargo Cup card: re-verify its ledger rows
 against the association's own tables, confirm its point sources, and hand a GO to `/plan`.**
 
-`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31
+`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31 · updated 2026-10-31
 
 The card is data-driven, with a shared ledger in `src/data/wellsFargoCup.ts` and everything
 computed in `src/lib/wellsFargoCup.ts`. So a new school normally needs a `cup` block and no
@@ -467,7 +467,7 @@ Cup for <school>", "add the next school to the Cup card".
 |---|---|
 | **1** | Asks which school; stops on a K-8 school, one that already has `cup`, or one not in `schools.json`. |
 | **2** | Fetches every season's official table and compares that school's rows and its divisions' leaders. |
-| **3** | Confirms each point-source year against a citable page and drops the rest. |
+| **3** | Builds the point sources for all six seasons from the NCISAA bracket archive and the school's title list, not the three-season `record` card, and drops anything unconfirmed. |
 | **4** | Reports **GO / NO-GO**, with the computed headline, tiles and table rows. GO needs one verified season. |
 | **5–6** | Saves the record to `source-material/sports/<slug>/` and invokes `/plan` as `<slug>cup`. |
 
