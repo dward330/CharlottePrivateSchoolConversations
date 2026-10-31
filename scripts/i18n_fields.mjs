@@ -325,7 +325,7 @@ export const PATH_OVERRIDES = new Map([
 
   // `pointSources[].season` is an enum (fall / winter / spring) that keys the
   // Cup card's outlines, while the leaf `season` is prose for season names.
-  ['*.cup.pointSources[].season', false],
+  ['cup.pointSources[].season', false],
 
   // Citation labels are publisher + page name: "providenceday.org — Arts overview".
   // Half proper noun, half descriptive. Left English so a citation always matches
