@@ -1,12 +1,12 @@
 ---
 name: cannonlearningepisode
 title: Add podcast episodes 42 (Charlotte Latin — Global Exposure), 43 (Cannon — Learning Support) and 44 (Charlotte Country Day — Learning Support) to their school pages
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-10-27
 amended: 2026-10-31
 branch: feat/learning-support-episodes
-prs: []
+prs: [385]
 ---
 
 # Add podcast episodes 42–44 — the two Learning Support episodes (and the Latin episode before them)
