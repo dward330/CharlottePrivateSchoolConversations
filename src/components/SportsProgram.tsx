@@ -12,7 +12,7 @@
 // silently guessed at.
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { number, winPct, localizeMoneyText } from '../lib/format.ts'
+import { number, winPct, localizeMoneyText, isolateFigures } from '../lib/format.ts'
 import { SHOW_TO_VERIFY } from '../lib/toVerify.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
@@ -197,7 +197,7 @@ function cupHeadlineText(stats: CupHeadline, t: ReturnType<typeof useTranslation
 /** The computed Cup headline, which also serves as the card's collapsed teaser. */
 export function wellsFargoCupHeadline(slug: string, t: ReturnType<typeof useTranslation>['t']) {
   const stats = headlineStats(slug)
-  return stats ? cupHeadlineText(stats, t) : ''
+  return stats ? isolateFigures(cupHeadlineText(stats, t)) : ''
 }
 
 /** The "How points are earned" grid: 1st–4th beside 5th–8th. */
@@ -277,7 +277,7 @@ function CupTable({ slug }: { slug: string }) {
         <div className="sports-th">{t('sports.cup.school')}</div>
         {CUP_SEASONS.map((season) => (
           <div key={season} className="sports-th">
-            {season}
+            {isolateFigures(season)}
           </div>
         ))}
         {divisionRows(slug).map((row) => {
@@ -342,7 +342,7 @@ function CupRace({ slug, stats }: { slug: string; stats: CupHeadline }) {
   return (
     <div className="cup-panel">
       <div className="cup-panel-h">
-        {t(won ? 'sports.cup.raceWon' : 'sports.cup.raceResult', { season: latest.season })}
+        {isolateFigures(t(won ? 'sports.cup.raceWon' : 'sports.cup.raceResult', { season: latest.season }))}
       </div>
       <div className="cup-race">
         {CUP_TERMS.map((term: CupTerm) => (
@@ -453,6 +453,7 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       label: t(`sports.cup.tileBest_${bestSeason.term}`, { season: latest.season, school }),
     })
   }
+  const isolatedTiles = tiles.map((tile) => ({ ...tile, label: isolateFigures(tile.label) }))
 
   return (
     <div className="sports-body">
@@ -500,7 +501,7 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       </div>
       <CupSportsGrid association={association} cup={data} />
 
-      <StatStrip stats={tiles} />
+      <StatStrip stats={isolatedTiles} />
 
       <Heading>
         {t('sports.cup.tableTitle', { count: CUP_SEASONS.length, association, classification })}

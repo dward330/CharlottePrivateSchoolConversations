@@ -3577,7 +3577,7 @@ html.photo-viewer-open { overflow: hidden; }
   gap: 8px;
 }
 .cup-sports-head { font-family: var(--heading); font-weight: 600; font-size: 17px; }
-.cup-sports-group { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 8px; }
+.cup-sports-group { display: grid; grid-template-columns: minmax(44px, max-content) minmax(0, 1fr); gap: 8px; }
 .cup-sports-gender {
   font-size: 10.5px;
   letter-spacing: 0.1em;
@@ -3593,7 +3593,15 @@ html.photo-viewer-open { overflow: hidden; }
 }
 
 /* The table scrolls sideways only; its rows are never cut off vertically. */
-.cup-scroll { max-height: none; overflow-y: visible; overflow-x: auto; }
+/* Opens about six schools tall; the header and the lead row stay in view. */
+.cup-scroll { max-height: 365px; overflow: auto; }
+/* Doubled selectors: a print rule here must outrank the later screen rules. */
+@media print {
+  .sports-scroll.cup-scroll { max-height: none; overflow: visible; }
+  .cup-table .sports-th,
+  .cup-table .cup-summary-label,
+  .cup-table .cup-summary { position: static; }
+}
 .cup-table {
   display: grid;
   grid-template-columns: 180px repeat(6, minmax(0, 1fr));
@@ -3607,12 +3615,13 @@ html.photo-viewer-open { overflow: hidden; }
   padding: 8px 10px;
   border-top: 1px solid var(--border);
 }
-.cup-table .sports-th { border-bottom: none; position: static; }
+.cup-table .sports-th { border-bottom: none; }
 .cup-school { font-family: var(--heading); font-weight: 600; font-size: 15px; }
 .cup-cell {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 6px;
+  gap: 0 6px;
   white-space: nowrap;
 }
 .cup-school.is-selected,
@@ -3621,7 +3630,13 @@ html.photo-viewer-open { overflow: hidden; }
 .cup-pts { font-size: 12px; }
 .cup-other { font-size: 11.5px; }
 .cup-summary-label,
-.cup-summary { border-top: 1px solid var(--text); }
+.cup-summary {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background: var(--bg);
+  border-top: 1px solid var(--text);
+}
 .cup-summary-label { font-family: var(--heading); font-weight: 600; font-size: 14px; }
 .cup-summary {
   font-family: var(--heading);
@@ -6300,6 +6315,8 @@ a.cs-college-name:focus-visible {
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .courses-deptname,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-h,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cup-sports-gender,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cup-panel-h,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-season-head,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-pro-kicker,
 :root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-h,

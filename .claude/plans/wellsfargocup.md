@@ -1,7 +1,7 @@
 ---
 name: wellsfargocup
 title: Add a data-driven Wells Fargo Cup card to Sports, with Providence Day first
-status: english-done
+status: in-progress
 phases: 2
 created: 2026-10-31
 branch: feat/wellsfargocup
@@ -279,3 +279,12 @@ Phase 1 deviations from the plan:
 - **`add-school` worked example** changed from 5/7 to 5/8 cards, since the old denominator was now false.
 - **The six-year table shows all of 4A (user, 2026-10-31).** This overrides "4A schools we cover": 72 rows for 12 non-roster schools joined `CUP_RECORDS` from the same official tables, giving 19 rows, and the heading is now `{{count}} years · every {{association}} {{classification}} school`. `divisionRows` sorts by each school's latest shared season, then place, because Greensboro Day's 2nd in 3A would otherwise rank near the top. `leadRow` is now the margin over 2nd place from the leaders table, labelled `{{school}} lead over 2nd place`, since "local" no longer described the table; PD's values are unchanged. `check:cup` fails if a card's division is incomplete.
 - **Two notes removed at the English review (user, 2026-10-31).** The NCHSAA/Charlotte Catholic note and the table footnote ("Places are … finishes; gaps are schools we don't cover") no longer render, so `sports.cup.nchsaaNote`, `sports.cup.footnote`, `nchsaaWinner` and PD's VarsityNC citation are gone. Charlotte Catholic's ledger row stays. `estimateNote` now renders on its own, beside TO VERIFY, when a table holds a `~` row. Do not translate the removed keys in Phase 2.
+
+Phase 2 deviations from the plan:
+
+- **Chrome only, as predicted.** `cup.sources[].label` stays English, so no overlay changed. All nine catalogs gained `cards.sports.cup` and `sports.cup.*`, insert-only (the locale diff has no deleted lines).
+- **Five render sites needed `isolateFigures()`.** `t()` chrome skips the `localized()` transform, so a bare season such as `2025–26` would have reversed in `fa`/`ar`. The collapsed teaser, table headers, tile labels and bars heading now isolate it. `Lead` already did. A glyph x-position scan shows every same-line range in order, and stripping an isolate on purpose fails the same scan.
+- **`fa`/`ar` spell `1A–4A` as words, and carry `⁦…⁩` around the tie-rule formula.** It is the only isolate stored in a locale catalog. Its spaces are no-break so the formula cannot split across lines.
+- **`ht` lists every ordinal category.** ICU has no `ht` data, so `Intl.PluralRules` resolves it to the browser's default locale, and any category left out would render the English ordinal.
+- **Two CSS fixes the translations exposed.** `.cup-cell` now wraps, because a long tie label ran into the next column, and the gender column is `minmax(44px, max-content)`, because `FEMMINILE` did not fit 44px. `.cup-sports-gender` and `.cup-panel-h` joined the non-Latin caps-tracking reset.
+- **The six-year table scrolls (user, 2026-10-31).** `.cup-scroll` is `max-height: 365px`, which opens at six schools in English, with the header and lead row pinned. Translated rows can run taller, so Arabic shows fewer. In print it drops the limit and shows all 19 rows. The print rule uses doubled selectors because the later screen rules would otherwise win.
