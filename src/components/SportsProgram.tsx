@@ -267,6 +267,9 @@ function CupTable({ slug }: { slug: string }) {
   const lead = leadRow(slug)
   const won = lead.some((v) => v != null)
   const summary = won ? lead : gapBehindFirst(slug)
+  // Latest year on the left. CUP_SEASONS and the summary values run oldest first.
+  const seasons = [...CUP_SEASONS].reverse()
+  const summaryValues = [...summary].reverse()
   const ordinal = (place: number, tied?: boolean) => {
     const o = t('sports.cup.place', { count: place, ordinal: true })
     return tied ? t('sports.cup.tied', { place: o }) : o
@@ -275,7 +278,7 @@ function CupTable({ slug }: { slug: string }) {
     <div className="sports-scroll cup-scroll">
       <div className="cup-table">
         <div className="sports-th">{t('sports.cup.school')}</div>
-        {CUP_SEASONS.map((season) => (
+        {seasons.map((season) => (
           <div key={season} className="sports-th">
             {isolateFigures(season)}
           </div>
@@ -285,7 +288,7 @@ function CupTable({ slug }: { slug: string }) {
           return (
             <div key={row} className="cup-row">
               <div className={`cup-school${sel}`}>{cupName(row)}</div>
-              {CUP_SEASONS.map((season) => {
+              {seasons.map((season) => {
                 const c = cupCell(row, season, slug)
                 return (
                   <div key={season} className={`cup-cell${sel}`}>
@@ -315,8 +318,8 @@ function CupTable({ slug }: { slug: string }) {
               ? t('sports.cup.leadRow', { school: cupName(slug) })
               : t('sports.cup.gapRow')}
           </div>
-          {summary.map((value, i) => (
-            <div key={CUP_SEASONS[i]} className="cup-summary">
+          {summaryValues.map((value, i) => (
+            <div key={seasons[i]} className="cup-summary">
               {value == null ? (
                 <span className="text-muted">—</span>
               ) : (
