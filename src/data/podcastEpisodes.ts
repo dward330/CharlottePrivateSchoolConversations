@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–41. */
+  /** Episode number in the show, 1–44. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–41), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–44), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -607,6 +607,53 @@ export const EPISODES: PodcastEpisode[] = [
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000796645045',
     schools: ['charlotte-country-day'],
     researchArea: 'international-travel',
+  },
+  {
+    id: 42,
+    // The third hand-written Global Exposure deep dive (after 40, Providence
+    // Day, and 41, Charlotte Country Day), giving Charlotte Latin's Global
+    // Exposure section its Listen strip.
+    title: 'Charlotte Latin: Global Exposure',
+    // Published: "Charlotte Latin: Global Exposure — Sister Schools, Summer Travel and School Year Abroad"
+    fullTitle:
+      'Charlotte Latin: Global Exposure — Sister Schools, Summer Travel and School Year Abroad',
+    spotifyUrl: 'https://open.spotify.com/episode/4PUzj2VJKXygIwhepVII81',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000797059237',
+    schools: ['charlotte-latin'],
+    researchArea: 'international-travel',
+  },
+  {
+    id: 43,
+    // The first `/learning-support-episode` production and the first episode
+    // to map to `learning-support`, giving Cannon's Learning Support & Student
+    // Services section its Listen strip. Take 2 of the v2 prompt was judged
+    // publishable; take 1 spoke a crisis-line number and called OT/PT
+    // "outsourced".
+    title: 'Cannon: Learning Support',
+    // Published: "Cannon School: Learning Support and Student Services"
+    fullTitle: 'Cannon School: Learning Support and Student Services',
+    spotifyUrl: 'https://open.spotify.com/episode/4ErtZ1ZQCX8eWIavo5trPi',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000798155746',
+    schools: ['cannon'],
+    researchArea: 'learning-support',
+  },
+  {
+    id: 44,
+    // The second `/learning-support-episode` production, giving Charlotte
+    // Country Day's Learning Support & Student Services section its Listen
+    // strip. Six takes were judged re-do before take 7 of the v6 prompt, whose
+    // content was the cleanest of the run.
+    title: 'Charlotte Country Day: Learning Support',
+    // Published: "Charlotte Country Day - Learning Support - Two Doors In, Per-Session Support and Therapy on Campus"
+    fullTitle:
+      'Charlotte Country Day - Learning Support - Two Doors In, Per-Session Support and Therapy on Campus',
+    spotifyUrl: 'https://open.spotify.com/episode/1PC0EZAAOmCE1TzvNw6Iar',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000798499679',
+    schools: ['charlotte-country-day'],
+    researchArea: 'learning-support',
   },
 ]
 
