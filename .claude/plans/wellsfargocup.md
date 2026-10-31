@@ -1,11 +1,11 @@
 ---
 name: wellsfargocup
 title: Add a data-driven Wells Fargo Cup card to Sports, with Providence Day first
-status: in-progress
+status: implemented
 phases: 2
 created: 2026-10-31
 branch: feat/wellsfargocup
-prs: []
+prs: [383]
 ---
 
 # Wells Fargo Cup card
