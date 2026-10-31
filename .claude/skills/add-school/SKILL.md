@@ -106,7 +106,7 @@ would be wrong the first time someone adds one. Take from it:
   | College Support | a column | **not a column — do not sweep it** |
   | High School Placement | not a column | **a column, and the headline one** |
   | Compare rows (§4) | 30 rows to score | **none — the school is Compare-excluded** |
-  | Sports cards (§3) | up to 7 | **up to 3**; `pipeline`/`honors`/`facilities`/`national` do not apply |
+  | Sports cards (§3) | up to 8 | **up to 3**; `cup`/`pipeline`/`honors`/`facilities`/`national` do not apply |
 
   §7 also carries what the first K–8 school ACTUALLY shipped per area, read live from its
   data files. **That table is the realistic target**, not the registry maxima beside it —
@@ -185,7 +185,7 @@ College Support out, High School Placement in.
 | Research area | Core prose cards | Structured card | Compare rows | Coverage | Verdict |
 |---|--:|--:|--:|--:|---|
 | Course Offerings | 1/1 | — | 2/3 | **~75%** (3/4) | include |
-| Sports | 12/14 | fields for 5/7 cards | 2/2 | **~83%** (19/23) | include |
+| Sports | 12/14 | fields for 5/8 cards | 2/2 | **~83%** (19/23) | include |
 | After School | 2/4 | fields for 1/4 cards | 0/2 | **~30%** (3/10) | **thin** |
 
 Rules for the table:

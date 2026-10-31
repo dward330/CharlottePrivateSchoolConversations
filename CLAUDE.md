@@ -261,6 +261,21 @@ deep-research prompt, so a new school picks them up.
 See [`.claude/skills/learning-support/SKILL.md`](.claude/skills/learning-support/SKILL.md)
 and [`src/data/learningSupport/README.md`](src/data/learningSupport/README.md).
 
+### Wells Fargo Cup card — `/wells-fargo-cup`
+
+**Wells Fargo Cup** is a data-driven card in Sports, added 2026-10-31 from a Claude Design
+handoff with Providence Day first. It is **always second**, after Sports Offered. A shared
+ledger (`src/data/wellsFargoCup.ts`) drives every headline, tile and table through
+`src/lib/wellsFargoCup.ts`, and a `cup` key in a school's module is what turns the card on.
+`/wells-fargo-cup` adds each later school, then hands off to `/plan`.
+
+**Figures come only from the association's own published tables.** An AI report is a lead
+to check, never a source: the report behind the design matched 10 of 60 official cells, so
+its "six straight" is wrong, and Providence Day won 5 of 6. Computed figures are never
+typed, and `npm run check:cup` guards the ledger inside the build.
+
+See [`.claude/skills/wells-fargo-cup/SKILL.md`](.claude/skills/wells-fargo-cup/SKILL.md).
+
 ## Podcast episode standard (required)
 
 Every NotebookLM prompt written for an episode of *Charlotte Private School Conversations*,

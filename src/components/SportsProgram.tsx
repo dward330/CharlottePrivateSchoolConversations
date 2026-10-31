@@ -1,4 +1,4 @@
-// The "Sports" research area — the expanded bodies of the seven consolidated
+// The "Sports" research area — the expanded bodies of the eight consolidated
 // Sports cards on the school detail page (see data/sportsProgram.ts for the
 // data and the card contract).
 //
@@ -12,17 +12,36 @@
 // silently guessed at.
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { winPct, localizeMoneyText } from '../lib/format.ts'
+import { number, winPct, localizeMoneyText, isolateFigures } from '../lib/format.ts'
 import { SHOW_TO_VERIFY } from '../lib/toVerify.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 import { PhotoViewer, PhotoZoomButton, type ViewerPhoto } from './PhotoViewer.tsx'
 import { usePhotoViewer } from './usePhotoViewer.ts'
+import { CUP_POINTS, CUP_SEASONS, CUP_SPORTS } from '../data/wellsFargoCup.ts'
+import {
+  CUP_TERMS,
+  classLabel,
+  cell as cupCell,
+  cupName,
+  divisionRows,
+  gapBehindFirst,
+  hasEstimate,
+  headlineStats,
+  isComeback,
+  isCupOutlined,
+  leadRow,
+  nearestRival,
+  pointsToken,
+  type CupHeadline,
+  type CupTerm,
+} from '../lib/wellsFargoCup.ts'
 import type {
   Coaching,
   CollegePipeline,
   CommitLevel,
+  CupProgram,
   Facilities,
   HonorsAndPros,
   Level,
@@ -48,12 +67,14 @@ function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
 }
 
 /** The four-up stat strip used by 1a and 1g. */
-function StatStrip({ stats }: { stats: StatTile[] }) {
+function StatStrip({ stats }: { stats: (Omit<StatTile, 'value'> & { value: React.ReactNode })[] }) {
   return (
     <div className="sports-stats hairline-grid">
       {stats.map((s) => (
         <div key={s.label} className="sports-stat">
-          <div className="sports-stat-val">{localizeMoneyText(s.value)}</div>
+          <div className="sports-stat-val">
+            {typeof s.value === 'string' ? localizeMoneyText(s.value) : s.value}
+          </div>
           <div className="sports-stat-label text-muted">{s.label}</div>
         </div>
       ))}
@@ -131,7 +152,380 @@ export function SportsOfferedBody({ data }: { data: SportsOffered }) {
   )
 }
 
-/* --------------------------------------------------- 1b · winning record -- */
+/* ------------------------------------------------- 1b · wells fargo cup -- */
+
+/** "+2.5" or "−170". Signed tokens stay left-to-right inside RTL prose. */
+function CupSigned({ value }: { value: number }) {
+  return <bdi dir="ltr">{`${value >= 0 ? '+' : '−'}${number(Math.abs(value))}`}</bdi>
+}
+
+/** The headline sentence for whichever state the school is in. */
+function cupHeadlineText(stats: CupHeadline, t: ReturnType<typeof useTranslation>['t']) {
+  const { latest, lastWin, bestFinish, cupsWon, seasonsTotal, currentStreak } = stats
+  if (currentStreak >= 2) {
+    return t('sports.cup.headlineStreak', {
+      count: currentStreak,
+      association: latest.association,
+      classification: latest.classification,
+      won: cupsWon,
+      total: seasonsTotal,
+    })
+  }
+  if (cupsWon >= 2) {
+    return t('sports.cup.headlineMulti', {
+      association: latest.association,
+      won: cupsWon,
+      total: seasonsTotal,
+    })
+  }
+  if (lastWin) {
+    return t('sports.cup.headlineSingle', {
+      association: lastWin.association,
+      classification: lastWin.classification,
+      season: lastWin.season,
+    })
+  }
+  const ordinal = t('sports.cup.place', { count: bestFinish.place, ordinal: true })
+  return t('sports.cup.headlineNever', {
+    place: bestFinish.tied ? t('sports.cup.tied', { place: ordinal }) : ordinal,
+    association: bestFinish.association,
+    classification: bestFinish.classification,
+    season: bestFinish.season,
+  })
+}
+
+/** The computed Cup headline, which also serves as the card's collapsed teaser. */
+export function wellsFargoCupHeadline(slug: string, t: ReturnType<typeof useTranslation>['t']) {
+  const stats = headlineStats(slug)
+  return stats ? isolateFigures(cupHeadlineText(stats, t)) : ''
+}
+
+/** The "How points are earned" grid: 1st–4th beside 5th–8th. */
+function CupPointsGrid() {
+  const { t } = useTranslation()
+  const placeLabel = (place: number) => {
+    const ordinal = t('sports.cup.place', { count: place, ordinal: true })
+    if (place === 1) return t('sports.cup.pointsFirst', { place: ordinal })
+    if (place === 2) return t('sports.cup.pointsSecond', { place: ordinal })
+    return ordinal
+  }
+  return (
+    <div className="cup-points">
+      {[0, 4, 1, 5, 2, 6, 3, 7].map((i) => (
+        <div key={i} className="cup-points-row">
+          <span>{placeLabel(i + 1)}</span>
+          <span className="cup-points-val">{number(CUP_POINTS[i])}</span>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+/** "Sports that count": one column per season, with the school's sources outlined. */
+function CupSportsGrid({ association, cup }: { association: 'NCISAA' | 'NCHSAA'; cup: CupProgram }) {
+  const { t } = useTranslation()
+  return (
+    <div className="cup-sports">
+      {CUP_TERMS.map((term) => {
+        const sports = CUP_SPORTS[association][term]
+        return (
+          <div key={term} className="cup-sports-season">
+            <div className="cup-sports-head">{t(`sports.cup.term_${term}`)}</div>
+            {(['boys', 'girls', 'both'] as const).map((gender) => {
+              const group = sports.filter((s) => s.gender === gender)
+              if (group.length === 0) return null
+              return (
+                <div key={gender} className="cup-sports-group">
+                  {gender !== 'both' && (
+                    <span className="cup-sports-gender text-muted">
+                      {t(`sports.cup.gender_${gender}`)}
+                    </span>
+                  )}
+                  <div className="cup-sports-chips">
+                    {group.map((s) => (
+                      <span
+                        key={s.key}
+                        className={`cup-sport${isCupOutlined(cup, term, gender, s.key) ? ' is-source' : ''}`}
+                      >
+                        {t(`sports.cup.sport_${s.key}`)}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+/** The six-year table, ending in the lead row or the gap-behind-1st row. */
+function CupTable({ slug }: { slug: string }) {
+  const { t } = useTranslation()
+  const lead = leadRow(slug)
+  const won = lead.some((v) => v != null)
+  const summary = won ? lead : gapBehindFirst(slug)
+  const ordinal = (place: number, tied?: boolean) => {
+    const o = t('sports.cup.place', { count: place, ordinal: true })
+    return tied ? t('sports.cup.tied', { place: o }) : o
+  }
+  return (
+    <div className="sports-scroll cup-scroll">
+      <div className="cup-table">
+        <div className="sports-th">{t('sports.cup.school')}</div>
+        {CUP_SEASONS.map((season) => (
+          <div key={season} className="sports-th">
+            {isolateFigures(season)}
+          </div>
+        ))}
+        {divisionRows(slug).map((row) => {
+          const sel = row === slug ? ' is-selected' : ''
+          return (
+            <div key={row} className="cup-row">
+              <div className={`cup-school${sel}`}>{cupName(row)}</div>
+              {CUP_SEASONS.map((season) => {
+                const c = cupCell(row, season, slug)
+                return (
+                  <div key={season} className={`cup-cell${sel}`}>
+                    {c == null ? (
+                      <span className="text-muted">—</span>
+                    ) : 'otherClass' in c ? (
+                      <span className="cup-other text-muted">
+                        {t('sports.cup.otherClass', { classification: c.otherClass })}
+                      </span>
+                    ) : (
+                      <>
+                        <span className="cup-place">{ordinal(c.result.place, c.result.tied)}</span>
+                        <bdi dir="ltr" className={`cup-pts${sel ? '' : ' text-muted'}`}>
+                          {pointsToken(c.result, number)}
+                        </bdi>
+                      </>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          )
+        })}
+        <div className="cup-row">
+          <div className="cup-summary-label">
+            {won
+              ? t('sports.cup.leadRow', { school: cupName(slug) })
+              : t('sports.cup.gapRow')}
+          </div>
+          {summary.map((value, i) => (
+            <div key={CUP_SEASONS[i]} className="cup-summary">
+              {value == null ? (
+                <span className="text-muted">—</span>
+              ) : (
+                <CupSigned value={won ? value : -value} />
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/** Latest-year fall/winter/spring bars, selected school against its rival. */
+function CupRace({ slug, stats }: { slug: string; stats: CupHeadline }) {
+  const { t } = useTranslation()
+  const { latest } = stats
+  const rival = nearestRival(slug, latest.season)
+  if (!rival) return null
+  const won = latest.place === 1
+  const max = Math.max(...CUP_TERMS.flatMap((term) => [latest[term] ?? 0, rival[term] ?? 0]))
+  const margin = stats.latestMargin?.value ?? 0
+  return (
+    <div className="cup-panel">
+      <div className="cup-panel-h">
+        {isolateFigures(t(won ? 'sports.cup.raceWon' : 'sports.cup.raceResult', { season: latest.season }))}
+      </div>
+      <div className="cup-race">
+        {CUP_TERMS.map((term: CupTerm) => (
+          <div key={term} className="cup-race-term">
+            <span className="cup-race-name">{t(`sports.cup.term_${term}`)}</span>
+            <div className="cup-race-bars">
+              <span className="cup-race-track">
+                <span
+                  className="cup-race-bar is-own"
+                  style={{ width: `${((latest[term] ?? 0) / max) * 100}%` }}
+                />
+              </span>
+              <span>
+                {cupName(slug)} {number(latest[term] ?? 0)}
+              </span>
+              <span className="cup-race-track">
+                <span
+                  className="cup-race-bar"
+                  style={{ width: `${((rival[term] ?? 0) / max) * 100}%` }}
+                />
+              </span>
+              <span className="text-muted">
+                {rival.name} {number(rival[term] ?? 0)}
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+      {isComeback(slug) && (
+        <p className="cup-panel-note text-muted">
+          {t('sports.cup.comeback', {
+            rival: rival.name,
+            school: cupName(slug),
+            margin: number(margin),
+          })}
+        </p>
+      )}
+    </div>
+  )
+}
+
+/** "Where the points come from": the school's verified titles and finals. */
+function CupPointSources({ slug, cup }: { slug: string; cup: CupProgram }) {
+  const { t } = useTranslation()
+  return (
+    <div className="cup-panel">
+      <div className="cup-panel-h">{t('sports.cup.pointsFrom', { school: cupName(slug) })}</div>
+      <div className="cup-sources">
+        {cup.pointSources.map((s) => (
+          <div key={`${s.gender}-${s.sport}`} className="cup-source">
+            <span className="cup-source-name">
+              {t(`sports.cup.genderSport_${s.gender}`, { sport: t(`sports.cup.sport_${s.sport}`) })}
+            </span>
+            <span className="text-muted">
+              {s.titleYears.length > 0 && t('sports.cup.titles', { years: s.titleYears.join(', ') })}
+              {s.titleYears.length > 0 && (s.runnerUpYears?.length ?? 0) > 0 && ' · '}
+              {(s.runnerUpYears?.length ?? 0) > 0 &&
+                t('sports.cup.runnerUps', { years: s.runnerUpYears?.join(', ') })}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgram }) {
+  const { t } = useTranslation()
+  const stats = headlineStats(slug)
+  if (!stats) return null
+
+  const { latest, peak, latestMargin, bestSeason, cupsWon, seasonsTotal } = stats
+  const school = cupName(slug)
+  const classification = classLabel(slug)
+  const { association } = latest
+  const rival = latestMargin?.rival
+  const won = latest.place === 1
+  const showRace = nearestRival(slug, latest.season) != null
+  const hasSources = data.pointSources.length > 0
+  const estimated = hasEstimate(slug)
+
+  const tiles: { value: React.ReactNode; label: string }[] = [
+    {
+      value: `${cupsWon} / ${seasonsTotal}`,
+      label: t('sports.cup.tileCups', {
+        classification,
+        first: CUP_SEASONS[0],
+        last: CUP_SEASONS[CUP_SEASONS.length - 1],
+      }),
+    },
+    {
+      value: <bdi dir="ltr">{pointsToken(peak, number)}</bdi>,
+      label: t('sports.cup.tilePeak', { season: peak.season }),
+    },
+  ]
+  if (latestMargin && rival) {
+    tiles.push({
+      value: <CupSigned value={latestMargin.value} />,
+      label: t(won ? 'sports.cup.tileMargin' : 'sports.cup.tileGap', {
+        season: latest.season,
+        rival: rival.name,
+      }),
+    })
+  }
+  if (bestSeason) {
+    tiles.push({
+      value: number(bestSeason.points),
+      label: t(`sports.cup.tileBest_${bestSeason.term}`, { season: latest.season, school }),
+    })
+  }
+  const isolatedTiles = tiles.map((tile) => ({ ...tile, label: isolateFigures(tile.label) }))
+
+  return (
+    <div className="sports-body">
+      <Lead
+        headline={cupHeadlineText(stats, t)}
+        subhead={
+          won && latestMargin && rival
+            ? t('sports.cup.subhead', {
+                season: latest.season,
+                margin: number(latestMargin.value),
+                points: number(latest.points),
+                rival: rival.name,
+                rivalPoints: number(rival.points),
+              })
+            : undefined
+        }
+      />
+
+      <div className="cup-explain">
+        <div>
+          <Heading>{t('sports.cup.whatTitle')}</Heading>
+          <p className="sports-p">{t('sports.cup.what1')}</p>
+          <p className="sports-p">
+            {t('sports.cup.what2', {
+              school,
+              association,
+              classification: latest.classification,
+            })}
+          </p>
+          <p className="sports-p">{t('sports.cup.what3')}</p>
+        </div>
+        <div>
+          <Heading>{t('sports.cup.pointsTitle')}</Heading>
+          <div className="cup-hint text-muted">{t('sports.cup.pointsHint')}</div>
+          <CupPointsGrid />
+          <p className="cup-hint cup-tie-rule text-muted">{t('sports.cup.tieRule')}</p>
+        </div>
+      </div>
+
+      <Heading>{t('sports.cup.sportsTitle', { association })}</Heading>
+      <div className="cup-hint text-muted">
+        {hasSources
+          ? t('sports.cup.sportsHint', { school })
+          : t('sports.cup.sportsHintPlain')}
+      </div>
+      <CupSportsGrid association={association} cup={data} />
+
+      <StatStrip stats={isolatedTiles} />
+
+      <Heading>
+        {t('sports.cup.tableTitle', { count: CUP_SEASONS.length, association, classification })}
+      </Heading>
+      <CupTable slug={slug} />
+
+      {(showRace || hasSources) && (
+        <div className={`cup-panels${showRace && hasSources ? '' : ' is-single'}`}>
+          <CupRace slug={slug} stats={stats} />
+          {hasSources && <CupPointSources slug={slug} cup={data} />}
+        </div>
+      )}
+
+      {estimated && (
+        <p className="sports-note text-muted">
+          {t('sports.cup.estimateNote')} <ToVerify />
+        </p>
+      )}
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
+    </div>
+  )
+}
+
+/* --------------------------------------------------- 1c · winning record -- */
 
 /** One matrix cell: a result chip over the season's final record. */
 function ResultCell({ cell }: { cell: TitleCell }) {
@@ -262,7 +656,7 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
   )
 }
 
-/* -------------------------------------------------- 1c · college pipeline -- */
+/* -------------------------------------------------- 1d · college pipeline -- */
 
 /* Filter keys only — the visible label is resolved per locale at render, since
    these are chrome rather than research findings. */
@@ -522,7 +916,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
   )
 }
 
-/* ------------------------------------------------ 1d · honors & pro alumni -- */
+/* ------------------------------------------------ 1e · honors & pro alumni -- */
 
 export function HonorsBody({ data }: { data: HonorsAndPros }) {
   const { t } = useTranslation()
@@ -565,7 +959,7 @@ export function HonorsBody({ data }: { data: HonorsAndPros }) {
   )
 }
 
-/* ---------------------------------------------------------- 1e · coaching -- */
+/* ---------------------------------------------------------- 1f · coaching -- */
 
 export function CoachingBody({ data }: { data: Coaching }) {
   const { t } = useTranslation()
@@ -621,7 +1015,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
   )
 }
 
-/* ------------------------------------------ 1f · facilities & athlete care -- */
+/* ------------------------------------------ 1g · facilities & athlete care -- */
 
 export function FacilitiesBody({ data }: { data: Facilities }) {
   const { t } = useTranslation()
@@ -705,7 +1099,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
   )
 }
 
-/* ----------------------------------------------- 1g · national stage & NIL -- */
+/* ----------------------------------------------- 1h · national stage & NIL -- */
 
 export function NationalStageBody({ data }: { data: NationalStage }) {
   const { t } = useTranslation()

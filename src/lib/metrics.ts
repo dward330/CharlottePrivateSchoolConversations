@@ -253,7 +253,7 @@ const RULES: Record<string, Rule[]> = {
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
   sports: [
-    // Sports renders as seven consolidated cards driven by data/sportsProgram.ts,
+    // Sports renders as eight consolidated cards driven by data/sportsProgram.ts,
     // not by the ingested prose (same arrangement as Course Offerings above). The
     // 2026 redesign research file is one long document per school, so the content
     // builder slices its markdown headings into many subtopics ("3. College
@@ -262,7 +262,7 @@ const RULES: Record<string, Rule[]> = {
     // orphan prose cards. It must stay FIRST: the slice headings also contain
     // words like "coaching" and "facilities" that later rules would match.
     {
-      match: /redesign research|program and championship ledger|^\d\.\s|^corrections to|^gaps ?\/|^sources$|^class(es)? of \d{4}|^division i total|^power 4 commitments/i,
+      match: /redesign research|wells fargo cup|program and championship ledger|^\d\.\s|^corrections to|^gaps ?\/|^sources$|^class(es)? of \d{4}|^division i total|^power 4 commitments/i,
       key: 'redesign-research',
       label: 'Sports Research Dossier (2026)',
     },

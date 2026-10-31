@@ -55,7 +55,9 @@ import {
 } from '../data/sportsProgram.ts'
 import {
   SportsOfferedBody,
+  WellsFargoCupBody,
   WinningRecordBody,
+  wellsFargoCupHeadline,
   CollegePipelineBody,
   HonorsBody,
   CoachingBody,
@@ -199,15 +201,19 @@ const SCHOOL_SECTION_ORDER: Record<string, Record<string, string[]>> = {
    layout rather than a shared prose body, so the dispatch is explicit; the
    caller only renders keys the school's program actually has. */
 function SportsCardBody({
+  slug,
   program,
   cardKey,
 }: {
+  slug: string
   program: SportsProgram
   cardKey: (typeof SPORTS_CARDS)[number]['key']
 }) {
   switch (cardKey) {
     case 'offered':
       return <SportsOfferedBody data={program.offered!} />
+    case 'cup':
+      return <WellsFargoCupBody slug={slug} data={program.cup!} />
     case 'record':
       return <WinningRecordBody data={program.record!} />
     case 'pipeline':
@@ -829,7 +835,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                from `offerings` rather than the ingested metric groups. */
             const offerings =
               t.slug === 'course-offerings' ? courseOfferings(slug, lang) : undefined
-            /* Sports is thirteen ingested sub-sections but seven consolidated
+            /* Sports is thirteen ingested sub-sections but eight consolidated
                cards on the page (see data/sportsProgram.ts), so — like Course
                Offerings — it replaces the metric-group loop rather than
                swapping one card's body. Cards absent from a school's entry
@@ -1192,8 +1198,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
-                {/* Sports: seven consolidated cards built from the structured
-                    program layer, in the fixed 1a–1g order. A school missing a
+                {/* Sports: eight consolidated cards built from the structured
+                    program layer, in the fixed 1a–1h order. A school missing a
                     card's data (no verified pro alumni, no NIL story) omits
                     that card rather than rendering it thin. */}
                 {ready && t.slug === 'sports' && sports && (
@@ -1207,13 +1213,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'sports', card.key, card.title)}</span>
                             <span className="topic-teaser">
-                              {localizeMoneyText(sports[card.key]!.headline)}
+                              {card.key === 'cup'
+                                ? wellsFargoCupHeadline(slug, tr)
+                                : localizeMoneyText(sports[card.key]!.headline)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
                         </summary>
                         <div className="note-card-body">
-                          <SportsCardBody program={sports} cardKey={card.key} />
+                          <SportsCardBody slug={slug} program={sports} cardKey={card.key} />
                         </div>
                       </details>
                     ))}
