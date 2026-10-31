@@ -1,4 +1,4 @@
-var e=`charlotte-latin`,t=`sports`,n=33,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Latin - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings
+var e=`charlotte-latin`,t=`sports`,n=37,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Latin - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -930,6 +930,39 @@ https://sports.yahoo.com/articles/2026-national-prep-wrestling-championships-140
 https://www.on3.com/high-school/charlotte-latin-school-charlotte-nc-13024/football/alumni/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
 
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Charlotte Latin`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 3 | 165 | 157.5 | 212.5 | 535 | Providence Day 670 | 135 | | 2021–22 | 2 | 185 | 197.5 | 272.5 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
+
+| Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
+|---|---|---|---|---|---|---|---|
+| 2020–21 | 3 | 165 | 157.5 | 212.5 | 535 | Providence Day 670 | 135 |
+| 2021–22 | 2 | 185 | 197.5 | 272.5 | 655 | Charlotte Country Day 682.5 | 27.5 |
+| 2022–23 | 2 | 180 | 185 | 247.5 | 612.5 | Providence Day 782.5 | 170 |
+| 2023–24 | 3 | 137.5 | 162.5 | 212.5 | 512.5 | Providence Day 757.5 | 245 |
+| 2024–25 | 2 | 225 | 147.5 | 267.5 | 640 | Providence Day 650 | 10 |
+| 2025–26 | 2 | 277.5 | 205 | 207.5 | 690 | Providence Day 692.5 | 2.5 |
+
+Latin has not won the Cup in these six seasons. Its most recent win was 2019, and no Cup was awarded for 2019–20 (COVID, per Latin's title matrix). The 2025–26 fall and winter splits put Latin ahead of Providence Day after two terms, 482.5 to 422.5, before Providence Day's spring won the Cup by 2.5.`},{subtopic:`Wells Fargo Cup point sources for Charlotte Latin`,source_file:null,preview:`Every title or runner-up year here is confirmed by the source named beside it. "Bracket" means the NCISAA archive page for that sport and season; "matrix" means Latin's title matrix. | Sport | Gender | Term | State titles | Runner-up | Evidence | |---|---|---|---|---|---| | Golf | Boys | Spring | 2023, 2024, 2025,…`,text:`Every title or runner-up year here is confirmed by the source named beside it. "Bracket" means the NCISAA archive page for that sport and season; "matrix" means Latin's title matrix.
+
+| Sport | Gender | Term | State titles | Runner-up | Evidence |
+|---|---|---|---|---|---|
+| Golf | Boys | Spring | 2023, 2024, 2025, 2026 | 2022 | 2022 school recap; 2023 matrix and Observer; 2024 school news; 2025 matrix; 2026 HighSchoolOT |
+| Wrestling | Boys | Winter | 2021, 2023, 2024, 2026 | 2025 | 2021 Observer and matrix; 2023 NCISAA team scores; 2024 Observer and matrix; 2025 HighSchoolOT; 2026 Latin |
+| Lacrosse | Girls | Spring | 2021, 2022, 2023, 2024 | 2026 | Bracket for all five; 2021 also Observer; all four titles in the matrix |
+| Swimming | Boys | Winter | 2021, 2022, 2023, 2024 | 2025 | NCISAA Division I team scores, each year: 446–308, 418.5–344, 393.5–326, 462–266; 2025 lost 339–336 to Ravenscroft |
+| Soccer | Girls | Spring | 2023 | 2021, 2022, 2024, 2025 | Bracket for all five; each loss was to Providence Day; 2023 also in the matrix |
+| Tennis | Girls | Fall | 2020, 2021 | 2022 | Bracket for all three; the 2020–21 final was Oct. 31, 2020; both titles in the matrix |
+| Cross Country | Girls | Fall | 2020, 2022 | 2024 | 2020 official timing, 66 points; 2022 matrix (season 2022–23); 2024 official timing, 86 to Country Day's 79 |
+| Golf | Girls | Fall | 2025 | — | NCISAA team results: 476, tiebreak over Providence Day; matrix |
+| Tennis | Boys | Spring | — | 2025, 2026 | Bracket for both |
+
+**The list rule:** a sport is listed with at least one title or at least two runner-up years, which is the bar Providence Day's list already meets (boys basketball, two runner-ups and no title).
+
+Confirmed but left off, one runner-up year each: girls swimming 2022 (NCISAA results), volleyball 2025, field hockey 2025 and softball 2025 (brackets).
+
+Left off as unconfirmed: boys swimming runner-up 2026, and any 2022 wrestling finish (Latin's matrix shows no 2021–22 title, which is why its ten-year streak ends in 2021).`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Latin's title matrix counts 198 state championships through December 2025, against the 165 on the Sports Offered card, whose research note cites Wikipedia. The matrix counts dance among its sports. Nothing was changed, and this pass did not reconcile the two counts. Latin's Cup page lists its wins as 1984, 1988–1991,…`,text:`Latin's title matrix counts 198 state championships through December 2025, against the 165 on the Sports Offered card, whose research note cites Wikipedia. The matrix counts dance among its sports. Nothing was changed, and this pass did not reconcile the two counts.
+
+Latin's Cup page lists its wins as 1984, 1988–1991, 1993–1995, 1997, 2005–2011, 2017 and 2019, so its longest run is seven. The Honors card's "eight consecutive under athletic director Jimmy Broadway" does not fit that list.
+
 ---`},{subtopic:`Win-Loss Records`,source_file:`Charlotte Latin - Sports - Win-Loss Records.pdf`,preview:`CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Team Win-Loss Records — Recent Seasons Research Area — Top 5 sports, both genders where applicable Covers Charlotte Latin's top 5 sports: Football, Wrestling, Golf (Boys & Girls), Boys Basketball, and Girls Lacrosse. AT A GLANCE Top 5 sports…`,text:`CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Team Win-Loss Records — Recent Seasons
 Research Area — Top 5 sports, both genders where applicable
@@ -1025,4 +1058,4 @@ https://www.flowrestling.org/articles/15454487-2026-national-prep-wrestling-cham
 • NCISAA — 2025–26 champions — https://www.ncisaa.org/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:33,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:37,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
