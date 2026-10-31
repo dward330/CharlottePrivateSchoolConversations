@@ -99,9 +99,18 @@ school's 2025–26 row.
 
 ## Step 3 — Build the point sources
 
-Start from that school's `record` card and research files, then confirm each title or
-runner-up year against a citable page. Every entry needs a sport key that exists in
-`CUP_SPORTS[association]` for that season, or `npm run check:cup` fails.
+The `record` card covers only three seasons while the table covers six, so the card cannot
+be the starting point. Start from
+`https://archives.ncisaa.org/index.php?sport=<id>&years=<yyyy-yyyy>` (a bracket for each team
+sport) and the school's own title list, then confirm each title or runner-up year against a
+citable page. Every entry needs a sport key that exists in `CUP_SPORTS[association]` for
+that season, or `npm run check:cup` fails.
+
+Two archive traps: **2020–21 brackets are mirrored**, so read them by team name rather than
+by side. And `ncisaa.shotstat.com` may not resolve, in which case golf rests on the school's
+list.
+
+Years are calendar years of the event, not season labels: a fall 2025 title is `2025`.
 
 Drop anything unconfirmed. A list of zero is valid and omits that panel, and the "Outlined"
 sentence with it.

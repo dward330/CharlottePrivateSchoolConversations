@@ -3,12 +3,18 @@
 // Every figure is traceable to
 // source-material/sports/charlotte-latin/Charlotte Latin - Sports - Redesign Research 2026.md.
 //
-// SIX of seven cards render. `national` (1g) is deliberately omitted: no
+// SEVEN of eight cards render. `national` (1h) is deliberately omitted: no
 // MaxPreps/ESPN/SBLive NATIONAL team ranking was found for any Latin program in
 // any sport or year, no out-of-state non-conference schedule is published, and
 // no named Latin NIL deal exists in public sources. Latin's genuine national
 // signal is individual — National Prep wrestling seeds — which belongs on the
 // pipeline and honors cards, not a National Stage card the evidence can't carry.
+//
+// The Cup card's results come from the shared ledger (data/wellsFargoCup.ts);
+// only its point sources and citations live here, traceable to
+// source-material/sports/charlotte-latin/Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026.md,
+// which also carries the evidence for the corrections to girls lacrosse, field
+// hockey, the girls golf date and the Cup count.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
@@ -16,6 +22,7 @@ const TEAMS = 'https://www.charlottelatin.org/athletics/athletic-teams'
 const STAFF = 'https://www.charlottelatin.org/athletics/meet-the-staff'
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
 
 export const charlotteLatin: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -80,7 +87,35 @@ export const charlotteLatin: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'golf', gender: 'boys', season: 'spring', titleYears: [2023, 2024, 2025, 2026], runnerUpYears: [2022] },
+      { sport: 'wrestling', gender: 'boys', season: 'winter', titleYears: [2021, 2023, 2024, 2026], runnerUpYears: [2025] },
+      { sport: 'lacrosse', gender: 'girls', season: 'spring', titleYears: [2021, 2022, 2023, 2024], runnerUpYears: [2026] },
+      { sport: 'swimming', gender: 'boys', season: 'winter', titleYears: [2021, 2022, 2023, 2024], runnerUpYears: [2025] },
+      { sport: 'soccer', gender: 'girls', season: 'spring', titleYears: [2023], runnerUpYears: [2021, 2022, 2024, 2025] },
+      { sport: 'tennis', gender: 'girls', season: 'fall', titleYears: [2020, 2021], runnerUpYears: [2022] },
+      { sport: 'crossCountry', gender: 'girls', season: 'fall', titleYears: [2020, 2022], runnerUpYears: [2024] },
+      { sport: 'golf', gender: 'girls', season: 'fall', titleYears: [2025] },
+      { sport: 'tennis', gender: 'boys', season: 'spring', titleYears: [], runnerUpYears: [2025, 2026] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'Charlotte Latin team championships', url: 'https://clshawks.com/sports/2026/3/31/cls-team-championships.aspx' },
+      { label: 'High School OT — 2026 boys golf title', url: 'https://www.highschoolot.com/story/the-2026-ncisaa-4a-boys-golf-championships-scores-and-top-ten-results/22357812/' },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Eight NCISAA state championships in three seasons, led by four straight boys golf titles and a 26th wrestling crown.',
@@ -110,10 +145,10 @@ export const charlotteLatin: SportsProgram = {
         program: 'Girls Lacrosse',
         cells: [
           { result: 'STATE', record: '15–3' },
-          { result: 'RUNNER-UP' },
+          { result: 'SEMIFINAL', record: '12–8' },
           { result: 'RUNNER-UP', record: '10–13' },
         ],
-        note: 'Three consecutive state finals',
+        note: 'Four straight titles through 2024, then back in the final in 2026',
       },
       {
         program: 'Boys Swimming',
@@ -147,7 +182,7 @@ export const charlotteLatin: SportsProgram = {
         cells: [
           { result: 'NONE', record: '14–6' },
           { result: 'NONE', record: '11–8' },
-          { result: 'RUNNER-UP', record: '16–5' },
+          { result: 'RUNNER-UP', record: '17–5' },
         ],
         note: 'Lost the final 1–0 to top-seed Charlotte Country Day',
       },
@@ -156,7 +191,7 @@ export const charlotteLatin: SportsProgram = {
       'volleyball (North Raleigh Christian) · field hockey and girls tennis (Charlotte Country Day) · girls lacrosse, girls soccer, football and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys lacrosse, boys tennis, girls cross country and girls track (Durham Academy) · boys soccer, boys cross country and boys track (Christ School) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · softball (Covenant Day).',
     bars: [
       { program: 'Volleyball', record: '60–19', pct: 0.759 },
-      { program: 'Field Hockey', record: '41–19', pct: 0.683 },
+      { program: 'Field Hockey', record: '42–19', pct: 0.689 },
       { program: 'Girls Basketball', record: '52–28', pct: 0.65 },
       { program: 'Baseball', record: '44–31–1', pct: 0.587 },
       { program: 'Boys Basketball', record: '45–38', pct: 0.542 },
@@ -173,7 +208,7 @@ export const charlotteLatin: SportsProgram = {
       },
       {
         program: 'Golf',
-        text: 'Boys golf has won four straight NCISAA titles through 2026, and girls golf added a first title on a playoff hole in 2026. Golf is stroke-play scored, so no win–loss record exists for the school’s most successful current program.',
+        text: 'Boys golf has won four straight NCISAA titles through 2026, and girls golf added a first title on a playoff hole in October 2025. Golf is stroke-play scored, so no win–loss record exists for the school’s most successful current program.',
       },
     ],
     sources: [
@@ -193,7 +228,7 @@ export const charlotteLatin: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       '48 college commitments across 2024–26, 14 of them Division I — and a pipeline led by swimming and golf, not football.',
@@ -291,7 +326,7 @@ export const charlotteLatin: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'An NFL starting quarterback, an NBA three-point record-holder, and an LPGA golfer — with an NC Mr. Basketball among them.',
@@ -345,7 +380,7 @@ export const charlotteLatin: SportsProgram = {
       },
       {
         label: 'Wells Fargo Cups',
-        text: 'Seventeen NCISAA Wells Fargo Cups for overall program excellence, most recently in 2019 — including eight consecutive under athletic director Jimmy Broadway.',
+        text: 'Eighteen NCISAA Wells Fargo Cups for overall program excellence, most recently in 2019.',
         tag: 'Program-wide',
       },
       {
@@ -365,7 +400,7 @@ export const charlotteLatin: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'A ten-year NFL fullback on the football staff and a 32-year Latin lifer running two varsity programs.',
@@ -416,7 +451,7 @@ export const charlotteLatin: SportsProgram = {
     ],
   },
 
-  /* ------------------------------------------------------- 1f facilities -- */
+  /* ------------------------------------------------------- 1g facilities -- */
   facilities: {
     headline:
       'A 128-acre campus — the largest of any Charlotte-area independent school — with three gymnasiums, nine tennis courts and seven playing fields.',
@@ -490,9 +525,9 @@ export const charlotteLatin: SportsProgram = {
     ],
   },
 
-  /* 1g National Stage & NIL — intentionally omitted. No national team ranking
+  /* 1h National Stage & NIL — intentionally omitted. No national team ranking
      exists for any Latin program in any sport or year, no out-of-state
      non-conference schedule is published, and no named Latin athlete NIL deal
      appears in public sources. Latin's genuine national credential is
-     individual (National Prep wrestling), carried on 1c and 1d instead. */
+     individual (National Prep wrestling), carried on 1d and 1e instead. */
 }
