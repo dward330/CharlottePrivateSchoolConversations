@@ -1,7 +1,7 @@
 ---
 name: latincup
 title: Turn on the Wells Fargo Cup card for Charlotte Latin, and correct four facts in its Sports data
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-31
 branch: feat/latincup
@@ -170,3 +170,11 @@ Scope is the overlay layer only: three strings in each of the nine locales in `P
 ## Open questions
 
 - Should the Honors line keep any "eight" claim, such as eight Cups under Jimmy Broadway? Latin's list gives 11 wins in that tenure's years (1993–2012), and no run of eight. — **default:** drop the clause, as step 6 does. The user can restore wording at the Phase 1 review.
+
+## Implementation notes
+
+- **`record` is not fully skipped.** Context says `record` fields need no translation, but `cells[].result` is extracted: `RUNNER-UP` and `SEMIFINAL` are shared units. Moving girls lacrosse 2024–25 also moved `charlotte-latin:record.rows[2].cells[1].result` from unit `7b84d2bf` to `6afcd109`, so Phase 2 refreshed those two `at` lists. No translation changed for them.
+- **New stamps.** The three corrected strings are now `924d52c2` (lacrosse note), `9899f456` (golf text) and `14ef612e` (Cups).
+- **`check_work_integrity.mjs` reports 72 violations here, all expected:** 8 per locale on those five units. It freezes existing units, so a deliberate correction trips it. A diff against `HEAD` confirmed only the three `t` values changed. It is not an npm script or a build gate.
+- **Arabic Cups line reworded, not just renumbered.** The old `سبعة عشر كأس` has the wrong gender and number agreement, so the new string uses `ثماني عشرة كأسًا من كؤوس Wells Fargo`.
+- **Left unfixed: the `season` override does not match.** `['*.cup.pointSources[].season', false]` in `scripts/i18n_fields.mjs` needs a segment before `cup`, but the extractor's path starts at `cup`, so `pathOverride` returns `undefined`. A fresh extract therefore emits `fall`, `spring` and `winter` as prose, for Providence Day too. Nothing ships today because neither school's splice included them. If one were ever translated, the Cup outlines would stop matching. The fix is to drop the `*.` prefix.
