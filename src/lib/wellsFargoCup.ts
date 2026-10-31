@@ -245,11 +245,6 @@ export function isComeback(slug: string, ledger: CupLedger = CUP_LEDGER): boolea
   return rivalFall > ownFall && rivalFall + rivalWinter > ownFall + ownWinter
 }
 
-/** The newest NCHSAA Cup winner on the roster, for the note on NCISAA cards. */
-export function nchsaaWinner(ledger: CupLedger = CUP_LEDGER): CupRecord | null {
-  return ledger.records.filter((r) => r.association === 'NCHSAA' && r.place === 1).at(-1) ?? null
-}
-
 /** A points figure as printed: `~` marks an estimate. */
 export function pointsToken(record: CupRecord, format: (n: number) => string): string {
   return `${record.isEstimate ? '~' : ''}${format(record.points)}`

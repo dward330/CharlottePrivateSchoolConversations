@@ -277,3 +277,4 @@ Phase 1 deviations from the plan:
 - **`seasonsTotal` counts seasons with a record,** not `CUP_SEASONS.length`, so an unverified season never reads as a lost one.
 - **`StatStrip` widened** to accept a node value, so `+2.5` can sit in `<bdi dir="ltr">` while still using the shared strip.
 - **`add-school` worked example** changed from 5/7 to 5/8 cards, since the old denominator was now false.
+- **Two notes removed at the English review (user, 2026-10-31).** The NCHSAA/Charlotte Catholic note and the table footnote ("Places are … finishes; gaps are schools we don't cover") no longer render, so `sports.cup.nchsaaNote`, `sports.cup.footnote`, `nchsaaWinner` and PD's VarsityNC citation are gone. Charlotte Catholic's ledger row stays. `estimateNote` now renders on its own, beside TO VERIFY, when a table holds a `~` row. Do not translate the removed keys in Phase 2.

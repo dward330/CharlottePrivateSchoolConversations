@@ -32,7 +32,6 @@ import {
   isComeback,
   isCupOutlined,
   leadRow,
-  nchsaaWinner,
   nearestRival,
   pointsToken,
   type CupHeadline,
@@ -423,7 +422,6 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
   const won = latest.place === 1
   const showRace = nearestRival(slug, latest.season) != null
   const hasSources = data.pointSources.length > 0
-  const nchsaa = association === 'NCISAA' ? nchsaaWinner() : null
   const estimated = hasEstimate(slug)
 
   const tiles: { value: React.ReactNode; label: string }[] = [
@@ -516,23 +514,11 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
         </div>
       )}
 
-      {nchsaa && (
+      {estimated && (
         <p className="sports-note text-muted">
-          {t('sports.cup.nchsaaNote', {
-            school: cupName(nchsaa.school),
-            association: nchsaa.association,
-            season: nchsaa.season,
-            classification: nchsaa.classification,
-            points: number(nchsaa.points),
-          })}
+          {t('sports.cup.estimateNote')} <ToVerify />
         </p>
       )}
-      <p className="sports-note text-muted">
-        {t('sports.cup.footnote', { association, classification })}
-        {estimated && ` ${t('sports.cup.estimateNote')}`}
-      </p>
-
-      {estimated && <ToVerify />}
       <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )

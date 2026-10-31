@@ -203,7 +203,7 @@ const lead = (school, season, place, points, extra = {}) => ({
   eq('estimate: unflagged', cup.hasEstimate('x', fx([rec('x', 'A', 1, 595)])), false)
 }
 const body = readFileSync(join(here, '../src/components/SportsProgram.tsx'), 'utf8')
-if (!/pointsToken\(c\.result, number\)/.test(body) || !/estimated && <ToVerify \/>/.test(body)) {
+if (!/pointsToken\(c\.result, number\)/.test(body) || !/estimated && \(/.test(body) || !/<ToVerify \/>/.test(body)) {
   fail('isEstimate has no render path: the card must print pointsToken and wire ToVerify')
 }
 

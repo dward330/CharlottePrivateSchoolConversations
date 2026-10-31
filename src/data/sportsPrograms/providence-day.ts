@@ -112,7 +112,6 @@ export const providenceDay: SportsProgram = {
       { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
       { label: 'High School OT — 2025–26 NCISAA champions in every sport', url: CHAMPS },
       { label: 'WBTV — 2025 football state final', url: 'https://www.wbtv.com/2025/11/22/providence-day-tops-christian-42-6-ncisaa-division-i-state-championship/' },
-      { label: 'VarsityNC — NCHSAA 2025–26 Wells Fargo Cup winners', url: 'https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026' },
     ],
   },
 
