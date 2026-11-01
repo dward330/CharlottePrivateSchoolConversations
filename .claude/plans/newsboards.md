@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-01
 branch: fix/newsboards
-prs: []
+prs: [392]
 ---
 
 # Show Davidson Day's dates and add Covenant Day's Lions News
