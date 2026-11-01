@@ -3,7 +3,7 @@ import { type NewsItem } from '../types'
 /**
  * Covenant Day School — Finalsite post board.
  *
- * Structure verified against the live board 2026-08-28; the full capture and
+ * Structure verified against the live boards 2026-11-01; the full capture and
  * every trap are recorded in
  * `source-material/news/covenant-day/Covenant Day School - News - News Board Structure.md`.
  *
@@ -22,20 +22,41 @@ import { type NewsItem } from '../types'
  * app with that combination. Sharing any existing Finalsite parser would have
  * either thrown away real summaries or performed ten pointless body fetches.
  *
- * THREE BOARDS, ONE PAGE. `/about-us/news` renders three Finalsite boards, all
- * of them Covenant Day's own news and all kept:
- *   • `fsBoard-218` — `~board/news`       (15 posts, school news)
- *   • `fsBoard-230` — `~board/features`   (15 posts, "Get to Know…" profiles)
- *   • `fsBoard-234` — `~board/lions-news` (7 posts, athletics)
+ * THREE BOARDS, TWO PAGES. All of them are Covenant Day's own news:
+ *   • `fsBoard-218` — `~board/news`       (school news, on `/about-us/news`)
+ *   • `fsBoard-230` — `~board/features`   ("Get to Know…" profiles, same page)
+ *   • `fsBoard-234` — `~board/lions-news` (athletics, on `/athletics/lionsnews`)
  *
- * They are NOT interleaved by date on the page, and the athletics board is over
- * a YEAR stale (2024 posts) while the other two run current. Date sorting is
- * therefore what actually orders this section — the board's own DOM order would
- * put a two-year-old athletics post above last month's news. Because no date
- * exists until the second pass, `fetchNews` deliberately keeps all 37 posts as
- * a candidate pool and caps to ten only once the dates arrive. See the
- * `needsDates` note in `fetchNews.ts`.
+ * TRAP 4 — `/about-us/news` shows an old sliver of the athletics board.
+ *
+ * That page lists only 7 `fsBoard-234` posts, all from 2024, so reading it alone
+ * made athletics look stale while `/athletics/lionsnews` held 23, the newest
+ * from July 2026. By 2026-11-01 five of the school's ten newest posts were
+ * missing from this section for that reason.
+ *
+ * So each page supplies only its own boards: the Lions page is the sole source
+ * of `fsBoard-234`, and its one cross-listed `fsBoard-218` row is skipped. A
+ * URL-based de-duplication could not do this, because the same post has a
+ * different URL on each page (`/about-us/news/details/…` against
+ * `/athletics/lionsnews/lions-news-details/…`) and would appear twice.
+ *
+ * The boards are NOT interleaved by date on the page, so date sorting is what
+ * actually orders this section. See the `needsDates` note in `fetchNews.ts`.
  */
+
+/** The athletics board. See TRAP 4. */
+const LIONS_BOARD = 'fsBoard-234'
+
+/**
+ * How many posts to take from EACH board. No date exists until the second pass,
+ * so every candidate costs one article fetch, and 36 of them could not finish
+ * inside the pass's 12 seconds when cold.
+ *
+ * Measured 2026-11-01, each board is newest-first apart from adjacent rows, so
+ * six is right as long as no single board supplies more than six of the newest
+ * ten. They supplied 2, 3 and 5.
+ */
+export const PER_BOARD = 6
 
 /** Prefer a mid-range render. This board offers 256/512/800/1200/1600/2200 per
     article, so ~640 lands on the 800px variant — a real thumbnail without
@@ -117,7 +138,7 @@ function titleText(link: Element): string {
  *   • "Siti Oo's family immigrated from Burma and descends from the Chin people."
  *
  * So this school needs no `preview()` pass, and adding one "for consistency"
- * would cost ~37 extra proxy round-trips to recover text already in hand.
+ * would cost extra proxy round-trips to recover text already in hand.
  *
  * NBSP is flattened — the source markup ends several summaries with `&nbsp;`,
  * which would otherwise render as a trailing gap before the arrow.
@@ -132,11 +153,20 @@ function summaryText(article: Element): string | undefined {
   return text.length ? text : undefined
 }
 
-export function parse(html: string, _boardUrl: string): NewsItem[] {
+export function parse(html: string, boardUrl: string): NewsItem[] {
   const doc = new DOMParser().parseFromString(html, 'text/html')
   const items: NewsItem[] = []
+  const isLionsPage = boardUrl.includes('/athletics/lionsnews')
+  const takenPerBoard = new Map<string, number>()
 
   for (const article of Array.from(doc.querySelectorAll('article[data-post-id]'))) {
+    // TRAP 4: each page supplies only its own boards.
+    if (article.classList.contains(LIONS_BOARD) !== isLionsPage) continue
+
+    const board = article.className.match(/fsBoard-\d+/)?.[0] ?? ''
+    const taken = takenPerBoard.get(board) ?? 0
+    if (taken >= PER_BOARD) continue
+
     const titleLink = article.querySelector('div.fsTitle a')
     const title = titleLink ? titleText(titleLink) : ''
 
@@ -165,6 +195,7 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
     const photo = pickPhoto(article.querySelector('img[data-image-sizes]'))
     const summary = summaryText(article)
 
+    takenPerBoard.set(board, taken + 1)
     items.push({
       title,
       url: href,

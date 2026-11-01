@@ -127,8 +127,8 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
   try {
     onPhase?.('contacting')
 
-    /* One board for every school but Gaston Day, whose board has a second page.
-       Fetched in parallel and concatenated; `normalizeItems` de-duplicates. An
+    /* One board for most schools. Gaston Day adds its second page and Covenant
+       Day its Lions News page. Fetched in parallel and concatenated; `normalizeItems` de-duplicates. An
        extra page that fails is skipped rather than failing the section, so
        losing one still leaves a useful list. */
     const boardUrls = [source.boardUrl, ...(source.extraBoardUrls ?? [])]
@@ -175,11 +175,13 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
 
        `allDated` looks at the whole pool, not the ten rows returned. On a board
        that sinks undated rows, a story that lost its date has been cut from
-       `merged`, so ten dated rows can still be the wrong ten. */
+       `merged`, so ten dated rows can still be the wrong ten. A skipped page is
+       the same case: its stories are absent, so the list is kept briefly too. */
     if (needsDates) {
       const { merged, allDated } = await hydrateArticles({ source, items, signal })
       if (!signal?.aborted && merged.some((i) => i.date)) {
-        writeCache(slug, merged, allDated ? CACHE_TTL_MS : PARTIAL_CACHE_TTL_MS)
+        const complete = allDated && pages.every(Boolean)
+        writeCache(slug, merged, complete ? CACHE_TTL_MS : PARTIAL_CACHE_TTL_MS)
       }
       return merged
     }

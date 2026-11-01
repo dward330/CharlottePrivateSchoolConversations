@@ -161,29 +161,32 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     boardIsChronological: true,
   },
   'covenant-day': {
-    // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
-    // target and the "All news & media" destination.
+    // USER-SUPPLIED 2026-08-28. The news URL serves as both the parse target and
+    // the "All news & media" destination. The user approved adding the Lions
+    // News page 2026-11-01.
     //
-    // THREE Finalsite boards render on this one page (`~board/news`,
-    // `~board/features`, `~board/lions-news` — 37 posts total), so this needs
-    // no `extraBoardUrls`: a single fetch already returns all three.
+    // `/about-us/news` renders the school-news and features boards plus an old
+    // sliver of athletics. Current athletics posts appear only on
+    // `/athletics/lionsnews`, which `extraBoardUrls` adds. See TRAP 4 in the
+    // parser, which also says why neither page is read in full.
     //
     // The fifth Finalsite board in the app and the only school with this field
     // combination — a REAL inline summary but NO date anywhere. It is the exact
     // inverse of Providence Day, which publishes a date and boilerplate.
     boardUrl: 'https://www.covenantday.org/about-us/news',
+    extraBoardUrls: ['https://www.covenantday.org/athletics/lionsnews'],
     indexUrl: 'https://www.covenantday.org/about-us/news',
     domain: 'covenantday.org',
     parse: covenantDay.parse,
     // No `preview`: this board carries a genuine per-article `div.fsSummary`,
     // verified across all three boards rather than trusted because the element
-    // exists. Adding a preview pass would spend ~37 extra proxy round-trips
+    // exists. Adding a preview pass would spend extra proxy round-trips
     // re-fetching text the board already handed us.
     //
     // `publishedAt` IS required — the board publishes no date in any form, so
     // without it every row is undated and the section falls back to DOM order.
-    // That order is badly wrong here: the athletics board is over a year stale
-    // while the other two run current. See TRAP 3 in the parser.
+    // That order is badly wrong here: the boards are not interleaved by date.
+    // See TRAP 3 and TRAP 4 in the parser.
     publishedAt: covenantDay.publishedAt,
   },
   'davidson-day': {
@@ -201,13 +204,13 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // Needed: a board post is a thumbnail, a title and a "Read More" link —
     // no summary, and og:description is the CMS template's own name.
     preview: davidsonDay.preview,
-    // NO `publishedAt`, deliberately. Unlike Cannon and Covenant Day — also
-    // dateless on their boards — this school publishes no date on the ARTICLE
-    // page either, and has no feed (the one path that answers 200 is an HTML
-    // article page, not RSS). There is nothing for a second pass to fetch, so
-    // every item keeps `date: null` and the board's own newest-first DOM order
-    // is preserved by the stable sort in `normalizeItems`. Matches Charlotte
-    // Christian, the app's other genuinely dateless school.
+    // Needed since the school began publishing `article:published`: the board
+    // still has no date, so without this every row renders undated. See TRAP 1
+    // in the parser.
+    publishedAt: davidsonDay.publishedAt,
+    // Measured 2026-11-01: board order matches article dates exactly across all
+    // nine posts, so a row whose date fetch fails keeps its place.
+    boardIsChronological: true,
   },
   'gaston-day': {
     // USER-SUPPLIED 2026-08-28. The user gave the school's ATHLETICS board,
@@ -243,8 +246,8 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     preview: gastonDay.preview,
     // Needed: the board publishes NO date, but the article page does, inside
     // the same `p.text-muted` element as the byline. Places this school with
-    // Cannon and Covenant Day, NOT with the genuinely dateless Charlotte
-    // Christian and Davidson Day. See TRAP 1 in the parser.
+    // Cannon, Covenant Day and Davidson Day, NOT with the genuinely dateless
+    // Charlotte Christian. See TRAP 1 in the parser.
     publishedAt: gastonDay.publishedAt,
   },
 }
