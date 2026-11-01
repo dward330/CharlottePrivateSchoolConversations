@@ -482,7 +482,7 @@ every non-browser client while browsers passed cleanly.
   that window. This only affects a first-ever deploy, not a redeploy.
 - **The free tier is 100k requests/day PER ACCOUNT**, not per Worker. The section
   costs ~11 requests per scrolling visitor (1 board + 10 previews), so roughly
-  9,000 visitors/day — and a 15-minute edge cache plus the app's 30-minute
+  9,000 visitors/day — and a 3-hour edge cache plus the app's 30-minute
   `sessionStorage` cache both sit in front of that. Over-cap requests are
   **rejected, never billed**. If headroom ever gets tight, raising the Worker's
   edge TTL is far cheaper than upgrading.

@@ -30,8 +30,11 @@ app's 30-minute `sessionStorage` cache makes a repeat visit free — roughly
 **9,000 visitors/day** before the cap. Over-cap requests on the free plan are
 **rejected, never billed**; overage requires an explicit upgrade.
 
-Edge caching (`cacheTtl: 900`) means repeat visitors within 15 minutes are served
-by Cloudflare without touching the school's site at all.
+Edge caching means visitors within 3 hours of the last fetch are served by
+Cloudflare without touching the school's site at all. Only 2xx responses are
+stored, so an upstream failure is never cached. A new post can therefore take up
+to 3 hours to appear. The cache is per Cloudflare data center, so a visitor
+elsewhere can still get a cold load.
 
 ## This is NOT an open proxy
 
