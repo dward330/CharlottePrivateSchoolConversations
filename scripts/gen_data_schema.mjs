@@ -483,8 +483,8 @@ for (const s of STRUCTURED) {
     // know this card exists, that it has a skill that populates it, and that
     // the dashboard is worth checking BEFORE writing off college outcomes as
     // unpublished.
-    w('**`ncAdmissions` is the area\'s FIRST card, and its figures are')
-    w('government-published rather than school-published** — which is why it leads. It is')
+    w('**`ncAdmissions` is the area\'s SECOND card, after `outcomes`, and its figures are')
+    w('government-published rather than school-published.** It is')
     w('populated by the [`nc-admissions-data`](../skills/nc-admissions-data/SKILL.md) skill')
     w('from the UNC system\'s Insight Tableau dashboard, which carries Applied / Admitted /')
     w('Enrolled per NC high school × per UNC campus. **Check it before concluding a school\'s')

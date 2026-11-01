@@ -480,10 +480,16 @@ export type CollegeSupportProgram = {
  * review only; the shipped cards show the topic name alone.
  */
 export const COLLEGE_SUPPORT_CARDS = [
-  /* First, deliberately. This is the one card in the area whose figures are
-     government-published rather than school-published, so it leads. Array
-     order IS render order — SchoolDetail filters this list by which keys the
-     school's program object actually has. */
+  /* First, deliberately: the question most parents open this area to answer.
+     Array order IS render order — SchoolDetail filters this list by which keys
+     the school's program object actually has. */
+  {
+    key: 'outcomes',
+    title: 'Where Graduates Go',
+    kicker: 'Does this actually get kids into top schools?',
+  },
+  /* Second. The one card in the area whose figures are government-published
+     rather than school-published. */
   {
     key: 'ncAdmissions',
     title: 'Admission Rates at the Top NC Public Universities',
@@ -498,11 +504,6 @@ export const COLLEGE_SUPPORT_CARDS = [
     key: 'counseling',
     title: 'The Counseling Engine',
     kicker: 'Who helps my kid — how much, with what, and when?',
-  },
-  {
-    key: 'outcomes',
-    title: 'Where Graduates Go',
-    kicker: 'Does this actually get kids into top schools?',
   },
   {
     key: 'edge',

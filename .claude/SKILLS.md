@@ -277,7 +277,7 @@ East Carolina University   UNC Wilmington             UNC Greensboro
 cells — 44 applicants at one campus in one year), and label the figure as a joint property
 of **school × university**, never either one's admit rate.
 
-Lives in the app as `ncAdmissions`, the **first card of College Support**. Pooled five-year
+Lives in the app as `ncAdmissions`, the **second card of College Support**, after Where Graduates Go. Pooled five-year
 rate is `sum(admitted)/sum(applied)` — never the mean of five annual rates.
 
 ---
