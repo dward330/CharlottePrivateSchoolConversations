@@ -1,11 +1,11 @@
 ---
 name: ccdcup
 title: Turn on the Wells Fargo Cup card for Charlotte Country Day, and correct six facts in its Winning Record card
-status: english-done
+status: implemented
 phases: 2
 created: 2026-10-31
 branch: feat/ccdcup
-prs: []
+prs: [388]
 ---
 
 # Charlotte Country Day Wells Fargo Cup card
