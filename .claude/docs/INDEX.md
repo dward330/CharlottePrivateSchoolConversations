@@ -101,7 +101,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### Sports (`sports/`)
 
-- [Cannon School](sports/cannon.md) — 16 docs
+- [Cannon School](sports/cannon.md) — 17 docs
 - [Carmel Christian School](sports/carmel-christian.md) — 2 docs
 - [Charlotte Catholic High School](sports/charlotte-catholic.md) — 2 docs
 - [Charlotte Christian School](sports/charlotte-christian.md) — 17 docs
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 488 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 489 documents across 12 topics and 13 schools.

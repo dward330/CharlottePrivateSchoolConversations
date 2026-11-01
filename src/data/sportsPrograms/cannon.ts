@@ -2,8 +2,11 @@
 //
 // Every figure is traceable to
 // source-material/sports/cannon/Cannon - Sports - Redesign Research 2026.md.
+// The Wells Fargo Cup card and the softball correction in the Winning Record
+// card trace to
+// source-material/sports/cannon/Cannon - Sports - Wells Fargo Cup Standings 2020-2026.md.
 //
-// SIX of seven cards render. `national` (1g) is deliberately omitted: research
+// SEVEN of eight cards render. `national` (1h) is deliberately omitted: research
 // confirmed two negatives rather than gaps — no MaxPreps/ESPN/SBLive NATIONAL
 // team ranking exists for any Cannon program in any year, and no named Cannon
 // athlete NIL deal is publicly disclosed. Cannon's basketball schedule is
@@ -15,6 +18,8 @@ import type { SportsProgram } from '../sportsProgram.ts'
 const ATHLETICS = 'https://athletics.cannonschool.org/'
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 
 export const cannon: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -76,7 +81,36 @@ export const cannon: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'basketball', gender: 'girls', season: 'winter', titleYears: [2021, 2024, 2025, 2026], runnerUpYears: [2023] },
+      { sport: 'lacrosse', gender: 'boys', season: 'spring', titleYears: [2022, 2023, 2024] },
+      { sport: 'softball', gender: 'girls', season: 'spring', titleYears: [2023], runnerUpYears: [2021, 2022, 2024, 2026] },
+      { sport: 'volleyball', gender: 'girls', season: 'fall', titleYears: [2023], runnerUpYears: [2020, 2022] },
+      { sport: 'basketball', gender: 'boys', season: 'winter', titleYears: [2021] },
+      { sport: 'golf', gender: 'boys', season: 'spring', titleYears: [2021] },
+      { sport: 'football11', gender: 'boys', season: 'fall', titleYears: [2021] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA softball bracket, 2025–26', url: `${ARCHIVE}21&years=2025-2026` },
+      { label: 'NCISAA football bracket, 2021–22', url: `${ARCHIVE}31&years=2021-2022` },
+      { label: 'NCISAA 2021 boys golf 4A team results', url: 'https://admin.ncisaa.org/uploads/2021%20Boys%20Golf%20Championship%20Scores%20-%204A%20Team%20Results%20(1).pdf' },
+      { label: 'Charlotte Observer — 2021 boys basketball final', url: 'https://news.yahoo.com/repeat-cannon-school-beats-carmel-231728353.html' },
+      { label: 'MaxPreps — 2021 Division II football final', url: 'https://www.maxpreps.com/nc/concord/cannon-cannon-concord-academy-cougars/football/schedule/all-time' },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Three straight NCISAA 4A girls basketball state championships — four titles in six years, and the state’s dominant girls program.',
@@ -112,9 +146,9 @@ export const cannon: SportsProgram = {
         note: 'Beat Providence Day 8–7; No. 1 in the final statewide top 25',
       },
       {
-        program: 'Baseball',
+        program: 'Softball',
         cells: [
-          { result: 'NONE' },
+          { result: 'RUNNER-UP' },
           { result: 'NONE' },
           { result: 'RUNNER-UP', record: 'swept 7–5, 9–5' },
         ],
@@ -140,7 +174,7 @@ export const cannon: SportsProgram = {
       },
     ],
     didNotWin:
-      'football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · baseball, in the D1 series (Covenant Day) · volleyball (North Raleigh Christian) · both golf titles and wrestling (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · boys soccer, boys XC and boys track (Christ School) · boys lacrosse, boys tennis, girls XC and girls track (Durham Academy).',
+      'football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · softball, in the D1 series (Covenant Day) · baseball (Charlotte Christian) · volleyball (North Raleigh Christian) · both golf titles and wrestling (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · boys soccer, boys XC and boys track (Christ School) · boys lacrosse, boys tennis, girls XC and girls track (Durham Academy).',
     bars: [
       { program: 'Volleyball', record: '23–2', pct: 0.92, tag: "'23–24" },
       { program: 'Boys Lacrosse', record: '19–3', pct: 0.864, tag: "'23–24" },
@@ -178,7 +212,7 @@ export const cannon: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       'A documented floor of six college commitments across 2024–26, three of them Division I — but Cannon publishes no consolidated signing list.',
@@ -234,7 +268,7 @@ export const cannon: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'A Daytona 500 winner, a PGA Tour golfer, an NBA three-point champion and a trophy-winning pro footballer — an unusually wide set of professional paths.',
@@ -307,7 +341,7 @@ export const cannon: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'A 500-win college head coach running boys basketball, and the girls dynasty built by his own former player.',
@@ -362,7 +396,7 @@ export const cannon: SportsProgram = {
     ],
   },
 
-  /* ------------------------------------------------------- 1f facilities -- */
+  /* ------------------------------------------------------- 1g facilities -- */
   facilities: {
     headline:
       'A two-floor strength center open to every student, a turf stadium with a three-booth press box, and a Novant Health partnership staffing the training room.',
@@ -439,7 +473,7 @@ export const cannon: SportsProgram = {
     ],
   },
 
-  /* 1g National Stage & NIL — intentionally omitted. See the header note: no
+  /* 1h National Stage & NIL — intentionally omitted. See the header note: no
      national team ranking exists for any Cannon program, and no named athlete
      NIL deal is publicly disclosed. Both are confirmed negatives. */
 }

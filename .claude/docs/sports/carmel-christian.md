@@ -1,5 +1,5 @@
 # Carmel Christian School — Sports
-> Distilled from 2 source document(s) in `source-material/sports/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-31.
+> Distilled from 2 source document(s) in `source-material/sports/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-01.
 **Documents:** 247Sports Recruiting Rankings, Redesign Research 2026
 
 

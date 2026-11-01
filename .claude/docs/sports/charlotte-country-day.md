@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Sports
-> Distilled from 17 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-31.
+> Distilled from 17 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-01.
 **Documents:** Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Swimming Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records, 247Sports Recruiting Rankings, Redesign Research 2026, Wells Fargo Cup Standings 2020-2026
 
 
