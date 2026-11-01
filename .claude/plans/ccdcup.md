@@ -175,3 +175,11 @@ Scope is the overlay layer only: two strings in each of the nine locales in `PRO
 ## Open questions
 
 - Should a school that won some seasons but not others show its gap in the other seasons? Today the summary row is all-or-nothing, so Country Day shows `+27.5` once and five dashes, while Latin, with no wins, shows a gap in all six. The fix is in the shared `CupTable`, a signed row with a new label, and it would also change PD's 2021–22 cell from a dash to `−55`. That is a change to a shipped card and a new `sports.cup.*` string in ten catalogs, so it is left out. — **default:** ship the row as computed, which is accurate, and decide at the Phase 1 review. If the user wants the fix, it joins this PR before Phase 2.
+
+## Implementation notes
+
+- **Open question resolved by default.** The user approved the English with the summary row as computed, so `CupTable` is unchanged. Country Day reads `—, —, —, —, +27.5, —`.
+- **Stamps.** The two notes moved from `bd0ba0b9` and `6323c581` to `4de448a0` and `6023c0c8`. Units `7b84d2bf` (`RUNNER-UP`) and `732a0f1b` (`NONE`) kept their translations and changed only their `at` lists.
+- **`check_work_integrity.mjs` reports 54 violations here, all expected:** 6 per locale on those four units. It freezes existing units, so a deliberate correction trips it. A diff against `HEAD` confirmed no other unit moved.
+- **Italian `Four-peat` stays.** The Italian note keeps the English word. The step changes only the year, so it was left as shipped.
+- **Follow-up, found during Phase 2, not fixed here.** `ResultCell` in `src/components/SportsProgram.tsx` compares `cell.result` with the English `'NONE'` and `'RUNNER-UP'`, but the overlay has already replaced that value in a translated locale. Every result cell then takes the winner branch: 18 of 18 `sports-chip` on Country Day in `es` and `hi` and 21 of 21 on Latin in `fr`, against 10 winner, 4 runner-up and 4 dash in `en`. So a non-win renders as a filled chip reading the locale's word for `NONE`, and the `3rd at state` record that English hides appears beneath it. It affects the Winning Record card in all nine locales and predates this plan.
