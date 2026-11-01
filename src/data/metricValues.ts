@@ -121,8 +121,10 @@ export type ValueMetric = {
    * names the university and the term, read from the selected schools'
    * `ncAdmissions.latestTerm` — the same field the school-page card captions
    * its ledger with — so a dashboard refresh moves the tip's year with the card.
+   * `cup`: explains the Wells Fargo Cup, reusing the Cup card's own strings,
+   * because Compare is the only place the term appears for a school with no card.
    */
-  rowTip?: 'ncAdmit'
+  rowTip?: 'ncAdmit' | 'cup'
 }
 
 /**
@@ -2239,6 +2241,111 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': {
         kind: 'scope',
         text: 'Colombia, Denmark, Ecuador, France, Greece, Iceland, Japan, Kenya, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, the United Arab Emirates and the United Kingdom.',
+      },
+    },
+  },
+
+  /* ------------------------------------------------- Wells Fargo Cup rows -- */
+
+  // Rows user-approved 2026-11-01 (plan `cupcompare`). Every cell is typed and
+  // re-derived by check:cup from src/data/wellsFargoCup.ts, so a new season or a
+  // ledger correction fails the build until these move. `noLead` because places
+  // and titles do not compare across divisions, and the default parser would
+  // read `16th of 17` as 1617. Appended last because overlays are keyed by index.
+  {
+    topic: 'sports',
+    key: 'cup-finish',
+    label: 'Wells Fargo Cup finish, 2025–26',
+    note: 'The all-sports standings each association publishes. The place is within the school’s own division, out of the schools listed in it; beneath, the association and division. Divisions differ in size and competition, so places do not compare across them.',
+    compareOnly: true,
+    noLead: true,
+    textValues: true,
+    rowTip: 'cup',
+    values: {
+      cannon: '5th of 17',
+      'charlotte-christian': '8th of 17',
+      'charlotte-catholic': '1st',
+      'charlotte-country-day': '3rd of 17',
+      'charlotte-latin': '2nd of 17',
+      'covenant-day': '15th of 17',
+      'carmel-christian': '16th of 17',
+      'davidson-day': '8th of 26',
+      'hickory-grove-christian': '18th of 26',
+      'gaston-day': '6th of 25',
+      'providence-day': '1st of 17',
+    },
+    subs: {
+      cannon: 'NCISAA 4A',
+      'charlotte-christian': 'NCISAA 4A',
+      'charlotte-catholic': 'NCHSAA 6A',
+      'charlotte-country-day': 'NCISAA 4A',
+      'charlotte-latin': 'NCISAA 4A',
+      'covenant-day': 'NCISAA 4A',
+      'carmel-christian': 'NCISAA 4A',
+      'davidson-day': 'NCISAA 3A',
+      'hickory-grove-christian': 'NCISAA 3A',
+      'gaston-day': 'NCISAA 2A',
+      'providence-day': 'NCISAA 4A',
+    },
+    quals: {
+      cannon: { kind: 'scope', text: '407.5 points. Providence Day won 4A with 692.5.' },
+      'charlotte-christian': { kind: 'scope', text: '347.5 points. Providence Day won 4A with 692.5.' },
+      'charlotte-catholic': {
+        kind: 'scope',
+        text: '655 points, ahead of Watauga with 580 and East Chapel Hill with 515. The NCHSAA is a separate association, so its points do not compare with NCISAA points.',
+      },
+      'charlotte-country-day': { kind: 'scope', text: '602.5 points. Providence Day won 4A with 692.5.' },
+      'charlotte-latin': { kind: 'scope', text: '690 points. Providence Day won 4A with 692.5.' },
+      'covenant-day': { kind: 'scope', text: '185 points. Providence Day won 4A with 692.5.' },
+      'carmel-christian': { kind: 'scope', text: '160 points. Providence Day won 4A with 692.5.' },
+      'davidson-day': { kind: 'scope', text: '267.5 points. Cape Fear Academy won 3A with 450.' },
+      'hickory-grove-christian': { kind: 'scope', text: '110 points. Cape Fear Academy won 3A with 450.' },
+      'gaston-day': { kind: 'scope', text: '232.5 points. Caldwell Academy won 2A with 482.5.' },
+      'providence-day': { kind: 'scope', text: '692.5 points. Charlotte Latin was second with 690.' },
+    },
+  },
+  {
+    topic: 'sports',
+    key: 'cup-titles',
+    label: 'Wells Fargo Cup titles, 2020–21 to 2025–26',
+    note: 'Division titles in these six seasons. Beneath, how many seasons the school finished in its division’s top 3. A title in one division does not compare with a title in another. Charlotte Catholic shows n/a because only its latest season is verified here.',
+    compareOnly: true,
+    noLead: true,
+    rowTip: 'cup',
+    values: {
+      cannon: '0',
+      'charlotte-christian': '0',
+      'charlotte-catholic': null, // only 2025–26 is verified, so six seasons cannot be claimed
+      'charlotte-country-day': '1',
+      'charlotte-latin': '0',
+      'covenant-day': '0',
+      'carmel-christian': '0',
+      'davidson-day': '1',
+      'hickory-grove-christian': '0',
+      'gaston-day': '1',
+      'providence-day': '5',
+    },
+    subs: {
+      'charlotte-country-day': 'Top 3 in 6 of 6',
+      'charlotte-latin': 'Top 3 in 6 of 6',
+      'davidson-day': 'Top 3 in 4 of 6',
+      'gaston-day': 'Top 3 in 2 of 6',
+      'providence-day': 'Top 3 in 6 of 6',
+    },
+    quals: {
+      'charlotte-country-day': { kind: 'scope', text: 'Won in 2021–22, in NCISAA 4A.' },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Second in 2021–22, 2022–23, 2024–25 and 2025–26, and third in 2020–21 and 2023–24, all in NCISAA 4A.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Won in 2023–24, in NCISAA 2A. The school moved up to NCISAA 3A in 2024–25.',
+      },
+      'gaston-day': { kind: 'scope', text: 'Won in 2021–22, in NCISAA 2A.' },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Won in 2020–21, 2022–23, 2023–24, 2024–25 and 2025–26, all in NCISAA 4A.',
       },
     },
   },

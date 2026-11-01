@@ -19,20 +19,27 @@
  *   - divisionRows never mixes associations;
  *   - a card's table holds its whole division, because its heading says "every";
  *   - Providence Day's card reads the figures verified from the official tables;
- *   - the inline fixtures compute what they should.
+ *   - the inline fixtures compute what they should;
+ *   - the two Compare rows (`cup-finish`, `cup-titles`, plan `cupcompare`) are
+ *     contiguous and last in VALUE_METRICS, compareOnly, noLead and carrying the
+ *     `cup` header tip, name the seasons in their labels, list the same schools as `d1-commits-2426`, and
+ *     every typed cell, sub-line and tooltip matches the ledger.
  *
  * The ledger is passed as an argument to each rule, so the fixtures never touch
- * the shipped data. Fixture slugs print through cupName as themselves.
+ * the shipped data. Fixture slugs print through cupName as themselves. The
+ * Compare cells are typed into metricValues.ts because coverage_floor parses
+ * literals and overlays stamp the English, so this is what keeps them honest.
  */
 import { readFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const here = dirname(fileURLToPath(import.meta.url))
-const { CUP_RECORDS, CUP_DIVISION_LEADERS, CUP_SEASONS, CUP_SPORTS } = await import(
+const { CUP_RECORDS, CUP_DIVISION_LEADERS, CUP_FIELD_SIZES, CUP_SEASONS, CUP_SPORTS } = await import(
   '../src/data/wellsFargoCup.ts'
 )
 const cup = await import('../src/lib/wellsFargoCup.ts')
+const { VALUE_METRICS } = await import('../src/data/metricValues.ts')
 
 const fails = []
 const fail = (msg) => fails.push(msg)
@@ -263,6 +270,101 @@ if (!/pointsToken\(c\.result, number\)/.test(body) || !/estimated && \(/.test(bo
   eq('comeback: trailed after fall', cup.isComeback('x', b), false)
 }
 
+/* ---------------------------------------------------------- Compare rows -- */
+
+const ordinal = (n) => {
+  const tens = n % 100
+  if (tens >= 11 && tens <= 13) return `${n}th`
+  return `${n}${{ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] ?? 'th'}`
+}
+
+const COMPARE_KEYS = ['cup-finish', 'cup-titles']
+const latestSeason = CUP_SEASONS.at(-1)
+const finish = VALUE_METRICS.find((m) => m.key === 'cup-finish')
+const titles = VALUE_METRICS.find((m) => m.key === 'cup-titles')
+
+eq('Compare rows: last in VALUE_METRICS, in order', VALUE_METRICS.slice(-2).map((m) => m.key), COMPARE_KEYS)
+eq(
+  'Compare rows: exactly two',
+  VALUE_METRICS.filter((m) => m.key.startsWith('cup-')).map((m) => m.key),
+  COMPARE_KEYS,
+)
+eq(
+  'CUP_FIELD_SIZES 4A: the one division the ledger holds whole',
+  CUP_FIELD_SIZES['NCISAA|4A'],
+  CUP_RECORDS.filter(
+    (r) => r.association === 'NCISAA' && r.classification === '4A' && r.season === latestSeason,
+  ).length,
+)
+
+if (finish && titles) {
+  const commits = VALUE_METRICS.find((m) => m.key === 'd1-commits-2426')
+  for (const row of [finish, titles]) {
+    eq(`${row.key}: topic`, row.topic, 'sports')
+    if (row.compareOnly !== true) fail(`${row.key}: must be compareOnly`)
+    if (row.noLead !== true) fail(`${row.key}: must be noLead`)
+    if (row.rowTip !== 'cup') fail(`${row.key}: must carry rowTip: 'cup'`)
+    eq(`${row.key}: school keys`, Object.keys(row.values).sort(), Object.keys(commits.values).sort())
+  }
+  if (!finish.label.includes(latestSeason)) fail(`cup-finish label must contain ${latestSeason}`)
+  if (!titles.label.includes(CUP_SEASONS[0]) || !titles.label.includes(latestSeason)) {
+    fail(`cup-titles label must contain ${CUP_SEASONS[0]} and ${latestSeason}`)
+  }
+
+  for (const slug of Object.keys(finish.values)) {
+    const own = cup.recordsFor(slug)
+    const latest = own.at(-1)
+
+    // cup-finish: the place in the latest season, and nothing without one.
+    const current = latest?.season === latestSeason ? latest : null
+    const finishValue = finish.values[slug]
+    const finishQual = finish.quals?.[slug]?.text
+    if (!current) {
+      eq(`cup-finish ${slug}: value with no ${latestSeason} record`, finishValue, null)
+      eq(`cup-finish ${slug}: sub with no ${latestSeason} record`, finish.subs?.[slug] ?? null, null)
+    } else {
+      const size = CUP_FIELD_SIZES[`${current.association}|${current.classification}`]
+      const place = `${current.tied ? 'T' : ''}${ordinal(current.place)}`
+      eq(`cup-finish ${slug}: value`, finishValue, size ? `${place} of ${size}` : place)
+      eq(`cup-finish ${slug}: sub`, finish.subs?.[slug], `${current.association} ${current.classification}`)
+      const rival = cup.seasonRival(slug, current.season)
+      if (!finishQual) {
+        fail(`cup-finish ${slug}: non-null cell has no quals tooltip`)
+      } else if (!rival) {
+        if (!finishQual.startsWith(`${current.points} points`)) {
+          fail(`cup-finish ${slug}: tooltip must start with "${current.points} points"`)
+        }
+      } else {
+        eq(
+          `cup-finish ${slug}: tooltip`,
+          finishQual,
+          current.place === 1
+            ? `${current.points} points. ${rival.name} was second with ${rival.points}.`
+            : `${current.points} points. ${rival.name} won ${current.classification} with ${rival.points}.`,
+        )
+      }
+    }
+
+    // cup-titles: a partial record cannot claim six seasons.
+    const whole = own.length === CUP_SEASONS.length
+    const won = own.filter((r) => r.place === 1)
+    const top3 = own.filter((r) => r.place <= 3).length
+    eq(`cup-titles ${slug}: value`, titles.values[slug], whole ? String(won.length) : null)
+    eq(
+      `cup-titles ${slug}: sub`,
+      titles.subs?.[slug] ?? null,
+      whole && top3 > 0 ? `Top 3 in ${top3} of ${CUP_SEASONS.length}` : null,
+    )
+    if (whole && won.length > 0) {
+      const text = titles.quals?.[slug]?.text
+      if (!text) fail(`cup-titles ${slug}: a title needs a quals tooltip`)
+      for (const r of won) {
+        if (text && !text.includes(r.season)) fail(`cup-titles ${slug}: tooltip does not name ${r.season}`)
+      }
+    }
+  }
+}
+
 /* ---------------------------------------------------------------- report -- */
 
 if (fails.length > 0) {
@@ -271,5 +373,5 @@ if (fails.length > 0) {
   process.exit(1)
 }
 console.log(
-  `check:cup — ${CUP_RECORDS.length} records, ${CUP_DIVISION_LEADERS.length} leaders, ${cards} card(s): OK`,
+  `check:cup — ${CUP_RECORDS.length} records, ${CUP_DIVISION_LEADERS.length} leaders, ${cards} card(s), ${Object.keys(finish?.values ?? {}).length} Compare schools: OK`,
 )

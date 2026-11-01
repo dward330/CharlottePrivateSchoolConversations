@@ -539,6 +539,21 @@ export function Compare({ topic, schools }: Props) {
                               <span className="tip-kind">{t('compare.ncAdmitTipKind', tip)}</span>
                               <span className="tip-body">{t('compare.ncAdmitTip', tip)}</span>
                             </TopLayerTip>
+                          ) : vm.rowTip === 'cup' ? (
+                            <TopLayerTip
+                              idPrefix={`rowtip-${vm.key}`}
+                              className="qual row-tip"
+                              trigger={
+                                <>
+                                  <span className="row-metric-label">{isolateFigures(vm.label)}</span>
+                                  <span className="qual-dot" aria-hidden="true" />
+                                </>
+                              }
+                            >
+                              <span className="tip-kind">{t('compare.cupTipKind')}</span>
+                              <span className="tip-body">{t('sports.cup.what1')}</span>
+                              <span className="tip-body">{t('sports.cup.what3')}</span>
+                            </TopLayerTip>
                           ) : (
                             <span className="row-metric-label">{isolateFigures(vm.label)}</span>
                           )}

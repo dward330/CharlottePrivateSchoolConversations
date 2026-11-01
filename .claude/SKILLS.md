@@ -454,11 +454,13 @@ episode to `podcastEpisodes.ts` is a separate PR.
 **Add the next school to the Sports area's Wells Fargo Cup card: re-verify its ledger rows
 against the association's own tables, confirm its point sources, and hand a GO to `/plan`.**
 
-`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31 · updated 2026-10-31
+`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31 · updated 2026-11-01
 
 The card is data-driven, with a shared ledger in `src/data/wellsFargoCup.ts` and everything
 computed in `src/lib/wellsFargoCup.ts`. So a new school normally needs a `cup` block and no
-component change. Providence Day is the shipped model.
+component change. Providence Day is the shipped model. The ledger also feeds two Compare
+rows, `cup-finish` and `cup-titles`, so a new season or a ledger correction moves those typed
+cells, and `check:cup` fails until they match.
 
 **Use it when** a school should get the Cup card: `/wells-fargo-cup`, "add the Wells Fargo
 Cup for <school>", "add the next school to the Cup card".
