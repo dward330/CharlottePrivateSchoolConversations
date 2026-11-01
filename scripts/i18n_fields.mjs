@@ -327,6 +327,13 @@ export const PATH_OVERRIDES = new Map([
   // Cup card's outlines, while the leaf `season` is prose for season names.
   ['cup.pointSources[].season', false],
 
+  // `cells[].result` on the state-title matrix is the same trap as `flags[].kind`:
+  // an enum (STATE, RUNNER-UP, SEMIFINAL, NONE) that ResultCell compares by value,
+  // then words from the `sports.*` catalog keys. The leaf `result` is prose for
+  // The Arts' results column. Translated, every comparison missed, so all nine
+  // locales drew each cell as a winner chip, a non-win included.
+  ['record.rows[].cells[].result', false],
+
   // Citation labels are publisher + page name: "providenceday.org — Arts overview".
   // Half proper noun, half descriptive. Left English so a citation always matches
   // the page it points at — a translated citation label cannot be checked against
