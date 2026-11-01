@@ -52,6 +52,10 @@ function ncAdmitFor(vm: ValueMetric, slug: string) {
   return { term: nc.latestTerm, university: u.name, applied: u.applied, admitted: u.accepted }
 }
 
+/** A word joiner after each season's dash, so `2025–26` never wraps at the dash.
+    Render only: the stored figure is untouched. */
+const keepSeasonsWhole = (label: string) => label.replace(/(\d)–(\d)/g, '$1–\u2060$2')
+
 /** The row-header tip. `check:ncrows` holds every school to one shared term,
     so the first selected school with a card speaks for the row. */
 function ncAdmitTip(vm: ValueMetric, slugs: string[]): { term: string; university: string } | null {
@@ -531,8 +535,10 @@ export function Compare({ topic, schools }: Props) {
                                 <>
                                   {/* The year sits in the label, composed from the cards'
                                       latestTerm like the tips, so it is never typed. */}
-                                  <span className="row-metric-label">{t('compare.ncAdmitLabel', tip)}</span>
-                                  <span className="qual-dot" aria-hidden="true" />
+                                  <span className="row-metric-label">
+                                    {t('compare.ncAdmitLabel', tip)}
+                                    <span className="qual-dot" aria-hidden="true" />
+                                  </span>
                                 </>
                               }
                             >
@@ -545,8 +551,10 @@ export function Compare({ topic, schools }: Props) {
                               className="qual row-tip"
                               trigger={
                                 <>
-                                  <span className="row-metric-label">{isolateFigures(vm.label)}</span>
-                                  <span className="qual-dot" aria-hidden="true" />
+                                  <span className="row-metric-label">
+                                    {keepSeasonsWhole(isolateFigures(vm.label))}
+                                    <span className="qual-dot" aria-hidden="true" />
+                                  </span>
                                 </>
                               }
                             >

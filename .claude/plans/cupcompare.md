@@ -419,3 +419,8 @@ or Bangla's method.
   match the card, and translations were matched by English text.
 - **`fr` and `te` reword the top-3 line** to read naturally: `Top 3 : 6 sur 6` and
   `6 సీజన్లలో 6సార్లు టాప్ 3`. Bangla and Hindi put the total first, as the plan allows.
+- **Follow-up after #396, same day.** Charlotte Catholic's `1st` / 655 was confirmed against
+  the NCHSAA's own post, which is now the cited source. The row-header dot moved inside the
+  label and anchors to the end of its last line, for the NC admit-rate rows too. A dot in
+  flow, even with a word joiner, drops onto its own line when the label fills its last line.
+  Cup labels also keep a season whole at render, because `2025–26` could wrap at the dash.

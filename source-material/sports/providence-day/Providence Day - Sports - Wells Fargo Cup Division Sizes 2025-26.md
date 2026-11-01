@@ -8,7 +8,7 @@ Retrieved 2026-11-01 with curl from the NCISAA's own Wells Fargo Cup pages, for 
 
 `current-champions/` still showed 2025–26 on this date, so no newer season has been published.
 
-The ledger was re-checked in the same pass. All six official season tables were fetched, and all 60 `CUP_RECORDS` rows for the 10 NCISAA schools on the roster matched on place, points, fall, winter, spring and class. Charlotte Catholic's single NCHSAA row (2025–26, 6A, 1st, 655) was not independently re-confirmed in this pass: the cited article did not return a usable match when fetched. It rests on `Providence Day - Sports - Wells Fargo Cup Standings 2020-2026.md`. No field size is held for NCHSAA 6A.
+The ledger was re-checked in the same pass. All six official season tables were fetched, and all 60 `CUP_RECORDS` rows for the 10 NCISAA schools on the roster matched on place, points, fall, winter, spring and class. Charlotte Catholic's single NCHSAA row (2025–26, 6A, 1st, 655) was not confirmed in that pass, because the cited article returned no usable match. It was confirmed later on 2026-11-01 against the NCHSAA's own post, "2025-2026 Wells Fargo State Cup Champions" (published 2026-06-25): https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/. That post lists 6A as Charlotte Catholic 655, Watauga 580, East Chapel Hill 515, Northern Guilford 507.5 and Middle Creek (Apex) 450.83. It names only the top five, so no field size is held for NCHSAA 6A.
 
 Sources:
 

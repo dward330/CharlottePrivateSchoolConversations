@@ -22,7 +22,8 @@ Sources:
 - NCISAA sport list: https://www.ncisaa.org/sports/
 - 2025–26 NCISAA champions by sport: https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - PD 2025 football title: https://www.wbtv.com/2025/11/22/providence-day-tops-christian-42-6-ncisaa-division-i-state-championship/
-- NCHSAA 2025–26 Cup winners: https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026
+- NCHSAA 2025–26 Cup winners (the association's own post, top five per class): https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/
+- NCHSAA press release as reprinted: https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026
 - NCHSAA scoring: https://www.nchsaa.org/calculating-state-cup-points/
 
 ## Wells Fargo Cup results by school
