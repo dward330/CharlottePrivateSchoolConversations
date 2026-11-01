@@ -207,7 +207,7 @@ metrics.ts · metricValues.ts · financialAidReports.ts · locales/*.json
 
 **Wire a school's live "Latest News" section.**
 
-`.claude/skills/add-school-news/SKILL.md` · added 2026-08-27 · updated 2026-08-28
+`.claude/skills/add-school-news/SKILL.md` · added 2026-08-27 · updated 2026-11-01
 
 Every school's news board runs on a different CMS with different markup. **There is no
 universal parser.** This skill is the per-school procedure plus the traps that silently

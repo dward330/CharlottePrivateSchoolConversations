@@ -21,15 +21,13 @@ export type NewsSource = {
   /**
    * OPTIONAL extra boards, fetched and merged with `boardUrl`.
    *
-   * Exists for Charlotte Latin, whose news lives on FOUR category-filtered
-   * views of one board (`?post_category_id=84|85|167|89`) that the user asked
-   * to be merged into a single date-ordered ten. Every other school has one
-   * board and leaves this undefined, so their fetch path is byte-for-byte
-   * unchanged — this is additive, not a rewrite.
+   * Exists for Gaston Day, whose board paginates 7 + 1, so page 2 is needed to
+   * reach its eighth article. Every other school has one board and leaves this
+   * undefined.
    *
    * Each URL is fetched with the SAME `parse`, and the results concatenated
-   * before `normalizeItems`, which already de-duplicates by URL (the four
-   * views share 10 cross-posted articles) and enforces the newest-first cap.
+   * before `normalizeItems`, which de-duplicates by URL and enforces the
+   * newest-first cap.
    */
   extraBoardUrls?: string[]
   /**
@@ -62,6 +60,14 @@ export type NewsSource = {
       `article:published` meta tag on the article page. Dates arriving here
       re-sort the list, since the board's own DOM order is not chronological. */
   publishedAt?: (html: string) => string | undefined
+  /** True when the board's own order tracks its article dates closely enough
+      that an undated row belongs where the board put it, rather than last.
+
+      Set this only after MEASURING the board's order against article dates. On
+      a board that fails that test, trusting its order would rank a stale story
+      above current ones. Charlotte Latin's grid was measured 2026-11-01: only
+      adjacent rows are ever out of order. */
+  boardIsChronological?: boolean
 }
 
 /** Newest-first, capped. The board is the source of order, but a parser that
@@ -79,6 +85,30 @@ export function byNewestFirst(a: NewsItem, b: NewsItem): number {
   if (Number.isNaN(at)) return 1
   if (Number.isNaN(bt)) return -1
   return bt - at
+}
+
+/**
+ * Newest first, for a `boardIsChronological` board whose second pass may have
+ * left some rows undated. `byNewestFirst` sinks those rows, and the cap then
+ * removes them, so a slow article would delete a current story. Here an undated
+ * row sorts with the row above it, which keeps it where the board placed it. A
+ * leading undated row stays first.
+ *
+ * Takes the pool in BOARD order. `normalizeItems` preserves that order for a
+ * dateless board, because its sort treats two undated rows as equal.
+ *
+ * The rows themselves are unchanged: an undated row still shows no date.
+ */
+export function byNewestFirstKeepingBoardOrder(items: NewsItem[]): NewsItem[] {
+  let key = Infinity
+  return items
+    .map((item) => {
+      const t = item.date ? Date.parse(item.date) : NaN
+      if (!Number.isNaN(t)) key = t
+      return { item, key }
+    })
+    .sort((a, b) => (a.key === b.key ? 0 : b.key - a.key))
+    .map(({ item }) => item)
 }
 
 /**
@@ -151,7 +181,7 @@ function onHost(url: URL, host: string): boolean {
  *    host and can match a site the school does not own.
  *  - It is scoped to one school, so an entry can never widen another's section.
  *  - Third-party hosts stay dropped even when a school links to them. On these
- *    same four Latin boards `sya.org` (a study-abroad organisation), `issuu.com`
+ *    same Latin board `sya.org` (a study-abroad organisation), `issuu.com`
  *    (a document host) and social platforms are all still excluded — being
  *    linked BY the school is not the same as being published BY the school.
  *
@@ -173,10 +203,13 @@ function isAllowedHost(url: URL, board: URL, also: readonly string[]): boolean {
  * `cap` exists for a DATELESS board whose dates are only learned on the second
  * pass. Capping such a board at MAX_ITEMS here would choose the final ten
  * BEFORE any date is known — the fetch pass would then faithfully date and sort
- * the wrong ten, and the section would look correct while being wrong. Charlotte
- * Latin passes a larger cap so the date pass has a real candidate pool, then
- * caps to MAX_ITEMS once the dates are in. Boards that publish their own dates
- * pass nothing and cap at ten immediately, exactly as before.
+ * the wrong ten, and the section would look correct while being wrong. A board
+ * with no dates passes a larger cap so the date pass has a real candidate pool,
+ * then caps to MAX_ITEMS once the dates are in. Boards that publish their own
+ * dates pass nothing and cap at ten immediately, exactly as before.
+ *
+ * With every row undated the sort below changes nothing, so a dateless pool
+ * leaves here in board order. `byNewestFirstKeepingBoardOrder` relies on that.
  */
 export function normalizeItems(
   raw: NewsItem[],

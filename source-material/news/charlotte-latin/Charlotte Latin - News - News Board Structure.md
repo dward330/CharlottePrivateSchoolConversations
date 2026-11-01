@@ -7,7 +7,8 @@
   supplied by the user, plus 38 sampled article pages. The shipped parser was then run
   against the captured HTML **in Chromium via Playwright** (not a reimplementation), and
   the resulting ten rows were checked against an independently derived date ordering.
-- **Source URLs — SUPPLIED BY THE USER**, four category-filtered views:
+- **Source URLs — SUPPLIED BY THE USER**, four category-filtered views (**superseded
+  2026-11-01**, see the re-capture section below):
 
   | Category id | Section | URL |
   |---|---|---|
@@ -28,6 +29,82 @@
   quarter of the news.
 - **CORS:** no `Access-Control-Allow-Origin` header (expected — the relay exists for
   this). `charlottelatin.org` **301s to `www.`**, so both forms are in `ALLOWED_HOSTS`.
+
+## Re-capture 2026-11-01 — the four views stopped covering the news
+
+- **Captured:** 2026-11-01 by Claude (Claude Code), during the audit behind the
+  `latinnews` plan. **The user chose 2026-11-01 to replace the four category views with
+  the unfiltered board.** Sections below this one describe the 2026-08-28 four-view design.
+- **How:** `curl` with a desktop Chrome User-Agent, and through the relay, against
+  `https://www.charlottelatin.org/about/school-news` (HTTP 200, 1,000,332 bytes,
+  `<title>School News and Publications - Charlotte Latin School</title>`) and the four
+  category URLs above; then one fetch per article page for its date.
+
+### Page structure of the unfiltered board
+
+| Element | Selector | Holds |
+|---|---|---|
+| Featured strip | `.fsPostElement.fsList.featured` (`#fsEl_29263`) | 1 `fsBoard-40` post, `href="#"` on its title |
+| Second strip | `.fsPostElement.fsList.non-featured` (`#fsEl_29264`) | 4 `fsBoard-40` posts, `href="#"` on their titles |
+| **Main grid** | `.fsPostElement.fsGrid` (`#fsEl_38493`, `data-board-id="209,40"`) | **335 posts, all server-rendered, no pagination; 0 `#` hrefs** |
+
+The grid holds 308 `fsBoard-209` posts and 27 `fsBoard-40` ("Hawks Aim High",
+`kudos/post/…` slugs). The two strips repeat grid posts, which is why a page-wide
+`article[data-post-id]` count gives 340. Reading the page without scoping to the grid
+would take five strip rows whose title links are `#`.
+
+Grid hosts: `www.charlottelatin.org` 300, `www.charlottelatinstories.com` 13, `issuu.com` 8,
+`clshawks.com` 6, `clsteachingandlearning.podbean.com` 3, `chattinatlatin.podbean.com` 3,
+`charlottelatin.turtl.co` 1, `www.sya.org` 1.
+
+Category labels, from the board's filter: 82 Academics, 83 Alumni, 84 Arts, 85 Athletics,
+87 Employees, 88 Advancement, 89 STEAM, 92 Hawks Aim High, 96 Publications, 167 Events,
+168 Honors, 169 Community. (172 had 4 posts and "Leadership" is the one remaining label;
+that pairing was not confirmed.) The August table above calls 167 "School" and 89
+"Academics"; the school's own labels are Events and STEAM.
+
+### Grid order against article dates (first 25 rows)
+
+| Row | Published | Post | Headline | In old four views? |
+|---|---|---|---|---|
+| 0 | 2026-09-30 | 5137 | High Honor for Director of Teaching and Learning | No |
+| 1 | off-site | 5136 | 2025–26 Gratitude Report (issuu.com, dropped) | No |
+| 2 | 2026-09-24 | 5135 | Spotlight: Louisa Polos, Head of Middle School | No |
+| 3 | 2026-09-16 | 5133 | Ten Charlotte Latin Seniors Named National Merit Semifinalists | No |
+| 4 | 2026-09-11 | 5126 | Charlotte Latin School Observes 9/11 Anniversary | Yes |
+| 5 | 2026-09-10 | 5125 | Spotlight: Amy Maxwell, Transitional Kindergarten (TK) Teacher | No |
+| 6 | 2026-09-07 | 5124 | David Gatoux Receives Chuck Carter Athletic Cup (clshawks.com) | Yes |
+| 7 | 2026-09-09 | 5123 | Charlotte Latin Celebrates Founders' Day | Yes |
+| 8 | 2026-09-03 | 5122 | Spotlight: Jessica Lee, Upper School English Chair | No |
+| 9 | 2026-08-28 | 5121 | Convocation Begins the Senior Year for the Class of 2027 | Yes |
+| 10 | 2026-08-18 | 5102 | Daniel Willingham Delivers Keynote to Latin Faculty | No |
+| 11 | 2026-06-25 | 5095 | Latin Debaters Win National Championship | No |
+| 12 | 2026-06-12 | 5094 | Graduating Seniors Guide Future Ninth Graders | No |
+| 13 | 2026-05-27 | 5093 | Sunny's Honor Celebrates Sunny's Legacy | No |
+| 14 | 2026-05-22 | 5092 | Commencement Exercises for Class of 2026 | Yes |
+| 15 | 2026-05-21 | 5091 | 2026 Upper School Honors and Awards Ceremony | Yes |
+| 16 | 2026-05-21 | 5090 | Spotlight: Mike Weiss, Upper School History Teacher | No |
+| 17 | 2026-05-20 | 5089 | 2026 Middle School Awards Assembly | Yes |
+| 18 | 2026-05-18 | 5088 | Class of 2026 Celebrated at Baccalaureate and Senior Supper | Yes |
+| 19 | 2026-05-15 | 5087 | Latin Students Excel at Conference for Future Healthcare Professionals | No |
+| 20 | 2026-05-14 | 5086 | Spotlight: Second Grade Teacher Morgan Johnson | No |
+| 21 | 2026-05-13 | 5085 | Theater Arts Department Announces 2026-27 Schedule | Yes |
+| 22 | 2026-05-09 | 5084 | Latin Eighth Grader Earns Seat in All-State Honors Band (`kudos/post`) | No |
+| 23 | 2026-05-08 | 5083 | Arts & Science Council Honors Charlotte Latin Teacher | No |
+| 24 | 2026-05-07 | 5082 | Spotlight: Fay Lucas, Custodial Supervisor, and Kay Rigo | No |
+
+Over the first 45 rows, every disorder is between ADJACENT rows (the largest gap is one
+row), and the true top ten all sit inside the first ten rows. Dates were recorded to the
+day for rows 0–28; a few rows further down returned no date in this burst of fetches and
+were not re-tried, so this does not prove the property for the whole board.
+
+**No post on the board was dated October 2026 on capture day.**
+
+### Measured through the relay
+
+- **Cold** (cache-busted URLs, 16 article pages in parallel): 8.16s wall. Finalsite pages
+  took 2.3–8.2s in visible steps; the two `clshawks.com` pages took about 0.4s.
+- **Warm** (the Worker's 15-minute edge cache): 0.12–0.27s each.
 
 ## CMS
 
@@ -71,6 +148,10 @@ in the single second-pass fetch.
 ## Traps specific to this site
 
 ### Trap 1 — four boards, badly out of sync
+
+**Superseded 2026-11-01.** The section now reads the unfiltered board's main grid, so this
+merge and `PER_BOARD` no longer exist. Kept as the record of the first design.
+
 Newest post per view on capture day: **167 → 2026-05-22**, **84 → 2026-05-13**,
 **89 → 2026-04-21**, **85 → 2026-04-09**. Interleaving by DOM position would ship a list
 ordered by neither date nor relevance.
@@ -172,6 +253,9 @@ name. `article:published` was present on **38/38** sampled articles.
 
 ## Verified result (2026-08-28)
 
+**Superseded.** This is the four-view design; see "Verified result (2026-11-01)" below.
+
+
 Running the shipped parser in Chromium over the captured HTML, then fetching the 14
 candidate article pages (main site *and* athletics site): **10/10 dates, 10/10
 photos, 10/10 genuine previews** — no
@@ -192,6 +276,28 @@ derived ranking from a 38-article date sample.
 | 10 | 2026-04-01 | Arts | Latin Student Artists Win National Medals in Scholastic Awards |
 
 All four requested sections are represented.
+
+## Verified result (2026-11-01)
+
+The shipped parser and `fetchNews`, built and run in Chrome through the relay against the
+live board: **10/10 dates, 10/10 previews**, order matching the grid-by-date table in the
+re-capture section above.
+
+| # | Date | Headline | Host |
+|---|---|---|---|
+| 1 | 2026-09-30 | High Honor for Director of Teaching and Learning | charlottelatin.org |
+| 2 | 2026-09-24 | Spotlight: Louisa Polos, Head of Middle School | charlottelatin.org |
+| 3 | 2026-09-16 | Ten Charlotte Latin Seniors Named National Merit Semifinalists | charlottelatin.org |
+| 4 | 2026-09-11 | Charlotte Latin School Observes 9/11 Anniversary | charlottelatin.org |
+| 5 | 2026-09-10 | Spotlight: Amy Maxwell, Transitional Kindergarten (TK) Teacher | charlottelatin.org |
+| 6 | 2026-09-09 | Charlotte Latin Celebrates Founders' Day | charlottelatin.org |
+| 7 | 2026-09-07 | David Gatoux Receives Chuck Carter Athletic Cup | clshawks.com |
+| 8 | 2026-09-03 | Spotlight: Jessica Lee, Upper School English Chair | charlottelatin.org |
+| 9 | 2026-08-28 | Convocation Begins the Senior Year for the Class of 2027 | charlottelatin.org |
+| 10 | 2026-08-18 | Daniel Willingham Delivers Keynote to Latin Faculty | charlottelatin.org |
+
+The section holds its skeleton until the date pass ends: 0.3s warm and **13.6s fully cold**
+(cache-busted board and articles).
 
 ## Distinguishing a redesign from a parser bug
 

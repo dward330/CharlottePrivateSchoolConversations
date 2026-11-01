@@ -126,28 +126,19 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // No `publishedAt`: every post publishes a real <time> on the board.
   },
   'charlotte-latin': {
-    // USER-SUPPLIED 2026-08-28. The user gave FOUR category-filtered views of
-    // the school's news board and asked for them merged, ordered by date, and
-    // still capped at ten:
+    // USER'S DECISION 2026-11-01: read the unfiltered board. It replaces the
+    // four category views (84 Arts, 85 Athletics, 167 Events, 89 STEAM) the user
+    // supplied 2026-08-28, which by then missed six of the school's ten newest
+    // posts, including the newest three. See TRAP 1 in the parser.
     //
-    //   84 Arts · 85 Athletics · 167 School · 89 Academics
-    //
-    // This is the FIRST multi-board school, hence `extraBoardUrls`. The four
-    // are filtered views of one underlying board (`fsBoard-209`) and cross-post
-    // 10 articles between them; `normalizeItems` de-duplicates by URL.
-    //
-    // indexUrl is the UNFILTERED board — the four category URLs are parse
-    // targets, and sending a reader to one of them would show them a quarter of
-    // the news. It is not self-derived: it is the same path with the filter
-    // dropped, which the school's own nav links (verified HTTP 200, 2026-08-28).
     // The school publishes its athletics coverage on a SEPARATE domain,
     // clshawks.com (its pages carry `og:site_name: Charlotte Latin School`).
-    // Five rows on the Athletics view link there, and the user confirmed
-    // 2026-08-28 that a school's own athletics site is legitimate news. Those
-    // rows are therefore KEPT rather than dropped as off-site.
+    // Six board rows link there, and the user confirmed 2026-08-28 that a
+    // school's own athletics site is legitimate news. Those rows are therefore
+    // KEPT rather than dropped as off-site.
     //
-    // Third-party hosts these boards also link to stay dropped — `sya.org` (a
-    // study-abroad organisation), `issuu.com` (a document host) and
+    // Third-party hosts this board also links to stay dropped, including
+    // `sya.org` (a study-abroad organisation), `issuu.com` (a document host) and
     // `charlottelatinstories.com` (which no longer resolves at all). Being
     // linked BY the school is not the same as being published BY the school.
     //
@@ -155,31 +146,27 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // rows would render permanently preview-less. `npm run check:news` enforces
     // that the two lists agree.
     alsoAllowedHosts: ['clshawks.com'],
-    boardUrl: 'https://www.charlottelatin.org/about/school-news?post_category_id=84',
-    extraBoardUrls: [
-      'https://www.charlottelatin.org/about/school-news?post_category_id=85',
-      'https://www.charlottelatin.org/about/school-news?post_category_id=167',
-      'https://www.charlottelatin.org/about/school-news?post_category_id=89',
-    ],
+    boardUrl: 'https://www.charlottelatin.org/about/school-news',
     indexUrl: 'https://www.charlottelatin.org/about/school-news',
     domain: 'charlottelatin.org',
     parse: charlotteLatin.parse,
     // Needed: the board is a thumbnail, a category chip and a title — no summary.
     preview: charlotteLatin.preview,
-    // REQUIRED here, unlike the other Finalsite boards. These views publish no
-    // date in ANY form, so without this the merged list could only fall back to
-    // DOM order — and the four views are months out of step with each other, so
-    // that order would be wrong. See TRAP 2 and TRAP 7 in the parser.
+    // REQUIRED here, unlike the other Finalsite boards. This board publishes no
+    // date in ANY form, so without this the section could only show DOM order
+    // with no dates. See TRAP 2 and TRAP 7 in the parser.
     publishedAt: charlotteLatin.publishedAt,
+    // Measured 2026-11-01: only adjacent rows are out of date order, so a row
+    // whose date fetch fails keeps its place. See TRAP 1 in the parser.
+    boardIsChronological: true,
   },
   'covenant-day': {
     // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
     // target and the "All news & media" destination.
     //
     // THREE Finalsite boards render on this one page (`~board/news`,
-    // `~board/features`, `~board/lions-news` — 37 posts total), so unlike
-    // Charlotte Latin this needs no `extraBoardUrls`: a single fetch already
-    // returns all three.
+    // `~board/features`, `~board/lions-news` — 37 posts total), so this needs
+    // no `extraBoardUrls`: a single fetch already returns all three.
     //
     // The fifth Finalsite board in the app and the only school with this field
     // combination — a REAL inline summary but NO date anywhere. It is the exact
