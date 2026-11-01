@@ -2480,14 +2480,25 @@ table.compare-pin-table thead th { position: static; }   /* keep .corner's left-
 }
 /* Row-header variant (Compare `rowTip` rows): the metric label is the trigger.
    The <th> sets no per-school --brand, so the marker uses the site accent. */
-.row-tip { text-align: start; }
+/* The label is inline and positioned, so the dot anchors to the end of its last
+   line. In flow, a label that fills its last line would push the dot onto a line
+   of its own, and a flex trigger strands it at the box's far edge. */
+.row-tip { display: inline; text-align: start; }
 .row-tip .row-metric-label {
+  display: inline;
+  position: relative;
   border-bottom: 1px dotted color-mix(in srgb, var(--accent) 55%, transparent);
   transition: border-color 0.12s ease;
 }
 .row-tip:hover .row-metric-label,
 .row-tip:focus-visible .row-metric-label { border-bottom-color: var(--accent); }
-.row-tip .qual-dot { background: var(--accent); margin-top: 5px; }
+.row-tip .qual-dot {
+  position: absolute;
+  inset-inline-end: -7px;
+  bottom: 0.7em;
+  margin: 0;
+  background: var(--accent);
+}
 
 /* The tooltip renders in the top layer, so .table-wrap's overflow cannot clip
    it on the scrolled-right columns. */

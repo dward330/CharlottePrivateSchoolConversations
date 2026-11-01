@@ -1951,7 +1951,7 @@ Retrieved 2026-11-01 with curl from the NCISAA's own Wells Fargo Cup pages, for 
 
 `current-champions/` still showed 2025–26 on this date, so no newer season has been published.
 
-The ledger was re-checked in the same pass. All six official season tables were fetched, and all 60 `CUP_RECORDS` rows for the 10 NCISAA schools on the roster matched on place, points, fall, winter, spring and class. Charlotte Catholic's single NCHSAA row (2025–26, 6A, 1st, 655) was not independently re-confirmed in this pass: the cited article did not return a usable match when fetched. It rests on `Providence Day - Sports - Wells Fargo Cup Standings 2020-2026.md`. No field size is held for NCHSAA 6A.
+The ledger was re-checked in the same pass. All six official season tables were fetched, and all 60 `CUP_RECORDS` rows for the 10 NCISAA schools on the roster matched on place, points, fall, winter, spring and class. Charlotte Catholic's single NCHSAA row (2025–26, 6A, 1st, 655) was not confirmed in that pass, because the cited article returned no usable match. It was confirmed later on 2026-11-01 against the NCHSAA's own post, "2025-2026 Wells Fargo State Cup Champions" (published 2026-06-25): https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/. That post lists 6A as Charlotte Catholic 655, Watauga 580, East Chapel Hill 515, Northern Guilford 507.5 and Middle Creek (Apex) 450.83. It names only the top five, so no field size is held for NCHSAA 6A.
 
 Sources:
 
@@ -2004,7 +2004,8 @@ Sources:
 - NCISAA sport list: https://www.ncisaa.org/sports/
 - 2025–26 NCISAA champions by sport: https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - PD 2025 football title: https://www.wbtv.com/2025/11/22/providence-day-tops-christian-42-6-ncisaa-division-i-state-championship/
-- NCHSAA 2025–26 Cup winners: https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026
+- NCHSAA 2025–26 Cup winners (the association's own post, top five per class): https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/
+- NCHSAA press release as reprinted: https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026
 - NCHSAA scoring: https://www.nchsaa.org/calculating-state-cup-points/
 
 ## Wells Fargo Cup results by school
@@ -2318,6 +2319,7 @@ Track and cross country are not listed: the design calls them recurring point so
 - https://www.maxpreps.com/nc/charlotte/providence-day-chargers/football/schedule/
 - https://www.maxpreps.com/news/zV4CX-6SUUy9GSmSTHOLEw/north-car
 - https://www.maxpreps.com/news/zV4CX-6SUUy9GSmSTHOLEw/north-carolina-high-school-football-rankings-providence-day-no-1-in-2024-preseason-maxpreps-top-25.htm
+- https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/
 - https://www.nchsaa.org/calculating-state-cup-points/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/history/
