@@ -378,7 +378,18 @@ Use `source-material/news/providence-day/` as the model.
 
 Add the slug → `NewsSource` entry in `src/lib/news/sources.ts` (`boardUrl`, `indexUrl`,
 `domain`, `parse`, optional `preview`, `publishedAt`, `extraBoardUrls`,
-`alsoAllowedHosts`).
+`alsoAllowedHosts`, `boardIsChronological`).
+
+**A board that publishes no date holds its skeleton until the date pass ends.** Its first
+list has no order, so `fetchNews` neither renders nor caches it. Anything with an undated
+row is cached for 2 minutes rather than 30, and a list with no dates at all is not cached.
+This needs nothing from the parser; `publishedAt` is what switches it on.
+
+**Set `boardIsChronological` only after measuring.** It keeps an undated row where the
+board placed it, rather than sinking it, and lets the pass stop early. Compare the
+board's order against real article dates first: Charlotte Latin's grid passed on
+2026-11-01 (adjacent disorder only), while Cannon, Covenant Day and Gaston Day state their
+order is not chronological and must leave it off.
 
 **A slug absent from this registry renders no chip, no rail item and no section** — the
 project's absence-of-data principle. That is the correct treatment for a school whose board

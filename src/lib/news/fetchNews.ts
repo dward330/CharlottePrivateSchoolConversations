@@ -1,4 +1,11 @@
-import { byNewestFirst, MAX_ITEMS, normalizeItems, type NewsItem, type NewsSource } from './types'
+import {
+  byNewestFirst,
+  byNewestFirstKeepingBoardOrder,
+  MAX_ITEMS,
+  normalizeItems,
+  type NewsItem,
+  type NewsSource,
+} from './types'
 
 /** The CORS relay.
  *
@@ -25,6 +32,12 @@ export const PROXY = 'https://news-proxy.dward330.workers.dev/?url='
 
 const TIMEOUT_MS = 12_000
 const CACHE_TTL_MS = 30 * 60 * 1000
+/** A list with an undated row came from a pass that was cut short. Keep it
+    briefly, so one slow pass heals on the next visit instead of sticking. */
+const PARTIAL_CACHE_TTL_MS = 2 * 60 * 1000
+/** How long a `boardIsChronological` board waits for its last articles once 80%
+    have answered. A late row loses only its date and preview, not its place. */
+const LATE_ARTICLE_GRACE_MS = 2_000
 
 /** Real parse phases, so the UI's status line advances on events rather than on
     a timer. The design reference's 2.4s setTimeout is a mock and must not ship. */
@@ -48,7 +61,7 @@ function toDoc(html: string): Document {
   return new DOMParser().parseFromString(html, 'text/html')
 }
 
-type Cached = { at: number; items: NewsItem[] }
+type Cached = { at: number; items: NewsItem[]; ttl?: number }
 
 function cacheKey(slug: string): string {
   return `news:${slug}`
@@ -61,16 +74,16 @@ function readCache(slug: string): NewsItem[] | null {
     const raw = sessionStorage.getItem(cacheKey(slug))
     if (!raw) return null
     const parsed = JSON.parse(raw) as Cached
-    if (!parsed?.at || Date.now() - parsed.at > CACHE_TTL_MS) return null
+    if (!parsed?.at || Date.now() - parsed.at > (parsed.ttl ?? CACHE_TTL_MS)) return null
     return Array.isArray(parsed.items) ? parsed.items : null
   } catch {
     return null
   }
 }
 
-function writeCache(slug: string, items: NewsItem[]): void {
+function writeCache(slug: string, items: NewsItem[], ttl = CACHE_TTL_MS): void {
   try {
-    sessionStorage.setItem(cacheKey(slug), JSON.stringify({ at: Date.now(), items }))
+    sessionStorage.setItem(cacheKey(slug), JSON.stringify({ at: Date.now(), items, ttl }))
   } catch {
     /* storage unavailable or full — caching is an optimization, never required */
   }
@@ -88,10 +101,14 @@ export type FetchNewsOptions = {
 /**
  * Fetch and parse one school's news board.
  *
- * Resolves as soon as the BOARD parse succeeds — previews are fetched after,
- * and reported through `onUpdate`. That ordering is deliberate: the section is
+ * A board that publishes dates resolves as soon as its parse succeeds. Previews
+ * are fetched after and reported through `onUpdate`, because the section is
  * useful with headlines alone, and 11 blocking requests through a throttled
  * relay is exactly when it would otherwise hang.
+ *
+ * A board that publishes NO date resolves only after the article pass. Its first
+ * list has no order, so rendering it shows old stories under "Newest" and then
+ * reorders them in front of the reader. The section keeps its skeleton instead.
  */
 export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
   const { slug, source, onPhase, onUpdate, signal } = opts
@@ -110,12 +127,10 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
   try {
     onPhase?.('contacting')
 
-    /* One board for every school but Charlotte Latin, whose news is split over
-       four category views the user asked to be merged. Fetched in parallel and
-       concatenated; `normalizeItems` de-duplicates the cross-posts. A view that
-       fails is skipped rather than failing the section — with four sources,
-       losing one still leaves a useful list. All four failing yields zero items
-       and the error state below, exactly as a single dead board does. */
+    /* One board for every school but Gaston Day, whose board has a second page.
+       Fetched in parallel and concatenated; `normalizeItems` de-duplicates. An
+       extra page that fails is skipped rather than failing the section, so
+       losing one still leaves a useful list. */
     const boardUrls = [source.boardUrl, ...(source.extraBoardUrls ?? [])]
     const pages = await Promise.all(
       boardUrls.map(async (u) => {
@@ -153,19 +168,38 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
     onPhase?.('extracting')
     clearTimeout(timer)
 
-    /* The caller and the cache must never see more than the section shows.
-       `items` may be a wider candidate pool (see `needsDates`); the extra rows
-       exist only so the date pass has something to choose from. */
+    /* A dateless board caches nothing until the pass ends. A list saved before
+       dates exist has no order, and a visitor who reloads mid-pass would then
+       read it from the cache for the full TTL. A list with no dates at all is
+       shown but never saved, so the next visit tries again.
+
+       `allDated` looks at the whole pool, not the ten rows returned. On a board
+       that sinks undated rows, a story that lost its date has been cut from
+       `merged`, so ten dated rows can still be the wrong ten. */
+    if (needsDates) {
+      const { merged, allDated } = await hydrateArticles({ source, items, signal })
+      if (!signal?.aborted && merged.some((i) => i.date)) {
+        writeCache(slug, merged, allDated ? CACHE_TTL_MS : PARTIAL_CACHE_TTL_MS)
+      }
+      return merged
+    }
+
+    /* The caller and the cache must never see more than the section shows. */
     const visible = items.slice(0, MAX_ITEMS)
 
     /* Cache the headline-only result IMMEDIATELY. Previews take ~10 further
        round-trips; if we waited for them to settle before writing, a visitor
        who navigated away mid-flight would cache nothing and re-hit the proxy
-       from scratch on their next visit. The preview pass overwrites this entry
-       with the enriched copy when it finishes. */
+       from scratch on their next visit. This pass overwrites the entry with the
+       enriched copy when it finishes. This board's order is already right, so
+       an early copy is safe here and only here. */
     writeCache(slug, visible)
 
-    void hydratePreviews({ slug, source, items, signal, onUpdate })
+    void hydrateArticles({ source, items, signal }).then(({ merged, landed }) => {
+      if (signal?.aborted) return
+      writeCache(slug, merged)
+      if (landed) onUpdate?.(merged)
+    })
     return visible
   } catch (err) {
     clearTimeout(timer)
@@ -177,24 +211,28 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
 }
 
 /**
- * Second pass: fill in preview sentences from article bodies.
+ * Second pass: fill in previews and dates from article pages.
  *
  * Every failure here is silent by design. An article whose body fetch fails
- * keeps its headline and date and shows NO preview line — never an empty
- * element, never a spinner that outlives the section.
+ * keeps its headline and shows NO preview line — never an empty element, never a
+ * spinner that outlives the section.
+ *
+ * Returns the list and leaves caching to the caller, because the two paths in
+ * `fetchNews` save it under different rules. `landed` is false when no article
+ * contributed anything; `allDated` is true when every row in the pool has a date.
  */
-async function hydratePreviews(args: {
-  slug: string
+async function hydrateArticles(args: {
   source: NewsSource
   items: NewsItem[]
   signal?: AbortSignal
-  onUpdate?: (items: NewsItem[]) => void
-}): Promise<void> {
-  const { slug, source, items, signal, onUpdate } = args
-  if (!source.preview && !source.publishedAt) {
-    writeCache(slug, items)
-    return
+}): Promise<{ merged: NewsItem[]; landed: boolean; allDated: boolean }> {
+  const { source, items, signal } = args
+  const unchanged = {
+    merged: items.slice(0, MAX_ITEMS),
+    landed: false,
+    allDated: items.every((i) => i.date),
   }
+  if (!source.preview && !source.publishedAt) return unchanged
 
   /* An item needs the second pass if it is missing EITHER field this source can
      supply. Cannon's board publishes no date at all, so filtering on `summary`
@@ -202,10 +240,7 @@ async function hydratePreviews(args: {
   const needed = items.filter(
     (i) => (source.preview && !i.summary) || (source.publishedAt && !i.date),
   )
-  if (!needed.length) {
-    writeCache(slug, items)
-    return
-  }
+  if (!needed.length) return unchanged
 
   const controller = new AbortController()
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
@@ -214,6 +249,12 @@ async function hydratePreviews(args: {
 
   const withPreview = new Map<string, string>()
   const withDate = new Map<string, string>()
+
+  /* Only a board whose order can place an undated row may stop early. Anywhere
+     else a late row would sink, so that pass waits out the full timeout. */
+  const enough = Math.ceil(needed.length * 0.8)
+  let settled = 0
+  let grace: ReturnType<typeof setTimeout> | undefined
 
   await Promise.all(
     needed.map(async (item) => {
@@ -225,35 +266,43 @@ async function hydratePreviews(args: {
         if (date) withDate.set(item.url, date)
       } catch {
         /* no preview or date for this row — deliberate, see the doc comment */
+      } finally {
+        settled += 1
+        if (source.boardIsChronological && settled >= enough && grace === undefined) {
+          grace = setTimeout(() => controller.abort(), LATE_ARTICLE_GRACE_MS)
+        }
       }
     }),
   )
 
   clearTimeout(timer)
+  clearTimeout(grace)
   signal?.removeEventListener('abort', onOuterAbort)
 
-  if (signal?.aborted) return
+  const enriched = items.map((i) => {
+    const s = withPreview.get(i.url)
+    const d = withDate.get(i.url)
+    if (!s && !d) return i
+    return { ...i, ...(s ? { summary: s } : {}), ...(d ? { date: d } : {}) }
+  })
 
-  const merged = items
-    .map((i) => {
-      const s = withPreview.get(i.url)
-      const d = withDate.get(i.url)
-      if (!s && !d) return i
-      return { ...i, ...(s ? { summary: s } : {}), ...(d ? { date: d } : {}) }
-    })
-    /* Re-sort: for a board that publishes no date, the ONLY chronological
-       information arrives here. Cannon's two boards are not interleaved by date
-       on the page — its press-mention board trails the internal one by over a
-       year — so skipping this would ship a section ordered by neither date nor
-       relevance. Sorting is stable for items whose dates did not change. */
-    .sort(byNewestFirst)
-    /* Cap HERE, not before. For a dateless multi-board school the pool passed in
-       is deliberately wider than the section shows, precisely so this sort has
+  /* Re-sort: for a board that publishes no date, the ONLY chronological
+     information arrives here. Cannon's two boards are not interleaved by date
+     on the page — its press-mention board trails the internal one by over a
+     year — so skipping this would ship a section ordered by neither date nor
+     relevance. Sorting is stable for items whose dates did not change. */
+  const sorted = source.boardIsChronological
+    ? byNewestFirstKeepingBoardOrder(enriched)
+    : enriched.sort(byNewestFirst)
+
+  return {
+    /* Cap HERE, not before. For a dateless board the pool passed in is
+       deliberately wider than the section shows, precisely so this sort has
        real candidates to choose from; ten is chosen only once dates exist. */
-    .slice(0, MAX_ITEMS)
-
-  writeCache(slug, merged)
-  if (withPreview.size || withDate.size) onUpdate?.(merged)
+    merged: sorted.slice(0, MAX_ITEMS),
+    landed: withPreview.size > 0 || withDate.size > 0,
+    allDated: enriched.every((i) => i.date),
+  }
 }
 
 export { toDoc }

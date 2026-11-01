@@ -1,18 +1,17 @@
 import { truncatePreview, type NewsItem } from '../types'
 
 /**
- * Charlotte Latin School — Finalsite post board, FOUR category views merged.
+ * Charlotte Latin School — Finalsite post board, read from its unfiltered page.
  *
- * Structure verified against the live boards 2026-08-28; the full capture and
+ * Structure verified against the live board 2026-11-01; the full capture and
  * every trap below are recorded in
  * `source-material/news/charlotte-latin/Charlotte Latin - News - News Board Structure.md`.
  *
  * Deliberately isolated to this school, as every parser here is. It is the
  * FIFTH Finalsite board in the app and shares no code with the other four, even
  * though the CMS is the same — one school's redesign must never break another's
- * section. This board differs from all four siblings at once: it is the first
- * that is FOUR boards rather than one (TRAP 1), and the first dateless board
- * whose dates are recoverable (TRAP 2).
+ * section. It is the first dateless Finalsite board whose dates are recoverable
+ * (TRAP 2).
  */
 
 /** Hostnames whose article pages this parser can read. TWO domains, on TWO
@@ -21,53 +20,39 @@ const SCHOOL_HOST = /(^|\.)charlottelatin\.org$/i
 const ATHLETICS_HOST = /(^|\.)clshawks\.com$/i
 
 /**
- * TRAP 1 — the news is spread over FOUR category views, and they are NOT in
- * sync with each other.
+ * TRAP 1 — read the whole board, and only its main grid.
  *
- * The user asked for four URLs merged into one date-ordered ten:
+ * This section used to merge four category views (84, 85, 167, 89). By
+ * 2026-11-01 those missed six of the school's ten newest posts, including the
+ * newest three, because Latin also tags posts Employees, Honors and Academics.
+ * No sort can surface a post that was never fetched, so the user chose the
+ * unfiltered page, which is the same one the "All news" link opens.
  *
- *   ?post_category_id=84   Arts        (51 on-site posts)
- *   ?post_category_id=85   Athletics   (49, of which 7 link off-site)
- *   ?post_category_id=167  School      (41)
- *   ?post_category_id=89   Academics   (10)
+ * That page holds two `.fsPostElement.fsList` strips and one main grid. The
+ * strips repeat five grid posts with `href="#"` on their titles, so an unscoped
+ * read would produce rows that link nowhere. The grid holds 335 posts,
+ * server-rendered with no pagination.
  *
- * Each view is a filtered slice of ONE underlying board (`fsBoard-209`), so
- * they cross-post: 10 articles appear on more than one view. De-duplication is
- * by URL in `normalizeItems` and needs nothing here.
- *
- * What makes the merge non-trivial is that the four are wildly out of step —
- * measured 2026-08-28, the newest post on each was 2026-05-22 (167), 2026-05-13
- * (84), 2026-04-21 (89) and 2026-04-09 (85). Interleaving them by DOM position
- * would ship a list ordered by neither date nor relevance.
- *
- * MEASURED PROPERTY THIS RELIES ON: each view is strictly newest-first
- * internally (verified over the first 12 on-site posts of all four boards —
- * monotonic on every one). So the newest N of the merged set are contained in
- * the first N of each view, and a shallow slice per board is sufficient. That
- * is what keeps the request count bounded — see PER_BOARD.
+ * MEASURED PROPERTY THIS RELIES ON: the grid is close to newest-first. Over its
+ * first 45 rows only adjacent rows are out of order, and the true top ten all
+ * sit inside the first ten rows. That is what allows a short candidate pool, and
+ * `boardIsChronological` in sources.ts.
  */
 
 /**
- * How many posts to take from EACH view before merging.
+ * How many on-site rows to take from the top of the grid.
  *
- * The section shows ten. Because every view is internally newest-first, taking
- * the first `PER_BOARD` of each guarantees a correct global top ten as long as
- * no single view supplies more than `PER_BOARD` of that ten. Measured
- * 2026-08-28 the true ten drew 5 / 3 / 1 / 1 from the four views.
- *
- * Four is a deliberate cost trade, chosen by the user: 4 boards + ~16 article
- * fetches ≈ 20 requests per cold visitor, against ~11 for a single-board
- * school. Raising it to 10 would make the merge provably exact for any
- * publishing pattern but costs ~42 requests. `fetchNews` compensates for the
- * gap with a targeted top-up — see `saturatedBoards` there.
+ * The section shows ten. Four more cover adjacent disorder and articles that
+ * publish no date, while bounding the second pass to 14 article fetches, one
+ * for each row, so a cold visitor costs 15 requests in all.
  */
-export const PER_BOARD = 4
+export const GRID_POOL = 14
 
 /**
  * TRAP 2 — the board publishes NO DATE, in any form.
  *
  * There is no <time>, no date class and no date data-attribute anywhere in the
- * list markup (verified: zero `<time datetime=` across all four views). This is
+ * list markup (verified: zero `<time datetime=` on the board). This is
  * the Cannon/Charlotte Christian shape — but unlike Charlotte Christian, whose
  * article pages are dateless too, Latin's articles DO publish a real date, so
  * the section can honour "newest first" rather than falling back to DOM order.
@@ -110,29 +95,32 @@ function photoFrom(img: Element | null): string | undefined {
 }
 
 /**
- * TRAP 4 — this board links to FOUR other hosts, and only ONE of them belongs.
+ * TRAP 4 — this board links to SEVEN other hosts, and only ONE of them belongs.
  *
- * Eight rows across the four views point off the main domain:
+ * Grid rows that point off the main domain, measured 2026-11-01:
  *
- *   5 × clshawks.com               the school's OWN athletics site — KEPT
- *   1 × www.sya.org                a study-abroad organisation     — dropped
- *   1 × issuu.com                  a document host                 — dropped
- *   1 × charlottelatinstories.com  does not resolve at all         — dropped
+ *   6  × clshawks.com                       the school's OWN athletics site — KEPT
+ *   13 × www.charlottelatinstories.com      does not resolve at all    — dropped
+ *   8  × issuu.com                          a document host            — dropped
+ *   3  × clsteachingandlearning.podbean.com a podcast host             — dropped
+ *   3  × chattinatlatin.podbean.com         a podcast host             — dropped
+ *   1  × charlottelatin.turtl.co            a document host            — dropped
+ *   1  × www.sya.org                        a study-abroad organisation — dropped
  *
  * `clshawks.com` is Charlotte Latin's athletics site — its pages carry
  * `og:site_name: Charlotte Latin School` — and the user confirmed 2026-08-28
  * that a school's own athletics coverage is legitimate news. Those rows are
  * KEPT, via `alsoAllowedHosts: ['clshawks.com']` in sources.ts.
  *
- * The other three stay dropped by the same rule, and the distinction is the
- * point: **being linked BY the school is not the same as being published BY the
+ * The rest stay dropped by the same rule, and the distinction is the point:
+ * **being linked BY the school is not the same as being published BY the
  * school.** `alsoAllowedHosts` is an explicit per-school list precisely so that
  * judgement is made once, in review, rather than by a hostname heuristic that
  * would pass tomorrow's unknown domain.
  *
- * Fourteen posts on the Athletics view carry `data-opens-in="linked_url"`; that
- * attribute marks a link post but says nothing about WHOSE site it points to,
- * so it is not used for filtering. The host is what decides.
+ * Link posts carry `data-opens-in="linked_url"`; that attribute marks a link
+ * post but says nothing about WHOSE site it points to, so it is not used for
+ * filtering. The host is what decides.
  */
 
 /** Titles on link posts are suffixed by the CMS; strip it for display. */
@@ -143,21 +131,30 @@ function cleanTitle(raw: string): string {
     .trim()
 }
 
+/** True when the section can keep this row. `normalizeItems` applies the same
+    rule later; checking here stops a dropped row from using up a pool slot. */
+function isKeptHost(url: URL): boolean {
+  return SCHOOL_HOST.test(url.hostname) || ATHLETICS_HOST.test(url.hostname)
+}
+
 /**
- * Parse ONE category view. `fetchNews` calls this once per URL and concatenates
- * the results; de-duplication, off-site dropping and ordering all happen after,
- * in `normalizeItems`.
+ * Parse the top of the main grid. De-duplication and ordering happen after, in
+ * `normalizeItems`.
  *
- * Slicing to PER_BOARD happens HERE, not after the merge, because the point of
- * the slice is to bound how many ARTICLE PAGES the date pass must fetch. A
- * post-merge slice would be applied to an unordered pile (no dates yet) and
- * would discard the wrong ones.
+ * A page with no grid returns no rows, which reaches the section's error state.
+ * That is the right outcome for a redesign. The strips must not stand in for it.
+ *
+ * Off-site rows are skipped BEFORE counting, so a run of issuu or podcast posts
+ * at the top of the board cannot shrink the pool.
  */
-export function parse(html: string, _boardUrl: string): NewsItem[] {
+export function parse(html: string, boardUrl: string): NewsItem[] {
   const doc = new DOMParser().parseFromString(html, 'text/html')
   const items: NewsItem[] = []
 
-  for (const article of Array.from(doc.querySelectorAll('article[data-post-id]'))) {
+  const grid = doc.querySelector('.fsPostElement.fsGrid')
+  if (!grid) return items
+
+  for (const article of Array.from(grid.querySelectorAll('article[data-post-id]'))) {
     const titleLink = article.querySelector('div.fsTitle a')
     const title = cleanTitle(titleLink?.textContent ?? '')
 
@@ -169,6 +166,12 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
       ''
     if (!title || !href) continue
 
+    try {
+      if (!isKeptHost(new URL(href, boardUrl))) continue
+    } catch {
+      continue
+    }
+
     /* TRAP 2: no date exists in this markup. Every item leaves here with
        `date: null` and is dated by `publishedAt` on the second pass. */
     const photo = photoFrom(
@@ -177,12 +180,7 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
 
     items.push({ title, url: href, date: null, ...(photo ? { photo } : {}) })
 
-    /* Take only the newest PER_BOARD from this view. Safe because the view is
-       strictly newest-first (TRAP 1); this is what bounds the request count.
-       Off-site rows are counted here and dropped later, so a view heavy in link
-       posts contributes fewer than PER_BOARD — deliberately, since fetching
-       deeper to compensate is what `saturatedBoards` in fetchNews is for. */
-    if (items.length >= PER_BOARD) break
+    if (items.length >= GRID_POOL) break
   }
 
   return items
