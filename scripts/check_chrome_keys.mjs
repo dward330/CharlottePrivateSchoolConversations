@@ -44,7 +44,7 @@
  * Exit codes: 0 = every promise kept in English, 1 = an unfulfilled claim,
  * 2 = error.
  */
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import { SKIP_KEYS, pathOverride } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs. This
@@ -180,6 +180,30 @@ async function entryFor(topic, slug) {
   }
 }
 
+/**
+ * Shipped overlay paths that PATH_OVERRIDES pins as not prose.
+ *
+ * Pinning a path stops the extractor, but overlays are spliced rather than
+ * re-extracted, so an entry shipped before the pin keeps resolving. For an enum
+ * the component compares by value, that breaks silently: `cells[].result` drew
+ * every Winning Record cell as a winner chip in all nine locales, at 100%
+ * coverage, because the text itself was correct.
+ */
+function pinnedPathsInOverlays() {
+  const dir = new URL('../src/data/overlays/', import.meta.url)
+  const hits = []
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
+    const { strings } = JSON.parse(readFileSync(new URL(f, dir), 'utf8'))
+    if (!Array.isArray(strings)) continue  // the content overlay keys blocks by hash
+    for (const { at } of strings) {
+      for (const p of at) {
+        if (pathOverride(generic(p.slice(p.indexOf(':') + 1))) === false) hits.push(`${f} ${p}`)
+      }
+    }
+  }
+  return hits
+}
+
 /** The extra layers for one school, as [prefix, entry] pairs. Accessors take a slug. */
 async function extraFor(topic, slug) {
   const out = []
@@ -275,6 +299,15 @@ async function main() {
       console.log('       exists; it just has not been translated yet.')
     }
     console.log()
+  }
+
+  const pinned = pinnedPathsInOverlays()
+  if (pinned.length) {
+    console.log(`✗ ${pinned.length} shipped overlay path(s) are pinned as not prose in PATH_OVERRIDES:`)
+    for (const p of pinned.slice(0, 20)) console.log(`  ${p}`)
+    console.log('  Remove them from the overlay and its work file. A component reading an')
+    console.log('  enum from that path compares a translated value and takes the wrong branch.\n')
+    bad++
   }
 
   if (undocumented.length) {
