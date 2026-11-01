@@ -42,7 +42,7 @@
 | Girls Basketball | STATE 23–7 | STATE 26–7 | STATE 25–6 |
 | Volleyball | STATE 23–2 | — | — |
 | Boys Lacrosse | STATE (D1) 19–3 | — | — |
-| Baseball | — | — | RUNNER-UP (D1), swept 7–5, 9–5 |
+| Softball | RUNNER-UP (D1) | — | RUNNER-UP (D1), swept 7–5, 9–5 |
 | Boys Basketball | — | 15–12 | 16–13 (8–2 CISAA, 2nd) |
 | Football | — | — | Playoff 2nd round |
 
