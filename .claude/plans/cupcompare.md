@@ -1,11 +1,11 @@
 ---
 name: cupcompare
 title: Add two Wells Fargo Cup rows to Compare → Sports — 2025–26 finish and six-season titles, both compare-only with no leader tint
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-01
 branch: feat/cupcompare
-prs: []
+prs: [396]
 ---
 
 # Wells Fargo Cup rows on Compare → Sports
@@ -414,3 +414,8 @@ or Bangla's method.
 - **The header tip was added at the Phase 1 review** by user request: `rowTip: 'cup'` on both
   rows, guarded by `check:cup`. It added the plan's only chrome key and its only `Compare.tsx`
   change.
+- **Phase 2 ran in the Phase 1 window,** at the user's "english approved". Ordinals were
+  generated from each catalog's `sports.cup.place_ordinal_*` with `Intl.PluralRules`, so they
+  match the card, and translations were matched by English text.
+- **`fr` and `te` reword the top-3 line** to read naturally: `Top 3 : 6 sur 6` and
+  `6 సీజన్లలో 6సార్లు టాప్ 3`. Bangla and Hindi put the total first, as the plan allows.
