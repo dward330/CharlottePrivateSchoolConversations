@@ -1,11 +1,11 @@
 ---
 name: cannoncup
 title: Turn on the Wells Fargo Cup card for Cannon, and correct the softball result filed as baseball in its Winning Record card
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-01
 branch: feat/cannoncup
-prs: []
+prs: [390]
 ---
 
 # Cannon Wells Fargo Cup card
@@ -184,3 +184,15 @@ Scope is the overlay layer only: one string in each of the nine locales in `PROS
 ## Open questions
 
 - Should the Winning Record card say more about the boys lacrosse three-peat (2022–2024) and the softball run? Its table covers three seasons, so only the 2024 title shows, and the Cup card's list now carries all three. — **default:** no change, as nothing printed is wrong. If the user wants a sentence at the Phase 1 review, it joins this PR before Phase 2 as one more string.
+
+## Implementation notes
+
+Shipped in [#390](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/390). The data, wording and card match the plan. Small differences:
+
+- **Ingest:** step 1 names only `build_docs.py`. The skill's next step, `scripts/build_site_content.py`, also ran, because `src/content/sports/cannon.json` needs it. The other 12 sports notes changed only in their rebuild date.
+- **Summary row sign:** it prints `−285 … −206.25`, not the unsigned figures in the verification list. This is the card's normal format, and Latin's row prints the same way.
+- **`es` decimals:** `463.75` renders `463,75`, like every other figure in that locale's card.
+- **Overlay build:** run per locale as `node scripts/i18n_build_overlay.mjs --topic sports --lang <code>`.
+- **Softball word:** `es` uses `sóftbol`, its prose form, rather than the chip's `Softball`.
+- **Phase 2 window:** it ran in the Phase 1 window, since it was one string.
+- **Mobile audit:** `audit:mobile` ran on the English build only. It was not repeated with `--lang` for translated locales, because Phase 2 changed one prose string.
