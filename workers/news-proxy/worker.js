@@ -127,17 +127,26 @@ const ALLOWED_HOSTS = [
 
 const TIMEOUT_MS = 12_000
 /**
- * Cache at Cloudflare's edge so repeat visitors never reach the school's site.
+ * How long this Worker keeps a fetched page, so repeat visitors never reach the
+ * school's site.
  *
- * Three hours, raised from 15 minutes on 2026-11-01. An article page takes
- * seconds to fetch cold but a fraction of a second cached, and a school with
- * no recent visitor was cold on nearly every visit: Covenant Day's cold loads
- * hit the app's 12-second limit and dropped stories. The cost is that a new post
- * can take up to three hours to appear, which suits boards that change every few
- * days.
+ * An article page takes seconds to fetch cold but a fraction of a second cached,
+ * and Covenant Day's cold loads hit the app's 12-second limit and dropped
+ * stories. The cost is that a new post can take up to three hours to appear,
+ * which suits boards that change every few days.
  *
- * Only a success is cached. At three hours, one stored upstream failure would
- * break a school's section for the rest of the window.
+ * ⚠️ `cf.cacheTtl` CANNOT DO THIS. Finalsite schools sit behind Cloudflare and
+ * send `s-maxage=300`, and a site controls its own caching, so a TTL on the
+ * fetch was silently capped at five minutes (measured 2026-11-01: cached at 4
+ * minutes, cold at 6, with three hours configured). Pages are stored in the
+ * Cache API instead.
+ *
+ * ⚠️ THE CACHE API DOES NOTHING ON `workers.dev`. That is why this relay is on
+ * `news.charlotteschoolinsights.com`. The old address still works, uncached.
+ *
+ * Only a success is stored. At three hours, one stored upstream failure would
+ * break a school's section for the rest of the window. Stored pages are per data
+ * center and Cloudflare may evict them early, so a miss is normal.
  */
 const EDGE_TTL_S = 3 * 60 * 60
 /** A browser keeps its copy for less, so the two caches do not add up. */
@@ -161,8 +170,20 @@ function deny(status, message, origin) {
   })
 }
 
+function relayed(body, contentType, origin, cacheState) {
+  return new Response(body, {
+    status: 200,
+    headers: {
+      'Content-Type': contentType,
+      'Cache-Control': `public, max-age=${BROWSER_TTL_S}`,
+      'X-News-Cache': cacheState,
+      ...cors(origin),
+    },
+  })
+}
+
 export default {
-  async fetch(request) {
+  async fetch(request, _env, ctx) {
     const origin = request.headers.get('Origin') ?? ''
 
     if (request.method === 'OPTIONS') {
@@ -192,6 +213,15 @@ export default {
       return deny(403, `Host not allowed: ${dest.hostname}`, origin)
     }
 
+    // The key is built from this Worker's own host, because the Cache API serves
+    // the zone handling the request. It carries no Origin, so one stored page
+    // serves every allowed caller, and CORS is added per response below.
+    const cacheKey = new Request(
+      `${new URL(request.url).origin}/cached?url=${encodeURIComponent(dest.toString())}`,
+    )
+    const hit = await caches.default.match(cacheKey)
+    if (hit) return relayed(hit.body, hit.headers.get('Content-Type'), origin, 'HIT')
+
     const controller = new AbortController()
     const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
     try {
@@ -206,25 +236,28 @@ export default {
           Accept: 'text/html,application/xhtml+xml',
           'Accept-Language': 'en-US,en;q=0.9',
         },
-        cf: {
-          cacheEverything: true,
-          // A negative value means do not store. See EDGE_TTL_S.
-          cacheTtlByStatus: { '200-299': EDGE_TTL_S, '300-599': -1 },
-        },
       })
 
       if (!upstream.ok) {
         return deny(upstream.status, `Upstream returned ${upstream.status}`, origin)
       }
 
-      return new Response(upstream.body, {
-        status: 200,
-        headers: {
-          'Content-Type': upstream.headers.get('Content-Type') ?? 'text/html; charset=utf-8',
-          'Cache-Control': `public, max-age=${BROWSER_TTL_S}`,
-          ...cors(origin),
-        },
-      })
+      const contentType = upstream.headers.get('Content-Type') ?? 'text/html; charset=utf-8'
+      // Read in full here, so the timeout above covers a stalled body and only a
+      // complete page is ever stored.
+      const body = await upstream.arrayBuffer()
+      ctx.waitUntil(
+        caches.default.put(
+          cacheKey,
+          new Response(body.slice(0), {
+            headers: {
+              'Content-Type': contentType,
+              'Cache-Control': `public, s-maxage=${EDGE_TTL_S}`,
+            },
+          }),
+        ),
+      )
+      return relayed(body, contentType, origin, 'MISS')
     } catch (err) {
       const timedOut = err && err.name === 'AbortError'
       return deny(timedOut ? 504 : 502, timedOut ? 'Upstream timed out' : 'Upstream fetch failed', origin)

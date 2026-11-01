@@ -2,5 +2,8 @@ name = "news-proxy"
 main = "worker.js"
 compatibility_date = "2026-08-27"
 
-# Served from https://news-proxy.<your-subdomain>.workers.dev
+# The app calls the custom domain, because the Cache API does nothing on
+# workers.dev. See EDGE_TTL_S in worker.js. The workers.dev address still answers,
+# uncached, as a fallback.
 workers_dev = true
+routes = [{ pattern = "news.charlotteschoolinsights.com", custom_domain = true }]
