@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-01
 branch: fix/latinnews
-prs: []
+prs: [391]
 ---
 
 # Fix Latest News for Charlotte Latin and every dateless board
