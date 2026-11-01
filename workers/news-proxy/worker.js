@@ -92,7 +92,7 @@ const ALLOWED_HOSTS = [
   // Covenant Day's boards publish NO date, so each of its 18 candidates gets an
   // article-page fetch through this relay before the section can be ordered
   // — a wider second pass than most schools' ten. Both cache layers (the
-  // Worker's 15-minute edge cache and the app's 30-minute sessionStorage cache)
+  // Worker's 3-hour edge cache and the app's 30-minute sessionStorage cache)
   // sit in front of it, so only the first uncached visitor in a window pays it.
   'www.covenantday.org',
   'covenantday.org',
@@ -126,8 +126,22 @@ const ALLOWED_HOSTS = [
 ]
 
 const TIMEOUT_MS = 12_000
-/** Cache at Cloudflare's edge so repeat visitors never reach the school's site. */
-const EDGE_TTL_S = 900
+/**
+ * Cache at Cloudflare's edge so repeat visitors never reach the school's site.
+ *
+ * Three hours, raised from 15 minutes on 2026-11-01. An article page takes
+ * seconds to fetch cold but a fraction of a second cached, and a school with
+ * no recent visitor was cold on nearly every visit: Covenant Day's cold loads
+ * hit the app's 12-second limit and dropped stories. The cost is that a new post
+ * can take up to three hours to appear, which suits boards that change every few
+ * days.
+ *
+ * Only a success is cached. At three hours, one stored upstream failure would
+ * break a school's section for the rest of the window.
+ */
+const EDGE_TTL_S = 3 * 60 * 60
+/** A browser keeps its copy for less, so the two caches do not add up. */
+const BROWSER_TTL_S = 900
 
 function cors(origin) {
   const ok = ALLOWED_ORIGINS.includes(origin) || isDevOrigin(origin)
@@ -192,7 +206,11 @@ export default {
           Accept: 'text/html,application/xhtml+xml',
           'Accept-Language': 'en-US,en;q=0.9',
         },
-        cf: { cacheTtl: EDGE_TTL_S, cacheEverything: true },
+        cf: {
+          cacheEverything: true,
+          // A negative value means do not store. See EDGE_TTL_S.
+          cacheTtlByStatus: { '200-299': EDGE_TTL_S, '300-599': -1 },
+        },
       })
 
       if (!upstream.ok) {
@@ -203,7 +221,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': upstream.headers.get('Content-Type') ?? 'text/html; charset=utf-8',
-          'Cache-Control': `public, max-age=${EDGE_TTL_S}`,
+          'Cache-Control': `public, max-age=${BROWSER_TTL_S}`,
           ...cors(origin),
         },
       })
