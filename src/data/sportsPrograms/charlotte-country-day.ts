@@ -2,14 +2,16 @@
 //
 // Every figure is traceable to
 // source-material/sports/charlotte-country-day/Charlotte Country Day - Sports - Redesign Research 2026.md.
+// The Cup point sources (1b) and the corrections to 1c come from
+// source-material/sports/charlotte-country-day/Charlotte Country Day - Sports - Wells Fargo Cup Standings 2020-2026.md.
 //
-// SIX of seven cards render. `national` (1g) is deliberately omitted. Country
+// SEVEN of eight cards render. `national` (1h) is deliberately omitted. Country
 // Day does hold one national marker — MaxPreps ranked its field hockey #22
 // nationally in 2025–26 — but that figure conflicts with the sport's own
 // authority (MAX Field Hockey's final national top 25 contains no NC team at
 // all), no other program has a national ranking, the schedule is almost
 // entirely in-state, and no named athlete NIL deal exists. One contested data
-// point cannot carry a card; the field hockey ranking is noted on 1b instead.
+// point cannot carry a card; the field hockey ranking is noted on 1c instead.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
@@ -17,6 +19,7 @@ const ATHLETICS = 'https://www.charlottecountryday.org/cd-experience/athletics'
 const AWARDS = 'https://www.charlottecountryday.org/cd-experience/athletics/awards-and-honors'
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
 
 export const charlotteCountryDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -84,7 +87,35 @@ export const charlotteCountryDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'tennis', gender: 'girls', season: 'fall', titleYears: [2022, 2023, 2024, 2025], runnerUpYears: [2021] },
+      { sport: 'trackField', gender: 'girls', season: 'spring', titleYears: [2023, 2024, 2025], runnerUpYears: [2021, 2022] },
+      { sport: 'fieldHockey', gender: 'girls', season: 'fall', titleYears: [2021, 2023, 2025], runnerUpYears: [2020, 2024] },
+      { sport: 'swimming', gender: 'girls', season: 'winter', titleYears: [2024, 2025], runnerUpYears: [2021, 2023, 2026] },
+      { sport: 'crossCountry', gender: 'girls', season: 'fall', titleYears: [2021, 2024], runnerUpYears: [2020, 2023] },
+      { sport: 'tennis', gender: 'boys', season: 'spring', titleYears: [2021], runnerUpYears: [2022] },
+      { sport: 'golf', gender: 'boys', season: 'spring', titleYears: [2022] },
+      { sport: 'lacrosse', gender: 'girls', season: 'spring', titleYears: [], runnerUpYears: [2021, 2022, 2024, 2025] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'Charlotte Country Day state championships', url: AWARDS },
+      { label: 'High School OT — 2026 girls swimming', url: 'https://www.highschoolot.com/story/ncisaa-d1-girls-swimming-and-diving-2026-championship/22319386/' },
+      { label: 'Charlotte Latin — 2022 boys golf team scores', url: 'https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/sayman-dannemann-earn-individual-honors-golf-team-second-at-championships' },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Girls tennis has won four straight NCISAA titles, and field hockey took its 16th — but the girls swimming dynasty ended in 2026.',
@@ -95,17 +126,17 @@ export const charlotteCountryDay: SportsProgram = {
       {
         program: 'Girls Tennis',
         cells: [
+          { result: 'STATE', record: '20–0' },
           { result: 'STATE', record: '19–0' },
           { result: 'STATE' },
-          { result: 'STATE' },
         ],
-        note: 'Four-peat, beating Durham Academy in the 2026 final',
+        note: 'Four-peat, beating Durham Academy in the 2025 final',
       },
       {
         program: 'Field Hockey',
         cells: [
           { result: 'STATE' },
-          { result: 'NONE' },
+          { result: 'RUNNER-UP', record: '15–4' },
           { result: 'STATE', record: '20–1' },
         ],
         note: '16th title; beat Charlotte Latin 1–0, avenging its only loss',
@@ -131,11 +162,11 @@ export const charlotteCountryDay: SportsProgram = {
       {
         program: 'Girls Cross Country',
         cells: [
-          { result: 'NONE' },
+          { result: 'RUNNER-UP' },
           { result: 'STATE' },
           { result: 'NONE', record: '3rd at state' },
         ],
-        note: 'CISAA conference champions in 2026',
+        note: 'CISAA conference champions in 2025',
       },
       {
         program: 'Boys Lacrosse',
@@ -152,7 +183,7 @@ export const charlotteCountryDay: SportsProgram = {
     bars: [
       { program: 'Field Hockey', record: '20–1', pct: 0.952, tag: "'25–26" },
       { program: 'Boys Lacrosse', record: '19–3', pct: 0.864, tag: "'25–26" },
-      { program: 'Girls Lacrosse', record: '17–3', pct: 0.85, tag: "'25–26" },
+      { program: 'Girls Lacrosse', record: '18–4', pct: 0.818, tag: "'25–26" },
       { program: 'Boys Soccer', record: '12–7', pct: 0.632, tag: "'25–26" },
       { program: 'Football', record: '6–4', pct: 0.6, tag: "'25–26" },
       { program: 'Volleyball', record: '13–9', pct: 0.591, tag: "'25–26" },
@@ -185,7 +216,7 @@ export const charlotteCountryDay: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       '51 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with swimming as the clear engine.',
@@ -289,7 +320,7 @@ export const charlotteCountryDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'A two-time Super Bowl champion, an ATP world No. 29, an NFL running back and a USL Goalkeeper of the Year.',
@@ -361,7 +392,7 @@ export const charlotteCountryDay: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'The winningest lacrosse coach in North Carolina history and a Hall-of-Fame tennis coach with 38 state championships — both still on staff.',
@@ -418,7 +449,7 @@ export const charlotteCountryDay: SportsProgram = {
     ],
   },
 
-  /* ------------------------------------------------------- 1f facilities -- */
+  /* ------------------------------------------------------- 1g facilities -- */
   facilities: {
     headline:
       'A $30.5M athletics build opened in 2022 — a 700-seat natatorium and a 1,200-seat performance gym — anchored by an OrthoCarolina sports-medicine partnership.',
