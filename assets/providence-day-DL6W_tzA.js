@@ -1,4 +1,4 @@
-var e=`providence-day`,t=`sports`,n=39,r=[{subtopic:`Awards and Honors`,source_file:`PD - Sports - Awards and Honors.pdf`,preview:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Individual Awards & Honors New Topic — Player and coach honors beyond team championships Covers Gatorade Players of the Year, NC Mr. Football, McDonald's All-Americans, MaxPreps All-Americans, CISAA/NCISAA All-State, and the annual PD ESPYs.…`,text:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
+var e=`providence-day`,t=`sports`,n=41,r=[{subtopic:`Awards and Honors`,source_file:`PD - Sports - Awards and Honors.pdf`,preview:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Individual Awards & Honors New Topic — Player and coach honors beyond team championships Covers Gatorade Players of the Year, NC Mr. Football, McDonald's All-Americans, MaxPreps All-Americans, CISAA/NCISAA All-State, and the annual PD ESPYs.…`,text:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Individual Awards & Honors
 New Topic — Player and coach honors beyond team championships
 Covers Gatorade Players of the Year, NC Mr. Football, McDonald's All-Americans, MaxPreps All-Americans,
@@ -1722,6 +1722,15 @@ On3 named PD directly as the beneficiary of the private-school window.
  original ESPN article was not located. **Not used in the app.**
 - No NIL deals for any PD athlete other than David Sanders Jr. were located.
 
+---`},{subtopic:`Wells Fargo Cup Division Sizes 2025-26`,source_file:`Providence Day - Sports - Wells Fargo Cup Division Sizes 2025-26.md`,preview:`# Providence Day - Sports - Wells Fargo Cup Division Sizes 2025-26`,text:`# Providence Day - Sports - Wells Fargo Cup Division Sizes 2025-26`},{subtopic:`Wells Fargo Cup division sizes, 2025–26`,source_file:null,preview:`| Association | Division | Schools listed | Schools placed | Last placed school | Points | |---|---|---|---|---|---| | NCISAA | 1A | 22 | 20 | Woodlawn School | 50 | | NCISAA | 2A | 25 | 22 | Northwood Temple Academy | 22.5 | | NCISAA | 3A | 26 | 26 | Thales Academy - Rolesville | 0 | | NCISAA | 4A | 17 | 17 | Saint…`,text:`| Association | Division | Schools listed | Schools placed | Last placed school | Points |
+|---|---|---|---|---|---|
+| NCISAA | 1A | 22 | 20 | Woodlawn School | 50 |
+| NCISAA | 2A | 25 | 22 | Northwood Temple Academy | 22.5 |
+| NCISAA | 3A | 26 | 26 | Thales Academy - Rolesville | 0 |
+| NCISAA | 4A | 17 | 17 | Saint Mary's School | 22.5 |
+
+Unplaced with 0 points in 2A: Salem Baptist, Liberty Christian Academy, Berean Baptist Academy. Unplaced with 0 points in 1A: Kerr-Vance Academy, Salem Academy.
+
 ---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Providence Day - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Providence Day - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Providence Day - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results by school`,source_file:null,preview:`| School | Association | Class | Season | Place | Fall | Winter | Spring | Total | |---|---|---|---|---|---|---|---|---| | Providence Day | NCISAA | 4A | 2020–21 | 1 | 267.5 | 157.5 | 245 | 670 | | Providence Day | NCISAA | 4A | 2021–22 | 3 | 192.5 | 165 | 270 | 627.5 | | Providence Day | NCISAA | 4A | 2022–23 | 1 |…`,text:`| School | Association | Class | Season | Place | Fall | Winter | Spring | Total |
 |---|---|---|---|---|---|---|---|---|
 | Providence Day | NCISAA | 4A | 2020–21 | 1 | 267.5 | 157.5 | 245 | 670 |
@@ -1922,4 +1931,4 @@ NCHSAA, Spring: Baseball, Lacrosse, Men's Golf, Men's Tennis, Men's Volleyball, 
 
 Track and cross country are not listed: the design calls them recurring point sources, but no retrieved source supports that for PD.
 
----`}],i={school_slug:e,topic_slug:t,section_count:39,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:41,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
