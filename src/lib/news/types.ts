@@ -22,8 +22,9 @@ export type NewsSource = {
    * OPTIONAL extra boards, fetched and merged with `boardUrl`.
    *
    * Exists for Gaston Day, whose board paginates 7 + 1, so page 2 is needed to
-   * reach its eighth article. Every other school has one board and leaves this
-   * undefined.
+   * reach its eighth article, and for Covenant Day, whose current athletics
+   * posts appear only on a separate Lions News page. Every other school has one
+   * board and leaves this undefined.
    *
    * Each URL is fetched with the SAME `parse`, and the results concatenated
    * before `normalizeItems`, which de-duplicates by URL and enforces the
@@ -65,8 +66,8 @@ export type NewsSource = {
 
       Set this only after MEASURING the board's order against article dates. On
       a board that fails that test, trusting its order would rank a stale story
-      above current ones. Charlotte Latin's grid was measured 2026-11-01: only
-      adjacent rows are ever out of order. */
+      above current ones. Measured 2026-11-01: Charlotte Latin's grid has only
+      adjacent rows out of order, and Davidson Day's nine match exactly. */
   boardIsChronological?: boolean
 }
 

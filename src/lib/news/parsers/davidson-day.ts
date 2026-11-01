@@ -3,24 +3,24 @@ import { truncatePreview, type NewsItem } from '../types'
 /**
  * Davidson Day School — Finalsite "All School News" post board (`fsBoard-5`).
  *
- * Structure verified against the live board 2026-08-28 (9 posts, all
- * server-rendered, HTTP 200, ~91KB); the full capture and every trap below are
- * recorded in
+ * Structure verified against the live board 2026-08-28 and re-checked
+ * 2026-11-01 (9 posts, all server-rendered, HTTP 200, ~94KB); the full capture
+ * and every trap below are recorded in
  * `source-material/news/davidson-day/Davidson Day - News - News Board Structure.md`.
  *
  * The SIXTH Finalsite board in the app, and isolated from the other five for
  * the usual reason: the CMS is identical and the boards are not. This one is
- * closest to Charlotte Christian — dateless, photo on every post, boilerplate
- * og:description — but it differs from that sibling too, in the field that
- * matters most for the preview pass:
+ * closest to Charlotte Christian — no date on the board, photo on every post,
+ * boilerplate og:description — but it differs from that sibling too, in the
+ * field that matters most for the preview pass:
  *
  *  - Charlotte Christian's article pages end with a 442-char non-discrimination
  *    notice that a naive body scrape can ship as the preview. Davidson Day
  *    publishes no such notice, but it DOES publish a `div.fsAuthor` byline
  *    immediately above the body on every post — a different hazard needing a
  *    different guard (TRAP 3).
- *  - Providence Day and Charlotte Catholic both publish a real date. This board
- *    publishes none, anywhere (TRAP 1).
+ *  - Providence Day and Charlotte Catholic both publish a real date on the
+ *    board. This one keeps it on the article page (TRAP 1).
  *
  * A parser ported from any sibling would have produced a plausible,
  * wrong-looking-right result: an empty section, photo-less rows, or a byline
@@ -28,19 +28,22 @@ import { truncatePreview, type NewsItem } from '../types'
  */
 
 /**
- * TRAP 1 — this school publishes NO DATE ANYWHERE, and that is a real finding.
- *
- * Verified by inspection rather than concluded from a failed selector, because
- * "no date" and "the date moved" look identical from a parser that finds none:
+ * TRAP 1 — the board publishes no date; the article page does.
  *
  *  - The BOARD listing has zero <time>, zero `datetime=`, zero `data-*date*`
  *    attribute and no date-shaped text. A post is a thumbnail, a title link and
  *    a "Read More" link — that is the whole row.
- *  - The ARTICLE pages have none either — no <time>, no `article:published_time`,
- *    no schema.org `datePublished` (the pages carry no JSON-LD at all), and no
- *    date-shaped text outside the prose itself. Checked across all 9 posts.
- *  - There is no feed to fall back on. `/rss`, `/feed`, `?format=rss`,
- *    `/rss.xml` and the Finalsite `apps/news/news_rss.jsp` path all 404.
+ *  - The ARTICLE page carries `article:published`, on 9/9 posts when checked
+ *    2026-11-01. See `publishedAt`.
+ *
+ * ⚠️ A "NO DATE ANYWHERE" FINDING EXPIRES. On 2026-08-28 these article pages
+ * carried no date at all, and this section was built to show none. By
+ * 2026-11-01 they all did, and the section went on hiding them until a reader
+ * asked why it looked out of date. Nothing can fail when a school STARTS
+ * publishing something, so re-check this if the section looks stale.
+ *
+ * There is still no feed. `/rss`, `/feed`, `?format=rss`, `/rss.xml` and the
+ * Finalsite `apps/news/news_rss.jsp` path all 404.
  *
  * ⚠️ ONE PROBE RETURNS HTTP 200 AND IS NOT A FEED.
  * `https://www.davidsonday.org/p/~board/all-school-news/rss` answers 200 —
@@ -50,15 +53,9 @@ import { truncatePreview, type NewsItem } from '../types'
  * skill warns about: the wrong sheet served under a success code. It was
  * rejected on its content type and item count, not on its status.
  *
- * This differs from CANNON and COVENANT DAY, which are also dateless on their
- * boards but keep a date on the article page — both therefore supply a
- * `publishedAt` hook. Davidson Day has nothing for such a hook to fetch, so it
- * supplies none and every item carries `date: null`. It matches CHARLOTTE
- * CHRISTIAN, the app's other genuinely dateless school.
- *
- * The consequence is deliberate and handled upstream: `normalizeItems` sorts
- * undated items last but STABLY, so the board's own DOM order — the school's
- * chosen ordering, newest first — is preserved rather than scrambled.
+ * The board shows nine posts and a Load More button for the rest. Its order
+ * matches its article dates exactly across those nine, so the section has its
+ * newest posts without loading more, and it is marked `boardIsChronological`.
  */
 
 /**
@@ -136,7 +133,7 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
         article.querySelector('[data-image-sizes]'),
     )
 
-    // TRAP 1: no date is published anywhere on this site.
+    // TRAP 1: the date is on the article page, and arrives on the second pass.
     items.push({ title, url: href, date: null, ...(photo ? { photo } : {}) })
   }
 
@@ -217,4 +214,21 @@ export function preview(html: string): string | undefined {
     return truncatePreview(text)
   }
   return undefined
+}
+
+/**
+ * TRAP 5 — the article page carries a decoy date.
+ *
+ * `page-published` is one template timestamp (2026-10-20T17:02:52) on every
+ * post, so it would collapse the sort. Only `article:published` moves per post,
+ * so the property is matched exactly. See TRAP 1 for why this exists at all.
+ */
+export function publishedAt(html: string): string | undefined {
+  const doc = new DOMParser().parseFromString(html, 'text/html')
+  const value = doc
+    .querySelector('meta[property="article:published"]')
+    ?.getAttribute('content')
+    ?.trim()
+  if (!value) return undefined
+  return Number.isNaN(Date.parse(value)) ? undefined : value
 }

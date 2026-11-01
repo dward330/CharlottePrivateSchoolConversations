@@ -388,8 +388,15 @@ This needs nothing from the parser; `publishedAt` is what switches it on.
 **Set `boardIsChronological` only after measuring.** It keeps an undated row where the
 board placed it, rather than sinking it, and lets the pass stop early. Compare the
 board's order against real article dates first: Charlotte Latin's grid passed on
-2026-11-01 (adjacent disorder only), while Cannon, Covenant Day and Gaston Day state their
-order is not chronological and must leave it off.
+2026-11-01 (adjacent disorder only) and Davidson Day's matched exactly, while Cannon,
+Covenant Day and Gaston Day state their order is not chronological and must leave it off.
+
+**A "no date published" finding expires.** Davidson Day's article pages carried no date
+when its parser was written and all carried one by 2026-11-01, while the section went on
+hiding them. Nothing fails when a school starts publishing something, so before trusting
+an old trap comment on a stale-looking section, re-fetch an article page and read its
+`meta[property="article:published"]`. Check for a second listing too: Covenant Day's news
+page showed an old sliver of a board whose current posts were on another page.
 
 **A slug absent from this registry renders no chip, no rail item and no section** — the
 project's absence-of-data principle. That is the correct treatment for a school whose board

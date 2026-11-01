@@ -41,7 +41,7 @@ import { truncatePreview, type NewsItem } from '../types'
  *
  * This puts Gaston Day with CANNON and COVENANT DAY (dateless board, dated
  * article page → supplies a `publishedAt` hook), NOT with CHARLOTTE CHRISTIAN
- * and DAVIDSON DAY (dateless everywhere → every item stays `date: null`).
+ * (dateless everywhere → every item stays `date: null`).
  * Getting that split wrong in either direction is silent: omitting the hook
  * ships 8 undated rows in the board's DOM order, and expecting a board date
  * ships an empty section.

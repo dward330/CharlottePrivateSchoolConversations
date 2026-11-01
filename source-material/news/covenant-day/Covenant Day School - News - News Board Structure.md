@@ -20,6 +20,49 @@ Both are the same URL — **user-supplied 2026-08-28**, not derived. The apex
 `covenantday.org` 301s to the `www.` form (verified), so both hostnames are
 listed in the Worker's `ALLOWED_HOSTS`.
 
+## Re-capture 2026-11-01 — athletics lives on a second page
+
+- **Captured:** 2026-11-01 by Claude (Claude Code), comparing the live section with the
+  school's own pages. **The user approved adding Lions News on 2026-11-01.** Sections below
+  describe the 2026-08-28 one-page design where they conflict.
+- **Sources:** `https://www.covenantday.org/about-us/news` (36 posts),
+  `https://www.covenantday.org/athletics/lionsnews` (23 posts), and every post's article
+  page for `meta[property="article:published"]`. No sitemap (`/sitemap.xml` 404s).
+
+`/about-us/news` lists 15 `fsBoard-230`, 14 `fsBoard-218` and only 7 `fsBoard-234` posts,
+all seven from 2024. The Lions page lists 22 `fsBoard-234` posts plus one cross-listed
+`fsBoard-218` post, and has no `<time>`, a real `div.fsSummary` on every row, and no Load
+More. The same post has a different URL on each page, so URL de-duplication cannot catch it.
+
+Article dates in page order, newest first apart from adjacent swaps:
+
+| Board | First rows |
+|---|---|
+| 218 (news) | 2026-07-23, 06-22, 03-11, 03-02, 01-07, 2025-12-04 |
+| 230 (features) | 2026-05-12, 05-10, 05-10, 02-08, 02-08, 02-08 |
+| 234 (Lions page) | 2026-07-08, 07-10, 06-24, 05-25, 05-07, 04-28 |
+
+### Verified result (2026-11-01)
+
+Six posts per board, 18 candidates. The built section in Chrome, 10/10 dated with previews,
+no duplicates, matching the top ten of all 49 unique posts. A fully cold load took 12.6s and
+finished inside the 12s date pass.
+
+| # | Date | Headline | Board |
+|---|---|---|---|
+| 1 | 2026-07-23 | All-School Back-to-School Kickoff | news |
+| 2 | 2026-07-10 | 2026 Spring Sports Highlights | lions-news |
+| 3 | 2026-07-08 | Mike Freace Begins Tenure as Athletic Director | lions-news |
+| 4 | 2026-06-24 | Eaton and Barto named to Nexus Championship Teams | lions-news |
+| 5 | 2026-06-22 | Siti Oo's Gift to CDS: A Window into the Chin People of Burma | news |
+| 6 | 2026-05-25 | The Covey's - 2026 Athletics Award Show | lions-news |
+| 7 | 2026-05-12 | Get to Know LS Nurse Sara McGee | features |
+| 8 | 2026-05-10 | Get to Know HS Math Teacher Joanna Keel | features |
+| 9 | 2026-05-10 | Get to Know MS Administrative Assistant Christine Whelchel | features |
+| 10 | 2026-05-07 | The Fab 5 - The 5 Seniors Who Helped Build The Legacy of CDS | lions-news |
+
+No post newer than 2026-07-23 was found on the school's pages. Social media was not checked.
+
 ## CMS
 
 **Finalsite.** Markers present: `fsElement` (84), `fsPostElement`,

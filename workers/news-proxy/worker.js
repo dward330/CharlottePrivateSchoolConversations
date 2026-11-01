@@ -89,9 +89,9 @@ const ALLOWED_HOSTS = [
   // Apex 301s to www (verified 2026-08-28); both forms are listed because a
   // redirect between them is invisible until it 403s.
   //
-  // Covenant Day's board publishes NO date, so EVERY one of its 37 posts gets
-  // an article-page fetch through this relay before the section can be ordered
-  // — a wider second pass than any other school's ten. Both cache layers (the
+  // Covenant Day's boards publish NO date, so each of its 18 candidates gets an
+  // article-page fetch through this relay before the section can be ordered
+  // — a wider second pass than most schools' ten. Both cache layers (the
   // Worker's 15-minute edge cache and the app's 30-minute sessionStorage cache)
   // sit in front of it, so only the first uncached visitor in a window pays it.
   'www.covenantday.org',
@@ -100,10 +100,8 @@ const ALLOWED_HOSTS = [
   // redirect between them is invisible until it 403s.
   //
   // Davidson Day's board publishes NO date and NO summary, so each of its 9
-  // posts gets one article-page fetch through this relay for its preview
-  // (1 board + 9 previews = 10 requests per uncached visitor). Unlike Covenant
-  // Day that pass is for preview text only — there is no date to recover, so
-  // the section renders in board order and never waits on it to sort.
+  // posts gets one article-page fetch through this relay for both
+  // (1 board + 9 articles = 10 requests per uncached visitor).
   'www.davidsonday.org',
   'davidsonday.org',
   // Gaston Day School's news board is on its OWN ATHLETICS DOMAIN, not on

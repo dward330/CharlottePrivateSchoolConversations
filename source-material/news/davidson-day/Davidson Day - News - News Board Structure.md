@@ -12,6 +12,39 @@
 - **Index URL:** same page. One URL serves as both the parse target and the
   "All news & media" destination.
 
+## Re-capture 2026-11-01 — article pages now carry a date
+
+- **Captured:** 2026-11-01 by Claude (Claude Code), comparing the live section with the
+  school's own pages. **TRAP 1 below ("no date is published anywhere") was true on
+  2026-08-28 and is no longer true.**
+- **Sources:** `https://www.davidsonday.org/about/news-media/news` and its nine article pages.
+
+The board is unchanged: no date in its markup. All nine article pages now carry
+`meta[property="article:published"]`, and the board's order matches those dates exactly.
+Every page also carries `name="page-published"` with one identical template value
+(2026-10-20T17:02:52), which must not be used.
+
+| # | Published | Headline |
+|---|---|---|
+| 1 | 2026-10-22 | Davidson Day Yearbook Wins All-State Award |
+| 2 | 2026-10-08 | Davidson Day Announces New Campus |
+| 3 | 2026-10-05 | Davidson Day's Mat Saunders Named to "The 100" |
+| 4 | 2026-09-28 | Davidson Day Partners with Elon University |
+| 5 | 2026-05-13 | Davidson Day Announces Legendary Coach Bob McKillop as 2026 Commencement Speaker |
+| 6 | 2026-04-17 | Davidson Day Announces New Varsity Boys Basketball Head Coach |
+| 7 | 2026-02-20 | Davidson Day Announces New Middle & Upper School Assistant Division Head |
+| 8 | 2025-10-02 | Davidson Day Announces Leadership Changes for 26-27 School Year |
+| 9 | 2025-09-24 | Davidson Day Announces New Mission Statement and Core Values |
+
+The board shows nine posts with a Load More button (`data-start-row="10"`). The rest are
+older, so the section shows nine rows.
+
+**The blog is deliberately not read.** `https://www.davidsonday.org/about/news-media/blog`
+is a separate board (`fsBoard-6`, newest 2026-10-29). The user decided 2026-11-01 to keep the
+section to school announcements.
+
+A fully cold load took 4.8s in Chrome.
+
 ## Fetch observations
 
 | Check | Result |
