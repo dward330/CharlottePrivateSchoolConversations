@@ -1,4 +1,4 @@
-var e=`cannon`,t=`sports`,n=32,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Cannon - Sports - 247Sports Recruiting Rankings.md`,preview:`# Cannon — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Cannon — Sports — 247Sports Recruiting Rankings
+var e=`cannon`,t=`sports`,n=36,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Cannon - Sports - 247Sports Recruiting Rankings.md`,preview:`# Cannon — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Cannon — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -680,14 +680,14 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - NCISAA **4A**, conference play in the **CISAA**. https://www.ncisaa.org/
 - Middle School begins at grade 7; 8th-graders do reach varsity — London Truesdale scored
  12 points in the 2026 state final.
- https://athletics.cannonschool.org/teams/teams-list`},{subtopic:`2. Winning Record`,source_file:null,preview:`Girls basketball: three straight NCISAA 4A titles (2024, 2025, 2026), four in six years. | Program | 2023–24 | 2024–25 | 2025–26 | |---|---|---|---| | Girls Basketball | STATE 23–7 | STATE 26–7 | STATE 25–6 | | Volleyball | STATE 23–2 | — | — | | Boys Lacrosse | STATE (D1) 19–3 | — | — | | Baseball | — | — | RUNNER-UP…`,text:`**Girls basketball: three straight NCISAA 4A titles (2024, 2025, 2026), four in six years.**
+ https://athletics.cannonschool.org/teams/teams-list`},{subtopic:`2. Winning Record`,source_file:null,preview:`Girls basketball: three straight NCISAA 4A titles (2024, 2025, 2026), four in six years. | Program | 2023–24 | 2024–25 | 2025–26 | |---|---|---|---| | Girls Basketball | STATE 23–7 | STATE 26–7 | STATE 25–6 | | Volleyball | STATE 23–2 | — | — | | Boys Lacrosse | STATE (D1) 19–3 | — | — | | Softball | RUNNER-UP (D1) |…`,text:`**Girls basketball: three straight NCISAA 4A titles (2024, 2025, 2026), four in six years.**
 
 | Program | 2023–24 | 2024–25 | 2025–26 |
 |---|---|---|---|
 | Girls Basketball | STATE 23–7 | STATE 26–7 | STATE 25–6 |
 | Volleyball | STATE 23–2 | — | — |
 | Boys Lacrosse | STATE (D1) 19–3 | — | — |
-| Baseball | — | — | RUNNER-UP (D1), swept 7–5, 9–5 |
+| Softball | RUNNER-UP (D1) | — | RUNNER-UP (D1), swept 7–5, 9–5 |
 | Boys Basketball | — | 15–12 | 16–13 (8–2 CISAA, 2nd) |
 | Football | — | — | Playoff 2nd round |
 
@@ -1008,6 +1008,35 @@ https://247sports.com/college/cincinnati/Institution/Cannon-School-Concord-NC-39
 https://www.highschoolot.com/story/the-2026-highschoolot-all-state-girls-basketball-team/22367273/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
 
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Cannon - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Cannon - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Cannon - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Cannon`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 4 | 98.75 | 190 | 175 | 463.75 | Providence Day 670 | 206.25 | | 2021–22 | 5 | 85 | 140 | 192.5 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
+
+| Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
+|---|---|---|---|---|---|---|---|
+| 2020–21 | 4 | 98.75 | 190 | 175 | 463.75 | Providence Day 670 | 206.25 |
+| 2021–22 | 5 | 85 | 140 | 192.5 | 417.5 | Charlotte Country Day 682.5 | 265 |
+| 2022–23 | 5 | 115 | 107.5 | 167.5 | 390 | Providence Day 782.5 | 392.5 |
+| 2023–24 | 4 | 115 | 112.5 | 142.5 | 370 | Providence Day 757.5 | 387.5 |
+| 2024–25 | 5 | 60 | 117.5 | 202.5 | 380 | Providence Day 650 | 270 |
+| 2025–26 | 5 | 80 | 97.5 | 230 | 407.5 | Providence Day 692.5 | 285 |
+
+Cannon has not won the Cup in these six seasons and has not finished in the top three. Its best finish is 4th, in 2020–21 and 2023–24. Its highest score, 463.75, came in 2020–21, and it has scored more than 400 only twice since, never catching Durham Academy for 4th in the last two seasons.`},{subtopic:`Wells Fargo Cup point sources for Cannon`,source_file:null,preview:`Every title or runner-up year here is confirmed by the NCISAA source named beside it. "Bracket" means the NCISAA archive page for that sport and season. | Sport | Gender | Term | State titles | Runner-up | Evidence | |---|---|---|---|---|---| | Basketball | Girls | Winter | 2021, 2024, 2025, 2026 | 2023 | Bracket for…`,text:`Every title or runner-up year here is confirmed by the NCISAA source named beside it. "Bracket" means the NCISAA archive page for that sport and season.
+
+| Sport | Gender | Term | State titles | Runner-up | Evidence |
+|---|---|---|---|---|---|
+| Basketball | Girls | Winter | 2021, 2024, 2025, 2026 | 2023 | Bracket for all five; 2021 over North Raleigh Christian, 2024 and 2026 over Providence Day, 2025 over Wesleyan Christian; 2023 lost to Rabun Gap |
+| Lacrosse | Boys | Spring | 2022, 2023, 2024 | — | Bracket for all three; 2022 over Christ School, 2023 and 2024 over Providence Day; 2024 also in HighSchoolOT's roundup |
+| Softball | Girls | Spring | 2023 | 2021, 2022, 2024, 2026 | Bracket game lines for all five: 2023 beat Charlotte Christian 10–4, 3–1; 2021 lost to Charlotte Christian 1–8, 8–7, 3–13; 2022 lost to Charlotte Christian 4–3, 0–8, 0–10; 2024 lost to North Raleigh Christian 6–1, 2–5, 1–4; 2026 lost to Covenant Day 5–7, 5–9 |
+| Volleyball | Girls | Fall | 2023 | 2020, 2022 | Bracket for all three; 2023 over North Raleigh Christian 3–0; 2020 and 2022 lost to North Raleigh Christian |
+| Basketball | Boys | Winter | 2021 | — | Bracket, 94–85 over Carmel Christian; the Observer's "It's a repeat" story |
+| Golf | Boys | Spring | 2021 | — | NCISAA 4A team results, Cannon 291, North Raleigh Christian 294, Charlotte Latin 295 |
+| Football (11-man) | Boys | Fall | 2021 | — | Bracket, Division II, Cannon - Concord Academy finishing 10–2; 34–31 over Harrells Christian per MaxPreps and Cannon Magazine |
+
+**The list rule:** a sport is listed with at least one title or at least two runner-up years, the same bar as Providence Day's, Charlotte Latin's and Charlotte Country Day's lists.
+
+Confirmed but left off, one runner-up year: girls track 2026 (official results: Durham Academy 123, Cannon 112, Charlotte Country Day 104).
+
+Other team finishes read, none in the top two: girls track 4th in 2021 and 9th in 2025; boys track 13th, 14th and 13th in 2021, 2025 and 2026; boys swimming 5th, 3rd, 7th, 6th and 6th in 2021–2025; girls swimming 7th, 9th, 7th, 9th and 11th in 2021–2025; girls cross country 10th, 11th, 7th and 10th in 2020, 2021, 2023 and 2024; boys cross country 11th, 10th and 15th in 2021, 2023 and 2024; wrestling 3rd, 6th and 11th in 2021–2023; girls golf 4th in 2020.`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Within the six Cup seasons the brackets give Cannon these titles by season: 2020–21 girls basketball, boys basketball, boys golf; 2021–22 football (Division II co-op), boys lacrosse; 2022–23 boys lacrosse, softball; 2023–24 volleyball, girls basketball, boys lacrosse; 2024–25 girls basketball; 2025–26 girls…`,text:`Within the six Cup seasons the brackets give Cannon these titles by season: 2020–21 girls basketball, boys basketball, boys golf; 2021–22 football (Division II co-op), boys lacrosse; 2022–23 boys lacrosse, softball; 2023–24 volleyball, girls basketball, boys lacrosse; 2024–25 girls basketball; 2025–26 girls basketball. That is 12 in six seasons. The Winning Record card's three seasons hold against this list apart from the softball and baseball corrections in the Method section. Boys basketball's 2020 title, named in the repo's dossier, falls in 2019–20, before these tables begin.
+
 ---`},{subtopic:`Win-Loss Records`,source_file:`Cannon - Sports - Win-Loss Records.pdf`,preview:`CANNON SCHOOL COUGARS — ATHLETICS RESEARCH DOSSIER Concord, NC Team Win-Loss Records — Recent Seasons Research Area — Top 5 sports, both genders where applicable Covers Cannon's top 5 sports: Girls Basketball, Boys Basketball, Football, Golf (B&G;), and Cross Country/Track (B&G;). AT A GLANCE Top 5 sports Girls…`,text:`CANNON SCHOOL COUGARS — ATHLETICS RESEARCH DOSSIER Concord, NC
 Team Win-Loss Records — Recent Seasons
 Research Area — Top 5 sports, both genders where applicable
@@ -1090,4 +1119,4 @@ https://alumni.cannonschool.org/page/hall-of-fame-2020-inductees
 • Cannon Men's Basketball (CISAA POY streak) — https://x.com/cannonmbb
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:32,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:36,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
