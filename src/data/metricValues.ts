@@ -121,8 +121,10 @@ export type ValueMetric = {
    * names the university and the term, read from the selected schools'
    * `ncAdmissions.latestTerm` — the same field the school-page card captions
    * its ledger with — so a dashboard refresh moves the tip's year with the card.
+   * `cup`: explains the Wells Fargo Cup, reusing the Cup card's own strings,
+   * because Compare is the only place the term appears for a school with no card.
    */
-  rowTip?: 'ncAdmit'
+  rowTip?: 'ncAdmit' | 'cup'
 }
 
 /**
@@ -2258,6 +2260,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     compareOnly: true,
     noLead: true,
     textValues: true,
+    rowTip: 'cup',
     values: {
       cannon: '5th of 17',
       'charlotte-christian': '8th of 17',
@@ -2308,6 +2311,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Division titles in these six seasons. Beneath, how many seasons the school finished in its division’s top 3. A title in one division does not compare with a title in another. Charlotte Catholic shows n/a because only its latest season is verified here.',
     compareOnly: true,
     noLead: true,
+    rowTip: 'cup',
     values: {
       cannon: '0',
       'charlotte-christian': '0',

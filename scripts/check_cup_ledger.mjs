@@ -21,8 +21,8 @@
  *   - Providence Day's card reads the figures verified from the official tables;
  *   - the inline fixtures compute what they should;
  *   - the two Compare rows (`cup-finish`, `cup-titles`, plan `cupcompare`) are
- *     contiguous and last in VALUE_METRICS, compareOnly and noLead, name the
- *     seasons in their labels, list the same schools as `d1-commits-2426`, and
+ *     contiguous and last in VALUE_METRICS, compareOnly, noLead and carrying the
+ *     `cup` header tip, name the seasons in their labels, list the same schools as `d1-commits-2426`, and
  *     every typed cell, sub-line and tooltip matches the ledger.
  *
  * The ledger is passed as an argument to each rule, so the fixtures never touch
@@ -303,6 +303,7 @@ if (finish && titles) {
     eq(`${row.key}: topic`, row.topic, 'sports')
     if (row.compareOnly !== true) fail(`${row.key}: must be compareOnly`)
     if (row.noLead !== true) fail(`${row.key}: must be noLead`)
+    if (row.rowTip !== 'cup') fail(`${row.key}: must carry rowTip: 'cup'`)
     eq(`${row.key}: school keys`, Object.keys(row.values).sort(), Object.keys(commits.values).sort())
   }
   if (!finish.label.includes(latestSeason)) fail(`cup-finish label must contain ${latestSeason}`)

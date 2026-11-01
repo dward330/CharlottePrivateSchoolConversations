@@ -1141,7 +1141,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `compareAs` | `'span' \| 'sum' \| 'fraction' \| 'range-width' \| 'range-start' \| 'ra…` |  |
 | `quals` | `Record<string, CellQual>` |  |
 | `compareOnly` | `boolean` |  |
-| `rowTip` | `'ncAdmit'` |  |
+| `rowTip` | `'ncAdmit' \| 'cup'` |  |
 
 **`CellQual`**
 

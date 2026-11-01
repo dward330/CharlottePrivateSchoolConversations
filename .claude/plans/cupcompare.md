@@ -103,13 +103,20 @@ one only where it adds something.
 - **Points, average points, fall/winter/spring share, streaks and margins are excluded.**
   Points are earned against different fields, and winter has 5 NCISAA sports against 9 each
   in fall and spring, so a term share mostly measures the calendar.
-- **No chrome keys.** Everything translated sits in `VALUE_METRICS` and goes through the
-  `metric-values` overlay, like `travel-*`.
+- **One chrome key, added at the Phase 1 review.** Row text sits in `VALUE_METRICS` and goes
+  through the `metric-values` overlay, like `travel-*`. The one exception is
+  `compare.cupTipKind`, below.
+- **Both Cup row headers carry a tip explaining the Cup** (user request at the Phase 1
+  review, 2026-11-01): `rowTip: 'cup'`. Seven schools have no Cup card, so Compare is the
+  only place a parent meets the term for them. The body reuses `sports.cup.what1` and
+  `what3`, translated in every catalog and identical to the card. Only the kicker
+  `compare.cupTipKind` ("What it is") is new.
 
 ## Approvals needed
 
 - **UX gate — GRANTED (2026-11-01).** The user approved the recommendation: the two Compare
-  rows and metric keys, compare-only, no leader tint, excluded from the floor.
+  rows and metric keys, compare-only, no leader tint, excluded from the floor. The header
+  tip was approved the same day, at the Phase 1 review.
 - **Deploy: not part of this plan.** Merge, then stop.
 
 ## Source material
@@ -133,7 +140,8 @@ subtopic can appear.
 - Verifying Charlotte Catholic's earlier NCHSAA seasons. That belongs to its
   `/wells-fargo-cup` pass, which then fills its titles cell.
 - A field size for NCHSAA 6A.
-- Any change to the Cup card, `Compare.tsx` or `src/index.css`.
+- Any change to the Cup card or `src/index.css`. `Compare.tsx` changes only for the `cup`
+  header tip.
 - Moving the Cup rows above the commit rows, which would need the overlay paths re-spliced.
 
 ## Steps
@@ -304,8 +312,9 @@ until they confirm.
 
 ### Phase 2 — Every other locale
 
-Research-prose layer only: the `metric-values` overlay, per `PROSE_TRANSLATED`
-(`es bn ht te fr fa it hi ar`). **No `src/locales/*.json` change.** For the mechanism, read
+Two layers: the `metric-values` overlay for research prose, per `PROSE_TRANSLATED`
+(`es bn ht te fr fa it hi ar`), and **one chrome key**, `compare.cupTipKind`, added to the same
+nine `src/locales/*.json` catalogs. For the mechanism, read
 `.claude/docs/prose-translation-architecture.md`; for register and traps, read the matching
 `.claude/docs/prose-translation-<lang>.md`. Italian has no rollout doc, so follow Telugu's
 or Bangla's method.
@@ -324,7 +333,9 @@ or Bangla's method.
      correct keep.
    - **Season spans** follow "Dates and session labels" in `src/data/overlays/NOTES.md`.
 2. **Build the overlays** per lang, then re-run the zero-duplicate-`at` assertion.
-3. **Run Phase 2 verification**, commit, push, merge
+3. **Add `compare.cupTipKind`** ("What it is") to the nine catalogs. The tip body needs no work: it
+   reuses `sports.cup.what1` and `what3`.
+4. **Run Phase 2 verification**, commit, push, merge
    (`gh pr merge --squash --delete-branch`), then `git checkout main && git pull`. Flip the
    INDEX row to `Implemented` with the PR link, and add `## Implementation notes` if anything
    deviated. **Do not deploy.** Say "merged — ready to deploy whenever you want it" and stop.
@@ -344,6 +355,7 @@ or Bangla's method.
 | `CLAUDE.md`, `.claude/skills/add-school/SKILL.md` | edit: floor sentence |
 | `CLAUDE.md`, `.claude/skills/wells-fargo-cup/SKILL.md`, `.claude/SKILLS.md` | edit: a new season moves the rows |
 | `src/data/overlays/work/metric-values.<lang>.json` ×9, `src/data/overlays/metric-values.<lang>.json` ×9 | Phase 1 splice, Phase 2 translations |
+| `src/pages/Compare.tsx`, `src/locales/en.json`, `scripts/i18n_fields.mjs` | edit: `cup` header tip; the nine other catalogs in Phase 2 |
 | `.claude/plans/INDEX.md`, this plan | status, PR, notes |
 
 ## Verification
@@ -361,6 +373,7 @@ or Bangla's method.
 - [ ] `npm run build`: succeeds
 - [ ] **Browser check** (`npm run build && npx vite preview`, real Chrome via Playwright; don't wait on `networkidle`):
   - `/compare/?topic=sports` with all 11 schools: four Key-stats rows, Cup rows after the commit rows; every cell matches the tables in Step 3; Charlotte Catholic's titles cell is n/a.
+  - Both Cup row headers open the "What it is" tip by hover and keyboard focus, and it fits at 360px.
   - **No `.lead` class on either Cup row**, including when only Carmel Christian and Providence Day are selected. Assert the class, not just the text. Power 4 and Division I still tint.
   - Hover or focus every `.qual-dot` cell in both rows and confirm the text and the "Scope note" kicker.
   - `15th of 17` and `Top 3 in 6 of 6` fit their cells at the narrowest column, and the Compare table scrolls inside its frame at 360px with the longest tooltip open. Run `npm run audit:mobile`.
@@ -374,7 +387,7 @@ or Bangla's method.
 - [ ] `npm run check:sepdrift -- --lang <code>` for each of the nine: no new findings in `metric-values`
 - [ ] `npm run check:dates`, `npm run check:fr`, and the RTL and script checks the rollout docs name for `fa`, `ar`, `hi`: pass
 - [ ] `npm run build`: succeeds
-- [ ] **Browser check in every prose locale** on `/compare/?topic=sports`: labels, notes, subs and tooltips translated; school names and `NCISAA 4A` Latin; figures correct. In `fa`/`ar`, `2020–21` does not reverse and `5th of 17` reads place-then-total (memory "RTL figure ranges reverse"). Non-Latin assertions are not case-sensitive substring checks (memory "innerText case false-pass").
+- [ ] **Browser check in every prose locale** on `/compare/?topic=sports`: labels, notes, subs, tooltips and the header tip translated; school names and `NCISAA 4A` Latin; figures correct. In `fa`/`ar`, `2020–21` does not reverse and `5th of 17` reads place-then-total (memory "RTL figure ranges reverse"). Non-Latin assertions are not case-sensitive substring checks (memory "innerText case false-pass").
 
 ## Risks
 
@@ -393,3 +406,11 @@ or Bangla's method.
   leave `1st` until its `/wells-fargo-cup` pass.
 - Should the Cup rows sit above the commit rows? **Default:** after them. Moving them is a
   later overlay re-splice if the user asks at review.
+
+## Implementation notes
+
+- **The PR opens after Phase 2, not at step 9.** `/implement` lands both phases in one PR, so
+  Phase 1 stopped at a pushed branch.
+- **The header tip was added at the Phase 1 review** by user request: `rowTip: 'cup'` on both
+  rows, guarded by `check:cup`. It added the plan's only chrome key and its only `Compare.tsx`
+  change.
