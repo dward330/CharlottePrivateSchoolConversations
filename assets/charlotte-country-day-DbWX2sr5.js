@@ -1,4 +1,4 @@
-var e=`charlotte-country-day`,t=`sports`,n=33,r=[{subtopic:`Awards and Honors`,source_file:`CCD - Sports - Awards and Honors.pdf`,preview:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Awards & Honors Research Area — individual and program recognition Country Day maintains several long-running internal honors — the Carl Bolick Coach's Award, the Victrix/Victor Ludorum athlete awards — alongside external recognition such as…`,text:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
+var e=`charlotte-country-day`,t=`sports`,n=37,r=[{subtopic:`Awards and Honors`,source_file:`CCD - Sports - Awards and Honors.pdf`,preview:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Awards & Honors Research Area — individual and program recognition Country Day maintains several long-running internal honors — the Carl Bolick Coach's Award, the Victrix/Victor Ludorum athlete awards — alongside external recognition such as…`,text:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Awards & Honors
 Research Area — individual and program recognition
 Country Day maintains several long-running internal honors — the Carl Bolick Coach's Award, the Victrix/Victor Ludorum
@@ -780,4 +780,32 @@ a card, so **1g is omitted** and the field hockey ranking is noted on card 1b in
 - Klein Natatorium opening date conflicts: school timeline says 2021, better-attested Oct 2022.
 - "72 teams / 26 sports" vs ~65 directory-listed teams — counting convention, unresolved.
 
----`}],i={school_slug:e,topic_slug:t,section_count:33,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Charlotte Country Day - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Charlotte Country Day - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Charlotte Country Day - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Charlotte Country Day`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 2 | 237.5 | 107.5 | 300 | 645 | Providence Day 670 | 25 | | 2021–22 | 1 | 272.5 | 87.5 | 322.5 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
+
+| Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
+|---|---|---|---|---|---|---|---|
+| 2020–21 | 2 | 237.5 | 107.5 | 300 | 645 | Providence Day 670 | 25 |
+| 2021–22 | 1 | 272.5 | 87.5 | 322.5 | 682.5 | Charlotte Country Day; Charlotte Latin 2nd with 655 | — |
+| 2022–23 | 3 | 235 | 150 | 185 | 570 | Providence Day 782.5 | 212.5 |
+| 2023–24 | 2 | 272.5 | 132.5 | 285 | 690 | Providence Day 757.5 | 67.5 |
+| 2024–25 | 3 | 265 | 127.5 | 155 | 547.5 | Providence Day 650 | 102.5 |
+| 2025–26 | 3 | 237.5 | 142.5 | 222.5 | 602.5 | Providence Day 692.5 | 90 |
+
+Country Day lists ten Cup wins: 1982–83, 1984–85, 1985–86, 1986–87, 1991–92, 1995–96, 1996–97, 1997–98, 2000–01 and 2021–22. The 2021–22 win is the only one in these six seasons, and it is the one season Providence Day did not win. Country Day's highest score here, 690 in 2023–24, came in a second-place year.`},{subtopic:`Wells Fargo Cup point sources for Charlotte Country Day`,source_file:null,preview:`Every title or runner-up year here is confirmed by the source named beside it. "Bracket" means the NCISAA archive page for that sport and season; "list" means Country Day's Awards & Honors page. | Sport | Gender | Term | State titles | Runner-up | Evidence | |---|---|---|---|---|---| | Tennis | Girls | Fall | 2022,…`,text:`Every title or runner-up year here is confirmed by the source named beside it. "Bracket" means the NCISAA archive page for that sport and season; "list" means Country Day's Awards & Honors page.
+
+| Sport | Gender | Term | State titles | Runner-up | Evidence |
+|---|---|---|---|---|---|
+| Tennis | Girls | Fall | 2022, 2023, 2024, 2025 | 2021 | Bracket for all five; the four titles also in the list |
+| Track & Field | Girls | Spring | 2023, 2024, 2025 | 2021, 2022 | List for the titles; 2024 138–125 HighSchoolOT; 2025 107.5–107 official results; 2021 Providence Day 202.5, Country Day 118, official results; 2022 Providence Day 164, Country Day 134.5, Observer |
+| Field Hockey | Girls | Fall | 2021, 2023, 2025 | 2020, 2024 | Bracket for all five; the titles also in the list; 2020 final Oct. 31, 2020 against Providence Day |
+| Cross Country | Girls | Fall | 2021, 2024 | 2020, 2023 | Official timing: 2021 33–49 over Providence Day; 2024 79–86 over Latin; 2020 lost 66–70 to Latin; 2023 lost 41–83 to Providence Day; the titles also in the list |
+| Swimming | Girls | Winter | 2024, 2025 | 2021, 2023, 2026 | NCISAA Division I team scores: 2024 379–336, 2025 385–314; 2021 lost 443–201 and 2023 lost 345–293 to Cary Academy; 2026 lost 420–328 to Providence Day, HighSchoolOT team table |
+| Tennis | Boys | Spring | 2021 | 2022 | Bracket for both; the final on May 15, 2021 was won 5-4; 2022 lost to Cary Academy; 2021 also in the list |
+| Golf | Boys | Spring | 2022 | — | List; 302–304 over Latin, Latin's published team scores and the highschoolgolf.org leaderboard |
+| Lacrosse | Girls | Spring | — | 2021, 2022, 2024, 2025 | Bracket for all four; lost to Latin in 2021, 2022 and 2024 and to Providence Day in 2025 |
+
+**The list rule:** a sport is listed with at least one title or at least two runner-up years, the same bar as Charlotte Latin's list and Providence Day's.
+
+Confirmed but left off, one runner-up year each: boys lacrosse 2026 (bracket, lost in overtime to Durham Academy), volleyball 2024 (bracket, lost to North Raleigh Christian) and boys cross country 2023 (official timing, 87–90 to Providence Day).`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Country Day's list totals 155 state championships, which matches the Sports Offered card. Within the six Cup seasons it holds these titles by season: 2020–21 boys tennis; 2021–22 field hockey, girls cross country, boys golf; 2022–23 girls tennis, girls track; 2023–24 field hockey, girls tennis, girls swimming, girls…`,text:`Country Day's list totals 155 state championships, which matches the Sports Offered card. Within the six Cup seasons it holds these titles by season: 2020–21 boys tennis; 2021–22 field hockey, girls cross country, boys golf; 2022–23 girls tennis, girls track; 2023–24 field hockey, girls tennis, girls swimming, girls track; 2024–25 girls cross country, girls tennis, girls swimming, girls track; 2025–26 field hockey, girls tennis. The Winning Record card's counts of four, four and two for the last three seasons hold against this list.
+
+---`}],i={school_slug:e,topic_slug:t,section_count:37,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
