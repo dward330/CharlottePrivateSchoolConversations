@@ -435,7 +435,7 @@ for (const s of STRUCTURED) {
     w('Results live in `src/data/wellsFargoCup.ts`, because one school\'s table needs other')
     w('schools\' rows. The `cup` key in a school\'s module holds its point sources and citations,')
     w('and its presence is what renders the card, always second, after `offered`. Add a school')
-    w('with `/wells-fargo-cup`. Ten rules travel with it:')
+    w('with `/wells-fargo-cup`. Eleven rules travel with it:')
     w()
     w('- **Official association tables only.** An AI report is a lead to check, never a source.')
     w('- **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come')
@@ -454,6 +454,9 @@ for (const s of STRUCTURED) {
     w('  `T14th`.')
     w('- **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a')
     w('  list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.')
+    w('- **Two Compare rows read the ledger.** `cup-finish` and `cup-titles` are typed in')
+    w('  `metricValues.ts` for every high school, card or not, and `check:cup` fails until they')
+    w('  match. A new season or a ledger correction moves them.')
     w()
     // Standing rule set 2026-10-26 with the 247 rank columns (plan recruitranks).
     // Lives here so a new school's /add-school pass knows the field exists and

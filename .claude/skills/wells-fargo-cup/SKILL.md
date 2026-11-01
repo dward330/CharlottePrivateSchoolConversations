@@ -82,12 +82,15 @@ class needs its rows in the other class too, or those cells read as an em dash r
 and 2A Westminster Catawba Christian); copy them as published and record it.
 
 If a newer season has been published, add it to the brief. It changes `CUP_SEASONS`, and so
-every school's table.
+every school's table. It also moves `CUP_FIELD_SIZES` and every `cup-finish` and `cup-titles`
+cell in `src/data/metricValues.ts`, including both row labels, and `check:cup` fails until
+they match.
 
 ### NCHSAA branch (Charlotte Catholic)
 
 The public-school association is a different source, and the ledger holds only that
-school's 2025–26 row.
+school's 2025–26 row. A verified six-season record also fills Charlotte Catholic's
+`cup-titles` cell on Compare, which stays `null` until then.
 
 - Fetch NCHSAA's final standings per season, with classification and place.
 - A season that stays unverified is left out and shows an em dash, **never an estimate**.
@@ -148,6 +151,7 @@ Invoke `/plan` with the name `<slug>cup` and this scope:
 
 - ledger corrections, if any, and the rest of the school's division;
 - the `cup` block in `src/data/sportsPrograms/<slug>.ts`;
+- any `cup-finish` or `cup-titles` cells on Compare that a ledger change moves;
 - new `sports.cup.*` keys only if a sport or string is new.
 
 No component changes are expected. **A needed one means the shared logic has a gap, so say

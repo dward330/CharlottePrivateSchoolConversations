@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 489 ingested research documents.
+**13 schools × 12 research areas**, 490 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 17 | 2 | 2 | 17 | 17 | 17 | 2 | 16 | 16 | 1 | 1 | 17 | 2 |
+| Sports | `sports` | 17 | 2 | 2 | 17 | 17 | 17 | 2 | 16 | 16 | 1 | 1 | 18 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -147,7 +147,7 @@ research dossier folds in behind a structured card.
 | `national-profile` | National Profile | 7/13 | 4 |
 | `power-4` | Power 4 Offers | 7/13 | 1 |
 | `pros` | Professional Athletes | 7/13 | 1 |
-| `redesign-research` | Sports Research Dossier (2026) | 10/13 | 3 |
+| `redesign-research` | Sports Research Dossier (2026) | 10/13 | 4 |
 | `sports-medicine` | Sports Medicine & Performance | 7/13 | 1 |
 | `sports-offered` | Sports Offered | 9/13 | 3 |
 | `win-loss` | Win–Loss Records | 7/13 | 2 |
@@ -256,7 +256,7 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 Results live in `src/data/wellsFargoCup.ts`, because one school's table needs other
 schools' rows. The `cup` key in a school's module holds its point sources and citations,
 and its presence is what renders the card, always second, after `offered`. Add a school
-with `/wells-fargo-cup`. Ten rules travel with it:
+with `/wells-fargo-cup`. Eleven rules travel with it:
 
 - **Official association tables only.** An AI report is a lead to check, never a source.
 - **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come
@@ -275,6 +275,9 @@ with `/wells-fargo-cup`. Ten rules travel with it:
   `T14th`.
 - **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a
   list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.
+- **Two Compare rows read the ledger.** `cup-finish` and `cup-titles` are typed in
+  `metricValues.ts` for every high school, card or not, and `check:cup` fails until they
+  match. A new season or a ledger correction moves them.
 
 **`pipeline.roster[].rank247` holds the 247Sports Composite rank, and nothing else.**
 It renders as the 247 Nat'l / 247 State columns of the commitment roster; the columns
@@ -1071,6 +1074,8 @@ only, no school-page stat tile (the school page shows the figures in a structure
 |---|---|--:|---|
 | `p4-commits-2426` | Power 4 commits | 10/13 | Q |
 | `d1-commits-2426` | Division I commits | 10/13 | Q |
+| `cup-finish` | Wells Fargo Cup finish, 2025–26 | 11/13 | – Q C sub |
+| `cup-titles` | Wells Fargo Cup titles, 2020–21 to 2025–26 | 10/13 | – Q C sub |
 
 ### College Support `college-support`
 
@@ -1116,7 +1121,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `aid-awarded` | Aid awarded / year | 3/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 41 Compare rows across 9 research areas.
+**Total:** 43 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 

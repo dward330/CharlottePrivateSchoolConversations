@@ -53,6 +53,15 @@ function readManifest() {
  */
 const FLOOR_EXCLUDED_TOPICS = new Set(['international-travel'])
 
+/**
+ * Individual Compare rows left out of the floor. The user decided 2026-11-01
+ * (plan `cupcompare`) that the two Wells Fargo Cup rows do not count: only
+ * members of these NC associations can score them, so an out-of-state candidate
+ * would get 0 of 2. Sports is a counted topic, so this works by key.
+ */
+const FLOOR_EXCLUDED_KEYS = new Set(['cup-finish', 'cup-titles'])
+const isFloorExcluded = (r) => FLOOR_EXCLUDED_TOPICS.has(r.topic) || FLOOR_EXCLUDED_KEYS.has(r.key)
+
 /** Pull each VALUE_METRICS row's `values:{…}` block by brace-matching. Every row
  *  writes `topic: '…'` immediately before `key: '…'`. */
 function readMetricRows() {
@@ -76,8 +85,8 @@ function readMetricRows() {
 
 const { schools, topics, docs } = readManifest()
 const allRows = readMetricRows()
-const floorExcluded = allRows.filter((r) => FLOOR_EXCLUDED_TOPICS.has(r.topic))
-const rows = allRows.filter((r) => !FLOOR_EXCLUDED_TOPICS.has(r.topic))
+const floorExcluded = allRows.filter(isFloorExcluded)
+const rows = allRows.filter((r) => !isFloorExcluded(r))
 if (!rows.length) { console.error('coverage_floor: parsed 0 Compare rows — metricValues.ts shape changed?'); process.exit(1) }
 
 const report = schools.map(({ slug, name }) => {
@@ -131,7 +140,7 @@ if (asJson) {
   console.log(`and >= ${floor.areas}/${floor.topics} research areas to match our thinnest shipped school.`)
   console.log(`\nCount in ROWS, not percentages — each row moves the figure ~${(100 / rows.length).toFixed(1)} points.`)
   if (floorExcluded.length) {
-    console.log(`\nNot counted (FLOOR_EXCLUDED_TOPICS): ${floorExcluded.length} ${[...FLOOR_EXCLUDED_TOPICS].join(', ')} rows — ${floorExcluded.map((r) => r.key).join(', ')}.`)
+    console.log(`\nNot counted (FLOOR_EXCLUDED_TOPICS, FLOOR_EXCLUDED_KEYS): ${floorExcluded.length} rows — ${floorExcluded.map((r) => r.key).join(', ')}.`)
   }
   if (excluded.length) {
     console.log(`\nExcluded from the floor: ${excluded.map((r) => `${r.name} (${r.areas}/${r.topics} areas)`).join(', ')}`)

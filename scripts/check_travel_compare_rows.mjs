@@ -22,8 +22,9 @@
  *
  * Asserts:
  *   - exactly five `international-travel` rows, keys in plan order, contiguous
- *     and LAST in VALUE_METRICS (an insert elsewhere shifts every overlay `[N]`
- *     path after it), all `compareOnly: true`;
+ *     and followed by nothing but TAIL_KEYS, the rows appended after them (an
+ *     insert elsewhere shifts every overlay `[N]` path after it), all
+ *     `compareOnly: true`;
  *   - every row lists the same school keys, including every school with a
  *     program, and a school with no program is null in all five rows;
  *   - travel-trips: the label contains TRAVEL_YEAR; value = that year's trip
@@ -55,6 +56,9 @@ const KEYS = [
   'travel-credential',
   'travel-countries',
 ]
+// The only rows allowed after the travel rows, in order (plan `cupcompare`).
+// check:cup asserts their own placement.
+const TAIL_KEYS = ['cup-finish', 'cup-titles']
 const DOMESTIC = new Set(['New Mexico'])
 const UK = new Set(['England', 'Scotland', 'United Kingdom'])
 // Every destination piece on today's ledgers. A new one must be classified
@@ -139,14 +143,15 @@ function derive(p) {
   }
 }
 
-// Placement: five contiguous rows, in plan order, last in the array.
+// Placement: five contiguous rows, in plan order, followed only by TAIL_KEYS.
 const idx = VALUE_METRICS.map((r, i) => (r.topic === 'international-travel' ? i : -1)).filter((i) => i >= 0)
 if (idx.length !== KEYS.length) {
   findings.push(`expected ${KEYS.length} international-travel rows, found ${idx.length}`)
 } else {
   if (idx.some((v, i) => v !== idx[0] + i)) findings.push(`travel rows are not contiguous (indices ${idx.join(', ')})`)
-  if (idx[idx.length - 1] !== VALUE_METRICS.length - 1) {
-    findings.push(`travel rows must be LAST in VALUE_METRICS (last at ${idx[idx.length - 1]}, array ends at ${VALUE_METRICS.length - 1}) — an insert elsewhere shifts overlay paths`)
+  const tail = VALUE_METRICS.slice(idx[idx.length - 1] + 1).map((r) => r.key)
+  if (tail.join(', ') !== TAIL_KEYS.join(', ')) {
+    findings.push(`only ${TAIL_KEYS.join(', ')} may follow the travel rows in VALUE_METRICS (found: ${tail.join(', ') || 'nothing'}) — an insert elsewhere shifts overlay paths`)
   }
   const got = idx.map((i) => VALUE_METRICS[i].key).join(', ')
   if (got !== KEYS.join(', ')) findings.push(`travel row keys/order: ${got} ≠ ${KEYS.join(', ')}`)

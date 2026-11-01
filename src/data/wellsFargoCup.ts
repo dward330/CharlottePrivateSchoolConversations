@@ -261,6 +261,18 @@ export const CUP_DIVISION_LEADERS: CupDivisionLeader[] = [
   { school: 'Charlotte Latin School', slug: 'charlotte-latin', association: 'NCISAA', classification: '4A', season: '2025–26', place: 2, points: 690, fall: 277.5, winter: 205, spring: 207.5 },
 ]
 
+/**
+ * Schools listed in a division's published table for the latest season. The
+ * ledger holds only part of 2A and 3A, so "of 25" cannot be computed from it.
+ * Listed, not placed: 2A has three unplaced schools on 0 points. Read only by
+ * check:cup, which re-derives the Compare rows. Bump with a new season.
+ */
+export const CUP_FIELD_SIZES: Record<string, number> = {
+  'NCISAA|2A': 25,
+  'NCISAA|3A': 26,
+  'NCISAA|4A': 17,
+}
+
 const b = (key: string): CupSport => ({ key, gender: 'boys' })
 const g = (key: string): CupSport => ({ key, gender: 'girls' })
 const e = (key: string): CupSport => ({ key, gender: 'both' })

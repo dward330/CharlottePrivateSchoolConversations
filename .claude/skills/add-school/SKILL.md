@@ -273,7 +273,9 @@ numbers.** The area denominator moved from 8 to 9 when Admissions shipped, and i
 again; the script reads the live data, this paragraph does not. The Compare-row total
 moves the same way (30 → 36 on 2026-10-05). The five Global Exposure Compare rows
 (2026-10-26) are excluded from the floor by `FLOOR_EXCLUDED_TOPICS` in
-`coverage_floor.mjs`. A candidate is never gated on Global Exposure research.
+`coverage_floor.mjs`. A candidate is never gated on Global Exposure research. The two Wells
+Fargo Cup Compare rows (2026-11-01) are excluded by `FLOOR_EXCLUDED_KEYS`, because only
+schools in these NC associations can hold them.
 
 **The six Top 6 NC admit-rate rows exist only for NC high schools.** They come from the UNC
 System dashboard, which covers NC schools alone, so an out-of-state candidate (Fort Mill,
