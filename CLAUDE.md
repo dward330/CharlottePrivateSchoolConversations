@@ -212,10 +212,11 @@ not publishable, the same discipline `/add-school` applies to area percentages. 
 figure is a **joint property of school × university**, not either one's admit rate; label
 it accordingly.
 
-**This data has a home in the app: `ncAdmissions`, the FIRST card of College
-Support** — *Admission Rates at the Top NC Public Universities* — added 2026-08-19. It leads
-the area precisely because its figures are government-published rather than
-school-published. The card shows, per school, applied / accepted / admit rate at each of
+**This data has a home in the app: `ncAdmissions`, the SECOND card of College
+Support** — *Admission Rates at the Top NC Public Universities* — added 2026-08-19.
+It led the area until 2026-11-01, when the user moved *Where Graduates Go* to first.
+It is still the area's one government-published card rather than a school-published
+one. The card shows, per school, applied / accepted / admit rate at each of
 the Top 6 for the most recent class, plus a **pooled** five-year rate
 (`sum(admitted)/sum(applied)`, never the mean of five annual rates). A school with no
 dashboard data omits the card rather than shipping an empty shell, and the card is never

@@ -295,7 +295,7 @@ const PROFILE =
 const COUNSELING = 'https://www.davidsonday.org/academics/college-counseling'
 
 export const davidsonDay: CollegeSupportProgram = {
-  /* The area's FIRST card. Unlike every other card here, these figures are
+  /* The area's SECOND card, after Where Graduates Go. Unlike every other card here, these figures are
      GOVERNMENT-published — the UNC System's Insight dashboard, pulled via the
      nc-admissions-data skill — rather than the school’s own marketing number.
      Full per-term counts, the exact filter values and the provenance header are in

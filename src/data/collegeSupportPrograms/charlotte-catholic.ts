@@ -228,7 +228,7 @@ const colleges = [
   { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'] },]
 
 export const charlotteCatholic: CollegeSupportProgram = {
-  /* The area's FIRST card. Unlike every other card here, these figures are
+  /* The area's SECOND card, after Where Graduates Go. Unlike every other card here, these figures are
      GOVERNMENT-published — the UNC System's Insight dashboard, pulled via the
      nc-admissions-data skill — rather than the school’s own marketing number.
      Full per-term counts, the exact filter values and the provenance header are in

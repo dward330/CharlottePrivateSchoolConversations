@@ -214,12 +214,12 @@ function UniName({ name }: { name: string }) {
 }
 
 /**
- * The area's FIRST card: how this school's own applicants fared at the six
- * top-ranked NC public universities.
+ * The area's SECOND card, after Where Graduates Go: how this school's own
+ * applicants fared at the six top-ranked NC public universities.
  *
  * The figures are government-published (the UNC system's Insight dashboard, via
- * the `nc-admissions-data` skill) rather than school-published, which is the
- * whole reason the card leads the area.
+ * the `nc-admissions-data` skill) rather than school-published, unlike every
+ * other card in the area.
  *
  * No <h3> and no blueprint corners here: SchoolDetail's <summary> already draws
  * the card title and teaser, and the <details> shell already draws the four

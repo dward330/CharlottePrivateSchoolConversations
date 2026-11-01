@@ -486,16 +486,16 @@ Root type `CollegeSupportProgram` · registry `COLLEGE_SUPPORT_CARDS` · `src/da
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
+| `outcomes` | Where Graduates Go | Does this actually get kids into top schools? |
 | `ncAdmissions` | Admission Rates at the Top NC Public Universities | If we're aiming in-state, what are our odds from here? |
 | `transcript` | The Transcript Colleges See | How strong is the record my kid graduates with? |
 | `counseling` | The Counseling Engine | Who helps my kid — how much, with what, and when? |
-| `outcomes` | Where Graduates Go | Does this actually get kids into top schools? |
 | `edge` | The Applicant's Edge | How does my kid stand out — and does the name help? |
 | `wholeClass` | Whole Class Analytics | What if my kid isn't at the top — or learns differently? |
 | `verdict` | Verdict & Visit Checklist | What should I probe on the tour? |
 
-**`ncAdmissions` is the area's FIRST card, and its figures are
-government-published rather than school-published** — which is why it leads. It is
+**`ncAdmissions` is the area's SECOND card, after `outcomes`, and its figures are
+government-published rather than school-published.** It is
 populated by the [`nc-admissions-data`](../skills/nc-admissions-data/SKILL.md) skill
 from the UNC system's Insight Tableau dashboard, which carries Applied / Admitted /
 Enrolled per NC high school × per UNC campus. **Check it before concluding a school's
