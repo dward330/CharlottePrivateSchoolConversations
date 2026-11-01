@@ -18,9 +18,10 @@ cd workers/news-proxy
 npx wrangler deploy
 ```
 
-`wrangler deploy` prints the URL. Put it in `PROXY` in
-`src/lib/news/fetchNews.ts` — **that one constant is the only app change**, since
-all parsing is isolated behind `fetchNews()`.
+The relay lives at `https://news.charlotteschoolinsights.com`, set in `routes` in
+`wrangler.toml`. `PROXY` in `src/lib/news/fetchNews.ts` points there — **that one
+constant is the only app change**, since all parsing is isolated behind
+`fetchNews()`. The `workers.dev` address still answers, without caching.
 
 ## Cost
 
@@ -30,11 +31,20 @@ app's 30-minute `sessionStorage` cache makes a repeat visit free — roughly
 **9,000 visitors/day** before the cap. Over-cap requests on the free plan are
 **rejected, never billed**; overage requires an explicit upgrade.
 
-Edge caching means visitors within 3 hours of the last fetch are served by
-Cloudflare without touching the school's site at all. Only 2xx responses are
-stored, so an upstream failure is never cached. A new post can therefore take up
-to 3 hours to appear. The cache is per Cloudflare data center, so a visitor
-elsewhere can still get a cold load.
+The Worker stores each page in the Cache API for 3 hours, so a visitor within
+that window is served without touching the school's site at all. Only 2xx
+responses are stored, so an upstream failure is never cached. A new post can
+therefore take up to 3 hours to appear. Stored pages are per Cloudflare data
+center and can be evicted early, so a visitor can still get a cold load. Every
+response carries `X-News-Cache: HIT` or `MISS`.
+
+**The TTL has to be enforced here, not on the fetch.** Finalsite sites sit behind
+Cloudflare and send `s-maxage=300`, and a site controls its own caching, so
+`cf.cacheTtl` is capped at five minutes. **The Cache API does nothing on
+`workers.dev`**, which is why the relay has a custom domain.
+
+To test a TTL, re-fetch past the limit you are testing. A fast answer after a few
+seconds proves nothing about hours.
 
 ## This is NOT an open proxy
 
@@ -52,7 +62,7 @@ A school registered in `src/lib/news/sources.ts` but missing here will fail with
 
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' \
-  "https://news-proxy.<subdomain>.workers.dev/?url=https%3A%2F%2Fwww.providenceday.org%2Fabout%2Fpd-communications%2Fnews-media"
+  "https://news.charlotteschoolinsights.com/?url=https%3A%2F%2Fwww.providenceday.org%2Fabout%2Fpd-communications%2Fnews-media"
 ```
 
 Expect `200`. Unlike `corsproxy.io`, this relay does **not** gate on User-Agent,

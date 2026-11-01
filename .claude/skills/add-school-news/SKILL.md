@@ -416,7 +416,7 @@ does not have.
 ### Why it exists
 
 The relay is **our own Cloudflare Worker** (`workers/news-proxy/`, live at
-`https://news-proxy.dward330.workers.dev`), not a public proxy. It allow-lists
+`https://news.charlotteschoolinsights.com`), not a public proxy. It allow-lists
 **which hosts it will fetch** — without that it would be an open proxy anyone
 could point at any URL, on this account's quota and reputation.
 
@@ -456,6 +456,9 @@ cd workers/news-proxy
 CLOUDFLARE_API_TOKEN=<token> npx wrangler deploy
 ```
 
+**A redeploy that changes `routes` also needs** Zone → Workers Routes → Edit, DNS → Edit
+and Zone → Read on `charlotteschoolinsights.com`. Adding a host needs only the permission above.
+
 **Tell the user to roll or delete the token afterwards.** A token pasted into a
 conversation lives in that transcript, which is append-only — rotating the
 credential is the fix, not deleting text. The Worker keeps running once deployed;
@@ -465,7 +468,7 @@ the token is only needed to push.
 
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' \
-  "https://news-proxy.dward330.workers.dev/?url=<url-encoded board URL>"
+  "https://news.charlotteschoolinsights.com/?url=<url-encoded board URL>"
 ```
 
 `200` = allow-listed. `403` = the host is not in `ALLOWED_HOSTS`, or the deploy
@@ -505,7 +508,7 @@ data read 100% has been render-layer:
 2. Loading → reveal, status lines advancing on **real** parse phases (not a timer).
 3. Headlines, dates and photos match the school's live board.
 4. Rows without a photo omit the thumbnail and keep the arrow — no empty box.
-5. **Block `news-proxy.dward330.workers.dev` in devtools / go offline** → error state with
+5. **Block `news.charlotteschoolinsights.com` in devtools / go offline** → error state with
    a working link, no infinite spinner.
 6. **Confirm the requests actually hit the Worker** — in the Network tab, filter on
    `news-proxy` and expect `1 board + N previews`, all `200`. **A `403` here means step 5b

@@ -15,7 +15,8 @@ import {
  *  servers; no parser change affects it. The app is on GitHub Pages with no
  *  backend, so a relay is the only runtime path.
  *
- *  This is OUR OWN Cloudflare Worker (workers/news-proxy/), deployed 2026-08-28.
+ *  This is OUR OWN Cloudflare Worker (workers/news-proxy/), deployed 2026-08-28,
+ *  on its own subdomain since 2026-11-01 so that it can store pages.
  *  It replaced the public relay corsproxy.io, which gates on USER-AGENT — measured
  *  deterministically 6/6 on 2026-08-27, non-browser clients get HTTP 403
  *  "Server-side requests are not allowed on your plan" — and which can change its
@@ -28,7 +29,7 @@ import {
  *
  *  The error state below is still a required deliverable: any relay can fail.
  */
-export const PROXY = 'https://news-proxy.dward330.workers.dev/?url='
+export const PROXY = 'https://news.charlotteschoolinsights.com/?url='
 
 const TIMEOUT_MS = 12_000
 const CACHE_TTL_MS = 30 * 60 * 1000
