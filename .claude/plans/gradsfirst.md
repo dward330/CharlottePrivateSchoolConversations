@@ -1,11 +1,11 @@
 ---
 name: gradsfirst
 title: Make Where Graduates Go the first card of College Support on every school page
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-01
 branch: feat/gradsfirst
-prs: []
+prs: [394]
 ---
 
 # Make Where Graduates Go the first card of College Support
