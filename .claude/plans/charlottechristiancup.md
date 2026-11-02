@@ -1,11 +1,11 @@
 ---
 name: charlottechristiancup
 title: Turn on the Wells Fargo Cup card for Charlotte Christian, and correct two facts in its Winning Record card
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-01
 branch: feat/charlottechristiancup
-prs: []
+prs: [398]
 ---
 
 # Charlotte Christian Wells Fargo Cup card
@@ -178,3 +178,12 @@ Scope is the overlay layer only: two strings in each of the nine locales in `PRO
 
 - **Should wrestling be listed despite the bar?** 2026 is its only runner-up year, yet it likely accounts for all of that season's 45 winter points. — **default:** left off, matching the other four schools. If the user wants it at the Phase 1 review, add `{ sport: 'wrestling', gender: 'boys', season: 'winter', titleYears: [], runnerUpYears: [2026] }` and the HighSchoolOT citation; no translation is affected.
 - **What should the state-title total say?** The school's sentence says 42, the app says 43, and the school's listed years total 46 (baseball 18, football 9, basketball 7, track 4, softball 3, cross country 3, dance 2). — **default:** no change in this PR. A correction is a separate decision, because the school is the named authority and is inconsistent with itself.
+
+## Implementation notes
+
+Built as planned, with no change to any step. Both open questions took their defaults: wrestling stays off the point sources, and the state-title total is unchanged.
+
+- Phase 2 ran in the same window as Phase 1, on the user's approval of the English.
+- `check_work_integrity.mjs` reports 36 violations, all on the two edited units (4 per locale). The plan expected this, since the script freezes existing units.
+- `check:money` flags two `SportsProgram.tsx` render sites, `{seasonsTotal}` and `{latestMargin.value}`. This PR does not touch that file, and the check is not in the build.
+- `audit:mobile` ran on the Phase 1 build. Phase 2 only swapped two note strings.
