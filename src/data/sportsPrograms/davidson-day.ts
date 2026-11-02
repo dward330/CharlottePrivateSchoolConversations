@@ -2,12 +2,14 @@
 //
 // Every figure is traceable to
 // source-material/sports/davidson-day/Davidson Day - Sports - Redesign Research 2026.md.
+// The Cup card and the Winning Record corrections rest on Davidson Day - Sports -
+// Wells Fargo Cup Standings 2020-2026.md in the same folder.
 //
-// FIVE of seven cards render — the fewest in the set, and deliberately so.
+// SIX of eight cards render — the fewest in the set, and deliberately so.
 // Davidson Day is a ~550-student school and two areas are genuinely empty
 // rather than under-researched:
 //
-//   1f Facilities & Athlete Care — OMITTED. Two venue names exist (Yates Gym,
+//   1g Facilities & Athlete Care — OMITTED. Two venue names exist (Yates Gym,
 //      Wolter Field) with one descriptive sentence between them: no square
 //      footage, capacity, or construction dates anywhere. Athlete care has
 //      exactly one verifiable data point (a single athletic trainer) with no
@@ -17,11 +19,11 @@
 //      which accounts for much of this. A card here would be three near-empty
 //      rows implying research failure where the truth is an absent public record.
 //
-//   1g National Stage & NIL — OMITTED. Davidson Day has never appeared in a
+//   1h National Stage & NIL — OMITTED. Davidson Day has never appeared in a
 //      national top 25 in any sport (verified against the final 2025-26
 //      High School On SI rankings), and there are zero named NIL deals despite
 //      the program having a top-100 recruit and two ACC signees. The genuine
-//      national result — beating Oak Hill Academy 86-79 — is carried on 1b.
+//      national result — beating Oak Hill Academy 86-79 — is carried on 1c.
 //
 // NOTE for future editors: Cam Reddish did NOT attend Davidson Day (he went to
 // Haverford and Westtown in Pennsylvania). The school's NBA alum is C.J. Huntley.
@@ -32,6 +34,10 @@ const ATHLETICS = 'https://www.davidsonday.org/athletics'
 const HISTORY = 'https://www.davidsonday.org/athletics/history-and-achievements'
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
+const SWIM = 'https://admin.ncisaa.org/uploads/SWIMMING/'
+const XC = 'http://results.tfmeetpro.com/Mitchell_Timing/'
 
 export const davidsonDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -93,22 +99,74 @@ export const davidsonDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'volleyball', gender: 'girls', season: 'fall', titleYears: [2023, 2024], runnerUpYears: [2021, 2022, 2025] },
+      { sport: 'tennis', gender: 'boys', season: 'spring', titleYears: [2023, 2024, 2025, 2026] },
+      { sport: 'soccer', gender: 'girls', season: 'spring', titleYears: [2023, 2024, 2025], runnerUpYears: [2022] },
+      { sport: 'crossCountry', gender: 'boys', season: 'fall', titleYears: [2020, 2021, 2023] },
+      { sport: 'soccer', gender: 'boys', season: 'fall', titleYears: [2023, 2024] },
+      { sport: 'lacrosse', gender: 'girls', season: 'spring', titleYears: [2022], runnerUpYears: [2026] },
+      { sport: 'swimming', gender: 'boys', season: 'winter', titleYears: [], runnerUpYears: [2022, 2024] },
+      { sport: 'crossCountry', gender: 'girls', season: 'fall', titleYears: [2023] },
+      { sport: 'basketball', gender: 'boys', season: 'winter', titleYears: [2024] },
+      { sport: 'basketball', gender: 'girls', season: 'winter', titleYears: [2021] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA volleyball bracket, 2021–22', url: `${ARCHIVE}12&years=2021-2022` },
+      { label: 'NCISAA volleyball bracket, 2022–23', url: `${ARCHIVE}12&years=2022-2023` },
+      { label: 'NCISAA volleyball bracket, 2023–24', url: `${ARCHIVE}12&years=2023-2024` },
+      { label: 'NCISAA volleyball bracket, 2024–25', url: `${ARCHIVE}12&years=2024-2025` },
+      { label: 'NCISAA volleyball bracket, 2025–26', url: `${ARCHIVE}12&years=2025-2026` },
+      { label: 'NCISAA boys tennis bracket, 2022–23', url: `${ARCHIVE}16&years=2022-2023` },
+      { label: 'NCISAA boys tennis bracket, 2023–24', url: `${ARCHIVE}16&years=2023-2024` },
+      { label: 'NCISAA boys tennis bracket, 2024–25', url: `${ARCHIVE}16&years=2024-2025` },
+      { label: 'NCISAA boys tennis bracket, 2025–26', url: `${ARCHIVE}16&years=2025-2026` },
+      { label: 'NCISAA girls soccer bracket, 2021–22', url: `${ARCHIVE}17&years=2021-2022` },
+      { label: 'NCISAA girls soccer bracket, 2022–23', url: `${ARCHIVE}17&years=2022-2023` },
+      { label: 'NCISAA girls soccer bracket, 2023–24', url: `${ARCHIVE}17&years=2023-2024` },
+      { label: 'NCISAA girls soccer bracket, 2024–25', url: `${ARCHIVE}17&years=2024-2025` },
+      { label: 'NCISAA boys soccer bracket, 2023–24', url: `${ARCHIVE}8&years=2023-2024` },
+      { label: 'NCISAA boys soccer bracket, 2024–25', url: `${ARCHIVE}8&years=2024-2025` },
+      { label: 'NCISAA girls lacrosse bracket, 2021–22', url: `${ARCHIVE}19&years=2021-2022` },
+      { label: 'NCISAA girls lacrosse bracket, 2025–26', url: `${ARCHIVE}19&years=2025-2026` },
+      { label: 'NCISAA boys basketball bracket, 2023–24', url: `${ARCHIVE}13&years=2023-2024` },
+      { label: 'NCISAA girls basketball bracket, 2020–21', url: `${ARCHIVE}23&years=2020-2021` },
+      { label: 'NCISAA cross country results, 2020', url: `${XC}NCISAA_XC_Championships_2020/` },
+      { label: 'NCISAA cross country results, 2021', url: `${XC}NCISAA_XC_Championships_2021/` },
+      { label: 'NCISAA cross country results, 2023', url: `${XC}NCISAA_Cross_Country_Championships_2023/` },
+      { label: 'NCISAA swimming team scores, 2022', url: `${SWIM}Div%203%20Final_Team_Ind.pdf` },
+      { label: 'NCISAA swimming results, 2024', url: `${SWIM}2024/2024%20NCISAA%20D3%20results.pdf` },
+      { label: 'davidsonday.org — History & Achievements', url: HISTORY },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Seven state championships in 2023–24 — the most of any 2A school that year — then four, then one. This is a program in visible decline.',
     subhead:
-      'Boys tennis is the only title survivor of 2025–26; three separate three-peats ended in the same year.',
+      "Boys tennis is the only title survivor of 2025–26, its fourth straight; girls soccer's three-peat ended the same year.",
     seasonLabels: ["'23–24", "'24–25", "'25–26"],
     rows: [
       {
         program: 'Boys Tennis',
         cells: [
-          { result: 'STATE' },
-          { result: 'STATE', record: '5–1 final' },
+          { result: 'STATE', record: '5–0 final' },
+          { result: 'STATE', record: '5–2 final' },
           { result: 'STATE', record: '5–0 final' },
         ],
-        note: 'Three straight; blanked Cape Fear Academy in 2026',
+        note: 'Four straight, 2023–2026; blanked Cape Fear Academy in 2026',
       },
       {
         program: 'Volleyball',
@@ -117,7 +175,7 @@ export const davidsonDay: SportsProgram = {
           { result: 'STATE', record: '24–4' },
           { result: 'RUNNER-UP', record: '18–11' },
         ],
-        note: 'Lost the 2026 final 1–3 to Wake Christian',
+        note: 'Lost the 2025 final 1–3 to Wake Christian',
       },
       {
         program: 'Girls Soccer',
@@ -135,7 +193,7 @@ export const davidsonDay: SportsProgram = {
           { result: 'STATE', record: '17–4' },
           { result: 'NONE' },
         ],
-        note: 'Three-peat broken; lost the quarterfinal 2–3',
+        note: 'Two straight titles; lost the 2025 quarterfinal 2–3',
       },
       {
         program: 'Boys Basketball',
@@ -153,7 +211,7 @@ export const davidsonDay: SportsProgram = {
           { result: 'NONE' },
           { result: 'NONE' },
         ],
-        note: 'Both squads won in 2023–24; GRACE Christian took both in 2026',
+        note: 'Both squads won in 2023–24; GRACE Christian took both in 2025',
       },
       {
         program: 'Girls Basketball',
@@ -188,7 +246,7 @@ export const davidsonDay: SportsProgram = {
       },
       {
         program: '2025–26',
-        text: 'The decline. Three-peats ended in girls soccer and boys soccer, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.',
+        text: "The decline. Girls soccer's three-peat and boys soccer's two-year title run both ended, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.",
       },
     ],
     sources: [
@@ -202,10 +260,14 @@ export const davidsonDay: SportsProgram = {
         url: 'https://www.maxpreps.com/news/DENPuVfqpEmRw2iffpG6ew/basketball-recap-oak-hill-academys-undefeated-season-over-after-six-games.htm',
       },
       { label: 'davidsonday.org — History & Achievements', url: HISTORY },
+      { label: 'NCISAA boys tennis bracket, 2024–25', url: `${ARCHIVE}16&years=2024-2025` },
+      { label: 'NCISAA boys soccer bracket, 2022–23', url: `${ARCHIVE}8&years=2022-2023` },
+      { label: 'NCISAA boys soccer bracket, 2025–26', url: `${ARCHIVE}8&years=2025-2026` },
+      { label: 'NCISAA volleyball bracket, 2025–26', url: `${ARCHIVE}12&years=2025-2026` },
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       'Ten documented commitments across 2024–26, nine of them Division I and three Power 4 — a remarkably high conversion rate for a 550-student school.',
@@ -277,7 +339,7 @@ export const davidsonDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'An NBA two-way signing, a Heisman finalist quarterback, a WNBA draft pick and a NASCAR Cup Series driver.',
@@ -360,7 +422,7 @@ export const davidsonDay: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'A 319-win, two-time state champion took over boys basketball in 2025 — and won 23 games plus a victory over Oak Hill in year one.',

@@ -299,7 +299,7 @@ A Charlotte-area private middle-school list does not exist at the parallel URL
 Edition check: every profile above shows the "2026-2027 Rankings" heading and "out of
 17,945 nationally ranked schools"; data years 2022-2023 through 2024-2025.
 
-## Added for the Wells Fargo Cup table (2026-11-02) (9)
+## Added for the Wells Fargo Cup table (2026-11-02) (52)
 
 These schools are not on a placement list. They are in the master because the Cup table links every off-roster name in NCISAA 4A to its homepage, alongside Christ School, Rabun Gap Nacoochee School and St. Mary's School above. Each URL was fetched with a browser user agent, answered HTTP 200, and its page names the school.
 
@@ -316,3 +316,51 @@ Wake Christian and Wesleyan Christian do not use the domains older directories l
 | Ravenscroft School | Raleigh | NC | day | https://www.ravenscroft.org | Ravenscroft PreK-12 Independent School in Raleigh \| Ravenscroft School |
 | Wake Christian Academy | Raleigh | NC | day | https://wakechristianacademy.com | Private Christian School Raleigh NC \| Wake Christian Academy |
 | Wesleyan Christian Academy | High Point | NC | day | https://www.wcatrojans.org | Christian School in High Point \| Wesleyan Christian Academy |
+
+The 43 schools below came with Davidson Day’s table, which brought in the rest of NCISAA 2A and 3A. Each page was loaded and shows the school’s name and location. **An HTTP 200 proved nothing here:** `oneal.org`, `burlingtonschool.org`, `cfschool.org` and `hpca.com` are parked domains that redirect by script to a sale page, and `calvarydayschool.com`, `theepiphanyschool.org`, `villagechristian.org` and `tcsnc.org` belong to someone else. Neuse Christian Academy is in Raleigh, not New Bern. Salem Christian School is the current name of the school NCISAA still prints as Salem Baptist. The two Thales rows link to the campus directory page, because the network has no campus homepage.
+
+| School | City | State | kind | URL | Page title |
+|---|---|---|---|---|---|
+| The O’Neal School | Southern Pines | NC | day | https://www.onealschool.org | The O’Neal School \| Private College Prep School \| NC |
+| Wayne Country Day School | Goldsboro | NC | day | https://www.waynecountryday.com | Wayne Country Day School |
+| Trinity Academy of Raleigh | Raleigh | NC | day | https://trinityacademy.com | Trinity Academy (the page gives Baileywick Road, Raleigh) |
+| Rocky Mount Academy | Rocky Mount | NC | day | https://www.rmacademy.com | Academy in Rocky Mount, NC \| Rocky Mount Academy |
+| Caldwell Academy | Greensboro | NC | day | https://www.caldwellacademy.org | Caldwell Academy \| Classical Christian School in Greensboro |
+| Trinity School of Durham and Chapel Hill | Durham | NC | day | https://www.trinityschoolnc.org | Home \| Trinity School of Durham and Chapel Hill |
+| The Burlington School | Burlington | NC | day | https://www.theburlingtonschool.org | The Burlington School (the page gives 1615 Greenwood Terrace, Burlington, NC) |
+| Westchester Country Day School | High Point | NC | day | https://www.westchestercds.org | Westchester Country Day School \| Private School in High Point |
+| Burlington Christian Academy | Burlington | NC | day | https://www.bcaroyals.com | Burlington Christian Academy \| PreK - 12th |
+| University Christian High School | Hickory | NC | day | https://www.uchigh.com | Home - University Christian High School |
+| Harrells Christian Academy | Harrells | NC | day | https://www.harrellsca.com | Harrells Christian Academy - Harrells, NC |
+| St. Thomas More Academy | Raleigh | NC | day | https://stmacademy.org | St. Thomas More Academy (the page gives Spring Forest Rd, Raleigh) |
+| Fayetteville Academy | Fayetteville | NC | day | https://www.fayacademy.org | Home - Fayetteville Academy |
+| Thales Academy Rolesville | Rolesville | NC | day | https://www.thalesacademy.org/contact/rolesville-jh-hs | Thales Academy - Rolesville Faculty Directory |
+| Thales Academy Apex | Apex | NC | day | https://www.thalesacademy.org/contact/apex-4-12 | Thales Academy - Apex 4–12 Faculty Directory |
+| Trinity Christian School (Fayetteville) | Fayetteville | NC | day | https://www.trinitycommunityservices.org | Trinity Community Services (the page links Trinity Christian School, 3727 Rosehill Road, Fayetteville) |
+| John Paul II Catholic High School | Greenville | NC | day | https://www.jp2chs.com | Home - John Paul II Catholic High School - Greenville, NC |
+| Westminster Catawba Christian School | Rock Hill | SC | independent | https://wccs.org | WCCS (the page gives 2650 India Hook Road, Rock Hill, SC) |
+| Northwood Temple Academy | Fayetteville | NC | day | https://www.ntaeagles.com | Northwood Temple Academy |
+| Friendship Christian School | Raleigh | NC | day | https://www.friendshipchristian.net | Friendship Christian School \| Private PreK-12 Christian School |
+| Freedom Christian Academy | Fayetteville | NC | day | https://www.fcapatriots.org | Freedom Christian Academy - Fayetteville, NC |
+| Hickory Christian Academy | Hickory | NC | day | https://hickorychristianacademy.com | Hickory Christian Academy – Authentic Classical Christian Education |
+| Wayne Christian School | Goldsboro | NC | day | https://waynechristian.org | Wayne Christian School |
+| Faith Christian School | Rocky Mount | NC | day | https://www.fcspatriots.com | Home \| Faith Christian School |
+| Village Christian Academy | Fayetteville | NC | day | https://www.vcanc.com | K12 Private schools \| The Village Christian Academy |
+| The Epiphany School of Global Studies | New Bern | NC | day | https://www.epiphanyglobalschool.org | Home \| Epiphany School of Global Studies |
+| Carolina Friends School | Durham | NC | day | https://www.cfsnc.org | Private PreK-12 Private School in Durham & Chapel Hill \| CFS |
+| Salem Baptist Christian School | Winston-Salem | NC | day | https://www.salemdefenders.org | Home \| Salem Christian School |
+| Statesville Christian School | Statesville | NC | day | https://www.statesvillechristian.org | Statesville Christian School - Statesville, NC |
+| Neuse Christian Academy | Raleigh | NC | day | https://www.neusechristian.com | Neuse Christian Academy (the page gives 7600 Falls of Neuse Road, Raleigh) |
+| Grace Christian School (Sanford) | Sanford | NC | day | https://www.gracechristiansanford.com | Grace Christian School (the page gives 2601 Jefferson Davis Highway, Sanford) |
+| Grace Christian School (Raleigh) | Raleigh | NC | day | https://www.gracechristian.net | GRACE Christian School \| Raleigh, NC |
+| Greenfield School | Wilson | NC | day | https://www.greenfieldschool.org | Greenfield School |
+| Fayetteville Christian School | Fayetteville | NC | day | https://www.fayettevillechristian.com | HOME \| fcs-warriors |
+| Cary Christian School | Cary | NC | day | https://carychristianschool.org | Cary Christian School \| K-12 Classical Christian Education |
+| Calvary Day School | Winston-Salem | NC | day | https://www.calvaryday.school | Calvary Day School \| Winston-Salem Private Christian School |
+| Asheville Christian Academy | Swannanoa | NC | day | https://www.ashevillechristian.org | Asheville Christian Academy |
+| Gaston Christian School | Gastonia | NC | independent | https://gastonchristian.org | Private Christian School For Preschool-High School \| Gastonia |
+| St. David’s School | Raleigh | NC | day | https://www.stdavidsraleigh.org | Private Christian School \| Raleigh \| St. David’s School |
+| Coastal Christian High School | Wilmington | NC | day | https://coastalchristian.net | Coastal Christian High School |
+| High Point Christian Academy | High Point | NC | day | https://www.hpcacougars.org | Homepage \| High Point Christian Academy |
+| Arendell Parrott Academy | Kinston | NC | day | https://www.parrottacademy.org | Home - Arendell Parrott Academy |
+| Concord Academy | Concord | NC | independent | https://concord.academy | Concord Academy (the page gives 154 Warren C. Coleman Blvd., Concord, NC) |

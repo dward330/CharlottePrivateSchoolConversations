@@ -45,7 +45,7 @@ const {
   CUP_SPORTS,
 } = await import('../src/data/wellsFargoCup.ts')
 const cup = await import('../src/lib/wellsFargoCup.ts')
-const { highSchoolUrl } = await import('../src/data/highSchools.ts')
+const { highSchoolFor, highSchoolUrl } = await import('../src/data/highSchools.ts')
 const { VALUE_METRICS } = await import('../src/data/metricValues.ts')
 
 const fails = []
@@ -163,6 +163,10 @@ eq('Covenant Day lead over next', cup.leadOverNext('covenant-day'), [17.5, 2.5, 
 eq('Covenant Day best finish', [cup.headlineStats('covenant-day').bestFinish.place, cup.headlineStats('covenant-day').bestFinish.season], [8, '2022–23'])
 eq('Carmel Christian lead over next', cup.leadOverNext('carmel-christian'), [32.5, 85, 35, 32.5, 47.5, 137.5])
 eq('Carmel Christian best finish', [cup.headlineStats('carmel-christian').bestFinish.place, cup.headlineStats('carmel-christian').bestFinish.season], [14, '2022–23'])
+eq('Davidson Day lead over next', cup.leadOverNext('davidson-day'), [0, 42.5, 17.5, 125, 20, 2.5])
+eq('Davidson Day table', cup.divisionRows('davidson-day').length, 53)
+eq('Davidson Day classes', cup.classLabel('davidson-day'), '2A / 3A')
+eq('Davidson Day last win', cup.headlineStats('davidson-day').lastWin?.classification, '2A')
 eq('PD comeback', cup.isComeback('providence-day'), true)
 eq('PD table', cup.divisionRows('providence-day').length, 19)
 eq('PD table ends with the schools that left 4A', cup.divisionRows('providence-day').slice(-2), ['greensboro-day', 'wake-christian'])
@@ -284,6 +288,7 @@ for (const [slug, name] of [
   ['charlotte-christian', 'Cary Academy'],
   ['covenant-day', 'Ravenscroft'],
   ['carmel-christian', 'Covenant Day'],
+  ['davidson-day', 'Calvary Day'],
 ]) {
   eq(`${slug} bars rival`, cup.nearestRival(slug, '2025–26')?.name, name)
 }
@@ -311,7 +316,8 @@ for (const [slug, name] of [
   for (const slug of Object.keys(CUP_SHORT_NAMES)) {
     const name = CUP_HIGH_SCHOOLS[slug]
     if (roster.has(slug) && name) fail(`${slug}: on the roster, so it links to its page, not a homepage`)
-    if (!roster.has(slug) && !highSchoolUrl(name ?? '')) fail(`${slug}: off the roster with no homepage in highSchools.ts`)
+    const closed = highSchoolFor(name ?? '')?.status === 'closed'
+    if (!roster.has(slug) && !highSchoolUrl(name ?? '') && !closed) fail(`${slug}: off the roster with no homepage in highSchools.ts`)
   }
 }
 

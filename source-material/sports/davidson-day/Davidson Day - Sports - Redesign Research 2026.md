@@ -34,7 +34,7 @@
 
 | Program | 2023–24 (2A) | 2024–25 (3A) | 2025–26 (3A) |
 |---|---|---|---|
-| Boys Tennis | STATE | STATE (D2) | **STATE** (D2, 5–0 final) |
+| Boys Tennis | STATE (5–0 final) | STATE (D2, 5–2 final) | **STATE** (D2, 5–0 final) |
 | Volleyball | STATE 24–4–2 | STATE 24–4 | **RUNNER-UP** 18–11 |
 | Girls Soccer | STATE 18–3 | STATE 14–2 | none — 3–11, 1st-round exit |
 | Boys Soccer | STATE 17–3 | STATE 17–4 | none — quarterfinal |
@@ -49,7 +49,7 @@
 - https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - 2026 spring rundown (tennis): https://www.highschoolot.com/story/ncisaa-spring-championship-rundown/22363802/
 
-**The 2025–26 decline is the story:** three separate three-peats ended in one year. Girls
+**The 2025–26 decline is the story:** girls soccer's three-peat and boys soccer's two-year title run ended in one year. Girls
 soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor —
 soccer changed hands after 2024–25 (Laatsch → Letourneau).
 
@@ -60,7 +60,7 @@ https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/history/
 
 **All-time: 37 team state championships, 37 individual state championships.**
 https://www.davidsonday.org/athletics/history-and-achievements
-*(The school's own board is stale — it omits the 2026 boys tennis title, which would make 38.)*
+*(The school's own board is stale — it omits the 2026 boys tennis title, which would make 38. It also lists boys soccer 2022 and boys cross country 2022, which the NCISAA results do not support. See Davidson Day - Sports - Wells Fargo Cup Standings 2020-2026.md.)*
 
 ## 3. College Pipeline — 10 documented commits, 9 D1, 3 P4
 
