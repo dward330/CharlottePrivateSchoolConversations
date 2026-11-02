@@ -1,11 +1,11 @@
 ---
 name: davidsondaycup
 title: Turn on the Wells Fargo Cup card for Davidson Day, bring the rest of 2A and 3A into the ledger, and correct its Winning Record card against the NCISAA results
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/davidsondaycup
-prs: []
+prs: [408]
 ---
 
 # Davidson Day Wells Fargo Cup card
@@ -280,3 +280,5 @@ Phase 1 deviations:
 - **`gen_data_schema.mjs` line numbers had moved,** and both sentences went in at the matching rules.
 
 Four sites answer `ERR_HTTP2_PROTOCOL_ERROR` from this machine in curl and Chrome, including `wakechristianacademy.com`, which shipped earlier. `wccs.org`, `neusechristian.com` and `gracechristiansanford.com` were confirmed through WebFetch.
+
+Phase 2 ran in the same window after the user approved the English. Six units changed per locale, as planned. `check_figures.py --topic sports --lang es` exits 1 on an older Charlotte Country Day string (`facilities.careNote`, `$30.5M`, `$10M`) that this plan did not touch.
