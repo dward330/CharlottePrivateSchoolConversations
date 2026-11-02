@@ -300,6 +300,19 @@ function CupSchoolName({ row, selected }: { row: string; selected: boolean }) {
   )
 }
 
+/** Brings the selected row into the band between the sticky header and summary. */
+function centerSelectedRow(box: HTMLElement) {
+  const row = box.querySelector<HTMLElement>('.cup-school.is-selected')
+  if (!row) return
+  const header = box.querySelector<HTMLElement>('.sports-th')?.offsetHeight ?? 0
+  const summary = box.querySelector<HTMLElement>('.cup-summary-label')?.offsetHeight ?? 0
+  const top = row.getBoundingClientRect().top - box.getBoundingClientRect().top
+  const bottom = top + row.offsetHeight
+  const bandBottom = box.clientHeight - summary
+  if (top >= header && bottom <= bandBottom) return
+  box.scrollTop += (top + bottom) / 2 - (header + bandBottom) / 2
+}
+
 /** The six-year table, ending in the school's lead over the next place. */
 function CupTable({ slug }: { slug: string }) {
   const { t } = useTranslation()
@@ -310,8 +323,22 @@ function CupTable({ slug }: { slug: string }) {
     const o = t('sports.cup.place', { count: place, ordinal: true })
     return tied ? t('sports.cup.tied', { place: o }) : o
   }
+  const scrollRef = useRef<HTMLDivElement>(null)
+  // A closed card has no layout, so this waits for the first real size. Only
+  // this box scrolls, and a school already in view leaves it where it is.
+  useEffect(() => {
+    const box = scrollRef.current
+    if (!box) return
+    const observer = new ResizeObserver(() => {
+      if (box.clientHeight === 0) return
+      observer.disconnect()
+      centerSelectedRow(box)
+    })
+    observer.observe(box)
+    return () => observer.disconnect()
+  }, [slug])
   return (
-    <div className="sports-scroll cup-scroll">
+    <div ref={scrollRef} className="sports-scroll cup-scroll">
       <div className="cup-table">
         <div className="sports-th">{t('sports.cup.school')}</div>
         {seasons.map((season) => (
