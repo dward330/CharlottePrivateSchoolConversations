@@ -327,7 +327,7 @@ function CupTable({ slug }: { slug: string }) {
   )
 }
 
-/** Latest-year fall/winter/spring bars, selected school against its rival. */
+/** Latest-year fall/winter/spring bars, selected school against the place nearest it. */
 function CupRace({ slug, stats }: { slug: string; stats: CupHeadline }) {
   const { t } = useTranslation()
   const { latest } = stats

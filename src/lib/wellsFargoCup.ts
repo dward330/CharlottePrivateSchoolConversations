@@ -170,15 +170,49 @@ export function seasonRival(
   }
 }
 
-/** The rival for the fall/winter/spring bars; null hides them when splits are missing. */
+/**
+ * The school finishing right above the selected one in a season, passing over
+ * any school tied with it. Reads the leaders table too, because that school can
+ * be off-roster.
+ */
+function schoolAbove(own: CupRecord, ledger: CupLedger): CupRival | null {
+  const above = (r: CupRecord | CupDivisionLeader) =>
+    r.association === own.association &&
+    r.classification === own.classification &&
+    r.season === own.season &&
+    r.place < own.place
+  const records = ledger.records.filter(above)
+  const leaders = ledger.leaders.filter(above)
+  const place = Math.max(...[...records, ...leaders].map((r) => r.place))
+  const record = records.find((r) => r.place === place)
+  if (record) {
+    const { points, fall, winter, spring } = record
+    return { name: cupName(record.school), points, fall, winter, spring }
+  }
+  const l = leaders.find((r) => r.place === place)
+  if (!l) return null
+  return {
+    name: l.slug ? cupName(l.slug) : l.school,
+    points: l.points,
+    fall: l.fall,
+    winter: l.winter,
+    spring: l.spring,
+  }
+}
+
+/**
+ * The rival for the fall/winter/spring bars: the school right above the selected
+ * one, or 2nd place if it won. Null hides the bars when splits are missing.
+ */
 export function nearestRival(
   slug: string,
   season: string,
   ledger: CupLedger = CUP_LEDGER,
 ): CupRival | null {
   const own = recordOf(slug, season, ledger)
-  const rival = seasonRival(slug, season, ledger)
-  if (!own || !rival) return null
+  if (!own) return null
+  const rival = own.place === 1 ? seasonRival(slug, season, ledger) : schoolAbove(own, ledger)
+  if (!rival) return null
   const hasSplits = (s: { fall?: number; winter?: number; spring?: number }) =>
     CUP_TERMS.every((term) => s[term] != null)
   return hasSplits(own) && hasSplits(rival) ? rival : null

@@ -148,7 +148,7 @@ Scope is the overlay layer only: one string in each of the nine locales in `PROS
 - [ ] `npm run build` fails only at `check:live`, only on `covenant-day:record.rows[2].note`.
 - [ ] Browser check of `/school/covenant-day` with the Sports `<details>` open: the Cup card is second, after Sports Offered. Headline `Best finish: 8th in NCISAA 4A, 2022–23.`, also as the collapsed teaser. No subhead. Tiles `0 / 6`, `322.5` (2022–23), `−507.5` against Providence Day, `117.5` spring.
 - [ ] Table: 19 rows with Covenant Day selected, fifteenth in order; newest column first. It reads 15th, 10th, 10th, 8th, 11th, 14th. The summary row reads `Covenant Day lead over next-placed school` with 25, 50, 12.5, 17.5, 2.5, 17.5. Forsyth Country Day shows `In 3A` for its first four seasons, and Greensboro Day and Wake Christian for their last four.
-- [ ] Bars heading reads `2025–26 · how the race finished`: Covenant Day 67.5 / 0 / 117.5, Providence Day 222.5 / 200 / 270. No comeback line.
+- [ ] Bars heading reads `2025–26 · how the race finished`: Covenant Day 67.5 / 0 / 117.5, Ravenscroft 85 / 55 / 52.5. No comeback line. (Providence Day until the Phase 1 review; see Implementation notes.)
 - [ ] Two rows under the point-sources heading, softball then boys soccer; girls softball and boys soccer are outlined on the sports grid, with girls soccer not outlined.
 - [ ] Winning Record: the Field Hockey row shows three em dashes and the note says `state quarterfinal`. Softball and Boys Soccer are unchanged.
 - [ ] Compare is unchanged: `15th of 17` and `0`.
@@ -173,3 +173,10 @@ Scope is the overlay layer only: one string in each of the nine locales in `PROS
 ## Open questions
 
 - **Should field hockey 2022 and football 2022 be listed despite the bar?** Each has one runner-up year, and together they are 90 of the 205 fall points in 2022–23, the school's best Cup season. — **default:** left off, matching the other five schools. If the user wants them at the Phase 1 review, add `{ sport: 'fieldHockey', gender: 'girls', season: 'fall', titleYears: [], runnerUpYears: [2022] }` and `{ sport: 'football11', gender: 'boys', season: 'fall', titleYears: [], runnerUpYears: [2022] }`, with bracket citations `${ARCHIVE}9&years=2022-2023` and `${ARCHIVE}31&years=2022-2023`. No translation is affected.
+
+## Implementation notes
+
+- **Race bars changed at the Phase 1 review, for all six schools.** The user asked that "how the race finished" compare a school with the one that finished right above it, or with 2nd place if it won, rather than with the winner. `nearestRival` in `src/lib/wellsFargoCup.ts` now does this, passing over a tie and a skipped place, and reading the leaders table for an off-roster school. Charlotte Country Day now compares with Charlotte Latin, Cannon with Durham Academy, Charlotte Christian with Cary Academy, and Covenant Day with Ravenscroft. Providence Day and Charlotte Latin are unchanged, and so is the comeback line.
+- **The third tile still reads the winner.** `seasonRival` stays, because the request named only the race section, so `tileGap` still says `gap behind Providence Day`.
+- No string changed, so this adds no locale work.
+- Ingest changed only a date stamp on 11 other schools' sports notes, so those files were restored rather than committed.

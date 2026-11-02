@@ -265,6 +265,34 @@ if (!/pointsToken\(c\.result, number\)/.test(body) || !/estimated && \(/.test(bo
   fail('isEstimate has no render path: the card must print pointsToken and wire ToVerify')
 }
 
+// The bars compare each school with the place right above it, or 2nd if it won.
+for (const [slug, name] of [
+  ['providence-day', 'Charlotte Latin'],
+  ['charlotte-latin', 'Providence Day'],
+  ['charlotte-country-day', 'Charlotte Latin'],
+  ['cannon', 'Durham Academy'],
+  ['charlotte-christian', 'Cary Academy'],
+  ['covenant-day', 'Ravenscroft'],
+]) {
+  eq(`${slug} bars rival`, cup.nearestRival(slug, '2025–26')?.name, name)
+}
+{
+  const L = fx(
+    [
+      rec('w', 'C', 2, 500, { tied: true }),
+      rec('v', 'C', 2, 500, { tied: true }),
+      rec('y', 'C', 4, 300, { tied: true }),
+      rec('x', 'C', 4, 300, { tied: true }),
+      rec('z', 'C', 7, 100),
+    ],
+    [lead('Winner', 'C', 1, 600)],
+  )
+  eq('bars rival: a tie is passed over', cup.nearestRival('x', 'C', L)?.points, 500)
+  eq('bars rival: a skipped place is passed over', cup.nearestRival('z', 'C', L)?.points, 300)
+  eq('bars rival: off-roster school from leaders', cup.nearestRival('w', 'C', L)?.name, 'Winner')
+  eq('bars: the gap tile still reads the winner', cup.headlineStats('x', L).latestMargin?.value, -300)
+}
+
 // Hidden splits: the bars and the best-season tile go, the margin stays.
 {
   const none = { fall: undefined, winter: undefined, spring: undefined }
