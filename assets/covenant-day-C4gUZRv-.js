@@ -1,4 +1,4 @@
-var e=`covenant-day`,t=`sports`,n=20,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Covenant Day School - Sports - 247Sports Recruiting Rankings.md`,preview:`# Covenant Day School — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Covenant Day School — Sports — 247Sports Recruiting Rankings
+var e=`covenant-day`,t=`sports`,n=24,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Covenant Day School - Sports - 247Sports Recruiting Rankings.md`,preview:`# Covenant Day School — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Covenant Day School — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -109,7 +109,7 @@ Year; CDS's all-time leading field hockey goal scorer (18 goals led the state in
 - **2024-25: first-ever NCISAA 4A State Championship game appearance for Varsity
  Boys Soccer** (2024 Fall highlights).
 - **Field hockey: state runner-up 2022** (per Louisville's newcomer bio for CDS
- alumna Emily Eaton); 2025 season reached the NCISAA semifinals, taking Providence
+ alumna Emily Eaton); 2025 season reached the NCISAA quarterfinals, taking Providence
  Day to overtime.
 - **Volleyball: three consecutive NCISAA 3A state runner-up finishes** (per the
  /add-school assessment sweep of the school's athletics materials; head coach
@@ -600,6 +600,32 @@ Player of the Year, a state honor).
 
 Confirmed absence consistent with the program's shape; not a research gap.
 
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Covenant Day School - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Covenant Day School - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Covenant Day School - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Covenant Day`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 14 | 142.5 | 15 | 15 | 172.5 | Providence Day 670 | 497.5 | | 2021–22 | 11 | 132.5 | 22.5 | 60 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
+
+| Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
+|---|---|---|---|---|---|---|---|
+| 2020–21 | 14 | 142.5 | 15 | 15 | 172.5 | Providence Day 670 | 497.5 |
+| 2021–22 | 11 | 132.5 | 22.5 | 60 | 215 | Charlotte Country Day 682.5 | 467.5 |
+| 2022–23 | 8 | 205 | 0 | 117.5 | 322.5 | Providence Day 782.5 | 460 |
+| 2023–24 | 10 | 137.5 | 37.5 | 127.5 | 302.5 | Providence Day 757.5 | 455 |
+| 2024–25 | 10 | 145 | 22.5 | 127.5 | 295 | Providence Day 650 | 355 |
+| 2025–26 | 15 | 67.5 | 0 | 117.5 | 185 | Providence Day 692.5 | 507.5 |
+
+Covenant Day has not won the Cup in these six seasons and has not finished in the top three. Its best finish is 8th, in 2022–23, which is also its highest score, 322.5. Fall was its largest term in 2020–21, 2021–22, 2022–23, 2023–24 and 2024–25; spring was largest in 2025–26.`},{subtopic:`Wells Fargo Cup point sources for Covenant Day`,source_file:null,preview:`Every title or runner-up year here is confirmed by the NCISAA archive page for that sport and season. | Sport | Gender | Term | State titles | Runner-up | Evidence | |---|---|---|---|---|---| | Softball | Girls | Spring | 2026 | — | Bracket game lines: beat Cannon 7–5 and 9–5 in the championship series, May 15/16 | |…`,text:`Every title or runner-up year here is confirmed by the NCISAA archive page for that sport and season.
+
+| Sport | Gender | Term | State titles | Runner-up | Evidence |
+|---|---|---|---|---|---|
+| Softball | Girls | Spring | 2026 | — | Bracket game lines: beat Cannon 7–5 and 9–5 in the championship series, May 15/16 |
+| Soccer | Boys | Fall | — | 2024, 2025 | Brackets: lost 1–0 to Rabun Gap in 2024 and 2–1 to Christ School in 2025 |
+
+**The list rule:** a sport is listed with at least one title or at least two runner-up years, the same bar as the lists for Providence Day, Charlotte Latin, Charlotte Country Day, Cannon and Charlotte Christian.
+
+Confirmed but left off, one runner-up year each: field hockey 2022, lost 2–0 to Providence Day, and football 2022, lost 46–10 to Asheville School in Division II. Those two finishes are 90 of the 205 fall points in 2022–23, the school's best Cup season.
+
+Other team finishes read, none in the top two: girls cross country 4th, 8th, 5th and 4th in 2020, 2021, 2023 and 2024; boys cross country 3rd, 4th, 4th and 7th in the same years; best swimming finish 8th, in 2021.
+
+Team-sport deep runs that fell short of a final: baseball semifinal 2023; boys basketball semifinal 2024; field hockey semifinal 2021; volleyball semifinal 2022; girls soccer semifinals 2023, 2024 and 2025; softball semifinals 2022, 2024 and 2025.`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Within the six Cup seasons the brackets give Covenant Day one team state title: softball in 2025–26, which the school calls its first team state title since 2017. Boys soccer reached the final in both 2024 and 2025. A state title and a Wells Fargo Cup are different things: Covenant Day's title season, 2025–26, is also…`,text:`Within the six Cup seasons the brackets give Covenant Day one team state title: softball in 2025–26, which the school calls its first team state title since 2017. Boys soccer reached the final in both 2024 and 2025. A state title and a Wells Fargo Cup are different things: Covenant Day's title season, 2025–26, is also its lowest Cup finish of the six, 15th, because the Cup rewards breadth across every sport.
+
 ---`},{subtopic:`Win-Loss Records`,source_file:`Covenant Day School - Sports - Win-Loss Records.md`,preview:`# Covenant Day School — Sports — Win-Loss Records ### Sources - 2026 Spring Sports Highlights (2026-07-10): https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2026-spring-sports-highlights-1781042195259 - 2025 Fall Sports Highlights (2025-12-08):…`,text:`# Covenant Day School — Sports — Win-Loss Records
 
 ### Sources
@@ -625,7 +651,7 @@ Confirmed absence consistent with the program's shape; not a research gap.
 - Baseball: **12-14 overall, 5-5 conference**, #8 seed in the state tournament.
 - Girls soccer: beat Carmel Christian (PKs), Providence Day, and Charlotte
  Christian (double OT).
-- Field hockey: #6 seed; took Providence Day to overtime in the state semifinals.
+- Field hockey: #6 seed; took Providence Day to overtime in the state quarterfinals.
 - Girls tennis: won the **Ashe Cup** (vs. Charlotte Christian) for the first time
  in school history.
 
@@ -646,4 +672,4 @@ The school publishes narrative season highlights with seeds, streaks, and playof
 results rather than complete win-loss tables; full records live on MaxPreps
 (https://www.maxpreps.com/nc/matthews/covenant-day-lions/) season by season.
 
----`}],i={school_slug:e,topic_slug:t,section_count:20,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:24,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
