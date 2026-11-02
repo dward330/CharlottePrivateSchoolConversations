@@ -1,4 +1,4 @@
-var e=`charlotte-christian`,t=`sports`,n=38,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
+var e=`charlotte-christian`,t=`sports`,n=42,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -832,7 +832,9 @@ groundbreaking, and **two confirmed Gatorade POY winners**.`},{subtopic:`1. Spor
  https://www.charlottechristian.com/athletics/knights-accolades
 - Head of School **Barry Giller is president of the NCISAA Board of Directors**.
  https://www.charlottechristian.com/about/leadership
-- Full season/level catalog: https://www.charlottechristian.com/athletics/teams`},{subtopic:`2. Winning Record — 43 state titles in seven sports`,source_file:null,preview:`| Sport | Titles | Most recent | |---|---|---| | Baseball | 18 | 2026 | | Football | 9 | 2020 | | Basketball | 7 | B 2001 · G 2004 | | Track & Field | 4 | B 2025 | | Softball | 3 | 2025 | | Girls Cross Country | 3 | 1993 | | Dance | 2 | 2016 | Three-season matrix: baseball STATE 28–7 in 2026 · football RUNNER-UP 7–6…`,text:`| Sport | Titles | Most recent |
+- Full season/level catalog: https://www.charlottechristian.com/athletics/teams`},{subtopic:`2. Winning Record — 42 state titles in seven sports`,source_file:null,preview:`The school says "42 team state crowns in seven different sports". The years it lists beneath that sentence total 46, as the table below shows. | Sport | Titles | Most recent | |---|---|---| | Baseball | 18 | 2026 | | Football | 9 | 2020 | | Basketball | 7 | B 2001 · G 2004 | | Track & Field | 4 | B 2025 | | Softball |…`,text:`The school says "42 team state crowns in seven different sports". The years it lists beneath that sentence total 46, as the table below shows.
+
+| Sport | Titles | Most recent |
 |---|---|---|
 | Baseball | **18** | **2026** |
 | Football | 9 | 2020 |
@@ -844,8 +846,8 @@ groundbreaking, and **two confirmed Gatorade POY winners**.`},{subtopic:`1. Spor
 
 Three-season matrix: baseball **STATE 28–7** in 2026 · football **RUNNER-UP 7–6** in 2026
 (lost 6–42 to Providence Day), 8–4 and 7–4 in the prior two · softball **STATE 16–6** in
-2025, 9–9 in 2026 · boys track **STATE 121 pts** in 2025 · wrestling **RUNNER-UP 199.5 pts**
-in 2026, the best finish in program history · boys basketball 7–20 then 17–14.
+2025, 9–9 in 2026 · boys track **STATE 121 pts** in 2025 and **tied 2nd on 87** in 2026 ·
+wrestling **RUNNER-UP 199.5 pts** in 2026, the best finish in program history · boys basketball 7–20 then 17–14.
 
 - 2026 baseball: https://www.highschoolot.com/story/charlotte-christian-rallies-to-take-ncisaa-4a-baseball-championship-over-metrolina-christian/22358717/
 - 2025 football final: https://www.highschoolot.com/story/back-on-top-providence-day-reclaims-division-i-state-title-with-win-over-rival-charlotte-christian/22257301/
@@ -1144,6 +1146,34 @@ https://www.on3.com/high-school/charlotte-christian-charlotte-nc-13023/
 • MaxPreps — Charlotte Christian Knights — https://www.maxpreps.com/nc/charlotte/charlotte-christian-knights/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
 
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Charlotte Christian - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Charlotte Christian - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Charlotte Christian - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Charlotte Christian`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 9 | 70 | 75 | 192.5 | 337.5 | Providence Day 670 | 332.5 | | 2021–22 | 7 | 102.5 | 37.5 | 180 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
+
+| Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
+|---|---|---|---|---|---|---|---|
+| 2020–21 | 9 | 70 | 75 | 192.5 | 337.5 | Providence Day 670 | 332.5 |
+| 2021–22 | 7 | 102.5 | 37.5 | 180 | 320 | Charlotte Country Day 682.5 | 362.5 |
+| 2022–23 | 9 | 67.5 | 30 | 207.5 | 305 | Providence Day 782.5 | 477.5 |
+| 2023–24 | 5 | 97.5 | 50 | 215 | 362.5 | Providence Day 757.5 | 395 |
+| 2024–25 | 6 | 82.5 | 35 | 260 | 377.5 | Providence Day 650 | 272.5 |
+| 2025–26 | 8 | 67.5 | 45 | 235 | 347.5 | Providence Day 692.5 | 345 |
+
+Charlotte Christian has not won the Cup in these six seasons and has not finished in the top three. Its best finish is 5th, in 2023–24. Its highest score, 377.5, came a year later and placed 6th, so its best score and best finish are different seasons. Spring has been its largest term in all six seasons.`},{subtopic:`Wells Fargo Cup point sources for Charlotte Christian`,source_file:null,preview:`Every title or runner-up year here is confirmed by the source named beside it. "Bracket" means the NCISAA archive page for that sport and season. | Sport | Gender | Term | State titles | Runner-up | Evidence | |---|---|---|---|---|---| | Baseball | Boys | Spring | 2021, 2022, 2026 | — | Bracket game lines for all…`,text:`Every title or runner-up year here is confirmed by the source named beside it. "Bracket" means the NCISAA archive page for that sport and season.
+
+| Sport | Gender | Term | State titles | Runner-up | Evidence |
+|---|---|---|---|---|---|
+| Baseball | Boys | Spring | 2021, 2022, 2026 | — | Bracket game lines for all three: 2021 beat Wesleyan Christian 3–2, 1–5, 7–0; 2022 beat Metrolina Christian 7–3, 7–3; 2026 beat Metrolina Christian 8–11, 5–3, 8–5 |
+| Softball | Girls | Spring | 2021, 2022, 2025 | 2023 | Bracket game lines for all four: 2021 beat Cannon 8–1, 7–8, 13–3; 2022 beat Cannon 3–4, 8–0, 10–0; 2025 beat Charlotte Latin 3–2, 3–1; 2023 lost to Cannon 4–10, 1–3 |
+| Football (11-man) | Boys | Fall | 2020 | 2022, 2025 | 2020 from the school's list and the Observer's report, 27–21 over Rabun Gap on Nov. 20, 2020; 2022 and 2025 from the Division I brackets, both lost to Providence Day, 2025 by 42–6 |
+| Track & Field | Boys | Spring | 2025 | 2026 | 2025 official results, 121 to Cary Academy's 86; 2026 official team table, tied 2nd with Cary Academy at 87 behind Christ School's 116 |
+
+**The list rule:** a sport is listed with at least one title or at least two runner-up years, the same bar as Providence Day's, Charlotte Latin's, Charlotte Country Day's and Cannon's lists.
+
+Confirmed but left off, one runner-up year: wrestling 2026 (Charlotte Latin 321, Charlotte Christian 199.5, Charlotte Country Day 156). Its 45 points are likely the school's whole 2025–26 winter total of 45, so this is the one drop that visibly affects a term.
+
+Other team finishes read, none in the top two: wrestling 5th, 8th, 9th, 4th and 4th in 2021–2025; girls track 3rd in 2021, 2024 and 2025 and 8th in 2026; boys track 5th, 4th and 3rd in 2021, 2022 and 2024; boys swimming 10th, 14th, 8th, 8th and 11th in 2021–2025; girls swimming 10th, 10th, 8th, 13th and 13th in 2021–2025; girls cross country 7th, 7th, 12th and 14th in 2020, 2021, 2023 and 2024; boys cross country 15th, 16th, 11th and 14th in 2020, 2021, 2023 and 2024; boys golf 11th in 2021.
+
+Team-sport deep runs that fell short of a final: baseball semifinals 2023 and 2024; football semifinal 2021; boys tennis semifinal 2026, as the #1 seed.`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Within the six Cup seasons the brackets and meet results give Charlotte Christian eight team state titles by season: 2020–21 football, baseball, softball; 2021–22 baseball, softball; 2024–25 softball, boys track; 2025–26 baseball. All eight are on the school's Accolades list. A state title and a Wells Fargo Cup are…`,text:`Within the six Cup seasons the brackets and meet results give Charlotte Christian eight team state titles by season: 2020–21 football, baseball, softball; 2021–22 baseball, softball; 2024–25 softball, boys track; 2025–26 baseball. All eight are on the school's Accolades list. A state title and a Wells Fargo Cup are different things: Charlotte Christian's eight titles sit beside zero Cups and no top-three Cup finish, because the Cup rewards breadth across every sport and this school's points come heavily from spring.
+
 ---`},{subtopic:`Win-Loss Records`,source_file:`Charlotte Christian - Sports - Win-Loss Records.pdf`,preview:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Team Win-Loss Records — Recent Seasons Research Area — Records and results, strongest for football and basketball Covers the school's top 5 sports — Football, Basketball, Baseball, Softball, and Track & Field — with both boys' and girls'…`,text:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Team Win-Loss Records — Recent Seasons
 Research Area — Records and results, strongest for football and basketball
@@ -1240,4 +1270,4 @@ https://www.charlottechristian.com/athletics/knights-accolades
 https://www.si.com/high-school/north-carolina/charlotte-christian-school-sets-2025-football-schedule-01jtghjdregp
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:38,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:42,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
