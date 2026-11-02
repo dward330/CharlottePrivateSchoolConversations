@@ -3603,6 +3603,8 @@ html.photo-viewer-open { overflow: hidden; }
   font-weight: 600;
 }
 
+.hsp-legend.cup-legend { margin: 0 0 10px; }
+
 /* The table scrolls sideways only; its rows are never cut off vertically. */
 /* Opens about six schools tall; the header and the lead row stay in view. */
 .cup-scroll { max-height: 365px; overflow: auto; }
@@ -3628,6 +3630,14 @@ html.photo-viewer-open { overflow: hidden; }
 }
 .cup-table .sports-th { border-bottom: none; }
 .cup-school { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+/* The High School Placement treatment: the brand edge means "this school has a
+   page here", the arrow alone means the name links somewhere. */
+.cup-school.has-page {
+  border-inline-start: 3px solid var(--brand);
+  padding-inline-start: 7px;
+}
+.cup-school-link { color: inherit; text-decoration: none; }
+.cup-school-link:hover { text-decoration: underline; }
 .cup-cell {
   display: flex;
   flex-wrap: wrap;

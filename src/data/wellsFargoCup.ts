@@ -80,6 +80,26 @@ export const CUP_SHORT_NAMES: Record<string, string> = {
 }
 
 /**
+ * The homepage behind each off-roster name on the Cup table, a root URL with a
+ * trailing slash, as in brands.ts. A roster school links to its own page here
+ * instead. Verified in source-material/sports/_shared/.
+ */
+export const CUP_HOMEPAGES: Record<string, string> = {
+  'cary-academy': 'https://www.caryacademy.org/',
+  'christ-school': 'https://www.christschool.org/',
+  'durham-academy': 'https://www.da.org/',
+  'forsyth-country-day': 'https://www.fcds.org/',
+  'greensboro-day': 'https://www.greensboroday.org/',
+  'metrolina-christian': 'https://www.metrolinachristian.org/',
+  'north-raleigh-christian': 'https://www.nrcaknights.com/',
+  'rabun-gap': 'https://www.rabungap.org/',
+  ravenscroft: 'https://www.ravenscroft.org/',
+  'saint-marys': 'https://www.sms.edu/',
+  'wake-christian': 'https://wakechristianacademy.com/',
+  'wesleyan-christian': 'https://www.wcatrojans.org/',
+}
+
+/**
  * Every school in a division a Cup card shows, in the source file's order. A
  * card's table claims the whole division, so a card needs every school in it:
  * today that is all of 4A, plus the 3A seasons of schools that moved.

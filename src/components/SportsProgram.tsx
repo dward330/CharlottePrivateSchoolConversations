@@ -19,7 +19,9 @@ import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 import { PhotoViewer, PhotoZoomButton, type ViewerPhoto } from './PhotoViewer.tsx'
 import { usePhotoViewer } from './usePhotoViewer.ts'
-import { CUP_POINTS, CUP_SEASONS, CUP_SPORTS } from '../data/wellsFargoCup.ts'
+import { CUP_HOMEPAGES, CUP_POINTS, CUP_SEASONS, CUP_SPORTS } from '../data/wellsFargoCup.ts'
+import { schoolBySlug } from '../lib/manifest.ts'
+import { toSchool, useNavigate } from '../lib/router.ts'
 import {
   CUP_TERMS,
   classLabel,
@@ -260,6 +262,43 @@ function CupSportsGrid({ association, cup }: { association: 'NCISAA' | 'NCHSAA';
   )
 }
 
+/**
+ * A school's name on the table: the selected school is plain text, a roster
+ * school links to its page here, and any other links out to its own homepage.
+ */
+function CupSchoolName({ row, selected }: { row: string; selected: boolean }) {
+  const navigate = useNavigate()
+  if (selected) return <div className="cup-school is-selected">{cupName(row)}</div>
+  if (schoolBySlug(row)) {
+    const href = toSchool(row)
+    return (
+      <div className="cup-school has-page">
+        <a
+          className="cup-school-link"
+          href={href}
+          onClick={(e) => {
+            e.preventDefault()
+            navigate(href)
+          }}
+        >
+          {cupName(row)}
+          <span className="hsp-dest-arrow" aria-hidden="true">{'\u00a0'}↗</span>
+        </a>
+      </div>
+    )
+  }
+  const href = CUP_HOMEPAGES[row]
+  if (!href) return <div className="cup-school">{cupName(row)}</div>
+  return (
+    <div className="cup-school">
+      <a className="cup-school-link" href={href} target="_blank" rel="noreferrer noopener">
+        {cupName(row)}
+        <span className="hsp-dest-arrow" aria-hidden="true">{'\u00a0'}↗</span>
+      </a>
+    </div>
+  )
+}
+
 /** The six-year table, ending in the school's lead over the next place. */
 function CupTable({ slug }: { slug: string }) {
   const { t } = useTranslation()
@@ -283,7 +322,7 @@ function CupTable({ slug }: { slug: string }) {
           const sel = row === slug ? ' is-selected' : ''
           return (
             <div key={row} className="cup-row">
-              <div className={`cup-school${sel}`}>{cupName(row)}</div>
+              <CupSchoolName row={row} selected={row === slug} />
               {seasons.map((season) => {
                 const c = cupCell(row, season, slug)
                 return (
@@ -503,6 +542,10 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       <Heading>
         {t('sports.cup.tableTitle', { count: CUP_SEASONS.length, association, classification })}
       </Heading>
+      <p className="hsp-legend cup-legend text-muted">
+        <span className="hsp-dest hsp-legend-swatch" aria-hidden="true" />
+        {t('highSchoolPlacement.crossLinkLegend')}
+      </p>
       <CupTable slug={slug} />
 
       {(showRace || hasSources) && (

@@ -35,9 +35,15 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const here = dirname(fileURLToPath(import.meta.url))
-const { CUP_RECORDS, CUP_DIVISION_LEADERS, CUP_FIELD_SIZES, CUP_SEASONS, CUP_SPORTS } = await import(
-  '../src/data/wellsFargoCup.ts'
-)
+const {
+  CUP_DIVISION_LEADERS,
+  CUP_FIELD_SIZES,
+  CUP_HOMEPAGES,
+  CUP_RECORDS,
+  CUP_SEASONS,
+  CUP_SHORT_NAMES,
+  CUP_SPORTS,
+} = await import('../src/data/wellsFargoCup.ts')
 const cup = await import('../src/lib/wellsFargoCup.ts')
 const { VALUE_METRICS } = await import('../src/data/metricValues.ts')
 
@@ -291,6 +297,18 @@ for (const [slug, name] of [
   eq('bars rival: a skipped place is passed over', cup.nearestRival('z', 'C', L)?.points, 300)
   eq('bars rival: off-roster school from leaders', cup.nearestRival('w', 'C', L)?.name, 'Winner')
   eq('bars: the gap tile still reads the winner', cup.headlineStats('x', L).latestMargin?.value, -300)
+}
+
+// Every name on a table links: a roster school to its page, any other out.
+{
+  const { schools } = JSON.parse(readFileSync(join(here, '../src/data/schools.json'), 'utf8'))
+  const roster = new Set(schools.map((s) => s.slug))
+  for (const slug of Object.keys(CUP_SHORT_NAMES)) {
+    const url = CUP_HOMEPAGES[slug]
+    if (roster.has(slug) && url) fail(`${slug}: on the roster, so it links to its page, not a homepage`)
+    if (!roster.has(slug) && !url) fail(`${slug}: off the roster with no homepage in CUP_HOMEPAGES`)
+    if (url && !/^https:\/\/[^/]+\/$/.test(url)) fail(`${slug}: homepage must be a root URL with a trailing slash: ${url}`)
+  }
 }
 
 // Hidden splits: the bars and the best-season tile go, the margin stays.
