@@ -27,7 +27,7 @@
 - Baseball: **12-14 overall, 5-5 conference**, #8 seed in the state tournament.
 - Girls soccer: beat Carmel Christian (PKs), Providence Day, and Charlotte
   Christian (double OT).
-- Field hockey: #6 seed; took Providence Day to overtime in the state semifinals.
+- Field hockey: #6 seed; took Providence Day to overtime in the state quarterfinals.
 - Girls tennis: won the **Ashe Cup** (vs. Charlotte Christian) for the first time
   in school history.
 

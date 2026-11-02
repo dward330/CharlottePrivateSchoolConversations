@@ -152,6 +152,8 @@ eq('Cannon lead over next', cup.leadOverNext('cannon'), [1.25, 17.5, 12.5, 7.5, 
 eq('Cannon best finish', [cup.headlineStats('cannon').bestFinish.place, cup.headlineStats('cannon').bestFinish.season], [4, '2023–24'])
 eq('Charlotte Christian lead over next', cup.leadOverNext('charlotte-christian'), [65, 52.5, 22.5, 5, 2.5, 80])
 eq('Charlotte Christian best finish', [cup.headlineStats('charlotte-christian').bestFinish.place, cup.headlineStats('charlotte-christian').bestFinish.season], [5, '2023–24'])
+eq('Covenant Day lead over next', cup.leadOverNext('covenant-day'), [17.5, 2.5, 17.5, 12.5, 50, 25])
+eq('Covenant Day best finish', [cup.headlineStats('covenant-day').bestFinish.place, cup.headlineStats('covenant-day').bestFinish.season], [8, '2022–23'])
 eq('PD comeback', cup.isComeback('providence-day'), true)
 eq('PD table', cup.divisionRows('providence-day').length, 19)
 eq('PD table ends with the schools that left 4A', cup.divisionRows('providence-day').slice(-2), ['greensboro-day', 'wake-christian'])
