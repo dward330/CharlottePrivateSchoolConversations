@@ -122,7 +122,8 @@ function leaderAt(own: CupRecord, place: number, ledger: CupLedger) {
  * Per season: the selected school's points minus the next place below it,
  * passing over any school tied with it. Null with no record, in last place, or
  * when the ledger does not hold that place. Reads the leaders table too, because
- * the next school can be off-roster.
+ * the next school can be off-roster. A shared place without a tie mark is copied
+ * from the table as published, so only a marked tie skips ahead.
  */
 export function leadOverNext(slug: string, ledger: CupLedger = CUP_LEDGER): (number | null)[] {
   return ledger.seasons.map((season) => {
@@ -134,7 +135,8 @@ export function leadOverNext(slug: string, ledger: CupLedger = CUP_LEDGER): (num
         r.classification === own.classification &&
         r.season === season,
     )
-    const nextPlace = own.place + division.filter((r) => r.place === own.place).length
+    const tiedRows = division.filter((r) => r.place === own.place).length
+    const nextPlace = own.place + (own.tied ? tiedRows : 1)
     const next = division.find((r) => r.place === nextPlace) ?? leaderAt(own, nextPlace, ledger)
     return next ? own.points - next.points : null
   })

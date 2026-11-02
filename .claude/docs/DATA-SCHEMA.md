@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 492 ingested research documents.
+**13 schools × 12 research areas**, 493 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 17 | 2 | 2 | 18 | 17 | 17 | 2 | 17 | 16 | 1 | 1 | 18 | 2 |
+| Sports | `sports` | 17 | 3 | 2 | 18 | 17 | 17 | 2 | 17 | 16 | 1 | 1 | 18 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -277,7 +277,8 @@ with `/wells-fargo-cup`. Fourteen rules travel with it:
   list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.
 - **The table's last row is the school's lead over the next-placed school, every season.**
   `leadOverNext` subtracts the place directly below the school, whatever place it finished,
-  so the row holds for winners and never-won schools alike. It passes over a tied school,
+  so the row holds for winners and never-won schools alike. It passes over a school marked
+  tied, not one the table merely prints on the same place,
   and shows an em dash in last place or a season with no record.
 - **Every school name on the table links, except the selected school's.** A roster school
   links to its page and carries the brand edge explained by the legend above the table.

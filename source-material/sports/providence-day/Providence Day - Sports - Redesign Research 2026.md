@@ -11,7 +11,7 @@
 
 1. **2025–26 state titles: 4, not 2** — football, girls swimming, girls lacrosse AND girls
    soccer. PD led all of NCISAA 4A that year.
-2. **2026 girls soccer final: beat Carmel Christian 2–1, finishing 18–4–1** — not
+2. **2026 girls soccer final: beat Carmel Christian 2–0, finishing 18–4–1** — not
    "Charlotte Latin 1–0 OT". Third straight title; Grayson Dudley scored both goals.
 3. **Program size: 66 teams / 27 varsity sports** per the school's own directory — not
    Wikipedia's older 68/26 figure.
@@ -95,7 +95,7 @@ https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-ev
 Sources:
 - 2025 football final (PD 42, Charlotte Christian 6): https://www.highschoolot.com/story/back-on-top-providence-day-reclaims-division-i-state-title-with-win-over-rival-charlotte-christian/22257301/
 - 2024 football final (lost 42–39 to Rabun Gap-Nacoochee, GA): https://highschoolfootballamerica.com/no-43-rabun-gap-nacoochee-beats-no-56-providence-day-for-ncisaa-division-i-title/
-- 2026 girls soccer (beat Carmel Christian 2–1): https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/
+- 2026 girls soccer (beat Carmel Christian 2–0): https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/
 - 2026 girls lacrosse (beat Charlotte Latin 8–5): https://www.highschoolot.com/story/providence-day-repeats-ncisaa-d1-girls-lacrosse-championship-downs-charlotte-latin/22357140/
 - 2025 girls lacrosse (beat Charlotte Country Day 14–8): https://www.highschoolot.com/story/providence-day-too-much-in-ncisaa-d1-girls-lacrosse-championship-downs-charlotte-country-day/22010619/
 - 2026 girls swimming: https://www.highschoolot.com/story/ncisaa-d1-girls-swimming-and-diving-2026-championship/22319386/
