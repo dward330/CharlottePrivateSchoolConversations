@@ -145,14 +145,12 @@ eq('PD streak', pd.currentStreak, 4)
 eq('PD peak', [pd.peak.points, pd.peak.season], [782.5, '2022–23'])
 eq('PD margin', pd.latestMargin?.value, 2.5)
 eq('PD best season', pd.bestSeason, { term: 'spring', points: 270 })
-eq('PD lead row', cup.leadRow('providence-day'), [25, null, 170, 67.5, 10, 2.5])
-eq('CCD lead row', cup.leadRow('charlotte-country-day'), [null, 27.5, null, null, null, null])
-eq('CCD gap row', cup.gapBehindFirst('charlotte-country-day'), [25, null, 212.5, 67.5, 102.5, 90])
-eq('Cannon lead row', cup.leadRow('cannon'), [null, null, null, null, null, null])
-eq('Cannon gap row', cup.gapBehindFirst('cannon'), [206.25, 265, 392.5, 387.5, 270, 285])
+eq('PD lead over next', cup.leadOverNext('providence-day'), [25, 120, 170, 67.5, 10, 2.5])
+eq('CCD lead over next', cup.leadOverNext('charlotte-country-day'), [110, 27.5, 32.5, 177.5, 82.5, 115])
+eq('Latin lead over next', cup.leadOverNext('charlotte-latin'), [71.25, 27.5, 42.5, 142.5, 92.5, 87.5])
+eq('Cannon lead over next', cup.leadOverNext('cannon'), [1.25, 17.5, 12.5, 7.5, 2.5, 15])
 eq('Cannon best finish', [cup.headlineStats('cannon').bestFinish.place, cup.headlineStats('cannon').bestFinish.season], [4, '2023–24'])
-eq('Charlotte Christian lead row', cup.leadRow('charlotte-christian'), [null, null, null, null, null, null])
-eq('Charlotte Christian gap row', cup.gapBehindFirst('charlotte-christian'), [332.5, 362.5, 477.5, 395, 272.5, 345])
+eq('Charlotte Christian lead over next', cup.leadOverNext('charlotte-christian'), [65, 52.5, 22.5, 5, 2.5, 80])
 eq('Charlotte Christian best finish', [cup.headlineStats('charlotte-christian').bestFinish.place, cup.headlineStats('charlotte-christian').bestFinish.season], [5, '2023–24'])
 eq('PD comeback', cup.isComeback('providence-day'), true)
 eq('PD table', cup.divisionRows('providence-day').length, 19)
@@ -187,7 +185,7 @@ const lead = (school, season, place, points, extra = {}) => ({
   ...extra,
 })
 
-// Never won: no lead row, a gap row, and the best finish as the headline.
+// Never won: the best finish as the headline.
 {
   const L = fx(
     [rec('x', 'A', 4, 100), rec('x', 'B', 2, 200), rec('x', 'C', 3, 150)],
@@ -197,8 +195,6 @@ const lead = (school, season, place, points, extra = {}) => ({
   eq('never won: cups', s.cupsWon, 0)
   eq('never won: streak', s.currentStreak, 0)
   eq('never won: best finish', [s.bestFinish.place, s.bestFinish.season], [2, 'B'])
-  eq('never won: lead row', cup.leadRow('x', L), [null, null, null])
-  eq('never won: gap row', cup.gapBehindFirst('x', L), [200, 60, 80])
   eq('never won: margin', s.latestMargin?.value, -80)
   eq('never won: margin rival', s.latestMargin?.rival.name, 'Other')
 }
@@ -211,7 +207,22 @@ const lead = (school, season, place, points, extra = {}) => ({
   )
   eq('missing year: cell', cup.cell('x', 'B', 'x', L), null)
   eq('missing year: total', cup.headlineStats('x', L).seasonsTotal, 2)
-  eq('missing year: lead row', cup.leadRow('x', L), [10, null, 40])
+  eq('missing year: lead over next', cup.leadOverNext('x', L), [10, null, 40])
+}
+
+// Lead over next: any place, past a tie, last place, and an off-roster next school.
+{
+  const L = fx(
+    [
+      rec('x', 'A', 2, 100), rec('y', 'A', 1, 120), rec('z', 'A', 3, 70),
+      rec('x', 'B', 3, 90, { tied: true }), rec('y', 'B', 3, 90, { tied: true }), rec('z', 'B', 5, 60),
+      rec('x', 'C', 3, 50), rec('y', 'C', 1, 80), rec('z', 'C', 2, 60),
+    ],
+  )
+  eq('next: 2nd, past a tie, last', cup.leadOverNext('x', L), [30, 30, null])
+  const M = fx([rec('x', 'A', 1, 100)], [lead('Off Roster', 'A', 2, 75)])
+  eq('next: off-roster 2nd', cup.leadOverNext('x', M), [25, null, null])
+  eq('next: place not held', cup.leadOverNext('x', fx([rec('x', 'A', 2, 100), rec('z', 'A', 4, 70)])), [null, null, null])
 }
 
 // A school that left the division sorts below it, whatever its place elsewhere.

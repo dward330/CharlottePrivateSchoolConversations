@@ -256,7 +256,7 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 Results live in `src/data/wellsFargoCup.ts`, because one school's table needs other
 schools' rows. The `cup` key in a school's module holds its point sources and citations,
 and its presence is what renders the card, always second, after `offered`. Add a school
-with `/wells-fargo-cup`. Eleven rules travel with it:
+with `/wells-fargo-cup`. Twelve rules travel with it:
 
 - **Official association tables only.** An AI report is a lead to check, never a source.
 - **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come
@@ -275,6 +275,10 @@ with `/wells-fargo-cup`. Eleven rules travel with it:
   `T14th`.
 - **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a
   list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.
+- **The table's last row is the school's lead over the next-placed school, every season.**
+  `leadOverNext` subtracts the place directly below the school, whatever place it finished,
+  so the row holds for winners and never-won schools alike. It passes over a tied school,
+  and shows an em dash in last place or a season with no record.
 - **Two Compare rows read the ledger.** `cup-finish` and `cup-titles` are typed in
   `metricValues.ts` for every high school, card or not, and `check:cup` fails until they
   match. A new season or a ledger correction moves them.

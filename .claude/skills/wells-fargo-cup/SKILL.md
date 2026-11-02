@@ -127,10 +127,10 @@ result before any build:
 - the point sources kept, and the ones dropped with the reason;
 - what the school would show, computed by a throwaway Node script importing
   `src/lib/wellsFargoCup.ts`: `headlineStats`, `divisionRows`, `cell` per season,
-  `leadRow` or `gapBehindFirst`, and `nearestRival`. The strings are `sports.cup.*` in
+  `leadOverNext`, and `nearestRival`. The strings are `sports.cup.*` in
   `src/locales/en.json`.
 
-Call out the never-won state (best-finish headline, gap row) and any "In 3A" cells where
+Call out the never-won state (best-finish headline) and any "In 3A" cells where
 they apply. Write that script to the scratchpad, not the repo.
 
 ## Step 5 — Persist on a GO

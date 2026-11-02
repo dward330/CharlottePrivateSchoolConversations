@@ -119,25 +119,24 @@ function leaderAt(own: CupRecord, place: number, ledger: CupLedger) {
 }
 
 /**
- * Per season: the selected school's points minus 2nd place. Null when it did
- * not finish 1st. Comes from the leaders table, so it holds in any division.
+ * Per season: the selected school's points minus the next place below it,
+ * passing over any school tied with it. Null with no record, in last place, or
+ * when the ledger does not hold that place. Reads the leaders table too, because
+ * the next school can be off-roster.
  */
-export function leadRow(slug: string, ledger: CupLedger = CUP_LEDGER): (number | null)[] {
+export function leadOverNext(slug: string, ledger: CupLedger = CUP_LEDGER): (number | null)[] {
   return ledger.seasons.map((season) => {
     const own = recordOf(slug, season, ledger)
-    if (!own || own.place !== 1) return null
-    const second = leaderAt(own, 2, ledger)
-    return second ? own.points - second.points : null
-  })
-}
-
-/** Per season: the winner's points minus the selected school's. Null when it won. */
-export function gapBehindFirst(slug: string, ledger: CupLedger = CUP_LEDGER): (number | null)[] {
-  return ledger.seasons.map((season) => {
-    const own = recordOf(slug, season, ledger)
-    if (!own || own.place === 1) return null
-    const winner = leaderAt(own, 1, ledger)
-    return winner ? winner.points - own.points : null
+    if (!own) return null
+    const division = ledger.records.filter(
+      (r) =>
+        r.association === own.association &&
+        r.classification === own.classification &&
+        r.season === season,
+    )
+    const nextPlace = own.place + division.filter((r) => r.place === own.place).length
+    const next = division.find((r) => r.place === nextPlace) ?? leaderAt(own, nextPlace, ledger)
+    return next ? own.points - next.points : null
   })
 }
 
