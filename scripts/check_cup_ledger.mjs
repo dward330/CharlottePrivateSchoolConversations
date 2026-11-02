@@ -174,6 +174,7 @@ eq('Davidson Day lead over next', cup.leadOverNext('davidson-day'), [0, 42.5, 17
 eq('Davidson Day table', cup.divisionRows('davidson-day').length, 53)
 eq('Davidson Day classes', cup.classLabel('davidson-day'), '2A / 3A')
 eq('Davidson Day last win', cup.headlineStats('davidson-day').lastWin?.classification, '2A')
+eq('Gaston Day lead over next', cup.leadOverNext('gaston-day'), [22.5, 2.5, 22.5, 5, 10, 2.5])
 eq('Charlotte Catholic lead over next', cup.leadOverNext('charlotte-catholic'), [15, 5, 25, 37.5, 35, 75])
 eq('Charlotte Catholic table', cup.divisionRows('charlotte-catholic').length, 21)
 eq('Charlotte Catholic classes', cup.classLabel('charlotte-catholic'), '3A / 4A / 6A')

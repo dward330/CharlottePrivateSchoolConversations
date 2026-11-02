@@ -317,7 +317,7 @@ Wake Christian and Wesleyan Christian do not use the domains older directories l
 | Wake Christian Academy | Raleigh | NC | day | https://wakechristianacademy.com | Private Christian School Raleigh NC \| Wake Christian Academy |
 | Wesleyan Christian Academy | High Point | NC | day | https://www.wcatrojans.org | Christian School in High Point \| Wesleyan Christian Academy |
 
-The 43 schools below came with Davidson Day’s table, which brought in the rest of NCISAA 2A and 3A. Each page was loaded and shows the school’s name and location. **An HTTP 200 proved nothing here:** `oneal.org`, `burlingtonschool.org`, `cfschool.org` and `hpca.com` are parked domains that redirect by script to a sale page, and `calvarydayschool.com`, `theepiphanyschool.org`, `villagechristian.org` and `tcsnc.org` belong to someone else. Neuse Christian Academy is in Raleigh, not New Bern. Salem Christian School is the current name of the school NCISAA still prints as Salem Baptist. The two Thales rows link to the campus directory page, because the network has no campus homepage.
+The 44 schools below came with Davidson Day’s table, which brought in the rest of NCISAA 2A and 3A, except Berean Baptist Academy, which came with Gaston Day’s. Each page was loaded and shows the school’s name and location. **An HTTP 200 proved nothing here:** `oneal.org`, `burlingtonschool.org`, `cfschool.org` and `hpca.com` are parked domains that redirect by script to a sale page, and `calvarydayschool.com`, `theepiphanyschool.org`, `villagechristian.org` and `tcsnc.org` belong to someone else. Neuse Christian Academy is in Raleigh, not New Bern. Salem Christian School is the current name of the school NCISAA still prints as Salem Baptist. The two Thales rows link to the campus directory page, because the network has no campus homepage.
 
 | School | City | State | kind | URL | Page title |
 |---|---|---|---|---|---|
@@ -342,6 +342,7 @@ The 43 schools below came with Davidson Day’s table, which brought in the rest
 | Northwood Temple Academy | Fayetteville | NC | day | https://www.ntaeagles.com | Northwood Temple Academy |
 | Friendship Christian School | Raleigh | NC | day | https://www.friendshipchristian.net | Friendship Christian School \| Private PreK-12 Christian School |
 | Freedom Christian Academy | Fayetteville | NC | day | https://www.fcapatriots.org | Freedom Christian Academy - Fayetteville, NC |
+| Berean Baptist Academy | Fayetteville | NC | day | https://bbafnc.org | Christian School Education \| Berean Baptist Academy (the page gives 518 Glensford Drive, Fayetteville, NC 28314) |
 | Hickory Christian Academy | Hickory | NC | day | https://hickorychristianacademy.com | Hickory Christian Academy – Authentic Classical Christian Education |
 | Wayne Christian School | Goldsboro | NC | day | https://waynechristian.org | Wayne Christian School |
 | Faith Christian School | Rocky Mount | NC | day | https://www.fcspatriots.com | Home \| Faith Christian School |

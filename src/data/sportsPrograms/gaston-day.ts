@@ -1,22 +1,24 @@
 // Gaston Day School — Sports research area.
 //
 // Every figure is traceable to source-material/sports/gaston-day/ —
-// "Gaston Day School - Sports - Program and Championship Ledger 2026.md".
+// "Gaston Day School - Sports - Program and Championship Ledger 2026.md", and
+// "Gaston Day School - Sports - Wells Fargo Cup Standings 2020-2026.md" for the
+// Cup card and the corrected title record.
 //
-// FOUR of seven cards render. Three are omitted, each for a stated reason
+// FIVE of eight cards render. Three are omitted, each for a stated reason
 // rather than for lack of a research pass:
 //
-//  - 1c College Pipeline — the school publishes NO enumerated signing list.
+//  - 1d College Pipeline — the school publishes NO enumerated signing list.
 //    A focused deep pass at assessment time checked local press, the athletics
 //    news feed and the NCSA/recruiting databases (whose Gaston Day pages are
 //    generic recruit-marketing pages carrying no commit lists). This is a
 //    confirmed absence, so the Compare commit rows are deliberate nulls and the
 //    funnel card would be an empty shell. Same treatment as the omitted cards
 //    on Davidson Day and Covenant Day.
-//  - 1e Coaching — only the Athletic Director (Lulu Brase) and the 2025
+//  - 1f Coaching — only the Athletic Director (Lulu Brase) and the 2025
 //    volleyball head coach (Derek Bing) are named anywhere public; there is no
 //    tenure ledger, no coach bios, no records-by-coach. Two names is not a card.
-//  - 1g National Stage & NIL — no national schedule, no national ranking, and
+//  - 1h National Stage & NIL — no national schedule, no national ranking, and
 //    zero documented NIL activity. Nothing to render.
 //
 // gastondayathletics.com is JS-RENDERED: rosters, per-sport levels, banners and
@@ -42,6 +44,15 @@ const TENNIS_24 =
 const PROFILE =
   'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf'
 const ATHLETICS = 'https://gastondayathletics.com/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
+const SWIM = 'https://admin.ncisaa.org/uploads/SWIMMING/'
+const GOLF_22 = 'https://sports.yahoo.com/happy-blue-gaston-day-boys-170121762.html'
+const GOLF_23 = 'https://www.highschoolot.com/story/highschoolot-hsot-final-statewide-rankings-for-boys-golf/20898527/'
+const GOLF_24 =
+  'https://www.highschoolot.com/story/the-o-neal-school-wins-ncisaa-d3-boys-golf-trinity-academy-s-eastman-wins-medalist/21453701/'
+const TRACK_23 = 'https://alamancenews.com/bca-boys-track-and-field-team-secures-first-title-in-any-sport-for-school/'
+const TRACK_24 = 'https://sports.yahoo.com/super-saturday-seven-charlotte-area-011100010.html'
 
 export const gastonDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -49,11 +60,11 @@ export const gastonDay: SportsProgram = {
     headline:
       '19 team sports across three seasons, with about 70% of students in grades 6–12 playing at least one.',
     subhead:
-      'An NCISAA 2A program that has won eight team state championships since 2021 — a title rate that reads much larger than the school’s 510 enrollment.',
+      'An NCISAA 2A program that has won 14 team state championships since 2021 — a title rate that reads much larger than the school’s 510 enrollment.',
     stats: [
       { value: '19', label: 'team sports across three seasons' },
       { value: '~70%', label: 'of grades 6–12 play at least one sport' },
-      { value: '8', label: 'NCISAA 2A team state titles since 2021' },
+      { value: '14', label: 'NCISAA team state titles since 2021' },
       { value: '2A', label: 'NCISAA classification' },
     ],
     seasons: [
@@ -105,12 +116,57 @@ export const gastonDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'tennis', gender: 'girls', season: 'fall', titleYears: [2021, 2023, 2024, 2025], runnerUpYears: [2022] },
+      { sport: 'volleyball', gender: 'girls', season: 'fall', titleYears: [2021, 2024, 2025], runnerUpYears: [2020] },
+      { sport: 'soccer', gender: 'boys', season: 'fall', titleYears: [2021, 2022, 2024], runnerUpYears: [2025] },
+      { sport: 'golf', gender: 'boys', season: 'spring', titleYears: [2022, 2023], runnerUpYears: [2024] },
+      { sport: 'trackField', gender: 'boys', season: 'spring', titleYears: [2024], runnerUpYears: [2023] },
+      { sport: 'tennis', gender: 'boys', season: 'spring', titleYears: [], runnerUpYears: [2021, 2022] },
+      { sport: 'swimming', gender: 'girls', season: 'winter', titleYears: [2022] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA girls tennis bracket, 2021–22', url: `${ARCHIVE}11&years=2021-2022` },
+      { label: 'NCISAA girls tennis bracket, 2022–23', url: `${ARCHIVE}11&years=2022-2023` },
+      { label: 'NCISAA girls tennis bracket, 2023–24', url: `${ARCHIVE}11&years=2023-2024` },
+      { label: 'NCISAA girls tennis bracket, 2024–25', url: `${ARCHIVE}11&years=2024-2025` },
+      { label: 'NCISAA girls tennis bracket, 2025–26', url: `${ARCHIVE}11&years=2025-2026` },
+      { label: 'NCISAA volleyball bracket, 2020–21', url: `${ARCHIVE}12&years=2020-2021` },
+      { label: 'NCISAA volleyball bracket, 2021–22', url: `${ARCHIVE}12&years=2021-2022` },
+      { label: 'NCISAA volleyball bracket, 2024–25', url: `${ARCHIVE}12&years=2024-2025` },
+      { label: 'NCISAA volleyball bracket, 2025–26', url: `${ARCHIVE}12&years=2025-2026` },
+      { label: 'NCISAA boys soccer bracket, 2021–22', url: `${ARCHIVE}8&years=2021-2022` },
+      { label: 'NCISAA boys soccer bracket, 2022–23', url: `${ARCHIVE}8&years=2022-2023` },
+      { label: 'NCISAA boys soccer bracket, 2024–25', url: `${ARCHIVE}8&years=2024-2025` },
+      { label: 'NCISAA boys soccer bracket, 2025–26', url: `${ARCHIVE}8&years=2025-2026` },
+      { label: 'NCISAA boys tennis bracket, 2020–21', url: `${ARCHIVE}16&years=2020-2021` },
+      { label: 'NCISAA boys tennis bracket, 2021–22', url: `${ARCHIVE}16&years=2021-2022` },
+      { label: 'NCISAA swimming team scores, 2022', url: `${SWIM}Div%203%20Final_Team_Ind.pdf` },
+      { label: 'Gaston Gazette — boys golf title, 2022', url: GOLF_22 },
+      { label: 'HighSchoolOT — 2023 boys golf rankings, NCISAA D3 champion', url: GOLF_23 },
+      { label: 'HighSchoolOT — NCISAA D3 boys golf, 2024', url: GOLF_24 },
+      { label: 'Alamance News — NCISAA boys track, 2023', url: TRACK_23 },
+      { label: 'Charlotte Observer — NCISAA boys track, 2024', url: TRACK_24 },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
-      'Eight NCISAA 2A state championships since 2021 — including a three-title year in 2024–25 when volleyball, boys soccer and girls tennis all won.',
+      'Fourteen NCISAA team state championships since 2021, in six sports — including five in the 2021–22 school year alone.',
     subhead:
-      'Girls tennis has four titles and is on a three-peat; volleyball has three and reached the 2025 final in five sets.',
+      'Girls tennis has four titles and is on a three-peat; volleyball and boys soccer have three each, and the 2025 volleyball final went five sets.',
     seasonLabels: ['2023', '2024', '2025'],
     rows: [
       {
@@ -125,7 +181,7 @@ export const gastonDay: SportsProgram = {
       {
         program: 'Volleyball',
         cells: [
-          { result: 'NONE' },
+          { result: 'SEMIFINAL' },
           { result: 'STATE', record: 'swept' },
           { result: 'STATE', record: '3–2 final' },
         ],
@@ -134,15 +190,25 @@ export const gastonDay: SportsProgram = {
       {
         program: 'Boys Soccer',
         cells: [
-          { result: 'NONE' },
+          { result: 'SEMIFINAL' },
           { result: 'STATE', record: 'shutout' },
-          { result: 'NONE' },
+          { result: 'RUNNER-UP', record: '1–4 final' },
         ],
-        note: 'Blanked Westchester Country Day for the 2024 NCISAA 2A championship',
+        note: 'Three titles (2021, 2022, 2024); blanked Westchester Country Day in 2024, then lost the 2025 final 1–4 to Caldwell Academy',
+      },
+      {
+        program: 'Boys Golf',
+        cells: [{ result: 'STATE' }, { result: 'RUNNER-UP' }, { result: 'NONE' }],
+        note: 'Titles in 2022 and 2023, then runner-up to The O’Neal School in 2024',
+      },
+      {
+        program: 'Boys Track & Field',
+        cells: [{ result: 'RUNNER-UP' }, { result: 'STATE' }, { result: 'NONE' }],
+        note: 'Lost the 2023 title to Burlington Christian 68–75, then won in 2024 with 87 points',
       },
     ],
     didNotWin:
-      'every other program. The eight titles since 2021 sit in exactly three sports — girls tennis, volleyball and boys soccer — and the school publishes no championship history for the other sixteen, so this ledger is a record of concentrated strength rather than program-wide depth.',
+      'every other program. The 14 titles since 2021 sit in six sports — girls tennis, volleyball, boys soccer, boys golf, boys track and girls swimming — and the school publishes no championship history of its own, so this ledger rests on association results and local coverage.',
     bars: [],
     seasonDetail: [
       {
@@ -155,7 +221,19 @@ export const gastonDay: SportsProgram = {
       },
       {
         program: 'Boys Soccer',
-        text: 'Won the 2024 NCISAA 2A championship with a shutout of Westchester Country Day, completing a three-title school year alongside volleyball and girls tennis — the run local coverage headlined as "Déjà vu".',
+        text: 'Won the NCISAA 2A title in 2021, 2022 and 2024, and lost the 2025 final 1–4 to Caldwell Academy. The 2024 win was a shutout of Westchester Country Day, completing a three-title school year alongside volleyball and girls tennis — the run local coverage headlined as "Déjà vu".',
+      },
+      {
+        program: 'Boys Golf',
+        text: 'State champions in 2022 on a team score of 226, four strokes clear of The O’Neal School and Caldwell Academy, and again in 2023; runner-up to The O’Neal School in 2024, 228 to 217.',
+      },
+      {
+        program: 'Boys Track & Field',
+        text: 'Runner-up to Burlington Christian in 2023, 68 to 75, then NCISAA Division III champions in 2024 with 87 points, ahead of Caldwell Academy on 75 and The O’Neal School on 73.',
+      },
+      {
+        program: 'Girls Swimming',
+        text: 'NCISAA Division III champions in 2022, 231 to The O’Neal School’s 222, one of five team titles that school year.',
       },
     ],
     sources: [
@@ -164,10 +242,18 @@ export const gastonDay: SportsProgram = {
       { label: 'HighSchoolOT — Gaston Day rolls to NCISAA 2A girls tennis title (2023)', url: TENNIS_23 },
       { label: 'HighSchoolOT — Gaston Day repeats NCISAA 2A girls tennis title (2024)', url: TENNIS_24 },
       { label: 'MaxPreps — Gaston Day volleyball (2025 final score and date)', url: MAXPREPS_VB },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA boys soccer bracket, 2025–26', url: `${ARCHIVE}8&years=2025-2026` },
+      { label: 'NCISAA swimming team scores, 2022', url: `${SWIM}Div%203%20Final_Team_Ind.pdf` },
+      { label: 'Gaston Gazette — boys golf title, 2022', url: GOLF_22 },
+      { label: 'HighSchoolOT — 2023 boys golf rankings, NCISAA D3 champion', url: GOLF_23 },
+      { label: 'HighSchoolOT — NCISAA D3 boys golf, 2024', url: GOLF_24 },
+      { label: 'Alamance News — NCISAA boys track, 2023', url: TRACK_23 },
+      { label: 'Charlotte Observer — NCISAA boys track, 2024', url: TRACK_24 },
     ],
   },
 
-  /* --------------------------------------------------------- 1d honors ---- */
+  /* --------------------------------------------------------- 1e honors ---- */
   honors: {
     headline:
       'The public honors record is thin next to the championship ledger — the school publishes team results, not individual accolades.',
@@ -183,17 +269,21 @@ export const gastonDay: SportsProgram = {
       {
         label: '2024',
         text:
-          'Volleyball — NCISAA 2A state champions (swept Westminster Catawba, Oct 26). Boys soccer — NCISAA 2A state champions (def. Westchester Country Day). Girls tennis — NCISAA 2A state champions, second straight.',
+          'Volleyball — NCISAA 2A state champions (swept Westminster Catawba, Oct 26). Boys soccer — NCISAA 2A state champions (def. Westchester Country Day). Girls tennis — NCISAA 2A state champions, second straight. Boys track — NCISAA Division III state champions.',
       },
       {
         label: '2023',
         text:
-          'Girls tennis — NCISAA 2A state champions, def. Trinity School of Durham & Chapel Hill 5–1.',
+          'Girls tennis — NCISAA 2A state champions, def. Trinity School of Durham & Chapel Hill 5–1. Boys golf — NCISAA Division III state champions.',
+      },
+      {
+        label: '2022',
+        text: 'Boys soccer — NCISAA 2A state champions (def. Greenfield 3–1). Girls swimming and boys golf — NCISAA state champions.',
       },
       {
         label: '2021',
         text:
-          'Volleyball and girls tennis — NCISAA 2A state champions, the first title in each programme’s current run.',
+          'Volleyball, girls tennis and boys soccer — NCISAA 2A state champions, three of five team titles that school year.',
       },
       {
         label: 'Decade',
@@ -205,10 +295,16 @@ export const gastonDay: SportsProgram = {
       { label: 'HighSchoolOT — 2025-26 NCISAA team state champions', url: CHAMPS_26 },
       { label: 'HighSchoolOT — 2024-25 NCISAA team state champions', url: CHAMPS_25 },
       { label: 'HighSchoolOT — Gaston Day Spartans coverage', url: 'https://www.highschoolot.com/gaston-day-school/17527719/' },
+      { label: 'NCISAA swimming team scores, 2022', url: `${SWIM}Div%203%20Final_Team_Ind.pdf` },
+      { label: 'Gaston Gazette — boys golf title, 2022', url: GOLF_22 },
+      { label: 'HighSchoolOT — 2023 boys golf rankings, NCISAA D3 champion', url: GOLF_23 },
+      { label: 'HighSchoolOT — NCISAA D3 boys golf, 2024', url: GOLF_24 },
+      { label: 'Alamance News — NCISAA boys track, 2023', url: TRACK_23 },
+      { label: 'Charlotte Observer — NCISAA boys track, 2024', url: TRACK_24 },
     ],
   },
 
-  /* ------------------------------------------------------ 1f facilities --- */
+  /* ------------------------------------------------------ 1g facilities --- */
   facilities: {
     headline:
       'A 60-acre campus supporting 19 sports, with the athletics department run by a single named director.',
