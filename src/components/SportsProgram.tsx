@@ -482,6 +482,7 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
   const school = cupName(slug)
   const classification = classLabel(slug)
   const { association } = latest
+  const nchsaa = association === 'NCHSAA'
   const rival = latestMargin?.rival
   const won = latest.place === 1
   const showRace = nearestRival(slug, latest.season) != null
@@ -547,11 +548,11 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
               classification: latest.classification,
             })}
           </p>
-          <p className="sports-p">{t('sports.cup.what3')}</p>
+          <p className="sports-p">{t(nchsaa ? 'sports.cup.what3Nchsaa' : 'sports.cup.what3')}</p>
         </div>
         <div>
           <Heading>{t('sports.cup.pointsTitle')}</Heading>
-          <div className="cup-hint text-muted">{t('sports.cup.pointsHint')}</div>
+          <div className="cup-hint text-muted">{t(nchsaa ? 'sports.cup.pointsHintNchsaa' : 'sports.cup.pointsHint')}</div>
           <CupPointsGrid />
           <p className="cup-hint cup-tie-rule text-muted">{t('sports.cup.tieRule')}</p>
         </div>
@@ -560,7 +561,7 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       <Heading>{t('sports.cup.sportsTitle', { association })}</Heading>
       <div className="cup-hint text-muted">
         {hasSources
-          ? t('sports.cup.sportsHint', { school })
+          ? t(nchsaa ? 'sports.cup.sportsHintNchsaa' : 'sports.cup.sportsHint', { school })
           : t('sports.cup.sportsHintPlain')}
       </div>
       <CupSportsGrid association={association} cup={data} />
@@ -568,8 +569,13 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       <StatStrip stats={isolatedTiles} />
 
       <Heading>
-        {t('sports.cup.tableTitle', { count: CUP_SEASONS.length, association, classification })}
+        {t(nchsaa ? 'sports.cup.tableTitleNchsaa' : 'sports.cup.tableTitle', {
+          count: CUP_SEASONS.length,
+          association,
+          classification,
+        })}
       </Heading>
+      {nchsaa && <p className="cup-hint text-muted">{t('sports.cup.tableNoteNchsaa')}</p>}
       <p className="hsp-legend cup-legend text-muted">
         <span className="hsp-dest hsp-legend-swatch" aria-hidden="true" />
         {t('highSchoolPlacement.crossLinkLegend')}

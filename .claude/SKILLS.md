@@ -469,7 +469,7 @@ Cup for <school>", "add the next school to the Cup card".
 |---|---|
 | **1** | Asks which school; stops on a K-8 school, one that already has `cup`, or one not in `schools.json`. |
 | **2** | Fetches every season's official table and compares that school's rows and its divisions' leaders. |
-| **3** | Builds the point sources for all six seasons from the NCISAA bracket archive and the school's title list, not the three-season `record` card, and drops anything unconfirmed. |
+| **3** | Builds the point sources for all six seasons from the association's own results (the NCISAA bracket archive, or the NCHSAA record books) and the school's title list, not the three-season `record` card, and drops anything unconfirmed. |
 | **4** | Reports **GO / NO-GO**, with the computed headline, tiles and table rows. GO needs one verified season. |
 | **5–6** | Saves the record to `source-material/sports/<slug>/` and invokes `/plan` as `<slug>cup`. |
 

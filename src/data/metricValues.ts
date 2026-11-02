@@ -2308,14 +2308,14 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'sports',
     key: 'cup-titles',
     label: 'Wells Fargo Cup titles, 2020–21 to 2025–26',
-    note: 'Division titles in these six seasons. Beneath, how many seasons the school finished in its division’s top 3. A title in one division does not compare with a title in another. Charlotte Catholic shows n/a because only its latest season is verified here.',
+    note: 'Division titles in these six seasons. Beneath, how many seasons the school finished in its division’s top 3. A title in one division does not compare with a title in another.',
     compareOnly: true,
     noLead: true,
     rowTip: 'cup',
     values: {
       cannon: '0',
       'charlotte-christian': '0',
-      'charlotte-catholic': null, // only 2025–26 is verified, so six seasons cannot be claimed
+      'charlotte-catholic': '1',
       'charlotte-country-day': '1',
       'charlotte-latin': '0',
       'covenant-day': '0',
@@ -2329,6 +2329,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'Top 3 in 6 of 6',
       'charlotte-latin': 'Top 3 in 6 of 6',
       'davidson-day': 'Top 3 in 4 of 6',
+      'charlotte-catholic': 'Top 3 in 2 of 6',
       'gaston-day': 'Top 3 in 2 of 6',
       'providence-day': 'Top 3 in 6 of 6',
     },
@@ -2342,6 +2343,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Won in 2023–24, in NCISAA 2A. The school moved up to NCISAA 3A in 2024–25.',
       },
+      'charlotte-catholic': { kind: 'scope', text: 'Won in 2025–26, in NCHSAA 6A.' },
       'gaston-day': { kind: 'scope', text: 'Won in 2021–22, in NCISAA 2A.' },
       'providence-day': {
         kind: 'scope',

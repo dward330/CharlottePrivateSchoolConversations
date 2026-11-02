@@ -1,4 +1,4 @@
-// Charlotte Catholic High School — the seven Sports cards.
+// Charlotte Catholic High School — the eight Sports cards.
 //
 // ⚠️ CCHS IS AN NCHSAA SCHOOL, NOT NCISAA. It is a private school competing in
 // North Carolina's PUBLIC state association — one of only four parochial members
@@ -7,7 +7,8 @@
 // and win-loss ledgers here therefore come from a different governing body and
 // are not directly comparable to the rest of the roster. The TitleResult type's
 // doc comment says "NCISAA state champion"; for this school every title chip
-// means an NCHSAA title, which is said on the card itself.
+// means an NCHSAA title, which is said on the card itself. The Cup card's scoring,
+// heading and table differ for the same reason.
 //
 // ⚠️ COMMIT DATA PROVENANCE. The commitment roster below was table-parsed from
 // three named articles and each athlete checked individually. It deliberately
@@ -46,6 +47,7 @@ const BLAX26 =
 const GLAX26 =
   'https://www.highschoolot.com/story/tan-s-ot-goal-lifts-charlotte-catholic-1a-6a-title-over-east-chapel-hill/22362987/'
 const MAXPREPS = 'https://www.maxpreps.com/nc/charlotte/charlotte-catholic-cougars/football/'
+const NCHSAA = 'https://www.nchsaa.org/'
 
 export const charlotteCatholic: SportsProgram = {
   offered: {
@@ -55,7 +57,7 @@ export const charlotteCatholic: SportsProgram = {
     stats: [
       { value: '20', label: 'sports offered' },
       { value: '74', label: 'state championships since 2000' },
-      { value: '8', label: 'Wachovia / Wells Fargo Cups' },
+      { value: '10', label: 'Wachovia / Wells Fargo Cups' },
       { value: '1000+', label: 'alumni who went on to NCAA / NAIA / JUCO play' },
     ],
     seasons: [
@@ -102,11 +104,51 @@ export const charlotteCatholic: SportsProgram = {
       'The 20 sports and their names are exactly as the school lists them on its All Sports page — it publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse even though it fields both boys’ and girls’ teams in each, and it groups nothing by season. The season grouping above follows the standard NCHSAA calendar; the school itself publishes the list flat. Level splits are indicative for the same reason: the individual sport pages are navigation boilerplate carrying no rosters or schedules. CCHS has no middle school — it is a 9–12 school — so no team carries an MS level, unlike every PK/K–12 school on this roster.',
     sources: [
       { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'NCHSAA all-time state cup winners', url: 'https://www.nchsaa.org/all-time-list-of-wells-fargo-state-cup-winners/' },
+    ],
+  },
+
+  cup: {
+    pointSources: [
+      { sport: 'lacrosse', gender: 'girls', season: 'spring', titleYears: [2026], runnerUpYears: [2022, 2023, 2024] },
+      { sport: 'swimmingDiving', gender: 'girls', season: 'winter', titleYears: [2021, 2026], runnerUpYears: [2023] },
+      { sport: 'golf', gender: 'boys', season: 'spring', titleYears: [2021, 2022], runnerUpYears: [2026] },
+      { sport: 'tennis', gender: 'girls', season: 'fall', titleYears: [2021, 2025] },
+      { sport: 'lacrosse', gender: 'boys', season: 'spring', titleYears: [2026], runnerUpYears: [2023] },
+      { sport: 'golf', gender: 'girls', season: 'fall', titleYears: [2025], runnerUpYears: [2024] },
+      { sport: 'football', gender: 'boys', season: 'fall', titleYears: [2021] },
+      { sport: 'soccer', gender: 'boys', season: 'fall', titleYears: [2025] },
+      { sport: 'soccer', gender: 'girls', season: 'spring', titleYears: [2026] },
+    ],
+    sources: [
+      { label: 'NCHSAA Wells Fargo Cup standings, 2025–26', url: `${NCHSAA}2025-2026-wells-fargo-cup-champions/` },
+      { label: 'NCHSAA Wells Fargo Cup standings, 2024–25', url: `${NCHSAA}wells-fargo-state-cup-standings-update-2/` },
+      { label: 'NCHSAA Wells Fargo Cup standings, 2023–24', url: `${NCHSAA}2023-24-wells-fargo-cup-winners/` },
+      { label: 'NCHSAA Wells Fargo Cup standings, 2022–23', url: `${NCHSAA}nchsaa-announces-2022-2023-wells-fargo-cup-and-conference-cup-champions/` },
+      { label: 'NCHSAA Wells Fargo Cup standings, 2021–22', url: `${NCHSAA}wells-fargo-state-cup-competition-winners-2021-22-announced/` },
+      { label: 'NCHSAA Wells Fargo Cup standings, 2020–21', url: `${NCHSAA}2020-2021-wells-fargo-state-cup-winners-recognized/` },
+      { label: 'NCHSAA Wells Fargo Cup scoring', url: `${NCHSAA}wells-fargo-cup/` },
+      { label: 'NCHSAA all-time state cup winners', url: `${NCHSAA}all-time-list-of-wells-fargo-state-cup-winners/` },
+      { label: 'NCHSAA sport list', url: `${NCHSAA}sports/` },
+      { label: 'NCHSAA football state champions', url: `${NCHSAA}wp-content/uploads/2025/01/FB-State-Champion-List-thru-24.pdf` },
+      { label: 'NCHSAA swimming and diving record book', url: `${NCHSAA}record-book/swimming-and-diving/` },
+      { label: 'NCHSAA 4A swimming results, 2023', url: `${NCHSAA}sites/default/files/2023%20NCHSAA%204A%20State%20Swim%20%26%20Dive%20Championship%20Results.pdf` },
+      { label: 'NCHSAA men’s golf record book', url: `${NCHSAA}record-book/mens-golf/` },
+      { label: 'NCHSAA men’s golf championships, 2026', url: `${NCHSAA}2026-mens-golf-championships/` },
+      { label: 'NCHSAA women’s golf championships, 2024', url: `${NCHSAA}2024-womens-golf-championships/` },
+      { label: 'NCHSAA women’s golf championships, 2025', url: `${NCHSAA}2025-womens-golf-championships/` },
+      { label: 'NCHSAA women’s dual team tennis champions', url: `${NCHSAA}wp-content/uploads/2023/11/Dual-team-state-champs.pdf` },
+      { label: 'NCHSAA women’s dual team tennis, 2025', url: `${NCHSAA}2025-womens-dual-team-tennis-championships/` },
+      { label: 'NCHSAA men’s lacrosse record book', url: `${NCHSAA}record-book/mens-lacrosse/` },
+      { label: 'NCHSAA women’s lacrosse record book', url: `${NCHSAA}record-book/womens-lacrosse/` },
+      { label: 'NCHSAA lacrosse championships, 2026', url: `${NCHSAA}2026-lacrosse-championships/` },
+      { label: 'NCHSAA men’s soccer championships, 2025', url: `${NCHSAA}2025-mens-soccer-championships/` },
+      { label: 'NCHSAA women’s soccer championships, 2026', url: `${NCHSAA}2026-womens-soccer-championships/` },
     ],
   },
 
   record: {
-    headline: '74 state championships since 2000 — and three more in 2026 alone.',
+    headline: '74 state championships since 2000 — and four more in 2026 alone.',
     subhead:
       'Girls soccer went undefeated; both lacrosse programs won in overtime, each ending a twelve-year drought. All NCHSAA titles.',
     seasonLabels: ['2024', '2025', '2026'],
@@ -168,6 +210,7 @@ export const charlotteCatholic: SportsProgram = {
     ],
     sources: [
       { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'NCHSAA swimming and diving championships, 2026', url: 'https://www.nchsaa.org/2026-swimming-diving-championships/' },
       { label: 'highschoolot.com — 2026 NCHSAA 6A girls soccer final', url: GSOCCER26 },
       { label: 'highschoolot.com — 2026 NCHSAA 1A-6A boys lacrosse final', url: BLAX26 },
       { label: 'highschoolot.com — 2026 NCHSAA 1A-6A girls lacrosse final', url: GLAX26 },
@@ -274,11 +317,12 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Will Hartman', text: 'Charlotte Observer golfer of the year; went on to Vanderbilt.' },
       { label: 'Elijah Hood', text: 'US Army Player of the Year — the Hall Trophy — before North Carolina and the NFL.' },
       { label: 'Mason Poveromo', text: 'Named in athlete-of-the-year recognition.' },
-      { label: 'Wells Fargo Cups', text: '8 Wachovia / Wells Fargo Cups, awarded to the top athletic program by division in North Carolina.', tag: '8 CUPS', tagStyle: 'accent' },
+      { label: 'Wells Fargo Cups', text: '10 Wachovia / Wells Fargo Cups, awarded to the top athletic program by division in North Carolina.', tag: '10 CUPS', tagStyle: 'accent' },
       { label: 'Sportsmanship and academics', text: 'The school reports awards for sportsmanship, academic achievement and 100% community-service participation among its student-athletes.' },
     ],
     sources: [
       { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'NCHSAA all-time state cup winners', url: 'https://www.nchsaa.org/all-time-list-of-wells-fargo-state-cup-winners/' },
       { label: 'maxpreps.com — Charlotte Catholic Cougars', url: 'https://www.maxpreps.com/nc/charlotte/charlotte-catholic-cougars/' },
     ],
   },

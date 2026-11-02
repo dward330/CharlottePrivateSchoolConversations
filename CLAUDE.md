@@ -280,6 +280,12 @@ Two Compare rows also read the ledger: `cup-finish` and `cup-titles` are typed i
 `metricValues.ts` for every high school, card or not, and `check:cup` fails until they
 match, so a new season or a ledger correction moves them.
 
+**The NCHSAA card is the one exception to the whole-division rule.** That association
+publishes only the top of each class, so Charlotte Catholic's table holds the published top
+and says so, and the card's scoring sentences are association-aware because the NCHSAA adds
+five participation points per playoff sport. A school's Cup count comes from the
+association too: its all-time list gives Charlotte Catholic 10, against the School Profile's 8.
+
 See [`.claude/skills/wells-fargo-cup/SKILL.md`](.claude/skills/wells-fargo-cup/SKILL.md).
 
 ## Podcast episode standard (required)

@@ -299,7 +299,7 @@ A Charlotte-area private middle-school list does not exist at the parallel URL
 Edition check: every profile above shows the "2026-2027 Rankings" heading and "out of
 17,945 nationally ranked schools"; data years 2022-2023 through 2024-2025.
 
-## Added for the Wells Fargo Cup table (2026-11-02) (52)
+## Added for the Wells Fargo Cup table (2026-11-02) (63)
 
 These schools are not on a placement list. They are in the master because the Cup table links every off-roster name in NCISAA 4A to its homepage, alongside Christ School, Rabun Gap Nacoochee School and St. Mary's School above. Each URL was fetched with a browser user agent, answered HTTP 200, and its page names the school.
 
@@ -364,3 +364,14 @@ The 43 schools below came with Davidson Day’s table, which brought in the rest
 | High Point Christian Academy | High Point | NC | day | https://www.hpcacougars.org | Homepage \| High Point Christian Academy |
 | Arendell Parrott Academy | Kinston | NC | day | https://www.parrottacademy.org | Home - Arendell Parrott Academy |
 | Concord Academy | Concord | NC | independent | https://concord.academy | Concord Academy (the page gives 154 Warren C. Coleman Blvd., Concord, NC) |
+| Watauga High School | Boone | NC | public | https://whs.wataugaschools.org | Home - Watauga High School |
+| East Chapel Hill High School | Chapel Hill | NC | public | https://echhs.chccs.org | Home - East Chapel Hill High School |
+| Northern Guilford High School | Greensboro | NC | public | https://northernhs.gcsnc.com | Home - Northern Guilford High School |
+| Middle Creek High School | Apex | NC | public | https://middlecreekhs.wcpss.net | Home - Middle Creek High School |
+| Needham B. Broughton High School | Raleigh | NC | public | https://broughtonhs.wcpss.net | Home - Broughton Magnet High School |
+| Green Hope High School | Cary | NC | public | https://greenhopehs.wcpss.net | Home - Green Hope High School |
+| John T. Hoggard High School | Wilmington | NC | public | https://hoggard.nhcs.net | Home - (no school name in the title; the page gives John T. Hoggard High School, 4305 Shipyard Boulevard, Wilmington, NC) |
+| Panther Creek High School | Cary | NC | public | https://panthercreekhs.wcpss.net | Home - Panther Creek High School |
+| Chapel Hill High School | Chapel Hill | NC | public | https://chhs.chccs.org | Home - Chapel Hill High School |
+| Mount Tabor High School | Winston-Salem | NC | public | https://www.wsfcs.k12.nc.us/o/mths | Home \| Mount Tabor High School |
+| J.H. Rose High School | Greenville | NC | public | https://jhr.pitt.k12.nc.us | Home - J.H. Rose High School |

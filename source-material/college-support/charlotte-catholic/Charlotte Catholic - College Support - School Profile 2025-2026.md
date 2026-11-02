@@ -254,6 +254,7 @@ Wofford College · Worcester Polytechnic Institute · Xavier University · Yale 
   **8 Wachovia/Wells Fargo Cups**; one of **four parochial schools** competing in the
   **NCHSAA**; currently **Division 6A Southern Carolina Split 6A/7A Conference**;
   **1000+** student-athletes have gone on to NCAA/NAIA/Junior College levels.
+  (The NCHSAA's all-time list gives 10 including 2025–26; see the Sports Wells Fargo Cup file.)
 - **Fine Arts:** Fine Arts Center **dedicated in 2022**; band and choral programs have
   performed in New York and Chicago; **the band performs quadrennially in the St. Patrick's
   Day Parade in Dublin, Ireland**.

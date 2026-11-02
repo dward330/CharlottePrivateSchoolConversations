@@ -60,7 +60,7 @@ genuine**: its `CHARLOTTE CATHOLIC:` heading is bounded by `CARMEL CHRISTIAN` ab
 | --- | --- | --- |
 | **State championships since 2000** | **74** | S1 |
 | **State runner-up finishes since 2000** | **65** | S1 |
-| **Wachovia/Wells Fargo Cups** | **8** (top athletic program by division in NC) | S1 |
+| **Wachovia/Wells Fargo Cups** | **10** per the NCHSAA all-time list plus 2025–26; the School Profile's **8** predates it | S1 |
 | Conference | NCHSAA **Division 6A**, Southern Carolina Split 6A/7A | S1 |
 | Alumni who went on to NCAA/NAIA/Junior College | **1000+** | S1 |
 | Parochial schools in the NCHSAA | CCHS is **1 of 4** | S1 |

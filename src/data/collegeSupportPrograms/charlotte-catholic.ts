@@ -570,7 +570,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
         hint: 'what CCHS supplies',
         glyph: '▲',
         items: [
-          'Athletic recruiting reach is real and unusual: 74 state championships since 2000, 8 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.',
+          'Athletic recruiting reach is real and unusual: 74 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.',
           'CCHS is one of only four parochial schools competing in the NCHSAA — the public-school association — so its athletes are evaluated against the state’s largest programs rather than a private-school bracket.',
           'The school profile does the interpretive work for an admissions reader: decile chart, stated load norms, explicit no-rank policy and a defined "most demanding" benchmark.',
           'Diocesan scale shows up in outcomes — three Naval Academy appointments in one class, and service-academy matriculations at all three academies.',
@@ -650,7 +650,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favourably.' },
       { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,064 exams** is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator.' },
       { label: 'Read the college list as matriculations', text: '**169 institutions** is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
-      { label: 'Athletics is the standout', text: '**74 state championships** since 2000 and **8 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
+      { label: 'Athletics is the standout', text: '**74 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
       { label: 'Tuition turns on parish participation', text: '**$15,041** for a participating Catholic family against **$21,562** at the community rate — a ~30% difference driven by parish involvement rather than financial need, and the single biggest cost variable here.' },
       { label: 'The gaps are structural, not sloppy', text: 'No per-school aid figures (MACS publishes diocese-wide only), **no Form 990** (the diocese is exempt as a religious organization), and no published tuition history.' },
     ],

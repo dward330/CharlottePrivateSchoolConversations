@@ -93,17 +93,36 @@ they match.
 
 ### NCHSAA branch (Charlotte Catholic)
 
-The public-school association is a different source, and the ledger holds only that
-school's 2025–26 row. A verified six-season record also fills Charlotte Catholic's
-`cup-titles` cell on Compare, which stays `null` until then.
+The public-school association is a different source. The ledger holds all six Charlotte
+Catholic seasons, so a later NCHSAA school starts from the same pages:
 
-- Fetch NCHSAA's final standings per season, with classification and place.
-- A season that stays unverified is left out and shows an em dash, **never an estimate**.
-- NCHSAA tables usually give no fall/winter/spring splits, so the bars and the best-season
-  tile hide. That is expected.
-- The rival rows have to be added too: `CUP_DIVISION_LEADERS` holds NCISAA divisions only.
-- Confirm whether NCHSAA sanctions girls' wrestling separately. Its navigation lists only
-  "Wrestling", so `CUP_SPORTS.NCHSAA` holds one `both` entry. Correct it if needed.
+| Season | Final standings |
+|---|---|
+| 2020–21 | `https://www.nchsaa.org/2020-2021-wells-fargo-state-cup-winners-recognized/` |
+| 2021–22 | `https://www.nchsaa.org/wells-fargo-state-cup-competition-winners-2021-22-announced/` |
+| 2022–23 | `https://www.nchsaa.org/nchsaa-announces-2022-2023-wells-fargo-cup-and-conference-cup-champions/` |
+| 2023–24 | `https://www.nchsaa.org/2023-24-wells-fargo-cup-winners/` |
+| 2024–25 | `https://www.nchsaa.org/wells-fargo-state-cup-standings-update-2/` |
+| 2025–26 | `https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/` |
+
+- **Only the top is published:** the top 10 per class, and the top 5 in 2025–26. No page holds
+  a whole division, so the table says "top finishers, as published" and a dash means not
+  listed. Never chase a full field or invent one.
+- **There are no splits.** No final season has fall, winter or spring totals, so the bars and
+  the best-season tile hide. That is expected.
+- **Points can change after announcement, and a dated page can carry later figures.** The
+  2024–25 page is dated March 2025 and prints the August correction. Check a second report
+  and record any disagreement in the source file.
+- **A season that stays unverified is left out** and shows an em dash, **never an estimate**.
+- **The sport evidence** lives in `https://www.nchsaa.org/record-books/`, whose record-book
+  pages are HTML tables, in per-sport PDFs, and in the site's search API
+  (`https://www.nchsaa.org/wp-json/wp/v2/`).
+- **A recap can omit a runner-up** that the meet's own team rankings show, so read the
+  rankings before dropping a year.
+- **The wrestling question is answered.** The association runs men's and women's individual
+  championships under one Wrestling entry, so `CUP_SPORTS.NCHSAA` keeps one `both` chip.
+- **Division leaders are added with the card.** `CUP_DIVISION_LEADERS` holds each division a
+  card shows, so a new NCHSAA division brings its places 1 and 2.
 
 ## Step 3 — Build the point sources
 

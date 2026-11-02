@@ -3,6 +3,7 @@
 // Transcribed from source-material/sports/providence-day/Providence Day - Sports -
 // Wells Fargo Cup Standings 2020-2026.md, which carries the URLs and the method.
 // The 2A and 3A rows come from Davidson Day's file of the same name.
+// The NCHSAA rows come from Charlotte Catholic's file of the same name.
 //
 // Official association tables only. An AI research report is a lead to check,
 // never a source: the report behind the design matched 10 of 60 cells here.
@@ -127,6 +128,27 @@ export const CUP_SHORT_NAMES: Record<string, string> = {
   'arendell-parrott': 'Arendell Parrott',
   'southlake-christian': 'SouthLake Christian',
   'concord-academy': 'Concord Academy',
+  // The rest of Charlotte Catholic's table.
+  watauga: 'Watauga',
+  'east-chapel-hill': 'East Chapel Hill',
+  'northern-guilford': 'Northern Guilford',
+  'middle-creek': 'Middle Creek',
+  broughton: 'Broughton',
+  'green-hope': 'Green Hope',
+  hoggard: 'Hoggard',
+  'panther-creek': 'Panther Creek',
+  'chapel-hill': 'Chapel Hill',
+  'mount-tabor': 'Mount Tabor',
+  'jh-rose': 'J.H. Rose',
+  'cardinal-gibbons': 'Cardinal Gibbons',
+  'marvin-ridge': 'Marvin Ridge',
+  cuthbertson: 'Cuthbertson',
+  'myers-park': 'Myers Park',
+  weddington: 'Weddington',
+  'lake-norman': 'Lake Norman',
+  'ardrey-kell': 'Ardrey Kell',
+  hough: 'Hough',
+  'cox-mill': 'Cox Mill',
 }
 
 /**
@@ -194,13 +216,35 @@ export const CUP_HIGH_SCHOOLS: Record<string, string> = {
   'arendell-parrott': 'Arendell Parrott Academy',
   'southlake-christian': 'SouthLake Christian Academy',
   'concord-academy': 'Concord Academy',
+  watauga: 'Watauga High School',
+  'east-chapel-hill': 'East Chapel Hill High School',
+  'northern-guilford': 'Northern Guilford High School',
+  'middle-creek': 'Middle Creek High School',
+  broughton: 'Needham B. Broughton High School',
+  'green-hope': 'Green Hope High School',
+  hoggard: 'John T. Hoggard High School',
+  'panther-creek': 'Panther Creek High School',
+  'chapel-hill': 'Chapel Hill High School',
+  'mount-tabor': 'Mount Tabor High School',
+  'jh-rose': 'J.H. Rose High School',
+  'cardinal-gibbons': 'Cardinal Gibbons High School',
+  'marvin-ridge': 'Marvin Ridge High School',
+  cuthbertson: 'Cuthbertson High School',
+  'myers-park': 'Myers Park High School',
+  weddington: 'Weddington High School',
+  'lake-norman': 'Lake Norman High School',
+  'ardrey-kell': 'Ardrey Kell High School',
+  hough: 'Hough High School',
+  'cox-mill': 'Cox Mill High School',
 }
 
 /**
  * Every school in a division a Cup card shows, in the source file's order. A
  * card's table claims the whole division, so a card needs every school in it:
  * today that is all of 4A plus the 2A and 3A seasons of Davidson Day's table,
- * and the other seasons of schools that moved.
+ * and the other seasons of schools that moved. The NCHSAA publishes only the
+ * top of each class, so an NCHSAA table holds the published top rather than a
+ * whole division.
  */
 export const CUP_RECORDS: CupRecord[] = [
   { school: 'providence-day', association: 'NCISAA', classification: '4A', season: '2020–21', place: 1, points: 670, isEstimate: false, fall: 267.5, winter: 157.5, spring: 245 },
@@ -263,6 +307,11 @@ export const CUP_RECORDS: CupRecord[] = [
   { school: 'hickory-grove-christian', association: 'NCISAA', classification: '3A', season: '2023–24', place: 15, points: 147.5, isEstimate: false, fall: 62.5, winter: 0, spring: 85 },
   { school: 'hickory-grove-christian', association: 'NCISAA', classification: '3A', season: '2024–25', place: 12, points: 155, isEstimate: false, fall: 67.5, winter: 0, spring: 87.5 },
   { school: 'hickory-grove-christian', association: 'NCISAA', classification: '3A', season: '2025–26', place: 18, points: 110, isEstimate: false, fall: 25, winter: 22.5, spring: 62.5 },
+  { school: 'charlotte-catholic', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 3, points: 430, isEstimate: false },
+  { school: 'charlotte-catholic', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 8, points: 305, isEstimate: false },
+  { school: 'charlotte-catholic', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 5, points: 365, isEstimate: false },
+  { school: 'charlotte-catholic', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 6, points: 342.5, isEstimate: false },
+  { school: 'charlotte-catholic', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 6, points: 325, isEstimate: false },
   { school: 'charlotte-catholic', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 1, points: 655, isEstimate: false },
   // The rest of the 4A field, outside the roster.
   { school: 'cary-academy', association: 'NCISAA', classification: '4A', season: '2020–21', place: 6, points: 412.5, isEstimate: false, fall: 172.5, winter: 95, spring: 145 },
@@ -613,9 +662,75 @@ export const CUP_RECORDS: CupRecord[] = [
   { school: 'concord-academy', association: 'NCISAA', classification: '3A', season: '2023–24', place: 17, points: 135, isEstimate: false, fall: 37.5, winter: 75, spring: 22.5 },
   { school: 'concord-academy', association: 'NCISAA', classification: '3A', season: '2024–25', place: 20, points: 90, isEstimate: false, fall: 0, winter: 90, spring: 0 },
   { school: 'concord-academy', association: 'NCISAA', classification: '3A', season: '2025–26', place: 17, points: 115, isEstimate: false, fall: 0, winter: 115, spring: 0 },
+  // The published top of each NCHSAA class, for Charlotte Catholic's table.
+  { school: 'watauga', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 2, points: 580, isEstimate: false },
+  { school: 'east-chapel-hill', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 7, points: 322.5, isEstimate: false },
+  { school: 'east-chapel-hill', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 3, points: 515, isEstimate: false },
+  { school: 'northern-guilford', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 5, points: 350, isEstimate: false },
+  { school: 'northern-guilford', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 4, points: 507.5, isEstimate: false },
+  { school: 'middle-creek', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 5, points: 450.83, isEstimate: false },
+  { school: 'cardinal-gibbons', association: 'NCHSAA', classification: '4A', season: '2020–21', place: 1, points: 682.5, isEstimate: false },
+  { school: 'cardinal-gibbons', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 1, points: 575, isEstimate: false },
+  { school: 'cardinal-gibbons', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 2, points: 460, isEstimate: false },
+  { school: 'cardinal-gibbons', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 2, points: 477.5, isEstimate: false },
+  { school: 'cardinal-gibbons', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 1, points: 637.5, isEstimate: false },
+  { school: 'cardinal-gibbons', association: 'NCHSAA', classification: '7A', season: '2025–26', place: 1, points: 875, isEstimate: false },
+  { school: 'marvin-ridge', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 2, points: 512.5, isEstimate: false },
+  { school: 'marvin-ridge', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 2, points: 475, isEstimate: false },
+  { school: 'marvin-ridge', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 1, points: 485, isEstimate: false },
+  { school: 'marvin-ridge', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 1, points: 615, isEstimate: false },
+  { school: 'marvin-ridge', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 2, points: 542.5, isEstimate: false },
+  { school: 'marvin-ridge', association: 'NCHSAA', classification: '7A', season: '2025–26', place: 2, points: 842.5, isEstimate: false },
+  { school: 'cuthbertson', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 6, points: 325, isEstimate: false },
+  { school: 'cuthbertson', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 4, points: 420, isEstimate: false },
+  { school: 'cuthbertson', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 6, points: 340, isEstimate: false },
+  { school: 'cuthbertson', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 5, points: 345, isEstimate: false },
+  { school: 'cuthbertson', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 3, points: 377.5, isEstimate: false },
+  { school: 'cuthbertson', association: 'NCHSAA', classification: '7A', season: '2025–26', place: 4, points: 495, isEstimate: false },
+  { school: 'myers-park', association: 'NCHSAA', classification: '4A', season: '2020–21', place: 2, points: 522.14, isEstimate: false },
+  { school: 'myers-park', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 9, points: 300, isEstimate: false },
+  { school: 'myers-park', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 3, points: 445, isEstimate: false },
+  { school: 'myers-park', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 4, points: 377.5, isEstimate: false },
+  { school: 'myers-park', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 4, points: 355, isEstimate: false },
+  { school: 'myers-park', association: 'NCHSAA', classification: '8A', season: '2025–26', place: 2, points: 635, isEstimate: false },
+  { school: 'weddington', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 1, points: 530, isEstimate: false },
+  { school: 'weddington', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 3, points: 422.5, isEstimate: false },
+  { school: 'weddington', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 4, points: 414.166, isEstimate: false },
+  { school: 'weddington', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 3, points: 407.5, isEstimate: false },
+  { school: 'weddington', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 5, points: 327.5, isEstimate: false },
+  { school: 'weddington', association: 'NCHSAA', classification: '7A', season: '2025–26', place: 3, points: 570, isEstimate: false },
+  { school: 'lake-norman', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 7, points: 290, isEstimate: false },
+  { school: 'broughton', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 10, points: 247.5, isEstimate: false },
+  { school: 'broughton', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 8, points: 280, isEstimate: false },
+  { school: 'broughton', association: 'NCHSAA', classification: '8A', season: '2025–26', place: 3, points: 480, isEstimate: false },
+  { school: 'green-hope', association: 'NCHSAA', classification: '4A', season: '2020–21', place: 5, points: 369.5, isEstimate: false },
+  { school: 'green-hope', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 6, points: 370, isEstimate: false },
+  { school: 'green-hope', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 7, points: 335, isEstimate: false },
+  { school: 'green-hope', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 9, points: 250, isEstimate: false },
+  { school: 'green-hope', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 9, points: 255, isEstimate: false },
+  { school: 'hoggard', association: 'NCHSAA', classification: '4A', season: '2020–21', place: 3, points: 400, isEstimate: false },
+  { school: 'hoggard', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 7, points: 305, isEstimate: false },
+  { school: 'hoggard', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 10, points: 252.5, isEstimate: false },
+  { school: 'hoggard', association: 'NCHSAA', classification: '8A', season: '2025–26', place: 1, points: 655, isEstimate: false },
+  { school: 'ardrey-kell', association: 'NCHSAA', classification: '4A', season: '2020–21', place: 4, points: 389.64, isEstimate: false },
+  { school: 'ardrey-kell', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 10, points: 295, isEstimate: false },
+  { school: 'ardrey-kell', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 8, points: 301.666, isEstimate: false },
+  { school: 'ardrey-kell', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 8, points: 287.5, isEstimate: false },
+  { school: 'ardrey-kell', association: 'NCHSAA', classification: '8A', season: '2025–26', place: 4, points: 452.5, isEstimate: false },
+  { school: 'hough', association: 'NCHSAA', classification: '4A', season: '2020–21', place: 6, points: 354.64, isEstimate: false },
+  { school: 'hough', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 5, points: 372.5, isEstimate: false },
+  { school: 'panther-creek', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 7, points: 307.5, isEstimate: false },
+  { school: 'chapel-hill', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 4, points: 415, isEstimate: false },
+  { school: 'chapel-hill', association: 'NCHSAA', classification: '7A', season: '2025–26', place: 5, points: 425, isEstimate: false },
+  { school: 'cox-mill', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 8, points: 307.5, isEstimate: false },
+  { school: 'mount-tabor', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 9, points: 266.25, isEstimate: false },
+  { school: 'jh-rose', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 10, points: 250, isEstimate: false },
+  { school: 'jh-rose', association: 'NCHSAA', classification: '3A', season: '2021–22', place: 4, points: 350, isEstimate: false },
+  { school: 'jh-rose', association: 'NCHSAA', classification: '3A', season: '2023–24', place: 7, points: 280, isEstimate: false },
+  { school: 'jh-rose', association: 'NCHSAA', classification: '3A', season: '2024–25', place: 4, points: 307.5, isEstimate: false },
 ]
 
-/** Places 1 and 2 in 2A, 3A and 4A for every season, on or off the roster. */
+/** Places 1 and 2 in each division a Cup card shows, on or off the roster. */
 export const CUP_DIVISION_LEADERS: CupDivisionLeader[] = [
   { school: "The O'Neal School", association: 'NCISAA', classification: '2A', season: '2020–21', place: 1, points: 335, fall: 112.5, winter: 102.5, spring: 120 },
   { school: 'Gaston Day', slug: 'gaston-day', association: 'NCISAA', classification: '2A', season: '2020–21', place: 2, points: 302.5, fall: 120, winter: 75, spring: 107.5 },
@@ -653,6 +768,19 @@ export const CUP_DIVISION_LEADERS: CupDivisionLeader[] = [
   { school: 'Greensboro Day School', association: 'NCISAA', classification: '3A', season: '2025–26', place: 2, points: 420, fall: 115, winter: 117.5, spring: 187.5 },
   { school: 'Providence Day School', slug: 'providence-day', association: 'NCISAA', classification: '4A', season: '2025–26', place: 1, points: 692.5, fall: 222.5, winter: 200, spring: 270 },
   { school: 'Charlotte Latin School', slug: 'charlotte-latin', association: 'NCISAA', classification: '4A', season: '2025–26', place: 2, points: 690, fall: 277.5, winter: 205, spring: 207.5 },
+  // NCHSAA: Charlotte Catholic's division in each season.
+  { school: 'Weddington', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 1, points: 530 },
+  { school: 'Marvin Ridge', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 2, points: 512.5 },
+  { school: 'Cardinal Gibbons', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 1, points: 575 },
+  { school: 'Marvin Ridge', association: 'NCHSAA', classification: '4A', season: '2021–22', place: 2, points: 475 },
+  { school: 'Marvin Ridge', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 1, points: 485 },
+  { school: 'Cardinal Gibbons', association: 'NCHSAA', classification: '4A', season: '2022–23', place: 2, points: 460 },
+  { school: 'Marvin Ridge', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 1, points: 615 },
+  { school: 'Cardinal Gibbons', association: 'NCHSAA', classification: '4A', season: '2023–24', place: 2, points: 477.5 },
+  { school: 'Cardinal Gibbons', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 1, points: 637.5 },
+  { school: 'Marvin Ridge', association: 'NCHSAA', classification: '4A', season: '2024–25', place: 2, points: 542.5 },
+  { school: 'Charlotte Catholic', slug: 'charlotte-catholic', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 1, points: 655 },
+  { school: 'Watauga', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 2, points: 580 },
 ]
 
 /**
