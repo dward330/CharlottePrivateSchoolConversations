@@ -80,23 +80,22 @@ export const CUP_SHORT_NAMES: Record<string, string> = {
 }
 
 /**
- * The homepage behind each off-roster name on the Cup table, a root URL with a
- * trailing slash, as in brands.ts. A roster school links to its own page here
- * instead. Verified in source-material/sports/_shared/.
+ * Each off-roster name on the Cup table, as its master record in highSchools.ts,
+ * which holds the homepage. A roster school links to its own page here instead.
  */
-export const CUP_HOMEPAGES: Record<string, string> = {
-  'cary-academy': 'https://www.caryacademy.org/',
-  'christ-school': 'https://www.christschool.org/',
-  'durham-academy': 'https://www.da.org/',
-  'forsyth-country-day': 'https://www.fcds.org/',
-  'greensboro-day': 'https://www.greensboroday.org/',
-  'metrolina-christian': 'https://www.metrolinachristian.org/',
-  'north-raleigh-christian': 'https://www.nrcaknights.com/',
-  'rabun-gap': 'https://www.rabungap.org/',
-  ravenscroft: 'https://www.ravenscroft.org/',
-  'saint-marys': 'https://www.sms.edu/',
-  'wake-christian': 'https://wakechristianacademy.com/',
-  'wesleyan-christian': 'https://www.wcatrojans.org/',
+export const CUP_HIGH_SCHOOLS: Record<string, string> = {
+  'cary-academy': 'Cary Academy',
+  'christ-school': 'Christ School',
+  'durham-academy': 'Durham Academy',
+  'forsyth-country-day': 'Forsyth Country Day School',
+  'greensboro-day': 'Greensboro Day School',
+  'metrolina-christian': 'Metrolina Christian Academy',
+  'north-raleigh-christian': 'North Raleigh Christian Academy',
+  'rabun-gap': 'Rabun Gap Nacoochee School',
+  ravenscroft: 'Ravenscroft School',
+  'saint-marys': 'St. Mary’s School',
+  'wake-christian': 'Wake Christian Academy',
+  'wesleyan-christian': 'Wesleyan Christian Academy',
 }
 
 /**
