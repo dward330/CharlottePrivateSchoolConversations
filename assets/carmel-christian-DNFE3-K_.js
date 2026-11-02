@@ -1,4 +1,4 @@
-var e=`carmel-christian`,t=`sports`,n=17,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Carmel Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Carmel Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Carmel Christian — Sports — 247Sports Recruiting Rankings
+var e=`carmel-christian`,t=`sports`,n=21,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Carmel Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Carmel Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Carmel Christian — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -35,7 +35,7 @@ no roster row exists. Leads for a future roster backfill only, NOT shown by this
 1. **Cody Peck is NOT a Carmel commit** — he played only his first two seasons at Carmel,
  then IMG Academy (junior), then graduated from Davidson Day (senior). Do not list him.
 2. **Girls soccer 2026 = RUNNER-UP, not champion** — the athletics-site "2025-26 state
- champions" tag conflicts with the HighSchoolOT 4A final loss 1-2 to Providence Day; treat
+ champions" tag conflicts with the HighSchoolOT 4A final loss 0-2 to Providence Day; treat
  as runner-up unless separately confirmed.
 3. **Buzzard & Johnson are Class of 2026 commits**, not 2024/2025.`},{subtopic:`Source URLs`,source_file:null,preview:`| Ref | URL | What it covers | | --- | --- | --- | | S1 | https://www.carmelchristianathletics.org/inside-athletics/ | Full sports-by-season/level list; AD contact | | S2 | https://carmelchristian.org/athletics101 | Sports list (confirms co-ed MS golf) | | S3 |…`,text:`| Ref | URL | What it covers |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ no roster row exists. Leads for a future roster backfill only, NOT shown by this
 | S4 | https://www.carmelchristianathletics.org/cougar-athletics-celebrate-national-signing-day/ | Class of 2026 signees (Buzzard, Johnson, Tarr) |
 | S5 | https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=999101&id=0 | Class of 2026 signing (Buzzard, Johnson) |
 | S6 | https://www.highschoolot.com/story/christ-school-edges-carmel-christian-for-ncisaa-4a-boys-basketball-title/20736737/ | 2023 boys basketball 4A final (L 48-53) |
-| S7 | https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/ | 2026 girls soccer 4A final (L 1-2) |
+| S7 | https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/ | 2026 girls soccer 4A final (L 0-2) |
 | S8 | https://www.highschoolot.com/story/carmel-christian-beats-rabun-gap-to-win-4a-soccer-title/19375567/ | 2020 boys soccer 4A title (W 2-0) |
 | S9 | https://247sports.com/college/basketball/recruiting/article/cody-peck-commits-to-dayton-flyers-anthony-grant-280079475/ | Cody Peck → Dayton (transferred off Carmel — do NOT count) |
 | S10 | https://www.wccbcharlotte.com/2025/08/12/local-high-school-star-athlete-signs-nil-deal-with-national-brand/ | Bryce Slay NIL deal (College HUNKS) |
@@ -58,26 +58,28 @@ no roster row exists. Leads for a future roster backfill only, NOT shown by this
 | Team-units across levels | ~28 (V/JV/MS) | S1 |
 | **Division I commits 2024–26** | **5** (all basketball, all mid-major) | S3, S4 |
 | **Power 4 commits 2024–26** | **0** | S3, S4 |
-| NCISAA titles (recent) | Boys basketball 2019 (3A), 2022 (4A); boys soccer 2020 (4A) | S6, S8, S16 |`},{subtopic:`Card 1 — Sports Offered (S1, S2)`,source_file:null,preview:`FALL: Cross Country (co-ed: V, MS) · Golf Girls (V) · Soccer Boys (V, JV, MS) · Tennis Girls (V) · Volleyball Girls (V, JV, MS). WINTER: Basketball Boys (V, JV, MS — MS split "Blue & Gold") · Basketball Girls (V, MS) · Cheer (V, MS) · Swim (V, MS). SPRING: Baseball (V, JV, MS) · Golf Boys (V), Golf co-ed (MS) · Soccer…`,text:`**FALL:** Cross Country (co-ed: V, MS) · Golf Girls (V) · Soccer Boys (V, JV, MS) · Tennis
+| NCISAA titles (recent) | Boys basketball 2019 (3A), 2022 (4A); boys soccer 2020 (4A); boys tennis 2025 (4A) | S6, S8, S16 |`},{subtopic:`Card 1 — Sports Offered (S1, S2)`,source_file:null,preview:`FALL: Cross Country (co-ed: V, MS) · Golf Girls (V) · Soccer Boys (V, JV, MS) · Tennis Girls (V) · Volleyball Girls (V, JV, MS). WINTER: Basketball Boys (V, JV, MS — MS split "Blue & Gold") · Basketball Girls (V, MS) · Cheer (V, MS) · Swim (V, MS). SPRING: Baseball (V, JV, MS) · Golf Boys (V), Golf co-ed (MS) · Soccer…`,text:`**FALL:** Cross Country (co-ed: V, MS) · Golf Girls (V) · Soccer Boys (V, JV, MS) · Tennis
 Girls (V) · Volleyball Girls (V, JV, MS).
 **WINTER:** Basketball Boys (V, JV, MS — MS split "Blue & Gold") · Basketball Girls (V, MS)
 · Cheer (V, MS) · Swim (V, MS).
 **SPRING:** Baseball (V, JV, MS) · Golf Boys (V), Golf co-ed (MS) · Soccer Girls (V, JV,
 MS) · Tennis Boys (V, MS).
 
-No football, lacrosse, or track on the current offered list.`},{subtopic:`Card 2 — Winning Record & Championships`,source_file:null,preview:`Titles won: - Boys Basketball 2019 NCISAA 3A champion (school + multiple sources; described as back-to-back 2018 & 2019). Opponent/score of 2019 final: TO VERIFY. - Boys Basketball 2022 NCISAA 4A champion — def. Greensboro Day 71-66, Feb 26 2022 at Wingate; Cade Tyson 31 pts (S16). - Boys Soccer 2020 NCISAA 4A…`,text:`**Titles won:**
+No football, lacrosse, or track on the current offered list.`},{subtopic:`Card 2 — Winning Record & Championships`,source_file:null,preview:`Titles won: - Boys Basketball 2019 NCISAA 3A champion (school + multiple sources; described as back-to-back 2018 & 2019). Beat Village Christian Academy 65-64, Feb 23 2019 at Ravenscroft. - Boys Basketball 2022 NCISAA 4A champion — def. Greensboro Day 71-66, Feb 26 2022 at Wingate; Cade Tyson 31 pts (S16). - Boys…`,text:`**Titles won:**
 - **Boys Basketball 2019 NCISAA 3A champion** (school + multiple sources; described as
- back-to-back 2018 & 2019). *Opponent/score of 2019 final: TO VERIFY.*
+ back-to-back 2018 & 2019). Beat Village Christian Academy 65-64, Feb 23 2019 at Ravenscroft.
 - **Boys Basketball 2022 NCISAA 4A champion** — def. Greensboro Day 71-66, Feb 26 2022 at
  Wingate; Cade Tyson 31 pts (S16).
 - **Boys Soccer 2020 NCISAA 4A champion** — def. Rabun Gap-Nacoochee 2-0; Carmel 14-1 (S8).
+- **Boys Tennis 2025 NCISAA 4A champion** — def. Charlotte Latin 5-1, May 17 2025 at Providence Day; Carmel 17-0.
 
 **Runner-up / finals losses:**
+- Boys Basketball 2021 4A final, L 85-94 to Cannon (Feb 27 2021).
 - Boys Basketball 2023 4A final, L 48-53 to Christ School (Feb 25 2023); Carmel 28-4 (S6).
-- Boys Basketball 2025 4A final, L to Christ School (Christ School 3-peated). *Score TO VERIFY.*
+- Boys Basketball 2025 4A final, L to Christ School (Christ School 3-peated). L 50-73 (Feb 22 2025).
 - Boys Soccer 2019 3A final, L to Coastal Christian; 2021 4A final L 1-0 Rabun Gap; 2022 4A
  final L 1-0 Rabun Gap (four straight finals 2019–2022, winning 2020).
-- **Girls Soccer 2026 4A final, L 1-2 to Providence Day** (May 16 2026); Carmel 14-5 (S7).
+- **Girls Soccer 2026 4A final, L 0-2 to Providence Day** (May 16 2026); Carmel 14-5 (S7).
 
 **Boys basketball season records (S15):** 2021-22 26-3; 2022-23 28-4; 2016-17 21-6;
 2015-16 22-8.`},{subtopic:`Card 3 — College Pipeline`,source_file:null,preview:`Definitive source: the athletics "Next Steps" roster (S3), all signees by year. Division I 2024–26 (5, all basketball): - Kam Taylor — UNC Asheville (Big South) — '24 (later transferred to Florida State/ACC). - Bryce Slay — Marshall (Sun Belt) — '25. - Braylen Bowman — UNC Greensboro (Big South) — '25. - Jordan…`,text:`Definitive source: the athletics "Next Steps" roster (S3), all signees by year.
@@ -116,12 +118,37 @@ named. Thin card — TO VERIFY (capital-campaign pages, campus map, Form 990).`}
  figure disclosed. Initiated by parents Tamar (ex-Charlotte Bobcats) & Celeste Slay. Slay
  committed to Marshall. Carmel ran an alumnus feature (S10, S11).
 - **National-poll ranking: NOT PUBLISHED / TO VERIFY.** NCISAA 4A (top division); national
- visibility via Tyson/Mustaf/Peck recruiting profiles, but no team national ranking confirmed.`},{subtopic:`Flags`,source_file:null,preview:`- Girls soccer "2025-26 state champions" (athletics tag) vs 2026 4A final loss — treat as RUNNER-UP pending confirmation. - 2019 & 2025 basketball final scores/opponents: TO VERIFY. - Cody Peck must NOT be listed as a Carmel commit. - Head-coach names and facilities: thin — deeper pass warranted before include/omit…`,text:`- Girls soccer "2025-26 state champions" (athletics tag) vs 2026 4A final loss — treat as
- **RUNNER-UP** pending confirmation.
-- 2019 & 2025 basketball final scores/opponents: TO VERIFY.
+ visibility via Tyson/Mustaf/Peck recruiting profiles, but no team national ranking confirmed.`},{subtopic:`Flags`,source_file:null,preview:`- Girls soccer "2025-26 state champions" (athletics tag) vs 2026 4A final loss — resolved: RUNNER-UP on both the NCISAA bracket and the Wells Fargo Cup totals. - 2019 & 2025 basketball finals: both verified on the NCISAA brackets (see Card 2). - Cody Peck must NOT be listed as a Carmel commit. - Head-coach names and…`,text:`- Girls soccer "2025-26 state champions" (athletics tag) vs 2026 4A final loss — resolved:
+ **RUNNER-UP** on both the NCISAA bracket and the Wells Fargo Cup totals.
+- 2019 & 2025 basketball finals: both verified on the NCISAA brackets (see Card 2).
 - **Cody Peck must NOT be listed as a Carmel commit.**
 - Head-coach names and facilities: thin — deeper pass warranted before include/omit for
  cards 5 and 6.
 - Pro alumni: none confirmed (Cade Tyson is a draft prospect, not yet pro).
 
----`}],i={school_slug:e,topic_slug:t,section_count:17,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Carmel Christian - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Carmel Christian - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Carmel Christian - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Carmel Christian`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 15 | 65 | 45 | 45 | 155 | Providence Day 670 | 515 | | 2021–22 | T14 | 75 | 50 | 80 | 205 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
+
+| Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
+|---|---|---|---|---|---|---|---|
+| 2020–21 | 15 | 65 | 45 | 45 | 155 | Providence Day 670 | 515 |
+| 2021–22 | T14 | 75 | 50 | 80 | 205 | Charlotte Country Day 682.5 | 477.5 |
+| 2022–23 | 14 | 75 | 45 | 22.5 | 142.5 | Providence Day 782.5 | 640 |
+| 2023–24 | 15 | 30 | 42.5 | 60 | 132.5 | Providence Day 757.5 | 625 |
+| 2024–25 | 15 | 37.5 | 70 | 95 | 202.5 | Providence Day 650 | 447.5 |
+| 2025–26 | 16 | 37.5 | 62.5 | 60 | 160 | Providence Day 692.5 | 532.5 |
+
+Carmel Christian has not won the Cup in these six seasons and has not finished in the top ten. Its highest score is 205, in 2021–22, when it tied Metrolina Christian for 14th. Its published best place is 14th, reached in 2021–22 and 2022–23.`},{subtopic:`Wells Fargo Cup point sources for Carmel Christian`,source_file:null,preview:`Every title or runner-up year here is confirmed by the NCISAA archive page for that sport and season. | Sport | Gender | Term | State titles | Runner-up | Evidence | |---|---|---|---|---|---| | Basketball | Boys | Winter | 2022 | 2021, 2023, 2025 | Brackets: beat Greensboro Day 71–66 in 2022; lost 94–85 to Cannon in…`,text:`Every title or runner-up year here is confirmed by the NCISAA archive page for that sport and season.
+
+| Sport | Gender | Term | State titles | Runner-up | Evidence |
+|---|---|---|---|---|---|
+| Basketball | Boys | Winter | 2022 | 2021, 2023, 2025 | Brackets: beat Greensboro Day 71–66 in 2022; lost 94–85 to Cannon in 2021, 53–48 to Christ School in 2023 and 73–50 to Christ School in 2025 |
+| Soccer | Boys | Fall | 2020 | 2021, 2022 | Brackets: beat Rabun Gap 2–0 in 2020; lost 1–0 to Rabun Gap in 2021 and 2022 |
+| Tennis | Boys | Spring | 2025 | — | Bracket: beat Charlotte Latin 5–1 in the final, finishing 17–0 |
+
+**The list rule:** a sport is listed with at least one title or at least two runner-up years, the same bar as the lists for Providence Day, Charlotte Latin, Charlotte Country Day, Cannon, Charlotte Christian and Covenant Day.
+
+Confirmed but left off, one runner-up year: girls soccer 2026, lost 2–0 to Providence Day. That finish is 45 of the 60 spring points in 2025–26.
+
+Team-sport deep runs that fell short of a final: boys tennis semifinal 2024; boys basketball semifinal 2026; boys soccer semifinals 2024 and 2025.`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Within the six Cup seasons the brackets give Carmel Christian three team state titles: boys soccer in 2020, boys basketball in 2022 and boys tennis in 2025. Its finish stays near the bottom of 4A all the same, because the Cup rewards breadth across every sport, and Carmel offers no football, lacrosse or track. A state…`,text:`Within the six Cup seasons the brackets give Carmel Christian three team state titles: boys soccer in 2020, boys basketball in 2022 and boys tennis in 2025. Its finish stays near the bottom of 4A all the same, because the Cup rewards breadth across every sport, and Carmel offers no football, lacrosse or track. A state title and a Wells Fargo Cup are different things.
+
+---`}],i={school_slug:e,topic_slug:t,section_count:21,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
