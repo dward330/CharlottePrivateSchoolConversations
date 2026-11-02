@@ -166,6 +166,7 @@ import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
 import { useTranslation } from 'react-i18next'
 import { useScrollEdges } from '../lib/useScrollEdges.ts'
+import { scrollToSection } from '../lib/scrollToSection.ts'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 import { localizeMoneyText } from '../lib/format.ts'
 
@@ -398,7 +399,7 @@ function scrollToTopic(e: React.MouseEvent, slug: string) {
    as an unknown route. */
 function scrollToId(e: React.MouseEvent, id: string) {
   e.preventDefault()
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  scrollToSection(id)
 }
 
 export function SchoolDetail({ slug }: { slug: string }) {
