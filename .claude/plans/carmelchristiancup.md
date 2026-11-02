@@ -1,7 +1,7 @@
 ---
 name: carmelchristiancup
 title: Turn on the Wells Fargo Cup card for Carmel Christian, correct its Winning Record card against the NCISAA brackets, and fix one published-place gap in leadOverNext
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/carmelchristiancup
@@ -272,3 +272,10 @@ Scope is the overlay layer only: nine strings in each of the nine locales in `PR
 
 - **Should the headline use 2022–23?** The computed best finish lands on `14th, 2022–23`, the season the table printed an unmarked pair and Carmel's 142.5 was 15th by points. 2021–22's T14th on 205 is the stronger season, and the peak tile shows it. — **default:** leave as computed, because places are copied as published. If the user prefers 2021–22, the fix is in `bestFinish` for all schools, not a Carmel exception.
 - **Should girls soccer 2026 be listed despite the bar?** It is 45 of the 60 spring points in 2025–26. — **default:** left off, matching the other six schools.
+
+## Implementation notes
+
+- **Phase 2 ran in the Phase 1 window**, because it was nine strings per locale and the user approved the English there.
+- **`check:live` named seven stamps, not nine, during Phase 1.** The two new units had no overlay entry yet, so nothing reports them. They were confirmed in Chrome in all nine locales.
+- **`check_work_integrity.mjs` reports one violation per locale, `1030 → 1032 strings`**, the expected count change from the two new units.
+- **Two reports are unrelated to this plan and were left alone:** `check_figures.py --topic sports --lang es` flags two Charlotte Country Day strings that spell out `$30.5M`, and `check:money` flags `{seasonsTotal}` and `{latestMargin.value}` in `SportsProgram.tsx`, which are Cup numbers.
