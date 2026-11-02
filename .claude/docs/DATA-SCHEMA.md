@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 493 ingested research documents.
+**13 schools × 12 research areas**, 494 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 17 | 3 | 2 | 18 | 17 | 17 | 2 | 17 | 16 | 1 | 1 | 18 | 2 |
+| Sports | `sports` | 17 | 3 | 2 | 18 | 17 | 17 | 2 | 17 | 17 | 1 | 1 | 18 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -272,7 +272,8 @@ with `/wells-fargo-cup`. Fourteen rules travel with it:
 - **A missing year is an em dash,** never an estimate of what the school scored.
 - **Every `~` wears TO VERIFY.** `isEstimate` prints the `~`, and the tag follows it.
 - **Places are copied as published,** including out-of-order rows; `tied: true` prints
-  `T14th`.
+  `T14th`. A row published with no place stays out of the ledger and shows an em dash, and a
+  row that does not sum keeps its total and drops its splits.
 - **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a
   list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.
 - **The table's last row is the school's lead over the next-placed school, every season.**
@@ -285,7 +286,8 @@ with `/wells-fargo-cup`. Fourteen rules travel with it:
   Any other school links to its homepage with the arrow alone. The URL lives only in the
   `HIGH_SCHOOLS` master (`src/data/highSchools.ts`), and `CUP_HIGH_SCHOOLS` maps a Cup slug to
   that record. `check:cup` fails on an off-roster name with no homepage, so a school in a new
-  division adds its record to the master and to `High School Destinations.md`.
+  division adds its record to the master and to `High School Destinations.md`. A closed school
+  in the master passes with no link.
 - **The race bars compare a school with the place right above it, or 2nd if it won.**
   `nearestRival` passes over a tied school and a skipped place. The gap tile is separate:
   it always reads the winner, through `seasonRival`.

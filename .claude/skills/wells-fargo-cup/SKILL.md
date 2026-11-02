@@ -73,13 +73,18 @@ needs its new path found from the site's navigation.
 - A `T` place is a tie: `tied: true`.
 - Assert fall + winter + spring equals the total on every row you read. If it does not,
   you have misread the table.
+- **A row published with a blank place stays out of the ledger.** `CupRecord.place` is a
+  required number, so inventing one would break "copied as published". The cell shows an em
+  dash, and the source file lists each such row. A school with no placed season is not on
+  the card.
 
 **The table claims the whole division.** Its heading says "every NCISAA 3A school", and
 `check:cup` fails on a gap. So a school outside 4A brings every school in its division, for
 every season it played there, into the brief, on or off the roster. A school that moved
 class needs its rows in the other class too, or those cells read as an em dash rather than
 "In 3A". Two rows elsewhere do not sum as published (2021–22 1A Victory Christian Center
-and 2A Westminster Catawba Christian); copy them as published and record it.
+and 2A Westminster Catawba Christian). Such a row keeps its total and drops its splits, and
+the source file records the published cells.
 
 If a newer season has been published, add it to the brief. It changes `CUP_SEASONS`, and so
 every school's table. It also moves `CUP_FIELD_SIZES` and every `cup-finish` and `cup-titles`
@@ -109,9 +114,18 @@ sport) and the school's own title list, then confirm each title or runner-up yea
 citable page. Every entry needs a sport key that exists in `CUP_SPORTS[association]` for
 that season, or `npm run check:cup` fails.
 
-Two archive traps: **2020–21 brackets are mirrored**, so read them by team name rather than
-by side. And `ncisaa.shotstat.com` may not resolve, in which case golf rests on the school's
-list.
+Archive traps:
+
+- **2020–21 brackets are mirrored, and so are 2021–22 brackets in most sports**, so read them
+  by team name rather than by side. A mirrored page prints the two finalists and the score but
+  no winner. The published fall, winter and spring totals settle it: a scored finish must fit
+  them.
+- **Swimming team scores are in the PDFs on `admin.ncisaa.org`**, and cross country is in the
+  timing pages the archive links, not in brackets.
+- **`ncisaa.shotstat.com` may not resolve**, in which case golf rests on the school's list.
+- **A school's own title list can be wrong as well as stale.** Davidson Day's over-claims two
+  titles (boys soccer 2022, boys cross country 2022) and misses one (boys tennis 2026). The
+  brackets and the term totals win.
 
 Years are calendar years of the event, not season labels: a fall 2025 title is `2025`.
 
@@ -132,6 +146,11 @@ result before any build:
 
 Call out the never-won state (best-finish headline) and any "In 3A" cells where
 they apply. Write that script to the scratchpad, not the repo.
+
+**A school outside 4A brings dozens of homepages** into the master, one per off-roster school
+on its table. Guessed domains often belong to another school, and an HTTP 200 proves nothing:
+Davidson Day's table hit four parked domains that redirect by script, and four sites that were
+some other school entirely. Load each page in a browser and confirm the name and the location.
 
 ## Step 5 — Persist on a GO
 
