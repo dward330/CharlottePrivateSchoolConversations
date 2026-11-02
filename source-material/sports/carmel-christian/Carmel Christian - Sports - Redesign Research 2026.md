@@ -13,7 +13,7 @@
 1. **Cody Peck is NOT a Carmel commit** — he played only his first two seasons at Carmel,
    then IMG Academy (junior), then graduated from Davidson Day (senior). Do not list him.
 2. **Girls soccer 2026 = RUNNER-UP, not champion** — the athletics-site "2025-26 state
-   champions" tag conflicts with the HighSchoolOT 4A final loss 1-2 to Providence Day; treat
+   champions" tag conflicts with the HighSchoolOT 4A final loss 0-2 to Providence Day; treat
    as runner-up unless separately confirmed.
 3. **Buzzard & Johnson are Class of 2026 commits**, not 2024/2025.
 
@@ -27,7 +27,7 @@
 | S4 | https://www.carmelchristianathletics.org/cougar-athletics-celebrate-national-signing-day/ | Class of 2026 signees (Buzzard, Johnson, Tarr) |
 | S5 | https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=999101&id=0 | Class of 2026 signing (Buzzard, Johnson) |
 | S6 | https://www.highschoolot.com/story/christ-school-edges-carmel-christian-for-ncisaa-4a-boys-basketball-title/20736737/ | 2023 boys basketball 4A final (L 48-53) |
-| S7 | https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/ | 2026 girls soccer 4A final (L 1-2) |
+| S7 | https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/ | 2026 girls soccer 4A final (L 0-2) |
 | S8 | https://www.highschoolot.com/story/carmel-christian-beats-rabun-gap-to-win-4a-soccer-title/19375567/ | 2020 boys soccer 4A title (W 2-0) |
 | S9 | https://247sports.com/college/basketball/recruiting/article/cody-peck-commits-to-dayton-flyers-anthony-grant-280079475/ | Cody Peck → Dayton (transferred off Carmel — do NOT count) |
 | S10 | https://www.wccbcharlotte.com/2025/08/12/local-high-school-star-athlete-signs-nil-deal-with-national-brand/ | Bryce Slay NIL deal (College HUNKS) |
@@ -44,7 +44,7 @@
 | Team-units across levels | ~28 (V/JV/MS) | S1 |
 | **Division I commits 2024–26** | **5** (all basketball, all mid-major) | S3, S4 |
 | **Power 4 commits 2024–26** | **0** | S3, S4 |
-| NCISAA titles (recent) | Boys basketball 2019 (3A), 2022 (4A); boys soccer 2020 (4A) | S6, S8, S16 |
+| NCISAA titles (recent) | Boys basketball 2019 (3A), 2022 (4A); boys soccer 2020 (4A); boys tennis 2025 (4A) | S6, S8, S16 |
 
 ## Card 1 — Sports Offered (S1, S2)
 
@@ -61,17 +61,19 @@ No football, lacrosse, or track on the current offered list.
 
 **Titles won:**
 - **Boys Basketball 2019 NCISAA 3A champion** (school + multiple sources; described as
-  back-to-back 2018 & 2019). *Opponent/score of 2019 final: TO VERIFY.*
+  back-to-back 2018 & 2019). Beat Village Christian Academy 65-64, Feb 23 2019 at Ravenscroft.
 - **Boys Basketball 2022 NCISAA 4A champion** — def. Greensboro Day 71-66, Feb 26 2022 at
   Wingate; Cade Tyson 31 pts (S16).
 - **Boys Soccer 2020 NCISAA 4A champion** — def. Rabun Gap-Nacoochee 2-0; Carmel 14-1 (S8).
+- **Boys Tennis 2025 NCISAA 4A champion** — def. Charlotte Latin 5-1, May 17 2025 at Providence Day; Carmel 17-0.
 
 **Runner-up / finals losses:**
+- Boys Basketball 2021 4A final, L 85-94 to Cannon (Feb 27 2021).
 - Boys Basketball 2023 4A final, L 48-53 to Christ School (Feb 25 2023); Carmel 28-4 (S6).
-- Boys Basketball 2025 4A final, L to Christ School (Christ School 3-peated). *Score TO VERIFY.*
+- Boys Basketball 2025 4A final, L to Christ School (Christ School 3-peated). L 50-73 (Feb 22 2025).
 - Boys Soccer 2019 3A final, L to Coastal Christian; 2021 4A final L 1-0 Rabun Gap; 2022 4A
   final L 1-0 Rabun Gap (four straight finals 2019–2022, winning 2020).
-- **Girls Soccer 2026 4A final, L 1-2 to Providence Day** (May 16 2026); Carmel 14-5 (S7).
+- **Girls Soccer 2026 4A final, L 0-2 to Providence Day** (May 16 2026); Carmel 14-5 (S7).
 
 **Boys basketball season records (S15):** 2021-22 26-3; 2022-23 28-4; 2016-17 21-6;
 2015-16 22-8.
@@ -134,9 +136,9 @@ named. Thin card — TO VERIFY (capital-campaign pages, campus map, Form 990).
 
 ## Flags
 
-- Girls soccer "2025-26 state champions" (athletics tag) vs 2026 4A final loss — treat as
-  **RUNNER-UP** pending confirmation.
-- 2019 & 2025 basketball final scores/opponents: TO VERIFY.
+- Girls soccer "2025-26 state champions" (athletics tag) vs 2026 4A final loss — resolved:
+  **RUNNER-UP** on both the NCISAA bracket and the Wells Fargo Cup totals.
+- 2019 & 2025 basketball finals: both verified on the NCISAA brackets (see Card 2).
 - **Cody Peck must NOT be listed as a Carmel commit.**
 - Head-coach names and facilities: thin — deeper pass warranted before include/omit for
   cards 5 and 6.

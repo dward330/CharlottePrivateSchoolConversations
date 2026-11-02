@@ -197,7 +197,7 @@ export const providenceDay: SportsProgram = {
       },
       {
         program: 'Girls Soccer',
-        text: '2026: beat Carmel Christian 2–1 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. The 2024–25 season record is still unconfirmed.',
+        text: '2026: beat Carmel Christian 2–0 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. The 2024–25 season record is still unconfirmed.',
       },
       {
         program: 'Girls Swimming',

@@ -4,18 +4,21 @@
 // source-material/sports/carmel-christian/Carmel Christian - Sports - Redesign Research 2026.md,
 // which carries the provenance header, source URLs and gap notes. Figures the
 // research could not confirm carry `toVerify` and render a TO VERIFY tag rather
-// than being guessed at.
+// than being guessed at. The Cup card and the Winning Record corrections come from
+// source-material/sports/carmel-christian/Carmel Christian - Sports - Wells Fargo Cup Standings 2020-2026.md.
 //
-// Carmel renders six of seven cards. Coaching is intentionally thin (head-coach
+// Carmel renders seven of eight cards. Coaching is intentionally thin (head-coach
 // names are not published) and Facilities is omitted-by-absence for a named
-// venue ledger — see the gap notes. There is no 1d pro-alumni card: no
+// venue ledger — see the gap notes. There is no 1e pro-alumni card: no
 // professional athlete who attended Carmel is confirmed (Cade Tyson is a draft
-// prospect, not yet pro), so 1d renders only its honors ledger.
+// prospect, not yet pro), so 1e renders only its honors ledger.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
 const INSIDE = 'https://www.carmelchristianathletics.org/inside-athletics/'
 const NEXT_STEPS = 'https://www.carmelchristianathletics.org/inside-athletics/next-steps/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 
 export const carmelChristian: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -69,10 +72,38 @@ export const carmelChristian: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'basketball', gender: 'boys', season: 'winter', titleYears: [2022], runnerUpYears: [2021, 2023, 2025] },
+      { sport: 'soccer', gender: 'boys', season: 'fall', titleYears: [2020], runnerUpYears: [2021, 2022] },
+      { sport: 'tennis', gender: 'boys', season: 'spring', titleYears: [2025] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA boys basketball bracket, 2020–21', url: `${ARCHIVE}13&years=2020-2021` },
+      { label: 'NCISAA boys basketball bracket, 2021–22', url: `${ARCHIVE}13&years=2021-2022` },
+      { label: 'NCISAA boys basketball bracket, 2022–23', url: `${ARCHIVE}13&years=2022-2023` },
+      { label: 'NCISAA boys basketball bracket, 2024–25', url: `${ARCHIVE}13&years=2024-2025` },
+      { label: 'NCISAA boys soccer bracket, 2020–21', url: `${ARCHIVE}8&years=2020-2021` },
+      { label: 'NCISAA boys soccer bracket, 2021–22', url: `${ARCHIVE}8&years=2021-2022` },
+      { label: 'NCISAA boys soccer bracket, 2022–23', url: `${ARCHIVE}8&years=2022-2023` },
+      { label: 'NCISAA boys tennis bracket, 2024–25', url: `${ARCHIVE}16&years=2024-2025` },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
-      'Three recent NCISAA titles — two in boys basketball (2019 3A, 2022 4A) and one in boys soccer (2020 4A) — behind a string of deep finals runs.',
+      'Four recent NCISAA titles — two in boys basketball (2019 3A, 2022 4A), one in boys soccer (2020 4A) and one in boys tennis (2025 4A) — behind a string of deep finals runs.',
     subhead:
       '"State" = NCISAA (the private-school association); Carmel does not compete in the public-school NCHSAA.',
     seasonLabels: ['2019–2020', '2021–2022', '2022–2023 →'],
@@ -80,11 +111,11 @@ export const carmelChristian: SportsProgram = {
       {
         program: 'Boys Basketball',
         cells: [
-          { result: 'STATE', toVerify: true },
+          { result: 'STATE' },
           { result: 'STATE', record: '26–3' },
           { result: 'RUNNER-UP', record: '28–4' },
         ],
-        note: 'Back-to-back 3A in 2018 & 2019; 4A champion 2022; runner-up 2023 & 2025',
+        note: 'Back-to-back 3A in 2018 & 2019; 4A champion 2022; runner-up 2021, 2023 & 2025',
       },
       {
         program: 'Boys Soccer',
@@ -102,11 +133,20 @@ export const carmelChristian: SportsProgram = {
           { result: 'NONE' },
           { result: 'RUNNER-UP', record: '14–5' },
         ],
-        note: "Lost the '26 4A final 1–2 to Providence Day",
+        note: "Lost the '26 4A final 0–2 to Providence Day",
+      },
+      {
+        program: 'Boys Tennis',
+        cells: [
+          { result: 'NONE' },
+          { result: 'NONE' },
+          { result: 'STATE', record: '17–0' },
+        ],
+        note: '4A champion 2025, beating Charlotte Latin 5–1 in the final',
       },
     ],
     didNotWin:
-      "Christ School took the boys basketball 4A titles Carmel lost in 2023 (48–53) and 2025 (Christ School three-peated); Rabun Gap-Nacoochee beat Carmel in the 2021 (1–0) and 2022 (1–0) boys soccer 4A finals, and Coastal Christian in the 2019 3A final; Providence Day shut Carmel out for the 2026 girls soccer 4A title (1–2).",
+      "Christ School took the boys basketball 4A titles Carmel lost in 2023 (48–53) and 2025 (50–73, as Christ School three-peated), and Cannon took the 2021 final (85–94); Rabun Gap-Nacoochee beat Carmel in the 2021 (1–0) and 2022 (1–0) boys soccer 4A finals, and Coastal Christian in the 2019 3A final; Providence Day shut Carmel out for the 2026 girls soccer 4A title (0–2).",
     bars: [
       { program: 'Boys Basketball', record: '26–3', pct: 0.897, tag: "'21–22 SEASON" },
       { program: 'Boys Soccer', record: '14–1', pct: 0.933, tag: '2020 TITLE RUN' },
@@ -115,7 +155,7 @@ export const carmelChristian: SportsProgram = {
     seasonDetail: [
       {
         program: 'Boys Basketball',
-        text: '2022: NCISAA 4A champion — beat Greensboro Day 71–66 on Feb 26, 2022 at Wingate, Cade Tyson scoring 31. 2023: 28–4, lost the 4A final 48–53 to Christ School (Feb 25, 2023) behind a Jaeden Mustaf-led team. 2025: reached the 4A final again and lost to Christ School, which three-peated (score to verify). Regular-season records: 2021–22 26–3, 2022–23 28–4, 2016–17 21–6, 2015–16 22–8.',
+        text: '2021: lost the 4A final 85–94 to Cannon (Feb 27, 2021). 2022: NCISAA 4A champion — beat Greensboro Day 71–66 on Feb 26, 2022 at Wingate, Cade Tyson scoring 31. 2023: 28–4, lost the 4A final 48–53 to Christ School (Feb 25, 2023) behind a Jaeden Mustaf-led team. 2025: reached the 4A final again and lost 50–73 to Christ School (Feb 22, 2025), which three-peated. Regular-season records: 2021–22 26–3, 2022–23 28–4, 2016–17 21–6, 2015–16 22–8.',
       },
       {
         program: 'Boys Soccer',
@@ -123,11 +163,15 @@ export const carmelChristian: SportsProgram = {
       },
       {
         program: 'Girls Soccer',
-        text: '2026: reached the NCISAA 4A final and lost 1–2 to Providence Day (May 16, 2026), finishing 14–5. The athletics site tagged the season a "2025-26 state champions" run, which conflicts with the final loss — treated here as runner-up pending confirmation.',
+        text: '2026: reached the NCISAA 4A final and lost 0–2 to Providence Day (May 16, 2026), finishing 14–5. The athletics site tagged the season a "2025-26 state champions" run, but the NCISAA bracket and the Cup totals both show a runner-up finish.',
+      },
+      {
+        program: 'Boys Tennis',
+        text: '2025: NCISAA 4A champion — beat Charlotte Latin 5–1 in the May 17 final at Providence Day, finishing 17–0.',
       },
     ],
     sources: [
-      { label: 'HighSchoolOT — 2022 boys basketball 4A title (71–66)', url: 'https://www.maxpreps.com/nc/matthews/carmel-christian-cougars/basketball/history/' },
+      { label: 'NCISAA boys basketball bracket, 2021–22', url: `${ARCHIVE}13&years=2021-2022` },
       {
         label: 'HighSchoolOT — 2023 boys basketball 4A final (Christ School 53–48)',
         url: 'https://www.highschoolot.com/story/christ-school-edges-carmel-christian-for-ncisaa-4a-boys-basketball-title/20736737/',
@@ -137,13 +181,18 @@ export const carmelChristian: SportsProgram = {
         url: 'https://www.highschoolot.com/story/carmel-christian-beats-rabun-gap-to-win-4a-soccer-title/19375567/',
       },
       {
-        label: 'HighSchoolOT — 2026 girls soccer 4A final (1–2 to Providence Day)',
+        label: 'HighSchoolOT — 2026 girls soccer 4A final (0–2 to Providence Day)',
         url: 'https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/',
       },
+      { label: 'NCISAA boys basketball bracket, 2018–19', url: `${ARCHIVE}13&years=2018-2019` },
+      { label: 'NCISAA boys basketball bracket, 2020–21', url: `${ARCHIVE}13&years=2020-2021` },
+      { label: 'NCISAA boys basketball bracket, 2024–25', url: `${ARCHIVE}13&years=2024-2025` },
+      { label: 'NCISAA boys tennis bracket, 2024–25', url: `${ARCHIVE}16&years=2024-2025` },
+      { label: 'NCISAA girls soccer bracket, 2025–26', url: `${ARCHIVE}17&years=2025-2026` },
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       'Five Division I commits across the classes of 2024–26 — every one in basketball, and every one a mid-major. Zero Power 4.',
@@ -203,7 +252,7 @@ export const carmelChristian: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'No confirmed professional athlete — but an NC Mr. Basketball and a high-major recruiting pipeline out of the basketball program.',
@@ -236,7 +285,7 @@ export const carmelChristian: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'Athletic Director Grant Coffey leads the Cougars program; individual head-coach names, tenures and records are not published.',
@@ -250,7 +299,7 @@ export const carmelChristian: SportsProgram = {
     ],
   },
 
-  /* -------------------------------------------------------- 1g national -- */
+  /* -------------------------------------------------------- 1h national -- */
   national: {
     headline:
       'A first-wave NIL deal for a Carmel basketball alumnus — Bryce Slay signed with a national brand in August 2025.',

@@ -161,6 +161,8 @@ eq('Charlotte Christian lead over next', cup.leadOverNext('charlotte-christian')
 eq('Charlotte Christian best finish', [cup.headlineStats('charlotte-christian').bestFinish.place, cup.headlineStats('charlotte-christian').bestFinish.season], [5, '2023–24'])
 eq('Covenant Day lead over next', cup.leadOverNext('covenant-day'), [17.5, 2.5, 17.5, 12.5, 50, 25])
 eq('Covenant Day best finish', [cup.headlineStats('covenant-day').bestFinish.place, cup.headlineStats('covenant-day').bestFinish.season], [8, '2022–23'])
+eq('Carmel Christian lead over next', cup.leadOverNext('carmel-christian'), [32.5, 85, 35, 32.5, 47.5, 137.5])
+eq('Carmel Christian best finish', [cup.headlineStats('carmel-christian').bestFinish.place, cup.headlineStats('carmel-christian').bestFinish.season], [14, '2022–23'])
 eq('PD comeback', cup.isComeback('providence-day'), true)
 eq('PD table', cup.divisionRows('providence-day').length, 19)
 eq('PD table ends with the schools that left 4A', cup.divisionRows('providence-day').slice(-2), ['greensboro-day', 'wake-christian'])
@@ -232,6 +234,7 @@ const lead = (school, season, place, points, extra = {}) => ({
   const M = fx([rec('x', 'A', 1, 100)], [lead('Off Roster', 'A', 2, 75)])
   eq('next: off-roster 2nd', cup.leadOverNext('x', M), [25, null, null])
   eq('next: place not held', cup.leadOverNext('x', fx([rec('x', 'A', 2, 100), rec('z', 'A', 4, 70)])), [null, null, null])
+  eq('next: same place, no tie mark', cup.leadOverNext('x', fx([rec('w', 'A', 14, 147.5), rec('x', 'A', 14, 142.5), rec('z', 'A', 15, 107.5)])), [35, null, null])
 }
 
 // A school that left the division sorts below it, whatever its place elsewhere.
@@ -280,6 +283,7 @@ for (const [slug, name] of [
   ['cannon', 'Durham Academy'],
   ['charlotte-christian', 'Cary Academy'],
   ['covenant-day', 'Ravenscroft'],
+  ['carmel-christian', 'Covenant Day'],
 ]) {
   eq(`${slug} bars rival`, cup.nearestRival(slug, '2025–26')?.name, name)
 }
