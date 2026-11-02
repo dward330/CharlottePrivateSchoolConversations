@@ -1,11 +1,11 @@
 ---
 name: covenantcup
 title: Turn on the Wells Fargo Cup card for Covenant Day, and correct its field hockey 2025 result in the Winning Record card
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/covenantcup
-prs: []
+prs: [402]
 ---
 
 # Covenant Day Wells Fargo Cup card
