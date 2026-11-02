@@ -1006,6 +1006,13 @@ Each was set after a real defect.
 - **Citations carry the URL, not just the publisher name.** The app auto-links URLs in
   research notes, so a name-only citation renders as dead text — and it hid stale data
   once, because nobody could click through to notice the source had moved.
+- **A high school's homepage link comes from one file: `src/data/highSchools.ts`.** The
+  user set this 2026-11-02, for the Cup table, the High School Placement list and any
+  future place. Never add a second URL list: resolve the name with `highSchoolUrl()`, and
+  add a missing school to `HIGH_SCHOOLS` and to `High School Destinations.md`. A school
+  with a page here links to that page. The one other store is `homepageUrl` in
+  `src/data/brands.ts`, behind each roster school's own page header. Citations to a deep
+  page on a school's site stay with the card that cites them.
 - **The real logo always stays.** Never substitute a design-mock mark (e.g. the blueprint
   "CS" square) for `public/logo.png`, even when following a design handoff that shows one.
 - **Research-area cards carry no kicker line** — no `1a ·` numbering, no
