@@ -454,7 +454,7 @@ episode to `podcastEpisodes.ts` is a separate PR.
 **Add the next school to the Sports area's Wells Fargo Cup card: re-verify its ledger rows
 against the association's own tables, confirm its point sources, and hand a GO to `/plan`.**
 
-`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31 · updated 2026-11-01
+`.claude/skills/wells-fargo-cup/SKILL.md` · added 2026-10-31 · updated 2026-11-02
 
 The card is data-driven, with a shared ledger in `src/data/wellsFargoCup.ts` and everything
 computed in `src/lib/wellsFargoCup.ts`. So a new school normally needs a `cup` block and no

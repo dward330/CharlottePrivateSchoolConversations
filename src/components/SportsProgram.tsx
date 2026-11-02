@@ -26,12 +26,11 @@ import {
   cell as cupCell,
   cupName,
   divisionRows,
-  gapBehindFirst,
   hasEstimate,
   headlineStats,
   isComeback,
   isCupOutlined,
-  leadRow,
+  leadOverNext,
   nearestRival,
   pointsToken,
   type CupHeadline,
@@ -60,7 +59,7 @@ import type {
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
   return (
     <p className="sports-lead">
-      <strong>{localizeMoneyText(headline)}</strong>
+      <strong>{keepSeasonsWhole(localizeMoneyText(headline))}</strong>
       {subhead && <span className="text-muted"> {localizeMoneyText(subhead)}</span>}
     </p>
   )
@@ -261,15 +260,12 @@ function CupSportsGrid({ association, cup }: { association: 'NCISAA' | 'NCHSAA';
   )
 }
 
-/** The six-year table, ending in the lead row or the gap-behind-1st row. */
+/** The six-year table, ending in the school's lead over the next place. */
 function CupTable({ slug }: { slug: string }) {
   const { t } = useTranslation()
-  const lead = leadRow(slug)
-  const won = lead.some((v) => v != null)
-  const summary = won ? lead : gapBehindFirst(slug)
   // Latest year on the left. CUP_SEASONS and the summary values run oldest first.
   const seasons = [...CUP_SEASONS].reverse()
-  const summaryValues = [...summary].reverse()
+  const summaryValues = [...leadOverNext(slug)].reverse()
   const ordinal = (place: number, tied?: boolean) => {
     const o = t('sports.cup.place', { count: place, ordinal: true })
     return tied ? t('sports.cup.tied', { place: o }) : o
@@ -314,16 +310,14 @@ function CupTable({ slug }: { slug: string }) {
         })}
         <div className="cup-row">
           <div className="cup-summary-label">
-            {won
-              ? t('sports.cup.leadRow', { school: cupName(slug) })
-              : t('sports.cup.gapRow')}
+            {t('sports.cup.nextRow', { school: cupName(slug) })}
           </div>
           {summaryValues.map((value, i) => (
             <div key={seasons[i]} className="cup-summary">
               {value == null ? (
                 <span className="text-muted">—</span>
               ) : (
-                <CupSigned value={won ? value : -value} />
+                <CupSigned value={value} />
               )}
             </div>
           ))}
