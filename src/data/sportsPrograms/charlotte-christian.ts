@@ -2,8 +2,11 @@
 //
 // Every figure is traceable to
 // source-material/sports/charlotte-christian/Charlotte Christian - Sports - Redesign Research 2026.md.
+// The Wells Fargo Cup card and the boys track and boys basketball corrections in
+// the Winning Record card trace to
+// source-material/sports/charlotte-christian/Charlotte Christian - Sports - Wells Fargo Cup Standings 2020-2026.md.
 //
-// SIX of seven cards render. `national` (1g) is deliberately omitted: no
+// SEVEN of eight cards render. `national` (1h) is deliberately omitted: no
 // MaxPreps/ESPN/SBLive NATIONAL team ranking was found for any Charlotte
 // Christian program in 2024–2026 (the school's best documented placement is
 // #19 in NORTH CAROLINA), and no named athlete NIL deal is publicly disclosed.
@@ -16,6 +19,8 @@ import type { SportsProgram } from '../sportsProgram.ts'
 const ACCOLADES = 'https://www.charlottechristian.com/athletics/knights-accolades'
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 
 export const charlotteChristian: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -78,7 +83,36 @@ export const charlotteChristian: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'baseball', gender: 'boys', season: 'spring', titleYears: [2021, 2022, 2026] },
+      { sport: 'softball', gender: 'girls', season: 'spring', titleYears: [2021, 2022, 2025], runnerUpYears: [2023] },
+      { sport: 'football11', gender: 'boys', season: 'fall', titleYears: [2020], runnerUpYears: [2022, 2025] },
+      { sport: 'trackField', gender: 'boys', season: 'spring', titleYears: [2025], runnerUpYears: [2026] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA baseball bracket, 2025–26', url: `${ARCHIVE}1&years=2025-2026` },
+      { label: 'NCISAA softball bracket, 2024–25', url: `${ARCHIVE}21&years=2024-2025` },
+      { label: 'NCISAA football bracket, 2025–26', url: `${ARCHIVE}31&years=2025-2026` },
+      { label: 'NCISAA boys basketball bracket, 2025–26', url: `${ARCHIVE}13&years=2025-2026` },
+      { label: 'NCISAA 2025 track Division I results', url: 'https://admin.ncisaa.org/uploads/Docs/NCISAA%20D1%20Final%20Results.pdf' },
+      { label: 'NCISAA 2026 track Division I results', url: 'http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_1_Track_and_Field_Championships/' },
+      { label: 'Charlotte Observer — 2020 football final', url: 'https://www.yahoo.com/news/dynasty-charlotte-christian-wins-4th-021432542.html' },
+      { label: 'charlottechristian.com — Knights Accolades', url: ACCOLADES },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Eighteen baseball state championships — the deepest single-sport dynasty in the Charlotte private-school field — capped by a 28–7 title run in 2026.',
@@ -89,8 +123,8 @@ export const charlotteChristian: SportsProgram = {
       {
         program: 'Baseball',
         cells: [
-          { result: 'NONE', toVerify: true },
-          { result: 'NONE', toVerify: true },
+          { result: 'NONE' },
+          { result: 'NONE' },
           { result: 'STATE', record: '28–7' },
         ],
         note: '18th baseball title; beat Metrolina Christian in the series',
@@ -107,7 +141,7 @@ export const charlotteChristian: SportsProgram = {
       {
         program: 'Softball',
         cells: [
-          { result: 'NONE', toVerify: true },
+          { result: 'NONE' },
           { result: 'STATE', record: '16–6' },
           { result: 'NONE', record: '9–9' },
         ],
@@ -116,17 +150,17 @@ export const charlotteChristian: SportsProgram = {
       {
         program: 'Boys Track & Field',
         cells: [
-          { result: 'NONE', toVerify: true },
-          { result: 'STATE', record: '121 pts' },
           { result: 'NONE' },
+          { result: 'STATE', record: '121 pts' },
+          { result: 'RUNNER-UP', record: '87 pts' },
         ],
-        note: 'Christ School took the 2026 D1 title',
+        note: 'Tied Cary Academy for second behind Christ School in 2026',
       },
       {
         program: 'Wrestling',
         cells: [
-          { result: 'NONE', toVerify: true },
-          { result: 'NONE', toVerify: true },
+          { result: 'NONE' },
+          { result: 'NONE' },
           { result: 'RUNNER-UP', record: '199.5 pts' },
         ],
         note: 'Best finish in program history; Max McNeer won at 175 lbs',
@@ -134,11 +168,11 @@ export const charlotteChristian: SportsProgram = {
       {
         program: 'Boys Basketball',
         cells: [
-          { result: 'NONE', toVerify: true },
+          { result: 'NONE' },
           { result: 'NONE', record: '7–20' },
           { result: 'NONE', record: '17–14' },
         ],
-        note: 'Second-round exit in 2026 after a 10-win improvement',
+        note: 'First-round exit in 2026 after a 10-win improvement',
       },
     ],
     didNotWin:
@@ -181,7 +215,7 @@ export const charlotteChristian: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       '38 college commitments across the classes of 2024 and 2025, 26 of them Division I and 8 Power 4.',
@@ -277,7 +311,7 @@ export const charlotteChristian: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'Stephen Curry — four-time NBA champion, two-time MVP and the league’s all-time three-point leader — leads a ledger of 35 professional alumni.',
@@ -355,7 +389,7 @@ export const charlotteChristian: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'Both marquee coaching seats turned over inside twelve months — a 25-year basketball tenure ended, and a former NFL receiver took over football.',
@@ -412,7 +446,7 @@ export const charlotteChristian: SportsProgram = {
     ],
   },
 
-  /* ------------------------------------------------------- 1f facilities -- */
+  /* ------------------------------------------------------- 1g facilities -- */
   facilities: {
     headline:
       'A 53,000 sq ft athletic center broke ground in November 2025, joining a 5,400 sq ft weight room and the small gym where Stephen Curry played.',
@@ -498,8 +532,8 @@ export const charlotteChristian: SportsProgram = {
     ],
   },
 
-  /* 1g National Stage & NIL — intentionally omitted. No national team ranking
+  /* 1h National Stage & NIL — intentionally omitted. No national team ranking
      was found for any Charlotte Christian program in 2024–2026 (best documented:
      #19 in North Carolina), and no named athlete NIL deal is publicly disclosed.
-     The school's national profile is alumni-driven and lives on card 1d. */
+     The school's national profile is alumni-driven and lives on card 1e. */
 }

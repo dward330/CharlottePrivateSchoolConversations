@@ -44,8 +44,8 @@ groundbreaking, and **two confirmed Gatorade POY winners**.
 
 Three-season matrix: baseball **STATE 28–7** in 2026 · football **RUNNER-UP 7–6** in 2026
 (lost 6–42 to Providence Day), 8–4 and 7–4 in the prior two · softball **STATE 16–6** in
-2025, 9–9 in 2026 · boys track **STATE 121 pts** in 2025 · wrestling **RUNNER-UP 199.5 pts**
-in 2026, the best finish in program history · boys basketball 7–20 then 17–14.
+2025, 9–9 in 2026 · boys track **STATE 121 pts** in 2025 and **tied 2nd on 87** in 2026 ·
+wrestling **RUNNER-UP 199.5 pts** in 2026, the best finish in program history · boys basketball 7–20 then 17–14.
 
 - 2026 baseball: https://www.highschoolot.com/story/charlotte-christian-rallies-to-take-ncisaa-4a-baseball-championship-over-metrolina-christian/22358717/
 - 2025 football final: https://www.highschoolot.com/story/back-on-top-providence-day-reclaims-division-i-state-title-with-win-over-rival-charlotte-christian/22257301/
