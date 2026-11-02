@@ -152,6 +152,8 @@ eq('Cannon lead over next', cup.leadOverNext('cannon'), [1.25, 17.5, 12.5, 7.5, 
 eq('Cannon best finish', [cup.headlineStats('cannon').bestFinish.place, cup.headlineStats('cannon').bestFinish.season], [4, '2023–24'])
 eq('Charlotte Christian lead over next', cup.leadOverNext('charlotte-christian'), [65, 52.5, 22.5, 5, 2.5, 80])
 eq('Charlotte Christian best finish', [cup.headlineStats('charlotte-christian').bestFinish.place, cup.headlineStats('charlotte-christian').bestFinish.season], [5, '2023–24'])
+eq('Covenant Day lead over next', cup.leadOverNext('covenant-day'), [17.5, 2.5, 17.5, 12.5, 50, 25])
+eq('Covenant Day best finish', [cup.headlineStats('covenant-day').bestFinish.place, cup.headlineStats('covenant-day').bestFinish.season], [8, '2022–23'])
 eq('PD comeback', cup.isComeback('providence-day'), true)
 eq('PD table', cup.divisionRows('providence-day').length, 19)
 eq('PD table ends with the schools that left 4A', cup.divisionRows('providence-day').slice(-2), ['greensboro-day', 'wake-christian'])
@@ -261,6 +263,34 @@ const lead = (school, season, place, points, extra = {}) => ({
 const body = readFileSync(join(here, '../src/components/SportsProgram.tsx'), 'utf8')
 if (!/pointsToken\(c\.result, number\)/.test(body) || !/estimated && \(/.test(body) || !/<ToVerify \/>/.test(body)) {
   fail('isEstimate has no render path: the card must print pointsToken and wire ToVerify')
+}
+
+// The bars compare each school with the place right above it, or 2nd if it won.
+for (const [slug, name] of [
+  ['providence-day', 'Charlotte Latin'],
+  ['charlotte-latin', 'Providence Day'],
+  ['charlotte-country-day', 'Charlotte Latin'],
+  ['cannon', 'Durham Academy'],
+  ['charlotte-christian', 'Cary Academy'],
+  ['covenant-day', 'Ravenscroft'],
+]) {
+  eq(`${slug} bars rival`, cup.nearestRival(slug, '2025–26')?.name, name)
+}
+{
+  const L = fx(
+    [
+      rec('w', 'C', 2, 500, { tied: true }),
+      rec('v', 'C', 2, 500, { tied: true }),
+      rec('y', 'C', 4, 300, { tied: true }),
+      rec('x', 'C', 4, 300, { tied: true }),
+      rec('z', 'C', 7, 100),
+    ],
+    [lead('Winner', 'C', 1, 600)],
+  )
+  eq('bars rival: a tie is passed over', cup.nearestRival('x', 'C', L)?.points, 500)
+  eq('bars rival: a skipped place is passed over', cup.nearestRival('z', 'C', L)?.points, 300)
+  eq('bars rival: off-roster school from leaders', cup.nearestRival('w', 'C', L)?.name, 'Winner')
+  eq('bars: the gap tile still reads the winner', cup.headlineStats('x', L).latestMargin?.value, -300)
 }
 
 // Hidden splits: the bars and the best-season tile go, the margin stays.

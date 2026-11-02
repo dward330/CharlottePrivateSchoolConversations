@@ -34,7 +34,7 @@
 - **2024-25: first-ever NCISAA 4A State Championship game appearance for Varsity
   Boys Soccer** (2024 Fall highlights).
 - **Field hockey: state runner-up 2022** (per Louisville's newcomer bio for CDS
-  alumna Emily Eaton); 2025 season reached the NCISAA semifinals, taking Providence
+  alumna Emily Eaton); 2025 season reached the NCISAA quarterfinals, taking Providence
   Day to overtime.
 - **Volleyball: three consecutive NCISAA 3A state runner-up finishes** (per the
   /add-school assessment sweep of the school's athletics materials; head coach

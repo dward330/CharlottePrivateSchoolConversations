@@ -2,11 +2,13 @@
 //
 // Every figure is traceable to source-material/sports/covenant-day/ —
 // principally "Covenant Day School - Sports - Redesign Research 2026.md" and
-// "Covenant Day School - Sports - College Commitments 2024-2026.md".
+// "Covenant Day School - Sports - College Commitments 2024-2026.md". The Cup
+// card and the field hockey quarterfinal correction come from
+// "Covenant Day School - Sports - Wells Fargo Cup Standings 2020-2026.md".
 //
-// SIX of seven cards render. 1g National Stage & NIL is OMITTED: the boys
+// SEVEN of eight cards render. 1h National Stage & NIL is OMITTED: the boys
 // soccer team's fall-2025 #1 national ranking is a genuine national moment and
-// is carried on 1b and 1d, but the school plays no national schedule and has
+// is carried on 1c and 1e, but the school plays no national schedule and has
 // zero documented NIL activity (the Lions News archive carries none), so a
 // standing "national stage" card would be one real fact padded with absences.
 // Same treatment as Davidson Day's omitted 1g.
@@ -27,6 +29,8 @@ const FALL_25 =
   'https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2025fallsportshighlights1'
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 
 export const covenantDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -88,7 +92,29 @@ export const covenantDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'softball', gender: 'girls', season: 'spring', titleYears: [2026] },
+      { sport: 'soccer', gender: 'boys', season: 'fall', titleYears: [], runnerUpYears: [2024, 2025] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA softball bracket, 2025–26', url: `${ARCHIVE}21&years=2025-2026` },
+      { label: 'NCISAA boys soccer bracket, 2025–26', url: `${ARCHIVE}8&years=2025-2026` },
+      { label: 'NCISAA boys soccer bracket, 2024–25', url: `${ARCHIVE}8&years=2024-2025` },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'The 2025–26 softball team beat Cannon for the NCISAA 4A title — the school’s first team state championship since 2017, inside 26 all-time championship appearances.',
@@ -119,9 +145,9 @@ export const covenantDay: SportsProgram = {
         cells: [
           { result: 'NONE' },
           { result: 'NONE' },
-          { result: 'SEMIFINAL', record: '#6 seed' },
+          { result: 'NONE' },
         ],
-        note: 'Took Providence Day to overtime in the state semifinal; state runner-up in 2022',
+        note: 'Took Providence Day to overtime in the state quarterfinal; state runner-up in 2022',
       },
     ],
     didNotWin:
@@ -155,11 +181,12 @@ export const covenantDay: SportsProgram = {
       { label: 'covenantday.org — 2026 Spring Sports Highlights', url: SPRING_26 },
       { label: 'covenantday.org — 2025 Fall Sports Highlights', url: FALL_25 },
       { label: 'HighSchoolOT — 2025–26 NCISAA champions', url: CHAMPS_26 },
+      { label: 'NCISAA field hockey bracket, 2025–26', url: `${ARCHIVE}9&years=2025-2026` },
       { label: 'covenantday.org — Athletics (26 championship appearances)', url: ATHLETICS },
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       '33 documented college commitments across the classes of 2024–26 — nine Division I, one to a Power 4 program.',
@@ -252,7 +279,7 @@ export const covenantDay: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'The program’s benchmark alumna started every game as an ACC freshman; its benchmark season put boys soccer first in the nation.',
@@ -310,7 +337,7 @@ export const covenantDay: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'The college counseling director has coached varsity volleyball for 22 seasons — and the new athletic director was promoted from high school principal.',
@@ -360,7 +387,7 @@ export const covenantDay: SportsProgram = {
     ],
   },
 
-  /* ------------------------------------------------------- 1f facilities -- */
+  /* ------------------------------------------------------- 1g facilities -- */
   facilities: {
     headline:
       'An 800-seat gym, a turf field ringed by a 200-meter track, six new tennis courts, and a 27-acre athletic park down the road.',
@@ -397,7 +424,7 @@ export const covenantDay: SportsProgram = {
     ],
   },
 
-  /* 1g National Stage & NIL — intentionally omitted. The fall-2025 #1 national
-     soccer ranking is carried on 1b and the honors card; there is no national
+  /* 1h National Stage & NIL — intentionally omitted. The fall-2025 #1 national
+     soccer ranking is carried on 1c and the honors card; there is no national
      schedule and zero documented NIL activity to build a standing card from. */
 }
