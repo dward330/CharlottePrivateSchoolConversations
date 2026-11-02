@@ -1,7 +1,7 @@
 ---
 name: charlottecatholiccup
 title: Turn on the Wells Fargo Cup card for Charlotte Catholic, the first NCHSAA card, make the card's wording association-aware, and correct the school's Cup count and 2026 title count
-status: english-done
+status: in-progress
 phases: 2
 created: 2026-11-02
 branch: feat/charlottecatholiccup
@@ -342,3 +342,9 @@ Phase 1 deviations:
 - **Domain guesses failed as the plan warned.** `www.chccs.org/chs` redirects to Carrboro High School, so Chapel Hill High is `chhs.chccs.org`. Watauga moved to `whs.wataugaschools.org`. Mount Tabor and J.H. Rose block curl and were confirmed in Chrome. J.H. Rose's URL came from the Pitt County Schools site. Northern Guilford, Middle Creek, Green Hope and Panther Creek print no city on the page, so those four rest on the school name in the title and the district domain.
 - **The Hoggard page title reads `Home -` with no school name in curl and in Chrome's tab title,** so the master table records its address instead.
 - **`.claude/SKILLS.md` changed:** step 3 said the point sources come from the NCISAA bracket archive, which is false for this branch.
+
+Phase 2 ran in the same window after the user approved the English.
+
+- **Two shared units needed a new path, which the plan missed.** Context said `Top 3 in 2 of 6` "is already a unit", but the runtime index is keyed by field path, not stamp alone. A new cell on an existing English string renders English silently until its path joins the unit's `at`. `providence-day:[42].subs.charlotte-catholic` and `providence-day:[42].values.charlotte-catholic` were added to `0eda0491` and `340ca71c` in all nine locales. `check:live` and `check:runtime` cannot see this; the Compare browser check confirmed it.
+- **`check_work_integrity.mjs` exits 1, as step 3 predicted.** A direct diff against `HEAD` shows only the planned units changed, plus those two `at` additions. The new `quals` unit took each locale's translation of its sibling, with only season and division swapped.
+- **Points follow the locale's number format,** so `es`, `fr` and `it` print `414,166` and `450,83`. Every Cup card's points already do this through `number()`, so the data keeps the published figure.
