@@ -12,7 +12,7 @@
 // silently guessed at.
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { number, winPct, localizeMoneyText, isolateFigures } from '../lib/format.ts'
+import { number, winPct, localizeMoneyText, isolateFigures, keepSeasonsWhole } from '../lib/format.ts'
 import { SHOW_TO_VERIFY } from '../lib/toVerify.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
@@ -197,7 +197,7 @@ function cupHeadlineText(stats: CupHeadline, t: ReturnType<typeof useTranslation
 /** The computed Cup headline, which also serves as the card's collapsed teaser. */
 export function wellsFargoCupHeadline(slug: string, t: ReturnType<typeof useTranslation>['t']) {
   const stats = headlineStats(slug)
-  return stats ? isolateFigures(cupHeadlineText(stats, t)) : ''
+  return stats ? keepSeasonsWhole(isolateFigures(cupHeadlineText(stats, t))) : ''
 }
 
 /** The "How points are earned" grid: 1st–4th beside 5th–8th. */
@@ -456,7 +456,7 @@ export function WellsFargoCupBody({ slug, data }: { slug: string; data: CupProgr
       label: t(`sports.cup.tileBest_${bestSeason.term}`, { season: latest.season, school }),
     })
   }
-  const isolatedTiles = tiles.map((tile) => ({ ...tile, label: isolateFigures(tile.label) }))
+  const isolatedTiles = tiles.map((tile) => ({ ...tile, label: keepSeasonsWhole(isolateFigures(tile.label)) }))
 
   return (
     <div className="sports-body">

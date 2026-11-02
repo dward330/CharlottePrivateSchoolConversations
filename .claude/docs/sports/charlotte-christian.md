@@ -1,5 +1,5 @@
 # Charlotte Christian School — Sports
-> Distilled from 18 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-01.
+> Distilled from 18 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-02.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -1035,7 +1035,9 @@ groundbreaking, and **two confirmed Gatorade POY winners**.
  https://www.charlottechristian.com/about/leadership
 - Full season/level catalog: https://www.charlottechristian.com/athletics/teams
 
-## 2. Winning Record — 43 state titles in seven sports
+## 2. Winning Record — 42 state titles in seven sports
+
+The school says "42 team state crowns in seven different sports". The years it lists beneath that sentence total 46, as the table below shows.
 
 | Sport | Titles | Most recent |
 |---|---|---|
@@ -1417,7 +1419,7 @@ Title and runner-up years come from the NCISAA's own results archive first, read
 
 **Disagreements recorded, nothing changed:**
 
-- **The school's title total does not add up.** The Accolades page says "42 team state crowns in seven different sports". The years it lists directly beneath total 46: baseball 18, football 9, basketball 7, track and field 4, softball 3, cross country 3, dance 2. The app says 43, in the Sports Offered tile and subhead and in the baseball season detail, which is the older 42 plus the 2026 baseball title. The June 2026 dossier's list, before that title, totals 45 against its own "42". None of the three figures agrees with the school's own list.
+- **The school's title total does not add up.** The Accolades page says "42 team state crowns in seven different sports". The years it lists directly beneath total 46: baseball 18, football 9, basketball 7, track and field 4, softball 3, cross country 3, dance 2. The app said 43, in the Sports Offered tile and subhead and in the baseball season detail, which was the older 42 plus the 2026 baseball title. On 2026-11-02 the user moved all three to the school's stated 42; the live page was re-read that day and still says 42 with 2026 baseball in its list. The June 2026 dossier's list, before that title, totals 45 against its own "42". None of these figures agrees with the school's own list.
 - **Wrestling 2026, "best finish in program history".** Second place is confirmed by HighSchoolOT's team table at 199.5. "Best in program history" is not checked here, because the six seasons above show only 2021–2026.
 
 **Reach limits.** `ncisaa.shotstat.com`, which hosts the NCISAA's golf scoreboards from 2022 on, still does not resolve from this environment. Boys golf 2021 was read from the official PDF. For boys golf 2022–2026, champions are known only from press, none naming Charlotte Christian, so a runner-up finish cannot be ruled out. Charlotte Christian has no girls golf team on its live teams page and appears on no girls golf page read. Boys and girls track were not found for 2023, and girls track was not found for 2022. Cross country was read for 2020, 2021, 2023 and 2024 only. Swimming was read for 2021–2025, not 2026. FloWrestling's 2026 team page refused the request, so that year rests on HighSchoolOT. A missing year here is therefore not evidence of no finish.
