@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/charlottecatholiccup
-prs: []
+prs: [410]
 ---
 
 # Charlotte Catholic Wells Fargo Cup card
