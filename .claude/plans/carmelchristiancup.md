@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/carmelchristiancup
-prs: []
+prs: [407]
 ---
 
 # Carmel Christian Wells Fargo Cup card
