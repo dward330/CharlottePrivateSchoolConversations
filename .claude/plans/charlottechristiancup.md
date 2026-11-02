@@ -187,3 +187,4 @@ Built as planned, with no change to any step. Both open questions took their def
 - `check_work_integrity.mjs` reports 36 violations, all on the two edited units (4 per locale). The plan expected this, since the script freezes existing units.
 - `check:money` flags two `SportsProgram.tsx` render sites, `{seasonsTotal}` and `{latestMargin.value}`. This PR does not touch that file, and the check is not in the build.
 - `audit:mobile` ran on the Phase 1 build. Phase 2 only swapped two note strings.
+- **Later decision (2026-11-02):** the state-title total moved from 43 to the school's stated 42, in a follow-up PR. The school's listed years still total 46.

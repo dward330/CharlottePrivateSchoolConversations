@@ -30,7 +30,9 @@ groundbreaking, and **two confirmed Gatorade POY winners**.
   https://www.charlottechristian.com/about/leadership
 - Full season/level catalog: https://www.charlottechristian.com/athletics/teams
 
-## 2. Winning Record — 43 state titles in seven sports
+## 2. Winning Record — 42 state titles in seven sports
+
+The school says "42 team state crowns in seven different sports". The years it lists beneath that sentence total 46, as the table below shows.
 
 | Sport | Titles | Most recent |
 |---|---|---|

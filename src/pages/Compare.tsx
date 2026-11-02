@@ -1,4 +1,4 @@
-import { isolateFigures, localizeMoneyText } from '../lib/format.ts'
+import { isolateFigures, keepSeasonsWhole, localizeMoneyText } from '../lib/format.ts'
 import { useEffect, useLayoutEffect, useRef, useState, type Ref } from 'react'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel } from '../lib/labels.ts'
@@ -51,10 +51,6 @@ function ncAdmitFor(vm: ValueMetric, slug: string) {
   if (!nc?.latestTerm || !u) return null
   return { term: nc.latestTerm, university: u.name, applied: u.applied, admitted: u.accepted }
 }
-
-/** A word joiner after each season's dash, so `2025–26` never wraps at the dash.
-    Render only: the stored figure is untouched. */
-const keepSeasonsWhole = (label: string) => label.replace(/(\d)–(\d)/g, '$1–\u2060$2')
 
 /** The row-header tip. `check:ncrows` holds every school to one shared term,
     so the first selected school with a card speaks for the row. */

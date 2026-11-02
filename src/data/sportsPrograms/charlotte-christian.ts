@@ -28,12 +28,12 @@ export const charlotteChristian: SportsProgram = {
     headline:
       '22 sports and more than 50 teams, with over 80% of students in grades 7–12 playing.',
     subhead:
-      'Forty-three state championships across seven different sports — a record concentrated heavily in baseball and football.',
+      'Forty-two state championships across seven different sports — a record concentrated heavily in baseball and football.',
     stats: [
       { value: '22', label: 'sports for boys and girls' },
       { value: '50+', label: 'teams across V · JV · MS' },
       { value: '80%+', label: 'of grades 7–12 participate' },
-      { value: '43', label: 'state titles in 7 sports' },
+      { value: '42', label: 'state titles in 7 sports' },
     ],
     seasons: [
       {
@@ -187,7 +187,7 @@ export const charlotteChristian: SportsProgram = {
     seasonDetail: [
       {
         program: 'Baseball',
-        text: 'The 2026 NCISAA 4A championship over Metrolina Christian was the program’s 18th state title and lifted the school’s all-time total to 43. Head coach Reid Fronk is a 2004 Charlotte Christian graduate who played in the Tampa Bay Rays organization.',
+        text: 'The 2026 NCISAA 4A championship over Metrolina Christian was the program’s 18th state title, and the school counts 42 team state crowns in all. Head coach Reid Fronk is a 2004 Charlotte Christian graduate who played in the Tampa Bay Rays organization.',
       },
       {
         program: 'Football',

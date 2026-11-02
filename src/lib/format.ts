@@ -131,6 +131,11 @@ export function isolateFigures(text: string): string {
   )
 }
 
+/** A word joiner after each season's dash, so `2025–26` never wraps at the dash.
+    Render only: the stored figure is untouched. Runs after isolateFigures(),
+    whose range pattern does not match across a joiner. */
+export const keepSeasonsWhole = (label: string) => label.replace(/(\d)–(\d)/g, '$1–\u2060$2')
+
 /**
  * The locale to format NUMBERS in — as opposed to the active UI language.
  * See figureLocale.ts for why a few locales differ.
