@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 494 ingested research documents.
+**13 schools × 12 research areas**, 495 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 17 | 3 | 2 | 18 | 17 | 17 | 2 | 17 | 17 | 1 | 1 | 18 | 2 |
+| Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 1 | 1 | 18 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -147,7 +147,7 @@ research dossier folds in behind a structured card.
 | `national-profile` | National Profile | 7/13 | 4 |
 | `power-4` | Power 4 Offers | 7/13 | 1 |
 | `pros` | Professional Athletes | 7/13 | 1 |
-| `redesign-research` | Sports Research Dossier (2026) | 10/13 | 4 |
+| `redesign-research` | Sports Research Dossier (2026) | 11/13 | 4 |
 | `sports-medicine` | Sports Medicine & Performance | 7/13 | 1 |
 | `sports-offered` | Sports Offered | 9/13 | 3 |
 | `win-loss` | Win–Loss Records | 7/13 | 2 |
@@ -266,9 +266,13 @@ with `/wells-fargo-cup`. Fourteen rules travel with it:
 - **A card's table holds its whole division,** on or off the roster, because its heading
   says "every". `check:cup` fails on a gap, so a school in a new division brings that
   division's field into `CUP_RECORDS`.
+- **An NCHSAA table holds the published top, not a whole division,** because the association
+  prints only the top 10 per class, or top 5. Its heading says so and a dash means not listed.
+- **The NCHSAA adds five participation points per playoff sport,** so the card's scoring
+  sentences differ by association.
 - **NCHSAA schools never appear in an NCISAA table.** Their scores are not comparable.
-- **A non-roster rival goes in `CUP_DIVISION_LEADERS`,** which holds places 1–2 in every
-  division for every season.
+- **A non-roster rival goes in `CUP_DIVISION_LEADERS`,** which holds places 1–2 in each
+  division a card shows.
 - **A missing year is an em dash,** never an estimate of what the school scored.
 - **Every `~` wears TO VERIFY.** `isEstimate` prints the `~`, and the tag follows it.
 - **Places are copied as published,** including out-of-order rows; `tied: true` prints
@@ -1091,7 +1095,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `p4-commits-2426` | Power 4 commits | 10/13 | Q |
 | `d1-commits-2426` | Division I commits | 10/13 | Q |
 | `cup-finish` | Wells Fargo Cup finish, 2025–26 | 11/13 | – Q C sub |
-| `cup-titles` | Wells Fargo Cup titles, 2020–21 to 2025–26 | 10/13 | – Q C sub |
+| `cup-titles` | Wells Fargo Cup titles, 2020–21 to 2025–26 | 11/13 | – Q C sub |
 
 ### College Support `college-support`
 

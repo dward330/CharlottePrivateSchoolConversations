@@ -4379,7 +4379,8 @@
         "providence-day:[34].values.covenant-day",
         "providence-day:[42].values.charlotte-country-day",
         "providence-day:[42].values.davidson-day",
-        "providence-day:[42].values.gaston-day"
+        "providence-day:[42].values.gaston-day",
+        "providence-day:[42].values.charlotte-catholic"
       ]
     },
     {
@@ -5141,8 +5142,8 @@
       ]
     },
     {
-      "t": "এই ছয় মৌসুমে ডিভিশন শিরোপা। নিচে, কত মৌসুমে স্কুলটি তার ডিভিশনের শীর্ষ 3-এ শেষ করেছে। এক ডিভিশনের শিরোপা অন্য ডিভিশনের শিরোপার সঙ্গে তুলনীয় নয়। Charlotte Catholic-এ প্রযোজ্য নয় দেখানো হয়েছে, কারণ এখানে শুধু তার সর্বশেষ মৌসুম যাচাই করা হয়েছে।",
-      "of": "0f2c3818",
+      "t": "এই ছয় মৌসুমে ডিভিশন শিরোপা। নিচে, কত মৌসুমে স্কুলটি তার ডিভিশনের শীর্ষ 3-এ শেষ করেছে। এক ডিভিশনের শিরোপা অন্য ডিভিশনের শিরোপার সঙ্গে তুলনীয় নয়।",
+      "of": "676f71a1",
       "at": [
         "providence-day:[42].note"
       ]
@@ -5167,7 +5168,15 @@
       "t": "6টির মধ্যে 2টিতে শীর্ষ 3",
       "of": "0eda0491",
       "at": [
-        "providence-day:[42].subs.gaston-day"
+        "providence-day:[42].subs.gaston-day",
+        "providence-day:[42].subs.charlotte-catholic"
+      ]
+    },
+    {
+      "t": "2025–26-এ জিতেছে, NCHSAA 6A-তে।",
+      "of": "03dd12fe",
+      "at": [
+        "providence-day:[42].quals.charlotte-catholic.text"
       ]
     },
     {

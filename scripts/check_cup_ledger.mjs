@@ -17,7 +17,8 @@
  *   - every pointSources entry is a sport in CUP_SPORTS for that season;
  *   - every CUP_SPORTS key has a `sports.cup.sport_<key>` string in en.json;
  *   - divisionRows never mixes associations;
- *   - a card's table holds its whole division, because its heading says "every";
+ *   - an NCISAA card's table holds its whole division, because its heading says
+ *     "every"; an NCHSAA card holds the published top, and its heading says that;
  *   - Providence Day's card reads the figures verified from the official tables;
  *   - the inline fixtures compute what they should;
  *   - the two Compare rows (`cup-finish`, `cup-titles`, plan `cupcompare`) are
@@ -77,7 +78,7 @@ for (const r of CUP_RECORDS) {
 const seenLeaders = new Set()
 for (const l of CUP_DIVISION_LEADERS) {
   splitSum(l, l.school)
-  const key = `${l.classification}|${l.season}|${l.place}`
+  const key = `${l.association}|${l.classification}|${l.season}|${l.place}`
   if (seenLeaders.has(key)) fail(`duplicate leader row: ${key}`)
   seenLeaders.add(key)
   if (!l.slug) continue
@@ -143,6 +144,12 @@ for (const r of CUP_RECORDS.filter((x) => x.association === 'NCISAA')) {
     fail(`divisionRows mixes associations: ${r.school} table holds an NCHSAA school`)
   }
 }
+const ncisaa = CUP_RECORDS.filter((r) => r.association === 'NCISAA').map((r) => r.school)
+for (const r of CUP_RECORDS.filter((x) => x.association === 'NCHSAA')) {
+  if (cup.divisionRows(r.school).some((s) => ncisaa.includes(s))) {
+    fail(`divisionRows mixes associations: ${r.school} table holds an NCISAA school`)
+  }
+}
 
 /* ------------------------------------------------- shipped figures, PD -- */
 
@@ -167,6 +174,12 @@ eq('Davidson Day lead over next', cup.leadOverNext('davidson-day'), [0, 42.5, 17
 eq('Davidson Day table', cup.divisionRows('davidson-day').length, 53)
 eq('Davidson Day classes', cup.classLabel('davidson-day'), '2A / 3A')
 eq('Davidson Day last win', cup.headlineStats('davidson-day').lastWin?.classification, '2A')
+eq('Charlotte Catholic lead over next', cup.leadOverNext('charlotte-catholic'), [15, 5, 25, 37.5, 35, 75])
+eq('Charlotte Catholic table', cup.divisionRows('charlotte-catholic').length, 21)
+eq('Charlotte Catholic classes', cup.classLabel('charlotte-catholic'), '3A / 4A / 6A')
+eq('Charlotte Catholic cups', [cup.headlineStats('charlotte-catholic').cupsWon, cup.headlineStats('charlotte-catholic').seasonsTotal], [1, 6])
+eq('Charlotte Catholic margin', [cup.headlineStats('charlotte-catholic').latestMargin?.value, cup.headlineStats('charlotte-catholic').latestMargin?.rival.name], [75, 'Watauga'])
+eq('Charlotte Catholic hides the bars', cup.nearestRival('charlotte-catholic', '2025–26'), null)
 eq('PD comeback', cup.isComeback('providence-day'), true)
 eq('PD table', cup.divisionRows('providence-day').length, 19)
 eq('PD table ends with the schools that left 4A', cup.divisionRows('providence-day').slice(-2), ['greensboro-day', 'wake-christian'])
@@ -278,6 +291,7 @@ const body = readFileSync(join(here, '../src/components/SportsProgram.tsx'), 'ut
 if (!/pointsToken\(c\.result, number\)/.test(body) || !/estimated && \(/.test(body) || !/<ToVerify \/>/.test(body)) {
   fail('isEstimate has no render path: the card must print pointsToken and wire ToVerify')
 }
+if (!/nchsaa \? 'sports\.cup\.tableTitleNchsaa'/.test(body)) fail('an NCHSAA table must not print the "every school" heading')
 
 // The bars compare each school with the place right above it, or 2nd if it won.
 for (const [slug, name] of [
@@ -402,7 +416,8 @@ if (finish && titles) {
       const rival = cup.seasonRival(slug, current.season)
       if (!finishQual) {
         fail(`cup-finish ${slug}: non-null cell has no quals tooltip`)
-      } else if (!rival) {
+      // The NCHSAA tooltip carries the cross-association caveat, so only its points figure is pinned.
+      } else if (!rival || current.association === 'NCHSAA') {
         if (!finishQual.startsWith(`${current.points} points`)) {
           fail(`cup-finish ${slug}: tooltip must start with "${current.points} points"`)
         }

@@ -497,6 +497,19 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
   'Wake Christian Academy': { kind: 'day', url: 'https://wakechristianacademy.com', city: 'Raleigh', state: 'NC' },
   'Wesleyan Christian Academy': { kind: 'day', url: 'https://www.wcatrojans.org', city: 'High Point', state: 'NC' },
 
+  /* Not on a placement list: the rest of Charlotte Catholic's Cup table, from the NCHSAA. */
+  'Watauga High School': { kind: 'public', url: 'https://whs.wataugaschools.org', city: 'Boone', state: 'NC' },
+  'East Chapel Hill High School': { kind: 'public', url: 'https://echhs.chccs.org', city: 'Chapel Hill', state: 'NC' },
+  'Northern Guilford High School': { kind: 'public', url: 'https://northernhs.gcsnc.com', city: 'Greensboro', state: 'NC' },
+  'Middle Creek High School': { kind: 'public', url: 'https://middlecreekhs.wcpss.net', city: 'Apex', state: 'NC' },
+  'Needham B. Broughton High School': { kind: 'public', url: 'https://broughtonhs.wcpss.net', city: 'Raleigh', state: 'NC' },
+  'Green Hope High School': { kind: 'public', url: 'https://greenhopehs.wcpss.net', city: 'Cary', state: 'NC' },
+  'John T. Hoggard High School': { kind: 'public', url: 'https://hoggard.nhcs.net', city: 'Wilmington', state: 'NC' },
+  'Panther Creek High School': { kind: 'public', url: 'https://panthercreekhs.wcpss.net', city: 'Cary', state: 'NC' },
+  'Chapel Hill High School': { kind: 'public', url: 'https://chhs.chccs.org', city: 'Chapel Hill', state: 'NC' },
+  'Mount Tabor High School': { kind: 'public', url: 'https://www.wsfcs.k12.nc.us/o/mths', city: 'Winston-Salem', state: 'NC' },
+  'J.H. Rose High School': { kind: 'public', url: 'https://jhr.pitt.k12.nc.us', city: 'Greenville', state: 'NC' },
+
   /* Not on a placement list: the rest of NCISAA 2A and 3A, for Davidson Day's Cup table. */
   'The O’Neal School': { kind: 'day', url: 'https://www.onealschool.org', city: 'Southern Pines', state: 'NC' },
   'Wayne Country Day School': { kind: 'day', url: 'https://www.waynecountryday.com', city: 'Goldsboro', state: 'NC' },

@@ -3546,6 +3546,8 @@ html.photo-viewer-open { overflow: hidden; }
 
 /* -- 1b · Wells Fargo Cup -------------------------------------------------- */
 
+/* An NCHSAA card has no best-season tile, so the last of its three fills the row. */
+.cup-explain ~ .sports-stats > .sports-stat:nth-child(3):last-child { grid-column: span 2; }
 .cup-explain {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
