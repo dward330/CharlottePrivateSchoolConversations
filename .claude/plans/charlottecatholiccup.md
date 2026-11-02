@@ -1,7 +1,7 @@
 ---
 name: charlottecatholiccup
 title: Turn on the Wells Fargo Cup card for Charlotte Catholic, the first NCHSAA card, make the card's wording association-aware, and correct the school's Cup count and 2026 title count
-status: in-progress
+status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/charlottecatholiccup
