@@ -281,9 +281,10 @@ with `/wells-fargo-cup`. Fourteen rules travel with it:
   and shows an em dash in last place or a season with no record.
 - **Every school name on the table links, except the selected school's.** A roster school
   links to its page and carries the brand edge explained by the legend above the table.
-  Any other school links to its homepage in `CUP_HOMEPAGES`, a root URL, with the arrow
-  alone. `check:cup` fails on an off-roster name with no homepage, so a school in a new
-  division brings its homepages too, recorded in `source-material/sports/_shared/`.
+  Any other school links to its homepage with the arrow alone. The URL lives only in the
+  `HIGH_SCHOOLS` master (`src/data/highSchools.ts`), and `CUP_HIGH_SCHOOLS` maps a Cup slug to
+  that record. `check:cup` fails on an off-roster name with no homepage, so a school in a new
+  division adds its record to the master and to `High School Destinations.md`.
 - **The race bars compare a school with the place right above it, or 2nd if it won.**
   `nearestRival` passes over a tied school and a skipped place. The gap tile is separate:
   it always reads the winner, through `seasonRival`.

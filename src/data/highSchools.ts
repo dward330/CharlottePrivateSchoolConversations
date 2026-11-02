@@ -486,6 +486,17 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     note: 'All-boys boarding 9-12',
   },
 
+  /* Not on a placement list: the rest of NCISAA 4A, for the Wells Fargo Cup table. */
+  'Cary Academy': { kind: 'day', url: 'https://www.caryacademy.org', city: 'Cary', state: 'NC' },
+  'Durham Academy': { kind: 'day', url: 'https://www.da.org', city: 'Durham', state: 'NC' },
+  'Forsyth Country Day School': { kind: 'day', url: 'https://www.fcds.org', city: 'Lewisville', state: 'NC' },
+  'Greensboro Day School': { kind: 'day', url: 'https://www.greensboroday.org', city: 'Greensboro', state: 'NC' },
+  'Metrolina Christian Academy': { kind: 'independent', url: 'https://www.metrolinachristian.org', city: 'Indian Trail', state: 'NC' },
+  'North Raleigh Christian Academy': { kind: 'day', url: 'https://www.nrcaknights.com', city: 'Raleigh', state: 'NC' },
+  'Ravenscroft School': { kind: 'day', url: 'https://www.ravenscroft.org', city: 'Raleigh', state: 'NC' },
+  'Wake Christian Academy': { kind: 'day', url: 'https://wakechristianacademy.com', city: 'Raleigh', state: 'NC' },
+  'Wesleyan Christian Academy': { kind: 'day', url: 'https://www.wcatrojans.org', city: 'High Point', state: 'NC' },
+
   /* Ambiguous or unresolvable — NO url, by the user's call (2026-09-17).
      Each name carries no state in the source and belongs to many schools.
      Candidate sets are in the companion doc; do NOT pick the famous one. */

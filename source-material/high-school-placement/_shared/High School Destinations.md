@@ -298,3 +298,21 @@ A Charlotte-area private middle-school list does not exist at the parallel URL
 
 Edition check: every profile above shows the "2026-2027 Rankings" heading and "out of
 17,945 nationally ranked schools"; data years 2022-2023 through 2024-2025.
+
+## Added for the Wells Fargo Cup table (2026-11-02) (9)
+
+These schools are not on a placement list. They are in the master because the Cup table links every off-roster name in NCISAA 4A to its homepage, alongside Christ School, Rabun Gap Nacoochee School and St. Mary's School above. Each URL was fetched with a browser user agent, answered HTTP 200, and its page names the school.
+
+Wake Christian and Wesleyan Christian do not use the domains older directories list: `www.wakechristian.org` and `www.wesleyan-nc.org` did not answer. Their URLs came from a web search and were confirmed by fetching them.
+
+| School | City | State | kind | URL | Page title |
+|---|---|---|---|---|---|
+| Cary Academy | Cary | NC | day | https://www.caryacademy.org | Cary Academy - Private and Independent School in Cary, NC |
+| Durham Academy | Durham | NC | day | https://www.da.org | Home - Durham NC Independent School \| Durham Academy |
+| Forsyth Country Day School | Lewisville | NC | day | https://www.fcds.org | Home \| Forsyth Country Day School (FCDS) \| North Carolina |
+| Greensboro Day School | Greensboro | NC | day | https://www.greensboroday.org | Greensboro Day School \| Private Pre-K–12 School in Greensboro, NC |
+| Metrolina Christian Academy | Indian Trail | NC | independent | https://www.metrolinachristian.org | Home - Metrolina Christian Academy |
+| North Raleigh Christian Academy | Raleigh | NC | day | https://www.nrcaknights.com | Home \| NRCA (the page names North Raleigh Christian Academy) |
+| Ravenscroft School | Raleigh | NC | day | https://www.ravenscroft.org | Ravenscroft PreK-12 Independent School in Raleigh \| Ravenscroft School |
+| Wake Christian Academy | Raleigh | NC | day | https://wakechristianacademy.com | Private Christian School Raleigh NC \| Wake Christian Academy |
+| Wesleyan Christian Academy | High Point | NC | day | https://www.wcatrojans.org | Christian School in High Point \| Wesleyan Christian Academy |

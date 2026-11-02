@@ -19,7 +19,8 @@ import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 import { PhotoViewer, PhotoZoomButton, type ViewerPhoto } from './PhotoViewer.tsx'
 import { usePhotoViewer } from './usePhotoViewer.ts'
-import { CUP_HOMEPAGES, CUP_POINTS, CUP_SEASONS, CUP_SPORTS } from '../data/wellsFargoCup.ts'
+import { CUP_HIGH_SCHOOLS, CUP_POINTS, CUP_SEASONS, CUP_SPORTS } from '../data/wellsFargoCup.ts'
+import { highSchoolUrl } from '../data/highSchools.ts'
 import { schoolBySlug } from '../lib/manifest.ts'
 import { toSchool, useNavigate } from '../lib/router.ts'
 import {
@@ -287,7 +288,7 @@ function CupSchoolName({ row, selected }: { row: string; selected: boolean }) {
       </div>
     )
   }
-  const href = CUP_HOMEPAGES[row]
+  const href = highSchoolUrl(CUP_HIGH_SCHOOLS[row] ?? '')
   if (!href) return <div className="cup-school">{cupName(row)}</div>
   return (
     <div className="cup-school">
