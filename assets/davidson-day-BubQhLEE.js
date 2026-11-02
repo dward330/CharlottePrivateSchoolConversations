@@ -1,4 +1,4 @@
-var e=`davidson-day`,t=`sports`,n=32,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Davidson Day - Sports - 247Sports Recruiting Rankings.md`,preview:`# Davidson Day — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Davidson Day — Sports — 247Sports Recruiting Rankings
+var e=`davidson-day`,t=`sports`,n=37,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Davidson Day - Sports - 247Sports Recruiting Rankings.md`,preview:`# Davidson Day — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Davidson Day — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -69,9 +69,9 @@ _D3 (2025): Dom Desmond (Sewanee)._`},{subtopic:`Class of 2026 — Division I (2
  access to the Lake Davidson Nature Preserve — which supports the **rowing** program.
  https://www.davidsonday.org/about/our-campus
 - Fields **no** wrestling, softball, field hockey or boys lacrosse. MaxPreps lists some of
- these; the school's own teams page does not and is treated as authoritative.`},{subtopic:`2. Winning Record — 7 titles, then 4, then 1`,source_file:null,preview:`| Program | 2023–24 (2A) | 2024–25 (3A) | 2025–26 (3A) | |---|---|---|---| | Boys Tennis | STATE | STATE (D2) | STATE (D2, 5–0 final) | | Volleyball | STATE 24–4–2 | STATE 24–4 | RUNNER-UP 18–11 | | Girls Soccer | STATE 18–3 | STATE 14–2 | none — 3–11, 1st-round exit | | Boys Soccer | STATE 17–3 | STATE 17–4 | none —…`,text:`| Program | 2023–24 (2A) | 2024–25 (3A) | 2025–26 (3A) |
+ these; the school's own teams page does not and is treated as authoritative.`},{subtopic:`2. Winning Record — 7 titles, then 4, then 1`,source_file:null,preview:`| Program | 2023–24 (2A) | 2024–25 (3A) | 2025–26 (3A) | |---|---|---|---| | Boys Tennis | STATE (5–0 final) | STATE (D2, 5–2 final) | STATE (D2, 5–0 final) | | Volleyball | STATE 24–4–2 | STATE 24–4 | RUNNER-UP 18–11 | | Girls Soccer | STATE 18–3 | STATE 14–2 | none — 3–11, 1st-round exit | | Boys Soccer | STATE 17–3…`,text:`| Program | 2023–24 (2A) | 2024–25 (3A) | 2025–26 (3A) |
 |---|---|---|---|
-| Boys Tennis | STATE | STATE (D2) | **STATE** (D2, 5–0 final) |
+| Boys Tennis | STATE (5–0 final) | STATE (D2, 5–2 final) | **STATE** (D2, 5–0 final) |
 | Volleyball | STATE 24–4–2 | STATE 24–4 | **RUNNER-UP** 18–11 |
 | Girls Soccer | STATE 18–3 | STATE 14–2 | none — 3–11, 1st-round exit |
 | Boys Soccer | STATE 17–3 | STATE 17–4 | none — quarterfinal |
@@ -83,7 +83,7 @@ _D3 (2025): Dom Desmond (Sewanee)._`},{subtopic:`Class of 2026 — Division I (2
 **Wells Fargo Cup**. 2024–25's four titles were the most of any 3A school.
 - 2026 spring rundown (tennis): https://www.highschoolot.com/story/ncisaa-spring-championship-rundown/22363802/
 
-**The 2025–26 decline is the story:** three separate three-peats ended in one year. Girls
+**The 2025–26 decline is the story:** girls soccer's three-peat and boys soccer's two-year title run ended in one year. Girls
 soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor —
 soccer changed hands after 2024–25 (Laatsch → Letourneau).
 
@@ -94,7 +94,7 @@ https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/history/
 
 **All-time: 37 team state championships, 37 individual state championships.**
 https://www.davidsonday.org/athletics/history-and-achievements
-*(The school's own board is stale — it omits the 2026 boys tennis title, which would make 38.)*`},{subtopic:`3. College Pipeline — 10 documented commits, 9 D1, 3 P4`,source_file:null,preview:`| Class | Athlete | Sport | College | Conference | Level | |---|---|---|---|---|---| | 2026 | Will Stevens | Basketball | Clemson | ACC | P4 | | 2026 | Cody Peck | Basketball | Dayton | Atlantic 10 | D1 | | 2025 | Isaiah Denis | Basketball | North Carolina | ACC | P4 | | 2025 | Abbie Gordon | Equestrian | Georgia |…`,text:`| Class | Athlete | Sport | College | Conference | Level |
+*(The school's own board is stale — it omits the 2026 boys tennis title, which would make 38. It also lists boys soccer 2022 and boys cross country 2022, which the NCISAA results do not support. See Davidson Day - Sports - Wells Fargo Cup Standings 2020-2026.md.)*`},{subtopic:`3. College Pipeline — 10 documented commits, 9 D1, 3 P4`,source_file:null,preview:`| Class | Athlete | Sport | College | Conference | Level | |---|---|---|---|---|---| | 2026 | Will Stevens | Basketball | Clemson | ACC | P4 | | 2026 | Cody Peck | Basketball | Dayton | Atlantic 10 | D1 | | 2025 | Isaiah Denis | Basketball | North Carolina | ACC | P4 | | 2025 | Abbie Gordon | Equestrian | Georgia |…`,text:`| Class | Athlete | Sport | College | Conference | Level |
 |---|---|---|---|---|---|
 | 2026 | Will Stevens | Basketball | Clemson | ACC | P4 |
 | 2026 | Cody Peck | Basketball | Dayton | Atlantic 10 | D1 |
@@ -213,6 +213,321 @@ general web, On3's NIL database, 247Sports player profiles and local coverage.
 - Football's recent records entirely unconfirmed; its documented peak is 2011–2015.
 - The "1 USA Swimming Multiple-Time All-American" is not named by the school.
 - Girls basketball listed as a single "Varsity/JV" line — whether one or two squads is unclear.
+
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Davidson Day - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Davidson Day - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Davidson Day - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Davidson Day Wells Fargo Cup results`,source_file:null,preview:`The ledger already holds these six rows, and every cell matches the published tables. | Class | Season | Place | Fall | Winter | Spring | Total | |---|---|---|---|---|---|---| | 2A | 2020–21 | 9 | 95 | 50 | 37.5 | 182.5 | | 2A | 2021–22 | 3 | 162.5 | 45 | 152.5 | 360 | | 2A | 2022–23 | 3 | 110 | 55 | 137.5 | 302.5 | |…`,text:`The ledger already holds these six rows, and every cell matches the published tables.
+
+| Class | Season | Place | Fall | Winter | Spring | Total |
+|---|---|---|---|---|---|---|
+| 2A | 2020–21 | 9 | 95 | 50 | 37.5 | 182.5 |
+| 2A | 2021–22 | 3 | 162.5 | 45 | 152.5 | 360 |
+| 2A | 2022–23 | 3 | 110 | 55 | 137.5 | 302.5 |
+| 2A | 2023–24 | 1 | 237.5 | 95 | 165 | 497.5 |
+| 3A | 2024–25 | 2 | 167.5 | 62.5 | 137.5 | 367.5 |
+| 3A | 2025–26 | 8 | 90 | 37.5 | 140 | 267.5 |`},{subtopic:`Davidson Day Wells Fargo Cup point sources`,source_file:null,preview:`Years are calendar years of the event. Only sports with a title or at least two runner-up years are listed, the bar the other schools use. | Sport | Term | Titles | Runner-up | |---|---|---|---| | Girls volleyball | fall | 2023, 2024 | 2021, 2022, 2025 | | Boys tennis | spring | 2023, 2024, 2025, 2026 | — | | Girls…`,text:`Years are calendar years of the event. Only sports with a title or at least two runner-up years are listed, the bar the other schools use.
+
+| Sport | Term | Titles | Runner-up |
+|---|---|---|---|
+| Girls volleyball | fall | 2023, 2024 | 2021, 2022, 2025 |
+| Boys tennis | spring | 2023, 2024, 2025, 2026 | — |
+| Girls soccer | spring | 2023, 2024, 2025 | 2022 |
+| Boys cross country | fall | 2020, 2021, 2023 | — |
+| Boys soccer | fall | 2023, 2024 | — |
+| Girls lacrosse | spring | 2022 | 2026 |
+| Boys swimming | winter | — | 2022, 2024 |
+| Girls cross country | fall | 2023 | — |
+| Boys basketball | winter | 2024 | — |
+| Girls basketball | winter | 2021 | — |`},{subtopic:`Wells Fargo Cup new division rows for the ledger`,source_file:null,preview:"Every row a school on Davidson Day’s table needs in `CUP_RECORDS` that the ledger does not hold yet: 274 rows, all NCISAA, none an estimate. `T` marks a published tie. Places are copied as published, oddities included. Generated from the parsed tables and checked fall + winter + spring = total, except the one row…",text:`Every row a school on Davidson Day’s table needs in \`CUP_RECORDS\` that the ledger does not hold yet: 274 rows, all NCISAA, none an estimate. \`T\` marks a published tie. Places are copied as published, oddities included. Generated from the parsed tables and checked fall + winter + spring = total, except the one row noted in Method.
+
+| Slug | Class | Season | Place | Fall | Winter | Spring | Total |
+|---|---|---|---|---|---|---|---|
+| oneal-school | 2A | 2020–21 | 1 | 112.5 | 102.5 | 120 | 335 |
+| oneal-school | 2A | 2021–22 | 2 | 110 | 125 | 157.5 | 392.5 |
+| oneal-school | 2A | 2022–23 | 1 | 130 | 102.5 | 90 | 322.5 |
+| oneal-school | 2A | 2023–24 | 2 | 87.5 | 130 | 155 | 372.5 |
+| oneal-school | 2A | 2024–25 | 13 | 0 | 67.5 | 90 | 157.5 |
+| oneal-school | 2A | 2025–26 | 20 | 0 | 30 | 25 | 55 |
+| wayne-country-day | 2A | 2020–21 | 3 | 87.5 | 120 | 72.5 | 280 |
+| wayne-country-day | 2A | 2021–22 | 7 | 102.5 | 90 | 37.5 | 230 |
+| wayne-country-day | 2A | 2022–23 | 6 | 62.5 | 107.5 | 37.5 | 207.5 |
+| wayne-country-day | 2A | 2023–24 | 9 | 0 | 150 | 50 | 200 |
+| wayne-country-day | 2A | 2024–25 | T11 | 0 | 87.5 | 75 | 162.5 |
+| wayne-country-day | 2A | 2025–26 | 15 | 0 | 22.5 | 95 | 117.5 |
+| trinity-academy | 2A | 2020–21 | 4 | 117.5 | 47.5 | 80 | 245 |
+| trinity-academy | 2A | 2021–22 | 6 | 155 | 75 | 45 | 275 |
+| trinity-academy | 2A | 2022–23 | 2 | 147.5 | 47.5 | 110 | 305 |
+| trinity-academy | 2A | 2023–24 | 3 | 145 | 22.5 | 157.5 | 325 |
+| trinity-academy | 3A | 2024–25 | 13 | 67.5 | 22.5 | 60 | 150 |
+| trinity-academy | 3A | 2025–26 | 12 | 82.5 | 22.5 | 60 | 165 |
+| rocky-mount-academy | 2A | 2020–21 | 5 | 57.5 | 0 | 175 | 232.5 |
+| rocky-mount-academy | 2A | 2021–22 | 5 | 112.5 | 22.5 | 170 | 305 |
+| rocky-mount-academy | 2A | 2022–23 | 5 | 105 | 22.5 | 135 | 262.5 |
+| rocky-mount-academy | 2A | 2023–24 | 5 | 72.5 | 57.5 | 145 | 275 |
+| rocky-mount-academy | 2A | 2024–25 | 2 | 112.5 | 70 | 197.5 | 380 |
+| rocky-mount-academy | 2A | 2025–26 | 3 | 125 | 65 | 157.5 | 347.5 |
+| caldwell-academy | 2A | 2020–21 | 6 | 117.5 | 50 | 95 | 262.5 |
+| caldwell-academy | 2A | 2021–22 | 4 | 135 | 97.5 | 85 | 317.5 |
+| caldwell-academy | 2A | 2022–23 | 7 | 60 | 72.5 | 62.5 | 195 |
+| caldwell-academy | 2A | 2023–24 | 8 | 57.5 | 60 | 85 | 202.5 |
+| caldwell-academy | 2A | 2024–25 | 1 | 157.5 | 110 | 157.5 | 425 |
+| caldwell-academy | 2A | 2025–26 | 1 | 150 | 152.5 | 180 | 482.5 |
+| trinity-durham | 2A | 2020–21 | 7 | 95 | 15 | 92.5 | 202.5 |
+| trinity-durham | 2A | 2021–22 | T12 | 22.5 | 30 | 97.5 | 150 |
+| trinity-durham | 2A | 2022–23 | 10 | 50 | 45 | 75 | 170 |
+| trinity-durham | 2A | 2023–24 | 6 | 70 | 90 | 67.5 | 227.5 |
+| trinity-durham | 3A | 2024–25 | 22 | 22.5 | 30 | 22.5 | 75 |
+| trinity-durham | 3A | 2025–26 | 16 | 70 | 35 | 22.5 | 127.5 |
+| burlington-school | 2A | 2020–21 | 8 | 0 | 95 | 102.5 | 197.5 |
+| burlington-school | 2A | 2021–22 | T12 | 0 | 100 | 50 | 150 |
+| burlington-school | 2A | 2022–23 | 20 | 0 | 50 | 50 | 100 |
+| burlington-school | 2A | 2023–24 | 24 | 0 | 22.5 | 22.5 | 45 |
+| burlington-school | 2A | 2024–25 | 14 | 22.5 | 82.5 | 45 | 150 |
+| burlington-school | 2A | 2025–26 | T18 | 0 | 60 | 0 | 60 |
+| westchester-country-day | 2A | 2020–21 | 10 | 95 | 0 | 87.5 | 182.5 |
+| westchester-country-day | 2A | 2021–22 | 9 | 67.5 | 0 | 112.5 | 180 |
+| westchester-country-day | 2A | 2022–23 | 22 | 0 | 0 | 85 | 85 |
+| westchester-country-day | 2A | 2023–24 | 21 | 22.5 | 20 | 37.5 | 80 |
+| westchester-country-day | 2A | 2024–25 | 4 | 120 | 37.5 | 95 | 252.5 |
+| westchester-country-day | 2A | 2025–26 | T9 | 77.5 | 40 | 75 | 192.5 |
+| burlington-christian | 2A | 2020–21 | 11 | 45 | 0 | 125 | 170 |
+| burlington-christian | 2A | 2021–22 | 8 | 75 | 0 | 120 | 195 |
+| burlington-christian | 2A | 2022–23 | 14 | 70 | 0 | 75 | 145 |
+| burlington-christian | 2A | 2023–24 | 17 | 20 | 37.5 | 45 | 102.5 |
+| burlington-christian | 2A | 2024–25 | 3 | 50 | 22.5 | 230 | 302.5 |
+| burlington-christian | 2A | 2025–26 | 2 | 107.5 | 0 | 275 | 382.5 |
+| university-christian | 2A | 2020–21 | 12 | 60 | 80 | 25 | 165 |
+| university-christian | 2A | 2021–22 | 10 | 90 | 60 | 25 | 175 |
+| university-christian | 2A | 2022–23 | 16 | 50 | 65 | 0 | 115 |
+| university-christian | 2A | 2023–24 | 10 | 82.5 | 62.5 | 25 | 170 |
+| university-christian | 2A | 2024–25 | 10 | 50 | 85 | 52.5 | 187.5 |
+| university-christian | 2A | 2025–26 | T9 | 30 | 95 | 67.5 | 192.5 |
+| harrells-christian | 2A | 2020–21 | 13 | 45 | 0 | 105 | 150 |
+| harrells-christian | 2A | 2021–22 | 19 | 45 | 0 | 37.5 | 82.5 |
+| harrells-christian | 2A | 2022–23 | 26 | 27.5 | 0 | 37.5 | 65 |
+| harrells-christian | 2A | 2023–24 | 25 | 0 | 0 | 22.5 | 22.5 |
+| harrells-christian | 2A | 2024–25 | T11 | 60 | 37.5 | 65 | 162.5 |
+| harrells-christian | 2A | 2025–26 | 12 | 82.5 | 37.5 | 57.5 | 177.5 |
+| st-thomas-more | 2A | 2020–21 | 14 | 60 | 20 | 45 | 125 |
+| st-thomas-more | 2A | 2021–22 | 14 | 60 | 42.5 | 37.5 | 140 |
+| st-thomas-more | 2A | 2022–23 | 19 | 45 | 60 | 0 | 105 |
+| st-thomas-more | 2A | 2023–24 | 23 | 40 | 30 | 0 | 70 |
+| st-thomas-more | 2A | 2024–25 | 8 | 115 | 85 | 22.5 | 222.5 |
+| st-thomas-more | 2A | 2025–26 | 8 | 135 | 67.5 | 22.5 | 225 |
+| fayetteville-academy | 2A | 2020–21 | 15 | 45 | 0 | 60 | 105 |
+| fayetteville-academy | 2A | 2021–22 | 11 | 60 | 0 | 100 | 160 |
+| fayetteville-academy | 2A | 2022–23 | 11 | 45 | 22.5 | 85 | 152.5 |
+| fayetteville-academy | 2A | 2023–24 | 11 | 45 | 37.5 | 87.5 | 170 |
+| fayetteville-academy | 2A | 2024–25 | 5 | 60 | 22.5 | 162.5 | 245 |
+| fayetteville-academy | 2A | 2025–26 | 7 | 60 | 62.5 | 107.5 | 230 |
+| thales-rolesville | 2A | 2020–21 | 16 | 22.5 | 80 | 0 | 102.5 |
+| thales-rolesville | 2A | 2021–22 | T16 | 0 | 60 | 45 | 105 |
+| thales-rolesville | 3A | 2022–23 | 20 | 0 | 0 | 22.5 | 22.5 |
+| thales-rolesville | 3A | 2023–24 | 20 | 0 | 0 | 22.5 | 22.5 |
+| thales-rolesville | 3A | 2025–26 | 26 | 0 | 0 | 0 | 0 |
+| thales-apex | 2A | 2020–21 | 21 | 80 | 0 | 0 | 80 |
+| thales-apex | 3A | 2022–23 | 19 | 22.5 | 0 | 22.5 | 45 |
+| thales-apex | 3A | 2023–24 | 20 | 22.5 | 0 | 0 | 22.5 |
+| thales-apex | 3A | 2024–25 | 24 | 20 | 0 | 0 | 20 |
+| thales-apex | 3A | 2025–26 | 25 | 20 | 0 | 0 | 20 |
+| trinity-christian | 2A | 2020–21 | 17 | 37.5 | 60 | 0 | 97.5 |
+| trinity-christian | 2A | 2021–22 | T28 | 0 | 0 | 15 | 15 |
+| trinity-christian | 2A | 2022–23 | 23 | 37.5 | 45 | 0 | 82.5 |
+| trinity-christian | 2A | 2023–24 | 19 | 45 | 45 | 0 | 90 |
+| trinity-christian | 2A | 2024–25 | 18 | 45 | 60 | 0 | 105 |
+| trinity-christian | 2A | 2025–26 | T18 | 37.5 | 22.5 | 0 | 60 |
+| john-paul-ii | 2A | 2020–21 | 18 | 67.5 | 0 | 22.5 | 90 |
+| john-paul-ii | 2A | 2021–22 | 20 | 45 | 0 | 22.5 | 67.5 |
+| john-paul-ii | 3A | 2022–23 | 15 | 45 | 37.5 | 72.5 | 155 |
+| john-paul-ii | 3A | 2023–24 | 16 | 22.5 | 22.5 | 95 | 140 |
+| john-paul-ii | 3A | 2024–25 | 14 | 67.5 | 22.5 | 57.5 | 147.5 |
+| john-paul-ii | 3A | 2025–26 | T21 | 60 | 0 | 22.5 | 82.5 |
+| westminster-catawba | 2A | 2020–21 | 19 | 0 | 37.5 | 50 | 87.5 |
+| westminster-catawba | 2A | 2021–22 | T22 | 0 | 22.5 | 0 | 45 |
+| westminster-catawba | 2A | 2022–23 | T31 | 0 | 0 | 0 | 0 |
+| westminster-catawba | 2A | 2024–25 | 19 | 75 | 22.5 | 0 | 97.5 |
+| westminster-catawba | 2A | 2025–26 | 13 | 92.5 | 0 | 67.5 | 160 |
+| northwood-temple | 2A | 2020–21 | 20 | 37.5 | 45 | 0 | 82.5 |
+| northwood-temple | 2A | 2021–22 | T27 | 0 | 22.5 | 0 | 22.5 |
+| northwood-temple | 2A | 2022–23 | T31 | 0 | 0 | 0 | 0 |
+| northwood-temple | 2A | 2023–24 | 25 | 22.5 | 0 | 0 | 22.5 |
+| northwood-temple | 2A | 2024–25 | T22 | 22.5 | 0 | 0 | 22.5 |
+| northwood-temple | 2A | 2025–26 | 22 | 0 | 22.5 | 0 | 22.5 |
+| friendship-christian | 2A | 2020–21 | 22 | 42.5 | 0 | 37.5 | 80 |
+| friendship-christian | 2A | 2021–22 | T28 | 15 | 0 | 0 | 15 |
+| friendship-christian | 2A | 2022–23 | 27 | 55 | 0 | 0 | 55 |
+| friendship-christian | 1A | 2024–25 | 17 | 42.5 | 0 | 22.5 | 65 |
+| friendship-christian | 1A | 2025–26 | 17 | 22.5 | 0 | 50 | 72.5 |
+| freedom-christian | 2A | 2020–21 | 23 | 37.5 | 0 | 37.5 | 75 |
+| freedom-christian | 2A | 2021–22 | T16 | 22.5 | 22.5 | 60 | 105 |
+| freedom-christian | 2A | 2022–23 | 21 | 22.5 | 0 | 67.5 | 90 |
+| freedom-christian | 2A | 2023–24 | 18 | 0 | 22.5 | 72.5 | 95 |
+| freedom-christian | 2A | 2024–25 | T16 | 0 | 37.5 | 90 | 127.5 |
+| freedom-christian | 2A | 2025–26 | 17 | 0 | 37.5 | 37.5 | 75 |
+| hickory-christian | 2A | 2020–21 | 24 | 22.5 | 0 | 50 | 72.5 |
+| hickory-christian | 2A | 2021–22 | 18 | 0 | 0 | 95 | 95 |
+| hickory-christian | 2A | 2022–23 | 18 | 45 | 0 | 65 | 110 |
+| hickory-christian | 2A | 2023–24 | 13 | 102.5 | 0 | 40 | 142.5 |
+| hickory-christian | 2A | 2024–25 | 6 | 122.5 | 0 | 117.5 | 240 |
+| hickory-christian | 2A | 2025–26 | 14 | 60 | 25 | 45 | 130 |
+| wayne-christian | 2A | 2020–21 | 25 | 0 | 22.5 | 45 | 67.5 |
+| wayne-christian | 2A | 2021–22 | 15 | 50 | 37.5 | 50 | 137.5 |
+| wayne-christian | 2A | 2022–23 | 25 | 22.5 | 0 | 50 | 72.5 |
+| wayne-christian | 2A | 2023–24 | 14 | 67.5 | 22.5 | 45 | 135 |
+| wayne-christian | 3A | 2024–25 | 21 | 57.5 | 0 | 22.5 | 80 |
+| wayne-christian | 3A | 2025–26 | 23 | 45 | 0 | 22.5 | 67.5 |
+| faith-christian | 2A | 2020–21 | 26 | 22.5 | 20 | 22.5 | 65 |
+| faith-christian | 2A | 2021–22 | 25 | 0 | 15 | 22.5 | 37.5 |
+| faith-christian | 2A | 2022–23 | T12 | 60 | 20 | 70 | 150 |
+| faith-christian | 2A | 2023–24 | 20 | 37.5 | 0 | 45 | 82.5 |
+| faith-christian | 2A | 2024–25 | T16 | 45 | 0 | 82.5 | 127.5 |
+| faith-christian | 2A | 2025–26 | 5 | 80 | 37.5 | 125 | 242.5 |
+| northside-christian | 2A | 2020–21 | 27 | 0 | 22.5 | 30 | 52.5 |
+| northside-christian | 2A | 2021–22 | T22 | 0 | 22.5 | 35 | 57.5 |
+| northside-christian | 1A | 2022–23 | 10 | 0 | 100 | 30 | 130 |
+| northside-christian | 1A | 2023–24 | 13 | 0 | 87.5 | 0 | 87.5 |
+| village-christian | 2A | 2020–21 | 28 | 0 | 22.5 | 22.5 | 45 |
+| village-christian | 2A | 2021–22 | 26 | 0 | 0 | 30 | 30 |
+| village-christian | 2A | 2022–23 | 28 | 0 | 0 | 35 | 35 |
+| village-christian | 2A | 2023–24 | 22 | 22.5 | 0 | 52.5 | 75 |
+| village-christian | 2A | 2024–25 | 20 | 22.5 | 0 | 72.5 | 95 |
+| village-christian | 2A | 2025–26 | 16 | 45 | 15 | 47.5 | 107.5 |
+| epiphany-school | 2A | 2020–21 | 29 | 0 | 40 | 0 | 40 |
+| epiphany-school | 2A | 2021–22 | 21 | 22.5 | 40 | 0 | 62.5 |
+| epiphany-school | 2A | 2022–23 | 17 | 37.5 | 75 | 0 | 112.5 |
+| epiphany-school | 2A | 2023–24 | 16 | 22.5 | 45 | 40 | 107.5 |
+| epiphany-school | 2A | 2024–25 | 9 | 90 | 87.5 | 37.5 | 215 |
+| epiphany-school | 2A | 2025–26 | 4 | 100 | 95 | 60 | 255 |
+| carolina-friends | 2A | 2020–21 | 30 | 0 | 0 | 37.5 | 37.5 |
+| carolina-friends | 2A | 2021–22 | T27 | 0 | 0 | 22.5 | 22.5 |
+| carolina-friends | 2A | 2022–23 | 24 | 37.5 | 0 | 37.5 | 75 |
+| carolina-friends | 2A | 2023–24 | 27 | 0 | 5 | 0 | 5 |
+| carolina-friends | 2A | 2024–25 | T22 | 22.5 | 0 | 0 | 22.5 |
+| carolina-friends | 2A | 2025–26 | 21 | 47.5 | 0 | 0 | 47.5 |
+| salem-baptist | 2A | 2020–21 | 31 | 0 | 0 | 22.5 | 22.5 |
+| salem-baptist | 2A | 2022–23 | T31 | 0 | 0 | 0 | 0 |
+| statesville-christian | 2A | 2021–22 | 24 | 22.5 | 22.5 | 0 | 45 |
+| statesville-christian | 2A | 2022–23 | 30 | 0 | 22.5 | 0 | 22.5 |
+| statesville-christian | 1A | 2024–25 | 9 | 90 | 22.5 | 22.5 | 135 |
+| statesville-christian | 1A | 2025–26 | T5 | 112.5 | 0 | 60 | 172.5 |
+| neuse-christian | 2A | 2021–22 | T27 | 22.5 | 0 | 0 | 22.5 |
+| neuse-christian | 2A | 2022–23 | 29 | 0 | 0 | 25 | 25 |
+| neuse-christian | 1A | 2024–25 | 14 | 60 | 0 | 25 | 85 |
+| neuse-christian | 1A | 2025–26 | 19 | 45 | 0 | 22.5 | 67.5 |
+| carolina-day | 3A | 2020–21 | 15 | 87.5 | 0 | 50 | 137.5 |
+| carolina-day | 3A | 2021–22 | 17 | 65 | 0 | 15 | 80 |
+| carolina-day | 2A | 2022–23 | 8 | 72.5 | 0 | 112.5 | 185 |
+| carolina-day | 2A | 2023–24 | 7 | 120 | 0 | 90 | 210 |
+| carolina-day | 3A | 2024–25 | 19 | 0 | 0 | 92.5 | 92.5 |
+| carolina-day | 3A | 2025–26 | T21 | 45 | 0 | 37.5 | 82.5 |
+| grace-christian-sanford | 1A | 2020–21 | 3 | 137.5 | 45 | 82.5 | 265 |
+| grace-christian-sanford | 1A | 2021–22 | 1 | 162.5 | 87.5 | 142.5 | 392.5 |
+| grace-christian-sanford | 2A | 2022–23 | 9 | 20 | 50 | 107.5 | 177.5 |
+| grace-christian-sanford | 3A | 2023–24 | 12 | 22.5 | 50 | 125 | 197.5 |
+| grace-christian-sanford | 3A | 2024–25 | 11 | 57.5 | 50 | 87.5 | 195 |
+| grace-christian-sanford | 3A | 2025–26 | 13 | 0 | 72.5 | 87.5 | 160 |
+| grace-christian-raleigh | 3A | 2020–21 | 14 | 65 | 45 | 37.5 | 147.5 |
+| grace-christian-raleigh | 3A | 2021–22 | 16 | 60 | 35 | 17.5 | 112.5 |
+| grace-christian-raleigh | 3A | 2022–23 | 17 | 37.5 | 40 | 37.5 | 115 |
+| grace-christian-raleigh | 3A | 2023–24 | 10 | 110 | 57.5 | 52.5 | 220 |
+| grace-christian-raleigh | 3A | 2024–25 | 9 | 87.5 | 62.5 | 62.5 | 212.5 |
+| grace-christian-raleigh | 3A | 2025–26 | 6 | 122.5 | 0 | 185 | 307.5 |
+| greenfield-school | 1A | 2020–21 | 1 | 150 | 60 | 125 | 335 |
+| greenfield-school | 1A | 2021–22 | 2 | 167.5 | 82.5 | 67.5 | 317.5 |
+| greenfield-school | 2A | 2022–23 | T12 | 45 | 82.5 | 22.5 | 150 |
+| greenfield-school | 2A | 2023–24 | 15 | 0 | 45 | 75 | 120 |
+| greenfield-school | 2A | 2024–25 | 15 | 37.5 | 45 | 60 | 142.5 |
+| greenfield-school | 2A | 2025–26 | 11 | 37.5 | 107.5 | 45 | 190 |
+| fayetteville-christian | 3A | 2020–21 | 13 | 75 | 0 | 77.5 | 152.5 |
+| fayetteville-christian | 3A | 2021–22 | 15 | 22.5 | 22.5 | 87.5 | 132.5 |
+| fayetteville-christian | 2A | 2022–23 | 15 | 62.5 | 22.5 | 50 | 135 |
+| fayetteville-christian | 2A | 2023–24 | 12 | 57.5 | 0 | 97.5 | 155 |
+| fayetteville-christian | 3A | 2024–25 | 23 | 35 | 0 | 0 | 35 |
+| fayetteville-christian | 3A | 2025–26 | 24 | 22.5 | 0 | 0 | 22.5 |
+| cape-fear-academy | 3A | 2020–21 | 5 | 167.5 | 97.5 | 130 | 395 |
+| cape-fear-academy | 3A | 2021–22 | 2 | 177.5 | 117.5 | 230 | 525 |
+| cape-fear-academy | 3A | 2022–23 | 3 | 165 | 67.5 | 207.5 | 440 |
+| cape-fear-academy | 3A | 2023–24 | 2 | 162.5 | 47.5 | 197.5 | 407.5 |
+| cape-fear-academy | 3A | 2024–25 | 3 | 140 | 22.5 | 185 | 347.5 |
+| cape-fear-academy | 3A | 2025–26 | 1 | 170 | 57.5 | 222.5 | 450 |
+| asheville-school | 3A | 2020–21 | 4 | 147.5 | 90 | 165 | 402.5 |
+| asheville-school | 3A | 2021–22 | 4 | 140 | 117.5 | 215 | 472.5 |
+| asheville-school | 3A | 2022–23 | 5 | 145 | 137.5 | 75 | 357.5 |
+| asheville-school | 3A | 2023–24 | 4 | 130 | 117.5 | 137.5 | 385 |
+| asheville-school | 3A | 2024–25 | 4 | 72.5 | 132.5 | 140 | 345 |
+| asheville-school | 3A | 2025–26 | 3 | 117.5 | 127.5 | 160 | 405 |
+| cary-christian | 3A | 2020–21 | 2 | 180 | 110 | 200 | 490 |
+| cary-christian | 3A | 2021–22 | 3 | 175 | 97.5 | 210 | 482.5 |
+| cary-christian | 3A | 2022–23 | 6 | 195 | 75 | 75 | 345 |
+| cary-christian | 3A | 2023–24 | 6 | 157.5 | 65 | 72.5 | 295 |
+| cary-christian | 3A | 2024–25 | 5 | 150 | 95 | 60 | 305 |
+| cary-christian | 3A | 2025–26 | 4 | 167.5 | 142.5 | 57.5 | 367.5 |
+| calvary-day | 3A | 2020–21 | 12 | 72.5 | 35 | 45 | 152.5 |
+| calvary-day | 3A | 2021–22 | 12 | 22.5 | 57.5 | 67.5 | 147.5 |
+| calvary-day | 3A | 2022–23 | 14 | 90 | 37.5 | 37.5 | 165 |
+| calvary-day | 3A | 2023–24 | 9 | 132.5 | 87.5 | 22.5 | 242.5 |
+| calvary-day | 3A | 2024–25 | 6 | 145 | 40 | 110 | 295 |
+| calvary-day | 3A | 2025–26 | 7 | 85 | 87.5 | 110 | 282.5 |
+| asheville-christian | 3A | 2020–21 | 3 | 115 | 165 | 137.5 | 417.5 |
+| asheville-christian | 3A | 2021–22 | 6 | 102.5 | 110 | 135 | 347.5 |
+| asheville-christian | 3A | 2022–23 | 4 | 112.5 | 102.5 | 195 | 410 |
+| asheville-christian | 3A | 2023–24 | 3 | 177.5 | 65 | 155 | 397.5 |
+| asheville-christian | 3A | 2024–25 | T7 | 82.5 | 75 | 105 | 262.5 |
+| asheville-christian | 3A | 2025–26 | 11 | 37.5 | 62.5 | 110 | 210 |
+| gaston-christian | 3A | 2020–21 | 10 | 72.5 | 45 | 85 | 202.5 |
+| gaston-christian | 3A | 2021–22 | T13 | 45 | 0 | 100 | 145 |
+| gaston-christian | 3A | 2022–23 | 16 | 0 | 37.5 | 107.5 | 145 |
+| gaston-christian | 3A | 2023–24 | 10 | 35 | 45 | 140 | 220 |
+| gaston-christian | 3A | 2024–25 | T7 | 70 | 87.5 | 105 | 262.5 |
+| gaston-christian | 3A | 2025–26 | 5 | 105 | 115 | 132.5 | 352.5 |
+| st-davids | 3A | 2020–21 | 8 | 75 | 47.5 | 132.5 | 255 |
+| st-davids | 3A | 2021–22 | T9 | 60 | 52.5 | 95 | 207.5 |
+| st-davids | 3A | 2022–23 | 12 | 45 | 30 | 102.5 | 177.5 |
+| st-davids | 3A | 2023–24 | 13 | 67.5 | 22.5 | 100 | 190 |
+| st-davids | 3A | 2024–25 | 8 | 82.5 | 22.5 | 115 | 220 |
+| st-davids | 3A | 2025–26 | 20 | 25 | 15 | 62.5 | 102.5 |
+| coastal-christian | 3A | 2020–21 | 9 | 130 | 0 | 112.5 | 242.5 |
+| coastal-christian | 3A | 2021–22 | 5 | 207.5 | 0 | 162.5 | 370 |
+| coastal-christian | 3A | 2022–23 | 7 | 125 | 0 | 122.5 | 247.5 |
+| coastal-christian | 3A | 2023–24 | 8 | 125 | 0 | 132.5 | 257.5 |
+| coastal-christian | 3A | 2024–25 | 10 | 107.5 | 0 | 102.5 | 210 |
+| coastal-christian | 3A | 2025–26 | 10 | 195 | 0 | 67.5 | 262.5 |
+| high-point-christian | 3A | 2020–21 | 6 | 60 | 75 | 162.5 | 297.5 |
+| high-point-christian | 3A | 2021–22 | 8 | 37.5 | 120 | 125 | 282.5 |
+| high-point-christian | 3A | 2022–23 | 11 | 37.5 | 67.5 | 95 | 200 |
+| high-point-christian | 3A | 2023–24 | 7 | 60 | 82.5 | 127.5 | 270 |
+| high-point-christian | 3A | 2024–25 | 15 | 37.5 | 22.5 | 72.5 | 132.5 |
+| high-point-christian | 3A | 2025–26 | 14 | 50 | 0 | 95 | 145 |
+| arendell-parrott | 3A | 2020–21 | 7 | 72.5 | 72.5 | 140 | 285 |
+| arendell-parrott | 3A | 2021–22 | 7 | 135 | 22.5 | 172.5 | 330 |
+| arendell-parrott | 3A | 2022–23 | 9 | 110 | 22.5 | 97.5 | 230 |
+| arendell-parrott | 3A | 2023–24 | 19 | 82.5 | 0 | 22.5 | 105 |
+| arendell-parrott | 3A | 2024–25 | 16 | 90 | 0 | 37.5 | 127.5 |
+| arendell-parrott | 3A | 2025–26 | 15 | 95 | 0 | 42.5 | 137.5 |
+| southlake-christian | 3A | 2020–21 | 17 | 22.5 | 45 | 60 | 127.5 |
+| southlake-christian | 3A | 2021–22 | 11 | 37.5 | 22.5 | 105 | 165 |
+| southlake-christian | 3A | 2022–23 | 18 | 0 | 0 | 80 | 80 |
+| southlake-christian | 3A | 2023–24 | 18 | 0 | 35 | 85 | 120 |
+| southlake-christian | 3A | 2024–25 | 17 | 22.5 | 35 | 60 | 117.5 |
+| southlake-christian | 3A | 2025–26 | 19 | 25 | 0 | 82.5 | 107.5 |
+| concord-academy | 3A | 2020–21 | 11 | 63.75 | 72.5 | 60 | 196.25 |
+| concord-academy | 3A | 2021–22 | T9 | 75 | 87.5 | 45 | 207.5 |
+| concord-academy | 3A | 2022–23 | 13 | 37.5 | 95 | 37.5 | 170 |
+| concord-academy | 3A | 2023–24 | 17 | 37.5 | 75 | 22.5 | 135 |
+| concord-academy | 3A | 2024–25 | 20 | 0 | 90 | 0 | 90 |
+| concord-academy | 3A | 2025–26 | 17 | 0 | 115 | 0 | 115 |`},{subtopic:`Wells Fargo Cup schools listed without a place`,source_file:null,preview:`Listed on the published tables with a blank place and 0 points. These stay out of the ledger, so a table cell shows an em dash: the ledger has no way to hold a place that was never published. Cristo Rey Research Triangle has no placed row at all, so it is the one listed school not on the card. | School | Class |…`,text:`Listed on the published tables with a blank place and 0 points. These stay out of the ledger, so a table cell shows an em dash: the ledger has no way to hold a place that was never published. Cristo Rey Research Triangle has no placed row at all, so it is the one listed school not on the card.
+
+| School | Class | Season |
+|---|---|---|
+| Salem Baptist Christian School | 2A | 2021–22 |
+| Thales Academy - Apex | 2A | 2021–22 |
+| Friendship Christian School | 2A | 2023–24 |
+| Neuse Christian Academy | 2A | 2023–24 |
+| Salem Baptist Christian School | 2A | 2023–24 |
+| Statesville Christian School | 2A | 2023–24 |
+| Westminster Catawba Christian School | 2A | 2023–24 |
+| Salem Baptist | 2A | 2024–25 |
+| Cristo Rey Research Triangle High School | 3A | 2024–25 |
+| Thales Academy - Rolesville | 3A | 2024–25 |
+| Salem Baptist | 2A | 2025–26 |
 
 ---`},{subtopic:`Awards and Honors`,source_file:`Davidson_Day__Sports__Awards_and_Honors.pdf`,preview:`DAVIDSON DAY SCHOOL AWARDS & HONORS PATRIOTS ATHLETICS · NCISAA 3A · Foothills Athletic Conference Inside Davidson Day Athletics · Research Dossier Awards & Honors Individual state titles, national player honors and program-wide recognition. At a Glance Individual state titles 37 (swimming, track & field, tennis)[1]…`,text:`DAVIDSON DAY SCHOOL AWARDS & HONORS
 PATRIOTS ATHLETICS · NCISAA 3A · Foothills Athletic Conference Inside Davidson Day Athletics · Research Dossier
@@ -903,4 +1218,4 @@ Sources
 [6] Davidson Day School — History and Achievements (team state championships).
 Davidson Day School — Athletics Research Series · compiled from public sources Page 2
 
----`}],i={school_slug:e,topic_slug:t,section_count:32,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:37,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
