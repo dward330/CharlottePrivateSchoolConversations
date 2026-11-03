@@ -3324,3 +3324,35 @@ clock times and phone numbers, spread over about 50 render sites that print data
 
 The `1 تا 2`-style rewording done before this still reads correctly. A future fa/ar
 range no longer needs rewording.
+
+## Consensus leaks at `--min 6` (`fix/locale-leaks`) — 2026-11-02
+
+This takes up the measured follow-up above. It started from 574 `(string, locale)` pairs over
+336 strings, read from the work files as "identical to English while six or more locales
+translated it". **177 pairs in 113 strings were fixed; 397 stay English on purpose.**
+
+A first pass by reading alone marked 293 as leaks. **70 of those were keeps already in this
+ledger,** which is the 43% over-report recorded above happening again. Each fix was then
+re-checked two ways: an exact `(string, locale)` search here and in the `siblingtail` triage,
+and a count of how the same locale treats the strings beside it on the same card, read from
+`HEAD` so a fix could not vote for itself.
+
+| Fixed | Locales | Note |
+|---|---|---|
+| Course tag words (`Semester`, `Required`, `Elective`, `Fall`, `Weekly`, …) | `te` | Kept as a whole family and in no ledger row. Translated as a family, so no card shows a mix. |
+| `Rising N` grade bands | `bn`, `te` | The same terms were fixed as leaks in the earlier pass recorded above. |
+| Department names (`Visual Arts`, `Technology & Innovation`, …) | `fr`, `it`, `ar` | Outside Charlotte Catholic, whose `ar` names stay Latin as a set. |
+| Unit tokens (`$19 / hr`, `/mo`) | `es`, `it`, `fa` | Words, not figures. The figure is unchanged. |
+| Short labels and counts (`22 AP subjects`, `12 ensembles`, `1 of 8`, `1st–5th`, `Quintile`) | various | Each locale's siblings on the card are translated, or the whole set moved together. |
+| `hand-building, wheel throwing, glazing, firing` | `fa` | Overrides the #193 row: its five siblings are all translated, as the method note above predicts. |
+
+**The 397 keeps fall into these classes:**
+
+- **Identical in the target language:** `Sessions N`, `Canada`, `Campus`, `Regional`, `Sciences` (`fr`), `Gr` (`es`, `it`, `ht`).
+- **Ledgered, or the class a ledger row sets:** `drop-in`, `Full Day`, `Musical` (`hi`), National Merit tiers, bare job titles, sport-plus-role rows, course rosters, `Top-75` tiers.
+- **Programme names beside a clock:** the whole `Before Care` family, including `Lunch Care` and `Afternoon Care`, because `bn` and `te` already keep it (`Before Care সকাল 7:30–8:45`).
+- **Named sections and units:** `Reading & Writing` beside `SAT Math` and `ACT English`; `sq ft`.
+- **Verbatim quotes and proper nouns:** `Cannon School does not rank students`, `Rio de Janeiro`.
+
+`check_figures.py` still reports four `es` and five `fa` items, none on these strings. They
+predate this pass, for example `7,500 dólares` for `$7,500` and `50٪` for `50%`.
