@@ -1,5 +1,5 @@
 # Cannon School — Sports
-> Distilled from 17 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-01.
+> Distilled from 17 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-02.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 

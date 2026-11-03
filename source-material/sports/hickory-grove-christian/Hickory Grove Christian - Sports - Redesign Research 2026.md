@@ -48,7 +48,7 @@
 | Grades served | 6 and up | S1 |
 | **Division I commits 2024–26** | **3** (all baseball: Cabbage→UNCW, Green→UNC Asheville, Johnson→ETSU) | S7, S9 |
 | **Power 4 commits 2024–26** | **0** — NOT FOUND, confirmed null | S7, S9 |
-| NCISAA team state championships (all-time) | **7** since joining NCISAA in 2002 | S8 |
+| NCISAA team state championships (all-time) | **12**: softball 7, baseball 3, girls basketball 1, boys track 1 (Wikipedia's 7 was superseded 2026-11-02; see "Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026.md") | S3, S6 |
 | Recent titles | Baseball 3A 2021 & 2023; Boys Track D2 2025; Softball 3A 2019 | S3, S6 |
 
 Note on sport count: the athletics page says "12 different sports / 30 teams," while Wikipedia
