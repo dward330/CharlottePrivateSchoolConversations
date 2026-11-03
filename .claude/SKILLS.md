@@ -462,6 +462,9 @@ component change. Providence Day is the shipped model. The ledger also feeds two
 rows, `cup-finish` and `cup-titles`, so a new season or a ledger correction moves those typed
 cells, and `check:cup` fails until they match.
 
+With Hickory Grove (plan hickorygrovecup), every roster high school has the card, so the skill
+next runs for a newly added high school.
+
 **Use it when** a school should get the Cup card: `/wells-fargo-cup`, "add the Wells Fargo
 Cup for <school>", "add the next school to the Cup card".
 

@@ -7,10 +7,10 @@
 // TO VERIFY tag rather than being guessed at. The title and runner-up counts trace
 // to Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026.md.
 //
-// Five of the seven cards render for HGCS. The two that do not:
-//  - 1f Facilities — no named venue, weight room, pool or athletic-training
+// Six of the eight cards render for HGCS. The two that do not:
+//  - 1g Facilities — no named venue, weight room, pool or athletic-training
 //    detail is published on any HGCS page (confirmed NOT FOUND) → omitted.
-//  - 1g National Stage & NIL — no national poll ranking, NIL deal or
+//  - 1h National Stage & NIL — no national poll ranking, NIL deal or
 //    national-showcase content exists for this regional NCISAA 3A program
 //    (confirmed NOT FOUND) → omitted.
 //
@@ -24,6 +24,8 @@ const FALL_SPORTS = 'https://www.hgchristian.org/fall-sports'
 const WINTER_SPORTS = 'https://www.hgchristian.org/winter-sports'
 const SPRING_SPORTS = 'https://www.hgchristian.org/spring-sports'
 const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
+const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const TRACK_25 = 'https://admin.ncisaa.org/uploads/Docs/NCISAA%20D2%20FInal%20Results.pdf'
 const MAXPREPS = 'https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/'
 const TRACK_2025 =
   'https://www.highschoolot.com/story/hickory-grove-christian-dominates-ncisaa-d2-boys-track-field-championship/22010600/'
@@ -89,7 +91,34 @@ export const hickoryGroveChristian: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1b record -- */
+  /* -------------------------------------------------------------- 1b cup -- */
+  cup: {
+    pointSources: [
+      { sport: 'baseball', gender: 'boys', season: 'spring', titleYears: [2021, 2023], runnerUpYears: [2024] },
+      { sport: 'softball', gender: 'girls', season: 'spring', titleYears: [], runnerUpYears: [2022, 2023] },
+      { sport: 'trackField', gender: 'boys', season: 'spring', titleYears: [2025] },
+    ],
+    sources: [
+      { label: 'NCISAA Wells Fargo Cup standings, 2025–26', url: `${CUP_BASE}current-champions/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2024–25', url: `${CUP_BASE}past-champions-2024-2025/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2023–24', url: `${CUP_BASE}pastchampions2023-2024/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2022–23', url: `${CUP_BASE}past-champions/past-champions-2022-2023/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2021–22', url: `${CUP_BASE}past-champions/past-champions-2021-2022/` },
+      { label: 'NCISAA Wells Fargo Cup standings, 2020–21', url: `${CUP_BASE}past-champions/past-champions-2020-2021/` },
+      { label: 'NCISAA Wells Fargo Cup scoring and history', url: `${CUP_BASE}history/` },
+      { label: 'NCISAA sport list', url: 'https://www.ncisaa.org/sports/' },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA baseball bracket, 2020–21', url: `${ARCHIVE}1&years=2020-2021` },
+      { label: 'NCISAA baseball bracket, 2022–23', url: `${ARCHIVE}1&years=2022-2023` },
+      { label: 'NCISAA baseball bracket, 2023–24', url: `${ARCHIVE}1&years=2023-2024` },
+      { label: 'NCISAA softball bracket, 2021–22', url: `${ARCHIVE}21&years=2021-2022` },
+      { label: 'NCISAA softball bracket, 2022–23', url: `${ARCHIVE}21&years=2022-2023` },
+      { label: 'NCISAA track and field results, 2024–25', url: `${ARCHIVE}22&years=2024-2025` },
+      { label: 'NCISAA Division II track results, 2025', url: TRACK_25 },
+    ],
+  },
+
+  /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
       'Twelve NCISAA team state titles since joining in 2002 — seven in softball, three in baseball, and one each in girls basketball and boys track.',
@@ -163,7 +192,7 @@ export const hickoryGroveChristian: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1c pipeline -- */
+  /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
       'Three Division I baseball commits across the classes of 2024–26 — all to mid-major conferences, none Power 4.',
@@ -199,7 +228,7 @@ export const hickoryGroveChristian: SportsProgram = {
     ],
   },
 
-  /* ----------------------------------------------------------- 1d honors -- */
+  /* ----------------------------------------------------------- 1e honors -- */
   honors: {
     headline:
       'No professional or Power-4 alumni surfaced — the honors here are individual NCISAA state champions in golf, cross country and track.',
@@ -238,7 +267,7 @@ export const hickoryGroveChristian: SportsProgram = {
     ],
   },
 
-  /* --------------------------------------------------------- 1e coaching -- */
+  /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
       'A full head-coaching roster is published by name — but no coaching bios, records or tenures are, so this is a directory rather than a pedigree.',

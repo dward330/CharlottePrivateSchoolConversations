@@ -1,7 +1,7 @@
 ---
 name: hickorygrovecup
 title: Turn on the Wells Fargo Cup card for Hickory Grove Christian
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-11-02
 branch: feat/hickorygrovecup
