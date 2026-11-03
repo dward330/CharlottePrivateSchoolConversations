@@ -33,7 +33,9 @@ page. **Not researched to exhaustion; recorded as a known gap** rather than asse
 **Middle School athletics (S9).** Grades 6-8 field soccer, basketball, track and field and
 swimming among others. Participation requires academic standing and positive behaviour.
 
-**Participation.** ~**70%** of students in grades 6–12 play at least one sport.`},{subtopic:`NCISAA 2A state championship ledger`,source_file:null,preview:`| Year | Sport | Result | | --- | --- | --- | | 2025 | Volleyball | def. St. Thomas More Academy, 3-2, Oct 25 2025 (S3, S2) | | 2025 | Girls Tennis | def. Epiphany School — three-peat, third straight (S3) | | 2024 | Volleyball | def. Westminster Catawba, swept, Oct 26 2024 (S4) | | 2024 | Boys Soccer | def.…`,text:`| Year | Sport | Result |
+**Participation.** ~**70%** of students in grades 6–12 play at least one sport.`},{subtopic:`NCISAA 2A state championship ledger`,source_file:null,preview:`Superseded 2026-11-02. This ledger undercounts. The verified record is 14 titles in six sports. See "Gaston Day School - Sports - Wells Fargo Cup Standings 2020-2026.md". | Year | Sport | Result | | --- | --- | --- | | 2025 | Volleyball | def. St. Thomas More Academy, 3-2, Oct 25 2025 (S3, S2) | | 2025 | Girls Tennis…`,text:`**Superseded 2026-11-02.** This ledger undercounts. The verified record is 14 titles in six sports. See "Gaston Day School - Sports - Wells Fargo Cup Standings 2020-2026.md".
+
+| Year | Sport | Result |
 | --- | --- | --- |
 | 2025 | **Volleyball** | def. **St. Thomas More Academy**, **3-2**, Oct 25 2025 (S3, S2) |
 | 2025 | **Girls Tennis** | def. **Epiphany School** — **three-peat**, third straight (S3) |

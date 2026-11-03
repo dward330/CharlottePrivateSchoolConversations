@@ -1,4 +1,4 @@
-var e=`hickory-grove-christian`,t=`sports`,n=10,r=[{subtopic:`Redesign Research 2026`,source_file:`Hickory Grove Christian - Sports - Redesign Research 2026.md`,preview:`# Hickory Grove Christian School — Sports (Redesign Research 2026) - School: Hickory Grove Christian School, 7200 E. WT Harris Blvd., Charlotte, NC 28215. Founded 1995 (a ministry of Hickory Grove Baptist Church). NCISAA 3A (joined NCISAA 2002), Metrolina Athletic Conference (MAC). Mascot Lions. Colors navy & gold.…`,text:`# Hickory Grove Christian School — Sports (Redesign Research 2026)
+var e=`hickory-grove-christian`,t=`sports`,n=13,r=[{subtopic:`Redesign Research 2026`,source_file:`Hickory Grove Christian - Sports - Redesign Research 2026.md`,preview:`# Hickory Grove Christian School — Sports (Redesign Research 2026) - School: Hickory Grove Christian School, 7200 E. WT Harris Blvd., Charlotte, NC 28215. Founded 1995 (a ministry of Hickory Grove Baptist Church). NCISAA 3A (joined NCISAA 2002), Metrolina Athletic Conference (MAC). Mascot Lions. Colors navy & gold.…`,text:`# Hickory Grove Christian School — Sports (Redesign Research 2026)
 
 - **School:** Hickory Grove Christian School, 7200 E. WT Harris Blvd., Charlotte, NC 28215.
  Founded 1995 (a ministry of Hickory Grove Baptist Church). NCISAA **3A** (joined NCISAA 2002),
@@ -33,7 +33,7 @@ var e=`hickory-grove-christian`,t=`sports`,n=10,r=[{subtopic:`Redesign Research 
 | Grades served | 6 and up | S1 |
 | **Division I commits 2024–26** | **3** (all baseball: Cabbage→UNCW, Green→UNC Asheville, Johnson→ETSU) | S7, S9 |
 | **Power 4 commits 2024–26** | **0** — NOT FOUND, confirmed null | S7, S9 |
-| NCISAA team state championships (all-time) | **7** since joining NCISAA in 2002 | S8 |
+| NCISAA team state championships (all-time) | **12**: softball 7, baseball 3, girls basketball 1, boys track 1 (Wikipedia's 7 was superseded 2026-11-02; see "Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026.md") | S3, S6 |
 | Recent titles | Baseball 3A 2021 & 2023; Boys Track D2 2025; Softball 3A 2019 | S3, S6 |
 
 Note on sport count: the athletics page says "12 different sports / 30 teams," while Wikipedia
@@ -122,4 +122,21 @@ detail appears on the athletics, coaches, or records pages. **This card should b
 national-showcase content found for Hickory Grove Christian. The program is a regional NCISAA 3A
 school with no national visibility surfaced. **This card should be OMITTED.**
 
----`}],i={school_slug:e,topic_slug:t,section_count:10,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Hickory Grove Christian`,source_file:null,preview:"Copied as published. All six rows are already in `CUP_RECORDS`. | Season | Class | Place | Fall | Winter | Spring | Total | |---|---|---|---|---|---|---| | 2020–21 | 3A | 16 | 22.5 | 22.5 | 87.5 | 132.5 | | 2021–22 | 3A | T13 | 20 | 22.5 | 102.5 | 145 | | 2022–23 | 3A | 8 | 85 | 22.5 | 130 | 237.5 | | 2023–24 | 3A |…",text:`Copied as published. All six rows are already in \`CUP_RECORDS\`.
+
+| Season | Class | Place | Fall | Winter | Spring | Total |
+|---|---|---|---|---|---|---|
+| 2020–21 | 3A | 16 | 22.5 | 22.5 | 87.5 | 132.5 |
+| 2021–22 | 3A | T13 | 20 | 22.5 | 102.5 | 145 |
+| 2022–23 | 3A | 8 | 85 | 22.5 | 130 | 237.5 |
+| 2023–24 | 3A | 15 | 62.5 | 0 | 85 | 147.5 |
+| 2024–25 | 3A | 12 | 67.5 | 0 | 87.5 | 155 |
+| 2025–26 | 3A | 18 | 25 | 22.5 | 62.5 | 110 |`},{subtopic:`Wells Fargo Cup point sources for Hickory Grove Christian`,source_file:null,preview:`| Sport | Season | Titles | Runner-up | |---|---|---|---| | Baseball | Spring | 2021, 2023 | 2024 | | Softball | Spring | none | 2022, 2023 | | Boys track & field | Spring | 2025 | none | Dropped: none. No other sport reached a state final in these six seasons. ---`,text:`| Sport | Season | Titles | Runner-up |
+|---|---|---|---|
+| Baseball | Spring | 2021, 2023 | 2024 |
+| Softball | Spring | none | 2022, 2023 |
+| Boys track & field | Spring | 2025 | none |
+
+Dropped: none. No other sport reached a state final in these six seasons.
+
+---`}],i={school_slug:e,topic_slug:t,section_count:13,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
