@@ -1,11 +1,11 @@
 ---
 name: gastondaycup
 title: Turn on the Wells Fargo Cup card for Gaston Day, add Berean Baptist's one ledger row, and correct its Sports cards from eight titles in three sports to 14 in six
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-02
 branch: feat/gastondaycup
-prs: []
+prs: [411]
 ---
 
 # Turn on the Wells Fargo Cup card for Gaston Day
@@ -292,3 +292,6 @@ Scope is the overlay layer only: ten changed and seven new units in each of the 
 - **Berean Baptist's ledger row** sits at the end of the NCISAA rest-of-division block, so it stays one contiguous school. The last 2A row by line number is inside Fayetteville Christian's run.
 - **`High School Destinations.md`:** its intro now says 44 schools and names Berean Baptist as coming from Gaston Day's table.
 - **`.claude/SKILLS.md` is unchanged.** Its `wells-fargo-cup` entry does not describe these traps and already carries the 2026-11-02 date.
+- **Phase 2 ran in the Phase 1 window** after the user approved the English. It was 17 units per locale.
+- **The `1–4 final` chip stays English in every locale,** like `5–1 final` and `3–2 final`. The extractor reports no unit for that field.
+- **Status and PR link went in before the merge,** so the close-out stays off `main`.
