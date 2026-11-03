@@ -1,5 +1,5 @@
 # Davidson Day School — Learning Support & Student Services
-> Distilled from 2 source document(s) in `source-material/learning-support/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-25.
+> Distilled from 2 source document(s) in `source-material/learning-support/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-02.
 **Documents:** Deep Research, Official Site Research
 
 
@@ -73,6 +73,11 @@ as a **lead sheet only**; every fact below was re-read on the live page or its W
 Where the two disagree, the live site wins (see "Corrections to the deep-research dossier"
 at the end).
 
+**Updated 2026-11-02** by Claude (Claude Code) during the `/learning-support-episode` freshness
+check: S1–S3, S5–S11 and S12 were re-fetched (S4 is still 404; S13 and S14 were not), every quote
+used in the app data still matches, and the directory searches were widened to `occupational`, `speech`, `therap`, `Integrative`, `Techniques` and `wellness`, which
+found one staff entry the first pass missed (see "Also in the directory").
+
 No student is named in this file. The LEC page carries two parent testimonials attributed
 only by grade ("Parent of 6th and 10th Grade Students"); no names appear.
 
@@ -89,7 +94,7 @@ only by grade ("Parent of 6th and 10th Grade Students"); no names appear.
 | S7 | https://www.davidsonday.org/academics/middle-school | Middle School — study skills course; Upper School math / world language | 200, fetched |
 | S8 | https://www.davidsonday.org/academics/lower-school | Lower School — "student support services" (links S1) | 200, fetched |
 | S9 | https://www.davidsonday.org/student-life/community-and-culture | Community and Culture — Social-Emotional Learning | 200, fetched (the SEL "Learn More" post body is JS-loaded; only its summary line was readable) |
-| S10 | https://www.davidsonday.org/directory (keyword searches `?const_search_keyword=counselor`, `nurse`, `reading`, `literacy`, `learning`, `psycholog`, `Perry`) | Faculty & Staff Directory | 200, fetched |
+| S10 | https://www.davidsonday.org/directory (keyword searches `?const_search_keyword=counselor`, `nurse`, `reading`, `literacy`, `learning`, `psycholog`, `Perry`; on 2026-11-02 also `occupational`, `speech`, `therap`, `Integrative`, `Techniques`, `wellness`) | Faculty & Staff Directory | 200, fetched |
 | S11 | https://www.davidsonday.org/about/leadership | Our Leadership — "Director of Learning Services" | 200, fetched |
 | S12 | https://www.davidsonday.org/about/careers-at-davidson-day | Careers | 200 live (only "Substitute Teacher"); Wayback 2026-10-04 copy lists "Learning Specialist, Oct 1 2026" |
 | S13 | https://www.davidsonday.org/academics/college-counseling | College Counseling | 200, fetched (college counselors only — not used in this area) |
@@ -351,6 +356,14 @@ the `data-constituent-id`.
 | Laura Shea | Lower School Counselor | lshea@davidsonday.org | 6073 |
 | Jessica Thompson | Middle and Upper School Counselor | jthompson@davidsonday.org | 2929 |
 | Angela Spraberry | School Nurse | aspraberry@davidsonday.org | 2905 |
+| Samantha Lasker | Occupational Therapist | slasker@davidsonday.org | 6570 |
+
+Samantha Lasker was added 2026-11-02. The 2026-10-25 pass never searched `occupational`, so the
+record cannot say when the entry first appeared. The entry is in the directory and not in the S1 LEC
+staff list. Neither page says whether the Occupational Therapist or the Speech/Language Pathologist
+works for the contracted providers (Integrative Wellness, Speech Techniques): S1 names only the
+companies. Searches for `Integrative`,
+`Techniques` and `wellness` return no one.
 
 College counselors (Tia Hill, Caitlin Barndt; S13) belong to College Support, not this area.
 A directory search for "Perry" returns no one. A search for "psycholog" returns only teachers
