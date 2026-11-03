@@ -1,7 +1,7 @@
 // Davidson Day School — Learning Support & Student Services.
 //
 // Every fact is from the school's own pages, the request form and the PDF they
-// link, fetched 2026-10-25. The full verbatim record, the transcription of the
+// link, fetched 2026-10-25, re-checked 2026-11-02. The full verbatim record, the transcription of the
 // 2026 Summer LEC letter, the staff table with each published email and the
 // corrections this forced on the deep-research dossier are in
 // source-material/learning-support/davidson-day/
@@ -291,8 +291,11 @@ export const davidsonDay: LearningSupportProgram = {
       { name: 'Occupational', code: 'IH_FEE', detail: 'Integrative Wellness, on campus, “an additional service.” Summer 2026: $160 for a 60-minute session.' },
       { name: 'Physical', code: 'NS' },
     ],
-    people: [{ name: 'Rebecca Miller', role: 'Speech/Language Pathologist', email: 'rmiller@davidsonday.org' }],
-    note: 'The speech-language pathologist is on the LEC staff list. School-year therapy rates are shared with families before school starts and are not published.',
+    people: [
+      { name: 'Rebecca Miller', role: 'Speech/Language Pathologist', email: 'rmiller@davidsonday.org' },
+      { name: 'Samantha Lasker', role: 'Occupational Therapist', email: 'slasker@davidsonday.org' },
+    ],
+    note: 'The speech-language pathologist is on the LEC staff list. The occupational therapist is in the staff directory, not on the LEC staff list. The school does not say whether either one works for Speech Techniques or Integrative Wellness. School-year therapy rates are shared with families before school starts and are not published.',
     sources: [LEC, SUMMER, DIRECTORY],
   },
 
@@ -322,7 +325,7 @@ export const davidsonDay: LearningSupportProgram = {
 
   staff: {
     headline:
-      'Seventeen named staff: the 13-person Learning Enrichment Center, a Lower School reading specialist, two school counselors and the school nurse.',
+      'Eighteen named staff: the 13-person Learning Enrichment Center, a Lower School reading specialist, two school counselors, the school nurse and an occupational therapist.',
     people: [
       { name: 'Jennifer Breen', role: 'Learning Specialist', email: 'jbreen@davidsonday.org' },
       { name: 'Kortney Chinn', role: 'Learning Specialist', email: 'kchinn@davidsonday.org' },
@@ -341,6 +344,7 @@ export const davidsonDay: LearningSupportProgram = {
       { name: 'Laura Shea', role: 'Lower School Counselor', email: 'lshea@davidsonday.org' },
       { name: 'Jessica Thompson', role: 'Middle and Upper School Counselor', email: 'jthompson@davidsonday.org' },
       { name: 'Angela Spraberry', role: 'School Nurse', email: 'aspraberry@davidsonday.org' },
+      { name: 'Samantha Lasker', role: 'Occupational Therapist', email: 'slasker@davidsonday.org' },
     ],
     note: {
       strong: 'Requests go to Dr. Chuck LaRusso, Director of Learning Services.',
