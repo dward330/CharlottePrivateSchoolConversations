@@ -4,6 +4,7 @@
 // Wells Fargo Cup Standings 2020-2026.md, which carries the URLs and the method.
 // The 2A and 3A rows come from Davidson Day's file of the same name.
 // The NCHSAA rows come from Charlotte Catholic's file of the same name.
+// Berean Baptist's row comes from Gaston Day's file of the same name.
 //
 // Official association tables only. An AI research report is a lead to check,
 // never a source: the report behind the design matched 10 of 60 cells here.
@@ -128,6 +129,7 @@ export const CUP_SHORT_NAMES: Record<string, string> = {
   'arendell-parrott': 'Arendell Parrott',
   'southlake-christian': 'SouthLake Christian',
   'concord-academy': 'Concord Academy',
+  'berean-baptist': 'Berean Baptist Academy',
   // The rest of Charlotte Catholic's table.
   watauga: 'Watauga',
   'east-chapel-hill': 'East Chapel Hill',
@@ -216,6 +218,7 @@ export const CUP_HIGH_SCHOOLS: Record<string, string> = {
   'arendell-parrott': 'Arendell Parrott Academy',
   'southlake-christian': 'SouthLake Christian Academy',
   'concord-academy': 'Concord Academy',
+  'berean-baptist': 'Berean Baptist Academy',
   watauga: 'Watauga High School',
   'east-chapel-hill': 'East Chapel Hill High School',
   'northern-guilford': 'Northern Guilford High School',
@@ -662,6 +665,7 @@ export const CUP_RECORDS: CupRecord[] = [
   { school: 'concord-academy', association: 'NCISAA', classification: '3A', season: '2023–24', place: 17, points: 135, isEstimate: false, fall: 37.5, winter: 75, spring: 22.5 },
   { school: 'concord-academy', association: 'NCISAA', classification: '3A', season: '2024–25', place: 20, points: 90, isEstimate: false, fall: 0, winter: 90, spring: 0 },
   { school: 'concord-academy', association: 'NCISAA', classification: '3A', season: '2025–26', place: 17, points: 115, isEstimate: false, fall: 0, winter: 115, spring: 0 },
+  { school: 'berean-baptist', association: 'NCISAA', classification: '2A', season: '2024–25', place: 21, points: 37.5, isEstimate: false, fall: 37.5, winter: 0, spring: 0 },
   // The published top of each NCHSAA class, for Charlotte Catholic's table.
   { school: 'watauga', association: 'NCHSAA', classification: '6A', season: '2025–26', place: 2, points: 580, isEstimate: false },
   { school: 'east-chapel-hill', association: 'NCHSAA', classification: '3A', season: '2020–21', place: 7, points: 322.5, isEstimate: false },

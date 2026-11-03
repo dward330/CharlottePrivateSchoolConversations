@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 495 ingested research documents.
+**13 schools × 12 research areas**, 496 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 1 | 1 | 18 | 2 |
+| Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 2 | 1 | 18 | 2 |
 | College Support | `college-support` | 12 | 3 | 2 | 12 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
@@ -256,7 +256,7 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 Results live in `src/data/wellsFargoCup.ts`, because one school's table needs other
 schools' rows. The `cup` key in a school's module holds its point sources and citations,
 and its presence is what renders the card, always second, after `offered`. Add a school
-with `/wells-fargo-cup`. Fourteen rules travel with it:
+with `/wells-fargo-cup`. Fifteen rules travel with it:
 
 - **Official association tables only.** An AI report is a lead to check, never a source.
 - **Computed headline numbers are never hard-coded.** Headlines, tiles and rows all come
@@ -278,6 +278,9 @@ with `/wells-fargo-cup`. Fourteen rules travel with it:
 - **Places are copied as published,** including out-of-order rows; `tied: true` prints
   `T14th`. A row published with no place stays out of the ledger and shows an em dash, and a
   row that does not sum keeps its total and drops its splits.
+- **A title count must fit the published term totals.** A school's list can over-claim and an
+  earlier research pass can undercount, so a count stands only once the fall, winter and
+  spring totals are accounted for, and a press-only result must fit its total exactly.
 - **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a
   list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.
 - **The table's last row is the school's lead over the next-placed school, every season.**

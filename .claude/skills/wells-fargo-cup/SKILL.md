@@ -86,6 +86,10 @@ class needs its rows in the other class too, or those cells read as an em dash r
 and 2A Westminster Catawba Christian). Such a row keeps its total and drops its splits, and
 the source file records the published cells.
 
+**A school outside 4A whose division is already in the ledger may need only a row or two,**
+because a school that moved class left that division short. Gaston Day needed one row,
+Berean Baptist's 2024–25, since Davidson Day had moved to 3A by then.
+
 If a newer season has been published, add it to the brief. It changes `CUP_SEASONS`, and so
 every school's table. It also moves `CUP_FIELD_SIZES` and every `cup-finish` and `cup-titles`
 cell in `src/data/metricValues.ts`, including both row labels, and `check:cup` fails until
@@ -145,6 +149,12 @@ Archive traps:
 - **A school's own title list can be wrong as well as stale.** Davidson Day's over-claims two
   titles (boys soccer 2022, boys cross country 2022) and misses one (boys tennis 2026). The
   brackets and the term totals win.
+- **A bracket prints each team's record by round, so the winner's record rises by one after
+  the final.** That names the winner on most mirrored pages.
+- **An earlier research pass or a news round-up can undercount as badly as a school's list
+  over-claims.** Gaston Day's eight titles were 14. Fit every term total before trusting a
+  count.
+- **Where a golf or track result rests on press, the term total must fit it exactly.**
 
 Years are calendar years of the event, not season labels: a fall 2025 title is `2025`.
 

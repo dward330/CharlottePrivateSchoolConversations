@@ -532,6 +532,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
   'Northwood Temple Academy': { kind: 'day', url: 'https://www.ntaeagles.com', city: 'Fayetteville', state: 'NC', note: 'northwoodtempleacademy.org is now a gambling site' },
   'Friendship Christian School': { kind: 'day', url: 'https://www.friendshipchristian.net', city: 'Raleigh', state: 'NC' },
   'Freedom Christian Academy': { kind: 'day', url: 'https://www.fcapatriots.org', city: 'Fayetteville', state: 'NC', note: 'freedomchristian.org is a Michigan school' },
+  'Berean Baptist Academy': { kind: 'day', url: 'https://bbafnc.org', city: 'Fayetteville', state: 'NC' },
   'Hickory Christian Academy': { kind: 'day', url: 'https://hickorychristianacademy.com', city: 'Hickory', state: 'NC' },
   'Wayne Christian School': { kind: 'day', url: 'https://waynechristian.org', city: 'Goldsboro', state: 'NC' },
   'Faith Christian School': { kind: 'day', url: 'https://www.fcspatriots.com', city: 'Rocky Mount', state: 'NC' },

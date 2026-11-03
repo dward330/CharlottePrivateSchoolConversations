@@ -56,6 +56,8 @@ swimming among others. Participation requires academic standing and positive beh
 
 ## NCISAA 2A state championship ledger
 
+**Superseded 2026-11-02.** This ledger undercounts. The verified record is 14 titles in six sports. See "Gaston Day School - Sports - Wells Fargo Cup Standings 2020-2026.md".
+
 | Year | Sport | Result |
 | --- | --- | --- |
 | 2025 | **Volleyball** | def. **St. Thomas More Academy**, **3-2**, Oct 25 2025 (S3, S2) |
