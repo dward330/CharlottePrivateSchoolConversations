@@ -460,6 +460,8 @@ for (const s of STRUCTURED) {
     w('- **A title count must fit the published term totals.** A school\'s list can over-claim and an')
     w('  earlier research pass can undercount, so a count stands only once the fall, winter and')
     w('  spring totals are accounted for, and a press-only result must fit its total exactly.')
+    w('- **A bracket loser earns the average of the places its round shares,** so a quarterfinal')
+    w('  loser is 22.5 in an eight-team bracket, 25 in seven and 27.5 in six.')
     w('- **Every `pointSources` year has a citable page.** Anything unconfirmed is dropped, and a')
     w('  list of zero omits that panel. `npm run check:cup` guards the ledger and the logic.')
     w('- **The table\'s last row is the school\'s lead over the next-placed school, every season.**')

@@ -155,6 +155,11 @@ Archive traps:
   over-claims.** Gaston Day's eight titles were 14. Fit every term total before trusting a
   count.
 - **Where a golf or track result rests on press, the term total must fit it exactly.**
+- **A bracket loser earns the average of the places its round shares,** so a quarterfinal loser
+  is 22.5 in an eight-team bracket, 25 in seven and 27.5 in six. That matters in football,
+  whose brackets vary in size, when fitting a term total.
+- **A school's title list can stop early as well as over-claim.** Hickory Grove's omits
+  softball's 2022 and 2023 finals and its 2025 boys track team title.
 
 Years are calendar years of the event, not season labels: a fall 2025 title is `2025`.
 
