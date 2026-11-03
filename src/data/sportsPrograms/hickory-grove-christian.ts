@@ -4,7 +4,8 @@
 // source-material/sports/hickory-grove-christian/Hickory Grove Christian - Sports -
 // Redesign Research 2026.md, which carries the provenance header, source URLs and
 // gap notes. Figures the research could not confirm carry `toVerify` and render a
-// TO VERIFY tag rather than being guessed at.
+// TO VERIFY tag rather than being guessed at. The title and runner-up counts trace
+// to Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026.md.
 //
 // Five of the seven cards render for HGCS. The two that do not:
 //  - 1f Facilities — no named venue, weight room, pool or athletic-training
@@ -13,14 +14,16 @@
 //    national-showcase content exists for this regional NCISAA 3A program
 //    (confirmed NOT FOUND) → omitted.
 //
-// The winning-record card leads with SOFTBALL, not baseball: the softball
-// program is the school's most decorated, with seven NCISAA 3A titles.
+// Softball is the school's most decorated program, with seven NCISAA 3A titles, and
+// it reached the state final again in 2022 and 2023.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
-const ATHLETICS = 'https://www.hgchristian.org/athletics'
-const COACHES = 'https://www.hgchristian.org/athletics/new-coaches-and-teams'
-const RECORDS = 'https://www.hgchristian.org/athletics/records-and-titles/'
+const ATHLETICS = 'https://www.hgchristian.org/athletics-home'
+const FALL_SPORTS = 'https://www.hgchristian.org/fall-sports'
+const WINTER_SPORTS = 'https://www.hgchristian.org/winter-sports'
+const SPRING_SPORTS = 'https://www.hgchristian.org/spring-sports'
+const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 const MAXPREPS = 'https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/'
 const TRACK_2025 =
   'https://www.highschoolot.com/story/hickory-grove-christian-dominates-ncisaa-d2-boys-track-field-championship/22010600/'
@@ -78,8 +81,10 @@ export const hickoryGroveChristian: SportsProgram = {
     footnote:
       'The athletics page states "30 teams participating in 12 different sports" (Wikipedia says 14 sports / 28 teams). Tennis (boys & girls), Wrestling and Field Hockey appear in MaxPreps\' sport inventory but list no head coach on the school\'s Coaches & Teams page, so a level chip is not drawn for them. Athletic Director Jim Rhodes; Assistant AD Crystal Rhodes.',
     sources: [
-      { label: 'hgchristian.org — Athletics (30 teams / 12 sports, NCISAA + MAC)', url: ATHLETICS },
-      { label: 'hgchristian.org — New Coaches and Teams (season/level roster)', url: COACHES },
+      { label: 'hgchristian.org — Athletics Home (30 teams / 12 sports, NCISAA + MAC)', url: ATHLETICS },
+      { label: 'hgchristian.org — Fall Sports (season/level roster)', url: FALL_SPORTS },
+      { label: 'hgchristian.org — Winter Sports (season/level roster)', url: WINTER_SPORTS },
+      { label: 'hgchristian.org — Spring Sports (season/level roster)', url: SPRING_SPORTS },
       { label: 'MaxPreps — Hickory Grove Christian Lions', url: MAXPREPS },
     ],
   },
@@ -87,9 +92,9 @@ export const hickoryGroveChristian: SportsProgram = {
   /* ----------------------------------------------------------- 1b record -- */
   record: {
     headline:
-      'Seven NCISAA team state titles since joining in 2002 — anchored by a softball dynasty of seven 3A championships and a two-title baseball program.',
+      'Twelve NCISAA team state titles since joining in 2002 — seven in softball, three in baseball, and one each in girls basketball and boys track.',
     subhead:
-      '"State" = NCISAA (the private-school association); HGCS competes in 3A. Softball is the flagship: seven titles across 2006–2019.',
+      '"State" = NCISAA (the private-school association); HGCS competes in 3A. Softball is the flagship: seven titles across 2006–2019, and back in the state final in 2022 and 2023.',
     seasonLabels: ['2021', '2023', '2024–25'],
     rows: [
       {
@@ -113,11 +118,11 @@ export const hickoryGroveChristian: SportsProgram = {
       {
         program: 'Softball',
         cells: [
-          { result: 'NONE' },
-          { result: 'NONE' },
+          { result: 'SEMIFINAL' },
+          { result: 'RUNNER-UP' },
           { result: 'NONE' },
         ],
-        note: 'Seven 3A titles 2006–2019 — the flagship, but its title run predates this window (see below)',
+        note: 'Seven 3A titles 2006–2019; lost the 2022 and 2023 state finals to High Point Christian',
       },
     ],
     didNotWin:
@@ -131,11 +136,11 @@ export const hickoryGroveChristian: SportsProgram = {
     seasonDetail: [
       {
         program: 'Softball',
-        text: 'Seven NCISAA 3A championships — 2019, 2017, 2010, 2009, 2008, 2007 and 2006 — plus 3A runner-up finishes in 2018, 2015 and 2013 and a 2A runner-up in 2004. It is the deepest title run of any HGCS program.',
+        text: 'Seven NCISAA 3A championships — 2019, 2017, 2010, 2009, 2008, 2007 and 2006 — plus 3A runner-up finishes in 2023, 2022, 2018, 2015 and 2013 and a 2A runner-up in 2004. High Point Christian won both recent finals, 2022 in three games and 2023 in two. It is the deepest title run of any HGCS program.',
       },
       {
         program: 'Baseball',
-        text: 'NCISAA 3A champions in 2021 and 2023 (and 2A champions in 2005). In 2024 the Lions reached the 3A final at 18–10 but were swept by Grace Christian of Sanford, 4–1 and 7–5. The exact 2021 and 2023 final scores were not published on a primary page located in this pass.',
+        text: 'NCISAA 3A champions in 2021 and 2023 (and 2A champions in 2005), beating High Point Christian in both finals: 5–1 and 4–2 in 2021, then 8–1, 3–13 and 5–1 in 2023. In 2024 the Lions reached the 3A final but were swept by Grace Christian of Sanford, 4–1 and 7–5, finishing 18–10.',
       },
       {
         program: 'Boys Track & Field',
@@ -143,10 +148,18 @@ export const hickoryGroveChristian: SportsProgram = {
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Records and Titles (state-title ledger)', url: RECORDS },
+      { label: 'hgchristian.org — Fall Sports (varsity records and titles)', url: FALL_SPORTS },
+      { label: 'hgchristian.org — Winter Sports (varsity records and titles)', url: WINTER_SPORTS },
+      { label: 'hgchristian.org — Spring Sports (varsity records and titles)', url: SPRING_SPORTS },
       { label: 'HighSchoolOT — 2025 NCISAA D2 boys track championship', url: TRACK_2025 },
       { label: 'HighSchoolOT — 2024 3A baseball final (Grace Christian sweep)', url: BASEBALL_2024 },
-      { label: 'Wikipedia — HGCS program totals (7 titles, 5 runner-ups since 2002)', url: WIKI },
+      { label: 'Wikipedia — HGCS program totals since 2002', url: WIKI },
+      { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
+      { label: 'NCISAA baseball bracket, 2020–21', url: `${ARCHIVE}1&years=2020-2021` },
+      { label: 'NCISAA baseball bracket, 2022–23', url: `${ARCHIVE}1&years=2022-2023` },
+      { label: 'NCISAA softball bracket, 2021–22', url: `${ARCHIVE}21&years=2021-2022` },
+      { label: 'NCISAA softball bracket, 2022–23', url: `${ARCHIVE}21&years=2022-2023` },
+      { label: 'NCISAA track and field results, 2024–25', url: `${ARCHIVE}22&years=2024-2025` },
     ],
   },
 
@@ -211,15 +224,17 @@ export const hickoryGroveChristian: SportsProgram = {
       },
       {
         label: 'Program totals',
-        text: 'Since joining NCISAA in 2002: 57 state playoff appearances, 22 state Final Fours, 7 team state championships, 5 state runner-ups and 48 MAC regular-season / tournament championships.',
+        text: 'Since joining NCISAA in 2002: 57 state playoff appearances, 22 state Final Fours, 12 team state championships, at least nine state runner-ups and 48 MAC regular-season / tournament championships.',
         tag: 'Since 2002',
         tagStyle: 'outline',
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Records and Titles (individual champions)', url: RECORDS },
+      { label: 'hgchristian.org — Fall Sports (individual champions)', url: FALL_SPORTS },
+      { label: 'hgchristian.org — Winter Sports (individual champions)', url: WINTER_SPORTS },
+      { label: 'hgchristian.org — Spring Sports (individual champions)', url: SPRING_SPORTS },
       { label: 'HighSchoolOT — 2025 D2 track (Hawkins marks)', url: TRACK_2025 },
-      { label: 'Wikipedia — HGCS program totals', url: WIKI },
+      { label: 'Wikipedia — HGCS program totals since 2002', url: WIKI },
     ],
   },
 
@@ -242,7 +257,9 @@ export const hickoryGroveChristian: SportsProgram = {
     worthKnowing:
       'The Coaches & Teams page names a head coach for nearly every varsity, JV and Middle School squad (Cross Country and Golf coaches Elizabeth Hamilton, Keith White and Todd Staples; Swimming Sam Cox; Cheer Carmen Costner among them), but publishes no bios, career records or tenure lengths — so no pedigree or continuity claim can be made from public sources. The "since" and width fields are therefore marked TO VERIFY rather than filled with a guessed year.',
     sources: [
-      { label: 'hgchristian.org — New Coaches and Teams (named head coaches)', url: COACHES },
+      { label: 'hgchristian.org — Fall Sports (named head coaches)', url: FALL_SPORTS },
+      { label: 'hgchristian.org — Winter Sports (named head coaches)', url: WINTER_SPORTS },
+      { label: 'hgchristian.org — Spring Sports (named head coaches)', url: SPRING_SPORTS },
     ],
   },
 }
