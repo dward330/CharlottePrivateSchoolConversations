@@ -3354,5 +3354,6 @@ and a count of how the same locale treats the strings beside it on the same card
 - **Named sections and units:** `Reading & Writing` beside `SAT Math` and `ACT English`; `sq ft`.
 - **Verbatim quotes and proper nouns:** `Cannon School does not rank students`, `Rio de Janeiro`.
 
-`check_figures.py` still reports four `es` and five `fa` items, none on these strings. They
-predate this pass, for example `7,500 dólares` for `$7,500` and `50٪` for `50%`.
+`check_figures.py` also reported four `es` and five `fa` items on other strings. Those were
+fixed separately the same day: `es` now copies `$7,500`, `$50` and `$5,000`, and repeats
+`2026`, and `fa` uses ASCII `%` in all 345 percent strings.
