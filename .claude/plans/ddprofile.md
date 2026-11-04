@@ -462,6 +462,8 @@ mechanism:
 
 ## Implementation notes
 
+**English approved by the user on 2026-11-04** (commit `76d785f3`). Phase 2 may run.
+
 Phase 1 (English) built 2026-11-04 on `feat/dd-profile-2627`. Deviations and findings:
 
 - **Merge as planned.** 255 kept + 23 new = 278 rows. The printed-to-existing match was
