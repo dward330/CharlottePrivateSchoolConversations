@@ -116,7 +116,7 @@ Source: profile-page screenshots taken by the user on a phone, 2026-11-04
 
 | Institution | 2027 finding |
 |---|---|
-| Kettering University | #4 in Regional Universities Midwest (profile Rankings tab; the "In the 2027 edition…" sentence was not in frame) |
+| Kettering University | #4 in Regional Universities Midwest (profile Rankings tab; the user confirmed the screenshot is the 2027 edition) |
 | Taylor University | verbatim "In the 2027 edition of Best Colleges, Taylor University is ranked No. 3 in Regional Colleges Midwest." (Upland, IN) |
 | University of Dallas | verbatim "In the 2027 edition of Best Colleges, University of Dallas is ranked No. 10 in Regional Universities West." (tie; Irving, TX) |
 | University of Tennessee at Chattanooga | verbatim "In the 2027 edition of Best Colleges, University of Tennessee at Chattanooga is ranked No. 35 in Regional Universities South." (tie; Chattanooga, TN) |
