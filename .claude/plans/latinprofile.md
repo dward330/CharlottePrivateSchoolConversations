@@ -1,11 +1,11 @@
 ---
 name: latinprofile
 title: Refresh Charlotte Latin from its 2026–27 Upper School Profile — merged 2023–2026 acceptance list (337 rows, bold = 2024–26 matriculation), 2026 AP results (92% of 833), SAT/ACT means, grading scale + no-rank policy, +0.5 Advanced weighting, 151 seniors; retire the "least transparent profile" thesis
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-03
 branch: feat/latin-profile-2627
-prs: []
+prs: [419]
 ---
 
 # Refresh Charlotte Latin from its 2026–27 Upper School Profile
@@ -764,3 +764,20 @@ Phase 1 (English), built 2026-11-04 on `feat/latin-profile-2627`.
   only, and `collegesTotal` names the years the bold covers.
 - The ingest swept in another session's uncommitted Davidson Day profile file; those outputs
   were reverted and the manifest restored to HEAD order plus the one new Latin document.
+
+Phase 2 (locales), built 2026-11-04 on the same branch, PR #419.
+
+- **74 new units per locale** (59 `college-support`, 15 `metric-values`), spliced by stamp from a
+  throwaway `--lang xx` extract. All 1,672 + 698 prior translations carry over byte-identical, and
+  55 + 13 retired units drop. The 337 college names are not extracted, as step 14 expected.
+- **The six Compare bucket quals were generated, not hand-written.** Each takes that locale's
+  shipped Charlotte Christian translation (same English template, #418), swaps the school name and
+  the count, and asserts exactly one count token per string.
+- **Locale conventions followed from each locale's own prior wording**, including where the
+  locales differ: ht, bn, fa and it translate the verbatim profile quotes (the maths-placement
+  sentence, and the integrity block in ht/bn/fa), as their shipped versions of the same strings
+  did. Farsi writes "حدود 1:147" ("about 1:147") instead of a tilde, also its existing form.
+- **`i18n:leaks`:** the only Latin-path hit is "Class of 2027" kept in English by bn/te/it/hi,
+  matching their shipped "Class of 2026" row labels in Covenant Day's table.
+- `check:money` fails on `main` on two `SportsProgram.tsx` Cup sites. This plan does not touch
+  them, and that check is not in the build.
