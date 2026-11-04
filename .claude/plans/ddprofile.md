@@ -1,11 +1,11 @@
 ---
 name: ddprofile
 title: Refresh Davidson Day from its 2026–27 School Profile — merge the 2021–2025 and 2022–2026 acceptance lists into one 2021–2026 list (278 rows, rescored buckets), Class of 2026 highlights, Class of 2027 GPA and enrollment, 2026–27 AP catalog; re-point every profile citation
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-03
 branch: feat/dd-profile-2627
-prs: []
+prs: [421]
 ---
 
 # Refresh Davidson Day from its 2026–27 School Profile
@@ -517,3 +517,23 @@ Phase 1 (English) built 2026-11-04 on `feat/dd-profile-2627`. Deviations and fin
   Emory/Howard/Batten present with links, the new tiles and buckets, and the source links
   to the new PDF, the Wayback 2025–26 copy and the catalog. Compare shows `(2021–2026)`,
   `~25:1`, `53 / 75` and `5 / 107`.
+
+### Phase 2 (2026-11-04, PR #421)
+
+- Spliced with `i18n_splice_work.mjs` by stamp: 38 `college-support` and 10
+  `metric-values` units per locale changed or were new. Every pre-existing translation
+  was kept.
+- 34 units differed from their predecessor only in figure tokens. Those tokens were
+  substituted into each locale's shipped wording, and the script checked the replacement
+  count. Where a locale wrote `~47` as a word (`حدود 47`) or `$7.4M+` without the `+`,
+  the bare figure was matched.
+- 14 reworded units were translated by hand: CS through NCVPS, the "not sponsored"
+  GPA exclusion, the 22-AP derivation flag, the provisional-GPA verify flag, the outcomes
+  headline and subhead, six classes, NCAA/NHS with year, the checklist question, and the
+  second-lightest caseload.
+- Verbatim English quotes follow each locale's existing habit: es, fr, it and hi keep
+  them in English; bn, ht, te, fa and ar translate them. The fa/ar "26-27" keeps the
+  established `26 تا 27` / `26 إلى 27` form.
+- `npm run build` is green. `check:money`'s two `SportsProgram.tsx` findings predate this
+  plan. Browser check passed in es and fa.
+
