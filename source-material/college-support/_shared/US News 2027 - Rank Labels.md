@@ -123,11 +123,12 @@ Source: profile-page screenshots taken by the user on a phone, 2026-11-04
 
 ## The table
 
-425 institution rows, alphabetical, matching the master exactly.
+426 institution rows, alphabetical, matching the master exactly.
 
 | Institution | Rank label | Channel |
 |---|---|---|
 | Abilene Christian University | National Rank #308 | User's 2026-09-22 PDF print-out |
+| Adelphi University | National Rank #191 | User's 2026-09-22 PDF print-out (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | Agnes Scott College | Liberal Rank #62 | Route B — Liberal Arts list page |
 | Allegheny College | Liberal Rank #85 | Route B — Liberal Arts list page |
 | American University | National Rank #95 | User's 2026-09-22 PDF print-out |

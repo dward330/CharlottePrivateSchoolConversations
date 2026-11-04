@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 499 ingested research documents.
+**13 schools × 12 research areas**, 500 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 2 | 2 | 18 | 2 |
-| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 13 | — | 9 | 11 | 2 | 2 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 13 | — | 9 | 12 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -673,7 +673,7 @@ how every school reports AP results.
 
 **The acceptance window is the widest the school's own lists genuinely support.**
 2023–2026 is the target, not a requirement: a pre-2023 block that cannot be split by
-class may be kept (Davidson Day 2021–2025, Gaston Day 2019–2025, Cannon 2022–2026).
+class may be kept (Davidson Day 2021–2026, Gaston Day 2019–2025, Cannon 2022–2026).
 When a window combines two published lists, each institution appears ONCE, and where
 the lists spell one institution differently the row carries the institution's
 **official name** (Cannon: "University of North Carolina at Charlotte", "Penn State
@@ -681,6 +681,17 @@ University Park"), with any `enrolling` marker carried onto it. A name with no
 counterpart on the other list keeps its printed spelling. Two distinct institutions
 that merely look alike stay separate (College of Charleston / University of
 Charleston; Columbia University / Columbia College).
+
+**A later edition's acceptance list is MERGED into the one already shipped, never
+swapped for it** (user rule, 2026-11-04, for every school). The window widens to
+span both lists, each institution appears once under the rule above, and a college
+the newer list does not reprint stays on the page: it is still a published
+acceptance. Replacing a list needs the user's explicit say-so for that school. The
+merge can only add institutions, so no bucket count can fall; a count that drops is
+a name-resolution bug (a renamed row lost its master match). The older list needs its
+own citation, because profiles are often overwritten at the same URL: cite an
+archived copy (Davidson Day's 2025–26 profile survives as a Wayback capture),
+never the live URL that now serves the newer edition.
 
 **Bold in a merged window may come from the newer list only, and `collegesTotal`
 says which years it covers.** The window and the bold need not span the same years:

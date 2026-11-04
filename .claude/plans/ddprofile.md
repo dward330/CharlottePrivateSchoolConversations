@@ -1,7 +1,7 @@
 ---
 name: ddprofile
 title: Refresh Davidson Day from its 2026–27 School Profile — merge the 2021–2025 and 2022–2026 acceptance lists into one 2021–2026 list (278 rows, rescored buckets), Class of 2026 highlights, Class of 2027 GPA and enrollment, 2026–27 AP catalog; re-point every profile citation
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-03
 branch: feat/dd-profile-2627
@@ -459,3 +459,56 @@ mechanism:
 
 - **Should the outcomes headline lead with the Class of 2026, given that only four Class of 2026 facts exist?** Owner: user, at the Phase 1 review. **Default:** lead with the Class of 2026 as written in step 3, with the Class of 2025 tiles labelled by year.
 - **Should the provisional-GPA footnote surface on the page at all?** Owner: user, at the Phase 1 review. **Default:** yes, as a neutral `verify` flag quoting the school.
+
+## Implementation notes
+
+Phase 1 (English) built 2026-11-04 on `feat/dd-profile-2627`. Deviations and findings:
+
+- **Merge as planned.** 255 kept + 23 new = 278 rows. The printed-to-existing match was
+  done by script and asserted: 15 planned renames, plus **5 more parenthetical spellings**
+  that the planning diff had treated as the same row without listing them (`Indiana
+  University (Bloomington)`, `Johnson & Wales University (Charlotte)`, `University of
+  Massachusetts (Amherst)`, `University of Tennessee (Chattanooga)`, `University of South
+  Carolina (Beaufort)`). Those existing rows keep their names. There were no duplicates.
+  The 25 not-reprinted rows match the planning list exactly.
+- **Final counts, from the gates, not the probe:** Ivy 3/8 · Ivy+ 8/17 · NU75 53/75 ·
+  LAC75 31/75 · P4 47/68 · HBCU 5/107. Each count matches the probe, and none fell.
+- **Masters.**
+  - `collegeRankings.ts`: one new row, Adelphi University `National Rank #191`, from the
+    committed National PDF harvest. Two `RANK_ALIAS` entries: `batten univ` → Virginia
+    Wesleyan, and `univ of hawaii manoa`.
+  - `collegeUrls.ts`: six homepages (Adelphi, Anderson (Indiana), Batten, Roger Williams,
+    SNHU, Hawaii (Manoa)), each confirmed in Chromium by name plus address.
+  - Anderson (Indiana), Roger Williams and SNHU are Regional and stay unranked by design.
+- **The 2021–2025 half has its own citation.** A Wayback CDX query found a 2026-03-07
+  capture of the old asset URL. It was retrieved and confirmed to be the 2025–26 edition
+  (list heading "2021 – 2025", SHA-1 `32b9227f…`). It ships as `PROFILE_2526` in the
+  outcomes sources. The school's own Issuu copy also exists and is recorded in source-material.
+- **AP Studio Art claim kept.** The school's 2026–27 Upper School Course Catalog still lists
+  it, so per the Decisions rule the edge claim stays, and it is now cited to `CATALOG`.
+  The AP-derivation flag notes that the profile no longer prints it.
+- **GPA-exclusion wording updated (not in the plan).** The old profile excluded "any course
+  taken online". The new one excludes "online courses not sponsored by the school", which
+  matters now that two APs run through NC Virtual Public School. `depth` "Beyond campus"
+  and `trust[2]` follow the new wording.
+- **`verify` flags are dev-only** (`src/lib/toVerify.ts`), so the provisional-GPA flag
+  never reaches a parent. The disclosure therefore also went into the prose that does
+  render: transcript `trust[1]` (as planned) and the wholeClass `gpaNote` (added).
+- **A pre-existing false claim, fixed.** The Compare caseload tooltip called Davidson Day
+  "the lightest caseload here", but Gaston Day is ~18:1. It now reads "second-lightest …,
+  after Gaston Day".
+- **Plan step 9 vs `/implement`:** the skill commits Phase 1 and stops without opening the
+  PR. Both phases land in one PR, so the PR opens after Phase 2.
+- **Deliberate keeps after the final sweep:** ncAdmissions "Fall 2021–2025" (government
+  data, out of scope); "Class of 2026 — 47 graduates" (correct); "five-year acceptance
+  list" in edge and verdict (describes the profile's own list); and the subhead's
+  "2021–2025 and 2022–2026" (names the two source lists).
+- **Phase 1 verification:** `tsc -b`, `check:ranks`, `check:collegeurls`,
+  `check:buckets`, `check:memberships`, `check:quals`, `check:metrics` (no new findings),
+  `check:schema` and the rest of the build chain after `check:live` all pass.
+  `npm run build` stops at `check:live` with **40 stale `college-support` stamps per
+  locale**: the Phase 2 work, as the plan expected. The browser check (vite preview, all
+  `<details>` open) confirmed the heading, 278 rows, Georgetown/Swarthmore/West Point kept,
+  Emory/Howard/Batten present with links, the new tiles and buckets, and the source links
+  to the new PDF, the Wayback 2025–26 copy and the catalog. Compare shows `(2021–2026)`,
+  `~25:1`, `53 / 75` and `5 / 107`.

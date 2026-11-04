@@ -78,6 +78,7 @@
 |---|---|---|
 | AMDA College of the Performing Arts (Los Angeles) | https://www.amda.edu | 200 (bot-blocked in curl/WebFetch, confirmed live) |
 | Abilene Christian University | https://acu.edu | 200 via redirect |
+| Adelphi University | https://www.adelphi.edu | 200; page names the Garden City campus, NY (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | Agnes Scott College | https://www.agnesscott.edu | 200 |
 | Alabama A&M University | https://www.aamu.edu | 200 |
 | Albany State University | https://www.asurams.edu | 200 |
@@ -89,6 +90,7 @@
 | Amherst College | https://www.amherst.edu | 200 |
 | Anderson University | https://andersonuniversity.edu | 200 via redirect |
 | Anderson University (SC) | https://andersonuniversity.edu | 200 OK after redirect to https://andersonuniversity.edu/; Carolinas reading chosen (SC institution; distinct from Anderson University, Indiana at anderson.edu) |
+| Anderson University (Indiana) | https://anderson.edu | 200; footer "1100 E. 5th St., Anderson, IN 46012" — not the South Carolina school (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | Anderson University (South Carolina) | https://andersonuniversity.edu | 200 (title names South Carolina; added 2026-11-04 for Charlotte Latin's 2024–26 list) |
 | Appalachian State University | https://www.appstate.edu | 200 |
 | Arcadia University | https://www.arcadia.edu | 200 |
@@ -112,6 +114,7 @@
 | Barnard College | https://barnard.edu | 200 via redirect |
 | Barry University | https://www.barry.edu | 200; root serves 200 and redirects to a /en locale path — the root is what is stored, per the root-domain rule |
 | Barton College | https://www.barton.edu | 200 |
+| Batten University | https://www.batten.edu | 200; title "Batten University", main campus Virginia Beach — the renamed Virginia Wesleyan (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | Bates College | https://www.bates.edu | 200 |
 | Baylor University | https://www.baylor.edu | 200 |
 | Beacon College | https://www.beaconcollege.edu | 200 |
@@ -574,6 +577,7 @@
 | Roanoke College | https://www.roanoke.edu | 200 |
 | Robert Morris University | https://www.rmu.edu | 200 |
 | Rochester Institute of Technology | https://www.rit.edu | 200 |
+| Roger Williams University | https://www.rwu.edu | 200; footer "1 Old Ferry Road, Bristol, RI" (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | Rollins College | https://www.rollins.edu | 200 |
 | Roosevelt University | https://www.roosevelt.edu | 200 |
 | Rose-Hulman Institute of Technology | https://www.rose-hulman.edu | 200 |
@@ -633,6 +637,7 @@
 | Southeastern University | https://www.seu.edu | 403 Cloudflare bot-block (domain confirmed live) |
 | Southern Connecticut State University | https://www.southernct.edu | 200 |
 | Southern Methodist University | https://www.smu.edu | 200 |
+| Southern New Hampshire University | https://www.snhu.edu | 200; footer "2500 North River Road Manchester, NH" (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | Southern University and A&M College | https://www.subr.edu | 403 to plain curl (bot-blocked); subr.edu is the Baton Rouge flagship's official domain |
 | Southern Wesleyan University | https://www.swu.edu | 200 |
 | Southwest Minnesota State University | https://www.smsu.edu | 200 |
@@ -812,6 +817,7 @@
 | University of Gloucestershire | https://www.glos.ac.uk | 403 (bot-blocked WAF; domain confirmed correct via search corroboration) |
 | University of Hartford | https://www.hartford.edu | 200 |
 | University of Hawaii | https://www.hawaii.edu | 200 |
+| University of Hawaii (Manoa) | https://manoa.hawaii.edu | 200; same institution as the "at Manoa" row (added 2026-11-04 for Davidson Day's 2022–26 list) |
 | University of Hawaii at Manoa | https://manoa.hawaii.edu | 200 |
 | University of Houston | https://www.uh.edu | 200 |
 | University of Idaho | https://www.uidaho.edu | 200 |

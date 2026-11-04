@@ -1,16 +1,17 @@
 // Davidson Day School — the six College Support cards.
 //
 // Every figure is transcribed from the school's OWN published materials — chiefly
-// the 2025–26 School Profile PDF — or from named third-party coverage. See
+// the 2026–27 School Profile PDF — or from named third-party coverage. See
 // source-material/college-support/davidson-day/Davidson Day - College Support -
+// School Profile 2026-2027.md (the current profile, page by page) and
 // Redesign Research 2026.md for the hard data, source URLs, and gap notes.
 //
-// Davidson Day is the smallest school in the set (total 541, Upper School 198,
-// Class of 2026 = 47) and publishes materially less than the larger independents.
+// Davidson Day is the smallest school in the set (total 565, Upper School 184,
+// Class of 2027 = 50) and publishes materially less than the larger independents.
 // Two things follow, and both are honest findings rather than research failures:
 //
 //  1. The school states outright that it "will not be providing the testing
-//     profiles for the Class of 2026" because of test-optional policies, and it
+//     profiles for the Class of 2027" because of test-optional policies, and it
 //     publishes no AP performance data and no National Merit record. So the
 //     Whole Class Analytics card carries no score tables and the Transcript card
 //     carries no AP-score stats and no merit ledger — those blocks are simply
@@ -26,42 +27,59 @@
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
-/* The 2021–25 acceptance list, verbatim from the School Profile: 255
-   institutions that accepted at least one Davidson Day student across five
-   graduating classes. Rank labels and bucket tags are scored against the 2026
-   U.S. News tables; an institution outside those tables carries no tag, which
-   is why many rows are untagged. Nothing here is marked `enrolling` — the
-   school bolds nothing and does not publish which colleges students attended. */
+/* The 2021–2026 acceptance list: the UNION of two consecutive School Profile
+   lists — the 2025–26 profile's "2021 – 2025" (255 institutions) and the
+   2026–27 profile's "2022 – 2026" (253). 278 institutions that accepted at
+   least one Davidson Day student across six graduating classes; neither list
+   can be split by class. A later list is merged in, never swapped for the old
+   one (user decision 2026-11-04), so the 25 colleges the newer list does not
+   reprint stay. Each institution appears once: where the two lists spell it
+   differently the row keeps its official name, so 'Virginia Wesleyan
+   University' now reads 'Batten University', its name since 2026-07-01. The 23
+   new rows are written as the 2026–27 profile prints them. Rank labels and
+   bucket tags are scored against the 2027 U.S. News tables; an institution
+   outside those tables carries no tag, which is why many rows are untagged.
+   Nothing here is marked `enrolling` — neither profile bolds anything and the
+   school does not publish which colleges students attended. */
 const colleges = [
   { name: 'AMDA College of the Performing Arts (Los Angeles)', cats: [] },
+  { name: 'Adelphi University', cats: [] },
   { name: 'Agnes Scott College', cats: ['lac75'] },
   { name: 'Alabama A&M University', cats: ['hbcu'] },
   { name: 'Allegheny College', cats: [] },
   { name: 'American University', cats: [] },
+  { name: 'Anderson University (Indiana)', cats: [] },
+  { name: 'Anderson University (South Carolina)', cats: [] },
   { name: 'Appalachian State University', cats: [] },
   { name: 'Auburn University', cats: ['p4'] },
   { name: 'Bard College', cats: ['lac75'] },
   { name: 'Barry University', cats: [] },
+  { name: 'Bates College', cats: ['lac75'] },
+  { name: 'Batten University', cats: [] },
   { name: 'Baylor University', cats: ['p4'] },
   { name: 'Belmont Abbey College', cats: [] },
   { name: 'Belmont University', cats: [] },
   { name: 'Benedictine University', cats: [] },
   { name: 'Bentley University', cats: [] },
   { name: 'Berry College', cats: [] },
+  { name: 'Binghamton University', cats: ['nu75'] },
   { name: 'Boston College', cats: ['nu75', 'p4'] },
   { name: 'Boston University', cats: ['nu75'] },
   { name: 'Brandeis University', cats: ['nu75'] },
   { name: 'Brevard College', cats: [] },
   { name: 'Bridgewater College', cats: [] },
   { name: 'Brown University', cats: ['ivy', 'ivyplus', 'nu75'] },
+  { name: 'Bucknell University', cats: ['lac75'] },
   { name: 'Butler University', cats: [] },
   { name: 'California State University Long Beach', cats: [] },
   { name: 'Carnegie Mellon University', cats: ['nu75'] },
   { name: 'Case Western Reserve University', cats: ['nu75'] },
   { name: 'Catawba College', cats: [] },
   { name: 'Centre College', cats: ['lac75'] },
+  { name: 'Charleston Southern University', cats: [] },
   { name: 'Christopher Newport University', cats: [] },
   { name: 'Clark University', cats: [] },
+  { name: 'Clarkson University', cats: [] },
   { name: 'Clemson University', cats: ['p4'] },
   { name: 'Coastal Carolina University', cats: [] },
   { name: 'Colby College', cats: ['lac75'] },
@@ -77,6 +95,7 @@ const colleges = [
   { name: 'Davidson College', cats: ['lac75'] },
   { name: 'DePaul University', cats: [] },
   { name: 'Denison University', cats: ['lac75'] },
+  { name: 'Dickinson College', cats: ['lac75'] },
   { name: 'Drexel University', cats: [] },
   { name: 'Duke University', cats: ['ivyplus', 'nu75', 'p4'] },
   { name: 'East Carolina University', cats: [] },
@@ -88,6 +107,7 @@ const colleges = [
   { name: 'Embry-Riddle Aeronautical University, Daytona Beach', cats: [] },
   { name: 'Emerson College', cats: [] },
   { name: 'Emmanuel College', cats: [] },
+  { name: 'Emory University', cats: ['nu75'] },
   { name: 'Erskine College', cats: [] },
   { name: 'Fairfield University', cats: [] },
   { name: 'Fisk University', cats: ['hbcu'] },
@@ -107,6 +127,7 @@ const colleges = [
   { name: 'Georgia State University', cats: [] },
   { name: 'Gettysburg College', cats: ['lac75'] },
   { name: 'Gonzaga University', cats: [] },
+  { name: 'Greensboro College', cats: [] },
   { name: 'Greenville University', cats: [] },
   { name: 'Guilford College', cats: [] },
   { name: 'Hamline University', cats: [] },
@@ -114,6 +135,7 @@ const colleges = [
   { name: 'High Point University', cats: [] },
   { name: 'Hofstra University', cats: [] },
   { name: 'Hollins University', cats: [] },
+  { name: 'Howard University', cats: ['nu75', 'hbcu'] },
   { name: 'Indiana University Bloomington', cats: ['nu75', 'p4'] },
   { name: 'Iowa State University', cats: ['p4'] },
   { name: 'Ithaca College', cats: [] },
@@ -123,6 +145,7 @@ const colleges = [
   { name: 'Johnson & Wales University Charlotte', cats: [] },
   { name: 'Juniata College', cats: [] },
   { name: 'Kenyon College', cats: ['lac75'] },
+  { name: 'Lehigh University', cats: ['nu75'] },
   { name: 'Lenoir-Rhyne University', cats: [] },
   { name: 'Liberty University', cats: [] },
   { name: 'Lincoln Memorial University', cats: [] },
@@ -141,11 +164,13 @@ const colleges = [
   { name: 'Miami University (Ohio)', cats: [] },
   { name: 'Michigan State University', cats: ['nu75', 'p4'] },
   { name: 'Middlebury College', cats: ['lac75'] },
+  { name: 'Mississippi State University', cats: ['p4'] },
   { name: 'Montana State University', cats: [] },
   { name: 'Mount Holyoke College', cats: ['lac75'] },
   { name: 'Muhlenberg College', cats: ['lac75'] },
   { name: 'Nazareth University', cats: [] },
   { name: 'New Jersey Institute of Technology', cats: [] },
+  { name: 'North Carolina A&T State University', cats: ['hbcu'] },
   { name: 'North Carolina State University', cats: ['nu75', 'p4'] },
   { name: 'Northeastern University', cats: ['nu75'] },
   { name: 'Northwestern University', cats: ['ivyplus', 'nu75', 'p4'] },
@@ -155,6 +180,7 @@ const colleges = [
   { name: 'Ohio University', cats: [] },
   { name: 'Oklahoma City University', cats: [] },
   { name: 'Old Dominion University', cats: [] },
+  { name: 'Oregon State University', cats: [] },
   { name: 'Oxford College of Emory University', cats: [] },
   { name: 'Pace University', cats: [] },
   { name: 'Penn State Berks', cats: [] },
@@ -176,16 +202,20 @@ const colleges = [
   { name: 'Richmond American University London (UK)', cats: [] },
   { name: 'Roanoke College', cats: [] },
   { name: 'Rochester Institute of Technology', cats: [] },
+  { name: 'Roger Williams University', cats: [] },
   { name: 'Rollins College', cats: [] },
   { name: 'Rutgers University', cats: ['nu75', 'p4'] },
+  { name: 'SUNY Buffalo', cats: [] },
   { name: 'Salve Regina University', cats: [] },
   { name: 'Samford University', cats: [] },
   { name: 'Savannah College of Art and Design (SCAD — art & design)', cats: [] },
+  { name: 'Seton Hall University', cats: [] },
   { name: 'Seton Hill University', cats: [] },
   { name: 'Sewanee: The University of the South', cats: ['lac75'] },
   { name: 'Siena University', cats: [] },
   { name: 'Smith College', cats: ['lac75'] },
   { name: 'Southern Methodist University', cats: ['p4'] },
+  { name: 'Southern New Hampshire University', cats: [] },
   { name: 'Southwest Minnesota State University', cats: [] },
   { name: 'Spalding University', cats: [] },
   { name: 'St. Lawrence University', cats: ['lac75'] },
@@ -198,6 +228,7 @@ const colleges = [
   { name: 'Syracuse University', cats: ['nu75', 'p4'] },
   { name: 'Temple University', cats: [] },
   { name: 'Texas A&M University', cats: ['nu75', 'p4'] },
+  { name: 'Texas Christian University', cats: ['p4'] },
   { name: 'The College of Wooster', cats: [] },
   { name: 'The Ohio State University', cats: ['nu75', 'p4'] },
   { name: 'The University of Alabama', cats: ['p4'] },
@@ -227,6 +258,7 @@ const colleges = [
   { name: 'University of Denver', cats: [] },
   { name: 'University of Florida', cats: ['nu75', 'p4'] },
   { name: 'University of Georgia', cats: ['nu75', 'p4'] },
+  { name: 'University of Hawaii (Manoa)', cats: [] },
   { name: 'University of Iowa', cats: ['p4'] },
   { name: 'University of Kentucky', cats: ['p4'] },
   { name: 'University of Lynchburg', cats: [] },
@@ -249,6 +281,7 @@ const colleges = [
   { name: 'University of North Dakota', cats: [] },
   { name: 'University of North Florida', cats: [] },
   { name: 'University of Pittsburgh', cats: ['nu75', 'p4'] },
+  { name: 'University of Rhode Island', cats: [] },
   { name: 'University of Richmond', cats: ['lac75'] },
   { name: 'University of Rochester', cats: ['nu75'] },
   { name: 'University of San Francisco', cats: [] },
@@ -267,7 +300,6 @@ const colleges = [
   { name: 'Villanova University', cats: ['nu75'] },
   { name: 'Virginia Commonwealth University', cats: [] },
   { name: 'Virginia Polytechnic Institute and State University', cats: ['nu75', 'p4'] },
-  { name: 'Virginia Wesleyan University', cats: [] },
   { name: 'Wake Forest University', cats: ['nu75', 'p4'] },
   { name: 'Warren Wilson College', cats: [] },
   { name: 'Wartburg College', cats: [] },
@@ -291,7 +323,13 @@ const colleges = [
 ]
 
 const PROFILE =
-  'https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
+  'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
+/* The 2025–26 edition — the source of the 2021–2025 half of the list. The
+   school overwrote it at the same Finalsite asset; this Wayback capture
+   (2026-03-07) is the verified copy of the PDF itself. */
+const PROFILE_2526 =
+  'https://web.archive.org/web/20260307054121/https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
+const CATALOG = 'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog'
 const COUNSELING = 'https://www.davidsonday.org/academics/college-counseling'
 
 export const davidsonDay: CollegeSupportProgram = {
@@ -417,12 +455,12 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.',
     subhead:
-      'The School Profile does the work test scores would otherwise do: full quality-point table, +0.5 Honors / +1.0 AP, a stated no-rank policy, and a three-point GPA distribution that discloses a 2.49 floor.',
+      'The School Profile does the work test scores would otherwise do: full quality-point table, +0.5 Honors / +1.0 AP, a stated no-rank policy, and a three-point GPA distribution that discloses a 2.58 floor.',
     stats: [
-      { value: '21', label: 'AP courses offered in 2025–26 (derived count — the school publishes no total)' },
+      { value: '22', label: 'AP courses offered in 2026–27 (derived count — the school publishes no total)' },
       { value: 'Not published', label: 'AP exams sat, % scoring 3+, and exam policy' },
       { value: 'No rank', label: '“Davidson Day does not rank its students”' },
-      { value: '4.60 / 3.96 / 2.49', label: 'Class of 2026 GPA — highest, median, lowest' },
+      { value: '4.67 / 3.93 / 2.58', label: 'Class of 2027 GPA — highest, median, lowest' },
     ],
     // No merit ledger: the school publishes no National Merit record of any
     // kind, so the block is omitted rather than shown empty.
@@ -434,7 +472,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: 'Tops out at AP Computer Science A; there is no post-AP CS course. A new Intro to AI is listed but flagged as not offered in 2025–26.',
+        text: 'Tops out at AP Computer Science A; there is no post-AP CS course. Both AP Computer Science Principles and AP Computer Science A are taught online through North Carolina Virtual Public School rather than on campus. Intro to AI is listed but still flagged as not offered in 2026–27.',
       },
       {
         label: 'World language',
@@ -442,7 +480,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'Beyond campus',
-        text: 'Independent Studies and any course taken online are excluded from the GPA. No dual-enrollment partnership is published — notable given Davidson College sits one mile away. The real off-campus depth is AFAR international field research.',
+        text: 'Independent Studies and online courses not sponsored by the school are excluded from the GPA. No dual-enrollment partnership is published — notable given Davidson College sits one mile away. The real off-campus depth is AFAR international field research.',
       },
     ],
     trust: [
@@ -452,17 +490,21 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'No rank → three summary points',
-        text: 'The Profile gives the Class of 2026 highest (4.60), median (3.96) and lowest (2.49) GPA, transfers excluded. There is no quintile or decile table, so the shape of the distribution stays hidden.',
+        text: 'The Profile gives the Class of 2027 highest (4.67), median (3.93) and lowest (2.58) GPA, transfers excluded — and the profile itself labels them provisional, calculated from a September roster export with 47 of 50 students on file. There is no quintile or decile table, so the shape of the distribution stays hidden.',
       },
       {
         label: 'Unusually explicit exclusions',
-        text: 'Transfer courses, Upper School courses taken in Middle School, Independent Studies and any online course are all excluded; the GPA reflects only work done at Davidson Day.',
+        text: 'Transfer courses, Upper School courses taken in Middle School, Independent Studies and online courses not sponsored by the school are all excluded; the GPA reflects only work done at Davidson Day.',
       },
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'The 21-AP figure is a derived count of distinct College Board courses in the Profile’s table, excluding four marked “not offered in 25-26” and excluding Calculus III. The school prints no AP total, and PrivateSchoolReview reports a non-reconciling “23 AP/advanced courses”.',
+        text: 'The 22-AP figure is a derived count of distinct College Board courses in the 2026–27 Profile’s table, excluding three marked “not offered in 26-27”, Calculus III and “AP w/ WE Service”. Against 2025–26: Physics II and Microeconomics are now offered, Macroeconomics is not, Business with Personal Finance is new, and AP Studio Art is no longer printed on the Profile (the 2026–27 course catalog still lists it). Two of the 22, CS Principles and CS A, are taught through North Carolina Virtual Public School. The school prints no AP total, and PrivateSchoolReview reports a non-reconciling “23 AP/advanced courses”.',
+      },
+      {
+        kind: 'verify',
+        text: 'The 2026–27 Profile prints this note under its Class of 2027 GPA figures: “Figures calculated from the 9/1/26 roster export (47 of 50 students with a GPA on file); confirm against final records and transfer-student exclusions before printing.” As published, the 4.67 / 3.93 / 2.58 figures are provisional and cover 47 of 50 students.',
       },
       {
         kind: 'gap',
@@ -470,7 +512,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'No National Merit or College Board recognition record could be located in the school’s materials, its news feed, or National Merit Scholarship Corporation listings. Unpublished is not the same as zero — at a class size of ~47 a nil or low-single-digit count would be unremarkable.',
+        text: 'No National Merit or College Board recognition record could be located in the school’s materials, its news feed, or National Merit Scholarship Corporation listings. Unpublished is not the same as zero — at a class size of ~50 a nil or low-single-digit count would be unremarkable.',
       },
       {
         kind: 'gap',
@@ -478,18 +520,18 @@ export const davidsonDay: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'davidsonday.org — School Profile 2025–26 (grading scale, weighting, GPA distribution, course catalog)', url: PROFILE },
+      { label: 'davidsonday.org — School Profile 2026–27 (grading scale, weighting, GPA distribution, course catalog)', url: PROFILE },
       { label: 'Upper School — course model', url: 'https://www.davidsonday.org/academics/upper-school' },
     ],
   },
 
   counseling: {
     headline:
-      'Two counselors for 198 Upper Schoolers — roughly 1:99, and about 1:24 across the 47 seniors — with the office’s stated start point in 9th grade rather than junior year.',
+      'Two counselors for 184 Upper Schoolers — roughly 1:92, and about 1:25 across the 50 seniors — with the office’s stated start point in 9th grade rather than junior year.',
     subhead:
       'The small caseload is the credible part. What is missing is any written commitment about what the office actually guarantees: no published review-before-submission promise, no ED/EA stance, no recommendation protocol.',
     stats: [
-      { value: '~1:99', label: 'counselors to Upper School students (derived — no ratio is published)' },
+      { value: '~1:92', label: 'counselors to Upper School students (derived — no ratio is published)' },
       { value: '2', label: 'college counselors, plus a registrar' },
       { value: '9th grade', label: 'when the office says counseling begins' },
       { value: 'Scoir', label: 'platform for applications and rep-visit scheduling' },
@@ -546,14 +588,14 @@ export const davidsonDay: CollegeSupportProgram = {
     mechanicsNote:
       'Applications and materials are submitted through Scoir. Note what is absent from that list: teacher recommendations appear only as a Scoir submission step, with no published policy on how many, how teachers are approached, or how the office supports them.',
     reach: [
-      '**80+** college reps hosted per year — high per-student exposure for a 198-student Upper School',
+      '**80+** college reps hosted per year — high per-student exposure for a 184-student Upper School',
       '**~70** colleges at the co-hosted Lake Norman case-studies fair',
       'Scoir · a current, publicly linked 4-page School Profile · NCAA eligibility resources',
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (198 ÷ 2 and 47 ÷ 2). The school never states a counselor-to-student ratio, and publishes no caseload assignment method or the point at which a student is assigned a counselor.',
+        text: 'Both ratios are derived (184 ÷ 2 and 50 ÷ 2). The school never states a counselor-to-student ratio, and publishes no caseload assignment method or the point at which a student is assigned a counselor.',
       },
       {
         kind: 'gap',
@@ -566,7 +608,7 @@ export const davidsonDay: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'davidsonday.org — College Counseling', url: COUNSELING },
-      { label: 'School Profile 2025–26 (staff, enrollment, memberships)', url: PROFILE },
+      { label: 'School Profile 2026–27 (staff, enrollment, memberships)', url: PROFILE },
       { label: 'Faculty & Staff Directory (registrar email address)', url: 'https://www.davidsonday.org/directory' },
       // Not a citation: a methodology note. Aggregated professional profiles are
       // self-reported and are not cited as an authority, so there is deliberately
@@ -577,34 +619,34 @@ export const davidsonDay: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'The Class of 2025 — 53 graduates — drew 258 acceptances, enrolled 100% at four-year institutions, and was offered more than $7.4M in merit aid.',
+      'The Class of 2026 — 47 graduates — was offered more than $7.9M in merit aid; the latest full outcome set, the Class of 2025’s, shows 258 acceptances and 100% enrolling at four-year institutions.',
     subhead:
-      'The big list below is a five-year cumulative acceptance list (2021–2025), not a matriculation list: 255 institutions, each of which admitted at least one Davidson Day student across five graduating classes.',
+      'The big list below is a six-year cumulative acceptance list (2021–2026), not a matriculation list: 278 institutions, each of which admitted at least one Davidson Day student across six graduating classes. It combines the school’s two most recent profile lists, 2021–2025 and 2022–2026.',
     stats: [
       { value: '100%', label: 'of the Class of 2025 matriculated to a four-year institution' },
       { value: '258', label: 'acceptances for 53 graduates · 35 different colleges selected' },
-      { value: '3 of 8', label: 'Ivy League on the five-year list — absent Columbia, Harvard, Penn, Princeton, Yale' },
-      { value: '$7.4M+', label: 'merit aid offered (not accepted) — Class of 2025' },
+      { value: '3 of 8', label: 'Ivy League on the 2021–26 list — absent Columbia, Harvard, Penn, Princeton, Yale' },
+      { value: '$7.9M+', label: 'merit aid offered (not accepted) — Class of 2026' },
     ],
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Dartmouth' },
       { tier: '“Ivy Plus”', count: '8 / 17', note: '— absent MIT, Stanford, Johns Hopkins, Caltech' },
-      { tier: 'Top-75 National Universities', count: '49 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '28 / 75', note: '— includes 2 service academies' },
-      { tier: 'Power Four', count: '45 / 68' },
-      { tier: 'HBCUs', count: '3 / 107', note: '— Historically Black Colleges & Universities' },
+      { tier: 'Top-75 National Universities', count: '53 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '31 / 75', note: '— includes 2 service academies' },
+      { tier: 'Power Four', count: '47 / 68' },
+      { tier: 'HBCUs', count: '5 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    collegesTitle: 'Every acceptance, 2021–2025',
+    collegesTitle: 'Every acceptance, 2021–2026',
     colleges,
-    collegesTotal: '255 institutions across five graduating classes',
+    collegesTotal: '278 institutions across six graduating classes',
     scholarships: [
-      '$7.4M+ merit offered · Class of 2025',
-      '11 NCAA student-athletes',
-      '28 National Honor Society members',
+      '$7.9M+ merit offered · Class of 2026',
+      '8 NCAA student-athletes · Class of 2026',
+      '20 National Honor Society members · Class of 2026',
       'USAFA swimming signing (Matthew Doty)',
     ],
     scholarshipsNote:
-      'The $7.4M is the school’s own wording — “offered”, not accepted, so it includes awards from colleges no student attended. The number of students receiving merit, the median award, and the accepted total are all unpublished, as are Morehead-Cain, Robertson, QuestBridge and ROTC outcomes.',
+      'The $7.9M is the school’s own wording — “offered”, not accepted, so it includes awards from colleges no student attended. The number of students receiving merit, the median award, and the accepted total are all unpublished, as are Morehead-Cain, Robertson, QuestBridge and ROTC outcomes.',
     flags: [
       {
         kind: 'gap',
@@ -612,7 +654,8 @@ export const davidsonDay: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'davidsonday.org — School Profile 2025–26 (full 2021–25 acceptance list, Class of 2025 outcomes)', url: PROFILE },
+      { label: 'davidsonday.org — School Profile 2026–27 (2022–26 acceptance list, Class of 2026 highlights)', url: PROFILE },
+      { label: 'School Profile 2025–26 (2021–25 acceptance list, archived)', url: PROFILE_2526 },
       { label: 'College Counseling — Class of 2025 outcomes', url: COUNSELING },
       { label: 'U.S. News — National Universities rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
       { label: 'U.S. News — National Liberal Arts Colleges rankings', url: 'https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges' },
@@ -621,7 +664,7 @@ export const davidsonDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'For a 198-student Upper School, the spike-building machinery is disproportionate: real permitted archaeology abroad, and a Global Studies Diploma that sends a second transcript and profile to colleges.',
+      'For a 184-student Upper School, the spike-building machinery is disproportionate: real permitted archaeology abroad, and a Global Studies Diploma that sends a second transcript and profile to colleges.',
     subhead:
       'What the school cannot offer is institutional name recognition — so the leverage it does control is the Profile itself, rep-visit volume, and counselor access.',
     levers: [
@@ -641,7 +684,7 @@ export const davidsonDay: CollegeSupportProgram = {
         title: 'Lever 2 — The school’s leverage',
         glyph: '▲',
         items: [
-          '**The School Profile as an instrument** — the strongest lever here, and well executed. Four pages, current, publicly linked: full grading scale and weighting, GPA exclusions, the Class of 2026 GPA range, the complete course catalog with unoffered courses clearly flagged, graduation requirements, the Honor Code, and the five-year acceptance list. For a reader who has never been to Davidson, NC, it frames a student without leaning on test scores or rank — precisely the job it has to do.',
+          '**The School Profile as an instrument** — the strongest lever here, and well executed. Four pages, current, publicly linked: full grading scale and weighting, GPA exclusions, the Class of 2027 GPA range, the complete course catalog with unoffered courses clearly flagged, graduation requirements, the Honor Code, and the five-year acceptance list. For a reader who has never been to Davidson, NC, it frames a student without leaning on test scores or rank — precisely the job it has to do.',
           '**Integrity signalling** — the Honor Code is published verbatim, and the school holds the standard ethical-practice memberships: NACAC, SACAC and ACCIS, alongside NAIS, SAIS, NCAIS, NCISAA and College Board.',
           '**Regional co-hosting** — each spring Davidson Day co-hosts the Lake Norman Area College Admissions Case Studies Program and College Fair with Cannon School, putting families inside a mock admissions committee reading real (fictionalised) files.',
           '**Proximity, not partnership** — Davidson College is one mile away and appears on the acceptance list, but no dual-enrollment, course-access or preferred-admission arrangement is published. The proximity is a fact, not a documented pipeline.',
@@ -653,7 +696,8 @@ export const davidsonDay: CollegeSupportProgram = {
     flags: [],
     sources: [
       { label: 'davidsonday.org — Global Studies Diploma', url: 'https://www.davidsonday.org/academics/diploma-distinctions/global-studies' },
-      { label: 'School Profile 2025–26 (AFAR, Honor Code, memberships)', url: PROFILE },
+      { label: 'School Profile 2026–27 (AFAR, Honor Code, memberships)', url: PROFILE },
+      { label: 'Upper School Course Catalog 2026–27 (AP Studio Art)', url: CATALOG },
       { label: 'AFAR — program history', url: 'https://www.goafar.org/history' },
       { label: 'Heritage (2020) — peer-reviewed BVAR public-engagement history', url: 'https://www.mdpi.com/2571-9408/3/3/40' },
     ],
@@ -661,21 +705,21 @@ export const davidsonDay: CollegeSupportProgram = {
 
   wholeClass: {
     headline:
-      'Davidson Day withholds all SAT and ACT data by choice — “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2026”.',
+      'Davidson Day withholds all SAT and ACT data by choice — “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.',
     subhead:
       'What remains is a three-point GPA disclosure, a genuinely staffed Learning Enrichment Center, and an acceptance list broad enough to show the middle of the class is served.',
     // No score tables at all: the school publishes neither SAT nor ACT figures,
     // and aggregator numbers are user-submitted, so the block is omitted.
     scoreTables: [],
     gpaTitle: 'GPA distribution',
-    gpaHint: '— the no-rank mechanism · Class of 2026, transfers excluded',
+    gpaHint: '— the no-rank mechanism · Class of 2027, transfers excluded',
     quintiles: [
-      { label: 'Highest', gpa: '4.60', detail: 'on a scale where APs add a full point' },
-      { label: 'Median', gpa: '3.96', detail: 'the midpoint — no mean is published' },
-      { label: 'Lowest', gpa: '2.49', detail: 'the school discloses its floor' },
+      { label: 'Highest', gpa: '4.67', detail: 'on a scale where APs add a full point' },
+      { label: 'Median', gpa: '3.93', detail: 'the midpoint — no mean is published' },
+      { label: 'Lowest', gpa: '2.58', detail: 'the school discloses its floor' },
     ],
     gpaNote:
-      'Three summary points is the entire disclosure — there is no quintile or decile table, so an admissions reader learns the range and the midpoint but nothing about the shape: how tightly the class clusters, how many sit above 4.0, or where the 25th percentile falls. Publishing a 2.49 low alongside a 4.60 high is nonetheless a transparency choice many peer schools avoid.',
+      'Three summary points is the entire disclosure — there is no quintile or decile table, so an admissions reader learns the range and the midpoint but nothing about the shape: how tightly the class clusters, how many sit above 4.0, or where the 25th percentile falls. Publishing a 2.58 low alongside a 4.67 high is nonetheless a transparency choice many peer schools avoid — though the 2026–27 Profile itself calls these figures provisional, drawn from 47 of 50 students on file.',
     support: [
       {
         label: 'The Learning Enrichment Center',
@@ -693,11 +737,11 @@ export const davidsonDay: CollegeSupportProgram = {
     middle: [
       {
         label: 'The list is the evidence',
-        text: 'The 2021–25 list spans Brown, Dartmouth, Cornell and Chicago down through broad-access institutions — Belmont Abbey, Brevard, Catawba, Mars Hill, Methodist, Wingate, Gardner-Webb, Lenoir-Rhyne, UNC Pembroke, Winston-Salem State. A school placing only its top quartile would not produce that range.',
+        text: 'The 2021–26 list spans Brown, Dartmouth, Cornell and Chicago down through broad-access institutions — Belmont Abbey, Brevard, Catawba, Mars Hill, Methodist, Wingate, Gardner-Webb, Lenoir-Rhyne, UNC Pembroke, Winston-Salem State. A school placing only its top quartile would not produce that range.',
       },
       {
         label: 'No rank, by design',
-        text: 'In a 47-person class, an ordinal position is far more damaging than informative. The no-rank policy is a structural choice that protects the middle, and the spring Case Studies Program teaches families to read admissions as institutional need rather than applicant ranking.',
+        text: 'In a 50-person class, an ordinal position is far more damaging than informative. The no-rank policy is a structural choice that protects the middle, and the spring Case Studies Program teaches families to read admissions as institutional need rather than applicant ranking.',
       },
       {
         label: 'Non-traditional destinations',
@@ -715,7 +759,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'davidsonday.org — School Profile 2025–26 (testing statement, GPA distribution)', url: PROFILE },
+      { label: 'davidsonday.org — School Profile 2026–27 (testing statement, GPA distribution)', url: PROFILE },
       { label: 'Learning Enrichment Center', url: 'https://www.davidsonday.org/academics/learning-enrichment-center' },
       { label: 'Aggregator score ranges consulted and deliberately NOT used — user-submitted, not school-reported', },
     ],
@@ -737,15 +781,15 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'The caseload is genuinely small, and starts in 9th grade',
-        text: 'Two counselors for 198 Upper Schoolers (~1:99, ~1:24 at senior level) makes the “individualized” language credible rather than promotional.',
+        text: 'Two counselors for 184 Upper Schoolers (~1:92, ~1:25 at senior level) makes the “individualized” language credible rather than promotional.',
       },
       {
         label: 'The Profile does the work test scores would',
-        text: 'Full grading scale, explicit weighting and exclusions, GPA range and median, the complete catalog with unoffered courses flagged, and a five-year acceptance list — with a disclosed 2.49 GPA floor.',
+        text: 'Full grading scale, explicit weighting and exclusions, GPA range and median, the complete catalog with unoffered courses flagged, and a five-year acceptance list — with a disclosed 2.58 GPA floor.',
       },
       {
         label: 'Rep-visit volume is high per student',
-        text: '80+ reps a year at a 198-student Upper School, visits running all fall, plus a spring case-studies program and fair co-hosted with Cannon School that drew nearly 70 colleges.',
+        text: '80+ reps a year at a 184-student Upper School, visits running all fall, plus a spring case-studies program and fair co-hosted with Cannon School that drew nearly 70 colleges.',
       },
     ],
     checklist: [
@@ -753,7 +797,7 @@ export const davidsonDay: CollegeSupportProgram = {
       'The Profile says you won’t provide testing profiles. What were the actual middle-50% SAT and ACT ranges for the last class, and how many students tested?',
       'Has Davidson Day had any National Merit Semifinalists, Finalists or Commended Students in the last five years? (Be explicit you mean the NC school — the name collides with Davidson Academy in Nevada.)',
       'You publish a highest, median and lowest GPA but no quintiles. How many of the seniors are above a 4.0, and where does the 25th percentile fall?',
-      'Which 35 colleges did the Class of 2025 actually enroll at, and which colleges take a Davidson Day student most years?',
+      'The school names the Class of 2025’s 35 colleges nowhere, and the Class of 2026’s outcome block is not yet on the counseling page. Where did each class actually enroll, and which colleges take a Davidson Day student most years?',
       'Does someone read every application before it’s submitted? What’s your stance on binding Early Decision, and how do you handle teacher recommendations?',
       'Davidson College is one mile away — is there any dual-enrollment, course-access or partnership arrangement with them, or with UNC Charlotte?',
       'Does the Learning Enrichment Center write or manage accommodations? If so, who gets them approved for College Board and ACT testing, and documented for college disability services?',
@@ -761,7 +805,7 @@ export const davidsonDay: CollegeSupportProgram = {
     flags: [],
     sources: [
       { label: 'davidsonday.org — College Counseling', url: COUNSELING },
-      { label: 'School Profile 2025–26', url: PROFILE },
+      { label: 'School Profile 2026–27', url: PROFILE },
       { label: 'Verdict synthesised by the researcher from the sources cited on the cards above', },
     ],
   },
