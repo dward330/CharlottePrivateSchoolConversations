@@ -250,8 +250,8 @@
       ]
     },
     {
-      "t": "الرقم 22 هو الرقم الذي تذكره المدرسة نفسها؛ لكن 23 مُدخلًا يحمل عنوان AP يظهر فعليًا في صفحة المقررات المُقدَّمة.",
-      "of": "aa9c3a87",
+      "t": "الرقم 22 هو الرقم الذي تذكره المدرسة نفسها؛ لكن 23 مُدخلًا يحمل عنوان AP يظهر فعليًا في صفحة المقررات المُقدَّمة. ويذكر Upper School Profile لعام 2026–27 أن AP يُقدَّم في 24 مادة.",
+      "of": "c94ada31",
       "at": [
         "providence-day:[1].quals.charlotte-latin.text"
       ]
@@ -357,8 +357,8 @@
       ]
     },
     {
-      "t": "نسبة اختبارات AP التي نالت درجة 3 أو أعلى، لأحدث سنة مُبلَّغ عنها. ولا تنشر Charlotte Latin وDavidson Day وHickory Grove Christian أي نسبة نجاح لكل اختبار.",
-      "of": "80c172c9",
+      "t": "نسبة اختبارات AP التي نالت درجة 3 أو أعلى، لأحدث سنة مُبلَّغ عنها. ولا تنشر Davidson Day وHickory Grove Christian أي نسبة نجاح لكل اختبار.",
+      "of": "ec2adcaf",
       "at": [
         "providence-day:[3].note"
       ]
@@ -385,6 +385,15 @@
       "of": "3ad222e0",
       "at": [
         "providence-day:[3].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "92%",
+      "of": "decf5375",
+      "at": [
+        "providence-day:[3].values.charlotte-latin",
+        "providence-day:[12].values.providence-day",
+        "providence-day:[14].values.charlotte-country-day"
       ]
     },
     {
@@ -416,6 +425,7 @@
       "at": [
         "providence-day:[3].subs.cannon",
         "providence-day:[3].subs.charlotte-christian",
+        "providence-day:[3].subs.charlotte-latin",
         "providence-day:[3].subs.covenant-day"
       ]
     },
@@ -468,6 +478,13 @@
       "of": "086ce0cf",
       "at": [
         "providence-day:[3].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "نال 92% من اختبارات AP الـ 833 درجة 3 أو أعلى في 2026 (308 طلاب؛ بمتوسّط درجة 4.10). وتُلزم Latin كل طالب AP بأداء الاختبار. والدرجة 3+ هي المستوى الذي تعدّه معظم الجامعات نتيجة نجاح.",
+      "of": "73cf20d5",
+      "at": [
+        "providence-day:[3].quals.charlotte-latin.text"
       ]
     },
     {
@@ -534,17 +551,11 @@
       "of": "f86cd907",
       "at": [
         "providence-day:[4].subs.charlotte-catholic",
-        "providence-day:[4].subs.charlotte-latin",
         "providence-day:[5].subs.charlotte-catholic",
-        "providence-day:[5].subs.charlotte-latin",
         "providence-day:[6].subs.charlotte-catholic",
-        "providence-day:[6].subs.charlotte-latin",
         "providence-day:[7].subs.charlotte-catholic",
-        "providence-day:[7].subs.charlotte-latin",
         "providence-day:[8].subs.charlotte-catholic",
-        "providence-day:[8].subs.charlotte-latin",
-        "providence-day:[15].subs.charlotte-catholic",
-        "providence-day:[15].subs.charlotte-latin"
+        "providence-day:[15].subs.charlotte-catholic"
       ]
     },
     {
@@ -553,26 +564,32 @@
       "at": [
         "providence-day:[4].subs.charlotte-christian",
         "providence-day:[4].subs.charlotte-country-day",
+        "providence-day:[4].subs.charlotte-latin",
         "providence-day:[4].subs.covenant-day",
         "providence-day:[4].subs.providence-day",
         "providence-day:[5].subs.charlotte-christian",
         "providence-day:[5].subs.charlotte-country-day",
+        "providence-day:[5].subs.charlotte-latin",
         "providence-day:[5].subs.covenant-day",
         "providence-day:[5].subs.providence-day",
         "providence-day:[6].subs.charlotte-christian",
         "providence-day:[6].subs.charlotte-country-day",
+        "providence-day:[6].subs.charlotte-latin",
         "providence-day:[6].subs.covenant-day",
         "providence-day:[6].subs.providence-day",
         "providence-day:[7].subs.charlotte-christian",
         "providence-day:[7].subs.charlotte-country-day",
+        "providence-day:[7].subs.charlotte-latin",
         "providence-day:[7].subs.covenant-day",
         "providence-day:[7].subs.providence-day",
         "providence-day:[8].subs.charlotte-christian",
         "providence-day:[8].subs.charlotte-country-day",
+        "providence-day:[8].subs.charlotte-latin",
         "providence-day:[8].subs.covenant-day",
         "providence-day:[8].subs.providence-day",
         "providence-day:[15].subs.charlotte-christian",
         "providence-day:[15].subs.charlotte-country-day",
+        "providence-day:[15].subs.charlotte-latin",
         "providence-day:[15].subs.covenant-day",
         "providence-day:[15].subs.providence-day"
       ]
@@ -619,6 +636,7 @@
       "at": [
         "providence-day:[4].values.cannon",
         "providence-day:[4].values.charlotte-country-day",
+        "providence-day:[4].values.charlotte-latin",
         "providence-day:[13].subs.hickory-grove-christian"
       ]
     },
@@ -635,13 +653,6 @@
       "at": [
         "providence-day:[4].values.charlotte-catholic",
         "providence-day:[13].subs.gaston-day"
-      ]
-    },
-    {
-      "t": "5 / 8",
-      "of": "99bd1e9d",
-      "at": [
-        "providence-day:[4].values.charlotte-latin"
       ]
     },
     {
@@ -718,8 +729,8 @@
       ]
     },
     {
-      "t": "تظهر 5 من جامعات Ivy League الـ8 في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
-      "of": "a448c742",
+      "t": "تظهر 7 من جامعات Ivy League الـ8 في قائمتي القبول المنشورتين لمدرسة Charlotte Latin لعامَي 2023–25 و2024–26، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
+      "of": "b86acb70",
       "at": [
         "providence-day:[4].quals.charlotte-latin.text"
       ]
@@ -803,11 +814,10 @@
       ]
     },
     {
-      "t": "12 / 17",
-      "of": "a12d445d",
+      "t": "14 / 17",
+      "of": "e69f86e7",
       "at": [
-        "providence-day:[5].values.charlotte-latin",
-        "providence-day:[13].subs.cannon"
+        "providence-day:[5].values.charlotte-latin"
       ]
     },
     {
@@ -888,8 +898,8 @@
       ]
     },
     {
-      "t": "تظهر 12 من مؤسسات Ivy Plus الـ17 في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
-      "of": "17d7f05b",
+      "t": "تظهر 14 من مؤسسات \"Ivy Plus\" الـ17 في قائمتي القبول المنشورتين لمدرسة Charlotte Latin لعامَي 2023–25 و2024–26، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
+      "of": "084c98eb",
       "at": [
         "providence-day:[5].quals.charlotte-latin.text"
       ]
@@ -975,8 +985,8 @@
       ]
     },
     {
-      "t": "68 / 75",
-      "of": "87f034c2",
+      "t": "73 / 75",
+      "of": "09ebe19e",
       "at": [
         "providence-day:[6].values.charlotte-latin"
       ]
@@ -1038,8 +1048,8 @@
       ]
     },
     {
-      "t": "تظهر 68 من أفضل 75 من الجامعات الوطنية في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
-      "of": "80534a61",
+      "t": "تظهر 73 من أفضل 75 National Universities في قائمتي القبول المنشورتين لمدرسة Charlotte Latin لعامَي 2023–25 و2024–26، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
+      "of": "c72b55c3",
       "at": [
         "providence-day:[6].quals.charlotte-latin.text"
       ]
@@ -1122,8 +1132,8 @@
       ]
     },
     {
-      "t": "42 / 75",
-      "of": "a2f809a2",
+      "t": "48 / 75",
+      "of": "ed11540c",
       "at": [
         "providence-day:[7].values.charlotte-latin"
       ]
@@ -1206,8 +1216,8 @@
       ]
     },
     {
-      "t": "تظهر 42 من أفضل 75 من كليات الآداب الحرة في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
-      "of": "597c2624",
+      "t": "تظهر 48 من أفضل 75 Liberal Arts Colleges في قائمتي القبول المنشورتين لمدرسة Charlotte Latin لعامَي 2023–25 و2024–26، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
+      "of": "7560748e",
       "at": [
         "providence-day:[7].quals.charlotte-latin.text"
       ]
@@ -1362,8 +1372,8 @@
       ]
     },
     {
-      "t": "مُحتسَبة من قائمة القبول المنشورة للمدرسة مقابل اتحادات Power Four. بلغ إحصاء الباحث الخاص 62؛ أما الرقم المعروض، 53، فهو العدّ المتحفّظ المُبيَّن في هذا الجدول.",
-      "of": "32e0a013",
+      "t": "تظهر 61 من جامعات Power Four الـ68 (ACC وBig Ten وBig 12 وSEC، إضافةً إلى Notre Dame) في قائمتي القبول المنشورتين لمدرسة Charlotte Latin لعامَي 2023–25 و2024–26، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
+      "of": "e86e80b2",
       "at": [
         "providence-day:[8].quals.charlotte-latin.text"
       ]
@@ -1883,14 +1893,6 @@
       ]
     },
     {
-      "t": "92%",
-      "of": "decf5375",
-      "at": [
-        "providence-day:[12].values.providence-day",
-        "providence-day:[14].values.charlotte-country-day"
-      ]
-    },
-    {
       "t": "12 / 12",
       "of": "9c2d3c7e",
       "at": [
@@ -2016,6 +2018,13 @@
       "of": "a9bfeb54",
       "at": [
         "providence-day:[13].values.gaston-day"
+      ]
+    },
+    {
+      "t": "12 / 17",
+      "of": "a12d445d",
+      "at": [
+        "providence-day:[13].subs.cannon"
       ]
     },
     {
@@ -2147,11 +2156,10 @@
       ]
     },
     {
-      "t": "8 / 107",
-      "of": "6f35d04c",
+      "t": "10 / 107",
+      "of": "3d306a67",
       "at": [
-        "providence-day:[15].values.charlotte-latin",
-        "providence-day:[15].values.carmel-christian"
+        "providence-day:[15].values.charlotte-latin"
       ]
     },
     {
@@ -2160,6 +2168,13 @@
       "at": [
         "providence-day:[15].values.covenant-day",
         "providence-day:[15].values.davidson-day"
+      ]
+    },
+    {
+      "t": "8 / 107",
+      "of": "6f35d04c",
+      "at": [
+        "providence-day:[15].values.carmel-christian"
       ]
     },
     {
@@ -2219,8 +2234,8 @@
       ]
     },
     {
-      "t": "تظهر 8 من الـ107 Historically Black Colleges & Universities في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
-      "of": "69dff53e",
+      "t": "تظهر 10 من الـ107 Historically Black Colleges & Universities في قائمتي القبول المنشورتين لمدرسة Charlotte Latin لعامَي 2023–25 و2024–26، مُطابَقةً مع جداول U.S. News لعام 2027 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها.",
+      "of": "9457b309",
       "at": [
         "providence-day:[15].quals.charlotte-latin.text"
       ]
@@ -2303,8 +2318,8 @@
       ]
     },
     {
-      "t": "~36:1",
-      "of": "1ee45b4d",
+      "t": "~38:1",
+      "of": "775066d3",
       "at": [
         "providence-day:[16].values.charlotte-latin"
       ]
@@ -2373,8 +2388,8 @@
       ]
     },
     {
-      "t": "نحو 36–37 طالبًا في السنة الأخيرة لكل مرشد جامعي في ذروة موسم التقديم. وكلما انخفضت النسبة زاد وقت المرشد المتاح لكل طالب.",
-      "of": "3c59be83",
+      "t": "نحو 38 طالبًا في السنة الأخيرة لكل مرشد جامعي في ذروة موسم التقديم — 151 طالبًا في دفعة 2026–27 موزَّعين على 4 مرشدين (محسوب؛ ولا تنشر المدرسة أي نسبة). وكلما انخفضت النسبة زاد وقت المرشد المتاح لكل طالب.",
+      "of": "068d2eed",
       "at": [
         "providence-day:[16].quals.charlotte-latin.text"
       ]

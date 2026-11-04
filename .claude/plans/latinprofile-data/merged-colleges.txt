@@ -1,0 +1,337 @@
+  { name: 'Agnes Scott College', cats: ['lac75'] },  // 2024–26 only
+  { name: 'Allegheny College', cats: [] },  // both
+  { name: 'American University', cats: [], enrolling: true },  // both
+  { name: 'Amherst College', cats: ['lac75'] },  // both
+  { name: 'Anderson University (South Carolina)', cats: [] },  // 2024–26 only
+  { name: 'Appalachian State University', cats: [], enrolling: true },  // both
+  { name: 'Arizona State University', cats: ['p4'] },  // both
+  { name: 'Auburn University', cats: ['p4'], enrolling: true },  // both
+  { name: 'Averett University', cats: [] },  // both
+  { name: 'Bard College', cats: ['lac75'] },  // 2023–25 only
+  { name: 'Barnard College', cats: ['lac75'] },  // 2024–26 only
+  { name: 'Baylor University', cats: ['p4'] },  // both
+  { name: 'Belhaven University', cats: [] },  // 2023–25 only
+  { name: 'Belmont Abbey College', cats: [] },  // 2023–25 only
+  { name: 'Belmont University', cats: [], enrolling: true },  // both
+  { name: 'Beloit College', cats: [] },  // 2023–25 only
+  { name: 'Bennington College', cats: [] },  // 2023–25 only
+  { name: 'Bentley University', cats: [] },  // 2023–25 only
+  { name: 'Berry College', cats: [] },  // both
+  { name: 'Boston College', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Boston University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Bowling Green State University', cats: [] },  // 2023–25 only
+  { name: 'Brandeis University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Brevard College', cats: [] },  // both
+  { name: 'Bridgewater College', cats: [] },  // 2023–25 only
+  { name: 'Brown University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'Brunel University London', cats: [] },  // 2024–26 only
+  { name: 'Bryn Mawr College', cats: ['lac75'] },  // both
+  { name: 'Bucknell University', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Butler University', cats: [] },  // both
+  { name: 'California Polytechnic State University (San Luis Obispo)', cats: [] },  // 2023–25 only
+  { name: 'Calvin University', cats: [], enrolling: true },  // both
+  { name: 'Campbell University', cats: [] },  // both
+  { name: 'Carleton College', cats: ['lac75'] },  // both
+  { name: 'Carnegie Mellon University', cats: ['nu75'] },  // both
+  { name: 'Carson-Newman University', cats: [] },  // both
+  { name: 'Case Western Reserve University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Catawba College', cats: [], enrolling: true },  // both
+  { name: 'Centre College', cats: ['lac75'] },  // both
+  { name: 'Champlain College', cats: [] },  // both
+  { name: 'City St George’s, University of London', cats: [] },  // 2024–26 only
+  { name: 'Clark University', cats: [] },  // 2023–25 only
+  { name: 'Clemson University', cats: ['p4'], enrolling: true },  // both
+  { name: 'Coastal Carolina University', cats: [] },  // both
+  { name: 'Colby College', cats: ['lac75'] },  // 2024–26 only
+  { name: 'Colgate University', cats: ['lac75'], enrolling: true },  // both
+  { name: 'College of Charleston', cats: [], enrolling: true },  // both
+  { name: 'College of the Atlantic', cats: [] },  // 2023–25 only
+  { name: 'Colorado College', cats: ['lac75'] },  // both
+  { name: 'Colorado School of Mines', cats: [], enrolling: true },  // both
+  { name: 'Colorado State University', cats: [] },  // both
+  { name: 'Connecticut College', cats: ['lac75'] },  // 2024–26 only
+  { name: 'Cornell University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'Covenant College', cats: [] },  // 2024–26 only
+  { name: 'Creighton University', cats: [] },  // both
+  { name: 'Crown College', cats: [] },  // both
+  { name: 'Dartmouth College', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'Davidson College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Denison University', cats: ['lac75'], enrolling: true },  // both
+  { name: 'DePaul University', cats: [] },  // both
+  { name: 'DePauw University', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Dickinson College', cats: ['lac75'] },  // 2023–25 only
+  { name: 'Drake University', cats: [] },  // both
+  { name: 'Drew University', cats: [] },  // both
+  { name: 'Drexel University', cats: [] },  // both
+  { name: 'Duke Kunshan University', cats: [] },  // both
+  { name: 'Duke University', cats: ['ivyplus', 'nu75', 'p4'], enrolling: true },  // both
+  { name: 'East Carolina University', cats: [], enrolling: true },  // both
+  { name: 'East Tennessee State University', cats: [] },  // both
+  { name: 'Eckerd College', cats: [] },  // both
+  { name: 'Elon University', cats: [], enrolling: true },  // both
+  { name: 'Embry-Riddle Aeronautical University', cats: [] },  // 2023–25 only
+  { name: 'Embry-Riddle Aeronautical University (Prescott)', cats: [] },  // 2024–26 only
+  { name: 'Emerson College', cats: [] },  // both
+  { name: 'Emory & Henry University', cats: [] },  // 2023–25 only
+  { name: 'Emory University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Endicott College', cats: [] },  // both
+  { name: 'Fairfield University', cats: [] },  // 2024–26 only
+  { name: 'Fairmont State University', cats: [], enrolling: true },  // both
+  { name: 'Flagler College', cats: [] },  // 2023–25 only
+  { name: 'Florida Agricultural and Mechanical University', cats: [] },  // 2023–25 only
+  { name: 'Florida Atlantic University', cats: [] },  // 2023–25 only
+  { name: 'Florida International University', cats: [] },  // 2023–25 only
+  { name: 'Florida State University', cats: ['nu75', 'p4'] },  // both
+  { name: 'Fordham University', cats: [], enrolling: true },  // both
+  { name: 'Franklin & Marshall College', cats: ['lac75'] },  // both
+  { name: 'Furman University', cats: ['lac75'], enrolling: true },  // both
+  { name: 'George Mason University', cats: [], enrolling: true },  // both
+  { name: 'George Washington University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Georgetown University', cats: ['ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'Georgia Tech', cats: ['nu75', 'p4'] },  // both
+  { name: 'Gettysburg College', cats: ['lac75'] },  // both
+  { name: 'Gonzaga University', cats: [] },  // 2024–26 only
+  { name: 'Goucher College', cats: [] },  // 2023–25 only
+  { name: 'Grove City College', cats: [], enrolling: true },  // 2024–26 only
+  { name: 'Guilford College', cats: [] },  // both
+  { name: 'Hamilton College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Hampden-Sydney College', cats: [], enrolling: true },  // both
+  { name: 'Hampshire College', cats: [] },  // 2023–25 only
+  { name: 'Hampton University', cats: ['hbcu'], enrolling: true },  // both
+  { name: 'Harvard University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'Hawai’i Pacific University', cats: [] },  // both
+  { name: 'High Point University', cats: [], enrolling: true },  // both
+  { name: 'Hofstra University', cats: [] },  // both
+  { name: 'Holy Cross College', cats: [] },  // 2023–25 only
+  { name: 'Howard University', cats: ['nu75', 'hbcu'] },  // both
+  { name: 'Imperial College London', cats: [] },  // both
+  { name: 'Indiana University (Bloomington)', cats: ['nu75', 'p4'], enrolling: true },  // both · printed: Indiana University / Indiana University (Bloomington)
+  { name: 'Iowa State University', cats: ['p4'] },  // both
+  { name: 'Ithaca College', cats: [] },  // both
+  { name: 'James Madison University', cats: [], enrolling: true },  // both
+  { name: 'Johnson & Wales University (Charlotte)', cats: [], enrolling: true },  // both
+  { name: 'Kean University', cats: [] },  // both
+  { name: 'Kent State University', cats: [] },  // both
+  { name: 'Kenyon College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Kettering University', cats: [] },  // 2024–26 only
+  { name: 'King’s College London', cats: [] },  // both
+  { name: 'Lafayette College', cats: ['lac75'] },  // both
+  { name: 'Lawrence University', cats: [], enrolling: true },  // 2024–26 only
+  { name: 'Lehigh University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Leiden University', cats: [] },  // both
+  { name: 'Lenoir-Rhyne University', cats: [] },  // both
+  { name: 'Lewis & Clark College', cats: [] },  // both
+  { name: 'Liberty University', cats: [] },  // 2023–25 only
+  { name: 'Lipscomb University', cats: [] },  // 2023–25 only
+  { name: 'Louisiana State University', cats: ['p4'] },  // both
+  { name: 'Loyola Marymount University', cats: [] },  // both
+  { name: 'Loyola University Chicago', cats: [] },  // both
+  { name: 'Loyola University Maryland', cats: [], enrolling: true },  // both
+  { name: 'Lynn University', cats: [] },  // both
+  { name: 'Macalester College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Marquette University', cats: [] },  // both
+  { name: 'Marymount Manhattan College', cats: [], enrolling: true },  // both
+  { name: 'Massachusetts College of Pharmacy and Health Sciences', cats: [] },  // 2024–26 only
+  { name: 'Massachusetts Institute of Technology', cats: ['ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'McDaniel College', cats: [] },  // 2023–25 only
+  { name: 'McGill University', cats: [], enrolling: true },  // both
+  { name: 'Mercer University', cats: [] },  // both
+  { name: 'Meredith College', cats: [], enrolling: true },  // 2024–26 only
+  { name: 'Methodist University', cats: [] },  // 2023–25 only
+  { name: 'Miami University', cats: [], enrolling: true },  // both
+  { name: 'Michigan State University', cats: ['nu75', 'p4'] },  // both
+  { name: 'Middlebury College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Millikin University', cats: [] },  // both
+  { name: 'Mississippi State University', cats: ['p4'] },  // both
+  { name: 'Missouri University of Science and Technology', cats: [] },  // both
+  { name: 'Morehouse College', cats: ['hbcu'] },  // both
+  { name: 'Morgan State University', cats: ['hbcu'] },  // 2023–25 only
+  { name: 'Mount Holyoke College', cats: ['lac75'] },  // both
+  { name: 'New York University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'North Carolina A&T State University', cats: ['hbcu'] },  // both · printed: North Carolina A & T State University / North Carolina A&T State University
+  { name: 'North Carolina Central University', cats: ['hbcu'] },  // 2023–25 only
+  { name: 'North Carolina State University', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'North Carolina Wesleyan University', cats: [] },  // 2023–25 only
+  { name: 'Northeastern University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Northwestern University', cats: ['ivyplus', 'nu75', 'p4'], enrolling: true },  // both
+  { name: 'Nova Southeastern University', cats: [] },  // both
+  { name: 'Oberlin College', cats: ['lac75'] },  // both
+  { name: 'Occidental College', cats: ['lac75'] },  // 2023–25 only
+  { name: 'Oklahoma City University', cats: [] },  // both
+  { name: 'Oklahoma State University', cats: ['p4'] },  // both
+  { name: 'Oxford College of Emory University', cats: [], enrolling: true },  // both
+  { name: 'Pace University (New York City)', cats: [], enrolling: true },  // both · printed: Pace University / Pace University (New York City)
+  { name: 'Palm Beach Atlantic University', cats: [] },  // 2024–26 only
+  { name: 'Parsons Paris at The New School', cats: [] },  // both
+  { name: 'Penn State University', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Pepperdine University', cats: [] },  // both
+  { name: 'Presbyterian College', cats: [] },  // 2023–25 only
+  { name: 'Princeton University', cats: ['ivy', 'ivyplus', 'nu75'] },  // 2024–26 only
+  { name: 'Providence College', cats: [] },  // both
+  { name: 'Purdue University', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Queen Mary University of London', cats: [], enrolling: true },  // 2024–26 only
+  { name: 'Queens University of Charlotte', cats: [], enrolling: true },  // both · printed: Queens University / Queens University of Charlotte
+  { name: 'Quinnipiac University', cats: [] },  // 2023–25 only
+  { name: 'Randolph-Macon College', cats: [] },  // 2023–25 only
+  { name: 'Rensselaer Polytechnic Institute', cats: ['nu75'] },  // both
+  { name: 'Rhodes College', cats: ['lac75'], enrolling: true },  // 2024–26 only
+  { name: 'Rice University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Ringling College of Art and Design', cats: [] },  // 2023–25 only
+  { name: 'Roanoke College', cats: [], enrolling: true },  // both
+  { name: 'Rochester Institute of Technology', cats: [], enrolling: true },  // both
+  { name: 'Rollins College', cats: [], enrolling: true },  // both
+  { name: 'Rose-Hulman Institute of Technology', cats: [] },  // 2024–26 only
+  { name: 'Rowan University', cats: [] },  // both
+  { name: 'Rutgers University (Camden)', cats: [], enrolling: true },  // both
+  { name: 'Rutgers University (New Brunswick)', cats: ['nu75', 'p4'] },  // 2023–25 only
+  { name: 'Rutgers University (Newark)', cats: ['nu75'] },  // 2024–26 only
+  { name: 'Saint Joseph’s University', cats: [] },  // both
+  { name: 'Saint Leo University', cats: [] },  // both
+  { name: 'Saint Louis University', cats: [] },  // both
+  { name: 'Salve Regina University', cats: [] },  // both
+  { name: 'Samford University', cats: [] },  // both
+  { name: 'Santa Clara University', cats: ['nu75'] },  // 2024–26 only
+  { name: 'Sarah Lawrence College', cats: [] },  // both
+  { name: 'Savannah College of Art and Design', cats: [] },  // both
+  { name: 'School of the Art Institute of Chicago', cats: [] },  // both
+  { name: 'School of the Museum of Fine Arts', cats: [] },  // 2023–25 only
+  { name: 'Seattle University', cats: [] },  // both
+  { name: 'Seton Hall University', cats: [] },  // both
+  { name: 'Sewanee: The University of the South', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Skidmore College', cats: ['lac75'] },  // 2023–25 only
+  { name: 'Smith College', cats: ['lac75'] },  // both
+  { name: 'Southern Methodist University', cats: ['p4'] },  // both
+  { name: 'Spelman College', cats: ['lac75', 'hbcu'] },  // both
+  { name: 'St. Bonaventure University', cats: [], enrolling: true },  // both
+  { name: 'St. Lawrence University', cats: ['lac75'] },  // 2023–25 only
+  { name: 'St. Olaf College', cats: ['lac75'] },  // 2023–25 only
+  { name: 'Stanford University', cats: ['ivyplus', 'nu75', 'p4'] },  // both
+  { name: 'Stevens Institute of Technology', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Stony Brook University', cats: ['nu75'] },  // both
+  { name: 'Suffolk University', cats: [] },  // both
+  { name: 'SUNY College of Environmental Science and Forestry', cats: [] },  // 2023–25 only
+  { name: 'SUNY New Paltz', cats: [] },  // both · printed: SUNY at New Paltz / SUNY New Paltz
+  { name: 'Swarthmore College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Sweet Briar College', cats: [] },  // 2024–26 only
+  { name: 'Syracuse University', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Taylor University', cats: [] },  // 2024–26 only
+  { name: 'Temple University', cats: [], enrolling: true },  // both
+  { name: 'Texas A&M University', cats: ['nu75', 'p4'] },  // both
+  { name: 'Texas Christian University', cats: ['p4'], enrolling: true },  // both
+  { name: 'Texas State University', cats: [] },  // both
+  { name: 'Texas Tech University', cats: ['p4'] },  // 2023–25 only
+  { name: 'The American University of Paris', cats: [] },  // 2024–26 only
+  { name: 'The American University of Rome', cats: [] },  // 2024–26 only
+  { name: 'The Citadel', cats: [] },  // 2024–26 only
+  { name: 'The College of Wooster', cats: [], enrolling: true },  // both
+  { name: 'The Ohio State University', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'The University of Alabama', cats: ['p4'], enrolling: true },  // both
+  { name: 'The University of Queensland', cats: [], enrolling: true },  // both
+  { name: 'The University of Tampa', cats: [], enrolling: true },  // both
+  { name: 'The University of Tennessee, Knoxville', cats: ['p4'], enrolling: true },  // both · printed: The University of Tennessee / University of Tennessee
+  { name: 'Thomas Jefferson University', cats: [] },  // both
+  { name: 'Trevecca Nazarene University', cats: [] },  // both
+  { name: 'Trinity College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Truman State University', cats: [] },  // both
+  { name: 'Tufts University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Tulane University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Union College', cats: ['lac75'] },  // both
+  { name: 'United States Air Force Academy', cats: ['lac75'], enrolling: true },  // both
+  { name: 'United States Naval Academy', cats: ['lac75'], enrolling: true },  // both
+  { name: 'University College London', cats: [] },  // both
+  { name: 'University of Alabama at Birmingham', cats: [] },  // both
+  { name: 'University of Amsterdam', cats: [], enrolling: true },  // both
+  { name: 'University of Arizona', cats: ['p4'] },  // both
+  { name: 'University of Arkansas', cats: ['p4'], enrolling: true },  // both
+  { name: 'University of British Columbia', cats: [] },  // 2024–26 only
+  { name: 'University of California (Berkeley)', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of California (Davis)', cats: ['nu75'] },  // both
+  { name: 'University of California (Irvine)', cats: ['nu75'] },  // both
+  { name: 'University of California (Los Angeles)', cats: ['nu75', 'p4'] },  // both
+  { name: 'University of California (Riverside)', cats: [] },  // both
+  { name: 'University of California (San Diego)', cats: ['nu75'], enrolling: true },  // both
+  { name: 'University of California (Santa Barbara)', cats: ['nu75'] },  // both
+  { name: 'University of California (Santa Cruz)', cats: [] },  // both
+  { name: 'University of Chicago', cats: ['ivyplus', 'nu75'] },  // both
+  { name: 'University of Cincinnati', cats: ['p4'] },  // both
+  { name: 'University of Colorado Boulder', cats: ['p4'], enrolling: true },  // both
+  { name: 'University of Connecticut', cats: ['nu75'], enrolling: true },  // both
+  { name: 'University of Dallas', cats: [] },  // 2024–26 only
+  { name: 'University of Dayton', cats: [] },  // both
+  { name: 'University of Delaware', cats: [], enrolling: true },  // both
+  { name: 'University of Denver', cats: [], enrolling: true },  // both
+  { name: 'University of Florida', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Georgia', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Hartford', cats: [] },  // both
+  { name: 'University of Illinois Chicago', cats: [] },  // both · printed: University of Illinois at Chicago / University of Illinois (Chicago)
+  { name: 'University of Illinois Urbana-Champaign', cats: ['nu75', 'p4'], enrolling: true },  // both · printed: University of Illinois at Urbana-Champaign / University of Illinois (Urbana-Champaign)
+  { name: 'University of Iowa', cats: ['p4'] },  // both
+  { name: 'University of Kansas', cats: ['p4'], enrolling: true },  // both
+  { name: 'University of Kentucky', cats: ['p4'], enrolling: true },  // both
+  { name: 'University of Louisville', cats: ['p4'] },  // both
+  { name: 'University of Lynchburg', cats: [] },  // both
+  { name: 'University of Maine', cats: [] },  // both
+  { name: 'University of Maryland', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Massachusetts (Amherst)', cats: ['nu75'] },  // both
+  { name: 'University of Miami', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Michigan', cats: ['nu75', 'p4'] },  // both
+  { name: 'University of Mississippi', cats: ['p4'], enrolling: true },  // both
+  { name: 'University of Missouri', cats: ['p4'] },  // both
+  { name: 'University of Missouri (Kansas City)', cats: [] },  // both
+  { name: 'University of Montana', cats: [], enrolling: true },  // 2024–26 only
+  { name: 'University of New England', cats: [] },  // 2023–25 only
+  { name: 'University of New Hampshire', cats: [], enrolling: true },  // both
+  { name: 'University of North Carolina at Asheville', cats: [], enrolling: true },  // both · printed: University of North Carolina - Asheville / University of North Carolina (Asheville)
+  { name: 'University of North Carolina at Chapel Hill', cats: ['nu75', 'p4'], enrolling: true },  // both · printed: University of North Carolina - Chapel Hill / University of North Carolina (Chapel Hill)
+  { name: 'University of North Carolina at Charlotte', cats: [], enrolling: true },  // both · printed: University of North Carolina - Charlotte / University of North Carolina (Charlotte)
+  { name: 'University of North Carolina at Greensboro', cats: [], enrolling: true },  // both · printed: University of North Carolina - Greensboro / University of North Carolina (Greensboro)
+  { name: 'University of North Carolina at Wilmington', cats: [], enrolling: true },  // both · printed: University of North Carolina - Wilmington / University of North Carolina (Wilmington)
+  { name: 'University of North Carolina School of the Arts', cats: [], enrolling: true },  // both
+  { name: 'University of Notre Dame', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Oklahoma', cats: ['p4'] },  // both
+  { name: 'University of Oregon', cats: ['p4'] },  // both
+  { name: 'University of Pennsylvania', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },  // 2024–26 only
+  { name: 'University of Pittsburgh', cats: ['nu75', 'p4'] },  // both
+  { name: 'University of Pittsburgh (Bradford)', cats: [] },  // both
+  { name: 'University of Rhode Island', cats: [] },  // both
+  { name: 'University of Richmond', cats: ['lac75'], enrolling: true },  // both
+  { name: 'University of Rochester', cats: ['nu75'], enrolling: true },  // both
+  { name: 'University of San Diego', cats: [] },  // both
+  { name: 'University of South Alabama', cats: [] },  // both
+  { name: 'University of South Carolina', cats: ['p4'], enrolling: true },  // both
+  { name: 'University of Southern California', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Southern Maine', cats: [] },  // 2023–25 only
+  { name: 'University of St Andrews', cats: [], enrolling: true },  // both
+  { name: 'University of Tennessee at Chattanooga', cats: [] },  // both · printed: The University of Tennessee (Chattanooga) / University of Tennessee (Chattanooga)
+  { name: 'University of Texas', cats: ['nu75'], enrolling: true },  // both · printed: The University of Texas / University of Texas
+  { name: 'University of Toronto', cats: [], enrolling: true },  // both
+  { name: 'University of Utah', cats: ['p4'] },  // both
+  { name: 'University of Vermont', cats: [], enrolling: true },  // both
+  { name: 'University of Virginia', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'University of Washington', cats: ['nu75', 'p4'] },  // both
+  { name: 'University of Wisconsin', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Valparaiso University', cats: [] },  // 2023–25 only
+  { name: 'Vanderbilt University', cats: ['nu75', 'p4'] },  // both
+  { name: 'Vassar College', cats: ['lac75'] },  // both
+  { name: 'Villanova University', cats: ['nu75'], enrolling: true },  // both
+  { name: 'Virginia Commonwealth University', cats: [] },  // both
+  { name: 'Virginia State University', cats: ['hbcu'] },  // 2024–26 only
+  { name: 'Virginia Tech', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Wake Forest University', cats: ['nu75', 'p4'], enrolling: true },  // both
+  { name: 'Washington and Lee University', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Washington University in St. Louis', cats: ['ivyplus', 'nu75'], enrolling: true },  // both
+  { name: 'Wellesley College', cats: ['lac75'] },  // both
+  { name: 'Wentworth Institute of Technology', cats: [] },  // both
+  { name: 'Wesleyan University', cats: ['lac75'] },  // 2023–25 only
+  { name: 'West Virginia University', cats: ['p4'] },  // both
+  { name: 'Western Carolina University', cats: [] },  // both
+  { name: 'Wheaton College - IL', cats: ['lac75'] },  // 2023–25 only
+  { name: 'William & Mary', cats: ['nu75'], enrolling: true },  // both
+  { name: 'William Peace University', cats: [], enrolling: true },  // 2024–26 only
+  { name: 'Williams College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Wingate University', cats: [], enrolling: true },  // both
+  { name: 'Winston-Salem State University', cats: ['hbcu'] },  // 2024–26 only
+  { name: 'Wofford College', cats: ['lac75'], enrolling: true },  // both
+  { name: 'Worcester Polytechnic Institute', cats: ['nu75'] },  // 2024–26 only
+  { name: 'Xavier University', cats: [] },  // 2024–26 only
+  { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },  // both

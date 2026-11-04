@@ -1,5 +1,11 @@
 # Charlotte Latin School — College Support — Acceptance-Window Research (2023–2026 harmonization)
 
+> **Superseded 2026-11-03.** The window is now **2023–2026**. Charlotte Latin's 2026–27 Upper
+> School Profile prints a new College Admission Summary for 2024–26, and the app merges it with
+> the 2025–26 profile's 2023–25 list, one row per institution (see
+> `Charlotte Latin - College Support - School Profile 2026-2027.md`). The "2026 not published"
+> finding below is no longer true. This file is kept as the record of the August 2026 check.
+
 **Provenance:** Researched by Claude via web research, 2026-08-04, for the `acceptance-years`
 plan (harmonize the "Where Graduates Go" window to a 2023 floor).
 **School:** Charlotte Latin School, 9502 Providence Road, Charlotte, NC 28277.

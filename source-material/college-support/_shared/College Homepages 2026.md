@@ -64,14 +64,15 @@
 > State) — and resolve to the institution actually meant. The acceptance list is
 > a citation surface; a parent matches it against the school's own page.
 >
-> **One deliberate override.** `Queens University` (Charlotte Latin, marked
-> enrolling) resolves to **Queens University of Charlotte**, not Queen's
-> University Kingston. The research pass chose Kingston by national convention;
+> **One deliberate override (retired 2026-11-04).** `Queens University` (Charlotte
+> Latin's 2023–25 spelling, marked enrolling) resolved to **Queens University of
+> Charlotte**, not Queen's University Kingston. Latin's merged 2023–2026 list now
+> writes "Queens University of Charlotte", so the bare-name row was removed. The research pass chose Kingston by national convention;
 > that is wrong for this corpus — the roster is Charlotte-local, every other
 > school writes the institution as "Queens University of Charlotte", and
 > Providence Day lists "Queens University Belfast" separately.
 
-## Linked (955)
+## Linked (958)
 
 | College (as the school lists write it) | Homepage | Verification |
 |---|---|---|
@@ -88,6 +89,7 @@
 | Amherst College | https://www.amherst.edu | 200 |
 | Anderson University | https://andersonuniversity.edu | 200 via redirect |
 | Anderson University (SC) | https://andersonuniversity.edu | 200 OK after redirect to https://andersonuniversity.edu/; Carolinas reading chosen (SC institution; distinct from Anderson University, Indiana at anderson.edu) |
+| Anderson University (South Carolina) | https://andersonuniversity.edu | 200 (title names South Carolina; added 2026-11-04 for Charlotte Latin's 2024–26 list) |
 | Appalachian State University | https://www.appstate.edu | 200 |
 | Arcadia University | https://www.arcadia.edu | 200 |
 | Arizona State University | https://www.asu.edu | 200 |
@@ -147,6 +149,7 @@
 | Brigham Young University–Idaho | https://www.byui.edu | 200 |
 | Brock University | https://brocku.ca | 200 (bot-blocked in curl/WebFetch, confirmed live via Google index) |
 | Brown University | https://www.brown.edu | 200 |
+| Brunel University London | https://www.brunel.ac.uk | 200 (added 2026-11-04, Charlotte Latin) |
 | Brunswick Community College | https://brunswickcc.edu | 200 via redirect |
 | Bryn Athyn College | https://brynathyn.edu | 200 |
 | Bryn Mawr College | https://www.brynmawr.edu | 200 |
@@ -259,6 +262,7 @@
 | Embry-Riddle Aeronautical Inst | https://erau.edu | 200 via redirect (www dropped) |
 | Embry-Riddle Aeronautical University | https://erau.edu | 200 via redirect (www dropped) |
 | Embry-Riddle Aeronautical University (Daytona Beach) | https://erau.edu | no distinct campus site: subdomain 301s into erau.edu; Daytona Beach is ERAU's main campus |
+| Embry-Riddle Aeronautical University (Prescott) | https://erau.edu/about/locations/prescott-campus | 200; prescott.erau.edu redirects here, the campus's own page on erau.edu (added 2026-11-04, Charlotte Latin) |
 | Embry-Riddle Aeronautical University, Daytona Beach | https://erau.edu | no distinct campus site: subdomain 301s into erau.edu; Daytona Beach is ERAU's main campus |
 | Embry-Riddle Aeronautical University-Daytona Beach | https://erau.edu | no distinct campus site: subdomain 301s into erau.edu; Daytona Beach is ERAU's main campus |
 | Emerson College | https://emerson.edu | 200 via redirect (www dropped) |
@@ -370,6 +374,7 @@
 | Kennesaw State University | https://www.kennesaw.edu | 200 |
 | Kent State University | https://www.kent.edu | 200 |
 | Kenyon College | https://www.kenyon.edu | 200 |
+| Kettering University | https://www.kettering.edu | 200 (added 2026-11-04, Charlotte Latin) |
 | King University | https://www.king.edu | 200 |
 | King's College London | https://www.kcl.ac.uk | 200 OK; UK institution, distinct row from "The King's College" (NYC) |
 | King’s College London | https://www.kcl.ac.uk | 200 |
@@ -380,6 +385,7 @@
 | Lake Forest College | https://www.lakeforest.edu | 200 |
 | Lakeland University | https://www.lakeland.edu | 200 via redirect (no www) |
 | Lawrence Technological University | https://www.ltu.edu | 200 via redirect (no www) |
+| Lawrence University | https://www.lawrence.edu | 200, title "Liberal Arts College | Appleton, WI" (added 2026-11-04, Charlotte Latin) |
 | LeTourneau University | https://www.letu.edu | 200 |
 | Lee University | https://www.leeuniversity.edu | 200 |
 | Lees-McRae College | https://www.lmc.edu | 200 |
@@ -548,7 +554,7 @@
 | Purdue University (Fort Wayne) | https://www.pfw.edu | 200 |
 | Purdue University (Main Campus) | https://www.purdue.edu | 200 |
 | Purdue University-Main Campus | https://www.purdue.edu | 200 |
-| Queens University | https://www.queens.edu | 200; OVERRIDE of research pass: Queens University of Charlotte. Charlotte Latin's list is Charlotte-local, the row is enrolling:true, every other school in the roster writes this institution as 'Queens University of Charlotte', and Providence Day lists 'Queens University Belfast' separately. The research pass resolved the bare name to Queen's University Kingston, Ontario by national convention. |
+| Queen Mary University of London | https://www.qmul.ac.uk | 200 (added 2026-11-04, Charlotte Latin) |
 | Queens University Belfast | https://www.qub.ac.uk | 200 (browser UA; plain curl bot-blocked 403) |
 | Queens University of Charlotte | https://www.queens.edu | 200 |
 | Quinnipiac University | https://www.qu.edu | 200 |
@@ -583,7 +589,7 @@
 | SUNY College of Environmental Science and Forestry | https://www.esf.edu | 200 |
 | SUNY University at Buffalo | https://www.buffalo.edu | 200 |
 | SUNY at Binghamton | https://www.binghamton.edu | 200 |
-| SUNY at New Paltz | https://www.newpaltz.edu | 200 |
+| SUNY New Paltz | https://www.newpaltz.edu | 200 (key re-spelled 2026-11-04 from "SUNY at New Paltz", the 2023–25 Latin spelling; the 2026–27 profile writes "SUNY New Paltz") |
 | Saint Augustine's University | https://www.st-aug.edu | 200 OK; Raleigh, NC HBCU. Note: filed Chapter 11 bankruptcy April 2026 and cancelled Fall 2026 classes, but the institution has not closed and its official site remains live |
 | Saint Francis University | https://www.francis.edu | 200 |
 | Saint Joseph's University | https://www.sju.edu | 200 OK; Philadelphia, PA institution |
@@ -749,6 +755,7 @@
 | University of Bath | https://www.bath.ac.uk | 200 |
 | University of Birmingham | https://www.birmingham.ac.uk | 200 |
 | University of Bristol | https://www.bristol.ac.uk | 200 |
+| University of British Columbia | https://www.ubc.ca | 200 (added 2026-11-04, Charlotte Latin) |
 | University of California (Berkeley | https://www.berkeley.edu | 200 |
 | University of California (Berkeley) | https://www.berkeley.edu | 200 |
 | University of California (Davis) | https://www.ucdavis.edu | 200 (403 to curl, Cloudflare bot-block; domain confirmed correct) |
@@ -790,6 +797,7 @@
 | University of Colorado–Denver | https://www.cudenver.edu | 301->200 via redirect from ucdenver.edu |
 | University of Connecticut | https://www.uconn.edu | 200 |
 | University of Copenhagen (Denmark) | https://www.ku.dk | 200 |
+| University of Dallas | https://udallas.edu | 200, title names the Catholic university in Irving, TX (added 2026-11-04, Charlotte Latin) |
 | University of Dayton | https://www.udayton.edu | 200 |
 | University of Delaware | https://www.udel.edu | 200 |
 | University of Denver | https://www.du.edu | 200 |
@@ -810,7 +818,7 @@
 | University of Illinois | https://illinois.edu | 200 (flagship UIUC; bare name conventionally refers to Urbana-Champaign) |
 | University of Illinois (Chicago) | https://www.uic.edu | 200 |
 | University of Illinois (Urbana-Champaign) | https://illinois.edu | 200 |
-| University of Illinois at Chicago | https://www.uic.edu | 200 |
+| University of Illinois Chicago | https://www.uic.edu | 200 (key re-spelled 2026-11-04 from "University of Illinois at Chicago"; Cannon and the merged Latin list write the official name) |
 | University of Illinois at Urbana-Champaign | https://illinois.edu | 200 |
 | University of Iowa | https://uiowa.edu | 200 |
 | University of Kansas | https://ku.edu | 200 |
@@ -934,6 +942,7 @@
 | University of Tampa | https://www.ut.edu | 200 |
 | University of Tennessee | https://www.utk.edu | 200 |
 | University of Tennessee (Knoxville) | https://www.utk.edu | 200 |
+| University of Tennessee at Chattanooga | https://www.utc.edu | 200 (added 2026-11-04, Charlotte Latin) |
 | University of Texas | https://www.utexas.edu | 200 (flagship UT Austin; "University of Texas" with no campus commonly refers to Austin) |
 | University of Texas–San Antonio | https://www.utsa.edu | 200 |
 | University of Toronto | https://www.utoronto.ca | 200 |

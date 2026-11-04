@@ -287,12 +287,12 @@
       "t": "L’unica scuola qui a offrire sia AP sia l’intero IB Diploma. Oltre ai 18 corsi IB c’è il nucleo IB — Theory of Knowledge, l’Extended Essay e CAS."
     },
     {
-      "text": "22 is the school’s own stated figure; 23 AP-titled entries actually appear on the course-offerings page.",
-      "of": "aa9c3a87",
+      "text": "22 is the school’s own stated figure; 23 AP-titled entries actually appear on the course-offerings page. The 2026–27 Upper School Profile says AP is offered in 24 subjects.",
+      "of": "c94ada31",
       "at": [
         "providence-day:[1].quals.charlotte-latin.text"
       ],
-      "t": "22 è la cifra dichiarata dalla scuola stessa; nella pagina dell’offerta dei corsi compaiono in realtà 23 voci intitolate AP."
+      "t": "22 è la cifra dichiarata dalla scuola stessa; nella pagina dell’offerta dei corsi compaiono in realtà 23 voci intitolate AP. L’Upper School Profile 2026–27 afferma che l’AP è offerto in 24 materie."
     },
     {
       "text": "17 AP courses on the school’s own High School academics page, which lists AP Calculus BC and AP French that the older 2026–27 Profile course matrix (15) omitted. Both carry the school’s note that the offering may be impacted by student enrollment, so the catalog flexes year to year — earlier editions ran up to 18.",
@@ -407,12 +407,12 @@
       "t": "AP con punteggio 3+"
     },
     {
-      "text": "Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin, Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.",
-      "of": "80c172c9",
+      "text": "Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.",
+      "of": "ec2adcaf",
       "at": [
         "providence-day:[3].note"
       ],
-      "t": "Quota di esami AP con punteggio pari o superiore a 3, anno più recente riportato. Charlotte Latin, Davidson Day e Hickory Grove Christian non pubblicano un tasso di superamento per esame."
+      "t": "Quota di esami AP con punteggio pari o superiore a 3, anno più recente riportato. Davidson Day e Hickory Grove Christian non pubblicano un tasso di superamento per esame."
     },
     {
       "text": "90%",
@@ -440,6 +440,16 @@
         "providence-day:[3].values.charlotte-country-day"
       ],
       "t": "93%"
+    },
+    {
+      "text": "92%",
+      "of": "decf5375",
+      "at": [
+        "providence-day:[3].values.charlotte-latin",
+        "providence-day:[12].values.providence-day",
+        "providence-day:[14].values.charlotte-country-day"
+      ],
+      "t": "92%"
     },
     {
       "text": "96%",
@@ -473,6 +483,7 @@
       "at": [
         "providence-day:[3].subs.cannon",
         "providence-day:[3].subs.charlotte-christian",
+        "providence-day:[3].subs.charlotte-latin",
         "providence-day:[3].subs.covenant-day"
       ],
       "t": "(2026)"
@@ -534,6 +545,14 @@
         "providence-day:[3].quals.charlotte-christian.text"
       ],
       "t": "Il 94% degli esami AP ha ottenuto 3 o più nel 2026 (435 esami, 208 studenti; il profilo non indica il numero di promossi). Un punteggio di 3+ è il livello che la maggior parte dei college considera un risultato sufficiente."
+    },
+    {
+      "text": "92% of 833 AP exams scored 3 or higher in 2026 (308 students; mean score 4.10). Latin requires every AP student to sit the exam. A score of 3+ is the level most colleges treat as a passing result.",
+      "of": "73cf20d5",
+      "at": [
+        "providence-day:[3].quals.charlotte-latin.text"
+      ],
+      "t": "Il 92% degli 833 esami AP ha ottenuto 3 o più nel 2026 (308 studenti; punteggio medio 4.10). Latin richiede che ogni studente AP sostenga l’esame. Un punteggio di 3+ è il livello che la maggior parte delle università considera superato."
     },
     {
       "text": "93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.",
@@ -606,17 +625,11 @@
       "of": "f86cd907",
       "at": [
         "providence-day:[4].subs.charlotte-catholic",
-        "providence-day:[4].subs.charlotte-latin",
         "providence-day:[5].subs.charlotte-catholic",
-        "providence-day:[5].subs.charlotte-latin",
         "providence-day:[6].subs.charlotte-catholic",
-        "providence-day:[6].subs.charlotte-latin",
         "providence-day:[7].subs.charlotte-catholic",
-        "providence-day:[7].subs.charlotte-latin",
         "providence-day:[8].subs.charlotte-catholic",
-        "providence-day:[8].subs.charlotte-latin",
-        "providence-day:[15].subs.charlotte-catholic",
-        "providence-day:[15].subs.charlotte-latin"
+        "providence-day:[15].subs.charlotte-catholic"
       ],
       "t": "(2023–2025)"
     },
@@ -626,26 +639,32 @@
       "at": [
         "providence-day:[4].subs.charlotte-christian",
         "providence-day:[4].subs.charlotte-country-day",
+        "providence-day:[4].subs.charlotte-latin",
         "providence-day:[4].subs.covenant-day",
         "providence-day:[4].subs.providence-day",
         "providence-day:[5].subs.charlotte-christian",
         "providence-day:[5].subs.charlotte-country-day",
+        "providence-day:[5].subs.charlotte-latin",
         "providence-day:[5].subs.covenant-day",
         "providence-day:[5].subs.providence-day",
         "providence-day:[6].subs.charlotte-christian",
         "providence-day:[6].subs.charlotte-country-day",
+        "providence-day:[6].subs.charlotte-latin",
         "providence-day:[6].subs.covenant-day",
         "providence-day:[6].subs.providence-day",
         "providence-day:[7].subs.charlotte-christian",
         "providence-day:[7].subs.charlotte-country-day",
+        "providence-day:[7].subs.charlotte-latin",
         "providence-day:[7].subs.covenant-day",
         "providence-day:[7].subs.providence-day",
         "providence-day:[8].subs.charlotte-christian",
         "providence-day:[8].subs.charlotte-country-day",
+        "providence-day:[8].subs.charlotte-latin",
         "providence-day:[8].subs.covenant-day",
         "providence-day:[8].subs.providence-day",
         "providence-day:[15].subs.charlotte-christian",
         "providence-day:[15].subs.charlotte-country-day",
+        "providence-day:[15].subs.charlotte-latin",
         "providence-day:[15].subs.covenant-day",
         "providence-day:[15].subs.providence-day"
       ],
@@ -696,6 +715,7 @@
       "at": [
         "providence-day:[4].values.cannon",
         "providence-day:[4].values.charlotte-country-day",
+        "providence-day:[4].values.charlotte-latin",
         "providence-day:[13].subs.hickory-grove-christian"
       ],
       "t": "7 / 8"
@@ -716,14 +736,6 @@
         "providence-day:[13].subs.gaston-day"
       ],
       "t": "6 / 8"
-    },
-    {
-      "text": "5 / 8",
-      "of": "99bd1e9d",
-      "at": [
-        "providence-day:[4].values.charlotte-latin"
-      ],
-      "t": "5 / 8"
     },
     {
       "text": "2 / 8",
@@ -809,12 +821,12 @@
       "t": "7 delle 8 università della Ivy League compaiono nell’elenco delle ammissioni pubblicato da Charlotte Country Day, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
-      "text": "5 of the 8 Ivy League universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "a448c742",
+      "text": "7 of the 8 Ivy League universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "b86acb70",
       "at": [
         "providence-day:[4].quals.charlotte-latin.text"
       ],
-      "t": "5 delle 8 università della Ivy League compaiono nell’elenco delle ammissioni pubblicato da Charlotte Latin, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
+      "t": "7 delle 8 università della Ivy League compaiono negli elenchi delle ammissioni 2023–25 e 2024–26 pubblicati da Charlotte Latin, confrontati con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
       "text": "2 of the 8 Ivy League universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -906,13 +918,12 @@
       "t": "13 / 17"
     },
     {
-      "text": "12 / 17",
-      "of": "a12d445d",
+      "text": "14 / 17",
+      "of": "e69f86e7",
       "at": [
-        "providence-day:[5].values.charlotte-latin",
-        "providence-day:[13].subs.cannon"
+        "providence-day:[5].values.charlotte-latin"
       ],
-      "t": "12 / 17"
+      "t": "14 / 17"
     },
     {
       "text": "3 / 17",
@@ -1003,12 +1014,12 @@
       "t": "13 delle 17 istituzioni “Ivy Plus” compaiono nell’elenco delle ammissioni pubblicato da Charlotte Country Day, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
-      "text": "12 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "17d7f05b",
+      "text": "14 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "084c98eb",
       "at": [
         "providence-day:[5].quals.charlotte-latin.text"
       ],
-      "t": "12 delle 17 istituzioni “Ivy Plus” compaiono nell’elenco delle ammissioni pubblicato da Charlotte Latin, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
+      "t": "14 delle 17 istituzioni “Ivy Plus” compaiono negli elenchi delle ammissioni 2023–25 e 2024–26 pubblicati da Charlotte Latin, confrontati con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
       "text": "3 of the 17 “Ivy Plus” institutions appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1102,12 +1113,12 @@
       "t": "71 / 75"
     },
     {
-      "text": "68 / 75",
-      "of": "87f034c2",
+      "text": "73 / 75",
+      "of": "09ebe19e",
       "at": [
         "providence-day:[6].values.charlotte-latin"
       ],
-      "t": "68 / 75"
+      "t": "73 / 75"
     },
     {
       "text": "30 / 75",
@@ -1174,12 +1185,12 @@
       "t": "71 delle prime 75 National Universities compaiono nell’elenco delle ammissioni pubblicato da Charlotte Country Day, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
-      "text": "68 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "80534a61",
+      "text": "73 of the top 75 National Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "c72b55c3",
       "at": [
         "providence-day:[6].quals.charlotte-latin.text"
       ],
-      "t": "68 delle prime 75 National Universities compaiono nell’elenco delle ammissioni pubblicato da Charlotte Latin, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
+      "t": "73 delle prime 75 National Universities compaiono negli elenchi delle ammissioni 2023–25 e 2024–26 pubblicati da Charlotte Latin, confrontati con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
       "text": "36 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1270,12 +1281,12 @@
       "t": "44 / 75"
     },
     {
-      "text": "42 / 75",
-      "of": "a2f809a2",
+      "text": "48 / 75",
+      "of": "ed11540c",
       "at": [
         "providence-day:[7].values.charlotte-latin"
       ],
-      "t": "42 / 75"
+      "t": "48 / 75"
     },
     {
       "text": "10 / 75",
@@ -1366,12 +1377,12 @@
       "t": "44 dei primi 75 Liberal Arts Colleges compaiono nell’elenco delle ammissioni pubblicato da Charlotte Country Day, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
-      "text": "42 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "597c2624",
+      "text": "48 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "7560748e",
       "at": [
         "providence-day:[7].quals.charlotte-latin.text"
       ],
-      "t": "42 dei primi 75 Liberal Arts Colleges compaiono nell’elenco delle ammissioni pubblicato da Charlotte Latin, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
+      "t": "48 dei primi 75 Liberal Arts Colleges compaiono negli elenchi delle ammissioni 2023–25 e 2024–26 pubblicati da Charlotte Latin, confrontati con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
       "text": "10 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1544,12 +1555,12 @@
       "t": "61 delle 68 università Power Four (ACC, Big Ten, Big 12, SEC, più Notre Dame) compaiono nell’elenco delle ammissioni pubblicato da Charlotte Country Day, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
-      "text": "Counted from the school’s published acceptance list against the Power Four conferences. The researcher’s own tally reached 62; the figure shown, 53, is the conservative count reflected in this table.",
-      "of": "32e0a013",
+      "text": "61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "e86e80b2",
       "at": [
         "providence-day:[8].quals.charlotte-latin.text"
       ],
-      "t": "Conteggiato dall’elenco delle ammissioni pubblicato dalla scuola rispetto alle conference Power Four. Il conteggio del ricercatore stesso è arrivato a 62; la cifra mostrata, 53, è il conteggio prudente riportato in questa tabella."
+      "t": "61 delle 68 università della Power Four (ACC, Big Ten, Big 12, SEC, più Notre Dame) compaiono negli elenchi delle ammissioni 2023–25 e 2024–26 pubblicati da Charlotte Latin, confrontati con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
       "text": "46 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Covenant Day’s published 2023–2026 acceptance list — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. Not a figure the school reports itself.",
@@ -2135,15 +2146,6 @@
       "t": "98%"
     },
     {
-      "text": "92%",
-      "of": "decf5375",
-      "at": [
-        "providence-day:[12].values.providence-day",
-        "providence-day:[14].values.charlotte-country-day"
-      ],
-      "t": "92%"
-    },
-    {
       "text": "12 / 12",
       "of": "9c2d3c7e",
       "at": [
@@ -2288,6 +2290,14 @@
         "providence-day:[13].values.gaston-day"
       ],
       "t": "75%"
+    },
+    {
+      "text": "12 / 17",
+      "of": "a12d445d",
+      "at": [
+        "providence-day:[13].subs.cannon"
+      ],
+      "t": "12 / 17"
     },
     {
       "text": "9 / 15",
@@ -2436,13 +2446,12 @@
       "t": "18 / 107"
     },
     {
-      "text": "8 / 107",
-      "of": "6f35d04c",
+      "text": "10 / 107",
+      "of": "3d306a67",
       "at": [
-        "providence-day:[15].values.charlotte-latin",
-        "providence-day:[15].values.carmel-christian"
+        "providence-day:[15].values.charlotte-latin"
       ],
-      "t": "8 / 107"
+      "t": "10 / 107"
     },
     {
       "text": "3 / 107",
@@ -2452,6 +2461,14 @@
         "providence-day:[15].values.davidson-day"
       ],
       "t": "3 / 107"
+    },
+    {
+      "text": "8 / 107",
+      "of": "6f35d04c",
+      "at": [
+        "providence-day:[15].values.carmel-christian"
+      ],
+      "t": "8 / 107"
     },
     {
       "text": "20 / 107",
@@ -2518,12 +2535,12 @@
       "t": "18 dei 107 Historically Black Colleges & Universities compaiono nell’elenco delle ammissioni pubblicato da Charlotte Country Day, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
-      "text": "8 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "69dff53e",
+      "text": "10 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "9457b309",
       "at": [
         "providence-day:[15].quals.charlotte-latin.text"
       ],
-      "t": "8 dei 107 Historically Black Colleges & Universities compaiono nell’elenco delle ammissioni pubblicato da Charlotte Latin, confrontato con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
+      "t": "10 dei 107 Historically Black Colleges & Universities compaiono negli elenchi delle ammissioni 2023–25 e 2024–26 pubblicati da Charlotte Latin, confrontati con le tabelle U.S. News 2027 — non una cifra che la scuola riporta essa stessa."
     },
     {
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.",
@@ -2614,12 +2631,12 @@
       "t": "~34:1"
     },
     {
-      "text": "~36:1",
-      "of": "1ee45b4d",
+      "text": "~38:1",
+      "of": "775066d3",
       "at": [
         "providence-day:[16].values.charlotte-latin"
       ],
-      "t": "~36:1"
+      "t": "~38:1"
     },
     {
       "text": "85:1",
@@ -2694,12 +2711,12 @@
       "t": "Circa 34–35 studenti dell’ultimo anno per college counselor nel picco della stagione delle candidature. Un rapporto più basso significa più tempo del counselor per studente."
     },
     {
-      "text": "About 36–37 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
-      "of": "3c59be83",
+      "text": "About 38 seniors per college counselor at peak application season — 151 seniors in the 2026–27 class across 4 counselors (computed; the school publishes no ratio). A lower ratio means more counselor time per student.",
+      "of": "068d2eed",
       "at": [
         "providence-day:[16].quals.charlotte-latin.text"
       ],
-      "t": "Circa 36–37 studenti dell’ultimo anno per college counselor nel picco della stagione delle candidature. Un rapporto più basso significa più tempo del counselor per studente."
+      "t": "Circa 38 studenti dell’ultimo anno per college counselor nel picco della stagione delle candidature — 151 studenti dell’ultimo anno nella classe 2026–27 per 4 counselor (calcolato; la scuola non pubblica alcun rapporto). Un rapporto più basso significa più tempo del counselor per studente."
     },
     {
       "text": "85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.",

@@ -30,7 +30,7 @@ wrong-but-plausible number does not stand out. Every figure below was joined by
 | Channel | Rows |
 |---|---|
 | User's 2026-09-22 PDF print-out | 228 |
-| Route B — Liberal Arts list page | 109 |
+| Route B — Liberal Arts list page | 110 |
 | Route A — profile page, verbatim "In the 2027 edition…" | 37 |
 | User's 2026-09-22 PDF print-out (via alias) | 24 |
 | Route B — National list page (via alias) | 21 |
@@ -107,9 +107,23 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | Sam Houston State University | National Rank #257 | no National/LAC rank — Regional Universities West (tie) |
 | Hampshire College | Liberal Rank #156 | profile 404s; absent from the 203-row 2027 Liberal Arts list |
 
+## Confirmed Regional-only — never in the master
+
+Checked so a later pass does not re-run the lookup. Each holds a Regional rank
+only in the 2027 edition, so it has no row in the master and no label renders.
+Source: profile-page screenshots taken by the user on a phone, 2026-11-04
+(latinprofile), from usnews.com profile pages.
+
+| Institution | 2027 finding |
+|---|---|
+| Kettering University | #4 in Regional Universities Midwest (profile Rankings tab; the "In the 2027 edition…" sentence was not in frame) |
+| Taylor University | verbatim "In the 2027 edition of Best Colleges, Taylor University is ranked No. 3 in Regional Colleges Midwest." (Upland, IN) |
+| University of Dallas | verbatim "In the 2027 edition of Best Colleges, University of Dallas is ranked No. 10 in Regional Universities West." (tie; Irving, TX) |
+| University of Tennessee at Chattanooga | verbatim "In the 2027 edition of Best Colleges, University of Tennessee at Chattanooga is ranked No. 35 in Regional Universities South." (tie; Chattanooga, TN) |
+
 ## The table
 
-424 institution rows, alphabetical, matching the master exactly.
+425 institution rows, alphabetical, matching the master exactly.
 
 | Institution | Rank label | Channel |
 |---|---|---|
@@ -246,6 +260,7 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | Kenyon College | Liberal Rank #41 | Route B — Liberal Arts list page |
 | Lafayette College | Liberal Rank #30 | Route B — Liberal Arts list page |
 | Lake Forest College | Liberal Rank #62 | Route B — Liberal Arts list page |
+| Lawrence University | Liberal Rank #68 | Route B — Liberal Arts list page |
 | Lehigh University | National Rank #44 | User's 2026-09-22 PDF print-out |
 | Lewis & Clark College | Liberal Rank #97 | Route B — Liberal Arts list page |
 | Liberty University | National Rank #365 | Route A — profile page, verbatim "In the 2027 edition…" |
@@ -421,7 +436,7 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | University of Houston | National Rank #137 | User's 2026-09-22 PDF print-out |
 | University of Illinois | National Rank #34 | User's 2026-09-22 PDF print-out (via alias) |
 | University of Illinois (Urbana-Champaign) | National Rank #34 | User's 2026-09-22 PDF print-out |
-| University of Illinois at Chicago | National Rank #95 | User's 2026-09-22 PDF print-out (via alias) |
+| University of Illinois Chicago | National Rank #95 | User's 2026-09-22 PDF print-out (via alias; key re-spelled 2026-11-04 from "University of Illinois at Chicago") |
 | University of Illinois at Urbana-Champaign | National Rank #34 | User's 2026-09-22 PDF print-out (via alias) |
 | University of Iowa | National Rank #100 | User's 2026-09-22 PDF print-out |
 | University of Kansas | National Rank #148 | User's 2026-09-22 PDF print-out |
