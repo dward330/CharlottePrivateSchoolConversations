@@ -1189,6 +1189,7 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
+        "charlotte-latin:outcomes.collegesTitle",
         "charlotte-christian:outcomes.collegesTitle",
         "charlotte-country-day:outcomes.collegesTitle",
         "covenant-day:outcomes.collegesTitle"
@@ -1999,29 +2000,28 @@
       "t": "Piedmont Triad"
     },
     {
-      "text": "Students in AP classes are required to sit the exam — but unlike its peers, Latin publishes no AP score distribution at all, so the results of that policy are invisible.",
-      "of": "545617b6",
+      "text": "Students in AP classes must sit the exam — and in 2026, 92% of the 833 exams Latin students took scored 3 or higher, with a mean score of 4.10.",
+      "of": "9a31af8c",
       "at": [
         "charlotte-latin:transcript.headline"
       ],
-      "t": "يُطلَب من طلاب حصص AP أداء الاختبار — لكن بخلاف نظيراتها، لا تنشر Latin أي توزيع لدرجات AP إطلاقًا، فنتائج تلك السياسة غير مرئية."
+      "t": "يُطلَب من طلاب حصص AP أداء الاختبار — وفي 2026 سجّل 92% من الاختبارات الـ 833 التي أدّاها طلاب Latin درجة 3 أو أعلى، بمتوسّط درجة 4.10."
     },
     {
-      "text": "What the profile does give a reader is an unusually candid warning about its own maths placement, and a 23-subject AP catalogue that now includes the very new AP Cybersecurity.",
-      "of": "640b2341",
+      "text": "The profile also carries an unusually candid warning about its own maths placement, and a spring-2026 decision to weight Advanced maths and science courses +0.5, applied retroactively from the Class of 2027.",
+      "of": "34d0877e",
       "at": [
         "charlotte-latin:transcript.subhead"
       ],
-      "t": "ما يعطيه الملفّ لقارئ هو تحذير صريح بشكل غير معتاد بشأن وضعه في الرياضيات، ودليل AP من 23 مادة يشمل الآن AP Cybersecurity الجديدة جدًّا."
+      "t": "ويحمل الملفّ أيضًا تحذيرًا صريحًا بشكل غير معتاد بشأن وضعه في الرياضيات، وقرارًا اتُّخذ في ربيع 2026 بترجيح حصص Advanced في الرياضيات والعلوم بـ +0.5، يُطبَّق بأثر رجعي بدءًا من دفعة 2027."
     },
     {
-      "text": "23",
-      "of": "8ef29b12",
+      "text": "24",
+      "of": "89f29333",
       "at": [
-        "charlotte-latin:transcript.stats[0].value",
-        "charlotte-catholic:transcript.stats[1].value"
+        "charlotte-latin:transcript.stats[0].value"
       ],
-      "t": "23"
+      "t": "24"
     },
     {
       "text": "AP subjects offered — exams required of AP students",
@@ -2032,37 +2032,36 @@
       "t": "مواد AP المتاحة — الاختبارات مطلوبة من طلاب AP"
     },
     {
-      "text": "Not published",
-      "of": "d945d814",
+      "text": "92%",
+      "of": "decf5375",
       "at": [
-        "charlotte-latin:transcript.stats[1].value",
-        "davidson-day:transcript.stats[1].value"
+        "charlotte-latin:transcript.stats[1].value"
       ],
-      "t": "غير منشور"
+      "t": "92%"
     },
     {
-      "text": "AP exams sat, % scoring 3+, and score distribution",
-      "of": "fd5fc713",
+      "text": "of 833 AP exams scored 3+ (2026, 308 students)",
+      "of": "8506d131",
       "at": [
         "charlotte-latin:transcript.stats[1].label"
       ],
-      "t": "اختبارات AP المؤدّاة، ونسبة التسجيل 3+، وتوزيع الدرجات"
+      "t": "من اختبارات AP الـ 833 سجّلت 3+ (2026، 308 طلاب)"
     },
     {
-      "text": "418",
-      "of": "ac2dcd6a",
+      "text": "357",
+      "of": "405cb546",
       "at": [
         "charlotte-latin:transcript.stats[2].value"
       ],
-      "t": "418"
+      "t": "357"
     },
     {
-      "text": "AP Scholar awards across the Classes of 2023–25",
-      "of": "b912f6a0",
+      "text": "AP Scholar awards across the Classes of 2024–26",
+      "of": "529655ee",
       "at": [
         "charlotte-latin:transcript.stats[2].label"
       ],
-      "t": "جوائز AP Scholar عبر دفعات 2023–25"
+      "t": "جوائز AP Scholar عبر دفعات 2024–26"
     },
     {
       "text": "12 / 18",
@@ -2097,18 +2096,26 @@
       "t": "**6** متأهّلين للنهائي · **16** مُنوَّهًا بهم · 1 National Merit Scholar (Evan Li ’24)"
     },
     {
-      "text": "**20** Semifinalists · **46** Commended across the three classes (profile aggregate)",
-      "of": "1a8c2898",
+      "text": "**27** Semifinalists · **50** Commended across the three classes (2026–27 profile aggregate)",
+      "of": "05290aec",
       "at": [
         "charlotte-latin:transcript.merit[2].detail"
       ],
-      "t": "**20** متأهّلًا لنصف النهائي · **46** مُنوَّهًا بهم عبر الدفعات الثلاث (إجمالي الملفّ)"
+      "t": "**27** متأهّلًا لنصف النهائي · **50** مُنوَّهًا بهم عبر الدفعات الثلاث (إجمالي ملفّ 2026–27)"
+    },
+    {
+      "text": "**20** Semifinalists · **46** Commended across the three classes (2025–26 profile aggregate)",
+      "of": "152efbbc",
+      "at": [
+        "charlotte-latin:transcript.merit[3].detail"
+      ],
+      "t": "**20** متأهّلًا لنصف النهائي · **46** مُنوَّهًا بهم عبر الدفعات الثلاث (إجمالي ملفّ 2025–26)"
     },
     {
       "text": "25 Semifinalists · 34 Commended · 7 National Hispanic Scholars",
       "of": "bedbac97",
       "at": [
-        "charlotte-latin:transcript.merit[3].detail"
+        "charlotte-latin:transcript.merit[4].detail"
       ],
       "t": "25 متأهّلًا لنصف النهائي · 34 مُنوَّهًا بهم · 7 National Hispanic Scholars"
     },
@@ -2116,33 +2123,33 @@
       "text": "34 Semifinalists · 33 Commended · 2 National Achievement Semifinalists",
       "of": "b4ba01fd",
       "at": [
-        "charlotte-latin:transcript.merit[4].detail"
+        "charlotte-latin:transcript.merit[5].detail"
       ],
       "t": "34 متأهّلًا لنصف النهائي · 33 مُنوَّهًا بهم · 2 National Achievement Semifinalists"
     },
     {
-      "text": "The Class of 2026 alone produced 12 Semifinalists — more than half the 20 recorded across the three preceding classes combined. Both figures are school-published and the surge is real per the sources, but the school does not explain it. Note too that the current profile reports Semifinalists and Commended only: it no longer reports Finalists, so Finalist counts for 2023, 2025 and 2026 are unpublished.",
-      "of": "a48f8e3c",
+      "text": "The Class of 2026 alone produced 12 Semifinalists — more than half the 20 recorded across the three preceding classes combined. Both figures are school-published and the surge is real per the sources, but the school does not explain it. Note too that both recent profile editions report Semifinalists and Commended only: neither reports Finalists, so Finalist counts for 2023, 2025 and 2026 are unpublished.",
+      "of": "e154abe6",
       "at": [
         "charlotte-latin:transcript.meritNote"
       ],
-      "t": "أنتجت دفعة 2026 وحدها 12 متأهّلًا لنصف النهائي — أكثر من نصف الـ 20 المسجَّلين عبر الدفعات الثلاث السابقة مجتمعةً. وكلا الرقمين منشور من المدرسة والطفرة حقيقية بحسب المصادر، لكن المدرسة لا تفسّرها. ولاحظ أيضًا أن الملفّ الحالي يذكر متأهّلي نصف النهائي والمُنوَّه بهم فقط: فلم يعد يذكر المتأهّلين للنهائي، فأعداد المتأهّلين للنهائي لـ 2023 و2025 و2026 غير منشورة."
+      "t": "أنتجت دفعة 2026 وحدها 12 متأهّلًا لنصف النهائي — أكثر من نصف الـ 20 المسجَّلين عبر الدفعات الثلاث السابقة مجتمعةً. وكلا الرقمين منشور من المدرسة والطفرة حقيقية بحسب المصادر، لكن المدرسة لا تفسّرها. ولاحظ أيضًا أن إصداري الملفّ الأخيرين يذكران متأهّلي نصف النهائي والمُنوَّه بهم فقط: فلا يذكر أيٌّ منهما المتأهّلين للنهائي، فأعداد المتأهّلين للنهائي لـ 2023 و2025 و2026 غير منشورة."
     },
     {
-      "text": "The ceiling is **AP Calculus BC** — there is no multivariable calculus and no linear algebra. Honors Data Analytics and Honors Probability & Statistics run alongside rather than beyond it. A genuine ceiling worth noting.",
-      "of": "14bff145",
+      "text": "The ceiling is **AP Calculus BC** — there is no multivariable calculus and no linear algebra. Honors Data Analytics, Honors Intro to Probability & Statistics and Honors Graphs, Governance & Games: Applied Mathematics run alongside rather than beyond it. A genuine ceiling worth noting.",
+      "of": "24862898",
       "at": [
         "charlotte-latin:transcript.depth[0].text"
       ],
-      "t": "السقف هو **AP Calculus BC** — لا يوجد تفاضل وتكامل متعدّد المتغيّرات ولا جبر خطّي. وتجري Honors Data Analytics وHonors Probability & Statistics إلى جانبه لا بعده. سقف حقيقي جدير بالملاحظة."
+      "t": "السقف هو **AP Calculus BC** — لا يوجد تفاضل وتكامل متعدّد المتغيّرات ولا جبر خطّي. وتجري Honors Data Analytics وHonors Intro to Probability & Statistics وHonors Graphs, Governance & Games: Applied Mathematics إلى جانبه لا بعده. سقف حقيقي جدير بالملاحظة."
     },
     {
-      "text": "**Honors Java Data Structures** sits beyond AP CS A, and **AP Cybersecurity 1: Networking Fundamentals** is a very new College Board offering and a real differentiator.",
-      "of": "8f931f86",
+      "text": "**Honors Java Data Structures** sits beyond AP CS A, and **AP Cybersecurity** and **AP Networking Fundamentals** are now listed as two separate APs — both very new College Board offerings and a real differentiator.",
+      "of": "47f3804a",
       "at": [
         "charlotte-latin:transcript.depth[1].text"
       ],
-      "t": "**Honors Java Data Structures** تقع بعد AP CS A، و**AP Cybersecurity 1: Networking Fundamentals** عرض College Board جديد جدًّا وعامل تمييز حقيقي."
+      "t": "**Honors Java Data Structures** تقع بعد AP CS A، و**AP Cybersecurity** و**AP Networking Fundamentals** مُدرَجتان الآن بوصفهما مادّتي AP منفصلتين — وكلتاهما عرض College Board جديد جدًّا وعامل تمييز حقيقي."
     },
     {
       "text": "Engineering",
@@ -2153,12 +2160,12 @@
       "t": "الهندسة"
     },
     {
-      "text": "Honors Bioengineering and Honors Electrical Engineering run as non-AP advanced courses — an unusual pairing at high-school level.",
-      "of": "52723c9a",
+      "text": "Honors courses in Civil Engineering and Engineering in Motion run as non-AP advanced options, alongside Intro Bioengineering and Intro Electrical Engineering — an unusual range at high-school level.",
+      "of": "61aad3dc",
       "at": [
         "charlotte-latin:transcript.depth[2].text"
       ],
-      "t": "تجري Honors Bioengineering وHonors Electrical Engineering بوصفهما حصّتين متقدّمتين غير AP — اقتران غير معتاد على مستوى المرحلة الثانوية."
+      "t": "تجري حصص Honors في Civil Engineering وEngineering in Motion بوصفها خيارات متقدّمة غير AP، إلى جانب Intro Bioengineering وIntro Electrical Engineering — تنوّع غير معتاد على مستوى المرحلة الثانوية."
     },
     {
       "text": "**Honors Greek I–IV** (available only as a second world language), plus both AP Spanish Language and AP Spanish Literature, and Honors sequences in Latin, French and Spanish.",
@@ -2185,36 +2192,36 @@
       "t": "**Honors American Studies-History**، ندوة بحصّتين أنشأها قسما History وEnglish معًا وتُدرَّس، بحسب ملفّ سابق، \"على مستوى صرامة وعمق مكافئ لمناهج Advanced Placement\"."
     },
     {
-      "text": "Weighted — but no longer stated",
-      "of": "6a3a9faa",
+      "text": "Weighted — and stated again",
+      "of": "ec12ab48",
       "at": [
         "charlotte-latin:transcript.trust[0].label"
       ],
-      "t": "مُرجَّح — لكن لم يعد مذكورًا"
+      "t": "مُرجَّح — ومذكور من جديد"
     },
     {
-      "text": "A weighted 4-point scale giving **one additional quality point** for AP and Honors, with a full letter/quality-point table. Both appeared in the 2017–18 profile; **neither survives into the 2025–26 edition**.",
-      "of": "aef8a1e7",
+      "text": "A weighted 4-point scale (A+ 4.33, A 4.00 for 93–97, down to F 0.00) giving **one additional quality point** for Honors and AP and **one-half point for each Advanced course** except Advanced Functions with Trigonometry. The scale was absent from every edition after 2017–18 and **returned in 2026–27**.",
+      "of": "86672619",
       "at": [
         "charlotte-latin:transcript.trust[0].text"
       ],
-      "t": "مقياس مُرجَّح من 4 نقاط يعطي **نقطة جودة إضافية واحدة** لـ AP وHonors، بجدول حرف/نقطة جودة كامل. ظهر كلاهما في ملفّ 2017–18؛ و**لا يبقى أيٌّ منهما في إصدار 2025–26**."
+      "t": "مقياس مُرجَّح من 4 نقاط (A+ 4.33، وA 4.00 لـ 93–97، نزولًا إلى F 0.00) يعطي **نقطة جودة إضافية واحدة** لـ Honors وAP و**نصف نقطة لكل حصّة Advanced** باستثناء Advanced Functions with Trigonometry. غاب المقياس عن كل إصدار بعد 2017–18 و**عاد في 2026–27**."
     },
     {
-      "text": "No rank — also no longer stated",
-      "of": "677dff02",
+      "text": "No rank — stated again",
+      "of": "7b0a9777",
       "at": [
         "charlotte-latin:transcript.trust[1].label"
       ],
-      "t": "لا ترتيب — أيضًا لم يعد مذكورًا"
+      "t": "لا ترتيب — ومذكور من جديد"
     },
     {
-      "text": "“Charlotte Latin School does not report class rank” appeared in 2017–18 and is gone today, and no quintile or decile table has ever been published. A reader of the current profile cannot tell whether Latin ranks.",
-      "of": "2693492c",
+      "text": "Verbatim: “Charlotte Latin School **does not report class rank**.” The sentence appeared in 2017–18, disappeared, and is back in 2026–27. No quintile or decile table has ever been published.",
+      "of": "982baa6d",
       "at": [
         "charlotte-latin:transcript.trust[1].text"
       ],
-      "t": "\"لا تُبلّغ Charlotte Latin School عن ترتيب الدفعة\" ظهرت في 2017–18 واختفت اليوم، ولم يُنشَر جدول أخماس أو أعشار قطّ. ولا يستطيع قارئ الملفّ الحالي معرفة هل ترتّب Latin."
+      "t": "حرفيًّا: \"**لا تُبلّغ** Charlotte Latin School **عن ترتيب الدفعة**.\" ظهرت الجملة في 2017–18، ثم اختفت، وعادت في 2026–27. ولم يُنشَر جدول أخماس أو أعشار قطّ."
     },
     {
       "text": "Candid about maths placement",
@@ -2225,28 +2232,28 @@
       "t": "صريح بشأن الوضع في الرياضيات"
     },
     {
-      "text": "The one real interpretive aid the profile offers, verbatim: “As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in ‘standard’ courses**.” An unusually honest warning against misreading a transcript.",
-      "of": "9acaf488",
+      "text": "The one real interpretive aid the profile offers, verbatim: “As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in standard and advanced courses**.” An unusually honest warning against misreading a transcript.",
+      "of": "8253b91a",
       "at": [
         "charlotte-latin:transcript.trust[2].text"
       ],
-      "t": "المساعدة التفسيرية الحقيقية الوحيدة التي يقدّمها الملفّ، حرفيًّا: \"بما أن منهج Honors math لدينا صارم وسريع الإيقاع بشكل غير معتاد، **يُوضَع كثير من طلاب الرياضيات الجيّدين في حصص 'قياسية'**.\" تحذير صادق بشكل غير معتاد من إساءة قراءة كشف درجات."
+      "t": "المساعدة التفسيرية الحقيقية الوحيدة التي يقدّمها الملفّ، حرفيًّا: \"بما أن منهج Honors math لدينا صارم وسريع الإيقاع بشكل غير معتاد، **يُوضَع كثير من طلاب الرياضيات الجيّدين في حصص قياسية ومتقدّمة**.\" تحذير صادق بشكل غير معتاد من إساءة قراءة كشف درجات."
     },
     {
-      "text": "The jump from 48 AP Scholars with Distinction (2018–20) to 193 (2023–25) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.",
-      "of": "1bf937e0",
+      "text": "The jump from 48 AP Scholars with Distinction (2018–20) to 192 (2024–26) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.",
+      "of": "80bbd945",
       "at": [
         "charlotte-latin:transcript.flags[0].text"
       ],
-      "t": "القفزة من 48 AP Scholars with Distinction (2018–20) إلى 193 (2023–25) كبيرة جدًّا. وجزء منها نموّ حقيقي، لكن الحجم يوحي بأن أساس العدّ قد يختلف بين الإصدارات — إذ لا تعرّفه المدرسة. لا تعرض الاثنين بوصفهما قابلين للمقارنة مباشرةً."
+      "t": "القفزة من 48 AP Scholars with Distinction (2018–20) إلى 192 (2024–26) كبيرة جدًّا. وجزء منها نموّ حقيقي، لكن الحجم يوحي بأن أساس العدّ قد يختلف بين الإصدارات — إذ لا تعرّفه المدرسة. لا تعرض الاثنين بوصفهما قابلين للمقارنة مباشرةً."
     },
     {
-      "text": "The published 2025–26 profile contains an unedited internal editorial comment left in the live document — “We’ll need to somehow check to make sure all these students are still here, yes?” — verbatim in the file served from the school’s own resource manager. It is a proofreading lapse in the one document every admissions office reads.",
-      "of": "8fa01c0c",
+      "text": "The 2025–26 edition carried an unremoved internal editorial note; the 2026–27 edition has removed it, and adds AP results, test means, grade distributions and the grading scale — a substantial reversal of the school’s earlier non-disclosure.",
+      "of": "5022814b",
       "at": [
         "charlotte-latin:transcript.flags[1].text"
       ],
-      "t": "يتضمّن ملفّ 2025–26 المنشور تعليقًا تحريريًّا داخليًّا غير مُحرَّر تُرِك في المستند الحيّ — \"سنحتاج بطريقة ما إلى التحقّق من أن كل هؤلاء الطلاب لا يزالون هنا، صحيح؟\" — حرفيًّا في الملفّ المُقدَّم من مدير موارد المدرسة نفسها. وهو زلّة تدقيق في المستند الوحيد الذي يقرأه كل مكتب قبول."
+      "t": "حمل إصدار 2025–26 ملاحظة تحريرية داخلية غير مُزالة؛ وقد أزالها إصدار 2026–27، وأضاف نتائج AP ومتوسّطات الاختبارات وتوزيعات الدرجات ومقياس التقييم — تحوّل جوهري عن امتناع المدرسة السابق عن الإفصاح."
     },
     {
       "text": "Four full-time counselors inside a nine-person office — and, unusually, three dedicated essay specialists, a role most peer offices do not staff at all.",
@@ -2265,12 +2272,12 @@
       "t": "يُسنَد المرشدون في السنة الأولى، ويلتزم المكتب كتابيًّا بتدقيق كل مقال وطلب قبل التقديم — وعد ترفض معظم المدارس قطعه."
     },
     {
-      "text": "~1:36",
-      "of": "29df7213",
+      "text": "~1:38",
+      "of": "37df881d",
       "at": [
         "charlotte-latin:counseling.stats[0].value"
       ],
-      "t": "~1:36"
+      "t": "~1:38"
     },
     {
       "text": "counselors to seniors (derived — no ratio is published)",
@@ -2322,12 +2329,12 @@
       "t": "منصّة، إلى جانب بوابة MyLatin الخاصّة بالمدرسة"
     },
     {
-      "text": "Listed as Director in the 2017–18, 2019–20, 2020–21 and 2025–26 profiles — 9+ years documented.",
-      "of": "8683d7b8",
+      "text": "Listed as Director in the 2017–18, 2019–20, 2020–21, 2025–26 and 2026–27 profiles — 9+ years documented.",
+      "of": "8749b2ee",
       "at": [
         "charlotte-latin:counseling.roster[0].detail"
       ],
-      "t": "مُدرَج مديرًا في ملفّات 2017–18 و2019–20 و2020–21 و2025–26 — أكثر من 9 سنوات موثَّقة."
+      "t": "مُدرَج مديرًا في ملفّات 2017–18 و2019–20 و2020–21 و2025–26 و2026–27 — أكثر من 9 سنوات موثَّقة."
     },
     {
       "text": "In the office since at least 2017–18.",
@@ -2339,12 +2346,12 @@
       "t": "في المكتب منذ 2017–18 على الأقلّ."
     },
     {
-      "text": "Newer — appears in 2025–26 but not in the archived editions.",
-      "of": "e1e4fb6c",
+      "text": "Newer — appears in the 2025–26 and 2026–27 profiles but not in the archived editions.",
+      "of": "6db3009e",
       "at": [
         "charlotte-latin:counseling.roster[3].detail"
       ],
-      "t": "أحدث — يظهر في 2025–26 لكن ليس في الإصدارات المؤرشَفة."
+      "t": "أحدث — يظهر في ملفّي 2025–26 و2026–27 لكن ليس في الإصدارات المؤرشَفة."
     },
     {
       "text": "Essay specialists",
@@ -2542,12 +2549,12 @@
       "t": "SCOIR وMyLatin · المكتب مفتوح على مدار السنة للمواعيد والحضور المباشر"
     },
     {
-      "text": "Both ratios are derived (586 Upper Schoolers ÷ 4, and 145 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:36 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.",
-      "of": "f9275d25",
+      "text": "Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:38 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.",
+      "of": "d5385435",
       "at": [
         "charlotte-latin:counseling.flags[0].text"
       ],
-      "t": "كلتا النسبتين مُستخلَصة (586 طالب Upper School ÷ 4، و145 طالب سنة أخيرة ÷ 4)؛ ولا تنشر المدرسة أيًّا منهما. ولأن المرشدين يُسنَدون في السنة الأولى، فرقم ~1:147 لكل الصفوف مقياس عبء أصدق ربّما و~1:36 يصف كثافة السنة الأخيرة. ولا تُنشَر سِيَر أو أرباب عمل سابقون أو شهادات أو مؤهّلات لأي عضو طاقم — الأسماء والألقاب فقط."
+      "t": "كلتا النسبتين مُستخلَصة (589 طالب Upper School ÷ 4، و151 طالب سنة أخيرة ÷ 4)؛ ولا تنشر المدرسة أيًّا منهما. ولأن المرشدين يُسنَدون في السنة الأولى، فرقم ~1:147 لكل الصفوف مقياس عبء أصدق ربّما و~1:38 يصف كثافة السنة الأخيرة. ولا تُنشَر سِيَر أو أرباب عمل سابقون أو شهادات أو مؤهّلات لأي عضو طاقم — الأسماء والألقاب فقط."
     },
     {
       "text": "No count of campus visits made by counselors is published — only the qualitative claim that they “stay current by attending conferences, visiting colleges, and speaking extensively with college representatives”.",
@@ -2558,68 +2565,70 @@
       "t": "لا يُنشَر عدد زيارات الحرم التي يقوم بها المرشدون — فقط الادّعاء الوصفي بأنهم \"يبقون على اطّلاع بحضور المؤتمرات وزيارة الجامعات والتحدّث باستفاضة مع ممثّلي الجامعات\"."
     },
     {
-      "text": "Three graduating classes produced acceptances at 300 institutions, 131 of them marked as places where at least one Latin student actually enrolled.",
-      "of": "adb11e6c",
+      "text": "Four graduating classes produced acceptances at 337 institutions; 132 carry the newest list’s matriculation asterisk — at least one Latin student enrolled there in 2024–26.",
+      "of": "8b914e3b",
       "at": [
         "charlotte-latin:outcomes.headline"
       ],
-      "t": "أنتجت ثلاث دفعات متخرّجة قبولات في 300 مؤسّسة، 131 منها مُعلَّمة بوصفها أماكن التحق فيها طالب Latin واحد على الأقلّ فعلًا."
+      "t": "أنتجت أربع دفعات متخرّجة قبولات في 337 مؤسّسة؛ 132 منها تحمل نجمة الالتحاق في أحدث قائمة — أي التحق بها طالب واحد على الأقلّ من Latin في 2024–26."
     },
     {
-      "text": "The striking number is breadth: 62 of the 68 Power Four universities appear on the list, the absences being Minnesota, Nebraska, BYU, UCF, Houston and Kansas State.",
-      "of": "97b3d466",
+      "text": "The striking number is breadth: 61 of the 68 Power Four universities appear, the absences being Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”), and seven of the eight Ivies — Columbia is the only one missing.",
+      "of": "94714d13",
       "at": [
         "charlotte-latin:outcomes.subhead"
       ],
-      "t": "الرقم اللافت هو الاتّساع: تظهر 62 من جامعات Power Four الـ 68 على القائمة، والغيابات هي Minnesota وNebraska وBYU وUCF وHouston وKansas State."
+      "t": "الرقم اللافت هو الاتّساع: تظهر 61 من جامعات Power Four الـ 68، والغيابات هي Minnesota وNebraska وBYU وUCF وHouston وKansas State وUT Austin (لا تكتب القوائم إلا \"University of Texas\")، وتظهر سبع من جامعات Ivy الثماني — Columbia هي الوحيدة الغائبة."
     },
     {
-      "text": "300",
-      "of": "454ff132",
+      "text": "337",
+      "of": "404daabc",
       "at": [
         "charlotte-latin:outcomes.stats[0].value"
       ],
-      "t": "300"
+      "t": "337"
     },
     {
-      "text": "institutions on the 2023–25 acceptance list",
-      "of": "a5410d0a",
+      "text": "institutions on the 2023–26 acceptance lists",
+      "of": "12feb250",
       "at": [
         "charlotte-latin:outcomes.stats[0].label"
       ],
-      "t": "مؤسّسة على قائمة قبول 2023–25"
+      "t": "مؤسّسة على قوائم قبول 2023–26"
     },
     {
-      "text": "131",
-      "of": "783aab24",
+      "text": "132",
+      "of": "7b3aafdd",
       "at": [
-        "charlotte-latin:outcomes.stats[1].value"
+        "charlotte-latin:outcomes.stats[1].value",
+        "hickory-grove-christian:outcomes.stats[0].value"
       ],
-      "t": "131"
+      "t": "132"
     },
     {
-      "text": "carry a matriculation asterisk — 169 do not",
-      "of": "58e3ae6b",
+      "text": "carry the 2024–26 matriculation asterisk",
+      "of": "ffc7ef18",
       "at": [
         "charlotte-latin:outcomes.stats[1].label"
       ],
-      "t": "تحمل نجمة التحاق — 169 لا تحملها"
+      "t": "تحمل نجمة التحاق 2024–26"
     },
     {
-      "text": "5 of 8",
-      "of": "7b393a01",
+      "text": "7 of 8",
+      "of": "1f5e1f33",
       "at": [
-        "charlotte-latin:outcomes.stats[2].value"
+        "charlotte-latin:outcomes.stats[2].value",
+        "cannon:outcomes.stats[3].value"
       ],
-      "t": "5 من 8"
+      "t": "7 من 8"
     },
     {
-      "text": "Ivy League — absent Columbia, Princeton and Penn",
-      "of": "b4ec8fcb",
+      "text": "Ivy League — absent Columbia",
+      "of": "ca4eb24d",
       "at": [
         "charlotte-latin:outcomes.stats[2].label"
       ],
-      "t": "Ivy League — تغيب Columbia وPrinceton وPenn"
+      "t": "Ivy League — تغيب Columbia"
     },
     {
       "text": "61 of 68",
@@ -2638,20 +2647,20 @@
       "t": "جامعات Power Four مُمثَّلة"
     },
     {
-      "text": "— all five matriculated; absent Columbia, Princeton, Penn",
-      "of": "811d2372",
+      "text": "— six with a 2024–26 enrollee (all but Princeton); absent Columbia",
+      "of": "0073cd8c",
       "at": [
         "charlotte-latin:outcomes.buckets[0].note"
       ],
-      "t": "— التحق الخمسة كلهم؛ تغيب Columbia وPrinceton وPenn"
+      "t": "— ستّ منها التحق بها طالب في 2024–26 (كلها عدا Princeton)؛ تغيب Columbia"
     },
     {
-      "text": "— absent Johns Hopkins and Caltech",
-      "of": "cf353d83",
+      "text": "— absent Columbia, Johns Hopkins and Caltech",
+      "of": "0bbdee83",
       "at": [
         "charlotte-latin:outcomes.buckets[1].note"
       ],
-      "t": "— تغيب Johns Hopkins وCaltech"
+      "t": "— تغيب Columbia وJohns Hopkins وCaltech"
     },
     {
       "text": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12",
@@ -2662,20 +2671,12 @@
       "t": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12"
     },
     {
-      "text": "Every acceptance, 2023–2025",
-      "of": "3b53d818",
-      "at": [
-        "charlotte-latin:outcomes.collegesTitle"
-      ],
-      "t": "كل قبول، 2023–2025"
-    },
-    {
-      "text": "300 institutions · bold = at least one student matriculated",
-      "of": "f9cccb0c",
+      "text": "337 institutions · bold = at least one student enrolled, 2024–26",
+      "of": "19e92b17",
       "at": [
         "charlotte-latin:outcomes.collegesTotal"
       ],
-      "t": "300 مؤسّسة · الخطّ العريض = التحق طالب واحد على الأقلّ"
+      "t": "337 مؤسّسة · الخطّ العريض = التحق طالب واحد على الأقلّ، 2024–26"
     },
     {
       "text": "$13M+ merit offers · Class of 2023",
@@ -2726,12 +2727,12 @@
       "t": "تعيين في U.S. Air Force Academy (2025)"
     },
     {
-      "text": "The merit-dollar total stopped being published after the Class of 2023 — the 2024, 2025 and 2026 write-ups carry no figure, and whether the school stopped collecting or stopped publishing it is unclear. Morehead-Cain attaches to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class; Robertson, Jefferson and Belk are attested only in a 2017–18 historical paragraph and should not be read as current pipelines.",
-      "of": "456d8320",
+      "text": "The merit-dollar total stopped being published after the Class of 2023 — the 2024, 2025 and 2026 write-ups carry no figure, and whether the school stopped collecting or stopped publishing it is unclear. Morehead-Cain attaches to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class; Robertson, Jefferson and Belk are attested only in a 2017–18 historical paragraph and should not be read as current pipelines. The 2026–27 profile carries no merit figures either.",
+      "of": "b90f32e9",
       "at": [
         "charlotte-latin:outcomes.scholarshipsNote"
       ],
-      "t": "توقّف نشر إجمالي دولارات الجدارة بعد دفعة 2023 — إذ لا تحمل تقارير 2024 و2025 و2026 أي رقم، وهل توقّفت المدرسة عن الجمع أو عن النشر غير واضح. وMorehead-Cain مرتبط بدفعة 2022، خارج نافذة هذه القائمة. ولم يُعثَر على QuestBridge وRobertson وJefferson وBelk وStamps وCoca-Cola لأي دفعة أخيرة؛ وRobertson وJefferson وBelk موثَّقة فقط في فقرة تاريخية لعام 2017–18 وينبغي ألّا تُقرأ خطوطًا حالية."
+      "t": "توقّف نشر إجمالي دولارات الجدارة بعد دفعة 2023 — إذ لا تحمل تقارير 2024 و2025 و2026 أي رقم، وهل توقّفت المدرسة عن الجمع أو عن النشر غير واضح. وMorehead-Cain مرتبط بدفعة 2022، خارج نافذة هذه القائمة. ولم يُعثَر على QuestBridge وRobertson وJefferson وBelk وStamps وCoca-Cola لأي دفعة أخيرة؛ وRobertson وJefferson وBelk موثَّقة فقط في فقرة تاريخية لعام 2017–18 وينبغي ألّا تُقرأ خطوطًا حالية. ولا يحمل ملفّ 2026–27 أي أرقام جدارة كذلك."
     },
     {
       "text": "Latin’s differentiators are narrow, deep and genuinely elite in two places — a top-20 national debate programme and an MIT-lineage Fab Lab — and the school leaves the assembly of a spike almost entirely to the student.",
@@ -2798,28 +2799,28 @@
       "t": "لا يزال لا يوجد تدريب عملي أو مشروع ختامي أو مشروع سنة أخيرة أو دراسة مستقلّة أو شرط بحث على مستوى المدرسة مطلوب — فمتطلّبات التخرّج قائمة على الأرصدة فقط، ولا توجد شهادة أو دبلوم في الدراسات العالمية. ودعم الاستقطاب الرياضي والفنون في الجامعة برامج إعلامية فقط: فلا يُنشَر منسّق استقطاب مُسمّى أو خدمة أفلام أبرز اللقطات أو مسار إعداد للمعهد الموسيقي أو مراجعة ملفّ أعمال."
     },
     {
-      "text": "**The School Profile works against itself.** It is the one document every admissions office reads, and Latin’s current edition omits the grading scale, the weighting statement, the class-rank policy, the CEEB code, the four-year matriculation percentage and all testing data — while carrying an unremoved internal editorial note in the live PDF.",
-      "of": "df4af41f",
+      "text": "**The School Profile argues with numbers again.** It is the one document every admissions office reads, and the 2026–27 edition restores the grading scale, the weighting statement and the class-rank policy, and adds AP results and SAT and ACT means after years without them. It still omits a CEEB code, a four-year matriculation percentage and National Merit Finalists.",
+      "of": "79ed802e",
       "at": [
         "charlotte-latin:edge.levers[1].items[0]"
       ],
-      "t": "**School Profile يعمل ضدّ نفسه.** فهو المستند الوحيد الذي يقرأه كل مكتب قبول، وإصدار Latin الحالي يُغفل مقياس التقييم وبيان الترجيح وسياسة ترتيب الدفعة ورمز CEEB ونسبة الالتحاق للسنوات الأربع وكل بيانات الاختبار — مع حمله ملاحظة تحريرية داخلية غير مُزالة في ملفّ PDF الحيّ."
+      "t": "**School Profile يحتجّ بالأرقام من جديد.** فهو المستند الوحيد الذي يقرأه كل مكتب قبول، وإصدار 2026–27 يعيد مقياس التقييم وبيان الترجيح وسياسة ترتيب الدفعة، ويضيف نتائج AP ومتوسّطات SAT وACT بعد سنوات من غيابها. ولا يزال يُغفل رمز CEEB ونسبة الالتحاق للسنوات الأربع ومتأهّلي National Merit للنهائي."
     },
     {
-      "text": "**The integrity block was deleted wholesale.** All three archived editions carried, verbatim: “Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**.” None of that survives into the current profile.",
-      "of": "2e8e13f2",
+      "text": "**The integrity block was deleted wholesale.** All three archived editions carried, verbatim: “Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**.” None of that survives, and the 2026–27 edition does not restore it.",
+      "of": "f42a031c",
       "at": [
         "charlotte-latin:edge.levers[1].items[1]"
       ],
-      "t": "**حُذفت كتلة النزاهة كليًّا.** حملت الإصدارات المؤرشَفة الثلاثة كلها، حرفيًّا: \"انعكاسًا لتأكيدنا على 'الشرف فوق كل شيء'، سياستنا هي الإبلاغ عن أي **مراقبة وإيقاف وفصل حتى وقت التخرّج** لأي جامعات تطلب هذه المعلومة. وتمتثل CLS لـ **NACAC Statement of Principles of Good Practice**.\" ولا يبقى أيٌّ من ذلك في الملفّ الحالي."
+      "t": "**حُذفت كتلة النزاهة كليًّا.** حملت الإصدارات المؤرشَفة الثلاثة كلها، حرفيًّا: \"انعكاسًا لتأكيدنا على 'الشرف فوق كل شيء'، سياستنا هي الإبلاغ عن أي **مراقبة وإيقاف وفصل حتى وقت التخرّج** لأي جامعات تطلب هذه المعلومة. وتمتثل CLS لـ **NACAC Statement of Principles of Good Practice**.\" ولا يبقى أيٌّ من ذلك، ولا يعيده إصدار 2026–27."
     },
     {
-      "text": "**Named-scholarship history was deleted too.** The 2017–18 edition told readers the school’s students had won Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth and Johnson scholarships, and gave application and matriculation breadth. Not one of those sentences survives.",
-      "of": "07b33e34",
+      "text": "**Named-scholarship history was deleted too.** The 2017–18 edition told readers the school’s students had won Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth and Johnson scholarships, and gave application and matriculation breadth. Not one of those sentences survives, and the 2026–27 edition does not restore them.",
+      "of": "d228ad24",
       "at": [
         "charlotte-latin:edge.levers[1].items[2]"
       ],
-      "t": "**حُذف تاريخ المنح المُسمّاة أيضًا.** أخبر إصدار 2017–18 القرّاء بأن طلاب المدرسة فازوا بمنح Morehead-Cain وRobertson وB.N. Duke وJefferson وBelk وBryan وChancellor’s وDanforth وJohnson، وأعطى اتّساع التقديم والالتحاق. ولا تبقى جملة واحدة من تلك الجُمل."
+      "t": "**حُذف تاريخ المنح المُسمّاة أيضًا.** أخبر إصدار 2017–18 القرّاء بأن طلاب المدرسة فازوا بمنح Morehead-Cain وRobertson وB.N. Duke وJefferson وBelk وBryan وChancellor’s وDanforth وJohnson، وأعطى اتّساع التقديم والالتحاق. ولا تبقى جملة واحدة من تلك الجُمل، ولا يعيدها إصدار 2026–27."
     },
     {
       "text": "**What remains is genuine and external** — the NSDA recognition, the Fab Academy node, and the Malone Family Foundation selection are all third-party validations that do not depend on the profile.",
@@ -2830,12 +2831,12 @@
       "t": "**ما يبقى حقيقي وخارجي** — تقدير NSDA، وعقدة Fab Academy، واختيار Malone Family Foundation كلها مصادقات طرف ثالث لا تعتمد على الملفّ."
     },
     {
-      "text": "The net effect is a school whose real institutional strengths are verifiable elsewhere but are no longer argued for in the document colleges actually read.",
-      "of": "9e8ac989",
+      "text": "The net effect is a profile that now argues with numbers again, but still omits the integrity statement and the scholarship history earlier editions carried.",
+      "of": "720589ad",
       "at": [
         "charlotte-latin:edge.levers[1].note"
       ],
-      "t": "المحصّلة مدرسة قوّتها المؤسّسية الحقيقية قابلة للتحقّق في مكان آخر لكن لم يعد يُحتجّ لها في المستند الذي تقرأه الجامعات فعلًا."
+      "t": "المحصّلة ملفّ يحتجّ بالأرقام من جديد، لكنه لا يزال يُغفل بيان النزاهة وتاريخ المنح اللذين حملتهما الإصدارات السابقة."
     },
     {
       "text": "An unsourced reference to a 2018 national debate champion surfaced during research but could not be corroborated against speechanddebate.org, so it is deliberately excluded here rather than repeated.",
@@ -2846,20 +2847,61 @@
       "t": "ظهرت إشارة بلا مصدر إلى بطل مناظرة وطني في 2018 خلال البحث لكن لم يتسنَّ التثبّت منها مقابل speechanddebate.org، فتُستبعَد هنا عمدًا بدلًا من تكرارها."
     },
     {
-      "text": "Latin publishes almost no class-level analytics — no SAT, no ACT, no AP score distribution, no GPA distribution, and no rank, quintile or decile table.",
-      "of": "57e4bd97",
+      "text": "As of 2026–27, Latin publishes its class-level numbers — 2026 AP results, SAT and ACT means, and junior and sophomore grade distributions — but still no percentiles, GPA distribution or rank.",
+      "of": "74b0ab74",
       "at": [
         "charlotte-latin:wholeClass.headline"
       ],
-      "t": "لا تنشر Latin تقريبًا أي تحليلات على مستوى الدفعة — لا SAT، ولا ACT، ولا توزيع درجات AP، ولا توزيع GPA، ولا جدول ترتيب أو أخماس أو أعشار."
+      "t": "منذ 2026–27 تنشر Latin أرقامها على مستوى الدفعة — نتائج AP لعام 2026، ومتوسّطات SAT وACT، وتوزيعات درجات السنتين الثالثة والثانية — لكن لا مئينات ولا توزيع GPA ولا ترتيب حتى الآن."
     },
     {
-      "text": "The absence is the finding, and it cuts both ways: it protects students in the middle of the class from unflattering comparison, and it removes every quantitative lever a strong student might otherwise use to stand out.",
-      "of": "fc9ff896",
+      "text": "The figures are means, not distributions. A reader can now place a test score against the class average, but not against the spread — there is no middle-50% band and no share of the class above any line.",
+      "of": "a48c878b",
       "at": [
         "charlotte-latin:wholeClass.subhead"
       ],
-      "t": "الغياب هو النتيجة، وهو ذو حدّين: يحمي طلاب وسط الدفعة من مقارنة غير مواتية، ويزيل كل رافعة كمّية قد يستخدمها طالب قوي لولا ذلك ليبرز."
+      "t": "الأرقام متوسّطات لا توزيعات. يستطيع القارئ الآن وضع درجة اختبار مقابل متوسّط الدفعة، لكن ليس مقابل التشتّت — فلا نطاق للـ 50% الوسطى ولا حصّة من الدفعة فوق أي حدّ."
+    },
+    {
+      "text": "SAT & ACT class means",
+      "of": "2e3d021b",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].title"
+      ],
+      "t": "متوسّطات SAT وACT للدفعة"
+    },
+    {
+      "text": "— as of 8/6/26 · testers shown per row",
+      "of": "c8324e43",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].hint"
+      ],
+      "t": "— حتى 8/6/26 · عدد المُختبِرين مبيَّن في كل صفّ"
+    },
+    {
+      "text": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": "دفعة 2026"
+    },
+    {
+      "text": "Class of 2027",
+      "of": "3afd47b5",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label"
+      ],
+      "t": "دفعة 2027"
+    },
+    {
+      "text": "Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The Class of 2026’s size is not printed, so no testing rate can be computed.",
+      "of": "0f868fd0",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].note"
+      ],
+      "t": "متوسّطات فقط — لا يطبع الملفّ مئينات ولا نطاق الـ 50% الوسطى. ولا تزال دفعة 2027 تؤدّي الاختبارات، فأرقامها جزئية. ولا يُطبَع حجم دفعة 2026، فلا يمكن حساب نسبة المُختبِرين."
     },
     {
       "text": "Learning Resources, founded 1985",
@@ -2926,20 +2968,20 @@
       "t": "Office of Academic Transition and Student Success هو **مكتب انتقال وانتساب** للطلاب الجدد على المدارس المستقلّة، خصوصًا من الخلفيات ناقصة التمثيل. ولا تذكر صفحته أبدًا فروق التعلّم أو خطط 504 أو التيسيرات. والطالب المصاب بعُسر القراءة الذي ليس جديدًا على Latin ولا من خلفية ناقصة التمثيل يقع خارج فئته المذكورة كليًّا."
     },
     {
-      "text": "Breadth is the only available proxy",
-      "of": "c4674765",
+      "text": "Grades are now published",
+      "of": "fd218739",
       "at": [
         "charlotte-latin:wholeClass.middle[0].label"
       ],
-      "t": "الاتّساع هو البديل الوحيد المتاح"
+      "t": "الدرجات منشورة الآن"
     },
     {
-      "text": "Because no GPA or test distribution exists, the 300-institution list is the sole evidence — and it is genuinely broad, spanning Harvard, MIT and Stanford through Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate and Johnson & Wales, many carrying matriculation asterisks.",
-      "of": "ed9e95c2",
+      "text": "In the Class of 2027’s junior year, 524 of 833 course grades (63%) were in the A range, and 457 of 806 (57%) in sophomore year — as counted from the profile’s own tables, which omit grades below C−. Beyond grades, the 337-institution list is genuinely broad, spanning Harvard, MIT and Stanford through Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate and Johnson & Wales, many carrying matriculation asterisks.",
+      "of": "b4355b5e",
       "at": [
         "charlotte-latin:wholeClass.middle[0].text"
       ],
-      "t": "لأنه لا يوجد توزيع GPA أو اختبار، فقائمة الـ 300 مؤسّسة هي الدليل الوحيد — وهي واسعة فعلًا، تمتدّ من Harvard وMIT وStanford عبر Belhaven وBrevard وCatawba وCarson-Newman وLenoir-Rhyne وMethodist وSaint Leo وTrevecca Nazarene وWingate وJohnson & Wales، وكثير منها يحمل نجمة التحاق."
+      "t": "في سنة دفعة 2027 الثالثة كانت 524 من 833 درجة حصّة (63%) في نطاق A، و457 من 806 (57%) في السنة الثانية — بحسب العدّ من جداول الملفّ نفسه، التي تُغفل الدرجات دون C−. وما وراء الدرجات، قائمة الـ 337 مؤسّسة واسعة فعلًا، تمتدّ من Harvard وMIT وStanford عبر Belhaven وBrevard وCatawba وCarson-Newman وLenoir-Rhyne وMethodist وSaint Leo وTrevecca Nazarene وWingate وJohnson & Wales، وكثير منها يحمل نجمة التحاق."
     },
     {
       "text": "The regional band is real",
@@ -2950,12 +2992,12 @@
       "t": "النطاق الإقليمي حقيقي"
     },
     {
-      "text": "Every UNC-system campus on the list carries a matriculation asterisk, so Latin visibly places students across the whole band rather than only at the top.",
-      "of": "64b65d4d",
+      "text": "Nine UNC-system campuses carry a 2024–26 matriculation asterisk — Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, the School of the Arts, East Carolina and Appalachian State — so Latin visibly places students across the band rather than only at the top.",
+      "of": "5936881a",
       "at": [
         "charlotte-latin:wholeClass.middle[1].text"
       ],
-      "t": "كل حرم في نظام UNC على القائمة يحمل نجمة التحاق، فتضع Latin طلابًا بشكل ظاهر عبر النطاق كلّه لا في القمّة فقط."
+      "t": "تسعة أحرام في نظام UNC تحمل نجمة التحاق 2024–26 — Chapel Hill وNC State وCharlotte وGreensboro وWilmington وAsheville وSchool of the Arts وEast Carolina وAppalachian State — فتضع Latin طلابًا بشكل ظاهر عبر النطاق كلّه لا في القمّة فقط."
     },
     {
       "text": "Non-traditional destinations",
@@ -2968,44 +3010,44 @@
       "t": "وجهات غير تقليدية"
     },
     {
-      "text": "Service academies including a 2025 Air Force Academy appointment, conservatory and arts institutions, and international universities all appear on the list.",
-      "of": "b938b011",
+      "text": "Service academies (the Naval Academy and The Citadel, plus a 2025 Air Force Academy appointment), conservatory and arts institutions, and international universities including St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill and UBC all appear on the lists.",
+      "of": "e0192008",
       "at": [
         "charlotte-latin:wholeClass.middle[2].text"
       ],
-      "t": "أكاديميات الخدمة بما فيها تعيين Air Force Academy في 2025، والمعاهد الموسيقية ومؤسّسات الفنون، والجامعات الدولية كلها تظهر على القائمة."
+      "t": "تظهر على القوائم أكاديميات الخدمة (Naval Academy وThe Citadel، إضافةً إلى تعيين Air Force Academy في 2025)، والمعاهد الموسيقية ومؤسّسات الفنون، وجامعات دولية منها St Andrews وUCL وKing’s وImperial وLeiden وAmsterdam وQueensland وToronto وMcGill وUBC."
     },
     {
-      "text": "No SAT, ACT, AP-distribution, GPA-distribution or rank table is published. Latin asks colleges to trust its transcript while supplying no distributional context to calibrate it — its own candid maths-placement note is one of the very few interpretive aids a reader is given.",
-      "of": "18b34e0a",
+      "text": "Means only — no percentiles, middle-50% bands, GPA distribution or rank table, and no testing rate.",
+      "of": "a6eff711",
       "at": [
         "charlotte-latin:wholeClass.flags[0].text"
       ],
-      "t": "لا يُنشَر جدول SAT أو ACT أو توزيع AP أو توزيع GPA أو ترتيب. وتطلب Latin من الجامعات الوثوق بكشف درجاتها دون توفير أي سياق توزيعي لمعايرته — وملاحظة الوضع في الرياضيات الصريحة الخاصّة بها واحدة من المساعدات التفسيرية القليلة جدًّا التي تُعطى لقارئ."
+      "t": "متوسّطات فقط — لا مئينات ولا نطاقات للـ 50% الوسطى ولا توزيع GPA ولا جدول ترتيب، ولا نسبة للمُختبِرين."
     },
     {
-      "text": "The testing data disappeared in two stages, not one: SAT and ACT results were already absent from the 2019–20 and 2020–21 editions, so the loss happened between 2017–18 and 2019–20. This is a long-standing posture, NOT a recent test-optional-era change, and should not be described as a new development.",
-      "of": "fd57eb3d",
+      "text": "The testing data was absent from every edition between 2019–20 and 2025–26 and returned in 2026–27.",
+      "of": "ba8d8b50",
       "at": [
         "charlotte-latin:wholeClass.flags[1].text"
       ],
-      "t": "اختفت بيانات الاختبار على مرحلتين، لا واحدة: فنتائج SAT وACT كانت غائبة أصلًا من إصداري 2019–20 و2020–21، فحدث الفقد بين 2017–18 و2019–20. وهذا موقف قائم منذ زمن، لا تغيّرًا حديثًا من حقبة الاختيارية في الاختبار، وينبغي ألّا يُوصَف بأنه تطوّر جديد."
+      "t": "غابت بيانات الاختبار عن كل إصدار بين 2019–20 و2025–26 وعادت في 2026–27."
     },
     {
-      "text": "Genuinely elite in two narrow places — debate and design engineering — with a stable, unusually well-staffed counseling office, wrapped in the least transparent profile in this set.",
-      "of": "8252c9e6",
+      "text": "Genuinely elite in two narrow places — debate and design engineering — with a stable, unusually well-staffed counseling office — and, from 2026–27, a profile that publishes its numbers again.",
+      "of": "15e637e5",
       "at": [
         "charlotte-latin:verdict.headline"
       ],
-      "t": "نخبوي فعلًا في موضعين ضيّقين — المناظرة وهندسة التصميم — بمكتب إرشاد مستقرّ مزوَّد بطاقم بشكل غير معتاد، ملفوف في أقلّ ملفّ شفافيةً في هذه المجموعة."
+      "t": "نخبوي فعلًا في موضعين ضيّقين — المناظرة وهندسة التصميم — بمكتب إرشاد مستقرّ مزوَّد بطاقم بشكل غير معتاد — ومنذ 2026–27، بملفّ ينشر أرقامه من جديد."
     },
     {
-      "text": "Almost every open question here is answerable in one conversation, because the information exists; the school simply no longer publishes it.",
-      "of": "4704d3c1",
+      "text": "The open questions are now about spread and outcomes rather than basic disclosure: the averages are printed, but not the range around them or where each class enrolled.",
+      "of": "948ec14f",
       "at": [
         "charlotte-latin:verdict.subhead"
       ],
-      "t": "كل سؤال مفتوح هنا تقريبًا قابل للإجابة في محادثة واحدة، لأن المعلومة موجودة؛ والمدرسة ببساطة لم تعد تنشرها."
+      "t": "الأسئلة المفتوحة الآن تتعلّق بالتشتّت والنتائج أكثر من الإفصاح الأساسي: المتوسّطات مطبوعة، لكن لا النطاق حولها ولا أين التحقت كل دفعة."
     },
     {
       "text": "Two externally validated flagship programmes",
@@ -3032,12 +3074,12 @@
       "t": "مكتب إرشاد مزوَّد بطاقم بشكل غير معتاد"
     },
     {
-      "text": "nine people for 145 seniors, including **three dedicated essay specialists** — a role most peer offices simply do not have — with counselors assigned in freshman year.",
-      "of": "e4ee9e6f",
+      "text": "nine people for 151 seniors, including **three dedicated essay specialists** — a role most peer offices simply do not have — with counselors assigned in freshman year.",
+      "of": "46b5fd22",
       "at": [
         "charlotte-latin:verdict.points[1].text"
       ],
-      "t": "تسعة أشخاص لـ 145 طالب سنة أخيرة، بما فيهم **ثلاثة أخصائيّي مقالات مخصَّصين** — دور لا تملكه معظم المكاتب النظيرة ببساطة — مع إسناد المرشدين في السنة الأولى."
+      "t": "تسعة أشخاص لـ 151 طالب سنة أخيرة، بما فيهم **ثلاثة أخصائيّي مقالات مخصَّصين** — دور لا تملكه معظم المكاتب النظيرة ببساطة — مع إسناد المرشدين في السنة الأولى."
     },
     {
       "text": "A written commitment peers avoid",
@@ -3080,12 +3122,12 @@
       "t": "اتّساع الوضع عبر الدفعة كلها"
     },
     {
-      "text": "300 institutions across three classes with 62 of the 68 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.",
-      "of": "2f4c3af0",
+      "text": "337 institutions across four classes with 61 of the 68 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.",
+      "of": "a22536a9",
       "at": [
         "charlotte-latin:verdict.points[4].text"
       ],
-      "t": "300 مؤسّسة عبر ثلاث دفعات مع تمثيل 62 من جامعات Power Four الـ 68، ونجوم التحاق منتشرة من Ivies نزولًا عبر النطاق الإقليمي."
+      "t": "337 مؤسّسة عبر أربع دفعات مع تمثيل 61 من جامعات Power Four الـ 68، ونجوم التحاق منتشرة من Ivies نزولًا عبر النطاق الإقليمي."
     },
     {
       "text": "The exam requirement is real",
@@ -3096,28 +3138,28 @@
       "t": "شرط الاختبار حقيقي"
     },
     {
-      "text": "students in AP classes must sit the exam, and four APs are deliberately open-enrollment rather than faculty-gated — so access is broader than the placement gate alone suggests.",
-      "of": "ebb29f50",
+      "text": "students in AP classes must sit the exam, and seven APs are deliberately open-enrollment rather than faculty-gated — so access is broader than the placement gate alone suggests.",
+      "of": "127d47b3",
       "at": [
         "charlotte-latin:verdict.points[5].text"
       ],
-      "t": "على طلاب حصص AP أداء الاختبار، وأربع مواد AP مفتوحة التسجيل عمدًا لا مشروطة بهيئة التدريس — فالوصول أوسع ممّا توحي به بوابة الوضع وحدها."
+      "t": "على طلاب حصص AP أداء الاختبار، وسبع مواد AP مفتوحة التسجيل عمدًا لا مشروطة بهيئة التدريس — فالوصول أوسع ممّا توحي به بوابة الوضع وحدها."
     },
     {
-      "text": "Your profile publishes no SAT, ACT or AP score data. What were the last class’s middle-50% SAT and ACT ranges, how many students tested, and what share of AP exams scored 3 or higher?",
-      "of": "61493cc8",
+      "text": "Your profile now prints SAT and ACT means. What are the middle-50% ranges, and what share of the class submitted scores?",
+      "of": "5eb595f6",
       "at": [
         "charlotte-latin:verdict.checklist[0]"
       ],
-      "t": "لا ينشر ملفّكم أي بيانات درجات SAT أو ACT أو AP. ما نطاقا SAT وACT للـ 50% الوسطى لآخر دفعة، وكم طالبًا اختبر، وما نسبة اختبارات AP التي سجّلت 3 أو أعلى؟"
+      "t": "يطبع ملفّكم الآن متوسّطات SAT وACT. ما نطاقات الـ 50% الوسطى، وما حصّة الدفعة التي قدّمت درجاتها؟"
     },
     {
-      "text": "The current profile no longer states your grading scale, your weighting, or whether you report class rank. Do AP and Honors still carry one additional quality point, and do you rank?",
-      "of": "a8a021b4",
+      "text": "Advanced math and science courses now carry +0.5, applied retroactively from the Class of 2027. How do colleges see that change on a transcript, and are earlier classes’ GPAs restated?",
+      "of": "9cff2b29",
       "at": [
         "charlotte-latin:verdict.checklist[1]"
       ],
-      "t": "لم يعد الملفّ الحالي يذكر مقياس تقييمكم أو ترجيحكم أو هل تُبلّغون عن ترتيب الدفعة. هل لا يزال AP وHonors يحملان نقطة جودة إضافية واحدة، وهل ترتّبون؟"
+      "t": "تحمل حصص Advanced في الرياضيات والعلوم الآن +0.5، بأثر رجعي بدءًا من دفعة 2027. كيف ترى الجامعات هذا التغيير في كشف الدرجات، وهل يُعاد حساب GPA للدفعات السابقة؟"
     },
     {
       "text": "Is there a GPA distribution — quintiles or deciles — that you share with colleges even though it is not in the published profile?",
@@ -3136,20 +3178,20 @@
       "t": "من المدير الحالي لـ Learning Resources، وكم عضو طاقم LR يعمل مع طلاب Upper School، وكم تكلّف الجلسة، بما أنها تُحاسَب خارج الرسوم؟"
     },
     {
-      "text": "Your published profile contains an unremoved internal editorial note. Who reviews that document before it goes to colleges, and when is it next refreshed?",
-      "of": "e56276b2",
+      "text": "Your Acceptances page still shows the Classes of 2023–25. Where did the Class of 2026 enroll, college by college?",
+      "of": "33e53cb6",
       "at": [
         "charlotte-latin:verdict.checklist[4]"
       ],
-      "t": "يتضمّن ملفّكم المنشور ملاحظة تحريرية داخلية غير مُزالة. من يراجع ذلك المستند قبل ذهابه إلى الجامعات، ومتى يُحدَّث تاليًا؟"
+      "t": "لا تزال صفحة Acceptances لديكم تعرض دفعات 2023–25. أين التحقت دفعة 2026، جامعةً جامعة؟"
     },
     {
-      "text": "Columbia, Princeton and Penn do not appear anywhere on the 2023–25 acceptance list. Is that accurate, and how do you read it?",
-      "of": "a54a8269",
+      "text": "Columbia is the only Ivy absent from both recent acceptance lists. Is that accurate, and how do you read it?",
+      "of": "9491f391",
       "at": [
         "charlotte-latin:verdict.checklist[5]"
       ],
-      "t": "لا تظهر Columbia وPrinceton وPenn في أي مكان على قائمة قبول 2023–25. هل ذلك دقيق، وكيف تقرؤونه؟"
+      "t": "Columbia هي جامعة Ivy الوحيدة الغائبة عن قائمتي القبول الأخيرتين كلتيهما. هل ذلك دقيق، وكيف تقرؤونه؟"
     },
     {
       "text": "You stopped publishing merit-scholarship totals after the Class of 2023. What did the last three classes receive?",
@@ -4440,6 +4482,14 @@
         "charlotte-catholic:transcript.stats[0].label"
       ],
       "t": "اختبارات AP المؤدّاة، 2024-25 (345 طالبًا، الصفّان 11–12)"
+    },
+    {
+      "text": "23",
+      "of": "8ef29b12",
+      "at": [
+        "charlotte-catholic:transcript.stats[1].value"
+      ],
+      "t": "23"
     },
     {
       "text": "AP subjects examined",
@@ -7661,14 +7711,6 @@
       "t": "طلاب سنة أخيرة متخرّجين، دفعة 2026"
     },
     {
-      "text": "7 of 8",
-      "of": "1f5e1f33",
-      "at": [
-        "cannon:outcomes.stats[3].value"
-      ],
-      "t": "7 من 8"
-    },
-    {
       "text": "Ivy League on the 2022–26 acceptance list",
       "of": "21cf5466",
       "at": [
@@ -9164,14 +9206,6 @@
       "t": "— كما نُشرت، لكل نسخة من الملفّ"
     },
     {
-      "text": "Class of 2026",
-      "of": "39fd4622",
-      "at": [
-        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
-      ],
-      "t": "دفعة 2026"
-    },
-    {
       "text": "Class of 2024",
       "of": "37fd42fc",
       "at": [
@@ -9548,6 +9582,14 @@
         "davidson-day:transcript.stats[0].label"
       ],
       "t": "حصص AP المتاحة في 2025–26 (عدّ مُستخلَص — لا تنشر المدرسة إجماليًّا)"
+    },
+    {
+      "text": "Not published",
+      "of": "d945d814",
+      "at": [
+        "davidson-day:transcript.stats[1].value"
+      ],
+      "t": "غير منشور"
     },
     {
       "text": "AP exams sat, % scoring 3+, and exam policy",
@@ -12174,14 +12216,6 @@
         "hickory-grove-christian:outcomes.subhead"
       ],
       "t": "لا تحمل القائمتان أي إشارة إلى الالتحاق الفعلي، ولذلك تُقرآن بوصفهما قبولات. وهنا تُقيَّم القائمة المدمجة بعد إزالة التكرار مقابل شرائح U.S. News الحالية."
-    },
-    {
-      "text": "132",
-      "of": "7b3aafdd",
-      "at": [
-        "hickory-grove-christian:outcomes.stats[0].value"
-      ],
-      "t": "132"
     },
     {
       "text": "institutions across the 2023 + 2025 acceptance lists",

@@ -1066,6 +1066,7 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
+        "charlotte-latin:outcomes.collegesTitle",
         "charlotte-christian:outcomes.collegesTitle",
         "charlotte-country-day:outcomes.collegesTitle",
         "covenant-day:outcomes.collegesTitle"
@@ -1784,25 +1785,24 @@
       ]
     },
     {
-      "t": "Les élèves inscrits en cours AP sont tenus de passer l’examen — mais contrairement à ses homologues, Charlotte Latin ne publie aucune distribution des scores AP, de sorte que les résultats de cette politique sont invisibles.",
-      "of": "545617b6",
+      "t": "Les élèves inscrits en cours AP sont tenus de passer l’examen — et en 2026, 92% des 833 examens passés par les élèves de Charlotte Latin ont obtenu 3 ou plus, avec un score moyen de 4.10.",
+      "of": "9a31af8c",
       "at": [
         "charlotte-latin:transcript.headline"
       ]
     },
     {
-      "t": "Ce que le profil offre bel et bien au lecteur, c’est un avertissement d’une franchise inhabituelle sur son propre placement en mathématiques, ainsi qu’un catalogue AP de 23 matières incluant désormais le tout nouveau AP Cybersecurity.",
-      "of": "640b2341",
+      "t": "Le profil comporte aussi un avertissement d’une franchise inhabituelle sur son propre placement en mathématiques, ainsi que la décision, prise au printemps 2026, de pondérer de +0.5 les cours Advanced de mathématiques et de sciences, appliquée rétroactivement à partir de la promotion 2027.",
+      "of": "34d0877e",
       "at": [
         "charlotte-latin:transcript.subhead"
       ]
     },
     {
-      "t": "23",
-      "of": "8ef29b12",
+      "t": "24",
+      "of": "89f29333",
       "at": [
-        "charlotte-latin:transcript.stats[0].value",
-        "charlotte-catholic:transcript.stats[1].value"
+        "charlotte-latin:transcript.stats[0].value"
       ]
     },
     {
@@ -1813,30 +1813,29 @@
       ]
     },
     {
-      "t": "Non publié",
-      "of": "d945d814",
+      "t": "92%",
+      "of": "decf5375",
       "at": [
-        "charlotte-latin:transcript.stats[1].value",
-        "davidson-day:transcript.stats[1].value"
+        "charlotte-latin:transcript.stats[1].value"
       ]
     },
     {
-      "t": "Examens AP passés, % obtenant 3+, et distribution des scores",
-      "of": "fd5fc713",
+      "t": "des 833 examens AP ont obtenu 3+ (2026, 308 élèves)",
+      "of": "8506d131",
       "at": [
         "charlotte-latin:transcript.stats[1].label"
       ]
     },
     {
-      "t": "418",
-      "of": "ac2dcd6a",
+      "t": "357",
+      "of": "405cb546",
       "at": [
         "charlotte-latin:transcript.stats[2].value"
       ]
     },
     {
-      "t": "Distinctions AP Scholar sur les promotions 2023–25",
-      "of": "b912f6a0",
+      "t": "Distinctions AP Scholar sur les promotions 2024–26",
+      "of": "529655ee",
       "at": [
         "charlotte-latin:transcript.stats[2].label"
       ]
@@ -1870,43 +1869,50 @@
       ]
     },
     {
-      "t": "**20** demi-finalistes · **46** Commended sur les trois promotions (agrégat du profil)",
-      "of": "1a8c2898",
+      "t": "**27** demi-finalistes · **50** Commended sur les trois promotions (agrégat du profil 2026–27)",
+      "of": "05290aec",
       "at": [
         "charlotte-latin:transcript.merit[2].detail"
+      ]
+    },
+    {
+      "t": "**20** demi-finalistes · **46** Commended sur les trois promotions (agrégat du profil 2025–26)",
+      "of": "152efbbc",
+      "at": [
+        "charlotte-latin:transcript.merit[3].detail"
       ]
     },
     {
       "t": "25 demi-finalistes · 34 Commended · 7 National Hispanic Scholars",
       "of": "bedbac97",
       "at": [
-        "charlotte-latin:transcript.merit[3].detail"
+        "charlotte-latin:transcript.merit[4].detail"
       ]
     },
     {
       "t": "34 demi-finalistes · 33 Commended · 2 demi-finalistes National Achievement",
       "of": "b4ba01fd",
       "at": [
-        "charlotte-latin:transcript.merit[4].detail"
+        "charlotte-latin:transcript.merit[5].detail"
       ]
     },
     {
-      "t": "La seule promotion 2026 a produit 12 demi-finalistes — plus de la moitié des 20 enregistrés sur les trois promotions précédentes réunies. Les deux chiffres sont publiés par l’école et la hausse est réelle selon les sources, mais l’école ne l’explique pas. À noter également que le profil actuel ne rapporte que les demi-finalistes et les Commended : il ne rapporte plus les finalistes, de sorte que les effectifs de finalistes pour 2023, 2025 et 2026 sont non publiés.",
-      "of": "a48f8e3c",
+      "t": "La seule promotion 2026 a produit 12 demi-finalistes — plus de la moitié des 20 enregistrés sur les trois promotions précédentes réunies. Les deux chiffres sont publiés par l’école et la hausse est réelle selon les sources, mais l’école ne l’explique pas. À noter également que les deux éditions récentes du profil ne rapportent que les demi-finalistes et les Commended : aucune ne rapporte les finalistes, de sorte que les effectifs de finalistes pour 2023, 2025 et 2026 sont non publiés.",
+      "of": "e154abe6",
       "at": [
         "charlotte-latin:transcript.meritNote"
       ]
     },
     {
-      "t": "Le plafond est **AP Calculus BC** — il n’y a ni calcul à plusieurs variables ni algèbre linéaire. Honors Data Analytics et Honors Probability & Statistics se situent à côté de ce niveau plutôt qu’au-delà. Un véritable plafond qui mérite d’être signalé.",
-      "of": "14bff145",
+      "t": "Le plafond est **AP Calculus BC** — il n’y a ni calcul à plusieurs variables ni algèbre linéaire. Honors Data Analytics, Honors Intro to Probability & Statistics et Honors Graphs, Governance & Games: Applied Mathematics se situent à côté de ce niveau plutôt qu’au-delà. Un véritable plafond qui mérite d’être signalé.",
+      "of": "24862898",
       "at": [
         "charlotte-latin:transcript.depth[0].text"
       ]
     },
     {
-      "t": "**Honors Java Data Structures** se situe au-delà de AP CS A, et **AP Cybersecurity 1: Networking Fundamentals** est une offre très récente du College Board et un véritable élément différenciant.",
-      "of": "8f931f86",
+      "t": "**Honors Java Data Structures** se situe au-delà de AP CS A, et **AP Cybersecurity** et **AP Networking Fundamentals** figurent désormais comme deux AP distincts — deux offres très récentes du College Board et un véritable élément différenciant.",
+      "of": "47f3804a",
       "at": [
         "charlotte-latin:transcript.depth[1].text"
       ]
@@ -1919,8 +1925,8 @@
       ]
     },
     {
-      "t": "Honors Bioengineering et Honors Electrical Engineering sont proposés comme cours avancés hors AP — un tandem inhabituel au niveau du secondaire.",
-      "of": "52723c9a",
+      "t": "Les cours Honors Civil Engineering et Engineering in Motion sont proposés comme options avancées hors AP, aux côtés de Intro Bioengineering et Intro Electrical Engineering — un éventail inhabituel au niveau du secondaire.",
+      "of": "61aad3dc",
       "at": [
         "charlotte-latin:transcript.depth[2].text"
       ]
@@ -1947,29 +1953,29 @@
       ]
     },
     {
-      "t": "Pondéré — mais ce n’est plus indiqué",
-      "of": "6a3a9faa",
+      "t": "Pondéré — et de nouveau indiqué",
+      "of": "ec12ab48",
       "at": [
         "charlotte-latin:transcript.trust[0].label"
       ]
     },
     {
-      "t": "Une échelle pondérée sur 4 points accordant **un point de qualité supplémentaire** pour les cours AP et Honors, avec un tableau complet lettres/points de qualité. Les deux figuraient dans le profil 2017–18 ; **ni l’un ni l’autre ne subsiste dans l’édition 2025–26**.",
-      "of": "aef8a1e7",
+      "t": "Une échelle pondérée sur 4 points (A+ 4.33, A 4.00 pour 93–97, jusqu’à F 0.00) accordant **un point de qualité supplémentaire** pour les cours Honors et AP et **un demi-point pour chaque cours Advanced**, sauf Advanced Functions with Trigonometry. L’échelle était absente de toutes les éditions postérieures à 2017–18 et **est revenue en 2026–27**.",
+      "of": "86672619",
       "at": [
         "charlotte-latin:transcript.trust[0].text"
       ]
     },
     {
-      "t": "Pas de classement — cela non plus n’est plus indiqué",
-      "of": "677dff02",
+      "t": "Pas de classement — de nouveau indiqué",
+      "of": "7b0a9777",
       "at": [
         "charlotte-latin:transcript.trust[1].label"
       ]
     },
     {
-      "t": "« Charlotte Latin School does not report class rank » figurait dans l’édition 2017–18 et a disparu aujourd’hui, et aucun tableau de quintiles ou de déciles n’a jamais été publié. Un lecteur du profil actuel ne peut pas savoir si Charlotte Latin établit un classement.",
-      "of": "2693492c",
+      "t": "Mot pour mot : « Charlotte Latin School **does not report class rank**. » La phrase figurait en 2017–18, a disparu, puis est revenue en 2026–27. Aucun tableau de quintiles ou de déciles n’a jamais été publié.",
+      "of": "982baa6d",
       "at": [
         "charlotte-latin:transcript.trust[1].text"
       ]
@@ -1982,22 +1988,22 @@
       ]
     },
     {
-      "t": "Le seul véritable outil d’interprétation qu’offre le profil, mot pour mot : « As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in ‘standard’ courses**. » Un avertissement d’une honnêteté inhabituelle contre une mauvaise lecture d’un relevé de notes.",
-      "of": "9acaf488",
+      "t": "Le seul véritable outil d’interprétation qu’offre le profil, mot pour mot : « As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in standard and advanced courses**. » Un avertissement d’une honnêteté inhabituelle contre une mauvaise lecture d’un relevé de notes.",
+      "of": "8253b91a",
       "at": [
         "charlotte-latin:transcript.trust[2].text"
       ]
     },
     {
-      "t": "Le passage de 48 AP Scholars with Distinction (2018–20) à 193 (2023–25) est très important. Une partie correspond à une croissance réelle, mais l’ampleur suggère que la base de comptage peut différer d’une édition à l’autre — l’école ne la définit pas. Ne présentez pas les deux chiffres comme directement comparables.",
-      "of": "1bf937e0",
+      "t": "Le passage de 48 AP Scholars with Distinction (2018–20) à 192 (2024–26) est très important. Une partie correspond à une croissance réelle, mais l’ampleur suggère que la base de comptage peut différer d’une édition à l’autre — l’école ne la définit pas. Ne présentez pas les deux chiffres comme directement comparables.",
+      "of": "80bbd945",
       "at": [
         "charlotte-latin:transcript.flags[0].text"
       ]
     },
     {
-      "t": "Le profil 2025–26 publié contient un commentaire éditorial interne non corrigé laissé dans le document en ligne — « We’ll need to somehow check to make sure all these students are still here, yes? » — mot pour mot dans le fichier diffusé depuis le gestionnaire de ressources de l’école elle-même. C’est un manquement de relecture dans le seul document que lit chaque bureau d’admission.",
-      "of": "8fa01c0c",
+      "t": "L’édition 2025–26 contenait une note éditoriale interne non supprimée ; l’édition 2026–27 l’a retirée et ajoute les résultats AP, les moyennes aux tests, les distributions de notes et l’échelle de notation — un revirement substantiel par rapport à l’ancienne non-divulgation de l’école.",
+      "of": "5022814b",
       "at": [
         "charlotte-latin:transcript.flags[1].text"
       ]
@@ -2017,8 +2023,8 @@
       ]
     },
     {
-      "t": "~1:36",
-      "of": "29df7213",
+      "t": "~1:38",
+      "of": "37df881d",
       "at": [
         "charlotte-latin:counseling.stats[0].value"
       ]
@@ -2067,8 +2073,8 @@
       ]
     },
     {
-      "t": "Mentionnée comme Director dans les profils 2017–18, 2019–20, 2020–21 et 2025–26 — 9+ années documentées.",
-      "of": "8683d7b8",
+      "t": "Mentionnée comme Director dans les profils 2017–18, 2019–20, 2020–21, 2025–26 et 2026–27 — 9+ années documentées.",
+      "of": "8749b2ee",
       "at": [
         "charlotte-latin:counseling.roster[0].detail"
       ]
@@ -2082,8 +2088,8 @@
       ]
     },
     {
-      "t": "Plus récent — apparaît en 2025–26 mais pas dans les éditions archivées.",
-      "of": "e1e4fb6c",
+      "t": "Plus récent — apparaît dans les profils 2025–26 et 2026–27 mais pas dans les éditions archivées.",
+      "of": "6db3009e",
       "at": [
         "charlotte-latin:counseling.roster[3].detail"
       ]
@@ -2260,8 +2266,8 @@
       ]
     },
     {
-      "t": "Les deux ratios sont calculés (586 élèves de l’Upper School ÷ 4, et 145 élèves de dernière année ÷ 4) ; l’école ne publie ni l’un ni l’autre. Comme les conseillers sont attribués dès la première année du secondaire, le chiffre ~1:147 tous niveaux confondus constitue sans doute la mesure de charge la plus honnête, tandis que ~1:36 décrit l’intensité de la dernière année. Aucune biographie, aucun employeur antérieur, aucun diplôme ni aucune qualification ne sont publiés pour un quelconque membre du personnel — noms et titres uniquement.",
-      "of": "f9275d25",
+      "t": "Les deux ratios sont calculés (589 élèves de l’Upper School ÷ 4, et 151 élèves de dernière année ÷ 4) ; l’école ne publie ni l’un ni l’autre. Comme les conseillers sont attribués dès la première année du secondaire, le chiffre ~1:147 tous niveaux confondus constitue sans doute la mesure de charge la plus honnête, tandis que ~1:38 décrit l’intensité de la dernière année. Aucune biographie, aucun employeur antérieur, aucun diplôme ni aucune qualification ne sont publiés pour un quelconque membre du personnel — noms et titres uniquement.",
+      "of": "d5385435",
       "at": [
         "charlotte-latin:counseling.flags[0].text"
       ]
@@ -2274,57 +2280,59 @@
       ]
     },
     {
-      "t": "Trois promotions ont obtenu des admissions dans 300 établissements, dont 131 signalés comme des lieux où au moins un élève de Charlotte Latin s’est effectivement inscrit.",
-      "of": "adb11e6c",
+      "t": "Quatre promotions ont obtenu des admissions dans 337 établissements ; 132 portent l’astérisque d’inscription de la liste la plus récente — au moins un élève de Charlotte Latin s’y est inscrit en 2024–26.",
+      "of": "8b914e3b",
       "at": [
         "charlotte-latin:outcomes.headline"
       ]
     },
     {
-      "t": "Le chiffre frappant est celui de l’étendue : 62 des 68 universités de la Power Four figurent sur la liste, les absentes étant Minnesota, Nebraska, BYU, UCF, Houston et Kansas State.",
-      "of": "97b3d466",
+      "t": "Le chiffre frappant est celui de l’étendue : 61 des 68 universités de la Power Four figurent sur les listes — les absentes étant Minnesota, Nebraska, BYU, UCF, Houston, Kansas State et UT Austin (les listes n’écrivent que « University of Texas ») — ainsi que sept des huit Ivies ; Columbia est la seule qui manque.",
+      "of": "94714d13",
       "at": [
         "charlotte-latin:outcomes.subhead"
       ]
     },
     {
-      "t": "300",
-      "of": "454ff132",
+      "t": "337",
+      "of": "404daabc",
       "at": [
         "charlotte-latin:outcomes.stats[0].value"
       ]
     },
     {
-      "t": "établissements sur la liste d’admissions 2023–25",
-      "of": "a5410d0a",
+      "t": "établissements sur les listes d’admissions 2023–26",
+      "of": "12feb250",
       "at": [
         "charlotte-latin:outcomes.stats[0].label"
       ]
     },
     {
-      "t": "131",
-      "of": "783aab24",
+      "t": "132",
+      "of": "7b3aafdd",
       "at": [
-        "charlotte-latin:outcomes.stats[1].value"
+        "charlotte-latin:outcomes.stats[1].value",
+        "hickory-grove-christian:outcomes.stats[0].value"
       ]
     },
     {
-      "t": "portent un astérisque d’inscription — 169 n’en portent pas",
-      "of": "58e3ae6b",
+      "t": "portent l’astérisque d’inscription 2024–26",
+      "of": "ffc7ef18",
       "at": [
         "charlotte-latin:outcomes.stats[1].label"
       ]
     },
     {
-      "t": "5 sur 8",
-      "of": "7b393a01",
+      "t": "7 sur 8",
+      "of": "1f5e1f33",
       "at": [
-        "charlotte-latin:outcomes.stats[2].value"
+        "charlotte-latin:outcomes.stats[2].value",
+        "cannon:outcomes.stats[3].value"
       ]
     },
     {
-      "t": "Ivy League — absents : Columbia, Princeton et Penn",
-      "of": "b4ec8fcb",
+      "t": "Ivy League — absente : Columbia",
+      "of": "ca4eb24d",
       "at": [
         "charlotte-latin:outcomes.stats[2].label"
       ]
@@ -2344,15 +2352,15 @@
       ]
     },
     {
-      "t": "— les cinq ont enregistré des inscriptions ; absents : Columbia, Princeton, Penn",
-      "of": "811d2372",
+      "t": "— six avec un inscrit en 2024–26 (toutes sauf Princeton) ; absente : Columbia",
+      "of": "0073cd8c",
       "at": [
         "charlotte-latin:outcomes.buckets[0].note"
       ]
     },
     {
-      "t": "— absents : Johns Hopkins et Caltech",
-      "of": "cf353d83",
+      "t": "— absents : Columbia, Johns Hopkins et Caltech",
+      "of": "0bbdee83",
       "at": [
         "charlotte-latin:outcomes.buckets[1].note"
       ]
@@ -2365,15 +2373,8 @@
       ]
     },
     {
-      "t": "Toutes les admissions, 2023–2025",
-      "of": "3b53d818",
-      "at": [
-        "charlotte-latin:outcomes.collegesTitle"
-      ]
-    },
-    {
-      "t": "300 établissements · gras = au moins un élève inscrit",
-      "of": "f9cccb0c",
+      "t": "337 établissements · gras = au moins un élève inscrit, 2024–26",
+      "of": "19e92b17",
       "at": [
         "charlotte-latin:outcomes.collegesTotal"
       ]
@@ -2421,8 +2422,8 @@
       ]
     },
     {
-      "t": "Le montant total des bourses au mérite a cessé d’être publié après la promotion 2023 — les comptes rendus de 2024, 2025 et 2026 ne comportent aucun chiffre, et l’on ne sait pas si l’école a cessé de le collecter ou de le publier. Morehead-Cain se rattache à la promotion 2022, hors de la fenêtre couverte par cette liste. QuestBridge, Robertson, Jefferson, Belk, Stamps et Coca-Cola n’ont été trouvés pour aucune promotion récente ; Robertson, Jefferson et Belk ne sont attestés que dans un paragraphe historique de 2017–18 et ne doivent pas être interprétés comme des filières actuelles.",
-      "of": "456d8320",
+      "t": "Le montant total des bourses au mérite a cessé d’être publié après la promotion 2023 — les comptes rendus de 2024, 2025 et 2026 ne comportent aucun chiffre, et l’on ne sait pas si l’école a cessé de le collecter ou de le publier. Morehead-Cain se rattache à la promotion 2022, hors de la fenêtre couverte par cette liste. QuestBridge, Robertson, Jefferson, Belk, Stamps et Coca-Cola n’ont été trouvés pour aucune promotion récente ; Robertson, Jefferson et Belk ne sont attestés que dans un paragraphe historique de 2017–18 et ne doivent pas être interprétés comme des filières actuelles. Le profil 2026–27 ne comporte pas non plus de chiffres de bourses au mérite.",
+      "of": "b90f32e9",
       "at": [
         "charlotte-latin:outcomes.scholarshipsNote"
       ]
@@ -2484,22 +2485,22 @@
       ]
     },
     {
-      "t": "**Le School Profile joue contre lui-même.** C’est le seul document que lit chaque bureau d’admission, et l’édition actuelle de Charlotte Latin omet l’échelle de notation, la mention de la pondération, la politique de classement, le code CEEB, le pourcentage d’inscription en cursus de quatre ans et toutes les données de tests — tout en conservant une note éditoriale interne non supprimée dans le PDF en ligne.",
-      "of": "df4af41f",
+      "t": "**Le School Profile argumente de nouveau avec des chiffres.** C’est le seul document que lit chaque bureau d’admission, et l’édition 2026–27 rétablit l’échelle de notation, la mention de la pondération et la politique de classement, et ajoute les résultats AP ainsi que les moyennes SAT et ACT après des années d’absence. Elle omet toujours le code CEEB, un pourcentage d’inscription en cursus de quatre ans et les finalistes du National Merit.",
+      "of": "79ed802e",
       "at": [
         "charlotte-latin:edge.levers[1].items[0]"
       ]
     },
     {
-      "t": "**Le bloc consacré à l’intégrité a été supprimé en totalité.** Les trois éditions archivées comportaient, mot pour mot : « Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**. » Rien de tout cela ne subsiste dans le profil actuel.",
-      "of": "2e8e13f2",
+      "t": "**Le bloc consacré à l’intégrité a été supprimé en totalité.** Les trois éditions archivées comportaient, mot pour mot : « Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**. » Rien de tout cela ne subsiste, et l’édition 2026–27 ne le rétablit pas.",
+      "of": "f42a031c",
       "at": [
         "charlotte-latin:edge.levers[1].items[1]"
       ]
     },
     {
-      "t": "**L’historique des bourses nommées a lui aussi été supprimé.** L’édition 2017–18 indiquait aux lecteurs que des élèves de l’école avaient remporté les bourses Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth et Johnson, et donnait l’étendue des candidatures et des inscriptions. Aucune de ces phrases ne subsiste.",
-      "of": "07b33e34",
+      "t": "**L’historique des bourses nommées a lui aussi été supprimé.** L’édition 2017–18 indiquait aux lecteurs que des élèves de l’école avaient remporté les bourses Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth et Johnson, et donnait l’étendue des candidatures et des inscriptions. Aucune de ces phrases ne subsiste, et l’édition 2026–27 ne les rétablit pas.",
+      "of": "d228ad24",
       "at": [
         "charlotte-latin:edge.levers[1].items[2]"
       ]
@@ -2512,8 +2513,8 @@
       ]
     },
     {
-      "t": "Il en résulte une école dont les véritables forces institutionnelles sont vérifiables ailleurs, mais ne sont plus défendues dans le document que les universités lisent réellement.",
-      "of": "9e8ac989",
+      "t": "Il en résulte un profil qui argumente de nouveau avec des chiffres, mais qui omet toujours la déclaration d’intégrité et l’historique des bourses que comportaient les éditions antérieures.",
+      "of": "720589ad",
       "at": [
         "charlotte-latin:edge.levers[1].note"
       ]
@@ -2526,17 +2527,53 @@
       ]
     },
     {
-      "t": "Charlotte Latin ne publie presque aucune donnée analytique au niveau de la promotion — pas de SAT, pas d’ACT, pas de distribution des scores AP, pas de distribution des GPA, et aucun tableau de classement, de quintiles ou de déciles.",
-      "of": "57e4bd97",
+      "t": "Depuis 2026–27, Charlotte Latin publie ses chiffres au niveau de la promotion — résultats AP 2026, moyennes SAT et ACT, et distributions des notes en avant-dernière et en deuxième année — mais toujours pas de percentiles, de distribution des GPA ni de classement.",
+      "of": "74b0ab74",
       "at": [
         "charlotte-latin:wholeClass.headline"
       ]
     },
     {
-      "t": "L’absence est en soi le constat, et elle joue dans les deux sens : elle protège les élèves du milieu de la promotion d’une comparaison peu flatteuse, et elle supprime tout levier quantitatif dont un élève brillant pourrait autrement se servir pour se démarquer.",
-      "of": "fc9ff896",
+      "t": "Les chiffres sont des moyennes, pas des distributions. Un lecteur peut désormais situer un score par rapport à la moyenne de la promotion, mais pas par rapport à la dispersion — il n’y a ni fourchette des 50% centraux ni part de la promotion au-dessus d’un seuil.",
+      "of": "a48c878b",
       "at": [
         "charlotte-latin:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "Moyennes de promotion SAT et ACT",
+      "of": "2e3d021b",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "— au 8/6/26 · candidats indiqués par ligne",
+      "of": "c8324e43",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Promotion 2026",
+      "of": "39fd4622",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "Promotion 2027",
+      "of": "3afd47b5",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "Moyennes uniquement — le profil n’imprime ni percentiles ni fourchette des 50% centraux. La promotion 2027 passe encore les tests, ses chiffres sont donc partiels. L’effectif de la promotion 2026 n’est pas indiqué, de sorte qu’aucun taux de participation aux tests ne peut être calculé.",
+      "of": "0f868fd0",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[0].note"
       ]
     },
     {
@@ -2596,15 +2633,15 @@
       ]
     },
     {
-      "t": "L’étendue est le seul indicateur disponible",
-      "of": "c4674765",
+      "t": "Les notes sont désormais publiées",
+      "of": "fd218739",
       "at": [
         "charlotte-latin:wholeClass.middle[0].label"
       ]
     },
     {
-      "t": "Faute de toute distribution de GPA ou de scores, la liste de 300 établissements constitue la seule preuve disponible — et elle est réellement large, allant de Harvard, MIT et Stanford jusqu’à Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate et Johnson & Wales, beaucoup portant un astérisque d’inscription.",
-      "of": "ed9e95c2",
+      "t": "Pendant l’avant-dernière année de la promotion 2027, 524 des 833 notes de cours (63%) se situaient dans la tranche A, et 457 sur 806 (57%) en deuxième année — d’après le décompte des propres tableaux du profil, qui omettent les notes inférieures à C−. Au-delà des notes, la liste de 337 établissements est réellement large, allant de Harvard, MIT et Stanford jusqu’à Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate et Johnson & Wales, beaucoup portant un astérisque d’inscription.",
+      "of": "b4355b5e",
       "at": [
         "charlotte-latin:wholeClass.middle[0].text"
       ]
@@ -2617,8 +2654,8 @@
       ]
     },
     {
-      "t": "Chaque campus du système UNC figurant sur la liste porte un astérisque d’inscription : Charlotte Latin place donc visiblement des élèves sur toute la strate et pas seulement en haut de celle-ci.",
-      "of": "64b65d4d",
+      "t": "Neuf campus du système UNC portent un astérisque d’inscription 2024–26 — Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, la School of the Arts, East Carolina et Appalachian State : Charlotte Latin place donc visiblement des élèves sur toute la strate et pas seulement en haut de celle-ci.",
+      "of": "5936881a",
       "at": [
         "charlotte-latin:wholeClass.middle[1].text"
       ]
@@ -2633,36 +2670,36 @@
       ]
     },
     {
-      "t": "Des académies militaires, dont une nomination à l’Air Force Academy en 2025, des conservatoires et établissements artistiques, ainsi que des universités internationales figurent tous sur la liste.",
-      "of": "b938b011",
+      "t": "Des académies militaires (la Naval Academy et The Citadel, plus une nomination à l’Air Force Academy en 2025), des conservatoires et établissements artistiques, ainsi que des universités internationales, dont St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill et UBC, figurent tous sur les listes.",
+      "of": "e0192008",
       "at": [
         "charlotte-latin:wholeClass.middle[2].text"
       ]
     },
     {
-      "t": "Aucun tableau de SAT, d’ACT, de distribution AP, de distribution des GPA ou de classement n’est publié. Charlotte Latin demande aux universités de se fier à son relevé de notes sans fournir aucun contexte distributionnel permettant de l’étalonner — sa propre note franche sur le placement en mathématiques est l’un des très rares outils d’interprétation offerts au lecteur.",
-      "of": "18b34e0a",
+      "t": "Moyennes uniquement — pas de percentiles, de fourchettes des 50% centraux, de distribution des GPA ni de tableau de classement, et pas de taux de participation aux tests.",
+      "of": "a6eff711",
       "at": [
         "charlotte-latin:wholeClass.flags[0].text"
       ]
     },
     {
-      "t": "Les données de tests ont disparu en deux temps, et non en une seule fois : les résultats SAT et ACT étaient déjà absents des éditions 2019–20 et 2020–21, la perte s’est donc produite entre 2017–18 et 2019–20. Il s’agit d’une position de longue date, et NON d’un changement récent lié à l’ère du test-optional : elle ne doit pas être présentée comme une évolution nouvelle.",
-      "of": "fd57eb3d",
+      "t": "Les données de tests étaient absentes de toutes les éditions entre 2019–20 et 2025–26 et sont revenues en 2026–27.",
+      "of": "ba8d8b50",
       "at": [
         "charlotte-latin:wholeClass.flags[1].text"
       ]
     },
     {
-      "t": "Véritablement d’élite sur deux terrains étroits — le débat et l’ingénierie de conception — avec un bureau d’orientation stable et exceptionnellement bien doté en personnel, le tout enveloppé dans le profil le moins transparent de cet ensemble.",
-      "of": "8252c9e6",
+      "t": "Véritablement d’élite sur deux terrains étroits — le débat et l’ingénierie de conception — avec un bureau d’orientation stable et exceptionnellement bien doté en personnel — et, depuis 2026–27, un profil qui publie de nouveau ses chiffres.",
+      "of": "15e637e5",
       "at": [
         "charlotte-latin:verdict.headline"
       ]
     },
     {
-      "t": "Presque toutes les questions ouvertes ici peuvent trouver réponse en une seule conversation, car l’information existe ; l’école ne la publie simplement plus.",
-      "of": "4704d3c1",
+      "t": "Les questions ouvertes portent désormais sur la dispersion et les résultats plutôt que sur la divulgation de base : les moyennes sont imprimées, mais pas l’éventail autour d’elles ni les établissements où chaque promotion s’est inscrite.",
+      "of": "948ec14f",
       "at": [
         "charlotte-latin:verdict.subhead"
       ]
@@ -2689,8 +2726,8 @@
       ]
     },
     {
-      "t": "neuf personnes pour 145 élèves de dernière année, dont **trois spécialistes dédiés aux essais** — un poste que la plupart des bureaux comparables n’ont tout simplement pas — avec des conseillers attribués dès la première année du secondaire.",
-      "of": "e4ee9e6f",
+      "t": "neuf personnes pour 151 élèves de dernière année, dont **trois spécialistes dédiés aux essais** — un poste que la plupart des bureaux comparables n’ont tout simplement pas — avec des conseillers attribués dès la première année du secondaire.",
+      "of": "46b5fd22",
       "at": [
         "charlotte-latin:verdict.points[1].text"
       ]
@@ -2731,8 +2768,8 @@
       ]
     },
     {
-      "t": "300 établissements sur trois promotions, avec 62 des 68 universités de la Power Four représentées, et des astérisques d’inscription répartis depuis les Ivies jusqu’à la strate régionale.",
-      "of": "2f4c3af0",
+      "t": "337 établissements sur quatre promotions, avec 61 des 68 universités de la Power Four représentées, et des astérisques d’inscription répartis depuis les Ivies jusqu’à la strate régionale.",
+      "of": "a22536a9",
       "at": [
         "charlotte-latin:verdict.points[4].text"
       ]
@@ -2745,22 +2782,22 @@
       ]
     },
     {
-      "t": "les élèves inscrits en cours AP doivent passer l’examen, et quatre AP sont délibérément ouverts à tous plutôt que soumis à l’aval des enseignants — l’accès est donc plus large que ne le laisse penser le seul filtre de placement.",
-      "of": "ebb29f50",
+      "t": "les élèves inscrits en cours AP doivent passer l’examen, et sept AP sont délibérément ouverts à tous plutôt que soumis à l’aval des enseignants — l’accès est donc plus large que ne le laisse penser le seul filtre de placement.",
+      "of": "127d47b3",
       "at": [
         "charlotte-latin:verdict.points[5].text"
       ]
     },
     {
-      "t": "Votre profil ne publie aucune donnée de scores SAT, ACT ou AP. Quelles étaient les fourchettes SAT et ACT des 50% centraux de la dernière promotion, combien d’élèves ont passé les tests, et quelle part des examens AP a obtenu 3 ou plus ?",
-      "of": "61493cc8",
+      "t": "Votre profil imprime désormais les moyennes SAT et ACT. Quelles sont les fourchettes des 50% centraux, et quelle part de la promotion a soumis des scores ?",
+      "of": "5eb595f6",
       "at": [
         "charlotte-latin:verdict.checklist[0]"
       ]
     },
     {
-      "t": "Le profil actuel n’indique plus votre échelle de notation, votre pondération, ni si vous communiquez un classement. Les cours AP et Honors valent-ils toujours un point de qualité supplémentaire, et établissez-vous un classement ?",
-      "of": "a8a021b4",
+      "t": "Les cours Advanced de mathématiques et de sciences valent désormais +0.5, rétroactivement à partir de la promotion 2027. Comment les universités voient-elles ce changement sur un relevé de notes, et les GPA des promotions antérieures sont-ils recalculés ?",
+      "of": "9cff2b29",
       "at": [
         "charlotte-latin:verdict.checklist[1]"
       ]
@@ -2780,15 +2817,15 @@
       ]
     },
     {
-      "t": "Votre profil publié contient une note éditoriale interne qui n’a pas été supprimée. Qui relit ce document avant qu’il ne soit envoyé aux universités, et quand sera-t-il mis à jour ?",
-      "of": "e56276b2",
+      "t": "Votre page Acceptances affiche toujours les promotions 2023–25. Où la promotion 2026 s’est-elle inscrite, université par université ?",
+      "of": "33e53cb6",
       "at": [
         "charlotte-latin:verdict.checklist[4]"
       ]
     },
     {
-      "t": "Columbia, Princeton et Penn ne figurent nulle part sur la liste d’admissions 2023–25. Est-ce exact, et comment l’interprétez-vous ?",
-      "of": "a54a8269",
+      "t": "Columbia est la seule Ivy absente des deux listes d’admissions récentes. Est-ce exact, et comment l’interprétez-vous ?",
+      "of": "9491f391",
       "at": [
         "charlotte-latin:verdict.checklist[5]"
       ]
@@ -3921,6 +3958,13 @@
       "of": "258374c4",
       "at": [
         "charlotte-catholic:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "23",
+      "of": "8ef29b12",
+      "at": [
+        "charlotte-catholic:transcript.stats[1].value"
       ]
     },
     {
@@ -6743,13 +6787,6 @@
       ]
     },
     {
-      "t": "7 sur 8",
-      "of": "1f5e1f33",
-      "at": [
-        "cannon:outcomes.stats[3].value"
-      ]
-    },
-    {
       "t": "Ivy League sur la liste d’admissions 2022–26",
       "of": "21cf5466",
       "at": [
@@ -8059,13 +8096,6 @@
       ]
     },
     {
-      "t": "Promotion 2026",
-      "of": "39fd4622",
-      "at": [
-        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
-      ]
-    },
-    {
       "t": "Promotion 2024",
       "of": "37fd42fc",
       "at": [
@@ -8394,6 +8424,13 @@
       "of": "98954270",
       "at": [
         "davidson-day:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "Non publié",
+      "of": "d945d814",
+      "at": [
+        "davidson-day:transcript.stats[1].value"
       ]
     },
     {
@@ -10693,13 +10730,6 @@
       "of": "aa0a2ea0",
       "at": [
         "hickory-grove-christian:outcomes.subhead"
-      ]
-    },
-    {
-      "t": "132",
-      "of": "7b3aafdd",
-      "at": [
-        "hickory-grove-christian:outcomes.stats[0].value"
       ]
     },
     {
