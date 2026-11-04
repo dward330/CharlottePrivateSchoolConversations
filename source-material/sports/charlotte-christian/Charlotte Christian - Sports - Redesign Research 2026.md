@@ -186,3 +186,25 @@ standing the evidence does not support.
   former NBA guard is unverified.
 - No Sports Information Director identified.
 - L.J. Porter's exact 247Sports rank and committed college are unknown.
+
+## Correction, 2026-11-04: Shonn Brown is no longer Upper School Principal
+
+**Provenance:** Checked by Claude on 2026-11-04 while planning `christianfollowup`, by fetching
+the school's own pages with curl.
+
+The line above, "Stepped down April 2025 at 51; **remains Upper School Principal**", is out of
+date. Three school sources now agree:
+
+- **Leadership page** (https://www.charlottechristian.com/about/leadership, fetched 2026-11-04):
+  it lists "Mr. Shonn Brown, **Associate Head of School**" beside "Dr. Theresa Kasay, Associate
+  Head of School", and separately "Dr. Phil Masters, **Upper School Principal**".
+- **Upper School page** (https://www.charlottechristian.com/academics/upper-school, fetched
+  2026-11-04): it lists "Phil Masters, Upper School Principal, phil.masters@charchrist.com",
+  "Amanda Poole, Upper School Assistant Principal" and "Patty Little, Upper School Dean of
+  Students".
+- **2026-27 Academic & Student Profile**
+  (https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf):
+  its contact block names "DR. PHIL MASTERS, Upper School Principal".
+
+None of the three gives a date for Brown's move. The basketball facts above (486 wins, 10 CISAA
+titles, the Curry and Gill players, stepping down as coach in April 2025) are unaffected.

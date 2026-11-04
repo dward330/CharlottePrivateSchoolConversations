@@ -416,11 +416,11 @@ export const charlotteChristian: SportsProgram = {
           { value: '33', label: 'players sent to college basketball' },
         ],
         detail:
-          'The defining tenure in school athletic history — and it closed in April 2025. Brown coached Stephen Curry, Seth Curry and Anthony Gill, sending ten players to the professional ranks, while serving as Upper School Principal from 2017. He stepped down at 51 citing the strain of the dual role, and remains Principal today. Luke Boythe, a 1998 graduate and former player who twice served as Brown’s assistant, succeeded him.',
+          'The defining tenure in school athletic history — and it closed in April 2025. Brown coached Stephen Curry, Seth Curry and Anthony Gill, sending ten players to the professional ranks, while serving as Upper School Principal from 2017. He stepped down at 51 citing the strain of the dual role, and is now an Associate Head of School; Dr. Phil Masters is Upper School Principal. Luke Boythe, a 1998 graduate and former player who twice served as Brown’s assistant, succeeded him.',
       },
     ],
     tenure: [
-      { name: 'Shonn Brown', role: 'Boys Basketball — now Upper School Principal', width: 1, since: '2000–2025' },
+      { name: 'Shonn Brown', role: 'Boys Basketball — now Associate Head of School', width: 1, since: '2000–2025' },
       { name: 'Jason Estep', role: 'Football — Estep Field is named for him', width: 0.64, since: '2007–2022' },
       { name: 'Reid Fronk', role: "Baseball — won the '26 state title", width: 0.12, since: 'since 2023' },
       { name: 'Kyle Jacksic', role: 'Director of Athletic Performance', width: 0.08, since: 'since 2024' },
@@ -442,6 +442,10 @@ export const charlotteChristian: SportsProgram = {
       {
         label: 'Charlotte Weekly — Estep Field naming',
         url: 'https://www.thecharlotteweekly.com/southcltweekly/charlotte-christian-to-name-football-field-after-former-coach/article_bdab2408-a6c3-11ef-b59a-67b14218a3fb.html',
+      },
+      {
+        label: 'charlottechristian.com — Leadership (Associate Head of School, Upper School Principal)',
+        url: 'https://www.charlottechristian.com/about/leadership',
       },
     ],
   },
