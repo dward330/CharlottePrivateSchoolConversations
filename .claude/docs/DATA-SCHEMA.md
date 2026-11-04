@@ -1110,7 +1110,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 |---|---|--:|---|
 | `program-span` | Program span | 11/13 | Q |
 | `signature-recognition` | Signature recognition | 10/13 | – Q |
-| `advanced-arts-coursework` | Advanced coursework | 8/13 | Q |
+| `advanced-arts-coursework` | Advanced coursework | 9/13 | Q |
 | `ensembles` | Ensembles / offerings | 9/13 | Q |
 
 ### Sports `sports`

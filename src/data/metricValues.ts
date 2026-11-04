@@ -1187,7 +1187,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Advanced (AP/IB) arts coursework offered, where the note names it.',
     values: {
       cannon: 'AP Studio Art',
-      'charlotte-christian': null, // advanced arts coursework not detailed
+      'charlotte-christian': '2 AP + 9 Honors', // 2026–27 profile, p.3 Fine Arts: AP Art History, AP Art & Design + 9 Honors (incl. Broadcasting)
       'charlotte-catholic': '1 AP + 12 Honors', // AP Studio Art is the only AP arts course — no AP Music Theory, no AP Art History, confirmed by sweeping all 195 courses. An AP-only count would misread a 39-course department
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
       'charlotte-latin': null, // not detailed
@@ -1223,6 +1223,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': {
         kind: 'scope',
         text: 'Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Two AP arts courses, AP Art History and AP Art & Design, over nine Honors Fine Arts courses on the school’s 2026–27 profile: Acting Studio, Art III, Broadcasting, Upper School Choir, Digital Design and Animation II, Digital Music II, Jazz Band, Orchestra and Wind Ensemble.',
       },
       'hickory-grove-christian': {
         kind: 'scope',

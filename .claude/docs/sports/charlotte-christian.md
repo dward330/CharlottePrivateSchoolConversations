@@ -1,5 +1,5 @@
 # Charlotte Christian School — Sports
-> Distilled from 18 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-02.
+> Distilled from 18 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-04.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -1192,6 +1192,28 @@ standing the evidence does not support.
 - No Sports Information Director identified.
 - L.J. Porter's exact 247Sports rank and committed college are unknown.
 
+## Correction, 2026-11-04: Shonn Brown is no longer Upper School Principal
+
+**Provenance:** Checked by Claude on 2026-11-04 while planning `christianfollowup`, by fetching
+the school's own pages with curl.
+
+The line above, "Stepped down April 2025 at 51; **remains Upper School Principal**", is out of
+date. Three school sources now agree:
+
+- **Leadership page** (https://www.charlottechristian.com/about/leadership, fetched 2026-11-04):
+ it lists "Mr. Shonn Brown, **Associate Head of School**" beside "Dr. Theresa Kasay, Associate
+ Head of School", and separately "Dr. Phil Masters, **Upper School Principal**".
+- **Upper School page** (https://www.charlottechristian.com/academics/upper-school, fetched
+ 2026-11-04): it lists "Phil Masters, Upper School Principal, phil.masters@charchrist.com",
+ "Amanda Poole, Upper School Assistant Principal" and "Patty Little, Upper School Dean of
+ Students".
+- **2026-27 Academic & Student Profile**
+ (https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf):
+ its contact block names "DR. PHIL MASTERS, Upper School Principal".
+
+None of the three gives a date for Brown's move. The basketball facts above (486 wins, 10 CISAA
+titles, the Curry and Gill players, stepping down as coach in April 2025) are unaffected.
+
 
 ---
 
@@ -1664,10 +1686,12 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://resources.finalsite.net/images/f_auto,q_auto/v1612887841/charlotte/gtwua3dynq94eb9ykdix/LambJohnsonGymnasium.jpg
 - https://resources.finalsite.net/images/f_auto,q_auto/v1658171240/charlotte/ctzgfcgm2fvrx3rb0tdl/2022_weightroom.png
 - https://resources.finalsite.net/images/f_auto,q_auto/v1741884102/charlotte/ypebjsebkm70ftjhuz6x/EstepFieldfinishingtouches-1.jpg
+- https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf
 - https://sports.yahoo.com/article/25-seasons-nearly-500-wins-131731017.html
 - https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 - https://www.charlottechristian.com/about/leadership
 - https://www.charlottechristian.com/about/master-campus-plan
+- https://www.charlottechristian.com/academics/upper-school
 - https://www.charlottechristian.com/athletics/athletic-facilities
 - https://www.charlottechristian.com/athletics/athletic-performance
 - https://www.charlottechristian.com/athletics/forms
