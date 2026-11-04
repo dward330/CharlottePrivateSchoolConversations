@@ -67,7 +67,9 @@
 // so the forms are identical and both bands list the same four recommendations.
 // Exactly two things differ: the shadow day is HIGH SCHOOL ONLY ("High school
 // required only- shadow an HG student"), and the entrance test for grade
-// placement is published for 9–12 only. Both bands still ship because a parent
+// placement is published for 9–12 only. The school's 2026–27 High School Profile
+// adds the bar that test sets: applicants "must score at or above their grade
+// level and be in good standing with their current school to be admitted". Both bands still ship because a parent
 // needs to know which applies to them. ⚠️ DO NOT extend the shadow day to
 // grades 6–12 — the checklist is explicit that it is not.
 //
@@ -639,7 +641,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'after all forms arrive',
             tagKind: 'accent',
             detail:
-              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. High school applicants also sit a **mandatory entrance test used to determine grade placement** — a step the school publishes for grades 9 through 12 only. The specific instruments are not published.',
+              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. High school applicants also sit a **mandatory entrance test used to determine grade placement** — a step the school publishes for grades 9 through 12 only — and, per the school\'s 2026–27 High School Profile, they **must score at or above their grade level and be in good standing with their current school** to be admitted. The specific instruments are not published.',
           },
           {
             title: 'Attend the family interview',
@@ -659,7 +661,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Two steps that exist only here — the shadow day and a placement test.',
-          text: 'High school applicants are required to shadow a current Hickory Grove student for a day, and to sit a mandatory entrance test that determines grade placement. Neither applies to grades 6 through 8, even though the four recommendation forms and the records list are identical. Testing is arranged through Student Services only after every form has arrived. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission — the rule bites hardest here, because a high school transcript carries the longest record.',
+          text: 'High school applicants are required to shadow a current Hickory Grove student for a day, and to sit a mandatory entrance test that determines grade placement — and, per the school\'s 2026–27 High School Profile, applicants must score at or above their grade level and be in good standing with their current school to be admitted. Neither the shadow day nor the test applies to grades 6 through 8, even though the four recommendation forms and the records list are identical. Testing is arranged through Student Services only after every form has arrived. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission — the rule bites hardest here, because a high school transcript carries the longest record.',
         },
         checklistRows: [
           {
@@ -1037,6 +1039,11 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         label:
           'hgchristian.org — new middle and high school families admissions checklist, revised 11/17/25: the four recommendation forms, the transcript and standardized-score requirements, and the shadow day required of high school applicants only',
         url: 'https://www.hgchristian.org/fs/resource-manager/view/c7376a64-1d57-4a98-a5fb-6cab591a4c65',
+      },
+      {
+        label:
+          'hgchristian.org — 2026–27 High School Profile (grades 9–12 admission requirement): the entrance test is for grade placement, and applicants must score at or above grade level and be in good standing with their current school',
+        url: 'https://resources.finalsite.net/images/v1790771210/hgchristianorg/l6paia83bjrvwh9kpm20/2026-2027SchoolProfile.pdf',
       },
       {
         label:

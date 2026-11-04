@@ -26,6 +26,9 @@ const SPRING_SPORTS = 'https://www.hgchristian.org/spring-sports'
 const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
 const TRACK_25 = 'https://admin.ncisaa.org/uploads/Docs/NCISAA%20D2%20FInal%20Results.pdf'
+const TRACK_21 = 'https://admin.ncisaa.org/uploads/NCISAA%20D2%20Results.pdf'
+const PROFILE_26 =
+  'https://resources.finalsite.net/images/v1790771210/hgchristianorg/l6paia83bjrvwh9kpm20/2026-2027SchoolProfile.pdf'
 const MAXPREPS = 'https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/'
 const TRACK_2025 =
   'https://www.highschoolot.com/story/hickory-grove-christian-dominates-ncisaa-d2-boys-track-field-championship/22010600/'
@@ -41,7 +44,7 @@ export const hickoryGroveChristian: SportsProgram = {
     headline:
       'Around 30 teams across roughly 12–14 sports for grades 6–12, competing in NCISAA 3A and the Metrolina Athletic Conference as the Lions.',
     subhead:
-      'Most varsity programs carry a Middle School ladder beneath them, and several a JV squad. Levels below reflect the teams that list a head coach on the school\'s Coaches & Teams page.',
+      'Most varsity programs carry a Middle School ladder beneath them, and several a JV squad. Levels below reflect the teams that list a head coach on the school\'s Coaches & Teams page. The school\'s 2026–27 High School Profile counts 15 varsity teams; the ~30 counts every level.',
     stats: [
       { value: '~30', label: 'teams across V · JV · MS' },
       { value: '~12–14', label: 'sports (school says 12; Wikipedia 14)' },
@@ -84,6 +87,7 @@ export const hickoryGroveChristian: SportsProgram = {
       'The athletics page states "30 teams participating in 12 different sports" (Wikipedia says 14 sports / 28 teams). Tennis (boys & girls), Wrestling and Field Hockey appear in MaxPreps\' sport inventory but list no head coach on the school\'s Coaches & Teams page, so a level chip is not drawn for them. Athletic Director Jim Rhodes; Assistant AD Crystal Rhodes.',
     sources: [
       { label: 'hgchristian.org — Athletics Home (30 teams / 12 sports, NCISAA + MAC)', url: ATHLETICS },
+      { label: 'hgchristian.org — 2026–27 High School Profile (15 varsity teams)', url: PROFILE_26 },
       { label: 'hgchristian.org — Fall Sports (season/level roster)', url: FALL_SPORTS },
       { label: 'hgchristian.org — Winter Sports (season/level roster)', url: WINTER_SPORTS },
       { label: 'hgchristian.org — Spring Sports (season/level roster)', url: SPRING_SPORTS },
@@ -173,7 +177,7 @@ export const hickoryGroveChristian: SportsProgram = {
       },
       {
         program: 'Boys Track & Field',
-        text: '2025 NCISAA Division II champions with 130 points, 37 ahead of Asheville School — Anthony Hawkins swept the discus (164-8) and shot put (53-7.25), backed by three relay wins.',
+        text: '2025 NCISAA Division II champions with 130 points, 37 ahead of Asheville School — Anthony Hawkins swept the discus (164-8) and shot put (53-7.25), backed by wins in the 4x200, 4x800 and 4x400 relays. The boys also won the 400 m at the 2021 Division II meet.',
       },
     ],
     sources: [
@@ -189,6 +193,9 @@ export const hickoryGroveChristian: SportsProgram = {
       { label: 'NCISAA softball bracket, 2021–22', url: `${ARCHIVE}21&years=2021-2022` },
       { label: 'NCISAA softball bracket, 2022–23', url: `${ARCHIVE}21&years=2022-2023` },
       { label: 'NCISAA track and field results, 2024–25', url: `${ARCHIVE}22&years=2024-2025` },
+      { label: 'NCISAA Division II track results, 2025 (4x200, 4x800, 4x400 relays)', url: TRACK_25 },
+      { label: 'NCISAA track and field results, 2020–21', url: `${ARCHIVE}22&years=2020-2021` },
+      { label: 'NCISAA Division II track results, 2021 (400 m)', url: TRACK_21 },
     ],
   },
 

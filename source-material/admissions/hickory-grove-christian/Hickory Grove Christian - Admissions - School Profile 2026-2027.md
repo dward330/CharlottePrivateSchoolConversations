@@ -41,3 +41,24 @@ Korea, and Vietnam."
 
 Sheila Chaney — Director of Admissions & International Student Program —
 sheilachaney@hgchristian.org
+
+## Live-site check (`/implement hgprofile`, 2026-11-04)
+
+Before the profile's bar was written into the app, the live admissions pages were re-read in
+Chrome. `https://hgchristian.org/admissions/admissions-process` and
+`https://hgchristian.org/admissions/apply-to-hgcs` now both render the same rewritten
+Admissions Home page.
+
+- **Bar:** the page states no entrance-test requirement or grade-level bar, so it does not
+  conflict with the profile. The profile's sentence was used.
+- **Application fee: the live page now disagrees with the app.** It reads (verbatim):
+  "Application Fee The application fee is non-refundable and is not applied toward tuition.
+  STANDARD ENROLLMENT **$300** Applications submitted November 2, 2026 – May 31, 2027 LATE
+  ENROLLMENT **$550** Applications submitted June 1, 2027 or later". The app (from the
+  2026-10-04 refresh) ships $250 and $500. The windows are unchanged: November 2 for
+  "EEC students, HGBC members, and siblings of current students", November 16 for "All new
+  families". **Not changed by `hgprofile`**, which does not cover admissions fees. It is left
+  for a separate admissions refresh.
+- **Team (verbatim):** Sheila Chaney, Director of Admissions & International Student
+  Program · Shelly Rivenbark, Registrar · Amanda Wright, School Finance · Jared Daulton,
+  Communications Coordinator.

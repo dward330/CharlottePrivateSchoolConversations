@@ -1,7 +1,7 @@
 ---
 name: hgprofile
 title: Refresh Hickory Grove Christian from its 2026–27 High School Profile — merge the Class of 2026 list into the 2023 + 2025 list (158 rows), the new 65/25/10 attendance split, May 2026 AP, Class of 2026 ACT/SAT means, 2020–26 recognition and AP Scholars, 287 students, plus Sports (15 varsity teams, verified relay/event titles); Tuskegee added to the HBCU master
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-04
 branch: feat/hg-profile-2627
@@ -556,4 +556,55 @@ the content-overlay check (`check:live` gate 2) if the course-offerings ingest c
 
 ## Implementation notes
 
-_(filled in by `/implement`)_
+### Phase 1 (English), 2026-11-04
+
+- **Merge:** asserted by script (`.tmp-hg/merge.mts`, not committed): 47 exact + 3 respellings
+  + 26 new = 158 rows, no duplicates. Tally Ivy 0 · Ivy+ 0 · NU75 21 → 27 · LAC75 9 · P4 25 →
+  28 · HBCU 20 → 23, exactly the planning probe. No bucket fell.
+- **NCISAA verification (step 9b):** the 2025 4x200, 4x800 and 4x400 relays and the 2021
+  400 m are confirmed in NCISAA's own meet PDFs and are on the page. **The 2024 4x400 and
+  2023 4x100 are left off:** the 2022–23 and 2023–24 archive pages link no results (only a
+  meet program and an apparel store, nwd.ink, now 404), and no Wayback capture holds them.
+  Recorded in the sports source file.
+- **Sports `School Profile` subtopic slugified into a new card**, as the plan warned. Added a
+  `RULES` entry in `src/lib/metrics.ts` folding `/school profile/` onto `redesign-research`.
+  No other sports subtopic contains the phrase.
+- **Tuskegee rank:** left unranked as a recorded null (in `HBCU - US News National Ranks
+  2026.md`). The 2027 harvest is partial past #299, so its absence there proves nothing.
+- **Homepages:** all four confirmed by name and city in real Chrome (Playwright; Claude in
+  Chrome was not connected). Wheeling is stored as `https://wheeling.edu`, where `www`
+  redirects.
+- **AP titles, deviation:** the shipped `depth[0]` said "18 distinct titles". The real count
+  is 17 across all three editions (2025's 14 and 2026's 13 are both subsets of 2023's 17),
+  so it was already wrong. The new text drops the number in favour of "the 2023 profile named
+  17, which cover every title any edition has printed".
+- **Admissions, deviation:** the plan put the bar only in `checklistCallout`. That text
+  renders only on the printable checklist route (`/school/…/admissions-checklist/?band=hs`),
+  not on the school page, so the 9–12 band's "Sit the entrance testing" step detail
+  (the sentence that understated the bar) got the same clause. The callout's next sentence
+  became "Neither the shadow day nor the test applies…", because "Neither" was ambiguous
+  after the inserted clause.
+- **Admissions live-site check:** the two admissions URLs now serve a rewritten Admissions Home
+  page. It states no bar, so there was no conflict. **It does print a $300 / $550 application
+  fee where the app ships $250 / $500.** That is out of scope here; it is recorded in the
+  admissions source file and left for a separate refresh.
+- **Small extra edits, in place:** verdict subhead "two-year" → "three-class" acceptance
+  record; counseling `mechanicsNote` "either profile" → "any of the profiles"; the counseling
+  and wholeClass sources keep `PROFILE_25` lines for the figures still resting on it (the
+  ≈34:1 counts, the mid-year SAT median, the earlier AP Scholar counts).
+- **Final-sweep keeps:** `PROFILE_25` (the constant and its three citations), "2025–26" in the
+  AP Scholar `verify` flag and the SAT note, "2019–2023" as the comparison window,
+  "n=20" / "1090" in the SAT note, "22%" for the Class of 2025, and "means/medians" in the
+  header and the gap flag (the Class of 2024 SAT is still a median).
+- **Schema check (step 10):** `DATA-SCHEMA.md` had no rule for a window with a missing year.
+  The generator gained a paragraph on the `2023 + 2025–2026` form and the regex fix.
+- **Verification:** `tsc -b` clean; ranks, collegeurls, buckets, memberships, quals and cup
+  clean. The regex negative test printed STALE WINDOW LABEL for HG only, and
+  `metricValues.ts` was restored byte-identical. `npm run build` stops at `check:live`
+  (60 stale stamps per locale in college-support / admissions / sports / metric-values,
+  which is the expected Phase 2 work). Every check after it in the chain passes when run by
+  hand. `check:metrics` exits 1 on `main` too: the Charlotte Christian podcast subtopic and
+  the not-ingested branding files predate this plan. Browser (real Chrome, every
+  `<details>` open, every source toggle open): 158 rows, both Xaviers, Tuskegee present
+  (its HBCU tag is counted in 23 / 107), all tiles, Compare shows `(2023 + 2025–2026)` ×6,
+  the record headline still says twelve, and every profile source links to its own edition.
