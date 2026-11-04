@@ -1,11 +1,11 @@
 ---
 name: christianprofile
 title: Refresh Charlotte Christian from its 2026–27 Academic & Student Profile — new 2024–26 acceptance list (bold = Class of 2026 enrolled, rescored buckets), Class of 2026 test/GPA bands and quintiles, 2026 AP dashboard, matriculation split, conservatory/biliteracy shares, dual enrollment and disciplinary policy now published; re-label every profile citation
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-03
 branch: feat/christian-profile-2627
-prs: []
+prs: [418]
 ---
 
 # Refresh Charlotte Christian from its 2026–27 Academic & Student Profile
@@ -513,3 +513,12 @@ or a Compare row **would** need approval, which is why the plan puts it in prose
   `Florida Agricultural and Mechanical University` row had the same miss). **Phase 2 must
   therefore also re-translate Charlotte Latin's HBCU qual sentence in the metric-values overlay**,
   which is outside Charlotte Christian's pages.
+- **Phase 2 (2026-11-04).** The three overlays were re-extracted to a throwaway `--lang xx`.
+  Each locale's existing `t` was carried over by English text, and only the 77 changed strings
+  were translated: 67 prose, plus 10 figure-only values copied as-is. Quote handling follows
+  each locale's existing entries: es, fr, it, hi and te keep the school's English quotes, while
+  bn, ht, fa and ar translate them. Telugu keeps "Finalists · Commended Scholars" in English,
+  as its shipped entry for the previous figures does; `i18n:leaks` flags it, and it was left
+  on purpose. `check_work_integrity.mjs` reports structural "violations" that a re-extract
+  always produces (string counts, entries whose English changed). Its foreign-script check
+  passes.
