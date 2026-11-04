@@ -1,4 +1,4 @@
-var e=`charlotte-christian`,t=`sports`,n=42,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
+var e=`charlotte-christian`,t=`sports`,n=43,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -963,7 +963,24 @@ standing the evidence does not support.`},{subtopic:`GAPS / UNCONFIRMED`,source_
 - Matt Carroll is listed as a boys basketball assistant on MaxPreps; whether this is the
  former NBA guard is unverified.
 - No Sports Information Director identified.
-- L.J. Porter's exact 247Sports rank and committed college are unknown.
+- L.J. Porter's exact 247Sports rank and committed college are unknown.`},{subtopic:`Correction, 2026-11-04: Shonn Brown is no longer Upper School Principal`,source_file:null,preview:`the school's own pages with curl. The line above, "Stepped down April 2025 at 51; remains Upper School Principal", is out of date. Three school sources now agree: - Leadership page (https://www.charlottechristian.com/about/leadership, fetched 2026-11-04): it lists "Mr. Shonn Brown, Associate Head of School" beside…`,text:`the school's own pages with curl.
+
+The line above, "Stepped down April 2025 at 51; **remains Upper School Principal**", is out of
+date. Three school sources now agree:
+
+- **Leadership page** (https://www.charlottechristian.com/about/leadership, fetched 2026-11-04):
+ it lists "Mr. Shonn Brown, **Associate Head of School**" beside "Dr. Theresa Kasay, Associate
+ Head of School", and separately "Dr. Phil Masters, **Upper School Principal**".
+- **Upper School page** (https://www.charlottechristian.com/academics/upper-school, fetched
+ 2026-11-04): it lists "Phil Masters, Upper School Principal, phil.masters@charchrist.com",
+ "Amanda Poole, Upper School Assistant Principal" and "Patty Little, Upper School Dean of
+ Students".
+- **2026-27 Academic & Student Profile**
+ (https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf):
+ its contact block names "DR. PHIL MASTERS, Upper School Principal".
+
+None of the three gives a date for Brown's move. The basketball facts above (486 wins, 10 CISAA
+titles, the Curry and Gill players, stepping down as coach in April 2025) are unaffected.
 
 ---`},{subtopic:`Sports Medicine and Performance`,source_file:`Charlotte Christian - Sports - Sports Medicine and Performance.pdf`,preview:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Sports Medicine, Athletic Training & Strength/Conditioning Research Area — On-site care and year-round performance Credentialed athletic trainers (Dr. Kaitlynn Seymour, Madison Sitton) and a four-time NSCA Strength of America performance…`,text:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Sports Medicine, Athletic Training &
@@ -1270,4 +1287,4 @@ https://www.charlottechristian.com/athletics/knights-accolades
 https://www.si.com/high-school/north-carolina/charlotte-christian-school-sets-2025-football-schedule-01jtghjdregp
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:42,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:43,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
