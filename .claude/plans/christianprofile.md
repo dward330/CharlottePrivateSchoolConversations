@@ -506,3 +506,10 @@ or a Compare row **would** need approval, which is why the plan puts it in prose
   Universal Technical Institute were restored to the URL master and its companion. The full
   record, including the spelling pairs and the 38 brochure-only names, is in the School
   Profile 2026-2027 source file. Phase 2 translates the English as merged.
+- **FAMU counted as an HBCU (user correction, 2026-11-04).** `isHbcu()` missed the spelling
+  `Florida Agricultural & Mechanical University` because the alias key lacked the `univ` that
+  `normName` appends. One alias line in `src/data/collegeMemberships.ts` fixes it everywhere:
+  Charlotte Christian's HBCU count moves 10 → **11**, and Charlotte Latin's 7 → **8** (its
+  `Florida Agricultural and Mechanical University` row had the same miss). **Phase 2 must
+  therefore also re-translate Charlotte Latin's HBCU qual sentence in the metric-values overlay**,
+  which is outside Charlotte Christian's pages.

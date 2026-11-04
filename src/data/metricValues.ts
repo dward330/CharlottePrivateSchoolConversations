@@ -819,10 +819,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: ACCEPTANCE_WINDOWS,
     values: {
       cannon: '11 / 107', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '10 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-christian': '11 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '2 / 107', // Hampton University, Benedict College
       'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '7 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'charlotte-latin': '8 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
       'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
@@ -841,9 +841,9 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
       },
       cannon: { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '7 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '8 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },

@@ -479,7 +479,7 @@ app's window is now **2023–2026**.
   of 2025 graduate enrolled (brochure bold, 48). 77 distinct colleges.
 - Buckets on the merged list (2027 U.S. News tables): Ivy League 4/8 (Columbia, Cornell,
   Dartmouth, Harvard), Ivy Plus 7/17, Top-75 National 49/75, Top-75 Liberal Arts 20/75,
-  Power Four 54/68, HBCUs 10/107.
+  Power Four 54/68, HBCUs 11/107 (FAMU included; see below).
 
 **Same institution, two spellings (brochure → profile; the profile's spelling is kept):**
 Arizona State University-Tempe → Arizona State University · University of Colorado-Boulder →
@@ -514,6 +514,7 @@ Design, University of Rochester, Shenandoah University, University of South Flor
 Institute of Technology, Universal Technical Institute, West Virginia University, Worcester
 Polytechnic Institute.
 
-**Known gap, not fixed here:** `isHbcu()` does not recognise the brochure's spelling `Florida
-Agricultural & Mechanical University`, so FAMU is not counted in the HBCU bucket (10/107). The
-same spelling is untagged on Charlotte Latin's list, so it predates this change.
+**FAMU fixed (2026-11-04):** `isHbcu()` did not recognise the brochure's spelling `Florida
+Agricultural & Mechanical University` (the alias key lacked the trailing `univ` that `normName`
+produces). An alias was added in `src/data/collegeMemberships.ts`, which also fixed Charlotte
+Latin's `Florida Agricultural and Mechanical University` row: Latin's HBCU count moved 7 → 8.

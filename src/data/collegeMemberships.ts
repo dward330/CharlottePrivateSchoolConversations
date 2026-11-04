@@ -220,6 +220,7 @@ const ALIAS: Record<string, string> = {
   'north carolina a & t state univ': 'North Carolina A&T State University',
   'nc a&t state univ': 'North Carolina A&T State University',
   'florida agricultural & mechanical': 'Florida A&M University',
+  'florida agricultural & mechanical univ': 'Florida A&M University',
   'deleware state univ': 'Delaware State University',
   'clafin univ': 'Claflin University',
   'johnson c smith univ': 'Johnson C. Smith University',
