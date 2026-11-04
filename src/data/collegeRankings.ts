@@ -20,6 +20,7 @@
 /** Canonical institution name -> exact rank label string. */
 export const COLLEGE_RANKINGS: Record<string, string> = {
   "Abilene Christian University": "National Rank #308",
+  "Adelphi University": "National Rank #191",
   "Agnes Scott College": "Liberal Rank #62",
   "Allegheny College": "Liberal Rank #85",
   "American University": "National Rank #95",
@@ -523,6 +524,10 @@ export const RANK_ALIAS: Record<string, string> = {
   'pace univ new york city': 'Pace University',
   'saint marys coll': "Saint Mary's College (Indiana)",
   'arizona state univ downtown phoenix': 'Arizona State University',
+  // Davidson Day's 2026–27 profile: Virginia Wesleyan under its 2026-07-01 name, and
+  // the Manoa flagship with its campus in parentheses.
+  'batten univ': 'Virginia Wesleyan University',
+  'univ of hawaii manoa': 'University of Hawaii at Manoa',
 }
 for (const [variant, canon] of Object.entries(RANK_ALIAS)) {
   const label = BY_NORM.get(normName(canon))
