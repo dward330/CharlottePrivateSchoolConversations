@@ -1,214 +1,287 @@
 // Charlotte Christian School — the six College Support cards.
 //
 // Every figure is transcribed from the school's OWN published materials —
-// chiefly the 2024–25 and 2021–22 School Profile PDFs, the College & Career
-// Planning brochure, the College Planning Checklist, and Celebrating Seniors
-// 2025. See source-material/college-support/charlotte-christian/Charlotte
-// Christian - College Support - Redesign Research 2026.md for the hard data,
-// source URLs, and gap notes.
+// chiefly the 2026–27 Academic & Student Profile (served at the old
+// `2024_USprofile_admiss.pdf` URL, which the school overwrote in place), with
+// the 2024–25 and 2021–22 editions, the College & Career Planning brochure,
+// the College Planning Checklist and Celebrating Seniors 2025 for dated facts.
+// See source-material/college-support/charlotte-christian/Charlotte Christian -
+// College Support - School Profile 2026-2027.md for the current hard data, and
+// … - Redesign Research 2026.md for the earlier editions and gap notes.
 //
 // Two things shape what renders here:
 //
-//  1. Charlotte Christian publishes the fullest AP dashboard in this set —
-//     exams, students, pass counts AND AP Scholar breakdowns, two years deep —
-//     alongside a mandatory-exam policy, so its 89% rests on a non-self-selected
-//     pool. It also publishes a full five-quintile GPA table.
+//  1. AP exams are mandatory, and the profile publishes the exam count, the
+//     student count and the AP Scholar count beside the 3+ rate, so its 94%
+//     rests on a non-self-selected pool. It also publishes a full five-quintile
+//     GPA table and, new in 2026–27, a GPA middle 50%.
 //  2. Its learning-difference support is the weakest-documented area of the
 //     entire research set: no named specialist, no named programme, and no
 //     published accommodations policy. That is rendered as a gap rather than
 //     filled in with the general school-counseling function, which is a
 //     different thing and is described as such.
-//
-// The Class of 2026 figures are absent rather than estimated: Celebrating
-// Seniors 2026 is live but exceeded the researcher's fetch limit.
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
-/* The Classes of 2023–2025 acceptance list: 186 institutions. `enrolling`
-   follows the brochure's own key — an asterisk marks a college where at least
-   one Class of 2025 graduate enrolled. Rank labels and buckets are scored
-   against the 2027 U.S. News tables. */
+/* Two published acceptance lists, merged: the Classes of 2024–2026 list from
+   the 2026–27 profile (213 printed rows, 211 institutions) and the Classes of
+   2023–2025 list from the College & Career Planning brochure (186
+   institutions). 148 institutions are on both, 63 only on the profile's list
+   and 38 only on the brochure's, so 249 in all. Where both lists name a
+   college, the profile's spelling is kept (`University of Michigan`, not the
+   brochure's `University of Michigan-Ann Arbor`). `enrolling` marks a college
+   where a Class of 2026 graduate enrolled (the profile's asterisk, 50) or a
+   Class of 2025 graduate enrolled (the brochure's bold, 48): 77 distinct.
+   Names are transcribed as printed. Two printed duplicates in the profile are
+   collapsed: `Emory University` (twice, neither asterisked) and `University of
+   South Carolina` (twice, one asterisked — kept once, enrolling). The
+   brochure's three named UC campuses stay beside the profile's unnamed
+   `University of California`, which may duplicate one of them. Rank labels
+   and buckets are scored against the 2027 U.S. News tables. */
 const colleges = [
   { name: 'Abilene Christian University', cats: [], enrolling: true },
-  { name: 'The University of Alabama-Birmingham', cats: [] },
   { name: 'Alabama A&M University', cats: ['hbcu'], enrolling: true },
   { name: 'American University', cats: [] },
   { name: 'Anderson University', cats: [] },
   { name: 'Appalachian State University', cats: [], enrolling: true },
-  { name: 'University of Arizona', cats: ['p4'] },
-  { name: 'Arizona State University-Tempe', cats: ['p4'] },
-  { name: 'University of Arkansas', cats: ['p4'] },
+  { name: 'Arizona State University', cats: ['p4'], enrolling: true },
   { name: 'Auburn University', cats: ['p4'], enrolling: true },
   { name: 'Averett University', cats: [] },
+  { name: 'Ball State University', cats: [] },
+  { name: 'Barton College', cats: [], enrolling: true },
   { name: 'Baylor University', cats: ['p4'], enrolling: true },
   { name: 'Belhaven University', cats: [] },
-  { name: 'Belmont Abbey College', cats: [] },
+  { name: 'Belmont Abbey College', cats: [], enrolling: true },
   { name: 'Belmont University', cats: [], enrolling: true },
+  { name: 'Berry College', cats: [], enrolling: true },
   { name: 'Biola University', cats: [] },
+  { name: 'Boise State University', cats: [] },
   { name: 'Boston College', cats: ['nu75', 'p4'] },
   { name: 'Boston University', cats: ['nu75'] },
+  { name: 'Bowling Green State University', cats: [] },
   { name: 'Brevard College', cats: [] },
   { name: 'Bridgewater College', cats: [] },
   { name: 'Butler University', cats: [] },
-  { name: 'University of California-Irvine', cats: ['nu75'] },
-  { name: 'University of California-San Diego', cats: ['nu75'] },
-  { name: 'University of California-Santa Cruz', cats: [] },
+  { name: 'California Lutheran University', cats: [] },
   { name: 'Campbell University', cats: [] },
+  { name: 'Catawba College', cats: [] },
   { name: 'Cedarville University', cats: [], enrolling: true },
-  { name: 'University of Central Florida', cats: ['p4'] },
   { name: 'Central Piedmont Community College', cats: [], enrolling: true },
+  { name: 'Centre College', cats: ['lac75'] },
   { name: 'Chapman University', cats: [] },
   { name: 'Charleston Southern University', cats: [], enrolling: true },
   { name: 'Christopher Newport University', cats: [], enrolling: true },
-  { name: 'University of Cincinnati', cats: ['p4'] },
+  { name: 'Clarke University', cats: [] },
   { name: 'Clemson University', cats: ['p4'], enrolling: true },
   { name: 'Coastal Carolina University', cats: [], enrolling: true },
   { name: 'Colby College', cats: ['lac75'] },
+  { name: 'Colgate University', cats: ['lac75'], enrolling: true },
   { name: 'College of Charleston', cats: [], enrolling: true },
   { name: 'College of the Ozarks', cats: [] },
-  { name: 'College of William and Mary', cats: ['nu75'] },
-  { name: 'University of Colorado-Boulder', cats: ['p4'] },
-  { name: 'University of Connecticut', cats: ['nu75'] },
+  { name: 'Colorado State University', cats: [] },
+  { name: 'Columbia College Chicago', cats: [] },
+  { name: 'Columbia University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
+  { name: 'Connecticut College', cats: ['lac75'] },
   { name: 'Cornell University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Dark Horse Institute', cats: [] },
   { name: 'Dartmouth College', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
   { name: 'Davidson College', cats: ['lac75'], enrolling: true },
-  { name: 'University of Delaware', cats: [] },
+  { name: 'Denison University', cats: ['lac75'] },
   { name: 'DePaul University', cats: [] },
+  { name: 'Dickinson College', cats: ['lac75'] },
   { name: 'Drexel University', cats: [] },
+  { name: 'Duke Kunshan University', cats: [] },
   { name: 'Duke University', cats: ['ivyplus', 'nu75', 'p4'] },
+  { name: 'Duquesne University', cats: [], enrolling: true },
   { name: 'East Carolina University', cats: [], enrolling: true },
-  { name: 'University of Edinburgh', cats: [] },
+  { name: 'Eastern Illinois University', cats: [], enrolling: true },
   { name: 'Elon University', cats: [], enrolling: true },
-  { name: 'Embry-Riddle Aeronautical University-Daytona Beach', cats: [] },
-  { name: 'Emerson College', cats: [] },
+  { name: 'Embry-Riddle Aeronautical University', cats: [] },
+  { name: 'Emerson College', cats: [], enrolling: true },
   { name: 'Emory & Henry College', cats: [] },
   { name: 'Emory University', cats: ['nu75'] },
   { name: 'Fairfield University', cats: [], enrolling: true },
-  { name: 'University of Florida', cats: ['nu75', 'p4'] },
-  { name: 'Florida Agricultural & Mechanical University', cats: [] },
+  { name: 'Florida Agricultural & Mechanical University', cats: ['hbcu'] },
+  { name: 'Florida Atlantic University', cats: [] },
   { name: 'Florida Gulf Coast University', cats: [] },
+  { name: 'Florida Institute of Technology', cats: [] },
   { name: 'Florida International University', cats: [] },
   { name: 'Florida Southern College', cats: [] },
   { name: 'Florida State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Fordham University', cats: [], enrolling: true },
-  { name: 'Furman University', cats: ['lac75'] },
-  { name: 'Gardner-Webb University', cats: [] },
-  { name: 'Georgetown University', cats: ['ivyplus', 'nu75'] },
+  { name: 'Furman University', cats: ['lac75'], enrolling: true },
+  { name: 'Gardner-Webb University', cats: [], enrolling: true },
   { name: 'George Washington University', cats: ['nu75'] },
-  { name: 'University of Georgia', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Georgetown University', cats: ['ivyplus', 'nu75'] },
   { name: 'Georgia Southern University', cats: [], enrolling: true },
-  { name: 'Gordon College', cats: [] },
+  { name: 'Gettysburg College', cats: ['lac75'] },
+  { name: 'Gordon College', cats: [], enrolling: true },
   { name: 'Grove City College', cats: [], enrolling: true },
   { name: 'Guilford College', cats: [] },
-  { name: 'Hampden-Sydney College', cats: [] },
+  { name: 'Hampden-Sydney College', cats: [], enrolling: true },
   { name: 'Hampton University', cats: ['hbcu'] },
   { name: 'Harding University', cats: [] },
+  { name: 'Harvard University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'High Point University', cats: [], enrolling: true },
   { name: 'Hillsdale College', cats: ['lac75'] },
+  { name: 'Hiram College', cats: [] },
   { name: 'Hollins University', cats: [] },
-  { name: 'Howard University', cats: ['hbcu', 'nu75'] },
-  { name: 'University of Illinois at Urbana-Champaign', cats: ['nu75', 'p4'] },
-  { name: 'Indiana University-Bloomington', cats: ['nu75', 'p4'] },
-  { name: 'University of Iowa', cats: ['p4'] },
+  { name: 'Howard University', cats: ['nu75', 'hbcu'] },
+  { name: 'Indiana University', cats: ['nu75', 'p4'] },
   { name: 'James Madison University', cats: [], enrolling: true },
   { name: 'Johnson C. Smith University', cats: ['hbcu'], enrolling: true },
+  { name: 'Keene State College', cats: [] },
+  { name: 'Kennesaw State University', cats: [] },
   { name: 'Kent State University', cats: [] },
-  { name: 'University of Kentucky', cats: ['p4'], enrolling: true },
-  { name: 'Loyola Marymount University', cats: [] },
+  { name: 'Kenyon College', cats: ['lac75'] },
+  { name: 'Lee University', cats: [] },
   { name: 'Lenoir-Rhyne University', cats: [] },
   { name: 'LeTourneau University', cats: [] },
   { name: 'Liberty University', cats: [], enrolling: true },
   { name: 'Limestone University', cats: [] },
-  { name: 'Lipscomb University', cats: [] },
+  { name: 'Lipscomb University', cats: [], enrolling: true },
+  { name: 'Longwood University', cats: [] },
   { name: 'Louisiana State University', cats: ['p4'] },
+  { name: 'Loyola Marymount University', cats: [] },
+  { name: 'Loyola University New Orleans', cats: [] },
   { name: 'Lynn University', cats: [] },
   { name: 'Marshall University', cats: [], enrolling: true },
-  { name: 'University of Maryland-College Park', cats: ['nu75', 'p4'] },
+  { name: 'Marymount Manhattan College', cats: [] },
   { name: 'Marymount University', cats: [] },
-  { name: 'University of Mary Washington', cats: [] },
-  { name: 'University of Massachusetts-Boston', cats: [] },
   { name: 'Mercer University', cats: [] },
+  { name: 'Merrimack College', cats: [] },
   { name: 'Messiah University', cats: [] },
   { name: 'Methodist University', cats: [] },
-  { name: 'University of Miami', cats: ['nu75', 'p4'] },
-  { name: 'Miami University-Oxford', cats: [] },
+  { name: 'Miami University', cats: [] },
   { name: 'Michigan State University', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'University of Michigan-Ann Arbor', cats: ['nu75', 'p4'] },
-  { name: 'University of Mississippi', cats: ['p4'], enrolling: true },
-  { name: 'University of Montana', cats: [] },
   { name: 'Montreat College', cats: [] },
   { name: 'Morehouse College', cats: ['hbcu'] },
   { name: 'New College of Florida', cats: [] },
-  { name: 'University of New Hampshire', cats: [], enrolling: true },
+  { name: 'New York Institute of Technology', cats: [] },
   { name: 'New York University', cats: ['nu75'], enrolling: true },
-  { name: 'University of North Carolina at Asheville', cats: [] },
-  { name: 'University of North Carolina at Charlotte', cats: [], enrolling: true },
-  { name: 'University of North Carolina at Greensboro', cats: [], enrolling: true },
-  { name: 'University of North Carolina at Pembroke', cats: [] },
-  { name: 'University of North Carolina at Wilmington', cats: [], enrolling: true },
   { name: 'North Carolina A&T State University', cats: ['hbcu'], enrolling: true },
   { name: 'North Carolina Central University', cats: ['hbcu'] },
   { name: 'North Carolina State University', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'Northeastern University', cats: ['nu75'] },
   { name: 'North Greenville University', cats: [] },
-  { name: 'University of Northern Colorado', cats: [] },
-  { name: 'University of Notre Dame', cats: ['nu75', 'p4'] },
+  { name: 'Northeastern University', cats: ['nu75'], enrolling: true },
+  { name: 'Northern Arizona University', cats: [] },
+  { name: 'Northwestern University', cats: ['ivyplus', 'nu75', 'p4'] },
   { name: 'Nova Southeastern University', cats: [] },
-  { name: 'The Ohio State University', cats: ['nu75', 'p4'] },
   { name: 'Ohio University', cats: [] },
-  { name: 'University of Oklahoma', cats: ['p4'] },
   { name: 'Oklahoma State University', cats: ['p4'] },
   { name: 'Old Dominion University', cats: [] },
   { name: 'Pace University', cats: [] },
   { name: 'Palm Beach Atlantic University', cats: [] },
   { name: 'Palm Beach State College', cats: [] },
-  { name: 'Pennsylvania State University', cats: ['nu75', 'p4'] },
   { name: 'Penn State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Pepperdine University', cats: [] },
-  { name: 'University of Pittsburgh-Pittsburgh', cats: ['nu75'] },
   { name: 'Presbyterian College', cats: [] },
-  { name: 'Purdue University-Main Campus', cats: ['nu75', 'p4'] },
+  { name: 'Purdue University', cats: ['nu75', 'p4'] },
   { name: 'Queens University of Charlotte', cats: [], enrolling: true },
+  { name: 'Randolph-Macon College', cats: [] },
   { name: 'Rensselaer Polytechnic Institute', cats: ['nu75'] },
   { name: 'Rhodes College', cats: ['lac75'] },
-  { name: 'University of Richmond', cats: ['lac75'] },
   { name: 'Ringling College of Art & Design', cats: [] },
   { name: 'Roanoke College', cats: [] },
-  { name: 'University of Rochester', cats: ['nu75'] },
-  { name: 'Rochester Institute of Technology', cats: [] },
+  { name: 'Robert Morris University', cats: [] },
+  { name: 'Rochester Institute of Technology', cats: [], enrolling: true },
   { name: 'Rollins College', cats: [] },
-  { name: 'Rutgers University-New Brunswick', cats: ['nu75', 'p4'] },
+  { name: 'Rutgers University', cats: ['nu75', 'p4'] },
   { name: 'Samford University', cats: [], enrolling: true },
   { name: 'San Diego State University', cats: [] },
-  { name: 'Savannah College of Art & Design', cats: [] },
+  { name: 'Savannah College of Art and Design', cats: [] },
   { name: 'Seton Hall University', cats: [] },
   { name: 'Shenandoah University', cats: [] },
-  { name: 'The University of the South', cats: ['lac75'] },
-  { name: 'University of South Carolina-Columbia', cats: [] },
-  { name: 'University of Southern California', cats: ['nu75', 'p4'] },
-  { name: 'University of Southern Mississippi', cats: [] },
-  { name: 'University of South Florida', cats: [] },
   { name: 'Southern Methodist University', cats: ['p4'], enrolling: true },
+  { name: 'Spartanburg Methodist College', cats: [] },
   { name: 'Spelman College', cats: ['lac75', 'hbcu'] },
+  { name: 'St. John Fisher University', cats: [] },
+  { name: 'St. John’s University', cats: [] },
   { name: 'Stetson University', cats: [] },
   { name: 'Stevens Institute of Technology', cats: ['nu75'] },
-  { name: 'St. John\'s University-New York', cats: [] },
   { name: 'Suffolk University', cats: [] },
-  { name: 'The University of Tampa', cats: [] },
+  { name: 'Syracuse University', cats: ['nu75', 'p4'] },
+  { name: 'Taylor University', cats: [] },
   { name: 'Temple University', cats: [] },
-  { name: 'The University of Tennessee-Knoxville', cats: ['p4'], enrolling: true },
   { name: 'Texas A&M University', cats: ['nu75', 'p4'] },
   { name: 'Texas Christian University', cats: ['p4'], enrolling: true },
+  { name: 'Texas Tech University', cats: ['p4'] },
+  { name: 'The Ohio State University', cats: ['nu75', 'p4'] },
+  { name: 'The University of Alabama-Birmingham', cats: [] },
+  { name: 'The University of Edinburgh', cats: [] },
   { name: 'Trinity University', cats: ['lac75'] },
+  { name: 'Tulane University', cats: ['nu75'] },
+  { name: 'United States Air Force Academy', cats: ['lac75'], enrolling: true },
+  { name: 'United States Military Academy', cats: ['lac75'], enrolling: true },
   { name: 'Universal Technical Institute', cats: [] },
+  { name: 'University of Alabama', cats: ['p4'], enrolling: true },
+  { name: 'University of Arizona', cats: ['p4'] },
+  { name: 'University of Arkansas', cats: ['p4'] },
+  { name: 'University of California', cats: [] },
+  { name: 'University of California-Irvine', cats: ['nu75'] },
+  { name: 'University of California-San Diego', cats: ['nu75'] },
+  { name: 'University of California-Santa Cruz', cats: [] },
+  { name: 'University of Central Florida', cats: ['p4'] },
+  { name: 'University of Cincinnati', cats: ['p4'] },
+  { name: 'University of Colorado', cats: ['p4'] },
+  { name: 'University of Connecticut', cats: ['nu75'] },
+  { name: 'University of Delaware', cats: [] },
+  { name: 'University of Florida', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Georgia', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Glasgow', cats: [] },
+  { name: 'University of Hawaii', cats: [] },
+  { name: 'University of Houston', cats: ['p4'] },
+  { name: 'University of Illinois at Urbana-Champaign', cats: ['nu75', 'p4'] },
+  { name: 'University of Iowa', cats: ['p4'] },
+  { name: 'University of Kentucky', cats: ['p4'], enrolling: true },
+  { name: 'University of Maine', cats: [] },
+  { name: 'University of Mary Washington', cats: [] },
+  { name: 'University of Maryland', cats: ['nu75', 'p4'] },
+  { name: 'University of Massachusetts-Boston', cats: [] },
+  { name: 'University of Miami', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Michigan', cats: ['nu75', 'p4'] },
+  { name: 'University of Minnesota', cats: ['nu75', 'p4'] },
+  { name: 'University of Mississippi', cats: ['p4'], enrolling: true },
+  { name: 'University of Missouri', cats: ['p4'] },
+  { name: 'University of Montana', cats: [] },
+  { name: 'University of Nebraska', cats: ['p4'], enrolling: true },
+  { name: 'University of Nevada', cats: [] },
+  { name: 'University of New England', cats: [] },
+  { name: 'University of New Hampshire', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Asheville', cats: [] },
+  { name: 'University of North Carolina at Chapel Hill', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of North Carolina at Charlotte', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Greensboro', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Pembroke', cats: [] },
+  { name: 'University of North Carolina at Wilmington', cats: [], enrolling: true },
+  { name: 'University of Northern Colorado', cats: [] },
+  { name: 'University of Notre Dame', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Oklahoma', cats: ['p4'], enrolling: true },
+  { name: 'University of Pittsburgh', cats: ['nu75', 'p4'] },
+  { name: 'University of Rhode Island', cats: [], enrolling: true },
+  { name: 'University of Richmond', cats: ['lac75'] },
+  { name: 'University of Rochester', cats: ['nu75'] },
+  { name: 'University of South Carolina', cats: ['p4'], enrolling: true },
+  { name: 'University of South Florida', cats: [] },
+  { name: 'University of Southern California', cats: ['nu75', 'p4'] },
+  { name: 'University of Southern Mississippi', cats: [] },
+  { name: 'University of Tampa', cats: [] },
+  { name: 'University of Tennessee', cats: ['p4'], enrolling: true },
+  { name: 'University of Texas', cats: ['nu75'], enrolling: true },
+  { name: 'University of the South', cats: ['lac75'], enrolling: true },
+  { name: 'University of Utah', cats: ['p4'] },
+  { name: 'University of Vermont', cats: [] },
   { name: 'University of Virginia', cats: ['nu75', 'p4'] },
+  { name: 'University of Washington', cats: ['nu75', 'p4'] },
   { name: 'Virginia Commonwealth University', cats: [] },
-  { name: 'Virginia Polytechnic Institute and State University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Virginia Tech', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Wake Forest University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Washington and Lee University', cats: ['lac75'] },
   { name: 'West Virginia University', cats: ['p4'] },
   { name: 'Western Carolina University', cats: [] },
+  { name: 'Westmont College', cats: [] },
   { name: 'Wheaton College', cats: [], enrolling: true },
+  { name: 'William & Mary', cats: ['nu75'] },
   { name: 'Wingate University', cats: [], enrolling: true },
   { name: 'Winston-Salem State University', cats: ['hbcu'] },
   { name: 'Winthrop University', cats: [] },
@@ -217,9 +290,11 @@ const colleges = [
   { name: 'Xavier University of Louisiana', cats: ['hbcu'] },
 ]
 
-const PROFILE_2425 = 'https://www.charlottechristian.com/academics/college-counseling'
+const PROFILE_2627 = 'https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf'
 const COUNSELING = 'https://www.charlottechristian.com/academics/college-counseling'
 const CCS = 'https://www.charlottechristian.com'
+const CHECKLIST = 'https://www.charlottechristian.com/fs/resource-manager/view/7cd4f071-d452-48a0-a804-bbdf185c0e7b'
+const CURRICULUM_GUIDE = 'https://www.charlottechristian.com/fs/resource-manager/view/e07cd151-2d20-44e0-a7db-f0b6d50ba314'
 
 export const charlotteChristian: CollegeSupportProgram = {
   /* The area's SECOND card, after Where Graduates Go. Unlike every other card here, these figures are
@@ -342,23 +417,24 @@ export const charlotteChristian: CollegeSupportProgram = {
   },
   transcript: {
     headline:
-      'Students in AP classes are required to sit the exam, and 89% of 2024’s exams scored 3 or higher — a rate earned on a mandated rather than self-selected pool.',
+      'Students in AP classes are required to sit the exam, and 94% of 2026’s 435 exams scored 3 or higher — a rate earned on a mandated rather than self-selected pool.',
     subhead:
-      'Charlotte Christian publishes the fullest AP dashboard in this set: exams, students, pass counts and a full AP Scholar breakdown, two years deep. Four credits of Biblical Studies are the transcript’s defining signature.',
+      'Because the exams are mandatory, the profile’s published exam, student and AP Scholar counts describe the whole AP cohort rather than its most confident testers. Four credits of Biblical Studies are the transcript’s defining signature.',
     stats: [
-      { value: '298', label: 'AP exams taken in 2024 (151 students)' },
-      { value: '89%', label: 'of exams scored 3+ — up from 78% in 2021' },
-      { value: '59', label: 'AP Scholar awards in 2024 · 203 across 2023–25' },
+      { value: '435', label: 'AP exams taken in 2026 (208 students)' },
+      { value: '94%', label: 'of exams scored 3+ in 2026' },
+      { value: '90', label: 'AP Scholars in 2026' },
       { value: 'No rank', label: 'a published five-quintile GPA table stands in' },
     ],
     merit: [
+      { year: '15-yr (2026–27 profile)', detail: '**12** Finalists · **46** Commended Scholars' },
       { year: '15-yr (2024–25 profile)', detail: '**14** Finalists · **48** Commended Scholars' },
       { year: '15-yr (2021–22 profile)', detail: '**16** Finalists · **45** Commended Scholars' },
       { year: '2025', detail: '**1** Commended Scholar (Jack Krause) — press separately names a Semifinalist the school does not list', unconfirmed: true },
       { year: '2025', detail: '**4** College Board National Recognition awards — 1 African American, 3 Hispanic (Class of 2024: 5)' },
     ],
     meritNote:
-      'Both National Merit figures are rolling 15-year windows, which is why the Finalist count can fall from 16 to 14 while Commended rises from 45 to 48 — strong older years drop out of the window. That is arithmetically possible rather than an error, but the school does not explain it, and no per-class-year ledger is published in any edition.',
+      'All three National Merit figures are rolling 15-year windows, which is why the Finalist count can fall from 16 to 14 to 12 while Commended moves from 45 to 48 to 46 — strong older years drop out of the window. That is arithmetically possible rather than an error, but the school does not explain it, and no per-class-year ledger is published in any edition.',
     depth: [
       {
         label: 'Mathematics',
@@ -366,33 +442,33 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         label: 'Physics',
-        text: 'Calculus III is paired on the profile with **AP Physics C: Electricity & Magnetism**, alongside AP Physics C: Mechanics.',
+        text: '**AP Physics 1** is the top physics course on both the 2026–27 profile and the 2026–27 Curriculum Guide. AP Physics C, which earlier editions listed, no longer appears on either.',
       },
       {
         label: 'Computer science',
-        text: '**Thin.** A single AP Computer Science appears in the 2021–22 profile, and the current curriculum page lists no dedicated Upper School computer-science courses at all — coding work sits in Middle School electives, alongside a VEX robotics team.',
+        text: '**AP Computer Science** is on the 2026–27 profile, and the Curriculum Guide adds **Computer Science I** and **Computer Science II Honors** beneath it. No post-AP computer-science course is published.',
       },
       {
         label: 'World language',
-        text: 'AP French, AP Spanish Language, **AP Spanish Literature** and AP Latin, over Honors ladders running to level IV. No post-AP language seminar is published.',
+        text: 'AP French, AP Spanish Language and AP Latin on the profile, over Honors ladders running to level IV. The Curriculum Guide adds **AP Spanish Literature**, which the profile does not list. No post-AP language seminar is published.',
       },
       {
         label: 'Beyond campus',
-        text: '**Winterim** supplies internships and travel. The school states plainly that it does **not maintain a formal dual-enrolment programme**.',
+        text: '**Winterim** supplies internships and travel. There is one **dual-enrollment** course: Personal Finance and Biblical Stewardship, taken with Cedarville University.',
       },
     ],
     trust: [
       {
-        label: 'Weighted — and deliberately halved',
-        text: '**+0.5 for Honors, +1.0 for AP** on a 4.0 base. Note the school **halved its weighting** with the Class of 2019, down from +1.0 and +2.0, so any pre-2019 GPA is not comparable to a current one.',
+        label: 'Weighted on a 4.0 base',
+        text: '**+0.5 for Honors and dual enrollment, +1.0 for AP** on a 4.0 base. Every Upper School course counts toward the GPA; grades transferred from another high school do not.',
       },
       {
         label: 'No rank → a five-quintile table',
-        text: '“Charlotte Christian School does not rank its students”, stated flatly in both profiles — but a full five-quintile GPA table through the sixth semester is published every year, letting colleges locate a band without a rank.',
+        text: '“Charlotte Christian School does not rank its students”, stated flatly in every published profile — but a full five-quintile GPA table through the sixth semester is published every year, letting colleges locate a band without a rank.',
       },
       {
         label: 'A Christian-specific load signature',
-        text: 'Graduation requires **27 credits including 4 of Biblical Studies**, plus a January Term credit and a half-credit Junior Seminar. Those four credits consume elective space peer schools spend elsewhere, and they are the transcript’s most distinctive feature.',
+        text: 'Graduation requires **27 credits including 4 of Biblical Studies**, plus a January Term credit, a half-credit Junior Seminar and a half-credit Speech course. Those four credits consume elective space peer schools spend elsewhere, and they are the transcript’s most distinctive feature.',
       },
     ],
     flags: [
@@ -402,22 +478,31 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'Only the 3+ threshold is reported — the share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be inferred. “Most rigorous” course-load norms are likewise undefined: there is no published rubric and no statement of what fraction of students take the most demanding programme.',
+        text: 'Only the 3+ threshold is reported — the share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be inferred. The 2026–27 profile also drops the pass count and the AP Scholar breakdown by award level that the 2024–25 edition printed. “Most rigorous” course-load norms are likewise undefined: there is no published rubric and no statement of what fraction of students take the most demanding programme.',
+      },
+      {
+        kind: 'verify',
+        text: 'The profile gives dual enrollment two different weights. Page 1 says dual-enrollment courses receive **0.5** extra quality points; page 3 says the Cedarville course awards **.75**. The profile does not reconcile them.',
+      },
+      {
+        kind: 'verify',
+        text: 'The 2021–22 and 2024–25 profiles said the school **halved its weighting** with the Class of 2019, down from +1.0 and +2.0, so a pre-2019 GPA is not comparable to a current one. The 2026–27 edition no longer prints that note.',
       },
     ],
     sources: [
-      { label: 'charlottechristian.com — College Counseling and School Profile', url: PROFILE_2425 },
+      { label: '2026–27 Academic & Student Profile (AP results, course list, GPA weighting, National Merit)', url: PROFILE_2627 },
+      { label: '2026–27 Upper School Curriculum Guide', url: CURRICULUM_GUIDE },
       { label: 'Academics — Upper School curriculum', url: 'https://www.charlottechristian.com/academics' },
     ],
   },
 
   counseling: {
     headline:
-      'Two college counselors split the alphabet and carry all four grades each — roughly 47 seniors apiece — under a director who has held the seat at least four years.',
+      'Two college counselors split the alphabet and carry all four grades each — roughly 55 seniors apiece — under a director who has held the seat at least six years.',
     subhead:
       'The distinctive structure is Junior Seminar: a required, graded half-credit course with a mock admission committee and two mandatory college visits, rather than an optional evening programme.',
     stats: [
-      { value: '~47:1', label: 'seniors per counselor (derived — no ratio is published)' },
+      { value: '~55:1', label: 'seniors per counselor (derived — no ratio is published)' },
       { value: '2', label: 'college counselors — Foxx takes K–Z, Miller A–J' },
       { value: '0.5 credit', label: 'Junior Seminar is a graded graduation requirement' },
       { value: 'Scoir', label: 'platform — not Naviance' },
@@ -426,7 +511,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       {
         role: 'Director',
         name: 'Jodi Foxx',
-        detail: 'Director of College Counseling in both the 2021–22 and 2024–25 profiles — at least four years in the role. Students K–Z.',
+        detail: 'Director of College Counseling in the 2021–22, 2024–25 and 2026–27 profiles — at least six years in the role. Students K–Z.',
         email: 'jodi.foxx@charchrist.com',
       },
       {
@@ -476,7 +561,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       'Scholarship search',
     ],
     mechanicsNote:
-      'Test-optional strategy is an explicit counseling topic rather than an unstated assumption — notable given only about 84% of the class sat the SAT and 35% the ACT.',
+      'Test-optional strategy is an explicit counseling topic rather than an unstated assumption — notable given only about 75% of the class sat the SAT and 82% the ACT.',
     reach: [
       'Scoir · an annually published School Profile · CEEB **340667**',
       'NACAC · SACAC · **NACCAP** — the Christian-college counseling association',
@@ -485,7 +570,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived — 435 Upper Schoolers ÷ 2 gives ~218:1 across all four grades, and 94 seniors ÷ 2 gives ~47:1. The school publishes neither. Because the split is alphabetical, each counselor genuinely carries all four grades, so the 218:1 figure is the honest load measure and 47:1 describes senior-year intensity. The two personal counselors are not college counselors and do not belong in the denominator.',
+        text: 'Both ratios are derived — 442 Upper Schoolers ÷ 2 gives ~221:1 across all four grades, and 110 seniors in the Class of 2026 ÷ 2 gives ~55:1. The school publishes neither. Because the split is alphabetical, each counselor genuinely carries all four grades, so the 221:1 figure is the honest load measure and 55:1 describes senior-year intensity. The two personal counselors are not college counselors and do not belong in the denominator.',
       },
       {
         kind: 'gap',
@@ -494,33 +579,36 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'charlottechristian.com — College Counseling', url: COUNSELING },
+      { label: '2026–27 Academic & Student Profile (staffing, enrollment)', url: PROFILE_2627 },
+      { label: 'College Planning Checklist (counselor split by last name)', url: CHECKLIST },
       { label: 'Student Counseling (personal counseling, credentials)', url: 'https://www.charlottechristian.com/student-life' },
     ],
   },
 
   outcomes: {
     headline:
-      '409 acceptances for 94 graduates, and 99% of graduates go on to a four-year college.',
+      '249 colleges admitted the Classes of 2023–26, and 99% of graduates go on to a four-year college.',
     subhead:
       '14% of recent graduates attend a Christian college.',
     stats: [
       { value: '99%', label: 'of graduates attend a four-year college (100% offered admission)' },
-      { value: '409', label: 'acceptances for 94 graduates — about 4.4 each' },
-      { value: '64%', label: 'attend out of state · 35% private · 14% Christian college' },
-      { value: '$6.4M', label: 'scholarships, Class of 2025 · $13.9M across 2023–25' },
+      { value: '110', label: 'graduates in the Class of 2026 · 50 colleges enrolled at least one' },
+      { value: '64%', label: 'attend out of state · 26% private · 82% Southeast (Classes of 2024–26)' },
+      { value: '$3M+', label: 'in academic-merit scholarships offered, Class of 2026' },
     ],
     buckets: [
-      { tier: 'Ivy League', count: '2 / 8', note: '— Cornell and Dartmouth; Yale appears only on the older list' },
-      { tier: '“Ivy Plus”', count: '4 / 17' },
-      { tier: 'Top-75 National Universities', count: '40 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '10 / 75' },
-      { tier: 'Power Four', count: '41 / 68' },
-      { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
+      { tier: 'Ivy League', count: '4 / 8', note: '— Columbia, Cornell, Dartmouth and Harvard' },
+      { tier: '“Ivy Plus”', count: '7 / 17' },
+      { tier: 'Top-75 National Universities', count: '49 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '20 / 75' },
+      { tier: 'Power Four', count: '54 / 68' },
+      { tier: 'HBCUs', count: '11 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    collegesTitle: 'Every acceptance, 2023–2025',
+    collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
-    collegesTotal: '186 institutions · bold = a Class of 2025 graduate enrolled',
+    collegesTotal: '249 institutions · bold = a Class of 2025 or 2026 graduate enrolled',
     scholarships: [
+      'Over $3M in academic scholarships offered · Class of 2026',
       '$6.4M scholarships · Class of 2025',
       '$13,875,968 across the Classes of 2023–25',
       'SMU Hunt Leadership Scholars Program',
@@ -529,8 +617,8 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     flags: [],
     sources: [
-      { label: 'charlottechristian.com — College Counseling (School Profile, acceptance list)', url: COUNSELING },
-      { label: 'College & Career Planning brochure (Classes of 2023–25 list, sector split)', url: CCS },
+      { label: '2026–27 Academic & Student Profile (the 2024–26 acceptance list, Class of 2026 enrollment, matriculation split, scholarships)', url: PROFILE_2627 },
+      { label: 'College & Career Planning brochure (the 2023–25 acceptance list, Class of 2025 enrollment, Classes of 2023–25 scholarship total, Christian-college share)', url: CCS },
       { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
@@ -545,66 +633,68 @@ export const charlotteChristian: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**Academic Conservatory** — the school’s strongest published credential, and critically it is **noted on the transcript**, so it reaches the admissions reader rather than living only in a résumé. Described across sources as covering six or eight areas.',
+          '**Academic Conservatory** — the school’s strongest published credential, and critically it is **noted on the transcript**, so it reaches the admissions reader rather than living only in a résumé. The 2026–27 profile names six areas — Math and Science; Fine Arts; Bible, Philosophy & Religion; English; Social Studies; World Languages — and **20% of the Class of 2026** earned at least one distinction.',
           '**Winterim / January Term** — a required credit every year (0.25 per year toward graduation), supplying internships, travel and vocational shadowing. Note the vocational shadowing component is small: only about seven placements are published.',
           '**Junior Seminar** — a required, graded half-credit course containing a mock admission committee and two mandatory college visits. Structurally stronger than the optional evening programming most schools offer.',
           '**Athletic recruiting at scale** — 21 signees in the Class of 2025, roughly 22% of a 94-student class, with athletic scholarships at Florida State, Queens, Wake Forest, Kentucky and New Hampshire.',
-          '**Seal of Biliteracy** — implemented in 2019 and awarded on a proficiency exam across two languages, though the share earning it fell from 11% of the Class of 2021 to 4% of the Class of 2024.',
+          '**Seal of Biliteracy** — implemented in 2019 and awarded on a proficiency exam across two languages, though the share earning it fell from 11% of the Class of 2021 to 4% of the Class of 2024, then rose to 7% of the Class of 2026.',
+          '**Scholastic Art & Writing** — 54 awards over the last five years, per the 2026–27 profile.',
         ],
       },
       {
         title: 'Lever 2 — The school’s leverage',
         glyph: '▲',
         items: [
-          '**A Christian-college network with its own membership** — Charlotte Christian belongs to **NACCAP**, the Christian-college counseling association, alongside NACAC and SACAC. Its brochure gives Christian colleges a named tier, and 14% of graduates enroll at one, with live pipelines to Wheaton, Liberty, Samford, Cedarville, Grove City, Baylor and Abilene Christian.',
+          '**A Christian-college network with its own membership** — Charlotte Christian belongs to **NACCAP**, the Christian-college counseling association, alongside NACAC and SACAC. Its brochure gives Christian colleges a named tier, and 14% of graduates enroll at one. Class of 2026 graduates enrolled at Wheaton, Liberty, Samford, Gordon, Lipscomb and Baylor.',
           '**A named HBCU tier** — Hampton, Howard, Morehouse, NC A&T and Spelman are listed as a distinct group, with confirmed Class of 2025 enrollments at NC A&T and Johnson C. Smith.',
-          '**The School Profile as an instrument** — it publishes a full AP dashboard with AP Scholar breakdowns, a five-quintile GPA table, the grading scale, the weighting formula and the weighting change at the Class of 2019, plus CEEB 340667.',
+          '**The School Profile as an instrument** — it publishes the AP exam, student and AP Scholar counts, a five-quintile GPA table, a GPA middle 50% (3.604–4.199 for the Class of 2026), the grading scale and the weighting formula, plus CEEB 340667.',
           '**Granular scholarship reporting** — roughly ninety individually named awards published for a single class is far more specific than a headline dollar figure, and lets a family see which institutions actually fund this school’s students.',
         ],
         note:
-          'The school does not publish a disciplinary-disclosure policy — whether and how suspensions or honor violations reach the secondary school report is absent despite NACAC membership.',
+          'The disciplinary policy is published: the school follows the NACAC Statement of Principles of Good Practice and “does not permit the reporting of any disciplinary infractions”, but it advises students to self-disclose any grade 9–12 infraction that led to an out-of-school suspension.',
       },
     ],
     flags: [],
     sources: [
       { label: 'charlottechristian.com — Academic Conservatory', url: 'https://www.charlottechristian.com/academics' },
       { label: 'College & Career Planning brochure (Christian college and HBCU tiers)', url: CCS },
-      { label: 'College Counseling (memberships, profile)', url: COUNSELING },
+      { label: '2026–27 Academic & Student Profile (conservatory, Seal of Biliteracy, awards, memberships, disciplinary policy)', url: PROFILE_2627 },
+      { label: 'College Counseling', url: COUNSELING },
     ],
   },
 
   wholeClass: {
     headline:
-      'A full five-quintile GPA table, published every year — and a visible three-year grade inflation in it, with every boundary rising while the bottom floor fell.',
+      'A full five-quintile GPA table, published every year — and in the Class of 2026 table it compressed: the top floor eased while the bottom rose sharply.',
     subhead:
-      'The median student sits in the third quintile at roughly 3.69–4.06 weighted; because Honors adds 0.5 and AP a full point, a 4.277 top-quintile floor implies a heavy advanced load rather than a perfect record.',
+      'The median student sits in the third quintile at roughly 3.80–4.05 weighted, and the profile puts the class’s GPA middle 50% at 3.604–4.199 on its GPA scale. Because Honors adds 0.5 and AP a full point, a 4.240 top-quintile floor implies a heavy advanced load rather than a perfect record.',
     scoreTables: [
       {
         title: 'SAT score percentiles',
-        hint: '— Class of 2025 · 79 testers of 94 graduates (~84%)',
-        rows: [{ label: 'SAT total', values: ['—', '1110', '—', '1340', '—', '—'] }],
+        hint: '— Class of 2026 · 83 testers of 110 graduates (~75%)',
+        rows: [{ label: 'SAT total', values: ['—', '1120', '—', '1320', '—', '—'] }],
         note:
           'The school publishes the composite middle-50% band and a tester count only. Those endpoints ARE the 25th and 75th percentiles; the mean, the median and any Reading or Maths section split are unpublished, so none is interpolated here.',
       },
       {
         title: 'ACT score percentiles',
-        hint: '— Class of 2025 · 33 testers of 94 graduates (~35%)',
-        rows: [{ label: 'ACT composite', values: ['—', '23', '—', '29', '—', '—'] }],
+        hint: '— Class of 2026 · 90 testers of 110 graduates (~82%)',
+        rows: [{ label: 'ACT composite', values: ['—', '21', '—', '29', '—', '—'] }],
         note:
-          '79 SAT plus 33 ACT testers against 94 graduates implies substantial overlap, and since test-optional strategy is an explicit counseling topic, some graduates likely sat neither. The school publishes no combined “share who tested” figure.',
+          '83 SAT plus 90 ACT testers against 110 graduates means heavy overlap: many students sat both. ACT testing rose from 33 testers in the Class of 2025 to 90 in the Class of 2026; the profile gives no reason. The school publishes no combined “share who tested” figure.',
       },
     ],
     gpaTitle: 'GPA percentiles',
-    gpaHint: '— the no-rank mechanism · Class of 2025 weighted GPA through the sixth semester',
+    gpaHint: '— the no-rank mechanism · Class of 2026 weighted GPA through the sixth semester',
     quintiles: [
-      { label: 'First fifth', gpa: '4.277–4.578', detail: 'a heavy AP and Honors load' },
-      { label: 'Second', gpa: '4.067–4.273', detail: 'strong advanced coursework' },
-      { label: 'Third', gpa: '3.686–4.055', detail: 'the median student sits here' },
-      { label: 'Fourth', gpa: '3.124–3.676', detail: 'real, named destinations exist' },
-      { label: 'Fifth', gpa: '1.941–3.058', detail: 'the floor of the published table' },
+      { label: 'First fifth', gpa: '4.240–4.533', detail: 'a heavy AP and Honors load' },
+      { label: 'Second', gpa: '4.081–4.220', detail: 'strong advanced coursework' },
+      { label: 'Third', gpa: '3.804–4.053', detail: 'the median student sits here' },
+      { label: 'Fourth', gpa: '3.542–3.803', detail: 'real, named destinations exist' },
+      { label: 'Fifth', gpa: '2.269–3.524', detail: 'the floor of the published table' },
     ],
     gpaNote:
-      'All five quintiles are the school’s own published figures. Comparing them with the Class of 2022 table shows material movement in three years: every quintile boundary rose — the first-quintile floor from 4.133 to 4.277 and the third from 3.56 to 3.686 — while the fifth-quintile floor FELL from 2.179 to 1.941. The distribution rose at the top and stretched at the bottom. No unweighted distribution is published.',
+      'All five quintiles are the school’s own published figures. Against the Class of 2025 table, the distribution compressed in one year: the first-quintile floor eased from 4.277 to 4.240, while the third rose from 3.686 to 3.804, the fourth from 3.124 to 3.542 and the fifth from 1.941 to 2.269. The bottom of the class moved up much more than the top moved down. No unweighted distribution is published.',
     support: [
       {
         label: 'What is published is counseling, not learning support',
@@ -622,50 +712,54 @@ export const charlotteChristian: CollegeSupportProgram = {
     middle: [
       {
         label: 'The middle may be the best-served cohort',
-        text: 'The list spans Dartmouth and Duke down to Central Piedmont Community College, Universal Technical Institute, Brevard, Montreat, Belmont Abbey, Limestone, Winthrop, Wingate and Methodist. A fourth- or fifth-quintile student at 3.12 or below has real, named destinations, and the checklist instructs students to include “every possible type of college that might be of interest”.',
+        text: 'The list spans Duke, Harvard and Columbia down to Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate and Winthrop. A fourth- or fifth-quintile student at 3.54 or below has real, named destinations, and the checklist instructs students to include “every possible type of college that might be of interest”.',
       },
       {
         label: 'The Christian-college route is real, not decorative',
-        text: '14% of recent graduates enroll at a Christian college, with multiple confirmed Class of 2025 enrollments at Wheaton, Liberty, Samford, Charleston Southern, Cedarville, Grove City, Baylor and Abilene Christian.',
+        text: '14% of recent graduates enroll at a Christian college. Graduates of both the Class of 2025 and the Class of 2026 enrolled at Wheaton, Liberty, Samford and Baylor. Class of 2026 graduates also enrolled at Gordon and Lipscomb, and Class of 2025 graduates at Charleston Southern, Cedarville, Grove City and Abilene Christian.',
       },
       {
         label: 'Vocational and non-traditional',
-        text: 'Universal Technical Institute and Central Piedmont Community College both appear as acceptances, and Central Piedmont as an actual enrollment. No federal service academy appears on either published list.',
+        text: 'Central Piedmont Community College appears on the acceptance list. Two federal service academies, the **Air Force Academy** and **West Point**, each enrolled a Class of 2026 graduate.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'The 2021–22 profile published no test scores at all, stating it had “insufficient testing results to report middle 50% test score ranges” for the Class of 2022 — so no multi-year test trend exists, and the 2024–25 edition is the only one carrying SAT and ACT bands.',
+        text: 'The 2021–22 profile published no test scores at all, stating it had “insufficient testing results to report middle 50% test score ranges” for the Class of 2022 — so the 2024–25 and 2026–27 editions are the only ones carrying SAT and ACT bands, and the test trend is two years deep.',
       },
       {
         kind: 'gap',
         text: 'No gap-year policy or counselling is published, and neither is any unweighted GPA distribution.',
       },
+      {
+        kind: 'verify',
+        text: 'Three things the 2026–27 profile leaves open. Its “GPA distribution” heading carries an asterisk with no matching footnote. The quintile table names no class year; it sits in the Class of 2026 column and runs “through 6th semester”. And it does not say whether the 3.604–4.199 GPA middle 50% is weighted. The printed bands also leave small gaps between them (4.220 to 4.240, for example).',
+      },
     ],
     sources: [
-      { label: 'charlottechristian.com — School Profile (test bands, quintile table)', url: PROFILE_2425 },
+      { label: '2026–27 Academic & Student Profile (test bands, GPA middle 50%, quintile table, acceptance list)', url: PROFILE_2627 },
       { label: 'Student Counseling (counselor credentials, WIN labs)', url: 'https://www.charlottechristian.com/student-life' },
     ],
   },
 
   verdict: {
     headline:
-      'A structurally rigorous, transparent transcript — mandatory AP exams, a full published quintile table, a granular AP dashboard — attached to the thinnest learning-support disclosure in this set.',
+      'A structurally rigorous, transparent transcript — mandatory AP exams, a full published quintile table, published AP exam and Scholar counts — attached to the thinnest learning-support disclosure in this set.',
     subhead:
       'The academic reporting is unusually honest. The gaps are concentrated in exactly one place, which makes the tour questions easy to aim.',
     points: [
       {
         label: 'AP exams are mandatory, so the pass rate means something',
-        text: '“Students in AP classes are required to take the AP exam” — so 89% scoring 3+ in 2024, up from 78% in 2021, rests on a non-self-selected pool rather than only confident testers.',
+        text: '“Students in AP classes are required to take the AP exam” — so 94% scoring 3+ in 2026, after 89% in 2024 and 78% in 2021, rests on a non-self-selected pool rather than only confident testers.',
       },
       {
-        label: 'The AP dashboard is the fullest in this set',
-        text: 'exams, students, pass counts and a complete AP Scholar breakdown, published two years deep — 59 AP Scholar awards in 2024 and 203 across the Classes of 2023–25.',
+        label: 'The AP counts are published with the rate',
+        text: 'the 2026–27 profile prints 435 exams, 208 students and 90 AP Scholars beside the 94%, so the rate can be read against the size of the cohort that earned it.',
       },
       {
         label: 'A real quintile table, published annually',
-        text: 'five quintiles through the sixth semester, so colleges can locate a student’s band without a rank — and comparing editions makes three-year grade movement visible rather than hidden.',
+        text: 'five quintiles through the sixth semester, so colleges can locate a student’s band without a rank — and comparing editions makes year-to-year grade movement visible rather than hidden.',
       },
       {
         label: 'Junior Seminar is a requirement, not an invitation',
@@ -685,15 +779,17 @@ export const charlotteChristian: CollegeSupportProgram = {
       'Honors and AP placement requires an A in the prerequisite course and AP exams are mandatory. How does that combination work for a student with accommodations?',
       'What share of AP exams scored 4 or 5? Only the 3+ threshold is published.',
       'Your marketing says “45+ AP and honors courses” but roughly 23 AP courses can be enumerated. What is the actual count?',
-      'Your profile reports 14 National Merit finalists on a rolling 15-year window, down from 16 three years earlier. What were the per-class counts for the last five years?',
+      'Your profile reports 12 National Merit finalists on a rolling 15-year window, down from 16 six years earlier. What were the per-class counts for the last five years?',
       'The school lists one Commended Scholar for the Class of 2025 while press coverage names a Semifinalist you do not list. Which is right?',
-      'You state 99% attend a four-year college, but the named senior roster shows about five of 94 elsewhere. How is that 99% calculated?',
-      'What are the Class of 2026 figures — acceptances, scholarships, and test bands? None are published yet.',
+      'You state 99% attend a four-year college, but the Class of 2025’s named senior roster showed about five of 94 elsewhere. How is that 99% calculated for the 110 graduates of the Class of 2026?',
+      'Your profile gives dual enrollment +0.5 on page 1 and +.75 on page 3. Which applies?',
+      'Where did the Class of 2024 enroll? The two published lists mark only Class of 2025 and Class of 2026 enrollments.',
     ],
     flags: [],
     sources: [
+      { label: '2026–27 Academic & Student Profile', url: PROFILE_2627 },
       { label: 'charlottechristian.com — College Counseling', url: COUNSELING },
-      { label: 'School Profile and College & Career Planning brochure', url: CCS },
+      { label: 'College & Career Planning brochure', url: CCS },
       { label: 'Verdict synthesised by the researcher from the sources cited on the cards above', },
     ],
   },

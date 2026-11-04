@@ -197,11 +197,11 @@ export const charlotteChristian: ClubsProgram = {
     adjacent: [
       {
         label: 'Academic Conservatory Program',
-        text: 'A graduation distinction in six tracks — Math & Science, Fine Arts, Bible/Philosophy & Religion, English, Social Studies and World Languages — noted on the transcript in senior year. 14% of the Class of 2024 earned at least one.',
+        text: 'A graduation distinction in six tracks — Math & Science, Fine Arts, Bible/Philosophy & Religion, English, Social Studies and World Languages — noted on the transcript in senior year. 20% of the Class of 2026 earned at least one.',
       },
       {
         label: 'Seal of Biliteracy',
-        text: 'Implemented in 2019, testing listening, speaking, reading and writing in two languages. 4% of the Class of 2024 earned it.',
+        text: 'Implemented in 2019, testing listening, speaking, reading and writing in two languages. 7% of the Class of 2026 earned it.',
       },
     ],
     flags: [
@@ -216,7 +216,7 @@ export const charlotteChristian: ClubsProgram = {
     ],
     sources: [
       { label: 'charlottechristian.com — Upper School (the roster)', url: UPPER_SCHOOL },
-      { label: '2024-25 Academic & Student Profile (arts chapters, conservatory)', url: SCHOOL_PROFILE },
+      { label: '2026–27 Academic & Student Profile (conservatory, Seal of Biliteracy)', url: SCHOOL_PROFILE },
       { label: 'School news, 2014 (the only published induction counts)', url: NEWS_2014 },
     ],
   },

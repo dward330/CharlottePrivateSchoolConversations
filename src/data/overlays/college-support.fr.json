@@ -189,6 +189,7 @@
       "of": "3ac0d9bf",
       "at": [
         "providence-day:transcript.stats[1].value",
+        "charlotte-christian:transcript.stats[1].value",
         "charlotte-catholic:transcript.stats[2].value"
       ]
     },
@@ -1065,6 +1066,7 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
+        "charlotte-christian:outcomes.collegesTitle",
         "charlotte-country-day:outcomes.collegesTitle",
         "covenant-day:outcomes.collegesTitle"
       ]
@@ -2366,8 +2368,7 @@
       "t": "Toutes les admissions, 2023–2025",
       "of": "3b53d818",
       "at": [
-        "charlotte-latin:outcomes.collegesTitle",
-        "charlotte-christian:outcomes.collegesTitle"
+        "charlotte-latin:outcomes.collegesTitle"
       ]
     },
     {
@@ -2835,57 +2836,50 @@
       ]
     },
     {
-      "t": "Les élèves inscrits en cours AP sont tenus de passer l’examen, et 89% des examens de 2024 ont obtenu 3 ou plus — un taux atteint sur un ensemble d’élèves imposé plutôt qu’auto-sélectionné.",
-      "of": "5a98620f",
+      "t": "Les élèves des cours AP sont tenus de passer l’examen, et 94% des 435 examens de 2026 ont obtenu 3 ou plus — un taux obtenu sur un vivier imposé plutôt qu’auto-sélectionné.",
+      "of": "481a8057",
       "at": [
         "charlotte-christian:transcript.headline"
       ]
     },
     {
-      "t": "Charlotte Christian publie le tableau de bord AP le plus complet de cet ensemble : examens, élèves, nombres de réussites et ventilation intégrale des AP Scholar, sur deux ans. Quatre crédits de Biblical Studies constituent la signature caractéristique du relevé de notes.",
-      "of": "c574b8fc",
+      "t": "Les examens étant obligatoires, les nombres d’examens, d’élèves et d’AP Scholars publiés par le profil décrivent toute la cohorte AP et non ses candidats les plus assurés. Quatre crédits d’études bibliques sont la signature distinctive du relevé de notes.",
+      "of": "680fb673",
       "at": [
         "charlotte-christian:transcript.subhead"
       ]
     },
     {
-      "t": "298",
-      "of": "35f953f4",
+      "t": "435",
+      "of": "1d286f1f",
       "at": [
         "charlotte-christian:transcript.stats[0].value"
       ]
     },
     {
-      "t": "examens AP passés en 2024 (151 élèves)",
-      "of": "c891b838",
+      "t": "examens AP passés en 2026 (208 élèves)",
+      "of": "43127e89",
       "at": [
         "charlotte-christian:transcript.stats[0].label"
       ]
     },
     {
-      "t": "89%",
-      "of": "5cb0b6ed",
-      "at": [
-        "charlotte-christian:transcript.stats[1].value"
-      ]
-    },
-    {
-      "t": "des examens ont obtenu 3+ — contre 78% en 2021",
-      "of": "193a9c0b",
+      "t": "des examens ont obtenu 3+ en 2026",
+      "of": "a2448b6f",
       "at": [
         "charlotte-christian:transcript.stats[1].label"
       ]
     },
     {
-      "t": "59",
-      "of": "8ce14ecb",
+      "t": "90",
+      "of": "0bfe98cc",
       "at": [
         "charlotte-christian:transcript.stats[2].value"
       ]
     },
     {
-      "t": "distinctions AP Scholar en 2024 · 203 sur 2023–25",
-      "of": "2f54d1ff",
+      "t": "AP Scholars en 2026",
+      "of": "ce2976dc",
       "at": [
         "charlotte-christian:transcript.stats[2].label"
       ]
@@ -2898,36 +2892,43 @@
       ]
     },
     {
+      "t": "**12** finalistes · **46** Commended Scholars",
+      "of": "864d75b3",
+      "at": [
+        "charlotte-christian:transcript.merit[0].detail"
+      ]
+    },
+    {
       "t": "**14** finalistes · **48** Commended Scholars",
       "of": "99270a8b",
       "at": [
-        "charlotte-christian:transcript.merit[0].detail"
+        "charlotte-christian:transcript.merit[1].detail"
       ]
     },
     {
       "t": "**16** finalistes · **45** Commended Scholars",
       "of": "e2ecef14",
       "at": [
-        "charlotte-christian:transcript.merit[1].detail"
+        "charlotte-christian:transcript.merit[2].detail"
       ]
     },
     {
       "t": "**1** Commended Scholar (Jack Krause) — la presse nomme par ailleurs un demi-finaliste que l’école ne mentionne pas",
       "of": "89d7acf6",
       "at": [
-        "charlotte-christian:transcript.merit[2].detail"
+        "charlotte-christian:transcript.merit[3].detail"
       ]
     },
     {
       "t": "**4** distinctions College Board National Recognition — 1 afro-américain, 3 hispaniques (promotion 2024 : 5)",
       "of": "5bd52279",
       "at": [
-        "charlotte-christian:transcript.merit[3].detail"
+        "charlotte-christian:transcript.merit[4].detail"
       ]
     },
     {
-      "t": "Les deux chiffres National Merit correspondent à des fenêtres glissantes de 15 ans, ce qui explique que le nombre de finalistes puisse passer de 16 à 14 tandis que celui des Commended monte de 45 à 48 — des années anciennes et solides sortent de la fenêtre. C’est arithmétiquement possible plutôt qu’une erreur, mais l’école ne l’explique pas, et aucun registre par année de promotion n’est publié dans quelque édition que ce soit.",
-      "of": "7010b202",
+      "t": "Les trois chiffres National Merit sont des fenêtres glissantes de 15 ans, ce qui explique que le nombre de finalistes puisse passer de 16 à 14 puis à 12 tandis que les Commended passent de 45 à 48 puis à 46 : les bonnes années anciennes sortent de la fenêtre. C’est arithmétiquement possible et non une erreur, mais l’école ne l’explique pas, et aucune édition ne publie de registre par promotion.",
+      "of": "2f59435b",
       "at": [
         "charlotte-christian:transcript.meritNote"
       ]
@@ -2947,43 +2948,43 @@
       ]
     },
     {
-      "t": "Sur le profil, Calculus III est associé à **AP Physics C: Electricity & Magnetism**, aux côtés de AP Physics C: Mechanics.",
-      "of": "c61397b1",
+      "t": "**AP Physics 1** est le cours de physique le plus avancé, à la fois dans le profil 2026–27 et dans le Curriculum Guide 2026–27. AP Physics C, que listaient les éditions précédentes, n’apparaît plus dans aucun des deux.",
+      "of": "e4be388b",
       "at": [
         "charlotte-christian:transcript.depth[1].text"
       ]
     },
     {
-      "t": "**Mince.** Un unique AP Computer Science figure dans le profil 2021–22, et la page actuelle du programme ne recense aucun cours d’informatique propre à l’Upper School — le travail de programmation se trouve dans les options de la Middle School, aux côtés d’une équipe de robotique VEX.",
-      "of": "9f047a3e",
+      "t": "**AP Computer Science** figure dans le profil 2026–27, et le Curriculum Guide ajoute en dessous **Computer Science I** et **Computer Science II Honors**. Aucun cours d’informatique au-delà de l’AP n’est publié.",
+      "of": "c6c9d0fe",
       "at": [
         "charlotte-christian:transcript.depth[2].text"
       ]
     },
     {
-      "t": "AP French, AP Spanish Language, **AP Spanish Literature** et AP Latin, au sommet de parcours Honors allant jusqu’au niveau IV. Aucun séminaire de langue post-AP n’est publié.",
-      "of": "fd0baed2",
+      "t": "AP French, AP Spanish Language et AP Latin dans le profil, au-dessus de filières Honors allant jusqu’au niveau IV. Le Curriculum Guide ajoute **AP Spanish Literature**, que le profil ne mentionne pas. Aucun séminaire de langue au-delà de l’AP n’est publié.",
+      "of": "da5f65b0",
       "at": [
         "charlotte-christian:transcript.depth[3].text"
       ]
     },
     {
-      "t": "**Winterim** propose des stages et des voyages. L’école indique clairement qu’elle **ne maintient aucun programme formel de double inscription**.",
-      "of": "4d32e89b",
+      "t": "**Winterim** offre stages et voyages. Il existe un seul cours en **double inscription** : Personal Finance and Biblical Stewardship, suivi avec Cedarville University.",
+      "of": "bc4feb60",
       "at": [
         "charlotte-christian:transcript.depth[4].text"
       ]
     },
     {
-      "t": "Pondéré — et délibérément réduit de moitié",
-      "of": "894fe06d",
+      "t": "Pondéré sur une base de 4.0",
+      "of": "34247d79",
       "at": [
         "charlotte-christian:transcript.trust[0].label"
       ]
     },
     {
-      "t": "**+0.5 pour les cours Honors, +1.0 pour les AP** sur une base de 4.0. À noter que l’école a **réduit de moitié sa pondération** à partir de la promotion 2019, contre +1.0 et +2.0 auparavant : aucun GPA antérieur à 2019 n’est donc comparable à un GPA actuel.",
-      "of": "686cdfc1",
+      "t": "**+0.5 pour les cours Honors et la double inscription, +1.0 pour l’AP** sur une base de 4.0. Tous les cours de l’Upper School comptent dans le GPA ; les notes transférées d’un autre lycée ne comptent pas.",
+      "of": "49669449",
       "at": [
         "charlotte-christian:transcript.trust[0].text"
       ]
@@ -2996,8 +2997,8 @@
       ]
     },
     {
-      "t": "« Charlotte Christian School does not rank its students », affirmé sans détour dans les deux profils — mais un tableau complet des GPA en cinq quintiles couvrant jusqu’au sixième semestre est publié chaque année, permettant aux universités de situer une strate sans classement.",
-      "of": "5ab3e971",
+      "t": "« Charlotte Christian School does not rank its students », affirmé sans détour dans chaque profil publié — mais un tableau complet des GPA en cinq quintiles jusqu’au sixième semestre est publié chaque année, ce qui permet aux universités de situer une tranche sans classement.",
+      "of": "29b8ebca",
       "at": [
         "charlotte-christian:transcript.trust[1].text"
       ]
@@ -3010,8 +3011,8 @@
       ]
     },
     {
-      "t": "L’obtention du diplôme exige **27 crédits dont 4 de Biblical Studies**, plus un crédit de January Term et un Junior Seminar d’un demi-crédit. Ces quatre crédits consomment un espace d’options que les écoles comparables emploient ailleurs, et ils constituent la caractéristique la plus distinctive du relevé de notes.",
-      "of": "fa7eb344",
+      "t": "Le diplôme exige **27 crédits dont 4 d’études bibliques**, plus un crédit de January Term, un demi-crédit de Junior Seminar et un demi-crédit d’expression orale. Ces quatre crédits occupent une place d’options que les autres écoles consacrent ailleurs, et ils sont le trait le plus distinctif du relevé de notes.",
+      "of": "34887367",
       "at": [
         "charlotte-christian:transcript.trust[2].text"
       ]
@@ -3024,15 +3025,29 @@
       ]
     },
     {
-      "t": "Seul le seuil de 3+ est communiqué — la part des examens obtenant 4 ou 5 n’est publiée pour aucune année, aucun taux 4–5 ne doit donc en être déduit. Les normes de charge de cours « Most rigorous » sont elles aussi indéfinies : aucune grille n’est publiée et rien n’indique quelle fraction des élèves suit le programme le plus exigeant.",
-      "of": "c62732f8",
+      "t": "Seul le seuil de 3+ est communiqué — la part des examens notés 4 ou 5 n’est publiée pour aucune année, il ne faut donc déduire aucun taux de 4–5. Le profil 2026–27 supprime aussi le nombre de réussites et la ventilation des AP Scholars par niveau de distinction qu’imprimait l’édition 2024–25. Les normes de charge de cours « la plus exigeante » ne sont pas davantage définies : aucune grille n’est publiée et rien n’indique quelle part des élèves suit le programme le plus exigeant.",
+      "of": "038b10e2",
       "at": [
         "charlotte-christian:transcript.flags[1].text"
       ]
     },
     {
-      "t": "Deux conseillers d’orientation universitaire se répartissent l’alphabet et prennent chacun en charge les quatre niveaux — environ 47 élèves de dernière année chacun — sous la direction d’une responsable en poste depuis au moins quatre ans.",
-      "of": "a06eb084",
+      "t": "Le profil attribue à la double inscription deux pondérations différentes. La page 1 indique que les cours en double inscription reçoivent **0.5** point de qualité supplémentaire ; la page 3 indique que le cours de Cedarville rapporte **.75**. Le profil ne les concilie pas.",
+      "of": "8feadaa0",
+      "at": [
+        "charlotte-christian:transcript.flags[2].text"
+      ]
+    },
+    {
+      "t": "Les profils 2021–22 et 2024–25 indiquaient que l’école avait **divisé par deux sa pondération** avec la promotion 2019, passant de +1.0 et +2.0, de sorte qu’un GPA antérieur à 2019 n’est pas comparable à un GPA actuel. L’édition 2026–27 n’imprime plus cette note.",
+      "of": "3e3536b0",
+      "at": [
+        "charlotte-christian:transcript.flags[3].text"
+      ]
+    },
+    {
+      "t": "Deux conseillers d’orientation universitaire se partagent l’alphabet et suivent chacun les quatre niveaux — environ 55 élèves de terminale chacun — sous une direction en poste depuis au moins six ans.",
+      "of": "4933350f",
       "at": [
         "charlotte-christian:counseling.headline"
       ]
@@ -3045,8 +3060,8 @@
       ]
     },
     {
-      "t": "~47:1",
-      "of": "6d315a65",
+      "t": "~55:1",
+      "of": "0812f1f6",
       "at": [
         "charlotte-christian:counseling.stats[0].value"
       ]
@@ -3106,8 +3121,8 @@
       ]
     },
     {
-      "t": "Director of College Counseling dans les profils 2021–22 et 2024–25 — au moins quatre ans dans la fonction. Élèves K–Z.",
-      "of": "68d9f024",
+      "t": "Directeur du College Counseling dans les profils 2021–22, 2024–25 et 2026–27 — au moins six ans dans le poste. Élèves K–Z.",
+      "of": "c0ef6fab",
       "at": [
         "charlotte-christian:counseling.roster[0].detail"
       ]
@@ -3229,8 +3244,8 @@
       ]
     },
     {
-      "t": "La stratégie « test-optional » est un thème d’accompagnement explicite plutôt qu’un présupposé tacite — ce qui est notable puisque seuls environ 84% de la promotion ont passé le SAT et 35% l’ACT.",
-      "of": "1d92a58f",
+      "t": "La stratégie test-optional est un sujet explicite de l’accompagnement plutôt qu’un présupposé tacite — notable puisque seuls environ 75% de la promotion ont passé le SAT et 82% l’ACT.",
+      "of": "c1592701",
       "at": [
         "charlotte-christian:counseling.mechanicsNote"
       ]
@@ -3257,8 +3272,8 @@
       ]
     },
     {
-      "t": "Les deux ratios sont calculés — 435 élèves de l’Upper School ÷ 2 donne ~218:1 sur les quatre niveaux, et 94 élèves de dernière année ÷ 2 donne ~47:1. L’école ne publie ni l’un ni l’autre. La répartition étant alphabétique, chaque conseiller prend réellement en charge les quatre niveaux : le chiffre de 218:1 est donc la mesure honnête de la charge, tandis que 47:1 décrit l’intensité de la dernière année. Les deux conseillers personnels ne sont pas des conseillers d’orientation universitaire et n’ont pas leur place au dénominateur.",
-      "of": "6e73918b",
+      "t": "Les deux ratios sont déduits — 442 élèves de l’Upper School ÷ 2 donnent ~221:1 sur les quatre niveaux, et 110 élèves de terminale de la promotion 2026 ÷ 2 donnent ~55:1. L’école ne publie ni l’un ni l’autre. Le partage étant alphabétique, chaque conseiller suit réellement les quatre niveaux, si bien que le chiffre de 221:1 est la mesure honnête de la charge et que 55:1 décrit l’intensité de l’année de terminale. Les deux conseillers personnels ne sont pas des conseillers d’orientation universitaire et n’entrent pas dans le dénominateur.",
+      "of": "1447856d",
       "at": [
         "charlotte-christian:counseling.flags[0].text"
       ]
@@ -3271,8 +3286,8 @@
       ]
     },
     {
-      "t": "409 admissions pour 94 diplômés, et 99% des diplômés poursuivent dans une université de quatre ans.",
-      "of": "b397ce13",
+      "t": "249 universités ont admis les promotions 2023–26, et 99% des diplômés poursuivent dans une université en quatre ans.",
+      "of": "22eb320d",
       "at": [
         "charlotte-christian:outcomes.headline"
       ]
@@ -3299,15 +3314,15 @@
       ]
     },
     {
-      "t": "409",
-      "of": "a12ffab0",
+      "t": "110",
+      "of": "6d361ca5",
       "at": [
         "charlotte-christian:outcomes.stats[1].value"
       ]
     },
     {
-      "t": "admissions pour 94 diplômés — environ 4.4 chacun",
-      "of": "8f822f11",
+      "t": "diplômés dans la promotion 2026 · 50 universités en ont accueilli au moins un",
+      "of": "a1952d01",
       "at": [
         "charlotte-christian:outcomes.stats[1].label"
       ]
@@ -3321,73 +3336,80 @@
       ]
     },
     {
-      "t": "étudient hors de l’État · 35% dans le privé · 14% dans une université chrétienne",
-      "of": "cd2296a9",
+      "t": "étudient hors de l’État · 26% dans le privé · 82% dans le Sud-Est (promotions 2024–26)",
+      "of": "d2475665",
       "at": [
         "charlotte-christian:outcomes.stats[2].label"
       ]
     },
     {
-      "t": "$6.4M",
-      "of": "cb83d2a8",
+      "t": "$3M+",
+      "of": "dc35ca14",
       "at": [
         "charlotte-christian:outcomes.stats[3].value"
       ]
     },
     {
-      "t": "bourses, promotion 2025 · $13.9M sur 2023–25",
-      "of": "7b610d9b",
+      "t": "de bourses au mérite académique offertes, promotion 2026",
+      "of": "7713c826",
       "at": [
         "charlotte-christian:outcomes.stats[3].label"
       ]
     },
     {
-      "t": "— Cornell et Dartmouth ; Yale ne figure que sur la liste la plus ancienne",
-      "of": "dd786ae3",
+      "t": "— Columbia, Cornell, Dartmouth et Harvard",
+      "of": "d5b2d2cf",
       "at": [
         "charlotte-christian:outcomes.buckets[0].note"
       ]
     },
     {
-      "t": "186 établissements · gras = un diplômé de la promotion 2025 s’y est inscrit",
-      "of": "1ed0f555",
+      "t": "249 établissements · en gras = un diplômé de la promotion 2025 ou 2026 s’y est inscrit",
+      "of": "7cdc0e58",
       "at": [
         "charlotte-christian:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "Plus de $3M de bourses académiques offertes · promotion 2026",
+      "of": "8c9d7af9",
+      "at": [
+        "charlotte-christian:outcomes.scholarships[0]"
       ]
     },
     {
       "t": "$6.4M de bourses · promotion 2025",
       "of": "ed932b5c",
       "at": [
-        "charlotte-christian:outcomes.scholarships[0]"
+        "charlotte-christian:outcomes.scholarships[1]"
       ]
     },
     {
       "t": "$13,875,968 sur les promotions 2023–25",
       "of": "b2208cda",
       "at": [
-        "charlotte-christian:outcomes.scholarships[1]"
+        "charlotte-christian:outcomes.scholarships[2]"
       ]
     },
     {
       "t": "SMU Hunt Leadership Scholars Program",
       "of": "35b1e2a3",
       "at": [
-        "charlotte-christian:outcomes.scholarships[2]"
+        "charlotte-christian:outcomes.scholarships[3]"
       ]
     },
     {
       "t": "environ 90 distinctions publiées nommément une à une",
       "of": "13443b93",
       "at": [
-        "charlotte-christian:outcomes.scholarships[3]"
+        "charlotte-christian:outcomes.scholarships[4]"
       ]
     },
     {
       "t": "Bourses sportives à Florida State, Wake Forest, Kentucky",
       "of": "966d6985",
       "at": [
-        "charlotte-christian:outcomes.scholarships[4]"
+        "charlotte-christian:outcomes.scholarships[5]"
       ]
     },
     {
@@ -3405,8 +3427,8 @@
       ]
     },
     {
-      "t": "**Academic Conservatory** — la qualification publiée la plus solide de l’école, et surtout elle est **inscrite au relevé de notes**, de sorte qu’elle atteint le lecteur du dossier d’admission au lieu de n’exister que dans un CV. Décrite selon les sources comme couvrant six ou huit domaines.",
-      "of": "15525546",
+      "t": "**Academic Conservatory** — la qualification publiée la plus solide de l’école, et surtout elle est **inscrite au relevé de notes**, de sorte qu’elle atteint le lecteur du dossier d’admission au lieu de n’exister que dans un CV. Le profil 2026–27 nomme six domaines — mathématiques et sciences ; beaux-arts ; Bible, philosophie et religion ; anglais ; sciences sociales ; langues du monde — et **20% de la promotion 2026** ont obtenu au moins une distinction.",
+      "of": "f0414ce8",
       "at": [
         "charlotte-christian:edge.levers[0].items[0]"
       ]
@@ -3433,15 +3455,22 @@
       ]
     },
     {
-      "t": "**Seal of Biliteracy** — mis en place en 2019 et décerné sur la base d’un examen de compétence dans deux langues, même si la part de ceux qui l’obtiennent est passée de 11% de la promotion 2021 à 4% de la promotion 2024.",
-      "of": "b0dc4240",
+      "t": "**Seal of Biliteracy** — mis en place en 2019 et attribué sur un examen de compétence dans deux langues, bien que la part des lauréats soit passée de 11% de la promotion 2021 à 4% de la promotion 2024, avant de remonter à 7% de la promotion 2026.",
+      "of": "39ba3b00",
       "at": [
         "charlotte-christian:edge.levers[0].items[4]"
       ]
     },
     {
-      "t": "**Un réseau d’universités chrétiennes avec sa propre adhésion** — Charlotte Christian est membre de **NACCAP**, l’association d’orientation vers les universités chrétiennes, aux côtés de NACAC et SACAC. Sa brochure consacre une catégorie nommée aux universités chrétiennes, et 14% des diplômés s’y inscrivent, avec des filières actives vers Wheaton, Liberty, Samford, Cedarville, Grove City, Baylor et Abilene Christian.",
-      "of": "07701d4c",
+      "t": "**Scholastic Art & Writing** — 54 prix au cours des cinq dernières années, selon le profil 2026–27.",
+      "of": "a4151c72",
+      "at": [
+        "charlotte-christian:edge.levers[0].items[5]"
+      ]
+    },
+    {
+      "t": "**Un réseau d’universités chrétiennes avec sa propre adhésion** — Charlotte Christian est membre de **NACCAP**, l’association d’orientation des universités chrétiennes, aux côtés de NACAC et SACAC. Sa brochure donne aux universités chrétiennes une catégorie à part, et 14% des diplômés s’inscrivent dans l’une d’elles. Des diplômés de la promotion 2026 se sont inscrits à Wheaton, Liberty, Samford, Gordon, Lipscomb et Baylor.",
+      "of": "34b289c7",
       "at": [
         "charlotte-christian:edge.levers[1].items[0]"
       ]
@@ -3454,8 +3483,8 @@
       ]
     },
     {
-      "t": "**Le School Profile comme instrument** — il publie un tableau de bord AP complet avec le détail des AP Scholar, un tableau de GPA en cinq quintiles, le barème de notation, la formule de pondération et le changement de pondération intervenu à la promotion 2019, ainsi que le CEEB 340667.",
-      "of": "cebc2bae",
+      "t": "**Le School Profile comme instrument** — il publie les nombres d’examens AP, d’élèves et d’AP Scholars, un tableau des GPA en cinq quintiles, un GPA du 50% médian (3.604–4.199 pour la promotion 2026), le barème de notation et la formule de pondération, ainsi que le CEEB 340667.",
+      "of": "cac46d1b",
       "at": [
         "charlotte-christian:edge.levers[1].items[2]"
       ]
@@ -3468,29 +3497,29 @@
       ]
     },
     {
-      "t": "L’école ne publie pas de politique de divulgation disciplinaire — la question de savoir si et comment les exclusions temporaires ou les manquements au code d’honneur figurent dans le secondary school report reste sans réponse, malgré l’adhésion à NACAC.",
-      "of": "4e635fc5",
+      "t": "La politique disciplinaire est publiée : l’école suit le Statement of Principles of Good Practice de NACAC et « does not permit the reporting of any disciplinary infractions », mais elle conseille aux élèves de déclarer eux-mêmes toute infraction des grades 9–12 ayant entraîné une exclusion temporaire de l’établissement.",
+      "of": "2c8ebdf9",
       "at": [
         "charlotte-christian:edge.levers[1].note"
       ]
     },
     {
-      "t": "Un tableau de GPA complet en cinq quintiles, publié chaque année — et une inflation des notes visible sur trois ans, chaque seuil montant tandis que le plancher inférieur baissait.",
-      "of": "8155dd05",
+      "t": "Un tableau complet des GPA en cinq quintiles, publié chaque année — et dans le tableau de la promotion 2026, il s’est resserré : le plancher supérieur a fléchi tandis que le bas a nettement progressé.",
+      "of": "3a3167c4",
       "at": [
         "charlotte-christian:wholeClass.headline"
       ]
     },
     {
-      "t": "L’élève médian se situe dans le troisième quintile, à environ 3.69–4.06 en pondéré ; puisque Honors ajoute 0.5 et AP un point entier, un plancher de 4.277 pour le quintile supérieur implique une lourde charge de cours avancés plutôt qu’un parcours sans faute.",
-      "of": "ebec0609",
+      "t": "L’élève médian se situe dans le troisième quintile, à environ 3.80–4.05 en pondéré, et le profil place le GPA du 50% médian de la promotion à 3.604–4.199 sur son échelle de GPA. Les cours Honors ajoutant 0.5 et l’AP un point entier, un plancher de 4.240 pour le quintile supérieur suppose une lourde charge de cours avancés plutôt qu’un dossier parfait.",
+      "of": "cf6ba500",
       "at": [
         "charlotte-christian:wholeClass.subhead"
       ]
     },
     {
-      "t": "— promotion 2025 · 79 candidats sur 94 diplômés (~84%)",
-      "of": "baa6d7b2",
+      "t": "— promotion 2026 · 83 candidats sur 110 diplômés (~75%)",
+      "of": "bf8646ef",
       "at": [
         "charlotte-christian:wholeClass.scoreTables[0].hint"
       ]
@@ -3503,22 +3532,22 @@
       ]
     },
     {
-      "t": "— promotion 2025 · 33 candidats sur 94 diplômés (~35%)",
-      "of": "5bd962ac",
+      "t": "— promotion 2026 · 90 candidats sur 110 diplômés (~82%)",
+      "of": "705d035d",
       "at": [
         "charlotte-christian:wholeClass.scoreTables[1].hint"
       ]
     },
     {
-      "t": "79 candidats au SAT plus 33 à l’ACT pour 94 diplômés implique un recoupement important, et puisque la stratégie « test-optional » est un thème d’accompagnement explicite, certains diplômés n’ont probablement passé ni l’un ni l’autre. L’école ne publie aucun chiffre combiné de « share who tested ».",
-      "of": "77287571",
+      "t": "83 candidats au SAT plus 90 à l’ACT pour 110 diplômés, cela signifie un fort recoupement : beaucoup d’élèves ont passé les deux. Les candidats à l’ACT sont passés de 33 dans la promotion 2025 à 90 dans la promotion 2026 ; le profil n’en donne pas la raison. L’école ne publie aucun chiffre combiné de « part des élèves testés ».",
+      "of": "06814581",
       "at": [
         "charlotte-christian:wholeClass.scoreTables[1].note"
       ]
     },
     {
-      "t": "— le mécanisme de non-classement · GPA pondéré de la promotion 2025 au terme du sixième semestre",
-      "of": "5739afa5",
+      "t": "— le mécanisme sans classement · GPA pondéré de la promotion 2026 jusqu’au sixième semestre",
+      "of": "a4890dfc",
       "at": [
         "charlotte-christian:wholeClass.gpaHint"
       ]
@@ -3559,8 +3588,8 @@
       ]
     },
     {
-      "t": "Les cinq quintiles sont des chiffres publiés par l’école elle-même. Leur comparaison avec le tableau de la promotion 2022 révèle un mouvement notable en trois ans : chaque seuil de quintile a monté — le plancher du premier quintile de 4.133 à 4.277 et celui du troisième de 3.56 à 3.686 — tandis que le plancher du cinquième quintile a BAISSÉ de 2.179 à 1.941. La distribution s’est élevée au sommet et s’est étirée à la base. Aucune distribution non pondérée n’est publiée.",
-      "of": "f52baaef",
+      "t": "Les cinq quintiles sont des chiffres publiés par l’école elle-même. Par rapport au tableau de la promotion 2025, la distribution s’est resserrée en un an : le plancher du premier quintile a fléchi de 4.277 à 4.240, tandis que celui du troisième est passé de 3.686 à 3.804, celui du quatrième de 3.124 à 3.542 et celui du cinquième de 1.941 à 2.269. Le bas de la promotion a bien plus progressé que le haut n’a reculé. Aucune distribution non pondérée n’est publiée.",
+      "of": "b978e75a",
       "at": [
         "charlotte-christian:wholeClass.gpaNote"
       ]
@@ -3615,8 +3644,8 @@
       ]
     },
     {
-      "t": "La liste va de Dartmouth et Duke jusqu’à Central Piedmont Community College, Universal Technical Institute, Brevard, Montreat, Belmont Abbey, Limestone, Winthrop, Wingate et Methodist. Un élève du quatrième ou cinquième quintile, à 3.12 ou en dessous, dispose de destinations réelles et nommées, et la checklist invite les élèves à inclure « every possible type of college that might be of interest ».",
-      "of": "ef7f5927",
+      "t": "La liste va de Duke, Harvard et Columbia jusqu’à Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate et Winthrop. Un élève du quatrième ou du cinquième quintile à 3.54 ou moins a des destinations réelles et nommées, et la checklist demande aux élèves d’inclure « every possible type of college that might be of interest ».",
+      "of": "9ee490f4",
       "at": [
         "charlotte-christian:wholeClass.middle[0].text"
       ]
@@ -3629,8 +3658,8 @@
       ]
     },
     {
-      "t": "14% des diplômés récents s’inscrivent dans une université chrétienne, avec plusieurs inscriptions confirmées de la promotion 2025 à Wheaton, Liberty, Samford, Charleston Southern, Cedarville, Grove City, Baylor et Abilene Christian.",
-      "of": "8e623de2",
+      "t": "14% des diplômés récents s’inscrivent dans une université chrétienne. Des diplômés des promotions 2025 et 2026 se sont inscrits à Wheaton, Liberty, Samford et Baylor. Des diplômés de la promotion 2026 se sont aussi inscrits à Gordon et Lipscomb, et des diplômés de la promotion 2025 à Charleston Southern, Cedarville, Grove City et Abilene Christian.",
+      "of": "e6844045",
       "at": [
         "charlotte-christian:wholeClass.middle[1].text"
       ]
@@ -3643,15 +3672,15 @@
       ]
     },
     {
-      "t": "Universal Technical Institute et Central Piedmont Community College figurent tous deux parmi les admissions, et Central Piedmont parmi les inscriptions effectives. Aucune académie militaire fédérale ne figure sur l’une ou l’autre des listes publiées.",
-      "of": "286ff866",
+      "t": "Central Piedmont Community College figure sur la liste d’admissions. Deux académies militaires fédérales, l’**Air Force Academy** et **West Point**, ont chacune accueilli un diplômé de la promotion 2026.",
+      "of": "fc832972",
       "at": [
         "charlotte-christian:wholeClass.middle[2].text"
       ]
     },
     {
-      "t": "Le profil 2021–22 n’a publié aucun résultat de test, indiquant qu’il disposait de « insufficient testing results to report middle 50% test score ranges » pour la promotion 2022 — il n’existe donc aucune tendance pluriannuelle des tests, et l’édition 2024–25 est la seule à comporter des tranches SAT et ACT.",
-      "of": "2777c1ae",
+      "t": "Le profil 2021–22 ne publiait aucun score, déclarant disposer de « insufficient testing results to report middle 50% test score ranges » pour la promotion 2022 — les éditions 2024–25 et 2026–27 sont donc les seules à donner des fourchettes SAT et ACT, et la tendance des tests ne couvre que deux ans.",
+      "of": "6fe54e20",
       "at": [
         "charlotte-christian:wholeClass.flags[0].text"
       ]
@@ -3664,8 +3693,15 @@
       ]
     },
     {
-      "t": "Un relevé de notes structurellement rigoureux et transparent — examens AP obligatoires, tableau de quintiles complet publié, tableau de bord AP détaillé — associé à la communication la plus mince de cet ensemble en matière de soutien aux apprentissages.",
-      "of": "2f0de7d0",
+      "t": "Trois points que le profil 2026–27 laisse en suspens. Son titre « GPA distribution » porte un astérisque sans note de bas de page correspondante. Le tableau des quintiles ne nomme aucune promotion ; il figure dans la colonne de la promotion 2026 et va « through 6th semester ». Et il ne précise pas si le GPA du 50% médian de 3.604–4.199 est pondéré. Les tranches imprimées laissent aussi de petits écarts entre elles (de 4.220 à 4.240, par exemple).",
+      "of": "a2d1bb50",
+      "at": [
+        "charlotte-christian:wholeClass.flags[2].text"
+      ]
+    },
+    {
+      "t": "Un relevé de notes structurellement rigoureux et transparent — examens AP obligatoires, tableau des quintiles complet et publié, nombres publiés d’examens AP et de Scholars — associé à la communication la plus mince de cet ensemble sur le soutien à l’apprentissage.",
+      "of": "b70f9c0b",
       "at": [
         "charlotte-christian:verdict.headline"
       ]
@@ -3685,22 +3721,22 @@
       ]
     },
     {
-      "t": "« Students in AP classes are required to take the AP exam » — les 89% obtenant 3+ en 2024, contre 78% en 2021, reposent donc sur un vivier non auto-sélectionné et non sur les seuls candidats confiants.",
-      "of": "2b826df5",
+      "t": "« Students in AP classes are required to take the AP exam » — les 94% obtenant 3+ en 2026, après 89% en 2024 et 78% en 2021, reposent donc sur un vivier non auto-sélectionné plutôt que sur les seuls candidats confiants.",
+      "of": "a7deb7ec",
       "at": [
         "charlotte-christian:verdict.points[0].text"
       ]
     },
     {
-      "t": "Le tableau de bord AP est le plus complet de cet ensemble",
-      "of": "d8ba3bc2",
+      "t": "Les nombres AP sont publiés avec le taux",
+      "of": "04497b00",
       "at": [
         "charlotte-christian:verdict.points[1].label"
       ]
     },
     {
-      "t": "examens, élèves, nombre de réussites et ventilation complète des AP Scholar, publiés sur deux ans — 59 distinctions AP Scholar en 2024 et 203 sur les promotions 2023–25.",
-      "of": "d0dc68e9",
+      "t": "le profil 2026–27 imprime 435 examens, 208 élèves et 90 AP Scholars à côté des 94%, de sorte que le taux peut être lu au regard de la taille de la cohorte qui l’a obtenu.",
+      "of": "f67c76e1",
       "at": [
         "charlotte-christian:verdict.points[1].text"
       ]
@@ -3713,8 +3749,8 @@
       ]
     },
     {
-      "t": "cinq quintiles au terme du sixième semestre, de sorte que les universités peuvent situer la tranche d’un élève sans classement — et la comparaison des éditions rend visible, plutôt que cachée, l’évolution des notes sur trois ans.",
-      "of": "f145d8b1",
+      "t": "cinq quintiles jusqu’au sixième semestre, pour que les universités situent la tranche d’un élève sans classement — et la comparaison des éditions rend visible, plutôt que cachée, l’évolution des notes d’une année sur l’autre.",
+      "of": "811bb66c",
       "at": [
         "charlotte-christian:verdict.points[2].text"
       ]
@@ -3790,8 +3826,8 @@
       ]
     },
     {
-      "t": "Votre profil fait état de 14 National Merit finalists sur une fenêtre glissante de 15 ans, contre 16 trois ans plus tôt. Quels ont été les décomptes par promotion pour les cinq dernières années ?",
-      "of": "92ee1dc8",
+      "t": "Votre profil fait état de 12 finalistes National Merit sur une fenêtre glissante de 15 ans, contre 16 six ans plus tôt. Quels étaient les chiffres par promotion pour les cinq dernières années ?",
+      "of": "e5c0fa7e",
       "at": [
         "charlotte-christian:verdict.checklist[4]"
       ]
@@ -3804,17 +3840,24 @@
       ]
     },
     {
-      "t": "Vous affirmez que 99% fréquentent une université de quatre ans, mais la liste nominative des élèves de dernière année en montre environ cinq sur 94 ailleurs. Comment ces 99% sont-ils calculés ?",
-      "of": "5b4dc016",
+      "t": "Vous indiquez que 99% vont dans une université en quatre ans, mais la liste nominative des élèves de terminale de la promotion 2025 en montrait environ cinq sur 94 ailleurs. Comment ce 99% est-il calculé pour les 110 diplômés de la promotion 2026 ?",
+      "of": "a76dcfd3",
       "at": [
         "charlotte-christian:verdict.checklist[6]"
       ]
     },
     {
-      "t": "Quels sont les chiffres de la promotion 2026 — admissions, bourses et tranches de résultats aux tests ? Aucun n’est encore publié.",
-      "of": "cbefe47b",
+      "t": "Votre profil attribue à la double inscription +0.5 en page 1 et +.75 en page 3. Lequel s’applique ?",
+      "of": "8f0f6087",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Où la promotion 2024 s’est-elle inscrite ? Les deux listes publiées ne signalent que les inscriptions des promotions 2025 et 2026.",
+      "of": "b895ee7c",
+      "at": [
+        "charlotte-christian:verdict.checklist[8]"
       ]
     },
     {

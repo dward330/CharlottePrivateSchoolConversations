@@ -636,7 +636,6 @@
 | Springfield College | https://springfield.edu | 200 via redirect from www.springfield.edu |
 | St. Bonaventure University | https://www.sbu.edu | 200 |
 | St. John's University | https://www.stjohns.edu | 200 OK; Queens, NY institution (national/well-known reading; no Carolinas reading applies) |
-| St. John's University-New York | https://www.stjohns.edu | 200 OK; same institution as above, Queens, NY |
 | St. John's University-Queens Campus | https://www.stjohns.edu | 200 OK; same institution as above, Queens, NY campus |
 | St. Joseph's University | https://www.sju.edu | 200 OK; same institution as "Saint Joseph's University" row above, Philadelphia, PA |
 | St. Lawrence University | https://www.stlawu.edu | 200 |
@@ -840,7 +839,6 @@
 | University of Memphis | https://www.memphis.edu | 200 |
 | University of Miami | https://welcome.miami.edu | 200 |
 | University of Michigan | https://umich.edu | 403 (bot-blocked WAF; domain confirmed correct via search corroboration) |
-| University of Michigan-Ann Arbor | https://umich.edu | 403 (bot-blocked WAF; domain confirmed correct via search corroboration) |
 | University of Minnesota | https://twin-cities.umn.edu | 200 (flagship Twin Cities; bare name conventionally refers to it) |
 | University of Minnesota (Twin Cities) | https://twin-cities.umn.edu | 200 |
 | University of Minnesota Twin Cities | https://twin-cities.umn.edu | 200 |
@@ -907,8 +905,6 @@
 | University of Pittsburgh (Bradford) | https://www.upb.pitt.edu | 200 via redirect from www.bradford.pitt.edu |
 | University of Pittsburgh (Johnstown) | https://www.johnstown.pitt.edu | 200 via redirect from www.upj.pitt.edu |
 | University of Pittsburgh (Main Campus) | https://www.pitt.edu | 200 |
-| University of Pittsburgh (Pittsburgh) | https://www.pitt.edu | 200 |
-| University of Pittsburgh-Pittsburgh | https://www.pitt.edu | 200 |
 | University of Puget Sound | https://www.pugetsound.edu | 200 |
 | University of Redlands | https://www.redlands.edu | 200 |
 | University of Rhode Island | https://www.uri.edu | 200 |
@@ -922,7 +918,6 @@
 | University of South Carolina (Beaufort) | https://www.uscb.edu | 200 |
 | University of South Carolina Beaufort | https://www.uscb.edu | 200 |
 | University of South Carolina Upstate | https://uscupstate.edu | 200 via redirect from www.uscupstate.edu |
-| University of South Carolina-Columbia | https://www.sc.edu | 200 |
 | University of South Carolina–Aiken | https://www.usca.edu | 200 |
 | University of South Florida | https://www.usf.edu | 200 |
 | University of South Florida (Main Campus) | https://www.usf.edu | 200 |

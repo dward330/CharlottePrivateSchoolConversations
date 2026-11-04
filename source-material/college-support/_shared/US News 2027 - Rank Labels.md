@@ -475,7 +475,6 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | University of Pennsylvania | National Rank #7 | User's 2026-09-22 PDF print-out |
 | University of Pittsburgh | National Rank #59 | User's 2026-09-22 PDF print-out |
 | University of Pittsburgh (Main Campus) | National Rank #59 | User's 2026-09-22 PDF print-out |
-| University of Pittsburgh (Pittsburgh) | National Rank #59 | User's 2026-09-22 PDF print-out |
 | University of Puget Sound | Liberal Rank #100 | Route B — Liberal Arts list page |
 | University of Rhode Island | National Rank #148 | User's 2026-09-22 PDF print-out |
 | University of Richmond | Liberal Rank #21 | Route B — Liberal Arts list page |
@@ -484,7 +483,6 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | University of San Francisco | National Rank #116 | User's 2026-09-22 PDF print-out |
 | University of South Alabama | National Rank #332 | Route A — profile page, verbatim "In the 2027 edition…" |
 | University of South Carolina | National Rank #121 | User's 2026-09-22 PDF print-out |
-| University of South Carolina-Columbia | National Rank #121 | User's 2026-09-22 PDF print-out (via alias) |
 | University of South Florida | National Rank #100 | User's 2026-09-22 PDF print-out |
 | University of South Florida (Main Campus) | National Rank #100 | User's 2026-09-22 PDF print-out |
 | University of Southern California | National Rank #27 | User's 2026-09-22 PDF print-out |
