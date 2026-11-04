@@ -466,3 +466,54 @@ not give it either. The **College Planning Checklist** it links still does:
 - The counseling page also links this profile at
   https://www.charlottechristian.com/fs/resource-manager/view/f2a08f94-0860-459b-9fc3-e59cfa5ebbca,
   which serves the same "2026-27 Academic & Student Profile".
+
+## Implementation: merged with the 2023–2025 list (2026-11-04)
+
+At the user's request the app **merges** this profile's Classes of 2024–26 list with the
+College & Career Planning brochure's Classes of 2023–25 list rather than replacing it. The
+app's window is now **2023–2026**.
+
+- Profile: 211 institutions. Brochure: 186. On both: 148. Profile only: 63. Brochure only: 38.
+  **Merged: 249.**
+- Bold (`enrolling`) = a Class of 2026 graduate enrolled (profile asterisk, 50) **or** a Class
+  of 2025 graduate enrolled (brochure bold, 48). 77 distinct colleges.
+- Buckets on the merged list (2027 U.S. News tables): Ivy League 4/8 (Columbia, Cornell,
+  Dartmouth, Harvard), Ivy Plus 7/17, Top-75 National 49/75, Top-75 Liberal Arts 20/75,
+  Power Four 54/68, HBCUs 10/107.
+
+**Same institution, two spellings (brochure → profile; the profile's spelling is kept):**
+Arizona State University-Tempe → Arizona State University · University of Colorado-Boulder →
+University of Colorado · Embry-Riddle Aeronautical University-Daytona Beach → Embry-Riddle
+Aeronautical University · Indiana University-Bloomington → Indiana University · University of
+Maryland-College Park → University of Maryland · Miami University-Oxford → Miami University ·
+University of Michigan-Ann Arbor → University of Michigan · Pennsylvania State University →
+Penn State University · University of Pittsburgh-Pittsburgh → University of Pittsburgh · Purdue
+University-Main Campus → Purdue University · Rutgers University-New Brunswick → Rutgers
+University · Savannah College of Art & Design → Savannah College of Art and Design · St. John's
+University-New York → St. John’s University · University of South Carolina-Columbia →
+University of South Carolina · The University of the South → University of the South · The
+University of Tampa → University of Tampa · The University of Tennessee-Knoxville → University
+of Tennessee · Virginia Polytechnic Institute and State University → Virginia Tech · College of
+William and Mary → William & Mary · University of Edinburgh → The University of Edinburgh.
+
+**Not merged, deliberately:** The University of Alabama-Birmingham stays separate from the
+profile's `University of Alabama` (different institutions). The brochure's three named UC
+campuses (Irvine, San Diego, Santa Cruz) stay beside the profile's unnamed `University of
+California`, which may duplicate one of them; the profile does not say which.
+
+**Brochure-only colleges (38):** The University of Alabama-Birmingham, Biola University, Boston
+College, Brevard College, University of California-Irvine, University of California-San Diego,
+University of California-Santa Cruz, University of Cincinnati, Colby College, Cornell
+University, Dark Horse Institute, Emory & Henry College, Florida Agricultural & Mechanical
+University, Georgetown University, University of Illinois at Urbana-Champaign, Loyola Marymount
+University, LeTourneau University, Limestone University, Marymount University, University of
+Mary Washington, University of Massachusetts-Boston, Messiah University, Methodist University,
+Montreat College, North Greenville University, Ohio University, Pace University, Palm Beach
+State College, Presbyterian College, Rensselaer Polytechnic Institute, Ringling College of Art &
+Design, University of Rochester, Shenandoah University, University of South Florida, Stevens
+Institute of Technology, Universal Technical Institute, West Virginia University, Worcester
+Polytechnic Institute.
+
+**Known gap, not fixed here:** `isHbcu()` does not recognise the brochure's spelling `Florida
+Agricultural & Mechanical University`, so FAMU is not counted in the HBCU bucket (10/107). The
+same spelling is untagged on Charlotte Latin's list, so it predates this change.

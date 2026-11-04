@@ -615,6 +615,7 @@
 | Seton Hill University | https://www.setonhill.edu | 200 |
 | Sewanee: The University of the South | https://new.sewanee.edu | 200 via redirect from www.sewanee.edu |
 | Sewanee: University of the South | https://new.sewanee.edu | 200 via redirect from www.sewanee.edu |
+| Shenandoah University | https://www.su.edu | 200 |
 | Siena University | https://www.siena.edu | 200 |
 | Simmons University | https://www.simmons.edu | 200 |
 | Skidmore College | https://www.skidmore.edu | 200 |
@@ -728,6 +729,7 @@
 | United States Military Academy | https://www.westpoint.edu | 200 |
 | United States Military Academy at West Point | https://www.westpoint.edu | 200 |
 | United States Naval Academy | https://www.usna.edu | 200 |
+| Universal Technical Institute | https://www.uti.edu | 200 |
 | University College Dublin | https://www.ucd.ie | 200 |
 | University College London | https://www.ucl.ac.uk | 200 (301 root->www; Cloudflare JS challenge blocks curl UA, domain confirmed correct) |
 | University College London (UK) | https://www.ucl.ac.uk | 200 (301 root->www; Cloudflare JS challenge blocks curl UA, domain confirmed correct) |

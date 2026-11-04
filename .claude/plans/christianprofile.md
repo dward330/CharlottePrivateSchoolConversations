@@ -492,3 +492,17 @@ or a Compare row **would** need approval, which is why the plan puts it in prose
 - Browser spot-check of the College Support section in `es`, `fa` and `hi`. Check the figure
   ranges in particular: for `fa`/`ar`, confirm a range does not reverse (memory
   `rtl-figure-range-reverses`).
+
+## Implementation notes
+
+- **Acceptance list merged, not replaced (user request, 2026-11-04, after Phase 1 review).**
+  The plan swapped the brochure's Classes of 2023–25 list for the profile's 2024–26 list. The
+  user wanted the two merged, so the list is now the **2023–2026** union: 211 + 38
+  brochure-only = **249** institutions, 77 bold (a Class of 2025 *or* 2026 graduate enrolled).
+  20 colleges spelled differently on the two lists are counted once under the profile's
+  spelling. Buckets moved to Ivy 4/8, Ivy+ 7/17, Top-75 National 49/75, Top-75 Liberal Arts
+  20/75, Power Four 54/68 (HBCU unchanged at 10/107), and the Compare window is
+  `(2023–2026)`, which matches Country Day, Covenant Day and Providence Day. Shenandoah and
+  Universal Technical Institute were restored to the URL master and its companion. The full
+  record, including the spelling pairs and the 38 brochure-only names, is in the School
+  Profile 2026-2027 source file. Phase 2 translates the English as merged.
