@@ -421,7 +421,7 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | University of Houston | National Rank #137 | User's 2026-09-22 PDF print-out |
 | University of Illinois | National Rank #34 | User's 2026-09-22 PDF print-out (via alias) |
 | University of Illinois (Urbana-Champaign) | National Rank #34 | User's 2026-09-22 PDF print-out |
-| University of Illinois at Chicago | National Rank #95 | User's 2026-09-22 PDF print-out (via alias) |
+| University of Illinois Chicago | National Rank #95 | User's 2026-09-22 PDF print-out (via alias; key re-spelled 2026-11-04 from "University of Illinois at Chicago") |
 | University of Illinois at Urbana-Champaign | National Rank #34 | User's 2026-09-22 PDF print-out (via alias) |
 | University of Iowa | National Rank #100 | User's 2026-09-22 PDF print-out |
 | University of Kansas | National Rank #148 | User's 2026-09-22 PDF print-out |

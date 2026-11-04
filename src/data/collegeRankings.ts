@@ -334,7 +334,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "University of Idaho": "National Rank #208",
   "University of Illinois": "National Rank #34",
   "University of Illinois (Urbana-Champaign)": "National Rank #34",
-  "University of Illinois at Chicago": "National Rank #95",
+  "University of Illinois Chicago": "National Rank #95",
   "University of Illinois at Urbana-Champaign": "National Rank #34",
   "University of Iowa": "National Rank #100",
   "University of Kansas": "National Rank #148",

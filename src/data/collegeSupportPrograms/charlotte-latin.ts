@@ -1,49 +1,56 @@
 // Charlotte Latin School — the six College Support cards.
 //
 // Every figure is transcribed from the school's OWN published materials —
-// chiefly the 2025–26 Upper School Profile PDF, the College Counseling page, and
-// named news coverage — with archived profile editions (2017–18, 2019–20,
-// 2020–21) used only where explicitly labelled as historical. See
+// chiefly the 2026–27 Upper School Profile PDF, the College Counseling page, and
+// named news coverage — with earlier profile editions (2017–18, 2019–20,
+// 2020–21, 2025–26) used only where explicitly labelled as historical. See
 // source-material/college-support/charlotte-latin/Charlotte Latin - College
-// Support - Redesign Research 2026.md for the hard data and source URLs.
+// Support - School Profile 2026-2027.md for the current hard data, and
+// Charlotte Latin - College Support - Redesign Research 2026.md for the history.
 //
-// Latin is the outlier in this set for WHAT IT WITHHOLDS. The current profile
-// publishes no SAT scores, no ACT scores, no AP score distribution, no GPA
-// distribution, and no rank/quintile/decile table — and it no longer even states
-// the class-rank POLICY or the grading scale that earlier editions carried. The
-// Whole Class Analytics card is therefore built around that documented absence
-// rather than padded: it renders no score tables and no quintiles, and its
-// substance is the learning-difference material and the breadth of the
-// acceptance list, which is the only distributional proxy the school offers.
+// For years Latin was the outlier in this set for what it WITHHELD: from the
+// 2019–20 edition through 2025–26 its profile printed no SAT or ACT scores, no
+// AP results, no grading scale and no class-rank policy. The 2026–27 edition
+// ended that. It prints 2026 AP results by subject, SAT and ACT class means,
+// junior and sophomore grade distributions, the full grading scale and a
+// "does not report class rank" statement. It still prints no percentiles, no
+// GPA distribution and no rank table, so the Whole Class card shows means only
+// (`noPercentiles`) and renders no quintiles.
 //
-// Two research findings are load-bearing here and are surfaced on the cards:
-//
-//  1. The testing data disappeared between the 2017–18 and 2019–20 editions —
-//     a long-standing posture, NOT a recent test-optional-era change.
-//  2. The Learning Resources programme is real (founded 1985) but effectively
-//     unpublished: its program pages were removed (the last Wayback copy is
-//     2025-05), and the live Student Support & Wellness tile holds only a
-//     one-paragraph goal statement. That gap between capability and disclosure
-//     is itself the finding, so it renders rather than being quietly omitted.
+// One research finding is still load-bearing and surfaced on the cards: the
+// Learning Resources programme is real (founded 1985) but effectively
+// unpublished. Its program pages were removed (the last Wayback copy is
+// 2025-05), and the live Student Support & Wellness tile holds only a
+// one-paragraph goal statement. That gap between capability and disclosure is
+// itself the finding, so it renders rather than being quietly omitted.
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
-/* The "College Admission Summary 2023–25" from the 2025–26 profile: 300
-   institutions across three graduating classes. `enrolling` follows the
-   profile's own key — an asterisk marks a college where AT LEAST ONE student
-   matriculated during the period. It is not a count, and it does not mean a
-   student enrolled from every class. Rank labels and buckets are scored against
-   the 2027 U.S. News tables. */
+/* The 2023–2026 acceptance window: two published lists merged, one row per
+   institution. The 2025–26 Upper School Profile printed a "College Admission
+   Summary 2023–25" (300 institutions); the 2026–27 profile prints "2024–26"
+   (292). Together they hold 337 institutions. Where the two lists spell one
+   institution differently, the row carries the official name.
+
+   `enrolling` (bold) follows the NEWER list only — an asterisk on the 2024–26
+   summary, which marks a college where AT LEAST ONE student matriculated during
+   that period. It is not a count. The 2023–25 asterisks are deliberately not
+   carried, so bold shows the latest class data the school publishes (user
+   decision, 2026-11-03). Rank labels and buckets are scored against the 2027
+   U.S. News tables. */
 const colleges = [
+  { name: 'Agnes Scott College', cats: ['lac75'] },
   { name: 'Allegheny College', cats: [] },
   { name: 'American University', cats: [], enrolling: true },
   { name: 'Amherst College', cats: ['lac75'] },
+  { name: 'Anderson University (South Carolina)', cats: [] },
   { name: 'Appalachian State University', cats: [], enrolling: true },
   { name: 'Arizona State University', cats: ['p4'] },
   { name: 'Auburn University', cats: ['p4'], enrolling: true },
   { name: 'Averett University', cats: [] },
   { name: 'Bard College', cats: ['lac75'] },
-  { name: 'Baylor University', cats: ['p4'], enrolling: true },
+  { name: 'Barnard College', cats: ['lac75'] },
+  { name: 'Baylor University', cats: ['p4'] },
   { name: 'Belhaven University', cats: [] },
   { name: 'Belmont Abbey College', cats: [] },
   { name: 'Belmont University', cats: [], enrolling: true },
@@ -53,43 +60,47 @@ const colleges = [
   { name: 'Berry College', cats: [] },
   { name: 'Boston College', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Boston University', cats: ['nu75'], enrolling: true },
-  { name: 'Bowling Green State University', cats: [], enrolling: true },
-  { name: 'Brandeis University', cats: ['nu75'] },
+  { name: 'Bowling Green State University', cats: [] },
+  { name: 'Brandeis University', cats: ['nu75'], enrolling: true },
   { name: 'Brevard College', cats: [] },
   { name: 'Bridgewater College', cats: [] },
   { name: 'Brown University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
+  { name: 'Brunel University London', cats: [] },
   { name: 'Bryn Mawr College', cats: ['lac75'] },
   { name: 'Bucknell University', cats: ['lac75'], enrolling: true },
   { name: 'Butler University', cats: [] },
-  { name: 'California Polytechnic State University (San Luis Obispo)', cats: [], enrolling: true },
+  { name: 'California Polytechnic State University (San Luis Obispo)', cats: [] },
   { name: 'Calvin University', cats: [], enrolling: true },
   { name: 'Campbell University', cats: [] },
   { name: 'Carleton College', cats: ['lac75'] },
   { name: 'Carnegie Mellon University', cats: ['nu75'] },
   { name: 'Carson-Newman University', cats: [] },
-  { name: 'Case Western Reserve University', cats: ['nu75'] },
+  { name: 'Case Western Reserve University', cats: ['nu75'], enrolling: true },
   { name: 'Catawba College', cats: [], enrolling: true },
   { name: 'Centre College', cats: ['lac75'] },
   { name: 'Champlain College', cats: [] },
+  { name: 'City St George’s, University of London', cats: [] },
   { name: 'Clark University', cats: [] },
   { name: 'Clemson University', cats: ['p4'], enrolling: true },
   { name: 'Coastal Carolina University', cats: [] },
+  { name: 'Colby College', cats: ['lac75'] },
   { name: 'Colgate University', cats: ['lac75'], enrolling: true },
   { name: 'College of Charleston', cats: [], enrolling: true },
   { name: 'College of the Atlantic', cats: [] },
-  { name: 'Colorado College', cats: ['lac75'], enrolling: true },
+  { name: 'Colorado College', cats: ['lac75'] },
   { name: 'Colorado School of Mines', cats: [], enrolling: true },
   { name: 'Colorado State University', cats: [] },
+  { name: 'Connecticut College', cats: ['lac75'] },
   { name: 'Cornell University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
+  { name: 'Covenant College', cats: [] },
   { name: 'Creighton University', cats: [] },
   { name: 'Crown College', cats: [] },
-  { name: 'The College of Wooster', cats: [], enrolling: true },
   { name: 'Dartmouth College', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
   { name: 'Davidson College', cats: ['lac75'], enrolling: true },
   { name: 'Denison University', cats: ['lac75'], enrolling: true },
   { name: 'DePaul University', cats: [] },
   { name: 'DePauw University', cats: ['lac75'], enrolling: true },
-  { name: 'Dickinson College', cats: ['lac75'], enrolling: true },
+  { name: 'Dickinson College', cats: ['lac75'] },
   { name: 'Drake University', cats: [] },
   { name: 'Drew University', cats: [] },
   { name: 'Drexel University', cats: [] },
@@ -100,38 +111,42 @@ const colleges = [
   { name: 'Eckerd College', cats: [] },
   { name: 'Elon University', cats: [], enrolling: true },
   { name: 'Embry-Riddle Aeronautical University', cats: [] },
+  { name: 'Embry-Riddle Aeronautical University (Prescott)', cats: [] },
   { name: 'Emerson College', cats: [] },
   { name: 'Emory & Henry University', cats: [] },
   { name: 'Emory University', cats: ['nu75'], enrolling: true },
   { name: 'Endicott College', cats: [] },
+  { name: 'Fairfield University', cats: [] },
   { name: 'Fairmont State University', cats: [], enrolling: true },
   { name: 'Flagler College', cats: [] },
   { name: 'Florida Agricultural and Mechanical University', cats: ['hbcu'] },
   { name: 'Florida Atlantic University', cats: [] },
-  { name: 'Florida International University', cats: [], enrolling: true },
-  { name: 'Florida State University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Florida International University', cats: [] },
+  { name: 'Florida State University', cats: ['nu75', 'p4'] },
   { name: 'Fordham University', cats: [], enrolling: true },
   { name: 'Franklin & Marshall College', cats: ['lac75'] },
   { name: 'Furman University', cats: ['lac75'], enrolling: true },
   { name: 'George Mason University', cats: [], enrolling: true },
-  { name: 'George Washington University', cats: ['nu75'] },
+  { name: 'George Washington University', cats: ['nu75'], enrolling: true },
   { name: 'Georgetown University', cats: ['ivyplus', 'nu75'], enrolling: true },
-  { name: 'Georgia Tech', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Georgia Tech', cats: ['nu75', 'p4'] },
   { name: 'Gettysburg College', cats: ['lac75'] },
+  { name: 'Gonzaga University', cats: [] },
   { name: 'Goucher College', cats: [] },
+  { name: 'Grove City College', cats: [], enrolling: true },
   { name: 'Guilford College', cats: [] },
-  { name: 'Hamilton College', cats: ['lac75'] },
+  { name: 'Hamilton College', cats: ['lac75'], enrolling: true },
   { name: 'Hampden-Sydney College', cats: [], enrolling: true },
   { name: 'Hampshire College', cats: [] },
-  { name: 'Hampton University', cats: ['hbcu'] },
+  { name: 'Hampton University', cats: ['hbcu'], enrolling: true },
   { name: 'Harvard University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
   { name: 'Hawai’i Pacific University', cats: [] },
   { name: 'High Point University', cats: [], enrolling: true },
   { name: 'Hofstra University', cats: [] },
   { name: 'Holy Cross College', cats: [] },
-  { name: 'Howard University', cats: ['hbcu', 'nu75'] },
+  { name: 'Howard University', cats: ['nu75', 'hbcu'] },
   { name: 'Imperial College London', cats: [] },
-  { name: 'Indiana University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Indiana University (Bloomington)', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Iowa State University', cats: ['p4'] },
   { name: 'Ithaca College', cats: [] },
   { name: 'James Madison University', cats: [], enrolling: true },
@@ -139,8 +154,10 @@ const colleges = [
   { name: 'Kean University', cats: [] },
   { name: 'Kent State University', cats: [] },
   { name: 'Kenyon College', cats: ['lac75'], enrolling: true },
+  { name: 'Kettering University', cats: [] },
   { name: 'King’s College London', cats: [] },
   { name: 'Lafayette College', cats: ['lac75'] },
+  { name: 'Lawrence University', cats: [], enrolling: true },
   { name: 'Lehigh University', cats: ['nu75'], enrolling: true },
   { name: 'Leiden University', cats: [] },
   { name: 'Lenoir-Rhyne University', cats: [] },
@@ -150,19 +167,21 @@ const colleges = [
   { name: 'Louisiana State University', cats: ['p4'] },
   { name: 'Loyola Marymount University', cats: [] },
   { name: 'Loyola University Chicago', cats: [] },
-  { name: 'Loyola University Maryland', cats: [] },
+  { name: 'Loyola University Maryland', cats: [], enrolling: true },
   { name: 'Lynn University', cats: [] },
   { name: 'Macalester College', cats: ['lac75'], enrolling: true },
   { name: 'Marquette University', cats: [] },
   { name: 'Marymount Manhattan College', cats: [], enrolling: true },
+  { name: 'Massachusetts College of Pharmacy and Health Sciences', cats: [] },
   { name: 'Massachusetts Institute of Technology', cats: ['ivyplus', 'nu75'], enrolling: true },
   { name: 'McDaniel College', cats: [] },
   { name: 'McGill University', cats: [], enrolling: true },
   { name: 'Mercer University', cats: [] },
+  { name: 'Meredith College', cats: [], enrolling: true },
   { name: 'Methodist University', cats: [] },
   { name: 'Miami University', cats: [], enrolling: true },
   { name: 'Michigan State University', cats: ['nu75', 'p4'] },
-  { name: 'Middlebury College', cats: ['lac75'] },
+  { name: 'Middlebury College', cats: ['lac75'], enrolling: true },
   { name: 'Millikin University', cats: [] },
   { name: 'Mississippi State University', cats: ['p4'] },
   { name: 'Missouri University of Science and Technology', cats: [] },
@@ -170,7 +189,7 @@ const colleges = [
   { name: 'Morgan State University', cats: ['hbcu'] },
   { name: 'Mount Holyoke College', cats: ['lac75'] },
   { name: 'New York University', cats: ['nu75'], enrolling: true },
-  { name: 'North Carolina A & T State University', cats: ['hbcu'], enrolling: true },
+  { name: 'North Carolina A&T State University', cats: ['hbcu'] },
   { name: 'North Carolina Central University', cats: ['hbcu'] },
   { name: 'North Carolina State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'North Carolina Wesleyan University', cats: [] },
@@ -178,35 +197,41 @@ const colleges = [
   { name: 'Northwestern University', cats: ['ivyplus', 'nu75', 'p4'], enrolling: true },
   { name: 'Nova Southeastern University', cats: [] },
   { name: 'Oberlin College', cats: ['lac75'] },
-  { name: 'Occidental College', cats: ['lac75'], enrolling: true },
+  { name: 'Occidental College', cats: ['lac75'] },
   { name: 'Oklahoma City University', cats: [] },
   { name: 'Oklahoma State University', cats: ['p4'] },
   { name: 'Oxford College of Emory University', cats: [], enrolling: true },
-  { name: 'The Ohio State University', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'Pace University', cats: [], enrolling: true },
+  { name: 'Pace University (New York City)', cats: [], enrolling: true },
+  { name: 'Palm Beach Atlantic University', cats: [] },
   { name: 'Parsons Paris at The New School', cats: [] },
-  { name: 'Penn State University', cats: ['nu75', 'p4'] },
+  { name: 'Penn State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Pepperdine University', cats: [] },
   { name: 'Presbyterian College', cats: [] },
+  { name: 'Princeton University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Providence College', cats: [] },
   { name: 'Purdue University', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'Queens University', cats: [], enrolling: true },
+  { name: 'Queen Mary University of London', cats: [], enrolling: true },
+  { name: 'Queens University of Charlotte', cats: [], enrolling: true },
   { name: 'Quinnipiac University', cats: [] },
   { name: 'Randolph-Macon College', cats: [] },
   { name: 'Rensselaer Polytechnic Institute', cats: ['nu75'] },
+  { name: 'Rhodes College', cats: ['lac75'], enrolling: true },
   { name: 'Rice University', cats: ['nu75'], enrolling: true },
-  { name: 'Ringling College of Art and Design', cats: [], enrolling: true },
+  { name: 'Ringling College of Art and Design', cats: [] },
   { name: 'Roanoke College', cats: [], enrolling: true },
   { name: 'Rochester Institute of Technology', cats: [], enrolling: true },
   { name: 'Rollins College', cats: [], enrolling: true },
+  { name: 'Rose-Hulman Institute of Technology', cats: [] },
   { name: 'Rowan University', cats: [] },
   { name: 'Rutgers University (Camden)', cats: [], enrolling: true },
-  { name: 'Rutgers University (New Brunswick)', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Rutgers University (New Brunswick)', cats: ['nu75', 'p4'] },
+  { name: 'Rutgers University (Newark)', cats: ['nu75'] },
   { name: 'Saint Joseph’s University', cats: [] },
   { name: 'Saint Leo University', cats: [] },
   { name: 'Saint Louis University', cats: [] },
   { name: 'Salve Regina University', cats: [] },
-  { name: 'Samford University', cats: [], enrolling: true },
+  { name: 'Samford University', cats: [] },
+  { name: 'Santa Clara University', cats: ['nu75'] },
   { name: 'Sarah Lawrence College', cats: [] },
   { name: 'Savannah College of Art and Design', cats: [] },
   { name: 'School of the Art Institute of Chicago', cats: [] },
@@ -214,38 +239,43 @@ const colleges = [
   { name: 'Seattle University', cats: [] },
   { name: 'Seton Hall University', cats: [] },
   { name: 'Sewanee: The University of the South', cats: ['lac75'], enrolling: true },
-  { name: 'Skidmore College', cats: ['lac75'], enrolling: true },
+  { name: 'Skidmore College', cats: ['lac75'] },
   { name: 'Smith College', cats: ['lac75'] },
-  { name: 'Southern Methodist University', cats: ['p4'], enrolling: true },
+  { name: 'Southern Methodist University', cats: ['p4'] },
   { name: 'Spelman College', cats: ['lac75', 'hbcu'] },
   { name: 'St. Bonaventure University', cats: [], enrolling: true },
   { name: 'St. Lawrence University', cats: ['lac75'] },
   { name: 'St. Olaf College', cats: ['lac75'] },
   { name: 'Stanford University', cats: ['ivyplus', 'nu75', 'p4'] },
-  { name: 'Stevens Institute of Technology', cats: ['nu75'] },
+  { name: 'Stevens Institute of Technology', cats: ['nu75'], enrolling: true },
   { name: 'Stony Brook University', cats: ['nu75'] },
   { name: 'Suffolk University', cats: [] },
-  { name: 'SUNY at New Paltz', cats: [] },
   { name: 'SUNY College of Environmental Science and Forestry', cats: [] },
+  { name: 'SUNY New Paltz', cats: [] },
   { name: 'Swarthmore College', cats: ['lac75'], enrolling: true },
+  { name: 'Sweet Briar College', cats: [] },
   { name: 'Syracuse University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Taylor University', cats: [] },
   { name: 'Temple University', cats: [], enrolling: true },
   { name: 'Texas A&M University', cats: ['nu75', 'p4'] },
   { name: 'Texas Christian University', cats: ['p4'], enrolling: true },
   { name: 'Texas State University', cats: [] },
   { name: 'Texas Tech University', cats: ['p4'] },
+  { name: 'The American University of Paris', cats: [] },
+  { name: 'The American University of Rome', cats: [] },
+  { name: 'The Citadel', cats: [] },
+  { name: 'The College of Wooster', cats: [], enrolling: true },
+  { name: 'The Ohio State University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'The University of Alabama', cats: ['p4'], enrolling: true },
+  { name: 'The University of Queensland', cats: [], enrolling: true },
+  { name: 'The University of Tampa', cats: [], enrolling: true },
+  { name: 'The University of Tennessee, Knoxville', cats: ['p4'], enrolling: true },
   { name: 'Thomas Jefferson University', cats: [] },
   { name: 'Trevecca Nazarene University', cats: [] },
   { name: 'Trinity College', cats: ['lac75'], enrolling: true },
   { name: 'Truman State University', cats: [] },
   { name: 'Tufts University', cats: ['nu75'], enrolling: true },
   { name: 'Tulane University', cats: ['nu75'], enrolling: true },
-  { name: 'The University of Alabama', cats: ['p4'], enrolling: true },
-  { name: 'The University of Queensland', cats: [], enrolling: true },
-  { name: 'The University of Tampa', cats: [], enrolling: true },
-  { name: 'The University of Tennessee', cats: ['p4'], enrolling: true },
-  { name: 'The University of Tennessee (Chattanooga)', cats: [] },
-  { name: 'The University of Texas', cats: ['nu75'], enrolling: true },
   { name: 'Union College', cats: ['lac75'] },
   { name: 'United States Air Force Academy', cats: ['lac75'], enrolling: true },
   { name: 'United States Naval Academy', cats: ['lac75'], enrolling: true },
@@ -254,6 +284,7 @@ const colleges = [
   { name: 'University of Amsterdam', cats: [], enrolling: true },
   { name: 'University of Arizona', cats: ['p4'] },
   { name: 'University of Arkansas', cats: ['p4'], enrolling: true },
+  { name: 'University of British Columbia', cats: [] },
   { name: 'University of California (Berkeley)', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of California (Davis)', cats: ['nu75'] },
   { name: 'University of California (Irvine)', cats: ['nu75'] },
@@ -265,15 +296,16 @@ const colleges = [
   { name: 'University of Chicago', cats: ['ivyplus', 'nu75'] },
   { name: 'University of Cincinnati', cats: ['p4'] },
   { name: 'University of Colorado Boulder', cats: ['p4'], enrolling: true },
-  { name: 'University of Connecticut', cats: ['nu75'] },
+  { name: 'University of Connecticut', cats: ['nu75'], enrolling: true },
+  { name: 'University of Dallas', cats: [] },
   { name: 'University of Dayton', cats: [] },
   { name: 'University of Delaware', cats: [], enrolling: true },
   { name: 'University of Denver', cats: [], enrolling: true },
   { name: 'University of Florida', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Georgia', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Hartford', cats: [] },
-  { name: 'University of Illinois at Chicago', cats: [] },
-  { name: 'University of Illinois at Urbana-Champaign', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Illinois Chicago', cats: [] },
+  { name: 'University of Illinois Urbana-Champaign', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Iowa', cats: ['p4'] },
   { name: 'University of Kansas', cats: ['p4'], enrolling: true },
   { name: 'University of Kentucky', cats: ['p4'], enrolling: true },
@@ -287,18 +319,20 @@ const colleges = [
   { name: 'University of Mississippi', cats: ['p4'], enrolling: true },
   { name: 'University of Missouri', cats: ['p4'] },
   { name: 'University of Missouri (Kansas City)', cats: [] },
+  { name: 'University of Montana', cats: [], enrolling: true },
   { name: 'University of New England', cats: [] },
   { name: 'University of New Hampshire', cats: [], enrolling: true },
-  { name: 'University of North Carolina - Asheville', cats: [], enrolling: true },
-  { name: 'University of North Carolina - Chapel Hill', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'University of North Carolina - Charlotte', cats: [], enrolling: true },
-  { name: 'University of North Carolina - Greensboro', cats: [], enrolling: true },
-  { name: 'University of North Carolina - Wilmington', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Asheville', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Chapel Hill', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of North Carolina at Charlotte', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Greensboro', cats: [], enrolling: true },
+  { name: 'University of North Carolina at Wilmington', cats: [], enrolling: true },
   { name: 'University of North Carolina School of the Arts', cats: [], enrolling: true },
   { name: 'University of Notre Dame', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Oklahoma', cats: ['p4'] },
   { name: 'University of Oregon', cats: ['p4'] },
-  { name: 'University of Pittsburgh', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'University of Pennsylvania', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
+  { name: 'University of Pittsburgh', cats: ['nu75', 'p4'] },
   { name: 'University of Pittsburgh (Bradford)', cats: [] },
   { name: 'University of Rhode Island', cats: [] },
   { name: 'University of Richmond', cats: ['lac75'], enrolling: true },
@@ -309,6 +343,8 @@ const colleges = [
   { name: 'University of Southern California', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Southern Maine', cats: [] },
   { name: 'University of St Andrews', cats: [], enrolling: true },
+  { name: 'University of Tennessee at Chattanooga', cats: [] },
+  { name: 'University of Texas', cats: ['nu75'], enrolling: true },
   { name: 'University of Toronto', cats: [], enrolling: true },
   { name: 'University of Utah', cats: ['p4'] },
   { name: 'University of Vermont', cats: [], enrolling: true },
@@ -316,10 +352,11 @@ const colleges = [
   { name: 'University of Washington', cats: ['nu75', 'p4'] },
   { name: 'University of Wisconsin', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Valparaiso University', cats: [] },
-  { name: 'Vanderbilt University', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'Vassar College', cats: ['lac75'], enrolling: true },
-  { name: 'Villanova University', cats: ['nu75'] },
+  { name: 'Vanderbilt University', cats: ['nu75', 'p4'] },
+  { name: 'Vassar College', cats: ['lac75'] },
+  { name: 'Villanova University', cats: ['nu75'], enrolling: true },
   { name: 'Virginia Commonwealth University', cats: [] },
+  { name: 'Virginia State University', cats: ['hbcu'] },
   { name: 'Virginia Tech', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Wake Forest University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Washington and Lee University', cats: ['lac75'], enrolling: true },
@@ -331,13 +368,22 @@ const colleges = [
   { name: 'Western Carolina University', cats: [] },
   { name: 'Wheaton College - IL', cats: ['lac75'] },
   { name: 'William & Mary', cats: ['nu75'], enrolling: true },
+  { name: 'William Peace University', cats: [], enrolling: true },
   { name: 'Williams College', cats: ['lac75'], enrolling: true },
   { name: 'Wingate University', cats: [], enrolling: true },
+  { name: 'Winston-Salem State University', cats: ['hbcu'] },
   { name: 'Wofford College', cats: ['lac75'], enrolling: true },
+  { name: 'Worcester Polytechnic Institute', cats: ['nu75'] },
+  { name: 'Xavier University', cats: [] },
   { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
 ]
 
-const PROFILE =
+// The current edition. Every present-tense claim cites this one.
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1793645005/charlottelatin/izzo9suck4uojytpwadd/2026_27UpperSchoolProfileforCC1.pdf'
+// The previous edition, still live at its own URL: the source for the 2023–25
+// half of the acceptance list and for what the profile used to omit.
+const PROFILE_2526 =
   'https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf'
 const COUNSELING = 'https://www.charlottelatin.org/academics/college-counseling'
 const PROFILE_1718 =
@@ -464,36 +510,37 @@ export const charlotteLatin: CollegeSupportProgram = {
   },
   transcript: {
     headline:
-      'Students in AP classes are required to sit the exam — but unlike its peers, Latin publishes no AP score distribution at all, so the results of that policy are invisible.',
+      'Students in AP classes must sit the exam — and in 2026, 92% of the 833 exams Latin students took scored 3 or higher, with a mean score of 4.10.',
     subhead:
-      'What the profile does give a reader is an unusually candid warning about its own maths placement, and a 23-subject AP catalogue that now includes the very new AP Cybersecurity.',
+      'The profile also carries an unusually candid warning about its own maths placement, and a spring-2026 decision to weight Advanced maths and science courses +0.5, applied retroactively from the Class of 2027.',
     stats: [
-      { value: '23', label: 'AP subjects offered — exams required of AP students' },
-      { value: 'Not published', label: 'AP exams sat, % scoring 3+, and score distribution' },
-      { value: '418', label: 'AP Scholar awards across the Classes of 2023–25' },
+      { value: '24', label: 'AP subjects offered — exams required of AP students' },
+      { value: '92%', label: 'of 833 AP exams scored 3+ (2026, 308 students)' },
+      { value: '357', label: 'AP Scholar awards across the Classes of 2024–26' },
       { value: '12 / 18', label: 'National Merit Semifinalists / Commended, Class of 2026' },
     ],
     merit: [
       { year: '2026', detail: '**12** Semifinalists · **18** Commended — all named in the school’s own announcement' },
       { year: '2024', detail: '**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)' },
-      { year: '2023–25', detail: '**20** Semifinalists · **46** Commended across the three classes (profile aggregate)' },
+      { year: '2024–26', detail: '**27** Semifinalists · **50** Commended across the three classes (2026–27 profile aggregate)' },
+      { year: '2023–25', detail: '**20** Semifinalists · **46** Commended across the three classes (2025–26 profile aggregate)' },
       { year: '2018–20', detail: '25 Semifinalists · 34 Commended · 7 National Hispanic Scholars' },
       { year: '2015–17', detail: '34 Semifinalists · 33 Commended · 2 National Achievement Semifinalists' },
     ],
     meritNote:
-      'The Class of 2026 alone produced 12 Semifinalists — more than half the 20 recorded across the three preceding classes combined. Both figures are school-published and the surge is real per the sources, but the school does not explain it. Note too that the current profile reports Semifinalists and Commended only: it no longer reports Finalists, so Finalist counts for 2023, 2025 and 2026 are unpublished.',
+      'The Class of 2026 alone produced 12 Semifinalists — more than half the 20 recorded across the three preceding classes combined. Both figures are school-published and the surge is real per the sources, but the school does not explain it. Note too that both recent profile editions report Semifinalists and Commended only: neither reports Finalists, so Finalist counts for 2023, 2025 and 2026 are unpublished.',
     depth: [
       {
         label: 'Mathematics',
-        text: 'The ceiling is **AP Calculus BC** — there is no multivariable calculus and no linear algebra. Honors Data Analytics and Honors Probability & Statistics run alongside rather than beyond it. A genuine ceiling worth noting.',
+        text: 'The ceiling is **AP Calculus BC** — there is no multivariable calculus and no linear algebra. Honors Data Analytics, Honors Intro to Probability & Statistics and Honors Graphs, Governance & Games: Applied Mathematics run alongside rather than beyond it. A genuine ceiling worth noting.',
       },
       {
         label: 'Computer science',
-        text: '**Honors Java Data Structures** sits beyond AP CS A, and **AP Cybersecurity 1: Networking Fundamentals** is a very new College Board offering and a real differentiator.',
+        text: '**Honors Java Data Structures** sits beyond AP CS A, and **AP Cybersecurity** and **AP Networking Fundamentals** are now listed as two separate APs — both very new College Board offerings and a real differentiator.',
       },
       {
         label: 'Engineering',
-        text: 'Honors Bioengineering and Honors Electrical Engineering run as non-AP advanced courses — an unusual pairing at high-school level.',
+        text: 'Honors courses in Civil Engineering and Engineering in Motion run as non-AP advanced options, alongside Intro Bioengineering and Intro Electrical Engineering — an unusual range at high-school level.',
       },
       {
         label: 'World language',
@@ -506,32 +553,33 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     trust: [
       {
-        label: 'Weighted — but no longer stated',
-        text: 'A weighted 4-point scale giving **one additional quality point** for AP and Honors, with a full letter/quality-point table. Both appeared in the 2017–18 profile; **neither survives into the 2025–26 edition**.',
+        label: 'Weighted — and stated again',
+        text: 'A weighted 4-point scale (A+ 4.33, A 4.00 for 93–97, down to F 0.00) giving **one additional quality point** for Honors and AP and **one-half point for each Advanced course** except Advanced Functions with Trigonometry. The scale was absent from every edition after 2017–18 and **returned in 2026–27**.',
       },
       {
-        label: 'No rank — also no longer stated',
-        text: '“Charlotte Latin School does not report class rank” appeared in 2017–18 and is gone today, and no quintile or decile table has ever been published. A reader of the current profile cannot tell whether Latin ranks.',
+        label: 'No rank — stated again',
+        text: 'Verbatim: “Charlotte Latin School **does not report class rank**.” The sentence appeared in 2017–18, disappeared, and is back in 2026–27. No quintile or decile table has ever been published.',
       },
       {
         label: 'Candid about maths placement',
-        text: 'The one real interpretive aid the profile offers, verbatim: “As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in ‘standard’ courses**.” An unusually honest warning against misreading a transcript.',
+        text: 'The one real interpretive aid the profile offers, verbatim: “As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in standard and advanced courses**.” An unusually honest warning against misreading a transcript.',
       },
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'The jump from 48 AP Scholars with Distinction (2018–20) to 193 (2023–25) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.',
+        text: 'The jump from 48 AP Scholars with Distinction (2018–20) to 192 (2024–26) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.',
       },
       {
-        kind: 'gap',
-        text: 'The published 2025–26 profile contains an unedited internal editorial comment left in the live document — “We’ll need to somehow check to make sure all these students are still here, yes?” — verbatim in the file served from the school’s own resource manager. It is a proofreading lapse in the one document every admissions office reads.',
+        kind: 'verify',
+        text: 'The 2025–26 edition carried an unremoved internal editorial note; the 2026–27 edition has removed it, and adds AP results, test means, grade distributions and the grading scale — a substantial reversal of the school’s earlier non-disclosure.',
       },
     ],
     sources: [
-      { label: 'charlottelatin.org — 2025–26 Upper School Profile (AP roster, exam policy, AP Scholars, maths note)', url: PROFILE },
-      { label: 'Upper School Profile 2017–18 (marking system, quality points, no-rank statement)', url: PROFILE_1718 },
+      { label: 'charlottelatin.org — 2026–27 Upper School Profile (AP results, exam policy, AP Scholars, marking system, maths note)', url: PROFILE_2627 },
+      { label: 'Upper School Profile 2017–18 (the last edition to print the marking system before 2026–27)', url: PROFILE_1718 },
       { label: 'News — National Merit Semifinalists and Commended Students', url: 'https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/upper-school-salutes-national-merit-semifinalists-and-commended-students' },
+      { label: 'Upper School Course Offerings (Honors Data Analytics, Honors American Studies)', url: 'https://www.charlottelatin.org/academics/upper-school/course-offerings' },
     ],
   },
 
@@ -541,7 +589,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     subhead:
       'Counselors are assigned in freshman year, and the office commits in writing to proofreading each essay and application before submission — a promise most schools decline to make.',
     stats: [
-      { value: '~1:36', label: 'counselors to seniors (derived — no ratio is published)' },
+      { value: '~1:38', label: 'counselors to seniors (derived — no ratio is published)' },
       { value: '9', label: 'office staff — 4 counselors, 3 essay specialists, registrar, admin' },
       { value: '9+ yrs', label: 'documented director tenure (Jody Jennings)' },
       { value: 'SCOIR', label: 'platform, alongside the school’s own MyLatin portal' },
@@ -550,7 +598,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       {
         role: 'Director',
         name: 'Jody Jennings',
-        detail: 'Listed as Director in the 2017–18, 2019–20, 2020–21 and 2025–26 profiles — 9+ years documented.',
+        detail: 'Listed as Director in the 2017–18, 2019–20, 2020–21, 2025–26 and 2026–27 profiles — 9+ years documented.',
         email: 'jody.jennings@charlottelatin.org',
       },
       {
@@ -568,7 +616,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       {
         role: 'Assoc. Director',
         name: 'Alex Segura',
-        detail: 'Newer — appears in 2025–26 but not in the archived editions.',
+        detail: 'Newer — appears in the 2025–26 and 2026–27 profiles but not in the archived editions.',
         email: 'alex.segura@charlottelatin.org',
       },
       {
@@ -622,7 +670,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (586 Upper Schoolers ÷ 4, and 145 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:36 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
+        text: 'Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:38 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
       },
       {
         kind: 'gap',
@@ -631,33 +679,33 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'charlottelatin.org — College Counseling (roster, full 9→12 timeline, SCOIR)', url: COUNSELING },
-      { label: '2025–26 Upper School Profile (enrollment, senior class size, staff masthead)', url: PROFILE },
+      { label: '2026–27 Upper School Profile (enrollment, senior class size, staff masthead)', url: PROFILE_2627 },
       { label: 'Upper School Profile 2017–18 (~100 rep visits, counselor assigned freshman year, reviews every application)', url: PROFILE_1718 },
     ],
   },
 
   outcomes: {
     headline:
-      'Three graduating classes produced acceptances at 300 institutions, 131 of them marked as places where at least one Latin student actually enrolled.',
+      'Four graduating classes produced acceptances at 337 institutions; 132 carry the newest list’s matriculation asterisk — at least one Latin student enrolled there in 2024–26.',
     subhead:
-      'The striking number is breadth: 62 of the 68 Power Four universities appear on the list, the absences being Minnesota, Nebraska, BYU, UCF, Houston and Kansas State.',
+      'The striking number is breadth: 61 of the 68 Power Four universities appear, the absences being Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”), and seven of the eight Ivies — Columbia is the only one missing.',
     stats: [
-      { value: '300', label: 'institutions on the 2023–25 acceptance list' },
-      { value: '131', label: 'carry a matriculation asterisk — 169 do not' },
-      { value: '5 of 8', label: 'Ivy League — absent Columbia, Princeton and Penn' },
+      { value: '337', label: 'institutions on the 2023–26 acceptance lists' },
+      { value: '132', label: 'carry the 2024–26 matriculation asterisk' },
+      { value: '7 of 8', label: 'Ivy League — absent Columbia' },
       { value: '61 of 68', label: 'Power Four universities represented' },
     ],
     buckets: [
-      { tier: 'Ivy League', count: '5 / 8', note: '— all five matriculated; absent Columbia, Princeton, Penn' },
-      { tier: '“Ivy Plus”', count: '12 / 17', note: '— absent Johns Hopkins and Caltech' },
-      { tier: 'Top-75 National Universities', count: '68 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '42 / 75' },
+      { tier: 'Ivy League', count: '7 / 8', note: '— six with a 2024–26 enrollee (all but Princeton); absent Columbia' },
+      { tier: '“Ivy Plus”', count: '14 / 17', note: '— absent Columbia, Johns Hopkins and Caltech' },
+      { tier: 'Top-75 National Universities', count: '73 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '47 / 75' },
       { tier: 'Power Four', count: '61 / 68', note: '— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12' },
-      { tier: 'HBCUs', count: '8 / 107', note: '— Historically Black Colleges & Universities' },
+      { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
     ],
-    collegesTitle: 'Every acceptance, 2023–2025',
+    collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
-    collegesTotal: '300 institutions · bold = at least one student matriculated',
+    collegesTotal: '337 institutions · bold = at least one student enrolled, 2024–26',
     scholarships: [
       '$13M+ merit offers · Class of 2023',
       '231 merit scholarships at 85 colleges (2023)',
@@ -667,11 +715,12 @@ export const charlotteLatin: CollegeSupportProgram = {
       'U.S. Air Force Academy appointment (2025)',
     ],
     scholarshipsNote:
-      'The merit-dollar total stopped being published after the Class of 2023 — the 2024, 2025 and 2026 write-ups carry no figure, and whether the school stopped collecting or stopped publishing it is unclear. Morehead-Cain attaches to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class; Robertson, Jefferson and Belk are attested only in a 2017–18 historical paragraph and should not be read as current pipelines.',
+      'The merit-dollar total stopped being published after the Class of 2023 — the 2024, 2025 and 2026 write-ups carry no figure, and whether the school stopped collecting or stopped publishing it is unclear. Morehead-Cain attaches to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class; Robertson, Jefferson and Belk are attested only in a 2017–18 historical paragraph and should not be read as current pipelines. The 2026–27 profile carries no merit figures either.',
     flags: [],
     sources: [
-      { label: 'charlottelatin.org — 2025–26 Upper School Profile (College Admission Summary 2023–25)', url: PROFILE },
-      { label: 'College Counseling — Acceptances', url: 'https://www.charlottelatin.org/academics/college-counseling/acceptances' },
+      { label: 'charlottelatin.org — 2026–27 Upper School Profile (College Admission Summary 2024–26)', url: PROFILE_2627 },
+      { label: '2025–26 Upper School Profile (College Admission Summary 2023–25)', url: PROFILE_2526 },
+      { label: 'College Counseling — Acceptances (Classes of 2023–25)', url: 'https://www.charlottelatin.org/academics/college-counseling/acceptances' },
       { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
     ],
   },
@@ -699,13 +748,13 @@ export const charlotteLatin: CollegeSupportProgram = {
         title: 'Lever 2 — The school’s leverage',
         glyph: '▲',
         items: [
-          '**The School Profile works against itself.** It is the one document every admissions office reads, and Latin’s current edition omits the grading scale, the weighting statement, the class-rank policy, the CEEB code, the four-year matriculation percentage and all testing data — while carrying an unremoved internal editorial note in the live PDF.',
-          '**The integrity block was deleted wholesale.** All three archived editions carried, verbatim: “Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**.” None of that survives into the current profile.',
-          '**Named-scholarship history was deleted too.** The 2017–18 edition told readers the school’s students had won Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth and Johnson scholarships, and gave application and matriculation breadth. Not one of those sentences survives.',
+          '**The School Profile argues with numbers again.** It is the one document every admissions office reads, and the 2026–27 edition restores the grading scale, the weighting statement and the class-rank policy, and adds AP results and SAT and ACT means after years without them. It still omits a CEEB code, a four-year matriculation percentage and National Merit Finalists.',
+          '**The integrity block was deleted wholesale.** All three archived editions carried, verbatim: “Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**.” None of that survives, and the 2026–27 edition does not restore it.',
+          '**Named-scholarship history was deleted too.** The 2017–18 edition told readers the school’s students had won Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth and Johnson scholarships, and gave application and matriculation breadth. Not one of those sentences survives, and the 2026–27 edition does not restore them.',
           '**What remains is genuine and external** — the NSDA recognition, the Fab Academy node, and the Malone Family Foundation selection are all third-party validations that do not depend on the profile.',
         ],
         note:
-          'The net effect is a school whose real institutional strengths are verifiable elsewhere but are no longer argued for in the document colleges actually read.',
+          'The net effect is a profile that now argues with numbers again, but still omits the integrity statement and the scholarship history earlier editions carried.',
       },
     ],
     flags: [
@@ -717,19 +766,32 @@ export const charlotteLatin: CollegeSupportProgram = {
     sources: [
       { label: 'charlottelatin.org — Speech & Debate', url: 'https://www.charlottelatin.org/leading-programs/student-leadership-development/speech-and-debate' },
       { label: 'Innovation & Design / Fab Lab', url: 'https://www.charlottelatin.org/leading-programs/innovation-design' },
-      { label: '2025–26 Upper School Profile (Malone Scholars, profile defects)', url: PROFILE },
+      { label: '2026–27 Upper School Profile (Malone Scholars, Fab Academy, NSDA 200 Club, what the profile restores and omits)', url: PROFILE_2627 },
+      { label: '2025–26 Upper School Profile (the editorial note, removed in 2026–27)', url: PROFILE_2526 },
       { label: 'Upper School Profile 2017–18 (the deleted integrity and scholarship blocks)', url: PROFILE_1718 },
     ],
   },
 
   wholeClass: {
     headline:
-      'Latin publishes almost no class-level analytics — no SAT, no ACT, no AP score distribution, no GPA distribution, and no rank, quintile or decile table.',
+      'As of 2026–27, Latin publishes its class-level numbers — 2026 AP results, SAT and ACT means, and junior and sophomore grade distributions — but still no percentiles, GPA distribution or rank.',
     subhead:
-      'The absence is the finding, and it cuts both ways: it protects students in the middle of the class from unflattering comparison, and it removes every quantitative lever a strong student might otherwise use to stand out.',
-    // No score tables and no quintiles: the school publishes neither, and the
-    // last testing data it did publish attaches to the Class of 2018.
-    scoreTables: [],
+      'The figures are means, not distributions. A reader can now place a test score against the class average, but not against the spread — there is no middle-50% band and no share of the class above any line.',
+    // The 2026–27 profile prints class MEANS only, so the table is
+    // noPercentiles: a mean is never filed under a percentile column. No GPA
+    // distribution is published, so quintiles stays empty.
+    scoreTables: [
+      {
+        title: 'SAT & ACT class means',
+        hint: '— as of 8/6/26 · testers shown per row',
+        noPercentiles: true,
+        rows: [
+          { label: 'Class of 2026', values: ['SAT 1308.5 (N=123)', 'ACT 27.2 (N=58)'] },
+          { label: 'Class of 2027', values: ['SAT 1303.0 (N=117)', 'ACT 28.8 (N=79)'] },
+        ],
+        note: 'Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The Class of 2026’s size is not printed, so no testing rate can be computed.',
+      },
+    ],
     quintiles: [],
     support: [
       {
@@ -751,40 +813,40 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     middle: [
       {
-        label: 'Breadth is the only available proxy',
-        text: 'Because no GPA or test distribution exists, the 300-institution list is the sole evidence — and it is genuinely broad, spanning Harvard, MIT and Stanford through Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate and Johnson & Wales, many carrying matriculation asterisks.',
+        label: 'Grades are now published',
+        text: 'In the Class of 2027’s junior year, 524 of 833 course grades (63%) were in the A range, and 457 of 806 (57%) in sophomore year — as counted from the profile’s own tables, which omit grades below C−. Beyond grades, the 337-institution list is genuinely broad, spanning Harvard, MIT and Stanford through Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate and Johnson & Wales, many carrying matriculation asterisks.',
       },
       {
         label: 'The regional band is real',
-        text: 'Every UNC-system campus on the list carries a matriculation asterisk, so Latin visibly places students across the whole band rather than only at the top.',
+        text: 'Nine UNC-system campuses carry a 2024–26 matriculation asterisk — Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, the School of the Arts, East Carolina and Appalachian State — so Latin visibly places students across the band rather than only at the top.',
       },
       {
         label: 'Non-traditional destinations',
-        text: 'Service academies including a 2025 Air Force Academy appointment, conservatory and arts institutions, and international universities all appear on the list.',
+        text: 'Service academies (the Naval Academy and The Citadel, plus a 2025 Air Force Academy appointment), conservatory and arts institutions, and international universities including St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill and UBC all appear on the lists.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'No SAT, ACT, AP-distribution, GPA-distribution or rank table is published. Latin asks colleges to trust its transcript while supplying no distributional context to calibrate it — its own candid maths-placement note is one of the very few interpretive aids a reader is given.',
+        text: 'Means only — no percentiles, middle-50% bands, GPA distribution or rank table, and no testing rate.',
       },
       {
         kind: 'verify',
-        text: 'The testing data disappeared in two stages, not one: SAT and ACT results were already absent from the 2019–20 and 2020–21 editions, so the loss happened between 2017–18 and 2019–20. This is a long-standing posture, NOT a recent test-optional-era change, and should not be described as a new development.',
+        text: 'The testing data was absent from every edition between 2019–20 and 2025–26 and returned in 2026–27.',
       },
     ],
     sources: [
-      { label: 'charlottelatin.org — 2025–26 Upper School Profile (the absence of testing and GPA data)', url: PROFILE },
-      { label: 'Upper School Profile 2017–18 (the last published SAT, ACT and AP results)', url: PROFILE_1718 },
+      { label: 'charlottelatin.org — 2026–27 Upper School Profile (test means, AP results, grade distributions)', url: PROFILE_2627 },
+      { label: 'Upper School Profile 2017–18 (the last SAT, ACT and AP results before 2026–27)', url: PROFILE_1718 },
       { label: 'Student Support & Wellness (the Learning Resources tile)', url: 'https://www.charlottelatin.org/leading-programs/student-support-and-wellness' },
     ],
   },
 
   verdict: {
     headline:
-      'Genuinely elite in two narrow places — debate and design engineering — with a stable, unusually well-staffed counseling office, wrapped in the least transparent profile in this set.',
+      'Genuinely elite in two narrow places — debate and design engineering — with a stable, unusually well-staffed counseling office — and, from 2026–27, a profile that publishes its numbers again.',
     subhead:
-      'Almost every open question here is answerable in one conversation, because the information exists; the school simply no longer publishes it.',
+      'The open questions are now about spread and outcomes rather than basic disclosure: the averages are printed, but not the range around them or where each class enrolled.',
     points: [
       {
         label: 'Two externally validated flagship programmes',
@@ -792,7 +854,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'An unusually well-staffed counseling office',
-        text: 'nine people for 145 seniors, including **three dedicated essay specialists** — a role most peer offices simply do not have — with counselors assigned in freshman year.',
+        text: 'nine people for 151 seniors, including **three dedicated essay specialists** — a role most peer offices simply do not have — with counselors assigned in freshman year.',
       },
       {
         label: 'A written commitment peers avoid',
@@ -804,26 +866,26 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Placement breadth across the whole class',
-        text: '300 institutions across three classes with 62 of the 68 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.',
+        text: '337 institutions across four classes with 61 of the 68 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.',
       },
       {
         label: 'The exam requirement is real',
-        text: 'students in AP classes must sit the exam, and four APs are deliberately open-enrollment rather than faculty-gated — so access is broader than the placement gate alone suggests.',
+        text: 'students in AP classes must sit the exam, and seven APs are deliberately open-enrollment rather than faculty-gated — so access is broader than the placement gate alone suggests.',
       },
     ],
     checklist: [
-      'Your profile publishes no SAT, ACT or AP score data. What were the last class’s middle-50% SAT and ACT ranges, how many students tested, and what share of AP exams scored 3 or higher?',
-      'The current profile no longer states your grading scale, your weighting, or whether you report class rank. Do AP and Honors still carry one additional quality point, and do you rank?',
+      'Your profile now prints SAT and ACT means. What are the middle-50% ranges, and what share of the class submitted scores?',
+      'Advanced math and science courses now carry +0.5, applied retroactively from the Class of 2027. How do colleges see that change on a transcript, and are earlier classes’ GPAs restated?',
       'Is there a GPA distribution — quintiles or deciles — that you share with colleges even though it is not in the published profile?',
       'Who is the current Director of Learning Resources, how many LR staff work with Upper School students, and what does a session cost, since it is billed outside tuition?',
-      'Your published profile contains an unremoved internal editorial note. Who reviews that document before it goes to colleges, and when is it next refreshed?',
-      'Columbia, Princeton and Penn do not appear anywhere on the 2023–25 acceptance list. Is that accurate, and how do you read it?',
+      'Your Acceptances page still shows the Classes of 2023–25. Where did the Class of 2026 enroll, college by college?',
+      'Columbia is the only Ivy absent from both recent acceptance lists. Is that accurate, and how do you read it?',
       'You stopped publishing merit-scholarship totals after the Class of 2023. What did the last three classes receive?',
     ],
     flags: [],
     sources: [
       { label: 'charlottelatin.org — College Counseling', url: COUNSELING },
-      { label: '2025–26 Upper School Profile', url: PROFILE },
+      { label: '2026–27 Upper School Profile', url: PROFILE_2627 },
       { label: 'Verdict synthesised by the researcher from the sources cited on the cards above', },
     ],
   },

@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 498 ingested research documents.
+**13 schools × 12 research areas**, 499 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 2 | 2 | 18 | 2 |
-| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 12 | — | 9 | 11 | 2 | 2 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 13 | — | 9 | 11 | 2 | 2 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -682,6 +682,15 @@ counterpart on the other list keeps its printed spelling. Two distinct instituti
 that merely look alike stay separate (College of Charleston / University of
 Charleston; Columbia University / Columbia College).
 
+**Bold in a merged window may come from the newer list only, and `collegesTotal`
+says which years it covers.** The window and the bold need not span the same years:
+Charlotte Latin's rows cover 2023–2026, but bold is the 2024–26 asterisk alone, so it
+shows the latest class data the school publishes (user decision, 2026-11-03), and
+reads "bold = at least one student enrolled, 2024–26". An older list's marker is then
+dropped deliberately, and a comment above `colleges` says so. Whichever lists the bold
+is drawn from, `collegesTotal` names their years, so a reader never takes it for the
+whole window.
+
 **`counseling.roster[].email` is the school's own published address, never a
 guess.** It comes from the counseling page, a staff pop-up or the school directory
 (Finalsite renders it through `FS.util.insertEmail(el, "<domain reversed>",
@@ -1106,7 +1115,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `ap-performance` | AP scoring 3+ | 8/13 | Q sub |
+| `ap-performance` | AP scoring 3+ | 9/13 | Q sub |
 | `bucket-ivy` | Ivy League | 11/13 | Q sub |
 | `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q sub |
 | `bucket-nu75` | Top-75 National Universities | 11/13 | Q sub |
