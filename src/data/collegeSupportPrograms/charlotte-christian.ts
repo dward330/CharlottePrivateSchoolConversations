@@ -725,14 +725,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'gap',
-        text: 'The 2021–22 profile published no test scores at all, stating it had “insufficient testing results to report middle 50% test score ranges” for the Class of 2022 — so the 2024–25 and 2026–27 editions are the only ones carrying SAT and ACT bands, and the test trend is two years deep.',
-      },
-      {
-        kind: 'gap',
-        text: 'No gap-year policy or counselling is published, and neither is any unweighted GPA distribution.',
-      },
-      {
         kind: 'verify',
         text: 'Three things the 2026–27 profile leaves open. Its “GPA distribution” heading carries an asterisk with no matching footnote. The quintile table names no class year; it sits in the Class of 2026 column and runs “through 6th semester”. And it does not say whether the 3.604–4.199 GPA middle 50% is weighted. The printed bands also leave small gaps between them (4.220 to 4.240, for example).',
       },
