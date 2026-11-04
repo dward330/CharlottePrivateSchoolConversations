@@ -1,5 +1,17 @@
 # Davidson Day School — College Support — Acceptance-Window Research (2023–2026 harmonization)
 
+> **Superseded 2026-11-04.** Davidson Day's **2026–27 School Profile** (created 2026-09-29)
+> prints a new **2022–2026** acceptance list (253 institutions). The app now **merges** it
+> into the 2021–2025 list below, giving one **2021–2026** window of 278 institutions. Each
+> institution appears once, under its official name, and nothing from the older list is
+> removed (user decision 2026-11-04: a later list is always merged, never swapped in).
+> Like its predecessor, the merged window is an undifferentiated block that cannot be split
+> by class. The new profile was published at the same Finalsite asset, so the 2025–26 URL
+> cited below now serves the 2026–27 document. The 2025–26 edition survives as a Wayback
+> capture:
+> https://web.archive.org/web/20260307054121/https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf.
+> See `Davidson Day - College Support - School Profile 2026-2027.md` in this folder.
+
 **Provenance:** Researched by Claude via web research + local PDF text extraction, 2026-08-04,
 for the `acceptance-years` plan (harmonize the "Where Graduates Go" window to a 2023 floor).
 **School:** Davidson Day School, 750 Jetton Street, Davidson, NC 28036.
