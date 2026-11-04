@@ -490,7 +490,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'No rank → three summary points',
-        text: 'The Profile gives the Class of 2027 highest (4.67), median (3.93) and lowest (2.58) GPA, transfers excluded — and the profile itself labels them provisional, calculated from a September roster export with 47 of 50 students on file. There is no quintile or decile table, so the shape of the distribution stays hidden.',
+        text: 'The Profile gives the Class of 2027 highest (4.67), median (3.93) and lowest (2.58) GPA, transfers excluded. There is no quintile or decile table, so the shape of the distribution stays hidden.',
       },
       {
         label: 'Unusually explicit exclusions',
@@ -719,7 +719,7 @@ export const davidsonDay: CollegeSupportProgram = {
       { label: 'Lowest', gpa: '2.58', detail: 'the school discloses its floor' },
     ],
     gpaNote:
-      'Three summary points is the entire disclosure — there is no quintile or decile table, so an admissions reader learns the range and the midpoint but nothing about the shape: how tightly the class clusters, how many sit above 4.0, or where the 25th percentile falls. Publishing a 2.58 low alongside a 4.67 high is nonetheless a transparency choice many peer schools avoid — though the 2026–27 Profile itself calls these figures provisional, drawn from 47 of 50 students on file.',
+      'Three summary points is the entire disclosure — there is no quintile or decile table, so an admissions reader learns the range and the midpoint but nothing about the shape: how tightly the class clusters, how many sit above 4.0, or where the 25th percentile falls. Publishing a 2.58 low alongside a 4.67 high is nonetheless a transparency choice many peer schools avoid.',
     support: [
       {
         label: 'The Learning Enrichment Center',

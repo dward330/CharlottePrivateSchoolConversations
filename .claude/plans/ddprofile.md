@@ -491,9 +491,12 @@ Phase 1 (English) built 2026-11-04 on `feat/dd-profile-2627`. Deviations and fin
   taken online". The new one excludes "online courses not sponsored by the school", which
   matters now that two APs run through NC Virtual Public School. `depth` "Beyond campus"
   and `trust[2]` follow the new wording.
-- **`verify` flags are dev-only** (`src/lib/toVerify.ts`), so the provisional-GPA flag
-  never reaches a parent. The disclosure therefore also went into the prose that does
-  render: transcript `trust[1]` (as planned) and the wholeClass `gpaNote` (added).
+- **The provisional-GPA note is dev-only, by user decision (2026-11-04).** `verify` flags
+  render only in dev (`src/lib/toVerify.ts`). The first build also put the note into
+  transcript `trust[1]` and the wholeClass `gpaNote`. After review, the user asked for it
+  to show in dev but not in production, so both prose mentions were removed and only the
+  `verify` flag (quoting the footnote) remains. This replaces step 4's `trust[1]` append
+  and resolves the second Open question.
 - **A pre-existing false claim, fixed.** The Compare caseload tooltip called Davidson Day
   "the lightest caseload here", but Gaston Day is ~18:1. It now reads "second-lightest …,
   after Gaston Day".
