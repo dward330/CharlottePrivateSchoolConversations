@@ -1,11 +1,11 @@
 ---
 name: christianfollowup
 title: Use the rest of Charlotte Christian's 2026–27 profile — fill its empty Arts "Advanced coursework" Compare cell (2 AP + 9 Honors) and correct the Sports coaching card, which still calls Shonn Brown Upper School Principal (he is Associate Head of School; Dr. Phil Masters is Principal)
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-04
 branch: feat/christian-profile-followup
-prs: []
+prs: [422]
 ---
 
 # Use the rest of Charlotte Christian's 2026–27 profile
@@ -190,3 +190,17 @@ corrected.
   Run `npm run check:fr` for French.
 - `npm run i18n:leaks -- --lang <code>`, filtered to the changed `at` paths.
 - Browser spot-check of both surfaces in `es` and `fa`.
+
+## Implementation notes
+
+- **Phase 2 used `i18n_splice_work.mjs`** (keyed by stamp) rather than a hand-rolled carry-over:
+  sports had 2 units re-stamped (the Brown detail and tenure role) and metric-values gained 2
+  (the `2 AP + 9 Honors` value and its qual). The new Leadership source label is not an
+  extracted path, so it needed no translation. Titles follow each locale's existing handling:
+  `Associate Head of School` is kept in English where that locale already keeps
+  `Upper School Principal` / `Assistant Head of School`, and fa and ar translate it.
+- **Added at the user's request during Phase 2:** both `kind: 'gap'` flags were removed from
+  Charlotte Christian's College Support card. One was the 2021–22 "insufficient testing results"
+  publication gap, the other "No gap-year policy or counselling is published…". The splice
+  dropped their 2 units from every college-support work file. The research record in
+  `source-material/` is unchanged.
