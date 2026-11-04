@@ -107,6 +107,20 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | Sam Houston State University | National Rank #257 | no National/LAC rank — Regional Universities West (tie) |
 | Hampshire College | Liberal Rank #156 | profile 404s; absent from the 203-row 2027 Liberal Arts list |
 
+## Confirmed Regional-only — never in the master
+
+Checked so a later pass does not re-run the lookup. Each holds a Regional rank
+only in the 2027 edition, so it has no row in the master and no label renders.
+Source: profile-page screenshots taken by the user on a phone, 2026-11-04
+(latinprofile), from usnews.com profile pages.
+
+| Institution | 2027 finding |
+|---|---|
+| Kettering University | #4 in Regional Universities Midwest (profile Rankings tab; the "In the 2027 edition…" sentence was not in frame) |
+| Taylor University | verbatim "In the 2027 edition of Best Colleges, Taylor University is ranked No. 3 in Regional Colleges Midwest." (Upland, IN) |
+| University of Dallas | verbatim "In the 2027 edition of Best Colleges, University of Dallas is ranked No. 10 in Regional Universities West." (tie; Irving, TX) |
+| University of Tennessee at Chattanooga | verbatim "In the 2027 edition of Best Colleges, University of Tennessee at Chattanooga is ranked No. 35 in Regional Universities South." (tie; Chattanooga, TN) |
+
 ## The table
 
 425 institution rows, alphabetical, matching the master exactly.

@@ -751,11 +751,11 @@ Phase 1 (English), built 2026-11-04 on `feat/latin-profile-2627`.
   from the 2027 National Liberal Arts list page (Route B, headed Chrome, Load More): **Liberal
   Rank #68**, cross-checked against St. Lawrence #49 and Sarah Lawrence #125 on the same run,
   both matching the master. It is in the top 75, so Lawrence is tagged `lac75` and **LAC75 is
-  48 / 75** on the card and Compare. The National list fetch for the other four (Kettering,
-  Dallas, Taylor, UT Chattanooga) was refused by the session's permission classifier as
-  bot-check circumvention, so they stay unranked (no label renders). None can move a bucket:
-  Kettering and Taylor are not National Universities or LACs, and the other two cannot be top
-  75 National. They only add a rank label if a later pass gets them.
+  48 / 75** on the card and Compare. The other four were confirmed from the user's phone screenshots of their
+  US News profiles (2026-11-04): Kettering #4 Regional Universities Midwest, Taylor #3
+  Regional Colleges Midwest, Dallas #10 Regional Universities West (tie), UT Chattanooga #35
+  Regional Universities South (tie). Regional ranks are not shown, so none gets a label; they
+  are recorded under "Confirmed Regional-only" in the Rank Labels doc.
 - **Engineering depth row** now cites the profile's grade tables (Honors Civil Engineering and
   Engineering in Motion, Intro Bioengineering and Intro Electrical Engineering). The live course
   page still lists Honors Data Analytics and Honors American Studies, so both stay and the course
