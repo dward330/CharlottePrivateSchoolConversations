@@ -154,6 +154,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "La Salle University": "National Rank #250",
   "Lafayette College": "Liberal Rank #30",
   "Lake Forest College": "Liberal Rank #62",
+  "Lawrence University": "Liberal Rank #68",
   "Lehigh University": "National Rank #44",
   "Lewis & Clark College": "Liberal Rank #97",
   "Liberty University": "National Rank #365",

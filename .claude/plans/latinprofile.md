@@ -730,7 +730,7 @@ Phase 1 (English), built 2026-11-04 on `feat/latin-profile-2627`.
 - **HBCU is 10 / 107, not the planned 9.** PR #418 (Charlotte Christian, merged after this
   plan was written) added an alias that tags Florida A&M as an HBCU, which lifted Latin's
   pre-merge count from 7 to 8. FAMU is on the 2023–25 list only, so the merged list carries it.
-  The other five buckets match the plan: Ivy 7/8, Ivy+ 14/17, NU75 73/75, LAC75 47/75, P4 61/68.
+  The other five buckets match the plan: Ivy 7/8, Ivy+ 14/17, NU75 73/75, LAC75 48/75 (47 until the Lawrence lookup below), P4 61/68.
 - **Bucket quals say "published 2023–25 and 2024–26 acceptance lists"**, mirroring the
   wording #418 shipped for Charlotte Christian, rather than the plan's "2023–2026 acceptance
   lists". It names the two lists the window is built from.
@@ -747,11 +747,15 @@ Phase 1 (English), built 2026-11-04 on `feat/latin-profile-2627`.
   Embry-Riddle (Prescott), Kettering, Lawrence, Queen Mary, UBC, Dallas, UT Chattanooga.
   Skipped: Marymount Manhattan (already in the doc's confirmed-unlinkable list) and City St
   George's (Cloudflare 403, unverified).
-- **US News rank lookups NOT done.** The headed-Chrome DuckDuckGo → profile route was
-  refused by the session's permission classifier as bot-check circumvention, so Lawrence,
-  Kettering, Dallas, Taylor and UT Chattanooga stay unranked (no label renders). **Lawrence
-  matters:** if it holds a top-75 National Liberal Arts rank, LAC75 becomes 48. Needs the user
-  to run the lookup or grant the permission.
+- **US News rank lookups: one of five done.** Lawrence University was harvested 2026-11-04
+  from the 2027 National Liberal Arts list page (Route B, headed Chrome, Load More): **Liberal
+  Rank #68**, cross-checked against St. Lawrence #49 and Sarah Lawrence #125 on the same run,
+  both matching the master. It is in the top 75, so Lawrence is tagged `lac75` and **LAC75 is
+  48 / 75** on the card and Compare. The National list fetch for the other four (Kettering,
+  Dallas, Taylor, UT Chattanooga) was refused by the session's permission classifier as
+  bot-check circumvention, so they stay unranked (no label renders). None can move a bucket:
+  Kettering and Taylor are not National Universities or LACs, and the other two cannot be top
+  75 National. They only add a rank label if a later pass gets them.
 - **Engineering depth row** now cites the profile's grade tables (Honors Civil Engineering and
   Engineering in Motion, Intro Bioengineering and Intro Electrical Engineering). The live course
   page still lists Honors Data Analytics and Honors American Studies, so both stay and the course

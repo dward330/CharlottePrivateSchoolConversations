@@ -30,7 +30,7 @@ wrong-but-plausible number does not stand out. Every figure below was joined by
 | Channel | Rows |
 |---|---|
 | User's 2026-09-22 PDF print-out | 228 |
-| Route B — Liberal Arts list page | 109 |
+| Route B — Liberal Arts list page | 110 |
 | Route A — profile page, verbatim "In the 2027 edition…" | 37 |
 | User's 2026-09-22 PDF print-out (via alias) | 24 |
 | Route B — National list page (via alias) | 21 |
@@ -109,7 +109,7 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 
 ## The table
 
-424 institution rows, alphabetical, matching the master exactly.
+425 institution rows, alphabetical, matching the master exactly.
 
 | Institution | Rank label | Channel |
 |---|---|---|
@@ -246,6 +246,7 @@ Each was checked on its own profile page and holds no National/LAC rank in the
 | Kenyon College | Liberal Rank #41 | Route B — Liberal Arts list page |
 | Lafayette College | Liberal Rank #30 | Route B — Liberal Arts list page |
 | Lake Forest College | Liberal Rank #62 | Route B — Liberal Arts list page |
+| Lawrence University | Liberal Rank #68 | Route B — Liberal Arts list page |
 | Lehigh University | National Rank #44 | User's 2026-09-22 PDF print-out |
 | Lewis & Clark College | Liberal Rank #97 | Route B — Liberal Arts list page |
 | Liberty University | National Rank #365 | Route A — profile page, verbatim "In the 2027 edition…" |
