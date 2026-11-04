@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Course Offerings
-> Distilled from 2 source document(s) in `source-material/course-offerings/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/course-offerings/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-04.
 **Documents:** 2026-2027 Course Selection Catalog, Curriculum Guide
 
 
@@ -433,6 +433,18 @@ Chemistry · Environmental Science · Statistics · Calculus AB · Calculus BC �
 US Government and Politics · **Human Geography** · **Computer Science A** · Psychology ·
 **Spanish Language & Culture** · Studio Art 2-D · AP Seminar · AP Research.
 
+**2026–27 profile (2026-11-04) names 13** (verbatim: "English Language and Composition,
+English Literature and Composition, Biology, Chemistry, Environmental Science, Statistics,
+Calculus AB, US History, Human Geography, US Government and Politics, Studio Art 2-D,
+Seminar, and Research."). Against the 2025-26 sheet, **Calculus BC and Psychology are no
+longer printed and Human Geography is back** (it was on the 2023-24 sheet). All 13 are among
+the 2023-24 sheet's 17, so the three editions together name 17 distinct titles. Its dual
+enrollment line adds: "(Only courses taught by HGCS teachers are offered as dual credit.)"
+Source: https://resources.finalsite.net/images/v1790771210/hgchristianorg/l6paia83bjrvwh9kpm20/2026-2027SchoolProfile.pdf
+(full transcription in `source-material/college-support/hickory-grove-christian/Hickory Grove Christian - College Support - School Profile 2026-2027.md`).
+The 17-course catalog figure stands; the app's course data comes from the 2026–27 Course
+Selection Catalog and does not change.
+
 **S6 (PrivateSchoolReview) reports "17 AP courses" + AP Capstone** and names 16:
 AP Biology · AP Calculus AB · AP Calculus BC · AP Chemistry · AP Computer Science A ·
 AP English Language and Composition · AP English Literature and Composition ·
@@ -541,6 +553,7 @@ department is confirmed to contain, from machine-readable sources:
 - https://resources.finalsite.net/images/v1666012766/hgchristianorg/lptl19pbet7v9eowygvk/NewHGHighSchoolProfile.pdf
 - https://resources.finalsite.net/images/v1699879706/hgchristianorg/obmpbhs6ludijizshc8k/HGCSHSProfileFall23.pdf
 - https://resources.finalsite.net/images/v1759254561/hgchristianorg/zymp8lu0k9m6ndgumpgi/HGCSHSProfileFall25.pdf
+- https://resources.finalsite.net/images/v1790771210/hgchristianorg/l6paia83bjrvwh9kpm20/2026-2027SchoolProfile.pdf
 - https://www.hgchristian.org/academics/guidance/courses
 - https://www.hgchristian.org/academics/high-school
 - https://www.hgchristian.org/academics/high-school/college-and-career-planning/courses

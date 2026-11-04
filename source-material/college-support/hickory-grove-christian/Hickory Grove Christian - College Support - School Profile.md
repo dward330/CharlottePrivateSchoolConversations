@@ -1,5 +1,13 @@
 # Hickory Grove Christian School — College Support (School Profile Research 2026)
 
+> **Superseded in part, 2026-11-04.** The school's 2026–27 High School Profile is now the
+> current edition, recorded in
+> `Hickory Grove Christian - College Support - School Profile 2026-2027.md`. The app's
+> acceptance list is now the merged **2023 + 2025–2026** list of **158** institutions (this
+> file's 132 plus 26 first named on the Class of 2026 list; nothing removed). This file stays
+> the record for the Class of 2023 and Class of 2025 lists and for the Class of 2025
+> attendance buckets (43 / 15 / 7 / 2), which are still the latest counted figures.
+
 **Provenance**
 
 - **Compiled by:** Claude Code deep research pass (`/implement add-hickory-grove-christian`).
