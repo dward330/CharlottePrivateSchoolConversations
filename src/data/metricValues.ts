@@ -137,7 +137,7 @@ const ACCEPTANCE_WINDOWS: Record<string, string> = {
   cannon: '(2022–2026)',
   'carmel-christian': '(years not published)',
   'charlotte-catholic': '(2023–2025)',
-  'charlotte-christian': '(2023–2025)',
+  'charlotte-christian': '(2024–2026)',
   'charlotte-country-day': '(2023–2026)',
   'charlotte-latin': '(2023–2025)',
   'covenant-day': '(2023–2026)',
@@ -296,7 +296,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin, Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.',
     values: {
       cannon: '90%', // 90.16% "Students with Scores 3+", May 2026 (446 exams, 195 students)
-      'charlotte-christian': '89%', // 2024: 265/298 (89%)
+      'charlotte-christian': '94%', // 2026: 94% of 435 exams (2026–27 profile; no pass count printed)
       'charlotte-catholic': '94%', // % of AP scores at 3+, 2024-25 — 1,064 exams, 23 subjects, 345 students. AP exams are MANDATORY in each AP course, so this is a whole-cohort figure
       'charlotte-country-day': '93%', // 2025 overall 93%
       'charlotte-latin': null, // pass rate not published
@@ -311,7 +311,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // reports one), shown under the value.
     subs: {
       cannon: '(2026)',
-      'charlotte-christian': '(2024)',
+      'charlotte-christian': '(2026)',
       'charlotte-catholic': '(2024–25)',
       'charlotte-country-day': '(2025)',
       'covenant-day': '(2026)',
@@ -327,7 +327,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: { kind: 'scope', text: 'About 90% scored 3 or higher in May 2026 (the school reports 90.16% of students with scores 3+; 195 students, 446 exams). A score of 3+ is the level most colleges treat as a passing result.' },
       'covenant-day': { kind: 'scope', text: '96% of AP exams scored 3 or higher in 2026 (179 students took 401 exams; every AP student must sit the exam). A score of 3+ is the level most colleges treat as a passing result.' },
-      'charlotte-christian': { kind: 'scope', text: '89% of AP exams scored 3 or higher in 2024 (265 of 298). A score of 3+ is the level most colleges treat as a passing result.' },
+      'charlotte-christian': { kind: 'scope', text: '94% of AP exams scored 3 or higher in 2026 (435 exams, 208 students; the profile gives no pass count). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-country-day': { kind: 'scope', text: '93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.' },
       'providence-day': { kind: 'scope', text: '94% of AP exams scored 3 or higher in May 2025. A score of 3+ is the level most colleges treat as a passing result.' },
       'carmel-christian': {
@@ -348,7 +348,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: ACCEPTANCE_WINDOWS,
     values: {
       cannon: '7 / 8', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '2 / 8', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-christian': '3 / 8', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '6 / 8', // Cornell, Dartmouth, Harvard, Penn, Princeton, Yale — no Brown, no Columbia. MATRICULATIONS, not acceptances
       'charlotte-country-day': '7 / 8', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '5 / 8', // buckets, collegeSupportPrograms/charlotte-latin.ts
@@ -370,7 +370,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'Yale and Dartmouth, scored across the whole 2019–2025 acceptance window rather than a single class. The denominator is the eight Ivy League institutions.',
       },
       cannon: { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '5 of the 8 Ivy League universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -398,7 +398,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: ACCEPTANCE_WINDOWS,
     values: {
       cannon: '16 / 17', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '4 / 17', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-christian': '5 / 17', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '9 / 17', // the 6 Ivies + Duke, Georgetown, Northwestern
       'charlotte-country-day': '13 / 17', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '12 / 17', // buckets, collegeSupportPrograms/charlotte-latin.ts
@@ -420,7 +420,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'Six of the seventeen “Ivy Plus” institutions — Yale and Dartmouth plus Stanford, Duke, Johns Hopkins and Georgetown — appear across the 2019–2025 acceptance window rather than in any single class.',
       },
       cannon: { kind: 'scope', text: '16 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '4 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '5 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '13 of the 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '12 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '3 of the 17 “Ivy Plus” institutions appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -448,7 +448,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: ACCEPTANCE_WINDOWS,
     values: {
       cannon: '75 / 75', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '40 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-christian': '39 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '36 / 75', // scored against the 2027 US News National Universities table, Classes 2023-2025 matriculation list
       'charlotte-country-day': '71 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '68 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
@@ -470,7 +470,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'U.S. News Top-75 National Universities named on the 2019–2025 acceptance list, scored against the 2027 tables. A seven-year cumulative count, not one class.',
       },
       cannon: { kind: 'scope', text: '75 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '40 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '39 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '71 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '68 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '36 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -498,7 +498,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: ACCEPTANCE_WINDOWS,
     values: {
       cannon: '45 / 75', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '10 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-christian': '19 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '17 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
       'charlotte-country-day': '44 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '42 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
@@ -520,7 +520,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'U.S. News Top-75 National Liberal Arts Colleges on the 2019–2025 list, scored against the 2027 tables. Includes Swarthmore, Middlebury, Davidson, Colby and Bryn Mawr.',
       },
       cannon: { kind: 'scope', text: '45 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '10 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '19 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '44 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '42 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '10 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -548,7 +548,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: ACCEPTANCE_WINDOWS,
     values: {
       cannon: '61 / 68', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '41 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-christian': '50 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '39 / 68', // against the 68-member Power Four roster in _shared/; 40 list rows carry the tag but the two Arizona State campuses are one institution
       'charlotte-country-day': '61 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '61 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
@@ -570,7 +570,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: '43 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.',
       },
       cannon: { kind: 'scope', text: '61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '41 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '50 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-country-day': { kind: 'scope', text: '61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': {
         kind: 'scope',
@@ -867,7 +867,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     lowerIsBetter: true,
     values: {
       cannon: '~26:1', // 105 seniors (Class of 2026) ÷ 4 counselors
-      'charlotte-christian': '~47:1', // effective caseload ~47 seniors/counselor
+      'charlotte-christian': '~55:1', // effective caseload ~55 seniors/counselor (110 ÷ 2, Class of 2026)
       'charlotte-catholic': '~54:1', // COMPUTED, not published — 324 seniors in the Class of 2026 over 6 counselors incl. the Director; ~195:1 across all four grades
       'charlotte-country-day': '~34:1', // ~34–35 seniors/counselor
       'charlotte-latin': '~36:1', // ~36–37 seniors/counselor
@@ -889,7 +889,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'COMPUTED, not published — the school states neither a caseload nor a ratio. 35 seniors in the Class of 2026 over two college-counseling staff (Peter Gangemi, Director; Kristy Smith, Assistant) gives ~18:1; counted against the Director alone it would be 35:1.',
       },
       cannon: { kind: 'scope', text: 'About 26 seniors per dedicated college counselor at peak application season — 105 seniors across 4 counselors. A lower ratio means more counselor time per student.' },
-      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 47 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
+      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 55 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
       'charlotte-country-day': { kind: 'scope', text: 'About 34–35 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
       'charlotte-latin': { kind: 'scope', text: 'About 36–37 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
       'covenant-day': { kind: 'scope', text: '85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.' },

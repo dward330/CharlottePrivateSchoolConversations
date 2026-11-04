@@ -1,5 +1,15 @@
 # Charlotte Christian School — College Support — Acceptance-Window Research (2023–2026 harmonization)
 
+> **Superseded 2026-11-03.** Charlotte Christian's **2026–27 Academic & Student Profile**
+> (PDF created 2026-10-27) prints a full **Classes of 2024–26** acceptance list (213 rows, 211
+> distinct institutions), with an asterisk marking each college where a Class of 2026 graduate
+> enrolled. Finding 2 below — that "no Class of 2026 acceptance list exists" — therefore no
+> longer holds. The app now shows the **2024–2026** list in place of the brochure's 2023–2025
+> list. The new profile was published at the same Finalsite asset as the 2024–25 edition, so the
+> `2024_USprofile_admiss.pdf` URL now serves the 2026–27 document. See
+> `Charlotte Christian - College Support - School Profile 2026-2027.md` in this folder.
+
+
 **Provenance:** Researched by Claude via web research, 2026-08-04, for the `acceptance-years`
 plan (harmonize the "Where Graduates Go" window to a 2023 floor).
 **School:** Charlotte Christian School, 7301 Sardis Road, Charlotte, NC 28270.
