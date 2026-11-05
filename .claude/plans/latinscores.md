@@ -1,11 +1,11 @@
 ---
 name: latinscores
 title: Add Charlotte Latin's SAT and ACT section averages (2026–27 profile) to the Whole Class card — two per-class tables
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-04
 branch: feat/latin-scores
-prs: []
+prs: [426]
 ---
 
 # Add Charlotte Latin's SAT and ACT section averages
@@ -269,3 +269,13 @@ ht, te, fr, fa, it, hi, ar. There are no `src/locales/*.json` changes. The mecha
 | The note's bytes change, so 9 translations go stale for no reason | Copy it from the current file, not from this plan. Step 6 flags it as new if this happened |
 | A figure loses its trailing zero (`650` for `650.0`) | `check_figures.py`, plus the browser assertion on `650.0`, `1303.0` and `29.0` |
 | A section name is put in `values`, where it is never translated | Labels only. Values hold bare figures (step 2) |
+
+## Implementation notes
+
+- Phase 2 ran after `main` was merged into the branch, because PR #425 had changed the
+  College Support work files. The splice then matched the plan exactly: 6 new units,
+  3 retired, the note and six labels carried.
+- In bn, te, fr, it and hi, `ACT Reading` / `ACT Science` stay in English, following
+  each locale's existing `ACT English` / `ACT Math`.
+- Found and left out of scope: in ar/fa, `isolateFigures()` reverses M/D/YY dates
+  (`8/6/26` → `26/8/6`). This was already live in the old hint; see PR #426.
