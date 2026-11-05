@@ -218,6 +218,7 @@ Source: profile-page screenshots taken by the user on a phone, 2026-11-04
 | Fisk University | Liberal Rank #146 | Route B — Liberal Arts list page |
 | Florida A&M University | National Rank #156 | User's 2026-09-22 PDF print-out |
 | Florida Agricultural and Mechanical University | National Rank #156 | User's 2026-09-22 PDF print-out (via alias) |
+| Florida Atlantic University | National Rank #191 | User's 2026-09-22 PDF print-out (added 2026-11-05 for Charlotte Catholic) |
 | Florida Institute of Technology | National Rank #236 | User's 2026-09-22 PDF print-out |
 | Florida International University | National Rank #100 | User's 2026-09-22 PDF print-out |
 | Florida State University | National Rank #59 | User's 2026-09-22 PDF print-out |
@@ -339,6 +340,7 @@ Source: profile-page screenshots taken by the user on a phone, 2026-11-04
 | Rutgers University | National Rank #44 | Route B — National list page (via alias) |
 | Rutgers University (Camden) | National Rank #95 | User's 2026-09-22 PDF print-out |
 | Rutgers University (New Brunswick) | National Rank #44 | User's 2026-09-22 PDF print-out |
+| Sacred Heart University | National Rank #202 | User's 2026-09-22 PDF print-out (added 2026-11-05 for Charlotte Catholic) |
 | Saint Louis University | National Rank #100 | User's 2026-09-22 PDF print-out |
 | Saint Mary's College (Indiana) | Liberal Rank #78 | Route B — Liberal Arts list page |
 | Salem College | Liberal Rank #160 | Route B — Liberal Arts list page |
@@ -451,6 +453,7 @@ Source: profile-page screenshots taken by the user on a phone, 2026-11-04
 | University of Massachusetts | National Rank #59 | Route B — National list page (via alias) |
 | University of Massachusetts (Amherst) | National Rank #59 | User's 2026-09-22 PDF print-out |
 | University of Massachusetts (Boston) | National Rank #202 | User's 2026-09-22 PDF print-out |
+| University of Massachusetts (Lowell) | National Rank #148 | User's 2026-09-22 PDF print-out (added 2026-11-05 for Charlotte Catholic) |
 | University of Memphis | National Rank #288 | User's 2026-09-22 PDF print-out |
 | University of Miami | National Rank #55 | User's 2026-09-22 PDF print-out |
 | University of Michigan | National Rank #25 | Route B — National list page (via alias) |

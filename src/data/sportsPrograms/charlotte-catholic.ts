@@ -33,8 +33,8 @@
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
-const PROFILE =
-  'https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf'
 const SIGN24 =
   'https://catholicnewsherald.com/94-news/schools/9839-15-cchs-student-athletes-commit-to-college-sports'
 const SIGN25 = 'https://sports.yahoo.com/national-signing-day-where-charlotte-111500239.html'
@@ -56,7 +56,7 @@ export const charlotteCatholic: SportsProgram = {
       'CCHS is one of only four parochial schools in the NCHSAA, so a Cougars team is measured against North Carolina’s largest public programs rather than in a private-school bracket.',
     stats: [
       { value: '20', label: 'sports offered' },
-      { value: '74', label: 'state championships since 2000' },
+      { value: '79', label: 'state championships since 2000' },
       { value: '10', label: 'Wachovia / Wells Fargo Cups' },
       { value: '1000+', label: 'alumni who went on to NCAA / NAIA / JUCO play' },
     ],
@@ -103,7 +103,7 @@ export const charlotteCatholic: SportsProgram = {
     footnote:
       'The 20 sports and their names are exactly as the school lists them on its All Sports page — it publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse even though it fields both boys’ and girls’ teams in each, and it groups nothing by season. The season grouping above follows the standard NCHSAA calendar; the school itself publishes the list flat. Level splits are indicative for the same reason: the individual sport pages are navigation boilerplate carrying no rosters or schedules. CCHS has no middle school — it is a 9–12 school — so no team carries an MS level, unlike every PK/K–12 school on this roster.',
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'NCHSAA all-time state cup winners', url: 'https://www.nchsaa.org/all-time-list-of-wells-fargo-state-cup-winners/' },
     ],
   },
@@ -148,7 +148,7 @@ export const charlotteCatholic: SportsProgram = {
   },
 
   record: {
-    headline: '74 state championships since 2000 — and four more in 2026 alone.',
+    headline: '79 state championships since 2000 — and four more in 2026 alone.',
     subhead:
       'Girls soccer went undefeated; both lacrosse programs won in overtime, each ending a twelve-year drought. All NCHSAA titles.',
     seasonLabels: ['2024', '2025', '2026'],
@@ -191,7 +191,7 @@ export const charlotteCatholic: SportsProgram = {
       },
     ],
     didNotWin:
-      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season title ledger, so a blank cell means "no title found for that year", not a verified loss — the 74-title total since 2000 is the school’s own figure and spans far more sports than these four.',
+      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season title ledger, so a blank cell means "no title found for that year", not a verified loss — the 79-title total since 2000 is the school’s own figure and spans far more sports than these four.',
     bars: [
       { program: 'Boys lacrosse (2026)', record: '21–3', pct: 0.875, tag: 'STATE' },
       { program: 'Baseball (2025)', record: '22–6–1', pct: 0.776 },
@@ -205,11 +205,11 @@ export const charlotteCatholic: SportsProgram = {
       },
       {
         program: 'Girls swimming, 2002–2015',
-        text: 'Fourteen consecutive state championships — the longest title streak in the school’s history and the single strongest line in the 74-title total.',
+        text: 'Fourteen consecutive state championships — the longest title streak in the school’s history and the single strongest line in the 79-title total.',
       },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'NCHSAA swimming and diving championships, 2026', url: 'https://www.nchsaa.org/2026-swimming-diving-championships/' },
       { label: 'highschoolot.com — 2026 NCHSAA 6A girls soccer final', url: GSOCCER26 },
       { label: 'highschoolot.com — 2026 NCHSAA 1A-6A boys lacrosse final', url: BLAX26 },
@@ -321,7 +321,7 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Sportsmanship and academics', text: 'The school reports awards for sportsmanship, academic achievement and 100% community-service participation among its student-athletes.' },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'NCHSAA all-time state cup winners', url: 'https://www.nchsaa.org/all-time-list-of-wells-fargo-state-cup-winners/' },
       { label: 'maxpreps.com — Charlotte Catholic Cougars', url: 'https://www.maxpreps.com/nc/charlotte/charlotte-catholic-cougars/' },
     ],
@@ -364,7 +364,7 @@ export const charlotteCatholic: SportsProgram = {
       'The disclosure gap here is unusually sharp. Baseball’s staff page carries eight coaches with full bios including start years, coaching records and professional or draft history, while the other nineteen sports publish nav boilerplate with no named coach at all.',
     sources: [
       { label: 'charlottecatholic.org — Athletics', url: 'https://www.charlottecatholic.org/athletics/all-sports' },
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
     ],
   },
 
@@ -389,7 +389,7 @@ export const charlotteCatholic: SportsProgram = {
       'Atrium Health provision is a genuine structural difference: coverage and continuity come from a hospital system’s staffing model. The school publishes no concussion protocol, no team-physician name and no coverage schedule by sport, so what is available at a given practice or away fixture is not disclosed.',
     sources: [
       { label: 'charlottecatholic.org — Athletics', url: 'https://www.charlottecatholic.org/athletics/all-sports' },
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
     ],
   },
 
@@ -418,7 +418,7 @@ export const charlotteCatholic: SportsProgram = {
       { date: 'Current', text: 'No CCHS-specific NIL deal was found in any published source. The school itself publishes no NIL guidance of its own beyond the association policy it is bound by.' },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'maxpreps.com — Charlotte Catholic Cougars', url: 'https://www.maxpreps.com/nc/charlotte/charlotte-catholic-cougars/' },
     ],
   },

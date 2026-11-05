@@ -1,10 +1,10 @@
 // Charlotte Catholic High School — the five Arts cards.
 //
 // Arts is the largest single department in the CCHS curriculum guide: 39 of the
-// school's 195 courses, more than English, Science or Mathematics. It is also
+// school's 199 courses, more than English, Science or Mathematics. It is also
 // the department where a naive count would badly misrepresent the school —
 // CCHS offers exactly ONE AP arts course (AP Studio Art, code 358), and no AP
-// Music Theory or AP Art History, confirmed by sweeping all 195 courses in the
+// Music Theory or AP Art History, confirmed by sweeping all 199 courses in the
 // guide rather than inferring from a web page. Reported as "1 AP" alone, a
 // 39-course department with twelve Honors ensembles and studios reads as thin.
 // Everything here therefore frames advanced coursework as 1 AP + 12 Honors.
@@ -30,8 +30,8 @@ const FACULTY =
 const FAC = 'https://www.charlottecatholic.org/community/fac'
 const GUIDE =
   'https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf'
-const PROFILE =
-  'https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf'
 const BLUMEY25 =
   'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf'
 const BLUMEY26 =
@@ -113,7 +113,7 @@ export const charlotteCatholic: ArtsProgram = {
     sources: [
       { label: 'charlottecatholic.org — Visual and Performing Arts', url: DEPT },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
     ],
   },
 
@@ -173,7 +173,7 @@ export const charlotteCatholic: ArtsProgram = {
       },
       {
         label: 'Band & percussion',
-        ensembles: ['Concert Band', 'Honors Wind Ensemble', 'Percussion', 'Honors Percussion', 'Marching Band'],
+        ensembles: ['Concert Band', 'Symphonic Band', 'Honors Wind Ensemble', 'Percussion', 'Honors Percussion', 'Marching Band'],
       },
       {
         label: 'After school',
@@ -185,7 +185,7 @@ export const charlotteCatholic: ArtsProgram = {
       },
     ],
     boardNote:
-      'Twelve ensembles carry course codes; Marching Band and Jazz Band operate alongside them, Jazz Band as an after-school group rather than a timetabled course.',
+      'Twelve ensembles carry course codes; Marching Band, Symphonic Band and Jazz Band operate alongside them — percussionists perform as members of the Symphonic Band in all concerts, and Jazz Band is an after-school group rather than a timetabled course.',
     ladderTitle: 'The honors pipeline',
     ladder: [
       { label: 'Entry', text: 'Freshman Men’s or Women’s Chorus (301, 302) — a dedicated ninth-grade rung most schools do not staff separately.' },
@@ -199,6 +199,7 @@ export const charlotteCatholic: ArtsProgram = {
     sources: [
       { label: 'charlottecatholic.org — Visual and Performing Arts', url: DEPT },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
     ],
   },
 
@@ -225,7 +226,7 @@ export const charlotteCatholic: ArtsProgram = {
       { name: 'AP Studio Art', terminal: true },
     ],
     pathNote:
-      'Honors Portfolio Prep (364) runs alongside the upper rungs for students building an application portfolio. AP Studio Art is the department’s ONLY AP course — there is no AP Art History and no AP Music Theory, confirmed by sweeping all 195 courses in the curriculum guide.',
+      'Honors Portfolio Prep (364) runs alongside the upper rungs for students building an application portfolio. AP Studio Art is the department’s ONLY AP course — there is no AP Art History and no AP Music Theory, confirmed by sweeping all 199 courses in the curriculum guide.',
     exhibitsTitle: 'Where the work goes public',
     exhibits: [
       { when: 'Three times a year', name: 'Fine Arts Festivals', detail: 'the department’s own showcase cycle' },
@@ -247,7 +248,7 @@ export const charlotteCatholic: ArtsProgram = {
     subhead:
       'The course catalog and the Blumey record both say more than the school’s own website does.',
     holdsUp: [
-      { label: 'It is the biggest department in the school', text: '**39 of 195 courses** — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
+      { label: 'It is the biggest department in the school', text: '**39 of 199 courses** — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
       { label: 'The honors ladder is real', text: '**Twelve Honors arts courses**, each carrying the same **+1 quality point** as an Honors academic course, so four years in the music wing does not cost a student GPA.' },
       { label: 'Recognition is consistent', text: '**Five Blumey finalists in 2025** — one in every individual performance category — and **five more placements in 2026**. Deep and repeated, across two different shows.' },
       { label: 'The facility is purpose-built and recent', text: 'A **650-seat auditorium dedicated in 2022**, with a darkroom, ceramics studio, broadcast studio and dance studio among **nine named spaces**.' },

@@ -2315,8 +2315,9 @@
         "charlotte-catholic:divisions[0].departments[0].courses[10].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[13].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[14].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[15].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[16].tag",
@@ -2330,6 +2331,7 @@
         "charlotte-catholic:divisions[0].departments[7].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].tag",
         "charlotte-catholic:divisions[0].departments[9].courses[5].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[11].tag",
@@ -4357,11 +4359,11 @@
         "charlotte-catholic:divisions[0].departments[0].courses[9].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[12].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[17].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[7].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[15].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[8].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[18].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[19].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[7].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[12].tag",
@@ -9457,8 +9459,8 @@
       ]
     },
     {
-      "t": "195 حصّة عبر 11 قسمًا إضافةً إلى التسجيل المزدوج — 24 AP و43 Honors و18 Advanced، وVisual & Performing Arts هو أكبر قسم بـ 39 حصّة.",
-      "of": "ee05f62a",
+      "t": "199 حصّة عبر 11 قسمًا إضافةً إلى التسجيل المزدوج — 26 AP و43 Honors و18 Advanced، وVisual & Performing Arts هو أكبر قسم بـ 39 حصّة.",
+      "of": "a21a8d48",
       "at": [
         "charlotte-catholic:divisions[0].teaser"
       ]
@@ -9595,8 +9597,8 @@
       ]
     },
     {
-      "t": "Advanced Placement English 11",
-      "of": "f5be7fc2",
+      "t": "Advanced Placement English 11: English Language and Composition",
+      "of": "b6a3a251",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].title"
       ]
@@ -9630,11 +9632,10 @@
       ]
     },
     {
-      "t": "Advanced Placement English 12",
-      "of": "f4be7e2f",
+      "t": "Advanced Placement English 12: English Literature and Composition",
+      "of": "f8fbbded",
       "at": [
-        "charlotte-catholic:divisions[0].departments[0].courses[13].title",
-        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[0].courses[13].title"
       ]
     },
     {
@@ -9642,6 +9643,13 @@
       "of": "49e16eeb",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
+      ]
+    },
+    {
+      "t": "Advanced Placement English 12: English Language and Composition",
+      "of": "cd8951f0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
       ]
     },
     {
@@ -9694,38 +9702,52 @@
       ]
     },
     {
+      "t": "Academic Skills 9-10, 11-12",
+      "of": "38bc930b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+      ]
+    },
+    {
+      "t": "صُمّمت هذه الحصّة ذات الفصل الدراسي الواحد لطلاب برنامج Academic Achievement الذين أوصى بهم معلّم في برنامج Academic Achievement أو مدرستهم السابقة.",
+      "of": "c8c7bc94",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+      ]
+    },
+    {
       "t": "دعم أكاديمي موجَّه",
       "of": "9b78fbb3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
       ]
     },
     {
       "t": "صُمّمت هذه الحصّة خصّيصًا لطلاب Academic Achievement في الصفوف 10 و11 و12 ممّن معدّلهم GPA 2.9 أو أقل.",
       "of": "a09da7c3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
     },
     {
       "t": "Assistants",
       "of": "60365f5c",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].title"
       ]
     },
     {
       "t": "تُسنَد إلى المساعدين مهام لصالح الإدارة والمرشدين وشؤون الخريجين وCampus Ministry. ويقوم التقييم على استعدادهم للتعلّم ومبادرتهم وأدائهم للمهام المسنَدة والكفاءات التي يُظهرونها في المجال…",
       "of": "bff66572",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
       "t": "Study Hall",
       "of": "7e263085",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[3].title",
         "carmel-christian:divisions[1].departments[8].courses[4].title"
       ]
     },
@@ -9733,21 +9755,21 @@
       "t": "يقضي الطلاب وقتهم في العمل باستقلالية على مقرّراتهم في بيئة خاضعة للإشراف.",
       "of": "126b46c0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
     },
     {
       "t": "Options Scholars",
       "of": "ea23a104",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
       ]
     },
     {
       "t": "Options",
       "of": "353e0d45",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[0].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[1].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[2].tag",
@@ -9768,70 +9790,70 @@
       "t": "سيعمل الطلاب موجّهين أكاديميين من الأقران للمسجَّلين في Options Program. وفي هذا الدور، يبني Options Scholars علاقات أقران ذات معنى مع التعرّف على إعاقات ذهنية ونمائية متنوّعة.",
       "of": "6b3c2edc",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
       ]
     },
     {
       "t": "SAT Prep",
       "of": "b74c7f92",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
       ]
     },
     {
       "t": "صُمّمت هذه الحصّة لمساعدة الطلاب على الاستعداد لاختبار SAT بفعالية. ويُقسَم التدريس إلى مكوّنين رئيسين: Evidence-Based Reading & Writing وMathematics.",
       "of": "66820258",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
     },
     {
       "t": "Sports Ethics",
       "of": "0c47f292",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
       ]
     },
     {
       "t": "يستكشف الطلاب المعنى الأعمق للرياضة من خلال عدسة أخلاقية وفلسفية.",
       "of": "abea03c6",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
     },
     {
       "t": "Honors African American Studies",
       "of": "968a9ea3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
       ]
     },
     {
       "t": "تركّز Honors African American Studies على الشخصيات والحركات التاريخية والسياسية والاقتصادية والاجتماعية التي أثّرت في الأمريكيين السود على مدى أكثر من 400 سنة.",
       "of": "43fa8361",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
       ]
     },
     {
       "t": "Honors Latin American Influence",
       "of": "37717a8b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
       "t": "صُمّمت هذه الحصّة متعدّدة التخصّصات ليستكشف الطلاب التأثير اللاتيني في الولايات المتحدة خلال القرن الماضي.",
       "of": "17c5af7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
       ]
     },
     {
       "t": "Personal Finance",
       "of": "a1435e7b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[4].courses[8].title"
       ]
     },
@@ -9839,42 +9861,42 @@
       "t": "صُمّمت هذه الحصّة لتزويد الطلاب بالمهارات الشخصية اللازمة يوميًّا. وتشمل موضوعات الدراسة فتح حساب مصرفي وإدارة دفتر الشيكات وبطاقة الخصم، وحساب ضريبة الدخل الشخصي وتحليل ضرائب التوظيف.",
       "of": "ea401078",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "Marketing Principles",
       "of": "03b6c714",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
       ]
     },
     {
       "t": "هذه حصّة تمهيدية تساعد الطلاب على التعرّف على عالم الأعمال من منظور تسويقي.",
       "of": "18d8cc71",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
       ]
     },
     {
       "t": "Introduction to Accounting",
       "of": "93ea8a53",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].title"
       ]
     },
     {
       "t": "صُمّمت هذه الحصّة لتقديم فهم للمبادئ الأساسية لدورة المحاسبة كما تنطبق على كيانات الأعمال.",
       "of": "a7b074f0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
       "t": "Advanced Placement Computer Science A",
       "of": "5369b620",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[12].title",
         "cannon:divisions[2].departments[6].courses[1].title",
         "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
       ]
@@ -9883,91 +9905,105 @@
       "t": "تركّز Advanced Placement Computer Science A على منهجية البرمجة الكائنية التوجّه، مع تشديد قوي على حلّ المشكلات وتطوير الخوارزميات.",
       "of": "564d1dca",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+      ]
+    },
+    {
+      "t": "Advanced Placement Computer Science Principles",
+      "of": "81704870",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+      ]
+    },
+    {
+      "t": "صُمّمت AP Computer Science Principles لتعريف الطلاب بالمفاهيم الأساسية لعلوم الحاسوب والتفكير الحوسبي، مع استكشاف أثر الحوسبة في المجتمع.",
+      "of": "fce797db",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
       ]
     },
     {
       "t": "Advanced Placement Cybersecurity Kickstart",
       "of": "01903e11",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
       ]
     },
     {
       "t": "تقدّم AP Cybersecurity مقدّمة واسعة للمجال وتتوافق على نحو وثيق مع حصّة تمهيدية جامعية المستوى في الأمن السيبراني.",
       "of": "8caee700",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
       ]
     },
     {
       "t": "Introduction to STEM",
       "of": "cc9fd807",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
       ]
     },
     {
       "t": "هل تحبّ بناء الأشياء؟ وهل تميل إلى التساؤل عن كيفية عملها؟",
       "of": "e4de0528",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
       ]
     },
     {
       "t": "Introduction to Engineering",
       "of": "1c2acea9",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
       ]
     },
     {
       "t": "صُمّمت Introduction to Engineering لتنمية المفاهيم والمهارات التأسيسية التي تهيّئ الطلاب لحصص أكثر تقدّمًا في الهندسة.",
       "of": "646417ea",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
       ]
     },
     {
       "t": "Honors Electrical and Computing Engineering",
       "of": "b26ae162",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
       ]
     },
     {
       "t": "صُمّمت هذه الحصّة لتهيئة الطلاب لحصص متقدّمة في مجالَي الهندسة الكهربائية وهندسة الحوسبة.",
       "of": "e2038a46",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
     },
     {
       "t": "Honors Civil and Construction Engineering",
       "of": "c7aa0cac",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].title"
       ]
     },
     {
       "t": "صُمّمت هذه الحصّة لتهيئة الطلاب لحصص جامعية المستوى في هذين المجالين. ويستكشف الطلاب مفاهيم التصميم بما فيها أنظمة المباني ومواد البناء والمنشآت والأحمال والنقل والقضايا البيئية…",
       "of": "8e488616",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
     },
     {
       "t": "Honors Engineering Capstone",
       "of": "272f33a0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].title"
       ]
     },
     {
       "t": "تتاح Honors Engineering Capstone للطلاب الذين أنجزوا حصص الهندسة السابقة في CCHS ويهتمّون بالسعي إلى درجة علمية في مجالات الهندسة.",
       "of": "7d1490b7",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].description"
       ]
     },
     {
@@ -10831,17 +10867,31 @@
       ]
     },
     {
+      "t": "Advanced Placement Microeconomics & Macroeconomics",
+      "of": "95982226",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+      ]
+    },
+    {
+      "t": "تتناول هذه الحصّة موضوعات في الاقتصاد الكلّي والاقتصاد الجزئي معًا. وتعادل حصّتين مدّة كلٍّ منهما فصل دراسي في نظرية الاقتصاد الكلّي ونظرية الاقتصاد الجزئي.",
+      "of": "ea8d26ae",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].description"
+      ]
+    },
+    {
       "t": "Advanced Placement European History",
       "of": "b75faf55",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[7].courses[16].title"
       ]
     },
     {
       "t": "تبدأ هذه الحصّة بتوجيه موجز إلى الفلسفة والمنطق. أما بقيّتها فتدرس كيف يعلن الله عن نفسه للناس.",
       "of": "0bb97eaf",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].description",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].description",
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
     },
@@ -11900,8 +11950,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Spanish V:",
-      "of": "ff6c6214",
+      "t": "Advanced Placement Spanish V: Language and Culture",
+      "of": "c2766855",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[26].title"
       ]
@@ -11914,8 +11964,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Spanish VI:",
-      "of": "486bc085",
+      "t": "Advanced Placement Spanish VI: Literature and Culture",
+      "of": "302f4d7f",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[27].title"
       ]
@@ -11933,7 +11983,8 @@
       "at": [
         "charlotte-catholic:divisions[0].departments[11].name",
         "charlotte-catholic:divisions[0].departments[11].courses[0].tag",
-        "charlotte-catholic:divisions[0].departments[11].courses[1].tag"
+        "charlotte-catholic:divisions[0].departments[11].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[11].courses[2].tag"
       ]
     },
     {
@@ -11962,6 +12013,20 @@
       "of": "ef3b3870",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
+      ]
+    },
+    {
+      "t": "Dual Enrollment: Art Appreciation",
+      "of": "e541601b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].title"
+      ]
+    },
+    {
+      "t": "تعرّف هذه الحصّة بأصول الفن وتطوّره التاريخي.",
+      "of": "f51aadb4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
     },
     {

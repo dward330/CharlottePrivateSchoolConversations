@@ -1,21 +1,23 @@
 // Charlotte Catholic High School — the six College Support cards.
 //
-// CCHS publishes a dense two-page School Profile (2025-2026) that carries almost
-// everything these cards want: a full 10-decile GPA chart, exam-level AP
-// performance, mid-50% test ranges with taker counts, a 169-institution
-// matriculation list, a scholarship total, National Merit counts, and the whole
+// CCHS publishes a dense School Profile (2026-2027 edition; the 2025-2026
+// edition is still live) that carries almost everything these cards want: a full
+// 10-decile GPA chart, exam-level AP performance, mid-50% test ranges with taker
+// counts, a three-class matriculation list (two editions merged here: 200
+// institutions), a scholarship total, National Merit counts, and the whole
 // counseling roster with the senior-class size to divide it into. All six cards
 // therefore render with real data behind each sub-block.
 //
 // Every figure is transcribed from the school's OWN published materials — chiefly
-// the School Profile 2025-2026 PDF and the 2026-2027 Curriculum Guide. See
+// the School Profiles 2026-2027 and 2025-2026 and the 2026-2027 Curriculum Guide. See
 // source-material/college-support/charlotte-catholic/ for the hard data, source
 // URLs and gap notes.
 //
 // Four things worth knowing before editing:
 //
-//  1. THIS IS A MATRICULATION LIST, NOT AN ACCEPTANCE LIST. The profile's own
-//     heading reads "COLLEGE MATRICULATION CLASSES OF 2023-2025". A matriculation
+//  1. THIS IS A MATRICULATION LIST, NOT AN ACCEPTANCE LIST. The profiles' own
+//     headings read "COLLEGE MATRICULATION CLASSES OF 2023-2025" (2025-26) and
+//     "… CLASSES OF 2024-2026" (2026-27), merged here. A matriculation
 //     list is structurally smaller than an acceptance list — a student is
 //     accepted at many schools and matriculates at exactly one — so the bucket
 //     counts here are NOT like-for-like against the acceptance-based schools on
@@ -35,7 +37,9 @@
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
-const PROFILE =
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf'
+const PROFILE_2526 =
   'https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf'
 const PROFILE_PAGE = 'https://www.charlottecatholic.org/about-us/school-profile'
 const COUNSELORS =
@@ -46,8 +50,17 @@ const COMMONAPP =
   'https://www.charlottecatholic.org/departments/counseling/college-planning-grades-9-12/common-app-essay-prompts'
 const NCSU = 'https://admissions.ncsu.edu/venue/charlotte-catholic-high-school/'
 
-/* The 169 institutions CCHS graduates matriculated to across the Classes of
-   2023–2025, exactly as printed on the School Profile. Buckets are scored
+/* The 200 institutions CCHS graduates matriculated to across the Classes of
+   2023–2026: the 2025-26 profile's Classes 2023–2025 list (169) merged with the
+   2026-27 profile's Classes 2024–2026 list (168), per the standing rule that a
+   newer list is unioned in and nothing is removed (137 shared, 31 new, 32 kept
+   from the older list only). Where the two editions print one institution
+   differently ('The Citadel' / 'Citadel Military College of South Carolina',
+   'Tulane University' / 'Tulane University of Louisiana', ten more), the
+   existing 2025-26 spelling is kept and the newer one adds no row; new rows use
+   the 2026-27 printing verbatim. 'Holy Cross College' (Notre Dame, IN) is NOT
+   'College of the Holy Cross', and 'West Virginia State University' is NOT
+   'West Virginia University' — both pairs are two institutions. Buckets are scored
    against the 2027 U.S. News tables in the master COLLEGE_RANKINGS and the
    shared Power Four / HBCU rosters in source-material/college-support/_shared/.
    Rank labels are NOT stored here: they resolve from the master at render time.
@@ -55,7 +68,7 @@ const NCSU = 'https://admissions.ncsu.edu/venue/charlotte-catholic-high-school/'
    from the source PDF — names are copied char-for-char, never normalised.
 
    Note the two Arizona State campuses are ONE institution for counting: the
-   Power Four bucket row says 39, while 40 rows below carry the 'p4' tag. */
+   Power Four bucket row says 43, while 44 rows below carry the 'p4' tag. */
 const colleges = [
   { name: 'American University', cats: [] },
   { name: 'Appalachian State University', cats: [] },
@@ -68,10 +81,12 @@ const colleges = [
   { name: 'Belmont University', cats: [] },
   { name: 'Benedict College', cats: ['hbcu'] },
   { name: 'Benedictine College', cats: [] },
+  { name: 'Brenau University', cats: [] },
   { name: 'Bridgewater College', cats: [] },
   { name: 'Bucknell University', cats: ['lac75'] },
   { name: 'California Polytechnic State University (San Luis Obispo)', cats: [] },
   { name: 'Campbell University', cats: [] },
+  { name: 'Cape Fear Community College', cats: [] },
   { name: 'Carnegie Mellon University', cats: ['nu75'] },
   { name: 'Catawba College', cats: [] },
   { name: 'Catholic University of America', cats: [] },
@@ -84,6 +99,8 @@ const colleges = [
   { name: 'College of Charleston', cats: [] },
   { name: 'College of the Holy Cross', cats: ['lac75'] },
   { name: 'Columbia College (Chicago)', cats: [] },
+  { name: 'Columbia University', cats: ['ivy', 'ivyplus', 'nu75'] },
+  { name: 'Concordia University (Montreal)', cats: [] },
   { name: 'Connecticut College', cats: ['lac75'] },
   { name: 'Cornell University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Dartmouth College', cats: ['ivy', 'ivyplus', 'nu75'] },
@@ -98,6 +115,7 @@ const colleges = [
   { name: 'Embry-Riddle Aeronautical University (Daytona Beach)', cats: [] },
   { name: 'Fairfield University', cats: [] },
   { name: 'Flagler College', cats: [] },
+  { name: 'Florida Atlantic University', cats: [] },
   { name: 'Florida International University', cats: [] },
   { name: 'Florida State University', cats: ['nu75', 'p4'] },
   { name: 'Fordham University', cats: [] },
@@ -115,13 +133,17 @@ const colleges = [
   { name: 'Harvard University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Hawai\'i Pacific University', cats: [] },
   { name: 'High Point University', cats: [] },
+  { name: 'Holy Cross College', cats: [] },
   { name: 'Husson University', cats: [] },
   { name: 'Immaculata University', cats: [] },
   { name: 'Indiana University (Bloomington)', cats: ['nu75', 'p4'] },
   { name: 'Jacksonville University', cats: [] },
   { name: 'James Madison University', cats: [] },
+  { name: 'John Carroll University', cats: [] },
+  { name: 'Johns Hopkins University', cats: ['ivyplus', 'nu75'] },
   { name: 'Johnson & Wales University (Charlotte)', cats: [] },
   { name: 'Kansas State University', cats: ['p4'] },
+  { name: 'Kenyon College', cats: ['lac75'] },
   { name: 'Kutztown University of Pennsylvania', cats: [] },
   { name: 'Lafayette College', cats: ['lac75'] },
   { name: 'Liberty University', cats: [] },
@@ -135,9 +157,11 @@ const colleges = [
   { name: 'Meredith College', cats: [] },
   { name: 'Miami University (Oxford)', cats: [] },
   { name: 'Michigan State University', cats: ['nu75', 'p4'] },
+  { name: 'Middle Tennessee State University', cats: [] },
   { name: 'Middlebury College', cats: ['lac75'] },
   { name: 'Midland University', cats: [] },
   { name: 'Mississippi State University', cats: ['p4'] },
+  { name: 'Montana State University', cats: [] },
   { name: 'Montreat College', cats: [] },
   { name: 'New York University', cats: ['nu75'] },
   { name: 'North Carolina State University', cats: ['nu75', 'p4'] },
@@ -149,15 +173,20 @@ const colleges = [
   { name: 'Pellissippi State Community College', cats: [] },
   { name: 'Penn State University (University Park)', cats: ['nu75', 'p4'] },
   { name: 'PennWest Clarion', cats: [] },
+  { name: 'Pepperdine University', cats: [] },
   { name: 'Piedmont University', cats: [] },
   { name: 'Presbyterian College', cats: [] },
   { name: 'Princeton University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'Providence College', cats: [] },
   { name: 'Purdue University (Main Campus)', cats: ['nu75', 'p4'] },
   { name: 'Queens University of Charlotte', cats: [] },
+  { name: 'Quinnipiac University', cats: [] },
   { name: 'Randolph-Macon College', cats: [] },
+  { name: 'Rhodes College', cats: ['lac75'] },
+  { name: 'Ringling College of Art and Design', cats: [] },
   { name: 'Roanoke College', cats: [] },
   { name: 'Rose-Hulman Institute of Technology', cats: [] },
+  { name: 'Sacred Heart University', cats: [] },
   { name: 'Saint Francis University', cats: [] },
   { name: 'Saint Mary\'s College', cats: [] },
   { name: 'Salisbury University', cats: [] },
@@ -167,8 +196,14 @@ const colleges = [
   { name: 'Sewanee: The University of the South', cats: ['lac75'] },
   { name: 'Southern Wesleyan University', cats: [] },
   { name: 'St. Bonaventure University', cats: [] },
+  { name: 'St. John Fisher University', cats: [] },
+  { name: 'Stony Brook University', cats: ['nu75'] },
+  { name: 'Swarthmore College', cats: ['lac75'] },
+  { name: 'Syracuse University', cats: ['nu75', 'p4'] },
+  { name: 'Tallahassee State College', cats: [] },
   { name: 'Texas Christian University', cats: ['p4'] },
   { name: 'The American University of Rome', cats: [] },
+  { name: 'The Hague University of Applied Sciences', cats: [] },
   { name: 'The New England Conservatory of Music', cats: [] },
   { name: 'The Ohio State University', cats: ['nu75', 'p4'] },
   { name: 'The University of Alabama', cats: ['p4'] },
@@ -191,9 +226,13 @@ const colleges = [
   { name: 'University of Florida', cats: ['nu75', 'p4'] },
   { name: 'University of Georgia', cats: ['nu75', 'p4'] },
   { name: 'University of Gloucestershire', cats: [] },
+  { name: 'University of Iowa', cats: ['p4'] },
   { name: 'University of Kentucky', cats: ['p4'] },
   { name: 'University of Louisville', cats: ['p4'] },
   { name: 'University of Lynchburg', cats: [] },
+  { name: 'University of Maryland', cats: ['nu75', 'p4'] },
+  { name: 'University of Massachusetts (Amherst)', cats: ['nu75'] },
+  { name: 'University of Massachusetts (Lowell)', cats: [] },
   { name: 'University of Miami', cats: ['nu75', 'p4'] },
   { name: 'University of Mississippi', cats: ['p4'] },
   { name: 'University of North Carolina at Asheville', cats: [] },
@@ -205,18 +244,23 @@ const colleges = [
   { name: 'University of Oklahoma', cats: ['p4'] },
   { name: 'University of Pennsylvania', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'University of Rhode Island', cats: [] },
+  { name: 'University of Richmond', cats: ['lac75'] },
   { name: 'University of Rochester', cats: ['nu75'] },
   { name: 'University of South Carolina', cats: ['p4'] },
   { name: 'University of South Carolina (Lancaster)', cats: [] },
   { name: 'University of South Florida (Main Campus)', cats: [] },
+  { name: 'University of Southern California', cats: ['nu75', 'p4'] },
+  { name: 'University of Tampa', cats: [] },
   { name: 'University of Virginia (Main Campus)', cats: ['nu75', 'p4'] },
   { name: 'University of Wisconsin (Madison)', cats: ['nu75', 'p4'] },
+  { name: 'University of Wisconsin - La Crosse', cats: [] },
   { name: 'Vanderbilt University', cats: ['nu75', 'p4'] },
   { name: 'Villanova University', cats: ['nu75'] },
   { name: 'Virginia Polytechnic Institute and State University', cats: ['nu75', 'p4'] },
   { name: 'Wake Forest University', cats: ['nu75', 'p4'] },
   { name: 'Wake Technical Community College', cats: [] },
   { name: 'Washington and Lee University', cats: ['lac75'] },
+  { name: 'West Virginia State University', cats: ['hbcu'] },
   { name: 'West Virginia University', cats: ['p4'] },
   { name: 'Western Carolina University', cats: [] },
   { name: 'William & Mary', cats: ['nu75'] },
@@ -350,73 +394,75 @@ export const charlotteCatholic: CollegeSupportProgram = {
     headline:
       'A weighted-only transcript, no class rank, and an AP program where the exam is not optional.',
     subhead:
-      'CCHS adds one quality point for AP and Honors and shows only the weighted GPA — so the number a college reads is already the school-adjusted one.',
+      'CCHS adds one quality point for AP, Honors and Dual Enrollment and shows only the weighted GPA — so the number a college reads is already the school-adjusted one. 69% of the Class of 2026 scored 3 or above on at least one AP exam.',
     stats: [
-      { value: '1,064', label: 'AP exams taken, 2024-25 (345 students, grades 11–12)' },
-      { value: '23', label: 'AP subjects examined' },
+      { value: '1,184', label: 'AP exams taken in 2026 (393 students, grades 11–12)' },
+      { value: '22', label: 'AP subjects examined' },
       { value: '94%', label: 'of AP scores were 3 or above' },
-      { value: '72%', label: 'of AP scores were 4 or 5' },
+      { value: '76%', label: 'of AP scores were 4 or 5' },
     ],
     meritTitle: 'National Merit and service-academy recognition',
     merit: [
+      { year: '2026', detail: '2 National Merit Scholarship winners · 7 Finalists · 11 Commended Students' },
+      { year: '2026', detail: '1 US Naval Academy appointment · 1 US Military Academy appointment' },
       { year: '2025', detail: '2 National Merit Finalists · 11 Commended Students' },
       { year: '2025', detail: '3 US Naval Academy appointments' },
       { year: '2025', detail: 'Army ROTC scholarship at Cornell University' },
     ],
     meritNote:
-      'The profile publishes Finalists and Commended counts but no Semifinalist line, and no multi-year series — so this ledger is a single class, not a trend.',
+      'The profiles publish Finalist and Commended counts, and for 2026 the number of Scholarship winners, but no Semifinalist line. Two classes are shown, each as published — two years are not a trend.',
     depthTitle: 'Where the course path runs past the standard sequence',
     depth: [
       { label: 'Mathematics', text: 'Honors Calculus, AP Calculus AB, AP Calculus BC and AP Statistics sit above Honors Pre-Calculus — four post-Pre-Calc options.' },
       { label: 'Science', text: 'AP Biology, AP Chemistry, AP Environmental Science, AP Physics 1 and AP Physics C: Mechanics, plus Honors Anatomy and Physiology, Honors Nutritional Science, Biotechnology, Forensic Science and Sports Medicine.' },
-      { label: 'Computer science and engineering', text: 'AP Computer Science A and AP Cybersecurity Kickstart, above a four-course engineering strand ending in Honors Engineering Capstone.' },
-      { label: 'Social studies', text: 'AP US History, AP European History, AP Psychology, AP US Government and AP Microeconomics — five AP options in one department.' },
+      { label: 'Computer science and engineering', text: 'AP Computer Science A, AP Computer Science Principles and AP Cybersecurity Kickstart, above a four-course engineering strand ending in Honors Engineering Capstone.' },
+      { label: 'Social studies', text: 'AP US History, AP European History, AP Psychology, AP US Government, AP Microeconomics and a year-long AP Microeconomics & Macroeconomics course — six AP options in one department.' },
       { label: 'World languages', text: 'French, German, Latin and Spanish each run to an AP course; Spanish continues to AP Spanish VI, a sixth-level course.' },
-      { label: 'Classical pathway', text: 'The St. Augustine Scholars Program, new with a 9th-grade cohort in 2025-26, adds a four-year classical track — philosophy, logic, Latin, primary texts and Socratic seminars.' },
+      { label: 'Classical pathway', text: 'The St. Augustine Scholars Program, begun with a 9th-grade cohort in 2025-26 and now running 10th-grade courses, adds a four-year classical track — philosophy, logic, Latin, primary texts and Socratic seminars.' },
     ],
     trustTitle: 'How the grade is engineered to be read',
     trust: [
-      { label: 'Weighted only', text: 'One additional quality point for AP and Honors classes. Only the weighted GPA appears on the transcript — there is no unweighted figure to compare against.' },
+      { label: 'Weighted only', text: 'One additional quality point for AP, Honors and Dual Enrollment classes. Only the weighted GPA appears on the transcript — there is no unweighted figure to compare against.' },
       { label: 'No class rank', text: 'The profile states plainly that "Charlotte Catholic does not rank students." A 10-decile GPA chart is published instead, so a college can place a student without a rank.' },
       { label: 'Load norms stated', text: '"Most demanding" is defined by the school as 2 AP courses in junior year plus 4 in senior year — the reader is told the ceiling rather than left to guess it.' },
       { label: 'AP entry is competitive', text: 'Students apply for each AP course; placement weighs prior coursework and grades, PSAT results and teacher feedback. AP is not open enrollment here.' },
-      { label: 'Honors is rationed early', text: 'A maximum of 1 honors class in 9th grade and 5 in 10th, with at most 3 advanced classes in 9th — so an underclass transcript is capped by policy, not by ambition.' },
+      { label: 'Honors is rationed early', text: 'A maximum of 1 honors class in 9th grade and 5 in 10th — so an underclass transcript is capped by policy, not by ambition.' },
       { label: 'Transfer credit excluded', text: 'Transcripts reflect only classes completed at Charlotte Catholic; transfer transcripts are not added to the CCHS record.' },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'No AP Scholar tier counts are published. The profile gives exam-level performance (94% scoring 3+ across 1,064 exams) instead, which is the richer disclosure — but it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.',
+        text: 'No AP Scholar tier counts are published. The profile gives exam-level performance (94% scoring 3+ across 1,184 exams in 2026) instead, which is the richer disclosure — but it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.',
       },
       {
         kind: 'verify',
-        text: 'The AP figures are 2024-25 while the testing and decile figures are Class of 2026. Both are as published; they are one year apart and are not combined into a single claim.',
+        text: 'The AP figures are the 2026 exam session, the testing and decile figures are the Class of 2027, and the outcomes are the Class of 2026. Each is as published; they are not combined into a single claim.',
       },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
     ],
   },
 
   counseling: {
     headline:
-      'Six counselors and a director for 324 seniors — about 54 seniors each.',
+      'A director and five counselors for 336 seniors — about 56 seniors each.',
     subhead:
       'The caseload is computed from the profile’s own two figures, not published as a ratio by the school.',
     stats: [
-      { value: '~54', label: 'seniors per counselor (324 seniors ÷ 6 counselors)' },
-      { value: '324', label: 'seniors in the Class of 2026' },
+      { value: '~56', label: 'seniors per counselor (336 seniors ÷ 6 counselors)' },
+      { value: '336', label: 'seniors in the Class of 2027' },
       { value: '~195', label: 'students per counselor across grades 9–12' },
       { value: '340 665', label: 'CEEB code' },
     ],
     roster: [
       { role: 'Director of Counseling Services', name: 'Sarah Sovchen', email: 'sesovchen@charlottecatholic.org' },
-      { role: 'Counselor', name: 'Christine Parks', email: 'clparks@charlottecatholic.org' },
       { role: 'Counselor', name: 'Melody Clementi', email: 'meclementi@charlottecatholic.org' },
-      { role: 'Counselor', name: 'Sandy Needham', email: 'smneedham@charlottecatholic.org' },
       { role: 'Counselor', name: 'Kara Fisher', email: 'krfisher@charlottecatholic.org' },
+      { role: 'Counselor', name: 'Kate McHugh', email: 'kmchugh@charlottecatholic.org' },
       { role: 'Counselor', name: 'Heather Nobary', email: 'hrnobary@charlottecatholic.org' },
+      { role: 'Counselor', name: 'Christine Parks', email: 'clparks@charlottecatholic.org' },
       { role: 'Registrar', name: 'Jennifer Cramer', email: 'jmcramer@charlottecatholic.org' },
     ],
     timelineTitle: 'The four-year timeline the counseling office publishes',
@@ -426,7 +472,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
         intensity: 'Foundation',
         items: [
           'Placement is set by prior coursework, standardized testing and teacher feedback rather than by student request.',
-          'Honors access is capped at one course; advanced courses at three.',
+          'Honors access is capped at one course.',
           'Philosophy (0.5 credit) is taken in freshman year starting with the Class of 2028.',
           'Service begins immediately — 10 hours due, at least 5 of them parish service, by March 1.',
         ],
@@ -460,6 +506,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
           'The counseling office publishes the Common Application essay prompts and supports drafting against them.',
           'Transcripts carry the weighted GPA and no rank; the decile chart travels with the profile.',
           'Final service hours are due March 1, completing the 70-hour graduation requirement.',
+          'Dual Enrollment through Central Piedmont Community College opens — one course per semester, taken asynchronously, with the same extra quality point as AP and Honors.',
         ],
       },
     ],
@@ -477,14 +524,14 @@ export const charlotteCatholic: CollegeSupportProgram = {
     reachTitle: 'Reach and tools',
     reach: [
       'NC State University lists Charlotte Catholic as a named admissions-visit venue.',
-      'Class of 2025 graduates matriculated to 169 different colleges and universities over three years.',
-      '38% of the Class of 2025 stayed in North Carolina; 81% enrolled at public universities.',
-      'Three US Naval Academy appointments in 2025, plus an Army ROTC scholarship at Cornell.',
+      'Graduates of the Classes of 2024–2026 matriculated to 168 different colleges and universities.',
+      '32% of the Class of 2026 stayed in North Carolina; 76% enrolled at public universities and 24% at private ones.',
+      'One US Naval Academy and one US Military Academy appointment in 2026, after three Naval Academy appointments in 2025.',
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'The ~54:1 senior caseload is COMPUTED from the profile’s 324 seniors and its six named counselors. The school does not publish a ratio, and the director is counted as a counselor here.',
+        text: 'The ~56:1 senior caseload is COMPUTED from the 2026-27 profile’s 336 seniors (Class of 2027) and its six named counselors. The school does not publish a ratio, and the director is counted as a counselor here.',
       },
       {
         kind: 'verify',
@@ -492,7 +539,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'charlottecatholic.org — Meet our counselors', url: COUNSELORS },
       { label: 'charlottecatholic.org — Common App essay prompts', url: COMMONAPP },
       { label: 'admissions.ncsu.edu — Charlotte Catholic High School visit venue', url: NCSU },
@@ -501,34 +548,39 @@ export const charlotteCatholic: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'Where 169 colleges took CCHS graduates over three years — and $17,242,184 in scholarships for one class.',
+      'Where 200 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.',
     subhead:
       'This is a matriculation list: where graduates actually enrolled, not everywhere they were admitted.',
     stats: [
-      { value: '169', label: 'institutions matriculated to, Classes of 2023–2025' },
-      { value: '95%', label: 'of the Class of 2025 went straight to post-secondary study' },
-      { value: '$17,242,184', label: 'scholarships earned by the Class of 2025' },
-      { value: '38%', label: 'of the Class of 2025 stayed in North Carolina' },
+      { value: '200', label: 'institutions matriculated to, Classes of 2023–2026' },
+      { value: '98%', label: 'of the Class of 2026 went straight to post-secondary study' },
+      { value: '$25,186,236', label: 'scholarships earned by the Class of 2026' },
+      { value: '32%', label: 'of the Class of 2026 stayed in North Carolina' },
     ],
-    bucketsTitle: 'Selectivity buckets across the three classes',
+    bucketsTitle: 'Selectivity buckets across the four classes',
     buckets: [
-      { tier: 'Ivy League', count: '6 / 8', note: 'absent Brown and Columbia' },
-      { tier: 'Ivy Plus', count: '9 / 17', note: 'the six Ivies plus Duke, Georgetown and Northwestern' },
-      { tier: 'Top-75 National Universities', count: '36 / 75' },
-      { tier: 'Top-75 Liberal Arts Colleges', count: '17 / 75', note: 'includes all three service academies — Naval #3, Air Force #5, West Point #10' },
-      { tier: 'Power Four', count: '39 / 68', note: '40 rows carry the tag; the two Arizona State campuses are one institution' },
-      { tier: 'HBCUs', count: '2 / 107', note: 'Hampton University and Benedict College' },
+      { tier: 'Ivy League', count: '7 / 8', note: 'absent Brown' },
+      { tier: 'Ivy Plus', count: '11 / 17', note: 'the seven Ivies plus Duke, Georgetown, Johns Hopkins and Northwestern' },
+      { tier: 'Top-75 National Universities', count: '43 / 75' },
+      { tier: 'Top-75 Liberal Arts Colleges', count: '21 / 75', note: 'includes all three service academies — Naval #3, Air Force #5, West Point #10' },
+      { tier: 'Power Four', count: '43 / 68', note: '44 rows carry the tag; the two Arizona State campuses are one institution' },
+      { tier: 'HBCUs', count: '3 / 107', note: 'Hampton University, Benedict College and West Virginia State University' },
     ],
-    collegesTitle: 'Every matriculation, 2023–2025',
-    collegesTotal: '169 institutions · the profile publishes no enrollment counts per institution',
+    collegesTitle: 'Every matriculation, 2023–2026',
+    collegesTotal: '200 institutions · the profile publishes no enrollment counts per institution',
     colleges,
     scholarshipsTitle: 'Scholarships and recognition',
     scholarships: [
+      '$25,186,236 — Class of 2026 total',
+      '2 National Merit Scholarship winners (2026)',
+      '7 National Merit Finalists (2026)',
+      '11 National Merit Commended Students (2026)',
+      '1 US Naval Academy and 1 US Military Academy appointment (2026)',
       '$17,242,184 — Class of 2025 total',
       '2 National Merit Finalists (2025)',
       '11 National Merit Commended Students (2025)',
-      '3 US Naval Academy appointments',
-      'Army ROTC scholarship at Cornell University',
+      '3 US Naval Academy appointments (2025)',
+      'Army ROTC scholarship at Cornell University (2025)',
     ],
     scholarshipsNote:
       'The scholarship total is the class-wide figure the school publishes; it is not broken out by institution, by merit-versus-need, or per student.',
@@ -541,9 +593,14 @@ export const charlotteCatholic: CollegeSupportProgram = {
         kind: 'verify',
         text: 'Bucket membership is scored against the app’s master U.S. News 2027 table rather than by the school, which publishes the institution names only.',
       },
+      {
+        kind: 'verify',
+        text: 'The list merges the 2025-26 profile (Classes of 2023–2025, 169 institutions) with the 2026-27 profile (Classes of 2024–2026, 168): 137 shared, 31 new, 32 kept from the older list, 200 in all. Nothing is removed. Where the two editions spell an institution differently, the 2025-26 spelling is kept.',
+      },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
+      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE_2526 },
       { label: 'charlottecatholic.org — School profile page', url: PROFILE_PAGE },
     ],
   },
@@ -551,7 +608,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
   edge: {
     headline: 'What actually moves a CCHS application.',
     subhead:
-      'One lever the student builds, one the school supplies by being a 74-championship NCHSAA program inside a diocesan system.',
+      'One lever the student builds, one the school supplies by being a 79-championship NCHSAA program inside a diocesan system.',
     levers: [
       {
         title: 'Lever 1 — Build the spike',
@@ -570,10 +627,10 @@ export const charlotteCatholic: CollegeSupportProgram = {
         hint: 'what CCHS supplies',
         glyph: '▲',
         items: [
-          'Athletic recruiting reach is real and unusual: 74 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.',
+          'Athletic recruiting reach is real and unusual: 79 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.',
           'CCHS is one of only four parochial schools competing in the NCHSAA — the public-school association — so its athletes are evaluated against the state’s largest programs rather than a private-school bracket.',
           'The school profile does the interpretive work for an admissions reader: decile chart, stated load norms, explicit no-rank policy and a defined "most demanding" benchmark.',
-          'Diocesan scale shows up in outcomes — three Naval Academy appointments in one class, and service-academy matriculations at all three academies.',
+          'Diocesan scale shows up in outcomes — Naval Academy appointments in consecutive classes (three in 2025, one in 2026 alongside a West Point appointment), and service-academy matriculations at all three academies.',
           'A 650-seat Fine Arts Center dedicated in 2022, a Charlotte Symphony partnership, and a band that performs quadrennially in Dublin give arts applicants a portfolio venue.',
         ],
         note: 'No published Naviance/SCOIR-style scattergram exists, so a family cannot see admit rates by GPA band for this school.',
@@ -586,7 +643,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
     ],
   },
@@ -598,37 +655,38 @@ export const charlotteCatholic: CollegeSupportProgram = {
     scoreTables: [
       {
         title: 'SAT and ACT, mid-50% ranges',
-        hint: 'Class of 2026 · 226 SAT takers · 144 ACT takers',
+        hint: 'Class of 2027 · 290 SAT takers · 322 ACT takers',
         rows: [
-          { label: 'SAT total', values: ['—', '1080', '—', '1360', '—', '—'] },
-          { label: 'ACT composite', values: ['—', '19', '—', '28', '—', '—'] },
+          { label: 'SAT total', values: ['—', '1070', '—', '1320', '—', '—'] },
+          { label: 'ACT composite', values: ['—', '20', '—', '27', '—', '—'] },
         ],
-        note: 'The school publishes a mid-50% RANGE, not percentiles and not an average. The endpoints of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real; the 10th, 50th, 90th and mean are not published and are shown as em-dashes rather than modelled. No section-level (EBRW / Math) split is published.',
+        note: 'The school publishes a mid-50% RANGE, not percentiles and not an average. The endpoints of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real; the 10th, 50th, 90th and mean are not published and are shown as em-dashes rather than modelled. No section-level (EBRW / Math) split is published. Against 336 seniors, 290 SAT takers and 322 ACT takers means most of the class sat both tests.',
       },
     ],
     gpaTitle: 'Weighted GPA distribution',
-    gpaHint: '— Class of 2026 · from the school’s 10-decile chart · weighted, and CCHS does not rank',
+    gpaHint: '— Class of 2027 · from the school’s 10-decile chart · weighted, and CCHS does not rank',
     quintiles: [
-      { label: 'Top fifth', gpa: '4.26–4.63', detail: '1st and 2nd deciles' },
-      { label: 'Q2', gpa: '3.96–4.25', detail: '3rd and 4th deciles' },
-      { label: 'Q3', gpa: '3.71–3.95', detail: '5th and 6th deciles' },
-      { label: 'Q4', gpa: '3.37–3.70', detail: '7th and 8th deciles' },
-      { label: 'Bottom fifth', gpa: '2.25–3.36', detail: '9th and 10th deciles' },
+      { label: 'Top fifth', gpa: '4.23–4.59', detail: '1st and 2nd deciles' },
+      { label: 'Q2', gpa: '3.98–4.22', detail: '3rd and 4th deciles' },
+      { label: 'Q3', gpa: '3.70–3.97', detail: '5th and 6th deciles' },
+      { label: 'Q4', gpa: '3.35–3.69', detail: '7th and 8th deciles' },
+      { label: 'Bottom fifth', gpa: '2.22–3.34', detail: '9th and 10th deciles' },
     ],
     gpaNote:
-      'CCHS publishes DECILES, not quintiles; each row above pairs two adjacent published deciles, and the underlying bands are given in the detail line so nothing is hidden by the pairing. The published deciles are 1st 4.38–4.63, 2nd 4.26–4.37, 3rd 4.10–4.25, 4th 3.96–4.09, 5th 3.83–3.95, 6th 3.71–3.82, 7th 3.56–3.70, 8th 3.37–3.54, 9th 3.16–3.36, 10th 2.25–3.14. Every figure is weighted, with one quality point added for AP and Honors.',
+      'CCHS publishes DECILES, not quintiles; each row above pairs two adjacent published deciles, and the underlying bands are given in the detail line so nothing is hidden by the pairing. The published deciles are 1st 4.38–4.59, 2nd 4.23–4.37, 3rd 4.09–4.22, 4th 3.98–4.08, 5th 3.83–3.97, 6th 3.70–3.82, 7th 3.54–3.69, 8th 3.35–3.53, 9th 3.16–3.34, 10th 2.22–3.15. Every figure is weighted, with one quality point added for AP, Honors and Dual Enrollment.',
     supportTitle: 'Academic support',
     support: [
+      { label: 'Academic Skills', text: 'A one-semester course (508 for grades 9–10, 509 for 11–12) in executive function and self-advocacy for Academic Achievement students — the step before Guided Academic Support.' },
       { label: 'Guided Academic Support', text: 'A scheduled course (511) rather than a pull-out service — support sits inside the timetable.' },
       { label: 'Options Program', text: 'A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 14 courses in all.' },
       { label: 'Pathway Program', text: 'A distinct pathway course (507) alongside the Options track.' },
       { label: 'Study Hall', text: 'Timetabled (100), so a supported schedule need not sacrifice an elective slot.' },
     ],
     middle: [
-      { label: 'The middle band is published', text: 'The 5th and 6th deciles run 3.83–3.95 and 3.71–3.82 — a family can locate a median student, which a school publishing only averages would hide.' },
-      { label: 'The bottom decile is not hidden', text: 'The 10th decile is published as 2.25–3.14 rather than truncated, which is unusually candid for a school profile.' },
-      { label: '95% continue immediately', text: 'Of the Class of 2025, 95% went straight to post-secondary education and 2% to two-year institutions.' },
-      { label: 'Public-university weighted', text: '81% of the Class of 2025 enrolled at public universities and 19% at private ones — an outcome pattern closer to a strong public high school than to an independent day school.' },
+      { label: 'The middle band is published', text: 'The 5th and 6th deciles run 3.83–3.97 and 3.70–3.82 — a family can locate a median student, which a school publishing only averages would hide.' },
+      { label: 'The bottom decile is not hidden', text: 'The 10th decile is published as 2.22–3.15 rather than truncated, which is unusually candid for a school profile.' },
+      { label: '98% continue immediately', text: 'Of the Class of 2026, 98% went straight to post-secondary education and 2% to two-year institutions.' },
+      { label: 'Public-university weighted', text: '76% of the Class of 2026 enrolled at public universities and 24% at private ones — an outcome pattern closer to a strong public high school than to an independent day school.' },
     ],
     flags: [
       {
@@ -637,7 +695,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
     ],
   },
@@ -648,9 +706,9 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'The profile answers the questions a family actually asks — and the tuition structure answers one no other school on this roster raises.',
     points: [
       { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favourably.' },
-      { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,064 exams** is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator.' },
-      { label: 'Read the college list as matriculations', text: '**169 institutions** is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
-      { label: 'Athletics is the standout', text: '**74 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
+      { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator.' },
+      { label: 'Read the college list as matriculations', text: '**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
+      { label: 'Athletics is the standout', text: '**79 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
       { label: 'Tuition turns on parish participation', text: '**$15,041** for a participating Catholic family against **$21,562** at the community rate — a ~30% difference driven by parish involvement rather than financial need, and the single biggest cost variable here.' },
       { label: 'The gaps are structural, not sloppy', text: 'No per-school aid figures (MACS publishes diocese-wide only), **no Form 990** (the diocese is exempt as a religious organization), and no published tuition history.' },
     ],
@@ -659,14 +717,14 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'What did Family Individualized Tuition actually award families like ours last year? The diocese publishes no per-school aid figures.',
       'My child wants AP courses — what does the application for each course weigh, and how many applicants are turned away?',
       'AP exams are mandatory here. What happens to a student who takes an AP course and does poorly on the exam?',
-      'Counselors are assigned by last name and stay with a student all four years. How does each one balance about 54 seniors through application season?',
+      'Counselors are assigned by last name and stay with a student all four years. How does each one balance about 56 seniors through application season?',
       'What does a typical Options Program student’s day look like, and how much of it is spent in classes alongside peers?',
       'The band performs in Dublin every four years — what does a family pay for that, and when is the next one?',
       'Which sports hold separate fall and spring signing days, and where are those results published?',
     ],
     flags: [],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'discovermacs.org — Tuition & Affordability', url: 'https://www.discovermacs.org/admissions/tuitionandaffordability' },
     ],
   },

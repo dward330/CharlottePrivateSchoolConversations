@@ -4471,37 +4471,37 @@
       "t": "Un relevé de notes uniquement pondéré, aucun classement dans la promotion, et un programme AP où l’examen n’est pas facultatif."
     },
     {
-      "text": "CCHS adds one quality point for AP and Honors and shows only the weighted GPA — so the number a college reads is already the school-adjusted one.",
-      "of": "c9a9b609",
+      "text": "CCHS adds one quality point for AP, Honors and Dual Enrollment and shows only the weighted GPA — so the number a college reads is already the school-adjusted one. 69% of the Class of 2026 scored 3 or above on at least one AP exam.",
+      "of": "6daee75a",
       "at": [
         "charlotte-catholic:transcript.subhead"
       ],
-      "t": "CCHS ajoute un point de qualité pour les cours AP et Honors et n’affiche que le GPA pondéré — le chiffre que lit une université est donc déjà celui ajusté par l’école."
+      "t": "CCHS ajoute un point de qualité pour les cours AP, Honors et Dual Enrollment et n’affiche que le GPA pondéré — le chiffre que lit une université est donc déjà celui ajusté par l’école. 69% de la promotion 2026 ont obtenu 3 ou plus à au moins un examen AP."
     },
     {
-      "text": "1,064",
-      "of": "b48e43e2",
+      "text": "1,184",
+      "of": "9f2ad13f",
       "at": [
         "charlotte-catholic:transcript.stats[0].value"
       ],
-      "t": "1,064"
+      "t": "1,184"
     },
     {
-      "text": "AP exams taken, 2024-25 (345 students, grades 11–12)",
-      "of": "258374c4",
+      "text": "AP exams taken in 2026 (393 students, grades 11–12)",
+      "of": "bd462922",
       "at": [
         "charlotte-catholic:transcript.stats[0].label"
       ],
-      "t": "examens AP passés en 2024-25 (345 élèves, niveaux 11 et 12)"
+      "t": "examens AP passés en 2026 (393 élèves, niveaux 11 et 12)"
     },
     {
-      "text": "23",
-      "of": "8ef29b12",
+      "text": "22",
+      "of": "8ff29ca5",
       "at": [
         "charlotte-catholic:transcript.stats[1].value",
-        "hickory-grove-christian:outcomes.stats[3].value"
+        "davidson-day:transcript.stats[0].value"
       ],
-      "t": "23"
+      "t": "22"
     },
     {
       "text": "AP subjects examined",
@@ -4520,12 +4520,12 @@
       "t": "des scores AP étaient de 3 ou plus"
     },
     {
-      "text": "72%",
-      "of": "09c2c10b",
+      "text": "76%",
+      "of": "79b8e3ff",
       "at": [
         "charlotte-catholic:transcript.stats[3].value"
       ],
-      "t": "72%"
+      "t": "76%"
     },
     {
       "text": "of AP scores were 4 or 5",
@@ -4544,10 +4544,26 @@
       "t": "Distinctions National Merit et académies de service"
     },
     {
+      "text": "2 National Merit Scholarship winners · 7 Finalists · 11 Commended Students",
+      "of": "aa541d2a",
+      "at": [
+        "charlotte-catholic:transcript.merit[0].detail"
+      ],
+      "t": "2 lauréats de la bourse National Merit · 7 finalistes · 11 Commended Students"
+    },
+    {
+      "text": "1 US Naval Academy appointment · 1 US Military Academy appointment",
+      "of": "0eb01541",
+      "at": [
+        "charlotte-catholic:transcript.merit[1].detail"
+      ],
+      "t": "1 admission à la US Naval Academy · 1 admission à la US Military Academy"
+    },
+    {
       "text": "2 National Merit Finalists · 11 Commended Students",
       "of": "f8de759a",
       "at": [
-        "charlotte-catholic:transcript.merit[0].detail"
+        "charlotte-catholic:transcript.merit[2].detail"
       ],
       "t": "2 finalistes National Merit · 11 Commended Students"
     },
@@ -4555,8 +4571,7 @@
       "text": "3 US Naval Academy appointments",
       "of": "c29c8896",
       "at": [
-        "charlotte-catholic:transcript.merit[1].detail",
-        "charlotte-catholic:outcomes.scholarships[3]"
+        "charlotte-catholic:transcript.merit[3].detail"
       ],
       "t": "3 admissions à la US Naval Academy"
     },
@@ -4564,18 +4579,17 @@
       "text": "Army ROTC scholarship at Cornell University",
       "of": "9465449e",
       "at": [
-        "charlotte-catholic:transcript.merit[2].detail",
-        "charlotte-catholic:outcomes.scholarships[4]"
+        "charlotte-catholic:transcript.merit[4].detail"
       ],
       "t": "Bourse Army ROTC à Cornell University"
     },
     {
-      "text": "The profile publishes Finalists and Commended counts but no Semifinalist line, and no multi-year series — so this ledger is a single class, not a trend.",
-      "of": "53132a19",
+      "text": "The profiles publish Finalist and Commended counts, and for 2026 the number of Scholarship winners, but no Semifinalist line. Two classes are shown, each as published — two years are not a trend.",
+      "of": "6b16fb34",
       "at": [
         "charlotte-catholic:transcript.meritNote"
       ],
-      "t": "Le profil publie le nombre de finalistes et de Commended Students, mais aucune ligne pour les Semifinalists ni de série pluriannuelle — ce registre porte donc sur une seule promotion, et non sur une tendance."
+      "t": "Les profils publient le nombre de finalistes et de Commended Students et, pour 2026, le nombre de lauréats de la bourse, mais aucune ligne pour les Semifinalists. Deux promotions sont présentées, chacune telle que publiée — deux années ne font pas une tendance."
     },
     {
       "text": "Where the course path runs past the standard sequence",
@@ -4610,12 +4624,12 @@
       "t": "Informatique et ingénierie"
     },
     {
-      "text": "AP Computer Science A and AP Cybersecurity Kickstart, above a four-course engineering strand ending in Honors Engineering Capstone.",
-      "of": "9a8ce8a7",
+      "text": "AP Computer Science A, AP Computer Science Principles and AP Cybersecurity Kickstart, above a four-course engineering strand ending in Honors Engineering Capstone.",
+      "of": "bb6cfa4a",
       "at": [
         "charlotte-catholic:transcript.depth[2].text"
       ],
-      "t": "AP Computer Science A et AP Cybersecurity Kickstart, au-dessus d’une filière d’ingénierie de quatre cours s’achevant par Honors Engineering Capstone."
+      "t": "AP Computer Science A, AP Computer Science Principles et AP Cybersecurity Kickstart, au-dessus d’une filière d’ingénierie de quatre cours s’achevant par Honors Engineering Capstone."
     },
     {
       "text": "Social studies",
@@ -4626,12 +4640,12 @@
       "t": "Sciences sociales"
     },
     {
-      "text": "AP US History, AP European History, AP Psychology, AP US Government and AP Microeconomics — five AP options in one department.",
-      "of": "a63ebf60",
+      "text": "AP US History, AP European History, AP Psychology, AP US Government, AP Microeconomics and a year-long AP Microeconomics & Macroeconomics course — six AP options in one department.",
+      "of": "e0d3f245",
       "at": [
         "charlotte-catholic:transcript.depth[3].text"
       ],
-      "t": "AP US History, AP European History, AP Psychology, AP US Government et AP Microeconomics — cinq options AP dans un seul département."
+      "t": "AP US History, AP European History, AP Psychology, AP US Government, AP Microeconomics et un cours annuel d’AP Microeconomics & Macroeconomics — six options AP dans un seul département."
     },
     {
       "text": "World languages",
@@ -4658,12 +4672,12 @@
       "t": "Parcours classique"
     },
     {
-      "text": "The St. Augustine Scholars Program, new with a 9th-grade cohort in 2025-26, adds a four-year classical track — philosophy, logic, Latin, primary texts and Socratic seminars.",
-      "of": "3559d91a",
+      "text": "The St. Augustine Scholars Program, begun with a 9th-grade cohort in 2025-26 and now running 10th-grade courses, adds a four-year classical track — philosophy, logic, Latin, primary texts and Socratic seminars.",
+      "of": "8b876034",
       "at": [
         "charlotte-catholic:transcript.depth[5].text"
       ],
-      "t": "Le St. Augustine Scholars Program, lancé avec une cohorte de 9e année en 2025-26, ajoute une filière classique de quatre ans — philosophie, logique, latin, textes originaux et séminaires socratiques."
+      "t": "Le St. Augustine Scholars Program, lancé avec une cohorte de 9e année en 2025-26 et proposant désormais des cours de 10e année, ajoute une filière classique de quatre ans — philosophie, logique, latin, textes originaux et séminaires socratiques."
     },
     {
       "text": "How the grade is engineered to be read",
@@ -4683,12 +4697,12 @@
       "t": "Pondéré uniquement"
     },
     {
-      "text": "One additional quality point for AP and Honors classes. Only the weighted GPA appears on the transcript — there is no unweighted figure to compare against.",
-      "of": "4bf351b5",
+      "text": "One additional quality point for AP, Honors and Dual Enrollment classes. Only the weighted GPA appears on the transcript — there is no unweighted figure to compare against.",
+      "of": "3619223b",
       "at": [
         "charlotte-catholic:transcript.trust[0].text"
       ],
-      "t": "Un point de qualité supplémentaire pour les cours AP et Honors. Seul le GPA pondéré figure sur le relevé de notes — il n’existe aucun chiffre non pondéré auquel le comparer."
+      "t": "Un point de qualité supplémentaire pour les cours AP, Honors et Dual Enrollment. Seul le GPA pondéré figure sur le relevé de notes — il n’existe aucun chiffre non pondéré auquel le comparer."
     },
     {
       "text": "No class rank",
@@ -4747,12 +4761,12 @@
       "t": "Les Honors sont contingentés dès le début"
     },
     {
-      "text": "A maximum of 1 honors class in 9th grade and 5 in 10th, with at most 3 advanced classes in 9th — so an underclass transcript is capped by policy, not by ambition.",
-      "of": "6f9b2003",
+      "text": "A maximum of 1 honors class in 9th grade and 5 in 10th — so an underclass transcript is capped by policy, not by ambition.",
+      "of": "ebc69308",
       "at": [
         "charlotte-catholic:transcript.trust[4].text"
       ],
-      "t": "Un maximum de 1 cours honors en 9e année et de 5 en 10e, avec au plus 3 cours avancés en 9e — le relevé de notes des petites classes est donc plafonné par la règle, non par l’ambition."
+      "t": "Un maximum de 1 cours honors en 9e année et de 5 en 10e — le relevé de notes des petites classes est donc plafonné par la règle, non par l’ambition."
     },
     {
       "text": "Transfer credit excluded",
@@ -4771,28 +4785,28 @@
       "t": "Les relevés de notes ne rendent compte que des cours suivis à Charlotte Catholic ; les relevés issus d’un transfert ne sont pas intégrés au dossier CCHS."
     },
     {
-      "text": "No AP Scholar tier counts are published. The profile gives exam-level performance (94% scoring 3+ across 1,064 exams) instead, which is the richer disclosure — but it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.",
-      "of": "c7fda898",
+      "text": "No AP Scholar tier counts are published. The profile gives exam-level performance (94% scoring 3+ across 1,184 exams in 2026) instead, which is the richer disclosure — but it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.",
+      "of": "99d62502",
       "at": [
         "charlotte-catholic:transcript.flags[0].text"
       ],
-      "t": "Aucun décompte par palier AP Scholar n’est publié. Le profil donne à la place la performance au niveau des examens (94% obtenant 3 ou plus sur 1,064 examens), ce qui constitue une information plus riche — mais cela signifie que le registre Scholar / Scholar with Distinction présenté par d’autres écoles ne peut être établi ici."
+      "t": "Aucun décompte par palier AP Scholar n’est publié. Le profil donne à la place la performance au niveau des examens (94% obtenant 3 ou plus sur 1,184 examens en 2026), ce qui constitue une information plus riche — mais cela signifie que le registre Scholar / Scholar with Distinction présenté par d’autres écoles ne peut être établi ici."
     },
     {
-      "text": "The AP figures are 2024-25 while the testing and decile figures are Class of 2026. Both are as published; they are one year apart and are not combined into a single claim.",
-      "of": "10e66944",
+      "text": "The AP figures are the 2026 exam session, the testing and decile figures are the Class of 2027, and the outcomes are the Class of 2026. Each is as published; they are not combined into a single claim.",
+      "of": "4cd20ece",
       "at": [
         "charlotte-catholic:transcript.flags[1].text"
       ],
-      "t": "Les chiffres AP portent sur 2024-25, tandis que les chiffres de tests et de déciles concernent la promotion 2026. Les deux sont repris tels que publiés ; ils sont séparés d’un an et ne sont pas fondus en une seule affirmation."
+      "t": "Les chiffres AP portent sur la session d’examens 2026, les chiffres de tests et de déciles sur la promotion 2027, et les résultats sur la promotion 2026. Chacun est repris tel que publié ; ils ne sont pas fondus en une seule affirmation."
     },
     {
-      "text": "Six counselors and a director for 324 seniors — about 54 seniors each.",
-      "of": "cd4ba521",
+      "text": "A director and five counselors for 336 seniors — about 56 seniors each.",
+      "of": "862a0734",
       "at": [
         "charlotte-catholic:counseling.headline"
       ],
-      "t": "Six conseillers et un directeur pour 324 élèves de terminale — soit environ 54 chacun."
+      "t": "Une directrice et cinq conseillers pour 336 élèves de terminale — soit environ 56 chacun."
     },
     {
       "text": "The caseload is computed from the profile’s own two figures, not published as a ratio by the school.",
@@ -4803,37 +4817,37 @@
       "t": "La charge est calculée à partir des deux chiffres du profil lui-même ; elle n’est pas publiée sous forme de ratio par l’école."
     },
     {
-      "text": "~54",
-      "of": "b38d6d98",
+      "text": "~56",
+      "of": "b58d70be",
       "at": [
         "charlotte-catholic:counseling.stats[0].value"
       ],
-      "t": "~54"
+      "t": "~56"
     },
     {
-      "text": "seniors per counselor (324 seniors ÷ 6 counselors)",
-      "of": "efe46ca6",
+      "text": "seniors per counselor (336 seniors ÷ 6 counselors)",
+      "of": "cbdc6529",
       "at": [
         "charlotte-catholic:counseling.stats[0].label"
       ],
-      "t": "élèves de terminale par conseiller (324 élèves de terminale ÷ 6 conseillers)"
+      "t": "élèves de terminale par conseiller (336 élèves de terminale ÷ 6 conseillers)"
     },
     {
-      "text": "324",
-      "of": "3d4b676c",
+      "text": "336",
+      "of": "414dac4f",
       "at": [
         "charlotte-catholic:counseling.stats[1].value"
       ],
-      "t": "324"
+      "t": "336"
     },
     {
-      "text": "seniors in the Class of 2026",
-      "of": "969c737b",
+      "text": "seniors in the Class of 2027",
+      "of": "959c71e8",
       "at": [
         "charlotte-catholic:counseling.stats[1].label",
-        "gaston-day:counseling.stats[2].label"
+        "covenant-day:outcomes.stats[1].label"
       ],
-      "t": "élèves de dernière année dans la promotion 2026"
+      "t": "élèves de la promotion 2027"
     },
     {
       "text": "~195",
@@ -4914,12 +4928,12 @@
       "t": "L’affectation est déterminée par le parcours antérieur, les tests standardisés et l’avis des enseignants, plutôt que par la demande de l’élève."
     },
     {
-      "text": "Honors access is capped at one course; advanced courses at three.",
-      "of": "c144990b",
+      "text": "Honors access is capped at one course.",
+      "of": "65a19ecd",
       "at": [
         "charlotte-catholic:counseling.timeline[0].items[1]"
       ],
-      "t": "L’accès aux Honors est plafonné à un cours ; les cours avancés à trois."
+      "t": "L’accès aux Honors est plafonné à un cours."
     },
     {
       "text": "Philosophy (0.5 credit) is taken in freshman year starting with the Class of 2028.",
@@ -5059,6 +5073,14 @@
       "t": "Les dernières heures de service sont à déclarer avant le 1er mars, complétant l’exigence de 70 heures pour l’obtention du diplôme."
     },
     {
+      "text": "Dual Enrollment through Central Piedmont Community College opens — one course per semester, taken asynchronously, with the same extra quality point as AP and Honors.",
+      "of": "c9841aaf",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[4]"
+      ],
+      "t": "Le Dual Enrollment avec Central Piedmont Community College s’ouvre — un cours par semestre, suivi en mode asynchrone, avec le même point de qualité supplémentaire qu’AP et Honors."
+    },
+    {
       "text": "What the office owns",
       "of": "b7f34fc5",
       "at": [
@@ -5140,36 +5162,36 @@
       "t": "NC State University cite Charlotte Catholic comme lieu identifié de ses visites d’admission."
     },
     {
-      "text": "Class of 2025 graduates matriculated to 169 different colleges and universities over three years.",
-      "of": "a849751f",
+      "text": "Graduates of the Classes of 2024–2026 matriculated to 168 different colleges and universities.",
+      "of": "733c6890",
       "at": [
         "charlotte-catholic:counseling.reach[1]"
       ],
-      "t": "Les diplômés de la promotion 2025 se sont inscrits dans 169 universités et établissements différents sur trois ans."
+      "t": "Les diplômés des promotions 2024–2026 se sont inscrits dans 168 universités et établissements différents."
     },
     {
-      "text": "38% of the Class of 2025 stayed in North Carolina; 81% enrolled at public universities.",
-      "of": "acf0d9aa",
+      "text": "32% of the Class of 2026 stayed in North Carolina; 76% enrolled at public universities and 24% at private ones.",
+      "of": "ac17f8a0",
       "at": [
         "charlotte-catholic:counseling.reach[2]"
       ],
-      "t": "38% de la promotion 2025 sont restés en Caroline du Nord ; 81% se sont inscrits dans des universités publiques."
+      "t": "32% de la promotion 2026 sont restés en Caroline du Nord ; 76% se sont inscrits dans des universités publiques et 24% dans des universités privées."
     },
     {
-      "text": "Three US Naval Academy appointments in 2025, plus an Army ROTC scholarship at Cornell.",
-      "of": "24c3ac47",
+      "text": "One US Naval Academy and one US Military Academy appointment in 2026, after three Naval Academy appointments in 2025.",
+      "of": "ba4a4d59",
       "at": [
         "charlotte-catholic:counseling.reach[3]"
       ],
-      "t": "Trois admissions à la US Naval Academy en 2025, plus une bourse Army ROTC à Cornell."
+      "t": "Une admission à la US Naval Academy et une à la US Military Academy en 2026, après trois admissions à la Naval Academy en 2025."
     },
     {
-      "text": "The ~54:1 senior caseload is COMPUTED from the profile’s 324 seniors and its six named counselors. The school does not publish a ratio, and the director is counted as a counselor here.",
-      "of": "ab0e9a6f",
+      "text": "The ~56:1 senior caseload is COMPUTED from the 2026-27 profile’s 336 seniors (Class of 2027) and its six named counselors. The school does not publish a ratio, and the director is counted as a counselor here.",
+      "of": "cb475e09",
       "at": [
         "charlotte-catholic:counseling.flags[0].text"
       ],
-      "t": "La charge de ~54:1 en terminale est CALCULÉE à partir des 324 élèves de terminale du profil et de ses six conseillers nommés. L’école ne publie aucun ratio, et la directrice est ici comptée parmi les conseillers."
+      "t": "La charge de ~56:1 en terminale est CALCULÉE à partir des 336 élèves de terminale du profil 2026-27 (promotion 2027) et de ses six conseillers nommés. L’école ne publie aucun ratio, et la directrice est ici comptée parmi les conseillers."
     },
     {
       "text": "The junior and senior college-planning pages embed Prezi presentations, whose content is not reachable as text. The four-year timeline above is therefore built from published policy, not from the office’s own process deck.",
@@ -5180,12 +5202,12 @@
       "t": "Les pages de préparation universitaire de 11e et 12e année intègrent des présentations Prezi, dont le contenu n’est pas accessible sous forme de texte. Le calendrier sur quatre ans ci-dessus est donc construit à partir des règles publiées, et non du support de travail du service."
     },
     {
-      "text": "Where 169 colleges took CCHS graduates over three years — and $17,242,184 in scholarships for one class.",
-      "of": "4bb13519",
+      "text": "Where 200 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.",
+      "of": "5e0aa837",
       "at": [
         "charlotte-catholic:outcomes.headline"
       ],
-      "t": "Où 169 universités ont accueilli des diplômés de CCHS en trois ans — et $17,242,184 de bourses pour une seule promotion."
+      "t": "Où 200 universités ont accueilli des diplômés de CCHS sur quatre promotions — et $25,186,236 de bourses pour une seule promotion."
     },
     {
       "text": "This is a matriculation list: where graduates actually enrolled, not everywhere they were admitted.",
@@ -5196,86 +5218,85 @@
       "t": "Il s’agit d’une liste d’inscriptions : là où les diplômés se sont effectivement inscrits, et non partout où ils ont été admis."
     },
     {
-      "text": "169",
-      "of": "f42ea265",
+      "text": "200",
+      "of": "c3e7575d",
       "at": [
         "charlotte-catholic:outcomes.stats[0].value"
       ],
-      "t": "169"
+      "t": "200"
     },
     {
-      "text": "institutions matriculated to, Classes of 2023–2025",
-      "of": "8ee9d658",
+      "text": "institutions matriculated to, Classes of 2023–2026",
+      "of": "91e9db11",
       "at": [
         "charlotte-catholic:outcomes.stats[0].label"
       ],
-      "t": "établissements d’inscription, promotions 2023–2025"
+      "t": "établissements d’inscription, promotions 2023–2026"
     },
     {
-      "text": "95%",
-      "of": "5ec35102",
+      "text": "98%",
+      "of": "bade2553",
       "at": [
         "charlotte-catholic:outcomes.stats[1].value",
-        "gaston-day:transcript.stats[0].value",
-        "gaston-day:outcomes.stats[0].value"
+        "cannon:outcomes.stats[0].value"
       ],
-      "t": "95%"
+      "t": "98%"
     },
     {
-      "text": "of the Class of 2025 went straight to post-secondary study",
-      "of": "ac173c60",
+      "text": "of the Class of 2026 went straight to post-secondary study",
+      "of": "62229711",
       "at": [
         "charlotte-catholic:outcomes.stats[1].label"
       ],
-      "t": "de la promotion 2025 ont poursuivi directement dans l’enseignement supérieur"
+      "t": "de la promotion 2026 ont poursuivi directement dans l’enseignement supérieur"
     },
     {
-      "text": "$17,242,184",
-      "of": "09f926f8",
+      "text": "$25,186,236",
+      "of": "80b02278",
       "at": [
         "charlotte-catholic:outcomes.stats[2].value"
       ],
-      "t": "$17,242,184"
+      "t": "$25,186,236"
     },
     {
-      "text": "scholarships earned by the Class of 2025",
-      "of": "b0340183",
+      "text": "scholarships earned by the Class of 2026",
+      "of": "b1340316",
       "at": [
         "charlotte-catholic:outcomes.stats[2].label"
       ],
-      "t": "bourses obtenues par la promotion 2025"
+      "t": "bourses obtenues par la promotion 2026"
     },
     {
-      "text": "38%",
-      "of": "c2643db1",
+      "text": "32%",
+      "of": "4e4b822f",
       "at": [
         "charlotte-catholic:outcomes.stats[3].value"
       ],
-      "t": "38%"
+      "t": "32%"
     },
     {
-      "text": "of the Class of 2025 stayed in North Carolina",
-      "of": "596b039c",
+      "text": "of the Class of 2026 stayed in North Carolina",
+      "of": "d72b2ebf",
       "at": [
         "charlotte-catholic:outcomes.stats[3].label"
       ],
-      "t": "de la promotion 2025 sont restés en Caroline du Nord"
+      "t": "de la promotion 2026 sont restés en Caroline du Nord"
     },
     {
-      "text": "Selectivity buckets across the three classes",
-      "of": "4d3d643d",
+      "text": "Selectivity buckets across the four classes",
+      "of": "06d20fb3",
       "at": [
         "charlotte-catholic:outcomes.bucketsTitle"
       ],
-      "t": "Les catégories de sélectivité sur les trois promotions"
+      "t": "Les catégories de sélectivité sur les quatre promotions"
     },
     {
-      "text": "absent Brown and Columbia",
-      "of": "2cb7533b",
+      "text": "absent Brown",
+      "of": "3dfeaed4",
       "at": [
         "charlotte-catholic:outcomes.buckets[0].note"
       ],
-      "t": "hors Brown et Columbia"
+      "t": "hors Brown"
     },
     {
       "text": "Ivy Plus",
@@ -5286,12 +5307,12 @@
       "t": "Ivy Plus"
     },
     {
-      "text": "the six Ivies plus Duke, Georgetown and Northwestern",
-      "of": "81cd627c",
+      "text": "the seven Ivies plus Duke, Georgetown, Johns Hopkins and Northwestern",
+      "of": "887b314b",
       "at": [
         "charlotte-catholic:outcomes.buckets[1].note"
       ],
-      "t": "les six Ivies plus Duke, Georgetown et Northwestern"
+      "t": "les sept Ivies plus Duke, Georgetown, Johns Hopkins et Northwestern"
     },
     {
       "text": "Top-75 Liberal Arts Colleges",
@@ -5310,36 +5331,36 @@
       "t": "comprend les trois académies de service — Naval #3, Air Force #5, West Point #10"
     },
     {
-      "text": "40 rows carry the tag; the two Arizona State campuses are one institution",
-      "of": "56fcacc4",
+      "text": "44 rows carry the tag; the two Arizona State campuses are one institution",
+      "of": "7c551908",
       "at": [
         "charlotte-catholic:outcomes.buckets[4].note"
       ],
-      "t": "40 lignes portent cette étiquette ; les deux campus d’Arizona State constituent un seul établissement"
+      "t": "44 lignes portent cette étiquette ; les deux campus d’Arizona State constituent un seul établissement"
     },
     {
-      "text": "Hampton University and Benedict College",
-      "of": "556c0e0a",
+      "text": "Hampton University, Benedict College and West Virginia State University",
+      "of": "430e829d",
       "at": [
         "charlotte-catholic:outcomes.buckets[5].note"
       ],
-      "t": "Hampton University et Benedict College"
+      "t": "Hampton University, Benedict College et West Virginia State University"
     },
     {
-      "text": "Every matriculation, 2023–2025",
-      "of": "9a179c63",
+      "text": "Every matriculation, 2023–2026",
+      "of": "9b179df6",
       "at": [
         "charlotte-catholic:outcomes.collegesTitle"
       ],
-      "t": "Toutes les inscriptions, 2023–2025"
+      "t": "Toutes les inscriptions, 2023–2026"
     },
     {
-      "text": "169 institutions · the profile publishes no enrollment counts per institution",
-      "of": "a77b3f8e",
+      "text": "200 institutions · the profile publishes no enrollment counts per institution",
+      "of": "7488d4d6",
       "at": [
         "charlotte-catholic:outcomes.collegesTotal"
       ],
-      "t": "169 établissements · le profil ne publie aucun effectif d’inscrits par établissement"
+      "t": "200 établissements · le profil ne publie aucun effectif d’inscrits par établissement"
     },
     {
       "text": "Scholarships and recognition",
@@ -5350,10 +5371,50 @@
       "t": "Bourses et distinctions"
     },
     {
+      "text": "$25,186,236 — Class of 2026 total",
+      "of": "7e97a703",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[0]"
+      ],
+      "t": "$25,186,236 — total de la promotion 2026"
+    },
+    {
+      "text": "2 National Merit Scholarship winners (2026)",
+      "of": "57861285",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[1]"
+      ],
+      "t": "2 lauréats de la bourse National Merit (2026)"
+    },
+    {
+      "text": "7 National Merit Finalists (2026)",
+      "of": "55cfd341",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[2]"
+      ],
+      "t": "7 finalistes National Merit (2026)"
+    },
+    {
+      "text": "11 National Merit Commended Students (2026)",
+      "of": "b9224c03",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[3]"
+      ],
+      "t": "11 Commended Students National Merit (2026)"
+    },
+    {
+      "text": "1 US Naval Academy and 1 US Military Academy appointment (2026)",
+      "of": "e6e83ff1",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[4]"
+      ],
+      "t": "1 admission à la US Naval Academy et 1 à la US Military Academy (2026)"
+    },
+    {
       "text": "$17,242,184 — Class of 2025 total",
       "of": "e1750e92",
       "at": [
-        "charlotte-catholic:outcomes.scholarships[0]"
+        "charlotte-catholic:outcomes.scholarships[5]"
       ],
       "t": "$17,242,184 — total de la promotion 2025"
     },
@@ -5361,7 +5422,7 @@
       "text": "2 National Merit Finalists (2025)",
       "of": "6eaf81e9",
       "at": [
-        "charlotte-catholic:outcomes.scholarships[1]"
+        "charlotte-catholic:outcomes.scholarships[6]"
       ],
       "t": "2 finalistes National Merit (2025)"
     },
@@ -5369,9 +5430,25 @@
       "text": "11 National Merit Commended Students (2025)",
       "of": "3929d148",
       "at": [
-        "charlotte-catholic:outcomes.scholarships[2]"
+        "charlotte-catholic:outcomes.scholarships[7]"
       ],
       "t": "11 Commended Students National Merit (2025)"
+    },
+    {
+      "text": "3 US Naval Academy appointments (2025)",
+      "of": "a1076e2c",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[8]"
+      ],
+      "t": "3 admissions à la US Naval Academy (2025)"
+    },
+    {
+      "text": "Army ROTC scholarship at Cornell University (2025)",
+      "of": "a9e53304",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[9]"
+      ],
+      "t": "Bourse Army ROTC à Cornell University (2025)"
     },
     {
       "text": "The scholarship total is the class-wide figure the school publishes; it is not broken out by institution, by merit-versus-need, or per student.",
@@ -5398,6 +5475,14 @@
       "t": "L’appartenance aux catégories est établie d’après le tableau de référence U.S. News 2027 de l’application, et non par l’école, qui ne publie que les noms des établissements."
     },
     {
+      "text": "The list merges the 2025-26 profile (Classes of 2023–2025, 169 institutions) with the 2026-27 profile (Classes of 2024–2026, 168): 137 shared, 31 new, 32 kept from the older list, 200 in all. Nothing is removed. Where the two editions spell an institution differently, the 2025-26 spelling is kept.",
+      "of": "0a9a536d",
+      "at": [
+        "charlotte-catholic:outcomes.flags[2].text"
+      ],
+      "t": "La liste fusionne le profil 2025-26 (promotions 2023–2025, 169 établissements) et le profil 2026-27 (promotions 2024–2026, 168) : 137 en commun, 31 nouveaux, 32 conservés de l’ancienne liste, 200 au total. Rien n’est supprimé. Lorsque les deux éditions orthographient différemment un établissement, l’orthographe de 2025-26 est conservée."
+    },
+    {
       "text": "What actually moves a CCHS application.",
       "of": "c3b449f4",
       "at": [
@@ -5406,12 +5491,12 @@
       "t": "Ce qui fait réellement bouger une candidature CCHS."
     },
     {
-      "text": "One lever the student builds, one the school supplies by being a 74-championship NCHSAA program inside a diocesan system.",
-      "of": "4e9212bc",
+      "text": "One lever the student builds, one the school supplies by being a 79-championship NCHSAA program inside a diocesan system.",
+      "of": "be75c083",
       "at": [
         "charlotte-catholic:edge.subhead"
       ],
-      "t": "Un levier que l’élève construit, un autre que l’école apporte en étant un programme NCHSAA aux 74 titres, au sein d’un système diocésain."
+      "t": "Un levier que l’élève construit, un autre que l’école apporte en étant un programme NCHSAA aux 79 titres, au sein d’un système diocésain."
     },
     {
       "text": "what a student controls",
@@ -5470,12 +5555,12 @@
       "t": "ce que CCHS apporte"
     },
     {
-      "text": "Athletic recruiting reach is real and unusual: 74 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.",
-      "of": "c7833b3c",
+      "text": "Athletic recruiting reach is real and unusual: 79 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.",
+      "of": "924bae79",
       "at": [
         "charlotte-catholic:edge.levers[1].items[0]"
       ],
-      "t": "La portée en matière de recrutement sportif est réelle et peu commune : 74 titres d’État depuis 2000, 10 Wells Fargo Cups et plus de 1000 anciens élèves ayant ensuite joué au niveau NCAA, NAIA ou junior college."
+      "t": "La portée en matière de recrutement sportif est réelle et peu commune : 79 titres d’État depuis 2000, 10 Wells Fargo Cups et plus de 1000 anciens élèves ayant ensuite joué au niveau NCAA, NAIA ou junior college."
     },
     {
       "text": "CCHS is one of only four parochial schools competing in the NCHSAA — the public-school association — so its athletes are evaluated against the state’s largest programs rather than a private-school bracket.",
@@ -5494,12 +5579,12 @@
       "t": "Le profil de l’école fait le travail d’interprétation pour un lecteur des admissions : graphique par déciles, normes de charge explicites, politique affirmée de non-classement et seuil « most demanding » clairement défini."
     },
     {
-      "text": "Diocesan scale shows up in outcomes — three Naval Academy appointments in one class, and service-academy matriculations at all three academies.",
-      "of": "f3f78e01",
+      "text": "Diocesan scale shows up in outcomes — Naval Academy appointments in consecutive classes (three in 2025, one in 2026 alongside a West Point appointment), and service-academy matriculations at all three academies.",
+      "of": "53dc59d8",
       "at": [
         "charlotte-catholic:edge.levers[1].items[3]"
       ],
-      "t": "L’échelle diocésaine se lit dans les résultats — trois admissions à la Naval Academy dans une même promotion, et des inscriptions dans les trois académies de service."
+      "t": "L’échelle diocésaine se lit dans les résultats — des admissions à la Naval Academy sur des promotions consécutives (trois en 2025, une en 2026 aux côtés d’une admission à West Point), et des inscriptions dans les trois académies de service."
     },
     {
       "text": "A 650-seat Fine Arts Center dedicated in 2022, a Charlotte Symphony partnership, and a band that performs quadrennially in Dublin give arts applicants a portfolio venue.",
@@ -5550,20 +5635,20 @@
       "t": "SAT et ACT, fourchettes des 50% centraux"
     },
     {
-      "text": "Class of 2026 · 226 SAT takers · 144 ACT takers",
-      "of": "ee54fb07",
+      "text": "Class of 2027 · 290 SAT takers · 322 ACT takers",
+      "of": "518b583f",
       "at": [
         "charlotte-catholic:wholeClass.scoreTables[0].hint"
       ],
-      "t": "Promotion 2026 · 226 candidats au SAT · 144 candidats à l’ACT"
+      "t": "Promotion 2027 · 290 candidats au SAT · 322 candidats à l’ACT"
     },
     {
-      "text": "The school publishes a mid-50% RANGE, not percentiles and not an average. The endpoints of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real; the 10th, 50th, 90th and mean are not published and are shown as em-dashes rather than modelled. No section-level (EBRW / Math) split is published.",
-      "of": "12b58580",
+      "text": "The school publishes a mid-50% RANGE, not percentiles and not an average. The endpoints of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real; the 10th, 50th, 90th and mean are not published and are shown as em-dashes rather than modelled. No section-level (EBRW / Math) split is published. Against 336 seniors, 290 SAT takers and 322 ACT takers means most of the class sat both tests.",
+      "of": "72d1345c",
       "at": [
         "charlotte-catholic:wholeClass.scoreTables[0].note"
       ],
-      "t": "L’école publie une FOURCHETTE des 50% centraux, et non des percentiles ni une moyenne. Les bornes d’une fourchette des 50% centraux sont par définition les 25e et 75e percentiles : ces deux colonnes sont donc réelles ; les 10e, 50e, 90e et la moyenne ne sont pas publiés et sont représentés par des tirets cadratins plutôt que modélisés. Aucune répartition par section (EBRW / Math) n’est publiée."
+      "t": "L’école publie une FOURCHETTE des 50% centraux, et non des percentiles ni une moyenne. Les bornes d’une fourchette des 50% centraux sont par définition les 25e et 75e percentiles : ces deux colonnes sont donc réelles ; les 10e, 50e, 90e et la moyenne ne sont pas publiés et sont représentés par des tirets cadratins plutôt que modélisés. Aucune répartition par section (EBRW / Math) n’est publiée. Pour 336 élèves de terminale, 290 candidats au SAT et 322 à l’ACT signifient que la plupart de la promotion a passé les deux tests."
     },
     {
       "text": "Weighted GPA distribution",
@@ -5574,12 +5659,12 @@
       "t": "Distribution du GPA pondéré"
     },
     {
-      "text": "— Class of 2026 · from the school’s 10-decile chart · weighted, and CCHS does not rank",
-      "of": "e499874a",
+      "text": "— Class of 2027 · from the school’s 10-decile chart · weighted, and CCHS does not rank",
+      "of": "5b16a837",
       "at": [
         "charlotte-catholic:wholeClass.gpaHint"
       ],
-      "t": "— Promotion 2026 · d’après le graphique en 10 déciles de l’école · pondéré, et CCHS ne classe pas ses élèves"
+      "t": "— Promotion 2027 · d’après le graphique en 10 déciles de l’école · pondéré, et CCHS ne classe pas ses élèves"
     },
     {
       "text": "Top fifth",
@@ -5662,12 +5747,12 @@
       "t": "9e et 10e déciles"
     },
     {
-      "text": "CCHS publishes DECILES, not quintiles; each row above pairs two adjacent published deciles, and the underlying bands are given in the detail line so nothing is hidden by the pairing. The published deciles are 1st 4.38–4.63, 2nd 4.26–4.37, 3rd 4.10–4.25, 4th 3.96–4.09, 5th 3.83–3.95, 6th 3.71–3.82, 7th 3.56–3.70, 8th 3.37–3.54, 9th 3.16–3.36, 10th 2.25–3.14. Every figure is weighted, with one quality point added for AP and Honors.",
-      "of": "3ad653e8",
+      "text": "CCHS publishes DECILES, not quintiles; each row above pairs two adjacent published deciles, and the underlying bands are given in the detail line so nothing is hidden by the pairing. The published deciles are 1st 4.38–4.59, 2nd 4.23–4.37, 3rd 4.09–4.22, 4th 3.98–4.08, 5th 3.83–3.97, 6th 3.70–3.82, 7th 3.54–3.69, 8th 3.35–3.53, 9th 3.16–3.34, 10th 2.22–3.15. Every figure is weighted, with one quality point added for AP, Honors and Dual Enrollment.",
+      "of": "44438e88",
       "at": [
         "charlotte-catholic:wholeClass.gpaNote"
       ],
-      "t": "CCHS publie des DÉCILES, et non des quintiles ; chaque ligne ci-dessus regroupe deux déciles publiés adjacents, et les tranches sous-jacentes sont indiquées dans la ligne de détail, si bien que ce regroupement ne masque rien. Les déciles publiés sont : 1er 4.38–4.63, 2e 4.26–4.37, 3e 4.10–4.25, 4e 3.96–4.09, 5e 3.83–3.95, 6e 3.71–3.82, 7e 3.56–3.70, 8e 3.37–3.54, 9e 3.16–3.36, 10e 2.25–3.14. Tous les chiffres sont pondérés, avec un point de qualité ajouté pour les cours AP et Honors."
+      "t": "CCHS publie des DÉCILES, et non des quintiles ; chaque ligne ci-dessus regroupe deux déciles publiés adjacents, et les tranches sous-jacentes sont indiquées dans la ligne de détail, si bien que ce regroupement ne masque rien. Les déciles publiés sont : 1er 4.38–4.59, 2e 4.23–4.37, 3e 4.09–4.22, 4e 3.98–4.08, 5e 3.83–3.97, 6e 3.70–3.82, 7e 3.54–3.69, 8e 3.35–3.53, 9e 3.16–3.34, 10e 2.22–3.15. Tous les chiffres sont pondérés, avec un point de qualité ajouté pour les cours AP, Honors et Dual Enrollment."
     },
     {
       "text": "Academic support",
@@ -5678,10 +5763,26 @@
       "t": "Accompagnement scolaire"
     },
     {
+      "text": "Academic Skills",
+      "of": "2225dcac",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].label"
+      ],
+      "t": "Compétences scolaires"
+    },
+    {
+      "text": "A one-semester course (508 for grades 9–10, 509 for 11–12) in executive function and self-advocacy for Academic Achievement students — the step before Guided Academic Support.",
+      "of": "c1bba2f5",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].text"
+      ],
+      "t": "Un cours d’un semestre (508 pour les niveaux 9–10, 509 pour 11–12) consacré aux fonctions exécutives et à l’auto-plaidoyer pour les élèves d’Academic Achievement — l’étape qui précède Guided Academic Support."
+    },
+    {
       "text": "Guided Academic Support",
       "of": "9b78fbb3",
       "at": [
-        "charlotte-catholic:wholeClass.support[0].label"
+        "charlotte-catholic:wholeClass.support[1].label"
       ],
       "t": "Soutien scolaire encadré"
     },
@@ -5689,7 +5790,7 @@
       "text": "A scheduled course (511) rather than a pull-out service — support sits inside the timetable.",
       "of": "8bd110ef",
       "at": [
-        "charlotte-catholic:wholeClass.support[0].text"
+        "charlotte-catholic:wholeClass.support[1].text"
       ],
       "t": "Un cours inscrit à l’emploi du temps (511) plutôt qu’un dispositif hors classe — l’accompagnement se place à l’intérieur de l’emploi du temps."
     },
@@ -5697,7 +5798,7 @@
       "text": "Options Program",
       "of": "87c933d1",
       "at": [
-        "charlotte-catholic:wholeClass.support[1].label"
+        "charlotte-catholic:wholeClass.support[2].label"
       ],
       "t": "Options Program"
     },
@@ -5705,7 +5806,7 @@
       "text": "A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 14 courses in all.",
       "of": "fd1460c0",
       "at": [
-        "charlotte-catholic:wholeClass.support[1].text"
+        "charlotte-catholic:wholeClass.support[2].text"
       ],
       "t": "Une filière parallèle complète — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance et Options Financial Management : 14 cours au total."
     },
@@ -5713,7 +5814,7 @@
       "text": "Pathway Program",
       "of": "8c9998c9",
       "at": [
-        "charlotte-catholic:wholeClass.support[2].label"
+        "charlotte-catholic:wholeClass.support[3].label"
       ],
       "t": "Pathway Program"
     },
@@ -5721,7 +5822,7 @@
       "text": "A distinct pathway course (507) alongside the Options track.",
       "of": "d2ffa010",
       "at": [
-        "charlotte-catholic:wholeClass.support[2].text"
+        "charlotte-catholic:wholeClass.support[3].text"
       ],
       "t": "Un cours de parcours distinct (507), aux côtés de la filière Options."
     },
@@ -5729,7 +5830,7 @@
       "text": "Study Hall",
       "of": "7e263085",
       "at": [
-        "charlotte-catholic:wholeClass.support[3].label"
+        "charlotte-catholic:wholeClass.support[4].label"
       ],
       "t": "Étude surveillée"
     },
@@ -5737,7 +5838,7 @@
       "text": "Timetabled (100), so a supported schedule need not sacrifice an elective slot.",
       "of": "c18615f6",
       "at": [
-        "charlotte-catholic:wholeClass.support[3].text"
+        "charlotte-catholic:wholeClass.support[4].text"
       ],
       "t": "Inscrite à l’emploi du temps (100), afin qu’un emploi du temps accompagné n’oblige pas à sacrifier une plage d’option."
     },
@@ -5750,12 +5851,12 @@
       "t": "La tranche médiane est publiée"
     },
     {
-      "text": "The 5th and 6th deciles run 3.83–3.95 and 3.71–3.82 — a family can locate a median student, which a school publishing only averages would hide.",
-      "of": "c85f457f",
+      "text": "The 5th and 6th deciles run 3.83–3.97 and 3.70–3.82 — a family can locate a median student, which a school publishing only averages would hide.",
+      "of": "d2220f94",
       "at": [
         "charlotte-catholic:wholeClass.middle[0].text"
       ],
-      "t": "Les 5e et 6e déciles s’étendent de 3.83–3.95 et 3.71–3.82 — une famille peut situer un élève médian, ce qu’une école ne publiant que des moyennes masquerait."
+      "t": "Les 5e et 6e déciles s’étendent de 3.83–3.97 et 3.70–3.82 — une famille peut situer un élève médian, ce qu’une école ne publiant que des moyennes masquerait."
     },
     {
       "text": "The bottom decile is not hidden",
@@ -5766,28 +5867,28 @@
       "t": "Le dernier décile n’est pas dissimulé"
     },
     {
-      "text": "The 10th decile is published as 2.25–3.14 rather than truncated, which is unusually candid for a school profile.",
-      "of": "5ba0fbcb",
+      "text": "The 10th decile is published as 2.22–3.15 rather than truncated, which is unusually candid for a school profile.",
+      "of": "718e8e4f",
       "at": [
         "charlotte-catholic:wholeClass.middle[1].text"
       ],
-      "t": "Le 10e décile est publié comme 2.25–3.14 plutôt que tronqué, ce qui est d’une franchise inhabituelle pour un profil d’école."
+      "t": "Le 10e décile est publié comme 2.22–3.15 plutôt que tronqué, ce qui est d’une franchise inhabituelle pour un profil d’école."
     },
     {
-      "text": "95% continue immediately",
-      "of": "f815cd59",
+      "text": "98% continue immediately",
+      "of": "94c1332e",
       "at": [
         "charlotte-catholic:wholeClass.middle[2].label"
       ],
-      "t": "95% poursuivent immédiatement"
+      "t": "98% poursuivent immédiatement"
     },
     {
-      "text": "Of the Class of 2025, 95% went straight to post-secondary education and 2% to two-year institutions.",
-      "of": "5a83df62",
+      "text": "Of the Class of 2026, 98% went straight to post-secondary education and 2% to two-year institutions.",
+      "of": "5fdb6d20",
       "at": [
         "charlotte-catholic:wholeClass.middle[2].text"
       ],
-      "t": "Dans la promotion 2025, 95% ont poursuivi directement dans l’enseignement supérieur et 2% dans des établissements en deux ans."
+      "t": "Dans la promotion 2026, 98% ont poursuivi directement dans l’enseignement supérieur et 2% dans des établissements en deux ans."
     },
     {
       "text": "Public-university weighted",
@@ -5798,12 +5899,12 @@
       "t": "Orientée vers les universités publiques"
     },
     {
-      "text": "81% of the Class of 2025 enrolled at public universities and 19% at private ones — an outcome pattern closer to a strong public high school than to an independent day school.",
-      "of": "64c6a699",
+      "text": "76% of the Class of 2026 enrolled at public universities and 24% at private ones — an outcome pattern closer to a strong public high school than to an independent day school.",
+      "of": "5615c5f6",
       "at": [
         "charlotte-catholic:wholeClass.middle[3].text"
       ],
-      "t": "81% de la promotion 2025 se sont inscrits dans des universités publiques et 19% dans des universités privées — un profil de résultats plus proche d’un bon lycée public que d’une école indépendante."
+      "t": "76% de la promotion 2026 se sont inscrits dans des universités publiques et 24% dans des universités privées — un profil de résultats plus proche d’un bon lycée public que d’une école indépendante."
     },
     {
       "text": "No mean or median SAT/ACT is published, so this school cannot be placed on an averages-based comparison with schools that publish one. The mid-50% range is what exists.",
@@ -5854,12 +5955,12 @@
       "t": "Le taux AP ne peut pas être embelli"
     },
     {
-      "text": "**94% of scores at 3+** across **1,064 exams** is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator.",
-      "of": "d650b330",
+      "text": "**94% of scores at 3+** across **1,184 exams** in 2026 is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator.",
+      "of": "b1b21936",
       "at": [
         "charlotte-catholic:verdict.points[1].text"
       ],
-      "t": "**94% des scores à 3 ou plus** sur **1,064 examens** est un chiffre portant sur toute la cohorte, car **l’examen est obligatoire dans chaque cours AP** — les candidats les plus fragiles ne peuvent pas être discrètement écartés du dénominateur."
+      "t": "**94% des scores à 3 ou plus** sur **1,184 examens** en 2026 est un chiffre portant sur toute la cohorte, car **l’examen est obligatoire dans chaque cours AP** — les candidats les plus fragiles ne peuvent pas être discrètement écartés du dénominateur."
     },
     {
       "text": "Read the college list as matriculations",
@@ -5870,12 +5971,12 @@
       "t": "Lisez la liste des universités comme des inscriptions"
     },
     {
-      "text": "**169 institutions** is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.",
-      "of": "62dd9ccb",
+      "text": "**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.",
+      "of": "27cbfe32",
       "at": [
         "charlotte-catholic:verdict.points[2].text"
       ],
-      "t": "**169 établissements** correspond aux endroits où les diplômés se sont réellement *inscrits*, une mesure plus restreinte qu’une liste d’admissions par construction. CCHS apparaît plus forte, et non plus faible, une fois cela compris."
+      "t": "**200 établissements** sur les promotions 2023–2026 correspondent aux endroits où les diplômés se sont réellement *inscrits*, une mesure plus restreinte qu’une liste d’admissions par construction. CCHS apparaît plus forte, et non plus faible, une fois cela compris."
     },
     {
       "text": "Athletics is the standout",
@@ -5886,12 +5987,12 @@
       "t": "Le sport est l’atout marquant"
     },
     {
-      "text": "**74 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.",
-      "of": "5f87d7f3",
+      "text": "**79 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.",
+      "of": "8b7e5688",
       "at": [
         "charlotte-catholic:verdict.points[3].text"
       ],
-      "t": "**74 titres d’État** depuis 2000 et **10 Wells Fargo Cups**, remportés au sein de la **NCHSAA** face à des écoles publiques plutôt que dans un tableau réservé aux écoles privées."
+      "t": "**79 titres d’État** depuis 2000 et **10 Wells Fargo Cups**, remportés au sein de la **NCHSAA** face à des écoles publiques plutôt que dans un tableau réservé aux écoles privées."
     },
     {
       "text": "Tuition turns on parish participation",
@@ -5958,12 +6059,12 @@
       "t": "Les examens AP sont obligatoires ici. Qu’advient-il d’un élève qui suit un cours AP et obtient un mauvais résultat à l’examen ?"
     },
     {
-      "text": "Counselors are assigned by last name and stay with a student all four years. How does each one balance about 54 seniors through application season?",
-      "of": "6e5efa77",
+      "text": "Counselors are assigned by last name and stay with a student all four years. How does each one balance about 56 seniors through application season?",
+      "of": "4bbdcd15",
       "at": [
         "charlotte-catholic:verdict.checklist[4]"
       ],
-      "t": "Les conseillers sont attribués selon le nom de famille et suivent l’élève pendant les quatre années. Comment chacun gère-t-il environ 54 élèves de terminale pendant la période des candidatures ?"
+      "t": "Les conseillers sont attribués selon le nom de famille et suivent l’élève pendant les quatre années. Comment chacun gère-t-il environ 56 élèves de terminale pendant la période des candidatures ?"
     },
     {
       "text": "What does a typical Options Program student’s day look like, and how much of it is spent in classes alongside peers?",
@@ -7675,14 +7776,6 @@
       "t": "La liste d’admissions universitaires de Cannon couvre les promotions 2022 à 2026 — 352 établissements, les inscriptions de la promotion 2023 étant en gras."
     },
     {
-      "text": "98%",
-      "of": "bade2553",
-      "at": [
-        "cannon:outcomes.stats[0].value"
-      ],
-      "t": "98%"
-    },
-    {
       "text": "of the Class of 2026 to four-year colleges · 2% to two-year",
       "of": "ca5034fe",
       "at": [
@@ -8914,14 +9007,6 @@
       "t": "85"
     },
     {
-      "text": "seniors in the Class of 2027",
-      "of": "959c71e8",
-      "at": [
-        "covenant-day:outcomes.stats[1].label"
-      ],
-      "t": "élèves de la promotion 2027"
-    },
-    {
       "text": "2 / 8",
       "of": "10390c08",
       "at": [
@@ -9586,14 +9671,6 @@
         "davidson-day:transcript.subhead"
       ],
       "t": "Le School Profile fait le travail que les scores aux tests feraient autrement : tableau complet des points de qualité, +0.5 Honors / +1.0 AP, une politique déclarée d’absence de classement, et une distribution de GPA en trois points qui divulgue un plancher de 2.58."
-    },
-    {
-      "text": "22",
-      "of": "8ff29ca5",
-      "at": [
-        "davidson-day:transcript.stats[0].value"
-      ],
-      "t": "22"
     },
     {
       "text": "AP courses offered in 2026–27 (derived count — the school publishes no total)",
@@ -12294,6 +12371,14 @@
       "t": "Liberal Arts Colleges du Top 75 figurant sur la liste"
     },
     {
+      "text": "23",
+      "of": "8ef29b12",
+      "at": [
+        "hickory-grove-christian:outcomes.stats[3].value"
+      ],
+      "t": "23"
+    },
+    {
       "text": "— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee",
       "of": "aff7851b",
       "at": [
@@ -12790,6 +12875,15 @@
       "t": "En l’absence de classement, le profil fournit d’emblée aux lecteurs des admissions trois substituts à la fois : un tableau de quintiles de GPA publié, un tableau de distribution des notes par département, et des maxima de charge AP énoncés qui définissent ce que « le plus exigeant » veut dire ici."
     },
     {
+      "text": "95%",
+      "of": "5ec35102",
+      "at": [
+        "gaston-day:transcript.stats[0].value",
+        "gaston-day:outcomes.stats[0].value"
+      ],
+      "t": "95%"
+    },
+    {
       "text": "of AP students scored 3+ in 2025 — up from 72% in 2021",
       "of": "1913d89c",
       "at": [
@@ -13044,6 +13138,14 @@
         "gaston-day:counseling.stats[2].value"
       ],
       "t": "35"
+    },
+    {
+      "text": "seniors in the Class of 2026",
+      "of": "969c737b",
+      "at": [
+        "gaston-day:counseling.stats[2].label"
+      ],
+      "t": "élèves de dernière année dans la promotion 2026"
     },
     {
       "text": "platform linking student, family, counselor and college",

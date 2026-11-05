@@ -7295,14 +7295,18 @@ const GASTON_DAY: CourseOfferings = {
 }
 
 /* ── Charlotte Catholic High School ─────────────────────────────────────────
-   2026-2027 Curriculum Guide (96pp), machine-extracted by course code: 195
-   entries — 193 coded courses plus 2 CPCC dual-enrollment courses. CCHS is a
+   2026-2027 Curriculum Guide (96pp), counted by course HEADER: 199 entries —
+   196 coded headers plus 3 CPCC dual-enrollment courses. A header carrying two
+   codes (Academic Skills 508/509, AP Microeconomics & Macroeconomics 953/954)
+   is ONE entry. The first extraction (195) used a single-code header regex and
+   missed four entries — two two-code headers, a code on the title line, and a
+   header the PDF printed with its spaces dropped — corrected 2026-11-05. CCHS is a
    9–12 school, the only one on this roster with no lower or middle school, so
    it has exactly ONE division rather than three.
 
    Descriptions are condensed from the guide's own catalog prose. Note the guide
    lists 12 sections but only 11 are CCHS teaching departments — Dual Enrollment
-   is two courses taken off-campus at CPCC, and it is kept as its own tab here
+   is three CPCC courses taken asynchronously for college credit, and it is kept as its own tab here
    because that is how the guide presents it. */
 const CHARLOTTE_CATHOLIC: CourseOfferings = {
   guideYear: '2026-27',
@@ -7311,7 +7315,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '195 courses across 11 departments plus dual enrollment — 24 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.',
+        '199 courses across 11 departments plus dual enrollment — 26 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.',
       source: 'CCHS Curriculum Guide 2026-2027 (96pp)',
       sourceUrl:
         'https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf',
@@ -7377,7 +7381,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revision, etc.,); documented essays using primary and secondary resources; concentrated practice in writing analytical essays; reading…',
             },
             {
-              title: 'Advanced Placement English 11',
+              title: 'Advanced Placement English 11: English Language and Composition',
               tag: 'AP',
               description:
                 'This course comprises much of the material covered in Honors English 11 Honors as well as the principles of rhetoric and argument.',
@@ -7394,13 +7398,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'This course includes an in-depth study of British Literature through close reading and discussion; advanced composition resulting in several documented literary analyses using primary and, in some cases.',
             },
             {
-              title: 'Advanced Placement English 12',
+              title: 'Advanced Placement English 12: English Literature and Composition',
               tag: 'AP',
               description:
                 'This course includes all the essentials of Honors English 12 with the addition of several sophisticated texts.',
             },
             {
-              title: 'Advanced Placement English 12',
+              title: 'Advanced Placement English 12: English Language and Composition',
               tag: 'AP',
               description:
                 'This course comprises much of the material covered in Honors English 12 as well as the principles of rhetoric and argument.',
@@ -7426,6 +7430,11 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
         {
           name: 'Interdisciplinary Studies',
           courses: [
+            {
+              title: 'Academic Skills 9-10, 11-12',
+              description:
+                'This one-semester course is designed for students in the Academic Achievement program who have been recommended by an Academic Achievement Program Teacher or previous school.',
+            },
             {
               title: 'Guided Academic Support',
               description:
@@ -7489,6 +7498,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               tag: 'AP',
               description:
                 'Advanced Placement Computer Science A emphasizes object-oriented programming methodology, with a strong focus on problem solving and algorithm development.',
+            },
+            {
+              title: 'Advanced Placement Computer Science Principles',
+              tag: 'AP',
+              description:
+                'AP Computer Science Principles is designed to introduce students to the foundational concepts of computer science and computational thinking while exploring the impact of computing on society.',
             },
             {
               title: 'Advanced Placement Cybersecurity Kickstart',
@@ -7978,6 +7993,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'This class is a college-level course that introduces students to the principles of economics that apply to the behavior of individual consumers, firms, and resource owners.',
             },
             {
+              title: 'Advanced Placement Microeconomics & Macroeconomics',
+              tag: 'AP',
+              description:
+                'This class includes topics in both macroeconomics and microeconomics. This course is equivalent to two semester-long courses in macroeconomic theory and microeconomic theory.',
+            },
+            {
               title: 'Advanced Placement European History',
               tag: 'AP',
               description:
@@ -8429,13 +8450,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'On the linguistic level, the acquisition and honing of the four language skills are still constant goals within a culturally rich setting.',
             },
             {
-              title: 'Advanced Placement Spanish V:',
+              title: 'Advanced Placement Spanish V: Language and Culture',
               tag: 'AP',
               description:
                 'The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.',
             },
             {
-              title: 'Advanced Placement Spanish VI:',
+              title: 'Advanced Placement Spanish VI: Literature and Culture',
               tag: 'AP',
               description:
                 'The Advanced Placement Spanish Literature and Culture course is equivalent to a college-level literature course and is designed to advance students’ interpretive, analytical, and communicative skills in Spanish.',
@@ -8456,6 +8477,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               tag: 'Dual Enrollment',
               description:
                 'This course introduces the scientific study of human society, culture, and social interactions.',
+            },
+            {
+              title: 'Dual Enrollment: Art Appreciation',
+              tag: 'Dual Enrollment',
+              description:
+                'This course introduces the origins and historical development of art.',
             },
           ],
         },

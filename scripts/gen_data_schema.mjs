@@ -914,6 +914,19 @@ for (const s of STANDALONE) {
     w('both ship High → Middle → Lower for this reason). Order only matters within a school;')
     w('a brand-new school is free to use grade order.')
     w()
+    // Set 2026-11-05 (catholicprofile): Charlotte Catholic's guide was extracted
+    // with a one-code header regex and shipped 195 courses for months; a re-census
+    // by header found 199.
+    w('**Census a curriculum guide by course HEADER, not by a one-code regex.** A regex')
+    w('keyed on "title, then one course code" silently misses a header carrying two codes')
+    w('(`508, 509`; `953/954`), a code printed on the title line with a single space, and a')
+    w('header the PDF text layer printed with its spaces dropped')
+    w('(`DualEnrollment:ArtAppreciation CPCCART111`). It also truncates a title that wraps')
+    w('onto a second line (`Advanced Placement Spanish V:` for *… V: Language and Culture*).')
+    w('Charlotte Catholic shipped 195 courses and 24 AP until a re-census found 199 and 26.')
+    w('Count each header as one entry even when it has two codes, rejoin wrapped titles, and')
+    w('cross-check the total against the guide\'s own department lists.')
+    w()
   }
   const others = s.types.filter((t) => t !== s.root)
   if (others.length) {

@@ -2315,8 +2315,9 @@
         "charlotte-catholic:divisions[0].departments[0].courses[10].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[13].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[14].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[15].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[16].tag",
@@ -2330,6 +2331,7 @@
         "charlotte-catholic:divisions[0].departments[7].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].tag",
         "charlotte-catholic:divisions[0].departments[9].courses[5].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[11].tag",
@@ -4357,11 +4359,11 @@
         "charlotte-catholic:divisions[0].departments[0].courses[9].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[12].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[17].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[7].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[15].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[8].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[18].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[19].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[7].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[12].tag",
@@ -9457,8 +9459,8 @@
       ]
     },
     {
-      "t": "11টি বিভাগ জুড়ে 195টি কোর্স, সঙ্গে dual enrollment — 24টি AP, 43টি Honors ও 18টি Advanced, যার মধ্যে 39টি কোর্স নিয়ে Visual & Performing Arts-ই সবচেয়ে বড় বিভাগ।",
-      "of": "ee05f62a",
+      "t": "11টি বিভাগ জুড়ে 199টি কোর্স, সঙ্গে dual enrollment — 26টি AP, 43টি Honors ও 18টি Advanced, যার মধ্যে 39টি কোর্স নিয়ে Visual & Performing Arts-ই সবচেয়ে বড় বিভাগ।",
+      "of": "a21a8d48",
       "at": [
         "charlotte-catholic:divisions[0].teaser"
       ]
@@ -9595,8 +9597,8 @@
       ]
     },
     {
-      "t": "Advanced Placement English 11",
-      "of": "f5be7fc2",
+      "t": "Advanced Placement English 11: English Language and Composition",
+      "of": "b6a3a251",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].title"
       ]
@@ -9630,11 +9632,10 @@
       ]
     },
     {
-      "t": "Advanced Placement English 12",
-      "of": "f4be7e2f",
+      "t": "Advanced Placement English 12: English Literature and Composition",
+      "of": "f8fbbded",
       "at": [
-        "charlotte-catholic:divisions[0].departments[0].courses[13].title",
-        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[0].courses[13].title"
       ]
     },
     {
@@ -9642,6 +9643,13 @@
       "of": "49e16eeb",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
+      ]
+    },
+    {
+      "t": "Advanced Placement English 12: English Language and Composition",
+      "of": "cd8951f0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
       ]
     },
     {
@@ -9694,38 +9702,52 @@
       ]
     },
     {
+      "t": "Academic Skills 9-10, 11-12",
+      "of": "38bc930b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+      ]
+    },
+    {
+      "t": "এক সেমিস্টারের এই কোর্সটি Academic Achievement প্রোগ্রামের সেই শিক্ষার্থীদের জন্য, যাদের Academic Achievement প্রোগ্রামের কোনো শিক্ষক বা আগের স্কুল সুপারিশ করেছে।",
+      "of": "c8c7bc94",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+      ]
+    },
+    {
       "t": "পরিচালিত শিক্ষাসহায়তা",
       "of": "9b78fbb3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
       ]
     },
     {
       "t": "এই কোর্সটি 10ম, 11শ ও 12শ শ্রেণির সেসব Academic Achievement শিক্ষার্থীর জন্য সাজানো, যাঁদের GPA 2.9 বা তার কম।",
       "of": "a09da7c3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
     },
     {
       "t": "Assistants",
       "of": "60365f5c",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].title"
       ]
     },
     {
       "t": "সহকারীদের দপ্তর, কাউন্সেলর, প্রাক্তন শিক্ষার্থী ও campus ministry-র জন্য কাজ দেওয়া হবে। মূল্যায়ন হয় শেখার আগ্রহ, উদ্যোগ ও দেওয়া কাজের সম্পাদন এবং সংশ্লিষ্ট ক্ষেত্রে দেখানো দক্ষতার ভিত্তিতে…",
       "of": "bff66572",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
       "t": "Study Hall",
       "of": "7e263085",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[3].title",
         "carmel-christian:divisions[1].departments[8].courses[4].title"
       ]
     },
@@ -9733,21 +9755,21 @@
       "t": "শিক্ষার্থীরা তত্ত্বাবধানে থাকা পরিবেশে নিজেদের কোর্সের কাজ স্বাধীনভাবে করে সময় কাটাবে।",
       "of": "126b46c0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
     },
     {
       "t": "Options Scholars",
       "of": "ea23a104",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
       ]
     },
     {
       "t": "Options",
       "of": "353e0d45",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[0].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[1].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[2].tag",
@@ -9768,70 +9790,70 @@
       "t": "শিক্ষার্থীরা Options Program-এ ভর্তি শিক্ষার্থীদের জন্য সহপাঠী-মেন্টর হিসেবে কাজ করবে। এই ভূমিকায় Options Scholars-রা নানা রকম বুদ্ধিবৃত্তিক ও বিকাশগত প্রতিবন্ধকতা সম্পর্কে জানার পাশাপাশি সহপাঠীদের সঙ্গে অর্থবহ সম্পর্ক গড়ে তুলবে।",
       "of": "6b3c2edc",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
       ]
     },
     {
       "t": "SAT Prep",
       "of": "b74c7f92",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
       ]
     },
     {
       "t": "এই কোর্সটি শিক্ষার্থীদের SAT-র জন্য কার্যকরভাবে প্রস্তুত হতে সাহায্য করার জন্য সাজানো। পাঠদান দুটি প্রধান ভাগে বিভক্ত: Evidence-Based Reading & Writing এবং Mathematics।",
       "of": "66820258",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
     },
     {
       "t": "Sports Ethics",
       "of": "0c47f292",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
       ]
     },
     {
       "t": "শিক্ষার্থীরা নৈতিক ও দার্শনিক দৃষ্টিকোণ থেকে খেলাধুলার গভীরতর অর্থ খুঁজে দেখবে।",
       "of": "abea03c6",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
     },
     {
       "t": "Honors African American Studies",
       "of": "968a9ea3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
       ]
     },
     {
       "t": "Honors African American Studies-এ মনোযোগ দেওয়া হয় গত 400+ বছরে কৃষ্ণাঙ্গ আমেরিকানদের উপর প্রভাব ফেলা ঐতিহাসিক, রাজনৈতিক, অর্থনৈতিক ও সামাজিক ব্যক্তিত্ব ও আন্দোলনগুলোর উপর।",
       "of": "43fa8361",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
       ]
     },
     {
       "t": "Honors Latin American Influence",
       "of": "37717a8b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
       "t": "এই আন্তঃবিষয়ক কোর্সটি সাজানো হয়েছে, যাতে শিক্ষার্থীরা গত শতকে যুক্তরাষ্ট্রে ল্যাটিনো প্রভাব খুঁজে দেখতে পারে।",
       "of": "17c5af7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
       ]
     },
     {
       "t": "Personal Finance",
       "of": "a1435e7b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[4].courses[8].title"
       ]
     },
@@ -9839,42 +9861,42 @@
       "t": "এই কোর্সটি শিক্ষার্থীদের দৈনন্দিন জীবনে প্রয়োজনীয় ব্যক্তিগত দক্ষতা দেওয়ার জন্য সাজানো। পাঠ্যসূচিতে আছে ব্যাংক হিসাব খোলা ও চেকবই এবং ডেবিট কার্ড চালানো, ব্যক্তিগত আয়কর হিসাব করা এবং চাকরিসংক্রান্ত কর বিশ্লেষণ।",
       "of": "ea401078",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "Marketing Principles",
       "of": "03b6c714",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
       ]
     },
     {
       "t": "এটি একটি প্রাথমিক ক্লাস, যা শিক্ষার্থীদের বিপণনের দৃষ্টিকোণ থেকে ব্যবসার জগতের সঙ্গে পরিচিত হতে সাহায্য করে।",
       "of": "18d8cc71",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
       ]
     },
     {
       "t": "Introduction to Accounting",
       "of": "93ea8a53",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].title"
       ]
     },
     {
       "t": "এই ক্লাসটি সাজানো হয়েছে ব্যবসায়িক প্রতিষ্ঠানের ক্ষেত্রে Accounting Cycle-এর মৌলিক নীতিগুলো বোঝানোর জন্য।",
       "of": "a7b074f0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
       "t": "Advanced Placement Computer Science A",
       "of": "5369b620",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[12].title",
         "cannon:divisions[2].departments[6].courses[1].title",
         "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
       ]
@@ -9883,91 +9905,105 @@
       "t": "Advanced Placement Computer Science A-তে জোর দেওয়া হয় object-oriented programming পদ্ধতির উপর, সঙ্গে সমস্যা সমাধান ও অ্যালগরিদম তৈরিতে বিশেষ মনোযোগ।",
       "of": "564d1dca",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+      ]
+    },
+    {
+      "t": "Advanced Placement Computer Science Principles",
+      "of": "81704870",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+      ]
+    },
+    {
+      "t": "AP Computer Science Principles শিক্ষার্থীদের কম্পিউটার বিজ্ঞান ও কম্পিউটেশনাল চিন্তার মৌলিক ধারণার সঙ্গে পরিচয় করিয়ে দেয়, সেইসঙ্গে সমাজে কম্পিউটিংয়ের প্রভাবও খতিয়ে দেখে।",
+      "of": "fce797db",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
       ]
     },
     {
       "t": "Advanced Placement Cybersecurity Kickstart",
       "of": "01903e11",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
       ]
     },
     {
       "t": "AP Cybersecurity এই ক্ষেত্রটির একটি বিস্তৃত পরিচয় দেয় এবং কলেজ পর্যায়ের প্রাথমিক cybersecurity কোর্সের সঙ্গে অনেকটাই মিলে যায়।",
       "of": "8caee700",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
       ]
     },
     {
       "t": "Introduction to STEM",
       "of": "cc9fd807",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
       ]
     },
     {
       "t": "জিনিস বানাতে ভালো লাগে? কোনো কিছু কীভাবে কাজ করে তা নিয়ে কৌতূহল হয়?",
       "of": "e4de0528",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
       ]
     },
     {
       "t": "Introduction to Engineering",
       "of": "1c2acea9",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
       ]
     },
     {
       "t": "Introduction to Engineering সাজানো হয়েছে এমন মৌলিক ধারণা ও দক্ষতা গড়ে তোলার জন্য, যা শিক্ষার্থীদের প্রকৌশলের উচ্চতর কোর্সের জন্য প্রস্তুত করবে।",
       "of": "646417ea",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
       ]
     },
     {
       "t": "Honors Electrical and Computing Engineering",
       "of": "b26ae162",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
       ]
     },
     {
       "t": "এই কোর্সটি শিক্ষার্থীদের বৈদ্যুতিক ও কম্পিউটিং প্রকৌশলের উচ্চতর কোর্সের জন্য প্রস্তুত করতে সাজানো।",
       "of": "e2038a46",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
     },
     {
       "t": "Honors Civil and Construction Engineering",
       "of": "c7aa0cac",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].title"
       ]
     },
     {
       "t": "এই কোর্সটি শিক্ষার্থীদের এসব ক্ষেত্রে কলেজ পর্যায়ের কোর্সের জন্য প্রস্তুত করতে সাজানো। শিক্ষার্থীরা নকশার নানা ধারণা খুঁজে দেখবে, যার মধ্যে আছে ভবনের ব্যবস্থা, নির্মাণসামগ্রী, কাঠামো ও ভার, পরিবহন এবং পরিবেশগত…",
       "of": "8e488616",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
     },
     {
       "t": "Honors Engineering Capstone",
       "of": "272f33a0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].title"
       ]
     },
     {
       "t": "Honors Engineering Capstone সেসব শিক্ষার্থীর জন্য, যাঁরা CCHS-এর আগের প্রকৌশল কোর্সগুলো শেষ করেছেন এবং প্রকৌশলের কোনো ক্ষেত্রে ডিগ্রি নিতে আগ্রহী।",
       "of": "7d1490b7",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].description"
       ]
     },
     {
@@ -10831,17 +10867,31 @@
       ]
     },
     {
+      "t": "Advanced Placement Microeconomics & Macroeconomics",
+      "of": "95982226",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+      ]
+    },
+    {
+      "t": "এই ক্লাসে সামষ্টিক ও ব্যষ্টিক অর্থনীতি দুটিরই বিষয় রয়েছে। কোর্সটি সামষ্টিক অর্থনৈতিক তত্ত্ব ও ব্যষ্টিক অর্থনৈতিক তত্ত্বের দুটি সেমিস্টারব্যাপী কোর্সের সমতুল্য।",
+      "of": "ea8d26ae",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].description"
+      ]
+    },
+    {
       "t": "Advanced Placement European History",
       "of": "b75faf55",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[7].courses[16].title"
       ]
     },
     {
       "t": "এই কোর্সটি শুরু হয় দর্শন ও যুক্তিবিদ্যার একটি সংক্ষিপ্ত পরিচয় দিয়ে। বাকি অংশে দেখা হয়, ঈশ্বর কীভাবে মানুষের কাছে নিজেকে প্রকাশ করেন।",
       "of": "0bb97eaf",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].description",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].description",
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
     },
@@ -11900,8 +11950,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Spanish V:",
-      "of": "ff6c6214",
+      "t": "Advanced Placement Spanish V: Language and Culture",
+      "of": "c2766855",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[26].title"
       ]
@@ -11914,8 +11964,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Spanish VI:",
-      "of": "486bc085",
+      "t": "Advanced Placement Spanish VI: Literature and Culture",
+      "of": "302f4d7f",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[27].title"
       ]
@@ -11933,7 +11983,8 @@
       "at": [
         "charlotte-catholic:divisions[0].departments[11].name",
         "charlotte-catholic:divisions[0].departments[11].courses[0].tag",
-        "charlotte-catholic:divisions[0].departments[11].courses[1].tag"
+        "charlotte-catholic:divisions[0].departments[11].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[11].courses[2].tag"
       ]
     },
     {
@@ -11962,6 +12013,20 @@
       "of": "ef3b3870",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
+      ]
+    },
+    {
+      "t": "Dual Enrollment: Art Appreciation",
+      "of": "e541601b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].title"
+      ]
+    },
+    {
+      "t": "এই কোর্সটি শিল্পকলার উৎপত্তি ও ঐতিহাসিক বিকাশের সঙ্গে পরিচয় করিয়ে দেয়।",
+      "of": "f51aadb4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
     },
     {

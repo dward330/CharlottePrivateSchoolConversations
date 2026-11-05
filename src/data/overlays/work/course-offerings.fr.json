@@ -2519,8 +2519,9 @@
         "charlotte-catholic:divisions[0].departments[0].courses[10].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[13].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[14].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[15].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[16].tag",
@@ -2534,6 +2535,7 @@
         "charlotte-catholic:divisions[0].departments[7].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].tag",
         "charlotte-catholic:divisions[0].departments[9].courses[5].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[11].tag",
@@ -4802,11 +4804,11 @@
         "charlotte-catholic:divisions[0].departments[0].courses[9].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[12].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[17].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[7].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[15].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[8].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[18].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[19].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[7].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[12].tag",
@@ -10550,12 +10552,12 @@
       "t": "NIVEAUX 9 – 12"
     },
     {
-      "text": "195 courses across 11 departments plus dual enrollment — 24 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.",
-      "of": "ee05f62a",
+      "text": "199 courses across 11 departments plus dual enrollment — 26 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.",
+      "of": "a21a8d48",
       "at": [
         "charlotte-catholic:divisions[0].teaser"
       ],
-      "t": "195 cours répartis sur 11 départements, plus la double inscription — 24 AP, 43 Honors et 18 Advanced, le département Visual & Performing Arts étant le plus vaste avec 39 cours."
+      "t": "199 cours répartis sur 11 départements, plus la double inscription — 26 AP, 43 Honors et 18 Advanced, le département Visual & Performing Arts étant le plus vaste avec 39 cours."
     },
     {
       "text": "The course includes a review of grammar fundamentals and basic conventions of essay writing.",
@@ -10707,12 +10709,12 @@
       "t": "Ce cours comprend des techniques d’écriture (préparation, organisation, rédaction, révision, etc.) ; des dissertations documentées s’appuyant sur des sources primaires et secondaires ; une pratique intensive de la dissertation analytique ; la lecture…"
     },
     {
-      "text": "Advanced Placement English 11",
-      "of": "f5be7fc2",
+      "text": "Advanced Placement English 11: English Language and Composition",
+      "of": "b6a3a251",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].title"
       ],
-      "t": "Advanced Placement English 11"
+      "t": "Advanced Placement English 11: English Language and Composition"
     },
     {
       "text": "This course comprises much of the material covered in Honors English 11 Honors as well as the principles of rhetoric and argument.",
@@ -10747,13 +10749,12 @@
       "t": "Ce cours comprend une étude approfondie de la littérature britannique par la lecture attentive et la discussion ; une composition avancée débouchant sur plusieurs analyses littéraires documentées s’appuyant sur des sources primaires et, dans certains cas."
     },
     {
-      "text": "Advanced Placement English 12",
-      "of": "f4be7e2f",
+      "text": "Advanced Placement English 12: English Literature and Composition",
+      "of": "f8fbbded",
       "at": [
-        "charlotte-catholic:divisions[0].departments[0].courses[13].title",
-        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[0].courses[13].title"
       ],
-      "t": "Advanced Placement English 12"
+      "t": "Advanced Placement English 12: English Literature and Composition"
     },
     {
       "text": "This course includes all the essentials of Honors English 12 with the addition of several sophisticated texts.",
@@ -10762,6 +10763,14 @@
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
       ],
       "t": "Ce cours comprend tous les fondamentaux de Honors English 12, auxquels s’ajoutent plusieurs textes exigeants."
+    },
+    {
+      "text": "Advanced Placement English 12: English Language and Composition",
+      "of": "cd8951f0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+      ],
+      "t": "Advanced Placement English 12: English Language and Composition"
     },
     {
       "text": "This course comprises much of the material covered in Honors English 12 as well as the principles of rhetoric and argument.",
@@ -10820,10 +10829,26 @@
       "t": "Études interdisciplinaires"
     },
     {
+      "text": "Academic Skills 9-10, 11-12",
+      "of": "38bc930b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+      ],
+      "t": "Academic Skills 9-10, 11-12"
+    },
+    {
+      "text": "This one-semester course is designed for students in the Academic Achievement program who have been recommended by an Academic Achievement Program Teacher or previous school.",
+      "of": "c8c7bc94",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+      ],
+      "t": "Ce cours d’un semestre s’adresse aux élèves du programme Academic Achievement recommandés par un enseignant du programme Academic Achievement ou par leur établissement précédent."
+    },
+    {
       "text": "Guided Academic Support",
       "of": "9b78fbb3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
       ],
       "t": "Soutien scolaire encadré"
     },
@@ -10831,7 +10856,7 @@
       "text": "This course is tailored for 10th, 11th, and 12th grade Academic Achievement students with a GPA 2.9 or below.",
       "of": "a09da7c3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ],
       "t": "Ce cours est conçu pour les élèves d’Academic Achievement de 10e, 11e et 12e année ayant un GPA de 2.9 ou moins."
     },
@@ -10839,7 +10864,7 @@
       "text": "Assistants",
       "of": "60365f5c",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].title"
       ],
       "t": "Assistants"
     },
@@ -10847,7 +10872,7 @@
       "text": "Assistants will be assigned tasks for the office, counselors, alumni and campus ministry. Evaluation is based on their willingness to learn, initiative and performance of assigned tasks, and demonstrated competencies within the area…",
       "of": "bff66572",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ],
       "t": "Les assistants se voient confier des tâches pour le secrétariat, les conseillers, les anciens élèves et la Campus Ministry. L’évaluation repose sur leur volonté d’apprendre, leur initiative, l’accomplissement des tâches confiées et les compétences démontrées dans le domaine…"
     },
@@ -10855,7 +10880,7 @@
       "text": "Study Hall",
       "of": "7e263085",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[3].title",
         "carmel-christian:divisions[1].departments[8].courses[4].title"
       ],
       "t": "Study Hall"
@@ -10864,7 +10889,7 @@
       "text": "Students will spend their time working independently on their coursework in a supervised environment.",
       "of": "126b46c0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ],
       "t": "Les élèves travaillent de façon autonome sur leurs cours, dans un cadre encadré."
     },
@@ -10872,7 +10897,7 @@
       "text": "Options Scholars",
       "of": "ea23a104",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
       ],
       "t": "Options Scholars"
     },
@@ -10880,7 +10905,7 @@
       "text": "Options",
       "of": "353e0d45",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[0].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[1].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[2].tag",
@@ -10902,7 +10927,7 @@
       "text": "Students will serve as academic peer mentors for those enrolled in the Options Program. In this role, Options Scholars will develop meaningful peer relationships while learning about various intellectual and developmental disabilities.",
       "of": "6b3c2edc",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
       ],
       "t": "Les élèves servent de mentors auprès de leurs pairs inscrits au Options Program. À ce titre, les Options Scholars nouent des relations utiles avec leurs camarades tout en découvrant différents handicaps intellectuels et troubles du développement."
     },
@@ -10910,7 +10935,7 @@
       "text": "SAT Prep",
       "of": "b74c7f92",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
       ],
       "t": "SAT Prep"
     },
@@ -10918,7 +10943,7 @@
       "text": "This course is designed to help students prepare effectively for the SAT. Instruction is divided into two main components: Evidence-Based Reading & Writing and Mathematics.",
       "of": "66820258",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ],
       "t": "Ce cours vise à aider les élèves à se préparer efficacement au SAT. L’enseignement se divise en deux grands volets : Evidence-Based Reading & Writing et Mathematics."
     },
@@ -10926,7 +10951,7 @@
       "text": "Sports Ethics",
       "of": "0c47f292",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
       ],
       "t": "Sports Ethics"
     },
@@ -10934,7 +10959,7 @@
       "text": "Students will explore the deeper meaning of sport through an ethical and philosophical lens.",
       "of": "abea03c6",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ],
       "t": "Les élèves explorent le sens profond du sport sous un angle éthique et philosophique."
     },
@@ -10942,7 +10967,7 @@
       "text": "Honors African American Studies",
       "of": "968a9ea3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
       ],
       "t": "Honors African American Studies"
     },
@@ -10950,7 +10975,7 @@
       "text": "Honors African American Studies focuses on the historical, political, economic, and social figures and movements impacting Black Americans over the past 400+ years.",
       "of": "43fa8361",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
       ],
       "t": "Honors African American Studies porte sur les figures et les mouvements historiques, politiques, économiques et sociaux qui ont marqué les Américains noirs depuis plus de 400 ans."
     },
@@ -10958,7 +10983,7 @@
       "text": "Honors Latin American Influence",
       "of": "37717a8b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].title"
       ],
       "t": "Honors Latin American Influence"
     },
@@ -10966,7 +10991,7 @@
       "text": "This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.",
       "of": "17c5af7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
       ],
       "t": "Ce cours interdisciplinaire invite les élèves à explorer l’influence latino-américaine aux États-Unis au cours du siècle dernier."
     },
@@ -10974,7 +10999,7 @@
       "text": "Personal Finance",
       "of": "a1435e7b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[4].courses[8].title"
       ],
       "t": "Personal Finance"
@@ -10983,7 +11008,7 @@
       "text": "This course is designed to provide students with personal skills needed daily. Topics of study include establishing a bank account and maintaining a checkbook and debit card, computing personal income tax and analyzing employment taxes.",
       "of": "ea401078",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
       ],
       "t": "Ce cours vise à donner aux élèves les compétences personnelles utiles au quotidien. Les thèmes abordés incluent l’ouverture d’un compte bancaire, la tenue d’un chéquier et l’usage d’une carte de débit, le calcul de l’impôt sur le revenu et l’analyse des charges liées à l’emploi."
     },
@@ -10991,7 +11016,7 @@
       "text": "Marketing Principles",
       "of": "03b6c714",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
       ],
       "t": "Marketing Principles"
     },
@@ -10999,7 +11024,7 @@
       "text": "This is a beginning class to help students become familiar with the world of business through a marketing perspective.",
       "of": "18d8cc71",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
       ],
       "t": "Il s’agit d’un cours d’initiation destiné à familiariser les élèves avec le monde de l’entreprise sous l’angle du marketing."
     },
@@ -11007,7 +11032,7 @@
       "text": "Introduction to Accounting",
       "of": "93ea8a53",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].title"
       ],
       "t": "Introduction to Accounting"
     },
@@ -11015,7 +11040,7 @@
       "text": "This class is designed to provide an understanding of the basic principles of the Accounting Cycle as it applies to business entities.",
       "of": "a7b074f0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ],
       "t": "Ce cours vise à faire comprendre les principes de base du cycle comptable tels qu’ils s’appliquent aux entreprises."
     },
@@ -11023,7 +11048,7 @@
       "text": "Advanced Placement Computer Science A",
       "of": "5369b620",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[12].title",
         "cannon:divisions[2].departments[6].courses[1].title",
         "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
       ],
@@ -11033,15 +11058,31 @@
       "text": "Advanced Placement Computer Science A emphasizes object-oriented programming methodology, with a strong focus on problem solving and algorithm development.",
       "of": "564d1dca",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
       ],
       "t": "Advanced Placement Computer Science A met l’accent sur la méthodologie de la programmation orientée objet, avec une insistance marquée sur la résolution de problèmes et le développement d’algorithmes."
+    },
+    {
+      "text": "Advanced Placement Computer Science Principles",
+      "of": "81704870",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+      ],
+      "t": "Advanced Placement Computer Science Principles"
+    },
+    {
+      "text": "AP Computer Science Principles is designed to introduce students to the foundational concepts of computer science and computational thinking while exploring the impact of computing on society.",
+      "of": "fce797db",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+      ],
+      "t": "AP Computer Science Principles vise à initier les élèves aux concepts fondamentaux de l’informatique et de la pensée computationnelle, tout en explorant l’impact de l’informatique sur la société."
     },
     {
       "text": "Advanced Placement Cybersecurity Kickstart",
       "of": "01903e11",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
       ],
       "t": "Advanced Placement Cybersecurity Kickstart"
     },
@@ -11049,7 +11090,7 @@
       "text": "AP Cybersecurity offers a broad introduction to the field and aligns closely with a college-level, introductory cybersecurity course.",
       "of": "8caee700",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
       ],
       "t": "AP Cybersecurity propose une large introduction au domaine et correspond étroitement à un cours d’initiation à la cybersécurité de niveau universitaire."
     },
@@ -11057,7 +11098,7 @@
       "text": "Introduction to STEM",
       "of": "cc9fd807",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
       ],
       "t": "Introduction to STEM"
     },
@@ -11065,7 +11106,7 @@
       "text": "Do you like building things? Do you tend to be curious how things work?",
       "of": "e4de0528",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
       ],
       "t": "Aimez-vous construire des choses ? Avez-vous tendance à vouloir comprendre comment les choses fonctionnent ?"
     },
@@ -11073,7 +11114,7 @@
       "text": "Introduction to Engineering",
       "of": "1c2acea9",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
       ],
       "t": "Introduction to Engineering"
     },
@@ -11081,7 +11122,7 @@
       "text": "Introduction to Engineering is designed to develop foundational concepts and skills that will prepare students for more advanced courses in engineering.",
       "of": "646417ea",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
       ],
       "t": "Introduction to Engineering vise à développer les concepts et compétences fondamentaux qui prépareront les élèves à des cours d’ingénierie plus avancés."
     },
@@ -11089,7 +11130,7 @@
       "text": "Honors Electrical and Computing Engineering",
       "of": "b26ae162",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
       ],
       "t": "Honors Electrical and Computing Engineering"
     },
@@ -11097,7 +11138,7 @@
       "text": "This course is designed to prepare students for advanced courses in electrical and computing engineering fields.",
       "of": "e2038a46",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ],
       "t": "Ce cours vise à préparer les élèves à des cours avancés dans les domaines du génie électrique et informatique."
     },
@@ -11105,7 +11146,7 @@
       "text": "Honors Civil and Construction Engineering",
       "of": "c7aa0cac",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].title"
       ],
       "t": "Honors Civil and Construction Engineering"
     },
@@ -11113,7 +11154,7 @@
       "text": "This course is designed to prepare students for college level courses in these fields. Students will explore design concepts including building systems, building materials, structures and loads, transportation, and environmental…",
       "of": "8e488616",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ],
       "t": "Ce cours vise à préparer les élèves à des cours de niveau universitaire dans ces domaines. Les élèves explorent des notions de conception incluant les systèmes du bâtiment, les matériaux de construction, les structures et les charges, les transports et les questions environnementales…"
     },
@@ -11121,7 +11162,7 @@
       "text": "Honors Engineering Capstone",
       "of": "272f33a0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].title"
       ],
       "t": "Honors Engineering Capstone"
     },
@@ -11129,7 +11170,7 @@
       "text": "Honors Engineering Capstone is available for students who completed prior CCHS engineering courses and are interested in pursuing a degree in engineering fields.",
       "of": "7d1490b7",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].description"
       ],
       "t": "Honors Engineering Capstone s’adresse aux élèves ayant suivi les cours d’ingénierie précédents de CCHS et souhaitant poursuivre des études d’ingénieur."
     },
@@ -12112,10 +12153,26 @@
       "t": "Ce cours de niveau universitaire initie les élèves aux principes économiques qui régissent le comportement des consommateurs, des entreprises et des détenteurs de ressources."
     },
     {
+      "text": "Advanced Placement Microeconomics & Macroeconomics",
+      "of": "95982226",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+      ],
+      "t": "Advanced Placement Microeconomics & Macroeconomics"
+    },
+    {
+      "text": "This class includes topics in both macroeconomics and microeconomics. This course is equivalent to two semester-long courses in macroeconomic theory and microeconomic theory.",
+      "of": "ea8d26ae",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].description"
+      ],
+      "t": "Ce cours aborde à la fois la macroéconomie et la microéconomie. Il équivaut à deux cours semestriels de théorie macroéconomique et de théorie microéconomique."
+    },
+    {
       "text": "Advanced Placement European History",
       "of": "b75faf55",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[7].courses[16].title"
       ],
       "t": "Advanced Placement European History"
     },
@@ -12123,7 +12180,7 @@
       "text": "This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.",
       "of": "0bb97eaf",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].description",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].description",
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ],
       "t": "Ce cours s’ouvre par une brève introduction à la philosophie et à la logique. Le reste du cours examine la façon dont Dieu se révèle aux hommes."
@@ -13330,12 +13387,12 @@
       "t": "Honors Spanish IV"
     },
     {
-      "text": "Advanced Placement Spanish V:",
-      "of": "ff6c6214",
+      "text": "Advanced Placement Spanish V: Language and Culture",
+      "of": "c2766855",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[26].title"
       ],
-      "t": "Advanced Placement Spanish V:"
+      "t": "Advanced Placement Spanish V: Language and Culture"
     },
     {
       "text": "The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.",
@@ -13346,12 +13403,12 @@
       "t": "Le cours Advanced Placement Spanish Language and Culture équivaut à un cours universitaire d’initiation et vise à faire progresser la compétence de communication des élèves en espagnol, dans un cadre culturellement riche et fondé sur les contenus."
     },
     {
-      "text": "Advanced Placement Spanish VI:",
-      "of": "486bc085",
+      "text": "Advanced Placement Spanish VI: Literature and Culture",
+      "of": "302f4d7f",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[27].title"
       ],
-      "t": "Advanced Placement Spanish VI:"
+      "t": "Advanced Placement Spanish VI: Literature and Culture"
     },
     {
       "text": "The Advanced Placement Spanish Literature and Culture course is equivalent to a college-level literature course and is designed to advance students’ interpretive, analytical, and communicative skills in Spanish.",
@@ -13367,7 +13424,8 @@
       "at": [
         "charlotte-catholic:divisions[0].departments[11].name",
         "charlotte-catholic:divisions[0].departments[11].courses[0].tag",
-        "charlotte-catholic:divisions[0].departments[11].courses[1].tag"
+        "charlotte-catholic:divisions[0].departments[11].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[11].courses[2].tag"
       ],
       "t": "Double inscription"
     },
@@ -13402,6 +13460,22 @@
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
       ],
       "t": "Ce cours initie à l’étude scientifique de la société humaine, de la culture et des interactions sociales."
+    },
+    {
+      "text": "Dual Enrollment: Art Appreciation",
+      "of": "e541601b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].title"
+      ],
+      "t": "Dual Enrollment: Art Appreciation"
+    },
+    {
+      "text": "This course introduces the origins and historical development of art.",
+      "of": "f51aadb4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].description"
+      ],
+      "t": "Ce cours présente les origines et le développement historique de l’art."
     },
     {
       "text": "10 subject areas — both French and Spanish from JK, a Design Lab, and a Grade 4 Exhibition research capstone.",

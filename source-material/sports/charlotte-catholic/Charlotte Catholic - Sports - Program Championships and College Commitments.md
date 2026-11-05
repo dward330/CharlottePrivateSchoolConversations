@@ -56,6 +56,14 @@ genuine**: its `CHARLOTTE CATHOLIC:` heading is bounded by `CARMEL CHRISTIAN` ab
 
 ## Program scale and championships
 
+> **Update 2026-11-05 — School Profile 2026-2027.** The new edition
+> (https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf)
+> gives **79** state championships and **68** state runner-up finishes since 2000 (up from
+> 74 / 65), and says "nine" Wachovia/Wells Fargo Cups. The NCHSAA all-time list's **10**
+> still stands for the Cup count. The conference, the 1-of-4 parochial line and "Over
+> 1,000" college athletes are restated unchanged. Full transcription:
+> `source-material/college-support/charlotte-catholic/Charlotte Catholic - College Support - School Profile 2026-2027.md`.
+
 | Figure | Value | Source |
 | --- | --- | --- |
 | **State championships since 2000** | **74** | S1 |
