@@ -1,11 +1,11 @@
 ---
 name: ddprofile2
 title: Use the rest of Davidson Day's 2026–27 School Profile — Sports figures (16 all-state, 8 Class of 2026 collegiate athletes, 200+ athletes, the SouthLake football/baseball partnership, 565 enrollment, NCISAA-verified 200 m title and runners-up), CEEB and two memberships on College Support, the GSD language rule, a confirmed "service not required" on Clubs, the international-research share on Global Exposure, and the short-play showcase on Arts
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-04
 branch: feat/dd-profile-rest
-prs: []
+prs: [428]
 ---
 
 # Use the rest of Davidson Day's 2026–27 School Profile
@@ -419,3 +419,22 @@ overlay topics this plan touched: `sports`, `college-support`, `student-clubs`,
   Larsen), where the Arts ledger says three. Confirm in a browser before correcting.
 - **Phase 2 workload:** 16 units per locale. sports 9, college-support 3, student-clubs 2,
   international-travel 1, the-arts 1.
+
+### Phase 2 (2026-11-05)
+
+- **The user approved the English, and Phase 2 ran in the same window.** Step 2a (the Blumey
+  correction) was applied in English first, with four rendered strings and the header
+  comment. It was browser-checked and committed before the splice.
+- **The splice paired exactly:** 20 added and 20 dropped per locale, one per edited `at`
+  path. Every new `t` was built from that locale's old translation. Two units were
+  figure-only (`550` → `565`), the CEEB line was appended, eight sentences were appended
+  in translation, and nine units got exact substring edits, each asserted to match once.
+  Unchanged wording therefore stays byte-identical to the reviewed translations.
+- **Quotes:** es, fr, it and hi keep the English "Service is encouraged, but not required."
+  (fr in « »). bn, ht, te, fa and ar translate it.
+- **check:digits:** 4 of 180 flagged, all from renderings already shipped (fa and ar
+  "fifth" for grade 5, es "2024 y 2026", hi "कक्षा 10" for sophomore year). None was
+  changed.
+- **fa CEEB:** the render layer isolates `340-971` (U+2066…U+2069), and a glyph-x scan
+  confirmed it reads left to right.
+- **No deploy.**
