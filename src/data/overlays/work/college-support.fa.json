@@ -1410,6 +1410,8 @@
       "of": "31090d4d",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[0].label",
@@ -1421,7 +1423,9 @@
       "text": "Reading & Writing",
       "of": "3b78a2c5",
       "at": [
-        "providence-day:wholeClass.scoreTables[0].rows[1].label"
+        "providence-day:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[1].label"
       ],
       "t": "خواندن و نوشتن"
     },
@@ -1430,6 +1434,8 @@
       "of": "92b47f3f",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[2].label"
       ],
       "t": "ریاضی SAT"
@@ -1466,6 +1472,8 @@
       "of": "30c12050",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[3].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[3].label",
         "charlotte-christian:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[1].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[0].label",
@@ -1478,6 +1486,8 @@
       "of": "0104944f",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[4].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[1].label"
       ],
       "t": "انگلیسی ACT"
@@ -1487,6 +1497,8 @@
       "of": "c5e605cb",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[5].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[2].label"
       ],
       "t": "ریاضی ACT"
@@ -2862,43 +2874,60 @@
       "t": "این ارقام میانگین‌اند، نه توزیع. خواننده اکنون می‌تواند یک نمرهٔ آزمون را با میانگین دوره بسنجد، اما نه با پراکندگی آن — نه بازهٔ 50% میانی وجود دارد و نه سهمی از دوره که بالای خطی باشد."
     },
     {
-      "text": "SAT & ACT class means",
-      "of": "2e3d021b",
+      "text": "SAT & ACT means, Class of 2026",
+      "of": "1871d8c4",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].title"
       ],
-      "t": "میانگین‌های دوره‌ای SAT و ACT"
+      "t": "میانگین‌های SAT و ACT، دورهٔ 2026"
     },
     {
-      "text": "— as of 8/6/26 · testers shown per row",
-      "of": "c8324e43",
+      "text": "— as of 8/6/26 · 123 SAT and 58 ACT testers",
+      "of": "4c2299d1",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].hint"
       ],
-      "t": "— تا 8/6/26 · شمار آزمون‌دهندگان در هر ردیف"
+      "t": "— تا 8/6/26 · 123 آزمون‌دهندهٔ SAT و 58 آزمون‌دهندهٔ ACT"
     },
     {
-      "text": "Class of 2026",
-      "of": "39fd4622",
+      "text": "ACT Reading",
+      "of": "81ac390f",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
-        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[6].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[6].label"
       ],
-      "t": "دورهٔ 2026"
+      "t": "خواندن ACT"
     },
     {
-      "text": "Class of 2027",
-      "of": "3afd47b5",
+      "text": "ACT Science",
+      "of": "17bff769",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[7].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[7].label"
       ],
-      "t": "دورهٔ 2027"
+      "t": "علوم ACT"
+    },
+    {
+      "text": "SAT & ACT means, Class of 2027",
+      "of": "1971da57",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].title"
+      ],
+      "t": "میانگین‌های SAT و ACT، دورهٔ 2027"
+    },
+    {
+      "text": "— as of 8/6/26 · 117 SAT and 79 ACT testers",
+      "of": "6f2f7621",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].hint"
+      ],
+      "t": "— تا 8/6/26 · 117 آزمون‌دهندهٔ SAT و 79 آزمون‌دهندهٔ ACT"
     },
     {
       "text": "Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The Class of 2026’s size is not printed, so no testing rate can be computed.",
       "of": "0f868fd0",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].note"
+        "charlotte-latin:wholeClass.scoreTables[1].note"
       ],
       "t": "تنها میانگین — نمایه هیچ صدک یا بازهٔ 50% میانی‌ای چاپ نمی‌کند. دورهٔ 2027 هنوز در حال آزمون دادن است، پس ارقامش ناقص است. اندازهٔ دورهٔ 2026 چاپ نشده، پس نرخ شرکت در آزمون را نمی‌توان محاسبه کرد."
     },
@@ -9187,6 +9216,14 @@
         "covenant-day:wholeClass.scoreTables[0].hint"
       ],
       "t": "— آن‌گونه که منتشر شده، به تفکیک ویرایش نمایه"
+    },
+    {
+      "text": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": "دورهٔ 2026"
     },
     {
       "text": "Class of 2024",

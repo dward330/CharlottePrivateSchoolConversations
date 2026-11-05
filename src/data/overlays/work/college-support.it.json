@@ -1410,6 +1410,8 @@
       "of": "31090d4d",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[0].label",
@@ -1421,7 +1423,9 @@
       "text": "Reading & Writing",
       "of": "3b78a2c5",
       "at": [
-        "providence-day:wholeClass.scoreTables[0].rows[1].label"
+        "providence-day:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[1].label"
       ],
       "t": "Reading & Writing"
     },
@@ -1430,6 +1434,8 @@
       "of": "92b47f3f",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[2].label"
       ],
       "t": "SAT Math"
@@ -1466,6 +1472,8 @@
       "of": "30c12050",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[3].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[3].label",
         "charlotte-christian:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[1].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[0].label",
@@ -1478,6 +1486,8 @@
       "of": "0104944f",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[4].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[1].label"
       ],
       "t": "ACT English"
@@ -1487,6 +1497,8 @@
       "of": "c5e605cb",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[5].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[2].label"
       ],
       "t": "ACT Math"
@@ -2862,43 +2874,60 @@
       "t": "Le cifre sono medie, non distribuzioni. Un lettore può ora collocare un punteggio rispetto alla media della classe, ma non rispetto alla dispersione — non c'è una fascia del 50% centrale né la quota della classe sopra una qualsiasi soglia."
     },
     {
-      "text": "SAT & ACT class means",
-      "of": "2e3d021b",
+      "text": "SAT & ACT means, Class of 2026",
+      "of": "1871d8c4",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].title"
       ],
-      "t": "Medie di classe SAT & ACT"
+      "t": "Medie SAT & ACT, Class of 2026"
     },
     {
-      "text": "— as of 8/6/26 · testers shown per row",
-      "of": "c8324e43",
+      "text": "— as of 8/6/26 · 123 SAT and 58 ACT testers",
+      "of": "4c2299d1",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].hint"
       ],
-      "t": "— al 8/6/26 · candidati indicati per riga"
+      "t": "— al 8/6/26 · 123 candidati al SAT e 58 all'ACT"
     },
     {
-      "text": "Class of 2026",
-      "of": "39fd4622",
+      "text": "ACT Reading",
+      "of": "81ac390f",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
-        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[6].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[6].label"
       ],
-      "t": "Class of 2026"
+      "t": "ACT Reading"
     },
     {
-      "text": "Class of 2027",
-      "of": "3afd47b5",
+      "text": "ACT Science",
+      "of": "17bff769",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[7].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[7].label"
       ],
-      "t": "Class of 2027"
+      "t": "ACT Science"
+    },
+    {
+      "text": "SAT & ACT means, Class of 2027",
+      "of": "1971da57",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].title"
+      ],
+      "t": "Medie SAT & ACT, Class of 2027"
+    },
+    {
+      "text": "— as of 8/6/26 · 117 SAT and 79 ACT testers",
+      "of": "6f2f7621",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].hint"
+      ],
+      "t": "— al 8/6/26 · 117 candidati al SAT e 79 all'ACT"
     },
     {
       "text": "Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The Class of 2026’s size is not printed, so no testing rate can be computed.",
       "of": "0f868fd0",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].note"
+        "charlotte-latin:wholeClass.scoreTables[1].note"
       ],
       "t": "Solo medie — il profilo non riporta percentili né una fascia del 50% centrale. La Class of 2027 sta ancora sostenendo i test, quindi le sue cifre sono parziali. La dimensione della Class of 2026 non è indicata, quindi non si può calcolare alcun tasso di partecipazione ai test."
     },
@@ -9187,6 +9216,14 @@
         "covenant-day:wholeClass.scoreTables[0].hint"
       ],
       "t": "— come pubblicate, per edizione del profilo"
+    },
+    {
+      "text": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": "Class of 2026"
     },
     {
       "text": "Class of 2024",

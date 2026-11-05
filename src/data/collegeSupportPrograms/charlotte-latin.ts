@@ -779,15 +779,37 @@ export const charlotteLatin: CollegeSupportProgram = {
       'The figures are means, not distributions. A reader can now place a test score against the class average, but not against the spread — there is no middle-50% band and no share of the class above any line.',
     // The 2026–27 profile prints class MEANS only, so the table is
     // noPercentiles: a mean is never filed under a percentile column. No GPA
-    // distribution is published, so quintiles stays empty.
+    // distribution is published, so quintiles stays empty. Section averages
+    // come from the same profile page, one table per class.
     scoreTables: [
       {
-        title: 'SAT & ACT class means',
-        hint: '— as of 8/6/26 · testers shown per row',
+        title: 'SAT & ACT means, Class of 2026',
+        hint: '— as of 8/6/26 · 123 SAT and 58 ACT testers',
         noPercentiles: true,
         rows: [
-          { label: 'Class of 2026', values: ['SAT 1308.5 (N=123)', 'ACT 27.2 (N=58)'] },
-          { label: 'Class of 2027', values: ['SAT 1303.0 (N=117)', 'ACT 28.8 (N=79)'] },
+          { label: 'SAT total', values: ['1308.5'] },
+          { label: 'Reading & Writing', values: ['658.5'] },
+          { label: 'SAT Math', values: ['650.0'] },
+          { label: 'ACT composite', values: ['27.2'] },
+          { label: 'ACT English', values: ['27.5'] },
+          { label: 'ACT Math', values: ['27.2'] },
+          { label: 'ACT Reading', values: ['27.9'] },
+          { label: 'ACT Science', values: ['26.1'] },
+        ],
+      },
+      {
+        title: 'SAT & ACT means, Class of 2027',
+        hint: '— as of 8/6/26 · 117 SAT and 79 ACT testers',
+        noPercentiles: true,
+        rows: [
+          { label: 'SAT total', values: ['1303.0'] },
+          { label: 'Reading & Writing', values: ['646.2'] },
+          { label: 'SAT Math', values: ['656.8'] },
+          { label: 'ACT composite', values: ['28.8'] },
+          { label: 'ACT English', values: ['28.5'] },
+          { label: 'ACT Math', values: ['29.0'] },
+          { label: 'ACT Reading', values: ['29.2'] },
+          { label: 'ACT Science', values: ['28.5'] },
         ],
         note: 'Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The Class of 2026’s size is not printed, so no testing rate can be computed.',
       },

@@ -1262,6 +1262,8 @@
       "of": "31090d4d",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[0].label",
@@ -1272,7 +1274,9 @@
       "t": "Reading & Writing",
       "of": "3b78a2c5",
       "at": [
-        "providence-day:wholeClass.scoreTables[0].rows[1].label"
+        "providence-day:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[1].label"
       ]
     },
     {
@@ -1280,6 +1284,8 @@
       "of": "92b47f3f",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[2].label"
       ]
     },
@@ -1312,6 +1318,8 @@
       "of": "30c12050",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[3].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[3].label",
         "charlotte-christian:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[1].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[0].label",
@@ -1323,6 +1331,8 @@
       "of": "0104944f",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[4].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[1].label"
       ]
     },
@@ -1331,6 +1341,8 @@
       "of": "c5e605cb",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[5].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[2].label"
       ]
     },
@@ -2540,39 +2552,54 @@
       ]
     },
     {
-      "t": "SAT ও ACT শ্রেণি-গড়",
-      "of": "2e3d021b",
+      "t": "SAT ও ACT গড়, Class of 2026",
+      "of": "1871d8c4",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].title"
       ]
     },
     {
-      "t": "— 8/6/26 অনুযায়ী · প্রতি সারিতে পরীক্ষার্থীর সংখ্যা দেখানো",
-      "of": "c8324e43",
+      "t": "— 8/6/26 অনুযায়ী · SAT-এ 123 জন ও ACT-এ 58 জন পরীক্ষার্থী",
+      "of": "4c2299d1",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].hint"
       ]
     },
     {
-      "t": "Class of 2026",
-      "of": "39fd4622",
+      "t": "ACT Reading",
+      "of": "81ac390f",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
-        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[6].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[6].label"
       ]
     },
     {
-      "t": "Class of 2027",
-      "of": "3afd47b5",
+      "t": "ACT Science",
+      "of": "17bff769",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[7].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[7].label"
+      ]
+    },
+    {
+      "t": "SAT ও ACT গড়, Class of 2027",
+      "of": "1971da57",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "— 8/6/26 অনুযায়ী · SAT-এ 117 জন ও ACT-এ 79 জন পরীক্ষার্থী",
+      "of": "6f2f7621",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].hint"
       ]
     },
     {
       "t": "কেবল গড় — প্রোফাইলে কোনো percentile বা মধ্যবর্তী 50%-এর পরিসর ছাপা নেই। Class of 2027 এখনও পরীক্ষা দিচ্ছে, তাই তাদের সংখ্যা আংশিক। Class of 2026-এর আকার ছাপা নেই, তাই পরীক্ষায় অংশগ্রহণের হার হিসাব করা যায় না।",
       "of": "0f868fd0",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].note"
+        "charlotte-latin:wholeClass.scoreTables[1].note"
       ]
     },
     {
@@ -8078,6 +8105,13 @@
       "of": "6b6fdb19",
       "at": [
         "covenant-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
       ]
     },
     {

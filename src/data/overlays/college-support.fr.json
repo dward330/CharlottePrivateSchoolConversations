@@ -1262,6 +1262,8 @@
       "of": "31090d4d",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[0].label",
@@ -1272,7 +1274,9 @@
       "t": "Reading & Writing",
       "of": "3b78a2c5",
       "at": [
-        "providence-day:wholeClass.scoreTables[0].rows[1].label"
+        "providence-day:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[1].label"
       ]
     },
     {
@@ -1280,6 +1284,8 @@
       "of": "92b47f3f",
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[2].label"
       ]
     },
@@ -1312,6 +1318,8 @@
       "of": "30c12050",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[0].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[3].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[3].label",
         "charlotte-christian:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-catholic:wholeClass.scoreTables[0].rows[1].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[0].label",
@@ -1323,6 +1331,8 @@
       "of": "0104944f",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[1].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[4].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[1].label"
       ]
     },
@@ -1331,6 +1341,8 @@
       "of": "c5e605cb",
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[2].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[5].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[2].label"
       ]
     },
@@ -2540,39 +2552,54 @@
       ]
     },
     {
-      "t": "Moyennes de promotion SAT et ACT",
-      "of": "2e3d021b",
+      "t": "Moyennes SAT et ACT, promotion 2026",
+      "of": "1871d8c4",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].title"
       ]
     },
     {
-      "t": "— au 8/6/26 · candidats indiqués par ligne",
-      "of": "c8324e43",
+      "t": "— au 8/6/26 · 123 candidats au SAT et 58 à l’ACT",
+      "of": "4c2299d1",
       "at": [
         "charlotte-latin:wholeClass.scoreTables[0].hint"
       ]
     },
     {
-      "t": "Promotion 2026",
-      "of": "39fd4622",
+      "t": "ACT Reading",
+      "of": "81ac390f",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[0].label",
-        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[6].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[6].label"
       ]
     },
     {
-      "t": "Promotion 2027",
-      "of": "3afd47b5",
+      "t": "ACT Science",
+      "of": "17bff769",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[1].label"
+        "charlotte-latin:wholeClass.scoreTables[0].rows[7].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[7].label"
+      ]
+    },
+    {
+      "t": "Moyennes SAT et ACT, promotion 2027",
+      "of": "1971da57",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "— au 8/6/26 · 117 candidats au SAT et 79 à l’ACT",
+      "of": "6f2f7621",
+      "at": [
+        "charlotte-latin:wholeClass.scoreTables[1].hint"
       ]
     },
     {
       "t": "Moyennes uniquement — le profil n’imprime ni percentiles ni fourchette des 50% centraux. La promotion 2027 passe encore les tests, ses chiffres sont donc partiels. L’effectif de la promotion 2026 n’est pas indiqué, de sorte qu’aucun taux de participation aux tests ne peut être calculé.",
       "of": "0f868fd0",
       "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].note"
+        "charlotte-latin:wholeClass.scoreTables[1].note"
       ]
     },
     {
@@ -8078,6 +8105,13 @@
       "of": "6b6fdb19",
       "at": [
         "covenant-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Promotion 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
       ]
     },
     {
