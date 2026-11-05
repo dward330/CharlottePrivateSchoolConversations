@@ -574,14 +574,30 @@ Load-bearing negatives — these are researched findings, not unexamined blanks:
 nomination found is *Bonnie & Clyde*, on an undated school page, so it is not "recent" in
 any provable sense. **No page change.**
 
-## A lead for a later pass (not acted on in ddprofile2)
+## 2026 finalists: the app's count was wrong (CONFIRMED 2026-11-05)
 
-The 2026 page, as WebFetch read it, lists **five** Davidson Day finalists for *Big Fish*:
-Best Actor (Lukas Paeper), **Best Actress (Malena Lessa as Sandra Bloom)**, **Best
-Supporting Actor (Noah Larsen as Will Bloom)**, Best Supporting Actress (Katelyn Ray) and
-Best Featured Performer (Elizabeth Robinson, also a nominee). The app's 2026 ledger row
-says "Three finalists". Confirm this in a browser before correcting the row, since it rests
-on a model summary of the page.
+Read in real Google Chrome (Playwright, `channel: 'chrome'`) on 2026-11-05, from the 2026
+nominees and finalists page above. It lists **five** Davidson Day finalists for *Big Fish*,
+not the three the app's ledger shows:
+
+| Category | Davidson Day entry (verbatim) |
+|---|---|
+| Finalists for Best Actor | Davidson Day School - Lukas Paeper as Edward Bloom - Big Fish |
+| Finalists for Best Actress | Davidson Day School - Malena Lessa as Sandra Bloom - Big Fish |
+| Finalists for Best Supporting Actor | Davidson Day School - Noah Larsen as Will Bloom - Big Fish |
+| Finalists for Best Supporting Actress | Davidson Day School - Katelyn Ray as Witch - Big Fish |
+| Finalists for Best Featured Performer | Davidson Day School - Elizabeth Robinson as Giant - Big Fish |
+| Best Featured Performer (nominee, top six) | Davidson Day School – Elizabeth Robinson as Giant – Big Fish |
+
+The earlier research missed Best Actress and Best Supporting Actor. The page also says the
+Best Actor and Best Actress *nominees* were announced separately on May 4, 2026, so a
+Paeper or Lessa nomination is not established here. The app says "finalist" and nothing
+more.
+
+**No win.** The 2026 winners page
+(https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners)
+lists Davidson Day / *Big Fish* only among the participating schools. Best Actor went to
+North Lincoln and Best Actress to Carmel Christian.
 
 
 ---
