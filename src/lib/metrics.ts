@@ -332,8 +332,9 @@ const RULES: Record<string, Rule[]> = {
     { match: /^\W*1e\b|verdict/i, key: 'in-depth-report', label: 'In-Depth Report' },
     // The research notes' own provenance/confidence header — sourcing metadata,
     // not a research finding, so it rides along with the report rather than
-    // becoming a card.
-    { match: /^provenance$|confidence key/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    // becoming a card. A claim-verification record (Davidson Day's Blumey check)
+    // is the same kind of sourcing apparatus.
+    { match: /^provenance$|confidence key|blumey verification/i, key: 'in-depth-report', label: 'In-Depth Report' },
     { match: /awards and recognition|recognition and exhibitions/i, key: 'awards', label: 'Awards & Recognition' },
     { match: /program overview/i, key: 'overview', label: 'Program Overview' },
     { match: /visual arts/i, key: 'visual-arts', label: 'Visual Arts' },

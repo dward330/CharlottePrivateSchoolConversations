@@ -15,7 +15,7 @@
 //  1. Davidson Day DOES have a real Blumey record, correcting the thin prior
 //     research: 2023 Mean Girls drew program-level nominations (Best
 //     Ensemble/Chorus AND Best Overall Direction), and 2026 Big Fish produced
-//     three finalists. So card 1b renders with a ledger — but titled "Theatre &
+//     five finalists. So card 1b renders with a ledger — but titled "Theatre &
 //     External Recognition", since no NCTC record exists at all and the school's
 //     entire competitive identity runs through the Blumeys.
 //
@@ -43,6 +43,8 @@ import type { ArtsProgram } from '../artsProgram.ts'
 const DD_ARTS = 'https://www.davidsonday.org/student-life/arts'
 const DD_CATALOG =
   'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog'
+const DD_PROFILE =
+  'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
 
 export const davidsonDay: ArtsProgram = {
   ladder: {
@@ -90,7 +92,7 @@ export const davidsonDay: ArtsProgram = {
     enrichment: [
       {
         label: 'Improv & Musical Review',
-        text: 'The Theatre Performance Ensemble takes part in Davidson Day productions, an Improv Comedy show, a Musical Review, and collaborations with local theatre companies — though the partner companies are not named.',
+        text: 'The Theatre Performance Ensemble takes part in Davidson Day productions, an Improv Comedy show, a Musical Review, a Student Written and Directed Short Play Showcase, and collaborations with local theatre companies — though the partner companies are not named.',
       },
       {
         label: 'The performance venue',
@@ -108,12 +110,13 @@ export const davidsonDay: ArtsProgram = {
     sources: [
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
+      { label: 'School Profile 2026–27 (Short Play Showcase)', url: DD_PROFILE },
     ],
   },
 
   theatre: {
     headline:
-      'A legitimate, program-level Blumey record from a very small school — Best Ensemble/Chorus and Best Overall Direction nominations in 2023, three finalists in 2026.',
+      'A legitimate, program-level Blumey record from a very small school — Best Ensemble/Chorus and Best Overall Direction nominations in 2023, five finalists in 2026.',
     subhead:
       'The Blumeys are Blumenthal Performing Arts’ Charlotte-region high-school musical-theater awards. Davidson Day’s external theatre identity runs entirely through them — no NCTC record exists.',
     seasonTitle: 'The season rhythm — one Upper School musical a year',
@@ -122,7 +125,7 @@ export const davidsonDay: ArtsProgram = {
         season: '2025-26',
         kind: 'Upper School Musical',
         detail:
-          'Big Fish — the school’s 2026 Blumey entry, which produced three finalist placements.',
+          'Big Fish — the school’s 2026 Blumey entry, which produced five finalist placements.',
       },
       {
         season: 'Recent',
@@ -141,7 +144,7 @@ export const davidsonDay: ArtsProgram = {
         year: '2026',
         show: 'Big Fish',
         result:
-          'Three finalists: Best Actor (Lukas Paeper as Edward Bloom), Best Supporting Actress (Katelyn Ray as Witch), Best Featured Performer (Elizabeth Robinson as Giant, also a nominee). No win recorded.',
+          'Five finalists: Best Actor (Lukas Paeper as Edward Bloom), Best Actress (Malena Lessa as Sandra Bloom), Best Supporting Actor (Noah Larsen as Will Bloom), Best Supporting Actress (Katelyn Ray as Witch), Best Featured Performer (Elizabeth Robinson as Giant, also a nominee). No win recorded.',
       },
       {
         year: '2025',
@@ -301,7 +304,7 @@ export const davidsonDay: ArtsProgram = {
       },
       {
         label: 'The Blumey record is program-level, not just lucky individuals',
-        text: '2023 Mean Girls drew Best Ensemble/Chorus and Best Overall Direction nominations, and 2026 Big Fish produced three finalists across Best Actor, Best Supporting Actress and Best Featured Performer.',
+        text: '2023 Mean Girls drew Best Ensemble/Chorus and Best Overall Direction nominations, and 2026 Big Fish produced five finalists across Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress and Best Featured Performer.',
       },
       {
         label: 'A complete visual-arts ladder terminating in AP',
