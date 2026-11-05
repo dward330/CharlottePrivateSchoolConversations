@@ -608,3 +608,50 @@ the content-overlay check (`check:live` gate 2) if the course-offerings ingest c
   `<details>` open, every source toggle open): 158 rows, both Xaviers, Tuskegee present
   (its HBCU tag is counted in 23 / 107), all tiles, Compare shows `(2023 + 2025–2026)` ×6,
   the record headline still says twelve, and every profile source links to its own edition.
+
+### Admissions live-site refresh (user request, 2026-11-04, same branch)
+
+The user asked, after Phase 1, to "update the admissions data you see out of date". The
+school had rebuilt hgchristian.org: every old `/admissions/…` and `/academics/…` URL
+redirects to a hub page, and the `/fs/resource-manager/` checklist PDFs return 404. The
+record is in `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-11-04.md`.
+
+- **Application fee** $250 / $500 → **$300 / $550** (same windows) in every band, the
+  comparison row, the disclaimer and the source label. The 21 mentions of the $500 deposit
+  were asserted unchanged.
+- **The Visit step** is now the **Admissions Open House, Tuesday, November 10, 2026** (12, 4
+  and 6 p.m.), in all four domestic bands, their checklist rows, the comparison row and the
+  spine.
+- **International band:**
+  - English thresholds TOEFL Jr. 750 / SLEP 50 → **TOEFL 80 / Duolingo 115**.
+  - The interview is online with the program **Director and the Principal** (no longer
+    listed as "first").
+  - The **fee is due at application**. The page no longer gives two timings, so the
+    2026-10-04 "ship both" decision is superseded by the source.
+  - **Math and English teacher recommendations** and **two years of translated report cards**
+    are now required.
+  - **Full payment by August 1**.
+  - The I-20 is mailed to the parent or guardian.
+  - Host families are HGBC members and HGCS families.
+  - "SEVIS-certified" was dropped, since no current page says it.
+- **Aid:** aid applications open **only once the HGCS application is complete** (new
+  wording, and not the dropped acceptance precondition). Added the federal **Education
+  Freedom Tax Credit** (from Jan 1, 2027, via an SGO, partner not yet named).
+- **Contacts:** the four-person Admissions & Enrollment Team is named. Contact details are
+  published for the director only.
+- **Citations:** every source moved to its new URL, and the dead Apply page source was
+  removed. Learning Support's two checklist links and its ESS fee PDF link were re-pointed
+  to the same documents (all 13 fee figures match the live PDF). Its international row now
+  says TOEFL 80 / Duolingo 115.
+- **Not changed, raised with the user:**
+  - Mallard Creek's classical TK/K. Its page is gone and no current page mentions it; the
+    FACTS portal still loads.
+  - Compare's HS tuition `$13,750` vs the school's 2026–27 **$14,100** (Financial Aid &
+    Tuition area).
+  - Old-site URLs in College Support, Clubs, Summer, After School and the rest of Learning
+    Support, which now redirect.
+- **Verification:** `tsc -b`, schema, runtime, moneytext, dates and currency are clean.
+  `check:money` fails on two Wells Fargo Cup tiles in `SportsProgram.tsx` that this change
+  does not touch. `check:live` now reports 114 stale stamps per locale (Phase 2). Real
+  Chrome: every band, plus the TK/K5, 9–12 and international printable checklists, shows the
+  new figures and none of `$250` / SLEP / TOEFL Jr / Skype.

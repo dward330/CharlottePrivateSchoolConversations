@@ -12,7 +12,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](admissions/charlotte-latin.md) — 1 docs
 - [Charlotte Preparatory School](admissions/charlotte-prep.md) — 2 docs
 - [Covenant Day School](admissions/covenant-day.md) — 2 docs
-- [Hickory Grove Christian School](admissions/hickory-grove-christian.md) — 3 docs
+- [Hickory Grove Christian School](admissions/hickory-grove-christian.md) — 4 docs
 - [Providence Day School](admissions/providence-day.md) — 2 docs
 - [Trinity Episcopal School](admissions/trinity-episcopal.md) — 2 docs
 
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 503 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 504 documents across 12 topics and 13 schools.

@@ -32,11 +32,20 @@
 // forward: "$250.00 (November, 2 2026 - May 31, 2027)" and "$500 (June 1, 2027
 // and later)", non-refundable and not applied toward tuition. The hedge was
 // removed everywhere. Do not restore it from the 2026-09-01 research file.
+// ON 2026-11-04 THE FEE ROSE, same windows: the rebuilt Admissions Home page
+// reads "STANDARD ENROLLMENT $300 … November 2, 2026 – May 31, 2027" and "LATE
+// ENROLLMENT $550 … June 1, 2027 or later" (Live-Site Refresh 2026-11-04.md).
+//
+// THE SITE WAS REBUILT ON 2026-11-04. Every old /admissions/… and /academics/…
+// URL now redirects to a hub page, and the /fs/resource-manager/ checklist links
+// return 404. The checklists moved to files.smartsites.parentsquare.com with the
+// same "Revised 11/17/25" text. Every citation below points at the new URLs.
 // The application fee is still NOT a stat tile: adding one is a UX change that
 // needs the user's approval, and it was out of scope for the refresh.
 //
 // BOTH ADMISSION-CHECKLIST PDFs ARE RETRIEVABLE, AND A PRIOR PASS RECORDED THEM
-// AS BLOCKED. `/fs/resource-manager/view/<guid>` 302-redirects to
+// AS BLOCKED. (Superseded 2026-11-04: the resource-manager links below now 404;
+// the same PDFs are on files.smartsites.parentsquare.com, cited in `sources`.) `/fs/resource-manager/view/<guid>` 302-redirects to
 // resources.finalsite.net — the same pattern already used for Country Day,
 // Charlotte Christian and Charlotte Latin. Both return HTTP 200 and extract
 // with `pdftotext -layout`; both footers read "Revised 11/17/25". They are the
@@ -60,7 +69,7 @@
 // separate process: its own director, a video interview INSTEAD OF a campus
 // visit, English-proficiency thresholds, transcripts translated through a named
 // evaluator, an I-20 the school issues itself, homestay, health insurance and
-// full payment before day one. It shares almost no steps with the domestic
+// full payment by August 1. It shares almost no steps with the domestic
 // path, so an overlay would have misdescribed it.
 //
 // THE MIDDLE / HIGH SPLIT IS REAL BUT NARROW. Grades 6–12 share ONE checklist,
@@ -123,7 +132,10 @@
 // The 2026-09-01 file recorded "new families must be accepted for enrollment
 // before applying for aid". The live page no longer says so; it says "Apply
 // immediately … email finance@hgchristian.org". Do not restore the
-// precondition from the older file.
+// precondition from the older file. A DIFFERENT precondition appeared on
+// 2026-11-04: "Financial Aid Applications can only be submitted upon completion
+// of your HGCS Application" (Scholarships & Financial Aid Home). That is the
+// completed application, not acceptance, and it ships.
 //
 // MALLARD CREEK'S "applications submitted before February 18 will be considered
 // first" IS NOT CARRIED (user, 2026-10-04). The page gives no year and its
@@ -133,11 +145,11 @@
 // file. The campus is "exploring" the classical TK/K, so the card says it
 // "plans to open" one, not that it "is launching".
 //
-// THE INTERNATIONAL FEE SHIPS WITH BOTH PUBLISHED TIMINGS (user, 2026-10-04).
-// The enrollment-process page says the fee is "due at the time of application"
-// in one line and places it after acceptance in its step list. The card gives
-// both and sends the family to the international office; it does not pick one.
-// The amount remains not published.
+// THE INTERNATIONAL FEE TIMING IS NOW SETTLED BY THE SCHOOL (2026-11-04). On
+// 2026-10-04 the enrollment-process page gave two timings, and the card shipped
+// both (user's call). The rebuilt page puts "Pay the non-refundable application
+// fee" in Step 1 and says it "is due at the time of application", so the card
+// now states that one timing. The amount remains not published.
 //
 // NOTE FOR EDITORS: `rules[].text` is rendered RAW — `<strong>{title}</strong>
 // {text}` in AdmissionsProgram.tsx — so it is the one prose field on this card
@@ -184,10 +196,11 @@
 // and are deliberately absent from this card. Tuition belongs to the Financial
 // Aid & Tuition area either way.
 //
-// CONTACTS: only ONE admissions staff member is named anywhere on the site
-// (Sheila M. Chaney, who runs both admissions and the international program),
-// so the grid carries office rows alongside her rather than reading as a
-// one-entry error. Both the academic address (7200 E. WT Harris Blvd.) and the
+// CONTACTS: the rebuilt Admissions Home page (2026-11-04) names a four-person
+// Admissions & Enrollment Team, but publishes contact details only for Sheila
+// M. Chaney, who runs both admissions and the international program. The grid
+// lists her and the office rows; the other three are named in the address
+// line, without contact details the school does not give. Both the academic address (7200 E. WT Harris Blvd.) and the
 // mailing address (6050 Hickory Grove Road) are published and are reproduced
 // rather than silently reconciled. ⚠️ 704-531-3589 appears on an old admissions
 // page and is NOT shipped; the current published admissions number is
@@ -226,7 +239,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
     ],
 
     spineNote:
-      'One shared spine in every domestic band — submit the inquiry form → arrange your visit → apply in FACTS and pay the application fee → send the forms your band requires → sit the entrance testing, which is scheduled only once every form has arrived → attend the family interview → receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this and is set out in its own band.',
+      'One shared spine in every domestic band — submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee → send the forms your band requires → sit the entrance testing, which is scheduled only once every form has arrived → attend the family interview → receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this and is set out in its own band.',
 
     bands: [
       {
@@ -245,7 +258,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** plans to open a **classical Christian TK and Kindergarten** that would grow one grade a year, with students moving to Harris at middle school.',
+              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** plans to open a **classical Christian TK and Kindergarten** that would grow one grade a year, with students moving to Harris at middle school.',
           },
           {
             title: 'Check which grade your child is eligible for',
@@ -259,7 +272,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. The school expects **limited availability at Mallard Creek**, so confirm its dates and steps with the admissions office if you are applying there. Send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. The school expects **limited availability at Mallard Creek**, so confirm its dates and steps with the admissions office if you are applying there. Send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send the three forms this band requires',
@@ -297,8 +310,8 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         },
         checklistRows: [
           {
-            action: 'Submit the inquiry form and request a campus visit',
-            detail: 'Both are short forms linked from the admissions page. Decide Harris or Mallard Creek here.',
+            action: 'Submit the inquiry form and register for the Open House',
+            detail: 'Both are forms linked from the admissions page; the Open House is Tuesday, November 10, 2026. Decide Harris or Mallard Creek here.',
             due: 'Fall 2026',
           },
           {
@@ -308,7 +321,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Apply in the FACTS portal for your campus and pay the application fee',
-            detail: 'Harris and Mallard Creek use different portals. Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
+            detail: 'Harris and Mallard Creek use different portals. Non-refundable and not applied toward tuition: $300 through May 31, 2027, then $550.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -364,14 +377,14 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. Grades 1 through 5 are taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
+              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). Grades 1 through 5 are taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send the forms and records this band requires',
@@ -409,13 +422,13 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         },
         checklistRows: [
           {
-            action: 'Submit the inquiry form and request a campus visit',
-            detail: 'Both are short forms linked from the admissions page.',
+            action: 'Submit the inquiry form and register for the Open House',
+            detail: 'Both are forms linked from the admissions page; the Open House is Tuesday, November 10, 2026.',
             due: 'Fall 2026',
           },
           {
             action: 'Apply in the FACTS portal and pay the application fee',
-            detail: 'Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
+            detail: 'Non-refundable and not applied toward tuition: $300 through May 31, 2027, then $550.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -481,14 +494,14 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
+              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send four recommendations and the full record',
@@ -526,13 +539,13 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         },
         checklistRows: [
           {
-            action: 'Submit the inquiry form and request a campus visit',
-            detail: 'Both are short forms linked from the admissions page.',
+            action: 'Submit the inquiry form and register for the Open House',
+            detail: 'Both are forms linked from the admissions page; the Open House is Tuesday, November 10, 2026.',
             due: 'Fall 2026',
           },
           {
             action: 'Apply in the FACTS portal and pay the application fee',
-            detail: 'Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
+            detail: 'Non-refundable and not applied toward tuition: $300 through May 31, 2027, then $550.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -613,14 +626,14 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. High school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
+              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). High school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $250 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$500 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send four recommendations and the full record',
@@ -665,13 +678,13 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         },
         checklistRows: [
           {
-            action: 'Submit the inquiry form and request a campus visit',
-            detail: 'Both are short forms linked from the admissions page.',
+            action: 'Submit the inquiry form and register for the Open House',
+            detail: 'Both are forms linked from the admissions page; the Open House is Tuesday, November 10, 2026.',
             due: 'Fall 2026',
           },
           {
             action: 'Apply in the FACTS portal and pay the application fee',
-            detail: 'Non-refundable and not applied toward tuition: $250 through May 31, 2027, then $500.',
+            detail: 'Non-refundable and not applied toward tuition: $300 through May 31, 2027, then $550.',
             due: 'Nov 2 or Nov 16, 2026',
           },
           {
@@ -747,59 +760,59 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         sublabel: 'Separate process · I-20 issued by HGCS',
         title: 'International Students — F-1 Visa',
         deadlines: [
-          { value: 'TOEFL Jr. 750+', label: 'English proficiency — or SLEP 50+' },
-          { value: 'Before day one', label: 'full payment required to enroll' },
+          { value: 'TOEFL 80', label: 'English proficiency — or Duolingo 115' },
+          { value: 'Aug 1', label: 'full payment due before enrollment' },
           { value: '$500', label: 'enrollment deposit on acceptance' },
         ],
         steps: [
           {
-            title: 'Interview with a school official — by video, not in person',
-            tag: 'first step',
+            title: 'Interview online with the program director and the principal',
+            tag: 'part of the review',
             tagKind: 'accent',
             detail:
-              'The international process **begins** with an interview rather than ending with one, and it is held over **Skype, WeChat or WhatsApp** with a school official. This **replaces the campus visit** that opens every domestic band — a family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013** and is **SEVIS-certified**, so it issues its own I-20 rather than routing families through a third party.',
+              'Admission rests on four things the school lists together: an **online interview with the Director of the International Student Program and the Principal**, the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every domestic band — a family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**, and it issues its own I-20 rather than routing families through a third party.',
           },
           {
             title: 'Complete the online admission application',
             tag: 'after the interview',
             tagKind: 'accent',
             detail:
-              'The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The application fee is **non-refundable**, but its **amount is not published**, and the school\'s page states its timing two ways — **due at the time of application** in one line, and paid **after acceptance** in its step-by-step list — so **confirm both the amount and when it is due with the international office**.',
+              'The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The application file needs a **copy of the passport and birth certificate**, the **immunization record**, a **math and an English teacher recommendation**, the English-test score sheet, the **high school transcript and the previous two years of report cards, both translated into English**, and any accommodations plan, educational evaluation or medical diagnosis that applies. The application fee is **non-refundable** and **due at the time of application**, but its **amount is not published** — ask the international office.',
           },
           {
             title: 'Meet the English-proficiency thresholds',
             tag: 'with the application',
             tagKind: 'accent',
             detail:
-              'The published thresholds are **TOEFL Jr. 750 or above** and **SLEP 50 or above**, and the score sheet is submitted with the application. The school states it is **willing to discuss other testing options**, so a student holding a different recognized English assessment should ask rather than assume it will not be accepted.',
+              'The published thresholds are **TOEFL 80** and **Duolingo 115**, and the score sheet is submitted with the application. The school states it is **willing to discuss other testing options**, so a student holding a different recognized English assessment should ask rather than assume it will not be accepted.',
           },
           {
             title: 'Send transcripts translated into English',
             tag: 'with the application',
             tagKind: 'accent',
             detail:
-              '**Middle and high school transcripts must be translated into English**, and the school directs families to **International Education Evaluations (IEE)** — myiee.org, info@foreigntranscripts.com — for the evaluation. Prior **academic and behavioral performance** and standardized test scores are then reviewed together, so the translated record is what the decision is made on.',
+              '**The high school transcript and the previous two years of report cards must be translated into English**, and the school directs families to **International Education Evaluations (IEE)** — info@foreigntranscripts.com — for help. Prior **academic and behavioral performance** and standardized test scores are then reviewed together, so the translated record is what the decision is made on.',
           },
           {
-            title: 'Acceptance, the application fee, then the I-20',
+            title: 'Acceptance, then the I-20',
             tag: 'on acceptance',
             tagKind: 'accent',
             detail:
-              'An accepted student is **notified by email**, and a school official then **mails the I-20**. The school\'s step-by-step list places the **non-refundable application fee** at this point, although another line on the same page says it is due with the application — settle that with the international office. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family\'s to book, and embassy waiting times are outside the school\'s control, so start it as soon as the I-20 arrives.',
+              'An accepted student is **notified by email**, and a school official then **mails the I-20 to the parent or guardian**. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family\'s to book, and embassy waiting times are outside the school\'s control, so start it as soon as the I-20 arrives.',
           },
           {
             title: 'Arrange homestay, health insurance and immunizations',
             tag: 'before arrival',
             tagKind: 'outline',
             detail:
-              'Where homestay is required, the **HGCS Student Coordinator** contacts the student or agent with the arrangements; the school has placed students with host families since **2013** and handles the arrangement internally. **Host-family vetting and background-check specifics are not published** — ask the coordinator directly. Health insurance runs through **American Benefit Services (Short Term Medical)**, on **843-214-2447** or wesley.abs@gmail.com, and the school also requires an **international-student immunizations form** and a **current physical**.',
+              'Where homestay is required, the **HGCS Student Coordinator** contacts the student or agent with the arrangements; host families are **Hickory Grove Baptist Church members and families with students at HGCS**, and the school handles the arrangement internally. **Host-family vetting and background-check specifics are not published** — ask the coordinator directly. Health insurance runs through **American Benefit Services (Short Term Medical)**, on **843-214-2447** or wesley.abs@gmail.com, and the school also requires an **international-student immunizations form** and a **current physical**.',
           },
           {
-            title: 'Pay in full before the first day',
-            tag: 'before day one',
+            title: 'Pay in full by August 1',
+            tag: 'by Aug 1',
             tagKind: 'accent',
             detail:
-              '**Full payment must be received before the first day of school**, and a student cannot be enrolled until it is — an unpaid balance puts the application on **financial hold**. This is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**; nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**',
+              '**Full payment must be received by August 1** before the student can be enrolled, and a balance still unpaid on the first day of school puts the application on **financial hold**. This is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**; nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**',
           },
           {
             title: 'What the program includes once you arrive',
@@ -812,37 +825,37 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'A different process, not the domestic one with extra paperwork.',
-          text: 'It opens with a video interview instead of a campus visit, runs on English-proficiency thresholds and transcripts translated through a named evaluator, and ends with an I-20 that Hickory Grove issues itself and an embassy appointment you book. The financial shape differs too: full payment is required before the first day of school, not a deposit and a billing plan. No separate international deadline is published, and neither is the international application fee or tuition — Sheila M. Chaney directs both admissions and the international program and is the person to ask.',
+          text: 'It runs on an online interview with the program director and the principal instead of a campus visit, on English-proficiency thresholds, on a transcript and report cards translated into English, and on two teacher recommendations, and it ends with an I-20 that Hickory Grove issues itself and an embassy appointment you book. The financial shape differs too: full payment is due by August 1, not a deposit and a billing plan. No separate international deadline is published, and neither is the international application fee or tuition — Sheila M. Chaney directs both admissions and the international program and is the person to ask.',
         },
         checklistRows: [
           {
-            action: 'Arrange the Skype, WeChat or WhatsApp interview with a school official',
-            detail: 'The first step, and it replaces the campus visit the domestic bands begin with.',
-            due: 'First step',
+            action: 'Arrange the online interview with the program director and the principal',
+            detail: 'Part of the admission review, and it replaces the campus visit the domestic bands begin with.',
+            due: 'Before the decision',
           },
           {
-            action: 'Complete the online admission application',
-            detail: 'Submitted to the International Admissions Office. The fee is non-refundable; its amount is not published, and the page gives its timing as both at application and after acceptance — confirm.',
-            due: 'After the interview',
-          },
-          {
-            action: 'Sit TOEFL Jr. or SLEP and send the score sheet',
-            detail: 'TOEFL Jr. 750+ or SLEP 50+. The school will discuss other testing options.',
+            action: 'Complete the online admission application and pay the fee',
+            detail: 'With the passport and birth certificate copies, immunization record, math and English teacher recommendations and any accommodations plan. The fee is non-refundable and due with the application; its amount is not published.',
             due: 'With the application',
           },
           {
-            action: 'Have middle and high school transcripts translated into English',
-            detail: 'Through International Education Evaluations (IEE) — myiee.org.',
+            action: 'Sit TOEFL or Duolingo and send the score sheet',
+            detail: 'TOEFL 80 or Duolingo 115. The school will discuss other testing options.',
+            due: 'With the application',
+          },
+          {
+            action: 'Have the transcript and two years of report cards translated into English',
+            detail: 'International Education Evaluations (IEE) can help — info@foreigntranscripts.com.',
             due: 'With the application',
           },
           {
             action: 'Watch for the acceptance email',
-            detail: 'The step list places the non-refundable application fee here; another line says it is due with the application — confirm which.',
+            detail: 'Acceptance is sent by email; the I-20 follows by mail.',
             due: 'On acceptance',
           },
           {
             action: 'Receive the I-20 and book the U.S. Embassy interview',
-            detail: 'HGCS mails the I-20; the embassy appointment for the F-1 visa is yours to arrange.',
+            detail: 'HGCS mails the I-20 to the parent or guardian; the embassy appointment for the F-1 visa is yours to arrange.',
             due: 'On acceptance',
           },
           {
@@ -857,8 +870,8 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Pay the $500 enrollment deposit, then the balance in full',
-            detail: 'Full payment before the first day of school, or the application goes on financial hold.',
-            due: 'Before day one',
+            detail: 'Full payment by August 1; a balance unpaid on the first day of school puts the application on financial hold.',
+            due: 'By Aug 1',
           },
           {
             action: 'Plan to re-apply each year',
@@ -871,7 +884,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application; request the aid information from the **finance office** at finance@hgchristian.org. The order of operations: apply for, accept or renew the **NC Opportunity Scholarship** through the state education assistance authority — **anyone can apply**, with no income cap on applying, and applications open **February 1** — and if you are still waiting on it, or it will not meet your need, apply to Hickory Grove for aid, awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. Hickory Grove offers **no automatic discounts** such as multi-child or pastor discounts, but families earn a **5% discount for paying the whole school year\'s tuition by May 31**.',
+      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application; request the aid information from the **finance office** at finance@hgchristian.org. The order of operations: apply for, accept or renew the **NC Opportunity Scholarship** through the state education assistance authority — **anyone can apply**, with no income cap on applying, and applications open **February 1** — and if you are still waiting on it, or it will not meet your need, apply to Hickory Grove for aid, awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. Hickory Grove\'s own aid application can be submitted **only once your HGCS application is complete**. A new federal **Education Freedom Tax Credit** funds K–12 scholarships from January 1, 2027 through an approved Scholarship Granting Organization; families apply to that organization, not the school, and Hickory Grove has not yet named its partner. Hickory Grove offers **no automatic discounts** such as multi-child or pastor discounts, but families earn a **5% discount for paying the whole school year\'s tuition by May 31**.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -896,7 +909,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             es: 'Academic Referral from the current teacher + pastor',
             ms: 'Math + English + principal/counselor + pastor',
             hs: 'Math + English + principal/counselor + pastor',
-            intl: 'None published — the review is transcripts and test scores',
+            intl: 'Math teacher + English teacher',
           },
         },
         {
@@ -906,7 +919,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             es: 'Report cards, at least two years · any IEP or 504',
             ms: 'Transcript · two years of report cards · standardized scores · Student Questionnaire',
             hs: 'Transcript · two years of report cards · standardized scores · Student Questionnaire',
-            intl: 'Middle and high school transcripts translated into English through IEE',
+            intl: 'Transcript and two years of report cards, translated into English · passport and birth certificate copies',
           },
         },
         {
@@ -916,7 +929,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             es: 'Entrance testing through Student Services',
             ms: 'Entrance testing through Student Services',
             hs: 'Entrance testing plus a mandatory placement test',
-            intl: 'TOEFL Jr. 750+ or SLEP 50+',
+            intl: 'TOEFL 80 or Duolingo 115',
           },
         },
         {
@@ -932,11 +945,11 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         {
           label: 'First contact with the school',
           cells: {
-            tkk5: 'Campus visit, by request form',
-            es: 'Campus visit, by request form',
-            ms: 'Campus visit, by request form',
-            hs: 'Campus visit, by request form',
-            intl: 'Skype, WeChat or WhatsApp interview instead of a visit',
+            tkk5: 'Admissions Open House, November 10, 2026 — by registration form',
+            es: 'Admissions Open House, November 10, 2026 — by registration form',
+            ms: 'Admissions Open House, November 10, 2026 — by registration form',
+            hs: 'Admissions Open House, November 10, 2026 — by registration form',
+            intl: 'Online interview with the program director and the principal instead of a visit',
           },
         },
         {
@@ -956,13 +969,13 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             es: '$500 deposit on acceptance, applied toward tuition',
             ms: '$500 deposit on acceptance, applied toward tuition',
             hs: '$500 deposit on acceptance, applied toward tuition',
-            intl: 'Full payment before the first day, or the place goes on financial hold',
+            intl: 'Full payment by August 1, or the place goes on financial hold',
           },
         },
         {
           label: 'Constant in every band',
           cells: {
-            all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with a non-refundable $250 application fee through May 31, 2027 ($500 from June 1, 2027), not applied toward tuition · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
+            all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
           },
         },
       ],
@@ -972,7 +985,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       kicker: 'CONTACTS',
       title: 'The admissions office',
       address:
-        '7200 E. WT Harris Blvd., Charlotte, NC 28215 · main office 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:30 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. Only one admissions staff member is named on the school’s site; the office lines below are published for the areas she does not cover.',
+        '7200 E. WT Harris Blvd., Charlotte, NC 28215 · main office 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:30 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. The school names a four-person Admissions & Enrollment Team — Sheila Chaney (Director of Admissions & International Student Program), Shelly Rivenbark (Registrar), Amanda Wright (School Finance) and Jared Daulton (Communications Coordinator) — but publishes contact details only for the director; the office lines below cover the rest.',
       people: [
         {
           name: 'Sheila M. Chaney',
@@ -1006,7 +1019,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         items: [
           'Aid runs through FACTS Grant & Aid Assessment, and FACTS charges $40 to process the application. Request it from the finance office — finance@hgchristian.org.',
           'Apply for, accept or renew the NC Opportunity Scholarship first — anyone can apply, and applications open February 1.',
-          'If you are still waiting on the state scholarship, or it will not meet your need, apply to Hickory Grove for aid — awarded until all available funds have been allocated.',
+          'If you are still waiting on the state scholarship, or it will not meet your need, apply to Hickory Grove for aid — awarded until all available funds have been allocated, and open only once your HGCS application is complete.',
           'ESA+ is available for children with disabilities attending an eligible non-public school.',
           'No automatic discounts (multi-child, pastor), but a 5% discount for paying the full year\'s tuition by May 31.',
         ],
@@ -1021,24 +1034,29 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on hgchristian.org, re-checked against the live site on October 4, 2026, together with both new-family admission checklists revised 11/17/25. The application fee is $250 from November 2, 2026 through May 31, 2027, and $500 from June 1, 2027. Cycle dates shift year to year — verify against the live site before acting. Compiled by Charlotte School Compare; not affiliated with Hickory Grove Christian School.',
+        'Dates are the 2027–28 entry cycle as published on hgchristian.org, re-checked against the live site on November 4, 2026, together with both new-family admission checklists revised 11/17/25. The application fee is $300 from November 2, 2026 through May 31, 2027, and $550 from June 1, 2027. Cycle dates shift year to year — verify against the live site before acting. Compiled by Charlotte School Compare; not affiliated with Hickory Grove Christian School.',
     },
 
     sources: [
       {
         label:
-          'hgchristian.org — admissions process: the Nov 2 and Nov 16, 2026 application windows, who qualifies for the priority window, the three website steps, the $250 application fee through May 31, 2027 and the $500 late fee from June 1, 2027 and the non-discrimination statement',
-        url: 'https://hgchristian.org/admissions/admissions-process',
+          'hgchristian.org — Admissions Home: the Nov 2 and Nov 16, 2026 application windows, who qualifies for the priority window, the three website steps, the $300 application fee through May 31, 2027 and the $550 late fee from June 1, 2027, the Admissions & Enrollment Team and the non-discrimination statement',
+        url: 'https://hgchristian.org/admissions-home',
+      },
+      {
+        label:
+          'hgchristian.org — Admissions Open House registration (the website\'s "Visit" step): Tuesday, November 10, 2026, at 12, 4 and 6 p.m., with elementary, middle and high school tours',
+        url: 'https://hgchristian.org/visit',
       },
       {
         label:
           'hgchristian.org — new elementary families admissions checklist, revised 11/17/25: the four-step sequence, the TK/K5 and grades 1–5 form lists, testing scheduled only after all forms arrive, the automatic-denial rule and the $500 enrollment deposit',
-        url: 'https://www.hgchristian.org/fs/resource-manager/view/adf10069-819d-4420-83c4-ebba8281c071',
+        url: 'https://files.smartsites.parentsquare.com/14485/newfamilyadmissionschecklistesnodate.pdf',
       },
       {
         label:
           'hgchristian.org — new middle and high school families admissions checklist, revised 11/17/25: the four recommendation forms, the transcript and standardized-score requirements, and the shadow day required of high school applicants only',
-        url: 'https://www.hgchristian.org/fs/resource-manager/view/c7376a64-1d57-4a98-a5fb-6cab591a4c65',
+        url: 'https://files.smartsites.parentsquare.com/14485/newfamilyadmissionschecklistmhsnodate.pdf',
       },
       {
         label:
@@ -1047,38 +1065,48 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       },
       {
         label:
-          'hgchristian.org — TK or K5: the October 16 and April 16 birthday cutoffs, what Transitional Kindergarten is for, and the developmentally appropriate skills assessment a child must pass to qualify',
-        url: 'https://hgchristian.org/academics/tk-or-k5',
+          'hgchristian.org — What is TK and K5?: the October 16 and April 16 birthday cutoffs, what Transitional Kindergarten is for, and the developmentally appropriate skills assessment a child must pass to qualify',
+        url: 'https://hgchristian.org/tk-and-k5',
       },
       {
         label:
-          'hgchristian.org — scholarships: FACTS Grant & Aid, the $40 FACTS charge, the apply-immediately instruction, the NC Opportunity Scholarship order of operations and February 1 opening, ESA+, and the 5% pay-by-May-31 discount',
-        url: 'https://hgchristian.org/admissions/scholarships',
+          'hgchristian.org — NC State Scholarships: FACTS Grant & Aid, the $40 FACTS charge, the apply-immediately instruction, the NC Opportunity Scholarship order of operations and February 1, 2027 opening, ESA+, and the 5% pay-by-May-31 discount',
+        url: 'https://hgchristian.org/scholarships',
       },
       {
         label:
-          'hgchristian.org — international student enrollment process: the ordered F-1 process from the video interview through the I-20 and embassy appointment, the TOEFL Jr. 750+ and SLEP 50+ thresholds, translated transcripts through IEE, health insurance, and full payment before the first day',
-        url: 'https://hgchristian.org/admissions/international-program/international-student-enrollment-process',
+          'hgchristian.org — Scholarships & Financial Aid: FACTS Grant & Aid, and aid applications only after the HGCS application is complete',
+        url: 'https://hgchristian.org/scholarships-financial-aid',
       },
       {
         label:
-          'hgchristian.org — host families: the homestay model run through the HGCS Student Coordinator since 2013',
-        url: 'https://hgchristian.org/admissions/international-program/host-families',
+          'hgchristian.org — Federal Education Tax Credit: the Education Freedom Tax Credit from January 1, 2027, scholarships through an approved SGO, and the school\'s partner not yet named',
+        url: 'https://hgchristian.org/taxcredit',
       },
       {
         label:
-          'hgchristian.org — tuition and fees: the financial policies, the withdrawal notice requirement and the fee schedules linked from it (which cover educational support services, not tuition)',
-        url: 'https://hgchristian.org/admissions/tuition-and-fees',
+          'hgchristian.org — International Student Program Admissions: the online interview with the director and principal, the application file and teacher recommendations, the TOEFL 80 and Duolingo 115 thresholds, translated records through IEE, the fee due at application, the I-20 and embassy appointment, health insurance, and full payment by August 1',
+        url: 'https://hgchristian.org/international-student-enrollment-pr',
       },
       {
         label:
-          'hgchristian.org — apply to HGCS: the application entry point, which carries a prior-cycle "2026-2027 school year" label alongside the November 2026 dates published on the process page',
-        url: 'https://hgchristian.org/admissions/apply-to-hgcs',
+          'hgchristian.org — International Student Program Home: the program established in 2013',
+        url: 'https://hgchristian.org/international-program-home',
       },
       {
         label:
-          'hgchristian.org — early education center: the preschool below Transitional Kindergarten, its Harris and Mallard Creek offices, and the full-day versus half-day split',
-        url: 'https://hgchristian.org/academics/early-education-center',
+          'hgchristian.org — International Student Host Family Program: host families drawn from Hickory Grove Baptist Church members and HGCS families',
+        url: 'https://hgchristian.org/host-families',
+      },
+      {
+        label:
+          'hgchristian.org — Tuition and Fees: the financial policies and the withdrawal notice requirement',
+        url: 'https://hgchristian.org/tuition-and-fees',
+      },
+      {
+        label:
+          'hgchristian.org — Early Education Center: the preschool below Transitional Kindergarten, its Harris and Mallard Creek offices, and the full-day versus half-day split',
+        url: 'https://hgchristian.org/early-education-center-home',
       },
       {
         label:
