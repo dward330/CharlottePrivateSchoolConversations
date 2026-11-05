@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-04
 branch: feat/catholic-profile-2627
-prs: []
+prs: [429]
 ---
 
 # Refresh Charlotte Catholic from its 2026–27 School Profile
