@@ -84,7 +84,8 @@
         "covenant-day:divisions[2].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[2].name",
         "carmel-christian:divisions[2].departments[0].courses[1].title",
-        "hickory-grove-christian:divisions[0].departments[2].name"
+        "hickory-grove-christian:divisions[0].departments[2].name",
+        "hickory-grove-christian:divisions[1].departments[3].name"
       ],
       "t": "Matemáticas"
     },
@@ -191,6 +192,7 @@
         "carmel-christian:divisions[1].departments[4].name",
         "carmel-christian:divisions[2].departments[0].courses[3].title",
         "hickory-grove-christian:divisions[0].departments[3].name",
+        "hickory-grove-christian:divisions[1].departments[4].name",
         "gaston-day:divisions[0].departments[0].courses[1].title",
         "gaston-day:divisions[1].departments[2].name",
         "trinity-episcopal:divisions[1].departments[3].courses[1].title"
@@ -331,6 +333,7 @@
         "covenant-day:divisions[2].departments[0].courses[4].title",
         "covenant-day:divisions[2].departments[7].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
         "trinity-episcopal:divisions[1].departments[4].courses[10].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
@@ -428,6 +431,7 @@
         "carmel-christian:divisions[1].departments[6].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[4].title",
         "hickory-grove-christian:divisions[0].departments[10].name",
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].title",
         "gaston-day:divisions[1].departments[6].courses[0].title",
         "charlotte-prep:divisions[0].departments[2].courses[2].title",
         "charlotte-prep:divisions[1].departments[2].courses[5].title",
@@ -538,6 +542,7 @@
         "covenant-day:divisions[1].title",
         "davidson-day:divisions[1].title",
         "carmel-christian:divisions[1].title",
+        "hickory-grove-christian:divisions[1].title",
         "gaston-day:divisions[0].title",
         "trinity-episcopal:divisions[1].title",
         "charlotte-prep:divisions[2].title"
@@ -550,6 +555,7 @@
       "at": [
         "providence-day:divisions[1].grades",
         "charlotte-latin:divisions[1].grades",
+        "hickory-grove-christian:divisions[1].grades",
         "trinity-episcopal:divisions[1].grades"
       ],
       "t": "Grados 6 – 8"
@@ -581,6 +587,7 @@
         "davidson-day:divisions[2].departments[0].name",
         "carmel-christian:divisions[0].departments[1].name",
         "hickory-grove-christian:divisions[0].departments[1].name",
+        "hickory-grove-christian:divisions[1].departments[1].name",
         "gaston-day:divisions[0].departments[0].courses[0].title",
         "gaston-day:divisions[1].departments[0].name"
       ],
@@ -644,6 +651,15 @@
         "carmel-christian:divisions[1].departments[8].courses[0].tag",
         "carmel-christian:divisions[1].departments[8].courses[1].tag",
         "carmel-christian:divisions[1].departments[8].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
@@ -708,6 +724,11 @@
         "carmel-christian:divisions[1].departments[3].courses[1].tag",
         "carmel-christian:divisions[1].departments[4].courses[1].tag",
         "carmel-christian:divisions[1].departments[5].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
@@ -778,6 +799,12 @@
         "carmel-christian:divisions[1].departments[3].courses[2].tag",
         "carmel-christian:divisions[1].departments[4].courses[2].tag",
         "carmel-christian:divisions[1].departments[5].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[3].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[4].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[5].tag",
@@ -1016,6 +1043,25 @@
         "carmel-christian:divisions[1].departments[8].courses[7].tag",
         "carmel-christian:divisions[1].departments[8].courses[8].tag",
         "carmel-christian:divisions[1].departments[8].courses[9].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
@@ -1323,7 +1369,8 @@
         "providence-day:divisions[1].departments[3].name",
         "providence-day:divisions[2].departments[1].name",
         "charlotte-latin:divisions[1].departments[1].name",
-        "charlotte-latin:divisions[2].departments[1].name"
+        "charlotte-latin:divisions[2].departments[1].name",
+        "hickory-grove-christian:divisions[1].departments[2].name"
       ],
       "t": "Historia"
     },
@@ -1531,6 +1578,7 @@
         "carmel-christian:divisions[1].departments[7].courses[8].tag",
         "carmel-christian:divisions[1].departments[8].courses[3].tag",
         "carmel-christian:divisions[1].departments[8].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
@@ -4948,6 +4996,7 @@
         "hickory-grove-christian:divisions[0].departments[5].courses[2].tag",
         "hickory-grove-christian:divisions[0].departments[5].courses[3].tag",
         "hickory-grove-christian:divisions[0].departments[8].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].tag",
         "gaston-day:divisions[1].departments[0].courses[0].tag",
         "gaston-day:divisions[1].departments[0].courses[1].tag",
         "gaston-day:divisions[1].departments[0].courses[2].tag",
@@ -5842,6 +5891,7 @@
         "charlotte-latin:divisions[1].departments[5].courses[3].title",
         "charlotte-country-day:divisions[1].departments[4].courses[4].title",
         "covenant-day:divisions[1].departments[3].courses[4].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].title",
         "gaston-day:divisions[0].departments[1].courses[2].title",
         "gaston-day:divisions[1].departments[5].courses[2].title",
         "charlotte-prep:divisions[1].departments[2].courses[1].title"
@@ -7693,7 +7743,8 @@
         "carmel-christian:divisions[0].departments[0].name",
         "carmel-christian:divisions[1].departments[0].name",
         "carmel-christian:divisions[2].departments[0].courses[0].title",
-        "hickory-grove-christian:divisions[0].departments[0].name"
+        "hickory-grove-christian:divisions[0].departments[0].name",
+        "hickory-grove-christian:divisions[1].departments[0].name"
       ],
       "t": "Bible"
     },
@@ -9992,7 +10043,8 @@
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
         "covenant-day:divisions[0].departments[6].courses[0].title",
         "covenant-day:divisions[1].departments[3].courses[5].title",
-        "carmel-christian:divisions[0].departments[7].courses[7].title"
+        "carmel-christian:divisions[0].departments[7].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].title"
       ],
       "t": "Coro"
     },
@@ -10081,7 +10133,8 @@
       "text": "Dance",
       "of": "ca0fab3c",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[19].title"
+        "charlotte-christian:divisions[2].departments[7].courses[19].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].title"
       ],
       "t": "Danza"
     },
@@ -18981,7 +19034,8 @@
       "text": "Graphic Design",
       "of": "adf439eb",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[12].title"
+        "covenant-day:divisions[0].departments[6].courses[12].title",
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].title"
       ],
       "t": "Graphic Design"
     },
@@ -23074,7 +23128,8 @@
       "text": "Life Skills",
       "of": "42a28f27",
       "at": [
-        "carmel-christian:divisions[1].departments[8].courses[0].title"
+        "carmel-christian:divisions[1].departments[8].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[5].name"
       ],
       "t": "Life Skills"
     },
@@ -23159,7 +23214,8 @@
       "text": "Christian Leadership",
       "of": "7dddde73",
       "at": [
-        "carmel-christian:divisions[1].departments[8].courses[8].title"
+        "carmel-christian:divisions[1].departments[8].courses[8].title",
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].title"
       ],
       "t": "Christian Leadership"
     },
@@ -24675,7 +24731,8 @@
       "text": "Coding",
       "of": "606d7627",
       "at": [
-        "hickory-grove-christian:divisions[0].departments[9].courses[0].title"
+        "hickory-grove-christian:divisions[0].departments[9].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].title"
       ],
       "t": "Coding"
     },
@@ -24974,6 +25031,630 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
       ],
       "t": "Para alumnos de último año con una media de 3.0 y una carta del empleador que salen antes del colegio para trabajar; no disponible durante la temporada de su deporte."
+    },
+    {
+      "text": "41 courses across 9 departments — a Summit Ministries worldview sequence in Bible, Algebra 1 for qualifying 8th-grade honors students, and a quarterly enrichment rotation running from sign language and coding to a 5K running course.",
+      "of": "57f244fe",
+      "at": [
+        "hickory-grove-christian:divisions[1].teaser"
+      ],
+      "t": "41 cursos en 9 departamentos: una secuencia de cosmovisión de Summit Ministries en Bible, Algebra 1 para estudiantes de honores de 8.º grado que reúnan los requisitos y una rotación trimestral de actividades de enriquecimiento que va desde la lengua de señas y la programación hasta un curso de carrera de 5K."
+    },
+    {
+      "text": "Building on the Rock",
+      "of": "82cdd00e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].title"
+      ],
+      "t": "Building on the Rock"
+    },
+    {
+      "text": "Summit Ministries’ Christian Worldview course, helping students interpret knowledge and build foundational beliefs and values from a biblical perspective.",
+      "of": "525d8c56",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].description"
+      ],
+      "t": "El curso Christian Worldview de Summit Ministries, que ayuda a los estudiantes a interpretar el conocimiento y a construir creencias y valores fundamentales desde una perspectiva bíblica."
+    },
+    {
+      "text": "Walking in Truth",
+      "of": "2e76621e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].title"
+      ],
+      "t": "Walking in Truth"
+    },
+    {
+      "text": "Summit Ministries’ Competing Worldviews course, comparing the key tenets of Christianity with Islam, naturalism and new spirituality.",
+      "of": "030322f8",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].description"
+      ],
+      "t": "El curso Competing Worldviews de Summit Ministries, que compara los principios clave del cristianismo con el islam, el naturalismo y la nueva espiritualidad."
+    },
+    {
+      "text": "Light Bearers",
+      "of": "77453ec1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].title"
+      ],
+      "t": "Light Bearers"
+    },
+    {
+      "text": "Summit Ministries’ Christianity in Action course on living out a Christian worldview in a post-Christian culture and standing firm against humanistic ideas.",
+      "of": "0d574b9d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].description"
+      ],
+      "t": "El curso Christianity in Action de Summit Ministries, sobre vivir una cosmovisión cristiana en una cultura poscristiana y mantenerse firme frente a las ideas humanistas."
+    },
+    {
+      "text": "6th Grade English",
+      "of": "8900498e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].title"
+      ],
+      "t": "Inglés de 6.º grado"
+    },
+    {
+      "text": "Writing, literature, vocabulary and grammar, with reading comprehension across genres and a writing focus on narrative and descriptive work.",
+      "of": "8c1af5f2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].description"
+      ],
+      "t": "Escritura, literatura, vocabulario y gramática, con comprensión lectora en distintos géneros y un enfoque de escritura en textos narrativos y descriptivos."
+    },
+    {
+      "text": "7th Grade English",
+      "of": "647c4471",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].title"
+      ],
+      "t": "Inglés de 7.º grado"
+    },
+    {
+      "text": "Continued reading comprehension through literary analysis, with the writing focus moving to informative writing and literary analysis.",
+      "of": "bd0f1384",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].description"
+      ],
+      "t": "Continúa la comprensión lectora mediante el análisis literario, y el enfoque de escritura pasa a la escritura informativa y el análisis literario."
+    },
+    {
+      "text": "8th Grade English",
+      "of": "1e0a4028",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].title"
+      ],
+      "t": "Inglés de 8.º grado"
+    },
+    {
+      "text": "Critical reading through synthesis and evaluation of genres, with persuasive and argumentative writing and research writing skills.",
+      "of": "0c19b857",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].description"
+      ],
+      "t": "Lectura crítica mediante la síntesis y la evaluación de géneros, con escritura persuasiva y argumentativa y habilidades de escritura de investigación."
+    },
+    {
+      "text": "6th Grade History",
+      "of": "f556d4fe",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].title"
+      ],
+      "t": "Historia de 6.º grado"
+    },
+    {
+      "text": "The early civilizations of Ancient Egypt, the Near East, India, China, Greece and Rome, and their influence on the modern world.",
+      "of": "95fb99fb",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].description"
+      ],
+      "t": "Las primeras civilizaciones del antiguo Egipto, el Oriente Próximo, la India, China, Grecia y Roma, y su influencia en el mundo moderno."
+    },
+    {
+      "text": "7th Grade History",
+      "of": "7e25c71d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].title"
+      ],
+      "t": "Historia de 7.º grado"
+    },
+    {
+      "text": "History and geography from the fall of the Roman Empire through the Age of Exploration, with emphasis on cultures and religions.",
+      "of": "58ac3063",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].description"
+      ],
+      "t": "Historia y geografía desde la caída del Imperio romano hasta la era de los descubrimientos, con énfasis en las culturas y las religiones."
+    },
+    {
+      "text": "8th Grade History",
+      "of": "e7562900",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].title"
+      ],
+      "t": "Historia de 8.º grado"
+    },
+    {
+      "text": "American history from the first Americans through industrialism, including a class trip to Washington, DC each October.",
+      "of": "1680e9da",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].description"
+      ],
+      "t": "Historia de Estados Unidos desde los primeros americanos hasta la industrialización, con un viaje de la clase a Washington, DC cada octubre."
+    },
+    {
+      "text": "6th Grade Math",
+      "of": "81633dfc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].title"
+      ],
+      "t": "Matemáticas de 6.º grado"
+    },
+    {
+      "text": "Reveal Math Course 1: fraction and decimal division, negative numbers, ratios and rates, expressions and equations, area and volume, and statistical reasoning.",
+      "of": "de54da9f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
+      ],
+      "t": "Reveal Math Course 1: división de fracciones y decimales, números negativos, razones y tasas, expresiones y ecuaciones, área y volumen, y razonamiento estadístico."
+    },
+    {
+      "text": "7th Grade Math",
+      "of": "d5191f95",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].title"
+      ],
+      "t": "Matemáticas de 7.º grado"
+    },
+    {
+      "text": "Reveal Math Course 2: proportional relationships, rational numbers, scale drawings and geometric constructions, and inferences from samples.",
+      "of": "99212e70",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
+      ],
+      "t": "Reveal Math Course 2: relaciones proporcionales, números racionales, dibujos a escala y construcciones geométricas, e inferencias a partir de muestras."
+    },
+    {
+      "text": "8th Grade Math",
+      "of": "6c5ce476",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].title"
+      ],
+      "t": "Matemáticas de 8.º grado"
+    },
+    {
+      "text": "Reveal Math Course 3: linear equations in one or two variables, functions, and the Pythagorean Theorem applied to similarity and congruence.",
+      "of": "ce31e1d1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].description"
+      ],
+      "t": "Reveal Math Course 3: ecuaciones lineales con una o dos variables, funciones y el teorema de Pitágoras aplicado a la semejanza y la congruencia."
+    },
+    {
+      "text": "8th Grade - Algebra 1",
+      "of": "7dbd8174",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].title"
+      ],
+      "t": "8.º grado - Algebra 1"
+    },
+    {
+      "text": "Offered to qualifying 8th Grade Honors students — equations, inequalities, polynomials, factoring, graphing and radicals, with nightly homework.",
+      "of": "9a2c56a3",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
+      ],
+      "t": "Se ofrece a los estudiantes de honores de 8.º grado que reúnan los requisitos: ecuaciones, desigualdades, polinomios, factorización, gráficas y radicales, con tareas cada noche."
+    },
+    {
+      "text": "6th Grade Science",
+      "of": "a22054cc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].title"
+      ],
+      "t": "Ciencias de 6.º grado"
+    },
+    {
+      "text": "Life science — cells, heredity, creation vs. evolution, vertebrates and invertebrates, viruses, one-celled organisms and plants.",
+      "of": "203a212a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].description"
+      ],
+      "t": "Ciencias de la vida: células, herencia, creación frente a evolución, vertebrados e invertebrados, virus, organismos unicelulares y plantas."
+    },
+    {
+      "text": "7th Grade Science",
+      "of": "5b20559f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].title"
+      ],
+      "t": "Ciencias de 7.º grado"
+    },
+    {
+      "text": "Physical science with a large focus on the scientific method and student-designed investigations, from energy and force to chemical reactions and magnetism.",
+      "of": "0d44dbf2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].description"
+      ],
+      "t": "Ciencias físicas con un fuerte enfoque en el método científico y en investigaciones diseñadas por los estudiantes, desde la energía y la fuerza hasta las reacciones químicas y el magnetismo."
+    },
+    {
+      "text": "8th Grade Science",
+      "of": "0ae079e2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].title"
+      ],
+      "t": "Ciencias de 8.º grado"
+    },
+    {
+      "text": "Earth science focused on how the design of the earth supports life — its surface, atmosphere, space and water — through labs and projects.",
+      "of": "8af0ac45",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].description"
+      ],
+      "t": "Ciencias de la Tierra centradas en cómo el diseño de la Tierra sostiene la vida —su superficie, la atmósfera, el espacio y el agua— mediante laboratorios y proyectos."
+    },
+    {
+      "text": "Individual and team sports built on the components of fitness, from football and soccer to volleyball and jump rope, with rules and skills tested.",
+      "of": "09629110",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].description"
+      ],
+      "t": "Deportes individuales y de equipo basados en los componentes de la condición física, desde el fútbol americano y el fútbol hasta el voleibol y la comba, con evaluación de reglas y habilidades."
+    },
+    {
+      "text": "Agility",
+      "of": "1878a5d8",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].title"
+      ],
+      "t": "Agilidad"
+    },
+    {
+      "text": "Agility drills, fitness challenges and obstacle courses to build coordination, balance, speed and confidence, for all fitness levels.",
+      "of": "4e6e23d5",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].description"
+      ],
+      "t": "Ejercicios de agilidad, retos de condición física y circuitos de obstáculos para desarrollar coordinación, equilibrio, velocidad y confianza, para todos los niveles de condición física."
+    },
+    {
+      "text": "She Runs With Purpose",
+      "of": "95e423a1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].title"
+      ],
+      "t": "She Runs With Purpose"
+    },
+    {
+      "text": "For girls: a short biblical lesson each class, then walking and running that builds toward completing a 5K at the end of the nine weeks.",
+      "of": "98abec6b",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].description"
+      ],
+      "t": "Para chicas: una breve lección bíblica en cada clase y después caminata y carrera que van preparando para completar una 5K al final de las nueve semanas."
+    },
+    {
+      "text": "He Runs With Purpose",
+      "of": "b17e4fee",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].title"
+      ],
+      "t": "He Runs With Purpose"
+    },
+    {
+      "text": "For boys: a short biblical lesson each class, then walking and running that builds toward completing a 5K at the end of the nine weeks.",
+      "of": "17d5880f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].description"
+      ],
+      "t": "Para chicos: una breve lección bíblica en cada clase y después caminata y carrera que van preparando para completar una 5K al final de las nueve semanas."
+    },
+    {
+      "text": "Healthy Habits",
+      "of": "ce1dcd9d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].title"
+      ],
+      "t": "Hábitos saludables"
+    },
+    {
+      "text": "Nutrition and wellness — balanced meals, hydration, energy and food choices, framed around how God designed the body.",
+      "of": "bc701008",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].description"
+      ],
+      "t": "Nutrición y bienestar —comidas equilibradas, hidratación, energía y elección de alimentos—, enfocados en cómo Dios diseñó el cuerpo."
+    },
+    {
+      "text": "Intro to American Sign Language",
+      "of": "5f0e5489",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].title"
+      ],
+      "t": "Introducción a la lengua de señas americana"
+    },
+    {
+      "text": "The basics of ASL as a visual language, and a foundation for students who may take ASL as a high school foreign language.",
+      "of": "2f8025dc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].description"
+      ],
+      "t": "Los fundamentos de la ASL como lengua visual, y una base para los estudiantes que quizá cursen ASL como lengua extranjera en high school."
+    },
+    {
+      "text": "Intro to Spanish",
+      "of": "438c36f2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].title"
+      ],
+      "t": "Introducción al español"
+    },
+    {
+      "text": "Spanish culture and conversation, with simple grammar and verb conjugations and a heavy emphasis on vocabulary.",
+      "of": "cbfbe5fc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].description"
+      ],
+      "t": "Cultura y conversación en español, con gramática sencilla y conjugaciones verbales y un fuerte énfasis en el vocabulario."
+    },
+    {
+      "text": "Bible Sketch",
+      "of": "6c1e3ebf",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].title"
+      ],
+      "t": "Bible Sketch"
+    },
+    {
+      "text": "Bible study paired with sketching and watercolor, illustrating the themes of Creation, Fall, Redemption and Restoration.",
+      "of": "3a085882",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].description"
+      ],
+      "t": "Estudio bíblico combinado con dibujo y acuarela, que ilustra los temas de la Creación, la Caída, la Redención y la Restauración."
+    },
+    {
+      "text": "Beginner Band (Year-Long)",
+      "of": "93400657",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].title"
+      ],
+      "t": "Banda para principiantes (anual)"
+    },
+    {
+      "text": "The fundamentals of instrumental music — technique, music reading, rhythm and tone — with no prior experience required.",
+      "of": "d1b6eb14",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].description"
+      ],
+      "t": "Los fundamentos de la música instrumental —técnica, lectura musical, ritmo y sonido—, sin necesidad de experiencia previa."
+    },
+    {
+      "text": "Band (Year-Long)",
+      "of": "4989cb97",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].title"
+      ],
+      "t": "Banda (anual)"
+    },
+    {
+      "text": "Continued instrumental instruction in technique, music reading, rhythm, tone and ensemble performance.",
+      "of": "1d7829a0",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].description"
+      ],
+      "t": "Continuación de la formación instrumental en técnica, lectura musical, ritmo, sonido e interpretación en conjunto."
+    },
+    {
+      "text": "Sewing",
+      "of": "2b5b5d9a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].title"
+      ],
+      "t": "Costura"
+    },
+    {
+      "text": "Hand sewing — buttons, seam repair and hemming — plus safe sewing-machine operation and simple construction, for beginners.",
+      "of": "eb8e1434",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].description"
+      ],
+      "t": "Costura a mano —botones, reparación de costuras y dobladillos— más el uso seguro de la máquina de coser y confecciones sencillas, para principiantes."
+    },
+    {
+      "text": "Praise Team",
+      "of": "cf0bf302",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].title"
+      ],
+      "t": "Praise Team"
+    },
+    {
+      "text": "A performance course for students who sing or play, building vocal, instrumental and worship-leadership skills through rehearsals and performances.",
+      "of": "5b0bd3e3",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].description"
+      ],
+      "t": "Un curso de interpretación para estudiantes que cantan o tocan, que desarrolla habilidades vocales, instrumentales y de dirección de la alabanza mediante ensayos y actuaciones."
+    },
+    {
+      "text": "Group singing, music reading and part-singing, with solo opportunities and a concert at the end of the course.",
+      "of": "218a70e2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].description"
+      ],
+      "t": "Canto en grupo, lectura musical y canto a varias voces, con oportunidades de solista y un concierto al final del curso."
+    },
+    {
+      "text": "Improvisation, pantomime, acting and theatre tech roles, ending with the staging of a one-act play.",
+      "of": "ffb87142",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].description"
+      ],
+      "t": "Improvisación, pantomima, actuación y funciones técnicas de teatro, que culminan con la puesta en escena de una obra en un acto."
+    },
+    {
+      "text": "Musical Theatre",
+      "of": "0a9bd0ea",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ],
+      "t": "Teatro musical"
+    },
+    {
+      "text": "An introduction rotating dance, singing and acting, with a performance of one or two songs at the end.",
+      "of": "b1e8b869",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].description"
+      ],
+      "t": "Una introducción que alterna danza, canto y actuación, con la interpretación de una o dos canciones al final."
+    },
+    {
+      "text": "Basic technique across several forms, built mostly on modern dance and its use in worship, for beginners and experienced dancers alike.",
+      "of": "b487b440",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].description"
+      ],
+      "t": "Técnica básica en varias formas, basada sobre todo en la danza moderna y su uso en la adoración, tanto para principiantes como para bailarines con experiencia."
+    },
+    {
+      "text": "STEM/Tech",
+      "of": "9ff2c781",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].name"
+      ],
+      "t": "STEM/Tecnología"
+    },
+    {
+      "text": "Innovation Lab",
+      "of": "d41b6835",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].title"
+      ],
+      "t": "Laboratorio de innovación"
+    },
+    {
+      "text": "Hands-on STEM design challenges, experiments and collaborative projects that investigate real-world problems.",
+      "of": "50a57461",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].description"
+      ],
+      "t": "Retos prácticos de diseño STEM, experimentos y proyectos colaborativos que investigan problemas del mundo real."
+    },
+    {
+      "text": "Intro to Digital Media",
+      "of": "c5167f2e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].title"
+      ],
+      "t": "Introducción a los medios digitales"
+    },
+    {
+      "text": "Beginning graphic design in Adobe Photoshop — selections, layers, photo editing and vector graphics.",
+      "of": "af972636",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].description"
+      ],
+      "t": "Diseño gráfico inicial en Adobe Photoshop: selecciones, capas, edición de fotos y gráficos vectoriales."
+    },
+    {
+      "text": "An introduction to HTML, CSS and basic JavaScript that serves as the foundation for the high school coding program.",
+      "of": "67b74814",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].description"
+      ],
+      "t": "Una introducción a HTML, CSS y JavaScript básico que sirve de base para el programa de programación de high school."
+    },
+    {
+      "text": "Visual design principles applied to a real project: designing a logo for a chosen or invented company.",
+      "of": "47b62615",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].description"
+      ],
+      "t": "Principios de diseño visual aplicados a un proyecto real: diseñar un logotipo para una empresa elegida o inventada."
+    },
+    {
+      "text": "Faith & Leadership",
+      "of": "9d9f959c",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].name"
+      ],
+      "t": "Fe y liderazgo"
+    },
+    {
+      "text": "Navigating Middle School with Character and Faith",
+      "of": "5c46d424",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].title"
+      ],
+      "t": "Navigating Middle School with Character and Faith"
+    },
+    {
+      "text": "A non-graded nine-unit course on the move to middle school — conflict, peer pressure, identity, honesty, failure and friendship through biblical truth.",
+      "of": "255abfcc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].description"
+      ],
+      "t": "Un curso sin calificación de nueve unidades sobre el paso a la escuela media: conflictos, presión de grupo, identidad, honestidad, fracaso y amistad a la luz de la verdad bíblica."
+    },
+    {
+      "text": "Becoming a Young Man of God",
+      "of": "4421f8ab",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].title"
+      ],
+      "t": "Becoming a Young Man of God"
+    },
+    {
+      "text": "For middle school boys: activities, discussion and scripture on identity, masculinity and self-confidence.",
+      "of": "94de755a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].description"
+      ],
+      "t": "Para chicos de escuela media: actividades, conversación y Escrituras sobre la identidad, la masculinidad y la confianza en uno mismo."
+    },
+    {
+      "text": "Becoming a Young Woman of God",
+      "of": "b5cb893d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].title"
+      ],
+      "t": "Becoming a Young Woman of God"
+    },
+    {
+      "text": "For middle school girls: games and activities on setting boundaries, handling disappointment and growing spiritually away from media pressure.",
+      "of": "a4352311",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].description"
+      ],
+      "t": "Para chicas de escuela media: juegos y actividades sobre poner límites, afrontar las decepciones y crecer espiritualmente lejos de la presión de los medios."
+    },
+    {
+      "text": "Students on Mission",
+      "of": "7ccec014",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].title"
+      ],
+      "t": "Students on Mission"
+    },
+    {
+      "text": "What God is doing around the world through missionaries and local leaders, and how students might serve the Charlotte community.",
+      "of": "bfa3d36c",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].description"
+      ],
+      "t": "Lo que Dios está haciendo en todo el mundo a través de misioneros y líderes locales, y cómo podrían servir los estudiantes a la comunidad de Charlotte."
+    },
+    {
+      "text": "For selected 8th graders only: a one-semester course in servant leadership, with a year-long commitment to serve as campus leaders.",
+      "of": "bb90b5c4",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].description"
+      ],
+      "t": "Solo para estudiantes de 8.º grado seleccionados: un curso semestral de liderazgo de servicio, con el compromiso de servir durante todo el año como líderes del campus."
     },
     {
       "text": "Five subject strands by grade, plus required LEAD courses and arts electives. (The Early/Lower School, PS–4, publishes no named courses or subject list at all.)",

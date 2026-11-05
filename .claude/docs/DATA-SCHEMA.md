@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 500 ingested research documents.
+**13 schools × 12 research areas**, 505 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -57,14 +57,14 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Charlotte Preparatory | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day | Trinity Episcopal |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 2 | 2 | 2 |
-| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 | 2 |
+| Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 4 | 2 | 2 |
+| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 3 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 5 | 1 | 1 | 7 | 2 |
-| Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 2 | 2 | 18 | 2 |
-| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 13 | — | 9 | 12 | 2 | 2 | 11 | — |
+| Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 17 | 2 | 3 | 18 | 2 |
+| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -85,13 +85,13 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Admissions Research Dossier (2026) | 8/13 | 10 |
+| `redesign-research` | Admissions Research Dossier (2026) | 8/13 | 12 |
 
 ### Course Offerings `course-offerings`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `curriculum` | Course Offerings | 13/13 | 10 |
+| `curriculum` | Course Offerings | 13/13 | 11 |
 
 ### Global Exposure `international-travel`
 
@@ -147,7 +147,7 @@ research dossier folds in behind a structured card.
 | `national-profile` | National Profile | 7/13 | 4 |
 | `power-4` | Power 4 Offers | 7/13 | 1 |
 | `pros` | Professional Athletes | 7/13 | 1 |
-| `redesign-research` | Sports Research Dossier (2026) | 11/13 | 4 |
+| `redesign-research` | Sports Research Dossier (2026) | 11/13 | 5 |
 | `sports-medicine` | Sports Medicine & Performance | 7/13 | 1 |
 | `sports-offered` | Sports Offered | 9/13 | 3 |
 | `win-loss` | Win–Loss Records | 7/13 | 2 |
@@ -692,6 +692,12 @@ a name-resolution bug (a renamed row lost its master match). The older list need
 own citation, because profiles are often overwritten at the same URL: cite an
 archived copy (Davidson Day's 2025–26 profile survives as a Wayback capture),
 never the live URL that now serves the newer edition.
+
+**A class year with no published list stays visible as a gap in the window.**
+Hickory Grove has lists for 2023, 2025 and 2026 but none for 2024, so its window is
+`2023 + 2025–2026`, never `2023–2026`. `collegesTitle` and `ACCEPTANCE_WINDOWS` carry
+the same multi-part form, and `check:buckets` reads every part of it (its year regex
+took only one separator until 2026-11-04, and read that window as `2023 + 2025`).
 
 **Bold in a merged window may come from the newer list only, and `collegesTotal`
 says which years it covers.** The window and the bold need not span the same years:

@@ -143,7 +143,7 @@ const ACCEPTANCE_WINDOWS: Record<string, string> = {
   'covenant-day': '(2023–2026)',
   'davidson-day': '(2021–2026)',
   'gaston-day': '(2019–2025)',
-  'hickory-grove-christian': '(2023 + 2025)',
+  'hickory-grove-christian': '(2023 + 2025–2026)',
   'providence-day': '(2023–2026)',
 }
 
@@ -357,7 +357,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '2 / 8', // Dartmouth, Penn — both bold (matriculated) on the 2023-2026 list
       'carmel-christian': '1 / 8', // Princeton only
       'davidson-day': '3 / 8', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '0 / 8', // no Ivy on the 2023+2025 lists
+      'hickory-grove-christian': '0 / 8', // no Ivy on the 2023 + 2025–2026 lists
       'gaston-day': '2 / 8', // Yale, Dartmouth — 2019-2025 acceptance list
       'providence-day': '8 / 8', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -384,7 +384,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'None of the 8 Ivy League universities appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
+        text: 'None of the 8 Ivy League universities appears on Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -407,7 +407,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '3 / 17', // Dartmouth, Penn + Duke, all bold (matriculated)
       'carmel-christian': '2 / 17', // Princeton, Duke
       'davidson-day': '8 / 17', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '0 / 17', // no Ivy Plus on the 2023+2025 lists
+      'hickory-grove-christian': '0 / 17', // no Ivy Plus on the 2023 + 2025–2026 lists
       'gaston-day': '6 / 17', // adds Stanford, Duke, Johns Hopkins, Georgetown
       'providence-day': '17 / 17', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -434,7 +434,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'None of the 17 “Ivy Plus” institutions appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
+        text: 'None of the 17 “Ivy Plus” institutions appears on Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -457,7 +457,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '36 / 75', // worked classification in the Redesign Research 2026 dossier
       'carmel-christian': '30 / 75', // counted from the cats list in collegeSupportPrograms/carmel-christian.ts; the dossier's "~25-29" was a pre-ingest estimate
       'davidson-day': '53 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '21 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
+      'hickory-grove-christian': '27 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
       'gaston-day': '59 / 75', // scored against the 2027 US News National Universities table, 2019-2025 list
       'providence-day': '75 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -484,7 +484,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '21 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
+        text: '27 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -507,7 +507,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '10 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
       'carmel-christian': '11 / 75', // counted from the cats list; the dossier enumerates all ten, so the earlier 7 undercounted
       'davidson-day': '31 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
+      'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
       'gaston-day': '24 / 75', // scored against the 2027 US News National Liberal Arts table, 2019-2025 list
       'providence-day': '51 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -534,7 +534,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.',
+        text: '9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2027 U.S. News tables.',
       },
     },
   },
@@ -557,7 +557,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
       'carmel-christian': '44 / 68', // distinct Power Four members in the cats list (45 rows, but Alabama appears twice — bare and as Tuscaloosa — and the list deliberately preserves the school's verbatim duplicates)
       'davidson-day': '47 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '25 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (UConn excluded — Big East)
+      'hickory-grove-christian': '28 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists; UConn excluded — Big East)
       'gaston-day': '43 / 68', // against the 68-member Power Four roster in _shared/
       'providence-day': '65 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -584,7 +584,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '25 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.',
+        text: '28 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.',
       },
     },
   },
@@ -825,7 +825,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
       'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '5 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '20 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
+      'hickory-grove-christian': '23 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
       'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo (Tougaloo also holds Liberal Rank #180)
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -852,7 +852,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '20 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — a notably deep HBCU pipeline.',
+        text: '23 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists (incl. Howard, Hampton, Morehouse, Tuskegee, NC A&T, Florida A&M) — a notably deep HBCU pipeline.',
       },
     },
   },

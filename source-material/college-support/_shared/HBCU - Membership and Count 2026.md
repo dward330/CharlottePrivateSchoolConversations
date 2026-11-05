@@ -117,6 +117,17 @@ Virginia State University / Public, 4 Year / Institute, WV". 107 is unchanged.
 | Southern University and A&M College | Baton Rouge, LA — the Southern University System flagship. Not to be confused with Georgia Southern or Charleston Southern (below) |
 | West Virginia State University | Institute, WV |
 
+### Roster additions, 2026-11-04
+
+Added for Hickory Grove Christian's 2026–27 High School Profile list (plan `hgprofile`),
+the first list to name it. Confirmed on 2026-11-04 against the DoE-designated roster at
+https://hbculifestyle.com/hbcu-colleges-list/, which lists "Tuskegee University / Private,
+4 Year / Tuskegee, AL". 107 is unchanged.
+
+| Institution | Notes |
+|---|---|
+| Tuskegee University | Tuskegee, AL — added 2026-11-04 (hgprofile) |
+
 ### Explicitly NOT HBCUs (guard against substring false-positives)
 
 These appear on the lists and superficially resemble an HBCU name but are **not**

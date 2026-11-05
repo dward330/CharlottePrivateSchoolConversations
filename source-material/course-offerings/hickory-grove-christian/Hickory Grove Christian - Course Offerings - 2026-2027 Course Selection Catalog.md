@@ -1195,3 +1195,20 @@ Every course below is transcribed verbatim from S3. Format:
 - **Prerequisite:** Yearbook II OR Yearbook I with teacher recommendation.
 - **Course Description:** Honors Yearbook III is an advanced, leadership-focused course for experienced students. Students serve as editors and leaders of the yearbook staff, overseeing content development, design consistency, and project management. Responsibilities include mentoring younger staff members, managing deadlines, making editorial decisions, and ensuring the publication’s overall quality and accuracy. This course may be taken as a year-long elective for select students Revised 4/19/2026
 
+
+## Re-verified 2026-11-04 (site rebuild)
+
+The school rebuilt hgchristian.org. The catalog page is now
+**https://hgchristian.org/course-selection-guide** ("2026-2027 Course Selection Guide");
+the old `/academics/high-school/college-and-career-planning/courses` URL redirects to a hub
+page. The page still embeds the **same** Heyzine flipbook (`ab637c042c`) backed by the
+**same** PDF (S3). It was downloaded again in real Chrome on 2026-11-04:
+
+- 92 pages, created and modified 2026-04-22 (server `Last-Modified: Wed, 22 Apr 2026`).
+  That predates this file's 2026-08-17 transcription.
+- SHA-1 `7c5460dc1710…`.
+
+Every `Course Title:` value in the text layer (117 distinct) and the opening of every
+`Course Description:` (181 occurrences; the extra four over 177 are cross-listed entries
+the regex counts twice) appears in the transcription above. **The catalog is unchanged; the
+app's Upper School division is current.** Only the citation URL was updated.

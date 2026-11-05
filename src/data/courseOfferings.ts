@@ -6804,8 +6804,21 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
    own inconsistent Theatre/Theater spellings; descriptions condense the
    catalog's own prose and invent nothing.
 
-   Still one division: HGCS publishes no named Lower or Middle School course
-   lists, and a division with zero items ships no card at all. */
+   Middle School (added 2026-11-04) comes from the 2026-2027 Middle School Course
+   Selection Catalog (17 pp.), published at /ms-courses as a Heyzine flipbook and
+   transcribed in source-material/course-offerings/hickory-grove-christian/. It is
+   APPENDED at divisions[1], after Upper School, because the locale overlays key on
+   index paths (the Covenant Day / Carmel Christian precedent) — inserting it at [0]
+   would orphan every shipped Upper School translation. Its core-course headings are
+   grade-only, so those titles read "6th Grade English" etc.; Bible courses carry
+   their published titles. 41 courses: 16 core and 25 enrichment, the enrichment
+   split into the catalog's own four categories. "Innovation Lab" is one course
+   across grades 6–8. Still no Lower School card: HGCS publishes no named course list
+   for TK–5, and a division with zero items ships no card at all.
+
+   Re-verified 2026-11-04: the Upper School PDF behind /course-selection-guide is the
+   same 92-page file (last modified 2026-04-22) as the transcription; only the page
+   URL changed in the site rebuild. */
 const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
   guideYear: '2026-2027',
   divisions: [
@@ -6816,7 +6829,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
         '112 courses across 12 departments — 17 Advanced Placement including the full AP Capstone track, a four-year Bible sequence taught at CP and Honors levels, and an aquaponics internship run on the school’s own working system.',
       source: 'HGCS 2026-2027 Course Selection Catalog (92 pp.)',
       sourceUrl:
-        'https://www.hgchristian.org/academics/high-school/college-and-career-planning/courses',
+        'https://hgchristian.org/course-selection-guide',
       departments: [
         {
           name: 'Bible',
@@ -6988,6 +7001,102 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'SOAR', tag: 'Gr 9–12', description: 'Critical thinking, organization, time management and career exploration — aimed at students transitioning into high school.' },
             { title: 'Student Intern', tag: 'Gr 9–12', description: 'A graded, application-based internship serving others through direct observation, hands-on work and reflection.' },
             { title: 'Work Release', tag: 'Gr 12', description: 'For seniors with a 3.0 GPA and an employer letter who leave school early for work; not available in a sport’s season.' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Middle School Courses',
+      grades: 'Grades 6 – 8',
+      teaser:
+        '41 courses across 9 departments — a Summit Ministries worldview sequence in Bible, Algebra 1 for qualifying 8th-grade honors students, and a quarterly enrichment rotation running from sign language and coding to a 5K running course.',
+      source: 'HGCS Middle School 2026-2027 Course Selection Catalog (17 pp.)',
+      sourceUrl: 'https://hgchristian.org/ms-courses',
+      departments: [
+        {
+          name: 'Bible',
+          courses: [
+            { title: 'Building on the Rock', tag: 'Gr 6', description: 'Summit Ministries’ Christian Worldview course, helping students interpret knowledge and build foundational beliefs and values from a biblical perspective.' },
+            { title: 'Walking in Truth', tag: 'Gr 7', description: 'Summit Ministries’ Competing Worldviews course, comparing the key tenets of Christianity with Islam, naturalism and new spirituality.' },
+            { title: 'Light Bearers', tag: 'Gr 8', description: 'Summit Ministries’ Christianity in Action course on living out a Christian worldview in a post-Christian culture and standing firm against humanistic ideas.' },
+          ],
+        },
+        {
+          name: 'English',
+          courses: [
+            { title: '6th Grade English', tag: 'Gr 6', description: 'Writing, literature, vocabulary and grammar, with reading comprehension across genres and a writing focus on narrative and descriptive work.' },
+            { title: '7th Grade English', tag: 'Gr 7', description: 'Continued reading comprehension through literary analysis, with the writing focus moving to informative writing and literary analysis.' },
+            { title: '8th Grade English', tag: 'Gr 8', description: 'Critical reading through synthesis and evaluation of genres, with persuasive and argumentative writing and research writing skills.' },
+          ],
+        },
+        {
+          name: 'History',
+          courses: [
+            { title: '6th Grade History', tag: 'Gr 6', description: 'The early civilizations of Ancient Egypt, the Near East, India, China, Greece and Rome, and their influence on the modern world.' },
+            { title: '7th Grade History', tag: 'Gr 7', description: 'History and geography from the fall of the Roman Empire through the Age of Exploration, with emphasis on cultures and religions.' },
+            { title: '8th Grade History', tag: 'Gr 8', description: 'American history from the first Americans through industrialism, including a class trip to Washington, DC each October.' },
+          ],
+        },
+        {
+          name: 'Math',
+          courses: [
+            { title: '6th Grade Math', tag: 'Gr 6', description: 'Reveal Math Course 1: fraction and decimal division, negative numbers, ratios and rates, expressions and equations, area and volume, and statistical reasoning.' },
+            { title: '7th Grade Math', tag: 'Gr 7', description: 'Reveal Math Course 2: proportional relationships, rational numbers, scale drawings and geometric constructions, and inferences from samples.' },
+            { title: '8th Grade Math', tag: 'Gr 8', description: 'Reveal Math Course 3: linear equations in one or two variables, functions, and the Pythagorean Theorem applied to similarity and congruence.' },
+            { title: '8th Grade - Algebra 1', tag: 'Honors', description: 'Offered to qualifying 8th Grade Honors students — equations, inequalities, polynomials, factoring, graphing and radicals, with nightly homework.' },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            { title: '6th Grade Science', tag: 'Gr 6', description: 'Life science — cells, heredity, creation vs. evolution, vertebrates and invertebrates, viruses, one-celled organisms and plants.' },
+            { title: '7th Grade Science', tag: 'Gr 7', description: 'Physical science with a large focus on the scientific method and student-designed investigations, from energy and force to chemical reactions and magnetism.' },
+            { title: '8th Grade Science', tag: 'Gr 8', description: 'Earth science focused on how the design of the earth supports life — its surface, atmosphere, space and water — through labs and projects.' },
+          ],
+        },
+        {
+          name: 'Life Skills',
+          courses: [
+            { title: 'Physical Education', tag: 'Gr 6', description: 'Individual and team sports built on the components of fitness, from football and soccer to volleyball and jump rope, with rules and skills tested.' },
+            { title: 'Agility', tag: 'Gr 7–8', description: 'Agility drills, fitness challenges and obstacle courses to build coordination, balance, speed and confidence, for all fitness levels.' },
+            { title: 'She Runs With Purpose', tag: 'Gr 7–8', description: 'For girls: a short biblical lesson each class, then walking and running that builds toward completing a 5K at the end of the nine weeks.' },
+            { title: 'He Runs With Purpose', tag: 'Gr 7–8', description: 'For boys: a short biblical lesson each class, then walking and running that builds toward completing a 5K at the end of the nine weeks.' },
+            { title: 'Healthy Habits', tag: 'Gr 7–8', description: 'Nutrition and wellness — balanced meals, hydration, energy and food choices, framed around how God designed the body.' },
+            { title: 'Intro to American Sign Language', tag: 'Gr 7–8', description: 'The basics of ASL as a visual language, and a foundation for students who may take ASL as a high school foreign language.' },
+            { title: 'Intro to Spanish', tag: 'Gr 7–8', description: 'Spanish culture and conversation, with simple grammar and verb conjugations and a heavy emphasis on vocabulary.' },
+          ],
+        },
+        {
+          name: 'Art',
+          courses: [
+            { title: 'Bible Sketch', tag: 'Gr 6', description: 'Bible study paired with sketching and watercolor, illustrating the themes of Creation, Fall, Redemption and Restoration.' },
+            { title: 'Beginner Band (Year-Long)', tag: 'Gr 6', description: 'The fundamentals of instrumental music — technique, music reading, rhythm and tone — with no prior experience required.' },
+            { title: 'Band (Year-Long)', tag: 'Gr 7–8', description: 'Continued instrumental instruction in technique, music reading, rhythm, tone and ensemble performance.' },
+            { title: 'Sewing', tag: 'Gr 7–8', description: 'Hand sewing — buttons, seam repair and hemming — plus safe sewing-machine operation and simple construction, for beginners.' },
+            { title: 'Praise Team', tag: 'Gr 7–8', description: 'A performance course for students who sing or play, building vocal, instrumental and worship-leadership skills through rehearsals and performances.' },
+            { title: 'Choir', tag: 'Gr 7–8', description: 'Group singing, music reading and part-singing, with solo opportunities and a concert at the end of the course.' },
+            { title: 'Drama', tag: 'Gr 7–8', description: 'Improvisation, pantomime, acting and theatre tech roles, ending with the staging of a one-act play.' },
+            { title: 'Musical Theatre', tag: 'Gr 7–8', description: 'An introduction rotating dance, singing and acting, with a performance of one or two songs at the end.' },
+            { title: 'Dance', tag: 'Gr 7–8', description: 'Basic technique across several forms, built mostly on modern dance and its use in worship, for beginners and experienced dancers alike.' },
+          ],
+        },
+        {
+          name: 'STEM/Tech',
+          courses: [
+            { title: 'Innovation Lab', tag: 'Gr 6–8', description: 'Hands-on STEM design challenges, experiments and collaborative projects that investigate real-world problems.' },
+            { title: 'Intro to Digital Media', tag: 'Gr 7–8', description: 'Beginning graphic design in Adobe Photoshop — selections, layers, photo editing and vector graphics.' },
+            { title: 'Coding', tag: 'Gr 7–8', description: 'An introduction to HTML, CSS and basic JavaScript that serves as the foundation for the high school coding program.' },
+            { title: 'Graphic Design', tag: 'Gr 7–8', description: 'Visual design principles applied to a real project: designing a logo for a chosen or invented company.' },
+          ],
+        },
+        {
+          name: 'Faith & Leadership',
+          courses: [
+            { title: 'Navigating Middle School with Character and Faith', tag: 'Gr 6', description: 'A non-graded nine-unit course on the move to middle school — conflict, peer pressure, identity, honesty, failure and friendship through biblical truth.' },
+            { title: 'Becoming a Young Man of God', tag: 'Gr 7–8', description: 'For middle school boys: activities, discussion and scripture on identity, masculinity and self-confidence.' },
+            { title: 'Becoming a Young Woman of God', tag: 'Gr 7–8', description: 'For middle school girls: games and activities on setting boundaries, handling disappointment and growing spiritually away from media pressure.' },
+            { title: 'Students on Mission', tag: 'Gr 7–8', description: 'What God is doing around the world through missionaries and local leaders, and how students might serve the Charlotte community.' },
+            { title: 'Christian Leadership', tag: 'Gr 8', description: 'For selected 8th graders only: a one-semester course in servant leadership, with a year-long commitment to serve as campus leaders.' },
           ],
         },
       ],

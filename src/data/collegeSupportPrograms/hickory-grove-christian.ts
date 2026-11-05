@@ -1,22 +1,26 @@
 // Hickory Grove Christian School (Charlotte, NC) — the six College Support cards.
 //
 // Transcribed from source-material/college-support/hickory-grove-christian/
-// "Hickory Grove Christian - College Support - School Profile.md", which carries
-// the source URLs and a year tag on every figure. The strong artifacts are the
-// school's own two High School Profile PDFs — Fall 2025 (current) and Fall 2023 —
-// both bearing CEEB 340661 and the verbatim "does not rank its students" line.
+// "Hickory Grove Christian - College Support - School Profile 2026-2027.md" (current)
+// and "Hickory Grove Christian - College Support - School Profile.md" (the Fall 2025
+// and Fall 2023 editions), which carry the source URLs and a year tag on every
+// figure. The strong artifacts are the school's own three High School Profile PDFs —
+// 2026–27 (current), Fall 2025 and Fall 2023 — all bearing CEEB 340661 and the
+// verbatim "does not rank its students" line.
 //
 // Two structural facts shape the cards:
 //
-//  1. TWO profile years are published, and the numbers must never be blended:
-//     outcomes are Class of 2025 (current) and Class of 2023; test scores are the
-//     ENTERING Class of 2026 and Class of 2024; AP is May 2025 and May 2023. Every
-//     figure below keeps its year.
+//  1. THREE profile editions are published, and the numbers must never be blended:
+//     attendance is the 2026–27 profile's "typical" split (no class year, no counts)
+//     beside the Class of 2025's counted buckets; the acceptance lists are the
+//     Classes of 2023, 2025 and 2026; test scores are the Class of 2026 (final) and
+//     the Class of 2024; AP is May 2026. Every figure below keeps its year.
 //  2. The grading scale changed mid-2024 — the Honors/AP quality-point bonuses were
-//     HALVED (Honors +1 → +½, AP +2 → +1). Both scales are published; a Class of
-//     2025 transcript spans both.
+//     HALVED (Honors +1 → +½, AP +2 → +1). Both scales are published; transcripts
+//     of the Classes of 2025 through 2027 span both.
 //
-// The acceptance list is the union of the two published class lists (2023 + 2025),
+// The acceptance list is the union of the three published class lists (2023 +
+// 2025–2026; no Class of 2024 list was published),
 // deduplicated, spellings preserved verbatim including the profile's own apparent
 // typos ("Clafin", "Deleware", "Coker University"). It carries no matriculation
 // markings, so `enrolling` is set on NO college. Buckets are scored against the
@@ -31,6 +35,8 @@
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
+const PROFILE_26 =
+  'https://resources.finalsite.net/images/v1790771210/hgchristianorg/l6paia83bjrvwh9kpm20/2026-2027SchoolProfile.pdf'
 const PROFILE_25 =
   'https://resources.finalsite.net/images/v1759254561/hgchristianorg/zymp8lu0k9m6ndgumpgi/HGCSHSProfileFall25.pdf'
 const PROFILE_23 =
@@ -39,16 +45,24 @@ const GUIDANCE = 'https://www.hgchristian.org/academics/guidance'
 const HIGH_SCHOOL = 'https://www.hgchristian.org/academics/high-school'
 const USNEWS = 'https://www.usnews.com/best-colleges/rankings/national-universities'
 
-/* The acceptance list — the union of the school's Class of 2023 (81) and Class of
-   2025 (86) published lists, deduplicated to 132 distinct institutions. Spellings
-   are preserved verbatim from the profiles, including apparent typos. Entries carry
-   only { name, cats }; the US News rank label resolves from the master. Nothing is
-   marked as matriculating, so `enrolling` is set on NO entry. */
+/* The acceptance list — the union of the school's Class of 2023 (81), Class of 2025
+   (86) and Class of 2026 (76) published lists, deduplicated to 158 distinct
+   institutions. Spellings are preserved verbatim from the profiles, including
+   apparent typos. Three 2026 respellings fold onto existing rows (Anderson
+   University → "(SC)", "University of Tennessee, Knoxville", "University of
+   Illinois, Urbana-Champaign"). The 2026 list's bare "Xavier University" is the
+   Ohio university by its official name, a separate row from Xavier University of
+   Louisiana. Entries carry only { name, cats }; the US News rank label resolves
+   from the master. No edition marks matriculation, so `enrolling` is set on NO
+   entry. */
 const colleges = [
+  {"name":"American University","cats":[]},
   {"name":"Anderson University (SC)","cats":[]},
   {"name":"Appalachian State University","cats":[]},
   {"name":"Auburn University","cats":["p4"]},
   {"name":"Belmont Abbey College","cats":[]},
+  {"name":"Benedict College","cats":["hbcu"]},
+  {"name":"Boston University","cats":["nu75"]},
   {"name":"Campbell University","cats":[]},
   {"name":"Cape Fear Community College","cats":[]},
   {"name":"Catawba College","cats":[]},
@@ -60,7 +74,9 @@ const colleges = [
   {"name":"Clinton College","cats":["hbcu"]},
   {"name":"Coker University","cats":[]},
   {"name":"College of Charleston","cats":[]},
+  {"name":"Columbia International University","cats":[]},
   {"name":"Concord University","cats":[]},
+  {"name":"Covenant College","cats":[]},
   {"name":"Deleware State University","cats":["hbcu"]},
   {"name":"East Carolina University","cats":[]},
   {"name":"Eckerd College","cats":[]},
@@ -70,13 +86,19 @@ const colleges = [
   {"name":"Florida Institute of Technology","cats":[]},
   {"name":"Florida Southern College","cats":[]},
   {"name":"Fordham University","cats":[]},
+  {"name":"Francis Marion University","cats":[]},
   {"name":"Furman University","cats":["lac75"]},
   {"name":"Gardner-Webb University","cats":[]},
   {"name":"Geneva College","cats":[]},
+  {"name":"George Mason University","cats":[]},
   {"name":"Georgia Institute of Technology","cats":["nu75","p4"]},
   {"name":"Georgia Southern University","cats":[]},
   {"name":"Greensboro College","cats":[]},
+  {"name":"Hawaii Pacific University","cats":[]},
   {"name":"High Point University","cats":[]},
+  {"name":"Hofstra University","cats":[]},
+  {"name":"Indiana Wesleyan University","cats":[]},
+  {"name":"James Madison University","cats":[]},
   {"name":"Johnson C. Smith University","cats":["hbcu"]},
   {"name":"Lenoir-Rhyne University","cats":[]},
   {"name":"Liberty University","cats":[]},
@@ -86,6 +108,8 @@ const colleges = [
   {"name":"Mars Hill University","cats":[]},
   {"name":"Meredith College","cats":[]},
   {"name":"Michigan State University","cats":["nu75","p4"]},
+  {"name":"Montreat College","cats":[]},
+  {"name":"Morgan State University","cats":["hbcu"]},
   {"name":"Mount Saint Mary College","cats":[]},
   {"name":"New York Institute of Technology","cats":[]},
   {"name":"Newberry College","cats":[]},
@@ -93,9 +117,12 @@ const colleges = [
   {"name":"North Carolina Central University","cats":["hbcu"]},
   {"name":"North Carolina State University","cats":["nu75","p4"]},
   {"name":"North Greenville University","cats":[]},
+  {"name":"Ohio University","cats":[]},
   {"name":"Palm Beach Atlantic University","cats":[]},
   {"name":"Penn State University, Brandywine","cats":[]},
+  {"name":"Penn State University, Harrisburg","cats":[]},
   {"name":"Penn State University, University Park","cats":["nu75","p4"]},
+  {"name":"Purdue University","cats":["nu75","p4"]},
   {"name":"Queens University of Charlotte","cats":[]},
   {"name":"Rensselaer Polytechnic Institute","cats":["nu75"]},
   {"name":"Roanoke College","cats":[]},
@@ -105,13 +132,18 @@ const colleges = [
   {"name":"Rowan-Cabarrus Community College","cats":[]},
   {"name":"Rutgers University, New Brunswick","cats":["nu75","p4"]},
   {"name":"South Carolina State University","cats":["hbcu"]},
+  {"name":"Southeastern Baptist Theological Seminary","cats":[]},
   {"name":"Southwestern University","cats":[]},
   {"name":"St. Andrews University","cats":[]},
   {"name":"Suffolk University","cats":[]},
   {"name":"The University of Tennessee, Knoxville","cats":['p4']},
+  {"name":"Tuskegee University","cats":["hbcu"]},
   {"name":"Union Commonwealth University","cats":[]},
   {"name":"University of Albany","cats":[]},
+  {"name":"University of California, Davis","cats":["nu75"]},
+  {"name":"University of California, Santa Barbara","cats":["nu75"]},
   {"name":"University of Connecticut","cats":["nu75"]},
+  {"name":"University of Georgia","cats":["nu75","p4"]},
   {"name":"University of Massachusetts, Boston","cats":[]},
   {"name":"University of Minnesota, Twin Cities","cats":["nu75","p4"]},
   {"name":"University of Mississippi","cats":["p4"]},
@@ -121,14 +153,19 @@ const colleges = [
   {"name":"University of North Carolina at Greensboro","cats":[]},
   {"name":"University of North Carolina at Pembroke","cats":[]},
   {"name":"University of North Carolina at Wilmington","cats":[]},
+  {"name":"University of South Alabama","cats":[]},
   {"name":"University of South Carolina","cats":["p4"]},
   {"name":"University of South Carolina, Union","cats":[]},
+  {"name":"University of Tampa","cats":[]},
+  {"name":"Virginia Polytechnic Institute & State University","cats":["nu75","p4"]},
   {"name":"Voorhees University","cats":["hbcu"]},
   {"name":"Western Carolina University","cats":[]},
+  {"name":"Wheeling University","cats":[]},
   {"name":"Wingate University","cats":[]},
   {"name":"Winston-Salem State University","cats":["hbcu"]},
   {"name":"Winthrop University","cats":[]},
   {"name":"Wofford College","cats":["lac75"]},
+  {"name":"Xavier University","cats":[]},
   {"name":"York Technical College","cats":[]},
   {"name":"Alabama A&M University","cats":["hbcu"]},
   {"name":"Arizona State University","cats":["p4"]},
@@ -301,20 +338,20 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
   /* ------------------------------------------------------- transcript ------ */
   transcript: {
     headline:
-      '82 students sat 176 AP exams in May 2025 across a 17-course AP program with AP Capstone — and 29 of them earned a 5 on at least one exam.',
+      '85 students sat 176 AP exams in May 2026 across a 17-course AP program with AP Capstone — and 14 of them earned a 5 on at least one exam.',
     subhead:
       'A biblical-worldview college-prep school that does not rank; the transcript rests on a weighted GPA with an honors and AP quality-point bonus, and an AP catalog that reaches AP Seminar and AP Research.',
     stats: [
       { value: '17 + Capstone', label: 'AP courses, plus the AP Seminar → Research Capstone track' },
-      { value: '82 / 176', label: 'AP students / exams, May 2025 (29 earned a 5 on ≥1 exam)' },
+      { value: '85 / 176', label: 'AP students / exams, May 2026 (14 earned a 5 on ≥1 exam)' },
       { value: 'No rank', label: 'the school does not rank its students' },
       { value: '340661', label: 'CEEB code' },
     ],
-    meritTitle: 'National recognition — a 10-year window (2019–2025)',
+    meritTitle: 'National recognition — the profile’s 2020–2026 window',
     merit: [
-      { year: '2019–2025', detail: 'National Merit — 1 Finalist and 7 Commended Students across the seven-year profile window.' },
-      { year: '2019–2025', detail: 'College Board National Recognition — 8 National African American and 6 National Hispanic Recognition awardees.' },
-      { year: '2024–2025', detail: 'AP Scholars — 22 AP Scholars, 5 with Honors, 10 with Distinction, plus 4 AP Capstone Diplomas.' },
+      { year: '2020–2026', detail: 'National Merit — 1 Finalist and 8 Commended Students across the seven-year profile window.' },
+      { year: '2020–2026', detail: 'College Board National Recognition — 8 National African American and 6 National Hispanic Recognition awardees.' },
+      { year: '2024–2025', detail: 'AP Scholars — 18 AP Scholars, 6 with Honors, 10 with Distinction, plus 3 AP Capstone Diplomas.' },
     ],
     meritNote:
       'Figures are cumulative windows the profile prints, not single-year counts. The Fall 2023 profile carried a smaller window (1 Finalist / 5 Commended; 11 AP Scholars), so the program is growing.',
@@ -322,15 +359,15 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     depth: [
       {
         label: 'A broad AP catalog',
-        text: 'The school advertises **17 AP courses plus AP Capstone** (AP Seminar + AP Research). The Fall 2025 profile names 14 by title; the 2023 profile named 17 (adding Human Geography, Computer Science A and Spanish Language & Culture), so which of the 18 distinct titles run in a given year varies.',
+        text: 'The school advertises **17 AP courses plus AP Capstone** (AP Seminar + AP Research). The 2026–27 profile names 13 by title (Calculus BC and Psychology are no longer printed; Human Geography is back); the 2023 profile named 17, which cover every title any edition has printed, so which of them run in a given year varies.',
       },
       {
         label: 'Real depth in the scores',
-        text: '**29 students earned a 5 on one or more AP exams in May 2025** (59 a 4, 53 a 3) — these are students-scoring-X counts, which overlap, not a per-exam distribution the school does not publish.',
+        text: '**14 students earned a 5 on one or more AP exams in May 2026** (38 a 4, 50 a 3) — these are students-scoring-X counts, which overlap, not a per-exam distribution the school does not publish.',
       },
       {
         label: 'Dual enrollment beyond AP',
-        text: 'Courses taught on campus are credited through **Judson College** (Fall 2025 profile; prior years credited via the College at Southeastern), and students also take **NC Career & College Promise** courses at local community colleges.',
+        text: 'Courses taught on campus are credited through **Judson College** (2026–27 profile; prior years credited via the College at Southeastern), and only courses taught by HGCS teachers carry dual credit; students also take **NC Career & College Promise** courses at local community colleges.',
       },
     ],
     trustTitle: 'How the grade is framed',
@@ -341,7 +378,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       },
       {
         label: 'The weighting was halved mid-2024',
-        text: 'Under the current (Spring 2024 and beyond) scale, **Honors courses earn +½ a quality point and AP courses +1** — down from +1 and +2 on the 2016–17 scale. A Class of 2025 transcript spans both scales.',
+        text: 'Under the current (Spring 2024 and beyond) scale, **Honors courses earn +½ a quality point and AP courses +1** — down from +1 and +2 on the 2016–17 scale. Transcripts of the Classes of 2025 through 2027 span both scales.',
       },
       {
         label: '27 units to graduate',
@@ -351,11 +388,16 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No per-exam AP 1–5 distribution is published — only the overlapping "students who earned a 5 / 4 / 3 on at least one exam" counts. The "17 AP courses" marketing figure and the profile\'s shorter named list (14) are reconciled here as catalog-vs-offered-this-year, not a contradiction.',
+        text: 'No per-exam AP 1–5 distribution is published — only the overlapping "students who earned a 5 / 4 / 3 on at least one exam" counts. The "17 AP courses" marketing figure and the profile\'s shorter named list (13) are reconciled here as catalog-vs-offered-this-year, not a contradiction.',
+      },
+      {
+        kind: 'verify',
+        text: 'The 2026–27 profile prints AP Scholar counts of 18 AP Scholars, 6 with Honors, 10 with Distinction and 3 AP Capstone Diplomas under the label "2024-2025". The 2025–26 profile printed 22 / 5 / 10 / 4 under the same label. The school has not said which is right; the newer edition is shipped. Re-check against the next profile.',
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Fall 2025 High School Profile (CEEB, AP list, grading scale, AP results, recognition)', url: PROFILE_25 },
+      { label: 'hgchristian.org — 2026–27 High School Profile (CEEB, AP list, grading scale, May 2026 AP results, recognition)', url: PROFILE_26 },
+      { label: 'hgchristian.org — Fall 2025 High School Profile (the earlier AP Scholar counts)', url: PROFILE_25 },
       { label: 'hgchristian.org — Fall 2023 High School Profile (prior-year window)', url: PROFILE_23 },
       { label: 'hgchristian.org — High School (AP + full honors track, dual enrollment)', url: HIGH_SCHOOL },
     ],
@@ -366,18 +408,18 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     headline:
       'A two-person counseling office — a Director of Counseling and an Administrator for Student Services — running a biblical-worldview program of 1:1 meetings, guidance lunches and parent-night sessions.',
     subhead:
-      'The seniors-per-counselor ratio is not published; against the Class of 2025 senior count it computes to roughly 34:1 across the two staff, or about 138:1 measured over all 275 high-school students.',
+      'The seniors-per-counselor ratio is not published; against the Class of 2025 senior count, the latest the school has published, it computes to roughly 34:1 across the two staff, or about 144:1 measured over all 287 high-school students.',
     stats: [
       { value: '2', label: 'named counseling staff (Bennett + Similton)' },
       { value: '≈34:1', label: 'seniors per counselor — computed, not published' },
-      { value: '275', label: 'high-school students (2025–26)' },
+      { value: '287', label: 'high-school students (2026–27)' },
       { value: 'No tools', label: 'Naviance / SCOIR / Common App account not published' },
     ],
     roster: [
       {
         role: 'Director of Counseling',
         name: 'Tracey Bennett',
-        detail: 'Listed as "Guidance Counselor" on the Fall 2023 profile and "Director of Counseling" on Fall 2025 — the lead college-counseling contact.',
+        detail: 'Listed as "Guidance Counselor" on the Fall 2023 profile and "Director of Counseling" since Fall 2025 — the lead college-counseling contact.',
         email: 'traceybennett@hgchristian.org',
       },
       {
@@ -397,7 +439,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       'College & career planning',
     ],
     mechanicsNote:
-      'The guidance page describes these as its program rather than publishing a grade-by-grade timeline. No application-platform account (Naviance / SCOIR / Common App) and no NCAA code are stated on either profile or the guidance page.',
+      'The guidance page describes these as its program rather than publishing a grade-by-grade timeline. No application-platform account (Naviance / SCOIR / Common App) and no NCAA code are stated on any of the profiles or the guidance page.',
     // No published four-year timeline — the guidance page lists a program, not a
     // grade-by-grade cadence — so the timeline block is left empty per the type's
     // "empty where a school publishes no four-year cadence" contract.
@@ -409,11 +451,12 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No senior-class size or seniors-per-counselor ratio is published. The ≈34:1 figure is computed from the Class of 2025 bucket counts (43 + 15 + 7 + 2 = 67 graduates) against the two counseling staff; the ≈138:1 school-wide figure uses all 275 high-school students. Both are derived, not stated.',
+        text: 'No senior-class size or seniors-per-counselor ratio is published. The ≈34:1 figure is computed from the Class of 2025 bucket counts (43 + 15 + 7 + 2 = 67 graduates) against the two counseling staff; the ≈144:1 school-wide figure uses all 287 high-school students. Both are derived, not stated. The 2026–27 profile prints attendance shares without counts, so no newer senior count exists.',
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Fall 2025 High School Profile (counselor roster)', url: PROFILE_25 },
+      { label: 'hgchristian.org — 2026–27 High School Profile (counselor roster, enrollment)', url: PROFILE_26 },
+      { label: 'hgchristian.org — Fall 2025 High School Profile (Class of 2025 attendance counts behind the ≈34:1)', url: PROFILE_25 },
       { label: 'hgchristian.org — Guidance (program description)', url: GUIDANCE },
       { label: 'Our Staff directory (counselor email addresses)', url: 'https://www.hgchristian.org/about-us/our-staff' },
     ],
@@ -422,41 +465,42 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
   /* --------------------------------------------------------- outcomes ------ */
   outcomes: {
     headline:
-      '132 distinct institutions appear across the school\'s two published acceptance lists (Classes of 2023 and 2025) — from Bowdoin, Pomona and Georgia Tech through a deep bench of NC publics, Christian colleges and HBCUs.',
+      '158 distinct institutions appear across the school\'s three published acceptance lists (Classes of 2023, 2025 and 2026) — from Bowdoin, Pomona, Georgia Tech and Boston University through a deep bench of NC publics, Christian colleges and HBCUs.',
     subhead:
-      'The lists carry no matriculation markings, so they read as acceptances. Here the combined, deduplicated list is scored against the current U.S. News tiers.',
+      'The lists carry no matriculation markings, so they read as acceptances, and no Class of 2024 list was published. Here the combined, deduplicated list is scored against the current U.S. News tiers.',
     stats: [
-      { value: '132', label: 'institutions across the 2023 + 2025 acceptance lists' },
-      { value: '64%', label: 'of the Class of 2025 planned a 4-year college (22% 2-year, 11% none, 3% gap year)' },
+      { value: '158', label: 'institutions across the 2023, 2025 and 2026 acceptance lists' },
+      { value: '65%', label: 'of graduates typically attend a 4-year college (25% 2-year; 10% work, military or gap year)' },
       { value: '9', label: 'Top-75 Liberal Arts colleges on the list' },
-      { value: '20', label: 'HBCUs on the list' },
+      { value: '23', label: 'HBCUs on the list' },
     ],
     buckets: [
       { tier: 'Ivy League', count: '0 / 8' },
       { tier: '“Ivy Plus”', count: '0 / 17' },
-      { tier: 'Top-75 National Universities', count: '21 / 75' },
+      { tier: 'Top-75 National Universities', count: '27 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '9 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
-      { tier: 'Power Four', count: '25 / 68' },
-      { tier: 'HBCUs', count: '20 / 107', note: '— incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk' },
+      { tier: 'Power Four', count: '28 / 68' },
+      { tier: 'HBCUs', count: '23 / 107', note: '— incl. Howard, Hampton, Morehouse, Tuskegee, NC A&T, Florida A&M' },
     ],
-    collegesTitle: 'Every named acceptance (2023 + 2025)',
+    collegesTitle: 'Every named acceptance (2023 + 2025–2026)',
     colleges,
-    collegesTotal: '132 institutions across two published class lists · no matriculation markings',
+    collegesTotal: '158 institutions across three published class lists · no matriculation markings',
     scholarships: [
       'No scholarship dollar totals published',
       'No per-college matriculation markings — acceptances only',
-      'HBCU strength: 20 HBCUs across the two lists',
+      'HBCU strength: 23 HBCUs across the three lists',
     ],
     scholarshipsNote:
       'The profiles publish acceptance lists and recognition counts, but no scholarship-offer totals or named-award ledger.',
     flags: [
       {
         kind: 'verify',
-        text: 'Bucket membership near the Top-75 line should be re-confirmed against the live U.S. News edition at ingest. HBCU membership was checked per institution; ambiguous names (e.g. "Xavier University of Louisiana") are resolved to the HBCU, not the Ohio Xavier.',
+        text: 'Bucket membership near the Top-75 line should be re-confirmed against the live U.S. News edition at ingest. HBCU membership was checked per institution. The list holds both "Xavier University of Louisiana" (2023 list, an HBCU) and "Xavier University" (2026 list, printed bare, read as the Ohio university by its official name, untagged).',
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Fall 2025 High School Profile (Class of 2025 list, buckets, recognition)', url: PROFILE_25 },
+      { label: 'hgchristian.org — 2026–27 High School Profile (Class of 2026 list, attendance split)', url: PROFILE_26 },
+      { label: 'hgchristian.org — Fall 2025 High School Profile (Class of 2025 list)', url: PROFILE_25 },
       { label: 'hgchristian.org — Fall 2023 High School Profile (Class of 2023 list)', url: PROFILE_23 },
       { label: 'U.S. News 2027 rankings (tier scoring)', url: USNEWS },
     ],
@@ -474,8 +518,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         hint: 'what your child brings',
         glyph: '◆',
         items: [
-          '**A 17-course AP program with AP Capstone** — the AP Seminar → AP Research sequence produced 4 AP Capstone Diplomas in 2024–25, and 82 students sat 176 exams in May 2025.',
-          '**A widening recognition record** — 1 National Merit Finalist and 7 Commended over 2019–2025, up from 1/5 in the prior window, plus 14 College Board National African American / Hispanic recognitions.',
+          '**A 17-course AP program with AP Capstone** — the AP Seminar → AP Research sequence produced 3 AP Capstone Diplomas in the profile’s 2024–25 window, and 85 students sat 176 exams in May 2026.',
+          '**A widening recognition record** — 1 National Merit Finalist and 8 Commended over 2020–2026, up from 1/5 in the 2019–2023 window, plus 14 College Board National African American / Hispanic recognitions.',
           '**Dual-enrollment credit** — courses credited through Judson College (prior years, the College at Southeastern) and NC Career & College Promise at community colleges.',
         ],
       },
@@ -486,14 +530,14 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         items: [
           '**A legible, no-rank transcript** — the school does not rank, and publishes both grading scales and the honors/AP weighting so a reader can reconstruct rigor in context.',
           '**A signature summer on-ramp** — the counseling office runs a College Admissions Boot Camp for rising juniors and seniors, with campus visits.',
-          '**A deep HBCU and NC-public pipeline** — 20 HBCUs and the full NC public system appear across the two acceptance lists, matching the school\'s applicant base.',
+          '**A deep HBCU and NC-public pipeline** — 23 HBCUs and the full NC public system appear across the three acceptance lists, matching the school\'s applicant base.',
         ],
         note: 'No research program, Olympiad results, or national-competition credentials are published — the differentiators are AP breadth and legibility, not competition results.',
       },
     ],
     flags: [],
     sources: [
-      { label: 'hgchristian.org — Fall 2025 High School Profile', url: PROFILE_25 },
+      { label: 'hgchristian.org — 2026–27 High School Profile', url: PROFILE_26 },
       { label: 'hgchristian.org — Guidance', url: GUIDANCE },
     ],
   },
@@ -501,29 +545,29 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
   /* -------------------------------------------------------- wholeClass ----- */
   wholeClass: {
     headline:
-      'The school publishes class means and medians — not percentile distributions — and it says so: small tester counts (SAT n=20) are disclosed on the profile itself.',
+      'The school publishes class means — not percentile distributions — and it says so: small tester counts (SAT n=45) are disclosed on the profile itself.',
     subhead:
-      'Test scores are tagged to the ENTERING class (2026 / 2024), a year apart from the Class-of-2025 outcomes; every table below is means/medians, so none carries a percentile header.',
+      'Test scores are the Class of 2026’s, the same class as the newest acceptance list; the counted attendance split is the Class of 2025’s. Every table below is means, so none carries a percentile header.',
     scoreTables: [
       {
-        title: 'ACT & SAT — class means and medians',
-        hint: '— ACT is a mean, SAT a median; entering Class of 2026 (current)',
+        title: 'ACT & SAT — class means',
+        hint: '— both are means; Class of 2026',
         noPercentiles: true,
         rows: [
           { label: 'ACT Composite (mean)', values: ['20.5'] },
-          { label: 'SAT Composite (median)', values: ['1090'] },
+          { label: 'SAT Composite (mean)', values: ['1066'] },
         ],
-        note: 'Class of 2026: ACT mean 20.5 (n=85); SAT median 1090 (n=20). The profile discloses these small tester counts. Class of 2024 (prior): ACT mean 19.7 (n=63); SAT median 1110 (n=12).',
+        note: 'Class of 2026: ACT mean 20.5 (n=79, range 12–31); SAT mean 1066 (n=45, range 760–1400). The 2025–26 profile printed a SAT median for the same class mid-year (1090, n=20). Class of 2024: ACT mean 19.7 (n=63); SAT median 1110 (n=12).',
       },
       {
-        title: 'AP recognition — count tiers, May 2025',
+        title: 'AP recognition — count tiers (2024–25 window)',
         hint: '— AP Scholar tiers, 2024–25 (counts, not a percentile distribution)',
         noPercentiles: true,
         rows: [
-          { label: 'AP Scholars', values: ['22'] },
+          { label: 'AP Scholars', values: ['18'] },
           { label: 'AP Scholars with Distinction', values: ['10'] },
-          { label: 'AP Scholars with Honors', values: ['5'] },
-          { label: 'AP Capstone Diplomas', values: ['4'] },
+          { label: 'AP Scholars with Honors', values: ['6'] },
+          { label: 'AP Capstone Diplomas', values: ['3'] },
         ],
         note: 'Count tiers, not percentiles — the profile publishes AP Scholar awardee counts, not an AP score distribution.',
       },
@@ -540,11 +584,11 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     middle: [
       {
         label: 'The list matches a broad class',
-        text: 'The two acceptance lists run from Bowdoin, Pomona and Georgia Tech through the full NC public system (Chapel Hill, NC State, Charlotte, Wilmington, Greensboro, Asheville, Pembroke), Christian colleges, HBCUs and community colleges (Central Piedmont, Cape Fear, Rowan-Cabarrus) — the spread of a broad, not uniformly elite, class.',
+        text: 'The three acceptance lists run from Bowdoin, Pomona, Georgia Tech and Boston University through the full NC public system (Chapel Hill, NC State, Charlotte, Wilmington, Greensboro, Asheville, Pembroke), Christian colleges, HBCUs and community colleges (Central Piedmont, Cape Fear, Rowan-Cabarrus) — the spread of a broad, not uniformly elite, class.',
       },
       {
         label: 'Non-4-year paths are real',
-        text: 'For the Class of 2025, 22% planned a 2-year college and 11% chose not to pursue higher education — and the acceptance list includes the community colleges and trade paths that reflects.',
+        text: 'The 2026–27 profile puts typical post-high-school plans at 65% 4-year college, 25% 2-year college and 10% work, military or a gap year. The Class of 2025, the last year printed with counts, had 22% planning a 2-year college and 11% choosing not to pursue higher education — and the acceptance list includes the community colleges and trade paths that reflects.',
       },
     ],
     flags: [
@@ -554,7 +598,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Fall 2025 High School Profile (test means, AP tiers)', url: PROFILE_25 },
+      { label: 'hgchristian.org — 2026–27 High School Profile (Class of 2026 test means, AP tiers, attendance split)', url: PROFILE_26 },
+      { label: 'hgchristian.org — Fall 2025 High School Profile (mid-year Class of 2026 SAT median, Class of 2025 attendance)', url: PROFILE_25 },
       { label: 'hgchristian.org — Fall 2023 High School Profile (prior-year test means)', url: PROFILE_23 },
     ],
   },
@@ -564,35 +609,35 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     headline:
       'A biblical-worldview college-prep school with a genuine AP-and-Capstone program and a widening recognition record — with the small tester counts and the unpublished caseload the two things a visit should probe.',
     subhead:
-      'The AP catalog and the two-year acceptance record are the real strengths; the quantitative profile is thin by design (means, not distributions) and the counseling caseload is never stated.',
+      'The AP catalog and the three-class acceptance record are the real strengths; the quantitative profile is thin by design (means, not distributions) and the counseling caseload is never stated.',
     points: [
       {
         label: 'The AP story is real and broad',
-        text: '17 AP courses with AP Capstone, 176 exams sat in May 2025, 29 students earning a 5 on at least one, and 4 AP Capstone Diplomas — a program with genuine depth for a school this size.',
+        text: '17 AP courses with AP Capstone, 176 exams sat in May 2026, 14 students earning a 5 on at least one, and 3 AP Capstone Diplomas — a program with genuine depth for a school this size.',
       },
       {
         label: 'Recognition is growing',
-        text: 'National Merit (1 Finalist / 7 Commended) and 14 College Board National recognitions over 2019–2025, both up from the prior window.',
+        text: 'National Merit (1 Finalist / 8 Commended) and 14 College Board National recognitions over 2020–2026, both up from the 2019–2023 window.',
       },
       {
         label: 'A two-person counseling office',
         text: 'A Director of Counseling and an Administrator for Student Services run the program, but the senior caseload is never published — the ≈34:1 figure here is computed, so ask it directly.',
       },
       {
-        label: 'Outcomes show breadth over two years',
-        text: '132 institutions across the 2023 and 2025 lists — Bowdoin and Pomona at the top, 20 HBCUs, the full NC public system — but the lists mark no matriculations, so they show acceptances, not enrollment.',
+        label: 'Outcomes show breadth over three classes',
+        text: '158 institutions across the 2023, 2025 and 2026 lists — Bowdoin and Pomona at the top, 23 HBCUs, the full NC public system — but the lists mark no matriculations, so they show acceptances, not enrollment.',
       },
       {
         label: 'The quantitative profile is thin by design',
-        text: 'The school publishes class means/medians on small tester counts (SAT n=20), not percentile distributions or a GPA table, and does not rank — so the shape of the class is not public.',
+        text: 'The school publishes class means on small tester counts (SAT n=45), not percentile distributions or a GPA table, and does not rank — so the shape of the class is not public.',
       },
     ],
     checklist: [
       'How many seniors does each of the two counselors carry, and is there a college-only counselor at peak season?',
-      'Which of the 17 AP courses actually run in 2025–26 — the profile names 14, the school advertises 17?',
-      'The acceptance lists mark no enrollments — where did the Classes of 2024 and 2025 actually matriculate, and in what concentrations?',
+      'Which of the 17 AP courses actually run in 2026–27 — the profile names 13, the catalog lists 17?',
+      'The acceptance lists mark no enrollments — where did the Classes of 2024, 2025 and 2026 actually matriculate, and in what concentrations?',
       'How does the school document and support College Board and ACT testing accommodations for a student with an ESS accommodations plan?',
-      'Only 20 students took the SAT and 85 the ACT — what share of the class tests, and how is test-optional handled?',
+      'Only 45 students took the SAT and 79 the ACT — what share of the class tests, and how is test-optional handled?',
       'How does the College Admissions Boot Camp fit the application calendar, and is it open to all rising juniors and seniors?',
     ],
     flags: [],

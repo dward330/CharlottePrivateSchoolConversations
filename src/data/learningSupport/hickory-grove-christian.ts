@@ -29,7 +29,7 @@ const ESS: Source = {
 }
 const FEES: Source = {
   label: 'hgchristian.org — 2026-2027 Educational Support Services Fees (PDF)',
-  url: 'https://www.hgchristian.org/fs/resource-manager/view/7dd54753-7033-45a4-8e4b-9f62e25bc311',
+  url: 'https://files.smartsites.parentsquare.com/14485/edsupportservicesfees26-27.pdf',
 }
 const WELLNESS: Source = {
   label: 'hgchristian.org — Wellness',
@@ -49,15 +49,15 @@ const STAFF_DIR: Source = {
 }
 const CHECKLIST_ES: Source = {
   label: 'hgchristian.org — Elementary admissions checklist (PDF)',
-  url: 'https://www.hgchristian.org/fs/resource-manager/view/adf10069-819d-4420-83c4-ebba8281c071',
+  url: 'https://files.smartsites.parentsquare.com/14485/newfamilyadmissionschecklistesnodate.pdf',
 }
 const CHECKLIST_MHS: Source = {
   label: 'hgchristian.org — Middle & High admissions checklist (PDF)',
-  url: 'https://www.hgchristian.org/fs/resource-manager/view/c7376a64-1d57-4a98-a5fb-6cab591a4c65',
+  url: 'https://files.smartsites.parentsquare.com/14485/newfamilyadmissionschecklistmhsnodate.pdf',
 }
 const INTL: Source = {
   label: 'hgchristian.org — International Student Enrollment Process',
-  url: 'https://www.hgchristian.org/admissions/international-program/international-student-enrollment-process',
+  url: 'https://hgchristian.org/international-student-enrollment-pr',
 }
 
 export const hickoryGroveChristian: LearningSupportProgram = {
@@ -265,7 +265,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
           {
             service: 'ESL / English-language support',
             code: 'NS',
-            detail: 'International applicants submit TOEFL Jr. or SLEP scores; no English-language support is described.',
+            detail: 'International applicants submit TOEFL (80) or Duolingo (115) scores; no English-language support is described.',
             needs: [],
           },
         ],

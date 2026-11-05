@@ -536,6 +536,7 @@
 | Penn State University Park | https://www.psu.edu | 200 (Penn State's own name for its flagship campus; same URL as the University Park rows) |
 | Penn State University (World Campus) | https://www.worldcampus.psu.edu | 200 |
 | Penn State University, Brandywine | https://www.brandywine.psu.edu | 403 on every attempt (multiple UAs, headers, retries) despite the URL being the confirmed official Penn State Brandywine campus domain per Penn State's own site map; likely Akamai bot-blocking on this subdomain specifically (root psu.edu returns 200) — recorded as the correct URL despite the verification failure |
+| Penn State University, Harrisburg | https://harrisburg.psu.edu | verified 2026-11-04 in Chrome (hgprofile): page titled "Penn State Harrisburg", footer "777 West Harrisburg Pike, Middletown, PA"; 403 to plain curl (bot-blocked) |
 | Penn State University, University Park | https://www.psu.edu | 200 OK; University Park is Penn State's main/flagship campus, served at the root domain |
 | PennWest Clarion | https://www.pennwest.edu | 200; PennWest merged university, no distinct Clarion root domain |
 | Pennsylvania College of Technology | https://www.pct.edu | 200 |
@@ -635,6 +636,7 @@
 | South Piedmont CC | https://spcc.edu | 200 |
 | Southeastern CC | https://sccnc.edu | 200 via redirect from www.sccnc.edu |
 | Southeastern University | https://www.seu.edu | 403 Cloudflare bot-block (domain confirmed live) |
+| Southeastern Baptist Theological Seminary | https://www.sebts.edu | verified 2026-11-04 in Chrome (hgprofile): page titled "Southeastern Baptist Theological Seminary", "Southeastern Seminary in Wake Forest, North Carolina"; 403 Cloudflare to plain curl |
 | Southern Connecticut State University | https://www.southernct.edu | 200 |
 | Southern Methodist University | https://www.smu.edu | 200 |
 | Southern New Hampshire University | https://www.snhu.edu | 200; footer "2500 North River Road Manchester, NH" (added 2026-11-04 for Davidson Day's 2022–26 list) |
@@ -727,6 +729,7 @@
 | Tufts University | https://www.tufts.edu | 200 |
 | Tulane University | https://tulane.edu | 200 via redirect from www.tulane.edu |
 | Tulane University of Louisiana | https://tulane.edu | 200 via redirect from www.tulane.edu |
+| Tuskegee University | https://www.tuskegee.edu | verified 2026-11-04 in Chrome (hgprofile): 200, page titled "Home | Tuskegee University" |
 | Tusculum University | https://www.tusculum.edu | 200 (redirects to site.tusculum.edu) |
 | UNC Charlotte | https://www.charlotte.edu | 200; UNC-dashboard spelling for the NC publics card, same institution as University of North Carolina at Charlotte |
 | UNC Greensboro | https://www.uncg.edu | 200; UNC-dashboard spelling for the NC publics card, same institution as University of North Carolina at Greensboro |
@@ -1018,6 +1021,7 @@
 | Wheaton College (MA) | https://wheatoncollege.edu | 200 |
 | Wheaton College - IL | https://www.wheaton.edu | 403 (Cloudflare bot-challenge; verified live known-domain, Wheaton College IL, not defunct) |
 | Wheaton College - MA | https://wheatoncollege.edu | 200 |
+| Wheeling University | https://wheeling.edu | verified 2026-11-04 in Chrome (hgprofile): 200 via redirect from www.wheeling.edu; footer "316 Washington Avenue Wheeling, WV 26003" |
 | Whitman College | https://www.whitman.edu | 200 |
 | Whittier College | https://www.whittier.edu | 200 |
 | Widener University | https://www.widener.edu | 200 |

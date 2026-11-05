@@ -113,7 +113,7 @@ const under = []
 const counts = []
 /** slug -> { nu75, lac75 } distinct-institution tallies. */
 const institutions = {}
-/** slug -> the years in `outcomes.collegesTitle` ("2023–2026"), or null if none. */
+/** slug -> the years in `outcomes.collegesTitle` ("2023–2026", or "2023 + 2025–2026" when a year is missing), or null if none. */
 const windows = {}
 const windowsDrift = []
 let entries = 0
@@ -151,7 +151,7 @@ for (const file of files) {
   }
 
   institutions[slug] = { nu75: distinct.nu75.size, lac75: distinct.lac75.size }
-  const yrs = String(program?.outcomes?.collegesTitle ?? '').match(/\d{4}(?:\s*[–+-]\s*\d{4})?/)
+  const yrs = String(program?.outcomes?.collegesTitle ?? '').match(/\d{4}(?:\s*[–+-]\s*\d{4})*/)
   windows[slug] = yrs ? yrs[0] : null
 
   // Surfaces 1 and 2: the `buckets` row and any stat tile on the school page.

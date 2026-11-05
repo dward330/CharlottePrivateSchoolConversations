@@ -266,6 +266,11 @@ const RULES: Record<string, Rule[]> = {
       key: 'redesign-research',
       label: 'Sports Research Dossier (2026)',
     },
+    // A "… - Sports - School Profile <years>" file transcribes the athletics block of
+    // a school's own profile PDF (varsity team count, title list) and records its
+    // check against the NCISAA archive. It is provenance for the Sports Offered and
+    // record cards, not a card of its own, so it folds onto the research dossier.
+    { match: /school profile/i, key: 'redesign-research', label: 'Sports Research Dossier (2026)' },
     { match: /awards and honors/i, key: 'awards', label: 'Awards & Honors' },
     { match: /championships/i, key: 'championships', label: 'Championships' },
     { match: /coach/i, key: 'coaches', label: 'Coaches: Pedigree & Continuity' },

@@ -55,6 +55,11 @@ Virginia State, South Carolina State, Alabama A&M, Fisk, Lincoln) are Regional
 Universities, Regional Colleges, or ranked only in the HBCU table — no National/Liberal
 number applies, so they stay blank as before.
 
+- **Tuskegee University** (added 2026-11-04, plan `hgprofile`): left blank as a recorded
+  null. It is absent from the 2027 National Universities PDF harvest, but that harvest is
+  partial past #299, so absence is not proof of "unranked". No single verified number was
+  available without a US News lookup, and its rank can move no Top-75 bucket.
+
 ## Source URLs
 
 - https://www.usnews.com/best-colleges/howard-university-1448 — Howard University profile

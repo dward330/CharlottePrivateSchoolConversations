@@ -169,6 +169,9 @@ export const HBCUS: readonly string[] = [
   // Both are on the DoE-designated roster cited in the source .md.
   'Southern University and A&M College', // the Baton Rouge flagship — not Georgia/Charleston Southern
   'West Virginia State University',
+  // Added 2026-11-04 for Hickory Grove's 2026–27 profile list (plan hgprofile), the
+  // first list to name it. On the DoE-designated roster cited in the source .md.
+  'Tuskegee University',
 ]
 
 /**
