@@ -309,7 +309,7 @@ export const charlotteLatin: SportsProgram = {
       { cls: "'24", name: 'Jordan Pence', sport: 'Not published', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
     ],
     rosterNote:
-      'Several Class of 2024 and 2025 signing-day announcements named the college but not the sport; those rows read "Not published" rather than being guessed at. Level labels and conferences were added by the researcher from each college’s NCAA status. P4 = SEC · Big Ten · ACC · Big 12.',
+      'Several Class of 2024 and 2025 signing-day announcements named the college but not the sport; those rows read "Not published" rather than being guessed at. P4 = SEC · Big Ten · ACC · Big 12.',
     sources: [
       {
         label: 'clshawks.com — 2026 signing day',

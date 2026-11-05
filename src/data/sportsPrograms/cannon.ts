@@ -257,7 +257,7 @@ export const cannon: SportsProgram = {
       { cls: "'27", name: 'Brooke Busby', sport: 'Girls Basketball', college: 'Princeton', conf: 'Ivy', level: 'D1' },
     ],
     rosterNote:
-      'Brooke Busby is Class of 2027 and is listed here because her commitment is already public. Level labels and conferences were added by the researcher from each college’s NCAA status. Two athletes’ sports are not published in the source roundup and are marked as such rather than guessed.',
+      'Brooke Busby is Class of 2027 and is listed here because her commitment is already public. Two athletes’ sports are not published in the source roundup and are marked as such rather than guessed.',
     sources: [
       {
         label: 'Charlotte-area signing day roundup',
