@@ -93,7 +93,7 @@ function makeFormatter(lang, rtl) {
   }
 
   const isolateNeutral = (t) =>
-    rtl ? t.replace(/\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+|\d+(?:,\d{3})*(?:\.\d+)?\+/g, (m) => `${LRI}${m}${PDI}`) : t
+    rtl ? t.replace(/\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+(?:\s*\/\s*\d+)+|\d+(?:,\d{3})*(?:\.\d+)?\+/g, (m) => `${LRI}${m}${PDI}`) : t
 
   const localizeMoneyText = (text) => {
     if (!text.includes('$')) return isolateNeutral(text)
@@ -129,12 +129,18 @@ const NEUTRAL_CASES = [
   ['82%', 'percentage'],
   ['4.5%', 'decimal percentage'],
   ['58 / 75', 'fraction'],
+  ['8/6/26', 'slash date'],
   ['250+', 'count with trailing plus'],
   ['1,000+', 'grouped count with plus'],
   ['3.8+', 'decimal with trailing plus'],
   ['$154,000+', 'money with trailing plus'],
   ['$13M+', 'magnitude with trailing plus'],
 ]
+
+// These are not reformatted, so each must sit in ONE isolate, whole. Presence of
+// an isolate is not enough: "8/6/26" once isolated only "8/6", and "/26" drew on
+// the far side ("26/8/6") while the check above passed.
+const WHOLE_CASES = NEUTRAL_CASES.filter(([input]) => !input.includes('$'))
 
 // The "+" must sit INSIDE the isolate, or RTL draws it before the figure
 // ("250+" -> "+250"). Mere presence of an isolate does not prove that.
@@ -168,6 +174,15 @@ for (const f of [['fa', fa, 'متن'], ['ar', makeFormatter('ar', true), 'نص']
     const ok = out.includes(`+${PDI}`)
     if (!ok) bad++
     console.log(`  ${ok ? 'ok ' : 'BAD'}  ${(f[0] + ' + inside').padEnd(24)} ${JSON.stringify(out)}`)
+  }
+}
+
+for (const f of [['fa', fa, 'متن'], ['ar', makeFormatter('ar', true), 'نص']]) {
+  for (const [input, what] of WHOLE_CASES) {
+    const out = f[1].localizeMoneyText(`${f[2]} ${input} ${f[2]}`)
+    const ok = out.includes(`${LRI}${input}${PDI}`)
+    if (!ok) bad++
+    console.log(`  ${ok ? 'ok ' : 'BAD'}  ${(f[0] + ' whole: ' + what).padEnd(24)} ${JSON.stringify(out)}`)
   }
 }
 

@@ -124,9 +124,10 @@ export function isolateFigures(text: string): string {
     // times ("9:30–11:00") and chained dates. A range glued to a preceding
     // letter or digit-group ("K5–8", "JK–2") is skipped: it already sits in a
     // strong-L run. Then a percentage, a slash-joined fraction ("58 / 75",
-    // "8 / 8"), or a count with a trailing plus ("250+", "1,000+"). All
-    // anchored on digits so bare punctuation never matches.
-    /(?<![A-Za-z\d.,:/_$≈⁦\-–])\d+(?:[.,:]\d+)*(?:\s?[–-]\s?\d+(?:[.,:]\d+)*)+|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+|\d+(?:,\d{3})*(?:\.\d+)?\+/g,
+    // "8 / 8") or slash date ("8/6/26", whole: matching only "8/6" left "/26"
+    // outside and it read "26/8/6"), or a count with a trailing plus ("250+",
+    // "1,000+"). All anchored on digits so bare punctuation never matches.
+    /(?<![A-Za-z\d.,:/_$≈⁦\-–])\d+(?:[.,:]\d+)*(?:\s?[–-]\s?\d+(?:[.,:]\d+)*)+|\d+(?:\.\d+)?%|\d+(?:\s*\/\s*\d+)+|\d+(?:,\d{3})*(?:\.\d+)?\+/g,
     (m) => `${LRI}${m}${PDI}`,
   )
 }
