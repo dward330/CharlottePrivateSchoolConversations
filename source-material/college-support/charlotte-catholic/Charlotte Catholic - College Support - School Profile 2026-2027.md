@@ -318,6 +318,12 @@ institutions.** (Arizona State is two rows, one institution, in both lists.)
 `Ivy Plus` membership follows the tags other schools already carry: Gaston Day tags Johns
 Hopkins `ivyplus`.
 
+**Resolved 2026-11-05 at `/implement`:** Florida Atlantic University **National #191**, Sacred
+Heart University **National #202** and University of Massachusetts (Lowell) **National #148**
+come from the committed `_shared/US News 2027 - National PDF Harvest.md` (the user's
+2026-09-22 print-out). They were added to the master. St. John Fisher is not in that harvest,
+whose tail is incomplete, so it is still unconfirmed.
+
 **Unresolved ranks worth checking** (none can move a top-75 bucket, but a ranked college
 should print its label): Florida Atlantic, Sacred Heart, St. John Fisher and UMass Lowell are
 plausibly ranked National Universities in US News 2027. John Carroll, Tampa, UW–La Crosse,

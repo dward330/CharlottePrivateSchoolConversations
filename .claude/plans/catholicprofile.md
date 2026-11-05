@@ -646,10 +646,14 @@ tags Ivy 7, Ivy+ 11, NU75 43, LAC75 21, P4 44 rows / 43 institutions, HBCU 3, al
 with the four gates. The catalog has 199 entries: 26 AP, 43 Honors, 18 Advanced, 3 DE.
 
 Deviations and additions:
-- **D4: no rank or URL rows were added.** I applied the open-question default: the four
-  plausibly ranked names (FAU, Sacred Heart, St. John Fisher, UMass Lowell) and the seven with no
-  homepage stay unlabelled/unlinked until they are confirmed. `check:collegeurls` counts them as
-  plain text.
+- **D4: three ranks were added; St. John Fisher and the homepages were not.** UMass Lowell
+  (National #148), Florida Atlantic (#191) and Sacred Heart (#202) were already in the committed
+  `US News 2027 - National PDF Harvest.md`, taken from the user's 2026-09-22 print-out. They were
+  missing only from the master, so they went into `collegeRankings.ts` and the Rank Labels doc
+  with no new fetch. All three rank below 75, so no bucket moves. St. John Fisher is not in the
+  harvest, whose tail the harvest itself calls incomplete, so it stays unlabelled until a
+  screenshot confirms it. The five plausibly Regional-only names would carry no label either
+  way. The seven with no homepage stay unlinked.
 - **D12: the 9th-grade "at most 3 advanced classes" line was dropped.** The 2026-27 guide does
   not state it either (searched with and without whitespace). The DE fact went in as a fifth
   grade-12 timeline item.
