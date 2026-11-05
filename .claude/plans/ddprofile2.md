@@ -281,6 +281,33 @@ overlay topics this plan touched: `sports`, `college-support`, `student-clubs`,
    - Keep these in Latin script: SouthLake Christian Academy, SACS, ERB, NCISAA, AFAR, CEEB.
    - Verbatim quotes ("Service is encouraged, but not required.") follow each locale's
      habit: es/fr/it/hi keep English; bn/ht/te/fa/ar translate.
+2a. **Correct the 2026 Blumey finalists (added 2026-11-05 at the user's request; do
+   this in English FIRST, before step 1's splice, so it is spliced and translated with
+   the rest).** The Phase 1 review found, and a real-Chrome read confirmed, that
+   Blumenthal's 2026 page lists **five** Davidson Day *Big Fish* finalists. The app says
+   three. Record: `source-material/the-arts/davidson-day/Davidson Day - The Arts - Blumey
+   Verification 2026.md`, the "2026 finalists" section. The four rendered strings in
+   `src/data/artsPrograms/davidson-day.ts`:
+   - `theatre.headline` (line ~119): "…nominations in 2023, three finalists in 2026." →
+     "…nominations in 2023, five finalists in 2026."
+   - photo caption (line ~128): "…which produced three finalist placements." →
+     "…which produced five finalist placements."
+   - `ledger[]` 2026 `result` (line ~147) →
+     `'Five finalists: Best Actor (Lukas Paeper as Edward Bloom), Best Actress (Malena Lessa as Sandra Bloom), Best Supporting Actor (Noah Larsen as Will Bloom), Best Supporting Actress (Katelyn Ray as Witch), Best Featured Performer (Elizabeth Robinson as Giant, also a nominee). No win recorded.'`
+   - the item at line ~307: "…2026 Big Fish produced three finalists across Best Actor,
+     Best Supporting Actress and Best Featured Performer." → "…2026 Big Fish produced five
+     finalists across Best Actor, Best Actress, Best Supporting Actor, Best Supporting
+     Actress and Best Featured Performer."
+   - Also the header comment (lines ~17–18, "three finalists" → "five finalists"). It is not
+     rendered.
+   Names and roles are copied char-for-char from the Blumenthal page, and the category
+   names follow the existing row's style. Do not write "nominee" for Paeper or Lessa: their
+   categories' nominees were announced separately and are not established. This is a
+   factual correction from the source, so it needs no separate wording review. It adds
+   4 the-arts units per locale, giving **20 units per locale** in total (the-arts 5). Re-run
+   `ingest-source-material` for `the-arts` (the Blumey file changed), restore the
+   manifest order and the stamp-only notes, and browser-check the four strings in English
+   before translating.
 3. **Rebuild:** `npm run i18n:build -- --topic <topic> --lang <code>` for every pair.
 4. Run the Phase 2 checks. Commit with explicit paths, push and verify the remote SHA, then
    open the PR with `--body-file`. Squash-merge, then `git checkout main && git pull`.
