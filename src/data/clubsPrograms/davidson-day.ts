@@ -46,6 +46,8 @@ const MIDDLE_SCHOOL = 'https://www.davidsonday.org/academics/middle-school'
 const COMMUNITY_CULTURE = 'https://www.davidsonday.org/student-life/community-and-culture'
 const LONGEVITY_BLOG =
   'https://www.davidsonday.org/p/~board/all-blogs/post/making-a-difference-one-conversation-at-a-time'
+const PROFILE =
+  'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
 const AFAR_BLOG =
   'https://www.davidsonday.org/p/~board/all-blogs/post/making-history-uncovering-history-davidson-day-afar-and-the-adam-spach-rock-house'
 
@@ -61,7 +63,7 @@ export const davidsonDay: ClubsProgram = {
         valueLabel: 'minimum hours · per diploma distinction',
         name: 'Diploma Distinctions Practicum',
         detail:
-          'Every Diploma Distinction requires an immersive practicum of at least 100 hours — an internship, civic engagement, nonprofit leadership, medical shadowing or pre-collegiate program — plus quarterly Ethics Labs and a capstone at the Davidson Day Scholars Research Conference. Students apply at the end of sophomore year.',
+          'Every Diploma Distinction requires an immersive practicum of at least 100 hours — an internship, civic engagement, nonprofit leadership, medical shadowing or pre-collegiate program — plus quarterly Ethics Labs and a capstone at the Davidson Day Scholars Research Conference. Students apply at the end of sophomore year. Outside the distinctions, the school’s 2026–27 profile states that “Service is encouraged, but not required.”',
         source: { label: 'Diploma Distinctions', url: DIPLOMA_DISTINCTIONS },
       },
       {
@@ -91,13 +93,14 @@ export const davidsonDay: ClubsProgram = {
       },
       {
         kind: 'gap',
-        text: 'The 100-hour practicum belongs to an opt-in diploma track, not a school-wide graduation requirement — and no school-wide service-hours requirement is published anywhere. No hour totals, partner counts or founding years accompany the Middle School program. Five of the six Community and Culture cards, including the Community Engagement Council, have no detail page behind them.',
+        text: 'The 100-hour practicum belongs to an opt-in diploma track, not a school-wide graduation requirement — and the school’s 2026–27 profile states plainly that “Service is encouraged, but not required.” No hour totals, partner counts or founding years accompany the Middle School program. Five of the six Community and Culture cards, including the Community Engagement Council, have no detail page behind them.',
       },
     ],
     sources: [
       { label: 'davidsonday.org — Diploma Distinctions', url: DIPLOMA_DISTINCTIONS },
       { label: 'Business & Civic Engagement diploma', url: BUSINESS_CIVIC },
       { label: 'Community and Culture (partners, councils)', url: COMMUNITY_CULTURE },
+      { label: 'School Profile 2026–27 (service policy)', url: PROFILE },
       { label: 'School blog — Longevity LKN', url: LONGEVITY_BLOG },
       { label: 'School blog — AFAR & the Adam Spach Rock House', url: AFAR_BLOG },
     ],

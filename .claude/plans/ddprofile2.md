@@ -1,7 +1,7 @@
 ---
 name: ddprofile2
 title: Use the rest of Davidson Day's 2026–27 School Profile — Sports figures (16 all-state, 8 Class of 2026 collegiate athletes, 200+ athletes, the SouthLake football/baseball partnership, 565 enrollment, NCISAA-verified 200 m title and runners-up), CEEB and two memberships on College Support, the GSD language rule, a confirmed "service not required" on Clubs, the international-research share on Global Exposure, and the short-play showcase on Arts
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-04
 branch: feat/dd-profile-rest
@@ -352,3 +352,43 @@ overlay topics this plan touched: `sports`, `college-support`, `student-clubs`,
   its own plan.
 
 ## Implementation notes
+
+### Phase 1 (2026-11-05)
+
+- **Step 2 verification.** All three title-type claims were checked against the
+  associations' own records (full record in the Sports source file's "Verification
+  (2026-11-05)" section and the new Arts Blumey file):
+  - **200 m title: confirmed.** It was the **girls'** 200 meters, Division 2 final, 25.55
+    (Mitchell Timing / MeetPro official results; the NCISAA track archive page links no
+    results file). The page says "the girls’ 200 meters"; no athlete is named.
+  - **5 runners-up: reconciled**, as 2 team (volleyball fall 2025, girls lacrosse 2026)
+    plus 3 individual D2 track 2nd places (girls 100 m, boys shot put, boys discus). This
+    went into the "Team state championships" item and names all five. Individual swim and
+    tennis results could not be checked; the fit is exact but not proven complete.
+  - **Best Show Blumey: not confirmed.** Davidson Day is in no Best Musical tier in 2024, 2025
+    or 2026. No Arts ledger change.
+  - **The 37 individual championships stay as they are.** The history page gives no years, so
+    whether 2026 is in it is unknown. The 2025–26 title is a separate sentence.
+- **Deviation: the Clubs service quote.** Clubs `gap` flags are deliberately never
+  rendered (`ClubsProgram.tsx` `Flags` shows only `not-a-club`), so step 5's edit alone
+  would never reach a reader. The flag edit is kept so the data stays accurate. The same
+  quote was also added to the visible Diploma Distinctions Practicum tile `detail`:
+  "Outside the distinctions, the school’s 2026–27 profile states that “Service is
+  encouraged, but not required.”" That makes **2** student-clubs units, not 1.
+- **`metrics.ts`.** The Arts block has no `redesign-research` rule, so the new
+  "Blumey Verification 2026" subtopic is folded onto `in-depth-report`, beside
+  `^provenance$`. That key is already held by Davidson Day. Sports' "School Profile" was
+  already covered by line 273. The schema doc's only changes are document counts and one
+  more phrasing on `in-depth-report`.
+- **Wording.** The `offered.subhead` addition is its own sentence ("The school counts more
+  than 200 Middle and Upper School athletes."), not a dash clause.
+- **Manifest.** The two single-topic ingests reordered `schools.json`. It was restored to
+  `HEAD` order with the two new documents inserted, and the stamp-only `.claude/docs` notes
+  were reverted.
+- **AFAR year discrepancy** (profile: Belize since 2009; Global Exposure: Cahal Pech
+  since 2006). Left alone, per the plan's decision.
+- **A lead not acted on:** Blumenthal's 2026 page appears to list **five** Davidson Day
+  *Big Fish* finalists (adding Best Actress, Malena Lessa, and Best Supporting Actor, Noah
+  Larsen), where the Arts ledger says three. Confirm in a browser before correcting.
+- **Phase 2 workload:** 16 units per locale. sports 9, college-support 3, student-clubs 2,
+  international-travel 1, the-arts 1.

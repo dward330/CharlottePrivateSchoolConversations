@@ -590,7 +590,7 @@ export const davidsonDay: CollegeSupportProgram = {
     reach: [
       '**80+** college reps hosted per year — high per-student exposure for a 184-student Upper School',
       '**~70** colleges at the co-hosted Lake Norman case-studies fair',
-      'Scoir · a current, publicly linked 4-page School Profile · NCAA eligibility resources',
+      'Scoir · a current, publicly linked 4-page School Profile · NCAA eligibility resources · CEEB 340-971',
     ],
     flags: [
       {
@@ -673,7 +673,7 @@ export const davidsonDay: CollegeSupportProgram = {
         glyph: '◆',
         items: [
           '**AFAR international field research** — authentic archaeological excavation in Belize (since 2009), Spain (2014), Greece (2017) and Portugal (2018). The Belize dig runs with the BVAR project under permit from the Belize Institute of Archaeology at Cahal Pech; the program’s history appears in peer-reviewed literature (*Heritage*, 2020). Students publish and present at international conferences.',
-          '**Global Studies Diploma** — Honors Anthropology core, four approved AP courses, a language requirement, a minimum two weeks of international field research, and a capstone paper. Critically, it *produces a separate transcript and profile sent to colleges* — an extra document in the file, not a line on the transcript.',
+          '**Global Studies Diploma** — Honors Anthropology core, four approved AP courses, the same world language in all four Upper School years, a minimum two weeks of international field research, and a capstone paper. Critically, it *produces a separate transcript and profile sent to colleges* — an extra document in the file, not a line on the transcript.',
           '**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum, quarterly Ethics Labs, an 11th-grade Research Methods Honors course, a 12th-grade Capstone Research Honors mentorship, and a public presentation at the Scholars Research Conference.',
           '**Recruiting and arts tracks** — an annual Athletic Recruitment Workshop and National Signing Day events (one recent day saw seven NLI signings); AP Studio Art plus portfolio outcomes at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
         ],
@@ -685,7 +685,7 @@ export const davidsonDay: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**The School Profile as an instrument** — the strongest lever here, and well executed. Four pages, current, publicly linked: full grading scale and weighting, GPA exclusions, the Class of 2027 GPA range, the complete course catalog with unoffered courses clearly flagged, graduation requirements, the Honor Code, and the five-year acceptance list. For a reader who has never been to Davidson, NC, it frames a student without leaning on test scores or rank — precisely the job it has to do.',
-          '**Integrity signalling** — the Honor Code is published verbatim, and the school holds the standard ethical-practice memberships: NACAC, SACAC and ACCIS, alongside NAIS, SAIS, NCAIS, NCISAA and College Board.',
+          '**Integrity signalling** — the Honor Code is published verbatim, and the school holds the standard ethical-practice memberships: NACAC, SACAC and ACCIS, alongside SACS, SAIS, NAIS, NCAIS, NCISAA, the Educational Records Bureau (ERB) and College Board.',
           '**Regional co-hosting** — each spring Davidson Day co-hosts the Lake Norman Area College Admissions Case Studies Program and College Fair with Cannon School, putting families inside a mock admissions committee reading real (fictionalised) files.',
           '**Proximity, not partnership** — Davidson College is one mile away and appears on the acceptance list, but no dual-enrollment, course-access or preferred-admission arrangement is published. The proximity is a fact, not a documented pipeline.',
         ],
@@ -696,7 +696,7 @@ export const davidsonDay: CollegeSupportProgram = {
     flags: [],
     sources: [
       { label: 'davidsonday.org — Global Studies Diploma', url: 'https://www.davidsonday.org/academics/diploma-distinctions/global-studies' },
-      { label: 'School Profile 2026–27 (AFAR, Honor Code, memberships)', url: PROFILE },
+      { label: 'School Profile 2026–27 (AFAR, GSD, Honor Code, memberships)', url: PROFILE },
       { label: 'Upper School Course Catalog 2026–27 (AP Studio Art)', url: CATALOG },
       { label: 'AFAR — program history', url: 'https://www.goafar.org/history' },
       { label: 'Heritage (2020) — peer-reviewed BVAR public-engagement history', url: 'https://www.mdpi.com/2571-9408/3/3/40' },

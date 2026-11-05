@@ -34,6 +34,8 @@ const B_2026 = `${BLOG}/four-students-three-countries-one-summer-of-fieldwork`
 const B_2024 = `${BLOG}/from-excavations-to-presentations-davidson-days-global-studies-diploma-and-afar-program`
 const B_SPACH = `${BLOG}/making-history-uncovering-history-davidson-day-afar-and-the-adam-spach-rock-house`
 const B_DD = `${BLOG}/developing-college-work-and-world-ready-graduates-diploma-distinctions`
+const PROFILE =
+  'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
 const MS = `${DDS}/academics/middle-school`
 const US = `${DDS}/academics/upper-school`
 const CC = `${DDS}/student-life/community-and-culture`
@@ -62,7 +64,7 @@ export const davidsonDay: InternationalTravelProgram = {
     strong:
       "Davidson Day's travel is AFAR, the American Foreign Academic Research archaeology field school, which sends students each summer to dig alongside professional archaeologists in Spain, Portugal and Belize, and to present their research at university conferences.",
     muted:
-      'It pairs with the Global Studies Diploma Distinction, an Upper School pathway offered since 2021, in which most students take part in AFAR.',
+      "It pairs with the Global Studies Diploma Distinction, an Upper School pathway offered since 2021, in which most students take part in AFAR. The school's 2026–27 profile says over a quarter of its students take part in international research.",
   },
 
   stats: [
@@ -217,6 +219,7 @@ export const davidsonDay: InternationalTravelProgram = {
       { label: 'goafar.org — Spain', url: AFAR_ES },
       { label: 'goafar.org — Portugal', url: AFAR_PT },
       { label: 'goafar.org — Belize', url: AFAR_BZ },
+      { label: 'davidsonday.org — School Profile 2026–27', url: PROFILE },
     ],
   },
 

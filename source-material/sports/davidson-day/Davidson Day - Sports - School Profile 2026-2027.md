@@ -60,3 +60,56 @@ File: `src/data/sportsPrograms/davidson-day.ts`.
 | 200+ student athletes (MS & US) | `offered`: "~90% of grades 5–12 participate" | **new figure**; consistent |
 | Football and baseball "in partnership with SouthLake Christian Academy" | `offered` lists Football (V, MS) and Baseball (V, MS) with no mention | **new fact** |
 | Total enrollment 565 (page 2, "School Information") | "a 550-student school" (`pipeline.headline`), "about 550 students" (`honors.subhead`), "~550-student" (file header) | **update** to the profile figure |
+
+## Verification (2026-11-05)
+
+Done during `/implement ddprofile2`, against the association's official meet timing pages
+and the NCISAA archive.
+
+### Source URLs (verification)
+
+- NCISAA Division 2 Track and Field Championships, Raleigh, 5/15–5/16/2026 (MeetPro by
+  DirectAthletics, Mitchell Timing; the official results for the division Davidson Day ran in):
+  http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_2_Track_and_Field_Championships/index.html
+  - Girls 200 Meters (event #4): http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_2_Track_and_Field_Championships/results_15.html
+  - Girls 100 Meters (event #2): http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_2_Track_and_Field_Championships/results_14.html
+  - Boys Shot Put (event #33): http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_2_Track_and_Field_Championships/results_27.html
+  - Boys Discus (event #35): http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_2_Track_and_Field_Championships/results_28.html
+- NCISAA volleyball bracket, 2025–26: https://archives.ncisaa.org/index.php?sport=12&years=2025-2026
+- NCISAA girls lacrosse bracket, 2025–26: https://archives.ncisaa.org/index.php?sport=19&years=2025-2026
+- The NCISAA track archive page for 2025–26 (https://archives.ncisaa.org/index.php?sport=22&years=2025-2026)
+  carries only logos and sponsor banners, with no results link. The timing site above was
+  found through its start list in a web search.
+
+### 200 m title: CONFIRMED
+
+Girls 200 Meters final, Division 2: 1st, Alena Rollinson (JR), Davidson Day, 25.55 (wind
+−0.3). She also had the fastest prelim (25.51). This is the **girls'** 200 meters, so the app
+says that. The athlete is not named in app data (plan decision).
+
+### 5 state runners-up: RECONCILED (2 team + 3 individual)
+
+| # | Event | Result | Source |
+|---|---|---|---|
+| 1 | Volleyball (team), fall 2025 | state runner-up | Cup ledger `runnerUpYears: [… 2025]`; volleyball bracket |
+| 2 | Girls lacrosse (team), spring 2026 | state runner-up | Cup ledger `runnerUpYears: [2026]`; girls lacrosse bracket |
+| 3 | Girls 100 Meters, D2 final | 2nd, Alena Rollinson (JR), 12.60 | results_14 |
+| 4 | Boys Shot Put, D2 final | 2nd, Parker Smith (SR), 45' 10" | results_27 |
+| 5 | Boys Discus, D2 final | 2nd, Sean Hayes (SR), 146' 10" | results_28 |
+
+That is exactly five, matching the profile. **Not checked:** individual swimming results
+(the 2025–26 swim archive links only a program, not a results file) and any individual
+tennis tournament. The winter Cup term total (37.5) is one basketball semifinal loss, so
+Davidson Day scored no swim team points. A 2nd-place individual swim would make the count
+six rather than five, so the fit is strong, though not proven to be complete.
+
+### "37 individual state championships": not changed
+
+The history page gives no years, so whether its 37 already includes the 2026 200 m title
+cannot be determined. The app keeps the 37 and adds the 2025–26 title as a separate
+sentence.
+
+### Other Davidson Day finishes in the D2 meet (context, not used)
+
+Girls 4×100 relay 5th (52.07); boys 1600 3rd (Haponik, 4:26.95); boys 3200 4th
+(Haponik, 9:35.69); boys 800 5th (Haponik, 2:00.99); boys 300 m hurdles 8th (Carnaggio, 44.80).

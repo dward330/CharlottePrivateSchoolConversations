@@ -43,6 +43,8 @@ import type { ArtsProgram } from '../artsProgram.ts'
 const DD_ARTS = 'https://www.davidsonday.org/student-life/arts'
 const DD_CATALOG =
   'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog'
+const DD_PROFILE =
+  'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
 
 export const davidsonDay: ArtsProgram = {
   ladder: {
@@ -90,7 +92,7 @@ export const davidsonDay: ArtsProgram = {
     enrichment: [
       {
         label: 'Improv & Musical Review',
-        text: 'The Theatre Performance Ensemble takes part in Davidson Day productions, an Improv Comedy show, a Musical Review, and collaborations with local theatre companies — though the partner companies are not named.',
+        text: 'The Theatre Performance Ensemble takes part in Davidson Day productions, an Improv Comedy show, a Musical Review, a Student Written and Directed Short Play Showcase, and collaborations with local theatre companies — though the partner companies are not named.',
       },
       {
         label: 'The performance venue',
@@ -108,6 +110,7 @@ export const davidsonDay: ArtsProgram = {
     sources: [
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
+      { label: 'School Profile 2026–27 (Short Play Showcase)', url: DD_PROFILE },
     ],
   },
 

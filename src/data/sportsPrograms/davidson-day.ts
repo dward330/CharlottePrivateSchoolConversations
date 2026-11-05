@@ -6,7 +6,7 @@
 // Wells Fargo Cup Standings 2020-2026.md in the same folder.
 //
 // SIX of eight cards render — the fewest in the set, and deliberately so.
-// Davidson Day is a ~550-student school and two areas are genuinely empty
+// Davidson Day is a ~565-student school (2026–27 School Profile) and two areas are genuinely empty
 // rather than under-researched:
 //
 //   1g Facilities & Athlete Care — OMITTED. Two venue names exist (Yates Gym,
@@ -38,6 +38,9 @@ const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
 const ARCHIVE = 'https://archives.ncisaa.org/index.php?sport='
 const SWIM = 'https://admin.ncisaa.org/uploads/SWIMMING/'
 const XC = 'http://results.tfmeetpro.com/Mitchell_Timing/'
+const TRACK_26 = `${XC}NCISAA_Division_2_Track_and_Field_Championships/`
+const PROFILE =
+  'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
 
 export const davidsonDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -45,7 +48,7 @@ export const davidsonDay: SportsProgram = {
     headline:
       '35 teams across 13 sports on a 15-acre campus, with about 90% of students in grades 5–12 playing.',
     subhead:
-      'Athletics start in grade 5 here — earlier than any other school in this comparison — and the school fields rowing on Lake Davidson.',
+      'Athletics start in grade 5 here — earlier than any other school in this comparison — and the school fields rowing on Lake Davidson. The school counts more than 200 Middle and Upper School athletes.',
     stats: [
       { value: '13', label: 'distinct sports' },
       { value: '35', label: 'teams across V · JV · MS' },
@@ -91,9 +94,10 @@ export const davidsonDay: SportsProgram = {
       },
     ],
     footnote:
-      'Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse — MaxPreps lists some of these, but the school’s own teams page does not, and the school’s page is treated as authoritative. Eight of the campus’s fifteen acres are given to fields and a wooded park with waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program.',
+      'Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse — MaxPreps lists some of these, but the school’s own teams page does not, and the school’s page is treated as authoritative. Eight of the campus’s fifteen acres are given to fields and a wooded park with waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program. Football and baseball are fielded in partnership with SouthLake Christian Academy, per the 2026–27 School Profile.',
     sources: [
       { label: 'davidsonday.org — Patriot Teams', url: 'https://www.davidsonday.org/athletics/patriot-teams' },
+      { label: 'School Profile 2026–27 (athlete count, SouthLake partnership)', url: PROFILE },
       { label: 'davidsonday.org — Athletics', url: ATHLETICS },
       { label: 'davidsonday.org — Our Campus', url: 'https://www.davidsonday.org/about/our-campus' },
     ],
@@ -270,7 +274,7 @@ export const davidsonDay: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      'Ten documented commitments across 2024–26, nine of them Division I and three Power 4 — a remarkably high conversion rate for a 550-student school.',
+      'Ten documented commitments across 2024–26, nine of them Division I and three Power 4 — a remarkably high conversion rate for a 565-student school.',
     subhead:
       'Basketball drives it: four D1 commits including signees to North Carolina, Clemson and Dayton.',
     funnel: [
@@ -292,7 +296,7 @@ export const davidsonDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'These are documented floors, not a census. The school published a full seven-athlete list for the class of 2025 but no equivalent for 2024 or 2026, and its official athletics site is dead — so non-basketball commitments in those years are almost certainly missing. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
+      'These are documented floors, not a census. The school published a full seven-athlete list for the class of 2025 but no named list for 2024 or 2026, though its 2026–27 School Profile counts 8 collegiate athletes in the Class of 2026, two of whom are documented here. Its official athletics site is dead — so non-basketball commitments in those years are almost certainly missing. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
     sportBars: [
       { sport: 'Basketball', count: 4, width: 1, p4Width: 0.5 },
       { sport: 'Volleyball', count: 2, width: 0.5 },
@@ -320,7 +324,7 @@ export const davidsonDay: SportsProgram = {
       { cls: "'24", name: 'Mason Smith', sport: 'Boys Basketball', college: 'Mercer', conf: 'Southern', level: 'D1' },
     ],
     rosterNote:
-      'The classes of 2024 and 2026 are under-represented because the school publishes no signing list for those years and its athletics website is offline. Level labels and conferences were added by the researcher from each college’s NCAA status.',
+      'The classes of 2024 and 2026 are under-represented because the school publishes no signing list for those years and its athletics website is offline. Level labels and conferences were added by the researcher from each college’s NCAA status. The school’s 2026–27 profile counts 8 collegiate athletes in the Class of 2026 without naming them.',
     sources: [
       {
         label: 'davidsonday.org — seven athletes sign letters of intent',
@@ -336,6 +340,7 @@ export const davidsonDay: SportsProgram = {
         label: '247Sports Composite — 2025 North Carolina boys basketball rankings',
         url: 'https://247sports.com/season/2025-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
       },
+      { label: 'School Profile 2026–27 (Class of 2026 collegiate athletes)', url: PROFILE },
     ],
   },
 
@@ -348,7 +353,7 @@ export const davidsonDay: SportsProgram = {
     // attended, so surfacing the denial would raise a question nobody asked and
     // put another school's athlete on Davidson Day's page.
     subhead:
-      'Unusually wide professional reach for a school of about 550 students — across three sports and NASCAR.',
+      'Unusually wide professional reach for a school of about 565 students — across three sports and NASCAR.',
     pros: [
       {
         kicker: "NBA · Class of '20",
@@ -387,17 +392,17 @@ export const davidsonDay: SportsProgram = {
       },
       {
         label: 'Individual state champions',
-        text: '37 individual state championships. Melissa Zammitti ’17 alone won ten across distance events in three varsity years; Matt Doty and Logan Zucker dominated the pool.',
+        text: '37 individual state championships. Melissa Zammitti ’17 alone won ten across distance events in three varsity years; Matt Doty and Logan Zucker dominated the pool. In 2025–26 the school added an individual state title in the girls’ 200 meters.',
         tag: 'Statewide',
       },
       {
         label: 'Team state championships',
-        text: '37 team titles across 13 programs — girls soccer leads with six, and the school has won the NCISAA Wells Fargo Cup twice, in 2019–20 and 2023–24.',
+        text: '37 team titles across 13 programs — girls soccer leads with six, and the school has won the NCISAA Wells Fargo Cup twice, in 2019–20 and 2023–24. In 2025–26 it had five NCISAA state runners-up: volleyball and girls lacrosse, plus the girls’ 100 meters, boys shot put and boys discus in track and field.',
         tag: 'Program-wide',
       },
       {
         label: 'All-state selections',
-        text: 'More than 150 NCISAA All-State athletes all-time. Seven Patriots earned spring 2026 all-state honors across girls lacrosse, girls soccer and boys tennis.',
+        text: 'More than 150 NCISAA All-State athletes all-time. Seven Patriots earned spring 2026 all-state honors across girls lacrosse, girls soccer and boys tennis. The school’s 2026–27 profile counts 16 NCISAA all-state selections across 2025–26.',
         tag: 'Statewide',
         tagStyle: 'outline',
       },
@@ -410,6 +415,10 @@ export const davidsonDay: SportsProgram = {
     ],
     sources: [
       { label: 'davidsonday.org — History & Achievements', url: HISTORY },
+      { label: 'School Profile 2026–27 (2025–26 Patriots Review)', url: PROFILE },
+      { label: 'NCISAA Division 2 track and field results, 2026', url: `${TRACK_26}index.html` },
+      { label: 'NCISAA volleyball bracket, 2025–26', url: `${ARCHIVE}12&years=2025-2026` },
+      { label: 'NCISAA girls lacrosse bracket, 2025–26', url: `${ARCHIVE}19&years=2025-2026` },
       {
         label: 'davidsonday.org — Patriot Athletic Hall of Fame',
         url: 'https://www.davidsonday.org/athletics/patriot-athletic-hall-of-fame',
