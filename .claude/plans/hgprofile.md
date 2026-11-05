@@ -655,3 +655,22 @@ record is in `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-11-0
   does not touch. `check:live` now reports 114 stale stamps per locale (Phase 2). Real
   Chrome: every band, plus the TK/K5, 9–12 and international printable checklists, shows the
   new figures and none of `$250` / SLEP / TOEFL Jr / Skype.
+
+### Course Offerings: Middle School added, Upper School re-verified (user request, 2026-11-04)
+
+- **Middle School division added** from the 2026–2027 Middle School Course Selection Catalog.
+  The user supplied the PDF. It is identical to the Heyzine PDF behind
+  `https://hgchristian.org/ms-courses` (modified 2026-10-29).
+  - 41 courses in 9 departments: Bible, English, History, Math, Science, plus the catalog's
+    four enrichment categories.
+  - Transcribed verbatim in `… - Course Offerings - Middle School Course Selection Catalog
+    2026-2027.md`.
+  - This is an existing card type (a division), so no new UX. It is **appended at
+    `divisions[1]`** because the overlays key on index paths. `check:live` shows 0 stale
+    course-offerings entries, and in `es` the Upper School still renders translated.
+  - The MS strings are new units for Phase 2.
+- **Upper School re-verified at the user's request** (`/course-selection-guide`, a flipbook
+  read through its underlying PDF in real Chrome). It is the same 92-page file, last
+  modified 2026-04-22, so it predates the 2026-08-17 transcription. All 117 titles and every
+  description match. Only `sourceUrl` changed. Compare's `us-courses` (`'112'`, Upper School
+  only) is unaffected.
