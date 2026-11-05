@@ -1,11 +1,11 @@
 ---
 name: hgprofile
 title: Refresh Hickory Grove Christian from its 2026–27 High School Profile — merge the Class of 2026 list into the 2023 + 2025 list (158 rows), the new 65/25/10 attendance split, May 2026 AP, Class of 2026 ACT/SAT means, 2020–26 recognition and AP Scholars, 287 students, plus Sports (15 varsity teams, verified relay/event titles); Tuskegee added to the HBCU master
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-04
 branch: feat/hg-profile-2627
-prs: []
+prs: [423]
 ---
 
 # Refresh Hickory Grove Christian from its 2026–27 High School Profile
@@ -674,3 +674,52 @@ record is in `Hickory Grove Christian - Admissions - Live-Site Refresh 2026-11-0
   modified 2026-04-22, so it predates the 2026-08-17 transcription. All 117 titles and every
   description match. Only `sourceUrl` changed. Compare's `us-courses` (`'112'`, Upper School
   only) is unaffected.
+
+### Phase 2 (locales), 2026-11-04
+
+**The user approved the English on 2026-11-04.** Phase 2 ran in a fresh session on the same
+branch and shipped in [#423](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/423).
+
+- **Scope was wider than the plan's four topics.** The admissions refresh and the Middle
+  School catalog added `course-offerings` (78 new units) and `learning-support` (1). The
+  total was 197 units per locale across six topics.
+- **Method:** `i18n_splice_work.mjs` per locale (join by stamp), then
+  `i18n_build_overlay.mjs`.
+  - 19 units differed from their predecessor only in figures. Those were carried from the
+    old `t` by token substitution.
+  - One unit, `b0c4a877`, broke the naive substitution: `$500` is both the old fee and
+    the deposit, and only the fee became `$550`. It was redone by position and checked in
+    all nine locales. **A token that changes at some positions and not others cannot be
+    carried by a global replace.**
+- **Branded MS course titles stay English in every locale:**
+  - `Building on the Rock`, `Walking in Truth`, `Light Bearers`
+  - `She/He Runs With Purpose`, `Bible Sketch`, `Praise Team`
+  - `Navigating Middle School…`, `Becoming a Young Man/Woman of God`, `Students on Mission`
+
+  Generic titles (`6th Grade English`, `Sewing`) are translated, as the Upper School titles
+  already were.
+- **Role wording is gender-neutral where the language allows it.** Examples: es "la
+  dirección del programa y la dirección del centro", fr "la direction…", it "la
+  presidenza", ar "إدارة البرنامج". `838e1a8a` keeps each locale's previously reviewed form.
+- **A stricter check than the repo has, run as a scratch script:** every digit token in the
+  English must appear verbatim in each translation. It caught three re-typings that
+  `check_figures.py` and `check:sepdrift` both pass:
+  - `11/17/25` written `17/11/25`
+  - `4 and 6 p.m.` written `16 h, 18 h` in fr and it (the repo keeps `4:00 p.m.` verbatim)
+  - spelled-out counts in ar
+
+  All were fixed. **Worth promoting to a repo check:** neither existing checker compares
+  digit tokens as sets.
+- **Verification:**
+  - `npm run build` is green.
+  - `check:runtime`, `check:live`, `sepdrift` ×9, `check_figures.py` ×6 topics ×9, dates,
+    moneytext, currency, `check:fr`, `check:hi`, `check:fa` and `check:bidi` are clean.
+  - `i18n:leaks`: the one HG unit from this change that was left English (the es HBCU bucket
+    note) is fixed. Every other HG flag is on a path this change did not touch.
+  - Real Chrome, es + fa, every card open: all figures present, no new English left.
+    `2025–2026` sits in an LRI isolate and reads left-to-right in fa and ar.
+- **Pre-existing, left alone:**
+  - `check:money` fails on the two Wells Fargo Cup tiles in `SportsProgram.tsx`.
+  - `check_bn_numerals.mjs` flags 3 Bangla-digit strings that are already on `main`
+    (`course-offerings` ×2, `metric-values` ×1).
+
