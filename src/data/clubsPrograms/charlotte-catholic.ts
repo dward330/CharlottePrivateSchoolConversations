@@ -8,8 +8,9 @@
 // parse yields 78 title blocks, two of which ("Links & Resources", "Stay
 // Connected") are sidebar furniture rather than clubs, giving 76.
 //
-// Worth knowing: the school PROFILE says CCHS "offers over 50 club
-// opportunities each year" — a conservative round number in prose. The
+// Worth knowing: the 2025-26 school PROFILE says CCHS "offers over 50 club
+// opportunities each year" — a conservative round number in prose. The 2026-27
+// edition does not reprint the figure, so the quote stays cited to 2025-26. The
 // directory is the countable source and it enumerates 76, which is what the
 // Compare row uses.
 //
@@ -25,7 +26,9 @@ import type { ClubsProgram } from '../clubsProgram.ts'
 const CLUBS = 'https://www.charlottecatholic.org/departments/campus-ministry/clubs'
 const HANDBOOK =
   'https://resources.finalsite.net/images/v1753815058/charlottecatholicorg/f73esbbzrom3skvql13w/25-26StudentHandbookFinal.pdf'
-const PROFILE =
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf'
+const PROFILE_2526 =
   'https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf'
 const GUIDE =
   'https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf'
@@ -78,7 +81,7 @@ export const charlotteCatholic: ClubsProgram = {
     flags: [
       {
         kind: 'count',
-        text: 'The school profile says "over 50 club opportunities"; the clubs directory enumerates 76. Both are the school’s own figures. The directory is the countable one and is what this app reports.',
+        text: 'The 2025-26 school profile says "over 50 club opportunities"; the clubs directory enumerates 76. Both are the school’s own figures. The directory is the countable one and is what this app reports.',
       },
       {
         kind: 'gap',
@@ -87,7 +90,8 @@ export const charlotteCatholic: ClubsProgram = {
     ],
     sources: [
       { label: 'charlottecatholic.org — Clubs directory', url: CLUBS },
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
+      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE_2526 },
     ],
   },
 
@@ -118,7 +122,7 @@ export const charlotteCatholic: ClubsProgram = {
         name: 'Whole-cohort by construction',
         detail:
           'The school profile reports 100% community-service participation. Because service is a graduation requirement rather than an opt-in programme, that figure is structurally true — it is not a measure of enthusiasm.',
-        source: { label: 'School Profile 2025-2026 (PDF)', url: PROFILE },
+        source: { label: 'School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       },
       {
         value: '23',
@@ -181,7 +185,7 @@ export const charlotteCatholic: ClubsProgram = {
       },
     ],
     sources: [
-      { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
+      { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'charlottecatholic.org — Clubs directory', url: CLUBS },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
     ],

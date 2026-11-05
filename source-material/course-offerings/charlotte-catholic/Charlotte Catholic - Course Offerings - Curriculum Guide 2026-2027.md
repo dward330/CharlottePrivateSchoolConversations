@@ -1,5 +1,29 @@
 # Charlotte Catholic High School — Course Offerings (Curriculum Guide 2026-2027)
 
+> **Correction 2026-11-05.** The original extraction counted **195** entries; the true count
+> is **199 entries, 26 AP, 43 Honors, 18 Advanced = 87 advanced entries**. Re-censusing the
+> guide by course **header** (prompted by the 2026-27 School Profile's course list) found four
+> entries the single-code header regex missed:
+>
+> | Guide entry | Code(s) | Department | Tag | Why it was missed |
+> | --- | --- | --- | --- | --- |
+> | Academic Skills 9-10, 11-12 | `508, 509` | Interdisciplinary Studies | — | two codes on one header |
+> | Advanced Placement Computer Science Principles | `146` | Interdisciplinary Studies | AP | code printed on the title line with one space |
+> | Advanced Placement Microeconomics & Macroeconomics | `953/954` | Social Studies | AP | two codes on one header |
+> | Dual Enrollment: Art Appreciation | `CPCC: ART 111` (local `977`) | Dual Enrollment | — | header printed with its spaces dropped (`DualEnrollment:ArtAppreciation CPCCART111`) |
+>
+> Each header counts as **one** entry, even where it carries two codes. Five titles also wrapped
+> onto a second line that the extraction dropped; they are completed below from the guide's
+> own second line: 233 *Advanced Placement English 11: English Language and Composition*,
+> 243 *Advanced Placement English 12: English Literature and Composition*, 244 *Advanced
+> Placement English 12: English Language and Composition*, 444 *Advanced Placement Spanish V:
+> Language and Culture*, 446 *Advanced Placement Spanish VI: Literature and Culture*.
+>
+> **Dual Enrollment** is **three** CPCC courses, not two, and they are **not** taken
+> off-campus: each is "taken asynchronously through Central Piedmont Community College Dual
+> Enrollment College Transfer Pathway. Students are required to follow the CPCC calendar, but
+> will meet at Charlotte Catholic for one semester." The counts and lists below are corrected.
+
 **Provenance**
 
 - **Compiled by:** Claude Code deep research pass (`/implement add-charlotte-catholic`).
@@ -9,7 +33,7 @@
   summarizer misreports it as binary/scanned, so `pdftotext` is the only path used here.
   Every course below was machine-extracted by matching the guide's own two-column course
   header format (course title at left, 3-digit course code at right, or a `CPCC:` code for
-  dual enrollment), then counted. **The extraction yields exactly 195 course entries**,
+  dual enrollment), then counted. **The extraction yielded 195 course entries (199 after the 2026-11-05 correction above)**,
   which matches the department-by-department totals independently.
 - **School:** Charlotte Catholic High School, grades **9–12 only**. Part of Mecklenburg
   Area Catholic Schools (MACS), Diocese of Charlotte.
@@ -29,18 +53,18 @@
 
 | Figure | Value |
 | --- | --- |
-| **Total courses** | **195** (193 coded + 2 `CPCC:` dual-enrollment) |
+| **Total courses** | **199** (196 coded headers + 3 `CPCC:` dual-enrollment; corrected 2026-11-05 from 195) |
 | **Departments** | **11 teaching departments + Dual Enrollment = 12 guide sections** (see the departments note below) |
-| **AP courses** | **24** |
+| **AP courses** | **26** (corrected from 24) |
 | **Honors courses** | **43** |
 | **Advanced courses** | **18** |
-| **Advanced total (AP + Honors + Advanced)** | **85** |
+| **Advanced total (AP + Honors + Advanced)** | **87** (corrected from 85) |
 | Prior-year total (2025-2026 guide) | **183** — a +12 year-over-year increase |
 
 ### ⚠️ The department count is 11, and the spread is real
 
 The guide's table of contents lists **12 sections**, but one of them is **Dual Enrollment**
-— two CPCC courses taken off-campus for college credit, not a CCHS teaching department.
+— three CPCC courses taken through Central Piedmont Community College for college credit (corrected 2026-11-05 from "two … taken off-campus"), not a CCHS teaching department.
 The school's site navigation lists **10**, because it folds **Options Program/Pathways** in
 with student services rather than listing it as an academic department. **This record ships
 11**: the 12 guide sections minus Dual Enrollment. Each of the 11 is a department that
@@ -85,17 +109,18 @@ are correct and are not in conflict.
 - **SASP English 10: Quest Seminar** — `074`
 - **English 11** — `232`
 - **Honors English 11** — `231`
-- **Advanced Placement English 11** — `233`
+- **Advanced Placement English 11: English Language and Composition** — `233`
 - **English 12** — `242`
 - **Honors English 12** — `241`
-- **Advanced Placement English 12** — `243`
-- **Advanced Placement English 12** — `244`
+- **Advanced Placement English 12: English Literature and Composition** — `243`
+- **Advanced Placement English 12: English Language and Composition** — `244`
 - **Journalism** — `234`
 - **Yearbook** — `235`
 - **Honors Social Issues in Literature** — `251`
 
-### Interdisciplinary Studies — 18 courses
+### Interdisciplinary Studies — 20 courses
 
+- **Academic Skills 9-10, 11-12** — `508, 509` *(added 2026-11-05)*
 - **Guided Academic Support** — `511`
 - **Assistants** — `573`
 - **Study Hall** — `100`
@@ -108,6 +133,7 @@ are correct and are not in conflict.
 - **Marketing Principles** — `122`
 - **Introduction to Accounting** — `135`
 - **Advanced Placement Computer Science A** — `144`
+- **Advanced Placement Computer Science Principles** — `146` *(added 2026-11-05)*
 - **Advanced Placement Cybersecurity Kickstart** — `147`
 - **Introduction to STEM** — `579`
 - **Introduction to Engineering** — `576`
@@ -190,7 +216,7 @@ are correct and are not in conflict.
 - **Forensic Science** — `850`
 - **Biotechnology** — `826`
 
-### Social Studies — 16 courses
+### Social Studies — 17 courses
 
 - **World History** — `921`
 - **Advanced World History** — `922`
@@ -207,6 +233,7 @@ are correct and are not in conflict.
 - **Economics** — `943`
 - **Honors Economics** — `950`
 - **Advanced Placement Microeconomics** — `948`
+- **Advanced Placement Microeconomics & Macroeconomics** — `953/954` *(added 2026-11-05)*
 - **Advanced Placement European History** — `955`
 
 ### Theology — 14 courses
@@ -296,20 +323,22 @@ are correct and are not in conflict.
 - **Advanced Spanish III - Native Speaker** — `438`
 - **Honors Spanish III** — `434`
 - **Honors Spanish IV** — `443`
-- **Advanced Placement Spanish V:** — `444`
-- **Advanced Placement Spanish VI:** — `446`
+- **Advanced Placement Spanish V: Language and Culture** — `444`
+- **Advanced Placement Spanish VI: Literature and Culture** — `446`
 
-### Dual Enrollment — 2 courses
+### Dual Enrollment — 3 courses
 
 - **Dual Enrollment: Public Speaking** — `CPCC: COM 231`
 - **Dual Enrollment: Introduction to Sociology** — `CPCC: SOC 210`
+- **Dual Enrollment: Art Appreciation** — `CPCC: ART 111` *(added 2026-11-05)*
 
-## The 24 AP courses
+## The 26 AP courses
 
-- **Advanced Placement English 11** — `233` (English)
-- **Advanced Placement English 12** — `243` (English)
-- **Advanced Placement English 12** — `244` (English)
+- **Advanced Placement English 11: English Language and Composition** — `233` (English)
+- **Advanced Placement English 12: English Literature and Composition** — `243` (English)
+- **Advanced Placement English 12: English Language and Composition** — `244` (English)
 - **Advanced Placement Computer Science A** — `144` (Interdisciplinary Studies)
+- **Advanced Placement Computer Science Principles** — `146` (Interdisciplinary Studies)
 - **Advanced Placement Cybersecurity Kickstart** — `147` (Interdisciplinary Studies)
 - **Advanced Placement Statistics** — `646` (Mathematics)
 - **Advanced Placement Calculus AB** — `645` (Mathematics)
@@ -323,13 +352,14 @@ are correct and are not in conflict.
 - **Advanced Placement Psychology** — `962` (Social Studies)
 - **Advanced Placement United States Government** — `944` (Social Studies)
 - **Advanced Placement Microeconomics** — `948` (Social Studies)
+- **Advanced Placement Microeconomics & Macroeconomics** — `953/954` (Social Studies)
 - **Advanced Placement European History** — `955` (Social Studies)
 - **AP Studio Art** — `358` (Visual and Performing Arts)
 - **Advanced Placement French V** — `445` (World Languages)
 - **Advanced Placement German V** — `451` (World Languages)
 - **Advanced Placement Latin** — `448` (World Languages)
-- **Advanced Placement Spanish V:** — `444` (World Languages)
-- **Advanced Placement Spanish VI:** — `446` (World Languages)
+- **Advanced Placement Spanish V: Language and Culture** — `444` (World Languages)
+- **Advanced Placement Spanish VI: Literature and Culture** — `446` (World Languages)
 
 ## The 43 Honors courses
 

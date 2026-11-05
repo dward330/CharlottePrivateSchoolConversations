@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Sports
-> Distilled from 3 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-02.
+> Distilled from 3 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-05.
 **Documents:** 247Sports Recruiting Rankings, Program Championships and College Commitments, Wells Fargo Cup Standings 2020-2026
 
 
@@ -129,6 +129,14 @@ genuine**: its `CHARLOTTE CATHOLIC:` heading is bounded by `CARMEL CHRISTIAN` ab
 `CHARLOTTE CHRISTIAN` below, verified by re-reading the raw page.
 
 ## Program scale and championships
+
+> **Update 2026-11-05 — School Profile 2026-2027.** The new edition
+> (https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf)
+> gives **79** state championships and **68** state runner-up finishes since 2000 (up from
+> 74 / 65), and says "nine" Wachovia/Wells Fargo Cups. The NCHSAA all-time list's **10**
+> still stands for the Cup count. The conference, the 1-of-4 parochial line and "Over
+> 1,000" college athletes are restated unchanged. Full transcription:
+> `source-material/college-support/charlotte-catholic/Charlotte Catholic - College Support - School Profile 2026-2027.md`.
 
 | Figure | Value | Source |
 | --- | --- | --- |
@@ -493,6 +501,7 @@ Every row a school on Charlotte Catholic's table needs in `CUP_RECORDS`, all NCH
 - https://catholicnewsherald.com/94-news/schools/9839-15-cchs-student-athletes-commit-to-college-sports
 - https://goduke.com/sports/baseball/roster
 - https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf
+- https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf
 - https://sports.yahoo.com/national-signing-day-where-charlotte-111500239.html
 - https://www.highschoolot.com/story/after-points-correction-lake-norman-charter-wins-the-2024-25-wells-fargo-cup-in-3a/22116146/
 - https://www.highschoolot.com/story/cardinal-gibbons-north-lincoln-seaforth-ctk-win-2024-25-wells-fargo-cups/22105058/

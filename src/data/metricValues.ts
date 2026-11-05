@@ -136,7 +136,7 @@ export type ValueMetric = {
 const ACCEPTANCE_WINDOWS: Record<string, string> = {
   cannon: '(2022–2026)',
   'carmel-christian': '(years not published)',
-  'charlotte-catholic': '(2023–2025)',
+  'charlotte-catholic': '(2023–2026)',
   'charlotte-christian': '(2023–2026)',
   'charlotte-country-day': '(2023–2026)',
   'charlotte-latin': '(2023–2026)',
@@ -163,7 +163,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '104', // counted from the 11 course-offering sections of the 2026-27 catalog
       'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
-      'charlotte-catholic': '195', // counted from the 2026-2027 Curriculum Guide by course code — 193 coded courses + 2 CPCC dual-enrollment; prior-year guide had 183
+      'charlotte-catholic': '199', // counted from the 2026-2027 Curriculum Guide by course HEADER — 196 coded headers + 3 CPCC dual-enrollment (Academic Skills 508/509 and AP Micro & Macro 953/954 are one header each); prior-year guide had 183
       'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
       'charlotte-latin': '129', // counted from the live Upper School course-offerings page
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
@@ -177,7 +177,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Counted by course code from the 2026-2027 Curriculum Guide: 193 coded courses plus 2 CPCC dual-enrollment entries. Two AP English 12 sections carry distinct codes (243, 244) and count as the two catalog entries they are; the prior-year guide listed 183.',
+          'Counted by course entry from the 2026-2027 Curriculum Guide: 196 coded entries plus 3 CPCC dual-enrollment entries. An entry listed under two codes (Academic Skills, 508 and 509; AP Microeconomics & Macroeconomics, 953/954) counts once, while the two AP English 12 courses carry their own codes (243, 244) and count as the two entries they are; the prior-year guide listed 183.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -218,7 +218,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '14 AP + 13 AT', // 2026-27 catalog count; the 2026-27 profile gives the same 27 split 15 AP + 12 AT
       'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
-      'charlotte-catholic': '24 AP', // 24 AP + 43 Honors + 18 Advanced = 85 advanced entries, counted from the 2026-2027 guide; AP entry is competitive and requires a per-course application
+      'charlotte-catholic': '26 AP', // 26 AP + 43 Honors + 18 Advanced = 87 advanced entries, counted from the 2026-2027 guide; AP entry is competitive and requires a per-course application
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
       'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
       'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
@@ -232,7 +232,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'The cell shows the 24 AP courses; the guide also lists 43 Honors and 18 Advanced courses, 85 advanced entries in total. AP is not open enrollment here — students submit an application for each AP course.',
+          'The cell shows the 26 AP courses; the guide also lists 43 Honors and 18 Advanced courses, 87 advanced entries in total. AP is not open enrollment here — students submit an application for each AP course.',
       },
       cannon: {
         kind: 'scope',
@@ -268,7 +268,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '8', // English, Arts, Math, Science, Social Studies, World Languages, Innovation/Enterprise, PE
       'charlotte-christian': '11', // counting Fine Arts as one department with four sub-areas
-      'charlotte-catholic': '11', // the guide's 12 TOC sections minus Dual Enrollment (2 CPCC courses taken off-campus). Site nav lists 10, folding Options/Pathways into student services
+      'charlotte-catholic': '11', // the guide's 12 TOC sections minus Dual Enrollment (3 CPCC courses, taken asynchronously for college credit). Site nav lists 10, folding Options/Pathways into student services
       'charlotte-country-day': '9', // 7 core academic plus Non-Departmental and Physical Education
       'charlotte-latin': '13', // department headings on the course-offerings page
       'covenant-day': '9', // the 9 department tiles on /academics/high-school, incl. Restoration & Sustainability and Other
@@ -282,7 +282,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'The curriculum guide\'s table of contents lists 12 sections, but Dual Enrollment is two CPCC courses taken off-campus rather than a CCHS teaching department. The school\'s own site navigation lists 10, folding Options/Pathways in with student services.',
+          'The curriculum guide\'s table of contents lists 12 sections, but Dual Enrollment is three courses taken through Central Piedmont Community College for college credit rather than a CCHS teaching department. The school\'s own site navigation lists 10, folding Options/Pathways in with student services.',
       },
     },
   },
@@ -297,7 +297,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '90%', // 90.16% "Students with Scores 3+", May 2026 (446 exams, 195 students)
       'charlotte-christian': '94%', // 2026: 94% of 435 exams (2026–27 profile; no pass count printed)
-      'charlotte-catholic': '94%', // % of AP scores at 3+, 2024-25 — 1,064 exams, 23 subjects, 345 students. AP exams are MANDATORY in each AP course, so this is a whole-cohort figure
+      'charlotte-catholic': '94%', // 2026: 94% of 1,184 exams, 22 subjects, 393 students — AP exams are MANDATORY in each AP course, so this is a whole-cohort figure
       'charlotte-country-day': '93%', // 2025 overall 93%
       'charlotte-latin': '92%', // 2026: 766 of 833 exams (91.96%), 308 students, mean 4.10
       'covenant-day': '96%', // 2026: 96% of 401 exams scored 3+; 5-yr series 84/93/92/96/96
@@ -312,7 +312,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     subs: {
       cannon: '(2026)',
       'charlotte-christian': '(2026)',
-      'charlotte-catholic': '(2024–25)',
+      'charlotte-catholic': '(2026)',
       'charlotte-country-day': '(2025)',
       'charlotte-latin': '(2026)',
       'covenant-day': '(2026)',
@@ -324,7 +324,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          '94% of 1,064 AP exams scored 3 or above in 2024-25 (23 subjects, 345 students); 72% scored 4 or 5. AP exams are mandatory in every AP course at CCHS, so this is a whole-cohort rate and cannot be flattered by weaker candidates skipping the exam.',
+          '94% of 1,184 AP exams scored 3 or above in 2026 (22 subjects, 393 students); 76% scored 4 or 5. AP exams are mandatory in every AP course at CCHS, so this is a whole-cohort rate and cannot be flattered by weaker candidates skipping the exam.',
       },
       cannon: { kind: 'scope', text: 'About 90% scored 3 or higher in May 2026 (the school reports 90.16% of students with scores 3+; 195 students, 446 exams). A score of 3+ is the level most colleges treat as a passing result.' },
       'covenant-day': { kind: 'scope', text: '96% of AP exams scored 3 or higher in 2026 (179 students took 401 exams; every AP student must sit the exam). A score of 3+ is the level most colleges treat as a passing result.' },
@@ -351,7 +351,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '7 / 8', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '4 / 8', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '6 / 8', // Cornell, Dartmouth, Harvard, Penn, Princeton, Yale — no Brown, no Columbia. MATRICULATIONS, not acceptances
+      'charlotte-catholic': '7 / 8', // Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton, Yale — no Brown. MATRICULATIONS, not acceptances, Classes 2023-2026 (two profile editions merged)
       'charlotte-country-day': '7 / 8', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '7 / 8', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '2 / 8', // Dartmouth, Penn — both bold (matriculated) on the 2023-2026 list
@@ -365,7 +365,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          '6 of the 8 Ivy League universities appear on CCHS\'s MATRICULATION list for the Classes of 2023-2025 — where graduates actually enrolled, not where they were admitted. Brown and Columbia are absent.',
+          '7 of the 8 Ivy League universities appear on CCHS\'s MATRICULATION list for the Classes of 2023-2026 — where graduates actually enrolled, not where they were admitted. Brown is absent.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -401,7 +401,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '16 / 17', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '7 / 17', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '9 / 17', // the 6 Ivies + Duke, Georgetown, Northwestern
+      'charlotte-catholic': '11 / 17', // the 7 Ivies + Duke, Georgetown, Johns Hopkins, Northwestern
       'charlotte-country-day': '13 / 17', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '14 / 17', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 17', // Dartmouth, Penn + Duke, all bold (matriculated)
@@ -415,7 +415,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'The 6 Ivies plus Duke, Georgetown and Northwestern, from a matriculation list rather than an acceptance list. A matriculation list is structurally smaller, since a student enrolls at exactly one college.',
+          'The 7 Ivies plus Duke, Georgetown, Johns Hopkins and Northwestern, from a matriculation list rather than an acceptance list. A matriculation list is structurally smaller, since a student enrolls at exactly one college.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -451,7 +451,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '75 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '49 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '36 / 75', // scored against the 2027 US News National Universities table, Classes 2023-2025 matriculation list
+      'charlotte-catholic': '43 / 75', // scored against the 2027 US News National Universities table, Classes 2023-2026 matriculation list
       'charlotte-country-day': '71 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '73 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '36 / 75', // worked classification in the Redesign Research 2026 dossier
@@ -465,7 +465,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Scored against the 2027 US News National Universities table over the Classes of 2023-2025 matriculation list. Not comparable like-for-like with schools on this table that publish acceptance lists.',
+          'Scored against the 2027 US News National Universities table over the Classes of 2023-2026 matriculation list. Not comparable like-for-like with schools on this table that publish acceptance lists.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -501,7 +501,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '45 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '20 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '17 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
+      'charlotte-catholic': '21 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
       'charlotte-country-day': '44 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '48 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '10 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
@@ -515,7 +515,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Scored against the 2027 US News National Liberal Arts table, and includes all three service academies — Naval #3, Air Force #5 and West Point #10. CCHS reported three Naval Academy appointments in 2025 alone.',
+          'Scored against the 2027 US News National Liberal Arts table, and includes all three service academies — Naval #3, Air Force #5 and West Point #10. CCHS reported three Naval Academy appointments in 2025, and one Naval Academy and one West Point appointment in 2026.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -551,7 +551,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '61 / 68', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '54 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '39 / 68', // against the 68-member Power Four roster in _shared/; 40 list rows carry the tag but the two Arizona State campuses are one institution
+      'charlotte-catholic': '43 / 68', // against the 68-member Power Four roster in _shared/; 44 list rows carry the tag but the two Arizona State campuses are one institution
       'charlotte-country-day': '61 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '61 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
@@ -565,7 +565,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          '39 distinct Power Four institutions, though 40 rows of the college list carry the tag: Arizona State appears twice (Downtown Phoenix and Tempe campuses) and is one university. Scored over the matriculation list.',
+          '43 distinct Power Four institutions, though 44 rows of the college list carry the tag: Arizona State appears twice (Downtown Phoenix and Tempe campuses) and is one university. Scored over the matriculation list.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -819,7 +819,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '11 / 107', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '11 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '2 / 107', // Hampton University, Benedict College
+      'charlotte-catholic': '3 / 107', // Hampton University, Benedict College, West Virginia State University
       'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '10 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
@@ -833,7 +833,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Hampton University and Benedict College, from the Classes of 2023-2025 matriculation list.',
+          'Hampton University, Benedict College and West Virginia State University, from the Classes of 2023-2026 matriculation list.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -867,7 +867,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '~26:1', // 105 seniors (Class of 2026) ÷ 4 counselors
       'charlotte-christian': '~55:1', // effective caseload ~55 seniors/counselor (110 ÷ 2, Class of 2026)
-      'charlotte-catholic': '~54:1', // COMPUTED, not published — 324 seniors in the Class of 2026 over 6 counselors incl. the Director; ~195:1 across all four grades
+      'charlotte-catholic': '~56:1', // COMPUTED, not published — 336 seniors in the Class of 2027 (2026-27 profile) over 6 counselors incl. the Director; ~195:1 across all four grades
       'charlotte-country-day': '~34:1', // ~34–35 seniors/counselor
       'charlotte-latin': '~38:1', // COMPUTED — 151 seniors (2026–27 profile) ÷ 4 counselors = 37.75
       'covenant-day': '85:1', // 85 seniors ÷ 1 dedicated Guidance & College Counseling Director
@@ -881,7 +881,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'official',
         text:
-          'Computed, not published: 324 seniors in the Class of 2026 divided by the six counselors named on the school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.',
+          'Computed, not published: 336 seniors in the Class of 2027 divided by the six counselors named on the 2026-27 school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -1188,7 +1188,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: 'AP Studio Art',
       'charlotte-christian': '2 AP + 9 Honors', // 2026–27 profile, p.3 Fine Arts: AP Art History, AP Art & Design + 9 Honors (incl. Broadcasting)
-      'charlotte-catholic': '1 AP + 12 Honors', // AP Studio Art is the only AP arts course — no AP Music Theory, no AP Art History, confirmed by sweeping all 195 courses. An AP-only count would misread a 39-course department
+      'charlotte-catholic': '1 AP + 12 Honors', // AP Studio Art is the only AP arts course — no AP Music Theory, no AP Art History, confirmed by sweeping all 199 courses. An AP-only count would misread a 39-course department
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
       'charlotte-latin': null, // not detailed
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
@@ -1202,7 +1202,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'AP Studio Art is the only AP arts course CCHS offers — there is no AP Music Theory and no AP Art History, confirmed by sweeping all 195 courses in the curriculum guide. Reporting the AP count alone would make a 39-course department, the largest in the school, read as thin.',
+          'AP Studio Art is the only AP arts course CCHS offers — there is no AP Music Theory and no AP Art History, confirmed by sweeping all 199 courses in the curriculum guide. Reporting the AP count alone would make a 39-course department, the largest in the school, read as thin.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -1242,7 +1242,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '3 pillars', // Visual Arts, Music, Theater
       'charlotte-christian': '40+ electives', // 40+ arts electives across four areas
-      'charlotte-catholic': '12 ensembles', // 12 named ensembles carrying course codes; Marching Band and Jazz Band also run, Jazz Band after school without a code
+      'charlotte-catholic': '12 ensembles', // 12 named ensembles carrying course codes; Marching Band, Symphonic Band and Jazz Band also run without a code of their own
       'charlotte-country-day': '8 ensembles', // 8 vocal/instrumental groups
       'charlotte-latin': null, // no count stated
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
@@ -1256,7 +1256,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Twelve named ensembles carry their own course codes across choral, band and percussion. Marching Band and Jazz Band also operate, Jazz Band as an after-school group without a course code.',
+          'Twelve named ensembles carry their own course codes across choral, band and percussion. Marching Band, Symphonic Band and Jazz Band also operate without a course code of their own, Jazz Band as an after-school group.',
       },
       'gaston-day': {
         kind: 'scope',

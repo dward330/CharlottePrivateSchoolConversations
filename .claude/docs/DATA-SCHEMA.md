@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 507 ingested research documents.
+**13 schools × 12 research areas**, 508 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 6 | 1 | 1 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 17 | 17 | 2 | 17 | 18 | 2 | 3 | 18 | 2 |
-| College Support | `college-support` | 12 | 3 | 2 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 3 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -1238,6 +1238,16 @@ entries in every locale — the runtime falls back to English with no error and 
 coverage change. Append new divisions at the END (Covenant Day and Carmel Christian
 both ship High → Middle → Lower for this reason). Order only matters within a school;
 a brand-new school is free to use grade order.
+
+**Census a curriculum guide by course HEADER, not by a one-code regex.** A regex
+keyed on "title, then one course code" silently misses a header carrying two codes
+(`508, 509`; `953/954`), a code printed on the title line with a single space, and a
+header the PDF text layer printed with its spaces dropped
+(`DualEnrollment:ArtAppreciation CPCCART111`). It also truncates a title that wraps
+onto a second line (`Advanced Placement Spanish V:` for *… V: Language and Culture*).
+Charlotte Catholic shipped 195 courses and 24 AP until a re-census found 199 and 26.
+Count each header as one entry even when it has two codes, rejoin wrapped titles, and
+cross-check the total against the guide's own department lists.
 
 Supporting types: `Course`, `Department`, `Division`
 
