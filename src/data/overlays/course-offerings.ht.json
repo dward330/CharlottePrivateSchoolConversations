@@ -76,7 +76,8 @@
         "covenant-day:divisions[2].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[2].name",
         "carmel-christian:divisions[2].departments[0].courses[1].title",
-        "hickory-grove-christian:divisions[0].departments[2].name"
+        "hickory-grove-christian:divisions[0].departments[2].name",
+        "hickory-grove-christian:divisions[1].departments[3].name"
       ]
     },
     {
@@ -178,6 +179,7 @@
         "carmel-christian:divisions[1].departments[4].name",
         "carmel-christian:divisions[2].departments[0].courses[3].title",
         "hickory-grove-christian:divisions[0].departments[3].name",
+        "hickory-grove-christian:divisions[1].departments[4].name",
         "gaston-day:divisions[0].departments[0].courses[1].title",
         "gaston-day:divisions[1].departments[2].name",
         "trinity-episcopal:divisions[1].departments[3].courses[1].title"
@@ -306,6 +308,7 @@
         "covenant-day:divisions[2].departments[0].courses[4].title",
         "covenant-day:divisions[2].departments[7].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
         "trinity-episcopal:divisions[1].departments[4].courses[10].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
@@ -395,6 +398,7 @@
         "carmel-christian:divisions[1].departments[6].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[4].title",
         "hickory-grove-christian:divisions[0].departments[10].name",
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].title",
         "gaston-day:divisions[1].departments[6].courses[0].title",
         "charlotte-prep:divisions[0].departments[2].courses[2].title",
         "charlotte-prep:divisions[1].departments[2].courses[5].title",
@@ -493,6 +497,7 @@
         "covenant-day:divisions[1].title",
         "davidson-day:divisions[1].title",
         "carmel-christian:divisions[1].title",
+        "hickory-grove-christian:divisions[1].title",
         "gaston-day:divisions[0].title",
         "trinity-episcopal:divisions[1].title",
         "charlotte-prep:divisions[2].title"
@@ -504,6 +509,7 @@
       "at": [
         "providence-day:divisions[1].grades",
         "charlotte-latin:divisions[1].grades",
+        "hickory-grove-christian:divisions[1].grades",
         "trinity-episcopal:divisions[1].grades"
       ]
     },
@@ -533,6 +539,7 @@
         "davidson-day:divisions[2].departments[0].name",
         "carmel-christian:divisions[0].departments[1].name",
         "hickory-grove-christian:divisions[0].departments[1].name",
+        "hickory-grove-christian:divisions[1].departments[1].name",
         "gaston-day:divisions[0].departments[0].courses[0].title",
         "gaston-day:divisions[1].departments[0].name"
       ]
@@ -594,6 +601,15 @@
         "carmel-christian:divisions[1].departments[8].courses[0].tag",
         "carmel-christian:divisions[1].departments[8].courses[1].tag",
         "carmel-christian:divisions[1].departments[8].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
@@ -655,6 +671,11 @@
         "carmel-christian:divisions[1].departments[3].courses[1].tag",
         "carmel-christian:divisions[1].departments[4].courses[1].tag",
         "carmel-christian:divisions[1].departments[5].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
@@ -722,6 +743,12 @@
         "carmel-christian:divisions[1].departments[3].courses[2].tag",
         "carmel-christian:divisions[1].departments[4].courses[2].tag",
         "carmel-christian:divisions[1].departments[5].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[3].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[4].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[5].tag",
@@ -951,6 +978,25 @@
         "carmel-christian:divisions[1].departments[8].courses[7].tag",
         "carmel-christian:divisions[1].departments[8].courses[8].tag",
         "carmel-christian:divisions[1].departments[8].courses[9].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
@@ -1231,7 +1277,8 @@
         "providence-day:divisions[1].departments[3].name",
         "providence-day:divisions[2].departments[1].name",
         "charlotte-latin:divisions[1].departments[1].name",
-        "charlotte-latin:divisions[2].departments[1].name"
+        "charlotte-latin:divisions[2].departments[1].name",
+        "hickory-grove-christian:divisions[1].departments[2].name"
       ]
     },
     {
@@ -1416,6 +1463,7 @@
         "carmel-christian:divisions[1].departments[7].courses[8].tag",
         "carmel-christian:divisions[1].departments[8].courses[3].tag",
         "carmel-christian:divisions[1].departments[8].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
@@ -4503,6 +4551,7 @@
         "hickory-grove-christian:divisions[0].departments[5].courses[2].tag",
         "hickory-grove-christian:divisions[0].departments[5].courses[3].tag",
         "hickory-grove-christian:divisions[0].departments[8].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].tag",
         "gaston-day:divisions[1].departments[0].courses[0].tag",
         "gaston-day:divisions[1].departments[0].courses[1].tag",
         "gaston-day:divisions[1].departments[0].courses[2].tag",
@@ -5298,6 +5347,7 @@
         "charlotte-latin:divisions[1].departments[5].courses[3].title",
         "charlotte-country-day:divisions[1].departments[4].courses[4].title",
         "covenant-day:divisions[1].departments[3].courses[4].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].title",
         "gaston-day:divisions[0].departments[1].courses[2].title",
         "gaston-day:divisions[1].departments[5].courses[2].title",
         "charlotte-prep:divisions[1].departments[2].courses[1].title"
@@ -6932,7 +6982,8 @@
         "carmel-christian:divisions[0].departments[0].name",
         "carmel-christian:divisions[1].departments[0].name",
         "carmel-christian:divisions[2].departments[0].courses[0].title",
-        "hickory-grove-christian:divisions[0].departments[0].name"
+        "hickory-grove-christian:divisions[0].departments[0].name",
+        "hickory-grove-christian:divisions[1].departments[0].name"
       ]
     },
     {
@@ -8961,7 +9012,8 @@
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
         "covenant-day:divisions[0].departments[6].courses[0].title",
         "covenant-day:divisions[1].departments[3].courses[5].title",
-        "carmel-christian:divisions[0].departments[7].courses[7].title"
+        "carmel-christian:divisions[0].departments[7].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].title"
       ]
     },
     {
@@ -9039,7 +9091,8 @@
       "t": "Dance",
       "of": "ca0fab3c",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[19].title"
+        "charlotte-christian:divisions[2].departments[7].courses[19].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].title"
       ]
     },
     {
@@ -16857,7 +16910,8 @@
       "t": "Graphic Design",
       "of": "adf439eb",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[12].title"
+        "covenant-day:divisions[0].departments[6].courses[12].title",
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].title"
       ]
     },
     {
@@ -20455,7 +20509,8 @@
       "t": "Life Skills",
       "of": "42a28f27",
       "at": [
-        "carmel-christian:divisions[1].departments[8].courses[0].title"
+        "carmel-christian:divisions[1].departments[8].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[5].name"
       ]
     },
     {
@@ -20530,7 +20585,8 @@
       "t": "Christian Leadership",
       "of": "7dddde73",
       "at": [
-        "carmel-christian:divisions[1].departments[8].courses[8].title"
+        "carmel-christian:divisions[1].departments[8].courses[8].title",
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].title"
       ]
     },
     {
@@ -21859,7 +21915,8 @@
       "t": "Coding",
       "of": "606d7627",
       "at": [
-        "hickory-grove-christian:divisions[0].departments[9].courses[0].title"
+        "hickory-grove-christian:divisions[0].departments[9].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].title"
       ]
     },
     {
@@ -22119,6 +22176,552 @@
       "of": "4b951c2c",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
+      ]
+    },
+    {
+      "t": "41 kou nan 9 depatman — yon sekans vizyon dimonn Summit Ministries nan Bible, Algebra 1 pou elèv Honors 8yèm ane ki kalifye, ak yon wotasyon anrichisman chak trimès ki ale depi lang siy ak kodaj rive nan yon kou kous 5K.",
+      "of": "57f244fe",
+      "at": [
+        "hickory-grove-christian:divisions[1].teaser"
+      ]
+    },
+    {
+      "t": "Building on the Rock",
+      "of": "82cdd00e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].title"
+      ]
+    },
+    {
+      "t": "Kou Christian Worldview Summit Ministries la, ki ede elèv yo entèprete konesans epi bati kwayans ak valè fondamantal yo nan yon pèspektiv biblik.",
+      "of": "525d8c56",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].description"
+      ]
+    },
+    {
+      "t": "Walking in Truth",
+      "of": "2e76621e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].title"
+      ]
+    },
+    {
+      "t": "Kou Competing Worldviews Summit Ministries la, ki konpare prensip kle kretyente a ak Islam, naturalis ak nouvo espiritualite.",
+      "of": "030322f8",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].description"
+      ]
+    },
+    {
+      "t": "Light Bearers",
+      "of": "77453ec1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].title"
+      ]
+    },
+    {
+      "t": "Kou Christianity in Action Summit Ministries la, sou kijan pou viv yon vizyon dimonn kretyen nan yon kilti apre-kretyen epi kenbe fèm kont lide imanis yo.",
+      "of": "0d574b9d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "Anglè 6yèm ane",
+      "of": "8900498e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].title"
+      ]
+    },
+    {
+      "t": "Ekriti, literati, vokabilè ak gramè, ak konpreyansyon lekti atravè plizyè jan tèks, epi yon ekriti ki konsantre sou tèks naratif ak deskriptif.",
+      "of": "8c1af5f2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].description"
+      ]
+    },
+    {
+      "t": "Anglè 7yèm ane",
+      "of": "647c4471",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].title"
+      ]
+    },
+    {
+      "t": "Konpreyansyon lekti a kontinye atravè analiz literè, epi ekriti a vire sou tèks enfòmatif ak analiz literè.",
+      "of": "bd0f1384",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].description"
+      ]
+    },
+    {
+      "t": "Anglè 8yèm ane",
+      "of": "1e0a4028",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].title"
+      ]
+    },
+    {
+      "t": "Lekti kritik atravè sentèz ak evalyasyon jan tèks yo, ak ekriti pou konvenk ak agimante ak konpetans ekriti rechèch.",
+      "of": "0c19b857",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].description"
+      ]
+    },
+    {
+      "t": "Istwa 6yèm ane",
+      "of": "f556d4fe",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].title"
+      ]
+    },
+    {
+      "t": "Premye sivilizasyon ansyen Ejip, Pwòch Oryan, End, Lachin, Lagrès ak Wòm, ak enfliyans yo sou mond modèn lan.",
+      "of": "95fb99fb",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].description"
+      ]
+    },
+    {
+      "t": "Istwa 7yèm ane",
+      "of": "7e25c71d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].title"
+      ]
+    },
+    {
+      "t": "Istwa ak jewografi depi tonbe Anpi Women an rive nan Epòk Eksplorasyon an, ak yon aksan sou kilti ak relijyon.",
+      "of": "58ac3063",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].description"
+      ]
+    },
+    {
+      "t": "Istwa 8yèm ane",
+      "of": "e7562900",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].title"
+      ]
+    },
+    {
+      "t": "Istwa Ameriken depi premye Ameriken yo rive nan endistriyalizasyon, ak yon vwayaj klas nan Washington, DC chak mwa oktòb.",
+      "of": "1680e9da",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].description"
+      ]
+    },
+    {
+      "t": "Matematik 6yèm ane",
+      "of": "81633dfc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].title"
+      ]
+    },
+    {
+      "t": "Reveal Math Course 1: divizyon fraksyon ak desimal, nonb negatif, rapò ak to, ekspresyon ak ekwasyon, sifas ak volim, ak rezònman estatistik.",
+      "of": "de54da9f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
+      ]
+    },
+    {
+      "t": "Matematik 7yèm ane",
+      "of": "d5191f95",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].title"
+      ]
+    },
+    {
+      "t": "Reveal Math Course 2: relasyon pwopòsyonèl, nonb rasyonèl, desen a lechèl ak konstriksyon jewometrik, ak dediksyon apati echantiyon.",
+      "of": "99212e70",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "Matematik 8yèm ane",
+      "of": "6c5ce476",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].title"
+      ]
+    },
+    {
+      "t": "Reveal Math Course 3: ekwasyon lineyè ak youn oswa de varyab, fonksyon, ak teyorèm Pitagò aplike pou resanblans ak kongriyans.",
+      "of": "ce31e1d1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].description"
+      ]
+    },
+    {
+      "t": "8yèm ane - Algebra 1",
+      "of": "7dbd8174",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].title"
+      ]
+    },
+    {
+      "t": "Yo ofri l bay elèv Honors 8yèm ane ki kalifye — ekwasyon, inegalite, polinòm, faktorizasyon, graf ak rasin, ak devwa chak swa.",
+      "of": "9a2c56a3",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
+      ]
+    },
+    {
+      "t": "Syans 6yèm ane",
+      "of": "a22054cc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].title"
+      ]
+    },
+    {
+      "t": "Syans lavi — selil, eredite, kreyasyon kont evolisyon, vètebre ak envètebre, viris, òganis yon sèl selil ak plant.",
+      "of": "203a212a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "Syans 7yèm ane",
+      "of": "5b20559f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].title"
+      ]
+    },
+    {
+      "t": "Syans fizik ak yon gwo aksan sou metòd syantifik la ak envestigasyon elèv yo konsevwa yo menm, depi enèji ak fòs rive nan reyaksyon chimik ak mayetis.",
+      "of": "0d44dbf2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].description"
+      ]
+    },
+    {
+      "t": "Syans 8yèm ane",
+      "of": "0ae079e2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].title"
+      ]
+    },
+    {
+      "t": "Syans latè ki konsantre sou kijan konsepsyon latè sipòte lavi — sifas li, atmosfè a, lespas ak dlo — atravè laboratwa ak pwojè.",
+      "of": "8af0ac45",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].description"
+      ]
+    },
+    {
+      "t": "Espò endividyèl ak espò ekip ki bati sou eleman kondisyon fizik yo, depi foutbòl ameriken ak foutbòl rive nan volebòl ak sote kòd, ak tès sou règ ak konpetans.",
+      "of": "09629110",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].description"
+      ]
+    },
+    {
+      "t": "Ajilite",
+      "of": "1878a5d8",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].title"
+      ]
+    },
+    {
+      "t": "Egzèsis ajilite, defi kondisyon fizik ak pakou obstak pou bati kowòdinasyon, ekilib, vitès ak konfyans, pou tout nivo kondisyon fizik.",
+      "of": "4e6e23d5",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].description"
+      ]
+    },
+    {
+      "t": "She Runs With Purpose",
+      "of": "95e423a1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].title"
+      ]
+    },
+    {
+      "t": "Pou tifi: yon ti leson biblik chak kou, apre sa mache ak kouri ki prepare yo pou fini yon 5K nan fen nèf semèn yo.",
+      "of": "98abec6b",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].description"
+      ]
+    },
+    {
+      "t": "He Runs With Purpose",
+      "of": "b17e4fee",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].title"
+      ]
+    },
+    {
+      "t": "Pou tigason: yon ti leson biblik chak kou, apre sa mache ak kouri ki prepare yo pou fini yon 5K nan fen nèf semèn yo.",
+      "of": "17d5880f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].description"
+      ]
+    },
+    {
+      "t": "Bon abitid sante",
+      "of": "ce1dcd9d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].title"
+      ]
+    },
+    {
+      "t": "Nitrisyon ak byennèt — repa balanse, idratasyon, enèji ak chwa manje — ki bati sou fason Bondye te fè kò a.",
+      "of": "bc701008",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "Entwodiksyon nan lang siy ameriken",
+      "of": "5f0e5489",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "Baz ASL kòm yon lang vizyèl, ak yon fondasyon pou elèv ki ka pran ASL kòm lang etranje nan lekòl segondè.",
+      "of": "2f8025dc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].description"
+      ]
+    },
+    {
+      "t": "Entwodiksyon nan panyòl",
+      "of": "438c36f2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "Kilti ak konvèsasyon panyòl, ak gramè senp ak konjigezon vèb, epi yon gwo aksan sou vokabilè.",
+      "of": "cbfbe5fc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].description"
+      ]
+    },
+    {
+      "t": "Bible Sketch",
+      "of": "6c1e3ebf",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].title"
+      ]
+    },
+    {
+      "t": "Etid biblik ansanm ak desen ak akwarèl, ki ilistre tèm Kreyasyon, Chit, Redanmsyon ak Restorasyon.",
+      "of": "3a085882",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "Fanfa pou debitan (tout ane a)",
+      "of": "93400657",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].title"
+      ]
+    },
+    {
+      "t": "Baz mizik enstrimantal — teknik, li mizik, ritm ak son — san okenn eksperyans anvan.",
+      "of": "d1b6eb14",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].description"
+      ]
+    },
+    {
+      "t": "Fanfa (tout ane a)",
+      "of": "4989cb97",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].title"
+      ]
+    },
+    {
+      "t": "Fòmasyon enstrimantal ki kontinye nan teknik, li mizik, ritm, son ak jwe ansanm.",
+      "of": "1d7829a0",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].description"
+      ]
+    },
+    {
+      "t": "Koud",
+      "of": "2b5b5d9a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].title"
+      ]
+    },
+    {
+      "t": "Koud alamen — bouton, repare kouti ak fè woulèt — plis itilize machin a koud san danje ak fè ti rad senp, pou debitan.",
+      "of": "eb8e1434",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].description"
+      ]
+    },
+    {
+      "t": "Praise Team",
+      "of": "cf0bf302",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].title"
+      ]
+    },
+    {
+      "t": "Yon kou pèfòmans pou elèv ki chante oswa ki jwe enstriman, ki bati konpetans vokal, enstrimantal ak lidèchip adorasyon atravè repetisyon ak pèfòmans.",
+      "of": "5b0bd3e3",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].description"
+      ]
+    },
+    {
+      "t": "Chante an gwoup, li mizik ak chante an plizyè vwa, ak okazyon pou chante solo ak yon konsè nan fen kou a.",
+      "of": "218a70e2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].description"
+      ]
+    },
+    {
+      "t": "Enpwovizasyon, pantomim, jwe teyat ak wòl teknik teyat, ki fini ak montaj yon pyès an yon sèl ak.",
+      "of": "ffb87142",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].description"
+      ]
+    },
+    {
+      "t": "Teyat mizikal",
+      "of": "0a9bd0ea",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ]
+    },
+    {
+      "t": "Yon entwodiksyon ki fè wotasyon ant dans, chante ak jwe teyat, ak yon pèfòmans youn oswa de chante nan fen an.",
+      "of": "b1e8b869",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].description"
+      ]
+    },
+    {
+      "t": "Teknik debaz nan plizyè fòm, ki bati sitou sou dans modèn ak jan yo itilize l nan adorasyon, pou debitan ak dansè ki gen eksperyans.",
+      "of": "b487b440",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].description"
+      ]
+    },
+    {
+      "t": "STEM/Teknoloji",
+      "of": "9ff2c781",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].name"
+      ]
+    },
+    {
+      "t": "Laboratwa inovasyon",
+      "of": "d41b6835",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].title"
+      ]
+    },
+    {
+      "t": "Defi konsepsyon STEM pratik, eksperyans ak pwojè kolaboratif ki envestige pwoblèm reyèl.",
+      "of": "50a57461",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].description"
+      ]
+    },
+    {
+      "t": "Entwodiksyon nan medya dijital",
+      "of": "c5167f2e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].title"
+      ]
+    },
+    {
+      "t": "Grafis debitan nan Adobe Photoshop — seleksyon, kouch, edite foto ak grafik vektoryèl.",
+      "of": "af972636",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].description"
+      ]
+    },
+    {
+      "t": "Yon entwodiksyon nan HTML, CSS ak JavaScript debaz ki sèvi kòm fondasyon pou pwogram kodaj lekòl segondè a.",
+      "of": "67b74814",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].description"
+      ]
+    },
+    {
+      "t": "Prensip konsepsyon vizyèl aplike nan yon vrè pwojè: desine yon logo pou yon konpayi ou chwazi oswa ou envante.",
+      "of": "47b62615",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].description"
+      ]
+    },
+    {
+      "t": "Lafwa ak lidèchip",
+      "of": "9d9f959c",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].name"
+      ]
+    },
+    {
+      "t": "Navigating Middle School with Character and Faith",
+      "of": "5c46d424",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].title"
+      ]
+    },
+    {
+      "t": "Yon kou nèf inite san nòt sou pasaj nan lekòl mwayen — konfli, presyon zanmi, idantite, onètete, echèk ak amitye atravè verite biblik.",
+      "of": "255abfcc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].description"
+      ]
+    },
+    {
+      "t": "Becoming a Young Man of God",
+      "of": "4421f8ab",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].title"
+      ]
+    },
+    {
+      "t": "Pou tigason lekòl mwayen: aktivite, diskisyon ak ekriti sou idantite, maskilinite ak konfyans nan tèt yo.",
+      "of": "94de755a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].description"
+      ]
+    },
+    {
+      "t": "Becoming a Young Woman of God",
+      "of": "b5cb893d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].title"
+      ]
+    },
+    {
+      "t": "Pou tifi lekòl mwayen: jwèt ak aktivite sou kijan pou mete limit, jere desepsyon epi grandi espirityèlman lwen presyon medya yo.",
+      "of": "a4352311",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].description"
+      ]
+    },
+    {
+      "t": "Students on Mission",
+      "of": "7ccec014",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].title"
+      ]
+    },
+    {
+      "t": "Sa Bondye ap fè atravè lemond pa mwayen misyonè ak lidè lokal, ak kijan elèv yo ta ka sèvi kominote Charlotte la.",
+      "of": "bfa3d36c",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].description"
+      ]
+    },
+    {
+      "t": "Sèlman pou elèv 8yèm ane yo chwazi: yon kou yon semès sou lidèchip sèvis, ak yon angajman pou sèvi kòm lidè kanpis pandan tout ane a.",
+      "of": "bb90b5c4",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].description"
       ]
     },
     {

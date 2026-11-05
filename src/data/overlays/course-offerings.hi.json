@@ -76,7 +76,8 @@
         "covenant-day:divisions[2].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[2].name",
         "carmel-christian:divisions[2].departments[0].courses[1].title",
-        "hickory-grove-christian:divisions[0].departments[2].name"
+        "hickory-grove-christian:divisions[0].departments[2].name",
+        "hickory-grove-christian:divisions[1].departments[3].name"
       ]
     },
     {
@@ -178,6 +179,7 @@
         "carmel-christian:divisions[1].departments[4].name",
         "carmel-christian:divisions[2].departments[0].courses[3].title",
         "hickory-grove-christian:divisions[0].departments[3].name",
+        "hickory-grove-christian:divisions[1].departments[4].name",
         "gaston-day:divisions[0].departments[0].courses[1].title",
         "gaston-day:divisions[1].departments[2].name",
         "trinity-episcopal:divisions[1].departments[3].courses[1].title"
@@ -306,6 +308,7 @@
         "covenant-day:divisions[2].departments[0].courses[4].title",
         "covenant-day:divisions[2].departments[7].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
         "trinity-episcopal:divisions[1].departments[4].courses[10].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
@@ -395,6 +398,7 @@
         "carmel-christian:divisions[1].departments[6].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[4].title",
         "hickory-grove-christian:divisions[0].departments[10].name",
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].title",
         "gaston-day:divisions[1].departments[6].courses[0].title",
         "charlotte-prep:divisions[0].departments[2].courses[2].title",
         "charlotte-prep:divisions[1].departments[2].courses[5].title",
@@ -493,6 +497,7 @@
         "covenant-day:divisions[1].title",
         "davidson-day:divisions[1].title",
         "carmel-christian:divisions[1].title",
+        "hickory-grove-christian:divisions[1].title",
         "gaston-day:divisions[0].title",
         "trinity-episcopal:divisions[1].title",
         "charlotte-prep:divisions[2].title"
@@ -504,6 +509,7 @@
       "at": [
         "providence-day:divisions[1].grades",
         "charlotte-latin:divisions[1].grades",
+        "hickory-grove-christian:divisions[1].grades",
         "trinity-episcopal:divisions[1].grades"
       ]
     },
@@ -533,6 +539,7 @@
         "davidson-day:divisions[2].departments[0].name",
         "carmel-christian:divisions[0].departments[1].name",
         "hickory-grove-christian:divisions[0].departments[1].name",
+        "hickory-grove-christian:divisions[1].departments[1].name",
         "gaston-day:divisions[0].departments[0].courses[0].title",
         "gaston-day:divisions[1].departments[0].name"
       ]
@@ -594,6 +601,15 @@
         "carmel-christian:divisions[1].departments[8].courses[0].tag",
         "carmel-christian:divisions[1].departments[8].courses[1].tag",
         "carmel-christian:divisions[1].departments[8].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
@@ -655,6 +671,11 @@
         "carmel-christian:divisions[1].departments[3].courses[1].tag",
         "carmel-christian:divisions[1].departments[4].courses[1].tag",
         "carmel-christian:divisions[1].departments[5].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
@@ -722,6 +743,12 @@
         "carmel-christian:divisions[1].departments[3].courses[2].tag",
         "carmel-christian:divisions[1].departments[4].courses[2].tag",
         "carmel-christian:divisions[1].departments[5].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[3].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[4].tag",
         "trinity-episcopal:divisions[1].departments[0].courses[5].tag",
@@ -951,6 +978,25 @@
         "carmel-christian:divisions[1].departments[8].courses[7].tag",
         "carmel-christian:divisions[1].departments[8].courses[8].tag",
         "carmel-christian:divisions[1].departments[8].courses[9].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].tag",
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].tag",
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
@@ -1231,7 +1277,8 @@
         "providence-day:divisions[1].departments[3].name",
         "providence-day:divisions[2].departments[1].name",
         "charlotte-latin:divisions[1].departments[1].name",
-        "charlotte-latin:divisions[2].departments[1].name"
+        "charlotte-latin:divisions[2].departments[1].name",
+        "hickory-grove-christian:divisions[1].departments[2].name"
       ]
     },
     {
@@ -1416,6 +1463,7 @@
         "carmel-christian:divisions[1].departments[7].courses[8].tag",
         "carmel-christian:divisions[1].departments[8].courses[3].tag",
         "carmel-christian:divisions[1].departments[8].courses[4].tag",
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
@@ -4503,6 +4551,7 @@
         "hickory-grove-christian:divisions[0].departments[5].courses[2].tag",
         "hickory-grove-christian:divisions[0].departments[5].courses[3].tag",
         "hickory-grove-christian:divisions[0].departments[8].courses[3].tag",
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].tag",
         "gaston-day:divisions[1].departments[0].courses[0].tag",
         "gaston-day:divisions[1].departments[0].courses[1].tag",
         "gaston-day:divisions[1].departments[0].courses[2].tag",
@@ -5298,6 +5347,7 @@
         "charlotte-latin:divisions[1].departments[5].courses[3].title",
         "charlotte-country-day:divisions[1].departments[4].courses[4].title",
         "covenant-day:divisions[1].departments[3].courses[4].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].title",
         "gaston-day:divisions[0].departments[1].courses[2].title",
         "gaston-day:divisions[1].departments[5].courses[2].title",
         "charlotte-prep:divisions[1].departments[2].courses[1].title"
@@ -6932,7 +6982,8 @@
         "carmel-christian:divisions[0].departments[0].name",
         "carmel-christian:divisions[1].departments[0].name",
         "carmel-christian:divisions[2].departments[0].courses[0].title",
-        "hickory-grove-christian:divisions[0].departments[0].name"
+        "hickory-grove-christian:divisions[0].departments[0].name",
+        "hickory-grove-christian:divisions[1].departments[0].name"
       ]
     },
     {
@@ -8961,7 +9012,8 @@
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
         "covenant-day:divisions[0].departments[6].courses[0].title",
         "covenant-day:divisions[1].departments[3].courses[5].title",
-        "carmel-christian:divisions[0].departments[7].courses[7].title"
+        "carmel-christian:divisions[0].departments[7].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].title"
       ]
     },
     {
@@ -9039,7 +9091,8 @@
       "t": "Dance",
       "of": "ca0fab3c",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[19].title"
+        "charlotte-christian:divisions[2].departments[7].courses[19].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].title"
       ]
     },
     {
@@ -16857,7 +16910,8 @@
       "t": "Graphic Design",
       "of": "adf439eb",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[12].title"
+        "covenant-day:divisions[0].departments[6].courses[12].title",
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].title"
       ]
     },
     {
@@ -20455,7 +20509,8 @@
       "t": "Life Skills",
       "of": "42a28f27",
       "at": [
-        "carmel-christian:divisions[1].departments[8].courses[0].title"
+        "carmel-christian:divisions[1].departments[8].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[5].name"
       ]
     },
     {
@@ -20530,7 +20585,8 @@
       "t": "Christian Leadership",
       "of": "7dddde73",
       "at": [
-        "carmel-christian:divisions[1].departments[8].courses[8].title"
+        "carmel-christian:divisions[1].departments[8].courses[8].title",
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].title"
       ]
     },
     {
@@ -21859,7 +21915,8 @@
       "t": "Coding",
       "of": "606d7627",
       "at": [
-        "hickory-grove-christian:divisions[0].departments[9].courses[0].title"
+        "hickory-grove-christian:divisions[0].departments[9].courses[0].title",
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].title"
       ]
     },
     {
@@ -22119,6 +22176,552 @@
       "of": "4b951c2c",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
+      ]
+    },
+    {
+      "t": "9 विभागों में 41 कोर्स — Bible में Summit Ministries का विश्वदृष्टि क्रम, योग्य 8वीं कक्षा के Honors छात्रों के लिए Algebra 1, और हर तिमाही बदलने वाला enrichment क्रम, जो सांकेतिक भाषा और कोडिंग से लेकर 5K दौड़ कोर्स तक जाता है।",
+      "of": "57f244fe",
+      "at": [
+        "hickory-grove-christian:divisions[1].teaser"
+      ]
+    },
+    {
+      "t": "Building on the Rock",
+      "of": "82cdd00e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].title"
+      ]
+    },
+    {
+      "t": "Summit Ministries का Christian Worldview कोर्स, जो छात्रों को ज्ञान की व्याख्या करने और बाइबल के नज़रिए से बुनियादी विश्वास और मूल्य बनाने में मदद करता है।",
+      "of": "525d8c56",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[0].description"
+      ]
+    },
+    {
+      "t": "Walking in Truth",
+      "of": "2e76621e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].title"
+      ]
+    },
+    {
+      "t": "Summit Ministries का Competing Worldviews कोर्स, जो ईसाई धर्म के मुख्य सिद्धांतों की तुलना इस्लाम, प्रकृतिवाद और नई आध्यात्मिकता से करता है।",
+      "of": "030322f8",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[1].description"
+      ]
+    },
+    {
+      "t": "Light Bearers",
+      "of": "77453ec1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].title"
+      ]
+    },
+    {
+      "t": "Summit Ministries का Christianity in Action कोर्स, उत्तर-ईसाई संस्कृति में ईसाई विश्वदृष्टि को जीने और मानवतावादी विचारों के सामने दृढ़ रहने पर।",
+      "of": "0d574b9d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "6वीं कक्षा अंग्रेज़ी",
+      "of": "8900498e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].title"
+      ]
+    },
+    {
+      "t": "लेखन, साहित्य, शब्दावली और व्याकरण, अलग-अलग विधाओं में पठन-बोध के साथ, और लेखन का ज़ोर कथात्मक और वर्णनात्मक रचनाओं पर।",
+      "of": "8c1af5f2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[0].description"
+      ]
+    },
+    {
+      "t": "7वीं कक्षा अंग्रेज़ी",
+      "of": "647c4471",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].title"
+      ]
+    },
+    {
+      "t": "साहित्यिक विश्लेषण के ज़रिए पठन-बोध आगे बढ़ता है, और लेखन का ज़ोर सूचनात्मक लेखन और साहित्यिक विश्लेषण पर आ जाता है।",
+      "of": "bd0f1384",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[1].description"
+      ]
+    },
+    {
+      "t": "8वीं कक्षा अंग्रेज़ी",
+      "of": "1e0a4028",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].title"
+      ]
+    },
+    {
+      "t": "विधाओं के संश्लेषण और मूल्यांकन के ज़रिए आलोचनात्मक पठन, प्रेरक और तर्कपूर्ण लेखन और शोध-लेखन कौशल के साथ।",
+      "of": "0c19b857",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[1].courses[2].description"
+      ]
+    },
+    {
+      "t": "6वीं कक्षा इतिहास",
+      "of": "f556d4fe",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].title"
+      ]
+    },
+    {
+      "t": "प्राचीन मिस्र, निकट पूर्व, भारत, चीन, यूनान और रोम की आरंभिक सभ्यताएँ, और आधुनिक दुनिया पर उनका प्रभाव।",
+      "of": "95fb99fb",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[0].description"
+      ]
+    },
+    {
+      "t": "7वीं कक्षा इतिहास",
+      "of": "7e25c71d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].title"
+      ]
+    },
+    {
+      "t": "रोमन साम्राज्य के पतन से लेकर खोज के युग तक का इतिहास और भूगोल, संस्कृतियों और धर्मों पर ज़ोर के साथ।",
+      "of": "58ac3063",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[1].description"
+      ]
+    },
+    {
+      "t": "8वीं कक्षा इतिहास",
+      "of": "e7562900",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].title"
+      ]
+    },
+    {
+      "t": "पहले अमेरिकियों से लेकर औद्योगीकरण तक का अमेरिकी इतिहास, जिसमें हर अक्टूबर Washington, DC की कक्षा यात्रा शामिल है।",
+      "of": "1680e9da",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[2].courses[2].description"
+      ]
+    },
+    {
+      "t": "6वीं कक्षा गणित",
+      "of": "81633dfc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].title"
+      ]
+    },
+    {
+      "t": "Reveal Math Course 1: भिन्न और दशमलव का भाग, ऋणात्मक संख्याएँ, अनुपात और दरें, व्यंजक और समीकरण, क्षेत्रफल और आयतन, और सांख्यिकीय तर्क।",
+      "of": "de54da9f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
+      ]
+    },
+    {
+      "t": "7वीं कक्षा गणित",
+      "of": "d5191f95",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].title"
+      ]
+    },
+    {
+      "t": "Reveal Math Course 2: समानुपाती संबंध, परिमेय संख्याएँ, पैमाने पर चित्र और ज्यामितीय रचनाएँ, और नमूनों से निष्कर्ष।",
+      "of": "99212e70",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "8वीं कक्षा गणित",
+      "of": "6c5ce476",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].title"
+      ]
+    },
+    {
+      "t": "Reveal Math Course 3: एक या दो चरों वाले रैखिक समीकरण, फलन, और समरूपता व सर्वांगसमता पर लागू पाइथागोरस प्रमेय।",
+      "of": "ce31e1d1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[2].description"
+      ]
+    },
+    {
+      "t": "8वीं कक्षा - Algebra 1",
+      "of": "7dbd8174",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].title"
+      ]
+    },
+    {
+      "t": "योग्य 8वीं कक्षा के Honors छात्रों के लिए — समीकरण, असमिकाएँ, बहुपद, गुणनखंडन, ग्राफ़ और करणी, रोज़ रात के होमवर्क के साथ।",
+      "of": "9a2c56a3",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
+      ]
+    },
+    {
+      "t": "6वीं कक्षा विज्ञान",
+      "of": "a22054cc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].title"
+      ]
+    },
+    {
+      "t": "जीव विज्ञान — कोशिकाएँ, आनुवंशिकता, सृष्टि बनाम विकासवाद, कशेरुकी और अकशेरुकी, वायरस, एककोशिकीय जीव और पौधे।",
+      "of": "203a212a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "7वीं कक्षा विज्ञान",
+      "of": "5b20559f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].title"
+      ]
+    },
+    {
+      "t": "भौतिक विज्ञान, जिसमें वैज्ञानिक पद्धति और छात्रों द्वारा बनाई गई जाँचों पर बड़ा ज़ोर है, ऊर्जा और बल से लेकर रासायनिक अभिक्रियाओं और चुंबकत्व तक।",
+      "of": "0d44dbf2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[1].description"
+      ]
+    },
+    {
+      "t": "8वीं कक्षा विज्ञान",
+      "of": "0ae079e2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].title"
+      ]
+    },
+    {
+      "t": "पृथ्वी विज्ञान, इस पर केंद्रित कि पृथ्वी की बनावट जीवन को कैसे संभालती है — उसकी सतह, वायुमंडल, अंतरिक्ष और जल — प्रयोगशाला कार्य और प्रोजेक्ट के ज़रिए।",
+      "of": "8af0ac45",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[4].courses[2].description"
+      ]
+    },
+    {
+      "t": "फ़िटनेस के घटकों पर आधारित व्यक्तिगत और टीम खेल, अमेरिकी फ़ुटबॉल और सॉकर से लेकर वॉलीबॉल और रस्सी कूद तक, नियमों और कौशल की जाँच के साथ।",
+      "of": "09629110",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[0].description"
+      ]
+    },
+    {
+      "t": "फुर्ती",
+      "of": "1878a5d8",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].title"
+      ]
+    },
+    {
+      "t": "फुर्ती के अभ्यास, फ़िटनेस चुनौतियाँ और बाधा कोर्स, जिनसे तालमेल, संतुलन, गति और आत्मविश्वास बढ़े, हर फ़िटनेस स्तर के लिए।",
+      "of": "4e6e23d5",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[1].description"
+      ]
+    },
+    {
+      "t": "She Runs With Purpose",
+      "of": "95e423a1",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].title"
+      ]
+    },
+    {
+      "t": "लड़कियों के लिए: हर कक्षा में एक छोटा बाइबल पाठ, फिर पैदल चलना और दौड़ना, जो नौ हफ़्तों के अंत में 5K पूरी करने की तैयारी कराता है।",
+      "of": "98abec6b",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[2].description"
+      ]
+    },
+    {
+      "t": "He Runs With Purpose",
+      "of": "b17e4fee",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].title"
+      ]
+    },
+    {
+      "t": "लड़कों के लिए: हर कक्षा में एक छोटा बाइबल पाठ, फिर पैदल चलना और दौड़ना, जो नौ हफ़्तों के अंत में 5K पूरी करने की तैयारी कराता है।",
+      "of": "17d5880f",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[3].description"
+      ]
+    },
+    {
+      "t": "स्वस्थ आदतें",
+      "of": "ce1dcd9d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].title"
+      ]
+    },
+    {
+      "t": "पोषण और स्वास्थ्य — संतुलित भोजन, पानी पीना, ऊर्जा और खान-पान के चुनाव — इस बात के इर्द-गिर्द कि परमेश्वर ने शरीर को कैसे रचा।",
+      "of": "bc701008",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "American Sign Language का परिचय",
+      "of": "5f0e5489",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "एक दृश्य भाषा के रूप में ASL की बुनियादी बातें, और उन छात्रों के लिए आधार जो हाई स्कूल में विदेशी भाषा के रूप में ASL ले सकते हैं।",
+      "of": "2f8025dc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[5].description"
+      ]
+    },
+    {
+      "t": "स्पेनिश का परिचय",
+      "of": "438c36f2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "स्पेनिश संस्कृति और बातचीत, सरल व्याकरण और क्रिया-रूपों के साथ, और शब्दावली पर ख़ास ज़ोर।",
+      "of": "cbfbe5fc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[5].courses[6].description"
+      ]
+    },
+    {
+      "t": "Bible Sketch",
+      "of": "6c1e3ebf",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].title"
+      ]
+    },
+    {
+      "t": "बाइबल अध्ययन के साथ स्केचिंग और वॉटरकलर, जो सृष्टि, पतन, उद्धार और पुनर्स्थापना के विषयों को चित्रित करते हैं।",
+      "of": "3a085882",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "शुरुआती बैंड (पूरे साल)",
+      "of": "93400657",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].title"
+      ]
+    },
+    {
+      "t": "वाद्य संगीत की बुनियाद — तकनीक, संगीत पढ़ना, ताल और स्वर — बिना किसी पूर्व अनुभव के।",
+      "of": "d1b6eb14",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[1].description"
+      ]
+    },
+    {
+      "t": "बैंड (पूरे साल)",
+      "of": "4989cb97",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].title"
+      ]
+    },
+    {
+      "t": "तकनीक, संगीत पढ़ने, ताल, स्वर और सामूहिक प्रस्तुति में वाद्य प्रशिक्षण आगे जारी।",
+      "of": "1d7829a0",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[2].description"
+      ]
+    },
+    {
+      "t": "सिलाई",
+      "of": "2b5b5d9a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].title"
+      ]
+    },
+    {
+      "t": "हाथ की सिलाई — बटन, सीवन की मरम्मत और तुरपाई — साथ ही सिलाई मशीन का सुरक्षित इस्तेमाल और सरल सिलाई-निर्माण, शुरुआती लोगों के लिए।",
+      "of": "eb8e1434",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[3].description"
+      ]
+    },
+    {
+      "t": "Praise Team",
+      "of": "cf0bf302",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].title"
+      ]
+    },
+    {
+      "t": "गाने या बजाने वाले छात्रों के लिए एक प्रस्तुति कोर्स, जो रिहर्सल और प्रस्तुतियों के ज़रिए गायन, वादन और आराधना-नेतृत्व के कौशल बनाता है।",
+      "of": "5b0bd3e3",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[4].description"
+      ]
+    },
+    {
+      "t": "समूह गायन, संगीत पढ़ना और स्वर-भागों में गायन, एकल के मौक़ों के साथ और कोर्स के अंत में एक कॉन्सर्ट।",
+      "of": "218a70e2",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[5].description"
+      ]
+    },
+    {
+      "t": "इम्प्रोवाइज़ेशन, मूकाभिनय, अभिनय और रंगमंच की तकनीकी भूमिकाएँ, जिनका अंत एक एकांकी नाटक के मंचन से होता है।",
+      "of": "ffb87142",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[6].description"
+      ]
+    },
+    {
+      "t": "म्यूज़िकल थिएटर",
+      "of": "0a9bd0ea",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ]
+    },
+    {
+      "t": "नृत्य, गायन और अभिनय को बारी-बारी से कराने वाला परिचय, अंत में एक या दो गीतों की प्रस्तुति के साथ।",
+      "of": "b1e8b869",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].description"
+      ]
+    },
+    {
+      "t": "कई शैलियों में बुनियादी तकनीक, ज़्यादातर आधुनिक नृत्य और आराधना में उसके उपयोग पर आधारित, शुरुआती और अनुभवी दोनों नर्तकों के लिए।",
+      "of": "b487b440",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[6].courses[8].description"
+      ]
+    },
+    {
+      "t": "STEM/टेक",
+      "of": "9ff2c781",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].name"
+      ]
+    },
+    {
+      "t": "इनोवेशन लैब",
+      "of": "d41b6835",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].title"
+      ]
+    },
+    {
+      "t": "व्यावहारिक STEM डिज़ाइन चुनौतियाँ, प्रयोग और साझा प्रोजेक्ट, जो वास्तविक दुनिया की समस्याओं की पड़ताल करते हैं।",
+      "of": "50a57461",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[0].description"
+      ]
+    },
+    {
+      "t": "डिजिटल मीडिया का परिचय",
+      "of": "c5167f2e",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].title"
+      ]
+    },
+    {
+      "t": "Adobe Photoshop में शुरुआती ग्राफ़िक डिज़ाइन — सेलेक्शन, लेयर, फ़ोटो एडिटिंग और वेक्टर ग्राफ़िक्स।",
+      "of": "af972636",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[1].description"
+      ]
+    },
+    {
+      "t": "HTML, CSS और बुनियादी JavaScript का परिचय, जो हाई स्कूल कोडिंग प्रोग्राम की नींव बनता है।",
+      "of": "67b74814",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[2].description"
+      ]
+    },
+    {
+      "t": "दृश्य डिज़ाइन के सिद्धांत एक असली प्रोजेक्ट पर लागू: चुनी हुई या काल्पनिक कंपनी के लिए लोगो बनाना।",
+      "of": "47b62615",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[7].courses[3].description"
+      ]
+    },
+    {
+      "t": "आस्था और नेतृत्व",
+      "of": "9d9f959c",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].name"
+      ]
+    },
+    {
+      "t": "Navigating Middle School with Character and Faith",
+      "of": "5c46d424",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].title"
+      ]
+    },
+    {
+      "t": "मिडिल स्कूल में आने पर नौ इकाइयों वाला बिना ग्रेड का कोर्स — टकराव, साथियों का दबाव, पहचान, ईमानदारी, असफलता और दोस्ती, बाइबल के सत्य के ज़रिए।",
+      "of": "255abfcc",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[0].description"
+      ]
+    },
+    {
+      "t": "Becoming a Young Man of God",
+      "of": "4421f8ab",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].title"
+      ]
+    },
+    {
+      "t": "मिडिल स्कूल के लड़कों के लिए: पहचान, पुरुषत्व और आत्मविश्वास पर गतिविधियाँ, चर्चा और धर्मग्रंथ।",
+      "of": "94de755a",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[1].description"
+      ]
+    },
+    {
+      "t": "Becoming a Young Woman of God",
+      "of": "b5cb893d",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].title"
+      ]
+    },
+    {
+      "t": "मिडिल स्कूल की लड़कियों के लिए: सीमाएँ तय करने, निराशा संभालने और मीडिया के दबाव से दूर आध्यात्मिक रूप से बढ़ने पर खेल और गतिविधियाँ।",
+      "of": "a4352311",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[2].description"
+      ]
+    },
+    {
+      "t": "Students on Mission",
+      "of": "7ccec014",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].title"
+      ]
+    },
+    {
+      "t": "मिशनरियों और स्थानीय अगुवों के ज़रिए परमेश्वर दुनिया भर में क्या कर रहा है, और छात्र Charlotte समुदाय की सेवा कैसे कर सकते हैं।",
+      "of": "bfa3d36c",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[3].description"
+      ]
+    },
+    {
+      "t": "केवल चुने हुए 8वीं कक्षा के छात्रों के लिए: सेवक नेतृत्व पर एक सेमेस्टर का कोर्स, पूरे साल कैंपस लीडर के रूप में सेवा करने की प्रतिबद्धता के साथ।",
+      "of": "bb90b5c4",
+      "at": [
+        "hickory-grove-christian:divisions[1].departments[8].courses[4].description"
       ]
     },
     {
