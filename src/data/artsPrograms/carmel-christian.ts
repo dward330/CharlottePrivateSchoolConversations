@@ -157,7 +157,7 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'Anna Jernigan’s arc anchors the program: a 2024 Best Actor finalist placement (as Lily in Anastasia, per Blumenthal’s own labeling) became the 2026 Best Actress win for Footloose, which carried on to the national Jimmy Awards. Note that the 2024 nominations belong to Anastasia, not to "Singin\' in the Rain" — the school’s undated news page pins a separate, earlier pair of noms (Pisacano, Wilson) to that different production. No NCTC festival result or state-level theatre honor was found in this pass; the Middle School Spring Play Competition names the NCTC circuit but no placement is published.',
+      'Anna Jernigan’s arc anchors the program: a 2024 Best Actor finalist placement (as Lily in Anastasia, per Blumenthal’s own labeling) became the 2026 Best Actress win for Footloose, which carried on to the national Jimmy Awards. Note that the 2024 nominations belong to Anastasia, not to "Singin\' in the Rain" — the school’s undated news page pins a separate, earlier pair of noms (Pisacano, Wilson) to that different production.',
     sources: [
       { label: 'carmelchristian.org — Theatre Productions (2025-26 season)', url: CC_PRODUCTIONS },
       { label: 'carmelchristian.org — 2024-25 theatre season', url: CC_SEASON_2425 },

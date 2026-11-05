@@ -174,6 +174,14 @@ are hand-authored, and new source material is invisible to all three until someo
 them. `scripts/check_metrics.mjs` (step 5) detects all three; this section explains how
 to act on what it reports.
 
+### Before anything renders: is it for parents or for us?
+
+Research notes (could not confirm, searches returned nothing, derived from, reconciled
+as, marked TO VERIFY) are **dev-only**: put them in a `kind: 'verify'` flag or a
+`toVerify` cell, never in prose. What the school does not publish, and a stale or
+estimated figure, stay parent-facing. See "Research notes a parent should never see" in
+§6 of `.claude/docs/DATA-SCHEMA.md`.
+
 ### 0. Did the ingest capture everything? (coverage)
 
 Two kinds of data loss happen *upstream* of the manifest, so no amount of checking the

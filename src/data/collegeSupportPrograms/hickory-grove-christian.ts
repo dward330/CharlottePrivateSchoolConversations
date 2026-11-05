@@ -387,7 +387,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'gap',
+        kind: 'verify',
         text: 'No per-exam AP 1–5 distribution is published — only the overlapping "students who earned a 5 / 4 / 3 on at least one exam" counts. The "17 AP courses" marketing figure and the profile\'s shorter named list (13) are reconciled here as catalog-vs-offered-this-year, not a contradiction.',
       },
       {
@@ -450,7 +450,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'gap',
+        kind: 'verify',
         text: 'No senior-class size or seniors-per-counselor ratio is published. The ≈34:1 figure is computed from the Class of 2025 bucket counts (43 + 15 + 7 + 2 = 67 graduates) against the two counseling staff; the ≈144:1 school-wide figure uses all 287 high-school students. Both are derived, not stated. The 2026–27 profile prints attendance shares without counts, so no newer senior count exists.',
       },
     ],

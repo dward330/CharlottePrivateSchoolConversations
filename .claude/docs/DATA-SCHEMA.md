@@ -1370,6 +1370,23 @@ After any of these, run `npm run schema` to refresh this doc (and `npm run check
 which catches unmatched subtopics and Compare gaps; `npm run check:ranks` guards the
 acceptance-list rank labels and is chained into the build).
 
+### Research notes a parent should never see
+
+Rendered text speaks to parents about the **school**. Anything about **our research**
+belongs to the developer and renders on the dev server only (user, 2026-11-05):
+
+- **Dev-only**: what our searches returned, what we could not open, confirm or recover,
+  how two of the school's figures were reconciled, how a figure was derived, which field
+  or marker we set, and why we left something out. Put it in a `kind: 'verify'` flag
+  (College Support, High School Placement, After School, Summer), which
+  `visibleFlags()` in `src/lib/toVerify.ts` drops in production, or in `toVerify` on a
+  Sports cell. Never write it into prose, a note or a deep-dive box, which have no dev filter.
+- **Parent-facing**: what the school does not publish, a figure that is old or estimated,
+  a source that is third-party. These keep `gap` / `stale` / `estimate`, because a parent
+  reading the figure needs them.
+- **Never point prose at a dev-only marker.** "Marked TO VERIFY above" reads as nonsense in
+  production, where the marker is hidden.
+
 ### Keeping this doc honest
 
 - `npm run schema` — regenerate.

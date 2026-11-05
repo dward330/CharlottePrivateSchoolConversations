@@ -311,7 +311,7 @@ export const covenantDay: SummerProgram = {
         text: 'Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.',
       },
       {
-        kind: 'gap',
+        kind: 'verify',
         text: 'The school markets "**29 camps**"; the public page enumerates 20 (a 21st listing, "Splash Squad," is a staff position). Per-week variants and portal-only camps likely account for the difference.',
       },
       {

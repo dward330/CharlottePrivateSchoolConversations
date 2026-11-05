@@ -141,7 +141,7 @@ export const davidsonDay: AfterSchoolProgram = {
         text: 'Every quotation above comes from an archived capture dated **May 2020**. The live site carries no program description at all, so none of it is confirmed for 2026-27 — including the 15:1 ratio.',
       },
       {
-        kind: 'gap',
+        kind: 'verify',
         text: 'No enrichment catalog is recoverable. The archived page said the school "contracts with both internal and external providers… Programs are offered daily between 2:45-6 p.m., and fees vary by program. Sample offerings include:" — and the sample offerings resolve to three photo blocks with **empty captions**. No class name, day, grade range or fee survives, so none is listed here.',
       },
       {

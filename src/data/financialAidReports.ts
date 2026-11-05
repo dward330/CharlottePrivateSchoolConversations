@@ -1397,7 +1397,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       figureNote:
         'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees; textbooks are included in TK–5 but are an additional expense in grades 6–12, and that amount is not published.',
       figureNote2:
-        'No prior-year bars: the school\'s live page shows only the current year and the archived copies could not be retrieved — a limit of our toolchain, not a school gap. Enrolment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
+        'Enrolment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
       source:
         'charlottelatin.org — Tuition & Financial Assistance; Upper School Profile 2025–26, retrieved 24 Jul 2026',
     },
@@ -1486,16 +1486,8 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           body: 'The published financial aid questions-and-answers document states an applying family can expect "**a need-blind decision**" — the clearest available statement that applying for aid is described as not affecting the admission decision.',
         },
         {
-          tag: 'NOT RETRIEVED — THE AID DOCUMENT LIBRARY',
-          body: 'Nine financial aid documents are published — guiding principles, commonly-asked questions, scholarships, the Clarity guides in English and Spanish, and a non-custodial parent waiver form. All sit on a third-party document service our tools could not open; only each summary line was readable. **These are public and open fine in an ordinary browser.** The renewal policy, appeals process and mid-year change-of-circumstance policy are very likely inside them, and are recorded as not retrieved rather than not published.',
-        },
-        {
           tag: 'NOT PUBLISHED',
           body: 'What it costs a family to file (aid platforms commonly charge a fee; the pages do not say whether one applies) · when aid decisions arrive relative to admission decisions · the confidentiality policy — who inside the school sees a family\'s financial information, and how long it is retained.',
-        },
-        {
-          tag: 'RESEARCH PASS, NOT RE-RETRIEVED',
-          body: 'The 2024–25 financial aid process presentation describes the mechanism in more detail: the platform produces an Estimated Family Contribution, demonstrated need is published tuition minus that contribution, and a Financial Aid Committee decides. It names **School and Student Services** as the 2024–25 platform against **Clarity** today — a change of platform between years, not a contradiction. Surfaced through a research pass and not re-read at the source.',
         },
       ],
       source:
@@ -1526,10 +1518,6 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         {
           tag: 'NOT PUBLISHED',
           body: 'The **median** award — the published $17,900 average must not be read as a typical or middle award · the award range, smallest to largest · whether any need-based award covers full tuition · how many students or families receive need-based aid overall (the count of 36 is endowed scholarships only).',
-        },
-        {
-          tag: 'WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF TUITION',
-          body: 'We normally divide the average award by the same year\'s tuition to show how far a typical award reaches. The average is published for **2024–25**; the tuition table has moved to **2026–27**; and the 2024–25 published rates could not be retrieved. Dividing across those years would produce a figure describing no actual year, so it is left out rather than printed precise and meaningless.',
         },
         {
           title: 'Supplemental support',
@@ -1565,10 +1553,6 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
           body: 'Sibling discounts · employee tuition remission · clergy, military or first-responder discounts · an indexed or variable tuition programme · whether merit awards may be held together with need-based aid. Each is recorded as not published rather than as not offered.',
-        },
-        {
-          tag: 'RESEARCH PASS, NOT RE-RETRIEVED',
-          body: 'The endowed gifts page lists a wider set of named scholarship and award funds beyond the five above, including funds supporting Lower School students, a student-athlete fund, and an alumni-established fund. Surfaced through a research pass and not re-read at the source, so **no count of funds is stated here**. Fund names are institutional proper nouns; no recipient is named anywhere in this report.',
         },
       ],
       source:
@@ -1635,10 +1619,6 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         { value: '$146,000', label: 'a Grades 9–12 run at 2026–27 rates' },
       ],
       boxes: [
-        {
-          tag: 'NOT RETRIEVED — OUR LIMITATION, NOT THE SCHOOL\'S',
-          body: 'A tuition page shows the current year and overwrites the last, so a multi-year trend has to come from web archive captures. Our retrieval tools could not reach the archive service across repeated attempts, in the initial pass and again in a deeper research pass, so there are **no school-published rates for 2022–23 through 2025–26**. This is a toolchain limit. It is **not** a finding that the school conceals its pricing history and should not be read as one. Third-party summaries exist but disagree with one another and none is reproduced.',
-        },
         {
           title: 'Aid figures across years — two points, not a trend',
           body: '**$3.125M** offered in 2021–22 and **$3.25M** awarded in 2024–25. These sit three years apart with nothing published in between, and come from different pages that may not count identically. Two points do not make a trend, and no line is drawn between them.',
@@ -1715,7 +1695,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       figureNote:
         'Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap — TK and Kindergarten priced individually, Grades 1–5 sharing one rate, Grades 6–12 another. Tuition includes student iPads and all technology, all textbooks (including A.P. textbooks), A.P. exam fees, most class field trips, and all Lower School student supplies — an explicit inclusion list that is the least consistently disclosed item in this series.',
       figureNote2:
-        'No prior-year bars: the school\'s live page shows only the current year and is overwritten each cycle; archived rate cards could not be retrieved — a limit of the toolchain, not a school gap. The page notes tuition is subject to change for 2027–28.',
+        'The page notes tuition is subject to change for 2027–28.',
       boxes: [{ tag: 'NOT PUBLISHED', title: 'Tuition-table specifics', body: '' }],
       bullets: [
         'A per-grade breakdown within the Grades 1–5 and Grades 6–12 bands',
@@ -1757,10 +1737,6 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         {
           title: 'The deposit, 2026–27',
           body: 'A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost — so it is a timing obligation rather than an addition to the published rate, and it is the first instalment, not an extra cost.',
-        },
-        {
-          tag: 'TWO PUBLIC FIGURES NOT RETRIEVED',
-          body: 'The Lower School page links a "2025–26 Extended Day Schedules and Fees" document, and the transportation page states fare information is available — but its live text refers to **2023–2024** and the fare table did not render. Both are documents a family can open or request in a single step; their contents were not retrieved here, not withheld by the school.',
         },
       ],
       source:
@@ -1926,10 +1902,6 @@ const PROVIDENCE_DAY: FinancialAidReport = {
           body: 'The **$2,500** deposit is non-refundable and secures placement for an accepted student, credited to the overall tuition cost. The published language establishes it is not returned if a family withdraws after signing — but it does not describe what further obligation, if any, a family carries on withdrawal later in the year.',
         },
         {
-          tag: 'ONE FIGURE AT A LOWER VERIFICATION TIER',
-          body: 'An older school document tied to a previous billing provider referenced a **$45 per family** annual fee for the extended payment plan. It could not be confirmed against any current-year page and the billing arrangement has since changed — recorded only to show plan fees have existed historically, **not** a 2026–27 figure.',
-        },
-        {
           tag: 'NOT PUBLISHED — SEVEN CONTRACT & PAYMENT QUESTIONS',
           body: 'Whether the 3/10/12-installment plans carry a service fee or interest · whether paying in full earns a discount · which third-party lender, if any, the school partners with · whether a tuition refund or insurance plan is offered, mandatory, and what it costs · the withdrawal and mid-year departure obligation beyond the deposit · the late-payment and arrears policy · whether any prepaid multi-year or tuition-lock option exists. These sit in the enrollment contract, which is not public — a normal arrangement.',
         },
@@ -1952,10 +1924,6 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { value: '$145,300', label: 'a Grades 9–12 run at 2026–27 rates ($36,325 × 4)' },
       ],
       boxes: [
-        {
-          tag: 'TUITION TREND — NOT BUILT',
-          body: 'This section normally carries three to five years of published rates. For Providence Day it does not: the tuition page shows only the current year and is overwritten each cycle, and archived prior-year rate cards were not retrieved. Rather than substitute third-party figures for the school\'s own rate cards, this report reports no tuition trend — a limit of the toolchain, not a disclosure failure.',
-        },
         {
           title: 'The aid trend the school does publish',
           body: 'Total aid awarded rose from **$3,105,191 (2012–13)** to **$3,683,971 (2017–18)**, with a $3,013,928 dip in 2013–14 between. The average grant rose $12,273 → $13,695; the share of students at 16% at both ends. Enrollment grew 1,552 → 1,627 students over the window. No comparable figures were located after 2017–18. Endowment market value grew $6,486,512 (Jun 2013) → $14,029,707 (Jun 2018); the school\'s strategic framework targets $55M by 2030.',

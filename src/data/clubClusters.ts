@@ -418,7 +418,7 @@ const GASTON_DAY: ClubClusters = {
       oneLiner: 'Gold medal; four teams — 2012, 2016, 2018 and 2020',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad. The gold medal is third-party-confirmed — the archived iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass, though team participation across all four years is confirmed by those archived pages.',
+      note: 'The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad.',
       source: 'gastonday.org — Academic Profile 2025-2026; iGEM team archives (2012, 2016, 2018, 2020)',
     },
     {

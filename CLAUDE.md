@@ -1037,6 +1037,13 @@ Each was set after a real defect.
   page on a school's site stay with the card that cites them.
 - **The real logo always stays.** Never substitute a design-mock mark (e.g. the blueprint
   "CS" square) for `public/logo.png`, even when following a design handoff that shows one.
+- **Research bookkeeping is dev-only.** Text about our own research (what a search
+  returned, what we could not confirm or open, how we reconciled or derived a figure, a
+  field or marker we set) goes in a `kind: 'verify'` flag or a `toVerify` cell, which render
+  on the dev server only, never in prose. Parent-facing text says what the *school*
+  publishes or does not; a stale, estimated or third-party figure stays visible. Use
+  judgment per item; the test is whether a parent reading it would think the site is
+  unsure of its own data (user, 2026-11-05). See §6 of `DATA-SCHEMA.md`.
 - **Research-area cards carry no kicker line** — no `1a ·` numbering, no
   `Topic 01 of 07` counters.
 - **When adding a school, mirror the RICHEST existing school's card structure**

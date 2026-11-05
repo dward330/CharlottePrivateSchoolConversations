@@ -361,7 +361,7 @@ export const charlotteCatholic: SportsProgram = {
       { name: 'Mike Hazel, NSCA CSCS', role: 'Strength & Conditioning Coach', width: 0.6, since: 'not published', toVerify: true },
     ],
     worthKnowing:
-      'The disclosure gap here is unusually sharp. Baseball’s staff page carries eight coaches with full bios including start years, coaching records and professional or draft history, while the other nineteen sports publish nav boilerplate with no named coach at all. Tenure bars above are therefore marked to verify for everyone except the baseball staff — the school does not publish start years outside that one programme.',
+      'The disclosure gap here is unusually sharp. Baseball’s staff page carries eight coaches with full bios including start years, coaching records and professional or draft history, while the other nineteen sports publish nav boilerplate with no named coach at all.',
     sources: [
       { label: 'charlottecatholic.org — Athletics', url: 'https://www.charlottecatholic.org/athletics/all-sports' },
       { label: 'charlottecatholic.org — School Profile 2025-2026 (PDF)', url: PROFILE },
