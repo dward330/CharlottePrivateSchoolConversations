@@ -473,7 +473,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'Transcript production and the registrar function',
     ],
     mechanicsNote:
-      'Junior and senior college-process detail is published as embedded Prezi presentations rather than as HTML, so the office almost certainly runs more structure than this list captures. Only what is verifiable in fetchable published material is listed.',
+      'Junior and senior college-process detail is published as embedded Prezi presentations rather than as HTML, so the office almost certainly runs more structure than this list captures.',
     reachTitle: 'Reach and tools',
     reach: [
       'NC State University lists Charlotte Catholic as a named admissions-visit venue.',
@@ -487,7 +487,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
         text: 'The ~54:1 senior caseload is COMPUTED from the profile’s 324 seniors and its six named counselors. The school does not publish a ratio, and the director is counted as a counselor here.',
       },
       {
-        kind: 'gap',
+        kind: 'verify',
         text: 'The junior and senior college-planning pages embed Prezi presentations, whose content is not reachable as text. The four-year timeline above is therefore built from published policy, not from the office’s own process deck.',
       },
     ],

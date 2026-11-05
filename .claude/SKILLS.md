@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**11 active** · 0 retired · Last updated **2026-10-31**
+**11 active** · 0 retired · Last updated **2026-11-05**
 
 ---
 
@@ -173,7 +173,7 @@ and leave the index telling the truth about what shipped.
 
 **Keep the derived layers in sync with raw research.**
 
-`.claude/skills/ingest-source-material/SKILL.md` · added 2026-07-03 · updated 2026-08-30
+`.claude/skills/ingest-source-material/SKILL.md` · added 2026-07-03 · updated 2026-11-05 (research bookkeeping is dev-only)
 Ships with `build_docs.py`. *The oldest skill in the repo.*
 
 Regenerates the distilled notes in `.claude/docs/` and the manifest `src/data/schools.json`

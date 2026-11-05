@@ -248,7 +248,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     ladderNote:
-      'No named student or year could be found for any honors-ensemble placement, so no count is given. The frequently-repeated claim of "Excellent and Superior ratings at local music festivals" could not be verified at any source — it does not appear on the school’s music page — and is therefore omitted here rather than repeated.',
+      'No named student or year could be found for any honors-ensemble placement, so no count is given.',
     sources: [
       { label: 'charlottechristian.com — Music', url: CC_MUSIC },
       { label: 'Fine Arts', url: CC_ARTS },

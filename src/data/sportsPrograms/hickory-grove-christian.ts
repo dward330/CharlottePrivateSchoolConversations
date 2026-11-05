@@ -291,7 +291,7 @@ export const hickoryGroveChristian: SportsProgram = {
       { name: 'Hannah Griffin', role: 'Volleyball (V & JV)', width: 1, since: 'head coach', toVerify: true },
     ],
     worthKnowing:
-      'The Coaches & Teams page names a head coach for nearly every varsity, JV and Middle School squad (Cross Country and Golf coaches Elizabeth Hamilton, Keith White and Todd Staples; Swimming Sam Cox; Cheer Carmen Costner among them), but publishes no bios, career records or tenure lengths — so no pedigree or continuity claim can be made from public sources. The "since" and width fields are therefore marked TO VERIFY rather than filled with a guessed year.',
+      'The Coaches & Teams page names a head coach for nearly every varsity, JV and Middle School squad (Cross Country and Golf coaches Elizabeth Hamilton, Keith White and Todd Staples; Swimming Sam Cox; Cheer Carmen Costner among them), but publishes no bios, career records or tenure lengths — so no pedigree or continuity claim can be made from public sources.',
     sources: [
       { label: 'hgchristian.org — Fall Sports (named head coaches)', url: FALL_SPORTS },
       { label: 'hgchristian.org — Winter Sports (named head coaches)', url: WINTER_SPORTS },
