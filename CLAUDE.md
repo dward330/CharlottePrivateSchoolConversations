@@ -693,6 +693,22 @@ GPA scales (`4.33` → `4,33`), quality points (`+0.5` → `+0,5`), quintile spr
 and, worst, `1,213` AP exams rendered `1.213`, which reads as *one point two one
 three*. They predated the checker and had sat at 178 for months.
 
+**Neither figure check sees a figure that was re-typed in place — run `check:digits` on
+new translations.** `check_figures.py` asks whether each figure is present, and
+`check:sepdrift` inspects only separator-bearing tokens. So the Hickory Grove rollout
+(PR #423) passed both with `11/17/25` written `17/11/25`, `4 and 6 p.m.` written
+`16 h et 18 h`, and Arabic counts spelled out as words. `scripts/check_digit_tokens.mjs`
+(`npm run check:digits`) compares the multiset of atomic numeric tokens in each `t` with
+the one in its English `text`. Ranges are split, so "de 9:30 a 11:00" still matches
+`9:30–11:00`.
+
+**It is a report scoped to new work, and must stay that way.** Over every shipped unit it
+flags **1,209 of 138,465**, and the large majority are deliberate, native-reviewed
+renderings: `Grade 6` → "Sexto", fr `9h30`, it `13:30`, `1.5-hour` → `90 minuti`. Gating on
+that would park the build red. By default it compares only units whose stamp is new since
+`main` (`--base <ref>` to change it, `--all` to audit everything) and always exits 0. On the
+#423 rollout it compares 1,773 units and reports 3.
+
 **Units are NEVER converted — settled 2026-08-24, and the `CONVERSIONS`
 allowlist is gone.** `es` alone used to render `53,000 sq ft` as `4.924 m²` and
 `6-foot-10` as `2,08 m`; the other eight locales kept the English figure. That
