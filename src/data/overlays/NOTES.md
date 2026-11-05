@@ -2040,6 +2040,8 @@ therefore keyed by string **and** locale.
 | `~47,000 sq ft, 2022` | `it` | Figure plus unit. |
 | `11 National Merit Commended Students (2025)` | `te` | Award-tier tokens under the te convention; the translated siblings carry non-award prose. |
 | `2 National Merit Finalists (2025)` | `te` | Same as above. |
+| `11 National Merit Commended Students (2026)` | `te` | Same as above (catholicprofile, 2026-11-05). |
+| `7 National Merit Finalists (2026)` | `te` | Same as above (catholicprofile, 2026-11-05). |
 | `2026 Blumey — Best Actress` | `bn`, `hi`, `te` | Named award category with its year. |
 | `50,000 sq ft, 2001` | `it` | Figure plus unit. |
 | `53,000 sq ft, 2001` | `it` | Figure plus unit. |

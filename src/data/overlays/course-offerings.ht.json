@@ -2315,8 +2315,9 @@
         "charlotte-catholic:divisions[0].departments[0].courses[10].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[13].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[14].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[15].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[16].tag",
@@ -2330,6 +2331,7 @@
         "charlotte-catholic:divisions[0].departments[7].courses[11].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[14].tag",
         "charlotte-catholic:divisions[0].departments[7].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].tag",
         "charlotte-catholic:divisions[0].departments[9].courses[5].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[10].courses[11].tag",
@@ -4357,11 +4359,11 @@
         "charlotte-catholic:divisions[0].departments[0].courses[9].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[12].tag",
         "charlotte-catholic:divisions[0].departments[0].courses[17].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[6].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[7].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[15].tag",
-        "charlotte-catholic:divisions[0].departments[1].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[8].tag",
         "charlotte-catholic:divisions[0].departments[1].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[18].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[19].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[7].tag",
         "charlotte-catholic:divisions[0].departments[2].courses[12].tag",
@@ -9457,8 +9459,8 @@
       ]
     },
     {
-      "t": "195 kou atravè 11 depatman plis enskripsyon doub — 24 AP, 43 Honors ak 18 Advanced, ak Visual & Performing Arts kòm pi gwo depatman an ak 39.",
-      "of": "ee05f62a",
+      "t": "199 kou atravè 11 depatman plis enskripsyon doub — 26 AP, 43 Honors ak 18 Advanced, ak Visual & Performing Arts kòm pi gwo depatman an ak 39.",
+      "of": "a21a8d48",
       "at": [
         "charlotte-catholic:divisions[0].teaser"
       ]
@@ -9595,8 +9597,8 @@
       ]
     },
     {
-      "t": "Advanced Placement English 11",
-      "of": "f5be7fc2",
+      "t": "Advanced Placement English 11: English Language and Composition",
+      "of": "b6a3a251",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].title"
       ]
@@ -9630,11 +9632,10 @@
       ]
     },
     {
-      "t": "Advanced Placement English 12",
-      "of": "f4be7e2f",
+      "t": "Advanced Placement English 12: English Literature and Composition",
+      "of": "f8fbbded",
       "at": [
-        "charlotte-catholic:divisions[0].departments[0].courses[13].title",
-        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[0].courses[13].title"
       ]
     },
     {
@@ -9642,6 +9643,13 @@
       "of": "49e16eeb",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
+      ]
+    },
+    {
+      "t": "Advanced Placement English 12: English Language and Composition",
+      "of": "cd8951f0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
       ]
     },
     {
@@ -9694,38 +9702,52 @@
       ]
     },
     {
+      "t": "Academic Skills 9-10, 11-12",
+      "of": "38bc930b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+      ]
+    },
+    {
+      "t": "Kou yon semès sa a fèt pou elèv nan pwogram Academic Achievement la ke yon pwofesè pwogram Academic Achievement oswa lekòl yo te ye anvan an rekòmande.",
+      "of": "c8c7bc94",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+      ]
+    },
+    {
       "t": "Sipò akademik gide",
       "of": "9b78fbb3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
       ]
     },
     {
       "t": "Kou sa a fèt pou elèv Academic Achievement nan 10yèm, 11yèm ak 12yèm ane ki gen yon GPA 2.9 oswa pi ba.",
       "of": "a09da7c3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
     },
     {
       "t": "Assistants",
       "of": "60365f5c",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].title"
       ]
     },
     {
       "t": "Y ap bay asistan yo travay pou biwo a, konseye yo, ansyen elèv yo ak campus ministry. Evalyasyon an baze sou volonte yo pou aprann, inisyativ ak pèfòmans nan travay yo bay yo, ak konpetans yo montre nan domèn nan…",
       "of": "bff66572",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
       "t": "Study Hall",
       "of": "7e263085",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[3].title",
         "carmel-christian:divisions[1].departments[8].courses[4].title"
       ]
     },
@@ -9733,21 +9755,21 @@
       "t": "Elèv yo ap pase tan yo ap travay poukont yo sou kou yo nan yon anviwònman ak sipèvizyon.",
       "of": "126b46c0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
     },
     {
       "t": "Options Scholars",
       "of": "ea23a104",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
       ]
     },
     {
       "t": "Options",
       "of": "353e0d45",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[4].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[0].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[1].tag",
         "charlotte-catholic:divisions[0].departments[3].courses[2].tag",
@@ -9768,70 +9790,70 @@
       "t": "Elèv yo ap sèvi kòm mantò akademik pou kanmarad ki enskri nan Options Program lan. Nan wòl sa a, Options Scholars yo ap devlope relasyon ki gen sans ak kanmarad yo pandan y ap aprann sou divès andikap entelektyèl ak devlopmantal.",
       "of": "6b3c2edc",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
       ]
     },
     {
       "t": "SAT Prep",
       "of": "b74c7f92",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
       ]
     },
     {
       "t": "Kou sa a fèt pou ede elèv yo prepare byen pou SAT la. Enstriksyon an divize an de pati prensipal: Evidence-Based Reading & Writing ak Mathematics.",
       "of": "66820258",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
     },
     {
       "t": "Sports Ethics",
       "of": "0c47f292",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
       ]
     },
     {
       "t": "Elèv yo ap eksplore sans ki pi pwofon nan espò atravè yon pèspektiv etik ak filozofik.",
       "of": "abea03c6",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
     },
     {
       "t": "Honors African American Studies",
       "of": "968a9ea3",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
       ]
     },
     {
       "t": "Honors African American Studies konsantre sou figi ak mouvman istorik, politik, ekonomik ak sosyal ki gen enpak sou Ameriken Nwa yo pandan plis pase 400 ane.",
       "of": "43fa8361",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
       ]
     },
     {
       "t": "Honors Latin American Influence",
       "of": "37717a8b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
       "t": "Kou entèdisiplinè sa a fèt pou elèv yo eksplore enfliyans Latino nan Etazini pandan dènye syèk la.",
       "of": "17c5af7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
       ]
     },
     {
       "t": "Personal Finance",
       "of": "a1435e7b",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[4].courses[8].title"
       ]
     },
@@ -9839,42 +9861,42 @@
       "t": "Kou sa a fèt pou bay elèv yo ladrès pèsonèl yo bezwen chak jou. Sijè etid yo enkli ouvri yon kont labank ak kenbe yon kanè chèk ak kat debi, kalkile enpo sou revni pèsonèl ak analize taks sou anplwa.",
       "of": "ea401078",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "Marketing Principles",
       "of": "03b6c714",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
       ]
     },
     {
       "t": "Sa a se yon klas kòmansman pou ede elèv yo fè konesans ak mond biznis la atravè yon pèspektiv maketing.",
       "of": "18d8cc71",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
       ]
     },
     {
       "t": "Introduction to Accounting",
       "of": "93ea8a53",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].title"
       ]
     },
     {
       "t": "Klas sa a fèt pou bay yon konpreyansyon sou prensip debaz Sik Kontablite a jan li aplike nan antite biznis.",
       "of": "a7b074f0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
       "t": "Advanced Placement Computer Science A",
       "of": "5369b620",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[1].courses[12].title",
         "cannon:divisions[2].departments[6].courses[1].title",
         "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
       ]
@@ -9883,91 +9905,105 @@
       "t": "Advanced Placement Computer Science A mete aksan sou metodoloji pwogramasyon oryante-objè, ak yon gwo konsantrasyon sou rezoud pwoblèm ak devlopman algoritm.",
       "of": "564d1dca",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+      ]
+    },
+    {
+      "t": "Advanced Placement Computer Science Principles",
+      "of": "81704870",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+      ]
+    },
+    {
+      "t": "AP Computer Science Principles fèt pou prezante elèv yo konsèp fondamantal enfòmatik ak panse kalkilatwa, pandan l ap egzamine enpak enfòmatik sou sosyete a.",
+      "of": "fce797db",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
       ]
     },
     {
       "t": "Advanced Placement Cybersecurity Kickstart",
       "of": "01903e11",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
       ]
     },
     {
       "t": "AP Cybersecurity ofri yon entwodiksyon laj nan domèn nan epi li aliyen byen pre ak yon kou entwodiksyon nan sekirite sibènetik nan nivo inivèsite.",
       "of": "8caee700",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
       ]
     },
     {
       "t": "Introduction to STEM",
       "of": "cc9fd807",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
       ]
     },
     {
       "t": "Èske ou renmen konstwi bagay? Èske ou konn kirye pou konnen kijan bagay yo mache?",
       "of": "e4de0528",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
       ]
     },
     {
       "t": "Introduction to Engineering",
       "of": "1c2acea9",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
       ]
     },
     {
       "t": "Introduction to Engineering fèt pou devlope konsèp ak ladrès fondamantal ki pral prepare elèv yo pou kou jeni ki pi avanse.",
       "of": "646417ea",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
       ]
     },
     {
       "t": "Honors Electrical and Computing Engineering",
       "of": "b26ae162",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
       ]
     },
     {
       "t": "Kou sa a fèt pou prepare elèv yo pou kou avanse nan domèn jeni elektrik ak enfòmatik.",
       "of": "e2038a46",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
     },
     {
       "t": "Honors Civil and Construction Engineering",
       "of": "c7aa0cac",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].title"
       ]
     },
     {
       "t": "Kou sa a fèt pou prepare elèv yo pou kou nivo inivèsite nan domèn sa yo. Elèv yo ap eksplore konsèp konsepsyon ki enkli sistèm bilding, materyèl konstriksyon, estrikti ak chaj, transpò, ak anviwònman…",
       "of": "8e488616",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
     },
     {
       "t": "Honors Engineering Capstone",
       "of": "272f33a0",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].title"
       ]
     },
     {
       "t": "Honors Engineering Capstone disponib pou elèv ki fin fè kou jeni CCHS anvan yo epi ki enterese nan pouswiv yon diplòm nan domèn jeni.",
       "of": "7d1490b7",
       "at": [
-        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
+        "charlotte-catholic:divisions[0].departments[1].courses[19].description"
       ]
     },
     {
@@ -10831,17 +10867,31 @@
       ]
     },
     {
+      "t": "Advanced Placement Microeconomics & Macroeconomics",
+      "of": "95982226",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+      ]
+    },
+    {
+      "t": "Klas sa a kouvri sijè nan makwo-ekonomi ak mikwo-ekonomi. Kou sa a ekivalan a de kou yon semès nan teyori makwo-ekonomik ak teyori mikwo-ekonomik.",
+      "of": "ea8d26ae",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].description"
+      ]
+    },
+    {
       "t": "Advanced Placement European History",
       "of": "b75faf55",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+        "charlotte-catholic:divisions[0].departments[7].courses[16].title"
       ]
     },
     {
       "t": "Kou sa a kòmanse ak yon ti oryantasyon nan filozofi ak lojik. Rès kou a egzamine kijan Bondye revele tèt li bay moun.",
       "of": "0bb97eaf",
       "at": [
-        "charlotte-catholic:divisions[0].departments[7].courses[15].description",
+        "charlotte-catholic:divisions[0].departments[7].courses[16].description",
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
     },
@@ -11900,8 +11950,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Spanish V:",
-      "of": "ff6c6214",
+      "t": "Advanced Placement Spanish V: Language and Culture",
+      "of": "c2766855",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[26].title"
       ]
@@ -11914,8 +11964,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Spanish VI:",
-      "of": "486bc085",
+      "t": "Advanced Placement Spanish VI: Literature and Culture",
+      "of": "302f4d7f",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[27].title"
       ]
@@ -11933,7 +11983,8 @@
       "at": [
         "charlotte-catholic:divisions[0].departments[11].name",
         "charlotte-catholic:divisions[0].departments[11].courses[0].tag",
-        "charlotte-catholic:divisions[0].departments[11].courses[1].tag"
+        "charlotte-catholic:divisions[0].departments[11].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[11].courses[2].tag"
       ]
     },
     {
@@ -11962,6 +12013,20 @@
       "of": "ef3b3870",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
+      ]
+    },
+    {
+      "t": "Dual Enrollment: Art Appreciation",
+      "of": "e541601b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].title"
+      ]
+    },
+    {
+      "t": "Kou sa a prezante orijin ak devlopman istorik atizay la.",
+      "of": "f51aadb4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
     },
     {

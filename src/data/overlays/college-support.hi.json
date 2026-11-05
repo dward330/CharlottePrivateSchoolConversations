@@ -3951,32 +3951,32 @@
       ]
     },
     {
-      "t": "CCHS, AP और Honors के लिए एक quality point जोड़ता है और केवल भारित GPA दिखाता है — इसलिए कॉलेज जो संख्या पढ़ता है, वह पहले से ही स्कूल की समायोजित संख्या होती है।",
-      "of": "c9a9b609",
+      "t": "CCHS, AP, Honors और Dual Enrollment के लिए एक quality point जोड़ता है और केवल भारित GPA दिखाता है — इसलिए कॉलेज जो संख्या पढ़ता है, वह पहले से ही स्कूल की समायोजित संख्या होती है। Class of 2026 के 69% छात्रों ने कम से कम एक AP परीक्षा में 3 या उससे अधिक अंक पाए।",
+      "of": "6daee75a",
       "at": [
         "charlotte-catholic:transcript.subhead"
       ]
     },
     {
-      "t": "1,064",
-      "of": "b48e43e2",
+      "t": "1,184",
+      "of": "9f2ad13f",
       "at": [
         "charlotte-catholic:transcript.stats[0].value"
       ]
     },
     {
-      "t": "2024-25 में दी गई AP परीक्षाएँ (345 छात्र, कक्षा 11–12)",
-      "of": "258374c4",
+      "t": "2026 में दी गई AP परीक्षाएँ (393 छात्र, कक्षा 11–12)",
+      "of": "bd462922",
       "at": [
         "charlotte-catholic:transcript.stats[0].label"
       ]
     },
     {
-      "t": "23",
-      "of": "8ef29b12",
+      "t": "22",
+      "of": "8ff29ca5",
       "at": [
         "charlotte-catholic:transcript.stats[1].value",
-        "hickory-grove-christian:outcomes.stats[3].value"
+        "davidson-day:transcript.stats[0].value"
       ]
     },
     {
@@ -3994,8 +3994,8 @@
       ]
     },
     {
-      "t": "72%",
-      "of": "09c2c10b",
+      "t": "76%",
+      "of": "79b8e3ff",
       "at": [
         "charlotte-catholic:transcript.stats[3].value"
       ]
@@ -4015,31 +4015,43 @@
       ]
     },
     {
+      "t": "2 National Merit छात्रवृत्ति विजेता · 7 फ़ाइनलिस्ट · 11 Commended छात्र",
+      "of": "aa541d2a",
+      "at": [
+        "charlotte-catholic:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "US Naval Academy का 1 चयन · US Military Academy का 1 चयन",
+      "of": "0eb01541",
+      "at": [
+        "charlotte-catholic:transcript.merit[1].detail"
+      ]
+    },
+    {
       "t": "2 National Merit फ़ाइनलिस्ट · 11 Commended छात्र",
       "of": "f8de759a",
       "at": [
-        "charlotte-catholic:transcript.merit[0].detail"
+        "charlotte-catholic:transcript.merit[2].detail"
       ]
     },
     {
       "t": "US Naval Academy के 3 चयन",
       "of": "c29c8896",
       "at": [
-        "charlotte-catholic:transcript.merit[1].detail",
-        "charlotte-catholic:outcomes.scholarships[3]"
+        "charlotte-catholic:transcript.merit[3].detail"
       ]
     },
     {
       "t": "Cornell University में Army ROTC छात्रवृत्ति",
       "of": "9465449e",
       "at": [
-        "charlotte-catholic:transcript.merit[2].detail",
-        "charlotte-catholic:outcomes.scholarships[4]"
+        "charlotte-catholic:transcript.merit[4].detail"
       ]
     },
     {
-      "t": "Profile में Finalist और Commended की संख्या तो प्रकाशित है, पर Semifinalist की कोई पंक्ति नहीं और न कई वर्षों का सिलसिला — इसलिए यह ब्यौरा एक ही कक्षा का है, कोई रुझान नहीं।",
-      "of": "53132a19",
+      "t": "Profiles में Finalist और Commended की संख्या, और 2026 के लिए छात्रवृत्ति विजेताओं की संख्या भी प्रकाशित है, पर Semifinalist की कोई पंक्ति नहीं। दो कक्षाएँ दिखाई गई हैं, हर एक जैसी प्रकाशित हुई वैसी ही — दो वर्ष कोई रुझान नहीं होते।",
+      "of": "6b16fb34",
       "at": [
         "charlotte-catholic:transcript.meritNote"
       ]
@@ -4073,8 +4085,8 @@
       ]
     },
     {
-      "t": "AP Computer Science A और AP Cybersecurity Kickstart, और उनके नीचे engineering की चार कोर्स वाली धारा, जो Honors Engineering Capstone पर ख़त्म होती है।",
-      "of": "9a8ce8a7",
+      "t": "AP Computer Science A, AP Computer Science Principles और AP Cybersecurity Kickstart, और उनके नीचे engineering की चार कोर्स वाली धारा, जो Honors Engineering Capstone पर ख़त्म होती है।",
+      "of": "bb6cfa4a",
       "at": [
         "charlotte-catholic:transcript.depth[2].text"
       ]
@@ -4087,8 +4099,8 @@
       ]
     },
     {
-      "t": "AP US History, AP European History, AP Psychology, AP US Government और AP Microeconomics — एक ही विभाग में पाँच AP विकल्प।",
-      "of": "a63ebf60",
+      "t": "AP US History, AP European History, AP Psychology, AP US Government, AP Microeconomics और साल भर चलने वाला AP Microeconomics & Macroeconomics कोर्स — एक ही विभाग में छह AP विकल्प।",
+      "of": "e0d3f245",
       "at": [
         "charlotte-catholic:transcript.depth[3].text"
       ]
@@ -4115,8 +4127,8 @@
       ]
     },
     {
-      "t": "St. Augustine Scholars Program, जो 2025-26 में नौवीं कक्षा के एक समूह के साथ नया शुरू हुआ, चार वर्ष की एक शास्त्रीय धारा जोड़ता है — दर्शन, तर्कशास्त्र, Latin, मूल ग्रंथ और Socratic संगोष्ठियाँ।",
-      "of": "3559d91a",
+      "t": "St. Augustine Scholars Program, जो 2025-26 में नौवीं कक्षा के एक समूह के साथ शुरू हुआ और अब दसवीं कक्षा के कोर्स भी चलाता है, चार वर्ष की एक शास्त्रीय धारा जोड़ता है — दर्शन, तर्कशास्त्र, Latin, मूल ग्रंथ और Socratic संगोष्ठियाँ।",
+      "of": "8b876034",
       "at": [
         "charlotte-catholic:transcript.depth[5].text"
       ]
@@ -4137,8 +4149,8 @@
       ]
     },
     {
-      "t": "AP और Honors कक्षाओं के लिए एक अतिरिक्त quality point। Transcript पर केवल भारित GPA दिखता है — तुलना के लिए कोई अभारित आँकड़ा नहीं होता।",
-      "of": "4bf351b5",
+      "t": "AP, Honors और Dual Enrollment कक्षाओं के लिए एक अतिरिक्त quality point। Transcript पर केवल भारित GPA दिखता है — तुलना के लिए कोई अभारित आँकड़ा नहीं होता।",
+      "of": "3619223b",
       "at": [
         "charlotte-catholic:transcript.trust[0].text"
       ]
@@ -4193,8 +4205,8 @@
       ]
     },
     {
-      "t": "9वीं कक्षा में अधिकतम 1 honors कक्षा और 10वीं में 5, और 9वीं में अधिकतम 3 advanced कक्षाएँ — इसलिए निचली कक्षाओं का transcript महत्वाकांक्षा से नहीं, नीति से सीमित रहता है।",
-      "of": "6f9b2003",
+      "t": "9वीं कक्षा में अधिकतम 1 honors कक्षा और 10वीं में 5 — इसलिए निचली कक्षाओं का transcript महत्वाकांक्षा से नहीं, नीति से सीमित रहता है।",
+      "of": "ebc69308",
       "at": [
         "charlotte-catholic:transcript.trust[4].text"
       ]
@@ -4214,22 +4226,22 @@
       ]
     },
     {
-      "t": "AP Scholar के स्तरों की कोई संख्या प्रकाशित नहीं है। Profile इसकी जगह परीक्षा-स्तर का प्रदर्शन देती है (1,064 परीक्षाओं में 94% ने 3+ अंक पाए), जो अधिक समृद्ध जानकारी है — पर इसका मतलब यह भी है कि दूसरे स्कूल जो Scholar/Scholar with Distinction का ब्यौरा दिखाते हैं, वह यहाँ नहीं बनाया जा सकता।",
-      "of": "c7fda898",
+      "t": "AP Scholar के स्तरों की कोई संख्या प्रकाशित नहीं है। Profile इसकी जगह परीक्षा-स्तर का प्रदर्शन देती है (2026 में 1,184 परीक्षाओं में 94% ने 3+ अंक पाए), जो अधिक समृद्ध जानकारी है — पर इसका मतलब यह भी है कि दूसरे स्कूल जो Scholar/Scholar with Distinction का ब्यौरा दिखाते हैं, वह यहाँ नहीं बनाया जा सकता।",
+      "of": "99d62502",
       "at": [
         "charlotte-catholic:transcript.flags[0].text"
       ]
     },
     {
-      "t": "AP के आँकड़े 2024-25 के हैं, जबकि परीक्षा और दशमक के आँकड़े Class of 2026 के। दोनों जैसे प्रकाशित हुए वैसे ही दिए गए हैं; इनमें एक वर्ष का अंतर है और इन्हें मिलाकर एक दावा नहीं बनाया गया है।",
-      "of": "10e66944",
+      "t": "AP के आँकड़े 2026 के परीक्षा सत्र के हैं, परीक्षा और दशमक के आँकड़े Class of 2027 के, और नतीजे Class of 2026 के। हर आँकड़ा जैसा प्रकाशित हुआ वैसा ही दिया गया है; इन्हें मिलाकर एक दावा नहीं बनाया गया है।",
+      "of": "4cd20ece",
       "at": [
         "charlotte-catholic:transcript.flags[1].text"
       ]
     },
     {
-      "t": "324 seniors के लिए छह counselor और एक निदेशक — यानी हर एक पर लगभग 54 seniors।",
-      "of": "cd4ba521",
+      "t": "336 seniors के लिए एक निदेशक और पाँच counselor — यानी हर एक पर लगभग 56 seniors।",
+      "of": "862a0734",
       "at": [
         "charlotte-catholic:counseling.headline"
       ]
@@ -4242,32 +4254,32 @@
       ]
     },
     {
-      "t": "~54",
-      "of": "b38d6d98",
+      "t": "~56",
+      "of": "b58d70be",
       "at": [
         "charlotte-catholic:counseling.stats[0].value"
       ]
     },
     {
-      "t": "प्रति counselor senior (324 seniors ÷ 6 counselor)",
-      "of": "efe46ca6",
+      "t": "प्रति counselor senior (336 seniors ÷ 6 counselor)",
+      "of": "cbdc6529",
       "at": [
         "charlotte-catholic:counseling.stats[0].label"
       ]
     },
     {
-      "t": "324",
-      "of": "3d4b676c",
+      "t": "336",
+      "of": "414dac4f",
       "at": [
         "charlotte-catholic:counseling.stats[1].value"
       ]
     },
     {
-      "t": "Class of 2026 में seniors",
-      "of": "969c737b",
+      "t": "Class of 2027 में seniors",
+      "of": "959c71e8",
       "at": [
         "charlotte-catholic:counseling.stats[1].label",
-        "gaston-day:counseling.stats[2].label"
+        "covenant-day:outcomes.stats[1].label"
       ]
     },
     {
@@ -4340,8 +4352,8 @@
       ]
     },
     {
-      "t": "Honors तक पहुँच एक कोर्स तक सीमित है; advanced कोर्स तीन तक।",
-      "of": "c144990b",
+      "t": "Honors तक पहुँच एक कोर्स तक सीमित है।",
+      "of": "65a19ecd",
       "at": [
         "charlotte-catholic:counseling.timeline[0].items[1]"
       ]
@@ -4467,6 +4479,13 @@
       ]
     },
     {
+      "t": "Central Piedmont Community College के ज़रिए Dual Enrollment खुलता है — हर सेमेस्टर एक कोर्स, जो asynchronous रूप से लिया जाता है, और AP व Honors जैसा ही अतिरिक्त quality point देता है।",
+      "of": "c9841aaf",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[4]"
+      ]
+    },
+    {
       "t": "कार्यालय किन चीज़ों का ज़िम्मा उठाता है",
       "of": "b7f34fc5",
       "at": [
@@ -4538,29 +4557,29 @@
       ]
     },
     {
-      "t": "Class of 2025 के स्नातक तीन वर्षों में 169 अलग-अलग कॉलेजों और विश्वविद्यालयों में दाख़िल हुए।",
-      "of": "a849751f",
+      "t": "Classes of 2024–2026 के स्नातक 168 अलग-अलग कॉलेजों और विश्वविद्यालयों में दाख़िल हुए।",
+      "of": "733c6890",
       "at": [
         "charlotte-catholic:counseling.reach[1]"
       ]
     },
     {
-      "t": "Class of 2025 के 38% छात्र North Carolina में ही रहे; 81% ने सरकारी विश्वविद्यालयों में दाख़िला लिया।",
-      "of": "acf0d9aa",
+      "t": "Class of 2026 के 32% छात्र North Carolina में ही रहे; 76% ने सरकारी विश्वविद्यालयों में और 24% ने निजी विश्वविद्यालयों में दाख़िला लिया।",
+      "of": "ac17f8a0",
       "at": [
         "charlotte-catholic:counseling.reach[2]"
       ]
     },
     {
-      "t": "2025 में US Naval Academy के तीन चयन, साथ में Cornell में एक Army ROTC छात्रवृत्ति।",
-      "of": "24c3ac47",
+      "t": "2026 में US Naval Academy का एक और US Military Academy का एक चयन, 2025 में Naval Academy के तीन चयनों के बाद।",
+      "of": "ba4a4d59",
       "at": [
         "charlotte-catholic:counseling.reach[3]"
       ]
     },
     {
-      "t": "~54:1 का senior भार profile के 324 seniors और उसमें नामित छह counselor से गणना करके निकाला गया है। स्कूल कोई अनुपात प्रकाशित नहीं करता, और यहाँ निदेशक को भी एक counselor के रूप में गिना गया है।",
-      "of": "ab0e9a6f",
+      "t": "~56:1 का senior भार 2026-27 profile के 336 seniors (Class of 2027) और उसमें नामित छह counselor से गणना करके निकाला गया है। स्कूल कोई अनुपात प्रकाशित नहीं करता, और यहाँ निदेशक को भी एक counselor के रूप में गिना गया है।",
+      "of": "cb475e09",
       "at": [
         "charlotte-catholic:counseling.flags[0].text"
       ]
@@ -4573,8 +4592,8 @@
       ]
     },
     {
-      "t": "तीन वर्षों में जिन 169 कॉलेजों ने CCHS के स्नातकों को लिया — और एक ही कक्षा के लिए $17,242,184 की छात्रवृत्तियाँ।",
-      "of": "4bb13519",
+      "t": "चार कक्षाओं में जिन 200 कॉलेजों ने CCHS के स्नातकों को लिया — और एक ही कक्षा के लिए $25,186,236 की छात्रवृत्तियाँ।",
+      "of": "5e0aa837",
       "at": [
         "charlotte-catholic:outcomes.headline"
       ]
@@ -4587,73 +4606,72 @@
       ]
     },
     {
-      "t": "169",
-      "of": "f42ea265",
+      "t": "200",
+      "of": "c3e7575d",
       "at": [
         "charlotte-catholic:outcomes.stats[0].value"
       ]
     },
     {
-      "t": "जिन संस्थानों में दाख़िला हुआ, Classes of 2023–2025",
-      "of": "8ee9d658",
+      "t": "जिन संस्थानों में दाख़िला हुआ, Classes of 2023–2026",
+      "of": "91e9db11",
       "at": [
         "charlotte-catholic:outcomes.stats[0].label"
       ]
     },
     {
-      "t": "95%",
-      "of": "5ec35102",
+      "t": "98%",
+      "of": "bade2553",
       "at": [
         "charlotte-catholic:outcomes.stats[1].value",
-        "gaston-day:transcript.stats[0].value",
-        "gaston-day:outcomes.stats[0].value"
+        "cannon:outcomes.stats[0].value"
       ]
     },
     {
-      "t": "Class of 2025 के छात्र जो सीधे उच्च शिक्षा में गए",
-      "of": "ac173c60",
+      "t": "Class of 2026 के छात्र जो सीधे उच्च शिक्षा में गए",
+      "of": "62229711",
       "at": [
         "charlotte-catholic:outcomes.stats[1].label"
       ]
     },
     {
-      "t": "$17,242,184",
-      "of": "09f926f8",
+      "t": "$25,186,236",
+      "of": "80b02278",
       "at": [
         "charlotte-catholic:outcomes.stats[2].value"
       ]
     },
     {
-      "t": "Class of 2025 को मिली छात्रवृत्तियाँ",
-      "of": "b0340183",
+      "t": "Class of 2026 को मिली छात्रवृत्तियाँ",
+      "of": "b1340316",
       "at": [
         "charlotte-catholic:outcomes.stats[2].label"
       ]
     },
     {
-      "t": "38%",
-      "of": "c2643db1",
+      "t": "32%",
+      "of": "4e4b822f",
       "at": [
         "charlotte-catholic:outcomes.stats[3].value"
       ]
     },
     {
-      "t": "Class of 2025 के छात्र जो North Carolina में ही रहे",
-      "of": "596b039c",
+      "t": "Class of 2026 के छात्र जो North Carolina में ही रहे",
+      "of": "d72b2ebf",
       "at": [
         "charlotte-catholic:outcomes.stats[3].label"
       ]
     },
     {
-      "t": "तीनों कक्षाओं में चयनात्मकता के वर्ग",
-      "of": "4d3d643d",
+      "t": "चारों कक्षाओं में चयनात्मकता के वर्ग",
+      "of": "06d20fb3",
       "at": [
         "charlotte-catholic:outcomes.bucketsTitle"
       ]
     },
     {
-      "t": "Brown और Columbia अनुपस्थित",
-      "of": "2cb7533b",
+      "t": "Brown अनुपस्थित",
+      "of": "3dfeaed4",
       "at": [
         "charlotte-catholic:outcomes.buckets[0].note"
       ]
@@ -4666,8 +4684,8 @@
       ]
     },
     {
-      "t": "छह Ivies, साथ में Duke, Georgetown और Northwestern",
-      "of": "81cd627c",
+      "t": "सात Ivies, साथ में Duke, Georgetown, Johns Hopkins और Northwestern",
+      "of": "887b314b",
       "at": [
         "charlotte-catholic:outcomes.buckets[1].note"
       ]
@@ -4687,29 +4705,29 @@
       ]
     },
     {
-      "t": "40 पंक्तियों पर यह टैग है; Arizona State के दोनों कैंपस एक ही संस्थान हैं",
-      "of": "56fcacc4",
+      "t": "44 पंक्तियों पर यह टैग है; Arizona State के दोनों कैंपस एक ही संस्थान हैं",
+      "of": "7c551908",
       "at": [
         "charlotte-catholic:outcomes.buckets[4].note"
       ]
     },
     {
-      "t": "Hampton University और Benedict College",
-      "of": "556c0e0a",
+      "t": "Hampton University, Benedict College और West Virginia State University",
+      "of": "430e829d",
       "at": [
         "charlotte-catholic:outcomes.buckets[5].note"
       ]
     },
     {
-      "t": "हर दाख़िला, 2023–2025",
-      "of": "9a179c63",
+      "t": "हर दाख़िला, 2023–2026",
+      "of": "9b179df6",
       "at": [
         "charlotte-catholic:outcomes.collegesTitle"
       ]
     },
     {
-      "t": "169 संस्थान · profile किसी संस्थान के लिए दाख़िलों की संख्या प्रकाशित नहीं करती",
-      "of": "a77b3f8e",
+      "t": "200 संस्थान · profile किसी संस्थान के लिए दाख़िलों की संख्या प्रकाशित नहीं करती",
+      "of": "7488d4d6",
       "at": [
         "charlotte-catholic:outcomes.collegesTotal"
       ]
@@ -4722,24 +4740,73 @@
       ]
     },
     {
+      "t": "$25,186,236 — Class of 2026 का कुल",
+      "of": "7e97a703",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "2 National Merit छात्रवृत्ति विजेता (2026)",
+      "of": "57861285",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "7 National Merit फ़ाइनलिस्ट (2026)",
+      "of": "55cfd341",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "11 National Merit Commended छात्र (2026)",
+      "of": "b9224c03",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[3]"
+      ]
+    },
+    {
+      "t": "US Naval Academy का 1 और US Military Academy का 1 चयन (2026)",
+      "of": "e6e83ff1",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[4]"
+      ]
+    },
+    {
       "t": "$17,242,184 — Class of 2025 का कुल",
       "of": "e1750e92",
       "at": [
-        "charlotte-catholic:outcomes.scholarships[0]"
+        "charlotte-catholic:outcomes.scholarships[5]"
       ]
     },
     {
       "t": "2 National Merit फ़ाइनलिस्ट (2025)",
       "of": "6eaf81e9",
       "at": [
-        "charlotte-catholic:outcomes.scholarships[1]"
+        "charlotte-catholic:outcomes.scholarships[6]"
       ]
     },
     {
       "t": "11 National Merit Commended छात्र (2025)",
       "of": "3929d148",
       "at": [
-        "charlotte-catholic:outcomes.scholarships[2]"
+        "charlotte-catholic:outcomes.scholarships[7]"
+      ]
+    },
+    {
+      "t": "US Naval Academy के 3 चयन (2025)",
+      "of": "a1076e2c",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[8]"
+      ]
+    },
+    {
+      "t": "Cornell University में Army ROTC छात्रवृत्ति (2025)",
+      "of": "a9e53304",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[9]"
       ]
     },
     {
@@ -4764,6 +4831,13 @@
       ]
     },
     {
+      "t": "यह सूची 2025-26 profile (Classes of 2023–2025, 169 संस्थान) और 2026-27 profile (Classes of 2024–2026, 168) को मिलाकर बनी है: 137 दोनों में, 31 नए, 32 पुरानी सूची से रखे गए, कुल 200। कुछ भी हटाया नहीं गया। जहाँ दोनों संस्करणों में किसी संस्थान का नाम अलग लिखा है, वहाँ 2025-26 की वर्तनी रखी गई है।",
+      "of": "0a9a536d",
+      "at": [
+        "charlotte-catholic:outcomes.flags[2].text"
+      ]
+    },
+    {
       "t": "CCHS के आवेदन को असल में क्या आगे बढ़ाता है।",
       "of": "c3b449f4",
       "at": [
@@ -4771,8 +4845,8 @@
       ]
     },
     {
-      "t": "एक लीवर छात्र ख़ुद बनाता है, और दूसरा स्कूल इस नाते देता है कि वह diocese की व्यवस्था के भीतर 74 चैंपियनशिप वाला NCHSAA कार्यक्रम है।",
-      "of": "4e9212bc",
+      "t": "एक लीवर छात्र ख़ुद बनाता है, और दूसरा स्कूल इस नाते देता है कि वह diocese की व्यवस्था के भीतर 79 चैंपियनशिप वाला NCHSAA कार्यक्रम है।",
+      "of": "be75c083",
       "at": [
         "charlotte-catholic:edge.subhead"
       ]
@@ -4827,8 +4901,8 @@
       ]
     },
     {
-      "t": "खेल-भर्ती की पहुँच सचमुच है और असामान्य है: 2000 से 74 राज्य चैंपियनशिप, 10 Wells Fargo Cup, और 1000+ पूर्व छात्र जो आगे NCAA, NAIA या junior-college स्तर पर खेले।",
-      "of": "c7833b3c",
+      "t": "खेल-भर्ती की पहुँच सचमुच है और असामान्य है: 2000 से 79 राज्य चैंपियनशिप, 10 Wells Fargo Cup, और 1000+ पूर्व छात्र जो आगे NCAA, NAIA या junior-college स्तर पर खेले।",
+      "of": "924bae79",
       "at": [
         "charlotte-catholic:edge.levers[1].items[0]"
       ]
@@ -4848,8 +4922,8 @@
       ]
     },
     {
-      "t": "Diocese का पैमाना नतीजों में दिखता है — एक ही कक्षा में Naval Academy के तीन चयन, और तीनों सैन्य अकादमियों में दाख़िले।",
-      "of": "f3f78e01",
+      "t": "Diocese का पैमाना नतीजों में दिखता है — लगातार कक्षाओं में Naval Academy के चयन (2025 में तीन, 2026 में एक, साथ में West Point का एक चयन), और तीनों सैन्य अकादमियों में दाख़िले।",
+      "of": "53dc59d8",
       "at": [
         "charlotte-catholic:edge.levers[1].items[3]"
       ]
@@ -4897,15 +4971,15 @@
       ]
     },
     {
-      "t": "Class of 2026 · 226 SAT देने वाले · 144 ACT देने वाले",
-      "of": "ee54fb07",
+      "t": "Class of 2027 · 290 SAT देने वाले · 322 ACT देने वाले",
+      "of": "518b583f",
       "at": [
         "charlotte-catholic:wholeClass.scoreTables[0].hint"
       ]
     },
     {
-      "t": "स्कूल बीच के 50% का दायरा प्रकाशित करता है, पर्सेंटाइल नहीं और औसत भी नहीं। बीच के 50% वाले दायरे के दोनों सिरे परिभाषा से ही 25वाँ और 75वाँ पर्सेंटाइल होते हैं, इसलिए वे दो स्तंभ असली हैं; 10वाँ, 50वाँ, 90वाँ और औसत प्रकाशित नहीं हैं, इसलिए उन्हें अनुमान से भरने के बजाय em-dash के रूप में दिखाया गया है। EBRW / Math जैसे खंड-स्तर का कोई विभाजन प्रकाशित नहीं है।",
-      "of": "12b58580",
+      "t": "स्कूल बीच के 50% का दायरा प्रकाशित करता है, पर्सेंटाइल नहीं और औसत भी नहीं। बीच के 50% वाले दायरे के दोनों सिरे परिभाषा से ही 25वाँ और 75वाँ पर्सेंटाइल होते हैं, इसलिए वे दो स्तंभ असली हैं; 10वाँ, 50वाँ, 90वाँ और औसत प्रकाशित नहीं हैं, इसलिए उन्हें अनुमान से भरने के बजाय em-dash के रूप में दिखाया गया है। EBRW / Math जैसे खंड-स्तर का कोई विभाजन प्रकाशित नहीं है। 336 seniors में से 290 का SAT और 322 का ACT देना बताता है कि कक्षा के ज़्यादातर छात्रों ने दोनों परीक्षाएँ दीं।",
+      "of": "72d1345c",
       "at": [
         "charlotte-catholic:wholeClass.scoreTables[0].note"
       ]
@@ -4918,8 +4992,8 @@
       ]
     },
     {
-      "t": "— Class of 2026 · स्कूल के 10-दशमक चार्ट से · भारित, और CCHS रैंक नहीं देता",
-      "of": "e499874a",
+      "t": "— Class of 2027 · स्कूल के 10-दशमक चार्ट से · भारित, और CCHS रैंक नहीं देता",
+      "of": "5b16a837",
       "at": [
         "charlotte-catholic:wholeClass.gpaHint"
       ]
@@ -4995,8 +5069,8 @@
       ]
     },
     {
-      "t": "CCHS दशमक प्रकाशित करता है, क्विंटाइल नहीं; ऊपर की हर पंक्ति दो साथ-साथ के प्रकाशित दशमकों को जोड़ती है, और उनके असली दायरे विवरण-पंक्ति में दिए गए हैं, ताकि इस जोड़ने से कुछ छिपे नहीं। प्रकाशित दशमक हैं: पहला 4.38–4.63, दूसरा 4.26–4.37, तीसरा 4.10–4.25, चौथा 3.96–4.09, पाँचवाँ 3.83–3.95, छठा 3.71–3.82, सातवाँ 3.56–3.70, आठवाँ 3.37–3.54, नौवाँ 3.16–3.36, दसवाँ 2.25–3.14। हर आँकड़ा भारित है, जिसमें AP और Honors के लिए एक quality point जोड़ा गया है।",
-      "of": "3ad653e8",
+      "t": "CCHS दशमक प्रकाशित करता है, क्विंटाइल नहीं; ऊपर की हर पंक्ति दो साथ-साथ के प्रकाशित दशमकों को जोड़ती है, और उनके असली दायरे विवरण-पंक्ति में दिए गए हैं, ताकि इस जोड़ने से कुछ छिपे नहीं। प्रकाशित दशमक हैं: पहला 4.38–4.59, दूसरा 4.23–4.37, तीसरा 4.09–4.22, चौथा 3.98–4.08, पाँचवाँ 3.83–3.97, छठा 3.70–3.82, सातवाँ 3.54–3.69, आठवाँ 3.35–3.53, नौवाँ 3.16–3.34, दसवाँ 2.22–3.15। हर आँकड़ा भारित है, जिसमें AP, Honors और Dual Enrollment के लिए एक quality point जोड़ा गया है।",
+      "of": "44438e88",
       "at": [
         "charlotte-catholic:wholeClass.gpaNote"
       ]
@@ -5009,59 +5083,73 @@
       ]
     },
     {
+      "t": "शैक्षणिक कौशल",
+      "of": "2225dcac",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "Academic Achievement छात्रों के लिए executive function और आत्म-पैरवी पर एक सेमेस्टर का कोर्स (कक्षा 9–10 के लिए 508, 11–12 के लिए 509) — Guided Academic Support से पहले का क़दम।",
+      "of": "c1bba2f5",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].text"
+      ]
+    },
+    {
       "t": "निर्देशित शैक्षणिक सहायता",
       "of": "9b78fbb3",
       "at": [
-        "charlotte-catholic:wholeClass.support[0].label"
+        "charlotte-catholic:wholeClass.support[1].label"
       ]
     },
     {
       "t": "यह अलग से खींचकर दी जाने वाली सेवा नहीं, बल्कि समय-सारणी में तय एक कोर्स (511) है — सहायता समय-सारणी के भीतर ही रहती है।",
       "of": "8bd110ef",
       "at": [
-        "charlotte-catholic:wholeClass.support[0].text"
+        "charlotte-catholic:wholeClass.support[1].text"
       ]
     },
     {
       "t": "Options Program",
       "of": "87c933d1",
       "at": [
-        "charlotte-catholic:wholeClass.support[1].label"
+        "charlotte-catholic:wholeClass.support[2].label"
       ]
     },
     {
       "t": "एक पूरी समानांतर धारा — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance और Options Financial Management: कुल मिलाकर 14 कोर्स।",
       "of": "fd1460c0",
       "at": [
-        "charlotte-catholic:wholeClass.support[1].text"
+        "charlotte-catholic:wholeClass.support[2].text"
       ]
     },
     {
       "t": "Pathway Program",
       "of": "8c9998c9",
       "at": [
-        "charlotte-catholic:wholeClass.support[2].label"
+        "charlotte-catholic:wholeClass.support[3].label"
       ]
     },
     {
       "t": "Options धारा के साथ-साथ चलने वाला एक अलग pathway कोर्स (507)।",
       "of": "d2ffa010",
       "at": [
-        "charlotte-catholic:wholeClass.support[2].text"
+        "charlotte-catholic:wholeClass.support[3].text"
       ]
     },
     {
       "t": "Study Hall",
       "of": "7e263085",
       "at": [
-        "charlotte-catholic:wholeClass.support[3].label"
+        "charlotte-catholic:wholeClass.support[4].label"
       ]
     },
     {
       "t": "समय-सारणी में तय (100), इसलिए सहायता वाली समय-सारणी के लिए किसी ऐच्छिक कोर्स की जगह छोड़नी नहीं पड़ती।",
       "of": "c18615f6",
       "at": [
-        "charlotte-catholic:wholeClass.support[3].text"
+        "charlotte-catholic:wholeClass.support[4].text"
       ]
     },
     {
@@ -5072,8 +5160,8 @@
       ]
     },
     {
-      "t": "पाँचवाँ और छठा दशमक 3.83–3.95 और 3.71–3.82 पर चलते हैं — परिवार माध्य छात्र की जगह पहचान सकता है, जो केवल औसत प्रकाशित करने वाला स्कूल छिपा देता।",
-      "of": "c85f457f",
+      "t": "पाँचवाँ और छठा दशमक 3.83–3.97 और 3.70–3.82 पर चलते हैं — परिवार माध्य छात्र की जगह पहचान सकता है, जो केवल औसत प्रकाशित करने वाला स्कूल छिपा देता।",
+      "of": "d2220f94",
       "at": [
         "charlotte-catholic:wholeClass.middle[0].text"
       ]
@@ -5086,22 +5174,22 @@
       ]
     },
     {
-      "t": "दसवाँ दशमक काटकर नहीं, बल्कि 2.25–3.14 के रूप में प्रकाशित है, जो किसी स्कूल profile के लिए असामान्य रूप से खरी बात है।",
-      "of": "5ba0fbcb",
+      "t": "दसवाँ दशमक काटकर नहीं, बल्कि 2.22–3.15 के रूप में प्रकाशित है, जो किसी स्कूल profile के लिए असामान्य रूप से खरी बात है।",
+      "of": "718e8e4f",
       "at": [
         "charlotte-catholic:wholeClass.middle[1].text"
       ]
     },
     {
-      "t": "95% तुरंत आगे पढ़ते हैं",
-      "of": "f815cd59",
+      "t": "98% तुरंत आगे पढ़ते हैं",
+      "of": "94c1332e",
       "at": [
         "charlotte-catholic:wholeClass.middle[2].label"
       ]
     },
     {
-      "t": "Class of 2025 में से 95% सीधे उच्च शिक्षा में गए और 2% दो-वर्षीय संस्थानों में।",
-      "of": "5a83df62",
+      "t": "Class of 2026 में से 98% सीधे उच्च शिक्षा में गए और 2% दो-वर्षीय संस्थानों में।",
+      "of": "5fdb6d20",
       "at": [
         "charlotte-catholic:wholeClass.middle[2].text"
       ]
@@ -5114,8 +5202,8 @@
       ]
     },
     {
-      "t": "Class of 2025 के 81% छात्रों ने सरकारी विश्वविद्यालयों में और 19% ने निजी विश्वविद्यालयों में दाख़िला लिया — यह नतीजा किसी स्वतंत्र डे-स्कूल से अधिक एक मज़बूत सरकारी हाई स्कूल जैसा दिखता है।",
-      "of": "64c6a699",
+      "t": "Class of 2026 के 76% छात्रों ने सरकारी विश्वविद्यालयों में और 24% ने निजी विश्वविद्यालयों में दाख़िला लिया — यह नतीजा किसी स्वतंत्र डे-स्कूल से अधिक एक मज़बूत सरकारी हाई स्कूल जैसा दिखता है।",
+      "of": "5615c5f6",
       "at": [
         "charlotte-catholic:wholeClass.middle[3].text"
       ]
@@ -5163,8 +5251,8 @@
       ]
     },
     {
-      "t": "**1,064 परीक्षाओं** में **94% अंक 3+ पर** — यह पूरे समूह का आँकड़ा है, क्योंकि **हर AP कोर्स में परीक्षा देना अनिवार्य है** — कमज़ोर उम्मीदवारों को चुपचाप गिनती के आधार से बाहर नहीं रखा जा सकता।",
-      "of": "d650b330",
+      "t": "2026 में **1,184 परीक्षाओं** में **94% अंक 3+ पर** — यह पूरे समूह का आँकड़ा है, क्योंकि **हर AP कोर्स में परीक्षा देना अनिवार्य है** — कमज़ोर उम्मीदवारों को चुपचाप गिनती के आधार से बाहर नहीं रखा जा सकता।",
+      "of": "b1b21936",
       "at": [
         "charlotte-catholic:verdict.points[1].text"
       ]
@@ -5177,8 +5265,8 @@
       ]
     },
     {
-      "t": "**169 संस्थान** वह जगहें हैं जहाँ स्नातकों ने असल में *दाख़िला लिया*, जो बनावट के कारण प्रवेश-सूची से छोटा पैमाना है। यह समझ आते ही CCHS कमज़ोर नहीं, बल्कि और मज़बूत दिखता है।",
-      "of": "62dd9ccb",
+      "t": "Classes of 2023–2026 में **200 संस्थान** वह जगहें हैं जहाँ स्नातकों ने असल में *दाख़िला लिया*, जो बनावट के कारण प्रवेश-सूची से छोटा पैमाना है। यह समझ आते ही CCHS कमज़ोर नहीं, बल्कि और मज़बूत दिखता है।",
+      "of": "27cbfe32",
       "at": [
         "charlotte-catholic:verdict.points[2].text"
       ]
@@ -5191,8 +5279,8 @@
       ]
     },
     {
-      "t": "2000 से **74 राज्य चैंपियनशिप** और **10 Wells Fargo Cup**, जो प्राइवेट-स्कूल वर्ग में नहीं बल्कि **NCHSAA** के भीतर सरकारी स्कूलों के मुक़ाबले जीते गए।",
-      "of": "5f87d7f3",
+      "t": "2000 से **79 राज्य चैंपियनशिप** और **10 Wells Fargo Cup**, जो प्राइवेट-स्कूल वर्ग में नहीं बल्कि **NCHSAA** के भीतर सरकारी स्कूलों के मुक़ाबले जीते गए।",
+      "of": "8b7e5688",
       "at": [
         "charlotte-catholic:verdict.points[3].text"
       ]
@@ -5254,8 +5342,8 @@
       ]
     },
     {
-      "t": "काउंसलर उपनाम के आधार पर तय होते हैं और चारों साल छात्र के साथ रहते हैं। आवेदन के मौसम में हर काउंसलर लगभग 54 सीनियर छात्रों को कैसे संभालते हैं?",
-      "of": "6e5efa77",
+      "t": "काउंसलर उपनाम के आधार पर तय होते हैं और चारों साल छात्र के साथ रहते हैं। आवेदन के मौसम में हर काउंसलर लगभग 56 सीनियर छात्रों को कैसे संभालते हैं?",
+      "of": "4bbdcd15",
       "at": [
         "charlotte-catholic:verdict.checklist[4]"
       ]
@@ -6757,13 +6845,6 @@
       ]
     },
     {
-      "t": "98%",
-      "of": "bade2553",
-      "at": [
-        "cannon:outcomes.stats[0].value"
-      ]
-    },
-    {
       "t": "Class of 2026 के छात्र चार-वर्षीय कॉलेजों में · 2% दो-वर्षीय में",
       "of": "ca5034fe",
       "at": [
@@ -7842,13 +7923,6 @@
       ]
     },
     {
-      "t": "Class of 2027 में seniors",
-      "of": "959c71e8",
-      "at": [
-        "covenant-day:outcomes.stats[1].label"
-      ]
-    },
-    {
       "t": "2 / 8",
       "of": "10390c08",
       "at": [
@@ -8429,13 +8503,6 @@
       "of": "8f12264e",
       "at": [
         "davidson-day:transcript.subhead"
-      ]
-    },
-    {
-      "t": "22",
-      "of": "8ff29ca5",
-      "at": [
-        "davidson-day:transcript.stats[0].value"
       ]
     },
     {
@@ -10801,6 +10868,13 @@
       ]
     },
     {
+      "t": "23",
+      "of": "8ef29b12",
+      "at": [
+        "hickory-grove-christian:outcomes.stats[3].value"
+      ]
+    },
+    {
       "t": "— जिनमें Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee शामिल हैं",
       "of": "aff7851b",
       "at": [
@@ -11235,6 +11309,14 @@
       ]
     },
     {
+      "t": "95%",
+      "of": "5ec35102",
+      "at": [
+        "gaston-day:transcript.stats[0].value",
+        "gaston-day:outcomes.stats[0].value"
+      ]
+    },
+    {
       "t": "AP छात्रों ने 2025 में 3+ पाया — 2021 के 72% से ऊपर",
       "of": "1913d89c",
       "at": [
@@ -11456,6 +11538,13 @@
       "of": "8cf05955",
       "at": [
         "gaston-day:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "Class of 2026 में seniors",
+      "of": "969c737b",
+      "at": [
+        "gaston-day:counseling.stats[2].label"
       ]
     },
     {

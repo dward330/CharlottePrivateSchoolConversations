@@ -1,7 +1,7 @@
 ---
 name: catholicprofile
 title: Refresh Charlotte Catholic from its 2026–27 School Profile — merge the 2024–26 matriculation list into the shipped 2023–25 list (200 institutions, 2023–2026, rescored buckets), Class of 2027 SAT/ACT ranges and decile/quintile GPA, 2026 AP results, Class of 2026 outcomes/scholarships/National Merit, 2026–27 counseling roster (~56:1), and add the four guide courses the catalog missed (199 courses, 26 AP); re-point profile citations in Sports, Arts and Clubs, 74 → 79 championships
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-04
 branch: feat/catholic-profile-2627
@@ -685,3 +685,30 @@ Found during the build and deliberately left out of the diff:
 - the catalog's **AP European History** description is a theology course's text ("begins with
   a brief orientation to philosophy and logic…");
 - `financialAidReports.ts` still cites the Class of 2025's $17,242,184 as a dated aside.
+
+### Phase 2 (nine locales), 2026-11-05
+
+The user approved the English on 2026-11-05 ("English looks good"), and Phase 2 ran in the same
+window. I re-extracted the six topics to a throwaway `--lang __verify` and carried each locale's
+translations by `of` stamp: 79,380 carried units, 0 changed. That left 104 new units per locale:
+- 41 changed only in their figures and were carried by token substitution (369 strings);
+- 10 course titles and figure values are copied verbatim, since course titles stay English in
+  every locale;
+- 2 are the existing "(2025)" scholarship lines with the year suffix added;
+- 51 were translated by hand per locale, editing each locale's prior wording where a unit had
+  one.
+
+Checks: `check:runtime`, `check:live`, `check:chrome`, `check:fr`, `check:dates`,
+`check:moneytext`, `check:sepdrift` ×9 (0 drifted) and `check_figures.py` ×6 topics ×9 (0
+failures) all pass. `npm run build` exits 0.
+
+`check:digits` has 21 items to review, all ordinals or counts written as words, matching each
+locale's prior wording ("noveno", "पहला", "السبع", "تعيين واحد"). `i18n:leaks`, filtered to this
+plan's paths, found only two `te` scholarship lines left in English, matching the ledgered `te`
+award-tier keep for their 2025 siblings. They were added to `src/data/overlays/NOTES.md`.
+`check_work_integrity.mjs` reports only the expected structural re-extract findings, and its
+foreign-script check is clean.
+
+Browser check in Chrome with every card open, on `?lang=es` and `?lang=fa`: the new prose
+renders, money is localized in Spanish (`25.186.236 US$`) and isolated in Farsi, and none of the
+new English shows.
