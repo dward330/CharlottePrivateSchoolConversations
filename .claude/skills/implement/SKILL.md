@@ -194,6 +194,13 @@ resolution guard** (a locale overlay that fails its stamp falls back to English
 `check:sepdrift` / `check:money` / `check:currency` / `check:bidi` / `check:fa` /
 `check:hi` / `check:fr` apply.
 
+Also run **`npm run check:digits`** before committing the translations. It compares the
+numbers in every unit that is new since `main` with the numbers in its English, and it is
+the only check that sees a figure re-typed rather than dropped: `11/17/25` → `17/11/25`,
+`4 p.m.` → `16 h`, `13` spelled as a word. Both `check_figures.py` and `check:sepdrift`
+pass all three. It is a report (exit 0): fix a re-typed figure, and leave a deliberate
+rewording such as `Grade 6` → "Sexto".
+
 Two things a fresh window gets wrong here:
 
 - **`npm run i18n:leaks -- --lang <code>` is where genuine untranslated prose hides — run

@@ -139,7 +139,7 @@ the plan is not done.
 
 **Execute a documented plan: build, verify, PR, close the loop.**
 
-`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-08-19
+`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-05 (Phase 2 runs `check:digits`)
 
 The plan is the spec. This skill's job is to execute it faithfully, verify it honestly,
 and leave the index telling the truth about what shipped.
