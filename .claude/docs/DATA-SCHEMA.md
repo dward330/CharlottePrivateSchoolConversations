@@ -1204,6 +1204,49 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 </details>
 
+### Computed Compare groups
+
+Rows rendered on Compare that are **not** in `VALUE_METRICS`. They are computed at render
+from data a structured card already holds, so they cannot drift from the school pages.
+They have no overlay entries, no school-page stat tiles, and **no effect on
+`coverage:floor`** or the Compare-row totals above.
+
+**Sports offered** (Sports topic, `src/lib/sportsMatrix.ts` → `CompareSportsRows.tsx`):
+21 rows, one per sport recorded for any of the 11 comparable schools,
+computed from each school's `offered.seasons[].sports[]`. A cell is Yes (with its V / JV / MS
+levels and B / G / Co-ed only where the school states the gender), No, or N/A (no `offered`).
+
+| Sport key | Schools | Seasons |
+|---|--:|---|
+| `baseball` | 11/11 | spring |
+| `basketball` | 11/11 | winter |
+| `cheerleading` | 11/11 | fall · winter |
+| `crossCountry` | 11/11 | fall |
+| `dance` | 4/11 | fall · winter |
+| `fieldHockey` | 6/11 | fall |
+| `football` | 9/11 | fall |
+| `golf` | 11/11 | fall · spring |
+| `hockey` | 1/11 | winter |
+| `indoorTrack` | 5/11 | winter |
+| `lacrosse` | 8/11 | spring |
+| `mountainBiking` | 1/11 | spring |
+| `rowing` | 1/11 | spring |
+| `rugby` | 1/11 | spring |
+| `soccer` | 11/11 | fall · spring |
+| `softball` | 9/11 | spring |
+| `swimming` | 11/11 | winter |
+| `tennis` | 10/11 | fall · spring |
+| `trackField` | 10/11 | spring |
+| `volleyball` | 11/11 | fall |
+| `wrestling` | 7/11 | winter |
+
+**Rule for a new school:** every raw sport name on its Sports Offered card must be in
+`SPORT_ALIASES` (`src/lib/sportsMatrix.ts`), or the sport silently drops from Compare —
+`npm run check:sportsmatrix` (chained into the build) fails on it. A genuinely new sport
+also needs a `SportKey` and a `sports.cup.sport_<key>` key in all 10 locale catalogs (the
+vocabulary is shared with the Wells Fargo Cup card). Gender is never inferred: an entry
+without "(Boys)" / "(Girls)" / "(B & G)" / "(Co-ed)" gets no letter.
+
 ## 5. Standalone layers
 
 Data that does not fit the topic-card pattern — catalogs, reports, and page chrome.

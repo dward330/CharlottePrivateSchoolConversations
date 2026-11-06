@@ -803,7 +803,7 @@ const b = (key: string): CupSport => ({ key, gender: 'boys' })
 const g = (key: string): CupSport => ({ key, gender: 'girls' })
 const e = (key: string): CupSport => ({ key, gender: 'both' })
 
-/** Each key resolves to `sports.cup.sport_<key>` in the locale catalogs. */
+/** Each key resolves to `sports.cup.sport_<key>` in the locale catalogs. That sport vocabulary is SHARED with the Compare "Sports offered" group (lib/sportsMatrix.ts), so each sport is translated once. */
 export const CUP_SPORTS: Record<CupAssociation, Record<'fall' | 'winter' | 'spring', CupSport[]>> = {
   NCISAA: {
     fall: [b('crossCountry'), b('football11'), b('football8'), b('soccer'), g('crossCountry'), g('fieldHockey'), g('golf'), g('tennis'), g('volleyball')],

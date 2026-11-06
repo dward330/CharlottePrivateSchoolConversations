@@ -17,6 +17,7 @@ import { SHOW_TO_VERIFY } from '../lib/toVerify.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
+import { DepthChip, DepthLegend } from './DepthChip.tsx'
 import { PhotoViewer, PhotoZoomButton, type ViewerPhoto } from './PhotoViewer.tsx'
 import { usePhotoViewer } from './usePhotoViewer.ts'
 import { CUP_HIGH_SCHOOLS, CUP_POINTS, CUP_SEASONS, CUP_SPORTS } from '../data/wellsFargoCup.ts'
@@ -46,7 +47,6 @@ import type {
   CupProgram,
   Facilities,
   HonorsAndPros,
-  Level,
   NationalStage,
   SportsOffered,
   StatTile,
@@ -96,33 +96,16 @@ function ToVerify() {
   return <span className="tag-neutral sports-verify">{t('sports.toVerify')}</span>
 }
 
-/** A depth chip (V / JV / MS) on the season board. */
-function DepthChip({ level }: { level: Level }) {
-  return <span className={`sports-depth sports-depth-${level.toLowerCase()}`}>{level}</span>
-}
-
 /* --------------------------------------------------- 1a · sports offered -- */
 
 export function SportsOfferedBody({ data }: { data: SportsOffered }) {
-  const { t } = useTranslation()
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
       <StatStrip stats={data.stats} />
 
       {/* Depth-chip legend, so V / JV / MS read without guessing. */}
-      <div className="sports-legend">
-        <span className="text-muted">{t('sports.depthChips')}</span>
-        <span>
-          <DepthChip level="V" /> Varsity
-        </span>
-        <span>
-          <DepthChip level="JV" /> Junior varsity
-        </span>
-        <span>
-          <DepthChip level="MS" /> Middle School
-        </span>
-      </div>
+      <DepthLegend />
 
       {/* The season board — Fall / Winter / Spring columns. */}
       <div className="sports-board">

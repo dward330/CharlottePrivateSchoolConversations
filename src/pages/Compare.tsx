@@ -25,6 +25,7 @@ import {
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { CellQual } from '../components/CellQual.tsx'
 import { TopLayerTip } from '../components/TopLayerTip.tsx'
+import { CompareSportsRows } from '../components/CompareSportsRows.tsx'
 import { useDragPan } from '../lib/useDragPan.ts'
 import { collegeSupportProgram } from '../data/collegeSupport.ts'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
@@ -629,8 +630,11 @@ export function Compare({ topic, schools }: Props) {
                   })}
                 </tbody>
               )}
+              {/* Computed from each school's Sports Offered card, not VALUE_METRICS
+                  (see lib/sportsMatrix.ts). Sits between Key stats and Research coverage. */}
+              {activeTopic === 'sports' && <CompareSportsRows cols={cols} />}
               <tbody>
-                {valueMetrics.length > 0 && (
+                {(valueMetrics.length > 0 || activeTopic === 'sports') && (
                   <tr className="group-row">
                     <td className="group-label" colSpan={cols.length + 1}><span className="group-label-text">{t('compare.researchCoverage')}</span></td>
                   </tr>
