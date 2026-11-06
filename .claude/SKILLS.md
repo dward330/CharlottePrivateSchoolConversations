@@ -523,7 +523,8 @@ in `reports/wells-fargo-cup/` (gitignored), then judges the takes the user bring
 > `pipeline.roster`, `record.bars` and `record.seasonDetail` never render, every other string
 > is scanned against every roster and pro name, and a source that names a student or is a
 > per-person page (`/player/`, `/roster/`) is dropped from the Sources list. The gate only
-> knows names in the data, so the PDF is still read: "his son Zeke" got past it on the first build.
+> knows names in the data, so the PDF is still read: "his son Zeke" got past it on the first build,
+> and a source the read turns up is dropped with an overrides key `"source:<url>": null`.
 
 > **⚠️ Hype in the delivery, never in a fact.** Every streak ("four straight 4A Cups",
 > "three straight state titles") is a computed sentence in the PDF, so a hyped host never
