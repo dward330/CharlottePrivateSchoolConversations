@@ -1,6 +1,6 @@
 # Providence Day School — Sports
-> Distilled from 19 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-06.
-**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, 247Sports Recruiting Rankings, College Commitments 2024-2026, Redesign Research 2026, Wells Fargo Cup Division Sizes 2025-26, Wells Fargo Cup History and Scoring, Wells Fargo Cup Standings 2020-2026
+> Distilled from 20 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-06.
+**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, 247Sports Recruiting Rankings, College Commitments 2024-2026, Redesign Research 2026, Wells Fargo Cup Division Sizes 2025-26, Wells Fargo Cup History and Scoring, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 
 ---
@@ -2032,6 +2032,37 @@ school's all-time 4A Cup count, and each one should be fetched and saved before 
 
 ---
 
+## Wells Fargo Cup Points 2026-27 Season
+
+*Source file: `Providence Day - Sports - Wells Fargo Cup Points 2026-27 Season.md`*
+
+# Providence Day — Wells Fargo Cup point-earning results, 2026–27 season (in progress)
+
+## Method
+
+Fetched 2026-11-06 with `curl` from the NCISAA's own 2026–27 playoff bracket pages (the `currentyear=1` view) while building the NCISAA 4A `/cup-episode` podcast. Each bracket is an HTML grid; the champion is the cell in the last bracket column and the finalists are the two cells in the column before it, with the final score in the last score column. Only results the association itself posted are recorded here. No Cup **point** figure is recorded: the association had not posted 2026–27 Cup standings, and points are never computed from brackets for the ledger.
+
+The 2025–26 4A final Cup table (the ledger's latest season) was re-checked against https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/ the same day: all 17 rows match `src/data/wellsFargoCup.ts` cell for cell (place, total, fall, winter, spring). That page still showed 2025–26 as current on 2026-11-06.
+
+Cross country, boys golf and girls golf 2026–27 pages linked no results on 2026-11-06, so they are not recorded.
+
+## Fall 2026 state championship finishes
+
+| Sport | Class | Finish | Final | Date | Source |
+|---|---|---|---|---|---|
+| Girls tennis | 4A | Runner-up (No. 2 seed) | Charlotte Latin (No. 1) 5, Providence Day 0 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=11&currentyear=1 |
+
+## In progress
+
+- Division I football: No. 1 seed in the eight-team bracket; quarterfinal at home against No. 8 Metrolina Christian not yet played as of 2026-11-06. https://www.ncisaa.org/playoff-brackets/?sport=31&currentyear=1
+
+## The 2026–27 Division I football bracket (as posted 2026-11-06)
+
+Quarterfinals, each at the higher seed: No. 1 Providence Day v No. 8 Metrolina Christian; No. 4 Christ School v No. 5 Charlotte Latin; No. 3 Cannon–Concord Academy (co-op) v No. 6 Charlotte Christian; No. 2 Rabun Gap v No. 7 Charlotte Country Day.
+
+
+---
+
 ## Wells Fargo Cup Standings 2020-2026
 
 *Source file: `Providence Day - Sports - Wells Fargo Cup Standings 2020-2026.md`*
@@ -2377,6 +2408,8 @@ Track and cross country are not listed: the design calls them recurring point so
 - https://www.maxpreps.com/news/zV4CX-6SUUy9GSmSTHOLEw/north-carolina-high-school-football-rankings-providence-day-no-1-in-2024-preseason-maxpreps-top-25.htm
 - https://www.nchsaa.org/2025-2026-wells-fargo-cup-champions/
 - https://www.nchsaa.org/calculating-state-cup-points/
+- https://www.ncisaa.org/playoff-brackets/?sport=11&currentyear=1
+- https://www.ncisaa.org/playoff-brackets/?sport=31&currentyear=1
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/history/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/past-champions-2024-2025/
