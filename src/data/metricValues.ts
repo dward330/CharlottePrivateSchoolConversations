@@ -305,7 +305,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // pass rate not published
       'hickory-grove-christian': null, // only overlapping "students who earned a 3/4/5 on ≥1 exam" published — no per-exam pass rate
       'gaston-day': '95%', // % of AP students scoring 3+, 2025; all AP students are required to sit the exam. Five-year series: 72/76/86/89/95
-      'providence-day': '94%', // May 2025: 94% scored 3+
+      'providence-day': '93%', // May 2026: 93% of 1,282 exams scored 3+ (497 students); AP exams are mandatory (School Profile 2026-2027.md)
     },
     // The exam session each figure covers (a school year where the school
     // reports one), shown under the value.
@@ -318,7 +318,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026)',
       'carmel-christian': '(2023)',
       'gaston-day': '(2025)',
-      'providence-day': '(2025)',
+      'providence-day': '(2026)',
     },
     quals: {
       'charlotte-catholic': {
@@ -331,7 +331,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': { kind: 'scope', text: '94% of AP exams scored 3 or higher in 2026 (435 exams, 208 students; the profile gives no pass count). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-latin': { kind: 'scope', text: '92% of 833 AP exams scored 3 or higher in 2026 (308 students; mean score 4.10). Latin requires every AP student to sit the exam. A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-country-day': { kind: 'scope', text: '93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.' },
-      'providence-day': { kind: 'scope', text: '94% of AP exams scored 3 or higher in May 2025. A score of 3+ is the level most colleges treat as a passing result.' },
+      'providence-day': { kind: 'scope', text: '93% of AP exams scored 3 or higher in May 2026, across 1,282 exams. A score of 3+ is the level most colleges treat as a passing result.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Share of seniors scoring 3 or higher on at least one AP exam, from the AP School Honor Roll (Platinum). The year is not stated on the school’s article; its metadata places it at the 2023 exams.',
@@ -354,21 +354,21 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // "% of exams scoring 4 or 5: NOT PUBLISHED"
       'hickory-grove-christian': null, // only overlapping student counts (14 earned a 5, 38 a 4 on ≥1 exam) — no per-exam rate
       'gaston-day': null, // only "% of AP students scoring 3+"
-      'providence-day': '77%', // May 2025: "77% were 4's or 5's", 1,213 exams (Redesign Research 2026.md); pdprofile moves this to 76% (2026)
+      'providence-day': '76%', // May 2026: "76% were 4's or 5's", 1,282 exams (School Profile 2026-2027.md)
     },
     subs: {
       'charlotte-catholic': '(2026)',
       'charlotte-country-day': '(2025)',
       'charlotte-latin': '(2026)',
       'covenant-day': '(2026)',
-      'providence-day': '(2025)',
+      'providence-day': '(2026)',
     },
     quals: {
       'charlotte-catholic': { kind: 'scope', text: '76% of 1,184 AP exams scored 4 or 5 in 2026. AP exams are mandatory in every AP course at CCHS. A 4 or 5 is the level most selective colleges look for in credit and placement.' },
       'covenant-day': { kind: 'scope', text: '78% of AP exams scored 4 or 5 in 2026 (401 exams; every AP student must sit the exam). A 4 or 5 is the level most selective colleges look for in credit and placement.' },
       'charlotte-country-day': { kind: 'scope', text: '74% of AP exams scored 4 or 5 overall in 2025 (530 exams). A 4 or 5 is the level most selective colleges look for in credit and placement.' },
       'charlotte-latin': { kind: 'scope', text: '75% of 833 AP exams scored 4 or 5 in 2026 — 625 exams, counted from the per-subject results table in the school\'s profile, which prints no 4-or-5 share itself. A 4 or 5 is the level most selective colleges look for in credit and placement.' },
-      'providence-day': { kind: 'scope', text: '77% of AP exams scored 4 or 5 in May 2025 (1,213 exams). A 4 or 5 is the level most selective colleges look for in credit and placement.' },
+      'providence-day': { kind: 'scope', text: '76% of AP exams scored 4 or 5 in May 2026, across 1,282 exams; every AP student must sit the exam. A 4 or 5 is the level most selective colleges look for in credit and placement.' },
     },
   },
   {

@@ -207,11 +207,10 @@ and stage explicit paths only. Untracked files from other sessions must not be s
     - `30` / "AP courses in the profile's course table, 29 of them examined in May 2026";
     - `No rank` (unchanged).
   - The subhead's "all 31 subjects" becomes "all 29 subjects examined".
-  - **`ap-top-scores` (added by `ap45`, which shipped first):** move PD's cell in
-    `metricValues.ts` from `77%` `(2025)` to `76%` `(2026)`, with the qual "76% of AP exams
-    scored 4 or 5 in May 2026, across 1,282 exams; every AP student must sit the exam. A 4 or
-    5 is the level most selective colleges look for in credit and placement." Re-translate
-    that qual in all nine locales.
+  - **`ap-top-scores` and `ap-performance`: ALREADY DONE by `ap45`** (user request,
+    2026-11-05). PD's two Compare cells are `93%` `(2026)` and `76%` `(2026)` with the quals
+    below, translated in all nine locales, and this profile file is committed as their source.
+    Do not redo them; the card's own `transcript` figures are still this plan's work.
   - Replace the existing `verify` flag (461 students / 30 vs 31) with one `verify` flag about
     the CSP row and the rule "quote, don't recompute".
   - Verdict point 2 becomes: "1,282 exams at 93% scoring 3+ and 76% at 4–5, and 94% of the
