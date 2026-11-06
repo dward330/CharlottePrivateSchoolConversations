@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–44. */
+  /** Episode number in the show, 1–45. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–44), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–45), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -654,6 +654,28 @@ export const EPISODES: PodcastEpisode[] = [
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000798499679',
     schools: ['charlotte-country-day'],
     researchArea: 'learning-support',
+  },
+  {
+    id: 45,
+    // The first `/cup-episode` production: one Wells Fargo Cup division, so the
+    // row reaches all seven NCISAA 4A roster schools' Sports sections. Take 2
+    // of the v2 prompt, which dropped take 1's invented cold open.
+    title: 'NCISAA 4A: Wells Fargo Cup 2025–26',
+    // Published: "Wells Fargo Cup 2025-2026 - NCISAA 4A - Decided by 2.5 Points"
+    fullTitle: 'Wells Fargo Cup 2025-2026 - NCISAA 4A - Decided by 2.5 Points',
+    spotifyUrl: 'https://open.spotify.com/episode/3kqRzte0yJWAWGdrWmqw1w',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000800260112',
+    schools: [
+      'providence-day',
+      'charlotte-latin',
+      'charlotte-country-day',
+      'cannon',
+      'charlotte-christian',
+      'covenant-day',
+      'carmel-christian',
+    ],
+    researchArea: 'sports',
   },
 ]
 
