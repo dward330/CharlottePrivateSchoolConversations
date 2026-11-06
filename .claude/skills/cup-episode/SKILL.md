@@ -138,8 +138,12 @@ Paths are `<slug>.<card>.<field path>` (for example
 - Change nothing else about the meaning, and add no fact.
 
 The gate only knows the names in the data. **Read the rendered PDF anyway**: a first name on
-its own ("his son Zeke plays for the Chargers") is invisible to it, and the first 4A build
-needed exactly that rewrite.
+its own ("his son Zeke plays for the Chargers") is invisible to it, and so is a student the
+sports data never lists as a commit. The first published 4A build (2026-11-06) needed four such
+fixes past a clear gate: "his son Zeke" and "son Sean" (a coach's children), a state-champion
+wrestler named in a `record` row note, and a Sources URL whose slug carried two student
+golfers' surnames. Drop a source like that with the key `"source:<exact url>": null`; a key
+matching no source fails the build (exit 2) rather than doing nothing.
 
 ## Step 5: notes, then build
 

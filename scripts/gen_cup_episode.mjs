@@ -35,7 +35,8 @@
  * player) never render. Every other string is scanned against every roster and
  * pro name in the sports data; a hit fails closed (exit 3) until the overrides
  * file rewrites or drops it. `--skeleton` writes a starter overrides file. The
- * gate only knows the names in the data, so the skill still reads the PDF.
+ * gate only knows the names in the data, so the skill still reads the PDF, and
+ * an overrides key `source:<url>` (null) drops a Sources entry it finds there.
  *
  * ⛔ THE PROMPT IS NEVER IN THE PDF, and every segment in it is decided HERE
  * from what exists: one numbered segment per roster school, the live segment
@@ -308,8 +309,18 @@ for (const list of Object.values(content.extras)) {
 
 const DELETE = Symbol('delete')
 const overrides = readJson('--overrides')
+// `source:<url>` (value null) drops one Sources entry: a citation whose URL slug
+// names a student the gate does not hold (a news post titled with two surnames).
+const DROPPED_URLS = new Set()
 if (overrides) {
-  for (const [path, raw] of Object.entries(overrides)) setPath(content, path, raw === null ? DELETE : raw)
+  for (const [path, raw] of Object.entries(overrides)) {
+    if (path.startsWith('source:')) {
+      if (raw !== null) die(`${path}: a source override can only be null (drop it).`)
+      DROPPED_URLS.add(path.slice('source:'.length))
+      continue
+    }
+    setPath(content, path, raw === null ? DELETE : raw)
+  }
   prune(content)
 }
 
@@ -477,7 +488,7 @@ const addSource = (label, url) => {
   if (!url || seenUrl.has(url)) return
   // Commit and recruiting citations are per-player pages: the name sits in the
   // label or the URL slug (/player/first-last/), so such a source is dropped.
-  if (namesIn(`${label} ${url}`) || NAME_RE?.test(label) || PERSON_PAGE.test(url)) {
+  if (DROPPED_URLS.has(url) || namesIn(`${label} ${url}`) || NAME_RE?.test(label) || PERSON_PAGE.test(url)) {
     seenUrl.add(url)
     droppedSources++
     return
@@ -704,6 +715,7 @@ if (latestRace) {
 }
 
 const bodyHtml = sections.join('\n\n')
+for (const url of DROPPED_URLS) if (!seenUrl.has(url)) die(`source:${url} matches no source in ${DIV}; check the URL.`)
 
 const generatedOn = new Date().toISOString().slice(0, 10)
 const html = `<!doctype html>
