@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**11 active** · 0 retired · Last updated **2026-11-05**
+**12 active** · 0 retired · Last updated **2026-11-06**
 
 ---
 
@@ -28,6 +28,7 @@
 | 🧩 | [`learning-support`](#learning-support) | Deep-research prompt → go/no-go → Learning Support plan | ❌ Never | — |
 | 🎧 | [`learning-support-episode`](#learning-support-episode) | One school's Learning Support → podcast | ❌ Generates files | Single |
 | 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
+| 📣 | [`cup-episode`](#cup-episode) | One Cup division → podcast | ❌ Generates files | Single |
 
 ### The main road
 
@@ -45,7 +46,8 @@ Five skills feed research **into** that road at any point:
 ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
 in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's Cup card,
 ending the same way) and `ingest-source-material` (everything else).
-Three stand alone: `add-school-news`, `admissions-episode` and `learning-support-episode`.
+Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode` and
+`cup-episode`.
 
 ---
 
@@ -484,6 +486,52 @@ Cup for <school>", "add the next school to the Cup card".
 
 **Deliberately cannot:** edit app code, use an estimate for an unverified season, list a
 "recurring point source" with no confirmed year, or deploy.
+
+---
+
+<a id="cup-episode"></a>
+
+## 📣 `cup-episode`
+
+**Turn one Wells Fargo Cup division (NCISAA 4A, 3A, 2A or NCHSAA 6A) into a podcast
+episode, with hosts who bring a sports network's championship energy.**
+
+`.claude/skills/cup-episode/SKILL.md` · added 2026-11-06 · generator:
+`scripts/gen_cup_episode.mjs` (`npm run report:cup`)
+
+The sports counterpart of `learning-support-episode`. It reads the shared Cup ledger and the
+roster schools' sports cards, and produces the NotebookLM source PDF and the talk-show prompt
+in `reports/wells-fargo-cup/` (gitignored), then judges the takes the user brings back.
+
+1. **Asks which division**, from the list the generator computes: every division with at
+   least one roster school in its latest season. Flags a one- or two-school division first.
+2. **Freshness check** against the association's own standings. Any cell that differs, or a
+   newer final season, **stops** the build and routes to `/wells-fargo-cup`.
+3. **The live season.** In-progress standings go in a `--live` file and their own segment;
+   this season's point-earning results go in `--extras`, each with its URL.
+4. Persists what was fetched to `source-material/` through a small `data/cup-…` PR.
+5. **The name gate.** The generator exits 3 until every student or pro name is rewritten
+   (`--skeleton` writes a starter file). Then notes and the build, under the 4,900-char budget.
+6. Hands over the files, the NotebookLM steps (**Length: Longer**) and the traps to listen for.
+7. Judges each transcript against the PDF text and writes `Prompt v2`, v3… by hand.
+
+> **🧭 The episode order:** what the Cup is → how points work → the whole field and six
+> seasons of champions → where it stands right now (only with live rows) → one segment per
+> roster school, best latest place first → the race at the top → close.
+
+> **🔒 Coaches may be named; students never are** (user, 2026-11-06). `honors`,
+> `pipeline.roster`, `record.bars` and `record.seasonDetail` never render, every other string
+> is scanned against every roster and pro name, and a source that names a student or is a
+> per-person page (`/player/`, `/roster/`) is dropped from the Sources list. The gate only
+> knows names in the data, so the PDF is still read: "his son Zeke" got past it on the first build.
+
+> **⚠️ Hype in the delivery, never in a fact.** Every streak ("four straight 4A Cups",
+> "three straight state titles") is a computed sentence in the PDF, so a hyped host never
+> has to count.
+
+**Deliberately cannot:** edit app code, the Cup ledger or any card; speak a student's name;
+build on a ledger the association disagrees with; or deploy. Adding the published episode to
+`podcastEpisodes.ts` is a separate PR.
 
 ---
 
