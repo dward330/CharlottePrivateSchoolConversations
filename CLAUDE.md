@@ -293,7 +293,8 @@ See [`.claude/skills/wells-fargo-cup/SKILL.md`](.claude/skills/wells-fargo-cup/S
 Every NotebookLM prompt written for an episode of *Charlotte Private School Conversations*,
 whether through `/admissions-episode` (`PROMPT_TEMPLATE` in
 `scripts/gen_admissions_report.mjs`), through `/learning-support-episode`
-(`scripts/gen_learning_episode.mjs`), or written by hand for a research-area deep dive, carries
+(`scripts/gen_learning_episode.mjs`), through `/cup-episode` (`scripts/gen_cup_episode.mjs`),
+or written by hand for a research-area deep dive, carries
 these three rules. The user set them 2026-10-12 as standing rules for every future episode:
 
 - **A real talk show, never a reading.** The hosts have done the homework and trade
