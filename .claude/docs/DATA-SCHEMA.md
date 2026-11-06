@@ -1133,6 +1133,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
 | `ap-performance` | AP scoring 3+ | 9/13 | Q sub |
+| `ap-top-scores` | AP scoring 4 or 5 | 5/13 | Q sub |
 | `bucket-ivy` | Ivy League | 11/13 | Q sub |
 | `bucket-ivyplus` | “Ivy Plus” | 11/13 | Q sub |
 | `bucket-nu75` | Top-75 National Universities | 11/13 | Q sub |
@@ -1172,7 +1173,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `aid-awarded` | Aid awarded / year | 3/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 43 Compare rows across 9 research areas.
+**Total:** 44 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 
