@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-06
 branch: feat/cup-episode
-prs: []
+prs: [431]
 ---
 
 # /cup-episode: a Wells Fargo Cup division as a podcast episode
