@@ -1,4 +1,4 @@
-var e=`charlotte-latin`,t=`sports`,n=37,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Latin - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings
+var e=`charlotte-latin`,t=`sports`,n=40,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Latin - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -930,6 +930,10 @@ https://sports.yahoo.com/articles/2026-national-prep-wrestling-championships-140
 https://www.on3.com/high-school/charlotte-latin-school-charlotte-nc-13024/football/alumni/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
 
+---`},{subtopic:`Wells Fargo Cup Points 2026-27 Season`,source_file:`Charlotte Latin - Sports - Wells Fargo Cup Points 2026-27 Season.md`,preview:`# Charlotte Latin — Wells Fargo Cup point-earning results, 2026–27 season (in progress)`,text:`# Charlotte Latin — Wells Fargo Cup point-earning results, 2026–27 season (in progress)`},{subtopic:`Fall 2026 state championship finishes`,source_file:null,preview:`| Sport | Class | Finish | Final | Date | Source | |---|---|---|---|---|---| | Girls tennis | 4A | Champion (No. 1 seed) | Charlotte Latin 5, Providence Day (No. 2) 0 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=11&currentyear=1 |`,text:`| Sport | Class | Finish | Final | Date | Source |
+|---|---|---|---|---|---|
+| Girls tennis | 4A | Champion (No. 1 seed) | Charlotte Latin 5, Providence Day (No. 2) 0 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=11&currentyear=1 |`},{subtopic:`In progress`,source_file:null,preview:`- Division I football: No. 5 seed in the eight-team bracket; quarterfinal at No. 4 Christ School not yet played as of 2026-11-06. https://www.ncisaa.org/playoff-brackets/?sport=31&currentyear=1 ---`,text:`- Division I football: No. 5 seed in the eight-team bracket; quarterfinal at No. 4 Christ School not yet played as of 2026-11-06. https://www.ncisaa.org/playoff-brackets/?sport=31&currentyear=1
+
 ---`},{subtopic:`Wells Fargo Cup Standings 2020-2026`,source_file:`Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026.md`,preview:`# Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026`,text:`# Charlotte Latin - Sports - Wells Fargo Cup Standings 2020-2026`},{subtopic:`Wells Fargo Cup results for Charlotte Latin`,source_file:null,preview:"All six seasons are NCISAA 4A. Copied from the official tables and identical to `CUP_RECORDS`. | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st | |---|---|---|---|---|---|---|---| | 2020–21 | 3 | 165 | 157.5 | 212.5 | 535 | Providence Day 670 | 135 | | 2021–22 | 2 | 185 | 197.5 | 272.5 |…",text:`All six seasons are NCISAA 4A. Copied from the official tables and identical to \`CUP_RECORDS\`.
 
 | Season | Place | Fall | Winter | Spring | Total | Winner | Points behind 1st |
@@ -1058,4 +1062,4 @@ https://www.flowrestling.org/articles/15454487-2026-national-prep-wrestling-cham
 • NCISAA — 2025–26 champions — https://www.ncisaa.org/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:37,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:40,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
