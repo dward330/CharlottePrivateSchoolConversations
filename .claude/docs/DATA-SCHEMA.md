@@ -1103,6 +1103,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `travel-homestays` | Trips with a host-family stay | 6/13 | Q C sub |
 | `travel-credential` | Global diploma or certificate | 3/13 | – Q C sub |
 | `travel-countries` | Countries reached by trips | 6/13 | Q C sub |
+| `travel-continents` | Continents reached by trips | 6/13 | Q C sub |
 
 ### Student Clubs `student-clubs`
 
@@ -1173,12 +1174,17 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `top-tuition` | Top tuition | 11/13 | – Q |
+| `tuition-lower` | Lower School tuition | 10/13 | – Q C sub |
+| `tuition-middle` | Middle School tuition | 10/13 | – Q C sub |
+| `tuition-upper` | Upper School tuition | 11/13 | – Q sub |
+| `run-prek12` | Pre-K through grade 12, at today’s rates | 10/13 | – Q C sub |
+| `run-ms12` | Middle School through grade 12, at today’s rates | 10/13 | – Q C sub |
+| `run-912` | Grades 9–12, at today’s rates | 11/13 | – Q C sub |
 | `pct-aid` | % receiving aid | 7/13 | Q |
 | `aid-awarded` | Aid awarded / year | 3/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 47 Compare rows across 9 research areas.
+**Total:** 53 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 
@@ -1252,6 +1258,135 @@ levels and B / G / Co-ed only where the school states the gender), No, or N/A (n
 also needs a `SportKey` and a `sports.cup.sport_<key>` key in all 10 locale catalogs (the
 vocabulary is shared with the Wells Fargo Cup card). Gender is never inferred: an entry
 without "(Boys)" / "(Girls)" / "(B & G)" / "(Co-ed)" gets no letter.
+
+**The four "offered" matrices** (`src/components/CompareMatrixRows.tsx` and one thin
+component per topic) share one renderer and one rule set: a cell is **Yes**, **Not listed**
+or **N/A**, never "No", because each source is a curated list or a school's own taxonomy,
+not a roster. The Arts and Course Offerings add **LS · MS · US** division chips, shown only
+where the school's own text names the item for that division. `npm run check:matrices`
+(chained into the build) fails on an unmapped raw string, a broken arts cite, a missing
+`en.json` label or a summer override naming a camp the catalog lacks.
+
+**Arts offered** (The Arts topic, `src/lib/artsMatrix.ts` → `CompareArtsRows.tsx`): 29 rows
+in three bands. **Every Yes is a typed claim** in `src/data/artsMatrix.ts` whose value is a
+verbatim fragment of that school's `src/data/artsPrograms/<slug>.ts`, because the arts modules
+are prose and ensemble names, not a roster — a derived "No" would say Hickory Grove teaches no
+painting. The check asserts every fragment is still a substring of the file. A division the
+school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says so in the tooltip.
+
+| Arts row (visual) | Schools |
+|---|--:|
+| `visualArt` | 9/11 |
+| `drawingPainting` | 9/11 |
+| `ceramics` | 6/11 |
+| `sculpture` | 7/11 |
+| `printmaking` | 3/11 |
+| `photography` | 9/11 |
+| `darkroom` | 3/11 |
+| `graphicDesign` | 7/11 |
+| `filmVideo` | 6/11 |
+| `fiberFashion` | 3/11 |
+| `designFabrication` | 1/11 |
+
+| Arts row (music) | Schools |
+|---|--:|
+| `generalMusic` | 8/11 |
+| `band` | 10/11 |
+| `orchestra` | 5/11 |
+| `choir` | 10/11 |
+| `jazz` | 5/11 |
+| `aCappella` | 2/11 |
+| `percussion` | 2/11 |
+| `marchingBand` | 1/11 |
+| `guitar` | 2/11 |
+| `piano` | 2/11 |
+| `worshipBand` | 3/11 |
+| `contemporaryEnsemble` | 2/11 |
+| `musicTechnology` | 2/11 |
+| `musicTheory` | 3/11 |
+
+| Arts row (theatre) | Schools |
+|---|--:|
+| `plays` | 11/11 |
+| `musicals` | 10/11 |
+| `technicalTheatre` | 8/11 |
+| `dance` | 2/11 |
+
+**Subjects by division** and **World languages** (Course Offerings topic, `src/lib/courseMatrix.ts` →
+`CompareCourseRows.tsx`): 12 subject rows and 7 language rows. Department names map through
+`DEPARTMENT_ALIASES` (name → rows, or null for a bundle such as `Core Academics` or `Specials`,
+whose course titles are then matched through `TITLE_ALIASES`; an unmatched title is reported,
+never guessed). Languages match course titles inside language and bundle departments only. A
+division with `notPublished` adds a line to every tooltip, so an absent chip reads as "not named".
+
+| Subject row | Schools |
+|---|--:|
+| `english` | 11/11 |
+| `mathematics` | 11/11 |
+| `science` | 11/11 |
+| `socialStudies` | 11/11 |
+| `worldLanguages` | 11/11 |
+| `computerScience` | 10/11 |
+| `innovationDesign` | 9/11 |
+| `visualArts` | 11/11 |
+| `performingArts` | 11/11 |
+| `physicalEducation` | 11/11 |
+| `bible` | 5/11 |
+| `journalismMedia` | 6/11 |
+
+| Language row | Schools |
+|---|--:|
+| `spanish` | 11/11 |
+| `french` | 8/11 |
+| `latin` | 6/11 |
+| `mandarin` | 3/11 |
+| `german` | 2/11 |
+| `greek` | 1/11 |
+| `asl` | 1/11 |
+
+**Club categories** (Student Clubs topic, `src/lib/clubsMatrix.ts` → `CompareClubsRows.tsx`):
+12 rows. Each school's `categories[].full` label maps through `CLUB_CATEGORY_ALIASES` to one or
+more rows; a Yes shows the school's own label(s) beneath, localized by category index. No club
+counts (a label mapping to two rows cannot attribute its clubs; `us-organizations` carries totals).
+
+| Club row | Schools |
+|---|--:|
+| `service` | 8/11 |
+| `academicCompetition` | 9/11 |
+| `leadership` | 9/11 |
+| `publicationsMedia` | 5/11 |
+| `affinity` | 4/11 |
+| `cultureLanguage` | 4/11 |
+| `artsPerformance` | 2/11 |
+| `faith` | 2/11 |
+| `honorSocieties` | 5/11 |
+| `specialInterest` | 9/11 |
+| `recreationSports` | 2/11 |
+| `stem` | 1/11 |
+
+**Camp categories** (Summer Programs topic, `src/lib/summerMatrix.ts` → `CompareSummerRows.tsx`):
+10 rows. Each school's `catalog.categoryFilters[].label` maps through `SUMMER_CATEGORY_ALIASES`
+(generic buckets → null); Charlotte Country Day files camps by time of day, so its rows come from
+`SUMMER_OVERRIDES`, a camp name per row that the check asserts exists. Every tooltip ends with the
+catalog's `intro`, where the sample / archive caveats live. A school with no summer module is N/A.
+
+| Camp row | Schools |
+|---|--:|
+| `dayCamp` | 6/11 |
+| `sports` | 10/11 |
+| `stem` | 8/11 |
+| `visualArts` | 9/11 |
+| `performingArts` | 6/11 |
+| `culinary` | 5/11 |
+| `academic` | 8/11 |
+| `nature` | 2/11 |
+| `games` | 4/11 |
+| `faith` | 2/11 |
+
+**Rule for a new school:** every department name, club category label and summer filter label
+must be in its alias table or `check:matrices` fails; its arts claims are typed into
+`src/data/artsMatrix.ts` with a verbatim cite each. A genuinely new row needs a key in the
+builder and a `compare.<part>.row_<key>` label in all 10 locale catalogs.
 
 ## 5. Standalone layers
 

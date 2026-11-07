@@ -213,14 +213,14 @@ Rules for the table:
   | Admissions | 2 | **50 pts** |
 
   A 14× spread. **Course Offerings can only ever read 0 / 25 / 50 / 75 / 100%** — there
-  is no such thing as a 58% there, and a single curriculum-guide PDF is the difference
+  is no such thing as a 63% there, and a single curriculum-guide PDF is the difference
   between 25% and 75%. **Admissions is worse: 0 / 50 / 100 only**, because it holds one
   prose card key, one structured card and **zero Compare rows**. Treat a Sports percentage
   as a measurement and an Admissions percentage as barely more than a yes/no; never compare
   the two as if they carried equal weight. Recompute these denominators from the schema doc
   rather than trusting the table — they move whenever a card or Compare row is added.
 
-  **Admissions contributes no Compare rows at all**, so it cannot move the ≥23/39 figure in
+  **Admissions contributes no Compare rows at all**, so it cannot move the ≥28/44 figure in
   either direction. A school can be perfect on Admissions and still fail the Compare bar,
   or vice versa — do not let a strong Admissions sweep read as progress toward it.
 - **Score against the cards the existing schools actually have, not every card that
@@ -265,7 +265,7 @@ a figure they doubt.
 #### The bar
 
 Two gates, both calibrated to **the thinnest school the project has judged worth
-shipping** — as of 2026-11-07 that is Davidson Day, at 23/39 Compare rows (58%) and 7 of
+shipping** — as of 2026-11-07 that is Davidson Day, at 28/44 Compare rows (63%) and 7 of
 the areas the script counts, with **no Summer Programs material at all**. That was an acceptable
 outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
 round number. `npm run coverage:floor` recomputes it — **run it, do not transcribe these
@@ -289,36 +289,36 @@ research gap.
   near-universal card is the signal, missing a rare one is not.
 
   **This is a trigger for a conversation, not a pass/fail gate — and it is deliberately
-  NOT the school-wide 58%.** Three reasons, each of which bit an earlier draft of this
+  NOT the school-wide 63%.** Three reasons, each of which bit an earlier draft of this
   skill:
 
-  1. **58% is a rate over 39 Compare rows.** An area's denominator is 2–28, so the two
+  1. **63% is a rate over 44 Compare rows.** An area's denominator is 2–28, so the two
      numbers are not the same kind of measurement and a shared threshold implies a
      precision that is not there.
   2. **The calibration school fails it.** Davidson Day — the shipped floor this whole bar
      is derived from — has **no Summer Programs material at all**, or 0%. A per-area gate
-     at 58% rejects an area the project already ships without. Any per-area threshold must
+     at 63% rejects an area the project already ships without. Any per-area threshold must
      survive that test; run it against the roster before changing this number.
   3. **Coarse areas cannot express it.** Course Offerings quantizes to 0/25/50/75/100 —
-     "58%" is unreachable, so the bar would silently behave as 75% there.
+     "63%" is unreachable, so the bar would silently behave as 75% there.
 
   So: ~50% is a rough line for *which areas are worth discussing*, and the discussion —
   with its dig-deeper option — is what actually decides. An area a hair under it that the
   user obviously wants is included without ceremony.
-- **School-wide (go / no-go), K–12 SCHOOLS:** **≥23 of 39 Compare rows, and one area
+- **School-wide (go / no-go), K–12 SCHOOLS:** **≥28 of 44 Compare rows, and one area
   below what `coverage:floor` derives.** (A K–8 school has no Compare rows at all — see
   the K–8 gate below.)
-  The comparison is **inclusive** — exactly 23/39 passes, 22/39 (56%) does not. Count in
-  **rows, not rounded percentages**: each row moves the figure ~2.6 points, so "58%" means
-  "at least 23 of 39." Do not round to a neater number in either direction.
+  The comparison is **inclusive** — exactly 28/44 passes, 27/44 (61%) does not. Count in
+  **rows, not rounded percentages**: each row moves the figure ~2.3 points, so "63%" means
+  "at least 28 of 44." Do not round to a neater number in either direction.
 
-  **Do not confuse this 58% with an area percentage.** They measure different things and
+  **Do not confuse this 63% with an area percentage.** They measure different things and
   are not comparable: this one is Compare rows only, across the whole school, against a
-  denominator of 39; an area percentage pools prose cards and structured-card fields too,
+  denominator of 44; an area percentage pools prose cards and structured-card fields too,
   against a denominator of 2–28. A school can sit at 90% on most areas and still miss this
   bar, because published *numbers* are scarcer than published *prose* — that asymmetry is
   a finding worth reporting, not an inconsistency to reconcile. When both figures appear in
-  one report, label them (`Compare rows: 23/39` vs `Sports area: ~83%`).
+  one report, label them (`Compare rows: 28/44` vs `Sports area: ~83%`).
 
   On the area count, the stated bar is **one area below whatever the script derives from
   Davidson Day** — deliberately more permissive. Davidson Day's two gaps are
@@ -343,7 +343,7 @@ research gap.
 **A K–8 school has ZERO Compare rows, by design.** It is excluded from the Compare
 page entirely (`hasHighSchool: false` → `comparableSchools`), so there are no
 `metricValues.ts` keys to fill and `check:metrics` skips it and prints the skip. Scoring a
-K–8 candidate on "≥23 of 39 Compare rows" fails **every** K–8 school at step 1, including
+K–8 candidate on "≥28 of 44 Compare rows" fails **every** K–8 school at step 1, including
 the one already shipped. Never apply it.
 
 For a K–8 candidate the gate is the **area axis alone**, at the same latitude the K–12
@@ -354,7 +354,7 @@ counts topics live, and that count has moved twice — Admissions made it 9 on 2
 High School Placement made it 10 on 2026-09-16. The script prints each school's areas as
 `N/<total>` and names the floor; a K–8 school appears in its "Excluded from the floor"
 line with its own area count, because the script already knows a Compare-excluded school's
-0/39 is correct rather than a floor.
+0/44 is correct rather than a floor.
 
 Note that a K–8 school can only ever reach `total − 1` areas, since College Support is
 structurally absent — the same ceiling a K–12 school has against High School Placement.
@@ -470,7 +470,7 @@ Two honesty rules on this, because the failure mode is talking yourself into a s
   motivated reasoning, not research. Say that plainly rather than offering another round.
 
 Offer the same option at the **school-wide** level too, before a no-go: if the candidate
-misses the ≥23/39 bar but the misses are concentrated in two or three areas, ask whether to
+misses the ≥28/44 bar but the misses are concentrated in two or three areas, ask whether to
 deep-dive those before declining the school outright. A school rejected on a shallow sweep
 that would have cleared the bar on a real look is the most expensive possible outcome of
 this skill — it is the one mistake that never gets discovered.
