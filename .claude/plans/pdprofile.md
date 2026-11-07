@@ -1,6 +1,6 @@
 ---
 name: pdprofile
-title: Refresh Providence Day from its 2026–27 profile — May 2026 AP (1,282 exams, 93%/76%), Class of 2026 SAT/ACT with ACT Reading and Science added, Class of 2027 quintiles, 754/179 enrollment and ~36:1 caseload (Compare ~44:1 corrected), Class of 2026 awards ($21M, 9 NMF, 58 National Recognition, 118 NHS, 375 GSD graduates), Huntingdon College added (383 rows) and the acceptance list's bold markers corrected from 107 to the profile's 182; Sports, Clubs and Compare follow-ons
+title: Refresh Providence Day from its 2026–27 profile — May 2026 AP (1,282 exams, 93%/76%), Class of 2026 SAT/ACT with ACT Reading and Science added, Class of 2027 quintiles, 754/179 enrollment and ~36:1 caseload (Compare ~44:1 corrected), Class of 2026 awards ($21M, 9 NMF, 58 National Recognition, 118 NHS, 375 GSD graduates), Huntingdon College added (383 rows) and the acceptance list's bold markers corrected from 107 to the profile's 182; Sports, Clubs and Compare follow-ons; amended 2026-11-07 for the Compare SAT/ACT rows that shipped after planning
 status: not-implemented
 phases: 2
 created: 2026-11-05
@@ -147,7 +147,9 @@ never translated.
 
 ### Parallel work to expect
 
-Other sessions write profile plans in this same tree. **Branch from freshly pulled `main`**,
+`ccdprofile` (Charlotte Country Day, planned 2026-11-07) touches the same `metricValues.ts`
+rows and adds the same D19 schema rule; whichever lands second rebases and keeps the rule
+once. Other sessions write profile plans in this same tree. **Branch from freshly pulled `main`**,
 and stage explicit paths only. Untracked files from other sessions must not be swept in
 (CLAUDE.md git standard). Do not `git stash` (memory `never-git-stash-in-shared-tree`).
 
@@ -356,6 +358,17 @@ and stage explicit paths only. Untracked files from other sessions must not be s
   - Enrollment (2,060 / 39% students of color) and the 22.5-unit graduation requirements have
     no card. This follows the ddprofile2 precedent: no card is built.
   - `ncAdmissions` is unchanged.
+- **D20 — Compare SAT / ACT rows (added 2026-11-07; `testscores`, PR #439, shipped after this
+  plan was written).** `sat-scores` and `act-scores` in `metricValues.ts` now carry a PD cell
+  each: `values` `'1334'` / `'27'`, `subs` `'(Class of 2025)'`, `scores`
+  `{ median: null, mean: '1334', mid50: '1220–1460' }` / `{ …, mean: '27', mid50: '23–31' }`.
+  Move them to the Class of 2026: `scores` `{ median: null, mean: '1288', mid50: '1160–1420' }`
+  and `{ median: null, mean: '25', mid50: '21–30' }`; `values` `'1288'` / `'25'` (the first
+  non-null of median → mean → mid50, which `check:scores` enforces); `subs` `'(Class of 2026)'`
+  on both. No PD qual exists on either row; add none. `check:scores` also requires `1288`,
+  `1160`, `1420`, `25`, `21`, `30` and `Class of 2026` verbatim in the PD card file, which D8
+  supplies. Also check `ap45` (PR #430) left the PD `ap-performance` / `ap-top-scores` cells at
+  `93%` / `76%` `(2026)` — D6 already says not to redo them.
 - **D19 — Schema-doc rule.** Add one durable rule to the acceptance-list section of
   `scripts/gen_data_schema.mjs`:
   - **"Read bold markers from the source's formatting — `<strong>`/`<b>` in HTML, the bold
@@ -422,8 +435,9 @@ content of an existing tile.
    - Grep the file afterwards for `1,213`, `461`, `77%`, `730`, `178`, `344`, `31 subjects`,
      `1053`, `2.930`, `392`, `multi-enrollee`, `382` and `$20`. Each remaining hit must be
      deliberate, such as the 2025 merit row.
-6. **Compare cells** in `src/data/metricValues.ts` (D6, D10): `ap-performance` value, sub,
-   comment and qual, then `counselor-caseload` value, comment and qual.
+6. **Compare cells** in `src/data/metricValues.ts` (D6, D10, D20): `ap-performance` is
+   already done (ap45); `counselor-caseload` value, comment and qual; `sat-scores` and
+   `act-scores` PD cells (`values`, `subs`, `scores`). Run `npm run check:scores`.
 7. **Sports and Clubs** (D17).
 8. **Schema-doc rule** (D19): edit `scripts/gen_data_schema.mjs`, then
    `npm run schema && npm run check:schema`.
@@ -468,7 +482,7 @@ mechanism. The traps:
 | `source-material/college-support/providence-day/Providence Day - College Support - School Profile 2026-2027.md` | new (written at planning) |
 | `source-material/college-support/_shared/College Homepages 2026.md`, `src/data/collegeUrls.ts` | Huntingdon row, if confirmed |
 | `src/data/collegeSupportPrograms/providence-day.ts` | list row + bold fix; figures, prose and citations on five cards |
-| `src/data/metricValues.ts` | `ap-performance`, `counselor-caseload` (PD cells only) |
+| `src/data/metricValues.ts` | `counselor-caseload`, `sat-scores`, `act-scores` (PD cells only; AP cells already moved by ap45) |
 | `src/data/sportsPrograms/providence-day.ts` | `funnelNote` + citation |
 | `src/data/clubsPrograms/providence-day.ts` | NHS row, service footnote, honors flag, citations |
 | `scripts/gen_data_schema.mjs`, `.claude/docs/DATA-SCHEMA.md` | D19 rule; doc regenerated |
@@ -481,8 +495,9 @@ mechanism. The traps:
 ### Phase 1 — English
 
 - [ ] `npx tsc -b`: clean (memory: trust `tsc -b`, not `--noEmit`).
-- [ ] `npm run check:ranks && npm run check:collegeurls && npm run check:buckets && npm run check:memberships`:
-  clean. The buckets read 8/8 · 17/17 · 75/75 · 51/75 · 65/68 · 14/107 (D4).
+- [ ] `npm run check:ranks && npm run check:collegeurls && npm run check:buckets && npm run check:memberships && npm run check:scores`:
+  clean. The buckets read 8/8 · 17/17 · 75/75 · 51/75 · 65/68 · 14/107 (D4); the SAT/ACT rows
+  read `1288` / `25` with `(Class of 2026)` (D20).
 - [ ] `colleges` has **383** rows and **182** `enrolling: true`. Against `main`, one name is
   added and none removed. Spot-check five examples:
   - University of Virginia is **not** enrolling;
@@ -502,7 +517,8 @@ mechanism. The traps:
     - the 383-row list with bold on the right names;
     - the "bold = enrolling one or more graduates" key;
     - 375 GSD graduates, and CEEB 340687.
-  - **Compare:** PD AP shows `93%` `(2026)`, and the caseload shows `~36:1`.
+  - **Compare:** PD AP shows `93%` `(2026)`, the caseload shows `~36:1`, and the SAT/ACT cells
+    stack 1288 / 1160–1420 and 25 / 21–30 over `(Class of 2026)`.
   - **Sports:** the funnel note names 31 / 13 Division I.
   - **Clubs:** NHS shows 118, and the service card says there is no requirement.
   - **Production preview:** no `verify` flag text appears.

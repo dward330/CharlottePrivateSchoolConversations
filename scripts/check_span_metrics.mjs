@@ -71,9 +71,9 @@ const EXPECTED = {
      NEGATIVE and the >= comparison still reads correctly. Do not "fix" the sign. */
   'program-span': { slugs: ['davidson-day'], min: -2 },
   /* At ceiling (8/8, 17/17, 75/75) — these can be tied but not overtaken. */
-  'bucket-ivy': { slugs: ['providence-day'], min: 1 },
-  'bucket-ivyplus': { slugs: ['providence-day'], min: 1 },
-  'bucket-nu75': { slugs: ['cannon', 'providence-day'], min: 1 },
+  'bucket-ivy': { slugs: ['charlotte-country-day', 'providence-day'], min: 1 },
+  'bucket-ivyplus': { slugs: ['charlotte-country-day', 'providence-day'], min: 1 },
+  'bucket-nu75': { slugs: ['cannon', 'charlotte-country-day', 'providence-day'], min: 1 },
   'bucket-lac75': { slugs: ['providence-day'], min: 43 / 75 },
   'bucket-p4': { slugs: ['providence-day'], min: 57 / 68 },
   /* Was charlotte-country-day (18/107) when written in PR #127; hickory-grove-christian

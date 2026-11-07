@@ -159,8 +159,10 @@
 | Bucknell University | https://www.bucknell.edu | 200 |
 | Butler University | https://www.butler.edu | 200 |
 | Cairn University | https://cairn.edu | 200 via redirect from www.cairn.edu |
+| Cal Poly | https://www.calpoly.edu | 200; Cal Poly, San Luis Obispo — same institution as the California Polytechnic State University rows (browser-confirmed 2026-11-07) |
 | California Baptist University | https://calbaptist.edu | 200 via redirect from www.calbaptist.edu |
 | California Institute of Technology | https://www.caltech.edu | 200 |
+| California Institute of the Arts | https://calarts.edu | 200 via redirect from www.calarts.edu; "CalArts Home" (browser-confirmed 2026-11-07) |
 | California Polytechnic State University | https://www.calpoly.edu | 200 |
 | California Polytechnic State University (San Luis Obispo) | https://www.calpoly.edu | 200 |
 | California State University (Bakersfield) | https://www.csub.edu | 200 |
@@ -192,6 +194,7 @@
 | Christopher Newport University | https://cnu.edu | 200 |
 | Citadel Military College of South Carolina | https://www.citadel.edu | 200 |
 | Clafin University | https://www.claflin.edu | 200 OK; misspelling resolved to Claflin University, Orangeburg, SC |
+| Claflin University | https://www.claflin.edu | 200; Claflin University, Orangeburg, SC — correct spelling beside the "Clafin University" row (browser-confirmed 2026-11-07) |
 | Claremont McKenna College | https://www.cmc.edu | 200 |
 | Clark Atlanta University | https://www.cau.edu | 200 |
 | Clark University | https://www.clarku.edu | 200 |
@@ -504,8 +507,10 @@
 | Norwich University | https://www.norwich.edu | 200 |
 | Nova Southeastern University | https://www.nova.edu | 200 |
 | Oberlin College | https://www.oberlin.edu | 200 |
+| Oberlin Conservatory of Music | https://www.oberlin.edu/conservatory | 200; the conservatory has no separate domain — its section of oberlin.edu, "Conservatory of Music | Oberlin College and Conservatory" (browser-confirmed 2026-11-07) |
 | Occidental College | https://www.oxy.edu | 200 |
 | Oglethorpe University | https://oglethorpe.edu | 301->200 (www redirects to bare domain) |
+| Ohio Northern University | https://www.onu.edu | 200; Ohio Northern University, Ada, OH (browser-confirmed 2026-11-07) |
 | Ohio University | https://www.ohio.edu | 200 |
 | Ohio University (Main Campus) | https://www.ohio.edu | 200 |
 | Ohio Wesleyan University | https://www.owu.edu | 200 |
@@ -573,6 +578,7 @@
 | Rice University | https://www.rice.edu | 200 |
 | Richmond American University London | https://www.richmond.ac.uk | 200 |
 | Richmond American University London (UK) | https://www.richmond.ac.uk | 200 |
+| Rider University | https://www.rider.edu | 200; "Private University in Lawrenceville, NJ" (browser-confirmed 2026-11-07) |
 | Ringling College of Art & Design | https://www.ringling.edu | 403 Cloudflare bot-block (domain confirmed live) |
 | Ringling College of Art and Design | https://www.ringling.edu | 403 Cloudflare bot-block (domain confirmed live) |
 | Roanoke College | https://www.roanoke.edu | 200 |
@@ -683,6 +689,7 @@
 | The College of New Jersey | https://www.tcnj.edu | 403 bot-block; domain confirmed correct via knowledge |
 | The College of William and Mary | https://www.wm.edu | 200 |
 | The College of Wooster | https://wooster.edu | 200 via redirect from www.wooster.edu |
+| The Cooper Union for the Advancement of Science and Art | https://cooper.edu | 200; title names the institution in full (browser-confirmed 2026-11-07) |
 | The George Washington University | https://www.gwu.edu | 200 |
 | The King's College | https://www.tkc.edu | 200 OK; NYC Christian liberal arts college. Note: announced permanent closure/dissolution July 2025, but its official site remains live and accessible; distinct row from "King's College London" |
 | The New England Conservatory of Music | https://necmusic.edu | 403 bot-block; domain confirmed correct via knowledge |
@@ -791,6 +798,7 @@
 | University of California–San Diego | https://www.ucsd.edu | 200 |
 | University of California–Santa Barbara | https://www.ucsb.edu | 200 |
 | University of California–Santa Cruz | https://www.ucsc.edu | 200 (403 to curl, Cloudflare bot-block; domain confirmed correct) |
+| University of Cambridge | https://www.cam.ac.uk | 200; University of Cambridge (browser-confirmed 2026-11-07) |
 | University of Central Florida | https://www.ucf.edu | 200 |
 | University of Charleston | https://www.ucwv.edu | 200 (WV; distinct from College of Charleston SC) |
 | University of Chicago | https://www.uchicago.edu | 200 |
@@ -832,6 +840,8 @@
 | University of Iowa | https://uiowa.edu | 200 |
 | University of Kansas | https://ku.edu | 200 |
 | University of Kentucky | https://www.uky.edu | 200 |
+| University of Leeds | https://www.leeds.ac.uk | 200; University of Leeds (browser-confirmed 2026-11-07) |
+| University of Liverpool | https://www.liverpool.ac.uk | 200; University of Liverpool (browser-confirmed 2026-11-07) |
 | University of London–Birkbeck | https://www.bbk.ac.uk | 200 |
 | University of London–Goldsmiths | https://www.gold.ac.uk | 200 |
 | University of London–Queen Mary | https://www.qmul.ac.uk | 200 (browser UA; curl default UA got 403) |
