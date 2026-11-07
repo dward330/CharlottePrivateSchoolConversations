@@ -2283,7 +2283,8 @@ export const VALUE_METRICS: ValueMetric[] = [
 
   /* ------------------------------------------------- Wells Fargo Cup rows -- */
 
-  // Rows user-approved 2026-11-01 (plan `cupcompare`). Every cell is typed and
+  // Rows user-approved 2026-11-01 (plan `cupcompare`); `cup-best` added on the
+  // user’s request 2026-11-07. Every cell is typed and
   // re-derived by check:cup from src/data/wellsFargoCup.ts, so a new season or a
   // ledger correction fails the build until these move. `noLead` because places
   // and titles do not compare across divisions, and the default parser would
@@ -2385,6 +2386,55 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Won in 2020–21, 2022–23, 2023–24, 2024–25 and 2025–26, all in NCISAA 4A.',
       },
+    },
+  },
+  {
+    topic: 'sports',
+    key: 'cup-best',
+    label: 'Best Wells Fargo Cup finish, 2020–21 to 2025–26',
+    note: 'Each school’s highest place in its own division across these six seasons. Beneath, the season it came in; when a school reached that place more than once, the most recent. Divisions differ in size and competition, so places do not compare across them.',
+    compareOnly: true,
+    noLead: true,
+    textValues: true,
+    rowTip: 'cup',
+    values: {
+      cannon: '4th',
+      'charlotte-christian': '5th',
+      'charlotte-catholic': '1st',
+      'charlotte-country-day': '1st',
+      'charlotte-latin': '2nd',
+      'covenant-day': '8th',
+      'carmel-christian': '14th',
+      'davidson-day': '1st',
+      'hickory-grove-christian': '8th',
+      'gaston-day': '1st',
+      'providence-day': '1st',
+    },
+    subs: {
+      cannon: '2023–24',
+      'charlotte-christian': '2023–24',
+      'charlotte-catholic': '2025–26',
+      'charlotte-country-day': '2021–22',
+      'charlotte-latin': '2025–26',
+      'covenant-day': '2022–23',
+      'carmel-christian': '2022–23',
+      'davidson-day': '2023–24',
+      'hickory-grove-christian': '2022–23',
+      'gaston-day': '2021–22',
+      'providence-day': '2025–26',
+    },
+    quals: {
+      cannon: { kind: 'scope', text: '370 points, in NCISAA 4A. Also 4th in 2020–21.' },
+      'charlotte-christian': { kind: 'scope', text: '362.5 points, in NCISAA 4A.' },
+      'charlotte-catholic': { kind: 'scope', text: '655 points, in NCHSAA 6A. The NCHSAA is a separate association, so its points do not compare with NCISAA points.' },
+      'charlotte-country-day': { kind: 'scope', text: '682.5 points, in NCISAA 4A.' },
+      'charlotte-latin': { kind: 'scope', text: '690 points, in NCISAA 4A. Also 2nd in 2021–22, 2022–23 and 2024–25.' },
+      'covenant-day': { kind: 'scope', text: '322.5 points, in NCISAA 4A.' },
+      'carmel-christian': { kind: 'scope', text: '142.5 points, in NCISAA 4A. Also tied for 14th in 2021–22.' },
+      'davidson-day': { kind: 'scope', text: '497.5 points, in NCISAA 2A. The school moved to NCISAA 3A in 2024–25.' },
+      'hickory-grove-christian': { kind: 'scope', text: '237.5 points, in NCISAA 3A.' },
+      'gaston-day': { kind: 'scope', text: '395 points, in NCISAA 2A.' },
+      'providence-day': { kind: 'scope', text: '692.5 points, in NCISAA 4A. Also won in 2020–21, 2022–23, 2023–24 and 2024–25.' },
     },
   },
 ]

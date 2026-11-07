@@ -479,7 +479,7 @@ for (const s of STRUCTURED) {
     w('- **The race bars compare a school with the place right above it, or 2nd if it won.**')
     w('  `nearestRival` passes over a tied school and a skipped place. The gap tile is separate:')
     w('  it always reads the winner, through `seasonRival`.')
-    w('- **Two Compare rows read the ledger.** `cup-finish` and `cup-titles` are typed in')
+    w('- **Three Compare rows read the ledger.** `cup-finish`, `cup-titles` and `cup-best` are typed in')
     w('  `metricValues.ts` for every high school, card or not, and `check:cup` fails until they')
     w('  match. A new season or a ledger correction moves them.')
     w()

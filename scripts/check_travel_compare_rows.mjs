@@ -58,7 +58,7 @@ const KEYS = [
 ]
 // The only rows allowed after the travel rows, in order (plan `cupcompare`).
 // check:cup asserts their own placement.
-const TAIL_KEYS = ['cup-finish', 'cup-titles']
+const TAIL_KEYS = ['cup-finish', 'cup-titles', 'cup-best']
 const DOMESTIC = new Set(['New Mexico'])
 const UK = new Set(['England', 'Scotland', 'United Kingdom'])
 // Every destination piece on today's ledgers. A new one must be classified
