@@ -1,7 +1,7 @@
 ---
 name: sportsmatrix
 title: Compare › Sports — a "Sports offered" row per sport (Yes / No / N/A, with V · JV · MS and B / G)
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-06
 branch: feat/sportsmatrix
@@ -440,3 +440,24 @@ matrix adds no research prose, and sport `name`s stay untranslated.
 
 - Should the sport rows ever get a leader tint (e.g. most levels fielded)? — **default:** no
   tint; Yes / No is not a ranking.
+
+## Implementation notes
+
+**Phase 2 (2026-11-07), chrome only, all nine catalogs.** Choices a reviewer should know:
+
+- **`sport_hockey` is rendered as *ice hockey*** in every locale (es `Hockey sobre hielo`,
+  hi `आइस हॉकी`, …). The one school listing it (Charlotte Catholic) lists it in its winter
+  season, and Field Hockey is its own row beside it. A bare "hockey" reads as field hockey
+  in hi / bn / te especially.
+- **`level_V` / `level_JV` / `level_MS` stay English** (`Varsity`, `Junior varsity`,
+  `Middle School`) in all nine, following the existing precedent: `varsity` is kept Latin in
+  every locale's `pointsHint`, and `middleSchool` is `Middle School` everywhere.
+- **Gender letters:** es / it `M` / `F` (masculino / femenino; it already says
+  Maschile / Femminile); fr / ht `G` / `F`; bn `ছে` / `মে`; fa `پ` / `د`; ar `ذ` / `إ`.
+  te and hi keep `B` / `G`, since both of their words for boys and girls start with the
+  same letter. The legend explains the letters in every locale.
+- **RTL:** checked in Chrome under `fa`. The marker renders `(پ, د)`, boys first in reading
+  order, and the chips sit at the reading-start edge. The `, ` joiner is composed in code and
+  stays a Latin comma; that is cosmetic, so it was left alone.
+- The `fa` / `ar` catalogs mix escaped (`⁦`) and literal bidi isolates. The merge kept
+  every untouched line byte-identical, so the diff holds only the new keys.
