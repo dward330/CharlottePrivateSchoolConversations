@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-06
 branch: feat/sportsmatrix
-prs: []
+prs: [435]
 ---
 
 # Compare › Sports — a "Sports offered" row per sport
