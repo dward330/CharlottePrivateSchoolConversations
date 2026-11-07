@@ -85,18 +85,67 @@ export const CLUB_CATEGORY_ALIASES: Record<string, ClubRowKey[]> = {
   'General interest': ['specialInterest'],
 }
 
-/** A Yes carries the indexes of the school's categories that map to the row. */
-export type ClubsCell = BuiltCell & { categoryIndexes?: number[] }
+/**
+ * Row → a club NAME in that school's catalog, for a category the school's own
+ * taxonomy does not carry but whose roster plainly holds (a Fellowship of
+ * Christian Athletes chapter filed under "Interest", a yearbook under "Student
+ * club"). check:matrices asserts the name exists. The cell shows the club's own
+ * category label beneath, read localized by index.
+ */
+export const CLUB_OVERRIDES: Record<string, Partial<Record<ClubRowKey, string[]>>> = {
+  cannon: { stem: ['Brainy Yaks Robotics'] },
+  'charlotte-catholic': {
+    affinity: ['Achievers Club', 'Asian American Pacific Islander Club'],
+    artsPerformance: ['Art Club', 'Music Production Club', 'Photography Club'],
+    faith: ['Campus Ministry Club', 'Rosary Club', 'St. Augustine Club'],
+    stem: ['Robotics Club'],
+  },
+  'charlotte-christian': {
+    service: ['Letters of Light', 'Best Buddies'],
+    academicCompetition: ['DECA', 'Model UN', 'Debate'],
+    artsPerformance: ['Tri-M Music Honor Society', 'International Thespian Society', 'National Art Honor Society'],
+    faith: ['Athletes in Action'],
+    recreationSports: ['Spikeball', 'Ultimate Frisbee'],
+    stem: ['VEX Robotics Competition Team'],
+  },
+  'charlotte-country-day': { faith: ['Interfaith Club'], stem: ['Robotics'] },
+  'charlotte-latin': { recreationSports: ['Outdoor Club'] },
+  'covenant-day': {
+    cultureLanguage: ['Latin (JCL) Club', 'French Club'],
+    artsPerformance: ['International Thespian Society', 'Tri-M Music Honor Society', 'National Art Honor Society'],
+    specialInterest: ['Book Club'],
+    stem: ['Robotics (First Lego League)', 'Sustainability Engineering'],
+  },
+  'davidson-day': { recreationSports: ['Outdoor Club'], stem: ['Science Club', 'Math Olympiad'] },
+  'gaston-day': { faith: ['FCA'] },
+  'hickory-grove-christian': {
+    publicationsMedia: ['Quill and Scroll Honor Society'],
+    cultureLanguage: ['International Culture Club', 'Spanish Club'],
+  },
+  'providence-day': {
+    service: ['Random Acts of Kindness', 'Wing Haven', 'Lower School Buddies'],
+    cultureLanguage: ['Chinese Club', 'French Language Club', 'Latin Club'],
+    faith: ['Fellowship of Christian Athletes (FCA)'],
+    honorSocieties: ['National Honor Society', 'Computer Science Honors Society'],
+    stem: ['Robotics Team', 'Science Olympiad', 'Women in STEM'],
+  },
+}
+
+/** A Yes carries the indexes of the school's categories that map to the row, and/or override club names. */
+export type ClubsCell = BuiltCell & { categoryIndexes?: number[]; clubs?: string[] }
 export type ClubsMatrixRow = { key: ClubRowKey; count: number; cells: Record<string, ClubsCell> }
 export type ClubsMatrix = {
   rows: ClubsMatrixRow[]
   unmapped: { slug: string; label: string }[]
+  /** Override club names not found in the school's catalog. */
+  missingOverrides: { slug: string; key: ClubRowKey; name: string }[]
   unusedAliases: string[]
 }
 
 export function buildClubsMatrix(catalogs: Record<string, ClubCatalog | undefined>): ClubsMatrix {
   const slugs = Object.keys(catalogs)
   const unmapped: ClubsMatrix['unmapped'] = []
+  const missingOverrides: ClubsMatrix['missingOverrides'] = []
   const used = new Set<string>()
   const rows: ClubsMatrixRow[] = CLUB_ROW_KEYS.map((key) => ({ key, count: 0, cells: {} }))
   for (const slug of slugs) {
@@ -115,13 +164,18 @@ export function buildClubsMatrix(catalogs: Record<string, ClubCatalog | undefine
       used.add(c.full)
       for (const k of keys) hits.set(k, [...(hits.get(k) ?? []), i])
     })
+    const overrides = CLUB_OVERRIDES[slug] ?? {}
+    const names = new Set(cat.clubs.map((c) => c.name))
     for (const r of rows) {
       const idx = hits.get(r.key)
-      if (idx) {
+      const wanted = overrides[r.key] ?? []
+      for (const n of wanted) if (!names.has(n)) missingOverrides.push({ slug, key: r.key, name: n })
+      const clubs = wanted.filter((n) => names.has(n))
+      if (idx || clubs.length) {
         r.count++
-        r.cells[slug] = { state: 'yes', categoryIndexes: idx }
+        r.cells[slug] = { state: 'yes', ...(idx ? { categoryIndexes: idx } : {}), ...(clubs.length ? { clubs } : {}) }
       } else r.cells[slug] = { state: 'notListed' }
     }
   }
-  return { rows, unmapped, unusedAliases: Object.keys(CLUB_CATEGORY_ALIASES).filter((l) => !used.has(l)) }
+  return { rows, unmapped, missingOverrides, unusedAliases: Object.keys(CLUB_CATEGORY_ALIASES).filter((l) => !used.has(l)) }
 }

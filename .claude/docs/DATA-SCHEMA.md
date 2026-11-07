@@ -1279,14 +1279,14 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 |---|--:|
 | `visualArt` | 9/11 |
 | `drawingPainting` | 9/11 |
-| `ceramics` | 6/11 |
+| `ceramics` | 7/11 |
 | `sculpture` | 7/11 |
 | `printmaking` | 4/11 |
 | `photography` | 10/11 |
 | `darkroom` | 3/11 |
 | `graphicDesign` | 8/11 |
 | `filmVideo` | 6/11 |
-| `fiberFashion` | 4/11 |
+| `fiberFashion` | 5/11 |
 | `designFabrication` | 1/11 |
 
 | Arts row (music) | Schools |
@@ -1328,12 +1328,12 @@ division with `notPublished` adds a line to every tooltip, so an absent chip rea
 | `socialStudies` | 11/11 |
 | `worldLanguages` | 11/11 |
 | `computerScience` | 10/11 |
-| `innovationDesign` | 9/11 |
+| `innovationDesign` | 10/11 |
 | `visualArts` | 11/11 |
 | `performingArts` | 11/11 |
 | `physicalEducation` | 11/11 |
 | `bible` | 5/11 |
-| `journalismMedia` | 6/11 |
+| `journalismMedia` | 11/11 |
 
 | Language row | Schools |
 |---|--:|
@@ -1352,18 +1352,18 @@ counts (a label mapping to two rows cannot attribute its clubs; `us-organization
 
 | Club row | Schools |
 |---|--:|
-| `service` | 8/11 |
-| `academicCompetition` | 9/11 |
+| `service` | 10/11 |
+| `academicCompetition` | 10/11 |
 | `leadership` | 9/11 |
-| `publicationsMedia` | 5/11 |
-| `affinity` | 4/11 |
-| `cultureLanguage` | 4/11 |
-| `artsPerformance` | 2/11 |
-| `faith` | 2/11 |
-| `honorSocieties` | 5/11 |
-| `specialInterest` | 9/11 |
-| `recreationSports` | 2/11 |
-| `stem` | 1/11 |
+| `publicationsMedia` | 6/11 |
+| `affinity` | 5/11 |
+| `cultureLanguage` | 7/11 |
+| `artsPerformance` | 5/11 |
+| `faith` | 7/11 |
+| `honorSocieties` | 6/11 |
+| `specialInterest` | 10/11 |
+| `recreationSports` | 5/11 |
+| `stem` | 8/11 |
 
 **Camp categories** (Summer Programs topic, `src/lib/summerMatrix.ts` → `CompareSummerRows.tsx`):
 10 rows. Each school's `catalog.categoryFilters[].label` maps through `SUMMER_CATEGORY_ALIASES`
@@ -1373,15 +1373,15 @@ catalog's `intro`, where the sample / archive caveats live. A school with no sum
 
 | Camp row | Schools |
 |---|--:|
-| `dayCamp` | 6/11 |
+| `dayCamp` | 8/11 |
 | `sports` | 10/11 |
 | `stem` | 8/11 |
 | `visualArts` | 9/11 |
-| `performingArts` | 6/11 |
-| `culinary` | 5/11 |
-| `academic` | 8/11 |
-| `nature` | 2/11 |
-| `games` | 4/11 |
+| `performingArts` | 8/11 |
+| `culinary` | 8/11 |
+| `academic` | 9/11 |
+| `nature` | 5/11 |
+| `games` | 6/11 |
 | `faith` | 2/11 |
 
 **Rule for a new school:** every department name, club category label and summer filter label

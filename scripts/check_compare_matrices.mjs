@@ -15,7 +15,8 @@
 //           src/data/artsPrograms/<slug>.ts, or whose `{ course }` is not an
 //           exact course title in that division of courseOfferings.ts (named by
 //           slug, key and division)
-//   exit 1  a summer override naming a camp that is not in the school's catalog
+//   exit 1  a summer or club override naming a camp or club that is not in the
+//           school's catalog
 //   exit 1  a row key, group key or division with no compare.* label in
 //           src/locales/en.json
 //   exit 1  a bundle course title matching two languages
@@ -135,8 +136,9 @@ async function main() {
 
   // Clubs
   for (const u of clubs.matrix.unmapped) failures.push(`clubs ${u.slug}: category "${u.label}" is not in CLUB_CATEGORY_ALIASES (src/lib/clubsMatrix.ts)`)
+  for (const u of clubs.matrix.missingOverrides) failures.push(`clubs ${u.slug} ${u.key}: override club "${u.name}" is not in the school's catalog`)
   for (const k of clubs.keys) needKey(`compare.clubs.row_${k}`)
-  for (const k of ['group', 'topic', 'tipGroupsAs']) needKey(`compare.clubs.${k}`)
+  for (const k of ['group', 'topic', 'tipGroupsAs', 'tipClubs']) needKey(`compare.clubs.${k}`)
   for (const n of clubs.matrix.unusedAliases) notes.push(`clubs: alias "${n}" is used by no comparable school`)
 
   // Summer

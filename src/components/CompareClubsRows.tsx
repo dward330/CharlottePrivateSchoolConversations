@@ -29,9 +29,17 @@ export function CompareClubsRows({ cols }: { cols: Col[] }) {
           const c = row.cells[s.slug] ?? { state: 'na' }
           const own = labelsOf(s.slug)
           if (c.state === 'yes') {
-            const sub = (c.categoryIndexes ?? []).map((i) => own[i]).filter(Boolean).join(' · ')
+            // An override club shows its own category label beneath, like a mapped category.
+            const cat = clubCatalog(s.slug, lang)
+            const ownCats = (c.clubs ?? []).map((n) => cat?.clubs.find((k) => k.name === n)?.cat).map((k) => cat?.categories.find((x) => x.key === k)?.full)
+            const subLabels = [...(c.categoryIndexes ?? []).map((i) => own[i]), ...ownCats].filter((x): x is string => Boolean(x))
+            const sub = [...new Set(subLabels)].join(' · ')
             const cell: MatrixCell = { state: 'yes', sub, tip: [] }
-            cell.tip = [...stateTip(t, lang, cell, label, s.name, topic), t('compare.clubs.tipGroupsAs', { school: s.name, labels: list.format(own) })]
+            cell.tip = [
+              ...stateTip(t, lang, cell, label, s.name, topic),
+              ...(c.clubs?.length ? [t('compare.clubs.tipClubs', { clubs: list.format(c.clubs) })] : []),
+              t('compare.clubs.tipGroupsAs', { school: s.name, labels: list.format(own) }),
+            ]
             cells[s.slug] = cell
           } else {
             const cell: MatrixCell = { state: c.state, tip: [] }

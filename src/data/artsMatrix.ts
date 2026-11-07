@@ -24,13 +24,13 @@ import type { ArtsTable, ArtsUnknown } from '../lib/artsMatrix.ts'
 
 export const ARTS_MATRIX: ArtsTable = {
   'providence-day': {
+    sculpture: { MS: { course: 'Introduction to 3D Design' }, US: 'Sculpture' },
     band: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Band'" },
     orchestra: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Orchestra'" },
     choir: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Chorus'" },
     printmaking: { MS: { course: 'Introduction to Printmaking' } },
     visualArt: { LS: 'Visual Arts strands' },
     drawingPainting: { US: 'Drawing & painting' },
-    sculpture: { US: 'Sculpture' },
     photography: { US: 'Film photography' },
     darkroom: { US: 'Film photography' },
     fiberFashion: { US: 'Print & textile' },
@@ -43,12 +43,12 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { MS: 'technical theatre — tech starts this early', US: 'technical theater classes' },
   },
   'charlotte-latin': {
+    graphicDesign: { MS: 'draw, design or photograph', US: { course: 'Digital Design and Web Development' } },
     choir: { LS: { course: 'Band / Strings / Choir' }, MS: 'Band, orchestra, choir and theater are the foundation', US: 'Concert Choir (5–12)' },
     visualArt: { LS: 'Visual art begins in transitional kindergarten', MS: 'Visual arts electives by choice' },
     drawingPainting: { MS: 'may sculpt, paint, draw', US: 'Drawing & painting' },
     sculpture: { MS: 'may sculpt, paint, draw' },
     photography: { MS: 'or photograph any subject', US: 'Photography' },
-    graphicDesign: { MS: 'draw, design or photograph' },
     fiberFashion: { US: 'Fashion & fiber' },
     filmVideo: { US: 'capstone film project' },
     generalMusic: { LS: 'Experiential music' },
@@ -160,6 +160,7 @@ export const ARTS_MATRIX: ArtsTable = {
     dance: { MS: 'Musical Theatre Dance' },
   },
   'hickory-grove-christian': {
+    ceramics: { US: { course: 'Ceramics I' } },
     photography: { US: { course: 'Introduction to Photography and Design' } },
     graphicDesign: { MS: { course: 'Graphic Design' } },
     fiberFashion: { MS: { course: 'Sewing' }, US: { course: 'Fiber Crafts I' } },
@@ -175,12 +176,12 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'Technical Theatre' },
   },
   'gaston-day': {
+    generalMusic: { LS: 'Music, art and drama coordinated', US: { course: 'Music Appreciation' } },
     percussion: { MS: 'MS Instrumental Ensemble — percussion' },
     visualArt: { LS: 'Music, art and drama coordinated with classroom units', MS: 'Electives chosen from art, drama, chorus and band' },
     drawingPainting: { US: "'Drawing'" },
     ceramics: { US: "'Ceramics'" },
     printmaking: { US: "'Printmaking'" },
-    generalMusic: { LS: 'Music, art and drama coordinated' },
     band: { MS: 'MS Instrumental Ensemble — woodwinds', US: 'Band, Concert Choir and Drama' },
     choir: { MS: 'Middle School Chorus', US: 'Concert Choir' },
     piano: { MS: 'MS Instrumental Ensemble — piano' },
@@ -189,6 +190,7 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { US: 'The spring musical is the named anchor' },
   },
   'charlotte-catholic': {
+    fiberFashion: { US: { course: 'Costume Design and Production' } },
     drawingPainting: { US: 'Drawing & painting' },
     ceramics: { US: "'Ceramics'" },
     darkroom: { US: 'Film photography' },

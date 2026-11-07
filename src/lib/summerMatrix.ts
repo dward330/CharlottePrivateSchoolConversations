@@ -90,6 +90,20 @@ export const SUMMER_CATEGORY_ALIASES: Record<string, SummerRowKey[] | null> = {
 
 /** Row → a camp NAME in that school's catalog, for a school whose filters are not activities. */
 export const SUMMER_OVERRIDES: Record<string, Partial<Record<SummerRowKey, string>>> = {
+  // A category the school's filters do not carry but a named camp plainly is.
+  cannon: { dayCamp: 'Classic Summer Fun', nature: 'Farm Camp' },
+  'charlotte-christian': { performingArts: 'Superstar Dance Camp' },
+  'carmel-christian': {
+    dayCamp: 'Carmel Castle',
+    performingArts: 'Broadway Bound',
+    academic: '2nd & 3rd Grade Bootcamp',
+    nature: 'Ocean Explorers',
+    games: 'Amazing Race',
+  },
+  'covenant-day': { culinary: 'The Great Covenant Day Bake Off' },
+  'gaston-day': { culinary: 'Ice Cream and Popsicles — FULL, waitlist' },
+  'providence-day': { culinary: 'Ice Cream Camp', nature: 'Ocean Critter Adventure' },
+  'charlotte-latin': { games: 'Junior Master Chess Camp' },
   'charlotte-country-day': {
     dayCamp: 'Camp Buccaneer',
     sports: 'Bucs Basketball Camp',

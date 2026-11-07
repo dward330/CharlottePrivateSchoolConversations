@@ -5,9 +5,12 @@
 //
 // SUBJECT CHIPS COME FROM DEPARTMENT NAMES through DEPARTMENT_ALIASES (name →
 // rows, or null for a BUNDLE such as `Core Academics`, `Specials` or a
-// per-grade department). A bundle's COURSE TITLES are then matched against
-// TITLE_ALIASES, an explicit title → rows table; a descriptive title no entry
-// covers stays unmatched and is reported by check:matrices, never guessed.
+// per-grade department). COURSE TITLES are then matched against TITLE_ALIASES,
+// an explicit title → rows table, in EVERY department: a bundle's titles are
+// its only evidence, and a mapped department can still hold a title that names
+// another subject (Yearbook inside Fine Arts, Broadcast Journalism inside
+// Design & Entrepreneurship). A descriptive title no entry covers stays
+// unmatched; inside a bundle it is reported by check:matrices, never guessed.
 //
 // LANGUAGE CHIPS COME FROM COURSE TITLES, but only inside a department mapped
 // to worldLanguages or a bundle, so "Latin American History" in a History
@@ -138,7 +141,7 @@ export const DEPARTMENT_ALIASES: Record<string, SubjectKey[] | null> = {
   'Student Media': ['journalismMedia'],
 }
 
-/** Course titles inside a BUNDLE department → rows. Exact titles; anything else is reported. */
+/** Course titles → rows, matched in every department. Exact titles; an unmatched bundle title is reported. */
 export const TITLE_ALIASES: Record<string, SubjectKey[]> = {
   'Language Arts': ['english'],
   'Language Arts / Literacy': ['english'],
@@ -205,6 +208,16 @@ export const TITLE_ALIASES: Record<string, SubjectKey[]> = {
   'Innovation electives': ['innovationDesign'],
   'Exploring Design Technology': ['innovationDesign'],
   'Yearbook': ['journalismMedia'],
+  'Honors Yearbook': ['journalismMedia'],
+  'Yearbook / Yearbook Honors': ['journalismMedia'],
+  'Yearbook Editor, Honors': ['journalismMedia'],
+  'Introduction to Yearbook': ['journalismMedia'],
+  'Yearbook Honors': ['journalismMedia'],
+  'Yearbook I': ['journalismMedia'],
+  'Broadcast Media': ['journalismMedia'],
+  'Broadcasting Honors (Knights Knews)': ['journalismMedia'],
+  'Media & Journalism I': ['journalismMedia'],
+  'Innovation Lab': ['innovationDesign'],
   'Broadcast Journalism': ['journalismMedia'],
   'News and Media Production': ['journalismMedia'],
   'Communications and Twenty-First Century Journalism': ['journalismMedia'],
@@ -310,13 +323,11 @@ export function buildCourseMatrix(offerings: Record<string, CourseOfferings | un
         const isLanguageDept = keys?.includes('worldLanguages') ?? false
         if (keys) for (const k of keys) add(k)
         for (const c of dept.courses) {
-          if (isBundle) {
-            const tk = TITLE_ALIASES[c.title]
-            if (tk) {
-              usedTitle.add(c.title)
-              for (const k of tk) add(k)
-            } else out.unmatchedTitles.push({ slug, division: div, department: dept.name, title: c.title })
-          }
+          const tk = TITLE_ALIASES[c.title]
+          if (tk) {
+            usedTitle.add(c.title)
+            for (const k of tk) add(k)
+          } else if (isBundle) out.unmatchedTitles.push({ slug, division: div, department: dept.name, title: c.title })
           if (isLanguageDept || isBundle) {
             const pats = isLanguageDept ? LANGUAGE_PATTERNS : BUNDLE_LANGUAGE_PATTERNS
             const hits = LANGUAGE_KEYS.filter((k) => pats[k].test(c.title))
