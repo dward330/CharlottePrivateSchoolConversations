@@ -91,8 +91,8 @@ because a school that moved class left that division short. Gaston Day needed on
 Berean Baptist's 2024–25, since Davidson Day had moved to 3A by then.
 
 If a newer season has been published, add it to the brief. It changes `CUP_SEASONS`, and so
-every school's table. It also moves `CUP_FIELD_SIZES` and every `cup-finish` and `cup-titles`
-cell in `src/data/metricValues.ts`, including both row labels, and `check:cup` fails until
+every school's table. It also moves `CUP_FIELD_SIZES` and every `cup-finish`, `cup-titles` and `cup-best`
+cell in `src/data/metricValues.ts`, including the row labels, and `check:cup` fails until
 they match.
 
 ### NCHSAA branch (Charlotte Catholic)
@@ -204,7 +204,7 @@ Invoke `/plan` with the name `<slug>cup` and this scope:
 
 - ledger corrections, if any, and the rest of the school's division;
 - the `cup` block in `src/data/sportsPrograms/<slug>.ts`;
-- any `cup-finish` or `cup-titles` cells on Compare that a ledger change moves;
+- any `cup-finish`, `cup-titles` or `cup-best` cells on Compare that a ledger change moves;
 - new `sports.cup.*` keys only if a sport or string is new.
 
 No component changes are expected. **A needed one means the shared logic has a gap, so say

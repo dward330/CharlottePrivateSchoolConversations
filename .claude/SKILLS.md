@@ -460,8 +460,8 @@ against the association's own tables, confirm its point sources, and hand a GO t
 
 The card is data-driven, with a shared ledger in `src/data/wellsFargoCup.ts` and everything
 computed in `src/lib/wellsFargoCup.ts`. So a new school normally needs a `cup` block and no
-component change. Providence Day is the shipped model. The ledger also feeds two Compare
-rows, `cup-finish` and `cup-titles`, so a new season or a ledger correction moves those typed
+component change. Providence Day is the shipped model. The ledger also feeds three Compare
+rows, `cup-finish`, `cup-titles` and `cup-best`, so a new season or a ledger correction moves those typed
 cells, and `check:cup` fails until they match.
 
 With Hickory Grove (plan hickorygrovecup), every roster high school has the card, so the skill

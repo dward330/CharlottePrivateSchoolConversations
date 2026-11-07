@@ -368,14 +368,15 @@ const ordinal = (n) => {
   return `${n}${{ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] ?? 'th'}`
 }
 
-const COMPARE_KEYS = ['cup-finish', 'cup-titles']
+const COMPARE_KEYS = ['cup-finish', 'cup-titles', 'cup-best']
 const latestSeason = CUP_SEASONS.at(-1)
 const finish = VALUE_METRICS.find((m) => m.key === 'cup-finish')
 const titles = VALUE_METRICS.find((m) => m.key === 'cup-titles')
+const bestRow = VALUE_METRICS.find((m) => m.key === 'cup-best')
 
-eq('Compare rows: last in VALUE_METRICS, in order', VALUE_METRICS.slice(-2).map((m) => m.key), COMPARE_KEYS)
+eq('Compare rows: last in VALUE_METRICS, in order', VALUE_METRICS.slice(-COMPARE_KEYS.length).map((m) => m.key), COMPARE_KEYS)
 eq(
-  'Compare rows: exactly two',
+  'Compare rows: exactly these three',
   VALUE_METRICS.filter((m) => m.key.startsWith('cup-')).map((m) => m.key),
   COMPARE_KEYS,
 )
@@ -387,9 +388,9 @@ eq(
   ).length,
 )
 
-if (finish && titles) {
+if (finish && titles && bestRow) {
   const commits = VALUE_METRICS.find((m) => m.key === 'd1-commits-2426')
-  for (const row of [finish, titles]) {
+  for (const row of [finish, titles, bestRow]) {
     eq(`${row.key}: topic`, row.topic, 'sports')
     if (row.compareOnly !== true) fail(`${row.key}: must be compareOnly`)
     if (row.noLead !== true) fail(`${row.key}: must be noLead`)
@@ -397,8 +398,10 @@ if (finish && titles) {
     eq(`${row.key}: school keys`, Object.keys(row.values).sort(), Object.keys(commits.values).sort())
   }
   if (!finish.label.includes(latestSeason)) fail(`cup-finish label must contain ${latestSeason}`)
-  if (!titles.label.includes(CUP_SEASONS[0]) || !titles.label.includes(latestSeason)) {
-    fail(`cup-titles label must contain ${CUP_SEASONS[0]} and ${latestSeason}`)
+  for (const row of [titles, bestRow]) {
+    if (!row.label.includes(CUP_SEASONS[0]) || !row.label.includes(latestSeason)) {
+      fail(`${row.key} label must contain ${CUP_SEASONS[0]} and ${latestSeason}`)
+    }
   }
 
   for (const slug of Object.keys(finish.values)) {
@@ -451,6 +454,21 @@ if (finish && titles) {
       if (!text) fail(`cup-titles ${slug}: a title needs a quals tooltip`)
       for (const r of won) {
         if (text && !text.includes(r.season)) fail(`cup-titles ${slug}: tooltip does not name ${r.season}`)
+      }
+    }
+
+    // cup-best: the best place over the whole window (the card's own rule, most
+    // recent on a tie), its season beneath, and a tooltip naming its points,
+    // its division and every other season at that place.
+    const best = whole ? cup.headlineStats(slug).bestFinish : null
+    eq(`cup-best ${slug}: value`, bestRow.values[slug] ?? null, best ? `${best.tied ? 'T' : ''}${ordinal(best.place)}` : null)
+    eq(`cup-best ${slug}: sub`, bestRow.subs?.[slug] ?? null, best ? best.season : null)
+    if (best) {
+      const text = bestRow.quals?.[slug]?.text ?? ''
+      const lead = `${best.points} points, in ${best.association} ${best.classification}.`
+      if (!text.startsWith(lead)) fail(`cup-best ${slug}: tooltip must start with "${lead}"`)
+      for (const r of own.filter((x) => x.place === best.place && x !== best)) {
+        if (!text.includes(r.season)) fail(`cup-best ${slug}: tooltip does not name ${r.season}, also ${ordinal(best.place)}`)
       }
     }
   }

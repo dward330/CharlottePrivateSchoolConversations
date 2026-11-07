@@ -55,11 +55,11 @@ const FLOOR_EXCLUDED_TOPICS = new Set(['international-travel'])
 
 /**
  * Individual Compare rows left out of the floor. The user decided 2026-11-01
- * (plan `cupcompare`) that the two Wells Fargo Cup rows do not count: only
+ * (plan `cupcompare`) that the Wells Fargo Cup rows do not count: only
  * members of these NC associations can score them, so an out-of-state candidate
- * would get 0 of 2. Sports is a counted topic, so this works by key.
+ * would get 0 of them (`cup-best` joined 2026-11-07). Sports is a counted topic, so this works by key.
  */
-const FLOOR_EXCLUDED_KEYS = new Set(['cup-finish', 'cup-titles'])
+const FLOOR_EXCLUDED_KEYS = new Set(['cup-finish', 'cup-titles', 'cup-best'])
 const isFloorExcluded = (r) => FLOOR_EXCLUDED_TOPICS.has(r.topic) || FLOOR_EXCLUDED_KEYS.has(r.key)
 
 /** Pull each VALUE_METRICS row's `values:{…}` block by brace-matching. Every row

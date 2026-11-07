@@ -300,7 +300,7 @@ with `/wells-fargo-cup`. Fifteen rules travel with it:
 - **The race bars compare a school with the place right above it, or 2nd if it won.**
   `nearestRival` passes over a tied school and a skipped place. The gap tile is separate:
   it always reads the winner, through `seasonRival`.
-- **Two Compare rows read the ledger.** `cup-finish` and `cup-titles` are typed in
+- **Three Compare rows read the ledger.** `cup-finish`, `cup-titles` and `cup-best` are typed in
   `metricValues.ts` for every high school, card or not, and `check:cup` fails until they
   match. A new season or a ledger correction moves them.
 
@@ -1127,6 +1127,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `d1-commits-2426` | Division I commits | 10/13 | Q |
 | `cup-finish` | Wells Fargo Cup finish, 2025–26 | 11/13 | – Q C sub |
 | `cup-titles` | Wells Fargo Cup titles, 2020–21 to 2025–26 | 11/13 | – Q C sub |
+| `cup-best` | Best Wells Fargo Cup finish, 2020–21 to 2025–26 | 11/13 | – Q C sub |
 
 ### College Support `college-support`
 
@@ -1173,7 +1174,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `aid-awarded` | Aid awarded / year | 3/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 44 Compare rows across 9 research areas.
+**Total:** 45 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 

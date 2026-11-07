@@ -103,7 +103,7 @@ NC high schools — the UNC System dashboard covers no other state — so an out
 candidate (a Fort Mill, SC school, say) scores 0/6 on them and should be judged against
 the other 30. The five Global Exposure Compare rows (2026-10-26) are excluded from the
 floor by `FLOOR_EXCLUDED_TOPICS` in `coverage_floor.mjs`. A candidate is never gated on
-Global Exposure research. The two Wells Fargo Cup Compare rows (2026-11-01) are excluded by
+Global Exposure research. The three Wells Fargo Cup Compare rows (2026-11-01, `cup-best` 2026-11-07) are excluded by
 `FLOOR_EXCLUDED_KEYS`, because only schools in these NC associations can hold them.
 
 **Never transcribe the area denominator into this file or the skill — read it from the
@@ -276,7 +276,8 @@ to check, never a source: the report behind the design matched 10 of 60 official
 its "six straight" is wrong, and Providence Day won 5 of 6. Computed figures are never
 typed, and `npm run check:cup` guards the ledger inside the build.
 
-Two Compare rows also read the ledger: `cup-finish` and `cup-titles` are typed in
+Three Compare rows also read the ledger: `cup-finish`, `cup-titles` and `cup-best` (each
+school’s best place over the window, with its season beneath, added 2026-11-07) are typed in
 `metricValues.ts` for every high school, card or not, and `check:cup` fails until they
 match, so a new season or a ledger correction moves them.
 
