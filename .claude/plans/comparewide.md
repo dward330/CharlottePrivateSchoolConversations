@@ -1,11 +1,11 @@
 ---
 name: comparewide
 title: Compare page widens on wide screens to show more school columns, keeping proportional side margins
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-07
 branch: feat/compare-wide
-prs: []
+prs: [438]
 ---
 
 # Compare page widens on wide screens
@@ -175,3 +175,9 @@ Single-phase — adds no user-facing text.
 
 - Is 86vw (calibrated on a 1440px laptop) the margin the user likes? **Default:** ship
   86vw. It is one custom property to retune after they see it on their screen.
+
+## Implementation notes
+
+Built as planned. One measured detail: with all 11 schools the table's natural width is
+1861px, which is more than 86vw at 1920 (1651px). So at 1920 the page stops at 1651 and
+the table still scrolls 210px (it was 621px before). It fits fully from about 2165px up.
