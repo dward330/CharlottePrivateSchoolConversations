@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/cupbest
-prs: []
+prs: [437]
 ---
 
 # Compare › Sports — "Best Wells Fargo Cup finish, 2020–21 to 2025–26"
