@@ -828,7 +828,9 @@ w('oversight. `npm run check:metrics` tells the two apart.')
 w()
 w('Legend: **↓** lower value is the leader · **–** no leader tint (e.g. cost rows, where the')
 w('highest number is not the best) · **Q** carries per-cell provenance tooltips · **C** Compare')
-w('only, no school-page stat tile (the school page shows the figures in a structured card).')
+w('only, no school-page stat tile (the school page shows the figures in a structured card) ·')
+w('**S** stacked score lines (`scores`: Median / Average / Middle 50%, a dash where unpublished;')
+w('`values` mirrors the first published line, guarded by `check:scores`).')
 w()
 const vmByTopic = new Map()
 for (const vm of VALUE_METRICS) {
@@ -848,6 +850,7 @@ for (const t of orderTopicSlugs([...vmByTopic.keys()])) {
       vm.quals ? 'Q' : '',
       vm.compareOnly ? 'C' : '',
       vm.subs ? 'sub' : '',
+      vm.scores ? 'S' : '',
     ].filter(Boolean).join(' ')
     w(`| \`${vm.key}\` | ${esc(vm.label)} | ${have}/${schools.length} | ${flags || ''} |`)
   }

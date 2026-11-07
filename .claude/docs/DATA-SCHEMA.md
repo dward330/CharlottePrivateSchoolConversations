@@ -1082,7 +1082,9 @@ oversight. `npm run check:metrics` tells the two apart.
 
 Legend: **↓** lower value is the leader · **–** no leader tint (e.g. cost rows, where the
 highest number is not the best) · **Q** carries per-cell provenance tooltips · **C** Compare
-only, no school-page stat tile (the school page shows the figures in a structured card).
+only, no school-page stat tile (the school page shows the figures in a structured card) ·
+**S** stacked score lines (`scores`: Median / Average / Middle 50%, a dash where unpublished;
+`values` mirrors the first published line, guarded by `check:scores`).
 
 ### Course Offerings `course-offerings`
 
@@ -1133,6 +1135,8 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
+| `sat-scores` | SAT total | 10/13 | – Q C sub S |
+| `act-scores` | ACT composite | 10/13 | – Q C sub S |
 | `ap-performance` | AP scoring 3+ | 9/13 | Q sub |
 | `ap-top-scores` | AP scoring 4 or 5 | 5/13 | Q sub |
 | `bucket-ivy` | Ivy League | 11/13 | Q sub |
@@ -1140,13 +1144,13 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `bucket-nu75` | Top-75 National Universities | 11/13 | Q sub |
 | `bucket-lac75` | Top-75 Liberal Arts | 11/13 | Q sub |
 | `bucket-p4` | Power Four | 11/13 | Q sub |
+| `bucket-hbcu` | HBCUs | 11/13 | Q sub |
 | `nc-admit-unc-chapel-hill` | Admit rate — UNC-Chapel Hill | 11/13 | C sub |
 | `nc-admit-nc-state-university` | Admit rate — NC State University | 11/13 | C sub |
 | `nc-admit-unc-charlotte` | Admit rate — UNC Charlotte | 11/13 | C sub |
 | `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/13 | C sub |
 | `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/13 | C sub |
 | `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/13 | C sub |
-| `bucket-hbcu` | HBCUs | 11/13 | Q sub |
 | `counselor-caseload` | Seniors per counselor | 9/13 | ↓ Q |
 
 ### After School `after-school`
@@ -1174,7 +1178,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `aid-awarded` | Aid awarded / year | 3/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 45 Compare rows across 9 research areas.
+**Total:** 47 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 
@@ -1193,6 +1197,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `textValues` | `boolean` |  |
 | `compareAs` | `'span' \| 'sum' \| 'fraction' \| 'range-width' \| 'range-start' \| 'ra…` |  |
 | `quals` | `Record<string, CellQual>` |  |
+| `scores` | `Record<string, { median: string \| null; mean: string \| null; mid5…` |  |
 | `compareOnly` | `boolean` |  |
 | `rowTip` | `'ncAdmit' \| 'cup'` |  |
 

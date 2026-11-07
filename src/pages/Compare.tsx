@@ -34,10 +34,72 @@ import {
   loadMetricValuesOverlay,
   englishValueOf,
   type ValueMetric,
+  type CellQual as CellQualData,
 } from '../data/metricValues.ts'
 import { COMPARE_DEFAULT_TOPIC, COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 
 type Props = { topic: string | null; schools: string[] }
+
+const SCORE_LINES = ['median', 'mean', 'mid50'] as const
+
+/**
+ * The score lines a row shows: a line that NO school in the row publishes is
+ * dropped from every cell (no school publishes an ACT median, so the ACT row has
+ * no Median line), so a column of dashes never stands in for a whole statistic.
+ */
+function scoreLinesFor(vm: ValueMetric) {
+  const all = Object.values(vm.scores ?? {})
+  return SCORE_LINES.filter((k) => all.some((sc) => sc[k] != null))
+}
+
+/**
+ * A SAT / ACT cell: Median, Average and Middle 50% as labelled lines, a dash for
+ * a line the school does not publish. The qual dot, if any, sits on the first
+ * published line — the one `values[slug]` mirrors (check:scores).
+ */
+function ScoreStack({
+  sc,
+  lines,
+  qual,
+  school,
+  metricKey,
+}: {
+  sc: NonNullable<ValueMetric['scores']>[string]
+  lines: readonly (typeof SCORE_LINES)[number][]
+  qual: CellQualData | undefined
+  school: string
+  metricKey: string
+}) {
+  const { t } = useTranslation()
+  const first = SCORE_LINES.find((k) => sc[k] != null)
+  return (
+    <span className="score-stack">
+      {lines.map((k) => {
+        const fig = sc[k]
+        return (
+          <span key={k} className="score-line">
+            <span className="score-label">{t(`compare.score.${k}`)}</span>
+            {fig == null ? (
+              <span className="score-fig score-none" title={t('compare.notAvailable')}>
+                —
+              </span>
+            ) : qual && k === first ? (
+              <CellQual
+                value={localizeMoneyText(fig)}
+                qual={qual}
+                school={school}
+                metricKey={metricKey}
+                valueClassName="score-fig"
+              />
+            ) : (
+              <span className="score-fig">{localizeMoneyText(fig)}</span>
+            )}
+          </span>
+        )
+      })}
+    </span>
+  )
+}
 
 /**
  * What an `ncAdmit` row's tooltips say for one school, read from its
@@ -607,6 +669,14 @@ export function Compare({ topic, schools }: Props) {
                                       </span>
                                       <span className="tip-body">{t('compare.ncAdmitCellFormat')}</span>
                                     </TopLayerTip>
+                                  ) : vm.scores?.[s.slug] ? (
+                                    <ScoreStack
+                                      sc={vm.scores[s.slug]}
+                                      lines={scoreLinesFor(vm)}
+                                      qual={vm.quals?.[s.slug]}
+                                      school={s.name}
+                                      metricKey={vm.key}
+                                    />
                                   ) : vm.quals?.[s.slug] ? (
                                     <CellQual
                                       value={localizeMoneyText(v)}

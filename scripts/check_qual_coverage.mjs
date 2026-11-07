@@ -74,6 +74,9 @@ export function looksCoded(v) {
 
 const flagged = []
 for (const m of VALUE_METRICS) {
+  // Score rows (SAT/ACT) label every line — a range sits beside "Middle 50%" —
+  // so a range in `values` is already explained by its label.
+  if (m.scores) continue
   for (const [slug, v] of Object.entries(m.values)) {
     if (v == null) continue // N/A cells render no value
     if (m.quals && m.quals[slug]) continue // already explained

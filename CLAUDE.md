@@ -94,14 +94,16 @@ discover at ingest time.
 **The bar is calibrated to the thinnest school already shipped, and it is computed, not
 transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
 school's Compare fill rate and research-area count and derives the floor from the weakest.
-As of 2026-10-05 that is Davidson Day — 23/36 Compare rows (**63%**), and no Summer
-Programs material at all. The gate is **≥23 of 36 Compare rows, and one area below the
-count the script derives**, compared inclusively: exactly 23/36 passes, 22/36 does not.
+As of 2026-11-07 that is Davidson Day — 23/39 Compare rows (**58%**), and no Summer
+Programs material at all. The gate is **≥23 of 39 Compare rows, and one area below the
+count the script derives**, compared inclusively: exactly 23/39 passes, 22/39 does not.
 The row total moves too (30 → 36 when the six Top 6 NC admit-rate rows shipped,
-2026-10-05), so read it from the script like the area count. Those six rows exist only for
+2026-10-05; 36 → 37 with `ap-top-scores`; 37 → 39 when the SAT and ACT rows shipped,
+2026-11-07, both null for Davidson Day, which publishes no test scores), so read it from
+the script like the area count. Those six rows exist only for
 NC high schools — the UNC System dashboard covers no other state — so an out-of-state
 candidate (a Fort Mill, SC school, say) scores 0/6 on them and should be judged against
-the other 30. The five Global Exposure Compare rows (2026-10-26) are excluded from the
+the other 33. The five Global Exposure Compare rows (2026-10-26) are excluded from the
 floor by `FLOOR_EXCLUDED_TOPICS` in `coverage_floor.mjs`. A candidate is never gated on
 Global Exposure research. The three Wells Fargo Cup Compare rows (2026-11-01, `cup-best` 2026-11-07) are excluded by
 `FLOOR_EXCLUDED_KEYS`, because only schools in these NC associations can hold them.
@@ -119,18 +121,18 @@ this — it lists such a school under "Excluded from the floor" rather than as t
 The full K–8 shape is **§7 of `DATA-SCHEMA.md`**, which `/add-school` reads first.
 
 Compare rows are counted in **rows, not rounded percentages** — each row moves the figure
-~2.8 points. **Each research area also gets its own coverage percentage**, pooled across
+~2.6 points. **Each research area also gets its own coverage percentage**, pooled across
 its core prose cards, structured-card field sets and Compare rows, and judged against the
 card keys **5–6 of 6** existing schools hold, never against every key that exists —
 `the-arts :: courses` sits at 1/6, so its absence is not a gap.
 
-**The per-area line is ~50%, deliberately NOT the school-wide 63%**, and it is a trigger
+**The per-area line is ~50%, deliberately NOT the school-wide 58%**, and it is a trigger
 for a conversation rather than a pass/fail gate. Three reasons, each of which bit a draft:
-the 63% is a rate over 36 Compare rows while an area's denominator is 2–28, so they are
+the 58% is a rate over 39 Compare rows while an area's denominator is 2–28, so they are
 not the same kind of measurement; **Davidson Day — the school the bar is calibrated to —
-has no Summer Programs material at all (0%)**, so a 63% per-area gate would reject an area
+has no Summer Programs material at all (0%)**, so a 58% per-area gate would reject an area
 the project already ships without; and Course Offerings quantizes to 0/25/50/75/100, where
-"63%" is unreachable and would silently behave as 75%. **Always print counts beside an
+"58%" is unreachable and would silently behave as 75%. **Always print counts beside an
 area percentage** — one item swings Sports 4 points and Course Offerings 25.
 
 **An area under the line is not dropped — it is offered a deeper look.** The step-3 sweep is
