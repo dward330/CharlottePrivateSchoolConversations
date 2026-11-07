@@ -1,7 +1,7 @@
 ---
 name: comparerows
 title: Compare page — tuition by division and cumulative runs, continents reached, and "offered" matrices for The Arts, Course Offerings, Student Clubs and Summer Programs
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-07
 branch: feat/comparerows
@@ -831,3 +831,50 @@ Scope, two layers:
 - Hickory Grove's year: the report `meta` says 2025–26 while its `top-tuition` qual says the
   year is not stated. — **default:** sub-line `(2025–26 …)` from `meta`, keep the qual
   sentence on every Hickory Grove tuition cell.
+
+## Implementation notes
+
+Phase 1 (English) built 2026-11-07 on `feat/comparerows`, one commit per part. Deviations
+from the plan as written, each deliberate:
+
+- **Hickory Grove's pre-K–12 run is `$173,000`, not the `$161,500` in the Context table.**
+  The TK–5 Elementary band prices seven years (TK, K, 1–5); the table had counted six. The
+  rule in *Decisions* (one pre-K year + K + grades 1–12) is what `check:tuition` derives, and
+  the typed cell follows the derivation.
+- **Davidson Day's report carries its own run stat, `$337,970`, as a K–12 (13-year) run.**
+  The row keeps the plan's `$360,560` (Early Childhood year + K–12); its qual names the
+  school's K–12 figure, and `check:tuition` asserts the K–12 sum equals the report stat
+  alongside the five pre-K–12 stats.
+- **The coverage floor is 28/44, not 28/45.** `coverage:floor` excludes the whole
+  `international-travel` topic, so `travel-continents` joins the excluded set rather than
+  the denominator. `CLAUDE.md` and the add-school skill read 28/44 (63%).
+- **Bundle departments always map to null and match titles** (the plan said both "Core
+  bundles → the four core rows" and "a bundle maps to null"). Matching titles is strictly
+  richer: Covenant Day's per-grade departments then yield Bible and Latin chips the four-row
+  shortcut would have dropped. `Arts, PE & Design` also maps `innovationDesign` (Design Lab),
+  and Hickory Grove's Middle School `Art` department maps both arts rows (it holds band,
+  choir, drama and dance).
+- **Two language patterns, not one.** Inside a language department a language matches as
+  a whole word anywhere, because titles list several (`Spanish I / French I / Mandarin I`,
+  `French, Spanish & Mandarin Exposure`); inside a bundle the title must start with the
+  language and the name must be followed by a level or the end, so `Honors Latin American
+  Influence` (Catholic, Interdisciplinary Studies) does not match. The two-language failure
+  applies to bundle titles only; a language-department title naming three languages is
+  correct and is printed by the check.
+- **Davidson Day has no summer module**, so its Camp categories column is N/A (the plan
+  expected none). It is what exercised the renderer's N/A branch in the browser check,
+  instead of stubbing a school's arts program.
+- **The thin topic components live in their own files** (`CompareArtsRows.tsx`,
+  `CompareCourseRows.tsx`, `CompareClubsRows.tsx`, `CompareSummerRows.tsx`) rather than
+  inside `CompareMatrixRows.tsx`, so each part is its own reviewable commit.
+- **Phase 1 dropped the nine locales' overlay entries for the removed `top-tuition` label
+  and note** (both the built overlay and the work file), because `check:live` fails the
+  build on a stamp whose English no longer exists. Phase 2 re-extracts and re-splices
+  `metric-values` as planned; the shifted `[N]` paths after index 20 render English in the
+  other locales until then.
+- **The `tuition-upper` stat tile now shows a sub-line** (`(2026–27 · grades 9–12)`),
+  because every cell carries its year; `top-tuition` had none. Flagged for the review.
+- **Browser check: the page-level overflow at 320/360/390 px is pre-existing.** Every
+  Compare topic, including Sports and the two row-only topics, measures 1240 px wide on
+  the live site too; it comes from `comparewide` (#438), not this branch. Recorded in
+  memory and reported, not fixed here.
