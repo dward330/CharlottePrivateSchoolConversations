@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 518 ingested research documents.
+**13 schools × 12 research areas**, 526 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -61,7 +61,7 @@ exists yet and **the section does not render at all** for that school.
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 3 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
-| Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
+| Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 11 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 6 | 1 | 2 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 18 | 18 | 2 | 17 | 18 | 2 | 3 | 20 | 2 |
 | College Support | `college-support` | 12 | 3 | 3 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
@@ -110,13 +110,13 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `academic-clubs` | Academic & Competitive Clubs | 9/13 | 5 |
-| `honor-societies` | Honor Societies | 4/13 | 1 |
-| `signature` | Signature Programs & Traditions | 6/13 | 6 |
+| `honor-societies` | Honor Societies | 5/13 | 2 |
+| `signature` | Signature Programs & Traditions | 7/13 | 7 |
 | `media` | Publications & Media | 2/13 | 2 |
 | `affinity` | Affinity & Identity Groups | 5/13 | 3 |
-| `service` | Service & Civic Engagement | 7/13 | 4 |
-| `lower-middle` | Lower / Middle School Activities | 3/13 | 3 |
-| `catalog` | Club Catalog & Overview | 13/13 | 8 |
+| `service` | Service & Civic Engagement | 7/13 | 5 |
+| `lower-middle` | Lower / Middle School Activities | 4/13 | 4 |
+| `catalog` | Club Catalog & Overview | 13/13 | 9 |
 
 ### The Arts `the-arts`
 
@@ -1352,18 +1352,18 @@ counts (a label mapping to two rows cannot attribute its clubs; `us-organization
 
 | Club row | Schools |
 |---|--:|
-| `service` | 10/11 |
+| `service` | 11/11 |
 | `academicCompetition` | 10/11 |
-| `leadership` | 9/11 |
+| `leadership` | 11/11 |
 | `publicationsMedia` | 6/11 |
 | `affinity` | 5/11 |
 | `cultureLanguage` | 7/11 |
-| `artsPerformance` | 5/11 |
+| `artsPerformance` | 9/11 |
 | `faith` | 7/11 |
-| `honorSocieties` | 6/11 |
-| `specialInterest` | 10/11 |
+| `honorSocieties` | 10/11 |
+| `specialInterest` | 11/11 |
 | `recreationSports` | 5/11 |
-| `stem` | 8/11 |
+| `stem` | 9/11 |
 
 **Camp categories** (Summer Programs topic, `src/lib/summerMatrix.ts` → `CompareSummerRows.tsx`):
 10 rows. Each school's `catalog.categoryFilters[].label` maps through `SUMMER_CATEGORY_ALIASES`

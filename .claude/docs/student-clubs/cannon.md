@@ -1,6 +1,6 @@
 # Cannon School — Student Clubs
-> Distilled from 10 source document(s) in `source-material/student-clubs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Affinity and Identity Groups, Catalog Upper School, Governance and Student Leadership, Honor Societies, Lower School, Middle School, NotebookLM Prompt, Service Learning and Community Engagement, Signature Competitive Programs, Clubs Redesign Deep Research
+> Distilled from 11 source document(s) in `source-material/student-clubs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Affinity and Identity Groups, Catalog Upper School, Governance and Student Leadership, Honor Societies Web Check 2026, Honor Societies, Lower School, Middle School, NotebookLM Prompt, Service Learning and Community Engagement, Signature Competitive Programs, Clubs Redesign Deep Research
 
 
 ---
@@ -142,6 +142,37 @@ Sources
 [4] Cannon School — Lower School Student Life — cannonschool.org/cannon-life/student-life/lower-school-student-life
 [5] Niche — Cannon School (clubs & activities) — niche.com/k12/cannon-school-concord-nc
 Cannon School — Clubs & Activities Research Dossier Concord, North Carolina Page 2
+
+
+---
+
+## Honor Societies Web Check 2026
+
+*Source file: `Cannon - Clubs - Honor Societies Web Check 2026.md`*
+
+# Cannon School — Clubs — Honor societies web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Upper School page for the Compare
+"Club categories" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://www.cannonschool.org/academics/upper-school
+
+## Honor societies named on the page
+
+- "Cum Laude Society"
+- "Maggie Coleman Chapter of Rho Kappa National Social Studies Honor Society"
+- "Mu Alpha Theta National Mathematics Honor Society"
+- "National English Honor Society - Golden Quill Chapter"
+- "Quill and Scroll International Honorary Society for High School Journalists"
+- "The National Art Honor Society"
+- "Tri-M Music Honor Society"
+- "International Thespian Society"
+- "National Chinese Honor Society"
+- "National French Honor Society"
+- "National Spanish Honor Society"
+
+## Governance
+
+- "Our student-elected Honor Council is a model of community governance and integrity."
 
 
 ---

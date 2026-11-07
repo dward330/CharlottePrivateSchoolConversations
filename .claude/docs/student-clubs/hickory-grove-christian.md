@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Student Clubs
-> Distilled from 1 source document(s) in `source-material/student-clubs/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 1 source document(s) in `source-material/student-clubs/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Deep Research
 
 

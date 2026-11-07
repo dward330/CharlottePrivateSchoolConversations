@@ -117,18 +117,18 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### Student Clubs (`student-clubs/`)
 
-- [Cannon School](student-clubs/cannon.md) — 10 docs
-- [Carmel Christian School](student-clubs/carmel-christian.md) — 1 docs
-- [Charlotte Catholic High School](student-clubs/charlotte-catholic.md) — 1 docs
+- [Cannon School](student-clubs/cannon.md) — 11 docs
+- [Carmel Christian School](student-clubs/carmel-christian.md) — 2 docs
+- [Charlotte Catholic High School](student-clubs/charlotte-catholic.md) — 2 docs
 - [Charlotte Christian School](student-clubs/charlotte-christian.md) — 10 docs
-- [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 10 docs
-- [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
+- [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 11 docs
+- [Charlotte Latin School](student-clubs/charlotte-latin.md) — 9 docs
 - [Charlotte Preparatory School](student-clubs/charlotte-prep.md) — 3 docs
 - [Covenant Day School](student-clubs/covenant-day.md) — 6 docs
-- [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
+- [Davidson Day School](student-clubs/davidson-day.md) — 11 docs
 - [Gaston Day School](student-clubs/gaston-day.md) — 2 docs
 - [Hickory Grove Christian School](student-clubs/hickory-grove-christian.md) — 1 docs
-- [Providence Day School](student-clubs/providence-day.md) — 8 docs
+- [Providence Day School](student-clubs/providence-day.md) — 9 docs
 - [Trinity Episcopal School](student-clubs/trinity-episcopal.md) — 4 docs
 
 ### Summer Programs (`summer-programs/`)
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 518 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 526 documents across 12 topics and 13 schools.

@@ -38,6 +38,7 @@ export function CompareClubsRows({ cols }: { cols: Col[] }) {
             cell.tip = [
               ...stateTip(t, lang, cell, label, s.name, topic),
               ...(c.clubs?.length ? [t('compare.clubs.tipClubs', { clubs: list.format(c.clubs) })] : []),
+              ...(c.quotes ?? []).map((q) => t('compare.clubs.tipQuoted', { quote: q })),
               t('compare.clubs.tipGroupsAs', { school: s.name, labels: list.format(own) }),
             ]
             cells[s.slug] = cell

@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — Student Clubs
-> Distilled from 3 source document(s) in `source-material/student-clubs/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-19.
+> Distilled from 3 source document(s) in `source-material/student-clubs/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Club Catalog and Traditions, Recognition in Clubs and Activities, Service and Civic Engagement
 
 

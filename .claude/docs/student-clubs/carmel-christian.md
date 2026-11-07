@@ -1,6 +1,23 @@
 # Carmel Christian School — Student Clubs
-> Distilled from 1 source document(s) in `source-material/student-clubs/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Clubs Redesign Deep Research
+> Distilled from 2 source document(s) in `source-material/student-clubs/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Special Interest Web Check 2026, Clubs Redesign Deep Research
+
+
+---
+
+## Special Interest Web Check 2026
+
+*Source file: `Carmel Christian - Clubs - Special Interest Web Check 2026.md`*
+
+# Carmel Christian School — Clubs — Special interest web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own homepage, where the school embeds
+its Instagram feed, for the Compare "Club categories" matrix second pass (plan
+`comparerows`). Verbatim quotes only. Source: https://carmelchristian.org/
+
+- "The CCS ConSERVation Club has been diligently working in our splendid Sprout Garden"
+- "The club made up of HS students gathers weekly to tend to our outdoor learning space"
+- "Over the last few weeks club members have been planting spring bulbs"
 
 
 ---
@@ -107,6 +124,7 @@ brief's "no requirement" note was incorrect.)
 
 ## Sources referenced across these documents
 
+- https://carmelchristian.org/
 - https://carmelchristian.org/pdf/carmel_parent/Family%20Handbook-Final.pdf
 - https://www.carmelchristian.org/apps/pages/?type=d&uREC_ID=503058&pREC_ID=970730
 - https://www.privateschoolreview.com/carmel-christian-school-profile/28105

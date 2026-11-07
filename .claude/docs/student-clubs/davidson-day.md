@@ -1,6 +1,6 @@
 # Davidson Day School — Student Clubs
-> Distilled from 9 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** AFAR Archaeology and Global Studies, Academic Recognition and Competition, Club Catalog and Overview, Diversity Belonging and Student Leadership, NotebookLM Prompt, Publications and Student Media, Service and Community Engagement, Signature Traditions and Student Life, Clubs Redesign Deep Research
+> Distilled from 11 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** AFAR Archaeology and Global Studies, Academic Recognition and Competition, Club Catalog and Overview, Community Engagement Web Check 2026, Diversity Belonging and Student Leadership, Honor Societies Web Check 2026, NotebookLM Prompt, Publications and Student Media, Service and Community Engagement, Signature Traditions and Student Life, Clubs Redesign Deep Research
 
 
 ---
@@ -172,6 +172,24 @@ Source: PrivateSchoolReview — Davidson Day School profile (privateschoolreview
 
 ---
 
+## Community Engagement Web Check 2026
+
+*Source file: `Davidson Day - Clubs - Community Engagement Web Check 2026.md`*
+
+# Davidson Day School — Clubs — Community engagement web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Community and Culture page for the
+Compare "Club categories" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://www.davidsonday.org/student-life/community-and-culture
+
+- "Programs like the Community Engagement Council, Middle School Service Days and Patriot Pals are designed"
+- "Our Community Engagement Council demonstrates a deep commitment to service and leadership"
+- "Service is a vital part of the Middle School experience at Davidson Day"
+- "Patriot Pals is a beloved Davidson Day tradition that reflects the heart of our school community"
+
+
+---
+
 ## Diversity Belonging and Student Leadership
 
 *Source file: `Davidson Day - Clubs - Diversity Belonging and Student Leadership.pdf`*
@@ -214,6 +232,21 @@ No specific named affinity clubs (for example, identity- or heritage-based clubs
 the Student Diversity Council and the Belonging & Inclusion Advisory Committee. Identity and belonging
 work appears centralized in those two bodies.
 Diversity, Belonging & Student Leadership Page 2
+
+
+---
+
+## Honor Societies Web Check 2026
+
+*Source file: `Davidson Day - Clubs - Honor Societies Web Check 2026.md`*
+
+# Davidson Day School — Clubs — Honor societies web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own College Counseling page for the
+Compare "Club categories" matrix second pass (plan `comparerows`). Verbatim quote only.
+Source: https://www.davidsonday.org/academics/college-counseling
+
+- Under "Celebrating the Class of 2025": "National Honor Society Members" — figure shown: 28
 
 
 ---

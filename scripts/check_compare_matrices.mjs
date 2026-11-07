@@ -144,8 +144,21 @@ async function main() {
   // Clubs
   for (const u of clubs.matrix.unmapped) failures.push(`clubs ${u.slug}: category "${u.label}" is not in CLUB_CATEGORY_ALIASES (src/lib/clubsMatrix.ts)`)
   for (const u of clubs.matrix.missingOverrides) failures.push(`clubs ${u.slug} ${u.key}: override club "${u.name}" is not in the school's catalog`)
+  const { CLUB_OVERRIDES } = await imp('src/lib/clubsMatrix.ts')
+  let clubQuotes = 0
+  for (const [slug, byKey] of Object.entries(CLUB_OVERRIDES)) {
+    for (const [k, items] of Object.entries(byKey)) {
+      for (const it of items) {
+        if (typeof it === 'string') continue
+        clubQuotes++
+        const f = path.join(ROOT, 'source-material/student-clubs', slug, it.source)
+        if (!existsSync(f)) failures.push(`clubs ${slug} ${k}: source file "${it.source}" does not exist`)
+        else if (!readFileSync(f, 'utf8').includes(it.quote)) failures.push(`clubs ${slug} ${k}: quote "${it.quote}" is not in ${it.source}`)
+      }
+    }
+  }
   for (const k of clubs.keys) needKey(`compare.clubs.row_${k}`)
-  for (const k of ['group', 'topic', 'tipGroupsAs', 'tipClubs']) needKey(`compare.clubs.${k}`)
+  for (const k of ['group', 'topic', 'tipGroupsAs', 'tipClubs', 'tipQuoted']) needKey(`compare.clubs.${k}`)
   for (const n of clubs.matrix.unusedAliases) notes.push(`clubs: alias "${n}" is used by no comparable school`)
 
   // Summer
@@ -170,7 +183,7 @@ async function main() {
   const na = (m) => slugs.filter((s) => m[0]?.cells[s]?.state === 'na')
   console.log(
     `\ncheck:matrices — ${slugs.length} comparable schools; arts ${arts.matrix.cites.length} cites verified (${courseCites} course titles, ${sourceCites} source-material quotes), ` +
-      `courses ${courses.matrix.subjects.length}+${courses.matrix.languages.length} rows, clubs ${clubs.matrix.rows.length} rows, summer ${summer.matrix.rows.length} rows` +
+      `courses ${courses.matrix.subjects.length}+${courses.matrix.languages.length} rows, clubs ${clubs.matrix.rows.length} rows (${clubQuotes} source-material quotes), summer ${summer.matrix.rows.length} rows` +
       `${na(summer.matrix.rows).length ? `; summer N/A: ${na(summer.matrix.rows).join(', ')}` : ''}`,
   )
   if (failures.length) {
