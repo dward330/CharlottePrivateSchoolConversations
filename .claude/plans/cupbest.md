@@ -1,7 +1,7 @@
 ---
 name: cupbest
 title: Compare › Sports — a "Best Wells Fargo Cup finish" row, with the season beneath
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/cupbest
@@ -98,3 +98,13 @@ its order stay roster-wide, so a sport or research row none of the selected scho
 `compare.coverage`. That part is single-phase and needs nothing in Phase 2. Browser-checked: four
 schools give Basketball `4/4`, Rowing `1/4` and Rugby `0/4`, and un-ticking Davidson Day moves
 Rowing to `0/3` without a reload. All 11 still reads `11/11`.
+
+**Phase 2 (2026-11-07).** `i18n_splice_work.mjs --topic metric-values` added 22 deduped units per
+locale (`1st` was already shared with `cup-finish`). Translated in all nine `PROSE_TRANSLATED`
+locales, reusing each locale's `cup-finish` ordinals and its `cup-titles` sentences ("moved up to",
+the NCHSAA caveat). The four season subs are byte-identical keeps. The browser check caught one
+defect before commit: the one-season "Also 4th in 2020–21" (Cannon) joined as "en  y 2020–21",
+which no checker flagged. It was fixed in all nine locales and re-checked in the browser. Checks:
+`check:runtime`, `check:live`, `check:digits` (198 units, 0 to review), `check:sepdrift` ×9 (0),
+`check_figures.py` ×9, `check:dates`, `check:fr`, `check:bidi`, `check:fa`, `check:hi`,
+`check:chrome`, `i18n:leaks` ×9 (no `cup-best` leak), `npm run build`. All passed.
