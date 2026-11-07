@@ -878,3 +878,6 @@ from the plan as written, each deliberate:
   Compare topic, including Sports and the two row-only topics, measures 1240 px wide on
   the live site too; it comes from `comparewide` (#438), not this branch. Recorded in
   memory and reported, not fixed here.
+- **The division legend repeats on every band, not the first only** (user, 2026-11-07, at
+  the English review): a reader deep in the Music band should not scroll back to Visual
+  arts to decode LS · MS · US.

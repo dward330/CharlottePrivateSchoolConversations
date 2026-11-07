@@ -79,13 +79,13 @@ export function CompareMatrixRows({
         : t('compare.matrix.tipKindNotListed')
   return (
     <>
-      {groups.map((g, gi) => (
+      {groups.map((g) => (
         <tbody key={g.key}>
           <tr className="group-row cm-band">
             <td className="group-label" colSpan={cols.length + 1}>
               <span className="group-label-text cm-band-in">
                 <span>{g.label}</span>
-                {legend === 'division' && gi === 0 && <DivisionLegend />}
+                {legend === 'division' && <DivisionLegend />}
               </span>
             </td>
           </tr>
