@@ -11,13 +11,15 @@ type Props = {
   school: string
   /** Metric key, to namespace the popover id when a school repeats across rows. */
   metricKey: string
+  /** Class on the figure span. Defaults to the Compare figure face, `mark-val`. */
+  valueClassName?: string
 }
 
 /**
  * A qualified Compare cell: the figure plus a top-layer provenance popover.
  * The popover mechanics (top layer, hover/focus, placement) live in TopLayerTip.
  */
-export function CellQual({ value, qual, school, metricKey }: Props) {
+export function CellQual({ value, qual, school, metricKey, valueClassName = 'mark-val' }: Props) {
   const { t } = useTranslation()
   return (
     <TopLayerTip
@@ -26,7 +28,7 @@ export function CellQual({ value, qual, school, metricKey }: Props) {
       ariaLabel={t('compare.qualAria', { value, school })}
       trigger={
         <>
-          <span className="mark-val">{value}</span>
+          <span className={valueClassName}>{value}</span>
           <span className="qual-dot" aria-hidden="true" />
         </>
       }

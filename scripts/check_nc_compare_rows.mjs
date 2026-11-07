@@ -19,7 +19,8 @@
  *
  * Asserts:
  *   - exactly six `nc-admit-*` college-support rows, contiguous, in the card's
- *     university order, immediately before `bucket-hbcu`;
+ *     university order, immediately after `bucket-hbcu` (HBCUs moved up to sit
+ *     after Power Four, 2026-11-07, plan testscores);
  *   - each key is `nc-admit-${university.key}` and each label ends with the
  *     exact dashboard name;
  *   - every row is `compareOnly` (the school page already shows the card);
@@ -69,7 +70,7 @@ for (const s of slugs) {
   if (keys !== order.join(',')) findings.push(`${s}: university order differs — ${keys}`)
 }
 
-// Placement: six contiguous rows, directly before bucket-hbcu.
+// Placement: six contiguous rows, directly after bucket-hbcu.
 const idx = VALUE_METRICS.map((r, i) => (r.key.startsWith('nc-admit-') ? i : -1)).filter(
   (i) => i >= 0,
 )
@@ -78,8 +79,8 @@ if (idx.length !== order.length) {
   findings.push(`expected ${order.length} nc-admit-* rows, found ${idx.length}`)
 } else if (idx.some((v, i) => v !== idx[0] + i)) {
   findings.push(`nc-admit-* rows are not contiguous (indices ${idx.join(', ')})`)
-} else if (idx[idx.length - 1] + 1 !== hbcu) {
-  findings.push(`nc-admit-* rows must sit immediately before bucket-hbcu (last at ${idx[idx.length - 1]}, hbcu at ${hbcu})`)
+} else if (idx[0] !== hbcu + 1) {
+  findings.push(`nc-admit-* rows must sit immediately after bucket-hbcu (first at ${idx[0]}, hbcu at ${hbcu})`)
 }
 
 idx.forEach((rowIdx, i) => {

@@ -108,6 +108,14 @@ export type ValueMetric = {
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
   /**
+   * Stacked test-score lines (SAT / ACT rows): each school's published median, average
+   * and middle-50% range, rendered as labelled lines with `subs` (the class) beneath.
+   * `values[slug]` mirrors the first non-null line (median → mean → mid50) so the
+   * floor, schema doc and N/A logic read the row like any other; check:scores enforces it.
+   * A null line renders a dash. Figures are copied verbatim from the school's card.
+   */
+  scores?: Record<string, { median: string | null; mean: string | null; mid50: string | null }>
+  /**
    * Keep this row off the school-page stat-tile strip (SchoolDetail.tsx) and
    * show it on Compare only. For a row whose figures the school page already
    * presents in a structured card, where a tile would repeat them directly
@@ -289,6 +297,115 @@ export const VALUE_METRICS: ValueMetric[] = [
   // ============================ College Support ============================
   // Extracted from each school's College Support research note (verified against
   // the note text July 2026). null = the school does not publish that figure.
+  // SAT / ACT rows: every figure is copied from the school's own card
+  // (collegeSupportPrograms/<slug>.ts `scoreTables`), and `values` mirrors the
+  // first published line of `scores`. Both are guarded by check:scores.
+  {
+    topic: 'college-support',
+    key: 'sat-scores',
+    label: 'SAT total',
+    note: 'Each school’s published SAT total for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure; Davidson Day publishes no test scores.',
+    noLead: true,
+    compareOnly: true,
+    values: {
+      'providence-day': '1334',
+      'charlotte-latin': '1308.5',
+      'covenant-day': '1263',
+      'hickory-grove-christian': '1090',
+      cannon: '1290–1410',
+      'carmel-christian': '1060–1260',
+      'charlotte-catholic': '1070–1320',
+      'charlotte-christian': '1120–1320',
+      'charlotte-country-day': '1155–1385',
+      'gaston-day': '1190–1330',
+      'davidson-day': null, // withholds all test data by choice
+    },
+    subs: {
+      'providence-day': '(Class of 2025)',
+      'charlotte-latin': '(Class of 2026)',
+      'covenant-day': '(Class of 2026)',
+      'hickory-grove-christian': '(Class of 2026)',
+      cannon: '(Class of 2026)',
+      'carmel-christian': '(Class of 2024)',
+      'charlotte-catholic': '(Class of 2027)',
+      'charlotte-christian': '(Class of 2026)',
+      'charlotte-country-day': '(Class of 2024)',
+      'gaston-day': '(Class of 2025)',
+    },
+    scores: {
+      'providence-day': { median: null, mean: '1334', mid50: '1220–1460' },
+      'charlotte-latin': { median: null, mean: '1308.5', mid50: null },
+      'covenant-day': { median: null, mean: '1263', mid50: null },
+      'hickory-grove-christian': { median: '1090', mean: '1066', mid50: null },
+      cannon: { median: null, mean: null, mid50: '1290–1410' },
+      'carmel-christian': { median: null, mean: null, mid50: '1060–1260' },
+      'charlotte-catholic': { median: null, mean: null, mid50: '1070–1320' },
+      'charlotte-christian': { median: null, mean: null, mid50: '1120–1320' },
+      'charlotte-country-day': { median: null, mean: null, mid50: '1155–1385' },
+      'gaston-day': { median: null, mean: null, mid50: '1190–1330' },
+    },
+    quals: {
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'The median was printed mid-year from 20 testers; the average is the school’s final figure for the class, from 45 testers.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'The most recent SAT range the school has published. Its 2025–26 profile replaced the range with a median for each fifth of the class.',
+      },
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'act-scores',
+    label: 'ACT composite',
+    note: 'Each school’s published ACT composite for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure; Davidson Day publishes no test scores.',
+    noLead: true,
+    compareOnly: true,
+    values: {
+      'providence-day': '27',
+      'charlotte-latin': '27.2',
+      'covenant-day': '26',
+      'hickory-grove-christian': '20.5',
+      cannon: '25–31',
+      'carmel-christian': '22–30',
+      'charlotte-catholic': '20–27',
+      'charlotte-christian': '21–29',
+      'charlotte-country-day': '24–31',
+      'gaston-day': '22–28',
+      'davidson-day': null, // withholds all test data by choice
+    },
+    subs: {
+      'providence-day': '(Class of 2025)',
+      'charlotte-latin': '(Class of 2026)',
+      'covenant-day': '(Class of 2026)',
+      'hickory-grove-christian': '(Class of 2026)',
+      cannon: '(Class of 2026)',
+      'carmel-christian': '(Class of 2024)',
+      'charlotte-catholic': '(Class of 2027)',
+      'charlotte-christian': '(Class of 2026)',
+      'charlotte-country-day': '(Class of 2024)',
+      'gaston-day': '(Class of 2025)',
+    },
+    scores: {
+      'providence-day': { median: null, mean: '27', mid50: '23–31' },
+      'charlotte-latin': { median: null, mean: '27.2', mid50: null },
+      'covenant-day': { median: null, mean: '26', mid50: null },
+      'hickory-grove-christian': { median: null, mean: '20.5', mid50: null },
+      cannon: { median: null, mean: null, mid50: '25–31' },
+      'carmel-christian': { median: null, mean: null, mid50: '22–30' },
+      'charlotte-catholic': { median: null, mean: null, mid50: '20–27' },
+      'charlotte-christian': { median: null, mean: null, mid50: '21–29' },
+      'charlotte-country-day': { median: null, mean: null, mid50: '24–31' },
+      'gaston-day': { median: null, mean: null, mid50: '22–28' },
+    },
+    quals: {
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'The most recent ACT range the school has published. Its 2025–26 profile replaced the range with a median for each fifth of the class.',
+      },
+    },
+  },
   {
     topic: 'college-support',
     key: 'ap-performance',
@@ -621,6 +738,56 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
     },
   },
+  {
+    topic: 'college-support',
+    key: 'bucket-hbcu',
+    label: 'HBCUs',
+    note: 'Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
+    subs: ACCEPTANCE_WINDOWS,
+    values: {
+      cannon: '11 / 107', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '11 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-catholic': '3 / 107', // Hampton University, Benedict College, West Virginia State University
+      'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '10 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
+      'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
+      'davidson-day': '5 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '23 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
+      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo (Tougaloo also holds Liberal Rank #180)
+      'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+    quals: {
+      'charlotte-catholic': {
+        kind: 'scope',
+        text:
+          'Hampton University, Benedict College and West Virginia State University, from the Classes of 2023-2026 matriculation list.',
+      },
+      'gaston-day': {
+        kind: 'scope',
+        text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
+      },
+      cannon: { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'covenant-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'Historically Black colleges and universities named on the acceptance list.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '23 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists (incl. Howard, Hampton, Morehouse, Tuskegee, NC A&T, Florida A&M) — a notably deep HBCU pipeline.',
+      },
+    },
+  },
   // ==================== Top 6 NC public universities ======================
   // Government-published, not school-published: Fall 2025 Applied / Admitted
   // per NC high school × UNC campus, from the UNC System Insight dashboard via
@@ -837,56 +1004,6 @@ export const VALUE_METRICS: ValueMetric[] = [
       'hickory-grove-christian': '6 / 6',
       'gaston-day': '4 / 4',
       'providence-day': '7 / 7',
-    },
-  },
-  {
-    topic: 'college-support',
-    key: 'bucket-hbcu',
-    label: 'HBCUs',
-    note: 'Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.',
-    // "43 / 68" is a real fraction and ranks as the quotient. The default
-    // reading (4368) orders these rows correctly ONLY while every denominator
-    // in the row is identical — true today, but luck rather than logic.
-    compareAs: 'fraction',
-    subs: ACCEPTANCE_WINDOWS,
-    values: {
-      cannon: '11 / 107', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '11 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '3 / 107', // Hampton University, Benedict College, West Virginia State University
-      'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '10 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
-      'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
-      'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
-      'davidson-day': '5 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '23 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
-      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo (Tougaloo also holds Liberal Rank #180)
-      'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
-    },
-    quals: {
-      'charlotte-catholic': {
-        kind: 'scope',
-        text:
-          'Hampton University, Benedict College and West Virginia State University, from the Classes of 2023-2026 matriculation list.',
-      },
-      'gaston-day': {
-        kind: 'scope',
-        text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
-      },
-      cannon: { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'covenant-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.' },
-      'davidson-day': { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'carmel-christian': {
-        kind: 'scope',
-        text: 'Historically Black colleges and universities named on the acceptance list.',
-      },
-      'hickory-grove-christian': {
-        kind: 'scope',
-        text: '23 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023, 2025 and 2026 acceptance lists (incl. Howard, Hampton, Morehouse, Tuskegee, NC A&T, Florida A&M) — a notably deep HBCU pipeline.',
-      },
     },
   },
   {
