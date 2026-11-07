@@ -2628,6 +2628,60 @@ export const VALUE_METRICS: ValueMetric[] = [
     },
   },
 
+  {
+    topic: 'international-travel',
+    key: 'travel-continents',
+    label: 'Continents reached by trips',
+    note: 'Our count over the same trip record as the countries row, on the seven-continent model, with Central America and the Caribbean under North America. The records cover different years at different schools (beneath).',
+    compareOnly: true,
+    values: {
+      cannon: '3',
+      'charlotte-christian': '3',
+      'charlotte-catholic': null,
+      'charlotte-country-day': '6',
+      'charlotte-latin': '4',
+      'covenant-day': null,
+      'carmel-christian': null,
+      'davidson-day': '2',
+      'hickory-grove-christian': null,
+      'gaston-day': null,
+      'providence-day': '4',
+    },
+    subs: {
+      cannon: '2 school years, 2024–26',
+      'charlotte-christian': '5 school years, 2022–27',
+      'charlotte-country-day': '3 school years, 2022–27',
+      'charlotte-latin': '4 school years, 2022–27',
+      'davidson-day': '3 school years, 2023–27',
+      'providence-day': '5 school years, 2022–27',
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'Asia (China), Europe (Germany) and North America (Costa Rica and the Dominican Republic).',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Europe (Austria, France, Germany, Greece, Iceland, Ireland, Italy, Portugal and the United Kingdom), North America (Canada, Costa Rica, Cuba, the Dominican Republic, Mexico and Panama) and South America (Brazil and Ecuador).',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Africa (Morocco and Rwanda), Asia (China, Japan, Oman and the United Arab Emirates), Europe (Denmark, France, Germany, Greece, Iceland, Italy, Poland, Spain, Sweden and the United Kingdom), North America (Canada and Costa Rica), Oceania (New Zealand) and South America (Argentina and Peru). The school itself says its trips span six continents.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Africa (South Africa), Europe (Belgium, France, Germany, Italy, the Netherlands, Spain and the United Kingdom), North America (Canada) and South America (Argentina).',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Europe (Portugal and Spain) and North America (Belize).',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Africa (Kenya and South Africa), Asia (Japan, South Korea, Thailand and the United Arab Emirates), Europe (Denmark, France, Greece, Iceland, Spain, Sweden, Switzerland and the United Kingdom) and South America (Colombia and Ecuador).',
+      },
+    },
+  },
   /* ------------------------------------------------- Wells Fargo Cup rows -- */
 
   // Rows user-approved 2026-11-01 (plan `cupcompare`); `cup-best` added on the

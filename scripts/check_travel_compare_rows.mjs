@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 /**
- * check:travelrows — the five Global Exposure Compare rows must agree with the
+ * check:travelrows — the six Global Exposure Compare rows must agree with the
  * trip ledgers they summarise.
  *
- * WHY THIS EXISTS. Compare → Global Exposure carries five Key-stats rows
- * (`travel-*`, plan `globalcompare`, 2026-10-26), every cell a count or a
+ * WHY THIS EXISTS. Compare → Global Exposure carries six Key-stats rows
+ * (`travel-*`, plan `globalcompare`, 2026-10-26; `travel-continents` added by
+ * plan `comparerows`, 2026-11-07), every cell a count or a
  * reading over one school's trip ledger in
  * src/data/internationalTravel/<slug>.ts. VALUE_METRICS is hand-maintained, so
  * the moment a trip, homestay or credential is added to a ledger the Compare
@@ -20,8 +21,13 @@
  * DOMESTIC fails — that is the guard that would have caught New Mexico being
  * counted as a country.
  *
+ * CONTINENTS. `travel-continents` counts the distinct continents over the same
+ * trips abroad, on the seven-continent model, with Central America and the
+ * Caribbean under North America. Every KNOWN country must be in CONTINENT, so a
+ * new destination is placed before it can be counted.
+ *
  * Asserts:
- *   - exactly five `international-travel` rows, keys in plan order, contiguous
+ *   - exactly six `international-travel` rows, keys in plan order, contiguous
  *     and followed by nothing but TAIL_KEYS, the rows appended after them (an
  *     insert elsewhere shifts every overlay `[N]` path after it), all
  *     `compareOnly: true`;
@@ -36,6 +42,7 @@
  *     denominator, user decision 2026-10-26), and the window sub-line;
  *   - travel-credential: non-null iff the program has a `credential`;
  *   - travel-countries: the distinct-country count, and the window sub-line;
+ *   - travel-continents: the distinct-continent count, and the window sub-line;
  *   - every non-null cell carries a `quals` tooltip.
  *
  * ROLLOVER. When 2027–28 trips are published, bump TRAVEL_YEAR and the
@@ -55,6 +62,7 @@ const KEYS = [
   'travel-homestays',
   'travel-credential',
   'travel-countries',
+  'travel-continents',
 ]
 // The only rows allowed after the travel rows, in order (plan `cupcompare`).
 // check:cup asserts their own placement.
@@ -72,6 +80,21 @@ const KNOWN = new Set([
   'South Korea', 'Spain', 'Sweden', 'Switzerland', 'Thailand',
   'the Netherlands', 'United Arab Emirates', 'United Kingdom',
 ])
+// Seven-continent model; Central America and the Caribbean sit under North
+// America. The UK fold happens before this lookup.
+const CONTINENT = {
+  Argentina: 'South America', Austria: 'Europe', Belgium: 'Europe', Belize: 'North America',
+  Brazil: 'South America', Canada: 'North America', China: 'Asia', Colombia: 'South America',
+  'Costa Rica': 'North America', Cuba: 'North America', Denmark: 'Europe',
+  'Dominican Republic': 'North America', Ecuador: 'South America', France: 'Europe',
+  Germany: 'Europe', Greece: 'Europe', Iceland: 'Europe', Ireland: 'Europe', Italy: 'Europe',
+  Japan: 'Asia', Kenya: 'Africa', Mexico: 'North America', Morocco: 'Africa',
+  'New Zealand': 'Oceania', Oman: 'Asia', Panama: 'North America', Peru: 'South America',
+  Poland: 'Europe', Portugal: 'Europe', Rwanda: 'Africa', 'South Africa': 'Africa',
+  'South Korea': 'Asia', Spain: 'Europe', Sweden: 'Europe', Switzerland: 'Europe',
+  Thailand: 'Asia', 'the Netherlands': 'Europe', 'United Arab Emirates': 'Asia',
+  'United Kingdom': 'Europe',
+}
 const DIV_ORDER = ['LS', 'MS', 'US']
 const DIV_NAME = { LS: 'Lower School', MS: 'Middle School', US: 'Upper School' }
 
@@ -88,6 +111,10 @@ const slugs = Object.keys(programs)
 if (slugs.length === 0) {
   console.error(`check:travelrows — no programs found in ${DIR}; the import is broken`)
   process.exit(1)
+}
+
+for (const c of KNOWN) {
+  if (!UK.has(c) && !CONTINENT[c]) findings.push(`KNOWN country "${c}" has no CONTINENT entry`)
 }
 
 const pieces = (dest) => dest.split(/,\s*|\s*&\s*/).map((p) => p.trim()).filter(Boolean)
@@ -134,16 +161,18 @@ function derive(p) {
   const countries = new Set(
     abroad.flatMap((t) => pieces(t.dest)).filter((x) => !DOMESTIC.has(x)).map((x) => (UK.has(x) ? 'United Kingdom' : x)),
   )
+  const continents = new Set([...countries].map((c) => CONTINENT[c]).filter(Boolean))
   return {
     'travel-trips': { value: trips, sub: tripsSub },
     'travel-youngest-division': { value: youngest ? DIV_NAME[youngest] : null },
     'travel-homestays': { value: abroad.length ? String(homestays) : null, sub: window },
     'travel-credential': { present: Boolean(p.credential) },
     'travel-countries': { value: countries.size ? String(countries.size) : null, sub: window },
+    'travel-continents': { value: continents.size ? String(continents.size) : null, sub: window },
   }
 }
 
-// Placement: five contiguous rows, in plan order, followed only by TAIL_KEYS.
+// Placement: six contiguous rows, in plan order, followed only by TAIL_KEYS.
 const idx = VALUE_METRICS.map((r, i) => (r.topic === 'international-travel' ? i : -1)).filter((i) => i >= 0)
 if (idx.length !== KEYS.length) {
   findings.push(`expected ${KEYS.length} international-travel rows, found ${idx.length}`)
