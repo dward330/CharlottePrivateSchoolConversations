@@ -20,6 +20,8 @@ const AWARDS = 'https://www.charlottecountryday.org/cd-experience/athletics/awar
 const CHAMPS_26 =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
 const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1790254021/charlottecds/qo26oegmsg1nwpis3l9b/CCDSCollegeProfile2026-FNA.pdf'
 
 export const charlotteCountryDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -221,7 +223,7 @@ export const charlotteCountryDay: SportsProgram = {
     headline:
       '51 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with swimming as the clear engine.',
     subhead:
-      'The school reports roughly 15 seniors committing per year over the last five years.',
+      'The school reports roughly 15 seniors committing per year over the last five years — 13 in the Class of 2026 and 60 across the last four classes, per the 2026–27 profile.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -313,6 +315,7 @@ export const charlotteCountryDay: SportsProgram = {
         url: 'https://www.charlottecountryday.org/cd-experience/athletics/collegiate-athletics',
       },
       { label: 'charlottecountryday.org — Awards & Honors', url: AWARDS },
+      { label: '2026–27 School Profile (college athletes, Class of 2026 and last four classes)', url: PROFILE_2627 },
       {
         label: '247Sports Composite — 2025 North Carolina football rankings',
         url: 'https://247sports.com/season/2025-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',

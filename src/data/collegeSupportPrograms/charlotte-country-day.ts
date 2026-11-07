@@ -1,33 +1,45 @@
 // Charlotte Country Day School — the six College Support cards.
 //
 // Every figure is transcribed from the school's OWN published materials —
-// chiefly the 2025–26 and 2024–25 School Profile PDFs, the College Acceptances
-// PDFs, the College Counseling pages, and dated news posts. See
+// chiefly the 2026–27 School Profile PDF and the final 2023–2026 College
+// Acceptances PDF, plus the earlier profile editions, the College Counseling
+// pages, and dated news posts. See
 // source-material/college-support/charlotte-country-day/CCD - College Support -
-// Redesign Research 2026.md for the hard data, source URLs, and gap notes.
+// School Profile 2026-2027.md (the 2026–27 edition and the final list) and
+// CCD - College Support - Redesign Research 2026.md (the earlier editions) for
+// the hard data, source URLs, and gap notes.
 //
 // Two things make CCD's data distinctive, and both are reflected below:
 //
 //  1. It is the only school in this set running a full IB Diploma Programme
 //     alongside its AP catalog — a second legible path to maximum rigor.
-//  2. Its 2025–26 profile DROPPED the SAT/ACT middle-50% ranges its 2024–25
-//     edition published, replacing them with median SAT/ACT per GPA quintile.
-//     So the score tables below carry the Class of 2024 figures (the most recent
-//     the school has ever published) and say so, while the quintile table
-//     carries the newer, richer Class of 2025 cut.
+//  2. Its profile changes shape between editions. The 2024–25 edition printed
+//     whole-class SAT/ACT middle-50% ranges; the 2025–26 edition replaced them
+//     with a median SAT and ACT per GPA quintile; the 2026–27 edition returns to
+//     GPA medians alone and prints a whole-class middle 50% beneath them, without
+//     naming the class or the number of testers. The score tables carry that
+//     newest range; the notes keep the Class of 2024 section scores.
 //
-// The `enrolling` markers were recovered by the researcher from the acceptance
-// PDF's embedded font runs, since the bold that marks matriculation is lost in
-// plain-text extraction. That method returned 69 names against the school's own
-// stated count of 70 — a ~97%-complete recovery, noted on the card rather than
-// silently rounded.
+// The `enrolling` markers are read from the acceptance PDF's font runs (the bold
+// face is ITCFranklinGothicStd-DmCd), since the bold that marks matriculation is
+// lost in plain-text extraction. Both the May and the final 2023–2026 editions
+// carry 69 bold names; the school's own "70 institutions" figure is one more,
+// recorded as a dev-only verify flag on the outcomes card.
 
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
-/* The Classes of 2023–2026 acceptance list, as of 5/28/2026: 320 institutions.
-   `enrolling` follows the PDF's own key — bold marks a school enrolling one or
-   more members of the Class of 2026. Rank labels and buckets are scored against
-   the 2027 U.S. News tables. */
+/* The Classes of 2023–2026 acceptance list, FINAL edition (CCDSCollegeMatriculation2026,
+   uploaded with the 2026–27 profile): 361 institutions printed, merged into the May
+   edition (ACCEPTANCES_MAY, as of 5/28/2026, 320 rows) under the merge rule — 43 rows
+   added, none removed — so 363 rows. Marymount Manhattan and Virginia Wesleyan stay
+   although the final edition does not reprint them, and the shipped spelling is kept
+   for the rows the final edition prints differently.
+   `enrolling` follows the final edition's own key — bold marks a school enrolling one
+   or more members of the Class of 2026 — read from the PDF's font runs: 69 names. The
+   earlier Yale marker was a transcription slip the May edition's font data never
+   supported. Rank labels and buckets are scored against the 2027 U.S. News tables.
+   ACCEPTANCES_MAY =
+   https://resources.finalsite.net/images/v1779992327/charlottecds/qit66txtuedke1lr4hcx/CollegeAcceptances2023-2026.pdf */
 const colleges = [
   { name: 'Agnes Scott College', cats: ['lac75'], enrolling: true },
   { name: 'Albany State University', cats: ['hbcu'] },
@@ -39,18 +51,22 @@ const colleges = [
   { name: 'Arizona State University', cats: ['p4'] },
   { name: 'Art Center College of Design', cats: [] },
   { name: 'Auburn University', cats: ['p4'], enrolling: true },
+  { name: 'Babson College', cats: [] },
   { name: 'Ball State University', cats: [] },
   { name: 'Bard College', cats: ['lac75'] },
   { name: 'Barnard College', cats: ['lac75'] },
   { name: 'Bates College', cats: ['lac75'], enrolling: true },
+  { name: 'Batten University', cats: [] },
   { name: 'Baylor University', cats: ['p4'] },
   { name: 'Belmont Abbey College', cats: [] },
   { name: 'Belmont University', cats: [] },
+  { name: 'Bentley University', cats: [] },
   { name: 'Berklee College of Music', cats: [], enrolling: true },
   { name: 'Berry College', cats: [] },
   { name: 'Birmingham-Southern College', cats: [] },
   { name: 'Boston College', cats: ['nu75', 'p4'] },
   { name: 'Boston University', cats: ['nu75'], enrolling: true },
+  { name: 'Bowdoin College', cats: ['lac75'] },
   { name: 'Brandeis University', cats: ['nu75'] },
   { name: 'Brenau University', cats: [] },
   { name: 'Bridgewater College', cats: [] },
@@ -59,14 +75,19 @@ const colleges = [
   { name: 'Bryn Mawr College', cats: ['lac75'] },
   { name: 'Bucknell University', cats: ['lac75'], enrolling: true },
   { name: 'Butler University', cats: [] },
+  { name: 'Cal Poly', cats: [] },
+  { name: 'California Institute of Technology', cats: ['ivyplus', 'nu75'] },
+  { name: 'California Institute of the Arts', cats: [] },
   { name: 'Campbell University', cats: [] },
   { name: 'Cape Fear Community College', cats: [] },
   { name: 'Carnegie Mellon University', cats: ['nu75'], enrolling: true },
   { name: 'Case Western Reserve University', cats: ['nu75'] },
   { name: 'Catawba College', cats: [] },
   { name: 'Central Michigan University', cats: [] },
-  { name: 'Central Piedmont Community College', cats: [] },
+  { name: 'Central Piedmont Community College', cats: [], enrolling: true },
   { name: 'Christopher Newport University', cats: [] },
+  { name: 'Claflin University', cats: ['hbcu'] },
+  { name: 'Claremont McKenna College', cats: ['lac75'] },
   { name: 'Clark Atlanta University', cats: ['hbcu'], enrolling: true },
   { name: 'Clarkson University', cats: [] },
   { name: 'Clemson University', cats: ['p4'], enrolling: true },
@@ -122,25 +143,32 @@ const colleges = [
   { name: 'Georgia State University', cats: [] },
   { name: 'Georgia Tech', cats: ['nu75', 'p4'] },
   { name: 'Gettysburg College', cats: ['lac75'], enrolling: true },
+  { name: 'Goucher College', cats: [] },
   { name: 'Greensboro College', cats: [] },
   { name: 'Guilford College', cats: [] },
   { name: 'Hamilton College', cats: ['lac75'] },
   { name: 'Hampden-Sydney College', cats: [] },
   { name: 'Hampton University', cats: ['hbcu'], enrolling: true },
+  { name: 'Harvard University', cats: ['ivy', 'ivyplus', 'nu75'] },
+  { name: 'Harvey Mudd College', cats: ['lac75'] },
   { name: 'Haverford College', cats: ['lac75'] },
   { name: 'Hawai\'i Pacific University', cats: [] },
   { name: 'High Point University', cats: [], enrolling: true },
   { name: 'Hobart and William Smith Colleges', cats: ['lac75'] },
+  { name: 'Holy Cross College', cats: [] },
   { name: 'Howard University', cats: ['hbcu', 'nu75'], enrolling: true },
+  { name: 'Imperial College London', cats: [] },
   { name: 'Indiana University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Ithaca College', cats: [] },
   { name: 'Jacksonville University', cats: [] },
   { name: 'James Madison University', cats: [], enrolling: true },
+  { name: 'Johns Hopkins University', cats: ['ivyplus', 'nu75'] },
   { name: 'Johnson & Wales University', cats: [] },
   { name: 'Kansas State University', cats: ['p4'] },
+  { name: 'Kennesaw State University', cats: [] },
   { name: 'Kenyon College', cats: ['lac75'] },
   { name: 'King\'s College London', cats: [] },
-  { name: 'Lafayette College', cats: ['lac75'], enrolling: true },
+  { name: 'Lafayette College', cats: ['lac75'] },
   { name: 'Lees-McRae College', cats: [] },
   { name: 'Lehigh University', cats: ['nu75'] },
   { name: 'Lenoir-Rhyne University', cats: [] },
@@ -160,6 +188,7 @@ const colleges = [
   { name: 'Marymount University', cats: [] },
   { name: 'Massachusetts College of Art and Design', cats: [] },
   { name: 'Massachusetts Institute of Technology', cats: ['ivyplus', 'nu75'] },
+  { name: 'McGill University', cats: [] },
   { name: 'Mercer University', cats: [] },
   { name: 'Meredith College', cats: [] },
   { name: 'Metropolitan State University of Denver', cats: [] },
@@ -174,15 +203,20 @@ const colleges = [
   { name: 'Morehouse College', cats: ['hbcu'] },
   { name: 'Morgan State University', cats: ['hbcu'] },
   { name: 'Mount Holyoke College', cats: ['lac75'] },
+  { name: 'Nazareth University', cats: [] },
   { name: 'New York University', cats: ['nu75'] },
   { name: 'North Carolina A&T State University', cats: ['hbcu'], enrolling: true },
   { name: 'North Carolina Central University', cats: ['hbcu'] },
   { name: 'North Carolina State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Northeastern University', cats: ['nu75'], enrolling: true },
+  { name: 'Northeastern University (New York City)', cats: [] },
+  { name: 'Northwestern University', cats: ['ivyplus', 'nu75', 'p4'] },
   { name: 'Nova Southeastern University', cats: [] },
   { name: 'Oberlin College', cats: ['lac75'] },
+  { name: 'Oberlin Conservatory of Music', cats: [] },
   { name: 'Occidental College', cats: ['lac75'] },
   { name: 'Oglethorpe University', cats: [] },
+  { name: 'Ohio Northern University', cats: [] },
   { name: 'Ohio University', cats: [] },
   { name: 'Oklahoma City University', cats: [] },
   { name: 'Oklahoma State University', cats: ['p4'] },
@@ -196,6 +230,7 @@ const colleges = [
   { name: 'Penn State University', cats: ['nu75', 'p4'] },
   { name: 'Pepperdine University', cats: [] },
   { name: 'Point Park University', cats: [] },
+  { name: 'Pomona College', cats: ['lac75'] },
   { name: 'Pratt Institute', cats: [] },
   { name: 'Presbyterian College', cats: [] },
   { name: 'Princeton University', cats: ['ivy', 'ivyplus', 'nu75'] },
@@ -209,11 +244,15 @@ const colleges = [
   { name: 'Rhodes College', cats: ['lac75'], enrolling: true },
   { name: 'Rice University', cats: ['nu75'] },
   { name: 'Richmond American University London', cats: [] },
+  { name: 'Rider University', cats: [] },
+  { name: 'Ringling College of Art and Design', cats: [] },
   { name: 'Roanoke College', cats: [] },
   { name: 'Rochester Institute of Technology', cats: [], enrolling: true },
   { name: 'Rollins College', cats: [] },
   { name: 'Roosevelt University', cats: [] },
   { name: 'Rutgers University', cats: ['nu75', 'p4'] },
+  { name: 'Rutgers University (Camden)', cats: [] },
+  { name: 'Rutgers University (Newark)', cats: ['nu75'] },
   { name: 'Saint Joseph\'s University', cats: [] },
   { name: 'Samford University', cats: [] },
   { name: 'San Diego State University', cats: [] },
@@ -222,6 +261,7 @@ const colleges = [
   { name: 'Savannah College of Art and Design', cats: [] },
   { name: 'School of the Art Institute of Chicago', cats: [] },
   { name: 'Seton Hall University', cats: [] },
+  { name: 'Shenandoah University', cats: [] },
   { name: 'Skidmore College', cats: ['lac75'] },
   { name: 'Smith College', cats: ['lac75'] },
   { name: 'South Carolina State University', cats: ['hbcu'] },
@@ -233,6 +273,7 @@ const colleges = [
   { name: 'Stanford University', cats: ['ivyplus', 'nu75', 'p4'], enrolling: true },
   { name: 'Stevens Institute of Technology', cats: ['nu75'] },
   { name: 'Suffolk University', cats: [] },
+  { name: 'Swarthmore College', cats: ['lac75'] },
   { name: 'Syracuse University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Temple University', cats: [] },
   { name: 'Tennessee State University', cats: ['hbcu'] },
@@ -240,8 +281,11 @@ const colleges = [
   { name: 'Texas Christian University', cats: ['p4'], enrolling: true },
   { name: 'Texas State University', cats: [] },
   { name: 'The Boston Conservatory at Berklee', cats: [] },
+  { name: 'The Cooper Union for the Advancement of Science and Art', cats: [] },
   { name: 'The Ohio State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'The University of Edinburgh', cats: [] },
+  { name: 'The University of Manchester', cats: [] },
+  { name: 'Trinity College Dublin', cats: [] },
   { name: 'Tufts University', cats: ['nu75'] },
   { name: 'Tulane University', cats: ['nu75'], enrolling: true },
   { name: 'Union College', cats: ['lac75'] },
@@ -249,11 +293,13 @@ const colleges = [
   { name: 'United States Military Academy', cats: ['lac75'] },
   { name: 'United States Naval Academy', cats: ['lac75'], enrolling: true },
   { name: 'University College Dublin', cats: [] },
+  { name: 'University College London', cats: [] },
   { name: 'University of Alabama', cats: ['p4'], enrolling: true },
   { name: 'University of Alabama (Birmingham)', cats: [] },
   { name: 'University of Arizona', cats: ['p4'] },
   { name: 'University of Arkansas', cats: ['p4'] },
   { name: 'University of Bath', cats: [] },
+  { name: 'University of Birmingham', cats: [] },
   { name: 'University of Bristol', cats: [] },
   { name: 'University of California (Berkeley)', cats: ['nu75', 'p4'] },
   { name: 'University of California (Davis)', cats: ['nu75'] },
@@ -261,8 +307,10 @@ const colleges = [
   { name: 'University of California (Los Angeles)', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of California (San Diego)', cats: ['nu75'] },
   { name: 'University of California (Santa Barbara)', cats: ['nu75'] },
+  { name: 'University of Cambridge', cats: [] },
   { name: 'University of Central Florida', cats: ['p4'] },
   { name: 'University of Chicago', cats: ['ivyplus', 'nu75'] },
+  { name: 'University of Cincinnati', cats: ['p4'] },
   { name: 'University of Colorado (Boulder)', cats: ['p4'], enrolling: true },
   { name: 'University of Connecticut', cats: ['nu75'] },
   { name: 'University of Delaware', cats: [] },
@@ -274,6 +322,8 @@ const colleges = [
   { name: 'University of Iowa', cats: ['p4'] },
   { name: 'University of Kansas', cats: ['p4'] },
   { name: 'University of Kentucky', cats: ['p4'], enrolling: true },
+  { name: 'University of Leeds', cats: [] },
+  { name: 'University of Liverpool', cats: [] },
   { name: 'University of Louisville', cats: ['p4'] },
   { name: 'University of Lynchburg', cats: [] },
   { name: 'University of Mary Washington', cats: [] },
@@ -295,9 +345,12 @@ const colleges = [
   { name: 'University of North Carolina (Pembroke)', cats: [] },
   { name: 'University of North Carolina (Wilmington)', cats: [] },
   { name: 'University of North Carolina School of the Arts', cats: [] },
+  { name: 'University of North Dakota', cats: [] },
+  { name: 'University of North Georgia', cats: [] },
   { name: 'University of Notre Dame', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Oklahoma', cats: ['p4'] },
   { name: 'University of Oregon', cats: ['p4'] },
+  { name: 'University of Oxford', cats: [] },
   { name: 'University of Pennsylvania', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'University of Pittsburgh', cats: ['nu75', 'p4'] },
   { name: 'University of Pittsburgh (Johnstown)', cats: [] },
@@ -310,6 +363,7 @@ const colleges = [
   { name: 'University of South Florida', cats: [] },
   { name: 'University of Southern California', cats: ['nu75', 'p4'] },
   { name: 'University of St Andrews', cats: [] },
+  { name: 'University of Stirling', cats: [] },
   { name: 'University of Tampa', cats: [], enrolling: true },
   { name: 'University of Tennessee', cats: ['p4'], enrolling: true },
   { name: 'University of Texas', cats: ['nu75'] },
@@ -322,6 +376,7 @@ const colleges = [
   { name: 'University of Wisconsin', cats: ['nu75', 'p4'] },
   { name: 'University of Wyoming', cats: [] },
   { name: 'Vanderbilt University', cats: ['nu75', 'p4'], enrolling: true },
+  { name: 'Vassar College', cats: ['lac75'] },
   { name: 'Villanova University', cats: ['nu75'] },
   { name: 'Virginia Commonwealth University', cats: [] },
   { name: 'Virginia State University', cats: ['hbcu'] },
@@ -333,7 +388,7 @@ const colleges = [
   { name: 'Washington University in St. Louis', cats: ['ivyplus', 'nu75'] },
   { name: 'Webster University', cats: [] },
   { name: 'Wellesley College', cats: ['lac75'] },
-  { name: 'Wesleyan University', cats: ['lac75'] },
+  { name: 'Wesleyan University', cats: ['lac75'], enrolling: true },
   { name: 'West Virginia University', cats: ['p4'] },
   { name: 'West Virginia Wesleyan College', cats: [] },
   { name: 'Western Carolina University', cats: [] },
@@ -346,7 +401,7 @@ const colleges = [
   { name: 'Worcester Polytechnic Institute', cats: ['nu75'] },
   { name: 'Xavier University', cats: [] },
   { name: 'Xavier University of Louisiana', cats: ['hbcu'] },
-  { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'], enrolling: true },
+  { name: 'Yale University', cats: ['ivy', 'ivyplus', 'nu75'] },
   { name: 'York College of Pennsylvania', cats: [] },
   { name: 'Zaytuna College', cats: [] },
 ]
@@ -355,8 +410,10 @@ const PROFILE_2526 =
   'https://resources.finalsite.net/images/v1759320688/charlottecds/dn5vss9ud5xxwzyt70ah/CCDSSchoolProfile2025-2026-FINAL.pdf'
 const PROFILE_2425 =
   'https://resources.finalsite.net/images/v1726775598/charlottecds/enzt08thdabvh3uxiz0i/2024-2025CCDSSchoolProfile.pdf'
-const ACCEPTANCES =
-  'https://resources.finalsite.net/images/v1779992327/charlottecds/qit66txtuedke1lr4hcx/CollegeAcceptances2023-2026.pdf'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1790254021/charlottecds/qo26oegmsg1nwpis3l9b/CCDSCollegeProfile2026-FNA.pdf'
+const ACCEPTANCES_FINAL =
+  'https://resources.finalsite.net/images/v1790254071/charlottecds/c7flxnbdkjh5gueobvj5/CCDSCollegeMatriculation2026-FNA.pdf'
 const COUNSELING = 'https://www.charlottecountryday.org/cd-education/college-counseling'
 const CLASS_2026 =
   'https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/class-of-2026-college-admissions-outcomes'
@@ -483,16 +540,17 @@ export const charlotteCountryDay: CollegeSupportProgram = {
   },
   transcript: {
     headline:
-      '530 AP exams in 2025 at 93% scoring 3+ and 74% at 4 or 5 — and the school publishes those results discipline by discipline, weak spots included.',
+      '589 AP exams in 2026 at 96% scoring 3+ and 87% at 4 or 5 — an average score of 4.2 — and the school publishes those results discipline by discipline.',
     subhead:
       'Country Day was the first school in North Carolina to offer the IB Diploma, so a student has two legible routes to maximum rigour rather than one, and the profile names the ceiling course in every discipline.',
     stats: [
-      { value: '530', label: 'AP exams sat in 2025 (238 students)' },
-      { value: '93%', label: 'scored 3+ · 74% earned 4s or 5s' },
-      { value: '25 AP + IB', label: 'AP courses plus a full IB Diploma Programme' },
+      { value: '589', label: 'AP exams sat in May 2026 (230 students)' },
+      { value: '96%', label: 'scored 3+ · 87% earned 4s or 5s · 4.2 average' },
+      { value: '26 AP + IB', label: 'AP courses (28 Honors) plus a full IB Diploma Programme, 2026–27' },
       { value: 'Quintiles', label: 'no rank reported — a GPA quintile table stands in' },
     ],
     merit: [
+      { year: '2027', detail: '**4** Semifinalists — Finalists and Commended not yet announced' },
       { year: '2026', detail: '**6** Semifinalists · **5** Finalists · **13** Commended · 1 NMSC Special Scholarship (C.D. Spangler Foundation)' },
       { year: '2025', detail: '**2** Semifinalists · **2** Finalists · **5** Commended — a conspicuous trough between two normal years', unconfirmed: true },
       { year: '2024', detail: '**7** Semifinalists · **7** Finalists · **2** Commended · 1 Scholar, 1 College-Sponsored Scholar' },
@@ -501,7 +559,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { year: '2018', detail: '**7** Semifinalists · **8** Commended' },
     ],
     meritNote:
-      'The Class of 2025 line is the school’s own published figure but sits three times below the classes on either side of it, so it is flagged rather than smoothed. Note also that Semifinalist announcements land in the autumn of senior year, which is why a September 2025 post describes the Class of 2026. College Board National Recognition Program counts are not published in any year.',
+      'The Class of 2025 line is the school’s own published figure but sits three times below the classes on either side of it, so it is flagged rather than smoothed. Note also that Semifinalists are named each autumn of senior year, which is why the 2026–27 profile already carries the Class of 2027. College Board National Recognition Program counts are not published in any year.',
     depth: [
       {
         label: 'Mathematics',
@@ -509,11 +567,11 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Sciences',
-        text: '**Organic Chemistry** and **Physical Computational Biochemistry** run as post-AP semester electives, the former explicitly for students who have finished AP or IB Chemistry.',
+        text: '**Organic Chemistry** and **Physical Computational Biochemistry** run as post-AP semester electives, the former explicitly for students who have finished AP or IB Chemistry. **AP Physics 1** replaced Honors Physics in 2026–27 and is now the prerequisite for AP Physics C.',
       },
       {
         label: 'Computer science',
-        text: 'The ceiling is AP Computer Science A — **no post-AP CS course is listed**, a genuine gap against the maths and science depth beside it.',
+        text: 'The ceiling is AP Computer Science A; **AP Computer Science Principles** joins in 2026–27 as a 10th-grade entry point, and there is still **no post-AP CS course**, a genuine gap against the maths and science depth beside it.',
       },
       {
         label: 'World language',
@@ -527,37 +585,45 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     trust: [
       {
         label: 'Weighted on a flat bump',
-        text: '**+0.5 for Honors, +1.0 for AP/IB** on a 4.0 base — stable across every profile edition reviewed. There is no separate quality-point table.',
+        text: '**+0.5 for Honors, +1.0 for AP/IB** on a 4.0 base — stable across every profile edition reviewed, and the 2026–27 edition extends the +1.0 to the post-AP Organic Chemistry and Calculus III. There is no separate quality-point table.',
       },
       {
         label: 'No rank → a quintile table',
-        text: 'Country Day has published a quintile table continuously since at least 2015–16, and the 2025–26 edition adds **median SAT and median ACT for each fifth** — more context than most no-rank schools give.',
+        text: 'Country Day has published a quintile table continuously since at least 2015–16. The 2025–26 edition tied each fifth to a median SAT and ACT; the 2026–27 edition returns to **GPA medians alone** and prints a **whole-class SAT/ACT middle 50%** beside them.',
       },
       {
         label: '“Most rigorous” shown, not defined',
-        text: 'No numeric rubric, but a **“Most Rigorous Courses by Discipline”** table naming the ceiling course in each subject, plus AP-load buckets (0–2 / 3–5 / 6+) that let a reader locate a candidate against classmates.',
+        text: 'No numeric rubric, but a **“Notably Rigorous Courses by Discipline”** table naming the ceiling course in each subject, plus AP-load buckets — 0–2 / 3–5 / 6–8 / 9+ (Class of 2027: 22 / 22 / 39 / 14 of the 97 non-IB seniors with seven-plus semesters) — that let a reader locate a candidate against classmates.',
+      },
+      {
+        label: 'Standard means college-prep',
+        text: 'Every course that is not Honors, AP or IB is labelled **“Regular/Standard”** on transcripts and STARS forms, and the profile calls every course college-prep in rigour. AP is closed to 9th graders, and 10th graders generally take only AP Human Geography and AP Computer Science Principles.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'No mandatory-AP-exam policy is published, so the 93% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.',
+        text: 'No mandatory-AP-exam policy is published, so the 96% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.',
+      },
+      {
+        kind: 'verify',
+        text: 'The 26 AP is the profile’s own count: its rigorous-courses table prints 25 AP titles, with AP US and Comparative Government on one line. The Course Offerings catalogue (2025–26, the latest posted) holds 23; no 2026–27 catalogue was posted as of 2026-11-07.',
       },
     ],
     sources: [
-      { label: 'charlottecountryday.org — 2025–26 School Profile (AP results by discipline, quintile table, weighting)', url: PROFILE_2526 },
-      { label: '2024–25 School Profile (prior-year AP results, grading scale)', url: PROFILE_2425 },
+      { label: 'charlottecountryday.org — 2026–27 School Profile (AP results by discipline, quintile table, weighting, course-load rules)', url: PROFILE_2627 },
+      { label: '2024–25 School Profile (prior grading scale)', url: PROFILE_2425 },
       { label: 'International Baccalaureate at Country Day', url: 'https://www.charlottecountryday.org/cd-education/upper-school/international-baccalaureate' },
     ],
   },
 
   counseling: {
     headline:
-      'Five full-time counselors for 548 Upper Schoolers — roughly 28 seniors each — with more than 100 years of combined admissions experience between them.',
+      'Five full-time counselors for 536 Upper Schoolers — roughly 27 seniors each — with more than 100 years of combined admissions experience between them.',
     subhead:
-      'A director change lands in July 2026, but it sits on top of a decade of institutional memory: two of the five have been in this office since at least 2015–16.',
+      'A director change landed in July 2026, and the 2026–27 profile is the first edition to print the new office — but it sits on top of a decade of institutional memory: two of the five have been in this office since at least 2015–16.',
     stats: [
-      { value: '~1:28', label: 'counselors to seniors (derived — the school publishes no ratio)' },
+      { value: '~1:27', label: 'counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)' },
       { value: '5', label: 'full-time college counselors, plus a registrar' },
       { value: '150+', label: 'college admissions officers hosted each year' },
       { value: 'Scoir', label: 'platform for students and for rep-visit scheduling' },
@@ -566,7 +632,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       {
         role: 'Director',
         name: 'Allison Slater Tate',
-        detail: 'Appointed after a national search, effective 1 July 2026. A nationally published writer and speaker on admissions.',
+        detail: 'Director since July 2026, after a national search. A nationally published writer and speaker on admissions.',
         email: 'allison.tate@charlottecountryday.org',
       },
       {
@@ -590,7 +656,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       {
         role: 'Assoc. Director',
         name: 'Brooke Tevlin',
-        detail: 'Joined between the 2024–25 and 2025–26 profiles. Plus registrar Donna Witman.',
+        detail: 'Joined between the 2024–25 and 2025–26 profiles. Plus registrar Kim Dickson (Donna Witman in 2025–26).',
         email: 'brooke.tevlin@charlottecountryday.org',
       },
     ],
@@ -639,7 +705,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (548 ÷ 5 and 141 ÷ 5); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:56. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
+        text: 'Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:54. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
       },
       {
         kind: 'gap',
@@ -648,6 +714,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'charlottecountryday.org — College Counseling', url: COUNSELING },
+      { label: '2026–27 School Profile (office roster, enrollment)', url: PROFILE_2627 },
       { label: 'Meet Our Team', url: 'https://www.charlottecountryday.org/cd-education/college-counseling/meet-our-team' },
       { label: 'For College Representatives (visit window, Scoir Visits)', url: 'https://www.charlottecountryday.org/cd-education/college-counseling/for-college-representatives' },
       { label: 'News — Allison Slater Tate appointed Director', url: 'https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/allison-slater-tate-appointed-director-of-college-counseling' },
@@ -656,9 +723,9 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 23 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.',
+      'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.',
     subhead:
-      'The published list is a four-year cumulative acceptance list of ~320 institutions; only the bolded names represent somewhere a Class of 2026 student actually enrolled.',
+      'The published list is a four-year cumulative acceptance list of 363 institutions, with Harvard, Caltech, Johns Hopkins and Northwestern among the final edition’s additions; only the bolded names represent somewhere a Class of 2026 student actually enrolled.',
     stats: [
       { value: '70', label: 'institutions actually enrolling a Class of 2026 student' },
       { value: '170', label: 'unique institutions admitting them · 1,107 applications sent' },
@@ -666,16 +733,16 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { value: '$14.7M', label: 'scholarship offers, Class of 2026 ($13M for 2025)' },
     ],
     buckets: [
-      { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across the 2023–2026 list' },
-      { tier: '“Ivy Plus”', count: '13 / 17', note: '— Stanford and Duke enrolling' },
-      { tier: 'Top-75 National Universities', count: '71 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '44 / 75', note: '— includes all three federal service academies' },
-      { tier: 'Power Four', count: '61 / 68' },
-      { tier: 'HBCUs', count: '18 / 107', note: '— Historically Black Colleges & Universities' },
+      { tier: 'Ivy League', count: '8 / 8', note: '— Harvard appears for the first time on the final 2023–2026 list; none enrolling for the Class of 2026' },
+      { tier: '“Ivy Plus”', count: '17 / 17', note: '— all 17; Stanford and Duke enrolling' },
+      { tier: 'Top-75 National Universities', count: '75 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '50 / 75', note: '— includes all three federal service academies' },
+      { tier: 'Power Four', count: '63 / 68' },
+      { tier: 'HBCUs', count: '19 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
-    collegesTotal: '320 institutions · bold = enrolling a Class of 2026 student',
+    collegesTotal: '363 institutions · bold = enrolling a Class of 2026 student',
     scholarships: [
       '$14.7M scholarship offers · Class of 2026',
       '1 Morehead-Cain Scholar (34 all-time)',
@@ -685,9 +752,19 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     scholarshipsNote:
       'Treat the “34 Morehead-Cain recipients” figure carefully: the College Counseling landing page shows it beside Class of 2026 statistics, but the Class of 2026 produced exactly one Morehead-Cain Scholar. The 34 is a cumulative, all-time count whose window the school never states. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile and should not be presented as current pipelines.',
-    flags: [],
+    flags: [
+      {
+        kind: 'verify',
+        text: 'Bold read from the font runs of both 2023–2026 editions: the May edition (5/28/2026) and the final edition each carry 69 bold names. Lafayette lost bold in the final edition; Central Piedmont and Wesleyan gained it; Northeastern is bold in both. The earlier Yale marker was a transcription slip — Yale is bold in neither edition. The school’s “70 institutions” enrolling figure is one more than either edition’s 69 bold names.',
+      },
+      {
+        kind: 'verify',
+        text: 'States: the 2026–27 profile says the Class of 2026 is in 24 states, DC and Canada; the Class of 2026 page (May 2026) says 23. The profile is the later document and is used.',
+      },
+    ],
     sources: [
-      { label: 'charlottecountryday.org — College Acceptances 2023–2026 (PDF)', url: ACCEPTANCES },
+      { label: 'charlottecountryday.org — College Acceptances 2023–2026, final edition (PDF)', url: ACCEPTANCES_FINAL },
+      { label: '2026–27 School Profile (Class of 2026 outcomes)', url: PROFILE_2627 },
       { label: 'News — Class of 2026 college admissions outcomes', url: CLASS_2026 },
       { label: '2025–26 School Profile (Class of 2025 outcomes, regional split)', url: PROFILE_2526 },
       { label: 'U.S. News 2027 rankings (tier scoring)', url: 'https://www.usnews.com/best-colleges/rankings/national-universities' },
@@ -704,7 +781,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. About 20 students a year take the full diploma from junior year, at an 88% five-year pass rate. For a student whose strengths are not AP-shaped, it is a second legible path to maximum rigour, and it carries an Extended Essay by construction.',
+          '**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year, at an 88% five-year pass rate. For a student whose strengths are not AP-shaped, it is a second legible path to maximum rigour, and it carries an Extended Essay by construction.',
           '**Senior Externship** — a January job-shadowing immersion launched in 2017, partnered with **175+ local employers across 20+ industries**. In a recent year **136 seniors** placed with 68 Charlotte-area employers, hosts drawn largely from current and past parents and alumni.',
           '**Science Outreach Program** — rising juniors and seniors work with science professors at local institutions on primary research over the summer, then present at the annual Science Symposium.',
           '**Weddington Farm** — a **330-acre living classroom** with produce, livestock, beekeeping, mushroom farming and a ten-mile trail system, feeding sustainable-agriculture, ecology and entrepreneurship programming. A genuinely uncommon asset for an urban independent school.',
@@ -717,10 +794,10 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         title: 'Lever 2 — The school’s leverage',
         glyph: '▲',
         items: [
-          '**The School Profile as an instrument** — and the 2025–26 edition is materially stronger than its predecessor. It ties GPA quintiles to median SAT *and* median ACT, names the ceiling course in every discipline, publishes AP-load buckets, states the weighting formula, and discloses AP results by discipline including the weak spots (Fine Arts at 81%/36%). That candour is itself a credibility signal.',
-          '**Integrity signalling** — an annually pledged Honor Code with a student-run Honor Council, plus ACCIS, NACAC and SACAC membership. Faculty credibility markers matter here too: the Upper School includes **AP exam readers**, National Board graders and Klingenstein Fellows, with 82% holding advanced degrees.',
+          '**The School Profile as an instrument** — the 2026–27 edition names the ceiling course in every discipline, states the weighting formula, and discloses AP results by discipline including the low end (Fine Arts at 91%/61%). Its AP-load buckets grew to four, and it dropped the per-fifth test medians of the 2025–26 edition but restored a whole-class SAT/ACT middle 50%. That candour is itself a credibility signal.',
+          '**Integrity signalling** — an annually pledged Honor Code with a student-run Honor Council, plus ACCIS, NACAC and SACAC membership. Faculty credibility markers matter here too: the Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows; 82% hold advanced degrees and 100% take part in professional development each year.',
           '**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class, alongside 34 cumulative Morehead-Cain recipients. Add a standing Jefferson Scholar link to UVA and a decade of service-academy appointments.',
-          '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolling for the Class of 2026, with a February One Scholarship and a Ron Brown Scholar among recent awards.',
+          '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolling for the Class of 2026 (19 HBCUs on the list, Claflin new), with a February One Scholarship and a Ron Brown Scholar among recent awards.',
         ],
         note:
           'The school does not publish its disciplinary-disclosure policy — whether and how Honor Council findings or suspensions reach the secondary school report. Given published NACAC membership, that omission is a sharp tour question.',
@@ -729,7 +806,8 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     flags: [],
     sources: [
       { label: 'charlottecountryday.org — Senior Externship', url: 'https://www.charlottecountryday.org/cd-experience/beyond-the-classroom/externship' },
-      { label: '2025–26 School Profile (IB, memberships, faculty markers)', url: PROFILE_2526 },
+      { label: '2026–27 School Profile (IB, faculty markers, AP results by discipline)', url: PROFILE_2627 },
+      { label: '2025–26 School Profile (memberships)', url: PROFILE_2526 },
       { label: 'Collegiate athletics', url: 'https://www.charlottecountryday.org/cd-experience/athletics/collegiate-athletics' },
       { label: 'International Studies', url: 'https://www.charlottecountryday.org/cd-education/international-studies' },
     ],
@@ -737,44 +815,40 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   wholeClass: {
     headline:
-      'The quintile table is the honest answer for the middle of the class — the fourth fifth sits at a 3.513 GPA with a 1220 SAT, the fifth at 2.991 and 1110.',
+      'The quintile table is the honest answer for the middle of the class — the fourth fifth sits at a 3.655 median GPA, the fifth at 3.012 — and the whole-class middle 50% is a 1170–1400 SAT.',
     subhead:
-      'Country Day publishes what most schools hide, and its acceptance list matches that spread: Princeton and MIT at one end, Cape Fear and Central Piedmont community colleges at the other.',
+      'Country Day publishes what most schools hide, and its acceptance list matches that spread: Harvard, Princeton and MIT at one end, Cape Fear and Central Piedmont community colleges at the other.',
     scoreTables: [
       {
         title: 'SAT score percentiles',
-        hint: '— Class of 2024 · the most recent SAT figures the school has published',
+        hint: '— Class of 2027 · middle 50% printed in the 2026–27 profile beside the Class of 2027 GPA table',
         rows: [
-          { label: 'SAT total', values: ['—', '1155', '—', '1385', '—', '—'] },
-          { label: 'SAT EBRW', values: ['—', '585', '—', '700', '—', '—'] },
-          { label: 'SAT Math', values: ['—', '590', '—', '690', '—', '—'] },
+          { label: 'SAT total', values: ['—', '1170', '—', '1400', '—', '—'] },
         ],
         note:
-          'The middle-50% endpoints ARE the 25th and 75th percentiles, so those columns are real; the 10th, 50th and 90th are shown as “—” because the school has never published them, and neither has it ever published a mean or the number of testers.',
+          'The middle-50% endpoints are the 25th and 75th percentiles; the 10th, 50th and 90th are shown as “—” because the school has never published them, nor a mean. Section scores were last published for the Class of 2024 (EBRW 585–700, Math 590–690); the number of testers never. The 2025–26 edition had dropped the whole-class range for per-fifth medians; the 2026–27 edition restores it without naming the class.',
       },
       {
         title: 'ACT score percentiles',
-        hint: '— Class of 2024 · the most recent ACT figures the school has published',
+        hint: '— Class of 2027 · middle 50% printed in the 2026–27 profile beside the Class of 2027 GPA table',
         rows: [
-          { label: 'ACT composite', values: ['—', '24', '—', '31', '—', '—'] },
-          { label: 'ACT English', values: ['—', '23', '—', '32', '—', '—'] },
-          { label: 'ACT Math', values: ['—', '22', '—', '29', '—', '—'] },
+          { label: 'ACT composite', values: ['—', '26', '—', '31', '—', '—'] },
         ],
         note:
-          'For long-run context, the Class of 2015 composite middle 50% was 26–31 against 24–31 here: the floor fell two points while the ceiling held. Plausibly a test-optional composition effect, but the school offers no explanation.',
+          'English 23–32 and Math 22–29 were last published for the Class of 2024, whose composite was 24–31; the Class of 2015’s was 26–31, so the floor is back where it was a decade ago.',
       },
     ],
     gpaTitle: 'GPA percentiles',
-    gpaHint: '— the no-rank mechanism · Class of 2025 median weighted GPA, with median SAT and ACT',
+    gpaHint: '— the no-rank mechanism · Class of 2027 median weighted GPA (120 of 137 seniors with seven-plus semesters at the school)',
     quintiles: [
-      { label: 'First fifth', gpa: '4.472', detail: '1470 SAT · 33 ACT' },
-      { label: 'Second', gpa: '4.140', detail: '1360 SAT · 32 ACT' },
-      { label: 'Third', gpa: '3.877', detail: '1290 SAT · 30 ACT' },
-      { label: 'Fourth', gpa: '3.513', detail: '1220 SAT · 27 ACT' },
-      { label: 'Fifth', gpa: '2.991', detail: '1110 SAT · 24 ACT' },
+      { label: 'First fifth', gpa: '4.516' },
+      { label: 'Second', gpa: '4.259' },
+      { label: 'Third', gpa: '3.961' },
+      { label: 'Fourth', gpa: '3.655' },
+      { label: 'Fifth', gpa: '3.012' },
     ],
     gpaNote:
-      'All five quintiles are the school’s own published figures — nothing is interpolated — and tying each fifth to a median SAT and ACT was new in the 2025–26 profile. Grades reflect work done at Country Day only, as of the end of junior year. Over ten years the distribution has stretched at both ends: the top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.',
+      'All five quintiles are the school’s own published figures — nothing is interpolated. Grades reflect work done at Country Day only, as of the end of junior year, for students with at least seven semesters at the school. The 2025–26 edition tied each fifth to a median SAT and ACT for the Class of 2025 (4.472/1470/33 down to 2.991/1110/24); the 2026–27 edition drops that pairing. Over ten years the distribution has stretched at both ends: the top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.',
     support: [
       {
         label: 'The Educational Resource Program',
@@ -800,13 +874,13 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Non-traditional destinations',
-        text: 'About fourteen dedicated arts and music institutions (Berklee enrolling, plus Manhattan School of Music, RISD, Pratt, SAIC, Parsons in New York and Paris, UNCSA); all three federal service academies with a Naval Academy appointment; and around eleven international universities including Toronto, St Andrews, Edinburgh and Durham.',
+        text: 'About eighteen dedicated arts and music institutions (Berklee enrolling, plus CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt, SAIC, Parsons in New York and Paris, UNCSA); all three federal service academies with a Naval Academy appointment; and around twenty-one international universities including Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh and Durham.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'The 2025–26 profile DROPPED the SAT and ACT middle-50% ranges that the 2024–25 edition published, replacing them with per-quintile medians. The number of testers has never been published in any year — a table showing medians without a sample size shows a shape without an N.',
+        text: 'The 2026–27 profile restores a whole-class SAT and ACT middle 50% but labels neither the class nor the number of testers, and drops the 2025–26 edition’s per-quintile medians. The number of testers has never been published in any year — a range without a sample size shows a shape without an N.',
       },
       {
         kind: 'gap',
@@ -814,33 +888,34 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'charlottecountryday.org — 2025–26 School Profile (quintile table with median SAT/ACT)', url: PROFILE_2526 },
-      { label: '2024–25 School Profile (the last published SAT/ACT ranges)', url: PROFILE_2425 },
+      { label: 'charlottecountryday.org — 2026–27 School Profile (Class of 2027 quintile table, SAT/ACT middle 50%)', url: PROFILE_2627 },
+      { label: '2025–26 School Profile (Class of 2025 per-quintile SAT/ACT medians)', url: PROFILE_2526 },
+      { label: '2024–25 School Profile (Class of 2024 section scores)', url: PROFILE_2425 },
       { label: 'Educational Resource Program', url: ERP },
     ],
   },
 
   verdict: {
     headline:
-      'A deep, stable office and an unusually candid profile — Country Day hands admissions readers more usable context than almost any peer, then declines to publish its own test scores.',
+      'A deep, stable office and an unusually candid profile — Country Day hands admissions readers more usable context than almost any peer — and the 2026–27 edition restores the whole-class SAT and ACT ranges it had dropped.',
     subhead:
       'The strengths are structural and durable; the gaps are disclosure choices, which is exactly what a tour can put pressure on.',
     points: [
       {
         label: 'The profile gives readers more context than peers',
-        text: 'a quintile table tying GPA bands to median SAT *and* median ACT, from 4.472/1470/33 down to 2.991/1110/24. No rank is ever assigned, yet a reader can place any candidate precisely — and the per-quintile test medians were a new investment in 2025–26.',
+        text: 'a quintile table of Class of 2027 median GPAs from 4.516 down to 3.012, with a 1170–1400 SAT and 26–31 ACT middle 50% printed beside it. No rank is ever assigned, yet a reader can place any candidate precisely — though the 2025–26 edition’s per-fifth test medians are gone.',
       },
       {
         label: 'AP performance is high, improving and candidly disclosed',
-        text: '530 exams at 93% scoring 3+ and 74% at 4–5, up from 89%/70% a year earlier — published discipline by discipline, including Fine Arts at 81%/36% rather than hiding it.',
+        text: '589 exams at 96% scoring 3+ and 87% at 4–5, up from 530 at 93%/74% a year earlier — published discipline by discipline, Fine Arts at 91%/61% rather than hidden.',
       },
       {
         label: 'The IB Diploma is a real structural differentiator',
-        text: 'first in North Carolina to offer it, ~20 full-diploma candidates a year from junior year, 88% five-year pass rate — a second legible path to maximum rigour for students who are not AP-shaped.',
+        text: 'first in North Carolina to offer it, 26 full-diploma seniors in the Class of 2027, 88% five-year pass rate — a second legible path to maximum rigour for students who are not AP-shaped.',
       },
       {
         label: 'The office is deep and stable through a director change',
-        text: 'five counselors, 100+ years of combined experience, 150+ reps a year through a structured Scoir Visits programme — and two counselors with a decade-plus in the office, so the July 2026 leadership change sits on institutional memory rather than a vacuum.',
+        text: 'five counselors, 100+ years of combined experience, 150+ reps a year through a structured Scoir Visits programme — and the July 2026 change has happened: Allison Slater Tate leads, with Catherine Odum, a decade-plus in the office, as Senior Associate, so the new leadership sits on institutional memory rather than a vacuum.',
       },
       {
         label: 'The timeline starts genuinely early',
@@ -848,13 +923,13 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The outcomes are honest across the whole distribution',
-        text: '70 destinations for 141 seniors, 55% public and 45% private, community colleges published alongside Princeton and MIT, 32 students to UNC–Chapel Hill, and a substantial HBCU pipeline with four institutions enrolling.',
+        text: '70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private, community colleges published alongside Princeton and MIT, 32 students to UNC–Chapel Hill, and a substantial HBCU pipeline with four institutions enrolling.',
       },
     ],
     checklist: [
-      'Your 2024–25 profile published SAT and ACT middle-50% ranges and the 2025–26 edition dropped them. Why — and what were the Class of 2025 and 2026 ranges, and how many students tested?',
+      'Your 2026–27 profile prints a 1170–1400 SAT and 26–31 ACT middle 50% beside the Class of 2027 GPA table — which class and how many testers does that cover, and why did the per-fifth medians go?',
       'The Class of 2025 had 2 National Merit Semifinalists where the classes either side had 7 and 6. What happened that year?',
-      'No Class of 2026 student enrolled at an Ivy, and Harvard is absent across seven published classes. How do you read that, and what does Ivy matriculation look like year over year?',
+      'Harvard appears on the 2023–2026 list for the first time in the final edition, and still no Class of 2026 student enrolled at an Ivy. How do you read that, and what does Ivy matriculation look like year over year?',
       'What exactly does the “34 Morehead-Cain recipients” figure cover — how many years? The Class of 2026 post names exactly one.',
       'How many learning specialists and academic coaches work with Upper School students, what are their credentials, and what is the caseload?',
       'How do you report Honor Council findings and disciplinary actions on the secondary school report?',
@@ -863,7 +938,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     flags: [],
     sources: [
       { label: 'charlottecountryday.org — College Counseling', url: COUNSELING },
-      { label: '2025–26 School Profile', url: PROFILE_2526 },
+      { label: '2026–27 School Profile', url: PROFILE_2627 },
       { label: 'Verdict synthesised by the researcher from the sources cited on the cards above', },
     ],
   },

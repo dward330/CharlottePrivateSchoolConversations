@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 528 ingested research documents.
+**13 schools × 12 research areas**, 529 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 2 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 18 | 18 | 2 | 17 | 18 | 2 | 3 | 20 | 2 |
-| College Support | `college-support` | 12 | 3 | 3 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -708,6 +708,14 @@ dropped deliberately, and a comment above `colleges` says so. Whichever lists th
 is drawn from, `collegesTotal` names their years, so a reader never takes it for the
 whole window.
 
+**Read bold markers from the source's formatting — `<strong>`/`<b>` in HTML, the bold
+font face in a PDF (`pdftohtml -xml`) — never from a text-layer or markdown
+transcription, and record the bold count in the source file.** A transcription loses
+or invents bold silently: Country Day's list carried a Yale marker the PDF's font runs
+never supported, and its planning table dropped Northeastern's bold that the final
+edition's font run keeps (fixed in `ccdprofile`, 2026-11-07). Assert the count of
+`enrolling: true` against the recorded bold count after every edit.
+
 **`counseling.roster[].email` is the school's own published address, never a
 guess.** It comes from the counseling page, a staff pop-up or the school directory
 (Finalsite renders it through `FS.util.insertEmail(el, "<domain reversed>",
@@ -1181,7 +1189,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `run-ms12` | Middle School through grade 12, at today’s rates | 10/13 | – Q C sub |
 | `run-912` | Grades 9–12, at today’s rates | 11/13 | – Q C sub |
 | `pct-aid` | % receiving aid | 7/13 | Q |
-| `aid-awarded` | Aid awarded / year | 3/13 | Q |
+| `aid-awarded` | Aid awarded / year | 4/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
 **Total:** 53 Compare rows across 9 research areas.

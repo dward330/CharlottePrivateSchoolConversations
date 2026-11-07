@@ -1285,8 +1285,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[2].label",
         "charlotte-latin:wholeClass.scoreTables[0].rows[2].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label",
-        "charlotte-country-day:wholeClass.scoreTables[0].rows[2].label"
+        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label"
       ]
     },
     {
@@ -1332,8 +1331,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[1].label",
         "charlotte-latin:wholeClass.scoreTables[0].rows[4].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label",
-        "charlotte-country-day:wholeClass.scoreTables[1].rows[1].label"
+        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label"
       ]
     },
     {
@@ -1342,8 +1340,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[2].label",
         "charlotte-latin:wholeClass.scoreTables[0].rows[5].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label",
-        "charlotte-country-day:wholeClass.scoreTables[1].rows[2].label"
+        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label"
       ]
     },
     {
@@ -5398,8 +5395,8 @@
       ]
     },
     {
-      "t": "530 examens AP en 2025, avec 93% obtenant 3+ et 74% obtenant 4 ou 5 — et l’école publie ces résultats discipline par discipline, points faibles compris.",
-      "of": "c507f1d9",
+      "t": "589 examens AP en 2026, avec 96% obtenant 3+ et 87% obtenant 4 ou 5 — un score moyen de 4.2 — et l’école publie ces résultats discipline par discipline.",
+      "of": "0d50c3a9",
       "at": [
         "charlotte-country-day:transcript.headline"
       ]
@@ -5412,43 +5409,45 @@
       ]
     },
     {
-      "t": "530",
-      "of": "bda0444b",
+      "t": "589",
+      "of": "34ac3893",
       "at": [
         "charlotte-country-day:transcript.stats[0].value"
       ]
     },
     {
-      "t": "examens AP passés en 2025 (238 élèves)",
-      "of": "3bbc28e8",
+      "t": "examens AP passés en mai 2026 (230 élèves)",
+      "of": "18d7062a",
       "at": [
         "charlotte-country-day:transcript.stats[0].label"
       ]
     },
     {
-      "t": "93%",
-      "of": "3ad222e0",
+      "t": "96%",
+      "of": "3ec55d39",
       "at": [
-        "charlotte-country-day:transcript.stats[1].value"
+        "charlotte-country-day:transcript.stats[1].value",
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
       ]
     },
     {
-      "t": "ont obtenu 3+ · 74% ont obtenu 4 ou 5",
-      "of": "234dcab7",
+      "t": "ont obtenu 3+ · 87% ont obtenu 4 ou 5 · moyenne de 4.2",
+      "of": "3d66b493",
       "at": [
         "charlotte-country-day:transcript.stats[1].label"
       ]
     },
     {
-      "t": "25 AP + IB",
-      "of": "ea98485b",
+      "t": "26 AP + IB",
+      "of": "8c89746a",
       "at": [
         "charlotte-country-day:transcript.stats[2].value"
       ]
     },
     {
-      "t": "cours AP plus un IB Diploma Programme complet",
-      "of": "2e6fde79",
+      "t": "cours AP (28 Honors) plus un IB Diploma Programme complet, 2026–27",
+      "of": "e28258f1",
       "at": [
         "charlotte-country-day:transcript.stats[2].label"
       ]
@@ -5468,50 +5467,57 @@
       ]
     },
     {
+      "t": "**4** demi-finalistes — finalistes et Commended pas encore annoncés",
+      "of": "77772b72",
+      "at": [
+        "charlotte-country-day:transcript.merit[0].detail"
+      ]
+    },
+    {
       "t": "**6** demi-finalistes · **5** finalistes · **13** Commended · 1 NMSC Special Scholarship (C.D. Spangler Foundation)",
       "of": "7196023f",
       "at": [
-        "charlotte-country-day:transcript.merit[0].detail"
+        "charlotte-country-day:transcript.merit[1].detail"
       ]
     },
     {
       "t": "**2** Semifinalists · **2** Finalists · **5** Commended — un creux frappant entre deux années normales",
       "of": "f4ad0986",
       "at": [
-        "charlotte-country-day:transcript.merit[1].detail"
+        "charlotte-country-day:transcript.merit[2].detail"
       ]
     },
     {
       "t": "**7** Semifinalists · **7** Finalists · **2** Commended · 1 Scholar, 1 College-Sponsored Scholar",
       "of": "6d029b2f",
       "at": [
-        "charlotte-country-day:transcript.merit[2].detail"
+        "charlotte-country-day:transcript.merit[3].detail"
       ]
     },
     {
       "t": "**11** demi-finalistes · **13** Commended",
       "of": "bbd95f6f",
       "at": [
-        "charlotte-country-day:transcript.merit[3].detail"
+        "charlotte-country-day:transcript.merit[4].detail"
       ]
     },
     {
       "t": "**9** Semifinalists · **8** Commended — 17 au 97e percentile ou au-dessus",
       "of": "3f847543",
       "at": [
-        "charlotte-country-day:transcript.merit[4].detail"
+        "charlotte-country-day:transcript.merit[5].detail"
       ]
     },
     {
       "t": "**7** demi-finalistes · **8** Commended",
       "of": "2069988c",
       "at": [
-        "charlotte-country-day:transcript.merit[5].detail"
+        "charlotte-country-day:transcript.merit[6].detail"
       ]
     },
     {
-      "t": "La ligne de la promotion 2025 est un chiffre publié par l’école elle-même, mais elle se situe trois fois en dessous des promotions qui l’encadrent : elle est donc signalée plutôt que lissée. À noter également que les annonces de Semifinalist tombent à l’automne de la dernière année, ce qui explique qu’une publication de septembre 2025 décrive la promotion 2026. Les décomptes du College Board National Recognition Program ne sont publiés pour aucune année.",
-      "of": "6c76175f",
+      "t": "La ligne de la promotion 2025 est un chiffre publié par l’école elle-même, mais elle se situe trois fois en dessous des promotions qui l’encadrent : elle est donc signalée plutôt que lissée. À noter également que les Semifinalists sont désignés chaque automne de la dernière année, ce qui explique que le profil 2026–27 présente déjà la promotion 2027. Les décomptes du College Board National Recognition Program ne sont publiés pour aucune année.",
+      "of": "76350bd0",
       "at": [
         "charlotte-country-day:transcript.meritNote"
       ]
@@ -5531,15 +5537,15 @@
       ]
     },
     {
-      "t": "**Organic Chemistry** et **Physical Computational Biochemistry** sont proposés comme options semestrielles post-AP, le premier explicitement destiné aux élèves ayant terminé AP ou IB Chemistry.",
-      "of": "fa43646c",
+      "t": "**Organic Chemistry** et **Physical Computational Biochemistry** sont proposés comme options semestrielles post-AP, le premier explicitement destiné aux élèves ayant terminé AP ou IB Chemistry. **AP Physics 1** a remplacé Honors Physics en 2026–27 et constitue désormais le prérequis d’AP Physics C.",
+      "of": "86b8d956",
       "at": [
         "charlotte-country-day:transcript.depth[1].text"
       ]
     },
     {
-      "t": "Le plafond est AP Computer Science A — **aucun cours d’informatique post-AP n’est répertorié**, une véritable lacune au regard de la profondeur des mathématiques et des sciences à côté.",
-      "of": "a3450a4d",
+      "t": "Le plafond est AP Computer Science A ; **AP Computer Science Principles** arrive en 2026–27 comme porte d’entrée en 10th grade, et il n’existe toujours **aucun cours d’informatique post-AP**, une véritable lacune au regard de la profondeur des mathématiques et des sciences à côté.",
+      "of": "cc25aa0f",
       "at": [
         "charlotte-country-day:transcript.depth[2].text"
       ]
@@ -5566,15 +5572,15 @@
       ]
     },
     {
-      "t": "**+0.5 pour Honors, +1.0 pour AP/IB** sur une base de 4.0 — stable dans toutes les éditions du profil examinées. Il n’existe pas de table de points de qualité distincte.",
-      "of": "6dd2124b",
+      "t": "**+0.5 pour Honors, +1.0 pour AP/IB** sur une base de 4.0 — stable dans toutes les éditions du profil examinées, et l’édition 2026–27 étend le +1.0 aux cours post-AP Organic Chemistry et Calculus III. Il n’existe pas de table de points de qualité distincte.",
+      "of": "71dbfbec",
       "at": [
         "charlotte-country-day:transcript.trust[0].text"
       ]
     },
     {
-      "t": "Country Day publie un tableau de quintiles sans interruption depuis au moins 2015–16, et l’édition 2025–26 y ajoute **le SAT médian et l’ACT médian pour chaque cinquième** — davantage de contexte que n’en donnent la plupart des écoles sans classement.",
-      "of": "470836cb",
+      "t": "Country Day publie un tableau de quintiles sans interruption depuis au moins 2015–16. L’édition 2025–26 reliait chaque cinquième à un SAT et un ACT médians ; l’édition 2026–27 revient aux **seules médianes de GPA** et imprime à côté une **fourchette médiane à 50% du SAT/ACT pour toute la promotion**.",
+      "of": "7c16c0e9",
       "at": [
         "charlotte-country-day:transcript.trust[1].text"
       ]
@@ -5587,43 +5593,64 @@
       ]
     },
     {
-      "t": "Aucune grille chiffrée, mais un tableau **« Most Rigorous Courses by Discipline »** nommant le cours plafond dans chaque matière, ainsi que des tranches de charge AP (0–2 / 3–5 / 6+) qui permettent au lecteur de situer un candidat par rapport à ses camarades.",
-      "of": "1f352692",
+      "t": "Aucune grille chiffrée, mais un tableau **« Notably Rigorous Courses by Discipline »** nommant le cours plafond dans chaque matière, ainsi que des tranches de charge AP — 0–2 / 3–5 / 6–8 / 9+ (promotion 2027 : 22 / 22 / 39 / 14 des 97 élèves de dernière année hors IB comptant sept semestres ou plus) — qui permettent au lecteur de situer un candidat par rapport à ses camarades.",
+      "of": "c18b3c02",
       "at": [
         "charlotte-country-day:transcript.trust[2].text"
       ]
     },
     {
-      "t": "Aucune politique d’examen AP obligatoire n’est publiée : les 93% reposent donc sur un dénominateur non précisé. La page du programme indique que l’examen « is the driver for the curriculum », ce qui suppose une forte attente mais ne constitue pas une obligation déclarée. Les décomptes d’AP Scholar ne sont plus publiés depuis 2021.",
-      "of": "9d93bfc4",
+      "t": "Standard signifie préparation à l’université",
+      "of": "9101fa11",
+      "at": [
+        "charlotte-country-day:transcript.trust[3].label"
+      ]
+    },
+    {
+      "t": "Tout cours qui n’est ni Honors, ni AP, ni IB est intitulé **« Regular/Standard »** sur les relevés de notes et les formulaires STARS, et le profil qualifie chaque cours de préparatoire à l’université par sa rigueur. L’AP est fermé aux élèves de 9th grade, et ceux de 10th grade ne suivent généralement qu’AP Human Geography et AP Computer Science Principles.",
+      "of": "c19b1f67",
+      "at": [
+        "charlotte-country-day:transcript.trust[3].text"
+      ]
+    },
+    {
+      "t": "Aucune politique d’examen AP obligatoire n’est publiée : les 96% reposent donc sur un dénominateur non précisé. La page du programme indique que l’examen « is the driver for the curriculum », ce qui suppose une forte attente mais ne constitue pas une obligation déclarée. Les décomptes d’AP Scholar ne sont plus publiés depuis 2021.",
+      "of": "9820dec9",
       "at": [
         "charlotte-country-day:transcript.flags[0].text"
       ]
     },
     {
-      "t": "Cinq conseillers à temps plein pour 548 élèves de l’Upper School — environ 28 élèves de dernière année chacun — totalisant à eux tous plus de 100 ans d’expérience cumulée en admissions.",
-      "of": "407b5200",
+      "t": "Les 26 AP sont le décompte du profil lui-même : son tableau des cours exigeants imprime 25 intitulés AP, AP US et Comparative Government figurant sur une même ligne. Le catalogue Course Offerings (2025–26, le dernier en ligne) en compte 23 ; aucun catalogue 2026–27 n’était en ligne au 2026-11-07.",
+      "of": "354751ff",
+      "at": [
+        "charlotte-country-day:transcript.flags[1].text"
+      ]
+    },
+    {
+      "t": "Cinq conseillers à temps plein pour 536 élèves de l’Upper School — environ 27 élèves de dernière année chacun — totalisant à eux tous plus de 100 ans d’expérience cumulée en admissions.",
+      "of": "15a37a36",
       "at": [
         "charlotte-country-day:counseling.headline"
       ]
     },
     {
-      "t": "Un changement de direction intervient en juillet 2026, mais il s’appuie sur une décennie de mémoire institutionnelle : deux des cinq sont dans ce service depuis au moins 2015–16.",
-      "of": "97e1e53c",
+      "t": "Le changement de direction est intervenu en juillet 2026, et le profil 2026–27 est la première édition à présenter le nouveau service — mais il s’appuie sur une décennie de mémoire institutionnelle : deux des cinq sont dans ce service depuis au moins 2015–16.",
+      "of": "4ab28149",
       "at": [
         "charlotte-country-day:counseling.subhead"
       ]
     },
     {
-      "t": "~1:28",
-      "of": "31dd4014",
+      "t": "~1:27",
+      "of": "28dd31e9",
       "at": [
         "charlotte-country-day:counseling.stats[0].value"
       ]
     },
     {
-      "t": "conseillers par rapport aux élèves de dernière année (calculé — l’école ne publie aucun ratio)",
-      "of": "ba2bc270",
+      "t": "conseillers par rapport aux élèves de dernière année (calculé — 137 ÷ 5 ; l’école ne publie aucun ratio)",
+      "of": "92970cca",
       "at": [
         "charlotte-country-day:counseling.stats[0].label"
       ]
@@ -5657,8 +5684,8 @@
       ]
     },
     {
-      "t": "Nommée à l’issue d’une recherche nationale, en poste au 1er juillet 2026. Auteure et conférencière d’audience nationale sur les admissions.",
-      "of": "ca0b9c2e",
+      "t": "Directrice depuis juillet 2026, à l’issue d’une recherche nationale. Auteure et conférencière d’audience nationale sur les admissions.",
+      "of": "1a129422",
       "at": [
         "charlotte-country-day:counseling.roster[0].detail"
       ]
@@ -5692,8 +5719,8 @@
       ]
     },
     {
-      "t": "Arrivée entre les profils 2024–25 et 2025–26. Plus la registrar Donna Witman.",
-      "of": "7002efc7",
+      "t": "Arrivée entre les profils 2024–25 et 2025–26. Plus la registrar Kim Dickson (Donna Witman en 2025–26).",
+      "of": "34aa26ff",
       "at": [
         "charlotte-country-day:counseling.roster[4].detail"
       ]
@@ -5853,8 +5880,8 @@
       ]
     },
     {
-      "t": "Les deux ratios sont dérivés (548 ÷ 5 et 141 ÷ 5) ; l’école ne publie aucun ratio. La charge réelle correspond probablement aux élèves d’avant-dernière et de dernière année, soit plutôt 1:56. Aucune biographie, ancienneté, diplôme ou employeur antérieur des conseillers n’est publié — la page de l’équipe ne donne que les noms, les titres et les coordonnées.",
-      "of": "59b3a0d2",
+      "t": "Les deux ratios sont dérivés (536 ÷ 5 et 137 ÷ 5, d’après le profil 2026–27) ; l’école ne publie aucun ratio. La charge réelle correspond probablement aux élèves d’avant-dernière et de dernière année, soit plutôt 1:54. L’introduction de la page d’orientation parle de « four full-time college counselors », alors que cette même page et le profil en listent cinq. Aucune biographie, ancienneté, diplôme ou employeur antérieur des conseillers n’est publié — la page de l’équipe ne donne que les noms, les titres et les coordonnées.",
+      "of": "6f96425c",
       "at": [
         "charlotte-country-day:counseling.flags[0].text"
       ]
@@ -5867,15 +5894,15 @@
       ]
     },
     {
-      "t": "La promotion 2026 — 141 élèves de dernière année — s’est inscrite dans 70 établissements répartis sur 23 États, DC et le Canada, dont 32 élèves à UNC–Chapel Hill à elle seule.",
-      "of": "4bc4e548",
+      "t": "La promotion 2026 — 141 élèves de dernière année — s’est inscrite dans 70 établissements répartis sur 24 États, DC et le Canada, dont 32 élèves à UNC–Chapel Hill à elle seule.",
+      "of": "67e3cb81",
       "at": [
         "charlotte-country-day:outcomes.headline"
       ]
     },
     {
-      "t": "La liste publiée est une liste d’admissions cumulée sur quatre ans portant sur ~320 établissements ; seuls les noms en gras correspondent à un lieu où un élève de la promotion 2026 s’est effectivement inscrit.",
-      "of": "782beb9e",
+      "t": "La liste publiée est une liste d’admissions cumulée sur quatre ans portant sur 363 établissements, avec Harvard, Caltech, Johns Hopkins et Northwestern parmi les ajouts de l’édition finale ; seuls les noms en gras correspondent à un lieu où un élève de la promotion 2026 s’est effectivement inscrit.",
+      "of": "084fde63",
       "at": [
         "charlotte-country-day:outcomes.subhead"
       ]
@@ -5938,15 +5965,15 @@
       ]
     },
     {
-      "t": "— Harvard absente, sur la liste 2023–2026",
-      "of": "9638152a",
+      "t": "— Harvard figure pour la première fois sur la liste finale 2023–2026 ; aucun inscrit de la promotion 2026",
+      "of": "2dec7c32",
       "at": [
         "charlotte-country-day:outcomes.buckets[0].note"
       ]
     },
     {
-      "t": "— Stanford et Duke accueillant des inscrits",
-      "of": "a120bb10",
+      "t": "— les 17 ; Stanford et Duke accueillant des inscrits",
+      "of": "05300fb2",
       "at": [
         "charlotte-country-day:outcomes.buckets[1].note"
       ]
@@ -5959,8 +5986,8 @@
       ]
     },
     {
-      "t": "320 établissements · gras = accueille un élève de la promotion 2026",
-      "of": "9642ae33",
+      "t": "363 établissements · gras = accueille un élève de la promotion 2026",
+      "of": "4f170e16",
       "at": [
         "charlotte-country-day:outcomes.collegesTotal"
       ]
@@ -6008,6 +6035,20 @@
       ]
     },
     {
+      "t": "Gras relevé dans les séquences de police des deux éditions 2023–2026 : l’édition de mai (5/28/2026) et l’édition finale comptent chacune 69 noms en gras. Lafayette a perdu le gras dans l’édition finale ; Central Piedmont et Wesleyan l’ont gagné ; Northeastern est en gras dans les deux. L’ancien marquage de Yale était une erreur de transcription — Yale n’est en gras dans aucune édition. Le chiffre de « 70 institutions » d’inscription avancé par l’école dépasse d’un les 69 noms en gras de l’une ou l’autre édition.",
+      "of": "fdcf083b",
+      "at": [
+        "charlotte-country-day:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "États : le profil 2026–27 indique que la promotion 2026 est répartie sur 24 États, DC et le Canada ; la page de la promotion 2026 (mai 2026) en indique 23. Le profil est le document le plus récent et c’est lui qui est retenu.",
+      "of": "d8671f71",
+      "at": [
+        "charlotte-country-day:outcomes.flags[1].text"
+      ]
+    },
+    {
       "t": "Le IB Diploma est l’élément différenciant structurel — une seconde voie vers la rigueur maximale — et le Senior Externship transforme plus de 175 employeurs locaux en un réseau que seule cette école possède.",
       "of": "6f760e28",
       "at": [
@@ -6022,8 +6063,8 @@
       ]
     },
     {
-      "t": "**IB Diploma Programme** — Country Day a été la **première école de North Carolina** à le proposer. Environ 20 élèves par an suivent le diplôme complet à partir de l’avant-dernière année, avec un taux de réussite de 88% sur cinq ans. Pour un élève dont les forces ne correspondent pas au moule AP, c’est une seconde voie lisible vers la rigueur maximale, et elle comporte par construction un Extended Essay.",
-      "of": "bb74f740",
+      "t": "**IB Diploma Programme** — Country Day a été la **première école de North Carolina** à le proposer. **26 élèves de dernière année de la promotion 2027** suivent le diplôme complet à partir de l’avant-dernière année, avec un taux de réussite de 88% sur cinq ans. Pour un élève dont les forces ne correspondent pas au moule AP, c’est une seconde voie lisible vers la rigueur maximale, et elle comporte par construction un Extended Essay.",
+      "of": "ba43a742",
       "at": [
         "charlotte-country-day:edge.levers[0].items[0]"
       ]
@@ -6064,15 +6105,15 @@
       ]
     },
     {
-      "t": "**Le School Profile comme instrument** — et l’édition 2025–26 est nettement plus solide que la précédente. Elle relie les quintiles de GPA à la médiane SAT *et* à la médiane ACT, nomme le cours plafond dans chaque discipline, publie des tranches de charge AP, énonce la formule de pondération et divulgue les résultats AP par discipline, y compris les points faibles (Fine Arts à 81%/36%). Cette franchise constitue en elle-même un signal de crédibilité.",
-      "of": "1b4e02a8",
+      "t": "**Le School Profile comme instrument** — l’édition 2026–27 nomme le cours plafond dans chaque discipline, énonce la formule de pondération et divulgue les résultats AP par discipline, y compris le bas de l’échelle (Fine Arts à 91%/61%). Ses tranches de charge AP sont passées à quatre, et elle a abandonné les médianes de tests par cinquième de l’édition 2025–26, mais rétabli une fourchette médiane à 50% du SAT/ACT pour toute la promotion. Cette franchise constitue en elle-même un signal de crédibilité.",
+      "of": "84e0ec9e",
       "at": [
         "charlotte-country-day:edge.levers[1].items[0]"
       ]
     },
     {
-      "t": "**Signaux d’intégrité** — un Honor Code signé chaque année avec un Honor Council géré par les élèves, ainsi que l’adhésion à l’ACCIS, à la NACAC et à la SACAC. Les marqueurs de crédibilité du corps enseignant comptent également ici : l’Upper School compte des **AP exam readers**, des correcteurs du National Board et des Klingenstein Fellows, 82% étant titulaires de diplômes de troisième cycle.",
-      "of": "a80574e8",
+      "t": "**Signaux d’intégrité** — un Honor Code signé chaque année avec un Honor Council géré par les élèves, ainsi que l’adhésion à l’ACCIS, à la NACAC et à la SACAC. Les marqueurs de crédibilité du corps enseignant comptent également ici : les **83 membres du personnel enseignant et administratif** de l’Upper School comptent des **AP exam readers**, des correcteurs du National Board et des Klingenstein Fellows ; 82% sont titulaires de diplômes de troisième cycle et 100% suivent chaque année une formation professionnelle.",
+      "of": "519c3223",
       "at": [
         "charlotte-country-day:edge.levers[1].items[1]"
       ]
@@ -6085,8 +6126,8 @@
       ]
     },
     {
-      "t": "**Une filière HBCU substantielle** — North Carolina A&T, Howard, Hampton et Clark Atlanta accueillent toutes des inscrits de la promotion 2026, avec une February One Scholarship et un Ron Brown Scholar parmi les distinctions récentes.",
-      "of": "29bf905b",
+      "t": "**Une filière HBCU substantielle** — North Carolina A&T, Howard, Hampton et Clark Atlanta accueillent toutes des inscrits de la promotion 2026 (19 HBCU sur la liste, dont Claflin, nouvelle venue), avec une February One Scholarship et un Ron Brown Scholar parmi les distinctions récentes.",
+      "of": "816dedb4",
       "at": [
         "charlotte-country-day:edge.levers[1].items[3]"
       ]
@@ -6099,99 +6140,51 @@
       ]
     },
     {
-      "t": "Le tableau des quintiles est la réponse honnête pour le milieu de la promotion — le quatrième cinquième se situe à un GPA de 3.513 avec un SAT de 1220, le cinquième à 2.991 et 1110.",
-      "of": "94f6b52d",
+      "t": "Le tableau des quintiles est la réponse honnête pour le milieu de la promotion — le quatrième cinquième se situe à un GPA médian de 3.655, le cinquième à 3.012 — et la fourchette médiane à 50% de toute la promotion est un SAT de 1170–1400.",
+      "of": "839b959a",
       "at": [
         "charlotte-country-day:wholeClass.headline"
       ]
     },
     {
-      "t": "Country Day publie ce que la plupart des écoles dissimulent, et sa liste d’admissions reflète cet éventail : Princeton et MIT à une extrémité, les community colleges Cape Fear et Central Piedmont à l’autre.",
-      "of": "887e438a",
+      "t": "Country Day publie ce que la plupart des écoles dissimulent, et sa liste d’admissions reflète cet éventail : Harvard, Princeton et MIT à une extrémité, les community colleges Cape Fear et Central Piedmont à l’autre.",
+      "of": "b9d5eb24",
       "at": [
         "charlotte-country-day:wholeClass.subhead"
       ]
     },
     {
-      "t": "— promotion 2024 · les chiffres SAT les plus récents publiés par l’école",
-      "of": "931a0a8c",
+      "t": "— promotion 2027 · fourchette médiane à 50% imprimée dans le profil 2026–27 à côté du tableau de GPA de la promotion 2027",
+      "of": "e7ab32ad",
       "at": [
-        "charlotte-country-day:wholeClass.scoreTables[0].hint"
+        "charlotte-country-day:wholeClass.scoreTables[0].hint",
+        "charlotte-country-day:wholeClass.scoreTables[1].hint"
       ]
     },
     {
-      "t": "SAT EBRW",
-      "of": "c13eb4c1",
-      "at": [
-        "charlotte-country-day:wholeClass.scoreTables[0].rows[1].label"
-      ]
-    },
-    {
-      "t": "Les bornes de la fourchette médiane à 50% SONT bien les 25e et 75e centiles, ces colonnes sont donc réelles ; les 10e, 50e et 90e sont affichés comme « — » parce que l’école ne les a jamais publiés, pas plus qu’elle n’a jamais publié de moyenne ou le nombre de candidats testés.",
-      "of": "0973720b",
+      "t": "Les bornes de la fourchette médiane à 50% sont les 25e et 75e centiles ; les 10e, 50e et 90e sont affichés comme « — » parce que l’école ne les a jamais publiés, pas plus qu’une moyenne. Les scores par section ont été publiés pour la dernière fois pour la promotion 2024 (EBRW 585–700, Math 590–690) ; le nombre de candidats testés, jamais. L’édition 2025–26 avait remplacé la fourchette de toute la promotion par des médianes par cinquième ; l’édition 2026–27 la rétablit sans nommer la promotion.",
+      "of": "8ad28a2c",
       "at": [
         "charlotte-country-day:wholeClass.scoreTables[0].note"
       ]
     },
     {
-      "t": "— promotion 2024 · les chiffres ACT les plus récents publiés par l’école",
-      "of": "e0fdb644",
-      "at": [
-        "charlotte-country-day:wholeClass.scoreTables[1].hint"
-      ]
-    },
-    {
-      "t": "Pour situer sur la durée, la fourchette médiane à 50% du score composite de la promotion 2015 était de 26–31 contre 24–31 ici : le plancher a baissé de deux points tandis que le plafond s’est maintenu. Plausiblement un effet de composition lié au test facultatif, mais l’école n’en donne aucune explication.",
-      "of": "a52cef77",
+      "t": "English 23–32 et Math 22–29 ont été publiés pour la dernière fois pour la promotion 2024, dont le composite était de 24–31 ; celui de la promotion 2015 était de 26–31, si bien que le plancher est revenu à son niveau d’il y a dix ans.",
+      "of": "a6e03226",
       "at": [
         "charlotte-country-day:wholeClass.scoreTables[1].note"
       ]
     },
     {
-      "t": "— le mécanisme sans classement · GPA pondéré médian de la promotion 2025, avec les médianes SAT et ACT",
-      "of": "14dbbf54",
+      "t": "— le mécanisme sans classement · GPA pondéré médian de la promotion 2027 (120 des 137 élèves de dernière année comptant sept semestres ou plus à l’école)",
+      "of": "21068c93",
       "at": [
         "charlotte-country-day:wholeClass.gpaHint"
       ]
     },
     {
-      "t": "1470 SAT · 33 ACT",
-      "of": "48b7497c",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[0].detail"
-      ]
-    },
-    {
-      "t": "1360 SAT · 32 ACT",
-      "of": "f71b4ebb",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[1].detail"
-      ]
-    },
-    {
-      "t": "1290 SAT · 30 ACT",
-      "of": "783b0ecd",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[2].detail"
-      ]
-    },
-    {
-      "t": "1220 SAT · 27 ACT",
-      "of": "3b894638",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[3].detail"
-      ]
-    },
-    {
-      "t": "1110 SAT · 24 ACT",
-      "of": "da630297",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[4].detail"
-      ]
-    },
-    {
-      "t": "Les cinq quintiles sont les chiffres publiés par l’école elle-même — rien n’est interpolé — et le fait de relier chaque cinquième à une médiane SAT et ACT était une nouveauté du profil 2025–26. Les notes ne reflètent que le travail effectué à Country Day, à la fin de l’avant-dernière année. Sur dix ans, la distribution s’est étirée aux deux extrémités : la moyenne du quintile supérieur est passée de 4.198 à 4.540 tandis que le plancher du quintile inférieur est tombé de 2.546 à 2.076.",
-      "of": "4ebdb623",
+      "t": "Les cinq quintiles sont les chiffres publiés par l’école elle-même — rien n’est interpolé. Les notes ne reflètent que le travail effectué à Country Day, à la fin de l’avant-dernière année, pour les élèves comptant au moins sept semestres à l’école. L’édition 2025–26 reliait chaque cinquième à un SAT et un ACT médians pour la promotion 2025 (de 4.472/1470/33 jusqu’à 2.991/1110/24) ; l’édition 2026–27 abandonne cette association. Sur dix ans, la distribution s’est étirée aux deux extrémités : la moyenne du quintile supérieur est passée de 4.198 à 4.540 tandis que le plancher du quintile inférieur est tombé de 2.546 à 2.076.",
+      "of": "9cf154b9",
       "at": [
         "charlotte-country-day:wholeClass.gpaNote"
       ]
@@ -6261,15 +6254,15 @@
       ]
     },
     {
-      "t": "Environ quatorze établissements spécialisés en arts et en musique (Berklee avec un inscrit, plus Manhattan School of Music, RISD, Pratt, SAIC, Parsons à New York et à Paris, UNCSA) ; les trois académies militaires fédérales avec une nomination à la Naval Academy ; et une onzaine d’universités internationales dont Toronto, St Andrews, Edinburgh et Durham.",
-      "of": "ca4923db",
+      "t": "Environ dix-huit établissements spécialisés en arts et en musique (Berklee avec un inscrit, plus CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt, SAIC, Parsons à New York et à Paris, UNCSA) ; les trois académies militaires fédérales avec une nomination à la Naval Academy ; et environ vingt et une universités internationales dont Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh et Durham.",
+      "of": "3aa77d93",
       "at": [
         "charlotte-country-day:wholeClass.middle[2].text"
       ]
     },
     {
-      "t": "Le profil 2025–26 A SUPPRIMÉ les fourchettes médianes à 50% du SAT et de l’ACT que publiait l’édition 2024–25, en les remplaçant par des médianes par quintile. Le nombre de candidats testés n’a jamais été publié, quelle que soit l’année — un tableau présentant des médianes sans taille d’échantillon montre une forme sans son N.",
-      "of": "991cc7cf",
+      "t": "Le profil 2026–27 rétablit une fourchette médiane à 50% du SAT et de l’ACT pour toute la promotion, mais n’indique ni la promotion ni le nombre de candidats testés, et abandonne les médianes par quintile de l’édition 2025–26. Le nombre de candidats testés n’a jamais été publié, quelle que soit l’année — une fourchette sans taille d’échantillon montre une forme sans son N.",
+      "of": "69ce23ab",
       "at": [
         "charlotte-country-day:wholeClass.flags[0].text"
       ]
@@ -6282,8 +6275,8 @@
       ]
     },
     {
-      "t": "Un service étoffé et stable et un profil d’une franchise inhabituelle — Country Day fournit aux lecteurs des dossiers d’admission plus de contexte exploitable que presque toutes les écoles comparables, puis refuse de publier ses propres résultats aux tests.",
-      "of": "1629899b",
+      "t": "Un service étoffé et stable et un profil d’une franchise inhabituelle — Country Day fournit aux lecteurs des dossiers d’admission plus de contexte exploitable que presque toutes les écoles comparables — et l’édition 2026–27 rétablit les fourchettes SAT et ACT de toute la promotion qu’elle avait supprimées.",
+      "of": "9234ccf5",
       "at": [
         "charlotte-country-day:verdict.headline"
       ]
@@ -6303,8 +6296,8 @@
       ]
     },
     {
-      "t": "un tableau de quintiles reliant les tranches de GPA à la médiane SAT *et* à la médiane ACT, de 4.472/1470/33 jusqu’à 2.991/1110/24. Aucun classement n’est jamais attribué, et pourtant un lecteur peut situer précisément n’importe quel candidat — et les médianes de tests par quintile constituaient un nouvel investissement en 2025–26.",
-      "of": "c8488453",
+      "t": "un tableau de quintiles des GPA médians de la promotion 2027, de 4.516 jusqu’à 3.012, avec à côté une fourchette médiane à 50% de 1170–1400 au SAT et de 26–31 à l’ACT. Aucun classement n’est jamais attribué, et pourtant un lecteur peut situer précisément n’importe quel candidat — même si les médianes de tests par cinquième de l’édition 2025–26 ont disparu.",
+      "of": "c5b26f22",
       "at": [
         "charlotte-country-day:verdict.points[0].text"
       ]
@@ -6317,8 +6310,8 @@
       ]
     },
     {
-      "t": "530 examens avec 93% de scores de 3+ et 74% à 4–5, contre 89%/70% un an plus tôt — publiés discipline par discipline, y compris Fine Arts à 81%/36% au lieu de le dissimuler.",
-      "of": "51e58d13",
+      "t": "589 examens avec 96% de scores de 3+ et 87% à 4–5, contre 530 à 93%/74% un an plus tôt — publiés discipline par discipline, Fine Arts à 91%/61% au lieu d’être dissimulé.",
+      "of": "58e27712",
       "at": [
         "charlotte-country-day:verdict.points[1].text"
       ]
@@ -6331,8 +6324,8 @@
       ]
     },
     {
-      "t": "première école de North Carolina à le proposer, ~20 candidats au diplôme complet par an à partir de l’avant-dernière année, 88% de taux de réussite sur cinq ans — une seconde voie lisible vers la rigueur maximale pour les élèves qui ne correspondent pas au moule AP.",
-      "of": "988039ca",
+      "t": "première école de North Carolina à le proposer, 26 élèves de dernière année au diplôme complet dans la promotion 2027, 88% de taux de réussite sur cinq ans — une seconde voie lisible vers la rigueur maximale pour les élèves qui ne correspondent pas au moule AP.",
+      "of": "dd6caf3d",
       "at": [
         "charlotte-country-day:verdict.points[2].text"
       ]
@@ -6345,8 +6338,8 @@
       ]
     },
     {
-      "t": "cinq conseillers, plus de 100 ans d’expérience cumulée, plus de 150 représentants d’universités par an dans le cadre d’un programme structuré Scoir Visits — et deux conseillers présents depuis plus de dix ans dans le service, si bien que le changement de direction de juillet 2026 s’appuie sur une mémoire institutionnelle plutôt que sur un vide.",
-      "of": "7a9f0b9b",
+      "t": "cinq conseillers, plus de 100 ans d’expérience cumulée, plus de 150 représentants d’universités par an dans le cadre d’un programme structuré Scoir Visits — et le changement de juillet 2026 a eu lieu : Allison Slater Tate dirige, avec Catherine Odum, présente depuis plus de dix ans dans le service, comme Senior Associate, si bien que la nouvelle direction s’appuie sur une mémoire institutionnelle plutôt que sur un vide.",
+      "of": "86ec9e8a",
       "at": [
         "charlotte-country-day:verdict.points[3].text"
       ]
@@ -6373,15 +6366,15 @@
       ]
     },
     {
-      "t": "70 destinations pour 141 élèves de dernière année, 55% dans le public et 45% dans le privé, des community colleges publiés aux côtés de Princeton et de MIT, 32 élèves à UNC–Chapel Hill, et une filière HBCU substantielle avec quatre établissements accueillant des inscrits.",
-      "of": "e3fce71f",
+      "t": "70 destinations pour 141 élèves de dernière année dans 24 États, DC et le Canada, 55% dans le public et 45% dans le privé, des community colleges publiés aux côtés de Princeton et de MIT, 32 élèves à UNC–Chapel Hill, et une filière HBCU substantielle avec quatre établissements accueillant des inscrits.",
+      "of": "6bfcb858",
       "at": [
         "charlotte-country-day:verdict.points[5].text"
       ]
     },
     {
-      "t": "Votre profil 2024–25 publiait les fourchettes médianes à 50% du SAT et de l’ACT, et l’édition 2025–26 les a supprimées. Pourquoi — et quelles étaient les fourchettes des promotions 2025 et 2026, et combien d’élèves ont passé les tests ?",
-      "of": "e9174a66",
+      "t": "Votre profil 2026–27 imprime une fourchette médiane à 50% de 1170–1400 au SAT et de 26–31 à l’ACT à côté du tableau de GPA de la promotion 2027 — quelle promotion et combien de candidats testés couvre-t-elle, et pourquoi les médianes par cinquième ont-elles disparu ?",
+      "of": "f5ee0f6d",
       "at": [
         "charlotte-country-day:verdict.checklist[0]"
       ]
@@ -6394,8 +6387,8 @@
       ]
     },
     {
-      "t": "Aucun élève de la promotion 2026 ne s’est inscrit dans une Ivy, et Harvard est absente sur sept promotions publiées. Comment l’interprétez-vous, et à quoi ressemblent les inscriptions dans les Ivies d’une année sur l’autre ?",
-      "of": "41876ce1",
+      "t": "Harvard figure sur la liste 2023–2026 pour la première fois dans l’édition finale, et pourtant aucun élève de la promotion 2026 ne s’est inscrit dans une Ivy. Comment l’interprétez-vous, et à quoi ressemblent les inscriptions dans les Ivies d’une année sur l’autre ?",
+      "of": "fff8c403",
       "at": [
         "charlotte-country-day:verdict.checklist[2]"
       ]
@@ -7432,14 +7425,6 @@
       "of": "904c11c3",
       "at": [
         "covenant-day:transcript.subhead"
-      ]
-    },
-    {
-      "t": "96%",
-      "of": "3ec55d39",
-      "at": [
-        "covenant-day:transcript.stats[0].value",
-        "covenant-day:transcript.merit[3].detail"
       ]
     },
     {

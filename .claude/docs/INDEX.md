@@ -37,7 +37,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Carmel Christian School](college-support/carmel-christian.md) — 3 docs
 - [Charlotte Catholic High School](college-support/charlotte-catholic.md) — 3 docs
 - [Charlotte Christian School](college-support/charlotte-christian.md) — 13 docs
-- [Charlotte Country Day School](college-support/charlotte-country-day.md) — 10 docs
+- [Charlotte Country Day School](college-support/charlotte-country-day.md) — 11 docs
 - [Charlotte Latin School](college-support/charlotte-latin.md) — 13 docs
 - [Covenant Day School](college-support/covenant-day.md) — 9 docs
 - [Davidson Day School](college-support/davidson-day.md) — 12 docs
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 528 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 529 documents across 12 topics and 13 schools.
