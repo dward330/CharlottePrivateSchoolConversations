@@ -1,7 +1,7 @@
 ---
 name: comparerows
 title: Compare page — tuition by division and cumulative runs, continents reached, and "offered" matrices for The Arts, Course Offerings, Student Clubs and Summer Programs
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/comparerows
@@ -909,3 +909,27 @@ from the plan as written, each deliberate:
   faith camps at secular schools, Charlotte Catholic's four-sport summer slate, and club
   categories a school's roster and site never name. Davidson Day's music page returned
   404 to a direct fetch but is indexed; its source file says so.
+- **Phase 2 (2026-11-07).** `i18n_splice_work.mjs --topic metric-values` kept 770, added
+  126 and dropped 0 per locale (the `top-tuition` entries were already dropped in Phase 1).
+  The 126 are 75 prose units (six tuition rows' labels, notes, subs and quals; the
+  continents row's label, note and six quals) and 51 figure-only `values` cells, stored
+  verbatim. The splice also refreshed every shifted `[N]` path by stamp.
+  - **Chrome:** the 112 `compare.matrix|arts|courses|clubs|summer.*` keys went into all
+    nine catalogs. `LS · MS · US` and `Lower/Middle/Upper School` stay in English in every
+    locale, matching `sports.level_MS`. The `topic` keys are written to fit each locale's
+    `tipNa` sentence (fr `d’arts`, `de cours`; bn `শিল্পকলার`).
+  - **Wording:** school band names stay verbatim (`Kindergarten–4th`, `5th–8th`, `Early Ed`,
+    `High International`). `Grades 1–4` follows each locale's existing rendering in this
+    file: es `grados`, fa `پایه‌های`, ar `الصفوف`, ht `Grad`, and kept as `Grades` in
+    fr/it/bn/te/hi. Country names reuse each locale's countries-row quals.
+  - **Checks:** `check:runtime` and `check:live` passed for all 9. `check:chrome` passed.
+    `check:digits` compared 1,134 units with 0 to review. `check:sepdrift` ×9 found 0.
+    `check_figures.py` ×9 passed. `check:dates`, `check:fr`, `check:bidi`, `check:fa`,
+    `check:hi` and `npm run build` passed. `i18n:leaks` shows no new metric-values leak.
+  - **`check_work_integrity.mjs` reports 9 violations, all of them "770 → 896 strings".**
+    It assumes a translate-only pass and cannot accept a splice. Its real concern was checked
+    by stamp instead: in every locale all 770 HEAD entries are present, their `text` is
+    unchanged, no pre-existing `t` changed, and no unit is blank.
+  - **Browser** (Playwright, real Chrome, es/fa/hi/ar, six topics): no English chrome or
+    row labels on any topic. fa sub-lines isolate `⁦2026–27⁩` and `⁦9–12⁩`. hi tiles regroup
+    `$3,95,830`, the documented Telugu/Hindi interaction.
