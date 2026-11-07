@@ -117,18 +117,18 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### Student Clubs (`student-clubs/`)
 
-- [Cannon School](student-clubs/cannon.md) — 10 docs
-- [Carmel Christian School](student-clubs/carmel-christian.md) — 1 docs
-- [Charlotte Catholic High School](student-clubs/charlotte-catholic.md) — 1 docs
+- [Cannon School](student-clubs/cannon.md) — 11 docs
+- [Carmel Christian School](student-clubs/carmel-christian.md) — 2 docs
+- [Charlotte Catholic High School](student-clubs/charlotte-catholic.md) — 2 docs
 - [Charlotte Christian School](student-clubs/charlotte-christian.md) — 10 docs
-- [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 10 docs
-- [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
+- [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 12 docs
+- [Charlotte Latin School](student-clubs/charlotte-latin.md) — 9 docs
 - [Charlotte Preparatory School](student-clubs/charlotte-prep.md) — 3 docs
 - [Covenant Day School](student-clubs/covenant-day.md) — 6 docs
-- [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
+- [Davidson Day School](student-clubs/davidson-day.md) — 11 docs
 - [Gaston Day School](student-clubs/gaston-day.md) — 2 docs
 - [Hickory Grove Christian School](student-clubs/hickory-grove-christian.md) — 1 docs
-- [Providence Day School](student-clubs/providence-day.md) — 8 docs
+- [Providence Day School](student-clubs/providence-day.md) — 9 docs
 - [Trinity Episcopal School](student-clubs/trinity-episcopal.md) — 4 docs
 
 ### Summer Programs (`summer-programs/`)
@@ -148,20 +148,20 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### The Arts (`the-arts/`)
 
-- [Cannon School](the-arts/cannon.md) — 8 docs
-- [Carmel Christian School](the-arts/carmel-christian.md) — 1 docs
+- [Cannon School](the-arts/cannon.md) — 9 docs
+- [Carmel Christian School](the-arts/carmel-christian.md) — 2 docs
 - [Charlotte Catholic High School](the-arts/charlotte-catholic.md) — 1 docs
-- [Charlotte Christian School](the-arts/charlotte-christian.md) — 8 docs
-- [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 8 docs
+- [Charlotte Christian School](the-arts/charlotte-christian.md) — 9 docs
+- [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 9 docs
 - [Charlotte Latin School](the-arts/charlotte-latin.md) — 7 docs
 - [Charlotte Preparatory School](the-arts/charlotte-prep.md) — 2 docs
-- [Covenant Day School](the-arts/covenant-day.md) — 7 docs
-- [Davidson Day School](the-arts/davidson-day.md) — 6 docs
+- [Covenant Day School](the-arts/covenant-day.md) — 8 docs
+- [Davidson Day School](the-arts/davidson-day.md) — 7 docs
 - [Gaston Day School](the-arts/gaston-day.md) — 1 docs
-- [Hickory Grove Christian School](the-arts/hickory-grove-christian.md) — 1 docs
+- [Hickory Grove Christian School](the-arts/hickory-grove-christian.md) — 2 docs
 - [Providence Day School](the-arts/providence-day.md) — 7 docs
 - [Trinity Episcopal School](the-arts/trinity-episcopal.md) — 2 docs
 
 
 ## Data layer
-- `src/data/schools.json` — 512 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 528 documents across 12 topics and 13 schools.

@@ -1,5 +1,5 @@
 # Trinity Episcopal School — Student Clubs
-> Distilled from 4 source document(s) in `source-material/student-clubs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 4 source document(s) in `source-material/student-clubs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Academic and Competitive Clubs, Affinity and Identity Groups, Club Catalog and Traditions, Service and Civic Engagement
 
 

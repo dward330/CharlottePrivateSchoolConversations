@@ -1,5 +1,5 @@
 # Trinity Episcopal School — The Arts
-> Distilled from 2 source document(s) in `source-material/the-arts/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/the-arts/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Program Overview and Ensembles, Recognition and Exhibitions
 
 

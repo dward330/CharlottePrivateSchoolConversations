@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — The Arts
-> Distilled from 2 source document(s) in `source-material/the-arts/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-19.
+> Distilled from 2 source document(s) in `source-material/the-arts/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Program Overview and Ensembles, Theatre Productions and Recognition
 
 

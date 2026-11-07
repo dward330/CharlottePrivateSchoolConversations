@@ -2513,6 +2513,79 @@ table.compare-pin-table thead th { position: static; }   /* keep .corner's left-
   :root:not([data-theme='light']) .sm-yes { color: color-mix(in srgb, var(--brand) 60%, #e6e7e8); }
 }
 :root[data-theme='dark'] .sm-yes { color: color-mix(in srgb, var(--brand) 60%, #e6e7e8); }
+
+/* --- Compare "offered" matrices: The Arts, Course Offerings, Student Clubs,
+   Summer Programs (components/CompareMatrixRows.tsx, plan `comparerows`).
+   A copy of the .sm-* rules above under a `cm-` prefix, so the sports group is
+   byte-identical and the two can be tuned apart. Never `ad-` (EasyList). */
+.cm-band td.group-label {
+  background: color-mix(in srgb, var(--accent) 5%, var(--bg));
+  padding: 10px 14px;
+}
+.cm-band-in {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 22px;
+  max-width: min(100%, calc(100vw - 48px));
+}
+.cm-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 16px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--muted);
+}
+.cm-legend > span { display: inline-flex; gap: 6px; align-items: baseline; }
+.cm-cell { vertical-align: top; padding: 11px 10px; text-align: center; }
+.qual.cm-tip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: help;
+  max-width: 100%;
+}
+.cm-yes {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand);
+  border-bottom: 1px dotted color-mix(in srgb, var(--brand) 45%, transparent);
+  padding-bottom: 2px;
+}
+.cm-no {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: var(--na);
+  border-bottom: 1px dotted color-mix(in srgb, var(--na) 60%, transparent);
+}
+.cm-tip .mark-na { border-bottom: 1px dotted color-mix(in srgb, var(--na) 60%, transparent); }
+.qual.cm-tip:hover .cm-yes,
+.qual.cm-tip:focus-visible .cm-yes { border-bottom-color: var(--brand); }
+.cm-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 3px; }
+/* The school's own label (a club category, a camp filter) under a Yes. */
+.cm-sub {
+  font-weight: 500;
+  font-size: 11.5px;
+  line-height: 1.3;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  max-width: 11em;
+  text-wrap: balance;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .cm-yes { color: color-mix(in srgb, var(--brand) 60%, #e6e7e8); }
+}
+:root[data-theme='dark'] .cm-yes { color: color-mix(in srgb, var(--brand) 60%, #e6e7e8); }
 .value-row .row-metric { vertical-align: top; }
 .row-metric-note {
   display: block;
@@ -3144,6 +3217,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-depth-v { background: var(--depth-v-bg); color: var(--depth-v-fg); }
 .sports-depth-jv { background: var(--depth-jv-bg); color: var(--depth-jv-fg); }
 .sports-depth-ms { background: var(--depth-ms-bg); color: var(--depth-ms-fg); }
+/* LS / MS / US division chips (Compare "offered" matrices): the same three hues.
+   MS keeps the sports MS hue because it means the same thing. */
+.division-us { background: var(--depth-v-bg); color: var(--depth-v-fg); }
+.division-ls { background: var(--depth-jv-bg); color: var(--depth-jv-fg); }
+.division-ms { background: var(--depth-ms-bg); color: var(--depth-ms-fg); }
 
 .sports-board {
   display: grid;

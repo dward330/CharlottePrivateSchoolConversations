@@ -1,6 +1,6 @@
 # Charlotte Country Day School — The Arts
-> Distilled from 8 source document(s) in `source-material/the-arts/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Drama, Facilities, Music, Program Overview, Visual Arts
+> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Drama, Facilities, Music Ensembles Web Check 2026, Music, Program Overview, Visual Arts
 
 
 ---
@@ -861,6 +861,25 @@ Upper School Fine Arts curriculum: https://www.charlottecountryday.org/cd-educat
 Course Catalog 2025-26 (Issuu): https://issuu.com/charlottecountrydayschool/docs/2025-26_course_catalogue
 Artist in Residence feature & MS Chamber Orchestra state-adjudication news (charlottecountryday.org news).
 External context: Blumey Awards (Blumenthal Performing Arts); NC Theatre Conference (nctc.org).
+
+
+---
+
+## Music Ensembles Web Check 2026
+
+*Source file: `CCD - The Arts - Music Ensembles Web Check 2026.md`*
+
+# Charlotte Country Day School — The Arts — Music ensembles web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Arts page for the Compare "Arts
+offered" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://www.charlottecountryday.org/cd-experience/arts
+
+- "Comprehensive music instruction begins as young as JK and older students can take band, orchestra, and choir."
+- "Vocal and instrumental groups in Middle and Upper School, including orchestra, band, choir, and a cappella."
+- "Average number of Upper School fine arts courses, from Concert Choir and Symphonic Band to AP Sculpture and IB Theater Arts."
+- "Our Middle School campus features space for band, choir, orchestra, General Music, drama, and three visual arts rooms."
+- Lower School Fine Arts Center (partial): "piano studios for individual instruction, a dance room, a music classroom"
 
 
 ---

@@ -1,6 +1,6 @@
 # Providence Day School — Student Clubs
-> Distilled from 8 source document(s) in `source-material/student-clubs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Academic and Competitive Programs, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Clubs Redesign Deep Research
+> Distilled from 9 source document(s) in `source-material/student-clubs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Academic and Competitive Programs, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Middle School Clubs Web Check 2026, Clubs Redesign Deep Research
 
 
 ---
@@ -573,6 +573,22 @@ Compiled June 24, 2026. Sources cited inline and listed at end of each document.
 
 ---
 
+## Middle School Clubs Web Check 2026
+
+*Source file: `Providence Day - Clubs - Middle School Clubs Web Check 2026.md`*
+
+# Providence Day School — Clubs — Middle School clubs web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Middle School page for the Compare
+"Club categories" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://www.providenceday.org/middle-school
+
+- "From Model U.N. and Science Olympiad to Street Soccer and Art Club"
+- "from the Middle School play or musical to extracurricular STEM clubs and Student Council"
+
+
+---
+
 ## Clubs Redesign Deep Research
 
 *Source file: `Providence Day - Student Clubs - Clubs Redesign Deep Research.md`*
@@ -811,5 +827,6 @@ societies (especially Spanish/Latin/Chinese and any Middle School society).
 - https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/upper-school-gsa-supports-time-out-youth
 - https://www.providenceday.org/admissions/why-providence-day
 - https://www.providenceday.org/cf_news/view.cfm?newsid=2101
+- https://www.providenceday.org/middle-school
 - https://www.providenceday.org/the-pd-difference/equity-inclusion-and-belonging
 - https://www.providenceday.org/the-pd-difference/global-education

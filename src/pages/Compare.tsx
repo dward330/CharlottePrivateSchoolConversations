@@ -26,6 +26,10 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { CellQual } from '../components/CellQual.tsx'
 import { TopLayerTip } from '../components/TopLayerTip.tsx'
 import { CompareSportsRows } from '../components/CompareSportsRows.tsx'
+import { CompareArtsRows } from '../components/CompareArtsRows.tsx'
+import { CompareCourseRows } from '../components/CompareCourseRows.tsx'
+import { CompareClubsRows } from '../components/CompareClubsRows.tsx'
+import { CompareSummerRows } from '../components/CompareSummerRows.tsx'
 import { useDragPan } from '../lib/useDragPan.ts'
 import { collegeSupportProgram } from '../data/collegeSupport.ts'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
@@ -39,6 +43,15 @@ import {
 import { COMPARE_DEFAULT_TOPIC, COMPARE_DEFAULT_SCHOOLS } from '../lib/metrics.ts'
 
 type Props = { topic: string | null; schools: string[] }
+
+/**
+ * Topics with a computed "offered" group between Key stats and Research
+ * coverage: Sports (CompareSportsRows) and the four matrices in
+ * CompareMatrixRows.tsx. The coverage band renders whenever either a Key-stats
+ * row or one of these groups precedes it.
+ */
+const COMPUTED_GROUP_TOPICS = new Set(['sports', 'the-arts', 'course-offerings', 'student-clubs', 'summer-programs'])
+const hasComputedGroup = (topic: string | null) => topic != null && COMPUTED_GROUP_TOPICS.has(topic)
 
 const SCORE_LINES = ['median', 'mean', 'mid50'] as const
 
@@ -703,8 +716,13 @@ export function Compare({ topic, schools }: Props) {
               {/* Computed from each school's Sports Offered card, not VALUE_METRICS
                   (see lib/sportsMatrix.ts). Sits between Key stats and Research coverage. */}
               {activeTopic === 'sports' && <CompareSportsRows cols={cols} />}
+              {/* The four "offered" matrices (plan `comparerows`), same slot. */}
+              {activeTopic === 'the-arts' && <CompareArtsRows cols={cols} />}
+              {activeTopic === 'course-offerings' && <CompareCourseRows cols={cols} />}
+              {activeTopic === 'student-clubs' && <CompareClubsRows cols={cols} />}
+              {activeTopic === 'summer-programs' && <CompareSummerRows cols={cols} />}
               <tbody>
-                {(valueMetrics.length > 0 || activeTopic === 'sports') && (
+                {(valueMetrics.length > 0 || hasComputedGroup(activeTopic)) && (
                   <tr className="group-row">
                     <td className="group-label" colSpan={cols.length + 1}><span className="group-label-text">{t('compare.researchCoverage')}</span></td>
                   </tr>

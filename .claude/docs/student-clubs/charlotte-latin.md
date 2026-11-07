@@ -1,6 +1,6 @@
 # Charlotte Latin School — Student Clubs
-> Distilled from 8 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Academic and Competitive Programs, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Clubs Redesign Deep Research
+> Distilled from 9 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Academic and Competitive Programs, Club Catalog Web Check 2026, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Clubs Redesign Deep Research
 
 
 ---
@@ -97,6 +97,33 @@ Source List
 6. Charlotte Latin School — School News (NC State Science & Engineering Fair, April 2026).
 7. Charlotte Latin School — Upper School Profile (Model UN/Debate international travel).
 Compiled June 24, 2026. Sources cited inline and listed at end of each document. Page 3
+
+
+---
+
+## Club Catalog Web Check 2026
+
+*Source file: `Charlotte Latin - Clubs - Club Catalog Web Check 2026.md`*
+
+# Charlotte Latin School — Clubs — Club catalog web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Clubs page for the Compare "Club
+categories" matrix second pass (plan `comparerows`). Club names verbatim.
+Source: https://www.charlottelatin.org/student-life/student-clubs/clubs
+
+## Upper School clubs named on the page
+
+Acapella Club · Admissions Ambassadors · Blue Review · Book Club · Chess Club · CLS Math
+Tutors · Club Sandwich · Creative Writing Club · Environmental Club · Forensics Club · Girl
+Up · Honor Council Advisory Board · Improv Club · International Thespian Society · Math
+Club · Model United Nations · Mosaic · National Junior Classical League · Outdoor Club ·
+Paws for the Cause · SADD (Students Against Destructive Decisions) · SISTERS · Spanish Club
+· Spirit Council · Table Française · World Quest · Yearbook Club. Listed separately:
+Blessings in a Backpack, StuCo (Student Council).
+
+## Middle School clubs named on the page ("more than 25 offerings")
+
+Cooking Club · Just Dance Club · Robotics Club · Student Council · Sports Club
 
 
 ---

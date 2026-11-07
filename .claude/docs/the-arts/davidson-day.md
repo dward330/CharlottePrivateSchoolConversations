@@ -1,6 +1,6 @@
 # Davidson Day School — The Arts
-> Distilled from 6 source document(s) in `source-material/the-arts/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-05.
-**Documents:** Arts Redesign Deep Research, Blumey Verification 2026, Deep Research, Performing Arts, Program Overview, Visual Arts
+> Distilled from 7 source document(s) in `source-material/the-arts/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Arts Redesign Deep Research, Blumey Verification 2026, Deep Research, Music and Band Web Check 2026, Performing Arts, Program Overview, Visual Arts
 
 
 ---
@@ -640,6 +640,24 @@ Visual Arts: https://www.davidsonday.org/student-life/arts/visual-arts
 Upper School Course Catalog 2026-27 (Issuu):
 https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog
 Student news: "Davidson Day Sophomore Wins International Journalism Award" (davidsonday.org).
+
+
+---
+
+## Music and Band Web Check 2026
+
+*Source file: `Davidson Day - The Arts - Music and Band Web Check 2026.md`*
+
+# Davidson Day School — The Arts — Music and band web check (2026)
+
+**Provenance.** The school's own Music and Band page, read 2026-11-07 for the Compare "Arts
+offered" matrix second pass (plan `comparerows`). The page is served to search engines
+(the quotes below come from its indexed text) but returned HTTP 404 to a direct fetch on
+the day of the check, so re-verify the URL when this file is next touched. Verbatim
+quotes only. Source: https://www.davidsonday.org/student-life/arts/music-and-band
+
+- "In 3rd Grade, they learn to play recorders and ukuleles; and starting in 4th Grade, students begin participating in Band, which continues through Middle School."
+- "In Band, students try a variety of instruments, learn to read and play music, and then select a woodwind, brass, or percussion instrument to play for our school community during pep rallies, performances, home games, and special events."
 
 
 ---

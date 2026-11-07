@@ -1,6 +1,6 @@
 # Hickory Grove Christian School — The Arts
-> Distilled from 1 source document(s) in `source-material/the-arts/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Deep Research
+> Distilled from 2 source document(s) in `source-material/the-arts/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Deep Research, Visual Arts Web Check 2026
 
 
 ---
@@ -168,6 +168,32 @@ school.
  (only the Blumey-recognized shows *Seussical* (2025) and *Disney's The Little Mermaid*
  (2026) are attested).
 - **Blumey wins:** none published for HGCS (nominee/finalist recognition only).
+
+
+---
+
+## Visual Arts Web Check 2026
+
+*Source file: `Hickory Grove Christian - The Arts - Visual Arts Web Check 2026.md`*
+
+# Hickory Grove Christian School — The Arts — Visual arts web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Visual Arts and Arts pages for
+the Compare "Arts offered" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Sources: https://www.hgchristian.org/arts/visual-arts · https://www.hgchristian.org/arts
+
+## Visual Arts (elementary school through high school)
+
+- "Students start with hands-on exploration in elementary school" and "can build up to a college-level AP portfolio in high school."
+- "Along the way they develop their skills in drawing, painting, watercolor, ceramics, fiber arts and more."
+
+## Digital Arts (high school)
+
+- "In Yearbook, Photography & Design, Digital Media and the Communications Internship, high school students"
+
+## Performing Arts (Arts page, no division stated)
+
+- "Band, choir, theatre, dance and worship leadership give students a stage."
 
 
 ---
