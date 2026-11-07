@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 526 ingested research documents.
+**13 schools × 12 research areas**, 528 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -61,8 +61,8 @@ exists yet and **the section does not render at all** for that school.
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 3 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
-| Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 11 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
-| The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 6 | 1 | 2 | 7 | 2 |
+| Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
+| The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 2 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 18 | 18 | 2 | 17 | 18 | 2 | 3 | 20 | 2 |
 | College Support | `college-support` | 12 | 3 | 3 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
@@ -112,7 +112,7 @@ research dossier folds in behind a structured card.
 | `academic-clubs` | Academic & Competitive Clubs | 9/13 | 5 |
 | `honor-societies` | Honor Societies | 5/13 | 2 |
 | `signature` | Signature Programs & Traditions | 7/13 | 7 |
-| `media` | Publications & Media | 2/13 | 2 |
+| `media` | Publications & Media | 2/13 | 3 |
 | `affinity` | Affinity & Identity Groups | 5/13 | 3 |
 | `service` | Service & Civic Engagement | 7/13 | 5 |
 | `lower-middle` | Lower / Middle School Activities | 4/13 | 4 |
@@ -129,7 +129,7 @@ research dossier folds in behind a structured card.
 | `facilities` | Facilities | 6/13 | 2 |
 | `in-depth-report` | In-Depth Report | 9/13 | 3 |
 | `courses` | Course Offerings | 1/13 | 1 |
-| `music` | Music | 5/13 | 2 |
+| `music` | Music | 6/13 | 3 |
 | `theatre` | Theatre & Drama | 6/13 | 6 |
 | `digital-arts` | Digital Arts | 1/13 | 1 |
 
@@ -1277,7 +1277,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 
 | Arts row (visual) | Schools |
 |---|--:|
-| `visualArt` | 9/11 |
+| `visualArt` | 11/11 |
 | `drawingPainting` | 11/11 |
 | `ceramics` | 9/11 |
 | `sculpture` | 7/11 |
@@ -1285,14 +1285,14 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `photography` | 10/11 |
 | `darkroom` | 3/11 |
 | `graphicDesign` | 8/11 |
-| `filmVideo` | 6/11 |
+| `filmVideo` | 7/11 |
 | `fiberFashion` | 5/11 |
 | `designFabrication` | 1/11 |
 
 | Arts row (music) | Schools |
 |---|--:|
-| `generalMusic` | 9/11 |
-| `band` | 10/11 |
+| `generalMusic` | 10/11 |
+| `band` | 11/11 |
 | `orchestra` | 5/11 |
 | `choir` | 10/11 |
 | `jazz` | 5/11 |
@@ -1304,12 +1304,12 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `worshipBand` | 4/11 |
 | `contemporaryEnsemble` | 2/11 |
 | `musicTechnology` | 2/11 |
-| `musicTheory` | 3/11 |
+| `musicTheory` | 4/11 |
 
 | Arts row (theatre) | Schools |
 |---|--:|
 | `plays` | 11/11 |
-| `musicals` | 10/11 |
+| `musicals` | 11/11 |
 | `technicalTheatre` | 9/11 |
 | `dance` | 4/11 |
 
@@ -1355,7 +1355,7 @@ counts (a label mapping to two rows cannot attribute its clubs; `us-organization
 | `service` | 11/11 |
 | `academicCompetition` | 10/11 |
 | `leadership` | 11/11 |
-| `publicationsMedia` | 6/11 |
+| `publicationsMedia` | 7/11 |
 | `affinity` | 5/11 |
 | `cultureLanguage` | 7/11 |
 | `artsPerformance` | 9/11 |

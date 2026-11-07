@@ -27,12 +27,12 @@ import type { ArtsTable, ArtsUnknown } from '../lib/artsMatrix.ts'
 
 export const ARTS_MATRIX: ArtsTable = {
   'providence-day': {
+    visualArt: { LS: 'Visual Arts strands', MS: { course: 'Art 6 & Art Foundations' }, US: { course: 'Studio Art' } },
     sculpture: { MS: { course: 'Introduction to 3D Design' }, US: 'Sculpture' },
     band: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Band'" },
     orchestra: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Orchestra'" },
     choir: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Chorus'" },
     printmaking: { MS: { course: 'Introduction to Printmaking' } },
-    visualArt: { LS: 'Visual Arts strands' },
     drawingPainting: { US: 'Drawing & painting' },
     photography: { US: 'Film photography' },
     darkroom: { US: 'Film photography' },
@@ -46,9 +46,9 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { MS: 'technical theatre — tech starts this early', US: 'technical theater classes' },
   },
   'charlotte-latin': {
+    visualArt: { LS: 'Visual art begins in transitional kindergarten', MS: 'Visual arts electives by choice', US: { course: 'Art Studio I–IV' } },
     graphicDesign: { MS: 'draw, design or photograph', US: { course: 'Digital Design and Web Development' } },
     choir: { LS: { course: 'Band / Strings / Choir' }, MS: 'Band, orchestra, choir and theater are the foundation', US: 'Concert Choir (5–12)' },
-    visualArt: { LS: 'Visual art begins in transitional kindergarten', MS: 'Visual arts electives by choice' },
     drawingPainting: { MS: 'may sculpt, paint, draw', US: 'Drawing & painting' },
     sculpture: { MS: 'may sculpt, paint, draw' },
     photography: { MS: 'or photograph any subject', US: 'Photography' },
@@ -63,8 +63,8 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { MS: 'the backstage/technical course starts in Grade 6', US: 'Stagecraft I–II' },
   },
   'charlotte-country-day': {
+    visualArt: { LS: 'Two child-scaled art studios', MS: 'Three dedicated visual arts rooms', US: { course: '2-D Art I–IV' } },
     aCappella: { MS: { source: 'CCD - The Arts - Music Ensembles Web Check 2026.md', quote: 'Vocal and instrumental groups in Middle and Upper School, including orchestra, band, choir, and a cappella.' }, US: { source: 'CCD - The Arts - Music Ensembles Web Check 2026.md', quote: 'Vocal and instrumental groups in Middle and Upper School, including orchestra, band, choir, and a cappella.' } },
-    visualArt: { LS: 'Two child-scaled art studios', MS: 'Three dedicated visual arts rooms' },
     drawingPainting: { US: 'Drawing & painting' },
     ceramics: { LS: 'Lower School ceramics studio', US: 'Ceramics & 3-D' },
     sculpture: { US: "'Sculpture'" },
@@ -85,6 +85,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'technical-theatre track in set, lighting, sound and stage management' },
   },
   cannon: {
+    visualArt: { LS: { course: 'Art' }, US: { course: 'Honors Visual Foundations' } },
     technicalTheatre: { US: { source: 'Cannon - The Arts - Theater Course Check 2026.md', quote: 'This course explores the technical elements of theater including lighting, sound, set and costume design' } },
     choir: { MS: { course: 'Major Art: Strings, Band, or Chorus' }, US: 'Honors Concert Chorus' },
     drawingPainting: { LS: 'drawing, painting, collage, paper sculpture', MS: 'drawing, painting, printmaking, ceramics, sculpture', US: '2-D studio' },
@@ -106,12 +107,13 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { LS: 'A separate Lower/Middle School musical for grades 3–6', MS: 'A separate Lower/Middle School musical for grades 3–6', US: 'Musical (Blumey)' },
   },
   'charlotte-christian': {
+    visualArt: { LS: 'Visual art begins', US: { course: 'Art I' } },
+    musicTheory: { US: { course: 'Advanced Placement Music Theory' } },
     printmaking: { US: { source: 'Charlotte Christian - The Arts - Upper School Visual Arts Course Descriptions 2026.md', quote: 'drawing, painting, collage, 3D, printmaking and digital artwork integration' } },
     ceramics: { US: { source: 'Charlotte Christian - The Arts - Upper School Visual Arts Course Descriptions 2026.md', quote: 'create drawings, paintings, graphic designs and ceramic pieces' } },
     generalMusic: { LS: { course: 'Music' } },
     guitar: { US: { course: 'Introduction to Guitar' } },
     dance: { US: { course: 'Dance' } },
-    visualArt: { LS: 'Visual art begins' },
     drawingPainting: { US: '2-D: drawing & painting' },
     sculpture: { US: '3-D: Art & Design' },
     photography: { US: 'Digital photography' },
@@ -128,11 +130,11 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'technical directing and stage management' },
   },
   'covenant-day': {
+    visualArt: { LS: 'art integrated in JK–K and sequential from grade 1', MS: { course: 'Art' }, US: { course: 'Intro to Art' } },
     graphicDesign: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: 'Graphic design' },
     photography: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: 'Digital photography' },
     ceramics: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: "'Ceramics'" },
     drawingPainting: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: 'Drawing & painting' },
-    visualArt: { LS: 'art integrated in JK–K and sequential from grade 1', MS: { course: 'Art' } },
     sculpture: { US: '2D / 3D design' },
     generalMusic: { LS: 'General Music JK–4' },
     band: { LS: 'Introduction to Choir and Band in grade 5', MS: 'MS Band', US: 'Symphonic Band' },
@@ -144,7 +146,9 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'Theatre Tech' },
   },
   'davidson-day': {
-    visualArt: { LS: 'Visual arts begin in Early Childhood classrooms' },
+    generalMusic: { LS: { source: 'Davidson Day - The Arts - Music and Band Web Check 2026.md', quote: 'In 3rd Grade, they learn to play recorders and ukuleles' } },
+    band: { LS: { source: 'Davidson Day - The Arts - Music and Band Web Check 2026.md', quote: 'starting in 4th Grade, students begin participating in Band, which continues through Middle School.' }, MS: { source: 'Davidson Day - The Arts - Music and Band Web Check 2026.md', quote: 'starting in 4th Grade, students begin participating in Band, which continues through Middle School.' } },
+    visualArt: { LS: 'Visual arts begin in Early Childhood classrooms', US: { course: 'Studio I' } },
     drawingPainting: { LS: 'ceramics, painting, multimedia', US: "'Paint'" },
     ceramics: { LS: 'ceramics, painting, multimedia', US: "'Ceramics'" },
     graphicDesign: { US: 'Digital illustration' },
@@ -187,9 +191,10 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'Technical Theatre' },
   },
   'gaston-day': {
+    visualArt: { LS: 'Music, art and drama coordinated with classroom units', MS: 'Electives chosen from art, drama, chorus and band', US: { course: 'Visual Art I, II, III' } },
+    filmVideo: { US: { course: 'Cinema Studies' } },
     generalMusic: { LS: 'Music, art and drama coordinated', US: { course: 'Music Appreciation' } },
     percussion: { MS: 'MS Instrumental Ensemble — percussion' },
-    visualArt: { LS: 'Music, art and drama coordinated with classroom units', MS: 'Electives chosen from art, drama, chorus and band' },
     drawingPainting: { US: "'Drawing'" },
     ceramics: { US: "'Ceramics'" },
     printmaking: { US: "'Printmaking'" },
@@ -201,6 +206,8 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { US: 'The spring musical is the named anchor' },
   },
   'charlotte-catholic': {
+    visualArt: { US: { course: 'Art I' } },
+    musicals: { US: 'Fiddler on the Roof placed a finalist in every one of the five individual performance categories' },
     fiberFashion: { US: { course: 'Costume Design and Production' } },
     drawingPainting: { US: 'Drawing & painting' },
     ceramics: { US: "'Ceramics'" },

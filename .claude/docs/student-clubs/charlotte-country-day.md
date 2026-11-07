@@ -1,6 +1,6 @@
 # Charlotte Country Day School — Student Clubs
-> Distilled from 11 source document(s) in `source-material/student-clubs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
-**Documents:** Academic and Competition Clubs, Affinity and Identity Groups, Club Catalog Web Check 2026, Club Catalog and Overview, Governance and Leadership, Honor Societies, NotebookLM Prompt, Publications and Media, Service and Civic Engagement, Signature Achievements and Honors, Clubs Redesign Deep Research
+> Distilled from 12 source document(s) in `source-material/student-clubs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Academic and Competition Clubs, Affinity and Identity Groups, Club Catalog Web Check 2026, Club Catalog and Overview, Governance and Leadership, Honor Societies, NotebookLM Prompt, Publications and Media Web Check 2026, Publications and Media, Service and Civic Engagement, Signature Achievements and Honors, Clubs Redesign Deep Research
 
 
 ---
@@ -347,6 +347,23 @@ Segment 8 — Signature achievements. Recap Model UN's documented awards, then t
 Close with takeaways, then deliver this disclaimer sincerely: we apologize if we missed any club or activity — we're reporting only what our research surfaced, and Country Day's full catalog isn't entirely public.
 
 Pronunciation: "Model U-N"; "MUNCH" as one word; "I-B" and "International Baccalaureate"; "D-A-F"; "PRISSM" like prism; "SWAG"; "S-D-L-C"; "Amig@s" is the single word Amigos (ah-MEE-gohs) — the "@" is a stylized letter A; never voice the symbol, never read it as "at," and never expand the name into separate words (e.g., not "Ahead of Me Goes"); "Rama Road" = RAH-mah Road (not "Ramroat"); "Tri-M" = try-em; "Cum Laude" = koom-LAU-day.
+
+
+---
+
+## Publications and Media Web Check 2026
+
+*Source file: `CCD - Clubs - Publications and Media Web Check 2026.md`*
+
+# Charlotte Country Day School — Clubs — Publications and media web check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own BucsNET family portal for the
+Compare "Club categories" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://www.charlottecountryday.org/bucsnet
+
+- "Capture the memories of the 2026-27 school year!"
+- "Yearbooks are $95 through January 8 and increase to $105 beginning January 9."
+- Heading: "Order Your 2026–27 Yearbook."
 
 
 ---
@@ -763,6 +780,7 @@ undocumented.
 - https://www.charlottecountryday.org/about/deib
 - https://www.charlottecountryday.org/about/deib/program
 - https://www.charlottecountryday.org/about/fast-facts
+- https://www.charlottecountryday.org/bucsnet
 - https://www.charlottecountryday.org/cd-education/middle-school
 - https://www.charlottecountryday.org/cd-education/upper-school
 - https://www.charlottecountryday.org/cd-experience/beyond-the-classroom

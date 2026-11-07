@@ -218,6 +218,11 @@ export const TITLE_ALIASES: Record<string, SubjectKey[]> = {
   'Broadcasting Honors (Knights Knews)': ['journalismMedia'],
   'Media & Journalism I': ['journalismMedia'],
   'Innovation Lab': ['innovationDesign'],
+  // Covenant Day's own Lower School curriculum: "CREATE Junior integrates technology
+  // and critical thinking skills … through science, technology, math, and
+  // engineering. CREATE Junior is a precursor to the CDS Middle School's CREATE."
+  'CREATE Junior': ['computerScience', 'innovationDesign'],
+  'CREATE': ['computerScience', 'innovationDesign'],
   'Broadcast Journalism': ['journalismMedia'],
   'News and Media Production': ['journalismMedia'],
   'Communications and Twenty-First Century Journalism': ['journalismMedia'],

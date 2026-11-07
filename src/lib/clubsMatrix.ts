@@ -128,6 +128,7 @@ export const CLUB_OVERRIDES: Record<string, Partial<Record<ClubRowKey, ClubOverr
   'charlotte-country-day': {
     faith: ['Interfaith Club'],
     stem: ['Robotics'],
+    publicationsMedia: [{ source: 'CCD - Clubs - Publications and Media Web Check 2026.md', quote: 'Yearbooks are $95 through January 8 and increase to $105 beginning January 9.' }],
     artsPerformance: [{ source: 'CCD - Clubs - Club Catalog Web Check 2026.md', quote: 'including Honor Council, Student Government, Affinity Groups, Athletics, Theater Arts, Big Brothers Big Sisters, and more.' }],
     honorSocieties: [{ source: 'CCD - Clubs - Club Catalog Web Check 2026.md', quote: 'We offer membership to Cum Laude Society to eligible members of the graduating class in spring of their senior year.' }],
   },
