@@ -54,7 +54,10 @@ function YesTip({ cell, sport, school, t, lang }: { cell: SportCell; sport: stri
 export function CompareSportsRows({ cols }: { cols: { slug: string; name: string }[] }) {
   const { t, i18n } = useTranslation()
   const lang = i18n.resolvedLanguage ?? i18n.language ?? 'en'
-  const total = comparableSchools.length
+  // The fraction counts the schools selected at the top, not the whole roster: a
+  // reader comparing four schools asks how many of THOSE field the sport. The row
+  // set stays the full union, so a sport none of them offers reads 0/4.
+  const total = cols.length
   const label = (key: string) => t(`sports.cup.sport_${key}`)
   const collator = new Intl.Collator(lang)
   const rows = [...MATRIX.rows].sort((a, b) => collator.compare(label(a.key), label(b.key)))
@@ -78,7 +81,10 @@ export function CompareSportsRows({ cols }: { cols: { slug: string; name: string
               <span className="row-metric-cov">
                 {row.seasons.map((s) => t(`sports.cup.term_${s}`)).join(' · ')}
                 {' · '}
-                {t('compare.coverage', { count: row.count, total })}
+                {t('compare.coverage', {
+                  count: cols.filter((s) => { const c = row.cells[s.slug]; return c != null && c !== 'na' }).length,
+                  total,
+                })}
               </span>
             </th>
             {cols.map((s) => {

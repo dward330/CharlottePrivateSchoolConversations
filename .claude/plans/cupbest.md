@@ -86,3 +86,15 @@ Then commit, push, open the PR, flip INDEX to Implemented, merge, pull. **Do not
 - `coverage:floor`: identical to `main` except `cup-best` listed among excluded rows
 - Chrome (Playwright), light and dark, all 11 schools: the row sits after Cup titles and before
   Sports offered; the cells read place then season, and the PD and DD tooltips read as specified
+
+## Implementation notes
+
+**Also on this branch (user request, 2026-11-07): Compare fractions count the selected schools.**
+Every row's `n/N schools` line on Compare, in the Sports offered group (`CompareSportsRows.tsx`)
+and in the Research coverage rows (`Compare.tsx`), now counts the schools ticked at the top
+rather than all 11. A test user read `11/11` beside four visible schools as wrong. The row set and
+its order stay roster-wide, so a sport or research row none of the selected schools has reads
+`0/4` rather than disappearing (the user chose to keep zero rows). No new strings; it reuses
+`compare.coverage`. That part is single-phase and needs nothing in Phase 2. Browser-checked: four
+schools give Basketball `4/4`, Rowing `1/4` and Rugby `0/4`, and un-ticking Davidson Day moves
+Rowing to `0/3` without a reload. All 11 still reads `11/11`.
