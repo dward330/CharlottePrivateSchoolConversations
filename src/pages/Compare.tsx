@@ -28,6 +28,7 @@ import { TopLayerTip } from '../components/TopLayerTip.tsx'
 import { CompareSportsRows } from '../components/CompareSportsRows.tsx'
 import { CompareArtsRows } from '../components/CompareArtsRows.tsx'
 import { CompareCourseRows } from '../components/CompareCourseRows.tsx'
+import { CompareClubsRows } from '../components/CompareClubsRows.tsx'
 import { useDragPan } from '../lib/useDragPan.ts'
 import { collegeSupportProgram } from '../data/collegeSupport.ts'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
@@ -717,6 +718,7 @@ export function Compare({ topic, schools }: Props) {
               {/* The four "offered" matrices (plan `comparerows`), same slot. */}
               {activeTopic === 'the-arts' && <CompareArtsRows cols={cols} />}
               {activeTopic === 'course-offerings' && <CompareCourseRows cols={cols} />}
+              {activeTopic === 'student-clubs' && <CompareClubsRows cols={cols} />}
               <tbody>
                 {(valueMetrics.length > 0 || hasComputedGroup(activeTopic)) && (
                   <tr className="group-row">
