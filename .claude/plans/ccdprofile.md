@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/ccd-profile-2627
-prs: []
+prs: [441]
 ---
 
 # Refresh Charlotte Country Day from its 2026–27 School Profile
