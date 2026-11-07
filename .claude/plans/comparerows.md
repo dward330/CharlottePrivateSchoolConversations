@@ -892,3 +892,20 @@ from the plan as written, each deliberate:
   athletics dance teams, after-school enrichment and a studio, except Davidson Day's
   "music, dance, and movement" line for Early Childhood, which is web-only and was not
   added (it would need source-material and an arts-module edit first).
+- **Second pass over every Not-listed cell (user request, 2026-11-07, at the English
+  review).** 329 Not-listed cells became 250. Three sources, in order of cost: (1) data
+  already in the repo — course catalogs (35 arts claims now cite a catalog title; course
+  titles match in every department; Covenant's CREATE maps to computer science and
+  engineering on its own curriculum text), club rosters (`CLUB_OVERRIDES`: FCA chapters,
+  robotics, language clubs, Thespian and Tri-M societies, Beta Club) and camp names
+  (`SUMMER_OVERRIDES` for Cannon, Carmel, Charlotte Christian, Covenant, Gaston Day,
+  Latin and Providence Day); (2) the eleven schools' own websites, swept for every
+  remaining arts, club and summer cell, with every finding persisted verbatim with its
+  URL under `source-material/the-arts/` and `source-material/student-clubs/` (14 new
+  files), ingested, and cited as `{ source, quote }` — 17 arts and 17 club quotes, each
+  verified by `check:matrices`; (3) nothing else. What remains is judged a true negative
+  from the schools' own pages: Bible at the six secular schools, German / Greek / ASL at
+  most schools, marching band and a cappella where the music page lists no such ensemble,
+  faith camps at secular schools, Charlotte Catholic's four-sport summer slate, and club
+  categories a school's roster and site never name. Davidson Day's music page returned
+  404 to a direct fetch but is indexed; its source file says so.

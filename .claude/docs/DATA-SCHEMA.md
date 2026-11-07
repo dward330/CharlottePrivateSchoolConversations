@@ -1327,7 +1327,7 @@ division with `notPublished` adds a line to every tooltip, so an absent chip rea
 | `science` | 11/11 |
 | `socialStudies` | 11/11 |
 | `worldLanguages` | 11/11 |
-| `computerScience` | 10/11 |
+| `computerScience` | 11/11 |
 | `innovationDesign` | 10/11 |
 | `visualArts` | 11/11 |
 | `performingArts` | 11/11 |
