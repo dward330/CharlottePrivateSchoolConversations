@@ -109,6 +109,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
+| `catalog` | Club Catalog & Overview | 13/13 | 9 |
 | `academic-clubs` | Academic & Competitive Clubs | 9/13 | 5 |
 | `honor-societies` | Honor Societies | 5/13 | 2 |
 | `signature` | Signature Programs & Traditions | 7/13 | 7 |
@@ -116,7 +117,6 @@ research dossier folds in behind a structured card.
 | `affinity` | Affinity & Identity Groups | 5/13 | 3 |
 | `service` | Service & Civic Engagement | 7/13 | 5 |
 | `lower-middle` | Lower / Middle School Activities | 4/13 | 4 |
-| `catalog` | Club Catalog & Overview | 13/13 | 9 |
 
 ### The Arts `the-arts`
 
@@ -516,10 +516,10 @@ Root type `CollegeSupportProgram` · registry `COLLEGE_SUPPORT_CARDS` · `src/da
 |---|---|---|
 | `outcomes` | Where Graduates Go | Does this actually get kids into top schools? |
 | `ncAdmissions` | Admission Rates at the Top NC Public Universities | If we're aiming in-state, what are our odds from here? |
+| `wholeClass` | Whole Class Analytics | What if my kid isn't at the top — or learns differently? |
 | `transcript` | The Transcript Colleges See | How strong is the record my kid graduates with? |
 | `counseling` | The Counseling Engine | Who helps my kid — how much, with what, and when? |
 | `edge` | The Applicant's Edge | How does my kid stand out — and does the name help? |
-| `wholeClass` | Whole Class Analytics | What if my kid isn't at the top — or learns differently? |
 | `verdict` | Verdict & Visit Checklist | What should I probe on the tour? |
 
 **`ncAdmissions` is the area's SECOND card, after `outcomes`, and its figures are
@@ -807,7 +807,7 @@ header, everything else suppresses it.
 
 `Verdict` — `headline`, `subhead?`, `verdictTitle?`, `points`, `checklistTitle?`, `checklist`, `flags`, `sources`
 
-`CollegeSupportProgram` — `ncAdmissions?`, `transcript?`, `counseling?`, `outcomes?`, `edge?`, `wholeClass?`, `verdict?`
+`CollegeSupportProgram` — `outcomes?`, `ncAdmissions?`, `wholeClass?`, `transcript?`, `counseling?`, `edge?`, `verdict?`
 
 </details>
 

@@ -464,12 +464,12 @@ export type Verdict = {
  * present, in this fixed order, so ordering stays consistent across schools.
  */
 export type CollegeSupportProgram = {
+  outcomes?: Outcomes
   ncAdmissions?: NcAdmissions
+  wholeClass?: WholeClass
   transcript?: Transcript
   counseling?: Counseling
-  outcomes?: Outcomes
   edge?: Edge
-  wholeClass?: WholeClass
   verdict?: Verdict
 }
 
@@ -495,6 +495,13 @@ export const COLLEGE_SUPPORT_CARDS = [
     title: 'Admission Rates at the Top NC Public Universities',
     kicker: "If we're aiming in-state, what are our odds from here?",
   },
+  /* Third, directly after the admit rates: the read on the middle of the
+     class, not just the top. */
+  {
+    key: 'wholeClass',
+    title: 'Whole Class Analytics',
+    kicker: "What if my kid isn't at the top — or learns differently?",
+  },
   {
     key: 'transcript',
     title: 'The Transcript Colleges See',
@@ -509,11 +516,6 @@ export const COLLEGE_SUPPORT_CARDS = [
     key: 'edge',
     title: "The Applicant's Edge",
     kicker: 'How does my kid stand out — and does the name help?',
-  },
-  {
-    key: 'wholeClass',
-    title: 'Whole Class Analytics',
-    kicker: "What if my kid isn't at the top — or learns differently?",
   },
   {
     key: 'verdict',
