@@ -295,8 +295,6 @@
     "summer": {
       "group": "Camp categories",
       "topic": "summer camp",
-      "tipLabelsAs": "{{school}} files its camps under: {{labels}}.",
-      "tipOverride": "Named camps in this category: {{camps}}.",
       "row_dayCamp": "Traditional day camp",
       "row_sports": "Sports",
       "row_stem": "STEM & robotics",
@@ -306,7 +304,15 @@
       "row_academic": "Academic & tutoring",
       "row_nature": "Nature, farm & outdoors",
       "row_games": "Games & hobbies",
-      "row_faith": "Faith"
+      "row_faith": "Faith",
+      "tipYes": "{{school}} offers summer camps in this category ({{item}}).",
+      "tipFiledUnder": "On the school’s own camp list they appear under {{labels}}.",
+      "tipExamples": "Examples from the school’s catalog: {{camps}}.",
+      "tipNone": "We did not find any {{item}} camps in {{school}}’s published summer catalog. The school groups its camps as {{labels}}.",
+      "note_default": "Based on the school’s published summer camp catalog. Camps change from year to year, so check the school’s site for the current list.",
+      "note_sample": "Our list is a sample of the school’s full catalog, so a camp type may be offered even if it does not appear here. Check the school’s site for the current list.",
+      "note_archive": "Based on the school’s 2023 camp catalog, the most recent one it has published openly. Check the school’s site for the current list.",
+      "note_sportsOnly": "This school’s summer offerings are sports camps run by its own coaches."
     }
   },
   "school": {

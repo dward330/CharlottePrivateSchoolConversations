@@ -117,6 +117,23 @@ export const SUMMER_OVERRIDES: Record<string, Partial<Record<SummerRowKey, strin
   },
 }
 
+/**
+ * The one caveat a parent needs under a summer cell, keyed per school and rendered
+ * from a chrome key (`compare.summer.note_<kind>`): our list is a SAMPLE of the
+ * school's full catalog (so an absent category may still be offered), it is the
+ * school's 2023 catalog (the last one published openly), or the slate is sports
+ * camps only. Schools not listed here get the default note.
+ */
+export type SummerCatalogNote = 'sample' | 'archive' | 'sportsOnly'
+export const SUMMER_CATALOG_NOTES: Record<string, SummerCatalogNote> = {
+  cannon: 'sample',
+  'charlotte-country-day': 'sample',
+  'charlotte-latin': 'sample',
+  'providence-day': 'sample',
+  'hickory-grove-christian': 'archive',
+  'charlotte-catholic': 'sportsOnly',
+}
+
 /** A Yes carries the matching filter indexes and/or the override camp names. */
 export type SummerCell = BuiltCell & { filterIndexes?: number[]; camps?: string[] }
 export type SummerMatrixRow = { key: SummerRowKey; count: number; cells: Record<string, SummerCell> }

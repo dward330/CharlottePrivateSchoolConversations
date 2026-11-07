@@ -165,7 +165,7 @@ async function main() {
   for (const u of summer.matrix.unmapped) failures.push(`summer ${u.slug}: filter "${u.label}" is not in SUMMER_CATEGORY_ALIASES (src/lib/summerMatrix.ts)`)
   for (const u of summer.matrix.missingOverrides) failures.push(`summer ${u.slug} ${u.key}: override camp "${u.name}" is not in the school's catalog`)
   for (const k of summer.keys) needKey(`compare.summer.row_${k}`)
-  for (const k of ['group', 'topic', 'tipLabelsAs', 'tipOverride']) needKey(`compare.summer.${k}`)
+  for (const k of ['group', 'topic', 'tipYes', 'tipFiledUnder', 'tipExamples', 'tipNone', 'note_default', 'note_sample', 'note_archive', 'note_sportsOnly']) needKey(`compare.summer.${k}`)
   for (const n of summer.matrix.unusedAliases) notes.push(`summer: alias "${n}" is used by no comparable school`)
 
   if (!process.argv.includes('--quiet')) {

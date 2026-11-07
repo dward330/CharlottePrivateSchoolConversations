@@ -4,7 +4,7 @@ import { comparableSchools } from '../lib/manifest.ts'
 import { sortRowsByLabel, type MatrixCell, type MatrixDisplayGroup } from '../lib/compareMatrix.ts'
 import { CompareMatrixRows, stateTip, useLang } from './CompareMatrixRows.tsx'
 import { summerProgram } from '../data/summerPrograms.ts'
-import { buildSummerMatrix } from '../lib/summerMatrix.ts'
+import { buildSummerMatrix, SUMMER_CATALOG_NOTES } from '../lib/summerMatrix.ts'
 
 /** Compare › Summer Programs, "Camp categories": each school's published filters mapped to canonical rows. */
 type Col = { slug: string; name: string }
@@ -19,6 +19,8 @@ export function CompareSummerRows({ cols }: { cols: Col[] }) {
   const topic = t('compare.summer.topic')
   const groups = useMemo<MatrixDisplayGroup[]>(() => {
     const list = new Intl.ListFormat(lang, { type: 'conjunction' })
+    // One plain caveat per school, written for a parent (see SUMMER_CATALOG_NOTES).
+    const note = (slug: string) => t(`compare.summer.note_${SUMMER_CATALOG_NOTES[slug] ?? 'default'}`)
     const rows = sortRowsByLabel(
       SUMMER.rows.map((row) => {
         const label = t(`compare.summer.row_${row.key}`)
@@ -26,24 +28,25 @@ export function CompareSummerRows({ cols }: { cols: Col[] }) {
         for (const s of cols) {
           const c = row.cells[s.slug] ?? { state: 'na' }
           const cat = summerProgram(s.slug, lang)?.catalog
-          const own = cat?.categoryFilters.map((f) => f.label) ?? []
-          const tail = cat?.intro ? [cat.intro] : []
+          const own = (cat?.categoryFilters ?? []).filter((f) => f.token.toLowerCase() !== 'all').map((f) => f.label)
           if (c.state === 'yes') {
-            const subLabels = (c.filterIndexes ?? []).map((i) => own[i]).filter(Boolean)
+            const subLabels = (c.filterIndexes ?? []).map((i) => cat?.categoryFilters[i]?.label).filter((x): x is string => Boolean(x))
             const sub = subLabels.join(' · ') || undefined
             const cell: MatrixCell = { state: 'yes', sub, tip: [] }
             cell.tip = [
-              ...stateTip(t, lang, cell, label, s.name, topic),
-              ...(c.camps?.length ? [t('compare.summer.tipOverride', { camps: list.format(c.camps) })] : []),
-              ...tail,
+              t('compare.summer.tipYes', { school: s.name, item: label }),
+              ...(subLabels.length ? [t('compare.summer.tipFiledUnder', { labels: list.format(subLabels) })] : []),
+              ...(c.camps?.length ? [t('compare.summer.tipExamples', { camps: list.format(c.camps) })] : []),
+              note(s.slug),
             ]
             cells[s.slug] = cell
+          } else if (c.state === 'notListed') {
+            const cell: MatrixCell = { state: 'notListed', tip: [] }
+            cell.tip = [t('compare.summer.tipNone', { school: s.name, item: label, labels: list.format(own) }), note(s.slug)]
+            cells[s.slug] = cell
           } else {
-            const cell: MatrixCell = { state: c.state, tip: [] }
+            const cell: MatrixCell = { state: 'na', tip: [] }
             cell.tip = stateTip(t, lang, cell, label, s.name, topic)
-            if (c.state === 'notListed') {
-              cell.tip.push(t('compare.summer.tipLabelsAs', { school: s.name, labels: list.format(own.filter((_, i) => cat?.categoryFilters[i].token.toLowerCase() !== 'all')) }), ...tail)
-            }
             cells[s.slug] = cell
           }
         }
