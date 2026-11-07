@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/comparerows
-prs: []
+prs: [440]
 ---
 
 # Compare page: six tuition rows, a continents row, and four "offered" matrices
