@@ -1,7 +1,7 @@
 ---
 name: testscores
 title: Compare › College Support gains SAT and ACT rows (median · average · middle 50% · class year, stacked) at the top of the section, and the HBCUs row moves up to sit after Power Four
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/testscores
@@ -407,3 +407,26 @@ Two layers, both in scope:
   dashes stay muted.
 - **The PR is not opened in Phase 1.** Per `/implement`, the branch is pushed and the PR
   opens with Phase 2, where step 13 had it opening now.
+- **Phase 2 (2026-11-07).** `i18n_splice_work.mjs --topic metric-values` kept 743, added 29
+  and dropped 0 per locale. The 29 are two labels, two notes, three qual texts, four
+  `(Class of YYYY)` subs and 18 figure-only `values` cells, which are stored verbatim.
+  - **`scores.*` leaves were unclassified**, as step 1 anticipated: 33 per-slug skips
+    (`scores.<slug>.median|mean|mid50`) went into `scripts/i18n_fields.mjs`.
+  - **The splice also repaired Phase 1's index shift.** Metric-values overlay paths carry
+    the `VALUE_METRICS` index (`providence-day:[17].label`). The two inserted rows and the
+    HBCU move therefore left every later row's translations on stale paths until the
+    splice refreshed `at` by stamp, which is most of the work-file diff. Any later
+    mid-array insertion needs the same splice.
+  - **Wording:** each locale reuses its own earlier rendering of `SAT total`,
+    `ACT composite`, `Median` and `middle 50%` from the College Support card's work file.
+    The `(Class of …)` line is translated in all nine (es `Promoción de`, bn `ব্যাচ`,
+    fa `دورهٔ`, ar `دفعة` …).
+  - **Checks:** `check:runtime` and `check:live` passed for all 9. `check:chrome` passed.
+    `check:digits` compared 261 units with 0 to review. `check:sepdrift` ×9 found 0.
+    `check_figures.py` ×9 passed. `check:dates`, `check:fr`, `check:bidi`, `check:fa`,
+    `check:hi` and `npm run build` passed.
+  - **Leaks:** `i18n:leaks` flags only `SAT total` (kept in es/fr) and `ACT composite`
+    (kept in fr/it/bn/te/hi). Both match each locale's existing choice on the card.
+  - **Browser** (Playwright, real Chrome, fa/ar/bn/hi/es): labels, notes, line labels and
+    class lines are translated, and HBCUs follows Power Four. Every middle-50% range reads
+    low→high by glyph-x position in fa and ar. The CCD tooltips are translated.
