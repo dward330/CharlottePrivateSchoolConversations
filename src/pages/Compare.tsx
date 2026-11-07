@@ -29,6 +29,7 @@ import { CompareSportsRows } from '../components/CompareSportsRows.tsx'
 import { CompareArtsRows } from '../components/CompareArtsRows.tsx'
 import { CompareCourseRows } from '../components/CompareCourseRows.tsx'
 import { CompareClubsRows } from '../components/CompareClubsRows.tsx'
+import { CompareSummerRows } from '../components/CompareSummerRows.tsx'
 import { useDragPan } from '../lib/useDragPan.ts'
 import { collegeSupportProgram } from '../data/collegeSupport.ts'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
@@ -719,6 +720,7 @@ export function Compare({ topic, schools }: Props) {
               {activeTopic === 'the-arts' && <CompareArtsRows cols={cols} />}
               {activeTopic === 'course-offerings' && <CompareCourseRows cols={cols} />}
               {activeTopic === 'student-clubs' && <CompareClubsRows cols={cols} />}
+              {activeTopic === 'summer-programs' && <CompareSummerRows cols={cols} />}
               <tbody>
                 {(valueMetrics.length > 0 || hasComputedGroup(activeTopic)) && (
                   <tr className="group-row">
