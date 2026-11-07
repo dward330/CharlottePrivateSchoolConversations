@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/testscores
-prs: []
+prs: [439]
 ---
 
 # Compare › College Support: SAT and ACT rows, and HBCUs moved up
