@@ -42,6 +42,8 @@ const WHY_PD = 'https://www.providenceday.org/admissions/why-providence-day'
 const CUM_LAUDE_NEWS =
   'https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/pd-celebrates-34-new-members-of-the-cum-laude-society'
 const NHS_NEWS = 'https://www.providenceday.org/cf_news/view.cfm?newsid=2101'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf'
 const TRI_M_NEWS =
   'https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/eleven-upper-school-students-inducted-into-tri-m-music-honor-society'
 
@@ -143,7 +145,7 @@ export const providenceDay: ClubsProgram = {
     ],
     footnoteTitle: 'Beyond the big three',
     footnote:
-      'The school also advertises over 30 student-run service clubs, and each division carries its own partnership: 6th grade with Movement School, 7th with Winterfield Elementary, 8th with Wilson STEM Academy, and a 9th-grade Charger Impact Challenge.',
+      'The school also advertises over 30 student-run service clubs, and each division carries its own partnership: 6th grade with Movement School, 7th with Winterfield Elementary, 8th with Wilson STEM Academy, and a 9th-grade Charger Impact Challenge. The school has no community service requirement.',
     flags: [
       {
         kind: 'not-a-club',
@@ -154,6 +156,7 @@ export const providenceDay: ClubsProgram = {
       { label: 'providenceday.org — Freedom School', url: FREEDOM_SCHOOL },
       { label: 'Social Responsibility — web archive, captured 2025-04-07', url: SOCIAL_RESPONSIBILITY_ARCHIVE },
       { label: 'Why Providence Day (30+ service clubs)', url: WHY_PD },
+      { label: 'providenceday.org — 2026–27 profile (no community service requirement)', url: PROFILE_2627 },
     ],
   },
 
@@ -174,7 +177,7 @@ export const providenceDay: ClubsProgram = {
         name: 'National Honor Society',
         division: 'Upper School',
         recognizes:
-          'Scholarship, leadership, service and character — 3.6 cumulative GPA minimum',
+          'Scholarship, leadership, service and character — 3.6 cumulative GPA minimum · 118 seniors inducted, Class of 2026',
         feedsFrom: 'classroom + service',
       },
       {
@@ -199,7 +202,7 @@ export const providenceDay: ClubsProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'There is no standing honor-societies page. Every fact here comes from one-off news posts, so the published counts are historical rather than current — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other four publish none.',
+        text: 'There is no standing honor-societies page. Every fact here comes from one-off news posts, so the published counts are historical rather than current, except the 2026–27 profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other four publish none.',
       },
       {
         kind: 'gap',
@@ -210,6 +213,7 @@ export const providenceDay: ClubsProgram = {
       { label: 'School news — Cum Laude induction', url: CUM_LAUDE_NEWS },
       { label: 'School news — National Honor Society criteria & induction', url: NHS_NEWS },
       { label: 'School news — Tri-M induction', url: TRI_M_NEWS },
+      { label: 'providenceday.org — 2026–27 profile (118 NHS inductees, Class of 2026)', url: PROFILE_2627 },
     ],
   },
 }

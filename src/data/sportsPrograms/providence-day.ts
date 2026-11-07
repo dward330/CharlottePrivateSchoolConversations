@@ -20,6 +20,8 @@ const CHAMPS =
   'https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/'
 const NEXT_LEVEL = 'https://www.pdschargers.com/more/honors-hall-of-fame-wells-fargo-cup/'
 const CUP_BASE = 'https://www.ncisaa.org/recognition/wells-fargo-cup/'
+const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf'
 
 export const providenceDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -245,7 +247,7 @@ export const providenceDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'Treat the D1 tally as a floor, not a ceiling: the school’s own single-class graphic claims 31 future NCAA student-athletes across 15 sports and 24 colleges in one senior class. An offer also differs from a commitment — one elite recruit can hold 7–8 Power 4 offers but makes a single commitment. Of the 17 P4 commits, the ACC takes 8, the Big Ten 4 and the SEC 4; the Big 12 is not represented in this window.',
+      'Treat the D1 tally as a floor, not a ceiling: the school’s own single-class graphic claims 31 future NCAA student-athletes across 15 sports and 24 colleges in one senior class; the 2026–27 profile puts the Class of 2026 at 31 college athletes, 13 of them at Division I. An offer also differs from a commitment — one elite recruit can hold 7–8 Power 4 offers but makes a single commitment. Of the 17 P4 commits, the ACC takes 8, the Big Ten 4 and the SEC 4; the Big 12 is not represented in this window.',
     sportBars: [
       { sport: 'Football', count: 15, width: 1, p4Width: 0.73 },
       { sport: 'Swimming', count: 4, width: 0.27, p4Width: 0.2 },
@@ -364,6 +366,7 @@ export const providenceDay: SportsProgram = {
       'Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12.',
     sources: [
       { label: 'pdschargers.com — Alumni at the Next Level', url: NEXT_LEVEL },
+      { label: 'providenceday.org — 2026–27 profile (Class of 2026: 31 college athletes, 13 at Division I)', url: PROFILE_2627 },
       {
         label: 'NC Football News — 2027 consensus rankings',
         url: 'https://ncfootballnews.com/north-carolina-2027-football-recruiting-consensus-rankings-may-2026-update/',

@@ -351,6 +351,7 @@
 | Houghton University | https://www.houghton.edu | 200 |
 | Houston Baptist University | https://hc.edu | 200 via redirect; institution renamed Houston Christian University in 2023 |
 | Howard University | https://howard.edu | 200 |
+| Huntingdon College | https://www.huntingdon.edu | 200 via redirect from huntingdon.edu; browser-confirmed 2026-11-07: Huntingdon College, Montgomery, Alabama 36106 (added for `pdprofile`) |
 | Husson University | https://www.husson.edu | 200 |
 | Illinois Institute of Technology | https://www.iit.edu | 200 |
 | Immaculata University | https://www.immaculata.edu | 200 |

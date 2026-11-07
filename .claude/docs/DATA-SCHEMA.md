@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 529 ingested research documents.
+**13 schools × 12 research areas**, 530 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 2 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 18 | 18 | 2 | 17 | 18 | 2 | 3 | 20 | 2 |
-| College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
+| College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 12 | 2 | 3 | 12 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -713,8 +713,10 @@ font face in a PDF (`pdftohtml -xml`) — never from a text-layer or markdown
 transcription, and record the bold count in the source file.** A transcription loses
 or invents bold silently: Country Day's list carried a Yale marker the PDF's font runs
 never supported, and its planning table dropped Northeastern's bold that the final
-edition's font run keeps (fixed in `ccdprofile`, 2026-11-07). Assert the count of
-`enrolling: true` against the recorded bold count after every edit.
+edition's font run keeps (fixed in `ccdprofile`, 2026-11-07); Providence Day's list
+marked 107 rows, every "University of …" row among them, where the profile's bold face
+marks 182 (fixed in `pdprofile`). Assert the count of `enrolling: true` against the
+recorded bold count after every edit.
 
 **`counseling.roster[].email` is the school's own published address, never a
 guess.** It comes from the counseling page, a staff pop-up or the school directory

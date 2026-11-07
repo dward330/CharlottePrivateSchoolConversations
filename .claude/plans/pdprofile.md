@@ -1,7 +1,7 @@
 ---
 name: pdprofile
 title: Refresh Providence Day from its 2026–27 profile — May 2026 AP (1,282 exams, 93%/76%), Class of 2026 SAT/ACT with ACT Reading and Science added, Class of 2027 quintiles, 754/179 enrollment and ~36:1 caseload (Compare ~44:1 corrected), Class of 2026 awards ($21M, 9 NMF, 58 National Recognition, 118 NHS, 375 GSD graduates), Huntingdon College added (383 rows) and the acceptance list's bold markers corrected from 107 to the profile's 182; Sports, Clubs and Compare follow-ons; amended 2026-11-07 for the Compare SAT/ACT rows that shipped after planning
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-11-05
 branch: feat/pd-profile-2627
@@ -558,3 +558,25 @@ mechanism. The traps:
   it unlinked.
 
 ## Implementation notes
+Phase 1 (English) built 2026-11-07 on `feat/pd-profile-2627`. Deviations from the plan:
+
+- **Step 2 (ingest).** The source file was already committed and its Compare AP cells shipped
+  by `ap45` (#430), but the distilled doc `.claude/docs/college-support/providence-day.md` had
+  never been regenerated. The full rebuild churned 96 unrelated docs (date stamps) and
+  reordered `schools.json`. Only the PD doc, the PD content JSON and the one new manifest
+  document entry (HEAD order restored) were kept.
+- **D19.** The bold-marker rule was already in `gen_data_schema.mjs`, added by `ccdprofile`
+  (#441). It now cites Providence Day as a second example (107 marked vs 182 bold) rather
+  than being added twice.
+- **D5.** Huntingdon's homepage was confirmed in headless Chromium (Playwright) because the
+  Chrome extension was not connected. `huntingdon.edu` redirects to `https://www.huntingdon.edu/`
+  and the page names Huntingdon College, Montgomery, Alabama 36106. The stored URL is the
+  final host.
+- **D9 `gpaNote`.** The old "mid-B-plus unweighted" reading of the median was an inference
+  we could not re-derive for 4.017. It now says only that a 4.017 middle fifth is not a
+  straight-A unweighted transcript, because part of it is honours and AP weight.
+- **D2 (user, 2026-11-07).** The user confirmed that the list stays cumulative. The profile was
+  merged into the shipped list: one name added and none removed.
+- **Phase 1 build.** `npm run build` stops at `check:live`, because 49 shipped overlay entries
+  per locale were stamped against the English this phase rewrote. That is Phase 2's work.
+  Every other check in the build chain passes when run on its own.
