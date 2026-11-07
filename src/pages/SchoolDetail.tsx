@@ -865,8 +865,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
                1b Service, 1c Honor Societies) while Academic & Competitive
                Clubs and Club Catalog & Overview keep rendering from their own
                structured layers below. So this is a merge, not a substitution —
-               the structured cards render first, and the prose loop is filtered
-               down to the two that remain.
+               the prose loop is filtered down to the two that remain, and the
+               area renders the Club Catalog first, then the 1a–1c cards, then
+               Academic & Competitive Clubs (user, 2026-11-07).
 
                A school with no data for a card omits it entirely rather than
                rendering it empty: Davidson Day publishes no affinity roster and
@@ -1037,6 +1038,135 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               : clubs
                               ? clubsCards.length + groups.length
                               : groups.length
+            /* The prose cards this section renders: none where a structured
+               layer substitutes for the whole area, otherwise every group. */
+            const proseGroups =
+              (t.slug === 'course-offerings' && offerings) ||
+              (t.slug === 'sports' && sports) ||
+              (t.slug === 'the-arts' && arts) ||
+              (t.slug === 'college-support' && collegeSupport) ||
+              (t.slug === 'high-school-placement' && highSchoolPlacement) ||
+              (t.slug === 'after-school' && afterSchool) ||
+              (t.slug === 'summer-programs' && summer) ||
+              (t.slug === 'admissions' && admissions) ||
+              (t.slug === 'international-travel' && travel) ||
+              (t.slug === 'learning-support' && learning)
+                ? []
+                : groups
+            /* Student Clubs leads with the Club Catalog & Overview card, ahead
+               of the 1a–1c structured cards; Academic & Competitive Clubs
+               follows them. Every other area renders its groups in order. */
+            const leadGroups = clubs ? proseGroups.filter((g) => g.metric.key === 'catalog') : []
+            const tailGroups = clubs ? proseGroups.filter((g) => g.metric.key !== 'catalog') : proseGroups
+            const renderGroup = (g: MetricGroup) => {
+              /* The Financial Aid deep-dive has a hand-structured report
+                 behind it; it replaces the prose body and always claims
+                 the full grid row rather than reflowing into columns.
+                 It attaches to the deep-dive card only — the topic also
+                 carries plain notes (tuition history, provenance) that
+                 must keep rendering as prose. */
+              const report =
+                t.slug === 'financial-aid-tuition' &&
+                g.metric.key === 'in-depth-report'
+                  ? financialAidReport(slug, lang)
+                  : undefined
+              /* The Academic & Competitive Clubs card, where the school
+                 has a structured entry, swaps its prose body for the
+                 layered club-cluster rows and leads with the verdict as
+                 its collapsed teaser. */
+              const clusters =
+                t.slug === 'student-clubs' &&
+                g.metric.key === 'academic-clubs'
+                  ? clubClusters(slug, lang)
+                  : undefined
+              /* The Club Catalog & Overview card, where the school has a
+                 structured entry, swaps its prose body for the filterable
+                 interest index and leads with the catalog verdict as its
+                 collapsed teaser. */
+              const catalog =
+                t.slug === 'student-clubs' && g.metric.key === 'catalog'
+                  ? clubCatalog(slug, lang)
+                  : undefined
+              return (
+                <details
+                  key={g.metric.key}
+                  className={`note-card${report || clusters || catalog ? ' note-card-report' : ''}`}
+                >
+                  <summary>
+                    <span className="note-card-head">
+                      <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label, t.slug)}</span>
+                      <span className="topic-teaser">
+                        {/* The report replaces the prose BODY, so the teaser
+                            must come from the report too — deriving it from
+                            the prose would show English under a Spanish card. */}
+                        {localizeMoneyText(report
+                          ? `${report.title} · ${report.meta}`
+                          : clusters
+                          ? clusters.verdict
+                          : catalog
+                            ? catalog.verdict
+                            : proseSummary(
+                                g.sections[0]?.text ?? '',
+                                g.metric.label,
+                                t.slug,
+                                g.sections[0]?.subtopic,
+                              ) ||
+                              /* The stored preview is raw, unparsed text: it can carry both
+                                 the research-gap framing the parser strips AND markdown
+                                 syntax, which this plain-text span would render literally
+                                 ("| Band | 2021–22 | | --- |"). Gate on the first, flatten
+                                 the second. */
+                              (previewHasGapLanguage(g.sections[0]?.preview ?? '', t.slug)
+                                ? ''
+                                : flattenMarkdown(g.sections[0]?.preview ?? '')))}
+                      </span>
+                    </span>
+                    <span className="plusmark"><PlusIcon /></span>
+                  </summary>
+                  <div className="note-card-body">
+                    {report ? (
+                      <FinancialAidReportCard report={report} />
+                    ) : clusters ? (
+                      <ClubClustersBody clusters={clusters} />
+                    ) : catalog ? (
+                      <ClubCatalogBody catalog={catalog} />
+                    ) : (
+                      /* A subtopic whose whole body is filtered out at parse
+                         time (the tuition-history provenance sections) would
+                         otherwise ship as a bare <h3> over empty space — the
+                         shape the no-empty-cards rule forbids. The heading is
+                         rendered here rather than inside ProseContent, so the
+                         emptiness has to be tested here too. */
+                      g.sections
+                        .filter(
+                          (s) =>
+                            !proseIsEmpty(
+                              s.text,
+                              metricLabel(tr, g.metric.key, g.metric.label, t.slug),
+                              t.slug,
+                              s.subtopic,
+                            ),
+                        )
+                        .map((s, i, kept) => (
+                        <article key={i} className="section-text">
+                          {kept.length > 1 &&
+                            s.subtopic !== g.metric.label &&
+                            !/deep research/i.test(s.subtopic) && (
+                              <h3 className="section-sub">{s.subtopic}</h3>
+                            )}
+                          <ProseContent
+                            text={s.text}
+                            title={metricLabel(tr, g.metric.key, g.metric.label, t.slug)}
+                            topic={t.slug}
+                            subtopic={s.subtopic}
+                          />
+                        </article>
+                      ))
+                    )}
+                  </div>
+                </details>
+              )
+            }
             return (
               <section
                 key={t.slug}
@@ -1529,16 +1659,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 )}
 
                 <div className="note-cards">
-                  {/* Student Clubs: the three redesigned cards, in the fixed
-                      1a–1c order, ahead of the two prose cards that remain.
-                      Cards a school has no data for are absent from clubsCards
-                      and simply do not render.
+                  {/* Student Clubs: the Club Catalog & Overview card first,
+                      then the three redesigned cards in the fixed 1a–1c order,
+                      then Academic & Competitive Clubs. Cards a school has no
+                      data for are absent from clubsCards and simply do not
+                      render.
 
-                      These render INSIDE the shared .note-cards grid rather than
-                      in a grid of their own: two adjacent grids each start their
-                      own rows, so the prose cards below could not see these
-                      cards' row heights and collided with the tallest of them.
-                      One grid means all five cards flow as siblings. */}
+                      All of these render INSIDE the shared .note-cards grid
+                      rather than in a grid of their own: two adjacent grids each
+                      start their own rows, so the prose cards could not see the
+                      structured cards' row heights and collided with the tallest
+                      of them. One grid means all five cards flow as siblings. */}
+                  {leadGroups.map(renderGroup)}
                   {ready &&
                     t.slug === 'student-clubs' &&
                     clubs &&
@@ -1563,128 +1695,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         </div>
                       </details>
                     ))}
-                  {(
-                    (t.slug === 'course-offerings' && offerings) ||
-                    (t.slug === 'sports' && sports) ||
-                    (t.slug === 'the-arts' && arts) ||
-                    (t.slug === 'college-support' && collegeSupport) ||
-                    (t.slug === 'high-school-placement' && highSchoolPlacement) ||
-                    (t.slug === 'after-school' && afterSchool) ||
-                    (t.slug === 'summer-programs' && summer) ||
-                    (t.slug === 'admissions' && admissions) ||
-                    (t.slug === 'international-travel' && travel) ||
-                    (t.slug === 'learning-support' && learning)
-                      ? []
-                      : groups
-                  ).map((g) => {
-                    /* The Financial Aid deep-dive has a hand-structured report
-                       behind it; it replaces the prose body and always claims
-                       the full grid row rather than reflowing into columns.
-                       It attaches to the deep-dive card only — the topic also
-                       carries plain notes (tuition history, provenance) that
-                       must keep rendering as prose. */
-                    const report =
-                      t.slug === 'financial-aid-tuition' &&
-                      g.metric.key === 'in-depth-report'
-                        ? financialAidReport(slug, lang)
-                        : undefined
-                    /* The Academic & Competitive Clubs card, where the school
-                       has a structured entry, swaps its prose body for the
-                       layered club-cluster rows and leads with the verdict as
-                       its collapsed teaser. */
-                    const clusters =
-                      t.slug === 'student-clubs' &&
-                      g.metric.key === 'academic-clubs'
-                        ? clubClusters(slug, lang)
-                        : undefined
-                    /* The Club Catalog & Overview card, where the school has a
-                       structured entry, swaps its prose body for the filterable
-                       interest index and leads with the catalog verdict as its
-                       collapsed teaser. */
-                    const catalog =
-                      t.slug === 'student-clubs' && g.metric.key === 'catalog'
-                        ? clubCatalog(slug, lang)
-                        : undefined
-                    return (
-                      <details
-                        key={g.metric.key}
-                        className={`note-card${report || clusters || catalog ? ' note-card-report' : ''}`}
-                      >
-                        <summary>
-                          <span className="note-card-head">
-                            <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label, t.slug)}</span>
-                            <span className="topic-teaser">
-                              {/* The report replaces the prose BODY, so the teaser
-                                  must come from the report too — deriving it from
-                                  the prose would show English under a Spanish card. */}
-                              {localizeMoneyText(report
-                                ? `${report.title} · ${report.meta}`
-                                : clusters
-                                ? clusters.verdict
-                                : catalog
-                                  ? catalog.verdict
-                                  : proseSummary(
-                                      g.sections[0]?.text ?? '',
-                                      g.metric.label,
-                                      t.slug,
-                                      g.sections[0]?.subtopic,
-                                    ) ||
-                                    /* The stored preview is raw, unparsed text: it can carry both
-                                       the research-gap framing the parser strips AND markdown
-                                       syntax, which this plain-text span would render literally
-                                       ("| Band | 2021–22 | | --- |"). Gate on the first, flatten
-                                       the second. */
-                                    (previewHasGapLanguage(g.sections[0]?.preview ?? '', t.slug)
-                                      ? ''
-                                      : flattenMarkdown(g.sections[0]?.preview ?? '')))}
-                            </span>
-                          </span>
-                          <span className="plusmark"><PlusIcon /></span>
-                        </summary>
-                        <div className="note-card-body">
-                          {report ? (
-                            <FinancialAidReportCard report={report} />
-                          ) : clusters ? (
-                            <ClubClustersBody clusters={clusters} />
-                          ) : catalog ? (
-                            <ClubCatalogBody catalog={catalog} />
-                          ) : (
-                            /* A subtopic whose whole body is filtered out at parse
-                               time (the tuition-history provenance sections) would
-                               otherwise ship as a bare <h3> over empty space — the
-                               shape the no-empty-cards rule forbids. The heading is
-                               rendered here rather than inside ProseContent, so the
-                               emptiness has to be tested here too. */
-                            g.sections
-                              .filter(
-                                (s) =>
-                                  !proseIsEmpty(
-                                    s.text,
-                                    metricLabel(tr, g.metric.key, g.metric.label, t.slug),
-                                    t.slug,
-                                    s.subtopic,
-                                  ),
-                              )
-                              .map((s, i, kept) => (
-                              <article key={i} className="section-text">
-                                {kept.length > 1 &&
-                                  s.subtopic !== g.metric.label &&
-                                  !/deep research/i.test(s.subtopic) && (
-                                    <h3 className="section-sub">{s.subtopic}</h3>
-                                  )}
-                                <ProseContent
-                                  text={s.text}
-                                  title={metricLabel(tr, g.metric.key, g.metric.label, t.slug)}
-                                  topic={t.slug}
-                                  subtopic={s.subtopic}
-                                />
-                              </article>
-                            ))
-                          )}
-                        </div>
-                      </details>
-                    )
-                  })}
+                  {tailGroups.map(renderGroup)}
                 </div>
               </section>
             )
