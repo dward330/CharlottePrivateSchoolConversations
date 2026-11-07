@@ -2,13 +2,18 @@
 // (plan `comparerows`, 2026-11-07). See src/lib/artsMatrix.ts for why this is
 // typed rather than derived.
 //
-// EVERY VALUE IS A VERBATIM FRAGMENT of that school's src/data/artsPrograms/
-// <slug>.ts — the line that names the art form for that division. check:matrices
-// asserts each fragment is still a substring of the file, so an arts-prose edit
-// that removes the evidence fails the build until this table is revisited.
-// A chip is never inferred from a grade span; a claim comes only from these
-// files, never from outside them. AP Studio Art is not a row (the
-// `advanced-arts-coursework` Compare row covers it).
+// EVERY VALUE IS EVIDENCE FROM THE SCHOOL'S OWN DATA IN THIS REPO: a verbatim
+// fragment of src/data/artsPrograms/<slug>.ts (the line that names the art form
+// for that division), or `{ course: '…' }`, an exact course title in that
+// division of src/data/courseOfferings.ts (added at the English review,
+// 2026-11-07, after a second pass found the catalogs name dance, guitar,
+// printmaking, fiber crafts and praise teams the arts prose never mentions).
+// check:matrices asserts each fragment is still a substring of the file and
+// each course title still exists in that division, so a data edit that removes
+// the evidence fails the build until this table is revisited. A chip is never
+// inferred from a grade span; a claim comes only from these two sources, never
+// from outside them. AP Studio Art is not a row (the `advanced-arts-coursework`
+// Compare row covers it).
 //
 // Divisions follow each school's own spans: Charlotte Christian's Middle School
 // is grades 5–8 (so its ladder's grade-5 and grade-6 items are MS chips even
@@ -19,6 +24,10 @@ import type { ArtsTable, ArtsUnknown } from '../lib/artsMatrix.ts'
 
 export const ARTS_MATRIX: ArtsTable = {
   'providence-day': {
+    band: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Band'" },
+    orchestra: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Orchestra'" },
+    choir: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Chorus'" },
+    printmaking: { MS: { course: 'Introduction to Printmaking' } },
     visualArt: { LS: 'Visual Arts strands' },
     drawingPainting: { US: 'Drawing & painting' },
     sculpture: { US: 'Sculpture' },
@@ -26,9 +35,6 @@ export const ARTS_MATRIX: ArtsTable = {
     darkroom: { US: 'Film photography' },
     fiberFashion: { US: 'Print & textile' },
     generalMusic: { LS: 'Active-listening music curriculum' },
-    band: { MS: 'Band · chorus · orchestra', US: "'Band'" },
-    orchestra: { MS: 'Band · chorus · orchestra', US: "'Orchestra'" },
-    choir: { MS: 'Band · chorus · orchestra', US: "'Chorus'" },
     jazz: { US: 'Jazz Ensemble' },
     aCappella: { US: 'A Cappella' },
     musicTheory: { US: 'AP Music Theory' },
@@ -37,6 +43,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { MS: 'technical theatre — tech starts this early', US: 'technical theater classes' },
   },
   'charlotte-latin': {
+    choir: { LS: { course: 'Band / Strings / Choir' }, MS: 'Band, orchestra, choir and theater are the foundation', US: 'Concert Choir (5–12)' },
     visualArt: { LS: 'Visual art begins in transitional kindergarten', MS: 'Visual arts electives by choice' },
     drawingPainting: { MS: 'may sculpt, paint, draw', US: 'Drawing & painting' },
     sculpture: { MS: 'may sculpt, paint, draw' },
@@ -47,7 +54,6 @@ export const ARTS_MATRIX: ArtsTable = {
     generalMusic: { LS: 'Experiential music' },
     band: { LS: 'Band and stringed instruments introduced in Grade 5', MS: 'Band, orchestra, choir and theater are the foundation', US: 'Band (6–12)' },
     orchestra: { LS: 'Band and stringed instruments introduced in Grade 5', MS: 'Band, orchestra, choir and theater are the foundation', US: 'Orchestra (6–12)' },
-    choir: { MS: 'Band, orchestra, choir and theater are the foundation', US: 'Concert Choir (5–12)' },
     musicTheory: { US: 'AP Music Theory' },
     plays: { MS: 'The Odyssey (MS play, May)', US: 'Upper School Play' },
     musicals: { LS: 'Madagascar Kids', MS: 'Into the Woods Jr. (MS, Nov)', US: 'Upper School Musical' },
@@ -75,6 +81,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'technical-theatre track in set, lighting, sound and stage management' },
   },
   cannon: {
+    choir: { MS: { course: 'Major Art: Strings, Band, or Chorus' }, US: 'Honors Concert Chorus' },
     drawingPainting: { LS: 'drawing, painting, collage, paper sculpture', MS: 'drawing, painting, printmaking, ceramics, sculpture', US: '2-D studio' },
     ceramics: { LS: 'clay, fibre art', MS: 'ceramics', US: '3-D studio' },
     sculpture: { LS: 'paper sculpture', MS: 'sculpture', US: '3-D studio' },
@@ -87,7 +94,6 @@ export const ARTS_MATRIX: ArtsTable = {
     generalMusic: { LS: 'Music built on the Orff approach' },
     band: { MS: 'Varsity Band spans grades 6–12', US: 'Honors Upper School Band' },
     orchestra: { MS: 'Varsity Orchestra is competitive', US: 'Honors String Ensemble I' },
-    choir: { US: 'Honors Concert Chorus' },
     jazz: { US: 'Honors Jazz Combo' },
     contemporaryEnsemble: { US: 'Honors Modern Ensemble' },
     musicTechnology: { US: 'Honors Music Technology I' },
@@ -95,6 +101,9 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { LS: 'A separate Lower/Middle School musical for grades 3–6', MS: 'A separate Lower/Middle School musical for grades 3–6', US: 'Musical (Blumey)' },
   },
   'charlotte-christian': {
+    generalMusic: { LS: { course: 'Music' } },
+    guitar: { US: { course: 'Introduction to Guitar' } },
+    dance: { US: { course: 'Dance' } },
     visualArt: { LS: 'Visual art begins' },
     drawingPainting: { US: '2-D: drawing & painting' },
     sculpture: { US: '3-D: Art & Design' },
@@ -112,7 +121,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'technical directing and stage management' },
   },
   'covenant-day': {
-    visualArt: { LS: 'art integrated in JK–K and sequential from grade 1' },
+    visualArt: { LS: 'art integrated in JK–K and sequential from grade 1', MS: { course: 'Art' } },
     drawingPainting: { US: 'Drawing & painting' },
     sculpture: { US: '2D / 3D design' },
     ceramics: { US: "'Ceramics'" },
@@ -139,8 +148,8 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { US: 'Upper School Musical' },
   },
   'carmel-christian': {
+    photography: { MS: { course: 'Digital Photography' }, US: 'Digital Photography' },
     visualArt: { LS: 'Every K–4 student takes both music and art classes', MS: 'Band · Choir · Ignite (MS Praise Band) · Art · Theatre', US: 'Visual Arts' },
-    photography: { US: 'Digital Photography' },
     generalMusic: { LS: 'music and art classes' },
     choir: { LS: 'may join choir / creative arts', MS: 'Band · Choir', US: 'Choir (HS · 5th · MS)' },
     band: { MS: 'Band · Choir', US: 'Symphonic Band (HS)' },
@@ -151,6 +160,11 @@ export const ARTS_MATRIX: ArtsTable = {
     dance: { MS: 'Musical Theatre Dance' },
   },
   'hickory-grove-christian': {
+    photography: { US: { course: 'Introduction to Photography and Design' } },
+    graphicDesign: { MS: { course: 'Graphic Design' } },
+    fiberFashion: { MS: { course: 'Sewing' }, US: { course: 'Fiber Crafts I' } },
+    worshipBand: { MS: { course: 'Praise Team' } },
+    dance: { MS: { course: 'Dance' } },
     visualArt: { LS: 'Visual art at every level', MS: 'Visual arts: original artwork', US: 'Visual Arts (Art I–IV)' },
     generalMusic: { LS: 'General music aligned to the National Standards' },
     band: { MS: 'Band (6th-grade beginners', US: 'Concert Band' },
@@ -161,6 +175,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'Technical Theatre' },
   },
   'gaston-day': {
+    percussion: { MS: 'MS Instrumental Ensemble — percussion' },
     visualArt: { LS: 'Music, art and drama coordinated with classroom units', MS: 'Electives chosen from art, drama, chorus and band' },
     drawingPainting: { US: "'Drawing'" },
     ceramics: { US: "'Ceramics'" },

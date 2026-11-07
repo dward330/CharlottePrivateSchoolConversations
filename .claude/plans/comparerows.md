@@ -881,3 +881,14 @@ from the plan as written, each deliberate:
 - **The division legend repeats on every band, not the first only** (user, 2026-11-07, at
   the English review): a reader deep in the Music band should not scroll back to Visual
   arts to decode LS · MS · US.
+- **Arts claims may cite an exact course title from the school's own catalog** (user
+  request at the English review, 2026-11-07: a second pass over Not-listed cells). The
+  arts modules are prose and never mention Charlotte Christian's Upper School *Dance*
+  elective, Hickory Grove's Middle School *Dance*, *Praise Team* and *Sewing*, Providence
+  Day's Lower School *Band, Orchestra & Chorus* or its *Introduction to Printmaking*, all of
+  which sit in `courseOfferings.ts`. A claim can now be `{ course: '…' }`, verified by
+  `check:matrices` as an exact title in that division; 17 such claims landed (243 cites
+  total). A web sweep of the nine schools' own sites for dance found nothing beyond
+  athletics dance teams, after-school enrichment and a studio, except Davidson Day's
+  "music, dance, and movement" line for Early Childhood, which is web-only and was not
+  added (it would need source-material and an arts-module edit first).

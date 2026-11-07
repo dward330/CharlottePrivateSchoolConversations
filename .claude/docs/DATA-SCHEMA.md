@@ -1269,9 +1269,10 @@ where the school's own text names the item for that division. `npm run check:mat
 
 **Arts offered** (The Arts topic, `src/lib/artsMatrix.ts` → `CompareArtsRows.tsx`): 29 rows
 in three bands. **Every Yes is a typed claim** in `src/data/artsMatrix.ts` whose value is a
-verbatim fragment of that school's `src/data/artsPrograms/<slug>.ts`, because the arts modules
-are prose and ensemble names, not a roster — a derived "No" would say Hickory Grove teaches no
-painting. The check asserts every fragment is still a substring of the file. A division the
+verbatim fragment of that school's `src/data/artsPrograms/<slug>.ts` or an exact course title in
+that division of `courseOfferings.ts`, because the arts modules are prose and ensemble names, not
+a roster — a derived "No" would say Hickory Grove teaches no painting. The check asserts every
+fragment is still a substring of the file and every course title still exists. A division the
 school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says so in the tooltip.
 
 | Arts row (visual) | Schools |
@@ -1280,27 +1281,27 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `drawingPainting` | 9/11 |
 | `ceramics` | 6/11 |
 | `sculpture` | 7/11 |
-| `printmaking` | 3/11 |
-| `photography` | 9/11 |
+| `printmaking` | 4/11 |
+| `photography` | 10/11 |
 | `darkroom` | 3/11 |
-| `graphicDesign` | 7/11 |
+| `graphicDesign` | 8/11 |
 | `filmVideo` | 6/11 |
-| `fiberFashion` | 3/11 |
+| `fiberFashion` | 4/11 |
 | `designFabrication` | 1/11 |
 
 | Arts row (music) | Schools |
 |---|--:|
-| `generalMusic` | 8/11 |
+| `generalMusic` | 9/11 |
 | `band` | 10/11 |
 | `orchestra` | 5/11 |
 | `choir` | 10/11 |
 | `jazz` | 5/11 |
 | `aCappella` | 2/11 |
-| `percussion` | 2/11 |
+| `percussion` | 3/11 |
 | `marchingBand` | 1/11 |
-| `guitar` | 2/11 |
+| `guitar` | 3/11 |
 | `piano` | 2/11 |
-| `worshipBand` | 3/11 |
+| `worshipBand` | 4/11 |
 | `contemporaryEnsemble` | 2/11 |
 | `musicTechnology` | 2/11 |
 | `musicTheory` | 3/11 |
@@ -1310,7 +1311,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `plays` | 11/11 |
 | `musicals` | 10/11 |
 | `technicalTheatre` | 8/11 |
-| `dance` | 2/11 |
+| `dance` | 4/11 |
 
 **Subjects by division** and **World languages** (Course Offerings topic, `src/lib/courseMatrix.ts` →
 `CompareCourseRows.tsx`): 12 subject rows and 7 language rows. Department names map through

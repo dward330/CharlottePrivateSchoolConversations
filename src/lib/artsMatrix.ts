@@ -6,10 +6,12 @@
 // are prose lines per division, ensemble names and a curated studio grid — not
 // a roster. Deriving a "No" from the media grid would say Hickory Grove teaches
 // no painting, which its "Art I–IV" plainly does. So each Yes is a typed claim
-// in src/data/artsMatrix.ts whose value is a VERBATIM fragment of that school's
-// arts module; check:matrices asserts every fragment is still a substring of
-// the file, so an arts-prose edit that invalidates a claim fails the build.
-// The negative cell reads "Not listed", never "No".
+// in src/data/artsMatrix.ts whose value is either a VERBATIM fragment of that
+// school's arts module or `{ course }`, an exact course title in that division
+// of the school's own catalog (src/data/courseOfferings.ts). check:matrices
+// asserts every fragment is still a substring of the file and every course
+// title still exists in that division, so a data edit that invalidates a claim
+// fails the build. The negative cell reads "Not listed", never "No".
 //
 // Types only, so this loads under plain Node for the check and the schema doc.
 
@@ -41,8 +43,10 @@ export const ART_GROUPS: { key: ArtGroupKey; keys: ArtKey[] }[] = [
 
 export const ART_KEYS: ArtKey[] = ART_GROUPS.flatMap((g) => g.keys)
 
-/** Per art form, per division: the verbatim fragment of the school's arts module that proves it. */
-export type ArtsClaims = Partial<Record<ArtKey, Partial<Record<Division, string>>>>
+/** A claim's evidence: a verbatim arts-module fragment, or an exact course title in that division's catalog. */
+export type ArtsCite = string | { course: string }
+/** Per art form, per division: the evidence that proves it. */
+export type ArtsClaims = Partial<Record<ArtKey, Partial<Record<Division, ArtsCite>>>>
 export type ArtsTable = Record<string, ArtsClaims>
 /** Per school, a division it publishes nothing for (one reader-facing reason each). */
 export type ArtsUnknown = Record<string, Partial<Record<Division, string>>>
@@ -53,7 +57,7 @@ export type ArtsMatrixRow = { key: ArtKey; count: number; cells: Record<string, 
 export type ArtsMatrix = {
   groups: { key: ArtGroupKey; rows: ArtsMatrixRow[] }[]
   /** Every typed claim, flattened, for the cite check. */
-  cites: { slug: string; key: ArtKey; div: Division; cite: string }[]
+  cites: { slug: string; key: ArtKey; div: Division; cite: ArtsCite }[]
 }
 
 const DIVS: Division[] = ['LS', 'MS', 'US']
@@ -71,7 +75,7 @@ export function buildArtsMatrix(
   for (const [slug, claims] of Object.entries(table)) {
     for (const [key, byDiv] of Object.entries(claims)) {
       for (const [div, cite] of Object.entries(byDiv ?? {})) {
-        cites.push({ slug, key: key as ArtKey, div: div as Division, cite: cite as string })
+        cites.push({ slug, key: key as ArtKey, div: div as Division, cite: cite as ArtsCite })
       }
     }
   }
