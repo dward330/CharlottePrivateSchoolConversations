@@ -1,11 +1,11 @@
 ---
 name: cardorder
 title: Reorder two research areas on school pages — Whole Class Analytics third in College Support, Club Catalog & Overview first in Student Clubs
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-07
 branch: feat/cardorder
-prs: []
+prs: [443]
 ---
 
 # Card order: Whole Class Analytics third, Club Catalog first
@@ -295,3 +295,10 @@ changes, so no locale work is needed.
 ## Open questions
 
 None.
+
+## Implementation notes
+
+Built as planned (PR #443). The one detail the plan left open: the hoisted
+`renderGroup` body and the `proseGroups` conditions were dedented uniformly by
+6 spaces to sit at their new nesting level, and a script confirmed the body is
+otherwise byte-identical to the old inline callback.
