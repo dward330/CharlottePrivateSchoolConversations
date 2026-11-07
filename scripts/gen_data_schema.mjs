@@ -871,6 +871,37 @@ for (const tn of ['ValueMetric', 'CellQual']) {
 w('</details>')
 w()
 
+// ---- 4b. computed compare groups
+{
+  const { loadComparableOffered } = await import('./check_sports_matrix.mjs')
+  const { buildSportsMatrix } = await import('../src/lib/sportsMatrix.ts')
+  const { slugs, offered } = await loadComparableOffered()
+  const sm = buildSportsMatrix(offered)
+  w('### Computed Compare groups')
+  w()
+  w('Rows rendered on Compare that are **not** in `VALUE_METRICS`. They are computed at render')
+  w('from data a structured card already holds, so they cannot drift from the school pages.')
+  w('They have no overlay entries, no school-page stat tiles, and **no effect on')
+  w('`coverage:floor`** or the Compare-row totals above.')
+  w()
+  w(`**Sports offered** (Sports topic, \`src/lib/sportsMatrix.ts\` → \`CompareSportsRows.tsx\`):`)
+  w(`${sm.rows.length} rows, one per sport recorded for any of the ${slugs.length} comparable schools,`)
+  w("computed from each school's `offered.seasons[].sports[]`. A cell is Yes (with its V / JV / MS")
+  w('levels and B / G / Co-ed only where the school states the gender), No, or N/A (no `offered`).')
+  w()
+  w('| Sport key | Schools | Seasons |')
+  w('|---|--:|---|')
+  for (const r of sm.rows) w(`| \`${r.key}\` | ${r.count}/${slugs.length} | ${r.seasons.join(' · ')} |`)
+  w()
+  w('**Rule for a new school:** every raw sport name on its Sports Offered card must be in')
+  w('`SPORT_ALIASES` (`src/lib/sportsMatrix.ts`), or the sport silently drops from Compare —')
+  w('`npm run check:sportsmatrix` (chained into the build) fails on it. A genuinely new sport')
+  w('also needs a `SportKey` and a `sports.cup.sport_<key>` key in all 10 locale catalogs (the')
+  w("vocabulary is shared with the Wells Fargo Cup card). Gender is never inferred: an entry")
+  w('without "(Boys)" / "(Girls)" / "(B & G)" / "(Co-ed)" gets no letter.')
+  w()
+}
+
 // ---- 5. standalone
 w('## 5. Standalone layers')
 w()
