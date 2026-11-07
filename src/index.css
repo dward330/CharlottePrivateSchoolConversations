@@ -2260,6 +2260,19 @@ main { flex: 1; }
 
 /* -------------------------------------------------------------- compare */
 
+/* Wide screens (plan comparewide): the Compare page grows past --maxw to fit the
+   table's columns, and no further. Its margins keep the ratio a 1440px laptop
+   shows today, (1440 − 1240) / 2 ≈ 7% per side, so the box is 86vw. At ≤1442px
+   this resolves to exactly today's layout. fit-content sizes the page to the
+   table, and contain keeps the pill rows and notes from widening it. */
+.page.compare-page {
+  --compare-maxw-fluid: 86vw;
+  width: fit-content;
+  min-width: min(100%, var(--maxw));
+  max-width: max(var(--maxw), var(--compare-maxw-fluid));
+}
+.compare-page > :not(.table-frame) { contain: inline-size; }
+
 .compare-title { font-size: clamp(32px, 5vw, 44px); margin-bottom: 4px; }
 .compare-sub { margin: 0 0 clamp(20px, 3vw, 28px); color: var(--muted); font-size: 14px; }
 
@@ -2769,6 +2782,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .compare-pin { display: none; }
   .topnav { backdrop-filter: none; background: var(--surface); }
   .page { padding-bottom: 0; max-width: none; }
+  .page.compare-page { width: auto; min-width: 0; }
   /* Don't split a card, callout, or table row across a page break. */
   .note-card,
   .callout,

@@ -432,7 +432,7 @@ export function Compare({ topic, schools }: Props) {
   }, [pinShown, colWidths, tableW])
 
   return (
-    <div className="page">
+    <div className="page compare-page">
       <a className="back" href={toHome()} onClick={(e) => { e.preventDefault(); navigate(toHome()) }}>
         {t('compare.backHome')}
       </a>
