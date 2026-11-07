@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-05
 branch: feat/pd-profile-2627
-prs: []
+prs: [442]
 ---
 
 # Refresh Providence Day from its 2026–27 profile
