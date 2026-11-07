@@ -79,6 +79,14 @@
   --accent-700: #416180;
   --accent-800: #2c455d;
   --accent-900: #1d2d3d;
+  /* Sports depth chips (V / JV / MS): three filled hues at equal weight, so no
+     level reads as unavailable. Claude Design `Depth Chips Redesign.dc.html`, 2c. */
+  --depth-v-bg: #2c455d;
+  --depth-v-fg: #fff;
+  --depth-jv-bg: #2f7a72;
+  --depth-jv-fg: #fff;
+  --depth-ms-bg: #9a6420;
+  --depth-ms-fg: #fff;
 
   --heading: 'Barlow Condensed', 'Barlow Condensed Fallback', system-ui, sans-serif;
   --sans: 'Barlow', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -124,6 +132,12 @@
     --accent-700: #b9cee2;
     --accent-800: #c9d9e9;
     --accent-900: #dce7f2;
+    --depth-v-bg: #9fbbd7;
+    --depth-v-fg: #161819;
+    --depth-jv-bg: #7cc2b8;
+    --depth-jv-fg: #161819;
+    --depth-ms-bg: #e0ae6b;
+    --depth-ms-fg: #161819;
   }
 }
 
@@ -145,6 +159,12 @@
   --accent-700: #b9cee2;
   --accent-800: #c9d9e9;
   --accent-900: #dce7f2;
+  --depth-v-bg: #9fbbd7;
+  --depth-v-fg: #161819;
+  --depth-jv-bg: #7cc2b8;
+  --depth-jv-fg: #161819;
+  --depth-ms-bg: #e0ae6b;
+  --depth-ms-fg: #161819;
 }
 
 /* School brand colors used as TEXT on the dark theme get lightened toward the
@@ -3082,9 +3102,9 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   padding: 1px 5px;
   flex: none;
 }
-.sports-depth-v { background: var(--accent); color: var(--bg); }
-.sports-depth-jv { border: 1px solid var(--accent); color: var(--accent-700); }
-.sports-depth-ms { border: 1px solid var(--border); color: var(--muted); }
+.sports-depth-v { background: var(--depth-v-bg); color: var(--depth-v-fg); }
+.sports-depth-jv { background: var(--depth-jv-bg); color: var(--depth-jv-fg); }
+.sports-depth-ms { background: var(--depth-ms-bg); color: var(--depth-ms-fg); }
 
 .sports-board {
   display: grid;
