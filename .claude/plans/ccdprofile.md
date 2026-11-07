@@ -1,7 +1,7 @@
 ---
 name: ccdprofile
 title: Refresh Charlotte Country Day from its 2026–27 School Profile and the final 2023–2026 acceptance list — 43 new rows (Harvard, Caltech, Johns Hopkins, Northwestern, Swarthmore …) merged into the shipped 320 with the bold corrected to the final edition (Yale was never enrolling), May 2026 AP (589 exams, 96% 3+, 87% 4–5, 4.2 average), Class of 2027 GPA medians plus the restored middle-50% SAT 1170–1400 / ACT 26–31, 26 AP + 28 Honors, 26 IB seniors, 4 Class of 2027 Semifinalists, the new counseling office (Tate / Odum / Dickson, 536 Upper Schoolers, 137 seniors, ~27:1), $9.4M aid to 20%, and 13 / 60 college athletes
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/ccd-profile-2627
@@ -584,3 +584,26 @@ Central Piedmont and Wesleyan, none on Yale or Lafayette), links and rank labels
 Harvard, Caltech, Oxford and Cambridge, five quintiles with no detail, and no verify-flag
 text. Compare shows `1170–1400` / `26–31` over `(Class of 2027)`, 96% / 87%, `~27:1`, Ivy
 `8 / 8`, and `$9.4M`. `audit:mobile` for Country Day: no broken card, no page overflow.
+
+### Phase 2 (locales) — 2026-11-07, same branch
+
+The English was approved and Phase 2 ran in a fresh window. Three topics (`college-support`,
+`metric-values`, `sports`) were extracted to a throwaway `--lang zz` and spliced into each
+of the nine work files by `of` stamp. **74 new units per locale**: 52 college-support, 21
+metric-values, 1 sports. Of those, 18 differed from the unit they replaced only in figures
+and were carried by token substitution (one replacement asserted per token). The other 56
+were translated by hand per locale, following each locale's existing terms and
+quote-keeping rules. The 1,694 + 875 + 1,038 kept units are byte-identical to HEAD, with 0
+duplicate `at` paths and 0 blanks.
+
+Verification: `check:runtime`, `check:live` (the 75 Phase 1 stale stamps are cleared),
+`check:chrome`, `check_figures.py` (27 topic × locale runs), `check:sepdrift` (9 locales,
+0 drifted), `check:fr`, `check:dates` and `check:moneytext` are clean. `npm run build` is
+green. `i18n:leaks` flags none of the new units in any locale. `check:digits` compared 666
+units and reports 8. All 8 are es/bn/fa/ar writing "9th/10th grade" as an ordinal word,
+the documented `Grade 6 → Sexto` kind of rewording, and they are kept.
+`check_work_integrity` reports its usual post-splice violations (memory `comparerows-shipped`).
+Its real concern was verified by stamp instead, and its fa/ar separation is clean.
+Real Chrome on the production preview, every `<details>` open: 37 of 37 probed prose units
+render translated in all nine locales, no English originals are left on the page, and
+`1170–1400` / `26–31` sit inside LRI isolates in fa and ar.

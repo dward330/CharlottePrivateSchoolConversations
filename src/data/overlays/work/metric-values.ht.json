@@ -472,12 +472,12 @@
       "t": "1120–1320"
     },
     {
-      "text": "1155–1385",
-      "of": "3047f2c9",
+      "text": "1170–1400",
+      "of": "fdaaef24",
       "at": [
         "providence-day:[3].values.charlotte-country-day"
       ],
-      "t": "1155–1385"
+      "t": "1170–1400"
     },
     {
       "text": "1190–1330",
@@ -520,9 +520,7 @@
       "of": "20030265",
       "at": [
         "providence-day:[3].subs.carmel-christian",
-        "providence-day:[3].subs.charlotte-country-day",
-        "providence-day:[4].subs.carmel-christian",
-        "providence-day:[4].subs.charlotte-country-day"
+        "providence-day:[4].subs.carmel-christian"
       ],
       "t": "(Klas 2024)"
     },
@@ -531,7 +529,9 @@
       "of": "b8002016",
       "at": [
         "providence-day:[3].subs.charlotte-catholic",
-        "providence-day:[4].subs.charlotte-catholic"
+        "providence-day:[3].subs.charlotte-country-day",
+        "providence-day:[4].subs.charlotte-catholic",
+        "providence-day:[4].subs.charlotte-country-day"
       ],
       "t": "(Klas 2027)"
     },
@@ -544,12 +544,13 @@
       "t": "Medyàn nan te pibliye nan mitan ane a apati 20 elèv ki te pase egzamen an; mwayèn nan se chif final lekòl la pou klas la, apati 45 elèv."
     },
     {
-      "text": "The most recent SAT range the school has published. Its 2025–26 profile replaced the range with a median for each fifth of the class.",
-      "of": "842ca61d",
+      "text": "Printed in the 2026–27 profile beneath the Class of 2027 GPA table; the school names neither the class nor the number of testers.",
+      "of": "2e440d3c",
       "at": [
-        "providence-day:[3].quals.charlotte-country-day.text"
+        "providence-day:[3].quals.charlotte-country-day.text",
+        "providence-day:[4].quals.charlotte-country-day.text"
       ],
-      "t": "Dènye entèval SAT lekòl la pibliye. Pwofil 2025–26 li a ranplase entèval la ak yon medyàn pou chak senkyèm nan klas la."
+      "t": "Enprime nan pwofil 2026–27 la anba tab GPA Klas 2027 la; lekòl la pa nonmen ni klas la ni kantite moun ki pase tès."
     },
     {
       "text": "ACT composite",
@@ -634,12 +635,12 @@
       "t": "21–29"
     },
     {
-      "text": "24–31",
-      "of": "ccf98848",
+      "text": "26–31",
+      "of": "f0936a72",
       "at": [
         "providence-day:[4].values.charlotte-country-day"
       ],
-      "t": "24–31"
+      "t": "26–31"
     },
     {
       "text": "22–28",
@@ -648,14 +649,6 @@
         "providence-day:[4].values.gaston-day"
       ],
       "t": "22–28"
-    },
-    {
-      "text": "The most recent ACT range the school has published. Its 2025–26 profile replaced the range with a median for each fifth of the class.",
-      "of": "be0b4fa5",
-      "at": [
-        "providence-day:[4].quals.charlotte-country-day.text"
-      ],
-      "t": "Dènye entèval ACT lekòl la pibliye. Pwofil 2025–26 li a ranplase entèval la ak yon medyàn pou chak senkyèm nan klas la."
     },
     {
       "text": "AP scoring 3+",
@@ -692,13 +685,13 @@
       "t": "94%"
     },
     {
-      "text": "93%",
-      "of": "3ad222e0",
+      "text": "96%",
+      "of": "3ec55d39",
       "at": [
         "providence-day:[5].values.charlotte-country-day",
-        "providence-day:[5].values.providence-day"
+        "providence-day:[5].values.covenant-day"
       ],
-      "t": "93%"
+      "t": "96%"
     },
     {
       "text": "92%",
@@ -709,14 +702,6 @@
         "providence-day:[18].values.charlotte-country-day"
       ],
       "t": "92%"
-    },
-    {
-      "text": "96%",
-      "of": "3ec55d39",
-      "at": [
-        "providence-day:[5].values.covenant-day"
-      ],
-      "t": "96%"
     },
     {
       "text": "73%",
@@ -737,31 +722,31 @@
       "t": "95%"
     },
     {
+      "text": "93%",
+      "of": "3ad222e0",
+      "at": [
+        "providence-day:[5].values.providence-day"
+      ],
+      "t": "93%"
+    },
+    {
       "text": "(2026)",
       "of": "e87d5028",
       "at": [
         "providence-day:[5].subs.cannon",
         "providence-day:[5].subs.charlotte-christian",
         "providence-day:[5].subs.charlotte-catholic",
+        "providence-day:[5].subs.charlotte-country-day",
         "providence-day:[5].subs.charlotte-latin",
         "providence-day:[5].subs.covenant-day",
         "providence-day:[5].subs.providence-day",
         "providence-day:[6].subs.charlotte-catholic",
+        "providence-day:[6].subs.charlotte-country-day",
         "providence-day:[6].subs.charlotte-latin",
         "providence-day:[6].subs.covenant-day",
         "providence-day:[6].subs.providence-day"
       ],
       "t": "(2026)"
-    },
-    {
-      "text": "(2025)",
-      "of": "6875cae3",
-      "at": [
-        "providence-day:[5].subs.charlotte-country-day",
-        "providence-day:[5].subs.gaston-day",
-        "providence-day:[6].subs.charlotte-country-day"
-      ],
-      "t": "(2025)"
     },
     {
       "text": "(2023)",
@@ -770,6 +755,14 @@
         "providence-day:[5].subs.carmel-christian"
       ],
       "t": "(2023)"
+    },
+    {
+      "text": "(2025)",
+      "of": "6875cae3",
+      "at": [
+        "providence-day:[5].subs.gaston-day"
+      ],
+      "t": "(2025)"
     },
     {
       "text": "94% of 1,184 AP exams scored 3 or above in 2026 (22 subjects, 393 students); 76% scored 4 or 5. AP exams are mandatory in every AP course at CCHS, so this is a whole-cohort rate and cannot be flattered by weaker candidates skipping the exam.",
@@ -812,12 +805,12 @@
       "t": "92% nan 833 egzamen AP te fè 3 oswa plis an 2026 (308 elèv; nòt mwayèn 4.10). Latin mande chak elèv AP pase egzamen an. Yon nòt 3+ se nivo pifò inivèsite konsidere kòm yon rezilta pase."
     },
     {
-      "text": "93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.",
-      "of": "e92cd8f3",
+      "text": "96% of AP exams scored 3 or higher overall in 2026 (589 exams). A score of 3+ is the level most colleges treat as a passing result.",
+      "of": "f050acec",
       "at": [
         "providence-day:[5].quals.charlotte-country-day.text"
       ],
-      "t": "93% egzamen AP yo te jwenn 3 oswa plis an total nan 2025. Yon nòt 3+ se nivo pifò kolèj konsidere kòm yon rezilta ki pase."
+      "t": "96% egzamen AP yo te jwenn 3 oswa plis an total nan 2026 (589 egzamen). Yon nòt 3+ se nivo pifò kolèj konsidere kòm yon rezilta ki pase."
     },
     {
       "text": "93% of AP exams scored 3 or higher in May 2026, across 1,282 exams. A score of 3+ is the level most colleges treat as a passing result.",
@@ -861,12 +854,12 @@
       "t": "76%"
     },
     {
-      "text": "74%",
-      "of": "7dbd6779",
+      "text": "87%",
+      "of": "488e052f",
       "at": [
         "providence-day:[6].values.charlotte-country-day"
       ],
-      "t": "74%"
+      "t": "87%"
     },
     {
       "text": "75%",
@@ -903,12 +896,12 @@
       "t": "78% nan egzamen AP yo te fè 4 oswa 5 an 2026 (401 egzamen; chak elèv AP dwe pase egzamen an). Yon 4 oswa yon 5 se nivo inivèsite ki pi selektif yo chèche pou bay kredi ak plasman."
     },
     {
-      "text": "74% of AP exams scored 4 or 5 overall in 2025 (530 exams). A 4 or 5 is the level most selective colleges look for in credit and placement.",
-      "of": "c6bbb99a",
+      "text": "87% of AP exams scored 4 or 5 overall in 2026 (589 exams). A 4 or 5 is the level most selective colleges look for in credit and placement.",
+      "of": "da65c31b",
       "at": [
         "providence-day:[6].quals.charlotte-country-day.text"
       ],
-      "t": "74% nan egzamen AP yo te fè 4 oswa 5 an total an 2025 (530 egzamen). Yon 4 oswa yon 5 se nivo inivèsite ki pi selektif yo chèche pou bay kredi ak plasman."
+      "t": "87% nan egzamen AP yo te fè 4 oswa 5 an total an 2026 (589 egzamen). Yon 4 oswa yon 5 se nivo inivèsite ki pi selektif yo chèche pou bay kredi ak plasman."
     },
     {
       "text": "75% of 833 AP exams scored 4 or 5 in 2026 — 625 exams, counted from the per-subject results table in the school's profile, which prints no 4-or-5 share itself. A 4 or 5 is the level most selective colleges look for in credit and placement.",
@@ -1056,7 +1049,6 @@
       "at": [
         "providence-day:[7].values.cannon",
         "providence-day:[7].values.charlotte-catholic",
-        "providence-day:[7].values.charlotte-country-day",
         "providence-day:[7].values.charlotte-latin",
         "providence-day:[17].subs.hickory-grove-christian"
       ],
@@ -1069,6 +1061,17 @@
         "providence-day:[7].values.charlotte-christian"
       ],
       "t": "4 / 8"
+    },
+    {
+      "text": "8 / 8",
+      "of": "f18bd6a6",
+      "at": [
+        "providence-day:[7].values.charlotte-country-day",
+        "providence-day:[7].values.providence-day",
+        "providence-day:[18].subs.cannon",
+        "providence-day:[18].subs.charlotte-latin"
+      ],
+      "t": "8 / 8"
     },
     {
       "text": "2 / 8",
@@ -1104,16 +1107,6 @@
       "t": "0 / 8"
     },
     {
-      "text": "8 / 8",
-      "of": "f18bd6a6",
-      "at": [
-        "providence-day:[7].values.providence-day",
-        "providence-day:[18].subs.cannon",
-        "providence-day:[18].subs.charlotte-latin"
-      ],
-      "t": "8 / 8"
-    },
-    {
       "text": "7 of the 8 Ivy League universities appear on CCHS's MATRICULATION list for the Classes of 2023-2026 — where graduates actually enrolled, not where they were admitted. Brown is absent.",
       "of": "e1e2b52c",
       "at": [
@@ -1146,12 +1139,12 @@
       "t": "4 nan 8 inivèsite Ivy League yo parèt sou lis akseptasyon 2023–25 ak 2024–26 Charlotte Christian pibliye yo, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
-      "text": "7 of the 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "c60d1fa2",
+      "text": "All 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "dad9afd6",
       "at": [
         "providence-day:[7].quals.charlotte-country-day.text"
       ],
-      "t": "7 nan 8 inivèsite Ivy League yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+      "t": "Tout 8 inivèsite Ivy League yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
       "text": "7 of the 8 Ivy League universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1243,12 +1236,13 @@
       "t": "11 / 17"
     },
     {
-      "text": "13 / 17",
-      "of": "c5a4b244",
+      "text": "17 / 17",
+      "of": "38be5030",
       "at": [
-        "providence-day:[8].values.charlotte-country-day"
+        "providence-day:[8].values.charlotte-country-day",
+        "providence-day:[8].values.providence-day"
       ],
-      "t": "13 / 17"
+      "t": "17 / 17"
     },
     {
       "text": "14 / 17",
@@ -1299,14 +1293,6 @@
       "t": "6 / 17"
     },
     {
-      "text": "17 / 17",
-      "of": "38be5030",
-      "at": [
-        "providence-day:[8].values.providence-day"
-      ],
-      "t": "17 / 17"
-    },
-    {
       "text": "The 7 Ivies plus Duke, Georgetown, Johns Hopkins and Northwestern, from a matriculation list rather than an acceptance list. A matriculation list is structurally smaller, since a student enrolls at exactly one college.",
       "of": "dc07c757",
       "at": [
@@ -1339,12 +1325,12 @@
       "t": "7 nan 17 enstitisyon “Ivy Plus” yo parèt sou lis akseptasyon 2023–25 ak 2024–26 Charlotte Christian pibliye yo, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
-      "text": "13 of the 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "8bea3cd4",
+      "text": "All 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "e564f7b9",
       "at": [
         "providence-day:[8].quals.charlotte-country-day.text"
       ],
-      "t": "13 nan 17 enstitisyon “Ivy Plus” yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+      "t": "Tout 17 enstitisyon “Ivy Plus” yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
       "text": "14 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1415,6 +1401,7 @@
       "of": "9cd15264",
       "at": [
         "providence-day:[9].values.cannon",
+        "providence-day:[9].values.charlotte-country-day",
         "providence-day:[9].values.providence-day"
       ],
       "t": "75 / 75"
@@ -1434,14 +1421,6 @@
         "providence-day:[9].values.charlotte-catholic"
       ],
       "t": "43 / 75"
-    },
-    {
-      "text": "71 / 75",
-      "of": "79f0f150",
-      "at": [
-        "providence-day:[9].values.charlotte-country-day"
-      ],
-      "t": "71 / 75"
     },
     {
       "text": "73 / 75",
@@ -1524,12 +1503,12 @@
       "t": "49 nan 75 premye National Universities yo parèt sou lis akseptasyon 2023–25 ak 2024–26 Charlotte Christian pibliye yo, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
-      "text": "71 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "333009dd",
+      "text": "75 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "f2beb5f1",
       "at": [
         "providence-day:[9].quals.charlotte-country-day.text"
       ],
-      "t": "71 nan 75 pi bon National Universities yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+      "t": "75 nan 75 pi bon National Universities yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
       "text": "73 of the top 75 National Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1620,12 +1599,12 @@
       "t": "21 / 75"
     },
     {
-      "text": "44 / 75",
-      "of": "478803e0",
+      "text": "50 / 75",
+      "of": "4707891f",
       "at": [
         "providence-day:[10].values.charlotte-country-day"
       ],
-      "t": "44 / 75"
+      "t": "50 / 75"
     },
     {
       "text": "48 / 75",
@@ -1716,12 +1695,12 @@
       "t": "20 nan 75 premye Liberal Arts Colleges yo parèt sou lis akseptasyon 2023–25 ak 2024–26 Charlotte Christian pibliye yo, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
-      "text": "44 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "65b28f34",
+      "text": "50 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "58ba6c07",
       "at": [
         "providence-day:[10].quals.charlotte-country-day.text"
       ],
-      "t": "44 nan 75 pi bon Liberal Arts Colleges yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+      "t": "50 nan 75 pi bon Liberal Arts Colleges yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
       "text": "48 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1792,7 +1771,6 @@
       "of": "825c5399",
       "at": [
         "providence-day:[11].values.cannon",
-        "providence-day:[11].values.charlotte-country-day",
         "providence-day:[11].values.charlotte-latin"
       ],
       "t": "61 / 68"
@@ -1813,6 +1791,14 @@
         "providence-day:[11].values.gaston-day"
       ],
       "t": "43 / 68"
+    },
+    {
+      "text": "63 / 68",
+      "of": "a123a8fb",
+      "at": [
+        "providence-day:[11].values.charlotte-country-day"
+      ],
+      "t": "63 / 68"
     },
     {
       "text": "46 / 68",
@@ -1887,12 +1873,12 @@
       "t": "54 nan 68 inivèsite Power Four yo (ACC, Big Ten, Big 12, SEC, plis Notre Dame) parèt sou lis akseptasyon 2023–25 ak 2024–26 Charlotte Christian pibliye yo, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
-      "text": "61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "fc28754c",
+      "text": "63 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "a8228316",
       "at": [
         "providence-day:[11].quals.charlotte-country-day.text"
       ],
-      "t": "61 nan 68 inivèsite Power Four yo (ACC, Big Ten, Big 12, SEC, plis Notre Dame) parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+      "t": "63 nan 68 inivèsite Power Four yo (ACC, Big Ten, Big 12, SEC, plis Notre Dame) parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
       "text": "61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -1977,12 +1963,12 @@
       "t": "3 / 107"
     },
     {
-      "text": "18 / 107",
-      "of": "3db58dbf",
+      "text": "19 / 107",
+      "of": "9cbdcef4",
       "at": [
         "providence-day:[12].values.charlotte-country-day"
       ],
-      "t": "18 / 107"
+      "t": "19 / 107"
     },
     {
       "text": "10 / 107",
@@ -2058,12 +2044,12 @@
       "t": "11 nan 107 Historically Black Colleges & Universities yo parèt sou lis akseptasyon 2023–25 ak 2024–26 Charlotte Christian pibliye yo, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
-      "text": "18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
-      "of": "f58c99bd",
+      "text": "19 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
+      "of": "deafeae8",
       "at": [
         "providence-day:[12].quals.charlotte-country-day.text"
       ],
-      "t": "18 nan 107 Historically Black Colleges & Universities yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+      "t": "19 nan 107 Historically Black Colleges & Universities yo parèt sou lis akseptasyon Charlotte Country Day pibliye a, konpare ak tablo 2027 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
       "text": "10 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.",
@@ -2948,12 +2934,12 @@
       "t": "~56:1"
     },
     {
-      "text": "~34:1",
-      "of": "6546401f",
+      "text": "~27:1",
+      "of": "cda36ca3",
       "at": [
         "providence-day:[19].values.charlotte-country-day"
       ],
-      "t": "~34:1"
+      "t": "~27:1"
     },
     {
       "text": "~38:1",
@@ -3028,12 +3014,12 @@
       "t": "Yon chaj efektif anviwon 55 elèv fen etid pou chak konseye kolèj nan pik sezon aplikasyon an. Yon rapò ki pi ba vle di plis tan konseye pou chak elèv."
     },
     {
-      "text": "About 34–35 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.",
-      "of": "f2673c0f",
+      "text": "About 27 seniors per college counselor: 137 seniors shared among five counselors, derived from the 2026–27 profile. A lower ratio means more counselor time per student.",
+      "of": "32b60530",
       "at": [
         "providence-day:[19].quals.charlotte-country-day.text"
       ],
-      "t": "Anviwon 34–35 elèv fen etid pou chak konseye kolèj nan pik sezon aplikasyon an. Yon rapò ki pi ba vle di plis tan konseye pou chak elèv."
+      "t": "Anviwon 27 elèv fen etid pou chak konseye kolèj: 137 elèv fen etid pataje ant senk konseye, derive nan pwofil 2026–27 la. Yon rapò ki pi ba vle di plis tan konseye pou chak elèv."
     },
     {
       "text": "About 38 seniors per college counselor at peak application season — 151 seniors in the 2026–27 class across 4 counselors (computed; the school publishes no ratio). A lower ratio means more counselor time per student.",
@@ -4213,12 +4199,12 @@
       "t": "Pòsyon elèv k ap resevwa èd nan 2025–26."
     },
     {
-      "text": "Approximately 20% of the student body; the school does not date this figure.",
-      "of": "9b62c744",
+      "text": "Approximately 20% of the student body, per the 2026–27 School Profile ($9.4M); the profile does not date the figure.",
+      "of": "de1d258c",
       "at": [
         "providence-day:[26].quals.charlotte-country-day.text"
       ],
-      "t": "Apeprè 20% kò elèv la; lekòl la pa bay dat chif sa a."
+      "t": "Apeprè 20% kò elèv la, dapre School Profile 2026–27 la ($9.4M); pwofil la pa bay dat chif la."
     },
     {
       "text": "14% of students, from the school’s strategic plan.",
@@ -4253,12 +4239,12 @@
       "t": "Èd bay / ane"
     },
     {
-      "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.",
-      "of": "2d93b266",
+      "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total.",
+      "of": "02bfb813",
       "at": [
         "providence-day:[27].note"
       ],
-      "t": "Total asistans frè eskolè yo bay, dènye ane lekòl la bay yon chif. Charlotte Christian ak Davidson Day pa pibliye yon total; total Country Day pibliye yo kontredi youn lòt epi yo pa mete yo."
+      "t": "Total asistans frè eskolè yo bay, dènye ane lekòl la bay yon chif. Charlotte Christian ak Davidson Day pa pibliye yon total."
     },
     {
       "text": "$3.0M",
@@ -4267,6 +4253,14 @@
         "providence-day:[27].values.cannon"
       ],
       "t": "$3.0M"
+    },
+    {
+      "text": "$9.4M",
+      "of": "d464d813",
+      "at": [
+        "providence-day:[27].values.charlotte-country-day"
+      ],
+      "t": "$9.4M"
     },
     {
       "text": "$3.25M",
@@ -4291,6 +4285,14 @@
         "providence-day:[27].quals.cannon.text"
       ],
       "t": "$3,000,000 nan asistans ekolaj bay nan 2025–26."
+    },
+    {
+      "text": "$9.4M in financial aid to about 20% of students, per the 2026–27 School Profile; the profile does not say which year the figure covers.",
+      "of": "03280355",
+      "at": [
+        "providence-day:[27].quals.charlotte-country-day.text"
+      ],
+      "t": "$9.4M èd finansye pou anviwon 20% elèv yo, dapre School Profile 2026–27 la; pwofil la pa di ki ane chif la kouvri."
     },
     {
       "text": "$3.25M awarded in 2024–25.",

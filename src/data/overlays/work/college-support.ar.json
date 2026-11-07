@@ -1435,8 +1435,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[2].label",
         "charlotte-latin:wholeClass.scoreTables[0].rows[2].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label",
-        "charlotte-country-day:wholeClass.scoreTables[0].rows[2].label"
+        "charlotte-latin:wholeClass.scoreTables[1].rows[2].label"
       ],
       "t": "رياضيات SAT"
     },
@@ -1487,8 +1486,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[1].label",
         "charlotte-latin:wholeClass.scoreTables[0].rows[4].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label",
-        "charlotte-country-day:wholeClass.scoreTables[1].rows[1].label"
+        "charlotte-latin:wholeClass.scoreTables[1].rows[4].label"
       ],
       "t": "إنجليزية ACT"
     },
@@ -1498,8 +1496,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[2].label",
         "charlotte-latin:wholeClass.scoreTables[0].rows[5].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label",
-        "charlotte-country-day:wholeClass.scoreTables[1].rows[2].label"
+        "charlotte-latin:wholeClass.scoreTables[1].rows[5].label"
       ],
       "t": "رياضيات ACT"
     },
@@ -6123,12 +6120,12 @@
       "t": "في NC State University — 11 من 48، الأصعب بين الست لهذه المدرسة"
     },
     {
-      "text": "530 AP exams in 2025 at 93% scoring 3+ and 74% at 4 or 5 — and the school publishes those results discipline by discipline, weak spots included.",
-      "of": "c507f1d9",
+      "text": "589 AP exams in 2026 at 96% scoring 3+ and 87% at 4 or 5 — an average score of 4.2 — and the school publishes those results discipline by discipline.",
+      "of": "0d50c3a9",
       "at": [
         "charlotte-country-day:transcript.headline"
       ],
-      "t": "530 اختبار AP في 2025 بـ 93% تسجّل 3+ و74% عند 4 أو 5 — وتنشر المدرسة تلك النتائج تخصّصًا بتخصّص، بما فيه نقاط الضعف."
+      "t": "589 اختبار AP في 2026 بـ 96% تسجّل 3+ و87% عند 4 أو 5 — بمتوسّط درجة 4.2 — وتنشر المدرسة تلك النتائج تخصّصًا بتخصّص."
     },
     {
       "text": "Country Day was the first school in North Carolina to offer the IB Diploma, so a student has two legible routes to maximum rigour rather than one, and the profile names the ceiling course in every discipline.",
@@ -6139,52 +6136,54 @@
       "t": "كانت Country Day أول مدرسة في نورث كارولاينا تقدّم IB Diploma، فللطالب مساران مقروءان إلى أقصى صرامة لا واحد، ويسمّي الملفّ حصّة السقف في كل تخصّص."
     },
     {
-      "text": "530",
-      "of": "bda0444b",
+      "text": "589",
+      "of": "34ac3893",
       "at": [
         "charlotte-country-day:transcript.stats[0].value"
       ],
-      "t": "530"
+      "t": "589"
     },
     {
-      "text": "AP exams sat in 2025 (238 students)",
-      "of": "3bbc28e8",
+      "text": "AP exams sat in May 2026 (230 students)",
+      "of": "18d7062a",
       "at": [
         "charlotte-country-day:transcript.stats[0].label"
       ],
-      "t": "اختبارات AP المؤدّاة في 2025 (238 طالبًا)"
+      "t": "اختبارات AP المؤدّاة في مايو 2026 (230 طالبًا)"
     },
     {
-      "text": "93%",
-      "of": "3ad222e0",
+      "text": "96%",
+      "of": "3ec55d39",
       "at": [
-        "charlotte-country-day:transcript.stats[1].value"
+        "charlotte-country-day:transcript.stats[1].value",
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
       ],
-      "t": "93%"
+      "t": "96%"
     },
     {
-      "text": "scored 3+ · 74% earned 4s or 5s",
-      "of": "234dcab7",
+      "text": "scored 3+ · 87% earned 4s or 5s · 4.2 average",
+      "of": "3d66b493",
       "at": [
         "charlotte-country-day:transcript.stats[1].label"
       ],
-      "t": "سجّلت 3+ · 74% نالت 4 أو 5"
+      "t": "سجّلت 3+ · 87% نالت 4 أو 5 · متوسّط 4.2"
     },
     {
-      "text": "25 AP + IB",
-      "of": "ea98485b",
+      "text": "26 AP + IB",
+      "of": "8c89746a",
       "at": [
         "charlotte-country-day:transcript.stats[2].value"
       ],
-      "t": "25 AP + IB"
+      "t": "26 AP + IB"
     },
     {
-      "text": "AP courses plus a full IB Diploma Programme",
-      "of": "2e6fde79",
+      "text": "AP courses (28 Honors) plus a full IB Diploma Programme, 2026–27",
+      "of": "e28258f1",
       "at": [
         "charlotte-country-day:transcript.stats[2].label"
       ],
-      "t": "حصص AP إضافةً إلى IB Diploma Programme كامل"
+      "t": "حصص AP (28 حصّة Honors) إضافةً إلى IB Diploma Programme كامل، 2026–27"
     },
     {
       "text": "Quintiles",
@@ -6203,10 +6202,18 @@
       "t": "لا يُبلَّغ عن ترتيب — يحلّ محلّه جدول أخماس GPA"
     },
     {
+      "text": "**4** Semifinalists — Finalists and Commended not yet announced",
+      "of": "77772b72",
+      "at": [
+        "charlotte-country-day:transcript.merit[0].detail"
+      ],
+      "t": "**4** متأهّلين لنصف النهائي — لم يُعلَن بعد عن المتأهّلين للنهائي ولا المُنوَّه بهم"
+    },
+    {
       "text": "**6** Semifinalists · **5** Finalists · **13** Commended · 1 NMSC Special Scholarship (C.D. Spangler Foundation)",
       "of": "7196023f",
       "at": [
-        "charlotte-country-day:transcript.merit[0].detail"
+        "charlotte-country-day:transcript.merit[1].detail"
       ],
       "t": "**6** متأهّلين لنصف النهائي · **5** متأهّلين للنهائي · **13** مُنوَّهًا بهم · 1 NMSC Special Scholarship (C.D. Spangler Foundation)"
     },
@@ -6214,7 +6221,7 @@
       "text": "**2** Semifinalists · **2** Finalists · **5** Commended — a conspicuous trough between two normal years",
       "of": "f4ad0986",
       "at": [
-        "charlotte-country-day:transcript.merit[1].detail"
+        "charlotte-country-day:transcript.merit[2].detail"
       ],
       "t": "**2** متأهّلين لنصف النهائي · **2** متأهّلين للنهائي · **5** مُنوَّهًا بهم — قاع بارز بين سنتين عاديّتين"
     },
@@ -6222,7 +6229,7 @@
       "text": "**7** Semifinalists · **7** Finalists · **2** Commended · 1 Scholar, 1 College-Sponsored Scholar",
       "of": "6d029b2f",
       "at": [
-        "charlotte-country-day:transcript.merit[2].detail"
+        "charlotte-country-day:transcript.merit[3].detail"
       ],
       "t": "**7** متأهّلين لنصف النهائي · **7** متأهّلين للنهائي · **2** مُنوَّهًا بهم · 1 Scholar، و1 College-Sponsored Scholar"
     },
@@ -6230,7 +6237,7 @@
       "text": "**11** Semifinalists · **13** Commended",
       "of": "bbd95f6f",
       "at": [
-        "charlotte-country-day:transcript.merit[3].detail"
+        "charlotte-country-day:transcript.merit[4].detail"
       ],
       "t": "**11** متأهّلًا لنصف النهائي · **13** مُنوَّهًا بهم"
     },
@@ -6238,7 +6245,7 @@
       "text": "**9** Semifinalists · **8** Commended — 17 in the 97th percentile or above",
       "of": "3f847543",
       "at": [
-        "charlotte-country-day:transcript.merit[4].detail"
+        "charlotte-country-day:transcript.merit[5].detail"
       ],
       "t": "**9** متأهّلين لنصف النهائي · **8** مُنوَّهًا بهم — 17 في المئين 97 أو أعلى"
     },
@@ -6246,17 +6253,17 @@
       "text": "**7** Semifinalists · **8** Commended",
       "of": "2069988c",
       "at": [
-        "charlotte-country-day:transcript.merit[5].detail"
+        "charlotte-country-day:transcript.merit[6].detail"
       ],
       "t": "**7** متأهّلين لنصف النهائي · **8** مُنوَّهًا بهم"
     },
     {
-      "text": "The Class of 2025 line is the school’s own published figure but sits three times below the classes on either side of it, so it is flagged rather than smoothed. Note also that Semifinalist announcements land in the autumn of senior year, which is why a September 2025 post describes the Class of 2026. College Board National Recognition Program counts are not published in any year.",
-      "of": "6c76175f",
+      "text": "The Class of 2025 line is the school’s own published figure but sits three times below the classes on either side of it, so it is flagged rather than smoothed. Note also that Semifinalists are named each autumn of senior year, which is why the 2026–27 profile already carries the Class of 2027. College Board National Recognition Program counts are not published in any year.",
+      "of": "76350bd0",
       "at": [
         "charlotte-country-day:transcript.meritNote"
       ],
-      "t": "سطر دفعة 2025 رقم المدرسة المنشور نفسه لكنه يقع ثلاثة أضعاف تحت الدفعتين على جانبيه، فيُعلَّم لا يُملَّس. ولاحظ أيضًا أن إعلانات المتأهّلين لنصف النهائي تصل في خريف السنة الأخيرة، ولهذا يصف منشور سبتمبر 2025 دفعة 2026. وأعداد College Board National Recognition Program غير منشورة في أي سنة."
+      "t": "سطر دفعة 2025 رقم المدرسة المنشور نفسه لكنه يقع ثلاثة أضعاف تحت الدفعتين على جانبيه، فيُعلَّم لا يُملَّس. ولاحظ أيضًا أن المتأهّلين لنصف النهائي يُسمَّون كل خريف من السنة الأخيرة، ولهذا يحمل ملفّ 2026–27 دفعة 2027 بالفعل. وأعداد College Board National Recognition Program غير منشورة في أي سنة."
     },
     {
       "text": "**Calculus III** (dual-listed with IB Analysis HL) tops the sequence, and there is a rare post-AP statistics path — **Advanced AP Statistics with R and R Studio**.",
@@ -6275,20 +6282,20 @@
       "t": "العلوم"
     },
     {
-      "text": "**Organic Chemistry** and **Physical Computational Biochemistry** run as post-AP semester electives, the former explicitly for students who have finished AP or IB Chemistry.",
-      "of": "fa43646c",
+      "text": "**Organic Chemistry** and **Physical Computational Biochemistry** run as post-AP semester electives, the former explicitly for students who have finished AP or IB Chemistry. **AP Physics 1** replaced Honors Physics in 2026–27 and is now the prerequisite for AP Physics C.",
+      "of": "86b8d956",
       "at": [
         "charlotte-country-day:transcript.depth[1].text"
       ],
-      "t": "**Organic Chemistry** و**Physical Computational Biochemistry** تجريان بوصفهما موادّ فصلية اختيارية ما بعد AP، الأولى صراحةً للطلاب الذين أنهوا AP أو IB Chemistry."
+      "t": "**Organic Chemistry** و**Physical Computational Biochemistry** تجريان بوصفهما موادّ فصلية اختيارية ما بعد AP، الأولى صراحةً للطلاب الذين أنهوا AP أو IB Chemistry. وحلّت **AP Physics 1** محلّ Honors Physics في 2026–27 وهي الآن المتطلّب السابق لـ AP Physics C."
     },
     {
-      "text": "The ceiling is AP Computer Science A — **no post-AP CS course is listed**, a genuine gap against the maths and science depth beside it.",
-      "of": "a3450a4d",
+      "text": "The ceiling is AP Computer Science A; **AP Computer Science Principles** joins in 2026–27 as a 10th-grade entry point, and there is still **no post-AP CS course**, a genuine gap against the maths and science depth beside it.",
+      "of": "cc25aa0f",
       "at": [
         "charlotte-country-day:transcript.depth[2].text"
       ],
-      "t": "السقف هو AP Computer Science A — **لا تُدرَج حصّة CS ما بعد AP**، فجوة حقيقية مقابل عمق الرياضيات والعلوم بجوارها."
+      "t": "السقف هو AP Computer Science A؛ وتنضمّ **AP Computer Science Principles** في 2026–27 مدخلًا للصفّ العاشر، ولا تزال **لا توجد حصّة CS ما بعد AP**، فجوة حقيقية مقابل عمق الرياضيات والعلوم بجوارها."
     },
     {
       "text": "The ceiling is AP or IB HL across Chinese, French, Spanish and Latin. No post-AP language seminar is listed, and German has dropped out of the roster since 2015–16.",
@@ -6315,20 +6322,20 @@
       "t": "مُرجَّح بزيادة ثابتة"
     },
     {
-      "text": "**+0.5 for Honors, +1.0 for AP/IB** on a 4.0 base — stable across every profile edition reviewed. There is no separate quality-point table.",
-      "of": "6dd2124b",
+      "text": "**+0.5 for Honors, +1.0 for AP/IB** on a 4.0 base — stable across every profile edition reviewed, and the 2026–27 edition extends the +1.0 to the post-AP Organic Chemistry and Calculus III. There is no separate quality-point table.",
+      "of": "71dbfbec",
       "at": [
         "charlotte-country-day:transcript.trust[0].text"
       ],
-      "t": "**+0.5 لـ Honors، +1.0 لـ AP/IB** على أساس 4.0 — ثابت عبر كل إصدار ملفّ روجِع. ولا يوجد جدول نقطة جودة منفصل."
+      "t": "**+0.5 لـ Honors، +1.0 لـ AP/IB** على أساس 4.0 — ثابت عبر كل إصدار ملفّ روجِع، ويمدّ إصدار 2026–27 الـ +1.0 إلى Organic Chemistry وCalculus III ما بعد AP. ولا يوجد جدول نقطة جودة منفصل."
     },
     {
-      "text": "Country Day has published a quintile table continuously since at least 2015–16, and the 2025–26 edition adds **median SAT and median ACT for each fifth** — more context than most no-rank schools give.",
-      "of": "470836cb",
+      "text": "Country Day has published a quintile table continuously since at least 2015–16. The 2025–26 edition tied each fifth to a median SAT and ACT; the 2026–27 edition returns to **GPA medians alone** and prints a **whole-class SAT/ACT middle 50%** beside them.",
+      "of": "7c16c0e9",
       "at": [
         "charlotte-country-day:transcript.trust[1].text"
       ],
-      "t": "نشرت Country Day جدول أخماس باستمرار منذ 2015–16 على الأقلّ، ويضيف إصدار 2025–26 **وسيط SAT ووسيط ACT لكل خُمس** — سياق أكثر ممّا تعطيه معظم مدارس لا-الترتيب."
+      "t": "نشرت Country Day جدول أخماس باستمرار منذ 2015–16 على الأقلّ. ربط إصدار 2025–26 كل خُمس بوسيط SAT وACT؛ ويعود إصدار 2026–27 إلى **وسائط GPA وحدها** ويطبع بجانبها **الـ 50% الوسطى لـ SAT/ACT للدفعة كلها**."
     },
     {
       "text": "“Most rigorous” shown, not defined",
@@ -6339,52 +6346,76 @@
       "t": "\"الأكثر صرامة\" معروض، لا مُعرَّف"
     },
     {
-      "text": "No numeric rubric, but a **“Most Rigorous Courses by Discipline”** table naming the ceiling course in each subject, plus AP-load buckets (0–2 / 3–5 / 6+) that let a reader locate a candidate against classmates.",
-      "of": "1f352692",
+      "text": "No numeric rubric, but a **“Notably Rigorous Courses by Discipline”** table naming the ceiling course in each subject, plus AP-load buckets — 0–2 / 3–5 / 6–8 / 9+ (Class of 2027: 22 / 22 / 39 / 14 of the 97 non-IB seniors with seven-plus semesters) — that let a reader locate a candidate against classmates.",
+      "of": "c18b3c02",
       "at": [
         "charlotte-country-day:transcript.trust[2].text"
       ],
-      "t": "لا معيار عددي، لكن جدول **\"Most Rigorous Courses by Discipline\"** يسمّي حصّة السقف في كل مادة، إضافةً إلى سلال حمل AP (0–2 / 3–5 / 6+) تتيح لقارئ وضع مرشّح مقابل زملائه."
+      "t": "لا معيار عددي، لكن جدول **\"Notably Rigorous Courses by Discipline\"** يسمّي حصّة السقف في كل مادة، إضافةً إلى سلال حمل AP — 0–2 / 3–5 / 6–8 / 9+ (دفعة 2027: 22 / 22 / 39 / 14 من 97 طالب سنة أخيرة من غير IB بسبعة فصول دراسية أو أكثر) — تتيح لقارئ وضع مرشّح مقابل زملائه."
     },
     {
-      "text": "No mandatory-AP-exam policy is published, so the 93% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.",
-      "of": "9d93bfc4",
+      "text": "Standard means college-prep",
+      "of": "9101fa11",
+      "at": [
+        "charlotte-country-day:transcript.trust[3].label"
+      ],
+      "t": "Standard تعني الإعداد الجامعي"
+    },
+    {
+      "text": "Every course that is not Honors, AP or IB is labelled **“Regular/Standard”** on transcripts and STARS forms, and the profile calls every course college-prep in rigour. AP is closed to 9th graders, and 10th graders generally take only AP Human Geography and AP Computer Science Principles.",
+      "of": "c19b1f67",
+      "at": [
+        "charlotte-country-day:transcript.trust[3].text"
+      ],
+      "t": "كل حصّة ليست Honors أو AP أو IB تُسمّى **\"Regular/Standard\"** في كشوف الدرجات واستمارات STARS، ويصف الملفّ كل حصّة بأنها إعداد جامعي في صرامتها. وAP مغلق أمام الصفّ التاسع، ولا يأخذ طلاب الصفّ العاشر عمومًا إلا AP Human Geography وAP Computer Science Principles."
+    },
+    {
+      "text": "No mandatory-AP-exam policy is published, so the 96% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.",
+      "of": "9820dec9",
       "at": [
         "charlotte-country-day:transcript.flags[0].text"
       ],
-      "t": "لا تُنشَر سياسة اختبار AP إلزامي، فترتكز نسبة 93% على مقام غير مذكور. وتقول صفحة المنهج إن الاختبار \"هو محرّك المنهج\"، ما يوحي بتوقّع قوي لكنه ليس شرطًا مذكورًا. ولم تُنشَر أعداد AP Scholar منذ 2021."
+      "t": "لا تُنشَر سياسة اختبار AP إلزامي، فترتكز نسبة 96% على مقام غير مذكور. وتقول صفحة المنهج إن الاختبار \"هو محرّك المنهج\"، ما يوحي بتوقّع قوي لكنه ليس شرطًا مذكورًا. ولم تُنشَر أعداد AP Scholar منذ 2021."
     },
     {
-      "text": "Five full-time counselors for 548 Upper Schoolers — roughly 28 seniors each — with more than 100 years of combined admissions experience between them.",
-      "of": "407b5200",
+      "text": "The 26 AP is the profile’s own count: its rigorous-courses table prints 25 AP titles, with AP US and Comparative Government on one line. The Course Offerings catalogue (2025–26, the latest posted) holds 23; no 2026–27 catalogue was posted as of 2026-11-07.",
+      "of": "354751ff",
+      "at": [
+        "charlotte-country-day:transcript.flags[1].text"
+      ],
+      "t": "الـ 26 AP هي عدّ الملفّ نفسه: يطبع جدول الحصص الصارمة فيه 25 عنوان AP، مع AP US وComparative Government على سطر واحد. ويضمّ كتالوج Course Offerings (2025–26، أحدث ما نُشر) 23؛ ولم يُنشَر كتالوج 2026–27 حتى 2026-11-07."
+    },
+    {
+      "text": "Five full-time counselors for 536 Upper Schoolers — roughly 27 seniors each — with more than 100 years of combined admissions experience between them.",
+      "of": "15a37a36",
       "at": [
         "charlotte-country-day:counseling.headline"
       ],
-      "t": "خمسة مرشدين بدوام كامل لـ 548 طالب Upper School — نحو 28 طالب سنة أخيرة لكلٍّ — بأكثر من 100 سنة خبرة قبول مجتمعة بينهم."
+      "t": "خمسة مرشدين بدوام كامل لـ 536 طالب Upper School — نحو 27 طالب سنة أخيرة لكلٍّ — بأكثر من 100 سنة خبرة قبول مجتمعة بينهم."
     },
     {
-      "text": "A director change lands in July 2026, but it sits on top of a decade of institutional memory: two of the five have been in this office since at least 2015–16.",
-      "of": "97e1e53c",
+      "text": "A director change landed in July 2026, and the 2026–27 profile is the first edition to print the new office — but it sits on top of a decade of institutional memory: two of the five have been in this office since at least 2015–16.",
+      "of": "4ab28149",
       "at": [
         "charlotte-country-day:counseling.subhead"
       ],
-      "t": "يقع تغيير المدير في يوليو 2026، لكنه يجلس فوق عقد من الذاكرة المؤسّسية: اثنان من الخمسة في هذا المكتب منذ 2015–16 على الأقلّ."
+      "t": "وقع تغيير المدير في يوليو 2026، وملفّ 2026–27 أول إصدار يطبع المكتب الجديد — لكنه يجلس فوق عقد من الذاكرة المؤسّسية: اثنان من الخمسة في هذا المكتب منذ 2015–16 على الأقلّ."
     },
     {
-      "text": "~1:28",
-      "of": "31dd4014",
+      "text": "~1:27",
+      "of": "28dd31e9",
       "at": [
         "charlotte-country-day:counseling.stats[0].value"
       ],
-      "t": "~1:28"
+      "t": "~1:27"
     },
     {
-      "text": "counselors to seniors (derived — the school publishes no ratio)",
-      "of": "ba2bc270",
+      "text": "counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)",
+      "of": "92970cca",
       "at": [
         "charlotte-country-day:counseling.stats[0].label"
       ],
-      "t": "مرشدون لطلاب السنة الأخيرة (مُستخلَص — لا تنشر المدرسة نسبة)"
+      "t": "مرشدون لطلاب السنة الأخيرة (مُستخلَص — 137 ÷ 5؛ لا تنشر المدرسة نسبة)"
     },
     {
       "text": "full-time college counselors, plus a registrar",
@@ -6419,12 +6450,12 @@
       "t": "منصّة للطلاب ولجدولة زيارات الممثّلين"
     },
     {
-      "text": "Appointed after a national search, effective 1 July 2026. A nationally published writer and speaker on admissions.",
-      "of": "ca0b9c2e",
+      "text": "Director since July 2026, after a national search. A nationally published writer and speaker on admissions.",
+      "of": "1a129422",
       "at": [
         "charlotte-country-day:counseling.roster[0].detail"
       ],
-      "t": "عُيِّنت بعد بحث وطني، اعتبارًا من 1 يوليو 2026. كاتبة ومتحدّثة منشورة وطنيًّا عن القبول."
+      "t": "مديرة منذ يوليو 2026، بعد بحث وطني. كاتبة ومتحدّثة منشورة وطنيًّا عن القبول."
     },
     {
       "text": "Sr. Assoc. Director",
@@ -6459,12 +6490,12 @@
       "t": "مُدرَج عبر إصداري الملفّ الأخيرين كليهما."
     },
     {
-      "text": "Joined between the 2024–25 and 2025–26 profiles. Plus registrar Donna Witman.",
-      "of": "7002efc7",
+      "text": "Joined between the 2024–25 and 2025–26 profiles. Plus registrar Kim Dickson (Donna Witman in 2025–26).",
+      "of": "34aa26ff",
       "at": [
         "charlotte-country-day:counseling.roster[4].detail"
       ],
-      "t": "انضمّ بين ملفّي 2024–25 و2025–26. إضافةً إلى المسجّلة Donna Witman."
+      "t": "انضمّ بين ملفّي 2024–25 و2025–26. إضافةً إلى المسجّلة Kim Dickson (Donna Witman في 2025–26)."
     },
     {
       "text": "Settle in",
@@ -6643,12 +6674,12 @@
       "t": "عضويات ACCIS · NACAC · SACAC · School Profile يُنشَر سنويًّا (CEEB 340666، IB 0667)"
     },
     {
-      "text": "Both ratios are derived (548 ÷ 5 and 141 ÷ 5); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:56. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
-      "of": "59b3a0d2",
+      "text": "Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:54. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
+      "of": "6f96425c",
       "at": [
         "charlotte-country-day:counseling.flags[0].text"
       ],
-      "t": "كلتا النسبتين مُستخلَصة (548 ÷ 5 و141 ÷ 5)؛ ولا تنشر المدرسة نسبة. والعبء الحقيقي على الأرجح طلاب السنة قبل الأخيرة والأخيرة، أقرب إلى 1:56. ولا تُنشَر سِيَر مرشدين أو مدد أو شهادات أو أرباب عمل سابقون — تعطي صفحة الفريق الأسماء والألقاب وتفاصيل الاتّصال فقط."
+      "t": "كلتا النسبتين مُستخلَصة (536 ÷ 5 و137 ÷ 5، من ملفّ 2026–27)؛ ولا تنشر المدرسة نسبة. والعبء الحقيقي على الأرجح طلاب السنة قبل الأخيرة والأخيرة، أقرب إلى 1:54. وتقول مقدّمة صفحة الإرشاد \"أربعة مرشدين جامعيين بدوام كامل\"، بينما تُدرج تلك الصفحة والملفّ كلاهما خمسة. ولا تُنشَر سِيَر مرشدين أو مدد أو شهادات أو أرباب عمل سابقون — تعطي صفحة الفريق الأسماء والألقاب وتفاصيل الاتّصال فقط."
     },
     {
       "text": "No count of campus visits made by counseling staff is published anywhere, and no named scholarship-search tool or database is described.",
@@ -6659,20 +6690,20 @@
       "t": "لا يُنشَر عدد زيارات الحرم التي يقوم بها طاقم الإرشاد في أي مكان، ولا تُوصَف أداة أو قاعدة بيانات بحث عن منح مُسمّاة."
     },
     {
-      "text": "The Class of 2026 — 141 seniors — enrolled at 70 institutions across 23 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.",
-      "of": "4bc4e548",
+      "text": "The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.",
+      "of": "67e3cb81",
       "at": [
         "charlotte-country-day:outcomes.headline"
       ],
-      "t": "دفعة 2026 — 141 طالب سنة أخيرة — التحقت بـ 70 مؤسّسة عبر 23 ولاية وواشنطن العاصمة وكندا، بـ 32 طالبًا إلى UNC–Chapel Hill وحدها."
+      "t": "دفعة 2026 — 141 طالب سنة أخيرة — التحقت بـ 70 مؤسّسة عبر 24 ولاية وواشنطن العاصمة وكندا، بـ 32 طالبًا إلى UNC–Chapel Hill وحدها."
     },
     {
-      "text": "The published list is a four-year cumulative acceptance list of ~320 institutions; only the bolded names represent somewhere a Class of 2026 student actually enrolled.",
-      "of": "782beb9e",
+      "text": "The published list is a four-year cumulative acceptance list of 363 institutions, with Harvard, Caltech, Johns Hopkins and Northwestern among the final edition’s additions; only the bolded names represent somewhere a Class of 2026 student actually enrolled.",
+      "of": "084fde63",
       "at": [
         "charlotte-country-day:outcomes.subhead"
       ],
-      "t": "القائمة المنشورة قائمة قبول تراكمية لأربع سنوات من ~320 مؤسّسة؛ ولا تمثّل إلا الأسماء بخطّ عريض مكانًا التحق به طالب من دفعة 2026 فعلًا."
+      "t": "القائمة المنشورة قائمة قبول تراكمية لأربع سنوات من 363 مؤسّسة، ومن إضافات الإصدار النهائي Harvard وCaltech وJohns Hopkins وNorthwestern؛ ولا تمثّل إلا الأسماء بخطّ عريض مكانًا التحق به طالب من دفعة 2026 فعلًا."
     },
     {
       "text": "70",
@@ -6740,20 +6771,20 @@
       "t": "عروض منح، دفعة 2026 ($13M لعام 2025)"
     },
     {
-      "text": "— absent Harvard, across the 2023–2026 list",
-      "of": "9638152a",
+      "text": "— Harvard appears for the first time on the final 2023–2026 list; none enrolling for the Class of 2026",
+      "of": "2dec7c32",
       "at": [
         "charlotte-country-day:outcomes.buckets[0].note"
       ],
-      "t": "— تغيب Harvard، عبر قائمة 2023–2026"
+      "t": "— تظهر Harvard للمرّة الأولى في قائمة 2023–2026 النهائية؛ ولا التحاق لدفعة 2026"
     },
     {
-      "text": "— Stanford and Duke enrolling",
-      "of": "a120bb10",
+      "text": "— all 17; Stanford and Duke enrolling",
+      "of": "05300fb2",
       "at": [
         "charlotte-country-day:outcomes.buckets[1].note"
       ],
-      "t": "— Stanford وDuke تسجّلان"
+      "t": "— الـ 17 كلها؛ Stanford وDuke تسجّلان"
     },
     {
       "text": "— includes all three federal service academies",
@@ -6764,12 +6795,12 @@
       "t": "— تشمل أكاديميات الخدمة الاتّحادية الثلاث كلها"
     },
     {
-      "text": "320 institutions · bold = enrolling a Class of 2026 student",
-      "of": "9642ae33",
+      "text": "363 institutions · bold = enrolling a Class of 2026 student",
+      "of": "4f170e16",
       "at": [
         "charlotte-country-day:outcomes.collegesTotal"
       ],
-      "t": "320 مؤسّسة · الخطّ العريض = تسجّل طالبًا من دفعة 2026"
+      "t": "363 مؤسّسة · الخطّ العريض = تسجّل طالبًا من دفعة 2026"
     },
     {
       "text": "$14.7M scholarship offers · Class of 2026",
@@ -6820,6 +6851,22 @@
       "t": "تعامل مع رقم \"34 حاصلًا على Morehead-Cain\" بحذر: تعرضه صفحة College Counseling الرئيسية بجوار إحصاءات دفعة 2026، لكن دفعة 2026 أنتجت Morehead-Cain Scholar واحدًا بالضبط. والـ 34 عدّ تراكمي على الإطلاق لا تذكر المدرسة نافذته أبدًا. وRobertson Scholars وNC State Park Scholars يظهران فقط في ملفّ 2015–16 وينبغي ألّا يُعرَضا خطوطًا حالية."
     },
     {
+      "text": "Bold read from the font runs of both 2023–2026 editions: the May edition (5/28/2026) and the final edition each carry 69 bold names. Lafayette lost bold in the final edition; Central Piedmont and Wesleyan gained it; Northeastern is bold in both. The earlier Yale marker was a transcription slip — Yale is bold in neither edition. The school’s “70 institutions” enrolling figure is one more than either edition’s 69 bold names.",
+      "of": "fdcf083b",
+      "at": [
+        "charlotte-country-day:outcomes.flags[0].text"
+      ],
+      "t": "قُرئ الخطّ العريض من مسارات الخطّ في إصدارَي 2023–2026 كليهما: يحمل إصدار مايو (5/28/2026) والإصدار النهائي كلٌّ منهما 69 اسمًا بخطّ عريض. فقدت Lafayette الخطّ العريض في الإصدار النهائي؛ واكتسبته Central Piedmont وWesleyan؛ وNortheastern بخطّ عريض في كليهما. وكانت علامة Yale السابقة زلّة نسخ — فـ Yale ليست بخطّ عريض في أيّ من الإصدارين. ورقم المدرسة \"70 مؤسّسة\" للالتحاق يزيد واحدًا على الأسماء الـ 69 بخطّ عريض في أيّ من الإصدارين."
+    },
+    {
+      "text": "States: the 2026–27 profile says the Class of 2026 is in 24 states, DC and Canada; the Class of 2026 page (May 2026) says 23. The profile is the later document and is used.",
+      "of": "d8671f71",
+      "at": [
+        "charlotte-country-day:outcomes.flags[1].text"
+      ],
+      "t": "الولايات: يقول ملفّ 2026–27 إن دفعة 2026 في 24 ولاية وواشنطن العاصمة وكندا؛ وتقول صفحة دفعة 2026 (مايو 2026) إنها 23. والملفّ هو الوثيقة الأحدث وهو المُعتمَد."
+    },
+    {
       "text": "The IB Diploma is the structural differentiator — a second route to maximum rigour — and the Senior Externship turns 175+ local employers into a network only this school has.",
       "of": "6f760e28",
       "at": [
@@ -6836,12 +6883,12 @@
       "t": "ما لا تملكه Country Day مشروع ختامي أو أطروحة بحث مطلوبة؛ فبناء تميّزها اتّساع برامج لا مؤهّل واحد مفروض."
     },
     {
-      "text": "**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. About 20 students a year take the full diploma from junior year, at an 88% five-year pass rate. For a student whose strengths are not AP-shaped, it is a second legible path to maximum rigour, and it carries an Extended Essay by construction.",
-      "of": "bb74f740",
+      "text": "**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year, at an 88% five-year pass rate. For a student whose strengths are not AP-shaped, it is a second legible path to maximum rigour, and it carries an Extended Essay by construction.",
+      "of": "ba43a742",
       "at": [
         "charlotte-country-day:edge.levers[0].items[0]"
       ],
-      "t": "**IB Diploma Programme** — كانت Country Day **أول مدرسة في نورث كارولاينا** تقدّمه. ويأخذ نحو 20 طالبًا في السنة الدبلوم الكامل من السنة قبل الأخيرة، بنسبة نجاح 88% لخمس سنوات. وللطالب الذي ليست قوّته على شكل AP، هو مسار مقروء ثانٍ إلى أقصى صرامة، ويحمل Extended Essay بحكم البناء."
+      "t": "**IB Diploma Programme** — كانت Country Day **أول مدرسة في نورث كارولاينا** تقدّمه. ويأخذ **26 طالب سنة أخيرة في دفعة 2027** الدبلوم الكامل من السنة قبل الأخيرة، بنسبة نجاح 88% لخمس سنوات. وللطالب الذي ليست قوّته على شكل AP، هو مسار مقروء ثانٍ إلى أقصى صرامة، ويحمل Extended Essay بحكم البناء."
     },
     {
       "text": "**Senior Externship** — a January job-shadowing immersion launched in 2017, partnered with **175+ local employers across 20+ industries**. In a recent year **136 seniors** placed with 68 Charlotte-area employers, hosts drawn largely from current and past parents and alumni.",
@@ -6884,20 +6931,20 @@
       "t": "لا يوجد تدريب عملي أو مشروع ختامي أو أطروحة بحث مستقلّة مطلوبة. وSenior Externship يوم واحد ولا يُذكَر قطّ أنه إلزامي، وإن كانت مشاركة 136 من ~141 طالب سنة أخيرة توحي بأنه شبه شامل عمليًّا."
     },
     {
-      "text": "**The School Profile as an instrument** — and the 2025–26 edition is materially stronger than its predecessor. It ties GPA quintiles to median SAT *and* median ACT, names the ceiling course in every discipline, publishes AP-load buckets, states the weighting formula, and discloses AP results by discipline including the weak spots (Fine Arts at 81%/36%). That candour is itself a credibility signal.",
-      "of": "1b4e02a8",
+      "text": "**The School Profile as an instrument** — the 2026–27 edition names the ceiling course in every discipline, states the weighting formula, and discloses AP results by discipline including the low end (Fine Arts at 91%/61%). Its AP-load buckets grew to four, and it dropped the per-fifth test medians of the 2025–26 edition but restored a whole-class SAT/ACT middle 50%. That candour is itself a credibility signal.",
+      "of": "84e0ec9e",
       "at": [
         "charlotte-country-day:edge.levers[1].items[0]"
       ],
-      "t": "**School Profile أداةً** — وإصدار 2025–26 أقوى جوهريًّا من سابقه. يربط أخماس GPA بوسيط SAT *و*وسيط ACT، ويسمّي حصّة السقف في كل تخصّص، وينشر سلال حمل AP، ويذكر صيغة الترجيح، ويُفصح عن نتائج AP بحسب التخصّص بما فيه نقاط الضعف (الفنون الجميلة عند 81%/36%). وتلك الصراحة نفسها إشارة مصداقية."
+      "t": "**School Profile أداةً** — يسمّي إصدار 2026–27 حصّة السقف في كل تخصّص، ويذكر صيغة الترجيح، ويُفصح عن نتائج AP بحسب التخصّص بما فيه الطرف الأدنى (الفنون الجميلة عند 91%/61%). وصارت سلال حمل AP فيه أربعًا، وأسقط وسائط الاختبار لكل خُمس من إصدار 2025–26 لكنه أعاد الـ 50% الوسطى لـ SAT/ACT للدفعة كلها. وتلك الصراحة نفسها إشارة مصداقية."
     },
     {
-      "text": "**Integrity signalling** — an annually pledged Honor Code with a student-run Honor Council, plus ACCIS, NACAC and SACAC membership. Faculty credibility markers matter here too: the Upper School includes **AP exam readers**, National Board graders and Klingenstein Fellows, with 82% holding advanced degrees.",
-      "of": "a80574e8",
+      "text": "**Integrity signalling** — an annually pledged Honor Code with a student-run Honor Council, plus ACCIS, NACAC and SACAC membership. Faculty credibility markers matter here too: the Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows; 82% hold advanced degrees and 100% take part in professional development each year.",
+      "of": "519c3223",
       "at": [
         "charlotte-country-day:edge.levers[1].items[1]"
       ],
-      "t": "**الإشارة إلى النزاهة** — Honor Code يُتعهَّد به سنويًّا مع Honor Council يديرها الطلاب، إضافةً إلى عضوية ACCIS وNACAC وSACAC. وعلامات مصداقية هيئة التدريس تهمّ هنا أيضًا: تضمّ Upper School **قرّاء اختبار AP** ومصحّحي National Board وزملاء Klingenstein، مع حمل 82% لشهادات متقدّمة."
+      "t": "**الإشارة إلى النزاهة** — Honor Code يُتعهَّد به سنويًّا مع Honor Council يديرها الطلاب، إضافةً إلى عضوية ACCIS وNACAC وSACAC. وعلامات مصداقية هيئة التدريس تهمّ هنا أيضًا: يضمّ **83 من الموظّفين التدريسيين والإداريين** في Upper School **قرّاء اختبار AP** ومصحّحي National Board وزملاء Klingenstein؛ ويحمل 82% شهادات متقدّمة ويشارك 100% في التطوير المهني كل سنة."
     },
     {
       "text": "**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class, alongside 34 cumulative Morehead-Cain recipients. Add a standing Jefferson Scholar link to UVA and a decade of service-academy appointments.",
@@ -6908,12 +6955,12 @@
       "t": "**خطّ مهيمن نحو UNC–Chapel Hill** — التحق 32 طالبًا من دفعة 2026 هناك، 23% من الدفعة، إلى جانب 34 حاصلًا تراكميًّا على Morehead-Cain. أضِف صلة Jefferson Scholar قائمة بـ UVA وعقدًا من تعيينات أكاديميات الخدمة."
     },
     {
-      "text": "**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolling for the Class of 2026, with a February One Scholarship and a Ron Brown Scholar among recent awards.",
-      "of": "29bf905b",
+      "text": "**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolling for the Class of 2026 (19 HBCUs on the list, Claflin new), with a February One Scholarship and a Ron Brown Scholar among recent awards.",
+      "of": "816dedb4",
       "at": [
         "charlotte-country-day:edge.levers[1].items[3]"
       ],
-      "t": "**خطّ HBCU كبير** — North Carolina A&T وHoward وHampton وClark Atlanta كلها تسجّل لدفعة 2026، بمنحة February One وRon Brown Scholar بين الجوائز الأخيرة."
+      "t": "**خطّ HBCU كبير** — North Carolina A&T وHoward وHampton وClark Atlanta كلها تسجّل لدفعة 2026 (19 HBCU في القائمة، Claflin جديدة)، بمنحة February One وRon Brown Scholar بين الجوائز الأخيرة."
     },
     {
       "text": "The school does not publish its disciplinary-disclosure policy — whether and how Honor Council findings or suspensions reach the secondary school report. Given published NACAC membership, that omission is a sharp tour question.",
@@ -6924,116 +6971,61 @@
       "t": "لا تنشر المدرسة سياسة إفصاحها التأديبي — هل وكيف تصل نتائج Honor Council أو حالات الإيقاف إلى تقرير المدرسة الثانوية. وبالنظر إلى عضوية NACAC المنشورة، ذلك الإغفال سؤال جولة حادّ."
     },
     {
-      "text": "The quintile table is the honest answer for the middle of the class — the fourth fifth sits at a 3.513 GPA with a 1220 SAT, the fifth at 2.991 and 1110.",
-      "of": "94f6b52d",
+      "text": "The quintile table is the honest answer for the middle of the class — the fourth fifth sits at a 3.655 median GPA, the fifth at 3.012 — and the whole-class middle 50% is a 1170–1400 SAT.",
+      "of": "839b959a",
       "at": [
         "charlotte-country-day:wholeClass.headline"
       ],
-      "t": "جدول الأخماس هو الإجابة الصادقة لوسط الدفعة — الخُمس الرابع يقع عند GPA 3.513 بـ SAT 1220، والخامس عند 2.991 و1110."
+      "t": "جدول الأخماس هو الإجابة الصادقة لوسط الدفعة — الخُمس الرابع يقع عند وسيط GPA 3.655، والخامس عند 3.012 — والـ 50% الوسطى للدفعة كلها SAT 1170–1400."
     },
     {
-      "text": "Country Day publishes what most schools hide, and its acceptance list matches that spread: Princeton and MIT at one end, Cape Fear and Central Piedmont community colleges at the other.",
-      "of": "887e438a",
+      "text": "Country Day publishes what most schools hide, and its acceptance list matches that spread: Harvard, Princeton and MIT at one end, Cape Fear and Central Piedmont community colleges at the other.",
+      "of": "b9d5eb24",
       "at": [
         "charlotte-country-day:wholeClass.subhead"
       ],
-      "t": "تنشر Country Day ما تخفيه معظم المدارس، وقائمة قبولها تطابق ذلك التباعد: Princeton وMIT في طرف، وكلّيتا Cape Fear وCentral Piedmont المجتمعيتان في الآخر."
+      "t": "تنشر Country Day ما تخفيه معظم المدارس، وقائمة قبولها تطابق ذلك التباعد: Harvard وPrinceton وMIT في طرف، وكلّيتا Cape Fear وCentral Piedmont المجتمعيتان في الآخر."
     },
     {
-      "text": "— Class of 2024 · the most recent SAT figures the school has published",
-      "of": "931a0a8c",
+      "text": "— Class of 2027 · middle 50% printed in the 2026–27 profile beside the Class of 2027 GPA table",
+      "of": "e7ab32ad",
       "at": [
-        "charlotte-country-day:wholeClass.scoreTables[0].hint"
+        "charlotte-country-day:wholeClass.scoreTables[0].hint",
+        "charlotte-country-day:wholeClass.scoreTables[1].hint"
       ],
-      "t": "— دفعة 2024 · أحدث أرقام SAT نشرتها المدرسة"
+      "t": "— دفعة 2027 · الـ 50% الوسطى مطبوعة في ملفّ 2026–27 بجانب جدول GPA لدفعة 2027"
     },
     {
-      "text": "SAT EBRW",
-      "of": "c13eb4c1",
-      "at": [
-        "charlotte-country-day:wholeClass.scoreTables[0].rows[1].label"
-      ],
-      "t": "SAT EBRW"
-    },
-    {
-      "text": "The middle-50% endpoints ARE the 25th and 75th percentiles, so those columns are real; the 10th, 50th and 90th are shown as “—” because the school has never published them, and neither has it ever published a mean or the number of testers.",
-      "of": "0973720b",
+      "text": "The middle-50% endpoints are the 25th and 75th percentiles; the 10th, 50th and 90th are shown as “—” because the school has never published them, nor a mean. Section scores were last published for the Class of 2024 (EBRW 585–700, Math 590–690); the number of testers never. The 2025–26 edition had dropped the whole-class range for per-fifth medians; the 2026–27 edition restores it without naming the class.",
+      "of": "8ad28a2c",
       "at": [
         "charlotte-country-day:wholeClass.scoreTables[0].note"
       ],
-      "t": "نقطتا نهاية الـ 50% الوسطى هما المئينان 25 و75، فتلك الأعمدة حقيقية؛ والمئين 10 و50 و90 معروض بوصفه \"—\" لأن المدرسة لم تنشرها قطّ، ولا نشرت قطّ متوسّطًا أو عدد المُختبِرين."
+      "t": "نقطتا نهاية الـ 50% الوسطى هما المئينان 25 و75؛ والمئين 10 و50 و90 معروض بوصفه \"—\" لأن المدرسة لم تنشرها قطّ، ولا متوسّطًا. ونُشرت درجات الأقسام آخر مرّة لدفعة 2024 (EBRW 585–700، Math 590–690)؛ وعدد المُختبِرين قطّ. وكان إصدار 2025–26 قد استبدل نطاق الدفعة كلها بوسائط لكل خُمس؛ ويعيده إصدار 2026–27 دون تسمية الدفعة."
     },
     {
-      "text": "— Class of 2024 · the most recent ACT figures the school has published",
-      "of": "e0fdb644",
-      "at": [
-        "charlotte-country-day:wholeClass.scoreTables[1].hint"
-      ],
-      "t": "— دفعة 2024 · أحدث أرقام ACT نشرتها المدرسة"
-    },
-    {
-      "text": "For long-run context, the Class of 2015 composite middle 50% was 26–31 against 24–31 here: the floor fell two points while the ceiling held. Plausibly a test-optional composition effect, but the school offers no explanation.",
-      "of": "a52cef77",
+      "text": "English 23–32 and Math 22–29 were last published for the Class of 2024, whose composite was 24–31; the Class of 2015’s was 26–31, so the floor is back where it was a decade ago.",
+      "of": "a6e03226",
       "at": [
         "charlotte-country-day:wholeClass.scoreTables[1].note"
       ],
-      "t": "للسياق طويل المدى، المركّب الوسطي 50% لدفعة 2015 كان 26–31 مقابل 24–31 هنا: هبطت الأرضية نقطتين بينما ثبت السقف. ربّما أثر تركيبة الاختيارية في الاختبار، لكن المدرسة لا تقدّم تفسيرًا."
+      "t": "نُشرت English 23–32 وMath 22–29 آخر مرّة لدفعة 2024، التي كان مركّبها 24–31؛ وكان مركّب دفعة 2015 هو 26–31، فعادت الأرضية إلى حيث كانت قبل عقد."
     },
     {
-      "text": "— the no-rank mechanism · Class of 2025 median weighted GPA, with median SAT and ACT",
-      "of": "14dbbf54",
+      "text": "— the no-rank mechanism · Class of 2027 median weighted GPA (120 of 137 seniors with seven-plus semesters at the school)",
+      "of": "21068c93",
       "at": [
         "charlotte-country-day:wholeClass.gpaHint"
       ],
-      "t": "— آلية لا-الترتيب · وسيط GPA المُرجَّح لدفعة 2025، بوسيط SAT وACT"
+      "t": "— آلية لا-الترتيب · وسيط GPA المُرجَّح لدفعة 2027 (120 من 137 طالب سنة أخيرة بسبعة فصول دراسية أو أكثر في المدرسة)"
     },
     {
-      "text": "1470 SAT · 33 ACT",
-      "of": "48b7497c",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[0].detail"
-      ],
-      "t": "1470 SAT · 33 ACT"
-    },
-    {
-      "text": "1360 SAT · 32 ACT",
-      "of": "f71b4ebb",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[1].detail"
-      ],
-      "t": "1360 SAT · 32 ACT"
-    },
-    {
-      "text": "1290 SAT · 30 ACT",
-      "of": "783b0ecd",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[2].detail"
-      ],
-      "t": "1290 SAT · 30 ACT"
-    },
-    {
-      "text": "1220 SAT · 27 ACT",
-      "of": "3b894638",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[3].detail"
-      ],
-      "t": "1220 SAT · 27 ACT"
-    },
-    {
-      "text": "1110 SAT · 24 ACT",
-      "of": "da630297",
-      "at": [
-        "charlotte-country-day:wholeClass.quintiles[4].detail"
-      ],
-      "t": "1110 SAT · 24 ACT"
-    },
-    {
-      "text": "All five quintiles are the school’s own published figures — nothing is interpolated — and tying each fifth to a median SAT and ACT was new in the 2025–26 profile. Grades reflect work done at Country Day only, as of the end of junior year. Over ten years the distribution has stretched at both ends: the top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.",
-      "of": "4ebdb623",
+      "text": "All five quintiles are the school’s own published figures — nothing is interpolated. Grades reflect work done at Country Day only, as of the end of junior year, for students with at least seven semesters at the school. The 2025–26 edition tied each fifth to a median SAT and ACT for the Class of 2025 (4.472/1470/33 down to 2.991/1110/24); the 2026–27 edition drops that pairing. Over ten years the distribution has stretched at both ends: the top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.",
+      "of": "9cf154b9",
       "at": [
         "charlotte-country-day:wholeClass.gpaNote"
       ],
-      "t": "الأخماس الخمسة كلها أرقام المدرسة المنشورة نفسها — لا شيء مُستكمَل — وربط كل خُمس بوسيط SAT وACT كان جديدًا في ملفّ 2025–26. وتعكس الدرجات العمل المُنجَز في Country Day فقط، حتى نهاية السنة قبل الأخيرة. وعلى مدى عشر سنوات امتدّ التوزيع في الطرفين: ارتفع متوسّط الخُمس الأعلى من 4.198 إلى 4.540 بينما هبطت أرضية الخُمس الأدنى من 2.546 إلى 2.076."
+      "t": "الأخماس الخمسة كلها أرقام المدرسة المنشورة نفسها — لا شيء مُستكمَل. وتعكس الدرجات العمل المُنجَز في Country Day فقط، حتى نهاية السنة قبل الأخيرة، للطلاب الذين أمضوا سبعة فصول دراسية على الأقلّ في المدرسة. ربط إصدار 2025–26 كل خُمس بوسيط SAT وACT لدفعة 2025 (من 4.472/1470/33 نزولًا إلى 2.991/1110/24)؛ ويُسقط إصدار 2026–27 ذلك الربط. وعلى مدى عشر سنوات امتدّ التوزيع في الطرفين: ارتفع متوسّط الخُمس الأعلى من 4.198 إلى 4.540 بينما هبطت أرضية الخُمس الأدنى من 2.546 إلى 2.076."
     },
     {
       "text": "The Educational Resource Program",
@@ -7109,20 +7101,20 @@
       "t": "Cape Fear وCentral Piedmont كلاهما يظهر على قائمة القبول. وكثير من المدارس النظيرة تُغفل بهدوء قبولات كليات المجتمع؛ ونشرها إشارة شفافية ذات مغزى."
     },
     {
-      "text": "About fourteen dedicated arts and music institutions (Berklee enrolling, plus Manhattan School of Music, RISD, Pratt, SAIC, Parsons in New York and Paris, UNCSA); all three federal service academies with a Naval Academy appointment; and around eleven international universities including Toronto, St Andrews, Edinburgh and Durham.",
-      "of": "ca4923db",
+      "text": "About eighteen dedicated arts and music institutions (Berklee enrolling, plus CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt, SAIC, Parsons in New York and Paris, UNCSA); all three federal service academies with a Naval Academy appointment; and around twenty-one international universities including Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh and Durham.",
+      "of": "3aa77d93",
       "at": [
         "charlotte-country-day:wholeClass.middle[2].text"
       ],
-      "t": "نحو أربع عشرة مؤسّسة فنون وموسيقى مخصَّصة (Berklee تسجّل، إضافةً إلى Manhattan School of Music وRISD وPratt وSAIC وParsons في نيويورك وباريس وUNCSA)؛ وأكاديميات الخدمة الاتّحادية الثلاث كلها مع تعيين في Naval Academy؛ ونحو إحدى عشرة جامعة دولية بما فيها Toronto وSt Andrews وEdinburgh وDurham."
+      "t": "نحو ثماني عشرة مؤسّسة فنون وموسيقى مخصَّصة (Berklee تسجّل، إضافةً إلى CalArts وCooper Union وRingling وOberlin Conservatory وManhattan School of Music وRISD وPratt وSAIC وParsons في نيويورك وباريس وUNCSA)؛ وأكاديميات الخدمة الاتّحادية الثلاث كلها مع تعيين في Naval Academy؛ ونحو إحدى وعشرين جامعة دولية بما فيها Oxford وCambridge وImperial وUCL وMcGill وTrinity College Dublin وToronto وSt Andrews وEdinburgh وDurham."
     },
     {
-      "text": "The 2025–26 profile DROPPED the SAT and ACT middle-50% ranges that the 2024–25 edition published, replacing them with per-quintile medians. The number of testers has never been published in any year — a table showing medians without a sample size shows a shape without an N.",
-      "of": "991cc7cf",
+      "text": "The 2026–27 profile restores a whole-class SAT and ACT middle 50% but labels neither the class nor the number of testers, and drops the 2025–26 edition’s per-quintile medians. The number of testers has never been published in any year — a range without a sample size shows a shape without an N.",
+      "of": "69ce23ab",
       "at": [
         "charlotte-country-day:wholeClass.flags[0].text"
       ],
-      "t": "أسقط ملفّ 2025–26 نطاقَي SAT وACT للـ 50% الوسطى اللذين نشرهما إصدار 2024–25، مستبدلًا بهما وسائط لكل خُمس. ولم يُنشَر عدد المُختبِرين قطّ في أي سنة — وجدول يُظهر وسائط دون حجم عيّنة يُظهر شكلًا دون N."
+      "t": "يعيد ملفّ 2026–27 الـ 50% الوسطى لـ SAT وACT للدفعة كلها لكنه لا يسمّي الدفعة ولا عدد المُختبِرين، ويُسقط وسائط كل خُمس من إصدار 2025–26. ولم يُنشَر عدد المُختبِرين قطّ في أي سنة — ونطاق دون حجم عيّنة يُظهر شكلًا دون N."
     },
     {
       "text": "No gap-year counselling, placement count or deferral policy is published, and neither is any direct-to-work or enlistment outcome.",
@@ -7133,12 +7125,12 @@
       "t": "لا يُنشَر إرشاد سنة الفجوة أو عدّ تنسيبها أو سياسة تأجيلها، ولا أي نتيجة مباشرة إلى العمل أو التجنيد."
     },
     {
-      "text": "A deep, stable office and an unusually candid profile — Country Day hands admissions readers more usable context than almost any peer, then declines to publish its own test scores.",
-      "of": "1629899b",
+      "text": "A deep, stable office and an unusually candid profile — Country Day hands admissions readers more usable context than almost any peer — and the 2026–27 edition restores the whole-class SAT and ACT ranges it had dropped.",
+      "of": "9234ccf5",
       "at": [
         "charlotte-country-day:verdict.headline"
       ],
-      "t": "مكتب عميق مستقرّ وملفّ صريح بشكل غير معتاد — تمنح Country Day قرّاء القبول سياقًا أكثر قابلية للاستخدام من أي نظير تقريبًا، ثم ترفض نشر درجات اختبارها."
+      "t": "مكتب عميق مستقرّ وملفّ صريح بشكل غير معتاد — تمنح Country Day قرّاء القبول سياقًا أكثر قابلية للاستخدام من أي نظير تقريبًا — ويعيد إصدار 2026–27 نطاقَي SAT وACT للدفعة كلها اللذين كان قد أسقطهما."
     },
     {
       "text": "The strengths are structural and durable; the gaps are disclosure choices, which is exactly what a tour can put pressure on.",
@@ -7157,12 +7149,12 @@
       "t": "الملفّ يعطي القرّاء سياقًا أكثر من النظيرات"
     },
     {
-      "text": "a quintile table tying GPA bands to median SAT *and* median ACT, from 4.472/1470/33 down to 2.991/1110/24. No rank is ever assigned, yet a reader can place any candidate precisely — and the per-quintile test medians were a new investment in 2025–26.",
-      "of": "c8488453",
+      "text": "a quintile table of Class of 2027 median GPAs from 4.516 down to 3.012, with a 1170–1400 SAT and 26–31 ACT middle 50% printed beside it. No rank is ever assigned, yet a reader can place any candidate precisely — though the 2025–26 edition’s per-fifth test medians are gone.",
+      "of": "c5b26f22",
       "at": [
         "charlotte-country-day:verdict.points[0].text"
       ],
-      "t": "جدول أخماس يربط نطاقات GPA بوسيط SAT *و*وسيط ACT، من 4.472/1470/33 نزولًا إلى 2.991/1110/24. ولا يُسنَد ترتيب قطّ، ومع ذلك يستطيع قارئ وضع أي مرشّح بدقّة — ووسائط الاختبار لكل خُمس كانت استثمارًا جديدًا في 2025–26."
+      "t": "جدول أخماس لوسائط GPA لدفعة 2027 من 4.516 نزولًا إلى 3.012، مع 50% وسطى لـ SAT 1170–1400 وACT 26–31 مطبوعة بجانبه. ولا يُسنَد ترتيب قطّ، ومع ذلك يستطيع قارئ وضع أي مرشّح بدقّة — وإن كانت وسائط الاختبار لكل خُمس من إصدار 2025–26 قد اختفت."
     },
     {
       "text": "AP performance is high, improving and candidly disclosed",
@@ -7173,12 +7165,12 @@
       "t": "أداء AP مرتفع، ومتحسّن، ومُفصَح عنه بصراحة"
     },
     {
-      "text": "530 exams at 93% scoring 3+ and 74% at 4–5, up from 89%/70% a year earlier — published discipline by discipline, including Fine Arts at 81%/36% rather than hiding it.",
-      "of": "51e58d13",
+      "text": "589 exams at 96% scoring 3+ and 87% at 4–5, up from 530 at 93%/74% a year earlier — published discipline by discipline, Fine Arts at 91%/61% rather than hidden.",
+      "of": "58e27712",
       "at": [
         "charlotte-country-day:verdict.points[1].text"
       ],
-      "t": "530 اختبارًا بـ 93% تسجّل 3+ و74% عند 4–5، صعودًا من 89%/70% قبل سنة — منشورة تخصّصًا بتخصّص، بما فيه الفنون الجميلة عند 81%/36% لا إخفاؤها."
+      "t": "589 اختبارًا بـ 96% تسجّل 3+ و87% عند 4–5، صعودًا من 530 عند 93%/74% قبل سنة — منشورة تخصّصًا بتخصّص، والفنون الجميلة عند 91%/61% لا إخفاؤها."
     },
     {
       "text": "The IB Diploma is a real structural differentiator",
@@ -7189,12 +7181,12 @@
       "t": "IB Diploma عامل تمييز بنيوي حقيقي"
     },
     {
-      "text": "first in North Carolina to offer it, ~20 full-diploma candidates a year from junior year, 88% five-year pass rate — a second legible path to maximum rigour for students who are not AP-shaped.",
-      "of": "988039ca",
+      "text": "first in North Carolina to offer it, 26 full-diploma seniors in the Class of 2027, 88% five-year pass rate — a second legible path to maximum rigour for students who are not AP-shaped.",
+      "of": "dd6caf3d",
       "at": [
         "charlotte-country-day:verdict.points[2].text"
       ],
-      "t": "أول من قدّمه في نورث كارولاينا، ونحو 20 مرشّح دبلوم كامل في السنة من السنة قبل الأخيرة، ونسبة نجاح 88% لخمس سنوات — مسار مقروء ثانٍ إلى أقصى صرامة للطلاب الذين ليسوا على شكل AP."
+      "t": "أول من قدّمه في نورث كارولاينا، و26 طالب سنة أخيرة بالدبلوم الكامل في دفعة 2027، ونسبة نجاح 88% لخمس سنوات — مسار مقروء ثانٍ إلى أقصى صرامة للطلاب الذين ليسوا على شكل AP."
     },
     {
       "text": "The office is deep and stable through a director change",
@@ -7205,12 +7197,12 @@
       "t": "المكتب عميق مستقرّ عبر تغيير مدير"
     },
     {
-      "text": "five counselors, 100+ years of combined experience, 150+ reps a year through a structured Scoir Visits programme — and two counselors with a decade-plus in the office, so the July 2026 leadership change sits on institutional memory rather than a vacuum.",
-      "of": "7a9f0b9b",
+      "text": "five counselors, 100+ years of combined experience, 150+ reps a year through a structured Scoir Visits programme — and the July 2026 change has happened: Allison Slater Tate leads, with Catherine Odum, a decade-plus in the office, as Senior Associate, so the new leadership sits on institutional memory rather than a vacuum.",
+      "of": "86ec9e8a",
       "at": [
         "charlotte-country-day:verdict.points[3].text"
       ],
-      "t": "خمسة مرشدين، وأكثر من 100 سنة خبرة مجتمعة، وأكثر من 150 ممثّلًا في السنة عبر برنامج Scoir Visits منظَّم — ومرشدان بأكثر من عقد في المكتب، فتغيير القيادة في يوليو 2026 يجلس على ذاكرة مؤسّسية لا فراغ."
+      "t": "خمسة مرشدين، وأكثر من 100 سنة خبرة مجتمعة، وأكثر من 150 ممثّلًا في السنة عبر برنامج Scoir Visits منظَّم — وقد وقع تغيير يوليو 2026: تقود Allison Slater Tate، مع Catherine Odum، صاحبة أكثر من عقد في المكتب، بصفة Senior Associate، فالقيادة الجديدة تجلس على ذاكرة مؤسّسية لا فراغ."
     },
     {
       "text": "The timeline starts genuinely early",
@@ -7237,20 +7229,20 @@
       "t": "النتائج صادقة عبر التوزيع كلّه"
     },
     {
-      "text": "70 destinations for 141 seniors, 55% public and 45% private, community colleges published alongside Princeton and MIT, 32 students to UNC–Chapel Hill, and a substantial HBCU pipeline with four institutions enrolling.",
-      "of": "e3fce71f",
+      "text": "70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private, community colleges published alongside Princeton and MIT, 32 students to UNC–Chapel Hill, and a substantial HBCU pipeline with four institutions enrolling.",
+      "of": "6bfcb858",
       "at": [
         "charlotte-country-day:verdict.points[5].text"
       ],
-      "t": "70 وجهة لـ 141 طالب سنة أخيرة، 55% حكومية و45% خاصّة، وكليات مجتمع منشورة إلى جانب Princeton وMIT، و32 طالبًا إلى UNC–Chapel Hill، وخطّ HBCU كبير بأربع مؤسّسات تسجّل."
+      "t": "70 وجهة لـ 141 طالب سنة أخيرة عبر 24 ولاية وواشنطن العاصمة وكندا، 55% حكومية و45% خاصّة، وكليات مجتمع منشورة إلى جانب Princeton وMIT، و32 طالبًا إلى UNC–Chapel Hill، وخطّ HBCU كبير بأربع مؤسّسات تسجّل."
     },
     {
-      "text": "Your 2024–25 profile published SAT and ACT middle-50% ranges and the 2025–26 edition dropped them. Why — and what were the Class of 2025 and 2026 ranges, and how many students tested?",
-      "of": "e9174a66",
+      "text": "Your 2026–27 profile prints a 1170–1400 SAT and 26–31 ACT middle 50% beside the Class of 2027 GPA table — which class and how many testers does that cover, and why did the per-fifth medians go?",
+      "of": "f5ee0f6d",
       "at": [
         "charlotte-country-day:verdict.checklist[0]"
       ],
-      "t": "نشر ملفّكم لعام 2024–25 نطاقَي SAT وACT للـ 50% الوسطى وأسقطهما إصدار 2025–26. لماذا — وما نطاقا دفعتَي 2025 و2026، وكم طالبًا اختبر؟"
+      "t": "يطبع ملفّكم لعام 2026–27 50% وسطى لـ SAT 1170–1400 وACT 26–31 بجانب جدول GPA لدفعة 2027 — أيّ دفعة وكم مُختبِرًا يغطّي ذلك، ولماذا اختفت وسائط كل خُمس؟"
     },
     {
       "text": "The Class of 2025 had 2 National Merit Semifinalists where the classes either side had 7 and 6. What happened that year?",
@@ -7261,12 +7253,12 @@
       "t": "كان لدى دفعة 2025 متأهّلان لنصف النهائي في National Merit حيث كان للدفعتين على الجانبين 7 و6. ماذا حدث تلك السنة؟"
     },
     {
-      "text": "No Class of 2026 student enrolled at an Ivy, and Harvard is absent across seven published classes. How do you read that, and what does Ivy matriculation look like year over year?",
-      "of": "41876ce1",
+      "text": "Harvard appears on the 2023–2026 list for the first time in the final edition, and still no Class of 2026 student enrolled at an Ivy. How do you read that, and what does Ivy matriculation look like year over year?",
+      "of": "fff8c403",
       "at": [
         "charlotte-country-day:verdict.checklist[2]"
       ],
-      "t": "لم يلتحق أي طالب من دفعة 2026 بـ Ivy، وHarvard غائبة عبر سبع دفعات منشورة. كيف تقرؤون ذلك، وكيف يبدو الالتحاق بـ Ivy من سنة إلى أخرى؟"
+      "t": "تظهر Harvard في قائمة 2023–2026 للمرّة الأولى في الإصدار النهائي، ومع ذلك لم يلتحق أي طالب من دفعة 2026 بـ Ivy. كيف تقرؤون ذلك، وكيف يبدو الالتحاق بـ Ivy من سنة إلى أخرى؟"
     },
     {
       "text": "What exactly does the “34 Morehead-Cain recipients” figure cover — how many years? The Class of 2026 post names exactly one.",
@@ -8448,15 +8440,6 @@
         "covenant-day:transcript.subhead"
       ],
       "t": "برنامج AP ذو بوابات: لا شيء للصف الأول، وواحد للصف الثاني، مع تسجيل مزدوج عبر Covenant College مضاف فوقه."
-    },
-    {
-      "text": "96%",
-      "of": "3ec55d39",
-      "at": [
-        "covenant-day:transcript.stats[0].value",
-        "covenant-day:transcript.merit[3].detail"
-      ],
-      "t": "96%"
     },
     {
       "text": "of AP exams scored 3+ in 2026 (401 exams, 179 students)",
