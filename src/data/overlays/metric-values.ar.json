@@ -358,8 +358,8 @@
       ]
     },
     {
-      "t": "1334",
-      "of": "e860b05a",
+      "t": "1288",
+      "of": "f7b2d06a",
       "at": [
         "providence-day:[3].values.providence-day"
       ]
@@ -428,24 +428,16 @@
       ]
     },
     {
-      "t": "(دفعة 2025)",
-      "of": "14052e18",
-      "at": [
-        "providence-day:[3].subs.providence-day",
-        "providence-day:[3].subs.gaston-day",
-        "providence-day:[4].subs.providence-day",
-        "providence-day:[4].subs.gaston-day"
-      ]
-    },
-    {
       "t": "(دفعة 2026)",
       "of": "93fda8d3",
       "at": [
+        "providence-day:[3].subs.providence-day",
         "providence-day:[3].subs.charlotte-latin",
         "providence-day:[3].subs.covenant-day",
         "providence-day:[3].subs.hickory-grove-christian",
         "providence-day:[3].subs.cannon",
         "providence-day:[3].subs.charlotte-christian",
+        "providence-day:[4].subs.providence-day",
         "providence-day:[4].subs.charlotte-latin",
         "providence-day:[4].subs.covenant-day",
         "providence-day:[4].subs.hickory-grove-christian",
@@ -469,6 +461,14 @@
         "providence-day:[3].subs.charlotte-country-day",
         "providence-day:[4].subs.charlotte-catholic",
         "providence-day:[4].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "(دفعة 2025)",
+      "of": "14052e18",
+      "at": [
+        "providence-day:[3].subs.gaston-day",
+        "providence-day:[4].subs.gaston-day"
       ]
     },
     {
@@ -501,11 +501,13 @@
       ]
     },
     {
-      "t": "27",
-      "of": "8af294c6",
+      "t": "25",
+      "of": "88f291a0",
       "at": [
         "providence-day:[4].values.providence-day",
-        "providence-day:[33].values.hickory-grove-christian"
+        "providence-day:[33].values.charlotte-latin",
+        "providence-day:[43].values.charlotte-catholic",
+        "providence-day:[43].values.charlotte-country-day"
       ]
     },
     {
@@ -2622,8 +2624,8 @@
       ]
     },
     {
-      "t": "~44:1",
-      "of": "a80d4a10",
+      "t": "~36:1",
+      "of": "1ee45b4d",
       "at": [
         "providence-day:[19].values.providence-day"
       ]
@@ -2685,8 +2687,8 @@
       ]
     },
     {
-      "t": "نحو 44–45 طالبًا في السنة الأخيرة لكل مرشد جامعي في ذروة موسم التقديم، ضمن نموذج ربع الدفعة. وكلما انخفضت النسبة زاد وقت المرشد المتاح لكل طالب.",
-      "of": "116d1af0",
+      "t": "نحو 36 طالبًا في السنة الأخيرة لكل مرشد جامعي: 179 طالبًا في السنة الأخيرة موزّعون على خمسة مرشدين. وكلما انخفضت النسبة زاد وقت المرشد المتاح لكل طالب.",
+      "of": "cf690951",
       "at": [
         "providence-day:[19].quals.providence-day.text"
       ]
@@ -4424,15 +4426,6 @@
       ]
     },
     {
-      "t": "25",
-      "of": "88f291a0",
-      "at": [
-        "providence-day:[33].values.charlotte-latin",
-        "providence-day:[43].values.charlotte-catholic",
-        "providence-day:[43].values.charlotte-country-day"
-      ]
-    },
-    {
       "t": "≥14",
       "of": "d1042995",
       "at": [
@@ -4451,6 +4444,13 @@
       "of": "e05ccd9b",
       "at": [
         "providence-day:[33].values.davidson-day"
+      ]
+    },
+    {
+      "t": "27",
+      "of": "8af294c6",
+      "at": [
+        "providence-day:[33].values.hickory-grove-christian"
       ]
     },
     {

@@ -408,12 +408,12 @@
       "t": "নিচে উল্লেখিত ব্যাচের জন্য প্রতিটি স্কুলের প্রকাশিত SAT মোট স্কোর: মধ্যক, গড় এবং মাঝের 50%। ড্যাশ মানে স্কুলটি ওই সংখ্যাটি প্রকাশ করে না; Davidson Day কোনো পরীক্ষার স্কোর প্রকাশ করে না।"
     },
     {
-      "text": "1334",
-      "of": "e860b05a",
+      "text": "1288",
+      "of": "f7b2d06a",
       "at": [
         "providence-day:[3].values.providence-day"
       ],
-      "t": "1334"
+      "t": "1288"
     },
     {
       "text": "1308.5",
@@ -488,25 +488,16 @@
       "t": "1190–1330"
     },
     {
-      "text": "(Class of 2025)",
-      "of": "14052e18",
-      "at": [
-        "providence-day:[3].subs.providence-day",
-        "providence-day:[3].subs.gaston-day",
-        "providence-day:[4].subs.providence-day",
-        "providence-day:[4].subs.gaston-day"
-      ],
-      "t": "(2025 ব্যাচ)"
-    },
-    {
       "text": "(Class of 2026)",
       "of": "93fda8d3",
       "at": [
+        "providence-day:[3].subs.providence-day",
         "providence-day:[3].subs.charlotte-latin",
         "providence-day:[3].subs.covenant-day",
         "providence-day:[3].subs.hickory-grove-christian",
         "providence-day:[3].subs.cannon",
         "providence-day:[3].subs.charlotte-christian",
+        "providence-day:[4].subs.providence-day",
         "providence-day:[4].subs.charlotte-latin",
         "providence-day:[4].subs.covenant-day",
         "providence-day:[4].subs.hickory-grove-christian",
@@ -534,6 +525,15 @@
         "providence-day:[4].subs.charlotte-country-day"
       ],
       "t": "(2027 ব্যাচ)"
+    },
+    {
+      "text": "(Class of 2025)",
+      "of": "14052e18",
+      "at": [
+        "providence-day:[3].subs.gaston-day",
+        "providence-day:[4].subs.gaston-day"
+      ],
+      "t": "(2025 ব্যাচ)"
     },
     {
       "text": "The median was printed mid-year from 20 testers; the average is the school’s final figure for the class, from 45 testers.",
@@ -569,13 +569,15 @@
       "t": "নিচে উল্লেখিত ব্যাচের জন্য প্রতিটি স্কুলের প্রকাশিত ACT composite স্কোর: মধ্যক, গড় এবং মাঝের 50%। ড্যাশ মানে স্কুলটি ওই সংখ্যাটি প্রকাশ করে না; Davidson Day কোনো পরীক্ষার স্কোর প্রকাশ করে না।"
     },
     {
-      "text": "27",
-      "of": "8af294c6",
+      "text": "25",
+      "of": "88f291a0",
       "at": [
         "providence-day:[4].values.providence-day",
-        "providence-day:[33].values.hickory-grove-christian"
+        "providence-day:[33].values.charlotte-latin",
+        "providence-day:[43].values.charlotte-catholic",
+        "providence-day:[43].values.charlotte-country-day"
       ],
-      "t": "27"
+      "t": "25"
     },
     {
       "text": "27.2",
@@ -2974,12 +2976,12 @@
       "t": "~18:1"
     },
     {
-      "text": "~44:1",
-      "of": "a80d4a10",
+      "text": "~36:1",
+      "of": "1ee45b4d",
       "at": [
         "providence-day:[19].values.providence-day"
       ],
-      "t": "~44:1"
+      "t": "~36:1"
     },
     {
       "text": "Computed, not published: 336 seniors in the Class of 2027 divided by the six counselors named on the 2026-27 school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.",
@@ -3046,12 +3048,12 @@
       "t": "সর্বোচ্চ আবেদন মৌসুমে প্রতি কলেজ কাউন্সেলরে প্রায় 25 জন সিনিয়র, 50 জনের একটি সিনিয়র শ্রেণিতে — এখানে দ্বিতীয় সবচেয়ে হালকা কেসলোড, Gaston Day-র পরে। কম অনুপাত মানে প্রতি শিক্ষার্থীর জন্য বেশি কাউন্সেলর সময়।"
     },
     {
-      "text": "About 44–45 seniors per college counselor at peak application season, under a quarter-class model. A lower ratio means more counselor time per student.",
-      "of": "116d1af0",
+      "text": "About 36 seniors per college counselor: 179 seniors shared among five counselors. A lower ratio means more counselor time per student.",
+      "of": "cf690951",
       "at": [
         "providence-day:[19].quals.providence-day.text"
       ],
-      "t": "সর্বোচ্চ আবেদন মৌসুমে প্রতি কলেজ কাউন্সেলরে প্রায় 44–45 জন সিনিয়র, একটি কোয়ার্টার-ক্লাস মডেলের অধীনে। কম অনুপাত মানে প্রতি শিক্ষার্থীর জন্য বেশি কাউন্সেলর সময়।"
+      "t": "প্রতি কলেজ কাউন্সেলরে প্রায় 36 জন সিনিয়র: 179 জন সিনিয়র পাঁচজন কাউন্সেলরের মধ্যে ভাগ করা। কম অনুপাত মানে প্রতি শিক্ষার্থীর জন্য বেশি কাউন্সেলর সময়।"
     },
     {
       "text": "Lower School tuition",
@@ -5025,16 +5027,6 @@
       "t": "~45–50"
     },
     {
-      "text": "25",
-      "of": "88f291a0",
-      "at": [
-        "providence-day:[33].values.charlotte-latin",
-        "providence-day:[43].values.charlotte-catholic",
-        "providence-day:[43].values.charlotte-country-day"
-      ],
-      "t": "25"
-    },
-    {
       "text": "≥14",
       "of": "d1042995",
       "at": [
@@ -5057,6 +5049,14 @@
         "providence-day:[33].values.davidson-day"
       ],
       "t": "≥9"
+    },
+    {
+      "text": "27",
+      "of": "8af294c6",
+      "at": [
+        "providence-day:[33].values.hickory-grove-christian"
+      ],
+      "t": "27"
     },
     {
       "text": "31",

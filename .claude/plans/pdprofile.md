@@ -1,11 +1,11 @@
 ---
 name: pdprofile
 title: Refresh Providence Day from its 2026–27 profile — May 2026 AP (1,282 exams, 93%/76%), Class of 2026 SAT/ACT with ACT Reading and Science added, Class of 2027 quintiles, 754/179 enrollment and ~36:1 caseload (Compare ~44:1 corrected), Class of 2026 awards ($21M, 9 NMF, 58 National Recognition, 118 NHS, 375 GSD graduates), Huntingdon College added (383 rows) and the acceptance list's bold markers corrected from 107 to the profile's 182; Sports, Clubs and Compare follow-ons; amended 2026-11-07 for the Compare SAT/ACT rows that shipped after planning
-status: not-implemented
+status: implemented
 phases: 2
 created: 2026-11-05
 branch: feat/pd-profile-2627
-prs: []
+prs: [442]
 ---
 
 # Refresh Providence Day from its 2026–27 profile
@@ -558,3 +558,45 @@ mechanism. The traps:
   it unlinked.
 
 ## Implementation notes
+Phase 1 (English) built 2026-11-07 on `feat/pd-profile-2627`. Deviations from the plan:
+
+- **Step 2 (ingest).** The source file was already committed and its Compare AP cells shipped
+  by `ap45` (#430), but the distilled doc `.claude/docs/college-support/providence-day.md` had
+  never been regenerated. The full rebuild churned 96 unrelated docs (date stamps) and
+  reordered `schools.json`. Only the PD doc, the PD content JSON and the one new manifest
+  document entry (HEAD order restored) were kept.
+- **D19.** The bold-marker rule was already in `gen_data_schema.mjs`, added by `ccdprofile`
+  (#441). It now cites Providence Day as a second example (107 marked vs 182 bold) rather
+  than being added twice.
+- **D5.** Huntingdon's homepage was confirmed in headless Chromium (Playwright) because the
+  Chrome extension was not connected. `huntingdon.edu` redirects to `https://www.huntingdon.edu/`
+  and the page names Huntingdon College, Montgomery, Alabama 36106. The stored URL is the
+  final host.
+- **D9 `gpaNote`.** The old "mid-B-plus unweighted" reading of the median was an inference
+  we could not re-derive for 4.017. It now says only that a 4.017 middle fifth is not a
+  straight-A unweighted transcript, because part of it is honours and AP weight.
+- **D2 (user, 2026-11-07).** The user confirmed that the list stays cumulative. The profile was
+  merged into the shipped list: one name added and none removed.
+- **Phase 1 build.** `npm run build` stops at `check:live`, because 49 shipped overlay entries
+  per locale were stamped against the English this phase rewrote. That is Phase 2's work.
+  Every other check in the build chain passes when run on its own.
+
+Phase 2 (all nine prose locales) built 2026-11-07 in a fresh window, on the same branch.
+
+- **Splice.** `i18n_splice_work.mjs` per locale × topic: college-support 1703 kept / 44 added /
+  43 dropped, metric-values 893/3/3, sports 1038/1/1, student-clubs 1073/3/3: 51 new units per
+  locale. Every kept translation was verified byte-identical to HEAD by stamp, and the rebuilt
+  overlays hold 0 duplicate `at` paths.
+- **Carry-over.** 18 of the 51 units differed from their predecessor at the same `at` path only
+  in figures, and were carried by token substitution (`ddprofile` method). The other 33 were
+  translated by editing each locale's shipped wording, so register and term choices stay as
+  reviewed. The `~382` → `383` units were hand-edited rather than substituted, because the
+  English also dropped the "about".
+- **Checks.** `check:runtime`, `check:live`, `check:chrome`, `check:fr`, `check:dates`,
+  `check:moneytext`, `check:sepdrift` (×9) and `check_figures.py` (4 topics × 9) are all clean,
+  and `npm run build` is green. `check:digits` reports 18 findings, all numbers written as words
+  in the locale's reviewed style ("nine", "ninth grade", "~7/~16" → "about 7/16"). They are
+  deliberate keeps. `i18n:leaks` flags none of the 51 new paths.
+- **Browser.** In a production preview with every `<details>` open, every non-flag new
+  translation rendered on `/school/providence-day` in all nine locales. The `$21M` tile renders
+  `21 M US$` in es/ar, and the caseload qual sits in the Compare HTML as a tooltip.

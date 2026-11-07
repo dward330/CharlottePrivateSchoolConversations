@@ -157,59 +157,57 @@
       ]
     },
     {
-      "t": "Ogni studente AP deve sostenere l'esame, quindi la distribuzione dei punteggi che le università leggono è completa — e il 94% dei punteggi del 2025 è stato pari o superiore a 3, con il 77% a 4 o 5.",
-      "of": "299ca066",
+      "t": "Ogni studente AP deve sostenere l'esame, quindi la distribuzione dei punteggi che le università leggono è completa — e il 93% dei punteggi del 2026 è stato pari o superiore a 3, con il 76% a 4 o 5.",
+      "of": "cf6f397f",
       "at": [
         "providence-day:transcript.headline"
       ]
     },
     {
-      "t": "L'Academic Profile fornisce a chi valuta le ammissioni numeri verificabili anziché aggettivi: una tabella AP per singola materia che copre tutte le 31 materie, una tabella dei quintili di GPA e norme dichiarate sul carico di corsi.",
-      "of": "33ae2bd9",
+      "t": "L'Academic Profile fornisce a chi valuta le ammissioni numeri verificabili anziché aggettivi: una tabella AP per singola materia che copre tutte le 29 materie d'esame, una tabella dei quintili di GPA e norme dichiarate sul carico di corsi.",
+      "of": "7bc21993",
       "at": [
         "providence-day:transcript.subhead"
       ]
     },
     {
-      "t": "1,213",
-      "of": "11ee0e52",
+      "t": "1,282",
+      "of": "18ff6278",
       "at": [
         "providence-day:transcript.stats[0].value"
       ]
     },
     {
-      "t": "Esami AP sostenuti, maggio 2025 — la tabella per singola materia somma esattamente a questo valore",
-      "of": "6968b638",
+      "t": "Esami AP sostenuti da 497 studenti, maggio 2026",
+      "of": "397d5c32",
       "at": [
         "providence-day:transcript.stats[0].label"
       ]
     },
     {
-      "t": "94%",
-      "of": "3ac0d9bf",
+      "t": "93%",
+      "of": "3ad222e0",
       "at": [
-        "providence-day:transcript.stats[1].value",
-        "charlotte-christian:transcript.stats[1].value",
-        "charlotte-catholic:transcript.stats[2].value"
+        "providence-day:transcript.stats[1].value"
       ]
     },
     {
-      "t": "dei punteggi era 3+ · il 77% era 4 o 5",
-      "of": "b9df501f",
+      "t": "dei punteggi era 3+ · il 76% era 4 o 5",
+      "of": "683d5d86",
       "at": [
         "providence-day:transcript.stats[1].label"
       ]
     },
     {
-      "t": "31",
-      "of": "88f05309",
+      "t": "30",
+      "of": "87f05176",
       "at": [
         "providence-day:transcript.stats[2].value"
       ]
     },
     {
-      "t": "Materie AP esaminate, più i corsi post-AP designati",
-      "of": "609871f2",
+      "t": "Corsi AP nella tabella dei corsi del profilo, 29 dei quali con esame a maggio 2026",
+      "of": "cb8dc89d",
       "at": [
         "providence-day:transcript.stats[2].label"
       ]
@@ -235,8 +233,8 @@
       ]
     },
     {
-      "t": "**9** Semifinalisti — tutti e 9 avanzati a Finalisti · **18** Menzionati · 26 AP Scholar, 29 con Honor, 51 con Distinction",
-      "of": "6fd60f00",
+      "t": "**9** Semifinalisti — tutti e 9 avanzati a Finalisti, secondo il profilo 2026–27 · **18** Menzionati · **58** College Board National Recognition · 26 AP Scholar, 29 con Honor, 51 con Distinction",
+      "of": "ecf31891",
       "at": [
         "providence-day:transcript.merit[0].detail"
       ]
@@ -277,8 +275,8 @@
       ]
     },
     {
-      "t": "Le coppie 9/18 e 7/16 riguardano anni di diploma diversi, non un'incongruenza — il 2026 rappresenta un genuino passo avanti rispetto alla base recente di circa 7/16. Da notare che l'Academic Profile 2025–26 attualmente pubblicato è obsoleto su questa metrica: riporta ancora il bilancio della Class of 2024 sebbene la Class of 2026 si sia diplomata.",
-      "of": "abff3217",
+      "t": "Le coppie 9/18 e 7/16 riguardano anni di diploma diversi, non un'incongruenza — il 2026 rappresenta un genuino passo avanti rispetto alla base recente di circa 7/16.",
+      "of": "1fcba5b4",
       "at": [
         "providence-day:transcript.meritNote"
       ]
@@ -383,8 +381,8 @@
       ]
     },
     {
-      "t": "A+ = 97–100 (4.33) fino a F (0.00); **+0.5 punti di qualità per Advanced, +1.0 per AP**. I voti di fine corso sul transcript sono non ponderati, così che chi legge possa ricalcolare.",
-      "of": "9580e92f",
+      "t": "A+ = 97–100 (4.33) fino a F (0.00); **+0.5 punti di qualità per Advanced, +1.0 per AP**. I voti di fine corso sul transcript sono non ponderati, così che chi legge possa ricalcolare — e il punto AP aggiuntivo non viene attribuito allo studente che ottiene meno di 70 nel corso.",
+      "of": "6aad842b",
       "at": [
         "providence-day:transcript.trust[0].text"
       ]
@@ -421,8 +419,8 @@
       ]
     },
     {
-      "t": "I dati “461 studenti che hanno sostenuto esami AP” e “95% degli studenti con punteggio 3+” provengono da uno snippet indicizzato del PDF del profilo anziché da un'estrazione diretta — il conteggio di 1,213 esami tratto dalla stessa frase È confermato dalla tabella per materia. Anche il titolo “30 corsi AP” si contrappone a una tabella d'esame del profilo che elenca 31 materie distinte.",
-      "of": "b7232f3c",
+      "t": "Citare il 93% / 76% della scuola; non ricalcolarli mai dalla tabella AP. Il profilo 2026–27 riporta 116 esami di Computer Science Principles, ma le celle dei punteggi di quella riga sommano a 126, quindi sommando tutte le celle si ottiene 1,292 anziché i 1,282 del titolo. Le percentuali della scuola corrispondono al denominatore di 1,282.",
+      "of": "0a824866",
       "at": [
         "providence-day:transcript.flags[0].text"
       ]
@@ -830,15 +828,15 @@
       ]
     },
     {
-      "t": "SCOIR · l'Academic Profile annuale ricco di dati · i rappresentanti vengono incontrati anche quando nessuno studente si iscrive",
-      "of": "318b7d7d",
+      "t": "SCOIR · il profilo annuale ricco di dati · CEEB **340687** · i rappresentanti vengono incontrati anche quando nessuno studente si iscrive",
+      "of": "abc9a436",
       "at": [
         "providence-day:counseling.reach[2]"
       ]
     },
     {
-      "t": "Il rapporto di ~36:1 per gli studenti dell'ultimo anno e quello di ~146:1 su tutte le classi sono calcolati dalle cifre di iscrizione del profilo (730 nell'Upper School, 178 studenti dell'ultimo anno ÷ 5), non pubblicati dalla scuola. Le credenziali dei consulenti e i precedenti ruoli nelle ammissioni provengono da aggregatori.",
-      "of": "a96906e7",
+      "t": "Il rapporto di ~36:1 per gli studenti dell'ultimo anno e quello di ~151:1 su tutte le classi sono calcolati dalle cifre di iscrizione del profilo (754 nell'Upper School, 179 studenti dell'ultimo anno ÷ 5), non pubblicati dalla scuola. Le credenziali dei consulenti e i precedenti ruoli nelle ammissioni provengono da aggregatori.",
+      "of": "ac88c1fe",
       "at": [
         "providence-day:counseling.flags[0].text"
       ]
@@ -851,15 +849,15 @@
       ]
     },
     {
-      "t": "Tutte e otto le Ivies compaiono nell'elenco delle ammissioni 2023–2026 — e tutte e otto sono in grassetto perché iscrivono più di un diplomato.",
-      "of": "fd3ab1b1",
+      "t": "Tutte e otto le Ivies compaiono nell'elenco delle ammissioni 2023–2026 — e tutte e otto sono in grassetto perché iscrivono uno o più diplomati.",
+      "of": "5effe836",
       "at": [
         "providence-day:outcomes.headline"
       ]
     },
     {
-      "t": "La Class of 2025 è stata ammessa a un numero record per la scuola di 249 università in 39 stati, DC e 6 paesi; il 100% dei diplomati frequenta università quadriennali. Qui l'elenco di circa 382 istituzioni è valutato rispetto agli attuali livelli di U.S. News.",
-      "of": "2509ae97",
+      "t": "La Class of 2025 è stata ammessa a un numero record per la scuola di 249 università in 39 stati, DC e 6 paesi; il 100% dei diplomati frequenta università quadriennali. Qui l'elenco di 383 istituzioni è valutato rispetto agli attuali livelli di U.S. News.",
+      "of": "445932a4",
       "at": [
         "providence-day:outcomes.subhead"
       ]
@@ -908,15 +906,15 @@
       ]
     },
     {
-      "t": "$23M / $20M",
-      "of": "e8ae621f",
+      "t": "$21M",
+      "of": "46836f11",
       "at": [
         "providence-day:outcomes.stats[3].value"
       ]
     },
     {
-      "t": "offerte di borse di studio della Class of 2025 — i due dati della scuola sono in contrasto",
-      "of": "5cae3942",
+      "t": "offerte di borse di studio alla Class of 2026 — premiato l'82% degli studenti dell'ultimo anno",
+      "of": "2a5ea59c",
       "at": [
         "providence-day:outcomes.stats[3].label"
       ]
@@ -1073,8 +1071,8 @@
       ]
     },
     {
-      "t": "382 istituzioni · grassetto = iscrivono più di un diplomato",
-      "of": "638be293",
+      "t": "383 istituzioni · grassetto = iscrivono uno o più diplomati",
+      "of": "13bc0e1d",
       "at": [
         "providence-day:outcomes.collegesTotal"
       ]
@@ -1115,10 +1113,17 @@
       ]
     },
     {
-      "t": "Class of 2026: $21M+ all'82% degli studenti dell'ultimo anno",
-      "of": "123e21e5",
+      "t": "Class of 2026: $21M in offerte di borse di studio · premiato l'82% · 9 National Merit Finalist",
+      "of": "a4a5d116",
       "at": [
         "providence-day:outcomes.scholarships[5]"
+      ]
+    },
+    {
+      "t": "Il grassetto segue il profilo 2026–27 (182 in grassetto, legenda “one or more”). La pagina College Acceptances online usa la legenda “more than one” e mette in grassetto 178 nomi: Berklee College of Music, Thomas Jefferson University, University of Central Florida, University of North Carolina–Pembroke e William Penn University sono in grassetto solo nel profilo, e Stevenson University solo sulla pagina.",
+      "of": "92701a01",
+      "at": [
+        "providence-day:outcomes.flags[0].text"
       ]
     },
     {
@@ -1150,8 +1155,8 @@
       ]
     },
     {
-      "t": "**Global Studies Diploma** — “il primo del suo genere nel paese”. Inizia in nono anno, richiede una lingua straniera per tutti e quattro gli anni, un percorso di studi a orientamento globale, un'esperienza interculturale, un portfolio individuale e un lungo elaborato di ricerca nel corso conclusivo Global Leadership. **344 diplomati dal 2007**, 23 nella sola Class of 2026.",
-      "of": "249ee56e",
+      "t": "**Global Studies Diploma** — “il primo del suo genere nel paese”. Inizia in nono anno, richiede una lingua straniera per tutti e quattro gli anni, un percorso di studi a orientamento globale, un'esperienza interculturale, un portfolio individuale e un lungo elaborato di ricerca nel corso conclusivo Global Leadership. **375 diplomati dal 2007**, 23 nella sola Class of 2026.",
+      "of": "87fd399a",
       "at": [
         "providence-day:edge.levers[0].items[0]"
       ]
@@ -1178,8 +1183,8 @@
       ]
     },
     {
-      "t": "L'Entrepreneurial Studies Diploma è stato annunciato ma i suoi requisiti di corso, il progetto conclusivo e la struttura dello stage non sono pubblicati — le richieste vengono indirizzate a un indirizzo email. Da confrontare con Global Studies, che pubblica sia i requisiti sia un flusso di 344 diplomati.",
-      "of": "71b6aa07",
+      "t": "L'Entrepreneurial Studies Diploma è stato annunciato ma i suoi requisiti di corso, il progetto conclusivo e la struttura dello stage non sono pubblicati — le richieste vengono indirizzate a un indirizzo email. Da confrontare con Global Studies, che pubblica sia i requisiti sia un flusso di 375 diplomati.",
+      "of": "88acc81f",
       "at": [
         "providence-day:edge.levers[0].note"
       ]
@@ -1199,15 +1204,15 @@
       ]
     },
     {
-      "t": "**L'Academic Profile come strumento** — un documento insolitamente trasparente, ed è proprio questa la leva. Offre spontaneamente una distribuzione AP completa per singola materia su 31 materie, una tabella dei quintili con la media SAT e ACT per ciascun quinto, norme esplicite sul carico di AP, e la formula di ponderazione con i voti non ponderati sul transcript. Trasforma una politica di assenza di graduatoria da svantaggio in contesto.",
-      "of": "c87d38ae",
+      "t": "**L'Academic Profile come strumento** — un documento insolitamente trasparente, ed è proprio questa la leva. Offre spontaneamente una distribuzione AP completa per singola materia su 29 materie, una tabella dei quintili con la media SAT e ACT per ciascun quinto, norme esplicite sul carico di AP, e la formula di ponderazione con i voti non ponderati sul transcript. Trasforma una politica di assenza di graduatoria da svantaggio in contesto.",
+      "of": "a44a873f",
       "at": [
         "providence-day:edge.levers[1].items[0]"
       ]
     },
     {
-      "t": "**Segnalazione di integrità** — la scuola dichiara di conformarsi alla **NACAC Guide to Ethical Practice** e di “reports all student behavioral probations, suspensions and expulsions through time of graduation” a qualsiasi università che ne faccia richiesta, con il supporto di un Honor Council gestito dagli studenti. La trasparenza guadagna la fiducia di chi legge, e tale credibilità va a beneficio di ogni candidato.",
-      "of": "b28bd2f8",
+      "t": "**Segnalazione di integrità** — la scuola dichiara di conformarsi alla **NACAC Guide to Ethical Practice** e di “reports all student behavioral probations, suspensions and expulsions through time of graduation” a qualsiasi università che ne faccia richiesta, con il supporto di un Honor Council di otto studenti, due per classe, più due docenti eletti e un terzo nominato dall'Head of School. La trasparenza guadagna la fiducia di chi legge, e tale credibilità va a beneficio di ogni candidato.",
+      "of": "57768173",
       "at": [
         "providence-day:edge.levers[1].items[1]"
       ]
@@ -1220,8 +1225,8 @@
       ]
     },
     {
-      "t": "**Relazioni bidirezionali e affiliazioni** — NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** e il College Board, accreditata da SAIS e SACS, più Global Online Academy. Circa 150 rappresentanti ospitati a fronte di oltre 50 campus visitati costituiscono una genuina cadenza bidirezionale, e una profonda pipeline verso Regno Unito/Europa (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) si sposa con l'identità di Global Studies.",
-      "of": "ad635bfd",
+      "t": "**Relazioni bidirezionali e affiliazioni** — NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** e il College Board, accreditata da SAIS e SACS, più Global Online Academy, e l'**81%** dei docenti dell'Upper School possiede un titolo post-laurea. Circa 150 rappresentanti ospitati a fronte di oltre 50 campus visitati costituiscono una genuina cadenza bidirezionale, e una profonda pipeline verso Regno Unito/Europa (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) si sposa con l'identità di Global Studies.",
+      "of": "578dfa1b",
       "at": [
         "providence-day:edge.levers[1].items[3]"
       ]
@@ -1234,8 +1239,8 @@
       ]
     },
     {
-      "t": "È anche la tabella più analiticamente onesta che la scuola stampi: un divario SAT di 392 punti tra il quinto superiore e quello inferiore mostra una classe ampia e accademicamente eterogenea anziché uniformemente d'élite.",
-      "of": "2b80f29a",
+      "t": "È anche la tabella più analiticamente onesta che la scuola stampi: un divario SAT di 338 punti tra il quinto superiore e quello inferiore mostra una classe ampia e accademicamente eterogenea anziché uniformemente d'élite.",
+      "of": "b808d182",
       "at": [
         "providence-day:wholeClass.subhead"
       ]
@@ -1251,8 +1256,8 @@
       ]
     },
     {
-      "t": "— Class of 2025 · 143 candidati (su 176 diplomati)",
-      "of": "9c93a3ec",
+      "t": "— Class of 2026 · 147 candidati",
+      "of": "50d3ba79",
       "at": [
         "providence-day:wholeClass.scoreTables[0].hint"
       ]
@@ -1306,8 +1311,8 @@
       ]
     },
     {
-      "t": "— Class of 2025 · 159 candidati (su 176 diplomati)",
-      "of": "bb7eb525",
+      "t": "— Class of 2026 · 171 candidati",
+      "of": "901f6d40",
       "at": [
         "providence-day:wholeClass.scoreTables[1].hint"
       ]
@@ -1344,8 +1349,26 @@
       ]
     },
     {
-      "t": "143 candidati SAT più 159 candidati ACT a fronte di 176 diplomati implicano una forte sovrapposizione e una partecipazione ai test pressoché universale — circa l'81% di partecipazione SAT e il 90% ACT. La scuola non pubblica alcuna posizione formale sul test-optional né alcun tasso di invio.",
-      "of": "362982fb",
+      "t": "ACT Reading",
+      "of": "81ac390f",
+      "at": [
+        "providence-day:wholeClass.scoreTables[1].rows[3].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[6].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[6].label"
+      ]
+    },
+    {
+      "t": "ACT Science",
+      "of": "17bff769",
+      "at": [
+        "providence-day:wholeClass.scoreTables[1].rows[4].label",
+        "charlotte-latin:wholeClass.scoreTables[0].rows[7].label",
+        "charlotte-latin:wholeClass.scoreTables[1].rows[7].label"
+      ]
+    },
+    {
+      "t": "147 candidati SAT e 171 candidati ACT in una classe di circa 178 studenti implicano una partecipazione ai test pressoché universale — circa l'83% di partecipazione SAT e il 96% ACT. La scuola non pubblica alcuna posizione formale sul test-optional né alcun tasso di invio.",
+      "of": "66d06894",
       "at": [
         "providence-day:wholeClass.scoreTables[1].note"
       ]
@@ -1360,8 +1383,8 @@
       ]
     },
     {
-      "t": "— il meccanismo dell'assenza di graduatoria · GPA ponderata della Class of 2026 all'inizio dell'ultimo anno",
-      "of": "9ec16936",
+      "t": "— il meccanismo dell'assenza di graduatoria · GPA ponderata della Class of 2027 all'inizio dell'ultimo anno (179 studenti dell'ultimo anno, agosto 2026)",
+      "of": "89ffe873",
       "at": [
         "providence-day:wholeClass.gpaHint"
       ]
@@ -1376,8 +1399,8 @@
       ]
     },
     {
-      "t": "1445 SAT · 31 ACT",
-      "of": "c51b7e8a",
+      "t": "1454 SAT · 34 ACT",
+      "of": "18535c3b",
       "at": [
         "providence-day:wholeClass.quintiles[0].detail"
       ]
@@ -1392,8 +1415,8 @@
       ]
     },
     {
-      "t": "1344 SAT · 27 ACT",
-      "of": "f4e249fb",
+      "t": "1376 SAT · 30 ACT",
+      "of": "5cbe5024",
       "at": [
         "providence-day:wholeClass.quintiles[1].detail"
       ]
@@ -1408,8 +1431,8 @@
       ]
     },
     {
-      "t": "1230 SAT · 25 ACT",
-      "of": "1fe16851",
+      "t": "1281 SAT · 28 ACT",
+      "of": "1280a0d6",
       "at": [
         "providence-day:wholeClass.quintiles[2].detail"
       ]
@@ -1424,8 +1447,8 @@
       ]
     },
     {
-      "t": "1179 SAT · 23 ACT",
-      "of": "eb39961d",
+      "t": "1192 SAT · 25 ACT",
+      "of": "a369f1ba",
       "at": [
         "providence-day:wholeClass.quintiles[3].detail"
       ]
@@ -1440,15 +1463,15 @@
       ]
     },
     {
-      "t": "1053 SAT · 19 ACT",
-      "of": "0a834c55",
+      "t": "1116 SAT · 21 ACT",
+      "of": "ddf2e09a",
       "at": [
         "providence-day:wholeClass.quintiles[4].detail"
       ]
     },
     {
-      "t": "Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa — nulla qui è interpolato. Si osservi la distribuzione: 4.467 → 2.930 è un divario di GPA ponderata di 1.54 e 1445 → 1053 un divario SAT di 392 punti. Poiché l'AP aggiunge un punto intero, una mediana ponderata di 3.891 corrisponde a un certificato dei voti non ponderato di B-plus medio con un certo carico di corsi honours. Si noti che i quintili descrivono la Class of 2026 mentre i punteggi dei test qui sopra descrivono la Class of 2025 — coorti diverse, quindi non vanno mescolate.",
-      "of": "e05e945f",
+      "t": "Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa — nulla qui è interpolato. Si osservi la distribuzione: 4.507 → 3.204 è un divario di GPA ponderata di 1.303 e 1454 → 1116 un divario SAT di 338 punti. Poiché l'AP aggiunge un punto intero, un quintile centrale di 4.017 non corrisponde a un certificato dei voti non ponderato tutto di A — una parte è il peso dei corsi honours e AP. Si noti che i quintili descrivono la Class of 2027 mentre i punteggi dei test qui sopra descrivono la Class of 2026 — coorti diverse, quindi non vanno mescolate.",
+      "of": "5f8f8f96",
       "at": [
         "providence-day:wholeClass.gpaNote"
       ]
@@ -1505,8 +1528,8 @@
       ]
     },
     {
-      "t": "L'elenco di circa 382 istituzioni spazia da Williams, MIT e Harvard fino a Catawba, Brevard, Lees-McRae, Pfeiffer e Central Piedmont Community College — e, elemento cruciale, molte opzioni accessibili sono in **grassetto** come sedi con più iscritti: App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey e Central Piedmont. Il quarto e il quinto quintile vengono effettivamente collocati, non solo elencati.",
-      "of": "70f80292",
+      "t": "L'elenco di 383 istituzioni spazia da Williams, MIT e Harvard fino a Catawba, Brevard, Lees-McRae, Pfeiffer e Central Piedmont Community College — e, elemento cruciale, molte opzioni accessibili sono in **grassetto** come sedi con iscritti: App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey e Central Piedmont. Il quarto e il quinto quintile vengono effettivamente collocati, non solo elencati.",
+      "of": "1eb94ae9",
       "at": [
         "providence-day:wholeClass.middle[0].text"
       ]
@@ -1583,8 +1606,8 @@
       ]
     },
     {
-      "t": "1,213 esami con il 94% che ottiene 3+ e il 77% a 4–5, con la distribuzione completa per materia stampata — punti deboli inclusi. Poiché l'esame è obbligatorio, quel 94% poggia su un denominatore non autoselezionato.",
-      "of": "549f3da5",
+      "t": "1,282 esami con il 93% che ottiene 3+ e il 76% a 4–5, e il 94% dei 497 studenti che li hanno sostenuti ha ottenuto 3 o più — con la distribuzione completa per materia stampata, punti deboli inclusi. Poiché l'esame è obbligatorio, quei dati poggiano su un denominatore non autoselezionato.",
+      "of": "9ab45b49",
       "at": [
         "providence-day:verdict.points[1].text"
       ]
@@ -1597,8 +1620,8 @@
       ]
     },
     {
-      "t": "cinque counselor per 730 Upper Schoolers (~36 studenti dell'ultimo anno ciascuno), un direttore con 18 anni di esperienza, direttori associati provenienti dall'interno degli uffici di ammissione universitari, ~150 rappresentanti ospitati e oltre 50 campus visitati.",
-      "of": "4bdee303",
+      "t": "cinque counselor per 754 Upper Schoolers (~36 studenti dell'ultimo anno ciascuno), un direttore con 18 anni di esperienza, direttori associati provenienti dall'interno degli uffici di ammissione universitari, ~150 rappresentanti ospitati e oltre 50 campus visitati.",
+      "of": "849b30a1",
       "at": [
         "providence-day:verdict.points[2].text"
       ]
@@ -1611,8 +1634,8 @@
       ]
     },
     {
-      "t": "8 delle 8 Ivy in grassetto come sedi con più iscritti — e anche opzioni accessibili in-state in grassetto, fino a Central Piedmont Community College. L'elenco corrisponde all'effettiva distribuzione per quintili della scuola.",
-      "of": "a6d26741",
+      "t": "8 delle 8 Ivy in grassetto come sedi con iscritti — e anche opzioni accessibili in-state in grassetto, fino a Central Piedmont Community College. L'elenco corrisponde all'effettiva distribuzione per quintili della scuola.",
+      "of": "96ec5e0f",
       "at": [
         "providence-day:verdict.points[3].text"
       ]
@@ -1646,8 +1669,8 @@
       ]
     },
     {
-      "t": "Il vostro profilo mostra che il quinto quintile registra in media un SAT di 1053 e una GPA ponderata di 2.930. Dove si sono effettivamente iscritti quei circa 35 studenti l'anno scorso?",
-      "of": "936842cf",
+      "t": "Il vostro profilo mostra che il quinto quintile registra in media un SAT di 1116 e una GPA ponderata di 3.204. Dove si sono effettivamente iscritti quei circa 36 studenti l'anno scorso?",
+      "of": "a510e613",
       "at": [
         "providence-day:verdict.checklist[0]"
       ]
@@ -1667,8 +1690,8 @@
       ]
     },
     {
-      "t": "Le vostre pagine dicono “cinque college counselor” in un punto e “quattro” in un altro, e un nome manca dal blocco contatti del profilo — chi fa parte del team quest'anno, e qual è l'attuale carico di studenti dell'ultimo anno?",
-      "of": "7bae5bff",
+      "t": "Cinque counselor si dividono 179 studenti dell'ultimo anno — ogni studente mantiene lo stesso counselor dalla 9ª classe al diploma?",
+      "of": "0f79efee",
       "at": [
         "providence-day:verdict.checklist[3]"
       ]
@@ -1688,17 +1711,10 @@
       ]
     },
     {
-      "t": "Il vostro profilo 2025–26 riporta ancora i dati National Merit della Class of 2024 e un elenco di ammissioni 2022–2025 mentre il sito web mostra 2023–2026. Quando viene aggiornato il profilo, e quale versione ricevono i rappresentanti?",
-      "of": "3cbeed09",
+      "t": "Il vostro profilo indica 30 corsi AP, ma a maggio 2026 sono state esaminate 29 materie — AP German è attivo quest'anno, e quando inizia AP Business & Personal Finance?",
+      "of": "7617a588",
       "at": [
         "providence-day:verdict.checklist[6]"
-      ]
-    },
-    {
-      "t": "La vostra pagina delle ammissioni indica $23 million in borse di merito per la Class of 2025; il profilo ufficiale dice over $20 million. Qual è la cifra corretta, e cosa viene conteggiato in ciascuna?",
-      "of": "0037428d",
-      "at": [
-        "providence-day:verdict.checklist[7]"
       ]
     },
     {
@@ -2563,22 +2579,6 @@
       ]
     },
     {
-      "t": "ACT Reading",
-      "of": "81ac390f",
-      "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[6].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[6].label"
-      ]
-    },
-    {
-      "t": "ACT Science",
-      "of": "17bff769",
-      "at": [
-        "charlotte-latin:wholeClass.scoreTables[0].rows[7].label",
-        "charlotte-latin:wholeClass.scoreTables[1].rows[7].label"
-      ]
-    },
-    {
       "t": "Medie SAT & ACT, Class of 2027",
       "of": "1971da57",
       "at": [
@@ -2921,6 +2921,14 @@
       "of": "43127e89",
       "at": [
         "charlotte-christian:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "94%",
+      "of": "3ac0d9bf",
+      "at": [
+        "charlotte-christian:transcript.stats[1].value",
+        "charlotte-catholic:transcript.stats[2].value"
       ]
     },
     {

@@ -323,6 +323,7 @@ export const COLLEGE_URLS: Record<string, string> = {
   "Houghton University": "https://www.houghton.edu",
   "Houston Baptist University": "https://hc.edu",
   "Howard University": "https://howard.edu",
+  "Huntingdon College": "https://www.huntingdon.edu",
   "Husson University": "https://www.husson.edu",
   "Illinois Institute of Technology": "https://www.iit.edu",
   "Immaculata University": "https://www.immaculata.edu",

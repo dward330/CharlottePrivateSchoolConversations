@@ -308,7 +308,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     noLead: true,
     compareOnly: true,
     values: {
-      'providence-day': '1334',
+      'providence-day': '1288',
       'charlotte-latin': '1308.5',
       'covenant-day': '1263',
       'hickory-grove-christian': '1090',
@@ -321,7 +321,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // withholds all test data by choice
     },
     subs: {
-      'providence-day': '(Class of 2025)',
+      'providence-day': '(Class of 2026)',
       'charlotte-latin': '(Class of 2026)',
       'covenant-day': '(Class of 2026)',
       'hickory-grove-christian': '(Class of 2026)',
@@ -333,7 +333,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'gaston-day': '(Class of 2025)',
     },
     scores: {
-      'providence-day': { median: null, mean: '1334', mid50: '1220–1460' },
+      'providence-day': { median: null, mean: '1288', mid50: '1160–1420' },
       'charlotte-latin': { median: null, mean: '1308.5', mid50: null },
       'covenant-day': { median: null, mean: '1263', mid50: null },
       'hickory-grove-christian': { median: '1090', mean: '1066', mid50: null },
@@ -363,7 +363,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     noLead: true,
     compareOnly: true,
     values: {
-      'providence-day': '27',
+      'providence-day': '25',
       'charlotte-latin': '27.2',
       'covenant-day': '26',
       'hickory-grove-christian': '20.5',
@@ -376,7 +376,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // withholds all test data by choice
     },
     subs: {
-      'providence-day': '(Class of 2025)',
+      'providence-day': '(Class of 2026)',
       'charlotte-latin': '(Class of 2026)',
       'covenant-day': '(Class of 2026)',
       'hickory-grove-christian': '(Class of 2026)',
@@ -388,7 +388,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'gaston-day': '(Class of 2025)',
     },
     scores: {
-      'providence-day': { median: null, mean: '27', mid50: '23–31' },
+      'providence-day': { median: null, mean: '25', mid50: '21–30' },
       'charlotte-latin': { median: null, mean: '27.2', mid50: null },
       'covenant-day': { median: null, mean: '26', mid50: null },
       'hickory-grove-christian': { median: null, mean: '20.5', mid50: null },
@@ -1025,7 +1025,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '~25:1', // 50 seniors (Class of 2027) ÷ 2 counselors
       'hickory-grove-christian': null, // caseload not published; computable only (~34:1 across 2 staff, but one is a non-college admin)
       'gaston-day': '~18:1', // COMPUTED, not published — 35 seniors over 2 counselors (Director + Assistant); 35:1 against the Director alone
-      'providence-day': '~44:1', // ~44–45 seniors/counselor (quarter-class model)
+      'providence-day': '~36:1', // COMPUTED — 179 seniors (2026–27 profile) over 5 counselors (Director + 4 Associate Directors)
     },
     quals: {
       'charlotte-catholic': {
@@ -1043,7 +1043,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': { kind: 'scope', text: 'About 38 seniors per college counselor at peak application season — 151 seniors in the 2026–27 class across 4 counselors (computed; the school publishes no ratio). A lower ratio means more counselor time per student.' },
       'covenant-day': { kind: 'scope', text: '85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.' },
       'davidson-day': { kind: 'scope', text: 'About 25 seniors per college counselor at peak application season, in a senior class of 50 — the second-lightest caseload here, after Gaston Day. A lower ratio means more counselor time per student.' },
-      'providence-day': { kind: 'scope', text: 'About 44–45 seniors per college counselor at peak application season, under a quarter-class model. A lower ratio means more counselor time per student.' },
+      'providence-day': { kind: 'scope', text: 'About 36 seniors per college counselor: 179 seniors shared among five counselors. A lower ratio means more counselor time per student.' },
     },
   },
 
