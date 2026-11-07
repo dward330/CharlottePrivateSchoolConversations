@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — The Arts
-> Distilled from 1 source document(s) in `source-material/the-arts/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 1 source document(s) in `source-material/the-arts/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Program Facilities and Recognition 2026
 
 

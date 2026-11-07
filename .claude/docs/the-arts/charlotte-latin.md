@@ -1,5 +1,5 @@
 # Charlotte Latin School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 7 source document(s) in `source-material/the-arts/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
 **Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Facilities, Performing Arts, Program Overview, Visual Arts
 
 

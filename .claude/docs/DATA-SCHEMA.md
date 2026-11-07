@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 512 ingested research documents.
+**13 schools × 12 research areas**, 518 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -62,7 +62,7 @@ exists yet and **the section does not render at all** for that school.
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 3 | 6 | 9 | 2 | 1 | 8 | 4 |
-| The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 2 | 7 | 6 | 1 | 1 | 7 | 2 |
+| The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 6 | 1 | 2 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 18 | 18 | 2 | 17 | 18 | 2 | 3 | 20 | 2 |
 | College Support | `college-support` | 12 | 3 | 3 | 13 | 10 | 13 | — | 9 | 12 | 2 | 3 | 11 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
@@ -125,12 +125,12 @@ research dossier folds in behind a structured card.
 | `overview` | Program Overview | 9/13 | 2 |
 | `awards` | Awards & Recognition | 6/13 | 2 |
 | `performing-arts` | Performing Arts | 2/13 | 1 |
-| `visual-arts` | Visual Arts | 7/13 | 1 |
+| `visual-arts` | Visual Arts | 9/13 | 5 |
 | `facilities` | Facilities | 6/13 | 2 |
 | `in-depth-report` | In-Depth Report | 9/13 | 3 |
 | `courses` | Course Offerings | 1/13 | 1 |
-| `music` | Music | 5/13 | 1 |
-| `theatre` | Theatre & Drama | 6/13 | 5 |
+| `music` | Music | 5/13 | 2 |
+| `theatre` | Theatre & Drama | 6/13 | 6 |
 | `digital-arts` | Digital Arts | 1/13 | 1 |
 
 ### Sports `sports`
@@ -1278,10 +1278,10 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | Arts row (visual) | Schools |
 |---|--:|
 | `visualArt` | 9/11 |
-| `drawingPainting` | 9/11 |
-| `ceramics` | 7/11 |
+| `drawingPainting` | 11/11 |
+| `ceramics` | 9/11 |
 | `sculpture` | 7/11 |
-| `printmaking` | 4/11 |
+| `printmaking` | 6/11 |
 | `photography` | 10/11 |
 | `darkroom` | 3/11 |
 | `graphicDesign` | 8/11 |
@@ -1296,7 +1296,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `orchestra` | 5/11 |
 | `choir` | 10/11 |
 | `jazz` | 5/11 |
-| `aCappella` | 2/11 |
+| `aCappella` | 3/11 |
 | `percussion` | 3/11 |
 | `marchingBand` | 1/11 |
 | `guitar` | 3/11 |
@@ -1310,7 +1310,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 |---|--:|
 | `plays` | 11/11 |
 | `musicals` | 10/11 |
-| `technicalTheatre` | 8/11 |
+| `technicalTheatre` | 9/11 |
 | `dance` | 4/11 |
 
 **Subjects by division** and **World languages** (Course Offerings topic, `src/lib/courseMatrix.ts` →

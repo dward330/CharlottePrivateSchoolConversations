@@ -43,8 +43,13 @@ export const ART_GROUPS: { key: ArtGroupKey; keys: ArtKey[] }[] = [
 
 export const ART_KEYS: ArtKey[] = ART_GROUPS.flatMap((g) => g.keys)
 
-/** A claim's evidence: a verbatim arts-module fragment, or an exact course title in that division's catalog. */
-export type ArtsCite = string | { course: string }
+/**
+ * A claim's evidence: a verbatim arts-module fragment; an exact course title in
+ * that division's catalog; or a verbatim quote from a committed source-material
+ * file under source-material/the-arts/<slug>/ (a school page fetched for the
+ * second pass, with its URL in the file's provenance header).
+ */
+export type ArtsCite = string | { course: string } | { source: string; quote: string }
 /** Per art form, per division: the evidence that proves it. */
 export type ArtsClaims = Partial<Record<ArtKey, Partial<Record<Division, ArtsCite>>>>
 export type ArtsTable = Record<string, ArtsClaims>

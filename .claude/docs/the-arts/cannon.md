@@ -1,6 +1,6 @@
 # Cannon School — The Arts
-> Distilled from 8 source document(s) in `source-material/the-arts/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Arts Redesign Deep Research, Course Offerings, Deep Research, Facilities, Music, Program Overview, Theater, Visual Arts
+> Distilled from 9 source document(s) in `source-material/the-arts/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Arts Redesign Deep Research, Course Offerings, Deep Research, Facilities, Music, Program Overview, Theater Course Check 2026, Theater, Visual Arts
 
 
 ---
@@ -965,6 +965,35 @@ Upper School Course Catalog (PDF):
 https://www.cannonschool.org/fs/resource-manager/view/0909a2f2-91ec-4bd0-bbfb-5062d5d92d2c
 Additional context: American Orff-Schulwerk Association (aosa.org); NC Theatre Conference (NCTC) High School Play
 Festival.
+
+
+---
+
+## Theater Course Check 2026
+
+*Source file: `Cannon - The Arts - Theater Course Check 2026.md`*
+
+# Cannon School — The Arts — Theater course check (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Theater page for the Compare
+"Arts offered" matrix second pass (plan `comparerows`). Verbatim quotes only; nothing
+inferred. Source: https://www.cannonschool.org/arts/theater
+
+## Middle School theater classes
+
+- "5th and 6th Grade Theater"
+- "7th and 8th Grade Theater"
+- "7th and 8th Grade Theater classes are full-year."
+
+## Upper School theater classes
+
+- "Acting 1"
+- "Acting 2"
+- "Theater in Performance"
+- "Stagecraft"
+- "Stagecraft 2"
+- Stagecraft: "This course explores the technical elements of theater including lighting, sound, set and costume design"
+- Stagecraft 2: "within the field of theatrical design, technology, and management."
 
 
 ---

@@ -13,8 +13,9 @@
 //           name on a comparable school that its alias table lacks
 //   exit 1  an arts claim whose cite is not a substring of that school's
 //           src/data/artsPrograms/<slug>.ts, or whose `{ course }` is not an
-//           exact course title in that division of courseOfferings.ts (named by
-//           slug, key and division)
+//           exact course title in that division of courseOfferings.ts, or whose
+//           `{ source, quote }` is not a verbatim quote in that file under
+//           source-material/the-arts/<slug>/ (named by slug, key and division)
 //   exit 1  a summer or club override naming a camp or club that is not in the
 //           school's catalog
 //   exit 1  a row key, group key or division with no compare.* label in
@@ -31,7 +32,7 @@
 // Negative tests: ARTS_DIR, SUMMER_DIR, CLUB_CATALOG and ARTS_TABLE point the
 // check at a scratch copy of the data.
 
-import { readFileSync } from 'node:fs'
+import { readFileSync, existsSync } from 'node:fs'
 import { pathToFileURL } from 'node:url'
 import path from 'node:path'
 
@@ -110,11 +111,17 @@ async function main() {
   const titlesOf = (slug, div) =>
     new Set((courseOfferings(slug)?.divisions ?? []).filter((d) => divisionOf(d.title) === div).flatMap((d) => d.departments.flatMap((dep) => dep.courses.map((c) => c.title))))
   let courseCites = 0
+  let sourceCites = 0
   for (const c of arts.matrix.cites) {
     const text = arts.text[c.slug]
     if (text == null) { failures.push(`arts ${c.slug} ${c.key} ${c.div}: claim for a school with no arts module`); continue }
     if (typeof c.cite === 'string') {
       if (!text.includes(c.cite)) failures.push(`arts ${c.slug} ${c.key} ${c.div}: cite "${c.cite}" is not in ${ARTS_DIR}/${c.slug}.ts`)
+    } else if ('source' in c.cite) {
+      sourceCites++
+      const f = path.join(ROOT, 'source-material/the-arts', c.slug, c.cite.source)
+      if (!existsSync(f)) failures.push(`arts ${c.slug} ${c.key} ${c.div}: source file "${c.cite.source}" does not exist`)
+      else if (!readFileSync(f, 'utf8').includes(c.cite.quote)) failures.push(`arts ${c.slug} ${c.key} ${c.div}: quote "${c.cite.quote}" is not in ${c.cite.source}`)
     } else {
       courseCites++
       if (!titlesOf(c.slug, c.div).has(c.cite.course)) failures.push(`arts ${c.slug} ${c.key} ${c.div}: course "${c.cite.course}" is not a ${c.div} course title in courseOfferings.ts`)
@@ -162,7 +169,7 @@ async function main() {
 
   const na = (m) => slugs.filter((s) => m[0]?.cells[s]?.state === 'na')
   console.log(
-    `\ncheck:matrices — ${slugs.length} comparable schools; arts ${arts.matrix.cites.length} cites verified (${courseCites} course titles), ` +
+    `\ncheck:matrices — ${slugs.length} comparable schools; arts ${arts.matrix.cites.length} cites verified (${courseCites} course titles, ${sourceCites} source-material quotes), ` +
       `courses ${courses.matrix.subjects.length}+${courses.matrix.languages.length} rows, clubs ${clubs.matrix.rows.length} rows, summer ${summer.matrix.rows.length} rows` +
       `${na(summer.matrix.rows).length ? `; summer N/A: ${na(summer.matrix.rows).join(', ')}` : ''}`,
   )

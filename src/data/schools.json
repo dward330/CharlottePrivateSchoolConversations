@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-07",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -649,12 +649,12 @@
     {
       "topic_slug": "the-arts",
       "school_slug": "cannon",
-      "doc_count": 8
+      "doc_count": 9
     },
     {
       "topic_slug": "the-arts",
       "school_slug": "carmel-christian",
-      "doc_count": 1
+      "doc_count": 2
     },
     {
       "topic_slug": "the-arts",
@@ -664,12 +664,12 @@
     {
       "topic_slug": "the-arts",
       "school_slug": "charlotte-christian",
-      "doc_count": 8
+      "doc_count": 9
     },
     {
       "topic_slug": "the-arts",
       "school_slug": "charlotte-country-day",
-      "doc_count": 8
+      "doc_count": 9
     },
     {
       "topic_slug": "the-arts",
@@ -684,7 +684,7 @@
     {
       "topic_slug": "the-arts",
       "school_slug": "covenant-day",
-      "doc_count": 7
+      "doc_count": 8
     },
     {
       "topic_slug": "the-arts",
@@ -699,7 +699,7 @@
     {
       "topic_slug": "the-arts",
       "school_slug": "hickory-grove-christian",
-      "doc_count": 1
+      "doc_count": 2
     },
     {
       "topic_slug": "the-arts",
@@ -3094,12 +3094,32 @@
       "type": "pdf"
     },
     {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater Course Check 2026",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Theater Course Check 2026.md",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "md"
+    },
+    {
       "school_slug": "carmel-christian",
       "school": "Carmel Christian School",
       "topic_slug": "the-arts",
       "topic": "The Arts",
       "subtopic": "Deep Research",
       "source_file": "source-material/the-arts/carmel-christian/Carmel Christian - The Arts - Deep Research.md",
+      "note_file": ".claude/docs/the-arts/carmel-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Middle School Visual Arts Curriculum 2026",
+      "source_file": "source-material/the-arts/carmel-christian/Carmel Christian - The Arts - Middle School Visual Arts Curriculum 2026.md",
       "note_file": ".claude/docs/the-arts/carmel-christian.md",
       "type": "md"
     },
@@ -3194,6 +3214,16 @@
       "type": "pdf"
     },
     {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Upper School Visual Arts Course Descriptions 2026",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Upper School Visual Arts Course Descriptions 2026.md",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "md"
+    },
+    {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
       "topic_slug": "the-arts",
@@ -3272,6 +3302,16 @@
       "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Visual Arts.pdf",
       "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
       "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music Ensembles Web Check 2026",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Music Ensembles Web Check 2026.md",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "md"
     },
     {
       "school_slug": "charlotte-latin",
@@ -3434,6 +3474,16 @@
       "type": "md"
     },
     {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts Course List 2026",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Visual Arts Course List 2026.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
       "topic_slug": "the-arts",
@@ -3510,6 +3560,16 @@
       "topic": "The Arts",
       "subtopic": "Deep Research",
       "source_file": "source-material/the-arts/hickory-grove-christian/Hickory Grove Christian - The Arts - Deep Research.md",
+      "note_file": ".claude/docs/the-arts/hickory-grove-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "hickory-grove-christian",
+      "school": "Hickory Grove Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts Web Check 2026",
+      "source_file": "source-material/the-arts/hickory-grove-christian/Hickory Grove Christian - The Arts - Visual Arts Web Check 2026.md",
       "note_file": ".claude/docs/the-arts/hickory-grove-christian.md",
       "type": "md"
     },

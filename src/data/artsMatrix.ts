@@ -9,7 +9,10 @@
 // 2026-11-07, after a second pass found the catalogs name dance, guitar,
 // printmaking, fiber crafts and praise teams the arts prose never mentions).
 // check:matrices asserts each fragment is still a substring of the file and
-// each course title still exists in that division, so a data edit that removes
+// each course title still exists in that division — or `{ source, quote }`, a
+// verbatim quote from a committed file under source-material/the-arts/<slug>/
+// that records a school page fetched for the second pass, with its URL — so a
+// data edit that removes
 // the evidence fails the build until this table is revisited. A chip is never
 // inferred from a grade span; a claim comes only from these two sources, never
 // from outside them. AP Studio Art is not a row (the `advanced-arts-coursework`
@@ -60,6 +63,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { MS: 'the backstage/technical course starts in Grade 6', US: 'Stagecraft I–II' },
   },
   'charlotte-country-day': {
+    aCappella: { MS: { source: 'CCD - The Arts - Music Ensembles Web Check 2026.md', quote: 'Vocal and instrumental groups in Middle and Upper School, including orchestra, band, choir, and a cappella.' }, US: { source: 'CCD - The Arts - Music Ensembles Web Check 2026.md', quote: 'Vocal and instrumental groups in Middle and Upper School, including orchestra, band, choir, and a cappella.' } },
     visualArt: { LS: 'Two child-scaled art studios', MS: 'Three dedicated visual arts rooms' },
     drawingPainting: { US: 'Drawing & painting' },
     ceramics: { LS: 'Lower School ceramics studio', US: 'Ceramics & 3-D' },
@@ -81,6 +85,7 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'technical-theatre track in set, lighting, sound and stage management' },
   },
   cannon: {
+    technicalTheatre: { US: { source: 'Cannon - The Arts - Theater Course Check 2026.md', quote: 'This course explores the technical elements of theater including lighting, sound, set and costume design' } },
     choir: { MS: { course: 'Major Art: Strings, Band, or Chorus' }, US: 'Honors Concert Chorus' },
     drawingPainting: { LS: 'drawing, painting, collage, paper sculpture', MS: 'drawing, painting, printmaking, ceramics, sculpture', US: '2-D studio' },
     ceramics: { LS: 'clay, fibre art', MS: 'ceramics', US: '3-D studio' },
@@ -101,6 +106,8 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { LS: 'A separate Lower/Middle School musical for grades 3–6', MS: 'A separate Lower/Middle School musical for grades 3–6', US: 'Musical (Blumey)' },
   },
   'charlotte-christian': {
+    printmaking: { US: { source: 'Charlotte Christian - The Arts - Upper School Visual Arts Course Descriptions 2026.md', quote: 'drawing, painting, collage, 3D, printmaking and digital artwork integration' } },
+    ceramics: { US: { source: 'Charlotte Christian - The Arts - Upper School Visual Arts Course Descriptions 2026.md', quote: 'create drawings, paintings, graphic designs and ceramic pieces' } },
     generalMusic: { LS: { course: 'Music' } },
     guitar: { US: { course: 'Introduction to Guitar' } },
     dance: { US: { course: 'Dance' } },
@@ -121,12 +128,12 @@ export const ARTS_MATRIX: ArtsTable = {
     technicalTheatre: { US: 'technical directing and stage management' },
   },
   'covenant-day': {
+    graphicDesign: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: 'Graphic design' },
+    photography: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: 'Digital photography' },
+    ceramics: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: "'Ceramics'" },
+    drawingPainting: { MS: { source: 'Covenant Day School - The Arts - Visual Arts Course List 2026.md', quote: 'Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts' }, US: 'Drawing & painting' },
     visualArt: { LS: 'art integrated in JK–K and sequential from grade 1', MS: { course: 'Art' } },
-    drawingPainting: { US: 'Drawing & painting' },
     sculpture: { US: '2D / 3D design' },
-    ceramics: { US: "'Ceramics'" },
-    photography: { US: 'Digital photography' },
-    graphicDesign: { US: 'Graphic design' },
     generalMusic: { LS: 'General Music JK–4' },
     band: { LS: 'Introduction to Choir and Band in grade 5', MS: 'MS Band', US: 'Symphonic Band' },
     choir: { LS: 'CDS Children’s Choir, grades 3–5', MS: 'MS Choir', US: 'HS Choir' },
@@ -148,6 +155,9 @@ export const ARTS_MATRIX: ArtsTable = {
     musicals: { US: 'Upper School Musical' },
   },
   'carmel-christian': {
+    ceramics: { MS: { source: 'Carmel Christian - The Arts - Middle School Visual Arts Curriculum 2026.md', quote: 'Projects will include drawing, painting, oven-baked clay, printmaking, design and many more.' } },
+    printmaking: { MS: { source: 'Carmel Christian - The Arts - Middle School Visual Arts Curriculum 2026.md', quote: 'Drawing, painting, and printmaking as well as concept art is the focus for this elective.' } },
+    drawingPainting: { MS: { source: 'Carmel Christian - The Arts - Middle School Visual Arts Curriculum 2026.md', quote: 'Drawing, painting, and printmaking as well as concept art is the focus for this elective.' } },
     photography: { MS: { course: 'Digital Photography' }, US: 'Digital Photography' },
     visualArt: { LS: 'Every K–4 student takes both music and art classes', MS: 'Band · Choir · Ignite (MS Praise Band) · Art · Theatre', US: 'Visual Arts' },
     generalMusic: { LS: 'music and art classes' },
@@ -160,6 +170,7 @@ export const ARTS_MATRIX: ArtsTable = {
     dance: { MS: 'Musical Theatre Dance' },
   },
   'hickory-grove-christian': {
+    drawingPainting: { LS: { source: 'Hickory Grove Christian - The Arts - Visual Arts Web Check 2026.md', quote: 'Along the way they develop their skills in drawing, painting, watercolor, ceramics, fiber arts and more.' }, US: { source: 'Hickory Grove Christian - The Arts - Visual Arts Web Check 2026.md', quote: 'Along the way they develop their skills in drawing, painting, watercolor, ceramics, fiber arts and more.' } },
     ceramics: { US: { course: 'Ceramics I' } },
     photography: { US: { course: 'Introduction to Photography and Design' } },
     graphicDesign: { MS: { course: 'Graphic Design' } },

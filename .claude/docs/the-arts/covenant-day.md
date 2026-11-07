@@ -1,6 +1,6 @@
 # Covenant Day School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Awards and Recognition, Deep Research, Facilities, Music, Program Overview, Theater and Drama, Visual Arts
+> Distilled from 8 source document(s) in `source-material/the-arts/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Awards and Recognition, Deep Research, Facilities, Music, Program Overview, Theater and Drama, Visual Arts Course List 2026, Visual Arts
 
 
 ---
@@ -293,6 +293,34 @@ storage (from the school's own pages via site search).
 
 "Give students the opportunity to explore their creative abilities through
 theater, inspiring them to use their gifts to be the salt and light of this world."
+
+
+---
+
+## Visual Arts Course List 2026
+
+*Source file: `Covenant Day School - The Arts - Visual Arts Course List 2026.md`*
+
+# Covenant Day School — The Arts — Visual arts course list (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Visual Arts page for the Compare
+"Arts offered" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://www.covenantday.org/arts/visual-arts
+
+## Lower and Middle School
+
+- "Art (Grades 1-8)"
+
+## Middle School and High School
+
+- "Art I, II, III, and IV/AP are course offerings where students may study drawing, painting, ceramics, photography and graphic arts"
+
+## High School course offerings
+
+Intro to Art · Art 2/3 (2D Art and 3D Art) · Honors Studio Art · AP Studio Art · Digital
+Photography · Graphic Design · Ceramics
+
+The page does not mention videography, printmaking or sculpture.
 
 
 ---

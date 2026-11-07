@@ -1,6 +1,6 @@
 # Carmel Christian School — The Arts
-> Distilled from 1 source document(s) in `source-material/the-arts/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Deep Research
+> Distilled from 2 source document(s) in `source-material/the-arts/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+**Documents:** Deep Research, Middle School Visual Arts Curriculum 2026
 
 
 ---
@@ -137,6 +137,36 @@ TO VERIFY (curriculum guide / campus map).
 
 ---
 
+## Middle School Visual Arts Curriculum 2026
+
+*Source file: `Carmel Christian - The Arts - Middle School Visual Arts Curriculum 2026.md`*
+
+# Carmel Christian School — The Arts — Middle School visual arts curriculum (2026)
+
+**Provenance.** Fetched 2026-11-07 from the school's own Middle School curriculum page for
+the Compare "Arts offered" matrix second pass (plan `comparerows`). Verbatim quotes only.
+Source: https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487132&type=d&termREC_ID=&pREC_ID=935888
+
+## Art Foundations (6th grade)
+
+- "Art is offered as a semester elective for the sixth grade level."
+- "Projects will include drawing, painting, oven-baked clay, printmaking, design and many more."
+
+## Middle School Art (7th–8th grade)
+
+- "Art is offered as a semester long elective in seventh and eighth grades."
+- "Drawing, painting, and printmaking as well as concept art is the focus for this elective."
+
+## Other Middle School arts electives named on the page
+
+Beginning Theatre (6th), Carmel Christian Choir (6th–8th), Dance Foundations (6th–8th),
+Digital Photography (6th–8th), Middle School Band (6th–8th), Ignite Praise Band (7th–8th),
+Studio Theatre (7th–8th), Theatre Arts (7th–8th). "1 Arts course required yearly, beginning
+with the Class of 2031"
+
+
+---
+
 ## Sources referenced across these documents
 
 - https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=791781&id=0
@@ -145,6 +175,7 @@ TO VERIFY (curriculum guide / campus map).
 - https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487087&type=d
 - https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487088&type=d
 - https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487089&type=d
+- https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487132&type=d&termREC_ID=&pREC_ID=935888
 - https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=615425&type=d
 - https://carmelchristian.org/arts/
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf
