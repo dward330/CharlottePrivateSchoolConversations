@@ -123,6 +123,18 @@ https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-ev
 
 ## 3. College Pipeline
 
+> **Superseded (2026-11-08).** The figures and the roster table in this section were
+> transcribed from the school's list in mid-2026 and were not re-verified. The
+> `/athlete-commits` graduate refresh of 2026-11-08 rebuilt the record in
+> `Providence Day - Sports - College Commitments 2024-2026.md` (every Power 4 and Division I
+> row verified on the college's own roster) and documented the method and the nulls in
+> `Providence Day - Sports - Varsity Roster Cross-Reference 2026.md`. Read those two files
+> first; this section is kept as the record of what the card held before the refresh. Known
+> errors here: the "~72" total (the list holds 86 names for 2024-26), Football 15 D1 (14),
+> Track & Field 3 (4 with Girls Cross Country), ACC 8 (9), "Brandon Ackermann" (Elizabeth),
+> "Clark Neace" (Clarke), Shaurya Bharadwaj's class (2024, not 2025), and Zach Makemson's
+> college (enrolled at Appalachian State; Tennessee was a verbal the school's list carries).
+
 Source of record: Providence Day's official "Alumni at the Next Level" list.
 https://www.pdschargers.com/more/honors-hall-of-fame-wells-fargo-cup/
 Division/conference/level labels are researcher-added from each college's NCAA status —
