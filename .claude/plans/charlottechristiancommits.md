@@ -1,7 +1,7 @@
 ---
 name: charlottechristiancommits
 title: Charlotte Christian — the /athlete-commits graduate refresh adds the missing Class of 2026 (10 commitments, 9 D1, Jamal Rule to Nebraska as the 9th Power 4); College Pipeline card 38 / 26 / 8 → 48 / 35 / 9, Compare P4 9, D1 35; fixes the Football/Other bar split and two false sentences in rankedRecruits
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-christian-commits-2026
@@ -308,3 +308,25 @@ path**. A seventh new unit means something went wrong: stop and look.
 | Barton's conference is not SAC | Step 3 checks Barton's own site; both strings exist |
 | The user wants Layton counted | Called out at the Phase 1 stop; a one-row change |
 | Other sessions' untracked files swept into the commit | Stage explicit paths; `git status --short` before each commit |
+
+## Implementation notes
+
+- **Barton is Conference Carolinas, not SAC** (step 3). Barton's own 2026 football schedule
+  (https://bartonbulldogs.com/sports/football/schedule) marks Chowan, Ferrum, UNC Pembroke,
+  North Greenville, Shorter and Erskine as "CC *" conference games. Tate Estep's row uses the
+  existing `'Conference Carolinas'` string, and the source file's Class of 2026 table and
+  conference note were corrected. HighSchoolOT's "South Atlantic Conference" is out of date.
+- **Rule's rank is unchanged** at Composite No. 835 national / NC 31 (0.8767), re-read
+  2026-11-08 on his player page and the 2026 NC Composite list. **Young's No. 73 holds**: the
+  2024 NC Composite list prints 0.9646, national 73, state 2. His bare player page shows the
+  in-house 247Sports rating (Natl. 24), not the Composite, so it is not used.
+- **`check:live` fails in Phase 1 on exactly 7 stamps per locale**: the six rewritten fields
+  plus the retired `"(all divisions, '24–'25)"` hint. That is the expected English-first
+  state. The rest of the `npm run build` chain was run with only `check:live` removed: exit 0.
+- **The ingest also regenerated** `.claude/docs/INDEX.md` and
+  `src/content/sports/charlotte-christian.json`, beyond the files the plan listed.
+  `DATA-SCHEMA.md` changed (document count 545 → 546) and is committed.
+- **Browser (Phase 1)**: funnel 48 / 35 / 9; seven bars, Football 16; 49 of 49 rows; P4 tab 10,
+  D1 tab 36; Rule's row shows 835 / 31 linked to his 247 profile; all seven new source links
+  render, and the Porter-era 247 link is gone. Compare reads 9 / 35 / 1 against Providence
+  Day's 16 / 39 / 10; both qual tips carry the new text.

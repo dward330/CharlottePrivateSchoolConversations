@@ -1,6 +1,6 @@
 # Charlotte Christian School — Sports
-> Distilled from 19 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+**Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
 ---
@@ -256,61 +256,167 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 
 # Charlotte Christian School — Sports — College Commitments (2024–2026)
 
-> **Provenance:** Compiled by Claude Code on 2026-07-04 from the public sources listed
-> below, to preserve the hard data behind the *Power 4 commits* and *Division I commits*
-> metrics in the app (`src/data/metricValues.ts`). Level classification is by hand:
-> **Power 4 = SEC / Big Ten / ACC / Big 12** only. Counts are distinct athletes; a
-> documented minimum.
+> **Provenance:** First compiled by Claude Code on 2026-07-04 for the classes of 2024 and
+> 2025; **rebuilt 2026-11-08 by `/athlete-commits`** (varsity roster cross-reference), which
+> added the **Class of 2026** — the school's own "Knights in College" list still stops at
+> 2025 — and re-checked 2024–25 against the recruiting trackers. It holds the hard data
+> behind the College Pipeline card and the *Power 4 commits* / *Division I commits* Compare
+> rows (`p4-commits-2426`, `d1-commits-2426` in `src/data/metricValues.ts`).
 >
-> **Coverage note:** Charlotte Christian's public "Knights in College" list runs through
-> the Class of 2025; the Class of 2026 was not yet compiled at time of research, so the
-> totals below cover 2024–2025 only and undercount the true 2024–2026 figure.
+> **Standard applied.** A row is a documented commitment to college athletics at any level
+> (walk-ons, D2, D3 and junior college all count; "scholarship" is never claimed). Every
+> row is confirmed by the **school's own list or announcement**, the **college's own roster
+> or signing release**, or **two independent published sources**. Level: **Power 4 = SEC /
+> Big Ten / ACC / Big 12** only; Notre Dame is FBS Independent on this card (precedent row).
+>
+> **Graduate test.** An athlete counts only if they finished high school at Charlotte
+> Christian. Checked against the MaxPreps senior rosters for 2023–24, 2024–25 and 2025–26
+> and the college roster's "Last School" line. One lead failed it (L.J. Porter — see
+> *Excluded*).
+>
+> Varsity scope, sources reached and the nulls: see
+> `Charlotte Christian - Sports - Varsity Roster Cross-Reference 2026.md`.
 
 ## Sources
-- Charlotte Christian "Knights in College" / Knights Accolades roster (school-published),
- as compiled in `Charlotte Christian - Sports - D1 Matriculation.pdf`.
-- Charlotte-area National Signing Day roundup (2024–25 signing day, Class of 2025 cycle;
- accessed 2026-07-04) — Yahoo Sports / Charlotte Observer:
+- Charlotte Christian — Knights Accolades / "Knights in College" (classes 2014–2025; no 2026
+ list as of 2026-11-08): https://www.charlottechristian.com/athletics/knights-accolades
+- Charlotte Christian — "West Point and Air Force Academy Bound Graduates from the Class of
+ 2026" (school announcement; February signing ceremony):
+ https://www.charlottechristian.com/post-details/~board/knights-headlines/post/west-point-and-air-force-academy-bound-graduates-from-the-class-of-2026
+- HighSchoolOT recruiting trackers (hub):
+ https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
+ - Building the Fence, Class of 2026 in-state football:
+ https://www.highschoolot.com/story/building-the-fence-class-of-2026-in-state-football-commits/21497032/
+ - Class of 2026 out-of-state Division I football:
+ https://www.highschoolot.com/story/these-class-of-2026-north-carolina-players-are-committed-to-out-of-state-division-i-schools/21559634/
+ - Baseball: https://www.highschoolot.com/story/north-carolina-high-school-baseball-recruiting-tracker/21296816/
+ - Softball: https://www.highschoolot.com/story/north-carolina-high-school-softball-recruiting-tracker/21296818/
+- Prep Baseball Report — 2026 HS Preview, Region 6 (Charlotte Christian section):
+ https://www.prepbaseball.com/news/NC/2026-hs-preview--region-6
+- College rosters / releases (each prints "Last School: Charlotte Christian"):
+ - Nebraska football: https://huskers.com/sports/football/roster
+ - Army football: https://goarmywestpoint.com/sports/football/roster/2026
+ - Charlotte football: https://charlotte49ers.com/sports/football/roster/2026
+ - Elon football: https://elonphoenix.com/sports/football/roster/2026
+ - Barton football: https://bartonbulldogs.com/sports/football/roster/2026
+ - Columbia baseball: https://gocolumbialions.com/sports/baseball/roster
+ - Gardner-Webb baseball signing release (2025-11-14):
+ https://gwusports.com/news/2025/11/14/gardner-webb-baseball-announces-the-addition-of-nine-athletes
+ - Queens softball: https://queensathletics.com/sports/softball/roster
+- 247Sports Composite — 2026 North Carolina rankings (Rule):
+ https://247sports.com/season/2026-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC ·
+ https://247sports.com/player/jamal-rule-46147357/high-school-309039/
+- Class of 2024/2025 sources (unchanged from the 2026-07-04 record): the school list above;
+ Charlotte-area National Signing Day roundup (Observer via Yahoo):
  https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 
-## Class of 2025 — Division I (15), of which Power 4 (4)
-| Athlete | Sport | College | Conference | P4 |
-|---------|-------|---------|------------|----|
-| Cohen Bettencourt | Baseball | High Point | Big South | |
-| Aron Boykin | Track & Field | Alabama A&M | SWAC | |
-| Evan Boykin | Track & Field | Kentucky | SEC | ✅ |
-| Nina Dominique | Track & Field | James Madison | Sun Belt | |
-| Owen Farrell | Football | Charleston Southern | Big South | |
-| Corban Hall | Football | Dartmouth | Ivy | |
-| Sophia Harris | Tennis | Fairfield | MAAC | |
-| Brandon Hettwer | Football | Marshall | Sun Belt | |
-| Anna Hinde | Softball | Florida State | ACC | ✅ |
-| Kelsey Mayers | Swimming | New Hampshire | America East | |
-| Grant Nicholson | Baseball | Wake Forest | ACC | ✅ |
-| MadisonRae Noble | Track & Field | North Carolina A&T | CAA | |
-| Caroline Noonan | Volleyball | College of Charleston | CAA | |
-| Alexander Paschall | Golf | Davidson | Atlantic 10 | |
-| Beckett Vance | Lacrosse | Penn State | Big Ten | ✅ |
+## Class of 2026 — 10 committed, 9 Division I, 1 Power 4 (new 2026-11-08)
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Jamal Rule | Football | Nebraska | Big Ten | **P4** | Nebraska roster (RB, Fr., "Salisbury, N.C. / Charlotte Christian"); HighSchoolOT out-of-state D1 tracker. 247Sports Composite No. 31 NC, No. 835 national (0.8767). |
+| Henry Hulbert | Football | Army | American | D1 | School announcement (Feb. signing ceremony); Army roster (S, Fr., Last School Charlotte Christian) |
+| Vincent Rosen | Football | Air Force | Mountain West | D1 | School announcement (Feb. signing ceremony). Air Force's public roster does not list freshmen. |
+| Daniel Phillips | Football | Charlotte | American | D1 | Charlotte roster (OL, Fr., Last School Charlotte Christian); HighSchoolOT in-state FBS tracker |
+| Cohen Kilgannon | Football | Elon | CAA | D1 | Elon roster (LB, Fr., Waxhaw / Charlotte Christian); HighSchoolOT in-state FCS tracker |
+| Ryder Kilgannon | Football | Elon | CAA | D1 | Elon roster (DE, Fr., Waxhaw / Charlotte Christian) |
+| Russ Berger | Baseball | Columbia | Ivy | D1 | Columbia roster (LHP, FY, Last School Charlotte Christian); PBR preview ("Columbia (NY) signee") |
+| Jack Beard | Baseball | Gardner-Webb | Big South | D1 | Gardner-Webb signing release, 2025-11-14; PBR preview ("Gardner Webb signee") |
+| Morgan Banks | Softball | Queens (Charlotte) | ASUN | D1 | Queens roster (LHP, Fr., Last School Charlotte Christian School); HighSchoolOT softball tracker |
+| Tate Estep | Football | Barton | SAC | D2 | Barton roster (WR, Fr., "Charlotte Christian Acad."); HighSchoolOT in-state D2 tracker ("Barton College Bulldogs (Wilson / South Atlantic Conference)") |
 
-## Class of 2024 — Division I (11), of which Power 4 (4)
-| Athlete | Sport | College | Conference | P4 |
-|---------|-------|---------|------------|----|
-| Drew Beard | Baseball | James Madison | Sun Belt | |
-| Olivia Dawson | Track & Field | UNC-Greensboro | Southern | |
-| Micah Gilbert | Football | Notre Dame | FBS Independent | |
-| Nic Harris | Baseball | Elon | CAA | |
-| Ryan Henley | Football | Wake Forest | ACC | ✅ |
-| Gavin Major | Football | Wofford | Southern | |
-| Christian Vann | Football | Gardner-Webb | Big South | |
-| Tre Wilfong | Wrestling | NC State | ACC | ✅ |
-| Tripp Woody | Football | Iowa | Big Ten | ✅ |
-| Bryce Young | Football | Notre Dame | FBS Independent | |
-| Zach Zinger | Football | Wake Forest | ACC | ✅ |
+Notes:
+- **Name forms.** MaxPreps prints "Daniel Phillips Jr."; Charlotte's roster and HighSchoolOT
+ print "Daniel Phillips" — the card uses the college's form. The Kilgannons are two
+ athletes, both Class of 2026 seniors on the 2025–26 MaxPreps roster and both on Elon's.
+- **Conference choices.** Army football is in the American (since 2024); Charlotte is in the
+ American; Barton football's conference is taken from HighSchoolOT (SAC) — re-check against
+ Barton's own page at `/implement`.
+- **Family.** Jack Beard ('26) is the brother of Drew Beard ('24, JMU) — two rows, not a
+ duplicate.
 
-## Class of 2026
-Not yet compiled in any located public source.
+## Class of 2025 — 21 committed, 15 Division I, 4 Power 4 (unchanged)
+Every row is on the school's Knights in College list. HighSchoolOT re-confirms Bettencourt,
+Nicholson, E. Boykin, Paschall, Vance, Fox, Hinde, Farrell and Hall.
 
-**App metric values (2024–2025 documented):** Power 4 = 8 · Division I = 26
+| Athlete | Sport | College | Conference | Level |
+|---|---|---|---|---|
+| Evan Boykin | Track & Field | Kentucky | SEC | P4 |
+| Anna Hinde | Softball | Florida State | ACC | P4 |
+| Grant Nicholson | Baseball | Wake Forest | ACC | P4 |
+| Beckett Vance | Lacrosse | Penn State | Big Ten | P4 |
+| Cohen Bettencourt | Baseball | High Point | Big South | D1 |
+| Aron Boykin | Track & Field | Alabama A&M | SWAC | D1 |
+| Nina Dominique | Track & Field | James Madison | Sun Belt | D1 |
+| Owen Farrell | Football | Charleston Southern | Big South | D1 |
+| Corban Hall | Football | Dartmouth | Ivy | D1 |
+| Sophia Harris | Tennis | Fairfield | MAAC | D1 |
+| Brandon Hettwer | Football | Marshall | Sun Belt | D1 |
+| Kelsey Mayers | Swimming | New Hampshire | America East | D1 |
+| MadisonRae Noble | Track & Field | North Carolina A&T | CAA | D1 |
+| Caroline Noonan | Volleyball | College of Charleston | CAA | D1 (re-confirmed on CofC's 2026 roster) |
+| Alexander Paschall | Golf | Davidson | Atlantic 10 | D1 |
+| Alesia Sylverain | Track & Field | Johnson C. Smith | CIAA | D2 |
+| Wade Thompson | Baseball | Wingate | SAC | D2 |
+| Stokes Greene | Golf | Queens (Charlotte) | SAC | D2 |
+| Andrew Boythe | Boys Soccer | Cedarville | G-MAC | D2 |
+| Nick Dunkley | Soccer & Track | Christopher Newport | C2C | D3 |
+| Griffin Fox | Lacrosse | Grove City | PAC | D3 |
+
+## Class of 2024 — 17 committed, 11 Division I, 4 Power 4 (unchanged)
+| Athlete | Sport | College | Conference | Level |
+|---|---|---|---|---|
+| Ryan Henley | Football | Wake Forest | ACC | P4 |
+| Zach Zinger | Football | Wake Forest | ACC | P4 |
+| Tre Wilfong | Wrestling | NC State | ACC | P4 |
+| Tripp Woody | Football | Iowa | Big Ten | P4 |
+| Micah Gilbert | Football | Notre Dame | FBS Ind. | D1 |
+| Bryce Young | Football | Notre Dame | FBS Ind. | D1 |
+| Drew Beard | Baseball | James Madison | Sun Belt | D1 |
+| Nic Harris | Baseball | Elon | CAA | D1 |
+| Gavin Major | Football | Wofford | Southern | D1 |
+| Christian Vann | Football | Gardner-Webb | Big South | D1 |
+| Olivia Dawson | Track & Field | UNC-Greensboro | Southern | D1 |
+| Cross Killen | Football | Limestone | SAC | D2 |
+| Sophia Fair | Lacrosse | Anderson (SC) | SAC | D2 |
+| Kayla Lee | Girls Basketball | Roanoke | ODAC | D3 |
+| Thomas McNally | Golf | Guilford | ODAC | D3 |
+| Connor Natwick | Golf | Sewanee | SAA | D3 |
+| Oliver Tobin | Golf | Hampden-Sydney | ODAC | D3 |
+
+## Totals → app metric values
+| | 2024 | 2025 | 2026 | **2024–26** |
+|---|---|---|---|---|
+| Committed (all levels) | 17 | 21 | 10 | **48** |
+| Division I | 11 | 15 | 9 | **35** |
+| Power 4 | 4 | 4 | 1 | **9** |
+
+**`p4-commits-2426` = 9** (was 8) · **`d1-commits-2426` = 35** (was 26). The window is now
+complete for all three classes, so the old "Class of 2026 not yet compiled" qualifier no
+longer applies; the figures remain a documented minimum.
+
+**Division I by sport (2024–26):** Football 16 (4 P4) · Baseball 6 (1 P4) · Track & Field 5
+(1 P4) · Softball 2 (1 P4) · Wrestling 1 (1 P4) · Lacrosse 1 (1 P4) · Other 4 (tennis,
+swimming, volleyball, golf — 1 each). Sum 35.
+
+**Correction found on this pass:** the shipped card's bars read Football 9 / Other 5. The
+2024–25 rows give **Football 10** (Gilbert, Young, Henley, Zinger, Woody, Major, Vann,
+Farrell, Hall, Hettwer) and **Other 4**; the July dossier's own by-sport line summed to 25,
+not 26. The totals were right; one football row was in the wrong bar.
+
+## Appendix — Class of 2027 (current seniors; verbal, not counted)
+Kept in `Charlotte Christian - Sports - College Commitments Class of 2027.md`: 1 confirmed
+(Will Parrish, NC State baseball, ACC — P4 verbal). Promoted into this file when the window
+rolls after 1 June 2027.
+
+## Excluded / ruled out
+| Lead | Claimed | Reason |
+|---|---|---|
+| DJ (Derrick) Layton '24 | Southern Miss baseball (HighSchoolOT baseball tracker, Class of 2024 D1) | Senior on the 2023–24 MaxPreps roster, so he passes the graduate test — but he was drafted by Baltimore in the 6th round of the 2024 MLB Draft (No. 189) and turned pro. He never enrolled; not on Southern Miss's rosters; the school's list omits him. **Decision for the user** — see the plan. MiLB: https://www.milb.com/player/dj-layton-816152 |
+| L.J. Porter '26 | East Carolina football | **Graduate test fails.** On the CC varsity roster as a sophomore (2023–24) and junior (2024–25), absent in 2025–26; ECU and NC Football News list him from Hough High. https://ncfootballnews.com/lindell-porter-commits-to-ecu-football-2026-hough-high/ |
+| Landon DeCarlo '25 | Berry lacrosse (D3) | LaxNumbers only; absent from Berry's 2025–26 men's lacrosse roster (65 players). Not on the school list. |
+| Drew Darling '26 | Belmont Abbey baseball (D2) | One source (PBR preview, "signee"). Belmont Abbey's 2027 roster has not posted players yet. Lead — re-check when it does. |
+| Jack McGrath '26 | Hampden-Sydney baseball (D3) | One source (PBR preview, "commit"); **absent from H-SC's published 2027 roster**. Not a row. |
+| Barrett Banner '26 | Gordon lacrosse (D3) | LaxNumbers only; Gordon's 2027 roster not posted yet. Lead. |
 
 
 ---
@@ -356,10 +462,19 @@ yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 | Landry Struble | Boys Lacrosse | Monmouth (CAA, D1) | Team 91 Charlotte "The Scoop — The Commitments", 2026-01-14 |
 | Chase Covey | Boys Lacrosse | Grove City (PAC, D3) | Team 91 Charlotte, same post |
 
-RealGM's Charlotte Christian page lists six 2027 basketball players, none with a college.
+| Matty Carroll | Baseball | Maryland (Big Ten, P4) | PBR 2026 HS Preview, Region 6 ("3B, 2027, Maryland commit"; also "Top Juniors: … Maryland commit") — https://www.prepbaseball.com/news/NC/2026-hs-preview--region-6. Perfect Game marks him committed but its page is WAF-blocked. Added 2026-11-08. |
+| Corbin Corum | Boys Lacrosse | Pace (D2) | LaxNumbers boys team page, 2026 season (t=12770). Added 2026-11-08. |
+
+**Struble conflict (2026-11-08).** LaxNumbers now lists Landry Struble at **Washington & Lee
+(D3)**, not Monmouth as Team 91's January post had it. Two user-submitted/club sources
+disagree; he stays a lead until the school or the college announces.
+
+RealGM's Charlotte Christian page lists six 2027 basketball players, none with a college
+(re-read 2026-11-08: unchanged).
 
 ## Totals for the `seniors-committed` row (as of 2026-11-08)
-**1 confirmed** (value `'1'`), 2 pending.
+**1 confirmed** (value `'1'`), 4 pending leads (Struble, Covey, Carroll, Corum) as of the
+2026-11-08 graduate refresh. Re-run after the early signing period (opens 2026-11-11).
 
 
 ---
@@ -1117,6 +1232,13 @@ softball 25–15 (.625) · football 22–14 (.611) across the James era · boys 
 and 2024, then the 2025 state final. The run to that final included a 55–48 semifinal win
 over Rabun Gap-Nacoochee (GA), the program that had beaten Providence Day for the 2024 title.
 
+> **Superseded 2026-11-08.** The pipeline figures below cover 2024–25 only. The verified
+> 2024–26 record (48 committed, 35 D1, 9 P4, including the Class of 2026) is in
+> `Charlotte Christian - Sports - College Commitments 2024-2026.md`, and the roster method,
+> nulls and ruled-out leads are in
+> `Charlotte Christian - Sports - Varsity Roster Cross-Reference 2026.md`. Football's D1
+> count below (9) should read 10.
+
 ## 3. College Pipeline — 38 commits, 26 D1, 8 P4 (classes of 2024–2025)
 
 **Scope note:** the school's "Knights in College" roster stops at the **class of 2025**; no
@@ -1468,6 +1590,103 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 
 ---
 
+## Varsity Roster Cross-Reference 2026
+
+*Source file: `Charlotte Christian - Sports - Varsity Roster Cross-Reference 2026.md`*
+
+# Charlotte Christian School — Sports — Varsity Roster Cross-Reference (2026)
+
+> **Provenance:** Claude Code, 2026-11-08, `/athlete-commits` graduate refresh (Chrome
+> extension connected). Method: pull every varsity roster for the 2023–24, 2024–25, 2025–26
+> and 2026–27 seasons, list the seniors per season (= the classes of 2024, 2025, 2026 and the
+> current Class of 2027), and cross-reference each against recruiting trackers and the
+> college's own roster. Results land in
+> `Charlotte Christian - Sports - College Commitments 2024-2026.md` (window) and
+> `… - College Commitments Class of 2027.md` (current seniors).
+>
+> Names here are limited to athletes with a documented commitment or a lead that was ruled
+> out. Seniors without a commitment are recorded as counts.
+
+## Rosters pulled
+**School site:** the Finalsite athletics pages hold current-season rosters only and the
+"Knights in College" list stops at the Class of 2025, so past seniors came from MaxPreps.
+
+**MaxPreps** (`/nc/charlotte/charlotte-christian-knights/<sport>/<yy-yy>/roster/`, path form):
+
+| Sport | 23–24 Sr | 24–25 Sr | 25–26 Sr | Notes |
+|---|---|---|---|---|
+| Football | 11 | 11 | 17 | full grades |
+| Boys basketball | 2 | 2 | 1 | |
+| Girls basketball | 3 | 2 | 2 | |
+| Baseball | 1* | 6 | 0* | *grades largely blank; 2026 seniors taken from the 24–25 juniors (6) |
+| Softball | 0* | 6 | 2 | |
+| Boys lacrosse | 8 | 6 | 1 | |
+| Girls lacrosse | 5 | 0* | 6 | |
+| Boys soccer | 11 | 7 | 3 | |
+| Girls soccer | 6 | 4 | 3 | |
+| Volleyball | 3 | 4 | 5 | |
+| Boys tennis | 2 | 1 | 3 | |
+| Girls tennis | 1 | 4 | 4 | |
+| Wrestling | 1 | 0 | — | 25–26 table empty |
+
+**Unchecked (no roster retrievable in any season):** track & field and cross country (404 /
+empty tables), swimming (boys 404; girls one season, no grades), golf (boys 404; girls one
+season, no grades), field hockey (404 — not fielded on MaxPreps). These sports were covered
+by grouped searches only (tier 2), not per-name cross-reference.
+
+## Sources reached
+- HighSchoolOT: all 17 per-sport trackers plus the Building the Fence (2024/25/26) and
+ out-of-state football lists — fetched by curl, grepped for the school.
+- RealGM (Chrome): https://basketball.realgm.com/highschool/teams/587/Charlotte-Christian-School-NC
+- LaxNumbers boys (Chrome), team id 12770: https://www.laxnumbers.com/team_info.php?y=2026&t=12770&s=2
+ (2024, 2025, 2026 pages read). Girls' LaxNumbers page not located.
+- 247Sports Composite 2026 NC (WebFetch).
+- Prep Baseball Report 2026 HS Preview, Region 6: https://www.prepbaseball.com/news/NC/2026-hs-preview--region-6
+- NCISAA 2026 all-state baseball (SI): https://www.si.com/high-school/north-carolina/ncisaa-announces-2026-all-state-baseball-teams-across-four-classifications-01ktvk4vcng8
+- College Sidearm rosters (curl): Nebraska, Army, Charlotte, Elon, Barton, Columbia, Queens,
+ College of Charleston, Southern Miss, Berry, Gordon, Hampden-Sydney, Belmont Abbey;
+ Gardner-Webb's signing release.
+- School announcement on the Class of 2026 service-academy signees (Knights Headlines).
+- **Not reachable:** Perfect Game (Azure WAF in Chrome and curl); Air Force's roster lists
+ no freshmen; On3 / SwimCloud (blocked by design).
+
+## Results by sport (tier and outcome)
+| Sport | Tier | Found |
+|---|---|---|
+| Football | 1 | **7 Class of 2026 commits** (Rule, Hulbert, Rosen, Phillips, C. Kilgannon, R. Kilgannon, Estep). 10 other 2025–26 seniors: no commitment found. |
+| Baseball | 1 | **2 confirmed** (Berger, Beard); 2 leads (Darling, McGrath); 2 seniors uncommitted (one per Perfect Game). Class of 2024: Layton (drafted — see record). |
+| Softball | 1 | **1 confirmed** (Banks); 1 senior, nothing found. |
+| Boys basketball | 1 | **Null** — RealGM lists no 2024–26 graduate with a college. |
+| Girls basketball | 1 | Null for 2026 (2 seniors). |
+| Boys lacrosse | 1 | 1 lead (Banner '26); DeCarlo '25 ruled out. |
+| Girls lacrosse | 2 | Null for 2026 (6 seniors; no tracker or roster hit). |
+| Soccer (both) | 2 | Null for 2026 (6 seniors). |
+| Volleyball | 2 | Null for 2026 (5 seniors). |
+| Tennis (both) | 2 | Null for 2026 (7 seniors). |
+| Track, swimming, golf, XC | 2 | Unchecked by roster; grouped searches found nothing for 2026. |
+
+## Leads ruled out
+- **L.J. Porter** — left for Hough High before his senior year (graduate test); ECU commit
+ counts for Hough.
+- **Landon DeCarlo** — Berry (LaxNumbers only), not on Berry's roster.
+- **Jack McGrath** — Hampden-Sydney (PBR only), not on H-SC's 2027 roster.
+- **DJ Layton** — Southern Miss signee, drafted and turned pro (user decision, see plan).
+- **"Caden Hicks"** on Barton's roster — a page-parse artifact; he is from Holly Springs HS.
+
+## Class of 2027 (current seniors) — new leads
+See the per-class file: Matty Carroll (Maryland baseball, PBR only), Corbin Corum (Pace
+lacrosse, LaxNumbers only), and a conflict on Landry Struble (Monmouth per Team 91 in
+January; Washington & Lee per LaxNumbers now).
+
+## Conclusion
+The card was missing the entire Class of 2026: **10 confirmed commitments, 9 Division I, 1
+Power 4** (Rule, Nebraska). The 2024–25 rows match the school's list exactly; the only
+tracker lead outside it (Layton) turned pro. The window is now a documented floor for all
+three classes rather than for two.
+
+
+---
+
 ## Wells Fargo Cup Standings 2020-2026
 
 *Source file: `Charlotte Christian - Sports - Wells Fargo Cup Standings 2020-2026.md`*
@@ -1695,8 +1914,10 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://247sports.com/Season/2026-Football/RecruitRankings/?InstitutionGroup=highschool&State;=NC
 - https://247sports.com/player/bryce-young-46130942/
 - https://247sports.com/player/jamal-rule-46147357/
+- https://247sports.com/player/jamal-rule-46147357/high-school-309039/
 - https://247sports.com/player/micah-gilbert-46128048/
 - https://247sports.com/player/tripp-woody-46146089/
+- https://247sports.com/season/2026-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
@@ -1721,17 +1942,27 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://archives.ncisaa.org/index.php?sport=14&years=2021-2022
 - https://archives.ncisaa.org/index.php?sport=21&years=2020-2021
 - https://archives.ncisaa.org/index.php?sport=31&years=2020-2021
+- https://bartonbulldogs.com/sports/football/roster/2026
+- https://basketball.realgm.com/highschool/teams/587/Charlotte-Christian-School-NC
 - https://blog.rallyfuel.com/north-carolina-nil-laws/
 - https://ca.news.yahoo.com/charlotte-latin-wins-ncisaa-high-050000023.html
 - https://charlotte49ers.com/sports/2010/7/27/204971114
+- https://charlotte49ers.com/sports/football/roster/2026
 - https://creators.spotify.com/pod/profile/dwardcoe/episodes/Charlotte-Christian-School---The-New-Saleh-Athletic-Center-Takes-Shape-Season-2-Premiere-e3obskr
+- https://elonphoenix.com/sports/football/roster/2026
 - https://en.wikipedia.org/wiki/Stephen_Curry
+- https://goarmywestpoint.com/sports/football/roster/2026
+- https://gocolumbialions.com/sports/baseball/roster
+- https://gwusports.com/news/2025/11/14/gardner-webb-baseball-announces-the-addition-of-nine-athletes
+- https://huskers.com/sports/football/roster
 - https://itunes.apple.com/lookup?id=1894103555&entity=podcast`
+- https://ncfootballnews.com/lindell-porter-commits-to-ecu-football-2026-hough-high/
 - https://news.medill.northwestern.edu/chicago/inside-the-high-school-that-was-monumental-in-stephen-currys-life/
 - https://open.spotify.com/embed/episode/6TLyGudcsLUiE7tLcCIgSG`
 - https://open.spotify.com/embed/show/31HWltz40P18VaObYhmtld`
 - https://open.spotify.com/episode/6TLyGudcsLUiE7tLcCIgSG
 - https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000787925116
+- https://queensathletics.com/sports/softball/roster
 - https://resources.finalsite.net/images/f_auto,q_auto/v1612887841/charlotte/gtwua3dynq94eb9ykdix/LambJohnsonGymnasium.jpg
 - https://resources.finalsite.net/images/f_auto,q_auto/v1658171240/charlotte/ctzgfcgm2fvrx3rb0tdl/2022_weightroom.png
 - https://resources.finalsite.net/images/f_auto,q_auto/v1741884102/charlotte/ypebjsebkm70ftjhuz6x/EstepFieldfinishingtouches-1.jpg
@@ -1748,11 +1979,13 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://www.charlottechristian.com/athletics/knights-in-action
 - https://www.charlottechristian.com/athletics/teams
 - https://www.charlottechristian.com/athletics/tickets-livestream
+- https://www.charlottechristian.com/post-details/~board/knights-headlines/post/west-point-and-air-force-academy-bound-graduates-from-the-class-of-2026
 - https://www.christschool.org/article/track-claims-five-gold-medals-places-2nd-state-track-meet
 - https://www.christschool.org/article/track-ends-school-year-state-championship
 - https://www.christschool.org/article/track-wins-sixth-state-championship-runaway-fashion
 - https://www.highschoolot.com/
 - https://www.highschoolot.com/story/back-on-top-providence-day-reclaims-division-i-state-title-with-win-over-rival-charlotte-christian/22257301/
+- https://www.highschoolot.com/story/building-the-fence-class-of-2026-in-state-football-commits/21497032/
 - https://www.highschoolot.com/story/charlotte-christian-rallies-to-take-ncisaa-4a-baseball-championship-over-metrolina-christian/22358717/
 - https://www.highschoolot.com/story/charlotte-christian-sweeps-charlotte-latin-in-ncisaa-d1-softball-championship-series/22010718/
 - https://www.highschoolot.com/story/charlotte-christian-wins-ncisaa-d1-boys-track-field-championship/22010599/
@@ -1762,9 +1995,14 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://www.highschoolot.com/story/every-nc-gatorade-player-of-the-year-all-sports/22063756/
 - https://www.highschoolot.com/story/metrolina-christian-takes-ncisaa-wrestling-championship-by-one-point/21863211/
 - https://www.highschoolot.com/story/ncisaa-2026-wrestling-championship-coverage-results-placers/22322289/
+- https://www.highschoolot.com/story/north-carolina-high-school-baseball-recruiting-tracker/21296816/
+- https://www.highschoolot.com/story/north-carolina-high-school-softball-recruiting-tracker/21296818/
 - https://www.highschoolot.com/story/private-schools-in-ncisaa-adopt-nil-policy-for-next-school-year/21265297/
+- https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.highschoolot.com/story/state-board-of-education-bans-athlet
 - https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
+- https://www.highschoolot.com/story/these-class-of-2026-north-carolina-players-are-committed-to-out-of-state-division-i-schools/21559634/
+- https://www.laxnumbers.com/team_info.php?y=2026&t=12770&s=2
 - https://www.linkedin.com/in/shonn-brown-6a780b20/
 - https://www.maxpreps.com/nc/charlotte/charlotte-christian-knights/
 - https://www.maxpreps.com/nc/charlotte/charlotte-christian-knights/basketball/
@@ -1772,6 +2010,7 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://www.maxpreps.com/nc/charlotte/charlotte-christian-knights/football/
 - https://www.maxpreps.com/news/Jm-4cT2SiE6sJqN-Lnk7Bw/stephen-curry-has-jersey-retired-at-charlotte-christian-high-school.htm
 - https://www.maxpreps.com/news/tgHbpWvfmE2DfgT_6iiGLQ/2025-north-carolina-preseason-maxpreps-top-25-high-school-football-rankings.htm
+- https://www.milb.com/player/dj-layton-816152
 - https://www.nba.com/warriors/news/warriors-guard-stephen-curry-honored-charlotte-christian-school-and-davidson-college-north
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/history/
@@ -1784,8 +2023,10 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://www.ncsasports.org/baseball-recruiting/north-carolina/charlotte/charlotte-christian-school/will-parrish4
 - https://www.on3.com/high-school/charlotte-christian-charlotte-nc-13023/
 - https://www.on3.com/nil/news/north-carolina-private-high-school-athletes-can-soon-begin-to
+- https://www.prepbaseball.com/news/NC/2026-hs-preview--region-6
 - https://www.prepbaseballreport.com/rankings/NC/North-Carolina-class-of-2027
 - https://www.si.com/high-school/north-carolina/charlotte-christian-school-sets-2025-football-schedule-01jtghjdregp
+- https://www.si.com/high-school/north-carolina/ncisaa-announces-2026-all-state-baseball-teams-across-four-classifications-01ktvk4vcng8
 - https://www.thecharlotteweekly.com/southcltweekly/charlotte-christian-to-name-football-field-after-former-coach/article_bdab2408-a6c3-11ef-b59a-67b14218a3fb.html
 - https://www.thecharlotteweekly.com/southcltweekly/james-repl
 - https://www.thecharlotteweekly.com/southcltweekly/james-replaces-estep-as-c
