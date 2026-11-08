@@ -40,10 +40,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Country Day School](college-support/charlotte-country-day.md) — 11 docs
 - [Charlotte Latin School](college-support/charlotte-latin.md) — 13 docs
 - [Covenant Day School](college-support/covenant-day.md) — 9 docs
-- [Davidson Day School](college-support/davidson-day.md) — 12 docs
+- [Davidson Day School](college-support/davidson-day.md) — 13 docs
 - [Gaston Day School](college-support/gaston-day.md) — 2 docs
 - [Hickory Grove Christian School](college-support/hickory-grove-christian.md) — 3 docs
-- [Providence Day School](college-support/providence-day.md) — 11 docs
+- [Providence Day School](college-support/providence-day.md) — 12 docs
 
 ### Course Offerings (`course-offerings/`)
 
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 529 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 531 documents across 12 topics and 13 schools.

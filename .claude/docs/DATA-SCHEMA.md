@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 530 ingested research documents.
+**13 schools × 12 research areas**, 531 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -64,7 +64,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 2 | 7 | 2 |
 | Sports | `sports` | 17 | 3 | 3 | 18 | 18 | 18 | 2 | 17 | 18 | 2 | 3 | 20 | 2 |
-| College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 12 | 2 | 3 | 12 | — |
+| College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 13 | 2 | 3 | 12 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
@@ -158,7 +158,7 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `academic-case` | Academic Case | 7/13 | 1 |
-| `outcomes` | Placement Outcomes | 11/13 | 8 |
+| `outcomes` | Placement Outcomes | 11/13 | 9 |
 | `application-support` | Application Support | 7/13 | 1 |
 | `counseling-engine` | Counseling Engine | 7/13 | 1 |
 | `fit-rank` | Fit & Rank | 7/13 | 2 |
@@ -1146,8 +1146,8 @@ only, no school-page stat tile (the school page shows the figures in a structure
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `sat-scores` | SAT total | 10/13 | – Q C sub S |
-| `act-scores` | ACT composite | 10/13 | – Q C sub S |
+| `sat-scores` | SAT total | 11/13 | – Q C sub S |
+| `act-scores` | ACT composite | 11/13 | – Q C sub S |
 | `ap-performance` | AP scoring 3+ | 9/13 | Q sub |
 | `ap-top-scores` | AP scoring 4 or 5 | 5/13 | Q sub |
 | `bucket-ivy` | Ivy League | 11/13 | Q sub |

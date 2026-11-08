@@ -351,8 +351,8 @@
       ]
     },
     {
-      "t": "La puntuación total del SAT que publica cada colegio para la promoción indicada debajo: la mediana, la media y el 50% central. Un guion significa que el colegio no publica esa cifra; Davidson Day no publica resultados de exámenes.",
-      "of": "481ce6b0",
+      "t": "La puntuación total del SAT que publica cada colegio para la promoción indicada debajo: la mediana, la media y el 50% central. Un guion significa que el colegio no publica esa cifra.",
+      "of": "e64ee1a8",
       "at": [
         "providence-day:[3].note"
       ]
@@ -428,6 +428,13 @@
       ]
     },
     {
+      "t": "1179",
+      "of": "801db3db",
+      "at": [
+        "providence-day:[3].values.davidson-day"
+      ]
+    },
+    {
       "t": "(Promoción de 2026)",
       "of": "93fda8d3",
       "at": [
@@ -472,6 +479,14 @@
       ]
     },
     {
+      "t": "(Promoción de 2021)",
+      "of": "9c0efe8c",
+      "at": [
+        "providence-day:[3].subs.davidson-day",
+        "providence-day:[4].subs.davidson-day"
+      ]
+    },
+    {
       "t": "La mediana se publicó a mitad de curso con 20 examinados; la media es la cifra final del colegio para la promoción, con 45 examinados.",
       "of": "30c2af42",
       "at": [
@@ -487,6 +502,13 @@
       ]
     },
     {
+      "t": "Del perfil de 2020–21 del colegio, el último que publicó resultados de exámenes: solo 12 de 53 alumnos de último año habían hecho el SAT, una muestra que el colegio atribuye a la COVID-19. Todos los perfiles posteriores retienen los resultados.",
+      "of": "4d921878",
+      "at": [
+        "providence-day:[3].quals.davidson-day.text"
+      ]
+    },
+    {
       "t": "ACT compuesto",
       "of": "30c12050",
       "at": [
@@ -494,8 +516,8 @@
       ]
     },
     {
-      "t": "La puntuación compuesta del ACT que publica cada colegio para la promoción indicada debajo: la mediana, la media y el 50% central. Un guion significa que el colegio no publica esa cifra; Davidson Day no publica resultados de exámenes.",
-      "of": "8a68663d",
+      "t": "La puntuación compuesta del ACT que publica cada colegio para la promoción indicada debajo: la mediana, la media y el 50% central. Un guion significa que el colegio no publica esa cifra.",
+      "of": "1ef6f1ff",
       "at": [
         "providence-day:[4].note"
       ]
@@ -572,6 +594,21 @@
       "of": "7206aff8",
       "at": [
         "providence-day:[4].values.gaston-day"
+      ]
+    },
+    {
+      "t": "23",
+      "of": "8ef29b12",
+      "at": [
+        "providence-day:[4].values.davidson-day",
+        "providence-day:[33].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Del perfil de 2020–21 del colegio, el último que publicó resultados de exámenes: 43 de 53 alumnos de último año hicieron el ACT. Todos los perfiles posteriores retienen los resultados.",
+      "of": "31f818b1",
+      "at": [
+        "providence-day:[4].quals.davidson-day.text"
       ]
     },
     {
@@ -4402,13 +4439,6 @@
       "of": "d3066b52",
       "at": [
         "providence-day:[33].values.cannon"
-      ]
-    },
-    {
-      "t": "23",
-      "of": "8ef29b12",
-      "at": [
-        "providence-day:[33].values.charlotte-christian"
       ]
     },
     {

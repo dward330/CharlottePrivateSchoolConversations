@@ -1252,7 +1252,8 @@
         "providence-day:wholeClass.scoreTables[0].title",
         "charlotte-christian:wholeClass.scoreTables[0].title",
         "charlotte-country-day:wholeClass.scoreTables[0].title",
-        "cannon:wholeClass.scoreTables[0].title"
+        "cannon:wholeClass.scoreTables[0].title",
+        "davidson-day:wholeClass.scoreTables[0].title"
       ]
     },
     {
@@ -9122,8 +9123,8 @@
       ]
     },
     {
-      "t": "Davidson Day trattiene per scelta tutti i dati SAT e ACT — “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.",
-      "of": "3e5255d0",
+      "t": "Davidson Day non pubblica punteggi SAT o ACT dal suo profilo 2020–21 — quello attuale dice “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.",
+      "of": "d4a6af30",
       "at": [
         "davidson-day:wholeClass.headline"
       ]
@@ -9133,6 +9134,83 @@
       "of": "daa9e107",
       "at": [
         "davidson-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "— Classe del 2021 · 12 candidati (su 53) · profilo scolastico 2020–21",
+      "of": "ac31b08f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "SAT totale — Classe del 2021",
+      "of": "11e853e1",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "SAT EBRW — Classe del 2021",
+      "of": "aad8fb25",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "SAT Math — Classe del 2021",
+      "of": "cad4111f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "SAT totale — Classe del 2020",
+      "of": "10e8524e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "Sono gli ultimi punteggi SAT pubblicati dalla scuola, tratti dal suo profilo 2020–21. Secondo la scuola, il COVID-19 ha limitato i test della Classe del 2021: solo 12 dei suoi 53 studenti dell’ultimo anno avevano sostenuto il SAT, perciò ha pubblicato accanto la Classe del 2020 (43 candidati). Gli estremi del 50% centrale SONO il 25° e il 75° percentile; il 10°, il 50° e il 90° sono indicati con “—” perché la scuola non li pubblica.",
+      "of": "1d3ed30e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "Percentili del punteggio ACT composite",
+      "of": "edde9c98",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "— Classe del 2021 · 43 candidati (su 53) · profilo scolastico 2020–21",
+      "of": "b840a185",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].hint"
+      ]
+    },
+    {
+      "t": "ACT composite — Classe del 2021",
+      "of": "ee7a725c",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "ACT composite — Classe del 2020",
+      "of": "ef7a73ef",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "Dallo stesso profilo: 43 studenti della Classe del 2021 e 51 della Classe del 2020 hanno sostenuto l’ACT. Ogni profilo successivo ha trattenuto i dati dei test.",
+      "of": "3467bf55",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].note"
       ]
     },
     {
@@ -9262,8 +9340,8 @@
       ]
     },
     {
-      "t": "Tutti i dati SAT e ACT sono trattenuti — percentili, medie e persino il numero di studenti che hanno sostenuto i test. Il numero di studenti che sostengono i test è rivelatore quanto i punteggi, poiché mostra se la classe sostiene affatto i test; nessuno dei due è disponibile. Si tratta di una decisione di divulgazione legata alle ammissioni test-optional, non di un segnale su come gli studenti ottengono i punteggi.",
-      "of": "2519bda5",
+      "t": "Per ogni classe successiva al 2021, tutti i dati SAT e ACT sono trattenuti — medie, intervalli e persino il numero di studenti che hanno sostenuto i test. Il numero di studenti che sostengono i test è rivelatore quanto i punteggi, poiché mostra se una classe sostiene affatto i test; nessuno dei due è disponibile. Si tratta di una decisione di divulgazione legata alle ammissioni test-optional, non di un segnale su come gli studenti ottengono i punteggi.",
+      "of": "2d41a112",
       "at": [
         "davidson-day:wholeClass.flags[0].text"
       ]
@@ -9273,6 +9351,13 @@
       "of": "6aad681b",
       "at": [
         "davidson-day:wholeClass.flags[1].text"
+      ]
+    },
+    {
+      "t": "Verifica degli ultimi punteggi, 2026-11-07: i profili dal 2022–23 al 2026–27 trattengono tutti i dati dei test. L’edizione 2021–22 (slug Issuu dds81-college_profile-2022-22_online) è stata sovrascritta e non è stato possibile leggerla, quindi un eventuale dato della Classe del 2022, se mai pubblicato, non è stato visto. Documento: School Profile 2020-2021.md.",
+      "of": "755e9037",
+      "at": [
+        "davidson-day:wholeClass.flags[2].text"
       ]
     },
     {

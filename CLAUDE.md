@@ -94,12 +94,14 @@ discover at ingest time.
 **The bar is calibrated to the thinnest school already shipped, and it is computed, not
 transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
 school's Compare fill rate and research-area count and derives the floor from the weakest.
-As of 2026-11-07 that is Davidson Day — 28/44 Compare rows (**63%**), and no Summer
-Programs material at all. The gate is **≥28 of 44 Compare rows, and one area below the
-count the script derives**, compared inclusively: exactly 28/44 passes, 27/44 does not.
+As of 2026-11-07 that is Davidson Day — 30/44 Compare rows (**68%**), up from 28/44 once its
+SAT and ACT cells were filled from its 2020–21 profile (plan `ddtestscores`), and no Summer
+Programs material at all. The gate is **≥30 of 44 Compare rows, and one area below the
+count the script derives**, compared inclusively: exactly 30/44 passes, 29/44 does not.
 The row total moves too (30 → 36 when the six Top 6 NC admit-rate rows shipped,
 2026-10-05; 36 → 37 with `ap-top-scores`; 37 → 39 when the SAT and ACT rows shipped,
-2026-11-07, both null for Davidson Day, which publishes no test scores; 39 → 44 when the
+2026-11-07, both null for Davidson Day at first and filled later that day from its 2020–21
+profile, the last to print scores; 39 → 44 when the
 six tuition rows replaced `top-tuition` the same day, plan `comparerows`), so read it from
 the script like the area count. Those six rows exist only for
 NC high schools — the UNC System dashboard covers no other state — so an out-of-state
@@ -127,13 +129,13 @@ its core prose cards, structured-card field sets and Compare rows, and judged ag
 card keys **5–6 of 6** existing schools hold, never against every key that exists —
 `the-arts :: courses` sits at 1/6, so its absence is not a gap.
 
-**The per-area line is ~50%, deliberately NOT the school-wide 63%**, and it is a trigger
+**The per-area line is ~50%, deliberately NOT the school-wide 68%**, and it is a trigger
 for a conversation rather than a pass/fail gate. Three reasons, each of which bit a draft:
-the 63% is a rate over 44 Compare rows while an area's denominator is 2–28, so they are
+the 68% is a rate over 44 Compare rows while an area's denominator is 2–28, so they are
 not the same kind of measurement; **Davidson Day — the school the bar is calibrated to —
-has no Summer Programs material at all (0%)**, so a 63% per-area gate would reject an area
+has no Summer Programs material at all (0%)**, so a 68% per-area gate would reject an area
 the project already ships without; and Course Offerings quantizes to 0/25/50/75/100, where
-"63%" is unreachable and would silently behave as 75%. **Always print counts beside an
+"68%" is unreachable and would silently behave as 75%. **Always print counts beside an
 area percentage** — one item swings Sports 4 points and Course Offerings 25.
 
 **An area under the line is not dropped — it is offered a deeper look.** The step-3 sweep is

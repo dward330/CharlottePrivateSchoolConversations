@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**12 active** · 0 retired · Last updated **2026-11-06**
+**12 active** · 0 retired · Last updated **2026-11-07**
 
 ---
 
@@ -57,7 +57,7 @@ Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-epi
 
 **Assess a candidate school, then hand off to `/plan`.**
 
-`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-10-05
+`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-07 (floor 30/44, 68%)
 
 Answers one question before any work starts: **can this school actually be populated
 against the schema the app already has?** A school with a thin public footprint yields a
@@ -91,10 +91,10 @@ expensive to discover at ingest time.
 > that decides, since it is what a parent choosing a K–8 school is buying. See §7 of
 > `DATA-SCHEMA.md` for the full shape.
 
-> **⚠️ The per-area line is ~50%, deliberately NOT the school-wide 63%** — and it triggers
-> a *conversation*, not a rejection. An area's denominator is 2–28, not 36; Davidson Day
+> **⚠️ The per-area line is ~50%, deliberately NOT the school-wide 68%** — and it triggers
+> a *conversation*, not a rejection. An area's denominator is 2–28, not 44; Davidson Day
 > ships with **zero** Summer Programs material; and Course Offerings quantizes to
-> 0/25/50/75/100, where 63% is unreachable. **Always print counts beside a percentage.**
+> 0/25/50/75/100, where 68% is unreachable. **Always print counts beside a percentage.**
 
 **Deliberately cannot:** edit `src/`, write `source-material/`, or run the ingest pipeline.
 Only **URLs** carry forward — a sweep sized for percentages produces indicative figures,

@@ -1399,7 +1399,8 @@
         "providence-day:wholeClass.scoreTables[0].title",
         "charlotte-christian:wholeClass.scoreTables[0].title",
         "charlotte-country-day:wholeClass.scoreTables[0].title",
-        "cannon:wholeClass.scoreTables[0].title"
+        "cannon:wholeClass.scoreTables[0].title",
+        "davidson-day:wholeClass.scoreTables[0].title"
       ],
       "t": "Percentili del punteggio SAT"
     },
@@ -10377,12 +10378,12 @@
       "t": "La parte relativa alla comunicazione disciplinare della segnalazione dell'integrità non è divulgata: se sospensioni o violazioni dell'honor code vengano riportate nel secondary school report, e come uno studente possa spiegare un episodio, non è pubblicato."
     },
     {
-      "text": "Davidson Day withholds all SAT and ACT data by choice — “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.",
-      "of": "3e5255d0",
+      "text": "Davidson Day has published no SAT or ACT scores since its 2020–21 profile — the current one says “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.",
+      "of": "d4a6af30",
       "at": [
         "davidson-day:wholeClass.headline"
       ],
-      "t": "Davidson Day trattiene per scelta tutti i dati SAT e ACT — “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”."
+      "t": "Davidson Day non pubblica punteggi SAT o ACT dal suo profilo 2020–21 — quello attuale dice “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”."
     },
     {
       "text": "What remains is a three-point GPA disclosure, a genuinely staffed Learning Enrichment Center, and an acceptance list broad enough to show the middle of the class is served.",
@@ -10391,6 +10392,94 @@
         "davidson-day:wholeClass.subhead"
       ],
       "t": "Ciò che rimane è una divulgazione della GPA a tre punti, un Learning Enrichment Center realmente dotato di personale e un elenco delle ammissioni abbastanza ampio da mostrare che anche la fascia intermedia della classe viene servita."
+    },
+    {
+      "text": "— Class of 2021 · 12 testers (of 53) · 2020–21 School Profile",
+      "of": "ac31b08f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].hint"
+      ],
+      "t": "— Classe del 2021 · 12 candidati (su 53) · profilo scolastico 2020–21"
+    },
+    {
+      "text": "SAT total — Class of 2021",
+      "of": "11e853e1",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": "SAT totale — Classe del 2021"
+    },
+    {
+      "text": "SAT EBRW — Class of 2021",
+      "of": "aad8fb25",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[1].label"
+      ],
+      "t": "SAT EBRW — Classe del 2021"
+    },
+    {
+      "text": "SAT Math — Class of 2021",
+      "of": "cad4111f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[2].label"
+      ],
+      "t": "SAT Math — Classe del 2021"
+    },
+    {
+      "text": "SAT total — Class of 2020",
+      "of": "10e8524e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[3].label"
+      ],
+      "t": "SAT totale — Classe del 2020"
+    },
+    {
+      "text": "These are the last SAT scores the school has published, from its 2020–21 profile. The school says COVID-19 limited the Class of 2021’s testing: only 12 of its 53 seniors had taken the SAT, so it printed the Class of 2020 (43 testers) beside it. The middle-50% endpoints ARE the 25th and 75th percentiles; the 10th, 50th and 90th are shown as “—” because the school does not publish them.",
+      "of": "1d3ed30e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].note"
+      ],
+      "t": "Sono gli ultimi punteggi SAT pubblicati dalla scuola, tratti dal suo profilo 2020–21. Secondo la scuola, il COVID-19 ha limitato i test della Classe del 2021: solo 12 dei suoi 53 studenti dell’ultimo anno avevano sostenuto il SAT, perciò ha pubblicato accanto la Classe del 2020 (43 candidati). Gli estremi del 50% centrale SONO il 25° e il 75° percentile; il 10°, il 50° e il 90° sono indicati con “—” perché la scuola non li pubblica."
+    },
+    {
+      "text": "ACT composite percentiles",
+      "of": "edde9c98",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].title"
+      ],
+      "t": "Percentili del punteggio ACT composite"
+    },
+    {
+      "text": "— Class of 2021 · 43 testers (of 53) · 2020–21 School Profile",
+      "of": "b840a185",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].hint"
+      ],
+      "t": "— Classe del 2021 · 43 candidati (su 53) · profilo scolastico 2020–21"
+    },
+    {
+      "text": "ACT composite — Class of 2021",
+      "of": "ee7a725c",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[0].label"
+      ],
+      "t": "ACT composite — Classe del 2021"
+    },
+    {
+      "text": "ACT composite — Class of 2020",
+      "of": "ef7a73ef",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[1].label"
+      ],
+      "t": "ACT composite — Classe del 2020"
+    },
+    {
+      "text": "From the same profile: 43 students in the Class of 2021 and 51 in the Class of 2020 took the ACT. Every profile since has withheld testing data.",
+      "of": "3467bf55",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].note"
+      ],
+      "t": "Dallo stesso profilo: 43 studenti della Classe del 2021 e 51 della Classe del 2020 hanno sostenuto l’ACT. Ogni profilo successivo ha trattenuto i dati dei test."
     },
     {
       "text": "— the no-rank mechanism · Class of 2027, transfers excluded",
@@ -10537,12 +10626,12 @@
       "t": "Accademie militari (Air Force, West Point); conservatori e istituti d'arte (Manhattan School of Music, UNCSA, Pratt, SCAD, AMDA); sette università internazionali in cinque paesi (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London); e scuole tecniche specializzate (Embry-Riddle, Colorado School of Mines, RPI, RIT)."
     },
     {
-      "text": "All SAT and ACT data is withheld — percentiles, means, and even the number of testers. The count of testers is as revealing as the scores, since it shows whether the class is testing at all; neither is available. This is a disclosure decision tied to test-optional admissions, not a signal about how students score.",
-      "of": "2519bda5",
+      "text": "For every class after 2021, all SAT and ACT data is withheld — means, ranges, and even the number of testers. The count of testers is as revealing as the scores, since it shows whether a class is testing at all; neither is available. This is a disclosure decision tied to test-optional admissions, not a signal about how students score.",
+      "of": "2d41a112",
       "at": [
         "davidson-day:wholeClass.flags[0].text"
       ],
-      "t": "Tutti i dati SAT e ACT sono trattenuti — percentili, medie e persino il numero di studenti che hanno sostenuto i test. Il numero di studenti che sostengono i test è rivelatore quanto i punteggi, poiché mostra se la classe sostiene affatto i test; nessuno dei due è disponibile. Si tratta di una decisione di divulgazione legata alle ammissioni test-optional, non di un segnale su come gli studenti ottengono i punteggi."
+      "t": "Per ogni classe successiva al 2021, tutti i dati SAT e ACT sono trattenuti — medie, intervalli e persino il numero di studenti che hanno sostenuto i test. Il numero di studenti che sostengono i test è rivelatore quanto i punteggi, poiché mostra se una classe sostiene affatto i test; nessuno dei due è disponibile. Si tratta di una decisione di divulgazione legata alle ammissioni test-optional, non di un segnale su come gli studenti ottengono i punteggi."
     },
     {
       "text": "No gap-year policy or counselling is published, and no quintile table, decile table or mean GPA.",
@@ -10551,6 +10640,14 @@
         "davidson-day:wholeClass.flags[1].text"
       ],
       "t": "Non è pubblicata alcuna politica o consulenza sull'anno sabbatico, né alcuna tabella per quintili, tabella per decili o GPA media."
+    },
+    {
+      "text": "Latest-scores check, 2026-11-07: the 2022–23 through 2026–27 profiles all withhold testing. The 2021–22 edition (Issuu slug dds81-college_profile-2022-22_online) was overwritten in place and could not be read, so a Class of 2022 figure, if it was ever printed, is unseen. Record: School Profile 2020-2021.md.",
+      "of": "755e9037",
+      "at": [
+        "davidson-day:wholeClass.flags[2].text"
+      ],
+      "t": "Verifica degli ultimi punteggi, 2026-11-07: i profili dal 2022–23 al 2026–27 trattengono tutti i dati dei test. L’edizione 2021–22 (slug Issuu dds81-college_profile-2022-22_online) è stata sovrascritta e non è stato possibile leggerla, quindi un eventuale dato della Classe del 2022, se mai pubblicato, non è stato visto. Documento: School Profile 2020-2021.md."
     },
     {
       "text": "A small, program-rich school whose strengths are process, access and spike-building — and whose weakness is disclosure.",

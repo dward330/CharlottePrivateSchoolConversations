@@ -400,12 +400,12 @@
       "t": "مجموع SAT"
     },
     {
-      "text": "Each school’s published SAT total for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure; Davidson Day publishes no test scores.",
-      "of": "481ce6b0",
+      "text": "Each school’s published SAT total for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure.",
+      "of": "e64ee1a8",
       "at": [
         "providence-day:[3].note"
       ],
-      "t": "مجموع نمرهٔ SAT منتشرشدهٔ هر مدرسه برای دوره‌ای که زیر آن آمده است: میانه، میانگین و 50% میانی. خط تیره یعنی مدرسه آن رقم را منتشر نمی‌کند؛ Davidson Day هیچ نمرهٔ آزمونی منتشر نمی‌کند."
+      "t": "مجموع نمرهٔ SAT منتشرشدهٔ هر مدرسه برای دوره‌ای که زیر آن آمده است: میانه، میانگین و 50% میانی. خط تیره یعنی مدرسه آن رقم را منتشر نمی‌کند."
     },
     {
       "text": "1288",
@@ -488,6 +488,14 @@
       "t": "1190–1330"
     },
     {
+      "text": "1179",
+      "of": "801db3db",
+      "at": [
+        "providence-day:[3].values.davidson-day"
+      ],
+      "t": "1179"
+    },
+    {
       "text": "(Class of 2026)",
       "of": "93fda8d3",
       "at": [
@@ -536,6 +544,15 @@
       "t": "(دورهٔ 2025)"
     },
     {
+      "text": "(Class of 2021)",
+      "of": "9c0efe8c",
+      "at": [
+        "providence-day:[3].subs.davidson-day",
+        "providence-day:[4].subs.davidson-day"
+      ],
+      "t": "(دورهٔ 2021)"
+    },
+    {
       "text": "The median was printed mid-year from 20 testers; the average is the school’s final figure for the class, from 45 testers.",
       "of": "30c2af42",
       "at": [
@@ -553,6 +570,14 @@
       "t": "در نمای کلی 2026–27 زیر جدول معدل دورهٔ 2027 چاپ شده است؛ مدرسه نه دوره را نام می‌برد و نه شمار آزمون‌دهندگان را."
     },
     {
+      "text": "From the school’s 2020–21 profile, the last to print test scores: only 12 of 53 seniors had taken the SAT, a sample the school attributes to COVID-19. Every later profile withholds scores.",
+      "of": "4d921878",
+      "at": [
+        "providence-day:[3].quals.davidson-day.text"
+      ],
+      "t": "از نمایهٔ 2020–21 مدرسه، آخرین نمایه‌ای که نمرهٔ آزمون را چاپ کرد: تنها 12 نفر از 53 دانش‌آموز سال آخر SAT داده بودند، نمونه‌ای که مدرسه آن را به COVID-19 نسبت می‌دهد. همهٔ نمایه‌های بعدی نمره‌ها را منتشر نمی‌کنند."
+    },
+    {
       "text": "ACT composite",
       "of": "30c12050",
       "at": [
@@ -561,12 +586,12 @@
       "t": "نمرهٔ ترکیبی ACT"
     },
     {
-      "text": "Each school’s published ACT composite for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure; Davidson Day publishes no test scores.",
-      "of": "8a68663d",
+      "text": "Each school’s published ACT composite for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure.",
+      "of": "1ef6f1ff",
       "at": [
         "providence-day:[4].note"
       ],
-      "t": "نمرهٔ ترکیبی ACT منتشرشدهٔ هر مدرسه برای دوره‌ای که زیر آن آمده است: میانه، میانگین و 50% میانی. خط تیره یعنی مدرسه آن رقم را منتشر نمی‌کند؛ Davidson Day هیچ نمرهٔ آزمونی منتشر نمی‌کند."
+      "t": "نمرهٔ ترکیبی ACT منتشرشدهٔ هر مدرسه برای دوره‌ای که زیر آن آمده است: میانه، میانگین و 50% میانی. خط تیره یعنی مدرسه آن رقم را منتشر نمی‌کند."
     },
     {
       "text": "25",
@@ -651,6 +676,23 @@
         "providence-day:[4].values.gaston-day"
       ],
       "t": "22–28"
+    },
+    {
+      "text": "23",
+      "of": "8ef29b12",
+      "at": [
+        "providence-day:[4].values.davidson-day",
+        "providence-day:[33].values.charlotte-christian"
+      ],
+      "t": "23"
+    },
+    {
+      "text": "From the school’s 2020–21 profile, the last to print test scores: 43 of 53 seniors took the ACT. Every later profile withholds scores.",
+      "of": "31f818b1",
+      "at": [
+        "providence-day:[4].quals.davidson-day.text"
+      ],
+      "t": "از نمایهٔ 2020–21 مدرسه، آخرین نمایه‌ای که نمرهٔ آزمون را چاپ کرد: 43 نفر از 53 دانش‌آموز سال آخر در ACT شرکت کردند. همهٔ نمایه‌های بعدی نمره‌ها را منتشر نمی‌کنند."
     },
     {
       "text": "AP scoring 3+",
@@ -5001,14 +5043,6 @@
         "providence-day:[33].values.cannon"
       ],
       "t": "≥20"
-    },
-    {
-      "text": "23",
-      "of": "8ef29b12",
-      "at": [
-        "providence-day:[33].values.charlotte-christian"
-      ],
-      "t": "23"
     },
     {
       "text": "76",

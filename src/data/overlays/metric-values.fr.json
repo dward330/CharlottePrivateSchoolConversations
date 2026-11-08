@@ -351,8 +351,8 @@
       ]
     },
     {
-      "t": "Le score total au SAT publié par chaque établissement pour la promotion indiquée en dessous : la médiane, la moyenne et les 50% centraux. Un tiret signifie que l’établissement ne publie pas ce chiffre ; Davidson Day ne publie aucun résultat aux tests.",
-      "of": "481ce6b0",
+      "t": "Le score total au SAT publié par chaque établissement pour la promotion indiquée en dessous : la médiane, la moyenne et les 50% centraux. Un tiret signifie que l’établissement ne publie pas ce chiffre.",
+      "of": "e64ee1a8",
       "at": [
         "providence-day:[3].note"
       ]
@@ -428,6 +428,13 @@
       ]
     },
     {
+      "t": "1179",
+      "of": "801db3db",
+      "at": [
+        "providence-day:[3].values.davidson-day"
+      ]
+    },
+    {
       "t": "(Promotion 2026)",
       "of": "93fda8d3",
       "at": [
@@ -472,6 +479,14 @@
       ]
     },
     {
+      "t": "(Promotion 2021)",
+      "of": "9c0efe8c",
+      "at": [
+        "providence-day:[3].subs.davidson-day",
+        "providence-day:[4].subs.davidson-day"
+      ]
+    },
+    {
       "t": "La médiane a été publiée en milieu d’année à partir de 20 candidats ; la moyenne est le chiffre définitif de l’établissement pour la promotion, à partir de 45 candidats.",
       "of": "30c2af42",
       "at": [
@@ -487,6 +502,13 @@
       ]
     },
     {
+      "t": "Tiré du profil 2020–21 de l’établissement, le dernier à publier des scores aux tests : seuls 12 des 53 élèves de terminale avaient passé le SAT, un échantillon que l’établissement attribue à la COVID-19. Tous les profils suivants retiennent les scores.",
+      "of": "4d921878",
+      "at": [
+        "providence-day:[3].quals.davidson-day.text"
+      ]
+    },
+    {
       "t": "ACT composite",
       "of": "30c12050",
       "at": [
@@ -494,8 +516,8 @@
       ]
     },
     {
-      "t": "Le score composite à l’ACT publié par chaque établissement pour la promotion indiquée en dessous : la médiane, la moyenne et les 50% centraux. Un tiret signifie que l’établissement ne publie pas ce chiffre ; Davidson Day ne publie aucun résultat aux tests.",
-      "of": "8a68663d",
+      "t": "Le score composite à l’ACT publié par chaque établissement pour la promotion indiquée en dessous : la médiane, la moyenne et les 50% centraux. Un tiret signifie que l’établissement ne publie pas ce chiffre.",
+      "of": "1ef6f1ff",
       "at": [
         "providence-day:[4].note"
       ]
@@ -572,6 +594,21 @@
       "of": "7206aff8",
       "at": [
         "providence-day:[4].values.gaston-day"
+      ]
+    },
+    {
+      "t": "23",
+      "of": "8ef29b12",
+      "at": [
+        "providence-day:[4].values.davidson-day",
+        "providence-day:[33].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Tiré du profil 2020–21 de l’établissement, le dernier à publier des scores aux tests : 43 des 53 élèves de terminale ont passé l’ACT. Tous les profils suivants retiennent les scores.",
+      "of": "31f818b1",
+      "at": [
+        "providence-day:[4].quals.davidson-day.text"
       ]
     },
     {
@@ -4402,13 +4439,6 @@
       "of": "d3066b52",
       "at": [
         "providence-day:[33].values.cannon"
-      ]
-    },
-    {
-      "t": "23",
-      "of": "8ef29b12",
-      "at": [
-        "providence-day:[33].values.charlotte-christian"
       ]
     },
     {
