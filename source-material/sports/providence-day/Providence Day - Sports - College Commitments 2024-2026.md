@@ -174,12 +174,12 @@ contradicts. This is the one judgment call the plan should put to the user.
 
 | | Class of 2024 | Class of 2025 | Class of 2026 | Window |
 |---|---|---|---|---|
-| All levels | 25 | 30 | 31 | **86** |
-| Division I (incl. P4) | 13 | 13 | 13 | **39** |
+| All levels | 26 | 29 | 31 | **86** |
+| Division I (incl. P4) | 14 | 12 | 13 | **39** |
 | Power 4 (school's list) | 6 | 5 | 6 | **17** |
 | Power 4 (Makemson at App State) | 5 | 5 | 6 | **16** |
 
-After correction 3 the per-class D1 split is 13 / 13 / 13 (it read 12 / 14 / 13 on the card).
+After correction 3 the per-class D1 split is 14 / 12 / 13 and the class sizes 26 / 29 / 31 (the card read 13 / 13 / 13 and 25 / 30 / 31 with Bharadwaj in '25). Corrected 2026-11-08 at `/implement`: the first draft of this table carried the pre-move split.
 
 **App metric values:** `d1-commits-2426` = **39** (unchanged) · `p4-commits-2426` = **17** on the
 school's list, **16** recommended · `seniors-committed` = **10** (unchanged; see the Class of

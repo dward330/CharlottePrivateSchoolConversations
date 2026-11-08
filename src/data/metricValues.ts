@@ -2303,7 +2303,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '5', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson), Arnold (Duke, walk-on), Perry (NC State)
       'hickory-grove-christian': '0', // no Power 4 commit 2024–26; all D1 commits are mid-major baseball
       'gaston-day': null, // no published signing list — local press, athletics news and recruiting DBs all checked; confirmed absence, not a gap
-      'providence-day': '17', // school "Alumni at the Next Level" roster, 2024–26 (17 P4 tally)
+      'providence-day': '16', // 2024–26, every row verified on the college’s page 2026-11-08: ’24 Barnhardt, Shipp, Goodwin, Davis, Poole · ’25 Sanders, Skanes, Winston, G.Bartee, Neace · ’26 Sellars, Lott, Delaney, Baggett, Goldean, Z.G.Bartee (Makemson: Tennessee verbal, enrolled App State — counted D1)
     },
     quals: {
       'charlotte-catholic': {
@@ -2349,7 +2349,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '11', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 under-documented — floor; 2026 complete per the school’s Athletics Recap)
       'hickory-grove-christian': '3', // all baseball: Cabbage (UNCW ’25), Green (UNC Asheville ’25), Johnson (ETSU) — mid-major
       'gaston-day': null, // no published signing list — see p4-commits-2426; the athletics site is JS-rendered and publishes no commit news
-      'providence-day': '39', // school roster D1 tally, 2024–26
+      'providence-day': '39', // 14 / 12 / 13 by class (’24 / ’25 / ’26), each confirmed on the college’s roster 2026-11-08 (see College Commitments 2024-2026.md)
     },
     quals: {
       'charlotte-catholic': {
@@ -2396,7 +2396,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Class of 2027 athletes with a public college-athletics commitment at any level, verbal until signed. Documented minimum as of the most recent sweep; the class joins the Power 4 and Division I rows when the window rolls after graduation.',
     values: {
       cannon: '6', // Busby (Princeton), Drayton (Coastal Carolina), Sales (Ohio), K.Davis (Furman), Cooler (Villanova), Higbea (Brown) — all verbal, 2026-11-08
-      'providence-day': '10', // Geathers (Florida), Galloway (Kentucky), Drummond (Nebraska), Cooper (Penn State), Poku-Kankam (Rutgers), Fletcher (Wake Forest), Boland (UNC swim), Dempsey (Charlotte), Hodson (Delaware), Abanquah (Elon); Howard (Dartmouth) and Hamid (Davidson) single-source leads
+      'providence-day': '10', // Geathers (Florida), Galloway (Kentucky), Drummond (Nebraska), Cooper (Penn State), Poku-Kankam (Rutgers), Fletcher (Wake Forest), Boland (UNC swim), Dempsey (Charlotte), Hodson (Delaware), Abanquah (Elon); Howard (Dartmouth) and Hamid (Davidson) single-source leads · Thompson (CNU, LaxNumbers-only lead)
       'charlotte-catholic': '5', // Hedley (UNC lacrosse), Hucko (Auburn), McKain (Clemson), Hertzig (Yale), Drensek (Bucknell); Flynn, W.Johnson, Druhan, Leckner single-source leads
       'charlotte-christian': '1', // Parrish (NC State baseball); Struble, Covey Team 91-only leads
       'charlotte-latin': '1', // Greathouse (George Washington swim)
