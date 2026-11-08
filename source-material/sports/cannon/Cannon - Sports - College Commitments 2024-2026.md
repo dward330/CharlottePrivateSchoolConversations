@@ -1,7 +1,10 @@
 # Cannon School — Sports — College Commitments (2024–2026)
 
 > **Provenance:** First compiled by Claude Code on 2026-07-04 from a regional signing-day
-> roundup; **rebuilt 2026-11-08** from a roster cross-reference (every varsity roster on
+> roundup; **rebuilt 2026-11-08** from a roster cross-reference of six target sports, and
+> **extended the same day to every varsity sport** (plan `cannoncommits2`: lacrosse, girls
+> basketball 2024, tennis, soccer, cross country, golf, wrestling swept; the HighSchoolOT
+> per-sport recruiting trackers and LaxNumbers added as sources) — (every varsity roster on
 > the school's own athletics site and on MaxPreps for 2023-24 through 2026-27, each senior
 > checked against college rosters, 247Sports/On3, RealGM, SwimSwam, PrepVolleyball,
 > Prep Girls Hoops and the NC Football News commitment trackers — method and nulls in
@@ -92,19 +95,84 @@
 - `Cannon - Sports - D1 Matriculation.pdf` and `Cannon - Sports - Power 4 Offers.pdf`
   (research dossiers, gitignored).
 
-## Class of 2024 (4) — Division I 2, of which Power 4 2
+- HighSchoolOT recruiting trackers (statewide, reader-submitted, one per sport; hub
+  https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/ ):
+  boys lacrosse https://www.highschoolot.com/story/north-carolina-high-school-boys-lacrosse-recruiting-tracker/21296821/
+  (Class of 2024 D1: Falasca – St. John's, Frood – Brown, Maynor – Delaware, W. Swartz – High
+  Point, B. Wilson – UNC; 2025 D3: J.T. Murphy – Skidmore) · girls basketball
+  https://www.highschoolot.com/story/north-carolina-high-school-girls-basketball-recruiting-tracker/21206037/
+  (2024 D1: "Kierra Morow" – Elon; 2025 D1: McCorkle – ETSU) · volleyball
+  https://www.highschoolot.com/story/north-carolina-high-school-volleyball-recruiting-tracker/21031942/
+  (2025: Nix – Butler D1, Arianna Lopez – Tampa D2, Wittgraefe – William Smith D3) · boys
+  tennis https://www.highschoolot.com/story/north-carolina-high-school-boys-tennis-recruiting-tracker/21296816/
+  (2024 D1: Szilagyi – College of Charleston, unconfirmed) · girls lacrosse
+  https://www.highschoolot.com/story/north-carolina-high-school-girls-lacrosse-recruiting-tracker/21296823/
+  (2026 D1: Barnhardt – East Carolina, unconfirmed) · boys basketball
+  https://www.highschoolot.com/story/north-carolina-high-school-boys-basketball-recruiting-tracker/21206000/
+  (2024 D1: Swartz – Miami). Baseball, softball, soccer (both), swimming (both), girls tennis,
+  golf (both) and wrestling trackers: no Cannon entry.
+- LaxNumbers — Cannon School boys recruits by season (Cloudflare-blocked to curl; read in
+  Chrome): https://www.laxnumbers.com/team_info.php?y=2024&t=12767&s=2 (2024: B. Wilson –
+  North Carolina, Frood – Brown, Maynor – Delaware, W. Swartz – High Point, Falasca – St
+  Johns (NY), Gibbons – MIT, Cassidy – DePauw; 2025: J.T. Murphy – Skidmore),
+  `y=2026` (2026: Quinn Frood – Dartmouth; 2027 verbals: Higbea – Brown, T. Underwood –
+  Hampton, Bracksieck – Denison).
+- Charlotte Observer via Yahoo, 2024-06-14 — All-Observer lacrosse teams (B. Wilson player of
+  the year, "will play next season at North Carolina"; Frood "has committed to Brown";
+  Falasca "St. John's-bound"; W. Swartz "High Point commit"):
+  https://ca.sports.yahoo.com/news/meet-observer-lacrosse-teams-best-100000191.html
+- UNC men's lacrosse — Brevin Wilson (Concord, N.C.; Cannon School; Inside Lacrosse
+  four-star, class of 2024): https://goheels.com/sports/mens-lacrosse/roster/brevin-wilson/27452
+- Brown men's lacrosse — Cole Frood (Davidson, N.C. / Cannon School; Class of 2028
+  announcement 2024-10-31): https://brownbears.com/sports/mens-lacrosse/roster/cole-frood/23961
+  · https://brownbears.com/news/2024/10/31/mens-lacrosse-announces-class-of-2028
+- Delaware men's lacrosse — Ben Maynor (Cannon School; "started and lettered all four
+  years"): https://bluehens.com/sports/mens-lacrosse/roster/ben-maynor/30488 ·
+  https://bluehens.com/news/2024/10/30/mens-lacrosse-mens-lacrosse-welcomes-2025-newcomers
+- High Point men's lacrosse — Will Swartz (Concord, N.C. / Cannon School):
+  https://highpointpanthers.com/sports/mens-lacrosse/roster/will-swartz/11872
+- St. John's men's lacrosse — Quinn Falasca (Cornelius, N.C. / Cannon School):
+  https://redstormsports.com/sports/mens-lacrosse/roster/quinn-falasca/5856
+- MIT men's lacrosse — Liam Gibbons (Concord, N.C. / Cannon School; "three-time state
+  champion"): https://mitathletics.com/sports/mens-lacrosse/roster/liam-gibbons/14277
+- DePauw men's lacrosse — Carter Cassidy (Davidson, N.C. / Cannon School; "two-time State
+  Champion (2023, 2024)"): https://depauwtigers.com/sports/mens-lacrosse/roster
+- Skidmore men's lacrosse — JT Murphy (Concord, NC / Cannon):
+  https://skidmoreathletics.com/sports/mens-lacrosse/roster
+- Elon women's basketball 2026-27 — Kierra Morrow (Jr., F, 6'3", Johnson City, TN; Cannon
+  School; bio: 2024 state champion at Cannon, 2023-24 McDonald's All-American nominee):
+  https://www.elonphoenix.com/sports/womens-basketball/roster
+- William Smith volleyball 2025 and 2026 rosters — Lily Wittgraefe (OH, Mooresville, N.C.;
+  Cannon School): https://hwsathletics.com/sports/womens-volleyball/roster/2025 ·
+  https://hwsathletics.com/sports/womens-volleyball/roster
+- Dartmouth men's lacrosse 2027 roster — Quinn Frood (FO, Fy., Greenwich, Conn.; **Last
+  School: Greenwich Country Day School**): https://dartmouthsports.com/sports/mens-lacrosse/roster
+- East Carolina lacrosse 2027 roster — no Barnhardt, no North Carolina high school:
+  https://ecupirates.com/sports/womens-lacrosse/roster/2027
+- College of Charleston men's tennis 2025-26 and current rosters — no Szilagyi:
+  https://cofcsports.com/sports/mens-tennis/roster/2025-26
+
+## Class of 2024 (12) — Division I 8, of which Power 4 3
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|
 | Austin Swartz | Boys Basketball | Miami | ACC | **P4** | ESPN (Signed Miami 09/05/2023); HighSchoolOT; 247Sports; MaxPreps 2023-24 roster (Sr.). Transferred to Creighton, April 2025 |
 | Hayes Galloway | Football | North Carolina | ACC | **P4** | UNC roster bio (early enrollee Jan. 2024; five years at Cannon); Clemson bio. Moved to Clemson as a preferred walk-on for 2025 |
+| **Brevin Wilson** | Boys Lacrosse | North Carolina | ACC | **P4** | UNC 2026 roster (Concord, N.C.; Cannon School); Observer 2024-06-14 player of the year; LaxNumbers (spelled "Brevan"); HighSchoolOT; MaxPreps 2023-24 (Sr.). **New 2026-11-08 (pass 2)** |
+| **Cole Frood** | Boys Lacrosse | Brown | Ivy | D1 | Brown roster + Class of 2028 release (Cannon School); Observer 2024-06-14; LaxNumbers; HSOT; MaxPreps 2023-24 (Sr.). **New (pass 2)** |
+| **Ben Maynor** | Boys Lacrosse | Delaware | CAA | D1 | Delaware roster + 2024-10-30 newcomers release (four-year letterman at Cannon); LaxNumbers; HSOT; MaxPreps 2023-24 (Sr.). **New (pass 2)** |
+| **Will Swartz** | Boys Lacrosse | High Point | Big South | D1 | High Point roster (Concord, N.C. / Cannon School); Observer 2024-06-14; LaxNumbers ("William"); HSOT; MaxPreps 2023-24 (Sr.). **New (pass 2)** |
+| **Quinn Falasca** | Boys Lacrosse | St. John's | Big East | D1 | St. John's roster (Cornelius, N.C. / Cannon School); Observer 2024-06-14 ("Cannon School, senior … St. John's-bound"); LaxNumbers; HSOT. Not on the MaxPreps roster. **New (pass 2)** |
+| **Kierra Morrow** | Girls Basketball | Elon | CAA | D1 | Elon 2026-27 roster (Jr.; Cannon School; 2024 state champion at Cannon); HSOT girls tracker (as "Morow", Class of 2024). Not on the MaxPreps rosters pulled. **New (pass 2)** |
 | Max Murash | Boys Basketball | Hamilton | NESCAC | D3 | Hamilton roster (Cannon School; first year 2024-25); MaxPreps 2023-24 (Sr.) |
 | Tyler Martin | Boys Basketball | Denison | NCAC | D3 | Denison roster (Davidson, N.C. / Cannon School); MaxPreps 2023-24 (Sr.) |
+| **Liam Gibbons** | Boys Lacrosse | MIT | NEWMAC | D3 | MIT roster (Concord, N.C. / Cannon School; three-time state champion → 2022–24 → class of 2024); LaxNumbers. Not on the MaxPreps roster. **New (pass 2)** |
+| **Carter Cassidy** | Boys Lacrosse | DePauw | NCAC | D3 | DePauw roster (Davidson, N.C. / Cannon School; state champion 2023, 2024); LaxNumbers; MaxPreps 2023-24 (Sr.). **New (pass 2)** |
 
 Rank data for the card: Swartz `rank247 { national: 66, state: 6 }` (247Sports page, read
 2026-11-08 — **re-read the live page before typing; HighSchoolOT quoted No. 44 in Sept. 2023
 and the final Composite may differ**). Galloway: 247 shows N/A → no `rank247`.
 
-## Class of 2025 (8) — Division I 4, of which Power 4 1
+## Class of 2025 (9) — Division I 4, of which Power 4 1
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|
 | John Kroll | Swimming | Notre Dame | ACC | **P4** | signing-day roundup (2026-07-04 pass) |
@@ -113,14 +181,21 @@ and the final Composite may differ**). Galloway: 247 shows N/A → no `rank247`.
 | **Jake Baker** | Boys Basketball | East Carolina | American | D1 | ECU 2025-26 roster (HS: Cannon); MaxPreps 2024-25 roster (Sr., PG). **New 2026-11-08.** Transferred to Western Carolina for 2026-27 |
 | Khloe Thompson | Girls Basketball | Winston-Salem State | CIAA | D2 | signing-day roundup |
 | Ari Lopez | **Volleyball** | Tampa | SSC | D2 | PrepVolleyball (Arianna Lopez, setter, 2025 → Tampa); Tampa 2025 preview names freshman Ari Lopez. **Sport filled 2026-11-08** (was "Not published") |
-| Lily Wittgraefe | Not published | Hobart & William Smith | Liberty | D3 | signing-day roundup. Sport still not found on any HWS roster page reachable 2026-11-08 — stays "Not published" |
+| Lily Wittgraefe | **Volleyball** | Hobart & William Smith | Liberty | D3 | signing-day roundup; HSOT volleyball tracker (D3, "William Smith"); William Smith volleyball 2025 roster (FY, OH, Mooresville, N.C.; Cannon School) and 2026 roster (SO). **Sport filled 2026-11-08 (pass 2)** (was "Not published") |
 | **Evan Ingram** | Boys Basketball | Davidson-Davie CC | NJCAA | D3 tier | Region 10 2025-26 stats page (28 GP); RealGM; MaxPreps 2024-25 (Sr.). **New 2026-11-08.** Listed at the D3 tier for want of an NJCAA level (Covenant Day precedent, `covenant-day.ts` rosterNote) |
+| **JT Murphy** | Boys Lacrosse | Skidmore | Liberty | D3 | Skidmore roster (Concord, NC / Cannon); HSOT boys lacrosse tracker (Class of 2025, D3); LaxNumbers; SportsRecruits (committed 6/28/2024); MaxPreps 2023-24 as "Joseph (JT) Murphy, Jr." **New (pass 2)** |
 
 ## Class of 2026 (2) — Division I 0
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|
 | **Michael Trojan** | Football | Hampden-Sydney | ODAC | D3 | Hampden-Sydney 2026 roster (Cannon School); NC Football News 2026 tracker; MaxPreps 2025-26 (Sr., FS/QB; also baseball) |
 | **Brady Ravin** | Football | Washington & Lee | ODAC | D3 | Washington & Lee 2026 roster (Concord, N.C. / Cannon School); NC Football News 2026 tracker; MaxPreps 2025-26 (Sr.) |
+
+London Barnhardt (girls lacrosse, Sr. on the 2025-26 roster) is listed as an East Carolina
+commit on HSOT's girls tracker and on her SportsRecruits profile (10/8/2024), but she is **not on
+ECU's 2027 lacrosse roster** and no ECU release names her — kept as an unverified lead, not a
+row (see *Excluded*). Pass 2 also searched the 2026 seniors in boys lacrosse (5), girls lacrosse
+(9), girls soccer (7), tennis (4 boys, 7 girls) and cross country (3): **none**.
 
 Every other Class of 2026 senior in the six target sports (football 22 others, boys
 basketball 3 — Brezeault, Sheir, Steinour — plus Dixon and King per RealGM, girls basketball
@@ -130,12 +205,13 @@ soccer and girls lacrosse rosters could not be retrieved (MaxPreps 404; the scho
 page is cleared; no Wayback snapshot) — an *unchecked* gap, not a null.
 
 ## Totals for the 2024–26 window → App metric values
-**Committed (all levels) = 14 · Division I = 6 · Power 4 = 3**
-(previously 6 / 3 / 1). D1 roll-up: ’24 Swartz, Galloway · ’25 Kroll, McCorkle, Nix, Baker.
-P4: Swartz (Miami), Galloway (North Carolina), Kroll (Notre Dame).
+**Committed (all levels) = 23 · Division I = 12 · Power 4 = 4**
+(first pass 14 / 6 / 3; before that 6 / 3 / 1). D1 roll-up: ’24 A. Swartz, Galloway, B. Wilson,
+Frood, Maynor, W. Swartz, Falasca, Morrow · ’25 Kroll, McCorkle, Nix, Baker. P4: A. Swartz
+(Miami), Galloway (North Carolina), B. Wilson (North Carolina), Kroll (Notre Dame).
 
-By sport (2024–26): Boys Basketball 5 (1 P4) · Football 3 (1 P4) · Girls Basketball 2 ·
-Volleyball 2 · Swimming 1 (1 P4) · sport not published 1 (Wittgraefe).
+By sport (2024–26): Boys Lacrosse 8 (1 P4) · Boys Basketball 5 (1 P4) · Girls Basketball 3 ·
+Football 3 (1 P4) · Volleyball 3 · Swimming 1 (1 P4). No row is "Not published" any more.
 
 ## Class of 2027 — public verbal commitments (NOT counted; appendix)
 Listed on the card because they are already announced (the Brooke Busby precedent), never
@@ -166,3 +242,20 @@ athletes opens 2026-11-11 (football: December 2026).
 - **Sean Nix** ('27): transferred to Gillion Academy (VA) for 2026-27 (Prep Hoops). No longer
   a Cannon athlete; the prior note that he "is Class of 2027" is superseded.
 - Caden Elnaggar, Stephen Equan ('24), Danny Saltzman ('25): no college on RealGM or elsewhere.
+- **Quinn Frood** ('26) → Dartmouth (Ivy, D1): LaxNumbers, Team 91 and SportsRecruits all file him
+  under Cannon School, and he is on Cannon's 2023-24 lacrosse and 2025-26 football rosters —
+  but Dartmouth's 2027 roster lists his **last school as Greenwich Country Day School
+  (Greenwich, Conn.)**, and he is absent from Cannon's spring 2026 lacrosse roster. Fails the
+  graduate test. Recorded, not counted (pass 2).
+- **London Barnhardt** ('26, girls lacrosse) → East Carolina: two reader-submitted sources, no
+  college confirmation; absent from ECU's 2027 roster. Unverified lead (pass 2).
+- **Isaac Szilagyi** ('24, boys tennis) → College of Charleston: HSOT boys tennis tracker
+  (Class of 2024, D1) and MaxPreps 2023-24 Cannon No. 1 singles (Sr., 18-1), but not on the
+  College of Charleston 2025-26 or 2026-27 roster; TennisRecruiting shows "interest" only.
+  Unverified lead (pass 2).
+- **Hudson Higbea, Thomas (Tommy) Underwood, Kircher Bracksieck** ('27, boys lacrosse) →
+  Brown, Hampton, Denison per LaxNumbers only (all three are juniors on the 2025-26 roster).
+  No second source → leads for a later pass, not verbal rows (pass 2).
+- Mary Catherine Farley (Wofford) and Elle Collier (Rollins) in the 2024 All-Observer lacrosse
+  article are Charlotte Catholic and Charlotte Latin players, not Cannon's; Addison Maynor
+  ('27) appears there as a freshman with no commitment.

@@ -84,7 +84,11 @@ Brooke Busby ('27) — Princeton commit. https://prepgirlshoops.com/player/brook
 > Swartz (Miami, P4), Hayes Galloway (North Carolina, P4), Max Murash, Tyler Martin, Jake
 > Baker (East Carolina), Evan Ingram, Michael Trojan and Brady Ravin — filled Ari Lopez's
 > sport (volleyball) and recorded four Class of 2027 verbals (Drayton, Sales, K. Davis,
-> Cooler). The window now reads **14 / 6 D1 / 3 P4**. The current record is
+> Cooler). A second pass the same day over every other varsity sport (plan `cannoncommits2`)
+> found nine more — Brevin Wilson (North Carolina, P4), Cole Frood (Brown), Ben Maynor
+> (Delaware), Will Swartz (High Point), Quinn Falasca (St. John's), Kierra Morrow (Elon), Liam
+> Gibbons, Carter Cassidy, JT Murphy — and Lily Wittgraefe's sport (volleyball). The window now
+> reads **23 / 12 D1 / 4 P4**. The current record is
 > `Cannon - Sports - College Commitments 2024-2026.md`; the method and nulls are in
 > `Cannon - Sports - Varsity Roster Cross-Reference 2026.md`. Sean Nix has left Cannon.
 

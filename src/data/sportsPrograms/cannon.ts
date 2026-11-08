@@ -218,38 +218,39 @@ export const cannon: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      'Fourteen documented college commitments across 2024–26, six of them Division I and three Power 4 — still a floor, because Cannon publishes no consolidated signing list.',
+      'Twenty-three documented college commitments across 2024–26, twelve of them Division I and four Power 4 — still a floor, because Cannon publishes no consolidated signing list.',
     subhead:
-      'Basketball leads the way: a Miami signee in 2024, Division III placements at Hamilton and Denison, and East Carolina in 2025 alongside Notre Dame swimming. Five current seniors already hold public Division I commitments — Princeton, Coastal Carolina, Ohio, Furman and Villanova.',
+      'Lacrosse leads the way: the three-time state champion Class of 2024 sent seven players on to college programs, five of them Division I, including North Carolina, Brown and St. John’s. Basketball follows with a Miami signee and East Carolina and Elon commits, and five current seniors already hold public Division I commitments — Princeton, Coastal Carolina, Ohio, Furman and Villanova.',
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '14',
+        count: '23',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '6', width: 0.43, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '12', width: 0.52, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '3',
-        width: 0.21,
+        count: '4',
+        width: 0.17,
         shade: 'full',
       },
     ],
     funnelNote:
       'Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. Collegiate athlete is the standard here, not scholarship athlete: Hayes Galloway joined North Carolina as an early enrollee and later Clemson as a preferred walk-on, and Division III programs award no athletic scholarships.',
     sportBars: [
-      { sport: 'Boys Basketball', count: 5, width: 1, p4Width: 0.2 },
-      { sport: 'Football', count: 3, width: 0.6, p4Width: 0.2 },
-      { sport: 'Girls Basketball', count: 2, width: 0.4 },
-      { sport: 'Volleyball', count: 2, width: 0.4 },
-      { sport: 'Swimming', count: 1, width: 0.2, p4Width: 0.2 },
+      { sport: 'Boys Lacrosse', count: 8, width: 1, p4Width: 0.13 },
+      { sport: 'Boys Basketball', count: 5, width: 0.63, p4Width: 0.13 },
+      { sport: 'Girls Basketball', count: 3, width: 0.38 },
+      { sport: 'Football', count: 3, width: 0.38, p4Width: 0.13 },
+      { sport: 'Volleyball', count: 3, width: 0.38 },
+      { sport: 'Swimming', count: 1, width: 0.13, p4Width: 0.13 },
     ],
     realityCheck:
-      'The by-sport split is still too thin to read as a pattern, but the Power 4 commits are now three and none of them is the obvious one: a swimmer to Notre Dame, an offensive lineman to North Carolina and a single basketball player to Miami, while the flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
+      'Lacrosse, not basketball, is Cannon’s deepest pipeline: eight of the twenty-three commitments and five of the twelve Division I places come from one sport, most of them from a single three-peat championship class. The four Power 4 commits are a swimmer to Notre Dame, an offensive lineman and a lacrosse attackman to North Carolina, and one basketball player to Miami — while the flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
     rankedRecruits:
       'Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6\'3" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class, a four-star with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier: Jaden Bradley was a five-star, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.',
     roster: [
@@ -263,8 +264,9 @@ export const cannon: SportsProgram = {
       { cls: "'25", name: 'Jake Baker', sport: 'Boys Basketball', college: 'East Carolina', conf: 'American', level: 'D1' },
       { cls: "'25", name: 'Khloe Thompson', sport: 'Girls Basketball', college: 'Winston-Salem State', conf: 'CIAA', level: 'D2' },
       { cls: "'25", name: 'Ari Lopez', sport: 'Volleyball', college: 'Tampa', conf: 'SSC', level: 'D2' },
-      { cls: "'25", name: 'Lily Wittgraefe', sport: 'Not published', college: 'Hobart & William Smith', conf: 'Liberty', level: 'D3' },
+      { cls: "'25", name: 'Lily Wittgraefe', sport: 'Volleyball', college: 'Hobart & William Smith', conf: 'Liberty', level: 'D3' },
       { cls: "'25", name: 'Evan Ingram', sport: 'Boys Basketball', college: 'Davidson-Davie CC', conf: 'NJCAA', level: 'D3' },
+      { cls: "'25", name: 'JT Murphy', sport: 'Boys Lacrosse', college: 'Skidmore', conf: 'Liberty', level: 'D3' },
       // Class of 2024
       {
         cls: "'24",
@@ -276,8 +278,16 @@ export const cannon: SportsProgram = {
         rank247: { national: 66, state: 6, url: 'https://247sports.com/player/austin-swartz-46133263/' },
       },
       { cls: "'24", name: 'Hayes Galloway', sport: 'Football', college: 'North Carolina', conf: 'ACC', level: 'P4' },
+      { cls: "'24", name: 'Brevin Wilson', sport: 'Boys Lacrosse', college: 'North Carolina', conf: 'ACC', level: 'P4' },
+      { cls: "'24", name: 'Cole Frood', sport: 'Boys Lacrosse', college: 'Brown', conf: 'Ivy', level: 'D1' },
+      { cls: "'24", name: 'Ben Maynor', sport: 'Boys Lacrosse', college: 'Delaware', conf: 'CAA', level: 'D1' },
+      { cls: "'24", name: 'Will Swartz', sport: 'Boys Lacrosse', college: 'High Point', conf: 'Big South', level: 'D1' },
+      { cls: "'24", name: 'Quinn Falasca', sport: 'Boys Lacrosse', college: 'St. John’s', conf: 'Big East', level: 'D1' },
+      { cls: "'24", name: 'Kierra Morrow', sport: 'Girls Basketball', college: 'Elon', conf: 'CAA', level: 'D1' },
       { cls: "'24", name: 'Max Murash', sport: 'Boys Basketball', college: 'Hamilton', conf: 'NESCAC', level: 'D3' },
       { cls: "'24", name: 'Tyler Martin', sport: 'Boys Basketball', college: 'Denison', conf: 'NCAC', level: 'D3' },
+      { cls: "'24", name: 'Liam Gibbons', sport: 'Boys Lacrosse', college: 'MIT', conf: 'NEWMAC', level: 'D3' },
+      { cls: "'24", name: 'Carter Cassidy', sport: 'Boys Lacrosse', college: 'DePauw', conf: 'NCAC', level: 'D3' },
       // Class of 2027 — public verbal commitments, not yet signed; not in the funnel or Compare
       { cls: "'27", name: 'Brooke Busby', sport: 'Girls Basketball', college: 'Princeton', conf: 'Ivy', level: 'D1' },
       { cls: "'27", name: 'Madison Drayton', sport: 'Girls Basketball', college: 'Coastal Carolina', conf: 'Sun Belt', level: 'D1' },
@@ -294,7 +304,7 @@ export const cannon: SportsProgram = {
       { cls: "'27", name: 'Tripp Cooler', sport: 'Swimming', college: 'Villanova', conf: 'Big East', level: 'D1' },
     ],
     rosterNote:
-      'The Class of 2027 rows are public verbal commitments and are listed because they are already announced; they are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale, and Lily Wittgraefe’s sport is not published, so her row is marked as such and left off the sport bars rather than guessed. Three athletes have since moved — Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson as a preferred walk-on, and Jake Baker from East Carolina to Western Carolina — and the roster shows the college each committed to out of Cannon.',
+      'The Class of 2027 rows are public verbal commitments and are listed because they are already announced; they are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale. Three athletes have since moved — Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson as a preferred walk-on, and Jake Baker from East Carolina to Western Carolina — and the roster shows the college each committed to out of Cannon.',
     sources: [
       {
         label: 'Charlotte-area signing day roundup',
@@ -344,6 +354,19 @@ export const cannon: SportsProgram = {
         url: 'https://sports.yahoo.com/articles/everything-know-charlotte-area-girls-100000255.html',
       },
       { label: 'Prep Girls Hoops — Madison Drayton', url: 'https://prepgirlshoops.com/player/madison-drayton/' },
+      { label: 'HighSchoolOT — North Carolina boys lacrosse recruiting tracker', url: 'https://www.highschoolot.com/story/north-carolina-high-school-boys-lacrosse-recruiting-tracker/21296821/' },
+      { label: 'LaxNumbers — Cannon School boys lacrosse recruits, 2024', url: 'https://www.laxnumbers.com/team_info.php?y=2024&t=12767&s=2' },
+      { label: 'Charlotte Observer via Yahoo — 2024 All-Observer lacrosse teams', url: 'https://ca.sports.yahoo.com/news/meet-observer-lacrosse-teams-best-100000191.html' },
+      { label: 'North Carolina — Brevin Wilson, men’s lacrosse roster', url: 'https://goheels.com/sports/mens-lacrosse/roster/brevin-wilson/27452' },
+      { label: 'Brown — Cole Frood, men’s lacrosse roster', url: 'https://brownbears.com/sports/mens-lacrosse/roster/cole-frood/23961' },
+      { label: 'Delaware — Ben Maynor, men’s lacrosse roster', url: 'https://bluehens.com/sports/mens-lacrosse/roster/ben-maynor/30488' },
+      { label: 'High Point — Will Swartz, men’s lacrosse roster', url: 'https://highpointpanthers.com/sports/mens-lacrosse/roster/will-swartz/11872' },
+      { label: 'St. John’s — Quinn Falasca, men’s lacrosse roster', url: 'https://redstormsports.com/sports/mens-lacrosse/roster/quinn-falasca/5856' },
+      { label: 'Elon — 2026–27 women’s basketball roster (Kierra Morrow)', url: 'https://www.elonphoenix.com/sports/womens-basketball/roster' },
+      { label: 'MIT — Liam Gibbons, men’s lacrosse roster', url: 'https://mitathletics.com/sports/mens-lacrosse/roster/liam-gibbons/14277' },
+      { label: 'DePauw — men’s lacrosse roster (Carter Cassidy)', url: 'https://depauwtigers.com/sports/mens-lacrosse/roster' },
+      { label: 'Skidmore — men’s lacrosse roster (JT Murphy)', url: 'https://skidmoreathletics.com/sports/mens-lacrosse/roster' },
+      { label: 'William Smith — 2025 volleyball roster (Lily Wittgraefe)', url: 'https://hwsathletics.com/sports/womens-volleyball/roster/2025' },
     ],
   },
 
