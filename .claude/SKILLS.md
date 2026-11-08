@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**12 active** · 0 retired · Last updated **2026-11-07**
+**13 active** · 0 retired · Last updated **2026-11-08**
 
 ---
 
@@ -29,6 +29,7 @@
 | 🎧 | [`learning-support-episode`](#learning-support-episode) | One school's Learning Support → podcast | ❌ Generates files | Single |
 | 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
 | 📣 | [`cup-episode`](#cup-episode) | One Cup division → podcast | ❌ Generates files | Single |
+| 🎯 | [`athlete-commits`](#athlete-commits) | Varsity rosters → college rosters → missing commits → pipeline plan | ❌ Never | — |
 
 ### The main road
 
@@ -41,11 +42,12 @@
                                                         single time
 ```
 
-Five skills feed research **into** that road at any point:
+Six skills feed research **into** that road at any point:
 `nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
 ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
 in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's Cup card,
-ending the same way) and `ingest-source-material` (everything else).
+ending the same way), `athlete-commits` (a roster school's College Pipeline refresh, ending
+the same way) and `ingest-source-material` (everything else).
 Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode` and
 `cup-episode`.
 
@@ -533,6 +535,62 @@ in `reports/wells-fargo-cup/` (gitignored), then judges the takes the user bring
 **Deliberately cannot:** edit app code, the Cup ledger or any card; speak a student's name;
 build on a ledger the association disagrees with; or deploy. Adding the published episode to
 `podcastEpisodes.ts` is a separate PR.
+
+---
+
+<a id="athlete-commits"></a>
+
+## 🎯 `athlete-commits`
+
+**Refresh one roster school's College Pipeline card and its two Compare commit rows by
+cross-referencing its varsity rosters against college rosters and recruiting services, then
+hand the verified record to `/plan`.**
+
+`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08
+
+The repeatable version of plan `cannoncommits`. A shallow web search had given Cannon six
+commitments across 2024–26; reading every varsity roster (the school's site plus MaxPreps,
+2023-24 → 2026-27) and following each senior to a college roster found **fourteen**, among
+them two Power 4 signees the card never had (Austin Swartz – Miami, Hayes Galloway – North
+Carolina). The card is data-driven, so a refresh is data only: `pipeline` in the school's
+`sportsPrograms` module, `p4-commits-2426` / `d1-commits-2426` in `metricValues.ts`.
+
+**Use it when** a school's pipeline card may be stale: `/athlete-commits`, "find new college
+commits for <school>", "cross-reference <school>'s rosters", "are there athletes we're
+missing for <school>".
+
+| Step | What it does |
+|---|---|
+| **0** | Tells the developer to **turn on Claude in Chrome** and loads the browser tools in one call. |
+| **1** | Asks which school; **refuses a school not in `schools.json`**, stops on a K-8 school, flags a school with no `pipeline` card as a UX-gate case. Reads what the card holds today. |
+| **2** | Pulls the rosters: the school's own team pages (current classes) and MaxPreps for the last three seasons plus the current one (graduating classes), six target sports plus any sport holding a P4 commit. |
+| **3** | Cross-references every senior — RealGM in Chrome for basketball, the NC Football News trackers for football, PrepVolleyball, SwimSwam, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. |
+| **4** | Classifies with the existing level / conference / sport vocabulary (JUCO at the D3 tier with `NJCAA`, Covenant Day precedent); `rank247` only where 247 publishes a Composite rank. |
+| **5** | Reports new, changed, verbal and ruled-out athletes, the funnel and Compare deltas, and the nulls separately from the unchecked gaps. |
+| **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, notes the dossier, and invokes `/plan` as `<slug>commits`. |
+
+> **🔑 Claude in Chrome is required, not optional.** RealGM's school page — the one source
+> that lists every basketball graduate with their college — returns 403 to curl and WebFetch.
+> On Cannon it surfaced five of the eight missing athletes. A pass without it reports
+> basketball as "nothing found". On3's domain is blocked in the extension too; do not try.
+
+> **🔒 Only schools in the web app.** Not in `schools.json` → run `/add-school` first. A K-8
+> school has no pipeline card and no Compare rows.
+
+> **⚠️ The graduate test.** Two Cannon leads played elsewhere as seniors (Overtime Elite; a
+> transfer after junior year) and would have inflated the count. The college's roster page
+> prints "Hometown / High School" — that is the evidence.
+
+> **⚠️ A current team is not a commitment.** Three Cannon athletes transferred within a year
+> (Miami → Creighton, East Carolina → Western Carolina, North Carolina → Clemson). The card
+> shows the college committed to out of the school; the move is one `rosterNote` sentence.
+
+> **⚠️ MaxPreps past seasons use the path form** (`/basketball/24-25/roster/`); the
+> `?season=` query silently returns the current season.
+
+**Deliberately cannot:** edit app code, research a school the app does not cover, count a
+verbal commitment, name a current student without a documented commitment, claim a
+scholarship, or deploy.
 
 ---
 
