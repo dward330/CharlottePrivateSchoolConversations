@@ -1,11 +1,11 @@
 ---
 name: ddtestscores
 title: Davidson Day gets SAT and ACT figures on Compare › College Support (Class of 2021, from its 2020–21 profile, the last to print scores) and score tables on its Whole Class card
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-07
 branch: feat/ddtestscores
-prs: []
+prs: [444]
 ---
 
 # Davidson Day SAT/ACT: Compare cells and Whole Class score tables
@@ -330,3 +330,23 @@ Phase 2 (and `testscores` for metric-values cells).
 | The 12-tester SAT mean is over-read | The qual and card note state 12 of 53 |
 | The ingest slugifies the new file into an orphan card | The existing `/school profile/i → outcomes` rule; `check:metrics` |
 | Floor docs go stale again | Step 5 takes figures from the script and greps for leftovers |
+
+## Implementation notes
+
+- **Phase 1 (2026-11-07).** Built as planned, and every figure matched the source file. The
+  ingest reordered `schools.json` again, so the documents were put back in HEAD order and the
+  new one inserted, leaving an 11-line diff. While updating the floor docs, two other stale
+  figures were also fixed: the add-school SKILL.md said "7 of the areas" where the script
+  derives 9, and SKILLS.md said "not 36" where it should say 44. The PR was opened after
+  Phase 2 rather than at step 8, following `/implement`'s Phase 1 gate. The user approved the
+  English, and Phase 2 ran in the same window.
+- **Phase 2.** The splice paired exactly: per locale, metric-values had 6 added and 2 dropped,
+  and college-support had 14 added and 2 dropped. That is 20 units, one more than planned,
+  because the dev-only `verify` flag is also extracted, so it was translated too. Contrary to
+  the plan, the `values['davidson-day']` cell (`1179`) was extracted. It is figure-only, and
+  its `t` is the figure. No source label and no `SAT score percentiles` title were added,
+  because both stamps already existed. Each row note's `t` is the shipped translation with
+  only its final Davidson Day clause cut. `check:digits` compared 180 units and flagged 0.
+  `i18n:leaks` had 0 flags on the touched paths. A glyph-x check in fa, ar, bn, hi and es
+  confirmed low→high ranges.
+- **No deploy.**
