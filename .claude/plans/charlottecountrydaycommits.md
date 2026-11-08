@@ -310,6 +310,8 @@ went wrong — stop and look.
   new source links render behind the Sources toggle and return HTTP 200. Compare
   (`?topic=sports&schools=charlotte-country-day,providence-day`): Country Day 9 / 28 / 0
   against Providence Day 16 / 39 / 10.
-- **Phase 2 watch:** the Compare D1 value changed to `28`. Per `charlottechristiancommits`,
-  a Compare value no school held before is its own `metric-values` unit — check whether `28`
-  already exists there before assuming 2 units.
+- **Phase 2 is 3 units per locale, not 2:** the Compare D1 value is now `28`, and
+  `metric-values.es.json` holds a `25` unit but **no `28`** (checked after Phase 1). Per
+  `charlottechristiancommits`, that makes `28` a new `metric-values` unit (stored as the same
+  digits), so Phase 2 also runs the `metric-values` splice and `i18n:build --topic
+  metric-values` ×9. Whether the `25` unit is then orphaned is for the splice to report.
