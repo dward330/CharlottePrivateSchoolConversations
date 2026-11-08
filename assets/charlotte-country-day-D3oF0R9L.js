@@ -1,4 +1,4 @@
-var e=`charlotte-country-day`,t=`sports`,n=44,r=[{subtopic:`Awards and Honors`,source_file:`CCD - Sports - Awards and Honors.pdf`,preview:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Awards & Honors Research Area — individual and program recognition Country Day maintains several long-running internal honors — the Carl Bolick Coach's Award, the Victrix/Victor Ludorum athlete awards — alongside external recognition such as…`,text:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
+var e=`charlotte-country-day`,t=`sports`,n=58,r=[{subtopic:`Awards and Honors`,source_file:`CCD - Sports - Awards and Honors.pdf`,preview:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Awards & Honors Research Area — individual and program recognition Country Day maintains several long-running internal honors — the Carl Bolick Coach's Award, the Victrix/Victor Ludorum athlete awards — alongside external recognition such as…`,text:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Awards & Honors
 Research Area — individual and program recognition
 Country Day maintains several long-running internal honors — the Carl Bolick Coach's Award, the Victrix/Victor Ludorum
@@ -105,46 +105,129 @@ character-building; recent honorees include Jeff Pilon & Mindy McBrayer (2025) a
 [Source: Charlotte Country Day Athletics — Awards & Honors page (Carl Bolick award history); "Bucs Wrap Up" recaps.]
 Compiled June 23, 2026. Sources cited inline and listed at end of each document. Page 1
 
----`},{subtopic:`College Commitments 2024-2026`,source_file:`CCD - Sports - College Commitments 2024-2026.md`,preview:`# Charlotte Country Day School — Sports — College Commitments (2024–2026)`,text:`# Charlotte Country Day School — Sports — College Commitments (2024–2026)`},{subtopic:`Sources`,source_file:null,preview:'- Charlotte Country Day "Collegiate Athletics" roster (classes 2021–2026), as compiled in `CCD - Sports - D1 and Top-50 Academic Matriculation.pdf`. - Charlotte-area National Signing Day roundup (2024–25 signing day, Class of 2025 cycle; accessed 2026-07-04) — Yahoo Sports / Charlotte Observer:…',text:`- Charlotte Country Day "Collegiate Athletics" roster (classes 2021–2026), as compiled
- in \`CCD - Sports - D1 and Top-50 Academic Matriculation.pdf\`.
-- Charlotte-area National Signing Day roundup (2024–25 signing day, Class of 2025 cycle;
- accessed 2026-07-04) — Yahoo Sports / Charlotte Observer:
- https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
-- CCD "Celebrating the Class of 2025: College Matriculation" (charlottecountryday.org).`},{subtopic:`Class of 2024 — Division I (10), of which Power 4 (4)`,source_file:null,preview:`| Athlete | Sport | College | Conf. | P4 | |---------|-------|---------|-------|----| | Freddy Klein | Swimming | UC Berkeley | ACC | ✅ | | Emma Hayden Lewis | Track/XC | Miami (FL) | ACC | ✅ | | Kate Stajos | Track/XC | Michigan State | Big Ten | ✅ | | Noah McDonald | Tennis | Southern Methodist | ACC | ✅ | | Josh…`,text:`| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|----|
-| Freddy Klein | Swimming | UC Berkeley | ACC | ✅ |
-| Emma Hayden Lewis | Track/XC | Miami (FL) | ACC | ✅ |
-| Kate Stajos | Track/XC | Michigan State | Big Ten | ✅ |
-| Noah McDonald | Tennis | Southern Methodist | ACC | ✅ |
-| Josh Porter | Track/XC | Lehigh | Patriot | |
-| Margaret Scheurer | Field Hockey | Richmond | A-10 | |
-| Dylan Swinehart | Soccer | Liberty | CUSA | |
-| Charlie O'Shea | Golf | Appalachian State | Sun Belt | |
-| Kasey Cone | Track/XC | Richmond | A-10 | |
-| David Harner | Track/XC | Presbyterian | Big South | |
+---`},{subtopic:`College Commitments 2024-2026`,source_file:`CCD - Sports - College Commitments 2024-2026.md`,preview:`# Charlotte Country Day School — Sports — College Commitments (2024–2026)`,text:`# Charlotte Country Day School — Sports — College Commitments (2024–2026)`},{subtopic:`Sources`,source_file:null,preview:`- Charlotte Country Day — Collegiate Athletics (per-sport list of former Buccaneers on a college roster, classes 2021–2026), read 2026-11-08: https://www.charlottecountryday.org/cd-experience/athletics/collegiate-athletics - Charlotte Country Day — Class of 2024 post ("17 seniors will continue their sports careers",…`,text:`- Charlotte Country Day — Collegiate Athletics (per-sport list of former Buccaneers on a
+ college roster, classes 2021–2026), read 2026-11-08:
+ https://www.charlottecountryday.org/cd-experience/athletics/collegiate-athletics
+- Charlotte Country Day — Class of 2024 post ("17 seniors will continue their sports
+ careers", named list):
+ https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/class-of-2024-celebrates-impressive-college-admissions-success-and-scholarship-awards
+- Charlotte Country Day — February 2024 signing post (13 named, NLI):
+ https://www.charlottecountryday.org/news-events/news-details-page/~board/athletics-news/post/student-athletes-commit-to-college-athletic-programs1
+- Charlotte Country Day — May 2024 signing ceremony post (8 named, incl. Kendall Blount, cheer):
+ https://www.charlottecountryday.org/news-events/news-details-page/~board/athletics-news/post/student-athletes-commit-to-college-athletic-programs2
+- Charlotte Country Day — Class of 2025 post ("18 seniors will continue their athletic
+ careers at the collegiate level"; count plus examples, no full list):
+ https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/celebrating-the-class-of-2025-college-matriculation-and-achievements
+- Charlotte Country Day — Class of 2026 post ("13 seniors will continue competing at the
+ collegiate level", college + sport list):
+ https://www.charlottecountryday.org/bucsnet/post-details/~board/school-news/post/class-of-2026-college-admissions-outcomes
+- University of Tampa — 2025-26 men's basketball incoming class (Carlin Parker, 5-10 guard,
+ Charlotte Country Day, walk-on): https://tampaspartans.com/sports/mbkb/2025-26/releases/20250826kc8vro
+- RealGM — Charlotte Country Day High School players (read in Chrome 2026-11-08):
+ https://basketball.realgm.com/highschool/teams/1523/Charlotte-Country-Day-High-School
+- HighSchoolOT per-sport recruiting trackers (hub):
+ https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
+- SwimSwam — Taylor Klein (Stanford): https://swimswam.com/honorable-mention-taylor-klein-sends-verbal-commitment-to-stanford-for-2026-27/
+- SwimSwam — Kaylee Daniell (Tulane): https://swimswam.com/swimmac-teammates-kaylee-daniell-and-emma-barr-to-swim-for-tulane-in-2026-27/
+- Swimming World — Santiago Alzate-Celin (Florida): https://swimmingworldmagazine.com/news/gators-take-a-chomp-into-class-of-2026-with-verbal-from-santiago-alzate-celin
+- Bucknell — men's basketball 2026-27 roster (Joe Youakim, Charlotte Country Day):
+ https://bucknellbison.com/news/2026/5/22/mens-basketball-mens-basketball-rounds-out-2026-27-roster
+- JMU — Grayson Anne McCurdy roster page: https://jmusports.com/sports/womens-lacrosse/roster/grayson-anne-mccurdy/23917
+- Richmond — Kasey Cone roster page: https://richmondspiders.com/sports/womens-track-and-field/roster/kasey-cone/8451
+- Yahoo / Charlotte Observer — National Signing Day roundup (Class of 2025 cycle):
+ https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html`},{subtopic:`Class of 2026 — 13 committed · Division I 6 · Power 4 3`,source_file:null,preview:`School list: Class of 2026 post (13, exact match) and Collegiate Athletics page. | Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Taylor Klein | Swimming | Stanford | ACC | P4 | School list; SwimSwam | | Santiago Alzate-Celin | Swimming | Florida | SEC | P4 | School list;…`,text:`School list: Class of 2026 post (13, exact match) and Collegiate Athletics page.
 
-_D3 (2024): Ellie Wilkins (Tufts), Liza Bray (Kenyon), Marshall Pifer (Denison), Owen Miller (Denison), Campbell Baumgartner (Connecticut College)._`},{subtopic:`Class of 2025 — Division I (12), of which Power 4 (2)`,source_file:null,preview:`| Athlete | Sport | College | Conf. | P4 | |---------|-------|---------|-------|----| | Elle Scott | Swimming | UC Berkeley | ACC | ✅ | | Sydney Pifer | Equestrian | Oklahoma State | Big 12 | ✅ | | Kobey Riley | Track/XC | Princeton | Ivy | | | Avery Johnson | Soccer | Yale | Ivy | | | Connor Wickerham | Swimming |…`,text:`| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|----|
-| Elle Scott | Swimming | UC Berkeley | ACC | ✅ |
-| Sydney Pifer | Equestrian | Oklahoma State | Big 12 | ✅ |
-| Kobey Riley | Track/XC | Princeton | Ivy | |
-| Avery Johnson | Soccer | Yale | Ivy | |
-| Connor Wickerham | Swimming | Brown | Ivy | |
-| Abby Kerrins | Track/XC | Dartmouth | Ivy | |
-| Lindsey Kerrins | Track/XC | Dartmouth | Ivy | |
-| Khalel Wright | Football | Ball State | MAC | |
-| Grayson Anne McCurdy | Lacrosse | James Madison | Sun Belt | |
-| Gabbie Baskett | Tennis | Delaware State | MEAC | |
-| Jada Erwin | Track/XC | Western Carolina | Southern | |
-| Brooke McCall | Volleyball | Florida Atlantic | American | |
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Taylor Klein | Swimming | Stanford | ACC | P4 | School list; SwimSwam |
+| Santiago Alzate-Celin | Swimming | Florida | SEC | P4 | School list; Swimming World |
+| Caroline Mallard | Swimming | Purdue | Big Ten | P4 | School list |
+| Joseph Youakim | Boys Basketball | Bucknell | Patriot | D1 | School list; Bucknell roster; RealGM |
+| Kaylee Daniell | Swimming | Tulane | American | D1 | School list; SwimSwam |
+| Logan Crane | Baseball | Queens (Charlotte) | ASUN | D1 | School list |
+| Crandall Wilkins | Football & Lacrosse | Middlebury | NESCAC | D3 | School list; LaxNumbers; Team 91 |
+| Olive Bigham | Girls Basketball | Washington & Lee | ODAC | D3 | School list |
+| Molly Brown | Girls Soccer | Washington & Lee | ODAC | D3 | School list |
+| Alex Stiefel | Baseball | Bates | NESCAC | D3 | School list |
+| L.W. O'Neil | Baseball | Sewanee | SAA | D3 | School list |
+| Olivia Roark | Volleyball | Randolph-Macon | ODAC | D3 | School list |
+| Dante Graham | Wrestling | SW Minnesota State | NSIC | D2 | School list |`},{subtopic:`Class of 2025 — 18 committed · Division I 12 · Power 4 2`,source_file:null,preview:`School count: Class of 2025 post (18). Names: Collegiate Athletics page (18, exact match). | Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Elle Scott | Swimming | UC Berkeley | ACC | P4 | School list; HighSchoolOT; Observer | | Sydney Pifer | Equestrian | Oklahoma State | Big…`,text:`School count: Class of 2025 post (18). Names: Collegiate Athletics page (18, exact match).
 
-_D3 (2025): Esme Van Orden (Williams), Zachary Lu (Wesleyan)._`},{subtopic:`Class of 2026 — Division I (3), all Power 4 (3)`,source_file:null,preview:`| Athlete | Sport | College | Conf. | P4 | |---------|-------|---------|-------|----| | Taylor Klein | Swimming | Stanford | ACC | ✅ | | Santiago Alzate-Celin | Swimming | Florida | SEC | ✅ | | Caroline Mallard | Swimming | Purdue | Big Ten | ✅ | App metric values: Power 4 = 9 · Division I = 25 ---`,text:`| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|----|
-| Taylor Klein | Swimming | Stanford | ACC | ✅ |
-| Santiago Alzate-Celin | Swimming | Florida | SEC | ✅ |
-| Caroline Mallard | Swimming | Purdue | Big Ten | ✅ |
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Elle Scott | Swimming | UC Berkeley | ACC | P4 | School list; HighSchoolOT; Observer |
+| Sydney Pifer | Equestrian | Oklahoma State | Big 12 | P4 | School list; Class of 2025 post |
+| Kobey Riley | Track / XC | Princeton | Ivy | D1 | School list |
+| Avery Johnson | Girls Soccer | Yale | Ivy | D1 | School list; HighSchoolOT |
+| Connor Wickerham | Swimming | Brown | Ivy | D1 | School list; HighSchoolOT |
+| Abby Kerrins | Track / XC | Dartmouth | Ivy | D1 | School list |
+| Lindsey Kerrins | Track / XC | Dartmouth | Ivy | D1 | School list |
+| Khalel Wright | Football | Ball State | MAC | D1 | School list; Ball State roster; 247Sports |
+| Grayson Anne McCurdy | Girls Lacrosse | James Madison | Sun Belt | D1 | School list; JMU roster; LaxNumbers |
+| Gabbie Baskett | Tennis | Delaware State | MEAC | D1 | School list |
+| Jada Erwin | Track / XC | Western Carolina | Southern | D1 | School list |
+| Brooke McCall | Volleyball | Florida Atlantic | American | D1 | School list; HighSchoolOT |
+| Esme Van Orden | Swimming | Williams | NESCAC | D3 | School list |
+| Zachary Lu | Squash | Wesleyan | NESCAC | D3 | School list |
+| Alyssa Hankerson | Girls Basketball | Columbus State | PBC | D2 | School list |
+| Alana Hankerson | Girls Basketball | Columbus State | PBC | D2 | School list |
+| Carlin Parker | **Boys Basketball** | Tampa | SSC | D2 | School list; Tampa release (walk-on); RealGM; HighSchoolOT boys tracker |
+| Jerome Lowery | Boys Basketball | Marymount | Atlantic East | D3 | School list; RealGM ("Lowrey") |`},{subtopic:`Class of 2024 — 17 committed · Division I 10 · Power 4 4`,source_file:null,preview:`School list: Class of 2024 post (17, named) and the February/May 2024 signing posts. | Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Freddy Klein | Swimming | UC Berkeley | ACC | P4 | School list; HighSchoolOT | | Emma Hayden Lewis | Track / XC | Miami (FL) | ACC | P4 | School…`,text:`School list: Class of 2024 post (17, named) and the February/May 2024 signing posts.
 
-**App metric values:** Power 4 = 9 · Division I = 25
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Freddy Klein | Swimming | UC Berkeley | ACC | P4 | School list; HighSchoolOT |
+| Emma Hayden Lewis | Track / XC | Miami (FL) | ACC | P4 | School list; Miami roster |
+| Kate Stajos | Track / XC | Michigan State | Big Ten | P4 | School list |
+| Noah McDonald | Tennis | Southern Methodist | ACC | P4 | School list; HighSchoolOT |
+| Josh Porter | Track / XC | Lehigh | Patriot | D1 | School list; HighSchoolOT |
+| Margaret Scheurer | Field Hockey | Richmond | Atlantic 10 | D1 | School list (NLI) |
+| Dylan Swinehart | Boys Soccer | Liberty | CUSA | D1 | School list; HighSchoolOT; Liberty roster |
+| Charlie O'Shea | Golf | Appalachian State | Sun Belt | D1 | School list; HighSchoolOT |
+| Kasey Cone | Track / XC | Richmond | Atlantic 10 | D1 | School list; Richmond roster |
+| David Harner | Track / XC | Presbyterian | Big South | D1 | School list |
+| Ellie Wilkins | Field Hockey | Tufts | NESCAC | D3 | School list |
+| Liza Bray | Girls Soccer | Kenyon | NCAC | D3 | School list |
+| Marshall Pifer | Swimming | Denison | NCAC | D3 | School list; HighSchoolOT |
+| Owen Miller | Baseball | Denison | NCAC | D3 | School list; HighSchoolOT |
+| Campbell Baumgartner | Swimming | Connecticut College | NESCAC | D3 | School list; HighSchoolOT |
+| Amare Bethel | Boys Basketball | Metropolitan State | RMAC | D2 | School list; RealGM; HighSchoolOT |
+| Kendall Blount | Cheer | Louisville | — | **total only** | School list; May 2024 signing post |
+
+**Kendall Blount — counted in the total, not in a level.** Country Day counts her among its
+17 Class of 2024 college athletes. Competitive cheer is not an NCAA-sponsored sport, so she
+has no honest Division I / Power 4 slot (Louisville is ACC; labelling her P4 would count a
+non-NCAA sport as a Power 4 commitment). User decision 2026-11-08: she is in the funnel
+total (48) and named in one prose clause, and is **not** a roster row and **not** in the
+Division I or Power 4 counts.`},{subtopic:`Totals → app metric values`,source_file:null,preview:"| | 2024 | 2025 | 2026 | 2024–26 | |---|---|---|---|---| | Committed (school's own count) | 17 | 18 | 13 | 48 | | Roster rows (NCAA sports) | 16 | 18 | 13 | 47 | | Division I (incl. Power 4) | 10 | 12 | 6 | 28 | | Power 4 | 4 | 2 | 3 | 9 | - `p4-commits-2426` = 9 (unchanged). - `d1-commits-2426` = 28 (was 25: the…",text:`| | 2024 | 2025 | 2026 | **2024–26** |
+|---|---|---|---|---|
+| Committed (school's own count) | 17 | 18 | 13 | **48** |
+| Roster rows (NCAA sports) | 16 | 18 | 13 | **47** |
+| Division I (incl. Power 4) | 10 | 12 | 6 | **28** |
+| Power 4 | 4 | 2 | 3 | **9** |
+
+- \`p4-commits-2426\` = **9** (unchanged).
+- \`d1-commits-2426\` = **28** (was 25: the Class of 2026 D1 rows Youakim, Daniell and Crane
+ were on the card but never reached the Compare value).
+- Division I by sport (for \`sportBars\`): Track / XC 9 (2 P4) · Swimming 7 (5 P4) · Tennis 2
+ (1 P4) · Soccer 2 · Basketball 1 · Equestrian 1 (P4) · Field Hockey 1 · Other 5 (baseball,
+ football, girls lacrosse, volleyball, golf) = 28. (The shipped bars read Swimming 8 /
+ Track 8, one off each way.)`},{subtopic:`Changes from the shipped card (2026-11-08)`,source_file:null,preview:"1. Carlin Parker — Girls Basketball → Boys Basketball (Tampa men's basketball, walk-on). 2. Funnel total 51 → 48 (no source for 51; the school publishes 17 + 18 + 13). 3. `d1-commits-2426` 25 → 28 (stale Compare value). 4. Sport bars Swimming 8 → 7, Track / XC 8 → 9. 5. Ivy League count six → five in `funnelNote`…",text:`1. **Carlin Parker** — Girls Basketball → **Boys Basketball** (Tampa men's basketball, walk-on).
+2. **Funnel total** 51 → **48** (no source for 51; the school publishes 17 + 18 + 13).
+3. **\`d1-commits-2426\`** 25 → **28** (stale Compare value).
+4. **Sport bars** Swimming 8 → 7, Track / XC 8 → 9.
+5. **Ivy League count** six → **five** in \`funnelNote\` (Riley – Princeton, Johnson – Yale,
+ Wickerham – Brown, Abby and Lindsey Kerrins – Dartmouth). Still the most of any school
+ on the College Pipeline cards as of 2026-11-08 (Charlotte Catholic 4, Providence Day 4,
+ Charlotte Christian 2, Cannon 1).`},{subtopic:`Class of 2027 (current seniors) — verbals, uncounted`,source_file:null,preview:"Kept in `Charlotte Country Day - Sports - College Commitments Class of 2027.md`. As of 2026-11-08: 0 confirmed, 2 leads (Katy Blythe, girls lacrosse → Furman; Harris Hatcher, boys lacrosse → Saint Joseph's). Neither is counted here or in the window rows.",text:`Kept in \`Charlotte Country Day - Sports - College Commitments Class of 2027.md\`. As of
+2026-11-08: **0 confirmed, 2 leads** (Katy Blythe, girls lacrosse → Furman; Harris Hatcher,
+boys lacrosse → Saint Joseph's). Neither is counted here or in the window rows.`},{subtopic:`Excluded`,source_file:null,preview:`- Kendall Blount (2024, Louisville cheer): in the total only, see above. - Owen Timperman (2026, boys lacrosse goalkeeper, USA Lacrosse All-American) and Evelyn Turner (2026, girls lacrosse/basketball, USA Lacrosse All-American): seniors in 2025–26, but absent from the school's complete 13-name Class of 2026 list and…`,text:`- **Kendall Blount** (2024, Louisville cheer): in the total only, see above.
+- **Owen Timperman** (2026, boys lacrosse goalkeeper, USA Lacrosse All-American) and
+ **Evelyn Turner** (2026, girls lacrosse/basketball, USA Lacrosse All-American): seniors in
+ 2025–26, but absent from the school's complete 13-name Class of 2026 list and from every
+ tracker and club list. No college athletics commitment is published.
+- Every other 2024–26 senior on the MaxPreps rosters: absent from the school's own per-class
+ lists (counts in the cross-reference file).
 
 ---`},{subtopic:`D1 and Top-50 Academic Matriculation`,source_file:`CCD - Sports - D1 and Top-50 Academic Matriculation.pdf`,preview:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC D1 & Top-50 Academic Matriculation Research Area — college athletic commitments, by graduating class (2021–2026) Two in-scope categories, organized by class year: (a) every confirmed NCAA Division I commitment, all sports and conferences; and…`,text:`CHARLOTTE COUNTRY DAY BUCCANEERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 D1 & Top-50 Academic Matriculation
@@ -650,9 +733,26 @@ commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team 
 PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
 girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
-yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:`Leads — one source only, not rows`,source_file:null,preview:`| Athlete | Sport | College | Source | |---|---|---|---| | Katy Blythe | Girls Lacrosse | Furman (Southern, D1) | Ultimate Lacrosse Charlotte team page, Class of 2027 (club-published); no Furman release yet |`,text:`| Athlete | Sport | College | Source |
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:"Second pass (2026-11-08, `/athlete-commits` graduate refresh)",source_file:null,preview:'Added LaxNumbers in Chrome (boys `laxnumbers.com/team_info.php?y=2027&t=12769&s=2`, girls `…&t=22579&s=2`) and MaxPreps class years. Two leads, still no row: - Katy Blythe — LaxNumbers girls 2026 and 2027 pages list her as Class of 2027, UltGoal club, midfield, D1 Furman. The "club page" behind the first lead is the…',text:`Added LaxNumbers in Chrome (boys \`laxnumbers.com/team_info.php?y=2027&t=12769&s=2\`, girls
+\`…&t=22579&s=2\`) and MaxPreps class years. Two leads, still no row:
+
+- **Katy Blythe** — LaxNumbers girls 2026 and 2027 pages list her as Class of 2027, UltGoal
+ club, midfield, D1 Furman. The "club page" behind the first lead is the Ultimate South
+ SportsRecruits roster (\`iwlca.sportsrecruits.com/organization/ultimate_south/ultimate_clt_2027_premier\`),
+ which lists her as a 2027 draw specialist but **shows no commitment**. So the evidence is
+ one user-submitted database plus a self-reported profile: still a lead. Class year
+ confirmed: MaxPreps girls lacrosse 25-26 (Jr.) and field hockey 26-27 (Sr.).
+- **Harris Hatcher** — LaxNumbers boys 2026 and 2027 pages list him as Class of 2027,
+ Team Carolina / SweetLax, faceoff, D1 Saint Joseph's (PA). A SportsRecruits highlight-video
+ listing names him as a 2027 faceoff player without a commitment; no Saint Joseph's release.
+ Class year confirmed: MaxPreps boys lacrosse 25-26 (Jr.) and 26-27 (Sr.).
+
+Both should be re-checked after the early signing period (opens 2026-11-11): a Furman or
+Saint Joseph's signing release, or the school's November recognition post, would make each
+a row.`},{subtopic:`Leads — not rows`,source_file:null,preview:`| Athlete | Sport | College | Source | |---|---|---|---| | Katy Blythe | Girls Lacrosse | Furman (Southern, D1) | LaxNumbers girls t=22579 (user-submitted); Ultimate South SportsRecruits roster (no commitment shown); no Furman release yet | | Harris Hatcher | Boys Lacrosse | Saint Joseph's (Atlantic 10, D1) |…`,text:`| Athlete | Sport | College | Source |
 |---|---|---|---|
-| Katy Blythe | Girls Lacrosse | Furman (Southern, D1) | Ultimate Lacrosse Charlotte team page, Class of 2027 (club-published); no Furman release yet |`},{subtopic:"Totals for the `seniors-committed` row (as of 2026-11-08)",source_file:null,preview:"0 confirmed (value `'0'`), 1 pending. ---",text:`**0 confirmed** (value \`'0'\`), 1 pending.
+| Katy Blythe | Girls Lacrosse | Furman (Southern, D1) | LaxNumbers girls t=22579 (user-submitted); Ultimate South SportsRecruits roster (no commitment shown); no Furman release yet |
+| Harris Hatcher | Boys Lacrosse | Saint Joseph's (Atlantic 10, D1) | LaxNumbers boys t=12769 (user-submitted) only; no Saint Joseph's release yet |`},{subtopic:"Totals for the `seniors-committed` row (as of 2026-11-08)",source_file:null,preview:"0 confirmed (value `'0'`), 2 pending. ---",text:`**0 confirmed** (value \`'0'\`), 2 pending.
 
 ---`},{subtopic:`Redesign Research 2026`,source_file:`Charlotte Country Day - Sports - Redesign Research 2026.md`,preview:`# Charlotte Country Day School — Sports — Redesign Research (2026)`,text:`# Charlotte Country Day School — Sports — Redesign Research (2026)`},{subtopic:`Corrections to the prior dossier`,source_file:null,preview:`| # | Prior claim | Corrected | |---|---|---| | 1 | "No external health-system partnership; appears in-house." | REFUTED. OrthoCarolina is the confirmed partner; Dr. James E. Fleischli, MD is team physician. | | 2 | "Four certified athletic trainers" (unnamed) | FIVE named: Monica Erb, Stephanie Miller, Mike Hervis,…`,text:`| # | Prior claim | Corrected |
 |---|---|---|
@@ -691,7 +791,13 @@ football 6–4 · volleyball 13–9 · boys basketball 13–17 · girls basketba
 - All-time title ledger: https://www.charlottecountryday.org/cd-experience/athletics/awards-and-honors
 
 All-time leaders: boys tennis **20** · girls tennis **20** · field hockey **16** ·
-football **15** · baseball, boys lacrosse, softball, boys golf 9–10 each.`},{subtopic:`3. College Pipeline — 51 commits, 28 D1, 9 P4`,source_file:null,preview:`Swimming is the Power 4 engine — 5 of 9 P4 commits, including all three from 2026 (Stanford, Florida, Purdue). Six Ivy League commitments, a share matched by no other school here. School reports ~15 seniors committing per year over five years. D1 by sport: Swimming 8 (5 P4) · Track/XC 8 (2 P4) · Tennis 2 (1 P4) ·…`,text:`**Swimming is the Power 4 engine** — 5 of 9 P4 commits, including all three from 2026
+football **15** · baseball, boys lacrosse, softball, boys golf 9–10 each.
+
+> **Superseded 2026-11-08.** The pipeline figures below are replaced by
+> \`CCD - Sports - College Commitments 2024-2026.md\` (48 committed, 28 D1, 9 P4; per-athlete
+> table with confirmations) and \`Charlotte Country Day - Sports - Varsity Roster
+> Cross-Reference 2026.md\` (method and nulls). "51" had no source; the D1-by-sport line
+> below is one off for swimming (7) and track (9).`},{subtopic:`3. College Pipeline — 51 commits, 28 D1, 9 P4`,source_file:null,preview:`Swimming is the Power 4 engine — 5 of 9 P4 commits, including all three from 2026 (Stanford, Florida, Purdue). Six Ivy League commitments, a share matched by no other school here. School reports ~15 seniors committing per year over five years. D1 by sport: Swimming 8 (5 P4) · Track/XC 8 (2 P4) · Tennis 2 (1 P4) ·…`,text:`**Swimming is the Power 4 engine** — 5 of 9 P4 commits, including all three from 2026
 (Stanford, Florida, Purdue). **Six Ivy League commitments**, a share matched by no other
 school here. School reports ~15 seniors committing per year over five years.
 
@@ -792,6 +898,92 @@ a card, so **1g is omitted** and the field hockey ranking is noted on card 1b in
 - Klein Natatorium opening date conflicts: school timeline says 2021, better-attested Oct 2022.
 - "72 teams / 26 sports" vs ~65 directory-listed teams — counting convention, unresolved.
 
+---`},{subtopic:`Varsity Roster Cross-Reference 2026`,source_file:`Charlotte Country Day - Sports - Varsity Roster Cross-Reference 2026.md`,preview:`# Charlotte Country Day School — Sports — Varsity Roster Cross-Reference (2026)`,text:`# Charlotte Country Day School — Sports — Varsity Roster Cross-Reference (2026)`},{subtopic:`Result in one line`,source_file:null,preview:"No new athlete. Country Day publishes a named list of every college athlete per class, with a total (17 / 18 / 13), and every source below agreed with it. The pass corrected one sport (Carlin Parker, boys not girls basketball), one total (51 → 48) and one stale Compare value (`d1-commits-2426` 25 → 28). A pass that…",text:`**No new athlete.** Country Day publishes a named list of every college athlete per class,
+with a total (17 / 18 / 13), and every source below agreed with it. The pass corrected one
+sport (Carlin Parker, boys not girls basketball), one total (51 → 48) and one stale Compare
+value (\`d1-commits-2426\` 25 → 28). A pass that finds nothing new converts "probably
+undercounted" into a confirmed floor, and this one does: for this school the floor is the
+school's own published count.`},{subtopic:`Scope`,source_file:null,preview:`Every varsity sport the school fields. The school's own Collegiate Athletics page lists 16 sports: baseball, basketball, cheer, equestrian, field hockey, football, golf, lacrosse, soccer, softball, squash, swimming, tennis, track & field / cross country, volleyball and wrestling. | Sport | Tier | Sources |…`,text:`Every varsity sport the school fields. The school's own Collegiate Athletics page lists 16
+sports: baseball, basketball, cheer, equestrian, field hockey, football, golf, lacrosse,
+soccer, softball, squash, swimming, tennis, track & field / cross country, volleyball and
+wrestling.
+
+| Sport | Tier | Sources |
+|---|---|---|
+| Basketball (both) | Full | MaxPreps rosters; RealGM (Chrome); HighSchoolOT boys + girls; Tampa release |
+| Football | Full | MaxPreps; NC Football News 2026 + 2027 trackers (no CCD entry); HighSchoolOT hub |
+| Lacrosse (both) | Full | MaxPreps; LaxNumbers boys t=12769 + girls t=22579, 2024–2027 (Chrome); HighSchoolOT boys + girls; Team 91 Charlotte commitments page |
+| Swimming | Full via trackers | HighSchoolOT boys + girls; SwimSwam / Swimming World searches. No MaxPreps roster (404 every season) |
+| Soccer (both) | Full | MaxPreps; HighSchoolOT boys + girls; grouped search |
+| Volleyball | Full | MaxPreps; HighSchoolOT volleyball |
+| Tennis (both) | Full | MaxPreps; HighSchoolOT boys + girls; grouped search |
+| Baseball / softball | Full | MaxPreps; HighSchoolOT baseball + softball |
+| Track / XC | Trackers only | HighSchoolOT boys + girls. MaxPreps track 404 and cross country empty every season: **unchecked roster** |
+| Golf | Trackers only | HighSchoolOT boys + girls. MaxPreps golf 404 / girls golf empty: **unchecked roster** |
+| Wrestling | Trackers only | HighSchoolOT wrestling. MaxPreps page empty every season: **unchecked roster** |
+| Field hockey | Grouped search | MaxPreps; college-roster search. No statewide tracker |
+| Cheer, equestrian, squash | School list only | No roster on MaxPreps; no tracker |`},{subtopic:`Step 1 — the school's own pages (read 2026-11-08)`,source_file:null,preview:"- Collegiate Athletics (`charlottecountryday.org/cd-experience/athletics/collegiate-athletics`) server-renders a per-sport list, classes 2021–2026, with class years. curl works. - Per-class posts give the count and, for 2024 and 2026, the full named list: 2024 = 17 (named), 2025 = 18 (count + examples; names from the…",text:`- **Collegiate Athletics** (\`charlottecountryday.org/cd-experience/athletics/collegiate-athletics\`)
+ server-renders a per-sport list, classes 2021–2026, with class years. curl works.
+- **Per-class posts** give the count and, for 2024 and 2026, the full named list:
+ 2024 = 17 (named), 2025 = 18 (count + examples; names from the Collegiate Athletics page,
+ 18 exact), 2026 = 13 (college + sport). URLs in the commitments file.
+- The athletics news board (\`/cd-experience/athletics/athletics-news\`) shows only the nine
+ newest posts; older signing posts are reachable by URL or search, not by paging.
+- Issuu *Perspectives* magazines (Fall 2024, Fall 2025) are a flipbook with no server-side
+ text; their figures are the same as the school posts, so nothing was lost.`},{subtopic:`Step 2 — MaxPreps rosters by season`,source_file:null,preview:"`https://www.maxpreps.com/nc/charlotte/charlotte-country-day-school-buccaneers/<sport>/<yy-yy>/roster/`, path form, curl with a browser UA. Pulled 23-24, 24-25, 25-26 and 26-27 for 19 sport slugs. Seniors (`Sr.`) per sport and class: | Sport | 2024 | 2025 | 2026 | 2027 | |---|---|---|---|---| | Football | 9 | 12 | 11…",text:`\`https://www.maxpreps.com/nc/charlotte/charlotte-country-day-school-buccaneers/<sport>/<yy-yy>/roster/\`,
+path form, curl with a browser UA. Pulled 23-24, 24-25, 25-26 and 26-27 for 19 sport slugs.
+Seniors (\`Sr.\`) per sport and class:
+
+| Sport | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|
+| Football | 9 | 12 | 11 | 13 |
+| Boys basketball | 3 | 8 | 2 | (not posted) |
+| Girls basketball | 3 | 2 | 5 | (not posted) |
+| Baseball | 4 | 3 | 9 | 1 |
+| Softball | 1 | 0 | 0 | (not posted) |
+| Boys soccer | 11 | 11 | 7 | 8 |
+| Girls soccer | 6 | 5 | 7 | (not posted) |
+| Boys lacrosse | 12 | 5 | 6 | 11 |
+| Girls lacrosse | 7 | (empty roster) | 5 | (not posted) |
+| Volleyball | 4 | 5 | 3 | 1 |
+| Field hockey | 6 | 6 | 5 | 6 |
+| Boys tennis | 4 | 5 | 3 | (not posted) |
+| Girls tennis | 3 | 3 | 5 | 3 |
+| Swimming, track, cross country, golf (both), wrestling | — | — | — | — |
+
+174 distinct graduated seniors across the three classes (multi-sport athletes counted
+once); 37 current seniors on the posted 2026-27 rosters. Every graduated senior was checked
+against the school's per-class list. Everyone not on it is a **null**: the school, which
+publishes every college athlete it knows of, does not list them.`},{subtopic:`Step 3 — cross-reference results`,source_file:null,preview:"- HighSchoolOT, 17 trackers (hub `highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/`): 16 Country Day entries across 2024–2025, all already on the card. The boys basketball tracker files Carlin Parker (Tampa) as a boys player, which surfaced the sport…",text:`- **HighSchoolOT, 17 trackers** (hub \`highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/\`):
+ 16 Country Day entries across 2024–2025, **all already on the card**. The boys basketball
+ tracker files Carlin Parker (Tampa) as a boys player, which surfaced the sport correction.
+ No Class of 2026 or 2027 Country Day entries yet.
+- **RealGM** (\`basketball.realgm.com/highschool/teams/1523/Charlotte-Country-Day-High-School\`,
+ Chrome): window graduates Bethel '24, Lowrey '25, Parker '25 (5-10 G), Youakim '26 — all on
+ the card. Fletcher Bigham ('23, Coastal Carolina) and Dallas Gardner ('23, Georgia Southern)
+ are outside the window; RealGM shows transfers from the colleges the school lists
+ (Sewanee, Pembroke).
+- **LaxNumbers** boys (\`laxnumbers.com/team_info.php?y=<yr>&t=12769&s=2\`): 2024 none;
+ 2025–2026 Crandall Wilkins (Middlebury); 2027 **Harris Hatcher** (Saint Joseph's, D1) and
+ one Class of 2028 commit (uncounted, unnamed). Girls (\`t=22579\`): 2024–2025 Grayson Anne
+ McCurdy (JMU); 2026–2027 **Katy Blythe** (Furman, D1).
+- **Team 91 Charlotte commitments** (\`charlotte.team91lacrosse.com/commitments/\`): only
+ window entry is Crandall Wilkins '26.
+- **NC Football News** 2026 and 2027 class trackers: no Country Day entry. (2024 and 2025
+ slugs 404.)
+- **Tampa release** confirms Carlin Parker as men's basketball, walk-on.
+- College-roster reverse searches ("Charlotte Country Day" as High School) returned only
+ athletes already on the card (Miami, Richmond, JMU, Liberty, Bucknell, Ball State).`},{subtopic:`Leads ruled out`,source_file:null,preview:`| Name | Class | Lead | Why not a row | |---|---|---|---| | Owen Timperman | 2026 | Boys lacrosse goalkeeper, USA Lacrosse All-American, program-record saves | Not on the school's complete 13-name 2026 list; no tracker, club or college entry | | Evelyn Turner | 2026 | Girls lacrosse All-American; also girls basketball…`,text:`| Name | Class | Lead | Why not a row |
+|---|---|---|---|
+| Owen Timperman | 2026 | Boys lacrosse goalkeeper, USA Lacrosse All-American, program-record saves | Not on the school's complete 13-name 2026 list; no tracker, club or college entry |
+| Evelyn Turner | 2026 | Girls lacrosse All-American; also girls basketball | Same: not on the school's 2026 list; no commitment published |
+| Kendall Blount | 2024 | Louisville cheer, on the school list | Counted in the total only; cheer is not an NCAA sport (user decision 2026-11-08) |`},{subtopic:`Unchecked`,source_file:null,preview:`Rosters that could not be retrieved, so their seniors were checked against the school list and the trackers only: swimming, track & field, cross country, golf, wrestling (MaxPreps 404 or empty every season), and the 2024-25 girls lacrosse roster (empty table). Cheer, equestrian and squash have no public roster…`,text:`Rosters that could not be retrieved, so their seniors were checked against the school list
+and the trackers only: **swimming, track & field, cross country, golf, wrestling** (MaxPreps
+404 or empty every season), and the 2024-25 girls lacrosse roster (empty table). Cheer,
+equestrian and squash have no public roster anywhere. These are gaps in the *roster pull*,
+not in the result: the school's own per-class count is the check, and it matched.`},{subtopic:`Window check`,source_file:null,preview:`Current senior class 2027; most recently graduated 2026 = the window's last year. No window roll due. ---`,text:`Current senior class 2027; most recently graduated 2026 = the window's last year. **No
+window roll due.**
+
 ---`},{subtopic:`Wells Fargo Cup Points 2026-27 Season`,source_file:`Charlotte Country Day - Sports - Wells Fargo Cup Points 2026-27 Season.md`,preview:`# Charlotte Country Day — Wells Fargo Cup point-earning results, 2026–27 season (in progress)`,text:`# Charlotte Country Day — Wells Fargo Cup point-earning results, 2026–27 season (in progress)`},{subtopic:`Fall 2026 state championship finishes`,source_file:null,preview:`| Sport | Class | Finish | Final | Date | Source | |---|---|---|---|---|---| | Field hockey | Division 1 | Champion (No. 1 seed) | Charlotte Country Day 4, Cary Christian (No. 3) 2 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=9&currentyear=1 | | Boys soccer | 4A | Runner-up (No. 2 seed) | Rabun Gap…`,text:`| Sport | Class | Finish | Final | Date | Source |
 |---|---|---|---|---|---|
 | Field hockey | Division 1 | Champion (No. 1 seed) | Charlotte Country Day 4, Cary Christian (No. 3) 2 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=9&currentyear=1 |
@@ -826,4 +1018,4 @@ Country Day lists ten Cup wins: 1982–83, 1984–85, 1985–86, 1986–87, 1991
 
 Confirmed but left off, one runner-up year each: boys lacrosse 2026 (bracket, lost in overtime to Durham Academy), volleyball 2024 (bracket, lost to North Raleigh Christian) and boys cross country 2023 (official timing, 87–90 to Providence Day).`},{subtopic:`Wells Fargo Cup state-title context`,source_file:null,preview:`Country Day's list totals 155 state championships, which matches the Sports Offered card. Within the six Cup seasons it holds these titles by season: 2020–21 boys tennis; 2021–22 field hockey, girls cross country, boys golf; 2022–23 girls tennis, girls track; 2023–24 field hockey, girls tennis, girls swimming, girls…`,text:`Country Day's list totals 155 state championships, which matches the Sports Offered card. Within the six Cup seasons it holds these titles by season: 2020–21 boys tennis; 2021–22 field hockey, girls cross country, boys golf; 2022–23 girls tennis, girls track; 2023–24 field hockey, girls tennis, girls swimming, girls track; 2024–25 girls cross country, girls tennis, girls swimming, girls track; 2025–26 field hockey, girls tennis. The Winning Record card's counts of four, four and two for the last three seasons hold against this list.
 
----`}],i={school_slug:e,topic_slug:t,section_count:44,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:58,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

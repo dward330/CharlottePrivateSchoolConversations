@@ -226,15 +226,17 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 | Russ Berger | Baseball | Columbia | Ivy | D1 | Columbia roster (LHP, FY, Last School Charlotte Christian); PBR preview ("Columbia (NY) signee") |
 | Jack Beard | Baseball | Gardner-Webb | Big South | D1 | Gardner-Webb signing release, 2025-11-14; PBR preview ("Gardner Webb signee") |
 | Morgan Banks | Softball | Queens (Charlotte) | ASUN | D1 | Queens roster (LHP, Fr., Last School Charlotte Christian School); HighSchoolOT softball tracker |
-| Tate Estep | Football | Barton | SAC | D2 | Barton roster (WR, Fr., "Charlotte Christian Acad."); HighSchoolOT in-state D2 tracker ("Barton College Bulldogs (Wilson / South Atlantic Conference)") |
+| Tate Estep | Football | Barton | Conference Carolinas | D2 | Barton roster (WR, Fr., "Charlotte Christian Acad."); HighSchoolOT in-state D2 tracker ("Barton College Bulldogs (Wilson / South Atlantic Conference)") |
 
 Notes:
 - **Name forms.** MaxPreps prints "Daniel Phillips Jr."; Charlotte's roster and HighSchoolOT
  print "Daniel Phillips" — the card uses the college's form. The Kilgannons are two
  athletes, both Class of 2026 seniors on the 2025–26 MaxPreps roster and both on Elon's.
 - **Conference choices.** Army football is in the American (since 2024); Charlotte is in the
- American; Barton football's conference is taken from HighSchoolOT (SAC) — re-check against
- Barton's own page at \`/implement\`.
+ American. Barton football is in **Conference Carolinas**, checked 2026-11-08 on Barton's own
+ 2026 schedule (https://bartonbulldogs.com/sports/football/schedule), which marks Chowan,
+ Ferrum, UNC Pembroke, North Greenville, Shorter and Erskine as "CC *" conference games.
+ HighSchoolOT's "South Atlantic Conference" label is out of date and is not used.
 - **Family.** Jack Beard ('26) is the brother of Drew Beard ('24, JMU) — two rows, not a
  duplicate.`},{subtopic:`Class of 2025 — 21 committed, 15 Division I, 4 Power 4 (unchanged)`,source_file:null,preview:`Every row is on the school's Knights in College list. HighSchoolOT re-confirms Bettencourt, Nicholson, E. Boykin, Paschall, Vance, Fox, Hinde, Farrell and Hall. | Athlete | Sport | College | Conference | Level | |---|---|---|---|---| | Evan Boykin | Track & Field | Kentucky | SEC | P4 | | Anna Hinde | Softball |…`,text:`Every row is on the school's Knights in College list. HighSchoolOT re-confirms Bettencourt,
 Nicholson, E. Boykin, Paschall, Vance, Fox, Hinde, Farrell and Hall.
