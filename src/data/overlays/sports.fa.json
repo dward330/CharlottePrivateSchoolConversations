@@ -369,6 +369,15 @@
         "providence-day:pipeline.roster[63].sport",
         "providence-day:pipeline.roster[64].sport",
         "providence-day:pipeline.roster[81].sport",
+        "providence-day:pipeline.roster[86].sport",
+        "providence-day:pipeline.roster[87].sport",
+        "providence-day:pipeline.roster[88].sport",
+        "providence-day:pipeline.roster[89].sport",
+        "providence-day:pipeline.roster[90].sport",
+        "providence-day:pipeline.roster[91].sport",
+        "providence-day:pipeline.roster[93].sport",
+        "providence-day:pipeline.roster[94].sport",
+        "providence-day:pipeline.roster[95].sport",
         "charlotte-latin:pipeline.roster[18].sport",
         "charlotte-latin:pipeline.roster[34].sport",
         "charlotte-latin:coaching.tenure[7].role",
@@ -425,11 +434,13 @@
         "providence-day:pipeline.roster[35].sport",
         "providence-day:pipeline.roster[57].sport",
         "providence-day:pipeline.roster[73].sport",
+        "providence-day:pipeline.roster[92].sport",
         "charlotte-latin:pipeline.roster[1].sport",
         "charlotte-latin:pipeline.roster[2].sport",
         "charlotte-latin:pipeline.roster[19].sport",
         "charlotte-latin:pipeline.roster[21].sport",
         "charlotte-latin:pipeline.roster[36].sport",
+        "charlotte-latin:pipeline.roster[40].sport",
         "charlotte-christian:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[0].sport",
         "charlotte-country-day:pipeline.roster[1].sport",
@@ -527,7 +538,8 @@
         "cannon:pipeline.roster[16].sport",
         "cannon:pipeline.roster[17].sport",
         "cannon:pipeline.roster[21].sport",
-        "cannon:pipeline.roster[22].sport"
+        "cannon:pipeline.roster[22].sport",
+        "cannon:pipeline.roster[28].sport"
       ]
     },
     {
@@ -593,12 +605,15 @@
         "charlotte-christian:pipeline.roster[16].sport",
         "charlotte-christian:pipeline.roster[27].sport",
         "charlotte-christian:pipeline.roster[28].sport",
+        "charlotte-christian:pipeline.roster[38].sport",
         "charlotte-catholic:pipeline.roster[2].sport",
         "charlotte-catholic:pipeline.roster[3].sport",
         "charlotte-catholic:pipeline.roster[5].sport",
         "charlotte-catholic:pipeline.roster[14].sport",
         "charlotte-catholic:pipeline.roster[23].sport",
         "charlotte-catholic:pipeline.roster[34].sport",
+        "charlotte-catholic:pipeline.roster[36].sport",
+        "charlotte-catholic:pipeline.roster[37].sport",
         "charlotte-country-day:pipeline.roster[5].sport",
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
@@ -710,8 +725,8 @@
       ]
     },
     {
-      "t": "برچسب‌های سطح (P4 / D1 / D2 / D3) و کنفرانس‌ها را پژوهشگر بر پایهٔ وضعیت NCAA هر دانشگاه افزوده است — این‌ها در فهرست مدرسه نیستند. P4 یعنی SEC · Big Ten · ACC · Big 12.",
-      "of": "3d80e155",
+      "t": "برچسب‌های سطح (P4 / D1 / D2 / D3) و کنفرانس‌ها را پژوهشگر بر پایهٔ وضعیت NCAA هر دانشگاه افزوده است — این‌ها در فهرست مدرسه نیستند. P4 یعنی SEC · Big Ten · ACC · Big 12. ردیف‌های دورهٔ 2027 تعهدهای شفاهی عمومی‌اند و از آن رو فهرست شده‌اند که پیش‌تر اعلام شده‌اند؛ تا زمانی که آن ورزشکاران امضا نکنند، در قیف، در نوارهای رشته‌ها یا در ردیف‌های Power 4 و Division I شمرده نمی‌شوند.",
+      "of": "0fba5284",
       "at": [
         "providence-day:pipeline.rosterNote"
       ]
@@ -1765,6 +1780,7 @@
         "charlotte-catholic:pipeline.roster[22].sport",
         "charlotte-catholic:pipeline.roster[24].sport",
         "charlotte-catholic:pipeline.roster[25].sport",
+        "charlotte-catholic:pipeline.roster[35].sport",
         "covenant-day:pipeline.roster[10].sport"
       ]
     },
@@ -1800,8 +1816,8 @@
       ]
     },
     {
-      "t": "چند اعلامیهٔ روز امضا برای دوره‌های 2024 و 2025 نام دانشگاه را آورده بودند اما نام رشته را نه؛ آن سطرها به‌جای حدس زدن، «منتشر نشده» خوانده می‌شوند. P4 یعنی SEC · Big Ten · ACC · Big 12.",
-      "of": "6456927d",
+      "t": "چند اعلامیهٔ روز امضا برای دوره‌های 2024 و 2025 نام دانشگاه را آورده بودند اما نام رشته را نه؛ آن سطرها به‌جای حدس زدن، «منتشر نشده» خوانده می‌شوند. P4 یعنی SEC · Big Ten · ACC · Big 12. ردیف‌های دورهٔ 2027 تعهدهای شفاهی عمومی‌اند و از آن رو فهرست شده‌اند که پیش‌تر اعلام شده‌اند؛ تا زمانی که آن ورزشکاران امضا نکنند، در قیف، در نوارهای رشته‌ها یا در ردیف‌های Power 4 و Division I شمرده نمی‌شوند.",
+      "of": "dd7cacfc",
       "at": [
         "charlotte-latin:pipeline.rosterNote"
       ]
@@ -2616,8 +2632,8 @@
       ]
     },
     {
-      "t": "دورهٔ 2026 در اینجا نماینده‌ای ندارد: مدرسه تا ژوئیهٔ 2026 هیچ فهرست تعهدی برای 2026 منتشر نکرده است، بنابراین هر رقم اینجا کف بازهٔ سه‌دوره‌ای است. برچسب‌های سطح و کنفرانس‌ها را پژوهشگر بر پایهٔ وضعیت NCAA هر دانشگاه افزوده است.",
-      "of": "9d85e00c",
+      "t": "دورهٔ 2026 در اینجا نماینده‌ای ندارد: مدرسه تا ژوئیهٔ 2026 هیچ فهرست تعهدی برای 2026 منتشر نکرده است، بنابراین هر رقم اینجا کف بازهٔ سه‌دوره‌ای است. برچسب‌های سطح و کنفرانس‌ها را پژوهشگر بر پایهٔ وضعیت NCAA هر دانشگاه افزوده است. ردیف‌های دورهٔ 2027 تعهدهای شفاهی عمومی‌اند و از آن رو فهرست شده‌اند که پیش‌تر اعلام شده‌اند؛ تا زمانی که آن ورزشکاران امضا نکنند، در قیف، در نوارهای رشته‌ها یا در ردیف‌های Power 4 و Division I شمرده نمی‌شوند.",
+      "of": "bb275bed",
       "at": [
         "charlotte-christian:pipeline.rosterNote"
       ]
@@ -3437,7 +3453,8 @@
       "of": "743c68e3",
       "at": [
         "charlotte-catholic:pipeline.roster[8].sport",
-        "charlotte-catholic:pipeline.roster[13].sport"
+        "charlotte-catholic:pipeline.roster[13].sport",
+        "charlotte-catholic:pipeline.roster[38].sport"
       ]
     },
     {
@@ -3446,6 +3463,7 @@
       "at": [
         "charlotte-catholic:pipeline.roster[27].sport",
         "charlotte-catholic:pipeline.roster[30].sport",
+        "charlotte-catholic:pipeline.roster[39].sport",
         "covenant-day:pipeline.roster[4].sport",
         "covenant-day:pipeline.roster[5].sport",
         "covenant-day:pipeline.roster[9].sport",
@@ -3465,8 +3483,8 @@
       ]
     },
     {
-      "t": "Cannon Ridinger پس از تحصیل پیشین در Charlotte Country Day (که آن هم در این برنامه هست) و Hotchkiss، از CCHS فارغ‌التحصیل شد؛ او در اینجا بر پایهٔ مدرسهٔ فارغ‌التحصیلی نسبت داده شده است و نباید دو بار شمرده شود. Evan MacIntyre در زمان تعهد به‌عنوان P4 شمرده می‌شود و از آن پس از مسیر JUCO به Belmont Abbey منتقل شده است. نام Mary Catherine Farley (Wofford) در فهرست امضای 2024 آمده اما هرگز در فهرست بازیکنان هیچ دانشگاهی دیده نشده، و از همهٔ شمارش‌ها کنار گذاشته شده است. Alex Hoffman تنها از راه جست‌وجوی معکوس در فهرست بازیکنان به دست آمد، نه از یک مقالهٔ امضا.",
-      "of": "2f98b322",
+      "t": "Cannon Ridinger پس از تحصیل پیشین در Charlotte Country Day (که آن هم در این برنامه هست) و Hotchkiss، از CCHS فارغ‌التحصیل شد؛ او در اینجا بر پایهٔ مدرسهٔ فارغ‌التحصیلی نسبت داده شده است و نباید دو بار شمرده شود. Evan MacIntyre در زمان تعهد به‌عنوان P4 شمرده می‌شود و از آن پس از مسیر JUCO به Belmont Abbey منتقل شده است. نام Mary Catherine Farley (Wofford) در فهرست امضای 2024 آمده اما هرگز در فهرست بازیکنان هیچ دانشگاهی دیده نشده، و از همهٔ شمارش‌ها کنار گذاشته شده است. Alex Hoffman تنها از راه جست‌وجوی معکوس در فهرست بازیکنان به دست آمد، نه از یک مقالهٔ امضا. ردیف‌های دورهٔ 2027 تعهدهای شفاهی عمومی‌اند و از آن رو فهرست شده‌اند که پیش‌تر اعلام شده‌اند؛ تا زمانی که آن ورزشکاران امضا نکنند، در قیف، در نوارهای رشته‌ها یا در ردیف‌های Power 4 و Division I شمرده نمی‌شوند.",
+      "of": "a601920f",
       "at": [
         "charlotte-catholic:pipeline.rosterNote"
       ]

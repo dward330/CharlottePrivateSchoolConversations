@@ -369,6 +369,15 @@
         "providence-day:pipeline.roster[63].sport",
         "providence-day:pipeline.roster[64].sport",
         "providence-day:pipeline.roster[81].sport",
+        "providence-day:pipeline.roster[86].sport",
+        "providence-day:pipeline.roster[87].sport",
+        "providence-day:pipeline.roster[88].sport",
+        "providence-day:pipeline.roster[89].sport",
+        "providence-day:pipeline.roster[90].sport",
+        "providence-day:pipeline.roster[91].sport",
+        "providence-day:pipeline.roster[93].sport",
+        "providence-day:pipeline.roster[94].sport",
+        "providence-day:pipeline.roster[95].sport",
         "charlotte-latin:pipeline.roster[18].sport",
         "charlotte-latin:pipeline.roster[34].sport",
         "charlotte-latin:coaching.tenure[7].role",
@@ -425,11 +434,13 @@
         "providence-day:pipeline.roster[35].sport",
         "providence-day:pipeline.roster[57].sport",
         "providence-day:pipeline.roster[73].sport",
+        "providence-day:pipeline.roster[92].sport",
         "charlotte-latin:pipeline.roster[1].sport",
         "charlotte-latin:pipeline.roster[2].sport",
         "charlotte-latin:pipeline.roster[19].sport",
         "charlotte-latin:pipeline.roster[21].sport",
         "charlotte-latin:pipeline.roster[36].sport",
+        "charlotte-latin:pipeline.roster[40].sport",
         "charlotte-christian:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[0].sport",
         "charlotte-country-day:pipeline.roster[1].sport",
@@ -527,7 +538,8 @@
         "cannon:pipeline.roster[16].sport",
         "cannon:pipeline.roster[17].sport",
         "cannon:pipeline.roster[21].sport",
-        "cannon:pipeline.roster[22].sport"
+        "cannon:pipeline.roster[22].sport",
+        "cannon:pipeline.roster[28].sport"
       ]
     },
     {
@@ -593,12 +605,15 @@
         "charlotte-christian:pipeline.roster[16].sport",
         "charlotte-christian:pipeline.roster[27].sport",
         "charlotte-christian:pipeline.roster[28].sport",
+        "charlotte-christian:pipeline.roster[38].sport",
         "charlotte-catholic:pipeline.roster[2].sport",
         "charlotte-catholic:pipeline.roster[3].sport",
         "charlotte-catholic:pipeline.roster[5].sport",
         "charlotte-catholic:pipeline.roster[14].sport",
         "charlotte-catholic:pipeline.roster[23].sport",
         "charlotte-catholic:pipeline.roster[34].sport",
+        "charlotte-catholic:pipeline.roster[36].sport",
+        "charlotte-catholic:pipeline.roster[37].sport",
         "charlotte-country-day:pipeline.roster[5].sport",
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
@@ -710,8 +725,8 @@
       ]
     },
     {
-      "t": "స్థాయి పేర్లు (P4 / D1 / D2 / D3) మరియు conferences ఒక్కో కళాశాల NCAA హోదా ఆధారంగా పరిశోధకుడు చేర్చినవి — అవి పాఠశాల జాబితాలో లేవు. P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "3d80e155",
+      "t": "స్థాయి పేర్లు (P4 / D1 / D2 / D3) మరియు conferences ఒక్కో కళాశాల NCAA హోదా ఆధారంగా పరిశోధకుడు చేర్చినవి — అవి పాఠశాల జాబితాలో లేవు. P4 = SEC · Big Ten · ACC · Big 12. 2027 బ్యాచ్ వరుసలు బహిరంగ మౌఖిక commitments, అప్పటికే ప్రకటించినవి కాబట్టి జాబితాలో ఉన్నాయి; ఆ క్రీడాకారులు సంతకం చేసేవరకు వాటిని ఫన్నెల్‌లో, క్రీడల వారీ బార్లలో లేదా Power 4 మరియు Division I వరుసలలో లెక్కించరు.",
+      "of": "0fba5284",
       "at": [
         "providence-day:pipeline.rosterNote"
       ]
@@ -1765,6 +1780,7 @@
         "charlotte-catholic:pipeline.roster[22].sport",
         "charlotte-catholic:pipeline.roster[24].sport",
         "charlotte-catholic:pipeline.roster[25].sport",
+        "charlotte-catholic:pipeline.roster[35].sport",
         "covenant-day:pipeline.roster[10].sport"
       ]
     },
@@ -1800,8 +1816,8 @@
       ]
     },
     {
-      "t": "2024 మరియు 2025 బ్యాచ్‌ల పలు signing-day ప్రకటనలు కళాశాల పేరును తెలిపాయి కానీ క్రీడను కాదు; ఆ వరుసలలో ఊహించకుండా \"ప్రచురించలేదు\" అని ఇవ్వబడింది. P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "6456927d",
+      "t": "2024 మరియు 2025 బ్యాచ్‌ల పలు signing-day ప్రకటనలు కళాశాల పేరును తెలిపాయి కానీ క్రీడను కాదు; ఆ వరుసలలో ఊహించకుండా \"ప్రచురించలేదు\" అని ఇవ్వబడింది. P4 = SEC · Big Ten · ACC · Big 12. 2027 బ్యాచ్ వరుసలు బహిరంగ మౌఖిక commitments, అప్పటికే ప్రకటించినవి కాబట్టి జాబితాలో ఉన్నాయి; ఆ క్రీడాకారులు సంతకం చేసేవరకు వాటిని ఫన్నెల్‌లో, క్రీడల వారీ బార్లలో లేదా Power 4 మరియు Division I వరుసలలో లెక్కించరు.",
+      "of": "dd7cacfc",
       "at": [
         "charlotte-latin:pipeline.rosterNote"
       ]
@@ -2616,8 +2632,8 @@
       ]
     },
     {
-      "t": "2026 బ్యాచ్‌కు ప్రాతినిధ్యం లేదు: 2026 జూలై నాటికి పాఠశాల 2026 commitment జాబితాను ప్రచురించలేదు, కాబట్టి ఇక్కడి ప్రతి సంఖ్యా మూడు బ్యాచ్‌ల కాలానికి కనిష్ఠమే. ఒక్కో కళాశాల NCAA హోదా ఆధారంగా స్థాయి పేర్లు మరియు conferences పరిశోధకుడు చేర్చారు.",
-      "of": "9d85e00c",
+      "t": "2026 బ్యాచ్‌కు ప్రాతినిధ్యం లేదు: 2026 జూలై నాటికి పాఠశాల 2026 commitment జాబితాను ప్రచురించలేదు, కాబట్టి ఇక్కడి ప్రతి సంఖ్యా మూడు బ్యాచ్‌ల కాలానికి కనిష్ఠమే. ఒక్కో కళాశాల NCAA హోదా ఆధారంగా స్థాయి పేర్లు మరియు conferences పరిశోధకుడు చేర్చారు. 2027 బ్యాచ్ వరుసలు బహిరంగ మౌఖిక commitments, అప్పటికే ప్రకటించినవి కాబట్టి జాబితాలో ఉన్నాయి; ఆ క్రీడాకారులు సంతకం చేసేవరకు వాటిని ఫన్నెల్‌లో, క్రీడల వారీ బార్లలో లేదా Power 4 మరియు Division I వరుసలలో లెక్కించరు.",
+      "of": "bb275bed",
       "at": [
         "charlotte-christian:pipeline.rosterNote"
       ]
@@ -3437,7 +3453,8 @@
       "of": "743c68e3",
       "at": [
         "charlotte-catholic:pipeline.roster[8].sport",
-        "charlotte-catholic:pipeline.roster[13].sport"
+        "charlotte-catholic:pipeline.roster[13].sport",
+        "charlotte-catholic:pipeline.roster[38].sport"
       ]
     },
     {
@@ -3446,6 +3463,7 @@
       "at": [
         "charlotte-catholic:pipeline.roster[27].sport",
         "charlotte-catholic:pipeline.roster[30].sport",
+        "charlotte-catholic:pipeline.roster[39].sport",
         "covenant-day:pipeline.roster[4].sport",
         "covenant-day:pipeline.roster[5].sport",
         "covenant-day:pipeline.roster[9].sport",
@@ -3465,8 +3483,8 @@
       ]
     },
     {
-      "t": "Cannon Ridinger ముందుగా Charlotte Country Day (ఇది కూడా ఈ యాప్‌లో ఉంది) మరియు Hotchkissలో చదివిన తర్వాత CCHS నుంచి పట్టభద్రుడయ్యారు; ఇక్కడ ఆయనను పట్టభద్రుడైన పాఠశాల ప్రకారం చేర్చారు మరియు రెండుసార్లు లెక్కించకూడదు. Evan MacIntyre commitment సమయంలో P4గా లెక్కించబడ్డారు మరియు అప్పటి నుంచి JUCO ద్వారా Belmont Abbeyకి మారారు. Mary Catherine Farley (Wofford) 2024 signing జాబితాలో కనిపిస్తారు కానీ ఏ కళాశాల రోస్టర్‌లోనూ లేరు, కాబట్టి ప్రతి లెక్క నుంచి మినహాయించారు. Alex Hoffman signing కథనం ద్వారా కాకుండా రివర్స్ రోస్టర్ శోధన ద్వారా మాత్రమే కనిపించారు.",
-      "of": "2f98b322",
+      "t": "Cannon Ridinger ముందుగా Charlotte Country Day (ఇది కూడా ఈ యాప్‌లో ఉంది) మరియు Hotchkissలో చదివిన తర్వాత CCHS నుంచి పట్టభద్రుడయ్యారు; ఇక్కడ ఆయనను పట్టభద్రుడైన పాఠశాల ప్రకారం చేర్చారు మరియు రెండుసార్లు లెక్కించకూడదు. Evan MacIntyre commitment సమయంలో P4గా లెక్కించబడ్డారు మరియు అప్పటి నుంచి JUCO ద్వారా Belmont Abbeyకి మారారు. Mary Catherine Farley (Wofford) 2024 signing జాబితాలో కనిపిస్తారు కానీ ఏ కళాశాల రోస్టర్‌లోనూ లేరు, కాబట్టి ప్రతి లెక్క నుంచి మినహాయించారు. Alex Hoffman signing కథనం ద్వారా కాకుండా రివర్స్ రోస్టర్ శోధన ద్వారా మాత్రమే కనిపించారు. 2027 బ్యాచ్ వరుసలు బహిరంగ మౌఖిక commitments, అప్పటికే ప్రకటించినవి కాబట్టి జాబితాలో ఉన్నాయి; ఆ క్రీడాకారులు సంతకం చేసేవరకు వాటిని ఫన్నెల్‌లో, క్రీడల వారీ బార్లలో లేదా Power 4 మరియు Division I వరుసలలో లెక్కించరు.",
+      "of": "a601920f",
       "at": [
         "charlotte-catholic:pipeline.rosterNote"
       ]

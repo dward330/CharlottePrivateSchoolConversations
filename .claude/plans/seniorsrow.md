@@ -1,7 +1,7 @@
 ---
 name: seniorsrow
 title: Compare › Sports gets a "Current seniors committed" row (`seniors-committed`, Class of 2027, any level, verbal or signed) for every high school, fed by a new per-class retention file per school and a current-senior sweep of all eleven; each card's roster gains the class's verbal rows; the window-roll procedure is recorded. UX-approved 2026-11-08. Two-phase
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/seniors-committed-row
@@ -282,3 +282,10 @@ Phase 2 (a row appended last — no re-splice of earlier paths) and `cannoncommi
   rule are recorded in each per-class file, not counted.
 - `check:live` fails in Phase 1 on exactly the four edited `rosterNote` sentences — the
   expected English-first state until Phase 2.
+- **Phase 2 (2026-11-08).** Nine locales, two topics. `metric-values` needed no splice (the
+  Phase 1 re-splice had already added the 3 units); `sports` spliced 1035 kept / 4 added / 4
+  dropped per locale — the 4 dropped are the superseded English of the edited `rosterNote`s.
+  Each new `rosterNote` is its locale's existing translation plus the standard sentence,
+  adapted from Cannon's #447 rendering with "Compare page" → "the Power 4 and Division I
+  rows". Verified by stamp that only those 7 units changed per locale;
+  `check_work_integrity.mjs` reports index-shift "mutations" after any splice, as expected.
