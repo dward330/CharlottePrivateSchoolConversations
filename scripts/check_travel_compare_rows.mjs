@@ -66,7 +66,9 @@ const KEYS = [
 ]
 // The only rows allowed after the travel rows, in order (plan `cupcompare`).
 // check:cup asserts their own placement.
-const TAIL_KEYS = ['cup-finish', 'cup-titles', 'cup-best']
+// Rows deliberately appended LAST so no earlier overlay path shifts: the three Cup rows
+// (plans cupcompare/cupbest) and the current-seniors row (plan seniorsrow, 2026-11-08).
+const TAIL_KEYS = ['cup-finish', 'cup-titles', 'cup-best', 'seniors-committed']
 const DOMESTIC = new Set(['New Mexico'])
 const UK = new Set(['England', 'Scotland', 'United Kingdom'])
 // Every destination piece on today's ledgers. A new one must be classified

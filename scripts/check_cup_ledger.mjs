@@ -22,7 +22,7 @@
  *   - Providence Day's card reads the figures verified from the official tables;
  *   - the inline fixtures compute what they should;
  *   - the two Compare rows (`cup-finish`, `cup-titles`, plan `cupcompare`) are
- *     contiguous and last in VALUE_METRICS, compareOnly, noLead and carrying the
+ *     contiguous, directly before the allowed tail (`seniors-committed`), compareOnly, noLead and carrying the
  *     `cup` header tip, name the seasons in their labels, list the same schools as `d1-commits-2426`, and
  *     every typed cell, sub-line and tooltip matches the ledger.
  *
@@ -374,7 +374,12 @@ const finish = VALUE_METRICS.find((m) => m.key === 'cup-finish')
 const titles = VALUE_METRICS.find((m) => m.key === 'cup-titles')
 const bestRow = VALUE_METRICS.find((m) => m.key === 'cup-best')
 
-eq('Compare rows: last in VALUE_METRICS, in order', VALUE_METRICS.slice(-COMPARE_KEYS.length).map((m) => m.key), COMPARE_KEYS)
+// Rows that may follow the Cup rows: appended LAST by design so no earlier overlay path
+// shifts (plan seniorsrow, 2026-11-08). The Cup rows must still be contiguous, in order,
+// and directly before this tail.
+const AFTER_CUP = ['seniors-committed']
+const tail = VALUE_METRICS.slice(-(COMPARE_KEYS.length + AFTER_CUP.length)).map((m) => m.key)
+eq('Compare rows: contiguous, in order, directly before the allowed tail', tail, [...COMPARE_KEYS, ...AFTER_CUP])
 eq(
   'Compare rows: exactly these three',
   VALUE_METRICS.filter((m) => m.key.startsWith('cup-')).map((m) => m.key),

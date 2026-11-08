@@ -295,9 +295,11 @@ export const charlotteChristian: SportsProgram = {
       { cls: "'24", name: 'Thomas McNally', sport: 'Golf', college: 'Guilford', conf: 'ODAC', level: 'D3' },
       { cls: "'24", name: 'Connor Natwick', sport: 'Golf', college: 'Sewanee', conf: 'SAA', level: 'D3' },
       { cls: "'24", name: 'Oliver Tobin', sport: 'Golf', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
+      // Class of 2027 — public verbal commitments, not yet signed; not in the funnel or Compare
+      { cls: "'27", name: 'Will Parrish', sport: 'Baseball', college: 'NC State', conf: 'ACC', level: 'P4' },
     ],
     rosterNote:
-      'The Class of 2026 is not represented: the school publishes no 2026 commitment list as of July 2026, so every figure here is a floor for the three-class window. Level labels and conferences were added by the researcher from each college’s NCAA status.',
+      'The Class of 2026 is not represented: the school publishes no 2026 commitment list as of July 2026, so every figure here is a floor for the three-class window. Level labels and conferences were added by the researcher from each college’s NCAA status. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       { label: 'charlottechristian.com — Knights in College', url: ACCOLADES },
       {
@@ -308,6 +310,8 @@ export const charlotteChristian: SportsProgram = {
         label: '247Sports Composite — 2024 North Carolina football rankings',
         url: 'https://247sports.com/season/2024-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
       },
+      { label: 'Prep Baseball Report — North Carolina Class of 2027 rankings (Parrish)', url: 'https://www.prepbaseballreport.com/rankings/NC/North-Carolina-class-of-2027' },
+      { label: 'NCSA — Will Parrish ’27 recruiting profile', url: 'https://www.ncsasports.org/baseball-recruiting/north-carolina/charlotte/charlotte-christian-school/will-parrish4' },
     ],
   },
 

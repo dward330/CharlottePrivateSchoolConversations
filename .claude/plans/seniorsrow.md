@@ -1,7 +1,7 @@
 ---
 name: seniorsrow
 title: Compare › Sports gets a "Current seniors committed" row (`seniors-committed`, Class of 2027, any level, verbal or signed) for every high school, fed by a new per-class retention file per school and a current-senior sweep of all eleven; each card's roster gains the class's verbal rows; the window-roll procedure is recorded. UX-approved 2026-11-08. Two-phase
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-08
 branch: feat/seniors-committed-row

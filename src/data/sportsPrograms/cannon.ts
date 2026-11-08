@@ -302,6 +302,7 @@ export const cannon: SportsProgram = {
       },
       { cls: "'27", name: 'Kingston Davis', sport: 'Football', college: 'Furman', conf: 'Southern', level: 'D1' },
       { cls: "'27", name: 'Tripp Cooler', sport: 'Swimming', college: 'Villanova', conf: 'Big East', level: 'D1' },
+      { cls: "'27", name: 'Hudson Higbea', sport: 'Boys Lacrosse', college: 'Brown', conf: 'Ivy', level: 'D1' },
     ],
     rosterNote:
       'The Class of 2027 rows are public verbal commitments and are listed because they are already announced; they are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale. Three athletes have since moved — Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson as a preferred walk-on, and Jake Baker from East Carolina to Western Carolina — and the roster shows the college each committed to out of Cannon.',
@@ -367,6 +368,7 @@ export const cannon: SportsProgram = {
       { label: 'DePauw — men’s lacrosse roster (Carter Cassidy)', url: 'https://depauwtigers.com/sports/mens-lacrosse/roster' },
       { label: 'Skidmore — men’s lacrosse roster (JT Murphy)', url: 'https://skidmoreathletics.com/sports/mens-lacrosse/roster' },
       { label: 'William Smith — 2025 volleyball roster (Lily Wittgraefe)', url: 'https://hwsathletics.com/sports/womens-volleyball/roster/2025' },
+      { label: 'Team 91 Charlotte — The Scoop: the 2027 commitments (Higbea)', url: 'https://team91charlotte.substack.com/p/the-scoop-the-commitments' },
     ],
   },
 

@@ -7,11 +7,12 @@
 > and the data promoted into the 2024–26 window file when the window rolls after graduation
 > (from 1 June 2027). **Never delete it.**
 >
-> **Status: football only, seeded from two statewide trackers.** `/implement seniorsrow` must
-> complete the sweep for the other sports (Providence Day publishes its own commitment news
-> on its athletics site and an "Alumni at the Next Level" roster — check those first, then
-> LaxNumbers in Chrome, PrepVolleyball, Prep Girls Hoops, SwimSwam, Perfect Game, the
-> Charlotte Observer preseason previews) and confirm Abanquah on a second source.
+> **Status (2026-11-08, `/implement seniorsrow`): 10 confirmed, 2 leads.** Football from
+> the NC Football News tracker and 247Sports (Abanquah confirmed by Prism News); swimming
+> from the Charlotte Observer preview and SwimSwam. The school's own fall signing post and
+> its "Alumni at the Next Level" roster were not yet updated for this class; LaxNumbers,
+> PrepVolleyball, Team 91 / Ultimate Lacrosse, Prep Baseball Report and the Observer girls
+> basketball preview list no Providence Day 2027 commitment. Re-run after 2026-11-11.
 >
 > Verbal commitments are listed, never counted in `p4-commits-2426` / `d1-commits-2426`.
 
@@ -35,14 +36,26 @@
 | Steele Fletcher | WR | Wake Forest | ACC | **P4** | 2/12/2026 | NCFN; 247 (85, NC No. 50) |
 | Ethan Dempsey | WR | Charlotte | American | D1 | 6/26/2026 | NCFN; 247 (86, NC No. 49) |
 | Cooper Hodson | IOL | Delaware | CAA | D1 | 6/22/2026 | NCFN; 247 (83, NC No. 58) |
-| Justin Abanquah | ILB | Elon | Southern | D1 | 6/23/2026 | NCFN only — **needs a second source** (247 player page, Elon or school announcement) before it is a row |
+| Justin Abanquah | ILB | Elon | Southern | D1 | 6/23/2026 | NCFN; Prism News "Elon adds Charlotte-area standouts to 2027 recruiting class" https://www.prismnews.com/sports/fcs-football/elon-adds-charlotte-area-standouts-to-2027-recruiting-class |
 
 `rank247` for the card: read each player's 247 page in a browser before typing a Composite
 rank; the figures above are the 247Sports-only state ranks from the rankings table.
 
-## Other sports
-Not yet swept (see Status). Record each sport's result here, including "none found".
+## Swimming — 1 confirmed, 2 leads
+| Athlete | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|
+| Maddy Boland (Sr., 50/100 free) | North Carolina | ACC | **P4** | Charlotte Observer swimming preview 2026-11-03 ("UNC commit"); SwimSwam "UNC Adds Summer Juniors Qualifier and NAG Record Holder Maddy Boland For 2027" https://swimswam.com/unc-adds-summer-juniors-qualifier-and-nag-record-holder-maddy-boland-for-2027/ |
 
-## Totals for the `seniors-committed` row (as of 2026-11-08, football only)
-**9 confirmed public commitments** (8 with two sources + Abanquah pending). Provisional
-value: `'9'` if Abanquah confirms, `'8'` if not; the sweep of the other sports will raise it.
+Leads: **Georgia Howard** → Dartmouth (Ivy, D1) — SwimSwam only ("rising senior at
+Providence Day", https://swimswam.com/?p=1024710); **Dean Hamid** (Sr., 50/100 free) → Davidson
+(Atlantic 10, D1) — Observer preview only. Zona Smith (Florida) and Annie Shall (UNC) are
+juniors (Class of 2028).
+
+## Other sports — none found
+Basketball (247's 2027 NC page lists no Providence Day player; RealGM unreachable by id),
+lacrosse (Team 91 and Ultimate Lacrosse 2027 lists), baseball (Prep Baseball Report: Chase
+Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball 2027 watchlist):
+no Providence Day 2027 commitment found.
+
+## Totals for the `seniors-committed` row (as of 2026-11-08)
+**10 confirmed** (value `'10'`): 7 Power 4, 3 other Division I. Two leads pending.

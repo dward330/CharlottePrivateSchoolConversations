@@ -1,6 +1,6 @@
 # Charlotte Country Day School — Sports
-> Distilled from 18 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-06.
-**Documents:** Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Swimming Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records, 247Sports Recruiting Rankings, Redesign Research 2026, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
+> Distilled from 19 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+**Documents:** Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Swimming Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records, 247Sports Recruiting Rankings, College Commitments Class of 2027, Redesign Research 2026, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 
 ---
@@ -795,6 +795,50 @@ Composite (shown in the app) and 247Sports in-house lists, NC, high-school insti
 - https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
 - https://247sports.com/season/<year>-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
 - https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC — fetched for 2023, 2024, 2025, 2026, 2027 (append `&Page=2` for rows 51+)
+
+
+---
+
+## College Commitments Class of 2027
+
+*Source file: `Charlotte Country Day - Sports - College Commitments Class of 2027.md`*
+
+# Charlotte Country Day — Sports — College Commitments, Class of 2027 (current seniors)
+
+> **Provenance:** Written by Claude Code on 2026-11-08 during `/implement seniorsrow`. The
+> **per-class retention file** the `/athlete-commits` skill keeps for the current senior
+> class — every public commitment, verbal or signed, any level, with sources. It is the value
+> of the `seniors-committed` Compare row and is promoted into the 2024–26 window file when the
+> window rolls after graduation (from 1 June 2027). **Never delete it.**
+>
+> **Status: 0 confirmed, 1 lead.** The school's own athletics news board posts a fall
+> "collegiate athlete recognition" article each November and a second one in February;
+> neither is up yet for this class.
+>
+> Verbal commitments are listed, never counted in `p4-commits-2426` / `d1-commits-2426`.
+> **Two-source rule:** a row needs the college's or school's own announcement, or two
+> independent published sources; anything else is a lead.
+
+## Sweep record (2026-11-08)
+Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
+roster school yet — they fill after the signing periods), the NC Football News 2027 NC
+commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's
+2027 commitment list (Jan 2026), Ultimate Lacrosse Charlotte and Team 91 Carolina girls'
+commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team pages,
+PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
+girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
+own athletics news pages. School-published signing-day posts for the Class of 2027 are not
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
+
+## Confirmed — 0
+
+## Leads — one source only, not rows
+| Athlete | Sport | College | Source |
+|---|---|---|---|
+| Katy Blythe | Girls Lacrosse | Furman (Southern, D1) | Ultimate Lacrosse Charlotte team page, Class of 2027 (club-published); no Furman release yet |
+
+## Totals for the `seniors-committed` row (as of 2026-11-08)
+**0 confirmed** (value `'0'`), 1 pending.
 
 
 ---

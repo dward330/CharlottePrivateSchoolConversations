@@ -155,6 +155,10 @@ const ACCEPTANCE_WINDOWS: Record<string, string> = {
   'providence-day': '(2023–2026)',
 }
 
+/** One shared tooltip for every school on the `seniors-committed` row — identical strings share one translation unit. */
+const SENIORS_QUAL =
+  'Public commitments by the current senior class, counted at any level and verbal until signed; a documented minimum that grows through the spring signing period. Names are on the school’s College Pipeline card.'
+
 export const VALUE_METRICS: ValueMetric[] = [
   // =========================== Course Offerings ============================
   // Transcribed from each school's OWN published curriculum guide (see
@@ -2852,6 +2856,44 @@ export const VALUE_METRICS: ValueMetric[] = [
       'hickory-grove-christian': { kind: 'scope', text: '237.5 points, in NCISAA 3A.' },
       'gaston-day': { kind: 'scope', text: '395 points, in NCISAA 2A.' },
       'providence-day': { kind: 'scope', text: '692.5 points, in NCISAA 4A. Also won in 2020–21, 2022–23, 2023–24 and 2024–25.' },
+    },
+  },
+  // Appended LAST on purpose: metric-values overlay paths carry the array index, so an
+  // insert anywhere earlier would shift every later row's translations (plan seniorsrow).
+  // The key is class-agnostic; the class year lives in the label/note and rolls each June
+  // with the Power 4 / Division I window (see the athlete-commits skill's window check).
+  {
+    topic: 'sports',
+    key: 'seniors-committed',
+    label: 'Current seniors committed',
+    note: 'Class of 2027 athletes with a public college-athletics commitment at any level, verbal until signed. Documented minimum as of the most recent sweep; the class joins the Power 4 and Division I rows when the window rolls after graduation.',
+    values: {
+      cannon: '6', // Busby (Princeton), Drayton (Coastal Carolina), Sales (Ohio), K.Davis (Furman), Cooler (Villanova), Higbea (Brown) — all verbal, 2026-11-08
+      'providence-day': '10', // Geathers (Florida), Galloway (Kentucky), Drummond (Nebraska), Cooper (Penn State), Poku-Kankam (Rutgers), Fletcher (Wake Forest), Boland (UNC swim), Dempsey (Charlotte), Hodson (Delaware), Abanquah (Elon); Howard (Dartmouth) and Hamid (Davidson) single-source leads
+      'charlotte-catholic': '5', // Hedley (UNC lacrosse), Hucko (Auburn), McKain (Clemson), Hertzig (Yale), Drensek (Bucknell); Flynn, W.Johnson, Druhan, Leckner single-source leads
+      'charlotte-christian': '1', // Parrish (NC State baseball); Struble, Covey Team 91-only leads
+      'charlotte-latin': '1', // Greathouse (George Washington swim)
+      'gaston-day': '1', // B.Smith (Stanford swim) — the AD confirmed it to the Observer; no pipeline card to list her on
+      'charlotte-country-day': '0', // none confirmed; Blythe (Furman lacrosse) club-only lead; fall recognition post not yet published
+      'covenant-day': '0', // none found; fall Lions News signing post not yet published
+      'davidson-day': '0', // none found
+      'carmel-christian': '0', // none found; RealGM lists four 2027 players with no college
+      'hickory-grove-christian': '0', // none found
+      'charlotte-prep': null, // K-8
+      'trinity-episcopal': null, // K-8
+    },
+    quals: {
+      cannon: { kind: 'minimum', text: SENIORS_QUAL },
+      'providence-day': { kind: 'minimum', text: SENIORS_QUAL },
+      'charlotte-catholic': { kind: 'minimum', text: SENIORS_QUAL },
+      'charlotte-christian': { kind: 'minimum', text: SENIORS_QUAL },
+      'charlotte-latin': { kind: 'minimum', text: SENIORS_QUAL },
+      'gaston-day': { kind: 'minimum', text: SENIORS_QUAL },
+      'charlotte-country-day': { kind: 'minimum', text: SENIORS_QUAL },
+      'covenant-day': { kind: 'minimum', text: SENIORS_QUAL },
+      'davidson-day': { kind: 'minimum', text: SENIORS_QUAL },
+      'carmel-christian': { kind: 'minimum', text: SENIORS_QUAL },
+      'hickory-grove-christian': { kind: 'minimum', text: SENIORS_QUAL },
     },
   },
 ]

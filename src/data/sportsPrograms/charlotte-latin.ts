@@ -307,9 +307,11 @@ export const charlotteLatin: SportsProgram = {
       { cls: "'24", name: 'George Glassner', sport: 'Not published', college: 'Washington & Lee', conf: 'ODAC', level: 'D3' },
       { cls: "'24", name: 'Zachary Spicer', sport: 'Not published', college: 'Emory', conf: 'UAA', level: 'D3' },
       { cls: "'24", name: 'Jordan Pence', sport: 'Not published', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
+      // Class of 2027 — public verbal commitments, not yet signed; not in the funnel or Compare
+      { cls: "'27", name: 'Thomas Greathouse', sport: 'Swimming', college: 'George Washington', conf: 'Atlantic 10', level: 'D1' },
     ],
     rosterNote:
-      'Several Class of 2024 and 2025 signing-day announcements named the college but not the sport; those rows read "Not published" rather than being guessed at. P4 = SEC · Big Ten · ACC · Big 12.',
+      'Several Class of 2024 and 2025 signing-day announcements named the college but not the sport; those rows read "Not published" rather than being guessed at. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       {
         label: 'clshawks.com — 2026 signing day',
@@ -323,6 +325,8 @@ export const charlotteLatin: SportsProgram = {
         label: 'FloWrestling — 2026 National Prep pre-seeds',
         url: 'https://www.flowrestling.org/articles/15454487-2026-national-prep-wrestling-championship-pre-seeds',
       },
+      { label: 'SwimSwam — Thomas Greathouse verbals to George Washington for fall 2027', url: 'https://swimswam.com/north-carolina-hs-state-champion-thomas-greathouse-verbals-to-george-washington-for-fall-2027/' },
+      { label: 'Charlotte Observer via Yahoo — 2026–27 Charlotte-area swimming preview', url: 'https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html' },
     ],
   },
 

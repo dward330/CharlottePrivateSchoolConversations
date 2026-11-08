@@ -285,9 +285,15 @@ export const charlotteCatholic: SportsProgram = {
       { cls: '2026', name: 'Duncan Smith', sport: 'Cross country / track', college: 'Washington and Lee University', conf: 'ODAC', level: 'D3' },
       { cls: '2026', name: 'Keanen Teeter', sport: 'Football', college: 'Lenoir-Rhyne University', conf: 'South Atlantic', level: 'D2' },
       { cls: '2026', name: 'Alex Hoffman', sport: 'Baseball', college: 'Virginia Tech', conf: 'ACC', level: 'P4' },
+      // Class of 2027 — public verbal commitments, not yet signed; not in the funnel or Compare
+      { cls: '2027', name: 'James Hedley', sport: 'Lacrosse', college: 'University of North Carolina', conf: 'ACC', level: 'P4' },
+      { cls: '2027', name: 'John Hucko', sport: 'Baseball', college: 'Auburn University', conf: 'SEC', level: 'P4' },
+      { cls: '2027', name: 'Griffin McKain', sport: 'Baseball', college: 'Clemson University', conf: 'ACC', level: 'P4' },
+      { cls: '2027', name: 'Madi Hertzig', sport: 'Swim & dive', college: 'Yale University', conf: 'Ivy', level: 'D1' },
+      { cls: '2027', name: 'Emmett Drensek', sport: 'Soccer', college: 'Bucknell University', conf: 'Patriot', level: 'D1' },
     ],
     rosterNote:
-      'Cannon Ridinger graduated from CCHS after earlier attending Charlotte Country Day (also in this app) and Hotchkiss; he is attributed here by graduating school and must not be double-counted. Evan MacIntyre is counted P4 at commitment time and has since transferred to Belmont Abbey via JUCO. Mary Catherine Farley (Wofford) appears on the 2024 signing list but never on a college roster, and is excluded from every count. Alex Hoffman surfaced only through a reverse roster lookup, not a signing article.',
+      'Cannon Ridinger graduated from CCHS after earlier attending Charlotte Country Day (also in this app) and Hotchkiss; he is attributed here by graduating school and must not be double-counted. Evan MacIntyre is counted P4 at commitment time and has since transferred to Belmont Abbey via JUCO. Mary Catherine Farley (Wofford) appears on the 2024 signing list but never on a college roster, and is excluded from every count. Alex Hoffman surfaced only through a reverse roster lookup, not a signing article. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       { label: 'catholicnewsherald.com — 15 CCHS student-athletes commit (Nov 2023, Class of 2024)', url: SIGN24 },
       { label: 'Charlotte Observer — National Signing Day roundup (Nov 2024, Class of 2025)', url: SIGN25 },
@@ -297,6 +303,14 @@ export const charlotteCatholic: SportsProgram = {
         label: '247Sports Composite — 2026 North Carolina football rankings',
         url: 'https://247sports.com/season/2026-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
       },
+      { label: 'Team 91 Charlotte — The Scoop: the 2027 commitments (Hedley)', url: 'https://team91charlotte.substack.com/p/the-scoop-the-commitments' },
+      { label: 'National Lacrosse Federation — James Hedley', url: 'https://nationallacrossefederation.com/player/james-hedley/' },
+      { label: 'Perfect Game — Auburn college commitments (Hucko)', url: 'https://www.perfectgame.org/college/CollegeCommitments.aspx?college=1566' },
+      { label: 'TigerNet — 2027 Clemson baseball commitments (McKain)', url: 'https://www.tigernet.com/2027-clemson-baseball-commitments' },
+      { label: 'Prep Baseball Report — North Carolina Class of 2027 rankings', url: 'https://www.prepbaseballreport.com/rankings/NC/North-Carolina-class-of-2027' },
+      { label: 'SwimSwam — Madi Hertzig chooses Yale (2027)', url: 'https://swimswam.com/nc-high-school-6a-state-champ-madi-hertzig-chooses-yale-2027/' },
+      { label: 'Charlotte Observer via Yahoo — 2026–27 Charlotte-area swimming preview', url: 'https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html' },
+      { label: 'TopDrawerSoccer — recruiting roundup, Dec. 8–14, 2025 (Drensek)', url: 'https://www.topdrawersoccer.com/club-soccer-articles/recruiting-roundup:-december-8-14_aid55451' },
     ],
   },
 

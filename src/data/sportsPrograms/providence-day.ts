@@ -361,9 +361,20 @@ export const providenceDay: SportsProgram = {
       { cls: "'24", name: 'Liam Hedinger', sport: 'Boys Soccer', college: 'Gettysburg', conf: 'Centennial', level: 'D3' },
       { cls: "'24", name: 'Joe Henry Teates', sport: 'Track & Field', college: 'Denison', conf: 'NCAC', level: 'D3' },
       { cls: "'24", name: 'Brandon Ackermann', sport: 'Girls Tennis', college: 'Kenyon', conf: 'NCAC', level: 'D3' },
+      // Class of 2027 — public verbal commitments, not yet signed; not in the funnel or Compare
+      { cls: "'27", name: 'Robert Geathers III', sport: 'Football', college: 'Florida', conf: 'SEC', level: 'P4' },
+      { cls: "'27", name: 'Griff Galloway', sport: 'Football', college: 'Kentucky', conf: 'SEC', level: 'P4' },
+      { cls: "'27", name: 'Brennan Drummond', sport: 'Football', college: 'Nebraska', conf: 'Big Ten', level: 'P4' },
+      { cls: "'27", name: 'Caleb Cooper', sport: 'Football', college: 'Penn State', conf: 'Big Ten', level: 'P4' },
+      { cls: "'27", name: 'Moses Poku-Kankam', sport: 'Football', college: 'Rutgers', conf: 'Big Ten', level: 'P4' },
+      { cls: "'27", name: 'Steele Fletcher', sport: 'Football', college: 'Wake Forest', conf: 'ACC', level: 'P4' },
+      { cls: "'27", name: 'Maddy Boland', sport: 'Swimming', college: 'North Carolina', conf: 'ACC', level: 'P4' },
+      { cls: "'27", name: 'Ethan Dempsey', sport: 'Football', college: 'Charlotte', conf: 'American', level: 'D1' },
+      { cls: "'27", name: 'Cooper Hodson', sport: 'Football', college: 'Delaware', conf: 'CAA', level: 'D1' },
+      { cls: "'27", name: 'Justin Abanquah', sport: 'Football', college: 'Elon', conf: 'Southern', level: 'D1' },
     ],
     rosterNote:
-      'Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12.',
+      'Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       { label: 'pdschargers.com — Alumni at the Next Level', url: NEXT_LEVEL },
       { label: 'providenceday.org — 2026–27 profile (Class of 2026: 31 college athletes, 13 at Division I)', url: PROFILE_2627 },
@@ -376,6 +387,11 @@ export const providenceDay: SportsProgram = {
         label: '247Sports Composite — 2025 North Carolina football rankings',
         url: 'https://247sports.com/season/2025-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
       },
+      { label: 'NC Football News — 2027 North Carolina commitment tracker', url: 'https://ncfootballnews.com/2027-north-carolina-high-school-football-college-commits/' },
+      { label: '247Sports — 2027 North Carolina football rankings', url: 'https://247sports.com/season/2027-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC' },
+      { label: 'Prism News — Elon adds Charlotte-area standouts to 2027 class (Abanquah)', url: 'https://www.prismnews.com/sports/fcs-football/elon-adds-charlotte-area-standouts-to-2027-recruiting-class' },
+      { label: 'SwimSwam — UNC adds Maddy Boland for 2027', url: 'https://swimswam.com/unc-adds-summer-juniors-qualifier-and-nag-record-holder-maddy-boland-for-2027/' },
+      { label: 'Charlotte Observer via Yahoo — 2026–27 Charlotte-area swimming preview', url: 'https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html' },
     ],
   },
 
