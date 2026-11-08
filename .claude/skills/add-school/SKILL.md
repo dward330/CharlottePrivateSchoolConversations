@@ -220,7 +220,7 @@ Rules for the table:
   the two as if they carried equal weight. Recompute these denominators from the schema doc
   rather than trusting the table — they move whenever a card or Compare row is added.
 
-  **Admissions contributes no Compare rows at all**, so it cannot move the ≥30/44 figure in
+  **Admissions contributes no Compare rows at all**, so it cannot move the ≥31/45 figure in
   either direction. A school can be perfect on Admissions and still fail the Compare bar,
   or vice versa — do not let a strong Admissions sweep read as progress toward it.
 - **Score against the cards the existing schools actually have, not every card that
@@ -265,7 +265,7 @@ a figure they doubt.
 #### The bar
 
 Two gates, both calibrated to **the thinnest school the project has judged worth
-shipping** — as of 2026-11-07 that is Davidson Day, at 30/44 Compare rows (68%) and 9 of
+shipping** — as of 2026-11-08 that is Davidson Day, at 31/45 Compare rows (68%) and 9 of
 the areas the script counts, with **no Summer Programs material at all**. That was an acceptable
 outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
 round number. `npm run coverage:floor` recomputes it — **run it, do not transcribe these
@@ -292,7 +292,7 @@ research gap.
   NOT the school-wide 68%.** Three reasons, each of which bit an earlier draft of this
   skill:
 
-  1. **68% is a rate over 44 Compare rows.** An area's denominator is 2–28, so the two
+  1. **68% is a rate over 45 Compare rows.** An area's denominator is 2–28, so the two
      numbers are not the same kind of measurement and a shared threshold implies a
      precision that is not there.
   2. **The calibration school fails it.** Davidson Day — the shipped floor this whole bar
@@ -305,20 +305,20 @@ research gap.
   So: ~50% is a rough line for *which areas are worth discussing*, and the discussion —
   with its dig-deeper option — is what actually decides. An area a hair under it that the
   user obviously wants is included without ceremony.
-- **School-wide (go / no-go), K–12 SCHOOLS:** **≥30 of 44 Compare rows, and one area
+- **School-wide (go / no-go), K–12 SCHOOLS:** **≥31 of 45 Compare rows, and one area
   below what `coverage:floor` derives.** (A K–8 school has no Compare rows at all — see
   the K–8 gate below.)
-  The comparison is **inclusive** — exactly 30/44 passes, 29/44 (65%) does not. Count in
+  The comparison is **inclusive** — exactly 31/45 passes, 30/45 (67%) does not. Count in
   **rows, not rounded percentages**: each row moves the figure ~2.3 points, so "68%" means
-  "at least 30 of 44." Do not round to a neater number in either direction.
+  "at least 31 of 45." Do not round to a neater number in either direction.
 
   **Do not confuse this 68% with an area percentage.** They measure different things and
   are not comparable: this one is Compare rows only, across the whole school, against a
-  denominator of 44; an area percentage pools prose cards and structured-card fields too,
+  denominator of 45; an area percentage pools prose cards and structured-card fields too,
   against a denominator of 2–28. A school can sit at 90% on most areas and still miss this
   bar, because published *numbers* are scarcer than published *prose* — that asymmetry is
   a finding worth reporting, not an inconsistency to reconcile. When both figures appear in
-  one report, label them (`Compare rows: 30/44` vs `Sports area: ~83%`).
+  one report, label them (`Compare rows: 31/45` vs `Sports area: ~83%`).
 
   On the area count, the stated bar is **one area below whatever the script derives from
   Davidson Day** — deliberately more permissive. Davidson Day's two gaps are
@@ -343,7 +343,7 @@ research gap.
 **A K–8 school has ZERO Compare rows, by design.** It is excluded from the Compare
 page entirely (`hasHighSchool: false` → `comparableSchools`), so there are no
 `metricValues.ts` keys to fill and `check:metrics` skips it and prints the skip. Scoring a
-K–8 candidate on "≥30 of 44 Compare rows" fails **every** K–8 school at step 1, including
+K–8 candidate on "≥31 of 45 Compare rows" fails **every** K–8 school at step 1, including
 the one already shipped. Never apply it.
 
 For a K–8 candidate the gate is the **area axis alone**, at the same latitude the K–12
@@ -470,7 +470,7 @@ Two honesty rules on this, because the failure mode is talking yourself into a s
   motivated reasoning, not research. Say that plainly rather than offering another round.
 
 Offer the same option at the **school-wide** level too, before a no-go: if the candidate
-misses the ≥30/44 bar but the misses are concentrated in two or three areas, ask whether to
+misses the ≥31/45 bar but the misses are concentrated in two or three areas, ask whether to
 deep-dive those before declining the school outright. A school rejected on a shallow sweep
 that would have cleared the bar on a real look is the most expensive possible outcome of
 this skill — it is the one mistake that never gets discovered.

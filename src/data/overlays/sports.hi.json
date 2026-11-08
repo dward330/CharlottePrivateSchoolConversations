@@ -369,6 +369,15 @@
         "providence-day:pipeline.roster[63].sport",
         "providence-day:pipeline.roster[64].sport",
         "providence-day:pipeline.roster[81].sport",
+        "providence-day:pipeline.roster[86].sport",
+        "providence-day:pipeline.roster[87].sport",
+        "providence-day:pipeline.roster[88].sport",
+        "providence-day:pipeline.roster[89].sport",
+        "providence-day:pipeline.roster[90].sport",
+        "providence-day:pipeline.roster[91].sport",
+        "providence-day:pipeline.roster[93].sport",
+        "providence-day:pipeline.roster[94].sport",
+        "providence-day:pipeline.roster[95].sport",
         "charlotte-latin:pipeline.roster[18].sport",
         "charlotte-latin:pipeline.roster[34].sport",
         "charlotte-latin:coaching.tenure[7].role",
@@ -425,11 +434,13 @@
         "providence-day:pipeline.roster[35].sport",
         "providence-day:pipeline.roster[57].sport",
         "providence-day:pipeline.roster[73].sport",
+        "providence-day:pipeline.roster[92].sport",
         "charlotte-latin:pipeline.roster[1].sport",
         "charlotte-latin:pipeline.roster[2].sport",
         "charlotte-latin:pipeline.roster[19].sport",
         "charlotte-latin:pipeline.roster[21].sport",
         "charlotte-latin:pipeline.roster[36].sport",
+        "charlotte-latin:pipeline.roster[40].sport",
         "charlotte-christian:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[0].sport",
         "charlotte-country-day:pipeline.roster[1].sport",
@@ -527,7 +538,8 @@
         "cannon:pipeline.roster[16].sport",
         "cannon:pipeline.roster[17].sport",
         "cannon:pipeline.roster[21].sport",
-        "cannon:pipeline.roster[22].sport"
+        "cannon:pipeline.roster[22].sport",
+        "cannon:pipeline.roster[28].sport"
       ]
     },
     {
@@ -593,12 +605,15 @@
         "charlotte-christian:pipeline.roster[16].sport",
         "charlotte-christian:pipeline.roster[27].sport",
         "charlotte-christian:pipeline.roster[28].sport",
+        "charlotte-christian:pipeline.roster[38].sport",
         "charlotte-catholic:pipeline.roster[2].sport",
         "charlotte-catholic:pipeline.roster[3].sport",
         "charlotte-catholic:pipeline.roster[5].sport",
         "charlotte-catholic:pipeline.roster[14].sport",
         "charlotte-catholic:pipeline.roster[23].sport",
         "charlotte-catholic:pipeline.roster[34].sport",
+        "charlotte-catholic:pipeline.roster[36].sport",
+        "charlotte-catholic:pipeline.roster[37].sport",
         "charlotte-country-day:pipeline.roster[5].sport",
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
@@ -710,8 +725,8 @@
       ]
     },
     {
-      "t": "स्तर के लेबल (P4 / D1 / D2 / D3) और कॉन्फ़्रेंस शोधकर्ता ने हर कॉलेज की NCAA स्थिति से जोड़े हैं — ये स्कूल की सूची में नहीं हैं। P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "3d80e155",
+      "t": "स्तर के लेबल (P4 / D1 / D2 / D3) और कॉन्फ़्रेंस शोधकर्ता ने हर कॉलेज की NCAA स्थिति से जोड़े हैं — ये स्कूल की सूची में नहीं हैं। P4 = SEC · Big Ten · ACC · Big 12. 2027 बैच की पंक्तियाँ सार्वजनिक मौखिक कमिटमेंट हैं और इसलिए सूचीबद्ध हैं क्योंकि उनकी घोषणा हो चुकी है; जब तक वे खिलाड़ी अनुबंध नहीं करते, उन्हें फ़नल, खेल-वार बार या Power 4 और Division I पंक्तियों में नहीं गिना जाता।",
+      "of": "0fba5284",
       "at": [
         "providence-day:pipeline.rosterNote"
       ]
@@ -1765,6 +1780,7 @@
         "charlotte-catholic:pipeline.roster[22].sport",
         "charlotte-catholic:pipeline.roster[24].sport",
         "charlotte-catholic:pipeline.roster[25].sport",
+        "charlotte-catholic:pipeline.roster[35].sport",
         "covenant-day:pipeline.roster[10].sport"
       ]
     },
@@ -1800,8 +1816,8 @@
       ]
     },
     {
-      "t": "2024 और 2025 बैच की कई signing-day घोषणाओं में कॉलेज का नाम था पर खेल का नहीं; उन पंक्तियों में अनुमान लगाने के बजाय \"प्रकाशित नहीं\" लिखा गया है। P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "6456927d",
+      "t": "2024 और 2025 बैच की कई signing-day घोषणाओं में कॉलेज का नाम था पर खेल का नहीं; उन पंक्तियों में अनुमान लगाने के बजाय \"प्रकाशित नहीं\" लिखा गया है। P4 = SEC · Big Ten · ACC · Big 12. 2027 बैच की पंक्तियाँ सार्वजनिक मौखिक कमिटमेंट हैं और इसलिए सूचीबद्ध हैं क्योंकि उनकी घोषणा हो चुकी है; जब तक वे खिलाड़ी अनुबंध नहीं करते, उन्हें फ़नल, खेल-वार बार या Power 4 और Division I पंक्तियों में नहीं गिना जाता।",
+      "of": "dd7cacfc",
       "at": [
         "charlotte-latin:pipeline.rosterNote"
       ]
@@ -2616,8 +2632,8 @@
       ]
     },
     {
-      "t": "2026 बैच यहाँ शामिल नहीं है: जुलाई 2026 तक स्कूल 2026 की कोई कमिटमेंट सूची प्रकाशित नहीं करता, इसलिए यहाँ हर आँकड़ा तीन-बैच की अवधि के लिए न्यूनतम है। स्तर के लेबल और कॉन्फ़्रेंस शोधकर्ता ने हर कॉलेज की NCAA स्थिति से जोड़े हैं।",
-      "of": "9d85e00c",
+      "t": "2026 बैच यहाँ शामिल नहीं है: जुलाई 2026 तक स्कूल 2026 की कोई कमिटमेंट सूची प्रकाशित नहीं करता, इसलिए यहाँ हर आँकड़ा तीन-बैच की अवधि के लिए न्यूनतम है। स्तर के लेबल और कॉन्फ़्रेंस शोधकर्ता ने हर कॉलेज की NCAA स्थिति से जोड़े हैं। 2027 बैच की पंक्तियाँ सार्वजनिक मौखिक कमिटमेंट हैं और इसलिए सूचीबद्ध हैं क्योंकि उनकी घोषणा हो चुकी है; जब तक वे खिलाड़ी अनुबंध नहीं करते, उन्हें फ़नल, खेल-वार बार या Power 4 और Division I पंक्तियों में नहीं गिना जाता।",
+      "of": "bb275bed",
       "at": [
         "charlotte-christian:pipeline.rosterNote"
       ]
@@ -3437,7 +3453,8 @@
       "of": "743c68e3",
       "at": [
         "charlotte-catholic:pipeline.roster[8].sport",
-        "charlotte-catholic:pipeline.roster[13].sport"
+        "charlotte-catholic:pipeline.roster[13].sport",
+        "charlotte-catholic:pipeline.roster[38].sport"
       ]
     },
     {
@@ -3446,6 +3463,7 @@
       "at": [
         "charlotte-catholic:pipeline.roster[27].sport",
         "charlotte-catholic:pipeline.roster[30].sport",
+        "charlotte-catholic:pipeline.roster[39].sport",
         "covenant-day:pipeline.roster[4].sport",
         "covenant-day:pipeline.roster[5].sport",
         "covenant-day:pipeline.roster[9].sport",
@@ -3465,8 +3483,8 @@
       ]
     },
     {
-      "t": "Cannon Ridinger ने CCHS से स्नातक किया, इससे पहले वे Charlotte Country Day (जो इसी ऐप में है) और Hotchkiss में पढ़े थे; यहाँ उन्हें स्नातक वाले स्कूल के साथ जोड़ा गया है और उन्हें दो बार नहीं गिना जाना चाहिए। Evan MacIntyre को कमिटमेंट के समय के अनुसार P4 में गिना गया है और वे उसके बाद JUCO के रास्ते Belmont Abbey चले गए। Mary Catherine Farley (Wofford) 2024 की signing सूची में दिखती हैं, पर किसी कॉलेज roster पर कभी नहीं, इसलिए उन्हें हर गिनती से बाहर रखा गया है। Alex Hoffman केवल उलटी roster खोज से सामने आए, किसी signing लेख से नहीं।",
-      "of": "2f98b322",
+      "t": "Cannon Ridinger ने CCHS से स्नातक किया, इससे पहले वे Charlotte Country Day (जो इसी ऐप में है) और Hotchkiss में पढ़े थे; यहाँ उन्हें स्नातक वाले स्कूल के साथ जोड़ा गया है और उन्हें दो बार नहीं गिना जाना चाहिए। Evan MacIntyre को कमिटमेंट के समय के अनुसार P4 में गिना गया है और वे उसके बाद JUCO के रास्ते Belmont Abbey चले गए। Mary Catherine Farley (Wofford) 2024 की signing सूची में दिखती हैं, पर किसी कॉलेज roster पर कभी नहीं, इसलिए उन्हें हर गिनती से बाहर रखा गया है। Alex Hoffman केवल उलटी roster खोज से सामने आए, किसी signing लेख से नहीं। 2027 बैच की पंक्तियाँ सार्वजनिक मौखिक कमिटमेंट हैं और इसलिए सूचीबद्ध हैं क्योंकि उनकी घोषणा हो चुकी है; जब तक वे खिलाड़ी अनुबंध नहीं करते, उन्हें फ़नल, खेल-वार बार या Power 4 और Division I पंक्तियों में नहीं गिना जाता।",
+      "of": "a601920f",
       "at": [
         "charlotte-catholic:pipeline.rosterNote"
       ]

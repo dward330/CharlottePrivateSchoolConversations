@@ -369,6 +369,15 @@
         "providence-day:pipeline.roster[63].sport",
         "providence-day:pipeline.roster[64].sport",
         "providence-day:pipeline.roster[81].sport",
+        "providence-day:pipeline.roster[86].sport",
+        "providence-day:pipeline.roster[87].sport",
+        "providence-day:pipeline.roster[88].sport",
+        "providence-day:pipeline.roster[89].sport",
+        "providence-day:pipeline.roster[90].sport",
+        "providence-day:pipeline.roster[91].sport",
+        "providence-day:pipeline.roster[93].sport",
+        "providence-day:pipeline.roster[94].sport",
+        "providence-day:pipeline.roster[95].sport",
         "charlotte-latin:pipeline.roster[18].sport",
         "charlotte-latin:pipeline.roster[34].sport",
         "charlotte-latin:coaching.tenure[7].role",
@@ -425,11 +434,13 @@
         "providence-day:pipeline.roster[35].sport",
         "providence-day:pipeline.roster[57].sport",
         "providence-day:pipeline.roster[73].sport",
+        "providence-day:pipeline.roster[92].sport",
         "charlotte-latin:pipeline.roster[1].sport",
         "charlotte-latin:pipeline.roster[2].sport",
         "charlotte-latin:pipeline.roster[19].sport",
         "charlotte-latin:pipeline.roster[21].sport",
         "charlotte-latin:pipeline.roster[36].sport",
+        "charlotte-latin:pipeline.roster[40].sport",
         "charlotte-christian:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[0].sport",
         "charlotte-country-day:pipeline.roster[1].sport",
@@ -527,7 +538,8 @@
         "cannon:pipeline.roster[16].sport",
         "cannon:pipeline.roster[17].sport",
         "cannon:pipeline.roster[21].sport",
-        "cannon:pipeline.roster[22].sport"
+        "cannon:pipeline.roster[22].sport",
+        "cannon:pipeline.roster[28].sport"
       ]
     },
     {
@@ -593,12 +605,15 @@
         "charlotte-christian:pipeline.roster[16].sport",
         "charlotte-christian:pipeline.roster[27].sport",
         "charlotte-christian:pipeline.roster[28].sport",
+        "charlotte-christian:pipeline.roster[38].sport",
         "charlotte-catholic:pipeline.roster[2].sport",
         "charlotte-catholic:pipeline.roster[3].sport",
         "charlotte-catholic:pipeline.roster[5].sport",
         "charlotte-catholic:pipeline.roster[14].sport",
         "charlotte-catholic:pipeline.roster[23].sport",
         "charlotte-catholic:pipeline.roster[34].sport",
+        "charlotte-catholic:pipeline.roster[36].sport",
+        "charlotte-catholic:pipeline.roster[37].sport",
         "charlotte-country-day:pipeline.roster[5].sport",
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
@@ -710,8 +725,8 @@
       ]
     },
     {
-      "t": "Les mentions de niveau (P4 / D1 / D2 / D3) et les conférences ont été ajoutées par le chercheur d’après le statut NCAA de chaque université — elles ne figurent pas sur la liste de l’école. P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "3d80e155",
+      "t": "Les mentions de niveau (P4 / D1 / D2 / D3) et les conférences ont été ajoutées par le chercheur d’après le statut NCAA de chaque université — elles ne figurent pas sur la liste de l’école. P4 = SEC · Big Ten · ACC · Big 12. Les lignes de la promotion 2027 sont des engagements verbaux publics et figurent ici parce qu’ils sont déjà annoncés ; ils ne sont comptés ni dans l’entonnoir, ni dans les barres par sport, ni dans les lignes Power 4 et Division I tant que ces athlètes n’ont pas signé.",
+      "of": "0fba5284",
       "at": [
         "providence-day:pipeline.rosterNote"
       ]
@@ -1765,6 +1780,7 @@
         "charlotte-catholic:pipeline.roster[22].sport",
         "charlotte-catholic:pipeline.roster[24].sport",
         "charlotte-catholic:pipeline.roster[25].sport",
+        "charlotte-catholic:pipeline.roster[35].sport",
         "covenant-day:pipeline.roster[10].sport"
       ]
     },
@@ -1800,8 +1816,8 @@
       ]
     },
     {
-      "t": "Plusieurs annonces de signing day des promotions 2024 et 2025 nommaient l’université mais pas le sport ; ces lignes indiquent « Non publié » plutôt que de reposer sur une supposition. P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "6456927d",
+      "t": "Plusieurs annonces de signing day des promotions 2024 et 2025 nommaient l’université mais pas le sport ; ces lignes indiquent « Non publié » plutôt que de reposer sur une supposition. P4 = SEC · Big Ten · ACC · Big 12. Les lignes de la promotion 2027 sont des engagements verbaux publics et figurent ici parce qu’ils sont déjà annoncés ; ils ne sont comptés ni dans l’entonnoir, ni dans les barres par sport, ni dans les lignes Power 4 et Division I tant que ces athlètes n’ont pas signé.",
+      "of": "dd7cacfc",
       "at": [
         "charlotte-latin:pipeline.rosterNote"
       ]
@@ -2616,8 +2632,8 @@
       ]
     },
     {
-      "t": "La promotion 2026 n’est pas représentée : l’école ne publie aucune liste d’engagements 2026 en juillet 2026, si bien que chaque chiffre présenté ici est un plancher pour la période de trois promotions. Les mentions de niveau et les conférences ont été ajoutées par le chercheur d’après le statut NCAA de chaque université.",
-      "of": "9d85e00c",
+      "t": "La promotion 2026 n’est pas représentée : l’école ne publie aucune liste d’engagements 2026 en juillet 2026, si bien que chaque chiffre présenté ici est un plancher pour la période de trois promotions. Les mentions de niveau et les conférences ont été ajoutées par le chercheur d’après le statut NCAA de chaque université. Les lignes de la promotion 2027 sont des engagements verbaux publics et figurent ici parce qu’ils sont déjà annoncés ; ils ne sont comptés ni dans l’entonnoir, ni dans les barres par sport, ni dans les lignes Power 4 et Division I tant que ces athlètes n’ont pas signé.",
+      "of": "bb275bed",
       "at": [
         "charlotte-christian:pipeline.rosterNote"
       ]
@@ -3437,7 +3453,8 @@
       "of": "743c68e3",
       "at": [
         "charlotte-catholic:pipeline.roster[8].sport",
-        "charlotte-catholic:pipeline.roster[13].sport"
+        "charlotte-catholic:pipeline.roster[13].sport",
+        "charlotte-catholic:pipeline.roster[38].sport"
       ]
     },
     {
@@ -3446,6 +3463,7 @@
       "at": [
         "charlotte-catholic:pipeline.roster[27].sport",
         "charlotte-catholic:pipeline.roster[30].sport",
+        "charlotte-catholic:pipeline.roster[39].sport",
         "covenant-day:pipeline.roster[4].sport",
         "covenant-day:pipeline.roster[5].sport",
         "covenant-day:pipeline.roster[9].sport",
@@ -3465,8 +3483,8 @@
       ]
     },
     {
-      "t": "Cannon Ridinger a obtenu son diplôme à CCHS après être passé auparavant par Charlotte Country Day (également présente dans cette application) et Hotchkiss ; il est rattaché ici à son école de fin d’études et ne doit pas être compté deux fois. Evan MacIntyre est comptabilisé en P4 au moment de son engagement et a depuis été transféré à Belmont Abbey via le JUCO. Mary Catherine Farley (Wofford) figure sur la liste des signatures 2024 mais n’est jamais apparue dans un effectif universitaire : elle est exclue de tous les décomptes. Alex Hoffman n’a été identifié que par une recherche inversée dans les effectifs, et non par un article de signature.",
-      "of": "2f98b322",
+      "t": "Cannon Ridinger a obtenu son diplôme à CCHS après être passé auparavant par Charlotte Country Day (également présente dans cette application) et Hotchkiss ; il est rattaché ici à son école de fin d’études et ne doit pas être compté deux fois. Evan MacIntyre est comptabilisé en P4 au moment de son engagement et a depuis été transféré à Belmont Abbey via le JUCO. Mary Catherine Farley (Wofford) figure sur la liste des signatures 2024 mais n’est jamais apparue dans un effectif universitaire : elle est exclue de tous les décomptes. Alex Hoffman n’a été identifié que par une recherche inversée dans les effectifs, et non par un article de signature. Les lignes de la promotion 2027 sont des engagements verbaux publics et figurent ici parce qu’ils sont déjà annoncés ; ils ne sont comptés ni dans l’entonnoir, ni dans les barres par sport, ni dans les lignes Power 4 et Division I tant que ces athlètes n’ont pas signé.",
+      "of": "a601920f",
       "at": [
         "charlotte-catholic:pipeline.rosterNote"
       ]

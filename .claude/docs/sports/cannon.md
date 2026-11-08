@@ -1,6 +1,6 @@
 # Cannon School — Sports
-> Distilled from 18 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
+> Distilled from 19 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+**Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
 ---
@@ -547,6 +547,51 @@ athletes opens 2026-11-11 (football: December 2026).
 - Mary Catherine Farley (Wofford) and Elle Collier (Rollins) in the 2024 All-Observer lacrosse
  article are Charlotte Catholic and Charlotte Latin players, not Cannon's; Addison Maynor
  ('27) appears there as a freshman with no commitment.
+
+
+---
+
+## College Commitments Class of 2027
+
+*Source file: `Cannon - Sports - College Commitments Class of 2027.md`*
+
+# Cannon School — Sports — College Commitments, Class of 2027 (current seniors)
+
+> **Provenance:** Written by Claude Code on 2026-11-08 while planning `seniorsrow`, from the
+> Class of 2027 appendix of `Cannon - Sports - College Commitments 2024-2026.md` (the two
+> roster passes of the same day). This is the **per-class retention file** the
+> `/athlete-commits` skill keeps for the current senior class: every public commitment,
+> verbal or signed, any level, with sources. It is the value of the `seniors-committed`
+> Compare row and the data promoted into the window file when the window rolls after
+> graduation (from 1 June 2027). **Never delete it.** The appendix in the window file stays
+> as a pointer to this file.
+>
+> **Status: full sweep done 2026-11-08** (every varsity sport, both passes). Re-check after
+> the early signing period (opens 2026-11-11; football in December) to mark each row signed.
+>
+> Verbal commitments are listed, never counted in `p4-commits-2426` / `d1-commits-2426`.
+
+## Confirmed — 6 public commitments (all Division I)
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Brooke Busby | Girls Basketball | Princeton | Ivy | D1 | Prep Girls Hoops; Charlotte Observer 2026-11-05 ("committed to Princeton") |
+| Madison Drayton | Girls Basketball | Coastal Carolina | Sun Belt | D1 | Charlotte Observer 2026-11-05; Prep Girls Hoops ("Coastal Carolina — Committed") |
+| Marcus Sales | Football | Ohio | MAC | D1 | 247Sports Hard Commit 6/7/2026; NC Football News 2027 tracker |
+| Kingston Davis | Football | Furman | Southern | D1 | NC Football News 2027 tracker (6/17/2026); his X bio |
+| Tripp Cooler | Swimming | Villanova | Big East | D1 | SwimSwam; Swimming World 2026-03-22; Charlotte Observer 2026-11-03 |
+| Hudson Higbea | Boys Lacrosse | Brown | Ivy | D1 | LaxNumbers 2026 team page; Team 91 Charlotte "The Scoop — The Commitments" 2026-01-14 ("Hudson Higbea – Defense – Cannon School – Brown University") https://team91charlotte.substack.com/p/the-scoop-the-commitments . **Confirmed 2026-11-08 (second source found during `/implement seniorsrow`)** |
+
+Source URLs: see the Sources list of `Cannon - Sports - College Commitments 2024-2026.md`.
+
+## Leads — one source only, not rows
+| Athlete | Sport | College | Source |
+|---|---|---|---|
+| Thomas (Tommy) Underwood | Boys Lacrosse | Hampton | LaxNumbers only |
+| Kircher Bracksieck | Boys Lacrosse | Denison | LaxNumbers only |
+| Hina Nakamura | Girls Basketball | Lees-McRae | an **offer**, not a commitment |
+
+## Totals for the `seniors-committed` row (as of 2026-11-08)
+**6.** Signed: 0 (early period not yet open).
 
 
 ---
@@ -1876,6 +1921,7 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 - https://swimswam.com/junior-nationals-qualifier-tripp-cooler-sends-verbal-to-villanova-for-fall-2027/
 - https://tampaspartans.com/sports/wvball/2025-26/releases/20250903oc9u83
+- https://team91charlotte.substack.com/p/the-scoop-the-commitments
 - https://wgmdesign.com/cannon-school-fieldhouse-stadium/
 - https://www.basketball-reference.com/players/e/eddieja01.html
 - https://www.cannonschool.org/about/history
