@@ -79,6 +79,15 @@ https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 NC, four-star, USA Basketball profile. https://prepgirlshoops.com/player/jakaila-gaskin/ ·
 Brooke Busby ('27) — Princeton commit. https://prepgirlshoops.com/player/brooke-busby/
 
+> **Superseded 2026-11-08.** The table above was the first pass (6 commits, one source).
+> A varsity-roster cross-reference found eight more athletes in the 2024–26 window — Austin
+> Swartz (Miami, P4), Hayes Galloway (North Carolina, P4), Max Murash, Tyler Martin, Jake
+> Baker (East Carolina), Evan Ingram, Michael Trojan and Brady Ravin — filled Ari Lopez's
+> sport (volleyball) and recorded four Class of 2027 verbals (Drayton, Sales, K. Davis,
+> Cooler). The window now reads **14 / 6 D1 / 3 P4**. The current record is
+> `Cannon - Sports - College Commitments 2024-2026.md`; the method and nulls are in
+> `Cannon - Sports - Varsity Roster Cross-Reference 2026.md`. Sean Nix has left Cannon.
+
 ## 4. Honors & Pro Alumni
 
 | Athlete | Path | Accomplishment |

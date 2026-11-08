@@ -275,6 +275,10 @@ const RULES: Record<string, Rule[]> = {
     // publication (collegiate athletes, all-state list, milestones). Provenance for the
     // pipeline card, not a card of its own.
     { match: /athletics recap/i, key: 'redesign-research', label: 'Sports Research Dossier (2026)' },
+    // "… - Sports - Varsity Roster Cross-Reference <year>" records how a school's
+    // pipeline roster was rebuilt from its varsity rosters and what was found empty.
+    // Provenance for the pipeline card, not a card of its own.
+    { match: /roster cross-reference/i, key: 'redesign-research', label: 'Sports Research Dossier (2026)' },
     { match: /awards and honors/i, key: 'awards', label: 'Awards & Honors' },
     { match: /championships/i, key: 'championships', label: 'Championships' },
     { match: /coach/i, key: 'coaches', label: 'Coaches: Pedigree & Continuity' },
