@@ -218,42 +218,54 @@ export const charlotteChristian: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      '38 college commitments across the classes of 2024 and 2025, 26 of them Division I and 8 Power 4.',
+      '48 college commitments across the classes of 2024, 2025 and 2026, 35 of them Division I and 9 Power 4.',
     subhead:
       'More than 100 Division I signees across the 2014–2025 classes — one of the deepest sustained pipelines in the Charlotte private-school field.',
     funnel: [
       {
         label: 'Committed to college athletics',
-        hint: "(all divisions, '24–'25)",
-        count: '38',
+        hint: '(all divisions, 2024–26)',
+        count: '48',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '26', width: 0.68, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '35', width: 0.73, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '8',
-        width: 0.21,
+        count: '9',
+        width: 0.19,
         shade: 'full',
       },
     ],
     funnelNote:
-      'These totals cover the classes of 2024 and 2025 only — the school’s published "Knights in College" roster stops there, and no Class of 2026 list exists as of July 2026. The true three-class figure is therefore higher. At 68%, the Division I share of commitments is the highest of any school in this comparison.',
+      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster; the Class of 2026, which that list does not yet include, is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is the highest of any school in this comparison.',
     sportBars: [
-      { sport: 'Football', count: 9, width: 1, p4Width: 0.33 },
-      { sport: 'Track & Field', count: 5, width: 0.56, p4Width: 0.11 },
-      { sport: 'Baseball', count: 4, width: 0.45, p4Width: 0.11 },
-      { sport: 'Wrestling', count: 1, width: 0.11, p4Width: 0.11 },
-      { sport: 'Softball', count: 1, width: 0.11, p4Width: 0.11 },
-      { sport: 'Lacrosse', count: 1, width: 0.11, p4Width: 0.11 },
-      { sport: 'Other', count: 5, width: 0.56 },
+      { sport: 'Football', count: 16, width: 1, p4Width: 0.25 },
+      { sport: 'Baseball', count: 6, width: 0.38, p4Width: 0.06 },
+      { sport: 'Track & Field', count: 5, width: 0.31, p4Width: 0.06 },
+      { sport: 'Softball', count: 2, width: 0.13, p4Width: 0.06 },
+      { sport: 'Wrestling', count: 1, width: 0.06, p4Width: 0.06 },
+      { sport: 'Lacrosse', count: 1, width: 0.06, p4Width: 0.06 },
+      { sport: 'Other', count: 4, width: 0.25 },
     ],
     realityCheck:
-      'Football is the volume engine at nine Division I commits, but the Power 4 placements are spread unusually wide — wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced a P4 signee from a single athlete. Charlotte Christian converts across many sports rather than concentrating in one.',
+      'Football is the volume engine at sixteen Division I commits — Jamal Rule to Nebraska and two service-academy signees, Henry Hulbert to Army and Vincent Rosen to Air Force, among them — but the Power 4 placements are spread unusually wide: wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced a P4 signee from a single athlete. Charlotte Christian converts across many sports rather than concentrating in one.',
     rankedRecruits:
-      'No top-100 national recruit is confirmed in the 2024–2026 classes; L.J. Porter appears among 247Sports’ 2026 North Carolina football recruits, though his numeric rank is not published. The instructive case is the inverse: Stephen Curry left in 2006 with no major-conference scholarship offer and 31 point guards ranked ahead of him, and Virginia Tech — his father’s alma mater — offered only a walk-on spot.',
+      'Bryce Young (’24, Notre Dame) was the No. 73 national recruit in the 247Sports Composite, and Jamal Rule (’26, Nebraska) the No. 31 prospect in North Carolina. The instructive case is the inverse: Stephen Curry left in 2006 with no major-conference scholarship offer and 31 point guards ranked ahead of him, and Virginia Tech — his father’s alma mater — offered only a walk-on spot.',
     roster: [
+      // Class of 2026
+      { cls: "'26", name: 'Jamal Rule', sport: 'Football', college: 'Nebraska', conf: 'Big Ten', level: 'P4',
+        rank247: { national: 835, state: 31, url: 'https://247sports.com/player/jamal-rule-46147357/high-school-309039/' } },
+      { cls: "'26", name: 'Henry Hulbert', sport: 'Football', college: 'Army', conf: 'American', level: 'D1' },
+      { cls: "'26", name: 'Vincent Rosen', sport: 'Football', college: 'Air Force', conf: 'Mountain West', level: 'D1' },
+      { cls: "'26", name: 'Daniel Phillips', sport: 'Football', college: 'Charlotte', conf: 'American', level: 'D1' },
+      { cls: "'26", name: 'Cohen Kilgannon', sport: 'Football', college: 'Elon', conf: 'CAA', level: 'D1' },
+      { cls: "'26", name: 'Ryder Kilgannon', sport: 'Football', college: 'Elon', conf: 'CAA', level: 'D1' },
+      { cls: "'26", name: 'Russ Berger', sport: 'Baseball', college: 'Columbia', conf: 'Ivy', level: 'D1' },
+      { cls: "'26", name: 'Jack Beard', sport: 'Baseball', college: 'Gardner-Webb', conf: 'Big South', level: 'D1' },
+      { cls: "'26", name: 'Morgan Banks', sport: 'Softball', college: 'Queens (Charlotte)', conf: 'ASUN', level: 'D1' },
+      { cls: "'26", name: 'Tate Estep', sport: 'Football', college: 'Barton', conf: 'Conference Carolinas', level: 'D2' },
       { cls: "'25", name: 'Evan Boykin', sport: 'Track & Field', college: 'Kentucky', conf: 'SEC', level: 'P4' },
       { cls: "'25", name: 'Anna Hinde', sport: 'Softball', college: 'Florida State', conf: 'ACC', level: 'P4' },
       { cls: "'25", name: 'Grant Nicholson', sport: 'Baseball', college: 'Wake Forest', conf: 'ACC', level: 'P4' },
@@ -299,12 +311,12 @@ export const charlotteChristian: SportsProgram = {
       { cls: "'27", name: 'Will Parrish', sport: 'Baseball', college: 'NC State', conf: 'ACC', level: 'P4' },
     ],
     rosterNote:
-      'The Class of 2026 is not represented: the school publishes no 2026 commitment list as of July 2026, so every figure here is a floor for the three-class window. Level labels and conferences were added by the researcher from each college’s NCAA status. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
+      'The school’s published commitment list runs through the Class of 2025; the Class of 2026 rows are confirmed on the colleges’ own rosters and in the school’s announcements. Level labels and conferences were added by the researcher from each college’s NCAA status. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       { label: 'charlottechristian.com — Knights in College', url: ACCOLADES },
       {
-        label: '247Sports — 2026 NC football recruits',
-        url: 'https://247sports.com/Season/2026-Football/RecruitRankings/?InstitutionGroup=highschool&State=NC',
+        label: '247Sports Composite — 2026 North Carolina football rankings',
+        url: 'https://247sports.com/season/2026-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
       },
       {
         label: '247Sports Composite — 2024 North Carolina football rankings',
@@ -312,6 +324,12 @@ export const charlotteChristian: SportsProgram = {
       },
       { label: 'Prep Baseball Report — North Carolina Class of 2027 rankings (Parrish)', url: 'https://www.prepbaseballreport.com/rankings/NC/North-Carolina-class-of-2027' },
       { label: 'NCSA — Will Parrish ’27 recruiting profile', url: 'https://www.ncsasports.org/baseball-recruiting/north-carolina/charlotte/charlotte-christian-school/will-parrish4' },
+      { label: 'charlottechristian.com — West Point and Air Force Academy bound, Class of 2026', url: 'https://www.charlottechristian.com/post-details/~board/knights-headlines/post/west-point-and-air-force-academy-bound-graduates-from-the-class-of-2026' },
+      { label: 'HighSchoolOT — North Carolina recruiting trackers', url: 'https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/' },
+      { label: 'Prep Baseball Report — 2026 HS Preview, Region 6', url: 'https://www.prepbaseball.com/news/NC/2026-hs-preview--region-6' },
+      { label: 'Gardner-Webb — baseball adds nine (Jack Beard)', url: 'https://gwusports.com/news/2025/11/14/gardner-webb-baseball-announces-the-addition-of-nine-athletes' },
+      { label: 'Nebraska — football roster (Jamal Rule)', url: 'https://huskers.com/sports/football/roster' },
+      { label: 'Elon — 2026 football roster (Cohen and Ryder Kilgannon)', url: 'https://elonphoenix.com/sports/football/roster/2026' },
     ],
   },
 

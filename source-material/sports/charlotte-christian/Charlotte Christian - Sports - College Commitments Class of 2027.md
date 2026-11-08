@@ -35,7 +35,16 @@ yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 | Landry Struble | Boys Lacrosse | Monmouth (CAA, D1) | Team 91 Charlotte "The Scoop — The Commitments", 2026-01-14 |
 | Chase Covey | Boys Lacrosse | Grove City (PAC, D3) | Team 91 Charlotte, same post |
 
-RealGM's Charlotte Christian page lists six 2027 basketball players, none with a college.
+| Matty Carroll | Baseball | Maryland (Big Ten, P4) | PBR 2026 HS Preview, Region 6 ("3B, 2027, Maryland commit"; also "Top Juniors: … Maryland commit") — https://www.prepbaseball.com/news/NC/2026-hs-preview--region-6. Perfect Game marks him committed but its page is WAF-blocked. Added 2026-11-08. |
+| Corbin Corum | Boys Lacrosse | Pace (D2) | LaxNumbers boys team page, 2026 season (t=12770). Added 2026-11-08. |
+
+**Struble conflict (2026-11-08).** LaxNumbers now lists Landry Struble at **Washington & Lee
+(D3)**, not Monmouth as Team 91's January post had it. Two user-submitted/club sources
+disagree; he stays a lead until the school or the college announces.
+
+RealGM's Charlotte Christian page lists six 2027 basketball players, none with a college
+(re-read 2026-11-08: unchanged).
 
 ## Totals for the `seniors-committed` row (as of 2026-11-08)
-**1 confirmed** (value `'1'`), 2 pending.
+**1 confirmed** (value `'1'`), 4 pending leads (Struble, Covey, Carroll, Corum) as of the
+2026-11-08 graduate refresh. Re-run after the early signing period (opens 2026-11-11).
