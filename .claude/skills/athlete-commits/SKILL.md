@@ -49,9 +49,15 @@ component changes**.
   Overtime Elite, one left after his junior year, and a Dartmouth faceoff commit every
   lacrosse database files under Cannon is listed by Dartmouth with a Connecticut prep school
   as his last school — and each would have inflated the count.
-- **Verbal commitments are listed, never counted.** A current senior with a public commitment
-  goes on the roster (the Brooke Busby precedent) and stays out of the funnel, the sport bars
-  and Compare until they sign.
+- **Verbal commitments are listed, never counted in the window.** A current senior with a
+  public commitment goes on the roster (the Brooke Busby precedent) and stays out of the
+  funnel, the sport bars and the Power 4 / Division I rows until they sign and the window
+  rolls. They **are** the value of the `seniors-committed` Compare row (plan `seniorsrow`),
+  which counts the current senior class at any level, verbal or signed.
+- **The current senior class's commitments are always retained in their own file**,
+  `<School> - Sports - College Commitments Class of <year>.md`, so that when the window
+  rolls the class can be promoted into the counts without re-research. That file is never
+  deleted; the roll merges its confirmed rows into the window file and leaves it in place.
 - **No student is named in the record unless they have a documented commitment or were a
   lead that was ruled out.** Current students without a commitment are recorded as counts
   per sport. The rosters you pull are full of minors.
@@ -99,10 +105,25 @@ under the UX-design gate, and the handoff must say the user's approval is needed
 `/implement`. A school with a card needs no approval — every change fills existing fields.
 
 Read before researching, and write down what the card holds today: `roster[]` (names,
-classes, levels), `funnel[]` counts, `sportBars[]`, the two Compare values and their
-`quals.<slug>.text`, and the existing provenance file
-`source-material/sports/<slug>/<School> - Sports - College Commitments 2024-2026.md`. The
-report in step 5 is a diff against this.
+classes, levels), `funnel[]` counts, `sportBars[]`, the three Compare values
+(`p4-commits-2426`, `d1-commits-2426`, `seniors-committed`) and their `quals.<slug>.text`,
+and the existing provenance files `source-material/sports/<slug>/<School> - Sports - College
+Commitments 2024-2026.md` and `… - College Commitments Class of <year>.md`. The report in
+step 5 is a diff against this.
+
+**The window check — run it every time, and say the result.** The Power 4 and Division I
+rows cover a three-class window; its last year is in the keys (`…-2426` → 2026). Work out
+the current senior class (the school year's end: month ≥ 7 → year + 1, else year) and the
+most recently graduated class (current − 1; a class counts as graduated from 1 June). If
+the most recently graduated class is **later than the window's last year, tell the user it
+is time to roll the window by one**, and that the roll is its own plan, not part of this
+school's refresh: rename both keys (`2426` → `2527`) and their labels and notes, recount
+every school from the retained `College Commitments Class of <year>.md` files (promoting
+that class's confirmed rows into each school's window file), move the `seniors-committed`
+row and the roster's verbal block to the new senior class, and update the floor paragraph in
+`CLAUDE.md`. Never roll the window inside one school's refresh — the rows are comparable
+only if every school rolls together. (Set 2026-11-08 with the user; Cannon's 2027 verbals
+are the first class waiting on it.)
 
 ## Step 2 — Pull the rosters
 
@@ -252,6 +273,13 @@ Write, uningested (`/implement` runs the ingest on a branch):
 3. **One superseded note** in the school's `… - Sports - Redesign Research 2026.md` (or
    whatever its sports dossier is called) above the section the old pipeline table sits in,
    pointing at the two files.
+4. **Write or extend** `source-material/sports/<slug>/<School> - Sports - College Commitments Class of <year>.md`
+   for the current senior class — every public commitment found (verbal or signed, any
+   level), each with its sources and a *Confirmed by* column, plus the leads that failed the
+   two-source rule. It folds onto `matriculation` via the `/college commitments/i` rule. This
+   file is the value of the `seniors-committed` Compare row and the data the window roll
+   promotes, so it is written **even when the class has zero commitments** (the sweep itself
+   is the finding) and is **never deleted**.
 
 ## Step 7 — Hand off to `/plan`
 
@@ -261,8 +289,10 @@ rows in the card's conventions (classes newest-signed first, verbals last; P4 �
 D3 within a class), the funnel counts and widths, the sport bars, the five prose fields to
 rewrite (`headline`, `subhead`, `funnelNote`, `realityCheck`, `rosterNote` — never say what
 was searched or could not be found; say what the school does or does not publish), the
-`sources[]` additions, the two Compare values and the shared `quals` text, the `metrics.ts`
-rule if needed, and the Phase 2 unit forecast (five `sports` prose units plus one
-`metric-values` unit per locale; new roster rows attach to existing identifier units; roster
-indexes shift, so the splice matches by stamp, never by path). Two-phase, as every card
-change with prose is. Say whether the UX gate applies (no `pipeline` card today → yes).
+`sources[]` additions, the three Compare values — the two window rows and
+`seniors-committed` (the count of the per-class file's confirmed rows, any level) — and the
+shared `quals` text, the `metrics.ts` rule if needed, and the Phase 2 unit forecast (five
+`sports` prose units plus one `metric-values` unit per locale; new roster rows attach to
+existing identifier units; roster indexes shift, so the splice matches by stamp, never by
+path). Two-phase, as every card change with prose is. Say whether the UX gate applies (no
+`pipeline` card today → yes), and repeat the window check's result so the plan records it.

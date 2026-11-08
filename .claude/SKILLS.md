@@ -547,7 +547,8 @@ cross-referencing its varsity rosters against college rosters and recruiting ser
 hand the verified record to `/plan`.**
 
 `.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-08 (every
-varsity sport, HighSchoolOT trackers, LaxNumbers)
+varsity sport, HighSchoolOT trackers, LaxNumbers; window check, per-class retention file,
+`seniors-committed` row)
 
 The repeatable version of plans `cannoncommits` and `cannoncommits2`. A shallow web search
 had given Cannon six commitments across 2024–26; reading every varsity roster (the school's
@@ -567,12 +568,12 @@ missing for <school>".
 | Step | What it does |
 |---|---|
 | **0** | Tells the developer to **turn on Claude in Chrome** and loads the browser tools in one call. |
-| **1** | Asks which school; **refuses a school not in `schools.json`**, stops on a K-8 school, flags a school with no `pipeline` card as a UX-gate case. Reads what the card holds today. |
+| **1** | Asks which school; **refuses a school not in `schools.json`**, stops on a K-8 school, flags a school with no `pipeline` card as a UX-gate case. Reads what the card holds today and **runs the window check** — if a class has graduated past the Compare window's last year, tells the user it is time to roll the window by one. |
 | **2** | Pulls the rosters for **every varsity sport**: the school's own team pages (current classes) and MaxPreps for the last three seasons plus the current one (graduating classes). |
 | **3** | Greps the school's name in all 17 **HighSchoolOT per-sport recruiting trackers**, then cross-references every senior — RealGM and LaxNumbers in Chrome, the NC Football News trackers, PrepVolleyball, SwimSwam, TennisRecruiting, MileSplit, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. |
 | **4** | Classifies with the existing level / conference / sport vocabulary (JUCO at the D3 tier with `NJCAA`, Covenant Day precedent); `rank247` only where 247 publishes a Composite rank. |
 | **5** | Reports new, changed, verbal and ruled-out athletes, the funnel and Compare deltas, and the nulls separately from the unchecked gaps. |
-| **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, notes the dossier, and invokes `/plan` as `<slug>commits`. |
+| **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, **writes or extends `… - College Commitments Class of <year>.md` for the current seniors (kept forever; zero commitments is still a file)**, notes the dossier, and invokes `/plan` as `<slug>commits` with the two window values and the `seniors-committed` value. |
 
 > **🔑 Claude in Chrome is required, not optional.** RealGM's school page (every basketball
 > graduate with their college) and LaxNumbers' team recruits page (every lacrosse commit by
@@ -605,9 +606,18 @@ missing for <school>".
 > **⚠️ MaxPreps past seasons use the path form** (`/basketball/24-25/roster/`); the
 > `?season=` query silently returns the current season.
 
+> **📅 The window rolls once a year, as its own plan.** The Power 4 and Division I rows
+> cover three graduated classes (`…-2426` → 2024–2026). The skill computes the current
+> senior class and the most recently graduated one on every run; when a graduated class is
+> newer than the window's last year (from 1 June of its graduation), it tells the user to
+> roll the window by one for **every school at once** — never inside one school's refresh,
+> or the row stops being comparable. Current seniors' verbals live on the roster and in the
+> `seniors-committed` row meanwhile, and in a per-class file that the roll promotes (user,
+> 2026-11-08).
+
 **Deliberately cannot:** edit app code, research a school the app does not cover, count a
-verbal commitment, name a current student without a documented commitment, claim a
-scholarship, or deploy.
+verbal commitment in the Power 4 or Division I rows, roll the window for one school, name
+a current student without a documented commitment, claim a scholarship, or deploy.
 
 ---
 
