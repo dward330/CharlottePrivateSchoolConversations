@@ -2296,7 +2296,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '3', // ’24 Salvage (South Carolina) · ’25 Clontz (Cal) · ’26 Lee (NC State)
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
       'carmel-christian': '0', // no Power 4 commit 2024–26; top prospects took mid-majors
-      'davidson-day': '3', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson)
+      'davidson-day': '5', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson), Arnold (Duke, walk-on), Perry (NC State)
       'hickory-grove-christian': '0', // no Power 4 commit 2024–26; all D1 commits are mid-major baseball
       'gaston-day': null, // no published signing list — local press, athletics news and recruiting DBs all checked; confirmed absence, not a gap
       'providence-day': '17', // school "Alumni at the Next Level" roster, 2024–26 (17 P4 tally)
@@ -2325,7 +2325,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.',
+        text: 'A documented minimum: the Class of 2024 is under-documented for Davidson Day. The Classes of 2025 and 2026 come from the school’s own published lists.',
       },
     },
   },
@@ -2342,7 +2342,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '14', // ’24: Coppage, Floyd, Salvage (3) · ’25: Booker, Clontz, Connor, Milligan, Morgan (5) · ’26: Short, K.Smith, Lee, Holland, Gorelick, Cheatwood (6)
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
-      'davidson-day': '9', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck (2024 & 2026 under-documented — floor)
+      'davidson-day': '11', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 under-documented — floor; 2026 complete per the school’s Athletics Recap)
       'hickory-grove-christian': '3', // all baseball: Cabbage (UNCW ’25), Green (UNC Asheville ’25), Johnson (ETSU) — mid-major
       'gaston-day': null, // no published signing list — see p4-commits-2426; the athletics site is JS-rendered and publishes no commit news
       'providence-day': '39', // school roster D1 tally, 2024–26
@@ -2371,7 +2371,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.',
+        text: 'A documented minimum: the Class of 2024 is under-documented for Davidson Day. The Classes of 2025 and 2026 come from the school’s own published lists.',
       },
       'hickory-grove-christian': {
         kind: 'minimum',

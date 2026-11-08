@@ -305,7 +305,8 @@
       "at": [
         "providence-day:[2].values.charlotte-christian",
         "providence-day:[2].values.charlotte-catholic",
-        "providence-day:[2].values.providence-day"
+        "providence-day:[2].values.providence-day",
+        "providence-day:[43].values.davidson-day"
       ]
     },
     {
@@ -318,8 +319,7 @@
         "providence-day:[2].values.davidson-day",
         "providence-day:[38].values.providence-day",
         "providence-day:[42].values.charlotte-country-day",
-        "providence-day:[43].values.covenant-day",
-        "providence-day:[43].values.davidson-day"
+        "providence-day:[43].values.covenant-day"
       ]
     },
     {
@@ -4214,7 +4214,6 @@
         "providence-day:[31].values.carmel-christian",
         "providence-day:[32].values.carmel-christian",
         "providence-day:[42].values.charlotte-latin",
-        "providence-day:[42].values.davidson-day",
         "providence-day:[43].values.cannon",
         "providence-day:[43].values.hickory-grove-christian",
         "providence-day:[44].values.davidson-day",
@@ -5590,6 +5589,16 @@
       ]
     },
     {
+      "t": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[42].values.davidson-day",
+        "providence-day:[43].values.carmel-christian",
+        "providence-day:[46].values.charlotte-country-day",
+        "providence-day:[51].values.providence-day"
+      ]
+    },
+    {
       "t": "Dix engagements en Power Four sur les promotions 2024-2026, chacun extrait d’un tableau issu d’un article daté et vérifié nominativement. La promotion 2026 constitue un minimum documenté : seule la cérémonie de signature de février est publiée, et CCHS organise des journées de signature distinctes à l’automne et au printemps, si bien que le baseball et le lacrosse restent en grande partie non publiés pour cette promotion.",
       "of": "43a71e96",
       "at": [
@@ -5628,8 +5637,8 @@
       ]
     },
     {
-      "t": "Un minimum documenté ; les Classes of 2024 et 2026 sont sous-documentées pour Davidson Day.",
-      "of": "22ec0adc",
+      "t": "Un minimum documenté : la promotion 2024 est sous-documentée pour Davidson Day. Les promotions 2025 et 2026 proviennent des listes publiées par l’école elle-même.",
+      "of": "4aa36666",
       "at": [
         "providence-day:[42].quals.davidson-day.text",
         "providence-day:[43].quals.davidson-day.text"
@@ -5654,15 +5663,6 @@
       "of": "17eb23f8",
       "at": [
         "providence-day:[43].values.charlotte-latin"
-      ]
-    },
-    {
-      "t": "5",
-      "of": "300ca0d0",
-      "at": [
-        "providence-day:[43].values.carmel-christian",
-        "providence-day:[46].values.charlotte-country-day",
-        "providence-day:[51].values.providence-day"
       ]
     },
     {

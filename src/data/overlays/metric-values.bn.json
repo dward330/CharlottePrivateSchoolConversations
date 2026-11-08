@@ -305,7 +305,8 @@
       "at": [
         "providence-day:[2].values.charlotte-christian",
         "providence-day:[2].values.charlotte-catholic",
-        "providence-day:[2].values.providence-day"
+        "providence-day:[2].values.providence-day",
+        "providence-day:[43].values.davidson-day"
       ]
     },
     {
@@ -318,8 +319,7 @@
         "providence-day:[2].values.davidson-day",
         "providence-day:[38].values.providence-day",
         "providence-day:[42].values.charlotte-country-day",
-        "providence-day:[43].values.covenant-day",
-        "providence-day:[43].values.davidson-day"
+        "providence-day:[43].values.covenant-day"
       ]
     },
     {
@@ -4214,7 +4214,6 @@
         "providence-day:[31].values.carmel-christian",
         "providence-day:[32].values.carmel-christian",
         "providence-day:[42].values.charlotte-latin",
-        "providence-day:[42].values.davidson-day",
         "providence-day:[43].values.cannon",
         "providence-day:[43].values.hickory-grove-christian",
         "providence-day:[44].values.davidson-day",
@@ -5590,6 +5589,16 @@
       ]
     },
     {
+      "t": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[42].values.davidson-day",
+        "providence-day:[43].values.carmel-christian",
+        "providence-day:[46].values.charlotte-country-day",
+        "providence-day:[51].values.providence-day"
+      ]
+    },
+    {
       "t": "2024-2026 ব্যাচগুলো জুড়ে দশটি Power Four কমিট, প্রতিটিই তারিখসহ কোনো প্রতিবেদন থেকে তালিকা ধরে নেওয়া ও নাম মিলিয়ে যাচাই করা। 2026 ব্যাচের সংখ্যাটি নথিভুক্ত সর্বনিম্ন: কেবল ফেব্রুয়ারির signing অনুষ্ঠানটিই প্রকাশিত, আর CCHS শরৎ ও বসন্তে আলাদা signing day করে, তাই ওই ব্যাচের বেসবল ও ল্যাক্রোস অনেকটাই অপ্রকাশিত।",
       "of": "43a71e96",
       "at": [
@@ -5628,8 +5637,8 @@
       ]
     },
     {
-      "t": "একটি নথিভুক্ত ন্যূনতম; Davidson Day-এর জন্য Classes of 2024 and 2026 কম-নথিভুক্ত।",
-      "of": "22ec0adc",
+      "t": "একটি নথিভুক্ত ন্যূনতম: Davidson Day-এর জন্য 2024 ব্যাচ কম-নথিভুক্ত। 2025 ও 2026 ব্যাচের তথ্য স্কুলের নিজের প্রকাশিত তালিকা থেকে নেওয়া।",
+      "of": "4aa36666",
       "at": [
         "providence-day:[42].quals.davidson-day.text",
         "providence-day:[43].quals.davidson-day.text"
@@ -5654,15 +5663,6 @@
       "of": "17eb23f8",
       "at": [
         "providence-day:[43].values.charlotte-latin"
-      ]
-    },
-    {
-      "t": "5",
-      "of": "300ca0d0",
-      "at": [
-        "providence-day:[43].values.carmel-christian",
-        "providence-day:[46].values.charlotte-country-day",
-        "providence-day:[51].values.providence-day"
       ]
     },
     {
