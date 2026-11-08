@@ -1,6 +1,6 @@
 # Providence Day School — Sports
-> Distilled from 21 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, Wells Fargo Cup Division Sizes 2025-26, Wells Fargo Cup History and Scoring, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
+> Distilled from 22 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Division Sizes 2025-26, Wells Fargo Cup History and Scoring, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 
 ---
@@ -1403,49 +1403,190 @@ Composite (shown in the app) and 247Sports in-house lists, NC, high-school insti
 
 # Providence Day School — Sports — College Commitments (2024–2026)
 
-> **Provenance:** Compiled by Claude Code on 2026-07-04 from the public sources listed
-> below, to preserve the hard data behind the *Power 4 commits* and *Division I commits*
-> metrics in the app (`src/data/metricValues.ts`). Level classification is by hand:
-> **Power 4 = SEC / Big Ten / ACC / Big 12** only. Counts are distinct athletes; a
-> documented minimum.
+> **Provenance:** Rebuilt by Claude Code on 2026-11-08 by the `/athlete-commits` graduate
+> refresh (the first version, 2026-07-04, transcribed the school's list and a signing-day
+> roundup without checking a single college roster). This file is the hard data behind the
+> College Pipeline card in `src/data/sportsPrograms/providence-day.ts` and the
+> `p4-commits-2426` / `d1-commits-2426` Compare rows in `src/data/metricValues.ts`.
+> The method, the sport-by-sport sweep, the nulls and the unchecked rosters are in
+> `Providence Day - Sports - Varsity Roster Cross-Reference 2026.md`.
+>
+> **Source of record** is the school's own "Alumni at the Next Level" list
+> (https://www.pdschargers.com/more/honors-hall-of-fame-wells-fargo-cup/, read 2026-11-08):
+> 86 names for the classes of 2024–2026 (25 / 30 / 31). **Every Power 4 and Division I row
+> (39) was then confirmed on the college's own roster or bio page**, which also supplies the
+> graduate-test evidence ("High School / Last School: Providence Day"). Division II and III
+> rows (47) rest on the school's list alone and were not individually checked.
+> Level and conference labels are researcher-added from each college's NCAA status —
+> **Power 4 = SEC / Big Ten / ACC / Big 12 only.** Notre Dame would count as ACC.
+>
+> **Net result of the refresh: no athlete was added or removed from the window.** The
+> sweep of every varsity roster against every commitment database found nothing the
+> school's list does not already carry. Five corrections to existing rows are below.
 
-## Sources
-- Charlotte-area National Signing Day roundup (2024–25 signing day, Class of 2025 cycle;
- accessed 2026-07-04) — Yahoo Sports / Charlotte Observer:
- https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
-- Providence Day "Alumni at the Next Level" commitment roster (pdschargers.com),
- as compiled in the research dossier `Providence Day - Sports - D1 Matriculation.pdf`
- and `Providence Day - Sports - Power 4 Offers.pdf`.
+## Corrections to the card (2026-11-08)
 
-## Power 4 commitments (2024–2026) — 17
-| Class | Athlete | College | Conference |
-|-------|---------|---------|------------|
-| 2024 | Brody Barnhardt | NC State | ACC |
-| 2024 | Jordan Shipp | North Carolina | ACC |
-| 2024 | Channing Goodwin | Michigan | Big Ten |
-| 2024 | Jadyn Davis | Michigan | Big Ten |
-| 2024 | Nia Poole | NC State | ACC |
-| 2024 | Zach Makemson | Tennessee | SEC |
-| 2025 | Cairo Skanes | Wisconsin | Big Ten |
-| 2025 | Braxton Winston | Wake Forest | ACC |
-| 2025 | David Sanders | Tennessee | SEC |
-| 2025 | Granger Bartee | North Carolina | ACC |
-| 2025 | Clark (Clarke) Neace | Georgia | SEC |
-| 2026 | Gordon Sellars | Clemson | ACC |
-| 2026 | Zaid Lott | Syracuse | ACC |
-| 2026 | Leo Delaney | Clemson | ACC |
-| 2026 | Jacob Baggett | Michigan | Big Ten |
-| 2026 | Abby Goldean | Southern Methodist | ACC |
-| 2026 | Zetta Grace Bartee | Auburn | SEC |
+| # | Row | Was | Is | Evidence |
+|---|---|---|---|---|
+| 1 | '24 Girls Tennis → Kenyon | **Brandon** Ackermann | **Elizabeth** Ackermann | Kenyon women's tennis roster (Fr. 2024-25, Jr. 2026-27, "Providence Day School") https://athletics.kenyon.edu/sports/womens-tennis/roster/2024-25 ; MaxPreps PD girls tennis 23-24 Sr. The school's list carries the misprint. |
+| 2 | '25 Swimming → Georgia | **Clark** Neace | **Clarke** Neace | Georgia roster bio https://georgiadogs.com/sports/swimming-and-diving/roster/clarke-neace/9992 ; SwimSwam; MaxPreps PD girls swimming 23-24 ("Clarke Neace", 3 of 3). The school's list has "Clark". |
+| 3 | Shaurya Bharadwaj → Pennsylvania | Class of **2025** | Class of **2024** | School's list "'24"; MaxPreps PD boys tennis 23-24 Sr.; Penn roster Jr. in 2026-27 https://pennathletics.com/sports/mens-tennis/roster . Moves one D1 row from '25 to '24; totals unchanged. |
+| 4 | Zach Makemson → Tennessee (SEC, P4) | Tennessee | **Appalachian State** (Sun Belt, D1) — recommended; see below | App State bio: Sophomore 2025-26, "High School: Providence Day School", first season 2024-25 https://appstatesports.com/sports/mens-track-and-field/roster/zach-makemson/10553 ; TFRRS profile is under Appalachian State from Jan 2025 with no Tennessee season https://www.tfrrs.org/athletes/8919438/Appalachian_State/Zach_Makemson.html . Tennessee rests on the school's list and a self-submitted MileSplit commitment entry (added 2023-07-01) https://aut.milesplit.com/signings/48809 — no Tennessee roster or signing release names him. |
+| 5 | Card arithmetic | funnel "~72"; Football bar 15; note "ACC 8" | **86**; **14**; **ACC 9** | Counted from the card's own 86 rows: 39 D1 = Football 14 + Swimming 4 + Girls Soccer 4 + Track/XC 4 + Basketball 4 + Boys Lacrosse 3 + Field Hockey 2 + Other 4. The 17 P4 split ACC 9 (SMU is ACC) · Big Ten 4 · SEC 4. |
 
-## Division I total (2024–2026) — ~39
-Per Providence Day's official "Alumni at the Next Level" roster, tallied across the
-three classes (the school reports ~39 Division I commitments; the 17 above are the
-Power 4 subset). Additional (non-Power-4) Division I names captured in the signing-day
-roundup include: Ellie Fyans (Western Carolina), Trajan Thompson (Denver),
-Julian Johnson (Howard).
+**On Makemson.** The card's rule is "the college committed to out of the school, with the
+move in a `rosterNote` sentence" — but every precedent (Baker ECU→WCU, Galloway UNC→Clemson,
+Thompson and Davis below) is a player who enrolled at the first college and transferred.
+No published page puts Makemson at Tennessee; App State's own page puts him there for
+2024-25. The recommendation is to list **Appalachian State**, keep the Tennessee verbal in
+the `rosterNote` ("listed by the school as a Tennessee commit; enrolled at Appalachian
+State"), and move `p4-commits-2426` **17 → 16**. The alternative — keep Tennessee on the
+school's word — leaves the P4 row resting on one source that the college's page
+contradicts. This is the one judgment call the plan should put to the user.
 
-**App metric values:** Power 4 = 17 · Division I = 39
+## Transfers (for `rosterNote`; the card keeps the college committed to)
+
+| Athlete | Card shows | Now at | Evidence |
+|---|---|---|---|
+| Trajan Thompson ('25, Boys Basketball) | Denver | West Florida (D2) | goargos.com roster, R-Fr., previous school "University of Denver" |
+| Jadyn Davis ('24, Football) | Michigan | East Tennessee State | etsubucs.com roster, R-So., "Providence Day School / Michigan" |
+| Chase Jackson ('24, Baseball) | Gardner-Webb | Claflin (D2) | https://athletics.claflin.edu/sports/baseball/roster/chase-jackson/2545 — "Prev School: Gardner-Webb", "graduate of Providence Day School" |
+| Zach Makemson ('24, Track) | Tennessee → see correction 4 | Appalachian State | as above |
+
+## Ruled out
+
+| Lead | Source of the lead | Why it does not count |
+|---|---|---|
+| **Jaida McGrew → Florida State (ACC) soccer** | HighSchoolOT girls soccer tracker and TopDrawerSoccer both file her under Providence Day; Charlotte Observer (May 2024) says she transferred to PD for spring 2024 and enrolled at FSU in January 2025 | **Fails the graduate test.** FSU's own bio: Hometown Stanley, N.C., **High School: Mountain Island Charter School**. The college lists another school as her high school. |
+| Zach Villegas → Amherst track | Amherst roster | Sr. in 2025-26 → Class of 2022, outside the window |
+| Eliza Cardwell → Amherst | Amherst roster | Class of 2021 |
+| Addy Holgorsen → Clemson soccer | Clemson roster | Class of 2022 |
+| Riley Allenspach, Trey Horton | HSOT trackers | Class of 2023 |
+| Keely Bradle → Charlotte 49ers | tracker hit on "Providence" | Providence High School (CMS), not Providence Day |
+
+## Tracker claims resolved in the card's favour
+
+| Athlete | Tracker said | College's roster says | URL |
+|---|---|---|---|
+| Blane McElroy ('25) | NC State (HSOT); Purdue (Gatorade) | **Princeton**, Fr. | https://goprincetontigers.com/sports/womens-soccer/roster |
+| Nia Poole ('24) | Penn State | **NC State**, Jr. | https://gopack.com/sports/womens-track-and-field/roster |
+| Carter Martin ('26) | North Carolina | **Jacksonville**, Fr. LSM | https://judolphins.com/sports/mens-lacrosse/roster |
+
+## Power 4 commitments (2024–2026) — 17 on the school's list; 16 if Makemson moves
+
+| Class | Athlete | Sport | College | Conf. | Confirmed on |
+|---|---|---|---|---|---|
+| 2026 | Gordon Sellars | Football | Clemson | ACC | https://clemsontigers.com/sports/football/roster/ |
+| 2026 | Zaid Lott | Football | Syracuse | ACC | https://cuse.com/sports/football/roster |
+| 2026 | Leo Delaney | Football | Clemson | ACC | https://clemsontigers.com/sports/football/roster/ |
+| 2026 | Jacob Baggett | Football | Michigan | Big Ten | https://mgoblue.com/sports/football/roster |
+| 2026 | Abby Goldean | Girls Soccer | Southern Methodist | ACC | https://smumustangs.com/sports/womens-soccer/roster |
+| 2026 | Zetta Grace Bartee | Swimming | Auburn | SEC | https://auburntigers.com/sports/swimming-and-diving/roster |
+| 2025 | David Sanders Jr. | Football | Tennessee | SEC | https://utsports.com/sports/football/roster |
+| 2025 | Cairo Skanes | Football | Wisconsin | Big Ten | https://uwbadgers.com/sports/football/roster |
+| 2025 | Braxton Winston | Football | Wake Forest | ACC | https://godeacs.com/sports/football/roster |
+| 2025 | Granger Bartee | Swimming | North Carolina | ACC | https://goheels.com/sports/swimming-and-diving/roster/granger-bartee/27896 (So. 2026-27, "Providence Day") |
+| 2025 | Clarke Neace | Swimming | Georgia | SEC | https://georgiadogs.com/sports/swimming-and-diving/roster/clarke-neace/9992 (So. 2026-27, "Providence Day School") |
+| 2024 | Brody Barnhardt | Football | NC State | ACC | https://gopack.com/sports/football/roster |
+| 2024 | Jordan Shipp | Football | North Carolina | ACC | https://goheels.com/sports/football/roster |
+| 2024 | Channing Goodwin | Football | Michigan | Big Ten | https://mgoblue.com/sports/football/roster |
+| 2024 | Jadyn Davis | Football | Michigan | Big Ten | ETSU roster ("Providence Day School / Michigan") https://etsubucs.com/sports/football/roster — transfer |
+| 2024 | Nia Poole | Track & Field | NC State | ACC | https://gopack.com/sports/womens-track-and-field/roster |
+| 2024 | Zach Makemson | Track & Field | Tennessee → **Appalachian State** (recommended) | SEC → Sun Belt | see correction 4 |
+
+## Other Division I commitments (2024–2026) — 22
+
+| Class | Athlete | Sport | College | Conf. | Confirmed on |
+|---|---|---|---|---|---|
+| 2026 | Quintin McCray | Football | Richmond | CAA | https://richmondspiders.com/sports/football/roster |
+| 2026 | Brendan Ravin | Football | Davidson | Pioneer | https://davidsonwildcats.com/sports/football/roster |
+| 2026 | Jaida McClure | Girls Basketball | Appalachian State | Sun Belt | https://appstatesports.com/sports/womens-basketball/roster |
+| 2026 | Tina Garofoli | Field Hockey | Miami (Ohio) | MAC | https://miamiredhawks.com/sports/field-hockey/roster |
+| 2026 | Devin McElroy | Girls Soccer | Miami (Ohio) | MAC | https://miamiredhawks.com/sports/womens-soccer/roster |
+| 2026 | Chloe Scofield | Golf | Presbyterian | Big South | https://gobluehose.com/sports/womens-golf/roster |
+| 2026 | Carter Martin | Boys Lacrosse | Jacksonville | ASUN | https://judolphins.com/sports/mens-lacrosse/roster |
+| 2025 | Ian Cline | Football | Army – West Point | AAC | https://goarmywestpoint.com/sports/football/roster/2025 (Fr. RB) |
+| 2025 | Trajan Thompson | Boys Basketball | Denver | Summit | West Florida roster, previous school Denver (transfer) https://goargos.com/sports/mens-basketball/roster |
+| 2025 | Julian Johnson | Boys Basketball | Howard | MEAC | https://hubison.com/sports/mens-basketball/roster |
+| 2025 | Ellie Fyans | Girls Basketball | Western Carolina | Southern | https://catamountsports.com/sports/womens-basketball/roster (So.) |
+| 2025 | Blane McElroy | Girls Soccer | Princeton | Ivy | https://goprincetontigers.com/sports/womens-soccer/roster |
+| 2025 | Aiden Ray | Track & Field | Northeastern | CAA | https://nuhuskies.com/sports/mens-track-and-field/roster |
+| 2025 | Mikayla Moore | Volleyball | Tennessee State | OVC | https://tsutigers.com/sports/womens-volleyball/roster/2025 (Fr., Waxhaw NC, Providence Day) |
+| 2024 | Shaurya Bharadwaj | Boys Tennis | Pennsylvania | Ivy | https://pennathletics.com/sports/mens-tennis/roster (Jr. 2026-27) — class corrected from 2025 |
+| 2024 | Chase Jackson | Baseball | Gardner-Webb | Big South | Claflin roster, "Prev School: Gardner-Webb" (transfer) https://athletics.claflin.edu/sports/baseball/roster/chase-jackson/2545 ; Gardner-Webb's own roster pages are client-rendered and could not be read by curl |
+| 2024 | Morgan Boonshaft | Girls Cross Country | Brown | Ivy | https://brownbears.com/sports/womens-track-and-field/roster/2024-25 (Fr., Waxhaw NC, Providence Day School) |
+| 2024 | Elle Louise Kocmond | Field Hockey | UC Davis | Big West | https://ucdavisaggies.com/sports/field-hockey/roster |
+| 2024 | Kyle Van Dam | Boys Lacrosse | Colgate | Patriot | https://colgateathletics.com/sports/mens-lacrosse/roster/kyle-van-dam/23848 (Jr., "Previous Team: Providence Day School"; the gocolgateraiders.com domain no longer answers) |
+| 2024 | Alex Jessey | Boys Lacrosse | Dartmouth | Ivy | https://dartmouthsports.com/sports/mens-lacrosse/roster |
+| 2024 | KK Hart | Girls Soccer | Tulsa | American | https://tulsahurricane.com/sports/womens-soccer/roster/2025 — listed as **Kaleigh Hart**, So., "Last School Providence Day School (N.C.)"; MaxPreps PD rosters use both "Kk Hart" and "Kaleigh Hart". Card keeps KK, the school's list spelling. |
+| 2024 | Davis Dunham | Swimming | Georgetown | Big East | https://guhoyas.com/sports/mens-swimming-and-diving/roster |
+
+## Division II and III commitments (2024–2026) — 47, from the school's list only
+
+| Class | Athlete | Sport | College | Conf. | Level |
+|---|---|---|---|---|---|
+| 2026 | Matthew Hankins | Football | Wingate | SAC | D2 |
+| 2026 | DC Carr | Football | Wingate | SAC | D2 |
+| 2026 | Osvaldo "Deuce" Haynes | Boys Basketball | Morehouse | SIAC | D2 |
+| 2026 | Austen Graziano | Volleyball | Belmont Abbey | Conf. Carolinas | D2 |
+| 2026 | Thomas Daly | Baseball | Denison | NCAC | D3 |
+| 2026 | Aidan Scruitsky | Boys Basketball | Hampden-Sydney | ODAC | D3 |
+| 2026 | Katelyn Ramsden | Girls Basketball | Chicago | UAA | D3 |
+| 2026 | Julia O'Malley | Girls Basketball | Johns Hopkins | Centennial | D3 |
+| 2026 | Mark Franco | Football | Denison | NCAC | D3 |
+| 2026 | Will Wagner | Football | Denison | NCAC | D3 |
+| 2026 | Aidan Gallos | Football | Tufts | NESCAC | D3 |
+| 2026 | William McDermott | Boys Lacrosse | Stevenson | MAC Commonwealth | D3 |
+| 2026 | Bridget Brewster | Girls Lacrosse | Hamilton | NESCAC | D3 |
+| 2026 | Ethan He | Boys Soccer | MIT | NEWMAC | D3 |
+| 2026 | Mikaela Arey | Girls Soccer | Emory | UAA | D3 |
+| 2026 | Rachel Lyons | Softball | Kenyon | NCAC | D3 |
+| 2026 | Evelyn Hee | Track & Field | Emory | UAA | D3 |
+| 2026 | Raj Das | Track & Field | Emory | UAA | D3 |
+| 2025 | Jaylen Himes | Football | Wingate | SAC | D2 |
+| 2025 | Jonah Lawrence | Boys Basketball | USC – Aiken | Peach Belt | D2 |
+| 2025 | Austin Nelson | Baseball | Rhodes | SAA | D3 |
+| 2025 | Davis Dudley | Football | Hampden-Sydney | ODAC | D3 |
+| 2025 | Jack Langston | Football | Kenyon | NCAC | D3 |
+| 2025 | Jason Zawtocki | Golf | Tufts | NESCAC | D3 |
+| 2025 | Scott Thompson | Boys Lacrosse | Hampden-Sydney | ODAC | D3 |
+| 2025 | Harry O'Neil | Boys Lacrosse | Ithaca | Liberty | D3 |
+| 2025 | Marlo Stuart | Girls Lacrosse | Tufts | NESCAC | D3 |
+| 2025 | Lucy Dyer | Girls Lacrosse | Colby | NESCAC | D3 |
+| 2025 | Owen Yu | Boys Soccer | New York University | UAA | D3 |
+| 2025 | Ethan Andrews | Boys Soccer | Vassar | Liberty | D3 |
+| 2025 | Will Chase | Boys Soccer | Dean College | — | D3 |
+| 2025 | Emma Grace Sachar | Swimming | Hamilton | NESCAC | D3 |
+| 2025 | Tejus Ranadive | Boys Tennis | Hobart & William Smith | Liberty | D3 |
+| 2025 | Renat Kramin | Boys Tennis | Stevens Inst. of Tech. | MAC Freedom | D3 |
+| 2025 | Austin Skeete | Track & Field | Rochester | Liberty | D3 |
+| 2024 | Kashe Smith | Track & Field | Wingate | SAC | D2 |
+| 2024 | Jordan Appling | Boys Basketball | Johnson & Wales | GNAC | D3 |
+| 2024 | Sophie Levine | Girls Basketball | Franklin & Marshall | Centennial | D3 |
+| 2024 | Sophie Powell | Girls Cross Country | Emory | UAA | D3 |
+| 2024 | Reese Ziegler | Field Hockey | Connecticut College | NESCAC | D3 |
+| 2024 | Gracie Kaspar | Field Hockey | Washington & Lee | ODAC | D3 |
+| 2024 | Kenna White | Field Hockey | Hamilton | NESCAC | D3 |
+| 2024 | Lukas "Thor" Santwier | Football | Hampden-Sydney | ODAC | D3 |
+| 2024 | George Hinton | Golf | Bates | NESCAC | D3 |
+| 2024 | Liam Hedinger | Boys Soccer | Gettysburg | Centennial | D3 |
+| 2024 | Joe Henry Teates | Track & Field | Denison | NCAC | D3 |
+| 2024 | Elizabeth Ackermann | Girls Tennis | Kenyon | NCAC | D3 — name corrected; the only D3 row checked on a college roster |
+
+## Totals
+
+| | Class of 2024 | Class of 2025 | Class of 2026 | Window |
+|---|---|---|---|---|
+| All levels | 26 | 29 | 31 | **86** |
+| Division I (incl. P4) | 14 | 12 | 13 | **39** |
+| Power 4 (school's list) | 6 | 5 | 6 | **17** |
+| Power 4 (Makemson at App State) | 5 | 5 | 6 | **16** |
+
+After correction 3 the per-class D1 split is 14 / 12 / 13 and the class sizes 26 / 29 / 31 (the card read 13 / 13 / 13 and 25 / 30 / 31 with Bharadwaj in '25). Corrected 2026-11-08 at `/implement`: the first draft of this table carried the pre-move split.
+
+**App metric values:** `d1-commits-2426` = **39** (unchanged) · `p4-commits-2426` = **17** on the
+school's list, **16** recommended · `seniors-committed` = **10** (unchanged; see the Class of
+2027 file).
 
 
 ---
@@ -1469,6 +1610,13 @@ Julian Johnson (Howard).
 > its "Alumni at the Next Level" roster were not yet updated for this class; LaxNumbers,
 > PrepVolleyball, Team 91 / Ultimate Lacrosse, Prep Baseball Report and the Observer girls
 > basketball preview list no Providence Day 2027 commitment. Re-run after 2026-11-11.
+>
+> **Update (2026-11-08, `/athlete-commits` graduate refresh, before the mid-November
+> signing wave): still 10 confirmed, now 3 leads.** The refresh read LaxNumbers (both PD
+> team pages, 2024-2027 classes), RealGM, every HighSchoolOT tracker and the NC Football
+> News 2027 tracker again. One new lead: **Charlie Thompson -> Christopher Newport** (see
+> Lacrosse below). No other 2027 commitment surfaced. The value stays `'10'`; re-run after
+> 2026-11-11 and again in February.
 >
 > Verbal commitments are listed, never counted in `p4-commits-2426` / `d1-commits-2426`.
 
@@ -1507,14 +1655,24 @@ Providence Day", https://swimswam.com/?p=1024710); **Dean Hamid** (Sr., 50/100 f
 (Atlantic 10, D1) — Observer preview only. Zona Smith (Florida) and Annie Shall (UNC) are
 juniors (Class of 2028).
 
+## Lacrosse — 0 confirmed, 1 lead
+| Athlete | College | Conf. | Level | Status |
+|---|---|---|---|---|
+| Charlie Thompson (Sr.) | Christopher Newport | C2C | D3 | **Lead** — LaxNumbers girls team page only (`laxnumbers.com/team_info.php?y=2027&t=22584&s=2`, read in Chrome 2026-11-08). Class year confirmed: MaxPreps lists her as a 2026-27 senior on PD's field hockey roster (`maxpreps.com/nc/charlotte/providence-day-chargers/field-hockey/26-27/roster/`). LaxNumbers files her as a lacrosse commit; CNU fields both women's lacrosse and field hockey, so the sport is also unconfirmed. Needs a club post, a school signing post or CNU's 2027-28 roster. |
+
+LaxNumbers' boys page also lists one Class-of-2028 verbal (a junior; not a 2027 row, not
+named here).
+
 ## Other sports — none found
-Basketball (247's 2027 NC page lists no Providence Day player; RealGM unreachable by id),
-lacrosse (Team 91 and Ultimate Lacrosse 2027 lists), baseball (Prep Baseball Report: Chase
-Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball 2027 watchlist):
-no Providence Day 2027 commitment found.
+Basketball (247's 2027 NC page lists no Providence Day player; RealGM team 10851 read in
+Chrome 2026-11-08: no 2027 player with a college), baseball (Prep Baseball Report: Chase
+Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball has no Providence
+Day page), field hockey (MAX Field Hockey 2027 list: no PD), every HighSchoolOT per-sport
+tracker: no Providence Day 2027 commitment found.
 
 ## Totals for the `seniors-committed` row (as of 2026-11-08)
-**10 confirmed** (value `'10'`): 7 Power 4, 3 other Division I. Two leads pending.
+**10 confirmed** (value `'10'`): 7 Power 4, 3 other Division I. Three leads pending
+(Howard, Hamid, Thompson).
 
 
 ---
@@ -1647,6 +1805,18 @@ https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-ev
 ---
 
 ## 3. College Pipeline
+
+> **Superseded (2026-11-08).** The figures and the roster table in this section were
+> transcribed from the school's list in mid-2026 and were not re-verified. The
+> `/athlete-commits` graduate refresh of 2026-11-08 rebuilt the record in
+> `Providence Day - Sports - College Commitments 2024-2026.md` (every Power 4 and Division I
+> row verified on the college's own roster) and documented the method and the nulls in
+> `Providence Day - Sports - Varsity Roster Cross-Reference 2026.md`. Read those two files
+> first; this section is kept as the record of what the card held before the refresh. Known
+> errors here: the "~72" total (the list holds 86 names for 2024-26), Football 15 D1 (14),
+> Track & Field 3 (4 with Girls Cross Country), ACC 8 (9), "Brandon Ackermann" (Elizabeth),
+> "Clark Neace" (Clarke), Shaurya Bharadwaj's class (2024, not 2025), and Zach Makemson's
+> college (enrolled at Appalachian State; Tennessee was a verbal the school's list carries).
 
 Source of record: Providence Day's official "Alumni at the Next Level" list.
 https://www.pdschargers.com/more/honors-hall-of-fame-wells-fargo-cup/
@@ -2002,6 +2172,151 @@ On3 named PD directly as the beneficiary of the private-school window.
 - The ESPN "one of the best programs in the country" quote is sourced only via Wikipedia; the
  original ESPN article was not located. **Not used in the app.**
 - No NIL deals for any PD athlete other than David Sanders Jr. were located.
+
+
+---
+
+## Varsity Roster Cross-Reference 2026
+
+*Source file: `Providence Day - Sports - Varsity Roster Cross-Reference 2026.md`*
+
+# Providence Day — Sports — Varsity Roster Cross-Reference (2026)
+
+> **Provenance:** Written by Claude Code on 2026-11-08 at the end of the `/athlete-commits`
+> graduate refresh for Providence Day (classes of 2024–2026, every varsity sport). It records
+> the method, which sources were read, what each sport's sweep found and — kept apart — what
+> could not be retrieved, so the next pass does not redo it. The verified rows live in
+> `Providence Day - Sports - College Commitments 2024-2026.md`; the current senior class in
+> `… - College Commitments Class of 2027.md`.
+>
+> **Window check:** today is 2026-11-08 → current senior class 2027, most recently graduated
+> class 2026, the Compare keys end in 2026 (`…-2426`) → **no roll due.**
+>
+> **Headline result:** the school's "Alumni at the Next Level" list is complete for this
+> window. 86 names on the list, 86 rows on the card, and no commitment database, tracker,
+> college roster or newspaper roundup produced a 2024–26 graduate the list lacks. The
+> refresh converts "a documented minimum" into a **confirmed floor**: 39 Division I rows
+> verified one by one on the colleges' own pages, with five corrections (two name spellings,
+> one class year, one college, one set of card figures) and three transfers for the note.
+
+## 1. Sources read
+
+| Source | How | Result |
+|---|---|---|
+| School's "Alumni at the Next Level" list — https://www.pdschargers.com/more/honors-hall-of-fame-wells-fargo-cup/ | curl (rSchoolToday CMS, server-rendered); 486 entries parsed, 86 in 2024–26 | Source of record; card mirrors it 1:1 |
+| MaxPreps season rosters — `maxpreps.com/nc/charlotte/providence-day-chargers/<sport>/<yy-yy>/roster/` (path form) | curl, 21 sport slugs × 4 seasons (23-24 … 26-27) = 84 pages | Seniors per season (below); grades missing for several sports (§4) |
+| HighSchoolOT recruiting trackers — hub https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/ | curl; all 19 per-sport trackers + 3 "building the fence" + 3 out-of-state pages | Every PD hit already on the card except Jaida McGrew (ruled out, graduate test) |
+| NC Football News commitment trackers (2026, 2027; 2025 in/out-of-state) | curl | All PD names on the card / Class of 2027 file |
+| RealGM — PD team page 10851 | Claude in Chrome (403 to curl) | Every graduate with a college is on the card; Hailey '25, Myers '26, Dyer '24, Robinson '24 have no college listed |
+| LaxNumbers — boys t=12776, girls t=22584, `laxnumbers.com/team_info.php?y=<yr>&t=<id>&s=2`, 2024–2027 | Claude in Chrome (**non-www host only**; `www.` is blocked in the extension) | All 2024–26 names on the card; one 2027 girls lead (Charlie Thompson → CNU); one 2028 boys verbal |
+| Charlotte Observer — Nov 2024 National Signing Day roundup (via Yahoo) | curl | PD block: Neace UGA, G. Bartee UNC, Fyans WCU, T. Thompson Denver, J. Johnson Howard — all on the card |
+| MAX Field Hockey commitment lists 2024s / 2025s / 2026s | curl | 2024s: Kocmond, Ziegler, Kaspar, White (on card); 2025s/2026s: no PD |
+| Perfect Game / Prep Baseball Report / PrepVolleyball / TopDrawerSoccer / Prep Girls Hoops | search + curl | No PD commit beyond the list; PrepVolleyball has no PD page |
+| College rosters and bios (Sidearm and similar) — 40 pages under `ver/`, `col/` | curl | 39/39 D1 rows confirmed; 1 D3 row (Ackermann) checked for the name fix |
+| Grouped OR-name searches of unlisted seniors (≈25 queries) | WebSearch | Nothing useful — as the skill warns; single-name searches and college pages were the productive path |
+
+## 2. Seniors per season (MaxPreps; counts only — no uncommitted student is named)
+
+| Sport (MaxPreps slug) | 23-24 Sr. | 24-25 Sr. | 25-26 Sr. | 26-27 Sr. | Tier |
+|---|---|---|---|---|---|
+| Football | 11 | 8 | 16 | 19 | Full (NCFN trackers, 247, HSOT, college rosters) |
+| Boys Basketball | 1 | 5 | 3 | 5 | Full (RealGM in Chrome, HSOT, college rosters) |
+| Girls Basketball | 1 | 5 | 5 | 0* | Full (RealGM, HSOT, Prep Girls Hoops, college rosters) |
+| Boys Lacrosse | 7 | — (2 names, no grades) | 6 | — | Full (LaxNumbers in Chrome, HSOT, college rosters) |
+| Girls Lacrosse | 2 | — | — | — | Full (LaxNumbers, HSOT); rosters without grades after 23-24 |
+| Boys Soccer | 9 | 9 | 9 | 13 | Grouped searches + HSOT + TopDrawerSoccer |
+| Girls Soccer | 8 | 5 | 6 | — | Full (HSOT, TopDrawerSoccer, college rosters) |
+| Baseball | 7 | 4 | 0* | — | PG / PBR + HSOT + college rosters |
+| Softball | 6 | 0* | 4 | — | HSOT + grouped searches |
+| Volleyball | 5 | 5 | 6 | 5 | HSOT + college roster (PrepVolleyball has no PD page) |
+| Field Hockey | 7 | 7 | 7 | 6 | MAX Field Hockey lists + college rosters |
+| Boys Tennis | 3 | 7 | 2 | — | HSOT + college rosters |
+| Girls Tennis | 5 | 4 | 6 | 4 | HSOT + college rosters |
+| Girls Swimming | 13 | 0* | 0* | — | Observer preview, SwimSwam, Swimming World + college rosters |
+| Boys Cross Country | 15 | — | — | — | MileSplit + college rosters |
+| Girls Cross Country | 8 | — | — | — | MileSplit + college rosters |
+| Wrestling | 4 | — | — | — | HSOT wrestling tracker + grouped searches |
+| Girls Golf | 1 | — | — | — | HSOT golf tracker |
+
+`0*` = the page exists but prints no grade column (not "no seniors"). `—` = no usable roster
+(see §4). Boys swimming and both track & field slugs 404 in every season; their seniors are
+covered through the girls swim roster (swimming), cross country (distance) and the
+school's list.
+
+## 3. Findings by category
+
+**New athletes in the window: none.**
+
+**Changed rows (five):** Elizabeth (not Brandon) Ackermann; Clarke (not Clark) Neace;
+Bharadwaj to the Class of 2024; Makemson to Appalachian State (recommended — the one
+judgment call); card figures 86 / Football 14 / ACC 9. Detail and evidence in the
+2024-2026 file.
+
+**Transfers for `rosterNote`:** Thompson Denver → West Florida; Davis Michigan → East
+Tennessee State; Jackson Gardner-Webb → Claflin; Makemson (if kept at Tennessee) → App State.
+
+**Tracker contradictions, resolved on the college's roster for the card:** McElroy
+Princeton (not NC State / Purdue), Poole NC State (not Penn State), Martin Jacksonville
+(not North Carolina).
+
+**Ruled out:** McGrew → FSU (FSU lists Mountain Island Charter as her high school);
+Villegas, Cardwell, Holgorsen, Allenspach, Horton (classes of 2021–2023); Bradle
+(Providence High School, not PD).
+
+**Verbals, current class (uncounted):** unchanged at 10; one new lead (Charlie Thompson →
+Christopher Newport, LaxNumbers only; she is a 2026-27 senior on the field hockey roster).
+
+## 4. Nulls and unchecked — kept apart
+
+**Nulls (searched, found empty):**
+- Every 2024–26 MaxPreps senior not on the school's list: RealGM (basketball), LaxNumbers
+ (lacrosse), the HSOT tracker for the sport, and a grouped search returned no college.
+ Counts (seniors with a grade on MaxPreps across 23-24 … 25-26, minus those on the
+ school's list in any sport): Football 35 − 26; Boys Basketball 9 − 6; Girls Basketball
+ 11 − 6; Boys Lacrosse 13 − 6; Girls Lacrosse 2 − 1; Boys Soccer 27 − 5; Girls Soccer
+ 19 − 5; Baseball 11 − 2; Softball 10 − 1; Volleyball 16 − 3; Field Hockey 21 − 8; Boys
+ Tennis 12 − 3; Girls Tennis 15 − 1; Girls Swimming 13 − 2; Boys XC 15 − 1; Girls XC
+ 8 − 2; Wrestling 4 − 0; Girls Golf 1 − 0. Multi-sport athletes appear under each sport.
+- Hudson Clavin '26 (football): press named UChicago / MIT / Harvey Mudd *interest*; not on
+ the UChicago, MIT or Claremont-Mudd-Scripps 2026 rosters → null, not a row.
+- Nick Hailey '25, Leighton Myers '26 (boys basketball); Finn Dyer '24, Josiah Robinson '24:
+ RealGM college column blank, single-name searches empty → null.
+- PrepVolleyball: no Providence Day page. MAX Field Hockey 2025s / 2026s: no PD.
+- Perfect Game and Prep Baseball Report: no PD commitment beyond Jackson (Gardner-Webb),
+ Nelson (Rhodes), Daly (Denison).
+
+**Unchecked (could not be retrieved — not nulls):**
+- MaxPreps: boys swimming and both track & field slugs **404 in every season**; cross
+ country 24-25 and 25-26, boys lacrosse 24-25, girls lacrosse 24-25 … 26-27, wrestling
+ 24-25 … 26-27, both golf slugs after 23-24, baseball 25-26 grades, girls swimming 24-25
+ and 25-26 grades: page exists but **no grade column**, so seniors cannot be told apart.
+ Those sports' graduates are covered only through the school's list, the per-sport database
+ and the college rosters.
+- Gardner-Webb (`gwusports.com`) and Tennessee (`utsports.com`) roster pages are
+ client-rendered: curl returns the shell with no names, so neither Jackson's 2025 nor
+ Makemson's 2024-25 presence could be read from the college's roster list (Jackson is
+ confirmed at Gardner-Webb by Claflin's "Prev School" line; Makemson is confirmed at App
+ State, not Tennessee).
+- Colgate's old domain `gocolgateraiders.com` no longer resolves; `colgateathletics.com` does.
+- D2 and D3 rows (47) were **not** individually checked on college rosters, by design — the
+ Compare rows count D1 and P4 only.
+
+## 5. Traps recorded for the next pass
+
+- `gwusports.com` is **Gardner-Webb**, not George Washington (`gwsports.com`). The first
+ verification log mislabelled it and chased a GW roster that was never the claim.
+- A grep on the roster page for a surname **fails for a nickname**: Tulsa lists "Kaleigh
+ Hart", the school lists "KK Hart"; Georgia lists "Clarke", the school "Clark". Search the
+ college's bio URL by name before calling a row unconfirmed.
+- `verify.py`-style checks that require a hometown within N characters of the surname
+ **false-negative on rosters that print "Last School" far from the name** (Tennessee State,
+ Army). Read the season roster (`/roster/2025`) rather than the current one for a graduate
+ who has since left.
+- TFRRS search results are shared across athletes with the same surname: profile 8339841
+ under "Tennessee" is T'Mars McCallum, not Makemson. Open the profile and read the name.
+- A **commit who never enrolled** (Makemson) is a class the skill's precedents do not cover;
+ the recommendation written into the 2024-2026 file is to list the college whose page
+ confirms him and carry the verbal in `rosterNote`.
 
 
 ---
@@ -2415,21 +2730,52 @@ Track and cross country are not listed: the design calls them recurring point so
 - https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://appstatesports.com/sports/mens-track-and-field/roster/zach-makemson/10553
+- https://appstatesports.com/sports/womens-basketball/roster
 - https://assets-rst7.rschooltoday.com/rst7files/uploads/sites/357/2026/03/27093444/CEW00807-2048x1365.jpg
 - https://assets-rst7.rschooltoday.com/rst7files/uploads/sites/357/2026/03/27100549/Providence-Day-School-Athletic-Center.PS_-2048x1638.jpg
 - https://assets-rst7.rschooltoday.com/rst7files/uploads/sites/357/2026/04/01095357/qLMF_SCyNFeFtWQR.jpg
+- https://athletics.claflin.edu/sports/baseball/roster/chase-jackson/2545
+- https://athletics.kenyon.edu/sports/womens-tennis/roster/2024-25
+- https://auburntigers.com/sports/swimming-and-diving/roster
+- https://aut.milesplit.com/signings/48809
 - https://blog.rallyfuel.com/north-carolina-nil-laws/
+- https://brownbears.com/sports/womens-track-and-field/roster/2024-25
+- https://catamountsports.com/sports/womens-basketball/roster
+- https://clemsontigers.com/sports/football/roster/
 - https://cmsathleticzone.com/providence-highschool/athletic-training/
+- https://colgateathletics.com/sports/mens-lacrosse/roster/kyle-van-dam/23848
+- https://cuse.com/sports/football/roster
+- https://dartmouthsports.com/sports/mens-lacrosse/roster
+- https://davidsonwildcats.com/sports/football/roster
 - https://en.wikipedia.org/wiki/David_Sanders_Jr
 - https://en.wikipedia.org/wiki/Devon_Dotson
 - https://en.wikipedia.org/wiki/Grant_Williams_(basketball
 - https://en.wikipedia.org/wiki/Ikem_Ekwonu
 - https://en.wikipedia.org/wiki/Providence_Day_School
+- https://etsubucs.com/sports/football/roster
+- https://georgiadogs.com/sports/swimming-and-diving/roster/clarke-neace/9992
+- https://goargos.com/sports/mens-basketball/roster
+- https://goarmywestpoint.com/sports/football/roster/2025
+- https://gobluehose.com/sports/womens-golf/roster
+- https://godeacs.com/sports/football/roster
+- https://goheels.com/sports/football/roster
+- https://goheels.com/sports/swimming-and-diving/roster/granger-bartee/27896
+- https://gopack.com/sports/football/roster
+- https://gopack.com/sports/womens-track-and-field/roster
+- https://goprincetontigers.com/sports/womens-soccer/roster
+- https://guhoyas.com/sports/mens-swimming-and-diving/roster
 - https://highschoolfootballamerica.com/no-43-rabun-gap-nacoochee-beats-no-56-providence-day-for-ncisaa-division-i-title/
+- https://hubison.com/sports/mens-basketball/roster
+- https://judolphins.com/sports/mens-lacrosse/roster
 - https://lewisbrisbois.com/blog/category/sports-law/the-nil-stalemate-issues-in-north-carolina-between-nil-rights
+- https://mgoblue.com/sports/football/roster
+- https://miamiredhawks.com/sports/field-hockey/roster
+- https://miamiredhawks.com/sports/womens-soccer/roster
 - https://ncfootballnews.com/2027-north-carolina-high-school-football-college-commits/
 - https://ncfootballnews.com/ncisaa-football-state-champions-2000-to-2024/
 - https://ncfootballnews.com/north-carolina-2027-football-recruiting-consensus-rankings-may-2026-update/
+- https://nuhuskies.com/sports/mens-track-and-field/roster
 - https://pdschargers.com/2025/02/08/providence-day-celebrates-7-athletes-in-the-february-signing-ceremony/
 - https://pdschargers.com/2025/04/17/providence-day-celebrates-11-athletes-in-the-april-signing-ceremony/
 - https://pdschargers.com/football-coaches/
@@ -2440,10 +2786,17 @@ Track and cross country are not listed: the design calls them recurring point so
 - https://pdschargers.com/teams/4490002/boys/basketball/varsity
 - https://pdschargers.com/teams/4490006/girls/basketball/varsity
 - https://pdschargers.com/wellness-center-sports-weight-room/
+- https://pennathletics.com/sports/mens-tennis/roster
+- https://richmondspiders.com/sports/football/roster
+- https://smumustangs.com/sports/womens-soccer/roster
 - https://sports.yahoo.com/article/ncisaa-state-championship-central-guide-100000525.html
-- https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 - https://swimswam.com/?p=1024710
 - https://swimswam.com/unc-adds-summer-juniors-qualifier-and-nag-record-holder-maddy-boland-for-2027/
+- https://tsutigers.com/sports/womens-volleyball/roster/2025
+- https://tulsahurricane.com/sports/womens-soccer/roster/2025
+- https://ucdavisaggies.com/sports/field-hockey/roster
+- https://utsports.com/sports/football/roster
+- https://uwbadgers.com/sports/football/roster
 - https://varsitync.com/article/nchsaa-announces-wells-fargo-cup-winners-for-2025-2026
 - https://www.charlottecountryday.org/cd-experience/athletics/sports-medicine
 - https://www.g7football.com/copy-of-mission-statement
@@ -2470,6 +2823,7 @@ Track and cross country are not listed: the design calls them recurring point so
 - https://www.highschoolot.com/story/providence-day-shuts-out-carmel-christian-for-third-straight-ncisaa-4a-girls-soccer-championship/22359052/
 - https://www.highschoolot.com/story/providence-day-too-
 - https://www.highschoolot.com/story/providence-day-too-much-in-ncisaa-d1-girls-lacrosse-championship-downs-charlotte-country-day/22010619/
+- https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.highschoolot.com/story/see-all-ncisaa-track-and-field-champions-podium-placers-from-2026/22363776/
 - https://www.highschoolot.com/story/state-board-of-education-bans-athletes-at-public-nc-high-schools-from-profiting-off-nil/21478959/
 - https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
@@ -2511,6 +2865,7 @@ Track and cross country are not listed: the design calls them recurring point so
 - https://www.providenceday.org/athletics/teams/athletic-calendar
 - https://www.si.com/high-school/north-carolina/a-closer-look-at-providence-day-s-2025-football-schedule-01jprqcq455s
 - https://www.si.com/high-school/stats/north-carolina/football/teams/229754-providence-day-chargers/games
+- https://www.tfrrs.org/athletes/8919438/Appalachian_State/Zach_Makemson.html
 - https://www.wbtv.com/2020/03/21/chad-grier-comes-home-become-head-football-coach-providence-day/
 - https://www.wbtv.com/2024/09/05/north-carolina-leaders-considering-name-image-likeness-policy-high-schoolers/
 - https://www.wbtv.com/2025/11/22/providence-day-tops-christian-42-6-ncisaa-division-i-state-championship/

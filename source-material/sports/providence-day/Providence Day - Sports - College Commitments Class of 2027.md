@@ -14,6 +14,13 @@
 > PrepVolleyball, Team 91 / Ultimate Lacrosse, Prep Baseball Report and the Observer girls
 > basketball preview list no Providence Day 2027 commitment. Re-run after 2026-11-11.
 >
+> **Update (2026-11-08, `/athlete-commits` graduate refresh, before the mid-November
+> signing wave): still 10 confirmed, now 3 leads.** The refresh read LaxNumbers (both PD
+> team pages, 2024-2027 classes), RealGM, every HighSchoolOT tracker and the NC Football
+> News 2027 tracker again. One new lead: **Charlie Thompson -> Christopher Newport** (see
+> Lacrosse below). No other 2027 commitment surfaced. The value stays `'10'`; re-run after
+> 2026-11-11 and again in February.
+>
 > Verbal commitments are listed, never counted in `p4-commits-2426` / `d1-commits-2426`.
 
 ## Sources
@@ -51,11 +58,21 @@ Providence Day", https://swimswam.com/?p=1024710); **Dean Hamid** (Sr., 50/100 f
 (Atlantic 10, D1) — Observer preview only. Zona Smith (Florida) and Annie Shall (UNC) are
 juniors (Class of 2028).
 
+## Lacrosse — 0 confirmed, 1 lead
+| Athlete | College | Conf. | Level | Status |
+|---|---|---|---|---|
+| Charlie Thompson (Sr.) | Christopher Newport | C2C | D3 | **Lead** — LaxNumbers girls team page only (`laxnumbers.com/team_info.php?y=2027&t=22584&s=2`, read in Chrome 2026-11-08). Class year confirmed: MaxPreps lists her as a 2026-27 senior on PD's field hockey roster (`maxpreps.com/nc/charlotte/providence-day-chargers/field-hockey/26-27/roster/`). LaxNumbers files her as a lacrosse commit; CNU fields both women's lacrosse and field hockey, so the sport is also unconfirmed. Needs a club post, a school signing post or CNU's 2027-28 roster. |
+
+LaxNumbers' boys page also lists one Class-of-2028 verbal (a junior; not a 2027 row, not
+named here).
+
 ## Other sports — none found
-Basketball (247's 2027 NC page lists no Providence Day player; RealGM unreachable by id),
-lacrosse (Team 91 and Ultimate Lacrosse 2027 lists), baseball (Prep Baseball Report: Chase
-Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball 2027 watchlist):
-no Providence Day 2027 commitment found.
+Basketball (247's 2027 NC page lists no Providence Day player; RealGM team 10851 read in
+Chrome 2026-11-08: no 2027 player with a college), baseball (Prep Baseball Report: Chase
+Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball has no Providence
+Day page), field hockey (MAX Field Hockey 2027 list: no PD), every HighSchoolOT per-sport
+tracker: no Providence Day 2027 commitment found.
 
 ## Totals for the `seniors-committed` row (as of 2026-11-08)
-**10 confirmed** (value `'10'`): 7 Power 4, 3 other Division I. Two leads pending.
+**10 confirmed** (value `'10'`): 7 Power 4, 3 other Division I. Three leads pending
+(Howard, Hamid, Thompson).
