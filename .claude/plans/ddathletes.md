@@ -1,11 +1,11 @@
 ---
 name: ddathletes
 title: Davidson Day — the eight Class of 2026 collegiate athletes from the school's 2025–26 Athletics Recap, on the College Pipeline card and the two Compare commit rows
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/dd-athletes-2026
-prs: []
+prs: [445]
 ---
 
 # Davidson Day's Class of 2026 collegiate athletes
