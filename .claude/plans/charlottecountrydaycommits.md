@@ -1,11 +1,11 @@
 ---
 name: charlottecountrydaycommits
 title: Charlotte Country Day College Pipeline — verified 2024–26 refresh (48 / 28 D1 / 9 P4), Parker sport fix, Compare D1 25 → 28
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-country-day-commits-2026
-prs: []
+prs: [455]
 ---
 
 # Charlotte Country Day College Pipeline — verified 2024–26 refresh
@@ -315,3 +315,18 @@ went wrong — stop and look.
   `charlottechristiancommits`, that makes `28` a new `metric-values` unit (stored as the same
   digits), so Phase 2 also runs the `metric-values` splice and `i18n:build --topic
   metric-values` ×9. Whether the `25` unit is then orphaned is for the splice to report.
+
+### Phase 2 (2026-11-08)
+
+- **3 units per locale, as recorded above:** the splice reported `sports` 1036 kept / 2 added
+  / 2 dropped and `metric-values` 904 kept / 1 added / 0 dropped in all nine locales. The
+  `25` unit is **not** orphaned: it still carries three other schools' cells.
+- Translations were built from each locale's shipped rendering of the old headline and
+  funnelNote. The Ivy sentence was kept with six → five, and the track clause and cheer
+  sentence are new. The `28` value is stored as the same digits everywhere.
+- `check_work_integrity.mjs` reported 63 index-shift violations, the known post-splice
+  false alarm. A by-stamp diff against HEAD showed every pre-existing unit unchanged.
+- The headline is the card's **teaser**, hidden while the card is open, so a browser probe
+  with every `<details>` open does not find it in `innerText`. Probe `.topic-teaser`, and
+  measure fa glyph positions with the card **closed**.
+- PR #455.
