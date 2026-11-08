@@ -97,7 +97,7 @@ prose translated in Phase 2 after the English is reviewed.
 - **One row, any level, verbal or signed** — the user's wording ("current year's seniors
   committed"). A P4/D1 split would be two more rows and more units for a class that signs
   over six months.
-- **Append last in `VALUE_METRICS`** — avoids re-splicing nine locales (cupbest precedent).
+- **Append last in `VALUE_METRICS`** — avoids re-splicing nine locales (cupbest precedent). **Overridden at the Phase 1 review (2026-11-08):** the user asked for the row directly under *Division I commits*, so it sits at index 44 and the nine `metric-values` work files were re-spliced by stamp in the same commit (900 kept, 3 added, 0 dropped per locale). See Implementation notes.
 - **Shared qual text** — one unit instead of eleven; the names are on the card.
 - **Gaston Day gets a value but no card rows** — the row was approved; a card it never had
   is a separate UX decision. Its `'0'` or count comes from its per-class file alone.
@@ -267,3 +267,18 @@ Phase 2 (a row appended last — no re-splice of earlier paths) and `cannoncommi
 
 - **Should the row show "n (m signed)" once signing starts?** Owner: user. **Default:** no —
   a single count; signed status lives in the per-class file until the window rolls.
+
+## Implementation notes
+
+- **Phase 1 (2026-11-08).** Built as planned, then the user asked at review for the row to sit
+  directly under *Division I commits* rather than last. Moving it to index 44 shifted the
+  overlay paths of the travel and Cup rows; `i18n_splice_work.mjs --topic metric-values` was
+  run for all nine locales and the overlays rebuilt in the same commit — every existing
+  translation carried by stamp (900 kept / 3 added / 0 dropped per locale), the 3 added being
+  this row's label, note and shared qual, which Phase 2 translates. The two tail guards
+  (`check:travelrows`, `check:cup`) needed no change once the row left the tail.
+- The sweep ran for all eleven high schools; five read `'0'` because their fall signing posts
+  were not yet published (early period opens 2026-11-11). Leads that failed the two-source
+  rule are recorded in each per-class file, not counted.
+- `check:live` fails in Phase 1 on exactly the four edited `rosterNote` sentences — the
+  expected English-first state until Phase 2.

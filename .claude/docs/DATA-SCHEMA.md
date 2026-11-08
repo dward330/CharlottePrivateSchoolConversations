@@ -1138,10 +1138,10 @@ only, no school-page stat tile (the school page shows the figures in a structure
 |---|---|--:|---|
 | `p4-commits-2426` | Power 4 commits | 10/13 | Q |
 | `d1-commits-2426` | Division I commits | 10/13 | Q |
+| `seniors-committed` | Current seniors committed | 11/13 | Q |
 | `cup-finish` | Wells Fargo Cup finish, 2025–26 | 11/13 | – Q C sub |
 | `cup-titles` | Wells Fargo Cup titles, 2020–21 to 2025–26 | 11/13 | – Q C sub |
 | `cup-best` | Best Wells Fargo Cup finish, 2020–21 to 2025–26 | 11/13 | – Q C sub |
-| `seniors-committed` | Current seniors committed | 11/13 | Q |
 
 ### College Support `college-support`
 
