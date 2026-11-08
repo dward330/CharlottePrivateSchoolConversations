@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-christian-commits-2026
-prs: []
+prs: [454]
 ---
 
 # Charlotte Christian's College Pipeline: the Class of 2026
