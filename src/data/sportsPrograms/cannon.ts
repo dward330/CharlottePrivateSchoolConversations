@@ -2,6 +2,9 @@
 //
 // Every figure is traceable to
 // source-material/sports/cannon/Cannon - Sports - Redesign Research 2026.md.
+// The College Pipeline card and the two Compare commit rows (p4-commits-2426,
+// d1-commits-2426) trace to
+// source-material/sports/cannon/Cannon - Sports - College Commitments 2024-2026.md.
 // The Wells Fargo Cup card and the softball correction in the Winning Record
 // card trace to
 // source-material/sports/cannon/Cannon - Sports - Wells Fargo Cup Standings 2020-2026.md.
@@ -215,49 +218,83 @@ export const cannon: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      'A documented floor of six college commitments across 2024–26, three of them Division I — but Cannon publishes no consolidated signing list.',
+      'Fourteen documented college commitments across 2024–26, six of them Division I and three Power 4 — still a floor, because Cannon publishes no consolidated signing list.',
     subhead:
-      'This is the most honest number available, not a census: the school’s athletics news portal renders client-side with no indexable article text, so classes of 2024 and 2026 are almost certainly undercounted.',
+      'Basketball leads the way: a Miami signee in 2024, Division III placements at Hamilton and Denison, and East Carolina in 2025 alongside Notre Dame swimming. Five current seniors already hold public Division I commitments — Princeton, Coastal Carolina, Ohio, Furman and Villanova.',
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '6',
+        count: '14',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '3', width: 0.5, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '6', width: 0.43, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '1',
-        width: 0.17,
+        count: '3',
+        width: 0.21,
         shade: 'full',
       },
     ],
     funnelNote:
-      'Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon does not publish an "alumni at the next level" roster, so these names come from a regional signing-day roundup rather than the school. The recruiting story here is better told by its ranked underclassmen than by its commit count.',
+      'Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. Collegiate athlete is the standard here, not scholarship athlete: Hayes Galloway joined North Carolina as an early enrollee and later Clemson as a preferred walk-on, and Division III programs award no athletic scholarships.',
     sportBars: [
-      { sport: 'Swimming', count: 1, width: 0.34, p4Width: 0.34 },
-      { sport: 'Girls Basketball', count: 1, width: 0.34 },
-      { sport: 'Volleyball', count: 1, width: 0.34 },
+      { sport: 'Boys Basketball', count: 5, width: 1, p4Width: 0.2 },
+      { sport: 'Football', count: 3, width: 0.6, p4Width: 0.2 },
+      { sport: 'Girls Basketball', count: 2, width: 0.4 },
+      { sport: 'Volleyball', count: 2, width: 0.4 },
+      { sport: 'Swimming', count: 1, width: 0.2, p4Width: 0.2 },
     ],
     realityCheck:
-      'With only six documented commitments, the by-sport split is too thin to read as a pattern. What is visible: the single Power 4 commit is a swimmer, not a basketball player, despite basketball being the school’s flagship — a reminder that title-winning programs and recruiting pipelines are not the same thing.',
+      'The by-sport split is still too thin to read as a pattern, but the Power 4 commits are now three and none of them is the obvious one: a swimmer to Notre Dame, an offensive lineman to North Carolina and a single basketball player to Miami, while the flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
     rankedRecruits:
       'Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6\'3" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class, a four-star with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier: Jaden Bradley was a five-star, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.',
     roster: [
+      // Class of 2026
+      { cls: "'26", name: 'Michael Trojan', sport: 'Football', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
+      { cls: "'26", name: 'Brady Ravin', sport: 'Football', college: 'Washington & Lee', conf: 'ODAC', level: 'D3' },
+      // Class of 2025
       { cls: "'25", name: 'John Kroll', sport: 'Swimming', college: 'Notre Dame', conf: 'ACC', level: 'P4' },
       { cls: "'25", name: 'Maya McCorkle', sport: 'Girls Basketball', college: 'East Tennessee State', conf: 'Southern', level: 'D1' },
       { cls: "'25", name: 'Maria Nix', sport: 'Volleyball', college: 'Butler', conf: 'Big East', level: 'D1' },
+      { cls: "'25", name: 'Jake Baker', sport: 'Boys Basketball', college: 'East Carolina', conf: 'American', level: 'D1' },
       { cls: "'25", name: 'Khloe Thompson', sport: 'Girls Basketball', college: 'Winston-Salem State', conf: 'CIAA', level: 'D2' },
-      { cls: "'25", name: 'Ari Lopez', sport: 'Not published', college: 'Tampa', conf: 'SSC', level: 'D2' },
+      { cls: "'25", name: 'Ari Lopez', sport: 'Volleyball', college: 'Tampa', conf: 'SSC', level: 'D2' },
       { cls: "'25", name: 'Lily Wittgraefe', sport: 'Not published', college: 'Hobart & William Smith', conf: 'Liberty', level: 'D3' },
+      { cls: "'25", name: 'Evan Ingram', sport: 'Boys Basketball', college: 'Davidson-Davie CC', conf: 'NJCAA', level: 'D3' },
+      // Class of 2024
+      {
+        cls: "'24",
+        name: 'Austin Swartz',
+        sport: 'Boys Basketball',
+        college: 'Miami',
+        conf: 'ACC',
+        level: 'P4',
+        rank247: { national: 66, state: 6, url: 'https://247sports.com/player/austin-swartz-46133263/' },
+      },
+      { cls: "'24", name: 'Hayes Galloway', sport: 'Football', college: 'North Carolina', conf: 'ACC', level: 'P4' },
+      { cls: "'24", name: 'Max Murash', sport: 'Boys Basketball', college: 'Hamilton', conf: 'NESCAC', level: 'D3' },
+      { cls: "'24", name: 'Tyler Martin', sport: 'Boys Basketball', college: 'Denison', conf: 'NCAC', level: 'D3' },
+      // Class of 2027 — public verbal commitments, not yet signed; not in the funnel or Compare
       { cls: "'27", name: 'Brooke Busby', sport: 'Girls Basketball', college: 'Princeton', conf: 'Ivy', level: 'D1' },
+      { cls: "'27", name: 'Madison Drayton', sport: 'Girls Basketball', college: 'Coastal Carolina', conf: 'Sun Belt', level: 'D1' },
+      {
+        cls: "'27",
+        name: 'Marcus Sales',
+        sport: 'Football',
+        college: 'Ohio',
+        conf: 'MAC',
+        level: 'D1',
+        rank247: { national: 1359, state: 44, url: 'https://247sports.com/player/marcus-sales-jr-46150750/' },
+      },
+      { cls: "'27", name: 'Kingston Davis', sport: 'Football', college: 'Furman', conf: 'Southern', level: 'D1' },
+      { cls: "'27", name: 'Tripp Cooler', sport: 'Swimming', college: 'Villanova', conf: 'Big East', level: 'D1' },
     ],
     rosterNote:
-      'Brooke Busby is Class of 2027 and is listed here because her commitment is already public. Two athletes’ sports are not published in the source roundup and are marked as such rather than guessed.',
+      'The Class of 2027 rows are public verbal commitments and are listed because they are already announced; they are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale, and Lily Wittgraefe’s sport is not published, so her row is marked as such and left off the sport bars rather than guessed. Three athletes have since moved — Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson as a preferred walk-on, and Jake Baker from East Carolina to Western Carolina — and the roster shows the college each committed to out of Cannon.',
     sources: [
       {
         label: 'Charlotte-area signing day roundup',
@@ -265,6 +302,48 @@ export const cannon: SportsProgram = {
       },
       { label: 'Prep Girls Hoops — JaKaila Gaskin', url: 'https://prepgirlshoops.com/player/jakaila-gaskin/' },
       { label: 'Prep Girls Hoops — Brooke Busby', url: 'https://prepgirlshoops.com/player/brooke-busby/' },
+      {
+        label: 'ESPN recruiting — Austin Swartz (Cannon School, Class of 2024, signed Miami)',
+        url: 'https://www.espn.com/college-sports/basketball/recruiting/player/_/id/255025/austin-swartz',
+      },
+      {
+        label: 'HighSchoolOT — Cannon School guard Austin Swartz commits to Miami',
+        url: 'https://www.highschoolot.com/story/cannon-school-guard-austin-swartz-commits-to-miami/21035500/',
+      },
+      { label: 'North Carolina — Hayes Galloway roster bio', url: 'https://goheels.com/sports/football/roster/hayes-galloway/25647' },
+      {
+        label: 'Hamilton College — Max Murash, men’s basketball',
+        url: 'https://athletics.hamilton.edu/sports/mens-basketball/roster/max-murash/8033',
+      },
+      { label: 'Denison — men’s basketball roster (Tyler Martin)', url: 'https://denisonbigred.com/sports/mens-basketball/roster' },
+      {
+        label: 'East Carolina — Jake Baker, 2025–26 men’s basketball roster',
+        url: 'https://ecupirates.com/sports/mens-basketball/roster/jake-baker/13882',
+      },
+      {
+        label: 'Region 10 (NJCAA) — Evan Ingram, Davidson-Davie CC 2025–26',
+        url: 'https://region10sports.com/sports/mbkb/2025-26/players/evaningram9qi6',
+      },
+      {
+        label: 'PrepVolleyball — Cannon School commitments (Arianna Lopez, Tampa)',
+        url: 'https://prepvolleyball.com/high-school-volleyball-details/women/cannon-school/hsid-14150',
+      },
+      { label: 'Hampden-Sydney — 2026 football roster (Michael Trojan)', url: 'https://hscathletics.com/sports/football/roster/2026' },
+      { label: 'Washington & Lee — 2026 football roster (Brady Ravin)', url: 'https://generalssports.com/sports/football/roster/2026' },
+      {
+        label: 'NC Football News — 2027 North Carolina commitment tracker (Sales, Davis)',
+        url: 'https://ncfootballnews.com/2027-north-carolina-high-school-football-college-commits/',
+      },
+      { label: '247Sports — Marcus Sales Jr.', url: 'https://247sports.com/player/marcus-sales-jr-46150750/' },
+      {
+        label: 'SwimSwam — Tripp Cooler sends verbal to Villanova for fall 2027',
+        url: 'https://swimswam.com/junior-nationals-qualifier-tripp-cooler-sends-verbal-to-villanova-for-fall-2027/',
+      },
+      {
+        label: 'Charlotte Observer via Yahoo — 2026–27 Charlotte-area girls basketball preview (Drayton, Busby)',
+        url: 'https://sports.yahoo.com/articles/everything-know-charlotte-area-girls-100000255.html',
+      },
+      { label: 'Prep Girls Hoops — Madison Drayton', url: 'https://prepgirlshoops.com/player/madison-drayton/' },
     ],
   },
 
