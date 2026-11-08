@@ -2296,7 +2296,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '4', // ’24 A.Swartz (Miami), Galloway (North Carolina), B.Wilson (North Carolina) · ’25 Kroll (Notre Dame)
       'charlotte-christian': '9', // ’24: Henley, Wilfong, Woody, Zinger · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
       'charlotte-catholic': '10', // Classes 2024-2026, table-parsed from three named articles: MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke), Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC), Hoffman (Va Tech)
-      'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard
+      'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard — on the school’s own lists, cross-referenced 2026-11-08
       'charlotte-latin': '3', // ’24 Salvage (South Carolina) · ’25 Clontz (Cal) · ’26 Lee (NC State)
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
       'carmel-christian': '0', // no Power 4 commit 2024–26; top prospects took mid-majors
@@ -2342,7 +2342,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '12', // ’24: A.Swartz, Galloway, B.Wilson, Frood, Maynor, W.Swartz, Falasca, Morrow · ’25: Kroll, McCorkle, Nix, Baker (2026 class: two D3 only; ’27 verbals not counted)
       'charlotte-christian': '35', // ’24: 11 · ’25: 15 · ’26: 9 (Layton ’24 drafted, never enrolled — excluded)
       'charlotte-catholic': '25', // of 35 documented athletes; P4 is a subset. The 2026 class is a documented MINIMUM — only the February ceremony is published, and CCHS holds separate fall and spring signing days
-      'charlotte-country-day': '25', // ’24: 10 · ’25: 12 · ’26: 3
+      'charlotte-country-day': '28', // ’24: 10 · ’25: 12 · ’26: 6 — every row on the school’s own per-class list (17 / 18 / 13), cross-referenced 2026-11-08
       'charlotte-latin': '14', // ’24: Coppage, Floyd, Salvage (3) · ’25: Booker, Clontz, Connor, Milligan, Morgan (5) · ’26: Short, K.Smith, Lee, Holland, Gorelick, Cheatwood (6)
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
@@ -2401,7 +2401,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '1', // Parrish (NC State baseball); Struble, Covey Team 91-only leads
       'charlotte-latin': '1', // Greathouse (George Washington swim)
       'gaston-day': '1', // B.Smith (Stanford swim) — the AD confirmed it to the Observer; no pipeline card to list her on
-      'charlotte-country-day': '0', // none confirmed; Blythe (Furman lacrosse) club-only lead; fall recognition post not yet published
+      'charlotte-country-day': '0', // none confirmed; leads: Blythe (Furman lacrosse), Hatcher (Saint Joseph’s lacrosse), both LaxNumbers-only; re-check after the 2026-11-11 signing period
       'covenant-day': '0', // none found; fall Lions News signing post not yet published
       'davidson-day': '0', // none found
       'carmel-christian': '0', // none found; RealGM lists four 2027 players with no college
