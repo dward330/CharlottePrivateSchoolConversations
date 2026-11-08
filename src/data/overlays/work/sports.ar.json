@@ -427,6 +427,11 @@
         "charlotte-catholic:pipeline.roster[31].sport",
         "charlotte-catholic:pipeline.roster[33].sport",
         "charlotte-country-day:pipeline.roster[20].sport",
+        "cannon:pipeline.roster[0].sport",
+        "cannon:pipeline.roster[1].sport",
+        "cannon:pipeline.roster[11].sport",
+        "cannon:pipeline.roster[16].sport",
+        "cannon:pipeline.roster[17].sport",
         "covenant-day:pipeline.roster[11].sport",
         "hickory-grove-christian:coaching.tenure[0].role"
       ],
@@ -476,7 +481,8 @@
         "charlotte-country-day:pipeline.roster[31].sport",
         "charlotte-country-day:pipeline.roster[43].sport",
         "charlotte-country-day:pipeline.roster[45].sport",
-        "cannon:pipeline.roster[0].sport",
+        "cannon:pipeline.roster[2].sport",
+        "cannon:pipeline.roster[18].sport",
         "davidson-day:pipeline.roster[10].sport"
       ],
       "t": "السباحة"
@@ -500,9 +506,10 @@
         "charlotte-country-day:pipeline.roster[27].sport",
         "charlotte-country-day:pipeline.roster[28].sport",
         "charlotte-country-day:pipeline.roster[29].sport",
-        "cannon:pipeline.roster[1].sport",
         "cannon:pipeline.roster[3].sport",
         "cannon:pipeline.roster[6].sport",
+        "cannon:pipeline.roster[14].sport",
+        "cannon:pipeline.roster[15].sport",
         "cannon:coaching.tenure[2].role",
         "hickory-grove-christian:coaching.tenure[2].role"
       ],
@@ -573,6 +580,11 @@
         "charlotte-country-day:pipeline.roster[30].sport",
         "charlotte-country-day:pipeline.roster[46].sport",
         "charlotte-country-day:coaching.tenure[4].role",
+        "cannon:pipeline.roster[5].sport",
+        "cannon:pipeline.roster[9].sport",
+        "cannon:pipeline.roster[10].sport",
+        "cannon:pipeline.roster[12].sport",
+        "cannon:pipeline.roster[13].sport",
         "cannon:coaching.tenure[5].role",
         "davidson-day:pipeline.roster[0].sport",
         "davidson-day:pipeline.roster[1].sport",
@@ -593,7 +605,8 @@
         "charlotte-christian:pipeline.roster[13].sport",
         "charlotte-country-day:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[24].sport",
-        "cannon:pipeline.roster[2].sport",
+        "cannon:pipeline.roster[4].sport",
+        "cannon:pipeline.roster[7].sport",
         "cannon:coaching.tenure[4].role",
         "covenant-day:pipeline.roster[13].sport",
         "covenant-day:pipeline.roster[28].sport",
@@ -1958,8 +1971,7 @@
         "charlotte-latin:pipeline.roster[37].sport",
         "charlotte-latin:pipeline.roster[38].sport",
         "charlotte-latin:pipeline.roster[39].sport",
-        "cannon:pipeline.roster[4].sport",
-        "cannon:pipeline.roster[5].sport"
+        "cannon:pipeline.roster[8].sport"
       ],
       "t": "غير منشور"
     },
@@ -5465,20 +5477,20 @@
       "t": "2024: 19–3 ولقب NCISAA D1 على Providence Day 8–7، منهيًا رقم 1 في قائمة HighSchoolOT النهائية لأفضل 25 على مستوى الولاية بستّة انتصارات على فرق حلّت ضمن أفضل 10."
     },
     {
-      "text": "A documented floor of six college commitments across 2024–26, three of them Division I — but Cannon publishes no consolidated signing list.",
-      "of": "10aea629",
+      "text": "Fourteen documented college commitments across 2024–26, six of them Division I and three Power 4 — still a floor, because Cannon publishes no consolidated signing list.",
+      "of": "839b4ca9",
       "at": [
         "cannon:pipeline.headline"
       ],
-      "t": "حدّ أدنى موثَّق من ستّة التزامات جامعية عبر 2024–26، ثلاثة منها في Division I — لكن Cannon لا تنشر قائمة توقيع موحَّدة."
+      "t": "أربعة عشر التزامًا جامعيًا موثَّقًا عبر 2024–26، ستة منها في Division I وثلاثة في Power 4 — ولا يزال حدًّا أدنى، لأن Cannon لا تنشر قائمة توقيع موحَّدة."
     },
     {
-      "text": "This is the most honest number available, not a census: the school’s athletics news portal renders client-side with no indexable article text, so classes of 2024 and 2026 are almost certainly undercounted.",
-      "of": "d57f5bb1",
+      "text": "Basketball leads the way: a Miami signee in 2024, Division III placements at Hamilton and Denison, and East Carolina in 2025 alongside Notre Dame swimming. Five current seniors already hold public Division I commitments — Princeton, Coastal Carolina, Ohio, Furman and Villanova.",
+      "of": "0e957de5",
       "at": [
         "cannon:pipeline.subhead"
       ],
-      "t": "هذا أصدق رقم متاح، لا إحصاء: بوابة أخبار رياضة المدرسة تُعرَض من جهة العميل دون نصّ مقالات قابل للفهرسة، فدفعتا 2024 و2026 شبه مؤكَّد أنهما ناقصتا العدّ."
+      "t": "كرة السلة في الطليعة: موقِّع إلى Miami في 2024، ومقاعد في Division III في Hamilton وDenison، وEast Carolina في 2025 إلى جانب السباحة في Notre Dame. وخمسة من طلاب السنة الأخيرة الحاليين يحملون بالفعل التزامات معلنة في Division I — Princeton وCoastal Carolina وOhio وFurman وVillanova."
     },
     {
       "text": "(all divisions, documented)",
@@ -5491,20 +5503,20 @@
       "t": "(كل الدرجات، موثَّق)"
     },
     {
-      "text": "Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon does not publish an \"alumni at the next level\" roster, so these names come from a regional signing-day roundup rather than the school. The recruiting story here is better told by its ranked underclassmen than by its commit count.",
-      "of": "4a422782",
+      "text": "Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon publishes no \"alumni at the next level\" roster, so these names come from college rosters and recruiting services rather than from the school. Collegiate athlete is the standard here, not scholarship athlete: Hayes Galloway joined North Carolina as an early enrollee and later Clemson as a preferred walk-on, and Division III programs award no athletic scholarships.",
+      "of": "516893b3",
       "at": [
         "cannon:pipeline.funnelNote"
       ],
-      "t": "تعامل مع كل رقم في هذه البطاقة بوصفه حدًّا أدنى. فبخلاف نظيراتها في CISAA، لا تنشر Cannon قائمة \"alumni at the next level\"، فتأتي هذه الأسماء من ملخّص إقليمي ليوم التوقيع لا من المدرسة. وقصّة الاستقطاب هنا يرويها طلابها المصنَّفون من الصفوف الأدنى أفضل من عدّ التزاماتها."
+      "t": "تعامل مع كل رقم في هذه البطاقة بوصفه حدًّا أدنى. فبخلاف نظيراتها في CISAA، لا تنشر Cannon قائمة \"alumni at the next level\"، فتأتي هذه الأسماء من قوائم الفرق الجامعية وخدمات الاستقطاب لا من المدرسة. والمعيار هنا «رياضي جامعي»، لا «رياضي حاصل على منحة»: انضمّ Hayes Galloway إلى North Carolina بصفة early enrollee (التحاق مبكر) ثم إلى Clemson بصفة preferred walk-on (دون منحة)، وبرامج Division III لا تمنح أي منح رياضية."
     },
     {
-      "text": "With only six documented commitments, the by-sport split is too thin to read as a pattern. What is visible: the single Power 4 commit is a swimmer, not a basketball player, despite basketball being the school’s flagship — a reminder that title-winning programs and recruiting pipelines are not the same thing.",
-      "of": "17a0a956",
+      "text": "The by-sport split is still too thin to read as a pattern, but the Power 4 commits are now three and none of them is the obvious one: a swimmer to Notre Dame, an offensive lineman to North Carolina and a single basketball player to Miami, while the flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.",
+      "of": "3c4e8d54",
       "at": [
         "cannon:pipeline.realityCheck"
       ],
-      "t": "بستّة التزامات موثَّقة فقط، يكون التوزيع بحسب الرياضة أرقّ من أن يُقرأ نمطًا. والظاهر: الالتزام الوحيد بـ Power 4 لسبّاح لا لاعب كرة سلة، رغم أن كرة السلة هي رياضة المدرسة الرائدة — تذكير بأن البرامج الفائزة بالألقاب وخطوط الاستقطاب ليستا الشيء نفسه."
+      "t": "لا يزال التوزيع بحسب الرياضة أرقّ من أن يُقرأ نمطًا، لكن التزامات Power 4 صارت ثلاثة وليس أيٌّ منها ما يتوقّعه المرء: سبّاح إلى Notre Dame، ولاعب خطّ هجوم إلى North Carolina، ولاعب كرة سلة واحد إلى Miami، بينما المقاعد الأخرى لبرنامج كرة السلة الرائد في هذه النافذة هي East Carolina وجامعتان في Division III وكلية مجتمع. فالبرامج الفائزة بالألقاب وخطوط الاستقطاب ليستا الشيء نفسه."
     },
     {
       "text": "Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6'3\" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class, a four-star with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier: Jaden Bradley was a five-star, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.",
@@ -5515,12 +5527,12 @@
       "t": "أقوى مؤشّر استقطاب لدى Cannon هو طلابها من الصفوف الأدنى. JaKaila Gaskin (’28، لاعبة ارتكاز بطول 6'3\") مصنَّفة رقم 30 وطنيًّا لدى Prep Girls Hoops ورقم 3 في NC لدفعتها، لاعبة أربع نجوم بملفّ USA Basketball وعروض من Ohio State وTennessee وAlabama وAuburn وFlorida وLouisville. والتزمت Brooke Busby (’27) بـ Princeton. وقبلها: كان Jaden Bradley لاعب خمس نجوم، رقم 18 وطنيًّا، وكانت Reigan Richardson ’21 من McDonald’s All-American."
     },
     {
-      "text": "Brooke Busby is Class of 2027 and is listed here because her commitment is already public. Two athletes’ sports are not published in the source roundup and are marked as such rather than guessed.",
-      "of": "ab799089",
+      "text": "The Class of 2027 rows are public verbal commitments and are listed because they are already announced; they are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale, and Lily Wittgraefe’s sport is not published, so her row is marked as such and left off the sport bars rather than guessed. Three athletes have since moved — Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson as a preferred walk-on, and Jake Baker from East Carolina to Western Carolina — and the roster shows the college each committed to out of Cannon.",
+      "of": "fdf590bd",
       "at": [
         "cannon:pipeline.rosterNote"
       ],
-      "t": "Brooke Busby من دفعة 2027 ومُدرَجة هنا لأن التزامها معلن بالفعل. ورياضتا رياضيَّين اثنين غير منشورتين في الملخّص المصدري وعُلِّمتا كذلك بدلًا من تخمينهما."
+      "t": "صفوف دفعة 2027 التزامات شفهية معلنة، وهي مُدرَجة لأنها أُعلنت بالفعل؛ ولا تُحتسَب في القمع ولا في أشرطة الرياضات ولا في صفحة المقارنة حتى يوقّع أولئك الرياضيون. وتُدرَج كلية المجتمع الخاصة بـ Evan Ingram في فئة D3 لعدم وجود مستوى NJCAA في مقياس هذا الجدول، ورياضة Lily Wittgraefe غير منشورة، فعُلِّم صفّها كذلك وتُرك خارج أشرطة الرياضات بدلًا من تخمينها. وانتقل ثلاثة رياضيين منذ ذلك الحين — Austin Swartz من Miami إلى Creighton، وHayes Galloway من North Carolina إلى Clemson بصفة preferred walk-on (دون منحة)، وJake Baker من East Carolina إلى Western Carolina — وتعرض القائمة الجامعة التي التزم بها كلٌّ منهم عند خروجه من Cannon."
     },
     {
       "text": "A Daytona 500 winner, a PGA Tour golfer, an NBA three-point champion and a trophy-winning pro footballer — an unusually wide set of professional paths.",
