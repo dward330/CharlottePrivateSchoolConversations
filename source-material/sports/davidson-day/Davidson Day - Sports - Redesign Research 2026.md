@@ -64,6 +64,12 @@ https://www.davidsonday.org/athletics/history-and-achievements
 
 ## 3. College Pipeline — 10 documented commits, 9 D1, 3 P4
 
+> **Superseded 2026-11-08.** The school's own *2025-2026 Athletics Recap* names all eight Class of
+> 2026 collegiate athletes, so the roster is now **16 commits, 11 D1, 5 P4**. The current table
+> and per-athlete verification live in `Davidson Day - Sports - College Commitments 2024-2026.md`
+> and `Davidson Day - Sports - Athletics Recap 2025-2026.md`; the table below is kept as the
+> 2026-07 record.
+
 | Class | Athlete | Sport | College | Conference | Level |
 |---|---|---|---|---|---|
 | 2026 | Will Stevens | Basketball | Clemson | ACC | P4 |

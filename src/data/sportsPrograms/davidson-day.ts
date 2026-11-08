@@ -3,7 +3,9 @@
 // Every figure is traceable to
 // source-material/sports/davidson-day/Davidson Day - Sports - Redesign Research 2026.md.
 // The Cup card and the Winning Record corrections rest on Davidson Day - Sports -
-// Wells Fargo Cup Standings 2020-2026.md in the same folder.
+// Wells Fargo Cup Standings 2020-2026.md in the same folder. The College Pipeline's
+// Class of 2026 rows rest on Davidson Day - Sports - Athletics Recap 2025-2026.md and
+// Davidson Day - Sports - College Commitments 2024-2026.md.
 //
 // SIX of eight cards render — the fewest in the set, and deliberately so.
 // Davidson Day is a ~565-student school (2026–27 School Profile) and two areas are genuinely empty
@@ -41,6 +43,7 @@ const XC = 'http://results.tfmeetpro.com/Mitchell_Timing/'
 const TRACK_26 = `${XC}NCISAA_Division_2_Track_and_Field_Championships/`
 const PROFILE =
   'https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
+const RECAP = 'https://issuu.com/davidsondayschool/docs/25-26_athletics_in_review'
 
 export const davidsonDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
@@ -274,45 +277,53 @@ export const davidsonDay: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      'Ten documented commitments across 2024–26, nine of them Division I and three Power 4 — a remarkably high conversion rate for a 565-student school.',
+      'Sixteen documented commitments across 2024–26, eleven of them Division I and five Power 4 — a high conversion rate for a 565-student school.',
     subhead:
-      'Basketball drives it: four D1 commits including signees to North Carolina, Clemson and Dayton.',
+      'Basketball still leads with five D1 commits — signees to North Carolina, Clemson and Dayton and a preferred walk-on at Duke — but the Class of 2026 also sent athletes to NC State soccer, two Division II lacrosse programs and two Division III track programs.',
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '10',
+        count: '16',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '9', width: 0.9, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '11', width: 0.69, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '3',
-        width: 0.3,
+        count: '5',
+        width: 0.31,
         shade: 'full',
       },
     ],
     funnelNote:
-      'These are documented floors, not a census. The school published a full seven-athlete list for the class of 2025 but no named list for 2024 or 2026, though its 2026–27 School Profile counts 8 collegiate athletes in the Class of 2026, two of whom are documented here. Its official athletics site is dead — so non-basketball commitments in those years are almost certainly missing. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
+      'These are documented floors, not a census. The school published a full seven-athlete list for the Class of 2025, and its 2025–26 Athletics Recap names all eight collegiate athletes in the Class of 2026 — but no equivalent list exists for the Class of 2024, so that class is almost certainly understated. Collegiate athlete is the school’s term, not scholarship athlete: Nick Arnold joined Duke as a preferred walk-on, and Division III programs such as Emory and Berry award no athletic scholarships. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
     sportBars: [
-      { sport: 'Basketball', count: 4, width: 1, p4Width: 0.5 },
-      { sport: 'Volleyball', count: 2, width: 0.5 },
-      { sport: 'Soccer', count: 1, width: 0.25 },
-      { sport: 'Swimming', count: 1, width: 0.25 },
-      { sport: 'Equestrian', count: 1, width: 0.25, p4Width: 0.25 },
+      { sport: 'Basketball', count: 5, width: 1, p4Width: 0.6 },
+      { sport: 'Soccer', count: 3, width: 0.6, p4Width: 0.2 },
+      { sport: 'Volleyball', count: 2, width: 0.4 },
+      { sport: 'Lacrosse', count: 2, width: 0.4 },
+      { sport: 'Track & Field', count: 2, width: 0.4 },
+      { sport: 'Swimming', count: 1, width: 0.2 },
+      { sport: 'Equestrian', count: 1, width: 0.2, p4Width: 0.2 },
     ],
     realityCheck:
-      'The unusual thing here is the ratio, not the volume: nine of ten documented commitments are Division I, where larger peer schools convert closer to a third. That reflects a small school whose recruiting story is concentrated almost entirely in one nationally-visible basketball program rather than spread across many sports — and it means the experience for an athlete outside that program looks very different.',
+      'The unusual thing here is still the ratio: eleven of sixteen documented commitments are Division I, where larger peer schools convert closer to a third. Through 2025 the story was almost entirely one nationally visible basketball program; the Class of 2026 broadened it, with a soccer signee at NC State, two lacrosse players bound for Division II programs and two track athletes bound for Division III schools — so the experience for an athlete outside basketball now has examples of its own.',
     rankedRecruits:
       'Three four-star basketball recruits in consecutive classes. Cody Peck ’26 is ranked No. 82 nationally by 247Sports and No. 99 by ESPN — he transferred in from IMG Academy for his senior year and chose Dayton over Creighton, Tennessee and Miami. Isaiah Denis ’25 was No. 56 in the On3 Industry ranking and the No. 1 recruit in North Carolina before signing with UNC. Will Stevens ’26, a 6-foot-10 center, was No. 1 in NC per On3 and committed to Clemson over Vanderbilt and South Carolina.',
     roster: [
       { cls: "'26", name: 'Will Stevens', sport: 'Boys Basketball', college: 'Clemson', conf: 'ACC', level: 'P4',
         rank247: { national: 186, state: 4, url: 'https://247sports.com/player/will-stevens-46149054/' } },
+      { cls: "'26", name: 'Nick Arnold', sport: 'Boys Basketball', college: 'Duke', conf: 'ACC', level: 'P4' },
+      { cls: "'26", name: 'Kipenzi Perry', sport: 'Girls Soccer', college: 'NC State', conf: 'ACC', level: 'P4' },
       { cls: "'26", name: 'Cody Peck', sport: 'Boys Basketball', college: 'Dayton', conf: 'Atlantic 10', level: 'D1',
         rank247: { national: 120, state: 2, url: 'https://247sports.com/player/cody-peck-46150042/' } },
+      { cls: "'26", name: 'Molly Brown', sport: 'Girls Lacrosse', college: 'Flagler', conf: 'Peach Belt', level: 'D2' },
+      { cls: "'26", name: 'Izzy Pierce', sport: 'Girls Lacrosse', college: 'Wingate', conf: 'South Atlantic', level: 'D2' },
+      { cls: "'26", name: 'Alex Haponik', sport: 'Track & Field', college: 'Emory', conf: 'UAA', level: 'D3' },
+      { cls: "'26", name: 'Sean Hayes', sport: 'Track & Field', college: 'Berry', conf: 'SAA', level: 'D3' },
       { cls: "'25", name: 'Isaiah Denis', sport: 'Boys Basketball', college: 'North Carolina', conf: 'ACC', level: 'P4',
         rank247: { national: 79, state: 4, url: 'https://247sports.com/player/isaiah-denis-46142390/' } },
       { cls: "'25", name: 'Abbie Gordon', sport: 'Equestrian', college: 'Georgia', conf: 'SEC', level: 'P4' },
@@ -324,7 +335,7 @@ export const davidsonDay: SportsProgram = {
       { cls: "'24", name: 'Mason Smith', sport: 'Boys Basketball', college: 'Mercer', conf: 'Southern', level: 'D1' },
     ],
     rosterNote:
-      'The classes of 2024 and 2026 are under-represented because the school publishes no signing list for those years and its athletics website is offline. Level labels and conferences were added by the researcher from each college’s NCAA status. The school’s 2026–27 profile counts 8 collegiate athletes in the Class of 2026 without naming them.',
+      'The Class of 2024 is under-represented because the school published no signing list for that year. The Class of 2026 is complete: the school’s 2025–26 Athletics Recap names all eight. Level labels and conferences were added by the researcher from each college’s NCAA status; Flagler competes in the Peach Belt Conference through 2026–27 and joins the Sunshine State Conference in 2027–28.',
     sources: [
       {
         label: 'davidsonday.org — seven athletes sign letters of intent',
@@ -341,6 +352,13 @@ export const davidsonDay: SportsProgram = {
         url: 'https://247sports.com/season/2025-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
       },
       { label: 'School Profile 2026–27 (Class of 2026 collegiate athletes)', url: PROFILE },
+      { label: 'Davidson Day — 2025–26 Athletics Recap (Collegiate Athletes, p.3)', url: RECAP },
+      { label: 'Duke — 2026–27 men’s basketball roster', url: 'https://goduke.com/sports/mens-basketball/roster' },
+      { label: 'News & Observer via Yahoo — Nick Arnold joins Duke as a preferred walk-on', url: 'https://sports.yahoo.com/articles/did-duke-basketball-just-next-101500311.html' },
+      { label: 'TopDrawerSoccer — recruiting roundup, Sept. 2024 (Perry to NC State)', url: 'https://www.topdrawersoccer.com/club-soccer-articles/recruiting-roundup:-september-9-15_aid53778' },
+      { label: 'HighSchoolOT — 2026 all-state girls lacrosse (Brown, Pierce)', url: 'https://www.highschoolot.com/story/the-2026-highschoolot-all-state-girls-lacrosse-team/22375831/' },
+      { label: 'Wingate — Izzy Pierce, 2027 roster', url: 'https://wingatebulldogs.com/sports/womens-lacrosse/roster/izzy-pierce/14800' },
+      { label: 'Emory — 2026 men’s cross country roster', url: 'https://emoryathletics.com/sports/mens-cross-country/roster' },
     ],
   },
 

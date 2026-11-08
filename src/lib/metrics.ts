@@ -271,6 +271,10 @@ const RULES: Record<string, Rule[]> = {
     // check against the NCISAA archive. It is provenance for the Sports Offered and
     // record cards, not a card of its own, so it folds onto the research dossier.
     { match: /school profile/i, key: 'redesign-research', label: 'Sports Research Dossier (2026)' },
+    // "… - Sports - Athletics Recap <years>" transcribes the school's own season-review
+    // publication (collegiate athletes, all-state list, milestones). Provenance for the
+    // pipeline card, not a card of its own.
+    { match: /athletics recap/i, key: 'redesign-research', label: 'Sports Research Dossier (2026)' },
     { match: /awards and honors/i, key: 'awards', label: 'Awards & Honors' },
     { match: /championships/i, key: 'championships', label: 'Championships' },
     { match: /coach/i, key: 'coaches', label: 'Coaches: Pedigree & Continuity' },
