@@ -358,3 +358,19 @@ stop and find out why before writing.
 - **Should the roster carry a visible "walk-on" marker per row?** That would be a new field
   on `Commit` and a chip in `SportsProgram.tsx`, i.e. a UX change needing approval.
   **Default:** no; prose only.
+
+## Implementation notes
+
+- **Phase 1** shipped as planned (`065a3331`). The step-6 instruction to open the PR during
+  Phase 1 was overridden by `/implement`'s rule that the PR waits for Phase 2, so both
+  phases landed in #445.
+- **Phase 2** matched the forecast exactly: 6 units per locale (5 `sports`, 1
+  `metric-values`), with no seventh unit. The new roster rows and the `Lacrosse` /
+  `Track & Field` sport bars attached to existing units. `check_work_integrity.mjs`
+  reports its usual post-splice "text/of/at mutated" violations. Instead, 17,397 kept
+  translations were verified byte-identical to `HEAD` by stamp.
+- "Athletics Recap" stays in Latin script in every locale as the publication's title, and
+  "preferred walk-on" stays as a Latin term with a native gloss (es *plaza sin beca*, fr
+  *sans bourse*, …). The qual now says "promoción / promotion / batch" in place of the
+  English "Classes of" that six locales had kept in the old string. That follows the
+  sports-card convention.
