@@ -1,7 +1,7 @@
 ---
 name: charlottechristiancommits
 title: Charlotte Christian — the /athlete-commits graduate refresh adds the missing Class of 2026 (10 commitments, 9 D1, Jamal Rule to Nebraska as the 9th Power 4); College Pipeline card 38 / 26 / 8 → 48 / 35 / 9, Compare P4 9, D1 35; fixes the Football/Other bar split and two false sentences in rankedRecruits
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-christian-commits-2026
@@ -330,3 +330,26 @@ path**. A seventh new unit means something went wrong: stop and look.
   D1 tab 36; Rule's row shows 835 / 31 linked to his 247 profile; all seven new source links
   render, and the Porter-era 247 link is gone. Compare reads 9 / 35 / 1 against Providence
   Day's 16 / 39 / 10; both qual tips carry the new text.
+
+### Phase 2
+
+- **The splice found 7 new units per locale, not 6** (sports 1033 kept / 5 added / 6 dropped;
+  metric-values 902 / 2 / 1). The seventh is the bare figure `35`, the new
+  `d1-commits-2426` value: `metric-values` extracts value cells, `'26'` survives as a unit
+  through other schools' cells, and `'35'` did not exist before. It is stored as `35`,
+  the way every locale stores the other value figures. The plan's "a seventh means something
+  went wrong" did not anticipate a value cell; nothing else was unexpected.
+- The `realityCheck`, `rankedRecruits` (Curry sentence) and `rosterNote` (level-label and
+  Class of 2027 sentences) translations keep each locale's shipped wording for the
+  unchanged clauses, cut by marker from the `HEAD` work file, so only the new clauses are
+  new text. Rank abbreviations follow each locale's existing form (es `n.º`, fr `no`,
+  it `n.`, te `నం.`, hi `नंबर`, bn `N নম্বর`, ar `رقم`, fa `رتبهٔ`), always with digits.
+- Checks: `check:runtime` and `check:live` resolve in all 9; `check:sepdrift` 0 drifted ×9;
+  `check_figures.py --topic sports` intact ×9; `check:digits` 63 units / 0 to review;
+  `check:dates`, `check:moneytext`, `check:bidi`, `check:fa`, `check:hi`, `check:fr`,
+  `check:chrome` clean; `i18n:leaks` 0 flags on the new paths ×9; `npx tsc -b` and
+  `npm run build` exit 0.
+- Browser (real Chrome, `es` and `fa`, every card open): all five sentences and the
+  `(all divisions, 2024–26)` hint translated, no English left from the old or new text,
+  `48`/`35`/`9`/`73%` intact, the fa headline renders RTL with names in Latin. Compare
+  (`?topic=sports`) shows the translated qual on both the P4 and D1 tips in both locales.
