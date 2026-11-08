@@ -1252,7 +1252,8 @@
         "providence-day:wholeClass.scoreTables[0].title",
         "charlotte-christian:wholeClass.scoreTables[0].title",
         "charlotte-country-day:wholeClass.scoreTables[0].title",
-        "cannon:wholeClass.scoreTables[0].title"
+        "cannon:wholeClass.scoreTables[0].title",
+        "davidson-day:wholeClass.scoreTables[0].title"
       ]
     },
     {
@@ -9122,8 +9123,8 @@
       ]
     },
     {
-      "t": "Davidson Day retient délibérément toutes les données SAT et ACT — « due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027 ».",
-      "of": "3e5255d0",
+      "t": "Davidson Day n’a publié aucun score SAT ou ACT depuis son profil 2020–21 — le profil actuel indique « due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027 ».",
+      "of": "d4a6af30",
       "at": [
         "davidson-day:wholeClass.headline"
       ]
@@ -9133,6 +9134,83 @@
       "of": "daa9e107",
       "at": [
         "davidson-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "— promotion 2021 · 12 candidats aux tests (sur 53) · profil scolaire 2020–21",
+      "of": "ac31b08f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Total SAT — promotion 2021",
+      "of": "11e853e1",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "SAT EBRW — promotion 2021",
+      "of": "aad8fb25",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "SAT Math — promotion 2021",
+      "of": "cad4111f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "Total SAT — promotion 2020",
+      "of": "10e8524e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "Ce sont les derniers scores SAT publiés par l’établissement, tirés de son profil 2020–21. Selon l’établissement, la COVID-19 a limité les tests de la promotion 2021 : seuls 12 de ses 53 élèves de terminale avaient passé le SAT, d’où la publication de la promotion 2020 (43 candidats) à côté. Les bornes des 50% centraux SONT les 25e et 75e centiles ; les 10e, 50e et 90e sont indiqués « — » parce que l’établissement ne les publie pas.",
+      "of": "1d3ed30e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "Percentiles de l’ACT composite",
+      "of": "edde9c98",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "— promotion 2021 · 43 candidats aux tests (sur 53) · profil scolaire 2020–21",
+      "of": "b840a185",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].hint"
+      ]
+    },
+    {
+      "t": "ACT composite — promotion 2021",
+      "of": "ee7a725c",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "ACT composite — promotion 2020",
+      "of": "ef7a73ef",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "Même profil : 43 élèves de la promotion 2021 et 51 de la promotion 2020 ont passé l’ACT. Tous les profils suivants ont retenu les données des tests.",
+      "of": "3467bf55",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].note"
       ]
     },
     {
@@ -9262,8 +9340,8 @@
       ]
     },
     {
-      "t": "Toutes les données SAT et ACT sont retenues — centiles, moyennes, et même le nombre de candidats aux tests. Le nombre de candidats aux tests est aussi révélateur que les scores, puisqu’il indique si la promotion passe les tests ou non ; ni l’un ni l’autre n’est disponible. Il s’agit d’une décision de divulgation liée aux admissions test-optional, et non d’un indice sur le niveau des scores des élèves.",
-      "of": "2519bda5",
+      "t": "Pour chaque promotion après 2021, toutes les données SAT et ACT sont retenues — moyennes, fourchettes, et même le nombre de candidats aux tests. Le nombre de candidats aux tests est aussi révélateur que les scores, puisqu’il indique si une promotion passe les tests ou non ; ni l’un ni l’autre n’est disponible. Il s’agit d’une décision de divulgation liée aux admissions test-optional, et non d’un indice sur le niveau des scores des élèves.",
+      "of": "2d41a112",
       "at": [
         "davidson-day:wholeClass.flags[0].text"
       ]
@@ -9273,6 +9351,13 @@
       "of": "6aad681b",
       "at": [
         "davidson-day:wholeClass.flags[1].text"
+      ]
+    },
+    {
+      "t": "Vérification des derniers scores, 2026-11-07 : les profils 2022–23 à 2026–27 retiennent tous les données des tests. L’édition 2021–22 (slug Issuu dds81-college_profile-2022-22_online) a été remplacée sur place et n’a pas pu être lue ; un éventuel chiffre de la promotion 2022, s’il a jamais été publié, reste donc inconnu. Dossier : School Profile 2020-2021.md.",
+      "of": "755e9037",
+      "at": [
+        "davidson-day:wholeClass.flags[2].text"
       ]
     },
     {

@@ -1252,7 +1252,8 @@
         "providence-day:wholeClass.scoreTables[0].title",
         "charlotte-christian:wholeClass.scoreTables[0].title",
         "charlotte-country-day:wholeClass.scoreTables[0].title",
-        "cannon:wholeClass.scoreTables[0].title"
+        "cannon:wholeClass.scoreTables[0].title",
+        "davidson-day:wholeClass.scoreTables[0].title"
       ]
     },
     {
@@ -9122,8 +9123,8 @@
       ]
     },
     {
-      "t": "Davidson Day ইচ্ছাকৃতভাবেই SAT ও ACT-র সব তথ্য চেপে রাখে — “test-optional নীতির জনপ্রিয়তার কারণে আমরা Class of 2027-এর testing profile দেব না”।",
-      "of": "3e5255d0",
+      "t": "Davidson Day তার 2020–21 প্রোফাইলের পর থেকে কোনো SAT বা ACT স্কোর প্রকাশ করেনি — বর্তমান প্রোফাইলে বলা হয়েছে “test-optional নীতির জনপ্রিয়তার কারণে আমরা Class of 2027-এর testing profile দেব না”।",
+      "of": "d4a6af30",
       "at": [
         "davidson-day:wholeClass.headline"
       ]
@@ -9133,6 +9134,83 @@
       "of": "daa9e107",
       "at": [
         "davidson-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "— 2021 ব্যাচ · 12 জন পরীক্ষার্থী (53 জনের মধ্যে) · 2020–21 School Profile",
+      "of": "ac31b08f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "SAT মোট — 2021 ব্যাচ",
+      "of": "11e853e1",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "SAT EBRW — 2021 ব্যাচ",
+      "of": "aad8fb25",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "SAT Math — 2021 ব্যাচ",
+      "of": "cad4111f",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "SAT মোট — 2020 ব্যাচ",
+      "of": "10e8524e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "এগুলোই স্কুলের প্রকাশিত শেষ SAT স্কোর, তার 2020–21 প্রোফাইল থেকে। স্কুল বলছে COVID-19 2021 ব্যাচের পরীক্ষা সীমিত করেছিল: তার 53 জন সিনিয়রের মধ্যে মাত্র 12 জন SAT দিয়েছিল, তাই স্কুলটি পাশাপাশি 2020 ব্যাচের (43 জন পরীক্ষার্থী) স্কোরও ছাপে। মাঝের 50%-এর প্রান্তবিন্দুগুলোই 25তম ও 75তম পার্সেন্টাইল; 10তম, 50তম ও 90তম “—” হিসেবে দেখানো হয়েছে, কারণ স্কুল সেগুলো প্রকাশ করে না।",
+      "of": "1d3ed30e",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "ACT composite পার্সেন্টাইল",
+      "of": "edde9c98",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "— 2021 ব্যাচ · 43 জন পরীক্ষার্থী (53 জনের মধ্যে) · 2020–21 School Profile",
+      "of": "b840a185",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].hint"
+      ]
+    },
+    {
+      "t": "ACT composite — 2021 ব্যাচ",
+      "of": "ee7a725c",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "ACT composite — 2020 ব্যাচ",
+      "of": "ef7a73ef",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "একই প্রোফাইল থেকে: 2021 ব্যাচের 43 জন এবং 2020 ব্যাচের 51 জন শিক্ষার্থী ACT দিয়েছিল। তারপরের প্রতিটি প্রোফাইল পরীক্ষার তথ্য চেপে রেখেছে।",
+      "of": "3467bf55",
+      "at": [
+        "davidson-day:wholeClass.scoreTables[1].note"
       ]
     },
     {
@@ -9262,8 +9340,8 @@
       ]
     },
     {
-      "t": "SAT ও ACT-র সব তথ্যই চেপে রাখা হয় — পার্সেন্টাইল, গড়, এমনকি পরীক্ষার্থীর সংখ্যাও। পরীক্ষার্থীর সংখ্যাটি স্কোরের মতোই অনেক কিছু জানায়, কারণ তা দেখায় ব্যাচটি আদৌ পরীক্ষা দিচ্ছে কি না; দুটির একটিও পাওয়া যায় না। এটি test-optional ভর্তির সঙ্গে জড়িত তথ্য প্রকাশের একটি সিদ্ধান্ত, শিক্ষার্থীরা কেমন স্কোর করেন তার ইঙ্গিত নয়।",
-      "of": "2519bda5",
+      "t": "2021-এর পরের প্রতিটি ব্যাচের ক্ষেত্রে SAT ও ACT-র সব তথ্যই চেপে রাখা হয় — গড়, পরিসর, এমনকি পরীক্ষার্থীর সংখ্যাও। পরীক্ষার্থীর সংখ্যাটি স্কোরের মতোই অনেক কিছু জানায়, কারণ তা দেখায় কোনো ব্যাচ আদৌ পরীক্ষা দিচ্ছে কি না; দুটির একটিও পাওয়া যায় না। এটি test-optional ভর্তির সঙ্গে জড়িত তথ্য প্রকাশের একটি সিদ্ধান্ত, শিক্ষার্থীরা কেমন স্কোর করেন তার ইঙ্গিত নয়।",
+      "of": "2d41a112",
       "at": [
         "davidson-day:wholeClass.flags[0].text"
       ]
@@ -9273,6 +9351,13 @@
       "of": "6aad681b",
       "at": [
         "davidson-day:wholeClass.flags[1].text"
+      ]
+    },
+    {
+      "t": "সর্বশেষ স্কোর যাচাই, 2026-11-07: 2022–23 থেকে 2026–27 পর্যন্ত সব প্রোফাইল পরীক্ষার তথ্য চেপে রাখে। 2021–22 সংস্করণটি (Issuu slug dds81-college_profile-2022-22_online) একই জায়গায় প্রতিস্থাপিত হয়েছে এবং পড়া যায়নি, তাই 2022 ব্যাচের কোনো সংখ্যা কখনো ছাপা হয়ে থাকলেও তা দেখা যায়নি। রেকর্ড: School Profile 2020-2021.md।",
+      "of": "755e9037",
+      "at": [
+        "davidson-day:wholeClass.flags[2].text"
       ]
     },
     {
