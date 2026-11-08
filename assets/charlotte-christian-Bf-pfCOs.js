@@ -1,4 +1,4 @@
-var e=`charlotte-christian`,t=`sports`,n=43,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
+var e=`charlotte-christian`,t=`sports`,n=48,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Christian - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Christian — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -220,6 +220,23 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 | Zach Zinger | Football | Wake Forest | ACC | ✅ |`},{subtopic:`Class of 2026`,source_file:null,preview:`Not yet compiled in any located public source. App metric values (2024–2025 documented): Power 4 = 8 · Division I = 26 ---`,text:`Not yet compiled in any located public source.
 
 **App metric values (2024–2025 documented):** Power 4 = 8 · Division I = 26
+
+---`},{subtopic:`College Commitments Class of 2027`,source_file:`Charlotte Christian - Sports - College Commitments Class of 2027.md`,preview:`# Charlotte Christian — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Charlotte Christian — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sweep record (2026-11-08)`,source_file:null,preview:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any roster school yet — they fill after the signing periods), the NC Football News 2027 NC commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's 2027 commitment list (Jan 2026), Ultimate…`,text:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
+roster school yet — they fill after the signing periods), the NC Football News 2027 NC
+commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's
+2027 commitment list (Jan 2026), Ultimate Lacrosse Charlotte and Team 91 Carolina girls'
+commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team pages,
+PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
+girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
+own athletics news pages. School-published signing-day posts for the Class of 2027 are not
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:`Confirmed — 1`,source_file:null,preview:`| Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Will Parrish | Baseball | NC State | ACC | P4 | Prep Baseball Report NC Class of 2027 rankings (No. 6, "North Carolina State"); NCSA profile ("committed to NC State").…`,text:`| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Will Parrish | Baseball | NC State | ACC | **P4** | Prep Baseball Report NC Class of 2027 rankings (No. 6, "North Carolina State"); NCSA profile ("committed to NC State"). https://www.prepbaseballreport.com/rankings/NC/North-Carolina-class-of-2027 · https://www.ncsasports.org/baseball-recruiting/north-carolina/charlotte/charlotte-christian-school/will-parrish4 |`},{subtopic:`Leads — one source only, not rows`,source_file:null,preview:`| Athlete | Sport | College | Source | |---|---|---|---| | Landry Struble | Boys Lacrosse | Monmouth (CAA, D1) | Team 91 Charlotte "The Scoop — The Commitments", 2026-01-14 | | Chase Covey | Boys Lacrosse | Grove City (PAC, D3) | Team 91 Charlotte, same post | RealGM's Charlotte Christian page lists six 2027…`,text:`| Athlete | Sport | College | Source |
+|---|---|---|---|
+| Landry Struble | Boys Lacrosse | Monmouth (CAA, D1) | Team 91 Charlotte "The Scoop — The Commitments", 2026-01-14 |
+| Chase Covey | Boys Lacrosse | Grove City (PAC, D3) | Team 91 Charlotte, same post |
+
+RealGM's Charlotte Christian page lists six 2027 basketball players, none with a college.`},{subtopic:"Totals for the `seniors-committed` row (as of 2026-11-08)",source_file:null,preview:"1 confirmed (value `'1'`), 2 pending. ---",text:`**1 confirmed** (value \`'1'\`), 2 pending.
 
 ---`},{subtopic:`D1 Matriculation`,source_file:`Charlotte Christian - Sports - D1 Matriculation.pdf`,preview:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Matriculation to NCAA Division I Athletics Research Area — EVERY confirmed D1 commitment, 2014–2025, all conferences (school-published list) Comprehensive: includes all NCAA Division I commitments (any conference), not filtered to Power 4.…`,text:`CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Matriculation to NCAA Division I Athletics
@@ -1287,4 +1304,4 @@ https://www.charlottechristian.com/athletics/knights-accolades
 https://www.si.com/high-school/north-carolina/charlotte-christian-school-sets-2025-football-schedule-01jtghjdregp
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:43,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:48,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

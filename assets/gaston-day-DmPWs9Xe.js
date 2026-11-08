@@ -1,4 +1,17 @@
-var e=`gaston-day`,t=`sports`,n=10,r=[{subtopic:`Program and Championship Ledger 2026`,source_file:`Gaston Day School - Sports - Program and Championship Ledger 2026.md`,preview:`# Gaston Day School — Sports (Program and Championship Ledger 2026) - School: Gaston Day School — Spartans. NCISAA 2A. - Athletic Director: Lulu Brase (named in the 2025-26 Academic Profile).`,text:`# Gaston Day School — Sports (Program and Championship Ledger 2026)
+var e=`gaston-day`,t=`sports`,n=13,r=[{subtopic:`College Commitments Class of 2027`,source_file:`Gaston Day - Sports - College Commitments Class of 2027.md`,preview:`# Gaston Day — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Gaston Day — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sweep record (2026-11-08)`,source_file:null,preview:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any roster school yet — they fill after the signing periods), the NC Football News 2027 NC commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's 2027 commitment list (Jan 2026), Ultimate…`,text:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
+roster school yet — they fill after the signing periods), the NC Football News 2027 NC
+commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's
+2027 commitment list (Jan 2026), Ultimate Lacrosse Charlotte and Team 91 Carolina girls'
+commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team pages,
+PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
+girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
+own athletics news pages. School-published signing-day posts for the Class of 2027 are not
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:`Confirmed — 1`,source_file:null,preview:`| Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Bree Smith | Swimming | Stanford | ACC | P4 | Charlotte Observer swimming preview 2026-11-03: listed as "Sr., 50/100 free … Stanford commit", and athletic director Lulu Brase is quoted directly: "senior committed to Stanford…`,text:`| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Bree Smith | Swimming | Stanford | ACC | **P4** | Charlotte Observer swimming preview 2026-11-03: listed as "Sr., 50/100 free … Stanford commit", and athletic director Lulu Brase is quoted directly: "senior committed to Stanford University" — the school's own statement, on the record. https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html |
+
+No SwimSwam or Swimming World article was found; re-check after the early signing period for
+a Stanford release.`},{subtopic:`Program and Championship Ledger 2026`,source_file:`Gaston Day School - Sports - Program and Championship Ledger 2026.md`,preview:`# Gaston Day School — Sports (Program and Championship Ledger 2026) - School: Gaston Day School — Spartans. NCISAA 2A. - Athletic Director: Lulu Brase (named in the 2025-26 Academic Profile).`,text:`# Gaston Day School — Sports (Program and Championship Ledger 2026)
 
 - **School:** Gaston Day School — **Spartans**. NCISAA **2A**.
 - **Athletic Director:** **Lulu Brase** (named in the 2025-26 Academic Profile).`},{subtopic:`Source URLs`,source_file:null,preview:`| Ref | URL | What it covers | | --- | --- | --- | | S1 | https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/ | Full sport list by gender and season; AD listed as Lulu Brase; co-ed private | | S2 | https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/volleyball/ | Volleyball levels (varsity, JV, freshman),…`,text:`| Ref | URL | What it covers |
@@ -124,4 +137,4 @@ Evidence for each final:
 
 Dropped, under the usual bar of a title or a runner-up year: boys golf 2021 (3rd), the girls swimming finishes of 4th and 5th, the boys and girls basketball semifinals and quarterfinals, and every cross country finish.
 
----`}],i={school_slug:e,topic_slug:t,section_count:10,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:13,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

@@ -1,4 +1,12 @@
-var e=`hickory-grove-christian`,t=`sports`,n=18,r=[{subtopic:`Redesign Research 2026`,source_file:`Hickory Grove Christian - Sports - Redesign Research 2026.md`,preview:`# Hickory Grove Christian School — Sports (Redesign Research 2026) - School: Hickory Grove Christian School, 7200 E. WT Harris Blvd., Charlotte, NC 28215. Founded 1995 (a ministry of Hickory Grove Baptist Church). NCISAA 3A (joined NCISAA 2002), Metrolina Athletic Conference (MAC). Mascot Lions. Colors navy & gold.…`,text:`# Hickory Grove Christian School — Sports (Redesign Research 2026)
+var e=`hickory-grove-christian`,t=`sports`,n=20,r=[{subtopic:`College Commitments Class of 2027`,source_file:`Hickory Grove Christian - Sports - College Commitments Class of 2027.md`,preview:`# Hickory Grove Christian — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Hickory Grove Christian — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sweep record (2026-11-08)`,source_file:null,preview:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any roster school yet — they fill after the signing periods), the NC Football News 2027 NC commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's 2027 commitment list (Jan 2026), Ultimate…`,text:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
+roster school yet — they fill after the signing periods), the NC Football News 2027 NC
+commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's
+2027 commitment list (Jan 2026), Ultimate Lacrosse Charlotte and Team 91 Carolina girls'
+commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team pages,
+PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
+girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
+own athletics news pages. School-published signing-day posts for the Class of 2027 are not
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:`Redesign Research 2026`,source_file:`Hickory Grove Christian - Sports - Redesign Research 2026.md`,preview:`# Hickory Grove Christian School — Sports (Redesign Research 2026) - School: Hickory Grove Christian School, 7200 E. WT Harris Blvd., Charlotte, NC 28215. Founded 1995 (a ministry of Hickory Grove Baptist Church). NCISAA 3A (joined NCISAA 2002), Metrolina Athletic Conference (MAC). Mascot Lions. Colors navy & gold.…`,text:`# Hickory Grove Christian School — Sports (Redesign Research 2026)
 
 - **School:** Hickory Grove Christian School, 7200 E. WT Harris Blvd., Charlotte, NC 28215.
  Founded 1995 (a ministry of Hickory Grove Baptist Church). NCISAA **3A** (joined NCISAA 2002),
@@ -192,4 +200,4 @@ recorded above. The team-title count stays 12.
 
 Dropped: none. No other sport reached a state final in these six seasons.
 
----`}],i={school_slug:e,topic_slug:t,section_count:18,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:20,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

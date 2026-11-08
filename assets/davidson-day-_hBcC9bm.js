@@ -1,4 +1,4 @@
-var e=`davidson-day`,t=`sports`,n=53,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Davidson Day - Sports - 247Sports Recruiting Rankings.md`,preview:`# Davidson Day — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Davidson Day — Sports — 247Sports Recruiting Rankings
+var e=`davidson-day`,t=`sports`,n=56,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Davidson Day - Sports - 247Sports Recruiting Rankings.md`,preview:`# Davidson Day — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Davidson Day — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -211,7 +211,15 @@ documented floor.
 *commitments to college athletics*, which is the only claim the sources support. Division III
 programs (Emory, Berry) award no athletic scholarships, and Arnold is a walk-on.
 
----`},{subtopic:`Redesign Research 2026`,source_file:`Davidson Day - Sports - Redesign Research 2026.md`,preview:`# Davidson Day School — Sports — Redesign Research (2026) > ## ⚠️ THREE CORRECTIONS OF RECORD > > 1. Cam Reddish did NOT attend Davidson Day. He attended The Haverford School and > then Westtown School, both in Pennsylvania, before Duke. His name appears nowhere in > Davidson Day's Hall of Fame, championship board, or…`,text:`# Davidson Day School — Sports — Redesign Research (2026)
+---`},{subtopic:`College Commitments Class of 2027`,source_file:`Davidson Day - Sports - College Commitments Class of 2027.md`,preview:`# Davidson Day — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Davidson Day — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sweep record (2026-11-08)`,source_file:null,preview:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any roster school yet — they fill after the signing periods), the NC Football News 2027 NC commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's 2027 commitment list (Jan 2026), Ultimate…`,text:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
+roster school yet — they fill after the signing periods), the NC Football News 2027 NC
+commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's
+2027 commitment list (Jan 2026), Ultimate Lacrosse Charlotte and Team 91 Carolina girls'
+commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team pages,
+PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
+girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
+own athletics news pages. School-published signing-day posts for the Class of 2027 are not
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:`Leads`,source_file:null,preview:`None found. Cody Peck (Dayton) is Class of 2026 and already counted on the card.`,text:`None found. Cody Peck (Dayton) is Class of 2026 and already counted on the card.`},{subtopic:`Redesign Research 2026`,source_file:`Davidson Day - Sports - Redesign Research 2026.md`,preview:`# Davidson Day School — Sports — Redesign Research (2026) > ## ⚠️ THREE CORRECTIONS OF RECORD > > 1. Cam Reddish did NOT attend Davidson Day. He attended The Haverford School and > then Westtown School, both in Pennsylvania, before Duke. His name appears nowhere in > Davidson Day's Hall of Fame, championship board, or…`,text:`# Davidson Day School — Sports — Redesign Research (2026)
 
 > ## ⚠️ THREE CORRECTIONS OF RECORD
 >
@@ -1460,4 +1468,4 @@ Sources
 [6] Davidson Day School — History and Achievements (team state championships).
 Davidson Day School — Athletics Research Series · compiled from public sources Page 2
 
----`}],i={school_slug:e,topic_slug:t,section_count:53,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:56,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

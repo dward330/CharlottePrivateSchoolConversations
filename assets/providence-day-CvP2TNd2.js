@@ -1,4 +1,4 @@
-var e=`providence-day`,t=`sports`,n=49,r=[{subtopic:`Awards and Honors`,source_file:`PD - Sports - Awards and Honors.pdf`,preview:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Individual Awards & Honors New Topic — Player and coach honors beyond team championships Covers Gatorade Players of the Year, NC Mr. Football, McDonald's All-Americans, MaxPreps All-Americans, CISAA/NCISAA All-State, and the annual PD ESPYs.…`,text:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
+var e=`providence-day`,t=`sports`,n=55,r=[{subtopic:`Awards and Honors`,source_file:`PD - Sports - Awards and Honors.pdf`,preview:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Individual Awards & Honors New Topic — Player and coach honors beyond team championships Covers Gatorade Players of the Year, NC Mr. Football, McDonald's All-Americans, MaxPreps All-Americans, CISAA/NCISAA All-State, and the annual PD ESPYs.…`,text:`PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Individual Awards & Honors
 New Topic — Player and coach honors beyond team championships
 Covers Gatorade Players of the Year, NC Mr. Football, McDonald's All-Americans, MaxPreps All-Americans,
@@ -1285,6 +1285,37 @@ Julian Johnson (Howard).
 
 **App metric values:** Power 4 = 17 · Division I = 39
 
+---`},{subtopic:`College Commitments Class of 2027`,source_file:`Providence Day - Sports - College Commitments Class of 2027.md`,preview:`# Providence Day — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Providence Day — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sources`,source_file:null,preview:`- NC Football News — 2027 North Carolina commitment tracker (last updated 2026-11-03): https://ncfootballnews.com/2027-north-carolina-high-school-football-college-commits/ - 247Sports — 2027 North Carolina football rankings (68 players, single page; eight Providence Day players, each with the committed college shown):…`,text:`- NC Football News — 2027 North Carolina commitment tracker (last updated 2026-11-03):
+ https://ncfootballnews.com/2027-north-carolina-high-school-football-college-commits/
+- 247Sports — 2027 North Carolina football rankings (68 players, single page; eight
+ Providence Day players, each with the committed college shown):
+ https://247sports.com/season/2027-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC
+- The card's existing recruiting prose cites NC Football News' 2027 consensus rankings:
+ https://ncfootballnews.com/north-carolina-2027-football-recruiting-consensus-rankings-may-2026-update/`},{subtopic:`Football — 9 public verbals (6 Power 4, 3 other Division I)`,source_file:null,preview:`| Athlete | Pos | College | Conf. | Level | Verbal date | Confirmed by | |---|---|---|---|---|---|---| | Robert Geathers III | SAF | Florida | SEC | P4 | 6/18/2026 | NCFN tracker; 247 (rating 88, NC No. 24) | | Griff Galloway | DL | Kentucky | SEC | P4 | 5/22/2026 | NCFN; 247 (88, NC No. 19) | | Brennan Drummond | SAF…`,text:`| Athlete | Pos | College | Conf. | Level | Verbal date | Confirmed by |
+|---|---|---|---|---|---|---|
+| Robert Geathers III | SAF | Florida | SEC | **P4** | 6/18/2026 | NCFN tracker; 247 (rating 88, NC No. 24) |
+| Griff Galloway | DL | Kentucky | SEC | **P4** | 5/22/2026 | NCFN; 247 (88, NC No. 19) |
+| Brennan Drummond | SAF | Nebraska | Big Ten | **P4** | 6/21/2026 | NCFN; 247 (87, NC No. 30) |
+| Caleb Cooper | SAF / ATH | Penn State | Big Ten | **P4** | 6/8/2026 | NCFN; 247 (87, NC No. 31) |
+| Moses Poku-Kankam | SAF | Rutgers | Big Ten | **P4** | 4/28/2026 | NCFN; 247 (86, NC No. 47) |
+| Steele Fletcher | WR | Wake Forest | ACC | **P4** | 2/12/2026 | NCFN; 247 (85, NC No. 50) |
+| Ethan Dempsey | WR | Charlotte | American | D1 | 6/26/2026 | NCFN; 247 (86, NC No. 49) |
+| Cooper Hodson | IOL | Delaware | CAA | D1 | 6/22/2026 | NCFN; 247 (83, NC No. 58) |
+| Justin Abanquah | ILB | Elon | Southern | D1 | 6/23/2026 | NCFN; Prism News "Elon adds Charlotte-area standouts to 2027 recruiting class" https://www.prismnews.com/sports/fcs-football/elon-adds-charlotte-area-standouts-to-2027-recruiting-class |
+
+\`rank247\` for the card: read each player's 247 page in a browser before typing a Composite
+rank; the figures above are the 247Sports-only state ranks from the rankings table.`},{subtopic:`Swimming — 1 confirmed, 2 leads`,source_file:null,preview:`| Athlete | College | Conf. | Level | Confirmed by | |---|---|---|---|---| | Maddy Boland (Sr., 50/100 free) | North Carolina | ACC | P4 | Charlotte Observer swimming preview 2026-11-03 ("UNC commit"); SwimSwam "UNC Adds Summer Juniors Qualifier and NAG Record Holder Maddy Boland For 2027"…`,text:`| Athlete | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|
+| Maddy Boland (Sr., 50/100 free) | North Carolina | ACC | **P4** | Charlotte Observer swimming preview 2026-11-03 ("UNC commit"); SwimSwam "UNC Adds Summer Juniors Qualifier and NAG Record Holder Maddy Boland For 2027" https://swimswam.com/unc-adds-summer-juniors-qualifier-and-nag-record-holder-maddy-boland-for-2027/ |
+
+Leads: **Georgia Howard** → Dartmouth (Ivy, D1) — SwimSwam only ("rising senior at
+Providence Day", https://swimswam.com/?p=1024710); **Dean Hamid** (Sr., 50/100 free) → Davidson
+(Atlantic 10, D1) — Observer preview only. Zona Smith (Florida) and Annie Shall (UNC) are
+juniors (Class of 2028).`},{subtopic:`Other sports — none found`,source_file:null,preview:`Basketball (247's 2027 NC page lists no Providence Day player; RealGM unreachable by id), lacrosse (Team 91 and Ultimate Lacrosse 2027 lists), baseball (Prep Baseball Report: Chase Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball 2027 watchlist): no Providence Day 2027 commitment found.`,text:`Basketball (247's 2027 NC page lists no Providence Day player; RealGM unreachable by id),
+lacrosse (Team 91 and Ultimate Lacrosse 2027 lists), baseball (Prep Baseball Report: Chase
+Biermann uncommitted), soccer (TopDrawerSoccer), volleyball (PrepVolleyball 2027 watchlist):
+no Providence Day 2027 commitment found.`},{subtopic:"Totals for the `seniors-committed` row (as of 2026-11-08)",source_file:null,preview:"10 confirmed (value `'10'`): 7 Power 4, 3 other Division I. Two leads pending. ---",text:`**10 confirmed** (value \`'10'\`): 7 Power 4, 3 other Division I. Two leads pending.
+
 ---`},{subtopic:`Redesign Research 2026`,source_file:`Providence Day - Sports - Redesign Research 2026.md`,preview:`# Providence Day School — Sports — Redesign Research (2026)`,text:`# Providence Day School — Sports — Redesign Research (2026)`},{subtopic:`Corrections to the prior dossier`,source_file:null,preview:`1. 2025–26 state titles: 4, not 2 — football, girls swimming, girls lacrosse AND girls soccer. PD led all of NCISAA 4A that year. 2. 2026 girls soccer final: beat Carmel Christian 2–0, finishing 18–4–1 — not "Charlotte Latin 1–0 OT". Third straight title; Grayson Dudley scored both goals. 3. Program size: 66 teams /…`,text:`1. **2025–26 state titles: 4, not 2** — football, girls swimming, girls lacrosse AND girls
  soccer. PD led all of NCISAA 4A that year.
 2. **2026 girls soccer final: beat Carmel Christian 2–0, finishing 18–4–1** — not
@@ -1953,4 +1984,4 @@ NCHSAA, Spring: Baseball, Lacrosse, Men's Golf, Men's Tennis, Men's Volleyball, 
 
 Track and cross country are not listed: the design calls them recurring point sources, but no retrieved source supports that for PD.
 
----`}],i={school_slug:e,topic_slug:t,section_count:49,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:55,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

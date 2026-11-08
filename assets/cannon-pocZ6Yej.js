@@ -1,4 +1,4 @@
-var e=`cannon`,t=`sports`,n=48,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Cannon - Sports - 247Sports Recruiting Rankings.md`,preview:`# Cannon — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Cannon — Sports — 247Sports Recruiting Rankings
+var e=`cannon`,t=`sports`,n=52,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Cannon - Sports - 247Sports Recruiting Rankings.md`,preview:`# Cannon — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline roster…`,text:`# Cannon — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -438,6 +438,21 @@ athletes opens 2026-11-11 (football: December 2026).
 - Mary Catherine Farley (Wofford) and Elle Collier (Rollins) in the 2024 All-Observer lacrosse
  article are Charlotte Catholic and Charlotte Latin players, not Cannon's; Addison Maynor
  ('27) appears there as a freshman with no commitment.
+
+---`},{subtopic:`College Commitments Class of 2027`,source_file:`Cannon - Sports - College Commitments Class of 2027.md`,preview:`# Cannon School — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Cannon School — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Confirmed — 6 public commitments (all Division I)`,source_file:null,preview:`| Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Brooke Busby | Girls Basketball | Princeton | Ivy | D1 | Prep Girls Hoops; Charlotte Observer 2026-11-05 ("committed to Princeton") | | Madison Drayton | Girls Basketball | Coastal Carolina | Sun Belt | D1 | Charlotte Observer…`,text:`| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Brooke Busby | Girls Basketball | Princeton | Ivy | D1 | Prep Girls Hoops; Charlotte Observer 2026-11-05 ("committed to Princeton") |
+| Madison Drayton | Girls Basketball | Coastal Carolina | Sun Belt | D1 | Charlotte Observer 2026-11-05; Prep Girls Hoops ("Coastal Carolina — Committed") |
+| Marcus Sales | Football | Ohio | MAC | D1 | 247Sports Hard Commit 6/7/2026; NC Football News 2027 tracker |
+| Kingston Davis | Football | Furman | Southern | D1 | NC Football News 2027 tracker (6/17/2026); his X bio |
+| Tripp Cooler | Swimming | Villanova | Big East | D1 | SwimSwam; Swimming World 2026-03-22; Charlotte Observer 2026-11-03 |
+| Hudson Higbea | Boys Lacrosse | Brown | Ivy | D1 | LaxNumbers 2026 team page; Team 91 Charlotte "The Scoop — The Commitments" 2026-01-14 ("Hudson Higbea – Defense – Cannon School – Brown University") https://team91charlotte.substack.com/p/the-scoop-the-commitments . **Confirmed 2026-11-08 (second source found during \`/implement seniorsrow\`)** |
+
+Source URLs: see the Sources list of \`Cannon - Sports - College Commitments 2024-2026.md\`.`},{subtopic:`Leads — one source only, not rows`,source_file:null,preview:`| Athlete | Sport | College | Source | |---|---|---|---| | Thomas (Tommy) Underwood | Boys Lacrosse | Hampton | LaxNumbers only | | Kircher Bracksieck | Boys Lacrosse | Denison | LaxNumbers only | | Hina Nakamura | Girls Basketball | Lees-McRae | an offer, not a commitment |`,text:`| Athlete | Sport | College | Source |
+|---|---|---|---|
+| Thomas (Tommy) Underwood | Boys Lacrosse | Hampton | LaxNumbers only |
+| Kircher Bracksieck | Boys Lacrosse | Denison | LaxNumbers only |
+| Hina Nakamura | Girls Basketball | Lees-McRae | an **offer**, not a commitment |`},{subtopic:"Totals for the `seniors-committed` row (as of 2026-11-08)",source_file:null,preview:`6. Signed: 0 (early period not yet open). ---`,text:`**6.** Signed: 0 (early period not yet open).
 
 ---`},{subtopic:`D1 Matriculation`,source_file:`Cannon - Sports - D1 Matriculation.pdf`,preview:`CANNON SCHOOL COUGARS — ATHLETICS RESEARCH DOSSIER Concord, NC Matriculation to NCAA Division I Athletics Research Area — D1 commitments across all sports (no consolidated school list exists) Cannon does not publish a single alumni-in-college list; this is assembled from recruiting media, the Athletics Hall of Fame,…`,text:`CANNON SCHOOL COUGARS — ATHLETICS RESEARCH DOSSIER Concord, NC
 Matriculation to NCAA Division I Athletics
@@ -1414,4 +1429,4 @@ https://alumni.cannonschool.org/page/hall-of-fame-2020-inductees
 • Cannon Men's Basketball (CISAA POY streak) — https://x.com/cannonmbb
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:48,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:52,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

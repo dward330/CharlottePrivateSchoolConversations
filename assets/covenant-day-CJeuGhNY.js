@@ -1,4 +1,12 @@
-var e=`covenant-day`,t=`sports`,n=24,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Covenant Day School - Sports - 247Sports Recruiting Rankings.md`,preview:`# Covenant Day School — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Covenant Day School — Sports — 247Sports Recruiting Rankings
+var e=`covenant-day`,t=`sports`,n=27,r=[{subtopic:`College Commitments Class of 2027`,source_file:`Covenant Day - Sports - College Commitments Class of 2027.md`,preview:`# Covenant Day — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Covenant Day — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sweep record (2026-11-08)`,source_file:null,preview:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any roster school yet — they fill after the signing periods), the NC Football News 2027 NC commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's 2027 commitment list (Jan 2026), Ultimate…`,text:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
+roster school yet — they fill after the signing periods), the NC Football News 2027 NC
+commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's
+2027 commitment list (Jan 2026), Ultimate Lacrosse Charlotte and Team 91 Carolina girls'
+commitment pages, Prep Baseball Report's NC 2027 coverage, TopDrawerSoccer team pages,
+PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming and 2026-11-05
+girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
+own athletics news pages. School-published signing-day posts for the Class of 2027 are not
+yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{subtopic:`Leads`,source_file:null,preview:`None found. TopDrawerSoccer and RealGM list no 2027 Covenant Day commitment.`,text:`None found. TopDrawerSoccer and RealGM list no 2027 Covenant Day commitment.`},{subtopic:`247Sports Recruiting Rankings`,source_file:`Covenant Day School - Sports - 247Sports Recruiting Rankings.md`,preview:`# Covenant Day School — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Covenant Day School — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -672,4 +680,4 @@ The school publishes narrative season highlights with seeds, streaks, and playof
 results rather than complete win-loss tables; full records live on MaxPreps
 (https://www.maxpreps.com/nc/matthews/covenant-day-lions/) season by season.
 
----`}],i={school_slug:e,topic_slug:t,section_count:24,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:27,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
