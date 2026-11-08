@@ -1,11 +1,11 @@
 ---
 name: cannoncommits2
 title: Cannon — the second roster pass (every other varsity sport) adds nine more 2024–26 commitments, eight of them lacrosse, including a third Power 4 (Brevin Wilson, North Carolina) and Kierra Morrow (Elon); fills Lily Wittgraefe's sport; College Pipeline card 14 / 6 / 3 → 23 / 12 / 4 and Compare P4 4, D1 12
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/cannon-commits-2026-b
-prs: []
+prs: [450]
 ---
 
 # Cannon's College Pipeline, second pass: every varsity sport
