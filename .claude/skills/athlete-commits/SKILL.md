@@ -89,6 +89,12 @@ On3's and SwimCloud's domains are **not permitted** in the extension (and both a
 Cloudflare-blocked to curl); their data reaches you only through search snippets, so do not
 spend a turn on either.
 
+**Chrome is required for a graduate refresh and optional for the current-senior pass.**
+Current seniors have no college roster yet, so their evidence lives in commitment trackers
+and club lists that answer curl; on the eleven-school seniors sweep of 2026-11-08 the
+browser contributed two RealGM nulls and the final page check, nothing more. Say which pass
+you are running, and do not stall a seniors pass on a disconnected extension.
+
 ## Step 1 — Which school
 
 If the user did not name one, ask. Then read `src/data/schools.json` and `src/data/brands.ts`
@@ -191,7 +197,36 @@ record it.
 | Golf | Junior Golf Scoreboard commitments via search | the college's roster |
 | Field hockey | MAX Field Hockey commitments via search | the college's roster |
 | Wrestling | InterMat / FloWrestling commit lists via search | the college's roster |
-| Any | Grouped OR-searches of 4–6 names + "commit OR roster OR college" | the Charlotte Observer preseason previews (via Yahoo), which list "committed to …" for basketball and swimming |
+| Any | Grouped OR-searches of 4–6 names + "commit OR roster OR college" | the Charlotte Observer preseason previews (via Yahoo), which print "committed to …" for every school in one article: swimming and girls/boys basketball in early November, lacrosse and baseball/softball in February–March, the All-Observer teams each June |
+
+### The current-senior pass (feeds `seniors-committed`)
+
+The yearly refresh of the *Current seniors committed* row is a different job from a
+graduate refresh, and the eleven-school sweep of 2026-11-08 (plan `seniorsrow`) set its rules:
+
+- **Time it to the signing waves.** Schools publish their named signing-day posts in three
+  waves — mid-November (early period opens the second Wednesday), early February and late
+  April — and the HighSchoolOT trackers fill in after each. A sweep run before mid-November
+  read `'0'` for five of eleven schools whose posts were simply not up yet. Run the pass after
+  each wave; a value taken earlier is provisional and the file must say so.
+- **Run it roster-wide first.** The strongest sources list every school at once, so read each
+  once and grep all eleven names: the NC Football News class tracker, 247Sports' NC class
+  rankings pages (football and basketball), Team 91 Charlotte's "The Scoop — The
+  Commitments" and Ultimate Lacrosse Charlotte's and Team 91 Carolina's commitment pages,
+  Prep Baseball Report's NC class rankings, PrepVolleyball's class watchlist, and the
+  Observer previews above. Only then go school by school for the schools' own posts.
+- **Confirm the class year on the school's roster before counting.** The previews mix
+  juniors and seniors in one list: two Providence Day swimmers committed to Florida and UNC
+  were juniors (Class of 2028) and would have inflated the row.
+- **Grade the evidence.** A club's own newsletter about its own players counts as a source
+  (Team 91's Scoop confirmed a LaxNumbers-only lead). A tracker and a roundup from the same
+  publisher count once (two NC Football News items left two Charlotte Catholic commits as
+  leads). An athletic director quoted on the record in a newspaper is the school speaking
+  (Gaston Day's Stanford swimmer). Prep Baseball Report and Perfect Game are independent of
+  each other. A self-reported profile (SportsRecruits, a TopDrawerSoccer team page) is a
+  lead; TopDrawerSoccer's editorial recruiting roundups are a source.
+- **Write the per-class file for every school, including the zeros**, and carry the leads
+  in it so the next wave's pass starts from them (Step 6).
 
 **A user-submitted database alone is a lead, not a row.** LaxNumbers listed three Cannon
 Class-of-2027 verbals that no second source confirmed; they stay in the record as leads. A
@@ -235,6 +270,10 @@ Record the choice.
   `'Girls Lacrosse'`, `'Boys Tennis'`, `'Girls Soccer'`. A sport that no source publishes
   stays `'Not published'` — and a tracker for a different sport may be what fills it (the
   volleyball tracker named the sport behind Cannon's "William Smith" row).
+- **When sources disagree on the sport**, follow the editorial source, record the
+  disagreement in the per-class file, and re-check the college's roster when it is
+  published (a Charlotte Catholic Bucknell commit is a soccer forward to TopDrawerSoccer and
+  a lacrosse midfielder to his club).
 
 ## Step 5 — Report
 

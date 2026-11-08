@@ -548,7 +548,8 @@ hand the verified record to `/plan`.**
 
 `.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-08 (every
 varsity sport, HighSchoolOT trackers, LaxNumbers; window check, per-class retention file,
-`seniors-committed` row)
+`seniors-committed` row; the current-senior pass — timing, roster-wide mode, evidence
+grading — after the eleven-school sweep in plan `seniorsrow`)
 
 The repeatable version of plans `cannoncommits` and `cannoncommits2`. A shallow web search
 had given Cannon six commitments across 2024–26; reading every varsity roster (the school's
@@ -570,7 +571,7 @@ missing for <school>".
 | **0** | Tells the developer to **turn on Claude in Chrome** and loads the browser tools in one call. |
 | **1** | Asks which school; **refuses a school not in `schools.json`**, stops on a K-8 school, flags a school with no `pipeline` card as a UX-gate case. Reads what the card holds today and **runs the window check** — if a class has graduated past the Compare window's last year, tells the user it is time to roll the window by one. |
 | **2** | Pulls the rosters for **every varsity sport**: the school's own team pages (current classes) and MaxPreps for the last three seasons plus the current one (graduating classes). |
-| **3** | Greps the school's name in all 17 **HighSchoolOT per-sport recruiting trackers**, then cross-references every senior — RealGM and LaxNumbers in Chrome, the NC Football News trackers, PrepVolleyball, SwimSwam, TennisRecruiting, MileSplit, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. |
+| **3** | Greps the school's name in all 17 **HighSchoolOT per-sport recruiting trackers**, then cross-references every senior — RealGM and LaxNumbers in Chrome, the NC Football News trackers, PrepVolleyball, SwimSwam, TennisRecruiting, MileSplit, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. **The current-senior pass** runs roster-wide first (statewide trackers, club commitment lists, the Observer previews, grepped for every school at once), confirms each class year on the school's roster, and grades verbals by source type. |
 | **4** | Classifies with the existing level / conference / sport vocabulary (JUCO at the D3 tier with `NJCAA`, Covenant Day precedent); `rank247` only where 247 publishes a Composite rank. |
 | **5** | Reports new, changed, verbal and ruled-out athletes, the funnel and Compare deltas, and the nulls separately from the unchecked gaps. |
 | **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, **writes or extends `… - College Commitments Class of <year>.md` for the current seniors (kept forever; zero commitments is still a file)**, notes the dossier, and invokes `/plan` as `<slug>commits` with the two window values and the `seniors-committed` value. |
@@ -605,6 +606,14 @@ missing for <school>".
 
 > **⚠️ MaxPreps past seasons use the path form** (`/basketball/24-25/roster/`); the
 > `?season=` query silently returns the current season.
+
+> **📆 Time the seniors pass to the signing waves.** Schools post named signing lists in
+> mid-November, early February and late April, and the trackers fill after each. The first
+> eleven-school sweep (2026-11-08) ran a week early and read 0 for five schools whose posts
+> were not up yet. Chrome is optional for this pass: current seniors have no college roster,
+> so the evidence is trackers and club lists that answer curl. Two items from one publisher
+> count once; a club's newsletter about its own players counts; an AD quoted on the record
+> is the school; confirm the class year on the roster before counting a preview's "commit".
 
 > **📅 The window rolls once a year, as its own plan.** The Power 4 and Division I rows
 > cover three graduated classes (`…-2426` → 2024–2026). The skill computes the current
