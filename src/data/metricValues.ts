@@ -2289,7 +2289,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Power 4 commits',
     note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.',
     values: {
-      cannon: '3', // ’24 Swartz (Miami), Galloway (North Carolina) · ’25 Kroll (Notre Dame)
+      cannon: '4', // ’24 A.Swartz (Miami), Galloway (North Carolina), B.Wilson (North Carolina) · ’25 Kroll (Notre Dame)
       'charlotte-christian': '8', // ’24: Henley, Wilfong, Woody, Zinger · ’25: E.Boykin, Hinde, Nicholson, Vance (’26 not yet compiled)
       'charlotte-catholic': '10', // Classes 2024-2026, table-parsed from three named articles: MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke), Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC), Hoffman (Va Tech)
       'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard
@@ -2335,7 +2335,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Division I commits',
     note: 'Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.',
     values: {
-      cannon: '6', // ’24: Swartz, Galloway · ’25: Kroll, McCorkle, Nix, Baker (2026 class: two D3 only; ’27 verbals not counted)
+      cannon: '12', // ’24: A.Swartz, Galloway, B.Wilson, Frood, Maynor, W.Swartz, Falasca, Morrow · ’25: Kroll, McCorkle, Nix, Baker (2026 class: two D3 only; ’27 verbals not counted)
       'charlotte-christian': '26', // ’24: 11 · ’25: 15 (’26 class not yet compiled)
       'charlotte-catholic': '25', // of 35 documented athletes; P4 is a subset. The 2026 class is a documented MINIMUM — only the February ceremony is published, and CCHS holds separate fall and spring signing days
       'charlotte-country-day': '25', // ’24: 10 · ’25: 12 · ’26: 3
