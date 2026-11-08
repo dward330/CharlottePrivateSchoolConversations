@@ -546,14 +546,19 @@ build on a ledger the association disagrees with; or deploy. Adding the publishe
 cross-referencing its varsity rosters against college rosters and recruiting services, then
 hand the verified record to `/plan`.**
 
-`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08
+`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-08 (every
+varsity sport, HighSchoolOT trackers, LaxNumbers)
 
-The repeatable version of plan `cannoncommits`. A shallow web search had given Cannon six
-commitments across 2024–26; reading every varsity roster (the school's site plus MaxPreps,
-2023-24 → 2026-27) and following each senior to a college roster found **fourteen**, among
-them two Power 4 signees the card never had (Austin Swartz – Miami, Hayes Galloway – North
-Carolina). The card is data-driven, so a refresh is data only: `pipeline` in the school's
-`sportsPrograms` module, `p4-commits-2426` / `d1-commits-2426` in `metricValues.ts`.
+The repeatable version of plans `cannoncommits` and `cannoncommits2`. A shallow web search
+had given Cannon six commitments across 2024–26; reading every varsity roster (the school's
+site plus MaxPreps, 2023-24 → 2026-27) and following each senior to a college roster found
+**fourteen**, among them two Power 4 signees the card never had (Austin Swartz – Miami, Hayes
+Galloway – North Carolina). A second pass over the sports the first had skipped found nine
+more, eight of them lacrosse, including a third Power 4 (Brevin Wilson – North Carolina) —
+so the skill now covers **every varsity sport the school fields**, with depth tiered by
+whether a sport has a commitment database. The card is data-driven, so a refresh is data
+only: `pipeline` in the school's `sportsPrograms` module, `p4-commits-2426` /
+`d1-commits-2426` in `metricValues.ts`.
 
 **Use it when** a school's pipeline card may be stale: `/athlete-commits`, "find new college
 commits for <school>", "cross-reference <school>'s rosters", "are there athletes we're
@@ -563,16 +568,28 @@ missing for <school>".
 |---|---|
 | **0** | Tells the developer to **turn on Claude in Chrome** and loads the browser tools in one call. |
 | **1** | Asks which school; **refuses a school not in `schools.json`**, stops on a K-8 school, flags a school with no `pipeline` card as a UX-gate case. Reads what the card holds today. |
-| **2** | Pulls the rosters: the school's own team pages (current classes) and MaxPreps for the last three seasons plus the current one (graduating classes), six target sports plus any sport holding a P4 commit. |
-| **3** | Cross-references every senior — RealGM in Chrome for basketball, the NC Football News trackers for football, PrepVolleyball, SwimSwam, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. |
+| **2** | Pulls the rosters for **every varsity sport**: the school's own team pages (current classes) and MaxPreps for the last three seasons plus the current one (graduating classes). |
+| **3** | Greps the school's name in all 17 **HighSchoolOT per-sport recruiting trackers**, then cross-references every senior — RealGM and LaxNumbers in Chrome, the NC Football News trackers, PrepVolleyball, SwimSwam, TennisRecruiting, MileSplit, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. |
 | **4** | Classifies with the existing level / conference / sport vocabulary (JUCO at the D3 tier with `NJCAA`, Covenant Day precedent); `rank247` only where 247 publishes a Composite rank. |
 | **5** | Reports new, changed, verbal and ruled-out athletes, the funnel and Compare deltas, and the nulls separately from the unchecked gaps. |
 | **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, notes the dossier, and invokes `/plan` as `<slug>commits`. |
 
-> **🔑 Claude in Chrome is required, not optional.** RealGM's school page — the one source
-> that lists every basketball graduate with their college — returns 403 to curl and WebFetch.
-> On Cannon it surfaced five of the eight missing athletes. A pass without it reports
-> basketball as "nothing found". On3's domain is blocked in the extension too; do not try.
+> **🔑 Claude in Chrome is required, not optional.** RealGM's school page (every basketball
+> graduate with their college) and LaxNumbers' team recruits page (every lacrosse commit by
+> class) both return 403 to curl and WebFetch. On Cannon they surfaced five of the eight
+> basketball names and all eight lacrosse names. A pass without the browser reports both
+> sports as "nothing found". On3 and SwimCloud are blocked in the extension too; do not try.
+
+> **🗺️ The HighSchoolOT trackers are the map.** Seventeen statewide, reader-submitted,
+> one per sport, and they answer curl: grep the school's name in all of them first. On
+> Cannon they surfaced a girls basketball commit and the sport behind a "Not published" row
+> that no other source had, both then confirmed on the college's roster, plus a tennis lead
+> the roster did not confirm. They run a class behind and are not the confirmation — the
+> college's roster is.
+
+> **⚠️ A database entry alone is a lead.** Three LaxNumbers Class-of-2027 verbals had no
+> second source and stay leads; a commit on two reader-submitted lists but missing from the
+> college's roster for her entry year reads as a decommit until the college says otherwise.
 
 > **🔒 Only schools in the web app.** Not in `schools.json` → run `/add-school` first. A K-8
 > school has no pipeline card and no Compare rows.
