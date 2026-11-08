@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/seniors-committed-row
-prs: []
+prs: [451]
 ---
 
 # "Current seniors committed" on Compare, and the data that feeds it
