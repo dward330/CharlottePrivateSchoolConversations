@@ -1,11 +1,11 @@
 ---
 name: cannoncommits
 title: Cannon — eight more 2024–26 college commitments (Swartz to Miami and Galloway to North Carolina among them) plus four Class of 2027 verbals, found by cross-referencing the varsity rosters; College Pipeline card and the two Compare commit rows
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/cannon-commits-2026
-prs: []
+prs: [447]
 ---
 
 # Cannon's College Pipeline, rebuilt from the varsity rosters
@@ -412,3 +412,15 @@ path. If the splice reports a seventh new unit, stop and find out why before wri
 - **Should Hayes Galloway count as a Power 4 commit when he may have been a walk-on at
   UNC?** **Default:** yes — the card counts documented commitments, and Davidson Day's Nick
   Arnold (Duke walk-on) already counts on exactly that rule.
+
+## Implementation notes
+
+Both phases shipped in PR #447 as planned; no step deviated. Two observations for the
+next pipeline refresh:
+
+- The splice reported exactly the predicted 5 + 1 units per locale, so the labels chosen
+  from existing units (`Boys Basketball`, `American`, `Southern`, `NJCAA`) created no stray
+  translation unit. The dropped units were the five old prose fields and the old qual.
+- The old `es` and `fr` realityCheck called John Kroll "una nadadora" / "une nageuse"; the
+  new rendering is masculine. The old `es` headline also wrote `2024–26` as "entre 2024 y
+  2026", a re-typing `check:digits` would flag today; the new units keep the range verbatim.
