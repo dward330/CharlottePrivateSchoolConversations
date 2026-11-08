@@ -63,6 +63,13 @@ softball 25–15 (.625) · football 22–14 (.611) across the James era · boys 
 and 2024, then the 2025 state final. The run to that final included a 55–48 semifinal win
 over Rabun Gap-Nacoochee (GA), the program that had beaten Providence Day for the 2024 title.
 
+> **Superseded 2026-11-08.** The pipeline figures below cover 2024–25 only. The verified
+> 2024–26 record (48 committed, 35 D1, 9 P4, including the Class of 2026) is in
+> `Charlotte Christian - Sports - College Commitments 2024-2026.md`, and the roster method,
+> nulls and ruled-out leads are in
+> `Charlotte Christian - Sports - Varsity Roster Cross-Reference 2026.md`. Football's D1
+> count below (9) should read 10.
+
 ## 3. College Pipeline — 38 commits, 26 D1, 8 P4 (classes of 2024–2025)
 
 **Scope note:** the school's "Knights in College" roster stops at the **class of 2025**; no
