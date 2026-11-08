@@ -305,7 +305,8 @@
       "at": [
         "providence-day:[2].values.charlotte-christian",
         "providence-day:[2].values.charlotte-catholic",
-        "providence-day:[2].values.providence-day"
+        "providence-day:[2].values.providence-day",
+        "providence-day:[43].values.davidson-day"
       ]
     },
     {
@@ -318,8 +319,7 @@
         "providence-day:[2].values.davidson-day",
         "providence-day:[38].values.providence-day",
         "providence-day:[42].values.charlotte-country-day",
-        "providence-day:[43].values.covenant-day",
-        "providence-day:[43].values.davidson-day"
+        "providence-day:[43].values.covenant-day"
       ]
     },
     {
@@ -4214,7 +4214,6 @@
         "providence-day:[31].values.carmel-christian",
         "providence-day:[32].values.carmel-christian",
         "providence-day:[42].values.charlotte-latin",
-        "providence-day:[42].values.davidson-day",
         "providence-day:[43].values.cannon",
         "providence-day:[43].values.hickory-grove-christian",
         "providence-day:[44].values.davidson-day",
@@ -5590,6 +5589,16 @@
       ]
     },
     {
+      "t": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[42].values.davidson-day",
+        "providence-day:[43].values.carmel-christian",
+        "providence-day:[46].values.charlotte-country-day",
+        "providence-day:[51].values.providence-day"
+      ]
+    },
+    {
       "t": "Classes of 2024-2026 में दस Power Four कमिटमेंट, जिनमें से हर एक तिथि-अंकित लेख की तालिका से निकाला गया और नाम से जाँचा गया। Class of 2026 एक प्रलेखित न्यूनतम है: केवल फ़रवरी का signing समारोह प्रकाशित है, और CCHS पतझड़ तथा वसंत में अलग-अलग signing day रखता है, इसलिए उस कक्षा के लिए baseball और lacrosse काफ़ी हद तक अप्रकाशित हैं।",
       "of": "43a71e96",
       "at": [
@@ -5628,8 +5637,8 @@
       ]
     },
     {
-      "t": "एक प्रलेखित न्यूनतम; Davidson Day के लिए Classes of 2024 और 2026 कम-प्रलेखित हैं।",
-      "of": "22ec0adc",
+      "t": "एक प्रलेखित न्यूनतम: Davidson Day के लिए 2024 बैच कम-प्रलेखित है। 2025 और 2026 बैच स्कूल की अपनी प्रकाशित सूचियों से लिए गए हैं।",
+      "of": "4aa36666",
       "at": [
         "providence-day:[42].quals.davidson-day.text",
         "providence-day:[43].quals.davidson-day.text"
@@ -5654,15 +5663,6 @@
       "of": "17eb23f8",
       "at": [
         "providence-day:[43].values.charlotte-latin"
-      ]
-    },
-    {
-      "t": "5",
-      "of": "300ca0d0",
-      "at": [
-        "providence-day:[43].values.carmel-christian",
-        "providence-day:[46].values.charlotte-country-day",
-        "providence-day:[51].values.providence-day"
       ]
     },
     {

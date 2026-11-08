@@ -348,7 +348,8 @@
       "at": [
         "providence-day:[2].values.charlotte-christian",
         "providence-day:[2].values.charlotte-catholic",
-        "providence-day:[2].values.providence-day"
+        "providence-day:[2].values.providence-day",
+        "providence-day:[43].values.davidson-day"
       ],
       "t": "11"
     },
@@ -362,8 +363,7 @@
         "providence-day:[2].values.davidson-day",
         "providence-day:[38].values.providence-day",
         "providence-day:[42].values.charlotte-country-day",
-        "providence-day:[43].values.covenant-day",
-        "providence-day:[43].values.davidson-day"
+        "providence-day:[43].values.covenant-day"
       ],
       "t": "9"
     },
@@ -4785,7 +4785,6 @@
         "providence-day:[31].values.carmel-christian",
         "providence-day:[32].values.carmel-christian",
         "providence-day:[42].values.charlotte-latin",
-        "providence-day:[42].values.davidson-day",
         "providence-day:[43].values.cannon",
         "providence-day:[43].values.hickory-grove-christian",
         "providence-day:[44].values.davidson-day",
@@ -6351,6 +6350,17 @@
       "t": "0"
     },
     {
+      "text": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[42].values.davidson-day",
+        "providence-day:[43].values.carmel-christian",
+        "providence-day:[46].values.charlotte-country-day",
+        "providence-day:[51].values.providence-day"
+      ],
+      "t": "5"
+    },
+    {
       "text": "Ten Power Four commitments across the Classes of 2024-2026, each table-parsed from a dated article and checked by name. The Class of 2026 is a documented minimum: only the February signing ceremony is published, and CCHS holds separate fall and spring signing days, so baseball and lacrosse are largely unpublished for that class.",
       "of": "43a71e96",
       "at": [
@@ -6394,13 +6404,13 @@
       "t": "একটি নথিভুক্ত ন্যূনতম: Emily Eaton (’24) Louisville field hockey-তে সাইন করেছেন, একটি ACC প্রোগ্রাম, এবং ফ্রেশম্যান হিসেবে প্রতিটি খেলায় শুরু করেছেন। Class of 2024-এর বসন্তকালীন সাইনিং নিবন্ধটি কেবল আংশিকভাবে উদ্ধারযোগ্য, তাই আগেকার 2024 কমিটগুলো বাদ পড়তে পারে।"
     },
     {
-      "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
-      "of": "22ec0adc",
+      "text": "A documented minimum: the Class of 2024 is under-documented for Davidson Day. The Classes of 2025 and 2026 come from the school’s own published lists.",
+      "of": "4aa36666",
       "at": [
         "providence-day:[42].quals.davidson-day.text",
         "providence-day:[43].quals.davidson-day.text"
       ],
-      "t": "একটি নথিভুক্ত ন্যূনতম; Davidson Day-এর জন্য Classes of 2024 and 2026 কম-নথিভুক্ত।"
+      "t": "একটি নথিভুক্ত ন্যূনতম: Davidson Day-এর জন্য 2024 ব্যাচ কম-নথিভুক্ত। 2025 ও 2026 ব্যাচের তথ্য স্কুলের নিজের প্রকাশিত তালিকা থেকে নেওয়া।"
     },
     {
       "text": "Division I commits",
@@ -6425,16 +6435,6 @@
         "providence-day:[43].values.charlotte-latin"
       ],
       "t": "14"
-    },
-    {
-      "text": "5",
-      "of": "300ca0d0",
-      "at": [
-        "providence-day:[43].values.carmel-christian",
-        "providence-day:[46].values.charlotte-country-day",
-        "providence-day:[51].values.providence-day"
-      ],
-      "t": "5"
     },
     {
       "text": "39",
