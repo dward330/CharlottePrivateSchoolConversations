@@ -10,10 +10,12 @@
 // Class of 2027 = 50) and publishes materially less than the larger independents.
 // Two things follow, and both are honest findings rather than research failures:
 //
-//  1. The school states outright that it "will not be providing the testing
-//     profiles for the Class of 2027" because of test-optional policies, and it
-//     publishes no AP performance data and no National Merit record. So the
-//     Whole Class Analytics card carries no score tables and the Transcript card
+//  1. The school has withheld testing profiles for every class since 2021 —
+//     the current profile "will not be providing the testing profiles for the
+//     Class of 2027" because of test-optional policies. The Whole Class card
+//     therefore carries the LAST published scores (Classes of 2021 and 2020,
+//     from the 2020–21 profile), labelled as such. The school publishes no AP
+//     performance data and no National Merit record, so the Transcript card
 //     carries no AP-score stats and no merit ledger — those blocks are simply
 //     absent rather than filled with third-party or estimated numbers.
 //  2. Self-reported score ranges DO exist on aggregator sites. They are
@@ -329,6 +331,9 @@ const PROFILE =
    (2026-03-07) is the verified copy of the PDF itself. */
 const PROFILE_2526 =
   'https://web.archive.org/web/20260307054121/https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf'
+/* The 2020–21 College Profile — the last edition to print SAT and ACT scores.
+   Still live on the school's own Issuu account. */
+const PROFILE_2021 = 'https://issuu.com/davidsondayschool/docs/dds80-college_profile-2020-21_online'
 const CATALOG = 'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog'
 const COUNSELING = 'https://www.davidsonday.org/academics/college-counseling'
 
@@ -705,12 +710,36 @@ export const davidsonDay: CollegeSupportProgram = {
 
   wholeClass: {
     headline:
-      'Davidson Day withholds all SAT and ACT data by choice — “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.',
+      'Davidson Day has published no SAT or ACT scores since its 2020–21 profile — the current one says “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.',
     subhead:
       'What remains is a three-point GPA disclosure, a genuinely staffed Learning Enrichment Center, and an acceptance list broad enough to show the middle of the class is served.',
-    // No score tables at all: the school publishes neither SAT nor ACT figures,
-    // and aggregator numbers are user-submitted, so the block is omitted.
-    scoreTables: [],
+    // Last published scores: the 2020–21 profile. See source-material/
+    // college-support/davidson-day/Davidson Day - College Support - School
+    // Profile 2020-2021.md. Aggregator numbers stay excluded (user-submitted).
+    scoreTables: [
+      {
+        title: 'SAT score percentiles',
+        hint: '— Class of 2021 · 12 testers (of 53) · 2020–21 School Profile',
+        rows: [
+          { label: 'SAT total — Class of 2021', values: ['—', '1060', '—', '1230', '—', '1179'] },
+          { label: 'SAT EBRW — Class of 2021', values: ['—', '510', '—', '600', '—', '590'] },
+          { label: 'SAT Math — Class of 2021', values: ['—', '550', '—', '640', '—', '589'] },
+          { label: 'SAT total — Class of 2020', values: ['—', '1090', '—', '1320', '—', '1198'] },
+        ],
+        note:
+          'These are the last SAT scores the school has published, from its 2020–21 profile. The school says COVID-19 limited the Class of 2021’s testing: only 12 of its 53 seniors had taken the SAT, so it printed the Class of 2020 (43 testers) beside it. The middle-50% endpoints ARE the 25th and 75th percentiles; the 10th, 50th and 90th are shown as “—” because the school does not publish them.',
+      },
+      {
+        title: 'ACT composite percentiles',
+        hint: '— Class of 2021 · 43 testers (of 53) · 2020–21 School Profile',
+        rows: [
+          { label: 'ACT composite — Class of 2021', values: ['—', '18', '—', '26', '—', '23'] },
+          { label: 'ACT composite — Class of 2020', values: ['—', '22', '—', '29', '—', '24'] },
+        ],
+        note:
+          'From the same profile: 43 students in the Class of 2021 and 51 in the Class of 2020 took the ACT. Every profile since has withheld testing data.',
+      },
+    ],
     gpaTitle: 'GPA distribution',
     gpaHint: '— the no-rank mechanism · Class of 2027, transfers excluded',
     quintiles: [
@@ -751,15 +780,20 @@ export const davidsonDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'All SAT and ACT data is withheld — percentiles, means, and even the number of testers. The count of testers is as revealing as the scores, since it shows whether the class is testing at all; neither is available. This is a disclosure decision tied to test-optional admissions, not a signal about how students score.',
+        text: 'For every class after 2021, all SAT and ACT data is withheld — means, ranges, and even the number of testers. The count of testers is as revealing as the scores, since it shows whether a class is testing at all; neither is available. This is a disclosure decision tied to test-optional admissions, not a signal about how students score.',
       },
       {
         kind: 'gap',
         text: 'No gap-year policy or counselling is published, and no quintile table, decile table or mean GPA.',
       },
+      {
+        kind: 'verify',
+        text: 'Latest-scores check, 2026-11-07: the 2022–23 through 2026–27 profiles all withhold testing. The 2021–22 edition (Issuu slug dds81-college_profile-2022-22_online) was overwritten in place and could not be read, so a Class of 2022 figure, if it was ever printed, is unseen. Record: School Profile 2020-2021.md.',
+      },
     ],
     sources: [
       { label: 'davidsonday.org — School Profile 2026–27 (testing statement, GPA distribution)', url: PROFILE },
+      { label: 'Issuu — College Profile 2020–21 (the last profile to print SAT and ACT scores)', url: PROFILE_2021 },
       { label: 'Learning Enrichment Center', url: 'https://www.davidsonday.org/academics/learning-enrichment-center' },
       { label: 'Aggregator score ranges consulted and deliberately NOT used — user-submitted, not school-reported', },
     ],

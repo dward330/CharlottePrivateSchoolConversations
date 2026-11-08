@@ -304,7 +304,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'sat-scores',
     label: 'SAT total',
-    note: 'Each school’s published SAT total for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure; Davidson Day publishes no test scores.',
+    note: 'Each school’s published SAT total for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure.',
     noLead: true,
     compareOnly: true,
     values: {
@@ -318,7 +318,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '1120–1320',
       'charlotte-country-day': '1170–1400',
       'gaston-day': '1190–1330',
-      'davidson-day': null, // withholds all test data by choice
+      'davidson-day': '1179',
     },
     subs: {
       'providence-day': '(Class of 2026)',
@@ -331,6 +331,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '(Class of 2026)',
       'charlotte-country-day': '(Class of 2027)',
       'gaston-day': '(Class of 2025)',
+      'davidson-day': '(Class of 2021)',
     },
     scores: {
       'providence-day': { median: null, mean: '1288', mid50: '1160–1420' },
@@ -343,6 +344,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': { median: null, mean: null, mid50: '1120–1320' },
       'charlotte-country-day': { median: null, mean: null, mid50: '1170–1400' },
       'gaston-day': { median: null, mean: null, mid50: '1190–1330' },
+      'davidson-day': { median: null, mean: '1179', mid50: '1060–1230' },
     },
     quals: {
       'hickory-grove-christian': {
@@ -353,13 +355,17 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Printed in the 2026–27 profile beneath the Class of 2027 GPA table; the school names neither the class nor the number of testers.',
       },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'From the school’s 2020–21 profile, the last to print test scores: only 12 of 53 seniors had taken the SAT, a sample the school attributes to COVID-19. Every later profile withholds scores.',
+      },
     },
   },
   {
     topic: 'college-support',
     key: 'act-scores',
     label: 'ACT composite',
-    note: 'Each school’s published ACT composite for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure; Davidson Day publishes no test scores.',
+    note: 'Each school’s published ACT composite for the class named beneath: the median, the average and the middle 50%. A dash means the school does not publish that figure.',
     noLead: true,
     compareOnly: true,
     values: {
@@ -373,7 +379,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '21–29',
       'charlotte-country-day': '26–31',
       'gaston-day': '22–28',
-      'davidson-day': null, // withholds all test data by choice
+      'davidson-day': '23',
     },
     subs: {
       'providence-day': '(Class of 2026)',
@@ -386,6 +392,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '(Class of 2026)',
       'charlotte-country-day': '(Class of 2027)',
       'gaston-day': '(Class of 2025)',
+      'davidson-day': '(Class of 2021)',
     },
     scores: {
       'providence-day': { median: null, mean: '25', mid50: '21–30' },
@@ -398,11 +405,16 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': { median: null, mean: null, mid50: '21–29' },
       'charlotte-country-day': { median: null, mean: null, mid50: '26–31' },
       'gaston-day': { median: null, mean: null, mid50: '22–28' },
+      'davidson-day': { median: null, mean: '23', mid50: '18–26' },
     },
     quals: {
       'charlotte-country-day': {
         kind: 'scope',
         text: 'Printed in the 2026–27 profile beneath the Class of 2027 GPA table; the school names neither the class nor the number of testers.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'From the school’s 2020–21 profile, the last to print test scores: 43 of 53 seniors took the ACT. Every later profile withholds scores.',
       },
     },
   },
