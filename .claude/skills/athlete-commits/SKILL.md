@@ -2,13 +2,14 @@
 name: athlete-commits
 description: >
   Refresh one roster school's College Pipeline card (Sports) and its two Compare commit rows
-  by cross-referencing the school's varsity rosters — the school's own team pages and
-  MaxPreps for the last three seasons plus the current one — against college rosters,
-  247Sports, RealGM, SwimSwam, PrepVolleyball, Prep Girls Hoops and the NC Football News
+  by cross-referencing the school's varsity rosters — every varsity sport the school fields,
+  from the school's own team pages and MaxPreps for the last three seasons plus the current
+  one — against the HighSchoolOT per-sport recruiting trackers, college rosters, 247Sports,
+  RealGM, LaxNumbers, SwimSwam, PrepVolleyball, Prep Girls Hoops and the NC Football News
   trackers, to find college commitments the card does not have. Asks which school if not
   given and refuses any school that is not in the web app. Tells the developer to turn on the
-  Claude in Chrome extension first, because the one source that lists every basketball
-  graduate's college blocks every scripted fetch. Reports new, changed and ruled-out
+  Claude in Chrome extension first, because RealGM (every basketball graduate's college) and
+  LaxNumbers (every lacrosse commit) block every scripted fetch. Reports new, changed and ruled-out
   athletes with the funnel and Compare deltas, saves the verified record to
   source-material, and hands off to /plan. Use when the user types /athlete-commits, or asks
   to "find new college commits for <school>", "cross-reference <school>'s rosters",
@@ -21,8 +22,11 @@ description: >
 The repeatable version of what rebuilt Cannon's card (`.claude/plans/cannoncommits.md`,
 2026-11-08): a shallow web search had found six commitments in three years; reading the
 rosters and following each senior to a college roster found **fourteen**, two of them Power 4
-signees the card had never heard of. The flow is **school → rosters → each senior
-cross-referenced → graduate test → report → source-material → `/plan` → `/implement`**.
+signees the card had never heard of. A second pass over the sports the first one had
+skipped (`cannoncommits2`) found nine more — a third Power 4, five Division I and three
+Division III, eight of them in lacrosse — which is why the scope below is **every varsity
+sport the school fields**, not a shortlist. The flow is **school → rosters → each senior cross-referenced →
+graduate test → report → source-material → `/plan` → `/implement`**.
 
 The card is data-driven (`pipeline` in `src/data/sportsPrograms/<slug>.ts`, rendered by
 `src/components/SportsProgram.tsx`), and the Compare rows `p4-commits-2426` and
@@ -40,9 +44,11 @@ component changes**.
   confirmation: RealGM listed Jake Baker at Western Carolina (where he transferred), not East
   Carolina (where he signed).
 - **The graduate test.** An athlete counts for the school only if they finished high school
-  there. Check the school's roster for the athlete's senior season. Two Cannon leads failed
-  it — one spent his senior year at Overtime Elite, one left after his junior year — and
-  both would have inflated the count.
+  there. Check the school's roster for the athlete's senior season, and read the college
+  roster's "Last School" line. Three Cannon leads failed it — one spent his senior year at
+  Overtime Elite, one left after his junior year, and a Dartmouth faceoff commit every
+  lacrosse database files under Cannon is listed by Dartmouth with a Connecticut prep school
+  as his last school — and each would have inflated the count.
 - **Verbal commitments are listed, never counted.** A current senior with a public commitment
   goes on the roster (the Brooke Busby precedent) and stays out of the funnel, the sport bars
   and Compare until they sign.
@@ -58,10 +64,11 @@ component changes**.
 
 Tell the developer, before anything else:
 
-> Make sure the **Claude in Chrome** extension is enabled and Chrome is open. RealGM's
-> school page — the one source that lists every basketball graduate with the college they
-> went to — returns 403 to curl and to WebFetch, and could only be read through the browser.
-> On the Cannon pass it was what surfaced Swartz, Murash, Martin, Baker and Ingram.
+> Make sure the **Claude in Chrome** extension is enabled and Chrome is open. Two sources
+> return 403 to curl and to WebFetch and can only be read through the browser: RealGM's
+> school page (every basketball graduate with the college they went to) and LaxNumbers'
+> team recruits page (every lacrosse commit by class). On the Cannon passes they surfaced
+> five of the eight basketball names and all eight lacrosse names.
 
 Then load the browser tools in **one** `ToolSearch` call:
 
@@ -72,8 +79,9 @@ select:mcp__claude-in-chrome__tabs_context_mcp,mcp__claude-in-chrome__navigate,m
 Call `tabs_context_mcp` with `createIfEmpty: true`, work in that tab, and close it at the
 end. If the extension is not connected, stop and say so rather than skipping RealGM — a pass
 without it will report basketball as "nothing found" when the answer was one page away.
-On3's domain is **not permitted** in the extension either; its data reaches you only through
-search snippets, so do not spend a turn on it.
+On3's and SwimCloud's domains are **not permitted** in the extension (and both are
+Cloudflare-blocked to curl); their data reaches you only through search snippets, so do not
+spend a turn on either.
 
 ## Step 1 — Which school
 
@@ -98,10 +106,14 @@ report in step 5 is a diff against this.
 
 ## Step 2 — Pull the rosters
 
-Scope is the school's **six highest-profile recruiting sports** — football, boys basketball,
-girls basketball, baseball, soccer (both) and volleyball — plus any sport that already holds
-one of the school's Power 4 commits (swimming, for Cannon). Give the other sports one
-OR-search each and say in the record that they got no roster pass.
+Scope is **every varsity sport the school fields.** The first Cannon pass covered six
+"major" sports and missed eight lacrosse commits, five of them Division I and one Power 4;
+across the roster schools, lacrosse, track and swimming each produce more commitments than
+volleyball, and Davidson Day's Power 4 list includes an equestrian. The roster pull is
+cheap once MaxPreps answers, so pull them all. Depth is tiered in step 3: full per-name
+cross-reference wherever a sport has a commitment database, grouped searches plus a
+college-roster check where it does not (cheer, equestrian, crew). Say in the record which
+tier each sport got.
 
 **The school's own site first.** Find the team pages. A Finalsite athletics site (Cannon:
 `athletics.<school>.org/teams/team-details/~athletics-team-id/<id>`) server-renders the
@@ -115,27 +127,57 @@ graduates.
 answers `curl` with a browser user agent and server-renders a `<tr>` table of name, grade and
 position. Use the **path form** for a past season (`/basketball/24-25/roster/`); the
 `?season=` query form silently returns the current season. Pull the last three seasons and the
-current one for each target sport. Some sports 404 for every season (Cannon's girls soccer):
-record that as **unchecked**, not as a null. Football may live under a second MaxPreps
-school slug (Cannon's is `cannon-cannon-concord-academy-cougars`); search "MaxPreps <school>
-football roster" to find it.
+current one for each sport. Sport slugs that are not obvious: girls soccer is
+`/soccer/girls/spring/`, girls tennis `/tennis/girls/fall/`, girls golf `/golf/girls/fall/`,
+cross country `/cross-country/`, and `/track-and-field/` and `/swimming/` 404 for Cannon in
+every season. Golf and wrestling pages often exist with an empty table. A sport that 404s or
+is empty for every season is recorded as **unchecked**, not as a null. Football may live
+under a second MaxPreps school slug (Cannon's is `cannon-cannon-concord-academy-cougars`);
+search "MaxPreps <school> football roster" to find it.
 
 From each roster, list the seniors (`Sr.`) by season — those are the graduating classes in
 the 2024–26 window — and the current seniors, who are the verbal-commitment candidates.
 
 ## Step 3 — Cross-reference every senior
 
-Work sport by sport, in this order of sources; stop at the first confirmation and record it.
+**Start with the HighSchoolOT recruiting trackers — one page per sport, statewide, and
+they answer curl.** The hub is
+`https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/`;
+it links 17 trackers (baseball, softball, boys and girls basketball, boys and girls
+lacrosse, boys and girls soccer, boys and girls swimming & diving, boys and girls tennis,
+boys and girls golf, volleyball, wrestling, football via NC Football News). Fetch every one
+and grep the school's name; each hit prints `<name>, <school> — <college>` under a division
+and class heading. On Cannon this surfaced a girls basketball commit no other source had
+(confirmed on Elon's roster), the sport behind a "Not published" row (confirmed on the
+college's volleyball roster) and a tennis lead the college's roster did not confirm. The
+trackers are reader-submitted and run a class or two behind, so they are the map, not the
+confirmation.
+
+Then work sport by sport, in this order of sources; stop at the first confirmation and
+record it.
 
 | Sport | Best first source | Then |
 |---|---|---|
 | Basketball (both) | **RealGM school page** in Chrome: `basketball.realgm.com/highschool/teams/<id>/<School>` — HS grad year and College column for every player it knows | the college's roster page; Prep Girls Hoops player pages (girls; show "Committed"); Phenom Hoop Report |
 | Football | **NC Football News commitment tracker** per class (`/2026-north-carolina-high-school-football-college-commits/`, `/2027-…`; the 2024 and 2025 slugs differ — search) | 247Sports player page via WebFetch (rating, Composite ranks, "Hard Commit"); the college's roster page |
+| Lacrosse (both) | **LaxNumbers team recruits page** in Chrome: `laxnumbers.com/team_info.php?y=<year>&t=<id>&s=2` (boys; find the id by search), one page per season, columns Name · Class · Club · Pos · Div · College | the college's roster page; Inside Lacrosse; the Charlotte Observer's All-Observer lacrosse teams (June, via Yahoo) name commits |
 | Volleyball | **PrepVolleyball school page** (`/high-school-volleyball-details/women/<school>/hsid-<id>`) lists every commitment it tracks | the college's season preview or roster |
 | Soccer | TopDrawerSoccer team profile (user-submitted — a commitment there is a lead) | the college's roster |
 | Baseball / softball | Perfect Game and Prep Baseball Report via search | the college's roster |
-| Swimming | SwimSwam and Swimming World via search ("<name> commits"); the Charlotte Observer's preseason swimming preview names verbals | the college's roster |
+| Swimming | SwimSwam and Swimming World via search ("<name> commits"); the Charlotte Observer's preseason swimming preview names verbals | the college's roster (SwimCloud is blocked both ways) |
+| Tennis | TennisRecruiting.net commitment lists via search | the college's roster |
+| Track / XC | MileSplit NC signing coverage via search | the college's roster |
+| Golf | Junior Golf Scoreboard commitments via search | the college's roster |
+| Field hockey | MAX Field Hockey commitments via search | the college's roster |
+| Wrestling | InterMat / FloWrestling commit lists via search | the college's roster |
 | Any | Grouped OR-searches of 4–6 names + "commit OR roster OR college" | the Charlotte Observer preseason previews (via Yahoo), which list "committed to …" for basketball and swimming |
+
+**A user-submitted database alone is a lead, not a row.** LaxNumbers listed three Cannon
+Class-of-2027 verbals that no second source confirmed; they stay in the record as leads. A
+lead confirmed by a second reader-submitted list (HighSchoolOT + SportsRecruits) but absent
+from the college's published roster for the entry year is also **not** a row — one Cannon
+girls lacrosse commit was missing from the college's roster for the season she should have
+joined, which reads as a decommit until the college says otherwise.
 
 **The confirmation is the college's own page.** Sidearm roster pages (`goheels.com`,
 `ecupirates.com`, `hscathletics.com`, `generalssports.com`, `athletics.hamilton.edu`,
@@ -168,8 +210,10 @@ Record the choice.
   omit the field otherwise, never a placeholder. Read the live page before typing the numbers
   — a September rank and the final Composite differ.
 - **Sport labels** reuse existing units: `'Boys Basketball'`, `'Girls Basketball'`,
-  `'Football'`, `'Volleyball'`, `'Swimming'`, `'Track & Field'`, `'Girls Lacrosse'`. A sport
-  that no source publishes stays `'Not published'`.
+  `'Football'`, `'Volleyball'`, `'Swimming'`, `'Track & Field'`, `'Boys Lacrosse'`,
+  `'Girls Lacrosse'`, `'Boys Tennis'`, `'Girls Soccer'`. A sport that no source publishes
+  stays `'Not published'` — and a tracker for a different sport may be what fills it (the
+  volleyball tracker named the sport behind Cannon's "William Smith" row).
 
 ## Step 5 — Report
 
