@@ -221,37 +221,37 @@ export const charlotteCountryDay: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      '51 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with swimming as the clear engine.',
+      '48 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with track and cross country supplying the most Division I commits and swimming the most Power 4.',
     subhead:
       'The school reports roughly 15 seniors committing per year over the last five years — 13 in the Class of 2026 and 60 across the last four classes, per the 2026–27 profile.',
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions)',
-        count: '51',
+        count: '48',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '28', width: 0.55, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '28', width: 0.58, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
         count: '9',
-        width: 0.18,
+        width: 0.19,
         shade: 'full',
       },
     ],
     funnelNote:
-      'Swimming supplies five of the nine Power 4 commits — including all three from the class of 2026, to Stanford, Florida and Purdue. Six commitments went to Ivy League programs, a share matched by no other school in this comparison and consistent with Country Day’s academic profile.',
+      'Swimming supplies five of the nine Power 4 commits — including all three from the class of 2026, to Stanford, Florida and Purdue — while track and cross country supply the most Division I commits, nine. Five commitments went to Ivy League programs, a share matched by no other school in this comparison and consistent with Country Day’s academic profile. The school’s count of 48 includes one signee in college cheer, which sits outside the NCAA divisions shown here.',
     sportBars: [
-      { sport: 'Swimming', count: 8, width: 1, p4Width: 0.63 },
-      { sport: 'Track / XC', count: 8, width: 1, p4Width: 0.25 },
-      { sport: 'Tennis', count: 2, width: 0.25, p4Width: 0.13 },
-      { sport: 'Soccer', count: 2, width: 0.25 },
-      { sport: 'Basketball', count: 1, width: 0.13 },
-      { sport: 'Equestrian', count: 1, width: 0.13, p4Width: 0.13 },
-      { sport: 'Field Hockey', count: 1, width: 0.13 },
-      { sport: 'Other', count: 5, width: 0.63 },
+      { sport: 'Track / XC', count: 9, width: 1, p4Width: 0.22 },
+      { sport: 'Swimming', count: 7, width: 0.78, p4Width: 0.56 },
+      { sport: 'Tennis', count: 2, width: 0.22, p4Width: 0.11 },
+      { sport: 'Soccer', count: 2, width: 0.22 },
+      { sport: 'Basketball', count: 1, width: 0.11 },
+      { sport: 'Equestrian', count: 1, width: 0.11, p4Width: 0.11 },
+      { sport: 'Field Hockey', count: 1, width: 0.11 },
+      { sport: 'Other', count: 5, width: 0.56 },
     ],
     realityCheck:
       'Swimming is unambiguously the Power 4 engine — five of nine P4 commits, and every 2026 P4 signee. Football and basketball, the sports that dominate national recruiting coverage, produced one D1 commit each across three classes. For most Country Day families the pipeline runs through Olympic and racquet sports into academically selective programs, not through the revenue sports.',
@@ -288,7 +288,7 @@ export const charlotteCountryDay: SportsProgram = {
       { cls: "'25", name: 'Zachary Lu', sport: 'Squash', college: 'Wesleyan', conf: 'NESCAC', level: 'D3' },
       { cls: "'25", name: 'Alyssa Hankerson', sport: 'Girls Basketball', college: 'Columbus State', conf: 'PBC', level: 'D2' },
       { cls: "'25", name: 'Alana Hankerson', sport: 'Girls Basketball', college: 'Columbus State', conf: 'PBC', level: 'D2' },
-      { cls: "'25", name: 'Carlin Parker', sport: 'Girls Basketball', college: 'Tampa', conf: 'SSC', level: 'D2' },
+      { cls: "'25", name: 'Carlin Parker', sport: 'Boys Basketball', college: 'Tampa', conf: 'SSC', level: 'D2' },
       { cls: "'25", name: 'Jerome Lowery', sport: 'Boys Basketball', college: 'Marymount', conf: 'Atlantic East', level: 'D3' },
       { cls: "'24", name: 'Freddy Klein', sport: 'Swimming', college: 'UC Berkeley', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Emma Hayden Lewis', sport: 'Track / XC', college: 'Miami (FL)', conf: 'ACC', level: 'P4' },
@@ -319,6 +319,18 @@ export const charlotteCountryDay: SportsProgram = {
       {
         label: '247Sports Composite — 2025 North Carolina football rankings',
         url: 'https://247sports.com/season/2025-football/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC',
+      },
+      {
+        label: 'charlottecountryday.org — Class of 2024 college athletes (17)',
+        url: 'https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/class-of-2024-celebrates-impressive-college-admissions-success-and-scholarship-awards',
+      },
+      {
+        label: 'charlottecountryday.org — Class of 2026 college athletes (13)',
+        url: 'https://www.charlottecountryday.org/bucsnet/post-details/~board/school-news/post/class-of-2026-college-admissions-outcomes',
+      },
+      {
+        label: 'University of Tampa — 2025–26 men’s basketball incoming class (Carlin Parker)',
+        url: 'https://tampaspartans.com/sports/mbkb/2025-26/releases/20250826kc8vro',
       },
     ],
   },

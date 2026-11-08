@@ -53,6 +53,12 @@ football 6–4 · volleyball 13–9 · boys basketball 13–17 · girls basketba
 All-time leaders: boys tennis **20** · girls tennis **20** · field hockey **16** ·
 football **15** · baseball, boys lacrosse, softball, boys golf 9–10 each.
 
+> **Superseded 2026-11-08.** The pipeline figures below are replaced by
+> `CCD - Sports - College Commitments 2024-2026.md` (48 committed, 28 D1, 9 P4; per-athlete
+> table with confirmations) and `Charlotte Country Day - Sports - Varsity Roster
+> Cross-Reference 2026.md` (method and nulls). "51" had no source; the D1-by-sport line
+> below is one off for swimming (7) and track (9).
+
 ## 3. College Pipeline — 51 commits, 28 D1, 9 P4
 
 **Swimming is the Power 4 engine** — 5 of 9 P4 commits, including all three from 2026
