@@ -2329,7 +2329,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum: the Class of 2024 is under-documented for Davidson Day. The Classes of 2025 and 2026 come from the school’s own published lists.',
+        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters; the Classes of 2025 and 2026 come from the school’s own published lists.',
       },
     },
   },
@@ -2346,7 +2346,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '22', // ’24: Salvage, Monk, Hill, Spinner, Henry, McMahan, Coppage, Floyd, DiRoma, Rose (10) · ’25: Clontz, Booker, Connor, Milligan, Morgan (5) · ’26: Lee, Short, K.Smith, Holland, Gorelick, Cheatwood, Barber (7)
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
-      'davidson-day': '11', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 under-documented — floor; 2026 complete per the school’s Athletics Recap)
+      'davidson-day': '13', // ’24: M.Smith (Furman), Neace (Wofford), Zulman (Villanova) · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 from college rosters — no school list; 2025/2026 per the school’s lists)
       'hickory-grove-christian': '3', // all baseball: Cabbage (UNCW ’25), Green (UNC Asheville ’25), Johnson (ETSU) — mid-major
       'gaston-day': null, // no published signing list — see p4-commits-2426; the athletics site is JS-rendered and publishes no commit news
       'providence-day': '39', // 14 / 12 / 13 by class (’24 / ’25 / ’26), each confirmed on the college’s roster 2026-11-08 (see College Commitments 2024-2026.md)
@@ -2375,7 +2375,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum: the Class of 2024 is under-documented for Davidson Day. The Classes of 2025 and 2026 come from the school’s own published lists.',
+        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters; the Classes of 2025 and 2026 come from the school’s own published lists.',
       },
       'hickory-grove-christian': {
         kind: 'minimum',

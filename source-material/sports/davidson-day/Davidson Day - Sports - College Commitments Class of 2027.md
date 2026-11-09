@@ -24,6 +24,13 @@ girls basketball previews, RealGM (Chrome) where a team page was reachable, and 
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 
+## Sweep record (2026-11-08, `/athlete-commits` graduate refresh)
+Re-checked against the 2026-27 MaxPreps rosters posted so far (basketball 3 seniors, boys
+soccer 8, volleyball 5, girls tennis 4), RealGM's Davidson Day page in Chrome (no Class of
+2027 player listed with a college), all 17 HighSchoolOT trackers, and grouped searches.
+Nothing found. **Provisional:** taken before the 2026-11-11 early signing period, so re-run
+after it, and after the February and late-April waves.
+
 ## Confirmed — 0
 
 ## Leads

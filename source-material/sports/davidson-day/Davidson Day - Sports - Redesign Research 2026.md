@@ -69,6 +69,11 @@ https://www.davidsonday.org/athletics/history-and-achievements
 > and per-athlete verification live in `Davidson Day - Sports - College Commitments 2024-2026.md`
 > and `Davidson Day - Sports - Athletics Recap 2025-2026.md`; the table below is kept as the
 > 2026-07 record.
+>
+> **Superseded again 2026-11-08 (`/athlete-commits`).** A varsity-roster cross-reference
+> added five athletes (three in the Class of 2024, two in 2025) and moved Mason Smith from
+> Mercer to Furman: **21 commits, 13 D1, 5 P4**. See `Davidson Day - Sports - College
+> Commitments 2024-2026.md` and `Davidson Day - Sports - Varsity Roster Cross-Reference 2026.md`.
 
 | Class | Athlete | Sport | College | Conference | Level |
 |---|---|---|---|---|---|
