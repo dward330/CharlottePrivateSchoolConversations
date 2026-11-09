@@ -141,7 +141,7 @@ moved to the matched table on 2026-11-08.`},{subtopic:`Recruiting rankings — l
 | Charlie Smith | Football (QB/DB) | Harvard | Ivy | D1 | **NEW.** Harvard roster; Observer 4 Dec 2024; HighSchoolOT; 247 Composite NC #66 |
 | Jack Baade | Football (LS) | Harvard | Ivy | D1 | **NEW.** Harvard roster ("Charlotte Catholic (N.C.)", hometown Fort Mill, S.C.); Observer 4 Dec 2024 |
 | Nick Bierman | Football (WR) | Lafayette College | Patriot | D1 | **NEW.** Lafayette roster; Observer 4 Dec 2024 |
-| Luciano Salas | Swimming | Queens University of Charlotte | *conf to confirm* | D1 | **NEW.** Queens roster (So. 2026-27, last school Charlotte Catholic); MaxPreps 2023-24 boys swimming roster lists him as a junior ("Diegoluciano Salas") |
+| Luciano Salas | Swimming | Queens University of Charlotte | ASUN | D1 | **NEW.** Queens roster (So. 2026-27, last school Charlotte Catholic); conference confirmed 2026-11-08 on Queens' own release, "Queens men crowned champions, Royals collect major ASUN honors" (https://queensathletics.com/news/2026/2/22/mens-swimming-diving-queens-men-crowned-champions-royals-collect-major-asun-honors-on-final-day.aspx); MaxPreps 2023-24 boys swimming roster lists him as a junior ("Diegoluciano Salas") |
 | Chris Eagan | Basketball | American University | Patriot | D1 | Observer; RealGM |
 | Giovanni Delissio | Lacrosse | University of Detroit Mercy | Horizon | D1 | Observer; HighSchoolOT; LaxNumbers |
 | Cannon Ridinger | Lacrosse | Providence College | Big East | D1 | Observer; LaxNumbers |
