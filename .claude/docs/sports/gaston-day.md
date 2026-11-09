@@ -1,6 +1,6 @@
 # Gaston Day School — Sports
-> Distilled from 3 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** College Commitments Class of 2027, Program and Championship Ledger 2026, Wells Fargo Cup Standings 2020-2026
+> Distilled from 5 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-09.
+**Documents:** College Commitments Class of 2027, College Commitments 2024-2026, Program and Championship Ledger 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
 ---
@@ -45,6 +45,131 @@ a Stanford release.
 
 ## Totals for the `seniors-committed` row (as of 2026-11-08)
 **1 confirmed** (value `'1'`).
+
+## Re-check (2026-11-09, `/athlete-commits gaston-day`)
+The Class of 2027 seniors on the posted 2026-27 MaxPreps rosters (boys basketball 2, boys
+soccer 2, girls tennis 2, volleyball 1) were run against all 18 HighSchoolOT trackers and
+RealGM. **No new commitment.** The value stays `'1'`. This was still before the early
+signing period (opens 2026-11-11), so it is provisional: re-run after the November wave.
+
+
+---
+
+## College Commitments 2024-2026
+
+*Source file: `Gaston Day School - Sports - College Commitments 2024-2026.md`*
+
+# Gaston Day School — Sports — College Commitments (2024–2026)
+
+> **Provenance:** Compiled by Claude Code on 2026-11-09 during `/athlete-commits gaston-day`.
+> Every Gaston Day varsity roster on MaxPreps for 2023-24 through 2026-27 was read against
+> the 18 HighSchoolOT per-sport recruiting trackers, RealGM's Gaston Day School page (read
+> in Chrome), FieldLevel's Gaston Day baseball alumni page (Chrome) and each college's own
+> roster. The method, the nulls and the unchecked sports are in `Gaston Day School - Sports -
+> Varsity Roster Cross-Reference 2026.md`. This is the designated provenance file for the
+> *Power 4 commits* and *Division I commits* Compare rows (`src/data/metricValues.ts`) and
+> for a College Pipeline card in `src/data/sportsPrograms/gaston-day.ts`, **which does not
+> exist yet**. Adding it is a new card under the UX-design gate.
+>
+> **Level classification is by hand:** Power 4 = SEC / Big Ten / ACC / Big 12 only. Counts
+> are distinct athletes, and they are a documented minimum. Gaston Day publishes no
+> all-sport signing list. Neither gastonday.org nor the athletics site
+> (gastondayathletics.com, 7 news articles as of 2026-11-09) carries a signing-day post.
+>
+> **Standard applied (same as Cannon, Davidson Day, Covenant Day, Carmel Christian and
+> Hickory Grove):** the card counts documented commitments to college athletics at any
+> level. D2, D3, NAIA, junior college and other non-NCAA levels count. "Scholarship" is
+> never claimed.
+>
+> **Graduate test:** an athlete counts for Gaston Day only if they finished high school
+> there. Evidence is the athlete's senior season on the Gaston Day MaxPreps roster and the
+> college roster's "High School" line. Every row below passes both.
+
+## Sources
+- MaxPreps Gaston Day rosters, 2023-24 → 2026-27 (21 sport pages × 4 seasons):
+ https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/
+ - Volleyball 2023-24 (Sr.: Brown): https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/volleyball/23-24/roster/
+ - Volleyball 2024-25 (Sr.: Allen, Bing, Fabbri): https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/volleyball/24-25/roster/
+ - Boys basketball 2025-26 (Sr.: Fields, Kimrey, Simpson, Todd): https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/basketball/25-26/roster/
+- HighSchoolOT NC volleyball recruiting tracker (Megan Brown → Wofford, Class of 2024,
+ Division I; Anne Bradley Bing → South Carolina, Class of 2025, Division I):
+ https://www.highschoolot.com/story/north-carolina-high-school-volleyball-recruiting-tracker/21031942/
+- Wofford volleyball, "Volleyball inks five signees" (2023-12-14; "Megan Brown DS Charlotte,
+ N.C. / Gaston Day School"): https://woffordterriers.com/news/2023/12/14/volleyball-inks-five-signees.aspx
+- Wofford volleyball, Megan Brown bio (Defensive Specialist, Junior, High School Gaston Day
+ School, Hometown Charlotte, N.C.): https://woffordterriers.com/sports/womens-volleyball/roster/megan-brown/8731
+- Wofford volleyball roster (6 Megan Brown, Jr., Charlotte, N.C., Gaston Day School):
+ https://woffordterriers.com/sports/womens-volleyball/roster
+- South Carolina volleyball, Anne Bradley Bing bio (#8, L, 5-8, Sophomore, Hometown
+ Gastonia, N.C., High school Gaston Day School; "2025 (FRESHMAN)" season notes):
+ https://gamecocksonline.com/sports/wvball/roster/player/anne-bradley-bing/
+- The Daily Gamecock, 2025 South Carolina volleyball season preview (Bing in the freshman
+ class): https://www.dailygamecock.com/article/2025/08/season-preview-south-carolina-volleyball-looks-for-growth-and-success-under-new-staff-sports-navare
+- RealGM, Gaston Day School (NC) players, read in Chrome 2026-11-09 (Braylen Todd, HS Grad
+ 2026, College Johnson & Wales (NC)):
+ https://basketball.realgm.com/highschool/teams/1873/Gaston-Day-School-NC
+- Johnson & Wales University–Charlotte, 2026-27 men's basketball roster (21 Braylen Todd,
+ Fr., Mount Holly, NC, Gaston Day): https://charlotte.jwuathletics.com/sports/mens-basketball/roster
+
+## Class of 2026 — 1
+
+| Athlete | Sport | College | Conf | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Braylen Todd | Boys Basketball | Johnson & Wales (NC) | USCAA | non-NCAA (see note) | Johnson & Wales 2026-27 roster; RealGM |
+
+**Level note for the plan:** Johnson & Wales University–Charlotte competes in the **USCAA**
+(United States Collegiate Athletic Association), which is neither NCAA nor NAIA, and the
+card's `CommitLevel` (`'P4' | 'D1' | 'D2' | 'D3' | 'NAIA'`) has no USCAA tier. The nearest
+precedent is junior college, listed at `'D3'` with `conf: 'NJCAA'` and explained in
+`rosterNote` (Covenant Day, Hickory Grove). On that precedent Todd goes at `'D3'` with
+`conf: 'USCAA'`, which is a new conference string and therefore one new identifier unit per
+locale. He is not a Division I count either way.
+
+## Class of 2025 — 1
+
+| Athlete | Sport | College | Conf | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Anne Bradley Bing | Volleyball | South Carolina | SEC | **P4** | South Carolina bio (High school Gaston Day School); HighSchoolOT volleyball tracker |
+
+## Class of 2024 — 1
+
+| Athlete | Sport | College | Conf | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Megan Brown | Volleyball | Wofford | Southern | D1 | Wofford signing release (2023-12-14) and roster; HighSchoolOT volleyball tracker |
+
+Conference string: `'Southern'` (12 existing uses), not `'SoCon'` (3).
+
+## Totals → app metric values
+
+| Measure | Value | Athletes |
+|---|---|---|
+| Committed to college athletics, 2024–26 | **3** | Brown ’24, Bing ’25, Todd ’26 |
+| NCAA Division I (includes P4) | **2** | Brown (Wofford), Bing (South Carolina) |
+| Power 4 | **1** | Bing (South Carolina, SEC) |
+
+- `p4-commits-2426` → `'1'` (was `null`)
+- `d1-commits-2426` → `'2'` (was `null`)
+- By sport: Volleyball 2, Boys Basketball 1.
+
+## Class of 2027 (current seniors) — verbals, not counted
+Kept in `Gaston Day - Sports - College Commitments Class of 2027.md`: Bree Smith (Swimming,
+Stanford, ACC, P4), confirmed by the athletic director on the record to the Charlotte
+Observer. Listed on the roster as a verbal and kept out of the funnel, the sport bars and
+the two window rows. She is the whole of the `seniors-committed` value (`'1'`, unchanged).
+
+## Excluded
+- **Makoi Mabor Marier** (RealGM: HS Grad 2024, Gaston Day, college Mercer). **Fails the
+ graduate test.** Recruiting coverage (Phenom Hoop Report, Prep Hoops) places him at
+ **Gaston Christian**, and he is on no Gaston Day MaxPreps roster in any season. RealGM's
+ school label is wrong.
+- **Rilpuou Makoi** (RealGM: HS Grad 2025, Gaston Day, college Newberry). **Fails the
+ graduate test.** He is on no Gaston Day MaxPreps roster in any season (the 2024-25 boys
+ roster's one senior is a different player), and no second source ties him to Gaston Day.
+- **Alexis Ibsen** (HighSchoolOT girls tennis tracker, Class of 2024, Division III, Emerson;
+ the tracker spells it "Isben"). She passes the graduate test, since she is a senior on the
+ 2023-24 girls tennis roster. **Unverified:** she is absent from Emerson's women's tennis
+ rosters for 2024-25 and 2025-26, and no second source was found. A reader-submitted
+ tracker alone is a lead, not a row (the Cannon girls-lacrosse precedent).
 
 
 ---
@@ -156,6 +281,147 @@ conference, 2nd in conference) at the time of this pass. That is a live mid-seas
 not a completed-season result, and it is **not** carried into the app: a season ledger row
 must be a final record. Completed prior-season won-lost records were not available in an
 extractable form from the JS-rendered athletics site.
+
+
+---
+
+## Varsity Roster Cross-Reference 2026
+
+*Source file: `Gaston Day School - Sports - Varsity Roster Cross-Reference 2026.md`*
+
+# Gaston Day School — Sports — Varsity Roster Cross-Reference (2026)
+
+> **Provenance:** Research record written by Claude Code on 2026-11-09 during
+> `/athlete-commits gaston-day`. It documents *how* Gaston Day's college commitments were
+> found and *what was searched and found empty*, so a later pass does not redo the work. The
+> athlete-level results are in `Gaston Day School - Sports - College Commitments
+> 2024-2026.md`; this file holds the method and the nulls. It is provenance for the College
+> Pipeline data, not a card of its own (`src/lib/metrics.ts` folds it onto the research
+> dossier via `/roster cross-reference/i`).
+>
+> **Names policy:** only athletes with a documented college commitment, and the leads that
+> were ruled out, are named. Current students and graduates without a commitment are
+> recorded as counts.
+
+## Result in one line
+
+From nothing on record to **3** committed, **2** Division I, **1** Power 4 for the Classes of
+2024–2026: two volleyball players (Megan Brown ’24, Wofford; Anne Bradley Bing ’25, South
+Carolina) and one boys basketball player (Braylen Todd ’26, Johnson & Wales–Charlotte,
+USCAA). Gaston Day had no College Pipeline card before this pass, and the two Compare window
+rows were `null`.
+
+## Scope
+
+Every varsity sport Gaston Day lists (`src/data/sportsPrograms/gaston-day.ts`): volleyball,
+boys soccer, field hockey, boys and girls cross country, girls tennis, cheering, boys and
+girls basketball, boys and girls swimming, wrestling, baseball, softball, boys lacrosse,
+boys and girls golf, boys tennis and track & field. Gaston Day fields **no football**.
+
+Depth by tier:
+- **Full per-name cross-reference** (rosters + commitment database + college roster):
+ volleyball, boys basketball, girls tennis.
+- **Rosters + HighSchoolOT tracker + grouped name searches:** baseball, girls basketball,
+ boys and girls soccer, boys tennis.
+- **Tracker + grouped searches only (no roster published):** swimming, golf, cross country,
+ track & field, lacrosse, wrestling, field hockey, softball. Cheering has no commitment
+ database and was not searched beyond the grouped searches.
+
+## Step 1 — the school's own pages (read 2026-11-09)
+
+- `gastonday.org` (WordPress): the site search for "signing", "commit" and "college" returns
+ navigation pages only, and the WP REST posts endpoint holds three template posts. There is
+ no signing-day post.
+- `gastondayathletics.com/News`: seven articles (volleyball, conference move, postseason,
+ volleyball three-peat, MAC all-conference, media policy, NCISAA all-state). None names a
+ college commitment.
+- `gastondayschool.org` returns 403. It is not the school's domain.
+
+The school publishes no all-sport commitment list.
+
+## Step 2 — MaxPreps rosters by season
+
+`https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/<sport>/<yy-yy>/roster/`, path
+form, browser UA. 21 sport slugs × 4 seasons (23-24 → 26-27), plus boys basketball 22-23.
+
+- **404 in every season:** field hockey, softball, boys volleyball, football (not fielded),
+ track & field.
+- **Empty table in every season:** baseball 26-27 (spring not yet posted), boys and girls
+ cross country, boys and girls golf, boys lacrosse, boys and girls swimming, wrestling.
+ These are recorded as **unchecked by roster**, not as nulls.
+- **With data:** baseball, boys basketball, girls basketball (24-25, 25-26), boys soccer,
+ girls soccer, boys tennis, girls tennis, volleyball.
+
+Seniors (`Sr.`) by graduating class (several are two-sport athletes):
+- **Class of 2024 (2023-24):** boys soccer 7, baseball 5, girls soccer 4, girls tennis 3,
+ boys basketball 2, volleyball 1. (The girls basketball 2023-24 roster is empty.)
+- **Class of 2025 (2024-25):** girls soccer 8, boys soccer 5, volleyball 3, baseball 2,
+ girls tennis 2, boys basketball 1.
+- **Class of 2026 (2025-26):** boys soccer 6, boys basketball 4, girls basketball 4, girls
+ soccer 4, girls tennis 4, volleyball 4, baseball 2, boys tennis 1.
+- **Class of 2027 (2026-27, fall and winter posted):** boys basketball 2, boys soccer 2,
+ girls tennis 2, volleyball 1.
+
+## Step 3 — cross-reference
+
+**HighSchoolOT trackers.** All 18 per-sport trackers, the three "Building the Fence"
+in-state football pages and the three out-of-state roundups, fetched 2026-11-09 (hub:
+https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/).
+Gaston Day hits:
+- Volleyball: Megan Brown (Class of 2024, Division I, Wofford); Anne Bradley Bing (Class of
+ 2025, Division I, South Carolina).
+- Girls tennis: Alexis Ibsen, spelled "Isben" (Class of 2024, Division III, Emerson).
+
+There are no Gaston Day hits in the baseball, basketball, soccer, softball, swimming, boys
+tennis, golf, track/cross country, lacrosse or wrestling trackers.
+
+**RealGM (Chrome; text extraction is blocked, so the table was read by screenshot, sorted by
+HS Grad).** Window rows: Braylen Todd (2026, Johnson & Wales (NC)), Rilpuou Makoi (2025,
+Newberry), Makoi Mabor Marier (2024, Mercer). Earlier rows (2023 and before: Fayed →
+Roanoke, Montanari → Embry-Riddle, Richard → USC Aiken, Britt → Augusta) are outside the
+window.
+
+**FieldLevel baseball alumni (Chrome).** The latest commitments it lists are Class of 2023
+(UNC Charlotte) and Class of 2021 (Belmont), both outside the window. There are no Class of
+2024–2026 entries.
+
+**LaxNumbers.** There is no Gaston Day team page. The only Gastonia listing is the Gaston
+County Lacrosse Club, which is a separate club, so lacrosse is a null and has no source.
+
+**Grouped name searches** (baseball, boys soccer, girls soccer and tennis seniors by name;
+swimming, golf and running signings; Gaston Gazette signing roundups; PrepVolleyball;
+TopDrawerSoccer; SwimSwam / Swimming World). None returned a Gaston Day commitment in the
+window. NCSA has self-reported recruiting profiles (for example, a Class of 2025 boys soccer
+goalkeeper) that show no commitment.
+
+## Confirmations
+- Brown: Wofford signing release (2023-12-14), her bio and the current roster print "Gaston
+ Day School".
+- Bing: South Carolina bio prints "High school Gaston Day School"; she was a 2025 freshman.
+- Todd: Johnson & Wales–Charlotte 2026-27 roster prints "Fr., Mount Holly, NC, Gaston Day".
+
+## Ruled out
+- **Makoi Mabor Marier.** He fails the graduate test: he was at Gaston Christian, and
+ RealGM's school label is wrong.
+- **Rilpuou Makoi.** He fails the graduate test: he is on no Gaston Day roster, and no
+ second source exists.
+- **Alexis Ibsen.** She passes the graduate test but is unverified: she is not on Emerson's
+ 2024-25 or 2025-26 roster, and only a single reader-submitted source names her.
+
+## Nulls and unchecked, kept apart
+- **Nulls (searched, nothing in the 2024–26 window):** baseball (9 seniors), boys soccer
+ (18), girls soccer (16), girls basketball (4), boys tennis (1), girls tennis besides Ibsen
+ (8), boys basketball besides Todd (6), volleyball besides Brown and Bing (6). Lacrosse:
+ there is no team commitment page on any tracker.
+- **Unchecked by roster** (no roster published on MaxPreps, so only the trackers and
+ searches cover them): swimming, golf, cross country, track & field, wrestling, field
+ hockey, softball, cheering. The Class of 2027 swimmer (Bree Smith → Stanford) shows that
+ swimming produces commitments here, so a future pass should look for a swimming roster
+ (NCISAA meet results, SwimCloud via search) for the 2024–26 graduates.
+
+## Window check (2026-11-09)
+The current senior class is 2027 and the most recently graduated class is 2026. The window
+`…-2426` ends at 2026, so **no roll is due**.
 
 
 ---
@@ -325,22 +591,35 @@ Dropped, under the usual bar of a title or a runner-up year: boys golf 2021 (3rd
 - https://admin.ncisaa.org/uploads/SWIMMING/Div%203%20Final_Team_Ind.pdf
 - https://alamancenews.com/bca-boys-track-and-field-team-secures-first-title-in-any-sport-for-school/
 - https://archives.ncisaa.org/index.php?sport=12&years=2021-2022
+- https://basketball.realgm.com/highschool/teams/1873/Gaston-Day-School-NC
 - https://bbafnc.org/
+- https://charlotte.jwuathletics.com/sports/mens-basketball/roster
+- https://gamecocksonline.com/sports/wvball/roster/player/anne-bradley-bing/
 - https://gastondayathletics.com/
 - https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html
 - https://sports.yahoo.com/happy-blue-gaston-day-boys-170121762.html
 - https://sports.yahoo.com/south-point-boys-tennis-gaston-011132558.html
 - https://sports.yahoo.com/super-saturday-seven-charlotte-area-011100010.html
+- https://woffordterriers.com/news/2023/12/14/volleyball-inks-five-signees.aspx
+- https://woffordterriers.com/sports/womens-volleyball/roster
+- https://woffordterriers.com/sports/womens-volleyball/roster/megan-brown/8731
+- https://www.dailygamecock.com/article/2025/08/season-preview-south-carolina-volleyball-looks-for-growth-and-success-under-new-staff-sports-navare
 - https://www.gastonday.org/middle-school/
 - https://www.highschoolot.com/gaston-day-school/17527719/
 - https://www.highschoolot.com/story/gaston-day-repeats-ncisaa-2a-girls-tennis-title-downs-epiphany-school/21693252/
 - https://www.highschoolot.com/story/gaston-day-rolls-to-ncisaa-2a-girls-tennis-title-over-trinity-school-of-durham-chapel-hill/21119771/
 - https://www.highschoolot.com/story/highschoolot-hsot-final-statewide-rankings-for-boys-golf/20898527/
+- https://www.highschoolot.com/story/north-carolina-high-school-volleyball-recruiting-tracker/21031942/
+- https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.highschoolot.com/story/the-o-neal-school-wins-ncisaa-d3-boys-golf-trinity-academy-s-eastman-wins-medalist/21453701/
 - https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/
 - https://www.highschoolot.com/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/
+- https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/<sport>/<yy-yy>/roster/`
+- https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/basketball/25-26/roster/
 - https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/volleyball/
+- https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/volleyball/23-24/roster/
+- https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/volleyball/24-25/roster/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/past-champions-2024-2025/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/past-champions/past-champions-2020-2021/

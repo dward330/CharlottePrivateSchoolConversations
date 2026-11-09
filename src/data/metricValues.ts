@@ -2302,7 +2302,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '1', // ’24 Avram (South Carolina tennis, SEC) — see the Carmel College Commitments 2024-2026 source file
       'davidson-day': '5', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson), Arnold (Duke, walk-on), Perry (NC State)
       'hickory-grove-christian': '0', // no Power 4 commit 2024–26; all four D1 commits are mid-major (Sun Belt, MEAC, CAA, Big South)
-      'gaston-day': null, // no published signing list — local press, athletics news and recruiting DBs all checked; confirmed absence, not a gap
+      'gaston-day': '1', // ’25 Bing (South Carolina volleyball, SEC) — see the Gaston Day College Commitments 2024-2026 source file; ’27 B.Smith (Stanford) is a verbal, not counted
       'providence-day': '16', // 2024–26, every row verified on the college’s page 2026-11-08: ’24 Barnhardt, Shipp, Goodwin, Davis, Poole · ’25 Sanders, Skanes, Winston, G.Bartee, Neace · ’26 Sellars, Lott, Delaney, Baggett, Goldean, Z.G.Bartee (Makemson: Tennessee verbal, enrolled App State — counted D1)
     },
     quals: {
@@ -2331,6 +2331,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'minimum',
         text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters; the Classes of 2025 and 2026 come from the school’s own published lists.',
       },
+      'gaston-day': {
+        kind: 'minimum',
+        text: 'A documented minimum: Anne Bradley Bing (’25) signed with South Carolina volleyball, an SEC program. Gaston Day publishes no signing list, so its commitments are confirmed from college rosters.',
+      },
     },
   },
   {
@@ -2348,7 +2352,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '6', // ’24: K.Taylor (UNCA), Avram (South Carolina tennis) · ’25: B.Slay (Marshall), Bowman (UNCG), Agafonov (Queens tennis) · ’26: Johnson (UNCA). Buzzard removed: graduated from East Mecklenburg
       'davidson-day': '13', // ’24: M.Smith (Furman), Neace (Wofford), Zulman (Villanova) · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 from college rosters — no school list; 2025/2026 per the school’s lists)
       'hickory-grove-christian': '4', // ’24: Barozzino (App State baseball), Dukes (NC Central football) · ’25: Cabbage (UNCW), Green (UNC Asheville). Johnson is at Wingate (D2), not ETSU — see the HGCS College Commitments 2024-2026 source file
-      'gaston-day': null, // no published signing list — see p4-commits-2426; the athletics site is JS-rendered and publishes no commit news
+      'gaston-day': '2', // ’24 Brown (Wofford volleyball) · ’25 Bing (South Carolina volleyball); ’26 Todd is USCAA (Johnson & Wales Charlotte), not D1
       'providence-day': '39', // 14 / 12 / 13 by class (’24 / ’25 / ’26), each confirmed on the college’s roster 2026-11-08 (see College Commitments 2024-2026.md)
     },
     quals: {
@@ -2381,6 +2385,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'minimum',
         text: 'A documented minimum — three baseball and one football: Conner Barozzino (Appalachian State) and Jahzir Dukes (North Carolina Central, football) in the Class of 2024, and Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025. All four are mid-major Division I; the school publishes no all-sport signing list.',
       },
+      'gaston-day': {
+        kind: 'minimum',
+        text: 'A documented minimum — both volleyball: Megan Brown (’24) at Wofford and Anne Bradley Bing (’25) at South Carolina. Gaston Day publishes no signing list, so its commitments are confirmed from college rosters.',
+      },
     },
   },
   // Sits directly under the Division I row by the user's request (2026-11-08), so the
@@ -2400,7 +2408,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '5', // Hedley (UNC lacrosse), Hucko (Auburn), McKain (Clemson), Hertzig (Yale), Drensek (Bucknell); Flynn, W.Johnson, Druhan, Leckner single-source leads
       'charlotte-christian': '1', // Parrish (NC State baseball); Struble, Covey Team 91-only leads
       'charlotte-latin': '1', // Greathouse (George Washington swim)
-      'gaston-day': '1', // B.Smith (Stanford swim) — the AD confirmed it to the Observer; no pipeline card to list her on
+      'gaston-day': '1', // B.Smith (Stanford swim) — the AD confirmed it to the Observer; listed on the pipeline card as a verbal. Re-checked 2026-11-09; re-run after 2026-11-11
       'charlotte-country-day': '0', // none confirmed; leads: Blythe (Furman lacrosse), Hatcher (Saint Joseph’s lacrosse), both LaxNumbers-only; re-check after the 2026-11-11 signing period
       'covenant-day': '0', // none found (re-checked 2026-11-09 against all 2026-27 rosters); fall Lions News signing post not yet published — re-run after 2026-11-11
       'davidson-day': '0', // none found
