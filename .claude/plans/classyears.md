@@ -1,11 +1,11 @@
 ---
 name: classyears
 title: College Pipeline class years — Charlotte Catholic to the Providence Day "'26" form, with a type guard
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-09
 branch: fix/pipeline-class-years
-prs: []
+prs: [463]
 ---
 
 # College Pipeline class years in one format
@@ -115,3 +115,14 @@ Single-phase — adds no user-facing text.
    Pipeline*: the Class column reads `'24`…`'27`, including the `'27` verbal rows; compare
    against Providence Day's card for identical styling. Spot-check one non-English locale
    (`?lang=es`) to confirm the column is unchanged there too.
+
+## Implementation notes
+
+- **Schema doc.** Step 5 expected no diff, but the first draft put an undocumented `type Digit`
+  line straight after `CommitLevel`. `unionValues()` in `scripts/gen_data_schema.mjs` stops a
+  union only at an `export`/`const`/`function`/`/*` line, so it read `Digit` as part of
+  `CommitLevel` and dropped `CommitLevel` from `DATA-SCHEMA.md`. `check:schema` passed, because
+  it compares against the regenerated doc. Fixed by giving `Digit` a doc comment. After that,
+  regeneration shows no diff. The generator gap (a bare `type` line) is not fixed here.
+- The browser check ran against `vite preview` in real Chrome (Playwright). Catholic's column
+  in en and es shows 20/19/15/5 for `'24`–`'27`, and its styling matches Providence Day's.
