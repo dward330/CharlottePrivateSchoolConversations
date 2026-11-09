@@ -37,6 +37,13 @@
 | Will Johnson | Football (OL) | Davidson (Pioneer, D1 FCS) | NC Football News only |
 | Ellie Druhan | Swimming | Vanderbilt (SEC, P4) | Charlotte Observer swimming preview only |
 | Reagan Leckner | Diving | West Virginia (Big 12, P4) | Charlotte Observer swimming preview only |
+| Jason Leonard | Lacrosse (M); also on the 2026-27 football roster | Air Force (Patriot, D1) | LaxNumbers boys recruits, team 12753, y=2027 (read 2026-11-08) only |
+| James Pawlowski | Lacrosse (M) | Denison (NCAC, D3) | LaxNumbers boys recruits, team 12753, y=2027 only |
+
+**Update 2026-11-08 (`/athlete-commits`, plan `catholiccommits`):** LaxNumbers
+(https://laxnumbers.com/team_info.php?y=2027&t=12753&s=2) also lists Hedley (North Carolina)
+and Drensek (Bucknell), corroborating both confirmed rows. Leonard and Pawlowski are new
+single-source leads. The confirmed count is unchanged at **5**.
 
 The 2027 class could reach 9 with 5 Power 4 once these confirm — check the Catholic News
 Herald signing article in November and SwimSwam.

@@ -18,6 +18,14 @@ Sports other than football and basketball are not ranked by 247Sports and are ou
 | Class | Athlete | Sport | Pos | Stars | Composite score | Composite national | Composite NC state | Composite position | 247 in-house national | 247 in-house NC state | 247 listed school | 247 profile |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026 | Dominic Basrawala | Football | DL | 3 | 0.8300 | NA | 82 | 281 | NA | 71 | Charlotte Catholic (Charlotte, NC) | https://247sports.com/player/dominic-basrawala-46150298/ |
+| 2025 | Charlie Smith | Football | QB | 3 | 0.8200 | NA | 66 | not recorded | not recorded | not recorded | Charlotte Catholic (Charlotte, NC) | https://247sports.com/player/charlie-smith-46147891/ |
+| 2024 | Jack Larsen | Football | TE | 3 | 0.8900 | 481 | 15 | not recorded | not recorded | not recorded | Charlotte Catholic (Charlotte, NC) | https://247sports.com/player/jack-larsen-46117223/ |
+| 2024 | Nick Segarra | Football | TE | 3 | 0.8336 | NA | 52 | not recorded | not recorded | not recorded | Charlotte Catholic (Charlotte, NC) | https://247sports.com/player/nick-segarra-46135129/ |
+
+Larsen, Segarra and Smith were moved here from the reverse-sweep list on 2026-11-08 (plan
+`catholiccommits`), once the `/athlete-commits` refresh confirmed each on his college's roster
+(Notre Dame, Ohio, Harvard) and added him to the card. Their Composite figures are the ones
+the reverse sweep recorded; the position and in-house columns were not captured then.
 
 ## Recruiting rankings — not on a 247Sports NC list (unrated)
 
@@ -39,9 +47,8 @@ Reverse sweep, classes 2024–2026, Composite lists: 247 lists these players at 
 no roster row exists. Leads for a future roster backfill only, NOT shown by this plan; a
 247 commit is not proof of enrollment, so confirm against the school's own signing coverage first.
 
-- '24 Jack Larsen — football, TE, 3★ 0.8900; Composite NC #15, national 481; 247 commit: Notre Dame. https://247sports.com/player/jack-larsen-46117223/
-- '24 Nick Segarra — football, TE, 3★ 0.8336; Composite NC #52, national NA; 247 commit: Ohio. https://247sports.com/player/nick-segarra-46135129/
-- '25 Charlie Smith — football, QB, 3★ 0.8200; Composite NC #66, national NA; 247 commit: Harvard. https://247sports.com/player/charlie-smith-46147891/
+None outstanding. The three players this sweep found (Larsen, Segarra, Smith) were confirmed and
+moved to the matched table on 2026-11-08.
 
 ## Recruiting rankings — list sources
 

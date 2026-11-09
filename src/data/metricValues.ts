@@ -2295,7 +2295,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '4', // ’24 A.Swartz (Miami), Galloway (North Carolina), B.Wilson (North Carolina) · ’25 Kroll (Notre Dame)
       'charlotte-christian': '9', // ’24: Henley, Wilfong, Woody, Zinger · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
-      'charlotte-catholic': '10', // Classes 2024-2026, table-parsed from three named articles: MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke), Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC), Hoffman (Va Tech)
+      'charlotte-catholic': '15', // ’24: Larsen (Notre Dame), Hill (South Carolina), Leckner (West Virginia), MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke) · ’25: Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC) · ’26: Q. O’Rourke (Arizona), Gornet (NC State), Hoffman (Va Tech) — see the CCHS College Commitments 2024-2026 source file
       'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard — on the school’s own lists, cross-referenced 2026-11-08
       'charlotte-latin': '8', // ’24 Salvage (South Carolina), Monk (North Carolina), Hill (Tennessee), Spinner (Northwestern), Henry (Cal), McMahan (Virginia) · ’25 Clontz (Cal) · ’26 Lee (NC State)
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
@@ -2309,7 +2309,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'minimum',
         text:
-          'Ten Power Four commitments across the Classes of 2024-2026, each table-parsed from a dated article and checked by name. The Class of 2026 is a documented minimum: only the February signing ceremony is published, and CCHS holds separate fall and spring signing days, so baseball and lacrosse are largely unpublished for that class.',
+          'Fifteen Power Four commitments across the Classes of 2024-2026, from the school’s signing articles, newspaper signing lists and the colleges’ own rosters. A documented minimum: CCHS publishes no consolidated signing list.',
       },
       cannon: {
         kind: 'minimum',
@@ -2341,7 +2341,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '12', // ’24: A.Swartz, Galloway, B.Wilson, Frood, Maynor, W.Swartz, Falasca, Morrow · ’25: Kroll, McCorkle, Nix, Baker (2026 class: two D3 only; ’27 verbals not counted)
       'charlotte-christian': '35', // ’24: 11 · ’25: 15 · ’26: 9 (Layton ’24 drafted, never enrolled — excluded)
-      'charlotte-catholic': '25', // of 35 documented athletes; P4 is a subset. The 2026 class is a documented MINIMUM — only the February ceremony is published, and CCHS holds separate fall and spring signing days
+      'charlotte-catholic': '39', // of 54 documented athletes; P4 is a subset. See the CCHS College Commitments 2024-2026 source file
       'charlotte-country-day': '28', // ’24: 10 · ’25: 12 · ’26: 6 — every row on the school’s own per-class list (17 / 18 / 13), cross-referenced 2026-11-08
       'charlotte-latin': '22', // ’24: Salvage, Monk, Hill, Spinner, Henry, McMahan, Coppage, Floyd, DiRoma, Rose (10) · ’25: Clontz, Booker, Connor, Milligan, Morgan (5) · ’26: Lee, Short, K.Smith, Holland, Gorelick, Cheatwood, Barber (7)
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
@@ -2355,7 +2355,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'minimum',
         text:
-          'Twenty-five Division I commitments among 35 documented athletes; Power Four is a subset. One athlete named on a signing list but never found on a college roster is excluded. See p4-commits-2426 on why the 2026 class is understated.',
+          'Thirty-nine Division I commitments among 54 documented athletes; Power Four is a subset. Athletes named on a signing list but never found on a college roster are excluded.',
       },
       cannon: {
         kind: 'minimum',
