@@ -665,7 +665,7 @@ export function Compare({ topic, schools }: Props) {
                                       }
                                     >
                                       <span className="tip-kind">{t('compare.ncAdmitCellKind', cellTip)}</span>
-                                      {/* Admitted first, matching the `admitted / applied` line. */}
+                                      {/* Admitted first, matching the `admitted / applied` figure printed under the rate. */}
                                       <span className="tip-body">
                                         {t('compare.ncAdmitCellAdmitted', {
                                           ...cellTip,
@@ -680,7 +680,6 @@ export function Compare({ topic, schools }: Props) {
                                           school: s.name,
                                         })}
                                       </span>
-                                      <span className="tip-body">{t('compare.ncAdmitCellFormat')}</span>
                                     </TopLayerTip>
                                   ) : vm.scores?.[s.slug] ? (
                                     <ScoreStack
