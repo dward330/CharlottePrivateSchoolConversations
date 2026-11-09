@@ -1,7 +1,7 @@
 ---
 name: catholiccommits
 title: Charlotte Catholic College Pipeline — varsity-roster cross-reference (54 / 39 D1 / 15 P4), Compare P4 10 → 15, D1 25 → 39
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-catholic-commits-2026
@@ -391,3 +391,15 @@ Phase 1 (English) built 2026-11-08 on `feat/charlotte-catholic-commits-2026`.
   the window counts, which the funnel and Compare show.
 - `check:live` fails on exactly 8 stamps per locale (6 sports + 2 quals), as forecast. The
   build chain without it exits 0.
+
+Phase 2 (all nine prose locales) built 2026-11-09 in the same window, after the user approved
+the English.
+
+- The splice matched the forecast in every locale: `sports` 6 added / 6 dropped,
+  `metric-values` 3 added / 2 dropped. 17,406 kept translations are identical to HEAD by stamp.
+- `check:digits` caught one re-typed figure: Hindi `11-11` (each) doubled the `11`. It was
+  rewritten as `प्रत्येक में 11` and re-checked to 0.
+- `check_work_integrity.mjs` reports 29 index-shift alarms per locale (string count
+  905 → 906, roster rows whose index moved). The stamp comparison above is the real check.
+- The `i18n:leaks` flags on Charlotte Catholic paths are all roster sport chips already shipped,
+  which are ledgered keeps. None of the 9 new units is flagged.
