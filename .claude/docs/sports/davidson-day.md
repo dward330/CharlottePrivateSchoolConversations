@@ -1,6 +1,6 @@
 # Davidson Day School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** 247Sports Recruiting Rankings, Athletics Recap 2025-2026, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Wells Fargo Cup Standings 2020-2026, Awards and Honors, Championships, Coaches Pedigree and Continuity, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records
+> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+**Documents:** 247Sports Recruiting Rankings, Athletics Recap 2025-2026, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Awards and Honors, Championships, Coaches Pedigree and Continuity, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records
 
 
 ---
@@ -272,96 +272,156 @@ File: `src/data/sportsPrograms/davidson-day.ts`, `pipeline` card; Compare rows
 
 # Davidson Day School — Sports — College Commitments (2024–2026)
 
-> **Provenance:** Compiled by Claude Code on 2026-07-04 from the public sources listed
-> below, to preserve the hard data behind the *Power 4 commits* and *Division I commits*
-> metrics in the app (`src/data/metricValues.ts`). Level classification is by hand:
-> **Power 4 = SEC / Big Ten / ACC / Big 12** only. Counts are distinct athletes; a
-> documented minimum (the school's named roster is incomplete for the Class of 2024).
+> **Provenance:** First compiled by Claude Code on 2026-07-04; extended 2026-11-08 (`/plan
+> ddathletes`) from the school's *2025-2026 Athletics Recap*; **rebuilt 2026-11-08 by
+> `/athlete-commits`** from a varsity-roster cross-reference (method, nulls and unchecked
+> gaps in `Davidson Day - Sports - Varsity Roster Cross-Reference 2026.md`). This file holds
+> the hard data behind the *Power 4 commits* and *Division I commits* Compare rows
+> (`p4-commits-2426`, `d1-commits-2426` in `src/data/metricValues.ts`) and the College
+> Pipeline card (`pipeline` in `src/data/sportsPrograms/davidson-day.ts`).
 >
-> **Verification attempt (2026-07-04):** The 2025 class is well documented (Nov 2024 signing
-> post, 6 D1). Searched web + On3 for the 2024 & 2026 cohorts; davidsonday.org news archive
-> 404s, ddspatriotsathletics.com returns 403, and On3 lists only football/basketball
-> prospects (e.g. Cody Peck, Xavier Hall) — not multi-sport commits. At that point D1 = 9
-> was a documented floor with 2024 (only Mason Smith) and 2026 (Stevens, Peck) under-captured.
+> **Standard applied:** every row is confirmed on the **college's own roster** (which also
+> prints the athlete's high school), on a school-published list, or on two independent
+> published sources. Recruiting databases and trackers are leads, never the confirmation.
+> **Power 4 = SEC / Big Ten / ACC / Big 12** only. Walk-ons, Division II and Division III
+> count; "scholarship" is never claimed.
 >
-> **Update (2026-11-08, `/plan ddathletes`):** the school's own *2025-2026 Athletics Recap*
-> (Issuu, 2026-06-01) names all **eight** Class of 2026 collegiate athletes, closing the
-> 2026 gap. Six are new here. Each was checked against a college roster or independent press
-> where one exists — see `Davidson Day - Sports - Athletics Recap 2025-2026.md` in this
-> folder for the per-athlete evidence. **The Class of 2024 remains a floor** (one named
-> athlete; the school published no list for it).
+> **Graduate test:** an athlete counts only if they finished high school at Davidson Day:
+> on a Davidson Day roster in their senior season (MaxPreps), and listed by the college with
+> Davidson Day as last school. Every row below passes both, except where noted.
+>
+> **What changed in the rebuild:** five athletes added — three in the Class of 2024, which the
+> school never published a list for (Neace, Zulman, Perry), and two Class of 2025 athletes
+> outside the school's November 2024 signing post (Jacobs, Laatsch); one row
+> corrected (**Mason Smith signed with Furman, not Mercer**). Totals go from 16 / 11 D1 / 5 P4
+> to **21 / 13 D1 / 5 P4**.
 
 ## Sources
-- Davidson Day "Patriots in the NCAA" roster + press, as compiled in
- `Davidson_Day__Sports__D1_and_Top-50_Academic_Matriculation.pdf`.
-- Davidson Day "Seven Student-Athletes Sign National Letters of Intent" (davidsonday.org,
- Nov 2024 signing = Class of 2025):
+- Davidson Day "Seven Davidson Day Student-Athletes Sign National Letters of Intent"
+ (Nov 13, 2024 = Class of 2025):
  https://www.davidsonday.org/p/~board/all-school-news/post/seven-davidson-day-student-athletes-sign-national-letters-of-intent
-- Charlotte-area National Signing Day roundup (2024–25 signing day, Class of 2025 cycle;
- accessed 2026-07-04) — Yahoo Sports / Charlotte Observer:
- https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
-- **Davidson Day "25-26 Athletics in Review" (2025–2026 Athletics Recap), p.3 "Collegiate
- Athletes" (Class of 2026, 8 names):**
- https://issuu.com/davidsondayschool/docs/25-26_athletics_in_review
-- Davidson Day 2026–27 School Profile, p.3 ("8 Collegiate Athletes, Class of 2026" — count only):
+ (also `https://davidsonday.org/news-detail?pk=1543471`)
+- Charlotte Observer National Signing Day roundup, Nov 2024 (via Yahoo):
+ https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html — reprints the
+ school's seven names; it lists Matthew Doty at the "US Naval Academy", which Air Force's
+ roster disproves (see Class of 2025).
+- Davidson Day "25-26 Athletics in Review" (2025–2026 Athletics Recap), p.3 "Collegiate
+ Athletes" (Class of 2026, 8 names): https://issuu.com/davidsondayschool/docs/25-26_athletics_in_review
+- Davidson Day 2026–27 School Profile, p.3 ("8 Collegiate Athletes, Class of 2026"):
  https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
-- Per-athlete confirmation for the Class of 2026 (rosters and press; full detail and URLs in
- the Athletics Recap file): Duke 2026–27 roster · News & Observer via Yahoo, 2026-05-15 ·
- HighSchoolOT 2026 all-state girls lacrosse · Wingate 2027 roster · Emory 2026 men's XC
- roster · MileSplit signing 54618 · TopDrawerSoccer recruiting roundup 2024-09-09 · Carolina
- Ascent FC roster release 2025-05-06 · NC State 2026–27 roster.
+- MaxPreps Davidson Day rosters (graduate test), path form, e.g.
+ https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/23-24/roster/ ·
+ https://www.maxpreps.com/nc/davidson/davidson-day-patriots/soccer/23-24/roster/ ·
+ https://www.maxpreps.com/nc/davidson/davidson-day-patriots/soccer/24-25/roster/ ·
+ https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/24-25/roster/
+- RealGM Davidson Day School players page (read in Chrome 2026-11-08):
+ https://basketball.realgm.com/highschool/teams/6173/Davidson-Day-School
+- HighSchoolOT recruiting trackers (boys basketball, boys soccer, boys swimming, girls
+ lacrosse, girls soccer, volleyball): hub
+ https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
+ · https://www.highschoolot.com/story/north-carolina-high-school-boys-soccer-recruiting-tracker/21024526/
+ · https://www.highschoolot.com/story/north-carolina-high-school-boys-basketball-recruiting-tracker/21206000/
+- College rosters (confirmations, read 2026-11-08):
+ - Furman MBB 2024-25 (Mason Smith, Fr., Davidson Day School): https://furmanpaladins.com/sports/mens-basketball/roster/2024-25
+ - Furman MBB 2026-27 (Jr.): https://furmanpaladins.com/sports/mens-basketball/roster
+ - Mercer MBB 2024-25 (no Mason Smith): https://mercerbears.com/sports/mens-basketball/roster/2024-25
+ - Wofford MBB 2024-25 (Hank Neace, Fr., Davidson Day): https://athletics.wofford.edu/sports/mens-basketball/roster/2024-25
+ - Wofford MBB 2026-27 (Jr.): https://athletics.wofford.edu/sports/mens-basketball/roster
+ - Villanova men's soccer (Jasper Zulman, Jr., Davidson Day): https://villanova.com/sports/mens-soccer/roster
+ - UChicago men's soccer (Chase Perry, Jr., Davidson Day): https://athletics.uchicago.edu/sports/mens-soccer/roster
+ - Roanoke men's soccer (Parker Laatsch, So., Davidson Day): https://roanokemaroons.com/sports/mens-soccer/roster
+ - University of Charleston (WV) MBB 2025-26 cumulative stats (Levon Jacobs): https://ucgoldeneagles.com/sports/mens-basketball/stats/2025-26
+ - Air Force men's swimming (Matthew Doty, So., last school Davidson Day School): https://goairforcefalcons.com/sports/mens-swimming-and-diving/roster
+ - UT Chattanooga volleyball (Jordin Glass, So., Davidson Day School): https://gomocs.com/sports/womens-volleyball/roster
+ - Alabama A&M volleyball 2025 + current (Kaydee Smith, Davidson Day School): https://aamusports.com/sports/womens-volleyball/roster/2025
+ - Georgia equestrian (Abbie Gordon, So.): https://georgiadogs.com/sports/equestrian/roster
+ - Sewanee men's soccer (Domenic Desmond, So., Davidson Day School): https://sewaneetigers.com/sports/mens-soccer/roster
+ - Richmond women's soccer (Isabel Seifert, So., Davidson Day School): https://richmondspiders.com/sports/womens-soccer/roster
+- Class of 2026 per-athlete confirmation (rosters and press; full detail in
+ `Davidson Day - Sports - Athletics Recap 2025-2026.md`): Duke 2026–27 roster · News &
+ Observer via Yahoo, 2026-05-15 · HighSchoolOT 2026 all-state girls lacrosse · Wingate 2027
+ roster · Emory 2026 men's XC roster · MileSplit signing 54618 · TopDrawerSoccer recruiting
+ roundup 2024-09-09 · NC State 2026–27 roster.
 
-## Class of 2024 — Division I (1), Power 4 (0)
-| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|----|
-| Mason Smith | Basketball | Mercer | Southern | |
+## Class of 2024 — 4 collegiate athletes · Division I (3), Power 4 (0) · D3 (1)
 
-_Documented floor: the school published no signing list for this class._
+The school published no signing list for this class. Every row is from the cross-reference.
 
-## Class of 2025 — Division I (6), of which Power 4 (2)
-| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|----|
-| Isaiah Denis | Basketball | North Carolina | ACC | ✅ |
-| Abbie Gordon | Equestrian | Georgia | SEC | ✅ |
-| Matthew Doty | Swimming | Air Force | Mountain West | |
-| Jordin Glass | Volleyball | UT Chattanooga | Southern | |
-| Kaydee Smith | Volleyball | Alabama A&M | SWAC | |
-| Isabel Seifert | Soccer | Richmond | A-10 | |
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---------|-------|---------|-------|-------|--------------|
+| Mason Smith | Boys Basketball | Furman | Southern | D1 | Furman 2024-25 roster (Fr., Davidson Day School); RealGM; DD MaxPreps 2023-24 Sr. **Corrected from Mercer**: the HighSchoolOT tracker still lists Mercer, but Mercer's 2024-25 roster has no Mason Smith, and he has been at Furman since his freshman year — he never enrolled at Mercer. |
+| Hank Neace | Boys Basketball | Wofford | Southern | D1 | Wofford 2024-25 roster (No. 15, Fr., Davidson Day) and 2026-27 (No. 21, Jr.); RealGM; DD MaxPreps 2023-24 Sr. (Wofford's 2026-27 page also lists a "Hank Neace" among student managers; he is on the playing roster with a number.) |
+| Jasper Zulman | Boys Soccer | Villanova | Big East | D1 | Villanova roster (No. 12, D, Jr., Mooresville / Davidson Day); HighSchoolOT boys soccer tracker, Class of 2024 D1; DD MaxPreps soccer 2023-24 Sr. |
+| Chase Perry | Boys Soccer | Chicago | UAA | D3 | UChicago roster (No. 10, Jr., Boone / Davidson Day); HighSchoolOT boys soccer tracker, Class of 2024 D3; DD MaxPreps soccer and basketball 2023-24 Sr. Card label: `'Chicago'` (UChicago). |
 
-_D3 (2025): Dom Desmond (Sewanee, SAA)._
+## Class of 2025 — 9 collegiate athletes · Division I (6), of which Power 4 (2) · D2 (1) · D3 (2)
+
+The school's November 2024 post names seven; two more found in the cross-reference.
+
+| Athlete | Sport | College | Conf. | Level | P4 | Confirmed by |
+|---------|-------|---------|-------|-------|----|--------------|
+| Isaiah Denis | Boys Basketball | North Carolina | ACC | D1 | ✅ | School post; RealGM; 247Sports |
+| Abbie Gordon | Equestrian | Georgia | SEC | D1 | ✅ | School post; Georgia roster (So.) |
+| Matthew Doty | Swimming | Air Force | Mountain West | D1 | | School post; Air Force roster (So., last school Davidson Day School); HighSchoolOT swimming tracker. The Observer's "US Naval Academy" is an error. |
+| Jordin Glass | Volleyball | UT Chattanooga | Southern | D1 | | School post; UTC roster (So., Davidson Day School); HighSchoolOT volleyball tracker |
+| Kaydee Smith | Volleyball | Alabama A&M | SWAC | D1 | | School post; Alabama A&M 2025 roster (Fr., Davidson Day School) |
+| Isabel Seifert | Girls Soccer | Richmond | Atlantic 10 | D1 | | School post; Richmond roster (So., last school Davidson Day School); HighSchoolOT girls soccer tracker |
+| **Levon Jacobs** | Boys Basketball | Charleston (WV) | Mountain East | D2 | | **New.** University of Charleston 2025-26 cumulative stats (13 games); RealGM (HS Davidson Day, 2025, "University of Charleston"); DD MaxPreps 2024-25 Sr. Not on the 2026-27 roster; record as signed out of the school. |
+| Domenic Desmond | Boys Soccer | Sewanee | SAA | D3 | | School post; Sewanee roster (So., Davidson Day School); HighSchoolOT |
+| **Parker Laatsch** | Boys Soccer | Roanoke | ODAC | D3 | | **New.** Roanoke roster (No. 6, So., Mooresville / Davidson Day); HighSchoolOT boys soccer tracker, Class of 2025 D3; DD MaxPreps soccer 2024-25 Sr. |
 
 ## Class of 2026 — 8 collegiate athletes · Division I (4), of which Power 4 (3) · D2 (2) · D3 (2)
 
-The school's complete list (Athletics Recap p.3). Order as printed.
+The school's complete list (Athletics Recap p.3), unchanged by the cross-reference: no
+other 2025-26 senior surfaced on any tracker or RealGM (Justyn Johnson-Whitfield is on
+RealGM with no college).
 
 | Athlete | Sport | College | Conf. | Level | P4 | Note |
 |---------|-------|---------|-------|-------|----|------|
-| Nick Arnold | Basketball | Duke | ACC | D1 | ✅ | **Preferred walk-on** (his own announcement 2026-05-14; N&O 2026-05-15). Duke roster No. 55, G, Fr. Transferred from Lake Norman HS for his senior year; 1,000 career points (school milestone list). |
-| Molly Brown | Lacrosse | Flagler College | Peach Belt | D2 | | HighSchoolOT all-state third team, "Flagler (D2) recruit"; 71 G / 30 A in 2026; Female Athlete of the Year ’26. Flagler joins the Sunshine State Conference in 2027–28. |
-| Alex Haponik | Track & Field | Emory | UAA | D3 | | On Emory's 2026 men's XC roster (Fr.). MileSplit signing lists him as Edward Haponik. Male Athlete of the Year ’26; school records in 800 m, 1600 m, steeplechase and mile. |
-| Sean Hayes | Track & Field | Berry College | SAA | D3 | | School-published only as of 2026-11-08 (Berry's 2026–27 roster not yet out). School discus record; NCISAA D2 2026 runner-up in shot put and discus. |
-| Cody Peck | Basketball | Dayton | Atlantic 10 | D1 | | Already carried (247Sports No. 120 national). |
-| Kipenzi Perry | Soccer | NC State | ACC | D1 | ✅ | TopDrawerSoccer, 2024-09-09: committed to NC State from Charlotte Independence SC. NC State 2026–27 roster No. 20, D, Fr. |
-| Izzy Pierce | Lacrosse | Wingate | South Atlantic | D2 | | Wingate 2027 roster: Freshman, Davidson Day HS. HighSchoolOT all-state third team (as Isabella Pierce), "Wingate (D2) recruit"; 85 G / 25 A; school all-time leading scorer, 300 career goals. |
-| Will Stevens | Basketball | Clemson | ACC | D1 | ✅ | Already carried (247Sports No. 186 national). |
+| Nick Arnold | Boys Basketball | Duke | ACC | D1 | ✅ | Preferred walk-on (N&O 2026-05-15); Duke roster No. 55. RealGM: Duke. |
+| Molly Brown | Girls Lacrosse | Flagler | Peach Belt | D2 | | HighSchoolOT all-state + girls lacrosse tracker (Class of 2026 D2) |
+| Alex Haponik | Track & Field | Emory | UAA | D3 | | Emory 2026 men's XC roster |
+| Sean Hayes | Track & Field | Berry | SAA | D3 | | School-published only (Berry 2026–27 roster not yet out) |
+| Cody Peck | Boys Basketball | Dayton | Atlantic 10 | D1 | | 247Sports; RealGM: Dayton |
+| Kipenzi Perry | Girls Soccer | NC State | ACC | D1 | ✅ | NC State 2026–27 roster; TopDrawerSoccer |
+| Izzy Pierce | Girls Lacrosse | Wingate | South Atlantic | D2 | | Wingate 2027 roster |
+| Will Stevens | Boys Basketball | Clemson | ACC | D1 | ✅ | 247Sports; RealGM: Clemson |
 
 ## Totals, Classes of 2024–2026 (distinct athletes)
 
-| Measure | Was (2026-07-04) | Now (2026-11-08) |
-|---|---|---|
-| Documented commitments, all divisions | 10 | **16** |
-| NCAA Division I (incl. P4) | 9 | **11** |
-| Power 4 | 3 | **5** |
-| Division II | 0 | 2 |
-| Division III | 1 | 3 |
+| Measure | 2026-07-04 | 2026-11-08 (Recap) | **2026-11-08 (cross-reference)** |
+|---|---|---|---|
+| Documented commitments, all divisions | 10 | 16 | **21** |
+| NCAA Division I (incl. P4) | 9 | 11 | **13** |
+| Power 4 | 3 | 5 | **5** |
+| Division II | 0 | 2 | **3** |
+| Division III | 1 | 3 | **5** |
 
-**App metric values:** Power 4 = **5** · Division I = **11** (`p4-commits-2426`,
-`d1-commits-2426`). The Class of 2026 is complete per the school; the Class of 2024 stays a
-documented floor.
+By sport (21): Boys Basketball 7 (3 P4) · Boys Soccer 4 · Girls Soccer 2 (1 P4) · Volleyball 2
+· Girls Lacrosse 2 · Track & Field 2 · Swimming 1 · Equestrian 1 (1 P4).
 
-**On "scholarship":** none of the school's lists uses the word. The app counts documented
-*commitments to college athletics*, which is the only claim the sources support. Division III
-programs (Emory, Berry) award no athletic scholarships, and Arnold is a walk-on.
+**App metric values:** Power 4 = **5** · Division I = **13** (`p4-commits-2426`,
+`d1-commits-2426`). Classes of 2025 and 2026 are complete against the school's lists plus the
+cross-reference; the Class of 2024 is a cross-referenced floor (no school list exists, and
+baseball, golf, swimming, track, cross country, wrestling and boys lacrosse rosters could not
+be retrieved for it).
+
+## Class of 2027 (current seniors) — verbal appendix
+None found as of 2026-11-08; see `Davidson Day - Sports - College Commitments Class of 2027.md`.
+The early signing period opens 2026-11-11.
+
+## Excluded
+- **Mason Smith → Mercer** — superseded by Furman (Mercer's 2024-25 roster does not list
+ him; Furman's does, as a freshman).
+- **Matthew Doty → US Naval Academy** (Observer, Nov 2024) — an error; Air Force's roster
+ lists him with Davidson Day School as last school.
+- **Donovan Atwell (Texas Tech)**, **C.J. Huntley / Will Coble (Appalachian State)**,
+ **Adam Brazil (Hampden-Sydney)**, **Blane St. Clair (Army)** — RealGM Davidson Day alumni
+ outside the window (Classes of 2020–2022).
+
+**On "scholarship":** none of the school's lists uses the word. Division III programs
+(Chicago, Roanoke, Sewanee, Emory, Berry) award no athletic scholarships, and Arnold is a
+walk-on. The app counts documented commitments to college athletics.
 
 
 ---
@@ -395,6 +455,13 @@ PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming an
 girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
+
+## Sweep record (2026-11-08, `/athlete-commits` graduate refresh)
+Re-checked against the 2026-27 MaxPreps rosters posted so far (basketball 3 seniors, boys
+soccer 8, volleyball 5, girls tennis 4), RealGM's Davidson Day page in Chrome (no Class of
+2027 player listed with a college), all 17 HighSchoolOT trackers, and grouped searches.
+Nothing found. **Provisional:** taken before the 2026-11-11 early signing period, so re-run
+after it, and after the February and late-April waves.
 
 ## Confirmed — 0
 
@@ -482,6 +549,11 @@ https://www.davidsonday.org/athletics/history-and-achievements
 > and per-athlete verification live in `Davidson Day - Sports - College Commitments 2024-2026.md`
 > and `Davidson Day - Sports - Athletics Recap 2025-2026.md`; the table below is kept as the
 > 2026-07 record.
+>
+> **Superseded again 2026-11-08 (`/athlete-commits`).** A varsity-roster cross-reference
+> added five athletes (three in the Class of 2024, two in 2025) and moved Mason Smith from
+> Mercer to Furman: **21 commits, 13 D1, 5 P4**. See `Davidson Day - Sports - College
+> Commitments 2024-2026.md` and `Davidson Day - Sports - Varsity Roster Cross-Reference 2026.md`.
 
 | Class | Athlete | Sport | College | Conference | Level |
 |---|---|---|---|---|---|
@@ -743,6 +815,99 @@ sentence.
 
 Girls 4×100 relay 5th (52.07); boys 1600 3rd (Haponik, 4:26.95); boys 3200 4th
 (Haponik, 9:35.69); boys 800 5th (Haponik, 2:00.99); boys 300 m hurdles 8th (Carnaggio, 44.80).
+
+
+---
+
+## Varsity Roster Cross-Reference 2026
+
+*Source file: `Davidson Day - Sports - Varsity Roster Cross-Reference 2026.md`*
+
+# Davidson Day School — Sports — Varsity Roster Cross-Reference (2026)
+
+> **Provenance:** Research record written by Claude Code on 2026-11-08 during
+> `/athlete-commits Davidson Day School` (graduate refresh). It documents *how* the College
+> Pipeline roster was rebuilt and *what was checked and found empty*, so a later pass does
+> not redo the same work. The athlete-level results live in `Davidson Day - Sports - College
+> Commitments 2024-2026.md`; this file is the method and the nulls. It is provenance for the
+> pipeline card, not a card of its own (`src/lib/metrics.ts` folds `/roster
+> cross-reference/i` onto the research dossier).
+>
+> **Names policy:** only athletes with a documented college commitment, and the leads ruled
+> out, are named here. Current students without a commitment are recorded as counts.
+
+## Scope
+Every varsity sport the school fields (`offered` in `src/data/sportsPrograms/davidson-day.ts`:
+13 sports), for the seasons 2023-24, 2024-25, 2025-26 (graduating Classes of 2024–2026) and
+2026-27 (current seniors, Class of 2027).
+
+**Tier 1 (full per-name cross-reference):** boys basketball, boys soccer, girls soccer,
+volleyball, girls lacrosse, boys and girls tennis — the sports whose MaxPreps rosters were
+retrievable.
+**Tier 2 (statewide trackers + grouped searches, no roster):** football, baseball, girls
+basketball (2023-24, 2024-25), swimming, track & field, cross country, golf, wrestling, boys
+lacrosse.
+
+## Step 1 — rosters
+- **School site:** `ddspatriotsathletics.com` returns 403 (as in July 2026); `davidsonday.org`
+ publishes signing posts, not rosters. Not used.
+- **MaxPreps** (`https://www.maxpreps.com/nc/davidson/davidson-day-patriots/<sport>/<yy-yy>/roster/`,
+ curl with a browser UA). Seniors per season:
+
+| Sport (MaxPreps slug) | 23-24 Sr. | 24-25 Sr. | 25-26 Sr. | 26-27 Sr. |
+|---|---|---|---|---|
+| basketball | 7 | 5 | 4 | 3 |
+| soccer (boys; roster mixes in girls' names in 23-24) | 13 | 9 | 6 | 8 |
+| soccer/girls/spring | 5 | 11 | 1 | not posted |
+| volleyball | 4 | 4 (+ Kaydee Smith, no grade printed) | 4 | 5 |
+| lacrosse/girls | 2 | 1 | 6 | not posted |
+| tennis (boys) | 1 | 0 | 1 | not posted |
+| tennis/girls | 1 | 6 | 2 | 4 |
+| basketball/girls | 404 | 404 | empty | empty |
+| baseball, cross-country (B/G), golf (girls; boys 404 then empty), lacrosse (boys), swimming (B/G), track-field (B/G), wrestling | empty every season | | | |
+| football | 404 every season (only a JV page exists) | | | |
+
+Empty or 404 for every season = **unchecked**, not null.
+
+## Step 2 — sources read
+| Source | Access | Result |
+|---|---|---|
+| HighSchoolOT, all 17 per-sport trackers + in-state/out-of-state football lists 2024–26 | curl | 9 Davidson Day entries: M. Smith (Mercer), Zulman (Villanova), Perry (Chicago), Desmond, **Laatsch (Roanoke)**, Doty, Brown, Seifert, Glass. Football lists: none. |
+| RealGM school page `basketball.realgm.com/highschool/teams/6173/Davidson-Day-School` | Chrome | 34 alumni with college: in window **Neace (Wofford, 2024)**, **M. Smith (Furman, 2024)**, **Jacobs (University of Charleston, 2025)**, Denis, Arnold, Peck, Stevens; Johnson-Whitfield (2026) no college; nothing for 2027 |
+| College rosters (Sidearm, curl) | curl / Chrome | Confirmed all five new rows and every Class of 2025 row (URLs in the commitments file) |
+| davidsonday.org signing posts | curl/Chrome | Nov 2024 post (7 names) = Class of 2025. `news-detail?pk=1279769` ("Five Student-Athletes…") is Oct 2021 (Wayback) = Class of 2022, out of window. No Class of 2024 post exists. |
+| Charlotte Observer Nov 2024 signing roundup (Yahoo) | curl | Reprints the school's 7; lists Doty at Navy (wrong — Air Force roster) |
+| Grouped web searches, Class of 2024–25 seniors in volleyball, girls lacrosse, girls/boys soccer, tennis, basketball | WebSearch | Nothing |
+| LaxNumbers | search only | No Davidson Day team page surfaced; boys lacrosse roster unavailable everywhere — **unchecked** |
+
+## Findings
+**New (5):** Hank Neace '24 Wofford D1 · Jasper Zulman '24 Villanova D1 · Chase Perry '24
+Chicago D3 · Levon Jacobs '25 University of Charleston D2 · Parker Laatsch '25 Roanoke D3.
+**Changed (1):** Mason Smith '24 Mercer → **Furman** (both Southern Conference, D1).
+**Unchanged:** every Class of 2025 and 2026 row re-confirmed.
+
+## Nulls (searched, nothing found)
+- Class of 2024: basketball 4 other seniors (RealGM lists none with a college), boys soccer
+ 9 other seniors (roster includes 3 girls' names), girls soccer 5, volleyball 4, girls
+ lacrosse 2, tennis 2.
+- Class of 2025: basketball 3 other seniors, boys soccer 7, girls soccer 9 beyond Seifert
+ and Glass, volleyball 2 beyond Glass/Smith, girls lacrosse 1, girls tennis 6.
+- Class of 2026: basketball 1 (on RealGM, no college), boys soccer 6, girls soccer 1, girls
+ lacrosse 4, volleyball 3, tennis 3 — consistent with the school's complete list of 8.
+
+## Unchecked (no roster retrievable)
+Football (all seasons), baseball, boys lacrosse, swimming, track & field, cross country,
+golf, wrestling, and girls basketball for 2023-24 and 2024-25. The Class of 2026 is covered
+for these by the school's own complete list; the Classes of 2024 and 2025 are not. Doty
+(swimming) and the two track athletes came from school lists, not rosters.
+
+## Ruled out
+- Mason Smith → Mercer (tracker): superseded; Mercer's 2024-25 roster does not list him.
+- Matthew Doty → Navy (Observer): Air Force roster.
+
+## Class of 2027 (current seniors)
+26-27 rosters posted: basketball 3 seniors, boys soccer 8, volleyball 5, girls tennis 4. No
+public commitment on any tracker, RealGM or the school's site. See the Class of 2027 file.
 
 
 ---
@@ -2021,6 +2186,7 @@ Davidson Day School — Athletics Research Series · compiled from public source
 - https://247sports.com/season/<year>-football/recruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-womens-basketball/compositerecruitrankings/?InstitutionGroup=HighSchool&State=NC
 - https://247sports.com/season/<year>-womens-basketball/recruitrankings/?InstitutionGroup=HighSchool&State=NC
+- https://aamusports.com/sports/womens-volleyball/roster/2025
 - https://admin.ncisaa.org/uploads/SWIMMING/2023/2023%20division%203%20Swim%20scores.pdf
 - https://admin.ncisaa.org/uploads/SWIMMING/2024/2024%20NCISAA%20D3%20results.pdf
 - https://admin.ncisaa.org/uploads/SWIMMING/2025/division%202%20scores.pdf
@@ -2032,34 +2198,50 @@ Davidson Day School — Athletics Research Series · compiled from public source
 - https://archives.ncisaa.org/index.php?sport=16&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=19&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=22&years=2025-2026
+- https://athletics.uchicago.edu/sports/mens-soccer/roster
+- https://athletics.wofford.edu/sports/mens-basketball/roster
+- https://athletics.wofford.edu/sports/mens-basketball/roster/2024-25
+- https://basketball.realgm.com/highschool/teams/6173/Davidson-Day-School
 - https://berryvikings.com/sports/mens-track-and-field/roster
 - https://can.milesplit.com/signings/54618
 - https://carychristianschool.org
 - https://coastalchristian.net
 - https://concord.academy
+- https://davidsonday.org/news-detail?pk=1543471`
 - https://dukechronicle.com/article/duke-mens-basketball-player-preview-nick-arnold-20260929
 - https://emoryathletics.com/sports/mens-cross-country/roster
 - https://en.wikipedia.org/wiki/2026%E2%80%9327_Duke_Blue_Devils_men%27s_basketball_team
 - https://en.wikipedia.org/wiki/John_Hunter_Nemechek
 - https://flaglerathletics.com/news/2026/4/23/GEN_042326_SSC_announcement.aspx
+- https://furmanpaladins.com/sports/mens-basketball/roster
+- https://furmanpaladins.com/sports/mens-basketball/roster/2024-25
 - https://gastonchristian.org
+- https://georgiadogs.com/sports/equestrian/roster
+- https://goairforcefalcons.com/sports/mens-swimming-and-diving/roster
 - https://goduke.com/sports/mens-basketball/roster
+- https://gomocs.com/sports/womens-volleyball/roster
 - https://gopack.com/documents/download/2026/8/10/MATCH_1___JAMES_MADISON.pdf
 - https://hickorychristianacademy.com
 - https://image.isu.pub/260601134603-feea5a5f14d1db3b4765484a1f266053/jpg/page_1.jpg
 - https://issuu.com/davidsondayschool/docs/25-26_athletics_in_review
 - https://iwlca.sportsrecruits.com/athlete/molly_brown8
+- https://mercerbears.com/sports/mens-basketball/roster/2024-25
 - https://nc.milesplit.com/articles/323055/the-complete-ncisaa-xc-state-championship-hub
 - https://nc.milesplit.com/meets/503458-ncisaa-state-xc-championships-2022/results/861207/raw
 - https://nc.milesplit.com/meets/503458-ncisaa-state-xc-championships-2022/results/861208/raw
 - https://resources.finalsite.net/images/f_auto,q_auto/v1765293293/davidsondayorg/cogpzni2rnpr2nr5krwo/DroneShot.jpg
 - https://resources.finalsite.net/images/f_auto,q_auto/v1766075195/davidsondayorg/ymi5or1g7ygcqrnxq9bq/VballStateChamps.jpg
 - https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+- https://richmondspiders.com/sports/womens-soccer/roster
+- https://roanokemaroons.com/sports/mens-soccer/roster
+- https://sewaneetigers.com/sports/mens-soccer/roster
 - https://sports.yahoo.com/articles/did-duke-basketball-just-next-101500311.html
 - https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 - https://stmacademy.org
 - https://trinityacademy.com
+- https://ucgoldeneagles.com/sports/mens-basketball/stats/2025-26
 - https://ultimategoallacrosse.com/charlotte
+- https://villanova.com/sports/mens-soccer/roster
 - https://waynechristian.org
 - https://wccs.org
 - https://wingatebulldogs.com/sports/womens-lacrosse/roster/izzy-pierce/14800
@@ -2089,13 +2271,21 @@ Davidson Day School — Athletics Research Series · compiled from public source
 - https://www.harrellsca.com
 - https://www.highschoolot.com/story/c-j-huntley-davidson-day-and-appalachian-state-grad-signs-two-way-contract-with-the-phoenix-suns/22067021/
 - https://www.highschoolot.com/story/ncisaa-spring-championship-rundown/22363802/
+- https://www.highschoolot.com/story/north-carolina-high-school-boys-basketball-recruiting-tracker/21206000/
+- https://www.highschoolot.com/story/north-carolina-high-school-boys-soccer-recruiting-tracker/21024526/
+- https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.highschoolot.com/story/the-2023-24-ncisaa-team-state-champions-in-every-sport/21461689/
 - https://www.highschoolot.com/story/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/
 - https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - https://www.highschoolot.com/story/the-2026-highschoolot-all-state-girls-lacrosse-team/22375831/
 - https://www.hpcacougars.org
 - https://www.jp2chs.com
+- https://www.maxpreps.com/nc/davidson/davidson-day-patriots/<sport>/<yy-yy>/roster/`
+- https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/23-24/roster/
+- https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/24-25/roster/
 - https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/history/
+- https://www.maxpreps.com/nc/davidson/davidson-day-patriots/soccer/23-24/roster/
+- https://www.maxpreps.com/nc/davidson/davidson-day-patriots/soccer/24-25/roster/
 - https://www.maxpreps.com/nc/davidson/davidson-day-patriots/soccer/girls/spring/roster/
 - https://www.maxpreps.com/news/DENPuVfqpEmRw2iffpG6ew/basketball-recap-oak-hill-academys-undefeated-season-over-after-six-games.htm
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
