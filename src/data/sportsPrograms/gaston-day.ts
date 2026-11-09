@@ -253,6 +253,45 @@ export const gastonDay: SportsProgram = {
     ],
   },
 
+  /* ------------------------------------------------------- 1d pipeline -- */
+  pipeline: {
+    headline:
+      'Three documented college commitments across the classes of 2024–26 — two of them Division I volleyball players, one to a Power 4 program.',
+    subhead:
+      'Built from Gaston Day’s varsity rosters and each college’s own roster; the school publishes no list of its college signees.',
+    funnel: [
+      { label: 'Committed to college athletics', hint: '(all divisions, 2024–26)', count: '3', width: 1, shade: 'pale' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '2', width: 0.67, shade: 'mid' },
+      { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', count: '1', width: 0.33, shade: 'full' },
+    ],
+    funnelNote:
+      'Both Division I commits are volleyball players: Megan Brown (’24) at Wofford in the Southern Conference, and Anne Bradley Bing (’25) at South Carolina in the SEC — Gaston Day’s one Power 4 commitment in this window.',
+    sportBars: [
+      { sport: 'Volleyball', count: 2, width: 1, p4Width: 0.5 },
+      { sport: 'Boys Basketball', count: 1, width: 0.5 },
+    ],
+    realityCheck:
+      'Volleyball, Gaston Day’s state-championship program, produced both Division I commits; Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the count is a documented minimum. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',
+    roster: [
+      { cls: "'26", name: 'Braylen Todd', sport: 'Boys Basketball', college: 'Johnson & Wales (Charlotte)', conf: 'USCAA', level: 'D3' },
+      { cls: "'25", name: 'Anne Bradley Bing', sport: 'Volleyball', college: 'South Carolina', conf: 'SEC', level: 'P4' },
+      { cls: "'24", name: 'Megan Brown', sport: 'Volleyball', college: 'Wofford', conf: 'Southern', level: 'D1' },
+      // Class of 2027 — public verbal commitment, not yet signed; not in the funnel or Compare
+      { cls: "'27", name: 'Bree Smith', sport: 'Swimming', college: 'Stanford', conf: 'ACC', level: 'P4' },
+    ],
+    rosterNote:
+      'Each row is the college the athlete went to out of Gaston Day, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Johnson & Wales in Charlotte competes in the USCAA rather than the NCAA, so Braylen Todd is listed at the D3 tier for want of a USCAA level in this table’s scale. The Class of 2027 row is a public commitment, listed because it is already announced; it is not counted in the funnel, the sport bars or on the Compare page until the athlete signs.',
+    sources: [
+      { label: 'HighSchoolOT — NC volleyball recruiting tracker (Brown, Bing)', url: 'https://www.highschoolot.com/story/north-carolina-high-school-volleyball-recruiting-tracker/21031942/' },
+      { label: 'Wofford — volleyball inks five signees, December 2023 (Megan Brown)', url: 'https://woffordterriers.com/news/2023/12/14/volleyball-inks-five-signees.aspx' },
+      { label: 'Wofford — volleyball roster (Megan Brown)', url: 'https://woffordterriers.com/sports/womens-volleyball/roster/megan-brown/8731' },
+      { label: 'South Carolina — volleyball roster (Anne Bradley Bing)', url: 'https://gamecocksonline.com/sports/wvball/roster/player/anne-bradley-bing/' },
+      { label: 'Johnson & Wales Charlotte — men’s basketball roster 2026–27 (Braylen Todd)', url: 'https://charlotte.jwuathletics.com/sports/mens-basketball/roster' },
+      { label: 'Charlotte Observer via Yahoo — 2026–27 Charlotte-area swimming preview (Bree Smith)', url: 'https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html' },
+      { label: 'MaxPreps — Gaston Day varsity rosters', url: MAXPREPS },
+    ],
+  },
+
   /* --------------------------------------------------------- 1e honors ---- */
   honors: {
     headline:

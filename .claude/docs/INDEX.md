@@ -110,7 +110,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Preparatory School](sports/charlotte-prep.md) — 2 docs
 - [Covenant Day School](sports/covenant-day.md) — 19 docs
 - [Davidson Day School](sports/davidson-day.md) — 21 docs
-- [Gaston Day School](sports/gaston-day.md) — 3 docs
+- [Gaston Day School](sports/gaston-day.md) — 5 docs
 - [Hickory Grove Christian School](sports/hickory-grove-christian.md) — 6 docs
 - [Providence Day School](sports/providence-day.md) — 22 docs
 - [Trinity Episcopal School](sports/trinity-episcopal.md) — 2 docs
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 556 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 558 documents across 12 topics and 13 schools.
