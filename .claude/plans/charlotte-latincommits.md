@@ -1,11 +1,11 @@
 ---
 name: charlotte-latincommits
 title: Charlotte Latin College Pipeline — all nine signing posts (63 / 22 D1 / 8 P4), every sport named, Compare P4 3 → 8 and D1 14 → 22
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-latin-commits-2026
-prs: []
+prs: [456]
 ---
 
 # Charlotte Latin College Pipeline — verified 2024–26 refresh
@@ -391,3 +391,9 @@ chrome catalogs. Mechanism: `.claude/docs/prose-translation-architecture.md`; re
 - **Prose wording** settles at the Phase 1 review. **Default:** as written in step 3.
 - **Whether the headline should say "girls’ lacrosse" or "lacrosse"**: all four D1
   lacrosse commits are girls'. **Default:** "girls’ lacrosse".
+
+## Implementation notes
+
+- **Phase 2 matched the forecast exactly** in all nine locales: in `sports`, 5 units were added and 6 dropped. In `metric-values`, 2 were added and 2 dropped. The unchanged Class of 2027 sentence in `rosterNote` reuses each locale's shipped wording from HEAD.
+- **The Phase 2 browser check expected that no roster sport chip would render in English. That expectation was wrong.** Eight locales deliberately keep bare roster sport names (`Swimming`, `Girls Lacrosse`) as identifiers, per the roster convention recorded in `src/data/overlays/NOTES.md`. Only `ar` translates them. This holds on every school's roster and predates this plan.
+- `check_work_integrity.mjs` reported index-shift violations after the splice, as expected. A by-stamp comparison against HEAD found all 17,415 kept units byte-identical.
