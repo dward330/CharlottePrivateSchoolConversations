@@ -1,11 +1,11 @@
 ---
 name: admitrateheader
 title: NC admissions ledger — "Admit rate from <School name>" column header
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-09
 branch: feat/admitrateheader
-prs: []
+prs: [464]
 ---
 
 # NC admissions ledger: "Admit rate from <School name>" column header
