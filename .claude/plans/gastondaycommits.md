@@ -1,11 +1,11 @@
 ---
 name: gastondaycommits
 title: Gaston Day College Pipeline — new card from a varsity-roster cross-reference (3 / 2 D1 / 1 P4), Compare P4 null → 1, D1 null → 2
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-09
 branch: feat/gaston-day-commits-2026
-prs: []
+prs: [462]
 ---
 
 # Gaston Day College Pipeline — new card, verified 2024–26
@@ -436,3 +436,10 @@ The mechanism is in `.claude/docs/prose-translation-architecture.md`. Follow the
   to swim at Stanford."
 - **Quals placement.** Neither `quals` map follows the `values` order, so the Gaston Day entry
   was appended last in each (after `davidson-day` in P4, after `hickory-grove-christian` in D1).
+- **Phase 2 (2026-11-09, PR #462).** It matched the forecast exactly in all nine locales:
+  sports 5 added / 0 dropped, metric-values 2 added / 0 dropped, and the `'1'` / `'2'` value
+  units each gained one path. The 17,478 kept translations were identical by stamp.
+  `check:digits` compared 63 units and found 0 to review. `check_work_integrity` flagged only the
+  string-count growth (18 flags, as expected). Phase 2 found a pre-existing defect it did not fix:
+  the roster counter `{rows.length} of {data.roster.length}` (`SportsProgram.tsx:936`) is
+  hardcoded English on every pipeline card in every locale.
