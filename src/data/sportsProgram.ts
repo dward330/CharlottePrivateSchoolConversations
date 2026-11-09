@@ -181,10 +181,15 @@ export type WinningRecord = {
 /** Recruiting level, driving both the roster filter tabs and the row tag. */
 export type CommitLevel = 'P4' | 'D1' | 'D2' | 'D3' | 'NAIA'
 
+/** One decimal digit, for `ClassYear`. */
+type Digit = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+/** Graduating class as an apostrophe + two digits, e.g. "'26" — never "2026" or "’26". */
+type ClassYear = `'${Digit}${Digit}`
+
 /** One athlete's college-athletics commitment. */
 export type Commit = {
   /** Graduating class, e.g. "'26". */
-  cls: string
+  cls: ClassYear
   name: string
   sport: string
   college: string
