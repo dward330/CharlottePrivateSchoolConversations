@@ -24,6 +24,14 @@ girls basketball previews, RealGM (Chrome) where a team page was reachable, and 
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 
+## Sweep record (2026-11-09, `/athlete-commits hickory-grove-christian`)
+Re-checked during the graduate pass: the 18 HighSchoolOT trackers, the "Building the Fence"
+and out-of-state football lists, RealGM's HGCS page (Chrome; no 2027 player with a
+college), The Baseball Cube and PBR's 2026 Region 6 preview. Still no Class of 2027
+commitment. The MaxPreps 2026-27 rosters posted so far hold 9 football, 4 boys soccer and 2
+volleyball seniors; spring rosters are not up. Still provisional until after the
+2026-11-11 signing wave.
+
 ## Confirmed — 0
 
 ## Leads

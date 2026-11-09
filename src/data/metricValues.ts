@@ -2301,7 +2301,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
       'carmel-christian': '1', // ’24 Avram (South Carolina tennis, SEC) — see the Carmel College Commitments 2024-2026 source file
       'davidson-day': '5', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson), Arnold (Duke, walk-on), Perry (NC State)
-      'hickory-grove-christian': '0', // no Power 4 commit 2024–26; all D1 commits are mid-major baseball
+      'hickory-grove-christian': '0', // no Power 4 commit 2024–26; all four D1 commits are mid-major (Sun Belt, MEAC, CAA, Big South)
       'gaston-day': null, // no published signing list — local press, athletics news and recruiting DBs all checked; confirmed absence, not a gap
       'providence-day': '16', // 2024–26, every row verified on the college’s page 2026-11-08: ’24 Barnhardt, Shipp, Goodwin, Davis, Poole · ’25 Sanders, Skanes, Winston, G.Bartee, Neace · ’26 Sellars, Lott, Delaney, Baggett, Goldean, Z.G.Bartee (Makemson: Tennessee verbal, enrolled App State — counted D1)
     },
@@ -2347,7 +2347,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '10', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner (App State), Stanley, Rivens (Charlotte football) (5) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '6', // ’24: K.Taylor (UNCA), Avram (South Carolina tennis) · ’25: B.Slay (Marshall), Bowman (UNCG), Agafonov (Queens tennis) · ’26: Johnson (UNCA). Buzzard removed: graduated from East Mecklenburg
       'davidson-day': '13', // ’24: M.Smith (Furman), Neace (Wofford), Zulman (Villanova) · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 from college rosters — no school list; 2025/2026 per the school’s lists)
-      'hickory-grove-christian': '3', // all baseball: Cabbage (UNCW ’25), Green (UNC Asheville ’25), Johnson (ETSU) — mid-major
+      'hickory-grove-christian': '4', // ’24: Barozzino (App State baseball), Dukes (NC Central football) · ’25: Cabbage (UNCW), Green (UNC Asheville). Johnson is at Wingate (D2), not ETSU — see the HGCS College Commitments 2024-2026 source file
       'gaston-day': null, // no published signing list — see p4-commits-2426; the athletics site is JS-rendered and publishes no commit news
       'providence-day': '39', // 14 / 12 / 13 by class (’24 / ’25 / ’26), each confirmed on the college’s roster 2026-11-08 (see College Commitments 2024-2026.md)
     },
@@ -2379,7 +2379,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'minimum',
-        text: 'A documented minimum — all three are baseball: Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025, plus Brady Johnson (ETSU). All are mid-major D1; no Power 4 and no other-sport commit surfaced, and the school publishes no all-sport list.',
+        text: 'A documented minimum — three baseball and one football: Conner Barozzino (Appalachian State) and Jahzir Dukes (North Carolina Central, football) in the Class of 2024, and Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025. All four are mid-major Division I; the school publishes no all-sport signing list.',
       },
     },
   },
@@ -2405,7 +2405,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '0', // none found (re-checked 2026-11-09 against all 2026-27 rosters); fall Lions News signing post not yet published — re-run after 2026-11-11
       'davidson-day': '0', // none found
       'carmel-christian': '0', // none found (re-checked 2026-11-09 against all 2026-27 rosters); no fall signing post yet — re-run after 2026-11-11
-      'hickory-grove-christian': '0', // none found
+      'hickory-grove-christian': '0', // none found (re-checked 2026-11-09 against the 2026-27 rosters posted so far); re-run after 2026-11-11
       'charlotte-prep': null, // K-8
       'trinity-episcopal': null, // K-8
     },

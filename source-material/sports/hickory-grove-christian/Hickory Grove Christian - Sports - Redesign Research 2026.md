@@ -119,6 +119,11 @@ exact score; the titles themselves are confirmed by the school (S3).
 
 ## 1c — College Pipeline (D1 commits + Power 4 count)
 
+> **Superseded 2026-11-09** by `Hickory Grove Christian - Sports - College Commitments
+> 2024-2026.md` (the verified per-athlete record: 7 committed / 4 D1 / 0 P4) and `Hickory
+> Grove Christian - Sports - Varsity Roster Cross-Reference 2026.md` (method and nulls).
+> Brady Johnson below is at Wingate (D2), not ETSU; Barozzino and Dukes were missing.
+
 **Division I signings/commits, recent (baseball):**
 - **Brady Johnson** (LHP) → **East Tennessee State (ETSU)**, Southern Conference — D1 (S9; via search snippet)
 - **Davis Cabbage** → **UNC Wilmington**, Coastal Athletic Association — D1, Class of 2025 (S7)
