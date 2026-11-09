@@ -1,11 +1,11 @@
 ---
 name: covenantdaycommits
 title: Covenant Day College Pipeline — varsity-roster cross-reference (35 / 10 D1 / 1 P4), Gardner → App State, Rivens → Charlotte football, Compare D1 9 → 10
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-09
 branch: feat/covenant-day-commits-2026
-prs: []
+prs: [459]
 ---
 
 # Covenant Day College Pipeline — verified 2024–26 refresh
@@ -399,4 +399,18 @@ The mechanism is in `.claude/docs/prose-translation-architecture.md`. Follow the
 
 ## Implementation notes
 
-_(filled in by `/implement`)_
+Both phases ran in one window (2026-11-09), PR #459.
+
+- **Ingest touched Charlotte Catholic too.** `build_docs.py sports` also refreshed
+  `.claude/docs/sports/charlotte-catholic.md` and `src/content/sports/charlotte-catholic.json`
+  from a source edit #458 committed without re-ingesting (Salas conf ASUN, a Queens URL). That
+  catch-up is included. The other 11 schools' notes changed only their rebuild date and were
+  reverted.
+- **`DATA-SCHEMA.md` changed** (551 → 552 documents, Covenant sports 18 → 19) and is committed.
+- The splice matched the forecast exactly in all nine locales. `check_work_integrity` reports 32
+  index-shift false alarms per locale; the by-stamp diff shows 17,433 kept / 0 changed / 54 added.
+- `i18n:leaks` flags only the shared `XC / Track` roster sport unit, which is pre-existing and
+  unchanged.
+- The headed Chrome window closed mid-run twice during the locale browser check, so the `fa`
+  open-card and `es` Compare probes were finished in headless Chrome. The `fa` range probe ran
+  headed.
