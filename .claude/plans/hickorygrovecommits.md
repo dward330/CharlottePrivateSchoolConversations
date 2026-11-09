@@ -1,11 +1,11 @@
 ---
 name: hickorygrovecommits
 title: Hickory Grove Christian College Pipeline — varsity-roster cross-reference (7 / 4 D1 / 0 P4), Johnson ETSU → Wingate, Compare D1 3 → 4
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-09
 branch: feat/hickory-grove-commits-2026
-prs: []
+prs: [461]
 ---
 
 # Hickory Grove Christian College Pipeline — verified 2024–26 refresh
