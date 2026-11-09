@@ -251,7 +251,8 @@
         "covenant-day:pipeline.funnel[0].label",
         "davidson-day:pipeline.funnel[0].label",
         "carmel-christian:pipeline.funnel[0].label",
-        "hickory-grove-christian:pipeline.funnel[0].label"
+        "hickory-grove-christian:pipeline.funnel[0].label",
+        "gaston-day:pipeline.funnel[0].label"
       ]
     },
     {
@@ -275,7 +276,8 @@
         "covenant-day:pipeline.funnel[1].label",
         "davidson-day:pipeline.funnel[1].label",
         "carmel-christian:pipeline.funnel[1].label",
-        "hickory-grove-christian:pipeline.funnel[1].label"
+        "hickory-grove-christian:pipeline.funnel[1].label",
+        "gaston-day:pipeline.funnel[1].label"
       ]
     },
     {
@@ -288,7 +290,8 @@
         "charlotte-country-day:pipeline.funnel[1].hint",
         "cannon:pipeline.funnel[1].hint",
         "covenant-day:pipeline.funnel[1].hint",
-        "davidson-day:pipeline.funnel[1].hint"
+        "davidson-day:pipeline.funnel[1].hint",
+        "gaston-day:pipeline.funnel[1].hint"
       ]
     },
     {
@@ -303,7 +306,8 @@
         "covenant-day:pipeline.funnel[2].label",
         "davidson-day:pipeline.funnel[2].label",
         "carmel-christian:pipeline.funnel[2].label",
-        "hickory-grove-christian:pipeline.funnel[2].label"
+        "hickory-grove-christian:pipeline.funnel[2].label",
+        "gaston-day:pipeline.funnel[2].label"
       ]
     },
     {
@@ -318,7 +322,8 @@
         "covenant-day:pipeline.funnel[2].hint",
         "davidson-day:pipeline.funnel[2].hint",
         "carmel-christian:pipeline.funnel[2].hint",
-        "hickory-grove-christian:pipeline.funnel[2].hint"
+        "hickory-grove-christian:pipeline.funnel[2].hint",
+        "gaston-day:pipeline.funnel[2].hint"
       ]
     },
     {
@@ -484,7 +489,8 @@
         "charlotte-country-day:pipeline.roster[45].sport",
         "cannon:pipeline.roster[2].sport",
         "cannon:pipeline.roster[27].sport",
-        "davidson-day:pipeline.roster[10].sport"
+        "davidson-day:pipeline.roster[10].sport",
+        "gaston-day:pipeline.roster[3].sport"
       ]
     },
     {
@@ -605,7 +611,8 @@
         "davidson-day:pipeline.roster[14].sport",
         "davidson-day:pipeline.roster[17].sport",
         "davidson-day:pipeline.roster[18].sport",
-        "hickory-grove-christian:coaching.tenure[1].role"
+        "hickory-grove-christian:coaching.tenure[1].role",
+        "gaston-day:pipeline.roster[0].sport"
       ]
     },
     {
@@ -626,7 +633,9 @@
         "covenant-day:pipeline.roster[30].sport",
         "davidson-day:pipeline.roster[11].sport",
         "davidson-day:pipeline.roster[12].sport",
-        "carmel-christian:pipeline.roster[17].sport"
+        "carmel-christian:pipeline.roster[17].sport",
+        "gaston-day:pipeline.roster[1].sport",
+        "gaston-day:pipeline.roster[2].sport"
       ]
     },
     {
@@ -2650,7 +2659,8 @@
       "at": [
         "charlotte-christian:pipeline.funnel[0].hint",
         "carmel-christian:pipeline.funnel[0].hint",
-        "hickory-grove-christian:pipeline.funnel[0].hint"
+        "hickory-grove-christian:pipeline.funnel[0].hint",
+        "gaston-day:pipeline.funnel[0].hint"
       ]
     },
     {
@@ -7423,6 +7433,41 @@
       "of": "9c8d6990",
       "at": [
         "gaston-day:record.seasonDetail[5].text"
+      ]
+    },
+    {
+      "t": "Tres compromisos universitarios documentados en las promociones de 2024–26 — dos de ellos de jugadoras de voleibol de Division I, uno con un programa de la Power 4.",
+      "of": "a6095cfc",
+      "at": [
+        "gaston-day:pipeline.headline"
+      ]
+    },
+    {
+      "t": "Elaborado a partir de las plantillas varsity de Gaston Day y de la plantilla de cada universidad; el colegio no publica ninguna lista de sus firmantes universitarios.",
+      "of": "79da291b",
+      "at": [
+        "gaston-day:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "Los dos compromisos de Division I son de jugadoras de voleibol: Megan Brown (’24) en Wofford, de la Southern Conference, y Anne Bradley Bing (’25) en South Carolina, de la SEC — el único compromiso de la Power 4 de Gaston Day en este periodo.",
+      "of": "be26ede6",
+      "at": [
+        "gaston-day:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "El voleibol, el programa de Gaston Day con títulos estatales, aportó los dos compromisos de Division I; Braylen Todd (’26) pasó a jugar al baloncesto en Johnson & Wales, en Charlotte. El colegio no publica ninguna lista de firmas ni anuncios del día de firma, por lo que el recuento es un mínimo documentado. Bree Smith (’27), especialista en 50 y 100 libres, se ha comprometido a nadar en Stanford.",
+      "of": "1356f12c",
+      "at": [
+        "gaston-day:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "Cada fila es la universidad a la que fue el deportista al salir de Gaston Day, tal como figura en la plantilla de esa universidad. P4 = SEC · Big Ten · ACC · Big 12. Johnson & Wales en Charlotte compite en la USCAA y no en la NCAA, por lo que Braylen Todd figura en el nivel D3 a falta de un nivel USCAA en la escala de esta tabla. La fila de la promoción de 2027 es un compromiso público y figura porque ya se ha anunciado; no se cuenta en el embudo, en las barras por deporte ni en la página Comparar hasta que se produzca la firma.",
+      "of": "a34521a2",
+      "at": [
+        "gaston-day:pipeline.rosterNote"
       ]
     },
     {
