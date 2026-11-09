@@ -100,6 +100,14 @@ won its opening playoff game **27-0** over A.C. Reynolds on 14 November 2025 (S9
 
 ## College commitments, Classes of 2024–2026
 
+> **SUPERSEDED 2026-11-08 (`/athlete-commits`, plan `catholiccommits`).** The table below is
+> the August 2026 record from three signing articles. It missed every football signing
+> (December/February) and the spring signing days. The current record, **54 athletes / 39
+> Division I / 15 Power 4**, is in
+> `Charlotte Catholic - Sports - College Commitments 2024-2026.md`; method, nulls and
+> unchecked gaps are in `Charlotte Catholic - Sports - Varsity Roster Cross-Reference 2026.md`.
+> Kept here unchanged as the earlier record.
+
 **35 athletes documented by name**, each traceable to a named article. Counts below are
 derived from this table and nothing else.
 

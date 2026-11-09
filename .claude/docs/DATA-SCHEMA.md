@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 549 ingested research documents.
+**13 schools × 12 research areas**, 551 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -63,7 +63,7 @@ exists yet and **the section does not render at all** for that school.
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 2 | 7 | 2 |
-| Sports | `sports` | 19 | 4 | 4 | 20 | 20 | 20 | 2 | 18 | 21 | 3 | 4 | 22 | 2 |
+| Sports | `sports` | 19 | 4 | 6 | 20 | 20 | 20 | 2 | 18 | 21 | 3 | 4 | 22 | 2 |
 | College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 13 | 2 | 3 | 12 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
