@@ -1,6 +1,141 @@
 # Hickory Grove Christian School — Sports
-> Distilled from 4 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Wells Fargo Cup Standings 2020-2026
+> Distilled from 6 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-09.
+**Documents:** College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
+
+
+---
+
+## College Commitments 2024-2026
+
+*Source file: `Hickory Grove Christian - Sports - College Commitments 2024-2026.md`*
+
+# Hickory Grove Christian School — Sports — College Commitments (2024–2026)
+
+> **Provenance:** Compiled by Claude Code on 2026-11-09 during `/athlete-commits
+> hickory-grove-christian`. Every varsity roster on MaxPreps for 2023-24 through 2026-27 was
+> read against the HighSchoolOT per-sport recruiting trackers and "Building the Fence"
+> football lists, RealGM, The Baseball Cube, Prep Baseball Report and each college's own
+> roster. The method and the nulls are in `Hickory Grove Christian - Sports - Varsity Roster
+> Cross-Reference 2026.md`. This is the designated provenance file for the *Power 4 commits*
+> and *Division I commits* Compare rows (`src/data/metricValues.ts`) and for the College
+> Pipeline card (`src/data/sportsPrograms/hickory-grove-christian.ts`). It supersedes the
+> "1c — College Pipeline" section of `Hickory Grove Christian - Sports - Redesign Research
+> 2026.md`.
+>
+> **Level classification is by hand:** Power 4 = SEC / Big Ten / ACC / Big 12 only. Counts
+> are distinct athletes, and they are a documented minimum. The school publishes no
+> all-sport signing list and no signing-day posts were found on hgchristian.org.
+>
+> **Standard applied (same as Cannon, Davidson Day, Covenant Day and Carmel Christian):** the
+> card counts documented commitments to college athletics at any level. D2, D3, NAIA and
+> junior college count. "Scholarship" is never claimed. A junior college is listed at the
+> `'D3'` tier with `conf: 'NJCAA'` for want of an NJCAA level in the card's scale.
+>
+> **Graduate test:** an athlete counts for Hickory Grove only if they finished high school
+> there. Evidence is the athlete's senior season on the HGCS MaxPreps roster and the college
+> roster's "High School / Last School" line. Every row below passes both.
+
+## Sources
+- MaxPreps Hickory Grove Christian rosters, 2023-24 → 2026-27 (21 sport pages × 4 seasons):
+ https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/
+ - Baseball 2023-24 (Sr.: Barozzino, Vanhook): https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/baseball/23-24/roster/
+ - Baseball 2024-25 (Sr.: Cabbage, Pelow, Green, Johnson): https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/baseball/24-25/roster/
+ - Football 2023-24 (Sr.: Dukes): https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/football/23-24/roster/
+- HighSchoolOT NC baseball recruiting tracker (Barozzino → Appalachian State, Class of 2024,
+ Division I; Cabbage → UNC Wilmington and Green → UNC Asheville, Class of 2025, Division I;
+ Vanhook → Gaston College, Junior College/NAIA):
+ https://www.highschoolot.com/story/north-carolina-high-school-baseball-recruiting-tracker/21296816/
+- HighSchoolOT, "Building the Fence: Class of 2024 in-state football commits" (Dukes,
+ cornerback, Hickory Grove Christian, under Division I FCS):
+ https://www.highschoolot.com/story/building-the-fence-class-of-2024-in-state-football-commits/20968251/
+- Prep Baseball Report, "2024 Preview: Hickory Grove Christian" (Barozzino an Appalachian
+ State commit, Cabbage a UNC Wilmington commit, Vanhook a Gaston College commit; via
+ search snippet):
+ https://www.prepbaseballreport.com/news/nc/2024-preview--hickory-grove-christian
+- Prep Baseball Report, 2025 NC preview (Johnson → ETSU, Pelow → Mars Hill; via search
+ snippet, the page 403s): https://www.prepbaseballreport.com/news/NC/2025-nc-high-school-previews--volume-i
+- The Baseball Cube, Hickory Grove Christian alumni (read in Chrome; lists Johnson at
+ Wingate, Green at UNC Asheville, Barozzino at Appalachian State):
+ https://thebaseballcube.com/content/hs_team/11709/
+- Appalachian State baseball, Conner Barozzino bio (Hometown Cornelius, N.C.; High School
+ Hickory Grove Christian): https://appstatesports.com/sports/baseball/roster/conner-barozzino/9815
+- North Carolina Central football, Jahzir Dukes bio (Defensive Back; Charlotte, N.C.; High
+ School Hickory Grove Christian School): https://nccueaglepride.com/sports/football/roster/jahzir-dukes/9520
+- UNC Wilmington baseball roster (Davis Cabbage, So., Huntersville, N.C., Hickory Grove):
+ https://uncwsports.com/sports/baseball/roster
+- UNC Asheville baseball roster (Ben Green, INF/RHP, Fr., Matthews, N.C., Last School Hickory
+ Grove Christian HS): https://uncabulldogs.com/sports/baseball/roster
+- Wingate baseball roster (Brady Johnson, P, L/L, Fr., Charlotte, N.C., Hickory Grove HS):
+ https://wingatebulldogs.com/sports/baseball/roster
+- Mars Hill University, 2026 Baseball Night program (25 Von Pelow, C, Fr., Kannapolis,
+ N.C./Hickory Grove): https://www.mhu.edu/wp-content/uploads/2026/01/2026-01-Baseball-Night-Program.pdf
+- Gaston College baseball roster 2024-25 (32 Colby Vanhook, P, Fr., Concord, NC / Hickory
+ Grove Christian): https://gcrhinos.com/sports/bsb/2024-25/roster
+- East Tennessee State baseball rosters, 2025 and current (no Brady Johnson):
+ https://etsubucs.com/sports/baseball/roster
+
+## Class of 2026 — 0 found
+No Class of 2026 commitment was found in any source (see the cross-reference file for the
+14 football, 3 baseball, 2 boys basketball, 2 girls basketball, 3 boys soccer, 1 girls
+soccer, 2 softball and 4 volleyball seniors searched).
+
+## Class of 2025 — 4
+
+| Athlete | Sport | College | Conf | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Davis Cabbage | Baseball | UNC Wilmington | CAA | D1 | UNCW roster; HighSchoolOT tracker |
+| Ben Green | Baseball | UNC Asheville | Big South | D1 | UNC Asheville roster; HighSchoolOT tracker |
+| Brady Johnson | Baseball | Wingate | SAC | D2 | Wingate roster; The Baseball Cube |
+| Von Pelow | Baseball | Mars Hill | SAC | D2 | Mars Hill 2026 program; PBR 2025 preview |
+
+**Changed row: Brady Johnson is Wingate (D2), not ETSU (D1).** The previous card carried
+"East Tennessee State, SoCon, D1" from a single PBR search snippet marked TO VERIFY. ETSU's
+2025 and current rosters do not list him; Wingate's current roster lists him as a freshman
+left-handed pitcher from Charlotte and Hickory Grove HS, and The Baseball Cube agrees. The
+card shows the college he went to out of the school. Whether he first committed to ETSU and
+changed is not published, so the ETSU line is dropped rather than carried as a transfer.
+
+## Class of 2024 — 3
+
+| Athlete | Sport | College | Conf | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Conner Barozzino | Baseball | Appalachian State | Sun Belt | D1 | App State roster bio; HighSchoolOT tracker; PBR 2024 preview |
+| Jahzir Dukes | Football | North Carolina Central | MEAC | D1 | NCCU roster bio; HighSchoolOT "Building the Fence" 2024 (Division I FCS) |
+| Colby Vanhook | Baseball | Gaston College | NJCAA | D3 (junior college) | Gaston College 2024-25 roster; HighSchoolOT tracker; PBR 2024 preview |
+
+**New rows:** Barozzino and Dukes. **Corrected row:** Vanhook was `conf: 'Region 10',
+level: 'D2'`; the junior-college convention (Cannon, Covenant Day) is `conf: 'NJCAA',
+level: 'D3'`, with a `rosterNote` sentence saying so.
+
+Transfers or moves noted: Barozzino is a junior at Appalachian State in 2026; Dukes a
+sophomore defensive back at NCCU. Neither has moved.
+
+## Totals → app metric values
+
+| | Before (card) | After |
+|---|---|---|
+| Committed to college athletics | 5 | **7** |
+| NCAA Division I | 3 | **4** (Barozzino, Dukes, Cabbage, Green) |
+| Power 4 | 0 | **0** |
+
+By sport: Baseball 6, Football 1.
+
+Compare rows: `p4-commits-2426` **0 → 0**; `d1-commits-2426` **3 → 4**.
+`seniors-committed` unchanged at **0** (see `… - College Commitments Class of 2027.md`).
+
+## Class of 2027 — verbal appendix
+None found as of 2026-11-09. The early signing period opens 2026-11-11; re-run the
+current-senior pass after it.
+
+## Excluded
+
+| Lead | Source | Why |
+|---|---|---|
+| Brady Johnson → East Tennessee State | PBR 2025 preview snippet | Not on ETSU's rosters; on Wingate's (row changed, above) |
+| Zavien Dillingham → Valley Forge ('24) | RealGM | Not on HGCS's 2023-24 boys basketball roster (no seniors that season); fails the graduate test |
+| Drew Lanzo (UNCW), Kameron Miller (App State), Cole Nelson (UNCW), Carson Cabbage (Walters State CC → South Florida), Maddox Cabbage (Louisburg), Trig Browning (Limestone) | The Baseball Cube | College careers begin 2024 or earlier: Class of 2023, outside the window; none is a senior on the 2023-24 HGCS roster |
+| Jordan Little (East Carolina → Virginia Tech) | The Baseball Cube | College career from 2022; outside the window |
+| Anthony Hawkins Jr. ('25, track/football) | NCSA profile | 2023–25 NCISAA shot put and discus champion; no college commitment published and no college track roster lists him |
 
 
 ---
@@ -34,6 +169,14 @@ PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming an
 girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
+
+## Sweep record (2026-11-09, `/athlete-commits hickory-grove-christian`)
+Re-checked during the graduate pass: the 18 HighSchoolOT trackers, the "Building the Fence"
+and out-of-state football lists, RealGM's HGCS page (Chrome; no 2027 player with a
+college), The Baseball Cube and PBR's 2026 Region 6 preview. Still no Class of 2027
+commitment. The MaxPreps 2026-27 rosters posted so far hold 9 football, 4 boys soccer and 2
+volleyball seniors; spring rosters are not up. Still provisional until after the
+2026-11-11 signing wave.
 
 ## Confirmed — 0
 
@@ -171,6 +314,11 @@ exact score; the titles themselves are confirmed by the school (S3).
 
 ## 1c — College Pipeline (D1 commits + Power 4 count)
 
+> **Superseded 2026-11-09** by `Hickory Grove Christian - Sports - College Commitments
+> 2024-2026.md` (the verified per-athlete record: 7 committed / 4 D1 / 0 P4) and `Hickory
+> Grove Christian - Sports - Varsity Roster Cross-Reference 2026.md` (method and nulls).
+> Brady Johnson below is at Wingate (D2), not ETSU; Barozzino and Dukes were missing.
+
 **Division I signings/commits, recent (baseball):**
 - **Brady Johnson** (LHP) → **East Tennessee State (ETSU)**, Southern Conference — D1 (S9; via search snippet)
 - **Davis Cabbage** → **UNC Wilmington**, Coastal Athletic Association — D1, Class of 2025 (S7)
@@ -307,6 +455,142 @@ recorded above. The team-title count stays 12.
 
 ---
 
+## Varsity Roster Cross-Reference 2026
+
+*Source file: `Hickory Grove Christian - Sports - Varsity Roster Cross-Reference 2026.md`*
+
+# Hickory Grove Christian School — Sports — Varsity Roster Cross-Reference (2026)
+
+> **Provenance:** Research record written by Claude Code on 2026-11-09 during
+> `/athlete-commits hickory-grove-christian`. It documents *how* the College Pipeline roster
+> was re-checked and *what was searched and found empty*, so a later pass does not redo the
+> work. The athlete-level results are in `Hickory Grove Christian - Sports - College
+> Commitments 2024-2026.md`; this file holds the method and the nulls. It is provenance for
+> the pipeline card, not a card of its own (`src/lib/metrics.ts` folds it onto the research
+> dossier via `/roster cross-reference/i`).
+>
+> **Names policy:** only athletes with a documented college commitment, and the leads that
+> were ruled out, are named. Current students and graduates without a commitment are
+> recorded as counts.
+
+## Result in one line
+
+5 → **7** committed, 3 → **4** Division I, Power 4 **0** (unchanged). Two Class of 2024
+Division I athletes the card never had: Conner Barozzino (baseball, Appalachian State) and
+Jahzir Dukes (football, North Carolina Central). One D1 row is corrected down: Brady Johnson
+is at Wingate (D2), not ETSU. Vanhook's junior college is relabelled to the NJCAA
+convention. Class of 2026: none found in any sport.
+
+## Scope
+
+Every varsity sport on MaxPreps' HGCS school page: baseball, boys and girls basketball,
+boys and girls cross country, field hockey, football, boys and girls golf, boys and girls
+soccer, softball, boys and girls swimming, boys and girls tennis, boys and girls track &
+field, volleyball, boys volleyball and wrestling. HGCS fields **no lacrosse**, so LaxNumbers
+did not apply.
+
+Depth by tier:
+- **Full per-name cross-reference** (rosters + commitment database + college roster):
+ baseball, football, boys basketball.
+- **Rosters + HighSchoolOT tracker + grouped searches:** girls basketball, boys and girls
+ soccer, softball, volleyball.
+- **Tracker + grouped searches only (no roster published):** track & field, cross country
+ after 2023-24, swimming, tennis, golf, wrestling.
+
+## Step 1 — the school's own pages (read 2026-11-09)
+
+`hgchristian.org/athletics-home`, `/fall-sports`, `/winter-sports`, `/spring-sports` and
+`/athletics/records-and-titles` (Finalsite; curl works). **None names a college signee or
+links a signing post**; `/news` returns 404 and no athletics news board was found. A search
+for HGCS signing-day coverage found none. The school publishes no all-sport commitment
+list.
+
+## Step 2 — MaxPreps rosters by season
+
+`https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/<sport>/<yy-yy>/roster/`,
+path form, browser UA. 21 sport slugs × 4 seasons (23-24 → 26-27) = 84 pages; field hockey
+404s in every season and boys soccer 23-24 404s.
+
+Rosters with data: baseball (23-24 → 25-26), boys basketball (23-24 → 25-26), girls
+basketball (23-24 → 25-26), football (all four), boys soccer (24-25 → 26-27), girls soccer
+(23-24 → 25-26), softball (24-25, 25-26), volleyball (all four), cross country (23-24 only).
+**Empty in every season:** golf (both), swimming (both), tennis (both), track & field
+(both), boys volleyball, wrestling. Spring 26-27 rosters are not posted yet.
+
+Seniors (`Sr.`) by graduating class:
+- **Class of 2024 (2023-24):** football 13, girls soccer 6, girls basketball 4, baseball 3,
+ cross country 3, volleyball 1 (several two-sport athletes).
+- **Class of 2025 (2024-25):** football 11, baseball 5, girls soccer 4, volleyball 4, boys
+ basketball 3, girls basketball 1, softball 1.
+- **Class of 2026 (2025-26):** football 14, volleyball 4, baseball 3, boys soccer 3, boys
+ basketball 2, girls basketball 2, softball 2, girls soccer 1.
+- **Class of 2027 (2026-27, fall/winter posted):** football 9, boys soccer 4, volleyball 2.
+
+## Step 3 — cross-reference
+
+**HighSchoolOT trackers.** All 18 per-sport trackers, the three "Building the Fence"
+in-state football pages and the three out-of-state roundups (hub:
+https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/).
+HGCS hits:
+- Baseball: Barozzino (2024, Division I, Appalachian State), Vanhook (Junior College,
+ Gaston College), Cabbage and Green (2025, Division I).
+- Football, Class of 2024 in-state: Dukes (cornerback, Division I FCS). The college
+ headings on that page are logos, so the college comes from NCCU's roster.
+
+There are no HGCS hits in the basketball, soccer, softball, volleyball, track, swimming,
+tennis, golf or wrestling trackers, and none in any Class of 2026 list.
+
+**RealGM** (Chrome): https://basketball.realgm.com/highschool/teams/7170/Hickory-Grove-Christian-School-NC/players.
+One player in window: Zavien Dillingham (2024, Valley Forge), ruled out. 2025 and 2026
+graduates: none listed.
+
+**The Baseball Cube** (Chrome; 403 to curl): https://thebaseballcube.com/content/hs_team/11709/.
+In window: Barozzino (App State), Green (UNC Asheville), Johnson (Wingate). Seven older
+alumni (Class of 2023 and earlier) are excluded.
+
+**College rosters checked (graduate test):** Appalachian State baseball (Barozzino bio),
+NCCU football (Dukes bio), UNC Wilmington baseball (Cabbage), UNC Asheville baseball
+(Green), Wingate baseball current and 2025 (Johnson), ETSU baseball current and 2025
+(Johnson absent), Mars Hill 2026 Baseball Night program (Pelow; the athletics roster URL
+404s), Gaston College baseball 2024-25 and 2025-26 (Vanhook).
+
+**Other sources:** Prep Baseball Report 2024 HGCS preview and 2025 NC preview (search
+snippets; the pages 403). PBR's 2026 Region 6 preview lists HGCS with no commitment shown.
+An NCSA profile for Anthony Hawkins Jr. shows no commitment.
+
+## Ruled out
+
+| Lead | Source | Why |
+|---|---|---|
+| Brady Johnson → East Tennessee State ('25) | PBR 2025 preview snippet | Not on ETSU's rosters; on Wingate's as a freshman (row changed to Wingate) |
+| Zavien Dillingham → Valley Forge ('24) | RealGM | Not on HGCS's 2023-24 boys basketball roster |
+| Lanzo, K. Miller, Nelson, Carson and Maddox Cabbage, Browning, J. Little | The Baseball Cube | Class of 2023 or earlier; outside the window |
+
+## Nulls (searched, nothing found)
+
+- **Football** 2024–26 (13 + 11 + 14 seniors): HighSchoolOT in-state and out-of-state lists,
+ grouped searches. Only Dukes.
+- **Baseball** 2024–26 (3 + 5 + 3 seniors): HighSchoolOT, PBR, The Baseball Cube, grouped
+ searches. The three Class of 2026 seniors have no published commitment.
+- **Boys basketball** 2025–26 (3 + 2 seniors): RealGM, HighSchoolOT, grouped searches.
+- **Girls basketball** (4 + 1 + 2 seniors), **girls soccer** (6 + 4 + 1), **boys soccer**
+ (3 in 2026), **softball** (1 + 2), **volleyball** (1 + 4 + 4): HighSchoolOT trackers and
+ grouped searches; none.
+- **Track & field:** Anthony Hawkins Jr. ('25), a multiple NCISAA shot put/discus champion,
+ has no published college commitment; a college-roster search found none.
+
+## Unchecked (could not be retrieved)
+
+- **Track & field, swimming, tennis, golf and wrestling rosters**, all seasons (empty on
+ MaxPreps), and **cross country** after 2023-24. Only the statewide trackers and searches
+ cover these sports.
+- **Softball 2023-24** roster (empty on MaxPreps).
+- **The school's own signing announcements**, if any exist off its website (social media
+ is not read).
+
+
+---
+
 ## Wells Fargo Cup Standings 2020-2026
 
 *Source file: `Hickory Grove Christian - Sports - Wells Fargo Cup Standings 2020-2026.md`*
@@ -423,16 +707,25 @@ Dropped: none. No other sport reached a state final in these six seasons.
 - http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_XC_Championships_2024/
 - https://admin.ncisaa.org/uploads/Docs/NCISAA%20D2%20FInal%20Results.pdf
 - https://admin.ncisaa.org/uploads/NCISAA%20D2%20Results.pdf
+- https://appstatesports.com/sports/baseball/roster/conner-barozzino/9815
 - https://archives.ncisaa.org/index.php?sport=1&years=2020-2021
 - https://archives.ncisaa.org/index.php?sport=1&years=2021-2022
 - https://archives.ncisaa.org/index.php?sport=22&years=2020-2021
 - https://archives.ncisaa.org/index.php?sport=22&years=2022-2023
 - https://archives.ncisaa.org/index.php?sport=22&years=2023-2024
 - https://archives.ncisaa.org/index.php?sport=22&years=2024-2025
+- https://basketball.realgm.com/highschool/teams/7170/Hickory-Grove-Christian-School-NC/players
 - https://en.wikipedia.org/wiki/Hickory_Grove_Christian_School
 - https://en.wikipedia.org/wiki/Trevin_Parks
+- https://etsubucs.com/sports/baseball/roster
+- https://gcrhinos.com/sports/bsb/2024-25/roster
 - https://nc.milesplit.com/meets/503458-ncisaa-state-xc-championships-2022/results/861201/raw
+- https://nccueaglepride.com/sports/football/roster/jahzir-dukes/9520
 - https://resources.finalsite.net/images/v1790771210/hgchristianorg/l6paia83bjrvwh9kpm20/2026-2027SchoolProfile.pdf
+- https://thebaseballcube.com/content/hs_team/11709/
+- https://uncabulldogs.com/sports/baseball/roster
+- https://uncwsports.com/sports/baseball/roster
+- https://wingatebulldogs.com/sports/baseball/roster
 - https://www.hgchristian.org/athletics
 - https://www.hgchristian.org/athletics-home`
 - https://www.hgchristian.org/athletics/new-coaches-and-teams
@@ -441,11 +734,18 @@ Dropped: none. No other sport reached a state final in these six seasons.
 - https://www.hgchristian.org/fall-sports
 - https://www.hgchristian.org/spring-sports
 - https://www.hgchristian.org/winter-sports
+- https://www.highschoolot.com/story/building-the-fence-class-of-2024-in-state-football-commits/20968251/
 - https://www.highschoolot.com/story/grace-christian-of-sanford-wins-ncisaa-3a-baseball-title-sweeps-hickory-grove-christian/21457257/
 - https://www.highschoolot.com/story/hickory-grove-christian-dominates-ncisaa-d2-boys-track-field-championship/22010600/
 - https://www.highschoolot.com/story/north-carolina-high-school-baseball-recruiting-tracker/21296816/
+- https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/
+- https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/<sport>/<yy-yy>/roster/`
 - https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/athletes/brady-johnson/?careerid=mt9htujl6puaa
+- https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/baseball/23-24/roster/
+- https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/baseball/24-25/roster/
+- https://www.maxpreps.com/nc/charlotte/hickory-grove-christian-lions/football/23-24/roster/
+- https://www.mhu.edu/wp-content/uploads/2026/01/2026-01-Baseball-Night-Program.pdf
 - https://www.ncisaa.org/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/past-champions-2024-2025/
@@ -454,3 +754,4 @@ Dropped: none. No other sport reached a state final in these six seasons.
 - https://www.ncisaa.org/recognition/wells-fargo-cup/past-champions/past-champions-2022-2023/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/pastchampions2023-2024/
 - https://www.prepbaseballreport.com/news/NC/2025-nc-high-school-previews--volume-i
+- https://www.prepbaseballreport.com/news/nc/2024-preview--hickory-grove-christian

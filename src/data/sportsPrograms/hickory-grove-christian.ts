@@ -202,36 +202,44 @@ export const hickoryGroveChristian: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      'Three Division I baseball commits across the classes of 2024–26 — all to mid-major conferences, none Power 4.',
+      'Seven documented college commitments across the classes of 2024–26 — four of them Division I, in baseball and football, and none Power 4.',
     subhead:
-      'Built from HighSchoolOT\'s NC baseball recruiting tracker and a PrepBaseballReport preview; division labels were added by the researcher from each college\'s NCAA status.',
+      'Built from Hickory Grove’s varsity rosters and each college’s own roster; the school publishes no list of its college signees.',
     funnel: [
-      { label: 'Committed to college athletics', hint: '(all divisions, baseball)', count: '5', width: 1, shade: 'pale' },
-      { label: 'NCAA Division I', hint: '(mid-major)', count: '3', width: 0.6, shade: 'mid' },
+      { label: 'Committed to college athletics', hint: '(all divisions, 2024–26)', count: '7', width: 1, shade: 'pale' },
+      { label: 'NCAA Division I', hint: '(mid-major)', count: '4', width: 0.57, shade: 'mid' },
       { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', count: '0', width: 0.04, shade: 'full' },
     ],
     funnelNote:
-      'Every recent college-athletics commit the research located is in baseball. All three Division I commits are to mid-major conferences (SoCon, CAA, Big South); there are no Power 4 commits in this window. Treat the tally as a floor — a school-published all-sport commit list was not found.',
+      'Three of the four Division I commits are baseball players — Conner Barozzino (’24) at Appalachian State in the Sun Belt, and Davis Cabbage and Ben Green (’25) at UNC Wilmington and UNC Asheville. The fourth is a football player, Jahzir Dukes (’24), a defensive back at North Carolina Central in the MEAC. There are no Power 4 commits in this window.',
     sportBars: [
-      { sport: 'Baseball', count: 3, width: 1 },
+      { sport: 'Baseball', count: 6, width: 1 },
+      { sport: 'Football', count: 1, width: 0.17 },
     ],
     realityCheck:
-      'HGCS\'s recruiting footprint in this window is baseball, the program with two of its recent state titles. No basketball, football or other-sport college commit surfaced for 2024–26, and no all-sport "next level" page is published, so other sports may send commits the research could not see.',
+      'Baseball — the program behind two of HGCS’s recent state titles — accounts for six of the seven commits, reaching Division II at Wingate and Mars Hill and junior college at Gaston College as well as Division I. The school publishes no all-sport signing list, so the count is a documented minimum.',
     roster: [
       { cls: "'25", name: 'Davis Cabbage', sport: 'Baseball', college: 'UNC Wilmington', conf: 'CAA', level: 'D1' },
       { cls: "'25", name: 'Ben Green', sport: 'Baseball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
-      { cls: "'25", name: 'Brady Johnson', sport: 'Baseball', college: 'East Tennessee State', conf: 'SoCon', level: 'D1' },
+      { cls: "'25", name: 'Brady Johnson', sport: 'Baseball', college: 'Wingate', conf: 'SAC', level: 'D2' },
       { cls: "'25", name: 'Von Pelow', sport: 'Baseball', college: 'Mars Hill', conf: 'SAC', level: 'D2' },
-      { cls: "'24", name: 'Colby Vanhook', sport: 'Baseball', college: 'Gaston College', conf: 'Region 10', level: 'D2' },
+      { cls: "'24", name: 'Conner Barozzino', sport: 'Baseball', college: 'Appalachian State', conf: 'Sun Belt', level: 'D1' },
+      { cls: "'24", name: 'Jahzir Dukes', sport: 'Football', college: 'North Carolina Central', conf: 'MEAC', level: 'D1' },
+      { cls: "'24", name: 'Colby Vanhook', sport: 'Baseball', college: 'Gaston College', conf: 'NJCAA', level: 'D3' },
     ],
     rosterNote:
-      'Level labels (D1 / D2) and conferences were added by the researcher from each college\'s NCAA status. Brady Johnson → ETSU is from a PrepBaseballReport preview surfaced via search (the page 403s on direct fetch), so it carries a TO VERIFY. P4 = SEC · Big Ten · ACC · Big 12.',
+      'Each row is the college the athlete went to out of Hickory Grove, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Colby Vanhook’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale.',
     sources: [
-      { label: 'HighSchoolOT — NC baseball recruiting tracker (Cabbage, Green, Vanhook)', url: RECRUIT_TRACKER },
-      {
-        label: 'PrepBaseballReport — 2025 NC preview (Johnson, Pelow) — via search snippet',
-        url: 'https://www.prepbaseballreport.com/news/NC/2025-nc-high-school-previews--volume-i',
-      },
+      { label: 'HighSchoolOT — NC baseball recruiting tracker (Barozzino, Cabbage, Green, Vanhook)', url: RECRUIT_TRACKER },
+      { label: 'HighSchoolOT — Building the Fence: Class of 2024 in-state football commits (Dukes)', url: 'https://www.highschoolot.com/story/building-the-fence-class-of-2024-in-state-football-commits/20968251/' },
+      { label: 'Appalachian State — baseball roster (Conner Barozzino)', url: 'https://appstatesports.com/sports/baseball/roster/conner-barozzino/9815' },
+      { label: 'North Carolina Central — football roster (Jahzir Dukes)', url: 'https://nccueaglepride.com/sports/football/roster/jahzir-dukes/9520' },
+      { label: 'UNC Wilmington — baseball roster (Davis Cabbage)', url: 'https://uncwsports.com/sports/baseball/roster' },
+      { label: 'UNC Asheville — baseball roster (Ben Green)', url: 'https://uncabulldogs.com/sports/baseball/roster' },
+      { label: 'Wingate — baseball roster (Brady Johnson)', url: 'https://wingatebulldogs.com/sports/baseball/roster' },
+      { label: 'Mars Hill — 2026 Baseball Night program (Von Pelow)', url: 'https://www.mhu.edu/wp-content/uploads/2026/01/2026-01-Baseball-Night-Program.pdf' },
+      { label: 'Gaston College — baseball roster 2024–25 (Colby Vanhook)', url: 'https://gcrhinos.com/sports/bsb/2024-25/roster' },
+      { label: 'MaxPreps — Hickory Grove Christian varsity rosters', url: MAXPREPS },
     ],
   },
 
