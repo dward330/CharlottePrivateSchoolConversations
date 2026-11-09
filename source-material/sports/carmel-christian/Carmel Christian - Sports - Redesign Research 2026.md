@@ -80,6 +80,12 @@ No football, lacrosse, or track on the current offered list.
 
 ## Card 3 — College Pipeline
 
+> **Superseded 2026-11-09** by `Carmel Christian - Sports - College Commitments 2024-2026.md`
+> (the athlete-level record: 20 committed / 6 D1 / 1 Power 4) and `Carmel Christian - Sports
+> - Varsity Roster Cross-Reference 2026.md` (method and nulls). The section below is kept as
+> the earlier pass. Two of its claims no longer hold: Jordan Buzzard finished high school at
+> East Mecklenburg, and Power 4 is 1 (Gabe Avram '24, South Carolina tennis).
+
 Definitive source: the athletics "Next Steps" roster (S3), all signees by year.
 
 **Division I 2024–26 (5, all basketball):**
