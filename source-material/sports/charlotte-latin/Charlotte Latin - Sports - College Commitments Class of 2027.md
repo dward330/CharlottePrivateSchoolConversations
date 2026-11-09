@@ -32,5 +32,15 @@ yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 David Sammons (Cal) is a junior (Class of 2028) and is not counted. TopDrawerSoccer lists one
 2027 girls soccer player with no commitment.
 
+## Leads — not counted (updated 2026-11-08, `/athlete-commits` graduate refresh)
+| Athlete | Sport | College | Level | Evidence | Why not a row |
+|---|---|---|---|---|---|
+| Adelaide Rhodes | Girls Lacrosse | Claremont-Mudd-Scripps | D3 | LaxNumbers girls recruits, Class 2027 (https://laxnumbers.com/team_info.php?y=2027&t=22580&s=2); on Latin's MaxPreps girls lacrosse rosters 2024-25 and 2025-26 as "Addie Rhodes" | One reader-submitted source only. Re-check against Latin's November 2026 and spring 2027 signing posts. |
+
+Also swept on 2026-11-08: RealGM (no 2027 grads with a college listed), LaxNumbers boys 2027
+(no recruits) and the 20 HighSchoolOT tracker pages (no Class of 2027 Latin entry).
+Latin's November 2026 post is the next source to check. Latin holds three events a year,
+in November, February and April.
+
 ## Totals for the `seniors-committed` row (as of 2026-11-08)
 **1 confirmed** (value `'1'`).
