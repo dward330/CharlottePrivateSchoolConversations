@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/charlotte-catholic-commits-2026
-prs: []
+prs: [458]
 ---
 
 # Charlotte Catholic College Pipeline — verified 2024–26 refresh
