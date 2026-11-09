@@ -25,6 +25,14 @@ girls basketball previews, RealGM (Chrome) where a team page was reachable, and 
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 
+## Sweep record (2026-11-09, `/athlete-commits carmel-christian`)
+Re-checked during the varsity-roster cross-reference. Sources: all 18 HighSchoolOT trackers
+(no Carmel Class of 2027 entry), RealGM in Chrome (four 2027 players, none with a college), the MaxPreps 26-27 rosters
+(19 seniors across boys basketball, boys soccer, girls tennis and volleyball), the athletics
+WordPress posts and the main-site news slider (no Class of 2027 post). Still **0**, still
+provisional: the early signing period opens 2026-11-11, and the school published its Class
+of 2026 fall signing post on 2025-11-17. Re-run after this year's equivalent post.
+
 ## Confirmed — 0
 
 ## Leads

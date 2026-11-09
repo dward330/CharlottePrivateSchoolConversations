@@ -195,60 +195,69 @@ export const carmelChristian: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      'Five Division I commits across the classes of 2024–26 — every one in basketball, and every one a mid-major. Zero Power 4.',
+      '20 documented college commitments across the classes of 2024–26 — six Division I and one Power 4, a South Carolina tennis signee.',
     subhead:
-      'Built from the school’s official "Next Steps" college-commit roster; division and conference labels were added by the researcher from each college’s NCAA status.',
+      'Built from the school’s own "Next Steps" list of college signees and its signing-day posts; division and conference labels were added by the researcher from each college’s NCAA or NAIA status.',
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, 2024–26)',
-        count: '12+',
+        count: '20',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(all basketball)', count: '5', width: 0.42, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(basketball and tennis)', count: '6', width: 0.3, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '0',
-        width: 0.04,
+        count: '1',
+        width: 0.05,
         shade: 'full',
       },
     ],
     funnelNote:
-      'All five D1 commits are basketball players who signed with mid-major programs — Big South and Sun Belt. No Carmel signee in this window went to a Power 4 school. Kam Taylor reached the ACC (Florida State) only later through the transfer portal, not as a Carmel commit.',
+      'Four of the six Division I commits are basketball players who signed with mid-major programs in the Big South, Sun Belt and Southern conferences; the other two are tennis players, one of them Carmel’s Power 4 signee, Gabe Avram (’24), at South Carolina in the SEC. Kam Taylor reached the ACC (Florida State) only later, through the transfer portal, not as a Carmel commit.',
     sportBars: [
-      { sport: 'Basketball', count: 5, width: 1 },
+      { sport: 'Basketball', count: 4, width: 1 },
+      { sport: 'Tennis', count: 2, width: 0.5, p4Width: 0.25 },
     ],
     realityCheck:
-      'Outside basketball, Carmel’s recent signees land overwhelmingly in NCAA Division II and III: baseball to Lander (D2), Ferrum (D3) and USC Aiken (D2); basketball also to Fayetteville State (D2) and Johnson & Wales (D3); volleyball to Winston-Salem State (D2); plus golf, tennis and dance signees. A D2/D3 offer is the common outcome, with basketball the one sport that reliably produces D1.',
+      'Most Carmel signees land in NCAA Division II and III: baseball to Lander, USC Aiken, Bluefield State and Ferrum; basketball to Fayetteville State and Johnson & Wales, and to WVU Tech in the NAIA; golf to North Greenville and Randolph-Macon; volleyball to Winston-Salem State. Tennis is the program’s second pipeline — six signees in the classes of 2024 and 2025, from the SEC to Johns Hopkins. The school’s list also includes a dance-team signee, who is not counted here as an athletic commitment.',
     rankedRecruits:
       'Cade Tyson (’22) was 2022 NC Mr. Basketball and left as the program’s recruiting headliner (Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine / Portsmouth invitee). Jaeden Mustaf, all-state at Carmel and son of ex-NBA Jerrod Mustaf, led the 2022–23 team to 28–4 and the state final before Georgia Tech → Indiana. Cody Peck (6\'10", four-star, top-100 → Dayton) is often linked to Carmel but played only two seasons there and graduated elsewhere — he is not a Carmel commit.',
     roster: [
-      { cls: "'26", name: 'Jordan Buzzard', sport: 'Basketball', college: 'Coastal Carolina', conf: 'Sun Belt', level: 'D1' },
       { cls: "'26", name: 'Logan Johnson', sport: 'Basketball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
-      { cls: "'25", name: 'Bryce Slay', sport: 'Basketball', college: 'Marshall', conf: 'Sun Belt', level: 'D1' },
-      { cls: "'25", name: 'Braylen Bowman', sport: 'Basketball', college: 'UNC Greensboro', conf: 'Big South', level: 'D1' },
-      { cls: "'24", name: 'Kam Taylor', sport: 'Basketball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
       { cls: "'26", name: 'Caden Tarr', sport: 'Baseball', college: 'Lander', conf: 'Peach Belt', level: 'D2' },
+      { cls: "'26", name: 'James Wood', sport: 'Basketball', college: 'WVU Tech', conf: 'NAIA', level: 'NAIA' },
+      { cls: "'25", name: 'Bryce Slay', sport: 'Basketball', college: 'Marshall', conf: 'Sun Belt', level: 'D1' },
+      { cls: "'25", name: 'Braylen Bowman', sport: 'Basketball', college: 'UNC Greensboro', conf: 'Southern', level: 'D1' },
+      { cls: "'25", name: 'Mark Agafonov', sport: 'Tennis', college: 'Queens (Charlotte)', conf: 'ASUN', level: 'D1' },
       { cls: "'25", name: 'Landon Boyd', sport: 'Baseball', college: 'USC Aiken', conf: 'Peach Belt', level: 'D2' },
       { cls: "'25", name: 'Chandler Kennedy', sport: 'Basketball', college: 'Fayetteville State', conf: 'CIAA', level: 'D2' },
-      { cls: "'25", name: 'Jazmyne Slay', sport: 'Volleyball', college: 'Winston-Salem State', conf: 'CIAA', level: 'D2' },
+      { cls: "'25", name: 'David Rodriguez', sport: 'Baseball', college: 'Bluefield State', conf: 'CIAA', level: 'D2' },
+      { cls: "'25", name: 'Sienna Jauch', sport: 'Golf', college: 'North Greenville', conf: 'Conference Carolinas', level: 'D2' },
+      { cls: "'25", name: 'Noah Daniels', sport: 'Tennis', college: 'Anderson (SC)', conf: 'SAC', level: 'D2' },
+      { cls: "'25", name: 'Christopher Grace', sport: 'Tennis', college: 'Anderson (SC)', conf: 'SAC', level: 'D2' },
       { cls: "'25", name: 'Anderson Rider', sport: 'Baseball', college: 'Ferrum', conf: 'ODAC', level: 'D3' },
-      { cls: "'25", name: 'Miles Leaks', sport: 'Basketball', college: 'Johnson & Wales', conf: 'GNAC', level: 'D3' },
+      { cls: "'25", name: 'Miles Leaks', sport: 'Basketball', college: 'Johnson & Wales', conf: 'C2C', level: 'D3' },
+      { cls: "'25", name: 'Ben Price', sport: 'Tennis', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
+      { cls: "'24", name: 'Gabe Avram', sport: 'Tennis', college: 'South Carolina', conf: 'SEC', level: 'P4' },
+      { cls: "'24", name: 'Kam Taylor', sport: 'Basketball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
+      { cls: "'24", name: 'Jazmyne Slay', sport: 'Volleyball', college: 'Winston-Salem State', conf: 'CIAA', level: 'D2' },
+      { cls: "'24", name: 'Owen Akers', sport: 'Tennis', college: 'Johns Hopkins', conf: 'Centennial', level: 'D3' },
+      { cls: "'24", name: 'Cole Bryant', sport: 'Golf', college: 'Randolph-Macon', conf: 'ODAC', level: 'D3' },
     ],
     rosterNote:
-      'Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12. The D2/D3 rows are a representative sample of the non-D1 signees on the "Next Steps" roster, not the full list.',
+      'Every row is from the school’s own "Next Steps" signee list or its signing-day and news posts; level labels (P4 / D1 / D2 / D3 / NAIA) and conferences were added by the researcher from each college’s status. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2026 rows are the signees the school has announced so far; its list for that class is not yet published.',
     sources: [
       { label: 'carmelchristianathletics.org — Next Steps (college commits)', url: NEXT_STEPS },
       {
-        label: 'carmelchristianathletics.org — National Signing Day (Buzzard, Johnson)',
+        label: 'carmelchristianathletics.org — National Signing Day (Johnson, Tarr)',
         url: 'https://www.carmelchristianathletics.org/cougar-athletics-celebrate-national-signing-day/',
       },
-      {
-        label: 'goccusports.com — Jordan Buzzard signs with Coastal Carolina',
-        url: 'https://goccusports.com/news/2025/11/17/mens-basketball-signs-two-prep-standouts.aspx',
-      },
+      { label: 'carmelchristian.org — James Wood commits to WVU Tech', url: 'https://www.carmelchristian.org/apps/news/show_news.jsp?REC_ID=1030111&id=0' },
+      { label: 'South Carolina — men’s tennis roster (Gabe Avram)', url: 'https://gamecocksonline.com/sports/mten/roster/' },
+      { label: 'HighSchoolOT — NC boys tennis recruiting tracker', url: 'https://www.highschoolot.com/story/north-carolina-high-school-boys-tennis-recruiting-tracker/21296827/' },
     ],
   },
 
