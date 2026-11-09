@@ -225,8 +225,17 @@ function UniName({ name }: { name: string }) {
  * the card title and teaser, and the <details> shell already draws the four
  * registration marks. The body starts at the takeaway sentence.
  */
-export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
+export function NcAdmissionsBody({
+  data,
+  schoolName,
+}: {
+  data: NcAdmissions
+  /** For the rate column's header, "Admit rate from <School name>" — names the
+      school because each row is a university, so "this school" was ambiguous. */
+  schoolName: string
+}) {
   const { t } = useTranslation()
+  const rateLabel = t('tables.ncAdmitRate', { school: schoolName })
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -254,7 +263,7 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
               <th scope="col" role="columnheader" className="cs-th">{t('tables.ncUniversity')}</th>
               <th scope="col" role="columnheader" className="cs-th cs-th-count">{t('tables.ncApplied')}</th>
               <th scope="col" role="columnheader" className="cs-th cs-th-count">{t('tables.ncAccepted')}</th>
-              <th scope="col" role="columnheader" className="cs-th cs-th-rate">{t('tables.ncAdmitRate')}</th>
+              <th scope="col" role="columnheader" className="cs-th cs-th-rate">{rateLabel}</th>
               <th scope="col" role="columnheader" className="cs-th cs-th-5yr">{t('tables.ncFiveYear')}</th>
             </tr>
           </thead>
@@ -274,7 +283,7 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
                 </td>
                 <td role="cell" className="cs-td cs-td-count" data-label={t('tables.ncApplied')}>{u.applied}</td>
                 <td role="cell" className="cs-td cs-td-count" data-label={t('tables.ncAccepted')}>{u.accepted}</td>
-                <td role="cell" className="cs-td cs-td-rate" data-label={t('tables.ncAdmitRate')}>
+                <td role="cell" className="cs-td cs-td-rate" data-label={rateLabel}>
                   {/* A row with no `ratePct` is the PUBLICATION GAP case: it
                       renders its counts and NO bar at all. A zero-width bar
                       would read as a 0% admit rate, which is a different and

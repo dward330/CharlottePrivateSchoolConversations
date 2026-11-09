@@ -286,12 +286,12 @@ function CollegeSupportCardBody({
   program: CollegeSupportProgram
   cardKey: (typeof COLLEGE_SUPPORT_CARDS)[number]['key']
   hasLearningSupport: boolean
-  /** For the counseling roster's mailto subject, "<School name> Inquiry". */
+  /** For the counseling roster's mailto subject ("<School name> Inquiry") and the NC admissions rate header. */
   schoolName: string
 }) {
   switch (cardKey) {
     case 'ncAdmissions':
-      return <NcAdmissionsBody data={program.ncAdmissions!} />
+      return <NcAdmissionsBody data={program.ncAdmissions!} schoolName={schoolName} />
     case 'transcript':
       return <TranscriptBody data={program.transcript!} />
     case 'counseling':
