@@ -189,19 +189,19 @@ export const covenantDay: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      '33 documented college commitments across the classes of 2024–26 — nine Division I, one to a Power 4 program.',
+      '35 documented college commitments across the classes of 2024–26 — ten Division I, one to a Power 4 program.',
     subhead:
       'The signature signing is Emily Eaton ’24, who started every game as a freshman for a top-10 Louisville field hockey team.',
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '33',
+        count: '35',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '9', width: 0.27, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', count: '10', width: 0.29, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
@@ -211,18 +211,19 @@ export const covenantDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'Documented minimums compiled from the school’s six signing/commitment articles. The Class of 2024’s spring signing article names six athletes but only four are recoverable, so early-2024 commits may be missing. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
+      'Documented minimums from the school’s own signing posts, which name every signee in the classes of 2024–26, and from the Lions Beyond CDS lists of alumni playing in college that each team page publishes. Elijah Green ’24 is listed from William Peace’s roster. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
     sportBars: [
       { sport: 'Soccer', count: 9, width: 1 },
       { sport: 'Baseball', count: 7, width: 0.78 },
       { sport: 'Basketball', count: 5, width: 0.56 },
       { sport: 'XC / Track', count: 4, width: 0.44 },
+      { sport: 'Football', count: 3, width: 0.33 },
       { sport: 'Softball', count: 2, width: 0.22 },
       { sport: 'Volleyball', count: 2, width: 0.22 },
       { sport: 'Field Hockey', count: 1, width: 0.11, p4Width: 0.11 },
     ],
     realityCheck:
-      'The pipeline is broad rather than tall: commitments span eleven sports, but the ceiling outside field hockey is D1 mid-major — Louisiana Tech, East Carolina, UNC Charlotte, Queens, Gardner-Webb, Davidson, Wofford, Appalachian State. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.',
+      'The pipeline is broad rather than tall: commitments span eleven sports, but the ceiling outside field hockey is Division I mid-major — Louisiana Tech, East Carolina, UNC Charlotte in softball and football, Appalachian State in basketball and baseball, Queens, Gardner-Webb and Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.',
     rankedRecruits:
       'No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 — 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, signed by a top-10-ranked Louisville program — and 6′9″ forward Michael Marcus Jr ’24, who chose Appalachian State after NC state-level coverage.',
     roster: [
@@ -230,17 +231,19 @@ export const covenantDay: SportsProgram = {
       { cls: "'24", name: 'Michael Marcus Jr', sport: 'Basketball', college: 'Appalachian State', conf: 'Sun Belt', level: 'D1' },
       { cls: "'24", name: 'Robbie Johnson', sport: 'Track & Field', college: 'Western Colorado', conf: 'RMAC', level: 'D2' },
       { cls: "'24", name: 'Colden Welsh', sport: 'XC / Track', college: 'Colorado Christian', conf: 'RMAC', level: 'D2' },
+      { cls: "'24", name: 'Elijah Green', sport: 'Basketball', college: 'William Peace', conf: 'USA South', level: 'D3' },
       { cls: "'24", name: 'Will Goodling', sport: 'Soccer', college: 'Gordon', conf: 'CCC', level: 'D3' },
       { cls: "'24", name: 'Kessler Forrest', sport: 'Soccer', college: 'Messiah', conf: 'MAC', level: 'D3' },
       { cls: "'25", name: 'Hamilton Huitt', sport: 'Tennis', college: 'Queens (Charlotte)', conf: 'ASUN', level: 'D1' },
       { cls: "'25", name: 'Maggie Dirks', sport: 'XC / Track', college: 'Gardner-Webb', conf: 'Big South', level: 'D1' },
-      { cls: "'25", name: 'Grant Gardner', sport: 'Baseball', college: 'Davidson', conf: 'Atlantic 10', level: 'D1' },
+      { cls: "'25", name: 'Grant Gardner', sport: 'Baseball', college: 'Appalachian State', conf: 'Sun Belt', level: 'D1' },
       { cls: "'25", name: 'Shea Stanley', sport: 'Soccer', college: 'Wofford', conf: 'Southern', level: 'D1' },
+      { cls: "'25", name: 'Chris Rivens', sport: 'Football', college: 'UNC Charlotte', conf: 'American', level: 'D1' },
       { cls: "'25", name: 'Landon DeCarlo', sport: 'Lacrosse', college: 'Berry', conf: 'SAA', level: 'D3' },
       { cls: "'25", name: 'Tyler Dennison', sport: 'Football', college: 'Grove City', conf: 'PAC', level: 'D3' },
+      { cls: "'25", name: 'Jakota Hase', sport: 'Football', college: 'Wisconsin Lutheran', conf: 'NACC', level: 'D3' },
       { cls: "'25", name: 'Sean Freace', sport: 'Soccer', college: 'Covenant College', conf: 'CCS', level: 'D3' },
       { cls: "'25", name: 'Everett Macurda', sport: 'Volleyball', college: 'Messiah', conf: 'MAC', level: 'D3' },
-      { cls: "'25", name: 'Chris Rivens', sport: 'Basketball', college: 'Guilford', conf: 'ODAC', level: 'D3' },
       { cls: "'25", name: 'Tyree White', sport: 'Basketball', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
       { cls: "'25", name: 'Ethan Andujar', sport: 'Baseball', college: 'Roanoke', conf: 'ODAC', level: 'D3' },
       { cls: "'25", name: 'Brode Dixon', sport: 'Baseball', college: 'Asbury', conf: 'NAIA', level: 'NAIA' },
@@ -248,8 +251,8 @@ export const covenantDay: SportsProgram = {
       { cls: "'25", name: 'Millie Jones', sport: 'Soccer', college: 'Taylor', conf: 'NAIA', level: 'NAIA' },
       { cls: "'25", name: 'Isaac Snapp', sport: 'Baseball', college: 'Southeastern CC', conf: 'NJCAA', level: 'D3' },
       { cls: "'26", name: 'Jane Neil', sport: 'Soccer', college: 'Louisiana Tech', conf: 'CUSA', level: 'D1' },
-      { cls: "'26", name: 'Ethan Welsh', sport: 'XC / Track', college: 'East Carolina', conf: 'AAC', level: 'D1' },
-      { cls: "'26", name: 'Avery Houseton', sport: 'Softball', college: 'UNC Charlotte', conf: 'AAC', level: 'D1' },
+      { cls: "'26", name: 'Ethan Welsh', sport: 'XC / Track', college: 'East Carolina', conf: 'American', level: 'D1' },
+      { cls: "'26", name: 'Avery Houseton', sport: 'Softball', college: 'UNC Charlotte', conf: 'American', level: 'D1' },
       { cls: "'26", name: 'Brady Johnson', sport: 'Soccer', college: 'Cedarville', conf: 'G-MAC', level: 'D2' },
       { cls: "'26", name: 'Kaitlyn Allen', sport: 'Softball', college: 'Tusculum', conf: 'SAC', level: 'D2' },
       { cls: "'26", name: 'Hunter Kincheloe', sport: 'Baseball', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
@@ -261,7 +264,7 @@ export const covenantDay: SportsProgram = {
       { cls: "'26", name: 'Matthew Dorsey', sport: 'Baseball', college: 'Wake Tech CC', conf: 'NJCAA', level: 'D3' },
     ],
     rosterNote:
-      'Compiled from the school’s own Lions News signing articles (September 2024 through April 2026). Levels and conferences were verified per college by the researcher; the two junior-college signees are listed at the D3 tier for want of an NJCAA level in this table’s scale. Eaton transferred from Louisville to Virginia — also ACC — for fall 2026.',
+      'Compiled from the school’s own Lions News signing articles (September 2024 through April 2026) and its Lions Beyond CDS alumni lists. Each row shows the college the athlete went to out of Covenant Day: Grant Gardner signed with Davidson and enrolled at Appalachian State, and Chris Rivens signed with Guilford for basketball and joined UNC Charlotte’s football roster. Levels and conferences were verified per college by the researcher; the three junior-college signees are listed at the D3 tier for want of an NJCAA level in this table’s scale. Since enrolling, Emily Eaton has transferred from Louisville to Virginia — also ACC — and Michael Marcus Jr from Appalachian State to George Mason.',
     sources: [
       {
         label: 'covenantday.org — 2 student-athletes commit to D1 schools (Eaton, Marcus)',
@@ -276,6 +279,14 @@ export const covenantDay: SportsProgram = {
         url: 'https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/8-cds-students-celebrate-athletic-collegiate-commitments',
       },
       { label: 'gocards.com — Emily Eaton, Louisville roster', url: 'https://gocards.com/sports/field-hockey/roster/emily-eaton/16101' },
+      { label: 'covenantday.org — Football: Lions Beyond CDS', url: 'https://www.covenantday.org/athletics/teams/fall-sports/varsityfootball' },
+      { label: 'covenantday.org — Baseball: Lions Beyond CDS', url: 'https://www.covenantday.org/athletics/teams/spring-sports/varsitybaseball' },
+      { label: 'covenantday.org — 4 spring 2024 signees, 6 in the class', url: 'https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/news/post/6-cds-student-athletes-sign-national-letters-of-intent-1724265198114' },
+      { label: 'William Peace — Elijah Green, men’s basketball', url: 'https://gopeacepacers.com/sports/mens-basketball/roster/elijah-green/4142' },
+      { label: 'Wisconsin Lutheran — 2025 football roster (Jakota Hase)', url: 'https://wlcsports.com/sports/football/roster/2025' },
+      { label: 'Appalachian State — 2026 baseball roster (Grant Gardner)', url: 'https://appstatesports.com/sports/baseball/roster/2026' },
+      { label: 'Charlotte — 2025 football roster (Chris Rivens)', url: 'https://charlotte49ers.com/sports/football/roster/2025' },
+      { label: 'George Mason — adds Michael Marcus Jr. (May 2026)', url: 'https://gomason.com/news/2026/5/6/mens-basketball-george-mason-adds-forward-michael-marcus-jr-to-roster.aspx' },
     ],
   },
 

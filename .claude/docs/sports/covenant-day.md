@@ -1,6 +1,6 @@
 # Covenant Day School — Sports
-> Distilled from 18 source document(s) in `source-material/sports/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
-**Documents:** College Commitments Class of 2027, 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Team Levels (V-JV-MS), Top 100 Recruiting Rankings, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
+> Distilled from 19 source document(s) in `source-material/sports/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-09.
+**Documents:** College Commitments Class of 2027, 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Team Levels (V-JV-MS), Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
 ---
@@ -35,6 +35,15 @@ PrepVolleyball's 2027 watchlist, the Charlotte Observer's 2026-11-03 swimming an
 girls basketball previews, RealGM (Chrome) where a team page was reachable, and the school's
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
+
+## Sweep record (2026-11-09, `/athlete-commits`)
+Re-checked against the varsity-roster cross-reference: 47 Class of 2027 athletes on the
+2026-27 MaxPreps rosters (and as juniors in 2025-26) across football, soccer, field
+hockey, volleyball, girls tennis, baseball, softball, basketball and boys volleyball. No
+public commitment in the 18 HighSchoolOT per-sport trackers, the NC Football News 2027
+pages, TopDrawerSoccer, Prep Baseball Report's 2027 profiles or RealGM. Lions News has no
+fall 2026 signing post (the early signing period opens 2026-11-11). **Still provisional —
+re-run after the November wave.**
 
 ## Confirmed — 0
 
@@ -291,107 +300,181 @@ exceptions.
 
 # Covenant Day School — Sports — College Commitments (2024–2026)
 
-> **Provenance:** Compiled by Claude Code on 2026-08-15 from the school's own Lions
-> News signing/commitment articles, to preserve the hard data behind the *Power 4
-> commits* and *Division I commits* metrics (`src/data/metricValues.ts`). Level
-> classification by hand: **Power 4 = SEC / Big Ten / ACC / Big 12** only. Counts
-> are distinct athletes; **documented minimums** (the Class of 2024's spring signing
-> article lists 6 but only 4 names were recoverable; classes before 2024 are out of
-> window).
+> **Provenance:** First compiled by Claude Code on 2026-08-15 from the school's own Lions
+> News signing articles; **rebuilt 2026-11-09 by `/athlete-commits`** (varsity-roster
+> cross-reference — see `Covenant Day School - Sports - Varsity Roster Cross-Reference
+> 2026.md` for the method, the nulls and the unchecked gaps). It holds the hard data behind
+> the College Pipeline card and the *Power 4 commits* / *Division I commits* Compare rows
+> (`src/data/metricValues.ts`).
+>
+> **Standard applied.** Every row is confirmed on the college's own roster or signing
+> release, or on the school's own signing article / "Lions Beyond CDS" alumni list.
+> **Graduate test:** an athlete counts for Covenant Day only if they finished high school
+> there — each row below is either on the school's senior roster (MaxPreps) or lists
+> Covenant Day as "Last School" on the college's roster. **Power 4 = SEC / Big Ten / ACC /
+> Big 12** only. Counts are distinct athletes. "Scholarship" is never claimed; walk-ons,
+> D3, NAIA and junior college all count. The card shows the **college each athlete went to
+> out of Covenant Day** (Providence Day / Makemson precedent): a signing that was replaced
+> before enrolment shows the college enrolled at, and a later transfer goes in a note.
 
-### Sources
+## Sources
 
-- "2 Student-Athletes Commit to D1 Schools" (2024-09-03):
+**The school's own pages**
+- "2 Student-Athletes Commit to D1 Schools" (posted 2024-09-03; fall 2023 signing day — Eaton, Marcus):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2-student-athletes-commit-to-d1-schools
-- "6 CDS Student-Athletes Sign National Letters of Intent" (2024-08-21):
+- "6 CDS Student-Athletes Sign National Letters of Intent" (spring 2024 — "four CDS athletes signed … for a total of 6"):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/news/post/6-cds-student-athletes-sign-national-letters-of-intent-1724265198114
 - "7 CDS Students Celebrate Athletic Collegiate Commitments" (Nov 14, 2024 signing):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/seven-cds-students-celebrate-athletic-collegiate-commitments
+- 2024 Fall Sports Highlights (lists the seven Nov 2024 signees):
+ https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2024-fall-sports-highlights1
 - "8 CDS Students Celebrate Athletic Collegiate Commitments" (2025-04-28):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/8-cds-students-celebrate-athletic-collegiate-commitments
 - "5 CDS Students Celebrate Athletic Collegiate Commitments" (2025-11-14):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/5-cds-students-celebrate-athletic-collegiate-commitments-1763136645005
 - "7 CDS Students Celebrate Athletic Collegiate Commitments" (2026-04-28):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/7-cds-students-celebrate-athletic-collegiate-commitments-2026
-- 2026 Spring Sports Highlights ("Twelve student-athletes committed to college
- athletics, including three Division 1 signings"):
+- 2026 Spring Sports Highlights ("12 students continuing their athletic careers at the collegiate level, 3 at Division 1 institutions"):
  https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/2026-spring-sports-highlights-1781042195259
-- Louisville roster/newcomers (Eaton class of 2024, CDS):
- https://gocards.com/news/2024/8/19/meet-the-2024-field-hockey-newcomers
-- App State roster / Phenom Hoops (Marcus class of 2024, CDS):
- https://www.phenomhoopreport.com/2024-michael-marcus-staying-in-nc-commits-to-appalachian-state/
+- "Lions Beyond CDS" alumni lists on each team page (read 2026-11-09):
+ - Football: https://www.covenantday.org/athletics/teams/fall-sports/varsityfootball
+ - Baseball: https://www.covenantday.org/athletics/teams/spring-sports/varsitybaseball
+ - Boys basketball: https://www.covenantday.org/athletics/teams/winter-sports/varsityboysbasketball
+ - Boys soccer: https://www.covenantday.org/athletics/teams/fall-sports/varsityboyssoccer
+ - Girls soccer: https://www.covenantday.org/athletics/teams/spring-sports/varsitygirlsoccer
+ - Field hockey: https://www.covenantday.org/athletics/teams/fall-sports/varsityfieldhockey
+ - Volleyball: https://www.covenantday.org/athletics/teams/fall-sports/varsityvolleyball
+ - Softball: https://www.covenantday.org/athletics/teams/spring-sports/varsitysoftball
+ - Cross country: https://www.covenantday.org/athletics/teams/fall-sports/varsitycrosscountry
+ - Track & field: https://www.covenantday.org/athletics/teams/spring-sports/varsitytrackandfield
+ - Boys tennis: https://www.covenantday.org/athletics/teams/spring-sports/varsityboystennis
+ - Girls tennis: https://www.covenantday.org/athletics/teams/fall-sports/varsitygirlstennis
+ - Girls basketball: https://www.covenantday.org/athletics/teams/winter-sports/varsitygirlsbasketball
+ - Swimming: https://www.covenantday.org/athletics/teams/winter-sports/varsityswimming
 
-### Class of 2024 — Division I (2), of which Power 4 (1)
+**College rosters and releases (confirmation + graduate test)**
+- Louisville — Emily Eaton: https://gocards.com/sports/field-hockey/roster/emily-eaton/16101 · newcomers: https://gocards.com/news/2024/8/19/meet-the-2024-field-hockey-newcomers
+- App State 2024-25 — Michael Marcus Jr. (Fr., Covenant Day): https://appstatesports.com/sports/mens-basketball/roster/2024-25
+- George Mason — Marcus Jr. transfer (2026-05-06): https://gomason.com/news/2026/5/6/mens-basketball-george-mason-adds-forward-michael-marcus-jr-to-roster.aspx
+- William Peace — Elijah Green (Fr. 2024-25, Covenant Day School): https://gopeacepacers.com/sports/mens-basketball/roster/elijah-green/4142
+- William Peace — Green USA South Rookie of the Week (2024-12-09): https://gopeacepacers.com/news/2024/12/9/green-tabbed-usa-south-mens-basketball-rookie-of-the-week.aspx
+- Queens — Hamilton Huitt (Fr., Covenant Day School): https://queensathletics.com/roster.aspx?path=mten
+- Gardner-Webb — Maggie Dirks (Charlotte / Covenant Day School): https://gwusports.com/sports/cross-country/roster/maggie-dirks/11031
+- App State baseball 2026 — Grant Gardner (Fr., Covenant Day): https://appstatesports.com/sports/baseball/roster/2026
+- Wofford — Shea Stanley (Matthews / Covenant Day): https://woffordterriers.com/sports/womens-soccer/roster/shea-stanley/9429
+- Charlotte football 2025 — Chris Rivens (Fr. WR, Covenant Day): https://charlotte49ers.com/sports/football/roster/2025
+- Wisconsin Lutheran football 2025 — Jakota Hase (Fr. WR, Charlotte / Covenant Day): https://wlcsports.com/sports/football/roster/2025
+- Louisiana Tech — Jane Neil (1st yr, Charlotte): https://latechsports.com/sports/womens-soccer/roster
+- East Carolina — Ethan Welsh (1st yr, Last School Covenant Day School): https://ecupirates.com/sports/cross-country/roster
+- Charlotte softball — Avery Houseton (Fr., Last School Covenant Day): https://charlotte49ers.com/sports/softball/roster
+- RealGM — Covenant Day School basketball graduates (read in Chrome): https://basketball.realgm.com/highschool/teams/12805/Covenant-Day-School-NC
+- HighSchoolOT trackers (baseball: Gardner; boys basketball: Marcus; softball: Houseton): https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
+- Phenom Hoop Report — Marcus commits to App State: https://www.phenomhoopreport.com/2024-michael-marcus-staying-in-nc-commits-to-appalachian-state/
 
-| Athlete | Sport | College | Conf. | Level | P4 |
-|---------|-------|---------|-------|-------|----|
-| **Emily Eaton** | Field Hockey | **Louisville** | **ACC** | D1 | ✅ |
-| Michael Marcus Jr | Basketball | Appalachian State | Sun Belt | D1 | |
-| Robbie Johnson | Track & Field | Western Colorado | RMAC | D2 | |
-| Colden Welsh | Cross Country / T&F | Colorado Christian | RMAC | D2 | |
-| Will Goodling | Soccer | Gordon College | CCC | D3* | |
-| Kessler Forrest | Soccer | Messiah University | MAC | D3 | |
+## Class of 2024 — 7 committed · Division I 2 · Power 4 1
 
-*The signing article labels Goodling "Division 2"; Gordon College competes in
-NCAA D3 — the article's label is preserved here but the school is classified D3.
-Eaton (2023 NCISAA Player of the Year, CDS all-time leading goal scorer) started
-every game as a Louisville freshman in 2024, confirming class year and enrollment.
-Marcus Jr averaged 14.9 ppg as a CDS senior and enrolled at App State in 2024-25.
-The "6 sign NLI" article names 6 signees but only 4 were recoverable from the page;
-Eaton and Marcus are documented by the separate D1-commitment article.*
+The school's two articles name all six of its signees: Eaton and Marcus signed in the fall
+2023 period ("2 Student-Athletes Commit to D1 Schools"), and the spring 2024 article names
+the other four — "four CDS athletes signed … for a total of 6". **The class is complete as
+the school published it**; the earlier "only 4 of 6 recoverable" note misread that sentence.
+Elijah Green is the one athlete the school's articles do not name.
 
-### Class of 2025 — Division I (4), of which Power 4 (0)
+| Athlete | Sport | College | Conf. | Level | P4 | Confirmed by |
+|---|---|---|---|---|---|---|
+| **Emily Eaton** | Field Hockey | **Louisville** | ACC | P4 | ✅ | School D1 article; Louisville roster (started all 17 games 2024); transferred to Virginia (ACC) for fall 2026 |
+| Michael Marcus Jr | Basketball | Appalachian State | Sun Belt | D1 | | School D1 article; App State 2024-25 roster (Fr., Covenant Day); transferred to George Mason for 2026-27 |
+| Robbie Johnson | Track & Field | Western Colorado | RMAC | D2 | | School spring 2024 article; school T&F alumni list |
+| Colden Welsh | XC / Track | Colorado Christian | RMAC | D2 | | School spring 2024 article; school XC + T&F alumni lists |
+| **Elijah Green** *(new)* | Basketball | **William Peace** | USA South | D3 | | William Peace bio (Fr. 2024-25, Covenant Day School); RealGM (HS grad 2024, William Peace); MaxPreps 2023-24 senior |
+| Will Goodling | Soccer | Gordon | CCC | D3 | | School spring 2024 article (labels Gordon "Division 2"; Gordon is NCAA D3); school soccer alumni list |
+| Kessler Forrest | Soccer | Messiah | MAC | D3 | | School spring 2024 article; school soccer alumni list |
 
-| Athlete | Sport | College | Conf. | Level | P4 |
-|---------|-------|---------|-------|-------|----|
-| Hamilton Huitt | Tennis | Queens University of Charlotte | ASUN | D1 | |
-| Maggie Dirks | Cross Country / Track | Gardner-Webb | Big South | D1 | |
-| Grant Gardner | Baseball | Davidson | A-10 | D1 | |
-| Shea Stanley | Soccer | Wofford | Southern | D1 | |
-| Landon DeCarlo | Lacrosse | Berry College | — | D3 | |
-| Tyler Dennison | Football | Grove City College | — | D3 | |
-| Sean Freace | Soccer | Covenant College | — | D3 | |
-| Everett Macurda | Volleyball | Messiah University | — | D3 | |
-| Chris Rivens | Basketball | Guilford College | — | D3 | |
-| Tyree White | Basketball | Hampden-Sydney | — | D3 | |
-| Isaac Snapp | Baseball | Southeastern CC | — | NJCAA | |
-| Ethan Andujar | Baseball | Roanoke College | — | D3 | |
-| Brode Dixon | Baseball | Asbury University | — | D3 | |
-| Lydia Johnson | Soccer | Taylor University | — | NAIA | |
-| Millie Jones | Soccer | Taylor University | — | NAIA | |
+## Class of 2025 — 16 committed · Division I 5 · Power 4 0
 
-### Class of 2026 — Division I (3), of which Power 4 (0)
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Hamilton Huitt | Tennis | Queens (Charlotte) | ASUN | D1 | School Apr 2025 article; Queens roster (Fr., Covenant Day School); school tennis alumni list |
+| Maggie Dirks | XC / Track | Gardner-Webb | Big South | D1 | School Nov 2024 signing; Gardner-Webb roster (Covenant Day School) |
+| **Grant Gardner** *(changed)* | Baseball | **Appalachian State** | Sun Belt | D1 | Signed with **Davidson** at the Nov 2024 signing (school post; HighSchoolOT); **enrolled at App State** — App State 2026 roster (Fr., Covenant Day), 2027 roster (So.); school baseball alumni list says "Appalachian State University" |
+| Shea Stanley | Soccer | Wofford | Southern | D1 | School Nov 2024 signing; Wofford roster (Matthews / Covenant Day) |
+| **Chris Rivens** *(changed)* | **Football** | **Charlotte** | American | D1 | Signed with **Guilford basketball** (school Apr 2025 article; school basketball alumni list); **enrolled at Charlotte as a football WR** — Charlotte 2025 football roster (Fr., Covenant Day); school football alumni list says "UNC Charlotte"; not on Guilford's 2025-26 roster. Not on Charlotte's current (2026) roster |
+| Landon DeCarlo | Lacrosse | Berry | SAA | D3 | School Apr 2025 article (combined lacrosse program) |
+| Tyler Dennison | Football | Grove City | PAC | D3 | School Apr 2025 article; school football alumni list |
+| **Jakota Hase** *(new)* | Football | **Wisconsin Lutheran** | NACC | D3 | Wisconsin Lutheran 2025 football roster (Fr. WR, Charlotte / Covenant Day); school football alumni list; MaxPreps 2024-25 senior (football, boys volleyball) |
+| Sean Freace | Soccer | Covenant College | CCS | D3 | School Apr 2025 article; Covenant College roster |
+| Everett Macurda | Volleyball | Messiah | MAC | D3 | School Apr 2025 article |
+| Tyree White | Basketball | Hampden-Sydney | ODAC | D3 | School Apr 2025 article; RealGM (Ty White, 2025, Hampden-Sydney) |
+| Ethan Andujar | Baseball | Roanoke | ODAC | D3 | School Nov 2024 signing; school baseball alumni list |
+| Brode Dixon | Baseball | Asbury | NAIA | NAIA | School Nov 2024 signing; PBR Commitment Corner (Oct); school baseball alumni list |
+| Lydia Johnson | Soccer | Taylor | NAIA | NAIA | School Nov 2024 signing; school girls soccer alumni list |
+| Millie Jones | Soccer | Taylor | NAIA | NAIA | School Nov 2024 signing; school girls soccer alumni list |
+| Isaac Snapp | Baseball | Southeastern CC | NJCAA | D3* | School Apr 2025 article; school baseball alumni list |
 
-| Athlete | Sport | College | Conf. | Level | P4 |
-|---------|-------|---------|-------|-------|----|
-| Jane Neil | Soccer | Louisiana Tech | CUSA | D1 | |
-| Ethan Welsh | Cross Country / T&F | East Carolina | AAC | D1 | |
-| Avery Houseton | Softball | UNC Charlotte | AAC | D1 | |
-| Brady Johnson | Soccer | Cedarville | — | D2 | |
-| Kaitlyn Allen | Softball | Tusculum | — | D2 | |
-| Hunter Kincheloe | Baseball | Hampden-Sydney | — | D3 | |
-| Baker Runge | Soccer | Gordon College | — | D3 | |
-| Maggie Shannon | Volleyball | Springfield College | — | D3 | |
-| Douglas Smith | Basketball | Grove City College | — | D3 | |
-| Luke Thompson | Basketball | Macalester College | — | D3 | |
-| Jalen Boyd | Baseball | Paul D. Camp CC | — | NJCAA | |
-| Matthew Dorsey | Baseball | Wake Tech CC | — | NJCAA | |
+*Junior college is listed at the D3 tier with `conf: 'NJCAA'` (card convention).
 
-The school's own 2026 spring wrap confirms the class shape: "Twelve student-athletes
-committed to college athletics, including three Division 1 signings."
+## Class of 2026 — 12 committed · Division I 3 · Power 4 0
 
-### Context — the cumulative claim
+Matches the school's 2026 spring wrap exactly ("12 students … 3 at Division 1 institutions").
 
-The athletics page states **"Over 175 athletes have competed at the collegiate
-level"** since high school athletics began in 2006.
+| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Jane Neil | Soccer | Louisiana Tech | CUSA | D1 | School posts; Louisiana Tech roster (1st yr, Charlotte) |
+| Ethan Welsh | XC / Track | East Carolina | American | D1 | School posts; ECU roster (Last School Covenant Day School) |
+| Avery Houseton | Softball | Charlotte | American | D1 | School posts; Charlotte roster (Fr., Last School Covenant Day); HighSchoolOT softball tracker |
+| Brady Johnson | Soccer | Cedarville | G-MAC | D2 | School posts; school soccer alumni list |
+| Kaitlyn Allen | Softball | Tusculum | SAC | D2 | School posts; school softball alumni list |
+| Hunter Kincheloe | Baseball | Hampden-Sydney | ODAC | D3 | School posts; PBR |
+| Baker Runge | Soccer | Gordon | CCC | D3 | School posts (the soccer alumni list spells it "Runger") |
+| Maggie Shannon | Volleyball | Springfield | NEWMAC | D3 | School posts; school volleyball alumni list |
+| Douglas Smith | Basketball | Grove City | PAC | D3 | School posts; school basketball alumni list |
+| Luke Thompson | Basketball | Macalester | MIAC | D3 | School posts; RealGM (2026, Macalester) |
+| Jalen Boyd | Baseball | Paul D. Camp CC | NJCAA | D3* | School posts (MaxPreps spells "Jaylen") |
+| Matthew Dorsey | Baseball | Wake Tech CC | NJCAA | D3* | School posts |
 
-### App metric values
+The card's existing `conf: 'AAC'` for Welsh and Houseton is the minority spelling; the
+shared vocabulary is `'American'` (10 uses vs 3), and the new Rivens row uses `'American'`.
 
-**Power 4 = 1 (Eaton → Louisville, ACC) · Division I = 9** (2 + 4 + 3 across the
-classes of 2024–2026). Both are documented minimums — the Class of 2024 signing
-roundup is partially recoverable, and articles cover only school-announced
-commitments. *Supersedes the /add-school sweep's provisional "P4 = 0", which
-predates reading the September 2024 D1-commitments article.*
+## Totals → app metric values
+
+| Class | Committed | Division I | Power 4 |
+|---|---|---|---|
+| 2024 | 7 | 2 | 1 |
+| 2025 | 16 | 5 | 0 |
+| 2026 | 12 | 3 | 0 |
+| **2024–26** | **35** | **10** | **1** |
+
+**`p4-commits-2426` = 1** (Eaton → Louisville, ACC) · **`d1-commits-2426` = 10** (’24 Eaton,
+Marcus · ’25 Huitt, Dirks, Gardner, Stanley, Rivens · ’26 Neil, Welsh, Houseton).
+Was 33 / 9 / 1 before this pass.
+
+By sport (card's sport-bar labels): Soccer 9 · Baseball 7 · Basketball 5 (Marcus, Green,
+White, Smith, Thompson) · XC / Track 4 (C. Welsh, R. Johnson, Dirks, E. Welsh) · Football 3
+(Dennison, Hase, Rivens) · Softball 2 · Volleyball 2 · Field Hockey 1 (P4) · Tennis 1 ·
+Lacrosse 1. (Was Basketball 5 / Football 1: Rivens moves basketball → football, Green adds
+one to basketball.)
+
+## Class of 2027 — verbal appendix (uncounted)
+
+None. See `Covenant Day - Sports - College Commitments Class of 2027.md`.
+
+## Excluded
+
+- **Molly Carlson** — HighSchoolOT girls soccer tracker, Class of 2025: "Covenant Day —
+ Virginia". Virginia's roster lists her from Charlottesville, Va., high school *Liberty
+ University Online Academy* — fails the graduate test; almost certainly a mislabel of
+ Charlottesville's Covenant School. https://virginiasports.com/sports/wsoc/roster
+- **Chloe Hylton** — HighSchoolOT girls soccer tracker, Class of 2025: "B. Hylton,
+ Covenant Day — N.C. State". She is on Covenant's TopDrawerSoccer roster (2025, no
+ commitment listed), but **not on NC State's 2025 or 2026 roster**, not on the school's
+ girls soccer alumni list, and not on MaxPreps' Covenant girls soccer rosters. Reader-
+ submitted tracker only → lead, not counted.
+ https://topdrawersoccer.com/high-school-soccer/team-profile/women/covenant-day-school/tid-27101/tab-roster
+ · https://gopack.com/sports/womens-soccer/roster/2025
+
+## Context — the cumulative claim
+
+The athletics page states **"Over 175 athletes have competed at the collegiate level"**
+since high school athletics began in 2006.
 
 
 ---
@@ -603,6 +686,12 @@ first team title since 2017), a boys soccer program that spent fall 2025 "ranked
 first in the nation" during an 8-game unbeaten streak, and **175+ collegiate
 athletes** all-time. The 2024-2026 college pipeline is 33 documented commitments —
 9 Division I, 1 Power 4 (Emily Eaton, Louisville field hockey, ACC).
+
+> **Superseded 2026-11-09 (pipeline counts):** the commit figures and the "4 recoverable"
+> caveat below are replaced by the varsity-roster cross-reference — **35 committed, 10
+> Division I, 1 Power 4**, and the Class of 2024 is complete as the school published it.
+> See `Covenant Day School - Sports - College Commitments 2024-2026.md` and
+> `Covenant Day School - Sports - Varsity Roster Cross-Reference 2026.md`.
 
 ### Counting rules used by the app
 
@@ -844,6 +933,163 @@ Confirmed absence consistent with the program's shape; not a research gap.
 
 ---
 
+## Varsity Roster Cross-Reference 2026
+
+*Source file: `Covenant Day School - Sports - Varsity Roster Cross-Reference 2026.md`*
+
+# Covenant Day School — Sports — Varsity Roster Cross-Reference (2026)
+
+> **Provenance:** Research record written by Claude Code on 2026-11-09 during
+> `/athlete-commits covenant-day`. It documents *how* the College Pipeline roster was
+> re-checked and *what was searched and found empty*, so a later pass does not redo the
+> work. The athlete-level results live in `Covenant Day School - Sports - College
+> Commitments 2024-2026.md`; this file is the method and the nulls. It is provenance for
+> the pipeline card, not a card of its own (`src/lib/metrics.ts` folds it onto the research
+> dossier via `/roster cross-reference/i`).
+>
+> **Names policy:** only athletes with a documented college commitment, and the leads ruled
+> out, are named here. Current students without a commitment are recorded as counts.
+
+## Result in one line
+
+33 → **35** committed, 9 → **10** Division I, Power 4 unchanged at **1**. Two new athletes
+(Elijah Green ’24, William Peace; Jakota Hase ’25, Wisconsin Lutheran), two rows changed to
+the college actually enrolled at (Grant Gardner ’25 Davidson → App State; Chris Rivens ’25
+Guilford basketball → Charlotte football, D3 → D1), two HighSchoolOT leads ruled out
+(Molly Carlson, Chloe Hylton). The Class of 2024 turned out to be **complete** as the school
+published it — the old "4 of 6 recoverable" caveat misread the spring 2024 article.
+
+## Scope
+
+Every varsity sport the school fields. The 2026–27 High School Profile lists baseball,
+basketball, cheerleading, cross country, field hockey, football, golf, soccer, tennis,
+softball, swimming, track & field and volleyball; boys volleyball is a club sport and
+lacrosse is a combined program with other schools (see `Covenant Day School - Sports -
+Sports Offered.md`).
+
+Depth by tier:
+- **Full per-name cross-reference** (rosters + commitment database + college roster):
+ football, boys and girls basketball, baseball, boys and girls soccer, volleyball, softball,
+ field hockey, boys and girls tennis, boys volleyball.
+- **School alumni list + grouped searches + college roster check:** cross country, track &
+ field, swimming, golf.
+- **Unchecked beyond the school's own signing posts:** lacrosse (combined program — no
+ MaxPreps roster, LaxNumbers team page not found), cheerleading (no team page, no list).
+
+## Step 1 — the school's own pages (read 2026-11-09)
+
+**Lions News** (`https://www.covenantday.org/athletics/lionsnews`) — server-rendered
+Finalsite board; curl works. Six signing posts cover 2024–26 (listed in the commitments
+file). No Class of 2027 signing post is up: the NCAA early signing period opens 2026-11-11.
+
+**Team pages** — `https://www.covenantday.org/athletics/teams/<season>-sports/<slug>`,
+server-rendered, each with a **"Lions Beyond CDS"** tab: the school's own list of alumni
+playing in college, by name, class and college. This is the strongest source the school
+publishes and it was not used by the August 2026 pass. Slugs that answer:
+`fall-sports/varsityfootball`, `varsityfieldhockey`, `varsityvolleyball`, `varsityboyssoccer`,
+`varsitygirlstennis`, `varsitycrosscountry`, `varsitygirlsgolf` (empty: "The selected team
+was not found"); `winter-sports/varsityboysbasketball`, `varsitygirlsbasketball`,
+`varsityswimming`; `spring-sports/varsitybaseball`, `varsitysoftball`, `varsitygirlsoccer`
+(no "s"), `varsityboystennis`, `varsitytrackandfield`, `varsityboysgolf` (no list). No page
+for lacrosse, boys volleyball or cheer under any guessed slug. The `/athletics/teams` index
+is JS-rendered and lists nothing to curl or to page text.
+
+What the alumni lists added: **Jakota Hase ’25** (football → Wisconsin Lutheran), **Chris
+Rivens ’25** under football → UNC Charlotte, **Grant Gardner ’25** under baseball →
+Appalachian State. Every other 2024–26 name on them is already on the card. Swimming's
+list ends at ’21; golf and cheer publish none.
+
+## Step 2 — MaxPreps rosters by season
+
+`https://www.maxpreps.com/nc/matthews/covenant-day-lions/<sport>/<yy-yy>/roster/` (city is
+**matthews**; `/nc/charlotte/…` 404s) — HTTP 200 with a browser UA, path form, 23 sport
+slugs × 4 seasons (23-24 → 26-27) = 88 pages pulled.
+
+Rosters with data: football, boys and girls basketball, baseball, boys soccer, girls soccer
+(`soccer/girls/spring`), softball, field hockey, volleyball, boys volleyball, boys and girls
+tennis. **Empty in every season (unchecked on MaxPreps):** cross country (both),
+track-field (both), swimming (both), golf (both), lacrosse (both). Baseball 23-24 and 24-25
+carry no grade column ("-"), so baseball's Class of 2024 and 2025 seniors were taken from
+the school's posts and alumni list instead. Spring 26-27 rosters are not posted yet.
+
+Seniors found (`Sr.`) by class: **2024** — 45 across 8 sports (football 15, field hockey 8,
+boys soccer 8, basketball 7, volleyball 5, boys volleyball 5, girls soccer 2, …);
+**2025** — 42; **2026** — 53; **2027** (26-27 seniors + 25-26 juniors) — 47. MaxPreps
+prints two players as seniors in both 23-24 and 24-25 (data-entry error; neither is a
+commit).
+
+## Step 3 — cross-reference
+
+**HighSchoolOT trackers** — all 18 per-sport trackers plus the three "Building the Fence"
+in-state football pages and three out-of-state roundups (hub:
+https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/).
+Covenant Day hits: Grant Gardner (baseball, Davidson), Michael Marcus Jr. (boys
+basketball), Avery Houseton (softball) — all already on the card — and two girls soccer
+leads, both ruled out (below). No Class of 2027 entry.
+
+**RealGM** (Chrome; `https://basketball.realgm.com/highschool/teams/12805/Covenant-Day-School-NC`)
+— 11 graduates. In window: Elijah Green (2024, William Peace — **new**), Michael Marcus Jr.
+(2024, now George Mason), Ty White (2025, Hampden-Sydney), Luke Thompson (2026, Macalester).
+Out of window: Brewer ’15, Brown ’23, Hailey ’20, King ’19, Melton ’14, Ufochukwu ’22,
+Ward ’21.
+
+**NC Football News** — 2025 general / in-state / out-of-state trackers, 2026 and 2027
+trackers: no Covenant Day entry. Hase (D3, Wisconsin) and Rivens (walk-on-shaped, Charlotte)
+are the kind of commit these trackers miss.
+
+**TopDrawerSoccer** — Covenant Day girls team page lists one player (Chloe Hylton, 2025,
+no commitment).
+
+**Prep Baseball Report** (search) — Gardner (Davidson), Kincheloe (Hampden-Sydney), Dixon
+(Asbury); no other Covenant commit; 2027 profiles list no commitment.
+
+**College rosters checked** (graduate test): Louisville, App State (basketball 2024-25;
+baseball 2026 and current), George Mason (release), William Peace, Queens, Gardner-Webb,
+Wofford, Charlotte (football 2025, softball), Wisconsin Lutheran, Louisiana Tech, East
+Carolina, Guilford (2025-26 and current — Rivens absent), Virginia women's soccer,
+NC State women's soccer 2025 and 2026 (Chrome).
+
+## Ruled out
+
+| Lead | Source | Why |
+|---|---|---|
+| Molly Carlson — Virginia (Class of 2025, girls soccer) | HighSchoolOT girls soccer tracker | Virginia lists her from Charlottesville, Va., HS Liberty University Online Academy — fails the graduate test; likely a mislabel of Charlottesville's Covenant School |
+| Chloe Hylton — NC State (Class of 2025, girls soccer; tracker prints "B. Hylton") | HighSchoolOT girls soccer tracker | Not on NC State's 2025 or 2026 roster; TopDrawerSoccer lists no commitment; absent from the school's posts and alumni list. Single reader-submitted source |
+
+## Nulls (searched, nothing found)
+
+- **Football**, Classes of 2024 (15 seniors) and 2025 (14): grouped name searches and the
+ NC Football News trackers — nothing beyond Dennison, Hase and Rivens.
+- **Boys basketball** 2024–26: RealGM's full list — nothing beyond the card + Green.
+- **Girls basketball** 2024–26 (2 + 5 seniors): the school's alumni list ends at ’22;
+ HighSchoolOT tracker — none.
+- **Field hockey** 2024–26 (8 + 4 + 4 seniors): school alumni list — only Eaton in window.
+- **Volleyball** 2024–26: school alumni list and PrepVolleyball search — only Shannon.
+- **Boys volleyball** (club): only Macurda, from the school's Apr 2025 post.
+- **Swimming** 2024–26: school alumni list (latest ’21), SwimSwam/Swimming World search —
+ none.
+- **Golf** 2024–26: no alumni list; Junior Golf Scoreboard / AJGA search — none.
+- **Tennis** 2024–26: school alumni lists — only Huitt.
+- **Softball** 2024–26: school alumni list — Allen, Houseton only.
+
+## Unchecked (could not be retrieved)
+
+- **Lacrosse** — combined program; no MaxPreps roster in any season; LaxNumbers team page
+ not found in Chrome. DeCarlo (Berry) is on the card from the school's own post; any other
+ lacrosse commit is unchecked, not null.
+- **Cheerleading** — no team page or alumni list.
+- **Cross country / track** rosters (MaxPreps empty) — covered instead by the school's own
+ alumni lists, which match the card.
+
+## Class of 2027 (current seniors)
+
+47 seniors on the 26-27 and 25-26 rosters; no public commitment found in any source above,
+and no signing post yet. Recorded in `Covenant Day - Sports - College Commitments Class of
+2027.md`; **provisional — re-run after the 2026-11-11 early signing period**.
+
+
+---
+
 ## Wells Fargo Cup Standings 2020-2026
 
 *Source file: `Covenant Day School - Sports - Wells Fargo Cup Standings 2020-2026.md`*
@@ -1034,6 +1280,8 @@ results rather than complete win-loss tables; full records live on MaxPreps
 - https://admin.ncisaa.org/uploads/SWIMMING/2025/division%201%20scores.pdf
 - https://admin.ncisaa.org/uploads/SWIMMING/Div%201%20Final_Team_Ind.pdf
 - https://admin.ncisaa.org/uploads/ncisaa%20division%20i%20scores.pdf
+- https://appstatesports.com/sports/baseball/roster/2026
+- https://appstatesports.com/sports/mens-basketball/roster/2024-25
 - https://archives.ncisaa.org/
 - https://archives.ncisaa.org/index.php?sport=1&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=12&years=2015-2016
@@ -1043,11 +1291,27 @@ results rather than complete win-loss tables; full records live on MaxPreps
 - https://archives.ncisaa.org/index.php?sport=8&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=9&years=2022-2023
 - https://archives.ncisaa.org/index.php?sport=9&years=2025-2026
+- https://basketball.realgm.com/highschool/teams/12805/Covenant-Day-School-NC
+- https://basketball.realgm.com/highschool/teams/12805/Covenant-Day-School-NC`
+- https://charlotte49ers.com/sports/football/roster/2025
+- https://charlotte49ers.com/sports/softball/roster
+- https://ecupirates.com/sports/cross-country/roster
 - https://gocards.com/news/2024/8/19/meet-the-2024-field-hockey-newcomers
 - https://gocards.com/sports/field-hockey/roster/emily-eaton/16101
+- https://gomason.com/news/2026/5/6/mens-basketball-george-mason-adds-forward-michael-marcus-jr-to-roster.aspx
+- https://gopack.com/sports/womens-soccer/roster/2025
+- https://gopeacepacers.com/news/2024/12/9/green-tabbed-usa-south-mens-basketball-rookie-of-the-week.aspx
+- https://gopeacepacers.com/sports/mens-basketball/roster/elijah-green/4142
+- https://gwusports.com/sports/cross-country/roster/maggie-dirks/11031
+- https://latechsports.com/sports/womens-soccer/roster
 - https://prephoops.com/player/michael-marcus-jr/
+- https://queensathletics.com/roster.aspx?path=mten
 - https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf
+- https://topdrawersoccer.com/high-school-soccer/team-profile/women/covenant-day-school/tid-27101/tab-roster
 - https://virginiasports.com/sports/fhockey/roster/player/emily-eaton
+- https://virginiasports.com/sports/wsoc/roster
+- https://wlcsports.com/sports/football/roster/2025
+- https://woffordterriers.com/sports/womens-soccer/roster/shea-stanley/9429
 - https://www.collegenetworth.com/michael-marcus-jr-appalachian-state/
 - https://www.covenantday.org/athletics
 - https://www.covenantday.org/athletics/facilities
@@ -1065,11 +1329,28 @@ results rather than complete win-loss tables; full records live on MaxPreps
 - https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/mike-freace-begins-tenure-as-athletic-director
 - https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/lions-news/post/seven-cds-students-celebrate-athletic-collegiate-commitments
 - https://www.covenantday.org/athletics/lionsnews/lions-news-details/~board/news/post/6-cds-student-athletes-sign-national-letters-of-intent-1724265198114
+- https://www.covenantday.org/athletics/lionsnews`
 - https://www.covenantday.org/athletics/strength-and-conditioning
 - https://www.covenantday.org/athletics/teams
+- https://www.covenantday.org/athletics/teams/<season>-sports/<slug>`
 - https://www.covenantday.org/athletics/teams/fall-sports/varsityboyssoccer
+- https://www.covenantday.org/athletics/teams/fall-sports/varsitycrosscountry
+- https://www.covenantday.org/athletics/teams/fall-sports/varsityfieldhockey
+- https://www.covenantday.org/athletics/teams/fall-sports/varsityfootball
+- https://www.covenantday.org/athletics/teams/fall-sports/varsitygirlstennis
+- https://www.covenantday.org/athletics/teams/fall-sports/varsityvolleyball
+- https://www.covenantday.org/athletics/teams/spring-sports/varsitybaseball
+- https://www.covenantday.org/athletics/teams/spring-sports/varsityboystennis
+- https://www.covenantday.org/athletics/teams/spring-sports/varsitygirlsoccer
+- https://www.covenantday.org/athletics/teams/spring-sports/varsitysoftball
+- https://www.covenantday.org/athletics/teams/spring-sports/varsitytrackandfield
+- https://www.covenantday.org/athletics/teams/winter-sports/varsityboysbasketball
+- https://www.covenantday.org/athletics/teams/winter-sports/varsitygirlsbasketball
+- https://www.covenantday.org/athletics/teams/winter-sports/varsityswimming
+- https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.highschoolot.com/story/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - https://www.maxpreps.com/nc/matthews/covenant-day-lions/
+- https://www.maxpreps.com/nc/matthews/covenant-day-lions/<sport>/<yy-yy>/roster/`
 - https://www.ncisaa.org/recognition/wells-fargo-cup/current-champions/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/history/
 - https://www.ncisaa.org/recognition/wells-fargo-cup/past-champions-2024-2025/
