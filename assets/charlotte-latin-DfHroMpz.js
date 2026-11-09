@@ -1,4 +1,4 @@
-var e=`charlotte-latin`,t=`sports`,n=43,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Latin - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings
+var e=`charlotte-latin`,t=`sports`,n=57,r=[{subtopic:`247Sports Recruiting Rankings`,source_file:`Charlotte Latin - Sports - 247Sports Recruiting Rankings.md`,preview:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings North Carolina state recruiting lists (HTTP GET, no login; each list page carries national, position and state rank, stars, composite score, listed high school and commitment per row). Every football and basketball athlete on this school's College Pipeline…`,text:`# Charlotte Latin — Sports — 247Sports Recruiting Rankings
 
 North Carolina state recruiting lists (HTTP GET, no login; each list page carries national,
 position and state rank, stars, composite score, listed high school and commitment per row).
@@ -230,38 +230,144 @@ CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 • Charlotte Latin — Meet our Athletic Staff — https://www.charlottelatin.org/athletics/meet-the-staff
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`},{subtopic:`College Commitments 2024-2026`,source_file:`Charlotte Latin - Sports - College Commitments 2024-2026.md`,preview:`# Charlotte Latin School — Sports — College Commitments (2024–2026)`,text:`# Charlotte Latin School — Sports — College Commitments (2024–2026)`},{subtopic:`Sources`,source_file:null,preview:`- Feb 7 2024 (Class of 2024): https://clshawks.com/news/2024/2/7/general-six-student-athletes-celebrated-for-collegiate-commitments.aspx - Nov 13 2024 (Class of 2025): https://clshawks.com/news/2024/11/13/general-six-hawks-celebrated-for-collegiate-commitments-nov2024.aspx - Feb 5 2025 (Class of 2025):…`,text:`- Feb 7 2024 (Class of 2024): https://clshawks.com/news/2024/2/7/general-six-student-athletes-celebrated-for-collegiate-commitments.aspx
-- Nov 13 2024 (Class of 2025): https://clshawks.com/news/2024/11/13/general-six-hawks-celebrated-for-collegiate-commitments-nov2024.aspx
-- Feb 5 2025 (Class of 2025): https://clshawks.com/news/2025/2/5/general-nine-hawks-celebrated-on-signing-day.aspx
-- Nov 12 2025 (Class of 2026): https://clshawks.com/news/2025/11/12/football-12-hawks-celebrated-on-signing-day.aspx
-- Feb 4 2026 (Class of 2026): https://clshawks.com/news/2026/2/4/general-seven-hawks-celebrated-on-signing-day-2026.aspx`},{subtopic:`Class of 2024 — Division I (3), of which Power 4 (1)`,source_file:null,preview:`| Athlete | Sport | College | Conf. | P4 | |---------|-------|---------|-------|-------| | Neil Salvage | Football | South Carolina | SEC | ✅ | | Luke Coppage | Tennis | Queens (Charlotte) | ASUN | | | Charley Floyd | Swimming | Tulane | American | | _D3 (2024): George Glassner (Washington & Lee), Zachary Spicer…`,text:`| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|-------|
-| Neil Salvage | Football | South Carolina | SEC | ✅ |
-| Luke Coppage | Tennis | Queens (Charlotte) | ASUN | |
-| Charley Floyd | Swimming | Tulane | American | |
+---`},{subtopic:`College Commitments 2024-2026`,source_file:`Charlotte Latin - Sports - College Commitments 2024-2026.md`,preview:`# Charlotte Latin School — Sports — College Commitments (2024–2026)`,text:`# Charlotte Latin School — Sports — College Commitments (2024–2026)`},{subtopic:`Sources`,source_file:null,preview:`School signing-day posts (clshawks.com), all read 2026-11-08: - Nov 8 2023 (Class of 2024, 8): https://clshawks.com/news/2023/11/8/general-eight-student-athletes-celebrated-for-collegiate-commitments.aspx - Feb 7 2024 (Class of 2024, 6):…`,text:`School signing-day posts (clshawks.com), all read 2026-11-08:
+- Nov 8 2023 (Class of 2024, 8): https://clshawks.com/news/2023/11/8/general-eight-student-athletes-celebrated-for-collegiate-commitments.aspx
+- Feb 7 2024 (Class of 2024, 6): https://clshawks.com/news/2024/2/7/general-six-student-athletes-celebrated-for-collegiate-commitments.aspx
+- Apr 24 2024 (Class of 2024, 2; "sixteen Hawks … this year"): https://clshawks.com/news/2024/4/24/diroma-and-levy-celebrated-for-collegiate-commitments.aspx
+- Nov 13 2024 (Class of 2025, 6): https://clshawks.com/news/2024/11/13/general-six-hawks-celebrated-for-collegiate-commitments-nov2024.aspx
+- Feb 5 2025 (Class of 2025, 9): https://clshawks.com/news/2025/2/5/general-nine-hawks-celebrated-on-signing-day.aspx
+- Apr 24 2025 (Class of 2025, 7; "the CLS Class of 2025 has 22 athletes"): https://clshawks.com/news/2025/4/24/cheerleading-winter-seven-hawks-added-to-an-impressive-class-of-22-collegiate-signees.aspx
+- Nov 12 2025 (Class of 2026, 12): https://clshawks.com/news/2025/11/12/football-12-hawks-celebrated-on-signing-day.aspx
+- Feb 4 2026 (Class of 2026, 7): https://clshawks.com/news/2026/2/4/general-seven-hawks-celebrated-on-signing-day-2026.aspx
+- Apr 23 2026 (Class of 2026, 6; "twenty-five for the Class of 2026"): https://clshawks.com/news/2026/4/23/general-six-signees-celebrated-in-april-mark-a-record-year-for-collegiate-commits.aspx
 
-_D3 (2024): George Glassner (Washington & Lee), Zachary Spicer (Emory), Jordan Pence (Hampden-Sydney)._`},{subtopic:`Class of 2025 — Division I (5), of which Power 4 (1)`,source_file:null,preview:`_(Nov 2024 event; the Feb 2025 event was all D3.)_ | Athlete | Sport | College | Conf. | P4 | |---------|-------|---------|-------|-------| | Norvy Clontz | Swimming | UC Berkeley | ACC | ✅ | | Avery Booker | Baseball | Queens (Charlotte) | ASUN | | | Lila Connor | Swimming | Georgetown | Big East | | | Riley Milligan…`,text:`_(Nov 2024 event; the Feb 2025 event was all D3.)_
-| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|-------|
-| Norvy Clontz | Swimming | UC Berkeley | ACC | ✅ |
-| Avery Booker | Baseball | Queens (Charlotte) | ASUN | |
-| Lila Connor | Swimming | Georgetown | Big East | |
-| Riley Milligan | Lacrosse | St. Bonaventure | A-10 | |
-| Reese Morgan | Lacrosse | Temple | American | |
+School per-sport "Collegiate Commitments" lists (clshawks.com About pages), read 2026-11-08 —
+partially maintained (none lists the Class of 2026), used as a cross-check:
 
-_D2 (2025): Brayden Hampton (Fairmont State). D3 (Feb 2025, 9): Talia Hawa (Roanoke), Maggie Hyder (Trinity), Lillian Jarmosevich (Swarthmore), Ethan Khouri (Washington & Lee), Parker Rubinacci (Emory), Hudson Shoup (Calvin), Ainsley Sullivan (Macalester), Sydney Thune (Emory), Bridget Yu (Tufts)._`},{subtopic:`Class of 2026 — Division I (6), of which Power 4 (1)`,source_file:null,preview:`_(Nov 2025 event; the Feb 2026 event was all D3.)_ | Athlete | Sport | College | Conf. | P4 | |---------|-------|---------|-------|-------| | Aston Lee | Golf | NC State | ACC | ✅ | | Harrison Short | Swimming | Villanova | Big East | | | Karlin Smith | Swimming | Bucknell | Patriot | | | Henry Holland | Golf | James…`,text:`_(Nov 2025 event; the Feb 2026 event was all D3.)_
-| Athlete | Sport | College | Conf. | P4 |
-|---------|-------|---------|-------|-------|
-| Aston Lee | Golf | NC State | ACC | ✅ |
-| Harrison Short | Swimming | Villanova | Big East | |
-| Karlin Smith | Swimming | Bucknell | Patriot | |
-| Henry Holland | Golf | James Madison | Sun Belt | |
-| Spear Gorelick | Wrestling | Davidson | SoCon | |
-| Griffin Cheatwood | Golf | Davidson | A-10 | |
+College rosters and releases (confirmations), read 2026-11-08:
+- UNC women's swimming — Ivy Monk: https://goheels.com/sports/swimming-and-diving/roster/ivy-monk/26039
+- Tennessee 2024 signing class — Aidan Hill: https://utsports.com/news/2023/12/6/kredich-announces-2024-swimming-diving-signing-class · https://utsports.com/sports/swimming-and-diving/roster/aidan-hill/23250
+- Northwestern men's swimming — Wiley Spinner ("Charlotte Latin School"): https://nusports.com/sports/mens-swimming-and-diving/roster
+- Cal women's lacrosse 2025 — Ardyn Henry ("Last School: Charlotte Latin HS"): https://calbears.com/sports/womens-lacrosse/roster/2025
+- Virginia 2024 signing class — Evie McMahan: https://virginiasports.com/news/2024/08/28/wlax-class-2024 · https://virginiasports.com/player/evie-mcmahan
+- Bucknell cross country — Jackson DiRoma ("Last School: Charlotte Latin"): https://bucknellbison.com/sports/mens-cross-country/roster
+- Navy men's basketball 2024-25 — Sean Rose ("Monroe, N.C. / Charlotte Latin"): https://navysports.com/sports/mens-basketball/roster/2024-25
+- Rollins women's lacrosse 2025 — Elle Collier ("Charlotte Latin"): https://rollinssports.com/sports/womens-lacrosse/roster/2025
+- Georgetown football — Matthew Barber ("Indian Land, S.C. / Charlotte Latin School"): https://guhoyas.com/sports/football/roster
 
-_D3 (Nov 2025): Liam McConaughy (Case Western), Banks Cutter (Middlebury), Mollie Snyder (Grove City), Knox Hutcheson (Sewanee), Louis Markin (Case Western). D2: Lanie Edwards (Rollins). D3 (Feb 2026, 7): Sunny Jin (Case Western), Claire Zhang (MIT), Kelsey Sciacca (Washington & Lee), Charlotte Tune (Washington & Lee), Emily Cao (Williams), Jaden Hawa (William Peace), Matthew Flynn (Hampden-Sydney)._
+Second sources:
+- RealGM Charlotte Latin High School page (Chrome; HS grad year + college): https://basketball.realgm.com/highschool/teams/477/Charlotte-Latin-High-School
+- HighSchoolOT recruiting trackers (hub): https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
+- LaxNumbers girls recruits (Chrome): https://laxnumbers.com/team_info.php?y=2024&t=22580&s=2 · boys: https://laxnumbers.com/team_info.php?y=2026&t=12771&s=2`},{subtopic:`Class of 2024 — 16 (school count 16) · Division I 10, of which Power 4 6`,source_file:null,preview:`| Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Neil Salvage | Football | South Carolina | SEC | P4 | Feb 2024 post | | Ivy Monk | Swimming | North Carolina | ACC | P4 | Nov 2023 post; UNC roster; HighSchoolOT | | Aidan Hill | Swimming | Tennessee | SEC | P4 | Nov 2023 post; UT…`,text:`| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Neil Salvage | Football | South Carolina | SEC | P4 | Feb 2024 post |
+| Ivy Monk | Swimming | North Carolina | ACC | P4 | Nov 2023 post; UNC roster; HighSchoolOT |
+| Aidan Hill | Swimming | Tennessee | SEC | P4 | Nov 2023 post; UT signing release; HighSchoolOT |
+| Wiley Spinner | Swimming | Northwestern | Big Ten | P4 | Nov 2023 post; Northwestern roster |
+| Ardyn Henry | Girls Lacrosse | Cal | ACC | P4 | Nov 2023 post; Cal roster; LaxNumbers |
+| Evie McMahan | Girls Lacrosse | Virginia | ACC | P4 | Nov 2023 post; UVA signing release; LaxNumbers |
+| Luke Coppage | Tennis | Queens (Charlotte) | ASUN | D1 | Feb 2024 post |
+| Charley Floyd | Swimming | Tulane | American | D1 | Feb 2024 post; HighSchoolOT |
+| Jackson DiRoma | Track / XC | Bucknell | Patriot | D1 | Apr 2024 post; Bucknell roster; HighSchoolOT |
+| Sean Rose | Boys Basketball | Navy | Patriot | D1 | Navy roster; RealGM (HS grad 2024); MaxPreps 2023-24 Latin roster — **not in any school post** |
+| Ellé Collier | Girls Lacrosse | Rollins | SSC | D2 | Nov 2023 post; Rollins roster |
+| George Glassner | Swimming | Washington & Lee | ODAC | D3 | Feb 2024 post |
+| Zachary Spicer | Swimming | Emory | UAA | D3 | Feb 2024 post |
+| Jordan Pence | Football | Hampden-Sydney | ODAC | D3 | Feb 2024 post |
+| James Peters | Baseball | Wooster | NCAC | D3 | Nov 2023 post; HighSchoolOT baseball tracker |
+| Nic Levy | Boys Basketball | Johnson & Wales | GNAC | D3 | Apr 2024 post; RealGM; HighSchoolOT |
 
-**App metric values (verified):** Power 4 = 3 · Division I = 14
+The row count matches the school's 16, but not the same 16: Rose is added and Massardo is
+excluded (see *Excluded*).`},{subtopic:`Class of 2025 — 22 (school count 22) · Division I 5, of which Power 4 1`,source_file:null,preview:`| Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Norvy Clontz | Swimming | Cal | ACC | P4 | Nov 2024 post; HighSchoolOT | | Avery Booker | Baseball | Queens (Charlotte) | ASUN | D1 | Nov 2024 post; HighSchoolOT | | Lila Connor | Swimming | Georgetown | Big East | D1 | Nov 2024…`,text:`| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Norvy Clontz | Swimming | Cal | ACC | P4 | Nov 2024 post; HighSchoolOT |
+| Avery Booker | Baseball | Queens (Charlotte) | ASUN | D1 | Nov 2024 post; HighSchoolOT |
+| Lila Connor | Swimming | Georgetown | Big East | D1 | Nov 2024 post; HighSchoolOT |
+| Riley Milligan | Girls Lacrosse | St. Bonaventure | Atlantic 10 | D1 | Nov 2024 post; HighSchoolOT; LaxNumbers |
+| Reese Morgan | Girls Lacrosse | Temple | American | D1 | Nov 2024 post; HighSchoolOT; LaxNumbers (as "Morgan Reese") |
+| Brayden Hampton | Baseball | Fairmont State | MEC | D2 | Nov 2024 post |
+| Titus Ivory | Football | Wingate | SAC | D2 | Apr 2025 post; Football About page |
+| Talia Hawa | Softball | Roanoke | ODAC | D3 | Feb 2025 post; HighSchoolOT |
+| Maggie Hyder | Girls Soccer | Trinity (Conn.) | NESCAC | D3 | Feb 2025 post |
+| Lillian Jarmosevich | Girls Soccer | Swarthmore | Centennial | D3 | Feb 2025 post |
+| Ethan Khouri | Track / XC | Washington & Lee | ODAC | D3 | Feb 2025 post |
+| Parker Rubinacci | Boys Soccer | Emory | UAA | D3 | Feb 2025 post |
+| Hudson Shoup | Football | Calvin | MIAA | D3 | Feb 2025 post |
+| Ainsley Sullivan | Softball | Macalester | MIAC | D3 | Feb 2025 post; HighSchoolOT |
+| Sydney Thune | Softball | Emory | UAA | D3 | Feb 2025 post; HighSchoolOT |
+| Bridget Yu | Track / XC | Tufts | NESCAC | D3 | Feb 2025 post |
+| James Jones | Boys Basketball | DePauw | NCAC | D3 | Apr 2025 post; RealGM |
+| Bryce Spangler | Swimming | Denison | NCAC | D3 | Apr 2025 post; Swimming About page |
+| Logan Yee | Swimming | MIT | NEWMAC | D3 | Apr 2025 post (diving) |
+| Maya Belton | Dance | College of Charleston | — | total only | Apr 2025 post |
+| Cordelia Kim | Dance | Rutgers | — | total only | Apr 2025 post |
+| Zoe Bradley | Cheer | Tulane | — | total only | Apr 2025 post |
+
+Hyder's "Trinity" is Trinity College (Connecticut) — the post says "Trinity College"; the
+earlier version's \`conf: '—'\` is corrected to NESCAC. Yee is listed under \`'Swimming'\`
+(the existing unit; the post says "Diving").`},{subtopic:`Class of 2026 — 25 (school count 25) · Division I 7, of which Power 4 1`,source_file:null,preview:`| Athlete | Sport | College | Conf. | Level | Confirmed by | |---|---|---|---|---|---| | Aston Lee | Golf | NC State | ACC | P4 | Nov 2025 post | | Harrison Short | Swimming | Villanova | Big East | D1 | Nov 2025 post | | Karlin Smith | Swimming | Bucknell | Patriot | D1 | Nov 2025 post | | Henry Holland | Golf |…`,text:`| Athlete | Sport | College | Conf. | Level | Confirmed by |
+|---|---|---|---|---|---|
+| Aston Lee | Golf | NC State | ACC | P4 | Nov 2025 post |
+| Harrison Short | Swimming | Villanova | Big East | D1 | Nov 2025 post |
+| Karlin Smith | Swimming | Bucknell | Patriot | D1 | Nov 2025 post |
+| Henry Holland | Golf | James Madison | Sun Belt | D1 | Nov 2025 post |
+| Spear Gorelick | Wrestling | Davidson | SoCon | D1 | Nov 2025 post |
+| Griffin Cheatwood | Golf | Davidson | Atlantic 10 | D1 | Nov 2025 post |
+| Matthew Barber | Football | Georgetown | Patriot | D1 | Apr 2026 post; Georgetown roster |
+| Lanie Edwards | Girls Basketball | Rollins | SSC | D2 | Nov 2025 post |
+| Liam McConaughy | Wrestling | Case Western Reserve | UAA | D3 | Nov 2025 post |
+| Banks Cutter | Football & Lacrosse | Middlebury | NESCAC | D3 | Nov 2025 post; LaxNumbers |
+| Mollie Snyder | Girls Basketball | Grove City | PAC | D3 | Nov 2025 post |
+| Knox Hutcheson | Boys Lacrosse | Sewanee | SAA | D3 | Nov 2025 post; LaxNumbers |
+| Louis Markin | Boys Soccer | Case Western Reserve | UAA | D3 | Nov 2025 post |
+| Sunny Jin | Girls Soccer | Case Western Reserve | UAA | D3 | Feb 2026 post |
+| Claire Zhang | Girls Soccer | MIT | NEWMAC | D3 | Feb 2026 post |
+| Kelsey Sciacca | Golf | Washington & Lee | ODAC | D3 | Feb 2026 post |
+| Charlotte Tune | Girls Basketball | Washington & Lee | ODAC | D3 | Feb 2026 post |
+| Emily Cao | Volleyball | Williams | NESCAC | D3 | Feb 2026 post |
+| Jaden Hawa | Baseball | William Peace | USA South | D3 | Feb 2026 post |
+| Matthew Flynn | Football | Hampden-Sydney | ODAC | D3 | Feb 2026 post |
+| Griffin Donnelly | Baseball | Lawrence | Midwest | D3 | Apr 2026 post |
+| Avery Simmons | Track & Field | Denison | NCAC | D3 | Apr 2026 post |
+| Ben Spiegler | Swimming | RIT | Liberty | D3 | Apr 2026 post |
+| Til Wagner | Golf | Hampden-Sydney | ODAC | D3 | Apr 2026 post |
+| Ethan Worrell | Boys Soccer | Denison | NCAC | D3 | Apr 2026 post |
+
+\`'Midwest'\` (Lawrence) is the one new conference string; every other conf, level and sport
+string is already in the vocabulary.`},{subtopic:`Totals → app metric values`,source_file:null,preview:`| | 2024 | 2025 | 2026 | Window | |---|---|---|---|---| | Committed (funnel total) | 16 | 22 | 25 | 63 | | — of which roster rows | 16 | 19 | 25 | 60 | | — dance / cheer (total only) | 0 | 3 | 0 | 3 | | Division I (incl. P4) | 10 | 5 | 7 | 22 | | Power 4 | 6 | 1 | 1 | 8 | | D2 | 1 | 2 | 1 | 4 | | D3 | 5 | 12 | 17 | 34…`,text:`| | 2024 | 2025 | 2026 | Window |
+|---|---|---|---|---|
+| Committed (funnel total) | 16 | 22 | 25 | **63** |
+| — of which roster rows | 16 | 19 | 25 | 60 |
+| — dance / cheer (total only) | 0 | 3 | 0 | 3 |
+| Division I (incl. P4) | 10 | 5 | 7 | **22** |
+| Power 4 | 6 | 1 | 1 | **8** |
+| D2 | 1 | 2 | 1 | 4 |
+| D3 | 5 | 12 | 17 | 34 |
+
+Check: D1 22 + D2 4 + D3 34 + dance/cheer 3 = **63**. Division III is 34 of 63 (about 54%).
+
+**Division I by sport (window):** Swimming 8 (P4 4: Monk, Hill, Spinner, Clontz) · Lacrosse
+4, all girls (P4 2: Henry, McMahan) · Golf 3 (P4 1: Lee) · Football 2 (P4 1: Salvage) ·
+Baseball 1 · Tennis 1 · Wrestling 1 · Track / XC 1 · Basketball 1. Sum 22; P4 sum 8.
+
+**App metric values:** Power 4 = **8** (was 3) · Division I = **22** (was 14).`},{subtopic:`Class of 2027 (current seniors) — not counted`,source_file:null,preview:"Verbal commitments are listed, never counted in the window rows. See `Charlotte Latin - Sports - College Commitments Class of 2027.md`: Thomas Greathouse (George Washington swimming, D1) confirmed; one LaxNumbers-only lead.",text:`Verbal commitments are listed, never counted in the window rows. See
+\`Charlotte Latin - Sports - College Commitments Class of 2027.md\`: Thomas Greathouse
+(George Washington swimming, D1) confirmed; one LaxNumbers-only lead.`},{subtopic:`Excluded`,source_file:null,preview:`- Natalie Massardo (Class of 2024, girls lacrosse → Furman, D1). Named in the Nov 2023 school post, the HighSchoolOT girls lacrosse tracker and LaxNumbers, but absent from Furman's server-rendered roster for her entry season (https://furmanpaladins.com/sports/womens-lacrosse/roster/2025) and from the 2026 roster and…`,text:`- **Natalie Massardo** (Class of 2024, girls lacrosse → Furman, D1). Named in the Nov 2023
+ school post, the HighSchoolOT girls lacrosse tracker and LaxNumbers, but **absent from
+ Furman's server-rendered roster for her entry season** (https://furmanpaladins.com/sports/womens-lacrosse/roster/2025)
+ and from the 2026 roster and the 2025-26 newcomer release. Read as a decommit; excluded
+ (user decision 2026-11-08). The school's own Class of 2024 count of 16 includes her.
+- **Dempsey McMahon** (Class of 2026, girls soccer → South Carolina, SEC). A South Carolina
+ freshman in fall 2026 (https://gamecocksonline.com/sports/wsoc/roster/player/dempsey-mcmahon/,
+ "Played three years of soccer at Charlotte Latin"); on Latin's MaxPreps girls soccer roster
+ as a sophomore (2023-24) and junior (2024-25) but **not on the 2025-26 roster**, and in none
+ of the school's three Class of 2026 posts (the school's 25 does not include her). Fails the
+ graduate test on the evidence available; excluded (user decision 2026-11-08). Re-check if
+ South Carolina or Latin publishes her high school of graduation.
+- **James Peters — Wofford.** The baseball About page lists "2024 - James Peters, Wofford
+ College"; the school's own Nov 2023 post and the HighSchoolOT tracker both say College of
+ Wooster. Counted at Wooster (D3), not Wofford (D1). Neither college's baseball roster lists
+ him; recorded here so a later pass can re-check.
 
 ---`},{subtopic:`College Commitments Class of 2027`,source_file:`Charlotte Latin - Sports - College Commitments Class of 2027.md`,preview:`# Charlotte Latin — Sports — College Commitments, Class of 2027 (current seniors)`,text:`# Charlotte Latin — Sports — College Commitments, Class of 2027 (current seniors)`},{subtopic:`Sweep record (2026-11-08)`,source_file:null,preview:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any roster school yet — they fill after the signing periods), the NC Football News 2027 NC commitment tracker, 247Sports' 2027 NC football and basketball rankings, Team 91 Charlotte's 2027 commitment list (Jan 2026), Ultimate…`,text:`Searched: the 17 HighSchoolOT per-sport recruiting trackers (no Class of 2027 entry for any
 roster school yet — they fill after the signing periods), the NC Football News 2027 NC
@@ -276,7 +382,14 @@ yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.`},{
 | Thomas Greathouse | Swimming | George Washington | Atlantic 10 | D1 | SwimSwam "NC High School State Champion Thomas Greathouse Verbals To George Washington For Fall 2027"; Charlotte Observer swimming preview 2026-11-03 ("George Washington commit"). https://swimswam.com/north-carolina-hs-state-champion-thomas-greathouse-verbals-to-george-washington-for-fall-2027/ · https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html |
 
 David Sammons (Cal) is a junior (Class of 2028) and is not counted. TopDrawerSoccer lists one
-2027 girls soccer player with no commitment.`},{subtopic:`D1 Matriculation`,source_file:`Charlotte Latin - Sports - D1 Matriculation.pdf`,preview:`CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Matriculation to NCAA Division I Athletics Research Area — D1 commitments across all sports (no consolidated school list exists) Charlotte Latin does not publish a single alumni-in-college list; this is assembled from Hall of Fame bios, recruiting…`,text:`CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
+2027 girls soccer player with no commitment.`},{subtopic:"Leads — not counted (updated 2026-11-08, `/athlete-commits` graduate refresh)",source_file:null,preview:`| Athlete | Sport | College | Level | Evidence | Why not a row | |---|---|---|---|---|---| | Adelaide Rhodes | Girls Lacrosse | Claremont-Mudd-Scripps | D3 | LaxNumbers girls recruits, Class 2027 (https://laxnumbers.com/team_info.php?y=2027&t=22580&s=2); on Latin's MaxPreps girls lacrosse rosters 2024-25 and 2025-26…`,text:`| Athlete | Sport | College | Level | Evidence | Why not a row |
+|---|---|---|---|---|---|
+| Adelaide Rhodes | Girls Lacrosse | Claremont-Mudd-Scripps | D3 | LaxNumbers girls recruits, Class 2027 (https://laxnumbers.com/team_info.php?y=2027&t=22580&s=2); on Latin's MaxPreps girls lacrosse rosters 2024-25 and 2025-26 as "Addie Rhodes" | One reader-submitted source only. Re-check against Latin's November 2026 and spring 2027 signing posts. |
+
+Also swept on 2026-11-08: RealGM (no 2027 grads with a college listed), LaxNumbers boys 2027
+(no recruits) and the 20 HighSchoolOT tracker pages (no Class of 2027 Latin entry).
+Latin's November 2026 post is the next source to check. Latin holds three events a year,
+in November, February and April.`},{subtopic:`D1 Matriculation`,source_file:`Charlotte Latin - Sports - D1 Matriculation.pdf`,preview:`CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC Matriculation to NCAA Division I Athletics Research Area — D1 commitments across all sports (no consolidated school list exists) Charlotte Latin does not publish a single alumni-in-college list; this is assembled from Hall of Fame bios, recruiting…`,text:`CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Matriculation to NCAA Division I Athletics
 Research Area — D1 commitments across all sports (no consolidated school list
 exists)
@@ -663,7 +776,18 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 Three-year win %: volleyball 60–19 (.759) · field hockey 41–19 (.683) · girls basketball
 52–28 (.650) · baseball 44–31–1 (.587) · boys basketball 45–38 (.542) · football 17–15 (.531).
 Volleyball's arc — rank 128 to rank 17 — is the best story in the data.
-https://www.maxpreps.com/nc/charlotte/charlotte-latin-hawks/volleyball/history/`},{subtopic:`3. College Pipeline — 48 commits, 14 D1, 3 P4`,source_file:null,preview:`The pipeline is swimming- and golf-led, not football-led — football produced exactly one D1 commit across three classes, inverting the historical narrative. D1 by sport: Swimming 4 (1 P4) · Golf 3 (1 P4) · Lacrosse 2 · Football 1 (1 P4) · Tennis 1 · Baseball 1 · Wrestling 1. Full roster in…`,text:`**The pipeline is swimming- and golf-led, not football-led** — football produced exactly
+https://www.maxpreps.com/nc/charlotte/charlotte-latin-hawks/volleyball/history/`},{subtopic:`3. College Pipeline — 48 commits, 14 D1, 3 P4`,source_file:null,preview:"> Superseded 2026-11-08. This section was the first pass, which used five of the nine > school signing posts in the 2024–26 window. The `/athlete-commits` graduate refresh read > all nine (Latin holds November, February and April events) and found 63 commitments, 22 > Division I and 8 Power 4. It added Ivy Monk (UNC),…",text:`> **Superseded 2026-11-08.** This section was the first pass, which used five of the nine
+> school signing posts in the 2024–26 window. The \`/athlete-commits\` graduate refresh read
+> all nine (Latin holds November, February and April events) and found 63 commitments, 22
+> Division I and 8 Power 4. It added Ivy Monk (UNC), Aidan Hill (Tennessee), Wiley Spinner
+> (Northwestern), Ardyn Henry (Cal) and Evie McMahan (Virginia) as Power 4, plus Jackson
+> DiRoma (Bucknell), Sean Rose (Navy) and Matthew Barber (Georgetown) as Division I. It also
+> filled in every "Not published" sport. The pipeline is led by swimming and lacrosse, and
+> football has two Division I commits, not one. See
+> \`Charlotte Latin - Sports - College Commitments 2024-2026.md\` and
+> \`Charlotte Latin - Sports - Varsity Roster Cross-Reference 2026.md\`.
+
+**The pipeline is swimming- and golf-led, not football-led** — football produced exactly
 one D1 commit across three classes, inverting the historical narrative.
 
 D1 by sport: Swimming 4 (1 P4) · Golf 3 (1 P4) · Lacrosse 2 · Football 1 (1 P4) ·
@@ -943,6 +1067,60 @@ https://sports.yahoo.com/articles/2026-national-prep-wrestling-championships-140
 https://www.on3.com/high-school/charlotte-latin-school-charlotte-nc-13024/football/alumni/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
 
+---`},{subtopic:`Varsity Roster Cross-Reference 2026`,source_file:`Charlotte Latin - Sports - Varsity Roster Cross-Reference 2026.md`,preview:`# Charlotte Latin School — Sports — Varsity Roster Cross-Reference (2026)`,text:`# Charlotte Latin School — Sports — Varsity Roster Cross-Reference (2026)`},{subtopic:`Scope`,source_file:null,preview:`Every varsity sport Charlotte Latin fields (26 team pages on clshawks.com: baseball, cheerleading ×2, dance ×2, field hockey, football, boys and girls basketball, cross country, golf, lacrosse, soccer, swimming & diving, tennis, track & field, softball, volleyball, wrestling), for the graduating Classes of 2024, 2025…`,text:`Every varsity sport Charlotte Latin fields (26 team pages on clshawks.com: baseball,
+cheerleading ×2, dance ×2, field hockey, football, boys and girls basketball, cross country,
+golf, lacrosse, soccer, swimming & diving, tennis, track & field, softball, volleyball,
+wrestling), for the graduating Classes of 2024, 2025 and 2026, plus the current Class of 2027.`},{subtopic:`Rosters pulled`,source_file:null,preview:"- clshawks.com (Sidearm) keeps past-season rosters (`/sports/<sport>/roster/<yyyy-yy>`), but leaves the class-year field blank for almost every player. It gives names, not grades. - MaxPreps (`https://www.maxpreps.com/nc/charlotte/charlotte-latin-hawks/<sport>/<yy-yy>/roster/`, path form) for 2023-24 → 2026-27, with…",text:`- **clshawks.com (Sidearm)** keeps past-season rosters (\`/sports/<sport>/roster/<yyyy-yy>\`),
+ but leaves the class-year field blank for almost every player. It gives names, not grades.
+- **MaxPreps** (\`https://www.maxpreps.com/nc/charlotte/charlotte-latin-hawks/<sport>/<yy-yy>/roster/\`,
+ path form) for 2023-24 → 2026-27, with grades. 22 sport/gender slugs × 4 seasons pulled.
+ - Senior counts read: football 10 / 10 / 16 / 12 (2023-24 → 2026-27); boys basketball
+ 4 / 5 / 6 / 6; girls basketball 5 / 3 / 8 / —; baseball 7 / 8 / 3 / —; softball
+ 1 / 3 / 1 / —; volleyball 3 / 4 / 3 / 5; boys soccer 9 / 3 / 10 / 5; girls soccer
+ 4 / 5 / 6 / —; boys lacrosse 5 / 8 / 11 / —; girls lacrosse 7 / 6 / 1 / —; field hockey
+ 8 / 7 / 5 / 8; boys tennis 4 / 6 / 1 / —; girls tennis 7 / 2 / 5 / 4; wrestling 6 / — /
+ — / —; cross country (both) 2023-24 only; girls golf 2023-24 only; girls swimming
+ 2023-24 (6 seniors) and 2024-25 (no grades).
+ - **Unchecked on MaxPreps:** boys golf, track & field (both), boys swimming — 404 every
+ season; wrestling and cross country empty after 2023-24. For those sports the school's
+ own signing posts and per-sport About pages are the census (below).`},{subtopic:`The decisive source: the school's own signing posts`,source_file:null,preview:`Latin holds three collegiate-commitment events a year and posts a named article for each (November, February, late April). All nine in the window were found and read; the URLs are in the commitments file. The earlier card had used five of them. The school's class totals (16 / 22 / 25) are stated in the April posts.…`,text:`Latin holds three collegiate-commitment events a year and posts a named article for each
+(November, February, late April). All nine in the window were found and read; the URLs are
+in the commitments file. The earlier card had used five of them. The school's class totals
+(16 / 22 / 25) are stated in the April posts. Each post names the sport for every athlete.
+
+The per-sport **About pages** (\`/sports/2022/11/<d>/charlotte-latin-varsity-<sport>.aspx\`)
+carry a "Collegiate Commitments" list by year. They are maintained unevenly (no sport lists
+the Class of 2026; volleyball, field hockey, girls golf, girls tennis and wrestling list
+nothing in the window) and one entry contradicts the signing post (Peters: Wofford vs
+Wooster). Used as a cross-check only.`},{subtopic:`Cross-reference tiers by sport`,source_file:null,preview:`| Sport | Tier | Sources | |---|---|---| | Boys basketball | Full per-name | RealGM school page (Chrome), Navy/college rosters, HighSchoolOT | | Football | Full per-name | School posts, college rosters (Georgetown), NC Football News 2026 tracker via HighSchoolOT | | Girls lacrosse | Full per-name | LaxNumbers girls…`,text:`| Sport | Tier | Sources |
+|---|---|---|
+| Boys basketball | Full per-name | RealGM school page (Chrome), Navy/college rosters, HighSchoolOT |
+| Football | Full per-name | School posts, college rosters (Georgetown), NC Football News 2026 tracker via HighSchoolOT |
+| Girls lacrosse | Full per-name | LaxNumbers girls page (Chrome, t=22580), HighSchoolOT, Cal / Rollins / Furman rosters, UVA release |
+| Boys lacrosse | Full per-name | LaxNumbers boys page (Chrome, t=12771) — Cutter and Hutcheson only |
+| Swimming (both) | Full per-name | School posts, HighSchoolOT swimming trackers, UNC / Northwestern / Tennessee pages |
+| Girls soccer | Full per-name | HighSchoolOT girls soccer tracker, South Carolina roster |
+| Baseball, softball | Tracker | HighSchoolOT baseball and softball trackers; Wooster / Wofford rosters |
+| Track / XC | Tracker | HighSchoolOT boys XC/track tracker; Bucknell roster |
+| Golf, tennis, volleyball, wrestling, boys soccer, girls basketball | Tracker | HighSchoolOT per-sport trackers — no entry beyond the school posts |
+| Field hockey, cheer, dance | School posts only | No commitment database; the posts name the cheer and dance signees |`},{subtopic:`Reachability`,source_file:null,preview:"- curl: clshawks.com, MaxPreps, every Sidearm college roster used, the HighSchoolOT trackers (20 pages from the hub), gamecocksonline.com, navysports.com. - Chrome only: RealGM (`basketball.realgm.com/highschool/teams/477/Charlotte-Latin-High-School`), LaxNumbers (`team_info.php?t=12771` boys, `t=22580` girls), Google…",text:"- curl: clshawks.com, MaxPreps, every Sidearm college roster used, the HighSchoolOT\n trackers (20 pages from the hub), gamecocksonline.com, navysports.com.\n- Chrome only: RealGM (`basketball.realgm.com/highschool/teams/477/Charlotte-Latin-High-School`),\n LaxNumbers (`team_info.php?t=12771` boys, `t=22580` girls), Google `site:` search (which\n surfaced the November 2023 and April 2024 posts that WebSearch did not).\n- Not used: On3, SwimCloud (blocked in the extension and to curl)."},{subtopic:`Results against the card (before → after)`,source_file:null,preview:`- Athletes added to the window: 20 roster rows plus 3 dance/cheer signees counted in the total only. - Sports filled in for the 10 rows the card listed as "Not published". - Funnel 48 / 14 D1 / 3 P4 → 63 / 22 D1 / 8 P4; Compare P4 3 → 8, D1 14 → 22.`,text:`- Athletes added to the window: **20 roster rows** plus **3 dance/cheer signees** counted in
+ the total only.
+- Sports filled in for the 10 rows the card listed as "Not published".
+- Funnel 48 / 14 D1 / 3 P4 → **63 / 22 D1 / 8 P4**; Compare P4 3 → 8, D1 14 → 22.`},{subtopic:`Nulls (searched, nothing beyond the school posts)`,source_file:null,preview:`- RealGM: no Latin basketball graduate of 2024–26 beyond Levy, Rose and Jones. - LaxNumbers boys 2024 and 2025: no recruits listed; 2026: Cutter, Hutcheson. - HighSchoolOT trackers with no Charlotte Latin entry: boys golf, boys lacrosse, boys soccer, boys tennis, girls basketball, girls cross country / track, girls…`,text:`- RealGM: no Latin basketball graduate of 2024–26 beyond Levy, Rose and Jones.
+- LaxNumbers boys 2024 and 2025: no recruits listed; 2026: Cutter, Hutcheson.
+- HighSchoolOT trackers with **no** Charlotte Latin entry: boys golf, boys lacrosse, boys
+ soccer, boys tennis, girls basketball, girls cross country / track, girls golf, girls
+ tennis, volleyball, wrestling.`},{subtopic:`Leads ruled out`,source_file:null,preview:`- Natalie Massardo (2024, Furman lacrosse) — absent from Furman's entry-year roster; excluded as a decommit (user decision). - Dempsey McMahon (2026, South Carolina soccer) — fails the graduate test on the evidence available: not on Latin's 2025-26 roster, not in any school post (user decision). - James Peters —…`,text:`- **Natalie Massardo** (2024, Furman lacrosse) — absent from Furman's entry-year roster;
+ excluded as a decommit (user decision).
+- **Dempsey McMahon** (2026, South Carolina soccer) — fails the graduate test on the
+ evidence available: not on Latin's 2025-26 roster, not in any school post (user decision).
+- **James Peters — Wofford** — the About page's college; the signing post and the tracker
+ say Wooster, which is what is counted.
+- **David Sammons** (Cal swimming) — Class of 2028, not a current senior (from the Class of
+ 2027 file).`},{subtopic:`Current seniors (Class of 2027)`,source_file:null,preview:`Unchanged confirmed count of 1 (Greathouse, George Washington). New lead: Adelaide Rhodes (girls lacrosse → Claremont-Mudd-Scripps, D3), LaxNumbers only. The school's November 2026 signing post is not up yet (the early signing period opens 2026-11-11). ---`,text:`Unchanged confirmed count of 1 (Greathouse, George Washington). New lead: Adelaide Rhodes
+(girls lacrosse → Claremont-Mudd-Scripps, D3), LaxNumbers only. The school's November 2026
+signing post is not up yet (the early signing period opens 2026-11-11).
+
 ---`},{subtopic:`Wells Fargo Cup Points 2026-27 Season`,source_file:`Charlotte Latin - Sports - Wells Fargo Cup Points 2026-27 Season.md`,preview:`# Charlotte Latin — Wells Fargo Cup point-earning results, 2026–27 season (in progress)`,text:`# Charlotte Latin — Wells Fargo Cup point-earning results, 2026–27 season (in progress)`},{subtopic:`Fall 2026 state championship finishes`,source_file:null,preview:`| Sport | Class | Finish | Final | Date | Source | |---|---|---|---|---|---| | Girls tennis | 4A | Champion (No. 1 seed) | Charlotte Latin 5, Providence Day (No. 2) 0 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=11&currentyear=1 |`,text:`| Sport | Class | Finish | Final | Date | Source |
 |---|---|---|---|---|---|
 | Girls tennis | 4A | Champion (No. 1 seed) | Charlotte Latin 5, Providence Day (No. 2) 0 | 2026-10-31 | https://www.ncisaa.org/playoff-brackets/?sport=11&currentyear=1 |`},{subtopic:`In progress`,source_file:null,preview:`- Division I football: No. 5 seed in the eight-team bracket; quarterfinal at No. 4 Christ School not yet played as of 2026-11-06. https://www.ncisaa.org/playoff-brackets/?sport=31&currentyear=1 ---`,text:`- Division I football: No. 5 seed in the eight-team bracket; quarterfinal at No. 4 Christ School not yet played as of 2026-11-06. https://www.ncisaa.org/playoff-brackets/?sport=31&currentyear=1
@@ -1075,4 +1253,4 @@ https://www.flowrestling.org/articles/15454487-2026-national-prep-wrestling-cham
 • NCISAA — 2025–26 champions — https://www.ncisaa.org/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 
----`}],i={school_slug:e,topic_slug:t,section_count:43,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:57,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
