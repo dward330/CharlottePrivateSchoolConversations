@@ -1,11 +1,11 @@
 ---
 name: ddcommits
 title: Davidson Day College Pipeline — varsity-roster cross-reference (21 / 13 D1 / 5 P4), Mason Smith → Furman, Compare D1 11 → 13
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-08
 branch: feat/davidson-day-commits-2026
-prs: []
+prs: [457]
 ---
 
 # Davidson Day College Pipeline — verified 2024–26 refresh
@@ -331,3 +331,11 @@ No chrome catalogs. Mechanism: `.claude/docs/prose-translation-architecture.md`.
 - **Whether `rosterNote` should mention Jacobs at all** (he left Charleston after one
   season). **Default:** keep the one sentence, which mirrors the transfer-sentence practice
   on other cards.
+
+## Implementation notes
+
+- **Phase 1** shipped as 16c9de0c and the user approved it. **Phase 2** shipped as cfeab814, in PR #457.
+- Phase 2 matched the forecast exactly: per locale, `sports` 5 added / 5 dropped and `metric-values` 1 / 1. The DD D1 path attached to the existing `13` unit. 17,424 kept translations were verified unchanged by stamp.
+- `check_work_integrity` reported 16 positional findings per locale. All are post-splice index shifts: the `11`/`13` `at` lists, the replaced qual, and one roster-sport unit. The stamp comparison is the authority.
+- `University of Charleston … in West Virginia` keeps the state name in Latin script in ht, bn, te and hi. It is translated in es, fr, it, fa and ar.
+- The first fa/ar range probe matched another card's teaser (`2024، 2026`). The probe was retargeted on the pipeline headline, and its `2024–26` reads left to right.
