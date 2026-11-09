@@ -55,6 +55,17 @@ https://www.maxpreps.com/nc/charlotte/charlotte-latin-hawks/volleyball/history/
 
 ## 3. College Pipeline — 48 commits, 14 D1, 3 P4
 
+> **Superseded 2026-11-08.** This section was the first pass, which used five of the nine
+> school signing posts in the 2024–26 window. The `/athlete-commits` graduate refresh read
+> all nine (Latin holds November, February and April events) and found 63 commitments, 22
+> Division I and 8 Power 4. It added Ivy Monk (UNC), Aidan Hill (Tennessee), Wiley Spinner
+> (Northwestern), Ardyn Henry (Cal) and Evie McMahan (Virginia) as Power 4, plus Jackson
+> DiRoma (Bucknell), Sean Rose (Navy) and Matthew Barber (Georgetown) as Division I. It also
+> filled in every "Not published" sport. The pipeline is led by swimming and lacrosse, and
+> football has two Division I commits, not one. See
+> `Charlotte Latin - Sports - College Commitments 2024-2026.md` and
+> `Charlotte Latin - Sports - Varsity Roster Cross-Reference 2026.md`.
+
 **The pipeline is swimming- and golf-led, not football-led** — football produced exactly
 one D1 commit across three classes, inverting the historical narrative.
 

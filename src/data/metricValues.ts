@@ -2284,8 +2284,8 @@ export const VALUE_METRICS: ValueMetric[] = [
   // signing-day coverage (see git history for per-athlete sourcing in this file's
   // review). These are DOCUMENTED MINIMUMS — coverage is uneven: Providence Day &
   // Country Day publish full by-class rosters; Charlotte Christian's public list runs
-  // through 2025 (its 2026 class isn't compiled yet); Charlotte Latin's academic-
-  // heavy classes send many to D3 and its November signing lists are partial; Cannon's
+  // through 2025 (its 2026 class isn't compiled yet); Charlotte Latin publishes a
+  // named post for each of its three yearly signing events and sends many to D3; Cannon's
   // best-known athletes (Richardson '21, Bradley '22, Nix '27) fall outside this window.
   {
     topic: 'sports',
@@ -2297,7 +2297,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '9', // ’24: Henley, Wilfong, Woody, Zinger · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
       'charlotte-catholic': '10', // Classes 2024-2026, table-parsed from three named articles: MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke), Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC), Hoffman (Va Tech)
       'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard — on the school’s own lists, cross-referenced 2026-11-08
-      'charlotte-latin': '3', // ’24 Salvage (South Carolina) · ’25 Clontz (Cal) · ’26 Lee (NC State)
+      'charlotte-latin': '8', // ’24 Salvage (South Carolina), Monk (North Carolina), Hill (Tennessee), Spinner (Northwestern), Henry (Cal), McMahan (Virginia) · ’25 Clontz (Cal) · ’26 Lee (NC State)
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
       'carmel-christian': '0', // no Power 4 commit 2024–26; top prospects took mid-majors
       'davidson-day': '5', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson), Arnold (Duke, walk-on), Perry (NC State)
@@ -2321,7 +2321,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-latin': {
         kind: 'minimum',
-        text: 'A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.',
+        text: 'A documented minimum. Charlotte Latin names every signee from its three yearly signing events; its academically heavy classes send many athletes to Division III.',
       },
       'covenant-day': {
         kind: 'minimum',
@@ -2343,7 +2343,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '35', // ’24: 11 · ’25: 15 · ’26: 9 (Layton ’24 drafted, never enrolled — excluded)
       'charlotte-catholic': '25', // of 35 documented athletes; P4 is a subset. The 2026 class is a documented MINIMUM — only the February ceremony is published, and CCHS holds separate fall and spring signing days
       'charlotte-country-day': '28', // ’24: 10 · ’25: 12 · ’26: 6 — every row on the school’s own per-class list (17 / 18 / 13), cross-referenced 2026-11-08
-      'charlotte-latin': '14', // ’24: Coppage, Floyd, Salvage (3) · ’25: Booker, Clontz, Connor, Milligan, Morgan (5) · ’26: Short, K.Smith, Lee, Holland, Gorelick, Cheatwood (6)
+      'charlotte-latin': '22', // ’24: Salvage, Monk, Hill, Spinner, Henry, McMahan, Coppage, Floyd, DiRoma, Rose (10) · ’25: Clontz, Booker, Connor, Milligan, Morgan (5) · ’26: Lee, Short, K.Smith, Holland, Gorelick, Cheatwood, Barber (7)
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
       'davidson-day': '11', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 under-documented — floor; 2026 complete per the school’s Athletics Recap)
@@ -2367,7 +2367,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-latin': {
         kind: 'minimum',
-        text: 'A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.',
+        text: 'A documented minimum. Charlotte Latin names every signee from its three yearly signing events; its academically heavy classes send many athletes to Division III.',
       },
       'covenant-day': {
         kind: 'minimum',
