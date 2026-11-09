@@ -25,6 +25,15 @@ girls basketball previews, RealGM (Chrome) where a team page was reachable, and 
 own athletics news pages. School-published signing-day posts for the Class of 2027 are not
 yet up anywhere: the early signing period opens 2026-11-11. Re-run after it.
 
+## Sweep record (2026-11-09, `/athlete-commits`)
+Re-checked against the varsity-roster cross-reference: 47 Class of 2027 athletes on the
+2026-27 MaxPreps rosters (and as juniors in 2025-26) across football, soccer, field
+hockey, volleyball, girls tennis, baseball, softball, basketball and boys volleyball. No
+public commitment in the 18 HighSchoolOT per-sport trackers, the NC Football News 2027
+pages, TopDrawerSoccer, Prep Baseball Report's 2027 profiles or RealGM. Lions News has no
+fall 2026 signing post (the early signing period opens 2026-11-11). **Still provisional —
+re-run after the November wave.**
+
 ## Confirmed — 0
 
 ## Leads

@@ -14,6 +14,12 @@ first in the nation" during an 8-game unbeaten streak, and **175+ collegiate
 athletes** all-time. The 2024-2026 college pipeline is 33 documented commitments —
 9 Division I, 1 Power 4 (Emily Eaton, Louisville field hockey, ACC).
 
+> **Superseded 2026-11-09 (pipeline counts):** the commit figures and the "4 recoverable"
+> caveat below are replaced by the varsity-roster cross-reference — **35 committed, 10
+> Division I, 1 Power 4**, and the Class of 2024 is complete as the school published it.
+> See `Covenant Day School - Sports - College Commitments 2024-2026.md` and
+> `Covenant Day School - Sports - Varsity Roster Cross-Reference 2026.md`.
+
 ### Counting rules used by the app
 
 - **Teams = 18**, the school's own figure ("18 sports teams at the varsity, JV, and

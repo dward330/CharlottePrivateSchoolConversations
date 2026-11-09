@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Sports
-> Distilled from 6 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+> Distilled from 6 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-09.
 **Documents:** 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Program Championships and College Commitments, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -231,7 +231,7 @@ Composite (shown in the app) and 247Sports in-house lists, NC, high-school insti
 | Charlie Smith | Football (QB/DB) | Harvard | Ivy | D1 | **NEW.** Harvard roster; Observer 4 Dec 2024; HighSchoolOT; 247 Composite NC #66 |
 | Jack Baade | Football (LS) | Harvard | Ivy | D1 | **NEW.** Harvard roster ("Charlotte Catholic (N.C.)", hometown Fort Mill, S.C.); Observer 4 Dec 2024 |
 | Nick Bierman | Football (WR) | Lafayette College | Patriot | D1 | **NEW.** Lafayette roster; Observer 4 Dec 2024 |
-| Luciano Salas | Swimming | Queens University of Charlotte | *conf to confirm* | D1 | **NEW.** Queens roster (So. 2026-27, last school Charlotte Catholic); MaxPreps 2023-24 boys swimming roster lists him as a junior ("Diegoluciano Salas") |
+| Luciano Salas | Swimming | Queens University of Charlotte | ASUN | D1 | **NEW.** Queens roster (So. 2026-27, last school Charlotte Catholic); conference confirmed 2026-11-08 on Queens' own release, "Queens men crowned champions, Royals collect major ASUN honors" (https://queensathletics.com/news/2026/2/22/mens-swimming-diving-queens-men-crowned-champions-royals-collect-major-asun-honors-on-final-day.aspx); MaxPreps 2023-24 boys swimming roster lists him as a junior ("Diegoluciano Salas") |
 | Chris Eagan | Basketball | American University | Patriot | D1 | Observer; RealGM |
 | Giovanni Delissio | Lacrosse | University of Detroit Mercy | Horizon | D1 | Observer; HighSchoolOT; LaxNumbers |
 | Cannon Ridinger | Lacrosse | Providence College | Big East | D1 | Observer; LaxNumbers |
@@ -973,6 +973,7 @@ Every row a school on Charlotte Catholic's table needs in `CUP_RECORDS`, all NCH
 - https://ncfootballnews.com/2027-north-carolina-high-school-football-college-commits/
 - https://ohiobobcats.com/sports/football/roster/2024
 - https://ohiobobcats.com/sports/football/roster/2025
+- https://queensathletics.com/news/2026/2/22/mens-swimming-diving-queens-men-crowned-champions-royals-collect-major-asun-honors-on-final-day.aspx
 - https://queensathletics.com/sports/baseball/roster
 - https://queensathletics.com/sports/mens-swimming-and-diving/roster
 - https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf

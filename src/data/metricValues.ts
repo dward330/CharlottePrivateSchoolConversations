@@ -2325,7 +2325,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'minimum',
-        text: 'A documented minimum: Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. The Class of 2024’s spring signing article is only partially recoverable, so earlier 2024 commits may be missing.',
+        text: 'A documented minimum: Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. She is the one Power Four commitment among the 35 that the school’s signing posts and alumni lists document for 2024–2026.',
       },
       'davidson-day': {
         kind: 'minimum',
@@ -2344,7 +2344,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '39', // of 54 documented athletes; P4 is a subset. See the CCHS College Commitments 2024-2026 source file
       'charlotte-country-day': '28', // ’24: 10 · ’25: 12 · ’26: 6 — every row on the school’s own per-class list (17 / 18 / 13), cross-referenced 2026-11-08
       'charlotte-latin': '22', // ’24: Salvage, Monk, Hill, Spinner, Henry, McMahan, Coppage, Floyd, DiRoma, Rose (10) · ’25: Clontz, Booker, Connor, Milligan, Morgan (5) · ’26: Lee, Short, K.Smith, Holland, Gorelick, Cheatwood, Barber (7)
-      'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
+      'covenant-day': '10', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner (App State), Stanley, Rivens (Charlotte football) (5) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
       'davidson-day': '13', // ’24: M.Smith (Furman), Neace (Wofford), Zulman (Villanova) · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 from college rosters — no school list; 2025/2026 per the school’s lists)
       'hickory-grove-christian': '3', // all baseball: Cabbage (UNCW ’25), Green (UNC Asheville ’25), Johnson (ETSU) — mid-major
@@ -2371,7 +2371,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'minimum',
-        text: 'A documented minimum from the school’s own signing articles: Eaton and Marcus (’24), Huitt, Dirks, Gardner and Stanley (’25), Neil, Welsh and Houseton (’26). The Class of 2024 article is only partially recoverable, so the floor may be low.',
+        text: 'A documented minimum from the school’s own signing posts and alumni lists: Eaton and Marcus (’24); Huitt, Dirks, Gardner, Stanley and Rivens (’25), Gardner at Appalachian State and Rivens in football at UNC Charlotte; Neil, Welsh and Houseton (’26).',
       },
       'davidson-day': {
         kind: 'minimum',
@@ -2402,7 +2402,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '1', // Greathouse (George Washington swim)
       'gaston-day': '1', // B.Smith (Stanford swim) — the AD confirmed it to the Observer; no pipeline card to list her on
       'charlotte-country-day': '0', // none confirmed; leads: Blythe (Furman lacrosse), Hatcher (Saint Joseph’s lacrosse), both LaxNumbers-only; re-check after the 2026-11-11 signing period
-      'covenant-day': '0', // none found; fall Lions News signing post not yet published
+      'covenant-day': '0', // none found (re-checked 2026-11-09 against all 2026-27 rosters); fall Lions News signing post not yet published — re-run after 2026-11-11
       'davidson-day': '0', // none found
       'carmel-christian': '0', // none found; RealGM lists four 2027 players with no college
       'hickory-grove-christian': '0', // none found
