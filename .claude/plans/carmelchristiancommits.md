@@ -1,11 +1,11 @@
 ---
 name: carmelchristiancommits
 title: Carmel Christian College Pipeline — varsity-roster cross-reference (20 / 6 D1 / 1 P4), Buzzard removed, Compare P4 0 → 1, D1 5 → 6
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-09
 branch: feat/carmel-christian-commits-2026
-prs: []
+prs: [460]
 ---
 
 # Carmel Christian College Pipeline — verified 2024–26 refresh
@@ -411,3 +411,9 @@ The mechanism is in `.claude/docs/prose-translation-architecture.md`. Follow the
 - **Prose wording** settles at the Phase 1 review. **Default:** as written in step 3.
 - **Dance-team mention in `realityCheck`.** Keeping it explains why the school's list is longer
   than 20. **Default:** keep it; drop the sentence if the user prefers.
+
+## Implementation notes
+
+- **Phase 2 (2026-11-09)** went exactly as forecast. `sports` gained and lost 6 units per locale, and `metric-values` had 0 units added or dropped, with two path moves. The 17,433 kept translations are identical by stamp.
+- `check_work_integrity` reports 23 index-keyed flags per locale, caused by the metric-values `at` moves. They were verified by stamp and are false alarms.
+- The browser probe of the fa range must run with the card **closed**. The teaser is hidden when the card is open, so its rects measure 0.
