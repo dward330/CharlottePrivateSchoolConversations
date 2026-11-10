@@ -23,31 +23,39 @@
 // different cycles over time, every figure here is anchored to the live pages
 // as retrieved on the dates in the research file.
 //
-// ⚠️ THE DEFINING STRUCTURAL FACT — NO DECISION OR CONTRACT DATES, ANY BAND.
-// Charlotte Latin publishes no admission decision date, no notification time
-// and no enrollment contract due date, for any of its four bands. Re-verified
-// 2026-08-31 across three official pages (Application Process, Tuition &
-// Financial Assistance, Admissions landing): the phrase does not appear, and
-// every band's published timeline ENDS at the application or all-file-material
-// deadline. This is a confirmed ABSENCE, not a research gap.
+// ⚠️ NOTIFICATION DAYS PUBLISHED; NO CONTRACT DATE (updated 2026-11-10, plan
+// latinnotify). The Application Process page's "Important Admissions and
+// Financial Aid Dates" block reads "February 26: TK and K notification day; TK
+// and K financial award decisions communicated" and "April 9: Grades 1-11
+// notification day; Grades 1-11 financial aid award decisions communicated".
+// The block states NO YEAR. Every other date on the page is 2027 (its "January
+// 2: TK and K applications due" is the page's "January 2, 2027 - Application
+// due"), and both days match the other CAIS schools' 2027 notification dates,
+// so the card ships them as Feb 26, 2027 and Apr 9, 2027. GRADE 12 IS NOT NAMED
+// — the Upper School band says so. NO ENROLLMENT CONTRACT DATE is published.
 //
-// Two consequences, both deliberate and both easy to "fix" back into a bug:
-//   1. EVERY BAND ENDS ONE STEP EARLIER than Providence Day, Country Day and
-//      Charlotte Christian, each of which closes with `Decision → contract +
-//      deposit`. Do not add a decision or contract step, tile or comparison
-//      cell to any band here. The comparison table states the absence outright,
-//      which is the honest way to show it.
-//   2. THE $2,500 DEPOSIT HAS NO DECISION STEP TO ATTACH TO. It is published on
-//      the Tuition page as an enrollment CONDITION, not as a dated admissions
-//      milestone, so it ships in the `aid` strip and the checklist aid panel
-//      rather than as a deadline tile — a tile would imply a date the school
-//      does not publish.
+// HISTORY: on 2026-08-31 the absence of any decision date was "the defining
+// structural fact" of this card, and it carried a rule — "do not add a
+// decision or contract step, tile or comparison cell". The school then
+// published the two notification days, and the user retired that rule on
+// 2026-11-10: every band now ends with a `Decision` deadline tile, a final
+// `Decision` step and a "Watch for your notification day" checklist row, like
+// Providence Day, Country Day and Charlotte Christian. The step is titled
+// `Decision`, not "Decision → contract", because no contract date exists.
+// Every new tile and step was APPENDED, never inserted mid-array, so earlier
+// overlay paths stay valid.
 //
-// THREE DEADLINE TILES IN THE TWO LOWER BANDS, BY DESIGN. TK/Kindergarten and
-// Lower School publish no all-file-material deadline, so they carry three tiles
-// where Middle and Upper carry four. `.adm-deadlines` is
-// `repeat(auto-fit, minmax(150px, 1fr))`, so a 3-tile strip is a first-class
-// layout. Do NOT pad with an invented fourth tile, and do NOT reach for
+// THE $2,500 DEPOSIT stays where it was. It is published on the Tuition page as
+// an enrollment CONDITION, not as a dated milestone, so it ships in the `aid`
+// strip and the checklist aid panel, and the Decision steps mention it, rather
+// than as a deadline tile — a tile would imply a date the school does not
+// publish.
+//
+// FOUR DEADLINE TILES IN TK/K, THREE IN LOWER SCHOOL, FIVE IN MIDDLE AND UPPER.
+// TK/Kindergarten and Lower School publish no all-file-material deadline, so
+// they carry fewer tiles than Middle and Upper. `.adm-deadlines` is
+// `repeat(auto-fit, minmax(150px, 1fr))`, so a 3-, 4- or 5-tile strip is a
+// first-class layout. Do NOT pad with an invented tile, and do NOT reach for
 // `unpublished: true` — that flag marks a KNOWN CONSTANT standing in for a
 // missing date (Providence Day's `4:00 p.m.`). Latin publishes no such
 // constant, so no tile on this card carries the flag.
@@ -55,15 +63,20 @@
 // ROLLING ADMISSIONS IS NOT SHIPPED AS CURRENT POLICY. A prior-cycle
 // admissions-director blog post states the school "enters rolling admissions"
 // after January 15. That is NOT restated on the current Application Process
-// page, and no fixed common notification date is published for this cycle, so
-// it is historical guidance rather than confirmed 2026–27 policy and appears
+// page, and the school now publishes fixed notification days instead (see
+// above), so it is historical guidance rather than current policy and appears
 // nowhere on the card.
 //
 // THE NEST IS A SEPARATE SCHOOL FOR THIS PURPOSE. Latin's licensed preschool,
 // "The Nest", publishes an age cutoff and an employee/alumnus and younger-
 // sibling preference. Those govern the PRESCHOOL, not TK–12 admission, and must
 // never be extended to this card. No sibling, legacy/alumni or faculty-children
-// preference is published for TK–12.
+// preference is published for TK–12. SEPARATELY, the Application Process
+// page's events calendar listed "K-12 Sibling Admissions Applications Due" on
+// Oct 15, 2026 — an earlier DEADLINE for siblings, not a published admission
+// preference. Each band's application step names it (user decision
+// 2026-11-10), as a past date. It says K-12, so the TK/K band does not claim
+// it covers TK.
 //
 // TK/K AGE ELIGIBILITY IS NOT PUBLISHED, and North Carolina's statutory
 // public-school kindergarten cutoff is deliberately NOT attributed to the
@@ -104,13 +117,14 @@
 // Visit Day, the unpublished TK/K age cutoff, the twice-changing Lower School
 // assessment and its two booking routes, the missing all-file deadline in the
 // lower bands, the Feb 26 back-planning constraint, the Middle and Upper Visit
-// Day characters, the unpublished Grade 12 assessment, and the absent decision
-// and contract dates. That is exactly why both prior trims were safe.
+// Day characters, the unpublished Grade 12 assessment, the notification days
+// and the absent contract date. That is exactly why both prior trims were safe.
 //
 // NO URL-LESS TRAILING NOTE IN `sources` (2026-08-31). Charlotte Christian's
 // two "Retrieved Aug 2026" prose notes were cut at review as prose paragraphs
 // in a row of citation links. Every entry below carries a URL. The NOT-PUBLISHED
-// register — decision and contract dates, the application fee, the TK/K age
+// register — the enrollment contract date (decision days ARE published since
+// 2026-11-10, except Grade 12's), the application fee, the TK/K age
 // cutoff, recommendation forms, writing samples, parent interviews, waitlist
 // procedures, sibling/legacy/faculty preference, re-application, transfer and
 // mid-year entry, international I-20/visa and English-proficiency testing, the
@@ -172,20 +186,21 @@ export const charlotteLatin: AdmissionsProgram = {
     ],
 
     spineNote:
-      'Every band follows the same four steps: apply online through the portal → attend a Visit Day → complete a standardized assessment → meet the deadlines. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.',
+      'Every band follows the same five steps. First: apply online through the portal → attend a Visit Day → complete a standardized assessment. Then: meet the deadlines → hear back on notification day. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.',
 
     bands: [
       {
         key: 'tkk',
         label: 'TK / Kindergarten',
         title: 'Transitional Kindergarten & Kindergarten',
-        // Three tiles: this band publishes no all-file-material deadline. See
-        // the header — the strip is auto-fit and a 3-tile row is a first-class
-        // layout, so it is not padded with an invented fourth.
+        // Four tiles: this band publishes no all-file-material deadline, so it
+        // has one fewer than Middle and Upper. See the header — the strip is
+        // auto-fit, so it is not padded with an invented tile.
         deadlines: [
           { value: 'Jan 2, 2027', label: 'application due' },
           { value: 'Oct 10, 2026', label: 'TK/K Fly By Open House — 9:30–11:00 a.m.' },
           { value: 'Jan 15, 2027', label: 'financial aid application due' },
+          { value: 'Feb 26, 2027', label: 'notification day' },
         ],
         steps: [
           {
@@ -207,7 +222,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 2',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band\'s deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being "designed for children that are newly five and ready for Kindergarten," and states no calendar date. Ask the admissions office where your child falls.',
+              'Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band\'s deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being "designed for children that are newly five and ready for Kindergarten," and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.',
           },
           {
             title: 'Attend a Visit Day — the office schedules it',
@@ -228,7 +243,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band\'s own application deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band\'s own application deadline. One application covers every child in the family. Award decisions come on your notification day, **February 26, 2027**.',
+          },
+          {
+            title: 'Decision',
+            tag: 'Feb 26',
+            tagKind: 'accent',
+            detail:
+              '**February 26, 2027** is the school\'s "TK and K notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The earlier deadline,
@@ -238,7 +260,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Your application deadline is Jan 2, 2027.',
-          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.',
+          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No enrollment contract date is published, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -277,9 +299,9 @@ export const charlotteLatin: AdmissionsProgram = {
             due: 'Jan 15, 2027',
           },
           {
-            action: 'Confirm the decision and contract dates with admissions',
-            detail: 'Neither is published for any band. Ask when you should expect to hear.',
-            due: 'Confirm',
+            action: 'Watch for your notification day',
+            detail: 'Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.',
+            due: 'Feb 26, 2027',
           },
         ],
       },
@@ -287,15 +309,16 @@ export const charlotteLatin: AdmissionsProgram = {
         key: 'ls',
         label: 'Lower School · Grades 1–5',
         title: 'Lower School — Grades 1–5',
-        // TWO tiles, and deliberately not three. Like TK/K this band publishes
-        // no all-file-material deadline, and unlike TK/K it has no dated event
-        // to name either — the Fly By Open House is TK/K only. A third tile
-        // reading "Not published" would be an invented tile, which is exactly
+        // THREE tiles (application, aid, notification day). Like TK/K this band
+        // publishes no all-file-material deadline, and unlike TK/K it has no
+        // dated event to name either — the Fly By Open House is TK/K only. A
+        // tile reading "Not published" would be an invented tile, which is exactly
         // what the no-padding rule in the header forbids; the absence is stated
         // in the callout and in the cross-band table instead.
         deadlines: [
           { value: 'Jan 15, 2027', label: 'application due' },
           { value: 'Jan 15, 2027', label: 'financial aid application due' },
+          { value: 'Apr 9, 2027', label: 'notification day' },
         ],
         steps: [
           {
@@ -310,7 +333,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten.',
+              'Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
           },
           {
             title: 'Schedule and attend a Visit Day',
@@ -331,7 +354,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band\'s application deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band\'s application deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.',
+          },
+          {
+            title: 'Decision',
+            tag: 'Apr 9',
+            tagKind: 'accent',
+            detail:
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The twice-changing
@@ -340,7 +370,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'The assessment changes twice inside this one band.',
-          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date or enrollment contract date is published for any band. Confirm both with the admissions office.',
+          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -374,9 +404,9 @@ export const charlotteLatin: AdmissionsProgram = {
             due: 'Jan 15, 2027',
           },
           {
-            action: 'Confirm the decision and contract dates with admissions',
-            detail: 'Neither is published for any band. Ask when you should expect to hear.',
-            due: 'Confirm',
+            action: 'Watch for your notification day',
+            detail: 'Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.',
+            due: 'Apr 9, 2027',
           },
         ],
       },
@@ -389,6 +419,7 @@ export const charlotteLatin: AdmissionsProgram = {
           { value: 'Feb 26, 2027', label: 'testing completed and submitted' },
           { value: 'Feb 26, 2027', label: 'all file material due' },
           { value: 'Jan 15, 2027', label: 'financial aid application due' },
+          { value: 'Apr 9, 2027', label: 'notification day' },
         ],
         steps: [
           {
@@ -403,7 +434,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and ninth grade.',
+              'Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
           },
           {
             title: 'Schedule and attend a Visit Day — interview included',
@@ -431,7 +462,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.',
+          },
+          {
+            title: 'Decision',
+            tag: 'Apr 9',
+            tagKind: 'accent',
+            detail:
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The Feb 26
@@ -440,7 +478,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'February 26, 2027 is the date that binds this band.',
-          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.',
+          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -479,9 +517,9 @@ export const charlotteLatin: AdmissionsProgram = {
             due: 'Jan 15, 2027',
           },
           {
-            action: 'Confirm the decision and contract dates with admissions',
-            detail: 'Neither is published for any band. Ask when you should expect to hear.',
-            due: 'Confirm',
+            action: 'Watch for your notification day',
+            detail: 'Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.',
+            due: 'Apr 9, 2027',
           },
         ],
       },
@@ -494,6 +532,7 @@ export const charlotteLatin: AdmissionsProgram = {
           { value: 'Feb 26, 2027', label: 'testing completed and submitted' },
           { value: 'Feb 26, 2027', label: 'all file material due' },
           { value: 'Jan 15, 2027', label: 'financial aid application due' },
+          { value: 'Apr 9, 2027', label: 'notification day — Grades 9–11' },
         ],
         steps: [
           {
@@ -508,7 +547,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and sixth grade.',
+              'Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
           },
           {
             title: 'Schedule and attend a Visit Day — interview and a shadow day',
@@ -536,7 +575,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family. For Grades 9–11, award decisions come on the notification day, **April 9, 2027**.',
+          },
+          {
+            title: 'Decision',
+            tag: 'Apr 9',
+            tagKind: 'accent',
+            detail:
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**. That notification day covers Grades 9–11. **No notification date is published for Grade 12**, so a Grade 12 family should ask the admissions office.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The Feb 26
@@ -546,7 +592,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'February 26, 2027 is the date that binds this band.',
-          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. No decision date and no enrollment contract date are published for any band. Confirm both with the office.',
+          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. Decisions for Grades 9–11 come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the office.',
         },
         checklistRows: [
           {
@@ -585,9 +631,9 @@ export const charlotteLatin: AdmissionsProgram = {
             due: 'Jan 15, 2027',
           },
           {
-            action: 'Confirm the decision and contract dates with admissions',
-            detail: 'Neither is published for any band. Ask when you should expect to hear.',
-            due: 'Confirm',
+            action: 'Watch for your notification day',
+            detail: 'Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12 or for the contract; ask admissions.',
+            due: 'Apr 9, 2027',
           },
         ],
       },
@@ -595,7 +641,7 @@ export const charlotteLatin: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. One application covers every child in the family and "typically takes 30 minutes or less to complete." Separately, a **$2,500 non-refundable deposit** is "required at the time of initial enrollment or reenrollment" and is "deducted from the second tuition payment". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.',
+      text: 'Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. Award decisions come on notification day: **February 26, 2027** for TK and Kindergarten, and **April 9, 2027** for Grades 1–11. One application covers every child in the family and "typically takes 30 minutes or less to complete." Separately, a **$2,500 non-refundable deposit** is "required at the time of initial enrollment or reenrollment" and is "deducted from the second tuition payment". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -660,7 +706,10 @@ export const charlotteLatin: AdmissionsProgram = {
         {
           label: 'Decision and contract',
           cells: {
-            all: 'Not published in any band — confirm with the admissions office. Every published timeline ends at the application or file-material deadline. No admissions page gives a date or time when decisions are sent, or a date for the enrollment contract.',
+            tkk: 'Feb 26, 2027 · no contract date published',
+            ls: 'Apr 9, 2027 · no contract date published',
+            ms: 'Apr 9, 2027 · no contract date published',
+            us: 'Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract date published',
           },
         },
         {
@@ -700,7 +749,7 @@ export const charlotteLatin: AdmissionsProgram = {
         items: [
           'Apply through Clarity at app.clarityapp.com. If you are applying for multiple children you need only one application, and it typically takes 30 minutes or less to complete.',
           'The application opens on September 15, 2026.',
-          'Submit by January 15, 2027 to be considered for priority-round decisions.',
+          'Submit by January 15, 2027 to be considered for priority-round decisions. Award decisions come on notification day: February 26, 2027 for TK and Kindergarten, and April 9, 2027 for Grades 1–11.',
           'A $2,500 non-refundable deposit is required when a student first enrolls or reenrolls. It is deducted from the second tuition payment. No student can be enrolled or reenrolled without it.',
           'No financial aid application fee is published for this cycle.',
         ],
@@ -714,13 +763,13 @@ export const charlotteLatin: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026). They come from the application process, tuition and financial assistance, and admissions pages. Items marked "confirm" are either shown only inside the application portal or not published at all. Those items include every decision and enrollment contract date. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
+        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
     },
 
     sources: [
       {
         label:
-          'charlottelatin.org — application process: the four grade-band tabs, every application deadline, each band\'s Visit Day description and who schedules it, the assessment by grade, and the Feb 26, 2027 testing and file-material dates',
+          'charlottelatin.org — application process: the four grade-band tabs, every application deadline, each band\'s Visit Day description and who schedules it, the assessment by grade, the Feb 26, 2027 testing and file-material dates, the notification days and the K-12 sibling deadline',
         url: 'https://www.charlottelatin.org/admissions/application-process',
       },
       {

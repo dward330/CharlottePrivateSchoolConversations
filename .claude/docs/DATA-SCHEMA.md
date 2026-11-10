@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 558 ingested research documents.
+**13 schools × 12 research areas**, 559 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -57,7 +57,7 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Charlotte Preparatory | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day | Trinity Episcopal |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Admissions | `admissions` | — | — | — | 2 | 3 | 1 | 2 | 2 | — | — | 4 | 2 | 2 |
+| Admissions | `admissions` | — | — | — | 2 | 3 | 2 | 2 | 2 | — | — | 4 | 2 | 2 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 3 | 1 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
@@ -85,7 +85,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Admissions Research Dossier (2026) | 8/13 | 12 |
+| `redesign-research` | Admissions Research Dossier (2026) | 8/13 | 13 |
 
 ### Course Offerings `course-offerings`
 

@@ -1,7 +1,7 @@
 ---
 name: latinnotify
 title: Charlotte Latin admissions freshness — publish the two notification days and the sibling deadline, relabel the research note to entry-year cycles
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-10
 branch: feat/latinnotify
@@ -353,3 +353,49 @@ on Compare.
 - Should the decision tile mention that financial-aid awards come the same day? —
   **default:** no. Keep the tile label short ("notification day") and say it in the step
   and the aid step.
+
+## Implementation notes
+
+### Phase 1 (2026-11-10)
+
+- **Research note relabeled** to entry-year cycles. Its "Next cycle" line now reads
+  "fall 2028 entry, 2028–29", re-checked 2026-11-10. The 2026-08-31 no-decision section is
+  marked SUPERSEDED, with a dated update quoting the two notification lines. The timeline
+  gains the Feb 26 / Apr 9 / Oct 15 sibling entries. "Tuition (2026–27)" is unchanged.
+- **Ingest:** `build_docs.py admissions` + `build_site_content.py`.
+  - The seven other admissions notes changed only their "Rebuilt" date, so they were
+    restored.
+  - `schools.json` came back reordered (the known ingest quirk). It was rebuilt in `HEAD`
+    order with just the one new document and Latin's `doc_count` 1 → 2.
+  - `check:metrics` reports no new Latin finding. Its existing findings (the uningested
+    `_shared` glossary, and 5 schools with no admissions research) predate this plan.
+  - `check:schema` drifted on the document count only (558 → 559), so `npm run schema`
+    was run.
+- **Card edits:**
+  - every band: an appended notification-day tile, a final `Decision` step, the sibling
+    sentence, the aid-step award sentence, and a "Watch for your notification day" row
+    (replaced in place);
+  - every callout's last sentences;
+  - comparison row 6, now per-band cells;
+  - `aid.text`, `aidPanel.items[2]`, `spineNote` (five steps, "First: … Then: …"),
+    `disclaimer` and `sources[0]`.
+
+  Tile counts are now tkk 4 / ls 3 / ms 5 / us 5.
+- **Deviation:** the disclaimer said 'Items marked "confirm" are…'. No checklist row is
+  marked "Confirm" anymore, so the sentence now reads "Some items, such as the
+  enrollment contract date, are shown only inside the application portal or are not
+  published at all."
+- **Checks:**
+  - plain-language hook: `clean`;
+  - `npx tsc -b` and `npx vite build` pass;
+  - `check:schema`, `spelling`, `chrome`, `runtime`, `moneytext`, `dates`, `spans` and
+    `schoolurls` are green;
+  - `gen_admissions_report.mjs --school charlotte-latin` exits 0;
+  - `check:live` reports **19 stale stamps per locale, all `admissions`**. That is Phase
+    2's revise set. The new tiles, steps and cells add further units with no predecessor.
+- **Browser** (headed Chrome, `vite preview`, all 4 bands, every `<details>` open, all 4
+  checklist pages):
+  - all the new text renders;
+  - no stale "No decision date" or "Confirm the decision" text remains;
+  - no literal `**`;
+  - 390px `scrollWidth` is 375 in every band, including the 5-tile ones.
