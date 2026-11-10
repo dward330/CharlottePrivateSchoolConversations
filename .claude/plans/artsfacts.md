@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-10
 branch: fix/artsfacts
-prs: []
+prs: [477]
 ---
 
 # The Arts — fix the issues plainarts flagged
