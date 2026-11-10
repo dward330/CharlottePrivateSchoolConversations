@@ -6,7 +6,7 @@ phases: 2
 batches: 3                     # Phase 1 is built in three batches, each with its own review stop
 created: 2026-11-09
 branch: feat/plaincollege
-prs: []
+prs: [467]
 ---
 
 # Plain-language rewrite — College Support
