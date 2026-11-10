@@ -305,6 +305,8 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[0].deadlines[3].value",
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
         "charlotte-latin:guide.bands[2].deadlines[1].value",
         "charlotte-latin:guide.bands[2].deadlines[2].value",
         "charlotte-latin:guide.bands[2].checklistRows[4].due",
@@ -885,6 +887,12 @@
         "providence-day:guide.bands[2].deadlines[2].value",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].deadlines[2].value",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].deadlines[4].value",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].deadlines[4].value",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].deadlines[2].value",
         "charlotte-christian:guide.bands[1].checklistRows[7].due",
         "charlotte-christian:guide.bands[2].deadlines[2].value",
@@ -1766,12 +1774,12 @@
       "t": "చక్రపు తేదీలు ఏటా మారుతాయి, గత సీజన్‌లో ఈ పేజీలు వేరే తేదీలను చూపించాయి. వీటిలో దేని ఆధారంగానైనా చర్య తీసుకునే ముందు ప్రత్యక్ష ప్రవేశ పేజీలతో సరిచూసుకోండి."
     },
     {
-      "text": "Every band follows the same four steps: apply online through the portal → attend a Visit Day → complete a standardized assessment → meet the deadlines. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.",
-      "of": "4c624c7a",
+      "text": "Every band follows the same five steps. First: apply online through the portal → attend a Visit Day → complete a standardized assessment. Then: meet the deadlines → hear back on notification day. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.",
+      "of": "9efab3b0",
       "at": [
         "charlotte-latin:guide.spineNote"
       ],
-      "t": "ప్రతి స్థాయీ అవే నాలుగు దశలను అనుసరిస్తుంది: పోర్టల్ ద్వారా ఆన్‌లైన్‌లో దరఖాస్తు → ఒక Visit Day కి హాజరు → ప్రామాణిక పరీక్ష → గడువులు పాటించడం. స్థాయిల మధ్య మారేవి — మీ పిల్లవాడు ఏ పరీక్ష రాస్తాడు, Visit Day ని ఎవరు నిర్ణయిస్తారు: ప్రవేశ కార్యాలయమా లేక మీరా. ఆ రోజు ఇంటర్వ్యూ ఉంటుందా, మీరు ఏ గడువు వైపు పని చేస్తారు అన్న విషయాల్లో కూడా స్థాయిలు వేరుగా ఉంటాయి."
+      "t": "ప్రతి స్థాయీ అవే ఐదు దశలను అనుసరిస్తుంది. మొదట: పోర్టల్ ద్వారా ఆన్‌లైన్‌లో దరఖాస్తు → ఒక Visit Day కి హాజరు → ప్రామాణిక పరీక్ష. తర్వాత: గడువులు పాటించడం → ఫలితాల ప్రకటన రోజు నాడు జవాబు అందుకోవడం. స్థాయిల మధ్య మారేవి — మీ పిల్లవాడు ఏ పరీక్ష రాస్తాడు, Visit Day ని ఎవరు నిర్ణయిస్తారు: ప్రవేశ కార్యాలయమా లేక మీరా. ఆ రోజు ఇంటర్వ్యూ ఉంటుందా, మీరు ఏ గడువు వైపు పని చేస్తారు అన్న విషయాల్లో కూడా స్థాయిలు వేరుగా ఉంటాయి."
     },
     {
       "text": "application due",
@@ -1812,6 +1820,16 @@
         "charlotte-latin:guide.bands[3].deadlines[3].label"
       ],
       "t": "ఆర్థిక సహాయ దరఖాస్తు గడువు"
+    },
+    {
+      "text": "notification day",
+      "of": "0d52f720",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[3].label",
+        "charlotte-latin:guide.bands[1].deadlines[2].label",
+        "charlotte-latin:guide.bands[2].deadlines[4].label"
+      ],
+      "t": "ఫలితాల ప్రకటన రోజు"
     },
     {
       "text": "Submit an inquiry, then create your family profile",
@@ -1860,12 +1878,12 @@
       "t": "దరఖాస్తు పూర్తి చేయండి"
     },
     {
-      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls.",
-      "of": "52ca6e42",
+      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.",
+      "of": "3c4bf219",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ],
-      "t": "తప్పనిసరి, గడువు **జనవరి 2, 2027**. ఇది పాఠశాలలోని మిగతా ప్రతి తరగతి కంటే పదమూడు రోజులు ముందు. కాబట్టి ఈ స్థాయి గడువు జనవరి మధ్యలో కాక మొదటి వారంలో పడుతుంది. Transitional Kindergarten కి గానీ Kindergarten కి గానీ **ఎలాంటి వయసు లేదా పుట్టిన తేదీ పరిమితి ప్రచురించలేదు**. పాఠశాల TK ని సాధారణ మాటల్లో మాత్రమే, «అప్పుడే ఐదేళ్లు నిండి Kindergarten కి సిద్ధమైన పిల్లల కోసం రూపొందించినది» అని వర్ణిస్తుంది, ఏ తేదీనీ చెప్పదు. మీ పిల్లవాడు ఎక్కడ ఉంటాడో ప్రవేశ కార్యాలయాన్ని అడగండి."
+      "t": "తప్పనిసరి, గడువు **జనవరి 2, 2027**. ఇది పాఠశాలలోని మిగతా ప్రతి తరగతి కంటే పదమూడు రోజులు ముందు. కాబట్టి ఈ స్థాయి గడువు జనవరి మధ్యలో కాక మొదటి వారంలో పడుతుంది. Transitional Kindergarten కి గానీ Kindergarten కి గానీ **ఎలాంటి వయసు లేదా పుట్టిన తేదీ పరిమితి ప్రచురించలేదు**. పాఠశాల TK ని సాధారణ మాటల్లో మాత్రమే, «అప్పుడే ఐదేళ్లు నిండి Kindergarten కి సిద్ధమైన పిల్లల కోసం రూపొందించినది» అని వర్ణిస్తుంది, ఏ తేదీనీ చెప్పదు. మీ పిల్లవాడు ఎక్కడ ఉంటాడో ప్రవేశ కార్యాలయాన్ని అడగండి. ప్రస్తుత విద్యార్థుల తోబుట్టువులకు ముందస్తు గడువు ఉండేది. పాఠశాల క్యాలెండర్‌లో **K-12 తోబుట్టువుల దరఖాస్తుల గడువు అక్టోబర్ 15, 2026** అని ఉంది. మీరు ఇప్పుడు దరఖాస్తు చేస్తున్న తోబుట్టువు కుటుంబమైతే, ప్రవేశ కార్యాలయాన్ని అడగండి. జాబితాలో K-12 అని ఉంది, కాబట్టి అది TK కి వర్తిస్తుందో లేదో చెప్పదు."
     },
     {
       "text": "Attend a Visit Day — the office schedules it",
@@ -1930,12 +1948,39 @@
       "t": "అవసరమైతే ఆర్థిక సహాయానికి దరఖాస్తు చేయండి"
     },
     {
-      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band's own application deadline. One application covers every child in the family.",
-      "of": "bb167924",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band's own application deadline. One application covers every child in the family. Award decisions come on your notification day, **February 26, 2027**.",
+      "of": "3a7aef70",
       "at": [
         "charlotte-latin:guide.bands[0].steps[5].detail"
       ],
-      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది ఈ స్థాయి సొంత దరఖాస్తు గడువు తర్వాత రెండు వారాలకు. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది."
+      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది ఈ స్థాయి సొంత దరఖాస్తు గడువు తర్వాత రెండు వారాలకు. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది. సహాయ నిర్ణయాలు మీ ఫలితాల ప్రకటన రోజు, **ఫిబ్రవరి 26, 2027** న వస్తాయి."
+    },
+    {
+      "text": "Decision",
+      "of": "be93ff03",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].title",
+        "charlotte-latin:guide.bands[1].steps[5].title",
+        "charlotte-latin:guide.bands[2].steps[6].title",
+        "charlotte-latin:guide.bands[3].steps[6].title"
+      ],
+      "t": "నిర్ణయం"
+    },
+    {
+      "text": "Feb 26",
+      "of": "7445835e",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].tag"
+      ],
+      "t": "ఫిబ్రవరి 26"
+    },
+    {
+      "text": "**February 26, 2027** is the school's \"TK and K notification day.\" Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "b7f0c249",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].detail"
+      ],
+      "t": "**ఫిబ్రవరి 26, 2027** పాఠశాల ప్రకటించిన «TK, K ఫలితాల ప్రకటన రోజు». ఆర్థిక సహాయ నిర్ణయాలను కూడా అదే రోజు తెలియజేస్తారు. **ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు**, కాబట్టి దాని గడువు ఎప్పుడో ప్రవేశ కార్యాలయాన్ని అడగండి. చేరడానికి **$2,500 తిరిగి ఇవ్వబడని డిపాజిట్** కూడా తప్పనిసరి."
     },
     {
       "text": "Your application deadline is Jan 2, 2027.",
@@ -1946,12 +1991,12 @@
       "t": "మీ దరఖాస్తు గడువు జనవరి 2, 2027."
     },
     {
-      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.",
-      "of": "ac01cd72",
+      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No enrollment contract date is published, so confirm it with the admissions office.",
+      "of": "68014566",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ],
-      "t": "Transitional Kindergarten, Kindergarten మిగతా ప్రతి తరగతి కంటే పదమూడు రోజులు ముందు దరఖాస్తు చేస్తాయి. ఈ స్థాయి Visit Day ని కుటుంబం కాక ప్రవేశ కార్యాలయమే నిర్ణయిస్తుంది. ఈ స్థాయికి అన్ని పత్రాల గడువు ఏదీ ప్రచురించలేదు. కాబట్టి ఇంకా ఏమి మిగిలి ఉందో తెలుసుకోవడానికి మీ పోర్టల్ చెక్‌లిస్ట్‌నే చివరి మాటగా తీసుకోండి. ఏ స్థాయికీ నిర్ణయ తేదీ గానీ ప్రవేశ ఒప్పంద తేదీ గానీ ప్రచురించలేదు. రెండింటినీ ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
+      "t": "Transitional Kindergarten, Kindergarten మిగతా ప్రతి తరగతి కంటే పదమూడు రోజులు ముందు దరఖాస్తు చేస్తాయి. ఈ స్థాయి Visit Day ని కుటుంబం కాక ప్రవేశ కార్యాలయమే నిర్ణయిస్తుంది. ఈ స్థాయికి అన్ని పత్రాల గడువు ఏదీ ప్రచురించలేదు. కాబట్టి ఇంకా ఏమి మిగిలి ఉందో తెలుసుకోవడానికి మీ పోర్టల్ చెక్‌లిస్ట్‌నే చివరి మాటగా తీసుకోండి. నిర్ణయాలు ఫలితాల ప్రకటన రోజు, ఫిబ్రవరి 26, 2027 న వస్తాయి. ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు, కాబట్టి దాన్ని ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
     },
     {
       "text": "Submit the online inquiry form",
@@ -2105,37 +2150,25 @@
       "t": "ఐచ్ఛికం. సెప్టెంబర్ 15, 2026 న తెరుచుకుంటుంది; ఒకే దరఖాస్తు పలువురు పిల్లలను కవర్ చేస్తుంది."
     },
     {
-      "text": "Confirm the decision and contract dates with admissions",
-      "of": "397c18a8",
+      "text": "Watch for your notification day",
+      "of": "58f8f5ab",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].action",
         "charlotte-latin:guide.bands[1].checklistRows[6].action",
         "charlotte-latin:guide.bands[2].checklistRows[7].action",
         "charlotte-latin:guide.bands[3].checklistRows[7].action"
       ],
-      "t": "నిర్ణయ, ఒప్పంద తేదీలను ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి"
+      "t": "మీ ఫలితాల ప్రకటన రోజు కోసం ఎదురుచూడండి"
     },
     {
-      "text": "Neither is published for any band. Ask when you should expect to hear.",
-      "of": "c3c92423",
+      "text": "Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.",
+      "of": "9173c205",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].detail",
         "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
       ],
-      "t": "ఏ స్థాయికీ ఈ రెండూ ప్రచురించలేదు. ఎప్పుడు జవాబు ఆశించాలో అడగండి."
-    },
-    {
-      "text": "Confirm",
-      "of": "a183c9ef",
-      "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].due",
-        "charlotte-latin:guide.bands[1].checklistRows[6].due",
-        "charlotte-latin:guide.bands[2].checklistRows[7].due",
-        "charlotte-latin:guide.bands[3].checklistRows[7].due"
-      ],
-      "t": "నిర్ధారించుకోండి"
+      "t": "ప్రవేశ, ఆర్థిక సహాయ నిర్ణయాలు ఆ రోజే వస్తాయి. ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు; దాన్ని ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
     },
     {
       "text": "Lower School · Grades 1–5",
@@ -2164,12 +2197,12 @@
       "t": "తప్పనిసరి మొదటి దశ: కుటుంబాలు «ముందుగా విచారణ పంపి, ఆ తర్వాత తమ కుటుంబానికి ఒక ప్రొఫైల్ సృష్టిస్తారు». ఆ ఖాతా ఆ తర్వాత ఐచ్ఛిక ప్రవేశ కార్యక్రమాలకు RSVP చేయమని, పత్రాలు సమర్పించమని, ఫారాలు వెతకమని, గడువులు పాటించమని సూచిస్తుంది."
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten.",
-      "of": "1994f5d5",
+      "text": "Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "d9c67bf3",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ],
-      "t": "తప్పనిసరి, గడువు **జనవరి 15, 2027** — 1 నుంచి 12 వరకు ప్రతి తరగతీ పని చేసే గడువు, Transitional Kindergarten, Kindergarten కంటే పదమూడు రోజులు తర్వాత."
+      "t": "తప్పనిసరి, గడువు **జనవరి 15, 2027** — 1 నుంచి 12 వరకు ప్రతి తరగతీ పని చేసే గడువు, Transitional Kindergarten, Kindergarten కంటే పదమూడు రోజులు తర్వాత. ప్రస్తుత విద్యార్థుల తోబుట్టువులకు ముందస్తు గడువు ఉండేది. పాఠశాల క్యాలెండర్‌లో **K-12 తోబుట్టువుల దరఖాస్తుల గడువు అక్టోబర్ 15, 2026** అని ఉంది. మీరు ఇప్పుడు దరఖాస్తు చేస్తున్న తోబుట్టువు కుటుంబమైతే, ప్రవేశ కార్యాలయాన్ని అడగండి."
     },
     {
       "text": "Schedule and attend a Visit Day",
@@ -2215,12 +2248,31 @@
       "t": "తప్పనిసరి, **ఈ ఒక్క స్థాయి లోపలే పరీక్ష రెండుసార్లు మారుతుంది**. తరగతి 1 దరఖాస్తుదారులు **WPPSI**, తరగతులు 2–4 **WISC-V**, తరగతి 5 **ISEE** రాస్తారు. దానితో పాటు బుక్ చేసే విధానమూ మారుతుంది. WPPSI, WISC-V లను Charlotte Area Independent Schools కన్సార్టియంలోని ఒక మనస్తత్వ నిపుణుడు నిర్వహిస్తారు, ఆ నిపుణుడిని మీరే నేరుగా సంప్రదిస్తారు. ISEE ని **Educational Records Bureau** రూపొందించి నిర్వహిస్తుంది, తరగతి 5 కుటుంబాలు ERB ద్వారా నమోదు చేసుకుంటాయి. ఏదైనా బుక్ చేసే ముందు మీ పిల్లవాడు ప్రవేశించే తరగతికి ఏ పరీక్ష వర్తిస్తుందో చూసుకోండి."
     },
     {
-      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band's application deadline. One application covers every child in the family.",
-      "of": "dca8641e",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band's application deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.",
+      "of": "3582225d",
       "at": [
         "charlotte-latin:guide.bands[1].steps[4].detail"
       ],
-      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది ఈ స్థాయి దరఖాస్తు గడువు రోజే. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది."
+      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది ఈ స్థాయి దరఖాస్తు గడువు రోజే. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది. సహాయ నిర్ణయాలు మీ ఫలితాల ప్రకటన రోజు, **ఏప్రిల్ 9, 2027** న వస్తాయి."
+    },
+    {
+      "text": "Apr 9",
+      "of": "7063767d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].tag",
+        "charlotte-latin:guide.bands[2].steps[6].tag",
+        "charlotte-latin:guide.bands[3].steps[6].tag"
+      ],
+      "t": "ఏప్రిల్ 9"
+    },
+    {
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "7f2bfc85",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].detail",
+        "charlotte-latin:guide.bands[2].steps[6].detail"
+      ],
+      "t": "**ఏప్రిల్ 9, 2027** పాఠశాల ప్రకటించిన «తరగతులు 1-11 ఫలితాల ప్రకటన రోజు». ఆర్థిక సహాయ నిర్ణయాలను కూడా అదే రోజు తెలియజేస్తారు. **ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు**, కాబట్టి దాని గడువు ఎప్పుడో ప్రవేశ కార్యాలయాన్ని అడగండి. చేరడానికి **$2,500 తిరిగి ఇవ్వబడని డిపాజిట్** కూడా తప్పనిసరి."
     },
     {
       "text": "The assessment changes twice inside this one band.",
@@ -2231,12 +2283,12 @@
       "t": "ఈ ఒక్క స్థాయి లోపలే పరీక్ష రెండుసార్లు మారుతుంది."
     },
     {
-      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date or enrollment contract date is published for any band. Confirm both with the admissions office.",
-      "of": "906f9af3",
+      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.",
+      "of": "78a2466d",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ],
-      "t": "తరగతి 1 WPPSI, తరగతులు 2–4 WISC-V, తరగతి 5 ISEE రాస్తాయి. దానితో పాటు బుక్ చేసే విధానమూ మారుతుంది. WPPSI, WISC-V కోసం మీరే నేరుగా ఒక CAIS మనస్తత్వ నిపుణుడిని సంప్రదిస్తారు. ISEE కోసం Educational Records Bureau లో నమోదు చేసుకుంటారు. బుక్ చేసే ముందు మీ పిల్లల ప్రవేశ తరగతికి ఏ పరీక్ష వర్తిస్తుందో నిర్ధారించుకోండి. ఈ స్థాయికి అన్ని పత్రాల గడువు ఏదీ ప్రచురించలేదు. కాబట్టి ఇంకా ఏమి మిగిలి ఉందో తెలుసుకోవడానికి మీ పోర్టల్ చెక్‌లిస్ట్‌నే చివరి మాటగా తీసుకోండి. ఏ స్థాయికీ నిర్ణయ తేదీ గానీ ప్రవేశ ఒప్పంద తేదీ గానీ ప్రచురించలేదు. రెండింటినీ ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
+      "t": "తరగతి 1 WPPSI, తరగతులు 2–4 WISC-V, తరగతి 5 ISEE రాస్తాయి. దానితో పాటు బుక్ చేసే విధానమూ మారుతుంది. WPPSI, WISC-V కోసం మీరే నేరుగా ఒక CAIS మనస్తత్వ నిపుణుడిని సంప్రదిస్తారు. ISEE కోసం Educational Records Bureau లో నమోదు చేసుకుంటారు. బుక్ చేసే ముందు మీ పిల్లల ప్రవేశ తరగతికి ఏ పరీక్ష వర్తిస్తుందో నిర్ధారించుకోండి. ఈ స్థాయికి అన్ని పత్రాల గడువు ఏదీ ప్రచురించలేదు. కాబట్టి ఇంకా ఏమి మిగిలి ఉందో తెలుసుకోవడానికి మీ పోర్టల్ చెక్‌లిస్ట్‌నే చివరి మాటగా తీసుకోండి. నిర్ణయాలు ఫలితాల ప్రకటన రోజు, ఏప్రిల్ 9, 2027 న వస్తాయి. ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు, కాబట్టి దాన్ని ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
     },
     {
       "text": "The Grades 1–12 deadline, thirteen days after the TK/K one.",
@@ -2306,12 +2358,12 @@
       "t": "అన్ని పత్రాల గడువు"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade.",
-      "of": "85254822",
+      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "c285c5c0",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ],
-      "t": "తప్పనిసరి, గడువు **జనవరి 15, 2027** — 1 నుంచి 12 వరకు ప్రతి తరగతికీ ఉమ్మడి గడువు. TK, Kindergarten, తొమ్మిదో తరగతితో పాటు పాఠశాల «సహజంగా విస్తరించే» సంవత్సరాల్లో ఆరో తరగతి ఒకటి."
+      "t": "తప్పనిసరి, గడువు **జనవరి 15, 2027** — 1 నుంచి 12 వరకు ప్రతి తరగతికీ ఉమ్మడి గడువు. TK, Kindergarten, తొమ్మిదో తరగతితో పాటు పాఠశాల «సహజంగా విస్తరించే» సంవత్సరాల్లో ఆరో తరగతి ఒకటి. ప్రస్తుత విద్యార్థుల తోబుట్టువులకు ముందస్తు గడువు ఉండేది. పాఠశాల క్యాలెండర్‌లో **K-12 తోబుట్టువుల దరఖాస్తుల గడువు అక్టోబర్ 15, 2026** అని ఉంది. మీరు ఇప్పుడు దరఖాస్తు చేస్తున్న తోబుట్టువు కుటుంబమైతే, ప్రవేశ కార్యాలయాన్ని అడగండి."
     },
     {
       "text": "Schedule and attend a Visit Day — interview included",
@@ -2365,13 +2417,12 @@
       "t": "అన్ని పత్రాల గడువు **ఫిబ్రవరి 26, 2027**, పరీక్షల గడువు రోజునే. ఇంకా ఏమి మిగిలి ఉందో మీ పోర్టల్ ఖాతాలోనే జాబితా ఉంటుంది, అక్కడే వాటిని సమర్పిస్తారు."
     },
     {
-      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family.",
-      "of": "44608f2b",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.",
+      "of": "89cc82c0",
       "at": [
-        "charlotte-latin:guide.bands[2].steps[5].detail",
-        "charlotte-latin:guide.bands[3].steps[5].detail"
+        "charlotte-latin:guide.bands[2].steps[5].detail"
       ],
-      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది పత్రాల గడువు కంటే ఆరు వారాల ముందు. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది."
+      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది పత్రాల గడువు కంటే ఆరు వారాల ముందు. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది. సహాయ నిర్ణయాలు మీ ఫలితాల ప్రకటన రోజు, **ఏప్రిల్ 9, 2027** న వస్తాయి."
     },
     {
       "text": "February 26, 2027 is the date that binds this band.",
@@ -2383,12 +2434,12 @@
       "t": "ఈ స్థాయిని నిర్దేశించే తేదీ ఫిబ్రవరి 26, 2027."
     },
     {
-      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.",
-      "of": "bb4c3591",
+      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.",
+      "of": "8836e1fc",
       "at": [
         "charlotte-latin:guide.bands[2].checklistCallout.text"
       ],
-      "t": "ISEE, ఫైల్‌లో మిగిలిన ప్రతి అంశమూ ఆ రోజే గడువు ముగుస్తాయి. కాబట్టి ఆ తేదీని లక్ష్యంగా పెట్టుకోకుండా దాని నుంచి వెనక్కి లెక్కించి మీ ERB నమోదును ప్రణాళిక చేసుకోండి. పరీక్ష సీటు బుక్ చేయడం, పరీక్ష రాయడం, స్కోర్ రావడం అన్నీ గడువుకు ముందే జరగాలి. Visit Day మూల్యాంకన దినం, సందర్శన కాదు: దీనిలో ఇంటర్వ్యూ, ప్రత్యక్ష మూల్యాంకనం, ఒక తరగతి పరిశీలన ఉంటాయి. ఏ స్థాయికీ నిర్ణయ తేదీ గానీ ప్రవేశ ఒప్పంద తేదీ గానీ ప్రచురించలేదు. రెండింటినీ ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
+      "t": "ISEE, ఫైల్‌లో మిగిలిన ప్రతి అంశమూ ఆ రోజే గడువు ముగుస్తాయి. కాబట్టి ఆ తేదీని లక్ష్యంగా పెట్టుకోకుండా దాని నుంచి వెనక్కి లెక్కించి మీ ERB నమోదును ప్రణాళిక చేసుకోండి. పరీక్ష సీటు బుక్ చేయడం, పరీక్ష రాయడం, స్కోర్ రావడం అన్నీ గడువుకు ముందే జరగాలి. Visit Day మూల్యాంకన దినం, సందర్శన కాదు: దీనిలో ఇంటర్వ్యూ, ప్రత్యక్ష మూల్యాంకనం, ఒక తరగతి పరిశీలన ఉంటాయి. నిర్ణయాలు ఫలితాల ప్రకటన రోజు, ఏప్రిల్ 9, 2027 న వస్తాయి. ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు, కాబట్టి దాన్ని ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి."
     },
     {
       "text": "The Grades 1–12 deadline. Grade 6 is a natural expansion year.",
@@ -2467,12 +2518,20 @@
       "t": "Upper School — తరగతులు 9–12"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade.",
-      "of": "b6749c0e",
+      "text": "notification day — Grades 9–11",
+      "of": "7d521e76",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[4].label"
+      ],
+      "t": "ఫలితాల ప్రకటన రోజు — తరగతులు 9–11"
+    },
+    {
+      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "bbcb2cdc",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ],
-      "t": "తప్పనిసరి, గడువు **జనవరి 15, 2027** — 1 నుంచి 12 వరకు ప్రతి తరగతికీ ఉమ్మడి గడువు. TK, Kindergarten, ఆరో తరగతితో పాటు పాఠశాల «సహజంగా విస్తరించే» సంవత్సరాల్లో తొమ్మిదో తరగతి ఒకటి."
+      "t": "తప్పనిసరి, గడువు **జనవరి 15, 2027** — 1 నుంచి 12 వరకు ప్రతి తరగతికీ ఉమ్మడి గడువు. TK, Kindergarten, ఆరో తరగతితో పాటు పాఠశాల «సహజంగా విస్తరించే» సంవత్సరాల్లో తొమ్మిదో తరగతి ఒకటి. ప్రస్తుత విద్యార్థుల తోబుట్టువులకు ముందస్తు గడువు ఉండేది. పాఠశాల క్యాలెండర్‌లో **K-12 తోబుట్టువుల దరఖాస్తుల గడువు అక్టోబర్ 15, 2026** అని ఉంది. మీరు ఇప్పుడు దరఖాస్తు చేస్తున్న తోబుట్టువు కుటుంబమైతే, ప్రవేశ కార్యాలయాన్ని అడగండి."
     },
     {
       "text": "Schedule and attend a Visit Day — interview and a shadow day",
@@ -2499,12 +2558,28 @@
       "t": "**తరగతులు 9–11 దరఖాస్తుదారులకు** తప్పనిసరి, వారు «ISEE రాస్తారు», «Upper School పరీక్షలన్నీ **ఫిబ్రవరి 26, 2027** లోగా పూర్తి చేసి సమర్పించాలి». మీరు పాఠశాల ద్వారా కాక **Educational Records Bureau** ద్వారా నమోదు చేసుకుంటారు. ఈ స్థాయిలో మీ పరీక్ష ప్రణాళిక అంతా ఫిబ్రవరి 26 పైనే ఆధారపడి ఉంటుంది, కాబట్టి **దాని నుంచి వెనక్కి లెక్కించి మీ నమోదును ప్రణాళిక చేసుకోండి**. పరీక్ష సీటు బుక్ చేయడం, పరీక్ష రాయడం, స్కోర్ రావడం అన్నీ గడువుకు ముందే జరగాలి. **తరగతి 12 దరఖాస్తుదారులకు ఎలాంటి ప్రవేశ పరీక్షా ప్రచురించలేదు**. ప్రచురించిన నిబంధన తరగతులు 9 నుంచి 11 వరకే వర్తిస్తుంది, కాబట్టి తరగతి 12 కుటుంబం ఏది వర్తిస్తుందో ప్రవేశ కార్యాలయాన్ని అడగాలి."
     },
     {
-      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. No decision date and no enrollment contract date are published for any band. Confirm both with the office.",
-      "of": "5a21d4bf",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family. For Grades 9–11, award decisions come on the notification day, **April 9, 2027**.",
+      "of": "f05bee23",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ],
+      "t": "ఐచ్ఛికం, దీనికి సొంత కాలపట్టిక ఉంది: సహాయ దరఖాస్తు **Clarity** ద్వారా **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది. ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఇది పత్రాల గడువు కంటే ఆరు వారాల ముందు. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది. తరగతులు 9–11 కి సహాయ నిర్ణయాలు ఫలితాల ప్రకటన రోజు, **ఏప్రిల్ 9, 2027** న వస్తాయి."
+    },
+    {
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**. That notification day covers Grades 9–11. **No notification date is published for Grade 12**, so a Grade 12 family should ask the admissions office.",
+      "of": "c026f666",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[6].detail"
+      ],
+      "t": "**ఏప్రిల్ 9, 2027** పాఠశాల ప్రకటించిన «తరగతులు 1-11 ఫలితాల ప్రకటన రోజు». ఆర్థిక సహాయ నిర్ణయాలను కూడా అదే రోజు తెలియజేస్తారు. **ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు**, కాబట్టి దాని గడువు ఎప్పుడో ప్రవేశ కార్యాలయాన్ని అడగండి. చేరడానికి **$2,500 తిరిగి ఇవ్వబడని డిపాజిట్** కూడా తప్పనిసరి. ఆ ఫలితాల ప్రకటన రోజు తరగతులు 9–11 కి వర్తిస్తుంది. **తరగతి 12 కి ఫలితాల తేదీ ఏదీ ప్రచురించలేదు**, కాబట్టి తరగతి 12 కుటుంబం ప్రవేశ కార్యాలయాన్ని అడగాలి."
+    },
+    {
+      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. Decisions for Grades 9–11 come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the office.",
+      "of": "665be691",
       "at": [
         "charlotte-latin:guide.bands[3].checklistCallout.text"
       ],
-      "t": "ISEE, ఫైల్‌లో మిగిలిన ప్రతి అంశమూ ఆ రోజే గడువు ముగుస్తాయి. కాబట్టి ఆ తేదీని లక్ష్యంగా పెట్టుకోకుండా దాని నుంచి వెనక్కి లెక్కించి మీ ERB నమోదును ప్రణాళిక చేసుకోండి. Visit Day ఒక ఇంటర్వ్యూను Student Ambassador పక్కన నీడ దినంతో జతచేస్తుంది, కాబట్టి మీ పిల్లవాడు Latin విద్యార్థి గడిపేలాగే రోజంతా గడుపుతాడు. ప్రచురించిన పరీక్ష నిబంధన తరగతులు 9 నుంచి 11 వరకే వర్తిస్తుంది. తరగతి 12 దరఖాస్తుదారులకు ఏదీ ప్రచురించలేదు, కాబట్టి ఏది వర్తిస్తుందో ప్రవేశ కార్యాలయాన్ని అడగండి. ఏ స్థాయికీ నిర్ణయ తేదీ గానీ ప్రవేశ ఒప్పంద తేదీ గానీ ప్రచురించలేదు. రెండింటినీ కార్యాలయంతో నిర్ధారించుకోండి."
+      "t": "ISEE, ఫైల్‌లో మిగిలిన ప్రతి అంశమూ ఆ రోజే గడువు ముగుస్తాయి. కాబట్టి ఆ తేదీని లక్ష్యంగా పెట్టుకోకుండా దాని నుంచి వెనక్కి లెక్కించి మీ ERB నమోదును ప్రణాళిక చేసుకోండి. Visit Day ఒక ఇంటర్వ్యూను Student Ambassador పక్కన నీడ దినంతో జతచేస్తుంది, కాబట్టి మీ పిల్లవాడు Latin విద్యార్థి గడిపేలాగే రోజంతా గడుపుతాడు. ప్రచురించిన పరీక్ష నిబంధన తరగతులు 9 నుంచి 11 వరకే వర్తిస్తుంది. తరగతి 12 దరఖాస్తుదారులకు ఏదీ ప్రచురించలేదు, కాబట్టి ఏది వర్తిస్తుందో ప్రవేశ కార్యాలయాన్ని అడగండి. తరగతులు 9–11 నిర్ణయాలు ఫలితాల ప్రకటన రోజు, ఏప్రిల్ 9, 2027 న వస్తాయి. ప్రవేశ ఒప్పంద తేదీ ఏదీ ప్రచురించలేదు, కాబట్టి దాన్ని కార్యాలయంతో నిర్ధారించుకోండి."
     },
     {
       "text": "The Grades 1–12 deadline. Grade 9 is a natural expansion year.",
@@ -2539,12 +2614,20 @@
       "t": "Educational Records Bureau ద్వారా. తరగతి 12 కి ఏదీ ప్రచురించలేదు."
     },
     {
-      "text": "Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. One application covers every child in the family and \"typically takes 30 minutes or less to complete.\" Separately, a **$2,500 non-refundable deposit** is \"required at the time of initial enrollment or reenrollment\" and is \"deducted from the second tuition payment\". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.",
-      "of": "e0133c73",
+      "text": "Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12 or for the contract; ask admissions.",
+      "of": "0984e87d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ],
+      "t": "తరగతులు 9–11. ప్రవేశ, ఆర్థిక సహాయ నిర్ణయాలు ఆ రోజే వస్తాయి. తరగతి 12 కి గానీ ఒప్పందానికి గానీ ఏదీ ప్రచురించలేదు; ప్రవేశ కార్యాలయాన్ని అడగండి."
+    },
+    {
+      "text": "Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. Award decisions come on notification day: **February 26, 2027** for TK and Kindergarten, and **April 9, 2027** for Grades 1–11. One application covers every child in the family and \"typically takes 30 minutes or less to complete.\" Separately, a **$2,500 non-refundable deposit** is \"required at the time of initial enrollment or reenrollment\" and is \"deducted from the second tuition payment\". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.",
+      "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
       ],
-      "t": "సహాయం **Clarity** ద్వారా జరుగుతుంది. ఇది **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది, ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది, «సాధారణంగా పూర్తి చేయడానికి 30 నిమిషాలు లేదా అంతకంటే తక్కువ పడుతుంది». వేరుగా, «మొదటి ప్రవేశం లేదా పునఃప్రవేశ సమయంలో» **$2,500 తిరిగి ఇవ్వబడని డిపాజిట్** «తప్పనిసరి», దాన్ని «రెండో ట్యూషన్ చెల్లింపు నుంచి తీసివేస్తారు». అది లేకుండా ఏ విద్యార్థినీ చేర్చుకోలేరు, తిరిగి చేర్చుకోలేరు. ఈ చక్రానికి **ఎలాంటి సహాయ దరఖాస్తు రుసుమూ ప్రచురించలేదు**."
+      "t": "సహాయం **Clarity** ద్వారా జరుగుతుంది. ఇది **సెప్టెంబర్ 15, 2026** న తెరుచుకుంటుంది, ప్రాధాన్య రౌండ్‌లో పరిశీలించాలంటే **జనవరి 15, 2027** లోగా సమర్పించాలి. సహాయ నిర్ణయాలు ఫలితాల ప్రకటన రోజు నాడు వస్తాయి: TK, Kindergarten కి **ఫిబ్రవరి 26, 2027**, తరగతులు 1–11 కి **ఏప్రిల్ 9, 2027**. ఒకే దరఖాస్తు కుటుంబంలోని పిల్లలందరినీ కవర్ చేస్తుంది, «సాధారణంగా పూర్తి చేయడానికి 30 నిమిషాలు లేదా అంతకంటే తక్కువ పడుతుంది». వేరుగా, «మొదటి ప్రవేశం లేదా పునఃప్రవేశ సమయంలో» **$2,500 తిరిగి ఇవ్వబడని డిపాజిట్** «తప్పనిసరి», దాన్ని «రెండో ట్యూషన్ చెల్లింపు నుంచి తీసివేస్తారు». అది లేకుండా ఏ విద్యార్థినీ చేర్చుకోలేరు, తిరిగి చేర్చుకోలేరు. ఈ చక్రానికి **ఎలాంటి సహాయ దరఖాస్తు రుసుమూ ప్రచురించలేదు**."
     },
     {
       "text": "Who schedules the Visit Day",
@@ -2688,12 +2771,29 @@
       "t": "నిర్ణయం, ఒప్పందం"
     },
     {
-      "text": "Not published in any band — confirm with the admissions office. Every published timeline ends at the application or file-material deadline. No admissions page gives a date or time when decisions are sent, or a date for the enrollment contract.",
-      "of": "3bb46864",
+      "text": "Feb 26, 2027 · no contract date published",
+      "of": "eed7eae9",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.all"
+        "charlotte-latin:guide.comparison.rows[6].cells.tkk"
       ],
-      "t": "ఏ స్థాయిలోనూ ప్రచురించలేదు — ప్రవేశ కార్యాలయంతో నిర్ధారించుకోండి. ప్రచురించిన ప్రతి కాలరేఖా దరఖాస్తు లేదా పత్రాల గడువు వద్దే ముగుస్తుంది. నిర్ణయాలు ఏ తేదీన, ఏ సమయానికి పంపుతారో గానీ, ప్రవేశ ఒప్పందం తేదీ గానీ ఏ ప్రవేశ పేజీలోనూ లేవు."
+      "t": "ఫిబ్రవరి 26, 2027 · ఒప్పంద తేదీ ప్రచురించలేదు"
+    },
+    {
+      "text": "Apr 9, 2027 · no contract date published",
+      "of": "5760d46c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls",
+        "charlotte-latin:guide.comparison.rows[6].cells.ms"
+      ],
+      "t": "ఏప్రిల్ 9, 2027 · ఒప్పంద తేదీ ప్రచురించలేదు"
+    },
+    {
+      "text": "Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract date published",
+      "of": "961f8cc3",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.us"
+      ],
+      "t": "ఏప్రిల్ 9, 2027 (తరగతులు 9–11) · తరగతి 12 కి ఏదీ ప్రచురించలేదు · ఒప్పంద తేదీ ప్రచురించలేదు"
     },
     {
       "text": "Constant in every band",
@@ -2820,12 +2920,12 @@
       "t": "దరఖాస్తు సెప్టెంబర్ 15, 2026 న తెరుచుకుంటుంది."
     },
     {
-      "text": "Submit by January 15, 2027 to be considered for priority-round decisions.",
-      "of": "43ac5026",
+      "text": "Submit by January 15, 2027 to be considered for priority-round decisions. Award decisions come on notification day: February 26, 2027 for TK and Kindergarten, and April 9, 2027 for Grades 1–11.",
+      "of": "ab395938",
       "at": [
         "charlotte-latin:guide.checklist.aidPanel.items[2]"
       ],
-      "t": "ప్రాధాన్య రౌండ్ నిర్ణయాలకు పరిగణించబడాలంటే జనవరి 15, 2027 లోగా సమర్పించండి."
+      "t": "ప్రాధాన్య రౌండ్ నిర్ణయాలకు పరిగణించబడాలంటే జనవరి 15, 2027 లోగా సమర్పించండి. సహాయ నిర్ణయాలు ఫలితాల ప్రకటన రోజు నాడు వస్తాయి: TK, Kindergarten కి ఫిబ్రవరి 26, 2027, తరగతులు 1–11 కి ఏప్రిల్ 9, 2027."
     },
     {
       "text": "A $2,500 non-refundable deposit is required when a student first enrolls or reenrolls. It is deducted from the second tuition payment. No student can be enrolled or reenrolled without it.",
@@ -2868,12 +2968,12 @@
       "t": "9502 Providence Road, Charlotte, NC 28277"
     },
     {
-      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026). They come from the application process, tuition and financial assistance, and admissions pages. Items marked \"confirm\" are either shown only inside the application portal or not published at all. Those items include every decision and enrollment contract date. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
-      "of": "6236a7fa",
+      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
+      "of": "698ff60b",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ],
-      "t": "తేదీలు charlottelatin.org లో ప్రచురించిన 2027–28 ప్రవేశ చక్రానివి (ఆగస్టు 2026లో సేకరించినవి). ఇవి దరఖాస్తు ప్రక్రియ, ట్యూషన్ మరియు ఆర్థిక సహాయం, ప్రవేశాల పేజీల నుంచి వచ్చాయి. «నిర్ధారించుకోండి» అని గుర్తించిన అంశాలు దరఖాస్తు పోర్టల్ లోపల మాత్రమే కనిపిస్తాయి, లేదా అసలు ప్రచురించలేదు. వీటిలో ప్రతి నిర్ణయ, ప్రవేశ ఒప్పంద తేదీ కూడా ఉంది. చక్రపు తేదీలు ఏటా మారుతాయి, గత సీజన్‌లో ఈ పేజీలు వేరే తేదీలను చూపించాయి. కాబట్టి చర్య తీసుకునే ముందు ప్రత్యక్ష పేజీలతో సరిచూసుకోండి. Charlotte School Compare సంకలనం చేసింది; Charlotte Latin School తో సంబంధం లేదు."
+      "t": "తేదీలు charlottelatin.org లో ప్రచురించిన 2027–28 ప్రవేశ చక్రానివి (ఆగస్టు 2026లో సేకరించినవి; తేదీలను నవంబర్ 2026లో మళ్లీ సరిచూశాం). ఇవి దరఖాస్తు ప్రక్రియ, ట్యూషన్ మరియు ఆర్థిక సహాయం, ప్రవేశాల పేజీల నుంచి వచ్చాయి. ప్రవేశ ఒప్పంద తేదీ వంటి కొన్ని అంశాలు దరఖాస్తు పోర్టల్ లోపల మాత్రమే కనిపిస్తాయి, లేదా అసలు ప్రచురించలేదు. చక్రపు తేదీలు ఏటా మారుతాయి, గత సీజన్‌లో ఈ పేజీలు వేరే తేదీలను చూపించాయి. కాబట్టి చర్య తీసుకునే ముందు ప్రత్యక్ష పేజీలతో సరిచూసుకోండి. Charlotte School Compare సంకలనం చేసింది; Charlotte Latin School తో సంబంధం లేదు."
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The school publishes three documents, but there are really four processes. The application deadline changes at Kindergarten→1, while the testing changes a grade later, at 1→2.",

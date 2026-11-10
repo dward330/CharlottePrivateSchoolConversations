@@ -284,6 +284,8 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[0].deadlines[3].value",
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
         "charlotte-latin:guide.bands[2].deadlines[1].value",
         "charlotte-latin:guide.bands[2].deadlines[2].value",
         "charlotte-latin:guide.bands[2].checklistRows[4].due",
@@ -817,6 +819,12 @@
         "providence-day:guide.bands[2].deadlines[2].value",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].deadlines[2].value",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].deadlines[4].value",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].deadlines[4].value",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].deadlines[2].value",
         "charlotte-christian:guide.bands[1].checklistRows[7].due",
         "charlotte-christian:guide.bands[2].deadlines[2].value",
@@ -1606,8 +1614,8 @@
       ]
     },
     {
-      "t": "Todos los niveles siguen los mismos cuatro pasos: solicitar en línea a través del portal → asistir a un Visit Day → realizar una prueba estandarizada → cumplir los plazos. Lo que cambia entre niveles es qué prueba realiza su hijo y quién concierta el Visit Day: la oficina de admisiones o usted. Los niveles también se diferencian en si ese día incluye una entrevista y en a qué plazo se atiene.",
-      "of": "4c624c7a",
+      "t": "Todos los niveles siguen los mismos cinco pasos. Primero: solicitar en línea a través del portal → asistir a un Visit Day → realizar una prueba estandarizada. Después: cumplir los plazos → recibir la respuesta en el día de notificación. Lo que cambia entre niveles es qué prueba realiza su hijo y quién concierta el Visit Day: la oficina de admisiones o usted. Los niveles también se diferencian en si ese día incluye una entrevista y en a qué plazo se atiene.",
+      "of": "9efab3b0",
       "at": [
         "charlotte-latin:guide.spineNote"
       ]
@@ -1646,6 +1654,15 @@
         "charlotte-latin:guide.bands[1].deadlines[1].label",
         "charlotte-latin:guide.bands[2].deadlines[3].label",
         "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "día de notificación",
+      "of": "0d52f720",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[3].label",
+        "charlotte-latin:guide.bands[1].deadlines[2].label",
+        "charlotte-latin:guide.bands[2].deadlines[4].label"
       ]
     },
     {
@@ -1690,8 +1707,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **2 de enero de 2027**. Son trece días antes que cualquier otro grado del colegio. Así que el plazo de este nivel cae en la primera semana de enero y no a mediados. **No se publica ningún corte de edad ni de fecha de nacimiento** para Transitional Kindergarten ni para Kindergarten. El colegio describe TK solo en términos generales, como algo «diseñado para niños que acaban de cumplir cinco años y están listos para Kindergarten», y no indica ninguna fecha. Pregunte a la oficina de admisiones dónde encaja su hijo.",
-      "of": "52ca6e42",
+      "t": "Obligatorio, y con fecha límite el **2 de enero de 2027**. Son trece días antes que cualquier otro grado del colegio. Así que el plazo de este nivel cae en la primera semana de enero y no a mediados. **No se publica ningún corte de edad ni de fecha de nacimiento** para Transitional Kindergarten ni para Kindergarten. El colegio describe TK solo en términos generales, como algo «diseñado para niños que acaban de cumplir cinco años y están listos para Kindergarten», y no indica ninguna fecha. Pregunte a la oficina de admisiones dónde encaja su hijo. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones. El calendario dice K-12, así que no aclara si incluye TK.",
+      "of": "3c4bf219",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ]
@@ -1752,10 +1769,34 @@
       ]
     },
     {
-      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son dos semanas después del plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia.",
-      "of": "bb167924",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son dos semanas después del plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia. Las decisiones sobre la ayuda llegan en su día de notificación, el **26 de febrero de 2027**.",
+      "of": "3a7aef70",
       "at": [
         "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Decisión",
+      "of": "be93ff03",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].title",
+        "charlotte-latin:guide.bands[1].steps[5].title",
+        "charlotte-latin:guide.bands[2].steps[6].title",
+        "charlotte-latin:guide.bands[3].steps[6].title"
+      ]
+    },
+    {
+      "t": "26 de febrero",
+      "of": "7445835e",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].tag"
+      ]
+    },
+    {
+      "t": "El **26 de febrero de 2027** es el «día de notificación de TK y K» del colegio. Las decisiones sobre la ayuda financiera se comunican ese mismo día. **No se publica ninguna fecha de contrato de matriculación**, así que pregunte a la oficina de admisiones cuándo vence. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
+      "of": "b7f0c249",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].detail"
       ]
     },
     {
@@ -1766,8 +1807,8 @@
       ]
     },
     {
-      "t": "Transitional Kindergarten y Kindergarten solicitan trece días antes que cualquier otro grado. En este nivel, el Visit Day lo concierta la oficina de admisiones, no la familia. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina de admisiones.",
-      "of": "ac01cd72",
+      "t": "Transitional Kindergarten y Kindergarten solicitan trece días antes que cualquier otro grado. En este nivel, el Visit Day lo concierta la oficina de admisiones, no la familia. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. Las decisiones llegan en el día de notificación, el 26 de febrero de 2027. No se publica ninguna fecha de contrato de matriculación, así que confírmela con la oficina de admisiones.",
+      "of": "68014566",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ]
@@ -1908,8 +1949,8 @@
       ]
     },
     {
-      "t": "Confirme con admisiones las fechas de decisión y de contrato",
-      "of": "397c18a8",
+      "t": "Estar atento a su día de notificación",
+      "of": "58f8f5ab",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].action",
         "charlotte-latin:guide.bands[1].checklistRows[6].action",
@@ -1918,23 +1959,12 @@
       ]
     },
     {
-      "t": "No se publica ninguna de las dos para ningún nivel. Pregunte cuándo debe esperar respuesta.",
-      "of": "c3c92423",
+      "t": "Ese día llegan las decisiones de admisión y de ayuda financiera. No se publica ninguna fecha de contrato; confírmela con admisiones.",
+      "of": "9173c205",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].detail",
         "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "Confirmar",
-      "of": "a183c9ef",
-      "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].due",
-        "charlotte-latin:guide.bands[1].checklistRows[6].due",
-        "charlotte-latin:guide.bands[2].checklistRows[7].due",
-        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
       ]
     },
     {
@@ -1961,8 +1991,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo al que se atienen todos los grados del 1 al 12, trece días más tarde que Transitional Kindergarten y Kindergarten.",
-      "of": "1994f5d5",
+      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo al que se atienen todos los grados del 1 al 12, trece días más tarde que Transitional Kindergarten y Kindergarten. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
+      "of": "d9c67bf3",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ]
@@ -2006,10 +2036,27 @@
       ]
     },
     {
-      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Es el mismo día que el plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia.",
-      "of": "dca8641e",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Es el mismo día que el plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia. Las decisiones sobre la ayuda llegan en su día de notificación, el **9 de abril de 2027**.",
+      "of": "3582225d",
       "at": [
         "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "9 de abril",
+      "of": "7063767d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].tag",
+        "charlotte-latin:guide.bands[2].steps[6].tag",
+        "charlotte-latin:guide.bands[3].steps[6].tag"
+      ]
+    },
+    {
+      "t": "El **9 de abril de 2027** es el «día de notificación de los grados 1-11» del colegio. Las decisiones sobre la ayuda financiera se comunican ese mismo día. **No se publica ninguna fecha de contrato de matriculación**, así que pregunte a la oficina de admisiones cuándo vence. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
+      "of": "7f2bfc85",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].detail",
+        "charlotte-latin:guide.bands[2].steps[6].detail"
       ]
     },
     {
@@ -2020,8 +2067,8 @@
       ]
     },
     {
-      "t": "El grado 1 realiza el WPPSI, los grados 2–4 el WISC-V y el grado 5 el ISEE. La forma de reservar cambia con ella. Para el WPPSI y el WISC-V, usted contacta directamente con un psicólogo de CAIS. Para el ISEE, se inscribe en el Educational Records Bureau. Confirme qué prueba corresponde al grado de entrada de su hijo antes de reservar. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina de admisiones.",
-      "of": "906f9af3",
+      "t": "El grado 1 realiza el WPPSI, los grados 2–4 el WISC-V y el grado 5 el ISEE. La forma de reservar cambia con ella. Para el WPPSI y el WISC-V, usted contacta directamente con un psicólogo de CAIS. Para el ISEE, se inscribe en el Educational Records Bureau. Confirme qué prueba corresponde al grado de entrada de su hijo antes de reservar. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. Las decisiones llegan en el día de notificación, el 9 de abril de 2027. No se publica ninguna fecha de contrato de matriculación, así que confírmela con la oficina de admisiones.",
+      "of": "78a2466d",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ]
@@ -2086,8 +2133,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por todos los grados del 1 al 12. Sexto es uno de los cursos en los que el colegio «se amplía de forma natural», junto con TK, Kindergarten y noveno.",
-      "of": "85254822",
+      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por todos los grados del 1 al 12. Sexto es uno de los cursos en los que el colegio «se amplía de forma natural», junto con TK, Kindergarten y noveno. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
+      "of": "c285c5c0",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ]
@@ -2138,11 +2185,10 @@
       ]
     },
     {
-      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son seis semanas antes del plazo de la documentación. Una sola solicitud cubre a todos los hijos de la familia.",
-      "of": "44608f2b",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son seis semanas antes del plazo de la documentación. Una sola solicitud cubre a todos los hijos de la familia. Las decisiones sobre la ayuda llegan en su día de notificación, el **9 de abril de 2027**.",
+      "of": "89cc82c0",
       "at": [
-        "charlotte-latin:guide.bands[2].steps[5].detail",
-        "charlotte-latin:guide.bands[3].steps[5].detail"
+        "charlotte-latin:guide.bands[2].steps[5].detail"
       ]
     },
     {
@@ -2154,8 +2200,8 @@
       ]
     },
     {
-      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día. Así que planifique su inscripción en el ERB hacia atrás desde esa fecha, en lugar de apuntar a ella. Hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo. El Visit Day es una jornada de evaluación, no una visita: incluye una entrevista, una prueba presencial y la observación de una clase. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina de admisiones.",
-      "of": "bb4c3591",
+      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día. Así que planifique su inscripción en el ERB hacia atrás desde esa fecha, en lugar de apuntar a ella. Hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo. El Visit Day es una jornada de evaluación, no una visita: incluye una entrevista, una prueba presencial y la observación de una clase. Las decisiones llegan en el día de notificación, el 9 de abril de 2027. No se publica ninguna fecha de contrato de matriculación, así que confírmela con la oficina de admisiones.",
+      "of": "8836e1fc",
       "at": [
         "charlotte-latin:guide.bands[2].checklistCallout.text"
       ]
@@ -2228,8 +2274,15 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por todos los grados del 1 al 12. Noveno es uno de los cursos en los que el colegio «se amplía de forma natural», junto con TK, Kindergarten y sexto.",
-      "of": "b6749c0e",
+      "t": "día de notificación — grados 9–11",
+      "of": "7d521e76",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[4].label"
+      ]
+    },
+    {
+      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por todos los grados del 1 al 12. Noveno es uno de los cursos en los que el colegio «se amplía de forma natural», junto con TK, Kindergarten y sexto. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
+      "of": "bbcb2cdc",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ]
@@ -2256,8 +2309,22 @@
       ]
     },
     {
-      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día. Así que planifique su inscripción en el ERB hacia atrás desde esa fecha, en lugar de apuntar a ella. El Visit Day combina una entrevista con una jornada de acompañamiento junto a un Student Ambassador, de modo que su hijo pasa el día como lo haría un alumno de Latin. El requisito de prueba publicado cubre los grados 9 a 11. No se publica nada para los aspirantes a grado 12, así que pregunte a la oficina de admisiones qué corresponde. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina.",
-      "of": "5a21d4bf",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son seis semanas antes del plazo de la documentación. Una sola solicitud cubre a todos los hijos de la familia. Para los grados 9–11, las decisiones sobre la ayuda llegan en el día de notificación, el **9 de abril de 2027**.",
+      "of": "f05bee23",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "El **9 de abril de 2027** es el «día de notificación de los grados 1-11» del colegio. Las decisiones sobre la ayuda financiera se comunican ese mismo día. **No se publica ninguna fecha de contrato de matriculación**, así que pregunte a la oficina de admisiones cuándo vence. Para matricularse también se exige el **depósito no reembolsable de $2,500**. Ese día de notificación cubre los grados 9–11. **No se publica ninguna fecha de notificación para el grado 12**, así que una familia de grado 12 debe preguntar a la oficina de admisiones.",
+      "of": "c026f666",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[6].detail"
+      ]
+    },
+    {
+      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día. Así que planifique su inscripción en el ERB hacia atrás desde esa fecha, en lugar de apuntar a ella. El Visit Day combina una entrevista con una jornada de acompañamiento junto a un Student Ambassador, de modo que su hijo pasa el día como lo haría un alumno de Latin. El requisito de prueba publicado cubre los grados 9 a 11. No se publica nada para los aspirantes a grado 12, así que pregunte a la oficina de admisiones qué corresponde. Las decisiones para los grados 9–11 llegan en el día de notificación, el 9 de abril de 2027. No se publica ninguna fecha de contrato de matriculación, así que confírmela con la oficina.",
+      "of": "665be691",
       "at": [
         "charlotte-latin:guide.bands[3].checklistCallout.text"
       ]
@@ -2291,8 +2358,15 @@
       ]
     },
     {
-      "t": "La ayuda se gestiona a través de **Clarity**. Se abre el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Una sola solicitud cubre a todos los hijos de la familia y «normalmente se completa en 30 minutos o menos». Aparte, se exige un **depósito no reembolsable de $2,500** «en el momento de la matriculación inicial o de la renovación», que «se descuenta del segundo pago de la matrícula». Ningún alumno puede matricularse ni renovar sin él. **No se publica ninguna cuota de solicitud de ayuda** para este ciclo.",
-      "of": "e0133c73",
+      "t": "Grados 9–11. Ese día llegan las decisiones de admisión y de ayuda financiera. No se publica nada para el grado 12 ni para el contrato; pregunte a admisiones.",
+      "of": "0984e87d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "La ayuda se gestiona a través de **Clarity**. Se abre el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Las decisiones sobre la ayuda llegan en el día de notificación: el **26 de febrero de 2027** para TK y Kindergarten, y el **9 de abril de 2027** para los grados 1–11. Una sola solicitud cubre a todos los hijos de la familia y «normalmente se completa en 30 minutos o menos». Aparte, se exige un **depósito no reembolsable de $2,500** «en el momento de la matriculación inicial o de la renovación», que «se descuenta del segundo pago de la matrícula». Ningún alumno puede matricularse ni renovar sin él. **No se publica ninguna cuota de solicitud de ayuda** para este ciclo.",
+      "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
       ]
@@ -2422,10 +2496,25 @@
       ]
     },
     {
-      "t": "No se publica en ningún nivel: confirme con la oficina de admisiones. Todos los calendarios publicados terminan en el plazo de la solicitud o de la documentación. Ninguna página de admisiones da una fecha u hora de envío de las decisiones, ni una fecha para el contrato de matriculación.",
-      "of": "3bb46864",
+      "t": "26 de febrero de 2027 · no se publica fecha de contrato",
+      "of": "eed7eae9",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.all"
+        "charlotte-latin:guide.comparison.rows[6].cells.tkk"
+      ]
+    },
+    {
+      "t": "9 de abril de 2027 · no se publica fecha de contrato",
+      "of": "5760d46c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls",
+        "charlotte-latin:guide.comparison.rows[6].cells.ms"
+      ]
+    },
+    {
+      "t": "9 de abril de 2027 (grados 9–11) · nada publicado para el grado 12 · no se publica fecha de contrato",
+      "of": "961f8cc3",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.us"
       ]
     },
     {
@@ -2538,8 +2627,8 @@
       ]
     },
     {
-      "t": "Envíela antes del 15 de enero de 2027 para entrar en las decisiones de la ronda prioritaria.",
-      "of": "43ac5026",
+      "t": "Envíela antes del 15 de enero de 2027 para entrar en las decisiones de la ronda prioritaria. Las decisiones sobre la ayuda llegan en el día de notificación: el 26 de febrero de 2027 para TK y Kindergarten, y el 9 de abril de 2027 para los grados 1–11.",
+      "of": "ab395938",
       "at": [
         "charlotte-latin:guide.checklist.aidPanel.items[2]"
       ]
@@ -2580,8 +2669,8 @@
       ]
     },
     {
-      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en charlottelatin.org (consultado en agosto de 2026). Proceden de las páginas del proceso de solicitud, de matrícula y ayuda financiera, y de admisiones. Los elementos marcados como «confirmar» o bien aparecen solo dentro del portal de solicitudes o bien no se publican. Entre ellos están todas las fechas de decisión y de contrato de matriculación. Las fechas del ciclo cambian de un año a otro, y estas páginas han mostrado un conjunto distinto en una temporada anterior. Así que verifíquelas en las páginas en vivo antes de actuar. Compilado por Charlotte School Compare; sin vinculación con Charlotte Latin School.",
-      "of": "6236a7fa",
+      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en charlottelatin.org (consultado en agosto de 2026; fechas revisadas en noviembre de 2026). Proceden de las páginas del proceso de solicitud, de matrícula y ayuda financiera, y de admisiones. Algunos elementos, como la fecha del contrato de matriculación, aparecen solo dentro del portal de solicitudes o no se publican en absoluto. Las fechas del ciclo cambian de un año a otro, y estas páginas han mostrado un conjunto distinto en una temporada anterior. Así que verifíquelas en las páginas en vivo antes de actuar. Compilado por Charlotte School Compare; sin vinculación con Charlotte Latin School.",
+      "of": "698ff60b",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ]

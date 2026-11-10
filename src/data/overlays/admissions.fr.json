@@ -284,6 +284,8 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[0].deadlines[3].value",
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
         "charlotte-latin:guide.bands[2].deadlines[1].value",
         "charlotte-latin:guide.bands[2].deadlines[2].value",
         "charlotte-latin:guide.bands[2].checklistRows[4].due",
@@ -817,6 +819,12 @@
         "providence-day:guide.bands[2].deadlines[2].value",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].deadlines[2].value",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].deadlines[4].value",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].deadlines[4].value",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].deadlines[2].value",
         "charlotte-christian:guide.bands[1].checklistRows[7].due",
         "charlotte-christian:guide.bands[2].deadlines[2].value",
@@ -1606,8 +1614,8 @@
       ]
     },
     {
-      "t": "Tous les niveaux suivent les mêmes quatre étapes : candidater en ligne via le portail → participer à un Visit Day → passer un test standardisé → respecter les échéances. Ce qui change d’un niveau à l’autre, c’est le test que passe votre enfant et la personne qui fixe le Visit Day : le bureau des admissions ou vous. Les niveaux diffèrent aussi selon que cette journée comprend ou non un entretien, et selon l’échéance qui vous concerne.",
-      "of": "4c624c7a",
+      "t": "Tous les niveaux suivent les mêmes cinq étapes. D’abord : candidater en ligne via le portail → participer à un Visit Day → passer un test standardisé. Ensuite : respecter les échéances → recevoir la réponse le jour de notification. Ce qui change d’un niveau à l’autre, c’est le test que passe votre enfant et la personne qui fixe le Visit Day : le bureau des admissions ou vous. Les niveaux diffèrent aussi selon que cette journée comprend ou non un entretien, et selon l’échéance qui vous concerne.",
+      "of": "9efab3b0",
       "at": [
         "charlotte-latin:guide.spineNote"
       ]
@@ -1646,6 +1654,15 @@
         "charlotte-latin:guide.bands[1].deadlines[1].label",
         "charlotte-latin:guide.bands[2].deadlines[3].label",
         "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "jour de notification",
+      "of": "0d52f720",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[3].label",
+        "charlotte-latin:guide.bands[1].deadlines[2].label",
+        "charlotte-latin:guide.bands[2].deadlines[4].label"
       ]
     },
     {
@@ -1690,8 +1707,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **2 janvier 2027**. C’est treize jours avant tous les autres niveaux de l’école. L’échéance de ce niveau tombe donc dans la première semaine de janvier, et non à la mi-janvier. **Aucune limite d’âge ni date de naissance n’est publiée** pour la Transitional Kindergarten ni pour la Kindergarten. L’école décrit la TK seulement en termes généraux, comme « conçue pour des enfants qui viennent d’avoir cinq ans et sont prêts pour la Kindergarten », sans indiquer de date. Demandez au bureau des admissions où se situe votre enfant.",
-      "of": "52ca6e42",
+      "t": "Obligatoire, à déposer avant le **2 janvier 2027**. C’est treize jours avant tous les autres niveaux de l’école. L’échéance de ce niveau tombe donc dans la première semaine de janvier, et non à la mi-janvier. **Aucune limite d’âge ni date de naissance n’est publiée** pour la Transitional Kindergarten ni pour la Kindergarten. L’école décrit la TK seulement en termes généraux, comme « conçue pour des enfants qui viennent d’avoir cinq ans et sont prêts pour la Kindergarten », sans indiquer de date. Demandez au bureau des admissions où se situe votre enfant. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions. L’annonce dit K-12 : elle ne précise donc pas si elle couvre la TK.",
+      "of": "3c4bf219",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ]
@@ -1752,10 +1769,34 @@
       ]
     },
     {
-      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est deux semaines après l’échéance de candidature propre à ce niveau. Un seul dossier couvre tous les enfants de la famille.",
-      "of": "bb167924",
+      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est deux semaines après l’échéance de candidature propre à ce niveau. Un seul dossier couvre tous les enfants de la famille. Les décisions d’aide sont communiquées le jour de notification, le **26 février 2027**.",
+      "of": "3a7aef70",
       "at": [
         "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Décision",
+      "of": "be93ff03",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].title",
+        "charlotte-latin:guide.bands[1].steps[5].title",
+        "charlotte-latin:guide.bands[2].steps[6].title",
+        "charlotte-latin:guide.bands[3].steps[6].title"
+      ]
+    },
+    {
+      "t": "26 février",
+      "of": "7445835e",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].tag"
+      ]
+    },
+    {
+      "t": "Le **26 février 2027** est le « jour de notification TK et K » de l’école. Les décisions d’aide financière sont communiquées le même jour. **Aucune date de contrat d’inscription n’est publiée** : demandez donc au bureau des admissions quand il est à remettre. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
+      "of": "b7f0c249",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].detail"
       ]
     },
     {
@@ -1766,8 +1807,8 @@
       ]
     },
     {
-      "t": "La Transitional Kindergarten et la Kindergarten candidatent treize jours avant tous les autres niveaux. Pour ce niveau, c’est le bureau des admissions, et non la famille, qui fixe le Visit Day. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. Aucune date de décision ni de contrat d’inscription n’est publiée, pour aucun niveau. Vérifiez les deux auprès du bureau des admissions.",
-      "of": "ac01cd72",
+      "t": "La Transitional Kindergarten et la Kindergarten candidatent treize jours avant tous les autres niveaux. Pour ce niveau, c’est le bureau des admissions, et non la famille, qui fixe le Visit Day. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. Les décisions arrivent le jour de notification, le 26 février 2027. Aucune date de contrat d’inscription n’est publiée : vérifiez-la donc auprès du bureau des admissions.",
+      "of": "68014566",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ]
@@ -1908,8 +1949,8 @@
       ]
     },
     {
-      "t": "Vérifiez les dates de décision et de contrat auprès des admissions",
-      "of": "397c18a8",
+      "t": "Guettez votre jour de notification",
+      "of": "58f8f5ab",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].action",
         "charlotte-latin:guide.bands[1].checklistRows[6].action",
@@ -1918,23 +1959,12 @@
       ]
     },
     {
-      "t": "Ni l’une ni l’autre n’est publiée, pour aucun niveau. Demandez quand vous devez attendre une réponse.",
-      "of": "c3c92423",
+      "t": "Les décisions d’admission et d’aide financière arrivent ce jour-là. Aucune date de contrat n’est publiée ; vérifiez-la auprès des admissions.",
+      "of": "9173c205",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].detail",
         "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "À confirmer",
-      "of": "a183c9ef",
-      "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].due",
-        "charlotte-latin:guide.bands[1].checklistRows[6].due",
-        "charlotte-latin:guide.bands[2].checklistRows[7].due",
-        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
       ]
     },
     {
@@ -1961,8 +1991,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance qui vaut pour tous les niveaux de 1 à 12, treize jours après celle de la Transitional Kindergarten et de la Kindergarten.",
-      "of": "1994f5d5",
+      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance qui vaut pour tous les niveaux de 1 à 12, treize jours après celle de la Transitional Kindergarten et de la Kindergarten. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
+      "of": "d9c67bf3",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ]
@@ -2006,10 +2036,27 @@
       ]
     },
     {
-      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est le jour même de l’échéance de candidature de ce niveau. Un seul dossier couvre tous les enfants de la famille.",
-      "of": "dca8641e",
+      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est le jour même de l’échéance de candidature de ce niveau. Un seul dossier couvre tous les enfants de la famille. Les décisions d’aide sont communiquées le jour de notification, le **9 avril 2027**.",
+      "of": "3582225d",
       "at": [
         "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "9 avril",
+      "of": "7063767d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].tag",
+        "charlotte-latin:guide.bands[2].steps[6].tag",
+        "charlotte-latin:guide.bands[3].steps[6].tag"
+      ]
+    },
+    {
+      "t": "Le **9 avril 2027** est le « jour de notification des niveaux 1-11 » de l’école. Les décisions d’aide financière sont communiquées le même jour. **Aucune date de contrat d’inscription n’est publiée** : demandez donc au bureau des admissions quand il est à remettre. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
+      "of": "7f2bfc85",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].detail",
+        "charlotte-latin:guide.bands[2].steps[6].detail"
       ]
     },
     {
@@ -2020,8 +2067,8 @@
       ]
     },
     {
-      "t": "Le niveau 1 passe le WPPSI, les niveaux 2–4 le WISC-V et le niveau 5 l’ISEE. La façon de réserver change avec lui. Pour le WPPSI et le WISC-V, vous contactez directement un psychologue CAIS. Pour l’ISEE, vous vous inscrivez auprès de l’Educational Records Bureau. Vérifiez quel test s’applique au niveau d’entrée de votre enfant avant de réserver. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. Aucune date de décision ni de contrat d’inscription n’est publiée pour aucun niveau. Vérifiez les deux auprès du bureau des admissions.",
-      "of": "906f9af3",
+      "t": "Le niveau 1 passe le WPPSI, les niveaux 2–4 le WISC-V et le niveau 5 l’ISEE. La façon de réserver change avec lui. Pour le WPPSI et le WISC-V, vous contactez directement un psychologue CAIS. Pour l’ISEE, vous vous inscrivez auprès de l’Educational Records Bureau. Vérifiez quel test s’applique au niveau d’entrée de votre enfant avant de réserver. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. Les décisions arrivent le jour de notification, le 9 avril 2027. Aucune date de contrat d’inscription n’est publiée : vérifiez-la donc auprès du bureau des admissions.",
+      "of": "78a2466d",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ]
@@ -2086,8 +2133,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune à tous les niveaux de 1 à 12. La sixième est l’une des années où l’école « s’élargit naturellement », avec TK, la Kindergarten et la neuvième.",
-      "of": "85254822",
+      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune à tous les niveaux de 1 à 12. La sixième est l’une des années où l’école « s’élargit naturellement », avec TK, la Kindergarten et la neuvième. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
+      "of": "c285c5c0",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ]
@@ -2138,11 +2185,10 @@
       ]
     },
     {
-      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est six semaines avant l’échéance des pièces du dossier. Un seul dossier couvre tous les enfants de la famille.",
-      "of": "44608f2b",
+      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est six semaines avant l’échéance des pièces du dossier. Un seul dossier couvre tous les enfants de la famille. Les décisions d’aide sont communiquées le jour de notification, le **9 avril 2027**.",
+      "of": "89cc82c0",
       "at": [
-        "charlotte-latin:guide.bands[2].steps[5].detail",
-        "charlotte-latin:guide.bands[3].steps[5].detail"
+        "charlotte-latin:guide.bands[2].steps[5].detail"
       ]
     },
     {
@@ -2154,8 +2200,8 @@
       ]
     },
     {
-      "t": "L’ISEE et toutes les pièces restantes du dossier sont dus ce jour-là. Planifiez donc votre inscription à l’ERB à rebours à partir de cette date, plutôt que de la viser. Une place d’examen doit être réservée, passée et notée avant l’échéance. Le Visit Day est une journée d’évaluation, non une visite : il comprend un entretien, une évaluation sur place et l’observation d’une classe. Aucune date de décision ni de contrat d’inscription n’est publiée, pour aucun niveau. Vérifiez les deux auprès du bureau des admissions.",
-      "of": "bb4c3591",
+      "t": "L’ISEE et toutes les pièces restantes du dossier sont dus ce jour-là. Planifiez donc votre inscription à l’ERB à rebours à partir de cette date, plutôt que de la viser. Une place d’examen doit être réservée, passée et notée avant l’échéance. Le Visit Day est une journée d’évaluation, non une visite : il comprend un entretien, une évaluation sur place et l’observation d’une classe. Les décisions arrivent le jour de notification, le 9 avril 2027. Aucune date de contrat d’inscription n’est publiée : vérifiez-la donc auprès du bureau des admissions.",
+      "of": "8836e1fc",
       "at": [
         "charlotte-latin:guide.bands[2].checklistCallout.text"
       ]
@@ -2228,8 +2274,15 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune à tous les niveaux de 1 à 12. La neuvième est l’une des années où l’école « s’élargit naturellement », avec TK, la Kindergarten et la sixième.",
-      "of": "b6749c0e",
+      "t": "jour de notification — niveaux 9–11",
+      "of": "7d521e76",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[4].label"
+      ]
+    },
+    {
+      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune à tous les niveaux de 1 à 12. La neuvième est l’une des années où l’école « s’élargit naturellement », avec TK, la Kindergarten et la sixième. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
+      "of": "bbcb2cdc",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ]
@@ -2256,8 +2309,22 @@
       ]
     },
     {
-      "t": "L’ISEE et toutes les pièces restantes du dossier sont dus ce jour-là. Planifiez donc votre inscription à l’ERB à rebours à partir de cette date, plutôt que de la viser. Le Visit Day associe un entretien à une journée d’immersion aux côtés d’un Student Ambassador, si bien que votre enfant passe la journée comme le ferait un élève de Latin. L’exigence de test publiée couvre les niveaux 9 à 11. Rien n’est publié pour les candidats au niveau 12 : demandez donc au bureau des admissions ce qui s’applique. Aucune date de décision ni de contrat d’inscription n’est publiée, pour aucun niveau. Vérifiez les deux auprès du bureau.",
-      "of": "5a21d4bf",
+      "t": "Facultatif, et sur son propre calendrier : le dossier d’aide ouvre via **Clarity** le **15 septembre 2026**. Il est à déposer avant le **15 janvier 2027** pour être examiné lors de la session prioritaire. C’est six semaines avant l’échéance des pièces du dossier. Un seul dossier couvre tous les enfants de la famille. Pour les niveaux 9–11, les décisions d’aide sont communiquées le jour de notification, le **9 avril 2027**.",
+      "of": "f05bee23",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Le **9 avril 2027** est le « jour de notification des niveaux 1-11 » de l’école. Les décisions d’aide financière sont communiquées le même jour. **Aucune date de contrat d’inscription n’est publiée** : demandez donc au bureau des admissions quand il est à remettre. L’inscription exige aussi l’**acompte non remboursable de $2,500**. Ce jour de notification couvre les niveaux 9–11. **Aucune date de notification n’est publiée pour le niveau 12** : une famille du niveau 12 doit donc se renseigner auprès du bureau des admissions.",
+      "of": "c026f666",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[6].detail"
+      ]
+    },
+    {
+      "t": "L’ISEE et toutes les pièces restantes du dossier sont dus ce jour-là. Planifiez donc votre inscription à l’ERB à rebours à partir de cette date, plutôt que de la viser. Le Visit Day associe un entretien à une journée d’immersion aux côtés d’un Student Ambassador, si bien que votre enfant passe la journée comme le ferait un élève de Latin. L’exigence de test publiée couvre les niveaux 9 à 11. Rien n’est publié pour les candidats au niveau 12 : demandez donc au bureau des admissions ce qui s’applique. Les décisions pour les niveaux 9–11 arrivent le jour de notification, le 9 avril 2027. Aucune date de contrat d’inscription n’est publiée : vérifiez-la donc auprès du bureau.",
+      "of": "665be691",
       "at": [
         "charlotte-latin:guide.bands[3].checklistCallout.text"
       ]
@@ -2291,8 +2358,15 @@
       ]
     },
     {
-      "t": "L’aide passe par **Clarity**. Elle ouvre le **15 septembre 2026** et est à déposer avant le **15 janvier 2027** pour être examinée lors de la session prioritaire. Un seul dossier couvre tous les enfants de la famille et « prend en général 30 minutes ou moins ». Par ailleurs, un **acompte non remboursable de $2,500** est « exigé au moment de l’inscription initiale ou de la réinscription » et est « déduit du deuxième versement des frais de scolarité ». Aucun élève ne peut être inscrit ni réinscrit sans lui. **Aucun frais de dossier d’aide financière n’est publié** pour ce cycle.",
-      "of": "e0133c73",
+      "t": "Niveaux 9–11. Les décisions d’admission et d’aide financière arrivent ce jour-là. Rien n’est publié pour le niveau 12 ni pour le contrat ; renseignez-vous auprès des admissions.",
+      "of": "0984e87d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "L’aide passe par **Clarity**. Elle ouvre le **15 septembre 2026** et est à déposer avant le **15 janvier 2027** pour être examinée lors de la session prioritaire. Les décisions d’aide arrivent le jour de notification : le **26 février 2027** pour la TK et la Kindergarten, et le **9 avril 2027** pour les niveaux 1–11. Un seul dossier couvre tous les enfants de la famille et « prend en général 30 minutes ou moins ». Par ailleurs, un **acompte non remboursable de $2,500** est « exigé au moment de l’inscription initiale ou de la réinscription » et est « déduit du deuxième versement des frais de scolarité ». Aucun élève ne peut être inscrit ni réinscrit sans lui. **Aucun frais de dossier d’aide financière n’est publié** pour ce cycle.",
+      "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
       ]
@@ -2422,10 +2496,25 @@
       ]
     },
     {
-      "t": "Non publiées, pour aucun niveau — vérifiez auprès du bureau des admissions. Tous les calendriers publiés s’arrêtent à l’échéance de la candidature ou des pièces du dossier. Aucune page d’admission n’indique de date ni d’heure d’envoi des décisions, ni de date pour le contrat d’inscription.",
-      "of": "3bb46864",
+      "t": "26 février 2027 · aucune date de contrat publiée",
+      "of": "eed7eae9",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.all"
+        "charlotte-latin:guide.comparison.rows[6].cells.tkk"
+      ]
+    },
+    {
+      "t": "9 avril 2027 · aucune date de contrat publiée",
+      "of": "5760d46c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls",
+        "charlotte-latin:guide.comparison.rows[6].cells.ms"
+      ]
+    },
+    {
+      "t": "9 avril 2027 (niv. 9–11) · rien de publié pour le niv. 12 · aucune date de contrat publiée",
+      "of": "961f8cc3",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.us"
       ]
     },
     {
@@ -2538,8 +2627,8 @@
       ]
     },
     {
-      "t": "Déposez-le avant le 15 janvier 2027 pour être pris en compte dans les décisions de la session prioritaire.",
-      "of": "43ac5026",
+      "t": "Déposez-le avant le 15 janvier 2027 pour être pris en compte dans les décisions de la session prioritaire. Les décisions d’aide arrivent le jour de notification : le 26 février 2027 pour la TK et la Kindergarten, et le 9 avril 2027 pour les niveaux 1–11.",
+      "of": "ab395938",
       "at": [
         "charlotte-latin:guide.checklist.aidPanel.items[2]"
       ]
@@ -2580,8 +2669,8 @@
       ]
     },
     {
-      "t": "Les dates correspondent au cycle d’admission 2027–28, tel que publié sur charlottelatin.org (consulté en août 2026). Elles proviennent des pages de la procédure de candidature, des frais de scolarité et de l’aide financière, et des admissions. Les éléments marqués « à confirmer » sont soit visibles uniquement dans le portail de candidature, soit non publiés du tout. Parmi eux figurent toutes les dates de décision et de contrat d’inscription. Les dates du cycle changent d’une année à l’autre, et ces pages ont affiché un autre ensemble lors d’une saison passée. Vérifiez donc les pages en ligne avant d’agir. Compilé par Charlotte School Compare ; sans lien avec Charlotte Latin School.",
-      "of": "6236a7fa",
+      "t": "Les dates correspondent au cycle d’admission 2027–28, tel que publié sur charlottelatin.org (consulté en août 2026 ; dates revérifiées en novembre 2026). Elles proviennent des pages de la procédure de candidature, des frais de scolarité et de l’aide financière, et des admissions. Certains éléments, comme la date du contrat d’inscription, sont visibles uniquement dans le portail de candidature ou ne sont pas publiés du tout. Les dates du cycle changent d’une année à l’autre, et ces pages ont affiché un autre ensemble lors d’une saison passée. Vérifiez donc les pages en ligne avant d’agir. Compilé par Charlotte School Compare ; sans lien avec Charlotte Latin School.",
+      "of": "698ff60b",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ]

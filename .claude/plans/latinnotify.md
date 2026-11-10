@@ -1,7 +1,7 @@
 ---
 name: latinnotify
 title: Charlotte Latin admissions freshness — publish the two notification days and the sibling deadline, relabel the research note to entry-year cycles
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-10
 branch: feat/latinnotify
@@ -399,3 +399,36 @@ on Compare.
   - no stale "No decision date" or "Confirm the decision" text remains;
   - no literal `**`;
   - 390px `scrollWidth` is 375 in every band, including the 5-tile ones.
+
+### Phase 2 (2026-11-10)
+
+- **Approval:** "The English page is approved."
+- **Splice:** 1103 kept / 30 added / 19 dropped per locale.
+  - 19 added units were paired 1:1 by `at` with their predecessor. Each predecessor's
+    reviewed `t` was revised.
+  - 11 units are new, with no predecessor: 2 tiles, the decision steps' titles, tags and
+    details, and 3 comparison cells. They were translated fresh, with each locale's
+    reviewed decision and contract wording from the other CAIS schools given as
+    references.
+  - The `ms` decision step and cell share stamps with `ls`, so they need no new units.
+- **Translation:** nine parallel agents, gated before apply (digit tokens, `**`, bidi,
+  digit script, `t` ≠ English, ratio, English month/weekday). All nine had 0 problems.
+  - Each locale used one consistent "notification day" term: es «día de notificación»,
+    fr « jour de notification », it «giorno degli esiti», ht «jou anons», hi सूचना दिवस,
+    bn সিদ্ধান্ত জানানোর দিন, te ఫలితాల ప్రకటన రోజు, fa روز اعلام نتایج,
+    ar يوم إعلان القرارات.
+  - Each locale's existing guillemets were used for the school quotes.
+- **Worth a native speaker's look:** the sibling-family sentence (new wording in every
+  locale, no reviewed predecessor). Also the first-person "we rechecked" that ht and te
+  used in the disclaimer, where the English is passive.
+- **Checks:**
+  - by-stamp integrity: 1103 kept byte-identical / 30 new / 0 blank, ×9;
+  - `check:live` ✓ and `check:runtime` ✓;
+  - `check:digits`: 270 units compared · 0 to review;
+  - `check:sepdrift`: 0 drifted ×9, and `check_figures` intact ×9;
+  - `check:dates`, `moneytext`, `fr`, `hi`, `fa` and `bidi` pass;
+  - `i18n:leaks`: 0 flags on the 44 changed paths ×9;
+  - `npm run build`: green.
+- **Browser** (es, fa, hi; every band, every `<details>` open, all 4 checklist pages):
+  every changed unit renders translated (25/25, 25/25 and 24/24; units that are figures
+  only were not probed), with 0 English leftovers and no literal `**`.
