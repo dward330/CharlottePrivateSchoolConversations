@@ -1,12 +1,12 @@
 ---
 name: plainarts
 title: Plain-language rewrite of The Arts area's English prose (13 schools, 132 sites / 132 distinct texts in src/data/artsPrograms/), English in five reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 5                     # Phase 1 is built in five batches, each with its own review stop
 created: 2026-11-10
 branch: feat/plainarts
-prs: []
+prs: [476]
 ---
 
 # Plain-language rewrite — The Arts
