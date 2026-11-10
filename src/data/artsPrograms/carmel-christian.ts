@@ -11,8 +11,10 @@
 //     noms (Pisacano/Wilson) to "Singin' in the Rain." The 2024 ledger below is
 //     therefore attributed to Anastasia — extracted from Blumenthal's official
 //     2024 nominee PDF via pdftotext -layout, so the category→nominee mapping is
-//     exact — and the Singin' in the Rain row is kept separate and marked as a
-//     year to verify.
+//     exact — and the Singin' in the Rain row is kept separate, its year shown
+//     as approximate ("~2022-23") because the school never dates it. (The
+//     "(year to verify)" bookkeeping that once sat in the year cell was removed
+//     in plan artsfacts, 2026-11-10: it rendered to parents in every locale.)
 //
 //  2. The signature result is a real, independently confirmed WIN: Anna Jernigan,
 //     Best Actress, "Footloose," 2026 Blumey Awards (WFAE). She advances to the
@@ -150,10 +152,10 @@ export const carmelChristian: ArtsProgram = {
           'Seven placements, no win: Best Featured Performer nominees Sasha Mashchenko (Ballet Lead) and Caeden Moore (Vlad) · Best Actor finalists Dylan Wilson (Dmitry) and Anna Jernigan (Lily) · Best Supporting Actor finalists Caeden Moore (Vlad) and Karleigh Robin (Dowager Empress) · a Best Featured Performer finalist, Sasha Mashchenko (Ballet Lead). Blumenthal\'s official PDF lists Jernigan under the exact heading "Finalists for Best Actor", though she played Lily. The heading is likely a labeling quirk.',
       },
       {
-        year: '~2022-23 (year to verify)',
+        year: '~2022-23',
         show: "Singin' in the Rain",
         result:
-          'Two nominations per the school’s undated news page: Best Actress (Darien Pisacano) and Best Actor (Dylan Wilson). Attributed by the school to "Singin\' in the Rain," an earlier production than Anastasia; the exact year is not published and is TO VERIFY.',
+          'Two nominations per the school’s undated news page: Best Actress (Darien Pisacano) and Best Actor (Dylan Wilson). Attributed by the school to "Singin\' in the Rain," an earlier production than Anastasia; the exact year is not published.',
       },
     ],
     honestContext:
@@ -201,7 +203,7 @@ export const carmelChristian: ArtsProgram = {
       },
       {
         label: 'Get selected beyond campus',
-        text: 'the Middle School program lists an "Honor Band" event; no all-state, adjudication or festival result is published, and a mentioned "Carowinds Festival of Music" did not surface in this pass (TO VERIFY).',
+        text: 'the Middle School program lists an "Honor Band" event; no all-state, adjudication or festival result is published, and a mentioned "Carowinds Festival of Music" could not be confirmed.',
       },
     ],
     ladderNote:
@@ -231,7 +233,7 @@ export const carmelChristian: ArtsProgram = {
       { name: 'AP 2-D Art & Design', terminal: true },
     ],
     pathNote:
-      'This sequence comes from the Course Offerings guide, not the arts page — the two disagree, and the arts page names no leveled sequence at all. Graphic design as a discrete course is not published (TO VERIFY).',
+      'This sequence comes from the Course Offerings guide, not the arts page — the two disagree, and the arts page names no leveled sequence at all. Graphic design as a separate course is not published.',
     exhibits: [
       {
         when: 'Annual',
