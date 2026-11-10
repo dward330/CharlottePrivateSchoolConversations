@@ -280,7 +280,7 @@ export const providenceDay: AfterSchoolProgram = {
       'A drop-in destination for every Middle Schooler, every school day, with no sign-up. Students may **self-register and sign themselves in and out** for practices, games, music lessons and rehearsals — a meaningfully more autonomous model than Lower School. In Lower School, study hall runs for grades 3–5 only, Monday–Thursday, 3:15–4:00 p.m., and is explicitly independent study with no one-on-one academic help.',
     catalogTitle: 'Fall 2026 enrichment classes',
     catalogIntro:
-      'The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**; TK/K classes are $200 and grades 1–5 are $220. Students may take only **one** enrichment program per day, and enrolment in Extended Day is required to attend any of them.',
+      'The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**; TK/K classes are $200 and grades 1–5 are $220. Students may take only **one** enrichment program per day, and enrollment in Extended Day is required to attend any of them.',
     dayFilters: ['All', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
     gradeFilters: ['All', 'TK', 'K', '1', '2', '3', '4', '5'],
     classes: [
@@ -334,7 +334,7 @@ export const providenceDay: AfterSchoolProgram = {
       },
       {
         name: 'Science — Mad Science Jr. Exploration',
-        desc: 'Air, sea and surf, colour, energy, states of matter, weather and lasers',
+        desc: 'Air, sea and surf, color, energy, states of matter, weather and lasers',
         day: 'Wed',
         grades: ['TK', 'K'],
         gradeLabel: 'TK–K',
@@ -366,7 +366,7 @@ export const providenceDay: AfterSchoolProgram = {
       },
       {
         name: 'Karate',
-        desc: 'Eliza Newell, third-degree black belt — self-defence blended with respect and discipline',
+        desc: 'Eliza Newell, third-degree black belt — self-defense blended with respect and discipline',
         day: 'Thu',
         grades: ['TK', 'K', '1', '2', '3', '4', '5'],
         gradeLabel: 'TK–5th',
@@ -455,7 +455,7 @@ export const providenceDay: AfterSchoolProgram = {
       '**Upper School isn’t covered.** Grades 9–12 dismiss at 3:10 p.m. with no published program of any kind.',
       '**No before-school care on regular days** at any division — even though Activity Days show the capability exists at 7:45 a.m., or 7:00 a.m. on conference days.',
       '**No drop-in for Extended Day**, stated explicitly. Occasional-need families are pushed to the $30/hour adjustment rate, which the school says is not drop-in pricing.',
-      '**Enrichment is gated behind Extended Day enrolment**, so a single class always carries a monthly Extended Day charge with it.',
+      '**Enrichment is gated behind Extended Day enrollment**, so a single class always carries a monthly Extended Day charge with it.',
       '**The Activity Day fee is unpublished** — an unbudgetable cost on the days that most often break childcare.',
       '**Study hall is thin** — grades 3–5 only, Monday–Thursday, 45 minutes, and explicitly independent study with no one-on-one help. Grades 1–2 get none.',
       '**Cost stacks on already-high tuition** — grades 1–5 full-time is $470/month on top of $32,960; TK full-time is $750/month on top of $25,510.',

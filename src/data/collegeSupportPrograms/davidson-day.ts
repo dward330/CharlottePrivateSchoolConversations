@@ -690,12 +690,12 @@ export const davidsonDay: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**The School Profile as an instrument** — the strongest lever here, and well done. It is four pages, current and linked in public. It gives the full grading scale and weighting, what the GPA leaves out, and the Class of 2027 GPA range. It also has the complete course catalog, with courses not offered clearly marked. Then come graduation requirements, the Honor Code and the five-year acceptance list. A reader who has never been to Davidson, NC, can understand a student without relying on test scores or rank. That is exactly the job the Profile has to do.',
-          '**Integrity signalling** — the Honor Code is published word for word. The school holds the usual memberships in groups that set ethics rules for college admissions: NACAC, SACAC and ACCIS. It also belongs to SACS, SAIS, NAIS, NCAIS, NCISAA, the Educational Records Bureau (ERB) and College Board.',
+          '**Integrity signaling** — the Honor Code is published word for word. The school holds the usual memberships in groups that set ethics rules for college admissions: NACAC, SACAC and ACCIS. It also belongs to SACS, SAIS, NAIS, NCAIS, NCISAA, the Educational Records Bureau (ERB) and College Board.',
           '**Regional co-hosting** — each spring Davidson Day and Cannon School co-host the Lake Norman Area College Admissions Case Studies Program and College Fair. Families act as a mock admissions committee. They read real files with the details changed.',
           '**Proximity, not partnership** — Davidson College is one mile away and appears on the acceptance list. But the school publishes no deal for dual enrollment, course access or preferred admission. Being close is a fact, not a documented path from one to the other.',
         ],
         note:
-          'The discipline-reporting half of integrity signalling is not disclosed. The school does not say whether suspensions or honor-code violations go on the secondary school report it sends colleges. Nor does it say how a student may explain an incident.',
+          'The discipline-reporting half of integrity signaling is not disclosed. The school does not say whether suspensions or honor-code violations go on the secondary school report it sends colleges. Nor does it say how a student may explain an incident.',
       },
     ],
     flags: [],
@@ -774,7 +774,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'Non-traditional destinations',
-        text: 'Service academies: Air Force and West Point. Music and arts schools: Manhattan School of Music, UNCSA, Pratt, SCAD and AMDA. International universities: seven across five countries (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London). Specialised technical schools: Embry-Riddle, Colorado School of Mines, RPI and RIT.',
+        text: 'Service academies: Air Force and West Point. Music and arts schools: Manhattan School of Music, UNCSA, Pratt, SCAD and AMDA. International universities: seven across five countries (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London). Specialized technical schools: Embry-Riddle, Colorado School of Mines, RPI and RIT.',
       },
     ],
     flags: [
@@ -784,7 +784,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'No gap-year policy or counselling is published, and no quintile table, decile table or mean GPA.',
+        text: 'No gap-year policy or counseling is published, and no quintile table, decile table or mean GPA.',
       },
       {
         kind: 'verify',
@@ -811,7 +811,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'The Global Studies Diploma sends a second transcript',
-        text: 'This is different in kind from an honours cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, two weeks of international field research and a capstone paper.',
+        text: 'This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, two weeks of international field research and a capstone paper.',
       },
       {
         label: 'The caseload is genuinely small, and starts in 9th grade',

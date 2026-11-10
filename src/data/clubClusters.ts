@@ -442,7 +442,7 @@ const GASTON_DAY: ClubClusters = {
       oneLiner: 'Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook',
       evidence: 'verified',
       evidenceLabel: 'Verified — award',
-      note: 'Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the North Carolina Scholastic Media Association\'s Literary Magazine Contest. The school does not publish award counts or years, so "numerous" is its own word, reproduced rather than quantified.',
+      note: 'Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognized in the North Carolina Scholastic Media Association\'s Literary Magazine Contest. The school does not publish award counts or years, so "numerous" is its own word, reproduced rather than quantified.',
       source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences); issuu.com/gdsblutopia',
     },
     {
@@ -450,7 +450,7 @@ const GASTON_DAY: ClubClusters = {
       oneLiner: 'National Honor Society, National Beta Club, International Thespian Society',
       evidence: 'reported',
       evidenceLabel: 'Named only',
-      note: 'Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit programme at all.',
+      note: 'Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit program at all.',
       source: 'privateschoolreview.com — Gaston Day profile; gastonday.org — Academic Profile 2025-2026',
     },
   ],

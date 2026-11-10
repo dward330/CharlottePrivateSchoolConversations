@@ -58,7 +58,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       {
         value: '2',
         denominator: 'public + independent · boarding',
-        caption: 'high school counsellors, by published scope',
+        caption: 'high school counselors, by published scope',
       },
       {
         value: '9',
@@ -70,7 +70,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       {
         when: 'Throughout Middle School — knowing the schools',
         kind: 'Exposure',
-        text: 'The counsellor for public and independent placement visits area schools and, in her words, gets “a feel for who might benefit from knowing this school,” then points families toward fits based on what they want: “Do they want big class sizes? Are sports important? Extracurricular?”',
+        text: 'The counselor for public and independent placement visits area schools and, in her words, gets “a feel for who might benefit from knowing this school,” then points families toward fits based on what they want: “Do they want big class sizes? Are sports important? Extracurricular?”',
       },
       {
         when: 'Middle School — the boarding track, if a family wants it',
@@ -313,7 +313,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       'What standardized test do your 8th graders sit for high school admission, and when? The school publishes nothing on this.',
       'What share of last year’s class got into their first-choice high school? No figure is published, so ask for it directly.',
       'What does the placement calendar look like — when does the search start, and what happens each term?',
-      'The counsellor roles began in 2023-24. How has the process changed since, and who holds each role now?',
+      'The counselor roles began in 2023-24. How has the process changed since, and who holds each role now?',
       'Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.',
       'The 2004–2026 destination list marks 41 of 99 schools with an asterisk and gives no legend — what does it mean?',
     ],

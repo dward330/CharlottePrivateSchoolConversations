@@ -709,7 +709,7 @@ const GASTON_DAY: ClubCatalog = {
     },
     {
       label: 'Middle School (5–8)',
-      text: 'Middle School students elect required LEAD courses alongside art, drama, chorus and band, and run their own Student Government. The Spartan Strong Volunteer Service Award recognises 50+ volunteer hours a year. No separate Middle School club roster is published.',
+      text: 'Middle School students elect required LEAD courses alongside art, drama, chorus and band, and run their own Student Government. The Spartan Strong Volunteer Service Award recognizes 50+ volunteer hours a year. No separate Middle School club roster is published.',
       tag: 'Structural',
     },
   ],

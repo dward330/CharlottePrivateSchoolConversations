@@ -107,7 +107,7 @@ export const gastonDay: SportsProgram = {
       },
     ],
     footnote:
-      'Levels shown are what the sources actually publish. Volleyball is the one sport whose ladder is documented — MaxPreps lists varsity, JV and freshman teams — so it is the only row carrying a JV chip; every other sport shows V alone because the athletics site that would list its ladder is JavaScript-rendered and exposes nothing to a fetch. The Middle School fields its own teams in soccer, basketball, track & field and swimming (grades 6–8, subject to academic standing and behaviour), but the school does not publish a full MS roster, so no MS chips are claimed. Cheering and track & field come from Private School Review rather than the MaxPreps season grid.',
+      'Levels shown are what the sources actually publish. Volleyball is the one sport whose ladder is documented — MaxPreps lists varsity, JV and freshman teams — so it is the only row carrying a JV chip; every other sport shows V alone because the athletics site that would list its ladder is JavaScript-rendered and exposes nothing to a fetch. The Middle School fields its own teams in soccer, basketball, track & field and swimming (grades 6–8, subject to academic standing and behavior), but the school does not publish a full MS roster, so no MS chips are claimed. Cheering and track & field come from Private School Review rather than the MaxPreps season grid.',
     sources: [
       { label: 'MaxPreps — Gaston Day Spartans (sport list by gender and season)', url: MAXPREPS },
       { label: 'MaxPreps — Gaston Day volleyball (varsity / JV / freshman levels, 2A classification)', url: MAXPREPS_VB },
@@ -217,7 +217,7 @@ export const gastonDay: SportsProgram = {
       },
       {
         program: 'Volleyball',
-        text: 'Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the programme has reached three further finals and taken five league titles over the decade.',
+        text: 'Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the program has reached three further finals and taken five league titles over the decade.',
       },
       {
         program: 'Boys Soccer',
@@ -369,7 +369,7 @@ export const gastonDay: SportsProgram = {
     care: [
       {
         label: 'Athletic Director',
-        text: 'Lulu Brase, named in the school’s own Academic Profile. She also co-directs the summer camp programme.',
+        text: 'Lulu Brase, named in the school’s own Academic Profile. She also co-directs the summer camp program.',
       },
       {
         label: 'Athletic training / sports medicine',
@@ -377,7 +377,7 @@ export const gastonDay: SportsProgram = {
       },
       {
         label: 'Eligibility',
-        text: 'Middle School participation (grades 6–8) requires academic standing and positive behaviour — the one eligibility rule the school states publicly.',
+        text: 'Middle School participation (grades 6–8) requires academic standing and positive behavior — the one eligibility rule the school states publicly.',
       },
       {
         label: 'Governing documents',

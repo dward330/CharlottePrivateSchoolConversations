@@ -51,7 +51,7 @@ export const gastonDay: ClubsProgram = {
         valueLabel: 'juniors & seniors mentoring 4th graders',
         name: 'Sunship Earth & Peer Mentoring',
         detail:
-          'Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class, leading activities on the relationship between the environment and the human race. The relationships formed become a mentoring programme: each eleventh- and twelfth-grade student continues to meet and work with their fourth-grade mentee throughout the school year.',
+          'Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class, leading activities on the relationship between the environment and the human race. The relationships formed become a mentoring program: each eleventh- and twelfth-grade student continues to meet and work with their fourth-grade mentee throughout the school year.',
         source: { label: 'gastonday.org — Academic Profile 2025-2026', url: PROFILE },
       },
       {
@@ -59,13 +59,13 @@ export const gastonDay: ClubsProgram = {
         valueLabel: 'per year, every Upper School student',
         name: 'Community Service Requirement',
         detail:
-          'All Upper School students must complete a minimum of 25 hours of volunteer service each year, rising to 40 hours for National Honor Society members. Juniors additionally plan, organise and execute their own community-service project.',
+          'All Upper School students must complete a minimum of 25 hours of volunteer service each year, rising to 40 hours for National Honor Society members. Juniors additionally plan, organize and execute their own community-service project.',
         source: { label: 'gastonday.org — Upper School', url: UPPER },
       },
     ],
     footnoteTitle: 'The recognition ladder above the requirement',
     footnote:
-      'Beyond the 25-hour floor, the President’s Service Award recognises Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognised in the Middle School, 100 recognised in the Upper School — plus the 40-hour NHS threshold sitting alongside.',
+      'Beyond the 25-hour floor, the President’s Service Award recognizes Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognized in the Middle School, 100 recognized in the Upper School — plus the 40-hour NHS threshold sitting alongside.',
     flags: [
       {
         kind: 'not-a-club',
@@ -124,11 +124,11 @@ export const gastonDay: ClubsProgram = {
       },
       {
         label: 'Spartan Strong Volunteer Service Award',
-        text: 'The Middle School equivalent, recognising 50+ volunteer hours in a year.',
+        text: 'The Middle School equivalent, recognizing 50+ volunteer hours in a year.',
       },
       {
         label: 'Scholastic Art & Writing Awards',
-        text: 'Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the NC Scholastic Media Association Literary Magazine Contest.',
+        text: 'Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognized in the NC Scholastic Media Association Literary Magazine Contest.',
       },
       {
         label: 'iGEM gold medal',
@@ -138,7 +138,7 @@ export const gastonDay: ClubsProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit programme is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.',
+        text: 'No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit program is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.',
       },
     ],
     sources: [

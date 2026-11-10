@@ -169,7 +169,7 @@ export const charlotteCatholic: SportsProgram = {
           { result: 'NONE' },
           { result: 'STATE', record: '9–8 (OT)' },
         ],
-        note: 'Leonard’s overtime goal beat Middle Creek for the 1A-6A title — the programme’s second, and first in twelve years.',
+        note: 'Leonard’s overtime goal beat Middle Creek for the 1A-6A title — the program’s second, and first in twelve years.',
       },
       {
         program: 'Girls lacrosse',
@@ -395,7 +395,7 @@ export const charlotteCatholic: SportsProgram = {
           { value: '3–3', label: '2025 conference' },
         ],
         detail:
-          'Led the 2025 team to a 7–5 finish and a 27–0 opening-round playoff win over A.C. Reynolds, in a programme with 8 state titles from 11 championship-game appearances.',
+          'Led the 2025 team to a 7–5 finish and a 27–0 opening-round playoff win over A.C. Reynolds, in a program with 8 state titles from 11 championship-game appearances.',
       },
     ],
     tenure: [
@@ -420,9 +420,9 @@ export const charlotteCatholic: SportsProgram = {
     venues: [
       { name: 'Oddo Field at Keffer Stadium', detail: 'approximately 3,500 seats; the field is named for Jim Oddo' },
       { name: 'Gymnasium', detail: 'basketball, volleyball and wrestling' },
-      { name: 'Baseball complex', detail: 'home of the programme with the school’s deepest published coaching staff' },
+      { name: 'Baseball complex', detail: 'home of the program with the school’s deepest published coaching staff' },
       { name: 'Training room', detail: 'base for the Atrium Health athletic-training staff and the student Sports Medicine club' },
-      { name: 'MACS Fine Arts Center', detail: '650-seat auditorium, dedicated 2022 — shared with the arts programme' },
+      { name: 'MACS Fine Arts Center', detail: '650-seat auditorium, dedicated 2022 — shared with the arts program' },
     ],
     care: [
       { label: 'Athletic trainers', text: 'Full-time licensed and certified athletic trainers, provided by Atrium Health rather than employed directly by the school.' },

@@ -63,7 +63,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Outdoor Adventure Camp',
-        desc: 'The farm campus’s outdoor programme, offered in four of the eight weeks.',
+        desc: 'The farm campus’s outdoor program, offered in four of the eight weeks.',
         category: 'farm',
         categoryLabel: 'Full Day - Farm',
         grades: ['k2', 'g35', 'g68'],
@@ -535,7 +535,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Math Explorers',
-        desc: 'Early maths enrichment.',
+        desc: 'Early math enrichment.',
         category: 'morning',
         categoryLabel: 'Morning',
         grades: ['jk', 'k2'],

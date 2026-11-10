@@ -512,7 +512,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     headline:
       'Students in AP classes must sit the exam — and in 2026, 92% of the 833 exams Latin students took scored 3 or higher, with a mean score of 4.10.',
     subhead:
-      'The profile also gives an unusually frank warning about its own maths placement. And it reports a spring-2026 decision to weight Advanced maths and science courses +0.5. The change reaches back to grades already earned, starting with the Class of 2027.',
+      'The profile also gives an unusually frank warning about its own math placement. And it reports a spring-2026 decision to weight Advanced math and science courses +0.5. The change reaches back to grades already earned, starting with the Class of 2027.',
     stats: [
       { value: '24', label: 'AP subjects offered — exams required of AP students' },
       { value: '92%', label: 'of 833 AP exams scored 3+ (2026, 308 students)' },
@@ -561,7 +561,7 @@ export const charlotteLatin: CollegeSupportProgram = {
         text: 'Verbatim: “Charlotte Latin School **does not report class rank**.” The sentence appeared in 2017–18, disappeared, and is back in 2026–27. No quintile or decile table has ever been published.',
       },
       {
-        label: 'Candid about maths placement',
+        label: 'Candid about math placement',
         text: 'The one real interpretive aid the profile offers, verbatim: “As our Honors math curriculum is unusually rigorous and fast-paced, **many fine math students are placed in standard and advanced courses**.” An unusually honest warning against misreading a transcript.',
       },
     ],
@@ -648,7 +648,7 @@ export const charlotteLatin: CollegeSupportProgram = {
         grade: '12',
         intensity: 'Intensive',
         items: ['**College Application Bootcamp**', 'Essay review and feedback', '**Proofreading of each essay and application before submission**'],
-        note: 'Grade 12 Parent College Night; a Transition to College programme',
+        note: 'Grade 12 Parent College Night; a Transition to College program',
       },
     ],
     mechanicsTitle: 'The mechanics the office owns',
@@ -664,7 +664,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       'Note two absences from that list. **Teacher recommendations** are not described as an office-owned process anywhere — there is no published account of how recs are solicited, assigned or capped. Neither is a **scholarship search** named as a service, and no scholarship platform is described.',
     reach: [
       '**~100** college representatives a year — published in the 2017–18 profile only',
-      'Recurring programmes on **Financial Aid**, **Collegiate Athletics** and **Arts in College**',
+      'Recurring programs on **Financial Aid**, **Collegiate Athletics** and **Arts in College**',
       'SCOIR and MyLatin · office open year-round for appointments and drop-ins',
     ],
     flags: [
@@ -727,15 +727,15 @@ export const charlotteLatin: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'Latin’s strengths are narrow and deep, and truly elite in two places: a top-20 national debate programme and a Fab Lab that follows MIT’s model. The school leaves it almost entirely to the student to build a standout strength.',
+      'Latin’s strengths are narrow and deep, and truly elite in two places: a top-20 national debate program and a Fab Lab that follows MIT’s model. The school leaves it almost entirely to the student to build a standout strength.',
     subhead:
-      'There is no required capstone or senior project that manufactures one, which makes the two flagship programmes carry more weight than they would elsewhere.',
+      'There is no required capstone or senior project that manufactures one, which makes the two flagship programs carry more weight than they would elsewhere.',
     levers: [
       {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**Speech & Debate — the strongest documented spike.** An NSDA **Debate School of Excellence Award**, one of the top 20 programmes in the country; NSDA **charter status**; **200 Club** membership in 2025. Director Bilal Butt has earned a second Diamond award with 30,000+ NSDA points over ten years. At 2025 Nationals, 7 debaters competed and 6 earned recognition against 6,700+ students — including a **5th place in Public Forum**.',
+          '**Speech & Debate — the strongest documented spike.** An NSDA **Debate School of Excellence Award**, one of the top 20 programs in the country; NSDA **charter status**; **200 Club** membership in 2025. Director Bilal Butt has earned a second Diamond award with 30,000+ NSDA points over ten years. At 2025 Nationals, 7 debaters competed and 6 earned recognition against 6,700+ students — including a **5th place in Public Forum**.',
           '**It is curricular, not merely a club.** The courses carry a competition mandate: the intro course requires participation in two tournaments a year, and the advanced course requires six.',
           '**Innovation & Design / Fab Lab** — an official Fab Lab school that traces back to **MIT’s Center for Bits and Atoms**. It has been an active Fab Academy site since 2016. Engineering has been taught here since 1989. The lab runs 3D printing, CNC milling, circuit production, laser and precision milling. Upper School courses are taught “like a professional software engineering firm”. Students present to outside panels of industry experts.',
           '**Malone Scholars School** — North Carolina’s only one, endowed by the Malone Family Foundation, which selects 50 independent schools nationally partly for their “excellent accommodations for gifted and talented students”.',
@@ -818,11 +818,11 @@ export const charlotteLatin: CollegeSupportProgram = {
     support: [
       {
         label: 'Learning Resources, founded 1985',
-        text: 'A real programme with a long history — a K–12 Director plus LR teachers in each division, admission based on a psychoeducational evaluation demonstrating learning differences that impact achievement.',
+        text: 'A real program with a long history — a K–12 Director plus LR teachers in each division, admission based on a psychoeducational evaluation demonstrating learning differences that impact achievement.',
       },
       {
         label: 'The Upper School model is coaching, not remediation',
-        text: 'In the school’s own words, the Upper School programme “becomes more of a **consultative and coaching model**”. It coaches skills such as organisation, time management and study strategies. Lower School Learning Resources (LR) is explicitly remedial, but the Upper School is not. That matters most for a family whose 9–12 student needs direct help.',
+        text: 'In the school’s own words, the Upper School program “becomes more of a **consultative and coaching model**”. It coaches skills such as organization, time management and study strategies. Lower School Learning Resources (LR) is explicitly remedial, but the Upper School is not. That matters most for a family whose 9–12 student needs direct help.',
       },
       {
         label: 'Accommodations and cost',
@@ -871,8 +871,8 @@ export const charlotteLatin: CollegeSupportProgram = {
       'The open questions are now about spread and outcomes rather than basic disclosure: the averages are printed, but not the range around them or where each class enrolled.',
     points: [
       {
-        label: 'Two externally validated flagship programmes',
-        text: 'an NSDA top-20 debate programme with charter and 200 Club status and a 5th-place national finish, and an MIT-lineage Fab Lab running an active Fab Academy node since 2016. Neither validation depends on the school’s own marketing.',
+        label: 'Two externally validated flagship programs',
+        text: 'an NSDA top-20 debate program with charter and 200 Club status and a 5th-place national finish, and an MIT-lineage Fab Lab running an active Fab Academy node since 2016. Neither validation depends on the school’s own marketing.',
       },
       {
         label: 'An unusually well-staffed counseling office',

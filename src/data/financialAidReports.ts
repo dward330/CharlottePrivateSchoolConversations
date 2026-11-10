@@ -154,7 +154,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -213,7 +213,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       ],
       rangeMax: 700,
       figureNote:
-        'Scale $0–700. A bounded estimate per division, not an itemised fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrolment deposit: 10% of tuition, credited toward tuition due.',
+        'Scale $0–700. A bounded estimate per division, not an itemized fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrollment deposit: 10% of tuition, credited toward tuition due.',
       componentsTitle: 'Ten confirmed cost components — 6 unpriced',
       componentsAside: 'All-in estimate not built: 60% unpriced > 33% threshold',
       components: [
@@ -246,7 +246,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         {
           when: 'With contracts',
           detail:
-            'Award decisions released with enrolment contracts — admission is decided separately',
+            'Award decisions released with enrollment contracts — admission is decided separately',
           emphasis: true,
         },
         {
@@ -275,7 +275,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     {
       id: 'fa-merit',
       navTitle: 'Merit & Scholarships',
-      title: 'Merit, Discounts & Special Programmes',
+      title: 'Merit, Discounts & Special Programs',
       confidence: 82,
       tag: 'ALL AID IS NEED-BASED',
       figureCaption: 'What an endowed scholarship is designed to cover',
@@ -310,7 +310,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       plans: [
         {
           figure: '10%',
-          label: 'Enrolment deposit',
+          label: 'Enrollment deposit',
           detail:
             "Credited toward tuition — a timing obligation, not an extra charge. Aid applicants pay a **reduced, refundable** deposit if the award isn't enough to attend (amount not published).",
           emphasis: true,
@@ -322,7 +322,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         },
         {
           figure: '2×',
-          label: 'Two instalments',
+          label: 'Two installments',
           detail: 'Equal payments in July and January. No fee published.',
         },
         {
@@ -335,7 +335,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — CONTRACT TERMS',
-          body: 'Late-payment policy · mid-year withdrawal obligation · plan fees or interest · third-party lenders · tuition refund insurance — these live in the enrolment contract, which is not public.',
+          body: 'Late-payment policy · mid-year withdrawal obligation · plan fees or interest · third-party lenders · tuition refund insurance — these live in the enrollment contract, which is not public.',
         },
       ],
     },
@@ -365,7 +365,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
-        'Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrolment?',
+        'Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrollment?',
         'What are this year\'s average and median awards, the range — and does any award cover full tuition?',
         'What are the dollar rates for Extended Day, enrichment, bus, tutoring, dining hall and MS PE uniforms?',
         'Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?',
@@ -385,7 +385,7 @@ const CANNON: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -421,7 +421,7 @@ const CANNON: FinancialAidReport = {
       boxes: [{ tag: 'NOT PUBLISHED', title: 'Tuition-table specifics', body: '' }],
       bullets: [
         'New-student vs returning-student rates',
-        'Half-day, part-week or partial-enrolment variants for JrK or K',
+        'Half-day, part-week or partial-enrollment variants for JrK or K',
         'What tuition includes, stated affirmatively',
         'Rate history on the live site — recovered only from archived copies',
       ],
@@ -455,7 +455,7 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'Deposit, 2026–27',
-          body: '**$2,000**, or **$650** for families applying for aid — both non-refundable, both applied toward tuition. Because both are credited against the bill, the deposit is not an additional cost; it is the first instalment.',
+          body: '**$2,000**, or **$650** for families applying for aid — both non-refundable, both applied toward tuition. Because both are credited against the bill, the deposit is not an additional cost; it is the first installment.',
         },
         {
           title: 'Bus tariff, 2026–27',
@@ -512,7 +512,7 @@ const CANNON: FinancialAidReport = {
     {
       id: 'fa-merit',
       navTitle: 'Merit & Scholarships',
-      title: 'Merit, Discounts & Special Programmes',
+      title: 'Merit, Discounts & Special Programs',
       confidence: 82,
       tag: 'ALL AID IS NEED-BASED',
       // No endowed-scholarship gift ladder is published; the section renders as
@@ -536,7 +536,7 @@ const CANNON: FinancialAidReport = {
           body: 'No sibling tuition discount · no employee remission · no clergy, military or first-responder discount · no indexed or variable tuition. The pages are silent rather than negative — silence is not a stated "no". A sibling rate *is* published for bus service ($1,890 vs $1,990 round-trip).',
         },
         {
-          title: 'State programme ending',
+          title: 'State program ending',
           body: 'North Carolina Opportunity Scholarship participation concludes after 2025–26. Recipients ran 11 ($45,000) in 2020–21 to 149 ($654,168) in 2024–25; the 2025–26 figure is not published in a retrieved source.',
         },
       ],
@@ -580,7 +580,7 @@ const CANNON: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — CONTRACT TERMS',
-          body: 'What a family owes on withdrawal before the year begins · what is owed on mid-year departure · whether any tuition is refundable and on what schedule · late-payment consequences · arrears and enrolment. No prepayment discount and no third-party lender is named. The Tuition Refund Plan\'s cost, and whether it is required, sit in a document that is not publicly readable.',
+          body: 'What a family owes on withdrawal before the year begins · what is owed on mid-year departure · whether any tuition is refundable and on what schedule · late-payment consequences · arrears and enrollment. No prepayment discount and no third-party lender is named. The Tuition Refund Plan\'s cost, and whether it is required, sit in a document that is not publicly readable.',
         },
       ],
       source: 'cannonschool.org — Tuition & Affordability, retrieved 23 Jul 2026',
@@ -637,7 +637,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -706,7 +706,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { label: 'Middle school extended day · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'The enrolment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program — a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule, which is not the same as confirming no such costs exist.',
+        'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program — a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule, which is not the same as confirming no such costs exist.',
       stats: [
         { value: '$21,600', label: 'Early Education all-in, common case (JK–K)' },
         { value: '$27,355', label: 'Upper School all-in, common case (gr. 9–12)' },
@@ -747,7 +747,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           title: 'A requirement unique in this series — and since withdrawn',
-          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**, a state programme whose applications opened 2 February. Across the schools examined here, this was the only instance of a school conditioning its own assistance application on a parallel state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it, consistent with its own note that NC Opportunity Scholarship participation concludes after 2025–26.',
+          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**, a state program whose applications opened 2 February. Across the schools examined here, this was the only instance of a school conditioning its own assistance application on a parallel state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it, consistent with its own note that NC Opportunity Scholarship participation concludes after 2025–26.',
         },
         {
           tag: 'DOCUMENTATION HAZARD',
@@ -789,7 +789,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'Clergy, faculty and partner-school support are named in fundraising materials but not documented as programmes a family can apply to — whether they are distinct remissions or designated funding inside the general need-based programme is not published. No academic or general merit scholarship exists; athletic awards are explicitly excluded.',
+          body: 'Clergy, faculty and partner-school support are named in fundraising materials but not documented as programs a family can apply to — whether they are distinct remissions or designated funding inside the general need-based program is not published. No academic or general merit scholarship exists; athletic awards are explicitly excluded.',
         },
       ],
       source:
@@ -856,7 +856,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           title: 'Four consecutive years recovered',
-          body: 'The strongest tuition history of the four schools in this series. Every band rose **$850** into 2024–25, **$1,500** into 2025–26 and **$950** into 2026–27 — a flat dollar increment each time, totalling **+$3,300** per band, or 18.33% at the lowest band against 13.89% at the highest.',
+          body: 'The strongest tuition history of the four schools in this series. Every band rose **$850** into 2024–25, **$1,500** into 2025–26 and **$950** into 2026–27 — a flat dollar increment each time, totaling **+$3,300** per band, or 18.33% at the lowest band against 13.89% at the highest.',
         },
         {
           tag: 'THE REACH GAP',
@@ -893,7 +893,7 @@ const COVENANT_DAY: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -1111,7 +1111,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -1166,7 +1166,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         { label: 'Lunch · no rate on the public site', status: 'unpriced' },
         { label: 'Athletics team packs & equipment · no rate', status: 'unpriced' },
         { label: 'Arts supplies & instruments · no rate', status: 'unpriced' },
-        { label: 'Summer programmes · no rate', status: 'unpriced' },
+        { label: 'Summer programs · no rate', status: 'unpriced' },
         { label: 'Admission application fee · no amount', status: 'unpriced' },
         { label: 'Current enrollment deposit · no amount', status: 'unpriced' },
       ],
@@ -1279,7 +1279,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
           figure: '11×',
           label: 'Eleven-month plan',
           detail:
-            'An eleven-month plan exists; instalment due dates are not published. Employee-facing materials carry a Truth in Lending disclosure putting the additional cost of paying monthly at **$0** — but no equivalent statement is published for general families.',
+            'An eleven-month plan exists; installment due dates are not published. Employee-facing materials carry a Truth in Lending disclosure putting the additional cost of paying monthly at **$0** — but no equivalent statement is published for general families.',
           emphasis: true,
         },
         {
@@ -1292,7 +1292,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
           figure: '2 wk',
           label: 'Contract signing window',
           detail:
-            'Both parents log into the family portal under their own email addresses, select a payment option, initial to authorise drafting, and sign. The deposit is drafted immediately once submitted.',
+            'Both parents log into the family portal under their own email addresses, select a payment option, initial to authorize drafting, and sign. The deposit is drafted immediately once submitted.',
         },
         {
           figure: '—',
@@ -1334,7 +1334,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           tag: 'A THIRD-PARTY FIGURE, NOT A SCHOOL ONE',
-          body: 'A commercial service that digitises Form 990 filings reports **$742,270** in grants and assistance to individuals for the fiscal year ending June 2024. We could not open the filed return to verify it, it sits two years behind the 2026–27 year, and it is not a school-published aid budget. It should not be read as one.',
+          body: 'A commercial service that digitizes Form 990 filings reports **$742,270** in grants and assistance to individuals for the fiscal year ending June 2024. We could not open the filed return to verify it, it sits two years behind the 2026–27 year, and it is not a school-published aid budget. It should not be read as one.',
         },
       ],
       questionsNote:
@@ -1362,7 +1362,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -1397,7 +1397,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       figureNote:
         'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees; textbooks are included in TK–5 but are an additional expense in grades 6–12, and that amount is not published.',
       figureNote2:
-        'Enrolment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
+        'Enrollment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
       source:
         'charlottelatin.org — Tuition & Financial Assistance; Upper School Profile 2025–26, retrieved 24 Jul 2026',
     },
@@ -1410,7 +1410,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       componentsAside: 'All-in estimate not built: 57% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
-        { label: 'Enrolment deposit · $2,500, non-refundable', status: 'priced' },
+        { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
         { label: 'Class trip advance · up to $710 (gr. 5–8, 12)', status: 'priced' },
         { label: 'Student accident insurance · $75, optional', status: 'priced' },
         { label: 'Tuition Refund Plan · 0.53% of tuition, optional', status: 'priced' },
@@ -1420,7 +1420,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         { label: 'Meals · no price list', status: 'unpriced' },
         { label: 'Athletics participation · no rate', status: 'unpriced' },
         { label: 'School trips beyond the class-trip advance · no rate', status: 'unpriced' },
-        { label: 'Enrichment programmes · no rate', status: 'unpriced' },
+        { label: 'Enrichment programs · no rate', status: 'unpriced' },
         { label: 'Talons youth sports · no rate', status: 'unpriced' },
         { label: 'Lower School uniforms · supplier purchase, no amount', status: 'unpriced' },
       ],
@@ -1464,7 +1464,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         {
           when: 'Not published',
           detail:
-            'When awards are released relative to the admission decision, or whether a family will know their award before an enrolment contract is due',
+            'When awards are released relative to the admission decision, or whether a family will know their award before an enrollment contract is due',
         },
         {
           when: 'Not retrieved',
@@ -1525,7 +1525,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'HOW TO READ THE 990 FIGURE',
-          body: 'Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024: grants to domestic individuals **$3.0M**, total revenue $55.7M, total expenses $55.1M. This is aggregate institutional accounting filed with the IRS, not a school statement about its aid programme — it runs one to two years behind the current school year and its definition of a grant need not match what the school counts as tuition assistance. Context only; it does not close the gaps above.',
+          body: 'Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024: grants to domestic individuals **$3.0M**, total revenue $55.7M, total expenses $55.1M. This is aggregate institutional accounting filed with the IRS, not a school statement about its aid program — it runs one to two years behind the current school year and its definition of a grant need not match what the school counts as tuition assistance. Context only; it does not close the gaps above.',
         },
       ],
       source:
@@ -1534,13 +1534,13 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     {
       id: 'fa-merit',
       navTitle: 'Merit & Scholarships',
-      title: 'Merit, Discounts & Special Programmes',
+      title: 'Merit, Discounts & Special Programs',
       confidence: 78,
       tag: "NORTH CAROLINA'S ONLY MALONE SCHOLARS SCHOOL",
       boxes: [
         {
-          title: 'The Malone Scholars programme',
-          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**, endowed by the Malone Family Foundation to provide scholarships to highly capable students. The foundation\'s published basis for selecting its fifty partner schools nationally: academic calibre, quality of staff, accommodations for gifted and talented students, strong Advanced Placement and enrichment programmes, attention to individual student needs, and an economically, culturally, ethnically and socially diverse population.',
+          title: 'The Malone Scholars program',
+          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**, endowed by the Malone Family Foundation to provide scholarships to highly capable students. The foundation\'s published basis for selecting its fifty partner schools nationally: academic caliber, quality of staff, accommodations for gifted and talented students, strong Advanced Placement and enrichment programs, attention to individual student needs, and an economically, culturally, ethnically and socially diverse population.',
         },
         {
           title: 'Named funds that reach beyond tuition',
@@ -1552,7 +1552,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
-          body: 'Sibling discounts · employee tuition remission · clergy, military or first-responder discounts · an indexed or variable tuition programme · whether merit awards may be held together with need-based aid. Each is recorded as not published rather than as not offered.',
+          body: 'Sibling discounts · employee tuition remission · clergy, military or first-responder discounts · an indexed or variable tuition program · whether merit awards may be held together with need-based aid. Each is recorded as not published rather than as not offered.',
         },
       ],
       source:
@@ -1566,7 +1566,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       plans: [
         {
           figure: '$2.5K',
-          label: 'Enrolment deposit',
+          label: 'Enrollment deposit',
           detail:
             'Non-refundable, **deducted from the second tuition payment**. No student can be enrolled or re-enrolled without it (2026–27).',
           emphasis: true,
@@ -1581,13 +1581,13 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           figure: '8×',
           label: 'Monthly Payment Plan',
           detail:
-            'The $2,500 deposit at enrolment, then monthly payments **May through December**. The school states there is **no fee or service charge** if payments are made on time.',
+            'The $2,500 deposit at enrollment, then monthly payments **May through December**. The school states there is **no fee or service charge** if payments are made on time.',
         },
       ],
       boxes: [
         {
           title: 'Late payment and arrears — published directly',
-          body: 'A service charge of **1.5% per month**, which the school states as **18% annual**, is added to tuition charges not received or postmarked by their due date and to any unpaid balance. All tuition must be paid before students may attend classes following the respective due dates. Miscellaneous charges must be paid before re-enrolment is offered, report cards issued, diplomas awarded or transcripts released.',
+          body: 'A service charge of **1.5% per month**, which the school states as **18% annual**, is added to tuition charges not received or postmarked by their due date and to any unpaid balance. All tuition must be paid before students may attend classes following the respective due dates. Miscellaneous charges must be paid before re-enrollment is offered, report cards issued, diplomas awarded or transcripts released.',
         },
         {
           title: 'Extended-day billing',
@@ -1599,7 +1599,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'Third-party tuition lenders or financing partners · any prepayment or single-payment discount · any prepaid multi-year or tuition-lock programme.',
+          body: 'Third-party tuition lenders or financing partners · any prepayment or single-payment discount · any prepaid multi-year or tuition-lock program.',
         },
       ],
       source:
@@ -1662,7 +1662,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming. The school discloses more than its tuition page suggests — the detailed figures live in the Report on Philanthropy.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming. The school discloses more than its tuition page suggests — the detailed figures live in the Report on Philanthropy.',
     },
     {
       icon: 'clock',
@@ -1718,7 +1718,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
         { label: 'Clubhouse registration · $100/student/yr (MS)', status: 'priced' },
         { label: 'Extended Day late pick-up · $1/min after 6 p.m.', status: 'priced' },
-        { label: 'Extended Day programme fee · schedule not retrieved', status: 'range' },
+        { label: 'Extended Day program fee · schedule not retrieved', status: 'range' },
         { label: 'Bus transportation · 2023–24 page, fares not retrieved', status: 'range' },
         { label: 'FLIK Dining participation · no rate', status: 'unpriced' },
         { label: 'Extended Day enrichment classes · no rate', status: 'unpriced' },
@@ -1736,7 +1736,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'The deposit, 2026–27',
-          body: 'A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost — so it is a timing obligation rather than an addition to the published rate, and it is the first instalment, not an extra cost.',
+          body: 'A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost — so it is a timing obligation rather than an addition to the published rate, and it is the first installment, not an extra cost.',
         },
       ],
       source:
@@ -1818,7 +1818,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
         {
           tag: 'A UNIT CHANGE THAT BLOCKS COMPARISON',
-          body: 'The historical editions count **students** receiving aid (16%); the current page counts **families** receiving assistance (≈21%). Different units, different bases — the apparent 16% → 21% movement cannot be read as growth in reach. It may be an artefact of the unit change, entirely real, or a mixture. This report declines to reconcile them.',
+          body: 'The historical editions count **students** receiving aid (16%); the current page counts **families** receiving assistance (≈21%). Different units, different bases — the apparent 16% → 21% movement cannot be read as growth in reach. It may be an artifact of the unit change, entirely real, or a mixture. This report declines to reconcile them.',
         },
         {
           title: 'An internal discrepancy, reported not resolved',
@@ -1835,7 +1835,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     {
       id: 'fa-merit',
       navTitle: 'Merit & Scholarships',
-      title: 'Merit, Discounts & Special Programmes',
+      title: 'Merit, Discounts & Special Programs',
       confidence: 72,
       tag: 'ALL AID IS NEED-BASED',
       // The school publishes at least eleven named endowed funds. There is no
@@ -1851,7 +1851,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'Need-based, no general merit track',
-          body: 'Assistance is need-based; **no general academic, arts, athletic or leadership merit scholarship programme is published.** At least eleven named permanent funds support aid — e.g. the Paula C. Freeman Financial Aid Endowment ($511,383 in Jun 2018), the Rob Eck Memorial Scholarship, the Edward E. Ford Minority Scholarship, and diversity-focused funds (Brinkley, McGee Family). Fund values are as of 30 June 2018, the most recent edition located, and are historical.',
+          body: 'Assistance is need-based; **no general academic, arts, athletic or leadership merit scholarship program is published.** At least eleven named permanent funds support aid — e.g. the Paula C. Freeman Financial Aid Endowment ($511,383 in Jun 2018), the Rob Eck Memorial Scholarship, the Edward E. Ford Minority Scholarship, and diversity-focused funds (Brinkley, McGee Family). Fund values are as of 30 June 2018, the most recent edition located, and are historical.',
         },
         {
           title: 'Two funds for the costs outside tuition',
@@ -1863,7 +1863,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — SIX ITEMS',
-          body: 'No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit programme · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.',
+          body: 'No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.',
         },
       ],
       source:
@@ -1969,7 +1969,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -2040,7 +2040,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         {
           when: 'Prerequisite',
           detail:
-            'Families are also directed to the **NC Opportunity Scholarship** — income caps have been removed and the programme now includes currently-enrolled private-school students; new applicants apply in February',
+            'Families are also directed to the **NC Opportunity Scholarship** — income caps have been removed and the program now includes currently-enrolled private-school students; new applicants apply in February',
         },
         {
           when: 'Every year',
@@ -2076,7 +2076,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Carmel Christian is a ministry of Carmel Baptist Church and, as a church-affiliated organisation, is **not required to file Form 990** — ProPublica returns no filing for the school itself. Every other school in this project (bar Covenant Day) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Carmel Christian is a ministry of Carmel Baptist Church and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the school itself. Every other school in this project (bar Covenant Day) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
         },
         {
           tag: 'A RELATED ENTITY — NOT SCHOOL AID',
@@ -2190,7 +2190,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -2273,7 +2273,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church** and, as a church-affiliated organisation, is **not required to file Form 990** — ProPublica returns no filing for the church as a school operator. Every other school in this project (bar Covenant Day and Carmel Christian) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church** and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the church as a school operator. Every other school in this project (bar Covenant Day and Carmel Christian) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
         },
         {
           tag: 'STATE VOUCHERS — NOT SCHOOL AID',
@@ -2384,7 +2384,7 @@ const GASTON_DAY: FinancialAidReport = {
     {
       icon: 'info',
       title: 'Unpublished ≠ deficient.',
-      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+      body: '"Not published" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.',
     },
     {
       icon: 'clock',
@@ -2441,7 +2441,7 @@ const GASTON_DAY: FinancialAidReport = {
       componentsNote:
         'Unusually, almost every add-on Gaston Day publishes carries a price — the transport, aftercare, music-lesson and summer-camp rates are all stated in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes, so whether technology, lab fees, retreats and field trips sit inside the fees column is unstated.',
       componentsAside:
-        'The fees column is not itemised. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
+        'The fees column is not itemized. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
       source:
         'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF); After School Program page; 2026 Summer Camps Catalog, retrieved 18 Aug 2026',
     },
@@ -2598,7 +2598,7 @@ const GASTON_DAY: FinancialAidReport = {
         'Why does the school report 26% on tuition assistance when Private School Review reports 45% — what does each figure count?',
         'What are the payment plans, how many installments, and what do they cost?',
         'What is the enrollment deposit, and is it refundable or credited to tuition?',
-        'What exactly do the fees buy — the $2,175 Upper School fees column is not itemised anywhere?',
+        'What exactly do the fees buy — the $2,175 Upper School fees column is not itemized anywhere?',
         'Do need-based aid, the Kimbrell awards and the NC Opportunity Scholarship stack, or offset each other?',
         'What is the amount of the Kimbrell Family Scholarship, and when are both Kimbrell awards decided?',
         'Given the rolling deadline and the August funds warning, by what date should a family realistically apply?',
@@ -2701,7 +2701,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         },
         {
           title: 'Family Individualized Tuition (FIT)',
-          body: 'The diocese\'s need-based programme. Awards vary by family circumstance and by fund availability, so an award in one year does not guarantee the same in the next.',
+          body: 'The diocese\'s need-based program. Awards vary by family circumstance and by fund availability, so an award in one year does not guarantee the same in the next.',
         },
         {
           title: 'Multi-child discounts — participating Catholic families only',
@@ -2717,7 +2717,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
     {
       id: 'fa-numbers',
       navTitle: 'The Aid Numbers',
-      title: 'What the Aid Programme Actually Awards',
+      title: 'What the Aid Program Actually Awards',
       confidence: 30,
       tag: 'DIOCESE-WIDE ONLY',
       boxes: [
@@ -2747,7 +2747,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         },
       ],
       note:
-        'These are **North Carolina state** programmes administered by NCSEAA, not CCHS awards. They stack with FIT rather than replacing it, and the diocese actively points families toward them.',
+        'These are **North Carolina state** programs administered by NCSEAA, not CCHS awards. They stack with FIT rather than replacing it, and the diocese actively points families toward them.',
       boxes: [
         {
           tag: 'NOT PUBLISHED',
@@ -3011,7 +3011,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
       ],
       boxes: [
         {
-          title: 'Two channels, and no merit programme at all',
+          title: 'Two channels, and no merit program at all',
           body: 'Trinity runs need-based support and points separately at the state scholarship. **No merit scholarship, named endowed scholarship, or academic award appears anywhere on the site** — every dollar of the school\'s own aid is need-based. Whether a family can hold an Opportunity Scholarship alongside Trinity support, and whether one offsets the other, is not published.',
         },
               ],
@@ -3055,7 +3055,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
     {
       icon: 'book',
       title: 'Aid covers K–8 only.',
-      body: 'Tuition assistance is offered for **Kindergarten through 8th grade**; the Early School\'s Pre-Primary, Primary and TK programs are not eligible. Aid totals below are from the school\'s federal tax filings and are labelled so. Not financial advice.',
+      body: 'Tuition assistance is offered for **Kindergarten through 8th grade**; the Early School\'s Pre-Primary, Primary and TK programs are not eligible. Aid totals below are from the school\'s federal tax filings and are labeled so. Not financial advice.',
     },
   ],
   sections: [

@@ -131,7 +131,7 @@ export const providenceDay: ClubsProgram = {
         valueLabel: 'service hours in one school year',
         name: 'Community Engagement & the President’s Volunteer Service Award',
         detail:
-          'Logged service totalling 20,642 hours since 2017, with 48 students earning the national award in 2024 — 24 Gold, 5 Silver, 9 Bronze. Partners include Wayfinders, the Charlotte Mecklenburg Library, Mecklenburg County Teen Court and the Augustine Literacy Project.',
+          'Logged service totaling 20,642 hours since 2017, with 48 students earning the national award in 2024 — 24 Gold, 5 Silver, 9 Bronze. Partners include Wayfinders, the Charlotte Mecklenburg Library, Mecklenburg County Teen Court and the Augustine Literacy Project.',
         source: { label: 'School news — PVSA', url: PVSA_NEWS },
       },
       {

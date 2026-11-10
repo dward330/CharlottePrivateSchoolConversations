@@ -536,7 +536,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: '**AP Computer Science plus AT: Principles of Computer Science & Coding**, still with no data-structures or post-AP course — thin relative to the rest of the advanced catalogue.',
+        text: '**AP Computer Science plus AT: Principles of Computer Science & Coding**, still with no data-structures or post-AP course — thin relative to the rest of the advanced catalog.',
       },
       {
         label: 'Advanced Topics',
@@ -544,7 +544,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Beyond campus',
-        text: 'No Global Online Academy membership and no dual-enrolment partnership is published — this was checked specifically.',
+        text: 'No Global Online Academy membership and no dual-enrollment partnership is published — this was checked specifically.',
       },
       {
         label: 'Before and after the school year',
@@ -585,7 +585,7 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Cannon promises something structural that most schools do not: a student keeps the same college counselor for all four years, rather than being handed off in junior year.',
     subhead:
-      'Five staff, the same four directors across three published profiles, and a co-director model — plus the regional case-studies programme it physically hosts.',
+      'Five staff, the same four directors across three published profiles, and a co-director model — plus the regional case-studies program it physically hosts.',
     stats: [
       { value: '~26:1', label: 'seniors per counselor — computed, 105 seniors ÷ 4 (Class of 2026)' },
       { value: '5', label: 'staff — two co-directors, two associates, one coordinator' },
@@ -599,13 +599,13 @@ export const cannon: CollegeSupportProgram = {
       { role: 'Assoc. Director', name: 'Connie Stavrakas' },
       { role: 'Coordinator', name: 'Brittany Pasut', detail: 'Named on the 2026–27 profile, succeeding Clay Morrell.', email: 'bpasut@cannonschool.org' },
     ],
-    timelineTitle: 'The published programme — parent-facing, by grade',
+    timelineTitle: 'The published program — parent-facing, by grade',
     timeline: [
       {
         grade: '9–10',
         intensity: 'Foundational',
         items: ['**ACT/PSAT Interpretations** for freshman and sophomore parents'],
-        note: 'Counseling begins in ninth grade as a stated four-year programme',
+        note: 'Counseling begins in ninth grade as a stated four-year program',
       },
       {
         grade: '11',
@@ -681,31 +681,31 @@ export const cannon: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'Cannon’s differentiator is a set of course-embedded research experiences that end in a public defence — including one judged by an external committee of science professionals and business leaders.',
+      'Cannon’s differentiator is a set of course-embedded research experiences that end in a public defense — including one judged by an external committee of science professionals and business leaders.',
     subhead:
-      'The spike here is built inside the curriculum rather than bolted on: take the course, and the defensible artefact is a requirement rather than an option.',
+      'The spike here is built inside the curriculum rather than bolted on: take the course, and the defensible artifact is a requirement rather than an option.',
     levers: [
       {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**BIOREX** — the Biological Research Experience, built into Honors Biology. Students form a hypothesis, test it and analyse the results with statistics. Then they present to a committee of **faculty, science professionals and local business leaders**. Outside judges are what set this apart from a class project.',
+          '**BIOREX** — the Biological Research Experience, built into Honors Biology. Students form a hypothesis, test it and analyze the results with statistics. Then they present to a committee of **faculty, science professionals and local business leaders**. Outside judges are what set this apart from a class project.',
           '**Symposium and Portfolio Defense** — two projects. In the spring of junior year, students in AT: U.S. History defend an original history argument. Students in AT: American Language and Composition present a digital portfolio, built through many drafts.',
-          '**Independent Study** — petition-based, and unusually the student **co-develops the course content and the assessment rubric**, then produces an end-of-year artefact.',
+          '**Independent Study** — petition-based, and unusually the student **co-develops the course content and the assessment rubric**, then produces an end-of-year artifact.',
           '**Senior Capstone** — a service project for a charitable cause. It ends with a public talk to faculty, staff, peers and community. It is the one thing nearly every senior does, though the school says plainly that service itself is not required to graduate.',
           '**Global Education Certificate** — the steps are fully spelled out. Students take World History I–II and three levels of a world language. They take a senior **Glocal Perspectives** course with a capstone essay and presentation. They also do at least two of three global experiences. It is awarded at Senior Night.',
         ],
         note:
-          'Entrepreneurship and Engineering are course tracks with real depth: Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, and The Mill makerspace. But the school publishes no award or credential for either. So read them as tracks, not certificates. No required internship or externship programme is published.',
+          'Entrepreneurship and Engineering are course tracks with real depth: Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, and The Mill makerspace. But the school publishes no award or credential for either. So read them as tracks, not certificates. No required internship or externship program is published.',
       },
       {
         title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The profile publishes its own ceiling** — the most AP/AT courses allowed in each grade. A footnote says maths placement decides whether a student can reach that limit. Printing the cap protects students. They will not be judged against an unlimited course load they were never allowed to try.',
-          '**Integrity signalling** — the office “reports out-of-school suspensions and expulsions through time of graduation to any colleges and universities that request this information”: a disclose-on-request posture consistent with current NACAC norms.',
+          '**The profile publishes its own ceiling** — the most AP/AT courses allowed in each grade. A footnote says math placement decides whether a student can reach that limit. Printing the cap protects students. They will not be judged against an unlimited course load they were never allowed to try.',
+          '**Integrity signaling** — the office “reports out-of-school suspensions and expulsions through time of graduation to any colleges and universities that request this information”: a disclose-on-request posture consistent with current NACAC norms.',
           '**Institutional memberships** — **SAIS** accreditation; NAIS, NCAIS, CSEE, **ACCIS**, NACAC and SACAC; and a **National Honor Society** chapter awarded in 2025.',
-          '**Hosting regional admissions traffic** — Cannon hosts the Lake Norman case-studies programme and fair. That brings visiting admissions officers to its own campus for a regional event. It does not only send its students out.',
+          '**Hosting regional admissions traffic** — Cannon hosts the Lake Norman case-studies program and fair. That brings visiting admissions officers to its own campus for a regional event. It does not only send its students out.',
         ],
       },
     ],
@@ -747,7 +747,7 @@ export const cannon: CollegeSupportProgram = {
       { label: 'Unweighted · mid 50%', gpa: '3.76–3.94', detail: 'A− range before weighting' },
     ],
     gpaNote:
-      'These are bands, not a quintile table (a split of the class into fifths). The school publishes no full quintile or decile breakdown, no median GPA and no count of students in each band. The weighted top is modest because of two limits: the 1.0-quality-point cap and the twelve-course AP/AT maximum. Publishing these limits counts in Cannon’s favour. But readers used to schools that add more weight will need that context. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11). The profile does not explain the overlap.',
+      'These are bands, not a quintile table (a split of the class into fifths). The school publishes no full quintile or decile breakdown, no median GPA and no count of students in each band. The weighted top is modest because of two limits: the 1.0-quality-point cap and the twelve-course AP/AT maximum. Publishing these limits counts in Cannon’s favor. But readers used to schools that add more weight will need that context. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11). The profile does not explain the overlap.',
     support: [
       {
         label: 'Two named Upper School learning-support staff',
@@ -759,11 +759,11 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Where it reaches the application',
-        text: 'For **juniors and seniors** the programme provides guidance on **requesting College Board and ACT testing accommodations** — the specific service that converts learning support into college-application support.',
+        text: 'For **juniors and seniors** the program provides guidance on **requesting College Board and ACT testing accommodations** — the specific service that converts learning support into college-application support.',
       },
       {
         label: 'The surrounding structure',
-        text: 'The **Academic Resource Center** for maths, writing, science and world languages; 1:1 **academic coaching** on planning, organizing and focus skills; and a peer-led **Academic Lab** that faculty oversee.',
+        text: 'The **Academic Resource Center** for math, writing, science and world languages; 1:1 **academic coaching** on planning, organizing and focus skills; and a peer-led **Academic Lab** that faculty oversee.',
       },
     ],
     middle: [
@@ -790,7 +790,7 @@ export const cannon: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A stable programme that is honest by design. Students keep the same counselor for all four years. It also has a published course-load ceiling, real research defences and a genuine list of where graduates enrolled. But it shares less about outcomes than its larger peers.',
+      'A stable program that is honest by design. Students keep the same counselor for all four years. It also has a published course-load ceiling, real research defences and a genuine list of where graduates enrolled. But it shares less about outcomes than its larger peers.',
     subhead:
       'Most of what is missing here is publication rather than practice, which makes almost every gap a question a tour can answer.',
     points: [
@@ -812,7 +812,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Learning support is named and reaches the application',
-        text: 'two named Upper School learning-support staff, student-authored personalised learning plans, and explicit guidance for juniors and seniors on requesting College Board and ACT accommodations.',
+        text: 'two named Upper School learning-support staff, student-authored personalized learning plans, and explicit guidance for juniors and seniors on requesting College Board and ACT accommodations.',
       },
       {
         label: 'Grades are not inflated',

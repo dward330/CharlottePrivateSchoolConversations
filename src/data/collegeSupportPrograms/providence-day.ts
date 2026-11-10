@@ -564,7 +564,7 @@ export const providenceDay: CollegeSupportProgram = {
       { year: '2025', detail: '**7** Semifinalists · **16** Commended · 13 College Board National Recognition awards' },
       { year: '2024', detail: '**7** Finalists · **16** Commended · 8 College Board Achievement Scholars' },
       { year: '2022', detail: '**9** Semifinalists' },
-      { year: '2021', detail: '**6** Semifinalists · **16** Commended · 4 National Recognition — 25 recognised in all, 17% of the class' },
+      { year: '2021', detail: '**6** Semifinalists · **16** Commended · 4 National Recognition — 25 recognized in all, 17% of the class' },
       { year: '10-yr', detail: 'Over **85** Finalists and **152** Commended Scholars in the past decade (school-reported aggregate)', unconfirmed: true },
     ],
     meritNote:
@@ -602,7 +602,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: '“Most rigorous” is defined',
-        text: 'Published maxima — **two APs for sophomores, three for juniors, four for seniors** — tell colleges exactly what a demanding schedule means here, so a normal load is not penalised.',
+        text: 'Published maxima — **two APs for sophomores, three for juniors, four for seniors** — tell colleges exactly what a demanding schedule means here, so a normal load is not penalized.',
       },
     ],
     flags: [
@@ -670,7 +670,7 @@ export const providenceDay: CollegeSupportProgram = {
       {
         grade: '9',
         intensity: 'Light touch',
-        items: ['**First Year Focus** programme (January)', 'Counselor assigned early in Upper School', 'PSAT (October)'],
+        items: ['**First Year Focus** program (January)', 'Counselor assigned early in Upper School', 'PSAT (October)'],
         note: 'Focus: be a strong Upper School student first',
       },
       {
@@ -738,7 +738,7 @@ export const providenceDay: CollegeSupportProgram = {
       { value: '100%', label: 'of graduates attend four-year colleges or universities' },
       { value: '8 of 8', label: 'Ivy League — every one bolded as enrolling' },
       { value: '249', label: 'colleges accepting the Class of 2025 — a PD record' },
-      { value: '$21M', label: 'scholarship offers to the Class of 2026 — 82% of seniors honoured' },
+      { value: '$21M', label: 'scholarship offers to the Class of 2026 — 82% of seniors honored' },
     ],
     buckets: [
       { tier: 'Ivy League', count: '8 / 8', note: '— no absences, all bolded' },
@@ -757,7 +757,7 @@ export const providenceDay: CollegeSupportProgram = {
       'QuestBridge Scholar → Stanford',
       '2 full-tuition ROTC awards',
       'West Point appointment',
-      'Class of 2026: $21M in scholarship offers · 82% honoured · 9 National Merit Finalists',
+      'Class of 2026: $21M in scholarship offers · 82% honored · 9 National Merit Finalists',
     ],
     flags: [
       {
@@ -775,7 +775,7 @@ export const providenceDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'Two levers work at once. The student builds a standout strength that colleges can check, through first-in-the-nation diploma programmes and a required internship. And the Academic Profile shares so much that it vouches for the student.',
+      'Two levers work at once. The student builds a standout strength that colleges can check, through first-in-the-nation diploma programs and a required internship. And the Academic Profile shares so much that it vouches for the student.',
     subhead:
       'One is what your child brings; the other is the standing the building lends to the file.',
     levers: [
@@ -796,7 +796,7 @@ export const providenceDay: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**The Academic Profile as an instrument** — it shares far more than most school profiles, and that openness is what the school brings. It gives the full AP score spread for each of 29 subjects. Its quintile table shows the average SAT and ACT for each fifth of the class. It states the most APs a student may take in each grade. It also gives the weighting formula, with unweighted grades on the transcript. That turns the no-rank policy from a weakness into useful context.',
-          '**Integrity signalling** — the school states it follows the **NACAC Guide to Ethical Practice**. It also “reports all student behavioral probations, suspensions and expulsions through time of graduation” to any college that asks. A student-run Honor Council backs this up. It has eight students, two per grade, plus two elected faculty members and a third named by the Head of School. Being this open earns the trust of college readers, and every applicant gains from it.',
+          '**Integrity signaling** — the school states it follows the **NACAC Guide to Ethical Practice**. It also “reports all student behavioral probations, suspensions and expulsions through time of graduation” to any college that asks. A student-run Honor Council backs this up. It has eight students, two per grade, plus two elected faculty members and a third named by the Head of School. Being this open earns the trust of college readers, and every applicant gains from it.',
           '**Repeat pipelines, numbered rather than implied** — the Class of 2025 scholar was Providence Day’s **18th Morehead-Cain**. That is a record going back decades with North Carolina’s most selective merit award. The colleges in bold across the list work as a practical map of the school’s pipelines. Four of the five federal service academies appear.',
           '**Two-way relationships and memberships** — the school belongs to NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, plus Global Online Academy. It is accredited by SAIS and SACS, and **81%** of Upper School faculty hold advanced degrees. The school hosted ~150 college reps and visited 50+ campuses, a real two-way flow. A deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) fits its Global Studies focus.',
         ],
@@ -851,7 +851,7 @@ export const providenceDay: CollegeSupportProgram = {
       { label: 'Fifth', gpa: '3.204', detail: '1116 SAT · 21 ACT' },
     ],
     gpaNote:
-      'All five quintiles are the school’s own published figures — nothing here is estimated. Read the spread: 4.507 → 3.204 is a 1.303 weighted-GPA gap and 1454 → 1116 a 338-point SAT gap. Because AP adds a full point, a 4.017 middle fifth is not a straight-A unweighted transcript — part of it is honours and AP weight. Note the quintiles describe the Class of 2027 while the test scores above describe the Class of 2026 — different classes, so do not blend them.',
+      'All five quintiles are the school’s own published figures — nothing here is estimated. Read the spread: 4.507 → 3.204 is a 1.303 weighted-GPA gap and 1454 → 1116 a 338-point SAT gap. Because AP adds a full point, a 4.017 middle fifth is not a straight-A unweighted transcript — part of it is honors and AP weight. Note the quintiles describe the Class of 2027 while the test scores above describe the Class of 2026 — different classes, so do not blend them.',
     support: [
       {
         label: 'Learning Specialists at every division',
@@ -863,7 +863,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'Where it stops',
-        text: 'This is a **consultative** model. It is not a set programme for students with learning differences. No LD track, resource room or accommodations course is published. On-site occupational therapy exists, but speech-language services are not published.',
+        text: 'This is a **consultative** model. It is not a set program for students with learning differences. No LD track, resource room or accommodations course is published. On-site occupational therapy exists, but speech-language services are not published.',
       },
     ],
     middle: [
@@ -895,7 +895,7 @@ export const providenceDay: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A mature, stable, high-touch college programme that delivers elite outcomes at the top and real placement through the middle — and hands colleges a transcript built to be trusted.',
+      'A mature, stable, high-touch college program that delivers elite outcomes at the top and real placement through the middle — and hands colleges a transcript built to be trusted.',
     subhead:
       'The open questions are about the current year and the unpublished operational details — exactly what a campus visit answers.',
     points: [

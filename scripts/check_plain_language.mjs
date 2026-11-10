@@ -22,6 +22,16 @@
  *   --report [--json]  Whole-corpus audit, per file and per area. Always exit 0.
  *                      Never chain it into the build.
  *   --file <path>      Check every unit in one file. Exit 0.
+ *   --spelling         Build gate (`npm run check:spelling`): every British
+ *                      form (scripts/plain_language.json `spelling.map`) in
+ *                      src/data prose + en.json is a failure, exit 1. A file
+ *                      that fails to load is a failure too.
+ *
+ * The `spelling` rule (CLAUDE.md "American spelling") runs on the RAW text
+ * with exempt spans masked (maskedSpans(): the same EXEMPT patterns
+ * normalize() strips, plus `spelling.keep` phrases). findBritish /
+ * toAmerican / isSpellingOnly are shared with scripts/fix_spelling.mjs and
+ * scripts/i18n_restamp.mjs — never copy the exemption logic.
  *
  * Env: CLAUDE_PLAIN_LANGUAGE=off disables the hook. PLAIN_LANGUAGE_ROOT
  * overrides the repo root (tests use a fixture root; field classification and
@@ -55,7 +65,7 @@ const toPosix = (p) => p.split(sep).join('/')
 let layout = null
 
 /** Load the topic layout + field classifier lazily, after the fast path. */
-async function getLayout() {
+export async function getLayout() {
   if (layout) return layout
   const topics = await import(pathToFileURL(join(HERE, 'i18n_topics.mjs')).href)
   const fields = await import(pathToFileURL(join(HERE, 'i18n_fields.mjs')).href)
@@ -125,7 +135,7 @@ const dedupe = (units) => {
   return units.filter((u) => (seen.has(u.text) ? false : (seen.add(u.text), true)))
 }
 
-function flattenJson(obj, prefix = '', out = []) {
+export function flattenJson(obj, prefix = '', out = []) {
   for (const [k, v] of Object.entries(obj)) {
     const key = prefix ? `${prefix}.${k}` : k
     if (typeof v === 'string') out.push({ path: key, text: v })
@@ -172,6 +182,11 @@ export async function loadUnits(absFile, scope) {
 export async function unitsFromSource(source, absFile, scope) {
   if (source === '') return []
   if (scope.kind === 'chrome') return flattenJson(JSON.parse(source))
+  return unitsFromModule(await importFromSource(source, absFile), scope)
+}
+
+/** Import TS source text as if it were `absFile` (temp dir, rewritten imports). */
+export async function importFromSource(source, absFile) {
   const dir = mkdtempSync(join(tmpdir(), 'plainlang-'))
   try {
     const base = dirname(absFile)
@@ -181,8 +196,7 @@ export async function unitsFromSource(source, absFile, scope) {
     )
     const tmp = join(dir, basename(absFile).replace(/\.ts$/, '') + '.mts')
     writeFileSync(tmp, rewritten)
-    const m = await import(`${pathToFileURL(tmp).href}?t=${Date.now()}-${bust++}`)
-    return await unitsFromModule(m, scope)
+    return await import(`${pathToFileURL(tmp).href}?t=${Date.now()}-${bust++}`)
   } finally {
     rmSync(dir, { recursive: true, force: true })
   }
@@ -236,22 +250,143 @@ export function changedUnits(pre, post) {
 
 /* ------------------------------------------------------------- text --- */
 
+/**
+ * The exempt patterns, shared by normalize() (which strips them) and
+ * maskedSpans() (which locates them on the raw text for the spelling rule).
+ * One list, so the two can never drift apart.
+ */
+const EXEMPT = {
+  mdLink: /\[([^\]]*)\]\([^)]*\)/g,
+  url: /https?:\/\/[^\s)\]]+/g,
+  www: /www\.[^\s)\]]+/g,
+  host: /\b[\w-]+\.(?:org|com|edu|net|gov)\b(?:\/[^\s)\]]*)?/g,
+  citeParen: /\((?:Sources?|via|per)\b[^)]*\)/gi,
+  citeBracket: /\[Sources?\b[^\]]*\]/gi,
+  i18n: /\{\{[^}]*\}\}/g,
+  curlyQuote: /“[^”]*”/g,
+  straightQuote: /"[^"]*"/g,
+}
+
 /** The strip pipeline: what a parent reads, minus URLs, citations, quotes. */
 export function normalize(text) {
   return text
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')                                   // 1 md links
-    .replace(/https?:\/\/[^\s)\]]+/g, '')                                       // 2 bare URLs
-    .replace(/www\.[^\s)\]]+/g, '')
-    .replace(/\b[\w-]+\.(?:org|com|edu|net|gov)\b(?:\/[^\s)\]]*)?/g, '')
-    .replace(/\((?:Sources?|via|per)\b[^)]*\)/gi, '')                           // 3 citations
-    .replace(/\[Sources?\b[^\]]*\]/gi, '')
-    .replace(/\{\{[^}]*\}\}/g, 'X')                                             // 4 i18next
+    .replace(EXEMPT.mdLink, '$1')                                               // 1 md links
+    .replace(EXEMPT.url, '')                                                    // 2 bare URLs
+    .replace(EXEMPT.www, '')
+    .replace(EXEMPT.host, '')
+    .replace(EXEMPT.citeParen, '')                                              // 3 citations
+    .replace(EXEMPT.citeBracket, '')
+    .replace(EXEMPT.i18n, 'X')                                                  // 4 i18next
     .replace(/<\/?[A-Za-z0-9][^>]*>/g, '')
     .replace(/\*\*|[_`#>|]/g, ' ')                                              // 5 markdown
-    .replace(/“[^”]*”/g, 'Q')                                                   // 6 quotes
-    .replace(/"[^"]*"/g, 'Q')
+    .replace(EXEMPT.curlyQuote, 'Q')                                            // 6 quotes
+    .replace(EXEMPT.straightQuote, 'Q')
     .replace(/\s+/g, ' ')                                                       // 7 whitespace
     .trim()
+}
+
+/* ---------------------------------------------------------- spelling -- */
+
+let spellCompiled = null
+/** `\b(?:programme|enrolment|…)\b`, case-insensitive, compiled once per cfg. */
+export function spellingRegex(cfg) {
+  if (spellCompiled?.cfg === cfg) return new RegExp(spellCompiled.re.source, 'gi')
+  const keys = Object.keys(cfg.spelling?.map ?? {}).sort((a, b) => b.length - a.length)
+  const re = new RegExp(keys.length ? `\\b(?:${keys.join('|')})\\b` : '(?!)', 'gi')
+  spellCompiled = { cfg, re }
+  return new RegExp(re.source, 'gi')
+}
+
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+/**
+ * `[start, end, reason]` ranges of the RAW text exempt from the spelling rule:
+ * link targets, URLs, hosts, citations, placeholders, quotes, and every
+ * `cfg.spelling.keep` phrase (case-sensitive).
+ */
+export function maskedSpans(text, cfg) {
+  const spans = []
+  const collect = (re, reason, offset = () => 0) => {
+    const r = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g')
+    let m
+    while ((m = r.exec(text))) {
+      const s = m.index + offset(m)
+      spans.push([s, m.index + m[0].length, reason])
+      if (m[0].length === 0) r.lastIndex++
+    }
+  }
+  collect(EXEMPT.mdLink, 'link target', (m) => m[1].length + 2) // the `(…)` after `[text]`
+  collect(EXEMPT.url, 'URL')
+  collect(EXEMPT.www, 'URL')
+  collect(EXEMPT.host, 'URL')
+  collect(EXEMPT.citeParen, 'citation')
+  collect(EXEMPT.citeBracket, 'citation')
+  collect(EXEMPT.i18n, 'placeholder')
+  collect(EXEMPT.curlyQuote, 'quote')
+  collect(EXEMPT.straightQuote, 'quote')
+  for (const k of cfg.spelling?.keep ?? []) collect(new RegExp(escapeRe(k), 'g'), `keep: ${k}`)
+  return spans
+}
+
+/** Spell `american` in the case pattern of `form`. */
+export function keepCase(form, american) {
+  if (form.length > 1 && form === form.toUpperCase()) return american.toUpperCase()
+  if (form[0] === form[0].toUpperCase()) return american[0].toUpperCase() + american.slice(1)
+  return american
+}
+
+/** Every unmasked British form: `[{ index, form, american }]`. */
+export function findBritish(text, cfg) {
+  const map = cfg.spelling?.map ?? {}
+  const spans = maskedSpans(text, cfg)
+  const out = []
+  const re = spellingRegex(cfg)
+  let m
+  while ((m = re.exec(text))) {
+    const i = m.index, j = i + m[0].length
+    if (spans.some(([s, e]) => i < e && j > s)) continue
+    out.push({ index: i, form: m[0], american: keepCase(m[0], map[m[0].toLowerCase()]) })
+  }
+  return out
+}
+
+/** The masked reason covering a match at `index`, or null. */
+export function maskReason(text, index, length, cfg) {
+  const hit = maskedSpans(text, cfg).find(([s, e]) => index < e && index + length > s)
+  return hit ? hit[2] : null
+}
+
+/** `text` with every findBritish() hit spelled the American way. */
+export function toAmerican(text, cfg) {
+  let out = ''
+  let at = 0
+  for (const h of findBritish(text, cfg)) {
+    out += text.slice(at, h.index) + h.american
+    at = h.index + h.form.length
+  }
+  return out + text.slice(at)
+}
+
+/**
+ * Proof that `newText` differs from `oldText` ONLY by mapped spellings, case
+ * kept. Deliberately ignores `keep` and masks: it checks the diff, not the
+ * policy. Identical text is ok with no diffs.
+ * @returns {{ ok: boolean, diffs: [string, string][], reason?: string }}
+ */
+export function isSpellingOnly(oldText, newText, cfg) {
+  const map = cfg.spelling?.map ?? {}
+  const a = oldText.split(/([A-Za-z]+)/)
+  const b = newText.split(/([A-Za-z]+)/)
+  if (a.length !== b.length) return { ok: false, diffs: [], reason: 'token count differs' }
+  const diffs = []
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] === b[i]) continue
+    if (i % 2 === 0) return { ok: false, diffs, reason: `non-word token "${a[i]}" → "${b[i]}"` }
+    const am = map[a[i].toLowerCase()]
+    if (!am || keepCase(a[i], am) !== b[i]) return { ok: false, diffs, reason: `word "${a[i]}" → "${b[i]}" is not a mapped spelling` }
+    diffs.push([a[i], b[i]])
+  }
+  return { ok: true, diffs }
 }
 
 const isWord = (tok) => /[A-Za-z]/.test(tok)
@@ -324,6 +459,13 @@ export function analyze(text, cfg) {
       issues.push({ rule: 'jargon', term: t.term, detail: `jargon "${t.term}" (${m[0]}) → ${t.plain} — or explain it in parentheses` })
     }
   }
+  const seenForms = new Set()
+  for (const h of findBritish(text, cfg)) {
+    const term = h.form.toLowerCase()
+    if (seenForms.has(term)) continue
+    seenForms.add(term)
+    issues.push({ rule: 'spelling', term, detail: `British spelling "${h.form}" → "${h.american}" (CLAUDE.md "American spelling")` })
+  }
   for (const s of sentences(norm)) {
     const w = wordsOf(s)
     if (w.length > cfg.maxSentenceWords) {
@@ -370,7 +512,7 @@ function inlineTokens(lines, line) {
 export function filterAllowed(issues, { relPath, unitPath, line, sourceLines, cfg }) {
   const toks = line && sourceLines && relPath.endsWith('.ts') ? inlineTokens(sourceLines, line) : new Set()
   return issues.filter((iss) => {
-    const name = iss.rule === 'jargon' ? iss.term : iss.rule
+    const name = iss.rule === 'jargon' || iss.rule === 'spelling' ? iss.term : iss.rule
     if (toks.has(name)) return false
     return !(cfg.allow ?? []).some((a) => a.file === relPath
       && (a.path === unitPath || a.key === unitPath)
@@ -391,12 +533,13 @@ function checkUnits(units, relPath, source, cfg) {
 
 export function formatFailure(relPath, findings) {
   const n = findings.reduce((a, f) => a + f.issues.length, 0)
-  const lines = [`plain-language: ${n} issue(s) in ${relPath} — rewrite for a parent reader (CLAUDE.md "Plain-language standard"):`]
+  const lines = [`plain-language: ${n} issue(s) in ${relPath} — rewrite for a parent reader (CLAUDE.md "Plain-language standard" and "American spelling"):`]
   for (const f of findings) {
     lines.push(`  ${f.path}${f.line ? ` (line ${f.line})` : ''}`)
     for (const i of f.issues) lines.push(`    ${i.detail}`)
   }
   lines.push('Keep a correct, explained term with `// plain-ok: <term>` on that line, or an `allow` entry in scripts/plain_language.json.')
+  lines.push('Fix a British form by spelling it the American way; when it is a proper noun or official name, add the phrase to `spelling.keep` in scripts/plain_language.json.')
   return lines.join('\n')
 }
 
@@ -447,7 +590,7 @@ async function hookMode() {
 }
 
 /** Every in-scope file, as { relPath, area, scope }. */
-async function corpus(root) {
+export async function corpus(root) {
   const L = await getLayout()
   const files = []
   for (const [topic, dir] of Object.entries(L.TOPICS)) {
@@ -465,13 +608,14 @@ async function corpus(root) {
 }
 
 function tally(rows, units, cfg) {
-  const r = { units: 0, flagged: 0, jargon: 0, long: 0, gradeTarget: 0, gradeMax: 0 }
+  const r = { units: 0, flagged: 0, jargon: 0, spelling: 0, long: 0, gradeTarget: 0, gradeMax: 0 }
   for (const u of units) {
     r.units++
     const { grade } = analyze(u.text, cfg)
     const rules = new Set(u.issues.map((i) => i.rule))
     if (u.issues.length) r.flagged++
     if (rules.has('jargon')) r.jargon++
+    if (rules.has('spelling')) r.spelling++
     if (rules.has('long')) r.long++
     if (grade != null && grade > cfg.targetGrade) r.gradeTarget++
     if (rules.has('grade')) r.gradeMax++
@@ -509,7 +653,7 @@ async function reportMode(json) {
     record('src/content/financial-aid-tuition (live blocks)', 'financial-aid-tuition', units, '')
   }
 
-  const cols = ['units', 'flagged', 'jargon', 'long', 'gradeTarget', 'gradeMax']
+  const cols = ['units', 'flagged', 'jargon', 'spelling', 'long', 'gradeTarget', 'gradeMax']
   const sum = (rows) => Object.fromEntries(cols.map((c) => [c, rows.reduce((a, r) => a + r[c], 0)]))
   const areas = [...new Set(perFile.map((r) => r.area))].map((area) => ({ area, ...sum(perFile.filter((r) => r.area === area)) }))
   const total = sum(perFile)
@@ -519,15 +663,57 @@ async function reportMode(json) {
     console.log(JSON.stringify({ config: { maxGrade: cfg.maxGrade, targetGrade: cfg.targetGrade }, perArea: areas, perFile, total, topJargon: top }, null, 2))
     return 0
   }
-  const head = `| Prose units | Flagged | Jargon | Sentence >${cfg.maxSentenceWords} words | Grade >${cfg.targetGrade} | Grade >${cfg.maxGrade} |`
+  const head = `| Prose units | Flagged | Jargon | British spelling | Sentence >${cfg.maxSentenceWords} words | Grade >${cfg.targetGrade} | Grade >${cfg.maxGrade} |`
   const row = (name, r) => `| ${name} | ${cols.map((c) => r[c]).join(' | ')} |`
   console.log(`Plain-language audit — "Flagged" uses the hook's rule (grade >${cfg.maxGrade}); grade columns count units of ≥${cfg.gradeMinWords} words.\n`)
-  console.log(`### Per area\n\n| Area ${head}\n|---|--:|--:|--:|--:|--:|--:|`)
+  console.log(`### Per area\n\n| Area ${head}\n|---|--:|--:|--:|--:|--:|--:|--:|`)
   for (const a of areas) console.log(row(a.area, a))
   console.log(row('**Total**', total))
-  console.log(`\n### Per file\n\n| File ${head}\n|---|--:|--:|--:|--:|--:|--:|`)
+  console.log(`\n### Per file\n\n| File ${head}\n|---|--:|--:|--:|--:|--:|--:|--:|`)
   for (const f of perFile) console.log(row(`\`${f.file}\``, f))
   console.log(`\nTop jargon terms: ${top.map(([t, n]) => `${t} ${n}`).join(', ') || '(none)'}`)
+  return 0
+}
+
+/**
+ * Build gate: every British form in src/data prose + en.json fails (exit 1).
+ * The live src/content blocks --report adds are NOT walked (generated from
+ * source-material/, outside this rule's scope). A module that fails to load
+ * is a failure, never a skip: a gate that skips a file passes by doing nothing.
+ */
+async function spellingMode() {
+  const root = repoRoot(null)
+  const cfg = loadConfig()
+  const findings = []
+  let units = 0, broken = 0
+  for (const f of await corpus(root)) {
+    const abs = join(root, f.relPath)
+    let us, source
+    try {
+      us = await loadUnits(abs, f.scope)
+      source = readFileSync(abs, 'utf8')
+    } catch (e) {
+      console.error(`check:spelling: could not load ${f.relPath} (${e.message.split('\n')[0]})`)
+      broken++
+      continue
+    }
+    const lines = source.split('\n')
+    for (const u of us) {
+      units++
+      const line = locateLine(source, u.text)
+      const issues = filterAllowed(checkText(u.text, cfg), { relPath: f.relPath, unitPath: u.path, line, sourceLines: lines, cfg })
+      for (const h of findBritish(u.text, cfg)) {
+        if (!issues.some((i) => i.rule === 'spelling' && i.term === h.form.toLowerCase())) continue
+        findings.push(`${f.relPath}${line ? `:${line}` : ''} ${u.path} — "${h.form}" → "${h.american}"`)
+      }
+    }
+  }
+  if (findings.length || broken) {
+    for (const l of findings) console.error(l)
+    console.error(`check:spelling: ${findings.length} British form(s) in parent-facing prose${broken ? `, ${broken} file(s) failed to load` : ''}. Spell them the American way, or add a proper noun to spelling.keep in scripts/plain_language.json (CLAUDE.md "American spelling").`)
+    return 1
+  }
+  console.log(`check:spelling: 0 British forms in ${units} prose units`)
   return 0
 }
 
@@ -544,6 +730,7 @@ async function fileMode(path) {
 
 async function main() {
   const args = process.argv.slice(2)
+  if (args.includes('--spelling')) return spellingMode()
   if (args.includes('--report')) return reportMode(args.includes('--json'))
   const fi = args.indexOf('--file')
   if (fi !== -1) return fileMode(args[fi + 1])

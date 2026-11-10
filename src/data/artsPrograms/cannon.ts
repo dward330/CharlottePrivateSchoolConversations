@@ -63,7 +63,7 @@ export const cannon: ArtsProgram = {
         name: 'Lower School',
         grades: 'JrK–4',
         items: [
-          'Choice-based (TAB) visual art — drawing, painting, collage, paper sculpture, clay, fibre art',
+          'Choice-based (TAB) visual art — drawing, painting, collage, paper sculpture, clay, fiber art',
           'Students work "like practising artists," with autonomy over creative direction',
           'Music built on the Orff approach, expanding into advanced ensembles later',
           'TAB was piloted here in 2011 by Krista Johns, then adopted upward — teacher-originated, roughly 15 years deep',
@@ -215,7 +215,7 @@ export const cannon: ArtsProgram = {
     headline:
       'A four-year strings ladder, a Hip-Hop-inclusive Modern Ensemble, and a novice-to-portfolio production track on Ableton and Logic Pro — but no documented external honors pipeline.',
     subhead:
-      'All nine Upper School music courses carry an Honors designation and most are repeatable, with the academic record reflecting rising rigour under a consistent course name.',
+      'All nine Upper School music courses carry an Honors designation and most are repeatable, with the academic record reflecting rising rigor under a consistent course name.',
     tracks: [
       {
         label: 'Auditioned / permission-gated',
@@ -226,7 +226,7 @@ export const cannon: ArtsProgram = {
         ensembles: ['Honors Upper School Band', 'Honors Modern Ensemble'],
       },
       {
-        label: 'Open enrolment — no prerequisite',
+        label: 'Open enrollment — no prerequisite',
         ensembles: ['Honors Concert Chorus'],
       },
       {
@@ -303,7 +303,7 @@ export const cannon: ArtsProgram = {
       {
         when: 'Rotating',
         name: 'Campbell Gallery',
-        detail: 'the lobby of the performing arts centre — every audience walks through it',
+        detail: 'the lobby of the performing arts center — every audience walks through it',
       },
       {
         when: 'Year-long',
@@ -372,10 +372,10 @@ export const cannon: ArtsProgram = {
       'Media Arts is promoted on your website and named as an AP Studio Art prerequisite, but it has no entry in the course catalog. Is it currently offered, and which courses actually satisfy AP entry?',
       'Ten Blumey finalist placements in 2023 and 2025 but no win I could find — how many Blumey wins has the program had, and in which years?',
       'What are your NCTC results year by year? Participation is clearly annual, but no regional placement, state advancement or named award is published anywhere.',
-      'Do music students audition for All-State, All-District or NCAIS honors ensembles, and how do they do? No selections, adjudicated ratings or Tri-M chapter could be found — is that a gap in publishing or in the programme?',
+      'Do music students audition for All-State, All-District or NCAIS honors ensembles, and how do they do? No selections, adjudicated ratings or Tri-M chapter could be found — is that a gap in publishing or in the program?',
       'Who is the technical director for theatre? And how much of the lighting and control-room work do students genuinely run themselves?',
       'The 2022 arts mission and vision process — what actually changed as a result, in curriculum or extracurricular terms?',
-      'Is the parent arts organisation now "Parents at Cannon Create" or still CAFTA? Both names appear on your site.',
+      'Is the parent arts organization now "Parents at Cannon Create" or still CAFTA? Both names appear on your site.',
       'What does the 7:30 a.m. Varsity commitment really look like across a week, and does it collide with athletics?',
     ],
     sources: [

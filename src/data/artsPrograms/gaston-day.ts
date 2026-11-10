@@ -28,7 +28,7 @@ export const gastonDay: ArtsProgram = {
   /* ----------------------------------------------------------- 2a ladder -- */
   ladder: {
     headline:
-      'Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts centre.',
+      'Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts center.',
     subhead:
       'Two years of fine arts are required to graduate, and the arts sit inside the classroom rather than beside it: in the Lower School, music, art and drama lessons are coordinated with the units of study being taught.',
     stats: [
@@ -64,7 +64,7 @@ export const gastonDay: ArtsProgram = {
           'Visual Art I, II, III and Visual Art IV (H)',
           'Band, Concert Choir and Drama as fine-arts courses',
           'Upper School Vocal Performance Ensemble',
-          'Actors’ Conservatory Theatre as a dedicated programme',
+          'Actors’ Conservatory Theatre as a dedicated program',
           'Arts-adjacent electives: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook',
         ],
       },
@@ -77,7 +77,7 @@ export const gastonDay: ArtsProgram = {
       },
       {
         label: 'Performance travel',
-        text: 'The programme has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.',
+        text: 'The program has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.',
       },
       {
         label: 'Summer arts camps',
@@ -99,7 +99,7 @@ export const gastonDay: ArtsProgram = {
   /* ---------------------------------------------------------- 2b theatre -- */
   theatre: {
     headline:
-      'Two major productions a year, including a spring musical, staged in a 550-seat centre with a professional dance studio.',
+      'Two major productions a year, including a spring musical, staged in a 550-seat center with a professional dance studio.',
     subhead:
       'Students work on stage, as stage managers, on crew or in design — the school states all four routes explicitly, so theatre is not only for performers.',
     seasonTitle: 'The production year',
@@ -130,11 +130,11 @@ export const gastonDay: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated programme within the school’s theatre offering.',
+      'Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated program within the school’s theatre offering.',
     venueNote:
       'The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.',
     honestContext:
-      'The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the programme is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.',
+      'The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the program is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.',
     sources: [
       { label: 'gastonday.org — Arts (productions, roles, Actors’ Conservatory Theatre, venue)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Drama in the fine-arts course table)', url: PROFILE },
@@ -144,7 +144,7 @@ export const gastonDay: ArtsProgram = {
   /* ------------------------------------------------------------ 2c music -- */
   music: {
     headline:
-      'Chorus students earned “superior” ratings in regional adjudications across six years, and the programme has sent students on to the UNC School of the Arts and Governor’s School.',
+      'Chorus students earned “superior” ratings in regional adjudications across six years, and the program has sent students on to the UNC School of the Arts and Governor’s School.',
     subhead:
       'Music is taught as a practice rather than a subject — the curriculum covers singing, movement, improvisation, reading, writing and performing.',
     boardTitle: 'The ensembles',
@@ -190,7 +190,7 @@ export const gastonDay: ArtsProgram = {
       },
       {
         label: 'Governor’s School',
-        text: 'Students have earned places at North Carolina Governor’s School, the state’s selective summer programme for gifted students.',
+        text: 'Students have earned places at North Carolina Governor’s School, the state’s selective summer program for gifted students.',
       },
       {
         label: 'International performance',
@@ -259,9 +259,9 @@ export const gastonDay: ArtsProgram = {
   /* ---------------------------------------------------------- 2e verdict -- */
   verdict: {
     headline:
-      'A serious arts programme for a 510-student school — a named 550-seat centre, a six-year adjudication record, and a student magazine with a national award history.',
+      'A serious arts program for a 510-student school — a named 550-seat center, a six-year adjudication record, and a student magazine with a national award history.',
     subhead:
-      'What is missing is the record rather than the programme: almost nothing is published by year, by title or by name.',
+      'What is missing is the record rather than the program: almost nothing is published by year, by title or by name.',
     holdsUp: [
       {
         label: 'The facility is real and named',

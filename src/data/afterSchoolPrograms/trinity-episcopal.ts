@@ -248,7 +248,7 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       'Can we switch between the monthly contract and drop-in during the year, and how much notice is needed?',
       'What do the enrichments cost — chess club, music lessons, karate, cheer club — and what is the full current list?',
       'Does an enrichment cover us until 6:00 p.m., or is it charged on top of the monthly TED rate?',
-      'What is the late-pickup policy after 6:00 p.m. — is there a charge, and at what point does it affect enrolment?',
+      'What is the late-pickup policy after 6:00 p.m. — is there a charge, and at what point does it affect enrollment?',
       'Which income figure is used for the band — gross household income, adjusted gross, or the Clarity assessment?',
       'What is the staff-to-child ratio in TED, and does it differ for a kindergartener and an 8th grader?',
       'Is there any supervised option before school, even unpaid — and if not, what do working families typically do?',

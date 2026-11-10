@@ -2221,7 +2221,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       source: 'Country Day Lower School curriculum pages',
       sourceUrl: 'https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum',
       notPublished:
-        'Charlotte Country Day publishes ten Lower School subject areas, described narratively per grade, rather than named courses. There is no Lower School course catalogue.',
+        'Charlotte Country Day publishes ten Lower School subject areas, described narratively per grade, rather than named courses. There is no Lower School course catalog.',
       departments: [
         {
           name: 'Core Academics',
@@ -2308,7 +2308,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       source: 'Country Day Middle School curriculum pages',
       sourceUrl: 'https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum',
       notPublished:
-        'Country Day publishes named Middle School courses only for mathematics; other disciplines are published as grade-level subjects. There is no Middle School course catalogue.',
+        'Country Day publishes named Middle School courses only for mathematics; other disciplines are published as grade-level subjects. There is no Middle School course catalog.',
       departments: [
         {
           name: 'Mathematics',
@@ -5348,7 +5348,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Physical Education',
               tag: 'Gr 6',
               description:
-                'Game skills and strategies with personal fitness goals, emphasising life sports and healthy living.',
+                'Game skills and strategies with personal fitness goals, emphasizing life sports and healthy living.',
             },
           ],
         },
@@ -5383,7 +5383,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Bible',
               tag: 'Gr 7',
               description:
-                'The Gospels, woven together to show the life of Christ and his fulfilment of Scripture, alongside how to study the Bible and build a habit of personal devotions.',
+                'The Gospels, woven together to show the life of Christ and his fulfillment of Scripture, alongside how to study the Bible and build a habit of personal devotions.',
             },
             {
               title: 'Science',

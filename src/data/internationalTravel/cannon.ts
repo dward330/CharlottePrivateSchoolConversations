@@ -54,7 +54,7 @@ const WB_TA_2019 =
 export const cannon: InternationalTravelProgram = {
   lead: {
     strong:
-      "Cannon's global program centres on the Upper School, with a Global Studies Certificate awarded at Senior Night and Winterm trips abroad for grades 9–11, on a base of world-language study that begins in Junior Kindergarten.",
+      "Cannon's global program centers on the Upper School, with a Global Studies Certificate awarded at Senior Night and Winterm trips abroad for grades 9–11, on a base of world-language study that begins in Junior Kindergarten.",
     muted:
       'Recent travel includes TECHO service builds in Costa Rica and the Dominican Republic, a summer in China, and a Middle School trip to Costa Rica in summer 2026.',
   },
