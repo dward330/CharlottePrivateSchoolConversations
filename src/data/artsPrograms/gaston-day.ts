@@ -30,7 +30,7 @@ export const gastonDay: ArtsProgram = {
     headline:
       'Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts center.',
     subhead:
-      'Two years of fine arts are required to graduate, and the arts sit inside the classroom rather than beside it: in the Lower School, music, art and drama lessons are coordinated with the units of study being taught.',
+      'Two years of fine arts are required to graduate. The arts are tied to classroom learning, not set beside it. In the Lower School, music, art and drama lessons are coordinated with the units students are studying.',
     stats: [
       { value: '550', label: 'seats in the Pamela Kimbrell Warlick Visual & Performing Arts Center' },
       { value: '2 yrs', label: 'fine arts required to graduate' },
@@ -44,7 +44,7 @@ export const gastonDay: ArtsProgram = {
         items: [
           'Music, art and drama coordinated with classroom units of study rather than taught in isolation',
           'Drama classes begin as early as second grade',
-          'Experiential learning through frequent field trips, guest speakers and virtual tours',
+          'Hands-on learning through frequent field trips, guest speakers and virtual tours',
         ],
       },
       {
@@ -134,7 +134,7 @@ export const gastonDay: ArtsProgram = {
     venueNote:
       'The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.',
     honestContext:
-      'The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the program is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.',
+      'The school publishes no production titles, performance dates, cast sizes or theatre competition results. It names no International Thespian Society troupe number, even though it chartered a chapter of the society. So the shape of the program is well documented, but its record is not. This card deliberately carries no awards ledger rather than an empty one.',
     sources: [
       { label: 'gastonday.org — Arts (productions, roles, Actors’ Conservatory Theatre, venue)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Drama in the fine-arts course table)', url: PROFILE },
@@ -177,7 +177,7 @@ export const gastonDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them. Private lessons are taught by contracted professional musicians.',
+      'Band and Concert Choir appear in the profile’s fine-arts course table, so they count for academic credit toward the two-year requirement. The ensembles listed on the arts page sit alongside them. Private lessons are taught by professional musicians under contract.',
     ladderTitle: 'The recognition ladder',
     ladder: [
       {
@@ -198,7 +198,7 @@ export const gastonDay: ArtsProgram = {
       },
     ],
     ladderNote:
-      'The school does not publish ensemble sizes, named all-state or all-district selections, festival ratings by year, or a music faculty roster beyond the department chair — so the ladder above is qualitative where a larger school would publish counts.',
+      'The school does not publish: ensemble sizes · named all-state or all-district selections · festival ratings by year · a music faculty roster beyond the department chair. So the ladder above describes the program without numbers, where a larger school would publish counts.',
     sources: [
       { label: 'gastonday.org — Arts (curriculum, ensembles, adjudication record, conservatory admissions, performance travel)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Band and Concert Choir in the course table)', url: PROFILE },
@@ -210,7 +210,7 @@ export const gastonDay: ArtsProgram = {
     headline:
       'A four-step Upper School sequence ending at Visual Art IV Honors, taught across five media including ceramics and printmaking.',
     subhead:
-      'Portfolio development is named as part of the instruction, which is the practical difference between an art elective and a route to an art school — and the acceptance list bears it out.',
+      'Portfolio development is named as part of the teaching. That focus is the practical difference between an art elective and a path to art school, and the acceptance list backs it up.',
     mediaTitle: 'What students actually work in',
     media: [
       { name: 'Drawing' },
@@ -226,7 +226,7 @@ export const gastonDay: ArtsProgram = {
       { name: 'Visual Art IV (H)', terminal: true },
     ],
     pathNote:
-      'There is no AP Studio Art or AP Art History in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.',
+      'There is no AP Studio Art or AP Art History in the profile’s course table. Visual Art IV (H) is the last course in the sequence, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-related electives.',
     exhibitsTitle: 'Where the work goes',
     exhibits: [
       {
@@ -239,17 +239,17 @@ export const gastonDay: ArtsProgram = {
         when: 'Annual',
         name: 'Blutopia',
         detail:
-          'The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken numerous Scholastic Art and Writing Awards and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.',
+          'The student literary and art magazine prints illustrations, paintings and photographs next to written work. It has taken numerous Scholastic Art and Writing Awards. It has also been honored again and again in the NC Scholastic Media Association Literary Magazine Contest.',
       },
       {
         when: '2019–2025',
         name: 'Art-school matriculation',
         detail:
-          'The 2019–2025 acceptance list includes RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design and UNC School of the Arts — seven specialty art and design institutions.',
+          'The 2019–2025 acceptance list includes seven specialty art and design schools: RISD · SCAD · School of Visual Arts · Maryland Institute College of Art · the School of the Art Institute of Chicago · Minneapolis College of Art and Design · UNC School of the Arts.',
       },
     ],
     footnote:
-      'The department is chaired by Travis Johnson; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — "numerous" is the school’s own word and is reproduced rather than quantified.',
+      'Travis Johnson chairs the department. No other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners. For the count, "numerous" is the school’s own word, repeated here rather than turned into a number.',
     sources: [
       { label: 'gastonday.org — Arts (media, portfolio development, awards)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Visual Art I–IV(H), Blutopia recognition, ARTS grade distribution)', url: PROFILE },

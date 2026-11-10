@@ -83,7 +83,7 @@ export const charlottePrep: ArtsProgram = {
     enrichment: [
       {
         label: 'After School Studios',
-        text: 'Fee-based studios add arts options, from a sample list that includes Storybook Theater (K–2), One-Act Play (3–8), Ukulele (3–5), Beginner and Intermediate Print Making (3–5, 6–8), Primary Chorus (1–2) and a before-school Beginner Chorus (3–6) in the Music Cottage.',
+        text: 'Fee-based studios add arts options. A sample list: Storybook Theater (K–2) · One-Act Play (3–8) · Ukulele (3–5) · Beginner and Intermediate Print Making (3–5, 6–8) · Primary Chorus (1–2) · a before-school Beginner Chorus (3–6) in the Music Cottage.',
       },
       {
         label: 'Where the work goes public',
@@ -102,7 +102,7 @@ export const charlottePrep: ArtsProgram = {
   /* ------------------------------------------------------------ 1b theatre -- */
   theatre: {
     headline:
-      'A stage show at nearly every grade — K–2 musicals, a 3rd-grade recorder musical, a 4th-grade bilingual play — and a 3rd–8th grade spring production with a Middle School one-act in the fall.',
+      'A stage show at nearly every grade: K–2 musicals, a 3rd-grade recorder musical and a 4th-grade bilingual play. There is also a 3rd–8th grade spring production, and a Middle School one-act in the fall.',
     subhead:
       'Productions run as "Prep Players" in the gym, which has a proscenium stage and $180,000 of new stage lighting, plus new sets bought in 2024–25.',
     seasonTitle: 'The season, from the school’s own record',

@@ -93,19 +93,19 @@ export const charlotteChristian: ArtsProgram = {
     enrichment: [
       {
         label: 'The venue, in full',
-        text: 'The Center for Worship and Performing Arts opened in Fall 2017 as Phase 1 of the master campus plan — two storeys, roughly 20,500–20,800 sq ft, seating 518 per the architect. Beyond the main auditorium the contractor documents a black box theater, a scene shop for set construction and dressing rooms. None of those three appears on the school’s own pages, so confirm them on a tour — they are what separate this from a chapel that also does plays.',
+        text: 'The Center for Worship and Performing Arts opened in Fall 2017 as Phase 1 of the master campus plan. It has two stories, roughly 20,500–20,800 sq ft, and seats 518 per the architect. Beyond the main auditorium, the contractor documents a black box theater, a scene shop for set construction and dressing rooms. None of those three appears on the school’s own pages, so confirm them on a tour. Those spaces are what set the center apart from a chapel that also does plays.',
       },
       {
         label: 'Friends of the Arts',
-        text: 'A parent, alumni, faculty and business organization with seven giving tiers from $50 to $7,500. It funds real line items rather than refreshments: mainstage lighting and technical effects, band and orchestra instrument inventory, commissioned compositions, guest artist visits, gallery and performance field trips, arts technology, and faculty professional development. Publishes a monthly newsletter, Opening Knights.',
+        text: 'A parent, alumni, faculty and business group with seven giving levels, from $50 to $7,500. It pays for real budget items, not refreshments: mainstage lighting and technical effects · band and orchestra instruments · commissioned compositions · guest artist visits · gallery and performance field trips · arts technology · faculty training. It publishes a monthly newsletter, Opening Knights.',
       },
       {
         label: 'Box office & season',
-        text: 'A dedicated Fine Arts Box Office sells tickets online with PDF delivery and a HomeTown Fan app. The 2025-26 season is themed "Pure Imagination," with sales opening September 2025 — individual production titles were not published at time of research.',
+        text: 'A dedicated Fine Arts Box Office sells tickets online, with PDF delivery and a HomeTown Fan app. The 2025-26 season is themed "Pure Imagination," with sales opening September 2025. But individual production titles were not published at time of research.',
       },
       {
         label: 'Apple Distinguished School',
-        text: 'The school maintains an Apple Distinguished School page, and the Digital Arts software stack is Apple-native at the entry tier (Pages, Keynote, iMovie, GarageBand). The connection to the Digital Arts curriculum is inferential — the school does not state it, and the designation years are not published.',
+        text: 'The school keeps an Apple Distinguished School page, and the entry-level Digital Arts software is all Apple (Pages, Keynote, iMovie, GarageBand). The school does not state a link between the Apple designation and the Digital Arts curriculum; that link is only an inference. The years of the designation are not published.',
       },
     ],
     sources: [
@@ -122,7 +122,7 @@ export const charlotteChristian: ArtsProgram = {
     headline:
       'A four-award Blumey sweep in 2013 including Best Musical — and in 2024, a finalist slot in all five acting categories for Tarzan.',
     subhead:
-      'Three mainstage musicals a year cast from Grade 4 up, plus four competition circuits: NCTC high school and middle school festivals, the CITA Secondary Theatre Festival, and the English Speaking Union Regional Shakespeare Competition.',
+      'Three mainstage musicals a year, cast from Grade 4 up. Plus four competition circuits: NCTC high school and middle school festivals · the CITA Secondary Theatre Festival · the English Speaking Union Regional Shakespeare Competition.',
     seasonTitle: 'The season rhythm — three mainstage musicals, grades 4–12',
     season: [
       {
@@ -139,7 +139,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Two audition-only competition teams carry the competitive work: ACT 1 (high school) and ACT 2 (middle school). The tech track is better resourced than the school advertises — technical directing and stage management are two of the seven theatre electives, the venue includes a scene shop and dressing rooms per the contractor, and students place in technical categories externally (a CITA Technical Theatre Costume Design award, plus the 2013 Blumey win for Best Lighting Execution). Caution on personnel: the only theatre staff names findable anywhere date to a 2016 news post — Angela Tomaselli (ACT 1) and Conrad Bear (ACT 2) — and may be stale. No current director or technical director is published, and no faculty are named on any of the four branch pages.',
+      'Two audition-only competition teams do the competitive work: ACT 1 (high school) and ACT 2 (middle school). The tech track has more behind it than the school advertises. First, technical directing and stage management are two of the seven theatre electives. The venue also has a scene shop and dressing rooms, per the contractor. And students place in technical categories at off-campus competitions: a CITA Technical Theatre Costume Design award, plus the 2013 Blumey win for Best Lighting Execution. A caution on staff: the only theatre staff names found anywhere are Angela Tomaselli (ACT 1) and Conrad Bear (ACT 2). Both names date to a 2016 news post and may be out of date. No current director or technical director is published, and no faculty are named on any of the four branch pages.',
     venueNote:
       'Productions are staged in the Center for Worship and Performing Arts, which also hosts weekly chapel and assemblies — a dual-purpose room by design. The black box theater gives the program a second space that does not compete with the chapel calendar.',
     ledgerTitle: 'The awards ledger — Blumeys and CITA',
@@ -148,13 +148,13 @@ export const charlotteChristian: ArtsProgram = {
         year: '2024',
         show: 'Tarzan (Blumey)',
         result:
-          'FINALIST — not nominee — in all five performance categories: Best Actor (Jayden Stall as Tarzan), Best Actress (Karsen Betzold as Jane), Best Supporting Actor (Jeffery Wilson as Kerchak), Best Supporting Actress (Hannah Roddy as Terk), Best Featured Performer (Isa Long as Jaquar). A whole-cast result. The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
+          'FINALIST — not nominee — in all five performance categories: Best Actor (Jayden Stall as Tarzan) · Best Actress (Karsen Betzold as Jane) · Best Supporting Actor (Jeffery Wilson as Kerchak) · Best Supporting Actress (Hannah Roddy as Terk) · Best Featured Performer (Isa Long as Jaquar). A whole-cast result. The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
       },
       {
         year: '2016',
         show: 'CITA Secondary Festival',
         result:
-          'Six placements: 1st Place Ensemble Theatre (DuPre’, Gallagher, King, Williams); 1st Place Solo Jr High Musical Theatre (Hailey Thomas); 3rd Place same category (Lilly Mull); Honorable Mention Duo (Hanegraaff, Johnson); Honorable Mention Contrasting Monologues (Lily Robinson); Technical Theatre Costume Design (Katherine Hanebutt).',
+          'Six placements: 1st Place Ensemble Theatre (DuPre’, Gallagher, King, Williams) · 1st Place Solo Jr High Musical Theatre (Hailey Thomas) · 3rd Place in the same category (Lilly Mull) · Honorable Mention Duo (Hanegraaff, Johnson) · Honorable Mention Contrasting Monologues (Lily Robinson) · Technical Theatre Costume Design (Katherine Hanebutt).',
         win: true,
       },
       {
@@ -166,7 +166,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'The 2013 Best Musical win is the program’s headline arts achievement and it is confirmed directly by Blumenthal Arts. But there has been no Blumey win, and no top-6 nomination, since — the 2024 Tarzan result is real and impressive as a whole-cast showing, yet it sits one tier below nomination, in a field that had grown from 17 schools to 50. The CITA record is the school’s most distinctive credential because the circuit suits its identity, but it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that framing has one data point behind it. Separately, no specific NCTC award could be found for any year.',
+      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. But there has been no Blumey win, and no top-6 nomination, since then. The 2024 Tarzan result is real and impressive as a whole-cast showing. Yet it sits one tier below nomination, in a field that had grown from 17 schools to 50. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
     sources: [
       { label: 'charlottechristian.com — Theatre', url: CC_THEATRE },
       { label: 'Box Office (2025-26 season)', url: CC_BOX },
@@ -227,7 +227,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     boardNote:
-      'No music faculty, directors or chairs are named anywhere on the school’s pages. The Honors label on all six Upper School ensembles implies placed or selective entry, but the music page never states an audition requirement — so the tiering above reflects the published structure rather than a confirmed auditioned/open split. Note one real asymmetry: there is no music theory course of any kind named, so no AP Music Theory, even though the visual branch reaches AP twice.',
+      'No music faculty, directors or chairs are named anywhere on the school’s pages. The Honors label on all six Upper School ensembles implies placed or selective entry. But the music page never states an audition requirement. So the tiers above show the published structure, not a confirmed split between auditioned and open groups. Note one real gap: no music theory course of any kind is named, so no AP Music Theory is named either, even though the visual branch reaches AP twice.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
@@ -240,7 +240,7 @@ export const charlotteChristian: ArtsProgram = {
       },
       {
         label: 'Get selected beyond campus',
-        text: 'students participate in NCAIS Honor Band and Honor Chorus, state-level honors ensembles, the Winthrop and UNC Charlotte Invitationals, the Carowinds Festival — and the Carnegie Hall Honors Performance Series, a genuinely selective national placement and the standout line on the music page.',
+        text: 'students take part in: NCAIS Honor Band and Honor Chorus · state-level honors ensembles · the Winthrop and UNC Charlotte Invitationals · the Carowinds Festival · the Carnegie Hall Honors Performance Series. The Carnegie Hall series is a truly selective national placement, and the standout line on the music page.',
       },
       {
         label: 'Be honored for it',
@@ -301,7 +301,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     footnote:
-      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described — no size, equipment or station count, and no separate broadcast studio, green screen or recording booth is documented despite a Broadcasting course. The school calls the program "award-winning" and confirms participation in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition, but not one individual visual-art award with a student name and year could be found — so no award counts appear here. A specific studio-media list (ceramics, printmaking, sculpture, fibers, kiln, wheel, darkroom) is also unpublished; the page speaks generically of "a variety of media."',
+      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program "award-winning" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. But not one individual visual-art award with a student name and year could be found, so no award counts appear here. A specific list of studio media (ceramics, printmaking, sculpture, fibers, kiln, wheel, darkroom) is also unpublished. The page speaks in general terms of "a variety of media."',
     sources: [
       { label: 'charlottechristian.com — Visual Art', url: CC_VISUAL },
       { label: 'Digital Arts', url: CC_DIGITAL },
@@ -325,7 +325,7 @@ export const charlotteChristian: ArtsProgram = {
       },
       {
         label: 'A transcript-level arts credential',
-        text: 'students can graduate "with distinction" in Fine Arts through the Academic Conservatory Program, backed by three honor societies — Thespian, National Art, and Tri-M. Few peer schools formalize arts achievement on the transcript this way.',
+        text: 'students can graduate "with distinction" in Fine Arts through the Academic Conservatory Program. Three honor societies back it up: Thespian, National Art, and Tri-M. Few peer schools mark arts achievement on the transcript this way.',
       },
       {
         label: 'Digital Arts is genuinely resourced',

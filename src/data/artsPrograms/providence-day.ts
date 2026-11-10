@@ -78,15 +78,15 @@ export const providenceDay: ArtsProgram = {
     enrichment: [
       {
         label: 'Spotlight on the Arts',
-        text: 'A monthly showcase during Upper School lunch (1:30–2 p.m.) in the McMahon Fine Arts Foyer — low-stakes stage time every month. Past editions ran from Jazz Ensemble and A Cappella sets to participatory demos like stick-and-ink drawing and printing on fabric.',
+        text: 'A monthly showcase during Upper School lunch (1:30–2 p.m.) in the McMahon Fine Arts Foyer. It gives students low-pressure stage time every month. Past editions ranged from Jazz Ensemble and A Cappella sets to demos the audience could join, such as stick-and-ink drawing and printing on fabric.',
       },
       {
         label: 'Visiting artists',
-        text: 'Master classes and visiting artists supplement the classroom program in both Middle and Upper School. The school claims over 40 masterclass opportunities in the performing arts (school-reported, no time window given).',
+        text: 'Master classes and visiting artists add to class work in both Middle and Upper School. The school claims over 40 masterclass opportunities in the performing arts (school-reported, no time window given).',
       },
       {
         label: 'Friends of the Arts',
-        text: 'The Parents’ Association volunteer group backing both departments — ushers, a theatre behind-the-scenes crew running concessions and tickets, production photography and T-shirts, and the crew that hangs student and faculty artwork across campus. Open to parents, faculty, alumni and grandparents; no membership fee.',
+        text: 'The Parents’ Association volunteer group that supports both departments. It provides: ushers · a theatre behind-the-scenes crew running concessions and tickets · production photography and T-shirts · the crew that hangs student and faculty artwork across campus. It is open to parents, faculty, alumni and grandparents, with no membership fee.',
       },
       {
         label: 'Professional affiliations',
@@ -123,7 +123,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Brooke Fulton directs Upper School theatre with a dedicated technical director, Jordan Ellis — so stagecraft, set building and production tech form a real second track for students who want the theater without the spotlight. Technical theatre is offered from Middle School onward, and the awards page gives "Set Builds" its own media section alongside "Productions." Sierra Key directs Middle School theatre.',
+      'Brooke Fulton directs Upper School theatre, with a dedicated technical director, Jordan Ellis. With a technical director on staff, stagecraft, set building and production tech form a real second track for students who want the theater without the spotlight. Technical theatre is offered from Middle School onward. The awards page gives "Set Builds" its own media section alongside "Productions." Sierra Key directs Middle School theatre.',
     venueNote:
       'All performances are free and staged in the McMahon Fine Arts Center theatre. Individual technical course titles (Stagecraft, Tech Theatre I/II) are not published — the school describes the track only in the aggregate.',
     ledgerTitle: 'The Blumey ledger — a decade of external judging',
@@ -132,13 +132,13 @@ export const providenceDay: ArtsProgram = {
         year: '2026',
         show: 'Sweet Charity',
         result:
-          'No wins. Six finalist placements, all acting/design: Best Actress (Ayla Hoody), Best Actor (Eli Coblenz), Best Supporting Actress (Rowan Barwick), Best Supporting Actor (Owen Moore), Best Featured Performer (Kate Reece), Best Student Set Designer (April Liu).',
+          'No wins. Six finalist placements, all in acting or design: Best Actress (Ayla Hoody) · Best Actor (Eli Coblenz) · Best Supporting Actress (Rowan Barwick) · Best Supporting Actor (Owen Moore) · Best Featured Performer (Kate Reece) · Best Student Set Designer (April Liu).',
       },
       {
         year: '2025',
         show: 'Peter Pan',
         result:
-          'No wins. Five finalist placements: Best Actor (Wyatt Olliff), Best Actress (Liza Grimes as Peter Pan), Best Supporting Actor (Eli Coblenz as John), Best Supporting Actress (Rowan Barwick), Best Featured Performer (Mia Ostrowski). Absent from all six production-level categories.',
+          'No wins. Five finalist placements: Best Actor (Wyatt Olliff) · Best Actress (Liza Grimes as Peter Pan) · Best Supporting Actor (Eli Coblenz as John) · Best Supporting Actress (Rowan Barwick) · Best Featured Performer (Mia Ostrowski). The production had no placement in the six production-level categories (awards for the show as a whole).',
       },
       {
         year: '2024',
@@ -156,7 +156,7 @@ export const providenceDay: ArtsProgram = {
         year: '2022',
         show: 'Xanadu',
         result:
-          'Best Supporting Actor — Max Odom as Danny, independently confirmed. Also nominated for Best Overall Direction and Best Musical (Tier 2); both went elsewhere — Tier-2 Best Musical to Central Academy, Direction to Charlotte Country Day.',
+          'Best Supporting Actor — Max Odom as Danny, independently confirmed. The production was also nominated for Best Overall Direction and Best Musical (Tier 2). Both went to other schools: Tier-2 Best Musical to Central Academy, and Direction to Charlotte Country Day.',
         win: true,
       },
       {
@@ -191,7 +191,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable — Max Odom, 2022. PD is a consistent participant and a reliable producer of individual acting finalists, not a Blumey powerhouse: in 2025 and 2026 it placed 5–6 finalists each year, converted none, and appeared in no production-level category, while Northwest School of the Arts took three wins in 2026 alone. Its high-water mark was 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022; Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat; Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors; and Excellence in Directing in both 2023 and 2024.',
+      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Max Odom, 2022. PD competes consistently and reliably produces individual acting finalists, but it is not a Blumey powerhouse. In 2025 and 2026 it placed 5–6 finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
     sources: [
       { label: 'providenceday.org — Past Performances & Awards', url: PD_AWARDS },
       { label: 'Upper School Arts', url: PD_US },
@@ -243,7 +243,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'Get selected beyond campus',
-        text: 'the circuit sits on the calendar as fixed dates: HS Honors Chorus auditions, NCAIS Honors Band at UNC Charlotte, NCAIS Honors Chorus at Gardner-Webb, NC-ASTA All-State Orchestra Clinic, Mars Hill Choral Clinic, NC Honors Chorus Weekend, All-District Band auditions. Verified result: five students into the 2026 ACDA Southern Region Honor Choir, prepared by Stephanie Smeltzer — one of them in her first year in chorus.',
+        text: 'the circuit sits on the calendar as fixed dates: HS Honors Chorus auditions · NCAIS Honors Band at UNC Charlotte · NCAIS Honors Chorus at Gardner-Webb · NC-ASTA All-State Orchestra Clinic · Mars Hill Choral Clinic · NC Honors Chorus Weekend · All-District Band auditions. Verified result: five students made the 2026 ACDA Southern Region Honor Choir, prepared by Stephanie Smeltzer. One of them was in her first year in chorus.',
       },
       {
         label: 'Be honored for it',
@@ -307,7 +307,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     footnote:
-      'Department chaired by Lindsay Woog; Upper School faculty include Felipe Maldonado, Herman Nicholson and Sydney Sheaffer, with Charly Gray and Sierra Key in Middle School and Gabe Devereux in Lower School. External recognition is thinner here than in theatre or music, and skews to writing: in the 2025 Scholastic Art & Writing Awards (Mid-Carolina region) the school took two art Gold Keys — Elle Sigg for sculpture and Bridget Brewster for photography — out of roughly fifteen awards overall, exhibited at the Mint Museum Uptown. No national-level Scholastic medals were found. A separately named AP Art Show was not found; the Best-of-Year exhibit appears to be the capstone.',
+      'Lindsay Woog chairs the department. Upper School faculty include Felipe Maldonado, Herman Nicholson and Sydney Sheaffer. Charly Gray and Sierra Key teach in Middle School, and Gabe Devereux in Lower School. Outside recognition is thinner here than in theatre or music, and leans toward writing. In the 2025 Scholastic Art & Writing Awards (Mid-Carolina region), the school took two art Gold Keys out of roughly fifteen awards overall: Elle Sigg for sculpture and Bridget Brewster for photography. The Gold Key art pieces were exhibited at the Mint Museum Uptown. No national-level Scholastic medals were found. A separately named AP Art Show was not found; the Best-of-Year exhibit appears to be the capstone (the top show of the year).',
     sources: [
       { label: 'providenceday.org — Upper School Arts', url: PD_US },
       { label: 'Middle School Arts', url: PD_MS },
@@ -330,15 +330,15 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'The NCTC record is strong and recent',
-        text: 'between 2019 and 2024: Superior ratings, an Overall Regional Site Winner (Adjudicators’ Choice), a Regional Audience Choice win, Excellence in Directing twice, and a State Festival run with Radium Girls that took state-level Lighting and Set Design honors.',
+        text: 'between 2019 and 2024: Superior ratings · an Overall Regional Site Winner (Adjudicators’ Choice) · a Regional Audience Choice win · Excellence in Directing twice · a State Festival run with Radium Girls that took state-level Lighting and Set Design honors.',
       },
       {
         label: 'The honors pipeline is infrastructure, not aspiration',
-        text: 'NCAIS Honors Band and Chorus, NC-ASTA All-State, Mars Hill, All-District and a Tri-M induction all sit as fixed dates on the published calendar — backed by five students into the 2026 ACDA Southern Region Honor Choir from a 1,500-applicant field.',
+        text: 'NCAIS Honors Band and Chorus, NC-ASTA All-State, Mars Hill, All-District and a Tri-M induction all sit as fixed dates on the published calendar. Results back up the pipeline: five students made the 2026 ACDA Southern Region Honor Choir, from a 1,500-applicant field.',
       },
       {
         label: 'Design and tech are first-class',
-        text: 'technical theatre starts in Middle School, "Set Builds" gets its own showcase section, students win named NCTC awards in lighting, set design, stage management and carpentry, and April Liu earned Blumey Best Student Set Designer placements in both 2024 and 2026.',
+        text: 'technical theatre starts in Middle School, and "Set Builds" gets its own showcase section. Students win named NCTC awards in lighting, set design, stage management and carpentry. April Liu earned Blumey Best Student Set Designer placements in both 2024 and 2026.',
       },
       {
         label: 'A working wet darkroom',

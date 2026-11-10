@@ -120,11 +120,11 @@ export const trinityEpiscopal: ArtsProgram = {
     enrichment: [
       {
         label: 'Where the work goes public',
-        text: 'Ensembles perform "at chapels, commencement, and various venues outside of school", and the school posts full-length recordings to its own Vimeo channel rather than a photo gallery — concerts, plays and the Shakespeare review run 20 to 70 minutes each. Visual work travels further: two external Charlotte venues in 2026 alone, the Carolina Theatre and the VAPA Center.',
+        text: 'Ensembles perform "at chapels, commencement, and various venues outside of school". The school posts full-length recordings to its own Vimeo channel instead of a photo gallery. Concerts, plays and the Shakespeare review run 20 to 70 minutes each. Visual work travels further: to two off-campus Charlotte venues in 2026 alone, the Carolina Theatre and the VAPA Center.',
       },
       {
         label: 'An international exchange',
-        text: 'Fifth grade runs an art exchange with students in Ghana through the nonprofit Children Inspiring Hope (CIH), begun in 2023-24 and in its second consecutive year as of October 2024 — CIH\'s first new partner school since the pandemic. Led by Visual Arts Director Jen Rankey-Zona with CIH founder Amy Gaylor Nedriga.',
+        text: 'Fifth grade runs an art exchange with students in Ghana through the nonprofit Children Inspiring Hope (CIH). The exchange began in 2023-24 and was in its second consecutive year as of October 2024. Trinity was CIH\'s first new partner school since the pandemic. Visual Arts Director Jen Rankey-Zona leads the exchange with CIH founder Amy Gaylor Nedriga.',
       },
       {
         label: 'The wording shift, preserved',
@@ -232,7 +232,7 @@ export const trinityEpiscopal: ArtsProgram = {
       },
       {
         label: 'On the record',
-        text: 'The school posts full concerts to its own Vimeo channel: 5th and 6th Grade Band Concert 11-16-21 (21:48) and 5th-6th Grade Fall Choir Performance - Final (Oct 2021, 33:37), alongside smaller pieces such as TES Presents: Crowded Table (2021), Kindergarten Students Present: For the Beauty of the Earth (2020), Love Train (2020), TES presents: Be A Light (2021) and What the World Needs Now (2021).',
+        text: 'the school posts full concerts to its own Vimeo channel: 5th and 6th Grade Band Concert 11-16-21 (21:48) · 5th-6th Grade Fall Choir Performance - Final (Oct 2021, 33:37). Smaller pieces sit alongside them, including: TES Presents: Crowded Table (2021) · Kindergarten Students Present: For the Beauty of the Earth (2020) · Love Train (2020) · TES presents: Be A Light (2021) · What the World Needs Now (2021).',
       },
     ],
     // No ladderNote (user, 2026-09-16) — an inventory of what the school does
@@ -255,9 +255,9 @@ export const trinityEpiscopal: ArtsProgram = {
   /* ------------------------------------------------------------- 1d visual -- */
   visual: {
     headline:
-      'A named choice-based pedagogy — Teaching Artistic Behaviors — and the one area where Trinity wins things outside the building.',
+      'A named, choice-based teaching method — Teaching Artistic Behaviors (TAB) — and the one area where Trinity wins things outside the building.',
     subhead:
-      'Student work reached two external Charlotte venues in 2026, the Visual Arts Director took a 2025 CATO Excellence in Teaching Award as one of six educators recognized across the Charlotte area, and 5th grade has run an art exchange with students in Ghana since 2023-24.',
+      'Student work reached two off-campus Charlotte venues in 2026. The Visual Arts Director received a 2025 CATO Excellence in Teaching Award. She was one of six educators recognized across the Charlotte area. And 5th grade has run an art exchange with students in Ghana since 2023-24.',
     // NOTE: the no-minor-names rule still applies to this card — the sentence
     // that STATED it was removed 2026-09-16 as apparatus, not the practice.
     // Never add a student's name here; report the recognition, not the child.
@@ -282,7 +282,7 @@ export const trinityEpiscopal: ArtsProgram = {
         when: 'March 2026',
         name: 'Youth Art Month — Carolina Theatre',
         detail:
-          'Six Lower School students were selected for the Youth Art Month exhibition at the Carolina Theatre, spanning Kindergarten through 4th grade — one student each from K, 1st, 2nd and 4th, and two from 3rd.',
+          'Six Lower School students were selected for the Youth Art Month exhibition at the Carolina Theatre. They span Kindergarten through 4th grade: one student each from K, 1st, 2nd and 4th, and two from 3rd.',
       },
       {
         when: 'February 2026',
@@ -300,13 +300,13 @@ export const trinityEpiscopal: ArtsProgram = {
         when: 'May 2025',
         name: 'CATO Excellence in Teaching Award',
         detail:
-          'Visual Arts Director Jen Rankey-Zona, a founding teacher of the school, received a 2025 CATO Excellence in Teaching Award from the Arts & Science Council — one of six educators recognized across the Charlotte area. "I\'m humbled and honored." Head of School Imana Sherrill: "Her impact is felt deeply at Trinity and far beyond."',
+          'Visual Arts Director Jen Rankey-Zona, a founding teacher of the school, received a 2025 CATO Excellence in Teaching Award from the Arts & Science Council. She was one of six educators recognized across the Charlotte area. Her words: "I\'m humbled and honored." Head of School Imana Sherrill: "Her impact is felt deeply at Trinity and far beyond."',
       },
       {
         when: 'Since 2023-24',
         name: 'Art exchange with Ghana',
         detail:
-          'Fifth grade runs an ongoing exchange with students in Ghana through the nonprofit Children Inspiring Hope, in its second consecutive year as of October 2024 and CIH\'s first new partner school since the pandemic. Led by Jen Rankey-Zona with CIH founder Amy Gaylor Nedriga; two exchanges are described, one on shared humanity, generosity and kindness, and one on water as a global resource. No Ghanaian partner school is named.',
+          'Fifth grade runs an ongoing exchange with students in Ghana through the nonprofit Children Inspiring Hope. The exchange was in its second consecutive year as of October 2024. Trinity was CIH\'s first new partner school since the pandemic. Jen Rankey-Zona leads the exchange with CIH founder Amy Gaylor Nedriga. Two exchanges are described: one on shared humanity, generosity and kindness, and one on water as a global resource. No Ghanaian partner school is named.',
       },
     ],
     // Trimmed to the faculty fact (user, 2026-09-16). What went: the statement
@@ -336,7 +336,7 @@ export const trinityEpiscopal: ArtsProgram = {
   /* ------------------------------------------------------------ 1e verdict -- */
   verdict: {
     headline:
-      'A real arts program for a K–8 school, strongest in the studio: a named pedagogy, two external exhibitions in one year, an award-winning director, and an international exchange.',
+      'A real arts program for a K–8 school, strongest in the studio: a named teaching method, two off-campus exhibitions in one year, an award-winning director, and an international exchange.',
     // No subhead (user, 2026-09-16) — it summarised what the school does not
     // publish, and pointed at gap notes this card no longer carries.
     // No `holdsUp` (user, 2026-09-16) — the six checkmark rows restated the
@@ -347,10 +347,10 @@ export const trinityEpiscopal: ArtsProgram = {
     ask: [
       'Where do the plays and concerts actually happen? No auditorium, black box or theatre appears anywhere on your site — chapel and performances are described as being in "our Gym" and Jamie\'s Courtyard. What is "Trinity\'s Center for Community and the Arts", and is it a performance space?',
       'Who teaches music? No music faculty member is named anywhere on the site, though the Visual Arts Director and the art teacher both are.',
-      'Which productions are running this year, and in which grades? Your 2026-27 profile says 4th Grade Musical and a Middle School fall play plus winter musical; your web pages say 1st Grade Fairy Tale Plays, 5th Grade Shakespeare, and a winter play plus spring musical. Which is current?',
+      'Which productions are running this year, and in which grades? Your 2026-27 profile says 4th Grade Musical and a Middle School fall play plus winter musical. Your web pages say 1st Grade Fairy Tale Plays, 5th Grade Shakespeare, and a winter play plus spring musical. Which is current?',
       'Is "chorus" in 5th grade the same ensemble as "choir" in 6th, or two different groups? Your own pages use both words.',
       'Is there any strings or instrumental option beyond band? Older search results still show a "chorus, strings or band" choice, but that page is gone and strings appears nowhere current.',
-      'What does the art course sequence look like on paper between Kindergarten and Studio Art in 7th and 8th — and does TAB continue all the way up, or does Middle School become more directed?',
+      'What does the art course sequence look like on paper, from Kindergarten to Studio Art in 7th and 8th? Does TAB continue all the way up, or does Middle School become more teacher-directed?',
       'Can a student do a sport and an ensemble in the same season? With roughly 90% of the Middle School playing a sport, the overlap must be routine — how do the calendars work together?',
       'Which outside-school venues do the ensembles perform at? Your pages say they perform "at venues outside of school" without naming any.',
       'Does the Ghana exchange still run, and does it reach grades other than 5th?',

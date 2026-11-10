@@ -52,7 +52,7 @@ export const charlotteLatin: ArtsProgram = {
         name: 'Lower School',
         grades: 'TK–4/5',
         items: [
-          'Experiential music — rhythm, melody, genre through singing, dancing and playing',
+          'Hands-on music classes (Experiential music) — rhythm, melody, genre through singing, dancing and playing',
           'Young actors develop through imaginative storytelling',
           'Visual art begins in transitional kindergarten',
           'Grandparents’ Day is the signature Lower School performance tradition',
@@ -86,15 +86,15 @@ export const charlotteLatin: ArtsProgram = {
     enrichment: [
       {
         label: 'Latin Arts Association',
-        text: 'A parent AND faculty organization with five standing committees — Friends of Creative Writing, Music, Speech & Debate, Theater, and Visual Arts. Latin folds creative writing and speech & debate into "the arts," a broader definition than most peers. Volunteer roles are concrete: ushering, ticketing, backstage and costume work, debate judging, and supporting The Blue Review. The LAA also organizes fall play and musical auditions.',
+        text: 'A parent AND faculty group with five standing committees: Friends of Creative Writing, Music, Speech & Debate, Theater, and Visual Arts. Latin counts creative writing and speech & debate as part of "the arts," a wider definition than most peer schools use. Volunteer jobs are concrete: ushering, ticketing, backstage and costume work, debate judging, and helping with The Blue Review. The LAA also organizes fall play and musical auditions.',
       },
       {
         label: 'Arts Walk',
-        text: 'A permanent collection installed across campus — Wingspan, Torsionsphere, The Hurdler, Girl on Swing, Crater, the "Eyes Up" Reflection Garden Mosaic and more. Several works are athletics-themed, so it reads partly as school-identity sculpture. A separate annual community event, "Arts Walk: Create and Celebrate," runs each October.',
+        text: 'A permanent art collection placed across campus: Wingspan · Torsionsphere · The Hurdler · Girl on Swing · Crater · the "Eyes Up" Reflection Garden Mosaic, and more. Several works have sports themes, so part of the collection reads as sculpture about the school’s identity. A separate yearly community event, "Arts Walk: Create and Celebrate," runs each October.',
       },
       {
         label: 'The season calendar',
-        text: 'Mosaic Night, Behind the Curtain, the Youth Art Month opening reception, the Senior Art Show, music recitals, a community sing-along and a student fashion show — a dense, named year rather than vague promises.',
+        text: 'Mosaic Night · Behind the Curtain · the Youth Art Month opening reception · the Senior Art Show · music recitals · a community sing-along · a student fashion show. It is a full calendar of named events, not vague promises.',
       },
       {
         label: 'Guest artists',
@@ -144,9 +144,9 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Alicia Long heads the performing arts program. The tech track is genuinely articulated and undersold: the backstage/technical course starts in Grade 6 — a year before the acting course — and the Upper School sequence runs Stagecraft I → Stagecraft II → Advanced Design, plus an after-school stagecraft option. It produced a 2025 Blumey nomination for Best Student Stage Manager. For a student who would rather build than perform, this is stronger than most peer schools publish.',
+      'Alicia Long heads the performing arts program. The tech track is laid out step by step, and the school undersells it. First, the backstage/technical course starts in Grade 6 — a year before the acting course. Then the Upper School sequence runs Stagecraft I → Stagecraft II → Advanced Design, plus an after-school stagecraft option. The track produced a 2025 Blumey nomination for Best Student Stage Manager. For a student who would rather build than perform, this is stronger than most peer schools publish.',
     venueNote:
-      'Latin runs a dedicated box office (boxoffice@charlottelatin.org) with waitlist handling for sold-out shows — the theatre program operates as a ticketed venue. No named theatre director or technical director is published, which is a real transparency gap versus peers.',
+      'Latin runs a dedicated box office (boxoffice@charlottelatin.org) with a waitlist for sold-out shows. The theatre program runs like a ticketed venue. The school publishes no name for a theatre director or technical director. That is a real gap in openness compared with peer schools.',
     ledgerTitle: 'The Blumey ledger — every year Latin has placed',
     ledger: [
       {
@@ -176,7 +176,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     honestContext:
-      'A Best Actress Blumey is the single most competitive individual honor in the region, and Latin has one — plus Best Featured Performer the same night. That is a genuine peak. But the trajectory since is modest: one stage-manager nomination in 2025, then zero nominations for Cabaret in 2026 against a 59-school field. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere — Latin’s competitive theatre identity is Blumey-based (musical), not NCTC-based (play festival). This ledger reflects four Blumenthal releases checked in one research pass and is a floor, not a complete history.',
+      'A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest: one stage-manager nomination in 2025, then zero nominations for Cabaret in 2026 against a 59-school field. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger draws on four Blumenthal releases, so it is a floor, not a complete history.',
     photo: {
       src: '/arts/charlotte-latin-production.jpg',
       name: 'Winnie the Pooh Jr.',
@@ -245,7 +245,7 @@ export const charlotteLatin: ArtsProgram = {
       },
       {
         label: 'Get selected beyond campus',
-        text: 'Sofia Rodrigues Angrisano, an eighth-grade clarinettist, cleared the South Central District audition at UNC Greensboro and earned 11th chair of 20 in the NC Music Educators Association All-State Honors Band, announced May 2026. The school ran this as a standalone "Kudos" post and named no other selectees, which suggests it is uncommon rather than routine.',
+        text: 'an eighth-grade clarinetist cleared the South Central District audition at UNC Greensboro. She earned 11th chair of 20 in the NC Music Educators Association All-State Honors Band, announced May 2026. The school ran this as a standalone "Kudos" post and named no other selected students. That suggests such a selection is uncommon rather than routine.',
       },
       {
         label: 'Be honored for it',
@@ -253,7 +253,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     ladderNote:
-      'Latin’s publicly documented music-honors record is one named All-State student. For a 1,500-student school that is a thin external-validation trail, and the absence of auditioned ensembles means an already-advanced player has no published route to progress on campus — the sharpest question on the tour list.',
+      'Latin’s public record of music honors is one named All-State student. For a 1,500-student school, that is thin outside proof. And with no auditioned ensembles published, an already-advanced player has no published way to keep moving up on campus. How that player keeps progressing is the sharpest question on the tour list.',
     sources: [
       { label: 'charlottelatin.org — Performing Arts', url: CL_PERF },
       { label: 'Upper School course offerings', url: CL_COURSES },
@@ -310,7 +310,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     footnote:
-      'Richard Fletcher chairs visual arts; no other visual-arts faculty are named anywhere on the school’s pages, which refer only to "a team of dedicated and experienced art educators." Scholastic Art & Writing recognition found: Ella Hennessy ’28 took a GOLD KEY for "Strike" (photography) — the top regional award, which advances to national judging; plus Hope Gottschling ’24 (fashion, "Silk Strength"), Anjali Rao ’27 (fashion, 2023), Cary Mone (oil painting, 2023) and Madison Nabors ’25 (drawing, 2023). The Fab Lab is referenced once in connection with portfolio work but sits under Innovation & Design rather than the arts department; there is no named cross-disciplinary art course, project or equipment list, so it is not presented here as an arts facility.',
+      'Richard Fletcher chairs visual arts. Scholastic Art & Writing recognition found: Ella Hennessy ’28 took a GOLD KEY for "Strike" (photography), the top regional award, which advances to national judging · Hope Gottschling ’24 (fashion, "Silk Strength") · Anjali Rao ’27 (fashion, 2023) · Cary Mone (oil painting, 2023) · Madison Nabors ’25 (drawing, 2023). The Fab Lab is mentioned once, in connection with portfolio work. But it sits under Innovation & Design, not the arts department. No cross-disciplinary art course, project or equipment list is named, so the Fab Lab is not shown here as an arts facility. No other visual-arts faculty are named anywhere on the school’s pages, which refer only to "a team of dedicated and experienced art educators."',
     sources: [
       { label: 'charlottelatin.org — Visual Arts', url: CL_VISUAL },
       { label: 'Upper School course offerings', url: CL_COURSES },
@@ -343,7 +343,7 @@ export const charlotteLatin: ArtsProgram = {
       },
       {
         label: 'A dense, named season',
-        text: 'five productions across three divisions in 2026-27, six-plus concerts, the Senior Art Show, Youth Art Month, Mosaic Night and Arts Walk: Create and Celebrate. The fall play is a Kafka adaptation, signaling a willingness to program literary material.',
+        text: 'five productions across three divisions in 2026-27 · six-plus concerts · the Senior Art Show · Youth Art Month · Mosaic Night · Arts Walk: Create and Celebrate. The fall play is a Kafka adaptation, a sign the program is willing to stage literary work.',
       },
       {
         label: 'Documented Scholastic recognition and real demand',
@@ -353,7 +353,7 @@ export const charlotteLatin: ArtsProgram = {
     ask: [
       'You offer AP Music Theory but no AP Studio Art, AP 2-D/3-D Art & Design or AP Art History. If my child wants to submit a college-level studio portfolio, what is the path past Art Studio IV?',
       'Latin had two Blumey wins in 2022, one stage-manager nomination in 2025, and zero nominations for Cabaret in 2026. What changed, and where is the musical theatre program heading with The Little Mermaid?',
-      'Your materials name Alicia Long, Richard Fletcher and an assistant band director — but no Director of Bands, orchestra director, choral director, theatre director or technical director. Who leads each ensemble, and how long have they been here?',
+      'Your materials name Alicia Long, Richard Fletcher and an assistant band director. They name no Director of Bands, orchestra director, choral director, theatre director or technical director. Who leads each ensemble, and how long have they been here?',
       'There are no auditioned or tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How does a player already at All-State level keep progressing rather than coasting?',
       'Six studios — which media does each hold? Is there a kiln, a darkroom, a printmaking press, a dedicated dance studio? The Arts Facilities page is photos only, with no descriptive text.',
       'You cite over 80% arts participation. Does that count required Lower and Middle School arts classes, or only elective and ensemble enrollment — and what is the Upper School–only number?',

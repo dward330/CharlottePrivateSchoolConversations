@@ -96,7 +96,7 @@ export const cannon: ArtsProgram = {
     enrichment: [
       {
         label: 'The 7:30 a.m. Varsity ensembles',
-        text: 'Varsity Chorus, Band and Orchestra meet before school for students who want arts beyond their class schedule — which is why they appear nowhere in the course catalog. Varsity Chorus was founded by Rob Burlington, is auditioned, and runs 40 students; its popularity led to the Orchestra and Band. This is the access story: a student whose day is full of AP courses can still sing in an auditioned 40-person chorus, and a 6th grader can play alongside 12th graders. It costs a 7:30 a.m. commitment.',
+        text: 'Varsity Chorus, Band and Orchestra meet before school for students who want arts beyond their class schedule. That is why they appear nowhere in the course catalog. Rob Burlington founded Varsity Chorus. The chorus is auditioned and has 40 students, and its popularity led to the Orchestra and Band. This is how the program opens access: a student whose day is full of AP courses can still sing in an auditioned 40-person chorus. A 6th grader can also play alongside 12th graders. The cost is a 7:30 a.m. commitment.',
       },
       {
         label: 'The gallery is the lobby',
@@ -104,11 +104,11 @@ export const cannon: ArtsProgram = {
       },
       {
         label: 'The Mill & the Texas Grace Audio Lab',
-        text: 'The makerspace is called The Mill, where 3D printers run students’ designs. A recently opened Texas Grace Audio Lab supports sound engineering and music production — the facility behind the three-level music technology track.',
+        text: 'The makerspace is called The Mill, where 3D printers print students’ designs. The recently opened Texas Grace Audio Lab supports sound engineering and music production. The lab is the space behind the three-level music technology track.',
       },
       {
         label: 'A documented arts mission process',
-        text: 'Assigned by the Head of School in spring 2022, the three arts directors plus Dr. Regina Nixon spent a year rebuilding Cannon’s artistic mission and vision, surveying students, faculty and parents through an "I like, I wish, I wonder" exercise. The result is meant as a North Star for curriculum and extracurricular decisions. Most schools’ arts pages are marketing; this is a dated process with named owners — and a good tour topic: what actually changed as a result?',
+        text: 'In spring 2022, the Head of School assigned the three arts directors and Dr. Regina Nixon to rebuild Cannon’s artistic mission and vision. They spent a year on it, surveying students, faculty and parents through an "I like, I wish, I wonder" exercise. The result is meant to guide decisions about courses and extracurricular activities. Most schools’ arts pages are marketing. Cannon’s mission work is a dated process with named owners, and a good tour topic: what actually changed as a result?',
       },
     ],
     photo: {
@@ -153,9 +153,9 @@ export const cannon: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Andy Macdonald, Director of Theater Arts since 2012, teaches all three Upper School theater levels and directs both the fall one-acts and the winter musical. Rob Burlington, Director of Music Arts, is music director for the winter musical — so the Blumey-competing show is co-led by the theater and music directors. No technical director is named publicly. The tech story is instead structural: the catwalk above the stage lets students assist on rigging lighting, and the AV control room at the rear of the house was, in the school’s words, "specifically designed for students to assist in the technical side of productions." Note the catalog has no course titled "Acting" or "Stagecraft" despite the website naming them — the real sequence is Honors Theater I, II and Theater in Performance, which can also be entered by doing three company productions instead of the prerequisite.',
+      'Andy Macdonald, Director of Theater Arts since 2012, teaches all three Upper School theater levels. He directs both the fall one-acts and the winter musical. Rob Burlington, Director of Music Arts, is music director for the winter musical. So the show that competes in the Blumeys is co-led by the theater and music directors. The catalog has no course titled "Acting" or "Stagecraft", even though the website names them. The real sequence is Honors Theater I, II and Theater in Performance. Students can also enter Theater in Performance by doing three company productions instead of the prerequisite. No technical director is named publicly. Instead, the tech side is built into the building. The catwalk above the stage lets students help rig lighting. And the AV control room at the back of the theater was, in the school’s words, "specifically designed for students to assist in the technical side of productions."',
     venueNote:
-      'All of it happens in the Cindric Performing Arts Center on the Leck Family thrust stage, which extends into the audience on three sides. The hardwood deck is painted black and lets crews securely anchor multiple sets; a structural grid overhead handles set changes and curtain reconfiguration.',
+      'All of it happens in the Cindric Performing Arts Center, on the Leck Family thrust stage. The stage juts into the audience on three sides. Its hardwood floor is painted black and lets crews firmly anchor multiple sets. A built-in grid overhead handles set changes and rearranging the curtains.',
     ledgerTitle: 'The Blumey ledger — finalist placements by year',
     ledger: [
       {
@@ -168,23 +168,23 @@ export const cannon: ArtsProgram = {
         year: '2025',
         show: 'Mamma Mia!',
         result:
-          'Five finalist placements, one in every performance category: Best Actor (Griffen Evans as Harry Bright), Best Actress (Avery Fawcett as Rosie), Best Supporting Actor (Lucas Guilfoyle as Sam Carmichael), Best Supporting Actress (Shah Aashvi as Tanya), Best Featured Performer (Malcolm Musinguzi as Pepper).',
+          'Five finalist placements, one in every performance category: Best Actor (Griffen Evans as Harry Bright) · Best Actress (Avery Fawcett as Rosie) · Best Supporting Actor (Lucas Guilfoyle as Sam Carmichael) · Best Supporting Actress (Shah Aashvi as Tanya) · Best Featured Performer (Malcolm Musinguzi as Pepper).',
       },
       {
         year: '2024',
         show: 'Not in the nominee list',
         result:
-          'Cannon does not appear in either 2024 all-nominees document. It may have participated without earning finalist placements — this is a verified absence from the nominee list, not evidence it sat the year out.',
+          'Cannon does not appear in either 2024 all-nominees document. It may have taken part without earning finalist placements. This is a verified absence from the nominee list, not evidence that Cannon sat the year out.',
       },
       {
         year: '2023',
         show: 'Freaky Friday',
         result:
-          'Five finalist placements, again one in every performance category: Best Actor (Jonah Feeley as Adam), Best Actress (Annalise Randall-Bauer as Ellie Blake), Best Supporting Actor (Michael Wang as Mike), Best Supporting Actress (Abby Guilfoyle as Torrey), Best Featured Performer (Avery Fawcett).',
+          'Five finalist placements, again one in every performance category: Best Actor (Jonah Feeley as Adam) · Best Actress (Annalise Randall-Bauer as Ellie Blake) · Best Supporting Actor (Michael Wang as Mike) · Best Supporting Actress (Abby Guilfoyle as Torrey) · Best Featured Performer (Avery Fawcett).',
       },
     ],
     honestContext:
-      'Two things a parent should hold together. The record is real and consistent — a full sweep of all five performance categories in both 2023 and 2025 — but every located line sits under a "Finalists for…" heading, and no Cannon winner line was found in any year checked. Treat this as ten finalist placements, not ten awards. On NCTC, participation is structural and every-year, but no year-by-year regional placement, state advancement or named award could be found, so no ledger is shown for it — the festival draws 3,500+ students from 100+ schools across 130+ productions, with select plays advancing from regionals to state. The director’s own framing is notably not trophy-focused: he says the judges’ feedback and seeing other schools’ work is what makes the festival special. Blumey involvement appears to reach back to at least 2019, but that page is no longer readable.',
+      'Two things a parent should keep in mind together. The record is real and consistent: a full sweep of all five performance categories in both 2023 and 2025. But every line found sits under a "Finalists for…" heading, and no Cannon winner line was found in any year checked. Treat this as ten finalist placements, not ten awards. NCTC is built into the program, and Cannon takes part every year. But no year-by-year regional placement, state advancement or named award could be found, so no NCTC ledger is shown. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions. Select plays advance from regionals to state. The director’s own view is notably not about trophies. He says the judges’ feedback and seeing other schools’ work is what makes the festival special. Blumey involvement appears to go back to at least 2019, but that page can no longer be read.',
     photo: {
       src: '/arts/cannon-ctc-production.png',
       name: 'Cannon Theater Company',
@@ -215,7 +215,7 @@ export const cannon: ArtsProgram = {
     headline:
       'A four-year strings ladder, a Hip-Hop-inclusive Modern Ensemble, and a novice-to-portfolio production track on Ableton and Logic Pro — but no documented external honors pipeline.',
     subhead:
-      'All nine Upper School music courses carry an Honors designation and most are repeatable, with the academic record reflecting rising rigor under a consistent course name.',
+      'All nine Upper School music courses carry an Honors designation, and most can be repeated. The transcript keeps the same course name while the work gets harder each year.',
     tracks: [
       {
         label: 'Auditioned / permission-gated',
@@ -248,7 +248,7 @@ export const cannon: ArtsProgram = {
       },
     ],
     boardNote:
-      'Rob Burlington directs Music Arts (since 2012) and teaches Middle and Upper School chorus; no band, strings, jazz or music-technology instructor is named publicly, and the catalog names no instructors. Two offerings are unusually contemporary for a K–12 department: Modern Ensemble takes "any combination of rhythm section, winds, strings, vocalists, or Hip-Hop MCs" across rock, R&B and rap, working heavily in multi-track recording via Soundtrap — a named Hip-Hop MC role in a for-credit honors ensemble is genuinely rare. The Jazz Combo is audition-only and requires a year of "Jazz 1," a course that does not appear in the Upper School catalog.',
+      'Rob Burlington directs Music Arts (since 2012) and teaches Middle and Upper School chorus. No band, strings, jazz or music-technology instructor is named publicly, and the catalog names no instructors. Two offerings are unusually contemporary for a K–12 department. Modern Ensemble takes "any combination of rhythm section, winds, strings, vocalists, or Hip-Hop MCs" across rock, R&B and rap. It works heavily in multi-track recording on Soundtrap. A named Hip-Hop MC role in a for-credit honors ensemble is genuinely rare. The Jazz Combo is audition-only and requires a year of "Jazz 1," a course that does not appear in the Upper School catalog.',
     ladderTitle: 'The honors ladder — and where it goes undocumented',
     ladder: [
       {
@@ -269,7 +269,7 @@ export const cannon: ArtsProgram = {
       },
     ],
     ladderNote:
-      'That last rung is the honest finding rather than a research failure, and it is worth stating plainly: Cannon’s public arts presence documents participation and facilities in music, not an external-honors pipeline. Theatre carries the school’s entire verified external-recognition load. If your child’s goal is All-State selection, ask directly whether students audition and how they fare.',
+      'That last rung is a real finding, not a gap in the research. What Cannon publishes about music documents participation and facilities, not a path to outside honors. Theatre carries all of the school’s verified outside recognition. If your child’s goal is All-State selection, ask directly whether students audition and how they do.',
     sources: [
       { label: 'cannonschool.org — Music', url: CS_MUSIC },
       { label: 'Arts', url: CS_ARTS },
@@ -298,7 +298,7 @@ export const cannon: ArtsProgram = {
       { name: 'AP Studio Art', terminal: true },
     ],
     pathNote:
-      'Honors Visual Foundations is the single mandatory gateway into every visual pathway. AP offers 2-D Design, 3-D Design and Drawing portfolios and may be repeated for a second portfolio; Advanced Topics: Art History is a second AP-level option for the arts student who is not a maker',
+      'Honors Visual Foundations is the single required entry course for every visual pathway. AP Studio Art offers 2-D Design, 3-D Design and Drawing portfolios, and it may be repeated for a second portfolio. Advanced Topics: Art History is a second AP-level option, for the arts student who does not make art',
     exhibits: [
       {
         when: 'Rotating',
@@ -322,7 +322,7 @@ export const cannon: ArtsProgram = {
       },
     ],
     footnote:
-      'Krista Johns directs Visual Art — she joined in 2007, piloted TAB in the Lower School in 2011 and became director in 2022. Her framing of why choice-based works: "when you\'re creating work that\'s based on your own experiences and interests, and you\'re not comparing yourself to anyone next to you, you\'re more willing to try new things." No CDE or Media Arts instructor is named. Two caveats worth carrying to a tour: Media Arts is promoted on the website and cited as an AP prerequisite but has NO course entry in the 2025-26 catalog, and AP Studio Art\'s stated prerequisites name "Studio Arts I" and "Media Arts I," neither of which exists as a catalog course — so ask which courses actually satisfy AP entry. No external visual-arts recognition (Scholastic Art & Writing or otherwise) could be found for any year.',
+      'Krista Johns directs Visual Art. She joined in 2007, piloted TAB in the Lower School in 2011 and became director in 2022. Her view of why the choice-based approach works: "when you\'re creating work that\'s based on your own experiences and interests, and you\'re not comparing yourself to anyone next to you, you\'re more willing to try new things." The school names no CDE or Media Arts instructor. Two caveats are worth taking on a tour. Media Arts is promoted on the website and cited as an AP prerequisite, but it has NO course entry in the 2025-26 catalog. And AP Studio Art\'s stated prerequisites name "Studio Arts I" and "Media Arts I," but neither exists as a catalog course. So ask which courses actually count for AP entry. No external visual-arts recognition (Scholastic Art & Writing or otherwise) could be found for any year.',
     photo: {
       src: '/arts/cannon-campbell-gallery.jpg',
       name: 'Campbell Gallery',
@@ -345,7 +345,7 @@ export const cannon: ArtsProgram = {
     holdsUp: [
       {
         label: 'The arts are weighted like academics',
-        text: 'all 22 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course — sitting behind a two-year arts graduation requirement. That is a checkable signal about GPA and transcript treatment, not a slogan.',
+        text: 'all 22 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts count on a GPA and transcript, not a slogan.',
       },
       {
         label: 'Theatre has hard third-party validation',
@@ -357,11 +357,11 @@ export const cannon: ArtsProgram = {
       },
       {
         label: 'A design-engineering track inside the arts',
-        text: 'CDE runs CAD, woodworking, metalworking, electronics, coding, textiles, 3D printing, laser cutting and CNC milling across three levels — unusual for a K–12 arts department, and the strongest single differentiator here.',
+        text: 'CDE runs these across three levels: CAD · woodworking · metalworking · electronics · coding · textiles · 3D printing · laser cutting · CNC milling. That is unusual for a K–12 arts department, and the strongest single thing that sets the program apart.',
       },
       {
         label: 'A real production path for the non-performer',
-        text: 'Music Technology I–III takes a novice to a portfolio on Ableton Live and Logic Pro, supported by the new Texas Grace Audio Lab — and it does not depend on the missing honors pipeline.',
+        text: 'Music Technology I–III takes a beginner to a portfolio on Ableton Live and Logic Pro, supported by the new Texas Grace Audio Lab. The track does not depend on the missing honors pipeline.',
       },
       {
         label: 'Access without a timetable conflict',

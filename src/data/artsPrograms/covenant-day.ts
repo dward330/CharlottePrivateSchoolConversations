@@ -97,7 +97,7 @@ export const covenantDay: ArtsProgram = {
       { year: '2025', show: 'National Shakespeare Competition', result: 'Caroline Garbarino named Finalist', win: true },
     ],
     honestContext:
-      'The ledger goes quiet after 2019 at the Blumeys — the school’s own theater page carries no post-2019 Blumey entry — and production titles are not published, so *Curtains* is the one show recoverable by name. The Shakespeare finalist shows the pipeline is still producing.',
+      'The ledger goes quiet after 2019 at the Blumeys. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.',
     sources: [
       { label: 'covenantday.org — Theater (ledger, courses, categories)', url: THEATER },
       {
