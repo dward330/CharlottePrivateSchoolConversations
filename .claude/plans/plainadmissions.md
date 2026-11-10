@@ -375,8 +375,8 @@ shipped*) only after Batch 5.
 |---|---|---|---|---|
 | 1 | `9d63eba0` | [review-batch1.md](plainadmissions-data/review-batch1.md) | 2 (both fixed: Trinity referents) | approved 2026-11-09, no rulings |
 | 2 | `b76a2497` | [review-batch2.md](plainadmissions-data/review-batch2.md) | 6 (all fixed: 2 strengthened "firm deadline", 3 referents, 1 renamed document) | approved 2026-11-09, no rulings |
-| 3 | (this commit) | [review-batch3.md](plainadmissions-data/review-batch3.md) | 2 (both fixed: "developmental readiness" restored, band 0 release sentence aligned) | awaiting review |
-| 4 | | | | |
+| 3 | `7e11ffbc` | [review-batch3.md](plainadmissions-data/review-batch3.md) | 2 (both fixed: "developmental readiness" restored, band 0 release sentence aligned) | approved 2026-11-09, no rulings |
+| 4 | (this commit) | [review-batch4.md](plainadmissions-data/review-batch4.md) | 5 (all fixed: 2 school statements turned into our claims, incl. the 4-site interview group; 1 referent; 1 weakened requirement; 1 who-arranges) | awaiting review |
 | 5 | | | | |
 
 ### Style rulings
@@ -410,6 +410,9 @@ shipped*) only after Batch 5.
   Batch 2's choices stand as precedent: a long chain split "First: … Next: … Last: …"; a
   school's document name ("custody agreements") is never paraphrased; "binding
   constraint" is said as "your testing plan hinges on …", never "the deadline for this band".
+- **Batch 3 (approved 2026-11-09): no rulings.** Placeholder unfilled again. Batch 3's choices
+  stand: a school's assessment term ("developmental readiness") is kept, not paraphrased; a
+  `·` item holding two facts may be split into two items in place.
 
 ### plain-ok register
 
@@ -1060,6 +1063,62 @@ Running total for Phase 2: **83**. `check:plain` now shows admissions Flagged **
 `/admissions-checklist/?band=` pages were loaded. All 21 rewritten units render, every bold
 span is inside a `<strong>`, and no page shows a literal `**`. At 390px, with each of the 3
 bands open, the max `scrollWidth` is 375.
+
+### Batch 4 (2026-11-09)
+
+**Resume.** Batch 3 was approved with no rulings (placeholder unfilled again; recorded under
+"Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 30 paths / 24 distinct (`--paths '^guide\.bands\[[0-3]\]'`).
+The three repeat groups in this batch were each applied as one replacement, and the apply
+script confirmed the literal count equalled the site count, so no Batch 5 site holds the
+same text:
+- the family-interview text (×4);
+- the decision text (×3);
+- the apply text with "Registry record" (×2).
+
+The near-repeats were built from shared strings in the draft file, so their common parts
+read identically:
+- the open-house opening of every `steps[0]`;
+- the testing sentence;
+- the fee sentences;
+- the four-recommendations sentence;
+- the callouts' "Applications open …" and denial sentences.
+
+The Record/record difference stays as in the source.
+
+**Drafts were measured first.** Six were above target on the first pass and were trimmed
+before applying:
+- the decision repeat group (×3) and its high-school variant, weighed down by the list of
+  what the decision weighs, which was split;
+- the four-recommendations sentence in bands 2 and 3, at 32 words.
+
+Every guard passed on the first `--check`.
+
+**Measure.** The review generator, with every guard on (`--allow` worklists 1–4), exits 0:
+30/30 `hook: pass`, after-grade >10: 0. Batch 4 adds no residual rows. As the plan expects,
+`check_plain_language.mjs --file` on HG still reports issues, and **every remaining issue is
+on a Batch 5 path**: `bands[4]` and the page-level fields. None is on a `bands[0–3]` path.
+
+**Independent review: 5 findings, all fixed.**
+- Two school statements had turned into our own claims after a split. One was the TK
+  "bridge" description. The other was the interview's "assess whether Hickory Grove is the
+  right fit", fixed with "The school says…" at all 4 sites.
+- One ambiguous "it" (the TK/K5 assessment).
+- One weakened requirement ("includes" → "needs" for the Grades 4–5 Student Questionnaire).
+- One who-arranges change. The family *requests* the shadow day by form; it does not
+  arrange it.
+
+See the review file.
+
+**Step 6 checks.** `npx tsc -b`, `npx vite build` and the eight later checks are green.
+`check:live` reports **107 distinct stale stamps per locale, all `admissions`** (83 + 24).
+Running total for Phase 2: **107**. `check:plain` now shows admissions Flagged **14**.
+
+**Step 7 browser check.** All 5 HG bands were clicked and every `<details>` opened, and all 5
+`/admissions-checklist/?band=` pages were loaded. All 30 rewritten units render, every bold
+span is inside a `<strong>`, and no page shows a literal `**`. At 390px, with each band
+open, the max `scrollWidth` is 375.
 
 ### Candidates noticed, not acted on
 
