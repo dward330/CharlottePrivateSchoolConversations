@@ -134,7 +134,7 @@ export const gastonDay: ArtsProgram = {
     venueNote:
       'The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.',
     honestContext:
-      'The school publishes no production titles, performance dates, cast sizes or theatre competition results. It names no International Thespian Society troupe number, even though it chartered a chapter of the society. So the shape of the program is well documented, but its record is not. This card deliberately carries no awards ledger rather than an empty one.',
+      'The school publishes no production titles, performance dates, cast sizes or theatre competition results. It does not say whether it has an International Thespian Society troupe. So the shape of the program is well documented, but its record is not. This card deliberately carries no awards ledger rather than an empty one.',
     sources: [
       { label: 'gastonday.org — Arts (productions, roles, Actors’ Conservatory Theatre, venue)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Drama in the fine-arts course table)', url: PROFILE },

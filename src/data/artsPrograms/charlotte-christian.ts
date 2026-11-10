@@ -28,8 +28,11 @@
 //    school, so none is republished here.
 //
 // Claims deliberately ABSENT because they could not be verified: "Excellent and
-// Superior festival ratings" (absent from the music page entirely), AP Music
-// Theory (no music theory course is named anywhere), and any named student or
+// Superior festival ratings" (absent from the music page entirely), a running
+// AP Music Theory course (it appears only on the 2026-27 US Course Curriculum
+// Guide's AP roster, with no course description — see
+// source-material/course-offerings/charlotte-christian/; corrected in plan
+// artsfacts, 2026-11-10, after the Arts card had said there was none), and any named student or
 // year for Scholastic Art & Writing, Festival in the Park, Patriotic Art, or NC
 // honors-ensemble placements.
 
@@ -227,7 +230,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     boardNote:
-      'No music faculty, directors or chairs are named anywhere on the school’s pages. The Honors label on all six Upper School ensembles implies placed or selective entry. But the music page never states an audition requirement. So the tiers above show the published structure, not a confirmed split between auditioned and open groups. Note one real gap: no music theory course of any kind is named, so no AP Music Theory is named either, even though the visual branch reaches AP twice.',
+      'No music faculty, directors or chairs are named anywhere on the school’s pages. The Honors label on all six Upper School ensembles implies placed or selective entry. But the music page never states an audition requirement. So the tiers above show the published structure, not a confirmed split between auditioned and open groups. Note one real gap: the music pages name no music theory course. AP Music Theory appears only on the Upper School curriculum guide’s AP roster, with no course description, so whether it runs is not published.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
@@ -349,7 +352,7 @@ export const charlotteChristian: ArtsProgram = {
       'Digital Arts has nine electives and professional software but no AP. If my child wants a film or design portfolio, does the path have to route through AP Studio Art in Visual Art?',
       'Which students earned Scholastic Art & Writing Gold or Silver Keys in the last two years, and in what categories?',
       'Of the 40-plus electives, how many can one Upper School student realistically take across four years alongside AP academics? The figure is a JK–12 count that includes Grade 5 brass and Grade 6 choir.',
-      'Is there a music theory course at all? There is no AP Music Theory, even though Visual Art reaches AP twice.',
+      'AP Music Theory is on the curriculum guide’s AP roster, but the guide gives no course description. Does it actually run, and is there any other music theory course?',
     ],
     sources: [
       { label: 'charlottechristian.com — Fine Arts', url: CC_ARTS },

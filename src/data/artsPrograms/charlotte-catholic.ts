@@ -118,9 +118,9 @@ export const charlotteCatholic: ArtsProgram = {
   },
 
   theatre: {
-    headline: 'Five Blumey finalists in 2025, five more nominations in 2026 — and no win yet.',
+    headline: 'Five Blumey finalists in 2025, five more placements in 2026 — and no win yet.',
     subhead:
-      'Fiddler on the Roof placed a finalist in every one of the five individual performance categories, which is a rare sweep of nominations for one production.',
+      'Fiddler on the Roof placed a finalist in every one of the five individual performance categories, which is a rare sweep of finalist placements for one production.',
     seasonTitle: 'The documented production season',
     season: [
       { season: '2024–25', kind: 'Musical', detail: 'Fiddler on the Roof — five Blumey finalists, one in each individual performance category' },
@@ -248,12 +248,12 @@ export const charlotteCatholic: ArtsProgram = {
     subhead:
       'The course catalog and the Blumey record both say more than the school’s own website does.',
     holdsUp: [
-      { label: 'It is the biggest department in the school', text: '**39 of 199 courses** — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
-      { label: 'The honors ladder is real', text: '**Twelve Honors arts courses**, each carrying the same **+1 quality point** as an Honors academic course, so four years in the music wing does not cost a student GPA.' },
-      { label: 'Recognition is consistent', text: '**Five Blumey finalists in 2025** — one in every individual performance category — and **five more placements in 2026**. Deep and repeated, across two different shows.' },
-      { label: 'The facility is purpose-built and recent', text: 'A **650-seat auditorium dedicated in 2022**, with a darkroom, ceramics studio, broadcast studio and dance studio among **nine named spaces**.' },
-      { label: 'Outside expertise is wired in', text: 'A **Charlotte Symphony partnership** supplying sectionals and private lessons, and a band that performs **quadrennially in Dublin**.' },
-      { label: 'Be clear about the AP ceiling', text: '**AP Studio Art is the only AP arts course.** No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.' },
+      { label: 'It is the biggest department in the school', text: '39 of 199 courses — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
+      { label: 'The honors ladder is real', text: 'Twelve Honors arts courses, each carrying the same +1 quality point as an Honors academic course, so four years in the music wing does not cost a student GPA.' },
+      { label: 'Recognition is consistent', text: 'Five Blumey finalists in 2025 — one in every individual performance category — and five more placements in 2026. Deep and repeated, across two different shows.' },
+      { label: 'The facility is purpose-built and recent', text: 'A 650-seat auditorium dedicated in 2022, with a darkroom, ceramics studio, broadcast studio and dance studio among nine named spaces.' },
+      { label: 'Outside expertise is wired in', text: 'A Charlotte Symphony partnership supplying sectionals and private lessons, and a band that performs quadrennially in Dublin.' },
+      { label: 'Be clear about the AP ceiling', text: 'AP Studio Art is the only AP arts course. No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.' },
     ],
     ask: [
       'The performances calendar shows "No showings" — where do families actually find the season, and can we see this year’s?',

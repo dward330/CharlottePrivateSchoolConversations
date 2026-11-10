@@ -120,7 +120,7 @@ export const trinityEpiscopal: ArtsProgram = {
     enrichment: [
       {
         label: 'Where the work goes public',
-        text: 'Ensembles perform "at chapels, commencement, and various venues outside of school". The school posts full-length recordings to its own Vimeo channel instead of a photo gallery. Concerts, plays and the Shakespeare review run 20 to 70 minutes each. Visual work travels further: to two off-campus Charlotte venues in 2026 alone, the Carolina Theatre and the VAPA Center.',
+        text: 'Ensembles perform "at chapels, commencement, and various venues outside of school". The school posts full-length recordings to its own Vimeo channel instead of a photo gallery. The full concerts and plays, including the Shakespeare review, run 20 to 70 minutes each. Visual work travels further: to two off-campus Charlotte venues in 2026 alone, the Carolina Theatre and the VAPA Center.',
       },
       {
         label: 'An international exchange',
@@ -347,7 +347,7 @@ export const trinityEpiscopal: ArtsProgram = {
     ask: [
       'Where do the plays and concerts actually happen? No auditorium, black box or theatre appears anywhere on your site — chapel and performances are described as being in "our Gym" and Jamie\'s Courtyard. What is "Trinity\'s Center for Community and the Arts", and is it a performance space?',
       'Who teaches music? No music faculty member is named anywhere on the site, though the Visual Arts Director and the art teacher both are.',
-      'Which productions are running this year, and in which grades? Your 2026-27 profile says 4th Grade Musical and a Middle School fall play plus winter musical. Your web pages say 1st Grade Fairy Tale Plays, 5th Grade Shakespeare, and a winter play plus spring musical. Which is current?',
+      'Which productions are running this year, and in which grades? Your 2026-27 profile says 4th Grade Musical, 5th Grade Shakespeare Review, and a Middle School fall play plus winter musical. Your web pages say 1st Grade Fairy Tale Plays, 5th Grade Shakespeare, and a winter play plus spring musical. Which is current?',
       'Is "chorus" in 5th grade the same ensemble as "choir" in 6th, or two different groups? Your own pages use both words.',
       'Is there any strings or instrumental option beyond band? Older search results still show a "chorus, strings or band" choice, but that page is gone and strings appears nowhere current.',
       'What does the art course sequence look like on paper, from Kindergarten to Studio Art in 7th and 8th? Does TAB continue all the way up, or does Middle School become more teacher-directed?',

@@ -65,7 +65,7 @@ export const hickoryGroveChristian: ArtsProgram = {
         items: [
           'Concert Band · Jazz Band · Choir · Musical Theatre · Theatre · Technical Theatre',
           'Visual Arts (Art I–IV), AP Studio Art 2D and Art Appreciation',
-          'Yearbook / Student Media — the *Exodus* yearbook (Yearbook I, Honors Yearbook I–III)',
+          'Yearbook / Student Media — the Exodus yearbook (Yearbook I, Honors Yearbook I–III)',
         ],
       },
     ],
@@ -125,7 +125,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of nominated performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
+      'Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of recognized performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
     sources: [
       { label: 'hgchristian.org — Arts hub (production cadence)', url: ARTS },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
@@ -218,7 +218,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'Back-to-back Blumey recognition',
-        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of nominated performers.',
+        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of recognized performers.',
       },
       {
         label: 'A studio path that reaches AP',
