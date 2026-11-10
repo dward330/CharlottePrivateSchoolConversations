@@ -1146,6 +1146,40 @@ The user asked for two Candidates to be fixed: "Use your recommendation and rese
 
 Checks after the fixes: `check_plain_language.mjs --file` clean; `tsc -b`, `vite build`, `check:schema/spelling/tuition/chrome/runtime/moneytext/dates` green. `check:live` reports **86 stale stamps per locale, all `financial-aid-report`** (85 + the Gaston timeline unit), which is Phase 2's input. In the browser, both units render, and at 390px there is no overflow.
 
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window that built Batch 4, on `feat/plainaid`.
+- **Splice matched exactly.** `i18n_splice_work.mjs --topic financial-aid-report` gave **890 kept / 86 added / 86 dropped** in all nine locales. That equals the final `check:live` count (85 batch units + the Gaston follow-up). Every added unit paired 1:1 with its dropped predecessor by `at` path (0 unpaired), with the `main` work files as the source of the old English and old `t`.
+- **Translation.** Nine parallel `general-purpose` subagents, one per locale, each *revised* the reviewed `t` to match the new English. Each got 40 reviewed same-area units as a terminology reference, read only its own task file, wrote only its own output, and ran the gate itself. The scratch gate is plainadmissions' gate plus guard (m)'s money/percent/year tokens and a ` · ` separator count. It checked:
+  - the numeric-token multiset;
+  - money/percent/year tokens char-for-char;
+  - the `**` and ` · ` counts;
+  - no bidi controls and no non-Western digits;
+  - `t` ≠ English and the 0.4–2.5 length ratio;
+  - no English month or weekday outside a quote the English also quotes.
+
+  All nine passed with 0 problems.
+- **Fix at apply time.** ht `33a60477` capitalized the quoted aggregator term ("Percent on financial aid") to start a sentence. The sentence was reordered so the quote keeps the English's lowercase form.
+- **Systematic changes worth a native reviewer's look:**
+  - The new glosses (need-blind, need-aware, indexed tuition, remission, median, default, EIN, ancillaries) are new wording in every locale, with no reviewed predecessor.
+  - Spelled-out ordinals and counts in the old `t` became digits where the English has a digit, because digit parity requires it: fa/ar "25th anniversary" and "8th/9th grade"; fa grade 9.
+  - fa `c6c8e053` / `e924642a`: oldT's "حدود" for `≈`/`~` became the symbol itself.
+  - ar `47586087`: "2 سنة" is forced by the digit rule and reads awkwardly.
+  - The Gaston (Clarity), Catholic ("some other schools") and Christian (no 62%) meaning changes were flagged by most translators. They are the user-approved English corrections.
+- **Integrity, by stamp against the `main` snapshots:** in every locale, **890 kept stamps** have `text` and `t` byte-identical, **86 are new**, and **0 are blank**. Each rebuilt overlay holds 975 entries, the same as `main` (the one dropped is the legitimately empty `811c9dc5` pair).
+- **Checks:**
+  - `check:live` ✓ and `check:runtime` ✓;
+  - `check:digits`: **774 units compared · 0 to review**;
+  - `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `check:sepdrift`: 0 drifted, ×9;
+  - `check_figures.py --topic financial-aid-report`: figures intact, ×9;
+  - `i18n:leaks`: **0 flags on any of the 86 changed paths** in any locale;
+  - `npm run build`: green end to end.
+- **Browser** (headed Chrome, `vite preview`, the In-depth report card open on all 13 schools, `?lang=es|fa|hi`): **83/83** rendered rewritten units show their translation and none shows its English. The other 3 are the stats-only figure notes with no render site. No new literal `**`; Catholic's 2 are the known `sections[4].note`.
+- **Render audits:**
+  - `audit:moneyrender` (es, fr): es clean. fr has 1 finding, in Charlotte Country Day's Latest News feed (fetched live and never translated, by design). There are 0 on any Financial Aid section.
+  - `audit:daterender` (es, fa, hi): clean, with no English-form date on any school, Compare or checklist page.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
