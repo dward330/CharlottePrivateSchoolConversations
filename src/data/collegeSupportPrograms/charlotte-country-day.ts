@@ -571,7 +571,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: 'The top course is AP Computer Science A. **AP Computer Science Principles** joins in 2026–27 as a starting course in 10th grade. There is still **no post-AP CS course**. That is a real gap next to the depth in maths and science.',
+        text: 'The top course is AP Computer Science A. **AP Computer Science Principles** joins in 2026–27 as a starting course in 10th grade. There is still **no post-AP CS course**. That is a real gap next to the depth in math and science.',
       },
       {
         label: 'World language',
@@ -597,7 +597,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Standard means college-prep',
-        text: 'Every course that is not Honors, AP or IB is labelled **“Regular/Standard”** on transcripts and STARS forms. The profile says every course is college-prep in difficulty. AP is closed to 9th graders. 10th graders generally take only AP Human Geography and AP Computer Science Principles.',
+        text: 'Every course that is not Honors, AP or IB is labeled **“Regular/Standard”** on transcripts and STARS forms. The profile says every course is college-prep in difficulty. AP is closed to 9th graders. 10th graders generally take only AP Human Geography and AP Computer Science Principles.',
       },
     ],
     flags: [
@@ -775,7 +775,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'The IB Diploma is what sets the school apart: a second route to the hardest course load. And the Senior Externship turns 175+ local employers into a network only this school has.',
     subhead:
-      'What Country Day does not have is a required capstone or research thesis; its spike-building is programme breadth rather than a single mandated credential.',
+      'What Country Day does not have is a required capstone or research thesis; its spike-building is program breadth rather than a single mandated credential.',
     levers: [
       {
         title: 'Lever 1 — Build the spike',
@@ -795,7 +795,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**The School Profile as an instrument** — the 2026–27 edition names the top course in every subject. It states the weighting formula. It shows AP results by subject, including the low end (Fine Arts at 91%/61%). Its AP-load groups grew to four. It dropped the 2025–26 edition’s test medians for each fifth, but it brought back a whole-class SAT/ACT middle 50%. That openness itself builds trust.',
-          '**Integrity signalling** — an Honor Code students pledge every year, a student-run Honor Council, and membership in ACCIS, NACAC and SACAC. Signs of strong teachers matter here too. The Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows. 82% hold advanced degrees, and 100% take part in teacher training each year.',
+          '**Integrity signaling** — an Honor Code students pledge every year, a student-run Honor Council, and membership in ACCIS, NACAC and SACAC. Signs of strong teachers matter here too. The Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows. 82% hold advanced degrees, and 100% take part in teacher training each year.',
           '**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.',
           '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 19 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.',
         ],
@@ -884,7 +884,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'No gap-year counselling, placement count or deferral policy is published, and neither is any direct-to-work or enlistment outcome.',
+        text: 'No gap-year counseling, placement count or deferral policy is published, and neither is any direct-to-work or enlistment outcome.',
       },
     ],
     sources: [
@@ -915,7 +915,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The office is deep and stable through a director change',
-        text: 'five counselors, 100+ years of combined experience, and 150+ college reps a year through a structured Scoir Visits programme. The July 2026 change has happened. Allison Slater Tate leads, and Catherine Odum, in the office for a decade-plus, is Senior Associate. So the new leaders build on long experience, not a blank slate.',
+        text: 'five counselors, 100+ years of combined experience, and 150+ college reps a year through a structured Scoir Visits program. The July 2026 change has happened. Allison Slater Tate leads, and Catherine Odum, in the office for a decade-plus, is Senior Associate. So the new leaders build on long experience, not a blank slate.',
       },
       {
         label: 'The timeline starts genuinely early',

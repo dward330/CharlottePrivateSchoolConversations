@@ -1069,7 +1069,7 @@ export const providenceDay: SummerProgram = {
     ],
     aside: {
       title: 'Registration opens January 20.',
-      text: 'Online registration closes at 9am on the Friday before each session. The school says the favourites "fill up fast" but publishes no per-camp fill rates, and **sibling and multi-week discounts are not published at all** — the only bundled rate is Complete Care. Payment is due in full at registration, so there is no deposit option.',
+      text: 'Online registration closes at 9am on the Friday before each session. The school says the favorites "fill up fast" but publishes no per-camp fill rates, and **sibling and multi-week discounts are not published at all** — the only bundled rate is Complete Care. Payment is due in full at registration, so there is no deposit option.',
     },
     flags: [
       {

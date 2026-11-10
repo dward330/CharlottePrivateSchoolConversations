@@ -230,7 +230,7 @@ export const charlottePrep: ArtsProgram = {
   /* ------------------------------------------------------------ 1e verdict -- */
   verdict: {
     headline:
-      'A broad, every-child arts programme for a PreK–8 school: a stage at nearly every grade, a freshly equipped theatre, and credentialed teachers in each discipline.',
+      'A broad, every-child arts program for a PreK–8 school: a stage at nearly every grade, a freshly equipped theatre, and credentialed teachers in each discipline.',
     holdsUp: [
       {
         label: 'Everyone takes all three',

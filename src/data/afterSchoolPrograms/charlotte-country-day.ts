@@ -350,7 +350,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'The most flexible and most transparently priced after-school program in this set — and the one whose enrichment offering you cannot actually see before you enrol.',
+      'The most flexible and most transparently priced after-school program in this set — and the one whose enrichment offering you cannot actually see before you enroll.',
     subhead:
       'Coverage stops hard at grade 8, the cost curve is steep at the top, and Extended Day appears to sit outside financial aid.',
     strengths: [
@@ -360,7 +360,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       '**Enrichment starts at the dismissal bell** for every division, with published per-grade ratios — no dead gap between school and activity.',
       '**Four enrichment cycles a year**, including a low-commitment 3-week mini at $225, so a child can sample without a season-long commitment.',
       '**Drop-in is a real option**, not a token one — $19/hour with a modest one-time $40 fee.',
-      '**An on-site aquatic centre** with private and semi-private instruction, open to the public.',
+      '**An on-site aquatic center** with private and semi-private instruction, open to the public.',
       '**JK is genuinely well served** — the early 1:15 p.m. dismissal is backstopped by five pickup tiers and a developmentally sensible 30-minute class at 10:1.',
     ],
     watchouts: [

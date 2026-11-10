@@ -282,7 +282,7 @@ export const cannon: AfterSchoolProgram = {
       '**True drop-in at $11.50 an hour with no contract.** A family needing two afternoons a month pays around $100 a year rather than committing to $1,904 — the most forgiving occasional-use model in this set.',
       '**A sharp price ladder** — five days costs only about 3.7× the one-day rate, so heavy users get a real discount rather than a linear bill.',
       '**The deepest published enrichment catalog of the six** — 22 distinct classes in a single session spanning robotics, ballet, chess, pottery, golf and photography, each with a named provider and a real fee.',
-      '**Enrichment is modestly priced and transparent** — $18–$30 per class, mostly $144–$300 for a 10-week session, with full refunds for cancelled classes and a make-up week.',
+      '**Enrichment is modestly priced and transparent** — $18–$30 per class, mostly $144–$300 for a 10-week session, with full refunds for canceled classes and a make-up week.',
       '**An executive-function class for Middle School** ("Let’s Get Organized") — a genuinely unusual offering at this age.',
     ],
     watchouts: [
@@ -303,7 +303,7 @@ export const cannon: AfterSchoolProgram = {
       'How is the program billed — annually up front, per semester, or monthly? Can we switch tiers mid-year?',
       'Are there sibling discounts, or any financial aid applicable to After School or Beyond the Bell?',
       'If my child does a 3:00–4:00 Beyond the Bell class, am I charged for 4:00–6:00 on top, and does that day count against my contracted days?',
-      'In Middle School, does the 3:15 auto-enrolment trigger a drop-in charge, and how are we notified?',
+      'In Middle School, does the 3:15 auto-enrollment trigger a drop-in charge, and how are we notified?',
       'Is there any supervised space, study hall or activity bus for grades 9–12 after 3:00?',
       'On early-dismissal days, does the program end firmly at 4:00 p.m., and does the $1/minute fee start then?',
     ],

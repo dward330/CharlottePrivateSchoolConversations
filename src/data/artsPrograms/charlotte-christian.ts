@@ -161,7 +161,7 @@ export const charlotteChristian: ArtsProgram = {
         year: '2013',
         show: 'Oklahoma! (Blumey)',
         result:
-          'A four-award sweep: Wells Fargo Best Musical, Best Ensemble/Chorus, Best Choreography Execution and Best Lighting Execution — the lighting award signalling technical capability, not just strong singing. Field: 17 schools.',
+          'A four-award sweep: Wells Fargo Best Musical, Best Ensemble/Chorus, Best Choreography Execution and Best Lighting Execution — the lighting award signaling technical capability, not just strong singing. Field: 17 schools.',
         win: true,
       },
     ],
@@ -301,7 +301,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     footnote:
-      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described — no size, equipment or station count, and no separate broadcast studio, green screen or recording booth is documented despite a Broadcasting course. The school calls the program "award-winning" and confirms participation in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition, but not one individual visual-art award with a student name and year could be found — so no award counts appear here. A specific studio-media list (ceramics, printmaking, sculpture, fibres, kiln, wheel, darkroom) is also unpublished; the page speaks generically of "a variety of media."',
+      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described — no size, equipment or station count, and no separate broadcast studio, green screen or recording booth is documented despite a Broadcasting course. The school calls the program "award-winning" and confirms participation in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition, but not one individual visual-art award with a student name and year could be found — so no award counts appear here. A specific studio-media list (ceramics, printmaking, sculpture, fibers, kiln, wheel, darkroom) is also unpublished; the page speaks generically of "a variety of media."',
     sources: [
       { label: 'charlottechristian.com — Visual Art', url: CC_VISUAL },
       { label: 'Digital Arts', url: CC_DIGITAL },
@@ -321,11 +321,11 @@ export const charlotteChristian: ArtsProgram = {
       },
       {
         label: 'Two performance spaces and a scene shop',
-        text: 'a 518-seat centre opened in 2017, plus — per the contractor — a black box theater, a scene shop for set construction and dressing rooms. Better infrastructure than the school itself markets.',
+        text: 'a 518-seat center opened in 2017, plus — per the contractor — a black box theater, a scene shop for set construction and dressing rooms. Better infrastructure than the school itself markets.',
       },
       {
         label: 'A transcript-level arts credential',
-        text: 'students can graduate "with distinction" in Fine Arts through the Academic Conservatory Program, backed by three honor societies — Thespian, National Art, and Tri-M. Few peer schools formalise arts achievement on the transcript this way.',
+        text: 'students can graduate "with distinction" in Fine Arts through the Academic Conservatory Program, backed by three honor societies — Thespian, National Art, and Tri-M. Few peer schools formalize arts achievement on the transcript this way.',
       },
       {
         label: 'Digital Arts is genuinely resourced',
@@ -336,7 +336,7 @@ export const charlotteChristian: ArtsProgram = {
         text: 'mainstage musicals cast from Grade 4, instrumental music starts in Grade 5 by instrument family, and the Huge Gallery curates a standing cross-divisional collection.',
       },
       {
-        label: 'A funded parent arts organisation',
+        label: 'A funded parent arts organization',
         text: 'Friends of the Arts runs seven giving tiers to $7,500 and funds commissioned compositions, guest artists, instrument inventory and faculty development.',
       },
     ],

@@ -41,7 +41,7 @@ export const charlotteCatholic: SummerProgram = {
     headline:
       'Four sports camps CCHS runs for the surrounding community — for children aged 6 to 13, not for its own high schoolers.',
     subhead:
-      'Charlotte Catholic is a 9–12 school. Its summer slate is outreach coaching for younger children in the neighbourhood, plus two non-CCHS programmes it points its own students toward.',
+      'Charlotte Catholic is a 9–12 school. Its summer slate is outreach coaching for younger children in the neighbourhood, plus two non-CCHS programs it points its own students toward.',
     intro:
       'Every camp below is a half-day athletic camp hosted by a CCHS coaching staff and open to the community. Ages are the campers’ ages, which run well below CCHS’s own 9–12 enrollment. The school runs no academic summer school and no credit recovery — its handbook twice states that a student who fails a course retakes it externally, "at their expense over the summer".',
     categoryFilters: [
@@ -120,7 +120,7 @@ export const charlotteCatholic: SummerProgram = {
       },
       {
         kind: 'gap',
-        text: 'There is no wrap-around or full-day care: every camp is a half-day block of three to four hours. The MACS 8am–5pm summer camp is a different school’s programme (St. Matthew and St. Patrick, age 5 to rising 6th) and is not attributed to CCHS.',
+        text: 'There is no wrap-around or full-day care: every camp is a half-day block of three to four hours. The MACS 8am–5pm summer camp is a different school’s program (St. Matthew and St. Patrick, age 5 to rising 6th) and is not attributed to CCHS.',
       },
     ],
     sources: [

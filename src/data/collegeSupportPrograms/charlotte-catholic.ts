@@ -705,7 +705,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     subhead:
       'The profile answers the questions a family actually asks — and the tuition structure answers one no other school on this roster raises.',
     points: [
-      { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favourably.' },
+      { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favorably.' },
       { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 covers every AP student, because **the exam is mandatory in every AP course**. Weaker students cannot be quietly left out of the count.' },
       { label: 'Read the college list as enrollments', text: '**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
       { label: 'Athletics is the standout', text: '**79 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },

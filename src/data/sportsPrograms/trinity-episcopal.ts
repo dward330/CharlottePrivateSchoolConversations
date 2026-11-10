@@ -68,7 +68,7 @@ export const trinityEpiscopal: SportsProgram = {
     headline:
       '7 sports across 10 season-teams, with no skill-based cuts — "If a student wants to play one of the sports we offer then we create that opportunity."',
     subhead:
-      'A K–8 middle school programme in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: "Play Hard, Play Smart, Play Together, and Have Fun".',
+      'A K–8 middle school program in the Queen City Conference, NOT the GCMSAA that the larger Charlotte independents play in. Teams are fielded by grade band — 7th/8th, 8th, 6th/7th — never as varsity, JV or A/B squads. Motto: "Play Hard, Play Smart, Play Together, and Have Fun".',
     stats: [
       { value: '7', label: 'distinct sports offered' },
       { value: '10', label: 'season-teams across three seasons' },
@@ -166,7 +166,7 @@ export const trinityEpiscopal: SportsProgram = {
   /* --------------------------------------------------------- 1e coaching -- */
   coaching: {
     headline:
-      'One name carries this programme: David Martin, Athletic Director and head basketball coach since 2004 — a twenty-year tenure that ended in the school\'s first championship.',
+      'One name carries this program: David Martin, Athletic Director and head basketball coach since 2004 — a twenty-year tenure that ended in the school\'s first championship.',
     subhead:
       'Athletic Director: David Martin, who is also the only athletics staff member Trinity lists anywhere. Assistant Coach Jason Martin works alongside him on the basketball staff.',
     featured: [
@@ -174,7 +174,7 @@ export const trinityEpiscopal: SportsProgram = {
         kicker: 'The twenty-year anchor · AD and head basketball coach, since 2004',
         name: 'David Martin',
         stats: [
-          { value: '20 yrs', label: 'leading the basketball programme' },
+          { value: '20 yrs', label: 'leading the basketball program' },
           { value: '2004', label: 'joined Trinity; the team began with him' },
           { value: '~250', label: 'students on the 8th Grade team, by his own count' },
         ],

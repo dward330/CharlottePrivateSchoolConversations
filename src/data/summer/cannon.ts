@@ -790,7 +790,7 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Watercolor Wonders',
-        desc: 'Watercolour painting, offered in three consecutive weeks.',
+        desc: 'Watercolor painting, offered in three consecutive weeks.',
         category: 'visual',
         categoryLabel: 'Visual Arts',
         grades: ['a79', 'a1012'],

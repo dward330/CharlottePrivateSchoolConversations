@@ -478,7 +478,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'Only the share scoring 3+ is reported. The share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be guessed. The 2026–27 profile also drops the pass count and the AP Scholar breakdown by award level that the 2024–25 edition printed. What counts as a “Most rigorous” course load is not defined either. There is no published rubric and no statement of what share of students take the most demanding programme.',
+        text: 'Only the share scoring 3+ is reported. The share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be guessed. The 2026–27 profile also drops the pass count and the AP Scholar breakdown by award level that the 2024–25 edition printed. What counts as a “Most rigorous” course load is not defined either. There is no published rubric and no statement of what share of students take the most demanding program.',
       },
       {
         kind: 'verify',
@@ -500,7 +500,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     headline:
       'Two college counselors split the alphabet and carry all four grades each — roughly 55 seniors apiece — under a director who has held the seat at least six years.',
     subhead:
-      'The distinctive structure is Junior Seminar: a required, graded half-credit course with a mock admission committee and two mandatory college visits, rather than an optional evening programme.',
+      'The distinctive structure is Junior Seminar: a required, graded half-credit course with a mock admission committee and two mandatory college visits, rather than an optional evening program.',
     stats: [
       { value: '~55:1', label: 'seniors per counselor (derived — no ratio is published)' },
       { value: '2', label: 'college counselors — Foxx takes K–Z, Miller A–J' },
@@ -674,7 +674,7 @@ export const charlotteChristian: CollegeSupportProgram = {
         hint: '— Class of 2026 · 83 testers of 110 graduates (~75%)',
         rows: [{ label: 'SAT total', values: ['—', '1120', '—', '1320', '—', '—'] }],
         note:
-          'The school publishes the composite middle-50% band and a tester count only. Those endpoints ARE the 25th and 75th percentiles; the mean, the median and any Reading or Maths section split are unpublished, so none is interpolated here.',
+          'The school publishes the composite middle-50% band and a tester count only. Those endpoints ARE the 25th and 75th percentiles; the mean, the median and any Reading or Math section split are unpublished, so none is interpolated here.',
       },
       {
         title: 'ACT score percentiles',
@@ -698,7 +698,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     support: [
       {
         label: 'What is published is counseling, not learning support',
-        text: 'Two Upper School counselors teach study skills, help with course choices and track academic progress. They also help with test anxiety and refer students to outside resources. That is general counseling, not a programme for learning differences.',
+        text: 'Two Upper School counselors teach study skills, help with course choices and track academic progress. They also help with test anxiety and refer students to outside resources. That is general counseling, not a program for learning differences.',
       },
       {
         label: 'Credentials are a genuine strength',
@@ -767,7 +767,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
     ],
     checklist: [
-      'You publish no named learning specialist, no learning-differences programme and no accommodations policy. Who supports a student with a diagnosed learning difference, and who coordinates College Board accommodations?',
+      'You publish no named learning specialist, no learning-differences program and no accommodations policy. Who supports a student with a diagnosed learning difference, and who coordinates College Board accommodations?',
       'Honors and AP placement requires an A in the prerequisite course and AP exams are mandatory. How does that combination work for a student with accommodations?',
       'What share of AP exams scored 4 or 5? Only the 3+ threshold is published.',
       'Your marketing says “45+ AP and honors courses” but roughly 23 AP courses can be enumerated. What is the actual count?',

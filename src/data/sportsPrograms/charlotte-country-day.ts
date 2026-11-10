@@ -490,7 +490,7 @@ export const charlotteCountryDay: SportsProgram = {
         src: '/facilities/charlotte-country-day-harris-performance-gym.jpg',
         name: 'Harris Performance Gym',
         meta: '~47,000 sq ft, 2022',
-        caption: 'Seats 1,200+; houses the strength centre, wrestling room and Hall of Honor',
+        caption: 'Seats 1,200+; houses the strength center, wrestling room and Hall of Honor',
         credit: 'Photo: Charlotte Country Day School',
       },
     ],
@@ -528,7 +528,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     careNote:
-      'The OrthoCarolina partnership is the differentiator among Charlotte private schools — Cannon uses Novant, Charlotte Christian uses Atrium, and Providence Day keeps care fully in-house. The combined Klein and Harris project totalled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.',
+      'The OrthoCarolina partnership is the differentiator among Charlotte private schools — Cannon uses Novant, Charlotte Christian uses Atrium, and Providence Day keeps care fully in-house. The combined Klein and Harris project totaled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.',
     sources: [
       {
         label: 'charlottecountryday.org — Sports Medicine',

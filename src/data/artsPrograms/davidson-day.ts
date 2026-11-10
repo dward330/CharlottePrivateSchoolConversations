@@ -104,7 +104,7 @@ export const davidsonDay: ArtsProgram = {
       },
       {
         label: 'Not found',
-        text: 'No visiting-artist or artist-in-residence series, no parent arts organisation, no arts festival or gallery-night calendar, and no arts faculty member named in any source. Two arts teachers are pictured in the catalog but neither is captioned.',
+        text: 'No visiting-artist or artist-in-residence series, no parent arts organization, no arts festival or gallery-night calendar, and no arts faculty member named in any source. Two arts teachers are pictured in the catalog but neither is captioned.',
       },
     ],
     sources: [
@@ -196,7 +196,7 @@ export const davidsonDay: ArtsProgram = {
       'A contemporary/rock-band model rather than a concert-ensemble model. Parents expecting a traditional band-and-choir ladder should read that carefully.',
     tracks: [
       {
-        label: 'Open enrolment — no audition',
+        label: 'Open enrollment — no audition',
         ensembles: ['Contemporary Ensemble'],
       },
       {
@@ -241,7 +241,7 @@ export const davidsonDay: ArtsProgram = {
     headline:
       'The strongest part of the program — two parallel tracks, Photography I–III and Studio I → Studio II Honors → AP Studio Art, with Portfolio as a second route in.',
     subhead:
-      'More depth than the enrolment would predict for a school this size. Photography is digital and Lightroom-based throughout; no darkroom is mentioned anywhere.',
+      'More depth than the enrollment would predict for a school this size. Photography is digital and Lightroom-based throughout; no darkroom is mentioned anywhere.',
     mediaTitle: 'Studio media',
     media: [
       { name: 'Graphite & charcoal', detail: 'observational drawing in Studio I' },

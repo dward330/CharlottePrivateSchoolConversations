@@ -379,7 +379,7 @@ export const charlottePrep: SummerProgram = {
     ],
     aside: {
       title: 'Payment is due at registration.',
-      text: 'Registration for summer 2026 ran on the school\'s own web form, paid by card, and closed Friday, May 29, 2026. Children in the school-year Extended-Day Program were not enrolled automatically — they had to be registered for camp like everyone else. No summer 2027 programme has been posted yet.',
+      text: 'Registration for summer 2026 ran on the school\'s own web form, paid by card, and closed Friday, May 29, 2026. Children in the school-year Extended-Day Program were not enrolled automatically — they had to be registered for camp like everyone else. No summer 2027 program has been posted yet.',
     },
     flags: [],
     sources: [

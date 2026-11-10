@@ -1060,6 +1060,12 @@ Each was set after a real defect.
   new school at a thin school's depth. Reduce below that full structure **only** where the
   new school's data is genuinely unpublished — at which point the zero-items rule applies
   and the card is omitted entirely rather than shipped empty.
+- **American spelling.** Parent-facing English uses American spelling (`program`,
+  `enrollment`, `center`, `math`, `judgment`). Quotes, official names and proper
+  nouns keep their own spelling (`IB Diploma Programme`, `Centre College`); `theatre`
+  and `theater` are both fine. The map and the kept names live in
+  `scripts/plain_language.json`; the hook flags new British forms and
+  `npm run check:spelling` fails the build on any.
 
 ## Plain-language standard (required)
 

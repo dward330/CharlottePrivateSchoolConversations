@@ -555,7 +555,7 @@ export const carmelChristian: CollegeSupportProgram = {
       { tier: 'Ivy League', count: '1 / 8', note: '— Princeton' },
       { tier: '“Ivy Plus”', count: '2 / 17', note: '— adds Duke' },
       { tier: 'Top-75 National Universities', count: '30 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '11 / 75', note: '— incl. Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Richmond, Trinity, Wofford, Agnes Scott, Centre' },
+      { tier: 'Top-75 Liberal Arts', count: '11 / 75', note: '— incl. Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Richmond, Trinity, Wofford, Agnes Scott, Centre' }, // plain-ok: centre
       { tier: 'Power Four', count: '44 / 68' },
       { tier: 'HBCUs', count: '8 / 107', note: '— incl. Hampton, Howard, NC A&T, Florida A&M' },
     ],

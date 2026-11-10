@@ -12,6 +12,7 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import {
   loadConfig, checkText, sentences, fleschKincaid, normalize, wordsOf, scopeOf, filterAllowed,
+  findBritish, toAmerican, isSpellingOnly, proseUnits,
 } from './check_plain_language.mjs'
 
 const SCRIPT = join(dirname(fileURLToPath(import.meta.url)), 'check_plain_language.mjs')
@@ -245,4 +246,99 @@ test('16. ordinary English is not jargon', () => {
   assert.deepEqual(terms('She spent her formative years in Charlotte.'), [])
   assert.deepEqual(terms('The yield rate was 40%.'), ['yield rate'])
   assert.deepEqual(terms('Teachers use formative assessments weekly.'), ['formative assessment'])
+})
+
+/* ---------------------------------------------------------- spelling -- */
+
+const brit = (text) => findBritish(text, cfg).map((h) => `${h.form}→${h.american}`)
+
+test('17. findBritish: forms, case kept, hyphen boundary', () => {
+  assert.deepEqual(brit('A summer programme.'), ['programme→program'])
+  assert.deepEqual(brit('Programme fees'), ['Programme→Program'])
+  assert.deepEqual(brit('PROGRAMME FEES'), ['PROGRAMME→PROGRAM'])
+  assert.deepEqual(brit('Offers dual-enrolment courses.'), ['enrolment→enrollment'])
+})
+
+test('18. findBritish: American forms and lookalikes are not hits', () => {
+  for (const w of ['enrolled', 'enrolling', 'theatre', 'theater', 'towards', 'dialogue', 'analyses', 'programmatic', 'program', 'enrollment']) {
+    assert.deepEqual(brit(`The ${w} here.`), [], w)
+  }
+})
+
+test('19. findBritish: quotes, URLs, link targets, citations and keep phrases are exempt', () => {
+  assert.deepEqual(brit('The school calls it “a gap-year programme.”'), [])
+  assert.deepEqual(brit('The school calls it "a gap-year programme."'), [])
+  assert.deepEqual(brit('See https://x.org/programme-centre for more.'), [])
+  assert.deepEqual(brit('Read [the programme page](https://x.org/programme) first.'), ['programme→program'])
+  assert.deepEqual(brit('Fees rose (Source: school programme page).'), [])
+  assert.deepEqual(brit('It offers the IB Diploma Programme.'), [])
+  assert.deepEqual(brit('Taught by Stephanie Mould.'), [])
+  assert.deepEqual(brit('The IB Diploma Programme is one programme of many.'), ['programme→program'])
+})
+
+test('20. toAmerican and isSpellingOnly', () => {
+  const old = 'Enrolment opens; the programme centre is open.'
+  const neu = toAmerican(old, cfg)
+  assert.equal(neu, 'Enrollment opens; the program center is open.')
+  const r = isSpellingOnly(old, neu, cfg)
+  assert.equal(r.ok, true)
+  assert.deepEqual(r.diffs, [['Enrolment', 'Enrollment'], ['programme', 'program'], ['centre', 'center']])
+  assert.equal(isSpellingOnly(old, old, cfg).ok, true)
+  assert.equal(isSpellingOnly('A programme.', 'A course.', cfg).ok, false)          // other word
+  assert.equal(isSpellingOnly('A programme.', 'A programme!', cfg).ok, false)       // punctuation
+  assert.equal(isSpellingOnly('A programme of 12.', 'A program of 13.', cfg).ok, false) // digit
+  assert.equal(isSpellingOnly('A programme.', 'A Program.', cfg).ok, false)         // case outside pattern
+  assert.equal(isSpellingOnly('A program.', 'A programme.', cfg).ok, false)         // wrong direction
+})
+
+test('21. filterAllowed: plain-ok marker and allow term for spelling', () => {
+  const issues = checkText('Wofford, Agnes Scott, Centre', cfg)
+  assert.deepEqual(issues.map((i) => i.rule), ['spelling'])
+  const lines = ["  note: 'Wofford, Agnes Scott, Centre', // plain-ok: centre"]
+  assert.deepEqual(filterAllowed(issues, { relPath: CANNON, unitPath: 'note', line: 1, sourceLines: lines, cfg }), [])
+  const allowCfg = { ...cfg, allow: [{ file: CANNON, path: 'note', term: 'centre' }] }
+  assert.deepEqual(filterAllowed(issues, { relPath: CANNON, unitPath: 'note', cfg: allowCfg }), [])
+  assert.equal(filterAllowed(issues, { relPath: CANNON, unitPath: 'note', cfg }).length, 1)
+})
+
+test('22. proseUnits skips a verify flag holding a British form', () => {
+  const units = proseUnits({ headline: 'Teams.', flags: [{ kind: 'verify', text: 'Check the programme page.' }] }, '', () => 'prose')
+  assert.deepEqual(units.map((u) => u.text), ['Teams.'])
+})
+
+test('23. hook blocks a British form in prose; not in a quote, non-prose field or comment', () => {
+  const root = fixtureRoot()
+  try {
+    const base = "  headline: 'Teams.',"
+    const cases = [
+      ["  subhead: 'A summer programme.',", 2],
+      ["  subhead: 'It calls this “a summer programme.”',", 0],
+      ["  url: 'https://x.org/summer-programme',", 0],
+      ['  // a programme note', 0],
+    ]
+    for (const [line, want] of cases) {
+      writeFileSync(join(root, CANNON), tsModule(base))
+      const r = runEdit(root, CANNON, tsModule(`${base}\n${line}`), base, `${base}\n${line}`)
+      assert.equal(r.code, want, `${line}: ${r.stderr}`)
+      if (want === 2) assert.match(r.stderr, /British spelling "programme" → "program"/)
+    }
+  } finally { rmSync(root, { recursive: true, force: true }) }
+})
+
+test('24. --spelling gate exits 1 on a British form, 0 when clean', () => {
+  const root = fixtureRoot()
+  const gate = () => spawnSync(process.execPath, [SCRIPT, '--spelling'], {
+    env: { ...process.env, PLAIN_LANGUAGE_ROOT: root }, encoding: 'utf8',
+  })
+  try {
+    writeFileSync(join(root, 'src/locales/en.json'), JSON.stringify({ a: 'Hello' }))
+    writeFileSync(join(root, CANNON), tsModule("  headline: 'A summer programme.',"))
+    let r = gate()
+    assert.equal(r.status, 1, r.stdout + r.stderr)
+    assert.match(r.stderr, /sportsPrograms\/cannon\.ts:2 headline — "programme" → "program"/)
+    writeFileSync(join(root, CANNON), tsModule("  headline: 'A summer program.',"))
+    r = gate()
+    assert.equal(r.status, 0, r.stdout + r.stderr)
+    assert.match(r.stdout, /0 British forms/)
+  } finally { rmSync(root, { recursive: true, force: true }) }
 })

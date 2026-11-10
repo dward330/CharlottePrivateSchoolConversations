@@ -1,5 +1,5 @@
 {
-  "_doc": "Plain-language standard data. Read by scripts/check_plain_language.mjs and linked from CLAUDE.md. Add terms here, never in CLAUDE.md. Each term's `match` is a regex source, matched case-insensitively with \\b on both ends. `maxGrade` is what the hook blocks on; `targetGrade` is documentation only (and the second grade column of --report). `allow` entries are { file, path | key, term | rule } — `en.json` can only be allowed here, since JSON has no comments.",
+  "_doc": "Plain-language standard data. Read by scripts/check_plain_language.mjs and linked from CLAUDE.md. Add terms here, never in CLAUDE.md. Each term's `match` is a regex source, matched case-insensitively with \\b on both ends. `maxGrade` is what the hook blocks on; `targetGrade` is documentation only (and the second grade column of --report). `allow` entries are { file, path | key, term | rule } — `en.json` can only be allowed here, since JSON has no comments. `spelling` holds the British → American map and the `keep` phrases for the American-spelling rule (CLAUDE.md 'American spelling'): the hook reports it as rule `spelling`, and `npm run check:spelling` fails the build on any.",
   "maxSentenceWords": 30,
   "maxGrade": 12,
   "targetGrade": 10,
@@ -27,5 +27,34 @@
     { "term": "synchronous / asynchronous", "match": "a?synchronous(?:ly)?", "plain": "live / on your own time" },
     { "term": "leverage", "match": "leverag(?:e|es|ed|ing)", "plain": "use" }
   ],
+  "spelling": {
+    "_doc": "British → American, parent-facing English only (CLAUDE.md 'American spelling'). Keys are lowercase whole words; matching is case-insensitive and the fix keeps the original's case (Programme → Program, PROGRAMME → PROGRAM). `keep` phrases are masked before matching (case-sensitive): official names and proper nouns. Quotes, URLs and citations are exempt as in the jargon rule. theatre/theater are deliberately NOT here — both are American usage and ~100 uses are names (user, 2026-11-09). Also deliberately absent: enrolled, enrolling, towards, dialogue, archaeology, aesthetic, analyses.",
+    "map": {
+      "programme": "program", "programmes": "programs",
+      "enrolment": "enrollment", "enrolments": "enrollments", "enrol": "enroll", "enrols": "enrolls",
+      "centre": "center", "centres": "centers", "maths": "math",
+      "judgement": "judgment", "judgements": "judgments",
+      "catalogue": "catalog", "catalogues": "catalogs",
+      "organisation": "organization", "organisations": "organizations", "organise": "organize", "organised": "organized", "organising": "organizing",
+      "recognise": "recognize", "recognised": "recognized", "recognises": "recognizes", "recognising": "recognizing",
+      "defence": "defense", "licence": "license",
+      "behaviour": "behavior", "behaviours": "behaviors",
+      "colour": "color", "colours": "colors", "colourful": "colorful", "watercolour": "watercolor",
+      "favour": "favor", "favourably": "favorably", "favourite": "favorite", "favourites": "favorites",
+      "honour": "honor", "honours": "honors", "honoured": "honored", "rigour": "rigor",
+      "signalling": "signaling", "cancelled": "canceled", "cancelling": "canceling", "labelled": "labeled",
+      "totalling": "totaling", "totalled": "totaled", "counselling": "counseling", "counsellor": "counselor", "counsellors": "counselors",
+      "modelled": "modeled", "modelling": "modeling", "travelled": "traveled", "travelling": "traveling",
+      "instalment": "installment", "instalments": "installments", "fulfilment": "fulfillment",
+      "artefact": "artifact", "artefacts": "artifacts",
+      "itemised": "itemized", "penalised": "penalized", "authorisation": "authorization", "authorise": "authorize",
+      "emphasise": "emphasize", "emphasising": "emphasizing", "formalise": "formalize", "personalised": "personalized",
+      "specialised": "specialized", "socialising": "socializing", "digitises": "digitizes",
+      "summarise": "summarize", "summarised": "summarized", "analyse": "analyze", "analysed": "analyzed",
+      "practise": "practice", "practising": "practicing",
+      "fibre": "fiber", "fibres": "fibers", "calibre": "caliber", "mould": "mold"
+    },
+    "keep": ["IB Diploma Programme", "Stephanie Mould", "Centre College"]
+  },
   "allow": []
 }

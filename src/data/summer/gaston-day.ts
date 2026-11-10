@@ -36,7 +36,7 @@ export const gastonDay: SummerProgram = {
     subhead:
       'Camp Spartan runs 8:30 am–3:30 pm with lunch included, and wrap-around care extends the day from 7:45 am to 5:00 pm.',
     intro:
-      'The complete 2026 slate as published in the school’s camp catalog — 30 camps across four providers. Grade levels are “rising” grades: the child’s grade for the 2026-27 school year. Several enrichment camps show as FULL with a waitlist and one as cancelled; those states are reproduced as published rather than filtered out.',
+      'The complete 2026 slate as published in the school’s camp catalog — 30 camps across four providers. Grade levels are “rising” grades: the child’s grade for the 2026-27 school year. Several enrichment camps show as FULL with a waitlist and one as canceled; those states are reproduced as published rather than filtered out.',
     categoryFilters: [
       { token: 'all', label: 'All' },
       { token: 'daycamp', label: 'Day camp' },
@@ -122,7 +122,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Ice Cream and Popsicles — FULL, waitlist',
-        desc: 'Colourful activities, hands-on crafts, games and plenty of icy treats. Led by Sydney Hedrick.',
+        desc: 'Colorful activities, hands-on crafts, games and plenty of icy treats. Led by Sydney Hedrick.',
         category: 'enrichment',
         categoryLabel: 'Enrichment',
         grades: ['pk', 'lower'],
@@ -148,7 +148,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Zoo Camp — cancelled',
-        desc: 'Wildlife, habitats and conservation through hands-on crafts and games. Published as cancelled.',
+        desc: 'Wildlife, habitats and conservation through hands-on crafts and games. Published as canceled.',
         category: 'enrichment',
         categoryLabel: 'Enrichment',
         grades: ['lower'],
@@ -395,7 +395,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Summer Tutoring',
-        desc: 'One-to-one tutoring in reading, maths, writing and beyond — from combating the "summer slump" to direct instruction. Open to non-Gaston Day students. Contact Julie Dellibovi.',
+        desc: 'One-to-one tutoring in reading, math, writing and beyond — from combating the "summer slump" to direct instruction. Open to non-Gaston Day students. Contact Julie Dellibovi.',
         category: 'academic',
         categoryLabel: 'Tutoring',
         grades: ['pk', 'lower', 'middle', 'upper'],
@@ -508,7 +508,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         label:
-          'Full tuition is payable at the time of enrolment through the Popsicle app. Refunds: 50% if cancelled three or more weeks before the camp starts; nothing after that, and nothing for arriving late or leaving early. If Gaston Day cancels a camp for insufficient enrolment it gives at least two weeks’ notice and refunds in full.',
+          'Full tuition is payable at the time of enrollment through the Popsicle app. Refunds: 50% if canceled three or more weeks before the camp starts; nothing after that, and nothing for arriving late or leaving early. If Gaston Day cancels a camp for insufficient enrollment it gives at least two weeks’ notice and refunds in full.',
         note: true,
       },
       {

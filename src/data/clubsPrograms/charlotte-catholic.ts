@@ -121,7 +121,7 @@ export const charlotteCatholic: ClubsProgram = {
         valueLabel: 'participation',
         name: 'Whole-cohort by construction',
         detail:
-          'The school profile reports 100% community-service participation. Because service is a graduation requirement rather than an opt-in programme, that figure is structurally true — it is not a measure of enthusiasm.',
+          'The school profile reports 100% community-service participation. Because service is a graduation requirement rather than an opt-in program, that figure is structurally true — it is not a measure of enthusiasm.',
         source: { label: 'School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       },
       {
@@ -171,7 +171,7 @@ export const charlotteCatholic: ClubsProgram = {
       { label: 'National Merit', text: '2 Finalists and 11 Commended Students in 2025.' },
       { label: 'Service academies', text: 'Three US Naval Academy appointments in 2025, plus an Army ROTC scholarship at Cornell.' },
       { label: 'The decile chart', text: 'CCHS does not rank students, so there is no valedictorian or class-rank distinction — a 10-decile GPA chart stands in its place.' },
-      { label: 'St. Augustine Scholars Program', text: 'A selective four-year classical pathway begun with a 9th-grade cohort in 2025-26 — a programme rather than a society, but the school’s most selective academic designation.' },
+      { label: 'St. Augustine Scholars Program', text: 'A selective four-year classical pathway begun with a 9th-grade cohort in 2025-26 — a program rather than a society, but the school’s most selective academic designation.' },
       { label: 'Blumey finalists', text: 'Five finalists in 2025 and five further placements in 2026 — the school’s strongest recent external competitive recognition.' },
     ],
     flags: [

@@ -343,7 +343,7 @@ export const charlotteLatin: ArtsProgram = {
       },
       {
         label: 'A dense, named season',
-        text: 'five productions across three divisions in 2026-27, six-plus concerts, the Senior Art Show, Youth Art Month, Mosaic Night and Arts Walk: Create and Celebrate. The fall play is a Kafka adaptation, signalling a willingness to program literary material.',
+        text: 'five productions across three divisions in 2026-27, six-plus concerts, the Senior Art Show, Youth Art Month, Mosaic Night and Arts Walk: Create and Celebrate. The fall play is a Kafka adaptation, signaling a willingness to program literary material.',
       },
       {
         label: 'Documented Scholastic recognition and real demand',

@@ -336,7 +336,7 @@ export const trinityEpiscopal: ArtsProgram = {
   /* ------------------------------------------------------------ 1e verdict -- */
   verdict: {
     headline:
-      'A real arts programme for a K–8 school, strongest in the studio: a named pedagogy, two external exhibitions in one year, an award-winning director, and an international exchange.',
+      'A real arts program for a K–8 school, strongest in the studio: a named pedagogy, two external exhibitions in one year, an award-winning director, and an international exchange.',
     // No subhead (user, 2026-09-16) — it summarised what the school does not
     // publish, and pointed at gap notes this card no longer carries.
     // No `holdsUp` (user, 2026-09-16) — the six checkmark rows restated the

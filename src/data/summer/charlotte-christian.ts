@@ -577,7 +577,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Color Craze',
-        desc: 'Colour and painting.',
+        desc: 'Color and painting.',
         category: 'arts',
         categoryLabel: 'Arts',
         grades: ['g12', 'g35'],
@@ -1418,7 +1418,7 @@ export const charlotteChristian: SummerProgram = {
     ],
     aside: {
       title: 'Registration opened January 5.',
-      text: 'Camps are **non-refundable within two weeks** of their start date unless the school cancels, and cancelling costs a $25 fee. Unusually, the published risk here is the opposite of selling out: every camp has a minimum enrollment and the school reserves the right to cancel one that does not meet it.',
+      text: 'Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out: every camp has a minimum enrollment and the school reserves the right to cancel one that does not meet it.',
     },
     flags: [
       {

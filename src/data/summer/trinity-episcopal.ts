@@ -63,7 +63,7 @@ export const trinityEpiscopal: SummerProgram = {
       /* ---------------------------------- June 15-18 — a four-day week (Juneteenth) -- */
       {
         name: 'CAMMP: Mathematics, Robotics and Coding',
-        desc: 'The CAMMP vendor strand’s full-day maths, robotics and coding camp. Financial aid does not apply to CAMMP.',
+        desc: 'The CAMMP vendor strand’s full-day math, robotics and coding camp. Financial aid does not apply to CAMMP.',
         category: 'stem',
         categoryLabel: 'STEM & coding',
         grades: ['1', '2', '3', '4', '5', '6'],
@@ -288,7 +288,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'TES Academy: Middle School Math Launch',
-        desc: 'A grade-specific maths bridge; separate sections run for grade 6 here and for grades 7 and 8 in the July 6-10 week at $275.',
+        desc: 'A grade-specific math bridge; separate sections run for grade 6 here and for grades 7 and 8 in the July 6-10 week at $275.',
         category: 'academic',
         categoryLabel: 'TES Academy',
         grades: ['6'],
@@ -355,7 +355,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'TES Academy: Math-a-Palooza - The Multi-Sensory Math Experience',
-        desc: 'A single-grade multi-sensory maths camp in Trinity’s own academic strand.',
+        desc: 'A single-grade multi-sensory math camp in Trinity’s own academic strand.',
         category: 'academic',
         categoryLabel: 'TES Academy',
         grades: ['3'],
@@ -502,7 +502,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'TES Academy: Fun with Numbers Camp: Building Blocks of Math and More!',
-        desc: 'Early-grades maths in Trinity’s own strand — for current or incoming 2026-27 TES students only.',
+        desc: 'Early-grades math in Trinity’s own strand — for current or incoming 2026-27 TES students only.',
         category: 'academic',
         categoryLabel: 'TES Academy',
         grades: ['1', '2'],
@@ -626,7 +626,7 @@ export const trinityEpiscopal: SummerProgram = {
     ],
     aside: {
       title: 'Registrations become final on May 1.',
-      text: 'The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a cancelled registration\'s deposit and fee can be transferred to another camp.',
+      text: 'The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration\'s deposit and fee can be transferred to another camp.',
     },
     // No flags (user, 2026-09-16) — research apparatus about the camp
     // catalog (sampling, source precedence, unpublished capacity and dates).

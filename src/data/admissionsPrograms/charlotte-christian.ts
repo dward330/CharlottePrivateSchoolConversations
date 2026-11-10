@@ -236,7 +236,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'Feb 26 → Mar 5',
             tagKind: 'accent',
             detail:
-              'The decision is posted to the myCCS decision tab on **February 26, 2027 at 4 p.m.** — six weeks ahead of the Grades 1–12 track — and the signed enrollment contract is due **March 5, 2027 at noon**. The contract carries a **$1,500 per-student enrollment fee**, non-refundable and applied to the tuition balance, plus a **$1,250 new-family fee** the first time a family enrols.',
+              'The decision is posted to the myCCS decision tab on **February 26, 2027 at 4 p.m.** — six weeks ahead of the Grades 1–12 track — and the signed enrollment contract is due **March 5, 2027 at noon**. The contract carries a **$1,500 per-student enrollment fee**, non-refundable and applied to the tuition balance, plus a **$1,250 new-family fee** the first time a family enrolls.',
           },
         ],
         watchOuts: [],

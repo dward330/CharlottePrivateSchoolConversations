@@ -1045,7 +1045,7 @@ export const charlotteLatin: SummerProgram = {
     ],
     aside: {
       title: 'Registration opened January 7 at 8:00pm.',
-      text: 'Weekly registration closes at 12:00pm on the Wednesday before each session, and camps must be **paid in full at registration** — there is no deposit. Cancelling costs $50.00 per camp in March and $100.00 in April; from **May 1 nothing is refundable**, even if the camp has a waitlist.',
+      text: 'Weekly registration closes at 12:00pm on the Wednesday before each session, and camps must be **paid in full at registration** — there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April; from **May 1 nothing is refundable**, even if the camp has a waitlist.',
     },
     flags: [
       {

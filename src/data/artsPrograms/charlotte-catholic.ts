@@ -43,7 +43,7 @@ export const charlotteCatholic: ArtsProgram = {
   ladder: {
     headline: 'The biggest department in the school — 39 courses, one per five in the whole catalog.',
     subhead:
-      'Arts at CCHS is not an elective afterthought: it carries more courses than English, Science or Mathematics, across five disciplines and a purpose-built centre.',
+      'Arts at CCHS is not an elective afterthought: it carries more courses than English, Science or Mathematics, across five disciplines and a purpose-built center.',
     stats: [
       { value: '39', label: 'arts courses — the largest department in the curriculum guide' },
       { value: '12', label: 'named performing ensembles' },
@@ -106,8 +106,8 @@ export const charlotteCatholic: ArtsProgram = {
       { label: 'Charlotte Symphony partnership', text: 'Symphony orchestra members provide sectionals and private lessons to CCHS students.' },
       { label: 'Three Fine Arts Festivals a year', text: 'Plus the annual school musical — the department’s published performance rhythm.' },
       { label: 'Dublin, every four years', text: 'The band performs quadrennially in the St. Patrick’s Day Parade in Dublin, Ireland.' },
-      { label: 'National performance', text: 'The band and choral programmes have performed in New York and Chicago.' },
-      { label: 'Diocesan touring', text: 'The choral programme tours and undertakes service projects across the Diocese of Charlotte.' },
+      { label: 'National performance', text: 'The band and choral programs have performed in New York and Chicago.' },
+      { label: 'Diocesan touring', text: 'The choral program tours and undertakes service projects across the Diocese of Charlotte.' },
       { label: 'Scholastic Art Awards', text: 'Students submit to the Charlotte-Mecklenburg Scholastic Art Awards, earning Gold, Silver and Honorable Mention.' },
     ],
     sources: [
@@ -127,7 +127,7 @@ export const charlotteCatholic: ArtsProgram = {
       { season: '2025–26', kind: 'Musical', detail: 'The Wizard of Oz — four Blumey nominees and one finalist' },
     ],
     whoRunsIt:
-      'Marcus Riter has led theatre at CCHS for twelve years. The programme runs acting, directing, design and tech, costume and film as separate course strands, each with an Honors rung.',
+      'Marcus Riter has led theatre at CCHS for twelve years. The program runs acting, directing, design and tech, costume and film as separate course strands, each with an Honors rung.',
     venueNote:
       'Performances are staged in the MACS Fine Arts Center’s 650-seat auditorium, dedicated in 2022 and shared across all Mecklenburg Area Catholic Schools.',
     ledgerTitle: 'Blumey Awards ledger',
@@ -144,7 +144,7 @@ export const charlotteCatholic: ArtsProgram = {
       { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Featured Performer — Olivia Overhalser as Toto Puppeteer' },
     ],
     honestContext:
-      'CCHS has NOT won a Blumey in either year — verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is consistent and deep rather than victorious: ten placements across two years, with Maye Glessner recognised in both (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing — the two productions above are reconstructed from Blumey records, so the real season may well be larger than the school lets a family see.',
+      'CCHS has NOT won a Blumey in either year — verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is consistent and deep rather than victorious: ten placements across two years, with Maye Glessner recognized in both (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing — the two productions above are reconstructed from Blumey records, so the real season may well be larger than the school lets a family see.',
     sources: [
       { label: 'blumenthalarts.org — 2025 Blumey nominees and finalists (PDF)', url: BLUMEY25 },
       { label: 'blumenthalarts.org — 2026 Blumey nominees and finalists', url: BLUMEY26 },
@@ -155,7 +155,7 @@ export const charlotteCatholic: ArtsProgram = {
   music: {
     headline: 'Twelve named ensembles, and an Honors rung on almost every one.',
     subhead:
-      'The choral programme alone runs a freshman entry point, single-sex chamber ensembles at two levels, and a co-ed Honors Concert Choir at the top.',
+      'The choral program alone runs a freshman entry point, single-sex chamber ensembles at two levels, and a co-ed Honors Concert Choir at the top.',
     boardTitle: 'The ensemble board',
     tracks: [
       {
@@ -189,13 +189,13 @@ export const charlotteCatholic: ArtsProgram = {
     ladderTitle: 'The honors pipeline',
     ladder: [
       { label: 'Entry', text: 'Freshman Men’s or Women’s Chorus (301, 302) — a dedicated ninth-grade rung most schools do not staff separately.' },
-      { label: 'Development', text: 'Choral Ensemble (332), Concert Band (326), Percussion (372) — the open-enrolment middle of the programme.' },
+      { label: 'Development', text: 'Choral Ensemble (332), Concert Band (326), Percussion (372) — the open-enrollment middle of the program.' },
       { label: 'Selective', text: 'Women’s and Men’s Chamber Ensembles (304, 303) — auditioned single-sex groups.' },
       { label: 'Honors', text: 'Honors Chamber Ensembles (392, 357), Honors Wind Ensemble (394), Honors Percussion (373) — each carrying the extra quality point.' },
       { label: 'Terminal', text: 'Honors Concert Choir (361) — the co-ed top of the choral ladder.' },
     ],
     ladderNote:
-      'Every Honors ensemble carries the same +1 quality point as an Honors academic course, so a serious musician’s weighted GPA is not penalised for spending four years in the music wing. There is no AP Music Theory at CCHS — the Honors rungs are the ceiling.',
+      'Every Honors ensemble carries the same +1 quality point as an Honors academic course, so a serious musician’s weighted GPA is not penalized for spending four years in the music wing. There is no AP Music Theory at CCHS — the Honors rungs are the ceiling.',
     sources: [
       { label: 'charlottecatholic.org — Visual and Performing Arts', url: DEPT },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
@@ -235,7 +235,7 @@ export const charlotteCatholic: ArtsProgram = {
       { when: 'Ongoing', name: 'Fine Arts Center gallery spaces', detail: 'exhibits alongside performances in the 2022 building' },
     ],
     footnote:
-      'Faculty: Melissa Parks (visual art and AP Studio Art), Barry Johnson (photography and graphic design), Jacob Bohan (band), Marcus Riter (theatre, twelve years), Tara Ryan (dance), Christopher Jones (guitar). The nine named Fine Arts Center spaces are the 650-seat auditorium, two art studios, the band room, the broadcast studio, the ceramics studio, the dance studio, the darkroom and the photography/digital lab. The centre serves all MACS schools, not CCHS alone, so availability is shared.',
+      'Faculty: Melissa Parks (visual art and AP Studio Art), Barry Johnson (photography and graphic design), Jacob Bohan (band), Marcus Riter (theatre, twelve years), Tara Ryan (dance), Christopher Jones (guitar). The nine named Fine Arts Center spaces are the 650-seat auditorium, two art studios, the band room, the broadcast studio, the ceramics studio, the dance studio, the darkroom and the photography/digital lab. The center serves all MACS schools, not CCHS alone, so availability is shared.',
     sources: [
       { label: 'charlottecatholic.org — Meet the arts faculty', url: FACULTY },
       { label: 'charlottecatholic.org — MACS Fine Arts Center', url: FAC },
@@ -260,7 +260,7 @@ export const charlotteCatholic: ArtsProgram = {
       'Twelve ensembles is a lot for 1,171 students: which are auditioned, and what proportion of applicants get in?',
       'The Fine Arts Center serves all MACS schools — how often does that limit CCHS rehearsal or performance time?',
       'Honors ensembles carry a quality point. Is there any cap on how many arts Honors courses count toward the weighted GPA?',
-      'Five Blumey finalists in 2025 and no win — what does the theatre programme think is the gap?',
+      'Five Blumey finalists in 2025 and no win — what does the theatre program think is the gap?',
       'Is the darkroom still in regular use, or is film photography now taught mainly digitally?',
       'When is the next Dublin parade trip, and what does it cost a family?',
       'AP Studio Art is the only AP. For a student wanting AP Music Theory or AP Art History, what is the alternative — dual enrollment, or nothing?',

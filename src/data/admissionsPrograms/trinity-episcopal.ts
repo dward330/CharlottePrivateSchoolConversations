@@ -197,7 +197,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'by Feb 1',
             tagKind: 'accent',
             detail:
-              'Kindergarten and Grade 1 applicants take the **WPPSI-IV** through the **CAIS consortium** — seven schools, one shared testing arrangement. **Book with one psychologist only**, at **$275**, paid to them rather than to Trinity. Your child must be **four or older at testing**, which may be done **only once in twelve months**; cancelling **within 48 hours forfeits the fee**. CAIS also requires an **interview with each child**, usually **November–February**. Results reach you and the schools you designate as **percentile ranges**, not raw scores.',
+              'Kindergarten and Grade 1 applicants take the **WPPSI-IV** through the **CAIS consortium** — seven schools, one shared testing arrangement. **Book with one psychologist only**, at **$275**, paid to them rather than to Trinity. Your child must be **four or older at testing**, which may be done **only once in twelve months**; canceling **within 48 hours forfeits the fee**. CAIS also requires an **interview with each child**, usually **November–February**. Results reach you and the schools you designate as **percentile ranges**, not raw scores.',
           },
           {
             title: 'Wildcat Visit Day',
@@ -507,7 +507,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on tescharlotte.org and retrieved in September 2026. Errors in the school’s own copy are reproduced rather than corrected: the financial-support deadline on the process page reads February 1, 2026 where the tuition page says February 1, 2027, and it is flagged where it appears. The Dec 1, 2026 open house is labelled "Thursday" when it falls on a Tuesday, and its start time differs between the school’s two admission pages. The CAIS consortium detail is from the 2024-25 brochure, whose structure carries forward but whose dates do not and are not reproduced. Cycle dates shift year to year — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Trinity Episcopal School.',
+        'Dates are the 2027–28 entry cycle as published on tescharlotte.org and retrieved in September 2026. Errors in the school’s own copy are reproduced rather than corrected: the financial-support deadline on the process page reads February 1, 2026 where the tuition page says February 1, 2027, and it is flagged where it appears. The Dec 1, 2026 open house is labeled "Thursday" when it falls on a Tuesday, and its start time differs between the school’s two admission pages. The CAIS consortium detail is from the 2024-25 brochure, whose structure carries forward but whose dates do not and are not reproduced. Cycle dates shift year to year — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Trinity Episcopal School.',
     },
 
     sources: [

@@ -37,10 +37,10 @@ export const gastonDay: AfterSchoolProgram = {
     headline:
       'Care runs to 6:00 pm for Pre-K through 8th grade, split into a Lower School tier from 3:00 and a Middle School tier from 4:00.',
     subhead:
-      'Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the programme offers.',
+      'Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the program offers.',
     hours: ['3 pm', '3:30', '4 pm', '4:30', '5 pm', '5:30', '6 pm'],
     basisNote:
-      'Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees, which assume regular enrolment; the drop-in alternative is billed per day and is listed in the facts below. See the flags below — the programme web page labels near-identical figures as monthly.',
+      'Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees, which assume regular enrollment; the drop-in alternative is billed per day and is listed in the facts below. See the flags below — the program web page labels near-identical figures as monthly.',
     rows: [
       {
         division: 'Lower School',
@@ -69,12 +69,12 @@ export const gastonDay: AfterSchoolProgram = {
     ],
     summer: {
       season: 'JUN–JUL',
-      text: 'Summer care is a separate programme with its own published rates — Camp Spartan full and half days plus before-camp care from 7:45 am and after-camp care to 5:00 pm. See the Summer Programs area.',
+      text: 'Summer care is a separate program with its own published rates — Camp Spartan full and half days plus before-camp care from 7:45 am and after-camp care to 5:00 pm. See the Summer Programs area.',
     },
     facts: [
       {
         label: 'Drop-in',
-        text: 'Available without weekly enrolment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule.',
+        text: 'Available without weekly enrollment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule.',
       },
       {
         label: 'Late pickup',
@@ -94,7 +94,7 @@ export const gastonDay: AfterSchoolProgram = {
       },
       {
         label: 'No Upper School care',
-        text: 'The programme covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is normal on this roster but worth stating.',
+        text: 'The program covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is normal on this roster but worth stating.',
       },
     ],
     flags: [
@@ -127,14 +127,14 @@ export const gastonDay: AfterSchoolProgram = {
       {
         id: 'ls-week',
         label: 'Lower School · PS–4th',
-        panelLabel: 'Lower School · PS–4th · weekly enrolment',
+        panelLabel: 'Lower School · PS–4th · weekly enrollment',
         prices: [95, 95, 95, 95, 95],
         flatRate: true,
       },
       {
         id: 'ms-week',
         label: 'Middle School · 5th–8th',
-        panelLabel: 'Middle School · 5th–8th · weekly enrolment',
+        panelLabel: 'Middle School · 5th–8th · weekly enrollment',
         prices: [55, 55, 55, 55, 55],
         flatRate: true,
       },
@@ -155,12 +155,12 @@ export const gastonDay: AfterSchoolProgram = {
     defaultDays: 5,
     aside: {
       title: 'The weekly rate is flat, so it does not scale with days',
-      text: 'The published $95 and $55 figures are weekly enrolment rates that do not vary by how many afternoons a child attends — which is why those two rows show the same price in every column. Drop-in is the alternative that scales: at Lower School rates, drop-in beats weekly enrolment up to three days a week ($90 vs $95) and loses from four ($120 vs $95).',
+      text: 'The published $95 and $55 figures are weekly enrollment rates that do not vary by how many afternoons a child attends — which is why those two rows show the same price in every column. Drop-in is the alternative that scales: at Lower School rates, drop-in beats weekly enrollment up to three days a week ($90 vs $95) and loses from four ($120 vs $95).',
     },
     fees: [
-      { label: 'Lower School · weekly enrolment', value: '$95/week' },
+      { label: 'Lower School · weekly enrollment', value: '$95/week' },
       { label: 'Lower School · drop-in', value: '$30/day' },
-      { label: 'Middle School · weekly enrolment', value: '$55/week' },
+      { label: 'Middle School · weekly enrollment', value: '$55/week' },
       { label: 'Middle School · drop-in', value: '$15/day' },
       { label: 'Extended Day Drop-In Fee', value: '$25' },
       { label: 'Music lessons', value: '$35/lesson' },
@@ -168,7 +168,7 @@ export const gastonDay: AfterSchoolProgram = {
       { label: 'Late pickup — each further 5 minutes', value: '$5' },
       {
         label:
-          'The 36-week year is this project’s standard planning assumption for comparability across schools, not a figure Gaston Day publishes. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the programme.',
+          'The 36-week year is this project’s standard planning assumption for comparability across schools, not a figure Gaston Day publishes. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the program.',
         note: true,
       },
     ],
@@ -193,13 +193,13 @@ export const gastonDay: AfterSchoolProgram = {
     headline:
       'A published minute-by-minute afternoon: choice time, then snack and homework by grade level, then a STEAM group activity, then choice time again.',
     subhead:
-      'Unusually for this roster, Gaston Day prints the actual clock rather than describing the programme in general terms.',
+      'Unusually for this roster, Gaston Day prints the actual clock rather than describing the program in general terms.',
     rhythmTitle: 'The published afternoon',
     rhythm: [
       {
         time: '3:15',
         name: 'Relax / Choice Time',
-        detail: 'Playground, games and socialising as students arrive from Lower School dismissal.',
+        detail: 'Playground, games and socializing as students arrive from Lower School dismissal.',
       },
       {
         time: '4:00',
@@ -209,7 +209,7 @@ export const gastonDay: AfterSchoolProgram = {
       {
         time: '4:25',
         name: 'Whole-group activity',
-        detail: 'Emphasising STEAM and collaboration — the one structured, all-together block of the afternoon.',
+        detail: 'Emphasizing STEAM and collaboration — the one structured, all-together block of the afternoon.',
       },
       {
         time: '4:55',
@@ -227,10 +227,10 @@ export const gastonDay: AfterSchoolProgram = {
       'grade-level groups',
     ],
     wordsText:
-      'The programme is framed around a decompression-then-structure rhythm: students arrive to unstructured play, move into a separated homework and snack window, come together for a STEAM-and-collaboration block, then return to choice. Middle School students waiting for music lessons may work on homework at no charge, which is the one explicit interlock with another school programme.',
+      'The program is framed around a decompression-then-structure rhythm: students arrive to unstructured play, move into a separated homework and snack window, come together for a STEAM-and-collaboration block, then return to choice. Middle School students waiting for music lessons may work on homework at no charge, which is the one explicit interlock with another school program.',
     catalogTitle: 'Enrichment classes',
     catalogIntro:
-      'The school lists enrichment programmes as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it.',
+      'The school lists enrichment programs as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],
@@ -271,10 +271,10 @@ export const gastonDay: AfterSchoolProgram = {
     ],
     watchoutsTitle: 'What to check',
     watchouts: [
-      '**The hours conflict.** 3:15–5:30 on the programme page versus 3:00–6:00 and 4:00–6:00 on the fee schedule — a 30-minute difference at the end of the day that matters if you are relying on it.',
+      '**The hours conflict.** 3:15–5:30 on the program page versus 3:00–6:00 and 4:00–6:00 on the fee schedule — a 30-minute difference at the end of the day that matters if you are relying on it.',
       '**The billing period conflicts.** "$100/month" on the page versus "$95/week" on the fee schedule. These are very different annual totals; confirm which you will be billed.',
       '**Enrichment is "coming soon"** — the extras that other schools bundle into aftercare do not exist here yet.',
-      '**No Upper School care.** Grades 9–12 have no published after-school programme.',
+      '**No Upper School care.** Grades 9–12 have no published after-school program.',
       '**Late fees start fast** — $10 within the first five minutes, then $5 per five minutes.',
       '**Nothing published on ratios or capacity**, so there is no way to know how many children one adult supervises.',
     ],

@@ -77,7 +77,7 @@ export const charlotteChristian: AfterSchoolProgram = {
     },
     facts: [
       {
-        label: 'Auto-enrolment',
+        label: 'Auto-enrollment',
         text: 'any Lower School student **not picked up by 3:05 p.m. is taken to Extended Day and billed a $50 daily drop-in**',
       },
       {
@@ -243,7 +243,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       'supervised free time',
     ],
     wordsText:
-      '"Through organized activities and supervised free time, the Extended Day program is designed to enrich the intellectual, spiritual, social, and physical development of students." Middle School runs the same shape on a compressed clock — attendance and snack 3:00–3:30, activity 3:30–4:00, homework and reading 4:00–4:30, then free play to 5:00. **Snack is not provided in either program**: "Please send your student with a snack and water bottle." Pickup authorisation is explicit and enforced — "We will not release your child to anyone other than the parents or those authorized," with ID checks early in the year.',
+      '"Through organized activities and supervised free time, the Extended Day program is designed to enrich the intellectual, spiritual, social, and physical development of students." Middle School runs the same shape on a compressed clock — attendance and snack 3:00–3:30, activity 3:30–4:00, homework and reading 4:00–4:30, then free play to 5:00. **Snack is not provided in either program**: "Please send your student with a snack and water bottle." Pickup authorization is explicit and enforced — "We will not release your child to anyone other than the parents or those authorized," with ID checks early in the year.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],
@@ -292,7 +292,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       '**Middle School is pay-as-you-go at $8/hour with automatic registration** — no commitment, no form, no minimum. For occasional users this is far friendlier than a monthly tier.',
       '**The MS program is cohort-differentiated** between grades 5–6 and 7–8 — a real developmental consideration, since 8th and 5th graders in one room is a common failure mode.',
       '**Coverage to 6:00 p.m. for JK–4** is among the later end times in this market, and it is a hard, clearly stated cutoff.',
-      '**Explicit, enforced pickup authorisation** with ID checks early in the year.',
+      '**Explicit, enforced pickup authorization** with ID checks early in the year.',
       '**A deep summer bench** — roughly 100 distinct camps across six weeks, JK–12, including an Orton-Gillingham literacy intervention.',
     ],
     watchouts: [
@@ -302,7 +302,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       '**No Upper School after-school care at all** — grades 9–12 dismiss at 3:20 with athletics, arts, or nothing.',
       '**Snack is not provided** in either program, unlike most peers here.',
       '**The sibling discount is thin** — third child only, on the lowest rate. Two-child families get nothing.',
-      '**Club fees are invisible before enrolment.** You cannot price the 8-week club sessions without already receiving the parent Focus email.',
+      '**Club fees are invisible before enrollment.** You cannot price the 8-week club sessions without already receiving the parent Focus email.',
       '**Half days cost an extra $25**, so the monthly figure is a floor rather than a ceiling — and no teacher-workday or holiday care is published at all.',
     ],
     checklist: [

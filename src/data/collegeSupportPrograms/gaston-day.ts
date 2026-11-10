@@ -548,7 +548,7 @@ export const gastonDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'The school publishes no counselor tenure, credentials or prior admissions-side experience, no count of college representatives hosted per year, and no named essay-workshop or bootcamp programme.',
+        text: 'The school publishes no counselor tenure, credentials or prior admissions-side experience, no count of college representatives hosted per year, and no named essay-workshop or bootcamp program.',
       },
     ],
     sources: [
@@ -619,7 +619,7 @@ export const gastonDay: CollegeSupportProgram = {
           '**iGEM synthetic biology** — teams in 2012, 2016, 2018 and 2020, with a **gold medal**. Projects included a kudzu phytotoxin (a plant poison) and an *E. coli* K-12 isobutanol biofuel. iGEM is a university-level contest with a high-school track. Fielding a team from a school this size is rare.',
           '**VEX Robotics** — for years Gaston Day was part of a FIRST Robotics team shared with other schools, which placed **4th at state**. Then it started its own team, which **qualified for TSA VEX Nationals in 2023, its first year competing**.',
           '**Capstone Project** — every senior completes an internship, research or service project of **at least 40 hours**. It is documented and reported on across a full year. It is required, so every applicant has one.',
-          '**Sunship Earth peer mentoring** — juniors and seniors lead the fourth-grade class through a multi-day mountain programme, then mentor the same child for the rest of the year. A sustained leadership commitment rather than a one-off.',
+          '**Sunship Earth peer mentoring** — juniors and seniors lead the fourth-grade class through a multi-day mountain program, then mentor the same child for the rest of the year. A sustained leadership commitment rather than a one-off.',
           '**Blutopia** — the student-run literary and art magazine, with **numerous Scholastic Art and Writing Awards** and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.',
           '**President’s Service Award** for 100+ service hours, atop a 25-hour annual requirement (40 for NHS).',
         ],
@@ -629,9 +629,9 @@ export const gastonDay: CollegeSupportProgram = {
         hint: 'what the name itself does',
         glyph: '▲',
         items: [
-          '**Accreditation and memberships that a reader recognises** — Cognia/SACS CASI, NCAIS, SAIS, NAIS, plus NACAC and ACCIS on the counseling side.',
+          '**Accreditation and memberships that a reader recognizes** — Cognia/SACS CASI, NCAIS, SAIS, NAIS, plus NACAC and ACCIS on the counseling side.',
           '**A profile built for admissions readers** — quintiles, grades by department, stated AP limits and published transcript timing all make a GDS record easy to read. That is a quieter kind of advantage.',
-          '**International students and a Global Classroom Initiative** — partnerships with schools overseas for grades 10–12 and a documented homestay programme. They give the applicant pool a genuinely international character.',
+          '**International students and a Global Classroom Initiative** — partnerships with schools overseas for grades 10–12 and a documented homestay program. They give the applicant pool a genuinely international character.',
           '**A five-county draw** — Gaston, Lincoln, Cleveland, Mecklenburg and York counties, so the school is regionally rather than locally known.',
         ],
         note:
@@ -700,7 +700,7 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'Learning Academy', text: 'A **Coordinate Program** for students with diagnosed learning disabilities, running alongside the standard curriculum.' },
       { label: 'Intervention', text: '**Early Reading and Math Intervention** in the Lower School, so support is not only a secondary-school offering.' },
       { label: 'Therapies on site', text: '**Speech and Language Therapy** and **Occupational Therapy** are provided at school.' },
-      { label: 'Coaching', text: '**Academic Coaching** and tutoring, plus a paid on-site summer tutoring programme open to non-students at $30/half-hour.' },
+      { label: 'Coaching', text: '**Academic Coaching** and tutoring, plus a paid on-site summer tutoring program open to non-students at $30/half-hour.' },
       { label: 'World language exception', text: 'International students for whom English is a second language are **not required** to take an additional world language — a documented accommodation within the graduation requirements.' },
     ],
     middleTitle: 'If a student is in the middle',
@@ -736,7 +736,7 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'The AP trend is real and rising', text: 'The 3+ rate went 72% → 76% → 86% → 89% → **95%** across 2021–2025, and because **every AP student must sit the exam**, that rate is not flattered by opting out.' },
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },
       { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and the ~18:1 senior caseload is among the lowest on this roster.' },
-      { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the programme rather than left to the individual student.' },
+      { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the program rather than left to the individual student.' },
       { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },
     ],
