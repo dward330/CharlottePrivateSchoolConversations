@@ -458,7 +458,7 @@ export const davidsonDay: CollegeSupportProgram = {
   },
   transcript: {
     headline:
-      'Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.',
+      'Davidson Day publishes how its grades work in full: the scale, the weighting, and an unusually clear list of what the GPA leaves out. But it publishes no AP exam results and no National Merit record at all.',
     subhead:
       'The School Profile does the work test scores would otherwise do: full quality-point table, +0.5 Honors / +1.0 AP, a stated no-rank policy, and a three-point GPA distribution that discloses a 2.58 floor.',
     stats: [
@@ -499,7 +499,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'Unusually explicit exclusions',
-        text: 'Transfer courses, Upper School courses taken in Middle School, Independent Studies and online courses not sponsored by the school are all excluded; the GPA reflects only work done at Davidson Day.',
+        text: 'The GPA leaves out transfer courses, Upper School courses taken in Middle School, Independent Studies, and online courses the school does not sponsor. It counts only work done at Davidson Day.',
       },
     ],
     flags: [
@@ -513,15 +513,15 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'No AP exam results of any kind are published — not the number of exams sat, the number of students, the share scoring 3+, nor whether students in an AP course are required to sit the exam. Offerings tell you what a student may take; they say nothing about outcomes.',
+        text: 'No AP exam results of any kind are published. The school does not give the number of exams taken, the number of students, or the share scoring 3+. Nor does it say whether students in an AP course must take the exam. The course list tells you what a student may take. It says nothing about results.',
       },
       {
         kind: 'gap',
-        text: 'No National Merit or College Board recognition record could be located in the school’s materials, its news feed, or National Merit Scholarship Corporation listings. Unpublished is not the same as zero — at a class size of ~50 a nil or low-single-digit count would be unremarkable.',
+        text: 'No National Merit or College Board recognition record could be found in the school’s materials, its news feed, or National Merit Scholarship Corporation listings. Unpublished does not mean zero. In a class of ~50, a count of zero or just a few would be normal.',
       },
       {
         kind: 'gap',
-        text: '“Most rigorous course load” is never defined: no stated AP maximum, no published access gate, and no description of how the school answers the Common App’s curriculum-rigor question.',
+        text: '“Most rigorous course load” is never defined. There is no stated AP maximum and no published rule for who may take AP. Nor does the school describe how it answers the Common App’s question on curriculum rigor (how demanding a student’s courses are).',
       },
     ],
     sources: [
@@ -534,7 +534,7 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'Two counselors for 184 Upper Schoolers — roughly 1:92, and about 1:25 across the 50 seniors — with the office’s stated start point in 9th grade rather than junior year.',
     subhead:
-      'The small caseload is the credible part. What is missing is any written commitment about what the office actually guarantees: no published review-before-submission promise, no ED/EA stance, no recommendation protocol.',
+      'The small caseload is the believable part. What is missing is any written promise about what the office actually guarantees. It publishes no promise to review applications before they are sent, no stance on Early Decision or Early Action, and no process for recommendations.',
     stats: [
       { value: '~1:92', label: 'counselors to Upper School students (derived — no ratio is published)' },
       { value: '2', label: 'college counselors, plus a registrar' },
@@ -591,7 +591,7 @@ export const davidsonDay: CollegeSupportProgram = {
       'Final enrollment decision',
     ],
     mechanicsNote:
-      'Applications and materials are submitted through Scoir. Note what is absent from that list: teacher recommendations appear only as a Scoir submission step, with no published policy on how many, how teachers are approached, or how the office supports them.',
+      'Applications and materials are sent through Scoir. Note what that list leaves out. Teacher recommendations appear only as a step in Scoir. There is no published policy on how many, how teachers are asked, or how the office supports them.',
     reach: [
       '**80+** college reps hosted per year — high per-student exposure for a 184-student Upper School',
       '**~70** colleges at the co-hosted Lake Norman case-studies fair',
@@ -608,7 +608,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'The office publishes no commitment that every application is read before submission, no Early Decision / Early Action doctrine, and no counselor campus-visit count. A two-person office can plausibly review everything — but it never says so in writing.',
+        text: 'The office makes no published promise that it reads every application before it is sent. It states no approach to Early Decision / Early Action, and no count of counselor campus visits. A two-person office could well review everything. But it never says so in writing.',
       },
     ],
     sources: [
@@ -626,9 +626,9 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'The Class of 2026 — 47 graduates — was offered more than $7.9M in merit aid; the latest full outcome set, the Class of 2025’s, shows 258 acceptances and 100% enrolling at four-year institutions.',
     subhead:
-      'The big list below is a six-year cumulative acceptance list (2021–2026), not a matriculation list: 278 institutions, each of which admitted at least one Davidson Day student across six graduating classes. It combines the school’s two most recent profile lists, 2021–2025 and 2022–2026.',
+      'The big list below covers six years of acceptances (2021–2026). It is not a list of where students enrolled. It names 278 colleges, each of which admitted at least one Davidson Day student across six graduating classes. It combines the school’s two most recent profile lists, 2021–2025 and 2022–2026.',
     stats: [
-      { value: '100%', label: 'of the Class of 2025 matriculated to a four-year institution' },
+      { value: '100%', label: 'of the Class of 2025 enrolled at a four-year college' },
       { value: '258', label: 'acceptances for 53 graduates · 35 different colleges selected' },
       { value: '3 of 8', label: 'Ivy League on the 2021–26 list — absent Columbia, Harvard, Penn, Princeton, Yale' },
       { value: '$7.9M+', label: 'merit aid offered (not accepted) — Class of 2026' },
@@ -651,11 +651,11 @@ export const davidsonDay: CollegeSupportProgram = {
       'USAFA swimming signing (Matthew Doty)',
     ],
     scholarshipsNote:
-      'The $7.9M is the school’s own wording — “offered”, not accepted, so it includes awards from colleges no student attended. The number of students receiving merit, the median award, and the accepted total are all unpublished, as are Morehead-Cain, Robertson, QuestBridge and ROTC outcomes.',
+      'The $7.9M uses the school’s own word, “offered”, not accepted. So it includes awards from colleges no student attended. The school does not publish how many students received merit awards, the median award, or the accepted total. Morehead-Cain, Robertson, QuestBridge and ROTC results are also unpublished.',
     flags: [
       {
         kind: 'gap',
-        text: 'Which colleges students actually enrolled at is not published, and neither is any repeat-pipeline or per-college yield data. You cannot infer a pipeline to any single college from this list.',
+        text: 'The school does not publish which colleges students actually enrolled at. It also gives no data on repeat enrollment at the same college, or on how many admitted students enrolled at each one. You cannot tell from this list whether students go to any one college year after year.',
       },
     ],
     sources: [
@@ -671,31 +671,31 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'For a 184-student Upper School, the spike-building machinery is disproportionate: real permitted archaeology abroad, and a Global Studies Diploma that sends a second transcript and profile to colleges.',
     subhead:
-      'What the school cannot offer is institutional name recognition — so the leverage it does control is the Profile itself, rep-visit volume, and counselor access.',
+      'What the school cannot offer is a well-known name. So what it can control is the Profile itself, the number of college rep visits, and access to counselors.',
     levers: [
       {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**AFAR international field research** — authentic archaeological excavation in Belize (since 2009), Spain (2014), Greece (2017) and Portugal (2018). The Belize dig runs with the BVAR project under permit from the Belize Institute of Archaeology at Cahal Pech; the program’s history appears in peer-reviewed literature (*Heritage*, 2020). Students publish and present at international conferences.',
-          '**Global Studies Diploma** — Honors Anthropology core, four approved AP courses, the same world language in all four Upper School years, a minimum two weeks of international field research, and a capstone paper. Critically, it *produces a separate transcript and profile sent to colleges* — an extra document in the file, not a line on the transcript.',
-          '**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum, quarterly Ethics Labs, an 11th-grade Research Methods Honors course, a 12th-grade Capstone Research Honors mentorship, and a public presentation at the Scholars Research Conference.',
-          '**Recruiting and arts tracks** — an annual Athletic Recruitment Workshop and National Signing Day events (one recent day saw seven NLI signings); AP Studio Art plus portfolio outcomes at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
+          '**AFAR international field research** — real archaeology digs in Belize (since 2009), Spain (2014), Greece (2017) and Portugal (2018). The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.',
+          '**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, and the same world language in all four Upper School years. It also requires at least two weeks of international field research and a capstone paper. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.',
+          '**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum (supervised field work). Each also requires Ethics Labs every quarter and an 11th-grade Research Methods Honors course. In 12th grade, students do a Capstone Research Honors mentorship. They then give a public talk at the Scholars Research Conference.',
+          '**Recruiting and arts tracks** — a yearly Athletic Recruitment Workshop and National Signing Day events. One recent signing day saw seven NLI (National Letter of Intent) signings. For the arts, there is AP Studio Art, plus portfolio results at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
         ],
         note:
-          'Required internship/capstone applies only to Diploma Distinction candidates — there is no school-wide required internship or senior project. Participation counts for AFAR ("hundreds", "150+", "200+") are all program-wide across many schools; how many Davidson Day students specifically have taken part is not published.',
+          'The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. The AFAR participation counts ("hundreds", "150+", "200+") cover the whole program across many schools. How many Davidson Day students have taken part is not published.',
       },
       {
         title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The School Profile as an instrument** — the strongest lever here, and well executed. Four pages, current, publicly linked: full grading scale and weighting, GPA exclusions, the Class of 2027 GPA range, the complete course catalog with unoffered courses clearly flagged, graduation requirements, the Honor Code, and the five-year acceptance list. For a reader who has never been to Davidson, NC, it frames a student without leaning on test scores or rank — precisely the job it has to do.',
-          '**Integrity signalling** — the Honor Code is published verbatim, and the school holds the standard ethical-practice memberships: NACAC, SACAC and ACCIS, alongside SACS, SAIS, NAIS, NCAIS, NCISAA, the Educational Records Bureau (ERB) and College Board.',
-          '**Regional co-hosting** — each spring Davidson Day co-hosts the Lake Norman Area College Admissions Case Studies Program and College Fair with Cannon School, putting families inside a mock admissions committee reading real (fictionalised) files.',
-          '**Proximity, not partnership** — Davidson College is one mile away and appears on the acceptance list, but no dual-enrollment, course-access or preferred-admission arrangement is published. The proximity is a fact, not a documented pipeline.',
+          '**The School Profile as an instrument** — the strongest lever here, and well done. It is four pages, current and linked in public. It gives the full grading scale and weighting, what the GPA leaves out, and the Class of 2027 GPA range. It also has the complete course catalog, with courses not offered clearly marked. Then come graduation requirements, the Honor Code and the five-year acceptance list. A reader who has never been to Davidson, NC, can understand a student without relying on test scores or rank. That is exactly the job the Profile has to do.',
+          '**Integrity signalling** — the Honor Code is published word for word. The school holds the usual memberships in groups that set ethics rules for college admissions: NACAC, SACAC and ACCIS. It also belongs to SACS, SAIS, NAIS, NCAIS, NCISAA, the Educational Records Bureau (ERB) and College Board.',
+          '**Regional co-hosting** — each spring Davidson Day and Cannon School co-host the Lake Norman Area College Admissions Case Studies Program and College Fair. Families act as a mock admissions committee. They read real files with the details changed.',
+          '**Proximity, not partnership** — Davidson College is one mile away and appears on the acceptance list. But the school publishes no deal for dual enrollment, course access or preferred admission. Being close is a fact, not a documented path from one to the other.',
         ],
         note:
-          'The disciplinary-reporting half of integrity signalling is undisclosed: whether suspensions or honor-code violations are reported on the secondary school report, and how a student may explain an incident, is not published.',
+          'The discipline-reporting half of integrity signalling is not disclosed. The school does not say whether suspensions or honor-code violations go on the secondary school report it sends colleges. Nor does it say how a student may explain an incident.',
       },
     ],
     flags: [],
@@ -748,33 +748,33 @@ export const davidsonDay: CollegeSupportProgram = {
       { label: 'Lowest', gpa: '2.58', detail: 'the school discloses its floor' },
     ],
     gpaNote:
-      'Three summary points is the entire disclosure — there is no quintile or decile table, so an admissions reader learns the range and the midpoint but nothing about the shape: how tightly the class clusters, how many sit above 4.0, or where the 25th percentile falls. Publishing a 2.58 low alongside a 4.67 high is nonetheless a transparency choice many peer schools avoid.',
+      'Three summary points are all the school shares. There is no table splitting the class into fifths or tenths. So an admissions reader learns the range and the midpoint, but nothing about the shape. The reader cannot see how tightly the class bunches, how many sit above 4.0, or where the 25th percentile falls. Still, publishing a 2.58 low beside a 4.67 high is a choice to be open that many peer schools avoid.',
     support: [
       {
         label: 'The Learning Enrichment Center',
-        text: 'A genuinely staffed support structure rather than an accommodations desk: one-on-one tutoring during or outside the school day, academic coaching and executive-function support, social-skills groups, speech-language therapy and occupational therapy.',
+        text: 'This is a genuinely staffed support team, not just an accommodations desk. It offers one-on-one tutoring during or outside the school day. It offers academic coaching and help with planning, organizing and focus skills. It also runs social-skills groups. And it offers speech-language therapy and occupational therapy.',
       },
       {
         label: 'Continuity',
-        text: 'Coverage runs from age two through grade twelve, so support does not stop at the Upper School door. Tutors work in partnership with families and classroom teachers, and one-on-one academic coaching builds executive-function skills.',
+        text: 'Support runs from age two through grade twelve, so it does not stop at the Upper School door. Tutors work with families and classroom teachers. One-on-one academic coaching builds planning, organizing and focus skills.',
       },
       {
         label: 'Where it stops',
-        text: 'The school’s pages never say whether the LEC writes or manages accommodations, let alone how they would carry over to College Board / ACT testing and to college disability services. The services are well documented; any hand-off into the application process is not.',
+        text: 'The school’s pages never say whether the LEC writes or manages accommodations. They also do not say how those would carry over to College Board / ACT testing or to college disability services. The services are well documented. Any hand-off into the application process is not.',
       },
     ],
     middle: [
       {
         label: 'The list is the evidence',
-        text: 'The 2021–26 list spans Brown, Dartmouth, Cornell and Chicago down through broad-access institutions — Belmont Abbey, Brevard, Catawba, Mars Hill, Methodist, Wingate, Gardner-Webb, Lenoir-Rhyne, UNC Pembroke, Winston-Salem State. A school placing only its top quartile would not produce that range.',
+        text: 'The 2021–26 list runs from Brown, Dartmouth, Cornell and Chicago down to colleges that admit most applicants. These include Belmont Abbey, Brevard, Catawba, Mars Hill, Methodist, Wingate, Gardner-Webb, Lenoir-Rhyne, UNC Pembroke and Winston-Salem State. A school placing only its top quarter would not produce that range.',
       },
       {
         label: 'No rank, by design',
-        text: 'In a 50-person class, an ordinal position is far more damaging than informative. The no-rank policy is a structural choice that protects the middle, and the spring Case Studies Program teaches families to read admissions as institutional need rather than applicant ranking.',
+        text: 'In a 50-person class, a class rank hurts far more than it informs. The no-rank policy protects the middle of the class. The spring Case Studies Program also teaches families that admissions turns on what a college needs, not on ranking applicants.',
       },
       {
         label: 'Non-traditional destinations',
-        text: 'Service academies (Air Force, West Point); conservatories and arts institutes (Manhattan School of Music, UNCSA, Pratt, SCAD, AMDA); seven international universities across five countries (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London); and specialised technical schools (Embry-Riddle, Colorado School of Mines, RPI, RIT).',
+        text: 'Service academies: Air Force and West Point. Music and arts schools: Manhattan School of Music, UNCSA, Pratt, SCAD and AMDA. International universities: seven across five countries (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London). Specialised technical schools: Embry-Riddle, Colorado School of Mines, RPI and RIT.',
       },
     ],
     flags: [
@@ -807,11 +807,11 @@ export const davidsonDay: CollegeSupportProgram = {
     points: [
       {
         label: 'The spike machinery is real and credited',
-        text: 'AFAR is not a service trip: excavation under permit at Cahal Pech with the BVAR project, four countries with documented start years, students publishing and presenting at conferences, and a program history in peer-reviewed literature.',
+        text: 'AFAR is not a service trip. Students dig under permit at Cahal Pech with the BVAR project. The program runs in four countries, each with a documented start year. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
       },
       {
         label: 'The Global Studies Diploma sends a second transcript',
-        text: 'Structurally different from an honours cord — the Profile states an additional transcript and profile go to colleges, backed by language study, two weeks of international field research and a capstone paper.',
+        text: 'This is different in kind from an honours cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, two weeks of international field research and a capstone paper.',
       },
       {
         label: 'The caseload is genuinely small, and starts in 9th grade',
@@ -827,7 +827,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
     ],
     checklist: [
-      'You don’t publish AP exam results — what share of AP exams scored 3 or higher last year, what share were 4s and 5s, and are students in an AP course required to sit the exam?',
+      'You don’t publish AP exam results. What share of AP exams scored 3 or higher last year, and what share were 4s and 5s? Are students in an AP course required to take the exam?',
       'The Profile says you won’t provide testing profiles. What were the actual middle-50% SAT and ACT ranges for the last class, and how many students tested?',
       'Has Davidson Day had any National Merit Semifinalists, Finalists or Commended Students in the last five years? (Be explicit you mean the NC school — the name collides with Davidson Academy in Nevada.)',
       'You publish a highest, median and lowest GPA but no quintiles. How many of the seniors are above a 4.0, and where does the 25th percentile fall?',

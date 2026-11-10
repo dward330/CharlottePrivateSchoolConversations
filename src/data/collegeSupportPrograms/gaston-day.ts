@@ -394,7 +394,7 @@ export const gastonDay: CollegeSupportProgram = {
     headline:
       'Every AP student must sit the exam, and the share scoring 3+ has climbed five years running — 72% in 2021 to 95% in 2025.',
     subhead:
-      'With no class rank, the profile hands admissions readers three substitutes at once: a published GPA-quintile table, a grade-distribution-by-department table, and stated AP-load maxima that define what "most rigorous" means here.',
+      'With no class rank, the profile gives admissions readers three stand-ins at once. It has a GPA quintile table (a split of the class into fifths) and a table of grades by department. It also states the most APs a student may take, which defines what "most rigorous" means here.',
     stats: [
       { value: '95%', label: 'of AP students scored 3+ in 2025 — up from 72% in 2021' },
       { value: '10', label: 'AP courses, counted from the profile’s own course table' },
@@ -409,7 +409,7 @@ export const gastonDay: CollegeSupportProgram = {
       { year: '2022', detail: '**23** students awarded · **$2.6 million** total' },
     ],
     meritNote:
-      'These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships — the school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the headcount fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024), so the per-student average roughly doubled across those two classes.',
+      'These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student roughly doubled across those two classes.',
     depthTitle: 'Where the curriculum goes deepest',
     depth: [
       {
@@ -441,11 +441,11 @@ export const gastonDay: CollegeSupportProgram = {
       },
       {
         label: 'No rank → a quintile table',
-        text: 'The profile publishes all five GPA quintiles for the Class of 2026 at the end of junior year, so a reader can place any applicant within the class without a single #1.',
+        text: 'The profile publishes all five GPA quintiles (fifths of the class) for the Class of 2026, as of the end of junior year. So a reader can place any applicant within the class without the school naming a #1.',
       },
       {
         label: '“Most rigorous” is defined',
-        text: 'Published AP maxima — **one AP in grade 10, three in each of grades 11 and 12** — tell colleges exactly what the most demanding schedule looks like here, so a normal six-course load is not read as thin.',
+        text: 'The school publishes the most APs a student may take: **one AP in grade 10, three in each of grades 11 and 12**. That tells colleges exactly what the hardest schedule here looks like. So a normal six-course load is not read as thin.',
       },
       {
         label: 'Grade distribution is published by department',
@@ -455,7 +455,7 @@ export const gastonDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The profile publishes no per-subject AP score table, no count of AP exams sat, and no National Merit ledger — so the 3+ rate is a single school-wide figure per year rather than a distribution.',
+        text: 'The profile publishes no AP score table by subject, no count of AP exams taken, and no National Merit record. So the 3+ rate is one school-wide figure per year, not a breakdown.',
       },
     ],
     sources: [
@@ -532,7 +532,7 @@ export const gastonDay: CollegeSupportProgram = {
       'Final college selection',
     ],
     mechanicsNote:
-      'Transcript practice is published rather than implied: initial transcripts carry grades through the end of junior year plus senior-year courses; Early Decision transcripts with interim first-semester grades go out in late November **by request only**; midyear transcripts go out in early January for everything else.',
+      'The school publishes how it sends transcripts, rather than leaving it unsaid. First transcripts show grades through the end of junior year, plus senior-year courses. Early Decision transcripts with first-semester grades so far go out in late November **by request only**. Midyear transcripts go out in early January for everything else.',
     reachTitle: 'Reach and tools',
     reach: [
       '**SCOIR** — the counseling platform linking student, family, counselor and college',
@@ -561,7 +561,7 @@ export const gastonDay: CollegeSupportProgram = {
     headline:
       '95% of the Class of 2025 went straight to a four-year college, and the 2019–2025 acceptance list runs to 231 institutions — Yale and Dartmouth through Stanford, Duke and Johns Hopkins.',
     subhead:
-      'A list this long from classes of ~35 means most of it is breadth rather than concentration: it is the set of places Gaston Day students have been admitted over seven years, not where any one class landed.',
+      'A list this long from classes of ~35 mostly shows breadth, not many students at the same colleges. It is the set of places Gaston Day students were admitted over seven years. It is not where any one class landed.',
     stats: [
       { value: '95%', label: 'of the Class of 2025 attending four-year colleges' },
       { value: '231', label: 'distinct institutions accepted, 2019–2025' },
@@ -588,11 +588,11 @@ export const gastonDay: CollegeSupportProgram = {
       '2022 — $2.6M / 23 students',
     ],
     scholarshipsNote:
-      'College merit awards won by graduating seniors. Against a class of ~35, the 2025 figure works out to well over $100K per awarded student — but note the school does not publish how many of the class applied for or received any award beyond these counts.',
+      'College merit awards won by graduating seniors. In a class of ~35, the 2025 figure works out to well over $100K per student who won an award. But note that the school does not publish how many in the class applied for or received any award beyond these counts.',
     flags: [
       {
         kind: 'gap',
-        text: 'The school publishes no matriculation counts, no per-college enrollment numbers and no year-by-year acceptance breakdown — the list is a single undifferentiated 2019–2025 set.',
+        text: 'The school publishes no counts of where students enrolled, no enrollment numbers by college, and no acceptance breakdown by year. The list is one combined 2019–2025 set with no detail.',
       },
       {
         kind: 'verify',
@@ -607,18 +607,18 @@ export const gastonDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'The spike here is unusually concrete for a small school: a gold-medal iGEM synthetic-biology team, a VEX Robotics squad that reached TSA Nationals in its first year, and a required 40-hour Capstone every senior must defend.',
+      'The standout strength here is unusually concrete for a small school. The school has a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year. And there is a required 40-hour Capstone every senior must defend.',
     subhead:
-      'What the school cannot offer is name recognition at scale — Gaston Day is a 510-student school in Gastonia, not a nationally-known feeder, so the leverage argument rests on distinctiveness rather than volume.',
+      'What the school cannot offer is wide name recognition. Gaston Day is a 510-student school in Gastonia, not a nationally known feeder school. So its case rests on being distinctive, not on sending many students.',
     levers: [
       {
         title: 'Lever 1 — Build the spike',
         hint: 'what a student can actually point at',
         glyph: '◆',
         items: [
-          '**iGEM synthetic biology** — teams in 2012, 2016, 2018 and 2020, with a **gold medal** and projects including a kudzu phytotoxin and an *E. coli* K-12 isobutanol biofuel. iGEM is a university-level competition with a high-school track; fielding one from a school this size is rare.',
-          '**VEX Robotics** — after years in a joint-school FIRST Robotics team that placed **4th at state**, Gaston Day launched its own team and **qualified for TSA VEX Nationals in 2023, its first year competing**.',
-          '**Capstone Project** — every senior completes an internship, research or service project of **at least 40 hours**, documented and reported on across a full year. It is a requirement, so every applicant has one.',
+          '**iGEM synthetic biology** — teams in 2012, 2016, 2018 and 2020, with a **gold medal**. Projects included a kudzu phytotoxin (a plant poison) and an *E. coli* K-12 isobutanol biofuel. iGEM is a university-level contest with a high-school track. Fielding a team from a school this size is rare.',
+          '**VEX Robotics** — for years Gaston Day was part of a FIRST Robotics team shared with other schools, which placed **4th at state**. Then it started its own team, which **qualified for TSA VEX Nationals in 2023, its first year competing**.',
+          '**Capstone Project** — every senior completes an internship, research or service project of **at least 40 hours**. It is documented and reported on across a full year. It is required, so every applicant has one.',
           '**Sunship Earth peer mentoring** — juniors and seniors lead the fourth-grade class through a multi-day mountain programme, then mentor the same child for the rest of the year. A sustained leadership commitment rather than a one-off.',
           '**Blutopia** — the student-run literary and art magazine, with **numerous Scholastic Art and Writing Awards** and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.',
           '**President’s Service Award** for 100+ service hours, atop a 25-hour annual requirement (40 for NHS).',
@@ -630,12 +630,12 @@ export const gastonDay: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**Accreditation and memberships that a reader recognises** — Cognia/SACS CASI, NCAIS, SAIS, NAIS, plus NACAC and ACCIS on the counseling side.',
-          '**A profile built for admissions readers** — quintiles, a department-level grade distribution, defined AP maxima and published transcript timing all make a GDS record easy to interpret, which is leverage of a quieter kind.',
-          '**An international cohort and a Global Classroom Initiative** — partnerships with overseas schools for grades 10–12 and a documented homestay programme, giving the applicant pool a genuinely international character.',
+          '**A profile built for admissions readers** — quintiles, grades by department, stated AP limits and published transcript timing all make a GDS record easy to read. That is a quieter kind of advantage.',
+          '**International students and a Global Classroom Initiative** — partnerships with schools overseas for grades 10–12 and a documented homestay programme. They give the applicant pool a genuinely international character.',
           '**A five-county draw** — Gaston, Lincoln, Cleveland, Mecklenburg and York counties, so the school is regionally rather than locally known.',
         ],
         note:
-          'The school publishes no evidence of admissions-office relationships, no counts of college representative visits, and no alumni-network claims — so institutional leverage is inferred from accreditation and profile quality rather than demonstrated.',
+          'The school publishes no evidence of ties with college admissions offices. It gives no counts of college rep visits and makes no claims about its alumni network. So its pull with colleges is judged from accreditation and profile quality, not shown.',
       },
     ],
     flags: [
@@ -681,7 +681,7 @@ export const gastonDay: CollegeSupportProgram = {
           { label: 'ACT composite — 2022', values: ['—', '21', '—', '28', '—', '—'] },
           { label: 'ACT composite — 2021', values: ['—', '24', '—', '32', '—', '—'] },
         ],
-        note: 'All grade-11 students are required to take the ACT, so this range covers the whole class rather than a self-selected group of testers — an important difference from a school where only the college-bound test.',
+        note: 'All grade-11 students must take the ACT, so this range covers the whole class. It is not just the students who chose to test. That is an important difference from a school where only the college-bound take it.',
       },
     ],
     gpaTitle: 'Cumulative GPA distribution',
@@ -705,20 +705,20 @@ export const gastonDay: CollegeSupportProgram = {
     ],
     middleTitle: 'If a student is in the middle',
     middle: [
-      { label: 'Everyone gets an advisor', text: 'Every Upper School student is assigned a faculty advisor matched to their interests and needs, who **stays with them through graduation** — continuity that does not depend on being a top student.' },
+      { label: 'Everyone gets an advisor', text: 'Every Upper School student gets a faculty advisor matched to their interests and needs. The advisor **stays with them through graduation**. That steady support does not depend on being a top student.' },
       { label: 'Everyone gets the counselor', text: 'With ~18 seniors per counselor, the office reaches the whole class rather than triaging to the strongest applicants.' },
       { label: 'A six-course load, not a race', text: 'AP access is deliberately capped (1 in grade 10, 3 in grades 11 and 12), so the transcript ceiling is defined and a moderate load is normal rather than remedial.' },
-      { label: 'Non-AP rigour exists', text: 'A broad Honors tier sits below the AP courses across every department, plus dual enrollment from grade 11 for students who want college credit without an AP exam.' },
+      { label: 'Demanding non-AP courses', text: 'A broad Honors tier sits below the AP courses across every department, plus dual enrollment from grade 11 for students who want college credit without an AP exam.' },
       { label: 'A required spike for everyone', text: 'The 40-hour Capstone and the 25-hour annual service requirement mean every graduate has something concrete to write about, not only the students who sought it out.' },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'No tester counts are published for any year, so it is not possible to tell what share of a ~35-student class sat the SAT — a mid-50% range over a small n moves sharply with a few students.',
+        text: 'No counts of test-takers are published for any year. So you cannot tell what share of a ~35-student class took the SAT. With so few students, a mid-50% range can shift sharply because of just a few of them.',
       },
       {
         kind: 'gap',
-        text: 'The quintile table gives ranges only, with no mean SAT or ACT per quintile, so a reader cannot tie GPA band to test performance the way some peer profiles allow.',
+        text: 'The quintile table gives ranges only, with no average SAT or ACT for each fifth. So a reader cannot link a GPA band to test scores, as some peer profiles allow.',
       },
     ],
     sources: [
@@ -731,7 +731,7 @@ export const gastonDay: CollegeSupportProgram = {
     headline:
       'A small school that publishes like a much larger one — five-year test and AP series, full GPA quintiles, a department-level grade distribution and a seven-year acceptance list.',
     subhead:
-      'The reservations are about scale and disclosure, not quality: a 35-senior class makes every rate volatile, and the athletics and club rosters are thinner in public than the academic record.',
+      'The concerns are about size and disclosure, not quality. With a 35-senior class, every rate can swing a lot. And the public athletics and club rosters are thinner than the academic record.',
     points: [
       { label: 'The AP trend is real and rising', text: 'The 3+ rate went 72% → 76% → 86% → 89% → **95%** across 2021–2025, and because **every AP student must sit the exam**, that rate is not flattered by opting out.' },
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },

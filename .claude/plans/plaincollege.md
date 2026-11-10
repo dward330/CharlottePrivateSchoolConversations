@@ -1,7 +1,7 @@
 ---
 name: plaincollege
 title: Plain-language rewrite of the College Support area's English prose (11 schools, 259 units), English in three reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 3                     # Phase 1 is built in three batches, each with its own review stop
 created: 2026-11-09
@@ -227,8 +227,8 @@ through Batches 1–2 and becomes `english-done` (INDEX: *English shipped*) only
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 | `plaincollege: batch 1 English — shared templates, cannon, charlotte-catholic, covenant-day` (see `git log feat/plaincollege`) | [`review-batch1.md`](plaincollege-data/review-batch1.md) | 6 (6 fixed) + 3 borderline applied | **Approved 2026-11-09**, no wording rulings given |
-| 2 | `plaincollege: batch 2 English — providence-day, charlotte-latin, charlotte-christian, hickory-grove-christian` (see `git log feat/plaincollege`) | [`review-batch2.md`](plaincollege-data/review-batch2.md) | 9 (9 fixed) | pending |
-| 3 | — | — | — | — |
+| 2 | `plaincollege: batch 2 English — providence-day, charlotte-latin, charlotte-christian, hickory-grove-christian` (see `git log feat/plaincollege`) | [`review-batch2.md`](plaincollege-data/review-batch2.md) | 9 (9 fixed) | **Approved 2026-11-09**, no wording rulings given |
+| 3 | `plaincollege: batch 3 English — charlotte-country-day, davidson-day, carmel-christian, gaston-day` (see `git log feat/plaincollege`) | [`review-batch3.md`](plaincollege-data/review-batch3.md) | 9 (9 fixed) | pending |
 
 ### Style rulings
 
@@ -248,6 +248,14 @@ for Batches 2 and 3:
   (historically Black colleges…)", "quintile table (a split of the class into fifths)".
 - "rather than modelled" → "rather than estimated" in score-table notes.
 - "in this set" (meaning the schools on the site) → "among the schools on this site".
+
+**From Batch 2 (approved 2026-11-09).** Approved without wording changes; the command again
+carried the placeholder unfilled. Batch 2's choices also stand as precedent for Batch 3:
+
+- "spike" → "standout strength"; "legible" → "clear"; "granular" → "detailed";
+  "interpolated" → "estimated".
+- A published maximum is never glossed as a typical figure (PD "AP-load norms" are caps).
+- "Interdisciplinary" (not a profile heading) → "Across subjects".
 
 ### plain-ok register
 
@@ -571,11 +579,24 @@ notes. The locale traps in those docs apply unchanged:
 - **`check:live`: 133 stale `college-support` entries per locale**, all nine locales, no other topic. That is 51 from Batch 1 plus 82 from Batch 2. Every other Step 6 check passes.
 - **Browser check** (headed Chrome, `vite preview`, every `<details>` open): 90/90 probe strings render across the four schools. No literal `**` appears on any of the four pages. At 390px, charlotte-latin has no page overflow (scrollWidth 375).
 
+### Batch 3 (2026-11-09)
+
+- **Worklist matched the plan exactly:** 108 units (charlotte-country-day 35, davidson-day 33, carmel-christian 17, gaston-day 23). `main` had not moved, so the rebase was a no-op. The review file has 116 rows: the 108 plus the 8 shared-template rows from Batch 1. After the build: 116/116 rows `hook: pass`, all guards pass, and **no residual above grade 10**. The name lists (CCD and DD `wholeClass.middle[2]`, Carmel `middle[1]`) got under 10 by being split into one sentence per group.
+- **Drafts were measured before they were applied.** A scratch script ran the real `analyze` on every draft and diffed its digit tokens, quoted spans, bold and italic against the original. Only then did the exact-match apply script (Batch 2's, pointed at worklist 3) write them. `check_plain_language.mjs --file` was clean on all four files afterwards.
+- **Keep-and-explain choices:** DD "the Common App’s question on curriculum rigor (how demanding a student’s courses are)", as the plan required. DD "practicum (supervised field work)", "NLI (National Letter of Intent)". CCD "secondary school report (the form the school sends to colleges)". CCD "HBCUs (historically Black colleges and universities)", "quintile table (a split of the class into fifths)", following Batch 1. No `plain-ok` was needed.
+- **Title wording inside bold changed in two places:** Carmel "**A legible transcript**" → "**A clear transcript**" (Batch 2's legible → clear ruling). Gaston "**An international cohort and …**" → "**International students and a Global Classroom Initiative**" (cohort is jargon). Bold stays on the title phrase.
+- **Independent review: 9 findings, all fixed** (see `review-batch3.md`). Two were strengthened claims: DD "cannot tell … that students go" and CCD "as a separate job" misreading "dedicated". Four were wrong referents after a split ("it", "this signal", "They", "It has"). Three were wording slips (DD "an open choice", Carmel grammar, Gaston "when just a few change").
+- **`check:live`: 241 stale `college-support` entries per locale** (51 + 82 + 108), all nine locales, no other topic. That is Phase 2's input. Every other Step 6 check passes. `npm run check:plain`: **college-support Flagged 0** (baseline 224). Grade >10 is 8, which equals the residual table.
+- **Browser check** (headed Chrome, `vite preview`, every `<details>` open): 108/108 probe strings render across the four schools. No literal `**` appears on any of the four pages, and bold renders as `<strong>`. At 390px, davidson-day has no page overflow (scrollWidth 375).
+
 ### Candidates noticed, not acted on
 
 - **Literal `**` on Charlotte Catholic's page, in The Arts area, not College Support.** 7 lines in `artsPrograms/charlotte-catholic.ts` render their asterisks raw (e.g. "— **39 of 199 courses** —"). This predates the branch, which does not touch that file. It is a separate render or data fix.
 - catholic `edge.levers[1].items[3]`: "all three service academies". The US has five federal service academies, and the original had the same wording. A content question, not a plainness one.
 - catholic `wholeClass.scoreTables[0].note`: "shown as em-dashes rather than estimated" is research bookkeeping that may belong in a `verify` flag (dev-only rule). It was rewritten for plainness with the same content.
 - providence-day `wholeClass.scoreTables[0].note` and charlotte-latin `wholeClass.middle[0].text` ("as counted from the profile’s own tables") carry the same research-bookkeeping shape as Catholic's note. They were rewritten for plainness with the same content.
+- charlotte-country-day `wholeClass.middle[2].text`: "all three federal service academies". It has the same five-academy question as Catholic's lever.
+- gaston-day `transcript.meritNote`: "the per-student average roughly doubled". $2.75M/25 ≈ $110K and $3.87M/20 ≈ $194K, about 1.76×. The original makes the same claim; it is a content question.
+- davidson-day `transcript.flags[3].text`: "could be found in the school’s materials…" is research bookkeeping (dev-only rule). It was rewritten for plainness with the same content.
 - cannon `wholeClass.support[0].text`: "of the schools on this site" replaced "in this set". The reviewer flagged it as right only if "this set" meant the whole roster.
-- Words outside the jargon list that were fixed inside rewritten units: "denominator" → "count", "rollup", "legible", "aggregates", "quartile" → "quarter". Batch 2 adds: "spike" → "standout strength", "legible" → "clear", "granular" → "detailed", "disclosive", "interpolated" → "estimated". Per the Open-questions default, `plain_language.json` was not edited.
+- Words outside the jargon list that were fixed inside rewritten units: "denominator" → "count", "rollup", "legible", "aggregates", "quartile" → "quarter". Batch 2 adds: "spike" → "standout strength", "legible" → "clear", "granular" → "detailed", "disclosive", "interpolated" → "estimated". Batch 3 adds: "ceiling course" → "top course", "candour" → "openness", "institutional memory" → "experience", "broad-access" → "colleges that admit most applicants", "ordinal position" → "class rank". Per the Open-questions default, `plain_language.json` was not edited.

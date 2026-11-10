@@ -393,7 +393,7 @@ export const carmelChristian: CollegeSupportProgram = {
   /* ------------------------------------------------------- transcript ------ */
   transcript: {
     headline:
-      '73% of seniors scored a 3 or higher on at least one AP exam, and 80% sat at least one — enough for the College Board’s Platinum AP School Honor Roll, its top tier.',
+      '73% of seniors scored a 3 or higher on at least one AP exam, and 80% took at least one. That is enough for the College Board’s Platinum AP School Honor Roll, its top tier.',
     subhead:
       'A broad-participation AP program: 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.',
     stats: [
@@ -406,7 +406,7 @@ export const carmelChristian: CollegeSupportProgram = {
     depth: [
       {
         label: 'Breadth over a narrow elite',
-        text: 'Platinum recognises schools where a large share of the senior class both takes and scores on AP exams — **80% sat an exam and 73% scored 3+**, so the recognition rests on the whole class, not a handful of specialists.',
+        text: 'Platinum goes to schools where a large share of seniors both take AP exams and score well on them. Here **80% sat an exam and 73% scored 3+**. So the award rests on the whole class, not a handful of stars.',
       },
       {
         label: 'Depth in the tail',
@@ -435,7 +435,7 @@ export const carmelChristian: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'No National Merit / College Board recognition ledger is published — no Semifinalist, Finalist or Commended counts by year — so this card carries no merit ledger. The College Planning Timeline references National Merit only through the PSAT/NMSQT.',
+        text: 'No yearly record of National Merit / College Board honors is published. There are no Semifinalist, Finalist or Commended counts by year, so this card shows no merit record. The College Planning Timeline mentions National Merit only through the PSAT/NMSQT.',
       },
     ],
     sources: [
@@ -520,7 +520,7 @@ export const carmelChristian: CollegeSupportProgram = {
       'Resume',
     ],
     mechanicsNote:
-      'That is the office’s own published “Anatomy of a College Application” framework, verbatim — eight named parts. The signature “College Boot Camp” bundles a Boot Camp Day with follow-up “Logins and Letters” sessions; a student essay-writing workshop plus proofing runs alongside, with the 11th-grade rough draft read by Berry and English faculty.',
+      'That is the office’s own published “Anatomy of a College Application” framework, word for word, with eight named parts. The signature “College Boot Camp” pairs a Boot Camp Day with follow-up “Logins and Letters” sessions. A student essay-writing workshop with proofreading runs alongside. Berry and English teachers read the 11th-grade rough draft.',
     reach: [
       'College rep visits during Monday/Wednesday Crew classes or lunch (5–20 minutes each)',
       'A **College Admissions Panel** — public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister',
@@ -530,7 +530,7 @@ export const carmelChristian: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The senior class size, the seniors-per-counselor ratio and the annual college-rep-visit count are not published anywhere on the public site — so no caseload figure is stated here rather than derived from an unpublished denominator.',
+        text: 'The public site does not publish the senior class size, the number of seniors per counselor, or the yearly count of college rep visits. So this card states no caseload figure, rather than working one out from a number that is not published.',
       },
     ],
     sources: [
@@ -544,7 +544,7 @@ export const carmelChristian: CollegeSupportProgram = {
     headline:
       'Around 215 institutions appear on the published College Acceptances list — Princeton and Duke at the top, through a deep bench of NC publics and Christian colleges.',
     subhead:
-      'The page carries no time window, no counts and no matriculation markings, so it reads as a cumulative acceptance list. Here it is scored against the current U.S. News tiers.',
+      'The page gives no time window, no counts and no markings showing where students enrolled. So it reads as an acceptance list built up over time. Here it is scored against the current U.S. News tiers.',
     stats: [
       { value: '~215', label: 'institutions named on the acceptance list (no count stated)' },
       { value: '1 of 8', label: 'Ivy League — Princeton' },
@@ -561,11 +561,11 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     collegesTitle: 'Every named acceptance',
     colleges,
-    collegesTotal: '~215 institutions · no time window, counts or matriculation markings published',
+    collegesTotal: '~215 institutions · no time window, counts or enrollment markings published',
     scholarships: [
       'No scholarship dollar totals published',
       'No per-class acceptance counts — the list is a single cumulative window',
-      'No matriculation markings — acceptances only',
+      'No enrollment markings — acceptances only',
     ],
     scholarshipsNote:
       'The school publishes no scholarship-offer totals and no named-award ledger anywhere in the materials located for this pass.',
@@ -595,7 +595,7 @@ export const carmelChristian: CollegeSupportProgram = {
         items: [
           '**Platinum AP School Honor Roll** — the College Board’s top tier, earned on broad participation (80% of seniors sat an exam, 73% scored 3+) rather than a narrow elite.',
           '**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program.',
-          '**A sequenced plan** — the published four-year timeline (Strong Start → Involvement & Service → Testing & Research → Essays & Applications) means a student is building toward the application from 9th grade, not assembling it in senior fall.',
+          '**A sequenced plan** — the published four-year timeline runs Strong Start → Involvement & Service → Testing & Research → Essays & Applications. So a student works toward the application from 9th grade. It is not thrown together in the fall of senior year.',
         ],
       },
       {
@@ -604,8 +604,8 @@ export const carmelChristian: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**A NACCAP-certified counselor** — name recognition inside the Christian-college admissions circuit, matching the list’s deepest concentrations (Christian colleges and NC publics).',
-          '**A signature program that reps see** — the College Admissions Panel brings public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister into one room for families.',
-          '**A legible transcript** — a stated weighting range and no-rank policy let a reader reconstruct rigor in context, and the AP Honor Roll gives the program a third-party mark.',
+          '**A signature program that reps see** — the College Admissions Panel puts college reps in one room with families. They come from public, private and Christian colleges. A financial-aid officer, a Marine recruiter and a campus minister join them.',
+          '**A clear transcript** — a stated weighting range and a no-rank policy let a reader judge, in context, how demanding a student’s courses were. The AP Honor Roll adds an outside seal of approval.',
         ],
         note: 'No research program, Olympiad results, or national-competition credentials are published — the differentiators are cadence and legibility, not competition results.',
       },
@@ -623,7 +623,7 @@ export const carmelChristian: CollegeSupportProgram = {
     headline:
       'The 2024–25 profile publishes Class of 2024 test and GPA data as ranges, not distributions — a middle 50% for SAT, ACT and GPA, and nothing behind it.',
     subhead:
-      'The school does not rank, so the weighted range stands in for class position — but with no percentiles, quintiles or tester counts published, the shape of the class behind these ranges is not recoverable.',
+      'The school does not rank, so the weighted range stands in for class position. But it publishes no percentiles, quintiles or counts of test-takers. So the shape of the class behind these ranges cannot be worked out.',
     scoreTables: [
       {
         title: 'SAT & ACT middle-50% ranges',
@@ -658,11 +658,11 @@ export const carmelChristian: CollegeSupportProgram = {
     middle: [
       {
         label: 'The list matches a broad class',
-        text: 'The acceptance list runs from Princeton and Duke through NC publics (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina), Christian colleges, community colleges and trade destinations (NASCAR Technical Institute) — the spread of a broad, not uniformly elite, class.',
+        text: 'The acceptance list runs from Princeton and Duke through NC public universities (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina). It also includes Christian colleges, community colleges and trade schools (NASCAR Technical Institute). That is the spread of a broad class, not an all-elite one.',
       },
       {
         label: 'When direction changes',
-        text: 'Art and specialist destinations appear (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), alongside a UK/international thread (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton).',
+        text: 'Art and specialist schools appear. They include SCAD, Ringling College of Art & Design, Watkins College of Art and UNC School of the Arts. New York Film Academy and The American Musical & Dramatic Academy appear too. So do universities in the UK and elsewhere abroad: St Andrews, Glasgow, Stirling, York, Brock and Cape Breton.',
       },
     ],
     flags: [
@@ -698,18 +698,18 @@ export const carmelChristian: CollegeSupportProgram = {
       },
       {
         label: 'Outcomes show breadth',
-        text: 'Around 215 named acceptances led by Princeton and Duke, deep in NC publics and Christian colleges — but the list marks no matriculations, so it shows acceptances, not where students enrolled.',
+        text: 'Around 215 named acceptances led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.',
       },
       {
         label: 'The weighting changes with the Class of 2026',
-        text: 'The profile states that from the Class of 2026 honors courses carry **+0.5** and AP courses **+1.0**, down from the **+1** and **+2** quality points behind the GPA ranges above — so a weighted GPA quoted today is not calculated the same way as one quoted for a current freshman.',
+        text: 'The profile states that from the Class of 2026, honors courses carry **+0.5** and AP courses **+1.0**. That is down from the **+1** and **+2** quality points behind the GPA ranges above. So a weighted GPA quoted today is not calculated the same way as one quoted for a current freshman.',
       },
     ],
     checklist: [
       'How many seniors does the college counselor carry at peak season, and how large is the senior class?',
       'Can we see the current-year School Profile — what are this year’s SAT/ACT and GPA figures, and how many students test?',
       'Which AP courses actually run next year, and how are students placed into them?',
-      'The acceptance list marks no enrollments — where did last year’s class actually matriculate, and in what concentrations?',
+      'The acceptance list marks no enrollments. Where did last year’s class actually enroll, and in what numbers at each college?',
       'How are testing accommodations documented for the College Board and ACT, and what learning-support is available beyond personal counseling?',
       'Roughly how many college reps visit each year, and how does the College Admissions Panel fit the application calendar?',
     ],
