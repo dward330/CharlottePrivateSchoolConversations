@@ -447,7 +447,7 @@ shipped*) only after Batch 4.
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 | `8d9fd17f` | [review-batch1.md](plainaid-data/review-batch1.md) | 8 (all fixed: 3 meaning/claim changes incl. Prep "most expensive", 1 not-published → does-not-exist, 1 recipient → family unit change, 2 restored terms, 1 cross-school claim) | approved 2026-11-10, no rulings |
-| 2 | see Batch 2 notes | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | |
+| 2 | `0b6a0ed6` | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | |
 | 3 | | | | |
 | 4 | | | | |
 
