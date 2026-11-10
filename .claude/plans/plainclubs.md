@@ -1,7 +1,7 @@
 ---
 name: plainclubs
 title: Plain-language rewrite of the Student Clubs area's English prose (13 clubsPrograms files + the shared clubClusters.ts and clubCatalog.ts; 101 rendered sites, the 25 never-rendered GAP/COUNT flags excluded by user decision), plus removal of one missed non-athlete student name at 3 rendered sites; English in three reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 3                     # Phase 1 is built in three batches, each with its own review stop
 created: 2026-11-10
@@ -550,8 +550,8 @@ shipped*) only after Batch 3.
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 | "plainclubs: batch 1 English" | [review-batch1.md](plainclubs-data/review-batch1.md) | 3 (all fixed: 1 narrowed scope after a split ("all … under a staffed DEI office"), 1 "one student" for an individual award, 1 "each mentored by a faculty member" for "faculty-mentored"), plus 2 reviewer notes acted on ("Academics pause" restored; Prep's concert back inside October 2024) | approved 2026-11-10, no rulings |
-| 2 | "plainclubs: batch 2 English" | [review-batch2.md](plainclubs-data/review-batch2.md) | 3 (all fixed: "largest groups" → the unit note's "largest blocks", an over-claiming practicum gloss, "includes" turning a full list into a sample) | |
-| 3 | | | | |
+| 2 | "plainclubs: batch 2 English" | [review-batch2.md](plainclubs-data/review-batch2.md) | 3 (all fixed: "largest groups" → the unit note's "largest blocks", an over-claiming practicum gloss, "includes" turning a full list into a sample) | approved 2026-11-10, no rulings |
+| 3 | "plainclubs: batch 3 English" | [review-batch3.md](plainclubs-data/review-batch3.md) | 7 (all fixed: 4 referents after a split, 1 full list turned into a sample ("It includes"), 1 dropped "professional", 1 lost "consistent with" hedge) | |
 
 ### Unit notes (things the drafter must not get wrong)
 
@@ -830,6 +830,28 @@ here as precedent.
     "aren’t published"; "does not publish" would add UNPUBLISHED.
   - **Name removals use the role.** A removed student becomes "a courtroom artist on that
     team".
+
+- **Batch 2 (approved 2026-11-10): no rulings.** The placeholder was unfilled again. The
+  flagged items got no answer, so they stay unchanged under Candidates and Open questions:
+  - Cannon's `~15,000`;
+  - Davidson Day's "Eight";
+  - Catholic's "largest blocks" vs its category counts;
+  - Cannon's 4 vs 3 Winterm tracks;
+  - "Atheletes".
+
+  Batch 2's choices stand as precedent:
+  - **A gloss stays inside the term's meaning.** A practicum is "a hands-on learning
+    experience", not "work in a real setting", when some of its options are not work.
+  - **A gloss adds no marker word.** "placement" is a RESULT word, so it is never used in
+    a gloss.
+  - **A full list stays a full list.** "Off-campus work takes place at …", never
+    "includes", which reads as a sample.
+  - **A unit note's keep is kept, even when a synonym seems plainer** ("the largest
+    blocks").
+  - **Verbatim directory text keeps its form.** Its own straight apostrophes stay, and
+    the string's delimiter changes around them.
+  - **A plan's own suggested wording is measured against the guards before it is used.**
+    Both "its first group" and "(a hands-on placement)" failed.
 
 ### plain-ok register
 
@@ -1380,7 +1402,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| — | — | **None after Batch 2.** All 68 changed units are at grade ≤10. |
+| — | — | **None.** All 102 changed units (101 worklist + the name site) are at grade ≤10. |
 
 ## Implementation notes
 
@@ -1560,6 +1582,76 @@ cluster row open):
 - **The removed name:** still absent from Covenant's page and the Compare tip.
 - **Phone width:** at 390px, Charlotte Catholic with every card open has `scrollWidth` 390.
 
+### Batch 3 (2026-11-10)
+
+**Resume.** Batch 2 was approved with no rulings (placeholder unfilled; recorded under
+"Style rulings"). `main` had not moved.
+
+**Worklist** matched the plan: 34 units (carmel-christian 10, hickory-grove-christian 6,
+gaston-day 7, trinity-episcopal 11).
+
+**Build.**
+- **Drafts:** all 34 were measured before applying.
+  - **A missed unit:** the first draft set left out Gaston `clusters.rows[1].note`. A
+    worklist-vs-drafts diff caught it before applying.
+  - **Second pass for grade ≤10:** Carmel `service.flags[0]` (11.0), HG `service.footnote`
+    (quote merge, a 30+ word sentence), Gaston `service.flags[0]` (10.2) and
+    `clusters.rows[2]` (10.4).
+- **Gaston VEX unit:** the courses sentence now comes first ("Alongside the robotics club,
+  …"), so the unit ends on the school's quote. This follows plainarts' quote-merge ruling;
+  the quote is byte-identical.
+- **One guard catch before the review:** HG "comes from that one site" added ONLY. It is
+  now "a single site".
+
+**Independent review: 7 findings, all fixed** (see the review file). No before-text issues
+were found.
+
+**Correction to the plan: 6 of the "101 rendered" units do not render today.** Neither
+Carmel's nor Trinity's school page shows an Academic & Competitive Clubs card, so their
+`clubClusters.ts` entries never reach a parent (Carmel `rows[0–1]`, Trinity `rows[0–3]`).
+- **Carmel** has no Academic and Competitive Clubs file in `source-material/student-clubs/`.
+- **Trinity** has one, but its section renders Catalog, Affinity, Service and
+  "Competitions & Student Leadership" only.
+
+This predates the plan (no manifest, card or component was touched). The six units were
+rewritten anyway: they are extracted and translated like the rest, and they read plainly
+if the card is turned on. Candidates.
+
+**Step 6 checks.** All green:
+- `npx tsc -b` and `npx vite build`;
+- `check:schema`, `check:spelling`, `check:matrices`, `check:schoolurls`, `check:chrome`,
+  `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+
+`check:live` reports **102 `student-clubs` + 1 `metric-values`** stale stamps per locale
+(33 + 35 + 34, plus the Batch 1 tip). That is Phase 2's input.
+
+**Step 7 browser check** (headed Chrome, `vite preview`, `?lang=en`, every clubs card and
+cluster row open):
+- **Rendering:** **28/28** units on a rendered card show (Carmel 8, HG 6, Gaston 7,
+  Trinity 7; the 6 cluster units above are not on any card). 0 asterisks; the not-a-club
+  chips still show.
+- **Phone width:** at 390px, Trinity with every card open has `scrollWidth` 390.
+- **The removed name:** still absent from Covenant's page and the Compare tip.
+
+### Phase 1 close-out (2026-11-10)
+
+- **Guards over the whole roster:** `plain_review.mjs --dir src/data/clubsPrograms
+  --layers` over **all 13 schools**, with all four worklists and every clubs guard, exits
+  0: 102/102 `hook: pass`, 0 above grade 10.
+- **Hook loop:** across the 15 files, the only issues left are the **24 issues on the 19
+  hidden GAP/COUNT flags** (baseline: 156 issues).
+- **`npm run check:plain`:**
+  - **student-clubs:** **Flagged 19** (baseline 100), Grade >10 **22** (baseline 118),
+    Grade >12 **13**. All of them are hidden flags: of the 36 distinct hidden-flag texts,
+    exactly 22 are ≥30 words above grade 10 and 13 above 12.
+  - **Other areas:** unchanged (sports 79, admissions 0, the-arts 0, college-support 0,
+    financial-aid-report 0).
+- **Rewritten:** 101 worklist units plus the name site, across 13 school files and the
+  two shared modules, plus the `metricValues.ts` tip. Independent reviewers found and
+  fixed 3 + 3 + 7 = **13** problems.
+- **Content changes beyond wording:** the missed student name is gone from its three
+  rendered sites (Decisions).
+- **Markers:** `plain-ok` markers added: none.
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1593,6 +1685,11 @@ cluster row open):
   detail and the research file name only three. (Batch 2 reviewer)
 - **A misspelled club name.** The Charlotte Catholic catalog's `clubs[].name` reads
   'Fellowship of Christian Atheletes' (non-prose). (Batch 2 reviewer)
+- **Carmel's and Trinity's Academic & Competitive Clubs cards never render.** Both
+  schools have a `clubClusters.ts` entry (Carmel 2 rows, Trinity 4), but neither school
+  page shows the card. Carmel has no matching `source-material/student-clubs/` file;
+  Trinity has one, but no academic-clubs card appears. Whether to turn these cards on
+  needs a look at the manifest and the UX gate. (Batch 3)
 - **The thespianname census missed a student name.** It reported 63 strings, but missed
   Cornelia Knight at 3 rendered sites. A non-athlete name scan of the other non-sports
   areas' `src/data` and Compare quals may be worth one more pass (not in this plan).

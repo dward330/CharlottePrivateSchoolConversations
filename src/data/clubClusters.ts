@@ -360,7 +360,7 @@ const CARMEL_CHRISTIAN: ClubClusters = {
       oneLiner: 'National Honor Society, National Beta Club, Spanish Honor Society (+ NJHS in the MS)',
       evidence: 'reported',
       evidenceLabel: 'Handbook',
-      note: 'Academic recognition rather than competition: the High School runs the National Honor Society (application; weighted GPA 3.85), the National Beta Club (grades 10–12; GPA 3.50 with service hours), and a Spanish Honor Society, with the National Junior Honor Society for 8th grade in the Middle School. These are the school’s academic distinctions in this area.',
+      note: 'Academic recognition rather than competition. The High School runs the National Honor Society (application; weighted GPA 3.85), the National Beta Club (grades 10–12; GPA 3.50 with service hours) and a Spanish Honor Society. The Middle School has the National Junior Honor Society for 8th grade. These are the school’s academic distinctions in this area.',
       source: 'carmelchristian.org — Family Handbook (2021–22 ed.)',
     },
     {
@@ -368,7 +368,7 @@ const CARMEL_CHRISTIAN: ClubClusters = {
       oneLiner: 'No standing robotics, debate, Model UN, mock trial, quiz bowl, or DECA club',
       evidence: 'reported',
       evidenceLabel: 'Confirmed absent',
-      note: 'A deep pass through the handbook, the live site, and third-party aggregators confirmed none of the usual academic-competition clubs run as standing Upper School organizations. Clubs are student-initiated by application, so any such club would depend on students applying to found it in a given year; chess appears only as an Extended-Day enrichment class.',
+      note: 'The handbook, the live site and third-party listing sites confirmed that none of the usual academic-competition clubs runs as a standing Upper School organization. Clubs are started by students through an application. So any such club would depend on students applying to start it in a given year. Chess appears only as an Extended-Day enrichment class.',
       source: 'carmelchristian.org — Family Handbook (2021–22 ed.); privateschoolreview.com',
     },
   ],
@@ -389,7 +389,7 @@ const HICKORY_GROVE_CHRISTIAN: ClubClusters = {
       oneLiner: 'National Honor Society, National Science Honor Society, Quill & Scroll, Rho Kappa (+ NJHS in the MS)',
       evidence: 'reported',
       evidenceLabel: 'Aggregator',
-      note: 'Five honor societies span the disciplines: National Honor Society and National Science Honor Society (achievement in the sciences), Quill and Scroll (journalism/student media), Rho Kappa (National Social Studies Honor Society), and the National Junior Honor Society in the Middle School. These are the school\'s academic distinctions in this area; the school publishes no GPA thresholds, induction windows or advisor names.',
+      note: 'Five honor societies span the subjects: National Honor Society · National Science Honor Society (achievement in the sciences) · Quill and Scroll (journalism and student media) · Rho Kappa (National Social Studies Honor Society) · the National Junior Honor Society in the Middle School. These are the school’s academic distinctions in this area. The school publishes no GPA thresholds, induction windows or advisor names.',
       source: 'privateschoolreview.com — HGCS profile (Honor Societies grouping)',
     },
     {
@@ -397,7 +397,7 @@ const HICKORY_GROVE_CHRISTIAN: ClubClusters = {
       oneLiner: 'HOSA, Public Speaking, Apologetics and Venture appear on the roster — but no competition result is published',
       evidence: 'reported',
       evidenceLabel: 'Single-source',
-      note: 'The aggregator roster names Health Occupations Students of America (HOSA), a Public Speaking Club, an Apologetics Club and a Venture Club — the kind of clubs that usually compete — but no titled or placement result for any of them is published in any source. The roster rides on one aggregator (PrivateSchoolReview); the school\'s own site has no clubs page, so the flagship-result figure is a confirmed null.',
+      note: "The third-party roster names Health Occupations Students of America (HOSA), a Public Speaking Club, an Apologetics Club and a Venture Club. Clubs like these usually compete. But no title or placement result for any of them is published in any source. The roster comes from one third-party site (PrivateSchoolReview), and the school's own site has no clubs page. So it is confirmed that the school has no published competition result.",
       source: 'privateschoolreview.com — HGCS profile (single-source roster)',
     },
   ],
@@ -425,7 +425,7 @@ const GASTON_DAY: ClubClusters = {
       oneLiner: 'Qualified for TSA VEX Nationals in 2023 — its first year of competing',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'The school\'s own profile states it plainly: "After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition." Robotics (H) and Engineering (H) also run as Upper School courses, supported by a renovated makerspace with 3-D printers, laser cutters and CNC machines.',
+      note: 'Alongside the robotics club, Robotics (H) and Engineering (H) run as Upper School courses. A renovated makerspace supports them, with 3-D printers, laser cutters and CNC machines. On the club itself, the school\'s own profile states it plainly: "After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition."',
       source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences)',
     },
     {
@@ -433,7 +433,7 @@ const GASTON_DAY: ClubClusters = {
       oneLiner: 'Blutopia, Yearbook',
       evidence: 'verified',
       evidenceLabel: 'Verified — award',
-      note: 'Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognized in the North Carolina Scholastic Media Association\'s Literary Magazine Contest. The school does not publish award counts or years, so "numerous" is its own word, reproduced rather than quantified.',
+      note: 'Blutopia is the one publication with a documented award record. The magazine is entirely student-developed, created and published. Blutopia has taken numerous Scholastic Art and Writing Awards. It is also consistently recognized in the North Carolina Scholastic Media Association\'s Literary Magazine Contest. The school does not publish award counts or years, so the word "numerous" comes from the school itself.',
       source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences)',
     },
     {
@@ -528,7 +528,7 @@ const TRINITY_EPISCOPAL: ClubClusters = {
       oneLiner: 'NC Bar Foundation Middle School state champions — 2023, 2024 and 2025',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'The strongest competitive achievement Trinity has, and it is academic rather than athletic: three consecutive state championships in the North Carolina Bar Foundation’s Middle School Mock Trial competition. A 15-student team coached by Jennifer Bader; the second title was won at the Mecklenburg County Courthouse against five other middle school teams. Bader: "I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections."',
+      note: 'Trinity’s strongest competitive achievement is academic rather than athletic: three state championships in a row in the North Carolina Bar Foundation’s Middle School Mock Trial competition. The 15-student team is coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams. Bader: "I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections."',
       source: 'tescharlotte.org — school blog, three-peat and second-championship posts',
     },
     {
@@ -536,7 +536,7 @@ const TRINITY_EPISCOPAL: ClubClusters = {
       oneLiner: 'Also a state champion — and simultaneously a 7th-grade weekly class',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'The school states it plainly: "The speech and debate and mock trial teams both won their respective state championships this year." It is both a class and a club — Speech & Debate runs as a weekly 7th-grade enrichment as well as a competitive team, so listing it only among the enrichments understates it. Coach Jennifer Bader has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities.',
+      note: 'The school states it plainly: "The speech and debate and mock trial teams both won their respective state championships this year." Speech & Debate is both a class and a club. The program runs as a weekly 7th-grade enrichment as well as a competitive team, so listing it only among the enrichments understates it. Coach Jennifer Bader has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities.',
       source: 'tescharlotte.org — Celebrating TES Staculty Achievements; 2026-27 School Profile (PDF)',
     },
     {
@@ -544,7 +544,7 @@ const TRINITY_EPISCOPAL: ClubClusters = {
       oneLiner: 'Elected by grade-level peers in Middle School; Honor Code written by students in 2002',
       evidence: 'reported',
       evidenceLabel: 'School-published',
-      note: 'Members are "elected by their grade level peers in Middle School" and hold fellow students to the Honor Pledge adopted in 2012. The Honor Code itself was created by students in 2002. This is the school’s only confirmed honor or leadership body — there is no National Junior Honor Society and no Student Council anywhere on the site or in either School Profile, despite third-party pages claiming both.',
+      note: 'Members are "elected by their grade level peers in Middle School" and hold fellow students to the Honor Pledge adopted in 2012. The Honor Code was created by students in 2002. The Honor Council is the school’s only confirmed honor or leadership body. There is no National Junior Honor Society and no Student Council anywhere on the site or in either School Profile, despite third-party pages claiming both.',
       source: 'tescharlotte.org — Honor Code (spirituality/honor-code.cfm)',
     },
     {
@@ -554,7 +554,7 @@ const TRINITY_EPISCOPAL: ClubClusters = {
       evidenceLabel: 'Single-source',
       // Zero-hit search framing removed 2026-09-16 (apparatus); the substantive
       // points — no competitive claim, and the two dropped clubs — remain.
-      note: 'Odyssey of the Mind is a national creative-problem-solving competition elsewhere, but no Trinity participation or result is published, so nothing competitive is claimed here. The 2025-26 profile additionally listed MathCats and Book Club; both are gone from the 26-27 edition.',
+      note: 'Odyssey of the Mind is a national creative problem-solving competition at other schools. But no Trinity participation or result is published, so this row claims no competitive result. The 2025-26 profile also listed MathCats and Book Club. Both are gone from the 26-27 edition.',
       source: 'tescharlotte.org — 2026-27 School Profile (PDF)',
     },
   ],

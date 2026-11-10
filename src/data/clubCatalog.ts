@@ -554,17 +554,17 @@ const CARMEL_CHRISTIAN: ClubCatalog = {
   divisions: [
     {
       label: 'Student-initiated model',
-      text: 'Carmel frames clubs as student-led: a student interested in creating a club requests a form from the High School or Middle School office and applies, and the administration reviews and may accept or deny it. This explains the small standing roster — the active list depends on who applies each year and is not published.',
+      text: 'Carmel frames clubs as student-led. A student who wants to create a club asks the High School or Middle School office for a form and applies. The administration reviews the request and may accept or deny it. That process explains the small standing roster: the active list depends on who applies each year, and it is not published.',
       tag: 'School-reported',
     },
     {
       label: 'Middle School (6–8)',
-      text: 'Two named organizations: the Student Government Association (President/VP/Secretary plus two representatives per grade, nine students — Charlotte Rescue Mission project, banquet, Spirit Week) and, for 8th grade, the National Junior Honor Society (GPA 3.8+, October inductions).',
+      text: 'Two named organizations. The Student Government Association has a President, VP and Secretary plus two representatives per grade, nine students in all. The SGA runs a Charlotte Rescue Mission project, a banquet and Spirit Week. For 8th grade, there is the National Junior Honor Society (GPA 3.8+, October inductions).',
       tag: 'School-reported',
     },
     {
       label: 'Spiritual life & traditions',
-      text: 'Chapel and tradition rather than clubs: the Ignite Praise Band leads Thursday chapel worship, and the school year runs on the Windy Gap retreat, See You at the Pole (led by the MS SGA and HS Student Council), Spirit Week / Homecoming, J-Term (a graduation-requirement week that can include mission trips), and international missions trips.',
+      text: 'Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term (a graduation-requirement week that can include mission trips) · international missions trips.',
       tag: 'School-reported',
     },
   ],
@@ -625,12 +625,12 @@ const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
   divisions: [
     {
       label: 'Single-source roster',
-      text: 'This 27-organization list comes entirely from PrivateSchoolReview — the school\'s own site publishes no clubs or activities page, and no second source enumerates these clubs. A subset is individually corroborated by the school site (Discipleship, Choir, Drama, Jazz Band); the rest rest on the aggregator alone, and some (HOSA, Chick-fil-A Leadership Academy, the honor societies) are national programs whose active HGCS chapter is not independently confirmed.',
+      text: "This 27-organization list comes entirely from PrivateSchoolReview. The school's own site publishes no clubs or activities page, and no second source lists these clubs. The school site confirms some of them one by one (Discipleship, Choir, Drama, Jazz Band). The rest rely on the third-party site alone. Some are national programs (HOSA, Chick-fil-A Leadership Academy, the honor societies) whose active HGCS chapter is not independently confirmed.",
       tag: 'Single-source',
     },
     {
       label: 'Faith & service beyond the roster',
-      text: 'The school\'s own site confirms international mission trips to the Dominican Republic, Ecuador, Haiti and Kenya, and an aquaponics program supplying the Hickory Grove Baptist Church food pantry — service channels that run through the church ministry rather than as listed clubs.',
+      text: "The school's own site confirms international mission trips to the Dominican Republic, Ecuador, Haiti and Kenya. It also confirms an aquaponics program supplying the Hickory Grove Baptist Church food pantry. These service channels run through the church ministry rather than as listed clubs.",
       tag: 'School-reported',
     },
   ],
@@ -893,7 +893,7 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
     {
       name: 'Invisible Differences',
       cat: 'aff',
-      note: 'Listed among Middle School student clubs in the School Profile, but the school’s own affinity-groups page describes it as one of four PARENT groups, for families of children with learning differences',
+      note: 'Listed among Middle School student clubs in the School Profile. But the school’s own affinity-groups page describes it as one of four PARENT groups, for families of children with learning differences',
     },
     {
       name: 'Mock Trial',
@@ -948,7 +948,7 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
     {
       name: 'Chess Club',
       cat: 'spec',
-      note: 'Listed as a Lower School club in the School Profile, but corroborated on the site only as a paid Trinity Extended Day enrichment offered "for an additional fee" — alongside music lessons, karate and cheer club',
+      note: 'Listed as a Lower School club in the School Profile. But it is confirmed on the site only as a paid Trinity Extended Day enrichment offered "for an additional fee", alongside music lessons, karate and cheer club',
     },
     {
       name: 'Radagast Rabies',

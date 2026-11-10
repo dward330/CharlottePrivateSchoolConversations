@@ -29,7 +29,7 @@ export const hickoryGroveChristian: ClubsProgram = {
     headline:
       'A faith-and-service spine built on international mission trips and a working food-pantry partnership — the service programs the school\'s own site confirms.',
     subhead:
-      'Service here runs through the church ministry rather than a single logged club: mission trips to four countries, an aquaponics program feeding a church food pantry, and named leadership programs.',
+      'Service here runs through the church ministry rather than a single logged club. Its channels are mission trips to four countries, an aquaponics program (raising fish and plants together) that feeds a church food pantry, and named leadership programs.',
     programs: [
       {
         value: '4',
@@ -58,7 +58,7 @@ export const hickoryGroveChristian: ClubsProgram = {
     ],
     footnoteTitle: 'The broader roster',
     footnote:
-      'PrivateSchoolReview lists 27 non-sports organizations in all — 18 "Clubs and Organizations" and 9 "Arts and Music" — spanning interest clubs (Apologetics, Public Speaking, Spanish, International Culture, Venture, Spirit) and arts clubs (Art, Guitar, Ukulele, Fiber, Pep Band, Praise Band). The full list is on the Club Catalog card, flagged single-source.',
+      'PrivateSchoolReview lists 27 non-sports organizations. They include interest clubs (Apologetics, Public Speaking, Spanish, International Culture, Venture, Spirit) and arts clubs (Art, Guitar, Ukulele, Fiber, Pep Band, Praise Band). The full list is on the Club Catalog card, which notes that it comes from a single site. In all, PrivateSchoolReview counts 18 "Clubs and Organizations" and 9 "Arts and Music".',
     flags: [
       {
         kind: 'gap',

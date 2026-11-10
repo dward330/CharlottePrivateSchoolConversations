@@ -31,14 +31,14 @@ export const carmelChristian: ClubsProgram = {
     headline:
       'A high-school discipleship-and-service organization where students mentor Extended-Day children weekly — the school’s one standing service org, entered by application and interview.',
     subhead:
-      'Service is a published graduation-adjacent expectation here: a minimum of 20 service hours per grade level in high school, met partly through J-Term and Beta Club rather than a single logged total.',
+      'Service is a published expectation tied to graduation here. High school students are expected to complete a minimum of 20 service hours per grade level. They meet that minimum partly through J-Term and Beta Club, rather than through a single logged total.',
     programs: [
       {
         value: '1 hr/wk',
         valueLabel: 'Mon–Fri · 3:30–4:30 · HS mentors',
         name: 'The Timothy Project',
         detail:
-          'High school students mentor children in the school’s Extended-Day program, entered by application, teacher recommendation, a September interview and October training. It is the one standing high-school service and discipleship organization, run on a fixed weekly schedule rather than as an opt-in sign-up.',
+          'High school students mentor children in the school’s Extended-Day program. Mentors join through an application, a teacher recommendation, a September interview and October training. The Timothy Project is the one standing high-school service and discipleship organization. It runs on a fixed weekly schedule rather than as an opt-in sign-up.',
         source: { label: 'The Timothy Project', url: TIMOTHY },
       },
       {
@@ -54,17 +54,17 @@ export const carmelChristian: ClubsProgram = {
         valueLabel: 'week-long · graduation requirement',
         name: 'J-Term & missions',
         detail:
-          'A mandatory week-long J-Term course is a graduation requirement and can include mission trips; the high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.',
+          'A mandatory week-long J-Term course is a graduation requirement and can include mission trips. The high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.',
         source: { label: 'Family Handbook (2021–22)', url: HANDBOOK },
       },
     ],
     footnoteTitle: 'Beyond the standing org',
     footnote:
-      'Spiritual-life traditions carry the rest of the program: the Windy Gap fall spiritual retreat in the NC mountains for Middle and High School, See You at the Pole, and Christmas and Spring Arts programs. Cornerstone Prayer Ministry is a parent gathering, not a student organization, and is not counted here.',
+      'Spiritual-life traditions carry the rest of the program. They are the Windy Gap fall spiritual retreat in the NC mountains for Middle and High School, See You at the Pole, and the Christmas and Spring Arts programs. Cornerstone Prayer Ministry is a parent gathering, not a student organization, so it is not counted here.',
     flags: [
       {
         kind: 'not-a-club',
-        text: 'The 20-hour service requirement is an individual expectation, not a membership, and J-Term is a required course rather than a club. Cornerstone Prayer Ministry is a parent/family prayer gathering, not a student organization. Only the Timothy Project is a standing student service org.',
+        text: 'The 20-hour service requirement is an expectation for each student, not a membership. J-Term is a required course rather than a club. Cornerstone Prayer Ministry is a prayer gathering for parents and families, not a student organization. Only the Timothy Project is a standing student service group.',
       },
       {
         kind: 'gap',
