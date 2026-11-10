@@ -39,7 +39,7 @@
  */
 import { writeFileSync, mkdirSync, readFileSync } from 'node:fs'
 import { stamp } from './i18n_stamp.mjs'
-import { PROSE_KEYS, SKIP_KEYS, pathOverride } from './i18n_fields.mjs'
+import { classifyField } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs and
    imported by every script that walks src/data/**. Re-declaring any of these
@@ -147,19 +147,8 @@ function guardExisting(dest) {
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean).length
 
-/**
- * Is this field translatable prose? Full-path overrides win, then the skip
- * list, then the prose list. Anything matching none of the three is
- * UNCLASSIFIED and reported rather than guessed at — a silently-dropped field
- * is an untranslated card with no signal, which is how coverage gaps hide.
- */
-function classify(path, leaf) {
-  const override = pathOverride(path)
-  if (override !== undefined) return override ? 'prose' : 'skip'
-  if (SKIP_KEYS.has(leaf)) return 'skip'
-  if (PROSE_KEYS.has(leaf)) return 'prose'
-  return 'unclassified'
-}
+/* Field classification lives in i18n_fields.mjs as classifyField(), shared
+   with check_plain_language.mjs. */
 
 /** Walk one school's entry, collecting every string leaf with its full path. */
 function walk(node, path, hits) {
@@ -218,7 +207,7 @@ async function main() {
 
     const prose = []
     for (const h of hits) {
-      const kind = classify(h.generic, h.leaf)
+      const kind = classifyField(h.generic, h.leaf)
       if (kind === 'unclassified') {
         const k = `${topic}:${h.generic}`
         if (!unclassified.has(k)) unclassified.set(k, { n: 0, ex: h.value })

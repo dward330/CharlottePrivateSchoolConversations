@@ -897,3 +897,24 @@ export function pathOverride(path) {
   }
   return undefined
 }
+
+/**
+ * Is this field translatable prose? Full-path overrides win, then the skip
+ * list, then the prose list. Anything matching none of the three is
+ * UNCLASSIFIED and reported rather than guessed at — a silently-dropped field
+ * is an untranslated card with no signal, which is how coverage gaps hide.
+ *
+ * Shared by i18n_extract.mjs and check_plain_language.mjs, so "parent-facing
+ * prose" means exactly one thing in this repo.
+ *
+ * @param {string} path generic path, array indices collapsed to `[]`
+ * @param {string} leaf last path segment
+ * @returns {'prose' | 'skip' | 'unclassified'}
+ */
+export function classifyField(path, leaf) {
+  const override = pathOverride(path)
+  if (override !== undefined) return override ? 'prose' : 'skip'
+  if (SKIP_KEYS.has(leaf)) return 'skip'
+  if (PROSE_KEYS.has(leaf)) return 'prose'
+  return 'unclassified'
+}
