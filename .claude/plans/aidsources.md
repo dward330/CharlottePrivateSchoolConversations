@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-10
 branch: fix/aidsources
-prs: []
+prs: [474]
 ---
 
 # Financial Aid & Tuition — official sources only
