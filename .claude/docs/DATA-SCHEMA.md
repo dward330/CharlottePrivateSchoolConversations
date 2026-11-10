@@ -1369,10 +1369,10 @@ counts (a label mapping to two rows cannot attribute its clubs; `us-organization
 | `publicationsMedia` | 7/11 |
 | `affinity` | 5/11 |
 | `cultureLanguage` | 7/11 |
-| `artsPerformance` | 9/11 |
-| `faith` | 7/11 |
+| `artsPerformance` | 8/11 |
+| `faith` | 6/11 |
 | `honorSocieties` | 10/11 |
-| `specialInterest` | 11/11 |
+| `specialInterest` | 10/11 |
 | `recreationSports` | 5/11 |
 | `stem` | 9/11 |
 

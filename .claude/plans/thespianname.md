@@ -1,6 +1,6 @@
 ---
 name: thespianname
-title: Remove Gaston Day's third-party International Thespian Society claim from Student Clubs (school website or documents only) and the eighth-grade-era student name from Charlotte Latin's Arts card; then all nine locales
+title: Three user rulings — non-athlete student names removed site-wide (60 strings, 13 files); Gaston Day's Student Clubs rebuilt from the school's own website and documents only (third-party roster, Beta, Honor Council, Thespian Society removed; Compare count ≥10); then all nine locales
 status: english-done
 phases: 2
 created: 2026-11-10
@@ -8,7 +8,7 @@ branch: fix/thespianname
 prs: []
 ---
 
-# Gaston Thespian claim and Latin student name
+# Non-athlete student names, and Gaston Day clubs from school sources only
 
 ## Goal
 
@@ -52,7 +52,41 @@ Gaston's Arts card already says "It does not say whether it has an International
 
 ## Phase 2
 
-Splice `the-arts` and `student-clubs` for each locale, expecting 5 added and 7 dropped in total per locale. Then revise the 5 changed units against their reviewed predecessors, gate them, rebuild, prove by stamp, and run the plainarts Phase 2 checks.
+Splice **four topics** for each locale: `the-arts`, `student-clubs` (which covers `clubsPrograms`, `clubCatalog` and `clubClusters`), `college-support` and `metric-values`. Take the counts from the splice. Removed Gaston entries drop with no successor.
+
+1. Pair each added unit with its predecessor by `at`.
+2. Carry mechanically where the change is a pure name removal that a token edit of the reviewed `t` can reproduce, asserting on the English as plainarts did.
+3. Revise the rest against the reviewed predecessor, with one subagent per group of locales and the plainarts gate (name exemption included). Each revision must not reintroduce any removed name; grep each `t` for the 95 removed names.
+4. Rebuild the overlays, prove by stamp, and run the plainarts Phase 2 checks.
+
+## Rulings 2 and 3 (same day)
+
+- **Ruling 2.** The user: "Remove cary Mone name. Only student athletes name get mentioned since that case is so public." This is now a standing rule (memory `student-names-athletes-only`).
+  - **Census.** A read-only census agent read every non-sports `src/data` prose string and found **63 strings naming 110 non-athlete students**, plus 4 unsure cases. All four keep their names: Ian Shephard (an adult playwright), Matthew Doty and Cade Tyson (athletes), and Eliza Newell (an adult instructor).
+  - **Edits.** An editing agent removed the names in **60 strings across 13 files**: 10 arts files, 2 College Support files, `clubClusters.ts` and `metricValues.ts`. Every recognition, tier, role, year and ` · ` structure was kept. Examples:
+    - "Best Actor (Griffen Evans as Harry Bright)" → "Best Actor (as Harry Bright)";
+    - "Ella Hennessy ’28 took a GOLD KEY" → "a student took a GOLD KEY";
+    - "Amara Aghedo and Christian Young" → "Two performers".
+  - **Not edited.** The `src/content/**` research prose, where about 305 names are concentrated in Charlotte Christian's college list, is not rendered on these pages and is not edited here.
+- **Ruling 3.** The user: "Gets gatson day club list only from school official docs or websites". A fresh research pass (persisted to `source-material/student-clubs/gaston-day/…Club Catalog and Overview.md`, "Update 2026-11-10", then re-ingested; the manifest order and other schools' Rebuilt dates were restored) checked:
+  - the Upper School, Middle School and Arts pages;
+  - the Academic Profiles for 2025-26 and 2023-24;
+  - Fast Facts, Why Gaston Day, International, College Counseling and the strategic plan;
+  - the school's issuu archive.
+
+  **Result:** 10 school-named organizations — iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council and NHS.
+  - **Removed (20 third-party entries):** among them National Beta Club, "Honor Council" (the school names only an Honor Code), Science Olympiad, Mock Trial, Quiz Bowl, FCA and the language and arts clubs. The iGEM years and projects, which came from wikis only, were removed too.
+  - **Rewritten:** the Club Catalog, the Academic & Competitive Clubs card (the third-party "Competition clubs" row is gone) and the honors card (NHS only).
+  - **Compare:**
+    - `us-organizations` is now `≥10`;
+    - the clubs matrix's FCA override and two orphan aliases were removed, so Gaston's arts-performance, faith and special-interest cells now read "Not listed";
+    - the iGEM tip is now in the school's words.
+  - **Schema:** `DATA-SCHEMA.md` regenerated.
+- **Verification.**
+  - **Hook:** all 13 arts files are hook-clean. The student-clubs and metricValues files report only issues that predate this change.
+  - **Build and checks:** `tsc -b`, `vite build`, `check:schema`, `spelling`, `matrices`, `schoolurls`, `chrome`, `runtime`, `moneytext`, `dates`, `spans` and `photos` are all green.
+  - **Review guards:** `plain_review --arts-markers` shows only the expected hits: the class-year digits that went with names, "April" (in April Liu) read as a month, and "two performers" where exactly two people were named.
+  - **Browser:** across all 13 schools' arts, student-clubs and college-support sections, **0 of 95** removed full names render. Gaston's Student Clubs shows no Thespian Society, Beta Club, Mock Trial or third-party source.
 
 ## Implementation notes
 

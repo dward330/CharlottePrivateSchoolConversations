@@ -116,7 +116,7 @@ export const carmelChristian: ArtsProgram = {
 
   theatre: {
     headline:
-      'A K–12 production season topped by a 2026 Blumey Best Actress win — Anna Jernigan in "Footloose" — that advanced to the national Jimmy Awards.',
+      'A K–12 production season topped by a 2026 Blumey Best Actress win — a student in "Footloose" — that advanced to the national Jimmy Awards.',
     subhead:
       'The Blumeys are Blumenthal Performing Arts’ regional high-school musical-theater awards. Carmel Christian converted a finalist run into an outright win in 2026 and placed six across five categories that year.',
     seasonTitle: 'The season rhythm — a K–12 slate each year',
@@ -142,24 +142,24 @@ export const carmelChristian: ArtsProgram = {
         year: '2026',
         show: 'Footloose',
         result:
-          'Best Actress WIN — Anna Jernigan as Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements across four categories: Best Actor finalist (James Coleman as Ren McCormack) · Best Supporting Actor finalist (Sloan Pettus as Willard Hewitt) · Best Supporting Actress finalist (Charlotte Scott as Rusty) · Best Featured Performer finalist (Titus Teague as Garvin) · a Best Choreography Execution nominee (production).',
+          'Best Actress WIN — a student playing Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements across four categories: Best Actor finalist (as Ren McCormack) · Best Supporting Actor finalist (as Willard Hewitt) · Best Supporting Actress finalist (as Rusty) · Best Featured Performer finalist (as Garvin) · a Best Choreography Execution nominee (production).',
         win: true,
       },
       {
         year: '2024',
         show: 'Anastasia',
         result:
-          'Seven placements, no win: Best Featured Performer nominees Sasha Mashchenko (Ballet Lead) and Caeden Moore (Vlad) · Best Actor finalists Dylan Wilson (Dmitry) and Anna Jernigan (Lily) · Best Supporting Actor finalists Caeden Moore (Vlad) and Karleigh Robin (Dowager Empress) · a Best Featured Performer finalist, Sasha Mashchenko (Ballet Lead). Blumenthal\'s official PDF lists Jernigan under the exact heading "Finalists for Best Actor", though she played Lily. The heading is likely a labeling quirk.',
+          'Seven placements, no win: Best Featured Performer nominees (as Ballet Lead and as Vlad) · Best Actor finalists (as Dmitry and as Lily) · Best Supporting Actor finalists (as Vlad and as Dowager Empress) · a Best Featured Performer finalist (as Ballet Lead). Blumenthal\'s official PDF lists the student who played Lily under the exact heading "Finalists for Best Actor". The heading is likely a labeling quirk.',
       },
       {
         year: '~2022-23',
         show: "Singin' in the Rain",
         result:
-          'Two nominations per the school’s undated news page: Best Actress (Darien Pisacano) and Best Actor (Dylan Wilson). Attributed by the school to "Singin\' in the Rain," an earlier production than Anastasia; the exact year is not published.',
+          'Two nominations per the school’s undated news page: Best Actress and Best Actor. Attributed by the school to "Singin\' in the Rain," an earlier production than Anastasia; the exact year is not published.',
       },
     ],
     honestContext:
-      'Anna Jernigan’s rise anchors the program. In 2024 she was a Best Actor finalist (as Lily in Anastasia, per Blumenthal’s own labeling). That placement grew into the 2026 Best Actress win for Footloose, which went on to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations (Pisacano, Wilson) to that production.',
+      'One student’s rise anchors the program. In 2024 she was a Best Actor finalist (as Lily in Anastasia, per Blumenthal’s own labeling). That placement grew into the 2026 Best Actress win for Footloose, which went on to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations to that production.',
     sources: [
       { label: 'carmelchristian.org — Theatre Productions (2025-26 season)', url: CC_PRODUCTIONS },
       { label: 'carmelchristian.org — 2024-25 theatre season', url: CC_SEASON_2425 },
@@ -258,7 +258,7 @@ export const carmelChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'A verified Blumey win — not just finalists',
-        text: 'Anna Jernigan took Best Actress for "Footloose" at the 2026 Blumey Awards (confirmed by WFAE) and advanced to the national Jimmy Awards — an outright win, converted from her 2024 finalist placement.',
+        text: 'a student took Best Actress for "Footloose" at the 2026 Blumey Awards (confirmed by WFAE) and advanced to the national Jimmy Awards — an outright win, converted from her 2024 finalist placement.',
       },
       {
         label: 'Depth behind the win',
@@ -279,7 +279,7 @@ export const carmelChristian: ArtsProgram = {
       'The Course Offerings guide lists Honors Art III/IV, Honors Acting Studio and AP 2-D Art & Design, but the arts page names none of them. Which of these actually runs each year?',
       'Is there any music beyond band, choir and the Ignite praise teams — an orchestra, a strings program, or an a cappella group?',
       'What happens at the Middle School "Honor Band" event, and do students audition into any all-state or regional honors ensemble from there?',
-      'Was the "Singin\' in the Rain" Blumey pair (Pisacano, Wilson) a separate year from the 2024 "Anastasia" nominations — and what year was it?',
+      'Was the "Singin\' in the Rain" Blumey pair a separate year from the 2024 "Anastasia" nominations — and what year was it?',
     ],
     sources: [
       { label: 'carmelchristian.org — Arts pages', url: CC_ARTS },

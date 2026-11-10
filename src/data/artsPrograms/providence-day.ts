@@ -132,19 +132,19 @@ export const providenceDay: ArtsProgram = {
         year: '2026',
         show: 'Sweet Charity',
         result:
-          'No wins. Six finalist placements, all in acting or design: Best Actress (Ayla Hoody) · Best Actor (Eli Coblenz) · Best Supporting Actress (Rowan Barwick) · Best Supporting Actor (Owen Moore) · Best Featured Performer (Kate Reece) · Best Student Set Designer (April Liu).',
+          'No wins. Six finalist placements, all in acting or design: Best Actress · Best Actor · Best Supporting Actress · Best Supporting Actor · Best Featured Performer · Best Student Set Designer.',
       },
       {
         year: '2025',
         show: 'Peter Pan',
         result:
-          'No wins. Five finalist placements: Best Actor (Wyatt Olliff) · Best Actress (Liza Grimes as Peter Pan) · Best Supporting Actor (Eli Coblenz as John) · Best Supporting Actress (Rowan Barwick) · Best Featured Performer (Mia Ostrowski). The production had no placement in the six production-level categories (awards for the show as a whole).',
+          'No wins. Five finalist placements: Best Actor · Best Actress (as Peter Pan) · Best Supporting Actor (as John) · Best Supporting Actress · Best Featured Performer. The production had no placement in the six production-level categories (awards for the show as a whole).',
       },
       {
         year: '2024',
         show: 'Freaky Friday',
         result:
-          'Six placements per the school, incl. Best Student Set Designer (April Liu) — not cross-checked against a Blumenthal list; win status not found.',
+          'Six placements per the school, incl. Best Student Set Designer — not cross-checked against a Blumenthal list; win status not found.',
       },
       {
         year: '2023',
@@ -156,26 +156,26 @@ export const providenceDay: ArtsProgram = {
         year: '2022',
         show: 'Xanadu',
         result:
-          'Best Supporting Actor — Max Odom as Danny, independently confirmed. The production was also nominated for Best Overall Direction and Best Musical (Tier 2). Both went to other schools: Tier-2 Best Musical to Central Academy, and Direction to Charlotte Country Day.',
+          'Best Supporting Actor — a student playing Danny, independently confirmed. The production was also nominated for Best Overall Direction and Best Musical (Tier 2). Both went to other schools: Tier-2 Best Musical to Central Academy, and Direction to Charlotte Country Day.',
         win: true,
       },
       {
         year: '2021',
         show: 'Title not published',
         result:
-          'Best Actress finalist (Katie Beason) — the school lists the finalist but not the show.',
+          'Best Actress finalist — the school lists the finalist but not the show.',
       },
       {
         year: '2018',
         show: 'Pippin',
         result:
-          'Five nominations — Best Choreography Execution, Best Ensemble/Chorus, Best Supporting Actress (Isabella Patterson); Tess Giordano and Chris Melton both invited to audition for the top six in the lead categories.',
+          'Five nominations — Best Choreography Execution, Best Ensemble/Chorus, Best Supporting Actress; two performers both invited to audition for the top six in the lead categories.',
       },
       {
         year: '2017',
         show: 'Side Show',
         result:
-          'Five-plus placements incl. Best Overall Direction, Best Set Construction, Best Ensemble/Chorus; Chris Melton a top-six Best Actor finalist. Director: Caroline Bower.',
+          'Five-plus placements incl. Best Overall Direction, Best Set Construction, Best Ensemble/Chorus; a top-six Best Actor finalist. Director: Caroline Bower.',
       },
       {
         year: '2016',
@@ -187,11 +187,11 @@ export const providenceDay: ArtsProgram = {
         year: '2015',
         show: 'Into the Woods',
         result:
-          'Five placements — set construction, costume creation, choreography, Best Supporting Actress (Katlyn Gonzalez), plus a top-20 acting finalist.',
+          'Five placements — set construction, costume creation, choreography, Best Supporting Actress, plus a top-20 acting finalist.',
       },
     ],
     honestContext:
-      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Max Odom, 2022. PD competes consistently and reliably produces individual acting finalists, but it is not a Blumey powerhouse. In 2025 and 2026 it placed 5–6 finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
+      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Best Supporting Actor, 2022. PD competes consistently and reliably produces individual acting finalists, but it is not a Blumey powerhouse. In 2025 and 2026 it placed 5–6 finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
     sources: [
       { label: 'providenceday.org — Past Performances & Awards', url: PD_AWARDS },
       { label: 'Upper School Arts', url: PD_US },
@@ -307,7 +307,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     footnote:
-      'Lindsay Woog chairs the department. Upper School faculty include Felipe Maldonado, Herman Nicholson and Sydney Sheaffer. Charly Gray and Sierra Key teach in Middle School, and Gabe Devereux in Lower School. Outside recognition is thinner here than in theatre or music, and leans toward writing. In the 2025 Scholastic Art & Writing Awards (Mid-Carolina region), the school took two art Gold Keys out of roughly fifteen awards overall: Elle Sigg for sculpture and Bridget Brewster for photography. The Gold Key art pieces were exhibited at the Mint Museum Uptown. No national-level Scholastic medals were found. A separately named AP Art Show was not found; the Best-of-Year exhibit appears to be the capstone (the top show of the year).',
+      'Lindsay Woog chairs the department. Upper School faculty include Felipe Maldonado, Herman Nicholson and Sydney Sheaffer. Charly Gray and Sierra Key teach in Middle School, and Gabe Devereux in Lower School. Outside recognition is thinner here than in theatre or music, and leans toward writing. In the 2025 Scholastic Art & Writing Awards (Mid-Carolina region), the school took two art Gold Keys out of roughly fifteen awards overall: one for sculpture and one for photography. The Gold Key art pieces were exhibited at the Mint Museum Uptown. No national-level Scholastic medals were found. A separately named AP Art Show was not found; the Best-of-Year exhibit appears to be the capstone (the top show of the year).',
     sources: [
       { label: 'providenceday.org — Upper School Arts', url: PD_US },
       { label: 'Middle School Arts', url: PD_MS },
@@ -338,7 +338,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'Design and tech are first-class',
-        text: 'technical theatre starts in Middle School, and "Set Builds" gets its own showcase section. Students win named NCTC awards in lighting, set design, stage management and carpentry. April Liu earned Blumey Best Student Set Designer placements in both 2024 and 2026.',
+        text: 'technical theatre starts in Middle School, and "Set Builds" gets its own showcase section. Students win named NCTC awards in lighting, set design, stage management and carpentry. One student earned Blumey Best Student Set Designer placements in both 2024 and 2026.',
       },
       {
         label: 'A working wet darkroom',

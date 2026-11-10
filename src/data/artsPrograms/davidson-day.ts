@@ -144,7 +144,7 @@ export const davidsonDay: ArtsProgram = {
         year: '2026',
         show: 'Big Fish',
         result:
-          'Five finalists: Best Actor (Lukas Paeper as Edward Bloom) · Best Actress (Malena Lessa as Sandra Bloom) · Best Supporting Actor (Noah Larsen as Will Bloom) · Best Supporting Actress (Katelyn Ray as Witch) · Best Featured Performer (Elizabeth Robinson as Giant, also a nominee). No win recorded.',
+          'Five finalists: Best Actor (as Edward Bloom) · Best Actress (as Sandra Bloom) · Best Supporting Actor (as Will Bloom) · Best Supporting Actress (as Witch) · Best Featured Performer (as Giant, also a nominee). No win recorded.',
       },
       {
         year: '2025',
@@ -156,13 +156,13 @@ export const davidsonDay: ArtsProgram = {
         year: '2023',
         show: 'Mean Girls',
         result:
-          'The strongest year found: four nominations, two of them for the whole program. Those were Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (Kathleen Moore as Regina George) and Best Featured Performer (Ada Brown as Mrs. George).',
+          'The strongest year found: four nominations, two of them for the whole program. Those were Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (as Regina George) and Best Featured Performer (as Mrs. George).',
       },
       {
         year: '~2015',
         show: 'Gordon Hay Scholarship',
         result:
-          'Aslan Freidline received the $5,000 Gordon Hay Scholarship. The scholarship goes to a Charlotte-area senior pursuing a NON-performing career in the performing arts. The award is well attested. But its year (the 4th annual Blumeys) is not confirmed on any Blumenthal page that could be checked.',
+          'A student received the $5,000 Gordon Hay Scholarship. The scholarship goes to a Charlotte-area senior pursuing a NON-performing career in the performing arts. The award is well attested. But its year (the 4th annual Blumeys) is not confirmed on any Blumenthal page that could be checked.',
         win: true,
       },
     ],
@@ -281,7 +281,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     footnote:
-      'No visual arts, photography or AP Studio Art teacher is named in any source. The school states that students building AP portfolios "pursue admission" at schools such as the Savannah College of Art and Design, Rhode Island School of Design and Chapman University. Note the careful wording: it describes where students apply, not confirmed admissions. Whether the school supplies cameras is unpublished, though catalog photos show students with their own DSLR cameras. One related honor is worth knowing. Sophomore Sims Skaff was named Photographer of the Year in the Private School Journalism Association contest, co-sponsored by Quill and Scroll, announced April 2025. But that came through the yearbook and journalism program, which the catalog places under English, not the arts department.',
+      'No visual arts, photography or AP Studio Art teacher is named in any source. The school states that students building AP portfolios "pursue admission" at schools such as the Savannah College of Art and Design, Rhode Island School of Design and Chapman University. Note the careful wording: it describes where students apply, not confirmed admissions. Whether the school supplies cameras is unpublished, though catalog photos show students with their own DSLR cameras. One related honor is worth knowing. A sophomore was named Photographer of the Year in the Private School Journalism Association contest, co-sponsored by Quill and Scroll, announced April 2025. But that came through the yearbook and journalism program, which the catalog places under English, not the arts department.',
     sources: [
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
       { label: 'davidsonday.org — Arts', url: DD_ARTS },

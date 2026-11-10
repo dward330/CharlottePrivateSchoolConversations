@@ -151,13 +151,13 @@ export const charlotteChristian: ArtsProgram = {
         year: '2024',
         show: 'Tarzan (Blumey)',
         result:
-          'FINALIST — not nominee — in all five performance categories: Best Actor (Jayden Stall as Tarzan) · Best Actress (Karsen Betzold as Jane) · Best Supporting Actor (Jeffery Wilson as Kerchak) · Best Supporting Actress (Hannah Roddy as Terk) · Best Featured Performer (Isa Long as Jaquar). A whole-cast result. The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
+          'FINALIST — not nominee — in all five performance categories: Best Actor (as Tarzan) · Best Actress (as Jane) · Best Supporting Actor (as Kerchak) · Best Supporting Actress (as Terk) · Best Featured Performer (as Jaquar). A whole-cast result. The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
       },
       {
         year: '2016',
         show: 'CITA Secondary Festival',
         result:
-          'Six placements: 1st Place Ensemble Theatre (DuPre’, Gallagher, King, Williams) · 1st Place Solo Jr High Musical Theatre (Hailey Thomas) · 3rd Place in the same category (Lilly Mull) · Honorable Mention Duo (Hanegraaff, Johnson) · Honorable Mention Contrasting Monologues (Lily Robinson) · Technical Theatre Costume Design (Katherine Hanebutt).',
+          'Six placements: 1st Place Ensemble Theatre · 1st Place Solo Jr High Musical Theatre · 3rd Place in the same category · Honorable Mention Duo · Honorable Mention Contrasting Monologues · Technical Theatre Costume Design.',
         win: true,
       },
       {

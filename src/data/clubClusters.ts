@@ -115,7 +115,7 @@ const CHARLOTTE_LATIN: ClubClusters = {
       oneLiner: "Top-20 NSDA program nationally; 5th in Public Forum at the '26 Nationals",
       evidence: 'verified',
       evidenceLabel: 'Verified — NSDA',
-      note: 'A genuine national-tier operation with external evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals: Chandra & Rao 5th (Public Forum), Berman & Willett 25th, Yang 33rd (World Schools), Pan (’23) Academic All-American.',
+      note: 'A genuine national-tier operation with external evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals: a 5th-place pair (Public Forum), a 25th-place pair, a 33rd-place finish (World Schools) and an Academic All-American.',
       source: 'charlottelatin.org — News & Speech and Debate; NSDA',
     },
     {
@@ -403,23 +403,22 @@ const HICKORY_GROVE_CHRISTIAN: ClubClusters = {
   ],
 }
 
-// ── Gaston Day ── the inverse of Hickory Grove's shape: the ROSTER is
-// third-party and thin, but the FLAGSHIP RESULT is genuinely verified and
-// unusually strong — an iGEM gold medal plus a TSA VEX Nationals qualification
-// in the team's first year. Both are documented in the school's own Academic
-// Profile, and iGEM additionally by four archived competition team wikis. So
-// the STEM row is 'verified' while the rest of the roster is 'reported'.
+// ── Gaston Day ── school-named only (user ruling, 2026-11-10). The two
+// flagship results are both in the school's own Academic Profiles: iGEM awards
+// over more than a decade (2023-24) and a TSA VEX Nationals qualification in the
+// club's first year (2025-26). The third-party "competition clubs" row and the
+// wiki-only iGEM detail were removed in plan thespianname.
 const GASTON_DAY: ClubClusters = {
-  verdict: 'A gold-medal iGEM synthetic-biology team and a first-year VEX Nationals qualification anchor an otherwise third-party roster.',
+  verdict: 'iGEM awards over more than a decade and a first-year VEX Nationals qualification anchor what the school itself names.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {
       name: 'iGEM Synthetic Biology',
-      oneLiner: 'Gold medal; four teams — 2012, 2016, 2018 and 2020',
+      oneLiner: 'Silver, Gold and Bronze awards over more than a decade',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad.',
-      source: 'gastonday.org — Academic Profile 2025-2026; iGEM team archives (2012, 2016, 2018, 2020)',
+      note: 'The flagship. iGEM (International Genetically Engineered Machine) is a synthetic-biology research competition. The school says its research teams "previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards." It names no years or projects, and students can now do independent research through a year-long Research Methods elective.',
+      source: 'gastonday.org — Academic Profile 2023-2024 (Research Methods)',
     },
     {
       name: 'VEX Robotics',
@@ -430,28 +429,20 @@ const GASTON_DAY: ClubClusters = {
       source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences)',
     },
     {
-      name: 'Competition clubs →',
-      oneLiner: 'Science Olympiad, Public Debate, Mock Trial, Quiz Bowl',
-      evidence: 'reported',
-      evidenceLabel: 'Third-party',
-      note: 'Four competition-oriented clubs appear across the third-party listings, and Speech & Debate additionally runs as an Upper School course — but no titled or placement result is published for any of them. Existence, not results, is what is confirmed here.',
-      source: 'privateschoolreview.com — Gaston Day profile; niche.com',
-    },
-    {
       name: 'Publications →',
-      oneLiner: 'Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook',
+      oneLiner: 'Blutopia, Yearbook',
       evidence: 'verified',
       evidenceLabel: 'Verified — award',
       note: 'Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognized in the North Carolina Scholastic Media Association\'s Literary Magazine Contest. The school does not publish award counts or years, so "numerous" is its own word, reproduced rather than quantified.',
-      source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences); issuu.com/gdsblutopia',
+      source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences)',
     },
     {
-      name: 'Honor societies →',
-      oneLiner: 'National Honor Society, National Beta Club',
+      name: 'Honor society →',
+      oneLiner: 'National Honor Society',
       evidence: 'reported',
       evidenceLabel: 'Named only',
-      note: 'Two chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names or member counts are published for any of the three, and the profile does not mention the National Merit program at all.',
-      source: 'privateschoolreview.com — Gaston Day profile; gastonday.org — Academic Profile 2025-2026',
+      note: 'The school names one honor society. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter name or member count is published, and the profile does not mention the National Merit program at all.',
+      source: 'gastonday.org — Academic Profile 2025-2026',
     },
   ],
 }
@@ -473,7 +464,7 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
       oneLiner: 'The one club with a documented competitive record — but it is from 2017',
       evidence: 'reported',
       evidenceLabel: 'School news — stale',
-      note: 'Diocesan coverage records a North Carolina state runner-up finish and a Program Oral Interpretation state champion (Darlene Singui-Tanyi). That coverage is from 2017, older than any competitive result shipped for another school here, so no current standing can be claimed. The club meets in the CCHS Media Center under Mrs. Jennifer Taylor.',
+      note: 'Diocesan coverage records a North Carolina state runner-up finish and a Program Oral Interpretation state champion. That coverage is from 2017, older than any competitive result shipped for another school here, so no current standing can be claimed. The club meets in the CCHS Media Center under Mrs. Jennifer Taylor.',
       source: 'catholicnewsherald.com (2017); clubs directory',
     },
     {

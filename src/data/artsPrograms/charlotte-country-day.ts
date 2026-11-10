@@ -156,19 +156,19 @@ export const charlotteCountryDay: ArtsProgram = {
         year: '2025',
         show: 'Bright Star',
         result:
-          'Five nominations, ALL individual performance — Best Actor (Charles Dekle), Best Actress (Sabrina McGovern), Best Supporting Actor (Reid Cook), Best Supporting Actress (Addi Bianchi), Best Featured Performer (Brady Heintschel). No Direction, Ensemble, Choreography or Best Musical nod. Field: 54 schools.',
+          'Five nominations, ALL individual performance — Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer. No Direction, Ensemble, Choreography or Best Musical nod. Field: 54 schools.',
       },
       {
         year: '2024',
         show: 'Bonnie and Clyde',
         result:
-          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor (Jack Cooper) · Best Actress (Magdeline Fraser) · Best Supporting Actor (Thomas Lawn) · Best Supporting Actress (Sabrina McGovern) · Best Featured Performer (Liza Simon) · stage-manager finalist Abby Wood. No win located.',
+          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer · a stage-manager finalist. No win located.',
       },
       {
         year: '2023',
         show: 'Something Rotten',
         result:
-          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor (Lance Toppin) · Best Actress (Sabrina McGovern) · Best Supporting Actor (Jack Cooper) · Best Supporting Actress (Magdeline Fraser) · Best Featured Performer (Reagan Harris) · stage manager Graham McPhail. The school also claims a Best Musical nod, which the official PDF did not confirm. No win located.',
+          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer · a stage manager. The school also claims a Best Musical nod, which the official PDF did not confirm. No win located.',
       },
       {
         year: '2022',
@@ -185,7 +185,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'Country Day is a steady, credible Blumey contender, not a current front-runner. It was nominated every year from 2022 through 2025, but had zero wins after 2022, then had no nominations at all in 2026. Its best year was truly strong: two wins, including Best Direction. Its work developing individual performers looks repeatable, not lucky. Sabrina McGovern placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025), and five different students placed in five performance categories in 2025. On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
+      'Country Day is a steady, credible Blumey contender, not a current front-runner. It was nominated every year from 2022 through 2025, but had zero wins after 2022, then had no nominations at all in 2026. Its best year was truly strong: two wins, including Best Direction. Its work developing individual performers looks repeatable, not lucky. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025), and five different students placed in five performance categories in 2025. On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
     photo: {
       src: '/arts/charlotte-country-day-anastasia.jpg',
       name: 'Anastasia (2022)',

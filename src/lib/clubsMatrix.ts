@@ -75,8 +75,6 @@ export const CLUB_CATEGORY_ALIASES: Record<string, ClubRowKey[]> = {
   'STEM / competitive': ['stem', 'academicCompetition'],
   'Publications & media': ['publicationsMedia'],
   'Leadership / service': ['leadership', 'service'],
-  'Arts & performance': ['artsPerformance'],
-  'Special interest': ['specialInterest'],
   // Charlotte Catholic
   'Education': ['academicCompetition'],
   'Community': ['specialInterest'],
@@ -155,7 +153,8 @@ export const CLUB_OVERRIDES: Record<string, Partial<Record<ClubRowKey, ClubOverr
     leadership: [{ source: 'Davidson Day - Clubs - Community Engagement Web Check 2026.md', quote: 'Our Community Engagement Council demonstrates a deep commitment to service and leadership' }],
     honorSocieties: [{ source: 'Davidson Day - Clubs - Honor Societies Web Check 2026.md', quote: 'National Honor Society Members' }],
   },
-  'gaston-day': { faith: ['FCA'] },
+  // gaston-day: the FCA override was removed with the third-party roster (plan
+  // thespianname, 2026-11-10 — Gaston clubs come only from the school's own pages).
   'hickory-grove-christian': {
     publicationsMedia: ['Quill and Scroll Honor Society'],
     cultureLanguage: ['International Culture Club', 'Spanish Club'],

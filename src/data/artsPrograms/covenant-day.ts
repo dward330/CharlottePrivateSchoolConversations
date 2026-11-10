@@ -93,8 +93,8 @@ export const covenantDay: ArtsProgram = {
       { year: '2016', show: 'Blumey Awards', result: 'WON the Student Critic Award', win: true },
       { year: '2017', show: 'Blumey Awards', result: 'Best Ensemble nomination' },
       { year: '2018', show: 'Blumey Awards', result: 'Featured Performer + Supporting Actress nominations' },
-      { year: '2019', show: 'Curtains', result: 'Best Actress nomination (Evan Bertram as Georgia Hendricks)' },
-      { year: '2025', show: 'National Shakespeare Competition', result: 'Caroline Garbarino named Finalist', win: true },
+      { year: '2019', show: 'Curtains', result: 'Best Actress nomination (as Georgia Hendricks)' },
+      { year: '2025', show: 'National Shakespeare Competition', result: 'A student named Finalist', win: true },
     ],
     honestContext:
       'The ledger goes quiet after 2019 at the Blumeys. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.',

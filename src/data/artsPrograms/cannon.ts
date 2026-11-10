@@ -168,7 +168,7 @@ export const cannon: ArtsProgram = {
         year: '2025',
         show: 'Mamma Mia!',
         result:
-          'Five finalist placements, one in every performance category: Best Actor (Griffen Evans as Harry Bright) · Best Actress (Avery Fawcett as Rosie) · Best Supporting Actor (Lucas Guilfoyle as Sam Carmichael) · Best Supporting Actress (Shah Aashvi as Tanya) · Best Featured Performer (Malcolm Musinguzi as Pepper).',
+          'Five finalist placements, one in every performance category: Best Actor (as Harry Bright) · Best Actress (as Rosie) · Best Supporting Actor (as Sam Carmichael) · Best Supporting Actress (as Tanya) · Best Featured Performer (as Pepper).',
       },
       {
         year: '2024',
@@ -180,7 +180,7 @@ export const cannon: ArtsProgram = {
         year: '2023',
         show: 'Freaky Friday',
         result:
-          'Five finalist placements, again one in every performance category: Best Actor (Jonah Feeley as Adam) · Best Actress (Annalise Randall-Bauer as Ellie Blake) · Best Supporting Actor (Michael Wang as Mike) · Best Supporting Actress (Abby Guilfoyle as Torrey) · Best Featured Performer (Avery Fawcett).',
+          'Five finalist placements, again one in every performance category: Best Actor (as Adam) · Best Actress (as Ellie Blake) · Best Supporting Actor (as Mike) · Best Supporting Actress (as Torrey) · Best Featured Performer.',
       },
     ],
     honestContext:
