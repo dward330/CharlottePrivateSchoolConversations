@@ -495,15 +495,15 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'Platform & cost to apply',
-          body: '**Clarity Tuition** · $65 per household, non-refundable, charged by the platform · waivers applied automatically for qualifying incomes. Flat regardless of how many children or schools. Decided by a committee of the director of financial aid, the director of business and finance, and an associate director of admission.',
+          body: '**Clarity Tuition** · $65 per household, non-refundable, charged by the platform · fee waived automatically for qualifying incomes. The fee is the same no matter how many children or schools. Aid is decided by a committee: the director of financial aid, the director of business and finance, and an associate director of admission.',
         },
         {
           title: 'Divorced or separated parents',
-          body: 'Both custodial and non-custodial parents must each complete a Clarity application. Remarriage creates a new family unit — step-parent income and assets are treated as relevant, though obligations to a new family are considered. Cannon will not allocate a grant proportionally between two households.',
+          body: 'Both custodial and non-custodial parents must each complete a Clarity application. Remarriage creates a new family unit. A step-parent\'s income and assets are taken into account, though duties to a new family are also weighed. Cannon will not split a grant proportionally between two households.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No appeals or reconsideration process · no mid-year change-of-circumstance policy · no release date for aid decisions. **Hazard:** the total awarded appears only in the Student Profile, a document written for college admissions offices — a family reading the financial aid page top to bottom would never encounter it.',
+          body: 'No process to appeal or ask for a second look · no policy for a mid-year change in a family\'s situation · no release date for aid decisions. **Hazard:** the total awarded appears only in the Student Profile, a document written for college admissions offices. A family reading the financial aid page top to bottom would never see it.',
         },
       ],
       source:
@@ -529,7 +529,7 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'No merit track',
-          body: 'On two separate pages Cannon states plainly that it offers no merit scholarships, and specifically no academic, arts or athletics scholarships. All grants are strictly need-based, and a grant is not a loan — it is not owed back to the school.',
+          body: 'On two separate pages, Cannon states plainly that it offers no merit scholarships, and specifically no academic, arts or athletics scholarships. All grants are strictly need-based. A grant is not a loan: it does not have to be paid back to the school.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -605,7 +605,7 @@ const CANNON: FinancialAidReport = {
         },
         {
           tag: 'SIX YEARS OF RATES, FROM THE ARCHIVE',
-          body: 'The live site publishes only the current year, but archived copies carry 2021–22 onward. Most bands track 2–4.5% a year, with one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table — worth asking about if your child is entering middle school.',
+          body: 'The live site publishes only the current year, but archived copies show 2021–22 onward. Most bands rise 2–4.5% a year. The one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table. That is worth asking about if your child is entering middle school.',
         },
         {
           tag: 'FEE TREND, 2024–25 → 2026–27',
@@ -1171,15 +1171,15 @@ const DAVIDSON_DAY: FinancialAidReport = {
         { label: 'Current enrollment deposit · no amount', status: 'unpriced' },
       ],
       componentsNote:
-        'A range built mostly from missing parts would look authoritative and mislead, so we have not built one. Extended care, athletics and arts are the notable gaps — all three are also named in the aid exclusions, so they are confirmed real costs a family pays on top of an award.',
+        'A range built mostly from missing prices would look reliable but mislead, so we have not built one. Extended care, athletics and arts are the main gaps. All three are also named in the aid exclusions. So they are confirmed real costs a family pays on top of an award.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — THE DEPOSIT',
-          body: 'The deposit was **$2,400 per student for 2022–23**; the current amount is not published. The school states only that it appears inside each family\'s Enrollment Tuition Contract, behind the family portal, and is drafted immediately by bank transfer once the contract is signed. Refundability is not published either.',
+          body: 'The deposit was **$2,400 per student for 2022–23**. The current amount is not published. The school says only two things about the deposit. It appears in each family\'s Enrollment Tuition Contract, inside the family portal. And it is drafted by bank transfer as soon as the contract is signed. Refundability is not published either.',
         },
         {
           title: 'Uniforms & transportation',
-          body: 'Uniforms are required (Early Preschool exempt); families buy from general retailers with the logo applied by a local vendor, so garment prices are set by vendors and not published by the school as a fee. No school-provided busing or transportation charge was found — most likely because none is offered rather than a price being withheld.',
+          body: 'Uniforms are required (Early Preschool exempt). Families buy them from regular stores, and a local vendor adds the logo. So clothing prices are set by those sellers, and the school does not publish them as a fee. No school bus or transportation charge was found. Most likely that is because none is offered, not because a price is being withheld.',
         },
       ],
       source:
@@ -1220,11 +1220,11 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           title: 'Divorced or separated parents',
-          body: 'Each parent is expected to complete a Clarity application and supply tax returns. The only stated exception is a divorce agreement assigning sole responsibility for educational expenses to one parent.',
+          body: 'Each parent is expected to complete a Clarity application and send tax returns. The only stated exception is a divorce agreement that makes one parent alone responsible for school costs.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No appeals or reconsideration process · no mid-year change-of-circumstance policy · no public position on whether admission is need-blind or need-aware · the committee\'s composition. **Hazard:** retired aid pages still in search results describe Acclaim as being for rising 8th-graders and Wolter for rising 9th-graders in 2025–26 — the current live page says Class of 2030 and Upper School applicants.',
+          body: 'No process to appeal or ask for a second look · no policy for a mid-year change in a family\'s situation · no public position on whether admission is need-blind (decided without looking at ability to pay) or need-aware (ability to pay can count) · no list of who sits on the committee. **Hazard:** retired aid pages still in search results describe Acclaim as being for rising 8th-graders and Wolter for rising 9th-graders in 2025–26. The current live page says Class of 2030 and Upper School applicants.',
         },
       ],
       source:
@@ -1255,7 +1255,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
       ],
       figureNote:
-        'Acclaim Scholars marks the school\'s 25th anniversary and expects a strong academic profile and exemplary character. The Wolter Family Foundation Scholarship is externally funded by a Cornelius-based family foundation and asks for strong recommendations and significant demonstrated need. Both are contingent on the student remaining in good standing.',
+        'Acclaim Scholars marks the school\'s 25th anniversary. It expects a strong academic record and excellent character. The Wolter Family Foundation Scholarship is paid for by a family foundation based in Cornelius, not by the school. It asks for strong recommendations and significant demonstrated need. Both depend on the student staying in good standing.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — THE AWARD CEILING\'S ARITHMETIC',
@@ -1263,7 +1263,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
-          body: 'No sibling, military or clergy discount is published, and no indexed or sliding-scale tuition. The school runs a separate enrollment process and an eleven-month plan for employee parents, but whether any tuition remission accompanies employment is not on the public record. How many scholarships are granted each year, and their renewal criteria beyond "good standing," are also unpublished.',
+          body: 'No sibling, military or clergy discount is published. No indexed tuition (a price set by family income) or sliding scale is published either. Employee parents have a separate enrollment process and an eleven-month payment plan. But the public record does not show whether working at the school brings any tuition remission (reduced tuition for employees). How many scholarships are given each year, and what it takes to renew them beyond "good standing," are also unpublished.',
         },
       ],
       source:
@@ -1279,7 +1279,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
           figure: '11×',
           label: 'Eleven-month plan',
           detail:
-            'An eleven-month plan exists; installment due dates are not published. Employee-facing materials carry a Truth in Lending disclosure putting the additional cost of paying monthly at **$0** — but no equivalent statement is published for general families.',
+            'An eleven-month plan exists, but its installment due dates are not published. Materials for employees carry a Truth in Lending disclosure that puts the additional cost of paying monthly at **$0**. No matching statement is published for other families.',
           emphasis: true,
         },
         {
@@ -1298,13 +1298,13 @@ const DAVIDSON_DAY: FinancialAidReport = {
           figure: '—',
           label: 'Full menu not published',
           detail:
-            'Whether annual, semi-annual and monthly are all offered, and on what terms, is presented inside each family\'s contract rather than published. No prepayment discount; no external tuition lender is named — billing is handled in-house.',
+            'Each family\'s contract, not a public page, shows whether annual, semi-annual and monthly plans are all offered, and on what terms. No prepayment discount or outside tuition lender is named, and billing is handled in-house.',
         },
       ],
       boxes: [
         {
           tag: 'NOT PUBLISHED — CONTRACT TERMS',
-          body: 'Deposit refundability · a family\'s financial obligation on withdrawal or mid-year departure. These terms live in the Enrollment Tuition Contract, which is issued to enrolling families through the portal and is not publicly available.',
+          body: 'Deposit refundability · what a family owes if it withdraws or leaves mid-year. These terms are in the Enrollment Tuition Contract. Enrolling families get it through the portal, and it is not publicly available.',
         },
       ],
       source:
@@ -1326,7 +1326,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'FOUR YEARS, FROM THE ARCHIVE',
-          body: 'The school publishes no rate history — the current-year table overwrites the previous one — but archived copies carry 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns in this series. Early Childhood years are excluded from the run above because the number of years a child spends in that band varies.',
+          body: 'The school publishes no rate history, because each year\'s table replaces the one before. But archived copies show 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns among the schools on this site. Early Childhood years are left out of the run above, because the number of years a child spends in that band varies.',
         },
         {
           tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
@@ -2439,7 +2439,7 @@ const GASTON_DAY: FinancialAidReport = {
         { label: 'Athletics participation costs', status: 'unpriced' },
       ],
       componentsNote:
-        'Unusually, almost every add-on Gaston Day publishes carries a price — the transport, aftercare, music-lesson and summer-camp rates are all stated in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes, so whether technology, lab fees, retreats and field trips sit inside the fees column is unstated.',
+        'Unusually, almost every add-on Gaston Day publishes has a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes. So the school does not say whether technology, lab fees, retreats and field trips are part of the fees column.',
       componentsAside:
         'The fees column is not itemized. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
       source:
@@ -2501,7 +2501,7 @@ const GASTON_DAY: FinancialAidReport = {
         { value: '$0', label: 'published aid budget, total awarded, or average award' },
       ],
       figureNote:
-        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45% — a wide divergence, and probably a definitional one rather than an error: the profile’s "tuition assistance" is need-based aid, while an aggregator’s "percent on financial aid" commonly folds in merit awards and NC Opportunity Scholarship recipients, which at Gaston Day are three separate channels.',
+        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45%. That is a wide gap, but probably a difference in what is counted rather than an error. In the school’s profile, "tuition assistance" is need-based aid. A school-listing website’s "percent on financial aid" often also counts merit awards and NC Opportunity Scholarship recipients. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.',
       boxes: [
         {
           title: 'The 80% ceiling is the most useful published number',
@@ -2513,7 +2513,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
         {
           tag: 'ENROLLMENT ALSO DIVERGES',
-          body: 'The school reports **510** students; Private School Review says **466**; the federal NCES survey (2023-24) says **448**. The school’s own current figure is used throughout this project — but any per-student figure computed from a third-party enrollment count will differ from one computed from the school’s.',
+          body: 'The school reports **510** students. Private School Review says **466**, and the federal NCES survey (2023-24) says **448**. This site uses the school’s own current figure throughout. But any per-student figure worked out from a third-party enrollment count will differ from one worked out from the school’s.',
         },
       ],
       source:
@@ -2529,12 +2529,12 @@ const GASTON_DAY: FinancialAidReport = {
         {
           gift: '100%',
           share: 100,
-          detail: '**The W. Duke Kimbrell Scholarship** — the school’s highest honor, covering **100% of tuition**, for grades 8–11. Awarded by invitation to qualified applicants on scholarly excellence, high moral character, family involvement, leadership and demonstrated community or hobby participation.',
+          detail: '**The W. Duke Kimbrell Scholarship** — the school’s highest honor, covering **100% of tuition**, for grades 8–11. It is awarded by invitation to qualified applicants. The school looks at five things: academic excellence · high moral character · family involvement · leadership · shown participation in the community or a hobby.',
         },
         {
           gift: 'Merit',
           share: 40,
-          detail: '**The Kimbrell Family Scholarship** — grades 5–11, for students with nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. Every admitted applicant is reviewed automatically; nominated students may add supplemental materials and interview on campus. The award amount is not published.',
+          detail: '**The Kimbrell Family Scholarship** — grades 5–11, for students with nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. Every admitted applicant is reviewed for it automatically. Nominated students may add extra materials and interview on campus. The award amount is not published.',
         },
         {
           gift: 'State',
@@ -2545,7 +2545,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'Three channels, not one',
-          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may be eligible for more than one, and the interaction between them is not published — which is worth asking about directly.',
+          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may qualify for more than one. How the three routes affect each other is not published, so it is worth asking the school directly.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -2576,7 +2576,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'This is the thinnest section of Gaston Day’s public record. No plan names, no installment schedule, no plan fees, no card-processing surcharge, no deposit amount, no late-payment policy, no withdrawal or refund terms, and no tuition-insurance or refund-plan offering appear anywhere on the public site. Every peer school here publishes at least the installment count.',
+          body: 'This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Most other schools on this site publish at least the number of installments.',
         },
       ],
       source:

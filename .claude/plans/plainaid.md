@@ -447,8 +447,8 @@ shipped*) only after Batch 4.
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 | `8d9fd17f` | [review-batch1.md](plainaid-data/review-batch1.md) | 8 (all fixed: 3 meaning/claim changes incl. Prep "most expensive", 1 not-published → does-not-exist, 1 recipient → family unit change, 2 restored terms, 1 cross-school claim) | approved 2026-11-10, no rulings |
-| 2 | `0b6a0ed6` | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | |
-| 3 | | | | |
+| 2 | `0b6a0ed6` | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | approved 2026-11-10, no rulings |
+| 3 | see Batch 3 notes | [review-batch3.md](plainaid-data/review-batch3.md) | 9 (all fixed: 2 not-published verbs restored, 3 referents, 1 "only"/"also" contradiction, 1 strengthened "counted", 1 dropped "demonstrated", 1 false "every other school" claim → "most") | |
 | 4 | | | | |
 
 ### Unit notes (things the drafter must not get wrong)
@@ -551,6 +551,16 @@ as precedent.
     median (the middle award)…");
   - "typical recipient" stays "recipient", never "family";
   - a confidentiality policy is never called a privacy policy.
+
+- **Batch 2 (approved 2026-11-10): no rulings.** Placeholder unfilled again. Batch 2's
+  choices stand:
+  - "It publishes no …" (not "There is no published …") for a not-published list;
+  - terms "as published then" stay in the present tense inside that frame, so they never
+    sound lapsed;
+  - a referent after a split names its noun ("endowed the school", "that state
+    program");
+  - an overclaim verb is never upgraded ("addresses" → "is aimed at", not "fills");
+  - "denominator" is said as "what the share is out of".
 
 ### plain-ok register
 
@@ -1061,6 +1071,32 @@ The reviewer also flagged the 62% figure (Candidates).
 **Step 6 checks.** `npx tsc -b`, `npx vite build` and the nine later checks are green. `check:live` reports **44 stale stamps per locale, all `financial-aid-report`** (21 + 23). Running total for Phase 2: **44**. `check:plain` now shows financial-aid-report Flagged **28**.
 
 **Step 7 browser check.** Every rewritten unit on both schools renders, every bold span is inside a `<strong>`, and no markdown-shaped asterisk appears (Christian's former `*received into*` included). At 390px, Latin with the card open has `scrollWidth` 390.
+
+### Batch 3 (2026-11-10)
+
+**Resume.** Batch 2 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 23 units (davidson-day 11, cannon 5, gaston-day 7).
+
+**Drafts were measured first.** Three needed a second pass: DD `sections[3].boxes[1]` (10.9), Cannon `sections[2].boxes[1]` (10.0) and Gaston `ladder[0]` (11.3, then 11.1; its five criteria became a `·` run). After applying, guard (h) caught one real slip. "Materials for employees include a Truth in Lending disclosure" added a COVERED marker the before ("carry") did not have, so the original verb was restored with Edit.
+- The shared "no appeals" `·` items are byte-identical at all three sites (PD, DD, Cannon; grep count 3).
+- DD's need-blind / need-aware glosses sit inside their `·` item.
+- Gaston's strings keep the curly `’`.
+- DD `plans[0]` keeps "additional cost" (a NOTCOVERED marker), and DD `sections[1].boxes[0]` / `sections[4].boxes[0]` keep "Refundability" / "Deposit refundability". "Refundable" would read as a new REFUNDABLE claim.
+
+**Measure.** The review generator, every guard on (`--allow` worklists 1–3, `--aid-markers`), exits 0: 23/23 `hook: pass`, after-grade >10: 0. Batch 3 adds no residual rows. Batches 1–2 still pass with all three worklists. `check_plain_language.mjs --file` reports issues only on the Batch 4 schools.
+
+**Independent review: 9 findings, all fixed** (see the review file):
+- 2 not-published verbs restored ("No … is published either"; "No prepayment discount or outside tuition lender is named").
+- 3 referents named ("the school", the three channels, "the three routes").
+- "states only … It also says" contradicted itself.
+- "counted" was stronger than "treated as relevant".
+- The rewrite had dropped "demonstrated".
+- **A false cross-school claim.** Gaston `sections[5].boxes[0]` said "Every other school on this site publishes at least the number of installments". Charlotte Catholic, Carmel Christian and Hickory Grove list that count as NOT PUBLISHED; the before-text's "Every peer school here" was already wrong for two of them. The reviewer changed it to "Most other schools on this site…", which is checked: PD, CCD, Covenant, Christian and DD publish a count. This is a factual correction, not only a rewording, so it is flagged for the user at review.
+
+**Step 6 checks.** `npx tsc -b`, `npx vite build` and the nine later checks are green. `check:live` reports **67 stale stamps per locale, all `financial-aid-report`** (21 + 23 + 23). Running total for Phase 2: **67**. `check:plain` now shows financial-aid-report Flagged **12**, Grade >10 **17**, all on Batch 4 schools.
+
+**Step 7 browser check.** Every rendered rewritten unit on the three schools renders, with bold inside `<strong>`. Gaston `sections[3].figureNote` has no render site (Batch 1 finding). The one markdown-shaped asterisk on Cannon's card is the known off-worklist `*is*` in `cannon:sections[3].boxes[1].body` (Candidates). At 390px, DD with the card open has `scrollWidth` 390.
 
 ### Candidates noticed, not acted on
 
