@@ -1307,6 +1307,39 @@ Two guard catches came before the review:
   - two stray single-asterisk italics are gone.
 - `plain-ok` markers added: none.
 
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window as Batch 5, on `feat/plainarts`.
+- **Splice matched exactly.** `i18n_splice_work.mjs --topic the-arts` gave **1,044 kept / 132 added / 132 dropped** in all nine locales. That equals the final `check:live` count. Every added unit paired 1:1 with its dropped predecessor by `at` path (0 unpaired), using the `main` work files as the source of the old English and old `t`. No rewrite merged into an existing string.
+- **Translation.** Nine parallel `general-purpose` subagents, one per locale, each *revised* the reviewed `t` to match the new English. Each got 45 reviewed same-area units as a terminology reference and its locale's rollout doc, read only its own task file and wrote only its own output. The scratch gate is plainaid's gate with four additions: the ` · ` count, no `*`, `N+` tokens among the money/percent/year tokens, and an English-month check that exempts a month word followed by the same capitalized word as the English. That last one was added mid-run, because "April" in the student name April Liu was flagged in every locale. All nine passed with 0 problems.
+- **Wrong-script scan.** No wrong-script characters were found in any output (Bangla's danda U+0964 is excluded; it is the known false positive). The ht translator found and fixed a **Cyrillic "е" (U+0435) inside "nominе"** in two reviewed ht units, `f00fcab5` and `c8c58c4c`. It is worth scanning the rest of the ht work files for this.
+- **Systematic changes worth a native reviewer's look:**
+  - **The new glosses have no reviewed predecessor in any locale:** proscenium, adjudicated festivals and ratings, production-level categories, capstone, "Hands-on music classes (Experiential music)", residency, and "teaching method" replacing "pedagogy".
+  - **The digit rule forced counts and ordinals into digits.** Where the English has a digit, reviewed word forms became digits:
+    - ar "المركز 1", "الصف 6";
+    - fa "9مین";
+    - bn "সেরা 6";
+    - hi "4वें";
+    - `N+` tokens in place of "more than N" in every locale (`3,500+`, `70+`, `20+`).
+
+    Where the English spells a number out ("Fifth grade", "eighth-grade", "sophomore"), the translation now spells it out too.
+  - **es times follow the English 12-hour form** (`1:30–2 p. m.`) instead of the reviewed 24-hour form.
+  - **Some reviewed choices were kept** where they are an established convention: fr "la 5th grade" (25 reviewed fr units keep grade labels in English), Carmel and Hickory Grove's English award names, and the ht "plafon anba" for "a floor".
+  - **The approved English corrections were carried into every locale:** the student name dropped, TO VERIFY dropped, both asterisk pairs dropped, Christian "no AP Music Theory is named", and Trinity "off-campus".
+- **Integrity, by stamp against the `main` snapshots:** in every locale, **1,044 kept stamps** have `text` and `t` byte-identical, **132 are new**, and **0 are blank**. Each rebuilt overlay holds 1,176 entries.
+
+  `check_work_integrity.mjs` reports 263–264 "violations" per locale (2,374 in all). All of them sit on the 132 spliced positions, because the checker compares by array index (memory `comparerows-shipped`). The 263s are a single unit in te and fa (`0cb1c9bd`) where only the "mutated" half fired; its translation was confirmed to be revised.
+- **Checks:**
+  - `check:live` ✓ and `check:runtime` ✓;
+  - `check:digits`: **1,188 units compared · 0 to review**;
+  - `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `check:sepdrift`: 0 drifted, ×9;
+  - `check_figures.py --topic the-arts`: figures intact, ×9;
+  - `i18n:leaks`: **0 flags on any of the 132 changed paths** in any locale (it prints `slug:path`, matched against the five worklists);
+  - `npm run build`: green end to end.
+- **Browser** (headed Chrome, `vite preview`, every arts card open, `?lang=es|fa|hi` on Providence Day and Charlotte Christian): **78/78** rewritten units show their translation, after stripping bidi isolates and normalizing Persian digits. 0 English-only segments are visible, and 0 asterisks.
+- **Render audit:** `audit:daterender` (es, fa, hi) is clean, with no English-form date on any school, Compare or checklist page.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
