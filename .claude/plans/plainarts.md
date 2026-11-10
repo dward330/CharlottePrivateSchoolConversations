@@ -464,7 +464,7 @@ shipped*) only after Batch 5.
 | 1 | `e24c2796` | [review-batch1.md](plainarts-data/review-batch1.md) | 10 (all fixed: 6 unclear referents after a split, 1 overclaim (exhibited work), 1 strengthened verb ("runs" → "organizes"), 2 wording shifts ("jobs", "lessons")) | approved 2026-11-10, no rulings |
 | 2 | `54da2493` | [review-batch2.md](plainarts-data/review-batch2.md) | 12 (all fixed: 4 referents, 3 restored unit-note keeps, 2 strengthened claims ("led to", "keeps producing"), 1 weakened figure ("high" for 100%), 1 wrong gloss (proscenium), 1 tense) | approved 2026-11-10, no rulings |
 | 3 | `581246f3` | [review-batch3.md](plainarts-data/review-batch3.md) | 13 (all fixed: 5 referents, 1 widened entry rule (three productions → Theater in Performance only), 1 weakened verb ("asked" for "assigned"), 1 narrowed scope, 1 wrong "who shares", 1 wrong "scheduled", 3 wording) | approved 2026-11-10, no rulings |
-| 4 | *(this commit)* | [review-batch4.md](plainarts-data/review-batch4.md) | 12 (all fixed: 7 referents incl. the shared Ghana sentence at both sites, 3 "outside" read as outside Charlotte / outdoor, 1 dropped "such as", 1 fragment) | |
+| 4 | `fba99594` | [review-batch4.md](plainarts-data/review-batch4.md) | 12 (all fixed: 7 referents incl. the shared Ghana sentence at both sites, 3 "outside" read as outside Charlotte / outdoor, 1 dropped "such as", 1 fragment) | approved 2026-11-10, no rulings |
 | 5 | | | | |
 
 ### Unit notes (things the drafter must not get wrong)
@@ -680,6 +680,15 @@ here as precedent.
   - when a guard's long-span pattern matched across a sentence break in the before-text,
     the rewrite carries a true marker of the same class instead ("The school names no …");
   - a unit whose quote would merge with the next sentence is reordered to end on the quote.
+
+- **Batch 4 (approved 2026-11-10): no rulings.** Placeholder unfilled again. The two Trinity
+  before-text flags stay under Candidates. Batch 4's choices stand:
+  - "outside" next to a place name or "exhibitions" becomes "off-campus", never "outside
+    Charlotte" or "outdoor";
+  - a sample keeps its narrowing word ("including", "such as");
+  - an appositive after a split attaches to the person, not the award ("She was one of…");
+  - a not-found list leads with "None of these appears in any source:", never "No source
+    names…" (which reads as not-published).
 
 ### plain-ok register
 

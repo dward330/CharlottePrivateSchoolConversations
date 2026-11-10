@@ -73,7 +73,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     enrichment: [
       {
         label: 'Festivals & adjudication',
-        text: 'Band students participate in adjudicated festivals annually, and the Middle School band has earned superior ratings at ACSI band festivals. Choir performs at community events, statewide festivals and out-of-state tours.',
+        text: 'Band students take part in adjudicated festivals (where judges rate each group) every year. The Middle School band has earned superior ratings at ACSI band festivals. Choir performs at community events, statewide festivals and on out-of-state tours.',
       },
       {
         label: 'Competition',
@@ -121,11 +121,11 @@ export const hickoryGroveChristian: ArtsProgram = {
         year: '2025',
         show: 'Seussical',
         result:
-          'Amara Aghedo (Sour Kangaroo) was a Best Featured Performer nominee, and the production placed five finalists: Christian Young (Jojo, Best Actor), Fallon Burns (Mayzie, Best Actress), Michael McCray (Mr. Mayor, Best Supporting Actor), Mackenzie Moore (Mrs. Mayor, Best Supporting Actress) and Aghedo again among the Best Featured Performer finalists.',
+          'Amara Aghedo (Sour Kangaroo) was a Best Featured Performer nominee. The production also placed five finalists: Christian Young (Jojo, Best Actor) · Fallon Burns (Mayzie, Best Actress) · Michael McCray (Mr. Mayor, Best Supporting Actor) · Mackenzie Moore (Mrs. Mayor, Best Supporting Actress) · Aghedo again, among the Best Featured Performer finalists.',
       },
     ],
     honestContext:
-      'Amara Aghedo and Christian Young each recur across both years — a repeat producer of nominated performers. But no Blumey win is published for HGCS in either year (nominee/finalist recognition only), and no director name, venue or non-Blumey recent-season title is published.',
+      'Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of nominated performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
     sources: [
       { label: 'hgchristian.org — Arts hub (production cadence)', url: ARTS },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
@@ -153,7 +153,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
     ],
     boardNote:
-      'Middle School band is split into a 6th-grade beginner section and a 7th–8th intermediate section. The elementary strand is a general-music class taught to the National Standards, with Orff and rhythm instruments alongside recorder in Grade 4. No orchestra or strings ensemble is published at any level, and no a cappella group is named.',
+      'Middle School band is split into a 6th-grade beginner section and a 7th–8th intermediate section. In elementary school, music is a general-music class taught to the National Standards. The class uses Orff and rhythm instruments, adding recorder in Grade 4. No orchestra or strings ensemble is published at any level, and no a cappella group is named.',
     ladderTitle: 'The honors ladder — what is published',
     ladder: [
       {
@@ -203,7 +203,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
     ],
     footnote:
-      'No named gallery or exhibit event, no National Art Honor Society and no external visual-arts recognition (Scholastic or otherwise) is published. The K–5 and Middle School foundation (shapes/colors/texture; artist studies, mixed-media portraits) feeds the High School sequence.',
+      'None of these is published: a named gallery or exhibit event · a National Art Honor Society · external visual-arts recognition (Scholastic or otherwise). K–5 art covers shapes, colors and texture, and Middle School adds artist studies and mixed-media portraits. Both lead into the High School sequence.',
     sources: [
       { label: 'hgchristian.org — Visual Arts (Art I–IV, AP Studio Art 2D)', url: VISUAL },
       { label: 'hgchristian.org — Arts hub (Exodus yearbook)', url: ARTS },
@@ -212,13 +212,13 @@ export const hickoryGroveChristian: ArtsProgram = {
 
   verdict: {
     headline:
-      'A band-and-choir music program and a leveled studio track, with a theatre program that has drawn Blumey recognition two years running — the open questions are about the unpublished venue, director and orchestra.',
+      'A band-and-choir music program and a step-by-step studio track. The theatre program has drawn Blumey recognition two years running. The open questions are the unpublished venue, director and orchestra.',
     subhead:
       'The Blumey nominations across Seussical (2025) and The Little Mermaid (2026) are the real, verified headline; the gaps are the undocumented facilities and the absence of orchestra and a cappella.',
     holdsUp: [
       {
         label: 'Back-to-back Blumey recognition',
-        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards, with Amara Aghedo and Christian Young recurring across both years — a repeat producer of nominated performers.',
+        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of nominated performers.',
       },
       {
         label: 'A studio path that reaches AP',
