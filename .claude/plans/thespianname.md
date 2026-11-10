@@ -1,7 +1,7 @@
 ---
 name: thespianname
 title: Three user rulings — non-athlete student names removed site-wide (60 strings, 13 files); Gaston Day's Student Clubs rebuilt from the school's own website and documents only (third-party roster, Beta, Honor Council, Thespian Society removed; Compare count ≥10); then all nine locales
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-10
 branch: fix/thespianname
@@ -90,4 +90,31 @@ Splice **four topics** for each locale: `the-arts`, `student-clubs` (which cover
 
 ## Implementation notes
 
-*Phase 2 notes go here.*
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window, on `fix/thespianname`.
+- **Splice** across 4 topics, per locale:
+  - `the-arts` +53/−53;
+  - `student-clubs` +27/−49 (22 removed Gaston entries have no successor; 4 new units have no predecessor);
+  - `college-support` +2/−2;
+  - `metric-values` +4/−4.
+- **Translation.** Three subagents covered three locales each, 86 units per locale.
+  - **Name removals:** made as exact cuts in the reviewed `t`.
+  - **Gaston clubs:** pairing by `at` matched the wrong items where the catalog was rebuilt, so these units were translated fresh, with the old `t` as a terminology hint only.
+- **Gate.** The plainarts gate gained two checks: a scan for the **95 removed names** and a scope-aware `**` rule. Two of its original rules were wrong for this batch and were fixed mid-run:
+  - **The asterisk ban.** It is now a `**`-count match. College Support's `transcript.merit[].detail` renders `**bold**`, and `**6**` and `**16**` were restored in the 6 locales that had dropped them.
+  - **`t` ≠ English.** It now allows figure-only values (Gaston's Compare `≥10` is kept as `≥10` in every locale, like `≥20`/`≥14`) and units whose reviewed predecessor also kept English (te keeps National Merit tier labels in Latin by convention).
+
+  All nine locales then passed with 0 problems.
+- **Integrity by stamp vs `main`:** every kept stamp is byte-identical and 0 new units are blank, in all 4 topics ×9. Across every non-sports overlay, **0 removed names** and **0 Cyrillic** characters remain.
+- **Checks:**
+  - `check:live`, `check:runtime`, `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `check:digits`: 774 units · 0 to review;
+  - `check:sepdrift`: 0 ×9, and `check_figures.py`: intact for all 4 topics ×9;
+  - `npm run build`: green.
+  - `i18n:leaks`: 1 flag on a changed path (te `charlotte-latin:transcript.merit[1].detail`). It is a legitimate keep: te renders every National Merit tier label in Latin.
+- **Browser** (`?lang=es|fa|hi`, 11 schools × arts, student-clubs and college-support, every card open): **0** removed names render. Gaston's Student Clubs shows no Thespian Society, Beta Club or Mock Trial, and no untranslated English verdict.
+- **For a native reviewer:**
+  - "a student" / "two performers" phrasing and its gender choices (generic masculine unless the role implies otherwise);
+  - glosses added where a short label would have equalled the English ("Honor Code", "National Honor Society", "Blutopia, Yearbook");
+  - the Gaston clubs units are new translations with no reviewed predecessor.
