@@ -3,18 +3,24 @@
   "lang": "es",
   "strings": [
     {
-      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los pasos en orden, los plazos de 2026–27 y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. El calendario de ayuda financiera corre en paralelo.",
-      "of": "b764c60c",
+      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los pasos en orden, los plazos de 2027–28 y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. El calendario de ayuda financiera corre en paralelo.",
+      "of": "ee3c984c",
       "at": [
         "providence-day:guide.headline"
       ]
     },
     {
-      "t": "ciclo de ingreso 2026–27",
-      "of": "826ef611",
+      "t": "ciclo de ingreso 2027–28",
+      "of": "639aa0b9",
       "at": [
         "providence-day:guide.cycle",
-        "charlotte-latin:guide.cycle"
+        "charlotte-latin:guide.cycle",
+        "charlotte-christian:guide.cycle",
+        "charlotte-country-day:guide.cycle",
+        "covenant-day:guide.cycle",
+        "hickory-grove-christian:guide.cycle",
+        "trinity-episcopal:guide.cycle",
+        "charlotte-prep:guide.cycle"
       ]
     },
     {
@@ -179,8 +185,8 @@
       ]
     },
     {
-      "t": "Todas las fechas siguientes corresponden al ciclo de ingreso 2026–27 según el calendario de admisiones en vivo. Las fechas cambian de un año a otro: verifíquelas antes de actuar.",
-      "of": "87aa3e7b",
+      "t": "Todas las fechas siguientes corresponden al ciclo de ingreso 2027–28 según el calendario de admisiones en vivo. Las fechas cambian de un año a otro: verifíquelas antes de actuar.",
+      "of": "5eda98ff",
       "at": [
         "providence-day:guide.rules[1].text"
       ]
@@ -614,8 +620,8 @@
       ]
     },
     {
-      "t": "El nivel más pequeño funciona con un **calendario más temprano** que todos los demás y usa un **modelo de preparación** —WPPSI-IV, evaluación de preparación y visita al aula— en lugar de pruebas estandarizadas. Tres componentes de evaluación significan tres citas que programar: otra razón por la que importa solicitar pronto.",
-      "of": "2e0caba3",
+      "t": "El nivel más pequeño funciona con un **calendario más temprano** que todos los demás. En lugar de pruebas estandarizadas, usa un **modelo de preparación** con tres partes: la WPPSI-IV, una evaluación de preparación y una visita al aula. Tres partes significan tres citas que programar. Es una razón más para solicitar pronto.",
+      "of": "0ab043b6",
       "at": [
         "providence-day:guide.bands[0].watchOuts[0].text"
       ]
@@ -949,8 +955,8 @@
       ]
     },
     {
-      "t": "El instrumento depende del grado: **los aspirantes a Grado 1** hacen la WPPSI-IV, la misma escala Wechsler preescolar que TK/K; **los Grados 2–4** hacen la WISC-V, la Escala Wechsler de Inteligencia para Niños; y el **Grado 5** hace el ISEE, el Independent School Entrance Exam. Pregunte a admisiones cómo programar la que le corresponde a su hijo.",
-      "of": "7c616ee0",
+      "t": "La prueba depende del grado. **Los aspirantes a Grado 1** hacen la WPPSI-IV, la misma escala Wechsler preescolar que TK/K. **Los Grados 2–4** hacen la WISC-V, la Escala Wechsler de Inteligencia para Niños. **El Grado 5** hace el ISEE, el Independent School Entrance Exam. Pregunte a admisiones cómo programar la que necesita su hijo.",
+      "of": "93bcad5a",
       "at": [
         "providence-day:guide.bands[1].steps[3].detail"
       ]
@@ -1130,8 +1136,8 @@
       ]
     },
     {
-      "t": "La escuela nombra el **Independent School Entrance Exam (ISEE)** como la prueba obligatoria para este nivel. El examen tiene niveles según el grado: confirme con admisiones cuál le corresponde a su hijo y reserve una fecha con suficiente antelación para que los resultados lleguen antes de la fecha límite de documentación del 26 de febrero.",
-      "of": "a0338a6b",
+      "t": "La escuela nombra el **Independent School Entrance Exam (ISEE)** como la prueba obligatoria para este nivel. El examen tiene niveles según el grado. Confirme con admisiones cuál le corresponde a su hijo. Después reserve una fecha con suficiente antelación para que los resultados lleguen antes de la fecha límite de documentación del 26 de febrero.",
+      "of": "9ae007f5",
       "at": [
         "providence-day:guide.bands[2].watchOuts[0].text"
       ]
@@ -1219,8 +1225,8 @@
       ]
     },
     {
-      "t": "La solicitud de Clarity ($65) vence el **22 de enero** para las familias interesadas: complete ambos procesos a tiempo y la decisión sobre la ayuda llegará dentro del Acuerdo de Matriculación. Solicitar ayuda nunca influye en la admisión; deciden comités distintos.",
-      "of": "faf983c3",
+      "t": "Las familias nuevas en la escuela envían la solicitud de Clarity ($65) antes del **22 de enero**. Complete ambos procesos a tiempo y la decisión sobre la ayuda llegará dentro del Acuerdo de Matriculación. Solicitar ayuda nunca influye en la admisión. Cada decisión la toma un comité distinto.",
+      "of": "ec98f692",
       "at": [
         "providence-day:guide.aid.text"
       ]
@@ -1544,15 +1550,15 @@
       ]
     },
     {
-      "t": "Las fechas corresponden al ciclo de ingreso 2026–27 según se publica en el calendario de admisiones y en las páginas del proceso de admisión de providenceday.org (verificadas con el sitio en vivo en septiembre de 2026); las fechas del ciclo cambian de un año a otro — verifíquelas en el calendario en vivo antes de actuar. Los elementos marcados como «confirmar» no están publicados en el sitio web. Compilado por Charlotte School Compare; sin afiliación con Providence Day School.",
-      "of": "5c32bc67",
+      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publica en el calendario de admisiones y en las páginas del proceso de admisión de providenceday.org (verificadas con el sitio en vivo en septiembre de 2026). Las fechas del ciclo cambian de un año a otro, así que verifíquelas en el calendario en vivo antes de actuar. Los elementos marcados como «confirmar» no están publicados en el sitio web. Compilado por Charlotte School Compare; sin afiliación con Providence Day School.",
+      "of": "311fd4dc",
       "at": [
         "providence-day:guide.checklist.disclaimer"
       ]
     },
     {
-      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los pasos en orden, los plazos de 2026–27 y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. Cuatro itinerarios sobre una misma columna vertebral, y lo que cambia entre ellos es la prueba, quién concierta el Visit Day, si hay entrevista y el plazo.",
-      "of": "ba66a2dc",
+      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los pasos en orden, los plazos de 2027–28 y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. Los cuatro itinerarios siguen los mismos pasos principales. Lo que cambia entre ellos es la prueba, quién concierta el Visit Day, si hay entrevista y el plazo.",
+      "of": "7cba45e5",
       "at": [
         "charlotte-latin:guide.headline"
       ]
@@ -1579,15 +1585,15 @@
       ]
     },
     {
-      "t": "Todo se gestiona a través de Finalsite Enrollment en charlottelatin.fsenrollment.com: envíe una consulta, cree el perfil de su familia y, desde esa misma cuenta, reserve plaza en los eventos de admisiones opcionales, entregue la documentación, localice los formularios y cumpla los plazos.",
-      "of": "833270ae",
+      "t": "Todo se gestiona a través de Finalsite Enrollment en charlottelatin.fsenrollment.com. Envíe allí una consulta y cree el perfil de su familia. Después, desde esa misma cuenta, reserve plaza en los eventos de admisiones opcionales, entregue la documentación, localice los formularios y cumpla los plazos.",
+      "of": "618a5408",
       "at": [
         "charlotte-latin:guide.rules[0].text"
       ]
     },
     {
-      "t": "Todas las fechas siguientes corresponden al ciclo 2026–27.",
-      "of": "1b36e18c",
+      "t": "Todas las fechas siguientes corresponden al ciclo 2027–28.",
+      "of": "44d204b8",
       "at": [
         "charlotte-latin:guide.rules[1].title"
       ]
@@ -1600,8 +1606,8 @@
       ]
     },
     {
-      "t": "La misma columna vertebral en todos los niveles: solicitar en línea a través del portal → asistir a un Visit Day → realizar una prueba estandarizada → cumplir los plazos. Lo que cambia entre niveles es qué prueba realiza su hijo, si el Visit Day lo concierta la oficina de admisiones o usted, si ese día incluye una entrevista y a qué plazo se atiene.",
-      "of": "96eb5424",
+      "t": "Todos los niveles siguen los mismos cuatro pasos: solicitar en línea a través del portal → asistir a un Visit Day → realizar una prueba estandarizada → cumplir los plazos. Lo que cambia entre niveles es qué prueba realiza su hijo y quién concierta el Visit Day: la oficina de admisiones o usted. Los niveles también se diferencian en si ese día incluye una entrevista y en a qué plazo se atiene.",
+      "of": "4c624c7a",
       "at": [
         "charlotte-latin:guide.spineNote"
       ]
@@ -1653,8 +1659,8 @@
       ]
     },
     {
-      "t": "El primer paso obligatorio: las familias «primero envían una consulta y después crean un perfil para su familia». Esa cuenta le indica a continuación cómo reservar plaza en los eventos de admisiones opcionales, entregar la documentación, localizar los formularios y cumplir los plazos: todo lo que sigue en esta lista pasa por ella.",
-      "of": "a2a5e056",
+      "t": "El primer paso obligatorio: las familias «primero envían una consulta y después crean un perfil para su familia». Esa cuenta le indica a continuación cómo reservar plaza en los eventos de admisiones opcionales, entregar la documentación, localizar los formularios y cumplir los plazos. Todos los pasos siguientes de esta lista pasan por ella.",
+      "of": "e09aef3c",
       "at": [
         "charlotte-latin:guide.bands[0].steps[0].detail"
       ]
@@ -1667,8 +1673,8 @@
       ]
     },
     {
-      "t": "Opcional, no obligatorio. El único evento con fecha publicado para este nivel es el **TK/K Fly By Open House del 10 de octubre de 2026, de 9:30 a 11:00 a.m.** Las visitas al campus comienzan en septiembre y se mantienen durante todo el curso; las jornadas de puertas abiertas, las visitas y las sesiones virtuales se reservan todas desde su cuenta del portal.",
-      "of": "6adf47ab",
+      "t": "Opcional, no obligatorio. El **TK/K Fly By Open House del 10 de octubre de 2026, de 9:30 a 11:00 a.m.** es el único evento con fecha publicado para este nivel. Las visitas al campus comienzan en septiembre y se mantienen durante todo el curso. Las jornadas de puertas abiertas, las visitas y las sesiones virtuales se reservan todas desde su cuenta del portal.",
+      "of": "0b83f028",
       "at": [
         "charlotte-latin:guide.bands[0].steps[1].detail"
       ]
@@ -1684,8 +1690,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **2 de enero de 2027**: trece días antes que cualquier otro grado del colegio, de modo que este nivel se atiene a un plazo que cae en la primera semana de enero y no a mediados. **No se publica ningún corte de edad ni de fecha de nacimiento** para Transitional Kindergarten ni para Kindergarten: el colegio describe TK de forma cualitativa, como algo «diseñado para niños que acaban de cumplir cinco años y están listos para Kindergarten», y no indica ninguna fecha. Pregunte a la oficina de admisiones dónde encaja su hijo.",
-      "of": "b8de7ab6",
+      "t": "Obligatorio, y con fecha límite el **2 de enero de 2027**. Son trece días antes que cualquier otro grado del colegio. Así que el plazo de este nivel cae en la primera semana de enero y no a mediados. **No se publica ningún corte de edad ni de fecha de nacimiento** para Transitional Kindergarten ni para Kindergarten. El colegio describe TK solo en términos generales, como algo «diseñado para niños que acaban de cumplir cinco años y están listos para Kindergarten», y no indica ninguna fecha. Pregunte a la oficina de admisiones dónde encaja su hijo.",
+      "of": "52ca6e42",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ]
@@ -1729,8 +1735,8 @@
       ]
     },
     {
-      "t": "Obligatorio. Los aspirantes a este nivel realizan el **WPPSI**, administrado por un psicólogo del consorcio Charlotte Area Independent Schools, y la prueba «debe concertarse con antelación». Usted contacta directamente con el psicólogo y pide que se envíen las puntuaciones a Charlotte Latin: el colegio no gestiona la cita.",
-      "of": "3b709f36",
+      "t": "Obligatorio. Los aspirantes a este nivel realizan el **WPPSI**. Lo administra un psicólogo del consorcio Charlotte Area Independent Schools. La prueba «debe concertarse con antelación». Usted reserva directamente con el psicólogo y pide que se envíen las puntuaciones a Charlotte Latin. El colegio no gestiona la cita.",
+      "of": "371c6a2f",
       "at": [
         "charlotte-latin:guide.bands[0].steps[4].detail"
       ]
@@ -1746,8 +1752,8 @@
       ]
     },
     {
-      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria, dos semanas después del plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia.",
-      "of": "42434751",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son dos semanas después del plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia.",
+      "of": "bb167924",
       "at": [
         "charlotte-latin:guide.bands[0].steps[5].detail"
       ]
@@ -1760,8 +1766,8 @@
       ]
     },
     {
-      "t": "Transitional Kindergarten y Kindergarten solicitan trece días antes que cualquier otro grado, y en este nivel el Visit Day lo concierta la oficina de admisiones, no la familia. No se publica ninguna fecha límite de documentación completa para este nivel, así que tome la lista de su portal como el inventario autorizado de lo que sigue pendiente. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel: confirme ambas con la oficina de admisiones.",
-      "of": "1d039340",
+      "t": "Transitional Kindergarten y Kindergarten solicitan trece días antes que cualquier otro grado. En este nivel, el Visit Day lo concierta la oficina de admisiones, no la familia. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina de admisiones.",
+      "of": "ac01cd72",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ]
@@ -1993,15 +1999,15 @@
       ]
     },
     {
-      "t": "Obligatorio, y **la prueba cambia dos veces dentro de este mismo nivel**: los aspirantes a grado 1 realizan el **WPPSI**, los de grados 2–4 el **WISC-V** y los de grado 5 el **ISEE**. La vía de reserva cambia con ella. El WPPSI y el WISC-V los administra un psicólogo del consorcio Charlotte Area Independent Schools, con quien contacta usted directamente; el ISEE lo elabora y administra el **Educational Records Bureau**, y las familias de grado 5 se inscriben a través del ERB. Compruebe cuál corresponde al grado al que entra su hijo antes de reservar nada.",
-      "of": "c8fe6d82",
+      "t": "Obligatorio, y **la prueba cambia dos veces dentro de este mismo nivel**. Los aspirantes a grado 1 realizan el **WPPSI**, los de grados 2–4 el **WISC-V** y los de grado 5 el **ISEE**. La forma de reservar cambia con ella. El WPPSI y el WISC-V los administra un psicólogo del consorcio Charlotte Area Independent Schools, y usted contacta directamente con ese psicólogo. El ISEE lo elabora y administra el **Educational Records Bureau**, y las familias de grado 5 se inscriben a través del ERB. Compruebe qué prueba corresponde al grado al que entra su hijo antes de reservar nada.",
+      "of": "e0901ac3",
       "at": [
         "charlotte-latin:guide.bands[1].steps[3].detail"
       ]
     },
     {
-      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria, el mismo día que el plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia.",
-      "of": "46e1a067",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Es el mismo día que el plazo de solicitud de este nivel. Una sola solicitud cubre a todos los hijos de la familia.",
+      "of": "dca8641e",
       "at": [
         "charlotte-latin:guide.bands[1].steps[4].detail"
       ]
@@ -2014,8 +2020,8 @@
       ]
     },
     {
-      "t": "El grado 1 realiza el WPPSI, los grados 2–4 el WISC-V y el grado 5 el ISEE, y la vía de reserva cambia con ella: de un psicólogo de CAIS con quien contacta directamente a inscribirse en el Educational Records Bureau. Confirme qué prueba corresponde al grado de entrada de su hijo antes de reservar. No se publica ninguna fecha límite de documentación completa para este nivel, así que tome la lista de su portal como el inventario autorizado de lo que sigue pendiente, y no se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel: confirme ambas con la oficina de admisiones.",
-      "of": "de9b42bc",
+      "t": "El grado 1 realiza el WPPSI, los grados 2–4 el WISC-V y el grado 5 el ISEE. La forma de reservar cambia con ella. Para el WPPSI y el WISC-V, usted contacta directamente con un psicólogo de CAIS. Para el ISEE, se inscribe en el Educational Records Bureau. Confirme qué prueba corresponde al grado de entrada de su hijo antes de reservar. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina de admisiones.",
+      "of": "906f9af3",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ]
@@ -2094,8 +2100,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y lo concierta la familia. El Visit Day de este nivel hace bastante más que el de los inferiores: «su futuro alumno de Middle School tendrá **una entrevista, realizará una prueba, observará una clase y conocerá a alumnos de Latin**». Tómelo como una jornada de evaluación y no como una visita: tanto la entrevista como un componente de prueba presencial son explícitos en este nivel.",
-      "of": "7e2e5a3c",
+      "t": "Obligatorio, y lo concierta la familia. El Visit Day de este nivel hace bastante más que el de los grados inferiores. El colegio dice que «su futuro alumno de Middle School tendrá **una entrevista, realizará una prueba, observará una clase y conocerá a alumnos de Latin**». Tómelo como una jornada de evaluación y no como una visita. El colegio afirma claramente que la jornada de este nivel incluye tanto la entrevista como una prueba presencial.",
+      "of": "77fb6ddb",
       "at": [
         "charlotte-latin:guide.bands[2].steps[2].detail"
       ]
@@ -2109,8 +2115,8 @@
       ]
     },
     {
-      "t": "Obligatorio: **los aspirantes a los grados 6–8 realizan el ISEE**, y «todas las pruebas de Middle School deben estar realizadas y enviadas antes del **26 de febrero de 2027**». El ISEE lo elabora y administra el **Educational Records Bureau**, y usted se inscribe a través del ERB y no del colegio. Esa fecha del 26 de febrero es la restricción que marca este nivel: **planifique su inscripción hacia atrás desde ella**, porque hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo, no el mismo día.",
-      "of": "570ae04d",
+      "t": "Obligatorio: **los aspirantes a los grados 6–8 realizan el ISEE**, y «todas las pruebas de Middle School deben estar realizadas y enviadas antes del **26 de febrero de 2027**». El ISEE lo elabora y administra el **Educational Records Bureau**. Usted se inscribe a través del ERB, no del colegio. Su plan de pruebas en este nivel depende de esa fecha del 26 de febrero, así que **planifique su inscripción hacia atrás desde ella**. Hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo, no el mismo día.",
+      "of": "c22a6c96",
       "at": [
         "charlotte-latin:guide.bands[2].steps[3].detail"
       ]
@@ -2132,8 +2138,8 @@
       ]
     },
     {
-      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria, seis semanas antes del plazo de la documentación. Una sola solicitud cubre a todos los hijos de la familia.",
-      "of": "f75db188",
+      "t": "Opcional, y con su propio calendario: la solicitud se abre a través de **Clarity** el **15 de septiembre de 2026**. Vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Son seis semanas antes del plazo de la documentación. Una sola solicitud cubre a todos los hijos de la familia.",
+      "of": "44608f2b",
       "at": [
         "charlotte-latin:guide.bands[2].steps[5].detail",
         "charlotte-latin:guide.bands[3].steps[5].detail"
@@ -2148,8 +2154,8 @@
       ]
     },
     {
-      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día, así que planifique su inscripción en el ERB hacia atrás desde esa fecha en lugar de apuntar a ella: hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo. El Visit Day es una jornada de evaluación, no una visita: incluye una entrevista, una prueba presencial y la observación de una clase. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel: confirme ambas con la oficina de admisiones.",
-      "of": "140bd0c5",
+      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día. Así que planifique su inscripción en el ERB hacia atrás desde esa fecha, en lugar de apuntar a ella. Hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo. El Visit Day es una jornada de evaluación, no una visita: incluye una entrevista, una prueba presencial y la observación de una clase. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina de admisiones.",
+      "of": "bb4c3591",
       "at": [
         "charlotte-latin:guide.bands[2].checklistCallout.text"
       ]
@@ -2243,15 +2249,15 @@
       ]
     },
     {
-      "t": "Obligatorio para **los aspirantes a los grados 9–11**, que «realizan el ISEE», y «todas las pruebas de Upper School deben estar realizadas y enviadas antes del **26 de febrero de 2027**». La inscripción es a través del **Educational Records Bureau** y no del colegio, y el 26 de febrero es la restricción que marca este nivel: **planifique su inscripción hacia atrás desde ella**, porque hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo. **No se publica ninguna prueba de acceso para los aspirantes a grado 12**: el requisito publicado cubre solo de noveno a undécimo, así que una familia de grado 12 debería preguntar a la oficina de admisiones qué corresponde.",
-      "of": "4ecd4f4c",
+      "t": "Obligatorio para **los aspirantes a los grados 9–11**, que «realizan el ISEE», y «todas las pruebas de Upper School deben estar realizadas y enviadas antes del **26 de febrero de 2027**». Usted se inscribe a través del **Educational Records Bureau**, no del colegio. Su plan de pruebas en este nivel depende del 26 de febrero, así que **planifique su inscripción hacia atrás desde ella**. Hay que reservar una plaza de examen, realizarlo y obtener la puntuación antes del plazo. **No se publica ninguna prueba de acceso para los aspirantes a grado 12**. El requisito publicado cubre solo los grados 9 a 11, así que una familia de grado 12 debería preguntar a la oficina de admisiones qué corresponde.",
+      "of": "7c6db596",
       "at": [
         "charlotte-latin:guide.bands[3].steps[3].detail"
       ]
     },
     {
-      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día, así que planifique su inscripción en el ERB hacia atrás desde esa fecha en lugar de apuntar a ella. El Visit Day combina una entrevista con una jornada de acompañamiento junto a un Student Ambassador, de modo que su hijo pasa el día como lo haría un alumno de Latin. El requisito de prueba publicado cubre de noveno a undécimo: no se publica nada para los aspirantes a grado 12, así que pregunte a la oficina de admisiones qué corresponde. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel; confirme ambas con la oficina.",
-      "of": "012d1a5d",
+      "t": "Tanto el ISEE como todos los elementos restantes del expediente vencen ese día. Así que planifique su inscripción en el ERB hacia atrás desde esa fecha, en lugar de apuntar a ella. El Visit Day combina una entrevista con una jornada de acompañamiento junto a un Student Ambassador, de modo que su hijo pasa el día como lo haría un alumno de Latin. El requisito de prueba publicado cubre los grados 9 a 11. No se publica nada para los aspirantes a grado 12, así que pregunte a la oficina de admisiones qué corresponde. No se publica ninguna fecha de decisión ni de contrato de matriculación para ningún nivel. Confirme ambas con la oficina.",
+      "of": "5a21d4bf",
       "at": [
         "charlotte-latin:guide.bands[3].checklistCallout.text"
       ]
@@ -2285,8 +2291,8 @@
       ]
     },
     {
-      "t": "La ayuda se gestiona a través de **Clarity**, se abre el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Una sola solicitud cubre a todos los hijos de la familia y «normalmente se completa en 30 minutos o menos». Aparte, se exige un **depósito no reembolsable de $2,500** «en el momento de la matriculación inicial o de la renovación», que «se descuenta del segundo pago de la matrícula»: ningún alumno puede matricularse ni renovar sin él. **No se publica ninguna cuota de solicitud de ayuda** para este ciclo.",
-      "of": "3cf2392e",
+      "t": "La ayuda se gestiona a través de **Clarity**. Se abre el **15 de septiembre de 2026** y vence el **15 de enero de 2027** para entrar en la ronda prioritaria. Una sola solicitud cubre a todos los hijos de la familia y «normalmente se completa en 30 minutos o menos». Aparte, se exige un **depósito no reembolsable de $2,500** «en el momento de la matriculación inicial o de la renovación», que «se descuenta del segundo pago de la matrícula». Ningún alumno puede matricularse ni renovar sin él. **No se publica ninguna cuota de solicitud de ayuda** para este ciclo.",
+      "of": "e0133c73",
       "at": [
         "charlotte-latin:guide.aid.text"
       ]
@@ -2416,8 +2422,8 @@
       ]
     },
     {
-      "t": "No se publica en ningún nivel: confirme con la oficina de admisiones. Todos los calendarios publicados terminan en el plazo de la solicitud o de la documentación, y en ninguna página de admisiones aparece fecha de notificación, hora de notificación ni fecha de contrato de matriculación.",
-      "of": "edcb873e",
+      "t": "No se publica en ningún nivel: confirme con la oficina de admisiones. Todos los calendarios publicados terminan en el plazo de la solicitud o de la documentación. Ninguna página de admisiones da una fecha u hora de envío de las decisiones, ni una fecha para el contrato de matriculación.",
+      "of": "3bb46864",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.all"
       ]
@@ -2539,8 +2545,8 @@
       ]
     },
     {
-      "t": "Se exige un depósito no reembolsable de $2,500 en el momento de la matriculación inicial o de la renovación, y se descuenta del segundo pago de la matrícula. Ningún alumno puede matricularse ni renovar sin él.",
-      "of": "b8b6dd06",
+      "t": "Se exige un depósito no reembolsable de $2,500 cuando un alumno se matricula por primera vez o renueva. Se descuenta del segundo pago de la matrícula. Ningún alumno puede matricularse ni renovar sin él.",
+      "of": "4eeaee80",
       "at": [
         "charlotte-latin:guide.checklist.aidPanel.items[3]"
       ]
@@ -2574,29 +2580,17 @@
       ]
     },
     {
-      "t": "Las fechas corresponden al ciclo de ingreso 2026–27 según se publican en charlottelatin.org (consultado en agosto de 2026): las páginas del proceso de solicitud, de matrícula y ayuda financiera, y de admisiones. Los elementos marcados como «confirmar» están o bien detrás del portal de solicitudes o bien sin publicar, incluidas todas las fechas de decisión y de contrato de matriculación. Las fechas del ciclo cambian de un año a otro, y estas páginas han mostrado un conjunto distinto en una temporada anterior: verifíquelas en las páginas en vivo antes de actuar. Compilado por Charlotte School Compare; sin vinculación con Charlotte Latin School.",
-      "of": "b7abdac7",
+      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en charlottelatin.org (consultado en agosto de 2026). Proceden de las páginas del proceso de solicitud, de matrícula y ayuda financiera, y de admisiones. Los elementos marcados como «confirmar» o bien aparecen solo dentro del portal de solicitudes o bien no se publican. Entre ellos están todas las fechas de decisión y de contrato de matriculación. Las fechas del ciclo cambian de un año a otro, y estas páginas han mostrado un conjunto distinto en una temporada anterior. Así que verifíquelas en las páginas en vivo antes de actuar. Compilado por Charlotte School Compare; sin vinculación con Charlotte Latin School.",
+      "of": "6236a7fa",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ]
     },
     {
-      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los pasos en orden, los plazos de 2027–28 y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. Tres documentos publicados, pero cuatro procesos reales: el plazo de solicitud se divide entre Kindergarten→1, mientras que las pruebas se dividen un grado más tarde, entre 1→2.",
-      "of": "a8387620",
+      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los pasos en orden, los plazos de 2027–28 y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. El colegio publica tres documentos, pero en realidad hay cuatro procesos. El plazo de solicitud cambia entre Kindergarten→1, mientras que las pruebas cambian un grado más tarde, entre 1→2.",
+      "of": "cb3a4ab9",
       "at": [
         "charlotte-christian:guide.headline"
-      ]
-    },
-    {
-      "t": "ciclo de ingreso 2027–28",
-      "of": "639aa0b9",
-      "at": [
-        "charlotte-christian:guide.cycle",
-        "charlotte-country-day:guide.cycle",
-        "covenant-day:guide.cycle",
-        "hickory-grove-christian:guide.cycle",
-        "trinity-episcopal:guide.cycle",
-        "charlotte-prep:guide.cycle"
       ]
     },
     {
@@ -2646,8 +2640,8 @@
       ]
     },
     {
-      "t": "Una única columna vertebral en todos los niveles: consultar y unirse a myCCS → solicitar con la cuota de $100 → cargar la partida de nacimiento → enviar recomendaciones y expedientes → completar la prueba CAIS o el ISEE → conocer el colegio (una cita de juego para los más pequeños, una entrevista familiar para el resto) → decisión en la pestaña de decisiones de myCCS → devolver el contrato de matriculación. Lo que cambia es qué evaluación, qué plazo de solicitud y en qué vía de decisión aterriza.",
-      "of": "abbf5aa0",
+      "t": "Todos los niveles siguen los mismos ocho pasos. Primero: consultar y unirse a myCCS → solicitar con la cuota de $100 → cargar la partida de nacimiento → enviar recomendaciones y expedientes. Después: completar la prueba CAIS o el ISEE → conocer el colegio (una cita de juego para los más pequeños, una entrevista familiar para el resto). Por último: la decisión en la pestaña de decisiones de myCCS → devolver el contrato de matriculación. Lo que cambia es qué evaluación, qué plazo de solicitud y en qué vía de decisión aterriza.",
+      "of": "754f8edc",
       "at": [
         "charlotte-christian:guide.spineNote"
       ]
@@ -2830,8 +2824,8 @@
       ]
     },
     {
-      "t": "«Contacte a un psicólogo de CAIS para programar la prueba WPPSI-IV (Wechsler Preschool and Primary Scale of Intelligence - Fourth Edition). Solicite que los resultados se envíen a Charlotte Christian School». Usted reserva al psicólogo directamente desde la lista de proveedores del folleto de CAIS: el colegio no lo organiza, y los honorarios se pagan al psicólogo en lugar de al colegio.",
-      "of": "1ccd8530",
+      "t": "«Contacte a un psicólogo de CAIS para programar la prueba WPPSI-IV (Wechsler Preschool and Primary Scale of Intelligence - Fourth Edition). Solicite que los resultados se envíen a Charlotte Christian School». Usted reserva al psicólogo directamente desde la lista de proveedores del folleto de CAIS. El colegio no lo organiza. Los honorarios se pagan al psicólogo, no al colegio.",
+      "of": "e81826a4",
       "at": [
         "charlotte-christian:guide.bands[0].steps[5].detail"
       ]
@@ -2867,8 +2861,8 @@
       ]
     },
     {
-      "t": "La decisión se publica en la pestaña de decisiones de myCCS el **26 de febrero de 2027 a las 4 p.m.** —seis semanas antes que la vía de los grados 1–12— y el contrato de matriculación firmado vence el **5 de marzo de 2027 al mediodía**. El contrato conlleva una **cuota de matriculación de $1,500 por estudiante**, no reembolsable y aplicada al saldo de la matrícula, más una **cuota de $1,250 para familias nuevas** la primera vez que una familia se inscribe.",
-      "of": "246dbdeb",
+      "t": "El **26 de febrero de 2027 a las 4 p.m.**, la decisión se publica en la pestaña de decisiones de myCCS. Son seis semanas antes que la vía de los grados 1–12. El contrato de matriculación firmado vence el **5 de marzo de 2027 al mediodía**. El contrato conlleva una **cuota de matriculación de $1,500 por estudiante**, no reembolsable y aplicada al saldo de la matrícula. También conlleva una **cuota de $1,250 para familias nuevas** la primera vez que una familia se inscribe.",
+      "of": "e89a98a8",
       "at": [
         "charlotte-christian:guide.bands[0].steps[7].detail"
       ]
@@ -3139,8 +3133,8 @@
       ]
     },
     {
-      "t": "El grado 1 está cubierto por las sesiones JK–K del colegio en el calendario publicado: **8 de octubre de 2026 a las 8:30 a.m.** y **22 de octubre de 2026 a las 9:30 a.m.** No se menciona ningún evento aparte para el grado 1; contacte con admisiones para concertar una visita si ninguna de las dos fechas le sirve.",
-      "of": "0f2cd69c",
+      "t": "Las sesiones JK–K del colegio del **8 de octubre de 2026 a las 8:30 a.m.** y del **22 de octubre de 2026 a las 9:30 a.m.** también cubren el grado 1 en el calendario publicado. No se menciona ningún evento aparte para el grado 1. Si ninguna de las dos fechas le sirve, contacte con admisiones para concertar una visita.",
+      "of": "dbceed73",
       "at": [
         "charlotte-christian:guide.bands[1].steps[1].detail"
       ]
@@ -3175,8 +3169,8 @@
       ]
     },
     {
-      "t": "El grado 1 pertenece al mismo proceso JK–Grado 1 que el nivel más pequeño, así que le corresponde la **cita de juego de 45 minutos en el campus** en lugar de la entrevista familiar a la que asisten los niveles mayores, y la oficina de admisiones la programa una vez recibida su solicitud.",
-      "of": "2fd2c70a",
+      "t": "El grado 1 pertenece al mismo proceso JK–Grado 1 que el nivel más pequeño. Así que a los niños que solicitan este grado les corresponde la **cita de juego de 45 minutos en el campus**, no la entrevista familiar a la que asisten los niveles mayores. La oficina de admisiones programa la cita de juego una vez recibida su solicitud.",
+      "of": "237dfc8f",
       "at": [
         "charlotte-christian:guide.bands[1].steps[6].detail"
       ]
@@ -3195,8 +3189,8 @@
       ]
     },
     {
-      "t": "La decisión se publica en la pestaña de decisiones de myCCS el **9 de abril de 2027 a las 4 p.m.** y el contrato de matriculación vence el **16 de abril de 2027 al mediodía**: la vía de los grados 1–12, seis semanas por detrás de JK/K. El contrato conlleva la **cuota de matriculación de $1,500 por estudiante** y, para una familia nueva en el colegio, la **cuota de $1,250 para familias nuevas**.",
-      "of": "e6f7f017",
+      "t": "Este nivel va seis semanas por detrás de JK/K, en la vía de los grados 1–12. La decisión se publica en la pestaña de decisiones de myCCS el **9 de abril de 2027 a las 4 p.m.** y el contrato de matriculación vence el **16 de abril de 2027 al mediodía**. El contrato conlleva la **cuota de matriculación de $1,500 por estudiante**. Para una familia nueva en el colegio, también conlleva la **cuota de $1,250 para familias nuevas**.",
+      "of": "8d6cdb51",
       "at": [
         "charlotte-christian:guide.bands[1].steps[7].detail"
       ]
@@ -3325,15 +3319,15 @@
       ]
     },
     {
-      "t": "Condicionada en lugar de programada por adelantado: «**Una vez que los materiales del expediente de un solicitante estén completos, se programará una entrevista familiar**». Los días de visita del estudiante son aparte y son **por invitación**, no algo que una familia solicite. Así que la fecha de la entrevista es consecuencia de terminar el papeleo temprano, que es el argumento práctico para no apurar hasta el 26 de febrero.",
-      "of": "c74e90f0",
+      "t": "La entrevista no se programa por adelantado. El colegio dice: «**Una vez que los materiales del expediente de un solicitante estén completos, se programará una entrevista familiar**». Los días de visita del estudiante son aparte y son **por invitación**, no algo que una familia solicite. Así que la fecha de la entrevista depende de lo pronto que termine el papeleo. Esa es la razón práctica para no esperar hasta el 26 de febrero.",
+      "of": "93cfe878",
       "at": [
         "charlotte-christian:guide.bands[2].steps[5].detail"
       ]
     },
     {
-      "t": "La decisión se publica en la pestaña de decisiones de myCCS el **9 de abril de 2027 a las 4 p.m.**, con el contrato de matriculación a entregar el **16 de abril de 2027 al mediodía**, **excepto** para un hermano de un solicitante de JK–K, que se decide en la vía JK–K el **26 de febrero de 2027** independientemente del grado solicitado. El contrato conlleva la **cuota de matriculación de $1,500 por estudiante**, más la **cuota de $1,250 para familias nuevas** si la familia es nueva en el colegio.",
-      "of": "f426fd87",
+      "t": "La decisión se publica en la pestaña de decisiones de myCCS el **9 de abril de 2027 a las 4 p.m.**, y el contrato de matriculación vence el **16 de abril de 2027 al mediodía**. Esto se aplica a todos **excepto** a un hermano de un solicitante de JK–K. Ese hermano se decide en la vía JK–K el **26 de febrero de 2027**, sea cual sea el grado solicitado. El contrato conlleva la **cuota de matriculación de $1,500 por estudiante**. Para una familia nueva en el colegio, también conlleva la **cuota de $1,250 para familias nuevas**.",
+      "of": "8669e603",
       "at": [
         "charlotte-christian:guide.bands[2].steps[6].detail"
       ]
@@ -3514,8 +3508,8 @@
       ]
     },
     {
-      "t": "La ruptura con los niveles más pequeños: sin psicólogo y sin cita con CAIS. «Inscríbase para el Independent School Entrance Exam (ISEE) en www.iseetest.org o con ISEE (1-800-989-3721). Solicite que los resultados se envíen a Charlotte Christian School». Charlotte Christian organiza su propia jornada de pruebas el **23 de enero de 2027**, y otros seis colegios de CAIS ofrecen fechas entre diciembre de 2026 y febrero de 2027 a las que una familia puede acudir en su lugar; reserve con antelación suficiente para que los resultados lleguen al colegio antes del 26 de febrero.",
-      "of": "9d66fcb8",
+      "t": "La ruptura con los niveles más pequeños: sin psicólogo y sin cita con CAIS. «Inscríbase para el Independent School Entrance Exam (ISEE) en www.iseetest.org o con ISEE (1-800-989-3721). Solicite que los resultados se envíen a Charlotte Christian School». Charlotte Christian organiza su propia jornada de pruebas el **23 de enero de 2027**. Otros seis colegios de CAIS ofrecen fechas entre diciembre de 2026 y febrero de 2027, y una familia puede hacer la prueba en uno de ellos. Reserve con antelación suficiente para que los resultados lleguen al colegio antes del 26 de febrero.",
+      "of": "b2d57494",
       "at": [
         "charlotte-christian:guide.bands[3].steps[5].detail"
       ]
@@ -3528,8 +3522,8 @@
       ]
     },
     {
-      "t": "La decisión se publica en la pestaña de decisiones de myCCS el **9 de abril de 2027 a las 4 p.m.**, con el contrato de matriculación a entregar el **16 de abril de 2027 al mediodía**, **excepto** para un hermano de un solicitante de JK–K, que se decide el **26 de febrero de 2027**. El contrato conlleva la **cuota de matriculación de $1,500 por estudiante**; una familia nueva en el colegio también paga la **cuota de $1,250 para familias nuevas**, que no se aplica a los estudiantes internacionales.",
-      "of": "23e546f6",
+      "t": "La decisión se publica en la pestaña de decisiones de myCCS el **9 de abril de 2027 a las 4 p.m.**, y el contrato de matriculación vence el **16 de abril de 2027 al mediodía**. Esto se aplica a todos **excepto** a un hermano de un solicitante de JK–K, que se decide el **26 de febrero de 2027**. El contrato conlleva la **cuota de matriculación de $1,500 por estudiante**. Una familia nueva en el colegio también paga la **cuota de $1,250 para familias nuevas**, que no se aplica a los estudiantes internacionales.",
+      "of": "2cbd3723",
       "at": [
         "charlotte-christian:guide.bands[3].steps[7].detail"
       ]
@@ -3844,8 +3838,8 @@
       ]
     },
     {
-      "t": "Cuota de solicitud no reembolsable de $100 · el portal myCCS y su lista de verificación personalizada · una partida de nacimiento, más los acuerdos de custodia para las familias con dos hogares · una cuota de matriculación de $1,500 al firmar el contrato · admisiones continuas después de los plazos de prioridad, donde el espacio del grado lo permita",
-      "of": "a62c3d97",
+      "t": "Cuota de solicitud no reembolsable de $100 · el portal myCCS y su lista de verificación personalizada · una partida de nacimiento, más los acuerdos de custodia para las familias con dos hogares · una cuota de matriculación de $1,500 al firmar el contrato · admisiones continuas después de los plazos de prioridad, si hay plazas en el grado",
+      "of": "e524da52",
       "at": [
         "charlotte-christian:guide.comparison.rows[10].cells.all"
       ]
@@ -3907,8 +3901,8 @@
       ]
     },
     {
-      "t": "Solicite a través de Clarity, la plataforma de asistencia financiera del colegio: sustituyó a SSS by NAIS, así que ya no se usa ningún código de colegio. La solicitud se completa en menos de una hora, funciona bien en el móvil y tiene su propia tarifa de solicitud de $65, distinta de la tarifa de admisión de $100.",
-      "of": "aea7e2ab",
+      "t": "Solicite a través de Clarity, la plataforma de asistencia financiera del colegio. Sustituyó a SSS by NAIS, así que ya no se usa ningún código de colegio. La solicitud se completa en menos de una hora y funciona en el móvil. Tiene su propia tarifa de solicitud de $65, distinta de la tarifa de admisión de $100.",
+      "of": "43b1d54d",
       "at": [
         "charlotte-christian:guide.checklist.aidPanel.items[0]"
       ]
@@ -3928,8 +3922,8 @@
       ]
     },
     {
-      "t": "Clarity ofrece cada otoño seminarios web gratuitos para las familias sobre el proceso de solicitud y de verificación fiscal: 29 de septiembre (10 p.m.), 30 de septiembre (6 p.m.), 27 de octubre (10 p.m.), 28 de octubre (6 p.m.) y 8 de diciembre de 2026 (8:30 p.m. EST), cada uno con su propio enlace de inscripción.",
-      "of": "261ed4ce",
+      "t": "Clarity ofrece cada otoño seminarios web gratuitos para las familias sobre la solicitud y sobre cómo se verifica su información fiscal. Las fechas son el 29 de septiembre (10 p.m.), el 30 de septiembre (6 p.m.), el 27 de octubre (10 p.m.), el 28 de octubre (6 p.m.) y el 8 de diciembre de 2026 (8:30 p.m. EST). Cada uno tiene su propio enlace de inscripción.",
+      "of": "c3d16473",
       "at": [
         "charlotte-christian:guide.checklist.aidPanel.items[3]"
       ]
@@ -3963,8 +3957,8 @@
       ]
     },
     {
-      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en los PDF de admisiones de charlottechristian.com (recuperados en agosto de 2026) — las listas de verificación del proceso de solicitud y el calendario de admisiones, que el colegio actualizó el 26 de agosto de 2026 — y en la página Apply, que el colegio reescribió el 1 de septiembre de 2026 y de la que procede la etiqueta del ciclo. La información sobre ayuda financiera procede de la página de matrícula en vivo (recuperada el 14 de septiembre de 2026); el PDF de ayuda financiera más antiguo corresponde a un ciclo anterior ya cerrado y deliberadamente no se usa aquí. Las fechas del ciclo cambian de un año a otro: verifíquelas con el calendario en vivo antes de actuar. Compilado por Charlotte School Compare; no está afiliado a Charlotte Christian School.",
-      "of": "4412b5be",
+      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en los PDF de admisiones de charlottechristian.com (recuperados en agosto de 2026). Son las listas de verificación del proceso de solicitud y el calendario de admisiones, que el colegio actualizó el 26 de agosto de 2026. Las fechas también proceden de la página Apply, que el colegio reescribió el 1 de septiembre de 2026 y que da la etiqueta del ciclo. La información sobre ayuda financiera procede de la página de matrícula en vivo (recuperada el 14 de septiembre de 2026). El PDF de ayuda financiera más antiguo corresponde a un ciclo anterior ya cerrado, y deliberadamente no se usa aquí. Las fechas del ciclo cambian de un año a otro, así que verifíquelas con el calendario en vivo antes de actuar. Compilado por Charlotte School Compare; no está afiliado a Charlotte Christian School.",
+      "of": "4da20ad5",
       "at": [
         "charlotte-christian:guide.checklist.disclaimer"
       ]
@@ -4005,8 +3999,8 @@
       ]
     },
     {
-      "t": "Seis pasos publicados en todos los niveles: inicie su recorrido → presente una solicitud → realice una prueba de ingreso → reúnase con un docente → aporte los materiales de apoyo → siga su progreso. Lo que cambia es el paso 3 (qué prueba), el plazo de solicitud y en qué vía de decisión queda.",
-      "of": "15531cc1",
+      "t": "Todos los niveles tienen los mismos seis pasos publicados. Primero: inicie su recorrido → presente una solicitud → realice una prueba de ingreso. Después: reúnase con un docente → aporte los materiales de apoyo → siga su progreso. Lo que cambia es el paso 3 (qué prueba), el plazo de solicitud y en qué vía de decisión queda.",
+      "of": "faf61b7e",
       "at": [
         "charlotte-country-day:guide.spineNote"
       ]
@@ -4167,8 +4161,8 @@
       ]
     },
     {
-      "t": "Las decisiones se publican el 26 de febrero y su respuesta vence el 5 de marzo. El contrato de matriculación conlleva un depósito del 10% de la matrícula, acreditado al total; las familias con una solicitud de ayuda en trámite pagan un depósito reducido y reembolsable si la ayuda concedida resulta insuficiente.",
-      "of": "79f8b611",
+      "t": "Las decisiones se publican el 26 de febrero y su respuesta vence el 5 de marzo. El contrato de matriculación conlleva un depósito del 10% de la matrícula, acreditado al total. Las familias con una solicitud de ayuda en trámite pagan un depósito reducido, que se reembolsa si la ayuda concedida resulta insuficiente.",
+      "of": "083d9a88",
       "at": [
         "charlotte-country-day:guide.bands[0].steps[7].detail"
       ]
@@ -4181,8 +4175,8 @@
       ]
     },
     {
-      "t": "Este nivel funciona con un **calendario enteramente anterior**: las solicitudes vencen el 2 de enero en lugar del 15 de enero, las decisiones se publican el 26 de febrero en lugar del 9 de abril. Además conlleva dos requisitos que los niveles mayores no tienen: una **recomendación del docente con plazo propio** y una **visita al aula** para su hijo.",
-      "of": "ea8cc2e1",
+      "t": "Este nivel funciona con un **calendario enteramente anterior**. Las solicitudes vencen el 2 de enero en lugar del 15 de enero, y las decisiones se publican el 26 de febrero en lugar del 9 de abril. Además tiene dos requisitos que los niveles mayores no tienen: una **recomendación del docente con plazo propio** y una **visita al aula** para su hijo.",
+      "of": "32959396",
       "at": [
         "charlotte-country-day:guide.bands[0].watchOuts[0].text"
       ]
@@ -4372,8 +4366,8 @@
       ]
     },
     {
-      "t": "Qué instrumento se usa depende del grado, y la división no coincide con este nivel: **WPPSI-IV para el grado 1, WISC-V para quienes pasan a los grados 2–4**. Cualquiera de los dos cuesta $300, se reserva y se paga directamente a un psicólogo designado por CAIS; las citas se abren el día siguiente al Labor Day y se reserva con un solo psicólogo.",
-      "of": "6d06a7af",
+      "t": "La prueba depende del grado, y la división no coincide con este nivel: **WPPSI-IV para el grado 1, WISC-V para quienes pasan a los grados 2–4**. Cualquiera de las dos cuesta $300. Usted la reserva y la paga directamente a un psicólogo designado por CAIS. Las citas se abren el día siguiente al Labor Day, y se reserva con un solo psicólogo.",
+      "of": "97b8a14a",
       "at": [
         "charlotte-country-day:guide.bands[1].steps[4].detail"
       ]
@@ -4394,8 +4388,8 @@
       ]
     },
     {
-      "t": "Las decisiones se publican el 9 de abril y su respuesta vence el 16 de abril. El contrato de matriculación conlleva un depósito del 10% de la matrícula, acreditado al total; las familias con una solicitud de ayuda en trámite pagan un depósito reducido y reembolsable si la ayuda concedida resulta insuficiente.",
-      "of": "a73714fb",
+      "t": "Las decisiones se publican el 9 de abril y su respuesta vence el 16 de abril. El contrato de matriculación conlleva un depósito del 10% de la matrícula, acreditado al total. Las familias con una solicitud de ayuda en trámite pagan un depósito reducido, que se reembolsa si la ayuda concedida resulta insuficiente.",
+      "of": "c4af1af4",
       "at": [
         "charlotte-country-day:guide.bands[1].steps[7].detail",
         "charlotte-country-day:guide.bands[2].steps[7].detail"
@@ -4573,8 +4567,8 @@
       ]
     },
     {
-      "t": "La solicitud de Clarity (cuota de $65) vence el **15 de enero** si usted es una familia nueva: la fecha del 1 de noviembre que el colegio también publica corresponde a las familias ya matriculadas, así que no es la suya. Las ayudas se conceden **únicamente por necesidad económica** (no hay becas por méritos), la presentan tanto el progenitor con custodia como el que no la tiene, \"las decisiones de admisión se toman por separado de las decisiones de ayuda financiera\", y toda ayuda concedida llega junto con el contrato de matriculación.",
-      "of": "2353ae2a",
+      "t": "Si usted solicita como familia nueva, la solicitud de Clarity (cuota de $65) vence el **15 de enero**. El colegio también publica una fecha del 1 de noviembre, pero corresponde a las familias ya matriculadas, así que no es la suya. Las ayudas se conceden **únicamente por necesidad económica** (no hay becas por méritos). Ambos progenitores presentan la solicitud, tengan o no la custodia. El colegio dice que \"las decisiones de admisión se toman por separado de las decisiones de ayuda financiera\", y toda ayuda concedida llega junto con el contrato de matriculación.",
+      "of": "31ccf70b",
       "at": [
         "charlotte-country-day:guide.aid.text"
       ]
@@ -4809,8 +4803,8 @@
       ]
     },
     {
-      "t": "Las decisiones de admisión se toman por separado de las decisiones de ayuda financiera, y toda ayuda concedida se comunica junto con el contrato de matriculación. Las familias que solicitan ayuda pagan un depósito reducido, reembolsable si la ayuda resulta insuficiente.",
-      "of": "104ed0e6",
+      "t": "Las decisiones de admisión se toman por separado de las decisiones de ayuda financiera. Toda ayuda concedida se envía junto con el contrato de matriculación. Las familias que solicitan ayuda pagan un depósito reducido. Se reembolsa si la ayuda no es suficiente.",
+      "of": "8acd4997",
       "at": [
         "charlotte-country-day:guide.checklist.aidPanel.items[2]"
       ]
@@ -4844,8 +4838,8 @@
       ]
     },
     {
-      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los seis pasos publicados en orden, las fechas límite de 2027–28 y la evaluación de ese nivel, además de una lista de verificación imprimible para llevar consigo. Un mismo recorrido para todos los solicitantes, pero la fecha límite se separa entre Kindergarten y 1.º, mientras que la prueba cambia dos veces dentro de los grados 1–5.",
-      "of": "84555f94",
+      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: los seis pasos publicados en orden, las fechas límite de 2027–28 y la evaluación de ese nivel. También recibe una lista de verificación imprimible para llevar consigo. Todos los solicitantes siguen los mismos pasos principales. Pero la fecha límite cambia entre Kindergarten y 1.º, y la prueba cambia dos veces dentro de los grados 1–5.",
+      "of": "2a3e83a6",
       "at": [
         "covenant-day:guide.headline"
       ]
@@ -4872,8 +4866,8 @@
       ]
     },
     {
-      "t": "Todo se gestiona a través del portal FACTS/RenWeb del colegio: solicitar información, presentar la solicitud, pagar la cuota de $100 y proporcionar las direcciones de correo electrónico que envían los formularios de recomendación y solicitan el expediente académico de su hijo, todo desde el mismo formulario.",
-      "of": "a55dc2c6",
+      "t": "Todo se gestiona a través del portal FACTS/RenWeb del colegio. Desde ese mismo formulario, usted solicita información, presenta la solicitud y paga la cuota de $100. También introduce las direcciones de correo electrónico a las que se envían los formularios de recomendación y la solicitud del expediente académico de su hijo.",
+      "of": "536fbfce",
       "at": [
         "covenant-day:guide.rules[0].text"
       ]
@@ -4886,15 +4880,15 @@
       ]
     },
     {
-      "t": "Covenant Day mantiene admisiones continuas, pero el 2 de enero para JK/K y el 15 de enero para los grados 1–11 son las fechas que aseguran una decisión de primera ronda. Una solicitud posterior se sigue considerando si hay plazas disponibles, y hasta que las decisiones prioritarias se completen el 9 de abril, el colegio no realizará pruebas en el campus, jornadas de acompañamiento ni entrevistas con los padres para esa solicitud.",
-      "of": "79d909b5",
+      "t": "Covenant Day mantiene admisiones continuas. Solicitar antes de las fechas prioritarias es lo que asegura una decisión de primera ronda: el 2 de enero para JK/K y el 15 de enero para los grados 1–11. Una solicitud posterior se sigue considerando si hay plazas disponibles. Pero hasta que las decisiones prioritarias se completen el 9 de abril, el colegio no realizará pruebas en el campus, jornadas de acompañamiento ni entrevistas con los padres para una solicitud posterior.",
+      "of": "f1498859",
       "at": [
         "covenant-day:guide.rules[1].text"
       ]
     },
     {
-      "t": "Un mismo recorrido en todos los niveles: concertar una visita → presentar la solicitud en línea con la cuota de $100 → completar la evaluación de admisión → hacer que se envíen los formularios de recomendación → conocer el colegio en la entrevista con los padres y una visita al campus → recibir la decisión y devolver el contrato. Lo que cambia es qué instrumento de evaluación realiza su hijo, en qué consiste la visita al campus, si se entrevista al estudiante y en qué calendario se encuentra.",
-      "of": "c783aafc",
+      "t": "Todos los niveles siguen los mismos seis pasos. Primero: concertar una visita → presentar la solicitud en línea con la cuota de $100 → completar la evaluación de admisión. Después: hacer que se envíen los formularios de recomendación → conocer el colegio en la entrevista con los padres y una visita al campus → recibir la decisión y devolver el contrato. Lo que cambia es qué prueba de evaluación realiza su hijo y en qué consiste la visita al campus. Los niveles también se diferencian en si se entrevista al estudiante y en qué calendario se encuentra.",
+      "of": "74a94af6",
       "at": [
         "covenant-day:guide.spineNote"
       ]
@@ -4939,8 +4933,8 @@
       ]
     },
     {
-      "t": "Dos semanas antes que todos los demás grados, y todo el calendario de JK/K se adelanta con ella. La cuota **no es reembolsable** y se cobra por cada solicitud. Se publica una orientación de edad: el niño **debe tener cuatro años cumplidos antes del 1 de marzo de 2027** para solicitar JK, y **cinco años antes del 1 de junio de 2027** para solicitar kindergarten. La ubicación entre ambos niveles la decide la Oficina de Admisiones, ponderando la fecha de nacimiento junto con una evaluación individual de la madurez del niño: social, emocional, física y académica.",
-      "of": "160e1abd",
+      "t": "Esta fecha límite es dos semanas antes que la de todos los demás grados, y todo el calendario de JK/K se adelanta con ella. La cuota **no es reembolsable** y se cobra por cada solicitud. Se publica una orientación de edad: el niño **debe tener cuatro años cumplidos antes del 1 de marzo de 2027** para solicitar JK, y **cinco años antes del 1 de junio de 2027** para solicitar kindergarten. La Oficina de Admisiones decide cuál de los dos niveles corresponde a su hijo. Pondera la fecha de nacimiento junto con una evaluación individual de la madurez del niño: social, emocional, física y académica.",
+      "of": "0253aeb3",
       "at": [
         "covenant-day:guide.bands[0].steps[1].detail"
       ]
@@ -4953,8 +4947,8 @@
       ]
     },
     {
-      "t": "Los solicitantes de JK y kindergarten realizan la **Weschler Preschool and Primary Scale of Intelligence (WPPSi)** —la grafía es la del propio colegio—, administrada por un psicólogo cualificado. **Usted mismo concierta la cita, directamente con el psicólogo**; el colegio no la gestiona, y los honorarios se pagan al psicólogo y no a Covenant Day. Resérvela pronto: comparte la fecha límite del **1 de febrero de 2027** con sus documentos justificativos.",
-      "of": "47eba077",
+      "t": "Los solicitantes de JK y kindergarten realizan la **Weschler Preschool and Primary Scale of Intelligence (WPPSi)**. Esta grafía es la del propio colegio. La prueba la administra un psicólogo cualificado. **Usted mismo concierta la cita, directamente con el psicólogo**. El colegio no la gestiona, y los honorarios se pagan al psicólogo, no a Covenant Day. Resérvela pronto: la prueba comparte la fecha límite del **1 de febrero de 2027** con sus documentos justificativos.",
+      "of": "410154fb",
       "at": [
         "covenant-day:guide.bands[0].steps[2].detail"
       ]
@@ -4969,8 +4963,8 @@
       ]
     },
     {
-      "t": "En este nivel se exigen dos: una **recomendación de un docente de preescolar** y una **recomendación de un pastor**; el formulario del pastor se exige en todos los grados, desde JK hasta 11.º. Ambos se completan en línea, de modo que las direcciones de correo electrónico correctas que usted introduce en la solicitud son las que los activan. Si facilita el correo electrónico de una secretaría académica para solicitar el expediente, tenga en cuenta que la autorización es amplia: abarca el expediente académico completo, las puntuaciones de las pruebas de inteligencia y rendimiento, cualquier evaluación psicológica, los registros de conducta y asistencia y el historial médico.",
-      "of": "1c6eb3b1",
+      "t": "En este nivel se exigen dos: una **recomendación de un docente de preescolar** y una **recomendación de un pastor**. El formulario del pastor se exige en todos los grados, desde JK hasta 11.º. Ambos se completan en línea. Se envían a las direcciones de correo electrónico que usted introduce en la solicitud, así que introdúzcalas con cuidado. Si facilita el correo electrónico de una secretaría académica para solicitar el expediente, da una autorización amplia. Abarca el expediente académico completo, las puntuaciones de las pruebas de inteligencia y rendimiento, cualquier evaluación psicológica, los registros de conducta y asistencia y el historial médico.",
+      "of": "bb8f4875",
       "at": [
         "covenant-day:guide.bands[0].steps[3].detail"
       ]
@@ -4996,22 +4990,22 @@
       ]
     },
     {
-      "t": "La oficina de admisiones envía un enlace para concertar su entrevista con la Directora de Admisiones. Covenant Day es un **colegio cristiano del pacto**: colabora con familias en las que **al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local**, y durante la entrevista se pedirá a los padres que **hablen de su testimonio cristiano**. La visita de su hijo es la **Little Lions Assessment**, realizada con un grupo reducido de solicitantes del mismo grado; a esta edad no hay entrevista con el estudiante.",
-      "of": "7ead26ba",
+      "t": "La oficina de admisiones envía un enlace para concertar su entrevista con la Directora de Admisiones. Covenant Day es un **colegio cristiano del pacto**. Colabora con familias en las que **al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local**. Durante la entrevista se pedirá a los padres que **hablen de su testimonio cristiano**. La visita de su hijo es la **Little Lions Assessment**, realizada con un grupo reducido de solicitantes del mismo grado. A esta edad no hay entrevista con el estudiante.",
+      "of": "79f4b19b",
       "at": [
         "covenant-day:guide.bands[0].steps[4].detail"
       ]
     },
     {
-      "t": "Las decisiones prioritarias se envían por correo electrónico el **26 de febrero de 2027 a las 4:00 p. m.** —seis semanas antes que en el recorrido de los grados 1–11— y el contrato firmado vence el **5 de marzo de 2027 al mediodía**. La matriculación conlleva un **depósito no reembolsable de $1,000** por estudiante, que se aplica a la matrícula del año.",
-      "of": "cb5a54ff",
+      "t": "Las decisiones prioritarias se envían por correo electrónico el **26 de febrero de 2027 a las 4:00 p. m.**, seis semanas antes que en el recorrido de los grados 1–11. El contrato firmado vence el **5 de marzo de 2027 al mediodía**. La matriculación conlleva un **depósito no reembolsable de $1,000** por estudiante, que se aplica a la matrícula del año.",
+      "of": "bfa63d78",
       "at": [
         "covenant-day:guide.bands[0].steps[5].detail"
       ]
     },
     {
-      "t": "Junior Kindergarten y kindergarten solicitan dos semanas antes que el resto de los grados y reciben respuesta seis semanas antes, el 26 de febrero. Los documentos justificativos y la evaluación WPPSi vencen ambos el 1 de febrero, y esa prueba la concierta usted mismo con un psicólogo cualificado. Solicitar después del 2 de enero significa que no habrá pruebas en el campus, ni visita de acompañamiento, ni entrevista con los padres hasta que las decisiones prioritarias se completen el 9 de abril.",
-      "of": "c38f1439",
+      "t": "Junior Kindergarten y kindergarten solicitan dos semanas antes que el resto de los grados. Reciben respuesta seis semanas antes, el 26 de febrero. Los documentos justificativos y la evaluación WPPSi vencen ambos el 1 de febrero. Esa prueba la concierta usted mismo con un psicólogo cualificado. Si solicita después del 2 de enero, no habrá pruebas en el campus, ni visita de acompañamiento, ni entrevista con los padres hasta que las decisiones prioritarias se completen el 9 de abril.",
+      "of": "699ca6cd",
       "at": [
         "covenant-day:guide.bands[0].checklistCallout.text"
       ]
@@ -5201,15 +5195,15 @@
       ]
     },
     {
-      "t": "**El instrumento cambia dos veces dentro de este nivel.** Los solicitantes de 1.º realizan la **Weschler Preschool and Primary Scale of Intelligence (WPPSi)** junto con los de JK/K; los de **grados 2–4** realizan la **Weschler Intelligence Scale for Children (WISC V)**; y los de **grado 5** realizan el **Independent School Entrance Exam (ISEE)** junto con los solicitantes de secundaria y bachillerato. La WPPSi y la WISC V las administra un psicólogo cualificado y **usted mismo concierta la cita**. Para el grado 5, Covenant Day administra el ISEE en el campus el **12 de diciembre de 2026**, y las familias también pueden inscribirse a través del sitio del propio ISEE; **todas las pruebas de secundaria y bachillerato deben completarse y entregarse antes del 26 de febrero de 2027**. Las grafías anteriores son las del propio colegio.",
-      "of": "d47d977b",
+      "t": "**La prueba cambia dos veces dentro de este nivel.** Los solicitantes de 1.º realizan la **Weschler Preschool and Primary Scale of Intelligence (WPPSi)** junto con los de JK/K. Los de **grados 2–4** realizan la **Weschler Intelligence Scale for Children (WISC V)**. Los de **grado 5** realizan el **Independent School Entrance Exam (ISEE)** junto con los solicitantes de secundaria y bachillerato. La WPPSi y la WISC V las administra un psicólogo cualificado, y **usted mismo concierta la cita**. Para el grado 5, Covenant Day ofrece el ISEE en el campus el **12 de diciembre de 2026**. Las familias también pueden inscribirse a través del sitio del propio ISEE. **Todas las pruebas de secundaria y bachillerato deben completarse y entregarse antes del 26 de febrero de 2027**. Las grafías anteriores son las del propio colegio.",
+      "of": "4d4918b0",
       "at": [
         "covenant-day:guide.bands[1].steps[2].detail"
       ]
     },
     {
-      "t": "En este nivel se exigen dos: una **recomendación de un docente de primaria** y una **recomendación de un pastor**, que se exige en todos los grados, desde JK hasta 11.º. Ambos se completan en línea desde las direcciones de correo electrónico que usted introduce en la solicitud. Introducir el correo electrónico de una secretaría académica para solicitar el expediente autoriza una divulgación amplia: el expediente académico completo, las puntuaciones de las pruebas de inteligencia y rendimiento, cualquier evaluación psicológica, los registros de conducta y asistencia y el historial médico.",
-      "of": "23d530cf",
+      "t": "En este nivel se exigen dos: una **recomendación de un docente de primaria** y una **recomendación de un pastor**. El formulario del pastor se exige en todos los grados, desde JK hasta 11.º. Ambos se completan en línea. Se envían a las direcciones de correo electrónico que usted introduce en la solicitud. Si facilita el correo electrónico de una secretaría académica para solicitar el expediente, da una autorización amplia. Abarca el expediente académico completo, las puntuaciones de las pruebas de inteligencia y rendimiento, cualquier evaluación psicológica, los registros de conducta y asistencia y el historial médico.",
+      "of": "a55f3383",
       "at": [
         "covenant-day:guide.bands[1].steps[3].detail"
       ]
@@ -5222,8 +5216,8 @@
       ]
     },
     {
-      "t": "La oficina de admisiones envía un enlace para concertar su entrevista con la Directora de Admisiones. Covenant Day es un **colegio cristiano del pacto**: colabora con familias en las que **al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local**, y durante la entrevista se pedirá a los padres que **hablen de su testimonio cristiano**. **La visita de su hijo depende del grado.** Los solicitantes de **grado 1** se incorporan a la **Little Lions Assessment** con un grupo reducido de otros solicitantes de grado 1; los de **grados 2–5** trabajan **individualmente con una terapeuta de apoyo académico** para medir su competencia en lectura, matemáticas y escritura. Ninguna de las dos es una jornada de acompañamiento, y no hay entrevista con el estudiante hasta el grado 6.",
-      "of": "6913a141",
+      "t": "La oficina de admisiones envía un enlace para concertar su entrevista con la Directora de Admisiones. Covenant Day es un **colegio cristiano del pacto**. Colabora con familias en las que **al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local**. Durante la entrevista se pedirá a los padres que **hablen de su testimonio cristiano**. **La visita de su hijo depende del grado.** Los solicitantes de **grado 1** se incorporan a la **Little Lions Assessment** con un grupo reducido de otros solicitantes de grado 1. Los de **grados 2–5** trabajan **individualmente con una terapeuta de apoyo académico** para medir su competencia en lectura, matemáticas y escritura. Ninguna de las dos es una jornada de acompañamiento, y no hay entrevista con el estudiante hasta el grado 6.",
+      "of": "02f7ae0e",
       "at": [
         "covenant-day:guide.bands[1].steps[4].detail"
       ]
@@ -5246,8 +5240,8 @@
       ]
     },
     {
-      "t": "El grado 1 realiza la WPPSi junto con los solicitantes de JK/K, los grados 2–4 realizan la WISC V y el grado 5 realiza el ISEE junto con los solicitantes de secundaria y bachillerato. Las solicitudes vencen el 15 de enero y las decisiones se publican el 9 de abril. Solicitar después del 15 de enero significa que no habrá evaluación en el campus ni entrevista con los padres hasta que las decisiones prioritarias se completen el 9 de abril.",
-      "of": "98d5931c",
+      "t": "El grado 1 realiza la WPPSi junto con los solicitantes de JK/K. Los grados 2–4 realizan la WISC V, y el grado 5 realiza el ISEE junto con los solicitantes de secundaria y bachillerato. Las solicitudes vencen el 15 de enero y las decisiones se publican el 9 de abril. Si solicita después del 15 de enero, no habrá evaluación en el campus ni entrevista con los padres hasta que las decisiones prioritarias se completen el 9 de abril.",
+      "of": "538fb481",
       "at": [
         "covenant-day:guide.bands[1].checklistCallout.text"
       ]
@@ -5362,15 +5356,15 @@
       ]
     },
     {
-      "t": "Todos los solicitantes a partir del grado 5 realizan el **Independent School Entrance Exam (ISEE)**, que mide la aptitud verbal y cuantitativa, las matemáticas, la comprensión lectora y la escritura. Covenant Day lo administra en el campus el **12 de diciembre de 2026**; las familias también pueden inscribirse para otra convocatoria a través del sitio del propio ISEE. **Todas las pruebas de secundaria y bachillerato deben completarse y entregarse antes del 26 de febrero de 2027**: es una fecha límite de entrega, no solo de examen, por lo que una convocatoria tardía corre el riesgo de no llegar a tiempo.",
-      "of": "37e88b72",
+      "t": "Todos los solicitantes a partir del grado 5 realizan el **Independent School Entrance Exam (ISEE)**. Mide la aptitud verbal y cuantitativa, las matemáticas, la comprensión lectora y la escritura. Covenant Day lo ofrece en el campus el **12 de diciembre de 2026**. Las familias también pueden inscribirse para otra convocatoria a través del sitio del propio ISEE. **Todas las pruebas de secundaria y bachillerato deben completarse y entregarse antes del 26 de febrero de 2027**. Es una fecha límite de entrega de resultados, no solo de examen, por lo que una convocatoria tardía corre el riesgo de no llegar a tiempo.",
+      "of": "04aa3cc3",
       "at": [
         "covenant-day:guide.bands[2].steps[2].detail"
       ]
     },
     {
-      "t": "En este nivel se exigen cuatro, más que en cualquier grado inferior: un **docente de matemáticas**, un **docente de inglés**, un **director o consejero escolar** y un **pastor**, cuya recomendación se exige en todos los grados, desde JK hasta 11.º. Todos se completan en línea desde las direcciones de correo electrónico que usted introduce en la solicitud. Introducir el correo electrónico de una secretaría académica para solicitar el expediente autoriza una divulgación amplia: el expediente académico completo, las puntuaciones de las pruebas de inteligencia y rendimiento, cualquier evaluación psicológica, los registros de conducta y asistencia y el historial médico.",
-      "of": "5fe95050",
+      "t": "En este nivel se exigen cuatro, más que en cualquier grado inferior: un **docente de matemáticas**, un **docente de inglés**, un **director o consejero escolar** y un **pastor**. El formulario del pastor se exige en todos los grados, desde JK hasta 11.º. Todos se completan en línea. Se envían a las direcciones de correo electrónico que usted introduce en la solicitud. Si facilita el correo electrónico de una secretaría académica para solicitar el expediente, da una autorización amplia. Abarca el expediente académico completo, las puntuaciones de las pruebas de inteligencia y rendimiento, cualquier evaluación psicológica, los registros de conducta y asistencia y el historial médico.",
+      "of": "660ec9d4",
       "at": [
         "covenant-day:guide.bands[2].steps[3].detail"
       ]
@@ -5383,8 +5377,8 @@
       ]
     },
     {
-      "t": "La oficina de admisiones envía un enlace para concertar su entrevista con la Directora de Admisiones. Covenant Day es un **colegio cristiano del pacto**: colabora con familias en las que **al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local**, y durante la entrevista se pedirá a los padres que **hablen de su testimonio cristiano**. **Este es el primer nivel en el que también se entrevista al estudiante.** Los solicitantes de los grados 7–11 pasan una mañana acompañando a un estudiante de secundaria o bachillerato, almuerzan con sus compañeros y se reúnen con un miembro del personal de admisiones. **Los solicitantes del grado 6 hacen todo eso y además realizan una evaluación de matemáticas e inglés** durante la visita: el único paso adicional en la base de este nivel.",
-      "of": "ffb25d0d",
+      "t": "La oficina de admisiones envía un enlace para concertar su entrevista con la Directora de Admisiones. Covenant Day es un **colegio cristiano del pacto**. Colabora con familias en las que **al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local**. Durante la entrevista se pedirá a los padres que **hablen de su testimonio cristiano**. **Este es el primer nivel en el que también se entrevista al estudiante.** Los solicitantes de los grados 7–11 pasan una mañana acompañando a un estudiante de secundaria o bachillerato. También almuerzan con sus compañeros y se reúnen con un miembro del personal de admisiones. **Los solicitantes del grado 6 hacen todo eso y además realizan una evaluación de matemáticas e inglés** durante la visita. Es el único paso adicional en la base de este nivel.",
+      "of": "0d54fcb2",
       "at": [
         "covenant-day:guide.bands[2].steps[4].detail"
       ]
@@ -5397,8 +5391,8 @@
       ]
     },
     {
-      "t": "Todos los solicitantes a partir del grado 6 acompañan a un estudiante durante una mañana y se reúnen con un miembro del personal de admisiones; el grado 6 además realiza una evaluación de matemáticas e inglés durante esa visita. Se exigen cuatro formularios de recomendación, más que en cualquier grado inferior, y todas las pruebas de secundaria y bachillerato deben entregarse antes del 26 de febrero, no solo realizarse para esa fecha.",
-      "of": "bb6c3db9",
+      "t": "Todos los solicitantes a partir del grado 6 acompañan a un estudiante durante una mañana y se reúnen con un miembro del personal de admisiones. El grado 6 además realiza una evaluación de matemáticas e inglés durante esa visita. Se exigen cuatro formularios de recomendación, más que en cualquier grado inferior. Todas las pruebas de secundaria y bachillerato deben entregarse antes del 26 de febrero, no solo realizarse para esa fecha.",
+      "of": "aeea364f",
       "at": [
         "covenant-day:guide.bands[2].checklistCallout.text"
       ]
@@ -5474,8 +5468,8 @@
       ]
     },
     {
-      "t": "La ayuda es **por necesidad** y se gestiona a través de **FACTS**, y **se exige una nueva solicitud cada año**. Hay un requisito previo único entre los colegios de Charlotte: **las familias deben presentar primero un comprobante de solicitud de la NC Opportunity Scholarship** para poder optar a la ayuda de Covenant Day. Presente la solicitud de ayuda **al mismo tiempo que la solicitud de admisión**, y no después de la decisión. La matriculación conlleva un **depósito no reembolsable de $1,000** por estudiante, aplicado a la matrícula; **no se publican la cuota de solicitud de FACTS ni ningún depósito reducido para las familias que solicitan ayuda**.",
-      "of": "3b6d8ebb",
+      "t": "La ayuda es **por necesidad** y se gestiona a través de **FACTS**, y **se exige una nueva solicitud cada año**. También hay un paso que debe completar primero, y es único entre los colegios de Charlotte. Para poder optar a la ayuda de Covenant Day, **las familias deben presentar primero un comprobante de solicitud de la NC Opportunity Scholarship**. Presente la solicitud de ayuda **al mismo tiempo que la solicitud de admisión**, no después de la decisión. La matriculación conlleva un **depósito no reembolsable de $1,000** por estudiante, aplicado a la matrícula. **No se publican la cuota de solicitud de FACTS ni ningún depósito reducido para las familias que solicitan ayuda**.",
+      "of": "b6251472",
       "at": [
         "covenant-day:guide.aid.text"
       ]
@@ -5648,8 +5642,8 @@
       ]
     },
     {
-      "t": "Una cuota de solicitud no reembolsable de $100 · la solicitud en línea de FACTS/RenWeb · una entrevista de los padres con la Directora de Admisiones, en la que al menos uno de los padres debe ser seguidor de Cristo y participar activamente en una iglesia cristiana local · una recomendación de un pastor · un depósito de matriculación no reembolsable de $1,000 al firmar el contrato · admisiones continuas después de las fechas prioritarias, sin pruebas en el campus, visita de acompañamiento ni entrevista con los padres para un solicitante fuera de la ronda prioritaria, salvo que queden plazas después del 9 de abril",
-      "of": "1dbcd4c1",
+      "t": "Una cuota de solicitud no reembolsable de $100 · la solicitud en línea de FACTS/RenWeb · una entrevista de los padres con la Directora de Admisiones · al menos uno de los padres debe ser seguidor de Cristo y participar activamente en una iglesia cristiana local · una recomendación de un pastor · un depósito de matriculación no reembolsable de $1,000 al firmar el contrato · admisiones continuas después de las fechas prioritarias · sin pruebas en el campus, visita de acompañamiento ni entrevista con los padres para un solicitante tardío, salvo que queden plazas después del 9 de abril",
+      "of": "df6ce172",
       "at": [
         "covenant-day:guide.comparison.rows[9].cells.all"
       ]
@@ -5711,8 +5705,8 @@
       ]
     },
     {
-      "t": "Antes de que se le pueda considerar, debe presentar un comprobante de solicitud de la NC Opportunity Scholarship. Covenant Day acepta las becas NC Opportunity y ESA+, administradas por la North Carolina State Education Assistance Authority.",
-      "of": "bc0c4c41",
+      "t": "Antes de que se le pueda considerar, debe presentar un comprobante de solicitud de la NC Opportunity Scholarship. Covenant Day acepta las becas NC Opportunity y ESA+, que administra la North Carolina State Education Assistance Authority.",
+      "of": "e96be564",
       "at": [
         "covenant-day:guide.checklist.aidPanel.items[1]"
       ]
@@ -5774,8 +5768,8 @@
       ]
     },
     {
-      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: la secuencia completa de la solicitud en orden, los períodos de solicitud de 2027–28 y los formularios y las pruebas de ese nivel, además de una lista imprimible para llevar consigo. Una misma columna vertebral para todo solicitante nacional, pero el período prioritario abre dos semanas antes para los miembros de la iglesia, las familias del Early Education Center y los hermanos de estudiantes actuales, y el proceso internacional F-1 es independiente de principio a fin.",
-      "of": "3d1ccf3e",
+      "t": "Elija el punto de entrada de su hijo y la guía se personaliza: la secuencia completa de la solicitud en orden, los períodos de solicitud de 2027–28 y los formularios y las pruebas de ese nivel. También recibe una lista imprimible para llevar consigo. Todo solicitante nacional sigue los mismos pasos principales. Pero el período prioritario abre dos semanas antes para los miembros de la iglesia, las familias del Early Education Center y los hermanos de estudiantes actuales. El proceso internacional F-1 es independiente de principio a fin.",
+      "of": "4f823b92",
       "at": [
         "hickory-grove-christian:guide.headline"
       ]
@@ -5868,8 +5862,8 @@
       ]
     },
     {
-      "t": "Un mismo recorrido en todas las bandas nacionales: presentar el formulario de solicitud de información → inscribirse en la jornada de puertas abiertas → solicitar en FACTS y pagar la cuota de solicitud → enviar los formularios que exige su banda → presentar las pruebas de ingreso, que se programan solo cuando han llegado todos los formularios → asistir a la entrevista familiar → recibir la decisión por escrito → pagar el depósito de matrícula de $500. Lo que cambia entre bandas es qué formularios se envían, si hay un día de acompañamiento y si se aplica una prueba de ubicación. El proceso internacional F-1 sustituye la mayor parte de esto y se describe en su propia banda.",
-      "of": "52250bba",
+      "t": "Todas las bandas nacionales siguen los mismos pasos principales. Primero: presentar el formulario de solicitud de información → inscribirse en la jornada de puertas abiertas → solicitar en FACTS y pagar la cuota de solicitud. Después: enviar los formularios que exige su banda → presentar las pruebas de ingreso, que se programan solo cuando han llegado todos los formularios → asistir a la entrevista familiar. Por último: recibir la decisión por escrito → pagar el depósito de matrícula de $500. Lo que cambia entre bandas es qué formularios se envían, si hay un día de acompañamiento y si se aplica una prueba de ubicación. El proceso internacional F-1 sustituye la mayor parte de esto y tiene su propia banda.",
+      "of": "e96f28e4",
       "at": [
         "hickory-grove-christian:guide.spineNote"
       ]
@@ -5920,8 +5914,8 @@
       ]
     },
     {
-      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita, que ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026** (sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school). Este es también el momento de decidir a qué campus solicita: **Harris** ofrece Transitional Kindergarten y Kindergarten junto con el resto de TK–12, mientras que **Mallard Creek** prevé abrir un **TK y Kindergarten cristiano clásico** que crecería un grado por año, y los estudiantes pasarían a Harris al llegar a la escuela media.",
-      "of": "7aa24a86",
+      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita. La visita ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026**. Hay sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school. Este es también el momento de decidir a qué campus solicita. **Harris** ofrece Transitional Kindergarten y Kindergarten junto con el resto de TK–12. **Mallard Creek** prevé abrir un **TK y Kindergarten cristiano clásico** que crecería un grado por año, y los estudiantes pasarían a Harris al llegar a la escuela media.",
+      "of": "d5bae507",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[0].detail"
       ]
@@ -5941,8 +5935,8 @@
       ]
     },
     {
-      "t": "Los dos grados más pequeños se separan por fecha de nacimiento. Un niño que cumple cinco años **antes del 16 de octubre** del año escolar solicitado es elegible para **Kindergarten (K5)**; un niño que cumple cinco años **el 16 de abril o antes** es elegible para **Transitional Kindergarten (TK)**, que la escuela describe como un puente entre el preescolar y el kindergarten, dando al niño tiempo para desarrollar las destrezas fundamentales que el kindergarten espera. La fecha de nacimiento no lo decide todo: vea la evaluación de preparación más abajo. TK es el punto de entrada más temprano de K–12; los niños menores se matriculan a través de la oficina del **Early Education Center** y no por este proceso.",
-      "of": "6131bdff",
+      "t": "Los dos grados más pequeños se separan por fecha de nacimiento. Un niño que cumple cinco años **antes del 16 de octubre** del año escolar solicitado es elegible para **Kindergarten (K5)**. Un niño que cumple cinco años **el 16 de abril o antes** es elegible para **Transitional Kindergarten (TK)**. La escuela describe TK como un puente entre el preescolar y el kindergarten que da al niño tiempo para desarrollar las destrezas básicas que el kindergarten espera. La fecha de nacimiento no lo decide todo: vea la evaluación de preparación más abajo. TK es el punto de entrada más temprano de K–12. Los niños menores se matriculan a través de la oficina del **Early Education Center**, no por este proceso.",
+      "of": "471e15b4",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[1].detail"
       ]
@@ -5968,8 +5962,8 @@
       ]
     },
     {
-      "t": "Solicite a través del portal FACTS de su campus: **Harris y Mallard Creek usan portales distintos**. La escuela prevé **disponibilidad limitada en Mallard Creek**, así que confirme sus fechas y pasos con la oficina de admisiones si solicita allí. Envíe el **certificado de nacimiento** de su hijo y el **Immunization Registry Record** con la solicitud. Sobre la cuota: la escuela publica una **cuota de solicitud no reembolsable de $300** para las solicitudes presentadas del **2 de noviembre de 2026 al 31 de mayo de 2027**, que sube a una **cuota de solicitud de matriculación tardía de $550 a partir del 1 de junio de 2027**. La cuota de solicitud **no se acredita a la matrícula**.",
-      "of": "4f072a03",
+      "t": "Solicite a través del portal FACTS de su campus. **Harris y Mallard Creek usan portales distintos**. La escuela prevé **disponibilidad limitada en Mallard Creek**, así que confirme sus fechas y pasos con la oficina de admisiones si solicita allí. Envíe el **certificado de nacimiento** de su hijo y el **Immunization Registry Record** con la solicitud. Sobre la cuota: la escuela publica una **cuota de solicitud no reembolsable de $300** para las solicitudes presentadas del **2 de noviembre de 2026 al 31 de mayo de 2027**. Después, la cuota sube a una **cuota de solicitud de matriculación tardía de $550 a partir del 1 de junio de 2027**. La cuota de solicitud **no se acredita a la matrícula**.",
+      "of": "692bf8bd",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[2].detail"
       ]
@@ -5982,8 +5976,8 @@
       ]
     },
     {
-      "t": "Tres formularios completan un expediente de TK o K5: un **Information form**; un **Readiness Checklist**, completado por el docente de preescolar o guardería de su hijo; y un **Personal Recommendation form del pastor de su familia**, que se exige en todos los grados de TK a 12. Envíe los tres cuanto antes: no se programa nada hasta que la oficina de admisiones los tenga todos.",
-      "of": "77555d76",
+      "t": "Tres formularios completan un expediente de TK o K5. El primero es un **Information form**. El segundo es un **Readiness Checklist**, completado por el docente de preescolar o guardería de su hijo. El tercero es un **Personal Recommendation form del pastor de su familia**, que se exige en todos los grados de TK a 12. Envíe los tres cuanto antes. No se programa nada hasta que la oficina de admisiones los tenga todos.",
+      "of": "e327437d",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[3].detail"
       ]
@@ -6006,8 +6000,8 @@
       ]
     },
     {
-      "t": "Su hijo realiza una **evaluación de destrezas apropiada a su desarrollo** durante el proceso de admisión, y calificar para el programa depende de aprobarla: esto es lo que define la ubicación en TK o K5 junto con las fechas de corte por edad. Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**, de modo que un único formulario pendiente detiene todo el calendario. La escuela no publica qué instrumento utiliza.",
-      "of": "7cf05845",
+      "t": "Su hijo realiza una **evaluación de destrezas apropiada a su desarrollo** durante el proceso de admisión. Calificar para el programa depende de aprobarla. Junto con las fechas de corte por edad, la evaluación define si su hijo se ubica en TK o K5. Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**. Así que un único formulario pendiente detiene todo el calendario. La escuela no publica qué prueba utiliza.",
+      "of": "b00b9639",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[4].detail"
       ]
@@ -6023,8 +6017,8 @@
       ]
     },
     {
-      "t": "La entrevista familiar se programa una vez que los pasos anteriores están completos y han ido bien. La escuela la describe como una oportunidad para compartir su **misión, visión y declaración de fe**, y para valorar si Hickory Grove es la opción adecuada para su familia. **No se publica ningún requisito de que un padre o madre sea cristiano practicante**: lo que se exige es el formulario de recomendación del pastor y esta conversación.",
-      "of": "a7b32e23",
+      "t": "La entrevista familiar se programa una vez que los pasos anteriores están completos y han ido bien. La escuela la describe como una oportunidad para compartir su **misión, visión y declaración de fe**. La escuela dice que también es una oportunidad para valorar si Hickory Grove es la opción adecuada para su familia. **No se publica ningún requisito de que un padre o madre sea cristiano practicante**. Lo que se exige es el formulario de recomendación del pastor y esta conversación.",
+      "of": "d628c36d",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[5].detail",
         "hickory-grove-christian:guide.bands[1].steps[4].detail",
@@ -6053,8 +6047,8 @@
       ]
     },
     {
-      "t": "La decisión final se **comunica por escrito**, y valora las calificaciones satisfactorias, las cartas de recomendación, la entrevista, los informes de conducta, las pruebas de ingreso y cualquier IEP, 504 o evaluación psicoeducativa en el expediente. **No se publica una fecha fija de notificación**: la admisión es continua y depende del espacio en el grado. Al ser aceptado vence un **depósito no reembolsable de $500**, que se acredita a la matrícula.",
-      "of": "f1e7909d",
+      "t": "La decisión final se **comunica por escrito**. Valora las calificaciones satisfactorias, las cartas de recomendación, la entrevista, los informes de conducta y las pruebas de ingreso. También valora cualquier IEP, 504 o evaluación psicoeducativa en el expediente. **No se publica una fecha fija de notificación**. La admisión es continua y depende del espacio en el grado. Si su hijo es aceptado, vence un **depósito no reembolsable de $500**. Se acredita a la matrícula.",
+      "of": "c82c996d",
       "at": [
         "hickory-grove-christian:guide.bands[0].steps[6].detail",
         "hickory-grove-christian:guide.bands[1].steps[5].detail",
@@ -6069,8 +6063,8 @@
       ]
     },
     {
-      "t": "La evaluación de preparación que define la ubicación en TK o K5 se organiza a través de Student Services solo después de que la oficina de admisiones haya recibido el Information form, el Readiness Checklist del docente de preescolar o guardería de su hijo y el Personal Recommendation form del pastor. Las solicitudes abren el 2 de noviembre para los miembros de la iglesia, los estudiantes del Early Education Center y los hermanos de estudiantes actuales, y el 16 de noviembre para el resto; después de eso la admisión es continua y depende de la capacidad, sin fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión.",
-      "of": "66185ba4",
+      "t": "La evaluación de preparación define si su hijo se ubica en TK o K5. Student Services la organiza solo después de que la oficina de admisiones haya recibido los tres formularios. Son el Information form, el Readiness Checklist del docente de preescolar o guardería de su hijo y el Personal Recommendation form del pastor. Las solicitudes abren el 2 de noviembre para los miembros de la iglesia, los estudiantes del Early Education Center y los hermanos de estudiantes actuales. Abren el 16 de noviembre para el resto. Después de eso, la admisión es continua y depende de las plazas disponibles, sin fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión.",
+      "of": "aa489dbc",
       "at": [
         "hickory-grove-christian:guide.bands[0].checklistCallout.text"
       ]
@@ -6312,15 +6306,15 @@
       ]
     },
     {
-      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita, que ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026** (sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school). Los grados 1 a 5 se imparten en el **campus Harris**, 7200 E. WT Harris Blvd.",
-      "of": "d7f117b0",
+      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita. La visita ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026**. Hay sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school. Los grados 1 a 5 se imparten en el **campus Harris**, 7200 E. WT Harris Blvd.",
+      "of": "1f3b8998",
       "at": [
         "hickory-grove-christian:guide.bands[1].steps[0].detail"
       ]
     },
     {
-      "t": "Solicite a través del **portal FACTS** y envíe el **certificado de nacimiento** de su hijo y el **Immunization Registry Record** con la solicitud. Sobre la cuota: la escuela publica una **cuota de solicitud no reembolsable de $300** para las solicitudes presentadas del **2 de noviembre de 2026 al 31 de mayo de 2027**, que sube a una **cuota de solicitud de matriculación tardía de $550 a partir del 1 de junio de 2027**. La cuota de solicitud **no se acredita a la matrícula**.",
-      "of": "6770cbdd",
+      "t": "Solicite a través del **portal FACTS** y envíe el **certificado de nacimiento** de su hijo y el **Immunization Registry Record** con la solicitud. Sobre la cuota: la escuela publica una **cuota de solicitud no reembolsable de $300** para las solicitudes presentadas del **2 de noviembre de 2026 al 31 de mayo de 2027**. Después, la cuota sube a una **cuota de solicitud de matriculación tardía de $550 a partir del 1 de junio de 2027**. La cuota de solicitud **no se acredita a la matrícula**.",
+      "of": "0a4f16f7",
       "at": [
         "hickory-grove-christian:guide.bands[1].steps[1].detail"
       ]
@@ -6333,8 +6327,8 @@
       ]
     },
     {
-      "t": "Un expediente de primaria necesita más que el nivel más pequeño: un **Academic Referral form del docente actual de su hijo**; **boletas de calificaciones que cubran al menos dos años**; un **Personal Recommendation form del pastor de su familia**, exigido en todos los grados TK–12; y, **solo para los alumnos de cuarto y quinto grado, un Student Questionnaire**. Si su hijo ha tenido **pruebas educativas o diagnósticas**, o tiene un **IEP o plan 504** vigente, envíe también esos resultados. No se programa nada hasta que todo haya llegado.",
-      "of": "0a0a777e",
+      "t": "Un expediente de primaria necesita más que el del nivel más pequeño. Necesita un **Academic Referral form del docente actual de su hijo** y **boletas de calificaciones que cubran al menos dos años**. También necesita un **Personal Recommendation form del pastor de su familia**, exigido en todos los grados TK–12. El expediente también necesita, **solo para los alumnos de cuarto y quinto grado, un Student Questionnaire**. Si su hijo ha tenido **pruebas educativas o diagnósticas**, o tiene un **IEP o plan 504** vigente, envíe también esos resultados. No se programa nada hasta que todo haya llegado.",
+      "of": "b4f573cd",
       "at": [
         "hickory-grove-christian:guide.bands[1].steps[2].detail"
       ]
@@ -6350,8 +6344,8 @@
       ]
     },
     {
-      "t": "Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**: una sola boleta de calificaciones o recomendación pendiente detiene todo el calendario. La escuela no publica qué instrumento utiliza. **En este nivel no hay jornada de acompañamiento**; el acompañamiento se exige únicamente a los solicitantes de la escuela secundaria.",
-      "of": "bfb0f385",
+      "t": "Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**. Una sola boleta de calificaciones o recomendación pendiente detiene todo el calendario. La escuela no publica qué prueba utiliza. **En este nivel no hay jornada de acompañamiento**. El acompañamiento se exige únicamente a los solicitantes de la escuela secundaria.",
+      "of": "0ba3983d",
       "at": [
         "hickory-grove-christian:guide.bands[1].steps[3].detail"
       ]
@@ -6364,8 +6358,8 @@
       ]
     },
     {
-      "t": "Un expediente de primaria necesita el Academic Referral form del docente actual de su hijo, boletas de calificaciones que cubran al menos dos años, el Personal Recommendation form del pastor y —solo para cuarto y quinto grado— un Student Questionnaire. Las pruebas se organizan a través de Student Services solo después de que todo haya llegado, así que comience por los formularios que deben completar otras personas. Las solicitudes abren el 2 de noviembre para los miembros de la iglesia, los estudiantes del Early Education Center y los hermanos de estudiantes actuales, y el 16 de noviembre para el resto; después de eso la admisión es continua, sin fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión.",
-      "of": "a4b5f901",
+      "t": "Un expediente de primaria necesita el Academic Referral form del docente actual de su hijo y boletas de calificaciones que cubran al menos dos años. También necesita el Personal Recommendation form del pastor y, solo para cuarto y quinto grado, un Student Questionnaire. Student Services organiza las pruebas solo después de que todo haya llegado. Así que comience por los formularios que deben completar otras personas. Las solicitudes abren el 2 de noviembre para los miembros de la iglesia, los estudiantes del Early Education Center y los hermanos de estudiantes actuales. Abren el 16 de noviembre para el resto. Después de eso, la admisión es continua, sin fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión.",
+      "of": "caf0c70f",
       "at": [
         "hickory-grove-christian:guide.bands[1].checklistCallout.text"
       ]
@@ -6476,15 +6470,15 @@
       ]
     },
     {
-      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita, que ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026** (sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school). La escuela media se imparte en el **campus Harris**, 7200 E. WT Harris Blvd.",
-      "of": "e5f5096a",
+      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita. La visita ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026**. Hay sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school. La escuela media se imparte en el **campus Harris**, 7200 E. WT Harris Blvd.",
+      "of": "5cd7bd42",
       "at": [
         "hickory-grove-christian:guide.bands[2].steps[0].detail"
       ]
     },
     {
-      "t": "Solicite a través del **portal FACTS** y envíe el **certificado de nacimiento** de su hijo y el **Immunization Registry record** con la solicitud. Sobre la cuota: la escuela publica una **cuota de solicitud no reembolsable de $300** para las solicitudes presentadas del **2 de noviembre de 2026 al 31 de mayo de 2027**, que sube a una **cuota de solicitud de matriculación tardía de $550 a partir del 1 de junio de 2027**. La cuota de solicitud **no se acredita a la matrícula**.",
-      "of": "ee1311fd",
+      "t": "Solicite a través del **portal FACTS** y envíe el **certificado de nacimiento** de su hijo y el **Immunization Registry record** con la solicitud. Sobre la cuota: la escuela publica una **cuota de solicitud no reembolsable de $300** para las solicitudes presentadas del **2 de noviembre de 2026 al 31 de mayo de 2027**. Después, la cuota sube a una **cuota de solicitud de matriculación tardía de $550 a partir del 1 de junio de 2027**. La cuota de solicitud **no se acredita a la matrícula**.",
+      "of": "91f23957",
       "at": [
         "hickory-grove-christian:guide.bands[2].steps[1].detail",
         "hickory-grove-christian:guide.bands[3].steps[1].detail"
@@ -6499,15 +6493,15 @@
       ]
     },
     {
-      "t": "Este es el nivel donde el papeleo se dispara. Se exigen **cuatro formularios de recomendación**: un **Math Teacher Recommendation**, un **English Teacher Recommendation**, un **Principal or Guidance Counselor Recommendation** y el **Personal Recommendation form del pastor de su familia** que se necesita en todos los grados. Junto a ellos: **boletas de calificaciones de los dos años más recientes**, el **expediente académico**, los **resultados de pruebas estandarizadas**, un **Student Questionnaire** completado por su hijo y cualquier **resultado de pruebas educativas o diagnósticas o un IEP, 504 o plan de adaptaciones vigente**. Tres de las cuatro recomendaciones dependen del tiempo de otras personas, así que solicítelas primero.",
-      "of": "7b1e0181",
+      "t": "Este es el nivel donde el papeleo se dispara. Se exigen **cuatro formularios de recomendación**. Son un **Math Teacher Recommendation**, un **English Teacher Recommendation**, un **Principal or Guidance Counselor Recommendation** y el **Personal Recommendation form del pastor de su familia** que se necesita en todos los grados. También envía **boletas de calificaciones de los dos años más recientes**, el **expediente académico** y los **resultados de pruebas estandarizadas**. Su hijo también completa un **Student Questionnaire**. Si los tiene, envíe además **resultados de pruebas educativas o diagnósticas o un IEP, 504 o plan de adaptaciones vigente**. Tres de las cuatro recomendaciones dependen del tiempo de otras personas, así que solicítelas primero.",
+      "of": "29f6e26f",
       "at": [
         "hickory-grove-christian:guide.bands[2].steps[2].detail"
       ]
     },
     {
-      "t": "Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**. Con cuatro recomendaciones en el expediente, esa condición es la que con mayor probabilidad detendrá una solicitud de escuela media. **En este nivel no se exige jornada de acompañamiento**: ese requisito aplica únicamente a los solicitantes de la escuela secundaria, aunque los grados 6 a 12 comparten por lo demás la misma lista de formularios.",
-      "of": "ba2d6a03",
+      "t": "Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**. Con cuatro recomendaciones en el expediente, esa condición es la que con mayor probabilidad detendrá una solicitud de escuela media. **En este nivel no se exige jornada de acompañamiento**. Ese requisito aplica únicamente a los solicitantes de la escuela secundaria, aunque los grados 6 a 12 comparten por lo demás la misma lista de formularios.",
+      "of": "165a5ec1",
       "at": [
         "hickory-grove-christian:guide.bands[2].steps[3].detail"
       ]
@@ -6520,8 +6514,8 @@
       ]
     },
     {
-      "t": "Los grados 6 a 12 comparten una sola lista de formularios: docente de matemáticas, docente de inglés, director o consejero escolar y el pastor de su familia, además del expediente académico, dos años de boletas de calificaciones, los resultados estandarizados y un Student Questionnaire. Lo que la escuela media no tiene es la jornada de acompañamiento, que se exige únicamente a los solicitantes de la escuela secundaria. Las pruebas se organizan a través de Student Services solo después de que haya llegado cada uno de esos formularios, así que solicite primero las tres recomendaciones escolares. Las solicitudes abren el 2 de noviembre para los miembros de la iglesia, los estudiantes del Early Education Center y los hermanos de estudiantes actuales, y el 16 de noviembre para el resto; después de eso la admisión es continua y depende de la capacidad, sin fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión.",
-      "of": "22d6f213",
+      "t": "Los grados 6 a 12 comparten una sola lista de formularios. Incluye recomendaciones de un docente de matemáticas, un docente de inglés, un director o consejero escolar y el pastor de su familia. También incluye el expediente académico, dos años de boletas de calificaciones, los resultados estandarizados y un Student Questionnaire. Lo que la escuela media no tiene es la jornada de acompañamiento, que se exige únicamente a los solicitantes de la escuela secundaria. Student Services organiza las pruebas solo después de que haya llegado cada uno de esos formularios, así que solicite primero las tres recomendaciones escolares. Las solicitudes abren el 2 de noviembre para los miembros de la iglesia, los estudiantes del Early Education Center y los hermanos de estudiantes actuales. Abren el 16 de noviembre para el resto. Después de eso, la admisión es continua y depende de las plazas disponibles, sin fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión.",
+      "of": "5f1308e3",
       "at": [
         "hickory-grove-christian:guide.bands[2].checklistCallout.text"
       ]
@@ -6655,15 +6649,15 @@
       ]
     },
     {
-      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita, que ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026** (sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school). La high school se imparte en el **campus Harris**, 7200 E. WT Harris Blvd.",
-      "of": "726eccb1",
+      "t": "Los dos primeros pasos están enlazados desde la página de admisiones: un formulario de solicitud de información y después la visita. La visita ahora consiste en inscribirse en la **jornada de puertas abiertas de admisiones del martes 10 de noviembre de 2026**. Hay sesiones a las 12, 4 y 6 p. m., con recorridos separados de primaria, escuela media y high school. La high school se imparte en el **campus Harris**, 7200 E. WT Harris Blvd.",
+      "of": "f10e0ba9",
       "at": [
         "hickory-grove-christian:guide.bands[3].steps[0].detail"
       ]
     },
     {
-      "t": "La escuela secundaria comparte su lista de formularios con la escuela media. Se exigen **cuatro formularios de recomendación**: un **Math Teacher Recommendation**, un **English Teacher Recommendation**, un **Principal or Guidance Counselor Recommendation** y el **Personal Recommendation form del pastor de su familia** que se necesita en todos los grados. Junto a ellos: el **expediente académico de la escuela secundaria**, **boletas de calificaciones de los dos años más recientes**, los **resultados de pruebas estandarizadas**, un **Student Questionnaire** completado por su hijo y cualquier **resultado de pruebas educativas o diagnósticas o un IEP, 504 o plan de adaptaciones vigente**. Solicite primero las tres recomendaciones escolares: dependen del tiempo de otras personas.",
-      "of": "f3889155",
+      "t": "La escuela secundaria comparte su lista de formularios con la escuela media. Se exigen **cuatro formularios de recomendación**. Son un **Math Teacher Recommendation**, un **English Teacher Recommendation**, un **Principal or Guidance Counselor Recommendation** y el **Personal Recommendation form del pastor de su familia** que se necesita en todos los grados. También envía el **expediente académico de la escuela secundaria**, **boletas de calificaciones de los dos años más recientes** y los **resultados de pruebas estandarizadas**. Su hijo también completa un **Student Questionnaire**. Si los tiene, envíe además **resultados de pruebas educativas o diagnósticas o un IEP, 504 o plan de adaptaciones vigente**. Solicite primero las tres recomendaciones escolares, porque dependen del tiempo de otras personas.",
+      "of": "9574a4bb",
       "at": [
         "hickory-grove-christian:guide.bands[3].steps[2].detail"
       ]
@@ -6683,8 +6677,8 @@
       ]
     },
     {
-      "t": "**Este paso existe únicamente en este nivel.** Se **exige** a los solicitantes de la escuela secundaria acompañar durante un día a un estudiante actual de Hickory Grove, lo que se organiza completando un shadow request form. Los grados 6 a 8 no tienen un requisito equivalente aunque su papeleo sea idéntico, así que es la diferencia más clara entre solicitar para la escuela media y solicitar para la escuela secundaria aquí.",
-      "of": "07105718",
+      "t": "**Este paso existe únicamente en este nivel.** Se **exige** a los solicitantes de la escuela secundaria acompañar durante un día a un estudiante actual de Hickory Grove. Se solicita completando un shadow request form. Los grados 6 a 8 no tienen ese requisito, aunque su papeleo sea idéntico. Así que es la diferencia más clara entre solicitar para la escuela media y solicitar para la escuela secundaria aquí.",
+      "of": "224b7a5e",
       "at": [
         "hickory-grove-christian:guide.bands[3].steps[3].detail"
       ]
@@ -6697,15 +6691,15 @@
       ]
     },
     {
-      "t": "Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**. Los solicitantes de high school también presentan una **prueba de ingreso obligatoria que se usa para determinar la ubicación de grado**, un paso que la escuela publica solo para los grados 9 a 12, y, según el High School Profile 2026–27 de la escuela, **deben obtener un resultado igual o superior a su nivel de grado y estar en regla con su escuela actual** para ser admitidos. Los instrumentos específicos no están publicados.",
-      "of": "478a052c",
+      "t": "Las pruebas se organizan a través de la oficina de **Student Services**, y se programan **solo después de que la oficina de admisiones haya recibido todos los formularios requeridos**. Los solicitantes de high school también presentan una **prueba de ingreso obligatoria que se usa para determinar la ubicación de grado**. La escuela publica este paso solo para los grados 9 a 12. Según el High School Profile 2026–27 de la escuela, los solicitantes **deben obtener un resultado igual o superior a su nivel de grado y estar en regla con su escuela actual** para ser admitidos. Las pruebas específicas no están publicadas.",
+      "of": "639a62b4",
       "at": [
         "hickory-grove-christian:guide.bands[3].steps[4].detail"
       ]
     },
     {
-      "t": "La decisión final se **comunica por escrito**, y valora las calificaciones satisfactorias, las cartas de recomendación, la entrevista, los informes de conducta, las pruebas de ingreso y cualquier IEP, 504 o evaluación psicoeducativa en el expediente. **Cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión**, una regla que importa más en este nivel, porque un expediente de escuela secundaria arrastra el historial más largo. **No se publica una fecha fija de notificación**: la admisión es continua y depende del espacio en el grado. Al ser aceptado vence un **depósito no reembolsable de $500**, que se acredita a la matrícula.",
-      "of": "383188d7",
+      "t": "La decisión final se **comunica por escrito**. Valora las calificaciones satisfactorias, las cartas de recomendación, la entrevista, los informes de conducta y las pruebas de ingreso. También valora cualquier IEP, 504 o evaluación psicoeducativa en el expediente. **Cualquier suspensión, expulsión o materia reprobada en el expediente es una denegación automática de la admisión**. Esa regla importa más en este nivel, porque un expediente de escuela secundaria arrastra el historial más largo. **No se publica una fecha fija de notificación**. La admisión es continua y depende del espacio en el grado. Si su hijo es aceptado, vence un **depósito no reembolsable de $500**. Se acredita a la matrícula.",
+      "of": "3a5d45bc",
       "at": [
         "hickory-grove-christian:guide.bands[3].steps[6].detail"
       ]
@@ -6718,8 +6712,8 @@
       ]
     },
     {
-      "t": "Los solicitantes de high school deben pasar un día acompañando a un estudiante actual de Hickory Grove y presentar una prueba de ingreso obligatoria que determina la ubicación de grado; además, según el High School Profile 2026–27 de la escuela, deben obtener un resultado igual o superior a su nivel de grado y estar en regla con su escuela actual para ser admitidos. Ni el día de acompañamiento ni la prueba se aplican a los grados 6 a 8, aunque los cuatro formularios de recomendación y la lista de expedientes sean idénticos. Las pruebas se organizan a través de Student Services solo cuando han llegado todos los formularios. Las solicitudes se abren el 2 de noviembre para miembros de la iglesia, estudiantes del Early Education Center y hermanos de estudiantes actuales, y el 16 de noviembre para todos los demás; a partir de entonces la admisión es continua y depende de las plazas, sin una fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o asignatura reprobada en el expediente supone la denegación automática de la admisión; la regla pesa más aquí, porque un expediente de high school abarca el historial más largo.",
-      "of": "1a0258d4",
+      "t": "Los solicitantes de high school deben pasar un día acompañando a un estudiante actual de Hickory Grove. También presentan una prueba de ingreso obligatoria que determina la ubicación de grado. Según el High School Profile 2026–27 de la escuela, deben obtener un resultado igual o superior a su nivel de grado y estar en regla con su escuela actual para ser admitidos. Ni el día de acompañamiento ni la prueba se aplican a los grados 6 a 8, aunque los cuatro formularios de recomendación y la lista de expedientes sean idénticos. Student Services organiza las pruebas solo cuando han llegado todos los formularios. Las solicitudes se abren el 2 de noviembre para miembros de la iglesia, estudiantes del Early Education Center y hermanos de estudiantes actuales. Se abren el 16 de noviembre para todos los demás. A partir de entonces, la admisión es continua y depende de las plazas, sin una fecha fija de notificación. Tenga en cuenta que cualquier suspensión, expulsión o asignatura reprobada en el expediente supone la denegación automática de la admisión. La regla pesa más aquí, porque un expediente de high school abarca el historial más largo.",
+      "of": "7e3d62d3",
       "at": [
         "hickory-grove-christian:guide.bands[3].checklistCallout.text"
       ]
@@ -6830,8 +6824,8 @@
       ]
     },
     {
-      "t": "La admisión se basa en cuatro elementos que la escuela enumera juntos: una **entrevista en línea con la dirección del International Student Program y la dirección del centro (Principal)**, la solicitud en línea completa, el desempeño académico y de conducta previo, y los puntajes de la prueba de inglés. La entrevista es en línea, de modo que **sustituye la visita al campus** con la que empieza cada banda nacional: no se espera que una familia que solicita desde el extranjero viaje antes. Hickory Grove tiene su programa internacional desde **2013** y emite su propio I-20 en lugar de derivar a las familias a un tercero.",
-      "of": "8b1baac2",
+      "t": "La admisión se basa en cuatro elementos que la escuela enumera juntos. El primero es una **entrevista en línea con la dirección del International Student Program y la dirección del centro (Principal)**. Los demás son la solicitud en línea completa, el desempeño académico y de conducta previo, y los puntajes de la prueba de inglés. La entrevista es en línea, de modo que **sustituye la visita al campus** con la que empieza cada banda nacional. No se espera que una familia que solicita desde el extranjero viaje antes. Hickory Grove tiene su programa internacional desde **2013**. Emite su propio I-20 (el formulario que un estudiante necesita para solicitar una visa de estudiante) en lugar de derivar a las familias a un tercero.",
+      "of": "5c6c182e",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[0].detail"
       ]
@@ -6851,8 +6845,8 @@
       ]
     },
     {
-      "t": "La misma solicitud de admisión en línea que la de los solicitantes nacionales, enviada a la **International Admissions Office**. El expediente de solicitud requiere una **copia del pasaporte y del certificado de nacimiento**, el **registro de vacunación**, una **recomendación de un profesor de matemáticas y otra de un profesor de inglés**, la hoja de puntajes de la prueba de inglés, el **expediente académico de high school y las libretas de calificaciones de los dos años anteriores, ambos traducidos al inglés**, y cualquier plan de adaptaciones, evaluación educativa o diagnóstico médico que corresponda. La cuota de solicitud es **no reembolsable** y **se paga al presentar la solicitud**, pero **su importe no está publicado**: pregunte a la oficina internacional.",
-      "of": "3231e3bb",
+      "t": "Es la misma solicitud en línea que usan los solicitantes nacionales. Usted la envía a la **International Admissions Office**. El expediente requiere una **copia del pasaporte y del certificado de nacimiento** y el **registro de vacunación**. Requiere una **recomendación de un profesor de matemáticas y otra de un profesor de inglés** y la hoja de puntajes de la prueba de inglés. También requiere el **expediente académico de high school y las libretas de calificaciones de los dos años anteriores, ambos traducidos al inglés**. Incluya cualquier plan de adaptaciones, evaluación educativa o diagnóstico médico que corresponda. La cuota de solicitud es **no reembolsable** y **se paga al presentar la solicitud**. Pero **su importe no está publicado**, así que pregunte a la oficina internacional.",
+      "of": "09b11233",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[1].detail"
       ]
@@ -6873,8 +6867,8 @@
       ]
     },
     {
-      "t": "Los umbrales publicados son **TOEFL 80** y **Duolingo 115**, y la hoja de puntajes se envía con la solicitud. La escuela afirma estar **dispuesta a considerar otras opciones de prueba**, así que un estudiante con otra evaluación de inglés reconocida debe preguntar en lugar de suponer que no se aceptará.",
-      "of": "564a8a43",
+      "t": "Los umbrales publicados son **TOEFL 80** y **Duolingo 115**, y la hoja de puntajes se envía con la solicitud. La escuela afirma estar **dispuesta a considerar otras opciones de prueba**. Así que si su hijo tiene otra prueba de inglés reconocida, pregunte a la escuela en lugar de suponer que no se aceptará.",
+      "of": "daa420b8",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[2].detail"
       ]
@@ -6887,8 +6881,8 @@
       ]
     },
     {
-      "t": "**El expediente académico de high school y las libretas de calificaciones de los dos años anteriores deben traducirse al inglés**, y la escuela remite a las familias a **International Education Evaluations (IEE)** — info@foreigntranscripts.com — para obtener ayuda. Luego se revisan en conjunto el **desempeño académico y de conducta** previo y los puntajes de pruebas estandarizadas, de modo que la decisión se toma sobre el expediente traducido.",
-      "of": "3ec593be",
+      "t": "**El expediente académico de high school y las libretas de calificaciones de los dos años anteriores deben traducirse al inglés**. Para obtener ayuda, la escuela remite a las familias a **International Education Evaluations (IEE)** en info@foreigntranscripts.com. Luego la escuela revisa en conjunto el **desempeño académico y de conducta** previo y los puntajes de pruebas estandarizadas. Así que la decisión se toma sobre el expediente traducido.",
+      "of": "8d0e3f75",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[3].detail"
       ]
@@ -6908,8 +6902,8 @@
       ]
     },
     {
-      "t": "El estudiante aceptado **recibe la notificación por correo electrónico**, y después un responsable de la escuela **envía el I-20 por correo postal al padre, la madre o el tutor**. Con el I-20 en mano, el estudiante **concierta una entrevista con la Embajada de EE. UU. en su propio país para obtener la visa F-1**: esa cita la reserva la familia, y los tiempos de espera de la embajada escapan al control de la escuela, así que iníciela en cuanto llegue el I-20.",
-      "of": "3324d82f",
+      "t": "El estudiante aceptado **recibe la notificación por correo electrónico**. Después, un responsable de la escuela **envía el I-20 por correo postal al padre, la madre o el tutor**. Con el I-20 en mano, el estudiante **concierta una entrevista con la Embajada de EE. UU. en su propio país para obtener la visa F-1**. Esa cita la reserva la familia. Los tiempos de espera de la embajada escapan al control de la escuela, así que empiece a gestionar la cita en cuanto llegue el I-20.",
+      "of": "3b8247f9",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[4].detail"
       ]
@@ -6929,8 +6923,8 @@
       ]
     },
     {
-      "t": "Cuando se requiere alojamiento con una familia, el **HGCS Student Coordinator** contacta al estudiante o al agente con los detalles; las familias anfitrionas son **miembros de Hickory Grove Baptist Church y familias con estudiantes en HGCS**, y la escuela gestiona el arreglo internamente. **Los detalles de la selección de las familias anfitrionas y de la verificación de antecedentes no están publicados**: pregunte directamente al coordinador. El seguro médico se gestiona a través de **American Benefit Services (Short Term Medical)**, en el **843-214-2447** o wesley.abs@gmail.com, y la escuela exige además un **formulario de vacunas para estudiantes internacionales** y un **examen físico actualizado**.",
-      "of": "6f0c0108",
+      "t": "Cuando se requiere alojamiento en familia (vivir con una familia anfitriona), el **HGCS Student Coordinator** contacta al estudiante o al agente con los detalles. Las familias anfitrionas son **miembros de Hickory Grove Baptist Church y familias con estudiantes en HGCS**. La escuela gestiona el arreglo internamente. **Los detalles de la selección de las familias anfitrionas y de la verificación de antecedentes no están publicados**, así que pregunte directamente al coordinador. El seguro médico se gestiona a través de **American Benefit Services (Short Term Medical)**. Puede contactar a American Benefit Services en el **843-214-2447** o en wesley.abs@gmail.com. La escuela exige además un **formulario de vacunas para estudiantes internacionales** y un **examen físico actualizado**.",
+      "of": "5e5b5f95",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[5].detail"
       ]
@@ -6950,8 +6944,8 @@
       ]
     },
     {
-      "t": "**El pago total debe recibirse antes del 1 de agosto** para que el estudiante pueda matricularse, y un saldo aún pendiente el primer día de clases deja la solicitud en **retención financiera**. Esta es la diferencia más marcada con las bandas nacionales, que cobran un depósito de $500 al ser aceptado y facturan el saldo a lo largo del año. **La matrícula internacional no está publicada**, ni si la ayuda financiera llega a los estudiantes internacionales. **Retirarse antes de tiempo cuesta $500 más el 50% de la matrícula internacional.**",
-      "of": "9344f6c4",
+      "t": "**El pago total debe recibirse antes del 1 de agosto** para que el estudiante pueda matricularse. Un saldo aún pendiente el primer día de clases deja la solicitud en **retención financiera**. Pagar todo antes de la matrícula es la diferencia más marcada con las bandas nacionales, que cobran un depósito de $500 al ser aceptado y facturan el saldo a lo largo del año. **La matrícula internacional no está publicada**. Tampoco se publica si la ayuda financiera llega a los estudiantes internacionales. **Retirarse antes de tiempo cuesta $500 más el 50% de la matrícula internacional.**",
+      "of": "364b52db",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[6].detail"
       ]
@@ -6971,8 +6965,8 @@
       ]
     },
     {
-      "t": "El programa cubre una **orientación antes del inicio de clases**, **las pruebas PSAT y ACT**, **reuniones semanales con el Director de Estudiantes Internacionales**, informes periódicos a las familias y agencias, **transporte al aeropuerto** al inicio y al final del año, **mantenimiento del I-20**, almuerzo diario, cuotas deportivas y de tecnología, visitas a universidades locales, excursiones de clase y los libros de lectura obligatoria de clase. Algo que conviene prever: **la reinscripción no es automática**, se solicita cada año en lugar de renovarse sola.",
-      "of": "a19e62e8",
+      "t": "El programa cubre una **orientación antes del inicio de clases**, **las pruebas PSAT y ACT** y **reuniones semanales con el Director de Estudiantes Internacionales**. También cubre informes periódicos a las familias y agencias, y **transporte al aeropuerto** al inicio y al final del año. También se incluyen el **mantenimiento del I-20**, el almuerzo diario y las cuotas deportivas y de tecnología. Igual que las visitas a universidades locales, las excursiones de clase y los libros de lectura obligatoria de clase. Algo que conviene prever: **la reinscripción no es automática**. Se solicita cada año, no se renueva sola.",
+      "of": "d2b7069d",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[7].detail"
       ]
@@ -6985,8 +6979,8 @@
       ]
     },
     {
-      "t": "Se basa en una entrevista en línea con la dirección del programa y la dirección del centro en lugar de una visita al campus, en umbrales de dominio del inglés, en un expediente académico y libretas de calificaciones traducidos al inglés y en dos recomendaciones de profesores, y termina con un I-20 que Hickory Grove emite por sí misma y una cita en la embajada que usted reserva. La estructura financiera también es distinta: el pago total vence el 1 de agosto, sin depósito ni plan de facturación. No se publica un plazo internacional propio, ni la cuota de solicitud ni la matrícula internacionales: Sheila M. Chaney dirige tanto admisiones como el programa internacional y es la persona a quien preguntar.",
-      "of": "c81c777b",
+      "t": "Este proceso se basa en una entrevista en línea con la dirección del programa y la dirección del centro, en lugar de una visita al campus. También se basa en puntajes mínimos de la prueba de inglés, en un expediente académico y libretas de calificaciones traducidos al inglés, y en dos recomendaciones de profesores. Termina con un I-20 que Hickory Grove emite por sí misma y una cita en la embajada que usted reserva. La parte económica también es distinta: el pago total vence el 1 de agosto, en lugar de un depósito y un plan de facturación. No se publica un plazo internacional propio. Tampoco la cuota de solicitud ni la matrícula internacionales. Pregunte a Sheila M. Chaney, que dirige tanto admisiones como el programa internacional.",
+      "of": "85a4d8d7",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistCallout.text"
       ]
@@ -7020,8 +7014,8 @@
       ]
     },
     {
-      "t": "Con las copias del pasaporte y del certificado de nacimiento, el registro de vacunación, las recomendaciones de los profesores de matemáticas e inglés y cualquier plan de adaptaciones. La cuota no es reembolsable y se paga con la solicitud; su importe no está publicado.",
-      "of": "306d6a78",
+      "t": "Incluya las copias del pasaporte y del certificado de nacimiento, el registro de vacunación y las recomendaciones de los profesores de matemáticas e inglés. Añada cualquier plan de adaptaciones. La cuota no es reembolsable y se paga con la solicitud. Su importe no está publicado.",
+      "of": "fe2cfe15",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[1].detail"
       ]
@@ -7169,8 +7163,8 @@
       ]
     },
     {
-      "t": "La ayuda se tramita a través de **FACTS Grant & Aid Assessment**, y **FACTS cobra $40** por procesar la solicitud; pida la información sobre la ayuda a la **oficina de finanzas** en finance@hgchristian.org. El orden de las gestiones: solicite, acepte o renueve la **NC Opportunity Scholarship** a través de la autoridad estatal de asistencia educativa (**cualquiera puede solicitarla**, sin límite de ingresos para presentar la solicitud, y las solicitudes se abren el **1 de febrero**) y, si todavía está esperando la respuesta o no cubrirá su necesidad, solicite ayuda a Hickory Grove, otorgada \"hasta que se hayan asignado todos los fondos disponibles\". **ESA+** está disponible para niños con discapacidades que asisten a una escuela no pública elegible. La solicitud de ayuda propia de Hickory Grove puede presentarse **solo cuando su solicitud a HGCS esté completa**. Un nuevo **Education Freedom Tax Credit** federal financia becas de K–12 a partir del 1 de enero de 2027 a través de una Scholarship Granting Organization aprobada; las familias solicitan a esa organización, no a la escuela, y Hickory Grove aún no ha nombrado a su socio. Hickory Grove **no ofrece descuentos automáticos**, como los descuentos por varios hijos o para pastores, pero las familias obtienen un **descuento del 5% por pagar la matrícula de todo el año escolar antes del 31 de mayo**.",
-      "of": "d11d8018",
+      "t": "La ayuda se tramita a través de **FACTS Grant & Aid Assessment**, y **FACTS cobra $40** por procesar la solicitud. Pida la información sobre la ayuda a la **oficina de finanzas** en finance@hgchristian.org. Haga las gestiones en este orden. Primero, solicite, acepte o renueve la **NC Opportunity Scholarship** a través de la autoridad estatal de asistencia educativa. **Cualquiera puede solicitarla**: no hay límite de ingresos para presentar la solicitud, y las solicitudes se abren el **1 de febrero**. Después, si todavía está esperando esa beca o no cubrirá su necesidad, solicite ayuda a Hickory Grove. Esa ayuda se otorga \"hasta que se hayan asignado todos los fondos disponibles\". **ESA+** está disponible para niños con discapacidades que asisten a una escuela no pública elegible. La solicitud de ayuda propia de Hickory Grove puede presentarse **solo cuando su solicitud a HGCS esté completa**. Un nuevo **Education Freedom Tax Credit** federal financia becas de K–12 a partir del 1 de enero de 2027 a través de una Scholarship Granting Organization aprobada. Las familias solicitan a esa organización, no a la escuela, y Hickory Grove aún no ha nombrado a su socio. Hickory Grove **no ofrece descuentos automáticos**, como los descuentos por varios hijos o para pastores. Pero las familias obtienen un **descuento del 5% por pagar la matrícula de todo el año escolar antes del 31 de mayo**.",
+      "of": "a83d97b4",
       "at": [
         "hickory-grove-christian:guide.aid.text"
       ]
@@ -7386,15 +7380,15 @@
       ]
     },
     {
-      "t": "Un Personal Recommendation form del pastor de la familia, exigido en todos los grados de TK a 12 · la solicitud en línea de FACTS, con una cuota de solicitud no reembolsable de $300 hasta el 31 de mayo de 2027 ($550 a partir del 1 de junio de 2027), que no se acredita a la matrícula · pruebas programadas solo después de que haya llegado cada formulario requerido · una decisión por escrito sin fecha fija de notificación, porque la admisión es continua y depende de la capacidad · un depósito de matriculación no reembolsable de $500 que se acredita a la matrícula · y una regla publicada según la cual cualquier suspensión, expulsión o materia reprobada es una denegación automática de la admisión",
-      "of": "b0c4a877",
+      "t": "Un Personal Recommendation form del pastor de la familia, exigido en todos los grados de TK a 12 · la solicitud en línea de FACTS · una cuota de solicitud no reembolsable de $300 hasta el 31 de mayo de 2027 ($550 a partir del 1 de junio de 2027), que no se acredita a la matrícula · pruebas programadas solo después de que haya llegado cada formulario requerido · una decisión por escrito sin fecha fija de notificación, porque la admisión es continua y depende del espacio en el grado · un depósito de matriculación no reembolsable de $500 que se acredita a la matrícula · y una regla publicada según la cual cualquier suspensión, expulsión o materia reprobada es una denegación automática de la admisión",
+      "of": "b87cf511",
       "at": [
         "hickory-grove-christian:guide.comparison.rows[8].cells.all"
       ]
     },
     {
-      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · oficina principal 704-531-4008 · admissions@hgchristian.org · lun–vie 7:30 a. m.–3:30 p. m. El correo postal se dirige aparte, a 6050 Hickory Grove Road, Charlotte, NC 28215, el complejo de la iglesia y la escuela. La escuela nombra un Admissions & Enrollment Team de cuatro personas — Sheila Chaney (Director of Admissions & International Student Program), Shelly Rivenbark (Registrar), Amanda Wright (School Finance) y Jared Daulton (Communications Coordinator) —, pero publica datos de contacto solo del cargo de dirección; las líneas de la oficina que figuran abajo cubren al resto.",
-      "of": "5e412eb7",
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · oficina principal 704-531-4008 · admissions@hgchristian.org · lun–vie 7:30 a. m.–3:30 p. m. · correo postal a 6050 Hickory Grove Road, Charlotte, NC 28215, el complejo de la iglesia y la escuela. La escuela nombra un Admissions & Enrollment Team de cuatro personas: Sheila Chaney (Director of Admissions & International Student Program), Shelly Rivenbark (Registrar), Amanda Wright (School Finance) y Jared Daulton (Communications Coordinator). Publica datos de contacto solo de la directora; las líneas de la oficina que figuran abajo cubren al resto.",
+      "of": "bfe002ff",
       "at": [
         "hickory-grove-christian:guide.contacts.address"
       ]
@@ -7456,8 +7450,8 @@
       ]
     },
     {
-      "t": "Si todavía está esperando la beca estatal, o no cubrirá su necesidad, solicite ayuda a Hickory Grove: se otorga hasta que se hayan asignado todos los fondos disponibles y solo se abre cuando su solicitud a HGCS esté completa.",
-      "of": "6914dad4",
+      "t": "Si todavía está esperando la beca estatal, o no cubrirá su necesidad, solicite ayuda a Hickory Grove. Esa ayuda se otorga hasta que se hayan asignado todos los fondos disponibles. Solo puede solicitarla cuando su solicitud a HGCS esté completa.",
+      "of": "d4a4304f",
       "at": [
         "hickory-grove-christian:guide.checklist.aidPanel.items[2]"
       ]
@@ -7549,8 +7543,8 @@
       ]
     },
     {
-      "t": "Todo se gestiona a través de FACTS: cree su cuenta de admisión de FACTS y desde ahí presente la solicitud y pague la cuota de solicitud. En Trinity no existe Ravenna — si tiene una cuenta de Ravenna para otro colegio de Charlotte, no llega hasta este.",
-      "of": "30d746e2",
+      "t": "Todo se gestiona a través de FACTS. Cree su cuenta de admisión de FACTS y después presente desde ella la solicitud y la cuota de solicitud. Trinity no usa Ravenna. Si tiene una cuenta de Ravenna para otro colegio de Charlotte, no sirve para este.",
+      "of": "ab605f43",
       "at": [
         "trinity-episcopal:guide.rules[0].text"
       ]
@@ -7570,8 +7564,8 @@
       ]
     },
     {
-      "t": "El mismo esqueleto en los dos niveles: visita → solicitud a través de FACTS con la cuota → recomendaciones y expedientes → pruebas → Wildcat Visit Day → decisión. Lo que cambia es el calendario, qué prueba hace su hijo y quién la administra. A toda familia que completa el proceso se la invita a una Follow-Up Conference con el equipo de admisiones, sea cual sea el resultado.",
-      "of": "538147aa",
+      "t": "Los dos niveles siguen los mismos pasos principales: visita → solicitud a través de FACTS con la cuota → recomendaciones y expedientes → pruebas → Wildcat Visit Day → decisión. Lo que cambia es el calendario, qué prueba hace su hijo y quién la administra. A toda familia que completa el proceso se la invita a una Follow-Up Conference con el equipo de admisiones, sea cual sea el resultado.",
+      "of": "4689e7be",
       "at": [
         "trinity-episcopal:guide.spineNote"
       ]
@@ -7654,8 +7648,8 @@
       ]
     },
     {
-      "t": "Cree su **cuenta de admisión de FACTS** y desde ahí presente la solicitud y pague la cuota de solicitud. **El importe de la cuota no está publicado en ningún sitio** — no hay ni una sola cifra en dólares en la página del proceso de admisión — así que confírmelo con la Admission Office antes de hacer su presupuesto. Kindergarten solicita **dos semanas antes que cualquier otro grado**, y recibe respuesta seis semanas antes.",
-      "of": "68127006",
+      "t": "Cree su **cuenta de admisión de FACTS** y después presente desde ella la solicitud y la cuota de solicitud. **El importe de la cuota no está publicado en ningún sitio**. La página del proceso de admisión no muestra ni una sola cifra en dólares. Así que confirme la cuota con la Admission Office antes de hacer su presupuesto. Kindergarten solicita **dos semanas antes que cualquier otro grado**, y recibe respuesta seis semanas antes.",
+      "of": "38827ad5",
       "at": [
         "trinity-episcopal:guide.bands[0].steps[1].detail"
       ]
@@ -7743,8 +7737,8 @@
       ]
     },
     {
-      "t": "Kindergarten solicita antes del 2 de enero, entrega la documentación complementaria antes del 1 de febrero y recibe respuesta el viernes 26 de febrero — seis semanas antes que los grados 1–8. La WPPSI-IV la reserva usted con un único psicólogo de CAIS por $275, y la preparación, las clases particulares o la repetición de la prueba invalidan su solicitud en los siete colegios CAIS. El importe de la cuota de solicitud no está publicado; confírmelo con la oficina.",
-      "of": "c5136a89",
+      "t": "Kindergarten solicita antes del 2 de enero y entrega la documentación complementaria antes del 1 de febrero. Las familias reciben respuesta el viernes 26 de febrero, seis semanas antes que los grados 1–8. La WPPSI-IV la reserva usted con un único psicólogo de CAIS, por $275. La preparación, las clases particulares o la repetición de la prueba invalidan su solicitud en los siete colegios CAIS. El importe de la cuota de solicitud no está publicado; confírmelo con la oficina.",
+      "of": "12a0eed2",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistCallout.text"
       ]
@@ -7943,8 +7937,8 @@
       ]
     },
     {
-      "t": "Cree su **cuenta de admisión de FACTS** y desde ahí presente la solicitud y pague la cuota de solicitud. **El importe de la cuota no está publicado en ninguna parte** de las páginas de admisión — confírmelo con la Admission Office. La escuela señala además que **sigue aceptando solicitudes para el curso 2026-2027 en determinados grados**, así que una familia que quiera cambiarse a mitad de ciclo debería preguntar en lugar de esperar un año.",
-      "of": "d9db3ccc",
+      "t": "Cree su **cuenta de admisión de FACTS** y después presente desde ella la solicitud y la cuota de solicitud. **El importe de la cuota no está publicado en ninguna parte** de las páginas de admisión. Confírmelo con la Admission Office. La escuela señala además que **sigue aceptando solicitudes para el curso 2026-2027 en determinados grados**. Así que una familia que quiera cambiarse durante ese curso debería preguntar en lugar de esperar un año.",
+      "of": "556c59b5",
       "at": [
         "trinity-episcopal:guide.bands[1].steps[1].detail"
       ]
@@ -7987,8 +7981,8 @@
       ]
     },
     {
-      "t": "Las decisiones se envían por correo electrónico el **viernes 9 de abril de 2027**, seis semanas después del nivel de Kindergarten. Trinity invita a **todas las familias** que completan el proceso de solicitud — no solo a las admitidas — a sentarse con el equipo de admisiones para compartir lo que han aprendido sobre el niño y \"help the family discern how Trinity Episcopal School can best partner with the family in support of their child.\"",
-      "of": "9712ec4f",
+      "t": "Las decisiones se envían por correo electrónico el **viernes 9 de abril de 2027**, seis semanas después del nivel de Kindergarten. Trinity invita a **todas las familias** que completan el proceso de solicitud a reunirse con el equipo de admisiones, no solo a las familias cuyo hijo fue admitido. La reunión sirve para compartir lo que el equipo ha aprendido sobre el niño y para \"help the family discern how Trinity Episcopal School can best partner with the family in support of their child.\"",
+      "of": "7beba7df",
       "at": [
         "trinity-episcopal:guide.bands[1].steps[5].detail"
       ]
@@ -8322,8 +8316,8 @@
       ]
     },
     {
-      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en tescharlotte.org y se consultaron en septiembre de 2026. Los errores de los propios textos de la escuela se reproducen en lugar de corregirse: el plazo de apoyo económico en la página del proceso dice 1 de febrero de 2026 mientras que la página de matrículas dice 1 de febrero de 2027, y se señala allí donde aparece. La jornada de puertas abiertas del 1 de diciembre de 2026 aparece etiquetada como \"Thursday\" cuando cae en martes, y su hora de inicio difiere entre las dos páginas de admisión de la escuela. El detalle del consorcio CAIS procede del folleto de 2024-25, cuya estructura se mantiene pero cuyas fechas no, y no se reproducen. Las fechas del ciclo cambian de un año a otro — verifíquelas en las páginas activas antes de actuar. Recopilado por Charlotte School Compare; sin afiliación con Trinity Episcopal School.",
-      "of": "a85919c2",
+      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en tescharlotte.org y se consultaron en septiembre de 2026. Los errores de los propios textos de la escuela se reproducen tal como aparecen, sin corregirse. El plazo de apoyo económico en la página del proceso dice 1 de febrero de 2026, mientras que la página de matrículas dice 1 de febrero de 2027. Este error se señala allí donde aparece. La jornada de puertas abiertas del 1 de diciembre de 2026 aparece etiquetada como \"Thursday\" cuando cae en martes, y su hora de inicio difiere entre las dos páginas de admisión de la escuela. El detalle del consorcio CAIS procede del folleto de 2024-25. Su estructura se mantiene, pero sus fechas no, y no se reproducen aquí. Las fechas del ciclo cambian de un año a otro, así que verifíquelas en las páginas activas antes de actuar. Recopilado por Charlotte School Compare; sin afiliación con Trinity Episcopal School.",
+      "of": "2d22472f",
       "at": [
         "trinity-episcopal:guide.checklist.disclaimer"
       ]
@@ -8371,15 +8365,15 @@
       ]
     },
     {
-      "t": "Todo se gestiona a través de FACTS: inicie una solicitud en el portal de admisiones de FACTS y pague allí la cuota no reembolsable de $100. Al introducir en el portal el correo electrónico de un docente y el de la secretaría académica, se les envían directamente los formularios de recomendación y de expediente académico.",
-      "of": "61fb14de",
+      "t": "Todo se gestiona a través de FACTS. Inicie una solicitud en el portal de admisiones de FACTS y pague allí la cuota no reembolsable de $100. Cuando introduce en el portal el correo electrónico de un docente y el de la secretaría académica, el portal les envía directamente los formularios de recomendación y de expediente académico.",
+      "of": "e116b320",
       "at": [
         "charlotte-prep:guide.rules[0].text"
       ]
     },
     {
-      "t": "El mismo esqueleto en los dos niveles: visita → solicitud a través de FACTS con la cuota → recomendaciones (y expedientes académicos a partir del grado 1) → pruebas → una visita al campus → decisión por correo electrónico a las 4:00 p.m. → contrato de matriculación. Lo que cambia es el calendario, qué prueba realiza su hijo y quién la administra.",
-      "of": "14774d31",
+      "t": "Los dos niveles siguen los mismos pasos principales. Primero: visita → solicitud a través de FACTS con la cuota → recomendaciones (y expedientes académicos a partir del grado 1) → pruebas. Después: una visita al campus → decisión por correo electrónico a las 4:00 p.m. → contrato de matriculación. Lo que cambia es el calendario, qué prueba realiza su hijo y quién la administra.",
+      "of": "536a8e64",
       "at": [
         "charlotte-prep:guide.spineNote"
       ]
@@ -8438,8 +8432,8 @@
       ]
     },
     {
-      "t": "La **Montessori Open House** es el **miércoles 21 de octubre** a las 9:30 a.m., y la **Kindergarten Virtual Information Session** tiene lugar el **jueves 12 de noviembre** a las 12:00 p.m. Las edades se cuentan **al 1 de agosto**: **2** para Pre-Primary, **3** para Primary, **4** para TK y **5** para Montessori K o Traditional K.",
-      "of": "01269656",
+      "t": "La **Montessori Open House** es a las 9:30 a.m. del **miércoles 21 de octubre**. Una **Kindergarten Virtual Information Session** tiene lugar a las 12:00 p.m. del **jueves 12 de noviembre**. Las edades se cuentan **al 1 de agosto**: **2** para Pre-Primary, **3** para Primary, **4** para TK y **5** para Montessori K o Traditional K.",
+      "of": "8b367d8d",
       "at": [
         "charlotte-prep:guide.bands[0].steps[0].detail"
       ]
@@ -8524,8 +8518,8 @@
       ]
     },
     {
-      "t": "Early School y Kindergarten presentan la solicitud antes del 2 de enero, completan las pruebas y las recomendaciones antes del 1 de febrero y reciben respuesta el 26 de febrero a las 4:00 p.m. Solo Montessori K y Kindergarten realizan una prueba: la WPPSI-IV, con un psicólogo de CAIS. Los solicitantes de Pre-Primary, Primary y TK no realizan ninguna.",
-      "of": "03268a66",
+      "t": "Early School y Kindergarten presentan la solicitud antes del 2 de enero y completan las pruebas y las recomendaciones antes del 1 de febrero. Las familias reciben respuesta a las 4:00 p.m. del 26 de febrero. Solo Montessori K y Kindergarten realizan una prueba: la WPPSI-IV, con un psicólogo de CAIS. Los solicitantes de Pre-Primary, Primary y TK no realizan ninguna.",
+      "of": "42ccaf26",
       "at": [
         "charlotte-prep:guide.bands[0].checklistCallout.text"
       ]
@@ -8690,8 +8684,8 @@
       ]
     },
     {
-      "t": "El grado 1 realiza la WPPSI-IV y los grados 2–4 la WISC-V —ambas con un psicólogo de CAIS—, y los grados 5–8 el ISEE, con inscripción a través de ERB. Las solicitudes vencen el 15 de enero; las recomendaciones, las pruebas y los expedientes académicos, el 26 de febrero; las decisiones llegan el 9 de abril a las 4:00 p.m.",
-      "of": "3759dfac",
+      "t": "El grado 1 realiza la WPPSI-IV y los grados 2–4 la WISC-V, ambas con un psicólogo de CAIS. Los grados 5–8 realizan el ISEE, con inscripción a través de ERB. Las solicitudes vencen el 15 de enero. Las recomendaciones, las pruebas y los expedientes académicos vencen el 26 de febrero. Las decisiones llegan el 9 de abril a las 4:00 p.m.",
+      "of": "b8dd0e89",
       "at": [
         "charlotte-prep:guide.bands[1].checklistCallout.text"
       ]
@@ -8746,8 +8740,8 @@
       ]
     },
     {
-      "t": "Se ofrece ayuda a la matrícula **de Kindergarten a 8.º grado**, a través de **Clarity**, según \"financial need, academic merit, and the student’s fit\". La página de ayuda de la escuela da dos fechas límite —el **2 de enero** en el texto principal y el **15 de enero** en sus preguntas frecuentes—, así que **confirme la fecha con el Director of Enrollment** antes de fiarse de cualquiera de las dos. Pre-Primary, Primary y TK no pueden optar a la ayuda.",
-      "of": "641c8477",
+      "t": "Se ofrece ayuda a la matrícula **de Kindergarten a 8.º grado**, a través de **Clarity**. Se basa en \"financial need, academic merit, and the student’s fit\". La página de ayuda de la escuela da dos fechas límite: el **2 de enero** en el texto principal y el **15 de enero** en sus preguntas frecuentes. Así que **confirme la fecha con el Director of Enrollment** antes de fiarse de cualquiera de las dos. Pre-Primary, Primary y TK no pueden optar a la ayuda.",
+      "of": "c85d4f50",
       "at": [
         "charlotte-prep:guide.aid.text"
       ]

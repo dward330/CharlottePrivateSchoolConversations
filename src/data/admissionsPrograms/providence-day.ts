@@ -19,11 +19,13 @@
 // (ISEE, named outright). Grades 2–5 also have a required Day Visit, and
 // Grades 6–12 have student and parent interviews.
 //
-// CYCLE: 2026–27 only, and no date changed in the refresh. NOTE the school's
-// own two pages disagree on the LABEL while agreeing exactly on the dates — the
-// calendar page says "2026-2027", the process page's apply buttons say
-// "2027-2028". We follow the calendar page. A date is never guessed and a prior
-// cycle's date is never carried forward.
+// CYCLE: one cycle only (fall 2027 entry), and no date changed in the refresh.
+// NOTE the school's own two pages disagree on the LABEL while agreeing exactly
+// on the dates — the calendar page says "2026-2027" (the year families apply),
+// the process page's apply buttons say "2027-2028" (the year the child enters).
+// The site labels every school by ENTRY year, so this card says "2027–28 entry
+// cycle" like the other six (user decision 2026-11-10; it said 2026–27 before).
+// A date is never guessed and a prior cycle's date is never carried forward.
 //
 // The school's own "NOT PUBLISHED" markers that REMAIN are load-bearing and are
 // rendered as "confirm with admissions" rather than dropped or asserted: the
@@ -35,8 +37,8 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const providenceDay: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
-    cycle: '2026–27 entry cycle',
+      "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
+    cycle: '2027–28 entry cycle',
 
     stats: [
       // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
@@ -55,7 +57,7 @@ export const providenceDay: AdmissionsProgram = {
       },
       {
         title: 'Dates are cycle-specific.',
-        text: 'Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.',
+        text: 'Every date below is the 2027–28 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.',
       },
     ],
 
@@ -485,7 +487,7 @@ export const providenceDay: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are for the 2026–27 entry cycle, as published on the providenceday.org admissions calendar and admissions-process pages (checked against the live site Sep 2026). Cycle dates change from year to year, so check the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
+        'Dates are for the 2027–28 entry cycle, as published on the providenceday.org admissions calendar and admissions-process pages (checked against the live site Sep 2026). Cycle dates change from year to year, so check the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
     },
 
     sources: [

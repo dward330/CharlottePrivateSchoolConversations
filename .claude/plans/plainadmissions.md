@@ -1174,10 +1174,87 @@ after the `·` change. Grade >10 equals the residual count (0).
 span is inside a `<strong>`, and no page shows a literal `**`. At 390px the `scrollWidth`
 is 390, so there is no horizontal scroll.
 
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user approved all five English batches ("All five English batches are
+  approved. Run only Phase 2.").
+- **Splice matched exactly.** `i18n_splice_work.mjs --topic admissions` reported **1000 kept
+  / 123 added / 123 dropped** in all nine locales. That equals the Batch 5 `check:live`
+  stale count. Every added unit was paired 1:1 with its dropped predecessor by `at` path
+  (0 unpaired), using the `main` work files as the source of the old English and old `t`.
+- **Translation.** Nine parallel `general-purpose` subagents, one per locale, each *revised*
+  the reviewed `t` to match the new English. Each read only its own task file and wrote
+  only its own output. A scratch gate checked every output before writing it:
+  - the numeric-token multiset;
+  - the `**` count;
+  - no bidi controls and no non-Western digits;
+  - `t` ≠ English;
+  - the 0.4–2.5 length ratio;
+  - no English month or weekday outside a quote the English also quotes.
+
+  All nine passed with 0 problems.
+- **Fix at apply time.** ht: the agent labeled the "First:" step groups "Anvan:" (which
+  means "Before:") in 5 chain units. I changed them to "Premye:".
+- **Systematic changes worth a reviewer's look:**
+  - Spelled-out grades and ordinals in the old `t` became digits where the English has
+    a digit (es "noveno a undécimo" → "grados 9 a 11", fa/it/bn "first grade" →
+    "grade 1" forms). Digit-token parity requires it.
+  - fr "fourth and fifth graders" is now in words, because the English now spells it out.
+  - it "1 febbraio"/"1 dicembre" became "1º" (standing rule).
+  - fr fixed a grammar slip in the old `t` ("du réinscription") and dropped a doubled
+    "p.m..".
+  - The I-20 and homestay glosses are new wording in every locale, with no reviewed
+    predecessor.
+- **Cycle-label correction (user request, 2026-11-10, mid-Phase 2).** Providence Day and
+  Charlotte Latin labeled their pages "2026–27 entry cycle". The other six schools say
+  "2027–28" for the same Jan–Apr 2027 deadlines (fall 2027 entry). PD's own site
+  disagrees with itself: the calendar page says 2026-2027 and the apply buttons say
+  2027-2028. The user ruled that the site labels by **entry** year, so both now read
+  "2027–28".
+  - Changed: `cycle`, the headline "deadlines" phrase, `rules[1]` and
+    `checklist.disclaimer` in both files. The CYCLE comments explain the convention.
+  - No date changed. PD's `sources` line ("live 2026–27 calendar") still names the
+    calendar page by its own title.
+  - Translations were carried by stamp with only the year token swapped, after asserting
+    that the English differed by that swap alone. That is 6 units per locale. The seventh,
+    `cycle`, merged into the existing "2027–28 entry cycle" unit the other six schools
+    already share.
+  - Other "2026–27" text on those pages (tuition, trips, arts, college profile) means the
+    school year, and was correctly left alone. Latin's admissions *research notes*
+    (`source-material`, not rendered on the page) still use the old apply-year labels;
+    see Candidates.
+- **`check_work_integrity.mjs`** shows its known false positive after a splice. Verified by
+  stamp against the `main` work files instead: in every locale, **996 kept stamps** have
+  `text` and `t` byte-identical, **126 are new** (123 plus the 3 already-kept year-swap
+  units), and **0 are blank**.
+- **Checks:**
+  - `check:live` ✓ and `check:runtime` ✓;
+  - `check:digits`: **1134 units compared · 0 to review**;
+  - `check:sepdrift`: 0 drifted, ×9;
+  - `check_figures.py --topic admissions`: figures intact, ×9;
+  - `check:dates`, `check:moneytext`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `i18n:leaks`: **0 flags on any of the 136 rewritten or relabeled paths** in any locale;
+  - `npm run build`: green end to end.
+- **Browser** (headed Chrome, `vite preview`, every band clicked, every `<details>` open, every
+  `/admissions-checklist/?band=` page, all 8 schools):
+  - every rewritten unit renders in its locale: es 118/118, fa 118/118, hi 119/119 (units that
+    are figures only were not probed);
+  - 0 English leftovers and no literal `**`.
+- **Render audits:**
+  - `audit:daterender` (es, fa, hi): clean.
+  - `audit:moneyrender` (es, fr): 4 findings, all in Charlotte Country Day's Latest News feed
+    (fetched live and never translated, by design). There are 0 on any admissions or
+    checklist page.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
 
+- charlotte-latin admissions research notes (`source-material/admissions/Charlotte Latin*`,
+  ingested into `src/content/admissions/charlotte-latin.json`) still label the cycle by
+  apply year ("For 2026–27 entry", "Next cycle (2027–28): no dates published yet"). They
+  are not rendered on the school page, but the next ingest should relabel them to match
+  the entry-year convention.
 - Research bookkeeping in parent-facing prose, which may belong in `verify` flags (dev-only
   rule):
   - trinity-episcopal `bands[0].steps[1].detail`: "there is not a single dollar figure on

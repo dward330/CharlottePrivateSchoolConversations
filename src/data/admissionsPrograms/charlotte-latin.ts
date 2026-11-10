@@ -10,13 +10,16 @@
 // same brochure documented for Country Day, in that school's "… - CAIS Testing
 // Consortium.md" — Charlotte Latin is a listed member school.
 //
-// CYCLE: 2026–27 entry, and PRIOR-CYCLE DATES ARE CLOSED. Cached and earlier
+// CYCLE: fall 2027 entry, labelled "2027–28 entry cycle" — the site labels every
+// school by the school year the child ENTERS (user decision 2026-11-10; this card
+// said "2026–27", the year families apply, before). The "2026–27" / "2025–26"
+// names below are the older apply-year labels. PRIOR-CYCLE DATES ARE CLOSED. Cached and earlier
 // versions of the SAME Application Process URL served the 2025–26 cycle —
 // a December 31, 2025 TK/Kindergarten deadline, January 15, 2026 for Grades
 // 1–12, testing "completed and submitted by February 28, 2026" and "February
 // 27, 2026 – All File Material due". None of those is carried forward here.
 // The live page now shows the January 2027 / February 26, 2027 dates this card
-// ships. No 2027–28 dates are published yet. Because the same URLs have served
+// ships. No dates for the following cycle (fall 2028 entry) are published yet. Because the same URLs have served
 // different cycles over time, every figure here is anchored to the live pages
 // as retrieved on the dates in the research file.
 //
@@ -144,8 +147,8 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const charlotteLatin: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. All four tracks follow the same main steps. What changes between them is the assessment, who schedules the Visit Day, whether there is an interview, and the deadline.",
-    cycle: '2026–27 entry cycle',
+      "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. All four tracks follow the same main steps. What changes between them is the assessment, who schedules the Visit Day, whether there is an interview, and the deadline.",
+    cycle: '2027–28 entry cycle',
 
     stats: [
       // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
@@ -163,7 +166,7 @@ export const charlotteLatin: AdmissionsProgram = {
         text: 'Everything runs through Finalsite Enrollment at charlottelatin.fsenrollment.com. Submit an inquiry and create your family profile there. Then use the same account to RSVP for optional admissions events, submit materials, find forms and meet the deadlines.',
       },
       {
-        title: 'Every date below is the 2026–27 cycle.',
+        title: 'Every date below is the 2027–28 cycle.',
         text: 'Cycle dates shift from year to year, and these pages have carried a different set in a previous season. Verify against the live admissions pages before you act on any of them.',
       },
     ],
@@ -711,7 +714,7 @@ export const charlotteLatin: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are for the 2026–27 entry cycle, as published on charlottelatin.org (retrieved Aug 2026). They come from the application process, tuition and financial assistance, and admissions pages. Items marked "confirm" are either shown only inside the application portal or not published at all. Those items include every decision and enrollment contract date. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
+        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026). They come from the application process, tuition and financial assistance, and admissions pages. Items marked "confirm" are either shown only inside the application portal or not published at all. Those items include every decision and enrollment contract date. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
     },
 
     sources: [
