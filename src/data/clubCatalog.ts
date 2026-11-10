@@ -353,7 +353,7 @@ const CANNON: ClubCatalog = {
     },
     {
       label: 'Service & belonging',
-      text: 'Service runs deep: ~15,000 school-wide hours a year (not a graduation requirement), Senior Capstone charity projects, and a House Day of Service. But it runs through frameworks and traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.',
+      text: 'Service runs deep: almost 10,000 Upper School service hours a year (not a graduation requirement), Senior Capstone charity projects, and a House Day of Service. But it runs through frameworks and traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.',
       tag: 'School-reported',
     },
   ],
@@ -769,7 +769,9 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
     { name: 'German Club', cat: 'cult', note: 'Works to promote the German language and culture through educational meetings, events, and service projects — advisor Mrs. Schmid-Rankin, 527' },
     { name: 'Spanish Club', cat: 'cult', note: 'The mission of the Spanish Club is to further educate our students by sharing experiences of Spanish-speaking communities by bringing in Spanish… — advisor Ms. Palomino, 204' },
     { name: 'Climbing Club', cat: 'sport', note: 'In the Climbing Club we will meet monthly or bi-monthly to climb at one of the three Inner Peaks locations in Charlotte — advisor Mr. Kalbaugh, 211' },
-    { name: 'Fellowship of Christian Atheletes', cat: 'sport', note: 'Advisor: Mr. Christmas, AD Office. The purpose of the Fellowship of Christian Athletes is to help athletes to know and grow in Christ and lead others to do the same through…' },
+    // The directory heading misspells this 'Atheletes'; its own purpose text and the
+    // national organization spell it 'Athletes' (plan plainclubs, 2026-11-10).
+    { name: 'Fellowship of Christian Athletes', cat: 'sport', note: 'Advisor: Mr. Christmas, AD Office. The purpose of the Fellowship of Christian Athletes is to help athletes to know and grow in Christ and lead others to do the same through…' },
     { name: 'Figure Skating Club', cat: 'sport', note: 'Connect students who share a passion for figure skating and to help those interested learn how to skate — advisor Ms. El Fahsi, 208' },
     { name: 'Girls\' Rugby Team', cat: 'sport', note: 'Listed in the school’s clubs directory — advisor Mr. Zenmke, Carolina Sports Complex' },
     { name: 'Golf Club', cat: 'sport', note: 'Is a group of service-oriented students who strive to have a positive impact on the community while enjoying the game of golf — advisor Mr. Panther, 214' },

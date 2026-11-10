@@ -108,7 +108,7 @@ export const cannon: ClubsProgram = {
         valueLabel: 'experience tracks · one week each January',
         name: 'Winterm',
         detail:
-          'A week-long hands-on program after winter break that "challenges students to think critically and practically, to serve others," in tracks for the local community, job skills, and trips and certifications. Service options include a Sea Island Habitat for Humanity trip. There is also a food-bank week on hunger in the community.',
+          'A week-long hands-on program after winter break that "challenges students to think critically and practically, to serve others," with service options such as a Sea Island Habitat for Humanity trip and a food-bank week on hunger and food waste. The page names three tracks: the First & Second Year Experience (local community), the Junior Experience (professional skills) and Trips and Certifications. The school says the week is "broken into four experiences."',
         source: { label: 'Winterm', url: WINTERM },
       },
     ],

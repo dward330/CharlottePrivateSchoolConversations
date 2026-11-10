@@ -85,7 +85,7 @@ export const davidsonDay: ClubsProgram = {
     ],
     footnoteTitle: 'The partner network',
     footnote:
-      'Eight community partners are named: Champions House of Care · The Kindness Closet · Food for Days · Beds for Kids · American Foreign Academic Research (AFAR) · the Davidson Public Library · the Davidson College Deliberative Citizenship Initiative. The school also describes an Upper School Community Engagement Council. No roster or founding year is published for it.',
+      'Seven community partners are named: Champions House of Care · The Kindness Closet · Food for Days · Beds for Kids · American Foreign Academic Research (AFAR) · the Davidson Public Library · the Davidson College Deliberative Citizenship Initiative. The school also describes an Upper School Community Engagement Council. No roster or founding year is published for it.',
     flags: [
       {
         kind: 'not-a-club',

@@ -360,7 +360,7 @@ const CARMEL_CHRISTIAN: ClubClusters = {
       oneLiner: 'National Honor Society, National Beta Club, Spanish Honor Society (+ NJHS in the MS)',
       evidence: 'reported',
       evidenceLabel: 'Handbook',
-      note: 'Academic recognition rather than competition. The High School runs the National Honor Society (application; weighted GPA 3.85), the National Beta Club (grades 10–12; GPA 3.50 with service hours) and a Spanish Honor Society. The Middle School has the National Junior Honor Society for 8th grade. These are the school’s academic distinctions in this area.',
+      note: 'Academic recognition rather than competition. The High School runs the National Honor Society, which takes an application and a 3.85 weighted GPA (3.75 unweighted from the Class of 2024). It also runs the National Beta Club (grades 10–12; GPA 3.50 with service hours) and a Spanish Honor Society. The Middle School has the National Junior Honor Society for 8th grade. These are the school’s academic distinctions in this area.',
       source: 'carmelchristian.org — Family Handbook (2021–22 ed.)',
     },
     {

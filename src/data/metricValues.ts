@@ -1755,6 +1755,11 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '27 non-sports organizations (18 clubs/organizations + 9 arts/music) from a single aggregator (PrivateSchoolReview) — the school\'s own site has no clubs page, so this is a single-source count. Five are honor societies; a subset (Choir, Drama, Jazz Band, Discipleship) is corroborated on the school site.',
       },
+      // Added by plan plainclubs (2026-11-10): the ≥10 floor shipped in #478 without a tip.
+      'gaston-day': {
+        kind: 'minimum',
+        text: 'Gaston Day publishes no full club list, so this is a documented floor. It counts the 10 organizations the school names on its own website and Academic Profiles. They are iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council and the National Honor Society.',
+      },
     },
   },
   {

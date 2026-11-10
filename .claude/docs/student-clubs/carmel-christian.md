@@ -1,5 +1,5 @@
 # Carmel Christian School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 2 source document(s) in `source-material/student-clubs/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** Special Interest Web Check 2026, Clubs Redesign Deep Research
 
 
@@ -111,6 +111,17 @@ brief's "no requirement" note was incorrect.)
 - **Competition clubs** (robotics/FIRST, debate, Model UN, mock trial, quiz bowl, FCA,
  chess-as-club, DECA/FBLA): none as standing HS clubs. Chess exists only as an Extended-Day
  Enrichment Class; Geography/Spelling Bees are school-run gr 1-8 events, not HS clubs.
+
+## Academic and competitive clubs
+
+Summary for the Academic & Competitive Clubs card (added 2026-11-10, plan `plainclubs`;
+it restates the sections above and adds no new sources). No standing Upper School
+academic-competition club is confirmed in the Family Handbook (S1), on the live site, or
+on the third-party roster (S3); see "CONFIRMED ABSENT". The school's academic recognition
+is its honor societies: the National Honor Society, the National Beta Club and the
+Spanish Honor Society in the High School, and the National Junior Honor Society for 8th
+grade (S1). Clubs are student-initiated by application (S1 p.74), and chess exists only
+as an Extended-Day enrichment class.
 
 ## Flags
 

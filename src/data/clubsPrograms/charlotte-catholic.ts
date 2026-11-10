@@ -41,7 +41,7 @@ export const charlotteCatholic: ClubsProgram = {
     umbrella: {
       name: 'Campus Ministry',
       detail:
-        'The clubs directory sits under Campus Ministry, not student activities, and that shapes the mix. Faith-formation and service clubs are the largest blocks. The Campus Ministry Club itself runs monthly formation, fellowship and faith events. The club has altar server, sacristan and peer ministry roles.',
+        'The clubs directory sits under Campus Ministry, not student activities, and that shapes the mix. Service is the largest block, with 23 of the 76 clubs, and several clubs in other categories have a faith focus. The Campus Ministry Club itself runs monthly formation, fellowship and faith events. The club has altar server, sacristan and peer ministry roles.',
     },
     groups: [
       { name: 'Achievers Club', detail: 'Creates an intentional space for sharing among Black students. Advisor Dr. Sigwald, Room 225.' },

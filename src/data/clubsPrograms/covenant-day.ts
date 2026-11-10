@@ -76,19 +76,19 @@ export const covenantDay: ClubsProgram = {
     societies: [
       {
         name: 'National Honor Society',
-        division: 'Upper School*',
+        division: 'Upper School',
         recognizes: 'Scholarship, service, leadership, character',
         feedsFrom: 'Third-party roster only — not confirmed on a school page',
       },
       {
         name: 'National Art Honor Society',
-        division: 'Upper School*',
+        division: 'Upper School',
         recognizes: 'Visual-arts achievement',
         feedsFrom: 'Third-party roster; the visual-arts program it would sit atop is school-documented',
       },
       {
         name: 'Spanish Honor Society',
-        division: 'Upper School*',
+        division: 'Upper School',
         recognizes: 'Spanish-language achievement',
         feedsFrom: 'Third-party roster; Spanish runs 1–4 plus AP in the course matrix',
       },
@@ -106,7 +106,7 @@ export const covenantDay: ClubsProgram = {
       },
       {
         name: 'Beta Club',
-        division: 'Unstated*',
+        division: 'Unstated',
         recognizes: 'Academic achievement and service (national organization)',
         feedsFrom: 'Third-party roster only',
       },

@@ -1652,11 +1652,57 @@ cluster row open):
 - **Content changes beyond wording:** the missed student name is gone from its three
   rendered sites (Decisions).
 - **Markers:** `plain-ok` markers added: none.
+### Open-issue fixes (2026-11-10, user request)
+
+**Request.** After Phase 1, the user asked to "fix all the open issues with your best
+recommendation, fetch research data if you need to". This was done on `feat/plainclubs`
+before Phase 2, so Phase 2 translates the corrected English. Each fix was checked against
+the school's own live page or the research file; today's page checks are appended to the
+research files.
+
+| Issue | Evidence | Fix |
+|---|---|---|
+| Carmel's and Trinity's Academic & Competitive Clubs cards never rendered | `content.ts` `isInternal()` drops a title-only section. Trinity's only academic-clubs section was its file's H1; Carmel had none. | A summary paragraph under Trinity's H1, and an "Academic and competitive clubs" section in Carmel's deep research. Both restate the file's own findings, with no new sources. Re-ingested; both cards now render (2 and 4 rows) with their existing teasers. No manifest change: `schools.json` is byte-identical, and only the four touched schools' notes kept their rebuilt date. |
+| Cannon "~15,000 school-wide hours" (Club Catalog `divisions[2]`) | Live Upper School page: "almost 10,000 service hours each year" (Upper School section) | "almost 10,000 Upper School service hours a year" |
+| Cannon Winterm: tile `4`, three tracks named | Live Winterm page: "broken into four experiences", with three headings | The detail now quotes that framing and names the three; the `4` is the school's own count. Also "a food-bank week on hunger and food waste", per the page. |
+| Davidson Day "Eight community partners" listing seven | Live Community & Culture page names exactly 7 | "Seven community partners are named" (the research heading "8 named" was the source of the error; corrected in its web-check note) |
+| Charlotte Catholic "faith-formation and service clubs are the largest blocks" | The directory's six categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9 | "Service is the largest block, with 23 of the 76 clubs, and several clubs in other categories have a faith focus." |
+| "Fellowship of Christian Atheletes" (club `name`) | The directory heading's typo; the same row's purpose text says "Athletes" | Corrected, with a code comment. The research file keeps the school's spelling as transcribed. |
+| Covenant's orphaned `*` on four honor-society `division` cells | The legend sat in a hidden GAP flag; each row's `feedsFrom` already says "Third-party roster" | The asterisks were removed. The hidden flag's text, which still mentions them, is untouched (user decision on hidden flags). |
+| Gaston Day `us-organizations` `≥10` had no tooltip | `check:quals` flagged it | A `minimum` qual naming the 10 school-named organizations. `check:quals`: every coded cell now has a tooltip. |
+| **Found while fixing:** Carmel's newly rendering cluster row said only "weighted GPA 3.85" | Research and the honors card: 3.85 weighted, 3.75 unweighted from the Class of 2024 | The row now states both, matching the honors card |
+
+**Guards.** `plain_review --base HEAD` over all 13 schools reports **18 failures, every
+one an intended fix** ([review-fixes.md](plainclubs-data/review-fixes.md)):
+- (b) digits: Cannon `10,000`; Catholic `23` and `76`; Carmel `3.75` and `2024`;
+- (n) counts: Davidson Day eight → seven; Winterm's "four" / "three" / "second";
+- (d) the new quote "broken into four experiences.";
+- (h): Cannon loses ESTIMATE ("~" → "almost"); Winterm gains FIRST from the track name;
+- (f)/(k): the four Covenant `division` cells and the Catholic club `name`.
+
+The hook passes every changed unit. Across the 15 clubs files, only the 19 hidden flags
+still carry hook issues.
+
+**Checks.** `tsc -b`, `vite build`, `check:schema`, `spelling`, `matrices`, `schoolurls`,
+`chrome`, `runtime`, `moneytext`, `dates`, `spans`, `photos` and `quals` are all green.
+`check:metrics` exits 1 on 36 advisory items, none for Student Clubs; it is not in the
+build.
+
+**Browser** (headed Chrome, `vite preview`): every fix renders as described above. Gaston's
+Compare tip shows, and Trinity at 390px has `scrollWidth` 390.
+
+**Phase 2 input after the fixes:**
+- `check:live` stale stamps per locale: **102 `student-clubs` + 1 `metric-values`**. The
+  fixes changed units that were already rewritten, so the count is unchanged.
+- **Plus one brand-new `metric-values` unit**, Gaston's qual, which `check:live` cannot
+  see; the splice adds it.
+- Student Clubs has no content overlay, so the new research sections need no translation.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
 
-- **Covenant Day's honors table shows orphaned asterisks.** `honors.societies[].division`
+- (Resolved 2026-11-10, open-issue fixes.) **Covenant Day's honors table shows orphaned asterisks.** `honors.societies[].division`
   reads "Upper School*" / "Unstated*" on four rows. The note that explains the asterisk
   ("Entries marked * rest on a third-party roster…") is a GAP flag, which never renders,
   so a parent sees a `*` with no legend. `division` is a non-prose field, so this plan
@@ -1668,24 +1714,24 @@ cluster row open):
   The user ruled that Gaston Day's clubs come only from school sources (thespianname).
   Whether that rule extends to these schools is the user's call. This plan keeps the
   third-party framing exactly.
-- **Cannon's stale ~15,000 hours** (Open questions).
-- **Davidson Day's "Eight … partners" lists seven** (Open questions).
+- **Cannon's stale ~15,000 hours** (Open questions). **Resolved** in the open-issue fixes.
+- **Davidson Day's "Eight … partners" lists seven** (Open questions). **Resolved**: seven, per the live page.
 - **Four Trinity hidden flags hold `**` markdown** (`affinity.flags[0]` COUNT;
   `service.flags[0]`, `honors.flags[0]` and `honors.flags[1]` GAP). They are harmless
   while hidden, but would ship literal asterisks if the flag filter were relaxed.
-- **Gaston Day's Compare `us-organizations` value `≥10` has no tooltip.** The
+- (Resolved 2026-11-10, open-issue fixes.) **Gaston Day's Compare `us-organizations` value `≥10` has no tooltip.** The
   `metricValues.ts` hook's `check:quals` reports it as a coded cell with no `quals`
   entry. It was left by #478 (thespianname), predates this plan, and is outside its
   scope. (Batch 1)
-- **Charlotte Catholic's "largest blocks" claim.** The directory's own category strip
+- (Resolved 2026-11-10, open-issue fixes.) **Charlotte Catholic's "largest blocks" claim.** The directory's own category strip
   (Education 16 · Service 23 · Community 9 · Culture 4 · Sports 15 · General Interest 9)
   has no faith-formation category. So "faith-formation and service clubs are the largest
   blocks" (`affinity.umbrella.detail`) is not backed by those counts. (Batch 2 reviewer)
-- **Cannon's Winterm track count.** `service.programs[2].value` is '4' (tracks), but the
+- (Resolved 2026-11-10, open-issue fixes.) **Cannon's Winterm track count.** `service.programs[2].value` is '4' (tracks), but the
   detail and the research file name only three. (Batch 2 reviewer)
-- **A misspelled club name.** The Charlotte Catholic catalog's `clubs[].name` reads
+- (Resolved 2026-11-10, open-issue fixes.) **A misspelled club name.** The Charlotte Catholic catalog's `clubs[].name` reads
   'Fellowship of Christian Atheletes' (non-prose). (Batch 2 reviewer)
-- **Carmel's and Trinity's Academic & Competitive Clubs cards never render.** Both
+- (Resolved 2026-11-10, open-issue fixes.) **Carmel's and Trinity's Academic & Competitive Clubs cards never render.** Both
   schools have a `clubClusters.ts` entry (Carmel 2 rows, Trinity 4), but neither school
   page shows the card. Carmel has no matching `source-material/student-clubs/` file;
   Trinity has one, but no academic-clubs card appears. Whether to turn these cards on
