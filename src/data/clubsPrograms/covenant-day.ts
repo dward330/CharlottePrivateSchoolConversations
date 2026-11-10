@@ -49,13 +49,13 @@ export const covenantDay: ClubsProgram = {
         valueLabel: 'teens to be housed · Pine Ridge',
         name: 'ContainIt',
         detail:
-          'High school students "use their different talents to transform used shipping containers" into housing for the Pine Ridge Reservation in South Dakota, aiming to provide housing for more than 30 teens — a multi-year design-and-trades build, with Restore525 as the Restoration & Sustainability department’s companion program (and a credit-bearing course).',
+          'High school students "use their different talents to transform used shipping containers" into housing for the Pine Ridge Reservation in South Dakota. The goal is housing for more than 30 teens. The project runs over several years and uses design and skilled-trades work. Restore525 is the Restoration & Sustainability department’s companion program, and it is also a course that earns credit.',
         source: { label: 'Service', url: SERVICE },
       },
     ],
     footnoteTitle: 'The partner network',
     footnote:
-      'Named partners: Matthews HELP Center, Matthews Habitat for Humanity, Operation Christmas Child, Brookstone Schools, Jackson Park, Alexander Children’s Home, and Love INC. Missions trips run to Spain, Haiti, Belize, and Pine Ridge, with a Lower School Missions Week of missionary speakers and cultural education.',
+      'Named partners: Matthews HELP Center · Matthews Habitat for Humanity · Operation Christmas Child · Brookstone Schools · Jackson Park · Alexander Children’s Home · Love INC. Missions trips go to Spain, Haiti, Belize and Pine Ridge. The Lower School also holds a Missions Week of missionary speakers and cultural education.',
     flags: [
       {
         kind: 'gap',
@@ -118,7 +118,7 @@ export const covenantDay: ClubsProgram = {
       },
       {
         label: 'Mock Trial',
-        text: 'Courtroom artist Cornelia Knight (Covenant Day Blue) won her regional and finished 2025 state runner-up — the best-documented statewide result in this area.',
+        text: 'A courtroom artist on the Covenant Day Blue team won her regional and finished 2025 state runner-up — the best-documented statewide result in this area.',
       },
     ],
     flags: [

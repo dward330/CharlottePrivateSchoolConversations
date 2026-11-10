@@ -115,7 +115,7 @@ const CHARLOTTE_LATIN: ClubClusters = {
       oneLiner: "Top-20 NSDA program nationally; 5th in Public Forum at the '26 Nationals",
       evidence: 'verified',
       evidenceLabel: 'Verified — NSDA',
-      note: 'A genuine national-tier operation with external evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals: a 5th-place pair (Public Forum), a 25th-place pair, a 33rd-place finish (World Schools) and an Academic All-American.',
+      note: 'A true national-level program, with outside evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals results: a 5th-place pair (Public Forum) · a 25th-place pair · a 33rd-place finish (World Schools) · an Academic All-American.',
       source: 'charlottelatin.org — News & Speech and Debate; NSDA',
     },
     {
@@ -131,7 +131,7 @@ const CHARLOTTE_LATIN: ClubClusters = {
       oneLiner: 'Local + international conferences, incl. NAIMUN at Georgetown',
       evidence: 'reported',
       evidenceLabel: 'School-reported',
-      note: 'Delegate-award tallies aren’t published consistently year to year, so this is reported at the program level rather than with a medal count. The school notes international travel for both Model UN and Debate.',
+      note: 'Delegate-award counts aren’t published consistently from year to year. So this row describes the program as a whole and gives no medal count. The school notes international travel for both Model UN and Debate.',
       source: 'charlottelatin.org — Clubs; Upper School Profile',
     },
     {
@@ -223,7 +223,7 @@ const CHARLOTTE_CHRISTIAN: ClubClusters = {
       oneLiner: 'DECA, Debate, Model UN, Latin Club',
       evidence: 'reported',
       evidenceLabel: 'Official list',
-      note: 'The Upper School lists a business/marketing chapter (DECA), a student-led Debate club, Model UN, and a Latin Club tied to the classical world-languages program. Per-club competitive records are not published.',
+      note: 'The Upper School lists a business and marketing chapter (DECA), a student-led Debate club, Model UN, and a Latin Club. The Latin Club is tied to the classical world-languages program. Competition records for each club are not published.',
       source: 'charlottechristian.com — Upper School',
     },
     {
@@ -249,7 +249,7 @@ const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
       oneLiner: 'Delegations of 15–17 to Duke, UNC (MUNCH) & a Virginia conference',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'Country Day’s best-documented competitive program. At MUNCH (March 2025) seventeen students competed and six earned awards, including four Outstanding Delegate honors; a Virginia conference produced a Best Delegate award. Both Middle and Upper School delegations are active.',
+      note: 'Country Day’s best-documented competitive program. At MUNCH (March 2025), seventeen students competed and six earned awards, including four Outstanding Delegate honors. A Virginia conference brought a Best Delegate award. Both Middle and Upper School delegations are active.',
       source: 'charlottecountryday.org — school news (MUNCH, Virginia, Duke)',
     },
     {
@@ -310,7 +310,7 @@ const COVENANT_DAY: ClubClusters = {
       oneLiner: 'Courtroom artist: regional champion, 2025 NC state runner-up',
       evidence: 'verified',
       evidenceLabel: 'Verified — NC Mock Trial',
-      note: 'The school’s flagship competitive club, named on its own high-school page. NC Mock Trial Program records show a "Covenant Day School Blue" team — the suffix implies more than one — and Cornelia Knight of that team won the courtroom-artist regional in Hickory and finished 2025 State Champion Courtroom Artist runner-up.',
+      note: 'The school’s flagship competitive club, named on its own high-school page. NC Mock Trial Program records show a "Covenant Day School Blue" team. The suffix implies more than one team. A courtroom artist on that team won the courtroom-artist regional in Hickory and finished as 2025 State Champion Courtroom Artist runner-up.',
       source: 'ncmocktrial.org — regional & state courtroom-artist results',
     },
     {
@@ -334,7 +334,7 @@ const COVENANT_DAY: ClubClusters = {
       oneLiner: 'Senior Capstone Project, McKnight Oratory',
       evidence: 'reported',
       evidenceLabel: 'School-reported',
-      note: 'The required Senior Capstone Project and the McKnight Oratory speaking event are the school’s named academic signatures — curricular milestones rather than clubs, carried here because they are where academic competition lives at this school.',
+      note: 'The required Senior Capstone Project and the McKnight Oratory speaking event are the school’s named academic signatures. Both are milestones in the school program rather than clubs. This row lists them because they are where academic competition happens at this school.',
       source: 'covenantday.org — High School academics; Student Life',
     },
   ],

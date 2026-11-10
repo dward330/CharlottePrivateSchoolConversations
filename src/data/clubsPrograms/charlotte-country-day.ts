@@ -73,11 +73,11 @@ export const charlotteCountryDay: ClubsProgram = {
       },
       {
         title: 'Parents',
-        text: 'POCIS (People of Color in Independent Schools), established here in 1999, which runs an annual gathering, a community cookout, a Lower School dance and a senior showcase · International Parents Group — families get affinity spaces too.',
+        text: 'POCIS (People of Color in Independent Schools), established here in 1999. The group runs a yearly gathering, a community cookout, a Lower School dance and a senior showcase · International Parents Group — families get affinity spaces too.',
       },
     ],
     leadership:
-      "The Student Diversity Leadership Corps (SDLC) gives selected Middle and Upper Schoolers a formal role in the school's diversity work. Students also attend the national NAIS Student Diversity Leadership Conference, and Country Day created and hosts the Affirming Community Together (ACT) Conference for area middle schoolers — first held in 2012, it grew out of Upper Schoolers wanting to pass on what they learned at national conferences. Since 1998 the school has sent two faculty from each division and six Upper School students to the NAIS People of Color Conference every year.",
+      "The Student Diversity Leadership Corps (SDLC) gives selected Middle and Upper Schoolers a formal role in the school's diversity work. Students also attend the national NAIS Student Diversity Leadership Conference. Country Day created and hosts the Affirming Community Together (ACT) Conference for area middle schoolers. The conference was first held in 2012. It grew out of Upper Schoolers wanting to pass on what they learned at national conferences. Since 1998 the school has sent two faculty from each division and six Upper School students to the NAIS People of Color Conference every year.",
     flags: [
       {
         kind: 'count',
@@ -116,7 +116,7 @@ export const charlotteCountryDay: ClubsProgram = {
         valueLabel: 'of Upper School · 2 days each April',
         name: 'Special Olympics Spring Games',
         detail:
-          'Academics pause: students, faculty and staff host the Mecklenburg County Spring Games on the Cannon Campus as buddies, timekeepers and event crew — every year since 1984, across nearly four generations of Country Day families.',
+          'Academics pause. Students, faculty and staff host the Mecklenburg County Spring Games on the Cannon Campus as buddies, timekeepers and event crew. The school has done this every year since 1984, across nearly four generations of Country Day families.',
         source: { label: 'Beyond the Classroom · School Profile', url: BEYOND },
       },
       {
@@ -134,7 +134,7 @@ export const charlotteCountryDay: ClubsProgram = {
     flags: [
       {
         kind: 'not-a-club',
-        text: 'Of the three signature programs, only Big Brothers Big Sisters is an organized student body. The Spring Games are a whole-division event, the Externship is an individual one-day placement, and Community Service Day, the Parents’ Association Run for Good and the IB Creativity, Activity, Service requirement are events or curricular requirements. The catalog card lists only confirmed organizations.',
+        text: 'Of the three signature programs, only Big Brothers Big Sisters is an organized student group. The Spring Games are a whole-division event. The Externship is a one-day placement for a single student. Community Service Day, the Parents’ Association Run for Good and the IB Creativity, Activity, Service requirement are events or program requirements. The catalog card lists only confirmed organizations.',
       },
       {
         kind: 'gap',

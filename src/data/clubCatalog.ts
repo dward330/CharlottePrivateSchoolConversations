@@ -418,12 +418,12 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Lower School (JK–4)',
-      text: 'Named minimum: eight rotating after-school enrichment clubs — Art, Coding, Flag Football, Lacrosse, Running, Soccer, STEM, and a Robotics Team (representative). Enrichment rotates weekly and the public list is explicitly partial.',
+      text: 'Named minimum: eight rotating after-school enrichment clubs. Art · Coding · Flag Football · Lacrosse · Running · Soccer · STEM · a Robotics Team (representative). Enrichment rotates weekly, and the school says its public list is partial.',
       tag: 'Named minimum',
     },
     {
       label: 'Count & scope',
-      text: '35 named in-scope organizations JK–12 (23 Upper + 4 Middle + 8 Lower); no single published directory. Excluded as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent/community bodies (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
+      text: '35 named organizations counted here, JK–12 (23 Upper + 4 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
       tag: 'School-reported',
     },
   ],

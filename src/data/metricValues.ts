@@ -1809,7 +1809,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: 'Cornelia Knight of the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory) and was the 2025 State Champion Courtroom Artist runner-up — the program’s best-documented statewide result.',
+        text: 'A courtroom artist on the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory). The same student was the 2025 State Champion Courtroom Artist runner-up, the program’s best-documented statewide result.',
       },
       'davidson-day': {
         kind: 'scope',

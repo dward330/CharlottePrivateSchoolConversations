@@ -1,0 +1,378 @@
+{
+  "generated": "2026-11-10",
+  "dir": "src/data/clubsPrograms",
+  "layers": [
+    "clusters",
+    "catalog"
+  ],
+  "skipFlagKinds": [
+    "gap",
+    "count"
+  ],
+  "slugs": [
+    "providence-day",
+    "charlotte-latin",
+    "charlotte-christian",
+    "charlotte-country-day",
+    "covenant-day",
+    "charlotte-prep"
+  ],
+  "match": null,
+  "total": 32,
+  "counts": {
+    "providence-day": 6,
+    "charlotte-latin": 7,
+    "charlotte-christian": 7,
+    "charlotte-country-day": 5,
+    "covenant-day": 4,
+    "charlotte-prep": 3
+  },
+  "units": [
+    {
+      "at": "providence-day:affinity.headline",
+      "slug": "providence-day",
+      "path": "affinity.headline",
+      "words": 31,
+      "grade": 15.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Nine Upper School affinity groups with a documented founding year apiece, plus Middle and Lower School groups, faculty and alumni networks, and three parent groups — all under a staffed DEI office."
+    },
+    {
+      "at": "providence-day:affinity.leadership",
+      "slug": "providence-day",
+      "path": "affinity.leadership",
+      "words": 38,
+      "grade": 15.1,
+      "rules": [
+        "grade"
+      ],
+      "text": "The Student Diversity Council, established 2017, is the formal liaison between students and Upper School administrators. Faculty attend the NAIS People of Color Conference for professional development; no student attendance at the national Student Diversity Leadership Conference is published."
+    },
+    {
+      "at": "providence-day:service.programs[0].detail",
+      "slug": "providence-day",
+      "path": "service.programs[0].detail",
+      "words": 47,
+      "grade": 12.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "A summer literacy program for K–8 Charlotte scholars run with Freedom School Partners. Providence Day was the first independent school in the country to host a CDF Freedom School, and remains the only one hosting a program every summer; the community collects supplies for all 18 Charlotte sites."
+    },
+    {
+      "at": "providence-day:service.programs[2].detail",
+      "slug": "providence-day",
+      "path": "service.programs[2].detail",
+      "words": 33,
+      "grade": 12.3,
+      "rules": [
+        "grade"
+      ],
+      "text": "The only member school in North Carolina. The global network is built on the IDEALS framework — International understanding, Democracy, Environmental stewardship, Adventure, Leadership and Service — and carries international service projects (\"Big Builds\") and exchanges."
+    },
+    {
+      "at": "providence-day:service.footnote",
+      "slug": "providence-day",
+      "path": "service.footnote",
+      "words": 42,
+      "grade": 12,
+      "rules": [
+        "long"
+      ],
+      "text": "The school also advertises over 30 student-run service clubs, and each division carries its own partnership: 6th grade with Movement School, 7th with Winterfield Elementary, 8th with Wilson STEM Academy, and a 9th-grade Charger Impact Challenge. The school has no community service requirement."
+    },
+    {
+      "at": "providence-day:service.flags[0].text",
+      "slug": "providence-day",
+      "path": "service.flags[0].text",
+      "words": 45,
+      "grade": 13.6,
+      "rules": [
+        "grade"
+      ],
+      "text": "The grade-level partnerships and the Charger Impact Challenge are curricular initiatives rather than clubs, and the President’s Volunteer Service Award is an individual recognition of logged hours, not a membership. The Community Engagement Portal is an opportunity-listing tool. The catalog card lists only confirmed organizations."
+    },
+    {
+      "at": "charlotte-latin:service.programs[0].detail",
+      "slug": "charlotte-latin",
+      "path": "service.programs[0].detail",
+      "words": 34,
+      "grade": 10.5,
+      "rules": [],
+      "text": "A recognition society, not a requirement: it \"recognizes students who make significant contributions to the community through service\" using a reflection-based model across all four Upper School years. Four-year students need 150 hours, prorated for transfers, and are inducted at the end of senior year."
+    },
+    {
+      "at": "charlotte-latin:service.programs[2].detail",
+      "slug": "charlotte-latin",
+      "path": "service.programs[2].detail",
+      "words": 39,
+      "grade": 12.6,
+      "rules": [
+        "grade"
+      ],
+      "text": "Three school-wide partners — Baby Bundles, Special Olympics and Habitat for Humanity of the Charlotte Region — anchor a program governed by six Principles of Good Practice. The Upper School Service Council organizes service activities available every week of the year."
+    },
+    {
+      "at": "charlotte-latin:service.footnote",
+      "slug": "charlotte-latin",
+      "path": "service.footnote",
+      "words": 46,
+      "grade": 12.6,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "An earlier profile recorded 5,485 hours for the Class of 2018 by the end of junior year, with five class members qualifying for the Service Society and seven students earning a Presidential Volunteer Service Award in 2016-17. A fourth initiative, Good Neighbors, lends campus gym space to community organizations."
+    },
+    {
+      "at": "charlotte-latin:service.flags[0].text",
+      "slug": "charlotte-latin",
+      "path": "service.flags[0].text",
+      "words": 47,
+      "grade": 15.4,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The school lists Blessings in a Backpack — which meets every Wednesday to pack weekend food for students on free lunch — and Student Council separately from its club roster, as standing activities rather than open-enrollment clubs. Service Council–organized weekly activities are likewise individual service activity, not club membership."
+    },
+    {
+      "at": "charlotte-latin:honors.adjacent[0].text",
+      "slug": "charlotte-latin",
+      "path": "honors.adjacent[0].text",
+      "words": 36,
+      "grade": 11.1,
+      "rules": [],
+      "text": "The Victor Hugo Award (French), Homer Award (Greek), Petrarch Award (Latin), Cervantes Award (Spanish), Bausch + Lomb Honorary Science Award and Rensselaer Medal. This is where world-language and subject achievement is recognized here — as prizes, not chapters."
+    },
+    {
+      "at": "charlotte-latin:clusters.rows[0].note",
+      "slug": "charlotte-latin",
+      "path": "clusters.rows[0].note",
+      "words": 50,
+      "grade": 10.5,
+      "rules": [],
+      "text": "A genuine national-tier operation with external evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals: a 5th-place pair (Public Forum), a 25th-place pair, a 33rd-place finish (World Schools) and an Academic All-American."
+    },
+    {
+      "at": "charlotte-latin:clusters.rows[2].note",
+      "slug": "charlotte-latin",
+      "path": "clusters.rows[2].note",
+      "words": 33,
+      "grade": 10.5,
+      "rules": [],
+      "text": "Delegate-award tallies aren’t published consistently year to year, so this is reported at the program level rather than with a medal count. The school notes international travel for both Model UN and Debate."
+    },
+    {
+      "at": "charlotte-christian:affinity.leadership",
+      "slug": "charlotte-christian",
+      "path": "affinity.leadership",
+      "words": 40,
+      "grade": 13.5,
+      "rules": [
+        "grade"
+      ],
+      "text": "A nine-member prefect system of faculty-mentored student leaders — Head, Academic, Admissions, Athletic, Global Awareness, Fine Arts, Service, Spiritual Life and Student Life. The Global Awareness Prefect is the identity and global leadership role; the Service Prefect is the civic one."
+    },
+    {
+      "at": "charlotte-christian:service.programs[0].detail",
+      "slug": "charlotte-christian",
+      "path": "service.programs[0].detail",
+      "words": 34,
+      "grade": 12.6,
+      "rules": [
+        "jargon:experiential learning",
+        "grade"
+      ],
+      "text": "A week-long experiential program every March mixing mission trips, cultural travel, internships and on-campus options — 19+ offerings in 2026, each embedding service. Graded pass/fail outside the GPA, and it appears on the report card every year."
+    },
+    {
+      "at": "charlotte-christian:service.footnote",
+      "slug": "charlotte-christian",
+      "path": "service.footnote",
+      "words": 50,
+      "grade": 21.1,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Individual 2026 trips carry their own partners — SCORE International in the Dominican Republic, Samaritan’s Feet at Camp Harrison, Give Kids the World and Make-A-Wish at Disney, Surfrider Foundation and Save Your Hood in Greece, Crossroads Christian Academy in Panama, and Nourish Up, Crisis Assistance and Congregations for Kids on Serve Charlotte."
+    },
+    {
+      "at": "charlotte-christian:service.flags[0].text",
+      "slug": "charlotte-christian",
+      "path": "service.flags[0].text",
+      "words": 51,
+      "grade": 12.1,
+      "rules": [
+        "grade"
+      ],
+      "text": "Winterim trips are a graduation requirement and a travel program, Kingdom Impact Day is a division-wide service day, and the Multicultural Festival is an annual all-school event. Cross-Cultural Communications service is a class doing service; Vocational Shadowing and the Alternative Winterim Experience are individually arranged and family-brokered. None is a club."
+    },
+    {
+      "at": "charlotte-christian:clusters.rows[1].note",
+      "slug": "charlotte-christian",
+      "path": "clusters.rows[1].note",
+      "words": 30,
+      "grade": 11.5,
+      "rules": [],
+      "text": "The Upper School lists a business/marketing chapter (DECA), a student-led Debate club, Model UN, and a Latin Club tied to the classical world-languages program. Per-club competitive records are not published."
+    },
+    {
+      "at": "charlotte-christian:catalog.divisions[1].text",
+      "slug": "charlotte-christian",
+      "path": "catalog.divisions[1].text",
+      "words": 30,
+      "grade": 12.7,
+      "rules": [
+        "grade"
+      ],
+      "text": "Named minimum: eight rotating after-school enrichment clubs — Art, Coding, Flag Football, Lacrosse, Running, Soccer, STEM, and a Robotics Team (representative). Enrichment rotates weekly and the public list is explicitly partial."
+    },
+    {
+      "at": "charlotte-christian:catalog.divisions[2].text",
+      "slug": "charlotte-christian",
+      "path": "catalog.divisions[2].text",
+      "words": 39,
+      "grade": 10.1,
+      "rules": [],
+      "text": "35 named in-scope organizations JK–12 (23 Upper + 4 Middle + 8 Lower); no single published directory. Excluded as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent/community bodies (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter."
+    },
+    {
+      "at": "charlotte-country-day:affinity.strips[2].text",
+      "slug": "charlotte-country-day",
+      "path": "affinity.strips[2].text",
+      "words": 34,
+      "grade": 11.9,
+      "rules": [],
+      "text": "POCIS (People of Color in Independent Schools), established here in 1999, which runs an annual gathering, a community cookout, a Lower School dance and a senior showcase · International Parents Group — families get affinity spaces too."
+    },
+    {
+      "at": "charlotte-country-day:affinity.leadership",
+      "slug": "charlotte-country-day",
+      "path": "affinity.leadership",
+      "words": 89,
+      "grade": 14,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The Student Diversity Leadership Corps (SDLC) gives selected Middle and Upper Schoolers a formal role in the school's diversity work. Students also attend the national NAIS Student Diversity Leadership Conference, and Country Day created and hosts the Affirming Community Together (ACT) Conference for area middle schoolers — first held in 2012, it grew out of Upper Schoolers wanting to pass on what they learned at national conferences. Since 1998 the school has sent two faculty from each division and six Upper School students to the NAIS People of Color Conference every year."
+    },
+    {
+      "at": "charlotte-country-day:service.programs[1].detail",
+      "slug": "charlotte-country-day",
+      "path": "service.programs[1].detail",
+      "words": 33,
+      "grade": 18,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Academics pause: students, faculty and staff host the Mecklenburg County Spring Games on the Cannon Campus as buddies, timekeepers and event crew — every year since 1984, across nearly four generations of Country Day families."
+    },
+    {
+      "at": "charlotte-country-day:service.flags[0].text",
+      "slug": "charlotte-country-day",
+      "path": "service.flags[0].text",
+      "words": 58,
+      "grade": 13.5,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Of the three signature programs, only Big Brothers Big Sisters is an organized student body. The Spring Games are a whole-division event, the Externship is an individual one-day placement, and Community Service Day, the Parents’ Association Run for Good and the IB Creativity, Activity, Service requirement are events or curricular requirements. The catalog card lists only confirmed organizations."
+    },
+    {
+      "at": "charlotte-country-day:clusters.rows[0].note",
+      "slug": "charlotte-country-day",
+      "path": "clusters.rows[0].note",
+      "words": 36,
+      "grade": 10.7,
+      "rules": [],
+      "text": "Country Day’s best-documented competitive program. At MUNCH (March 2025) seventeen students competed and six earned awards, including four Outstanding Delegate honors; a Virginia conference produced a Best Delegate award. Both Middle and Upper School delegations are active."
+    },
+    {
+      "at": "covenant-day:service.programs[2].detail",
+      "slug": "covenant-day",
+      "path": "service.programs[2].detail",
+      "words": 39,
+      "grade": 18.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "High school students \"use their different talents to transform used shipping containers\" into housing for the Pine Ridge Reservation in South Dakota, aiming to provide housing for more than 30 teens — a multi-year design-and-trades build, with Restore525 as the Restoration & Sustainability department’s companion program (and a credit-bearing course)."
+    },
+    {
+      "at": "covenant-day:service.footnote",
+      "slug": "covenant-day",
+      "path": "service.footnote",
+      "words": 44,
+      "grade": 11.8,
+      "rules": [],
+      "text": "Named partners: Matthews HELP Center, Matthews Habitat for Humanity, Operation Christmas Child, Brookstone Schools, Jackson Park, Alexander Children’s Home, and Love INC. Missions trips run to Spain, Haiti, Belize, and Pine Ridge, with a Lower School Missions Week of missionary speakers and cultural education."
+    },
+    {
+      "at": "covenant-day:clusters.rows[0].note",
+      "slug": "covenant-day",
+      "path": "clusters.rows[0].note",
+      "words": 45,
+      "grade": 10.8,
+      "rules": [
+        "long"
+      ],
+      "text": "The school’s flagship competitive club, named on its own high-school page. NC Mock Trial Program records show a \"Covenant Day School Blue\" team — the suffix implies more than one — and Cornelia Knight of that team won the courtroom-artist regional in Hickory and finished 2025 State Champion Courtroom Artist runner-up."
+    },
+    {
+      "at": "covenant-day:clusters.rows[3].note",
+      "slug": "covenant-day",
+      "path": "clusters.rows[3].note",
+      "words": 34,
+      "grade": 18.5,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The required Senior Capstone Project and the McKnight Oratory speaking event are the school’s named academic signatures — curricular milestones rather than clubs, carried here because they are where academic competition lives at this school."
+    },
+    {
+      "at": "charlotte-prep:service.programs[1].detail",
+      "slug": "charlotte-prep",
+      "path": "service.programs[1].detail",
+      "words": 38,
+      "grade": 7.3,
+      "rules": [
+        "long"
+      ],
+      "text": "BUDEE \"matches TK students from the Early School with 3rd Graders and each of the other Lower School students with a Middle School buddy\", and the pairs \"meet for community service, character education, and teamwork exercises.\" In 2023–24 the BUDEE groups ran programs for the International Day of Peace, Veterans Day, Hispanic Heritage Month, a Day of Service, Earth Day and more. Eighth graders also tutor their 4th-grade BUDEEs."
+    },
+    {
+      "at": "charlotte-prep:service.programs[2].detail",
+      "slug": "charlotte-prep",
+      "path": "service.programs[2].detail",
+      "words": 63,
+      "grade": 14.5,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "In October 2024 the student council ran a carpool-line supply drive for Hurricane Helene relief, every class made cards of hope, and the school co-hosted a benefit concert with 7th Street Concerts and the Sphinx Virtuosi; students \"filled a moving truck with essential goods\" and delivered it to the YMCA. Each February, second graders host a Black History Lunch & Learn for Charlotte community leaders — the seventh annual one was February 12, 2026."
+    },
+    {
+      "at": "charlotte-prep:honors.societies[0].recognizes",
+      "slug": "charlotte-prep",
+      "path": "honors.societies[0].recognizes",
+      "words": 46,
+      "grade": 8.3,
+      "rules": [
+        "long"
+      ],
+      "text": "Students advanced to the North Carolina State Science & Engineering Fair seven times in 2024, five in 2025 and seven in 2026 (four Elementary, three Junior), with first place in Junior Physics in each of those three years. The school reports a 3rd place in physics at the 2024 state fair."
+    }
+  ]
+}

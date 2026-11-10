@@ -49,7 +49,7 @@ export const charlottePrep: ClubsProgram = {
         valueLabel: '"Be Understanding, Dedicated, Empathetic, and Engaged"',
         name: 'A buddy for every Lower Schooler',
         detail:
-          'BUDEE "matches TK students from the Early School with 3rd Graders and each of the other Lower School students with a Middle School buddy", and the pairs "meet for community service, character education, and teamwork exercises." In 2023–24 the BUDEE groups ran programs for the International Day of Peace, Veterans Day, Hispanic Heritage Month, a Day of Service, Earth Day and more. Eighth graders also tutor their 4th-grade BUDEEs.',
+          'BUDEE "matches TK students from the Early School with 3rd Graders and each of the other Lower School students with a Middle School buddy", and the pairs "meet for community service, character education, and teamwork exercises." Eighth graders also tutor their 4th-grade BUDEEs. In 2023–24 the BUDEE groups ran programs for the International Day of Peace · Veterans Day · Hispanic Heritage Month · a Day of Service · Earth Day and more.',
         source: { label: 'charlotteprep.org — Leadership', url: LEADERSHIP },
       },
       {
@@ -57,7 +57,7 @@ export const charlottePrep: ClubsProgram = {
         valueLabel: 'registered for the 2024 Hurricane Helene benefit concert',
         name: 'Student-led relief, and a 2nd-grade tradition',
         detail:
-          'In October 2024 the student council ran a carpool-line supply drive for Hurricane Helene relief, every class made cards of hope, and the school co-hosted a benefit concert with 7th Street Concerts and the Sphinx Virtuosi; students "filled a moving truck with essential goods" and delivered it to the YMCA. Each February, second graders host a Black History Lunch & Learn for Charlotte community leaders — the seventh annual one was February 12, 2026.',
+          'In October 2024 the student council ran a supply drive in the carpool line for Hurricane Helene relief. That month, every class made cards of hope, and the school co-hosted a benefit concert with 7th Street Concerts and the Sphinx Virtuosi. Students "filled a moving truck with essential goods" and delivered it to the YMCA. Each February, second graders host a Black History Lunch & Learn for Charlotte community leaders. The seventh annual lunch was February 12, 2026.',
         source: { label: 'charlotteprep.org — "Support for Hurricane Helene Recovery"', url: HELENE },
       },
     ],
@@ -80,7 +80,7 @@ export const charlottePrep: ClubsProgram = {
         name: 'Science & Engineering Fair — Region 6',
         division: 'Lower and Middle School',
         recognizes:
-          'Students advanced to the North Carolina State Science & Engineering Fair seven times in 2024, five in 2025 and seven in 2026 (four Elementary, three Junior), with first place in Junior Physics in each of those three years. The school reports a 3rd place in physics at the 2024 state fair.',
+          'Students advanced to the North Carolina State Science & Engineering Fair seven times in 2024, five in 2025 and seven in 2026 (four Elementary, three Junior). Each of those three years brought first place in Junior Physics. The school reports a 3rd place in physics at the 2024 state fair.',
         feedsFrom: 'the classroom',
       },
       {

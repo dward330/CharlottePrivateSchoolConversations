@@ -40,6 +40,20 @@
  *   --arts-markers    add The Arts marker classes to guard (h) (plan plainarts) and
  *                     enable guard (n)
  *   --no-md           the area's fields render no markdown at all; enables (o)
+ *   --layers          --dir mode only: also review the topic's EXTRA_LAYERS (i18n_topics.mjs;
+ *                     Student Clubs: clubClusters.ts, clubCatalog.ts), one shared module
+ *                     per layer holding every school behind an accessor. Layer units are
+ *                     labeled `slug:<prefix>.<path>` (the work files' `at` and the hook's
+ *                     label) and classified on that prefixed path. Guards (a), (f), (j)
+ *                     and (k) visit every school in each layer module, and (j) groups
+ *                     repeats ACROSS schools within it (plan plainclubs).
+ *   --skip-flag-kinds a,b  worklist only: leave out `….flags[i].text` units whose flag
+ *                     has one of these `kind`s (Student Clubs' GAP/COUNT flags never
+ *                     render). Rows and guards still see them, so an edit fails (k).
+ *   --clubs-markers   add the Student Clubs marker classes to guard (h) (plan plainclubs):
+ *                     the arts classes, THIRDPARTY, ESTIMATE, BOUND and NOTACLUB,
+ *                     ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST (and minimums
+ *                     counted as BOUND); enables guard (n)
  *
  * GUARDS (fail --check), compared per school across base and working tree:
  *   (a) the set of prose paths differs            — a structural change
@@ -58,7 +72,10 @@
  *       MERIT, DISCOUNT, REMISSION, LOAN, NOTCOVERED, COVERED, ESTIMATE, BOUND,
  *       DERIVED, THIRDPARTY, AVERAGE, MEDIAN, TYPICAL (see MARKERS; plan plainaid);
  *       with --arts-markers WIN, NOMINEE, FINALIST, OPEN, AUDITION, CLAIM, VERIFIED,
- *       NOTFOUND, THEATRE, THEATER, plus ESTIMATE and BOUND (plan plainarts).
+ *       NOTFOUND, THEATRE, THEATER, plus ESTIMATE and BOUND (plan plainarts);
+ *       with --clubs-markers the arts classes, THIRDPARTY, ESTIMATE, BOUND and the
+ *       clubs classes NOTACLUB, ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST,
+ *       with a published minimum counted as BOUND (plan plainclubs).
  *       Synonyms within a class are free; a count change inside a class is a note.
  *   (j) units that held the SAME text at base (within one file) now differ
  *   (k) with --allow: a changed leaf (prose or not) is on none of the worklists
@@ -67,7 +84,7 @@
  *   (m) the multiset of money, percent and year tokens differs, char-for-char
  *       (`$3.25M` → `$3.25 million`, `~4.5%` → `4.5%`, `2026-27` → `2026–27`
  *       all pass (b) and fail here). See MONEY_RE / PCT_RE / YEARTOK_RE.
- *   (n) with --arts-markers: the multiset of count words ("five", "twice",
+ *   (n) with --arts-markers or --clubs-markers: the multiset of count words ("five", "twice",
  *       "eighth") and "N+" figures (`3,500+`) differs. See COUNTWORD_RE / PLUS_RE.
  *   (o) with --no-md: a changed unit's after-text holds a `*` (it would ship a literal
  *       asterisk). Pair it with `--md-paths '^$'` so (l) fails any `**` change too.
@@ -89,7 +106,7 @@ import { join, resolve, dirname, relative } from 'node:path'
 import { pathToFileURL, fileURLToPath } from 'node:url'
 import { proseUnits, analyze, filterAllowed, locateLine, loadConfig } from './check_plain_language.mjs'
 import { classifyField } from './i18n_fields.mjs'
-import { EXPORTS, ACCESSORS, SLUGS } from './i18n_topics.mjs'
+import { EXPORTS, ACCESSORS, SLUGS, TOPICS, EXTRA_LAYERS } from './i18n_topics.mjs'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const TOKEN = /\d+(?:[.,:/]\d+)*/g // = TOKEN in scripts/check_digit_tokens.mjs
@@ -176,7 +193,28 @@ const MARKERS = {
   NOTFOUND: /\b(?:could not|couldn[’']t|cannot) be (?:found|located|confirmed|verified)\b|\bnot (?:found|located)\b|\b(?:was|were) (?:not )?found\b|\bno [^.;]{0,80}\b(?:could be|was|were) (?:found|located)\b/gi,
   THEATRE: /\btheatres?\b/gi,
   THEATER: /\btheaters?\b/gi,
+  // Student Clubs classes (plan plainclubs, --clubs-markers): which items are NOT clubs,
+  // how a student gets in, result tiers, and "only" / "first" claims. Every narrowing
+  // below answers a hit when calibrating on the four approved areas (plainclubs notes).
+  NOTACLUB: /\bnot (?:a|an) (?:student |standing )?(?:club|organization|membership|society|chapter)\b|\bnone is a club\b|\bnon-?clubs?\b|\brather than (?:as )?(?:a |standing |listed )?(?:clubs?|societ(?:y|ies)|chapters?|competitive teams?)\b|\bnot as clubs\b|\bneither is a club\b/gi,
+  ELECTED: /\belect(?:ed|ion|ions|s)?\b|\binduct\w*/gi,
+  // Not "applied": fee waivers, logos and course weights are "applied" too (calibration).
+  APPLICATION: /\bappl(?:y|ies|ying|ication|ications)\b|\binterview\w*|\brecommendation\b/gi,
+  // "placed" only before a rank: art is "placed across campus", students "placed" in colleges.
+  RESULT: /\brunner-?up\b|\bchampion(?:s|ship|ships)?\b|\btitles?\b|\b(?:\d+(?:st|nd|rd|th)|first|second|third)[- ]place\b|\bplaced (?:\d|first|second|third|top|in the top)|\bplacements?\b/gi,
+  // "qualif…" only before for/to: "a family qualifies" for aid is eligibility, not a result.
+  ADVANCED: /\badvanc(?:e|ed|es|ing)\b|\bqualif(?:ied|ies|ying|ication) (?:for|to)\b/gi,
+  // "no other" is the same claim as "the only" (Financial Aid calibration); "the one
+  // before/after" is not a claim at all.
+  ONLY: /\bonly\b|\bsole(?:ly)?\b|\b(?:the|that) one\b(?! (?:before|after|above|below)\b)|\bexclusive(?:ly)?\b|\bno other\b/gi,
+  // A lead "First," / "First:" and an enumeration's "The first is …" are free: approved
+  // splits add both (plainarts Batch 1; Admissions calibration).
+  FIRST: /\bfirst\b(?!\s*[,:])(?! (?:is|are|was)\b)/gi,
 }
+/** --clubs-markers counts a published minimum as BOUND ("a minimum two weeks" → "at least
+ *  two weeks" is one claim; College Support calibration). "floor" only after an hour figure
+ *  ("the 25-hour floor"): a stage "floor" is not a bound (Arts calibration). */
+const CLUBS_BOUND_EXTRA = /\bminimums?\b|\bno less than\b|\b\d+-\w+ floor\b/gi
 /** The financial-aid classes run only with --aid-markers (plan plainaid): in other areas
  *  "covers", "leaves out", "average" and "worked out" describe tables and methods, not
  *  costs, so they would fail approved rewrites there (College Support calibration:
@@ -186,15 +224,20 @@ const AID_CLASSES = new Set(['NEED', 'MERIT', 'DISCOUNT', 'REMISSION', 'LOAN', '
  *  are shared with the aid set and run under either flag. */
 const ARTS_CLASSES = new Set(['WIN', 'NOMINEE', 'FINALIST', 'OPEN', 'AUDITION', 'CLAIM', 'VERIFIED', 'NOTFOUND', 'THEATRE', 'THEATER'])
 const SHARED_CLASSES = new Set(['ESTIMATE', 'BOUND'])
+/** The Student Clubs classes run only with --clubs-markers (plan plainclubs), which also
+ *  turns on the arts classes, THIRDPARTY and the shared ESTIMATE / BOUND. */
+const CLUBS_CLASSES = new Set(['NOTACLUB', 'ELECTED', 'APPLICATION', 'RESULT', 'ADVANCED', 'ONLY', 'FIRST'])
 const markerCounts = (s) => {
   const t = s.replace(/\*\*/g, '').replace(/\s+/g, ' ')
   const out = {}
   for (const [k, re] of Object.entries(MARKERS)) {
-    if (SHARED_CLASSES.has(k)) { if (!aidMarkers && !artsMarkers) continue }
-    else if (AID_CLASSES.has(k) && !aidMarkers) continue
-    if (ARTS_CLASSES.has(k) && !artsMarkers) continue
+    if (SHARED_CLASSES.has(k)) { if (!aidMarkers && !artsMarkers && !clubsMarkers) continue }
+    else if (AID_CLASSES.has(k) && !aidMarkers && !(clubsMarkers && k === 'THIRDPARTY')) continue
+    if (ARTS_CLASSES.has(k) && !artsMarkers && !clubsMarkers) continue
+    if (CLUBS_CLASSES.has(k) && !clubsMarkers) continue
     const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : k === 'COVERED' ? t.replace(MARKERS.NOTCOVERED, ' ') : k === 'AUDITION' ? t.replace(MARKERS.OPEN, ' ') : t
     out[k] = (src.match(re) ?? []).length
+    if (k === 'BOUND' && clubsMarkers) out[k] += (t.match(CLUBS_BOUND_EXTRA) ?? []).length
   }
   return out
 }
@@ -224,10 +267,26 @@ if (topic) {
   if (typeof got !== 'function') { console.error(`plain_review: ${topic}'s accessor ${fn} is not a per-school function`); process.exit(2) }
   accessor = { relFile, fn, slugs: SLUGS.filter((s) => got(s)) }
 }
+/* --layers (plan plainclubs): the --dir topic's EXTRA_LAYERS, each one shared module. */
+const useLayers = argv.includes('--layers')
+let layerSpecs = []
+if (useLayers) {
+  if (topic) { console.error('plain_review: --layers works in --dir mode only'); process.exit(2) }
+  const t = Object.keys(TOPICS).find((k) => TOPICS[k] === dir.split('/').pop())
+  if (!t || !EXTRA_LAYERS[t]) { console.error(`plain_review: --layers: ${dir} belongs to no topic with EXTRA_LAYERS`); process.exit(2) }
+  layerSpecs = EXTRA_LAYERS[t].map(([prefix, mod, fn]) => ({ prefix, fn, relFile: relative(ROOT, resolve(ROOT, 'scripts', mod)) }))
+}
 /** The file a school's units live in (accessor mode: one file for every school). */
 const relPathOf = (slug) => accessor ? accessor.relFile : `${dir}/${slug}.ts`
-/** The unit label the hook uses (accessor units are `slug:path`). */
-const unitLabel = (slug, path) => accessor ? `${slug}:${path}` : path
+/** The unit label the hook uses (accessor and layer units are `slug:path`). */
+const unitLabel = (slug, path, part) => (accessor || part?.prefix) ? `${slug}:${path}` : path
+/** Every (school, file) part to read: the school's own module, then each layer. */
+const partsOf = (slug, withLayers = true) => [
+  { slug, prefix: '', relPath: relPathOf(slug) },
+  ...(withLayers ? layerSpecs.map((l) => ({ slug, prefix: l.prefix, relPath: l.relFile, fn: l.fn })) : []),
+]
+const skipFlagKinds = new Set((opt('--skip-flag-kinds', '') ?? '').split(',').map((s) => s.trim()).filter(Boolean))
+const clubsMarkers = argv.includes('--clubs-markers')
 const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)
 const matchRe = opt('--match', null) ? new RegExp(opt('--match')) : null
@@ -243,7 +302,7 @@ const allSlugs = accessor ? accessor.slugs : readdirSync(join(ROOT, dir)).filter
 const slugs = opt('--slugs', null) ? opt('--slugs').split(',').map((s) => s.trim()).filter(Boolean) : allSlugs
 for (const s of slugs) if (!allSlugs.includes(s)) { console.error(accessor ? `plain_review: ${topic} has no entry for ${s}` : `plain_review: no ${dir}/${s}.ts`); process.exit(2) }
 if (!outFile && !worklistFile && !flag('--check')) {
-  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--no-md]')
+  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--no-md] [--skip-flag-kinds a,b]')
   process.exit(2)
 }
 const cfg = loadConfig()
@@ -251,10 +310,10 @@ const cfg = loadConfig()
 /* ------------------------------------------------------------- units -- */
 let bust = 0
 const modCache = new Map() // accessor mode only: one import per file per run
-async function entryOf(absFile, slug) {
-  if (accessor) {
+async function entryOf(absFile, slug, part) {
+  if (accessor || part?.fn) {
     if (!modCache.has(absFile)) modCache.set(absFile, await import(`${pathToFileURL(absFile).href}?t=${Date.now()}-${bust++}`))
-    return modCache.get(absFile)[accessor.fn](slug)
+    return modCache.get(absFile)[part?.fn ?? accessor.fn](slug) ?? null
   }
   const m = await import(`${pathToFileURL(absFile).href}?t=${Date.now()}-${bust++}`)
   const e = m[EXPORTS[slug]]
@@ -262,7 +321,7 @@ async function entryOf(absFile, slug) {
   return e
 }
 /** Every string leaf with its path and prose/non-prose class. */
-function allLeaves(entry) {
+function allLeaves(entry, prefix = '') {
   const out = []
   const walk = (node, path) => {
     if (node == null) return
@@ -270,10 +329,21 @@ function allLeaves(entry) {
     if (Array.isArray(node)) { node.forEach((v, i) => walk(v, `${path}[${i}]`)); return }
     if (typeof node === 'object') for (const [k, v] of Object.entries(node)) walk(v, path ? `${path}.${k}` : k)
   }
-  walk(entry, '')
+  walk(entry, prefix)
   return out
 }
-const prose = (entry) => new Map(proseUnits(entry, '', classifyField).map((u) => [u.path, u.text]))
+/** Prose units, classified on the extractor's own (prefixed) path. */
+const prose = (entry, prefix = '') => new Map(proseUnits(entry, prefix, classifyField).map((u) => [u.path, u.text]))
+/** --skip-flag-kinds: is this `….flags[i].text` unit a flag of a skipped kind? */
+function skippedFlag(entry, prefix, path) {
+  if (!skipFlagKinds.size) return false
+  const m = path.match(/^(.*\.flags\[\d+\])\.text$/)
+  if (!m) return false
+  const rel = prefix ? m[1].slice(prefix.length + 1) : m[1]
+  let node = entry
+  for (const seg of rel.match(/[^.[\]]+/g)) node = node?.[/^\d+$/.test(seg) ? +seg : seg]
+  return Boolean(node && skipFlagKinds.has(node.kind))
+}
 
 /* ----------------------------------------------------------- helpers -- */
 const multiset = (arr) => { const m = new Map(); for (const x of arr) m.set(x, (m.get(x) ?? 0) + 1); return m }
@@ -299,10 +369,10 @@ const esc = (s) => String(s).replace(/\|/g, '\\|').replace(/\r?\n/g, '<br>')
 const fmtGrade = (g) => (g == null ? '—' : g.toFixed(1))
 const words = (s) => analyze(s, cfg).words
 
-function hookIssues(text, relPath, path, source, slug) {
+function hookIssues(text, relPath, path, source, slug, part) {
   const lines = source.split('\n')
   const line = locateLine(source, text)
-  return filterAllowed(analyze(text, cfg).issues, { relPath, unitPath: unitLabel(slug, path), line, sourceLines: lines, cfg })
+  return filterAllowed(analyze(text, cfg).issues, { relPath, unitPath: unitLabel(slug, path, part), line, sourceLines: lines, cfg })
 }
 
 /* -------------------------------------------------------------- main -- */
@@ -321,42 +391,53 @@ async function main() {
     const worklistSlugs = matchRe ? allSlugs : slugs
     // Accessor mode visits every school: the whole-file guards must see them all.
     const visit = needBase ? (accessor ? [...allSlugs] : [...new Set([...slugs])]) : []
-    const crossGroups = new Map() // accessor mode: base text → [`slug:path`] across schools
+    // --layers: each school's own module (the --slugs schools, as in plain --dir mode),
+    // plus EVERY school's entry in each shared layer module, which any edit can reach.
+    const visitParts = needBase ? [
+      ...visit.flatMap((s) => partsOf(s, false)),
+      ...(useLayers ? allSlugs.flatMap((s) => partsOf(s).slice(1)) : []),
+    ] : []
+    const crossGroups = new Map() // shared file → (base text → [`slug:path`]) across schools
     const crossAfter = new Map()  // `slug:path` → after text
 
-    for (const slug of visit) {
+    for (const part of visitParts) {
+      const { slug, prefix, relPath } = part
+      const where = prefix ? `${slug} (${prefix})` : slug
       const inBatch = slugs.includes(slug)
-      const relPath = relPathOf(slug)
       const source = readFileSync(join(ROOT, relPath), 'utf8')
-      const after = await entryOf(join(ROOT, relPath), slug)
+      const after = await entryOf(join(ROOT, relPath), slug, part)
       const beforeFile = join(snap, relPath)
-      if (!existsSync(beforeFile)) { failures.push(`(a) ${slug}: file absent at ${base}`); continue }
-      const before = await entryOf(beforeFile, slug)
-      if (!before) { failures.push(`(a) ${slug}: no entry at ${base}`); continue }
-      const pb = prose(before), pa = prose(after)
+      if (!existsSync(beforeFile)) { failures.push(`(a) ${where}: file absent at ${base}`); continue }
+      const before = await entryOf(beforeFile, slug, part)
+      if (prefix && !before && !after) continue // this school has no entry in this layer
+      if (!before) { failures.push(`(a) ${where}: no entry at ${base}`); continue }
+      if (prefix && !after) { failures.push(`(a) ${where}: entry removed`); continue }
+      const pb = prose(before, prefix), pa = prose(after, prefix)
 
       // (a) structure
       const missing = [...pb.keys()].filter((p) => !pa.has(p))
       const added = [...pa.keys()].filter((p) => !pb.has(p))
-      if (missing.length || added.length) failures.push(`(a) ${slug}: prose paths differ — removed [${missing.join(', ')}] added [${added.join(', ')}]`)
+      if (missing.length || added.length) failures.push(`(a) ${where}: prose paths differ — removed [${missing.join(', ')}] added [${added.join(', ')}]`)
 
       // (f) non-prose leaves unchanged
       const proseSet = new Set([...pb.keys(), ...pa.keys()])
-      const nb = new Map(allLeaves(before).filter((l) => !proseSet.has(l.path)).map((l) => [l.path, l.text]))
-      const na = new Map(allLeaves(after).filter((l) => !proseSet.has(l.path)).map((l) => [l.path, l.text]))
+      const nb = new Map(allLeaves(before, prefix).filter((l) => !proseSet.has(l.path)).map((l) => [l.path, l.text]))
+      const na = new Map(allLeaves(after, prefix).filter((l) => !proseSet.has(l.path)).map((l) => [l.path, l.text]))
       for (const [p, t] of nb) if (na.get(p) !== t) failures.push(`(f) ${slug}:${p}: non-prose leaf changed`)
       for (const p of na.keys()) if (!nb.has(p)) failures.push(`(f) ${slug}:${p}: non-prose leaf added`)
 
       // (k) every changed leaf, prose or not, must be on a worklist — whole file
       if (allowed) {
-        const lb = new Map(allLeaves(before).map((l) => [l.path, l.text]))
-        for (const l of allLeaves(after)) if (lb.has(l.path) && lb.get(l.path) !== l.text && !allowed.has(`${slug}:${l.path}`)) failures.push(`(k) ${slug}:${l.path}: changed but on no --allow worklist`)
+        const lb = new Map(allLeaves(before, prefix).map((l) => [l.path, l.text]))
+        for (const l of allLeaves(after, prefix)) if (lb.has(l.path) && lb.get(l.path) !== l.text && !allowed.has(`${slug}:${l.path}`)) failures.push(`(k) ${slug}:${l.path}: changed but on no --allow worklist`)
       }
 
       // (j) units that shared one text at base must still share one — whole file
-      // (accessor mode: across every school, checked after the loop)
-      if (accessor) {
-        for (const [p, t] of pb) { if (!crossGroups.has(t)) crossGroups.set(t, []); crossGroups.get(t).push(`${slug}:${p}`) }
+      // (accessor mode and --layers modules: across every school, checked after the loop)
+      if (accessor || prefix) {
+        if (!crossGroups.has(relPath)) crossGroups.set(relPath, new Map())
+        const g = crossGroups.get(relPath)
+        for (const [p, t] of pb) { if (!g.has(t)) g.set(t, []); g.get(t).push(`${slug}:${p}`) }
         for (const [p, t] of pa) crossAfter.set(`${slug}:${p}`, t)
       } else {
         const groups = new Map()
@@ -383,7 +464,7 @@ async function main() {
         if (dd) failures.push(`(g) ${at}: date/time tokens differ ${dd}`)
         const dm = diffList(moneyTokens(b), moneyTokens(a))
         if (dm) failures.push(`(m) ${at}: money/percent/year tokens differ ${dm}`)
-        if (artsMarkers) {
+        if (artsMarkers || clubsMarkers) {
           const dn = diffList(countTokens(b), countTokens(a))
           if (dn) failures.push(`(n) ${at}: count words differ ${dn}`)
         }
@@ -411,13 +492,13 @@ async function main() {
         notes.push(...markerNotes)
         const ga = analyze(a, cfg).grade, gb = analyze(b, cfg).grade
         if (ga != null && ga > cfg.targetGrade) notes.push(`grade ${ga.toFixed(1)} > ${cfg.targetGrade}`)
-        const hk = hookIssues(a, relPath, path, source, slug)
+        const hk = hookIssues(a, relPath, path, source, slug, part)
         rows.push({ slug, path, b, a, wb: words(b), wa: words(a), gb, ga, hook: hk.length ? hk.map((i) => i.detail).join('; ') : 'pass', notes: notes.join('; ') })
       }
-      perSchool.set(slug, changed)
+      perSchool.set(slug, (perSchool.get(slug) ?? 0) + changed)
       for (const path of added) if (!pb.has(path)) { /* counted under (a) */ }
     }
-    for (const sites of crossGroups.values()) {
+    for (const sites of [...crossGroups.values()].flatMap((g) => [...g.values()])) {
       if (sites.length < 2) continue
       const now = new Set(sites.map((k) => crossAfter.get(k)))
       if (now.size > 1) failures.push(`(j) repeat group now holds ${now.size} texts — ${sites.join(', ')}`)
@@ -426,37 +507,41 @@ async function main() {
     if (worklistFile) {
       for (const slug of worklistSlugs) {
         const inBatch = slugs.includes(slug)
-        const relPath = relPathOf(slug)
-        const source = readFileSync(join(ROOT, relPath), 'utf8')
-        const after = await entryOf(join(ROOT, relPath), slug)
-        for (const [path, text] of prose(after)) {
-          if (!inPaths(path)) continue
-          if (!inBatch && !(matchRe && matchRe.test(text))) continue
-          const { grade, words: w } = analyze(text, cfg)
-          const issues = hookIssues(text, relPath, path, source, slug)
-          const overTarget = grade != null && grade > cfg.targetGrade
-          const shared = Boolean(matchRe && matchRe.test(text))
-          // In-batch: flagged or over target. Out-of-batch: only the shared templates.
-          if (inBatch ? !(issues.length || overTarget) : !shared) continue
-          work.push({ at: `${slug}:${path}`, slug, path, words: w, grade: grade == null ? null : +grade.toFixed(1), rules: [...new Set(issues.map((i) => i.rule === 'jargon' ? `jargon:${i.term}` : i.rule))], ...(shared ? { shared: true } : {}), text })
+        for (const part of partsOf(slug, useLayers)) {
+          const { prefix, relPath } = part
+          const source = readFileSync(join(ROOT, relPath), 'utf8')
+          const after = await entryOf(join(ROOT, relPath), slug, part)
+          if (!after) continue
+          for (const [path, text] of prose(after, prefix)) {
+            if (!inPaths(path)) continue
+            if (!inBatch && !(matchRe && matchRe.test(text))) continue
+            if (skippedFlag(after, prefix, path)) continue
+            const { grade, words: w } = analyze(text, cfg)
+            const issues = hookIssues(text, relPath, path, source, slug, part)
+            const overTarget = grade != null && grade > cfg.targetGrade
+            const shared = Boolean(matchRe && matchRe.test(text))
+            // In-batch: flagged or over target. Out-of-batch: only the shared templates.
+            if (inBatch ? !(issues.length || overTarget) : !shared) continue
+            work.push({ at: `${slug}:${path}`, slug, path, words: w, grade: grade == null ? null : +grade.toFixed(1), rules: [...new Set(issues.map((i) => i.rule === 'jargon' ? `jargon:${i.term}` : i.rule))], ...(shared ? { shared: true } : {}), text })
+          }
         }
       }
       mkdirSync(dirname(resolve(ROOT, worklistFile)), { recursive: true })
       const counts = Object.fromEntries(worklistSlugs.map((s) => [s, work.filter((w) => w.slug === s).length]).filter(([, n]) => n))
-      writeFileSync(resolve(ROOT, worklistFile), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), ...(accessor ? { topic, file: accessor.relFile } : { dir }), slugs, match: matchRe?.source ?? null, ...(pathsRe ? { paths: pathsRe.source } : {}), total: work.length, counts, units: work }, null, 2) + '\n')
+      writeFileSync(resolve(ROOT, worklistFile), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), ...(accessor ? { topic, file: accessor.relFile } : { dir }), ...(useLayers ? { layers: layerSpecs.map((l) => l.prefix) } : {}), ...(skipFlagKinds.size ? { skipFlagKinds: [...skipFlagKinds] } : {}), slugs, match: matchRe?.source ?? null, ...(pathsRe ? { paths: pathsRe.source } : {}), total: work.length, counts, units: work }, null, 2) + '\n')
       console.log(`worklist: ${work.length} units → ${relative(ROOT, resolve(ROOT, worklistFile))}`)
       for (const [s, n] of Object.entries(counts)) console.log(`  ${s}: ${n}`)
     }
 
     if (outFile) {
       const L = []
-      L.push(`# Plain-language review — ${accessor ? `${topic} (${accessor.relFile})` : dir}`, '')
+      L.push(`# Plain-language review — ${accessor ? `${topic} (${accessor.relFile})` : dir}${useLayers ? ` + layers (${layerSpecs.map((l) => l.relFile).join(', ')})` : ''}`, '')
       L.push(`Base \`${base}\` → working tree. Generated ${new Date().toISOString().slice(0, 10)} by \`scripts/plain_review.mjs\`. ` +
         `Grades are Flesch–Kincaid over units of ≥${cfg.gradeMinWords} words (— below that). "hook" is what the PostToolUse hook would still report.`, '')
       L.push('| School | Changed units |', '|---|--:|')
       for (const [s, n] of perSchool) L.push(`| ${s} | ${n} |`)
       L.push(`| **Total** | **${rows.length}** |`, '')
-      L.push(`Guards: ${failures.length ? `**${failures.length} FAILED**` : `all pass (paths, digits, URLs/emails, quotes, year spans, non-prose leaves, dates/times, money/percent/year tokens, markers, repeats${accessor ? ' across schools' : ''}${allowed ? ', worklist-only edits' : ''}${mdPathsRe ? ', markdown fields' : ''})`}.`, '')
+      L.push(`Guards: ${failures.length ? `**${failures.length} FAILED**` : `all pass (paths, digits, URLs/emails, quotes, year spans, non-prose leaves, dates/times, money/percent/year tokens, markers, repeats${accessor || useLayers ? ' across schools' : ''}${allowed ? ', worklist-only edits' : ''}${mdPathsRe ? ', markdown fields' : ''})`}.`, '')
       if (failures.length) { for (const f of failures) L.push(`- ${esc(f)}`); L.push('') }
       L.push('| # | school | path | before | after | words b→a | grade b→a | hook | notes |', '|--:|---|---|---|---|---|---|---|---|')
       rows.forEach((r, i) => L.push(`| ${i + 1} | ${r.slug} | \`${r.path}\` | ${esc(r.b)} | ${esc(r.a)} | ${r.wb}→${r.wa} | ${fmtGrade(r.gb)}→${fmtGrade(r.ga)} | ${esc(r.hook)} | ${esc(r.notes)} |`))
