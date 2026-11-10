@@ -634,6 +634,116 @@ Listed so it is visible what was deliberately not touched. Also outside scope an
 | `src/data/metricValues.ts` | `line 1902 (comment)` | programme | code comment | 'charlotte-catholic': null, // no referent — CCHS is a 9-12 school with no lower school. The MACS ASEP aftercare programme serves 'the K-8 c |
 | `src/data/metricValues.ts` | `line 1972 (comment)` | programme | code comment | 'charlotte-catholic': null, // no referent — this row measures the highest-priced grade band of a lower-school programme. See latest-pickup: |
 
+**Found by the browser check (follow-up, not changed here):** Gaston Day's financial-aid page renders one British form a parent can see: `State programme: NC resident, …`. It is in the "Named scholarships" table of `src/content/financial-aid-tuition/gaston-day.json`, which is generated from our own `source-material/financial-aid-tuition/gaston-day/Gaston Day School - Financial Aid & Tuition - Schedule and Aid Programs 2026.md`. The plan's "0 British forms in the 45 live content blocks" was right about the extracted blocks, but the extractor skips verbatim tables, and `src/content/**` is outside this plan's scope and outside `check:spelling`. The fix is to edit that source-material file and regenerate the content through `ingest-source-material`.
+
 ## (e) Translations carried over
 
-_Filled by `scripts/i18n_restamp.mjs --report` in Step 11._
+Every changed English string was re-stamped in each prose locale with its existing translation carried over by `scripts/i18n_restamp.mjs --fix-embedded`, paired by `at` path against `main` and proven spelling-only with `isSpellingOnly()`. No re-translation. Embedded fixes change a British English word that a translation kept as English, using the same mapped words as that entry's English diff; `fr` is excluded because programme, centre and catalogue are correct French.
+### `es` — 235 carried, 2 merged, 0 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+### `bn` — 235 carried, 2 merged, 3 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| college-support | `providence-day:wholeClass.gpaNote` | honours → honors | পাঁচটি quintile-ই স্কুলের নিজের প্রকাশিত সংখ্যা — এখানে কিছুই আন্দাজে বসানো হয়নি। বিস্তারটা লক্ষ করুন: 4.507 → 3.204 মানে ওয়েটেড GPA-তে 1.303-র ব্যবধান, আর 14… |
+| college-support | `cannon:transcript.depth[3].text` | enrolment → enrollment | Global Online Academy-র কোনো সদস্যপদ বা dual-enrollment অংশীদারিত্বের কথা প্রকাশিত নয় — এটি আলাদা করে যাচাই করা হয়েছে। |
+| college-support | `davidson-day:verdict.points[1].text` | honours → honors | এটি honors cord থেকে ধরনেই আলাদা। Profile জানায় যে কলেজে বাড়তি একটি ট্রান্সক্রিপ্ট ও প্রোফাইল যায়। ডিপ্লোমাটির পেছনে আছে ভাষা-অধ্যয়ন, দুই সপ্তাহের আন্তর্জাত… |
+
+### `ht` — 235 carried, 2 merged, 1 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| college-support | `providence-day:wholeClass.gpaNote` | honours → honors | Tout senk senkyèm yo se pwòp chif lekòl la pibliye — pa gen anyen isit la ki estime. Li diferans lan: 4.507 → 3.204 se yon diferans GPA ak pwa 1.303 epi 1454 → … |
+
+### `te` — 235 carried, 2 merged, 9 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| college-support | `providence-day:wholeClass.gpaNote` | honours → honors | ఐదు quintiles అన్నీ పాఠశాల స్వంత ప్రచురిత సంఖ్యలే — ఇక్కడ ఏదీ ఊహించినది కాదు. ఈ విస్తరణను చూడండి: 4.507 → 3.204 అంటే అదనపు విలువతో 1.303 GPA తేడా మరియు 1454 → 1… |
+| college-support | `charlotte-christian:wholeClass.scoreTables[0].note` | Maths → Math | పాఠశాల composite మధ్య 50% శ్రేణిని మరియు పరీక్షార్థుల సంఖ్యను మాత్రమే ప్రచురిస్తుంది. ఆ చివరలే 25వ మరియు 75వ శాతసూచికలు; సగటు, మధ్యగతం మరియు ఏ Reading లేదా Math… |
+| college-support | `charlotte-country-day:wholeClass.flags[1].text` | counselling → counseling | gap-year counseling, చేరికల సంఖ్య లేదా వాయిదా విధానం ఏదీ ప్రచురించబడలేదు, అలాగే నేరుగా ఉద్యోగంలోకి లేదా సైన్యంలోకి వెళ్లే ఫలితాలు కూడా. |
+| college-support | `cannon:transcript.depth[3].text` | enrolment → enrollment | Global Online Academy సభ్యత్వం లేదు మరియు dual-enrollment భాగస్వామ్యం ఏదీ ప్రచురించబడలేదు — దీన్ని ప్రత్యేకంగా పరిశీలించాం. |
+| college-support | `davidson-day:wholeClass.flags[1].text` | counselling → counseling | gap-year విధానం లేదా counseling ఏదీ ప్రచురించబడలేదు, మరియు quintile పట్టిక, decile పట్టిక లేదా సగటు GPA కూడా లేవు. |
+| high-school-placement | `trinity-episcopal:placement.stats[0].caption` | counsellors → counselors | ప్రచురిత పరిధి ప్రకారం హైస్కూల్ counselors |
+| high-school-placement | `trinity-episcopal:placement.steps[0].text` | counsellor → counselor | ప్రభుత్వ మరియు స్వతంత్ర placement counselor ఆ ప్రాంతంలోని పాఠశాలలను సందర్శిస్తారు, ఆమె మాటల్లోనే “a feel for who might benefit from knowing this school,” ఏర్పరచ… |
+| high-school-placement | `trinity-episcopal:verdict.checklist[3]` | Counsellor → Counselor | Counselor పాత్రలు 2023-24లో మొదలయ్యాయి. అప్పటి నుండి ప్రక్రియ ఎలా మారింది, మరియు ప్రస్తుతం ఏ పాత్రలో ఎవరున్నారు? |
+| sports | `charlotte-country-day:facilities.photos[2].caption` | centre → center | 1,200+ సీట్లు; strength center, రెజ్లింగ్ గది మరియు Hall of Honor ఇక్కడ ఉన్నాయి |
+
+### `fr` — 235 carried, 2 merged, 0 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+### `fa` — 235 carried, 2 merged, 1 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| the-arts | `cannon:ladder.divisions[0].items[0]` | fibre → fiber | هنر تجسمی انتخاب‌محور (TAB) — drawing, painting, collage, paper sculpture, clay, fiber art |
+
+### `it` — 235 carried, 2 merged, 2 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| college-support | `providence-day:wholeClass.gpaNote` | honours → honors | Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa — nulla qui è stimato. Si osservi la distribuzione: 4.507 → 3.204 è un divario di GPA ponder… |
+| college-support | `charlotte-christian:wholeClass.scoreTables[0].note` | Maths → Math | La scuola pubblica solo la fascia del 50% centrale del composito e un conteggio degli esaminandi. Quegli estremi SONO il 25° e il 75° percentile; la media, la m… |
+
+### `hi` — 235 carried, 2 merged, 7 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| after-school | `charlotte-country-day:verdict.strengths[6]` | centre → center | **परिसर में ही एक aquatic center**, जहाँ निजी और अर्ध-निजी प्रशिक्षण मिलता है, और जो जनता के लिए खुला है। |
+| college-support | `providence-day:wholeClass.gpaNote` | honours → honors | पाँचों क्विंटाइल स्कूल के अपने प्रकाशित आँकड़े हैं — यहाँ कुछ भी अनुमान से नहीं भरा गया। फैलाव देखें: 4.507 → 3.204 यानी भारित GPA में 1.303 का अंतर, और 1454 → … |
+| college-support | `charlotte-christian:wholeClass.scoreTables[0].note` | Maths → Math | स्कूल केवल composite का बीच का 50% दायरा और परीक्षार्थियों की संख्या प्रकाशित करता है। उसके दोनों छोर ही 25वाँ और 75वाँ पर्सेंटाइल हैं; औसत, मध्यमान और Reading … |
+| college-support | `cannon:transcript.depth[3].text` | enrolment → enrollment | न Global Online Academy की कोई सदस्यता प्रकाशित है और न कोई dual-enrollment साझेदारी — इसकी ख़ास तौर पर जाँच की गई। |
+| college-support | `davidson-day:verdict.points[1].text` | honours → honors | यह किसी honors रिबन से बिल्कुल अलग चीज़ है। Profile कहता है कि कॉलेजों को एक अतिरिक्त transcript और profile जाता है। diploma के पीछे भाषा-अध्ययन, दो सप्ताह का अ… |
+| high-school-placement | `trinity-episcopal:placement.steps[0].text` | counsellor → counselor | public और independent placement की counselor क्षेत्र के स्कूलों का दौरा करती हैं और, उनके शब्दों में, उन्हें “a feel for who might benefit from knowing this sch… |
+| high-school-placement | `trinity-episcopal:verdict.checklist[3]` | counsellor → counselor | counselor की भूमिकाएँ 2023-24 में शुरू हुईं। तब से प्रक्रिया कैसे बदली है, और अभी हर भूमिका किसके पास है? |
+
+### `ar` — 235 carried, 2 merged, 1 with embedded fixes, 0 failures
+
+Merged (the new English equals an existing entry; both predecessors already held the same translation):
+
+- `financial-aid-report` `charlotte-latin:sections[1].components[1].label`
+- `financial-aid-report` `charlotte-latin:sections[5].plans[0].label`, `charlotte-country-day:sections[4].plans[0].label`
+
+| Topic | Path | Embedded fix | Translation after |
+|---|---|---|---|
+| college-support | `providence-day:wholeClass.gpaNote` | honours → honors | الأخماس الخمسة كلها أرقام المدرسة المنشورة نفسها — لا شيء هنا مُقدَّر. اقرأ التباعد: 4.507 → 3.204 فجوة GPA مُرجَّح قدرها 1.303 و1454 → 1116 فجوة SAT قدرها 338 … |
+
