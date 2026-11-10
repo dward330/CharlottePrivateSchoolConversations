@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** Tuition History, Financial Aid and Tuition- Deep Dive Report
 
 
@@ -98,8 +98,7 @@ the real published figures rather than the derived ones in any year-over-year ch
 | Grades 5–8 | +4.75% | +5.08% | +4.99% |
 | Grades 9–12 | +4.75% | +5.08% | +5.01% |
 
-These percentages are derived arithmetic from the sourced dollar figures and are clearly
-labeled as such; the dollar figures themselves are all directly sourced.
+These percentages are worked out from the tuition figures above, which the school publishes.
 
 
 ---
