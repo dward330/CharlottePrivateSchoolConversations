@@ -156,7 +156,7 @@ worklist unit):
 | "an auditioned 40-person chorus" | cannon `ladder.enrichment[0].text` | `verdict.holdsUp[5].text` |
 | the five-category sweep / "regional placement, state advancement or named award" | cannon `theatre.honestContext` | `verdict.holdsUp[1].text`, `verdict.ask[2]` |
 | "The Jazz Combo is audition-only" | cannon `music.boardNote` | `music.ladder[1].text` |
-| "supported by the new Texas Grace Audio Lab" | cannon `verdict.holdsUp[4].text` | `music.ladder[2].text` |
+| "…the new Texas Grace Audio Lab" (the off-worklist site says "Backed by"; the two never matched word for word, corrected at Batch 3) | cannon `verdict.holdsUp[4].text` | `music.ladder[2].text` |
 | "…or Tri-M chapter could be found" | davidson-day `verdict.ask[4]` | cannon `verdict.ask[3]` |
 | "only one fine-arts credit is required to graduate" | davidson-day `verdict.holdsUp[5].text` | `ladder.subhead` (and covenant-day `ladder.subhead`) |
 | "Best Ensemble/Chorus and Best Overall Direction" | davidson-day `theatre.honestContext`, `ledger[2].result`, `verdict.holdsUp[2].text` | `theatre.headline` |
@@ -462,8 +462,8 @@ shipped*) only after Batch 5.
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 | `e24c2796` | [review-batch1.md](plainarts-data/review-batch1.md) | 10 (all fixed: 6 unclear referents after a split, 1 overclaim (exhibited work), 1 strengthened verb ("runs" → "organizes"), 2 wording shifts ("jobs", "lessons")) | approved 2026-11-10, no rulings |
-| 2 | *(this commit)* | [review-batch2.md](plainarts-data/review-batch2.md) | 12 (all fixed: 4 referents, 3 restored unit-note keeps, 2 strengthened claims ("led to", "keeps producing"), 1 weakened figure ("high" for 100%), 1 wrong gloss (proscenium), 1 tense) | |
-| 3 | | | | |
+| 2 | `54da2493` | [review-batch2.md](plainarts-data/review-batch2.md) | 12 (all fixed: 4 referents, 3 restored unit-note keeps, 2 strengthened claims ("led to", "keeps producing"), 1 weakened figure ("high" for 100%), 1 wrong gloss (proscenium), 1 tense) | approved 2026-11-10, no rulings |
+| 3 | *(this commit)* | [review-batch3.md](plainarts-data/review-batch3.md) | 13 (all fixed: 5 referents, 1 widened entry rule (three productions → Theater in Performance only), 1 weakened verb ("asked" for "assigned"), 1 narrowed scope, 1 wrong "who shares", 1 wrong "scheduled", 3 wording) | |
 | 4 | | | | |
 | 5 | | | | |
 
@@ -659,6 +659,17 @@ here as precedent.
     backstage/technical course…");
   - a referent after a split names its noun ("The production had no placement…", "the
     Fab Lab is not shown…", "such a selection").
+
+- **Batch 2 (approved 2026-11-10): no rulings.** Placeholder unfilled again. The two
+  flagged items (CCD McGovern fact error, Carmel `ledger[2].year` "(year to verify)") got
+  no answer, so they stay unchanged under Candidates. Batch 2's choices stand:
+  - a shared noun phrase carries over, but each school keeps its own verb class ("turned
+    up" / "could be found" / "is published");
+  - a quoted figure is never softened ("high" for "100%");
+  - a gloss describes the right thing (a proscenium theater, not "a stage");
+  - "led to" / "keeps producing" are causal or trend claims; the before-text's "became" /
+    "repeat producer" stay;
+  - an unclear "house" becomes "hall", never "theater", when the unit holds no THEATER.
 
 ### plain-ok register
 
@@ -1074,7 +1085,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| — | — | Batches 1–2: none. All 52 units are at grade ≤10. |
+| — | — | Batches 1–3: none. All 74 units are at grade ≤10. |
 
 ## Implementation notes
 
@@ -1173,6 +1184,37 @@ Every guard passed on the first `--check`, for Batch 2 and for Batches 1–2 tog
 - One WIN chip on each school, matching its one `win` row (CCD 2022, Carmel 2026).
 - At 390px, CCD with every card open has `scrollWidth` 390.
 
+### Batch 3 (2026-11-10)
+
+**Resume.** Batch 2 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"). `main` had not moved.
+
+**Worklist** matched the plan: 22 units (cannon 17, charlotte-catholic 5).
+
+**Build.** All 22 drafts measured clean on the first pass. After applying, guard (h) failed once: UNPUBLISHED was lost on cannon `visual.footnote`. It was a **spurious match in the before-text**: the long-span alternative `no … stated` ran from "NO course entry" across to "AP Studio Art's stated prerequisites", and the split broke the span. The unit's sentence "No CDE or Media Arts instructor is named." became "The school names no CDE or Media Arts instructor." That is the same claim, and a true not-published marker, made with Edit so the hook saw it.
+- Cannon copies CCD's NCTC-scale sentence byte-for-byte. Its extra clause becomes its own sentence: "Select plays advance from regionals to state."
+- Cannon keeps its longer "(Scholastic Art & Writing or otherwise)", with its own verb ("could be found").
+- `whoRunsIt` was reordered so the unit ends on its quote. That avoids the checker's quote-merge quirk.
+
+**Independent review: 13 findings, all fixed** (see the review file). The reviewer checked Cannon's research file, which found one real widening: "Students can also enter it" had made the three-productions alternative apply to the whole theater sequence, when it applies only to Theater in Performance.
+
+It also reported four before-text issues, left unchanged:
+- Cannon's "Two offerings are unusually contemporary" names only one.
+- Cannon's AV quote is about the computer systems in the control room, not the room itself.
+- Catholic's off-worklist `theatre.headline` / `subhead` blur nominee and finalist.
+- The plan's near-repeat table misquoted Cannon `music.ladder[2]` (table corrected).
+
+**Step 6 checks.** All green:
+- `npx tsc -b` and `npx vite build`;
+- `check:schema`, `check:spelling`, `check:matrices`, `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+
+`check:live` reports **74 stale stamps per locale, all `the-arts`** (28 + 24 + 22). Running total for Phase 2: **74**.
+
+**Step 7 browser check:**
+- **22/22** rewritten units render.
+- Cannon's arts section has 0 asterisks.
+- Catholic's has 40, all from the six off-worklist `verdict.holdsUp[]` units with `**` (Candidates). Guard (o) proves none of them is in a rewritten unit.
+- At 390px, Cannon with every card open has `scrollWidth` 390.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1199,6 +1241,14 @@ Every guard passed on the first `--check`, for Batch 2 and for Batches 1–2 tog
   says "lead-category nominations in three consecutive cycles". The ledger shows 2024 as Best
   Supporting Actress, so two of three are lead categories. This is a fact fix, not a wording
   one. **Flagged for the user.**
+- **Before-text issues found at Batch 3**, all unchanged and **flagged for the user**:
+  - cannon `music.boardNote` says "Two offerings are unusually contemporary" but describes
+    only Modern Ensemble (probably Modern Ensemble and Music Technology);
+  - cannon `theatre.whoRunsIt`'s quote is about the control room's computer systems, not
+    the room itself;
+  - charlotte-catholic `theatre.headline` "five more nominations in 2026" covers 4
+    nominees and 1 finalist, and `theatre.subhead` "a rare sweep of nominations"
+    describes 2025's finalists. Both are off the worklist.
 - **Research bookkeeping in a non-prose field.** carmel-christian `theatre.ledger[2].year` is
   `'~2022-23 (year to verify)'`. `year` is not prose, so it is untranslated and off every
   worklist, and the "(year to verify)" renders to parents in every locale.

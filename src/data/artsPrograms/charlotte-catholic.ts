@@ -144,7 +144,7 @@ export const charlotteCatholic: ArtsProgram = {
       { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Featured Performer — Olivia Overhalser as Toto Puppeteer' },
     ],
     honestContext:
-      'CCHS has NOT won a Blumey in either year — verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is consistent and deep rather than victorious: ten placements across two years, with Maye Glessner recognized in both (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing — the two productions above are reconstructed from Blumey records, so the real season may well be larger than the school lets a family see.',
+      'CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is steady and deep, but without wins: ten placements across two years. Maye Glessner was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
     sources: [
       { label: 'blumenthalarts.org — 2025 Blumey nominees and finalists (PDF)', url: BLUMEY25 },
       { label: 'blumenthalarts.org — 2026 Blumey nominees and finalists', url: BLUMEY26 },
@@ -185,7 +185,7 @@ export const charlotteCatholic: ArtsProgram = {
       },
     ],
     boardNote:
-      'Twelve ensembles carry course codes; Marching Band, Symphonic Band and Jazz Band operate alongside them — percussionists perform as members of the Symphonic Band in all concerts, and Jazz Band is an after-school group rather than a timetabled course.',
+      'Twelve ensembles carry course codes. Marching Band, Symphonic Band and Jazz Band run alongside them. Percussionists perform as members of the Symphonic Band in all concerts. Jazz Band is an after-school group, not a course in the school day.',
     ladderTitle: 'The honors pipeline',
     ladder: [
       { label: 'Entry', text: 'Freshman Men’s or Women’s Chorus (301, 302) — a dedicated ninth-grade rung most schools do not staff separately.' },
@@ -195,7 +195,7 @@ export const charlotteCatholic: ArtsProgram = {
       { label: 'Terminal', text: 'Honors Concert Choir (361) — the co-ed top of the choral ladder.' },
     ],
     ladderNote:
-      'Every Honors ensemble carries the same +1 quality point as an Honors academic course, so a serious musician’s weighted GPA is not penalized for spending four years in the music wing. There is no AP Music Theory at CCHS — the Honors rungs are the ceiling.',
+      'Every Honors ensemble carries the same +1 quality point as an Honors academic course. So a serious musician’s weighted GPA is not hurt by spending four years in the music wing. There is no AP Music Theory at CCHS; the Honors rungs are the top of the ladder.',
     sources: [
       { label: 'charlottecatholic.org — Visual and Performing Arts', url: DEPT },
       { label: 'charlottecatholic.org — Curriculum Guide 2026-2027 (PDF)', url: GUIDE },
@@ -226,7 +226,7 @@ export const charlotteCatholic: ArtsProgram = {
       { name: 'AP Studio Art', terminal: true },
     ],
     pathNote:
-      'Honors Portfolio Prep (364) runs alongside the upper rungs for students building an application portfolio. AP Studio Art is the department’s ONLY AP course — there is no AP Art History and no AP Music Theory, confirmed by sweeping all 199 courses in the curriculum guide.',
+      'Honors Portfolio Prep (364) runs alongside the upper rungs, for students building a portfolio to apply with. AP Studio Art is the department’s ONLY AP course. There is no AP Art History and no AP Music Theory, confirmed by checking all 199 courses in the curriculum guide.',
     exhibitsTitle: 'Where the work goes public',
     exhibits: [
       { when: 'Three times a year', name: 'Fine Arts Festivals', detail: 'the department’s own showcase cycle' },
@@ -235,7 +235,7 @@ export const charlotteCatholic: ArtsProgram = {
       { when: 'Ongoing', name: 'Fine Arts Center gallery spaces', detail: 'exhibits alongside performances in the 2022 building' },
     ],
     footnote:
-      'Faculty: Melissa Parks (visual art and AP Studio Art), Barry Johnson (photography and graphic design), Jacob Bohan (band), Marcus Riter (theatre, twelve years), Tara Ryan (dance), Christopher Jones (guitar). The nine named Fine Arts Center spaces are the 650-seat auditorium, two art studios, the band room, the broadcast studio, the ceramics studio, the dance studio, the darkroom and the photography/digital lab. The center serves all MACS schools, not CCHS alone, so availability is shared.',
+      'Faculty: Melissa Parks (visual art and AP Studio Art) · Barry Johnson (photography and graphic design) · Jacob Bohan (band) · Marcus Riter (theatre, twelve years) · Tara Ryan (dance) · Christopher Jones (guitar). The nine named Fine Arts Center spaces: the 650-seat auditorium · two art studios · the band room · the broadcast studio · the ceramics studio · the dance studio · the darkroom · the photography/digital lab. The center serves all MACS schools, not CCHS alone, so CCHS shares its use with the other MACS schools.',
     sources: [
       { label: 'charlottecatholic.org — Meet the arts faculty', url: FACULTY },
       { label: 'charlottecatholic.org — MACS Fine Arts Center', url: FAC },
