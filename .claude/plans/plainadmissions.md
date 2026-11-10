@@ -373,8 +373,8 @@ shipped*) only after Batch 5.
 
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 | (this commit) | [review-batch1.md](plainadmissions-data/review-batch1.md) | 2 (both fixed: Trinity referents) | awaiting review |
-| 2 | | | | |
+| 1 | `9d63eba0` | [review-batch1.md](plainadmissions-data/review-batch1.md) | 2 (both fixed: Trinity referents) | approved 2026-11-09, no rulings |
+| 2 | (this commit) | [review-batch2.md](plainadmissions-data/review-batch2.md) | 6 (all fixed: 2 strengthened "firm deadline", 3 referents, 1 renamed document) | awaiting review |
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |
@@ -400,6 +400,12 @@ shipped*) only after Batch 5.
   changed a term's meaning.
 
 *Rulings from this plan's Batch 1 onward are added here by `/implement`.*
+
+- **Batch 1 (approved 2026-11-09): no rulings.** The resume command arrived with the
+  `<, with these rulings: …>` placeholder unfilled, which this plan reads as "approved, no
+  rulings". Batch 1's choices therefore stand as precedent: `→` chains split at a step
+  boundary as "First: … Then: …"; a time ending in `a.m.`/`p.m.` moved off the sentence end;
+  "sits" → "takes"; "release" → "come out"; "verify against" → "check".
 
 ### plain-ok register
 
@@ -933,6 +939,75 @@ no literal `**` on any page. At 390px, charlotte-prep with both bands open has a
 providence-day` exits 0. Its "jargon with no glossary entry: IS, PD" note comes from units
 outside the batch: none of the 5 rewritten PD texts holds either token.
 
+### Batch 2 (2026-11-09)
+
+**Resume.** Batch 1 was approved with no rulings (the resume command's `<, with these
+rulings: …>` placeholder was unfilled; recorded under "Style rulings"). `main` had not moved
+since Batch 1, so `git rebase origin/main` was a no-op.
+
+**Worklist** matched the plan exactly: 38 paths / 37 distinct (charlotte-latin 23,
+charlotte-christian 15). The one repeat group, Latin's "on its own clock" text at
+`bands[2]`/`bands[3]` `.steps[5]`, was applied as one replacement across both sites.
+
+**Drafts were measured first**, with the real `analyze`, and then applied by exact literal,
+keeping each string's delimiter. The two `"…"` headlines stayed double-quoted. Two drafts
+needed a second pass before applying:
+- Christian `bands[1].steps[7]`: the checker's initial rule (`\b[A-Z]\.(?=\s)`) reads
+  `JK/K.` as an initial, so it did not split there. The sentence was reordered so that it
+  ends in "track.".
+- Latin `spineNote` measured 10.1, so it was trimmed.
+
+After applying, the review generator's guard (b) caught one added digit: "So Grade 1
+gets". It was fixed with Edit.
+
+**Shared wording, kept parallel.**
+- Latin's four "Optional, and on its own clock:" units share the same wording: "the aid
+  application opens … It is due … to be considered in the priority round. <differing
+  clause> One application covers every child in the family."
+- Latin `bands[0].steps[0]` keeps the opening it shares with `bands[1–3].steps[0]`, which
+  are short and not on the worklist. Only its trailing clause was split off.
+- Latin's two "Both the ISEE and every remaining file item are due that day" callouts open
+  identically.
+
+**Chains.** Christian's eight-step `spineNote` was split into three sentences, "First: …
+Next: … Last: …", with every step kept in order (7 → 5 arrows). Batch 1 used two sentences;
+this chain is 8 steps and needed three to keep each under 30 words. Latin's 4-step chain
+stays one sentence (3 arrows). Bold spans that ended in `a.m.`/`p.m.` were moved to the
+middle of their sentence (Latin `bands[0].steps[1]`, Christian `bands[0].steps[7]`,
+`bands[1].steps[1]`). No word inside a bold span changed, except two the vocabulary covers:
+"**the instrument changes…**" → "**the test changes…**" and "**back-plan your registration
+from it**" → "**plan your registration backward from it**".
+
+**Negative test (h)**, as the plan suggested for this batch: deleting "Required." from Latin
+`bands[0].steps[4]` gave exit 1 with `(h) charlotte-latin:guide.bands[0].steps[4].detail:
+REQUIRED marker lost (1→0)` and nothing else. The file was restored and `cmp` was clean.
+
+**Measure.** The hook checker reports `clean` on both files. The review generator, with every
+guard on (`--allow` worklists 1–2), exits 0: 38/38 `hook: pass`, after-grade >10: 0. Batch 2
+adds no residual rows. The `·` cell (Christian `rows[10]`) keeps its five items in order;
+only items 3–5 were reworded (11.7 → 8.8).
+
+**Independent review: 6 findings, all fixed.** Two were the same strengthened claim. "binding
+constraint" → "firm deadline for this band" read as the band's deadline, when the
+application is due Jan 15. It now says "Your testing plan in this band hinges on …". Three
+were referents (Latin `spineNote` "It", Latin disclaimer "That", Christian
+`bands[1].steps[6]` "these applicants"). One was a renamed document: "custody agreements" had
+become "custody papers" in the `·` cell, and it was restored. See the review file.
+
+**Step 6 checks.** `npx tsc -b` and `npx vite build` are clean. `check:schema`,
+`check:spelling`, `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`,
+`check:dates` and `check:spans` are all green. `check:live` reports **62 distinct stale stamps
+per locale, all `admissions`**: Batch 1's 25 plus Batch 2's 37. No other topic appears.
+Running total for Phase 2: **62**. `check:plain` now shows admissions Flagged **46** (89 after
+the `·` change).
+
+**Step 7 browser check** (headed Chrome via Playwright, `vite preview`). On both schools every
+band was clicked and every `<details>` opened, and all 8 `/admissions-checklist/?band=` pages
+were loaded. All 38 rewritten units render. Each was matched against the live module's text
+with `**` stripped, and every bold span was found inside a `<strong>`. No page shows a literal
+`**`. At 390px, charlotte-christian with each of its 4 bands open has a max `scrollWidth` of
+375, so there is no overflow.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -947,6 +1022,16 @@ outside the batch: none of the 5 rewritten PD texts holds either token.
   - every `checklist.disclaimer`: "retrieved Aug 2026" / "verified against the live site".
 
   Each is rewritten for plainness with the same content.
+- charlotte-christian `checklist.disclaimer`: "the older financial-aid PDF is a prior, closed
+  cycle and is deliberately not used here" is research bookkeeping (dev-only rule). It was
+  rewritten for plainness with the same content.
+- Words outside the jargon list, fixed only inside worklist units, as candidates for
+  `scripts/plain_language.json`: "binding constraint", "back-plan", "gated (behind)",
+  "qualitatively", "mobile-friendly".
+- Checker quirk: `sentences()` treats any single capital before a period (`JK/K.`) as an
+  initial and does not split there. It is harmless here because the sentence was
+  reordered, but a K-band unit ending "…JK/K." will measure as one long sentence. This is out
+  of scope (the plan allows only the `·` change to the checker).
 - hickory-grove-christian `bands[1].steps[1].detail` "Immunization Registry Record" vs
   `bands[2/3].steps[1].detail` "Immunization Registry record". This is a source
   inconsistency, and it is kept as is.

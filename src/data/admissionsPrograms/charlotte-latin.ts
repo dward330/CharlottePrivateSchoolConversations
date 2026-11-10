@@ -144,7 +144,7 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const charlotteLatin: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. Four tracks on one shared spine, and what changes between them is the assessment, who schedules the Visit Day, whether there is an interview, and the deadline.",
+      "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. All four tracks follow the same main steps. What changes between them is the assessment, who schedules the Visit Day, whether there is an interview, and the deadline.",
     cycle: '2026–27 entry cycle',
 
     stats: [
@@ -160,7 +160,7 @@ export const charlotteLatin: AdmissionsProgram = {
     rules: [
       {
         title: 'One portal, start to finish.',
-        text: 'Everything runs through Finalsite Enrollment at charlottelatin.fsenrollment.com: submit an inquiry, create your family profile, then RSVP for optional admissions events, submit materials, locate forms and meet the deadlines from the same account.',
+        text: 'Everything runs through Finalsite Enrollment at charlottelatin.fsenrollment.com. Submit an inquiry and create your family profile there. Then use the same account to RSVP for optional admissions events, submit materials, find forms and meet the deadlines.',
       },
       {
         title: 'Every date below is the 2026–27 cycle.',
@@ -169,7 +169,7 @@ export const charlotteLatin: AdmissionsProgram = {
     ],
 
     spineNote:
-      'One shared spine in every band — apply online through the portal → attend a Visit Day → complete a standardized assessment → meet the deadlines. What changes between bands is which assessment your child sits, whether the admissions office schedules the Visit Day or you do, whether that day includes an interview, and which deadline you are working to.',
+      'Every band follows the same four steps: apply online through the portal → attend a Visit Day → complete a standardized assessment → meet the deadlines. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.',
 
     bands: [
       {
@@ -190,21 +190,21 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The required first step: families "first submit an inquiry and then create a profile for your family." That account then prompts you to RSVP for optional admissions events, submit materials, locate forms and meet deadlines — everything downstream of this list runs through it.',
+              'The required first step: families "first submit an inquiry and then create a profile for your family." That account then prompts you to RSVP for optional admissions events, submit materials, locate forms and meet deadlines. Every later step in this list runs through it.',
           },
           {
             title: 'RSVP for the optional admissions events',
             tag: 'Oct 10, 2026',
             tagKind: 'outline',
             detail:
-              'Optional, not required. The one dated event published for this band is the **TK/K Fly By Open House on October 10, 2026, 9:30–11:00 a.m.** Campus tours begin in September and run throughout the school year, and open houses, tours and virtual sessions are all booked through your portal account.',
+              'Optional, not required. The **TK/K Fly By Open House on October 10, 2026, 9:30–11:00 a.m.** is the one dated event published for this band. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.',
           },
           {
             title: 'Complete the application',
             tag: 'by Jan 2',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 2, 2027** — thirteen days ahead of every other grade in the school, so this band works to a deadline that falls in the first week of January rather than the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten: the school describes TK qualitatively, as being "designed for children that are newly five and ready for Kindergarten," and states no calendar date. Ask the admissions office where your child falls.',
+              'Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band\'s deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being "designed for children that are newly five and ready for Kindergarten," and states no calendar date. Ask the admissions office where your child falls.',
           },
           {
             title: 'Attend a Visit Day — the office schedules it',
@@ -218,14 +218,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'required',
             tagKind: 'accent',
             detail:
-              'Required. Applicants to this band sit the **WPPSI**, administered by a psychologist in the Charlotte Area Independent Schools consortium, and testing "need[s] to be scheduled in advance." You book the psychologist directly and ask that the scores be sent to Charlotte Latin — the school does not arrange the appointment.',
+              'Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing "need[s] to be scheduled in advance." You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment.',
           },
           {
             title: 'Apply for financial aid, if you need it',
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the application opens through **Clarity** on **September 15, 2026** and is due **January 15, 2027** for priority-round consideration — two weeks after this band\'s own application deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band\'s own application deadline. One application covers every child in the family.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The earlier deadline,
@@ -235,7 +235,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Your application deadline is Jan 2, 2027.',
-          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade, and the admissions office schedules this band\'s Visit Day rather than the family. No all-file-material deadline is published for this band, so treat your portal checklist as the authoritative list of what is still outstanding. No decision date and no enrollment contract date are published for any band — confirm both with the admissions office.',
+          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.',
         },
         checklistRows: [
           {
@@ -321,14 +321,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'required',
             tagKind: 'accent',
             detail:
-              'Required, and **the instrument changes twice inside this one band**: Grade 1 applicants sit the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. The booking route changes with it. The WPPSI and WISC-V are administered by a psychologist in the Charlotte Area Independent Schools consortium, whom you contact directly; the ISEE is developed and administered by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which one applies to the grade your child is entering before you book anything.',
+              'Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything.',
           },
           {
             title: 'Apply for financial aid, if you need it',
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the application opens through **Clarity** on **September 15, 2026** and is due **January 15, 2027** for priority-round consideration — the same day as this band\'s application deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band\'s application deadline. One application covers every child in the family.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The twice-changing
@@ -337,7 +337,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'The assessment changes twice inside this one band.',
-          text: 'Grade 1 sits the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE — and the booking route changes with it, from a CAIS psychologist you contact directly to registering with the Educational Records Bureau. Confirm which instrument applies to your child\'s entry grade before booking. No all-file-material deadline is published for this band, so treat your portal checklist as the authoritative list of what is still outstanding, and no decision date or enrollment contract date is published for any band — confirm both with the admissions office.',
+          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date or enrollment contract date is published for any band. Confirm both with the admissions office.',
         },
         checklistRows: [
           {
@@ -407,14 +407,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'you book it',
             tagKind: 'outline',
             detail:
-              'Required, and the family schedules it. This band\'s Visit Day does considerably more than the lower ones: "your prospective Middle School student will have **an interview, take an assessment, observe a class, and connect with Latin students**." Treat it as an assessment day rather than a tour — the interview and an on-site assessment component are both explicit for this band.',
+              'Required, and the family schedules it. This band\'s Visit Day does much more than the ones for younger grades. The school says "your prospective Middle School student will have **an interview, take an assessment, observe a class, and connect with Latin students**." Treat it as an assessment day, not a tour. The school states outright that this band\'s day includes both the interview and an on-site assessment.',
           },
           {
             title: 'Complete the ISEE',
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              'Required: **Grades 6–8 applicants take the ISEE**, and "all Middle School testing needs to be completed and submitted by **February 26, 2027**." The ISEE is developed and administered by the **Educational Records Bureau**, and you register through the ERB rather than the school. That February 26 date is the binding constraint on this band — **back-plan your registration from it**, because a test seat has to be booked, sat and scored before the deadline rather than on it.',
+              'Required: **Grades 6–8 applicants take the ISEE**, and "all Middle School testing needs to be completed and submitted by **February 26, 2027**." The ISEE is developed and given by the **Educational Records Bureau**. You register through the ERB, not the school. Your testing plan in this band hinges on that February 26 date, so **plan your registration backward from it**. A test seat has to be booked, taken and scored before the deadline, not on it.',
           },
           {
             title: 'Complete your file',
@@ -428,7 +428,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the application opens through **Clarity** on **September 15, 2026** and is due **January 15, 2027** for priority-round consideration — six weeks before the file-material deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The Feb 26
@@ -437,7 +437,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'February 26, 2027 is the date that binds this band.',
-          text: 'Both the ISEE and every remaining file item are due that day, so back-plan your ERB registration from it rather than aiming at it — a test seat has to be booked, sat and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. No decision date and no enrollment contract date are published for any band — confirm both with the admissions office.',
+          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.',
         },
         checklistRows: [
           {
@@ -519,7 +519,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              'Required for **Grades 9–11 applicants**, who "take the ISEE", and "all Upper School testing needs to be completed and submitted by **February 26, 2027**." Registration is through the **Educational Records Bureau** rather than the school, and February 26 is the binding constraint on this band — **back-plan your registration from it**, because a test seat has to be booked, sat and scored before the deadline. **No entrance assessment is published for Grade 12 applicants**: the published requirement covers Grades 9 through 11 only, so a Grade 12 family should ask the admissions office what applies.',
+              'Required for **Grades 9–11 applicants**, who "take the ISEE", and "all Upper School testing needs to be completed and submitted by **February 26, 2027**." You register through the **Educational Records Bureau**, not the school. Your testing plan in this band hinges on February 26, so **plan your registration backward from it**. A test seat has to be booked, taken and scored before the deadline. **No entrance assessment is published for Grade 12 applicants**. The published requirement covers Grades 9 through 11 only, so a Grade 12 family should ask the admissions office what applies.',
           },
           {
             title: 'Complete your file',
@@ -533,7 +533,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Optional, and on its own clock: the application opens through **Clarity** on **September 15, 2026** and is due **January 15, 2027** for priority-round consideration — six weeks before the file-material deadline. One application covers every child in the family.',
+              'Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The Feb 26
@@ -543,7 +543,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'February 26, 2027 is the date that binds this band.',
-          text: 'Both the ISEE and every remaining file item are due that day, so back-plan your ERB registration from it rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11 — nothing is published for Grade 12 applicants, so ask the admissions office what applies. No decision date and no enrollment contract date are published for any band; confirm both with the office.',
+          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. No decision date and no enrollment contract date are published for any band. Confirm both with the office.',
         },
         checklistRows: [
           {
@@ -592,7 +592,7 @@ export const charlotteLatin: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **Clarity**, opens **September 15, 2026** and is due **January 15, 2027** for priority-round consideration. One application covers every child in the family and "typically takes 30 minutes or less to complete." Separately, a **$2,500 non-refundable deposit** is "required at the time of initial enrollment or reenrollment" and is "deducted from the second tuition payment" — no student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.',
+      text: 'Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. One application covers every child in the family and "typically takes 30 minutes or less to complete." Separately, a **$2,500 non-refundable deposit** is "required at the time of initial enrollment or reenrollment" and is "deducted from the second tuition payment". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -657,7 +657,7 @@ export const charlotteLatin: AdmissionsProgram = {
         {
           label: 'Decision and contract',
           cells: {
-            all: 'Not published in any band — confirm with the admissions office. Every published timeline ends at the application or file-material deadline, and no notification date, notification time or enrollment contract date appears on any admissions page.',
+            all: 'Not published in any band — confirm with the admissions office. Every published timeline ends at the application or file-material deadline. No admissions page gives a date or time when decisions are sent, or a date for the enrollment contract.',
           },
         },
         {
@@ -698,7 +698,7 @@ export const charlotteLatin: AdmissionsProgram = {
           'Apply through Clarity at app.clarityapp.com. If you are applying for multiple children you need only one application, and it typically takes 30 minutes or less to complete.',
           'The application opens on September 15, 2026.',
           'Submit by January 15, 2027 to be considered for priority-round decisions.',
-          'A $2,500 non-refundable deposit is required at the time of initial enrollment or reenrollment, and is deducted from the second tuition payment. No student can be enrolled or reenrolled without it.',
+          'A $2,500 non-refundable deposit is required when a student first enrolls or reenrolls. It is deducted from the second tuition payment. No student can be enrolled or reenrolled without it.',
           'No financial aid application fee is published for this cycle.',
         ],
       },
@@ -711,7 +711,7 @@ export const charlotteLatin: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2026–27 entry cycle as published on charlottelatin.org (retrieved Aug 2026) — the application process, tuition and financial assistance, and admissions pages. Items marked "confirm" are either gated behind the application portal or not published at all, including every decision and enrollment contract date. Cycle dates shift year to year, and these pages have carried a different set in a previous season — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
+        'Dates are for the 2026–27 entry cycle, as published on charlottelatin.org (retrieved Aug 2026). They come from the application process, tuition and financial assistance, and admissions pages. Items marked "confirm" are either shown only inside the application portal or not published at all. Those items include every decision and enrollment contract date. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
     },
 
     sources: [

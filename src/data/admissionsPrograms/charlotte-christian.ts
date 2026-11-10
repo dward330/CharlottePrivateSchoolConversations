@@ -143,7 +143,7 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const charlotteChristian: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. Three published documents, but four real processes: the application deadline breaks at Kindergarten→1 while the testing breaks a grade later, at 1→2.",
+      "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The school publishes three documents, but there are really four processes. The application deadline changes at Kindergarten→1, while the testing changes a grade later, at 1→2.",
     cycle: '2027–28 entry cycle',
 
     stats: [
@@ -167,7 +167,7 @@ export const charlotteChristian: AdmissionsProgram = {
     ],
 
     spineNote:
-      'One shared spine in every band — inquire and join myCCS → apply with the $100 fee → upload the birth certificate → send recommendations and records → complete the CAIS test or the ISEE → meet the school (a playdate for the youngest, a family interview for the rest) → decision on the myCCS decision tab → return the enrollment contract. What changes is which assessment, which application deadline, and which decision track you land on.',
+      'Every band follows the same eight steps. First: inquire and join myCCS → apply with the $100 fee → upload the birth certificate → send recommendations and records. Next: complete the CAIS test or the ISEE → meet the school (a playdate for the youngest, a family interview for the rest). Last: the decision on the myCCS decision tab → return the enrollment contract. What changes is which assessment, which application deadline, and which decision track you land on.',
 
     bands: [
       {
@@ -222,7 +222,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'by Feb 1',
             tagKind: 'accent',
             detail:
-              '"Contact a CAIS psychologist to schedule WPPSI-IV Test (Wechsler Preschool and Primary Scale of Intelligence - Fourth Edition). Request that scores be sent to Charlotte Christian School." You book the psychologist directly from the CAIS booklet\'s provider list — the school does not arrange it, and the fee is paid to the psychologist rather than to the school.',
+              '"Contact a CAIS psychologist to schedule WPPSI-IV Test (Wechsler Preschool and Primary Scale of Intelligence - Fourth Edition). Request that scores be sent to Charlotte Christian School." You book the psychologist directly from the provider list in the CAIS booklet. The school does not arrange it. You pay the fee to the psychologist, not to the school.',
           },
           {
             title: 'The on-campus playdate',
@@ -236,7 +236,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'Feb 26 → Mar 5',
             tagKind: 'accent',
             detail:
-              'The decision is posted to the myCCS decision tab on **February 26, 2027 at 4 p.m.** — six weeks ahead of the Grades 1–12 track — and the signed enrollment contract is due **March 5, 2027 at noon**. The contract carries a **$1,500 per-student enrollment fee**, non-refundable and applied to the tuition balance, plus a **$1,250 new-family fee** the first time a family enrolls.',
+              'On **February 26, 2027 at 4 p.m.**, the decision is posted to the myCCS decision tab. This is six weeks ahead of the Grades 1–12 track. The signed enrollment contract is due **March 5, 2027 at noon**. The contract carries a **$1,500 per-student enrollment fee**, which is non-refundable and applied to the tuition balance. It also carries a **$1,250 new-family fee** the first time a family enrolls.',
           },
         ],
         watchOuts: [],
@@ -317,7 +317,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'Oct 2026',
             tagKind: 'outline',
             detail:
-              'Grade 1 is covered by the school\'s JK–K sessions in the published calendar — **Oct 8, 2026 at 8:30 a.m.** and **Oct 22, 2026 at 9:30 a.m.** No separate Grade 1 event is named; contact admissions to arrange a visit if neither date works.',
+              'The school\'s JK–K sessions on **Oct 8, 2026 at 8:30 a.m.** and **Oct 22, 2026 at 9:30 a.m.** also cover Grade 1 in the published calendar. No separate Grade 1 event is named. If neither date works, contact admissions to arrange a visit.',
           },
           {
             title: 'Submit the application + $100 fee',
@@ -352,14 +352,14 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'scheduled for you',
             tagKind: 'outline',
             detail:
-              'Grade 1 sits inside the same JK–Grade 1 process as the youngest band, so it gets the **45-minute on-campus playdate** rather than the family interview the older bands attend — and the admissions office schedules it once your application is received.',
+              'Grade 1 is part of the same JK–Grade 1 process as the youngest band. So children applying to this grade get the **45-minute on-campus playdate**, not the family interview the older bands attend. The admissions office schedules the playdate once your application is received.',
           },
           {
             title: 'Decision → contract',
             tag: 'Apr 9 → Apr 16',
             tagKind: 'accent',
             detail:
-              'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.** and the enrollment contract is due **April 16, 2027 at noon** — the Grades 1–12 track, six weeks behind JK/K. The contract carries the **$1,500 per-student enrollment fee** and, for a family new to the school, the **$1,250 new-family fee**.',
+              'This band is six weeks behind JK/K, on the Grades 1–12 track. The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.** and the enrollment contract is due **April 16, 2027 at noon**. The contract carries the **$1,500 per-student enrollment fee**. For a family new to the school, it also carries the **$1,250 new-family fee**.',
           },
         ],
         watchOuts: [],
@@ -467,14 +467,14 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'once your file is complete',
             tagKind: 'outline',
             detail:
-              'Gated rather than scheduled up front: "**Once an applicant\'s file materials are complete, a family interview will be scheduled.**" Student visit days are separate and are **by invitation** — not something a family requests. So the interview date is a consequence of finishing your paperwork early, which is the practical argument for not running to Feb 26.',
+              'The interview is not scheduled up front. The school says: "**Once an applicant\'s file materials are complete, a family interview will be scheduled.**" Student visit days are separate and are **by invitation**, not something a family requests. So the interview date depends on how early you finish your paperwork. That is the practical reason not to wait until Feb 26.',
           },
           {
             title: 'Decision → contract',
             tag: 'Apr 9 → Apr 16',
             tagKind: 'accent',
             detail:
-              'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.**, with the enrollment contract due **April 16, 2027 at noon** — **except** for a sibling of a JK–K applicant, who is decided on the JK–K track on **February 26, 2027** regardless of the grade applied for. The contract carries the **$1,500 per-student enrollment fee**, plus the **$1,250 new-family fee** for a family new to the school.',
+              'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.**, and the enrollment contract is due **April 16, 2027 at noon**. This applies to everyone **except** a sibling of a JK–K applicant. That sibling is decided on the JK–K track on **February 26, 2027**, whatever grade they applied for. The contract carries the **$1,500 per-student enrollment fee**. For a family new to the school, it also carries the **$1,250 new-family fee**.',
           },
         ],
         watchOuts: [],
@@ -583,7 +583,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              'The break from the younger bands: no psychologist and no CAIS appointment. "Register for the Independent School Entrance Exam (ISEE) at www.iseetest.org or with ISEE (1-800-989-3721). Request that scores be sent to Charlotte Christian School." Charlotte Christian hosts its own testing day on **Jan 23, 2027**, and six other CAIS schools host dates between Dec 2026 and Feb 2027 that a family may sit instead — book early enough that scores reach the school by Feb 26.',
+              'The break from the younger bands: no psychologist and no CAIS appointment. "Register for the Independent School Entrance Exam (ISEE) at www.iseetest.org or with ISEE (1-800-989-3721). Request that scores be sent to Charlotte Christian School." Charlotte Christian hosts its own testing day on **Jan 23, 2027**. Six other CAIS schools host dates between Dec 2026 and Feb 2027, and a family may test at one of those instead. Book early enough that scores reach the school by Feb 26.',
           },
           {
             title: 'The family interview',
@@ -597,7 +597,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'Apr 9 → Apr 16',
             tagKind: 'accent',
             detail:
-              'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.**, with the enrollment contract due **April 16, 2027 at noon** — **except** for a sibling of a JK–K applicant, decided on **February 26, 2027**. The contract carries the **$1,500 per-student enrollment fee**; a family new to the school also pays the **$1,250 new-family fee**, which does not apply to international students.',
+              'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.**, and the enrollment contract is due **April 16, 2027 at noon**. This applies to everyone **except** a sibling of a JK–K applicant, who is decided on **February 26, 2027**. The contract carries the **$1,500 per-student enrollment fee**. A family new to the school also pays the **$1,250 new-family fee**, which does not apply to international students.',
           },
         ],
         watchOuts: [],
@@ -773,7 +773,7 @@ export const charlotteChristian: AdmissionsProgram = {
         {
           label: 'Constant in every band',
           cells: {
-            all: '$100 non-refundable application fee · the myCCS portal and its personalized checklist · a birth certificate, plus custody agreements for two-household families · a $1,500 enrollment fee at contract · rolling admissions after the priority dates, where grade-level space permits',
+            all: '$100 non-refundable application fee · the myCCS portal and its personalized checklist · a birth certificate, plus custody agreements for families in two households · a $1,500 enrollment fee when you sign the contract · rolling admissions after the priority dates, if the grade has space',
           },
         },
       ],
@@ -820,10 +820,10 @@ export const charlotteChristian: AdmissionsProgram = {
       aidPanel: {
         kicker: 'In parallel — the financial aid clock',
         items: [
-          'Apply through Clarity, the school\'s financial-assistance platform — it replaced SSS by NAIS, so a school code is no longer used. The application takes under an hour, is mobile-friendly, and carries a $65 application fee of its own, separate from the $100 admissions fee.',
+          'Apply through Clarity, the school\'s financial-assistance platform. It replaced SSS by NAIS, so a school code is no longer used. The application takes under an hour and works on a phone. It has a $65 application fee of its own, separate from the $100 admissions fee.',
           'Awards are need-based only and the maximum grant is limited to 50 percent of tuition. Awards for new families are not provided until the student has been accepted.',
           'Applications are considered as they are completed, and awards are limited by the funding available at the time of completion — so completing early matters, not just meeting a date.',
-          'Clarity runs free family information webinars each fall covering the application and tax-verification process: Sept 29 (10 p.m.), Sept 30 (6 p.m.), Oct 27 (10 p.m.), Oct 28 (6 p.m.) and Dec 8, 2026 (8:30 p.m. EST), each with its own registration link.',
+          'Clarity runs free family information webinars each fall on the application and how your tax information is checked. The dates are Sept 29 (10 p.m.), Sept 30 (6 p.m.), Oct 27 (10 p.m.), Oct 28 (6 p.m.) and Dec 8, 2026 (8:30 p.m. EST). Each one has its own registration link.',
           'The aid deadlines are published for this cycle: prospective families apply by Jan 22, 2027 and current families by Nov 1, 2026. Note that Jan 22 falls a week after the Jan 15 admissions deadline for grades 1-12, and three weeks after the Jan 2 JK/K one.',
         ],
       },
@@ -836,7 +836,7 @@ export const charlotteChristian: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026) — the application-process checklists and the admissions calendar, which the school refreshed on 26 Aug 2026 — and on the Apply page, which the school rewrote on 1 Sep 2026 and which supplies the cycle label. Financial-aid detail is from the live tuition page (retrieved 14 Sep 2026); the older financial-aid PDF is a prior, closed cycle and is deliberately not used here. Cycle dates shift year to year — verify against the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.',
+        'Dates are for the 2027–28 entry cycle, as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026). Those are the application-process checklists and the admissions calendar, which the school updated on 26 Aug 2026. Dates also come from the Apply page, which the school rewrote on 1 Sep 2026 and which gives the cycle label. Financial-aid detail is from the live tuition page (retrieved 14 Sep 2026). The older financial-aid PDF covers a past cycle that has closed, and it is deliberately not used here. Cycle dates change from year to year, so check the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.',
     },
 
     sources: [
