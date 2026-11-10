@@ -1,7 +1,7 @@
 ---
 name: plaintuition
 title: Plain-language rewrite of the visible financial-aid-tuition content paragraphs (Prep's Tuition History note, and the "derived arithmetic" research-bookkeeping sentence in Cannon, Country Day and Davidson Day), via source-material and re-ingest, then all nine locales through the content overlay
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-10
 branch: feat/plaintuition
@@ -340,3 +340,23 @@ dates translated with their digits kept.
   - `check:live` fails, as designed: gate 2, "4 of 45 shipped block hash(es) do NOT reproduce", ×9, all `financial-aid-tuition.content`.
   - **Deviation: `check:runtime` also fails**, which the plan's Step 6 list did not expect. It reports 4 orphaned entries in `financial-aid-tuition.content.es.json` only. The Step 5 `es` re-extract removed the old 4 blocks from the work file, so the shipped `es` overlay holds 4 stamps with no English source. It is the same Phase-1-by-design class as `check:live` gate 2, and Phase 2's rebuild clears it.
 - **Step 7, browser** (English): all four new paragraphs render in full, the old text is gone, and there is no literal `**`. At 390px, Prep has `scrollWidth` 390.
+
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window, on `feat/plaintuition`.
+- **Re-extract.** The other eight locales each carried over **41** of 45, matching `es`.
+- **Pairing.** In every locale, each of the 4 changed `at`s (cannon, charlotte-country-day and davidson-day "Year-over-year increases…"; charlotte-prep "Tuition History") has exactly one old and one new block (asserted), with the reviewed predecessor taken from the `main` snapshots.
+- **Translation, written directly.** At 4 blocks × 9 locales the plan's single-agent option was unnecessary, so the translations were written directly:
+  - **The shared sentence** has one rendering per locale, used identically at all three schools.
+  - **Cannon's and Davidson Day's trailing sentences** are unchanged in English, so they keep their reviewed translation verbatim. They were taken from the old `t` after the old shared sentence (whitespace normalized). fr, it and fa keep their reviewed "environ / circa il / حدود 4.5%" for `~4.5%`, as the predecessors did.
+  - **Prep's paragraph** is a minimal revision of the reviewed `t`: "sold" → "offered", "each at one all-in price", and the third sentence split off.
+- **Gate** (digits, `**`, bidi, non-Western digits, `t` ≠ English, ratio, English months): **0 problems**, ×9.
+- **One slip, caught by the checks.** The first overlay rebuild loop was piped into `head`, which stopped it after the first locales. fr, fa, it, hi and ar still shipped the old hashes, and `check:live` and `check:runtime` failed for exactly those five. Re-running the loop fixed it, and every overlay now holds 45 blocks, including the 4 new hashes.
+- **Integrity, by hash against the snapshots:** in every locale, 41 carried blocks have `text` and `t` byte-identical, 4 are new, and 0 are blank.
+- **Checks:**
+  - `check:live` ✓ (gates 2 and 3) and `check:runtime` ✓;
+  - `check:dates`, `check:moneytext`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `check:sepdrift`: 0 ×9, and `check_figures.py --topic financial-aid-tuition`: intact ×9;
+  - `check:digits` compares only `src/data` units, so it reported 0 here; the gate covered digits;
+  - `npm run build`: green end to end.
+- **Browser** (headed Chrome, `?lang=es|fa|hi`, all `<details>` open): **4/4** blocks render translated in each locale, and none shows its English.
