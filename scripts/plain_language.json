@@ -1,0 +1,31 @@
+{
+  "_doc": "Plain-language standard data. Read by scripts/check_plain_language.mjs and linked from CLAUDE.md. Add terms here, never in CLAUDE.md. Each term's `match` is a regex source, matched case-insensitively with \\b on both ends. `maxGrade` is what the hook blocks on; `targetGrade` is documentation only (and the second grade column of --report). `allow` entries are { file, path | key, term | rule } — `en.json` can only be allowed here, since JSON has no comments.",
+  "maxSentenceWords": 30,
+  "maxGrade": 12,
+  "targetGrade": 10,
+  "gradeMinWords": 30,
+  "terms": [
+    { "term": "matriculation", "match": "matriculat(?:e|es|ed|ing|ion|ions)", "plain": "enroll / enrolled at / where graduates enrolled" },
+    { "term": "differentiated instruction", "match": "differentiated (?:instruction|learning)", "plain": "teaching adjusted to each student's level" },
+    { "term": "rigor", "match": "rigou?r|rigorous(?:ly)?", "plain": "demanding / hard (or say what makes it hard)" },
+    { "term": "pedagogy", "match": "pedagog(?:y|ies|ical|ically)", "plain": "teaching / teaching approach" },
+    { "term": "holistic review", "match": "holistic(?:ally)?(?: review| admissions?)?", "plain": "the school looks at the whole application, not just grades and scores" },
+    { "term": "yield rate", "match": "yield rates?", "plain": "share of admitted students who enroll" },
+    { "term": "scaffolding", "match": "scaffold(?:ing|ed|s)?", "plain": "step-by-step support" },
+    { "term": "cohort", "match": "cohorts?", "plain": "class / group / grade" },
+    { "term": "formative assessment", "match": "formative assessments?", "plain": "practice checks / quizzes that don't count toward the grade" },
+    { "term": "summative assessment", "match": "summative assessments?", "plain": "final tests / graded exams" },
+    { "term": "executive function", "match": "executive function(?:ing)?", "plain": "planning, organizing and focus skills" },
+    { "term": "social-emotional learning", "match": "social[- ]emotional(?: learning)?|SEL", "plain": "lessons on feelings, friendships and self-control" },
+    { "term": "interdisciplinary", "match": "interdisciplinary", "plain": "across subjects / combining subjects" },
+    { "term": "experiential learning", "match": "experiential(?: learning)?", "plain": "hands-on learning" },
+    { "term": "articulation", "match": "articulation", "plain": "how courses connect from grade to grade" },
+    { "term": "demonstrated interest", "match": "demonstrated interest", "plain": "showing a college you really want to attend" },
+    { "term": "need-blind", "match": "need[- ]blind", "plain": "admission decided without looking at ability to pay" },
+    { "term": "mastery-based", "match": "mastery[- ]based", "plain": "students move on once they have learned the skill" },
+    { "term": "learner profile", "match": "learner profiles?", "plain": "a summary of how a student learns best" },
+    { "term": "synchronous / asynchronous", "match": "a?synchronous(?:ly)?", "plain": "live / on your own time" },
+    { "term": "leverage", "match": "leverag(?:e|es|ed|ing)", "plain": "use" }
+  ],
+  "allow": []
+}

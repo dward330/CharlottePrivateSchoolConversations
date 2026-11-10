@@ -1061,6 +1061,47 @@ Each was set after a real defect.
   new school's data is genuinely unpublished — at which point the zero-items rule applies
   and the card is omitted entirely rather than shipped empty.
 
+## Plain-language standard (required)
+
+**The reader is an average parent**, not an educator, a researcher or an admissions
+officer. English is the source for nine translations, so an unclear English sentence
+becomes nine unclear sentences nobody here can read to fix.
+
+- **Reading level: 8th–10th grade** (Flesch–Kincaid). Rewrite a passage above grade 10
+  rather than defend it. Proper nouns and published figures are the only good reason
+  for a long word.
+- **Short sentences.** Aim for 15–20 words and never go past 30. One idea per sentence.
+  A run of more than three items becomes a list.
+- **Explain a specialized term the first time it appears, or replace it.**
+  "Matriculated" → "enrolled". When the term is the right one (a school's own program
+  name, a step a parent must recognize, like "Early Decision"), keep it and explain it
+  in parentheses right after.
+- **Concrete numbers over vague words.** "38 of 112 seniors", not "many". "$4,200", not
+  "affordable". "Since 2019", not "long-standing". Figures are still copied
+  char-for-char from their source.
+- **The jargon list and the thresholds live in one file,**
+  [`scripts/plain_language.json`](scripts/plain_language.json): matriculation, rigor,
+  pedagogy, holistic review, yield rate and more, each with the plain word to use
+  instead. Add a term there, never here.
+
+**Scope: parent-facing English prose only.** That means the `src/data/**` fields the i18n
+extractor classifies as prose (`classifyField` in `scripts/i18n_fields.mjs`), the live
+`src/content` blocks, and `src/locales/en.json`. It does not cover code, comments,
+dev-only text (`kind: 'verify'` flags, `toVerify` cells), plans, `.claude/docs/`,
+`source-material/` research records or non-English locales. A verbatim school quote
+stays in the school's words.
+
+**A hook enforces the floor.** After each Edit/Write/MultiEdit on an in-scope file,
+`.claude/settings.json` runs `scripts/check_plain_language.mjs` on **only the changed
+text**. It flags jargon, sentences over 30 words, and passages of 30+ words above
+**grade 12**, and exits 2 with the lines to rewrite. Grade 12 is temporary: most existing
+long passages sit above 10, so a small data fix must not force a rewrite. It drops to 10
+after the follow-up audit. Write to the 8–10 target regardless. To keep a correct,
+explained term, add `// plain-ok: <term>` on the string's line (TS) or an `allow` entry
+in the JSON (the only way for `en.json`). Passing is a floor, not proof of plain writing.
+`npm run check:plain` reports the whole corpus and always exits 0. It is a report, never
+a gate.
+
 ## Testing and verification conventions (required)
 
 - **Key translation maps by English text, never by index.** A drifted index ships fluent
