@@ -442,7 +442,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -686,7 +686,7 @@ export const davidsonDay: CollegeSupportProgram = {
           'Required internship/capstone applies only to Diploma Distinction candidates — there is no school-wide required internship or senior project. Participation counts for AFAR ("hundreds", "150+", "200+") are all program-wide across many schools; how many Davidson Day students specifically have taken part is not published.',
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
           '**The School Profile as an instrument** — the strongest lever here, and well executed. Four pages, current, publicly linked: full grading scale and weighting, GPA exclusions, the Class of 2027 GPA range, the complete course catalog with unoffered courses clearly flagged, graduation requirements, the Honor Code, and the five-year acceptance list. For a reader who has never been to Davidson, NC, it frames a student without leaning on test scores or rank — precisely the job it has to do.',

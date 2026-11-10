@@ -494,7 +494,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -745,7 +745,7 @@ export const charlotteLatin: CollegeSupportProgram = {
           'There is still no required internship, capstone, senior project, independent study or school-wide research requirement — graduation requirements are purely credit-based, and there is no global-studies certificate or diploma. Athletic recruiting and arts-in-college support are informational programmes only: no named recruiting coordinator, highlight-film service, conservatory-prep track or portfolio review is published.',
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
           '**The School Profile argues with numbers again.** It is the one document every admissions office reads, and the 2026–27 edition restores the grading scale, the weighting statement and the class-rank policy, and adds AP results and SAT and ACT means after years without them. It still omits a CEEB code, a four-year matriculation percentage and National Merit Finalists.',

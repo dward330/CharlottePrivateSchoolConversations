@@ -524,7 +524,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -791,7 +791,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
           'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day and is never stated to be mandatory, though 136 of ~141 seniors taking part implies it is near-universal in practice.',
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
           '**The School Profile as an instrument** — the 2026–27 edition names the ceiling course in every discipline, states the weighting formula, and discloses AP results by discipline including the low end (Fine Arts at 91%/61%). Its AP-load buckets grew to four, and it dropped the per-fifth test medians of the 2025–26 edition but restored a whole-class SAT/ACT middle 50%. That candour is itself a credibility signal.',

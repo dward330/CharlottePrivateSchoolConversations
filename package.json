@@ -28,6 +28,7 @@
     "fetch:247": "node scripts/fetch_247_ranks.mjs",
     "check:quals": "node scripts/check_qual_coverage.mjs",
     "check:plain": "node scripts/check_plain_language.mjs --report",
+    "plain:review": "node scripts/plain_review.mjs",
     "test:plain": "node --test scripts/check_plain_language.test.mjs",
     "check:translations": "node scripts/check_translations.mjs",
     "i18n:report": "node scripts/i18n_extract.mjs --report",
