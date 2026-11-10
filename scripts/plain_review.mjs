@@ -37,6 +37,9 @@
  *   --allow a.json,…  worklist files; enables guard (k)
  *   --md-paths <re>   prose paths whose field renders `**bold**`; enables (l)
  *   --aid-markers     add the financial-aid marker classes to guard (h)
+ *   --arts-markers    add The Arts marker classes to guard (h) (plan plainarts) and
+ *                     enable guard (n)
+ *   --no-md           the area's fields render no markdown at all; enables (o)
  *
  * GUARDS (fail --check), compared per school across base and working tree:
  *   (a) the set of prose paths differs            — a structural change
@@ -53,7 +56,9 @@
  *       after, or the reverse: REQUIRED, OPTIONAL, UNPUBLISHED, NONREFUNDABLE,
  *       REFUNDABLE; with --aid-markers also the financial-aid classes NEED,
  *       MERIT, DISCOUNT, REMISSION, LOAN, NOTCOVERED, COVERED, ESTIMATE, BOUND,
- *       DERIVED, THIRDPARTY, AVERAGE, MEDIAN, TYPICAL (see MARKERS; plan plainaid).
+ *       DERIVED, THIRDPARTY, AVERAGE, MEDIAN, TYPICAL (see MARKERS; plan plainaid);
+ *       with --arts-markers WIN, NOMINEE, FINALIST, OPEN, AUDITION, CLAIM, VERIFIED,
+ *       NOTFOUND, THEATRE, THEATER, plus ESTIMATE and BOUND (plan plainarts).
  *       Synonyms within a class are free; a count change inside a class is a note.
  *   (j) units that held the SAME text at base (within one file) now differ
  *   (k) with --allow: a changed leaf (prose or not) is on none of the worklists
@@ -62,6 +67,10 @@
  *   (m) the multiset of money, percent and year tokens differs, char-for-char
  *       (`$3.25M` → `$3.25 million`, `~4.5%` → `4.5%`, `2026-27` → `2026–27`
  *       all pass (b) and fail here). See MONEY_RE / PCT_RE / YEARTOK_RE.
+ *   (n) with --arts-markers: the multiset of count words ("five", "twice",
+ *       "eighth") and "N+" figures (`3,500+`) differs. See COUNTWORD_RE / PLUS_RE.
+ *   (o) with --no-md: a changed unit's after-text holds a `*` (it would ship a literal
+ *       asterisk). Pair it with `--md-paths '^$'` so (l) fails any `**` change too.
  * Reported in the row's notes, never failing: capitalized words of the
  * before-text missing from the after-text (proper-noun drift), a change in the
  * number of `**` (inside --md-paths, or when --md-paths is absent), a change in
@@ -143,29 +152,59 @@ const MARKERS = {
   // "interpolated" and "modelled" became "estimated" by approved plaincollege rulings.
   ESTIMATE: /~|≈|\broughly\b|\bapproximately\b|\bestimat\w*|\binterpolat\w*|\bmodell?ed\b|\bprobabl[ey]\b|\blikel(?:y|iest)\b/gi,
   // "ceiling" only as a money/aid limit; a course-pathway "ceiling" is a metaphor.
-  BOUND: /\bup to\b|\bat least\b|\bat most\b|\bno more than\b|\bexceed\b|\b(?:award|aid|grant|\d+%)[- ]ceiling\b|\bceiling (?:of|on) (?:aid|awards?|grants?|tuition|\$|\d)|\bcap\b|\bor higher\b|\bor more\b/gi,
+  // `\d\+` = an "N+" count (`3,500+`), added for The Arts (plan plainarts).
+  BOUND: /\d\+(?!\d)|\bup to\b|\bat least\b|\bat most\b|\bno more than\b|\bexceed\b|\b(?:award|aid|grant|\d+%)[- ]ceiling\b|\bceiling (?:of|on) (?:aid|awards?|grants?|tuition|\$|\d)|\bcap\b|\bor higher\b|\bor more\b/gi,
   DERIVED: /\bcomput\w*|\bderiv\w*|\bcalculat\w*|\barithmetic\b|\bwork(?:s|ed|ing)? (?:it |one |them )?out\b/gi,
   THIRDPARTY: /\bthird[- ]party\b|\bsecondary sources?\b|\baggregators?\b|\bmirrors?\b|\barchived\b|\bWayback\b|\bretired\b|\boutside (?:\w+ )?(?:groups?|sources?|seals?|organizations?|listings?|websites?|sites?)\b/gi,
   // "mean" only before a score or award word; elsewhere it is almost always the verb.
   AVERAGE: /\baverage\b|\bmean (?:SAT|ACT|GPA|awards?|grants?|scores?)\b/gi,
   MEDIAN: /\bmedian\b|\bmiddle (?:student|value|figure|award)\b/gi,
   TYPICAL: /\btypical(?:ly)?\b/gi,
+  // The Arts classes (plan plainarts, --arts-markers): recognition tiers, how a student
+  // gets in, the school's claim vs what an outside source confirmed, what our search did
+  // not find, and theatre/theater as written (usspelling decision, 2026-11-09).
+  WIN: /\bwins?\b|\bwon\b|\bwinners?\b|\bwinning\b/gi,
+  NOMINEE: /\bnominat\w*|\bnominees?\b|\bnoms\b|\bnods?\b/gi,
+  FINALIST: /\bfinalists?\b/gi,
+  // Masked before AUDITION is counted, as OPTIONAL is masked before REQUIRED.
+  OPEN: /\bno audition\b|\bnon-?auditioned\b|\bopen to (?:all|any)\b|\bany level\b|\ball levels\b/gi,
+  AUDITION: /\baudition\w*|\bselective\b|\bselect (?:company|ensemble|plays?)\b/gi,
+  // Neutral attribution ("the school says") is left out: re-attributing a detached school
+  // statement is an approved ruling (plainadmissions Batch 4), and it hit 3 approved units.
+  CLAIM: /\bclaims?\b|\bclaimed\b|\bschool-reported\b|\bself-reported\b|\bin the school[’']s (?:own )?words\b|\bthe school[’']s own (?:word|framing|claim)\b/gi,
+  VERIFIED: /\bverified\b|\bverifiable\b|\bconfirmed\b|\bindependently\b|\battested\b|\bcorroborated\b|\bcross-checked\b/gi,
+  NOTFOUND: /\b(?:could not|couldn[’']t|cannot) be (?:found|located|confirmed|verified)\b|\bnot (?:found|located)\b|\b(?:was|were) (?:not )?found\b|\bno [^.;]{0,80}\b(?:could be|was|were) (?:found|located)\b/gi,
+  THEATRE: /\btheatres?\b/gi,
+  THEATER: /\btheaters?\b/gi,
 }
 /** The financial-aid classes run only with --aid-markers (plan plainaid): in other areas
  *  "covers", "leaves out", "average" and "worked out" describe tables and methods, not
  *  costs, so they would fail approved rewrites there (College Support calibration:
  *  25 such hits, none a slip). */
 const AID_CLASSES = new Set(['NEED', 'MERIT', 'DISCOUNT', 'REMISSION', 'LOAN', 'NOTCOVERED', 'COVERED', 'ESTIMATE', 'BOUND', 'DERIVED', 'THIRDPARTY', 'AVERAGE', 'MEDIAN', 'TYPICAL'])
+/** The Arts classes run only with --arts-markers (plan plainarts). ESTIMATE and BOUND
+ *  are shared with the aid set and run under either flag. */
+const ARTS_CLASSES = new Set(['WIN', 'NOMINEE', 'FINALIST', 'OPEN', 'AUDITION', 'CLAIM', 'VERIFIED', 'NOTFOUND', 'THEATRE', 'THEATER'])
+const SHARED_CLASSES = new Set(['ESTIMATE', 'BOUND'])
 const markerCounts = (s) => {
   const t = s.replace(/\*\*/g, '').replace(/\s+/g, ' ')
   const out = {}
   for (const [k, re] of Object.entries(MARKERS)) {
-    if (AID_CLASSES.has(k) && !aidMarkers) continue
-    const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : k === 'COVERED' ? t.replace(MARKERS.NOTCOVERED, ' ') : t
+    if (SHARED_CLASSES.has(k)) { if (!aidMarkers && !artsMarkers) continue }
+    else if (AID_CLASSES.has(k) && !aidMarkers) continue
+    if (ARTS_CLASSES.has(k) && !artsMarkers) continue
+    const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : k === 'COVERED' ? t.replace(MARKERS.NOTCOVERED, ' ') : k === 'AUDITION' ? t.replace(MARKERS.OPEN, ' ') : t
     out[k] = (src.match(re) ?? []).length
   }
   return out
 }
+/* Guard (n), --arts-markers: counts written as words, and "N+" figures. Guard (b) sees
+ * digit runs only, so "five finalists" → "four finalists" and `3,500+` → `3,500` pass it.
+ * "one" and "first" are left out: a split adds them freely. "third-party" is not a count
+ * (College Support calibration: Latin and Carmel "third-party validations"). */
+const COUNTWORD_RE = /\b(?:two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|dozen|twice|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth)\b(?![- ]part)/gi
+const PLUS_RE = /\d+(?:,\d{3})*\+(?!\d)/g
+const countTokens = (s) => [...(s.match(COUNTWORD_RE) ?? []).map((w) => w.toLowerCase()), ...(s.match(PLUS_RE) ?? [])]
 const dateTokens = (s) => (s.replace(/\*\*/g, '').match(DATE_RE) ?? []).map((m) => m.replace(/\s+/g, ' ').trim())
 
 /* -------------------------------------------------------------- args -- */
@@ -193,6 +232,8 @@ const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)
 const matchRe = opt('--match', null) ? new RegExp(opt('--match')) : null
 const aidMarkers = argv.includes('--aid-markers')
+const artsMarkers = argv.includes('--arts-markers')
+const noMd = argv.includes('--no-md')
 const pathsRe = opt('--paths', null) ? new RegExp(opt('--paths')) : null
 const mdPathsRe = opt('--md-paths', null) ? new RegExp(opt('--md-paths')) : null
 const inPaths = (p) => !pathsRe || pathsRe.test(p)
@@ -202,7 +243,7 @@ const allSlugs = accessor ? accessor.slugs : readdirSync(join(ROOT, dir)).filter
 const slugs = opt('--slugs', null) ? opt('--slugs').split(',').map((s) => s.trim()).filter(Boolean) : allSlugs
 for (const s of slugs) if (!allSlugs.includes(s)) { console.error(accessor ? `plain_review: ${topic} has no entry for ${s}` : `plain_review: no ${dir}/${s}.ts`); process.exit(2) }
 if (!outFile && !worklistFile && !flag('--check')) {
-  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re]')
+  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--no-md]')
   process.exit(2)
 }
 const cfg = loadConfig()
@@ -342,6 +383,11 @@ async function main() {
         if (dd) failures.push(`(g) ${at}: date/time tokens differ ${dd}`)
         const dm = diffList(moneyTokens(b), moneyTokens(a))
         if (dm) failures.push(`(m) ${at}: money/percent/year tokens differ ${dm}`)
+        if (artsMarkers) {
+          const dn = diffList(countTokens(b), countTokens(a))
+          if (dn) failures.push(`(n) ${at}: count words differ ${dn}`)
+        }
+        if (noMd && a.includes('*')) failures.push(`(o) ${at}: "*" in a field that renders no markdown`)
         const mb = markerCounts(b), ma = markerCounts(a)
         const markerNotes = []
         for (const k of Object.keys(mb)) {
