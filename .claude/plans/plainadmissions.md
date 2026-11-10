@@ -1,7 +1,7 @@
 ---
 name: plainadmissions
 title: Plain-language rewrite of the Admissions area's English prose (8 schools, 131 unit sites / 123 distinct texts once the checker reads `·` lists as lists), English in five reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 5                     # Phase 1 is built in five batches, each with its own review stop
 created: 2026-11-09
@@ -376,8 +376,8 @@ shipped*) only after Batch 5.
 | 1 | `9d63eba0` | [review-batch1.md](plainadmissions-data/review-batch1.md) | 2 (both fixed: Trinity referents) | approved 2026-11-09, no rulings |
 | 2 | `b76a2497` | [review-batch2.md](plainadmissions-data/review-batch2.md) | 6 (all fixed: 2 strengthened "firm deadline", 3 referents, 1 renamed document) | approved 2026-11-09, no rulings |
 | 3 | `7e11ffbc` | [review-batch3.md](plainadmissions-data/review-batch3.md) | 2 (both fixed: "developmental readiness" restored, band 0 release sentence aligned) | approved 2026-11-09, no rulings |
-| 4 | (this commit) | [review-batch4.md](plainadmissions-data/review-batch4.md) | 5 (all fixed: 2 school statements turned into our claims, incl. the 4-site interview group; 1 referent; 1 weakened requirement; 1 who-arranges) | awaiting review |
-| 5 | | | | |
+| 4 | `a766043b` | [review-batch4.md](plainadmissions-data/review-batch4.md) | 5 (all fixed: 2 school statements turned into our claims, incl. the 4-site interview group; 1 referent; 1 weakened requirement; 1 who-arranges) | approved 2026-11-10, no rulings |
+| 5 | (this commit) | [review-batch5.md](plainadmissions-data/review-batch5.md) | 2 (both fixed: 2 referents after a split, "This" and "it") | awaiting review |
 
 ### Style rulings
 
@@ -413,6 +413,9 @@ shipped*) only after Batch 5.
 - **Batch 3 (approved 2026-11-09): no rulings.** Placeholder unfilled again. Batch 3's choices
   stand: a school's assessment term ("developmental readiness") is kept, not paraphrased; a
   `·` item holding two facts may be split into two items in place.
+- **Batch 4 (approved 2026-11-10): no rulings.** Placeholder unfilled again. Batch 4's choices
+  stand: a school's own description that a split detaches is re-attributed ("The school says
+  …"), never left as our claim; a requirement word ("needs") is never softened to "includes".
 
 ### plain-ok register
 
@@ -844,6 +847,7 @@ Still open, with a default:
 
 | File | Path | After-grade | Reason |
 |---|---|--:|---|
+| — | — | — | **None.** Every rewritten unit across all five batches is at grade ≤10. The expected residuals (HG's four staff names in `contacts.address`, runs of test names) all came in under target. |
 
 ## Implementation notes
 
@@ -1119,6 +1123,56 @@ Running total for Phase 2: **107**. `check:plain` now shows admissions Flagged *
 `/admissions-checklist/?band=` pages were loaded. All 30 rewritten units render, every bold
 span is inside a `<strong>`, and no page shows a literal `**`. At 390px, with each band
 open, the max `scrollWidth` is 375.
+
+### Batch 5 (2026-11-10)
+
+**Resume.** Batch 4 was approved with no rulings (placeholder unfilled again; recorded under
+"Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 16 paths / 16 distinct, 1,218 before-words
+(`--paths '^guide\.(?!bands\[[0-3]\])'`).
+
+**Drafts were measured first.** Five were above target on the first pass, and all were
+simplified before applying: `bands[4].steps[1]`, `steps[5]`, the international callout,
+`checklistRows[1]` and the `·` cell. Guard (b) then caught one added digit: an I-20 gloss
+that read "F-1 visa". It now reads "(the form a student needs to apply for a student visa)",
+fixed with Edit.
+
+Choices worth knowing for review:
+- Two glosses were added on first use: I-20 and "homestay (living with a host family)".
+- The headline uses Covenant's split: "… for that band. You also get a printable checklist …".
+- `spineNote`'s 8-step chain is split "First: … Next: … Last: …" (3 + 3 + 2).
+- `contacts.address`: "p.m. Mail is addressed separately" did not split (the checker protects
+  `p.m.`), so the mailing address moved into the ` · ` list as "mail to …", matching the
+  sibling `contactPanel` line.
+- `comparison.rows[8]`: the application and its fee became two items, in place (Batch 3
+  precedent). "capacity-dependent" became "depends on space in the grade", matching
+  Batch 4. "scheduled" became "set up".
+
+**Measure.** Every HG file and all eight admissions files report `clean`. The review
+generator, with every guard on (`--allow` worklists 1–5), exits 0: 16/16 `hook: pass`,
+after-grade >10: 0. There are no residual rows in any batch.
+
+**Independent review: 2 findings, both fixed.** Both were referents after a split:
+- "This is the sharpest difference" followed the financial-hold sentence. It is now
+  "Paying in full before enrollment is the sharpest difference …".
+- "You can reach it at" read as health insurance. It is now "You can reach American Benefit
+  Services at …".
+
+See the review file.
+
+**Step 6 checks.** `npx tsc -b`, `npx vite build` and the eight later checks are green.
+`check:live` reports **123 stale stamps per locale, all `admissions`** (107 + 16). That
+matches the plan's ≈123, and it is Phase 2's input.
+
+**Phase 1 close-out.** `npm run check:plain`: admissions shows Prose units 1341, Flagged
+**0**, Sentence >30 **0**, Grade >10 **0**, Grade >12 **0**. The baselines were 89 / 118
+after the `·` change. Grade >10 equals the residual count (0).
+
+**Step 7 browser check.** All 5 HG bands were clicked and every `<details>` opened, and all 5
+`/admissions-checklist/?band=` pages were loaded. All 16 rewritten units render, every bold
+span is inside a `<strong>`, and no page shows a literal `**`. At 390px the `scrollWidth`
+is 390, so there is no horizontal scroll.
 
 ### Candidates noticed, not acted on
 
