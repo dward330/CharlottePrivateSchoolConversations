@@ -1,11 +1,11 @@
 ---
 name: usspelling
 title: American spelling for parent-facing English — fix the corpus, carry every translation over by re-stamp, gate it in the build
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-09
 branch: feat/usspelling
-prs: []
+prs: [468]
 ---
 
 # American spelling for parent-facing English
@@ -579,3 +579,20 @@ After the re-stamp (Step 13):
 - **`Zoo Camp — cancelled`** (a non-prose camp-name field that renders English in every
   locale). — **default:** leave it. Listed in review section (d) as a possible
   follow-up.
+
+## Implementation notes
+
+Shipped in [#468](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/468), 2026-11-09. The user approved the review file and both defaults at the review stop: the exceptions are kept as listed, and `--fix-embedded` is used.
+
+Deviations from the plan, and numbers that differ from it:
+
+- **Fixer acceptance rule (Step 8).** The plan applied an occurrence only if *exactly one* field changed. The fixer accepts *one or more* prose fields, each changed by exactly one unmasked hit, because one shared source string could feed several schools. In practice every applied occurrence changed a single field.
+- **No all-at-once optimization.** The fixer tries one occurrence at a time. The whole repo runs in about 2 s, so batching was not needed.
+- **Counts.** 274 words changed in 250 prose fields across 48 `src/data` files plus `en.json`, with 5 kept. The plan estimated 276 occurrences in 252 units, about 271 changed. The 3 extra are `counsellor` ×2 and `counsellors` ×1 (Trinity Episcopal High School Placement), which the Step 2 map added. Reconciled in review section (a).
+- **Splice.** The result was 235 added / 237 dropped in every locale, against an estimate of 239 / 241. 238 distinct English strings changed: one is the `en.json` chrome string, which has no overlay, so 237 dropped, and the 2 planned merges leave 235 added.
+- **Embedded fixes.** 24 across 7 locales (bn 3, ht 1, te 9, fa 1, it 2, hi 7, ar 1), against about 22 estimated. The `counsellor` forms account for the difference.
+- **Merges.** A merged string keeps an existing stamp, so `i18n_restamp.mjs` checks it separately. Each path it gains must come from a predecessor that is spelling-only away and holds the same `t`. Both planned merges passed.
+- **`i18n_restamp.mjs` is idempotent.** A re-run after the write checks that each re-stamped `t` reproduces exactly, so the verification `--dry-run` reports 0 failures.
+- **Extra file: `src/data/artsMatrix.ts`.** Two `check:matrices` evidence fragments (`fibre art`) must match Cannon's arts text exactly. They now read `fiber art`; the build failed until they did.
+- **`check:digits`** reported 29 to review, against 0 expected. All are deliberate wordings that already shipped, e.g. `8-week` written as a number word. They show up only because their stamps are new since `main`. Each `t` is byte-identical to `main` and the English digits are unchanged.
+- **Browser check follow-up.** Gaston Day's financial-aid page still renders `State programme` from a verbatim table in `src/content/financial-aid-tuition/gaston-day.json`, which the extractor skips. The plan's "0 in live content" was true of the extracted blocks only. The fix belongs in the source-material file plus `ingest-source-material`, outside this plan; it is recorded in review section (d).
