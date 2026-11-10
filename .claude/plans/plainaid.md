@@ -1,12 +1,12 @@
 ---
 name: plainaid
 title: Plain-language rewrite of the Financial Aid report's English prose (13 schools, 85 sites / 85 distinct texts in src/data/financialAidReports.ts), English in four reviewed batches, then all nine prose locales; the financial-aid-tuition content blocks are left for a later plan
-status: english-done
+status: implemented
 phases: 2
 batches: 4                     # Phase 1 is built in four batches, each with its own review stop
 created: 2026-11-10
 branch: feat/plainaid
-prs: []
+prs: [471]
 ---
 
 # Plain-language rewrite — Financial Aid
