@@ -1184,20 +1184,16 @@ Checks after the fixes: `check_plain_language.mjs --file` clean; `tsc -b`, `vite
 
 *Seeded at planning time. `/implement` adds to this list.*
 
-- **charlotte-catholic `sections[4].note` ships literal `**`.** `sections[].note` renders raw (`fa-section-note`), so "These are **North Carolina state** programs…" shows two pairs of asterisks in every locale. The defect predates this plan (identical on `main`) and the field is off the worklist. The fix is to drop the `**`, or render the note through `RichText`.
+- ~~**charlotte-catholic `sections[4].note` ships literal `**`.**~~ **Fixed**: `sections[].note` now renders through `RichText`, so the bold shows in every locale.
 - ~~**gaston-day `timeline` says "not FACTS or SSS, the platform most of this roster uses".**~~ **Fixed** at the user's request (Follow-up fixes).
 
 - ~~**charlotte-christian `sections[5].boxes[1].body`: "Section 4 is the weak point, at 62%".**~~ **Fixed** at the user's request: 62% was the source PDF's score for its own section 4 (Follow-up fixes).
 
-- **8 report notes never render** (Batch 1 notes): `figureNote`/`figureNote2` in a stats-only section have no render site in `FinancialAidReport.tsx`. Those include Gaston's 26%-vs-45% explanation and Prep's FY series. Fixing it is a component change (render the notes under a stats-only strip), so it needs the user's call.
+- ~~**8 report notes never render**~~ **Fixed** (fix/aidrender, after #471, at the user's request): a stats-only section now renders `figureNote` / `figureNote2` as `.fa-note` under its stat strip. All 8 render in en/es/fa/hi; their text and translations were already shipped, so no new strings.
 - **Checker quirk:** a sentence ending in a closing quote before the period (`…in chart below". It`) is not split. The strip step turns the quote into `Q`, and the initials rule reads `Q.` as an initial. Harmless once reworded (Trinity componentsNote), but a unit ending that way measures as one long sentence. The plan does not change the checker.
 
-- **The financial-aid-tuition content blocks** (6 flagged; Context). Recommended as a
-  later plan, `plaintuition`. A browser check should first confirm which of the six
-  render. Four look hidden by the provenance filters in `src/lib/prose.ts`.
-- **cannon `sections[3].boxes[1].body`** contains a single-asterisk italic off the
-  worklist. `RichText` renders it as literal asterisks. It is a one-unit render fix that
-  needs its own translation pass.
+- **The financial-aid-tuition content blocks** (6 flagged; Context). **Verified in a browser after #471:** 4 are hidden by the provenance filters (Cannon ×2, Covenant, DD's Wayback list), as predicted. 2 render: charlotte-prep "Tuition History" (grade 10.4) and davidson-day "Year-over-year increases…" (10.1). Neither is hook-flagged. DD's block ("These percentages are derived arithmetic … clearly labeled as such") is research bookkeeping visible to parents. Still recommended as its own small plan, because it needs a source-material edit, a re-ingest and a content-overlay translation.
+- ~~**cannon `sections[3].boxes[1].body`** single-asterisk italic~~ **Fixed**: `RichText` now renders a `*word*` pair as `<em>`. That covers the English and the six locales whose translations carried it (bn, fr, fa, it, hi, ar); ht/te had already made it `**bold**`, and es dropped it. The pattern cannot match a footnote mark after a figure (`$22,605*`), and Trinity's marks are verified to stay as content.
 - **`bullets[]` render raw**, without `localizeMoneyText()` (`FinancialAidReport.tsx`
   `Boxes`). No bullet holds a `$<digit>` today (checked), so nothing renders wrong. A
   future bullet with money would show the English form in every locale.
