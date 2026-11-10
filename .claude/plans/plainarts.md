@@ -1,7 +1,7 @@
 ---
 name: plainarts
 title: Plain-language rewrite of The Arts area's English prose (13 schools, 132 sites / 132 distinct texts in src/data/artsPrograms/), English in five reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 5                     # Phase 1 is built in five batches, each with its own review stop
 created: 2026-11-10
@@ -465,7 +465,7 @@ shipped*) only after Batch 5.
 | 2 | `54da2493` | [review-batch2.md](plainarts-data/review-batch2.md) | 12 (all fixed: 4 referents, 3 restored unit-note keeps, 2 strengthened claims ("led to", "keeps producing"), 1 weakened figure ("high" for 100%), 1 wrong gloss (proscenium), 1 tense) | approved 2026-11-10, no rulings |
 | 3 | `581246f3` | [review-batch3.md](plainarts-data/review-batch3.md) | 13 (all fixed: 5 referents, 1 widened entry rule (three productions → Theater in Performance only), 1 weakened verb ("asked" for "assigned"), 1 narrowed scope, 1 wrong "who shares", 1 wrong "scheduled", 3 wording) | approved 2026-11-10, no rulings |
 | 4 | `fba99594` | [review-batch4.md](plainarts-data/review-batch4.md) | 12 (all fixed: 7 referents incl. the shared Ghana sentence at both sites, 3 "outside" read as outside Charlotte / outdoor, 1 dropped "such as", 1 fragment) | approved 2026-11-10, no rulings |
-| 5 | | | | |
+| 5 | `ab7cd636` | [review-batch5.md](plainarts-data/review-batch5.md) | 14 (all fixed: 6 referents, 1 not-named → does-not-exist, 1 overstated "built into classes", 1 paraphrased school term restored, 1 weakened contest recognition, 1 appositive, 1 list item merged, 1 "outside school", 1 "count") | |
 
 ### Unit notes (things the drafter must not get wrong)
 
@@ -1104,7 +1104,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| — | — | Batches 1–4: none. All 102 units are at grade ≤10. |
+| — | — | **None.** All 132 rewritten units are at grade ≤10 (highest 9.9). |
 
 ## Implementation notes
 
@@ -1263,6 +1263,50 @@ The reviewer also reported three before-text issues, left unchanged:
 - **28/28** rewritten units render, with 0 asterisks on either school.
 - At 390px, DD with every card open has `scrollWidth` 390.
 
+### Batch 5 (2026-11-10)
+
+**Resume.** Batch 4 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"). `main` had not moved.
+
+**Worklist** matched the plan: 30 units (charlotte-christian 13, hickory-grove-christian 7, gaston-day 10).
+
+**Build.** All 30 drafts were measured and cite-checked.
+
+Six HG/Gaston units needed a second pass. Hickory Grove's festival sentence is one of them. The plan wanted it byte-identical with the off-worklist `music.ladder[1]`, but it could not reach the target that way: whole, it measured grade 12.0, which the hook flags. It was split in two with every fact and its order kept, and "adjudicated festivals (where judges rate each group)" was glossed. That is a deviation from the near-repeat table, recorded here.
+
+Two guard catches came before the review:
+- **Gaston "won praise".** It added WIN, so it became "earned praise".
+- **HG `visual.footnote` UNPUBLISHED "added" (0→1). This exposes a matcher gap.** The before-text's not-published sentence runs longer than the `no … is published` span of 12 words. So the guard never saw it as a not-published claim, and any shorter form read as a new one. The unit now says "None of these is published: …", the same claim. It was made with Edit.
+
+**Independent review: 14 findings, all fixed** (see the review file). The reviewer also reported three before-text fact problems:
+- **Charlotte Christian says there is no AP Music Theory, but the course catalog data and the Compare page say there is.**
+- HG's "repeat producer of nominated performers" counts Young, who was a finalist in 2025.
+- Gaston's Thespian Society claim rests only on the student-clubs research.
+
+**Step 6 checks.** All green:
+- `npx tsc -b` and `npx vite build`;
+- `check:schema`, `check:spelling`, `check:matrices`, `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+
+`check:live` reports **132 stale stamps per locale, all `the-arts`** (28 + 24 + 22 + 28 + 30). That is Phase 2's input.
+
+**Step 7 browser check:**
+- **30/30** rewritten units render.
+- Christian and Gaston show 0 asterisks.
+- HG shows 2, from the off-worklist division item "the *Exodus* yearbook", which is the same on `main` (Candidates).
+- At 390px, Christian with every card open has `scrollWidth` 390.
+
+### Phase 1 close-out (2026-11-10)
+
+- `plain_review.mjs --dir src/data/artsPrograms` over **all 13 schools**, with all five worklists and every arts guard, exits 0.
+- Every arts file is hook-clean. The baseline was 171 issues on 107 units.
+- `npm run check:plain`: **the-arts Flagged 0** (baseline 107), Sentence >30 **0**, Grade >10 **0** (baseline 122), Grade >12 **0**. Every other area is unchanged: sports 79, student-clubs 103, admissions 0, college-support 0.
+- **Rewritten:** 132 units across 13 files. Independent reviewers found and fixed 10 + 12 + 13 + 12 + 14 = **61** problems.
+- **Content changes beyond wording:**
+  - the eighth-grade student's name is gone (default);
+  - Carmel's "TO VERIFY" is gone (Decision);
+  - "storeys" and "clarinettist" are now American spellings;
+  - two stray single-asterisk italics are gone.
+- `plain-ok` markers added: none.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1303,6 +1347,26 @@ The reviewer also reported three before-text issues, left unchanged:
     Grade Shakespeare Review, so the conflict it asks about is overstated;
   - trinity-episcopal `ladder.enrichment[0]`'s "20 to 70 minutes each" does not cover the
     10:48 Spring Arts Fest 2020 Fiddler selections (arguably not a full play).
+- **Before-text fact problems found at Batch 5**, unchanged and **flagged for the user**:
+  - **charlotte-christian AP Music Theory conflict.** `music.boardNote` and off-worklist
+    `verdict.ask[8]` say there is no AP Music Theory. `src/data/courseOfferings.ts` lists
+    "Advanced Placement Music Theory" (US Course Curriculum Guide '26–27), and
+    `ARTS_MATRIX['charlotte-christian'].musicTheory.US` cites it, so Compare shows Yes. The
+    Arts card and Compare disagree. Recommended next fix.
+  - hickory-grove-christian "a repeat producer of nominated performers" (`theatre.
+    honestContext`, `holdsUp[0]`): Young was a 2025 finalist and a 2026 nominee, so only
+    Aghedo was nominated in both years.
+  - gaston-day `theatre.honestContext` says the school chartered the International Thespian
+    Society, while off-worklist `verdict.ask[6]` asks whether a troupe exists. The only
+    source is the student-clubs research file.
+- **Hickory Grove ships a literal single-asterisk italic** in off-worklist
+  `ladder.divisions[…].items[…]`: "the *Exodus* yearbook". It is the same on `main`, and it
+  renders as asterisks because the arts fields render no markdown. Fix: drop the asterisks
+  (a one-line data edit and its nine translations), alongside Catholic's `**`.
+- **Guard (h)'s UNPUBLISHED long-span pattern stops at 12 words**, so a not-published
+  sentence with a long noun list is invisible to it. It was hit twice (Cannon Batch 3,
+  HG Batch 5). Widening it would change the earlier areas' calibration, so it is left
+  as is.
 - **Research bookkeeping in a non-prose field.** carmel-christian `theatre.ledger[2].year` is
   `'~2022-23 (year to verify)'`. `year` is not prose, so it is untranslated and off every
   worklist, and the "(year to verify)" renders to parents in every locale.
