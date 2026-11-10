@@ -549,8 +549,8 @@ shipped*) only after Batch 3.
 
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 | "plainclubs: batch 1 English" | [review-batch1.md](plainclubs-data/review-batch1.md) | 3 (all fixed: 1 narrowed scope after a split ("all … under a staffed DEI office"), 1 "one student" for an individual award, 1 "each mentored by a faculty member" for "faculty-mentored"), plus 2 reviewer notes acted on ("Academics pause" restored; Prep's concert back inside October 2024) | |
-| 2 | | | | |
+| 1 | "plainclubs: batch 1 English" | [review-batch1.md](plainclubs-data/review-batch1.md) | 3 (all fixed: 1 narrowed scope after a split ("all … under a staffed DEI office"), 1 "one student" for an individual award, 1 "each mentored by a faculty member" for "faculty-mentored"), plus 2 reviewer notes acted on ("Academics pause" restored; Prep's concert back inside October 2024) | approved 2026-11-10, no rulings |
+| 2 | "plainclubs: batch 2 English" | [review-batch2.md](plainclubs-data/review-batch2.md) | 3 (all fixed: "largest groups" → the unit note's "largest blocks", an over-claiming practicum gloss, "includes" turning a full list into a sample) | |
 | 3 | | | | |
 
 ### Unit notes (things the drafter must not get wrong)
@@ -808,6 +808,28 @@ precedent: the user approved every batch of all four plans with no rulings beyon
 command arrives with the `<, with these rulings: …>` placeholder unfilled, read it as
 "approved, no rulings", as all four earlier plans did, and record that batch's choices
 here as precedent.
+
+- **Batch 1 (approved 2026-11-10): no rulings.** The resume command arrived with the
+  `<, with these rulings: …>` placeholder unfilled, read as "approved, no rulings". So the
+  defaults stand:
+  - the student name is removed at all three sites, including the `metricValues.ts` tip,
+    which is now split into two sentences;
+  - Charlotte Christian's prefect roles stay a `·` list.
+
+  Batch 1's choices stand as precedent:
+  - **No count word added.** A split that lists named items says "The roles are …", never
+    "The nine roles …" (guard (n)).
+  - **A split keeps a claim's scope.** "all under a staffed DEI office" becomes its own
+    sentence naming what it covers ("All of them sit under …"), and an "In October 2024"
+    frame keeps every event it covered.
+  - **An individual award stays individual.** It is "an award for a student’s own logged
+    hours", never "one student".
+  - **A mentoring claim keeps its form.** "faculty-mentored" becomes "mentored by faculty",
+    not "each mentored by a faculty member".
+  - **A not-published verb keeps its exact class.** "aren’t published consistently" stays
+    "aren’t published"; "does not publish" would add UNPUBLISHED.
+  - **Name removals use the role.** A removed student becomes "a courtroom artist on that
+    team".
 
 ### plain-ok register
 
@@ -1358,7 +1380,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| — | — | **None after Batch 1.** All 33 changed units are at grade ≤10 (highest 9.9). |
+| — | — | **None after Batch 2.** All 68 changed units are at grade ≤10. |
 
 ## Implementation notes
 
@@ -1490,6 +1512,54 @@ details open inside `#topic-student-clubs`):
 `plain_language.json`, not added): apiece, liaison, prorated, curricular, initiative,
 operation (for a program), brokered.
 
+### Batch 2 (2026-11-10)
+
+**Resume.** Batch 1 was approved with no rulings (placeholder unfilled; recorded under
+"Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 35 units (charlotte-catholic 19, cannon 9, davidson-day 7).
+
+**Build.**
+- **Drafts:** all 35 were measured with the real `analyze` before applying. Ten needed a
+  second pass to reach grade ≤10: Catholic `affinity.leadership`, `service.footnote`,
+  `honors.adjacent[3]` and `clusters.rows[4]`; Cannon `service.programs[2]`,
+  `service.footnote` and `catalog.divisions[1]`; DD `service.programs[0]` and `[1]`, and
+  `clusters.rows[1]`.
+- **Apply:** two `clubClusters.ts` strings write the apostrophe as the escape `\u2019`,
+  so the exact-match apply refused them at first. The scratch apply script now also
+  matches that form and keeps it in the replacement.
+- **Deviation from the plan's "cohort" wording.** "begun with its first group of 9th
+  graders" would add a FIRST marker. Shipped: "begun in 2025-26 with a group of 9th
+  graders".
+- **A guard catch before the review.** The DD practicum gloss "(a hands-on placement)",
+  planned in Vocabulary, adds a RESULT word ("placement"). The plan's own gloss rule
+  forbids that. The reviewer settled it as "(a hands-on learning experience)".
+- **Catholic's six verbatim purposes** shipped as planned ("<purpose>. Advisor: <name>,
+  <room>." and, for the two truncated with "…", the advisor first). Mel's Diner and
+  Lacrosse now use double-quote delimiters, because their straight apostrophes are part of
+  the school's text.
+
+**Independent review: 3 findings, all fixed** (see the review file). It also raised four
+before-text issues, added to Candidates.
+
+**Step 6 checks.** All green:
+- `npx tsc -b` and `npx vite build`;
+- `check:schema`, `check:spelling`, `check:matrices`, `check:schoolurls`, `check:chrome`,
+  `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+
+`check:live` (`--lang es --verbose`) reports **68 `student-clubs` + 1 `metric-values`**
+stale stamps per locale (33 + 35, plus the Batch 1 tip). That is Phase 2's running input.
+
+**Remaining hook issues.** Across all 15 files, 48 units still carry issues. Every one is
+a hidden flag or a Batch 3 school. Charlotte Catholic's file is clean.
+
+**Step 7 browser check** (headed Chrome, `vite preview`, `?lang=en`, every clubs card and
+cluster row open):
+- **Rendering:** **35/35** render; 0 asterisks in any of the three sections; each school's
+  not-a-club chip still shows.
+- **The removed name:** still absent from Covenant's page and the Compare tip.
+- **Phone width:** at 390px, Charlotte Catholic with every card open has `scrollWidth` 390.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1515,6 +1585,14 @@ operation (for a program), brokered.
   `metricValues.ts` hook's `check:quals` reports it as a coded cell with no `quals`
   entry. It was left by #478 (thespianname), predates this plan, and is outside its
   scope. (Batch 1)
+- **Charlotte Catholic's "largest blocks" claim.** The directory's own category strip
+  (Education 16 · Service 23 · Community 9 · Culture 4 · Sports 15 · General Interest 9)
+  has no faith-formation category. So "faith-formation and service clubs are the largest
+  blocks" (`affinity.umbrella.detail`) is not backed by those counts. (Batch 2 reviewer)
+- **Cannon's Winterm track count.** `service.programs[2].value` is '4' (tracks), but the
+  detail and the research file name only three. (Batch 2 reviewer)
+- **A misspelled club name.** The Charlotte Catholic catalog's `clubs[].name` reads
+  'Fellowship of Christian Atheletes' (non-prose). (Batch 2 reviewer)
 - **The thespianname census missed a student name.** It reported 63 strings, but missed
   Cornelia Knight at 3 rendered sites. A non-athlete name scan of the other non-sports
   areas' `src/data` and Compare quals may be worth one more pass (not in this plan).

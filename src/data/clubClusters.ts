@@ -275,7 +275,7 @@ const DAVIDSON_DAY: ClubClusters = {
       oneLiner: 'Middle School reading-quiz team — regional first place (documented)',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
-      note: 'A reading-comprehension quiz competition; Davidson Day’s Middle School team is documented taking first place in a regional competition against several area schools — the school’s clearest competitive result in this area.',
+      note: 'A reading quiz competition. Davidson Day’s Middle School team is documented taking first place in a regional competition against several area schools. That first place is the school’s clearest competitive result in this area.',
       source: 'Davidson Day School — Academic Recognition & Competition dossier',
     },
     {
@@ -283,7 +283,7 @@ const DAVIDSON_DAY: ClubClusters = {
       oneLiner: 'National Honor Society (28 in ’25), Global Studies Diploma, Acclaim Scholars',
       evidence: 'reported',
       evidenceLabel: 'School-reported',
-      note: 'A confirmed National Honor Society chapter (28 members, Class of 2025), a Global Studies Diploma recognizing research and international study, and the Acclaim Scholars merit program. Chapter specifics are not published publicly.',
+      note: 'Davidson Day has a confirmed National Honor Society chapter (28 members, Class of 2025). It also has a Global Studies Diploma that recognizes research and international study, and the Acclaim Scholars merit program. Chapter details are not published.',
       source: 'Davidson Day School — Academic Recognition & Competition dossier',
     },
     {
@@ -481,7 +481,7 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
       oneLiner: 'Robotics, Medical Pathways, Finance',
       evidence: 'reported',
       evidenceLabel: 'Named only',
-      note: 'Robotics exists to "promote STEAM in Charlotte Catholic and allow members to get hands-on experience" under Mr. Tucker in Room 517, but no competition circuit, team number or result is published for it. Medical Pathways and Finance are career-exploration clubs with guest speakers rather than competitive teams.',
+      note: 'Robotics exists to "promote STEAM in Charlotte Catholic and allow members to get hands-on experience" under Mr. Tucker in Room 517. But no competition circuit, team number or result is published for it. Medical Pathways and Finance are career-exploration clubs with guest speakers rather than competitive teams.',
       source: 'Clubs directory',
     },
     {
@@ -489,7 +489,7 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
       oneLiner: 'Model United Nations, Beacon of Truth, Apologetics, Young Authors, Good Reads',
       evidence: 'reported',
       evidenceLabel: 'Named only',
-      note: 'Model UN is the only conventionally competitive entry, and CCHS publishes no conference attendance or awards for it. The remainder are discussion and formation clubs — several explicitly framed through a Catholic lens, which is the distinguishing feature of this school\u2019s academic club slate.',
+      note: 'Model UN is the only entry that competes in the usual way, and CCHS publishes no conference attendance or awards for it. The rest are discussion and faith-formation clubs. Several are explicitly framed through a Catholic lens, which is what sets this school\u2019s academic clubs apart.',
       source: 'Clubs directory',
     },
     {
@@ -497,7 +497,7 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
       oneLiner: 'Newspaper, literary magazine, yearbook and podcast run as courses, not clubs',
       evidence: 'reported',
       evidenceLabel: 'Structural',
-      note: 'Journalism (234) students produce and publish the school newspaper in digital format and develop the school\u2019s literary magazine, with an option to produce a podcast; Yearbook (235) produces the yearbook. Both are year-long English electives requiring a B average and a teacher recommendation, so this activity is timetabled rather than extracurricular and appears in no club roster.',
+      note: 'Journalism (234) students produce and publish the school newspaper online. They also develop the school\u2019s literary magazine, and they can choose to produce a podcast. Yearbook (235) produces the yearbook. Both are year-long English electives requiring a B average and a teacher recommendation. So this work is scheduled as a class, not as an after-school activity, and appears in no club roster.',
       source: 'Curriculum Guide 2026-2027 (PDF)',
     },
   ],

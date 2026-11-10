@@ -61,7 +61,7 @@ export const cannon: ClubsProgram = {
       },
       {
         title: 'Middle & Lower School',
-        text: 'No affinity groups appear in either division. Middle School Student Life lists academic competition teams only — Battle of the Books, Elementary Battle of the Books, Science Olympiad, Model UN, Envirothon — plus Student Council.',
+        text: 'No affinity groups appear in either division. Middle School Student Life lists only academic competition teams, plus Student Council. The teams are Battle of the Books · Elementary Battle of the Books · Science Olympiad · Model UN · Envirothon.',
       },
       {
         title: 'Parents',
@@ -85,7 +85,7 @@ export const cannon: ClubsProgram = {
     headline:
       'Service is explicitly not a graduation requirement — and Upper Schoolers still log almost 10,000 hours a year.',
     subhead:
-      'The school frames this as evidence of commitment rather than compliance, and backs it with a universal senior capstone and a week-long experiential program.',
+      'The school frames this as evidence of commitment rather than compliance. It backs that up with a capstone project that every senior completes and a week-long hands-on program.',
     programs: [
       {
         value: '~10,000',
@@ -100,7 +100,7 @@ export const cannon: ClubsProgram = {
         valueLabel: 'seniors · every one completes it',
         name: 'Senior Capstone',
         detail:
-          'A service project letting every senior immerse in a philanthropic cause they care about, ending in a presentation to faculty, staff, peers and community members with time for reflection and questions. Listed among the school\'s Signature Learning Experiences.',
+          'A service project in which every senior works deeply on a charitable cause they care about. It ends in a presentation to faculty, staff, peers and community members, with time for reflection and questions. The school lists it among its Signature Learning Experiences.',
         source: { label: 'Upper School curriculum', url: CURRICULUM },
       },
       {
@@ -108,17 +108,17 @@ export const cannon: ClubsProgram = {
         valueLabel: 'experience tracks · one week each January',
         name: 'Winterm',
         detail:
-          'A week-long experiential program after winter break that "challenges students to think critically and practically, to serve others," across local-community, professional-skills and trips-and-certifications tracks. Service offerings include a Sea Island Habitat for Humanity trip and a food-bank week studying food insecurity.',
+          'A week-long hands-on program after winter break that "challenges students to think critically and practically, to serve others," in tracks for the local community, job skills, and trips and certifications. Service options include a Sea Island Habitat for Humanity trip. There is also a food-bank week on hunger in the community.',
         source: { label: 'Winterm', url: WINTERM },
       },
     ],
     footnoteTitle: 'In the Middle School',
     footnote:
-      'A grade-level service-learning model has students investigate topics, identify needs in teams and build action plans, with guest speakers from more than eight organizations including Special Olympics, the Society of St. Andrew Gleaning Network and the Cabarrus County Soil & Water Conservation District. Off-campus work runs to the Share the Harvest community garden, Salvation Army food drives and the Cabarrus County Bilingual Preschool.',
+      'Each grade follows a service-learning model (learning through service projects). Students research topics, find needs in teams and build action plans. Guest speakers come from more than eight organizations, including: Special Olympics · the Society of St. Andrew Gleaning Network · the Cabarrus County Soil & Water Conservation District. Off-campus work takes place at the Share the Harvest community garden, Salvation Army food drives and the Cabarrus County Bilingual Preschool.',
     flags: [
       {
         kind: 'not-a-club',
-        text: 'The Senior Capstone is an individual graduation-track project and Winterm is a curricular program — neither is a club. Because service is not required, the ~10,000 hours explicitly include individual efforts rather than club membership. The Habitat Club is the exception: it is the one named service club.',
+        text: 'The Senior Capstone is an individual project on the path to graduation, and Winterm is part of the curriculum. Neither is a club. Because service is not required, the ~10,000 hours explicitly include individual efforts rather than club membership. The Habitat Club is the exception: it is the one named service club.',
       },
       {
         kind: 'gap',
