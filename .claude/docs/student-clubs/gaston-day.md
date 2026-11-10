@@ -1,5 +1,5 @@
 # Gaston Day School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 2 source document(s) in `source-material/student-clubs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** Academic and Competitive Clubs, Club Catalog and Overview
 
 
@@ -175,6 +175,33 @@ School** level.
 **Club formation policy (S3):** students can **start a new club by securing a faculty
 sponsor** — so the roster is intentionally open-ended and any enumeration is a snapshot.
 
+## Update 2026-11-10 — school-named organizations only
+
+**Ruling (user, 2026-11-10):** Gaston Day's club list comes only from the school's own website or documents. The third-party roster above (PrivateSchoolReview, Niche) stays here as research. It no longer reaches the app (plan `thespianname`).
+
+**Fresh pass, 2026-11-10** (Claude Code; WebFetch and pdftotext on the school's own pages and PDFs):
+
+| Source | URL | Organizations it names |
+|---|---|---|
+| Upper School page | https://www.gastonday.org/upper-school/ | "From 3-D Printing Club to Green Team to International Council"; "the Upper School Student Government where they discuss relevant student issues and make recommendations for change on campus"; "If a club is not currently being offered on campus, students have the opportunity to start a new club by securing a faculty sponsor." The 25-hour service minimum; the President's Service Award (100+ hours). |
+| Academic Profile 2025-26 | https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf | Honor Code; "40 hours required for NHS Members"; Blutopia; the Sunship Earth and Peer Mentoring Program; the Capstone Project; Robotics: "Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023"; Yearbook and Speech & Debate as courses |
+| Academic Profile 2023-24 | https://www.gastonday.org/wp-content/uploads/2023/10/GDScollegeprofile2324.pdf | "Gaston Day research teams previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards." The Research Methods elective; the NKH Conference presentation |
+| Middle School page | https://www.gastonday.org/middle-school/ | the Spartan Strong Volunteer Service Award; "chorus, band, art, or drama"; LEAD sessions |
+| Arts page | https://www.gastonday.org/arts/ | the Drama department (two major shows a year); Actors' Conservatory Theatre. **No International Thespian Society troupe or honor society.** |
+| Fast Facts, Why Gaston Day, International, College Counseling | gastonday.org | no named clubs ("extensive co-curricular opportunities in athletics, clubs, leadership, and the visual and performing arts") |
+| Strategic plan | https://future.gastonday.org/strategic-plan/ | "Battle of the Blues", a school-wide cross-division competition, not a club |
+| issuu | https://issuu.com/gdsblutopia/docs/blutopia_2012 | Blutopia only |
+
+**Not found on any school source**, so removed from the app:
+- International Thespian Society, National Beta Club and Honor Council;
+- Science Olympiad, Public Debate Club, Mock Trial and Quiz Bowl;
+- the Upper School Literary and Arts Magazine (separate from Blutopia) and the Middle School Literary Magazine;
+- Interact, Junior Heart Board, International Club, Spanish Club, French Club and Classics Club;
+- Drama Club and Theatre Arts as clubs, Art Club, Chess Club, Spirit Club and FCA;
+- the iGEM years and projects (2012/2016/2018/2020, kudzu, isobutanol), which come only from the iGEM team wikis.
+
+**What the app now shows:** iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring (Sunship Earth), Green Team, International Council and National Honor Society. That is 10 organizations, and Compare `us-organizations` shows `≥10`, a floor.
+
 
 ---
 
@@ -184,9 +211,12 @@ sponsor** — so the roster is intentionally open-ended and any enumeration is a
 - https://2018.igem.org:443/Team:Gaston_Day_School/Attributions
 - https://2020.igem.org/Team:Gaston_Day_School
 - https://blog.igem.org/blog/2024/6/10/the-experimental-nature-of-high-school-igem-teams
+- https://future.gastonday.org/strategic-plan/
 - https://issuu.com/gdsblutopia/docs/blutopia_2012
+- https://www.gastonday.org/arts/
 - https://www.gastonday.org/middle-school/
 - https://www.gastonday.org/upper-school/
+- https://www.gastonday.org/wp-content/uploads/2023/10/GDScollegeprofile2324.pdf
 - https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf
 - https://www.niche.com/k12/gaston-day-school-gastonia-nc/
 - https://www.privateschoolreview.com/gaston-day-school-profile

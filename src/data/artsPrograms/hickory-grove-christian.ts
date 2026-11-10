@@ -35,7 +35,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is a run of Blumey Award nominations in 2025 and 2026.',
     stats: [
       { value: 'TK–12', label: 'arts program, integrated in the early grades' },
-      { value: '2026', label: 'Blumey nominee — Christian Young (The Little Mermaid)' },
+      { value: '2026', label: 'a Blumey nominee from The Little Mermaid' },
       { value: '3 / yr', label: 'theatre productions, plus a biennial spring musical' },
       { value: 'Tri-M', label: 'music + Thespian (ITS) theatre honor societies' },
     ],
@@ -115,17 +115,17 @@ export const hickoryGroveChristian: ArtsProgram = {
         year: '2026',
         show: "Disney's The Little Mermaid",
         result:
-          'Three nominees: Christian Young (Scuttle) for Best Supporting Actor, Gabby Coleman (Flounder) for Best Supporting Actress, and Amara Aghedo (Aquata) for Best Featured Performer. No win is published.',
+          'Three nominees: Best Supporting Actor (as Scuttle), Best Supporting Actress (as Flounder), and Best Featured Performer (as Aquata). No win is published.',
       },
       {
         year: '2025',
         show: 'Seussical',
         result:
-          'Amara Aghedo (Sour Kangaroo) was a Best Featured Performer nominee. The production also placed five finalists: Christian Young (Jojo, Best Actor) · Fallon Burns (Mayzie, Best Actress) · Michael McCray (Mr. Mayor, Best Supporting Actor) · Mackenzie Moore (Mrs. Mayor, Best Supporting Actress) · Aghedo again, among the Best Featured Performer finalists.',
+          'The student playing Sour Kangaroo was a Best Featured Performer nominee. The production also placed five finalists: Best Actor (as Jojo) · Best Actress (as Mayzie) · Best Supporting Actor (as Mr. Mayor) · Best Supporting Actress (as Mrs. Mayor) · the same Sour Kangaroo performer again, among the Best Featured Performer finalists.',
       },
     ],
     honestContext:
-      'Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of recognized performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
+      'Two performers each appear in both years. So the program is a repeat producer of recognized performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
     sources: [
       { label: 'hgchristian.org — Arts hub (production cadence)', url: ARTS },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
@@ -218,7 +218,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'Back-to-back Blumey recognition',
-        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Amara Aghedo and Christian Young each appear in both years. So the program is a repeat producer of recognized performers.',
+        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Two performers each appear in both years. So the program is a repeat producer of recognized performers.',
       },
       {
         label: 'A studio path that reaches AP',

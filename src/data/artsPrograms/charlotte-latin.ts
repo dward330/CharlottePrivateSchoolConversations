@@ -159,20 +159,20 @@ export const charlotteLatin: ArtsProgram = {
         year: '2025',
         show: 'The Drowsy Chaperone',
         result:
-          'Nominated: Best Student Stage Manager (Claire Addison) — a craft category rather than a performance one.',
+          'Nominated: Best Student Stage Manager — a craft category rather than a performance one.',
       },
       {
         year: '2022',
         show: 'Bright Star',
         result:
-          'Best Actress — Kate McCracken as Alice Murphy. Also won Best Featured Performer — Dominick Charles as Daryl. Two wins in one night.',
+          'Best Actress — a student playing Alice Murphy. Also won Best Featured Performer — a student playing Daryl. Two wins in one night.',
         win: true,
       },
       {
         year: '2012',
         show: 'Joseph and the Amazing Technicolor Dreamcoat',
         result:
-          'The inaugural Blumeys: nominated for Wells Fargo Best Musical and Best Actor (Will Branner as Joseph).',
+          'The inaugural Blumeys: nominated for Wells Fargo Best Musical and Best Actor (as Joseph).',
       },
     ],
     honestContext:
@@ -310,7 +310,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     footnote:
-      'Richard Fletcher chairs visual arts. Scholastic Art & Writing recognition found: Ella Hennessy ’28 took a GOLD KEY for "Strike" (photography), the top regional award, which advances to national judging · Hope Gottschling ’24 (fashion, "Silk Strength") · Anjali Rao ’27 (fashion, 2023) · Cary Mone (oil painting, 2023) · Madison Nabors ’25 (drawing, 2023). The Fab Lab is mentioned once, in connection with portfolio work. But it sits under Innovation & Design, not the arts department. No cross-disciplinary art course, project or equipment list is named, so the Fab Lab is not shown here as an arts facility. No other visual-arts faculty are named anywhere on the school’s pages, which refer only to "a team of dedicated and experienced art educators."',
+      'Richard Fletcher chairs visual arts. Scholastic Art & Writing recognition found: a student took a GOLD KEY for "Strike" (photography), the top regional award, which advances to national judging · a student (fashion, "Silk Strength") · another student (fashion, 2023) · another student (oil painting, 2023) · another student (drawing, 2023). The Fab Lab is mentioned once, in connection with portfolio work. But it sits under Innovation & Design, not the arts department. No cross-disciplinary art course, project or equipment list is named, so the Fab Lab is not shown here as an arts facility. No other visual-arts faculty are named anywhere on the school’s pages, which refer only to "a team of dedicated and experienced art educators."',
     sources: [
       { label: 'charlottelatin.org — Visual Arts', url: CL_VISUAL },
       { label: 'Upper School course offerings', url: CL_COURSES },
@@ -331,7 +331,7 @@ export const charlotteLatin: ArtsProgram = {
     holdsUp: [
       {
         label: 'A Blumey win in the marquee category',
-        text: 'Kate McCracken took Best Actress at the 2022 Blumeys for Bright Star, with Dominick Charles taking Best Featured Performer the same night. In a 59-school field, Best Actress is the most competitive individual honor available.',
+        text: 'a student took Best Actress at the 2022 Blumeys for Bright Star, with another student taking Best Featured Performer the same night. In a 59-school field, Best Actress is the most competitive individual honor available.',
       },
       {
         label: 'A genuinely articulated tech-theatre track',

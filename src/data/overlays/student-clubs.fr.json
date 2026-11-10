@@ -316,7 +316,6 @@
         "hickory-grove-christian:honors.societies[0].feedsFrom",
         "hickory-grove-christian:honors.societies[1].feedsFrom",
         "gaston-day:honors.societies[0].feedsFrom",
-        "gaston-day:honors.societies[1].feedsFrom",
         "trinity-episcopal:honors.societies[0].feedsFrom",
         "trinity-episcopal:honors.societies[1].feedsFrom",
         "charlotte-prep:honors.societies[0].feedsFrom"
@@ -364,8 +363,7 @@
         "charlotte-country-day:honors.societies[5].feedsFrom",
         "cannon:honors.societies[5].feedsFrom",
         "cannon:honors.societies[6].feedsFrom",
-        "cannon:honors.societies[7].feedsFrom",
-        "gaston-day:honors.societies[2].feedsFrom"
+        "cannon:honors.societies[7].feedsFrom"
       ]
     },
     {
@@ -1243,6 +1241,7 @@
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
         "hickory-grove-christian:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[0].tag",
         "gaston-day:catalog.divisions[1].tag",
         "charlotte-prep:catalog.divisions[0].tag"
       ]
@@ -1546,8 +1545,8 @@
       ]
     },
     {
-      "t": "Une véritable structure de niveau national, attestée de l’extérieur : le NSDA Debate Schools of Excellence Award (top 20 national), le statut de chapitre fondateur et l’adhésion au 200 Club en 2025. Le directeur Bilal Butt détient un second NSDA Diamond. Derniers Nationals : Chandra et Rao 5es (Public Forum), Berman et Willett 25es, Yang 33e (World Schools), Pan (’23) Academic All-American.",
-      "of": "50e32a6c",
+      "t": "Une véritable structure de niveau national, attestée de l’extérieur : le NSDA Debate Schools of Excellence Award (top 20 national), le statut de chapitre fondateur et l’adhésion au 200 Club en 2025. Le directeur Bilal Butt détient un second NSDA Diamond. Derniers Nationals : un binôme 5e (Public Forum), un binôme 25e, une 33e place (World Schools) et un Academic All-American.",
+      "of": "2a2d46ee",
       "at": [
         "charlotte-latin:clusters.rows[0].note"
       ]
@@ -1734,8 +1733,6 @@
       "of": "74f77aca",
       "at": [
         "charlotte-latin:catalog.categories[3].short",
-        "gaston-day:catalog.categories[5].short",
-        "gaston-day:catalog.categories[5].full",
         "trinity-episcopal:catalog.categories[5].short",
         "trinity-episcopal:catalog.categories[5].full",
         "charlotte-prep:catalog.categories[4].short",
@@ -2354,7 +2351,7 @@
         "covenant-day:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].short",
         "hickory-grove-christian:catalog.categories[0].short",
-        "gaston-day:catalog.categories[6].short"
+        "gaston-day:catalog.categories[4].short"
       ]
     },
     {
@@ -2364,7 +2361,7 @@
         "charlotte-christian:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].full",
         "hickory-grove-christian:catalog.categories[0].full",
-        "gaston-day:catalog.categories[6].full"
+        "gaston-day:catalog.categories[4].full"
       ]
     },
     {
@@ -3139,8 +3136,8 @@
       ]
     },
     {
-      "t": "La couverture diocésaine fait état d’une place de finaliste au niveau de l’État de Caroline du Nord et d’un titre de champion d’État en Program Oral Interpretation (Darlene Singui-Tanyi). Cette couverture date de 2017, soit plus ancienne que tout résultat compétitif publié pour une autre école ici : aucune position actuelle ne peut donc être revendiquée. Le club se réunit au CCHS Media Center sous la responsabilité de Mme Jennifer Taylor.",
-      "of": "9e78c329",
+      "t": "La couverture diocésaine fait état d’une place de finaliste au niveau de l’État de Caroline du Nord et d’un titre de champion d’État en Program Oral Interpretation. Cette couverture date de 2017, soit plus ancienne que tout résultat compétitif publié pour une autre école ici : aucune position actuelle ne peut donc être revendiquée. Le club se réunit au CCHS Media Center sous la responsabilité de Mme Jennifer Taylor.",
+      "of": "7f48248a",
       "at": [
         "charlotte-catholic:clusters.rows[0].note"
       ]
@@ -3151,8 +3148,7 @@
       "at": [
         "charlotte-catholic:clusters.rows[1].name",
         "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name",
-        "gaston-day:clusters.rows[4].name"
+        "hickory-grove-christian:clusters.rows[0].name"
       ]
     },
     {
@@ -3183,7 +3179,7 @@
         "charlotte-catholic:clusters.rows[2].evidenceLabel",
         "charlotte-catholic:clusters.rows[3].evidenceLabel",
         "charlotte-country-day:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[4].evidenceLabel"
+        "gaston-day:clusters.rows[3].evidenceLabel"
       ]
     },
     {
@@ -6473,8 +6469,8 @@
       ]
     },
     {
-      "t": "Trois sociétés d’honneur affiliées, et un Honor Code appliqué par un Honor Council mené par les élèves, dont le bureau d’orientation universitaire signalera les manquements aux services d’admission qui le demandent.",
-      "of": "c24e6038",
+      "t": "La National Honor Society, et un Honor Code dont le bureau d’orientation universitaire signalera les manquements aux universités qui le demandent.",
+      "of": "74f25442",
       "at": [
         "gaston-day:honors.headline"
       ]
@@ -6494,29 +6490,15 @@
       ]
     },
     {
-      "t": "Réussite scolaire, caractère, leadership et service — une seconde société académique aux côtés de la NHS.",
-      "of": "734322c4",
-      "at": [
-        "gaston-day:honors.societies[1].recognizes"
-      ]
-    },
-    {
-      "t": "Excellence au théâtre. L’école est affiliée à la société mais ne publie ni son numéro de troupe ni ses seuils d’admission.",
-      "of": "7d45ad1d",
-      "at": [
-        "gaston-day:honors.societies[2].recognizes"
-      ]
-    },
-    {
-      "t": "Honor Code et Honor Council",
-      "of": "0dd2ae41",
+      "t": "Code d’honneur (Honor Code)",
+      "of": "44cd5ffc",
       "at": [
         "gaston-day:honors.adjacent[0].label"
       ]
     },
     {
-      "t": "La conduite des élèves est régie par l’Honor Code, appliqué par un Honor Council mené par les élèves. À la demande d’une université, le College Counseling signalera tout manquement à l’honor code, y compris une suspension, un renvoi ou une exclusion.",
-      "of": "b6a9d15e",
+      "t": "La conduite des élèves est régie par l’Honor Code. À la demande d’une université, le College Counseling signalera tout manquement à l’honor code, y compris une suspension, un renvoi ou une exclusion.",
+      "of": "c36821bc",
       "at": [
         "gaston-day:honors.adjacent[0].text"
       ]
@@ -6564,29 +6546,29 @@
       ]
     },
     {
-      "t": "médaille d’or iGEM",
-      "of": "c7a9f494",
+      "t": "distinctions iGEM",
+      "of": "f4784edb",
       "at": [
         "gaston-day:honors.adjacent[4].label"
       ]
     },
     {
-      "t": "La médaille d’or de l’équipe de biologie de synthèse est la distinction compétitive la plus singulière de l’école, et elle se situe en dehors de toute structure de société d’honneur.",
-      "of": "bb10e8db",
+      "t": "L’école indique que ses équipes de recherche ont participé à l’iGEM pendant plus d’une décennie et y ont remporté des distinctions d’argent, d’or et de bronze. C’est la distinction compétitive la plus singulière de l’école, et elle se situe en dehors de toute structure de société d’honneur.",
+      "of": "1ed8be61",
       "at": [
         "gaston-day:honors.adjacent[4].text"
       ]
     },
     {
-      "t": "Aucun critère d’admission, seuil de GPA, nom de chapitre ni effectif de membres n’est publié pour aucune des trois sociétés — seulement leur existence. Le programme National Merit n’est pas mentionné du tout dans le profil, si bien qu’aucun relevé Semifinalist/Commended n’a pu être établi.",
-      "of": "cee2ff4b",
+      "t": "Aucun critère d’admission, seuil de GPA, nom de chapitre ni effectif de membres n’est publié pour la National Honor Society — seulement son existence. Le programme National Merit n’est pas mentionné du tout dans le profil, si bien qu’aucun relevé Semifinalist/Commended n’a pu être établi.",
+      "of": "a222d6f6",
       "at": [
         "gaston-day:honors.flags[0].text"
       ]
     },
     {
-      "t": "Une équipe de biologie de synthèse iGEM médaillée d’or et une qualification aux VEX Nationals dès la première année ancrent un répertoire par ailleurs issu de sources tierces.",
-      "of": "5002745e",
+      "t": "Des distinctions iGEM sur plus d’une décennie et une qualification aux VEX Nationals dès la première année ancrent ce que l’école nomme elle-même.",
+      "of": "424e23e4",
       "at": [
         "gaston-day:clusters.verdict"
       ]
@@ -6599,15 +6581,15 @@
       ]
     },
     {
-      "t": "Médaille d’or ; quatre équipes — 2012, 2016, 2018 et 2020",
-      "of": "9cb5e363",
+      "t": "Distinctions d’argent, d’or et de bronze sur plus d’une décennie",
+      "of": "9f72c8a6",
       "at": [
         "gaston-day:clusters.rows[0].oneLiner"
       ]
     },
     {
-      "t": "Le fleuron. iGEM (International Genetically Engineered Machine) est une compétition universitaire de biologie de synthèse dotée d’une catégorie lycée distincte, et Gaston Day y a engagé quatre équipes depuis une école de 510 élèves. Parmi les projets documentés figurent une phytotoxine du kudzu et un biocarburant isobutanol à partir d’E. coli K-12 ; l’équipe iGEM de premier cycle de Duke a soutenu le groupe.",
-      "of": "11f12e0b",
+      "t": "Le fleuron. iGEM (International Genetically Engineered Machine) est une compétition de recherche en biologie de synthèse. L’école indique que ses équipes de recherche \"previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards.\" Elle ne cite ni années ni projets, et les élèves peuvent désormais mener des recherches indépendantes dans le cadre d’une option annuelle Research Methods.",
+      "of": "e97e70f1",
       "at": [
         "gaston-day:clusters.rows[0].note"
       ]
@@ -6634,86 +6616,64 @@
       ]
     },
     {
-      "t": "Clubs de compétition →",
-      "of": "39ed9a0f",
+      "t": "Publications →",
+      "of": "225b9af4",
       "at": [
         "gaston-day:clusters.rows[2].name"
       ]
     },
     {
-      "t": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl",
-      "of": "3641c5b7",
+      "t": "Blutopia, Yearbook (album de fin d’année)",
+      "of": "66ef1e8b",
       "at": [
         "gaston-day:clusters.rows[2].oneLiner"
-      ]
-    },
-    {
-      "t": "Source tierce",
-      "of": "88d82a1b",
-      "at": [
-        "gaston-day:clusters.rows[2].evidenceLabel",
-        "gaston-day:catalog.divisions[0].tag"
-      ]
-    },
-    {
-      "t": "Quatre clubs à vocation compétitive apparaissent dans les répertoires tiers, et Speech & Debate est en outre proposé comme cours à l’Upper School — mais aucun titre ni classement n’est publié pour aucun d’entre eux. C’est leur existence, et non leurs résultats, qui est confirmée ici.",
-      "of": "5d1ac699",
-      "at": [
-        "gaston-day:clusters.rows[2].note"
-      ]
-    },
-    {
-      "t": "Publications →",
-      "of": "225b9af4",
-      "at": [
-        "gaston-day:clusters.rows[3].name"
-      ]
-    },
-    {
-      "t": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook",
-      "of": "407df385",
-      "at": [
-        "gaston-day:clusters.rows[3].oneLiner"
       ]
     },
     {
       "t": "Vérifié — récompense",
       "of": "4f98eca8",
       "at": [
-        "gaston-day:clusters.rows[3].evidenceLabel"
+        "gaston-day:clusters.rows[2].evidenceLabel"
       ]
     },
     {
       "t": "Blutopia est la seule publication au palmarès documenté : entièrement conçue, réalisée et publiée par les élèves, elle a remporté de nombreux Scholastic Art and Writing Awards et est régulièrement distinguée au Literary Magazine Contest de la North Carolina Scholastic Media Association. L’école ne publie ni décompte de récompenses ni années, si bien que « nombreux » est son propre mot, reproduit plutôt que chiffré.",
       "of": "d66308c1",
       "at": [
+        "gaston-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Société d’honneur →",
+      "of": "8552d86f",
+      "at": [
+        "gaston-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "La National Honor Society",
+      "of": "b81697ad",
+      "at": [
+        "gaston-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "L’école nomme une société d’honneur. Les membres de la NHS sont soumis à une obligation annuelle de 40 heures de service, contre 25 pour l’ensemble de l’école — le seul chiffre lié à l’admission que l’école publie. Aucun seuil de GPA, nom de chapitre ni effectif de membres n’est publié, et le profil ne mentionne pas du tout le programme National Merit.",
+      "of": "7cb24d72",
+      "at": [
         "gaston-day:clusters.rows[3].note"
       ]
     },
     {
-      "t": "National Honor Society, National Beta Club, International Thespian Society",
-      "of": "7a348e2b",
-      "at": [
-        "gaston-day:clusters.rows[4].oneLiner"
-      ]
-    },
-    {
-      "t": "Trois sociétés affiliées. Les membres de la NHS sont soumis à une obligation de service annuel de 40 heures, contre 25 pour l’ensemble de l’école — le seul chiffre lié à l’admission que l’école publie. Aucun seuil de GPA, nom de chapitre, numéro de troupe ni effectif de membres n’est publié pour aucune des trois, et le profil ne mentionne pas du tout le programme National Merit.",
-      "of": "984e7b37",
-      "at": [
-        "gaston-day:clusters.rows[4].note"
-      ]
-    },
-    {
-      "t": "28 clubs nommés et trois sociétés d’honneur — en tête, une équipe de biologie de synthèse iGEM médaillée d’or et une équipe de VEX Robotics arrivée aux TSA Nationals dès sa première année.",
-      "of": "58e47468",
+      "t": "Dix organisations que l’école nomme elle-même. Les plus remarquables : des équipes de recherche iGEM primées sur plus d’une décennie, et un club de VEX Robotics arrivé aux TSA Nationals dès sa première année.",
+      "of": "7b7161b2",
       "at": [
         "gaston-day:catalog.verdict"
       ]
     },
     {
-      "t": "L’école ne publie pas de page consacrée aux clubs ; l’essentiel de ce répertoire provient de listes tierces, avec une poignée d’entrées que l’école nomme elle-même.",
-      "of": "94bdac9f",
+      "t": "L’école ne publie pas de liste complète des clubs. Sa page Upper School nomme trois clubs et indique que les élèves peuvent en créer un nouveau avec un enseignant référent ; son Academic Profile nomme les autres.",
+      "of": "13d1c9c7",
       "at": [
         "gaston-day:catalog.verdictHint"
       ]
@@ -6761,23 +6721,8 @@
       ]
     },
     {
-      "t": "Arts",
-      "of": "278c981b",
-      "at": [
-        "gaston-day:catalog.categories[4].short",
-        "charlotte-prep:catalog.categories[2].short"
-      ]
-    },
-    {
-      "t": "Arts et spectacle",
-      "of": "98ad47b3",
-      "at": [
-        "gaston-day:catalog.categories[4].full"
-      ]
-    },
-    {
-      "t": "Médaille d’or — équipes en 2012, 2016, 2018 et 2020 ; projets de phytotoxine du kudzu et de biocarburant isobutanol à partir d’E. coli K-12",
-      "of": "68d926ef",
+      "t": "L’école indique que ses équipes de recherche ont participé à l’iGEM pendant plus d’une décennie et y ont remporté des distinctions d’argent, d’or et de bronze",
+      "of": "955204c2",
       "at": [
         "gaston-day:catalog.clubs[0].note"
       ]
@@ -6790,203 +6735,86 @@
       ]
     },
     {
-      "t": "Compétition scientifique interscolaire",
-      "of": "7469159f",
+      "t": "Nommé sur la page Upper School de l’école",
+      "of": "cc08c32f",
       "at": [
-        "gaston-day:catalog.clubs[2].note"
-      ]
-    },
-    {
-      "t": "Nommé par l’école elle-même ; soutenu par le makerspace rénové",
-      "of": "2e24ce1a",
-      "at": [
-        "gaston-day:catalog.clubs[3].note"
-      ]
-    },
-    {
-      "t": "Débat compétitif ; Speech & Debate est aussi proposé comme cours",
-      "of": "cd8e9d68",
-      "at": [
-        "gaston-day:catalog.clubs[4].note"
-      ]
-    },
-    {
-      "t": "Répertoire tiers",
-      "of": "ac168114",
-      "at": [
-        "gaston-day:catalog.clubs[5].note",
-        "gaston-day:catalog.clubs[6].note",
-        "gaston-day:catalog.clubs[18].note",
-        "gaston-day:catalog.clubs[21].note",
-        "gaston-day:catalog.clubs[24].note",
-        "gaston-day:catalog.clubs[25].note",
-        "gaston-day:catalog.clubs[26].note"
+        "gaston-day:catalog.clubs[2].note",
+        "gaston-day:catalog.clubs[8].note"
       ]
     },
     {
       "t": "Revue littéraire et artistique de l’Upper School — de nombreux Scholastic Art & Writing Awards et des distinctions répétées au NCSMA Literary Magazine Contest",
       "of": "3236d5da",
       "at": [
-        "gaston-day:catalog.clubs[7].note"
+        "gaston-day:catalog.clubs[3].note"
       ]
     },
     {
-      "t": "Répertoriée séparément de Blutopia par PrivateSchoolReview",
-      "of": "6257ba56",
+      "t": "Proposé comme cours de l’Upper School donnant droit à des crédits",
+      "of": "80511deb",
       "at": [
-        "gaston-day:catalog.clubs[8].note"
+        "gaston-day:catalog.clubs[4].note"
       ]
     },
     {
-      "t": "La publication homologue au Middle School",
-      "of": "d2a08c58",
+      "t": "Les élèves discutent des questions qui les concernent et recommandent des changements sur le campus",
+      "of": "6a128c04",
       "at": [
-        "gaston-day:catalog.clubs[9].note"
-      ]
-    },
-    {
-      "t": "Également proposé comme cours crédité à l’Upper School",
-      "of": "f710620e",
-      "at": [
-        "gaston-day:catalog.clubs[10].note"
-      ]
-    },
-    {
-      "t": "Existe au niveau du Middle School comme de l’Upper School",
-      "of": "22ac61c1",
-      "at": [
-        "gaston-day:catalog.clubs[11].note"
-      ]
-    },
-    {
-      "t": "Mené par les élèves ; applique l’Honor Code, dont le bureau d’orientation universitaire signale les manquements aux universités qui le demandent",
-      "of": "061c215c",
-      "at": [
-        "gaston-day:catalog.clubs[12].note"
+        "gaston-day:catalog.clubs[5].note"
       ]
     },
     {
       "t": "Sunship Earth — les élèves de 11e et 12e année encadrent un élève de 4e année tout au long de l’année scolaire",
       "of": "bf8d20b9",
       "at": [
-        "gaston-day:catalog.clubs[13].note"
+        "gaston-day:catalog.clubs[6].note"
       ]
     },
     {
-      "t": "Club de service affilié au Rotary ; répertoire tiers",
-      "of": "7f5aeec1",
+      "t": "Nommé sur la page Upper School de l’école — groupe environnemental",
+      "of": "925b6a78",
       "at": [
-        "gaston-day:catalog.clubs[14].note"
-      ]
-    },
-    {
-      "t": "Répertoire tiers — conseil de jeunes de l’American Heart Association",
-      "of": "568664a6",
-      "at": [
-        "gaston-day:catalog.clubs[15].note"
-      ]
-    },
-    {
-      "t": "Nommé par l’école elle-même — groupe environnemental",
-      "of": "9a918f9c",
-      "at": [
-        "gaston-day:catalog.clubs[16].note"
-      ]
-    },
-    {
-      "t": "Nommé par l’école elle-même ; il s’inscrit dans un effectif d’élèves internationaux de 14%",
-      "of": "e4e90f7a",
-      "at": [
-        "gaston-day:catalog.clubs[17].note"
-      ]
-    },
-    {
-      "t": "L’espagnol se décline de I à IV(H) en séquence de cours",
-      "of": "0a9884fe",
-      "at": [
-        "gaston-day:catalog.clubs[19].note"
-      ]
-    },
-    {
-      "t": "Le français satisfait à l’exigence de langue étrangère, bien qu’aucune séquence de cours de français ne soit détaillée dans le profil",
-      "of": "2f8409ce",
-      "at": [
-        "gaston-day:catalog.clubs[20].note"
-      ]
-    },
-    {
-      "t": "Alimente deux grandes productions par an, dont la comédie musicale de printemps",
-      "of": "4a0e9c5a",
-      "at": [
-        "gaston-day:catalog.clubs[22].note"
-      ]
-    },
-    {
-      "t": "Répertorié séparément par PrivateSchoolReview ; l’Actors' Conservatory Theatre fonctionne comme un programme dédié",
-      "of": "dc6a78ea",
-      "at": [
-        "gaston-day:catalog.clubs[23].note"
-      ]
-    },
-    {
-      "t": "Fellowship of Christian Athletes ; répertoire tiers, dans une école non confessionnelle",
-      "of": "29203330",
-      "at": [
-        "gaston-day:catalog.clubs[27].note"
+        "gaston-day:catalog.clubs[7].note"
       ]
     },
     {
       "t": "Les membres sont soumis à une obligation de service annuel de 40 heures, contre 25 pour l’ensemble de l’école",
       "of": "fe5ab031",
       "at": [
-        "gaston-day:catalog.clubs[28].note"
+        "gaston-day:catalog.clubs[9].note"
       ]
     },
     {
-      "t": "Réussite scolaire, caractère, leadership et service",
-      "of": "c64999ad",
-      "at": [
-        "gaston-day:catalog.clubs[29].note"
-      ]
-    },
-    {
-      "t": "Société d’honneur du théâtre ; numéro de troupe et seuils d’admission non publiés",
-      "of": "0dce6486",
-      "at": [
-        "gaston-day:catalog.clubs[30].note"
-      ]
-    },
-    {
-      "t": "Répertoire reconstitué",
-      "of": "a0b3901f",
+      "t": "Uniquement ceux que l’école nomme",
+      "of": "7e5ac155",
       "at": [
         "gaston-day:catalog.divisions[0].label"
       ]
     },
     {
-      "t": "Gaston Day ne publie aucune page consacrée aux clubs ou aux activités. PrivateSchoolReview en dénombre 14 et Niche en ajoute plusieurs autres ; l’école elle-même ne nomme, à titre d’exemple, que le 3-D Printing Club, la Green Team et l’International Council, et indique que les élèves \"can start a new club by securing a faculty sponsor.\" Ce répertoire est donc un instantané ouvert plutôt qu’un recensement, et sa taille n’est un chiffre énoncé par aucune source.",
-      "of": "2438e856",
+      "t": "Gaston Day ne publie aucune liste complète de clubs ou d’activités. Chaque organisation ci-dessus est nommée sur les propres pages de l’école ou dans son Academic Profile. Les élèves peuvent créer un nouveau club en trouvant un enseignant référent : la liste réelle est donc probablement plus longue.",
+      "of": "5b73d6e4",
       "at": [
         "gaston-day:catalog.divisions[0].text"
       ]
     },
     {
-      "t": "Les deux qui ne font aucun doute",
-      "of": "906d3dc1",
+      "t": "Les deux plus remarquables",
+      "of": "cd831763",
       "at": [
         "gaston-day:catalog.divisions[1].label"
       ]
     },
     {
-      "t": "iGEM et VEX Robotics sont documentés dans l’Academic Profile de l’école elle-même et, pour iGEM, par quatre wikis d’équipes de compétition archivés (2012, 2016, 2018, 2020). Ce sont des compétitions de niveau universitaire dotées de catégories lycée, et le fait de les engager depuis une école de 510 élèves est ce qu’il y a de plus singulier dans ce répertoire.",
-      "of": "d81efdfb",
+      "t": "iGEM et VEX Robotics sont les entrées les plus singulières. Toutes deux figurent dans l’Academic Profile de l’école elle-même. Les équipes iGEM ont remporté des distinctions sur plus d’une décennie, et VEX a atteint les Nationals dès la première année du club.",
+      "of": "0a1ec3d8",
       "at": [
         "gaston-day:catalog.divisions[1].text"
       ]
     },
     {
-      "t": "Les élèves du Middle School choisissent des cours LEAD obligatoires aux côtés des arts plastiques, du théâtre, de la chorale et de la fanfare, et animent leur propre Student Government. Le Spartan Strong Volunteer Service Award distingue 50 heures de bénévolat ou plus par an. Aucun répertoire de clubs propre au Middle School n’est publié.",
-      "of": "e4531189",
+      "t": "Les élèves du Middle School suivent des séances LEAD obligatoires aux côtés de la chorale, de la fanfare, des arts plastiques ou du théâtre. Le Spartan Strong Volunteer Service Award distingue 50+ heures de service par an.",
+      "of": "bdd8c2c2",
       "at": [
         "gaston-day:catalog.divisions[2].text"
       ]
@@ -7677,6 +7505,13 @@
       "of": "d27802cc",
       "at": [
         "charlotte-prep:catalog.countNoun"
+      ]
+    },
+    {
+      "t": "Arts",
+      "of": "278c981b",
+      "at": [
+        "charlotte-prep:catalog.categories[2].short"
       ]
     },
     {

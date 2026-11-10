@@ -521,7 +521,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     merit: [
       { year: '2026', detail: '**12** Semifinalists · **18** Commended — all named in the school’s own announcement' },
-      { year: '2024', detail: '**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)' },
+      { year: '2024', detail: '**6** Finalists · **16** Commended · 1 National Merit Scholar' },
       { year: '2024–26', detail: '**27** Semifinalists · **50** Commended across the three classes (2026–27 profile aggregate)' },
       { year: '2023–25', detail: '**20** Semifinalists · **46** Commended across the three classes (2025–26 profile aggregate)' },
       { year: '2018–20', detail: '25 Semifinalists · 34 Commended · 7 National Hispanic Scholars' },

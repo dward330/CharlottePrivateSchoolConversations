@@ -1568,11 +1568,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'carmel-christian': {
         kind: 'scope',
-        text: 'The 2026 Blumey Award for Best Actress — Anna Jernigan, for Footloose. The winner advances to the national Jimmy Awards.',
+        text: 'The 2026 Blumey Award for Best Actress — a student, for Footloose. The winner advances to the national Jimmy Awards.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with Amara Aghedo and Christian Young recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+        text: 'Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with two performers recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
       },
     },
   },
@@ -1713,7 +1713,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥9', // confirmed clubs only; no US roster published
       'hickory-grove-christian': '27', // aggregator roster (18 clubs/orgs + 9 arts/music), single-source
-      'gaston-day': '31', // 28 named clubs + 3 honor societies; reconstructed from third-party listings, not a school-published roster
+      'gaston-day': '≥10', // school-named only (user ruling 2026-11-10, plan thespianname): 9 clubs/organizations + NHS named on gastonday.org and the Academic Profiles; the 20 third-party-only entries were removed. A floor — students may start clubs
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
     quals: {
@@ -1778,7 +1778,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '2022 NCISAA 4A basketball title', // def. Greensboro Day 71-66 (Cade Tyson 31 pts)
       'davidson-day': 'Battle of Books 1st', // MS team 1st in regional competition
       'hickory-grove-christian': null, // no competitive club result published in any source (confirmed null)
-      'gaston-day': 'iGEM gold medal', // plus TSA VEX Nationals qualification in 2023, the team's first year competing
+      'gaston-day': 'iGEM gold medal', // school's 2023-24 Academic Profile: iGEM Silver, Gold and Bronze awards over a decade; plus TSA VEX Nationals qualification in 2023 (2025-26 profile)
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
     },
     quals: {
@@ -1789,7 +1789,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'official',
-        text: 'The iGEM gold medal is the school\'s strongest published competitive result — iGEM is a university-level synthetic-biology competition with a high-school track, and Gaston Day fielded teams in 2012, 2016, 2018 and 2020. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing. The medal level is third-party-confirmed; the archived iGEM wikis 403 to automated fetches.',
+        text: 'The iGEM gold medal is the school\'s strongest published competitive result. The school says its research teams competed in iGEM, a synthetic-biology research competition, for over a decade and won Silver, Gold and Bronze awards. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing.',
       },
       cannon: {
         kind: 'scope',

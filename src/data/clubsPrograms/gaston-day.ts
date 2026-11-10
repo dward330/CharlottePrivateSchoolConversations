@@ -19,7 +19,11 @@
 // Clubs card (src/data/clubClusters.ts). An earlier draft wrongly put it here.
 //
 // `service` carries the three signature programs and the service ladder;
-// `honors` carries the three chartered societies plus non-society recognition.
+// `honors` carries the one society the school names (NHS) plus non-society
+// recognition. Plan thespianname (2026-11-10) removed International Thespian
+// Society, National Beta Club and the "Honor Council": they came only from
+// third-party listings, and the user ruled that Gaston's club data comes only
+// from the school's own website or documents.
 
 import type { ClubsProgram } from '../clubsProgram.ts'
 
@@ -27,7 +31,6 @@ const UPPER = 'https://www.gastonday.org/upper-school/'
 const MIDDLE = 'https://www.gastonday.org/middle-school/'
 const PROFILE =
   'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf'
-const PSR = 'https://www.privateschoolreview.com/gaston-day-school-profile'
 
 export const gastonDay: ClubsProgram = {
   /* --------------------------------------------------------- 3a affinity -- */
@@ -87,7 +90,7 @@ export const gastonDay: ClubsProgram = {
   /* ----------------------------------------------------------- 3c honors -- */
   honors: {
     headline:
-      'Three chartered honor societies, and an Honor Code enforced by a student-led Honor Council that the college office will report to admissions when asked.',
+      'The National Honor Society, and an Honor Code whose violations the college office will report to colleges when asked.',
     subhead:
       'The Honor Code disclosure is unusually explicit — the school states in its own profile that it reports violations, including suspension, dismissal or expulsion.',
     societies: [
@@ -98,25 +101,11 @@ export const gastonDay: ClubsProgram = {
           'Scholarship, leadership, service and character. NHS members carry a 40-hour annual service requirement against the school-wide 25.',
         feedsFrom: 'the classroom',
       },
-      {
-        name: 'National Beta Club',
-        division: 'Upper School',
-        recognizes:
-          'Academic achievement, character, leadership and service — a second academic society alongside NHS.',
-        feedsFrom: 'the classroom',
-      },
-      {
-        name: 'International Thespian Society',
-        division: 'Upper School',
-        recognizes:
-          'Excellence in theatre. The school charters the society but does not publish its troupe number or induction thresholds.',
-        feedsFrom: 'The Arts',
-      },
     ],
     adjacent: [
       {
-        label: 'Honor Code & Honor Council',
-        text: 'Student conduct is governed by the Honor Code, enforced by a student-led Honor Council. When a college requests it, College Counseling will report any honor code violations, including suspension, dismissal or expulsion.',
+        label: 'Honor Code',
+        text: 'Student conduct is governed by the Honor Code. When a college requests it, College Counseling will report any honor code violations, including suspension, dismissal or expulsion.',
       },
       {
         label: 'President’s Service Award',
@@ -131,20 +120,19 @@ export const gastonDay: ClubsProgram = {
         text: 'Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognized in the NC Scholastic Media Association Literary Magazine Contest.',
       },
       {
-        label: 'iGEM gold medal',
-        text: 'The synthetic-biology team’s gold medal is the school’s most distinctive competitive recognition, and sits outside any society structure.',
+        label: 'iGEM awards',
+        text: 'The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards. It is the school’s most distinctive competitive recognition, and sits outside any society structure.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit program is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.',
+        text: 'No induction criteria, GPA thresholds, chapter names or member counts are published for the National Honor Society — only that it exists. The National Merit program is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.',
       },
     ],
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026 (Honor Code reporting, NHS service threshold, Blutopia)', url: PROFILE },
       { label: 'gastonday.org — Upper School (President’s Service Award)', url: UPPER },
-      { label: 'Private School Review — Gaston Day School (society roster)', url: PSR },
     ],
   },
 }

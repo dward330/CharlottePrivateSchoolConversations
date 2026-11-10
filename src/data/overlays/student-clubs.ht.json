@@ -316,7 +316,6 @@
         "hickory-grove-christian:honors.societies[0].feedsFrom",
         "hickory-grove-christian:honors.societies[1].feedsFrom",
         "gaston-day:honors.societies[0].feedsFrom",
-        "gaston-day:honors.societies[1].feedsFrom",
         "trinity-episcopal:honors.societies[0].feedsFrom",
         "trinity-episcopal:honors.societies[1].feedsFrom",
         "charlotte-prep:honors.societies[0].feedsFrom"
@@ -364,8 +363,7 @@
         "charlotte-country-day:honors.societies[5].feedsFrom",
         "cannon:honors.societies[5].feedsFrom",
         "cannon:honors.societies[6].feedsFrom",
-        "cannon:honors.societies[7].feedsFrom",
-        "gaston-day:honors.societies[2].feedsFrom"
+        "cannon:honors.societies[7].feedsFrom"
       ]
     },
     {
@@ -1243,6 +1241,7 @@
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
         "hickory-grove-christian:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[0].tag",
         "gaston-day:catalog.divisions[1].tag",
         "charlotte-prep:catalog.divisions[0].tag"
       ]
@@ -1546,8 +1545,8 @@
       ]
     },
     {
-      "t": "Yon operasyon veritab nan nivo nasyonal ak prèv ekstèn: NSDA Debate Schools of Excellence Award la (top 20 nasyonalman), estati chat, ak manbraj 2025 nan 200 Club la. Direktè Bilal Butt genyen yon dezyèm NSDA Diamond. Dènye Nationals: Chandra ak Rao 5yèm (Public Forum), Berman ak Willett 25yèm, Yang 33yèm (World Schools), Pan (’23) Academic All-American.",
-      "of": "50e32a6c",
+      "t": "Yon operasyon veritab nan nivo nasyonal ak prèv ekstèn: NSDA Debate Schools of Excellence Award la (top 20 nasyonalman), estati chat, ak manbraj 2025 nan 200 Club la. Direktè Bilal Butt genyen yon dezyèm NSDA Diamond. Dènye Nationals: yon pè nan 5yèm plas (Public Forum), yon pè nan 25yèm plas, yon rezilta nan 33yèm plas (World Schools) ak yon Academic All-American.",
+      "of": "2a2d46ee",
       "at": [
         "charlotte-latin:clusters.rows[0].note"
       ]
@@ -1734,8 +1733,6 @@
       "of": "74f77aca",
       "at": [
         "charlotte-latin:catalog.categories[3].short",
-        "gaston-day:catalog.categories[5].short",
-        "gaston-day:catalog.categories[5].full",
         "trinity-episcopal:catalog.categories[5].short",
         "trinity-episcopal:catalog.categories[5].full",
         "charlotte-prep:catalog.categories[4].short",
@@ -2354,7 +2351,7 @@
         "covenant-day:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].short",
         "hickory-grove-christian:catalog.categories[0].short",
-        "gaston-day:catalog.categories[6].short"
+        "gaston-day:catalog.categories[4].short"
       ]
     },
     {
@@ -2364,7 +2361,7 @@
         "charlotte-christian:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].full",
         "hickory-grove-christian:catalog.categories[0].full",
-        "gaston-day:catalog.categories[6].full"
+        "gaston-day:catalog.categories[4].full"
       ]
     },
     {
@@ -3139,8 +3136,8 @@
       ]
     },
     {
-      "t": "Kouvèti dyosèz la anrejistre yon dezyèm plas nan eta North Carolina ak yon chanpyon eta nan Program Oral Interpretation (Darlene Singui-Tanyi). Kouvèti sa a soti nan 2017, pi ansyen pase nenpòt rezilta konpetitif nou pibliye pou yon lòt lekòl isit la, kidonk nou pa ka reklame okenn pozisyon aktyèl. Klib la reyini nan CCHS Media Center anba Mrs. Jennifer Taylor.",
-      "of": "9e78c329",
+      "t": "Kouvèti dyosèz la anrejistre yon dezyèm plas nan eta North Carolina ak yon chanpyon eta nan Program Oral Interpretation. Kouvèti sa a soti nan 2017, pi ansyen pase nenpòt rezilta konpetitif nou pibliye pou yon lòt lekòl isit la, kidonk nou pa ka reklame okenn pozisyon aktyèl. Klib la reyini nan CCHS Media Center anba Mrs. Jennifer Taylor.",
+      "of": "7f48248a",
       "at": [
         "charlotte-catholic:clusters.rows[0].note"
       ]
@@ -3151,8 +3148,7 @@
       "at": [
         "charlotte-catholic:clusters.rows[1].name",
         "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name",
-        "gaston-day:clusters.rows[4].name"
+        "hickory-grove-christian:clusters.rows[0].name"
       ]
     },
     {
@@ -3183,7 +3179,7 @@
         "charlotte-catholic:clusters.rows[2].evidenceLabel",
         "charlotte-catholic:clusters.rows[3].evidenceLabel",
         "charlotte-country-day:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[4].evidenceLabel"
+        "gaston-day:clusters.rows[3].evidenceLabel"
       ]
     },
     {
@@ -6473,8 +6469,8 @@
       ]
     },
     {
-      "t": "Twa sosyete onè ki chate, ak yon Honor Code yon Honor Council elèv yo dirije aplike epi biwo inivèsite a ap rapòte bay admisyon lè yo mande l.",
-      "of": "c24e6038",
+      "t": "National Honor Society, ak yon Honor Code biwo inivèsite a ap rapòte vyolasyon l bay inivèsite yo lè yo mande l.",
+      "of": "74f25442",
       "at": [
         "gaston-day:honors.headline"
       ]
@@ -6494,29 +6490,15 @@
       ]
     },
     {
-      "t": "Reyalizasyon akademik, karaktè, lidèchip ak sèvis — yon dezyèm sosyete akademik akote NHS.",
-      "of": "734322c4",
-      "at": [
-        "gaston-day:honors.societies[1].recognizes"
-      ]
-    },
-    {
-      "t": "Eksèlans nan teyat. Lekòl la chate sosyete a men li pa pibliye nimewo twoup li ni sèy pou entwonizasyon yo.",
-      "of": "7d45ad1d",
-      "at": [
-        "gaston-day:honors.societies[2].recognizes"
-      ]
-    },
-    {
-      "t": "Honor Code ak Honor Council",
-      "of": "0dd2ae41",
+      "t": "Honor Code (kòd onè)",
+      "of": "44cd5ffc",
       "at": [
         "gaston-day:honors.adjacent[0].label"
       ]
     },
     {
-      "t": "Honor Code la gouvène konduit elèv yo, epi yon Honor Council elèv yo dirije aplike l. Lè yon inivèsite mande l, College Counseling ap rapòte nenpòt vyolasyon honor code, ki enkli sispansyon, ranvwa oswa ekspilsyon.",
-      "of": "b6a9d15e",
+      "t": "Honor Code la gouvène konduit elèv yo. Lè yon inivèsite mande l, College Counseling ap rapòte nenpòt vyolasyon honor code, ki enkli sispansyon, ranvwa oswa ekspilsyon.",
+      "of": "c36821bc",
       "at": [
         "gaston-day:honors.adjacent[0].text"
       ]
@@ -6564,29 +6546,29 @@
       ]
     },
     {
-      "t": "Meday lò iGEM",
-      "of": "c7a9f494",
+      "t": "Prim iGEM",
+      "of": "f4784edb",
       "at": [
         "gaston-day:honors.adjacent[4].label"
       ]
     },
     {
-      "t": "Meday lò ekip byoloji sentetik la se rekonesans konpetitif ki pi distenktif lekòl la, epi li chita andeyò nenpòt estrikti sosyete.",
-      "of": "bb10e8db",
+      "t": "Lekòl la di ekip rechèch li yo te patisipe nan iGEM pandan plis pase yon deseni epi yo te genyen prim Silver, Gold ak Bronze. Se rekonesans konpetitif ki pi distenktif lekòl la, epi li chita andeyò nenpòt estrikti sosyete.",
+      "of": "1ed8be61",
       "at": [
         "gaston-day:honors.adjacent[4].text"
       ]
     },
     {
-      "t": "Pa gen okenn kritè entwonizasyon, sèy GPA, non chapit ni kantite manm ki pibliye pou okenn nan twa sosyete yo — sèlman ke yo egziste. Pwogram National Merit la pa menm mansyone nan pwofil la, kidonk nou pa t ka bati okenn lis Semifinalist/Commended.",
-      "of": "cee2ff4b",
+      "t": "Pa gen okenn kritè entwonizasyon, sèy GPA, non chapit ni kantite manm ki pibliye pou National Honor Society — sèlman ke li egziste. Pwogram National Merit la pa menm mansyone nan pwofil la, kidonk nou pa t ka bati okenn lis Semifinalist/Commended.",
+      "of": "a222d6f6",
       "at": [
         "gaston-day:honors.flags[0].text"
       ]
     },
     {
-      "t": "Yon ekip byoloji sentetik iGEM ki gen meday lò ak yon kalifikasyon pou VEX Nationals nan premye ane a ankre yon lis ki lòt bò sa soti nan twazyèm pati.",
-      "of": "5002745e",
+      "t": "Prim iGEM pandan plis pase yon deseni ak yon kalifikasyon pou VEX Nationals nan premye ane a ankre sa lekòl la nonmen li menm.",
+      "of": "424e23e4",
       "at": [
         "gaston-day:clusters.verdict"
       ]
@@ -6599,15 +6581,15 @@
       ]
     },
     {
-      "t": "Meday lò; kat ekip — 2012, 2016, 2018 ak 2020",
-      "of": "9cb5e363",
+      "t": "Prim Silver, Gold ak Bronze pandan plis pase yon deseni",
+      "of": "9f72c8a6",
       "at": [
         "gaston-day:clusters.rows[0].oneLiner"
       ]
     },
     {
-      "t": "Pi gwo a. iGEM (International Genetically Engineered Machine) se yon konpetisyon byoloji sentetik nan nivo inivèsite ki gen yon pis apa pou lekòl segondè, epi Gaston Day mete kat ekip sou teren apati yon lekòl 510 elèv. Pwojè dokimante yo enkli yon fitotoksin kudzu ak yon byokabiran izobitanòl E. coli K-12; ekip iGEM etidyan Duke yo sipòte gwoup la.",
-      "of": "11f12e0b",
+      "t": "Pi gwo a. iGEM (International Genetically Engineered Machine) se yon konpetisyon rechèch nan byoloji sentetik. Lekòl la di ekip rechèch li yo \"previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards.\" Li pa nonmen okenn ane ni pwojè, epi kounye a elèv yo ka fè rechèch endepandan atravè yon kou opsyonèl Research Methods ki dire yon ane.",
+      "of": "e97e70f1",
       "at": [
         "gaston-day:clusters.rows[0].note"
       ]
@@ -6634,86 +6616,64 @@
       ]
     },
     {
-      "t": "Klib konpetisyon →",
-      "of": "39ed9a0f",
+      "t": "Piblikasyon →",
+      "of": "225b9af4",
       "at": [
         "gaston-day:clusters.rows[2].name"
       ]
     },
     {
-      "t": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl",
-      "of": "3641c5b7",
+      "t": "Blutopia, Yearbook (liv ane)",
+      "of": "66ef1e8b",
       "at": [
         "gaston-day:clusters.rows[2].oneLiner"
-      ]
-    },
-    {
-      "t": "Twazyèm pati",
-      "of": "88d82a1b",
-      "at": [
-        "gaston-day:clusters.rows[2].evidenceLabel",
-        "gaston-day:catalog.divisions[0].tag"
-      ]
-    },
-    {
-      "t": "Kat klib ki oryante sou konpetisyon parèt atravè lis twazyèm pati yo, epi Speech & Debate fonksyone anplis kòm yon kou Upper School — men pa gen okenn tit ni rezilta plasman ki pibliye pou okenn nan yo. Egzistans, se pa rezilta, se sa ki konfime isit la.",
-      "of": "5d1ac699",
-      "at": [
-        "gaston-day:clusters.rows[2].note"
-      ]
-    },
-    {
-      "t": "Piblikasyon →",
-      "of": "225b9af4",
-      "at": [
-        "gaston-day:clusters.rows[3].name"
-      ]
-    },
-    {
-      "t": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook",
-      "of": "407df385",
-      "at": [
-        "gaston-day:clusters.rows[3].oneLiner"
       ]
     },
     {
       "t": "Verifye — prim",
       "of": "4f98eca8",
       "at": [
-        "gaston-day:clusters.rows[3].evidenceLabel"
+        "gaston-day:clusters.rows[2].evidenceLabel"
       ]
     },
     {
       "t": "Blutopia se sèl piblikasyon ki gen yon dosye prim dokimante: elèv yo devlope, kreye epi pibliye l nèt, li pran anpil Scholastic Art and Writing Awards epi yo rekonèt li tout tan nan Literary Magazine Contest North Carolina Scholastic Media Association la. Lekòl la pa pibliye kantite prim ni ane yo, kidonk “numerous” se pwòp mo pa l, nou repwodui l olye ke nou kantifye l.",
       "of": "d66308c1",
       "at": [
+        "gaston-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Sosyete onè →",
+      "of": "8552d86f",
+      "at": [
+        "gaston-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "National Honor Society (Sosyete Onè Nasyonal)",
+      "of": "b81697ad",
+      "at": [
+        "gaston-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Lekòl la nonmen yon sèl sosyete onè. Manm NHS yo gen yon egzijans 40 èdtan sèvis chak ane, kont 25 pou tout lekòl la — sèl chif ki toupre kritè admisyon nan sosyete a lekòl la pibliye. Pa gen okenn sèy GPA, non chapit ni kantite manm ki pibliye, epi pwofil la pa menm mansyone pwogram National Merit la.",
+      "of": "7cb24d72",
+      "at": [
         "gaston-day:clusters.rows[3].note"
       ]
     },
     {
-      "t": "National Honor Society, National Beta Club, International Thespian Society",
-      "of": "7a348e2b",
-      "at": [
-        "gaston-day:clusters.rows[4].oneLiner"
-      ]
-    },
-    {
-      "t": "Twa sosyete ki chate. Manm NHS pote yon egzijans sèvis anyèl 40 èdtan kont 25 la nan tout lekòl la — sèl chif ki toupre entwonizasyon lekòl la pibliye. Pa gen okenn sèy GPA, non chapit, nimewo twoup ni kantite manm ki pibliye pou okenn nan twa yo, epi pwofil la pa menm mansyone pwogram National Merit la.",
-      "of": "984e7b37",
-      "at": [
-        "gaston-day:clusters.rows[4].note"
-      ]
-    },
-    {
-      "t": "28 klib ki gen non ak twa sosyete onè — ak yon ekip byoloji sentetik iGEM ki gen meday lò ak yon eskwad VEX Robotics ki rive nan TSA Nationals nan premye ane l alatèt.",
-      "of": "58e47468",
+      "t": "Dis òganizasyon lekòl la nonmen li menm. Sa ki pi remakab yo: ekip rechèch iGEM ki genyen prim pandan plis pase yon deseni, ak yon klib VEX Robotics ki rive nan TSA Nationals nan premye ane l.",
+      "of": "7b7161b2",
       "at": [
         "gaston-day:catalog.verdict"
       ]
     },
     {
-      "t": "Lekòl la pa pibliye okenn paj klib; pifò nan lis sa a soti nan lis twazyèm pati, ak yon ti kras lekòl la nonmen li menm.",
-      "of": "94bdac9f",
+      "t": "Lekòl la pa pibliye yon lis klib konplè. Paj Upper School li nonmen twa klib epi li di elèv yo ka kòmanse yon nouvo klib ak yon pwofesè ki patwone l; Academic Profile li nonmen rès yo.",
+      "of": "13d1c9c7",
       "at": [
         "gaston-day:catalog.verdictHint"
       ]
@@ -6761,23 +6721,8 @@
       ]
     },
     {
-      "t": "Atizay",
-      "of": "278c981b",
-      "at": [
-        "gaston-day:catalog.categories[4].short",
-        "charlotte-prep:catalog.categories[2].short"
-      ]
-    },
-    {
-      "t": "Atizay ak pèfòmans",
-      "of": "98ad47b3",
-      "at": [
-        "gaston-day:catalog.categories[4].full"
-      ]
-    },
-    {
-      "t": "Meday lò — ekip an 2012, 2016, 2018 ak 2020; pwojè fitotoksin kudzu ak byokabiran izobitanòl E. coli K-12",
-      "of": "68d926ef",
+      "t": "Lekòl la di ekip rechèch li yo te patisipe nan iGEM pandan plis pase yon deseni epi yo te genyen prim Silver, Gold ak Bronze",
+      "of": "955204c2",
       "at": [
         "gaston-day:catalog.clubs[0].note"
       ]
@@ -6790,203 +6735,86 @@
       ]
     },
     {
-      "t": "Konpetisyon syans ant lekòl",
-      "of": "7469159f",
+      "t": "Nonmen sou paj Upper School lekòl la",
+      "of": "cc08c32f",
       "at": [
-        "gaston-day:catalog.clubs[2].note"
-      ]
-    },
-    {
-      "t": "Lekòl la menm nonmen li; makerspace ki renove a sipòte l",
-      "of": "2e24ce1a",
-      "at": [
-        "gaston-day:catalog.clubs[3].note"
-      ]
-    },
-    {
-      "t": "Deba konpetitif; Speech & Debate fonksyone kòm yon kou tou",
-      "of": "cd8e9d68",
-      "at": [
-        "gaston-day:catalog.clubs[4].note"
-      ]
-    },
-    {
-      "t": "Lis pa yon twazyèm pati",
-      "of": "ac168114",
-      "at": [
-        "gaston-day:catalog.clubs[5].note",
-        "gaston-day:catalog.clubs[6].note",
-        "gaston-day:catalog.clubs[18].note",
-        "gaston-day:catalog.clubs[21].note",
-        "gaston-day:catalog.clubs[24].note",
-        "gaston-day:catalog.clubs[25].note",
-        "gaston-day:catalog.clubs[26].note"
+        "gaston-day:catalog.clubs[2].note",
+        "gaston-day:catalog.clubs[8].note"
       ]
     },
     {
       "t": "Magazin literè ak atistik Upper School la — anpil Scholastic Art & Writing Awards ak rekonesans repete nan NCSMA Literary Magazine Contest la",
       "of": "3236d5da",
       "at": [
-        "gaston-day:catalog.clubs[7].note"
+        "gaston-day:catalog.clubs[3].note"
       ]
     },
     {
-      "t": "PrivateSchoolReview liste l apa de Blutopia",
-      "of": "6257ba56",
+      "t": "Fonksyone kòm yon kou Upper School ki bay kredi",
+      "of": "80511deb",
       "at": [
-        "gaston-day:catalog.clubs[8].note"
+        "gaston-day:catalog.clubs[4].note"
       ]
     },
     {
-      "t": "Piblikasyon parèy la nan Middle School",
-      "of": "d2a08c58",
+      "t": "Elèv yo diskite pwoblèm elèv epi yo rekòmande chanjman sou kanpis la",
+      "of": "6a128c04",
       "at": [
-        "gaston-day:catalog.clubs[9].note"
-      ]
-    },
-    {
-      "t": "Li fonksyone kòm yon kou Upper School pou kredi tou",
-      "of": "f710620e",
-      "at": [
-        "gaston-day:catalog.clubs[10].note"
-      ]
-    },
-    {
-      "t": "Li fonksyone nan nivo Middle School ak Upper School tou de",
-      "of": "22ac61c1",
-      "at": [
-        "gaston-day:catalog.clubs[11].note"
-      ]
-    },
-    {
-      "t": "Elèv yo dirije l; li aplike Honor Code la, epi biwo inivèsite a rapòte vyolasyon l yo bay inivèsite yo lè yo mande",
-      "of": "061c215c",
-      "at": [
-        "gaston-day:catalog.clubs[12].note"
+        "gaston-day:catalog.clubs[5].note"
       ]
     },
     {
       "t": "Sunship Earth — elèv onzyèm ak douzyèm ane mentore yon elèv katriyèm ane pandan tout ane eskolè a",
       "of": "bf8d20b9",
       "at": [
-        "gaston-day:catalog.clubs[13].note"
+        "gaston-day:catalog.clubs[6].note"
       ]
     },
     {
-      "t": "Klib sèvis ki afilye ak Rotary; lis pa yon twazyèm pati",
-      "of": "7f5aeec1",
+      "t": "Nonmen sou paj Upper School lekòl la — gwoup anviwònman",
+      "of": "925b6a78",
       "at": [
-        "gaston-day:catalog.clubs[14].note"
-      ]
-    },
-    {
-      "t": "Lis pa yon twazyèm pati — konsèy jèn American Heart Association",
-      "of": "568664a6",
-      "at": [
-        "gaston-day:catalog.clubs[15].note"
-      ]
-    },
-    {
-      "t": "Lekòl la menm nonmen li — gwoup anviwònmantal",
-      "of": "9a918f9c",
-      "at": [
-        "gaston-day:catalog.clubs[16].note"
-      ]
-    },
-    {
-      "t": "Lekòl la menm nonmen li; li chita akote yon kò elèv ki 14% entènasyonal",
-      "of": "e4e90f7a",
-      "at": [
-        "gaston-day:catalog.clubs[17].note"
-      ]
-    },
-    {
-      "t": "Spanish fonksyone I–IV(H) kòm yon sekans kou",
-      "of": "0a9884fe",
-      "at": [
-        "gaston-day:catalog.clubs[19].note"
-      ]
-    },
-    {
-      "t": "Franse satisfè egzijans lang etranje a, byenke pwofil la pa enimere okenn sekans kou franse",
-      "of": "2f8409ce",
-      "at": [
-        "gaston-day:catalog.clubs[20].note"
-      ]
-    },
-    {
-      "t": "Li nouri de gwo pwodiksyon pa ane ki enkli mizikal prentan an",
-      "of": "4a0e9c5a",
-      "at": [
-        "gaston-day:catalog.clubs[22].note"
-      ]
-    },
-    {
-      "t": "PrivateSchoolReview liste l apa; Actors’ Conservatory Theatre fonksyone kòm yon pwogram dedye",
-      "of": "dc6a78ea",
-      "at": [
-        "gaston-day:catalog.clubs[23].note"
-      ]
-    },
-    {
-      "t": "Fellowship of Christian Athletes; lis pa yon twazyèm pati nan yon lekòl ki pa sektè",
-      "of": "29203330",
-      "at": [
-        "gaston-day:catalog.clubs[27].note"
+        "gaston-day:catalog.clubs[7].note"
       ]
     },
     {
       "t": "Manm yo pote yon egzijans sèvis anyèl 40 èdtan kont 25 la nan tout lekòl la",
       "of": "fe5ab031",
       "at": [
-        "gaston-day:catalog.clubs[28].note"
+        "gaston-day:catalog.clubs[9].note"
       ]
     },
     {
-      "t": "Reyalizasyon akademik, karaktè, lidèchip ak sèvis",
-      "of": "c64999ad",
-      "at": [
-        "gaston-day:catalog.clubs[29].note"
-      ]
-    },
-    {
-      "t": "Sosyete onè teyat; nimewo twoup ak sèy entwonizasyon pa pibliye",
-      "of": "0dce6486",
-      "at": [
-        "gaston-day:catalog.clubs[30].note"
-      ]
-    },
-    {
-      "t": "Lis rekonstwi",
-      "of": "a0b3901f",
+      "t": "Sèlman sa lekòl la nonmen",
+      "of": "7e5ac155",
       "at": [
         "gaston-day:catalog.divisions[0].label"
       ]
     },
     {
-      "t": "Gaston Day pa pibliye okenn paj klib oswa aktivite. PrivateSchoolReview enimere 14 aktivite epi Niche ajoute plizyè lòt; lekòl la menm nonmen sèlman 3-D Printing Club, Green Team ak International Council, kòm egzanp, epi li deklare ke elèv yo “can start a new club by securing a faculty sponsor.” Kidonk lis la se yon foto ouvè olye ke yon resansman, epi gwosè l pa yon chif okenn sous deklare.",
-      "of": "2438e856",
+      "t": "Gaston Day pa pibliye yon lis klib oswa aktivite konplè. Chak òganizasyon ki anwo a nonmen sou pwòp paj lekòl la oswa nan Academic Profile li. Elèv yo ka kòmanse yon nouvo klib si yo jwenn yon pwofesè ki patwone l, kidonk vrè lis la gendwa pi long.",
+      "of": "5b73d6e4",
       "at": [
         "gaston-day:catalog.divisions[0].text"
       ]
     },
     {
-      "t": "De ki pa gen dout sou yo",
-      "of": "906d3dc1",
+      "t": "De ki pi remakab yo",
+      "of": "cd831763",
       "at": [
         "gaston-day:catalog.divisions[1].label"
       ]
     },
     {
-      "t": "iGEM ak VEX Robotics dokimante nan pwòp Academic Profile lekòl la epi, pou iGEM, nan kat wiki ekip konpetisyon ki achive (2012, 2016, 2018, 2020). Sa yo se konpetisyon nan nivo inivèsite ki gen pis pou lekòl segondè, epi mete yo sou teren apati yon lekòl 510 elèv se bagay ki pi distenktif sou lis sa a.",
-      "of": "d81efdfb",
+      "t": "iGEM ak VEX Robotics se de antre ki pi distenktif yo. Tou de parèt nan pwòp Academic Profile lekòl la. Ekip iGEM yo te genyen prim pandan plis pase yon deseni, epi VEX te rive nan Nationals nan premye ane klib la.",
+      "of": "0a1ec3d8",
       "at": [
         "gaston-day:catalog.divisions[1].text"
       ]
     },
     {
-      "t": "Elèv Middle School yo chwazi kou LEAD obligatwa yo ansanm ak atizay, dram, koral ak fanfa, epi yo fè pwòp Student Government pa yo. Spartan Strong Volunteer Service Award la rekonèt 50+ èdtan volontè pa ane. Pa gen okenn lis klib Middle School apa ki pibliye.",
-      "of": "e4531189",
+      "t": "Elèv Middle School yo pran sesyon LEAD obligatwa ansanm ak koral, fanfa, atizay oswa dram. Spartan Strong Volunteer Service Award la rekonèt 50+ èdtan sèvis pa ane.",
+      "of": "bdd8c2c2",
       "at": [
         "gaston-day:catalog.divisions[2].text"
       ]
@@ -7677,6 +7505,13 @@
       "of": "d27802cc",
       "at": [
         "charlotte-prep:catalog.countNoun"
+      ]
+    },
+    {
+      "t": "Atizay",
+      "of": "278c981b",
+      "at": [
+        "charlotte-prep:catalog.categories[2].short"
       ]
     },
     {

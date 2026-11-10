@@ -430,7 +430,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       { year: '15-yr (2026–27 profile)', detail: '**12** Finalists · **46** Commended Scholars' },
       { year: '15-yr (2024–25 profile)', detail: '**14** Finalists · **48** Commended Scholars' },
       { year: '15-yr (2021–22 profile)', detail: '**16** Finalists · **45** Commended Scholars' },
-      { year: '2025', detail: '**1** Commended Scholar (Jack Krause) — press separately names a Semifinalist the school does not list', unconfirmed: true },
+      { year: '2025', detail: '**1** Commended Scholar — press separately names a Semifinalist the school does not list', unconfirmed: true },
       { year: '2025', detail: '**4** College Board National Recognition awards — 1 African American, 3 Hispanic (Class of 2024: 5)' },
     ],
     meritNote:
