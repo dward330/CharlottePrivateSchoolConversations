@@ -21,6 +21,13 @@
  * Options:
  *   --base <ref>      git base for "before" (default main)
  *   --dir <dir>       data directory (default src/data/collegeSupportPrograms)
+ *   --topic <topic>   ACCESSOR mode, instead of --dir: one module holding every
+ *                     school behind a function (ACCESSORS in i18n_topics.mjs, e.g.
+ *                     financial-aid-report → financialAidReport(slug)). Units are
+ *                     labeled `slug:path`, as check_plain_language.mjs labels them.
+ *                     Guards (a), (f), (j) and (k) run over EVERY school in the
+ *                     module, not only --slugs, and (j) groups repeats ACROSS
+ *                     schools; rows and the per-unit guards cover --slugs only.
  *   --slugs a,b,c     limit to these schools (default: every .ts in --dir)
  *   --match <regex>   worklist only: also include units from schools OUTSIDE
  *                     --slugs whose text matches (shared templates)
@@ -29,6 +36,7 @@
  *                     Guards (a), (f), (j) and (k) still run over the whole file.
  *   --allow a.json,…  worklist files; enables guard (k)
  *   --md-paths <re>   prose paths whose field renders `**bold**`; enables (l)
+ *   --aid-markers     add the financial-aid marker classes to guard (h)
  *
  * GUARDS (fail --check), compared per school across base and working tree:
  *   (a) the set of prose paths differs            — a structural change
@@ -37,25 +45,32 @@
  *   (d) the list of quoted spans (“…”, "…") differs
  *   (e) a collegesTitle year span differs
  *   (f) any NON-prose string leaf changed         — figure/name fields untouched
- *   (g) the multiset of date/time tokens differs  — month names (+ day, year),
- *       weekday names, a.m./p.m./noon/midnight, season + year; `Jan 2` →
- *       `January 2` fails. Case-sensitive; `May` only before a digit.
+ *   (g) the multiset of date/time tokens differs  — month names (+ day, year,
+ *       or a LEADING day: `1 Dec 2026`), weekday names, a.m./p.m./noon/midnight,
+ *       season + year; `Jan 2` → `January 2` and `1 Dec` → `Dec 1` fail.
+ *       Case-sensitive; `May` only before a digit.
  *   (h) an obligation/publication marker class is present before and absent
  *       after, or the reverse: REQUIRED, OPTIONAL, UNPUBLISHED, NONREFUNDABLE,
- *       REFUNDABLE (see MARKERS). Synonyms within a class are free; a count
- *       change inside a class is a note.
+ *       REFUNDABLE; with --aid-markers also the financial-aid classes NEED,
+ *       MERIT, DISCOUNT, REMISSION, LOAN, NOTCOVERED, COVERED, ESTIMATE, BOUND,
+ *       DERIVED, THIRDPARTY, AVERAGE, MEDIAN, TYPICAL (see MARKERS; plan plainaid).
+ *       Synonyms within a class are free; a count change inside a class is a note.
  *   (j) units that held the SAME text at base (within one file) now differ
  *   (k) with --allow: a changed leaf (prose or not) is on none of the worklists
  *   (l) with --md-paths: a changed unit OUTSIDE those paths changed its `**`
  *       count (it would ship literal asterisks)
+ *   (m) the multiset of money, percent and year tokens differs, char-for-char
+ *       (`$3.25M` → `$3.25 million`, `~4.5%` → `4.5%`, `2026-27` → `2026–27`
+ *       all pass (b) and fail here). See MONEY_RE / PCT_RE / YEARTOK_RE.
  * Reported in the row's notes, never failing: capitalized words of the
  * before-text missing from the after-text (proper-noun drift), a change in the
  * number of `**` (inside --md-paths, or when --md-paths is absent), a change in
  * the number of `→` (check the chain's order), a marker-class count change,
  * and an after-grade still above targetGrade.
  *
- * The base snapshot is `git archive <base> src/data scripts` unpacked into a
- * temp dir, so the old modules' relative imports resolve unchanged.
+ * The base snapshot is `git archive <base> src/data src/lib scripts` unpacked
+ * into a temp dir, so the old modules' relative imports resolve unchanged
+ * (financialAidReports.ts imports ../lib/localizeData.ts).
  * Not chained into the build: `npm run plain:review -- …`.
  */
 import { readFileSync, writeFileSync, readdirSync, mkdtempSync, rmSync, existsSync, mkdirSync } from 'node:fs'
@@ -65,7 +80,7 @@ import { join, resolve, dirname, relative } from 'node:path'
 import { pathToFileURL, fileURLToPath } from 'node:url'
 import { proseUnits, analyze, filterAllowed, locateLine, loadConfig } from './check_plain_language.mjs'
 import { classifyField } from './i18n_fields.mjs'
-import { EXPORTS } from './i18n_topics.mjs'
+import { EXPORTS, ACCESSORS, SLUGS } from './i18n_topics.mjs'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const TOKEN = /\d+(?:[.,:/]\d+)*/g // = TOKEN in scripts/check_digit_tokens.mjs
@@ -73,11 +88,21 @@ const URL_RE = /https?:\/\/[^\s)\]'"”]+|www\.[^\s)\]'"”]+/g
 const QUOTE_RE = /“[^”]*”|"[^"]*"/g
 const YEAR_SPAN = /\d{4}(?:\s*[–+-]\s*\d{4})*/ // = check_selectivity_buckets.mjs
 const EMAIL_RE = /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g
+/* Guard (m): money, percent and year tokens, compared char-for-char. */
+// Digits are grouped strictly (`\d+(?:,\d{3})*`), so a comma AFTER a figure is never part of it.
+const MONEY_RE = /[~≈+−-]?\$\d+(?:,\d{3})*(?:\.\d+)?(?:\s?(?:[KMB]\b|million\b|billion\b|thousand\b))?/g
+const PCT_RE = /[~≈]?\d+(?:\.\d+)?%/g
+const YEARTOK_RE = /\b\d{4}\s*[–-]\s*\d{2,4}\b|\bFY\s?\d{4}\b/g
+const moneyTokens = (s) => {
+  const t = s.replace(/\*\*/g, '')
+  return [...(t.match(MONEY_RE) ?? []), ...(t.match(PCT_RE) ?? []), ...(t.match(YEARTOK_RE) ?? [])].map((m) => m.replace(/\s+/g, ' ').trim())
+}
 const MONTH = '(?:January|February|March|April|June|July|August|September|October|November|December|Sept|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\b\\.?|May(?=\\s+\\d)'
 const DAYNUM = '(?:\\s+\\d{1,2}(?:st|nd|rd|th)?\\b)?(?:,?\\s+\\d{4}\\b)?'
 const WEEKDAY = '(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Tues|Thurs|Thur|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\\b\\.?'
+const LEADDAY = '(?:\\b\\d{1,2}(?:st|nd|rd|th)?\\s+)?'
 const DATE_RE = new RegExp(
-  `\\b(?:${MONTH})${DAYNUM}|\\b${WEEKDAY}|(?<![\\w.])[ap]\\.m\\.?|\\bnoon\\b|\\bmidnight\\b|\\b(?:[Ss]pring|[Ss]ummer|[Ff]all|[Aa]utumn|[Ww]inter)\\s+\\d{4}\\b`, 'g')
+  `${LEADDAY}\\b(?:${MONTH})${DAYNUM}|\\b${WEEKDAY}|(?<![\\w.])[ap]\\.m\\.?|\\bnoon\\b|\\bmidnight\\b|\\b(?:[Ss]pring|[Ss]ummer|[Ff]all|[Aa]utumn|[Ww]inter)\\s+\\d{4}\\b`, 'g')
 /** Obligation / publication marker classes (guard h). Case-insensitive. */
 const MARKERS = {
   // "not (a …) requirement" means optional, so it sits here and is masked before REQUIRED.
@@ -90,7 +115,7 @@ const MARKERS = {
   UNPUBLISHED: new RegExp([
     String.raw`\bnot published\b`, String.raw`\bisn[’']t published\b`, String.raw`\bunpublished\b`, String.raw`\bnot stated\b`,
     String.raw`\bdoes(?: not|n[’']t) (?:publish|name|state|say|disclose)\b`, String.raw`\bnever (?:says|states|publishes)\b`,
-    String.raw`\b(?:publishes|states|names) no\b`, String.raw`\bconfirm(?: [\w’']+){0,3} with\b`,
+    String.raw`\b(?:publishes|states|names) (?:no|nothing)\b`, String.raw`\bconfirm(?: [\w’']+){0,3} with\b`,
     String.raw`\bno published\b`, String.raw`\bno\b(?: [\w’',/-]+){1,12} (?:(?:is|are) )?(?:published|stated)\b`,
     String.raw`\bno(?: [\w’'-]+){1,3} (?:publishes|states|names)\b`, String.raw`\bnothing\b[^.;]{0,60}\b(?:is|are) published\b`,
     String.raw`\bnever (?:been |be )?(?:published|stated)\b`,
@@ -99,12 +124,44 @@ const MARKERS = {
   ].join('|'), 'gi'),
   NONREFUNDABLE: /\bnon-?refundable\b/gi,
   REFUNDABLE: /(?<!non-?)\brefundable\b/gi,
+  // Financial-aid classes (plan plainaid): the distinctions a parent compares costs by.
+  // Calibrated on the approved College Support (c761a159) and Admissions (9c0e0720 →
+  // b181a8d8) rewrites; every synonym and scope below answers a recorded calibration
+  // hit (plainaid Implementation notes, Batch 1).
+  NEED: /\bneed-based\b|\bbased on (?:financial )?need\b|\bdemonstrated need\b|\bfinancial need\b|\bhighest-need\b/gi,
+  MERIT: /\bmerit\b/gi,
+  DISCOUNT: /\bdiscounts?\b/gi,
+  REMISSION: /\bremissions?\b/gi,
+  LOAN: /\bloans?\b/gi,
+  // Masked before COVERED is counted, as OPTIONAL is masked before REQUIRED.
+  // "on top of" only before a cost word ("on top of a decade of memory" is not one);
+  // "leaves out" / "not counted" = "excluded".
+  NOTCOVERED: /\bnot (?:cover|include)(?:d|s)?\b|\bdoes(?: not|n[’']t) (?:cover|include|count)\b|\bexclud(?:e|es|ed|ing)\b|\bleaves? out\b|\bleft out\b|\bnot counted\b|\badditional (?:expense|cost)s?\b|\bbeyond tuition\b|\babove and beyond\b|\bon top of (?:an? |the |any )?(?:award|aid|tuition|grant|fees?|price|costs?)\b|\bseparate(?:ly)? (?:billed|charged)\b/gi,
+  // Broad on purpose: every include/cover wording is one class, so "including X" ↔
+  // "It also includes X" is free (Admissions calibration hit 4 such splits).
+  COVERED: /\b(?:includes?|included|including|inclusions?|covers?|covered|covering)\b/gi,
+  // "interpolated" and "modelled" became "estimated" by approved plaincollege rulings.
+  ESTIMATE: /~|≈|\broughly\b|\bapproximately\b|\bestimat\w*|\binterpolat\w*|\bmodell?ed\b|\bprobabl[ey]\b|\blikel(?:y|iest)\b/gi,
+  // "ceiling" only as a money/aid limit; a course-pathway "ceiling" is a metaphor.
+  BOUND: /\bup to\b|\bat least\b|\bat most\b|\bno more than\b|\bexceed\b|\b(?:award|aid|grant|\d+%)[- ]ceiling\b|\bceiling (?:of|on) (?:aid|awards?|grants?|tuition|\$|\d)|\bcap\b|\bor higher\b|\bor more\b/gi,
+  DERIVED: /\bcomput\w*|\bderiv\w*|\bcalculat\w*|\barithmetic\b|\bwork(?:s|ed|ing)? (?:it |one |them )?out\b/gi,
+  THIRDPARTY: /\bthird[- ]party\b|\bsecondary sources?\b|\baggregators?\b|\bmirrors?\b|\barchived\b|\bWayback\b|\bretired\b|\boutside (?:\w+ )?(?:groups?|sources?|seals?|organizations?|listings?|websites?|sites?)\b/gi,
+  // "mean" only before a score or award word; elsewhere it is almost always the verb.
+  AVERAGE: /\baverage\b|\bmean (?:SAT|ACT|GPA|awards?|grants?|scores?)\b/gi,
+  MEDIAN: /\bmedian\b|\bmiddle (?:student|value|figure|award)\b/gi,
+  TYPICAL: /\btypical(?:ly)?\b/gi,
 }
+/** The financial-aid classes run only with --aid-markers (plan plainaid): in other areas
+ *  "covers", "leaves out", "average" and "worked out" describe tables and methods, not
+ *  costs, so they would fail approved rewrites there (College Support calibration:
+ *  25 such hits, none a slip). */
+const AID_CLASSES = new Set(['NEED', 'MERIT', 'DISCOUNT', 'REMISSION', 'LOAN', 'NOTCOVERED', 'COVERED', 'ESTIMATE', 'BOUND', 'DERIVED', 'THIRDPARTY', 'AVERAGE', 'MEDIAN', 'TYPICAL'])
 const markerCounts = (s) => {
   const t = s.replace(/\*\*/g, '').replace(/\s+/g, ' ')
   const out = {}
   for (const [k, re] of Object.entries(MARKERS)) {
-    const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : t
+    if (AID_CLASSES.has(k) && !aidMarkers) continue
+    const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : k === 'COVERED' ? t.replace(MARKERS.NOTCOVERED, ' ') : t
     out[k] = (src.match(re) ?? []).length
   }
   return out
@@ -116,27 +173,48 @@ const argv = process.argv.slice(2)
 const opt = (name, dflt) => { const i = argv.indexOf(name); return i === -1 ? dflt : argv[i + 1] }
 const flag = (name) => argv.includes(name)
 const base = opt('--base', 'main')
+const topic = opt('--topic', null)
+if (topic && argv.includes('--dir')) { console.error('plain_review: --topic and --dir are mutually exclusive'); process.exit(2) }
 const dir = opt('--dir', 'src/data/collegeSupportPrograms')
+let accessor = null
+if (topic) {
+  if (!ACCESSORS[topic]) { console.error(`plain_review: no accessor topic "${topic}" in i18n_topics.mjs`); process.exit(2) }
+  const [mod, fn] = ACCESSORS[topic]
+  const relFile = relative(ROOT, resolve(ROOT, 'scripts', mod))
+  const got = (await import(pathToFileURL(join(ROOT, relFile)).href))[fn]
+  if (typeof got !== 'function') { console.error(`plain_review: ${topic}'s accessor ${fn} is not a per-school function`); process.exit(2) }
+  accessor = { relFile, fn, slugs: SLUGS.filter((s) => got(s)) }
+}
+/** The file a school's units live in (accessor mode: one file for every school). */
+const relPathOf = (slug) => accessor ? accessor.relFile : `${dir}/${slug}.ts`
+/** The unit label the hook uses (accessor units are `slug:path`). */
+const unitLabel = (slug, path) => accessor ? `${slug}:${path}` : path
 const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)
 const matchRe = opt('--match', null) ? new RegExp(opt('--match')) : null
+const aidMarkers = argv.includes('--aid-markers')
 const pathsRe = opt('--paths', null) ? new RegExp(opt('--paths')) : null
 const mdPathsRe = opt('--md-paths', null) ? new RegExp(opt('--md-paths')) : null
 const inPaths = (p) => !pathsRe || pathsRe.test(p)
 const allowFiles = opt('--allow', null) ? opt('--allow').split(',').map((s) => s.trim()).filter(Boolean) : null
 const allowed = allowFiles ? new Set(allowFiles.flatMap((f) => JSON.parse(readFileSync(resolve(ROOT, f), 'utf8')).units.map((u) => u.at))) : null
-const allSlugs = readdirSync(join(ROOT, dir)).filter((f) => f.endsWith('.ts')).map((f) => f.replace(/\.ts$/, '')).sort()
+const allSlugs = accessor ? accessor.slugs : readdirSync(join(ROOT, dir)).filter((f) => f.endsWith('.ts')).map((f) => f.replace(/\.ts$/, '')).sort()
 const slugs = opt('--slugs', null) ? opt('--slugs').split(',').map((s) => s.trim()).filter(Boolean) : allSlugs
-for (const s of slugs) if (!allSlugs.includes(s)) { console.error(`plain_review: no ${dir}/${s}.ts`); process.exit(2) }
+for (const s of slugs) if (!allSlugs.includes(s)) { console.error(accessor ? `plain_review: ${topic} has no entry for ${s}` : `plain_review: no ${dir}/${s}.ts`); process.exit(2) }
 if (!outFile && !worklistFile && !flag('--check')) {
-  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re]')
+  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re]')
   process.exit(2)
 }
 const cfg = loadConfig()
 
 /* ------------------------------------------------------------- units -- */
 let bust = 0
+const modCache = new Map() // accessor mode only: one import per file per run
 async function entryOf(absFile, slug) {
+  if (accessor) {
+    if (!modCache.has(absFile)) modCache.set(absFile, await import(`${pathToFileURL(absFile).href}?t=${Date.now()}-${bust++}`))
+    return modCache.get(absFile)[accessor.fn](slug)
+  }
   const m = await import(`${pathToFileURL(absFile).href}?t=${Date.now()}-${bust++}`)
   const e = m[EXPORTS[slug]]
   if (!e) throw new Error(`${absFile}: no export ${EXPORTS[slug]}`)
@@ -180,10 +258,10 @@ const esc = (s) => String(s).replace(/\|/g, '\\|').replace(/\r?\n/g, '<br>')
 const fmtGrade = (g) => (g == null ? '—' : g.toFixed(1))
 const words = (s) => analyze(s, cfg).words
 
-function hookIssues(text, relPath, path, source) {
+function hookIssues(text, relPath, path, source, slug) {
   const lines = source.split('\n')
   const line = locateLine(source, text)
-  return filterAllowed(analyze(text, cfg).issues, { relPath, unitPath: path, line, sourceLines: lines, cfg })
+  return filterAllowed(analyze(text, cfg).issues, { relPath, unitPath: unitLabel(slug, path), line, sourceLines: lines, cfg })
 }
 
 /* -------------------------------------------------------------- main -- */
@@ -197,18 +275,23 @@ async function main() {
     const needBase = outFile || flag('--check')
     if (needBase) {
       snap = mkdtempSync(join(tmpdir(), 'plainreview-'))
-      execSync(`git archive ${base} src/data scripts | tar -x -C "${snap}"`, { cwd: ROOT, stdio: ['ignore', 'ignore', 'inherit'] })
+      execSync(`git archive ${base} src/data src/lib scripts | tar -x -C "${snap}"`, { cwd: ROOT, stdio: ['ignore', 'ignore', 'inherit'] })
     }
     const worklistSlugs = matchRe ? allSlugs : slugs
-    const visit = needBase ? [...new Set([...slugs])] : []
+    // Accessor mode visits every school: the whole-file guards must see them all.
+    const visit = needBase ? (accessor ? [...allSlugs] : [...new Set([...slugs])]) : []
+    const crossGroups = new Map() // accessor mode: base text → [`slug:path`] across schools
+    const crossAfter = new Map()  // `slug:path` → after text
 
     for (const slug of visit) {
-      const relPath = `${dir}/${slug}.ts`
+      const inBatch = slugs.includes(slug)
+      const relPath = relPathOf(slug)
       const source = readFileSync(join(ROOT, relPath), 'utf8')
       const after = await entryOf(join(ROOT, relPath), slug)
       const beforeFile = join(snap, relPath)
       if (!existsSync(beforeFile)) { failures.push(`(a) ${slug}: file absent at ${base}`); continue }
       const before = await entryOf(beforeFile, slug)
+      if (!before) { failures.push(`(a) ${slug}: no entry at ${base}`); continue }
       const pb = prose(before), pa = prose(after)
 
       // (a) structure
@@ -230,13 +313,20 @@ async function main() {
       }
 
       // (j) units that shared one text at base must still share one — whole file
-      const groups = new Map()
-      for (const [p, t] of pb) { if (!groups.has(t)) groups.set(t, []); groups.get(t).push(p) }
-      for (const paths of groups.values()) {
-        if (paths.length < 2) continue
-        const now = new Set(paths.map((p) => pa.get(p)))
-        if (now.size > 1) failures.push(`(j) ${slug}: repeat group now holds ${now.size} texts — ${paths.join(', ')}`)
+      // (accessor mode: across every school, checked after the loop)
+      if (accessor) {
+        for (const [p, t] of pb) { if (!crossGroups.has(t)) crossGroups.set(t, []); crossGroups.get(t).push(`${slug}:${p}`) }
+        for (const [p, t] of pa) crossAfter.set(`${slug}:${p}`, t)
+      } else {
+        const groups = new Map()
+        for (const [p, t] of pb) { if (!groups.has(t)) groups.set(t, []); groups.get(t).push(p) }
+        for (const paths of groups.values()) {
+          if (paths.length < 2) continue
+          const now = new Set(paths.map((p) => pa.get(p)))
+          if (now.size > 1) failures.push(`(j) ${slug}: repeat group now holds ${now.size} texts — ${paths.join(', ')}`)
+        }
       }
+      if (!inBatch) continue
 
       let changed = 0
       for (const [path, b] of pb) {
@@ -250,9 +340,11 @@ async function main() {
         if (du) failures.push(`(c) ${at}: URLs/emails differ ${du}`)
         const dd = diffList(dateTokens(b), dateTokens(a))
         if (dd) failures.push(`(g) ${at}: date/time tokens differ ${dd}`)
+        const dm = diffList(moneyTokens(b), moneyTokens(a))
+        if (dm) failures.push(`(m) ${at}: money/percent/year tokens differ ${dm}`)
         const mb = markerCounts(b), ma = markerCounts(a)
         const markerNotes = []
-        for (const k of Object.keys(MARKERS)) {
+        for (const k of Object.keys(mb)) {
           if (Boolean(mb[k]) !== Boolean(ma[k])) failures.push(`(h) ${at}: ${k} marker ${mb[k] ? 'lost' : 'added'} (${mb[k]}→${ma[k]})`)
           else if (mb[k] !== ma[k]) markerNotes.push(`${k} ${mb[k]}→${ma[k]}`)
         }
@@ -273,24 +365,29 @@ async function main() {
         notes.push(...markerNotes)
         const ga = analyze(a, cfg).grade, gb = analyze(b, cfg).grade
         if (ga != null && ga > cfg.targetGrade) notes.push(`grade ${ga.toFixed(1)} > ${cfg.targetGrade}`)
-        const hk = hookIssues(a, relPath, path, source)
+        const hk = hookIssues(a, relPath, path, source, slug)
         rows.push({ slug, path, b, a, wb: words(b), wa: words(a), gb, ga, hook: hk.length ? hk.map((i) => i.detail).join('; ') : 'pass', notes: notes.join('; ') })
       }
       perSchool.set(slug, changed)
       for (const path of added) if (!pb.has(path)) { /* counted under (a) */ }
     }
+    for (const sites of crossGroups.values()) {
+      if (sites.length < 2) continue
+      const now = new Set(sites.map((k) => crossAfter.get(k)))
+      if (now.size > 1) failures.push(`(j) repeat group now holds ${now.size} texts — ${sites.join(', ')}`)
+    }
 
     if (worklistFile) {
       for (const slug of worklistSlugs) {
         const inBatch = slugs.includes(slug)
-        const relPath = `${dir}/${slug}.ts`
+        const relPath = relPathOf(slug)
         const source = readFileSync(join(ROOT, relPath), 'utf8')
         const after = await entryOf(join(ROOT, relPath), slug)
         for (const [path, text] of prose(after)) {
           if (!inPaths(path)) continue
           if (!inBatch && !(matchRe && matchRe.test(text))) continue
           const { grade, words: w } = analyze(text, cfg)
-          const issues = hookIssues(text, relPath, path, source)
+          const issues = hookIssues(text, relPath, path, source, slug)
           const overTarget = grade != null && grade > cfg.targetGrade
           const shared = Boolean(matchRe && matchRe.test(text))
           // In-batch: flagged or over target. Out-of-batch: only the shared templates.
@@ -300,20 +397,20 @@ async function main() {
       }
       mkdirSync(dirname(resolve(ROOT, worklistFile)), { recursive: true })
       const counts = Object.fromEntries(worklistSlugs.map((s) => [s, work.filter((w) => w.slug === s).length]).filter(([, n]) => n))
-      writeFileSync(resolve(ROOT, worklistFile), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), dir, slugs, match: matchRe?.source ?? null, ...(pathsRe ? { paths: pathsRe.source } : {}), total: work.length, counts, units: work }, null, 2) + '\n')
+      writeFileSync(resolve(ROOT, worklistFile), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), ...(accessor ? { topic, file: accessor.relFile } : { dir }), slugs, match: matchRe?.source ?? null, ...(pathsRe ? { paths: pathsRe.source } : {}), total: work.length, counts, units: work }, null, 2) + '\n')
       console.log(`worklist: ${work.length} units → ${relative(ROOT, resolve(ROOT, worklistFile))}`)
       for (const [s, n] of Object.entries(counts)) console.log(`  ${s}: ${n}`)
     }
 
     if (outFile) {
       const L = []
-      L.push(`# Plain-language review — ${dir}`, '')
+      L.push(`# Plain-language review — ${accessor ? `${topic} (${accessor.relFile})` : dir}`, '')
       L.push(`Base \`${base}\` → working tree. Generated ${new Date().toISOString().slice(0, 10)} by \`scripts/plain_review.mjs\`. ` +
         `Grades are Flesch–Kincaid over units of ≥${cfg.gradeMinWords} words (— below that). "hook" is what the PostToolUse hook would still report.`, '')
       L.push('| School | Changed units |', '|---|--:|')
       for (const [s, n] of perSchool) L.push(`| ${s} | ${n} |`)
       L.push(`| **Total** | **${rows.length}** |`, '')
-      L.push(`Guards: ${failures.length ? `**${failures.length} FAILED**` : `all pass (paths, digits, URLs/emails, quotes, year spans, non-prose leaves, dates/times, markers, repeats${allowed ? ', worklist-only edits' : ''}${mdPathsRe ? ', markdown fields' : ''})`}.`, '')
+      L.push(`Guards: ${failures.length ? `**${failures.length} FAILED**` : `all pass (paths, digits, URLs/emails, quotes, year spans, non-prose leaves, dates/times, money/percent/year tokens, markers, repeats${accessor ? ' across schools' : ''}${allowed ? ', worklist-only edits' : ''}${mdPathsRe ? ', markdown fields' : ''})`}.`, '')
       if (failures.length) { for (const f of failures) L.push(`- ${esc(f)}`); L.push('') }
       L.push('| # | school | path | before | after | words b→a | grade b→a | hook | notes |', '|--:|---|---|---|---|---|---|---|---|')
       rows.forEach((r, i) => L.push(`| ${i + 1} | ${r.slug} | \`${r.path}\` | ${esc(r.b)} | ${esc(r.a)} | ${r.wb}→${r.wa} | ${fmtGrade(r.gb)}→${fmtGrade(r.ga)} | ${esc(r.hook)} | ${esc(r.notes)} |`))

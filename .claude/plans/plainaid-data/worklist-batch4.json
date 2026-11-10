@@ -1,0 +1,216 @@
+{
+  "generated": "2026-11-10",
+  "topic": "financial-aid-report",
+  "file": "src/data/financialAidReports.ts",
+  "slugs": [
+    "charlotte-catholic",
+    "covenant-day",
+    "carmel-christian",
+    "hickory-grove-christian"
+  ],
+  "match": null,
+  "total": 18,
+  "counts": {
+    "charlotte-catholic": 4,
+    "covenant-day": 4,
+    "carmel-christian": 4,
+    "hickory-grove-christian": 6
+  },
+  "units": [
+    {
+      "at": "charlotte-catholic:framing[1].body",
+      "slug": "charlotte-catholic",
+      "path": "framing[1].body",
+      "words": 33,
+      "grade": 11.6,
+      "rules": [],
+      "text": "MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attribution, so no tuition trend is shown here rather than one built from unattributable numbers."
+    },
+    {
+      "at": "charlotte-catholic:sections[0].figureNote",
+      "slug": "charlotte-catholic",
+      "path": "sections[0].figureNote",
+      "words": 64,
+      "grade": 11.4,
+      "rules": [],
+      "text": "This is the structural feature no other school on this roster has: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041** where a community family pays **$21,562** for the same seat in the same classroom — a **$6,521 difference, roughly 30%**. Because CCHS is a 9–12 school, there is no grade-band ladder at all; these three rows are the entire schedule."
+    },
+    {
+      "at": "charlotte-catholic:sections[2].boxes[0].body",
+      "slug": "charlotte-catholic",
+      "path": "sections[2].boxes[0].body",
+      "words": 43,
+      "grade": 8.1,
+      "rules": [
+        "long"
+      ],
+      "text": "Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not the need-assessment platform — an easy and consequential mix-up, since most schools on this roster run FACTS Grant & Aid for assessment. **TADS is not used.**"
+    },
+    {
+      "at": "charlotte-catholic:sections[4].boxes[0].body",
+      "slug": "charlotte-catholic",
+      "path": "sections[4].boxes[0].body",
+      "words": 37,
+      "grade": 12,
+      "rules": [
+        "grade"
+      ],
+      "text": "CCHS and MACS publish **no merit scholarships** of their own — no academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), parish-status-based (the Catholic rate and multi-child discounts), or state-funded."
+    },
+    {
+      "at": "covenant-day:sections[0].figureNote2",
+      "slug": "covenant-day",
+      "path": "sections[0].figureNote2",
+      "words": 33,
+      "grade": 17.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish."
+    },
+    {
+      "at": "covenant-day:sections[1].boxes[0].body",
+      "slug": "covenant-day",
+      "path": "sections[1].boxes[0].body",
+      "words": 47,
+      "grade": 14.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held."
+    },
+    {
+      "at": "covenant-day:sections[3].boxes[0].body",
+      "slug": "covenant-day",
+      "path": "sections[3].boxes[0].body",
+      "words": 71,
+      "grade": 11.8,
+      "rules": [
+        "long"
+      ],
+      "text": "Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found."
+    },
+    {
+      "at": "covenant-day:sections[4].boxes[0].body",
+      "slug": "covenant-day",
+      "path": "sections[4].boxes[0].body",
+      "words": 30,
+      "grade": 11.5,
+      "rules": [],
+      "text": "No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published."
+    },
+    {
+      "at": "carmel-christian:sections[1].componentsNote",
+      "slug": "carmel-christian",
+      "path": "sections[1].componentsNote",
+      "words": 55,
+      "grade": 12.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The $500 enrollment (or re-enrollment) fee is non-refundable and, per the school, must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons; the PDF names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs without stating amounts."
+    },
+    {
+      "at": "carmel-christian:sections[3].boxes[0].body",
+      "slug": "carmel-christian",
+      "path": "sections[3].boxes[0].body",
+      "words": 69,
+      "grade": 15.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Carmel Christian is a ministry of Carmel Baptist Church and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the school itself. Every other school in this project (bar Covenant Day) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found."
+    },
+    {
+      "at": "carmel-christian:sections[3].boxes[1].body",
+      "slug": "carmel-christian",
+      "path": "sections[3].boxes[1].body",
+      "words": 57,
+      "grade": 15,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "A related nonprofit, the **Carmel Educational Foundation** (EIN 56-2107877), does file: FY2025 (year ending 31 July) total revenue **$1,068,745**, total expenses **$618,023**, net assets **$1,894,088**, with contributions ~93.6% of revenue. But the return carries **no separate scholarship or grant line**, and the Foundation-to-school link, while probable, is not explicitly stated — so it yields no school-level aid figure and is not presented as one."
+    },
+    {
+      "at": "carmel-christian:sections[5].boxes[0].body",
+      "slug": "carmel-christian",
+      "path": "sections[5].boxes[0].body",
+      "words": 43,
+      "grade": 11.5,
+      "rules": [],
+      "text": "The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family's FACTS portal. No annual or paid-in-full alternative, no prepayment discount, and no late-payment or withdrawal terms appear on the retrieved sources."
+    },
+    {
+      "at": "hickory-grove-christian:sections[0].figureNote",
+      "slug": "hickory-grove-christian",
+      "path": "sections[0].figureNote",
+      "words": 56,
+      "grade": 14.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Three bands from transitional kindergarten through grade 12, a $2,250 spread from lowest to highest. The school's own tuition-and-fees page renders its fee tables through an embedded FACTS/portal widget, so these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second aggregator) that match the school's published $11,500–$13,750 range, rather than lifted char-for-char from a school PDF."
+    },
+    {
+      "at": "hickory-grove-christian:sections[1].boxes[1].body",
+      "slug": "hickory-grove-christian",
+      "path": "sections[1].boxes[1].body",
+      "words": 39,
+      "grade": 11,
+      "rules": [],
+      "text": "No decision timeline, appeals process, or award-ceiling policy appears on the public record. The FACTS payment-plan installment count and any plan fee are set inside the portal. Automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027** per the school."
+    },
+    {
+      "at": "hickory-grove-christian:sections[2].figureNote",
+      "slug": "hickory-grove-christian",
+      "path": "sections[2].figureNote",
+      "words": 32,
+      "grade": 15,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The school publishes no percentage of students on aid, no total awarded, and no average award — and none can be derived, because there is no public financial disclosure to derive them from."
+    },
+    {
+      "at": "hickory-grove-christian:sections[2].boxes[0].body",
+      "slug": "hickory-grove-christian",
+      "path": "sections[2].boxes[0].body",
+      "words": 77,
+      "grade": 17,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church** and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the church as a school operator. Every other school in this project (bar Covenant Day and Carmel Christian) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found."
+    },
+    {
+      "at": "hickory-grove-christian:sections[2].boxes[1].body",
+      "slug": "hickory-grove-christian",
+      "path": "sections[2].boxes[1].body",
+      "words": 44,
+      "grade": 14.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The NC Opportunity Scholarship 2023-24 annual report lists **224 recipients / $1,441,873 / ≈$6,437 average** flowing to HGCS families. That is **state-voucher money paid to families, not institutional need-based aid** — it is recorded here only for traceability and is deliberately not presented as the school's aid rate, total, or average."
+    },
+    {
+      "at": "hickory-grove-christian:sections[4].boxes[0].body",
+      "slug": "hickory-grove-christian",
+      "path": "sections[4].boxes[0].body",
+      "words": 42,
+      "grade": 11.4,
+      "rules": [],
+      "text": "The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family's FACTS portal. No paid-in-full alternative beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear on the retrieved sources."
+    }
+  ]
+}

@@ -292,7 +292,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'No merit track',
-          body: 'A family cannot apply for an academic, arts or athletic scholarship — the school does not offer one. Individual endowed funds carry published criteria (e.g. full tuition + ancillaries for an entire career; four years for a scholar-athlete; K–4 full tuition).',
+          body: 'A family cannot apply for an academic, arts or athletic scholarship, because the school does not offer one. Individual endowed funds have published criteria. Examples: full tuition plus ancillaries (extra costs) for a student\'s entire time at the school · four years for a scholar-athlete · K–4 full tuition.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -359,7 +359,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         },
         {
           tag: 'THE MIDDLE-INCOME QUESTION',
-          body: 'Nothing is published for families above the typical aid threshold but below comfortable full payment — no sliding scale, no indexed tuition. A gap shared by most independent schools, not a finding about this one.',
+          body: 'Nothing is published for families above the typical aid threshold who would still find full tuition hard to pay. No sliding scale is published, and no indexed tuition (a price set by family income). This gap is shared by most independent schools. It is not a finding about this one.',
         },
       ],
       questionsNote:
@@ -495,15 +495,15 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'Platform & cost to apply',
-          body: '**Clarity Tuition** · $65 per household, non-refundable, charged by the platform · waivers applied automatically for qualifying incomes. Flat regardless of how many children or schools. Decided by a committee of the director of financial aid, the director of business and finance, and an associate director of admission.',
+          body: '**Clarity Tuition** · $65 per household, non-refundable, charged by the platform · fee waived automatically for qualifying incomes. The fee is the same no matter how many children or schools. Aid is decided by a committee: the director of financial aid, the director of business and finance, and an associate director of admission.',
         },
         {
           title: 'Divorced or separated parents',
-          body: 'Both custodial and non-custodial parents must each complete a Clarity application. Remarriage creates a new family unit — step-parent income and assets are treated as relevant, though obligations to a new family are considered. Cannon will not allocate a grant proportionally between two households.',
+          body: 'Both custodial and non-custodial parents must each complete a Clarity application. Remarriage creates a new family unit. A step-parent\'s income and assets are taken into account, though duties to a new family are also weighed. Cannon will not split a grant proportionally between two households.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No appeals or reconsideration process · no mid-year change-of-circumstance policy · no release date for aid decisions. **Hazard:** the total awarded appears only in the Student Profile, a document written for college admissions offices — a family reading the financial aid page top to bottom would never encounter it.',
+          body: 'No process to appeal or ask for a second look · no policy for a mid-year change in a family\'s situation · no release date for aid decisions. **Hazard:** the total awarded appears only in the Student Profile, a document written for college admissions offices. A family reading the financial aid page top to bottom would never see it.',
         },
       ],
       source:
@@ -529,7 +529,7 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'No merit track',
-          body: 'On two separate pages Cannon states plainly that it offers no merit scholarships, and specifically no academic, arts or athletics scholarships. All grants are strictly need-based, and a grant is not a loan — it is not owed back to the school.',
+          body: 'On two separate pages, Cannon states plainly that it offers no merit scholarships, and specifically no academic, arts or athletics scholarships. All grants are strictly need-based. A grant is not a loan: it does not have to be paid back to the school.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -605,7 +605,7 @@ const CANNON: FinancialAidReport = {
         },
         {
           tag: 'SIX YEARS OF RATES, FROM THE ARCHIVE',
-          body: 'The live site publishes only the current year, but archived copies carry 2021–22 onward. Most bands track 2–4.5% a year, with one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table — worth asking about if your child is entering middle school.',
+          body: 'The live site publishes only the current year, but archived copies show 2021–22 onward. Most bands rise 2–4.5% a year. The one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table. That is worth asking about if your child is entering middle school.',
         },
         {
           tag: 'FEE TREND, 2024–25 → 2026–27',
@@ -706,7 +706,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { label: 'Middle school extended day · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program — a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule, which is not the same as confirming no such costs exist.',
+        'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program, which leaves a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule. That is not the same as confirming no such costs exist.',
       stats: [
         { value: '$21,600', label: 'Early Education all-in, common case (JK–K)' },
         { value: '$27,355', label: 'Upper School all-in, common case (gr. 9–12)' },
@@ -747,15 +747,15 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           title: 'A requirement unique in this series — and since withdrawn',
-          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**, a state program whose applications opened 2 February. Across the schools examined here, this was the only instance of a school conditioning its own assistance application on a parallel state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it, consistent with its own note that NC Opportunity Scholarship participation concludes after 2025–26.',
+          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. No other school on this site made its own aid application depend on a state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school\'s own note that NC Opportunity Scholarship participation ends after 2025–26.',
         },
         {
           tag: 'DOCUMENTATION HAZARD',
-          body: 'The 2026–27 instruction sheet states the documentation requirement **twice, and the two statements do not match** — one asks for the 2024 return plus the 2025 return when available and a 2025 W-2; the other asks for the 2025 return, or the 2024 return with 2025 W-2s. We decline to choose a reading; confirm with the school.',
+          body: 'The 2026–27 instruction sheet lists the documentation requirement **twice, and the two statements do not match**. One asks for the 2024 return, plus the 2025 return when available and a 2025 W-2. The other asks for the 2025 return, or the 2024 return with 2025 W-2s. This report does not pick one; confirm with the school.',
         },
         {
           title: 'Renewal & conditions',
-          body: 'Families reapply each year, and awards may be larger or smaller than the previous year as circumstances and the pool change. Awards are granted only after a student is accepted. As a member of the state independent schools athletic association, no student may receive assistance of any form in exchange for athletic participation.',
+          body: 'Families reapply each year. An award may be larger or smaller than the year before, as circumstances and the aid pool change. Awards are granted only after a student is accepted. The school belongs to the state independent schools athletic association, so no student may receive assistance of any form in exchange for playing a sport.',
         },
       ],
       source:
@@ -769,7 +769,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       tag: 'AID CAPPED AT 50% OF TUITION',
       figureCaption: 'The published 50% ceiling, by band',
       figureNote2:
-        "The school states grants will not exceed 50% of tuition, to extend assistance to as many families as possible. The figures below are our arithmetic against that cap — emphatically not a typical award.",
+        "The school states grants will not exceed 50% of tuition, so that aid reaches as many families as possible. The figures below are our arithmetic against that cap. They are not a typical award, and should not be read as one.",
       ladder: [
         { gift: 'Early Ed', share: 50, detail: 'ceiling · $10,650/yr' },
         { gift: 'Lower', share: 50, detail: 'ceiling · $11,647.50/yr' },
@@ -789,7 +789,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'Clergy, faculty and partner-school support are named in fundraising materials but not documented as programs a family can apply to — whether they are distinct remissions or designated funding inside the general need-based program is not published. No academic or general merit scholarship exists; athletic awards are explicitly excluded.',
+          body: 'Fundraising materials name clergy, faculty and partner-school support. They are not listed as programs a family can apply to. The school does not publish whether each is a separate tuition remission (lower tuition for that group) or money set aside within the main need-based program. No academic or general merit scholarship exists. Athletic awards are explicitly excluded.',
         },
       ],
       source:
@@ -830,11 +830,11 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'CURRENCY WARNING — CONTRACT TERMS TAGGED 2023–24',
-          body: 'These terms come from the 2023–24 enrollment packet, three years behind the tuition table above, and we could not confirm they are still current. As published then: **no tuition refund for any reason** without the Tuition Protection Program; with it, 90% of unused tuition refunded on withdrawal before 1 May, and **no refund after 30 April**. Withdrawal begins with written notice to the division principal.',
+          body: 'These terms come from the 2023–24 enrollment packet, three years behind the tuition table above. We could not confirm they are still current. As published then, the terms allow **no tuition refund for any reason** without the Tuition Protection Program. With it, 90% of unused tuition is refunded on withdrawal before 1 May, and there is **no refund after 30 April**. Withdrawal begins with written notice to the division principal.',
         },
         {
           tag: 'ARREARS, PER THE SAME 2023–24 PACKET',
-          body: 'A missed payment constitutes default, and at the school\'s option all tuition and fees become immediately due. An account more than sixty days past due may result in enrollment being revoked and referral to a collection agency, with court and legal costs assumed by the responsible party.',
+          body: 'A missed payment counts as a default (a failure to pay as agreed). The school may then make all tuition and fees due at once. If an account is more than sixty days past due, the school may revoke enrollment and refer the account to a collection agency. The responsible party then pays the court and legal costs.',
         },
       ],
       source:
@@ -860,7 +860,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'THE REACH GAP',
-          body: 'Section 4 is the weak point at 62%: the 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts *received into* the assistance fund are published ($48,422 in 2020–21 falling to $23,798 in 2024–25) — but money received is not money awarded, and the two should not be read as each other.',
+          body: 'Section 4\'s weak point is how far aid reaches and how large awards are. The 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts received into the assistance fund are published: $48,422 in 2020–21, falling to $23,798 in 2024–25. But money received is not money awarded, and one should not be read as the other.',
         },
       ],
       questionsNote:
@@ -922,7 +922,7 @@ const COVENANT_DAY: FinancialAidReport = {
       figureNote:
         'Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.',
       figureNote2:
-        'The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish.',
+        'The school states what tuition includes: on-campus computers/iPads · technology expenses · school retreats and required field trips · science lab and elective fees · most athletic expenses. Several other schools on this site do not publish a list like this.',
       source:
         'covenantday.org — Tuition & Financial Aid (2026-27 table); 2025-2026 Tuition Payment Terms and Conditions PDF, retrieved 15 Aug 2026',
     },
@@ -946,7 +946,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'The deposit is aid-aware',
-          body: 'The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held.',
+          body: 'The $1,000 per-student deposit is non-refundable and credited to tuition. Families who send in a completed aid application before they enroll may ask the Business Office to **halve it** while the application is reviewed. But if you wait for an aid decision and do not pay the deposit, no seat is held.',
         },
       ],
       source:
@@ -1004,7 +1004,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
       ],
       source:
@@ -1037,7 +1037,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.',
+          body: 'No merit scholarships appear on the public record. Aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.',
         },
       ],
       source:
@@ -1171,15 +1171,15 @@ const DAVIDSON_DAY: FinancialAidReport = {
         { label: 'Current enrollment deposit · no amount', status: 'unpriced' },
       ],
       componentsNote:
-        'A range built mostly from missing parts would look authoritative and mislead, so we have not built one. Extended care, athletics and arts are the notable gaps — all three are also named in the aid exclusions, so they are confirmed real costs a family pays on top of an award.',
+        'A range built mostly from missing prices would look reliable but mislead, so we have not built one. Extended care, athletics and arts are the main gaps. All three are also named in the aid exclusions. So they are confirmed real costs a family pays on top of an award.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — THE DEPOSIT',
-          body: 'The deposit was **$2,400 per student for 2022–23**; the current amount is not published. The school states only that it appears inside each family\'s Enrollment Tuition Contract, behind the family portal, and is drafted immediately by bank transfer once the contract is signed. Refundability is not published either.',
+          body: 'The deposit was **$2,400 per student for 2022–23**. The current amount is not published. The school says only two things about the deposit. It appears in each family\'s Enrollment Tuition Contract, inside the family portal. And it is drafted by bank transfer as soon as the contract is signed. Refundability is not published either.',
         },
         {
           title: 'Uniforms & transportation',
-          body: 'Uniforms are required (Early Preschool exempt); families buy from general retailers with the logo applied by a local vendor, so garment prices are set by vendors and not published by the school as a fee. No school-provided busing or transportation charge was found — most likely because none is offered rather than a price being withheld.',
+          body: 'Uniforms are required (Early Preschool exempt). Families buy them from regular stores, and a local vendor adds the logo. So clothing prices are set by those sellers, and the school does not publish them as a fee. No school bus or transportation charge was found. Most likely that is because none is offered, not because a price is being withheld.',
         },
       ],
       source:
@@ -1220,11 +1220,11 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           title: 'Divorced or separated parents',
-          body: 'Each parent is expected to complete a Clarity application and supply tax returns. The only stated exception is a divorce agreement assigning sole responsibility for educational expenses to one parent.',
+          body: 'Each parent is expected to complete a Clarity application and send tax returns. The only stated exception is a divorce agreement that makes one parent alone responsible for school costs.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No appeals or reconsideration process · no mid-year change-of-circumstance policy · no public position on whether admission is need-blind or need-aware · the committee\'s composition. **Hazard:** retired aid pages still in search results describe Acclaim as being for rising 8th-graders and Wolter for rising 9th-graders in 2025–26 — the current live page says Class of 2030 and Upper School applicants.',
+          body: 'No process to appeal or ask for a second look · no policy for a mid-year change in a family\'s situation · no public position on whether admission is need-blind (decided without looking at ability to pay) or need-aware (ability to pay can count) · no list of who sits on the committee. **Hazard:** retired aid pages still in search results describe Acclaim as being for rising 8th-graders and Wolter for rising 9th-graders in 2025–26. The current live page says Class of 2030 and Upper School applicants.',
         },
       ],
       source:
@@ -1255,7 +1255,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
       ],
       figureNote:
-        'Acclaim Scholars marks the school\'s 25th anniversary and expects a strong academic profile and exemplary character. The Wolter Family Foundation Scholarship is externally funded by a Cornelius-based family foundation and asks for strong recommendations and significant demonstrated need. Both are contingent on the student remaining in good standing.',
+        'Acclaim Scholars marks the school\'s 25th anniversary. It expects a strong academic record and excellent character. The Wolter Family Foundation Scholarship is paid for by a family foundation based in Cornelius, not by the school. It asks for strong recommendations and significant demonstrated need. Both depend on the student staying in good standing.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — THE AWARD CEILING\'S ARITHMETIC',
@@ -1263,7 +1263,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
-          body: 'No sibling, military or clergy discount is published, and no indexed or sliding-scale tuition. The school runs a separate enrollment process and an eleven-month plan for employee parents, but whether any tuition remission accompanies employment is not on the public record. How many scholarships are granted each year, and their renewal criteria beyond "good standing," are also unpublished.',
+          body: 'No sibling, military or clergy discount is published. No indexed tuition (a price set by family income) or sliding scale is published either. Employee parents have a separate enrollment process and an eleven-month payment plan. But the public record does not show whether working at the school brings any tuition remission (reduced tuition for employees). How many scholarships are given each year, and what it takes to renew them beyond "good standing," are also unpublished.',
         },
       ],
       source:
@@ -1279,7 +1279,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
           figure: '11×',
           label: 'Eleven-month plan',
           detail:
-            'An eleven-month plan exists; installment due dates are not published. Employee-facing materials carry a Truth in Lending disclosure putting the additional cost of paying monthly at **$0** — but no equivalent statement is published for general families.',
+            'An eleven-month plan exists, but its installment due dates are not published. Materials for employees carry a Truth in Lending disclosure that puts the additional cost of paying monthly at **$0**. No matching statement is published for other families.',
           emphasis: true,
         },
         {
@@ -1298,13 +1298,13 @@ const DAVIDSON_DAY: FinancialAidReport = {
           figure: '—',
           label: 'Full menu not published',
           detail:
-            'Whether annual, semi-annual and monthly are all offered, and on what terms, is presented inside each family\'s contract rather than published. No prepayment discount; no external tuition lender is named — billing is handled in-house.',
+            'Each family\'s contract, not a public page, shows whether annual, semi-annual and monthly plans are all offered, and on what terms. No prepayment discount or outside tuition lender is named, and billing is handled in-house.',
         },
       ],
       boxes: [
         {
           tag: 'NOT PUBLISHED — CONTRACT TERMS',
-          body: 'Deposit refundability · a family\'s financial obligation on withdrawal or mid-year departure. These terms live in the Enrollment Tuition Contract, which is issued to enrolling families through the portal and is not publicly available.',
+          body: 'Deposit refundability · what a family owes if it withdraws or leaves mid-year. These terms are in the Enrollment Tuition Contract. Enrolling families get it through the portal, and it is not publicly available.',
         },
       ],
       source:
@@ -1326,7 +1326,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'FOUR YEARS, FROM THE ARCHIVE',
-          body: 'The school publishes no rate history — the current-year table overwrites the previous one — but archived copies carry 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns in this series. Early Childhood years are excluded from the run above because the number of years a child spends in that band varies.',
+          body: 'The school publishes no rate history, because each year\'s table replaces the one before. But archived copies show 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns among the schools on this site. Early Childhood years are left out of the run above, because the number of years a child spends in that band varies.',
         },
         {
           tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
@@ -1395,7 +1395,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         { label: 'Grades 9–12', amount: 36500 },
       ],
       figureNote:
-        'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees; textbooks are included in TK–5 but are an additional expense in grades 6–12, and that amount is not published.',
+        'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees. Textbooks are included in TK–5. In grades 6–12 they are an additional expense, and that amount is not published.',
       figureNote2:
         'Enrollment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
       source:
@@ -1482,12 +1482,12 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           body: 'The school defines need plainly: "the difference between tuition and the family\'s ability to pay for tuition." It states it "strives to cover 100% of the identified family\'s need" — an aim, not a guarantee, and not read here as a promise of any particular award. A **Financial Aid Committee** conducts the review and decision.',
         },
         {
-          title: 'Need-blind',
+          title: 'Need-blind (admission decided without looking at ability to pay)',
           body: 'The published financial aid questions-and-answers document states an applying family can expect "**a need-blind decision**" — the clearest available statement that applying for aid is described as not affecting the admission decision.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'What it costs a family to file (aid platforms commonly charge a fee; the pages do not say whether one applies) · when aid decisions arrive relative to admission decisions · the confidentiality policy — who inside the school sees a family\'s financial information, and how long it is retained.',
+          body: 'What it costs a family to apply (aid platforms often charge a fee, and the pages do not say whether one applies here) · when aid decisions arrive compared with admission decisions · the confidentiality policy: who inside the school sees a family\'s financial information, and how long it is kept.',
         },
       ],
       source:
@@ -1509,11 +1509,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       boxes: [
         {
           title: 'What is published, and where',
-          body: 'Total awarded **$3.25M**, aid as **6%** of operational budget, average award **$17,900**, and **36 students across 17 endowed scholarships** — all 2024–25, all on the tuition page. Separately: **$3.125M** offered in 2021–22 (strategic plan) and an undated "over three million dollars" (policies page). These are not added together and are not a trend — different pages, different years, and in one case no year at all.',
+          body: 'The tuition page gives four 2024–25 figures: total awarded **$3.25M** · aid as **6%** of operational budget · average award **$17,900** · **36 students across 17 endowed scholarships**. Two other pages give other totals: **$3.125M** offered in 2021–22 (strategic plan) and "over three million dollars" with no year (policies page). This report does not add these together or treat them as a trend. They come from different pages and different years, and one has no year at all.',
         },
         {
           tag: 'THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR',
-          body: 'The measure most families look for first **is** published — but on the strategic-plan site, a separate web property from admissions, as "14% of students receiving some funding." The denominator is clear and it is the right one: a share of **students**, not of applicants or filers, which are different and usually larger-looking numbers. The year is not. The sentence sits beside a figure tagged 2021–22, but adjacency is not a year tag and is not treated as one here.',
+          body: 'The measure most families look for first **is** published. It appears on the strategic-plan site, a separate website from admissions, as "14% of students receiving some funding." It is clear what the share is out of, and it is the right group. It is a share of **students**, not of applicants or aid filers. Shares of those groups are different and usually look larger. It carries no year. It sits beside a figure tagged 2021–22, but sitting beside a dated figure does not give it that year, and this report does not treat it that way.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -1521,11 +1521,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Supplemental support',
-          body: 'Beyond tuition assistance, the school states that for its **highest-need families** it also covers supplemental support for school essentials, **including lunch**. The scope beyond lunch, and the threshold at which a family qualifies, are not published.',
+          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. It does not publish what else this help covers, or how much need makes a family eligible.',
         },
         {
           tag: 'HOW TO READ THE 990 FIGURE',
-          body: 'Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024: grants to domestic individuals **$3.0M**, total revenue $55.7M, total expenses $55.1M. This is aggregate institutional accounting filed with the IRS, not a school statement about its aid program — it runs one to two years behind the current school year and its definition of a grant need not match what the school counts as tuition assistance. Context only; it does not close the gaps above.',
+          body: 'Charlotte Latin Schools Inc, EIN 56-0944449 (federal tax ID number), FY ending June 2024: grants to domestic individuals **$3.0M** · total revenue $55.7M · total expenses $55.1M. These are whole-school accounts filed with the IRS, not a school statement about its aid program. They run one to two years behind the current school year. Their definition of a grant may also not match what the school counts as tuition assistance. This is context only; it does not close the gaps above.',
         },
       ],
       source:
@@ -1540,15 +1540,15 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       boxes: [
         {
           title: 'The Malone Scholars program',
-          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**, endowed by the Malone Family Foundation to provide scholarships to highly capable students. The foundation\'s published basis for selecting its fifty partner schools nationally: academic caliber, quality of staff, accommodations for gifted and talented students, strong Advanced Placement and enrichment programs, attention to individual student needs, and an economically, culturally, ethnically and socially diverse population.',
+          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**. It says the Malone Family Foundation endowed the school to provide scholarships to highly capable students. The foundation has fifty partner schools across the country. Its published criteria for choosing them are: academic quality · quality of staff · support for gifted and talented students · strong Advanced Placement and enrichment programs · attention to each student\'s needs · a student body that is diverse economically, culturally, ethnically and socially.',
         },
         {
           title: 'Named funds that reach beyond tuition',
-          body: 'The scholarships document states that the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover additional school expenses **beyond tuition**, that they are Middle and Upper School awards, and that they are made **at the time of admission**. That is a meaningful distinction: a scholarship reaching costs beyond tuition addresses precisely the gap Section 02 describes. (Document summary only — the body could not be opened.)',
+          body: 'The scholarships document states three things about the **Malone, Sunny, Thrive, Wall and Kearney** scholarships. They cover additional school expenses **beyond tuition**. They are Middle and Upper School awards. They are made **at the time of admission**. That matters, because a scholarship that pays for costs beyond tuition is aimed at exactly the gap Section 02 describes. (This comes from the document\'s summary only; the full document could not be opened.)',
         },
         {
           tag: 'NOT PUBLISHED — SIZES, CRITERIA AND STACKING',
-          body: 'For each named fund the public record does not state the award amount, how many are awarded in a year, the eligibility criteria, or whether a scholarship can be held alongside need-based aid. The one quantitative anchor is that **36 students held awards from 17 endowed scholarships in 2024–25** — a reach figure, not an award size. Ask which scholarships an applicant would be considered for, whether consideration is automatic, and whether an award reduces need-based aid.',
+          body: 'For each named fund, the public record does not state the award amount, how many are given in a year, or who is eligible. Nor does it say whether a scholarship can be held alongside need-based aid. The one number published is that **36 students held awards from 17 endowed scholarships in 2024–25**. That shows how many students the funds reach, not how large an award is. Ask which scholarships an applicant would be considered for, whether that happens automatically, and whether an award reduces need-based aid.',
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
@@ -1595,7 +1595,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — THE WITHDRAWAL OBLIGATION',
-          body: 'The public pages do not set out the withdrawal or mid-year departure obligation, any refund schedule, or the point at which full-year tuition becomes payable regardless of attendance. The optional Tuition Refund Plan at 0.53% of tuition implies some obligation survives a withdrawal — that is what such plans exist to cover — but the underlying terms are not on the public record. **This is the single most consequential unpublished item in this report;** read the contract carefully before signing.',
+          body: 'The public pages do not say what a family owes if it withdraws or leaves mid-year. They give no refund schedule, and they do not say when the full year\'s tuition is owed whether or not the student attends. The optional Tuition Refund Plan, at 0.53% of tuition, suggests a family still owes something after a withdrawal, since that is what such plans exist to cover. But the terms themselves are not on the public record. **This is the single most consequential unpublished item in this report;** read the contract carefully before signing.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -1625,15 +1625,15 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST',
-          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500) as if today\'s prices held every year — which they will not, since published tuition is re-set annually and has historically risen. They are tuition only, net of nothing, and exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
+          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today\'s prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
         },
         {
           tag: 'THE MIDDLE-INCOME QUESTION',
-          body: 'The school publishes an aim to meet up to 100% of demonstrated need and a share of students receiving some funding. It publishes nothing about families above the aid threshold but below comfortable full-pay — no indexed tuition, no middle-income initiative, no guidance on where the threshold falls. A publication gap rather than a statement about who the school serves.',
+          body: 'The school publishes an aim to meet up to 100% of demonstrated need, and a share of students receiving some funding. It publishes nothing for families above the aid threshold who would still find full tuition hard to pay. It publishes no indexed tuition (a price set by family income), no middle-income program and no guidance on where the threshold falls. This is a gap in what is published, not a statement about who the school serves.',
         },
         {
           tag: 'TWO NAVIGATION HAZARDS',
-          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027, but search engines still serve cached text from the same address giving 15 January 2026. Open the page directly rather than trusting the snippet. **The contact address is misspelled in one place** — the tuition page invites inquiries at an address whose domain has two letters transposed, while the correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive; use the contact panel.',
+          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one place**. The tuition page asks for questions at an email address whose domain has two letters swapped. The correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive, so use the contact panel.',
         },
       ],
       questionsNote:
@@ -1693,7 +1693,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Grades 6–12', amount: 36325 },
       ],
       figureNote:
-        'Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap — TK and Kindergarten priced individually, Grades 1–5 sharing one rate, Grades 6–12 another. Tuition includes student iPads and all technology, all textbooks (including A.P. textbooks), A.P. exam fees, most class field trips, and all Lower School student supplies — an explicit inclusion list that is the least consistently disclosed item in this series.',
+        'Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap. TK and Kindergarten each have their own price, Grades 1–5 share one rate, and Grades 6–12 share another. The school lists what tuition includes: student iPads and all technology · all textbooks (including A.P. textbooks) · A.P. exam fees · most class field trips · all Lower School student supplies. Among the schools on this site, this kind of list is published less consistently than any other item these reports track.',
       figureNote2:
         'The page notes tuition is subject to change for 2027–28.',
       boxes: [{ tag: 'NOT PUBLISHED', title: 'Tuition-table specifics', body: '' }],
@@ -1732,11 +1732,11 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Tutoring services · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'Of fifteen confirmed components, four carry a published price and eleven do not — 73% unpriced against a one-third threshold, so the all-in estimate aborts rather than assemble a range from mostly-missing parts. The existence of two endowed funds (Section 5) dedicated to costs above and beyond tuition independently confirms these charges are real.',
+        'Of fifteen confirmed cost items, four have a published price and eleven do not. That leaves 73% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
-          body: 'A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost — so it is a timing obligation rather than an addition to the published rate, and it is the first installment, not an extra cost.',
+          body: 'A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost. So it changes when you pay, not how much: it is the first installment, not an extra cost added to the published rate.',
         },
       ],
       source:
@@ -1772,19 +1772,19 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'Platform & cost to apply',
-          body: 'Providence Day partners with **Clarity** to assess need · **$65** application fee, paid by the family (2026–27). The school describes the application as taking under an hour and mobile-friendly, and runs family webinars at which Clarity walks through the application and the tax-verification process. Need is assessed on gross income, assets, liabilities, family size, and the number of children in tuition-based schools; assistance does not exceed demonstrated need and depends on the availability of school funds.',
+          body: 'Providence Day partners with **Clarity** to assess need · **$65** application fee, paid by the family (2026–27). The school says the application takes under an hour and works well on a phone. It also runs family webinars where Clarity walks through the application and the tax-verification step. Need is assessed on gross income, assets, liabilities, family size, and the number of children in tuition-based schools. Assistance does not exceed demonstrated need, and it depends on how much school money is available.',
         },
         {
           title: 'Documents & divorced or separated parents',
-          body: 'A 1040 return, W-2s and the most recent pay stub — tax documents transfer automatically from the I.R.S. once verification is complete — plus business returns and 1099s for the self-employed. Documents are required from **both custodial and non-custodial parents**, whether divorced, separated or never married; the school states that missing information from either parent may affect eligibility.',
+          body: 'The documents are a 1040 return, W-2s and the most recent pay stub. Tax records are sent automatically from the I.R.S. once the verification step is done. Parents who work for themselves also provide business returns and 1099s. Documents are required from **both custodial and non-custodial parents**, whether divorced, separated or never married. The school says missing details from either parent may affect whether the family qualifies.',
         },
         {
           title: 'Aid and admission are separate',
-          body: 'The school states plainly that applying for assistance does **not** influence a candidate\'s admission selection, and that separate committees decide admission and assistance. It does not use the terms "need-blind" or "need-aware," so this report applies neither label.',
+          body: 'The school states plainly that applying for assistance does **not** affect whether a candidate is admitted. It also says separate committees decide admission and assistance. The school does not use the terms "need-blind" or "need-aware," so this report applies neither label.',
         },
         {
           tag: 'NOT PUBLISHED — FIVE PROCESS QUESTIONS',
-          body: 'No appeals or reconsideration process · no mid-year change-of-circumstance policy · no statement of whether awards typically renew at a consistent level (the practical question behind annual reapplication) · no confidentiality policy naming who inside the school sees a family\'s file · no composition of the assistance committee.',
+          body: 'No process to appeal or ask for a second look · no policy for a mid-year change in a family\'s situation · no statement of whether awards typically renew at the same level (the real question behind reapplying each year) · no confidentiality policy naming who inside the school sees a family\'s file · no list of who sits on the assistance committee.',
         },
       ],
       source:
@@ -1814,7 +1814,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
         {
           tag: 'AVERAGE IS NOT MEDIAN',
-          body: 'Every award figure the school publishes is an **average grant** — reproduced unchanged and never treated here as a typical award. Aid awards carry a long upper tail, so an average usually sits above what a typical recipient receives; no median is published in any edition located, so a family cannot tell how far above.',
+          body: 'Every award figure the school publishes is an **average grant**. This report shows it unchanged and never treats it as a typical award. A few large awards pull an average up, so it is usually higher than what a typical recipient receives. The school publishes no median (the middle award) in any edition found, so a family cannot tell how much higher.',
         },
         {
           tag: 'A UNIT CHANGE THAT BLOCKS COMPARISON',
@@ -1822,7 +1822,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
         {
           title: 'An internal discrepancy, reported not resolved',
-          body: 'The 2012–13 Report on Philanthropy states **$3,105,191** as total aid awarded on its enrollment page and **$3,092,165** as the financial-aid line in its expense breakdown a page later — a **$13,026** difference, both published by the school in the same document. Both are reproduced; the likeliest explanation is different accounting bases, but the school does not say so and inferring it would be a guess.',
+          body: 'The 2012–13 Report on Philanthropy gives two figures. Its enrollment page states **$3,105,191** as total aid awarded. Its expense breakdown, a page later, shows **$3,092,165** as the financial-aid line. That is a **$13,026** difference, and the school published both in the same document. This report shows both. The likeliest explanation is different accounting bases, but the school does not say so, and inferring it would be a guess.',
         },
         {
           tag: 'HOW AID IS FUNDED',
@@ -1851,15 +1851,15 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'Need-based, no general merit track',
-          body: 'Assistance is need-based; **no general academic, arts, athletic or leadership merit scholarship program is published.** At least eleven named permanent funds support aid — e.g. the Paula C. Freeman Financial Aid Endowment ($511,383 in Jun 2018), the Rob Eck Memorial Scholarship, the Edward E. Ford Minority Scholarship, and diversity-focused funds (Brinkley, McGee Family). Fund values are as of 30 June 2018, the most recent edition located, and are historical.',
+          body: 'Assistance is need-based. **No general academic, arts, athletic or leadership merit scholarship program is published.** At least eleven named permanent funds support aid. Examples are the Paula C. Freeman Financial Aid Endowment ($511,383 in Jun 2018), the Rob Eck Memorial Scholarship, the Edward E. Ford Minority Scholarship, and diversity-focused funds (Brinkley, McGee Family). Fund values are as of 30 June 2018, from the most recent edition found, so they are not current.',
         },
         {
           title: 'Two funds for the costs outside tuition',
-          body: 'The **Gilmer L. Murdock, Jr. Endowment** and **The Latchwood Endowment** exist specifically to help students with demonstrated need meet costs above and beyond tuition — the published descriptions name tutoring, review classes, calculators, class trips, sports equipment, team camps, tournaments, dining and activity fees. These are the same categories that appear unpriced in Section 2; their existence confirms those costs are real.',
+          body: 'The **Gilmer L. Murdock, Jr. Endowment** and **The Latchwood Endowment** exist specifically to help students with demonstrated need pay for costs above and beyond tuition. Their published descriptions name tutoring, review classes, calculators, class trips, sports equipment, team camps, tournaments, dining and activity fees. These are the same kinds of costs that appear unpriced in Section 2. The funds\' existence confirms those costs are real.',
         },
         {
           title: 'Children of faculty and staff',
-          body: 'The **Kristina C. Brockmeier Endowment for Financial Aid** provides assistance annually to children of current faculty and staff who demonstrate need. This is a need-based endowed award, not a blanket tuition-remission benefit; whether the school separately offers a remission percentage to employees is not published.',
+          body: 'The **Kristina C. Brockmeier Endowment for Financial Aid** gives aid each year to children of current faculty and staff who demonstrate need. It is a need-based award from an endowment. It is not a tuition-remission benefit (lower tuition for every employee). The school does not publish whether it also gives employees a set percentage off tuition.',
         },
         {
           tag: 'NOT PUBLISHED — SIX ITEMS',
@@ -1899,7 +1899,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'The deposit as a contract term',
-          body: 'The **$2,500** deposit is non-refundable and secures placement for an accepted student, credited to the overall tuition cost. The published language establishes it is not returned if a family withdraws after signing — but it does not describe what further obligation, if any, a family carries on withdrawal later in the year.',
+          body: 'The **$2,500** deposit is non-refundable. It secures a place for an accepted student and is credited to the overall tuition cost. The school\'s published wording makes clear it is not returned if a family withdraws after signing. They do not say what more, if anything, a family owes if it withdraws later in the year.',
         },
         {
           tag: 'NOT PUBLISHED — SEVEN CONTRACT & PAYMENT QUESTIONS',
@@ -1930,7 +1930,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
         {
           tag: 'NAVIGATION HAZARD',
-          body: 'Widely-circulated third-party listings carry tuition figures that agree neither with each other nor with the school — an "≈$20,500" single rate, a "$34,430" 2024 top rate, a "$20,800–$29,620" range, a "$23,040–$32,810" 2024–25 range. **None** matches the school\'s published 2026–27 bands of $25,510–$36,325. Aggregators cache prior-year figures and are frequently out of date — treat the school\'s own tuition page as the only authority, even when a search engine surfaces an aggregator above it.',
+          body: 'Widely shared third-party listings give tuition figures that agree neither with each other nor with the school. They show an "≈$20,500" single rate, a "$34,430" 2024 top rate, a "$20,800–$29,620" range and a "$23,040–$32,810" 2024–25 range. **None** matches the school\'s published 2026–27 bands of $25,510–$36,325. School-listing websites (aggregators) keep figures from past years and are often out of date. Treat the school\'s own tuition page as the only authority, even when a search engine shows a listing site above it.',
         },
       ],
       questionsNote:
@@ -2021,7 +2021,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         { label: 'Senior Trip (grade 12) · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'The $500 enrollment (or re-enrollment) fee is non-refundable and, per the school, must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons; the PDF names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs without stating amounts.',
+        'The $500 enrollment (or re-enrollment) fee is non-refundable. The school says it must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons. The PDF also names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs, but gives no amounts.',
       source:
         'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF), retrieved 16 Aug 2026',
     },
@@ -2076,11 +2076,11 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Carmel Christian is a ministry of Carmel Baptist Church and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the school itself. Every other school in this project (bar Covenant Day) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Carmel Christian is a ministry of Carmel Baptist Church. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the school itself. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
         {
           tag: 'A RELATED ENTITY — NOT SCHOOL AID',
-          body: 'A related nonprofit, the **Carmel Educational Foundation** (EIN 56-2107877), does file: FY2025 (year ending 31 July) total revenue **$1,068,745**, total expenses **$618,023**, net assets **$1,894,088**, with contributions ~93.6% of revenue. But the return carries **no separate scholarship or grant line**, and the Foundation-to-school link, while probable, is not explicitly stated — so it yields no school-level aid figure and is not presented as one.',
+          body: 'A related nonprofit, the **Carmel Educational Foundation** (EIN 56-2107877), does file. For FY2025 (year ending 31 July): total revenue **$1,068,745** · total expenses **$618,023** · net assets **$1,894,088** · contributions ~93.6% of revenue. But the return has **no separate scholarship or grant line**. The Foundation\'s link to the school is probable but not explicitly stated. So the return gives no school-level aid figure, and this report does not present one.',
         },
       ],
       source:
@@ -2140,7 +2140,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family\'s FACTS portal. No annual or paid-in-full alternative, no prepayment discount, and no late-payment or withdrawal terms appear on the retrieved sources.',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family\'s FACTS portal. No annual or paid-in-full option, no prepayment discount, and no late-payment or withdrawal terms appear in the sources checked.',
         },
       ],
       source:
@@ -2216,7 +2216,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         { label: 'Grades 9–12 (High)', amount: 13750 },
       ],
       figureNote:
-        'Three bands from transitional kindergarten through grade 12, a $2,250 spread from lowest to highest. The school\'s own tuition-and-fees page renders its fee tables through an embedded FACTS/portal widget, so these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second aggregator) that match the school\'s published $11,500–$13,750 range, rather than lifted char-for-char from a school PDF.',
+        'Three bands run from transitional kindergarten through grade 12, with a $2,250 spread from lowest to highest. The school\'s own tuition-and-fees page shows its fee tables in an embedded FACTS/portal widget. So these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second school-listing website), not copied exactly from a school PDF. Both match the school\'s published $11,500–$13,750 range.',
       figureNote2:
         'Separate "student services fees" documents (2025-26 and 2026-27) are referenced on the tuition page but render through the portal and were not captured; those fee amounts are not shown here.',
       source:
@@ -2252,7 +2252,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No decision timeline, appeals process, or award-ceiling policy appears on the public record. The FACTS payment-plan installment count and any plan fee are set inside the portal. Automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027** per the school.',
+          body: 'The public record has no decision timeline, no appeals process and no award-ceiling policy. For the FACTS payment plan, the number of payments and any plan fee are set in the portal. The school says its automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027**.',
         },
       ],
       source:
@@ -2269,15 +2269,15 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         { value: '990-exempt', label: 'no public financial disclosure to derive from' },
       ],
       figureNote:
-        'The school publishes no percentage of students on aid, no total awarded, and no average award — and none can be derived, because there is no public financial disclosure to derive them from.',
+        'The school publishes no percentage of students on aid, no total awarded and no average award. None can be worked out either, because there is no public financial disclosure to work them out from.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church** and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the church as a school operator. Every other school in this project (bar Covenant Day and Carmel Christian) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church**. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the church as a school operator. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
         {
           tag: 'STATE VOUCHERS — NOT SCHOOL AID',
-          body: 'The NC Opportunity Scholarship 2023-24 annual report lists **224 recipients / $1,441,873 / ≈$6,437 average** flowing to HGCS families. That is **state-voucher money paid to families, not institutional need-based aid** — it is recorded here only for traceability and is deliberately not presented as the school\'s aid rate, total, or average.',
+          body: 'The NC Opportunity Scholarship 2023-24 annual report lists **224 recipients / $1,441,873 / ≈$6,437 average** going to HGCS families. That is **state-voucher money paid to families, not institutional need-based aid**. This report shows it only for reference. It is deliberately not presented as the school\'s aid rate, total or average.',
         },
       ],
       source:
@@ -2337,7 +2337,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family\'s FACTS portal. No paid-in-full alternative beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear on the retrieved sources.',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family\'s FACTS portal. No paid-in-full option beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear in the sources checked.',
         },
       ],
       source:
@@ -2439,7 +2439,7 @@ const GASTON_DAY: FinancialAidReport = {
         { label: 'Athletics participation costs', status: 'unpriced' },
       ],
       componentsNote:
-        'Unusually, almost every add-on Gaston Day publishes carries a price — the transport, aftercare, music-lesson and summer-camp rates are all stated in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes, so whether technology, lab fees, retreats and field trips sit inside the fees column is unstated.',
+        'Unusually, almost every add-on Gaston Day publishes has a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes. So the school does not say whether technology, lab fees, retreats and field trips are part of the fees column.',
       componentsAside:
         'The fees column is not itemized. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
       source:
@@ -2453,7 +2453,7 @@ const GASTON_DAY: FinancialAidReport = {
       timeline: [
         {
           when: 'Step 1',
-          detail: 'Create an account with **Clarity** — not FACTS or SSS, the platform most of this roster uses',
+          detail: 'Create an account with **Clarity**, not FACTS or SSS. Clarity is the aid platform most schools on this site use.',
         },
         {
           when: 'Step 2',
@@ -2501,7 +2501,7 @@ const GASTON_DAY: FinancialAidReport = {
         { value: '$0', label: 'published aid budget, total awarded, or average award' },
       ],
       figureNote:
-        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45% — a wide divergence, and probably a definitional one rather than an error: the profile’s "tuition assistance" is need-based aid, while an aggregator’s "percent on financial aid" commonly folds in merit awards and NC Opportunity Scholarship recipients, which at Gaston Day are three separate channels.',
+        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45%. That is a wide gap, but probably a difference in what is counted rather than an error. In the school’s profile, "tuition assistance" is need-based aid. A school-listing website’s "percent on financial aid" often also counts merit awards and NC Opportunity Scholarship recipients. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.',
       boxes: [
         {
           title: 'The 80% ceiling is the most useful published number',
@@ -2513,7 +2513,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
         {
           tag: 'ENROLLMENT ALSO DIVERGES',
-          body: 'The school reports **510** students; Private School Review says **466**; the federal NCES survey (2023-24) says **448**. The school’s own current figure is used throughout this project — but any per-student figure computed from a third-party enrollment count will differ from one computed from the school’s.',
+          body: 'The school reports **510** students. Private School Review says **466**, and the federal NCES survey (2023-24) says **448**. This site uses the school’s own current figure throughout. But any per-student figure worked out from a third-party enrollment count will differ from one worked out from the school’s.',
         },
       ],
       source:
@@ -2529,12 +2529,12 @@ const GASTON_DAY: FinancialAidReport = {
         {
           gift: '100%',
           share: 100,
-          detail: '**The W. Duke Kimbrell Scholarship** — the school’s highest honor, covering **100% of tuition**, for grades 8–11. Awarded by invitation to qualified applicants on scholarly excellence, high moral character, family involvement, leadership and demonstrated community or hobby participation.',
+          detail: '**The W. Duke Kimbrell Scholarship** — the school’s highest honor, covering **100% of tuition**, for grades 8–11. It is awarded by invitation to qualified applicants. The school looks at five things: academic excellence · high moral character · family involvement · leadership · shown participation in the community or a hobby.',
         },
         {
           gift: 'Merit',
           share: 40,
-          detail: '**The Kimbrell Family Scholarship** — grades 5–11, for students with nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. Every admitted applicant is reviewed automatically; nominated students may add supplemental materials and interview on campus. The award amount is not published.',
+          detail: '**The Kimbrell Family Scholarship** — grades 5–11, for students with nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. Every admitted applicant is reviewed for it automatically. Nominated students may add extra materials and interview on campus. The award amount is not published.',
         },
         {
           gift: 'State',
@@ -2545,7 +2545,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'Three channels, not one',
-          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may be eligible for more than one, and the interaction between them is not published — which is worth asking about directly.',
+          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may qualify for more than one. How the three routes affect each other is not published, so it is worth asking the school directly.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -2576,7 +2576,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'This is the thinnest section of Gaston Day’s public record. No plan names, no installment schedule, no plan fees, no card-processing surcharge, no deposit amount, no late-payment policy, no withdrawal or refund terms, and no tuition-insurance or refund-plan offering appear anywhere on the public site. Every peer school here publishes at least the installment count.',
+          body: 'This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Most other schools on this site publish at least the number of installments.',
         },
       ],
       source:
@@ -2622,7 +2622,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Only the current year is published.',
-      body: 'MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attribution, so no tuition trend is shown here rather than one built from unattributable numbers.',
+      body: 'MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attached. So this report shows no tuition trend, rather than building one from numbers it cannot date.',
     },
     {
       icon: 'book',
@@ -2644,7 +2644,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         { label: 'High International', amount: 23562 },
       ],
       figureNote:
-        'This is the structural feature no other school on this roster has: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041** where a community family pays **$21,562** for the same seat in the same classroom — a **$6,521 difference, roughly 30%**. Because CCHS is a 9–12 school, there is no grade-band ladder at all; these three rows are the entire schedule.',
+        'No other school on this site prices tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the entire schedule.',
       figureNote2:
         'The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools\' published tuition, since it is the price to a family with no parish affiliation.',
       source: 'discovermacs.org — Tuition & Affordability, retrieved 18 Aug 2026',
@@ -2697,7 +2697,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       boxes: [
         {
           title: 'Platform — Clarity, not FACTS',
-          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not the need-assessment platform — an easy and consequential mix-up, since most schools on this roster run FACTS Grant & Aid for assessment. **TADS is not used.**',
+          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not as the tool that assesses need. That is an easy mix-up with real consequences, because some other schools on this site use FACTS Grant & Aid to assess need. **TADS is not used.**',
         },
         {
           title: 'Family Individualized Tuition (FIT)',
@@ -2751,7 +2751,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'CCHS and MACS publish **no merit scholarships** of their own — no academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), parish-status-based (the Catholic rate and multi-child discounts), or state-funded.',
+          body: 'CCHS and MACS publish **no merit scholarships** of their own. No academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), based on parish status (the Catholic rate and multi-child discounts), or state-funded.',
         },
       ],
       source:
@@ -2911,7 +2911,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         { label: 'Enrollment deposit', status: 'unpriced' },
       ],
       componentsNote:
-        'The Books column of the Cost of Attendance document shows a run of dashes for every grade. The document uses **words** when it means see-elsewhere — the Lunch and TED columns read "Options in chart below" and "Based on income in chart below" — and dashes when it means a null, and it is titled "Cost of Attendance". So **no book charge is listed** for any grade. The document never writes the word "included", so neither does this report.',
+        'The Books column of the Cost of Attendance document shows a run of dashes for every grade. The document uses **words** when it means a cost is shown somewhere else. For example, the Lunch and TED columns read "Options in chart below" and "Based on income in chart below", which point to a chart further down. The document uses dashes when it means there is no entry, and it is titled "Cost of Attendance". So **no book charge is listed** for any grade. The document never writes the word "included", so neither does this report.',
       componentsAside:
         'The school is insured by **A.W.G. Dewar, Inc.** for tuition refunds and links the brochure, but publishes no price for the plan.',
       boxes: [
@@ -3001,7 +3001,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         {
           gift: 'State',
           share: 25,
-          detail: '**NC Opportunity Scholarship** — administered by the **North Carolina State Education Assistance Authority**, and promoted by Trinity as "an **additional option** for you to explore beyond financial support." The school links the program and does not state an amount, an eligibility threshold, or how it interacts with its own aid.',
+          detail: '**NC Opportunity Scholarship** — a state program run by the **North Carolina State Education Assistance Authority**. Trinity promotes it as "an **additional option** for you to explore beyond financial support." The school links to the program. It does not state an amount, an eligibility threshold, or how the program and Trinity\'s own aid affect each other.',
         },
         {
           gift: 'Need',
@@ -3012,7 +3012,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
       boxes: [
         {
           title: 'Two channels, and no merit program at all',
-          body: 'Trinity runs need-based support and points separately at the state scholarship. **No merit scholarship, named endowed scholarship, or academic award appears anywhere on the site** — every dollar of the school\'s own aid is need-based. Whether a family can hold an Opportunity Scholarship alongside Trinity support, and whether one offsets the other, is not published.',
+          body: 'Trinity runs need-based support. It also points families to the state scholarship as a separate option. **No merit scholarship, named endowed scholarship, or academic award appears anywhere on the site**. Every dollar of the school\'s own aid is need-based. The school does not say whether a family can get both an Opportunity Scholarship and Trinity support, or whether one lowers the other.',
         },
               ],
       source:
@@ -3132,7 +3132,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
       boxes: [
         {
           title: 'Aid stops below Kindergarten',
-          body: 'Assistance is "offered in grades K-8th", so a family entering at **Pre-Primary, Primary or TK** pays full tuition until Kindergarten. For a family planning a nine- or ten-year path, that makes the Early School years the most expensive stretch relative to aid.',
+          body: 'Assistance is "offered in grades K-8th", so a family entering at **Pre-Primary, Primary or TK** pays full tuition until Kindergarten. For a family planning nine or ten years at the school, the Early School years cost the most once aid is counted. That is because no aid is offered then.',
         },
       ],
       source: 'charlotteprep.org — Tuition Assistance; Tuition & Fees 2026-27, retrieved 19 Oct 2026',
@@ -3148,7 +3148,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
         { value: '49', label: 'students aided, fiscal year ending June 2025 — per the Form 990' },
       ],
       figureNote:
-        'The school\'s federal tax filings give an eight-year series of tuition assistance, reported as "Reduction in tuition base": **$374,330 to 51 students (FY2018)**, $448,646 to 61 (FY2019), $502,105 to 68 (FY2020), $516,135 to 58 (FY2021), $363,160 to 48 (FY2022), $368,575 to 47 (FY2023), $457,393 to 50 (FY2024) and **$476,679 to 49 (FY2025)**. Fiscal years end in June.',
+        'The school\'s federal tax filings give eight years of tuition assistance, reported as "Reduction in tuition base": **$374,330 to 51 students (FY2018)** · $448,646 to 61 (FY2019) · $502,105 to 68 (FY2020) · $516,135 to 58 (FY2021) · $363,160 to 48 (FY2022) · $368,575 to 47 (FY2023) · $457,393 to 50 (FY2024) · **$476,679 to 49 (FY2025)**. Fiscal years end in June.',
       figureNote2:
         'The school\'s 10% is a share of **families**, and the 990 counts **students**, so the two are not combined into a rate.',
       source:
