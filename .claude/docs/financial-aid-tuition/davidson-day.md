@@ -1,5 +1,5 @@
 # Davidson Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** Deep Dive Report, Tuition History
 
 
@@ -571,9 +571,7 @@ published table, not that it was priced at zero.
 | Middle School (5–8) | +7.00% | +4.51% | +4.48% | +4.49% |
 | Upper School (9–12) | +6.99% | +4.50% | +4.50% | +4.50% |
 
-These percentages are derived arithmetic from the sourced dollar figures and are clearly
-labeled as such; the dollar figures themselves are all directly sourced. Davidson Day has
-held very close to a flat ~4.5% annual increase since 2023–24.
+These percentages are worked out from the tuition figures above, which the school publishes. Davidson Day has held very close to a flat ~4.5% annual increase since 2023–24.
 
 
 ---

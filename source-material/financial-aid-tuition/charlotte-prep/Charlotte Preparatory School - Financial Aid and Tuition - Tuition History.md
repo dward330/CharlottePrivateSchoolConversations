@@ -47,7 +47,7 @@ Two things changed alongside the prices. From 2024–25 the school folded its at
 | 2024–25 | $15,400 | $16,100 | $20,750 | $22,400 |
 | 2026–27 | $17,700 | $18,500 | $23,900 | $25,800 |
 
-Until 2024–25 the Early School also sold year-round and school-year extended-day versions at a single all-in price. For 2026–27 the school instead sells the school-year program plus a separate Extended Day add-on, and no year-round option is listed.
+Until 2024–25, the Early School also offered year-round and school-year extended-day versions, each at one all-in price. For 2026–27, the school instead offers the school-year program plus a separate Extended Day add-on. No year-round option is listed.
 
 ## Method
 
