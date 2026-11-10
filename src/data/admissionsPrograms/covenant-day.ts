@@ -147,7 +147,7 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const covenantDay: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the six published steps in order, the 2027–28 deadlines, and the screening for that band — plus a printable checklist to take with you. One spine for every applicant, but the deadline breaks at Kindergarten→1 while the test changes twice inside Grades 1–5.",
+      "Pick your child's entry point and the guide personalizes: the six published steps in order, the 2027–28 deadlines, and the screening for that band. You also get a printable checklist to take with you. Every applicant follows the same main steps. But the deadline changes at Kindergarten→1, and the test changes twice inside Grades 1–5.",
     cycle: '2027–28 entry cycle',
 
     stats: [
@@ -163,16 +163,16 @@ export const covenantDay: AdmissionsProgram = {
     rules: [
       {
         title: 'One online application.',
-        text: 'Everything runs through the school\'s FACTS/RenWeb portal: inquire, apply, pay the $100 fee, and give the email addresses that send the recommendation forms and request your child\'s transcript — all from the one form.',
+        text: 'Everything runs through the school\'s FACTS/RenWeb portal. From that one form, you inquire, apply and pay the $100 fee. You also enter the email addresses that the recommendation forms and your child\'s transcript request are sent to.',
       },
       {
         title: 'The dates are for priority, and admissions roll after them.',
-        text: 'Covenant Day maintains rolling admissions, but Jan 2 for JK/K and Jan 15 for grades 1–11 are what secure a first-round decision. A later application is still considered if space allows — and until priority decisions are complete on April 9, the school will not conduct on-campus testing, shadow visits or parent interviews for it.',
+        text: 'Covenant Day has rolling admissions. Applying by the priority dates is what secures a first-round decision: Jan 2 for JK/K and Jan 15 for grades 1–11. A later application is still considered if space allows. But until priority decisions are complete on April 9, the school will not hold on-campus testing, shadow visits or parent interviews for a later application.',
       },
     ],
 
     spineNote:
-      'One shared spine in every band — arrange a visit → submit the online application with the $100 fee → complete the admissions screening → have the recommendation forms sent → meet the school at the parent interview and an on-campus visit → receive the decision and return the contract. What changes is which screening instrument your child sits, what the on-campus visit looks like, whether the student is interviewed, and which calendar you are on.',
+      'Every band follows the same six steps. First: arrange a visit → submit the online application with the $100 fee → complete the admissions screening. Then: have the recommendation forms sent → meet the school at the parent interview and an on-campus visit → receive the decision and return the contract. What changes is which screening test your child takes and what the on-campus visit looks like. Bands also differ in whether the student is interviewed, and in which calendar you are on.',
 
     bands: [
       {
@@ -199,41 +199,41 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'by Jan 2',
             tagKind: 'accent',
             detail:
-              'Two weeks earlier than every other grade, and the whole JK/K calendar runs ahead with it. The fee is **non-refundable** and is charged per application. Age guidance is published: a child **should be four years old by March 1, 2027** to apply for JK, and **five years old by June 1, 2027** to apply for kindergarten. Placement between the two is the Admissions Office\'s decision, weighing the birthday alongside an individual assessment of developmental readiness — social, emotional, physical and academic.',
+              'This deadline is two weeks earlier than every other grade\'s, and the whole JK/K calendar runs ahead with it. The fee is **non-refundable** and is charged per application. Age guidance is published: a child **should be four years old by March 1, 2027** to apply for JK, and **five years old by June 1, 2027** to apply for kindergarten. The Admissions Office decides which of the two fits your child. It weighs the birthday alongside an individual assessment of your child\'s developmental readiness: social, emotional, physical and academic.',
           },
           {
             title: 'Book the WPPSi screening',
             tag: 'by Feb 1',
             tagKind: 'accent',
             detail:
-              'JK and Kindergarten applicants sit the **Weschler Preschool and Primary Scale of Intelligence (WPPSi)** — the school\'s own spelling — administered by a qualified psychologist. **You schedule this yourself, directly with the psychologist**; the school does not arrange it, and the fee is paid to the psychologist rather than to Covenant Day. Book early: it shares the **February 1, 2027** deadline with your supporting documents.',
+              'JK and Kindergarten applicants take the **Weschler Preschool and Primary Scale of Intelligence (WPPSi)**. This spelling is the school\'s own. A qualified psychologist gives the test. **You schedule this yourself, directly with the psychologist**. The school does not arrange it, and you pay the fee to the psychologist, not to Covenant Day. Book early: the test shares the **February 1, 2027** deadline with your supporting documents.',
           },
           {
             title: 'Have the recommendation forms sent',
             tag: 'by Feb 1',
             tagKind: 'outline',
             detail:
-              'Two are required at this band: a **preschool teacher recommendation** and a **pastor\'s recommendation** — the pastor\'s form is required at every grade from JK through 11. Both are completed online, so the accurate email addresses you enter in the application are what trigger them. If you give a registrar\'s email to request records, note that the release is broad: it covers the complete transcript, IQ and achievement test scores, any psychological evaluations, behavior and attendance records, and health records.',
+              'Two are required at this band: a **preschool teacher recommendation** and a **pastor\'s recommendation**. The pastor\'s form is required at every grade from JK through 11. Both are filled in online. They go to the email addresses you enter in the application, so enter those carefully. If you enter a registrar\'s email to ask for records, you give permission for a broad release. It covers the full transcript, IQ and achievement test scores, any psychological evaluations, behavior and attendance records, and health records.',
           },
           {
             title: 'The parent interview and the Little Lions Assessment',
             tag: 'after applying',
             tagKind: 'outline',
             detail:
-              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**: it partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**, and parents will be asked to **discuss their Christian testimony** during the interview. Your child\'s visit is the **Little Lions Assessment**, taken with a small group of applicants in the same grade — there is no student interview at this age.',
+              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**. It partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**. Parents will be asked to **discuss their Christian testimony** during the interview. Your child\'s visit is the **Little Lions Assessment**, taken with a small group of applicants in the same grade. There is no student interview at this age.',
           },
           {
             title: 'Decision → contract',
             tag: 'Feb 26 → Mar 5',
             tagKind: 'accent',
             detail:
-              'Priority decisions are emailed on **February 26, 2027 at 4:00 p.m.** — six weeks ahead of the Grades 1–11 track — and the signed contract is due **March 5, 2027 by noon**. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward the year\'s tuition.',
+              'Priority decisions are emailed on **February 26, 2027 at 4:00 p.m.**, six weeks ahead of the Grades 1–11 track. The signed contract is due **March 5, 2027 by noon**. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward the year\'s tuition.',
           },
         ],
         watchOuts: [],
         checklistCallout: {
           lead: 'Your deadline is Jan 2.',
-          text: 'Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade and hear back six weeks earlier, on February 26. Supporting documents and the WPPSi screening are both due February 1, and you book that test yourself with a qualified psychologist. Applying after January 2 means no on-campus testing, shadow visit or parent interview until priority decisions are complete on April 9.',
+          text: 'Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade. They hear back six weeks earlier, on February 26. Supporting documents and the WPPSi screening are both due February 1. You book that test yourself with a qualified psychologist. If you apply after January 2, there is no on-campus testing, shadow visit or parent interview until priority decisions are complete on April 9.',
         },
         checklistRows: [
           {
@@ -319,21 +319,21 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              '**The instrument changes twice inside this band.** Grade 1 applicants sit the **Weschler Preschool and Primary Scale of Intelligence (WPPSi)** with the JK/K applicants; **Grades 2–4** sit the **Weschler Intelligence Scale for Children (WISC V)**; and **Grade 5** sits the **Independent School Entrance Exam (ISEE)** alongside the middle and high school applicants. The WPPSi and WISC V are administered by a qualified psychologist and **you schedule the appointment yourself**. For Grade 5, Covenant Day administers the ISEE on campus on **December 12, 2026**, and families may also register through the ISEE\'s own site; **all Middle and High School testing must be completed and submitted by February 26, 2027**. The spellings above are the school\'s own.',
+              '**The test changes twice inside this band.** Grade 1 applicants take the **Weschler Preschool and Primary Scale of Intelligence (WPPSi)** with the JK/K applicants. **Grades 2–4** take the **Weschler Intelligence Scale for Children (WISC V)**. **Grade 5** takes the **Independent School Entrance Exam (ISEE)** alongside the middle and high school applicants. A qualified psychologist gives the WPPSi and WISC V, and **you schedule the appointment yourself**. For Grade 5, Covenant Day offers the ISEE on campus on **December 12, 2026**. Families may also register through the ISEE\'s own site. **All Middle and High School testing must be completed and submitted by February 26, 2027**. The spellings above are the school\'s own.',
           },
           {
             title: 'Have the recommendation forms sent',
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              'Two are required at this band: a **lower school teacher recommendation** and a **pastor\'s recommendation**, which is required at every grade from JK through 11. Both are completed online from the email addresses you enter in the application. Entering a registrar\'s email to request records authorizes a broad release — the complete transcript, IQ and achievement test scores, any psychological evaluations, behavior and attendance records, and health records.',
+              'Two are required at this band: a **lower school teacher recommendation** and a **pastor\'s recommendation**. The pastor\'s form is required at every grade from JK through 11. Both are filled in online. They go to the email addresses you enter in the application. If you enter a registrar\'s email to ask for records, you give permission for a broad release. It covers the full transcript, IQ and achievement test scores, any psychological evaluations, behavior and attendance records, and health records.',
           },
           {
             title: 'The parent interview and the on-campus assessment',
             tag: 'after applying',
             tagKind: 'outline',
             detail:
-              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**: it partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**, and parents will be asked to **discuss their Christian testimony** during the interview. **Your child\'s visit depends on the grade.** **Grade 1** applicants join the **Little Lions Assessment** with a small group of other Grade 1 applicants; **Grades 2–5** work **one-on-one with an academic resource therapist** to measure reading, math and writing proficiency. Neither is a shadow day, and there is no student interview until Grade 6.',
+              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**. It partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**. Parents will be asked to **discuss their Christian testimony** during the interview. **Your child\'s visit depends on the grade.** **Grade 1** applicants join the **Little Lions Assessment** with a small group of other Grade 1 applicants. **Grades 2–5** work **one-on-one with an academic resource therapist** to measure their reading, math and writing skills. Neither is a shadow day, and there is no student interview until Grade 6.',
           },
           {
             title: 'Decision → contract',
@@ -346,7 +346,7 @@ export const covenantDay: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Check which test your grade sits — it changes twice inside this band.',
-          text: 'Grade 1 takes the WPPSi with the JK/K applicants, Grades 2–4 take the WISC V, and Grade 5 takes the ISEE with the middle and high school applicants. Applications are due January 15 and decisions release April 9. Applying after January 15 means no on-campus assessment or parent interview until priority decisions are complete on April 9.',
+          text: 'Grade 1 takes the WPPSi with the JK/K applicants. Grades 2–4 take the WISC V, and Grade 5 takes the ISEE with the middle and high school applicants. Applications are due January 15, and decisions come out April 9. If you apply after January 15, there is no on-campus assessment or parent interview until priority decisions are complete on April 9.',
         },
         checklistRows: [
           {
@@ -432,21 +432,21 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'accent',
             detail:
-              'Every applicant from Grade 5 upward takes the **Independent School Entrance Exam (ISEE)**, which measures verbal and quantitative ability, mathematics, reading comprehension and writing. Covenant Day administers it on campus on **December 12, 2026**; families may also register for another sitting through the ISEE\'s own site. **All Middle and High School testing must be completed and submitted by February 26, 2027** — this is a submission deadline, not just a test date, so a late sitting risks missing it.',
+              'Every applicant from Grade 5 upward takes the **Independent School Entrance Exam (ISEE)**. It measures verbal and quantitative ability, mathematics, reading comprehension and writing. Covenant Day offers it on campus on **December 12, 2026**. Families may also register for another test date through the ISEE\'s own site. **All Middle and High School testing must be completed and submitted by February 26, 2027**. This is a deadline for submitting scores, not just a test date, so a late test date risks missing it.',
           },
           {
             title: 'Have the recommendation forms sent',
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              'Four are required at this band — more than at any younger grade: a **math teacher**, an **English teacher**, a **principal or school counselor**, and a **pastor**, whose recommendation is required at every grade from JK through 11. All are completed online from the email addresses you enter in the application. Entering a registrar\'s email to request records authorizes a broad release — the complete transcript, IQ and achievement test scores, any psychological evaluations, behavior and attendance records, and health records.',
+              'Four are required at this band, more than at any younger grade: a **math teacher**, an **English teacher**, a **principal or school counselor**, and a **pastor**. The pastor\'s form is required at every grade from JK through 11. All are filled in online. They go to the email addresses you enter in the application. If you enter a registrar\'s email to ask for records, you give permission for a broad release. It covers the full transcript, IQ and achievement test scores, any psychological evaluations, behavior and attendance records, and health records.',
           },
           {
             title: 'The parent interview, the shadow day and the student interview',
             tag: 'after applying',
             tagKind: 'outline',
             detail:
-              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**: it partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**, and parents will be asked to **discuss their Christian testimony** during the interview. **This is the first band where the student is interviewed too.** Grades 7–11 applicants spend a morning shadowing a student in the middle or high school, have lunch with their peers, and meet an admissions staff member. **Grade 6 applicants do all of that and also take a math and English assessment** during the visit — the one extra step at the bottom of this band.',
+              'The admissions office sends a link to schedule your interview with the Admissions Director. Covenant Day is a **covenant Christian school**. It partners with families in which **at least one parent is a Christ-follower and is actively involved in a local Christian church**. Parents will be asked to **discuss their Christian testimony** during the interview. **This is the first band where the student is interviewed too.** Grades 7–11 applicants spend a morning shadowing a student in the middle or high school. They also have lunch with their peers and meet an admissions staff member. **Grade 6 applicants do all of that and also take a math and English assessment** during the visit. That is the one extra step at the bottom of this band.',
           },
           {
             title: 'Decision → contract',
@@ -459,7 +459,7 @@ export const covenantDay: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'This is the band with a student interview — and Grade 6 has one extra step.',
-          text: 'Every applicant from Grade 6 up shadows a student for a morning and meets an admissions staff member; Grade 6 also takes a math and English assessment during that visit. Four recommendation forms are required, more than at any younger grade, and all Middle and High School testing must be submitted by February 26 — not merely taken by then.',
+          text: 'Every applicant from Grade 6 up shadows a student for a morning and meets an admissions staff member. Grade 6 also takes a math and English assessment during that visit. Four recommendation forms are required, more than at any younger grade. All Middle and High School testing must be submitted by February 26, not merely taken by then.',
         },
         checklistRows: [
           {
@@ -523,7 +523,7 @@ export const covenantDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is a precondition unique among the Charlotte schools: **families must first provide proof of application for the NC Opportunity Scholarship** to be eligible for aid from Covenant Day. File the aid application **concurrently with the admissions application** rather than after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition; **the FACTS application fee and any reduced deposit for aid applicants are not published**.',
+      text: 'Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one step you must complete first, and it is unique among the Charlotte schools. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application fee and any reduced deposit for aid applicants are not published**.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -606,7 +606,7 @@ export const covenantDay: AdmissionsProgram = {
         {
           label: 'Constant in every band',
           cells: {
-            all: 'A $100 non-refundable application fee · the FACTS/RenWeb online application · a parent interview with the Admissions Director, where at least one parent must be a Christ-follower actively involved in a local Christian church · a pastor’s recommendation · a $1,000 non-refundable enrollment deposit at contract · rolling admissions after the priority dates, with no on-campus testing, shadow visit or parent interview for a non-priority applicant unless space remains after April 9',
+            all: 'A $100 non-refundable application fee · the FACTS/RenWeb online application · a parent interview with the Admissions Director · at least one parent must be a Christ-follower who is active in a local Christian church · a pastor’s recommendation · a $1,000 non-refundable enrollment deposit at contract · rolling admissions after the priority dates · no on-campus testing, shadow visit or parent interview for a late applicant unless space remains after April 9',
           },
         },
       ],
@@ -639,7 +639,7 @@ export const covenantDay: AdmissionsProgram = {
         kicker: 'In parallel — the financial aid clock',
         items: [
           'Aid is need-based and runs through FACTS, and a new application is required each year — an award does not carry forward.',
-          'Before you can be considered, you must provide proof of application for the NC Opportunity Scholarship. Covenant Day accepts the NC Opportunity and ESA+ Scholarships, administered by the North Carolina State Education Assistance Authority.',
+          'Before you can be considered, you must provide proof of application for the NC Opportunity Scholarship. Covenant Day accepts the NC Opportunity and ESA+ Scholarships, which are run by the North Carolina State Education Assistance Authority.',
           'Complete the aid application concurrently with the admissions application rather than waiting for a decision.',
           'Enrollment carries a $1,000 non-refundable deposit per student, applied toward the year’s tuition.',
           'The FACTS application fee and any reduced deposit for aid applicants are not published — confirm both with the student accounts office.',

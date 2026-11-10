@@ -374,8 +374,8 @@ shipped*) only after Batch 5.
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 | `9d63eba0` | [review-batch1.md](plainadmissions-data/review-batch1.md) | 2 (both fixed: Trinity referents) | approved 2026-11-09, no rulings |
-| 2 | (this commit) | [review-batch2.md](plainadmissions-data/review-batch2.md) | 6 (all fixed: 2 strengthened "firm deadline", 3 referents, 1 renamed document) | awaiting review |
-| 3 | | | | |
+| 2 | `b76a2497` | [review-batch2.md](plainadmissions-data/review-batch2.md) | 6 (all fixed: 2 strengthened "firm deadline", 3 referents, 1 renamed document) | approved 2026-11-09, no rulings |
+| 3 | (this commit) | [review-batch3.md](plainadmissions-data/review-batch3.md) | 2 (both fixed: "developmental readiness" restored, band 0 release sentence aligned) | awaiting review |
 | 4 | | | | |
 | 5 | | | | |
 
@@ -406,6 +406,10 @@ shipped*) only after Batch 5.
   rulings". Batch 1's choices therefore stand as precedent: `→` chains split at a step
   boundary as "First: … Then: …"; a time ending in `a.m.`/`p.m.` moved off the sentence end;
   "sits" → "takes"; "release" → "come out"; "verify against" → "check".
+- **Batch 2 (approved 2026-11-09): no rulings.** The placeholder arrived unfilled again.
+  Batch 2's choices stand as precedent: a long chain split "First: … Next: … Last: …"; a
+  school's document name ("custody agreements") is never paraphrased; "binding
+  constraint" is said as "your testing plan hinges on …", never "the deadline for this band".
 
 ### plain-ok register
 
@@ -1007,6 +1011,55 @@ were loaded. All 38 rewritten units render. Each was matched against the live mo
 with `**` stripped, and every bold span was found inside a `<strong>`. No page shows a literal
 `**`. At 390px, charlotte-christian with each of its 4 bands open has a max `scrollWidth` of
 375, so there is no overflow.
+
+### Batch 3 (2026-11-09)
+
+**Resume.** Batch 2 was approved with no rulings (the placeholder was unfilled again;
+recorded under "Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 21 paths / 21 distinct, all covenant-day. There are no exact
+repeats in this file. The near-repeats were built from one shared string each in the draft
+file, so they read identically:
+- the interview opening (`bands[0..2].steps[4]`);
+- the pastor sentence and the records-release sentence (`bands[0..2].steps[3]`);
+- the ISEE "offers … on campus" sentence (`bands[1].steps[2]`, `bands[2].steps[2]`).
+
+**Drafts were measured first.** Five were above grade 10 on the first pass:
+- the three recommendation units, weighed down by the records-release list, which keeps
+  every item. The sentences around it were simplified instead;
+- `aid.text`, which had one 36-word sentence;
+- the `·` cell.
+
+All were trimmed before applying. Every guard passed on the first `--check`.
+
+**One deviation from the plan.** The headline's shared opening sentence is no longer intact
+here. Covenant's version adds "six published" and runs **31 words**, so the hook flags it
+(the plan's "≤30 words" holds only for the other schools' shorter variant). It was split
+before "plus a printable checklist": "… and the screening for that band. You also get a
+printable checklist to take with you." The other seven headlines keep the one-sentence form.
+
+**The `·` cell** (`comparison.rows[9]`) went from 6 items to 8. Two items each held two facts
+and were split in place, which the Decisions allow:
+- "a parent interview with the Admissions Director" · "at least one parent must be a
+  Christ-follower who is active in a local Christian church";
+- "rolling admissions after the priority dates" · "no on-campus testing, shadow visit or
+  parent interview for a late applicant unless space remains after April 9".
+
+The order is unchanged (11.8 → 9.8).
+
+**Independent review: 2 findings, both fixed.** "developmental readiness" was restored (the
+school's term). Band 0's records-release sentence was aligned to bands 1–2 ("you give
+permission for a broad release"), because "note that the release is broad" did not say
+that entering the email grants it. See the review file.
+
+**Step 6 checks.** `npx tsc -b`, `npx vite build` and the eight later checks are green.
+`check:live` reports **83 distinct stale stamps per locale, all `admissions`** (62 + 21).
+Running total for Phase 2: **83**. `check:plain` now shows admissions Flagged **32**.
+
+**Step 7 browser check.** Every band was clicked and every `<details>` opened, and all 3
+`/admissions-checklist/?band=` pages were loaded. All 21 rewritten units render, every bold
+span is inside a `<strong>`, and no page shows a literal `**`. At 390px, with each of the 3
+bands open, the max `scrollWidth` is 375.
 
 ### Candidates noticed, not acted on
 
