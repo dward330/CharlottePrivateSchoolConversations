@@ -922,7 +922,7 @@ const COVENANT_DAY: FinancialAidReport = {
       figureNote:
         'Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.',
       figureNote2:
-        'The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish.',
+        'The school states what tuition includes: on-campus computers/iPads · technology expenses · school retreats and required field trips · science lab and elective fees · most athletic expenses. Several other schools on this site do not publish a list like this.',
       source:
         'covenantday.org — Tuition & Financial Aid (2026-27 table); 2025-2026 Tuition Payment Terms and Conditions PDF, retrieved 15 Aug 2026',
     },
@@ -946,7 +946,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'The deposit is aid-aware',
-          body: 'The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held.',
+          body: 'The $1,000 per-student deposit is non-refundable and credited to tuition. Families who send in a completed aid application before they enroll may ask the Business Office to **halve it** while the application is reviewed. But if you wait for an aid decision and do not pay the deposit, no seat is held.',
         },
       ],
       source:
@@ -1004,7 +1004,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
       ],
       source:
@@ -1037,7 +1037,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.',
+          body: 'No merit scholarships appear on the public record. Aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.',
         },
       ],
       source:
@@ -2021,7 +2021,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         { label: 'Senior Trip (grade 12) · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'The $500 enrollment (or re-enrollment) fee is non-refundable and, per the school, must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons; the PDF names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs without stating amounts.',
+        'The $500 enrollment (or re-enrollment) fee is non-refundable. The school says it must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons. The PDF also names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs, but gives no amounts.',
       source:
         'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF), retrieved 16 Aug 2026',
     },
@@ -2076,11 +2076,11 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Carmel Christian is a ministry of Carmel Baptist Church and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the school itself. Every other school in this project (bar Covenant Day) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Carmel Christian is a ministry of Carmel Baptist Church. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the school itself. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
         {
           tag: 'A RELATED ENTITY — NOT SCHOOL AID',
-          body: 'A related nonprofit, the **Carmel Educational Foundation** (EIN 56-2107877), does file: FY2025 (year ending 31 July) total revenue **$1,068,745**, total expenses **$618,023**, net assets **$1,894,088**, with contributions ~93.6% of revenue. But the return carries **no separate scholarship or grant line**, and the Foundation-to-school link, while probable, is not explicitly stated — so it yields no school-level aid figure and is not presented as one.',
+          body: 'A related nonprofit, the **Carmel Educational Foundation** (EIN 56-2107877), does file. For FY2025 (year ending 31 July): total revenue **$1,068,745** · total expenses **$618,023** · net assets **$1,894,088** · contributions ~93.6% of revenue. But the return has **no separate scholarship or grant line**. The Foundation\'s link to the school is probable but not explicitly stated. So the return gives no school-level aid figure, and this report does not present one.',
         },
       ],
       source:
@@ -2140,7 +2140,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family\'s FACTS portal. No annual or paid-in-full alternative, no prepayment discount, and no late-payment or withdrawal terms appear on the retrieved sources.',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family\'s FACTS portal. No annual or paid-in-full option, no prepayment discount, and no late-payment or withdrawal terms appear in the sources checked.',
         },
       ],
       source:
@@ -2216,7 +2216,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         { label: 'Grades 9–12 (High)', amount: 13750 },
       ],
       figureNote:
-        'Three bands from transitional kindergarten through grade 12, a $2,250 spread from lowest to highest. The school\'s own tuition-and-fees page renders its fee tables through an embedded FACTS/portal widget, so these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second aggregator) that match the school\'s published $11,500–$13,750 range, rather than lifted char-for-char from a school PDF.',
+        'Three bands run from transitional kindergarten through grade 12, with a $2,250 spread from lowest to highest. The school\'s own tuition-and-fees page shows its fee tables in an embedded FACTS/portal widget. So these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second school-listing website), not copied exactly from a school PDF. Both match the school\'s published $11,500–$13,750 range.',
       figureNote2:
         'Separate "student services fees" documents (2025-26 and 2026-27) are referenced on the tuition page but render through the portal and were not captured; those fee amounts are not shown here.',
       source:
@@ -2252,7 +2252,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No decision timeline, appeals process, or award-ceiling policy appears on the public record. The FACTS payment-plan installment count and any plan fee are set inside the portal. Automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027** per the school.',
+          body: 'The public record has no decision timeline, no appeals process and no award-ceiling policy. For the FACTS payment plan, the number of payments and any plan fee are set in the portal. The school says its automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027**.',
         },
       ],
       source:
@@ -2269,15 +2269,15 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         { value: '990-exempt', label: 'no public financial disclosure to derive from' },
       ],
       figureNote:
-        'The school publishes no percentage of students on aid, no total awarded, and no average award — and none can be derived, because there is no public financial disclosure to derive them from.',
+        'The school publishes no percentage of students on aid, no total awarded and no average award. None can be worked out either, because there is no public financial disclosure to work them out from.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church** and, as a church-affiliated organization, is **not required to file Form 990** — ProPublica returns no filing for the church as a school operator. Every other school in this project (bar Covenant Day and Carmel Christian) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church**. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the church as a school operator. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
         {
           tag: 'STATE VOUCHERS — NOT SCHOOL AID',
-          body: 'The NC Opportunity Scholarship 2023-24 annual report lists **224 recipients / $1,441,873 / ≈$6,437 average** flowing to HGCS families. That is **state-voucher money paid to families, not institutional need-based aid** — it is recorded here only for traceability and is deliberately not presented as the school\'s aid rate, total, or average.',
+          body: 'The NC Opportunity Scholarship 2023-24 annual report lists **224 recipients / $1,441,873 / ≈$6,437 average** going to HGCS families. That is **state-voucher money paid to families, not institutional need-based aid**. This report shows it only for reference. It is deliberately not presented as the school\'s aid rate, total or average.',
         },
       ],
       source:
@@ -2337,7 +2337,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family\'s FACTS portal. No paid-in-full alternative beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear on the retrieved sources.',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family\'s FACTS portal. No paid-in-full option beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear in the sources checked.',
         },
       ],
       source:
@@ -2622,7 +2622,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Only the current year is published.',
-      body: 'MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attribution, so no tuition trend is shown here rather than one built from unattributable numbers.',
+      body: 'MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attached. So this report shows no tuition trend, rather than building one from numbers it cannot date.',
     },
     {
       icon: 'book',
@@ -2644,7 +2644,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         { label: 'High International', amount: 23562 },
       ],
       figureNote:
-        'This is the structural feature no other school on this roster has: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041** where a community family pays **$21,562** for the same seat in the same classroom — a **$6,521 difference, roughly 30%**. Because CCHS is a 9–12 school, there is no grade-band ladder at all; these three rows are the entire schedule.',
+        'No other school on this site prices tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the entire schedule.',
       figureNote2:
         'The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools\' published tuition, since it is the price to a family with no parish affiliation.',
       source: 'discovermacs.org — Tuition & Affordability, retrieved 18 Aug 2026',
@@ -2697,7 +2697,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       boxes: [
         {
           title: 'Platform — Clarity, not FACTS',
-          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not the need-assessment platform — an easy and consequential mix-up, since most schools on this roster run FACTS Grant & Aid for assessment. **TADS is not used.**',
+          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not as the tool that assesses need. That is an easy mix-up with real consequences, because some other schools on this site use FACTS Grant & Aid to assess need. **TADS is not used.**',
         },
         {
           title: 'Family Individualized Tuition (FIT)',
@@ -2751,7 +2751,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'CCHS and MACS publish **no merit scholarships** of their own — no academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), parish-status-based (the Catholic rate and multi-child discounts), or state-funded.',
+          body: 'CCHS and MACS publish **no merit scholarships** of their own. No academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), based on parish status (the Catholic rate and multi-child discounts), or state-funded.',
         },
       ],
       source:

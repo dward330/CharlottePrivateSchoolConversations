@@ -448,7 +448,7 @@ shipped*) only after Batch 4.
 |---|---|---|---|---|
 | 1 | `8d9fd17f` | [review-batch1.md](plainaid-data/review-batch1.md) | 8 (all fixed: 3 meaning/claim changes incl. Prep "most expensive", 1 not-published → does-not-exist, 1 recipient → family unit change, 2 restored terms, 1 cross-school claim) | approved 2026-11-10, no rulings |
 | 2 | `0b6a0ed6` | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | approved 2026-11-10, no rulings |
-| 3 | `7404e85e` | [review-batch3.md](plainaid-data/review-batch3.md) | 9 (all fixed: 2 not-published verbs restored, 3 referents, 1 "only"/"also" contradiction, 1 strengthened "counted", 1 dropped "demonstrated", 1 false "every other school" claim → "most") | |
+| 3 | `7404e85e` | [review-batch3.md](plainaid-data/review-batch3.md) | 9 (all fixed: 2 not-published verbs restored, 3 referents, 1 "only"/"also" contradiction, 1 strengthened "counted", 1 dropped "demonstrated", 1 false "every other school" claim → "most") | approved 2026-11-10, no rulings |
 | 4 | | | | |
 
 ### Unit notes (things the drafter must not get wrong)
@@ -561,6 +561,15 @@ as precedent.
     program");
   - an overclaim verb is never upgraded ("addresses" → "is aimed at", not "fills");
   - "denominator" is said as "what the share is out of".
+
+- **Batch 3 (approved 2026-11-10): no rulings.** Placeholder unfilled again, so Gaston's
+  "Most other schools on this site publish at least the number of installments"
+  correction stands. Batch 3's choices stand:
+  - a cross-school claim is checked against every report before it is kept, and a false
+    "every" becomes the true quantifier;
+  - a marker word the before-text had is never swapped for one outside its class
+    ("carry" stays "carry", not "include"; "Refundability" stays, not "refundable");
+  - "only" covers everything the school says, so a split never adds "also".
 
 ### plain-ok register
 
