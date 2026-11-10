@@ -1,12 +1,12 @@
 ---
 name: plainadmissions
 title: Plain-language rewrite of the Admissions area's English prose (8 schools, 131 unit sites / 123 distinct texts once the checker reads `·` lists as lists), English in five reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 5                     # Phase 1 is built in five batches, each with its own review stop
 created: 2026-11-09
 branch: feat/plainadmissions
-prs: []
+prs: [469]
 ---
 
 # Plain-language rewrite — Admissions
@@ -377,7 +377,7 @@ shipped*) only after Batch 5.
 | 2 | `b76a2497` | [review-batch2.md](plainadmissions-data/review-batch2.md) | 6 (all fixed: 2 strengthened "firm deadline", 3 referents, 1 renamed document) | approved 2026-11-09, no rulings |
 | 3 | `7e11ffbc` | [review-batch3.md](plainadmissions-data/review-batch3.md) | 2 (both fixed: "developmental readiness" restored, band 0 release sentence aligned) | approved 2026-11-09, no rulings |
 | 4 | `a766043b` | [review-batch4.md](plainadmissions-data/review-batch4.md) | 5 (all fixed: 2 school statements turned into our claims, incl. the 4-site interview group; 1 referent; 1 weakened requirement; 1 who-arranges) | approved 2026-11-10, no rulings |
-| 5 | (this commit) | [review-batch5.md](plainadmissions-data/review-batch5.md) | 2 (both fixed: 2 referents after a split, "This" and "it") | awaiting review |
+| 5 | `6d212572` | [review-batch5.md](plainadmissions-data/review-batch5.md) | 2 (both fixed: 2 referents after a split, "This" and "it") | approved 2026-11-10 |
 
 ### Style rulings
 
